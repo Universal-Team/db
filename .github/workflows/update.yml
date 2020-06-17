@@ -23,7 +23,11 @@ jobs:
       run: |
         cd source
         python3 generate.py
-        
+
+    - name: Stage changes
+      run: |
+        git stage .
+
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.6.0
       with:
