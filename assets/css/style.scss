@@ -96,6 +96,11 @@ div .btn-primary:hover {
 	background-color: var(--primary)!important;
 }
 
+// Override the secondary text color
+.btn-outline-secondary {
+	color: var(--main-color);
+}
+
 // Override the dark text too
 .text-dark {
 	color: var(--dark)!important;
