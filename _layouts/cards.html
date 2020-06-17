@@ -75,7 +75,7 @@
 												{% if app.qr.size == 1 %}
 													{% for qr in app.qr %}
 														<p class="float-right">
-															<noscript><a href="{{ qr[0] }}"></noscript>
+															<noscript><a href="{{ qr[1] }}"></noscript>
 																<i class="fa fa-qrcode pointer" aria-hidden="true" onclick="toggleQR('{{ qr[1] }}', '{{ qr[0] }}')"></i>
 															<noscript></a></noscript>
 														</p>
