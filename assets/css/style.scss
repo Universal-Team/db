@@ -1,0 +1,196 @@
+---
+---
+
+// For the bottom aligned footer
+html, body {
+	height: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+}
+.content {
+	flex: 1 0 auto;
+}
+footer {
+	flex-shrink: 0;
+	padding-top: 20px;
+}
+
+body {
+	color: var(--main-color);
+	background-color: var(--main-bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--header-color);
+}
+
+h2 {
+	border-bottom: 1px solid var(--borders);
+}
+
+blockquote {
+	color: var(--blockquote-color);
+	margin-bottom: 20px;
+	padding: 0 0 0 20px;
+	border-left: 3px solid var(--borders);
+}
+
+code {
+	color: var(--code-color);
+	background-color: var(--code-bg);
+	padding: 3px;
+	border-radius: 0.25rem;
+}
+
+// .a is for making other things look like <a>s
+a, .a {
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	color: inherit;
+	font-weight: bold;
+	cursor: pointer;
+}
+a:hover, .a:hover {
+	color: var(--a-color);
+	text-decoration-thickness: 1px;
+}
+
+small {
+	font-size: 75%;
+	color: var(--small-color);
+}
+
+.btn {
+	text-decoration: none;
+}
+
+// Override bootstraps primary color
+.bg-primary {
+	background-color: var(--primary)!important;
+}
+.btn-primary, .btn-primary:focus {
+	color: var(--nav-link-color);
+	background-color: var(--primary)!important;
+	border-color: var(--primary)!important;
+}
+.btn-primary:hover, .btn-primary:active {
+	color: var(--nav-link-color)!important;
+	opacity: 0.8;
+}
+.btn-outline-primary {
+	color: var(--primary);
+	border-color: var(--primary);
+}
+.btn-outline-primary:hover, .btn-outline-primary:active {
+	background-color: var(--primary)!important;
+	border-color: var(--primary)!important;
+}
+.text-primary {
+	background-color: var(--primary)!important;
+}
+
+// Override the dark text too
+.text-dark {
+	color: var(--dark)!important;
+}
+
+// And the light bg
+.bg-light {
+	background-color: var(--light)!important;
+	border-color: var(--light-border)!important;
+}
+
+.bg-light::placeholder {
+	color: var(--light-placeholder);
+}
+
+// No underline on navbar links
+.navbar a {
+	text-decoration: none;
+}
+
+// Dim navbar-brand on hover
+.navbar a.navbar-brand:hover {
+	opacity: 0.5;
+}
+
+// Override nav-link color
+.navbar .nav-link {
+	color: var(--nav-link-color)!important;
+}
+.navbar .nav-link:hover {
+	color: var(--nav-link-color-hover)!important;
+}
+
+// And the active nav-link color
+.navbar .nav-link.active {
+	color: var(--nav-link-color-active)!important;
+}
+.navbar .nav-link.active:hover {
+	color: var(--nav-link-color-hover)!important;
+}
+
+// Make dropdowns site-colored and animated
+.dropdown-menu, .dropdown .hover-content {
+	background-color: var(--primary);
+	-webkit-transition: 300ms;
+	transition: 300ms;
+	display: block;
+	height: 0;
+	padding: 0;
+	overflow: hidden;
+	visibility: hidden;
+	margin: 0;
+}
+.dropdown .hover-content {
+	display: none;
+}
+.dropdown-menu.show, .dropdown:hover .hover-content {
+	display: block;
+	height: auto;
+	padding: 0.5rem 0;
+	visibility: visible;
+}
+
+.dropdown-item {
+	color: var(--nav-link-color)!important;
+}
+.dropdown-item:hover, .dropdown-item:active, .dropdown-item:focus {
+	background-color: var(--dropdown-item-bg-hover);
+}
+
+// Make images smaller
+.img-small {
+	max-width: 250px;
+	max-height: 250px;
+}
+
+.btn-change-theme {
+	position: absolute;
+	right: 5px;
+	margin: 5px 0 5px 5px;
+	font-size: 8pt;
+	padding: 5px;
+	z-index: 10;
+}
+
+.card {
+	background-color: inherit;
+}
+
+.card a {
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.card:hover a h4 {
+	color: inherit;
+}
+
+@media only screen and (min-width: 1024px) {
+	.main-content {
+		max-width: 75%;
+	}
+}

@@ -1,0 +1,10 @@
+<meta property="og:title" content="Home" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="{{ page.description }}" />
+<meta property="og:description" content="{{ page.description }}" />
+<link rel="canonical" href="{{ site.url | append: page.url }}" />
+<meta property="og:url" content="{{ site.url | append: page.url }}" />
+<meta property="og:site_name" content="{{ site.title }}" />
+{% if page.image %}
+	<meta property="og:image" content="{{ page.image }}">
+{% endif %}

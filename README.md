@@ -1,2 +1,3 @@
-# db
-Universal DB - An online database of 3DS and DS homebrew
+# Universal DB
+
+An online database of 3DS and DS homebrew

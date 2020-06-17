@@ -1,0 +1,40 @@
+[
+  {
+    "title": "Home",
+    "url": "/"
+  },
+  {
+    "title": "3DS",
+    "items": [
+      {
+        "title": "All",
+        "url": "/3ds"
+      },
+      {
+        "title": "Games",
+        "url": "/3ds/games"
+      },
+      {
+        "title": "Utilities",
+        "url": "/3ds/utilities"
+      }
+    ]
+  },
+  {
+    "title": "DS",
+    "items": [
+      {
+        "title": "All",
+        "url": "/ds"
+      },
+      {
+        "title": "Games",
+        "url": "/ds/games"
+      },
+      {
+        "title": "Utilities",
+        "url": "/ds/utilities"
+      }
+    ]
+  }
+]

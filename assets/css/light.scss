@@ -1,0 +1,26 @@
+---
+---
+
+:root {
+	// Main contents
+	--main-bg: #fff;
+	--main-color: #222;
+	--header-color: #222;
+	--borders: #bbb;
+	--blockquote-color: #666;
+	--code-bg: #ddd;
+	--code-color: #333;
+	--a-color: gray;
+	--small-color: gray;
+
+	// Nav
+	--nav-link-color: rgba(255, 255, 255, 0.7);
+	--nav-link-color-hover: rgba(255, 255, 255, 0.5);
+	--nav-link-color-active: rgba(255, 255, 255, 1);
+	--dropdown-item-bg-hover: rgba(0, 0, 0, 0.3);
+	--primary: {{ page.color | default: site.color }};
+	--dark: #343a40;
+	--light: #f8f9fa;
+	--light-border: #ced4da;
+	--light-placeholder: darkgray;
+}

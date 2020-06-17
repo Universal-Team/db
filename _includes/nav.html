@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+	<div class="container-fluid maxwidth">
+		<span class="navbar-brand">
+			<a class="navbar-brand mb-0 h1" href="/">{{ site.title }}</a>
+		</span>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav">
+				{% for item in site.data.nav %}
+					{% if item.url %}
+						<li class="nav-item">
+							<a class="nav-link {% if item.title == page.title %} active {% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+						</li>
+					{% endif %}
+					{% if item.items %}
+						<li class="nav-item dropdown">
+							<a class="nav-link
+								{% for entry in item.items %}
+									{% if entry.title == page.title %} active {% endif %}
+								{% endfor %}
+							dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.title }}</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								{% for entry in item.items %}
+									<a class="dropdown-item" href="{{ entry.url }}">{{ entry.title }}</a>
+								{% endfor %}
+							</div>
+							<noscript>
+								<!-- Fallback hover menu -->
+								<div class="dropdown-menu hover-content">
+									{% for entry in item.items %}
+										<a class="dropdown-item" href="{{ entry.url }}">{{ entry.title }}</a>
+									{% endfor %}
+								</div>
+							</noscript>
+						</li>
+					{% endif %}
+				{% endfor %}
+				<li class="nav-item">
+					<a class="nav-link" href="https://github.com/{{ page.repo | default: site.repo }}">Source</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>

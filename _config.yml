@@ -1,0 +1,11 @@
+# theme       : jekyll-theme-slate
+title       : "Universal DB"
+description : "Universal DB - A database of DS and 3DS homebrew"
+repo        : "Universal-Team/db"
+color       : "#072f4f"
+
+collections:
+  3ds:
+    output: true
+  ds:
+    output: true
