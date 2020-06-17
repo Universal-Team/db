@@ -11,7 +11,7 @@
 				{% for item in site.data.nav %}
 					{% if item.url %}
 						<li class="nav-item">
-							<a class="nav-link {% if item.title == page.title %} active {% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+							<a class="nav-link {% if item.title == page.title %} active {% endif %}" href="{{ site.url }}{{ item.url }}">{{ item.title }}</a>
 						</li>
 					{% endif %}
 					{% if item.items %}
