@@ -190,6 +190,19 @@ div .btn-primary:hover {
 	z-index: 10;
 }
 
+// Input box
+.input-group-text {
+	color: var(--light-placeholder);
+	background-color: var(--light);
+	border-color: var(--light-border);
+}
+.form-control, .form-control:focus {
+	color: var(--light-placeholder);
+	background-color: var(--light);
+	border-color: var(--light-border);
+}
+
+// Cards
 .card {
 	background-color: inherit;
 }
