@@ -24,11 +24,13 @@ jobs:
         cd source
         python3 generate.py
 
-    - name: Stage changes
-      run: |
-        git stage .
-
-    - name: GitHub Push
-      uses: ad-m/github-push-action@v0.6.0
+    - name: Push changes
+      uses: github-actions-x/commit@v2.6
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'master'
+        commit-message: 'Update sources'
+        force-add: 'true'
+        files: .
+        name: TWLBot
+        email: flamekat54@aol.com 
