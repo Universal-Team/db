@@ -3,6 +3,8 @@ title       : "Universal DB"
 description : "Universal DB - A database of DS and 3DS homebrew"
 repo        : "Universal-Team/db"
 color       : "#072f4f"
+# This is dumb
+url         : https://universal-team.github.io/db
 
 collections:
   3ds:
