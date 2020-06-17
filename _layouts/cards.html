@@ -38,12 +38,19 @@
 						{{ content }}
 						
 						<noscript><div class="d-none"></noscript>
-						<div class="input-group">
-							<div class="input-group-prepend mb-3">
-								<label for="search" class="input-group-text">Search:</label>
+							<div class="mb-3">
+								Sort:
+								<button class="btn btn-outline-primary" onclick="sort('title')">Title</button>
+								<button class="btn btn-outline-primary" onclick="sort('description')">Description</button>
+								<button class="btn btn-outline-primary" onclick="sort('updated')">Date Updated</button>
+								<button class="btn btn-outline-primary float-right" onclick="toggleSortDirection()" id="sort-direction">Ascending</button>
 							</div>
-							<input id="search" class="form-control" type="text" placeholder="Search by title or description" onkeyup="search(event.srcElement.value);">
-						</div>
+							<div class="input-group">
+								<div class="input-group-prepend mb-3">
+									<label for="search" class="input-group-text">Search:</label>
+								</div>
+								<input id="search" class="form-control" type="text" placeholder="Search by title or description" onkeyup="search(event.srcElement.value);">
+							</div>
 						<noscript></div></noscript>
 						
 						{% if page.collection == "3ds" %}
@@ -52,10 +59,10 @@
 							{% assign cards = site.ds %}
 						{% endif %}
 
-						<div class="card-columns">
+						<div class="card-columns" id="card-container">
 							{% for app in cards %}
 								{% if page.category == Nil or app.categories contains page.category %}
-									<div class="card" id="{{ app.title }} {{ app.description }}">
+									<div class="card" data-title="{{ app.title }}" data-description="{{ app.description }}" data-updated="{{ app.updated }}">
 										<a href="{{ site.url }}{{ app.url }}">
 											{% if app.image %}
 												<div class="card-header">
