@@ -41,7 +41,7 @@ function sort(prop) {
 	row.classList = "row mb-3";
 	for(let i in sorted) {
 		let col = document.createElement("div");
-		col.classList.add("col-sm-3");
+		col.classList.add("col-md-3");
 		col.appendChild(sorted[i]);
 		row.appendChild(col);
 		if(i % 4 == 3) {
