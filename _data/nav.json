@@ -1,22 +1,22 @@
 [
   {
     "title": "Home",
-    "url": "/"
+    "url": "/db"
   },
   {
     "title": "3DS",
     "items": [
       {
         "title": "All",
-        "url": "/3ds"
+        "url": "/db/3ds"
       },
       {
         "title": "Games",
-        "url": "/3ds/games"
+        "url": "/db/3ds/games"
       },
       {
         "title": "Utilities",
-        "url": "/3ds/utilities"
+        "url": "/db/3ds/utilities"
       }
     ]
   },
@@ -25,19 +25,19 @@
     "items": [
       {
         "title": "All",
-        "url": "/ds"
+        "url": "/db/ds"
       },
       {
         "title": "Emulators",
-        "url": "/ds/emulators"
+        "url": "/db/ds/emulators"
       },
       {
         "title": "Utilities",
-        "url": "/ds/utilities"
+        "url": "/db/ds/utilities"
       }
     ]
   }, {
-    "title": "Subit app request",
+    "title": "Submit app request",
     "url": "https://github.com/Universal-Team/db/issues/new?assignees=&labels=app+request&template=app-request.md"
   }
 ]
