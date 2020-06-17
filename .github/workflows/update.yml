@@ -6,7 +6,7 @@ on:
     - cron: 0 * * * *
   push:
     branches: [ master ]
-    paths: [ source ]
+    paths: [ source/source.json ]
 
 jobs:
   run:
