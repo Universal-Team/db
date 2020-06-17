@@ -12,11 +12,11 @@
       },
       {
         "title": "Games",
-        "url": "/db/3ds/games"
+        "url": "/db/3ds/game"
       },
       {
         "title": "Utilities",
-        "url": "/db/3ds/utilities"
+        "url": "/db/3ds/utility"
       }
     ]
   },
@@ -29,11 +29,11 @@
       },
       {
         "title": "Emulators",
-        "url": "/db/ds/emulators"
+        "url": "/db/ds/emulator"
       },
       {
         "title": "Utilities",
-        "url": "/db/ds/utilities"
+        "url": "/db/ds/utility"
       }
     ]
   }, {

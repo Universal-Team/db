@@ -49,7 +49,10 @@
 									{% if page.website %}</a>{% elsif page.source %}</a>{% endif %}
 									<div class="card-footer">
 										{% if page.categories %}
-											Categories: {{ page.categories | join: ", " }}
+											Categories:
+											{% for category in page.categories %}
+											<a href="/db/{{ page.collection }}/{{ category }}">{{ category }}</a>
+											{% endfor %}
 										{% endif %}
 									</div>
 								</div>
