@@ -1,0 +1,29 @@
+name: Update sources
+
+# Run on push and hourly
+on:
+  schedule:
+    - cron: 0 * * * *
+  push:
+    branches: [ master ]
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Install packages
+      run: |
+        pip3 install pyyaml qrcode[pil]
+
+    - name: Run generate.py
+      run: |
+        cd source
+        python3 generate.py
+        
+    - name: GitHub Push
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
