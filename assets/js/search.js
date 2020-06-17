@@ -25,9 +25,23 @@ function sort(prop) {
 	if(prop)
 		localStorage.sortProp = prop;
 
-	let sorted = Array.from(document.getElementById("card-container").children).sort(function(l, r) {
+	let sorted = Array.from(document.getElementsByClassName("card")).sort(function(l, r) {
 		return ((l.dataset[localStorage.sortProp].toLowerCase() < r.dataset[localStorage.sortProp].toLowerCase()) ^ localStorage.sortDirection) ? -1 : 1;
 	});
-	document.getElementById("card-container").innerHTML = "";
-	sorted.forEach(r => document.getElementById("card-container").appendChild(r));
+	let container = document.getElementById("card-container");
+	container.innerHTML = "";
+	let row = document.createElement("div");
+	row.classList = "row mb-3";
+	for(let i in sorted) {
+		let col = document.createElement("div");
+		col.classList.add("col-sm-3");
+		col.appendChild(sorted[i]);
+		row.appendChild(col);
+		if(i % 4 == 3) {
+			container.appendChild(row);
+			row = document.createElement("div");
+			row.classList = "row mb-3";
+		}
+	}
+	container.appendChild(row);
 }
