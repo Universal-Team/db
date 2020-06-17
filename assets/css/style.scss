@@ -62,8 +62,13 @@ small {
 	color: var(--small-color);
 }
 
-.btn {
+.btn, .btn a {
 	text-decoration: none;
+}
+
+div .btn-primary:hover {
+	background-color: inherit;
+	opacity: inherit;
 }
 
 // Override bootstraps primary color

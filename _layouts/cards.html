@@ -53,10 +53,15 @@
 												<h4 class="card-title text-center">{{ app.title }}</h4>
 												
 												<p class="card-text">{{ app.description }}</p>
-												
-												{% if app.version %}
-													<small class="text-muted">Verion: {{ app.version }}</small>
-												{% endif %}
+												<small class="text-muted">
+													{% if app.version %}
+														Version: {{ app.version }}
+													{% endif %}
+													{% if app.updated %}
+														<br>
+														Last updated: {{ app.updated | date: "%Y-%m-%d at %H:%M (UTC)"}}
+													{% endif %}
+												</small>
 											</div>
 										</a>
 									</div>

@@ -35,29 +35,86 @@
 
 						<div class="row">
 							<div class="col-md-4">
-								{% if page.source %}<a href="{{ page.source }}">{% endif %}
-									<div>
-										{% if page.image %}
-											<img class="mx-auto d-block" src="{{ page.image }}" alt="{{ page.title }}">
+								<div class="card">
+									{% if page.website %}<a href="{{ page.website }}">{% elsif page.source %}<a href="{{ page.source }}">{% endif %}
+										<div class="card-body">
+											<div>
+												{% if page.image %}
+												<img class="mx-auto d-block mw-100" src="{{ page.image }}" alt="{{ page.title }}">
+												{% endif %}
+												<h4 class="card-title text-center">{{ page.title }}</h4>
+												<p class="card-text">{{ page.description }}</p>
+											</div>
+										</div>
+									{% if page.website %}</a>{% elsif page.source %}</a>{% endif %}
+									<div class="card-footer">
+										{% if page.categories %}
+											Categories: {{ page.categories | join: ", " }}
 										{% endif %}
-										<h4 class="card-title text-center">{{ page.title }}</h4>
 									</div>
-								{% if page.source %}</a>{% endif %}
-								{% if page.categories %}
-									Categories: {{ page.categories | join: ", " }}
-								{% endif %}
+								</div>
+								<div class="text-center pt-3">
+									{% if page.source %}
+										<a class="btn btn-primary m-1" href="{{ page.source }}">Source</a>
+									{% endif %}
+									{% if page.website %}
+										<a class="btn btn-primary m-1" href="{{ page.website }}">Website</a>
+									{% endif %}
+									{% if page.wiki %}
+										<a class="btn btn-primary m-1" href="{{ page.wiki }}">Wiki</a>
+									{% endif %}
+								</div>
 							</div>
 							<div class="col-md-8">
-								<p class="card-text">{{ page.description }}</p>
-
-								{% for item in page.downloads %}
-									<a class="btn btn-primary" href="{{ item[1] }}">Download {{ item[0] }}</a>
-								{% endfor %}
-
-								{% if page.version %}
-									<br>
-									<small class="text-muted">Verion: {{ page.version }}</small>
-								{% endif %}
+								<div class="row">
+									<div class="col-12">
+										<h2>Downloads</h2>
+										{% for item in page.downloads %}
+										<span class="btn btn-primary">
+											<a class="mr-1" href="{{ item[1] }}">Download {{ item[0] }}</a>
+											{% for qr in page.qr %}
+												{% if item[0] == qr[0] %}
+													<a href="{{ qr[1] }}">
+														<i class="fa fa-qrcode" aria-hidden="true"></i>
+													</a>
+												{% endif %}
+											{% endfor %}
+											</span>
+										{% endfor %}
+										
+										{% if page.version %}
+											<br>
+											<small class="text-muted">
+												Version: {{ page.version }}{% if page.version_title %}, {{ page.version_title }}{% endif %}
+												<br>
+												{% if page.updated %}
+													Last updated: {{ page.updated | date: "%Y-%m-%d at %H:%M (UTC)"}}
+												{% endif %}
+											</small>
+										{% endif %}
+									</div>
+								</div>
+								{% if page.prerelease %}
+									<div class="row mt-5">
+										<div class="col-12">
+											<h2>Prereleases</h2>
+											{% for item in page.prerelease.downloads %}
+												<a class="btn btn-secondary m-1" href="{{ item[1] }}">Download {{ item[0] }}</a>
+											{% endfor %}
+			
+											{% if page.prerelease.version %}
+												<br>
+												<small class="text-muted">
+													Version: {{ page.prerelease.version }}{% if page.prerelease.version_title %}, {{ page.prerelease.version_title }}{% endif %}
+													<br>
+													{% if page.prerelease.updated %}
+														Last updated: {{ page.prerelease.updated | date: "%Y-%m-%d at %H:%M (UTC)"}}
+													{% endif %}
+												</small>
+											{% endif %}
+										</div>
+									</div>
+								{% endif%}
 							</div>
 						</div>
 					</div>
