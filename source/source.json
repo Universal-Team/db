@@ -1,0 +1,57 @@
+[
+	{
+		"title": "Universal-Updater",
+		"system": "3DS",
+		"image": "https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/banner.png",
+		"categories": ["utility"],
+		"github": "Universal-Team/Universal-Updater"
+	},
+	{
+		"title": "TWiLight Menu++ Updater",
+		"system": "3DS",
+		"image": "https://raw.githubusercontent.com/RocketRobz/TWiLightMenu-Updater/master/app/banner.png",
+		"categories": ["utility"],
+		"github": "RocketRobz/TWiLightMenu-Updater"
+	},
+	{
+		"github": "Universal-Team/3DEins",
+		"image": "https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/banner.png",
+		"categories": ["game"],
+		"system": "3DS"
+	},
+	{
+		"github": "Universal-Team/3DVier",
+		"image": "https://raw.githubusercontent.com/Universal-Team/3DVier/master/app/banner.png",
+		"categories": ["game"],
+		"system": "3DS"
+	},
+	{
+		"github": "Universal-Team/LeafEdit",
+		"image": "https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/banner.png",
+		"categories": ["utility"],
+		"system": "3DS"
+	},
+	{
+		"github": "Universal-Team/Universal-Edit",
+		"image": "https://raw.githubusercontent.com/Universal-Team/Universal-Edit/master/3DS/app/banner.png",
+		"categories": ["utility"],
+		"system": "3DS"
+	},
+	{
+		"github": "Universal-Team/pkmn-chest",
+		"image": "https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/resources/icon.png",
+		"categories": ["utility"],
+		"system": "DS"
+	},
+	{
+		"github": "Universal-Team/Relaunch",
+		"image": "https://raw.githubusercontent.com/Universal-Team/Relaunch/master/logo.png",
+		"categories": ["utility"],
+		"system": "DS"
+	},
+	{
+		"github": "Gericom/GBARunner2",
+		"categories": ["emulator"],
+		"system": "DS"
+	}
+]
