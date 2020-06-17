@@ -53,5 +53,11 @@
 		"github": "Gericom/GBARunner2",
 		"categories": ["emulator"],
 		"system": "DS"
+	},
+	{
+		"github": "RocketRobz/GodMode9i",
+		"categories": ["utility"],
+		"system": "DS",
+		"image": "https://raw.githubusercontent.com/RocketRobz/GodMode9i/master/resources/logo2.png"
 	}
 ]
