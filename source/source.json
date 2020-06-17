@@ -50,11 +50,6 @@
 		"system": "DS"
 	},
 	{
-		"github": "Gericom/GBARunner2",
-		"categories": ["emulator"],
-		"system": "DS"
-	},
-	{
 		"github": "RocketRobz/GodMode9i",
 		"categories": ["utility"],
 		"system": "DS",
