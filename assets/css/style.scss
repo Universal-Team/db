@@ -196,7 +196,7 @@ div .btn-primary:hover {
 	background-color: var(--light);
 	border-color: var(--light-border);
 }
-.form-control, .form-control:focus {
+.form-control, .form-control:focus, .form-control::placeholder {
 	color: var(--light-placeholder);
 	background-color: var(--light);
 	border-color: var(--light-border);
