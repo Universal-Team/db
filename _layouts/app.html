@@ -70,7 +70,7 @@
 									<div class="col-12">
 										<h2>Downloads</h2>
 										{% for item in page.downloads %}
-										<span class="btn btn-primary">
+										<span class="btn btn-primary m-1">
 											<a class="mr-1" href="{{ item[1] }}">Download {{ item[0] }}</a>
 											{% for qr in page.qr %}
 												{% if item[0] == qr[0] %}
