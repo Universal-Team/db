@@ -16,7 +16,7 @@ jobs:
     
     - name: Install packages
       run: |
-        pip3 install pyyaml qrcode[pil]
+        pip3 install qrcode[pil]
 
     - name: Run generate.py
       run: |
