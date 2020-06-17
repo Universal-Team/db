@@ -29,7 +29,12 @@
 
 		<main>
 			<button onclick="changeTheme()" class="btn btn-primary button btn-change-theme">Change theme</button>
-			<a class="btn btn-primary btn-back" href="."><i class="fa fa-chevron-left" aria-hidden="true"></i> Back</a>
+			<noscript><a class="" href="."></noscript>
+				<span class="btn btn-primary btn-back" onclick="window.history.back()"><i class="fa fa-chevron-left" aria-hidden="true"></i> Back</span>
+			<noscript></a></noscript>
+
+			{% include popup.html %}
+
 			<div class="container-fluid">
 				<div class="row pt-5">
 					<div class="col-12 mw-50 main-content mx-auto">
@@ -39,10 +44,12 @@
 							<div class="col-md-4">
 								<div class="card">
 									{% if page.website %}<a href="{{ page.website }}">{% elsif page.source %}<a href="{{ page.source }}">{% endif %}
+										<div class="card-header">
+											<img class="mx-auto d-block mw-100" src="{{ page.image }}" alt="{{ page.title }}">
+										</div>
 										<div class="card-body">
 											<div>
 												{% if page.image %}
-												<img class="mx-auto d-block mw-100" src="{{ page.image }}" alt="{{ page.title }}">
 												{% endif %}
 												<h4 class="card-title text-center">{{ page.title }}</h4>
 												<p class="card-text">{{ page.description }}</p>
@@ -79,9 +86,9 @@
 											<a class="mr-1" href="{{ item[1] }}">Download {{ item[0] }}</a>
 											{% for qr in page.qr %}
 												{% if item[0] == qr[0] %}
-													<a href="{{ qr[1] }}">
-														<i class="fa fa-qrcode" aria-hidden="true"></i>
-													</a>
+													<noscript><a href="{{ qr[1] }}"></noscript>
+														<i class="fa fa-qrcode" aria-hidden="true" onclick="toggleQR('{{ qr[1] }}', '{{ qr[0] }}')"></i>
+													<noscript></a></noscript>
 												{% endif %}
 											{% endfor %}
 											</span>
@@ -133,5 +140,6 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="{{ site.url }}/assets/js/popupQR.js"></script>
 </body>
 </html>

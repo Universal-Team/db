@@ -207,6 +207,33 @@ div .btn-primary:hover {
 	text-decoration: underline;
 }
 
+.pointer {
+	cursor: pointer;
+}
+
+#popup-container {
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	margin-top: 10px;
+}
+
+#popup {
+	background-color: rgba(0, 0, 0, 0.75);
+	border-radius: 1rem;
+	color: var(--light);
+	padding: 20px;
+	max-width: 80%;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#popup-image {
+	background-color: rgba(0, 0, 0, 0.75);
+	border-radius: 1rem 1rem;
+	max-width: 100%;
+}
+
 @media only screen and (min-width: 1024px) {
 	.main-content {
 		max-width: 75%;
