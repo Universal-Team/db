@@ -1,5 +1,5 @@
 if(localStorage.theme)
-	document.getElementById("theme").href = `/db/assets/css/${localStorage.theme}.css`;
+	document.getElementById("theme").href = `/assets/css/${localStorage.theme}.css`;
 
 function changeTheme() {
 	if(localStorage.theme == "dark") // Change to light
@@ -8,5 +8,5 @@ function changeTheme() {
 		localStorage.theme = "dark";
 
 	// Update active stylesheet
-	document.getElementById("theme").href = `/db/assets/css/${localStorage.theme}.css`;
+	document.getElementById("theme").href = `/assets/css/${localStorage.theme}.css`;
 }
