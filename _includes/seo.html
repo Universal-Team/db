@@ -5,6 +5,4 @@
 <link rel="canonical" href="{{ site.url | append: page.url }}" />
 <meta property="og:url" content="{{ site.url | append: page.url }}" />
 <meta property="og:site_name" content="{{ site.title }}" />
-{% if page.image %}
-	<meta property="og:image" content="{{ page.image }}">
-{% endif %}
+<meta property="og:image" content="{{ page.image | default: site.image }}">
