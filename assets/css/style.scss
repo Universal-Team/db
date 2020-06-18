@@ -62,6 +62,11 @@ small {
 	color: var(--small-color);
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 .btn, .btn a {
 	text-decoration: none;
 }

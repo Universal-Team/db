@@ -38,10 +38,8 @@
 			<div class="container-fluid">
 				<div class="row pt-5">
 					<div class="col-12 mw-50 main-content mx-auto">
-						{{ content }}
-
 						<div class="row">
-							<div class="col-md-4">
+							<div class="col-md-4 mb-3">
 								<div class="card">
 									{% if page.website %}<a href="{{ page.website }}">{% elsif page.source %}<a href="{{ page.source }}">{% endif %}
 										<div class="card-header">
@@ -127,6 +125,14 @@
 										</div>
 									</div>
 								{% endif%}
+								{% if content.size > 1 %}
+									<div class="row">
+										<div class="col-12">
+											<hr>
+											{{ content }}
+										</div>
+									</div>
+								{% endif %}
 							</div>
 						</div>
 					</div>

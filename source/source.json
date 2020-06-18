@@ -1,6 +1,6 @@
 [
 	{
-		"title": "Universal-Updater",
+		"long_description": "Universal-Updater is a homebrew app that allows easy installation and updating of other 3DS homebrew!\n\nSome features include:\n- Flexible and easy to make scripts\n- Pre-made scripts that anyone can submit available for download from within the app\n- Translated to English, French, German, Italian, Japanese, Lithuanian, Portuguese, Russian, and Spanish\n- Customizable interface colors\n- Get some useful Homebrew apps thanks to the TinyDB implementation\n\n![The main menu](https://universal-team.github.io/images/universal-updater/mainMenu.png)",
 		"system": "3DS",
 		"image": "https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/banner.png",
 		"categories": ["utility"],
@@ -14,6 +14,7 @@
 		"github": "RocketRobz/TWiLightMenu-Updater"
 	},
 	{
+		"long_description": "3DEins is a Cardgame for Nintendo 3DS. It's basically an UNO clone.\n\nIt currently includes:\n- Multi Player on one console\n- Customizable Cards & Characters\n- Translated to English, French, German, Japanese, Russian, and Spanish\n- Customizable interface colors\n\n![The main menu](https://universal-team.github.io/images/3deins/mainMenu.png)",
 		"github": "Universal-Team/3DEins",
 		"image": "https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/banner.png",
 		"categories": ["game"],
@@ -26,6 +27,7 @@
 		"system": "3DS"
 	},
 	{
+		"long_description": "LeafEdit is a work in progress Animal Crossing: New Leaf save manager and editor for the Nintendo 3DS!\n\nFeatures include:\n- Changing player info such as name, tan, and money\n- See the Items on your Pocket and Dresser\n- See the Villager and replace them\n- Editing the layout of your village [Experimental, because it can break your save easilly!!]\n\n![The game selection menu](https://universal-team.github.io/images/leafedit/gameSelection.png)",
 		"github": "Universal-Team/LeafEdit",
 		"image": "https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/banner.png",
 		"categories": ["utility"],
@@ -38,6 +40,7 @@
 		"system": "3DS"
 	},
 	{
+		"long_description": "Pokémon Chest is an app for the DS(i) that can store and edit Pokémon in the DS Pokémon games.\n\nIt's current features include:\n- Loading save files from DSi SD, Flashcard SD, and retail cartridges\n- Storing up to 50 (flashcards) or 500 (DSi/3DS) boxes of Pokémon per chest with support for multiple chests\n- Editing most Pokémon, trainer, and other save data\n- Editing items in the bag\n- Injecting pk* files from SD\n- Dumping Pokémon to pk* files\n- Translated to Chinese, English, French, German, Indonesian, Italian, Japanese, Korean*, Lithuanian, Polish, Portuguese, Russian, and Spanish\n\n![A storage box](https://universal-team.github.io/images/pkmn-chest/box-2.png) ![editing a Pokémon](https://universal-team.github.io/images/pkmn-chest/summary.png)",
 		"github": "Universal-Team/pkmn-chest",
 		"image": "https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/resources/icon.png",
 		"categories": ["utility"],
@@ -55,6 +58,7 @@
 		"system": "DS"
 	},
 	{
+		"long_description": "![The file list](https://gbatemp.b-cdn.net/attachments/snap_191132-png.195368)",
 		"github": "RocketRobz/GodMode9i",
 		"categories": ["utility"],
 		"system": "DS",
