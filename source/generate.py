@@ -73,10 +73,10 @@ unistore = {
 	"storeInfo": {
 		"title": "Universal-DB",
 		"author": "Universal-Team",
-		"url": "https://github.com/Universal-Team/db/raw/master/unistore/Index.unistore",
+		"url": "https://github.com/Universal-Team/db/raw/master/unistore/universal-db.unistore",
 		"file": "sdmc:/3ds/Universal-Updater/stores/Universal-DB.unistore",
 		"sheet": "sdmc:/3ds/Universal-Updater/stores/Universal-DB.t3x",
-		"sheetURL": "https://github.com/Universal-Team/db/raw/master/unistore/Index.t3x",
+		"sheetURL": "https://github.com/Universal-Team/db/raw/master/unistore/universal-db.t3x",
 		"description": "Universal DB - An online database of 3DS and DS homebrew",
 		"barLight": "#395472",
 		"barDark": "#395472",
@@ -232,5 +232,5 @@ for app in source:
 	unistore["storeContent"].append(uni)
 
 # Write unistore to file
-with open(os.path.join("..", "universal-db.unistore"), "w") as file:
+with open(os.path.join("..", "unistore", "universal-db.unistore"), "w") as file:
 	file.write(json.dumps(unistore))
