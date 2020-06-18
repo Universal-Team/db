@@ -17,7 +17,7 @@ jobs:
     
     - name: Install packages
       run: |
-        pip3 install qrcode[pil]
+        pip3 install qrcode[pil] python-dateutil
 
     - name: Run generate.py
       run: |
