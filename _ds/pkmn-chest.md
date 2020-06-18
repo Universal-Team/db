@@ -19,3 +19,15 @@ version_title: Added Chinese and Polish and widescreen on 3DS
 website: https://universal-team.github.io/projects/pkmn-chest
 wiki: https://github.com/Universal-Team/pkmn-chest/wiki
 ---
+Pokémon Chest is an app for the DS(i) that can store and edit Pokémon in the DS Pokémon games.
+
+It's current features include:
+- Loading save files from DSi SD, Flashcard SD, and retail cartridges
+- Storing up to 50 (flashcards) or 500 (DSi/3DS) boxes of Pokémon per chest with support for multiple chests
+- Editing most Pokémon, trainer, and other save data
+- Editing items in the bag
+- Injecting pk* files from SD
+- Dumping Pokémon to pk* files
+- Translated to Chinese, English, French, German, Indonesian, Italian, Japanese, Korean*, Lithuanian, Polish, Portuguese, Russian, and Spanish
+
+![A storage box](https://universal-team.github.io/images/pkmn-chest/box-2.png) ![editing a Pokémon](https://universal-team.github.io/images/pkmn-chest/summary.png)

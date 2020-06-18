@@ -17,3 +17,12 @@ version: v0.1.0
 version_title: 3DEins first Release!
 wiki: https://github.com/Universal-Team/3DEins/wiki
 ---
+3DEins is a Cardgame for Nintendo 3DS. It's basically an UNO clone.
+
+It currently includes:
+- Multi Player on one console
+- Customizable Cards & Characters
+- Translated to English, French, German, Japanese, Russian, and Spanish
+- Customizable interface colors
+
+![The main menu](https://universal-team.github.io/images/3deins/mainMenu.png)

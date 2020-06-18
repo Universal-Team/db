@@ -18,3 +18,13 @@ version_title: Faster extraction and installation!
 website: https://universal-team.github.io/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
+Universal-Updater is a homebrew app that allows easy installation and updating of other 3DS homebrew!
+
+Some features include:
+- Flexible and easy to make scripts
+- Pre-made scripts that anyone can submit available for download from within the app
+- Translated to English, French, German, Italian, Japanese, Lithuanian, Portuguese, Russian, and Spanish
+- Customizable interface colors
+- Get some useful Homebrew apps thanks to the TinyDB implementation
+
+![The main menu](https://universal-team.github.io/images/universal-updater/mainMenu.png)
