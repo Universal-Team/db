@@ -61,6 +61,12 @@
 											<a href="/db/{{ page.collection }}/{{ category }}">{{ category }}</a>
 											{% endfor %}
 										{% endif %}
+										<small class="text-muted">
+											{% if page.created %}
+												<br>
+												Created: <time datetime="{{ page.created }}" title="{{ page.created | date: '%Y-%m-%d at %H:%M' }}">{{ page.created | date: "%Y-%m-%d" }}</time>
+											{% endif %}
+										</small>
 									</div>
 								</div>
 								<div class="text-center pt-3">
@@ -98,7 +104,7 @@
 												Version: {{ page.version }}{% if page.version_title %}, {{ page.version_title }}{% endif %}
 												<br>
 												{% if page.updated %}
-													Last updated: {{ page.updated | date: "%Y-%m-%d at %H:%M (UTC)"}}
+													Last updated: <time datetime="{{ page.updated }}" title="{{ page.prerelease.updated | date: '%Y-%m-%d at %H:%M' }}">{{ page.updated | date: "%Y-%m-%d at %H:%M" }}</time>
 												{% endif %}
 											</small>
 										{% endif %}
@@ -118,7 +124,7 @@
 													Version: {{ page.prerelease.version }}{% if page.prerelease.version_title %}, {{ page.prerelease.version_title }}{% endif %}
 													<br>
 													{% if page.prerelease.updated %}
-														Last updated: {{ page.prerelease.updated | date: "%Y-%m-%d at %H:%M (UTC)"}}
+														Last updated: <time datetime="{{ page.prerelease.updated }}" title="{{ page.prerelease.updated | date: '%Y-%m-%d at %H:%M' }}">{{ page.prerelease.updated | date: "%Y-%m-%d at %H:%M" }}</time>
 													{% endif %}
 												</small>
 											{% endif %}
@@ -147,5 +153,6 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<script src="{{ site.url }}/assets/js/popupQR.js"></script>
+	<script src="/assets/js/relativeTime.js"></script>
 </body>
 </html>

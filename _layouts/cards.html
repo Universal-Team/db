@@ -87,7 +87,7 @@
 															{% endif %}
 															{% if app.updated %}
 																<br>
-																Last updated: {{ app.updated | date: "%Y-%m-%d"}}
+																Last updated: <time datetime="{{ app.updated }}" title="{{ app.updated | date: '%Y-%m-%d at %H:%M' }}">{{ app.updated | date: "%Y-%m-%d" }}</time>
 															{% endif %}
 														</small>
 														{% if app.qr.size == 1 %}
@@ -121,5 +121,6 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<script src="{{ site.url }}/assets/js/popupQR.js"></script>
 	<script src="{{ site.url }}/assets/js/search.js"></script>
+	<script src="/assets/js/relativeTime.js"></script>
 </body>
 </html>
