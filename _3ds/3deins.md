@@ -1,4 +1,5 @@
 ---
+author: Universal-Team
 categories: [game]
 created: '2019-11-18T16:59:30Z'
 description: A Card game for Nintendo 3DS & DS(i)!

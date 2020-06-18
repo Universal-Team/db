@@ -1,4 +1,5 @@
 ---
+author: Universal-Team
 categories: [utility]
 created: '2019-11-03T17:35:42Z'
 description: A universally good TextEditor! :)

@@ -1,4 +1,5 @@
 ---
+author: Universal-Team
 categories: [utility]
 created: '2019-10-31T02:19:37Z'
 description: A multiapp, JSON script-based updater for Nintendo 3DS
