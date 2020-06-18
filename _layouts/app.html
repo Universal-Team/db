@@ -42,14 +42,17 @@
 							<div class="col-md-4 mb-3">
 								<div class="card">
 									{% if page.website %}<a href="{{ page.website }}">{% elsif page.source %}<a href="{{ page.source }}">{% endif %}
-										<div class="card-header">
-											<img class="mx-auto d-block mw-100" src="{{ page.image }}" alt="{{ page.title }}">
-										</div>
+										{% if page.image %}
+											<div class="card-header">
+												<img class="mx-auto d-block mw-100" src="{{ page.image }}" alt="{{ page.title }}">
+											</div>
+										{% endif %}
 										<div class="card-body">
 											<div>
-												{% if page.image %}
+												<h4 class="card-title text-center {% if page.author %}mb-0{% endif %}">{{ page.title }}</h4>
+												{% if page.author %}
+													<small class="d-block text-center mb-3">{{ page.author }}</small>
 												{% endif %}
-												<h4 class="card-title text-center">{{ page.title }}</h4>
 												<p class="card-text">{{ page.description }}</p>
 											</div>
 										</div>

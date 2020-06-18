@@ -24,6 +24,9 @@ assignees: ''
 **GitHub repository of the app** <!-- [If releases are done here then the rest aren't needed] -->
 
 
+**Author**
+
+
 **Source code link**
 
 
