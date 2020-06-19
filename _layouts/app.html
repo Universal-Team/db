@@ -80,7 +80,7 @@
 											</span>
 										{% endfor %}
 										
-										{% if page.version %}
+										{% if page.version and page.downloads %}
 											<br>
 											<small class="text-muted">
 												Version: {{ page.version }}{% if page.version_title %}, {{ page.version_title }}{% endif %}
