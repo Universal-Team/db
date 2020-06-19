@@ -30,7 +30,7 @@ jobs:
       run: |
         export PATH=$PATH:/opt/devkitpro/tools/bin
         cd source
-        python3 generate.py
+        python3 generate.py ${{ secrets.GITHUB_TOKEN }}
 
     - name: Push changes
       uses: github-actions-x/commit@v2.6

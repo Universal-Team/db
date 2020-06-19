@@ -99,12 +99,17 @@ unistore = {
 # Icons array
 icons = []
 
+# Auth header
+header = None
+if len(sys.argv) > 1:
+	header = {"Authorization": "token " + sys.argv[1]}
+
 # Fetch info for GitHub apps and output
 for i, app in enumerate(source):
 	if "github" in app:
 		print("GitHub")
-		api = json.loads(requests.get("https://api.github.com/repos/" + app["github"]).content)
-		releases = json.loads(requests.get("https://api.github.com/repos/" + app["github"] + "/releases").content)
+		api = json.loads(requests.get("https://api.github.com/repos/" + app["github"], headers = header if header else None).content)
+		releases = json.loads(requests.get("https://api.github.com/repos/" + app["github"] + "/releases", headers = header if header else None).content)
 		release = None
 		prerelease = None
 		if len(releases) > 0 and releases[0]["prerelease"]:

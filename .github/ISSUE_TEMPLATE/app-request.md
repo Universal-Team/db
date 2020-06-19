@@ -18,10 +18,14 @@ assignees: ''
 
 **Image link**
 
+
+**Icon link**
+
+
 **Long description** <!-- You can use HTML and/or Markdown in this -->
 
 
-**GitHub repository of the app** <!-- [If releases are done here then the rest aren't needed] -->
+**GitHub repository of the app** <!-- If releases are done here then the rest aren't needed -->
 
 
 **Author**
