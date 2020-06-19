@@ -6,7 +6,7 @@ on:
     - cron: 0 * * * *
   push:
     branches: [ master ]
-    paths: [ source/source.json ]
+    paths: [ source/source.json, .github/workflows/update.yml ]
 
 jobs:
   run:
@@ -24,7 +24,7 @@ jobs:
         curl -LO https://github.com/devkitPro/pacman/releases/download/devkitpro-pacman-1.0.1/devkitpro-pacman.deb
         sudo dpkg -i devkitpro-pacman.deb
         sudo dkp-pacman -Sy
-        sudo dkp-pacman -S tex3ds --no-confirm
+        sudo dkp-pacman -S tex3ds --noconfirm
 
     - name: Run generate.py
       run: |
