@@ -202,7 +202,8 @@
 		},
 		"website": "https://www.chishm.com/NitroHax/",
 		"download_page": "https://www.chishm.com/NitroHax/",
-		"categories": ["utility"]
+		"categories": ["utility"],
+		"version": "v0.94"
 	},
 	{
 		"github": "ahezard/NitroHax3DS",
@@ -217,6 +218,7 @@
 			"362542-gameyob.zip": "https://web.archive.org/web/20190314143849if_/https://s6.filetrip.net/p/22648/362542-gameyob.zip"
 		},
 		"system": "DS",
-		"categories": ["emulator"]
+		"categories": ["emulator"],
+		"version": "v0.5.2"
 	}
 ]
