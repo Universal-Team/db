@@ -263,6 +263,16 @@ div .btn-primary:hover {
 
 @media only screen and (min-width: 1024px) {
 	.main-content {
+		max-width: 1024px;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.main-content {
+		max-width: 1200px;
+	}
+}
+@media only screen and (min-width: 1600px) {
+	.main-content {
 		max-width: 75%;
 	}
 }
