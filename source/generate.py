@@ -203,7 +203,7 @@ for i, app in enumerate(source):
 			app["author"] = api["owner"]["display_name"]
 
 		if not "description" in app:
-			app["descripton"] = api["description"]
+			app["description"] = api["description"]
 
 		if not "image" in app:
 			app["image"] = api["links"]["avatar"]["href"]
