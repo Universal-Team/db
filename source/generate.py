@@ -166,15 +166,23 @@ for i, app in enumerate(source):
 			if not "prerelease" in app:
 				app["prerelease"] = {}
 
+			if not "download_page" in app:
+				app["download_page"] = prerelease["html_url"]
 			if not "download_page" in app["prerelease"]:
 				app["prerelease"]["download_page"] = prerelease["html_url"]
 
+			if not "version" in app:
+				app["version"] = prerelease["tag_name"]
 			if not "version" in app["prerelease"]:
 				app["prerelease"]["version"] = prerelease["tag_name"]
 
-			if not "version_name" in app["prerelease"] and prerelease["name"] != None:
-				app["prerelease"]["version_name"] = prerelease["name"]
+			if not "version_title" in app and prerelease["name"] != None:
+				app["version_title"] = prerelease["name"]
+			if not "version_title" in app["prerelease"] and prerelease["name"] != None:
+				app["prerelease"]["version_title"] = prerelease["name"]
 
+			if not "updated" in app:
+				app["updated"] = prerelease["published_at"]
 			if not "updated" in app["prerelease"]:
 				app["prerelease"]["updated"] = prerelease["published_at"]
 
