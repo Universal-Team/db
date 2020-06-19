@@ -11,5 +11,5 @@ source: https://bitbucket.org/Coto88/snemulds/src/master/
 system: DS
 title: SNEmulDS
 version: 0.6 [Revival]
-version_name: 'Note: Downloads will update without changing version number'
+version_title: 'Note: Downloads will update without changing version number'
 ---
