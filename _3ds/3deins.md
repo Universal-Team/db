@@ -7,6 +7,7 @@ download_page: https://github.com/Universal-Team/3DEins/releases/tag/v0.1.0
 downloads: {3DEins.3dsx: 'https://github.com/Universal-Team/3DEins/releases/download/v0.1.0/3DEins.3dsx',
   3DEins.cia: 'https://github.com/Universal-Team/3DEins/releases/download/v0.1.0/3DEins.cia'}
 github: Universal-Team/3DEins
+icon: https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/banner.png
 layout: app
 qr: {3DEins.cia: 'https://universal-team.github.io/db/assets/images/qr/3deins.cia.png'}

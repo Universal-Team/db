@@ -7,6 +7,7 @@ download_page: https://github.com/Universal-Team/3DVier/releases/tag/v0.1.0
 downloads: {3DVier.3dsx: 'https://github.com/Universal-Team/3DVier/releases/download/v0.1.0/3DVier.3dsx',
   3DVier.cia: 'https://github.com/Universal-Team/3DVier/releases/download/v0.1.0/3DVier.cia'}
 github: Universal-Team/3DVier
+icon: https://raw.githubusercontent.com/Universal-Team/3DVier/master/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/3DVier/master/app/banner.png
 layout: app
 qr: {3DVier.cia: 'https://universal-team.github.io/db/assets/images/qr/3dvier.cia.png'}

@@ -7,6 +7,7 @@ download_page: https://github.com/RocketRobz/TWiLightMenu-Updater/releases/tag/v
 downloads: {TWiLightMenu-Updater.3dsx: 'https://github.com/RocketRobz/TWiLightMenu-Updater/releases/download/v4.2.0/TWiLightMenu-Updater.3dsx',
   TWiLightMenu-Updater.cia: 'https://github.com/RocketRobz/TWiLightMenu-Updater/releases/download/v4.2.0/TWiLightMenu-Updater.cia'}
 github: RocketRobz/TWiLightMenu-Updater
+icon: https://raw.githubusercontent.com/RocketRobz/TWiLightMenu-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/RocketRobz/TWiLightMenu-Updater/master/app/banner.png
 layout: app
 qr: {TWiLightMenu-Updater.cia: 'https://universal-team.github.io/db/assets/images/qr/twilightmenu-updater.cia.png'}

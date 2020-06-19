@@ -7,6 +7,7 @@ download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/
 downloads: {Universal-Updater.3dsx: 'https://github.com/Universal-Team/Universal-Updater/releases/download/v2.4.0/Universal-Updater.3dsx',
   Universal-Updater.cia: 'https://github.com/Universal-Team/Universal-Updater/releases/download/v2.4.0/Universal-Updater.cia'}
 github: Universal-Team/Universal-Updater
+icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/banner.png
 layout: app
 qr: {Universal-Updater.cia: 'https://universal-team.github.io/db/assets/images/qr/universal-updater.cia.png'}

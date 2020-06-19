@@ -9,6 +9,7 @@ downloads: {GBARunner2_arm7dldi_3ds.nds: 'https://github.com/Gericom/GBARunner2/
   GBARunner2_arm7dldi_dsi.nds: 'https://github.com/Gericom/GBARunner2/releases/download/v20200216-165624_c417fd0/GBARunner2_arm7dldi_dsi.nds',
   GBARunner2_arm9dldi_ds.nds: 'https://github.com/Gericom/GBARunner2/releases/download/v20200216-165624_c417fd0/GBARunner2_arm9dldi_ds.nds'}
 github: Gericom/GBARunner2
+icon: https://raw.githubusercontent.com/Gericom/GBARunner2/master/icon.bmp
 image: https://avatars2.githubusercontent.com/u/5251038?v=4
 layout: app
 prerelease:

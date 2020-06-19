@@ -8,6 +8,7 @@ download_page: https://github.com/Universal-Team/LeafEdit/releases/tag/v0.2.0
 downloads: {LeafEdit.3dsx: 'https://github.com/Universal-Team/LeafEdit/releases/download/v0.2.0/LeafEdit.3dsx',
   LeafEdit.cia: 'https://github.com/Universal-Team/LeafEdit/releases/download/v0.2.0/LeafEdit.cia'}
 github: Universal-Team/LeafEdit
+icon: https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/banner.png
 layout: app
 qr: {LeafEdit.cia: 'https://universal-team.github.io/db/assets/images/qr/leafedit.cia.png'}
