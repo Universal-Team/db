@@ -2,7 +2,7 @@
 
 import datetime
 from dateutil import parser
-from PIL import Image
+from PIL import Image, ImageDraw
 import io
 import json
 import numpy
@@ -183,11 +183,40 @@ for i, app in enumerate(source):
 	if "title" in app:
 		print(webName(app["title"]))
 
+	# Make icon for UniStore and QR
+	img = None
+	if "icon" in app or "image" in app:
+		if not os.path.exists("temp"):
+			os.mkdir("temp")
+
+		if "icon" in app:
+			r = requests.get(app["icon"])
+		else:
+			r = requests.get(app["image"])
+
+		with Image.open(io.BytesIO(r.content)) as img:
+			if img.mode == "P":
+				pal = img.palette.getdata()[1]
+				img = img.convert("RGBA")
+				data = numpy.array(img)
+				r, g, b, a = data.T
+				transparent = (r == pal[2]) & (g == pal[1]) & (b == pal[0])
+				data[...][transparent.T] = (0, 0, 0, 0)
+				img = Image.fromarray(data)
+			img.thumbnail((48, 48))
+			img.save(os.path.join("temp", str(i) + ".png"))
+			icons.append(str(i) + ".png")
+
 	# Output website page
 	if "downloads" in app:
 		for item in app["downloads"]:
 			if item[item.find(".") + 1:] == "cia":
-				qrcode.make(app["downloads"][item]).save(os.path.join("..", "assets", "images", "qr", webName(item) + ".png"))
+				qr = qrcode.make(app["downloads"][item], box_size = 5).convert("RGBA")
+				if img:
+					draw = ImageDraw.Draw(qr)
+					draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 4)), fill = (255, 255, 255))
+					qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask = img if img.mode == "RGBA" else None)
+				qr.save(os.path.join("..", "assets", "images", "qr", webName(item) + ".png"))
 				if not "qr" in app:
 					app["qr"] = {}
 				app["qr"][item] = "https://db.universal-team.net/assets/images/qr/" + webName(item) + ".png"
@@ -218,28 +247,6 @@ for i, app in enumerate(source):
 		appCopy["system"] = ""
 	if not "description" in app:
 		appCopy["description"] = ""
-
-	if "icon" in app or "image" in app:
-		if not os.path.exists("temp"):
-			os.mkdir("temp")
-
-		if "icon" in app:
-			r = requests.get(app["icon"])
-		else:
-			r = requests.get(app["image"])
-
-		with Image.open(io.BytesIO(r.content)) as img:
-			if img.mode == "P":
-				pal = img.palette.getdata()[1]
-				img = img.convert("RGBA")
-				data = numpy.array(img)
-				r, g, b, a = data.T
-				transparent = (r == pal[2]) & (g == pal[1]) & (b == pal[0])
-				data[...][transparent.T] = (0, 0, 0, 0)
-				img = Image.fromarray(data)
-			img.thumbnail((48, 48))
-			img.save(os.path.join("temp", str(i) + ".png"))
-			icons.append(str(i) + ".png")
 
 	# Add entry for UniStore
 	uni = {
