@@ -184,9 +184,9 @@ for i, app in enumerate(source):
 				if not asset["name"] in app["prerelease"]["downloads"]:
 					app["prerelease"]["downloads"][asset["name"]] = asset["browser_download_url"]
 
-	print("=" * 80)
 	if "title" in app:
 		print(webName(app["title"]))
+	print("=" * 80)
 
 	# Make icon for UniStore and QR
 	img = None

@@ -129,7 +129,7 @@
 	{
 		"title": "nesDS",
 		"categories": ["emulator"],
-		"github": "RocketRobz/ndsDS",
+		"github": "RocketRobz/nesDS",
 		"downloads": {
 			"ndsDS.nds": "https://raw.githubusercontent.com/RocketRobz/NesDS/master/release/nesDS.nds"
 		},
