@@ -12,6 +12,7 @@ layout: app
 source: https://github.com/chishm/nitrohax
 system: DS
 title: nitrohax
+version: v0.94
 website: https://www.chishm.com/NitroHax/
 wiki: https://github.com/chishm/nitrohax/wiki
 ---

@@ -10,6 +10,7 @@ layout: app
 source: https://github.com/Drenn1/GameYob
 system: DS
 title: GameYob
+version: v0.5.2
 website: https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/
 wiki: https://github.com/Drenn1/GameYob/wiki
 ---
