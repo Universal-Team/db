@@ -254,7 +254,7 @@ for i, app in enumerate(source):
 		}
 	}
 	if "updated" in app:
-		uni["info"]["last_updated"] = parser.parse(app["updated"]).strftime("%Y-%M-%d at %H:%M (UTC)")
+		uni["info"]["last_updated"] = parser.parse(app["updated"]).strftime("%Y-%m-%d at %H:%M (UTC)")
 
 	if "downloads" in app:
 		for file in app["downloads"]:
