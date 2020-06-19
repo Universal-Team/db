@@ -2,7 +2,10 @@
 
 import datetime
 from dateutil import parser
+from PIL import Image
+import io
 import json
+import numpy
 import os
 import qrcode
 import requests
@@ -93,8 +96,11 @@ unistore = {
 	"storeContent": [],
 }
 
+# Icons array
+icons = []
+
 # Fetch info for GitHub apps and output
-for app in source:
+for i, app in enumerate(source):
 	if "github" in app:
 		print("GitHub")
 		api = json.loads(requests.get("https://api.github.com/repos/" + app["github"]).content)
@@ -174,7 +180,8 @@ for app in source:
 					app["prerelease"]["downloads"][asset["name"]] = asset["browser_download_url"]
 
 	print("=" * 80)
-	print(webName(app["title"]))
+	if "title" in app:
+		print(webName(app["title"]))
 
 	# Output website page
 	if "downloads" in app:
@@ -188,6 +195,10 @@ for app in source:
 	web["layout"] = "app"
 	if "long_description" in web:
 		web.pop("long_description")
+	if not "title" in web:
+		web["title"] = str(i)
+	if not "system" in web:
+		web["system"] = "3DS" # default to 3DS
 	with open(os.path.join("..", "_" + webName(web["system"]), webName(web["title"]) + ".md"), "w") as file:
 		file.write("---\n" + yaml.dump(web) + "---\n")
 		if "long_description" in app:
@@ -208,6 +219,30 @@ for app in source:
 	if not "description" in app:
 		appCopy["description"] = ""
 
+	if "icon" in app or "image" in app:
+		if not os.path.exists("temp"):
+			os.mkdir("temp")
+
+		if "icon" in app:
+			r = requests.get(app["icon"])
+		else:
+			r = requests.get(app["image"])
+
+		with Image.open(io.BytesIO(r.content)) as img:
+			if img.mode == "P":
+				pal = img.palette.getdata()[1]
+				img = img.convert("RGBA")
+				data = numpy.array(img)
+				r, g, b, a = data.T
+				transparent = (r == pal[2]) & (g == pal[1]) & (b == pal[0])
+				data[...][transparent.T] = (0, 0, 0, 0)
+				img = Image.fromarray(data)
+			img.thumbnail((48, 48))
+			new_img = Image.new("RGBA", (max(img.size), max(img.size)))
+			new_img.paste(img, (((max(img.size)-img.size[0])//2), (max(img.size)-img.size[1])//2))
+			new_img.save(os.path.join("temp", str(i) + ".png"))
+			icons.append(str(i) + ".png")
+
 	# Add entry for UniStore
 	uni = {
 		"info": {
@@ -216,7 +251,7 @@ for app in source:
 			"author": appCopy["author"],
 			"category": appCopy["categories"][0],
 			"console": appCopy["system"],
-			"icon_index": 0, # TODO
+			"icon_index": i,
 			"description": appCopy["description"],
 		}
 	}
@@ -232,6 +267,13 @@ for app in source:
 			uni["Download " + file + " (prerelease)"] = downloadScript(file, app["prerelease"]["downloads"][file])
 
 	unistore["storeContent"].append(uni)
+
+# Make t3x
+with open(os.path.join("temp", "icons.t3s"), "w") as file:
+	file.write("--atlas -f rgba -z auto\n\n")
+	for icon in icons:
+		file.write(icon + "\n")
+os.system("tex3ds -i " + os.path.join("temp", "icons.t3s") + " -o " + os.path.join("..", "unistore", "universal-db.t3x"))
 
 # Write unistore to file
 with open(os.path.join("..", "unistore", "universal-db.unistore"), "w") as file:

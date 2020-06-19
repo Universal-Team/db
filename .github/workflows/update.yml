@@ -19,6 +19,13 @@ jobs:
       run: |
         pip3 install qrcode[pil] python-dateutil
 
+    - name: Install tex3ds
+      run: |
+        curl -LO https://github.com/devkitPro/pacman/releases/download/devkitpro-pacman-1.0.1/devkitpro-pacman.deb
+        sudo dpkg -i devkitpro-pacman.deb
+        sudo dkp-pacman -Sy
+        sudo dkp-pacman -S tex3ds --no-confirm
+
     - name: Run generate.py
       run: |
         cd source
