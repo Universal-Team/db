@@ -28,6 +28,7 @@ jobs:
 
     - name: Run generate.py
       run: |
+        export PATH=$PATH:/opt/devkitpro/tools/bin
         cd source
         python3 generate.py
 
@@ -37,7 +38,7 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'master'
         commit-message: 'Update sources'
-        force-add: 'true'
+        force-add: 'false'
         files: .
         name: TWLBot
         email: flamekat54@aol.com 
