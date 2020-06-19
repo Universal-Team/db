@@ -10,7 +10,7 @@ github: RocketRobz/TWiLightMenu-Updater
 icon: https://raw.githubusercontent.com/RocketRobz/TWiLightMenu-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/RocketRobz/TWiLightMenu-Updater/master/app/banner.png
 layout: app
-qr: {TWiLightMenu-Updater.cia: 'https://universal-team.github.io/db/assets/images/qr/twilightmenu-updater.cia.png'}
+qr: {TWiLightMenu-Updater.cia: 'https://db.universal-team.net/assets/images/qr/twilightmenu-updater.cia.png'}
 source: https://github.com/RocketRobz/TWiLightMenu-Updater
 system: 3DS
 title: TWiLight Menu++ Updater

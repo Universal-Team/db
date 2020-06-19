@@ -11,7 +11,7 @@ github: Universal-Team/LeafEdit
 icon: https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/banner.png
 layout: app
-qr: {LeafEdit.cia: 'https://universal-team.github.io/db/assets/images/qr/leafedit.cia.png'}
+qr: {LeafEdit.cia: 'https://db.universal-team.net/assets/images/qr/leafedit.cia.png'}
 source: https://github.com/Universal-Team/LeafEdit
 system: 3DS
 title: LeafEdit
