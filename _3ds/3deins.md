@@ -10,7 +10,7 @@ github: Universal-Team/3DEins
 icon: https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/banner.png
 layout: app
-qr: {3DEins.cia: 'https://universal-team.github.io/db/assets/images/qr/3deins.cia.png'}
+qr: {3DEins.cia: 'https://db.universal-team.net/assets/images/qr/3deins.cia.png'}
 source: https://github.com/Universal-Team/3DEins
 system: 3DS
 title: 3DEins

@@ -10,7 +10,7 @@ github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/banner.png
 layout: app
-qr: {Universal-Updater.cia: 'https://universal-team.github.io/db/assets/images/qr/universal-updater.cia.png'}
+qr: {Universal-Updater.cia: 'https://db.universal-team.net/assets/images/qr/universal-updater.cia.png'}
 source: https://github.com/Universal-Team/Universal-Updater
 system: 3DS
 title: Universal-Updater

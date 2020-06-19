@@ -10,7 +10,7 @@ github: Universal-Team/3DVier
 icon: https://raw.githubusercontent.com/Universal-Team/3DVier/master/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/3DVier/master/app/banner.png
 layout: app
-qr: {3DVier.cia: 'https://universal-team.github.io/db/assets/images/qr/3dvier.cia.png'}
+qr: {3DVier.cia: 'https://db.universal-team.net/assets/images/qr/3dvier.cia.png'}
 source: https://github.com/Universal-Team/3DVier
 system: 3DS
 title: 3DVier

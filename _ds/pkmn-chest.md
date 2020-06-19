@@ -11,7 +11,7 @@ github: Universal-Team/pkmn-chest
 icon: https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/icon.bmp
 image: https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/resources/icon.png
 layout: app
-qr: {pkmn-chest.cia: 'https://universal-team.github.io/db/assets/images/qr/pkmn-chest.cia.png'}
+qr: {pkmn-chest.cia: 'https://db.universal-team.net/assets/images/qr/pkmn-chest.cia.png'}
 source: https://github.com/Universal-Team/pkmn-chest
 system: DS
 title: pkmn-chest
