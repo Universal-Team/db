@@ -32,6 +32,10 @@
         "url": "/ds/emulator"
       },
       {
+        "title": "Games",
+        "url": "/ds/game"
+      },
+      {
         "title": "Utilities",
         "url": "/ds/utility"
       }
