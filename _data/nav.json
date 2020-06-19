@@ -8,15 +8,15 @@
     "items": [
       {
         "title": "All",
-        "url": "/db/3ds"
+        "url": "/3ds"
       },
       {
         "title": "Games",
-        "url": "/db/3ds/game"
+        "url": "/3ds/game"
       },
       {
         "title": "Utilities",
-        "url": "/db/3ds/utility"
+        "url": "/3ds/utility"
       }
     ]
   },
@@ -25,15 +25,15 @@
     "items": [
       {
         "title": "All",
-        "url": "/db/ds"
+        "url": "/ds"
       },
       {
         "title": "Emulators",
-        "url": "/db/ds/emulator"
+        "url": "/ds/emulator"
       },
       {
         "title": "Utilities",
-        "url": "/db/ds/utility"
+        "url": "/ds/utility"
       }
     ]
   }, {

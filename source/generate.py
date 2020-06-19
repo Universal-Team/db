@@ -76,10 +76,10 @@ unistore = {
 	"storeInfo": {
 		"title": "Universal-DB",
 		"author": "Universal-Team",
-		"url": "https://github.com/Universal-Team/db/raw/master/unistore/universal-db.unistore",
+		"url": "https://db.universal-team.net/unistore/universal-db.unistore",
 		"file": "sdmc:/3ds/Universal-Updater/stores/Universal-DB.unistore",
 		"sheet": "sdmc:/3ds/Universal-Updater/stores/Universal-DB.t3x",
-		"sheetURL": "https://github.com/Universal-Team/db/raw/master/unistore/universal-db.t3x",
+		"sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
 		"description": "Universal DB - An online database of 3DS and DS homebrew",
 		"barLight": "#395472",
 		"barDark": "#395472",
@@ -190,7 +190,7 @@ for i, app in enumerate(source):
 				qrcode.make(app["downloads"][item]).save(os.path.join("..", "assets", "images", "qr", webName(item) + ".png"))
 				if not "qr" in app:
 					app["qr"] = {}
-				app["qr"][item] = "https://universal-team.github.io/db/assets/images/qr/" + webName(item) + ".png"
+				app["qr"][item] = "https://db.universal-team.net/assets/images/qr/" + webName(item) + ".png"
 	web = app.copy()
 	web["layout"] = "app"
 	if "long_description" in web:
