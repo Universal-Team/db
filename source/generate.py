@@ -238,9 +238,7 @@ for i, app in enumerate(source):
 				data[...][transparent.T] = (0, 0, 0, 0)
 				img = Image.fromarray(data)
 			img.thumbnail((48, 48))
-			new_img = Image.new("RGBA", (max(img.size), max(img.size)))
-			new_img.paste(img, (((max(img.size)-img.size[0])//2), (max(img.size)-img.size[1])//2))
-			new_img.save(os.path.join("temp", str(i) + ".png"))
+			img.save(os.path.join("temp", str(i) + ".png"))
 			icons.append(str(i) + ".png")
 
 	# Add entry for UniStore
