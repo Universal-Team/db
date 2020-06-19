@@ -192,6 +192,46 @@ for i, app in enumerate(source):
 				if not asset["name"] in app["prerelease"]["downloads"]:
 					app["prerelease"]["downloads"][asset["name"]] = asset["browser_download_url"]
 
+	if "bitbucket" in app:
+		print("Bitbucket")
+		api = json.loads(requests.get("https://api.bitbucket.org/2.0/repositories/" + app["bitbucket"]["repo"]).content)
+
+		if not "title" in app:
+			app["title"] = api["name"]
+
+		if not "author" in app:
+			app["author"] = api["owner"]["display_name"]
+
+		if not "description" in app:
+			app["descripton"] = api["description"]
+
+		if not "image" in app:
+			app["image"] = api["links"]["avatar"]["href"]
+
+		if not "source" in app:
+			app["source"] = api["links"]["html"]["href"]
+
+		if not "created" in app:
+			app["created"] = api["created_on"]
+
+		if not "downloads" in app:
+			app["downloads"] = {}
+		for download in app["bitbucket"]["files"]:
+			fileAPI = json.loads(requests.get("https://api.bitbucket.org/2.0/repositories/" + app["bitbucket"]["repo"] + "/src/master/" + download + "?format=meta").content)
+			if not download in app["downloads"]:
+				app["downloads"][download] = fileAPI["links"]["self"]["href"]
+
+			if not "download_page" in app:
+				app["download_page"] = "https://bitbucket.org/" + app["bitbucket"]["repo"] +"/src/master/" + download
+
+			if not "version" in app:
+				app["version"] = fileAPI["commit"]["hash"][:7]
+
+			if not "updated" in app:
+				commit = json.loads(requests.get(fileAPI["commit"]["links"]["self"]["href"]).content)
+				app["updated"] = commit["date"]
+
+
 	if "title" in app:
 		print(webName(app["title"]))
 	print("=" * 80)
