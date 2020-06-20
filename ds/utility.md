@@ -1,6 +1,6 @@
 ---
 layout: cards
 title: DS - Utilities
-collection: ds
+system: ds
 category: utility
 ---

@@ -1,6 +1,6 @@
 ---
 layout: cards
 title: DS - Games
-collection: ds
+system: ds
 category: game
 ---

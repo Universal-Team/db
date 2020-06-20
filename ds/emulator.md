@@ -1,6 +1,6 @@
 ---
 layout: cards
 title: DS - Emulators
-collection: ds
+system: ds
 category: emulator
 ---

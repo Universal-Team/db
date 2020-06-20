@@ -1,6 +1,6 @@
 ---
 layout: cards
 title: 3DS - Utilities
-collection: 3ds
+system: 3ds
 category: utility
 ---
