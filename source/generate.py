@@ -98,6 +98,7 @@ unistore = {
 
 # Icons array
 icons = []
+iconIndex = 0
 
 # Auth header
 header = None
@@ -105,7 +106,7 @@ if len(sys.argv) > 1:
 	header = {"Authorization": "token " + sys.argv[1]}
 
 # Fetch info for GitHub apps and output
-for i, app in enumerate(source):
+for app in source:
 	if "github" in app:
 		print("GitHub")
 		api = json.loads(requests.get("https://api.github.com/repos/" + app["github"], headers = header if header else None).content)
@@ -257,8 +258,9 @@ for i, app in enumerate(source):
 				data[...][transparent.T] = (0, 0, 0, 0)
 				img = Image.fromarray(data)
 			img.thumbnail((48, 48))
-			img.save(os.path.join("temp", str(i) + ".png"))
-			icons.append(str(i) + ".png")
+			img.save(os.path.join("temp", str(iconIndex) + ".png"))
+			icons.append(str(iconIndex) + ".png")
+			iconIndex += 1
 
 	# Output website page
 	if "downloads" in app:
@@ -277,14 +279,13 @@ for i, app in enumerate(source):
 	web["layout"] = "app"
 	if "long_description" in web:
 		web.pop("long_description")
-	if not "title" in web:
-		web["title"] = str(i)
 	if not "system" in web:
 		web["system"] = "3DS" # default to 3DS
-	with open(os.path.join("..", "_" + webName(web["system"]), webName(web["title"]) + ".md"), "w") as file:
-		file.write("---\n" + yaml.dump(web) + "---\n")
-		if "long_description" in app:
-			file.write(app["long_description"])
+	if "title" in web:
+		with open(os.path.join("..", "_" + webName(web["system"]), webName(web["title"]) + ".md"), "w") as file:
+			file.write("---\n" + yaml.dump(web) + "---\n")
+			if "long_description" in app:
+				file.write(app["long_description"])
 
 	# Create copy with filler items for UniStore base
 	appCopy = app.copy()
@@ -309,7 +310,7 @@ for i, app in enumerate(source):
 			"author": appCopy["author"],
 			"category": appCopy["categories"][0],
 			"console": appCopy["system"],
-			"icon_index": i,
+			"icon_index": len(icons) - 1 if "icon" in app or "image" in app else -1,
 			"description": appCopy["description"],
 		}
 	}
