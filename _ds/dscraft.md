@@ -12,6 +12,7 @@ layout: app
 source: https://github.com/smealum/dscraft
 system: DS
 title: DScraft
+updated: '2011-08-31T20:29:00Z'
 version: v310811
 website: https://web.archive.org/web/20160818124931/http://smealum.net/dscraft/
 wiki: https://github.com/smealum/dscraft/wiki

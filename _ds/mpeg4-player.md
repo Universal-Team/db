@@ -11,6 +11,7 @@ layout: app
 source: https://github.com/Gericom/YoutubeDS/tree/mpeg4player
 system: DS
 title: MPEG4 Player
+updated: '2020-04-09T16:23:00Z'
 version: c633295
 website: https://gbatemp.net/threads/mpeg4-player-for-ds-and-dsi.544095/
 wiki: https://github.com/Gericom/YoutubeDS/wiki

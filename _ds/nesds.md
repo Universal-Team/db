@@ -12,6 +12,7 @@ layout: app
 source: https://github.com/RocketRobz/NesDS
 system: DS
 title: nesDS
+updated: '2018-10-19T22:09:05Z'
 version: v1.3c
 wiki: https://github.com/RocketRobz/NesDS/wiki
 ---
