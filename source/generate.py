@@ -342,7 +342,7 @@ os.system("tex3ds -i " + os.path.join("temp", "icons.t3s") + " -o " + os.path.jo
 
 # Increment revision if not the same
 if unistore != unistoreOld:
-	unistore["revision"] += 1
+	unistore["storeInfo"]["revision"] += 1
 
 # Write unistore to file
 with open(os.path.join("..", "unistore", "universal-db.unistore"), "w") as file:
