@@ -81,6 +81,7 @@ unistore = {
 		"sheet": "sdmc:/3ds/Universal-Updater/stores/Universal-DB.t3x",
 		"sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
 		"description": "Universal DB - An online database of 3DS and DS homebrew",
+		"categories": ["emulator", "game", "utility"],
 		"barLight": "#395472",
 		"barDark": "#395472",
 		"bgDark": "#262c4d",
