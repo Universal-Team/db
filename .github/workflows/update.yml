@@ -26,6 +26,10 @@ jobs:
         sudo dkp-pacman -Sy
         sudo dkp-pacman -S tex3ds --noconfirm
 
+    - name: Delete old pages
+      run: |
+        rm -rf _3ds/* _ds/*
+
     - name: Run generate.py
       run: |
         export PATH=$PATH:/opt/devkitpro/tools/bin
