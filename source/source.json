@@ -220,5 +220,12 @@
 		"system": "DS",
 		"categories": ["emulator"],
 		"version": "v0.5.2"
+	},
+	{
+		"github": "RocketRobz/SavvyManager",
+		"system": "3DS",
+		"categories": ["utility"],
+		"image": "https://raw.githubusercontent.com/RocketRobz/SavvyManager/master/app/banner.png",
+		"icon": "https://raw.githubusercontent.com/RocketRobz/SavvyManager/master/app/icon.png"
 	}
 ]
