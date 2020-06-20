@@ -71,6 +71,10 @@ def downloadScript(file, url):
 with open("source.json", "r") as file:
 	source = json.load(file)
 
+# Read version from old unistore
+with open(os.path.join("..", "unistore", "universal-db.unistore"), "r") as file:
+	unistoreOld = json.load(file)
+
 # Create UniStore base
 unistore = {
 	"storeInfo": {
@@ -90,9 +94,10 @@ unistore = {
 		"textLight": "#000000",
 		"boxDark": "#313131",
 		"boxLight": "#f7f7f7",
-		"outlineDark": "#000096",
-		"outlineLight": "#0000ff",
-		"version": 1
+		"outlineDark": "#f00000",
+		"outlineLight": "#f00000",
+		"version": 2,
+		"revision": 0 if not "revision" in unistoreOld else unistoreOld["revision"]
 	},
 	"storeContent": [],
 }
@@ -334,6 +339,10 @@ with open(os.path.join("temp", "icons.t3s"), "w") as file:
 	for icon in icons:
 		file.write(icon + "\n")
 os.system("tex3ds -i " + os.path.join("temp", "icons.t3s") + " -o " + os.path.join("..", "unistore", "universal-db.t3x"))
+
+# Increment revision if not the same
+if unistore != unistoreOld:
+	unistore["revision"] += 1
 
 # Write unistore to file
 with open(os.path.join("..", "unistore", "universal-db.unistore"), "w") as file:
