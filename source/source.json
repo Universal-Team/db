@@ -86,7 +86,8 @@
 		"download_page": "https://web.archive.org/web/20160818124931/http://smealum.net/dscraft/",
 		"website": "https://web.archive.org/web/20160818124931/http://smealum.net/dscraft/",
 		"image": "https://raw.githubusercontent.com/smealum/dscraft/master/site/dscraft-logo.png",
-		"version": "v310811"
+		"version": "v310811",
+		"updated": "2011-08-31T20:29:00Z"
 	},
 	{
 		"github": "smealum/portalDS",
@@ -125,7 +126,8 @@
 			"MPEG4Player.nds.zip": "https://gbatemp.net/attachments/mpeg4player-nds-zip.203629/"
 		},
 		"version": "c633295",
-		"system": "DS"
+		"system": "DS",
+		"updated": "2020-04-09T16:23:00Z"
 	},
 	{
 		"title": "nesDS",
@@ -137,6 +139,7 @@
 		"download_page": "https://github.com/RocketRobz/NesDS/tree/master/release",
 		"author": "huiminghao / Coto",
 		"version": "v1.3c",
+		"updated": "2018-10-19T22:09:05Z",
 		"system": "DS",
 		"icon": "https://raw.githubusercontent.com/RocketRobz/NesDS/master/icon.bmp"
 	},
@@ -196,6 +199,7 @@
 	},
 	{
 		"github": "chishm/nitrohax",
+		"updated": "2018-04-09T13:00:02Z",
 		"icon": "https://raw.githubusercontent.com/chishm/nitrohax/master/icon.bmp",
 		"system": "DS",
 		"downloads": {
@@ -215,6 +219,8 @@
 	{
 		"github": "Drenn1/GameYob",
 		"website": "https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/",
+		"icon": "https://raw.githubusercontent.com/Drenn1/GameYob/master/platform/ds/icon.bmp",
+		"updated": "2017-02-05T03:46:42Z",
 		"downloads": {
 			"362542-gameyob.zip": "https://web.archive.org/web/20190314143849if_/https://s6.filetrip.net/p/22648/362542-gameyob.zip"
 		},

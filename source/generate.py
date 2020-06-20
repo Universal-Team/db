@@ -97,7 +97,7 @@ unistore = {
 		"outlineDark": "#f00000",
 		"outlineLight": "#f00000",
 		"version": 2,
-		"revision": 0 if not "revision" in unistoreOld else unistoreOld["revision"]
+		"revision": 0 if not "revision" in unistoreOld["storeInfo"] else unistoreOld["storeInfo"]["revision"]
 	},
 	"storeContent": [],
 }
@@ -329,7 +329,7 @@ for app in source:
 
 	if "prerelease" in app:
 		for file in app["prerelease"]["downloads"]:
-			uni["Download " + file + " (prerelease)"] = downloadScript(file, app["prerelease"]["downloads"][file])
+			uni["[prerelease] Download " + file] = downloadScript(file, app["prerelease"]["downloads"][file])
 
 	unistore["storeContent"].append(uni)
 
