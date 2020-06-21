@@ -69,7 +69,7 @@ def downloadScript(file, url):
 				"type": "extractFile",
 				"file": "sdmc:/" + file,
 				"input": "",
-				"output": "/" + file[0:file.find(".")],
+				"output": "/" + file[0:file.find(".")] + "/",
 				"message": "Extracting " + file + "..."
 			},
 			{
