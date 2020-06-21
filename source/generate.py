@@ -85,7 +85,9 @@ unistore = {
 		"sheet": "sdmc:/3ds/Universal-Updater/stores/Universal-DB.t3x",
 		"sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
 		"description": "Universal DB - An online database of 3DS and DS homebrew",
-		"categories": ["emulator", "game", "utility"],
+		"categories": [],
+		"authors": [],
+		"consoles": [],
 		"barLight": "#395472",
 		"barDark": "#395472",
 		"bgDark": "#262c4d",
@@ -332,6 +334,17 @@ for app in source:
 			uni["[prerelease] Download " + file] = downloadScript(file, app["prerelease"]["downloads"][file])
 
 	unistore["storeContent"].append(uni)
+
+	# Add author, categories, and system are to the unistore in not already in
+	for category in app["categories"]:
+		if not category in unistore["storeInfo"]["categories"]:
+			unistore["storeInfo"]["categories"].append(category)
+
+	if "author" in app and not app["author"] in unistore["storeInfo"]["authors"]:
+		unistore["storeInfo"]["authors"].append(app["author"])
+
+	if "system" in app and not app["system"] in unistore["storeInfo"]["consoles"]:
+		unistore["storeInfo"]["consoles"].append(app["system"])
 
 # Make t3x
 with open(os.path.join("temp", "icons.t3s"), "w") as file:
