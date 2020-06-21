@@ -29,7 +29,7 @@ def webName(name):
 	return out
 
 def downloadScript(file, url):
-	if file[file.find(".") + 1:] == "3dsx":
+	if file[file.find(".") + 1:].lower() == "3dsx":
 		return [
 			{
 				"type": "downloadFile",
@@ -38,7 +38,7 @@ def downloadScript(file, url):
 				"message": "Downloading " + file + "..."
 			}
 		]
-	elif file[file.find(".") + 1:] == "cia":
+	elif file[file.find(".") + 1:].lower() == "cia":
 		return [
 			{
 				"type": "downloadFile",
@@ -55,6 +55,27 @@ def downloadScript(file, url):
 				"type": "deleteFile",
 				"file": "sdmc:/" + file,
 				"message": "Deleting " + file + "."
+			}
+		]
+	elif file[file.find(".") + 1:].lower() in ["zip", "7z", "rar"]:
+		return [
+			{
+				"type": "downloadFile",
+				"file": url,
+				"output": "sdmc:/" + file,
+				"message": "Downloading " + file + "..."
+			},
+			{
+				"type": "extractFile",
+				"file": "sdmc:/" + file,
+				"input": "",
+				"output": "/" + file[0:file.find(".")],
+				"message": "Extracting " + file + "..."
+			},
+			{
+				"type": "deleteFile",
+				"file": "sdmc:/" + file,
+				"message": "Deleting " + file +"..."
 			}
 		]
 	else:
