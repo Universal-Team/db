@@ -1,4 +1,4 @@
-# Run "pip3 install qrcode[pil] requests pyyaml python-dateutil" to install dependencies
+# Run "pip3 install qrcode[pil] requests pyyaml python-dateutil numpy" to install dependencies
 
 import datetime
 from dateutil import parser
@@ -124,6 +124,9 @@ unistore = {
 	},
 	"storeContent": [],
 }
+
+# Output json
+output = []
 
 # Icons array
 icons = []
@@ -304,6 +307,11 @@ for app in source:
 				if not "qr" in app:
 					app["qr"] = {}
 				app["qr"][item] = "https://db.universal-team.net/assets/images/qr/" + webName(item) + ".png"
+	
+	# Add to output json
+	output.push(app)
+
+	# Website file
 	web = app.copy()
 	web["layout"] = "app"
 	if "long_description" in web:
@@ -381,3 +389,7 @@ if unistore != unistoreOld:
 # Write unistore to file
 with open(os.path.join("..", "unistore", "universal-db.unistore"), "w") as file:
 	file.write(json.dumps(unistore))
+
+# Write output file
+with open(os.path.join("..", "data", "full.json"), "w") as file:
+	file.write(json.dumps(output))
