@@ -309,7 +309,7 @@ for app in source:
 				app["qr"][item] = "https://db.universal-team.net/assets/images/qr/" + webName(item) + ".png"
 	
 	# Add to output json
-	output.push(app)
+	output.append(app)
 
 	# Website file
 	web = app.copy()
