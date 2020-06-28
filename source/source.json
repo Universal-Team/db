@@ -962,7 +962,7 @@
 		"github": "SuperSaiyajinStackZ/PKCount",
 		"systems": ["DS", "3DS"],
 		"categories": ["utility"],
-		"image": "https://github.com/SuperSaiyajinStackZ/PKCount/blob/master/3DS/app/banner.png",
-		"icon": "https://github.com/SuperSaiyajinStackZ/PKCount/blob/master/3DS/app/icon.png"
+		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/PKCount/master/3DS/app/banner.png",
+		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/PKCount/master/3DS/app/icon.png"
 	}
 ]
