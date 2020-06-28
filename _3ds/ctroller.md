@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/phijor/ctroller/master/3DS/resources/ba
 layout: app
 qr: {ctroller.cia: 'https://db.universal-team.net/assets/images/qr/ctroller.cia.png'}
 source: https://github.com/phijor/ctroller
-system: 3DS
+systems: [3DS]
 title: ctroller
 updated: '2016-06-15T19:03:12Z'
 version: 0.4.0

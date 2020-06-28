@@ -13,7 +13,7 @@ image: https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/m
 layout: app
 qr: {bottomless-block-barrage.cia: 'https://db.universal-team.net/assets/images/qr/bottomless-block-barrage.cia.png'}
 source: https://github.com/TricksterGuy/bottomless-block-barrage
-system: 3DS
+systems: [3DS]
 title: bottomless-block-barrage
 updated: '2017-09-11T08:23:56Z'
 version: v0.2.0

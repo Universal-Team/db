@@ -15,7 +15,7 @@ layout: app
 qr: {3DSident-GUI.cia: 'https://db.universal-team.net/assets/images/qr/3dsident-gui.cia.png',
   3DSident.cia: 'https://db.universal-team.net/assets/images/qr/3dsident.cia.png'}
 source: https://github.com/joel16/3DSident
-system: 3DS
+systems: [3DS]
 title: 3DSident
 updated: '2018-08-03T06:02:13Z'
 version: 0.8.0

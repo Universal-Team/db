@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/Asellus/3DS_Quick_Reboot/master/resource
 image: https://raw.githubusercontent.com/Asellus/3DS_Quick_Reboot/master/resources/banner.png
 layout: app
 source: https://github.com/Asellus/3DS_Quick_Reboot
-system: 3DS
+systems: [3DS]
 title: 3DS_Quick_Reboot
 updated: '2016-05-18T11:55:39Z'
 version: v1.0.1

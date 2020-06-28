@@ -13,7 +13,7 @@ image: https://raw.githubusercontent.com/Core-2-Extreme/3DS-Battery-Checker/mast
 layout: app
 qr: {3DS_Battery_Checker.cia: 'https://db.universal-team.net/assets/images/qr/3ds_battery_checker.cia.png'}
 source: https://github.com/Core-2-Extreme/3DS-Battery-Checker
-system: 3DS
+systems: [3DS]
 title: 3DS-Battery-Checker
 updated: '2019-03-20T12:57:15Z'
 version: v1.2.0

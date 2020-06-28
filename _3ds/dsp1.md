@@ -11,7 +11,7 @@ image: https://raw.githubusercontent.com/zoogie/DSP1/master/cia/banner.png
 layout: app
 qr: {DSP1.cia: 'https://db.universal-team.net/assets/images/qr/dsp1.cia.png'}
 source: https://github.com/zoogie/DSP1
-system: 3DS
+systems: [3DS]
 title: DSP1
 updated: '2017-05-03T01:57:36Z'
 version: v1.0

@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/noirscape/SRAU/master/meta/banner.png
 layout: app
 qr: {SRAU.cia: 'https://db.universal-team.net/assets/images/qr/srau.cia.png'}
 source: https://github.com/noirscape/SRAU
-system: 3DS
+systems: [3DS]
 title: SRAU
 updated: '2018-04-13T20:16:16Z'
 version: v1.1

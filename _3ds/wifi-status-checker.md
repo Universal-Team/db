@@ -11,7 +11,7 @@ image: https://raw.githubusercontent.com/HIDE810/WiFi-Status-Checker/master/reso
 layout: app
 qr: {WiFi.cia: 'https://db.universal-team.net/assets/images/qr/wifi.cia.png'}
 source: https://github.com/HIDE810/WiFi-Status-Checker
-system: 3DS
+systems: [3DS]
 title: WiFi-Status-Checker
 updated: '2019-05-26T13:57:24Z'
 version: '1.0'

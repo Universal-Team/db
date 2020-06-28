@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/DomRe/3DS_eBook_Reader/master/meta/icon.
 image: https://raw.githubusercontent.com/DomRe/3DS_eBook_Reader/master/meta/banner.png
 layout: app
 source: https://github.com/DomRe/3DS_eBook_Reader
-system: 3DS
+systems: [3DS]
 title: 3DS_eBook_Reader
 updated: '2018-01-29T06:38:15Z'
 version: '1.2'

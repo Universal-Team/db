@@ -13,7 +13,7 @@ image: https://raw.githubusercontent.com/FlagBrew/Checkpoint/master/3ds/assets/b
 layout: app
 qr: {Checkpoint.cia: 'https://db.universal-team.net/assets/images/qr/checkpoint.cia.png'}
 source: https://github.com/FlagBrew/Checkpoint
-system: 3DS
+systems: [3DS]
 title: Checkpoint
 updated: '2019-12-09T14:22:45Z'
 version: v3.7.4

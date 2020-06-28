@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/phijor/SpecializeMii/master/etc/icon.png
 image: https://raw.githubusercontent.com/phijor/SpecializeMii/master/etc/banner.png
 layout: app
 source: https://github.com/phijor/SpecializeMii
-system: 3DS
+systems: [3DS]
 title: SpecializeMii
 updated: '2017-01-22T11:19:45Z'
 version: 0.1.4

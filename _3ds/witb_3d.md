@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/res
 layout: app
 qr: {WITB_3D.cia: 'https://db.universal-team.net/assets/images/qr/witb_3d.cia.png'}
 source: https://github.com/Manurocker95/WITB_3D
-system: 3DS
+systems: [3DS]
 title: WITB_3D
 updated: '2017-04-17T18:32:57Z'
 version: '1.1'

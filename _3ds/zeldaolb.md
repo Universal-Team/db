@@ -11,7 +11,7 @@ icon: https://raw.githubusercontent.com/nop90/ZeldaOLB/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/ZeldaOLB/master/resources/banner.png
 layout: app
 source: https://github.com/nop90/ZeldaOLB
-system: 3DS
+systems: [3DS]
 title: ZeldaOLB
 updated: '2017-06-07T19:23:53Z'
 version: v1,1

@@ -22,7 +22,7 @@ layout: app
 qr: {ftpd-classic.cia: 'https://db.universal-team.net/assets/images/qr/ftpd-classic.cia.png',
   ftpd.cia: 'https://db.universal-team.net/assets/images/qr/ftpd.cia.png'}
 source: https://github.com/mtheall/ftpd
-system: 3DS
+systems: [3DS]
 title: ftpd
 updated: '2020-05-27T14:10:12Z'
 version: v3.0.0

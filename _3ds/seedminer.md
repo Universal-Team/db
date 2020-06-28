@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/reso
 image: https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/banner.png
 layout: app
 source: https://github.com/zoogie/seedminer
-system: 3DS
+systems: [3DS]
 title: seedminer
 updated: '2018-02-22T09:37:13Z'
 version: v2.1

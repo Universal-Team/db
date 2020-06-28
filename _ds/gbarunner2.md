@@ -21,7 +21,7 @@ prerelease:
   updated: '2020-04-21T15:25:22Z'
   version: v20200421-172046_088cbc5_dsp-audio
 source: https://github.com/Gericom/GBARunner2
-system: DS
+systems: [DS]
 title: GBARunner2
 updated: '2020-02-16T15:59:35Z'
 version: v20200216-165624_c417fd0

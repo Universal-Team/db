@@ -17,7 +17,7 @@ layout: app
 qr: {SFontT.cia: 'https://db.universal-team.net/assets/images/qr/sfontt.cia.png',
   SFontT80.cia: 'https://db.universal-team.net/assets/images/qr/sfontt80.cia.png'}
 source: https://github.com/dnasdw/SharedFontTool
-system: 3DS
+systems: [3DS]
 title: SharedFontTool
 updated: '2018-08-13T06:45:19Z'
 version: v3.1

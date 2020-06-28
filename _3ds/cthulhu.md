@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/Ryuzaki-MrL/Cthulhu/master/meta/icon.png
 image: https://raw.githubusercontent.com/Ryuzaki-MrL/Cthulhu/master/meta/banner.png
 layout: app
 source: https://github.com/Ryuzaki-MrL/Cthulhu
-system: 3DS
+systems: [3DS]
 title: Cthulhu
 updated: '2019-11-28T09:08:38Z'
 version: 1.3.5

@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/virt
 image: https://avatars2.githubusercontent.com/u/20153229?v=4
 layout: app
 source: https://github.com/bubble2k16/emus3ds
-system: 3DS
+systems: [3DS]
 title: emus3ds
 updated: '2018-03-20T16:53:38Z'
 version: v1.02

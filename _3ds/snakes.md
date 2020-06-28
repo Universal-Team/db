@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/DDews/Snakes/master/meta/banner.png
 layout: app
 qr: {snakes.cia: 'https://db.universal-team.net/assets/images/qr/snakes.cia.png'}
 source: https://github.com/DDews/Snakes
-system: 3DS
+systems: [3DS]
 title: Snakes
 updated: '2017-01-24T22:01:22Z'
 version: 0.2.5

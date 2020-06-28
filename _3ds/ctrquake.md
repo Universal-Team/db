@@ -12,7 +12,7 @@ image: https://avatars1.githubusercontent.com/u/15205297?v=4
 layout: app
 qr: {ctrQuake.cia: 'https://db.universal-team.net/assets/images/qr/ctrquake.cia.png'}
 source: https://github.com/masterfeizz/ctrQuake
-system: 3DS
+systems: [3DS]
 title: ctrQuake
 updated: '2016-09-13T02:38:10Z'
 version: v0.8

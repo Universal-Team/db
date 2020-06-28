@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/suloku/pdrpse/master/icon.png
 image: https://avatars3.githubusercontent.com/u/10310955?v=4
 layout: app
 source: https://github.com/suloku/pdrpse
-system: 3DS
+systems: [3DS]
 title: pdrpse
 updated: '2015-10-18T21:15:51Z'
 version: '0.3'

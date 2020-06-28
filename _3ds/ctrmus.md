@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/deltabeard/ctrmus/master/meta/banner.pn
 layout: app
 qr: {ctrmus.cia: 'https://db.universal-team.net/assets/images/qr/ctrmus.cia.png'}
 source: https://github.com/deltabeard/ctrmus
-system: 3DS
+systems: [3DS]
 title: ctrmus
 updated: '2017-07-08T18:35:46Z'
 version: 0.4.12

@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/ban
 layout: app
 qr: {UpdateSuppressor.cia: 'https://db.universal-team.net/assets/images/qr/updatesuppressor.cia.png'}
 source: https://github.com/GiantBlargg/UpdateSuppressor
-system: 3DS
+systems: [3DS]
 title: UpdateSuppressor
 updated: '2016-01-21T08:10:53Z'
 version: v0.2.0

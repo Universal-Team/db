@@ -13,7 +13,7 @@ image: https://raw.githubusercontent.com/TricksterGuy/3ds-vgmstream/master/resou
 layout: app
 qr: {3ds-vgmstream.cia: 'https://db.universal-team.net/assets/images/qr/3ds-vgmstream.cia.png'}
 source: https://github.com/TricksterGuy/3ds-vgmstream
-system: 3DS
+systems: [3DS]
 title: 3ds-vgmstream
 updated: '2016-07-11T07:32:44Z'
 version: v0.2.0

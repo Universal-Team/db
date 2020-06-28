@@ -13,7 +13,7 @@ image: https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/
 layout: app
 qr: {LeafEdit.cia: 'https://db.universal-team.net/assets/images/qr/leafedit.cia.png'}
 source: https://github.com/Universal-Team/LeafEdit
-system: 3DS
+systems: [3DS]
 title: LeafEdit
 updated: '2020-01-24T22:59:59Z'
 version: v0.2.0

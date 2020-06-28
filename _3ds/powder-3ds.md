@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/nop90/POWDER-3DS/master/port/3ds/icon.pn
 image: https://raw.githubusercontent.com/nop90/POWDER-3DS/master/port/3ds/banner.png
 layout: app
 source: https://github.com/nop90/POWDER-3DS
-system: 3DS
+systems: [3DS]
 title: POWDER-3DS
 updated: '2017-02-03T23:50:45Z'
 version: v1,1

@@ -13,7 +13,7 @@ image: https://raw.githubusercontent.com/DanTheMan827/tikSweep/master/banner.png
 layout: app
 qr: {tikSweep.cia: 'https://db.universal-team.net/assets/images/qr/tiksweep.cia.png'}
 source: https://github.com/DanTheMan827/tikSweep
-system: 3DS
+systems: [3DS]
 title: tikSweep
 updated: '2017-01-07T03:05:51Z'
 version: v1.1.2

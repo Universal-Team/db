@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/Ryuzaki-MrL/NotifyMii/master/meta/banne
 layout: app
 qr: {NotifyMii.cia: 'https://db.universal-team.net/assets/images/qr/notifymii.cia.png'}
 source: https://github.com/Ryuzaki-MrL/NotifyMii
-system: 3DS
+systems: [3DS]
 title: NotifyMii
 updated: '2016-05-24T15:23:21Z'
 version: '1.2'

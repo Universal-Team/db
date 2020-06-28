@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master
 layout: app
 qr: {Universal-Updater.cia: 'https://db.universal-team.net/assets/images/qr/universal-updater.cia.png'}
 source: https://github.com/Universal-Team/Universal-Updater
-system: 3DS
+systems: [3DS]
 title: Universal-Updater
 updated: '2020-06-27T14:01:41Z'
 version: v2.5.0

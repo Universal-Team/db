@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS-Explorer/master/meta/i
 image: https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS-Explorer/master/meta/banner.png
 layout: app
 source: https://github.com/Ryuzaki-MrL/RomFS-Explorer
-system: 3DS
+systems: [3DS]
 title: RomFS-Explorer
 updated: '2016-09-23T00:16:29Z'
 version: v1.0.1

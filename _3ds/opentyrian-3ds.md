@@ -9,7 +9,7 @@ icon: https://raw.githubusercontent.com/nop90/Opentyrian-3ds/master/resources/ic
 image: https://raw.githubusercontent.com/nop90/Opentyrian-3ds/master/resources/banner.png
 layout: app
 source: https://github.com/nop90/Opentyrian-3ds
-system: 3DS
+systems: [3DS]
 title: Opentyrian-3ds
 updated: '2017-03-11T20:24:51Z'
 version: v1.1

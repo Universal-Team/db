@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resour
 layout: app
 qr: {GYTB.cia: 'https://db.universal-team.net/assets/images/qr/gytb.cia.png'}
 source: https://github.com/MechanicalDragon0687/GYTB
-system: 3DS
+systems: [3DS]
 title: GYTB
 updated: '2019-02-02T20:53:45Z'
 version: '1.0'

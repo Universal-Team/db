@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/RocketRobz/NesDS/master/icon.bmp
 image: https://avatars2.githubusercontent.com/u/16110127?v=4
 layout: app
 source: https://github.com/RocketRobz/NesDS
-system: DS
+systems: [DS]
 title: nesDS
 updated: '2018-10-19T22:09:05Z'
 version: v1.3c

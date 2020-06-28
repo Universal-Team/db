@@ -13,7 +13,7 @@ icon: https://bitbucket.org/Coto88/snemulds/raw/c323eb1a7c411390de1ab32daa3640c1
 image: https://bytebucket.org/ravatar/%7B9cf0f24a-1db9-40d3-b6f4-116761b7fe0b%7D?ts=default
 layout: app
 source: https://bitbucket.org/Coto88/snemulds
-system: DS
+systems: [DS]
 title: SnemulDS
 updated: '2020-06-28T08:28:13+00:00'
 version: 66b7613

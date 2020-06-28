@@ -12,7 +12,7 @@ layout: app
 qr: {ravimid.cia: 'https://db.universal-team.net/assets/images/qr/ravimid.cia.png',
   ravimid_deluxe.cia: 'https://db.universal-team.net/assets/images/qr/ravimid_deluxe.cia.png'}
 source: https://github.com/Hoksy/ravimid
-system: 3DS
+systems: [3DS]
 title: ravimid
 updated: '2016-11-08T23:24:17Z'
 version: '1.2'

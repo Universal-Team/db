@@ -22,7 +22,7 @@ icon: https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-48.png
 image: https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-256.png
 layout: app
 source: https://github.com/mgba-emu/mgba
-system: 3DS
+systems: [3DS]
 title: mgba
 updated: '2020-06-15T03:17:48Z'
 version: 0.8.2

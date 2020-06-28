@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/chishm/nitrohax/master/icon.bmp
 image: https://avatars0.githubusercontent.com/u/18148723?v=4
 layout: app
 source: https://github.com/chishm/nitrohax
-system: DS
+systems: [DS]
 title: nitrohax
 updated: '2018-04-09T13:00:02Z'
 version: v0.94

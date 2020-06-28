@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/TurtleP/Hax0r/master/graphics/icon.png
 image: https://avatars3.githubusercontent.com/u/6239208?v=4
 layout: app
 source: https://github.com/TurtleP/Hax0r
-system: 3DS
+systems: [3DS]
 title: Hax0r
 updated: '2016-07-07T19:36:27Z'
 version: v1.2

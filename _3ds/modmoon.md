@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/Swiftloke/ModMoon/master/CIA/banner.png
 layout: app
 qr: {ModMoon.cia: 'https://db.universal-team.net/assets/images/qr/modmoon.cia.png'}
 source: https://github.com/Swiftloke/ModMoon
-system: 3DS
+systems: [3DS]
 title: ModMoon
 updated: '2018-09-29T16:45:22Z'
 version: v3.0.1

@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/NatTupper/Forecast/master/icon.png
 image: https://raw.githubusercontent.com/NatTupper/Forecast/master/res/banner%20icon.png
 layout: app
 source: https://github.com/NatTupper/Forecast
-system: 3DS
+systems: [3DS]
 title: Forecast
 updated: '2017-07-25T12:39:20Z'
 version: v1.0.1

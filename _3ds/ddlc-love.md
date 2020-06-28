@@ -13,7 +13,7 @@ github: LukeZGD/DDLC-LOVE
 image: https://avatars2.githubusercontent.com/u/26163116?v=4
 layout: app
 source: https://github.com/LukeZGD/DDLC-LOVE
-system: 3DS
+systems: [3DS]
 title: DDLC-LOVE
 updated: '2020-06-22T13:17:30Z'
 version: v1.1.8-4

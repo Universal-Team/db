@@ -12,7 +12,7 @@ icon: https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_icon_4
 image: https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_banner.png
 layout: app
 source: https://github.com/MrHuu/opentitus-3ds
-system: 3DS
+systems: [3DS]
 title: opentitus-3ds
 updated: '2018-12-27T00:34:34Z'
 version: 27-12-2018

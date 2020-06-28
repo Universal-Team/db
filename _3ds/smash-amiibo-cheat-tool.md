@@ -13,7 +13,7 @@ image: https://raw.githubusercontent.com/Ordim3n/Smash-Amiibo-Cheat-Tool/master/
 layout: app
 qr: {SmashAmiiboCheatTool.cia: 'https://db.universal-team.net/assets/images/qr/smashamiibocheattool.cia.png'}
 source: https://github.com/Ordim3n/Smash-Amiibo-Cheat-Tool
-system: 3DS
+systems: [3DS]
 title: Smash-Amiibo-Cheat-Tool
 updated: '2017-01-27T00:03:00Z'
 version: '2.0'

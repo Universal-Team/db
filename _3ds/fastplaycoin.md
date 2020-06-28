@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/CorySanin/FastPlayCoin/master/resource/
 layout: app
 qr: {FastPlayCoin.cia: 'https://db.universal-team.net/assets/images/qr/fastplaycoin.cia.png'}
 source: https://github.com/CorySanin/FastPlayCoin
-system: 3DS
+systems: [3DS]
 title: FastPlayCoin
 updated: '2017-11-11T09:44:57Z'
 version: v1.0

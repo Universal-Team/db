@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/noirscape/dses/master/meta/banner.png
 layout: app
 qr: {DSES.cia: 'https://db.universal-team.net/assets/images/qr/dses.cia.png'}
 source: https://github.com/noirscape/dses
-system: 3DS
+systems: [3DS]
 title: dses
 updated: '2018-10-12T15:54:18Z'
 version: v1.1

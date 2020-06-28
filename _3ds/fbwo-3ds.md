@@ -8,7 +8,7 @@ github: Spaqin/fbwo-3ds
 image: https://avatars3.githubusercontent.com/u/1278433?v=4
 layout: app
 source: https://github.com/Spaqin/fbwo-3ds
-system: 3DS
+systems: [3DS]
 title: fbwo-3ds
 updated: '2016-03-06T09:43:45Z'
 version: v0.4.1

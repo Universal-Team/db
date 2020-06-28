@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/Omegadrien/Memory3DS/master/assets/icon.
 image: https://raw.githubusercontent.com/Omegadrien/Memory3DS/master/assets/banner.png
 layout: app
 source: https://github.com/Omegadrien/Memory3DS
-system: 3DS
+systems: [3DS]
 title: Memory3DS
 updated: '2016-10-13T20:58:21Z'
 version: v1.0

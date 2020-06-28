@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/banner.pn
 layout: app
 qr: {GraphCalc3DS.cia: 'https://db.universal-team.net/assets/images/qr/graphcalc3ds.cia.png'}
 source: https://github.com/flarn2006/GraphCalc3DS
-system: 3DS
+systems: [3DS]
 title: GraphCalc3DS
 updated: '2016-12-03T21:05:23Z'
 version: v1.5.1

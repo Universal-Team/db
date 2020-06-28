@@ -10,7 +10,7 @@ image: https://avatars1.githubusercontent.com/u/43786828?v=4
 layout: app
 qr: {RGB.cia: 'https://db.universal-team.net/assets/images/qr/rgb.cia.png'}
 source: https://github.com/MechanicalDragon0687/MCU_Bricker_tinydb
-system: 3DS
+systems: [3DS]
 title: MCU_Bricker_tinydb
 updated: '2019-04-01T01:27:47Z'
 version: '1.0'

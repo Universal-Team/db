@@ -13,7 +13,7 @@ image: https://avatars0.githubusercontent.com/u/9059719?v=4
 layout: app
 qr: {Snake2DS.cia: 'https://db.universal-team.net/assets/images/qr/snake2ds.cia.png'}
 source: https://github.com/Jacudibu/Snake2DS
-system: 3DS
+systems: [3DS]
 title: Snake2DS
 updated: '2016-06-16T14:28:38Z'
 version: v1.0

@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/Manurocker95/Anim3DS/master/Anim3DS/Ani
 layout: app
 qr: {Anim3DS.cia: 'https://db.universal-team.net/assets/images/qr/anim3ds.cia.png'}
 source: https://github.com/Manurocker95/Anim3DS
-system: 3DS
+systems: [3DS]
 title: Anim3DS
 updated: '2017-10-13T12:11:55Z'
 version: 1.8.3

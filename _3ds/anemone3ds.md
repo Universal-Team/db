@@ -14,7 +14,7 @@ image: https://raw.githubusercontent.com/astronautlevel2/Anemone3DS/master/meta/
 layout: app
 qr: {Anemone3DS.cia: 'https://db.universal-team.net/assets/images/qr/anemone3ds.cia.png'}
 source: https://github.com/astronautlevel2/Anemone3DS
-system: 3DS
+systems: [3DS]
 title: Anemone3DS
 updated: '2020-06-14T02:24:36Z'
 version: v2.1.0

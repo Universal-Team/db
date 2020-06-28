@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/ic
 image: https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/banner2.png
 layout: app
 source: https://github.com/EBLeifEricson/orchestrina
-system: 3DS
+systems: [3DS]
 title: orchestrina
 updated: '2017-03-30T01:49:01Z'
 version: v0.5.0-beta

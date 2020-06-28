@@ -11,7 +11,7 @@ image: https://avatars1.githubusercontent.com/u/25725992?v=4
 layout: app
 qr: {CookieClicker.cia: 'https://db.universal-team.net/assets/images/qr/cookieclicker.cia.png'}
 source: https://github.com/Creckeryop/3dsCookieClicker
-system: 3DS
+systems: [3DS]
 title: 3dsCookieClicker
 updated: '2017-06-11T14:37:55Z'
 version: '#0022'

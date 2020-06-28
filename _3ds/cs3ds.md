@@ -14,7 +14,7 @@ prerelease:
   updated: '2016-04-22T01:51:31Z'
   version: 0.6-alpha
 source: https://github.com/machinamentum/CS3DS
-system: 3DS
+systems: [3DS]
 title: CS3DS
 updated: '2016-04-22T01:51:31Z'
 version: 0.6-alpha

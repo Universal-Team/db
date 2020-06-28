@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/icon.png
 image: https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/resources/banner.png
 layout: app
 source: https://github.com/mrdanielps/r3Ddragon
-system: 3DS
+systems: [3DS]
 title: r3Ddragon
 updated: '2017-02-02T23:45:48Z'
 version: v0.87

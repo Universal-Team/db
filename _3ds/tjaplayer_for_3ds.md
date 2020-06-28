@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resourc
 layout: app
 qr: {TJAPlayer_for_3DS.cia: 'https://db.universal-team.net/assets/images/qr/tjaplayer_for_3ds.cia.png'}
 source: https://github.com/togetg/TJAPlayer_for_3DS
-system: 3DS
+systems: [3DS]
 title: TJAPlayer_for_3DS
 updated: '2018-10-29T09:52:52Z'
 version: v1.01

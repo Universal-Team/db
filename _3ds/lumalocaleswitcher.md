@@ -13,7 +13,7 @@ icon: https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/meta/ic
 image: https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/meta/banner.png
 layout: app
 source: https://github.com/Possum/LumaLocaleSwitcher
-system: 3DS
+systems: [3DS]
 title: LumaLocaleSwitcher
 updated: '2017-04-22T18:55:03Z'
 version: '0.04'

@@ -15,7 +15,7 @@ prerelease:
   version: v2.0.2
   version_title: v2.0.2
 source: https://github.com/DS-Homebrew/PicoDriveTWL
-system: DS
+systems: [DS]
 title: PicoDriveTWL
 updated: '2020-04-14T06:08:48Z'
 version: v2.0.2

@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/Universal-Team/Relaunch/master/main/icon
 image: https://raw.githubusercontent.com/Universal-Team/Relaunch/master/logo.png
 layout: app
 source: https://github.com/Universal-Team/Relaunch
-system: DS
+systems: [DS]
 title: Relaunch
 updated: '2020-04-01T10:59:09Z'
 version: v4.0.0bruh

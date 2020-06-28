@@ -11,7 +11,7 @@ icon: https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/banner.png
 layout: app
 source: https://github.com/nop90/Zelda3T
-system: 3DS
+systems: [3DS]
 title: Zelda3T
 updated: '2017-09-24T18:25:47Z'
 version: v1.0

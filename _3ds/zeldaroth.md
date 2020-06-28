@@ -11,7 +11,7 @@ icon: https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/icon.pn
 image: https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/banner.png
 layout: app
 source: https://github.com/nop90/ZeldaROTH
-system: 3DS
+systems: [3DS]
 title: ZeldaROTH
 updated: '2016-06-11T21:08:59Z'
 version: v1.0.2

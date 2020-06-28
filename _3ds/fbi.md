@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/Steveice10/FBI/master/romfs/logo.png
 layout: app
 qr: {FBI.cia: 'https://db.universal-team.net/assets/images/qr/fbi.cia.png'}
 source: https://github.com/Steveice10/FBI
-system: 3DS
+systems: [3DS]
 title: FBI
 updated: '2019-01-02T01:41:35Z'
 version: 2.6.0

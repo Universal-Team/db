@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/HIDE810/you-are-an-idiot/master/resourc
 layout: app
 qr: {Idiot.cia: 'https://db.universal-team.net/assets/images/qr/idiot.cia.png'}
 source: https://github.com/HIDE810/you-are-an-idiot
-system: 3DS
+systems: [3DS]
 title: you-are-an-idiot
 updated: '2019-05-30T13:55:07Z'
 version: '1.1'

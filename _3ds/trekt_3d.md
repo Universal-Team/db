@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/r
 layout: app
 qr: {TRekt_3D.cia: 'https://db.universal-team.net/assets/images/qr/trekt_3d.cia.png'}
 source: https://github.com/Manurocker95/TRekt_3D
-system: 3DS
+systems: [3DS]
 title: TRekt_3D
 updated: '2017-08-26T15:39:19Z'
 version: '1.0'

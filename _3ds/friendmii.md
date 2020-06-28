@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/joel16/FriendMii/master/res/banner.png
 layout: app
 qr: {FriendMii.cia: 'https://db.universal-team.net/assets/images/qr/friendmii.cia.png'}
 source: https://github.com/joel16/FriendMii
-system: 3DS
+systems: [3DS]
 title: FriendMii
 updated: '2018-07-29T17:18:00Z'
 version: v1.00

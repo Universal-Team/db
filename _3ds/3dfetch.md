@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/aliceinpalth/3dfetch/master/banner.png
 layout: app
 qr: {3dfetch.cia: 'https://db.universal-team.net/assets/images/qr/3dfetch.cia.png'}
 source: https://github.com/aliceinpalth/3dfetch
-system: 3DS
+systems: [3DS]
 title: 3dfetch
 updated: '2017-06-30T22:45:59Z'
 version: '1.10'

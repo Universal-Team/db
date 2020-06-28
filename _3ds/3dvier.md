@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/Universal-Team/3DVier/master/app/banner
 layout: app
 qr: {3DVier.cia: 'https://db.universal-team.net/assets/images/qr/3dvier.cia.png'}
 source: https://github.com/Universal-Team/3DVier
-system: 3DS
+systems: [3DS]
 title: 3DVier
 updated: '2020-05-17T17:30:53Z'
 version: v0.1.0

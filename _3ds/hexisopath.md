@@ -13,7 +13,7 @@ image: https://raw.githubusercontent.com/LiquidFenrir/HexIsoPath/master/banner.p
 layout: app
 qr: {HexIsoPath.cia: 'https://db.universal-team.net/assets/images/qr/hexisopath.cia.png'}
 source: https://github.com/LiquidFenrir/HexIsoPath
-system: 3DS
+systems: [3DS]
 title: HexIsoPath
 updated: '2018-01-02T15:26:49Z'
 version: v1.1.0

@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/JeffRuLz/TMFH/master/icon.bmp
 image: https://avatars2.githubusercontent.com/u/14222721?v=4
 layout: app
 source: https://github.com/JeffRuLz/TMFH
-system: DS
+systems: [DS]
 title: TMFH
 updated: '2019-06-27T01:36:05Z'
 version: v0.7.0

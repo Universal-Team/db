@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/Arisotura/lolSnes/master/lolsnes.bmp
 image: http://lolsnes.kuribo64.net/img/banner.png
 layout: app
 source: https://github.com/Arisotura/lolSnes
-system: DS
+systems: [DS]
 title: lolSnes
 version: v1.0
 website: http://lolsnes.kuribo64.net

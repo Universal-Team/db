@@ -13,7 +13,7 @@ image: https://raw.githubusercontent.com/joel16/3DShell/master/res/banner.png
 layout: app
 qr: {3DShell.cia: 'https://db.universal-team.net/assets/images/qr/3dshell.cia.png'}
 source: https://github.com/joel16/3DShell
-system: 3DS
+systems: [3DS]
 title: 3DShell
 updated: '2019-06-27T04:04:05Z'
 version: v4.3.1

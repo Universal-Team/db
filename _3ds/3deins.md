@@ -14,7 +14,7 @@ image: https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/ba
 layout: app
 qr: {3DEins.cia: 'https://db.universal-team.net/assets/images/qr/3deins.cia.png'}
 source: https://github.com/Universal-Team/3DEins
-system: 3DS
+systems: [3DS]
 title: 3DEins
 updated: '2020-06-20T15:33:33Z'
 version: v0.2.0

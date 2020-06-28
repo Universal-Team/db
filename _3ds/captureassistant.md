@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/ItsDeidara/CaptureAssistant/master/asse
 layout: app
 qr: {CaptureAssistant.cia: 'https://db.universal-team.net/assets/images/qr/captureassistant.cia.png'}
 source: https://github.com/ItsDeidara/CaptureAssistant
-system: 3DS
+systems: [3DS]
 title: CaptureAssistant
 updated: '2016-08-26T23:13:12Z'
 version: '1.3'

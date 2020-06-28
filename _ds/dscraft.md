@@ -10,7 +10,7 @@ github: smealum/dscraft
 image: https://raw.githubusercontent.com/smealum/dscraft/master/site/dscraft-logo.png
 layout: app
 source: https://github.com/smealum/dscraft
-system: DS
+systems: [DS]
 title: DScraft
 updated: '2011-08-31T20:29:00Z'
 version: v310811

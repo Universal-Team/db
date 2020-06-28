@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/ingolemo/drider/master/icon.png
 image: https://raw.githubusercontent.com/ingolemo/drider/master/banner.png
 layout: app
 source: https://github.com/ingolemo/drider
-system: 3DS
+systems: [3DS]
 title: drider
 updated: '2017-11-14T16:05:57Z'
 version: v0.6

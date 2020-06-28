@@ -9,7 +9,7 @@ icon: https://raw.githubusercontent.com/Drenn1/GameYob/master/platform/ds/icon.b
 image: https://avatars1.githubusercontent.com/u/3671681?v=4
 layout: app
 source: https://github.com/Drenn1/GameYob
-system: DS
+systems: [DS]
 title: GameYob
 updated: '2017-02-05T03:46:42Z'
 version: v0.5.2

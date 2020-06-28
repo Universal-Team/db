@@ -14,7 +14,7 @@ prerelease:
   version: v0.2
   version_title: Save fix and Input enhancements
 source: https://github.com/masterfeizz/Quake2CTR
-system: 3DS
+systems: [3DS]
 title: Quake2CTR
 updated: '2017-06-24T15:36:24Z'
 version: v0.2

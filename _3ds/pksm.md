@@ -13,7 +13,7 @@ image: https://raw.githubusercontent.com/FlagBrew/PKSM/master/assets/banner.png
 layout: app
 qr: {PKSM.cia: 'https://db.universal-team.net/assets/images/qr/pksm.cia.png'}
 source: https://github.com/FlagBrew/PKSM
-system: 3DS
+systems: [3DS]
 title: PKSM
 updated: '2020-06-21T19:23:01Z'
 version: 9.1.0

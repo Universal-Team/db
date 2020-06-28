@@ -18,7 +18,7 @@ prerelease:
   version: 0.3-pre2
   version_title: 0.3 Pre 2 Second Pre Release
 source: https://github.com/RSDuck/craftus_reloaded
-system: 3DS
+systems: [3DS]
 title: craftus_reloaded
 updated: '2017-08-23T14:03:18Z'
 version: '0.22'

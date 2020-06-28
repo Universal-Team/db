@@ -12,7 +12,7 @@ image: https://avatars2.githubusercontent.com/u/17181899?v=4
 layout: app
 qr: {Evolution_Sav3D_Me.cia: 'https://db.universal-team.net/assets/images/qr/evolution_sav3d_me.cia.png'}
 source: https://github.com/Manurocker95/Evolution_Sav3D_Me
-system: 3DS
+systems: [3DS]
 title: Evolution_Sav3D_Me
 updated: '2017-08-23T11:38:07Z'
 version: '1.1'

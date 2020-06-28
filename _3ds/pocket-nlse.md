@@ -11,7 +11,7 @@ icon: https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/icon.png
 image: https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/res/banner%20icon.png
 layout: app
 source: https://github.com/dragos240/Pocket-NLSE
-system: 3DS
+systems: [3DS]
 title: Pocket-NLSE
 updated: '2017-01-11T13:18:21Z'
 version: v1.0.0

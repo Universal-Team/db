@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/LiquidFenrir/WifiManager/master/meta/ba
 layout: app
 qr: {WifiManager.cia: 'https://db.universal-team.net/assets/images/qr/wifimanager.cia.png'}
 source: https://github.com/LiquidFenrir/WifiManager
-system: 3DS
+systems: [3DS]
 title: WifiManager
 updated: '2018-01-15T23:19:27Z'
 version: v1.1.2

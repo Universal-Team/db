@@ -9,7 +9,7 @@ icon: https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/icon4
 image: https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/banner.png
 layout: app
 source: https://github.com/CTurt/3DSController
-system: 3DS
+systems: [3DS]
 title: 3DSController
 updated: '2015-09-08T22:08:00Z'
 version: '0.6'

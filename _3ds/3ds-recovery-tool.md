@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/joel16/3DS-Recovery-Tool/master/res/ban
 layout: app
 qr: {3DS_Recovery_Tool.cia: 'https://db.universal-team.net/assets/images/qr/3ds_recovery_tool.cia.png'}
 source: https://github.com/joel16/3DS-Recovery-Tool
-system: 3DS
+systems: [3DS]
 title: 3DS-Recovery-Tool
 updated: '2018-02-18T01:09:31Z'
 version: v1.40

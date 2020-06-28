@@ -16,7 +16,7 @@ prerelease:
   version: v0.4
   version_title: Menu completed
 source: https://github.com/nop90/Neopop-SDL
-system: 3DS
+systems: [3DS]
 title: Neopop-SDL
 updated: '2017-06-14T18:53:35Z'
 version: v0.4

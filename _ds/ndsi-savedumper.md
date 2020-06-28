@@ -9,7 +9,7 @@ github: edo9300/ndsi-savedumper
 image: https://avatars0.githubusercontent.com/u/18705342?v=4
 layout: app
 source: https://github.com/edo9300/ndsi-savedumper
-system: DS
+systems: [DS]
 title: ndsi-savedumper
 updated: '2018-08-24T15:35:37Z'
 version: '1.2'

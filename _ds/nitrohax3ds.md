@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/ahezard/NitroHax3DS/master/icon.bmp
 image: https://avatars0.githubusercontent.com/u/16766068?v=4
 layout: app
 source: https://github.com/ahezard/NitroHax3DS
-system: DS
+systems: [DS]
 title: NitroHax3DS
 updated: '2018-04-26T01:26:55Z'
 version: 0.99.DSI

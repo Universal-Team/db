@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/RocketRobz/TWiLightMenu-Updater/master/
 layout: app
 qr: {TWiLightMenu-Updater.cia: 'https://db.universal-team.net/assets/images/qr/twilightmenu-updater.cia.png'}
 source: https://github.com/RocketRobz/TWiLightMenu-Updater
-system: 3DS
+systems: [3DS]
 title: TWiLight Menu++ Updater
 updated: '2020-05-16T09:03:11Z'
 version: v4.2.0

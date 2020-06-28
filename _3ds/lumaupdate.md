@@ -12,7 +12,7 @@ image: https://avatars1.githubusercontent.com/u/19984244?v=4
 layout: app
 qr: {lumaupdater.cia: 'https://db.universal-team.net/assets/images/qr/lumaupdater.cia.png'}
 source: https://github.com/KunoichiZ/lumaupdate
-system: 3DS
+systems: [3DS]
 title: lumaupdate
 updated: '2020-02-29T22:55:37Z'
 version: v2.5

@@ -13,7 +13,7 @@ image: https://raw.githubusercontent.com/RocketRobz/SavvyManager/master/app/bann
 layout: app
 qr: {SavvyManager.cia: 'https://db.universal-team.net/assets/images/qr/savvymanager.cia.png'}
 source: https://github.com/RocketRobz/SavvyManager
-system: 3DS
+systems: [3DS]
 title: SavvyManager
 updated: '2020-05-23T23:51:51Z'
 version: v3.0.0

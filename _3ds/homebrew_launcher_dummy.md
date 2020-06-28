@@ -11,7 +11,7 @@ image: https://avatars2.githubusercontent.com/u/10946643?v=4
 layout: app
 qr: {Homebrew_Launcher.cia: 'https://db.universal-team.net/assets/images/qr/homebrew_launcher.cia.png'}
 source: https://github.com/mariohackandglitch/homebrew_launcher_dummy
-system: 3DS
+systems: [3DS]
 title: homebrew_launcher_dummy
 updated: '2018-07-26T21:33:37Z'
 version: v1.0

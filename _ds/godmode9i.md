@@ -11,7 +11,7 @@ icon: https://raw.githubusercontent.com/RocketRobz/GodMode9i/master/icon.bmp
 image: https://raw.githubusercontent.com/RocketRobz/GodMode9i/master/resources/logo2.png
 layout: app
 source: https://github.com/RocketRobz/GodMode9i
-system: DS
+systems: [DS]
 title: GodMode9i
 updated: '2020-03-19T22:00:51Z'
 version: v2.3.1

@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/ico
 image: https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/banner.png
 layout: app
 source: https://github.com/nop90/OpenSyobon3DS
-system: 3DS
+systems: [3DS]
 title: OpenSyobon3DS
 updated: '2016-07-27T08:58:59Z'
 version: v1.2

@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/re
 layout: app
 qr: {ButtonPresser3DS.cia: 'https://db.universal-team.net/assets/images/qr/buttonpresser3ds.cia.png'}
 source: https://github.com/trainboy2019/ButtonPresser3DS
-system: 3DS
+systems: [3DS]
 title: ButtonPresser3DS
 updated: '2017-06-22T02:42:08Z'
 version: '2.0'

@@ -9,7 +9,7 @@ icon: https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/pico
 image: https://avatars2.githubusercontent.com/u/20153229?v=4
 layout: app
 source: https://github.com/bubble2k16/picodrive_3ds
-system: 3DS
+systems: [3DS]
 title: picodrive_3ds
 updated: '2018-03-24T02:19:48Z'
 version: v0.94

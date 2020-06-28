@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/banner.png
 layout: app
 qr: {CTRXplorer.cia: 'https://db.universal-team.net/assets/images/qr/ctrxplorer.cia.png'}
 source: https://github.com/d0k3/CTRXplorer
-system: 3DS
+systems: [3DS]
 title: CTRXplorer
 updated: '2017-02-08T11:36:20Z'
 version: v0.9.8.1

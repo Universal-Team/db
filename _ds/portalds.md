@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/smealum/portalDS/master/logo.bmp
 image: https://avatars2.githubusercontent.com/u/6338016?v=4
 layout: app
 source: https://github.com/smealum/portalDS
-system: DS
+systems: [DS]
 title: portalDS
 updated: '2019-11-23T23:14:24Z'
 version: r1

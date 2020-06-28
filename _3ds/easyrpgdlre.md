@@ -9,7 +9,7 @@ github: gnmmarechal/easyrpgdlre
 image: https://avatars0.githubusercontent.com/u/11259227?v=4
 layout: app
 source: https://github.com/gnmmarechal/easyrpgdlre
-system: 3DS
+systems: [3DS]
 title: easyrpgdlre
 updated: '2016-07-23T23:51:20Z'
 version: v2.1.1

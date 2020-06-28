@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/Cruel/DrawAttack/master/res/app/banner.
 layout: app
 qr: {DrawAttack.cia: 'https://db.universal-team.net/assets/images/qr/drawattack.cia.png'}
 source: https://github.com/Cruel/DrawAttack
-system: 3DS
+systems: [3DS]
 title: DrawAttack
 updated: '2016-04-17T07:38:25Z'
 version: '1.3'

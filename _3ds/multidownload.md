@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/hax0kartik/Multidownload/master/resourc
 layout: app
 qr: {Multidownload.cia: 'https://db.universal-team.net/assets/images/qr/multidownload.cia.png'}
 source: https://github.com/hax0kartik/Multidownload
-system: 3DS
+systems: [3DS]
 title: Multidownload
 updated: '2017-05-15T06:19:12Z'
 version: v3.2

@@ -13,7 +13,7 @@ image: https://raw.githubusercontent.com/FlagBrew/Pickr/master/3ds/assets/banner
 layout: app
 qr: {Pickr.cia: 'https://db.universal-team.net/assets/images/qr/pickr.cia.png'}
 source: https://github.com/FlagBrew/Pickr
-system: 3DS
+systems: [3DS]
 title: Pickr
 updated: '2018-07-17T20:04:30Z'
 version: 1.1.1-1

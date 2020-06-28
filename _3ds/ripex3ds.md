@@ -11,7 +11,7 @@ image: https://raw.githubusercontent.com/darkxex/ripex3ds/master/resources/banne
 layout: app
 qr: {RipEXAnim3DS.cia: 'https://db.universal-team.net/assets/images/qr/ripexanim3ds.cia.png'}
 source: https://github.com/darkxex/ripex3ds
-system: 3DS
+systems: [3DS]
 title: ripex3ds
 updated: '2018-03-25T00:25:17Z'
 version: '2.0'

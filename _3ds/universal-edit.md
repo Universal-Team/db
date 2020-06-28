@@ -8,7 +8,7 @@ icon: https://raw.githubusercontent.com/Universal-Team/Universal-Edit/master/3DS
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Edit/master/3DS/app/banner.png
 layout: app
 source: https://github.com/Universal-Team/Universal-Edit
-system: 3DS
+systems: [3DS]
 title: Universal-Edit
 wiki: https://github.com/Universal-Team/Universal-Edit/wiki
 ---

@@ -13,7 +13,7 @@ image: https://avatars2.githubusercontent.com/u/1922548?v=4
 layout: app
 qr: {TWLSaveTool.cia: 'https://db.universal-team.net/assets/images/qr/twlsavetool.cia.png'}
 source: https://github.com/TuxSH/TWLSaveTool
-system: 3DS
+systems: [3DS]
 title: TWLSaveTool
 updated: '2016-08-27T19:27:37Z'
 version: v1.2

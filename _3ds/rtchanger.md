@@ -13,7 +13,7 @@ icon: https://raw.githubusercontent.com/Storm-Eagle20/RTChanger/master/assets/lo
 image: https://raw.githubusercontent.com/Storm-Eagle20/RTChanger/master/assets/banner.png
 layout: app
 source: https://github.com/Storm-Eagle20/RTChanger
-system: 3DS
+systems: [3DS]
 title: RTChanger
 updated: '2017-07-31T14:06:14Z'
 version: '1.0'

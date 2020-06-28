@@ -9,7 +9,7 @@ github: Gericom/YouTubeDS
 image: https://avatars2.githubusercontent.com/u/5251038?v=4
 layout: app
 source: https://github.com/Gericom/YoutubeDS/tree/mpeg4player
-system: DS
+systems: [DS]
 title: MPEG4 Player
 updated: '2020-04-09T16:23:00Z'
 version: c633295

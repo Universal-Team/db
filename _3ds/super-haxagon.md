@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/med
 layout: app
 qr: {SuperHaxagon.cia: 'https://db.universal-team.net/assets/images/qr/superhaxagon.cia.png'}
 source: https://github.com/RedInquisitive/Super-Haxagon
-system: 3DS
+systems: [3DS]
 title: Super-Haxagon
 updated: '2017-01-26T03:55:23Z'
 version: 2.1.1

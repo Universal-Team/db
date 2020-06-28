@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/rhaleblian/dslibris/master/gfx/icon.bmp
 image: https://avatars1.githubusercontent.com/u/94912?v=4
 layout: app
 source: https://github.com/rhaleblian/dslibris
-system: DS
+systems: [DS]
 title: dslibris
 updated: '2018-11-23T01:58:57Z'
 version: v1.5.1

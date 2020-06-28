@@ -10,7 +10,7 @@ icon: https://raw.githubusercontent.com/bubble2k16/snes9x_3ds/master/assets/icon
 image: https://avatars2.githubusercontent.com/u/20153229?v=4
 layout: app
 source: https://github.com/bubble2k16/snes9x_3ds
-system: 3DS
+systems: [3DS]
 title: snes9x_3ds
 updated: '2018-03-24T01:43:21Z'
 version: v1.30

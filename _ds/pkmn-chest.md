@@ -13,7 +13,7 @@ image: https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/resour
 layout: app
 qr: {pkmn-chest.cia: 'https://db.universal-team.net/assets/images/qr/pkmn-chest.cia.png'}
 source: https://github.com/Universal-Team/pkmn-chest
-system: DS
+systems: [DS]
 title: pkmn-chest
 updated: '2020-04-23T04:15:40Z'
 version: v2.1

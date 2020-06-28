@@ -11,7 +11,7 @@ image: https://raw.githubusercontent.com/zoogie/Stuff/master/nds-hb-menu/cia/ban
 layout: app
 qr: {nds-hb-menu.cia: 'https://db.universal-team.net/assets/images/qr/nds-hb-menu.cia.png'}
 source: https://github.com/zoogie/Stuff
-system: 3DS
+systems: [3DS]
 title: Stuff
 updated: '2017-08-11T08:48:34Z'
 version: 0.6.0

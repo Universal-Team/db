@@ -12,7 +12,7 @@ image: https://avatars2.githubusercontent.com/u/1269164?v=4
 layout: app
 qr: {GameYob.cia: 'https://db.universal-team.net/assets/images/qr/gameyob.cia.png'}
 source: https://github.com/Steveice10/GameYob
-system: 3DS
+systems: [3DS]
 title: GameYob
 updated: '2015-12-23T02:19:04Z'
 version: 1.0.8

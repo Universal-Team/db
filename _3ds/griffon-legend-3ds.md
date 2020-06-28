@@ -11,7 +11,7 @@ icon: https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resource
 image: https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/banner.png
 layout: app
 source: https://github.com/nop90/Griffon-Legend-3DS
-system: 3DS
+systems: [3DS]
 title: Griffon-Legend-3DS
 updated: '2017-02-12T16:35:33Z'
 version: v1.0

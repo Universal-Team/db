@@ -12,7 +12,7 @@ image: https://avatars3.githubusercontent.com/u/16406884?v=4
 layout: app
 qr: {sbfm.cia: 'https://db.universal-team.net/assets/images/qr/sbfm.cia.png'}
 source: https://github.com/Trinitro21/lpp-3ds
-system: 3DS
+systems: [3DS]
 title: lpp-3ds
 updated: '2019-05-08T20:03:37Z'
 version: sbfm1.7

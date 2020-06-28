@@ -12,7 +12,7 @@ image: https://raw.githubusercontent.com/Steveice10/WorldOf3DSand/master/meta/ba
 layout: app
 qr: {Worldof3DSand.cia: 'https://db.universal-team.net/assets/images/qr/worldof3dsand.cia.png'}
 source: https://github.com/Steveice10/WorldOf3DSand
-system: 3DS
+systems: [3DS]
 title: WorldOf3DSand
 updated: '2016-07-12T03:28:55Z'
 version: 1.3.4
