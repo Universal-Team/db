@@ -11,6 +11,10 @@
         "url": "/3ds"
       },
       {
+        "title": "Emulators",
+        "url": "/3ds/emulator"
+      },
+      {
         "title": "Games",
         "url": "/3ds/game"
       },
