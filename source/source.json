@@ -959,7 +959,7 @@
 		"icon": "https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/icon48x48.png"
 	},
 	{
-		"github": "https://github.com/SuperSaiyajinStackZ/PKCount",
+		"github": "SuperSaiyajinStackZ/PKCount",
 		"systems": ["DS", "3DS"],
 		"categories": ["utility"],
 		"image": "https://github.com/SuperSaiyajinStackZ/PKCount/blob/master/3DS/app/banner.png",
