@@ -1,7 +1,7 @@
 [
 	{
 		"long_description": "Universal-Updater is a homebrew app that allows easy installation and updating of other 3DS homebrew!\n\nSome features include:\n- Flexible and easy to make scripts\n- Pre-made scripts that anyone can submit available for download from within the app\n- Translated to English, French, German, Italian, Japanese, Lithuanian, Portuguese, Russian, and Spanish\n- Customizable interface colors\n- Get some useful Homebrew apps thanks to the TinyDB implementation\n\n![The main menu](https://universal-team.github.io/images/universal-updater/mainMenu.png)",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"image": "https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png",
 		"categories": ["utility"],
@@ -9,7 +9,7 @@
 	},
 	{
 		"title": "TWiLight Menu++ Updater",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"image": "https://raw.githubusercontent.com/RocketRobz/TWiLightMenu-Updater/master/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/RocketRobz/TWiLightMenu-Updater/master/app/icon.png",
 		"categories": ["utility"],
@@ -21,14 +21,14 @@
 		"image": "https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/icon.png",
 		"categories": ["game"],
-		"system": "3DS"
+		"systems": ["3DS"]
 	},
 	{
 		"github": "Universal-Team/3DVier",
 		"image": "https://raw.githubusercontent.com/Universal-Team/3DVier/master/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/3DVier/master/app/icon.png",
 		"categories": ["game"],
-		"system": "3DS"
+		"systems": ["3DS"]
 	},
 	{
 		"long_description": "LeafEdit is a work in progress Animal Crossing: New Leaf save manager and editor for the Nintendo 3DS!\n\nFeatures include:\n- Changing player info such as name, tan, and money\n- See the Items on your Pocket and Dresser\n- See the Villager and replace them\n- Editing the layout of your village [Experimental, because it can break your save easilly!!]\n\n![The game selection menu](https://universal-team.github.io/images/leafedit/gameSelection.png)",
@@ -36,14 +36,14 @@
 		"image": "https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/icon.png",
 		"categories": ["utility"],
-		"system": "3DS"
+		"systems": ["3DS"]
 	},
 	{
 		"github": "Universal-Team/Universal-Edit",
 		"image": "https://raw.githubusercontent.com/Universal-Team/Universal-Edit/master/3DS/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/Universal-Edit/master/3DS/app/icon.png",
 		"categories": ["utility"],
-		"system": "3DS"
+		"systems": ["3DS"]
 	},
 	{
 		"long_description": "Pokémon Chest is an app for the DS(i) that can store and edit Pokémon in the DS Pokémon games.\n\nIt's current features include:\n- Loading save files from DSi SD, Flashcard SD, and retail cartridges\n- Storing up to 50 (flashcards) or 500 (DSi/3DS) boxes of Pokémon per chest with support for multiple chests\n- Editing most Pokémon, trainer, and other save data\n- Editing items in the bag\n- Injecting pk* files from SD\n- Dumping Pokémon to pk* files\n- Translated to Chinese, English, French, German, Indonesian, Italian, Japanese, Korean*, Lithuanian, Polish, Portuguese, Russian, and Spanish\n\n![A storage box](https://universal-team.github.io/images/pkmn-chest/box-2.png) ![editing a Pokémon](https://universal-team.github.io/images/pkmn-chest/summary.png)",
@@ -51,26 +51,26 @@
 		"image": "https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/resources/icon.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/icon.bmp",
 		"categories": ["utility"],
-		"system": "DS"
+		"systems": ["DS"]
 	},
 	{
 		"github": "Universal-Team/Relaunch",
 		"image": "https://raw.githubusercontent.com/Universal-Team/Relaunch/master/logo.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/Relaunch/master/main/icon.bmp",
 		"categories": ["utility"],
-		"system": "DS"
+		"systems": ["DS"]
 	},
 	{
 		"github": "Gericom/GBARunner2",
 		"icon": "https://raw.githubusercontent.com/Gericom/GBARunner2/master/icon.bmp",
 		"categories": ["emulator"],
-		"system": "DS"
+		"systems": ["DS"]
 	},
 	{
 		"long_description": "Features:\n- Dump GameBoy Advance cartridges on the original Nintendo DS and Nintendo DS Lite consoles.\n- Dump Nintendo DS/DSi cartridges on Nintendo DSi and Nintendo 3DS consoles (if GodMode9i is ran on the console SD card).\n- Copy, move, delete, rename files/folders and create folders.\n- Mount the NitroFS of .nds files.\n- Browse files on supported flashcards when running GM9i from the NAND or SD Card. (`AceKard 2(i)` & `R4 Ultra (r4ultra.com)`)\n\n![The file list](https://gbatemp.b-cdn.net/attachments/snap_191132-png.195368)",
 		"github": "RocketRobz/GodMode9i",
 		"categories": ["utility"],
-		"system": "DS",
+		"systems": ["DS"],
 		"image": "https://raw.githubusercontent.com/RocketRobz/GodMode9i/master/resources/logo2.png",
 		"icon": "https://raw.githubusercontent.com/RocketRobz/GodMode9i/master/icon.bmp"
 	},
@@ -78,7 +78,7 @@
 		"title": "DScraft",
 		"github": "smealum/dscraft",
 		"categories": ["game"],
-		"system": "DS",
+		"systems": ["DS"],
 		"downloads": {
 			"DScraft_310811.rar": "https://web.archive.org/web/20160407220910if_/http://smealum.net/dscraft/downloads/DScraft_310811.rar",
 			"DScraft_fat_310811.rar": "https://web.archive.org/web/20160112071851if_/http://smealum.net/dscraft/downloads/DScraft_fat_310811.rar"
@@ -93,12 +93,12 @@
 		"github": "smealum/portalDS",
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/smealum/portalDS/master/logo.bmp",
-		"system": "DS"
+		"systems": ["DS"]
 	},
 	{
 		"github": "rhaleblian/dslibris",
 		"categories": ["utility"],
-		"system": "DS",
+		"systems": ["DS"],
 		"icon": "https://raw.githubusercontent.com/rhaleblian/dslibris/master/gfx/icon.bmp"
 	},
 	{
@@ -112,7 +112,7 @@
 		"website": "https://www.colorslive.com",
 		"download_page": "https://gamebrew.org/wiki/Colors!",
 		"version": "v1.1",
-		"system": "DS"
+		"systems": ["DS"]
 	},
 	{
 		"github": "Gericom/YouTubeDS",
@@ -126,7 +126,7 @@
 			"MPEG4Player.nds.zip": "https://gbatemp.net/attachments/mpeg4player-nds-zip.203629/"
 		},
 		"version": "c633295",
-		"system": "DS",
+		"systems": ["DS"],
 		"updated": "2020-04-09T16:23:00Z"
 	},
 	{
@@ -140,7 +140,7 @@
 		"author": "huiminghao / Coto",
 		"version": "v1.3c",
 		"updated": "2018-10-19T22:09:05Z",
-		"system": "DS",
+		"systems": ["DS"],
 		"icon": "https://raw.githubusercontent.com/RocketRobz/NesDS/master/icon.bmp"
 	},
 	{
@@ -152,7 +152,7 @@
 			"lolsnes.7z": "http://lolsnes.kuribo64.net/lolsnes.7z"
 		},
 		"version": "v1.0",
-		"system": "DS",
+		"systems": ["DS"],
 		"icon": "https://raw.githubusercontent.com/Arisotura/lolSnes/master/lolsnes.bmp",
 		"image": "http://lolsnes.kuribo64.net/img/banner.png"
 	},
@@ -164,14 +164,14 @@
 				"release/arm7dldi-ntr/SNEmulDS.nds"
 			]
 		},
-		"system": "DS",
+		"systems": ["DS"],
 		"categories": ["emulator"],
 		"icon": "https://bitbucket.org/Coto88/snemulds/raw/c323eb1a7c411390de1ab32daa3640c17dbfa4ff/icon.bmp"
 	},
 	{
 		"github": "DS-Homebrew/PicoDriveTWL",
 		"categories": ["emulator"],
-		"system": "DS",
+		"systems": ["DS"],
 		"icon": "https://raw.githubusercontent.com/DS-Homebrew/PicoDriveTWL/master/genesis-32x32.bmp"
 	},
 	{
@@ -183,25 +183,25 @@
 		"version": "v0.7.4",
 		"download_page": "https://gamebrew.org/wiki/JEnesisDS",
 		"author": "Lordus",
-		"system": "DS",
+		"systems": ["DS"],
 		"description": "A Sega Genesis/MegaDrive emulator for the Nintendo DS"
 	},
 	{
 		"github": "JeffRuLz/TMFH",
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/JeffRuLz/TMFH/master/icon.bmp",
-		"system": "DS"
+		"systems": ["DS"]
 	},
 	{
 		"github": "edo9300/ndsi-savedumper",
 		"categories": ["utility"],
-		"system": "DS"
+		"systems": ["DS"]
 	},
 	{
 		"github": "chishm/nitrohax",
 		"updated": "2018-04-09T13:00:02Z",
 		"icon": "https://raw.githubusercontent.com/chishm/nitrohax/master/icon.bmp",
-		"system": "DS",
+		"systems": ["DS"],
 		"downloads": {
 			"NitroHax.zip": "https://www.chishm.com/NitroHax/NitroHax.zip"
 		},
@@ -212,7 +212,7 @@
 	},
 	{
 		"github": "ahezard/NitroHax3DS",
-		"system": "DS",
+		"systems": ["DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/ahezard/NitroHax3DS/master/icon.bmp"
 	},
@@ -224,738 +224,745 @@
 		"downloads": {
 			"362542-gameyob.zip": "https://web.archive.org/web/20190314143849if_/https://s6.filetrip.net/p/22648/362542-gameyob.zip"
 		},
-		"system": "DS",
+		"systems": ["DS"],
 		"categories": ["emulator"],
 		"version": "v0.5.2"
 	},
 	{
 		"github": "RocketRobz/SavvyManager",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/RocketRobz/SavvyManager/master/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/RocketRobz/SavvyManager/master/app/icon.png"
 	},
 	{
 		"github": "FlagBrew/Checkpoint",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/FlagBrew/Checkpoint/master/3ds/assets/banner.png",
 		"icon": "https://raw.githubusercontent.com/FlagBrew/Checkpoint/master/3ds/assets/icon.png"
 	},
 	{
 		"github": "Nanquitas/BootNTR",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/Nanquitas/BootNTR/master/resources/icon.png"
 	},
 	{
 		"github": "MrHuu/openbor-3ds",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/MrHuu/openbor-3ds/3DS/engine/resources/ctr/OpenBOR_Logo_256x128.png",
 		"icon": "https://raw.githubusercontent.com/MrHuu/openbor-3ds/3DS/engine/resources/ctr/OpenBOR_Icon_48x48.png"
 	},
 	{
 		"github": "mgba-emu/mgba",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"image": "https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-256.png",
 		"icon": "https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-48.png"
 	},
 	{
 		"github": "mtheall/ftpd",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/mtheall/ftpd/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/mtheall/ftpd/master/meta/icon.png"
 	},
 	{
 		"github": "FlagBrew/PKSM",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/FlagBrew/PKSM/master/assets/banner.png",
 		"icon": "https://raw.githubusercontent.com/FlagBrew/PKSM/master/assets/icon.png"
 	},
 	{
 		"github": "KunoichiZ/lumaupdate",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/KunoichiZ/lumaupdate/master/meta/icon.png"
 	},
 	{
 		"github": "joel16/3DShell",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/joel16/3DShell/master/res/banner.png",
 		"icon": "https://raw.githubusercontent.com/joel16/3DShell/master/res/ic_launcher_filemanager.png"
 	},
 	{
 		"github": "HIDE810/you-are-an-idiot",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/HIDE810/you-are-an-idiot/master/resource/banner.png",
 		"icon": "https://raw.githubusercontent.com/HIDE810/you-are-an-idiot/master/resource/icon.png"
 	},
 	{
 		"github": "HIDE810/WiFi-Status-Checker",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/HIDE810/WiFi-Status-Checker/master/resource/banner.png",
 		"icon": "https://raw.githubusercontent.com/HIDE810/WiFi-Status-Checker/master/resource/icon.png"
 	},
 	{
 		"github": "Trinitro21/lpp-3ds",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/Trinitro21/lpp-3ds/sbfm/icon.png"
 	},
 	{
 		"github": "elhobbs/prboom3ds",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/elhobbs/prboom3ds/master/banner.png",
 		"icon": "https://raw.githubusercontent.com/elhobbs/prboom3ds/master/prboom3ds.png"
 	},
 	{
 		"github": "MechanicalDragon0687/MCU_Bricker_tinydb",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"]
 	},
 	{
 		"github": "Core-2-Extreme/3DS-Battery-Checker",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Core-2-Extreme/3DS-Battery-Checker/master/v1.2.0/resource/bannerv1.2.png",
 		"icon": "https://raw.githubusercontent.com/Core-2-Extreme/3DS-Battery-Checker/master/v1.2.0/resource/icon.png"
 	},
 	{
 		"github": "MechanicalDragon0687/GYTB",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resources/icon.png"
 	},
 	{
 		"github": "Steveice10/FBI",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Steveice10/FBI/master/romfs/logo.png",
 		"icon": "https://raw.githubusercontent.com/Steveice10/FBI/master/meta/icon_3ds.png"
 	},
 	{
 		"github": "LukeZGD/DDLC-LOVE",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"]
 	},
 	{
 		"github": "MrHuu/opentitus-3ds",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_banner.png",
 		"icon": "https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_icon_48x48.png"
 	},
 	{
 		"github": "J-D-K/JKSM",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/J-D-K/JKSM/master/icon.png"
 	},
 	{
 		"github": "togetg/TJAPlayer_for_3DS",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resources/icon.png"
 	},
 	{
 		"github": "noirscape/dses",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/noirscape/dses/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/noirscape/dses/master/meta/icon.png"
 	},
 	{
 		"github": "Swiftloke/ModMoon",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Swiftloke/ModMoon/master/CIA/banner.png",
 		"icon": "https://raw.githubusercontent.com/Swiftloke/ModMoon/master/CIA/icon.png"
 	},
 	{
 		"github": "dnasdw/SharedFontTool",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/dnasdw/SharedFontTool/master/meta/banner_3ds.png",
 		"icon": "https://raw.githubusercontent.com/dnasdw/SharedFontTool/master/meta/icon_3ds.png"
 	},
 	{
 		"github": "joel16/3DSident",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/joel16/3DSident/master/console/res/banner.png",
 		"icon": "https://raw.githubusercontent.com/joel16/3DSident/master/console/res/icon.png"
 	},
 	{
 		"github": "joel16/FriendMii",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/joel16/FriendMii/master/res/banner.png",
 		"icon": "https://raw.githubusercontent.com/joel16/FriendMii/master/res/ic_launcher_friendmii.png"
 	},
 	{
 		"github": "mariohackandglitch/homebrew_launcher_dummy",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/mariohackandglitch/homebrew_launcher_dummy/master/resources/icon.png"
 	},
 	{
 		"github": "LiquidFenrir/Yahtzee3DS",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/LiquidFenrir/Yahtzee3DS/master/sprites/banner.png",
 		"icon": "https://raw.githubusercontent.com/LiquidFenrir/Yahtzee3DS/master/icon.png"
 	},
 	{
 		"github": "astronautlevel2/Anemone3DS",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/astronautlevel2/Anemone3DS/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/astronautlevel2/Anemone3DS/master/meta/icon.png"
 	},
 	{
 		"github": "FlagBrew/Pickr",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/FlagBrew/Pickr/master/3ds/assets/banner.png",
 		"icon": "https://raw.githubusercontent.com/FlagBrew/Pickr/master/3ds/assets/icon.png"
 	},
 	{
 		"github": "noirscape/SRAU",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/noirscape/SRAU/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/noirscape/SRAU/master/meta/icon.png"
 	},
 	{
 		"github": "darkxex/ripex3ds",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/darkxex/ripex3ds/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/darkxex/ripex3ds/master/resources/icon.png"
 	},
 	{
 		"github": "bubble2k16/snes9x_3ds",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/bubble2k16/snes9x_3ds/master/assets/icon.png"
 	},
 	{
 		"github": "bubble2k16/emus3ds",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/virtuanes/assets/icon.png"
 	},
 	{
 		"github": "Ryuzaki-MrL/Cthulhu",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Ryuzaki-MrL/Cthulhu/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/Ryuzaki-MrL/Cthulhu/master/meta/icon.png"
 	},
 	{
 		"github": "zoogie/seedminer",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/icon.png"
 	},
 	{
 		"github": "joel16/3DS-Recovery-Tool",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/joel16/3DS-Recovery-Tool/master/res/banner.png",
 		"icon": "https://raw.githubusercontent.com/joel16/3DS-Recovery-Tool/master/res/ic_launcher_recovery_tool.png"
 	},
 	{
 		"github": "LiquidFenrir/WifiManager",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/LiquidFenrir/WifiManager/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/LiquidFenrir/WifiManager/master/meta/icon.png"
 	},
 	{
 		"github": "ihaveamac/screenshot-merge",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/ihaveamac/screenshot-merge/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/ihaveamac/screenshot-merge/master/resources/icon.png"
 	},
 	{
 		"github": "DomRe/3DS_eBook_Reader",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/DomRe/3DS_eBook_Reader/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/DomRe/3DS_eBook_Reader/master/meta/icon.png"
 	},
 	{
 		"github": "bubble2k16/picodrive_3ds",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/picodrive/assets/icon.png"
 	},
 	{
 		"github": "LiquidFenrir/HexIsoPath",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/LiquidFenrir/HexIsoPath/master/banner.png",
 		"icon": "https://raw.githubusercontent.com/LiquidFenrir/HexIsoPath/master/icon.png"
 	},
 	{
 		"github": "RMcTn/Notepad3DS",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/RMcTn/Notepad3DS/master/icon.png"
 	},
 	{
 		"github": "ingolemo/drider",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/ingolemo/drider/master/banner.png",
 		"icon": "https://raw.githubusercontent.com/ingolemo/drider/master/icon.png"
 	},
 	{
 		"github": "CorySanin/FastPlayCoin",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/CorySanin/FastPlayCoin/master/resource/banner.png",
 		"icon": "https://raw.githubusercontent.com/CorySanin/FastPlayCoin/master/resource/icon.png"
 	},
 	{
 		"github": "SaturnSH2x2/PayloadSpinner3DS",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/SaturnSH2x2/PayloadSpinner3DS/master/assets/banner.png",
 		"icon": "https://raw.githubusercontent.com/SaturnSH2x2/PayloadSpinner3DS/master/assets/icon.png"
 	},
 	{
 		"github": "Manurocker95/Anim3DS",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Manurocker95/Anim3DS/master/Anim3DS/Anim3DS/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/Manurocker95/Anim3DS/master/Anim3DS/Anim3DS/resources/icon.png"
 	},
 	{
 		"github": "nop90/Zelda3T",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/icon.png"
 	},
 	{
 		"github": "TricksterGuy/bottomless-block-barrage",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/master/resources/icon.png"
 	},
 	{
 		"github": "Manurocker95/TRekt_3D",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/resources/icon.png"
 	},
 	{
 		"github": "RSDuck/craftus_reloaded",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/RSDuck/craftus_reloaded/master/icon/craftusreloaded.png"
 	},
 	{
 		"github": "Manurocker95/Evolution_Sav3D_Me",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/Manurocker95/Evolution_Sav3D_Me/Evolution_Sav3D_Me/icon.png"
 	},
 	{
 		"github": "zoogie/Stuff",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/zoogie/Stuff/master/nds-hb-menu/cia/banner.png",
 		"icon": "https://raw.githubusercontent.com/zoogie/Stuff/master/nds-hb-menu/cia/icon.png"
 	},
 	{
 		"github": "Storm-Eagle20/RTChanger",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Storm-Eagle20/RTChanger/master/assets/banner.png",
 		"icon": "https://raw.githubusercontent.com/Storm-Eagle20/RTChanger/master/assets/logo.png"
 	},
 	{
 		"github": "NatTupper/Forecast",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/NatTupper/Forecast/master/res/banner%20icon.png",
 		"icon": "https://raw.githubusercontent.com/NatTupper/Forecast/master/icon.png"
 	},
 	{
 		"github": "deltabeard/ctrmus",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/deltabeard/ctrmus/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/deltabeard/ctrmus/master/meta/icon.png"
 	},
 	{
 		"github": "aliceinpalth/3dfetch",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/aliceinpalth/3dfetch/master/banner.png",
 		"icon": "https://raw.githubusercontent.com/aliceinpalth/3dfetch/master/icon.png"
 	},
 	{
 		"github": "trainboy2019/ButtonPresser3DS",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/resources/Banner.png",
 		"icon": "https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/icon.png"
 	},
 	{
 		"github": "masterfeizz/Quake2CTR",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"]
 	},
 	{
 		"github": "nop90/Neopop-SDL",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"image": "https://raw.githubusercontent.com/nop90/Neopop-SDL/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Neopop-SDL/master/resources/icon.png"
 	},
 	{
 		"github": "Creckeryop/3dsCookieClicker",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/Creckeryop/3dsCookieClicker/master/logo.png"
 	},
 	{
 		"github": "nop90/ZeldaOLB",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/ZeldaOLB/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/ZeldaOLB/master/resources/icon.png"
 	},
 	{
 		"github": "hax0kartik/Multidownload",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/hax0kartik/Multidownload/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/hax0kartik/Multidownload/master/resources/icon.png"
 	},
 	{
 		"github": "zoogie/DSP1",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/zoogie/DSP1/master/cia/banner.png",
 		"icon": "https://raw.githubusercontent.com/zoogie/DSP1/master/cia/icon.png"
 	},
 	{
 		"github": "Possum/LumaLocaleSwitcher",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/meta/icon.png"
 	},
 	{
 		"github": "Manurocker95/WITB_3D",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/icon.png"
 	},
 	{
 		"github": "EBLeifEricson/orchestrina",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/banner2.png",
 		"icon": "https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/icon.png"
 	},
 	{
 		"github": "nop90/Supertux-Milestone1-3ds",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/icon.png"
 	},
 	{
 		"github": "nop90/Opentyrian-3ds",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/Opentyrian-3ds/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Opentyrian-3ds/master/resources/icon.png"
 	},
 	{
 		"github": "nop90/Xrick-3ds",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/icon.png"
 	},
 	{
 		"github": "DDews/Snakes",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/DDews/Snakes/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/DDews/Snakes/master/meta/icon.png"
 	},
 	{
 		"github": "LiquidFenrir/3ds1010",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/LiquidFenrir/3ds1010/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/LiquidFenrir/3ds1010/master/resources/icon.png"
 	},
 	{
 		"github": "nop90/Griffon-Legend-3DS",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/icon.png"
 	},
 	{
 		"github": "d0k3/CTRXplorer",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/icon.png"
 	},
 	{
 		"github": "nop90/POWDER-3DS",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/POWDER-3DS/master/port/3ds/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/POWDER-3DS/master/port/3ds/icon.png"
 	},
 	{
 		"github": "mrdanielps/r3Ddragon",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"image": "https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/icon.png"
 	},
 	{
 		"github": "Ordim3n/Smash-Amiibo-Cheat-Tool",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Ordim3n/Smash-Amiibo-Cheat-Tool/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/Ordim3n/Smash-Amiibo-Cheat-Tool/master/meta/icon.png"
 	},
 	{
 		"github": "RedInquisitive/Super-Haxagon",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/banner.png",
 		"icon": "https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/resource/icon.png"
 	},
 	{
 		"github": "phijor/SpecializeMii",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/phijor/SpecializeMii/master/etc/banner.png",
 		"icon": "https://raw.githubusercontent.com/phijor/SpecializeMii/master/etc/icon.png"
 	},
 	{
 		"github": "dragos240/Pocket-NLSE",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/res/banner%20icon.png",
 		"icon": "https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/icon.png"
 	},
 	{
 		"github": "DanTheMan827/tikSweep",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/DanTheMan827/tikSweep/master/banner.png",
 		"icon": "https://raw.githubusercontent.com/DanTheMan827/tikSweep/master/icon.png"
 	},
 	{
 		"github": "nop90/ZeldaPicross",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/icon.png"
 	},
 	{
 		"github": "flarn2006/graphcalc3ds",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/banner.png",
 		"icon": "https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/icon.png"
 	},
 	{
 		"github": "Hoksy/ravimid",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"]
 	},
 	{
 		"github": "Omegadrien/Memory3DS",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/Omegadrien/Memory3DS/master/assets/banner.png",
 		"icon": "https://raw.githubusercontent.com/Omegadrien/Memory3DS/master/assets/icon.png"
 	},
 	{
 		"github": "Ryuzaki-MrL/RomFS-Explorer",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS-Explorer/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS-Explorer/master/meta/icon.png"
 	},
 	{
 		"github": "masterfeizz/ctrQuake",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/masterfeizz/ctrQuake/master/icon.png"
 	},
 	{
 		"github": "ItsDeidara/CaptureAssistant",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/ItsDeidara/CaptureAssistant/master/assets/banner.png",
 		"icon": "https://raw.githubusercontent.com/ItsDeidara/CaptureAssistant/master/assets/icon.png"
 	},
 	{
 		"github": "nop90/OpenSyobon3DS",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/icon.png"
 	},
 	{
 		"github": "gnmmarechal/easyrpgdlre",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"]
 	},
 	{
 		"github": "Steveice10/WorldOf3DSand",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/Steveice10/WorldOf3DSand/master/meta/banner_3ds.png",
 		"icon": "https://raw.githubusercontent.com/Steveice10/WorldOf3DSand/master/meta/icon_3ds.png"
 	},
 	{
 		"github": "TricksterGuy/3ds-vgmstream",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/TricksterGuy/3ds-vgmstream/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/TricksterGuy/3ds-vgmstream/master/resources/icon.png"
 	},
 	{
 		"github": "TurtleP/Hax0r",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/TurtleP/Hax0r/master/graphics/icon.png"
 	},
 	{
 		"github": "nop90/Biniax2-3DS",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/icon.png"
 	},
 	{
 		"github": "TurtleP/TurtleInvaders",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/TurtleP/TurtleInvaders/master/graphics/menu/banner-plain-hi.png"
 	},
 	{
 		"github": "Jacudibu/Snake2DS",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/Jacudibu/Snake2DS/master/icon_large.png"
 	},
 	{
 		"github": "TuxSH/TWLSaveTool",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/TuxSH/TWLSaveTool/master/app/IconLarge.png"
 	},
 	{
 		"github": "phijor/ctroller",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/phijor/ctroller/master/3DS/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/phijor/ctroller/master/3DS/resources/icon.png"
 	},
 	{
 		"github": "nop90/ZeldaROTH",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/icon.png"
 	},
 	{
 		"github": "Ryuzaki-MrL/NotifyMii",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Ryuzaki-MrL/NotifyMii/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/Ryuzaki-MrL/NotifyMii/master/meta/icon.png"
 	},
 	{
 		"github": "Asellus/3DS_Quick_Reboot",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Asellus/3DS_Quick_Reboot/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/Asellus/3DS_Quick_Reboot/master/resources/icon.png"
 	},
 	{
 		"github": "masterfeizz/EDuke3D",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/masterfeizz/EDuke3D/master/icon.png"
 	},
 	{
 		"github": "machinamentum/CS3DS",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/machinamentum/CS3DS/master/jge/Projects/cspsp/icon_3ds.png"
 	},
 	{
 		"github": "Cruel/DrawAttack",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/Cruel/DrawAttack/master/res/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/Cruel/DrawAttack/master/res/app/icon.png"
 	},
 	{
 		"github": "Spaqin/fbwo-3ds",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["game"]
 	},
 	{
 		"github": "GiantBlargg/UpdateSuppressor",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/banner.png",
 		"icon": "https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/icon.png"
 	},
 	{
 		"github": "Steveice10/GameYob",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/Steveice10/GameYob/master/meta/icon_3ds.png"
 	},
 	{
 		"github": "suloku/pdrpse",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/suloku/pdrpse/master/icon.png"
 	},
 	{
 		"github": "CTurt/3DSController",
-		"system": "3DS",
+		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/banner.png",
 		"icon": "https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/icon48x48.png"
+	},
+	{
+		"github": "https://github.com/SuperSaiyajinStackZ/PKCount",
+		"systems": ["DS", "3DS"],
+		"categories": ["utility"],
+		"image": "https://github.com/SuperSaiyajinStackZ/PKCount/blob/master/3DS/app/banner.png",
+		"icon": "https://github.com/SuperSaiyajinStackZ/PKCount/blob/master/3DS/app/icon.png"
 	}
 ]

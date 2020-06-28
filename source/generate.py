@@ -316,13 +316,14 @@ for app in source:
 	web["layout"] = "app"
 	if "long_description" in web:
 		web.pop("long_description")
-	if not "system" in web:
-		web["system"] = "3DS" # default to 3DS
-	if "title" in web:
-		with open(os.path.join("..", "_" + webName(web["system"]), webName(web["title"]) + ".md"), "w") as file:
-			file.write("---\n" + yaml.dump(web) + "---\n")
-			if "long_description" in app:
-				file.write(app["long_description"])
+	if not "systems" in web:
+		web["systems"] = ["3DS"] # default to 3DS
+	for system in web["systems"]:
+		if "title" in web:
+			with open(os.path.join("..", "_" + webName(system), webName(web["title"]) + ".md"), "w") as file:
+				file.write("---\n" + yaml.dump(web) + "---\n")
+				if "long_description" in app:
+					file.write(app["long_description"])
 
 	# Create copy with filler items for UniStore base
 	appCopy = app.copy()
@@ -334,8 +335,8 @@ for app in source:
 		appCopy["author"] = ""
 	if not "categories" in app:
 		appCopy["categories"] = [""]
-	if not "system" in app:
-		appCopy["system"] = ""
+	if not "systems" in app:
+		appCopy["systems"] = [""]
 	if not "description" in app:
 		appCopy["description"] = ""
 
@@ -345,8 +346,8 @@ for app in source:
 			"title": appCopy["title"],
 			"version": appCopy["version"],
 			"author": appCopy["author"],
-			"category": appCopy["categories"][0],
-			"console": appCopy["system"],
+			"category": " / ".join(appCopy["categories"]),
+			"console": " / ".join(appCopy["systems"]),
 			"icon_index": len(icons) - 1 if "icon" in app or "image" in app else -1,
 			"description": appCopy["description"],
 		}
@@ -364,7 +365,7 @@ for app in source:
 
 	unistore["storeContent"].append(uni)
 
-	# Add author, categories, and system are to the unistore in not already in
+	# Add authors, categories, and systems are to the unistore in not already in
 	for category in app["categories"]:
 		if not category in unistore["storeInfo"]["categories"]:
 			unistore["storeInfo"]["categories"].append(category)
@@ -372,8 +373,9 @@ for app in source:
 	if "author" in app and not app["author"] in unistore["storeInfo"]["authors"]:
 		unistore["storeInfo"]["authors"].append(app["author"])
 
-	if "system" in app and not app["system"] in unistore["storeInfo"]["consoles"]:
-		unistore["storeInfo"]["consoles"].append(app["system"])
+	for system in app["systems"]:
+		if not system in unistore["storeInfo"]["consoles"]:
+			unistore["storeInfo"]["consoles"].append(system)
 
 # Make t3x
 with open(os.path.join("temp", "icons.t3s"), "w") as file:
