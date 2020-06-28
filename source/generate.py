@@ -158,7 +158,7 @@ for app in source:
 		if not "author" in app:
 			app["author"] = api["owner"]["login"]
 
-		if not "description" in app and api["description"] != "":
+		if not "description" in app and api["description"] != "" and api["description"] != None:
 			app["description"] = api["description"]
 
 		if not "image" in app:
@@ -170,7 +170,7 @@ for app in source:
 		if not "created" in app:
 			app["created"] = api["created_at"]
 
-		if not "website" in app and api["homepage"] != "":
+		if not "website" in app and api["homepage"] != "" and api["homepage"] != None:
 			app["website"] = api["homepage"]
 
 		if not "wiki" in app and api["has_wiki"]:
@@ -183,7 +183,7 @@ for app in source:
 			if not "version" in app:
 				app["version"] = release["tag_name"]
 
-			if not "version_title" in app and release["name"] != None:
+			if not "version_title" in app and release["name"] != "" and release["name"] != None:
 				app["version_title"] = release["name"]
 
 			if not "updated" in app:
@@ -209,9 +209,9 @@ for app in source:
 			if not "version" in app["prerelease"]:
 				app["prerelease"]["version"] = prerelease["tag_name"]
 
-			if not "version_title" in app and prerelease["name"] != None:
+			if not "version_title" in app and prerelease["name"] != "" and prerelease["name"] != None:
 				app["version_title"] = prerelease["name"]
-			if not "version_title" in app["prerelease"] and prerelease["name"] != None:
+			if not "version_title" in app["prerelease"] and prerelease["name"] != "" and prerelease["name"] != None:
 				app["prerelease"]["version_title"] = prerelease["name"]
 
 			if not "updated" in app:
