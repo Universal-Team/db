@@ -16,6 +16,5 @@ title: Griffon-Legend-3DS
 updated: '2017-02-12T16:35:33Z'
 version: v1.0
 version_title: Final release
-website: null
 wiki: https://github.com/nop90/Griffon-Legend-3DS/wiki
 ---

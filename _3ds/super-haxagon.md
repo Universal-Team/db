@@ -17,5 +17,4 @@ title: Super-Haxagon
 updated: '2017-01-26T03:55:23Z'
 version: 2.1.1
 version_title: Less Main Menu Crashing Edition!
-website: null
 ---

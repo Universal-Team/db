@@ -2,7 +2,6 @@
 author: nop90
 categories: [game]
 created: '2017-03-04T06:48:10Z'
-description: null
 download_page: https://github.com/nop90/Opentyrian-3ds/releases/tag/v1.1
 downloads: {Opentyrian_v1.1.zip: 'https://github.com/nop90/Opentyrian-3ds/releases/download/v1.1/Opentyrian_v1.1.zip'}
 github: nop90/Opentyrian-3ds
@@ -15,6 +14,5 @@ title: Opentyrian-3ds
 updated: '2017-03-11T20:24:51Z'
 version: v1.1
 version_title: Bugfix
-website: null
 wiki: https://github.com/nop90/Opentyrian-3ds/wiki
 ---

@@ -18,6 +18,5 @@ title: 3DS-Battery-Checker
 updated: '2019-03-20T12:57:15Z'
 version: v1.2.0
 version_title: 3DS_Battery_Checker v1.2.0
-website: null
 wiki: https://github.com/Core-2-Extreme/3DS-Battery-Checker/wiki
 ---

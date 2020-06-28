@@ -17,6 +17,5 @@ title: ButtonPresser3DS
 updated: '2017-06-22T02:42:08Z'
 version: '2.0'
 version_title: Button Presser 3DS 2.0
-website: null
 wiki: https://github.com/trainboy2019/ButtonPresser3DS/wiki
 ---

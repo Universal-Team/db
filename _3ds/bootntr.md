@@ -2,7 +2,6 @@
 author: Nanquitas
 categories: [utility]
 created: '2016-04-21T14:02:23Z'
-description: null
 download_page: https://github.com/Nanquitas/BootNTR/releases/tag/v2.13.3
 downloads: {BootNTRSelector-FONZD-Banner.cia: 'https://github.com/Nanquitas/BootNTR/releases/download/v2.13.3/BootNTRSelector-FONZD-Banner.cia',
   BootNTRSelector-Mode3-FONZD-Banner.cia: 'https://github.com/Nanquitas/BootNTR/releases/download/v2.13.3/BootNTRSelector-Mode3-FONZD-Banner.cia',
@@ -22,7 +21,5 @@ system: 3DS
 title: BootNTR
 updated: '2019-12-17T15:51:26Z'
 version: v2.13.3
-version_title: ''
-website: null
 wiki: https://github.com/Nanquitas/BootNTR/wiki
 ---

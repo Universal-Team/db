@@ -2,7 +2,6 @@
 author: Spaqin
 categories: [game]
 created: '2016-01-30T08:52:55Z'
-description: null
 download_page: https://github.com/Spaqin/fbwo-3ds/releases/tag/v0.4.1
 downloads: {fbwo.v0.4.1.zip: 'https://github.com/Spaqin/fbwo-3ds/releases/download/v0.4.1/fbwo.v0.4.1.zip'}
 github: Spaqin/fbwo-3ds
@@ -14,6 +13,5 @@ title: fbwo-3ds
 updated: '2016-03-06T09:43:45Z'
 version: v0.4.1
 version_title: FBWO v0.4.1
-website: null
 wiki: https://github.com/Spaqin/fbwo-3ds/wiki
 ---

@@ -13,12 +13,10 @@ prerelease:
   downloads: {cspsp.zip: 'https://github.com/machinamentum/CS3DS/releases/download/0.6-alpha/cspsp.zip'}
   updated: '2016-04-22T01:51:31Z'
   version: 0.6-alpha
-  version_title: ''
 source: https://github.com/machinamentum/CS3DS
 system: 3DS
 title: CS3DS
 updated: '2016-04-22T01:51:31Z'
 version: 0.6-alpha
-version_title: ''
 wiki: https://github.com/machinamentum/CS3DS/wiki
 ---

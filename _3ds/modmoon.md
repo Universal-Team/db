@@ -17,6 +17,5 @@ title: ModMoon
 updated: '2018-09-29T16:45:22Z'
 version: v3.0.1
 version_title: 'Version 3.0.1: Fix major broken things'
-website: null
 wiki: https://github.com/Swiftloke/ModMoon/wiki
 ---

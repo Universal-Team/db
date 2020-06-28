@@ -2,7 +2,6 @@
 author: HIDE810
 categories: [utility]
 created: '2019-05-26T12:57:45Z'
-description: null
 download_page: https://github.com/HIDE810/WiFi-Status-Checker/releases/tag/1.0
 downloads: {WiFi.3dsx: 'https://github.com/HIDE810/WiFi-Status-Checker/releases/download/1.0/WiFi.3dsx',
   WiFi.cia: 'https://github.com/HIDE810/WiFi-Status-Checker/releases/download/1.0/WiFi.cia'}
@@ -17,6 +16,5 @@ title: WiFi-Status-Checker
 updated: '2019-05-26T13:57:24Z'
 version: '1.0'
 version_title: WiFi Status Checker v1.0
-website: null
 wiki: https://github.com/HIDE810/WiFi-Status-Checker/wiki
 ---

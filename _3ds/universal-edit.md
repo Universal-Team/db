@@ -10,6 +10,5 @@ layout: app
 source: https://github.com/Universal-Team/Universal-Edit
 system: 3DS
 title: Universal-Edit
-website: null
 wiki: https://github.com/Universal-Team/Universal-Edit/wiki
 ---

@@ -16,6 +16,5 @@ system: 3DS
 title: DrawAttack
 updated: '2016-04-17T07:38:25Z'
 version: '1.3'
-version_title: ''
 wiki: https://github.com/Cruel/DrawAttack/wiki
 ---

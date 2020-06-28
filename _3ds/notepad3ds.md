@@ -17,6 +17,5 @@ title: Notepad3DS
 updated: '2017-12-06T15:58:06Z'
 version: 1.1.2
 version_title: Notepad3DS
-website: null
 wiki: https://github.com/RMcTn/Notepad3DS/wiki
 ---

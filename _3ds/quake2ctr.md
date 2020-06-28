@@ -19,6 +19,5 @@ title: Quake2CTR
 updated: '2017-06-24T15:36:24Z'
 version: v0.2
 version_title: Save fix and Input enhancements
-website: null
 wiki: https://github.com/masterfeizz/Quake2CTR/wiki
 ---

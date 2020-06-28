@@ -17,6 +17,5 @@ title: CTRXplorer
 updated: '2017-02-08T11:36:20Z'
 version: v0.9.8.1
 version_title: CTRXplorer v0.9.8.1
-website: null
 wiki: https://github.com/d0k3/CTRXplorer/wiki
 ---

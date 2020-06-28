@@ -16,6 +16,5 @@ title: Zelda3T
 updated: '2017-09-24T18:25:47Z'
 version: v1.0
 version_title: Added support for touchpad
-website: null
 wiki: https://github.com/nop90/Zelda3T/wiki
 ---

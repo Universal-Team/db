@@ -26,6 +26,5 @@ system: 3DS
 title: mgba
 updated: '2020-06-15T03:17:48Z'
 version: 0.8.2
-version_title: ''
 website: https://mgba.io/
 ---

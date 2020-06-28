@@ -15,6 +15,5 @@ title: Forecast
 updated: '2017-07-25T12:39:20Z'
 version: v1.0.1
 version_title: v1.0.1
-website: null
 wiki: https://github.com/NatTupper/Forecast/wiki
 ---

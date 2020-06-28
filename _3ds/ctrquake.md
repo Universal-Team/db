@@ -17,6 +17,5 @@ title: ctrQuake
 updated: '2016-09-13T02:38:10Z'
 version: v0.8
 version_title: 8th Release - Online MP
-website: null
 wiki: https://github.com/masterfeizz/ctrQuake/wiki
 ---

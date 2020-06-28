@@ -20,6 +20,5 @@ title: Supertux-Milestone1-3ds
 updated: '2017-03-22T22:55:55Z'
 version: v0.1
 version_title: First release
-website: null
 wiki: https://github.com/nop90/Supertux-Milestone1-3ds/wiki
 ---

@@ -15,6 +15,5 @@ title: seedminer
 updated: '2018-02-22T09:37:13Z'
 version: v2.1
 version_title: Gimmie bin edition
-website: null
 wiki: https://github.com/zoogie/seedminer/wiki
 ---

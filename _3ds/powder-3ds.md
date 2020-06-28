@@ -15,6 +15,5 @@ title: POWDER-3DS
 updated: '2017-02-03T23:50:45Z'
 version: v1,1
 version_title: Some improvements
-website: null
 wiki: https://github.com/nop90/POWDER-3DS/wiki
 ---

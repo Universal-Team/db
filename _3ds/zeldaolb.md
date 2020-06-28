@@ -16,6 +16,5 @@ title: ZeldaOLB
 updated: '2017-06-07T19:23:53Z'
 version: v1,1
 version_title: Improved Italian translation and made some fixes
-website: null
 wiki: https://github.com/nop90/ZeldaOLB/wiki
 ---

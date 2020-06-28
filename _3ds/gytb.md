@@ -17,6 +17,5 @@ title: GYTB
 updated: '2019-02-02T20:53:45Z'
 version: '1.0'
 version_title: GYTB
-website: null
 wiki: https://github.com/MechanicalDragon0687/GYTB/wiki
 ---

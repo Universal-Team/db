@@ -17,6 +17,5 @@ system: 3DS
 title: openbor-3ds
 updated: '2020-05-09T17:34:53Z'
 version: v0.0.4
-version_title: ''
 website: http://www.chronocrash.com
 ---

@@ -17,6 +17,5 @@ title: Yahtzee3DS
 updated: '2018-06-27T16:13:08Z'
 version: v1.0.1
 version_title: Breaking bugs fixed
-website: null
 wiki: https://github.com/LiquidFenrir/Yahtzee3DS/wiki
 ---

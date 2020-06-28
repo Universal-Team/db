@@ -18,6 +18,5 @@ title: Smash-Amiibo-Cheat-Tool
 updated: '2017-01-27T00:03:00Z'
 version: '2.0'
 version_title: First release of the year
-website: null
 wiki: https://github.com/Ordim3n/Smash-Amiibo-Cheat-Tool/wiki
 ---

@@ -16,6 +16,5 @@ title: homebrew_launcher_dummy
 updated: '2018-07-26T21:33:37Z'
 version: v1.0
 version_title: Homebrew Launcher Wrapper
-website: null
 wiki: https://github.com/mariohackandglitch/homebrew_launcher_dummy/wiki
 ---

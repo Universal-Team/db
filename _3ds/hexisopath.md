@@ -18,6 +18,5 @@ title: HexIsoPath
 updated: '2018-01-02T15:26:49Z'
 version: v1.1.0
 version_title: Multiplayer and instructions!
-website: null
 wiki: https://github.com/LiquidFenrir/HexIsoPath/wiki
 ---

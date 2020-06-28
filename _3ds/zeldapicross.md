@@ -20,6 +20,5 @@ title: ZeldaPicross
 updated: '2017-01-02T12:35:39Z'
 version: v1,0RC
 version_title: CIA Build
-website: null
 wiki: https://github.com/nop90/ZeldaPicross/wiki
 ---

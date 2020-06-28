@@ -18,6 +18,5 @@ title: tikSweep
 updated: '2017-01-07T03:05:51Z'
 version: v1.1.2
 version_title: v1.1.2
-website: null
 wiki: https://github.com/DanTheMan827/tikSweep/wiki
 ---

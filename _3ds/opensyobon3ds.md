@@ -15,6 +15,5 @@ title: OpenSyobon3DS
 updated: '2016-07-27T08:58:59Z'
 version: v1.2
 version_title: Open Syobon 3DS v1.2
-website: null
 wiki: https://github.com/nop90/OpenSyobon3DS/wiki
 ---

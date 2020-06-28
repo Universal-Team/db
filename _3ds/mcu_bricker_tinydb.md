@@ -14,7 +14,5 @@ system: 3DS
 title: MCU_Bricker_tinydb
 updated: '2019-04-01T01:27:47Z'
 version: '1.0'
-version_title: ''
-website: null
 wiki: https://github.com/MechanicalDragon0687/MCU_Bricker_tinydb/wiki
 ---

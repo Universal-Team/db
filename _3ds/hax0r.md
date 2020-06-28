@@ -15,6 +15,5 @@ title: Hax0r
 updated: '2016-07-07T19:36:27Z'
 version: v1.2
 version_title: Bugfixes 'n Stuff
-website: null
 wiki: https://github.com/TurtleP/Hax0r/wiki
 ---

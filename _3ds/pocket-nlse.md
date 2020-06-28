@@ -16,6 +16,5 @@ title: Pocket-NLSE
 updated: '2017-01-11T13:18:21Z'
 version: v1.0.0
 version_title: v1.0.0
-website: null
 wiki: https://github.com/dragos240/Pocket-NLSE/wiki
 ---

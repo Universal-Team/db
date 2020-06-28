@@ -18,6 +18,5 @@ title: 3DShell
 updated: '2019-06-27T04:04:05Z'
 version: v4.3.1
 version_title: 3DShell v4.3.1
-website: null
 wiki: https://github.com/joel16/3DShell/wiki
 ---

@@ -16,7 +16,5 @@ system: 3DS
 title: opentitus-3ds
 updated: '2018-12-27T00:34:34Z'
 version: 27-12-2018
-version_title: ''
-website: null
 wiki: https://github.com/MrHuu/opentitus-3ds/wiki
 ---

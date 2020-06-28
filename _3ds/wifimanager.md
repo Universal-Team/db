@@ -17,6 +17,5 @@ title: WifiManager
 updated: '2018-01-15T23:19:27Z'
 version: v1.1.2
 version_title: Bugfixes and Instruction
-website: null
 wiki: https://github.com/LiquidFenrir/WifiManager/wiki
 ---
