@@ -236,13 +236,6 @@
 		"icon": "https://raw.githubusercontent.com/RocketRobz/SavvyManager/master/app/icon.png"
 	},
 	{
-		"github": "FlagBrew/Checkpoint",
-		"systems": ["3DS"],
-		"categories": ["utility"],
-		"image": "https://raw.githubusercontent.com/FlagBrew/Checkpoint/master/3ds/assets/banner.png",
-		"icon": "https://raw.githubusercontent.com/FlagBrew/Checkpoint/master/3ds/assets/icon.png"
-	},
-	{
 		"github": "Nanquitas/BootNTR",
 		"systems": ["3DS"],
 		"categories": ["utility"],
@@ -268,13 +261,6 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/mtheall/ftpd/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/mtheall/ftpd/master/meta/icon.png"
-	},
-	{
-		"github": "FlagBrew/PKSM",
-		"systems": ["3DS"],
-		"categories": ["utility"],
-		"image": "https://raw.githubusercontent.com/FlagBrew/PKSM/master/assets/banner.png",
-		"icon": "https://raw.githubusercontent.com/FlagBrew/PKSM/master/assets/icon.png"
 	},
 	{
 		"github": "KunoichiZ/lumaupdate",
@@ -421,13 +407,6 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/astronautlevel2/Anemone3DS/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/astronautlevel2/Anemone3DS/master/meta/icon.png"
-	},
-	{
-		"github": "FlagBrew/Pickr",
-		"systems": ["3DS"],
-		"categories": ["game"],
-		"image": "https://raw.githubusercontent.com/FlagBrew/Pickr/master/3ds/assets/banner.png",
-		"icon": "https://raw.githubusercontent.com/FlagBrew/Pickr/master/3ds/assets/icon.png"
 	},
 	{
 		"github": "noirscape/SRAU",
