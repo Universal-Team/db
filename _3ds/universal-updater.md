@@ -3,9 +3,9 @@ author: Universal-Team
 categories: [utility]
 created: '2019-10-31T02:19:37Z'
 description: A multiapp, JSON script-based updater for Nintendo 3DS
-download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/v2.5.0
-downloads: {Universal-Updater.3dsx: 'https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.0/Universal-Updater.3dsx',
-  Universal-Updater.cia: 'https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.0/Universal-Updater.cia'}
+download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/v2.5.1
+downloads: {Universal-Updater.3dsx: 'https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.3dsx',
+  Universal-Updater.cia: 'https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.cia'}
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/banner.png
@@ -14,9 +14,9 @@ qr: {Universal-Updater.cia: 'https://db.universal-team.net/assets/images/qr/univ
 source: https://github.com/Universal-Team/Universal-Updater
 systems: [3DS]
 title: Universal-Updater
-updated: '2020-06-27T14:01:41Z'
-version: v2.5.0
-version_title: Universal DB, UniStore v2 and more!
+updated: '2020-07-02T14:03:03Z'
+version: v2.5.1
+version_title: BugFix Release!
 website: https://universal-team.github.io/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
