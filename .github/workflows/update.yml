@@ -11,14 +11,14 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
-    container: devkitpro/devkitarm
+    container: devkitpro/toolchain-base
 
     steps:
     - uses: actions/checkout@v2
     
     - name: Install packages
       run: |
-        sudo apt-get install python3-pip -y
+        # sudo apt-get install python3-pip -y
         pip3 install qrcode[pil] python-dateutil numpy
 
     - name: Delete old pages
