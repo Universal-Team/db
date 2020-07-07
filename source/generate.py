@@ -141,8 +141,8 @@ if len(sys.argv) > 1:
 for app in source:
 	if "github" in app:
 		print("GitHub")
-		api = json.loads(requests.get("https://api.github.com/repos/" + app["github"], headers = header if header else None).content)
-		releases = json.loads(requests.get("https://api.github.com/repos/" + app["github"] + "/releases", headers = header if header else None).content)
+		api = json.loads(requests.get("https://api.github.com/repos/" + app["github"], headers = header if header else None).text)
+		releases = json.loads(requests.get("https://api.github.com/repos/" + app["github"] + "/releases", headers = header if header else None).text)
 		release = None
 		prerelease = None
 		if len(releases) > 0 and releases[0]["prerelease"]:
@@ -227,7 +227,7 @@ for app in source:
 
 	if "bitbucket" in app:
 		print("Bitbucket")
-		api = json.loads(requests.get("https://api.bitbucket.org/2.0/repositories/" + app["bitbucket"]["repo"]).content)
+		api = json.loads(requests.get("https://api.bitbucket.org/2.0/repositories/" + app["bitbucket"]["repo"]).text)
 
 		if not "title" in app:
 			app["title"] = api["name"]
@@ -250,7 +250,7 @@ for app in source:
 		if not "downloads" in app:
 			app["downloads"] = {}
 		for download in app["bitbucket"]["files"]:
-			fileAPI = json.loads(requests.get("https://api.bitbucket.org/2.0/repositories/" + app["bitbucket"]["repo"] + "/src/master/" + download + "?format=meta").content)
+			fileAPI = json.loads(requests.get("https://api.bitbucket.org/2.0/repositories/" + app["bitbucket"]["repo"] + "/src/master/" + download + "?format=meta").text)
 			if not download in app["downloads"]:
 				app["downloads"][download] = fileAPI["links"]["self"]["href"]
 
@@ -261,7 +261,7 @@ for app in source:
 				app["version"] = fileAPI["commit"]["hash"][:7]
 
 			if not "updated" in app:
-				commit = json.loads(requests.get(fileAPI["commit"]["links"]["self"]["href"]).content)
+				commit = json.loads(requests.get(fileAPI["commit"]["links"]["self"]["href"]).text)
 				app["updated"] = commit["date"]
 
 
