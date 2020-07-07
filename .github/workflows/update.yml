@@ -14,7 +14,6 @@ jobs:
     container: devkitpro/devkitarm
 
     steps:
-    - run: lsb_release -a
     - uses: actions/checkout@v2
     
     - name: Install packages
