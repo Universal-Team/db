@@ -89,11 +89,11 @@ def downloadScript(file, url):
 		]
 
 # Read json
-with open("source.json", "r") as file:
+with open("source.json", "r", encoding="utf8") as file:
 	source = json.load(file)
 
 # Read version from old unistore
-with open(os.path.join("..", "unistore", "universal-db.unistore"), "r") as file:
+with open(os.path.join("..", "unistore", "universal-db.unistore"), "r", encoding="utf8") as file:
 	unistoreOld = json.load(file)
 
 # Create UniStore base
@@ -320,7 +320,7 @@ for app in source:
 		web["systems"] = ["3DS"] # default to 3DS
 	for system in web["systems"]:
 		if "title" in web:
-			with open(os.path.join("..", "_" + webName(system), webName(web["title"]) + ".md"), "w") as file:
+			with open(os.path.join("..", "_" + webName(system), webName(web["title"]) + ".md"), "w", encoding="utf8") as file:
 				file.write("---\n" + yaml.dump(web) + "---\n")
 				if "long_description" in app:
 					file.write(app["long_description"])
@@ -378,7 +378,7 @@ for app in source:
 			unistore["storeInfo"]["consoles"].append(system)
 
 # Make t3x
-with open(os.path.join("temp", "icons.t3s"), "w") as file:
+with open(os.path.join("temp", "icons.t3s"), "w", encoding="utf8") as file:
 	file.write("--atlas -f rgba -z auto\n\n")
 	for icon in icons:
 		file.write(icon + "\n")
@@ -389,9 +389,9 @@ if unistore != unistoreOld:
 	unistore["storeInfo"]["revision"] += 1
 
 # Write unistore to file
-with open(os.path.join("..", "unistore", "universal-db.unistore"), "w") as file:
+with open(os.path.join("..", "unistore", "universal-db.unistore"), "w", encoding="utf8") as file:
 	file.write(json.dumps(unistore))
 
 # Write output file
-with open(os.path.join("..", "data", "full.json"), "w") as file:
+with open(os.path.join("..", "data", "full.json"), "w", encoding="utf8") as file:
 	file.write(json.dumps(output))
