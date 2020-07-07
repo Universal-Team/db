@@ -19,7 +19,7 @@ jobs:
     - name: Install packages
       run: |
         # sudo apt-get install python3-pip -y
-        pip install qrcode[pil] python-dateutil numpy
+        python3 -m pip install qrcode[pil] python-dateutil numpy
 
     - name: Delete old pages
       run: |
