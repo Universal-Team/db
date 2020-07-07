@@ -11,15 +11,21 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
-    container: devkitpro/devkitarm
 
     steps:
     - uses: actions/checkout@v2
     
     - name: Install packages
       run: |
-        # sudo apt-get install python3-pip -y
-        python3 -m pip install qrcode[pil] python-dateutil numpy
+        pip3 install qrcode[pil] python-dateutil numpy
+
+    - name: Install tex3ds
+      run: |
+        curl -LO https://github.com/devkitPro/pacman/releases/download/v1.0.2/devkitpro-pacman.amd64.deb
+        sudo dpkg -i devkitpro-pacman.deb
+        rm devkitpro-pacman.deb
+        sudo dkp-pacman -Sy
+        sudo dkp-pacman -S tex3ds --noconfirm
 
     - name: Delete old pages
       run: |
