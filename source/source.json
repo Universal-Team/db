@@ -733,7 +733,7 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/banner.png",
-		"icon": "https://github.com/RedInquisitive/Super-Haxagon/blob/master/resource/icon-3ds.png"
+		"icon": "https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/resource/icon-3ds.png"
 	},
 	{
 		"github": "phijor/SpecializeMii",
