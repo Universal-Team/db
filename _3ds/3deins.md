@@ -1,20 +1,24 @@
 ---
 author: Universal-Team
-categories: [game]
+categories:
+- game
 created: '2019-11-18T16:59:30Z'
 description: A Card game for Nintendo 3DS & DS(i)!
 download_page: https://github.com/Universal-Team/3DEins/releases/tag/v0.2.0
-downloads: {3DEins.3dsx: 'https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/3DEins.3dsx',
-  3DEins.cia: 'https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/3DEins.cia',
-  DSEins.nds: 'https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/DSEins.nds',
-  DSEins.nds.cia: 'https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/DSEins.nds.cia'}
+downloads:
+  3DEins.3dsx: https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/3DEins.3dsx
+  3DEins.cia: https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/3DEins.cia
+  DSEins.nds: https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/DSEins.nds
+  DSEins.nds.cia: https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/DSEins.nds.cia
 github: Universal-Team/3DEins
 icon: https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/banner.png
 layout: app
-qr: {3DEins.cia: 'https://db.universal-team.net/assets/images/qr/3deins.cia.png'}
+qr:
+  3DEins.cia: https://db.universal-team.net/assets/images/qr/3deins.cia.png
 source: https://github.com/Universal-Team/3DEins
-systems: [3DS]
+systems:
+- 3DS
 title: 3DEins
 updated: '2020-06-20T15:33:33Z'
 version: v0.2.0

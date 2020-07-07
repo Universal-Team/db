@@ -1,19 +1,23 @@
 ---
 author: Universal-Team
-categories: [utility]
+categories:
+- utility
 created: '2019-08-14T21:36:39Z'
 description: 'Work in progress Animal Crossing: New Leaf save manager & editor for
   the Nintendo 3DS!'
 download_page: https://github.com/Universal-Team/LeafEdit/releases/tag/v0.2.0
-downloads: {LeafEdit.3dsx: 'https://github.com/Universal-Team/LeafEdit/releases/download/v0.2.0/LeafEdit.3dsx',
-  LeafEdit.cia: 'https://github.com/Universal-Team/LeafEdit/releases/download/v0.2.0/LeafEdit.cia'}
+downloads:
+  LeafEdit.3dsx: https://github.com/Universal-Team/LeafEdit/releases/download/v0.2.0/LeafEdit.3dsx
+  LeafEdit.cia: https://github.com/Universal-Team/LeafEdit/releases/download/v0.2.0/LeafEdit.cia
 github: Universal-Team/LeafEdit
 icon: https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/banner.png
 layout: app
-qr: {LeafEdit.cia: 'https://db.universal-team.net/assets/images/qr/leafedit.cia.png'}
+qr:
+  LeafEdit.cia: https://db.universal-team.net/assets/images/qr/leafedit.cia.png
 source: https://github.com/Universal-Team/LeafEdit
-systems: [3DS]
+systems:
+- 3DS
 title: LeafEdit
 updated: '2020-01-24T22:59:59Z'
 version: v0.2.0

@@ -1,16 +1,19 @@
 ---
 author: chishm
-categories: [utility]
+categories:
+- utility
 created: '2016-03-29T18:19:07Z'
 description: NitroHax cheat tool for Nintendo DS
 download_page: https://www.chishm.com/NitroHax/
-downloads: {NitroHax.zip: 'https://www.chishm.com/NitroHax/NitroHax.zip'}
+downloads:
+  NitroHax.zip: https://www.chishm.com/NitroHax/NitroHax.zip
 github: chishm/nitrohax
 icon: https://raw.githubusercontent.com/chishm/nitrohax/master/icon.bmp
 image: https://avatars0.githubusercontent.com/u/18148723?v=4
 layout: app
 source: https://github.com/chishm/nitrohax
-systems: [DS]
+systems:
+- DS
 title: nitrohax
 updated: '2018-04-09T13:00:02Z'
 version: v0.94
