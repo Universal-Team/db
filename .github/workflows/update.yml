@@ -20,7 +20,7 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install python3-pip -y
-        pip3 install qrcode[pil] python-dateutil numpy
+        pip3 install qrcode[pil] requests pyyaml python-dateutil numpy
 
     - name: Delete old pages
       run: |
