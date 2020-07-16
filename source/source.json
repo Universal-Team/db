@@ -943,5 +943,14 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/PKCount/master/3DS/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/PKCount/master/3DS/app/icon.png"
+	},
+	{
+		"github": "NPXTobi/Demo-Reset",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"image": "https://raw.githubusercontent.com/NPXTobi/Demo-Reset/master/cia/banner.png",
+		"icon": "https://raw.githubusercontent.com/NPXTobi/Demo-Reset/master/gfx/icon.png",
+		"author": "NPX-I7/Tobi",
+		"long_description": "App To reset the Democounter of the 3ds Console"
 	}
 ]
