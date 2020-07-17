@@ -160,8 +160,7 @@
 		"bitbucket": {
 			"repo": "Coto88/snemulds",
 			"files": [
-				"release/arm9dldi/SNEmulDS.nds",
-				"release/arm7dldi/SNEmulDS.nds",
+				"release/arm9-dldi/SNEmulDS.nds",
 				"release/snemul.cfg"
 			]
 		},
@@ -734,7 +733,7 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/banner.png",
-		"icon": "https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/resource/icon-3ds.png"
+		"icon": "https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/icon-3ds.png"
 	},
 	{
 		"github": "phijor/SpecializeMii",
