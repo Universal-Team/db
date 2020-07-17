@@ -5,9 +5,9 @@ categories:
 created: '2018-10-02T16:59:38Z'
 description: 'GodMode9i Explorer - A full access file browser for the Nintendo DS
   and DSi consoles :godmode:'
-download_page: https://github.com/RocketRobz/GodMode9i/releases/tag/v2.3.1
+download_page: https://github.com/RocketRobz/GodMode9i/releases/tag/v2.4.0
 downloads:
-  GodMode9i.7z: https://github.com/RocketRobz/GodMode9i/releases/download/v2.3.1/GodMode9i.7z
+  GodMode9i.7z: https://github.com/RocketRobz/GodMode9i/releases/download/v2.4.0/GodMode9i.7z
 github: RocketRobz/GodMode9i
 icon: https://raw.githubusercontent.com/RocketRobz/GodMode9i/master/icon.bmp
 image: https://raw.githubusercontent.com/RocketRobz/GodMode9i/master/resources/logo2.png
@@ -16,9 +16,9 @@ source: https://github.com/RocketRobz/GodMode9i
 systems:
 - DS
 title: GodMode9i
-updated: '2020-03-19T22:00:51Z'
-version: v2.3.1
-version_title: v2.3.1
+updated: '2020-07-15T03:41:39Z'
+version: v2.4.0
+version_title: 'v2.4.0: SD x NTR release'
 wiki: https://github.com/RocketRobz/GodMode9i/wiki
 ---
 Features:
