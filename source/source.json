@@ -959,6 +959,6 @@
 		"categories": ["game"],
 		"long_description": "A memory cardgame clone for Nintendo 3DS.",
 		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/banner.png",
-		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/icon.png",
+		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/icon.png"
 	}
 ]
