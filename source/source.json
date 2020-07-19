@@ -160,7 +160,7 @@
 		"bitbucket": {
 			"repo": "Coto88/snemulds",
 			"files": [
-				"release/arm9-dldi/SNEmulDS.nds",
+				"release/arm9dldi-ntr/SNEmulDS.nds",
 				"release/snemul.cfg"
 			]
 		},
