@@ -68,11 +68,11 @@
 	},
 	{
 		"long_description": "Features:\n- Dump GameBoy Advance cartridges on the original Nintendo DS and Nintendo DS Lite consoles.\n- Dump Nintendo DS/DSi cartridges on Nintendo DSi and Nintendo 3DS consoles (if GodMode9i is ran on the console SD card).\n- Copy, move, delete, rename files/folders and create folders.\n- Mount the NitroFS of .nds files.\n- Browse files on supported flashcards when running GM9i from the NAND or SD Card. (`AceKard 2(i)` & `R4 Ultra (r4ultra.com)`)\n\n![The file list](https://gbatemp.b-cdn.net/attachments/snap_191132-png.195368)",
-		"github": "RocketRobz/GodMode9i",
+		"github": "DS-Homebrew/GodMode9i",
 		"categories": ["utility"],
 		"systems": ["DS"],
-		"image": "https://raw.githubusercontent.com/RocketRobz/GodMode9i/master/resources/logo2.png",
-		"icon": "https://raw.githubusercontent.com/RocketRobz/GodMode9i/master/icon.bmp"
+		"image": "https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png",
+		"icon": "https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/icon.bmp"
 	},
 	{
 		"title": "DScraft",
