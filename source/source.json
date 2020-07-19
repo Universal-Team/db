@@ -952,5 +952,13 @@
 		"icon": "https://raw.githubusercontent.com/NPXTobi/Demo-Reset/master/gfx/icon.png",
 		"author": "NPX-I7/Tobi",
 		"long_description": "App To reset the Democounter of the 3ds Console"
+	},
+	{
+		"github": "SuperSaiyajinStackZ/3DZwei",
+		"systems": ["3DS"],
+		"categories": ["game"],
+		"long_description": "A memory cardgame clone for Nintendo 3DS.",
+		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/banner.png",
+		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/icon.png",
 	}
 ]
