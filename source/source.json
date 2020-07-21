@@ -960,5 +960,13 @@
 		"long_description": "A memory cardgame clone for Nintendo 3DS.",
 		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/icon.png"
+	},
+	{
+		"github": "RocketRobz/HoriHD-Gallery",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"image": "https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/banner.png",
+		"icon": "https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/icon.png",
+		"long_description": "A demonstration of the 800px mode on 3DS consoles. Will not work on O2DS consoles."
 	}
 ]
