@@ -1,5 +1,3 @@
-# Run "pip3 install qrcode[pil] requests pyyaml python-dateutil numpy" to install dependencies
-
 import datetime
 from dateutil import parser
 from PIL import Image, ImageDraw
