@@ -1,4 +1,4 @@
-numpy==1.19.0
+numpy==1.18.5
 Pillow==7.2.0
 python-dateutil==2.8.1
 PyYAML==5.3.1
