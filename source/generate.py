@@ -316,6 +316,8 @@ for app in source:
 		web.pop("long_description")
 	if not "systems" in web:
 		web["systems"] = ["3DS"] # default to 3DS
+	if not "updated" in web:
+		web["updated"] = "---"
 	for system in web["systems"]:
 		if "title" in web:
 			with open(os.path.join("..", "_" + webName(system), webName(web["title"]) + ".md"), "w", encoding="utf8") as file:
