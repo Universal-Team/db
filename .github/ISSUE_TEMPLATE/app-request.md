@@ -25,10 +25,14 @@ assignees: ''
 **Long description** <!-- You can use HTML and/or Markdown in this -->
 
 
-**GitHub repository of the app** <!-- If releases are done here then the rest aren't needed -->
+**GitHub repository of the app**
 
 
+<!-- If you've provided a GitHub repository, then only fill out the rest if you want different information than your GitHub repository has. It can all be automatically gathered through the GitHub API -->
 **Author**
+
+
+**Short description**
 
 
 **Source code link**

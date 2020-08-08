@@ -16,30 +16,34 @@
 					<div class="col-12 main-content mx-auto">
 						{{ content }}
 						
-						<noscript><div class="d-none"></noscript>
-							<div class="mb-3">
-								Sort:
-								<button id="sort-title"class="btn btn-outline-secondary" onclick="sort('title')">Title</button>
-								<button id="sort-description"class="btn btn-outline-secondary" onclick="sort('description')">Description</button>
-								<button id="sort-updated" class="btn btn-outline-secondary" onclick="sort('updated')">Date Updated</button>
-								<button id="sort-direction" class="btn btn-outline-secondary float-right" onclick="toggleSortDirection()">Ascending</button>
-							</div>
-							<div class="input-group mb-3">
-									<label for="search" class="input-group-text">Search:</label>
-								<input id="search" class="form-control" type="text" placeholder="Search by title or description" onkeyup="search(event.srcElement.value);">
-							</div>
-						<noscript></div></noscript>
+						{% if page.system %}
+							<noscript><div class="d-none"></noscript>
+								<div class="mb-3">
+									Sort:
+									<button id="sort-title"class="btn btn-outline-secondary" onclick="sort('title')">Title</button>
+									<button id="sort-description"class="btn btn-outline-secondary" onclick="sort('description')">Description</button>
+									<button id="sort-updated" class="btn btn-outline-secondary" onclick="sort('updated')">Date Updated</button>
+									<button id="sort-direction" class="btn btn-outline-secondary float-right" onclick="toggleSortDirection()">Ascending</button>
+								</div>
+								<div class="input-group mb-3">
+										<label for="search" class="input-group-text">Search:</label>
+									<input id="search" class="form-control" type="text" placeholder="Search by title or description" onkeyup="search(event.srcElement.value);">
+								</div>
+							<noscript></div></noscript>
+						{% endif %}
 						
 						{% if page.system == "3ds" %}
-							{% assign cards = site.3ds %}
+							{% assign cards = site["3ds"] %}
 						{% elsif page.system == "ds" %}
 							{% assign cards = site.ds %}
+							{% elsif page.title == "Home" %}
+							{% assign cards = site["3ds"] | concat: site.ds | uniq %}
 						{% endif %}
 
 					{% assign cards = cards | sort: "updated" | reverse %}
 
 						<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4" id="card-container">
-							{% for app in cards %}
+							{% for app in cards limit: page.limit %}
 								{% if page.category == Nil or app.categories contains page.category %}
 									<div class="col mb-3">
 										<div class="card h-100" data-title="{{ app.title }}" data-description="{{ app.description }}" data-updated="{{ app.updated }}">
@@ -62,6 +66,10 @@
 													<div class="row">
 														<div class="{% if app.qr.size == 1 %}col-10{% else %}col-12{% endif %}">
 															<small class="text-muted">
+																{% unless page.system %}
+																	System: {{ app.systems | join: ", "}}
+																	<br>
+																{% endunless %}
 																{% if app.version %}
 																	Version: {{ app.version }}
 																{% endif %}
