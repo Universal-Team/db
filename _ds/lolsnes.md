@@ -15,6 +15,7 @@ source: https://github.com/Arisotura/lolSnes
 systems:
 - DS
 title: lolSnes
+updated: '---'
 version: v1.0
 website: http://lolsnes.kuribo64.net
 wiki: https://github.com/Arisotura/lolSnes/wiki
