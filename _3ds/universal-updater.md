@@ -21,7 +21,7 @@ title: Universal-Updater
 updated: '2020-07-02T14:03:03Z'
 version: v2.5.1
 version_title: BugFix Release!
-website: https://universal-team.github.io/projects/universal-updater.html
+website: https://universal-team.net/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
 Universal-Updater is a homebrew app that allows easy installation and updating of other 3DS homebrew!
@@ -33,4 +33,4 @@ Some features include:
 - Customizable interface colors
 - Get some useful Homebrew apps thanks to the TinyDB implementation
 
-![The main menu](https://universal-team.github.io/images/universal-updater/mainMenu.png)
+![The main menu](https://universal-team.net/images/universal-updater/mainMenu.png)

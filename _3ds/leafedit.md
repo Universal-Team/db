@@ -22,7 +22,7 @@ title: LeafEdit
 updated: '2020-01-24T22:59:59Z'
 version: v0.2.0
 version_title: The first editing Release!
-website: https://universal-team.github.io/projects/leafedit
+website: https://universal-team.net/projects/leafedit
 wiki: https://github.com/Universal-Team/LeafEdit/wiki
 ---
 LeafEdit is a work in progress Animal Crossing: New Leaf save manager and editor for the Nintendo 3DS!
@@ -33,4 +33,4 @@ Features include:
 - See the Villager and replace them
 - Editing the layout of your village [Experimental, because it can break your save easilly!!]
 
-![The game selection menu](https://universal-team.github.io/images/leafedit/gameSelection.png)
+![The game selection menu](https://universal-team.net/images/leafedit/gameSelection.png)

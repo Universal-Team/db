@@ -22,7 +22,7 @@ title: pkmn-chest
 updated: '2020-07-07T04:00:43Z'
 version: v2.2
 version_title: Easy config access, favorite folders, and various bug fixes
-website: https://universal-team.github.io/projects/pkmn-chest
+website: https://universal-team.net/projects/pkmn-chest
 wiki: https://github.com/Universal-Team/pkmn-chest/wiki
 ---
 Pokémon Chest is an app for the DS(i) that can store and edit Pokémon in the DS Pokémon games.
@@ -36,4 +36,4 @@ It's current features include:
 - Dumping Pokémon to pk* files
 - Translated to Chinese, English, French, German, Indonesian, Italian, Japanese, Korean*, Lithuanian, Polish, Portuguese, Russian, and Spanish
 
-![A storage box](https://universal-team.github.io/images/pkmn-chest/box-2.png) ![editing a Pokémon](https://universal-team.github.io/images/pkmn-chest/summary.png)
+![A storage box](https://universal-team.net/images/pkmn-chest/box-2.png) ![editing a Pokémon](https://universal-team.net/images/pkmn-chest/summary.png)
