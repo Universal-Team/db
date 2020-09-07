@@ -31,7 +31,7 @@
 		"systems": ["3DS"]
 	},
 	{
-		"long_description": "LeafEdit is a work in progress Animal Crossing: New Leaf save manager and editor for the Nintendo 3DS!\n\nFeatures include:\n- Changing player info such as name, tan, and money\n- See the Items on your Pocket and Dresser\n- See the Villager and replace them\n- Editing the layout of your village [Experimental, because it can break your save easilly!!]\n\n![The map editor](https://universal-team.net/images/leafedit/acreEditorNL.png) [The pocket editor](https://universal-team.net/images/leafedit/pocketEditorNL.png)",
+		"long_description": "LeafEdit is a work in progress Animal Crossing: New Leaf save manager and editor for the Nintendo 3DS!\n\nFeatures include:\n- Changing player info such as name, tan, and money\n- See the Items on your Pocket and Dresser\n- See the Villager and replace them\n- Editing the layout of your village [Experimental, because it can break your save easilly!!]\n\n![The map editor](https://universal-team.net/images/leafedit/acreEditorNL.png) ![The pocket editor](https://universal-team.net/images/leafedit/pocketEditorNL.png)",
 		"github": "Universal-Team/LeafEdit",
 		"image": "https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/icon.png",
