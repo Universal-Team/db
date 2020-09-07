@@ -954,5 +954,17 @@
 		"image": "https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/icon.png",
 		"long_description": "A demonstration of the 800px mode on 3DS consoles. Will not work on O2DS consoles."
+	},
+	{
+		"github": "hax0kartik/wumiibo",
+		"systems": ["3DS"],
+		"categories": ["utility"]
+	},
+	{
+		"github": "masterfeizz/daedalusx64-3DS/",
+		"systems": ["3DS"],
+		"categories": ["emulator"],
+		"image": "https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/v0.2/Source/SysCTR/Resources/banner.png",
+		"icon": "https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/v0.2/Source/SysCTR/Resources/icon.png"
 	}
 ]
