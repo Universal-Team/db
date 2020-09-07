@@ -966,5 +966,13 @@
 		"categories": ["emulator"],
 		"image": "https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/v0.2/Source/SysCTR/Resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/v0.2/Source/SysCTR/Resources/icon.png"
+	},
+	{
+		"github": "SuperSaiyajinStackZ/LeafEdit-Pattern-Editor",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/master/app/banner.png",
+		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/master/app/icon.png",
+		"long_description": "![The editing screen](https://github.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/blob/master/screenshots/main.png?raw=true)"
 	}
 ]
