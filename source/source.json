@@ -961,7 +961,7 @@
 		"categories": ["utility"]
 	},
 	{
-		"github": "masterfeizz/daedalusx64-3DS/",
+		"github": "masterfeizz/daedalusx64-3DS",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"image": "https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/v0.2/Source/SysCTR/Resources/banner.png",
