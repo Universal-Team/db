@@ -5,9 +5,9 @@ categories:
 created: '2018-10-02T16:59:38Z'
 description: 'GodMode9i Explorer - A full access file browser for the Nintendo DS
   and DSi consoles :godmode:'
-download_page: https://github.com/DS-Homebrew/GodMode9i/releases/tag/v2.4.0
+download_page: https://github.com/DS-Homebrew/GodMode9i/releases/tag/v2.5.0
 downloads:
-  GodMode9i.7z: https://github.com/DS-Homebrew/GodMode9i/releases/download/v2.4.0/GodMode9i.7z
+  GodMode9i.7z: https://github.com/DS-Homebrew/GodMode9i/releases/download/v2.5.0/GodMode9i.7z
 github: DS-Homebrew/GodMode9i
 icon: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/icon.bmp
 image: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png
@@ -16,9 +16,9 @@ source: https://github.com/DS-Homebrew/GodMode9i
 systems:
 - DS
 title: GodMode9i
-updated: '2020-07-15T03:41:39Z'
-version: v2.4.0
-version_title: 'v2.4.0: SD x NTR release'
+updated: '2020-09-07T09:14:30Z'
+version: v2.5.0
+version_title: 'v2.5.0: Labor Day release'
 wiki: https://github.com/DS-Homebrew/GodMode9i/wiki
 ---
 Features:

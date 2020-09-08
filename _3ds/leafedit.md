@@ -33,4 +33,4 @@ Features include:
 - See the Villager and replace them
 - Editing the layout of your village [Experimental, because it can break your save easilly!!]
 
-![The map editor](https://universal-team.net/images/leafedit/acreEditorNL.png) [The pocket editor](https://universal-team.net/images/leafedit/pocketEditorNL.png)
+![The map editor](https://universal-team.net/images/leafedit/acreEditorNL.png) ![The pocket editor](https://universal-team.net/images/leafedit/pocketEditorNL.png)
