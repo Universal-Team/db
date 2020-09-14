@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import datetime
 from dateutil import parser
 from PIL import Image, ImageDraw
@@ -390,8 +392,8 @@ if unistore != unistoreOld:
 
 # Write unistore to file
 with open(os.path.join("..", "unistore", "universal-db.unistore"), "w", encoding="utf8") as file:
-	file.write(json.dumps(unistore))
+	file.write(json.dumps(unistore, sort_keys=True))
 
 # Write output file
 with open(os.path.join("..", "data", "full.json"), "w", encoding="utf8") as file:
-	file.write(json.dumps(output))
+	file.write(json.dumps(output, sort_keys=True))
