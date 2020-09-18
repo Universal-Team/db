@@ -9,8 +9,8 @@ downloads:
   3DVier.3dsx: https://github.com/Universal-Team/3DVier/releases/download/v0.1.0/3DVier.3dsx
   3DVier.cia: https://github.com/Universal-Team/3DVier/releases/download/v0.1.0/3DVier.cia
 github: Universal-Team/3DVier
-icon: https://raw.githubusercontent.com/Universal-Team/3DVier/master/app/icon.png
-image: https://raw.githubusercontent.com/Universal-Team/3DVier/master/app/banner.png
+icon: https://raw.githubusercontent.com/Universal-Team/3DVier/master/3ds/app/icon.png
+image: https://raw.githubusercontent.com/Universal-Team/3DVier/master/3ds/app/banner.png
 layout: app
 qr:
   3DVier.cia: https://db.universal-team.net/assets/images/qr/3dvier.cia.png
