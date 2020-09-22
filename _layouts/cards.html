@@ -15,6 +15,12 @@
 				<div class="row pt-5">
 					<div class="col-12 main-content mx-auto">
 						{{ content }}
+
+						{% if page.description %}
+							<div class="alert alert-secondary mb-4">
+								{{ page.description }}
+							</div>
+						{% endif %}
 						
 						{% if page.system %}
 							<noscript><div class="d-none"></noscript>
