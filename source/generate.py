@@ -413,6 +413,7 @@ if len(sys.argv) > 3:
 
 	heading = ""
 	content = ""
+	path = ""
 	segments = []
 	if len(paths) == 1:
 		with open(os.path.join("..", paths[0])) as file:
@@ -422,6 +423,7 @@ if len(sys.argv) > 3:
 			heading = "New " + (y["title"] if "title" in y else "app") + " update"
 			content = (y["version_title"] + "\n" if "version_title" in y else "") + "Click to open on Universal DB"
 			segments.append(os.path.dirname(paths[0])[1:])
+			path = paths[0][1:-3]
 			print(heading)
 			print(content)
 			print(segments)
@@ -434,6 +436,7 @@ if len(sys.argv) > 3:
 
 		heading = "New " + " and ".join(consoles) + " updates"
 		content = "Click to open on Universal DB"
+		path = segments[0] if len(segments) == 1 else ""
 		print(heading)
 		print(content)
 		print(segments)
@@ -449,7 +452,7 @@ if len(sys.argv) > 3:
 			"contents": {"en": content},
 			"headings": {"en": heading},
 			"included_segments": segments,
-			"url": "https://db.universal-team.net/" + segments[0] if len(segments) == 1 else ""
+			"url": "https://db.universal-team.net/" + path
 		}
 
 		requests.post("https://onesignal.com/api/v1/notifications", headers=headers, json=data)
