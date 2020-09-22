@@ -989,7 +989,134 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/logo.png",
 		"icon": "https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif",
-		"long_description": "**Universal-Updater users:** Download using the NTR/TWL script instead.\n\nTWiLight Menu++ is an open-source DSi Menu upgrade/replacement for the Nintendo DSi, the Nintendo 3DS, and Nintendo DS flashcards. It can launch Nintendo DS, SNES, NES, GameBoy (color), GameBoy Advance, Sega GameGear/Master System & Mega Drive/Genesis ROMs, as well as DSTWO plugins (if you use a DSTWO) and videos.\n\nPlease check the [wiki](https://github.com/DS-Homebrew/TWiLightMenu/wiki) for help installing."
+		"long_description": "TWiLight Menu++ is an open-source DSi Menu upgrade/replacement for the Nintendo DSi, the Nintendo 3DS, and Nintendo DS flashcards. It can launch Nintendo DS, SNES, NES, GameBoy (color), GameBoy Advance, Sega GameGear/Master System & Mega Drive/Genesis ROMs, as well as DSTWO plugins (if you use a DSTWO) and videos.\n\nPlease check the [wiki](https://github.com/DS-Homebrew/TWiLightMenu/wiki) for help installing.",
+		"scripts": {
+			"TWiLight Menu++ Release": [
+				{
+					"type": "downloadRelease",
+					"repo": "DS-Homebrew/TWiLightMenu",
+					"file": "TWiLightMenu-3DS.7z",
+					"output": "/TWiLightMenu-3DS.7z",
+					"message": "Downloading TWiLight Menu++..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/TWiLightMenu-3DS.7z",
+					"input": "",
+					"output": "/",
+					"message": "Extracting TWiLight Menu++..."
+				},
+				{
+					"type": "installCia",
+					"file": "/TWiLight Menu.cia",
+					"message": "Installing TWiLight Menu++..."
+				},
+				{
+					"type": "installCia",
+					"file": "/TWiLight Menu - Game booter.cia",
+					"message": "Installing TWiLight Menu - Game booter..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/TWiLight Menu - Game booter.cia"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/TWiLight Menu.cia"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/TWiLightMenu-3DS.7z"
+				}
+			],"TWiLight Menu++ Nightly": [
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z",
+					"output": "/TWiLightMenu-3DS.7z",
+					"message": "Downloading TWiLight Menu++ (Nightly)..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/TWiLightMenu-3DS.7z",
+					"input": "TWiLightMenu/",
+					"output": "/",
+					"message": "Extracting TWiLight Menu++..."
+				},
+				{
+					"type": "installCia",
+					"file": "/TWiLight Menu.cia",
+					"message": "Installing TWiLight Menu++..."
+				},
+				{
+					"type": "installCia",
+					"file": "/TWiLight Menu - Game booter.cia",
+					"message": "Installing TWiLight Menu - Game booter..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/TWiLight Menu - Game booter.cia"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/TWiLight Menu.cia"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/TWiLightMenu-3DS.7z"
+				}
+			],
+			"TWiLight Menu++ Nightly (Lite)": [
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Lite.7z",
+					"output": "/TWiLightMenu.7z",
+					"message": "Downloading TWiLight Menu++ Nightly (Lite)..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/TWiLightMenu.7z",
+					"input": "TWiLightMenu/_nds/",
+					"output": "/_nds/",
+					"message": "Extracting TWiLight Menu++ Nightly (Lite)..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/TWiLightMenu.7z",
+					"input": "TWiLightMenu/3DS - CFW users/",
+					"output": "/",
+					"message": "Extracting TWiLight Menu++ Nightly (Lite)..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/TWiLightMenu.7z",
+					"input": "TWiLightMenu/DSi&3DS - SD card users/",
+					"output": "/",
+					"message": "Extracting TWiLight Menu++ Nightly (Lite)..."
+				},
+				{
+					"type": "installCia",
+					"file": "/TWiLight Menu.cia",
+					"message": "Installing TWiLight Menu++..."
+				},
+				{
+					"type": "installCia",
+					"file": "/TWiLight Menu - Game booter.cia",
+					"message": "Installing TWiLight Menu - Game booter..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/TWiLight Menu - Game booter.cia"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/TWiLight Menu.cia"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/TWiLightMenu.7z"
+				}
+			]
+		}
 	},
 	{
 		"github": "DS-Homebrew/nds-bootstrap",
@@ -997,6 +1124,87 @@
 		"categories": ["emulator"],
 		"image": "https://i.imgur.com/BFIu7xX.png",
 		"icon": "https://raw.githubusercontent.com/DS-Homebrew/nds-bootstrap/master/retail/assets/icon.bmp",
-		"long_description": "**Universal-Updater users:** Download using the NTR/TWL script instead.\n\nnds-bootstrap is an open-source application that allows Nintendo DS/DSi ROMs and homebrew to be natively utilised rather than using an emulator. nds-bootstrap works on Nintendo DSi/3DS SD cards through CFW and on Nintendo DS through flashcarts."
+		"long_description": "nds-bootstrap is an open-source application that allows Nintendo DS/DSi ROMs and homebrew to be natively utilised rather than using an emulator. nds-bootstrap works on Nintendo DSi/3DS SD cards through CFW and on Nintendo DS through flashcarts.",
+		"scripts": {
+			"nds-bootstrap Nightly": [
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z",
+					"output": "/nds-bootstrap.7z",
+					"message": "Downloading nds-bootstrap Nightly..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/nds-bootstrap.7z",
+					"input": "nds-bootstrap/",
+					"output": "/_nds/",
+					"message": "Extracting nds-bootstrap..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/nds-bootstrap.7z"
+				}
+			],
+			"nds-bootstrap Release": [
+				{
+					"type": "downloadRelease",
+					"repo": "ahezard/nds-bootstrap",
+					"file": "nds-bootstrap.7z",
+					"output": "/nds-bootstrap.7z",
+					"message": "Downloading nds-bootstrap..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/nds-bootstrap.7z",
+					"input": "",
+					"output": "/_nds/",
+					"message": "Extracting nds-bootstrap..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/nds-bootstrap.7z"
+				}
+			]
+		}
+	},
+	{
+		"bitbucket": {
+			"repo": "DeadSkullzJr/nds-cheat-databases",
+			"files": [
+				"Cheats/cheat.dat",
+				"Cheats/cheat.db",
+				"Cheats/cheat_EN.db",
+				"Cheats/cheats.dat",
+				"Cheats/cheats.xml",
+				"Cheats/ezarcode.dat",
+				"Cheats/user.evoCheats",
+				"Cheats/usrcheat.dat",
+				"Cheats/~SCC Cheats~.7z"
+			]
+		},
+		"systems": ["DS"],
+		"categories": ["extra"],
+		"image": "https://i.postimg.cc/YMsDmch3/Action-Replay-DS-Logo-300px.png?dl=1",
+		"scripts": {
+			"usrcheat.dat (TWiLight Menu++)": [
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/TWLBot/Builds/raw/master/usrcheat.dat.7z",
+					"output": "/usrcheat.dat.7z",
+					"message": "Downloading usrcheat.dat..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/usrcheat.dat.7z",
+					"input": "usrcheat.dat",
+					"output": "/_nds/TWiLightMenu/extras/usrcheat.dat",
+					"message": "Extracting usrcheat.dat..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/usrcheat.dat.7z"
+				}
+			]
+		}
 	}
 ]

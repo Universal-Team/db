@@ -357,13 +357,18 @@ for app in source:
 	if "updated" in app:
 		uni["info"]["last_updated"] = parser.parse(app["updated"]).strftime("%Y-%m-%d at %H:%M (UTC)")
 
-	if "downloads" in app:
-		for file in app["downloads"]:
-			uni["Download " + file] = downloadScript(file, app["downloads"][file])
+	# If scripts are specified, use those instead of the release files
+	if "scripts" in app:
+		for script in app["scripts"]:
+			uni[script] = app["scripts"][script]
+	else:
+		if "downloads" in app:
+			for file in app["downloads"]:
+				uni["Download " + file] = downloadScript(file, app["downloads"][file])
 
-	if "prerelease" in app:
-		for file in app["prerelease"]["downloads"]:
-			uni["[prerelease] Download " + file] = downloadScript(file, app["prerelease"]["downloads"][file])
+		if "prerelease" in app:
+			for file in app["prerelease"]["downloads"]:
+				uni["[prerelease] Download " + file] = downloadScript(file, app["prerelease"]["downloads"][file])
 
 	unistore["storeContent"].append(uni)
 
