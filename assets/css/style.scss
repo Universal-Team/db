@@ -150,13 +150,14 @@ div .btn-primary:hover {
 // Make dropdowns site-colored and animated
 .dropdown-menu, .dropdown .hover-content {
 	background-color: var(--primary);
-	-webkit-transition: 300ms;
-	transition: 300ms;
+	-webkit-transition: 300ms ease;
+	transition: 300ms ease;
 	display: block;
 	height: 0;
 	padding: 0;
 	overflow: hidden;
 	visibility: hidden;
+	line-height: 0;
 	margin: 0;
 }
 .dropdown .hover-content {
@@ -164,16 +165,18 @@ div .btn-primary:hover {
 }
 .dropdown-menu.show, .dropdown:hover .hover-content {
 	display: block;
-	height: auto;
+	height: inherit;
+	line-height: inherit;
 	padding: 0.5rem 0;
 	visibility: visible;
 }
 
 .dropdown-item {
-	color: var(--nav-link-color)!important;
+	color: var(--nav-link-color);
 }
 .dropdown-item:hover, .dropdown-item:active, .dropdown-item:focus {
 	background-color: var(--dropdown-item-bg-hover);
+	color: var(--nav-link-color-hover);
 }
 
 // Make images smaller
@@ -274,5 +277,17 @@ div .btn-primary:hover {
 @media only screen and (min-width: 1600px) {
 	.main-content {
 		max-width: 75%;
+	}
+}
+
+@media only screen and (max-width: 757px) {
+	.dropdown-menu {
+		border: 0;
+	}
+	.dropdown-item {
+		font-weight: bold;
+	}
+	.dropdown-item:hover {
+		background-color: inherit;
 	}
 }

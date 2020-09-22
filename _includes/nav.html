@@ -21,19 +21,11 @@
 									{% if entry.title == page.title %} active {% endif %}
 								{% endfor %}
 							dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.title }}</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<div class="dropdown-menu hover-content" aria-labelledby="navbarDropdownMenuLink">
 								{% for entry in item.items %}
 									<a class="dropdown-item" href="{{ entry.url }}">{{ entry.title }}</a>
 								{% endfor %}
 							</div>
-							<noscript>
-								<!-- Fallback hover menu -->
-								<div class="dropdown-menu hover-content">
-									{% for entry in item.items %}
-										<a class="dropdown-item" href="{{ entry.url }}">{{ entry.title }}</a>
-									{% endfor %}
-								</div>
-							</noscript>
 						</li>
 					{% endif %}
 				{% endfor %}
@@ -43,4 +35,10 @@
 			</ul>
 		</div>
 	</div>
+	<script>
+		// Remove hover classes
+		Array.from(document.getElementsByClassName("hover-content")).forEach(r => {
+			r.classList.remove("hover-content");
+		});
+	</script>
 </nav>
