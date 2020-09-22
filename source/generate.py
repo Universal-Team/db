@@ -2,11 +2,12 @@
 
 import datetime
 from dateutil import parser
-from PIL import Image, ImageDraw
+import git
 import io
 import json
 import numpy
 import os
+from PIL import Image, ImageDraw
 import qrcode
 import requests
 import sys
@@ -402,3 +403,53 @@ with open(os.path.join("..", "unistore", "universal-db.unistore"), "w", encoding
 # Write output file
 with open(os.path.join("..", "data", "full.json"), "w", encoding="utf8") as file:
 	file.write(json.dumps(output, sort_keys=True))
+
+if len(sys.argv) > 3:
+	repo = git.Repo("..")
+	paths = []
+	for item in repo.index.diff(None):
+		if(os.path.dirname(item.b_path) in ["_3ds", "_ds"]):
+			paths.append(item.b_path)
+
+	heading = ""
+	content = ""
+	segments = []
+	if len(paths) == 1:
+		with open(os.path.join("..", paths[0])) as file:
+			r = file.read()
+			y = yaml.load(r[r.find("---")+3:r.rfind("---")], yaml.FullLoader)
+
+			heading = "New " + (y["title"] if "title" in y else "app") + " update"
+			content = (y["version_title"] + "\n" if "version_title" in y else "") + "Click to open on Universal DB"
+			segments.append(os.path.dirname(paths[0])[1:])
+			print(heading)
+			print(content)
+			print(segments)
+	elif len(paths) > 1:
+		consoles = []
+		for item in paths:
+			if os.path.dirname(item)[1:] not in segments:
+				segments.append(os.path.dirname(item)[1:])
+				consoles.append(os.path.dirname(item)[1:].upper())
+
+		heading = "New " + " and ".join(consoles) + " updates"
+		content = "Click to open on Universal DB"
+		print(heading)
+		print(content)
+		print(segments)
+
+	if heading and content and segments:
+		headers = {
+			"Authorization": "Basic <" + sys.argv[2] + ">",
+			"Content-Type": "application/json; charset=utf-8",
+		}
+
+		data = {
+			"app_id": sys.argv[3],
+			"contents": {"en": content},
+			"headings": {"en": heading},
+			"included_segments": segments,
+			"url": "https://db.universal-team.net/" + segments[0] if len(segments) == 1 else ""
+		}
+
+		requests.post("https://onesignal.com/api/v1/notifications", headers=headers, json=data)

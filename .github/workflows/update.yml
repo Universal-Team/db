@@ -30,7 +30,7 @@ jobs:
       run: |
         export PATH=$PATH:/opt/devkitpro/tools/bin
         cd source
-        python3 generate.py ${{ secrets.GITHUB_TOKEN }}
+        python3 generate.py ${{ secrets.GITHUB_TOKEN }} ${{ secrets.ONESIGNAL_KEY }} ${{ secrets.ONESIGNAL_APP_ID }}
 
     - name: Push changes
       uses: github-actions-x/commit@v2.6
