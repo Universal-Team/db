@@ -1207,5 +1207,103 @@
 				}
 			]
 		}
+	},
+	{
+		"github": "RocketRobz/hiyaCFW",
+		"systems": ["DS"],
+		"categories": ["utility"],
+		"image": "https://raw.githubusercontent.com/RocketRobz/hiyaCFW/unlaunch/logo/logo.png",
+		"icon": "https://raw.githubusercontent.com/RocketRobz/hiyaCFW/unlaunch/icon.bmp",
+		"long_description": "**Note:** For the initial install, please follow [dsi.cfw.guide](https://dsi.cfw.guide). If you are updating, then simply replace `sd:/hiya.dsi` from the `for SDNAND SD card` in the 7z."
+	},
+	{
+		"github": "profi200/open_agb_firm",
+		"systems": ["3DS"],
+		"categories": ["emulator"],
+		"scripts": {
+			"Release": [
+				{
+					"type": "downloadRelease",
+					"repo": "profi200/open_agb_firm",
+					"file": "open_agb_firm.*.7z",
+					"output": "/open_agb_firm.7z",
+					"message": "Downloading open_agb_firm 7z..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/open_agb_firm.7z",
+					"input": "open_agb_firm.firm",
+					"output": "/luma/payloads/open_agb_firm.firm",
+					"message": "Extracting open_agb_firm.firm..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/open_agb_firm.7z",
+					"message": "Deleting open_agb_firm.7z..."
+				}
+			],
+			"Release (no BIOS intro)": [
+				{
+					"type": "downloadRelease",
+					"repo": "profi200/open_agb_firm",
+					"file": "open_agb_firm.*.7z",
+					"output": "/open_agb_firm.7z",
+					"message": "Downloading open_agb_firm 7z..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/open_agb_firm.7z",
+					"input": "open_agb_firm_no_bios.firm",
+					"output": "/luma/payloads/open_agb_firm_no_bios.firm",
+					"message": "Extracting open_agb_firm_no_bios.firm..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/open_agb_firm.7z",
+					"message": "Deleting open_agb_firm.7z..."
+				}
+			]
+		}
+	},
+	{
+		"github": "d0k3/GodMode9",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"image": "https://raw.githubusercontent.com/d0k3/GodMode9/master/resources/logo.png",
+		"scripts": {
+			"Release (FIRM)": [
+				{
+					"type": "downloadRelease",
+					"repo": "d0k3/GodMode9",
+					"file": "GodMode9.*.zip",
+					"output": "/GodMode9.zip",
+					"message": "Downloading the GodMode9 ZIP..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/GodMode9.zip",
+					"input": "GodMode9.firm",
+					"output": "/luma/payloads/GodMode9.firm",
+					"message": "Extracting the GodMode9 FIRM..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/GodMode9.zip",
+					"input": "gm9/",
+					"output": "/gm9/",
+					"message": "Extracting the /gm9/ directory..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/luma/payloads/GodMode9.firm.sha",
+					"message": "Deleting a stowaway file..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/GodMode9.zip",
+					"message": "Deleting the downloaded ZIP file..."
+				}
+			]
+		}
 	}
 ]
