@@ -55,8 +55,8 @@
 										<div class="card h-100" data-title="{{ app.title }}" data-description="{{ app.description }}" data-updated="{{ app.updated }}">
 											<a class="flex-grow-1" href="{{ app.url }}">
 												{% if app.image %}
-													<div class="card-header">
-														<img class="mx-auto d-block mw-100 card-image" src="{{ app.image }}" alt="{{ app.title }}">
+													<div class="card-header card-image-header">
+														<img class="card-image" src="{{ app.image }}" alt="{{ app.title }}">
 													</div>
 												{% endif %}
 												<div class="card-body" style="height: 100%;">

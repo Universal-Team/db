@@ -237,6 +237,13 @@ div .btn-primary:hover {
 	max-height: 128px;
 }
 
+.card-image-header {
+	height: 145px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .pointer {
 	cursor: pointer;
 }
