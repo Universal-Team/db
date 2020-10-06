@@ -1307,6 +1307,6 @@
 		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/icon.png",
 		"systems": ["3DS"],
-		"long_description": "[Elfer raus!](https://de.wikipedia.org/wiki/Elfer_raus!) klon für den Nintendo 3DS!\n\n![The game screen](https://github.com/SuperSaiyajinStackZ/3DElf/raw/main/screenshots/game_screen_de.png)"
+		"long_description": "> The game is playable in Deutsch and English\n\n### Deutsch\n\n[Elfer raus!](https://de.wikipedia.org/wiki/Elfer_raus!) klon für den Nintendo 3DS!\n\n![Spiel Screen](https://github.com/SuperSaiyajinStackZ/3DElf/raw/main/screenshots/game_screen_de.png)\n\n### English\n\n[Elfer raus!](https://en.wikipedia.org/wiki/Domino_(card_game)#Elfer_Raus!) clone for the Nintendo 3DS!\n\n![The game screen](https://github.com/SuperSaiyajinStackZ/3DElf/raw/main/screenshots/game_screen_en.png)"
 	}
 ]
