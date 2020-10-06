@@ -1,14 +1,14 @@
 <link rel="canonical" href="{{ site.url | append: page.url }}" />
-<meta name="description" content="{{ page.description | default: site.description }}" />
-<meta property="og:title" content="{{ page.title | default: site.title }}" />
+<meta name="description" content="{{ page.description | default: site.description | escape }}" />
+<meta property="og:title" content="{{ page.title | default: site.title | escape }}" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:url" content="{{ site.url | append: page.url }}" />
-<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:site_name" content="{{ site.title | escape }}" />
 <meta property="og:image" content="{{ page.image | default: site.image }}">
-<meta property="og:description" content="{{ page.description | default: site.description }}" />
+<meta property="og:description" content="{{ page.description | default: site.description | escape }}" />
 <meta name="twitter:card" value="summary">
-<meta name="twitter:title" content="{{ page.title | default: site.title }}">
-<meta name="twitter:description" content="{{ page.description | default: site.description }}">
+<meta name="twitter:title" content="{{ page.title | default: site.title | escape }}">
+<meta name="twitter:description" content="{{ page.description | default: site.description | escape }}">
 <meta name="twitter:site" content="@universalteamhb">
 <meta name="twitter:creator" content="@universalteamhb">
 <meta name="twitter:image" content="{{ page.image | default: site.image }}">
