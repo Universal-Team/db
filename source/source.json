@@ -1300,5 +1300,13 @@
 				}
 			]
 		}
+	},
+	{
+		"github": "SuperSaiyajinStackZ/3DElf",
+		"categories": ["game"],
+		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/banner.png",
+		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/icon.png",
+		"systems": ["3DS"],
+		"long_description": "[Elfer raus!](https://de.wikipedia.org/wiki/Elfer_raus!) klon für den Nintendo 3DS!\n\n![The game screen](https://github.com/SuperSaiyajinStackZ/3DElf/raw/main/screenshots/game_screen_de.png)"
 	}
 ]
