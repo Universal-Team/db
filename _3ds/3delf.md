@@ -4,10 +4,10 @@ categories:
 - game
 created: '2020-10-03T20:29:35Z'
 description: "Ein \"Elfer raus!\" klon f\xFCr den Nintendo 3DS."
-download_page: https://github.com/SuperSaiyajinStackZ/3DElf/releases/tag/v0.1.0
+download_page: https://github.com/SuperSaiyajinStackZ/3DElf/releases/tag/v0.2.0
 downloads:
-  3DElf.3dsx: https://github.com/SuperSaiyajinStackZ/3DElf/releases/download/v0.1.0/3DElf.3dsx
-  3DElf.cia: https://github.com/SuperSaiyajinStackZ/3DElf/releases/download/v0.1.0/3DElf.cia
+  3DElf.3dsx: https://github.com/SuperSaiyajinStackZ/3DElf/releases/download/v0.2.0/3DElf.3dsx
+  3DElf.cia: https://github.com/SuperSaiyajinStackZ/3DElf/releases/download/v0.2.0/3DElf.cia
 github: SuperSaiyajinStackZ/3DElf
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/icon.png
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/banner.png
@@ -18,9 +18,9 @@ source: https://github.com/SuperSaiyajinStackZ/3DElf
 systems:
 - 3DS
 title: 3DElf
-updated: '2020-10-06T16:39:46Z'
-version: v0.1.0
-version_title: Erstes / First 3DElf Release!
+updated: '2020-10-07T20:51:16Z'
+version: v0.2.0
+version_title: Zweiter / Second 3DElf Release!
 wiki: https://github.com/SuperSaiyajinStackZ/3DElf/wiki
 ---
 > The game is playable in Deutsch and English
