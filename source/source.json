@@ -31,6 +31,14 @@
 		"systems": ["3DS"]
 	},
 	{
+		"github": "SuperSaiyajinStackZ/3DElf",
+		"categories": ["game"],
+		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/banner.png",
+		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/icon.png",
+		"systems": ["3DS"],
+		"long_description": "> The game is playable in Deutsch and English\n\n### Deutsch\n\n[Elfer raus!](https://de.wikipedia.org/wiki/Elfer_raus!) klon für den Nintendo 3DS!\n\n![Spiel Screen](https://github.com/SuperSaiyajinStackZ/3DElf/raw/main/screenshots/game_screen_de.png)\n\n### English\n\n[Elfer raus!](https://en.wikipedia.org/wiki/Domino_(card_game)#Elfer_Raus!) clone for the Nintendo 3DS!\n\n![The game screen](https://github.com/SuperSaiyajinStackZ/3DElf/raw/main/screenshots/game_screen_en.png)"
+	},
+	{
 		"long_description": "LeafEdit is a work in progress Animal Crossing: New Leaf save manager and editor for the Nintendo 3DS!\n\nFeatures include:\n- Changing player info such as name, tan, and money\n- See the Items on your Pocket and Dresser\n- See the Villager and replace them\n- Editing the layout of your village [Experimental, because it can break your save easilly!!]\n\n![The map editor](https://universal-team.net/images/leafedit/acreEditorNL.png) ![The pocket editor](https://universal-team.net/images/leafedit/pocketEditorNL.png)",
 		"github": "Universal-Team/LeafEdit",
 		"image": "https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/banner.png",
@@ -1300,13 +1308,5 @@
 				}
 			]
 		}
-	},
-	{
-		"github": "SuperSaiyajinStackZ/3DElf",
-		"categories": ["game"],
-		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/banner.png",
-		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/icon.png",
-		"systems": ["3DS"],
-		"long_description": "> The game is playable in Deutsch and English\n\n### Deutsch\n\n[Elfer raus!](https://de.wikipedia.org/wiki/Elfer_raus!) klon für den Nintendo 3DS!\n\n![Spiel Screen](https://github.com/SuperSaiyajinStackZ/3DElf/raw/main/screenshots/game_screen_de.png)\n\n### English\n\n[Elfer raus!](https://en.wikipedia.org/wiki/Domino_(card_game)#Elfer_Raus!) clone for the Nintendo 3DS!\n\n![The game screen](https://github.com/SuperSaiyajinStackZ/3DElf/raw/main/screenshots/game_screen_en.png)"
 	}
 ]
