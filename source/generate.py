@@ -417,7 +417,7 @@ if len(sys.argv) > 3:
 	path = ""
 	segments = []
 	if len(paths) == 1:
-		with open(os.path.join("..", paths[0])) as file:
+		with open(os.path.join("..", paths[0]), "r", encoding="utf8") as file:
 			r = file.read()
 			y = yaml.load(r[r.find("---")+3:r.rfind("---")], yaml.FullLoader)
 
