@@ -5,7 +5,14 @@
 		"image": "https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png",
 		"categories": ["utility"],
-		"github": "Universal-Team/Universal-Updater"
+		"github": "Universal-Team/Universal-Updater",
+		"nightly": {
+			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/Universal-Updater",
+			"downloads": {
+				"Universal-Updater.3dsx": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.3dsx",
+				"Universal-Updater.cia": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.cia"
+			}
+		}
 	},
 	{
 		"title": "TWiLight Menu++ Updater",
@@ -13,7 +20,14 @@
 		"image": "https://raw.githubusercontent.com/RocketRobz/TWiLightMenu-Updater/master/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/RocketRobz/TWiLightMenu-Updater/master/app/icon.png",
 		"categories": ["utility"],
-		"github": "RocketRobz/TWiLightMenu-Updater"
+		"github": "RocketRobz/TWiLightMenu-Updater",
+		"nightly": {
+			"download_page": "https://github.com/TWLBot/Builds/tree/master/TWiLightMenu-Updater",
+			"downloads": {
+				"TWiLight_Menu_++_Updater.3dsx": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Updater/TWiLight_Menu%2B%2B_Updater.3dsx",
+				"TWiLight_Menu_++_Updater.cia": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Updater/TWiLight_Menu%2B%2B_Updater.cia"
+			}
+		}
 	},
 	{
 		"long_description": "3DEins is a Cardgame for Nintendo 3DS. It's basically an UNO clone.\n\nIt currently includes:\n- Multi Player on one console\n- Customizable Cards & Characters\n- Translated to English, French, German, Japanese, Russian, and Spanish\n- Customizable interface colors\n\n![The main menu](https://universal-team.net/images/3deins/mainMenu.png)",
@@ -21,14 +35,28 @@
 		"image": "https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/icon.png",
 		"categories": ["game"],
-		"systems": ["3DS"]
+		"systems": ["3DS"],
+		"nightly": {
+			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/3DEins",
+			"downloads": {
+				"3DEins.3dsx": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.3dsx",
+				"3DEins.cia": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.cia"
+			}
+		}
 	},
 	{
 		"github": "Universal-Team/3DVier",
 		"image": "https://raw.githubusercontent.com/Universal-Team/3DVier/master/3ds/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/3DVier/master/3ds/app/icon.png",
 		"categories": ["game"],
-		"systems": ["3DS"]
+		"systems": ["3DS"],
+		"nightly": {
+			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/3DVier",
+			"downloads": {
+				"3DVier.3dsx": "https://github.com/Universal-Team/extras/raw/master/builds/3DVier/3DVier.3dsx",
+				"3DVier.cia": "https://github.com/Universal-Team/extras/raw/master/builds/3DVier/3DVier.cia"
+			}
+		}
 	},
 	{
 		"github": "SuperSaiyajinStackZ/3DElf",
@@ -44,14 +72,28 @@
 		"image": "https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/icon.png",
 		"categories": ["utility"],
-		"systems": ["3DS"]
+		"systems": ["3DS"],
+		"nightly": {
+			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/LeafEdit",
+			"downloads": {
+				"LeafEdit.3dsx": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.3dsx",
+				"LeafEdit.cia": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.cia"
+			}
+		}
 	},
 	{
 		"github": "Universal-Team/Universal-Edit",
 		"image": "https://raw.githubusercontent.com/Universal-Team/Universal-Edit/master/3DS/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/Universal-Edit/master/3DS/app/icon.png",
 		"categories": ["utility"],
-		"systems": ["3DS"]
+		"systems": ["3DS"],
+		"nightly": {
+			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/Universal-Edit",
+			"downloads": {
+				"Universal-Edit.3dsx": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Edit/Universal-Edit.3dsx",
+				"Universal-Edit.cia": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Edit/Universal-Edit.cia"
+			}
+		}
 	},
 	{
 		"long_description": "Pokémon Chest is an app for the DS(i) that can store and edit Pokémon in the DS Pokémon games.\n\nIt's current features include:\n- Loading save files from DSi SD, Flashcard SD, and retail cartridges\n- Storing up to 50 (flashcards) or 500 (DSi/3DS) boxes of Pokémon per chest with support for multiple chests\n- Editing most Pokémon, trainer, and other save data\n- Editing items in the bag\n- Injecting pk* files from SD\n- Dumping Pokémon to pk* files\n- Translated to Chinese, English, French, German, Indonesian, Italian, Japanese, Korean*, Lithuanian, Polish, Portuguese, Russian, and Spanish\n\n![A storage box](https://universal-team.net/images/pkmn-chest/box-2.png) ![editing a Pokémon](https://universal-team.net/images/pkmn-chest/summary.png)",
@@ -59,14 +101,27 @@
 		"image": "https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/resources/icon.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/icon.bmp",
 		"categories": ["utility"],
-		"systems": ["DS"]
+		"systems": ["DS"],
+		"nightly": {
+			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/pkmn-chest",
+			"downloads": {
+				"pkmn-chest.nds": "https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.nds",
+				"pkmn-chest.cia": "https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.cia"
+			}
+		}
 	},
 	{
 		"github": "Universal-Team/Relaunch",
 		"image": "https://raw.githubusercontent.com/Universal-Team/Relaunch/master/logo.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/Relaunch/master/main/icon.bmp",
 		"categories": ["utility"],
-		"systems": ["DS"]
+		"systems": ["DS"],
+		"nightly": {
+			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/Relaunch",
+			"downloads": {
+				"Relaunch.7z": "https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z"
+			}
+		}
 	},
 	{
 		"github": "Gericom/GBARunner2",
@@ -80,7 +135,13 @@
 		"categories": ["utility"],
 		"systems": ["DS"],
 		"image": "https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png",
-		"icon": "https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/icon.bmp"
+		"icon": "https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/icon.bmp",
+		"nightly": {
+			"download_page": "https://github.com/TWLBot/Builds/blob/master/extras/GodMode9i.7z",
+			"downloads": {
+				"Relaunch.7z": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z"
+			}
+		}
 	},
 	{
 		"title": "DScraft",
@@ -162,7 +223,13 @@
 		"version": "v1.0",
 		"systems": ["DS"],
 		"icon": "https://raw.githubusercontent.com/Arisotura/lolSnes/master/lolsnes.bmp",
-		"image": "http://lolsnes.kuribo64.net/img/banner.png"
+		"image": "http://lolsnes.kuribo64.net/img/banner.png",
+		"nightly": {
+			"download_page": "http://lolsnes.kuribo64.net/download.php",
+			"downloads": {
+				"git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip": "http://lolsnes.kuribo64.net/gitbuilds/git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip"
+			}
+		}
 	},
 	{
 		"bitbucket": {
@@ -948,7 +1015,14 @@
 		"categories": ["game"],
 		"long_description": "A memory cardgame clone for Nintendo 3DS.",
 		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/banner.png",
-		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/icon.png"
+		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/icon.png",
+		"nightly": {
+			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/3DZwei",
+			"downloads": {
+				"3DZwei.3dsx": "https://github.com/Universal-Team/extras/raw/master/builds/3DZwei/3DZwei.3dsx",
+				"3DZwei.cia": "https://github.com/Universal-Team/extras/raw/master/builds/3DZwei/3DZwei.cia"
+			}
+		}
 	},
 	{
 		"github": "RocketRobz/HoriHD-Gallery",
@@ -993,6 +1067,16 @@
 		"image": "https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/logo.png",
 		"icon": "https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif",
 		"long_description": "TWiLight Menu++ is an open-source DSi Menu upgrade/replacement for the Nintendo DSi, the Nintendo 3DS, and Nintendo DS flashcards. It can launch Nintendo DS, SNES, NES, GameBoy (color), GameBoy Advance, Sega GameGear/Master System & Mega Drive/Genesis ROMs, as well as DSTWO plugins (if you use a DSTWO) and videos.\n\nPlease check the [wiki](https://github.com/DS-Homebrew/TWiLightMenu/wiki) for help installing.",
+		"nightly": {
+			"download_page": "https://github.com/TWLBot/Builds",
+			"downloads": {
+				"TWiLightMenu-3DS.7z": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z",
+				"TWiLightMenu-DSi.7z": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-DSi.7z",
+				"TWiLightMenu-Flashcard.7z": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Flashcard.7z",
+				"TWiLightMenu-Lite.7z": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Lite.7z",
+				"TWiLightMenu.7z": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu.7z"
+			}
+		},
 		"scripts": {
 			"TWiLight Menu++ Release": [
 				{
@@ -1128,6 +1212,12 @@
 		"image": "https://i.imgur.com/BFIu7xX.png",
 		"icon": "https://raw.githubusercontent.com/DS-Homebrew/nds-bootstrap/master/retail/assets/icon.bmp",
 		"long_description": "nds-bootstrap is an open-source application that allows Nintendo DS/DSi ROMs and homebrew to be natively utilised rather than using an emulator. nds-bootstrap works on Nintendo DSi/3DS SD cards through CFW and on Nintendo DS through flashcarts.",
+		"nightly": {
+			"download_page": "https://github.com/TWLBot/Builds",
+			"downloads": {
+				"nds-bootstrap.7z": "https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z"
+			}
+		},
 		"scripts": {
 			"nds-bootstrap Nightly": [
 				{

@@ -68,15 +68,15 @@
 									<div class="col-12">
 										<h2>Downloads</h2>
 										{% for item in page.downloads %}
-										<span class="btn btn-primary m-1">
-											<a class="mr-1" href="{{ item[1] }}">Download {{ item[0] }}</a>
-											{% for qr in page.qr %}
-												{% if item[0] == qr[0] %}
-													<a class="qr-link" href="{{ qr[1] }}" data-path="{{ qr[1] }}" data-name="{{ qr[0] }}">
-														<i class="fa fa-qrcode" aria-hidden="true"></i>
-													</a>
-												{% endif %}
-											{% endfor %}
+											<span class="btn btn-primary m-1">
+												<a class="mr-1" href="{{ item[1] }}">Download {{ item[0] }}</a>
+												{% for qr in page.qr %}
+													{% if item[0] == qr[0] %}
+														<a class="qr-link" href="{{ qr[1] }}" data-path="{{ qr[1] }}" data-name="{{ qr[0] }}">
+															<i class="fa fa-qrcode" aria-hidden="true"></i>
+														</a>
+													{% endif %}
+												{% endfor %}
 											</span>
 										{% endfor %}
 										
@@ -93,7 +93,7 @@
 									</div>
 								</div>
 								{% if page.prerelease %}
-									<div class="row mt-5">
+									<div class="row mt-3">
 										<div class="col-12">
 											<h3>Prereleases</h3>
 											{% for item in page.prerelease.downloads %}
@@ -108,6 +108,32 @@
 													{% if page.prerelease.updated %}
 														Last updated: <time datetime="{{ page.prerelease.updated }}" title="{{ page.prerelease.updated | date: '%Y-%m-%d at %H:%M' }}">{{ page.prerelease.updated | date: "%Y-%m-%d at %H:%M" }}</time>
 													{% endif %}
+												</small>
+											{% endif %}
+										</div>
+									</div>
+								{% endif%}
+								{% if page.nightly %}
+									<div class="row mt-3">
+										<div class="col-12">
+											<abbr title="Commit / beta builds, potentially unstable but have the latest updates"><h3>Nightlies</h3></abbr>
+											{% for item in page.nightly.downloads %}
+												<span class="btn btn-dark m-1">
+													<a class="mr-1" href="{{ item[1] }}">Download {{ item[0] }}</a>
+													{% for qr in page.nightly.qr %}
+														{% if item[0] == qr[0] %}
+															<a class="qr-link" href="{{ qr[1] }}" data-path="{{ qr[1] }}" data-name="{{ qr[0] }}">
+																<i class="fa fa-qrcode" aria-hidden="true"></i>
+															</a>
+														{% endif %}
+													{% endfor %}
+												</span>
+											{% endfor %}
+			
+											{% if page.nightly.download_page %}
+												<br>
+												<small class="text-muted">
+													<a href="{{ page.nightly.download_page }}">Download page / more information</a>
 												</small>
 											{% endif %}
 										</div>

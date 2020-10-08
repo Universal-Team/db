@@ -314,6 +314,24 @@ for app in source:
 				if not "qr" in app:
 					app["qr"] = {}
 				app["qr"][item] = "https://db.universal-team.net/assets/images/qr/" + webName(item) + ".png"
+
+	if "nightly" in app:
+		for item in app["nightly"]["downloads"]:
+			if item[item.rfind(".") + 1:] == "cia":
+				qr = qrcode.make(app["nightly"]["downloads"][item], box_size = 5).convert("RGBA")
+				data = numpy.array(qr)
+				r, g, b, a = data.T
+				black = (r == 0) & (g == 0) & (b == 0)
+				data[...][black.T] = (0, 0, 0xC0, 0xFF)
+				qr = Image.fromarray(data)
+				if img:
+					draw = ImageDraw.Draw(qr)
+					draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 4)), fill = (255, 255, 255))
+					qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask = img if img.mode == "RGBA" else None)
+				qr.save(os.path.join("..", "assets", "images", "qr", "nightly", webName(item) + ".png"))
+				if not "qr" in app["nightly"]:
+					app["nightly"]["qr"] = {}
+				app["nightly"]["qr"][item] = "https://db.universal-team.net/assets/images/qr/nightly/" + webName(item) + ".png"
 	
 	# Add to output json
 	output.append(app)
@@ -376,6 +394,10 @@ for app in source:
 		if "prerelease" in app:
 			for file in app["prerelease"]["downloads"]:
 				uni["[prerelease] Download " + file] = downloadScript(file, app["prerelease"]["downloads"][file])
+
+		if "nightly" in app:
+			for file in app["nightly"]["downloads"]:
+				uni["[nightly] Download " + file] = downloadScript(file, app["nightly"]["downloads"][file])
 
 	unistore["storeContent"].append(uni)
 
