@@ -12,6 +12,8 @@ github: ihaveamac/screenshot-merge
 icon: https://raw.githubusercontent.com/ihaveamac/screenshot-merge/master/resources/icon.png
 image: https://raw.githubusercontent.com/ihaveamac/screenshot-merge/master/resources/banner.png
 layout: app
+qr:
+  screenshot-merge1.4.cia: https://db.universal-team.net/assets/images/qr/screenshot-merge1.4.cia.png
 source: https://github.com/ihaveamac/screenshot-merge
 systems:
 - 3DS

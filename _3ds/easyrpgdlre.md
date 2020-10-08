@@ -10,6 +10,8 @@ downloads:
 github: gnmmarechal/easyrpgdlre
 image: https://avatars0.githubusercontent.com/u/11259227?v=4
 layout: app
+qr:
+  easyrpg-updater-re-v2.1.1.cia: https://db.universal-team.net/assets/images/qr/easyrpg-updater-re-v2.1.1.cia.png
 source: https://github.com/gnmmarechal/easyrpgdlre
 systems:
 - 3DS

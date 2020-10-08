@@ -14,6 +14,8 @@ github: Storm-Eagle20/RTChanger
 icon: https://raw.githubusercontent.com/Storm-Eagle20/RTChanger/master/assets/logo.png
 image: https://raw.githubusercontent.com/Storm-Eagle20/RTChanger/master/assets/banner.png
 layout: app
+qr:
+  RTChanger-Version1.0.cia: https://db.universal-team.net/assets/images/qr/rtchanger-version1.0.cia.png
 source: https://github.com/Storm-Eagle20/RTChanger
 systems:
 - 3DS

@@ -14,6 +14,9 @@ github: Possum/LumaLocaleSwitcher
 icon: https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/meta/icon.png
 image: https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/meta/banner.png
 layout: app
+qr:
+  LumaLocaleSwitcher-0.04-NIGHTLY.cia: https://db.universal-team.net/assets/images/qr/lumalocaleswitcher-0.04-nightly.cia.png
+  LumaLocaleSwitcher-0.04.cia: https://db.universal-team.net/assets/images/qr/lumalocaleswitcher-0.04.cia.png
 source: https://github.com/Possum/LumaLocaleSwitcher
 systems:
 - 3DS

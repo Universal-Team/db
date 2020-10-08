@@ -20,6 +20,8 @@ prerelease:
   updated: '2017-10-28T15:09:14Z'
   version: 0.3-pre2
   version_title: 0.3 Pre 2 Second Pre Release
+qr:
+  craftus-0.22.cia: https://db.universal-team.net/assets/images/qr/craftus-0.22.cia.png
 source: https://github.com/RSDuck/craftus_reloaded
 systems:
 - 3DS

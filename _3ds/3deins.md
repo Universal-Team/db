@@ -16,6 +16,7 @@ image: https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/ba
 layout: app
 qr:
   3DEins.cia: https://db.universal-team.net/assets/images/qr/3deins.cia.png
+  DSEins.nds.cia: https://db.universal-team.net/assets/images/qr/dseins.nds.cia.png
 source: https://github.com/Universal-Team/3DEins
 systems:
 - 3DS
