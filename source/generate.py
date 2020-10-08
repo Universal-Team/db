@@ -170,6 +170,9 @@ for app in source:
 
 		if not "image" in app:
 			app["image"] = api["owner"]["avatar_url"]
+
+		if not "avatar" in app:
+			app["avatar"] = api["owner"]["avatar_url"]
 		
 		if not "source" in app:
 			app["source"] = api["html_url"]
@@ -247,6 +250,9 @@ for app in source:
 
 		if not "image" in app:
 			app["image"] = api["links"]["avatar"]["href"]
+
+		if not "avatar" in app:
+			app["avatar"] = api["links"]["avatar"]["href"]
 
 		if not "source" in app:
 			app["source"] = api["links"]["html"]["href"]
@@ -447,7 +453,19 @@ for item in output:
 			author = item["author"],
 			guid = rfeed.Guid("https://db.universal-team.net/" + webName(item["systems"][0]) + "/" + webName(item["title"])),
 			pubDate = parser.parse(item["updated"]),
-			categories = item["systems"]
+			categories = item["systems"],
+			extensions = [
+				rfeed.Image(
+					title = item["title"] + " logo",
+					url = item["image"],
+					link = "https://db.universal-team.net/" + webName(item["systems"][0]) + "/" + webName(item["title"])
+				) if "image" in item else None,
+				rfeed.Image(
+					title = item["author"] + " avatar",
+					url = item["avatar"],
+					link = "https://db.universal-team.net/" + webName(item["systems"][0]) + "/" + webName(item["title"])
+				) if "avatar" in item else None,
+			]
 		))
 
 if len(feedItems) > 0:
@@ -458,6 +476,7 @@ if len(feedItems) > 0:
 		language = "en-US",
 		lastBuildDate = latestUpdate,
 		items = feedItems,
+		image = rfeed.Image(title = "Universal-Team logo", url = "https://universal-team.net/images/icons/universal-team.png", link = "https://db.universal-team.net"),
 	)
 
 	with open(os.path.join("..", "index.rss"), "w", encoding="utf8") as file:
