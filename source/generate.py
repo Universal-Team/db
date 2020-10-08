@@ -2,7 +2,6 @@
 
 import datetime
 from dateutil import parser
-import git
 import io
 import json
 import numpy
@@ -10,6 +9,7 @@ import os
 from PIL import Image, ImageDraw
 import qrcode
 import requests
+import rfeed
 import sys
 import yaml
 
@@ -128,6 +128,12 @@ unistore = {
 
 # Output json
 output = []
+
+# Old data json
+oldData = None
+
+with open(os.path.join("..", "data", "full.json"), "r", encoding="utf8") as file:
+	oldData = json.load(file)
 
 # Icons array
 icons = []
@@ -404,44 +410,63 @@ with open(os.path.join("..", "unistore", "universal-db.unistore"), "w", encoding
 with open(os.path.join("..", "data", "full.json"), "w", encoding="utf8") as file:
 	file.write(json.dumps(output, sort_keys=True))
 
-if len(sys.argv) > 3:
-	repo = git.Repo("..")
-	paths = []
-	for item in repo.index.diff(None):
-		if(os.path.dirname(item.b_path) in ["_3ds", "_ds"]):
-			paths.append(item.b_path)
+items = []
+for oldItem in oldData:
+	for newItem in output:
+		if oldItem["title"] == newItem["title"] and oldItem["author"] == newItem["author"] and "version" in oldItem and "version" in newItem and oldItem["version"] != newItem["version"]:
+			items.append(newItem)
 
+if len(items) > 0:
 	heading = ""
 	content = ""
 	path = ""
 	segments = []
-	if len(paths) == 1:
-		with open(os.path.join("..", paths[0]), "r", encoding="utf8") as file:
-			r = file.read()
-			y = yaml.load(r[r.find("---")+3:r.rfind("---")], yaml.FullLoader)
+	if len(items) == 1:
+		heading = "New " + items[0]["title"] + " update"
+		content = (items[0]["version_title"] + "\n" if "version_title" in items[0] else "") + "Click to open on Universal DB"
+		segments = items[0]["systems"]
+		path = items[0]["systems"][0] + "/" + webName(items[0]["title"])
+		print(heading)
+		print(content)
+		print(segments)
+	elif len(items) > 1:
+		for item in items:
+			for system in item["systems"]:
+				if system not in segments:
+					segments.append(system)
 
-			heading = "New " + (y["title"] if "title" in y else "app") + " update"
-			content = (y["version_title"] + "\n" if "version_title" in y else "") + "Click to open on Universal DB"
-			segments.append(os.path.dirname(paths[0])[1:])
-			path = paths[0][1:-3]
-			print(heading)
-			print(content)
-			print(segments)
-	elif len(paths) > 1:
-		consoles = []
-		for item in paths:
-			if os.path.dirname(item)[1:] not in segments:
-				segments.append(os.path.dirname(item)[1:])
-				consoles.append(os.path.dirname(item)[1:].upper())
-
-		heading = "New " + " and ".join(consoles) + " updates"
+		heading = "New " + " and ".join(segments) + " updates"
 		content = "Click to open on Universal DB"
 		path = segments[0] if len(segments) == 1 else ""
 		print(heading)
 		print(content)
 		print(segments)
 
-	if heading and content and segments:
+	feedItems = []
+	for item in items:
+		feedItems.append(rfeed.Item(
+			title = "New " + item["title"] + " update",
+			link = "https://db.universal-team.net/" + item["systems"][0] + "/" + webName(item["title"]),
+			description = item["version_title"] if "version_title" in item else item["version"],
+			author = item["author"],
+			guid = rfeed.Guid("https://db.universal-team.net/" + item["systems"][0] + "/" + webName(item["title"])),
+			pubDate = parser.parse(item["updated"]),
+			categories = item["systems"]
+		))
+
+	feed = rfeed.Feed(
+		title = "Universal DB",
+		link = "https://db.universal-team.net",
+		description = "A database of DS and 3DS homebrew",
+		language = "en-US",
+		lastBuildDate = datetime.datetime.now(),
+		items = feedItems,
+	)
+
+	with open(os.path.join("..", "index.rss"), "w", encoding="utf8") as file:
+		file.write(feed.rss())
+
+	if len(sys.argv) > 3 and heading and content and segments:
 		headers = {
 			"Authorization": "Basic <" + sys.argv[2] + ">",
 			"Content-Type": "application/json; charset=utf-8",
