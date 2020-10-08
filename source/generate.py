@@ -458,12 +458,12 @@ for item in output:
 				rfeed.Enclosure(
 					url = item["image"],
 					length = len(requests.get(item["image"]).content),
-					type = "image/" + item["image"][item["image"].rfind(".") + 1:]
+					type = "image/png"
 				) if "image" in item else None,
 				rfeed.Enclosure(
 					url = item["avatar"],
 					length = len(requests.get(item["avatar"]).content),
-					type = "image/" + item["avatar"][item["avatar"].rfind(".") + 1:]
+					type = "image/png"
 				) if "avatar" in item else None
 			]
 		))
