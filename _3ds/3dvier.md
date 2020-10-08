@@ -12,6 +12,13 @@ github: Universal-Team/3DVier
 icon: https://raw.githubusercontent.com/Universal-Team/3DVier/master/3ds/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/3DVier/master/3ds/app/banner.png
 layout: app
+nightly:
+  download_page: https://github.com/Universal-Team/extras/tree/master/builds/3DVier
+  downloads:
+    3DVier.3dsx: https://github.com/Universal-Team/extras/raw/master/builds/3DVier/3DVier.3dsx
+    3DVier.cia: https://github.com/Universal-Team/extras/raw/master/builds/3DVier/3DVier.cia
+  qr:
+    3DVier.cia: https://db.universal-team.net/assets/images/qr/nightly/3dvier.cia.png
 qr:
   3DVier.cia: https://db.universal-team.net/assets/images/qr/3dvier.cia.png
 source: https://github.com/Universal-Team/3DVier

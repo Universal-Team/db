@@ -14,6 +14,14 @@ github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 image: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/logo.png
 layout: app
+nightly:
+  download_page: https://github.com/TWLBot/Builds
+  downloads:
+    TWiLightMenu-3DS.7z: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z
+    TWiLightMenu-DSi.7z: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-DSi.7z
+    TWiLightMenu-Flashcard.7z: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Flashcard.7z
+    TWiLightMenu-Lite.7z: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Lite.7z
+    TWiLightMenu.7z: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu.7z
 scripts:
   TWiLight Menu++ Nightly:
   - file: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z

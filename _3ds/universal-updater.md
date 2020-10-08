@@ -12,6 +12,13 @@ github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/banner.png
 layout: app
+nightly:
+  download_page: https://github.com/Universal-Team/extras/tree/master/builds/Universal-Updater
+  downloads:
+    Universal-Updater.3dsx: https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.3dsx
+    Universal-Updater.cia: https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.cia
+  qr:
+    Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/nightly/universal-updater.cia.png
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater.cia.png
 source: https://github.com/Universal-Team/Universal-Updater

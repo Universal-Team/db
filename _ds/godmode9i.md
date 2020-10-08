@@ -12,6 +12,10 @@ github: DS-Homebrew/GodMode9i
 icon: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/icon.bmp
 image: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png
 layout: app
+nightly:
+  download_page: https://github.com/TWLBot/Builds/blob/master/extras/GodMode9i.7z
+  downloads:
+    Relaunch.7z: https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z
 source: https://github.com/DS-Homebrew/GodMode9i
 systems:
 - DS

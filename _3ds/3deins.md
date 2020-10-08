@@ -14,6 +14,13 @@ github: Universal-Team/3DEins
 icon: https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/banner.png
 layout: app
+nightly:
+  download_page: https://github.com/Universal-Team/extras/tree/master/builds/3DEins
+  downloads:
+    3DEins.3dsx: https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.3dsx
+    3DEins.cia: https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.cia
+  qr:
+    3DEins.cia: https://db.universal-team.net/assets/images/qr/nightly/3deins.cia.png
 qr:
   3DEins.cia: https://db.universal-team.net/assets/images/qr/3deins.cia.png
   DSEins.nds.cia: https://db.universal-team.net/assets/images/qr/dseins.nds.cia.png

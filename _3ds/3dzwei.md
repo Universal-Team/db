@@ -12,6 +12,13 @@ github: SuperSaiyajinStackZ/3DZwei
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/icon.png
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/banner.png
 layout: app
+nightly:
+  download_page: https://github.com/Universal-Team/extras/tree/master/builds/3DZwei
+  downloads:
+    3DZwei.3dsx: https://github.com/Universal-Team/extras/raw/master/builds/3DZwei/3DZwei.3dsx
+    3DZwei.cia: https://github.com/Universal-Team/extras/raw/master/builds/3DZwei/3DZwei.cia
+  qr:
+    3DZwei.cia: https://db.universal-team.net/assets/images/qr/nightly/3dzwei.cia.png
 qr:
   3DZwei.cia: https://db.universal-team.net/assets/images/qr/3dzwei.cia.png
 source: https://github.com/Universal-Team/3DZwei

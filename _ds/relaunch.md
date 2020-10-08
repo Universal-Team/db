@@ -11,6 +11,10 @@ github: Universal-Team/Relaunch
 icon: https://raw.githubusercontent.com/Universal-Team/Relaunch/master/main/icon.bmp
 image: https://raw.githubusercontent.com/Universal-Team/Relaunch/master/logo.png
 layout: app
+nightly:
+  download_page: https://github.com/Universal-Team/extras/tree/master/builds/Relaunch
+  downloads:
+    Relaunch.7z: https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z
 source: https://github.com/Universal-Team/Relaunch
 systems:
 - DS

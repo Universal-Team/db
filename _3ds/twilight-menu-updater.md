@@ -12,6 +12,13 @@ github: RocketRobz/TWiLightMenu-Updater
 icon: https://raw.githubusercontent.com/RocketRobz/TWiLightMenu-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/RocketRobz/TWiLightMenu-Updater/master/app/banner.png
 layout: app
+nightly:
+  download_page: https://github.com/TWLBot/Builds/tree/master/TWiLightMenu-Updater
+  downloads:
+    TWiLight_Menu_++_Updater.3dsx: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Updater/TWiLight_Menu%2B%2B_Updater.3dsx
+    TWiLight_Menu_++_Updater.cia: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Updater/TWiLight_Menu%2B%2B_Updater.cia
+  qr:
+    TWiLight_Menu_++_Updater.cia: https://db.universal-team.net/assets/images/qr/nightly/twilight_menu__updater.cia.png
 qr:
   TWiLightMenu-Updater.cia: https://db.universal-team.net/assets/images/qr/twilightmenu-updater.cia.png
 source: https://github.com/RocketRobz/TWiLightMenu-Updater

@@ -13,6 +13,13 @@ github: Universal-Team/LeafEdit
 icon: https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/banner.png
 layout: app
+nightly:
+  download_page: https://github.com/Universal-Team/extras/tree/master/builds/LeafEdit
+  downloads:
+    LeafEdit.3dsx: https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.3dsx
+    LeafEdit.cia: https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.cia
+  qr:
+    LeafEdit.cia: https://db.universal-team.net/assets/images/qr/nightly/leafedit.cia.png
 qr:
   LeafEdit.cia: https://db.universal-team.net/assets/images/qr/leafedit.cia.png
 source: https://github.com/Universal-Team/LeafEdit

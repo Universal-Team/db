@@ -13,6 +13,13 @@ github: Universal-Team/pkmn-chest
 icon: https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/icon.bmp
 image: https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/resources/icon.png
 layout: app
+nightly:
+  download_page: https://github.com/Universal-Team/extras/tree/master/builds/pkmn-chest
+  downloads:
+    pkmn-chest.cia: https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.cia
+    pkmn-chest.nds: https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.nds
+  qr:
+    pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/nightly/pkmn-chest.cia.png
 qr:
   pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/pkmn-chest.cia.png
 source: https://github.com/Universal-Team/pkmn-chest

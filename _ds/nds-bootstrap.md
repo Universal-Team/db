@@ -12,6 +12,10 @@ github: DS-Homebrew/nds-bootstrap
 icon: https://raw.githubusercontent.com/DS-Homebrew/nds-bootstrap/master/retail/assets/icon.bmp
 image: https://i.imgur.com/BFIu7xX.png
 layout: app
+nightly:
+  download_page: https://github.com/TWLBot/Builds
+  downloads:
+    nds-bootstrap.7z: https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z
 scripts:
   nds-bootstrap Nightly:
   - file: https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z
