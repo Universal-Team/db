@@ -20,8 +20,8 @@
 								{% for entry in item.items %}
 									{% if entry.title == page.title %} active {% endif %}
 								{% endfor %}
-							dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.title }}</a>
-							<div class="dropdown-menu hover-content" aria-labelledby="navbarDropdownMenuLink">
+							dropdown-toggle" href="#" id="navbar-dropdown-menu-link-{{ item.title }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.title }}</a>
+							<div class="dropdown-menu hover-content" aria-labelledby="navbar-dropdown-menu-link-{{ item.title }}">
 								{% for entry in item.items %}
 									<a class="dropdown-item" href="{{ entry.url }}">{{ entry.title }}</a>
 								{% endfor %}

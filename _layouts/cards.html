@@ -18,12 +18,12 @@
 
 						{% if page.description %}
 							<div class="alert alert-secondary mb-4">
-								{{ page.description }}
+								{{ page.description | escape }}
 							</div>
 						{% endif %}
 						
 						{% if page.system %}
-							<noscript><div class="d-none"></noscript>
+							<div class="d-none script-show">
 								<div class="mb-3">
 									Sort:
 									<button id="sort-title"class="btn btn-outline-secondary" onclick="sort('title')">Title</button>
@@ -35,7 +35,7 @@
 										<label for="search" class="input-group-text">Search:</label>
 									<input id="search" class="form-control" type="text" placeholder="Search by title or description" onkeyup="search(event.srcElement.value);">
 								</div>
-							<noscript></div></noscript>
+							</div>
 						{% endif %}
 						
 						{% if page.system == "3ds" %}
@@ -52,18 +52,18 @@
 							{% for app in cards limit: page.limit %}
 								{% if page.category == Nil or app.categories contains page.category %}
 									<div class="col mb-3">
-										<div class="card h-100" data-title="{{ app.title }}" data-description="{{ app.description }}" data-updated="{{ app.updated }}">
+										<div class="card h-100" data-title="{{ app.title | escape}}" data-description="{{ app.description | escape }}" data-updated="{{ app.updated }}">
 											<a class="flex-grow-1" href="{{ app.url }}">
 												{% if app.image %}
 													<div class="card-header card-image-header">
-														<img class="card-image" src="{{ app.image }}" alt="{{ app.title }}">
+														<img class="card-image" src="{{ app.image }}" alt="{{ app.title | escape }}">
 													</div>
 												{% endif %}
 												<div class="card-body" style="height: 100%;">
 													<div>
-														<h4 class="card-title text-center">{{ app.title }}</h4>
+														<h4 class="card-title text-center">{{ app.title | escape }}</h4>
 														
-														<p class="card-text">{{ app.description }}</p>
+														<p class="card-text">{{ app.description | escape }}</p>
 													</div>
 												</div>
 											</a>
@@ -89,9 +89,9 @@
 															{% if app.qr.size == 1 %}
 																{% for qr in app.qr %}
 																	<p class="text-right">
-																		<noscript><a href="{{ qr[1] }}"></noscript>
-																			<i class="fa fa-qrcode pointer" aria-hidden="true" onclick="toggleQR('{{ qr[1] }}', '{{ qr[0] }}')"></i>
-																		<noscript></a></noscript>
+																		<a class="qr-link" href="{{ qr[1] }}" data-path="{{ qr[1] }}" data-name="{{ qr[0] }}">
+																			<i class="fa fa-qrcode pointer" aria-hidden="true"></i>
+																		</a>
 																	</p>
 																{% endfor %}
 															{% endif %}
@@ -117,6 +117,7 @@
 	<script src="/assets/js/popupQR.js"></script>
 	<script src="/assets/js/relativeTime.js"></script>
 	<script src="/assets/js/search.js"></script>
+	<script src="/assets/js/un-noscript.js"></script>
 	{% if page.system %}
 		<script src="/assets/js/sort.js"></script>
 	{% endif %}
