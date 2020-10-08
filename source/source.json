@@ -181,7 +181,9 @@
 		"website": "https://www.colorslive.com",
 		"download_page": "https://gamebrew.org/wiki/Colors!",
 		"version": "v1.1",
-		"systems": ["DS"]
+		"updated": "2010-10-04T10:11:20Z",
+		"systems": ["DS"],
+		"icon": "https://db.universal-team.net/assets/images/icons/colors.png"
 	},
 	{
 		"github": "Gericom/YouTubeDS",
@@ -221,6 +223,7 @@
 			"lolsnes.7z": "http://lolsnes.kuribo64.net/lolsnes.7z"
 		},
 		"version": "v1.0",
+		"updated": "2013-08-31T00:23:48Z",
 		"systems": ["DS"],
 		"icon": "https://raw.githubusercontent.com/Arisotura/lolSnes/master/lolsnes.bmp",
 		"image": "http://lolsnes.kuribo64.net/img/banner.png",
@@ -256,10 +259,12 @@
 		},
 		"categories": ["emulator"],
 		"version": "v0.7.4",
+		"updated": "2008-07-12T17:41:22Z",
 		"download_page": "https://gamebrew.org/wiki/JEnesisDS",
 		"author": "Lordus",
 		"systems": ["DS"],
-		"description": "A Sega Genesis/MegaDrive emulator for the Nintendo DS"
+		"description": "A Sega Genesis/MegaDrive emulator for the Nintendo DS",
+		"icon": "https://db.universal-team.net/assets/images/icons/jenesisds.png"
 	},
 	{
 		"github": "JeffRuLz/TMFH",

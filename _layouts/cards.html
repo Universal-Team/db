@@ -79,7 +79,7 @@
 																{% if app.version %}
 																	Version: {{ app.version }}
 																{% endif %}
-																{% if app.updated %}
+																{% if app.updated != "---" %}
 																	<br>
 																	Last updated: <time datetime="{{ app.updated }}" title="{{ app.updated | date: '%Y-%m-%d at %H:%M' }}">{{ app.updated | date: "%Y-%m-%d" }}</time>
 																{% endif %}

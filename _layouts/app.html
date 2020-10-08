@@ -44,7 +44,7 @@
 											{% endfor %}
 										{% endif %}
 										<small class="text-muted">
-											{% if page.created %}
+											{% if page.created != "---" %}
 												<br>
 												Created: <time datetime="{{ page.created }}" title="{{ page.created | date: '%Y-%m-%d at %H:%M' }}">{{ page.created | date: "%Y-%m-%d" }}</time>
 											{% endif %}
@@ -85,7 +85,7 @@
 											<small class="text-muted">
 												Version: {% if page.download_page %}<a href="{{ page.download_page }}">{% endif %}{{ page.version }}{% if page.version_title %}, {{ page.version_title }}{% endif %}{% if page.download_page %}</a>{% endif %}
 												<br>
-												{% if page.updated %}
+												{% if page.updated != "---" %}
 													Last updated: <time datetime="{{ page.updated }}" title="{{ page.prerelease.updated | date: '%Y-%m-%d at %H:%M' }}">{{ page.updated | date: "%Y-%m-%d at %H:%M" }}</time>
 												{% endif %}
 											</small>
@@ -105,7 +105,7 @@
 												<small class="text-muted">
 													Version: {{ page.prerelease.version }}{% if page.prerelease.version_title %}, {{ page.prerelease.version_title }}{% endif %}
 													<br>
-													{% if page.prerelease.updated %}
+													{% if page.prerelease.updated != "---" %}
 														Last updated: <time datetime="{{ page.prerelease.updated }}" title="{{ page.prerelease.updated | date: '%Y-%m-%d at %H:%M' }}">{{ page.prerelease.updated | date: "%Y-%m-%d at %H:%M" }}</time>
 													{% endif %}
 												</small>
