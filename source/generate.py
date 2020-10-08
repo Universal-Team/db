@@ -171,12 +171,9 @@ for app in source:
 		if not "image" in app:
 			app["image"] = api["owner"]["avatar_url"]
 
-		if not "avatar" in app:
-			app["avatar"] = api["owner"]["avatar_url"]
-		
 		if not "source" in app:
 			app["source"] = api["html_url"]
-		
+
 		if not "created" in app:
 			app["created"] = api["created_at"]
 
@@ -204,7 +201,7 @@ for app in source:
 			for asset in release["assets"]:
 				if not asset["name"] in app["downloads"]:
 					app["downloads"][asset["name"]] = asset["browser_download_url"]
-		
+
 		if prerelease:
 			if not "prerelease" in app:
 				app["prerelease"] = {}
@@ -250,9 +247,6 @@ for app in source:
 
 		if not "image" in app:
 			app["image"] = api["links"]["avatar"]["href"]
-
-		if not "avatar" in app:
-			app["avatar"] = api["links"]["avatar"]["href"]
 
 		if not "source" in app:
 			app["source"] = api["links"]["html"]["href"]
@@ -338,7 +332,7 @@ for app in source:
 				if not "qr" in app["nightly"]:
 					app["nightly"]["qr"] = {}
 				app["nightly"]["qr"][item] = "https://db.universal-team.net/assets/images/qr/nightly/" + webName(item) + ".png"
-	
+
 	# Add to output json
 	output.append(app)
 
@@ -459,12 +453,7 @@ for item in output:
 					url = item["image"],
 					length = len(requests.get(item["image"]).content),
 					type = "image/png"
-				) if "image" in item else None,
-				rfeed.Enclosure(
-					url = item["avatar"],
-					length = len(requests.get(item["avatar"]).content),
-					type = "image/png"
-				) if "avatar" in item else None
+				) if "image" in item else None
 			]
 		))
 
