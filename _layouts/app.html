@@ -83,7 +83,7 @@
 										{% if page.version and page.downloads %}
 											<br>
 											<small class="text-muted">
-												Version: <a href="{{ page.download_page }}">{{ page.version }}{% if page.version_title %}, {{ page.version_title }}{% endif %}</a>
+												Version: {% if page.download_page %}<a href="{{ page.download_page }}">{% endif %}{{ page.version }}{% if page.version_title %}, {{ page.version_title }}{% endif %}{% if page.download_page %}</a>{% endif %}
 												<br>
 												{% if page.updated %}
 													Last updated: <time datetime="{{ page.updated }}" title="{{ page.prerelease.updated | date: '%Y-%m-%d at %H:%M' }}">{{ page.updated | date: "%Y-%m-%d at %H:%M" }}</time>
