@@ -446,10 +446,10 @@ if len(items) > 0:
 	for item in items:
 		feedItems.append(rfeed.Item(
 			title = "New " + item["title"] + " update",
-			link = "https://db.universal-team.net/" + item["systems"][0] + "/" + webName(item["title"]),
+			link = "https://db.universal-team.net/" + webName(item["systems"][0]) + "/" + webName(item["title"]),
 			description = item["version_title"] if "version_title" in item else item["version"],
 			author = item["author"],
-			guid = rfeed.Guid("https://db.universal-team.net/" + item["systems"][0] + "/" + webName(item["title"])),
+			guid = rfeed.Guid("https://db.universal-team.net/" + webName(item["systems"][0]) + "/" + webName(item["title"])),
 			pubDate = parser.parse(item["updated"]),
 			categories = item["systems"]
 		))
