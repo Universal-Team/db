@@ -410,40 +410,14 @@ with open(os.path.join("..", "unistore", "universal-db.unistore"), "w", encoding
 with open(os.path.join("..", "data", "full.json"), "w", encoding="utf8") as file:
 	file.write(json.dumps(output, sort_keys=True))
 
-items = []
-for oldItem in oldData:
-	for newItem in output:
-		if oldItem["title"] == newItem["title"] and oldItem["author"] == newItem["author"] and "version" in oldItem and "version" in newItem and oldItem["version"] != newItem["version"]:
-			items.append(newItem)
+# RSS feed
+feedItems = []
+latestUpdate = None
+for item in output:
+	if "updated" in item and (latestUpdate == None or parser.parse(item["updated"]) > latestUpdate):
+		latestUpdate = parser.parse(item["updated"])
 
-if len(items) > 0:
-	heading = ""
-	content = ""
-	path = ""
-	segments = []
-	if len(items) == 1:
-		heading = "New " + items[0]["title"] + " update"
-		content = (items[0]["version_title"] + "\n" if "version_title" in items[0] else "") + "Click to open on Universal DB"
-		segments = items[0]["systems"]
-		path = items[0]["systems"][0] + "/" + webName(items[0]["title"])
-		print(heading)
-		print(content)
-		print(segments)
-	elif len(items) > 1:
-		for item in items:
-			for system in item["systems"]:
-				if system not in segments:
-					segments.append(system)
-
-		heading = "New " + " and ".join(segments) + " updates"
-		content = "Click to open on Universal DB"
-		path = segments[0] if len(segments) == 1 else ""
-		print(heading)
-		print(content)
-		print(segments)
-
-	feedItems = []
-	for item in items:
+	if "updated" in item and (datetime.datetime.now(datetime.timezone.utc) - parser.parse(item["updated"])).days < 30:
 		feedItems.append(rfeed.Item(
 			title = "New " + item["title"] + " update",
 			link = "https://db.universal-team.net/" + webName(item["systems"][0]) + "/" + webName(item["title"]),
@@ -454,30 +428,65 @@ if len(items) > 0:
 			categories = item["systems"]
 		))
 
+if len(feedItems) > 0:
 	feed = rfeed.Feed(
 		title = "Universal DB",
 		link = "https://db.universal-team.net",
 		description = "A database of DS and 3DS homebrew",
 		language = "en-US",
-		lastBuildDate = datetime.datetime.now(),
+		lastBuildDate = latestUpdate,
 		items = feedItems,
 	)
 
 	with open(os.path.join("..", "index.rss"), "w", encoding="utf8") as file:
 		file.write(feed.rss())
 
-	if len(sys.argv) > 3 and heading and content and segments:
-		headers = {
-			"Authorization": "Basic <" + sys.argv[2] + ">",
-			"Content-Type": "application/json; charset=utf-8",
-		}
+# Push notification
+if len(sys.argv) > 3:
+	items = []
+	for oldItem in oldData:
+		for newItem in output:
+			if oldItem["title"] == newItem["title"] and oldItem["author"] == newItem["author"] and "version" in oldItem and "version" in newItem and oldItem["version"] != newItem["version"]:
+				items.append(newItem)
 
-		data = {
-			"app_id": sys.argv[3],
-			"contents": {"en": content},
-			"headings": {"en": heading},
-			"included_segments": segments,
-			"url": "https://db.universal-team.net/" + path
-		}
+	if len(items) > 0:
+		heading = ""
+		content = ""
+		path = ""
+		segments = []
+		if len(items) == 1:
+			heading = "New " + items[0]["title"] + " update"
+			content = (items[0]["version_title"] + "\n" if "version_title" in items[0] else "") + "Click to open on Universal DB"
+			segments = items[0]["systems"]
+			path = items[0]["systems"][0] + "/" + webName(items[0]["title"])
+			print(heading)
+			print(content)
+			print(segments)
+		elif len(items) > 1:
+			for item in items:
+				for system in item["systems"]:
+					if system not in segments:
+						segments.append(system)
 
-		requests.post("https://onesignal.com/api/v1/notifications", headers=headers, json=data)
+			heading = "New " + " and ".join(segments) + " updates"
+			content = "Click to open on Universal DB"
+			path = segments[0] if len(segments) == 1 else ""
+			print(heading)
+			print(content)
+			print(segments)
+
+		if heading and content and segments:
+			headers = {
+				"Authorization": "Basic <" + sys.argv[2] + ">",
+				"Content-Type": "application/json; charset=utf-8",
+			}
+
+			data = {
+				"app_id": sys.argv[3],
+				"contents": {"en": content},
+				"headings": {"en": heading},
+				"included_segments": segments,
+				"url": "https://db.universal-team.net/" + path
+			}
+
+			requests.post("https://onesignal.com/api/v1/notifications", headers=headers, json=data)
