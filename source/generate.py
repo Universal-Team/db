@@ -304,7 +304,7 @@ for app in source:
 	# Output website page
 	if "downloads" in app:
 		for item in app["downloads"]:
-			if item[item.find(".") + 1:] == "cia":
+			if item[item.rfind(".") + 1:] == "cia":
 				qr = qrcode.make(app["downloads"][item], box_size = 5).convert("RGBA")
 				if img:
 					draw = ImageDraw.Draw(qr)
