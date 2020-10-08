@@ -455,16 +455,16 @@ for item in output:
 			pubDate = parser.parse(item["updated"]),
 			categories = item["systems"],
 			extensions = [
-				rfeed.Image(
-					title = item["title"] + " logo",
+				rfeed.Enclosure(
 					url = item["image"],
-					link = "https://db.universal-team.net/" + webName(item["systems"][0]) + "/" + webName(item["title"])
+					length = len(requests.get(item["image"]).content),
+					type = "image/" + item["image"][item["image"].rfind(".") + 1:]
 				) if "image" in item else None,
-				rfeed.Image(
-					title = item["author"] + " avatar",
+				rfeed.Enclosure(
 					url = item["avatar"],
-					link = "https://db.universal-team.net/" + webName(item["systems"][0]) + "/" + webName(item["title"])
-				) if "avatar" in item else None,
+					length = len(requests.get(item["avatar"]).content),
+					type = "image/" + item["avatar"][item["avatar"].rfind(".") + 1:]
+				) if "avatar" in item else None
 			]
 		))
 
@@ -476,7 +476,7 @@ if len(feedItems) > 0:
 		language = "en-US",
 		lastBuildDate = latestUpdate,
 		items = feedItems,
-		image = rfeed.Image(title = "Universal-Team logo", url = "https://universal-team.net/images/icons/universal-team.png", link = "https://db.universal-team.net"),
+		image = rfeed.Image(title = "Universal DB", url = "https://universal-team.net/images/icons/universal-team.png", link = "https://db.universal-team.net"),
 	)
 
 	with open(os.path.join("..", "index.rss"), "w", encoding="utf8") as file:
