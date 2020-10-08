@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
 	<channel>
 		<title>Universal DB</title>
 		<link>https://db.universal-team.net</link>
@@ -21,8 +21,8 @@
 			<pubDate>Wed, 07 Oct 2020 20:51:16 GMT</pubDate>
 			<category>3DS</category>
 			<guid isPermaLink="true">https://db.universal-team.net/3ds/3delf</guid>
-			<enclosure url="https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/banner.png" length="2306" type="image/png" />
-			<enclosure url="https://avatars3.githubusercontent.com/u/47382115?v=4" length="186104" type="image/png" />
+			<media:content medium="image" url="https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/banner.png" type="image/png" height="128" width="256" />
+			<media:content medium="image" url="https://avatars3.githubusercontent.com/u/47382115?v=4" type="image/png" height="460" width="460" />
 		</item>
 		<item>
 			<title>New SnemulDS update</title>
