@@ -25,6 +25,10 @@
 											<div class="card-header">
 												<img class="mx-auto d-block mw-100" src="{{ page.image }}" alt="{{ page.title }}">
 											</div>
+										{% else if page.icon %}
+											<div class="card-header">
+												<img class="mx-auto d-block mw-100" src="{{ page.icon }}" alt="{{ page.title }}">
+											</div>
 										{% endif %}
 										<div class="card-body">
 											<div>

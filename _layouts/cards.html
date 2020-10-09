@@ -58,6 +58,10 @@
 													<div class="card-header card-image-header">
 														<img class="card-image" src="{{ app.image }}" alt="{{ app.title | escape }}">
 													</div>
+												{% else if app.icon %}
+													<div class="card-header card-image-header">
+														<img class="card-image" src="{{ app.icon }}" alt="{{ app.title | escape }}">
+													</div>
 												{% endif %}
 												<div class="card-body" style="height: 100%;">
 													<div>
