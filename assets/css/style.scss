@@ -110,6 +110,12 @@ div .btn-primary:hover {
 	color: var(--main-color);
 }
 
+.alert-secondary {
+	color: var(--code-color);
+	background-color: var(--code-bg);
+	border-color: var(--code-bg);
+}
+
 // Override the dark text too
 .text-dark {
 	color: var(--dark)!important;
