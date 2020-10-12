@@ -33,6 +33,9 @@ jobs:
         cd source
         python3 generate.py ${{ secrets.GITHUB_TOKEN }} ${{ secrets.ONESIGNAL_KEY }} ${{ secrets.ONESIGNAL_APP_ID }}
 
+    - name: Pull origin
+      run: git pull --ff-only # Pull origin in case a commit has been done while updating
+
     - name: Push changes
       uses: github-actions-x/commit@v2.6
       with:
