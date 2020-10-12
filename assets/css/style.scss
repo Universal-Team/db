@@ -239,6 +239,14 @@ div .btn-primary:hover {
 	justify-content: center;
 }
 
+.card {
+	background-color: var(--card-background);
+}
+
+.card-header, .card-footer {
+	background-color: var(--card-edges-background);
+}
+
 .pointer {
 	cursor: pointer;
 }

@@ -13,6 +13,10 @@
 	--a-color: gray;
 	--small-color: gray;
 
+	// Cards
+	--card-background: var(--main-bg);
+	--card-edges-background: rgba(0,0,0,.03);
+
 	// Nav
 	--nav-link-color: rgba(255, 255, 255, 0.7);
 	--nav-link-color-hover: rgba(255, 255, 255, 0.5);
