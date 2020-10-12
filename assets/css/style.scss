@@ -1,6 +1,10 @@
 ---
 ---
 
+@import url("dark.css") (prefers-color-scheme: dark);
+@import url("light.css") (prefers-color-scheme: light);
+@import url("light.css") (prefers-color-scheme: no preference);
+
 // For the bottom aligned footer
 html, body {
 	height: 100%;
@@ -183,15 +187,6 @@ div .btn-primary:hover {
 .img-small {
 	max-width: 250px;
 	max-height: 250px;
-}
-
-.btn-change-theme {
-	position: absolute;
-	right: 5px;
-	margin: 5px 0;
-	font-size: 8pt;
-	padding: 5px;
-	z-index: 10;
 }
 
 .btn-back {
