@@ -29,7 +29,7 @@ downloads:
   Cheats/user.evoCheats: https://api.bitbucket.org/2.0/repositories/DeadSkullzJr/nds-cheat-databases/src/933c375545d3ff90854d1e210dcf4b3b31d9d585/Cheats/user.evoCheats
   Cheats/usrcheat.dat: https://api.bitbucket.org/2.0/repositories/DeadSkullzJr/nds-cheat-databases/src/933c375545d3ff90854d1e210dcf4b3b31d9d585/Cheats/usrcheat.dat
   Cheats/~SCC Cheats~.7z: https://api.bitbucket.org/2.0/repositories/DeadSkullzJr/nds-cheat-databases/src/933c375545d3ff90854d1e210dcf4b3b31d9d585/Cheats/~SCC%20Cheats~.7z
-image: https://i.postimg.cc/YMsDmch3/Action-Replay-DS-Logo-300px.png?dl=1
+image: https://db.universal-team.net/assets/images/images/nds-cheat-databases.png
 layout: app
 scripts:
   usrcheat.dat (TWiLight Menu++):
