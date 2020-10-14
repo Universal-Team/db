@@ -435,6 +435,7 @@ with open(os.path.join("..", "data", "full.json"), "w", encoding="utf8") as file
 # RSS feed
 feedItems = []
 latestUpdate = None
+output.sort(key=lambda item: item["updated"] if "updated" in item else "---", reverse=True)
 for item in output:
 	if "updated" in item and (latestUpdate == None or parser.parse(item["updated"]) > latestUpdate):
 		latestUpdate = parser.parse(item["updated"])
