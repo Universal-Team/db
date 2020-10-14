@@ -465,6 +465,7 @@ if len(feedItems) > 0:
 		description = "A database of DS and 3DS homebrew",
 		language = "en-US",
 		lastBuildDate = latestUpdate,
+		pubDate = latestUpdate,
 		items = feedItems,
 		image = rfeed.Image(title = "Universal DB", url = "https://universal-team.net/images/icons/universal-team.png", link = "https://db.universal-team.net"),
 	)
