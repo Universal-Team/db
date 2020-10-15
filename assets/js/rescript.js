@@ -4,7 +4,7 @@ Array.from(document.getElementsByClassName("back-link")).forEach(r => {
 });
 
 Array.from(document.getElementsByClassName("qr-link")).forEach(r => {
-	r.href = "javascript:toggleQR('" + r.dataset.path + "','" + r.dataset.name + "');";
+	r.href = "javascript:void(0);";
 });
 
 Array.from(document.getElementsByClassName("script-show")).forEach(r => {
