@@ -7,7 +7,7 @@
 		{% include nav.html %}
 
 		<main>
-			{% include popup.html %}
+			{% include qrModal.html %}
 
 			<div class="container-fluid">
 				<div class="row pt-5">
@@ -91,7 +91,7 @@
 															{% if app.qr.size == 1 %}
 																{% for qr in app.qr %}
 																	<p class="text-right">
-																		<a class="qr-link" href="{{ qr[1] }}" data-path="{{ qr[1] }}" data-name="{{ qr[0] }}">
+																		<a class="qr-link" href="{{ qr[1] }}" role="button" data-toggle="modal" data-target="#qrModal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}">
 																			<i class="fa fa-qrcode pointer" aria-hidden="true"></i>
 																		</a>
 																	</p>
@@ -116,7 +116,7 @@
 
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-	<script src="/assets/js/popupQR.js"></script>
+	<script src="/assets/js/qrModal.js"></script>
 	<script src="/assets/js/relativeTime.js"></script>
 	<script src="/assets/js/search.js"></script>
 	<script src="/assets/js/un-noscript.js"></script>

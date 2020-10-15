@@ -257,27 +257,18 @@ div .btn-primary:hover {
 	cursor: pointer;
 }
 
-#popup-container {
-	position: fixed;
-	z-index: 100;
-	width: 100%;
-	margin-top: 10px;
-}
-
-#popup {
-	background-color: rgba(0, 0, 0, 0.75);
-	border-radius: 1.5rem;
-	color: #fff;
-	padding: 20px;
-	max-width: 80%;
-	display: inline-block;
-	cursor: pointer;
-}
-
-#popup-image {
-	background-color: rgba(0, 0, 0, 0.75);
+.qr-image {
 	border-radius: 1rem;
-	max-width: 100%;
+}
+
+.modal-content {
+	background-color: var(--main-bg);
+}
+.modal-header {
+	border-bottom: var(--modal-borders);
+}
+.modal-footer {
+	border-top: var(--modal-borders);
 }
 
 @media only screen and (min-width: 1024px) {
