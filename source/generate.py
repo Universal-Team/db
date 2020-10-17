@@ -30,7 +30,7 @@ def webName(name):
 	return out
 
 def downloadScript(file, url):
-	if file[file.find(".") + 1:].lower() == "3dsx":
+	if file[file.rfind(".") + 1:].lower() == "3dsx":
 		return [
 			{
 				"type": "downloadFile",
@@ -39,7 +39,7 @@ def downloadScript(file, url):
 				"message": "Downloading " + file + "..."
 			}
 		]
-	elif file[file.find(".") + 1:].lower() == "cia":
+	elif file[file.rfind(".") + 1:].lower() == "cia":
 		return [
 			{
 				"type": "downloadFile",
@@ -58,7 +58,16 @@ def downloadScript(file, url):
 				"message": "Deleting " + file + "."
 			}
 		]
-	elif file[file.find(".") + 1:].lower() in ["zip", "7z", "rar"]:
+	elif file[file.rfind(".") + 1:].lower() == "firm":
+		return [
+			{
+				"type": "downloadFile",
+				"file": url,
+				"output": "sdmc:/luma/payloads/" + file,
+				"message": "Downloading " + file + "..."
+			}
+		]
+	elif file[file.rfind(".") + 1:].lower() in ["zip", "7z", "rar"]:
 		return [
 			{
 				"type": "downloadFile",

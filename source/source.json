@@ -1443,5 +1443,295 @@
 				}
 			]
 		}
+	},
+	{
+		"github": "Slattz/NLTK",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"image": "https://raw.githubusercontent.com/Slattz/NLTK/master/assets/meta/banner.png",
+		"icon": "https://raw.githubusercontent.com/Slattz/NLTK/master/assets/meta/icon.png"
+	},
+	{
+		"github": "dragos240/TownManager",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"image": "https://raw.githubusercontent.com/dragos240/TownManager/master/res/banner%20icon.png",
+		"icon": "https://raw.githubusercontent.com/dragos240/TownManager/master/icon.png"
+	},
+	{
+		"github": "aspargas2/CartInstall",
+		"systems": ["3DS"],
+		"categories": ["utility"]
+	},
+	{
+		"github": "LumaTeam/Luma3DS",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"scripts": {
+			"Luma3DS Release (FIRM)": [
+				{
+					"type": "downloadRelease",
+					"repo": "LumaTeam/Luma3DS",
+					"file": "Luma3DS.*.zip",
+					"output": "/Luma3DS.zip",
+					"message": "Downloading the Luma3DS ZIP..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Luma3DS.zip",
+					"input": "boot.firm",
+					"output": "/boot.firm",
+					"message": "Extracting the Luma3DS FIRM..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Luma3DS.zip",
+					"message": "Deleting the downloaded ZIP..."
+				}
+			],
+			"Luma3DS Hourly (FIRM)": [
+				{
+					"type": "downloadRelease",
+					"repo": "hax0kartik/luma-hourlies",
+					"file": "boot.firm",
+					"output": "/boot.firm",
+					"message": "Downloading the hourly Luma3DS FIRM..."
+				}
+				
+			],
+			"Luma3DS Plugin Loader (FIRM)": [
+				{
+					"type": "downloadRelease",
+					"repo": "jbmagination/Luma3DS_plg",
+					"file": "boot.firm",
+					"output": "/boot.firm",
+					"message": "Downloading the plugin loader Luma3DS FIRM..."
+				}
+			]
+		}
+	},
+	{
+		"github": "fincs/new-hbmenu",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"icon": "https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png",
+		"scripts": {
+			"boot.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "fincs/new-hbmenu",
+					"file": "boot.3dsx",
+					"output": "/boot.3dsx",
+					"message": "Downloading the Homebrew Menu 3DSX..."
+				}
+			]
+		}
+	},
+	{
+		"github": "SonoSooS/TWPatch_a",
+		"title": "TWPatch",
+		"updated": "2019-12-27T01:19:00Z",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"image": "https://raw.githubusercontent.com/SonoSooS/TWPatch_a/master/assets/banner.png",
+		"icon": "https://raw.githubusercontent.com/SonoSooS/TWPatch_a/master/assets/logo.png",
+		"downloads": {
+			"TWPatch.cia": "https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia"
+		},
+		"version": "stable",
+		"version_title": "outdated",
+		"download_page": "https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/",
+		"website": "https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/",
+		"prerelease": {
+			"version": "2020/09/03",
+			"updated": "2020-09-03T19:23:00Z",
+			"downloads": {
+				"TWPatch.cia": "https://puu.sh/GoWHS/9459f224fb.cia"
+			}
+		}
+	},
+	{
+		"github": "RedShyGuy/Vapecord-ACNL-Plugin",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"scripts": {
+			"Full ACNL EUR": [
+				{
+					"type": "downloadRelease",
+					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
+					"file": "Vapecord.Public.zip",
+					"output": "/Vapecord.zip",
+					"message": "Download the latest Plugin... please wait."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Vapecord.zip",
+					"input": "luma/plugins/0004000000086400/",
+					"output": "/luma/plugins/0004000000086400/",
+					"message": "Extracting... please wait."
+				},
+				{
+					"type": "deleteFile",
+					"file": "sdmc:/Vapecord.zip",
+					"message": "Deleting unneded file."
+				}
+			],
+			"Full ACNL USA": [
+				{
+					"type": "downloadRelease",
+					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
+					"file": "Vapecord.Public.zip",
+					"output": "/Vapecord.zip",
+					"message": "Download the latest Plugin... please wait."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Vapecord.zip",
+					"input": "luma/plugins/0004000000086300/",
+					"output": "/luma/plugins/0004000000086300/",
+					"message": "Extracting... please wait."
+				},
+				{
+					"type": "deleteFile",
+					"file": "sdmc:/Vapecord.zip",
+					"message": "Deleting unneded file."
+				}
+			],
+			"Full ACNL JPN": [
+				{
+					"type": "downloadRelease",
+					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
+					"file": "Vapecord.Public.zip",
+					"output": "/Vapecord.zip",
+					"message": "Download the latest Plugin... please wait."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Vapecord.zip",
+					"input": "luma/plugins/0004000000086200/",
+					"output": "/luma/plugins/0004000000086200/",
+					"message": "Extracting... please wait."
+				},
+				{
+					"type": "deleteFile",
+					"file": "sdmc:/Vapecord.zip",
+					"message": "Deleting unneded file."
+				}
+			],
+			"Full ACNL KOR": [
+				{
+					"type": "downloadRelease",
+					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
+					"file": "Vapecord.Public.zip",
+					"output": "/Vapecord.zip",
+					"message": "Download the latest Plugin... please wait."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Vapecord.zip",
+					"input": "luma/plugins/0004000000086500/",
+					"output": "/luma/plugins/0004000000086500/",
+					"message": "Extracting... please wait."
+				},
+				{
+					"type": "deleteFile",
+					"file": "sdmc:/Vapecord.zip",
+					"message": "Deleting unneded file."
+				}
+			],
+			"Full ACNL WA EUR": [
+				{
+					"type": "downloadRelease",
+					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
+					"file": "Vapecord.Public.zip",
+					"output": "/Vapecord.zip",
+					"message": "Download the latest Plugin... please wait."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Vapecord.zip",
+					"input": "luma/plugins/0004000000198f00/",
+					"output": "/luma/plugins/0004000000198f00/",
+					"message": "Extracting... please wait."
+				},
+				{
+					"type": "deleteFile",
+					"file": "sdmc:/Vapecord.zip",
+					"message": "Deleting unneded file."
+				}
+			],
+			"Full ACNL WA USA": [
+				{
+					"type": "downloadRelease",
+					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
+					"file": "Vapecord.Public.zip",
+					"output": "/Vapecord.zip",
+					"message": "Download the latest Plugin... please wait."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Vapecord.zip",
+					"input": "luma/plugins/0004000000198e00/",
+					"output": "/luma/plugins/0004000000198e00/",
+					"message": "Extracting 1/3... please wait."
+				},
+				{
+					"type": "deleteFile",
+					"file": "sdmc:/Vapecord.zip",
+					"message": "Deleting unneded file."
+				}
+			],
+			"Full ACNL WA JPN": [
+				{
+					"type": "downloadRelease",
+					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
+					"file": "Vapecord.Public.zip",
+					"output": "/Vapecord.zip",
+					"message": "Download the latest Plugin... please wait."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Vapecord.zip",
+					"input": "luma/plugins/0004000000198d00/",
+					"output": "/luma/plugins/0004000000198d00/",
+					"message": "Extracting... please wait."
+				},
+				{
+					"type": "deleteFile",
+					"file": "sdmc:/Vapecord.zip",
+					"message": "Deleting unneded file."
+				}
+			],
+			"ACNL Welcome Luxury": [
+				{
+					"type": "downloadRelease",
+					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
+					"file": "Vapecord.Luxury.zip",
+					"output": "/Vapecord.zip",
+					"message": "Download the latest Plugin... please wait."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Vapecord.zip",
+					"input": "luma/plugins/00040000004C5700/",
+					"output": "/luma/plugins/00040000004C5700/",
+					"message": "Extracting... please wait."
+				},
+				{
+					"type": "deleteFile",
+					"file": "sdmc:/Vapecord.zip",
+					"message": "Deleting unneded file."
+				}
+			],
+			"Plugin Boot.firm": [
+				{
+					"type": "downloadRelease",
+					"repo": "mariohackandglitch/Luma3DS",
+					"file": "boot.firm",
+					"output": "/boot.firm",
+					"message": "Download the plugin boot.firm... please wait."
+				}
+			]
+		}
 	}
 ]
