@@ -2,6 +2,7 @@
 author: trainboy2019
 categories:
 - game
+color: '#872217'
 created: '2017-06-18T17:05:01Z'
 description: Is this good?
 download_page: https://github.com/trainboy2019/ButtonPresser3DS/releases/tag/2.0

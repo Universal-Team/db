@@ -2,6 +2,7 @@
 author: JeffRuLz
 categories:
 - utility
+color: '#61ceff'
 created: '2018-09-12T19:48:02Z'
 description: DSi Title Manager for HiyaCFW
 download_page: https://github.com/JeffRuLz/TMFH/releases/tag/v0.7.0

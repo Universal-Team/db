@@ -3,6 +3,7 @@ author: suloku
 categories:
 - utility
 - save-tool
+color: '#adb1a4'
 created: '2015-10-14T14:54:41Z'
 description: "Pok\xE9mon Dream Radar Savegame Editor for 3DS"
 download_page: https://github.com/suloku/pdrpse/releases/tag/0.3

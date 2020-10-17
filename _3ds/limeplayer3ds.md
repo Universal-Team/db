@@ -2,6 +2,7 @@
 author: Oreo639
 categories:
 - utility
+color: '#4d5351'
 created: '2018-12-17T04:06:39Z'
 description: Gui music player for the Nintendo 3DS (wip)
 download_page: https://github.com/Oreo639/LimePlayer3DS/releases/tag/v0.0.9

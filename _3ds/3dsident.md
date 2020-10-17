@@ -2,6 +2,7 @@
 author: joel16
 categories:
 - utility
+color: '#597066'
 created: '2016-07-26T00:16:20Z'
 description: PSPident clone for 3DS
 download_page: https://github.com/joel16/3DSident/releases/tag/0.8.0

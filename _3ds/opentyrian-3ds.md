@@ -2,6 +2,7 @@
 author: nop90
 categories:
 - game
+color: '#ada6a0'
 created: '2017-03-04T06:48:10Z'
 download_page: https://github.com/nop90/Opentyrian-3ds/releases/tag/v1.1
 downloads:

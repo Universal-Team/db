@@ -2,6 +2,7 @@
 author: Steveice10
 categories:
 - utility
+color: '#c0d0ff'
 created: '2015-01-20T04:23:49Z'
 description: Open source title manager for the 3DS.
 download_page: https://github.com/Steveice10/FBI/releases/tag/2.6.0

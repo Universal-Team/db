@@ -2,6 +2,7 @@
 author: mgba-emu
 categories:
 - emulator
+color: '#503a7e'
 created: '2014-12-09T21:37:23Z'
 description: mGBA Game Boy Advance Emulator
 download_page: https://github.com/mgba-emu/mgba/releases/tag/0.8.3

@@ -2,6 +2,7 @@
 author: Steveice10
 categories:
 - emulator
+color: '#9e8e57'
 created: '2015-02-06T01:26:33Z'
 description: '[Super] Gameboy [Color] emulator for the Nintendo [3]DS'
 download_page: https://github.com/Steveice10/GameYob/releases/tag/1.0.8

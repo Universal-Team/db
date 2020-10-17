@@ -2,6 +2,7 @@
 author: Drenn1
 categories:
 - emulator
+color: '#836f25'
 created: '2013-02-22T17:16:52Z'
 description: '[Super] Gameboy [Color] emulator for the Nintendo [3]DS'
 download_page: https://github.com/Drenn1/GameYob/releases/tag/v0.5.2

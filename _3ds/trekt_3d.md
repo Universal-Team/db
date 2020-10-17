@@ -2,6 +2,7 @@
 author: Manurocker95
 categories:
 - game
+color: '#5f9478'
 created: '2017-08-26T12:59:26Z'
 description: T-Rekt for 3DS in C++
 download_page: https://github.com/Manurocker95/TRekt_3D/releases/tag/1.0

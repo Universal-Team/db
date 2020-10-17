@@ -2,6 +2,7 @@
 author: Universal-Team
 categories:
 - game
+color: '#828282'
 created: '2020-06-22T08:12:23Z'
 description: A memory cardgame clone for Nintendo 3DS.
 download_page: https://github.com/Universal-Team/3DZwei/releases/tag/v0.2.0

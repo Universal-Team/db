@@ -2,6 +2,7 @@
 author: Hoksy
 categories:
 - game
+color: '#292929'
 created: '2016-09-02T19:40:02Z'
 description: a pyramidman's quest to save his father
 download_page: https://github.com/Hoksy/ravimid/releases/tag/1.2

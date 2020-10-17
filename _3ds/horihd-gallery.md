@@ -2,6 +2,7 @@
 author: RocketRobz
 categories:
 - utility
+color: '#5f5f5f'
 created: '2017-08-04T22:17:54Z'
 description: A demonstration of the 800px mode on 3DS consoles.
 download_page: https://github.com/RocketRobz/HoriHD-Gallery/releases/tag/v1.0.2

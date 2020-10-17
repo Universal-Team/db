@@ -2,6 +2,7 @@
 author: RocketRobz
 categories:
 - utility
+color: '#565e70'
 created: '2018-06-12T00:15:24Z'
 description: An updater for TWiLight Menu++
 download_page: https://github.com/RocketRobz/TWiLightMenu-Updater/releases/tag/v4.3.0

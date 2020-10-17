@@ -2,6 +2,7 @@
 author: flarn2006
 categories:
 - utility
+color: '#becdda'
 created: '2015-10-04T00:18:09Z'
 description: Simple graphing calculator for 3DS
 download_page: https://github.com/flarn2006/GraphCalc3DS/releases/tag/v1.5.1

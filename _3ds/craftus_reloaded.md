@@ -2,6 +2,7 @@
 author: RSDuck
 categories:
 - game
+color: '#4e4f39'
 created: '2017-08-11T14:40:48Z'
 description: A second attempt at a homebrew Minecraft clone for 3DS
 download_page: https://github.com/RSDuck/craftus_reloaded/releases/tag/0.22

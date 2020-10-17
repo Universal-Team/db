@@ -2,6 +2,7 @@
 author: EBLeifEricson
 categories:
 - utility
+color: '#b7b7cf'
 created: '2016-07-09T04:21:45Z'
 description: A homebrew Legend of Zelda instrument player
 download_page: https://github.com/EBLeifEricson/orchestrina/releases/tag/v0.5.0-beta

@@ -2,6 +2,7 @@
 author: nop90
 categories:
 - game
+color: '#d0e2cf'
 created: '2016-12-05T09:08:27Z'
 description: Port to 3DS of a nice Action RPG in SNES style originally written by
   Syn9 in FreeBASIC

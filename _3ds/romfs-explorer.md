@@ -2,6 +2,7 @@
 author: Ryuzaki-MrL
 categories:
 - utility
+color: '#b4ac70'
 created: '2016-07-13T17:16:45Z'
 description: RomFS file explorer and dumper for Nintendo 3DS titles
 download_page: https://github.com/Ryuzaki-MrL/RomFS-Explorer/releases/tag/v1.0.1

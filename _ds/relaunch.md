@@ -2,6 +2,7 @@
 author: Universal-Team
 categories:
 - utility
+color: '#282928'
 created: '2019-04-27T19:07:23Z'
 description: "Open-Source lookalike of nocash\u2019s Unlaunch.dsi"
 download_page: https://github.com/Universal-Team/Relaunch/releases/tag/v4.0.1

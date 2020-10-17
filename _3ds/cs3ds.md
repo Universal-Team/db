@@ -2,6 +2,7 @@
 author: machinamentum
 categories:
 - game
+color: '#333c49'
 created: '2016-04-14T01:43:54Z'
 description: CSPSP port for 3DS
 download_page: https://github.com/machinamentum/CS3DS/releases/tag/0.6-alpha

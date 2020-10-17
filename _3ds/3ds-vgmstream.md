@@ -2,6 +2,7 @@
 author: TricksterGuy
 categories:
 - utility
+color: '#182448'
 created: '2016-02-01T06:16:42Z'
 description: Port of vgmstream for the nintendo 3ds along with a player
 download_page: https://github.com/TricksterGuy/3ds-vgmstream/releases/tag/v0.2.0

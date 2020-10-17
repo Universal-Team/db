@@ -2,6 +2,7 @@
 author: d0k3
 categories:
 - utility
+color: '#b49e8d'
 created: '2015-06-07T12:31:39Z'
 description: Open Source SD Explorer for the 3DS.
 download_page: https://github.com/d0k3/CTRXplorer/releases/tag/v0.9.8.1

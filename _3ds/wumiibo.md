@@ -2,6 +2,7 @@
 author: hax0kartik
 categories:
 - utility
+color: '#411d38'
 created: '2020-08-20T12:36:12Z'
 description: Amiibo Emulation for 3ds
 download_page: https://github.com/hax0kartik/wumiibo/releases/tag/v2.0

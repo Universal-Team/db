@@ -2,6 +2,7 @@
 author: TurtleP
 categories:
 - game
+color: '#343434'
 created: '2015-08-28T23:47:21Z'
 description: 'A Ludum Dare #33 Game'
 download_page: https://github.com/TurtleP/Hax0r/releases/tag/v1.2

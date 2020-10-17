@@ -2,6 +2,7 @@
 author: Trinitro21
 categories:
 - utility
+color: '#82846c'
 created: '2016-03-19T01:42:21Z'
 description: SmileBASIC File Manager
 download_page: https://github.com/Trinitro21/lpp-3ds/releases/tag/sbfm1.7

@@ -2,6 +2,7 @@
 author: Arisotura
 categories:
 - emulator
+color: '#7c9187'
 created: '2013-08-02T12:14:31Z'
 description: SNES emulator for DS
 download_page: http://lolsnes.kuribo64.net/download.php

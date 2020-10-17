@@ -2,6 +2,7 @@
 author: bubble2k16
 categories:
 - emulator
+color: '#3a71a4'
 created: '2017-03-23T14:05:11Z'
 description: Emulators for 3DS
 download_page: https://github.com/bubble2k16/emus3ds/releases/tag/v1.02

@@ -2,6 +2,7 @@
 author: MechanicalDragon0687
 categories:
 - utility
+color: '#82c3d7'
 created: '2019-04-01T01:27:21Z'
 description: MCU_Bricker host for tinydb
 download_page: https://github.com/MechanicalDragon0687/MCU_Bricker_tinydb/releases/tag/1.0

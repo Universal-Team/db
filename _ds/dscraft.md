@@ -2,6 +2,7 @@
 author: smealum
 categories:
 - game
+color: '#5c5554'
 created: '2017-03-07T07:53:43Z'
 description: minecraft adaptation for nintendo DS
 download_page: https://web.archive.org/web/20160818124931/http://smealum.net/dscraft/

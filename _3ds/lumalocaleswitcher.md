@@ -2,6 +2,7 @@
 author: Possum
 categories:
 - utility
+color: '#8b9990'
 created: '2016-05-06T00:51:34Z'
 description: Front end to Luma3DS compatible locale system.
 download_page: https://github.com/Possum/LumaLocaleSwitcher/releases/tag/0.04

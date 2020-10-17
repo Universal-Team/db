@@ -2,6 +2,7 @@
 author: zoogie
 categories:
 - utility
+color: '#686d75'
 created: '2017-05-03T01:37:25Z'
 description: Dsp firmware dumper for cia homebrew in cia format.
 download_page: https://github.com/zoogie/DSP1/releases/tag/v1.0

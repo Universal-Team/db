@@ -2,6 +2,7 @@
 author: Universal-Team
 categories:
 - utility
+color: '#045190'
 created: '2019-10-31T02:19:37Z'
 description: A multiapp, JSON script-based updater for Nintendo 3DS
 download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/v2.5.1

@@ -2,6 +2,7 @@
 author: Gericom
 categories:
 - utility
+color: '#7f6a4b'
 created: '2016-04-19T18:19:53Z'
 description: MPEG4 player for DS and DSi
 download_page: https://gbatemp.net/threads/mpeg4-player-for-ds-and-dsi.544095/page-2#post-9007621

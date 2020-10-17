@@ -14,6 +14,7 @@ bitbucket:
   repo: DeadSkullzJr/nds-cheat-databases
 categories:
 - extra
+color: '#84836f'
 created: '2020-06-11T03:21:33.747363+00:00'
 description: "These cheat database sets are for Nintendo DS flashcarts, cheating devices,\
   \ emulators, and homebrew applications\r\nfor various compatible devices. Each database\

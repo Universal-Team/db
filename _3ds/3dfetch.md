@@ -2,6 +2,7 @@
 author: aliceinpalth
 categories:
 - utility
+color: '#beb6be'
 created: '2017-06-20T04:43:35Z'
 description: "\U0001F342 Displays various information about your Nintendo 3DS in pretty\
   \ colors."

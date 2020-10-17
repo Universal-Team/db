@@ -7,6 +7,7 @@ bitbucket:
   repo: Coto88/snemulds
 categories:
 - emulator
+color: '#848383'
 created: '2018-06-04T05:11:19.373852+00:00'
 description: SnemulDS 0.6 [Revival]
 download_page: https://bitbucket.org/Coto88/snemulds/src/master/release/arm9dldi-ntr/SNEmulDS.nds

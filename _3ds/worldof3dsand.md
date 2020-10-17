@@ -2,6 +2,7 @@
 author: Steveice10
 categories:
 - game
+color: '#231e13'
 created: '2014-12-04T06:15:13Z'
 description: World of Sand for the 3DS.
 download_page: https://github.com/Steveice10/WorldOf3DSand/releases/tag/1.3.4

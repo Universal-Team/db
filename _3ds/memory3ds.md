@@ -2,6 +2,7 @@
 author: Omegadrien
 categories:
 - game
+color: '#c8cacf'
 created: '2016-10-13T20:48:22Z'
 description: A 3DS memory game!
 download_page: https://github.com/Omegadrien/Memory3DS/releases/tag/v1.0

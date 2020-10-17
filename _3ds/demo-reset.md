@@ -2,6 +2,7 @@
 author: NPX-I7/Tobi
 categories:
 - utility
+color: '#e2e6cd'
 created: '2020-07-16T14:29:41Z'
 description: This app resets the democounter of the 3ds
 download_page: https://github.com/NPXTobi/Demo-Reset/releases/tag/1.0.0

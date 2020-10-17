@@ -2,6 +2,7 @@
 author: DS-Homebrew
 categories:
 - utility
+color: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v16.5.0

@@ -2,6 +2,7 @@
 author: SonoSooS
 categories:
 - utility
+color: '#8d8e9d'
 created: '2019-07-23T19:16:11Z'
 description: TWPatch alpha
 download_page: https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/

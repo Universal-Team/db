@@ -2,6 +2,7 @@
 author: masterfeizz
 categories:
 - game
+color: '#44291b'
 created: '2015-10-20T01:25:02Z'
 description: Port of quake for the Nintendo 3DS
 download_page: https://github.com/masterfeizz/ctrQuake/releases/tag/v0.8

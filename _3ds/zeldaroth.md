@@ -2,6 +2,7 @@
 author: nop90
 categories:
 - game
+color: '#ceb1a5'
 created: '2016-05-06T23:17:31Z'
 description: Port of Zelda ROTH on 3ds
 download_page: https://github.com/nop90/ZeldaROTH/releases/tag/v1.0.2

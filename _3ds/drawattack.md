@@ -2,6 +2,7 @@
 author: Cruel
 categories:
 - game
+color: '#edb0ad'
 created: '2015-08-25T16:49:38Z'
 description: Multiplayer drawing battle game for the Nintendo 3DS.
 download_page: https://github.com/Cruel/DrawAttack/releases/tag/1.3

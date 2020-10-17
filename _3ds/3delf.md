@@ -2,6 +2,7 @@
 author: SuperSaiyajinStackZ
 categories:
 - game
+color: '#79c0b9'
 created: '2020-10-03T20:29:35Z'
 description: "Ein \"Elfer raus!\" klon f\xFCr den Nintendo 3DS."
 download_page: https://github.com/SuperSaiyajinStackZ/3DElf/releases/tag/v0.2.0

@@ -2,6 +2,7 @@
 author: gnmmarechal
 categories:
 - utility
+color: '#e29e12'
 created: '2016-04-22T18:42:32Z'
 description: Rewrite of the EasyRPG 3DS Updater
 download_page: https://github.com/gnmmarechal/easyrpgdlre/releases/tag/v2.1.1

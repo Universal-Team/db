@@ -2,6 +2,7 @@
 author: Nanquitas
 categories:
 - utility
+color: '#7c626d'
 created: '2016-04-21T14:02:23Z'
 download_page: https://github.com/Nanquitas/BootNTR/releases/tag/v2.13.3
 downloads:

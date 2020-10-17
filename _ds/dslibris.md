@@ -2,6 +2,7 @@
 author: rhaleblian
 categories:
 - utility
+color: '#202020'
 created: '2017-11-11T17:53:30Z'
 description: An ebook reader for the Nintendo DS, DS Lite, and DSi.
 download_page: https://github.com/rhaleblian/dslibris/releases/tag/v1.5.1

@@ -3,6 +3,7 @@ author: profi200
 categories:
 - emulator
 - firm
+color: '#c2e5d8'
 created: '2020-04-15T21:49:42Z'
 description: open_agb_firm is a bare metal app for running GBA homebrew/games using
   the 3DS builtin GBA hardware.

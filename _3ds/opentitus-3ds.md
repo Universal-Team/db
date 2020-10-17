@@ -2,6 +2,7 @@
 author: MrHuu
 categories:
 - game
+color: '#683a2b'
 created: '2018-12-23T19:36:03Z'
 description: 'A port of the game engine behind the DOS versions of Titus the Fox and
   Moktar '

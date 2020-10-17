@@ -2,6 +2,7 @@
 author: Manurocker95
 categories:
 - game
+color: '#6d7a68'
 created: '2017-01-31T16:20:47Z'
 description: A monkey who wants to survive!
 download_page: https://github.com/Manurocker95/Evolution_Sav3D_Me/releases/tag/1.1

@@ -2,6 +2,7 @@
 author: mrdanielps
 categories:
 - emulator
+color: '#d3d2d2'
 created: '2014-11-17T22:30:56Z'
 description: A Virtual Boy emulator for the 3DS
 download_page: https://github.com/mrdanielps/r3Ddragon/releases/tag/v0.87

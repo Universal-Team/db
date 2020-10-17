@@ -2,6 +2,7 @@
 author: bubble2k16
 categories:
 - emulator
+color: '#1449b4'
 created: '2018-01-06T16:44:35Z'
 download_page: https://github.com/bubble2k16/picodrive_3ds/releases/tag/v0.94
 downloads:

@@ -2,6 +2,7 @@
 author: ItsDeidara
 categories:
 - utility
+color: '#71524e'
 created: '2016-08-26T15:57:26Z'
 description: A capture alignment assistant for 3ds capture cards and NTRviewer
 download_page: https://github.com/ItsDeidara/CaptureAssistant/releases/tag/1.3

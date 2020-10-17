@@ -2,6 +2,7 @@
 author: ihaveamac
 categories:
 - utility
+color: '#5fab70'
 created: '2015-12-10T01:06:58Z'
 description: screenshot merging tool for Nintendo 3DS
 download_page: https://github.com/ihaveamac/screenshot-merge/releases/tag/1.4

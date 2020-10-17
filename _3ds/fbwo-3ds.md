@@ -2,6 +2,7 @@
 author: Spaqin
 categories:
 - game
+color: '#bfc0c4'
 created: '2016-01-30T08:52:55Z'
 download_page: https://github.com/Spaqin/fbwo-3ds/releases/tag/v0.4.1
 downloads:

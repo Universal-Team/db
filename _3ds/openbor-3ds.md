@@ -2,6 +2,7 @@
 author: MrHuu
 categories:
 - game
+color: '#b3a764'
 created: '2019-09-13T15:28:55Z'
 description: 'OpenBOR is the ultimate 2D side scrolling engine for beat em'' ups,
   shooters, and more! '

@@ -2,6 +2,7 @@
 author: MechanicalDragon0687
 categories:
 - utility
+color: '#735056'
 created: '2019-02-02T20:50:32Z'
 description: Super simple custom badge homebrew for the 3DS home menu.
 download_page: https://github.com/MechanicalDragon0687/GYTB/releases/tag/1.0

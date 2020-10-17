@@ -2,6 +2,7 @@
 author: nop90
 categories:
 - game
+color: '#cac590'
 created: '2017-08-17T18:53:01Z'
 description: Port to 3ds of the Zelda fan game Zelda Time to Triumph
 download_page: https://github.com/nop90/Zelda3T/releases/tag/v1.0

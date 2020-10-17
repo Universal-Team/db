@@ -2,6 +2,7 @@
 author: TricksterGuy
 categories:
 - game
+color: '#8b8c8b'
 created: '2016-03-04T08:01:22Z'
 description: Panel de Pon (Tetris Attack) clone for the 3ds.
 download_page: https://github.com/TricksterGuy/bottomless-block-barrage/releases/tag/v0.2.0

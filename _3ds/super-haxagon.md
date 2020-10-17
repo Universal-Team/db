@@ -2,6 +2,7 @@
 author: RedTopper
 categories:
 - game
+color: '#6d190a'
 created: '2016-06-11T03:45:12Z'
 description: A Super Hexagon Clone
 download_page: https://github.com/RedTopper/Super-Haxagon/releases/tag/3.3.0

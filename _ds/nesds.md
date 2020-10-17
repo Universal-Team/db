@@ -2,6 +2,7 @@
 author: huiminghao / Coto
 categories:
 - emulator
+color: '#ae7d50'
 created: '2016-05-03T04:52:55Z'
 description: NES emulator for Nintendo DS/DSi
 download_page: https://github.com/RocketRobz/NesDS/tree/master/release

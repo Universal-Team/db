@@ -2,6 +2,7 @@
 author: LiquidFenrir
 categories:
 - utility
+color: '#2a3c07'
 created: '2018-06-24T22:22:29Z'
 description: A 3ds homebrew game of Yahtzee, featuring multi-console multiplayer
 download_page: https://github.com/LiquidFenrir/Yahtzee3DS/releases/tag/v1.0.1

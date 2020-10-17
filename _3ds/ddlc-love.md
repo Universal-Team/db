@@ -2,6 +2,7 @@
 author: LukeZGD
 categories:
 - game
+color: '#e0b2b9'
 created: '2018-04-17T16:27:05Z'
 description: An unofficial cross-platform Doki Doki Literature Club port to Lua for
   different game consoles

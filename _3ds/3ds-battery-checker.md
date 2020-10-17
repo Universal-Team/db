@@ -2,6 +2,7 @@
 author: Core-2-Extreme
 categories:
 - utility
+color: '#596a81'
 created: '2018-12-14T14:57:08Z'
 description: Check your 3DS battery
 download_page: https://github.com/Core-2-Extreme/3DS-Battery-Checker/releases/tag/v1.2.0

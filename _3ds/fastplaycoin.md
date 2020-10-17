@@ -2,6 +2,7 @@
 author: CorySanin
 categories:
 - utility
+color: '#7e9a6e'
 created: '2017-11-11T08:27:21Z'
 description: '[3DS] Fast PlayCoin'
 download_page: https://github.com/CorySanin/FastPlayCoin/releases/tag/v1.0

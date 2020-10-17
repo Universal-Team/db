@@ -2,6 +2,7 @@
 author: SuperSaiyajinStackZ
 categories:
 - utility
+color: '#90337d'
 created: '2019-12-02T01:37:45Z'
 description: A Pokemon Shiny Encounter Tool.
 download_page: https://github.com/SuperSaiyajinStackZ/PKCount/releases/tag/v0.0.2

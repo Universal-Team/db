@@ -2,6 +2,7 @@
 author: masterfeizz
 categories:
 - emulator
+color: '#5d7255'
 created: '2020-04-30T00:57:08Z'
 description: Port of DaedalusX64 to the Nintendo 3DS
 download_page: https://github.com/masterfeizz/DaedalusX64-3DS/releases/tag/v0.2
