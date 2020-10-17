@@ -2,6 +2,7 @@
 author: SuperSaiyajinStackZ
 categories:
 - utility
+- save-tool
 created: '2020-08-12T22:06:02Z'
 description: This is LeafEdit's Pattern Editor as a separate app as well!
 download_page: https://github.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/releases/tag/v0.4.0

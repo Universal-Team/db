@@ -2,6 +2,7 @@
 author: RocketRobz
 categories:
 - utility
+- save-tool
 created: '2019-11-13T20:37:19Z'
 description: A save manager for the Girls Mode/Style Savvy/Style Boutique games, on
   Nintendo 3DS

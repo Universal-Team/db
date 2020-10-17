@@ -2,6 +2,7 @@
 author: d0k3
 categories:
 - utility
+- firm
 created: '2016-01-22T18:00:30Z'
 description: 'GodMode9 Explorer - A full access file browser for the Nintendo 3DS
   console :godmode:'

@@ -2,6 +2,7 @@
 author: aspargas2
 categories:
 - utility
+- firm
 created: '2019-05-08T17:29:52Z'
 description: An uncreatively named GodMode9 fork for installing 3DS cartridge games
   directly to the SD

@@ -2,6 +2,7 @@
 author: noirscape
 categories:
 - utility
+- save-tool
 created: '2018-04-08T18:03:47Z'
 description: 'Samus Returns: Amiibo Unlocker'
 download_page: https://github.com/noirscape/SRAU/releases/tag/v1.1

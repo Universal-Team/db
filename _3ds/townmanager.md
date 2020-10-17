@@ -2,6 +2,7 @@
 author: dragos240
 categories:
 - utility
+- save-tool
 created: '2016-10-20T18:11:56Z'
 description: A specialized save manager for AC:NL
 download_page: https://github.com/dragos240/TownManager/releases/tag/v1.2.1

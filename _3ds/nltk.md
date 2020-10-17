@@ -2,6 +2,7 @@
 author: Slattz
 categories:
 - utility
+- save-tool
 created: '2018-05-06T21:57:12Z'
 description: An Animal Crossing New Leaf Save Editor & Toolkit
 download_page: https://github.com/Slattz/NLTK/releases/tag/Nightly
