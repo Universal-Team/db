@@ -108,7 +108,7 @@
 		"github": "Universal-Team/pkmn-chest",
 		"image": "https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/resources/icon.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/icon.bmp",
-		"categories": ["utility"],
+		"categories": ["utility", "save-tool"],
 		"systems": ["DS"],
 		"nightly": {
 			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/pkmn-chest",
@@ -140,7 +140,7 @@
 	{
 		"long_description": "Features:\n- Dump GameBoy Advance cartridges on the original Nintendo DS and Nintendo DS Lite consoles.\n- Dump Nintendo DS/DSi cartridges on Nintendo DSi and Nintendo 3DS consoles (if GodMode9i is ran on the console SD card).\n- Copy, move, delete, rename files/folders and create folders.\n- Mount the NitroFS of .nds files.\n- Browse files on supported flashcards when running GM9i from the NAND or SD Card. (`AceKard 2(i)` & `R4 Ultra (r4ultra.com)`)\n\n![The file list](https://gbatemp.b-cdn.net/attachments/snap_191132-png.195368)",
 		"github": "DS-Homebrew/GodMode9i",
-		"categories": ["utility"],
+		"categories": ["utility", "save-tool"],
 		"systems": ["DS"],
 		"image": "https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png",
 		"icon": "https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/icon.bmp",
@@ -282,7 +282,7 @@
 	},
 	{
 		"github": "edo9300/ndsi-savedumper",
-		"categories": ["utility"],
+		"categories": ["utility", "save-tool"],
 		"systems": ["DS"]
 	},
 	{
@@ -314,7 +314,7 @@
 	{
 		"github": "RocketRobz/SavvyManager",
 		"systems": ["3DS"],
-		"categories": ["utility"],
+		"categories": ["utility", "save-tool"],
 		"image": "https://raw.githubusercontent.com/RocketRobz/SavvyManager/master/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/RocketRobz/SavvyManager/master/app/icon.png"
 	},
@@ -426,7 +426,7 @@
 	{
 		"github": "J-D-K/JKSM",
 		"systems": ["3DS"],
-		"categories": ["utility"],
+		"categories": ["utility", "save-tool"],
 		"icon": "https://raw.githubusercontent.com/J-D-K/JKSM/master/icon.png"
 	},
 	{
@@ -494,7 +494,7 @@
 	{
 		"github": "noirscape/SRAU",
 		"systems": ["3DS"],
-		"categories": ["utility"],
+		"categories": ["utility", "save-tool"],
 		"image": "https://raw.githubusercontent.com/noirscape/SRAU/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/noirscape/SRAU/master/meta/icon.png"
 	},
@@ -814,7 +814,7 @@
 	{
 		"github": "dragos240/Pocket-NLSE",
 		"systems": ["3DS"],
-		"categories": ["utility"],
+		"categories": ["utility", "save-tool"],
 		"image": "https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/res/banner%20icon.png",
 		"icon": "https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/icon.png"
 	},
@@ -925,7 +925,7 @@
 	{
 		"github": "TuxSH/TWLSaveTool",
 		"systems": ["3DS"],
-		"categories": ["utility"],
+		"categories": ["utility", "save-tool"],
 		"icon": "https://raw.githubusercontent.com/TuxSH/TWLSaveTool/master/app/IconLarge.png"
 	},
 	{
@@ -996,7 +996,7 @@
 	{
 		"github": "suloku/pdrpse",
 		"systems": ["3DS"],
-		"categories": ["utility"],
+		"categories": ["utility", "save-tool"],
 		"icon": "https://raw.githubusercontent.com/suloku/pdrpse/master/icon.png"
 	},
 	{
@@ -1060,7 +1060,7 @@
 	{
 		"github": "SuperSaiyajinStackZ/LeafEdit-Pattern-Editor",
 		"systems": ["3DS"],
-		"categories": ["utility"],
+		"categories": ["utility", "save-tool"],
 		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/master/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/master/app/icon.png",
 		"long_description": "![The editing screen](https://github.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/blob/master/screenshots/main.png?raw=true)"
@@ -1325,7 +1325,7 @@
 	{
 		"github": "profi200/open_agb_firm",
 		"systems": ["3DS"],
-		"categories": ["emulator"],
+		"categories": ["emulator", "firm"],
 		"scripts": {
 			"Release": [
 				{
@@ -1374,7 +1374,7 @@
 	{
 		"github": "d0k3/GodMode9",
 		"systems": ["3DS"],
-		"categories": ["utility"],
+		"categories": ["utility", "firm"],
 		"image": "https://raw.githubusercontent.com/d0k3/GodMode9/master/resources/logo.png",
 		"scripts": {
 			"Release (FIRM)": [
@@ -1447,26 +1447,26 @@
 	{
 		"github": "Slattz/NLTK",
 		"systems": ["3DS"],
-		"categories": ["utility"],
+		"categories": ["utility", "save-tool"],
 		"image": "https://raw.githubusercontent.com/Slattz/NLTK/master/assets/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/Slattz/NLTK/master/assets/meta/icon.png"
 	},
 	{
 		"github": "dragos240/TownManager",
 		"systems": ["3DS"],
-		"categories": ["utility"],
+		"categories": ["utility", "save-tool"],
 		"image": "https://raw.githubusercontent.com/dragos240/TownManager/master/res/banner%20icon.png",
 		"icon": "https://raw.githubusercontent.com/dragos240/TownManager/master/icon.png"
 	},
 	{
 		"github": "aspargas2/CartInstall",
 		"systems": ["3DS"],
-		"categories": ["utility"]
+		"categories": ["utility", "firm"]
 	},
 	{
 		"github": "LumaTeam/Luma3DS",
 		"systems": ["3DS"],
-		"categories": ["utility"],
+		"categories": ["utility", "firm"],
 		"scripts": {
 			"Luma3DS Release (FIRM)": [
 				{
@@ -1733,5 +1733,12 @@
 				}
 			]
 		}
+	},
+	{
+		"github": "Oreo639/LimePlayer3DS",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"image": "https://raw.githubusercontent.com/Oreo639/LimePlayer3DS/master/meta/banner.png",
+		"icon": "https://raw.githubusercontent.com/Oreo639/LimePlayer3DS/master/meta/icon.png"
 	}
 ]
