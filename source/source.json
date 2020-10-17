@@ -79,7 +79,7 @@
 		"github": "Universal-Team/LeafEdit",
 		"image": "https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/icon.png",
-		"categories": ["utility"],
+		"categories": ["utility", "save-tool"],
 		"systems": ["3DS"],
 		"nightly": {
 			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/LeafEdit",
