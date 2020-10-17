@@ -15,6 +15,10 @@
         "url": "/3ds/emulator"
       },
       {
+        "title": "FIRMs",
+        "url": "/3ds/firm"
+      },
+      {
         "title": "Games",
         "url": "/3ds/game"
       },
