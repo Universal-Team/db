@@ -2,7 +2,7 @@
 author: Universal-Team
 categories:
 - game
-color: 12098642
+color: '#b89c52'
 created: '2019-11-18T16:59:30Z'
 description: A Card game for Nintendo 3DS & DS(i)!
 download_page: https://github.com/Universal-Team/3DEins/releases/tag/v0.2.0

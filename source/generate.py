@@ -311,7 +311,7 @@ for app in source:
 			iconIndex += 1
 			if not "color" in app:
 				img.thumbnail((1, 1))
-				app["color"] = img.getpixel((0, 0))[0] << 16 | img.getpixel((0, 0))[1] << 8 | img.getpixel((0, 0))[2]
+				app["color"] = "#{:x}{:x}{:x}".format(img.getpixel((0, 0))[0], img.getpixel((0, 0))[1], img.getpixel((0, 0))[2])
 
 	# Output website page
 	if "downloads" in app:
