@@ -305,13 +305,17 @@ for app in source:
 				transparent = (r == pal[2]) & (g == pal[1]) & (b == pal[0])
 				data[...][transparent.T] = (0, 0, 0, 0)
 				img = Image.fromarray(data)
+			elif img.mode != "RGBA":
+				img = img.convert("RGBA")
 			img.thumbnail((48, 48))
 			img.save(os.path.join("temp", str(iconIndex) + ".png"))
 			icons.append(str(iconIndex) + ".png")
 			iconIndex += 1
 			if not "color" in app:
-				img.thumbnail((1, 1))
-				app["color"] = "#{:x}{:x}{:x}".format(img.getpixel((0, 0))[0], img.getpixel((0, 0))[1], img.getpixel((0, 0))[2])
+				color = img.copy()
+				color.thumbnail((1, 1))
+				color = color.getpixel((0, 0))
+				app["color"] = "#{:02x}{:02x}{:02x}".format(color[0], color[1], color[2])
 
 	# Output website page
 	if "downloads" in app:
