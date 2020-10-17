@@ -309,6 +309,9 @@ for app in source:
 			img.save(os.path.join("temp", str(iconIndex) + ".png"))
 			icons.append(str(iconIndex) + ".png")
 			iconIndex += 1
+			if not "color" in app:
+				img.thumbnail((1, 1))
+				app["color"] = img.getpixel((0, 0))[0] << 16 | img.getpixel((0, 0))[1] << 8 | img.getpixel((0, 0))[2]
 
 	# Output website page
 	if "downloads" in app:
