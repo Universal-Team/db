@@ -25,6 +25,7 @@
 								<div class="mb-3">
 									Sort:
 									<button id="sort-title" class="btn btn-outline-secondary" onclick="sort('title')">Title</button>
+									<button id="sort-author" class="btn btn-outline-secondary" onclick="sort('author')">Author</button>
 									<button id="sort-description" class="btn btn-outline-secondary" onclick="sort('description')">Description</button>
 									<button id="sort-updated" class="btn btn-outline-secondary" onclick="sort('updated')">Date Updated</button>
 									<button id="sort-direction" class="btn btn-outline-secondary float-right" onclick="toggleSortDirection()">Ascending</button>
@@ -50,7 +51,7 @@
 							{% for app in cards limit: page.limit %}
 								{% if page.category == Nil or app.categories contains page.category %}
 									<div class="col mb-3">
-										<div class="card h-100" data-title="{{ app.title | escape}}" data-description="{{ app.description | escape }}" data-updated="{{ app.updated }}">
+										<div class="card h-100" data-title="{{ app.title | escape}}" data-author="{{ app.author | escape}}" data-description="{{ app.description | escape }}" data-updated="{{ app.updated }}">
 											<a class="flex-grow-1" href="{{ app.url }}">
 												{% if app.image %}
 													<div class="card-header card-image-header">
@@ -63,8 +64,10 @@
 												{% endif %}
 												<div class="card-body" style="height: 100%;">
 													<div>
-														<h4 class="card-title text-center">{{ app.title | escape }}</h4>
-														
+														<h4 class="card-title text-center {% if app.author %}mb-0{% endif %}">{{ app.title | escape }}</h4>
+														{% if app.author %}
+															<small class="d-block text-center mb-3">{{ app.author }}</small>
+														{% endif %}
 														<p class="card-text">{{ app.description | escape }}</p>
 													</div>
 												</div>
@@ -82,7 +85,7 @@
 																	Version: {{ app.version }}
 																{% endif %}
 																{% if app.updated != "---" %}
-																	<br>
+																	{% if app.version %}<br>{% endif %}
 																	Last updated: <time datetime="{{ app.updated }}" title="{{ app.updated | date: '%Y-%m-%d at %H:%M' }}">{{ app.updated | date: "%Y-%m-%d" }}</time>
 																{% endif %}
 															</small>
