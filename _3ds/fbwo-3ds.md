@@ -12,6 +12,51 @@ github: Spaqin/fbwo-3ds
 icon: https://db.universal-team.net/assets/images/icons/fbwo-3ds.png
 image: https://db.universal-team.net/assets/images/images/fbwo-3ds.png
 layout: app
+scripts:
+  fbwo.3dsx:
+  - file: fbwo.*\.zip
+    message: Downloading fbwo.zip...
+    output: /fbwo.zip
+    repo: Spaqin/fbwo-3ds
+    type: downloadRelease
+  - file: /fbwo.zip
+    input: fbwodata
+    message: Extracting fbwodata...
+    output: /fbwodata
+    type: extractFile
+  - file: /fbwo.zip
+    input: 3ds/fbwo/fbwo.3dsx
+    message: Extracting fbwo.3dsx...
+    output: /3ds/fbwo.3dsx
+    type: extractFile
+  - file: /fbwo.zip
+    message: Deleting fbwo.zip...
+    type: deleteFile
+  fbwo.cia:
+  - file: fbwo.*\.zip
+    message: Downloading fbwo.zip...
+    output: /fbwo.zip
+    repo: Spaqin/fbwo-3ds
+    type: downloadRelease
+  - file: /fbwo.zip
+    input: fbwodata
+    message: Extracting fbwodata...
+    output: /fbwodata
+    type: extractFile
+  - file: /fbwo.zip
+    input: fbwo.cia
+    message: Extracting fbwo.cia...
+    output: /fbwo.cia
+    type: extractFile
+  - file: /fbwo.cia
+    message: Installing fbwo.cia...
+    type: installCia
+  - file: /fbwo.zip
+    message: Deleting fbwo.zip...
+    type: deleteFile
+  - file: /fbwo.cia
+    message: Deleting fbwo.zip...
+    type: deleteFile
 source: https://github.com/Spaqin/fbwo-3ds
 systems:
 - 3DS
