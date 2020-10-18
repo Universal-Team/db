@@ -1023,7 +1023,75 @@
 		"categories": ["game"],
 		"image": "https://db.universal-team.net/assets/images/images/fbwo-3ds.png",
 		"icon": "https://db.universal-team.net/assets/images/icons/fbwo-3ds.png",
-		"description": "Falling Blocks Watch Out, a 3DS homebrew Tetris clone."
+		"description": "Falling Blocks Watch Out, a 3DS homebrew Tetris clone.",
+		"scripts": {
+			"fbwo.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "Spaqin/fbwo-3ds",
+					"file": "fbwo.*\\.zip",
+					"output": "/fbwo.zip",
+					"message": "Downloading fbwo.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/fbwo.zip",
+					"input": "fbwodata",
+					"output": "/fbwodata",
+					"message": "Extracting fbwodata..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/fbwo.zip",
+					"input": "3ds/fbwo/fbwo.3dsx",
+					"output": "/3ds/fbwo.3dsx",
+					"message": "Extracting fbwo.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/fbwo.zip",
+					"message": "Deleting fbwo.zip..."
+				}
+			],
+			"fbwo.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "Spaqin/fbwo-3ds",
+					"file": "fbwo.*\\.zip",
+					"output": "/fbwo.zip",
+					"message": "Downloading fbwo.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/fbwo.zip",
+					"input": "fbwodata",
+					"output": "/fbwodata",
+					"message": "Extracting fbwodata..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/fbwo.zip",
+					"input": "fbwo.cia",
+					"output": "/fbwo.cia",
+					"message": "Extracting fbwo.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/fbwo.cia",
+					"message": "Installing fbwo.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/fbwo.zip",
+					"message": "Deleting fbwo.zip..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/fbwo.cia",
+					"message": "Deleting fbwo.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "GiantBlargg/UpdateSuppressor",
