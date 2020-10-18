@@ -1,6 +1,5 @@
 let item
 function search(query) {
-	console.log(query);
 	Array.from(document.getElementById("card-container").children).forEach(function(r) {
 		let card = r.children[0];
 		for(let item in card.dataset) {

@@ -163,6 +163,7 @@
 		"download_page": "https://web.archive.org/web/20160818124931/http://smealum.net/dscraft/",
 		"website": "https://web.archive.org/web/20160818124931/http://smealum.net/dscraft/",
 		"image": "https://raw.githubusercontent.com/smealum/dscraft/master/site/dscraft-logo.png",
+		"icon": "https://db.universal-team.net/assets/images/icons/dscraft.png",
 		"version": "v310811",
 		"updated": "2011-08-31T20:29:00Z"
 	},
@@ -322,7 +323,8 @@
 		"github": "Nanquitas/BootNTR",
 		"systems": ["3DS"],
 		"categories": ["utility"],
-		"icon": "https://raw.githubusercontent.com/Nanquitas/BootNTR/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/Nanquitas/BootNTR/master/resources/icon.png",
+		"image": "https://db.universal-team.net/assets/images/images/bootntr.png"
 	},
 	{
 		"github": "MrHuu/openbor-3ds",
@@ -376,7 +378,8 @@
 		"github": "Trinitro21/lpp-3ds",
 		"systems": ["3DS"],
 		"categories": ["utility"],
-		"icon": "https://raw.githubusercontent.com/Trinitro21/lpp-3ds/sbfm/icon.png"
+		"icon": "https://raw.githubusercontent.com/Trinitro21/lpp-3ds/sbfm/icon.png",
+		"image": "https://db.universal-team.net/assets/images/images/lpp-3ds.png"
 	},
 	{
 		"github": "elhobbs/prboom3ds",
@@ -387,8 +390,12 @@
 	},
 	{
 		"github": "MechanicalDragon0687/MCU_Bricker_tinydb",
+		"title": "MCU Bricker",
 		"systems": ["3DS"],
-		"categories": ["utility"]
+		"categories": ["utility"],
+		"image": "https://db.universal-team.net/assets/images/images/mcu-bricker.png",
+		"icon": "https://db.universal-team.net/assets/images/icons/mcu-bricker.png",
+		"description": "Makes your LED go rainbow."
 	},
 	{
 		"github": "Core-2-Extreme/3DS-Battery-Checker",
@@ -414,7 +421,9 @@
 	{
 		"github": "LukeZGD/DDLC-LOVE",
 		"systems": ["3DS"],
-		"categories": ["game"]
+		"categories": ["game"],
+		"image": "https://db.universal-team.net/assets/images/images/ddlc-love.png",
+		"icon": "https://db.universal-team.net/assets/images/icons/ddlc-love.png"
 	},
 	{
 		"github": "MrHuu/opentitus-3ds",
@@ -427,7 +436,8 @@
 		"github": "J-D-K/JKSM",
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
-		"icon": "https://raw.githubusercontent.com/J-D-K/JKSM/master/icon.png"
+		"icon": "https://raw.githubusercontent.com/J-D-K/JKSM/master/icon.png",
+		"image": "https://db.universal-team.net/assets/images/images/jksm.png"
 	},
 	{
 		"github": "togetg/TJAPlayer_for_3DS",
@@ -475,7 +485,8 @@
 		"github": "mariohackandglitch/homebrew_launcher_dummy",
 		"systems": ["3DS"],
 		"categories": ["utility"],
-		"icon": "https://raw.githubusercontent.com/mariohackandglitch/homebrew_launcher_dummy/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/mariohackandglitch/homebrew_launcher_dummy/master/resources/icon.png",
+		"image": "https://db.universal-team.net/assets/images/images/homebrew_launcher_dummy.png"
 	},
 	{
 		"github": "LiquidFenrir/Yahtzee3DS",
@@ -502,13 +513,17 @@
 		"github": "bubble2k16/snes9x_3ds",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
-		"icon": "https://raw.githubusercontent.com/bubble2k16/snes9x_3ds/master/assets/icon.png"
+		"icon": "https://raw.githubusercontent.com/bubble2k16/snes9x_3ds/master/assets/icon.png",
+		"image": "https://db.universal-team.net/assets/images/images/snes9x_3ds.png"
 	},
 	{
 		"github": "bubble2k16/emus3ds",
+		"title": "VirtuaNES",
+		"description": "VirtuaNES a high compatibility NES emulator for your old 3DS or 2DS.",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
-		"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/virtuanes/assets/icon.png"
+		"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/virtuanes/assets/icon.png",
+		"image": "https://db.universal-team.net/assets/images/images/virtualnes.png"
 	},
 	{
 		"github": "Ryuzaki-MrL/Cthulhu",
@@ -554,9 +569,21 @@
 	},
 	{
 		"github": "bubble2k16/picodrive_3ds",
+		"title": "PicoDrive",
+		"description": "This is a port of notaz's PicoDrive emulator to the old 3DS and old 2DS.",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
-		"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/picodrive/assets/icon.png"
+		"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/picodrive/assets/icon.png",
+		"image": "https://db.universal-team.net/assets/images/images/picodrive.png"
+	},
+	{
+		"github": "bubble2k16/temperpce_3ds",
+		"title": "TemperPCE",
+		"description": "This is a port of Exophase's Temper (TurboGrafx/PC-Engine) emulator to the old 3DS and old 2DS.",
+		"systems": ["3DS"],
+		"categories": ["emulator"],
+		"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/temperpce/assets/icon.png",
+		"image": "https://db.universal-team.net/assets/images/images/temperpce.png"
 	},
 	{
 		"github": "LiquidFenrir/HexIsoPath",
@@ -569,7 +596,8 @@
 		"github": "RMcTn/Notepad3DS",
 		"systems": ["3DS"],
 		"categories": ["utility"],
-		"icon": "https://raw.githubusercontent.com/RMcTn/Notepad3DS/master/icon.png"
+		"icon": "https://raw.githubusercontent.com/RMcTn/Notepad3DS/master/icon.png",
+		"image": "https://db.universal-team.net/assets/images/images/notepad3ds.png"
 	},
 	{
 		"github": "ingolemo/drider",
@@ -623,7 +651,8 @@
 		"github": "Manurocker95/Evolution_Sav3D_Me",
 		"systems": ["3DS"],
 		"categories": ["game"],
-		"icon": "https://raw.githubusercontent.com/Manurocker95/Evolution_Sav3D_Me/Evolution_Sav3D_Me/icon.png"
+		"icon": "https://raw.githubusercontent.com/Manurocker95/Evolution_Sav3D_Me/Evolution_Sav3D_Me/icon.png",
+		"image": "https://db.universal-team.net/assets/images/images/evolution_sav3d_me.png"
 	},
 	{
 		"github": "zoogie/Stuff",
@@ -670,7 +699,9 @@
 	{
 		"github": "masterfeizz/Quake2CTR",
 		"systems": ["3DS"],
-		"categories": ["game"]
+		"categories": ["game"],
+		"image": "https://db.universal-team.net/assets/images/images/quake2ctr.png",
+		"icon": "https://db.universal-team.net/assets/images/icons/quake2ctr.png"
 	},
 	{
 		"github": "nop90/Neopop-SDL",
@@ -683,7 +714,8 @@
 		"github": "Creckeryop/3dsCookieClicker",
 		"systems": ["3DS"],
 		"categories": ["game"],
-		"icon": "https://raw.githubusercontent.com/Creckeryop/3dsCookieClicker/master/logo.png"
+		"icon": "https://raw.githubusercontent.com/Creckeryop/3dsCookieClicker/master/logo.png",
+		"image": "https://db.universal-team.net/assets/images/images/3dscookieclicker.png"
 	},
 	{
 		"github": "nop90/ZeldaOLB",
@@ -842,7 +874,9 @@
 	{
 		"github": "Hoksy/ravimid",
 		"systems": ["3DS"],
-		"categories": ["game"]
+		"categories": ["game"],
+		"image": "https://db.universal-team.net/assets/images/images/ravimid.png",
+		"icon": "https://db.universal-team.net/assets/images/icons/ravimid.png"
 	},
 	{
 		"github": "Omegadrien/Memory3DS",
@@ -862,7 +896,8 @@
 		"github": "masterfeizz/ctrQuake",
 		"systems": ["3DS"],
 		"categories": ["game"],
-		"icon": "https://raw.githubusercontent.com/masterfeizz/ctrQuake/master/icon.png"
+		"icon": "https://raw.githubusercontent.com/masterfeizz/ctrQuake/master/icon.png",
+		"image": "https://db.universal-team.net/assets/images/images/ctrquake.png"
 	},
 	{
 		"github": "ItsDeidara/CaptureAssistant",
@@ -881,7 +916,9 @@
 	{
 		"github": "gnmmarechal/easyrpgdlre",
 		"systems": ["3DS"],
-		"categories": ["utility"]
+		"categories": ["utility"],
+		"image": "https://db.universal-team.net/assets/images/images/easyrpgdlre.png",
+		"icon": "https://db.universal-team.net/assets/images/icons/easyrpgdlre.png"
 	},
 	{
 		"github": "Steveice10/WorldOf3DSand",
@@ -901,7 +938,8 @@
 		"github": "TurtleP/Hax0r",
 		"systems": ["3DS"],
 		"categories": ["game"],
-		"icon": "https://raw.githubusercontent.com/TurtleP/Hax0r/master/graphics/icon.png"
+		"icon": "https://raw.githubusercontent.com/TurtleP/Hax0r/master/graphics/icon.png",
+		"image": "https://db.universal-team.net/assets/images/images/hax0r.png"
 	},
 	{
 		"github": "nop90/Biniax2-3DS",
@@ -914,13 +952,15 @@
 		"github": "TurtleP/TurtleInvaders",
 		"systems": ["3DS"],
 		"categories": ["game"],
-		"image": "https://raw.githubusercontent.com/TurtleP/TurtleInvaders/master/graphics/menu/banner-plain-hi.png"
+		"image": "https://db.universal-team.net/assets/images/images/turtleinvaders.png",
+		"icon": "https://db.universal-team.net/assets/images/icons/turtleinvaders.png"
 	},
 	{
 		"github": "Jacudibu/Snake2DS",
 		"systems": ["3DS"],
 		"categories": ["game"],
-		"icon": "https://raw.githubusercontent.com/Jacudibu/Snake2DS/master/icon_large.png"
+		"icon": "https://raw.githubusercontent.com/Jacudibu/Snake2DS/master/icon_large.png",
+		"image": "https://db.universal-team.net/assets/images/images/snake2ds.png"
 	},
 	{
 		"github": "TuxSH/TWLSaveTool",
@@ -960,13 +1000,15 @@
 		"github": "masterfeizz/EDuke3D",
 		"systems": ["3DS"],
 		"categories": ["utility"],
-		"icon": "https://raw.githubusercontent.com/masterfeizz/EDuke3D/master/icon.png"
+		"icon": "https://raw.githubusercontent.com/masterfeizz/EDuke3D/master/icon.png",
+		"image": "https://db.universal-team.net/assets/images/images/eduke3d.png"
 	},
 	{
 		"github": "machinamentum/CS3DS",
 		"systems": ["3DS"],
 		"categories": ["game"],
-		"icon": "https://raw.githubusercontent.com/machinamentum/CS3DS/master/jge/Projects/cspsp/icon_3ds.png"
+		"icon": "https://raw.githubusercontent.com/machinamentum/CS3DS/master/jge/Projects/cspsp/icon_3ds.png",
+		"image": "https://db.universal-team.net/assets/images/images/cs3ds.png"
 	},
 	{
 		"github": "Cruel/DrawAttack",
@@ -978,7 +1020,10 @@
 	{
 		"github": "Spaqin/fbwo-3ds",
 		"systems": ["3DS"],
-		"categories": ["game"]
+		"categories": ["game"],
+		"image": "https://db.universal-team.net/assets/images/images/fbwo-3ds.png",
+		"icon": "https://db.universal-team.net/assets/images/icons/fbwo-3ds.png",
+		"description": "Falling Blocks Watch Out, a 3DS homebrew Tetris clone."
 	},
 	{
 		"github": "GiantBlargg/UpdateSuppressor",
@@ -997,7 +1042,8 @@
 		"github": "suloku/pdrpse",
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
-		"icon": "https://raw.githubusercontent.com/suloku/pdrpse/master/icon.png"
+		"icon": "https://raw.githubusercontent.com/suloku/pdrpse/master/icon.png",
+		"image": "https://db.universal-team.net/assets/images/images/pdrpse.png"
 	},
 	{
 		"github": "CTurt/3DSController",
