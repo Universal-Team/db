@@ -10,7 +10,7 @@ downloads:
   Hax0r.zip: https://github.com/TurtleP/Hax0r/releases/download/v1.2/Hax0r.zip
 github: TurtleP/Hax0r
 icon: https://raw.githubusercontent.com/TurtleP/Hax0r/master/graphics/icon.png
-image: https://avatars3.githubusercontent.com/u/6239208?v=4
+image: https://db.universal-team.net/assets/images/images/hax0r.png
 layout: app
 source: https://github.com/TurtleP/Hax0r
 systems:

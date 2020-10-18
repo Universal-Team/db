@@ -11,7 +11,7 @@ downloads:
   ctrQuake.zip: https://github.com/masterfeizz/ctrQuake/releases/download/v0.8/ctrQuake.zip
 github: masterfeizz/ctrQuake
 icon: https://raw.githubusercontent.com/masterfeizz/ctrQuake/master/icon.png
-image: https://avatars1.githubusercontent.com/u/15205297?v=4
+image: https://db.universal-team.net/assets/images/images/ctrquake.png
 layout: app
 qr:
   ctrQuake.cia: https://db.universal-team.net/assets/images/qr/ctrquake.cia.png

@@ -8,7 +8,7 @@ description: Unofficial port of EDuke32 for the Nintendo 3DS
 download_page: https://github.com/masterfeizz/EDuke3D/releases/tag/v1.0-beta
 github: masterfeizz/EDuke3D
 icon: https://raw.githubusercontent.com/masterfeizz/EDuke3D/master/icon.png
-image: https://avatars1.githubusercontent.com/u/15205297?v=4
+image: https://db.universal-team.net/assets/images/images/eduke3d.png
 layout: app
 prerelease:
   download_page: https://github.com/masterfeizz/EDuke3D/releases/tag/v1.0-beta

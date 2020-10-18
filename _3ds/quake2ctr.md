@@ -2,12 +2,13 @@
 author: masterfeizz
 categories:
 - game
-color: '#abd9db'
+color: '#222f37'
 created: '2017-06-11T18:50:18Z'
 description: Quake 2 port for Nintendo 3DS
 download_page: https://github.com/masterfeizz/Quake2CTR/releases/tag/v0.2
 github: masterfeizz/Quake2CTR
-image: https://avatars1.githubusercontent.com/u/15205297?v=4
+icon: https://db.universal-team.net/assets/images/icons/quake2ctr.png
+image: https://db.universal-team.net/assets/images/images/quake2ctr.png
 layout: app
 prerelease:
   download_page: https://github.com/masterfeizz/Quake2CTR/releases/tag/v0.2

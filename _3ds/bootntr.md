@@ -13,7 +13,7 @@ downloads:
   BootNTRSelector-PabloMK7-Banner.cia: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.3/BootNTRSelector-PabloMK7-Banner.cia
 github: Nanquitas/BootNTR
 icon: https://raw.githubusercontent.com/Nanquitas/BootNTR/master/resources/icon.png
-image: https://avatars3.githubusercontent.com/u/13298129?v=4
+image: https://db.universal-team.net/assets/images/images/bootntr.png
 layout: app
 qr:
   BootNTRSelector-FONZD-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-fonzd-banner.cia.png

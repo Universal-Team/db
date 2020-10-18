@@ -11,7 +11,7 @@ downloads:
   sbfm.zip: https://github.com/Trinitro21/lpp-3ds/releases/download/sbfm1.7/sbfm.zip
 github: Trinitro21/lpp-3ds
 icon: https://raw.githubusercontent.com/Trinitro21/lpp-3ds/sbfm/icon.png
-image: https://avatars3.githubusercontent.com/u/16406884?v=4
+image: https://db.universal-team.net/assets/images/images/lpp-3ds.png
 layout: app
 qr:
   sbfm.cia: https://db.universal-team.net/assets/images/qr/sbfm.cia.png

@@ -2,7 +2,7 @@
 author: Hoksy
 categories:
 - game
-color: '#292929'
+color: '#7b5da7'
 created: '2016-09-02T19:40:02Z'
 description: a pyramidman's quest to save his father
 download_page: https://github.com/Hoksy/ravimid/releases/tag/1.2
@@ -10,7 +10,8 @@ downloads:
   ravimid.cia: https://github.com/Hoksy/ravimid/releases/download/1.2/ravimid.cia
   ravimid_deluxe.cia: https://github.com/Hoksy/ravimid/releases/download/1.2/ravimid_deluxe.cia
 github: Hoksy/ravimid
-image: https://avatars2.githubusercontent.com/u/5952243?v=4
+icon: https://db.universal-team.net/assets/images/icons/ravimid.png
+image: https://db.universal-team.net/assets/images/images/ravimid.png
 layout: app
 qr:
   ravimid.cia: https://db.universal-team.net/assets/images/qr/ravimid.cia.png

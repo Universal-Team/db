@@ -2,7 +2,7 @@
 author: LukeZGD
 categories:
 - game
-color: '#e0b2b9'
+color: '#dcd7e8'
 created: '2018-04-17T16:27:05Z'
 description: An unofficial cross-platform Doki Doki Literature Club port to Lua for
   different game consoles
@@ -16,7 +16,8 @@ downloads:
   DDLC-LOVE.nro: https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-LOVE.nro
   DDLC-LOVE.vpk: https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-LOVE.vpk
 github: LukeZGD/DDLC-LOVE
-image: https://avatars2.githubusercontent.com/u/26163116?v=4
+icon: https://db.universal-team.net/assets/images/icons/ddlc-love.png
+image: https://db.universal-team.net/assets/images/images/ddlc-love.png
 layout: app
 qr:
   DDLC-LOVE.cia: https://db.universal-team.net/assets/images/qr/ddlc-love.cia.png
