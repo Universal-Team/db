@@ -72,7 +72,7 @@
 										<h2>Downloads</h2>
 										{% for item in page.downloads %}
 											<span class="btn btn-primary m-1">
-												<a class="mr-1" href="{{ item[1] }}">Download {{ item[0] }}</a>
+												<a class="mr-1" href="{{ item[1].url }}">Download {{ item[0] }}</a>
 												{% for qr in page.qr %}
 													{% if item[0] == qr[0] %}
 														<a class="qr-link" href="{{ qr[1] }}" role="button" data-toggle="modal" data-target="#qrModal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}">
@@ -100,7 +100,7 @@
 										<div class="col-12">
 											<h3>Prereleases</h3>
 											{% for item in page.prerelease.downloads %}
-												<a class="btn btn-secondary m-1" href="{{ item[1] }}">Download {{ item[0] }}</a>
+												<a class="btn btn-secondary m-1" href="{{ item[1].url }}">Download {{ item[0] }}</a>
 											{% endfor %}
 			
 											{% if page.prerelease.version %}
@@ -122,7 +122,7 @@
 											<abbr title="Commit / beta builds, potentially unstable but have the latest updates"><h3>Nightlies</h3></abbr>
 											{% for item in page.nightly.downloads %}
 												<span class="btn btn-dark m-1">
-													<a class="mr-1" href="{{ item[1] }}">Download {{ item[0] }}</a>
+													<a class="mr-1" href="{{ item[1].url }}">Download {{ item[0] }}</a>
 													{% for qr in page.nightly.qr %}
 														{% if item[0] == qr[0] %}
 															<a class="qr-link" href="{{ qr[1] }}" role="button" data-toggle="modal" data-target="#qrModal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}">

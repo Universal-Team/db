@@ -192,6 +192,12 @@ for app in source:
 		if not "wiki" in app and api["has_wiki"]:
 			app["wiki"] = api["html_url"] + "/wiki"
 
+		if not "license" in app:
+			app["license"] = api["license"]["key"]
+
+		if not "license_name" in app:
+			app["license_name"] = api["license"]["name"]
+
 		if release:
 			if not "download_page" in app:
 				app["download_page"] = release["html_url"]
@@ -209,7 +215,10 @@ for app in source:
 				app["downloads"] = {}
 			for asset in release["assets"]:
 				if not asset["name"] in app["downloads"]:
-					app["downloads"][asset["name"]] = asset["browser_download_url"]
+					app["downloads"][asset["name"]] = {
+						"url": asset["browser_download_url"],
+						"size": asset["size"]
+					}
 
 		if prerelease:
 			if not "prerelease" in app:
@@ -239,7 +248,10 @@ for app in source:
 				app["prerelease"]["downloads"] = {}
 			for asset in prerelease["assets"]:
 				if not asset["name"] in app["prerelease"]["downloads"]:
-					app["prerelease"]["downloads"][asset["name"]] = asset["browser_download_url"]
+					app["prerelease"]["downloads"][asset["name"]] = {
+						"url": asset["browser_download_url"],
+						"size": asset["size"]
+					}
 
 	if "bitbucket" in app:
 		print("Bitbucket")
@@ -268,7 +280,10 @@ for app in source:
 		for download in app["bitbucket"]["files"]:
 			fileAPI = requests.get("https://api.bitbucket.org/2.0/repositories/" + app["bitbucket"]["repo"] + "/src/master/" + download + "?format=meta").json()
 			if not download in app["downloads"]:
-				app["downloads"][download] = fileAPI["links"]["self"]["href"]
+				app["downloads"][download] = {
+					"url": fileAPI["links"]["self"]["href"],
+					"size": fileAPI["size"]
+				}
 
 			if not "download_page" in app:
 				app["download_page"] = "https://bitbucket.org/" + app["bitbucket"]["repo"] +"/src/master/" + download
@@ -321,7 +336,7 @@ for app in source:
 	if "downloads" in app:
 		for item in app["downloads"]:
 			if item[item.rfind(".") + 1:] == "cia":
-				qr = qrcode.make(app["downloads"][item], box_size = 5).convert("RGBA")
+				qr = qrcode.make(app["downloads"][item]["url"], box_size = 5).convert("RGBA")
 				if img:
 					draw = ImageDraw.Draw(qr)
 					draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 4)), fill = (255, 255, 255))
@@ -334,7 +349,7 @@ for app in source:
 	if "nightly" in app:
 		for item in app["nightly"]["downloads"]:
 			if item[item.rfind(".") + 1:] == "cia":
-				qr = qrcode.make(app["nightly"]["downloads"][item], box_size = 5).convert("RGBA")
+				qr = qrcode.make(app["nightly"]["downloads"][item]["url"], box_size = 5).convert("RGBA")
 				data = numpy.array(qr)
 				r, g, b, a = data.T
 				black = (r == 0) & (g == 0) & (b == 0)
@@ -405,15 +420,15 @@ for app in source:
 	else:
 		if "downloads" in app:
 			for file in app["downloads"]:
-				uni["Download " + file] = downloadScript(file, app["downloads"][file])
+				uni["Download " + file] = downloadScript(file, app["downloads"][file]["url"])
 
 		if "prerelease" in app:
 			for file in app["prerelease"]["downloads"]:
-				uni["[prerelease] Download " + file] = downloadScript(file, app["prerelease"]["downloads"][file])
+				uni["[prerelease] Download " + file] = downloadScript(file, app["prerelease"]["downloads"][file]["url"])
 
 		if "nightly" in app:
 			for file in app["nightly"]["downloads"]:
-				uni["[nightly] Download " + file] = downloadScript(file, app["nightly"]["downloads"][file])
+				uni["[nightly] Download " + file] = downloadScript(file, app["nightly"]["downloads"][file]["url"])
 
 	unistore["storeContent"].append(uni)
 
