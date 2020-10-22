@@ -40,16 +40,25 @@
 										</div>
 									{% if page.website %}</a>{% elsif page.source %}</a>{% endif %}
 									<div class="card-footer">
-										{% if page.categories %}
-											Categories:
-											{% for category in page.categories %}
-											<a href="/{{ page.collection }}/{{ category }}">{{ category }}</a>
-											{% endfor %}
-										{% endif %}
 										<small class="text-muted">
+											System:
+											{% for system in page.systems %}
+												<a href="/{{ system }}">{{ system }}</a>{% if forloop.last == false %},{% endif %}
+											{% endfor %}
+											{% if page.categories %}
+												<br>
+												Categories:
+												{% for category in page.categories %}
+													<a href="/{{ page.collection }}/{{ category }}">{{ category }}</a>{% if forloop.last == false %},{% endif %}
+												{% endfor %}
+											{% endif %}
 											{% if page.created != "---" %}
 												<br>
 												Created: <time datetime="{{ page.created }}" title="{{ page.created | date: '%Y-%m-%d at %H:%M' }}">{{ page.created | date: "%Y-%m-%d" }}</time>
+											{% endif %}
+											{% if page.license_name %}
+												<br>
+												License: {{ page.license_name }}
 											{% endif %}
 										</small>
 									</div>
