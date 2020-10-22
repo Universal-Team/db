@@ -7,8 +7,12 @@ created: '2017-01-31T16:20:47Z'
 description: A monkey who wants to survive!
 download_page: https://github.com/Manurocker95/Evolution_Sav3D_Me/releases/tag/1.1
 downloads:
-  Evolution_Sav3D_Me.cia: https://github.com/Manurocker95/Evolution_Sav3D_Me/releases/download/1.1/Evolution_Sav3D_Me.cia
-  Evolution_Sav3D_Me.rar: https://github.com/Manurocker95/Evolution_Sav3D_Me/releases/download/1.1/Evolution_Sav3D_Me.rar
+  Evolution_Sav3D_Me.cia:
+    size: 15668160
+    url: https://github.com/Manurocker95/Evolution_Sav3D_Me/releases/download/1.1/Evolution_Sav3D_Me.cia
+  Evolution_Sav3D_Me.rar:
+    size: 15800689
+    url: https://github.com/Manurocker95/Evolution_Sav3D_Me/releases/download/1.1/Evolution_Sav3D_Me.rar
 github: Manurocker95/Evolution_Sav3D_Me
 icon: https://raw.githubusercontent.com/Manurocker95/Evolution_Sav3D_Me/Evolution_Sav3D_Me/icon.png
 image: https://db.universal-team.net/assets/images/images/evolution_sav3d_me.png

@@ -7,12 +7,18 @@ created: '2014-12-04T06:15:13Z'
 description: World of Sand for the 3DS.
 download_page: https://github.com/Steveice10/WorldOf3DSand/releases/tag/1.3.4
 downloads:
-  Worldof3DSand.cia: https://github.com/Steveice10/WorldOf3DSand/releases/download/1.3.4/Worldof3DSand.cia
-  Worldof3DSand.zip: https://github.com/Steveice10/WorldOf3DSand/releases/download/1.3.4/Worldof3DSand.zip
+  Worldof3DSand.cia:
+    size: 737216
+    url: https://github.com/Steveice10/WorldOf3DSand/releases/download/1.3.4/Worldof3DSand.cia
+  Worldof3DSand.zip:
+    size: 2139145
+    url: https://github.com/Steveice10/WorldOf3DSand/releases/download/1.3.4/Worldof3DSand.zip
 github: Steveice10/WorldOf3DSand
 icon: https://raw.githubusercontent.com/Steveice10/WorldOf3DSand/master/meta/icon_3ds.png
 image: https://raw.githubusercontent.com/Steveice10/WorldOf3DSand/master/meta/banner_3ds.png
 layout: app
+license: mit
+license_name: MIT License
 qr:
   Worldof3DSand.cia: https://db.universal-team.net/assets/images/qr/worldof3dsand.cia.png
 source: https://github.com/Steveice10/WorldOf3DSand

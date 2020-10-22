@@ -7,7 +7,9 @@ created: '2016-04-23T18:50:28Z'
 description: 'Open Syobon Action (a.k.a Cat Mario) for 3DS '
 download_page: https://github.com/nop90/OpenSyobon3DS/releases/tag/v1.2
 downloads:
-  OpenSyobon3DS_v1.2.zip: https://github.com/nop90/OpenSyobon3DS/releases/download/v1.2/OpenSyobon3DS_v1.2.zip
+  OpenSyobon3DS_v1.2.zip:
+    size: 14967899
+    url: https://github.com/nop90/OpenSyobon3DS/releases/download/v1.2/OpenSyobon3DS_v1.2.zip
 github: nop90/OpenSyobon3DS
 icon: https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/banner.png

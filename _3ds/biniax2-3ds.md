@@ -13,8 +13,12 @@ layout: app
 prerelease:
   download_page: https://github.com/nop90/Biniax2-3DS/releases/tag/V0.4alpha
   downloads:
-    Biniax2_3DSX.v0.4.zip: https://github.com/nop90/Biniax2-3DS/releases/download/V0.4alpha/Biniax2_3DSX.v0.4.zip
-    Biniax2_CIA.v0.4.zip: https://github.com/nop90/Biniax2-3DS/releases/download/V0.4alpha/Biniax2_CIA.v0.4.zip
+    Biniax2_3DSX.v0.4.zip:
+      size: 18375236
+      url: https://github.com/nop90/Biniax2-3DS/releases/download/V0.4alpha/Biniax2_3DSX.v0.4.zip
+    Biniax2_CIA.v0.4.zip:
+      size: 18761345
+      url: https://github.com/nop90/Biniax2-3DS/releases/download/V0.4alpha/Biniax2_CIA.v0.4.zip
   updated: '2016-07-04T07:32:48Z'
   version: V0.4alpha
   version_title: Bigger font and CIA version

@@ -8,11 +8,15 @@ description: Port to 3DS of a nice Action RPG in SNES style originally written b
   Syn9 in FreeBASIC
 download_page: https://github.com/nop90/Griffon-Legend-3DS/releases/tag/v1.0
 downloads:
-  GriffonLegend.v1.0.zip: https://github.com/nop90/Griffon-Legend-3DS/releases/download/v1.0/GriffonLegend.v1.0.zip
+  GriffonLegend.v1.0.zip:
+    size: 5008278
+    url: https://github.com/nop90/Griffon-Legend-3DS/releases/download/v1.0/GriffonLegend.v1.0.zip
 github: nop90/Griffon-Legend-3DS
 icon: https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/banner.png
 layout: app
+license: other
+license_name: Other
 source: https://github.com/nop90/Griffon-Legend-3DS
 systems:
 - 3DS

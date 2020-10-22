@@ -8,12 +8,18 @@ created: '2018-04-08T18:03:47Z'
 description: 'Samus Returns: Amiibo Unlocker'
 download_page: https://github.com/noirscape/SRAU/releases/tag/v1.1
 downloads:
-  SRAU.7z: https://github.com/noirscape/SRAU/releases/download/v1.1/SRAU.7z
-  SRAU.cia: https://github.com/noirscape/SRAU/releases/download/v1.1/SRAU.cia
+  SRAU.7z:
+    size: 556954
+    url: https://github.com/noirscape/SRAU/releases/download/v1.1/SRAU.7z
+  SRAU.cia:
+    size: 582592
+    url: https://github.com/noirscape/SRAU/releases/download/v1.1/SRAU.cia
 github: noirscape/SRAU
 icon: https://raw.githubusercontent.com/noirscape/SRAU/master/meta/icon.png
 image: https://raw.githubusercontent.com/noirscape/SRAU/master/meta/banner.png
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 qr:
   SRAU.cia: https://db.universal-team.net/assets/images/qr/srau.cia.png
 source: https://github.com/noirscape/SRAU

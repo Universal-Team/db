@@ -7,7 +7,9 @@ created: '2018-07-26T21:22:25Z'
 description: Homebrew Launcher Loader - Dummy App
 download_page: https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/tag/v1.0
 downloads:
-  Homebrew_Launcher.cia: https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/download/v1.0/Homebrew_Launcher.cia
+  Homebrew_Launcher.cia:
+    size: 377792
+    url: https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/download/v1.0/Homebrew_Launcher.cia
 github: mariohackandglitch/homebrew_launcher_dummy
 icon: https://raw.githubusercontent.com/mariohackandglitch/homebrew_launcher_dummy/master/resources/icon.png
 image: https://db.universal-team.net/assets/images/images/homebrew_launcher_dummy.png

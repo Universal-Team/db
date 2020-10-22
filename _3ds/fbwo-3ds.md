@@ -7,7 +7,9 @@ created: '2016-01-30T08:52:55Z'
 description: Falling Blocks Watch Out, a 3DS homebrew Tetris clone.
 download_page: https://github.com/Spaqin/fbwo-3ds/releases/tag/v0.4.1
 downloads:
-  fbwo.v0.4.1.zip: https://github.com/Spaqin/fbwo-3ds/releases/download/v0.4.1/fbwo.v0.4.1.zip
+  fbwo.v0.4.1.zip:
+    size: 7350096
+    url: https://github.com/Spaqin/fbwo-3ds/releases/download/v0.4.1/fbwo.v0.4.1.zip
 github: Spaqin/fbwo-3ds
 icon: https://db.universal-team.net/assets/images/icons/fbwo-3ds.png
 image: https://db.universal-team.net/assets/images/images/fbwo-3ds.png

@@ -7,7 +7,8 @@ description: Colors! is a simplistic painting application combining ease of use 
   powerful painting tools.
 download_page: https://gamebrew.org/wiki/Colors!
 downloads:
-  Colors110ds.zip: https://gamebrew.org/images/0/0e/Colors110ds.zip
+  Colors110ds.zip:
+    url: https://gamebrew.org/images/0/0e/Colors110ds.zip
 icon: https://db.universal-team.net/assets/images/icons/colors.png
 layout: app
 systems:

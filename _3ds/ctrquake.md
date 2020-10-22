@@ -7,8 +7,12 @@ created: '2015-10-20T01:25:02Z'
 description: Port of quake for the Nintendo 3DS
 download_page: https://github.com/masterfeizz/ctrQuake/releases/tag/v0.8
 downloads:
-  ctrQuake.cia: https://github.com/masterfeizz/ctrQuake/releases/download/v0.8/ctrQuake.cia
-  ctrQuake.zip: https://github.com/masterfeizz/ctrQuake/releases/download/v0.8/ctrQuake.zip
+  ctrQuake.cia:
+    size: 984000
+    url: https://github.com/masterfeizz/ctrQuake/releases/download/v0.8/ctrQuake.cia
+  ctrQuake.zip:
+    size: 8921677
+    url: https://github.com/masterfeizz/ctrQuake/releases/download/v0.8/ctrQuake.zip
 github: masterfeizz/ctrQuake
 icon: https://raw.githubusercontent.com/masterfeizz/ctrQuake/master/icon.png
 image: https://db.universal-team.net/assets/images/images/ctrquake.png

@@ -9,14 +9,20 @@ description: 'GodMode9 Explorer - A full access file browser for the Nintendo 3D
   console :godmode:'
 download_page: https://github.com/d0k3/GodMode9/releases/tag/v1.9.1
 downloads:
-  GodMode9-v1.9.1-20200110121417.zip: https://github.com/d0k3/GodMode9/releases/download/v1.9.1/GodMode9-v1.9.1-20200110121417.zip
+  GodMode9-v1.9.1-20200110121417.zip:
+    size: 1840083
+    url: https://github.com/d0k3/GodMode9/releases/download/v1.9.1/GodMode9-v1.9.1-20200110121417.zip
 github: d0k3/GodMode9
 image: https://raw.githubusercontent.com/d0k3/GodMode9/master/resources/logo.png
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 prerelease:
   download_page: https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1
   downloads:
-    GodMode9-v1.9.2pre1-20200820205253.zip: https://github.com/d0k3/GodMode9/releases/download/v1.9.2pre1/GodMode9-v1.9.2pre1-20200820205253.zip
+    GodMode9-v1.9.2pre1-20200820205253.zip:
+      size: 2243273
+      url: https://github.com/d0k3/GodMode9/releases/download/v1.9.2pre1/GodMode9-v1.9.2pre1-20200820205253.zip
   updated: '2020-08-22T10:18:04Z'
   version: v1.9.2pre1
   version_title: GodMode9 v1.9.2pre1 Fourth Anniversary Edition

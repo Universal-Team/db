@@ -7,12 +7,18 @@ created: '2020-10-03T20:29:35Z'
 description: "Ein \"Elfer raus!\" klon f\xFCr den Nintendo 3DS."
 download_page: https://github.com/SuperSaiyajinStackZ/3DElf/releases/tag/v0.2.0
 downloads:
-  3DElf.3dsx: https://github.com/SuperSaiyajinStackZ/3DElf/releases/download/v0.2.0/3DElf.3dsx
-  3DElf.cia: https://github.com/SuperSaiyajinStackZ/3DElf/releases/download/v0.2.0/3DElf.cia
+  3DElf.3dsx:
+    size: 501220
+    url: https://github.com/SuperSaiyajinStackZ/3DElf/releases/download/v0.2.0/3DElf.3dsx
+  3DElf.cia:
+    size: 472000
+    url: https://github.com/SuperSaiyajinStackZ/3DElf/releases/download/v0.2.0/3DElf.cia
 github: SuperSaiyajinStackZ/3DElf
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/icon.png
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/banner.png
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 qr:
   3DElf.cia: https://db.universal-team.net/assets/images/qr/3delf.cia.png
 source: https://github.com/SuperSaiyajinStackZ/3DElf

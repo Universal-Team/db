@@ -8,7 +8,9 @@ description: "\U0001F342 Displays various information about your Nintendo 3DS in
   \ colors."
 download_page: https://github.com/aliceinpalth/3dfetch/releases/tag/1.10
 downloads:
-  3dfetch.cia: https://github.com/aliceinpalth/3dfetch/releases/download/1.10/3dfetch.cia
+  3dfetch.cia:
+    size: 2528192
+    url: https://github.com/aliceinpalth/3dfetch/releases/download/1.10/3dfetch.cia
 github: aliceinpalth/3dfetch
 icon: https://raw.githubusercontent.com/aliceinpalth/3dfetch/master/icon.png
 image: https://raw.githubusercontent.com/aliceinpalth/3dfetch/master/banner.png

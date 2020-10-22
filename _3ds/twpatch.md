@@ -7,14 +7,16 @@ created: '2019-07-23T19:16:11Z'
 description: TWPatch alpha
 download_page: https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/
 downloads:
-  TWPatch.cia: https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia
+  TWPatch.cia:
+    url: https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia
 github: SonoSooS/TWPatch_a
 icon: https://raw.githubusercontent.com/SonoSooS/TWPatch_a/master/assets/logo.png
 image: https://raw.githubusercontent.com/SonoSooS/TWPatch_a/master/assets/banner.png
 layout: app
 prerelease:
   downloads:
-    TWPatch.cia: https://puu.sh/GoWHS/9459f224fb.cia
+    TWPatch.cia:
+      url: https://puu.sh/GoWHS/9459f224fb.cia
   updated: '2020-09-03T19:23:00Z'
   version: 2020/09/03
 qr:

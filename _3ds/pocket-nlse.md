@@ -9,11 +9,15 @@ description: 'A portable save editor for Animal Crossing: New Leaf on the Ninten
   3DS'
 download_page: https://github.com/dragos240/Pocket-NLSE/releases/tag/v1.0.0
 downloads:
-  Pocket-NLSE-v1.0.0.zip: https://github.com/dragos240/Pocket-NLSE/releases/download/v1.0.0/Pocket-NLSE-v1.0.0.zip
+  Pocket-NLSE-v1.0.0.zip:
+    size: 2068489
+    url: https://github.com/dragos240/Pocket-NLSE/releases/download/v1.0.0/Pocket-NLSE-v1.0.0.zip
 github: dragos240/Pocket-NLSE
 icon: https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/icon.png
 image: https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/res/banner%20icon.png
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 source: https://github.com/dragos240/Pocket-NLSE
 systems:
 - 3DS

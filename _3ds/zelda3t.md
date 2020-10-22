@@ -7,8 +7,12 @@ created: '2017-08-17T18:53:01Z'
 description: Port to 3ds of the Zelda fan game Zelda Time to Triumph
 download_page: https://github.com/nop90/Zelda3T/releases/tag/v1.0
 downloads:
-  Zelda3T_3DSX_v1.0.zip: https://github.com/nop90/Zelda3T/releases/download/v1.0/Zelda3T_3DSX_v1.0.zip
-  Zelda3T_v1.0.cia: https://github.com/nop90/Zelda3T/releases/download/v1.0/Zelda3T_v1.0.cia
+  Zelda3T_3DSX_v1.0.zip:
+    size: 28244793
+    url: https://github.com/nop90/Zelda3T/releases/download/v1.0/Zelda3T_3DSX_v1.0.zip
+  Zelda3T_v1.0.cia:
+    size: 46773184
+    url: https://github.com/nop90/Zelda3T/releases/download/v1.0/Zelda3T_v1.0.cia
 github: nop90/Zelda3T
 icon: https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/banner.png

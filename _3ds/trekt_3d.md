@@ -7,8 +7,12 @@ created: '2017-08-26T12:59:26Z'
 description: T-Rekt for 3DS in C++
 download_page: https://github.com/Manurocker95/TRekt_3D/releases/tag/1.0
 downloads:
-  TRekt_3D.cia: https://github.com/Manurocker95/TRekt_3D/releases/download/1.0/TRekt_3D.cia
-  TRekt_3D.rar: https://github.com/Manurocker95/TRekt_3D/releases/download/1.0/TRekt_3D.rar
+  TRekt_3D.cia:
+    size: 6026176
+    url: https://github.com/Manurocker95/TRekt_3D/releases/download/1.0/TRekt_3D.cia
+  TRekt_3D.rar:
+    size: 7699415
+    url: https://github.com/Manurocker95/TRekt_3D/releases/download/1.0/TRekt_3D.rar
 github: Manurocker95/TRekt_3D
 icon: https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/resources/icon.png
 image: https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/resources/banner.png

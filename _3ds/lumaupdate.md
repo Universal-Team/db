@@ -7,12 +7,18 @@ created: '2017-04-26T01:20:59Z'
 description: Updater for Luma3DS
 download_page: https://github.com/KunoichiZ/lumaupdate/releases/tag/v2.5
 downloads:
-  lumaupdater-2.5.zip: https://github.com/KunoichiZ/lumaupdate/releases/download/v2.5/lumaupdater-2.5.zip
-  lumaupdater.cia: https://github.com/KunoichiZ/lumaupdate/releases/download/v2.5/lumaupdater.cia
+  lumaupdater-2.5.zip:
+    size: 2009306
+    url: https://github.com/KunoichiZ/lumaupdate/releases/download/v2.5/lumaupdater-2.5.zip
+  lumaupdater.cia:
+    size: 1468352
+    url: https://github.com/KunoichiZ/lumaupdate/releases/download/v2.5/lumaupdater.cia
 github: KunoichiZ/lumaupdate
 icon: https://raw.githubusercontent.com/KunoichiZ/lumaupdate/master/meta/icon.png
 image: https://avatars1.githubusercontent.com/u/19984244?v=4
 layout: app
+license: wtfpl
+license_name: Do What The F*ck You Want To Public License
 qr:
   lumaupdater.cia: https://db.universal-team.net/assets/images/qr/lumaupdater.cia.png
 source: https://github.com/KunoichiZ/lumaupdate

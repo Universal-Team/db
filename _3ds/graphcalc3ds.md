@@ -7,12 +7,18 @@ created: '2015-10-04T00:18:09Z'
 description: Simple graphing calculator for 3DS
 download_page: https://github.com/flarn2006/GraphCalc3DS/releases/tag/v1.5.1
 downloads:
-  GraphCalc3DS.cia: https://github.com/flarn2006/GraphCalc3DS/releases/download/v1.5.1/GraphCalc3DS.cia
-  GraphCalc3DS_3DSX.zip: https://github.com/flarn2006/GraphCalc3DS/releases/download/v1.5.1/GraphCalc3DS_3DSX.zip
+  GraphCalc3DS.cia:
+    size: 1024960
+    url: https://github.com/flarn2006/GraphCalc3DS/releases/download/v1.5.1/GraphCalc3DS.cia
+  GraphCalc3DS_3DSX.zip:
+    size: 292107
+    url: https://github.com/flarn2006/GraphCalc3DS/releases/download/v1.5.1/GraphCalc3DS_3DSX.zip
 github: flarn2006/graphcalc3ds
 icon: https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/icon.png
 image: https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/banner.png
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 qr:
   GraphCalc3DS.cia: https://db.universal-team.net/assets/images/qr/graphcalc3ds.cia.png
 source: https://github.com/flarn2006/GraphCalc3DS

@@ -9,15 +9,20 @@ description: 'GodMode9i Explorer - A full access file browser for the Nintendo D
   and DSi consoles :godmode:'
 download_page: https://github.com/DS-Homebrew/GodMode9i/releases/tag/v2.5.0
 downloads:
-  GodMode9i.7z: https://github.com/DS-Homebrew/GodMode9i/releases/download/v2.5.0/GodMode9i.7z
+  GodMode9i.7z:
+    size: 167764
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v2.5.0/GodMode9i.7z
 github: DS-Homebrew/GodMode9i
 icon: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/icon.bmp
 image: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 nightly:
   download_page: https://github.com/TWLBot/Builds/blob/master/extras/GodMode9i.7z
   downloads:
-    Relaunch.7z: https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z
+    Relaunch.7z:
+      url: https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z
 source: https://github.com/DS-Homebrew/GodMode9i
 systems:
 - DS

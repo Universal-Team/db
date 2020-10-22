@@ -6,12 +6,18 @@ color: '#c0c0c0'
 created: '2019-05-26T12:57:45Z'
 download_page: https://github.com/HIDE810/WiFi-Status-Checker/releases/tag/1.0
 downloads:
-  WiFi.3dsx: https://github.com/HIDE810/WiFi-Status-Checker/releases/download/1.0/WiFi.3dsx
-  WiFi.cia: https://github.com/HIDE810/WiFi-Status-Checker/releases/download/1.0/WiFi.cia
+  WiFi.3dsx:
+    size: 175544
+    url: https://github.com/HIDE810/WiFi-Status-Checker/releases/download/1.0/WiFi.3dsx
+  WiFi.cia:
+    size: 542144
+    url: https://github.com/HIDE810/WiFi-Status-Checker/releases/download/1.0/WiFi.cia
 github: HIDE810/WiFi-Status-Checker
 icon: https://raw.githubusercontent.com/HIDE810/WiFi-Status-Checker/master/resource/icon.png
 image: https://raw.githubusercontent.com/HIDE810/WiFi-Status-Checker/master/resource/banner.png
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 qr:
   WiFi.cia: https://db.universal-team.net/assets/images/qr/wifi.cia.png
 source: https://github.com/HIDE810/WiFi-Status-Checker

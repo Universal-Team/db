@@ -7,11 +7,15 @@ created: '2016-10-13T20:48:22Z'
 description: A 3DS memory game!
 download_page: https://github.com/Omegadrien/Memory3DS/releases/tag/v1.0
 downloads:
-  Memory3DSv1.0.zip: https://github.com/Omegadrien/Memory3DS/releases/download/v1.0/Memory3DSv1.0.zip
+  Memory3DSv1.0.zip:
+    size: 19521332
+    url: https://github.com/Omegadrien/Memory3DS/releases/download/v1.0/Memory3DSv1.0.zip
 github: Omegadrien/Memory3DS
 icon: https://raw.githubusercontent.com/Omegadrien/Memory3DS/master/assets/icon.png
 image: https://raw.githubusercontent.com/Omegadrien/Memory3DS/master/assets/banner.png
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 source: https://github.com/Omegadrien/Memory3DS
 systems:
 - 3DS

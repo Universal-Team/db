@@ -8,12 +8,18 @@ description: 'OpenBOR is the ultimate 2D side scrolling engine for beat em'' ups
   shooters, and more! '
 download_page: https://github.com/MrHuu/openbor-3ds/releases/tag/v0.0.4
 downloads:
-  OpenBOR.3dsx: https://github.com/MrHuu/openbor-3ds/releases/download/v0.0.4/OpenBOR.3dsx
-  OpenBOR.cia: https://github.com/MrHuu/openbor-3ds/releases/download/v0.0.4/OpenBOR.cia
+  OpenBOR.3dsx:
+    size: 1753404
+    url: https://github.com/MrHuu/openbor-3ds/releases/download/v0.0.4/OpenBOR.3dsx
+  OpenBOR.cia:
+    size: 1188288
+    url: https://github.com/MrHuu/openbor-3ds/releases/download/v0.0.4/OpenBOR.cia
 github: MrHuu/openbor-3ds
 icon: https://raw.githubusercontent.com/MrHuu/openbor-3ds/3DS/engine/resources/ctr/OpenBOR_Icon_48x48.png
 image: https://raw.githubusercontent.com/MrHuu/openbor-3ds/3DS/engine/resources/ctr/OpenBOR_Logo_256x128.png
 layout: app
+license: bsd-3-clause
+license_name: BSD 3-Clause "New" or "Revised" License
 qr:
   OpenBOR.cia: https://db.universal-team.net/assets/images/qr/openbor.cia.png
 source: https://github.com/MrHuu/openbor-3ds

@@ -7,13 +7,21 @@ created: '2019-12-02T01:37:45Z'
 description: A Pokemon Shiny Encounter Tool.
 download_page: https://github.com/SuperSaiyajinStackZ/PKCount/releases/tag/v0.0.2
 downloads:
-  PKCount.3dsx: https://github.com/SuperSaiyajinStackZ/PKCount/releases/download/v0.0.2/PKCount.3dsx
-  PKCount.cia: https://github.com/SuperSaiyajinStackZ/PKCount/releases/download/v0.0.2/PKCount.cia
-  PKCount.nds: https://github.com/SuperSaiyajinStackZ/PKCount/releases/download/v0.0.2/PKCount.nds
+  PKCount.3dsx:
+    size: 767504
+    url: https://github.com/SuperSaiyajinStackZ/PKCount/releases/download/v0.0.2/PKCount.3dsx
+  PKCount.cia:
+    size: 582592
+    url: https://github.com/SuperSaiyajinStackZ/PKCount/releases/download/v0.0.2/PKCount.cia
+  PKCount.nds:
+    size: 719872
+    url: https://github.com/SuperSaiyajinStackZ/PKCount/releases/download/v0.0.2/PKCount.nds
 github: SuperSaiyajinStackZ/PKCount
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/PKCount/master/3DS/app/icon.png
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/PKCount/master/3DS/app/banner.png
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 qr:
   PKCount.cia: https://db.universal-team.net/assets/images/qr/pkcount.cia.png
 source: https://github.com/SuperSaiyajinStackZ/PKCount

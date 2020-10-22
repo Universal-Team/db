@@ -7,13 +7,21 @@ created: '2016-03-04T08:01:22Z'
 description: Panel de Pon (Tetris Attack) clone for the 3ds.
 download_page: https://github.com/TricksterGuy/bottomless-block-barrage/releases/tag/v0.2.0
 downloads:
-  bottomless-block-barrage.3ds: https://github.com/TricksterGuy/bottomless-block-barrage/releases/download/v0.2.0/bottomless-block-barrage.3ds
-  bottomless-block-barrage.cia: https://github.com/TricksterGuy/bottomless-block-barrage/releases/download/v0.2.0/bottomless-block-barrage.cia
-  bottomless-block-barrage.zip: https://github.com/TricksterGuy/bottomless-block-barrage/releases/download/v0.2.0/bottomless-block-barrage.zip
+  bottomless-block-barrage.3ds:
+    size: 1355776
+    url: https://github.com/TricksterGuy/bottomless-block-barrage/releases/download/v0.2.0/bottomless-block-barrage.3ds
+  bottomless-block-barrage.cia:
+    size: 1369024
+    url: https://github.com/TricksterGuy/bottomless-block-barrage/releases/download/v0.2.0/bottomless-block-barrage.cia
+  bottomless-block-barrage.zip:
+    size: 710782
+    url: https://github.com/TricksterGuy/bottomless-block-barrage/releases/download/v0.2.0/bottomless-block-barrage.zip
 github: TricksterGuy/bottomless-block-barrage
 icon: https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/master/resources/icon.png
 image: https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/master/resources/banner.png
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 qr:
   bottomless-block-barrage.cia: https://db.universal-team.net/assets/images/qr/bottomless-block-barrage.cia.png
 source: https://github.com/TricksterGuy/bottomless-block-barrage

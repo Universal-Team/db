@@ -13,7 +13,9 @@ layout: app
 prerelease:
   download_page: https://github.com/nop90/ZeldaPicross/releases/tag/v1%2C0RC
   downloads:
-    ZeldaPicross.1.0RC.zip: https://github.com/nop90/ZeldaPicross/releases/download/v1%2C0RC/ZeldaPicross.1.0RC.zip
+    ZeldaPicross.1.0RC.zip:
+      size: 23147777
+      url: https://github.com/nop90/ZeldaPicross/releases/download/v1%2C0RC/ZeldaPicross.1.0RC.zip
   updated: '2017-01-02T12:35:39Z'
   version: v1,0RC
   version_title: CIA Build

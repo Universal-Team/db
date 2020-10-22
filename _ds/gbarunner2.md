@@ -7,10 +7,18 @@ created: '2016-08-17T16:49:13Z'
 description: A GBA hypervisor for DS. (like nintendont for gc on wii)
 download_page: https://github.com/Gericom/GBARunner2/releases/tag/v20200812-131430_6e4ce45
 downloads:
-  GBARunner2_arm7dldi_3ds.nds: https://github.com/Gericom/GBARunner2/releases/download/v20200812-131430_6e4ce45/GBARunner2_arm7dldi_3ds.nds
-  GBARunner2_arm7dldi_ds.nds: https://github.com/Gericom/GBARunner2/releases/download/v20200812-131430_6e4ce45/GBARunner2_arm7dldi_ds.nds
-  GBARunner2_arm7dldi_dsi.nds: https://github.com/Gericom/GBARunner2/releases/download/v20200812-131430_6e4ce45/GBARunner2_arm7dldi_dsi.nds
-  GBARunner2_arm9dldi_ds.nds: https://github.com/Gericom/GBARunner2/releases/download/v20200812-131430_6e4ce45/GBARunner2_arm9dldi_ds.nds
+  GBARunner2_arm7dldi_3ds.nds:
+    size: 265792
+    url: https://github.com/Gericom/GBARunner2/releases/download/v20200812-131430_6e4ce45/GBARunner2_arm7dldi_3ds.nds
+  GBARunner2_arm7dldi_ds.nds:
+    size: 265280
+    url: https://github.com/Gericom/GBARunner2/releases/download/v20200812-131430_6e4ce45/GBARunner2_arm7dldi_ds.nds
+  GBARunner2_arm7dldi_dsi.nds:
+    size: 265792
+    url: https://github.com/Gericom/GBARunner2/releases/download/v20200812-131430_6e4ce45/GBARunner2_arm7dldi_dsi.nds
+  GBARunner2_arm9dldi_ds.nds:
+    size: 264768
+    url: https://github.com/Gericom/GBARunner2/releases/download/v20200812-131430_6e4ce45/GBARunner2_arm9dldi_ds.nds
 github: Gericom/GBARunner2
 icon: https://raw.githubusercontent.com/Gericom/GBARunner2/master/icon.bmp
 image: https://avatars2.githubusercontent.com/u/5251038?v=4

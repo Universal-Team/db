@@ -7,16 +7,23 @@ created: '2016-09-11T19:50:26Z'
 description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.35.1
 downloads:
-  nds-bootstrap.7z: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.35.1/nds-bootstrap.7z
-  nds-bootstrap.zip: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.35.1/nds-bootstrap.zip
+  nds-bootstrap.7z:
+    size: 440991
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.35.1/nds-bootstrap.7z
+  nds-bootstrap.zip:
+    size: 1088985
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.35.1/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://raw.githubusercontent.com/DS-Homebrew/nds-bootstrap/master/retail/assets/icon.bmp
 image: https://i.imgur.com/BFIu7xX.png
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 nightly:
   download_page: https://github.com/TWLBot/Builds
   downloads:
-    nds-bootstrap.7z: https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z
+    nds-bootstrap.7z:
+      url: https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z
 scripts:
   nds-bootstrap Nightly:
   - file: https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z

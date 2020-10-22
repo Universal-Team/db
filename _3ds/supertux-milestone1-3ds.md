@@ -10,10 +10,14 @@ github: nop90/Supertux-Milestone1-3ds
 icon: https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/banner.png
 layout: app
+license: gpl-2.0
+license_name: GNU General Public License v2.0
 prerelease:
   download_page: https://github.com/nop90/Supertux-Milestone1-3ds/releases/tag/v0.1
   downloads:
-    Supertux_M1_v0.1a.zip: https://github.com/nop90/Supertux-Milestone1-3ds/releases/download/v0.1/Supertux_M1_v0.1a.zip
+    Supertux_M1_v0.1a.zip:
+      size: 16342520
+      url: https://github.com/nop90/Supertux-Milestone1-3ds/releases/download/v0.1/Supertux_M1_v0.1a.zip
   updated: '2017-03-22T22:55:55Z'
   version: v0.1
   version_title: First release

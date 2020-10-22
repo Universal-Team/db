@@ -7,8 +7,12 @@ created: '2015-11-29T08:18:36Z'
 description: Temporarily suppresses the 3ds update nag.
 download_page: https://github.com/GiantBlargg/UpdateSuppressor/releases/tag/v0.2.0
 downloads:
-  UpdateSuppressor-3dsx.zip: https://github.com/GiantBlargg/UpdateSuppressor/releases/download/v0.2.0/UpdateSuppressor-3dsx.zip
-  UpdateSuppressor.cia: https://github.com/GiantBlargg/UpdateSuppressor/releases/download/v0.2.0/UpdateSuppressor.cia
+  UpdateSuppressor-3dsx.zip:
+    size: 91407
+    url: https://github.com/GiantBlargg/UpdateSuppressor/releases/download/v0.2.0/UpdateSuppressor-3dsx.zip
+  UpdateSuppressor.cia:
+    size: 557504
+    url: https://github.com/GiantBlargg/UpdateSuppressor/releases/download/v0.2.0/UpdateSuppressor.cia
 github: GiantBlargg/UpdateSuppressor
 icon: https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/icon.png
 image: https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/banner.png

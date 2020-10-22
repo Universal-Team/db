@@ -7,8 +7,12 @@ created: '2017-04-16T16:13:10Z'
 description: Small Game for 3DS in C++
 download_page: https://github.com/Manurocker95/WITB_3D/releases/tag/1.1
 downloads:
-  WITB_3D.cia: https://github.com/Manurocker95/WITB_3D/releases/download/1.1/WITB_3D.cia
-  WITB_3D.rar: https://github.com/Manurocker95/WITB_3D/releases/download/1.1/WITB_3D.rar
+  WITB_3D.cia:
+    size: 4899776
+    url: https://github.com/Manurocker95/WITB_3D/releases/download/1.1/WITB_3D.cia
+  WITB_3D.rar:
+    size: 5982710
+    url: https://github.com/Manurocker95/WITB_3D/releases/download/1.1/WITB_3D.rar
 github: Manurocker95/WITB_3D
 icon: https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/icon.png
 image: https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/resources/banner.png

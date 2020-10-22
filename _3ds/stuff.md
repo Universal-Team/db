@@ -7,7 +7,9 @@ created: '2017-07-31T01:35:11Z'
 description: Random 3ds stuff that probably deserves its own repo
 download_page: https://github.com/zoogie/Stuff/releases/tag/0.6.0
 downloads:
-  nds-hb-menu.cia: https://github.com/zoogie/Stuff/releases/download/0.6.0/nds-hb-menu.cia
+  nds-hb-menu.cia:
+    size: 689088
+    url: https://github.com/zoogie/Stuff/releases/download/0.6.0/nds-hb-menu.cia
 github: zoogie/Stuff
 icon: https://raw.githubusercontent.com/zoogie/Stuff/master/nds-hb-menu/cia/icon.png
 image: https://raw.githubusercontent.com/zoogie/Stuff/master/nds-hb-menu/cia/banner.png

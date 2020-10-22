@@ -192,11 +192,12 @@ for app in source:
 		if not "wiki" in app and api["has_wiki"]:
 			app["wiki"] = api["html_url"] + "/wiki"
 
-		if not "license" in app:
-			app["license"] = api["license"]["key"]
+		if api["license"]:
+			if not "license" in app:
+				app["license"] = api["license"]["key"]
 
-		if not "license_name" in app:
-			app["license_name"] = api["license"]["name"]
+			if not "license_name" in app:
+				app["license_name"] = api["license"]["name"]
 
 		if release:
 			if not "download_page" in app:
