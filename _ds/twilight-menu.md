@@ -28,11 +28,16 @@ license_name: GNU General Public License v3.0
 nightly:
   download_page: https://github.com/TWLBot/Builds
   downloads:
-    TWiLightMenu-3DS.7z: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z
-    TWiLightMenu-DSi.7z: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-DSi.7z
-    TWiLightMenu-Flashcard.7z: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Flashcard.7z
-    TWiLightMenu-Lite.7z: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Lite.7z
-    TWiLightMenu.7z: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu.7z
+    TWiLightMenu-3DS.7z:
+      url: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z
+    TWiLightMenu-DSi.7z:
+      url: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-DSi.7z
+    TWiLightMenu-Flashcard.7z:
+      url: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Flashcard.7z
+    TWiLightMenu-Lite.7z:
+      url: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Lite.7z
+    TWiLightMenu.7z:
+      url: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu.7z
 scripts:
   TWiLight Menu++ Nightly:
   - file: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z
