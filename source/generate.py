@@ -35,7 +35,16 @@ def downloadScript(file, url):
 			{
 				"type": "downloadFile",
 				"file": url,
-				"output": "sdmc:/3ds/" + file,
+				"output": "%3DSX%/" + file,
+				"message": "Downloading " + file + "..."
+			}
+		]
+	elif file[file.rfind(".") + 1:].lower() == "nds":
+		return [
+			{
+				"type": "downloadFile",
+				"file": url,
+				"output": "%NDS%/" + file,
 				"message": "Downloading " + file + "..."
 			}
 		]
@@ -79,7 +88,7 @@ def downloadScript(file, url):
 				"type": "extractFile",
 				"file": "sdmc:/" + file,
 				"input": "",
-				"output": "/" + file[0:file.find(".")] + "/",
+				"output": "%ARCHIVE_DEFAULT%/" + file[0:file.find(".")] + "/",
 				"message": "Extracting " + file + "..."
 			},
 			{
