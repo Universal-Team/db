@@ -252,7 +252,7 @@ for app in source:
 			app["author"] = api["owner"]["display_name"]
 
 		if not "description" in app:
-			app["description"] = api["description"]
+			app["description"] = api["description"].replace("\r\n", "\n")
 
 		if not "image" in app:
 			app["image"] = api["links"]["avatar"]["href"]
