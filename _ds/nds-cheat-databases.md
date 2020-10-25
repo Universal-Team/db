@@ -16,9 +16,11 @@ categories:
 - extra
 color: '#84836f'
 created: '2020-06-11T03:21:33.747363+00:00'
-description: "These cheat database sets are for Nintendo DS flashcarts, cheating devices,\
-  \ emulators, and homebrew applications\r\nfor various compatible devices. Each database\
-  \ contains Action Replay codes for your favorite NDS games."
+description: 'These cheat database sets are for Nintendo DS flashcarts, cheating devices,
+  emulators, and homebrew applications
+
+  for various compatible devices. Each database contains Action Replay codes for your
+  favorite NDS games.'
 download_page: https://bitbucket.org/DeadSkullzJr/nds-cheat-databases/src/master/Cheats/cheat.dat
 downloads:
   Cheats/cheat.dat:
