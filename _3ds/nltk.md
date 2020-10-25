@@ -11,11 +11,17 @@ github: Slattz/NLTK
 icon: https://raw.githubusercontent.com/Slattz/NLTK/master/assets/meta/icon.png
 image: https://raw.githubusercontent.com/Slattz/NLTK/master/assets/meta/banner.png
 layout: app
+license: mit
+license_name: MIT License
 prerelease:
   download_page: https://github.com/Slattz/NLTK/releases/tag/Nightly
   downloads:
-    NLTK.3dsx: https://github.com/Slattz/NLTK/releases/download/Nightly/NLTK.3dsx
-    NLTK.cia: https://github.com/Slattz/NLTK/releases/download/Nightly/NLTK.cia
+    NLTK.3dsx:
+      size: 5542448
+      url: https://github.com/Slattz/NLTK/releases/download/Nightly/NLTK.3dsx
+    NLTK.cia:
+      size: 4965312
+      url: https://github.com/Slattz/NLTK/releases/download/Nightly/NLTK.cia
   updated: '2019-05-15T19:45:48Z'
   version: Nightly
   version_title: Nightly Build

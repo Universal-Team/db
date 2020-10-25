@@ -13,8 +13,12 @@ layout: app
 prerelease:
   download_page: https://github.com/nop90/Neopop-SDL/releases/tag/v0.4
   downloads:
-    neopop_3DSX_v0.4.zip: https://github.com/nop90/Neopop-SDL/releases/download/v0.4/neopop_3DSX_v0.4.zip
-    neopop_v0.4.cia: https://github.com/nop90/Neopop-SDL/releases/download/v0.4/neopop_v0.4.cia
+    neopop_3DSX_v0.4.zip:
+      size: 415884
+      url: https://github.com/nop90/Neopop-SDL/releases/download/v0.4/neopop_3DSX_v0.4.zip
+    neopop_v0.4.cia:
+      size: 1180608
+      url: https://github.com/nop90/Neopop-SDL/releases/download/v0.4/neopop_v0.4.cia
   updated: '2017-06-14T18:53:35Z'
   version: v0.4
   version_title: Menu completed

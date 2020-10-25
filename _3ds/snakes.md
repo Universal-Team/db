@@ -7,8 +7,12 @@ created: '2017-01-06T21:56:01Z'
 description: Local play snake game for 3DS homebrew/cfw
 download_page: https://github.com/DDews/Snakes/releases/tag/0.2.5
 downloads:
-  snakes.3dsx: https://github.com/DDews/Snakes/releases/download/0.2.5/snakes.3dsx
-  snakes.cia: https://github.com/DDews/Snakes/releases/download/0.2.5/snakes.cia
+  snakes.3dsx:
+    size: 327356
+    url: https://github.com/DDews/Snakes/releases/download/0.2.5/snakes.3dsx
+  snakes.cia:
+    size: 781248
+    url: https://github.com/DDews/Snakes/releases/download/0.2.5/snakes.cia
 github: DDews/Snakes
 icon: https://raw.githubusercontent.com/DDews/Snakes/master/meta/icon.png
 image: https://raw.githubusercontent.com/DDews/Snakes/master/meta/banner.png

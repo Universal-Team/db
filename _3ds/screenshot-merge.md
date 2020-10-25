@@ -7,12 +7,18 @@ created: '2015-12-10T01:06:58Z'
 description: screenshot merging tool for Nintendo 3DS
 download_page: https://github.com/ihaveamac/screenshot-merge/releases/tag/1.4
 downloads:
-  screenshot-merge.3dsx: https://github.com/ihaveamac/screenshot-merge/releases/download/1.4/screenshot-merge.3dsx
-  screenshot-merge1.4.cia: https://github.com/ihaveamac/screenshot-merge/releases/download/1.4/screenshot-merge1.4.cia
+  screenshot-merge.3dsx:
+    size: 1509892
+    url: https://github.com/ihaveamac/screenshot-merge/releases/download/1.4/screenshot-merge.3dsx
+  screenshot-merge1.4.cia:
+    size: 1012672
+    url: https://github.com/ihaveamac/screenshot-merge/releases/download/1.4/screenshot-merge1.4.cia
 github: ihaveamac/screenshot-merge
 icon: https://raw.githubusercontent.com/ihaveamac/screenshot-merge/master/resources/icon.png
 image: https://raw.githubusercontent.com/ihaveamac/screenshot-merge/master/resources/banner.png
 layout: app
+license: mit
+license_name: MIT License
 qr:
   screenshot-merge1.4.cia: https://db.universal-team.net/assets/images/qr/screenshot-merge1.4.cia.png
 source: https://github.com/ihaveamac/screenshot-merge

@@ -7,7 +7,9 @@ created: '2017-08-04T22:17:54Z'
 description: A demonstration of the 800px mode on 3DS consoles.
 download_page: https://github.com/RocketRobz/HoriHD-Gallery/releases/tag/v1.0.2
 downloads:
-  HoriHD-Gallery.7z: https://github.com/RocketRobz/HoriHD-Gallery/releases/download/v1.0.2/HoriHD-Gallery.7z
+  HoriHD-Gallery.7z:
+    size: 36652357
+    url: https://github.com/RocketRobz/HoriHD-Gallery/releases/download/v1.0.2/HoriHD-Gallery.7z
 github: RocketRobz/HoriHD-Gallery
 icon: https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/icon.png
 image: https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/banner.png

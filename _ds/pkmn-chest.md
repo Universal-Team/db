@@ -9,17 +9,25 @@ description: "A Pok\xE9mon Bank for the 3rd through 5th generation Pok\xE9mon ga
   \ for the Nintendo DS(i)."
 download_page: https://github.com/Universal-Team/pkmn-chest/releases/tag/v2.2
 downloads:
-  pkmn-chest.cia: https://github.com/Universal-Team/pkmn-chest/releases/download/v2.2/pkmn-chest.cia
-  pkmn-chest.nds: https://github.com/Universal-Team/pkmn-chest/releases/download/v2.2/pkmn-chest.nds
+  pkmn-chest.cia:
+    size: 1546496
+    url: https://github.com/Universal-Team/pkmn-chest/releases/download/v2.2/pkmn-chest.cia
+  pkmn-chest.nds:
+    size: 7269376
+    url: https://github.com/Universal-Team/pkmn-chest/releases/download/v2.2/pkmn-chest.nds
 github: Universal-Team/pkmn-chest
 icon: https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/icon.bmp
 image: https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/resources/icon.png
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 nightly:
   download_page: https://github.com/Universal-Team/extras/tree/master/builds/pkmn-chest
   downloads:
-    pkmn-chest.cia: https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.cia
-    pkmn-chest.nds: https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.nds
+    pkmn-chest.cia:
+      url: https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.cia
+    pkmn-chest.nds:
+      url: https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.nds
   qr:
     pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/nightly/pkmn-chest.cia.png
 qr:

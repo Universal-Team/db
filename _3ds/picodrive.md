@@ -7,7 +7,9 @@ created: '2018-01-06T16:44:35Z'
 description: This is a port of notaz's PicoDrive emulator to the old 3DS and old 2DS.
 download_page: https://github.com/bubble2k16/picodrive_3ds/releases/tag/v0.94
 downloads:
-  picodrive_3ds-v0.94.zip: https://github.com/bubble2k16/picodrive_3ds/releases/download/v0.94/picodrive_3ds-v0.94.zip
+  picodrive_3ds-v0.94.zip:
+    size: 1372485
+    url: https://github.com/bubble2k16/picodrive_3ds/releases/download/v0.94/picodrive_3ds-v0.94.zip
 github: bubble2k16/picodrive_3ds
 icon: https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/picodrive/assets/icon.png
 image: https://db.universal-team.net/assets/images/images/picodrive.png

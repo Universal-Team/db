@@ -9,8 +9,12 @@
 		"nightly": {
 			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/Universal-Updater",
 			"downloads": {
-				"Universal-Updater.3dsx": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.3dsx",
-				"Universal-Updater.cia": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.cia"
+				"Universal-Updater.3dsx": {
+					"url": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.3dsx"
+				},
+				"Universal-Updater.cia": {
+					"url": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.cia"
+				}
 			}
 		}
 	},
@@ -24,8 +28,12 @@
 		"nightly": {
 			"download_page": "https://github.com/TWLBot/Builds/tree/master/TWiLightMenu-Updater",
 			"downloads": {
-				"TWiLight_Menu_++_Updater.3dsx": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Updater/TWiLight_Menu%2B%2B_Updater.3dsx",
-				"TWiLight_Menu_++_Updater.cia": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Updater/TWiLight_Menu%2B%2B_Updater.cia"
+				"TWiLight_Menu_++_Updater.3dsx": {
+					"url": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Updater/TWiLight_Menu%2B%2B_Updater.3dsx"
+				},
+				"TWiLight_Menu_++_Updater.cia": {
+					"url": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Updater/TWiLight_Menu%2B%2B_Updater.cia"
+				}
 			}
 		}
 	},
@@ -39,8 +47,12 @@
 		"nightly": {
 			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/3DEins",
 			"downloads": {
-				"3DEins.3dsx": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.3dsx",
-				"3DEins.cia": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.cia"
+				"3DEins.3dsx": {
+					"url": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.3dsx"
+				},
+				"3DEins.cia": {
+					"url": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.cia"
+				}
 			}
 		}
 	},
@@ -53,8 +65,12 @@
 		"nightly": {
 			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/3DVier",
 			"downloads": {
-				"3DVier.3dsx": "https://github.com/Universal-Team/extras/raw/master/builds/3DVier/3DVier.3dsx",
-				"3DVier.cia": "https://github.com/Universal-Team/extras/raw/master/builds/3DVier/3DVier.cia"
+				"3DVier.3dsx": {
+					"url": "https://github.com/Universal-Team/extras/raw/master/builds/3DVier/3DVier.3dsx"
+				},
+				"3DVier.cia": {
+					"url": "https://github.com/Universal-Team/extras/raw/master/builds/3DVier/3DVier.cia"
+				}
 			}
 		}
 	},
@@ -84,8 +100,12 @@
 		"nightly": {
 			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/LeafEdit",
 			"downloads": {
-				"LeafEdit.3dsx": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.3dsx",
-				"LeafEdit.cia": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.cia"
+				"LeafEdit.3dsx": {
+					"url": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.3dsx"
+				},
+				"LeafEdit.cia": {
+					"url": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.cia"
+				}
 			}
 		}
 	},
@@ -98,8 +118,12 @@
 		"nightly": {
 			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/Universal-Edit",
 			"downloads": {
-				"Universal-Edit.3dsx": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Edit/Universal-Edit.3dsx",
-				"Universal-Edit.cia": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Edit/Universal-Edit.cia"
+				"Universal-Edit.3dsx": {
+					"url": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Edit/Universal-Edit.3dsx"
+				},
+				"Universal-Edit.cia": {
+					"url": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Edit/Universal-Edit.cia"
+				}
 			}
 		}
 	},
@@ -113,8 +137,12 @@
 		"nightly": {
 			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/pkmn-chest",
 			"downloads": {
-				"pkmn-chest.nds": "https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.nds",
-				"pkmn-chest.cia": "https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.cia"
+				"pkmn-chest.nds": {
+					"url": "https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.nds"
+				},
+				"pkmn-chest.cia": {
+					"url": "https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.cia"
+				}
 			}
 		}
 	},
@@ -127,7 +155,9 @@
 		"nightly": {
 			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/Relaunch",
 			"downloads": {
-				"Relaunch.7z": "https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z"
+				"Relaunch.7z": {
+					"url": "https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z"
+				}
 			}
 		}
 	},
@@ -147,7 +177,9 @@
 		"nightly": {
 			"download_page": "https://github.com/TWLBot/Builds/blob/master/extras/GodMode9i.7z",
 			"downloads": {
-				"Relaunch.7z": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z"
+				"Relaunch.7z": {
+					"url": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z"
+				}
 			}
 		}
 	},
@@ -157,8 +189,12 @@
 		"categories": ["game"],
 		"systems": ["DS"],
 		"downloads": {
-			"DScraft_310811.rar": "https://web.archive.org/web/20160407220910if_/http://smealum.net/dscraft/downloads/DScraft_310811.rar",
-			"DScraft_fat_310811.rar": "https://web.archive.org/web/20160112071851if_/http://smealum.net/dscraft/downloads/DScraft_fat_310811.rar"
+			"DScraft_310811.rar": {
+				"url": "https://web.archive.org/web/20160407220910if_/http://smealum.net/dscraft/downloads/DScraft_310811.rar"
+			},
+			"DScraft_fat_310811.rar": {
+				"url": "https://web.archive.org/web/20160112071851if_/http://smealum.net/dscraft/downloads/DScraft_fat_310811.rar"
+			}
 		},
 		"download_page": "https://web.archive.org/web/20160818124931/http://smealum.net/dscraft/",
 		"website": "https://web.archive.org/web/20160818124931/http://smealum.net/dscraft/",
@@ -184,7 +220,9 @@
 		"description": "Colors! is a simplistic painting application combining ease of use and powerful painting tools.",
 		"categories": ["utility"],
 		"downloads": {
-			"Colors110ds.zip": "https://gamebrew.org/images/0/0e/Colors110ds.zip"
+			"Colors110ds.zip": {
+				"url": "https://gamebrew.org/images/0/0e/Colors110ds.zip"
+			}
 		},
 		"author": "Jens Andersson",
 		"website": "https://www.colorslive.com",
@@ -203,7 +241,9 @@
 		"source": "https://github.com/Gericom/YoutubeDS/tree/mpeg4player",
 		"download_page": "https://gbatemp.net/threads/mpeg4-player-for-ds-and-dsi.544095/page-2#post-9007621",
 		"downloads": {
-			"MPEG4Player.nds.zip": "https://gbatemp.net/attachments/mpeg4player-nds-zip.203629/"
+			"MPEG4Player.nds.zip": {
+				"url": "https://gbatemp.net/attachments/mpeg4player-nds-zip.203629/"
+			}
 		},
 		"version": "c633295",
 		"systems": ["DS"],
@@ -214,7 +254,9 @@
 		"categories": ["emulator"],
 		"github": "RocketRobz/nesDS",
 		"downloads": {
-			"ndsDS.nds": "https://raw.githubusercontent.com/RocketRobz/NesDS/master/release/nesDS.nds"
+			"nesDS.nds": {
+				"url": "https://raw.githubusercontent.com/RocketRobz/NesDS/master/release/nesDS.nds"
+			}
 		},
 		"download_page": "https://github.com/RocketRobz/NesDS/tree/master/release",
 		"author": "huiminghao / Coto",
@@ -229,7 +271,9 @@
 		"categories": ["emulator"],
 		"download_page": "http://lolsnes.kuribo64.net/download.php",
 		"downloads": {
-			"lolsnes.7z": "http://lolsnes.kuribo64.net/lolsnes.7z"
+			"lolsnes.7z": {
+				"url": "http://lolsnes.kuribo64.net/lolsnes.7z"
+			}
 		},
 		"version": "v1.0",
 		"updated": "2013-08-31T00:23:48Z",
@@ -239,7 +283,9 @@
 		"nightly": {
 			"download_page": "http://lolsnes.kuribo64.net/download.php",
 			"downloads": {
-				"git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip": "http://lolsnes.kuribo64.net/gitbuilds/git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip"
+				"git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip": {
+					"url": "http://lolsnes.kuribo64.net/gitbuilds/git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip"
+				}
 			}
 		}
 	},
@@ -264,7 +310,9 @@
 	{
 		"title": "jEnesisDS",
 		"downloads": {
-			"JEnesisDS0174.zip": "https://gamebrew.org/images/d/d5/JEnesisDS0174.zip"
+			"JEnesisDS0174.zip": {
+				"url": "https://gamebrew.org/images/d/d5/JEnesisDS0174.zip"
+			}
 		},
 		"categories": ["emulator"],
 		"version": "v0.7.4",
@@ -292,7 +340,9 @@
 		"icon": "https://raw.githubusercontent.com/chishm/nitrohax/master/icon.bmp",
 		"systems": ["DS"],
 		"downloads": {
-			"NitroHax.zip": "https://www.chishm.com/NitroHax/NitroHax.zip"
+			"NitroHax.zip": {
+				"url": "https://www.chishm.com/NitroHax/NitroHax.zip"
+			}
 		},
 		"website": "https://www.chishm.com/NitroHax/",
 		"download_page": "https://www.chishm.com/NitroHax/",
@@ -1146,8 +1196,12 @@
 		"nightly": {
 			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/3DZwei",
 			"downloads": {
-				"3DZwei.3dsx": "https://github.com/Universal-Team/extras/raw/master/builds/3DZwei/3DZwei.3dsx",
-				"3DZwei.cia": "https://github.com/Universal-Team/extras/raw/master/builds/3DZwei/3DZwei.cia"
+				"3DZwei.3dsx": {
+					"url": "https://github.com/Universal-Team/extras/raw/master/builds/3DZwei/3DZwei.3dsx"
+				},
+				"3DZwei.cia": {
+					"url": "https://github.com/Universal-Team/extras/raw/master/builds/3DZwei/3DZwei.cia"
+				}
 			}
 		}
 	},
@@ -1197,11 +1251,21 @@
 		"nightly": {
 			"download_page": "https://github.com/TWLBot/Builds",
 			"downloads": {
-				"TWiLightMenu-3DS.7z": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z",
-				"TWiLightMenu-DSi.7z": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-DSi.7z",
-				"TWiLightMenu-Flashcard.7z": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Flashcard.7z",
-				"TWiLightMenu-Lite.7z": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Lite.7z",
-				"TWiLightMenu.7z": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu.7z"
+				"TWiLightMenu-3DS.7z": {
+					"url": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z"
+				},
+				"TWiLightMenu-DSi.7z": {
+					"url": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-DSi.7z"
+				},
+				"TWiLightMenu-Flashcard.7z": {
+					"url": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Flashcard.7z"
+				},
+				"TWiLightMenu-Lite.7z": {
+					"url": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Lite.7z"
+				},
+				"TWiLightMenu.7z": {
+					"url": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu.7z"
+				}
 			}
 		},
 		"scripts": {
@@ -1342,7 +1406,9 @@
 		"nightly": {
 			"download_page": "https://github.com/TWLBot/Builds",
 			"downloads": {
-				"nds-bootstrap.7z": "https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z"
+				"nds-bootstrap.7z": {
+					"url": "https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z"
+				}
 			}
 		},
 		"scripts": {
@@ -1650,7 +1716,9 @@
 		"image": "https://raw.githubusercontent.com/SonoSooS/TWPatch_a/master/assets/banner.png",
 		"icon": "https://raw.githubusercontent.com/SonoSooS/TWPatch_a/master/assets/logo.png",
 		"downloads": {
-			"TWPatch.cia": "https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia"
+			"TWPatch.cia": {
+				"url": "https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia"
+			}
 		},
 		"version": "stable",
 		"version_title": "outdated",
@@ -1660,7 +1728,9 @@
 			"version": "2020/09/03",
 			"updated": "2020-09-03T19:23:00Z",
 			"downloads": {
-				"TWPatch.cia": "https://puu.sh/GoWHS/9459f224fb.cia"
+				"TWPatch.cia": {
+					"url": "https://puu.sh/GoWHS/9459f224fb.cia"
+				}
 			}
 		}
 	},

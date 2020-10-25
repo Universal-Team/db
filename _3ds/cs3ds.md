@@ -13,7 +13,9 @@ layout: app
 prerelease:
   download_page: https://github.com/machinamentum/CS3DS/releases/tag/0.6-alpha
   downloads:
-    cspsp.zip: https://github.com/machinamentum/CS3DS/releases/download/0.6-alpha/cspsp.zip
+    cspsp.zip:
+      size: 7314200
+      url: https://github.com/machinamentum/CS3DS/releases/download/0.6-alpha/cspsp.zip
   updated: '2016-04-22T01:51:31Z'
   version: 0.6-alpha
 source: https://github.com/machinamentum/CS3DS

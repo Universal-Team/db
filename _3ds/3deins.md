@@ -7,19 +7,31 @@ created: '2019-11-18T16:59:30Z'
 description: A Card game for Nintendo 3DS & DS(i)!
 download_page: https://github.com/Universal-Team/3DEins/releases/tag/v0.2.0
 downloads:
-  3DEins.3dsx: https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/3DEins.3dsx
-  3DEins.cia: https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/3DEins.cia
-  DSEins.nds: https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/DSEins.nds
-  DSEins.nds.cia: https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/DSEins.nds.cia
+  3DEins.3dsx:
+    size: 1482056
+    url: https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/3DEins.3dsx
+  3DEins.cia:
+    size: 1209280
+    url: https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/3DEins.cia
+  DSEins.nds:
+    size: 928768
+    url: https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/DSEins.nds
+  DSEins.nds.cia:
+    size: 943360
+    url: https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/DSEins.nds.cia
 github: Universal-Team/3DEins
 icon: https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/banner.png
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 nightly:
   download_page: https://github.com/Universal-Team/extras/tree/master/builds/3DEins
   downloads:
-    3DEins.3dsx: https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.3dsx
-    3DEins.cia: https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.cia
+    3DEins.3dsx:
+      url: https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.3dsx
+    3DEins.cia:
+      url: https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.cia
   qr:
     3DEins.cia: https://db.universal-team.net/assets/images/qr/nightly/3deins.cia.png
 qr:

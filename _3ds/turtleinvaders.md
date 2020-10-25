@@ -7,11 +7,15 @@ created: '2015-08-29T03:59:28Z'
 description: A fixed-axis shooter with netplay
 download_page: https://github.com/TurtleP/TurtleInvaders/releases/tag/v1.0.2
 downloads:
-  TurtleInvaders.zip: https://github.com/TurtleP/TurtleInvaders/releases/download/v1.0.2/TurtleInvaders.zip
+  TurtleInvaders.zip:
+    size: 5546969
+    url: https://github.com/TurtleP/TurtleInvaders/releases/download/v1.0.2/TurtleInvaders.zip
 github: TurtleP/TurtleInvaders
 icon: https://db.universal-team.net/assets/images/icons/turtleinvaders.png
 image: https://db.universal-team.net/assets/images/images/turtleinvaders.png
 layout: app
+license: other
+license_name: Other
 source: https://github.com/TurtleP/TurtleInvaders
 systems:
 - 3DS

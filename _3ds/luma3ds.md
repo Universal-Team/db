@@ -8,10 +8,14 @@ created: '2016-02-08T02:26:12Z'
 description: Noob-proof (N)3DS "Custom Firmware"
 download_page: https://github.com/LumaTeam/Luma3DS/releases/tag/v10.2
 downloads:
-  Luma3DSv10.2.zip: https://github.com/LumaTeam/Luma3DS/releases/download/v10.2/Luma3DSv10.2.zip
+  Luma3DSv10.2.zip:
+    size: 359574
+    url: https://github.com/LumaTeam/Luma3DS/releases/download/v10.2/Luma3DSv10.2.zip
 github: LumaTeam/Luma3DS
 image: https://avatars3.githubusercontent.com/u/65085206?v=4
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 scripts:
   Luma3DS Hourly (FIRM):
   - file: boot.firm

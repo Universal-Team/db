@@ -8,7 +8,9 @@ description: "The 3DS Homebrew Menu (\u2229 \u0361\xB0 \u035C\u0296 \u0361\xB0)\
   \u2501\u2606\uFF9F "
 download_page: https://github.com/fincs/new-hbmenu/releases/tag/v2.2.0
 downloads:
-  boot.3dsx: https://github.com/fincs/new-hbmenu/releases/download/v2.2.0/boot.3dsx
+  boot.3dsx:
+    size: 361820
+    url: https://github.com/fincs/new-hbmenu/releases/download/v2.2.0/boot.3dsx
 github: fincs/new-hbmenu
 icon: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
 image: https://avatars2.githubusercontent.com/u/581494?v=4

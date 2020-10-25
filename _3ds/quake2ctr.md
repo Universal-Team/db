@@ -10,10 +10,14 @@ github: masterfeizz/Quake2CTR
 icon: https://db.universal-team.net/assets/images/icons/quake2ctr.png
 image: https://db.universal-team.net/assets/images/images/quake2ctr.png
 layout: app
+license: gpl-2.0
+license_name: GNU General Public License v2.0
 prerelease:
   download_page: https://github.com/masterfeizz/Quake2CTR/releases/tag/v0.2
   downloads:
-    Quake2CTR.cia: https://github.com/masterfeizz/Quake2CTR/releases/download/v0.2/Quake2CTR.cia
+    Quake2CTR.cia:
+      size: 54547392
+      url: https://github.com/masterfeizz/Quake2CTR/releases/download/v0.2/Quake2CTR.cia
   updated: '2017-06-24T15:36:24Z'
   version: v0.2
   version_title: Save fix and Input enhancements

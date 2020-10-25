@@ -9,12 +9,18 @@ description: A 3DS homebrew that allows you to read, write, and erase save files
   NDS cartridges
 download_page: https://github.com/TuxSH/TWLSaveTool/releases/tag/v1.2
 downloads:
-  TWLSaveTool.cia: https://github.com/TuxSH/TWLSaveTool/releases/download/v1.2/TWLSaveTool.cia
-  TWLSaveTool.zip: https://github.com/TuxSH/TWLSaveTool/releases/download/v1.2/TWLSaveTool.zip
+  TWLSaveTool.cia:
+    size: 614848
+    url: https://github.com/TuxSH/TWLSaveTool/releases/download/v1.2/TWLSaveTool.cia
+  TWLSaveTool.zip:
+    size: 114930
+    url: https://github.com/TuxSH/TWLSaveTool/releases/download/v1.2/TWLSaveTool.zip
 github: TuxSH/TWLSaveTool
 icon: https://raw.githubusercontent.com/TuxSH/TWLSaveTool/master/app/IconLarge.png
 image: https://avatars2.githubusercontent.com/u/1922548?v=4
 layout: app
+license: gpl-2.0
+license_name: GNU General Public License v2.0
 qr:
   TWLSaveTool.cia: https://db.universal-team.net/assets/images/qr/twlsavetool.cia.png
 source: https://github.com/TuxSH/TWLSaveTool

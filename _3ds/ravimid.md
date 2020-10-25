@@ -7,8 +7,12 @@ created: '2016-09-02T19:40:02Z'
 description: a pyramidman's quest to save his father
 download_page: https://github.com/Hoksy/ravimid/releases/tag/1.2
 downloads:
-  ravimid.cia: https://github.com/Hoksy/ravimid/releases/download/1.2/ravimid.cia
-  ravimid_deluxe.cia: https://github.com/Hoksy/ravimid/releases/download/1.2/ravimid_deluxe.cia
+  ravimid.cia:
+    size: 2925504
+    url: https://github.com/Hoksy/ravimid/releases/download/1.2/ravimid.cia
+  ravimid_deluxe.cia:
+    size: 2917312
+    url: https://github.com/Hoksy/ravimid/releases/download/1.2/ravimid_deluxe.cia
 github: Hoksy/ravimid
 icon: https://db.universal-team.net/assets/images/icons/ravimid.png
 image: https://db.universal-team.net/assets/images/images/ravimid.png

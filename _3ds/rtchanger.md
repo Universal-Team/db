@@ -8,13 +8,21 @@ description: A Nintendo 3DS Homebrew application which allows the end user to fr
   change the (Raw) RTC of the system to bypass timegates.
 download_page: https://github.com/Storm-Eagle20/RTChanger/releases/tag/1.0
 downloads:
-  RTChanger-Version1.0.3dsx: https://github.com/Storm-Eagle20/RTChanger/releases/download/1.0/RTChanger-Version1.0.3dsx
-  RTChanger-Version1.0.cia: https://github.com/Storm-Eagle20/RTChanger/releases/download/1.0/RTChanger-Version1.0.cia
-  RTChanger.zip: https://github.com/Storm-Eagle20/RTChanger/releases/download/1.0/RTChanger.zip
+  RTChanger-Version1.0.3dsx:
+    size: 224036
+    url: https://github.com/Storm-Eagle20/RTChanger/releases/download/1.0/RTChanger-Version1.0.3dsx
+  RTChanger-Version1.0.cia:
+    size: 451008
+    url: https://github.com/Storm-Eagle20/RTChanger/releases/download/1.0/RTChanger-Version1.0.cia
+  RTChanger.zip:
+    size: 354851
+    url: https://github.com/Storm-Eagle20/RTChanger/releases/download/1.0/RTChanger.zip
 github: Storm-Eagle20/RTChanger
 icon: https://raw.githubusercontent.com/Storm-Eagle20/RTChanger/master/assets/logo.png
 image: https://raw.githubusercontent.com/Storm-Eagle20/RTChanger/master/assets/banner.png
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 qr:
   RTChanger-Version1.0.cia: https://db.universal-team.net/assets/images/qr/rtchanger-version1.0.cia.png
 source: https://github.com/Storm-Eagle20/RTChanger

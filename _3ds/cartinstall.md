@@ -9,10 +9,14 @@ description: An uncreatively named GodMode9 fork for installing 3DS cartridge ga
   directly to the SD
 download_page: https://github.com/aspargas2/CartInstall/releases/tag/v1.3.0
 downloads:
-  CartInstall.firm: https://github.com/aspargas2/CartInstall/releases/download/v1.3.0/CartInstall.firm
+  CartInstall.firm:
+    size: 445952
+    url: https://github.com/aspargas2/CartInstall/releases/download/v1.3.0/CartInstall.firm
 github: aspargas2/CartInstall
 image: https://avatars3.githubusercontent.com/u/36926490?v=4
 layout: app
+license: gpl-2.0
+license_name: GNU General Public License v2.0
 source: https://github.com/aspargas2/CartInstall
 systems:
 - 3DS

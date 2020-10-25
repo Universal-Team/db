@@ -7,8 +7,12 @@ created: '2017-06-18T17:05:01Z'
 description: Is this good?
 download_page: https://github.com/trainboy2019/ButtonPresser3DS/releases/tag/2.0
 downloads:
-  3ds.zip: https://github.com/trainboy2019/ButtonPresser3DS/releases/download/2.0/3ds.zip
-  ButtonPresser3DS.cia: https://github.com/trainboy2019/ButtonPresser3DS/releases/download/2.0/ButtonPresser3DS.cia
+  3ds.zip:
+    size: 1897892
+    url: https://github.com/trainboy2019/ButtonPresser3DS/releases/download/2.0/3ds.zip
+  ButtonPresser3DS.cia:
+    size: 2289088
+    url: https://github.com/trainboy2019/ButtonPresser3DS/releases/download/2.0/ButtonPresser3DS.cia
 github: trainboy2019/ButtonPresser3DS
 icon: https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/icon.png
 image: https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/resources/Banner.png

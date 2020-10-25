@@ -9,17 +9,25 @@ description: 'Work in progress Animal Crossing: New Leaf save manager & editor f
   the Nintendo 3DS!'
 download_page: https://github.com/Universal-Team/LeafEdit/releases/tag/v0.2.1
 downloads:
-  LeafEdit.3dsx: https://github.com/Universal-Team/LeafEdit/releases/download/v0.2.1/LeafEdit.3dsx
-  LeafEdit.cia: https://github.com/Universal-Team/LeafEdit/releases/download/v0.2.1/LeafEdit.cia
+  LeafEdit.3dsx:
+    size: 2858100
+    url: https://github.com/Universal-Team/LeafEdit/releases/download/v0.2.1/LeafEdit.3dsx
+  LeafEdit.cia:
+    size: 2450368
+    url: https://github.com/Universal-Team/LeafEdit/releases/download/v0.2.1/LeafEdit.cia
 github: Universal-Team/LeafEdit
 icon: https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/banner.png
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 nightly:
   download_page: https://github.com/Universal-Team/extras/tree/master/builds/LeafEdit
   downloads:
-    LeafEdit.3dsx: https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.3dsx
-    LeafEdit.cia: https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.cia
+    LeafEdit.3dsx:
+      url: https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.3dsx
+    LeafEdit.cia:
+      url: https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.cia
   qr:
     LeafEdit.cia: https://db.universal-team.net/assets/images/qr/nightly/leafedit.cia.png
 qr:

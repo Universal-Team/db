@@ -40,16 +40,25 @@
 										</div>
 									{% if page.website %}</a>{% elsif page.source %}</a>{% endif %}
 									<div class="card-footer">
-										{% if page.categories %}
-											Categories:
-											{% for category in page.categories %}
-											<a href="/{{ page.collection }}/{{ category }}">{{ category }}</a>
-											{% endfor %}
-										{% endif %}
 										<small class="text-muted">
+											System:
+											{% for system in page.systems %}
+												<a href="/{{ system }}">{{ system }}</a>{% if forloop.last == false %},{% endif %}
+											{% endfor %}
+											{% if page.categories %}
+												<br>
+												Categories:
+												{% for category in page.categories %}
+													<a href="/{{ page.collection }}/{{ category }}">{{ category }}</a>{% if forloop.last == false %},{% endif %}
+												{% endfor %}
+											{% endif %}
 											{% if page.created != "---" %}
 												<br>
 												Created: <time datetime="{{ page.created }}" title="{{ page.created | date: '%Y-%m-%d at %H:%M' }}">{{ page.created | date: "%Y-%m-%d" }}</time>
+											{% endif %}
+											{% if page.license_name %}
+												<br>
+												License: {{ page.license_name }}
 											{% endif %}
 										</small>
 									</div>
@@ -72,7 +81,7 @@
 										<h2>Downloads</h2>
 										{% for item in page.downloads %}
 											<span class="btn btn-primary m-1">
-												<a class="mr-1" href="{{ item[1] }}">Download {{ item[0] }}</a>
+												<a class="mr-1" href="{{ item[1].url }}">Download {{ item[0] }}</a>
 												{% for qr in page.qr %}
 													{% if item[0] == qr[0] %}
 														<a class="qr-link" href="{{ qr[1] }}" role="button" data-toggle="modal" data-target="#qrModal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}">
@@ -100,7 +109,7 @@
 										<div class="col-12">
 											<h3>Prereleases</h3>
 											{% for item in page.prerelease.downloads %}
-												<a class="btn btn-secondary m-1" href="{{ item[1] }}">Download {{ item[0] }}</a>
+												<a class="btn btn-secondary m-1" href="{{ item[1].url }}">Download {{ item[0] }}</a>
 											{% endfor %}
 			
 											{% if page.prerelease.version %}
@@ -122,7 +131,7 @@
 											<abbr title="Commit / beta builds, potentially unstable but have the latest updates"><h3>Nightlies</h3></abbr>
 											{% for item in page.nightly.downloads %}
 												<span class="btn btn-dark m-1">
-													<a class="mr-1" href="{{ item[1] }}">Download {{ item[0] }}</a>
+													<a class="mr-1" href="{{ item[1].url }}">Download {{ item[0] }}</a>
 													{% for qr in page.nightly.qr %}
 														{% if item[0] == qr[0] %}
 															<a class="qr-link" href="{{ qr[1] }}" role="button" data-toggle="modal" data-target="#qrModal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}">

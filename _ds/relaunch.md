@@ -7,15 +7,20 @@ created: '2019-04-27T19:07:23Z'
 description: "Open-Source lookalike of nocash\u2019s Unlaunch.dsi"
 download_page: https://github.com/Universal-Team/Relaunch/releases/tag/v4.0.1
 downloads:
-  Relaunch.7z: https://github.com/Universal-Team/Relaunch/releases/download/v4.0.1/Relaunch.7z
+  Relaunch.7z:
+    size: 148518
+    url: https://github.com/Universal-Team/Relaunch/releases/download/v4.0.1/Relaunch.7z
 github: Universal-Team/Relaunch
 icon: https://raw.githubusercontent.com/Universal-Team/Relaunch/master/main/icon.bmp
 image: https://raw.githubusercontent.com/Universal-Team/Relaunch/master/logo.png
 layout: app
+license: mit
+license_name: MIT License
 nightly:
   download_page: https://github.com/Universal-Team/extras/tree/master/builds/Relaunch
   downloads:
-    Relaunch.7z: https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z
+    Relaunch.7z:
+      url: https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z
 source: https://github.com/Universal-Team/Relaunch
 systems:
 - DS

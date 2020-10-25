@@ -7,12 +7,18 @@ created: '2020-10-11T22:29:51Z'
 description: "Ein Ludo klon f\xFCr den Nintendo 3DS."
 download_page: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/tag/v0.1.0
 downloads:
-  Ludo3DS.3dsx: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/download/v0.1.0/Ludo3DS.3dsx
-  Ludo3DS.cia: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/download/v0.1.0/Ludo3DS.cia
+  Ludo3DS.3dsx:
+    size: 560980
+    url: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/download/v0.1.0/Ludo3DS.3dsx
+  Ludo3DS.cia:
+    size: 525248
+    url: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/download/v0.1.0/Ludo3DS.cia
 github: SuperSaiyajinStackZ/Ludo3DS
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/icon.png
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/Banner.png
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 qr:
   Ludo3DS.cia: https://db.universal-team.net/assets/images/qr/ludo3ds.cia.png
 source: https://github.com/SuperSaiyajinStackZ/Ludo3DS

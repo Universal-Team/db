@@ -7,7 +7,9 @@ created: '2017-02-12T18:02:12Z'
 description: Cookie Clicker for Nintendo 3ds
 download_page: https://github.com/Creckeryop/3dsCookieClicker/releases/tag/%230022
 downloads:
-  CookieClicker.cia: https://github.com/Creckeryop/3dsCookieClicker/releases/download/%230022/CookieClicker.cia
+  CookieClicker.cia:
+    size: 3072960
+    url: https://github.com/Creckeryop/3dsCookieClicker/releases/download/%230022/CookieClicker.cia
 github: Creckeryop/3dsCookieClicker
 icon: https://raw.githubusercontent.com/Creckeryop/3dsCookieClicker/master/logo.png
 image: https://db.universal-team.net/assets/images/images/3dscookieclicker.png

@@ -8,7 +8,9 @@ description: This is a port of Exophase's Temper (TurboGrafx/PC-Engine) emulator
   the old 3DS and old 2DS.
 download_page: https://github.com/bubble2k16/temperpce_3ds/releases/tag/v1.02
 downloads:
-  temperpce_3ds-v1.02.zip: https://github.com/bubble2k16/temperpce_3ds/releases/download/v1.02/temperpce_3ds-v1.02.zip
+  temperpce_3ds-v1.02.zip:
+    size: 1367259
+    url: https://github.com/bubble2k16/temperpce_3ds/releases/download/v1.02/temperpce_3ds-v1.02.zip
 github: bubble2k16/temperpce_3ds
 icon: https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/temperpce/assets/icon.png
 image: https://db.universal-team.net/assets/images/images/temperpce.png
