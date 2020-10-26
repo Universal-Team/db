@@ -29,6 +29,22 @@ def webName(name):
 			out += "-"
 	return out
 
+# Convert names to lowercase alphanumeric + underscore and hyphen
+def byteCount(bytes):
+	if(type(bytes) != int):
+		bytes = int(bytes)
+
+	if bytes == 1:
+		return "%d Byte" % bytes
+	elif bytes < (1 << 10):
+		return "%d Bytes" % bytes
+	elif bytes < (1 << 20):
+		return "%d KiB" % (bytes // (1 << 10))
+	elif bytes < (1 << 30):
+		return "%d MiB" % (bytes // (1 << 20))
+	else:
+		return "%d GiB" % (bytes // (1 << 30))
+
 def downloadScript(file, url):
 	if file[file.rfind(".") + 1:].lower() == "3dsx":
 		return [
@@ -393,31 +409,17 @@ for app in source:
 				if "long_description" in app:
 					file.write(app["long_description"])
 
-	# Create copy with filler items for UniStore base
-	appCopy = app.copy()
-	if not "title" in app:
-		appCopy["title"] = ""
-	if not "version" in app:
-		appCopy["version"] = ""
-	if not "author" in app:
-		appCopy["author"] = ""
-	if not "categories" in app:
-		appCopy["categories"] = [""]
-	if not "systems" in app:
-		appCopy["systems"] = [""]
-	if not "description" in app:
-		appCopy["description"] = ""
-
 	# Add entry for UniStore
 	uni = {
 		"info": {
-			"title": appCopy["title"],
-			"version": appCopy["version"],
-			"author": appCopy["author"],
-			"category": " / ".join(appCopy["categories"]),
-			"console": " / ".join(appCopy["systems"]),
+			"title": app["title"] if "title" in app else "",
+			"version": app["version"] if "version" in app else "",
+			"author": app["author"] if "author" in app else "",
+			"category": " / ".join(app["categories"]) if "categories" in app else "",
+			"console": " / ".join(app["systems"]) if "systems" in app else "",
 			"icon_index": len(icons) - 1 if "icon" in app or "image" in app else -1,
-			"description": appCopy["description"],
+			"description": app["description"] if "description" in app else "",
+			"license": app["license"] if "license" in app else ""
 		}
 	}
 	if "updated" in app:
@@ -430,7 +432,7 @@ for app in source:
 	else:
 		if "downloads" in app:
 			for file in app["downloads"]:
-				uni["Download " + file] = downloadScript(file, app["downloads"][file]["url"])
+				uni["Download " + file + ((" (" + byteCount(app["downloads"][file]["size"]) + ")") if "size" in app["downloads"][file] else "")] = downloadScript(file, app["downloads"][file]["url"])
 
 		if "prerelease" in app:
 			for file in app["prerelease"]["downloads"]:
