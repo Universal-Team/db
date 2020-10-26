@@ -1075,7 +1075,7 @@
 		"icon": "https://db.universal-team.net/assets/images/icons/fbwo-3ds.png",
 		"description": "Falling Blocks Watch Out, a 3DS homebrew Tetris clone.",
 		"scripts": {
-			"fbwo.3dsx": [
+			"Download fbwo.3dsx": [
 				{
 					"type": "downloadRelease",
 					"repo": "Spaqin/fbwo-3ds",
@@ -1103,7 +1103,7 @@
 					"message": "Deleting fbwo.zip..."
 				}
 			],
-			"fbwo.cia": [
+			"Download fbwo.cia": [
 				{
 					"type": "downloadRelease",
 					"repo": "Spaqin/fbwo-3ds",
@@ -1269,7 +1269,7 @@
 			}
 		},
 		"scripts": {
-			"TWiLight Menu++ Release": [
+			"Download TWiLight Menu++": [
 				{
 					"type": "downloadRelease",
 					"repo": "DS-Homebrew/TWiLightMenu",
@@ -1306,7 +1306,8 @@
 					"type": "deleteFile",
 					"file": "/TWiLightMenu-3DS.7z"
 				}
-			],"TWiLight Menu++ Nightly": [
+			],
+			"[nightly] Download TWiLight Menu++": [
 				{
 					"type": "downloadFile",
 					"file": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z",
@@ -1412,7 +1413,7 @@
 			}
 		},
 		"scripts": {
-			"nds-bootstrap Nightly": [
+			"[nightly] Download nds-bootstrap": [
 				{
 					"type": "downloadFile",
 					"file": "https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z",
@@ -1431,7 +1432,7 @@
 					"file": "/nds-bootstrap.7z"
 				}
 			],
-			"nds-bootstrap Release": [
+			"Download nds-bootstrap": [
 				{
 					"type": "downloadRelease",
 					"repo": "ahezard/nds-bootstrap",
@@ -1473,7 +1474,7 @@
 		"image": "https://db.universal-team.net/assets/images/images/nds-cheat-databases.png",
 		"website": "https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/",
 		"scripts": {
-			"usrcheat.dat (TWiLight Menu++)": [
+			"Download usrcheat.dat (TWiLight Menu++)": [
 				{
 					"type": "downloadFile",
 					"file": "https://github.com/TWLBot/Builds/raw/master/usrcheat.dat.7z",
@@ -1507,7 +1508,7 @@
 		"systems": ["3DS"],
 		"categories": ["emulator", "firm"],
 		"scripts": {
-			"Release": [
+			"Download open_agb_firm.firm": [
 				{
 					"type": "downloadRelease",
 					"repo": "profi200/open_agb_firm",
@@ -1528,7 +1529,7 @@
 					"message": "Deleting open_agb_firm.7z..."
 				}
 			],
-			"Release (no BIOS intro)": [
+			"Download open_agb_firm_no_bios.firm": [
 				{
 					"type": "downloadRelease",
 					"repo": "profi200/open_agb_firm",
@@ -1557,7 +1558,7 @@
 		"categories": ["utility", "firm"],
 		"image": "https://raw.githubusercontent.com/d0k3/GodMode9/master/resources/logo.png",
 		"scripts": {
-			"Release (FIRM)": [
+			"Download GodMode9.firm": [
 				{
 					"type": "downloadRelease",
 					"repo": "d0k3/GodMode9",
@@ -1601,7 +1602,7 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"scripts": {
-			"Latest Release": [
+			"Download rverse": [
 				{
 					"type": "downloadRelease",
 					"repo": "rverseTeam/rverse-Releases",
@@ -1648,7 +1649,7 @@
 		"systems": ["3DS"],
 		"categories": ["utility", "firm"],
 		"scripts": {
-			"Luma3DS Release (FIRM)": [
+			"Download boot.firm": [
 				{
 					"type": "downloadRelease",
 					"repo": "LumaTeam/Luma3DS",
@@ -1669,7 +1670,7 @@
 					"message": "Deleting the downloaded ZIP..."
 				}
 			],
-			"Luma3DS Hourly (FIRM)": [
+			"[hourly] Download boot.firm": [
 				{
 					"type": "downloadRelease",
 					"repo": "hax0kartik/luma-hourlies",
@@ -1679,7 +1680,7 @@
 				}
 				
 			],
-			"Luma3DS Plugin Loader (FIRM)": [
+			"[plugin loader] Download boot.firm": [
 				{
 					"type": "downloadRelease",
 					"repo": "jbmagination/Luma3DS_plg",
@@ -1696,7 +1697,7 @@
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png",
 		"scripts": {
-			"boot.3dsx": [
+			"Download boot.3dsx": [
 				{
 					"type": "downloadRelease",
 					"repo": "fincs/new-hbmenu",
@@ -1739,7 +1740,7 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"scripts": {
-			"Full ACNL EUR": [
+			"Download for ACNL EUR": [
 				{
 					"type": "downloadRelease",
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
@@ -1760,7 +1761,7 @@
 					"message": "Deleting unneded file."
 				}
 			],
-			"Full ACNL USA": [
+			"Download for ACNL USA": [
 				{
 					"type": "downloadRelease",
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
@@ -1781,7 +1782,7 @@
 					"message": "Deleting unneded file."
 				}
 			],
-			"Full ACNL JPN": [
+			"Download for ACNL JPN": [
 				{
 					"type": "downloadRelease",
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
@@ -1802,7 +1803,7 @@
 					"message": "Deleting unneded file."
 				}
 			],
-			"Full ACNL KOR": [
+			"Download for ACNL KOR": [
 				{
 					"type": "downloadRelease",
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
@@ -1823,7 +1824,7 @@
 					"message": "Deleting unneded file."
 				}
 			],
-			"Full ACNL WA EUR": [
+			"Download for ACNL WA EUR": [
 				{
 					"type": "downloadRelease",
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
@@ -1844,7 +1845,7 @@
 					"message": "Deleting unneded file."
 				}
 			],
-			"Full ACNL WA USA": [
+			"Download for ACNL WA USA": [
 				{
 					"type": "downloadRelease",
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
@@ -1865,7 +1866,7 @@
 					"message": "Deleting unneded file."
 				}
 			],
-			"Full ACNL WA JPN": [
+			"Download for ACNL WA JPN": [
 				{
 					"type": "downloadRelease",
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
@@ -1886,7 +1887,7 @@
 					"message": "Deleting unneded file."
 				}
 			],
-			"ACNL Welcome Luxury": [
+			"Download for ACNL Welcome Luxury": [
 				{
 					"type": "downloadRelease",
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
@@ -1907,7 +1908,7 @@
 					"message": "Deleting unneded file."
 				}
 			],
-			"Plugin Boot.firm": [
+			"Download Plugin boot.firm": [
 				{
 					"type": "downloadRelease",
 					"repo": "mariohackandglitch/Luma3DS",
