@@ -415,8 +415,8 @@ for app in source:
 			"title": app["title"] if "title" in app else "",
 			"version": app["version"] if "version" in app else "",
 			"author": app["author"] if "author" in app else "",
-			"category": " / ".join(app["categories"]) if "categories" in app else "",
-			"console": " / ".join(app["systems"]) if "systems" in app else "",
+			"category": ", ".join(app["categories"]) if "categories" in app else "",
+			"console": ", ".join(app["systems"]) if "systems" in app else "",
 			"icon_index": len(icons) - 1 if "icon" in app or "image" in app else -1,
 			"description": app["description"] if "description" in app else "",
 			"license": app["license"] if "license" in app else ""
