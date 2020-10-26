@@ -469,6 +469,16 @@ if unistore != unistoreOld:
 with open(os.path.join("..", "unistore", "universal-db.unistore"), "w", encoding="utf8") as file:
 	file.write(json.dumps(unistore, sort_keys=True))
 
+# BETA v3 UniStore
+unistore["storeInfo"]["url"] = "https://db.universal-team.net/unistore/universal-db-beta.unistore"
+unistore["storeInfo"]["file"] = "universal-db-beta.unistore"
+unistore["storeInfo"]["sheet"] = "universal-db.t3x"
+unistore["storeInfo"]["version"] = 3
+
+# Write beta unistore to file
+with open(os.path.join("..", "unistore", "universal-db-beta.unistore"), "w", encoding="utf8") as file:
+	file.write(json.dumps(unistore, sort_keys=True))
+
 # Write output file
 with open(os.path.join("..", "data", "full.json"), "w", encoding="utf8") as file:
 	file.write(json.dumps(output, sort_keys=True))
