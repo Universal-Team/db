@@ -7,11 +7,11 @@ color: '#c2e5d8'
 created: '2020-04-15T21:49:42Z'
 description: open_agb_firm is a bare metal app for running GBA homebrew/games using
   the 3DS builtin GBA hardware.
-download_page: https://github.com/profi200/open_agb_firm/releases/tag/alpha_2020-09-08
+download_page: https://github.com/profi200/open_agb_firm/releases/tag/alpha_2020-10-26
 downloads:
-  open_agb_firm_alpha_20200908.7z:
-    size: 91999
-    url: https://github.com/profi200/open_agb_firm/releases/download/alpha_2020-09-08/open_agb_firm_alpha_20200908.7z
+  open_agb_firm_alpha_20201026.7z:
+    size: 93876
+    url: https://github.com/profi200/open_agb_firm/releases/download/alpha_2020-10-26/open_agb_firm_alpha_20201026.7z
 github: profi200/open_agb_firm
 image: https://avatars0.githubusercontent.com/u/7831477?v=4
 layout: app
@@ -50,8 +50,8 @@ source: https://github.com/profi200/open_agb_firm
 systems:
 - 3DS
 title: open_agb_firm
-updated: '2020-09-08T14:51:24Z'
-version: alpha_2020-09-08
-version_title: open_agb_firm alpha build 2020-09-08
+updated: '2020-10-26T00:10:31Z'
+version: alpha_2020-10-26
+version_title: open_agb_firm alpha build 2020-10-26
 wiki: https://github.com/profi200/open_agb_firm/wiki
 ---
