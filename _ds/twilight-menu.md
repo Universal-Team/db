@@ -39,13 +39,14 @@ nightly:
     TWiLightMenu.7z:
       url: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu.7z
 scripts:
-  TWiLight Menu++ Nightly:
-  - file: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z
-    message: Downloading TWiLight Menu++ (Nightly)...
+  Download TWiLight Menu++:
+  - file: TWiLightMenu-3DS.7z
+    message: Downloading TWiLight Menu++...
     output: /TWiLightMenu-3DS.7z
-    type: downloadFile
+    repo: DS-Homebrew/TWiLightMenu
+    type: downloadRelease
   - file: /TWiLightMenu-3DS.7z
-    input: TWiLightMenu/
+    input: ''
     message: Extracting TWiLight Menu++...
     output: /
     type: extractFile
@@ -93,14 +94,13 @@ scripts:
     type: deleteFile
   - file: /TWiLightMenu.7z
     type: deleteFile
-  TWiLight Menu++ Release:
-  - file: TWiLightMenu-3DS.7z
-    message: Downloading TWiLight Menu++...
+  '[nightly] Download TWiLight Menu++':
+  - file: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z
+    message: Downloading TWiLight Menu++ (Nightly)...
     output: /TWiLightMenu-3DS.7z
-    repo: DS-Homebrew/TWiLightMenu
-    type: downloadRelease
+    type: downloadFile
   - file: /TWiLightMenu-3DS.7z
-    input: ''
+    input: TWiLightMenu/
     message: Extracting TWiLight Menu++...
     output: /
     type: extractFile

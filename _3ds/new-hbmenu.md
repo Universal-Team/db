@@ -16,7 +16,7 @@ icon: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
 image: https://avatars2.githubusercontent.com/u/581494?v=4
 layout: app
 scripts:
-  boot.3dsx:
+  Download boot.3dsx:
   - file: boot.3dsx
     message: Downloading the Homebrew Menu 3DSX...
     output: /boot.3dsx

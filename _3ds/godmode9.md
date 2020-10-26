@@ -27,7 +27,7 @@ prerelease:
   version: v1.9.2pre1
   version_title: GodMode9 v1.9.2pre1 Fourth Anniversary Edition
 scripts:
-  Release (FIRM):
+  Download GodMode9.firm:
   - file: GodMode9.*.zip
     message: Downloading the GodMode9 ZIP...
     output: /GodMode9.zip

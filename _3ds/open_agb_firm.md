@@ -18,7 +18,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 scripts:
-  Release:
+  Download open_agb_firm.firm:
   - file: open_agb_firm.*.7z
     message: Downloading open_agb_firm 7z...
     output: /open_agb_firm.7z
@@ -32,7 +32,7 @@ scripts:
   - file: /open_agb_firm.7z
     message: Deleting open_agb_firm.7z...
     type: deleteFile
-  Release (no BIOS intro):
+  Download open_agb_firm_no_bios.firm:
   - file: open_agb_firm.*.7z
     message: Downloading open_agb_firm 7z...
     output: /open_agb_firm.7z

@@ -25,19 +25,7 @@ nightly:
     nds-bootstrap.7z:
       url: https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z
 scripts:
-  nds-bootstrap Nightly:
-  - file: https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z
-    message: Downloading nds-bootstrap Nightly...
-    output: /nds-bootstrap.7z
-    type: downloadFile
-  - file: /nds-bootstrap.7z
-    input: nds-bootstrap/
-    message: Extracting nds-bootstrap...
-    output: /_nds/
-    type: extractFile
-  - file: /nds-bootstrap.7z
-    type: deleteFile
-  nds-bootstrap Release:
+  Download nds-bootstrap:
   - file: nds-bootstrap.7z
     message: Downloading nds-bootstrap...
     output: /nds-bootstrap.7z
@@ -45,6 +33,18 @@ scripts:
     type: downloadRelease
   - file: /nds-bootstrap.7z
     input: ''
+    message: Extracting nds-bootstrap...
+    output: /_nds/
+    type: extractFile
+  - file: /nds-bootstrap.7z
+    type: deleteFile
+  '[nightly] Download nds-bootstrap':
+  - file: https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z
+    message: Downloading nds-bootstrap Nightly...
+    output: /nds-bootstrap.7z
+    type: downloadFile
+  - file: /nds-bootstrap.7z
+    input: nds-bootstrap/
     message: Extracting nds-bootstrap...
     output: /_nds/
     type: extractFile

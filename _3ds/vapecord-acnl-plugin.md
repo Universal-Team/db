@@ -14,21 +14,13 @@ github: RedShyGuy/Vapecord-ACNL-Plugin
 image: https://avatars1.githubusercontent.com/u/43783060?v=4
 layout: app
 scripts:
-  ACNL Welcome Luxury:
-  - file: Vapecord.Luxury.zip
-    message: Download the latest Plugin... please wait.
-    output: /Vapecord.zip
-    repo: RedShyGuy/Vapecord-ACNL-Plugin
+  Download Plugin boot.firm:
+  - file: boot.firm
+    message: Download the plugin boot.firm... please wait.
+    output: /boot.firm
+    repo: mariohackandglitch/Luma3DS
     type: downloadRelease
-  - file: /Vapecord.zip
-    input: luma/plugins/00040000004C5700/
-    message: Extracting... please wait.
-    output: /luma/plugins/00040000004C5700/
-    type: extractFile
-  - file: sdmc:/Vapecord.zip
-    message: Deleting unneded file.
-    type: deleteFile
-  Full ACNL EUR:
+  Download for ACNL EUR:
   - file: Vapecord.Public.zip
     message: Download the latest Plugin... please wait.
     output: /Vapecord.zip
@@ -42,7 +34,7 @@ scripts:
   - file: sdmc:/Vapecord.zip
     message: Deleting unneded file.
     type: deleteFile
-  Full ACNL JPN:
+  Download for ACNL JPN:
   - file: Vapecord.Public.zip
     message: Download the latest Plugin... please wait.
     output: /Vapecord.zip
@@ -56,7 +48,7 @@ scripts:
   - file: sdmc:/Vapecord.zip
     message: Deleting unneded file.
     type: deleteFile
-  Full ACNL KOR:
+  Download for ACNL KOR:
   - file: Vapecord.Public.zip
     message: Download the latest Plugin... please wait.
     output: /Vapecord.zip
@@ -70,7 +62,7 @@ scripts:
   - file: sdmc:/Vapecord.zip
     message: Deleting unneded file.
     type: deleteFile
-  Full ACNL USA:
+  Download for ACNL USA:
   - file: Vapecord.Public.zip
     message: Download the latest Plugin... please wait.
     output: /Vapecord.zip
@@ -84,7 +76,7 @@ scripts:
   - file: sdmc:/Vapecord.zip
     message: Deleting unneded file.
     type: deleteFile
-  Full ACNL WA EUR:
+  Download for ACNL WA EUR:
   - file: Vapecord.Public.zip
     message: Download the latest Plugin... please wait.
     output: /Vapecord.zip
@@ -98,7 +90,7 @@ scripts:
   - file: sdmc:/Vapecord.zip
     message: Deleting unneded file.
     type: deleteFile
-  Full ACNL WA JPN:
+  Download for ACNL WA JPN:
   - file: Vapecord.Public.zip
     message: Download the latest Plugin... please wait.
     output: /Vapecord.zip
@@ -112,7 +104,7 @@ scripts:
   - file: sdmc:/Vapecord.zip
     message: Deleting unneded file.
     type: deleteFile
-  Full ACNL WA USA:
+  Download for ACNL WA USA:
   - file: Vapecord.Public.zip
     message: Download the latest Plugin... please wait.
     output: /Vapecord.zip
@@ -126,12 +118,20 @@ scripts:
   - file: sdmc:/Vapecord.zip
     message: Deleting unneded file.
     type: deleteFile
-  Plugin Boot.firm:
-  - file: boot.firm
-    message: Download the plugin boot.firm... please wait.
-    output: /boot.firm
-    repo: mariohackandglitch/Luma3DS
+  Download for ACNL Welcome Luxury:
+  - file: Vapecord.Luxury.zip
+    message: Download the latest Plugin... please wait.
+    output: /Vapecord.zip
+    repo: RedShyGuy/Vapecord-ACNL-Plugin
     type: downloadRelease
+  - file: /Vapecord.zip
+    input: luma/plugins/00040000004C5700/
+    message: Extracting... please wait.
+    output: /luma/plugins/00040000004C5700/
+    type: extractFile
+  - file: sdmc:/Vapecord.zip
+    message: Deleting unneded file.
+    type: deleteFile
 source: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin
 systems:
 - 3DS
