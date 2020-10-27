@@ -252,18 +252,18 @@
 	{
 		"title": "nesDS",
 		"categories": ["emulator"],
-		"github": "RocketRobz/nesDS",
+		"github": "DS-Homebrew/nesDS",
 		"downloads": {
 			"nesDS.nds": {
-				"url": "https://raw.githubusercontent.com/RocketRobz/NesDS/master/release/nesDS.nds"
+				"url": "https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/release/nesDS.nds"
 			}
 		},
-		"download_page": "https://github.com/RocketRobz/NesDS/tree/master/release",
+		"download_page": "https://github.com/DS-Homebrew/NesDS/tree/master/release",
 		"author": "huiminghao / Coto",
 		"version": "v1.3c",
 		"updated": "2018-10-19T22:09:05Z",
 		"systems": ["DS"],
-		"icon": "https://raw.githubusercontent.com/RocketRobz/NesDS/master/icon.bmp"
+		"icon": "https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/icon.bmp"
 	},
 	{
 		"github": "Arisotura/lolSnes",
@@ -1925,5 +1925,12 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Oreo639/LimePlayer3DS/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/Oreo639/LimePlayer3DS/master/meta/icon.png"
+	},
+	{
+		"github": "Epicpkmn11/dsi-camera",
+		"systems": ["DS"],
+		"categories": ["utility"],
+		"image": "https://raw.githubusercontent.com/Epicpkmn11/dsi-camera/master/icon.bmp",
+		"icon": "https://raw.githubusercontent.com/Epicpkmn11/dsi-camera/master/icon.bmp"
 	}
 ]
