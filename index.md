@@ -5,7 +5,7 @@ permalink: /
 limit: 4
 ---
 
-# Welcome to the Universal-DB!
+# Welcome to Universal-DB!
 
 Here you can find lists of 3DS and DS homebrew, updated regularly to make sure you're getting the latest versions. Click on the links in the navigation bar at the top to get full lists, or check out some of the most recently updated at the bottom of this page! 
 
