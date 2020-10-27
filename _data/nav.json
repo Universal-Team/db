@@ -8,26 +8,32 @@
     "items": [
       {
         "title": "All",
+        "page_title": "3DS",
         "url": "/3ds"
       },
       {
         "title": "Emulators",
+        "page_title": "3DS - Emulators",
         "url": "/3ds/emulator"
       },
       {
         "title": "FIRMs",
+        "page_title":"3DS - FIRMs",
         "url": "/3ds/firm"
       },
       {
         "title": "Games",
+        "page_title":"3DS - Games",
         "url": "/3ds/game"
       },
       {
         "title": "Save Tools",
+        "page_title":"3DS - Save Tools",
         "url": "/3ds/save-tool"
       },
       {
         "title": "Utilities",
+        "page_title":"3DS - Utilities",
         "url": "/3ds/utility"
       }
     ]
@@ -37,27 +43,33 @@
     "items": [
       {
         "title": "All",
+        "page_title": "DS",
         "url": "/ds"
       },
       {
         "title": "Emulators & Hypervisors",
+        "page_title": "DS - Emulators & Hypervisors",
         "url": "/ds/emulator"
       },
       {
+        "title": "Extras",
+        "page_title": "DS - Extras",
+        "url": "/ds/extra"
+      },
+      {
         "title": "Games",
+        "page_title": "DS - Games",
         "url": "/ds/game"
       },
       {
-        "title": "Utilities",
-        "url": "/ds/utility"
-      },
-      {
         "title": "Save Tools",
+        "page_title": "DS - Save Tools",
         "url": "/ds/save-tool"
       },
       {
-        "title": "Extras",
-        "url": "/ds/extra"
+        "title": "Utilities",
+        "page_title": "DS - Utilities",
+        "url": "/ds/utility"
       }
     ]
   }, {

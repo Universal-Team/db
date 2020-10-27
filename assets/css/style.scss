@@ -184,6 +184,9 @@ div .btn-primary:hover {
 .dropdown-item {
 	color: var(--nav-link-color);
 }
+.dropdown-item.active {
+	background-color: unset;
+}
 .dropdown-item:hover, .dropdown-item:active, .dropdown-item:focus {
 	background-color: var(--dropdown-item-bg-hover);
 	color: var(--nav-link-color-hover);
