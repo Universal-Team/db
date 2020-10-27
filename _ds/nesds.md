@@ -2,22 +2,27 @@
 author: huiminghao / Coto
 categories:
 - emulator
-color: '#ae7d50'
-created: '2016-05-03T04:52:55Z'
-description: NES emulator for Nintendo DS/DSi
-download_page: https://github.com/RocketRobz/NesDS/tree/master/release
+color: '#b5774b'
+created: '2019-02-22T22:33:39Z'
+description: NesDS1.3c
+download_page: https://github.com/DS-Homebrew/NesDS/tree/master/release
 downloads:
   nesDS.nds:
-    url: https://raw.githubusercontent.com/RocketRobz/NesDS/master/release/nesDS.nds
-github: RocketRobz/nesDS
-icon: https://raw.githubusercontent.com/RocketRobz/NesDS/master/icon.bmp
-image: https://avatars2.githubusercontent.com/u/16110127?v=4
+    url: https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/release/nesDS.nds
+github: DS-Homebrew/NesDS
+icon: https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/icon.bmp
+image: https://avatars2.githubusercontent.com/u/46971470?v=4
 layout: app
-source: https://github.com/RocketRobz/NesDS
+nightly:
+  download_page: https://github.com/TWLBot/Builds/blob/master/extras/GodMode9i.7z
+  downloads:
+    nesDS.7z:
+      url: https://github.com/TWLBot/Builds/raw/master/extras/nesDS.7z
+source: https://github.com/DS-Homebrew/NesDS
 systems:
 - DS
 title: nesDS
 updated: '2018-10-19T22:09:05Z'
 version: v1.3c
-wiki: https://github.com/RocketRobz/NesDS/wiki
+wiki: https://github.com/DS-Homebrew/NesDS/wiki
 ---
