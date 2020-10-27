@@ -177,7 +177,7 @@
 		"nightly": {
 			"download_page": "https://github.com/TWLBot/Builds/blob/master/extras/GodMode9i.7z",
 			"downloads": {
-				"Relaunch.7z": {
+				"GodMode9i.7z": {
 					"url": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z"
 				}
 			}
@@ -252,7 +252,7 @@
 	{
 		"title": "nesDS",
 		"categories": ["emulator"],
-		"github": "DS-Homebrew/nesDS",
+		"github": "DS-Homebrew/NesDS",
 		"downloads": {
 			"nesDS.nds": {
 				"url": "https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/release/nesDS.nds"
@@ -263,7 +263,15 @@
 		"version": "v1.3c",
 		"updated": "2018-10-19T22:09:05Z",
 		"systems": ["DS"],
-		"icon": "https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/icon.bmp"
+		"icon": "https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/icon.bmp",
+		"nightly": {
+			"download_page": "https://github.com/TWLBot/Builds/blob/master/extras/GodMode9i.7z",
+			"downloads": {
+				"nesDS.7z": {
+					"url": "https://github.com/TWLBot/Builds/raw/master/extras/nesDS.7z"
+				}
+			}
+		}
 	},
 	{
 		"github": "Arisotura/lolSnes",
