@@ -140,7 +140,7 @@ unistore = {
 		"file": "sdmc:/3ds/Universal-Updater/stores/Universal-DB.unistore",
 		"sheet": "sdmc:/3ds/Universal-Updater/stores/Universal-DB.t3x",
 		"sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
-		"description": "Universal DB - An online database of 3DS and DS homebrew",
+		"description": "Universal-DB - An online database of 3DS and DS homebrew",
 		"categories": [],
 		"authors": [],
 		"consoles": [],
@@ -513,14 +513,14 @@ for item in output:
 
 if len(feedItems) > 0:
 	feed = rfeed.Feed(
-		title = "Universal DB",
+		title = "Universal-DB",
 		link = "https://db.universal-team.net",
 		description = "A database of DS and 3DS homebrew",
 		language = "en-US",
 		lastBuildDate = latestUpdate,
 		pubDate = latestUpdate,
 		items = feedItems,
-		image = rfeed.Image(title = "Universal DB", url = "https://universal-team.net/images/icons/universal-team.png", link = "https://db.universal-team.net"),
+		image = rfeed.Image(title = "Universal-DB", url = "https://universal-team.net/images/icons/universal-team.png", link = "https://db.universal-team.net"),
 	)
 
 	with open(os.path.join("..", "index.rss"), "w", encoding="utf8") as file:
@@ -541,7 +541,7 @@ if len(sys.argv) > 3:
 		segments = []
 		if len(items) == 1:
 			heading = "New " + items[0]["title"] + " update"
-			content = (items[0]["version_title"] + "\n" if "version_title" in items[0] else "") + "Click to open on Universal DB"
+			content = (items[0]["version_title"] + "\n" if "version_title" in items[0] else "") + "Click to open on Universal-DB"
 			segments = items[0]["systems"]
 			path = items[0]["systems"][0] + "/" + webName(items[0]["title"])
 			print(heading)
@@ -554,7 +554,7 @@ if len(sys.argv) > 3:
 						segments.append(system)
 
 			heading = "New " + " and ".join(segments) + " updates"
-			content = "Click to open on Universal DB"
+			content = "Click to open on Universal-DB"
 			path = segments[0] if len(segments) == 1 else ""
 			print(heading)
 			print(content)
