@@ -1320,7 +1320,7 @@
 					"type": "downloadFile",
 					"file": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z",
 					"output": "/TWiLightMenu-3DS.7z",
-					"message": "Downloading TWiLight Menu++ (Nightly)..."
+					"message": "Downloading TWiLight Menu++..."
 				},
 				{
 					"type": "extractFile",
@@ -1352,33 +1352,33 @@
 					"file": "/TWiLightMenu-3DS.7z"
 				}
 			],
-			"TWiLight Menu++ Nightly (Lite)": [
+			"[nightly lite] TWiLight Menu++": [
 				{
 					"type": "downloadFile",
 					"file": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Lite.7z",
 					"output": "/TWiLightMenu.7z",
-					"message": "Downloading TWiLight Menu++ Nightly (Lite)..."
+					"message": "Downloading TWiLight Menu++..."
 				},
 				{
 					"type": "extractFile",
 					"file": "/TWiLightMenu.7z",
 					"input": "TWiLightMenu/_nds/",
 					"output": "/_nds/",
-					"message": "Extracting TWiLight Menu++ Nightly (Lite)..."
+					"message": "Extracting TWiLight Menu++..."
 				},
 				{
 					"type": "extractFile",
 					"file": "/TWiLightMenu.7z",
 					"input": "TWiLightMenu/3DS - CFW users/",
 					"output": "/",
-					"message": "Extracting TWiLight Menu++ Nightly (Lite)..."
+					"message": "Extracting TWiLight Menu++..."
 				},
 				{
 					"type": "extractFile",
 					"file": "/TWiLightMenu.7z",
 					"input": "TWiLightMenu/DSi&3DS - SD card users/",
 					"output": "/",
-					"message": "Extracting TWiLight Menu++ Nightly (Lite)..."
+					"message": "Extracting TWiLight Menu++..."
 				},
 				{
 					"type": "installCia",
@@ -1426,7 +1426,7 @@
 					"type": "downloadFile",
 					"file": "https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z",
 					"output": "/nds-bootstrap.7z",
-					"message": "Downloading nds-bootstrap Nightly..."
+					"message": "Downloading nds-bootstrap..."
 				},
 				{
 					"type": "extractFile",
@@ -1572,14 +1572,14 @@
 					"repo": "d0k3/GodMode9",
 					"file": "GodMode9.*.zip",
 					"output": "/GodMode9.zip",
-					"message": "Downloading the GodMode9 ZIP..."
+					"message": "Downloading the GodMode9 zip..."
 				},
 				{
 					"type": "extractFile",
 					"file": "/GodMode9.zip",
 					"input": "GodMode9.firm",
 					"output": "/luma/payloads/GodMode9.firm",
-					"message": "Extracting the GodMode9 FIRM..."
+					"message": "Extracting the GodMode9.firm..."
 				},
 				{
 					"type": "extractFile",
@@ -1616,19 +1616,19 @@
 					"repo": "rverseTeam/rverse-Releases",
 					"file": "rverse-3ds.zip",
 					"output": "/rverse.zip",
-					"message": "Downloading the rverse package..."
+					"message": "Downloading rverse..."
 				},
 				{
 					"type": "extractFile",
 					"file": "/rverse.zip",
 					"input": "",
 					"output": "/",
-					"message": "Extracting rverse package... please wait."
+					"message": "Extracting rverse..."
 				},
 				{
 					"type": "deleteFile",
 					"file": "sdmc:/rverse.zip",
-					"message": "Deleting unneeded file."
+					"message": "Deleting rverse.zip..."
 				}
 			]
 		}
@@ -1663,19 +1663,19 @@
 					"repo": "LumaTeam/Luma3DS",
 					"file": "Luma3DS.*.zip",
 					"output": "/Luma3DS.zip",
-					"message": "Downloading the Luma3DS ZIP..."
+					"message": "Downloading Luma3DS zip..."
 				},
 				{
 					"type": "extractFile",
 					"file": "/Luma3DS.zip",
 					"input": "boot.firm",
 					"output": "/boot.firm",
-					"message": "Extracting the Luma3DS FIRM..."
+					"message": "Extracting boot.firm..."
 				},
 				{
 					"type": "deleteFile",
 					"file": "/Luma3DS.zip",
-					"message": "Deleting the downloaded ZIP..."
+					"message": "Deleting Luma3DS.zip..."
 				}
 			],
 			"[hourly] Download boot.firm": [
@@ -1684,7 +1684,7 @@
 					"repo": "hax0kartik/luma-hourlies",
 					"file": "boot.firm",
 					"output": "/boot.firm",
-					"message": "Downloading the hourly Luma3DS FIRM..."
+					"message": "Downloading boot.firm..."
 				}
 				
 			],
@@ -1694,7 +1694,7 @@
 					"repo": "jbmagination/Luma3DS_plg",
 					"file": "boot.firm",
 					"output": "/boot.firm",
-					"message": "Downloading the plugin loader Luma3DS FIRM..."
+					"message": "Downloading boot.firm..."
 				}
 			]
 		}
@@ -1711,7 +1711,7 @@
 					"repo": "fincs/new-hbmenu",
 					"file": "boot.3dsx",
 					"output": "/boot.3dsx",
-					"message": "Downloading the Homebrew Menu 3DSX..."
+					"message": "Downloading boot.3dsx..."
 				}
 			]
 		}
@@ -1754,19 +1754,19 @@
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 					"file": "Vapecord.Public.zip",
 					"output": "/Vapecord.zip",
-					"message": "Download the latest Plugin... please wait."
+					"message": "Downloading Vapecord.Public.zip..."
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "luma/plugins/0004000000086400/",
 					"output": "/luma/plugins/0004000000086400/",
-					"message": "Extracting... please wait."
+					"message": "Extracting Vapecord..."
 				},
 				{
 					"type": "deleteFile",
 					"file": "sdmc:/Vapecord.zip",
-					"message": "Deleting unneded file."
+					"message": "Deleting Vapecord.zip..."
 				}
 			],
 			"Download for ACNL USA": [
@@ -1775,19 +1775,19 @@
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 					"file": "Vapecord.Public.zip",
 					"output": "/Vapecord.zip",
-					"message": "Download the latest Plugin... please wait."
+					"message": "Downloading Vapecord.Public.zip..."
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "luma/plugins/0004000000086300/",
 					"output": "/luma/plugins/0004000000086300/",
-					"message": "Extracting... please wait."
+					"message": "Extracting Vapecord..."
 				},
 				{
 					"type": "deleteFile",
 					"file": "sdmc:/Vapecord.zip",
-					"message": "Deleting unneded file."
+					"message": "Deleting Vapecord.zip..."
 				}
 			],
 			"Download for ACNL JPN": [
@@ -1796,19 +1796,19 @@
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 					"file": "Vapecord.Public.zip",
 					"output": "/Vapecord.zip",
-					"message": "Download the latest Plugin... please wait."
+					"message": "Downloading Vapecord.Public.zip..."
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "luma/plugins/0004000000086200/",
 					"output": "/luma/plugins/0004000000086200/",
-					"message": "Extracting... please wait."
+					"message": "Extracting Vapecord..."
 				},
 				{
 					"type": "deleteFile",
 					"file": "sdmc:/Vapecord.zip",
-					"message": "Deleting unneded file."
+					"message": "Deleting Vapecord.zip..."
 				}
 			],
 			"Download for ACNL KOR": [
@@ -1817,19 +1817,19 @@
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 					"file": "Vapecord.Public.zip",
 					"output": "/Vapecord.zip",
-					"message": "Download the latest Plugin... please wait."
+					"message": "Downloading Vapecord.Public.zip..."
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "luma/plugins/0004000000086500/",
 					"output": "/luma/plugins/0004000000086500/",
-					"message": "Extracting... please wait."
+					"message": "Extracting Vapecord..."
 				},
 				{
 					"type": "deleteFile",
 					"file": "sdmc:/Vapecord.zip",
-					"message": "Deleting unneded file."
+					"message": "Deleting Vapecord.zip..."
 				}
 			],
 			"Download for ACNL WA EUR": [
@@ -1838,19 +1838,19 @@
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 					"file": "Vapecord.Public.zip",
 					"output": "/Vapecord.zip",
-					"message": "Download the latest Plugin... please wait."
+					"message": "Downloading Vapecord.Public.zip..."
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "luma/plugins/0004000000198f00/",
 					"output": "/luma/plugins/0004000000198f00/",
-					"message": "Extracting... please wait."
+					"message": "Extracting Vapecord..."
 				},
 				{
 					"type": "deleteFile",
 					"file": "sdmc:/Vapecord.zip",
-					"message": "Deleting unneded file."
+					"message": "Deleting Vapecord.zip..."
 				}
 			],
 			"Download for ACNL WA USA": [
@@ -1859,7 +1859,7 @@
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 					"file": "Vapecord.Public.zip",
 					"output": "/Vapecord.zip",
-					"message": "Download the latest Plugin... please wait."
+					"message": "Downloading Vapecord.Public.zip..."
 				},
 				{
 					"type": "extractFile",
@@ -1871,7 +1871,7 @@
 				{
 					"type": "deleteFile",
 					"file": "sdmc:/Vapecord.zip",
-					"message": "Deleting unneded file."
+					"message": "Deleting Vapecord.zip..."
 				}
 			],
 			"Download for ACNL WA JPN": [
@@ -1880,19 +1880,19 @@
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 					"file": "Vapecord.Public.zip",
 					"output": "/Vapecord.zip",
-					"message": "Download the latest Plugin... please wait."
+					"message": "Downloading Vapecord.Public.zip..."
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "luma/plugins/0004000000198d00/",
 					"output": "/luma/plugins/0004000000198d00/",
-					"message": "Extracting... please wait."
+					"message": "Extracting Vapecord..."
 				},
 				{
 					"type": "deleteFile",
 					"file": "sdmc:/Vapecord.zip",
-					"message": "Deleting unneded file."
+					"message": "Deleting Vapecord.zip..."
 				}
 			],
 			"Download for ACNL Welcome Luxury": [
@@ -1901,19 +1901,19 @@
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 					"file": "Vapecord.Luxury.zip",
 					"output": "/Vapecord.zip",
-					"message": "Download the latest Plugin... please wait."
+					"message": "Downloading Vapecord.Public.zip..."
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "luma/plugins/00040000004C5700/",
 					"output": "/luma/plugins/00040000004C5700/",
-					"message": "Extracting... please wait."
+					"message": "Extracting Vapecord..."
 				},
 				{
 					"type": "deleteFile",
 					"file": "sdmc:/Vapecord.zip",
-					"message": "Deleting unneded file."
+					"message": "Deleting Vapecord.zip..."
 				}
 			],
 			"Download Plugin boot.firm": [
