@@ -40,7 +40,7 @@ scripts:
     type: deleteFile
   '[nightly] Download nds-bootstrap':
   - file: https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z
-    message: Downloading nds-bootstrap Nightly...
+    message: Downloading nds-bootstrap...
     output: /nds-bootstrap.7z
     type: downloadFile
   - file: /nds-bootstrap.7z

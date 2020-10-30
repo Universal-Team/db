@@ -22,91 +22,91 @@ scripts:
     type: downloadRelease
   Download for ACNL EUR:
   - file: Vapecord.Public.zip
-    message: Download the latest Plugin... please wait.
+    message: Downloading Vapecord.Public.zip...
     output: /Vapecord.zip
     repo: RedShyGuy/Vapecord-ACNL-Plugin
     type: downloadRelease
   - file: /Vapecord.zip
     input: luma/plugins/0004000000086400/
-    message: Extracting... please wait.
+    message: Extracting Vapecord...
     output: /luma/plugins/0004000000086400/
     type: extractFile
   - file: sdmc:/Vapecord.zip
-    message: Deleting unneded file.
+    message: Deleting Vapecord.zip...
     type: deleteFile
   Download for ACNL JPN:
   - file: Vapecord.Public.zip
-    message: Download the latest Plugin... please wait.
+    message: Downloading Vapecord.Public.zip...
     output: /Vapecord.zip
     repo: RedShyGuy/Vapecord-ACNL-Plugin
     type: downloadRelease
   - file: /Vapecord.zip
     input: luma/plugins/0004000000086200/
-    message: Extracting... please wait.
+    message: Extracting Vapecord...
     output: /luma/plugins/0004000000086200/
     type: extractFile
   - file: sdmc:/Vapecord.zip
-    message: Deleting unneded file.
+    message: Deleting Vapecord.zip...
     type: deleteFile
   Download for ACNL KOR:
   - file: Vapecord.Public.zip
-    message: Download the latest Plugin... please wait.
+    message: Downloading Vapecord.Public.zip...
     output: /Vapecord.zip
     repo: RedShyGuy/Vapecord-ACNL-Plugin
     type: downloadRelease
   - file: /Vapecord.zip
     input: luma/plugins/0004000000086500/
-    message: Extracting... please wait.
+    message: Extracting Vapecord...
     output: /luma/plugins/0004000000086500/
     type: extractFile
   - file: sdmc:/Vapecord.zip
-    message: Deleting unneded file.
+    message: Deleting Vapecord.zip...
     type: deleteFile
   Download for ACNL USA:
   - file: Vapecord.Public.zip
-    message: Download the latest Plugin... please wait.
+    message: Downloading Vapecord.Public.zip...
     output: /Vapecord.zip
     repo: RedShyGuy/Vapecord-ACNL-Plugin
     type: downloadRelease
   - file: /Vapecord.zip
     input: luma/plugins/0004000000086300/
-    message: Extracting... please wait.
+    message: Extracting Vapecord...
     output: /luma/plugins/0004000000086300/
     type: extractFile
   - file: sdmc:/Vapecord.zip
-    message: Deleting unneded file.
+    message: Deleting Vapecord.zip...
     type: deleteFile
   Download for ACNL WA EUR:
   - file: Vapecord.Public.zip
-    message: Download the latest Plugin... please wait.
+    message: Downloading Vapecord.Public.zip...
     output: /Vapecord.zip
     repo: RedShyGuy/Vapecord-ACNL-Plugin
     type: downloadRelease
   - file: /Vapecord.zip
     input: luma/plugins/0004000000198f00/
-    message: Extracting... please wait.
+    message: Extracting Vapecord...
     output: /luma/plugins/0004000000198f00/
     type: extractFile
   - file: sdmc:/Vapecord.zip
-    message: Deleting unneded file.
+    message: Deleting Vapecord.zip...
     type: deleteFile
   Download for ACNL WA JPN:
   - file: Vapecord.Public.zip
-    message: Download the latest Plugin... please wait.
+    message: Downloading Vapecord.Public.zip...
     output: /Vapecord.zip
     repo: RedShyGuy/Vapecord-ACNL-Plugin
     type: downloadRelease
   - file: /Vapecord.zip
     input: luma/plugins/0004000000198d00/
-    message: Extracting... please wait.
+    message: Extracting Vapecord...
     output: /luma/plugins/0004000000198d00/
     type: extractFile
   - file: sdmc:/Vapecord.zip
-    message: Deleting unneded file.
+    message: Deleting Vapecord.zip...
     type: deleteFile
   Download for ACNL WA USA:
   - file: Vapecord.Public.zip
-    message: Download the latest Plugin... please wait.
+    message: Downloading Vapecord.Public.zip...
     output: /Vapecord.zip
     repo: RedShyGuy/Vapecord-ACNL-Plugin
     type: downloadRelease
@@ -116,21 +116,21 @@ scripts:
     output: /luma/plugins/0004000000198e00/
     type: extractFile
   - file: sdmc:/Vapecord.zip
-    message: Deleting unneded file.
+    message: Deleting Vapecord.zip...
     type: deleteFile
   Download for ACNL Welcome Luxury:
   - file: Vapecord.Luxury.zip
-    message: Download the latest Plugin... please wait.
+    message: Downloading Vapecord.Public.zip...
     output: /Vapecord.zip
     repo: RedShyGuy/Vapecord-ACNL-Plugin
     type: downloadRelease
   - file: /Vapecord.zip
     input: luma/plugins/00040000004C5700/
-    message: Extracting... please wait.
+    message: Extracting Vapecord...
     output: /luma/plugins/00040000004C5700/
     type: extractFile
   - file: sdmc:/Vapecord.zip
-    message: Deleting unneded file.
+    message: Deleting Vapecord.zip...
     type: deleteFile
 source: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin
 systems:

@@ -62,24 +62,24 @@ scripts:
     type: deleteFile
   - file: /TWiLightMenu-3DS.7z
     type: deleteFile
-  TWiLight Menu++ Nightly (Lite):
+  '[nightly lite] TWiLight Menu++':
   - file: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Lite.7z
-    message: Downloading TWiLight Menu++ Nightly (Lite)...
+    message: Downloading TWiLight Menu++...
     output: /TWiLightMenu.7z
     type: downloadFile
   - file: /TWiLightMenu.7z
     input: TWiLightMenu/_nds/
-    message: Extracting TWiLight Menu++ Nightly (Lite)...
+    message: Extracting TWiLight Menu++...
     output: /_nds/
     type: extractFile
   - file: /TWiLightMenu.7z
     input: TWiLightMenu/3DS - CFW users/
-    message: Extracting TWiLight Menu++ Nightly (Lite)...
+    message: Extracting TWiLight Menu++...
     output: /
     type: extractFile
   - file: /TWiLightMenu.7z
     input: TWiLightMenu/DSi&3DS - SD card users/
-    message: Extracting TWiLight Menu++ Nightly (Lite)...
+    message: Extracting TWiLight Menu++...
     output: /
     type: extractFile
   - file: /TWiLight Menu.cia
@@ -96,7 +96,7 @@ scripts:
     type: deleteFile
   '[nightly] Download TWiLight Menu++':
   - file: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z
-    message: Downloading TWiLight Menu++ (Nightly)...
+    message: Downloading TWiLight Menu++...
     output: /TWiLightMenu-3DS.7z
     type: downloadFile
   - file: /TWiLightMenu-3DS.7z

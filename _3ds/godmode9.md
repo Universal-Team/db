@@ -29,13 +29,13 @@ prerelease:
 scripts:
   Download GodMode9.firm:
   - file: GodMode9.*.zip
-    message: Downloading the GodMode9 ZIP...
+    message: Downloading the GodMode9 zip...
     output: /GodMode9.zip
     repo: d0k3/GodMode9
     type: downloadRelease
   - file: /GodMode9.zip
     input: GodMode9.firm
-    message: Extracting the GodMode9 FIRM...
+    message: Extracting the GodMode9.firm...
     output: /luma/payloads/GodMode9.firm
     type: extractFile
   - file: /GodMode9.zip

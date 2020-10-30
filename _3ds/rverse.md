@@ -19,17 +19,17 @@ layout: app
 scripts:
   Download rverse:
   - file: rverse-3ds.zip
-    message: Downloading the rverse package...
+    message: Downloading rverse...
     output: /rverse.zip
     repo: rverseTeam/rverse-Releases
     type: downloadRelease
   - file: /rverse.zip
     input: ''
-    message: Extracting rverse package... please wait.
+    message: Extracting rverse...
     output: /
     type: extractFile
   - file: sdmc:/rverse.zip
-    message: Deleting unneeded file.
+    message: Deleting rverse.zip...
     type: deleteFile
 source: https://github.com/rverseTeam/rverse2
 systems:

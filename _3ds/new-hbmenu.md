@@ -18,7 +18,7 @@ layout: app
 scripts:
   Download boot.3dsx:
   - file: boot.3dsx
-    message: Downloading the Homebrew Menu 3DSX...
+    message: Downloading boot.3dsx...
     output: /boot.3dsx
     repo: fincs/new-hbmenu
     type: downloadRelease
