@@ -24,3 +24,6 @@ updated: '2020-10-26T05:51:42Z'
 version: v1.0.0
 version_title: Initial release
 ---
+This is just a simple proof of concent / example to show of the DSi's cameras being used in a homebrew app, and an open-source example for initializing the cameras in C/C++. Currently it can show both cameras and save a picture as photo.bmp.
+
+![Example image](https://github.com/Epicpkmn11/dsi-camera/raw/master/resources/example.png)
