@@ -5,20 +5,20 @@ categories:
 color: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
-download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v16.5.0
+download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v16.6.0
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 28260477
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v16.5.0/TWiLightMenu-3DS.7z
+    size: 29271366
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v16.6.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 28238711
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v16.5.0/TWiLightMenu-DSi.7z
+    size: 29250748
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v16.6.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 41309820
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v16.5.0/TWiLightMenu-Flashcard.7z
+    size: 42329048
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v16.6.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 41921296
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v16.5.0/TWiLightMenu.7z
+    size: 42949486
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v16.6.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 image: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/logo.png
@@ -120,9 +120,9 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-updated: '2020-10-14T01:34:25Z'
-version: v16.5.0
-version_title: 'Hacktober (2020) release #2'
+updated: '2020-10-31T06:19:01Z'
+version: v16.6.0
+version_title: Final Hacktober (2020) release
 wiki: https://github.com/DS-Homebrew/TWiLightMenu/wiki
 ---
 TWiLight Menu++ is an open-source DSi Menu upgrade/replacement for the Nintendo DSi, the Nintendo 3DS, and Nintendo DS flashcards. It can launch Nintendo DS, SNES, NES, GameBoy (color), GameBoy Advance, Sega GameGear/Master System & Mega Drive/Genesis ROMs, as well as DSTWO plugins (if you use a DSTWO) and videos.
