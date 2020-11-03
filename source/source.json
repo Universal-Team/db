@@ -165,7 +165,19 @@
 		"github": "Gericom/GBARunner2",
 		"icon": "https://raw.githubusercontent.com/Gericom/GBARunner2/master/icon.bmp",
 		"categories": ["emulator"],
-		"systems": ["DS"]
+		"systems": ["DS"],
+		"autogen_scripts": true,
+		"scripts": {
+			"[twlmenu] Download GBARunner2_arm7dldi_3ds.nds": [
+				{
+					"type": "downloadRelease",
+					"repo": "Gericom/GBARunner2",
+					"file": "GBARunner2_arm7dldi_3ds.nds",
+					"output": "/_nds/GBARunner2_arm7dldi_3ds.nds",
+					"message": "Downloading GBARunner2_arm7dldi_3ds.nds..."
+				}
+			]
+		}
 	},
 	{
 		"long_description": "Features:\n- Dump GameBoy Advance cartridges on the original Nintendo DS and Nintendo DS Lite consoles.\n- Dump Nintendo DS/DSi cartridges on Nintendo DSi and Nintendo 3DS consoles (if GodMode9i is ran on the console SD card).\n- Copy, move, delete, rename files/folders and create folders.\n- Mount the NitroFS of .nds files.\n- Browse files on supported flashcards when running GM9i from the NAND or SD Card. (`AceKard 2(i)` & `R4 Ultra (r4ultra.com)`)\n\n![The file list](https://gbatemp.b-cdn.net/attachments/snap_191132-png.195368)",
@@ -190,10 +202,10 @@
 		"systems": ["DS"],
 		"downloads": {
 			"DScraft_310811.rar": {
-				"url": "https://web.archive.org/web/20160407220910if_/http://smealum.net/dscraft/downloads/DScraft_310811.rar"
+				"url": "https://db.universal-team.net/assets/files/DScraft_310811.rar"
 			},
 			"DScraft_fat_310811.rar": {
-				"url": "https://web.archive.org/web/20160112071851if_/http://smealum.net/dscraft/downloads/DScraft_fat_310811.rar"
+				"url": "https://db.universal-team.net/assets/files/DScraft_fat_310811.rar"
 			}
 		},
 		"download_page": "https://web.archive.org/web/20160818124931/http://smealum.net/dscraft/",
@@ -201,7 +213,63 @@
 		"image": "https://raw.githubusercontent.com/smealum/dscraft/master/site/dscraft-logo.png",
 		"icon": "https://db.universal-team.net/assets/images/icons/dscraft.png",
 		"version": "v310811",
-		"updated": "2011-08-31T20:29:00Z"
+		"updated": "2011-08-31T20:29:00Z",
+		"scripts": {
+			"Download DScraft.nds": [
+				{
+					"type": "downloadFile",
+					"file": "https://db.universal-team.net/assets/files/DScraft_310811.rar",
+					"output": "/DScraft_310811.rar",
+					"message": "Downloading DScraft_310811.rar..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/DScraft_310811.rar",
+					"input": "DScraft.nds",
+					"output": "%NDS%/DScraft.nds",
+					"message": "Extracting DScraft.nds..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/DScraft_310811.rar",
+					"input": "dscraft",
+					"output": "%NDS%/dscraft/",
+					"message": "Extracting dscraft..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/DScraft_310811.rar",
+					"message": "Deleting DScraft_310811.rar..."
+				}
+			],
+			"Download DScraft_fat.nds": [
+				{
+					"type": "downloadFile",
+					"file": "https://db.universal-team.net/assets/files/DScraft_fat_310811.rar",
+					"output": "/DScraft_fat_310811.rar",
+					"message": "Downloading DScraft_fat_310811.rar..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/DScraft_fat_310811.rar",
+					"input": "DScraft_fat.nds",
+					"output": "%NDS%/DScraft_fat.nds",
+					"message": "Extracting DScraft_fat.nds..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/DScraft_fat_310811.rar",
+					"input": "dscraft",
+					"output": "dscraft/",
+					"message": "Extracting dscraft..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/DScraft_fat_310811.rar",
+					"message": "Deleting DScraft_fat_310811.rar..."
+				}
+			]
+		}
 	},
 	{
 		"github": "smealum/portalDS",
@@ -213,7 +281,36 @@
 		"github": "rhaleblian/dslibris",
 		"categories": ["utility"],
 		"systems": ["DS"],
-		"icon": "https://raw.githubusercontent.com/rhaleblian/dslibris/master/gfx/icon.bmp"
+		"icon": "https://raw.githubusercontent.com/rhaleblian/dslibris/master/gfx/icon.bmp",
+		"scripts": {
+			"Download dslibris.nds": [
+				{
+					"type": "downloadRelease",
+					"repo": "rhaleblian/dslibris",
+					"file": "dslibris.*\\.zip",
+					"output": "/dslibris.zip",
+					"message": "Downloading dslibris.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/dslibris.zip",
+					"input": "",
+					"output": "/",
+					"message": "Extracting dslibris..."
+				},
+				{
+					"type": "move",
+					"oldFile": "/dslibris.nds",
+					"newFile": "%NDS%/dslibris.nds",
+					"message": "Moving dslibris.nds..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/dslibris.zip",
+					"message": "Deleting dslibris.zip..."
+				}
+			]
+		}
 	},
 	{
 		"title": "Colors!",
@@ -221,7 +318,7 @@
 		"categories": ["utility"],
 		"downloads": {
 			"Colors110ds.zip": {
-				"url": "https://gamebrew.org/images/0/0e/Colors110ds.zip"
+				"url": "https://db.universal-team.net/assets/files/Colors110ds.zip"
 			}
 		},
 		"author": "Jens Andersson",
@@ -230,7 +327,41 @@
 		"version": "v1.1",
 		"updated": "2010-10-04T10:11:20Z",
 		"systems": ["DS"],
-		"icon": "https://db.universal-team.net/assets/images/icons/colors.png"
+		"icon": "https://db.universal-team.net/assets/images/icons/colors.png",
+		"scripts": {
+			"Download Colors.nds": [
+				{
+					"type": "downloadFile",
+					"file": "https://db.universal-team.net/assets/files/Colors110ds.zip",
+					"output": "/Colors110ds.zip",
+					"message": "Downloading Colors110ds.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Colors110ds.zip",
+					"input": "Colors.nds",
+					"output": "%NDS%/Colors.nds",
+					"message": "Extracting Colors.nds..."
+				},
+				{
+					"type": "promptMessage",
+					"message": "Extract ColorsMagazine_1.col?",
+					"count": 1
+				},
+				{
+					"type": "extractFile",
+					"file": "/Colors110ds.zip",
+					"input": "ColorsMagazine_1.col",
+					"output": "%NDS%/ColorsMagazine_1.col",
+					"message": "Extracting ColorsMagazine_1.col..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Colors110ds.zip",
+					"message": "Deleting Colors110ds.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "Gericom/YouTubeDS",
@@ -295,6 +426,48 @@
 					"url": "http://lolsnes.kuribo64.net/gitbuilds/git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip"
 				}
 			}
+		},
+		"scripts": {
+			"Download lolSnes.nds": [
+				{
+					"type": "downloadFile",
+					"file": "http://lolsnes.kuribo64.net/lolsnes.7z",
+					"output": "/lolsnes.7z",
+					"message": "Downloading lolsnes.7z..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/lolsnes.7z",
+					"input": "lolsnes/lolSnes.nds",
+					"output": "%NDS%/lolSnes.nds",
+					"message": "Extracting lolSnes.nds..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/lolsnes.7z",
+					"message": "Deleting lolsnes.7z..."
+				}
+			],
+			"[nightly] Download lolSnes.nds": [
+				{
+					"type": "downloadFile",
+					"file": "http://lolsnes.kuribo64.net/gitbuilds/git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip",
+					"output": "/lolsnes.zip",
+					"message": "Downloading lolsnes zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/lolsnes.zip",
+					"input": "lolSnes.nds",
+					"output": "%NDS%/lolSnes.nds",
+					"message": "Extracting lolSnes.nds..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/lolsnes.zip",
+					"message": "Deleting lolsnes.zip..."
+				}
+			]
 		}
 	},
 	{
@@ -319,7 +492,7 @@
 		"title": "jEnesisDS",
 		"downloads": {
 			"JEnesisDS0174.zip": {
-				"url": "https://gamebrew.org/images/d/d5/JEnesisDS0174.zip"
+				"url": "https://db.universal-team.net/assets/files/JEnesisDS0174.zip"
 			}
 		},
 		"categories": ["emulator"],
@@ -329,7 +502,29 @@
 		"author": "Lordus",
 		"systems": ["DS"],
 		"description": "A Sega Genesis/MegaDrive emulator for the Nintendo DS",
-		"icon": "https://db.universal-team.net/assets/images/icons/jenesisds.png"
+		"icon": "https://db.universal-team.net/assets/images/icons/jenesisds.png",
+		"scripts": {
+			"Download jEnesisDS.nds": [
+				{
+					"type": "downloadFile",
+					"file": "https://db.universal-team.net/assets/files/JEnesisDS0174.zip",
+					"output": "/JEnesisDS0174.zip",
+					"message": "Downloading JEnesisDS0174.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/JEnesisDS0174.zip",
+					"input": "jEnesisDS.nds",
+					"output": "%NDS%/jEnesisDS.nds",
+					"message": "Extracting jEnesisDS.nds..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/JEnesisDS0174.zip",
+					"message": "Deleting JEnesisDS0174.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "JeffRuLz/TMFH",
@@ -437,7 +632,31 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/Trinitro21/lpp-3ds/sbfm/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/lpp-3ds.png"
+		"image": "https://db.universal-team.net/assets/images/images/lpp-3ds.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"Download sbfm.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "Trinitro21/lpp-3ds",
+					"file": "sbfm.zip",
+					"output": "/sbfm.zip",
+					"message": "Downloading sbfm.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/sbfm.zip",
+					"input": "sbfm.3dsx",
+					"output": "%3DSX%/sbfm.3dsx",
+					"message": "Extracting sbfm.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/sbfm.zip",
+					"message": "Deleting sbfm.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "elhobbs/prboom3ds",
@@ -467,7 +686,36 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resources/icon.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"Download GYTB.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "MechanicalDragon0687/GYTB",
+					"file": "GYTB_hax.zip",
+					"output": "/GYTB_hax.zip",
+					"message": "Downloading GYTB_hax.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/GYTB_hax.zip",
+					"input": "",
+					"output": "/",
+					"message": "Extracting GYTB..."
+				},
+				{
+					"type": "move",
+					"oldFile": "/3ds/GYTB/GYTB.3dsx",
+					"newFile": "%3DSX%/GYTB.3dsx"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/GYTB_hax.zip",
+					"message": "Deleting GYTB_hax.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "Steveice10/FBI",
@@ -488,7 +736,101 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_banner.png",
-		"icon": "https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_icon_48x48.png"
+		"icon": "https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_icon_48x48.png",
+		"scripts": {
+			"Download OpenTitus.cia (Moktar)": [
+				{
+					"type": "promptMessage",
+					"message": "Are you on a New 3DS/2DS?",
+					"count": 2
+				},
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_MOKTAR_CIA_25-12-2018.7z",
+					"output": "/OpenTitus.7z",
+					"message": "Downloading OpenTitus 7z..."
+				},
+				{
+					"type": "skip",
+					"count": 1
+				},
+				{
+					"type": "downloadRelease",
+					"repo": "MrHuu/opentitus-3ds",
+					"file": "OpenTitus_MOKTAR.*\\.7z",
+					"output": "/OpenTitus.7z",
+					"message": "Downloading OpenTitus 7z..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/OpenTitus.7z",
+					"input": "OpenTitus/",
+					"output": "/3ds/OpenTitus/",
+					"message": "Extracting OpenTitus..."
+				},
+				{
+					"type": "installCia",
+					"file": "/3ds/OpenTitus/OpenTitus.cia",
+					"message": "Installing OpenTitus.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/3ds/OpenTitus/OpenTitus.cia",
+					"message": "Deleting OpenTitus.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/OpenTitus.7z",
+					"message": "Deleting OpenTitus.7z..."
+				}
+			],
+			"Download OpenTitus.cia (Titus)": [
+				{
+					"type": "promptMessage",
+					"message": "Are you on a New 3DS/2DS?",
+					"count": 2
+				},
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_TITUS_CIA_25-12-2018.7z",
+					"output": "/OpenTitus.7z",
+					"message": "Downloading OpenTitus 7z..."
+				},
+				{
+					"type": "skip",
+					"count": 1
+				},
+				{
+					"type": "downloadRelease",
+					"repo": "MrHuu/opentitus-3ds",
+					"file": "OpenTitus_TITUS.*\\.7z",
+					"output": "/OpenTitus.7z",
+					"message": "Downloading OpenTitus 7z..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/OpenTitus.7z",
+					"input": "OpenTitus/",
+					"output": "/3ds/OpenTitus/",
+					"message": "Extracting OpenTitus..."
+				},
+				{
+					"type": "installCia",
+					"file": "/3ds/OpenTitus/OpenTitus.cia",
+					"message": "Installing OpenTitus.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/3ds/OpenTitus/OpenTitus.cia",
+					"message": "Deleting OpenTitus.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/OpenTitus.7z",
+					"message": "Deleting OpenTitus.7z..."
+				}
+			]
+		}
 	},
 	{
 		"github": "J-D-K/JKSM",
@@ -623,7 +965,40 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/DomRe/3DS_eBook_Reader/master/meta/banner.png",
-		"icon": "https://raw.githubusercontent.com/DomRe/3DS_eBook_Reader/master/meta/icon.png"
+		"icon": "https://raw.githubusercontent.com/DomRe/3DS_eBook_Reader/master/meta/icon.png",
+		"scripts": {
+			"Download eBook_Reader.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "DomRe/3DS_eBook_Reader",
+					"file": "release.*\\.zip",
+					"output": "/release.zip",
+					"message": "Downloading release zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/release.zip",
+					"input": "",
+					"output": "/",
+					"message": "Extracting 3DS_eBook_Reader..."
+				},
+				{
+					"type": "installCia",
+					"file": "/eBook_Reader.cia",
+					"message": "Installing eBook_Reader.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/eBook_Reader.cia",
+					"message": "Deleting eBook_Reader.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/release.zip",
+					"message": "Deleting release.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "bubble2k16/picodrive_3ds",
@@ -662,7 +1037,67 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/ingolemo/drider/master/banner.png",
-		"icon": "https://raw.githubusercontent.com/ingolemo/drider/master/icon.png"
+		"icon": "https://raw.githubusercontent.com/ingolemo/drider/master/icon.png",
+		"scripts": {
+			"Download drider.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "ingolemo/drider",
+					"file": "drider.zip",
+					"output": "/drider.zip",
+					"message": "Downloading drider.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/drider.zip",
+					"input": "",
+					"output": "/",
+					"message": "Extracting drider..."
+				},
+				{
+					"type": "installCia",
+					"file": "/drider.cia",
+					"message": "Installing drider.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/drider.cia",
+					"message": "Deleting drider.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/drider.zip",
+					"message": "Deleting drider.zip..."
+				}
+			],
+			"Download drider.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "ingolemo/drider",
+					"file": "drider.zip",
+					"output": "/drider.zip",
+					"message": "Downloading drider.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/drider.zip",
+					"input": "",
+					"output": "/",
+					"message": "Extracting drider..."
+				},
+				{
+					"type": "move",
+					"oldFile": "/3ds/drider/drider.3dsx",
+					"newFile": "%3DSX%/drider.3dsx",
+					"message": "Moving drider.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/drider.zip",
+					"message": "Deleting drider.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "CorySanin/FastPlayCoin",
@@ -690,7 +1125,31 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/master/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/master/resources/icon.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"bottomless-block-barrage.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "TricksterGuy/bottomless-block-barrage",
+					"file": "bottomless-block-barrage.zip",
+					"output": "/bottomless-block-barrage.zip",
+					"message": "Downloading bottomless-block-barrage.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/bottomless-block-barrage.zip",
+					"input": "3ds/bottomless-block-barrage/bottomless-block-barrage.3dsx",
+					"output": "%3DSX%/bottomless-block-barrage.3dsx",
+					"message": "Extracting bottomless-block-barrage.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/bottomless-block-barrage.zip",
+					"message": "Deleting bottomless-block-barrage.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "Manurocker95/TRekt_3D",
@@ -703,14 +1162,62 @@
 		"github": "RSDuck/craftus_reloaded",
 		"systems": ["3DS"],
 		"categories": ["game"],
-		"icon": "https://raw.githubusercontent.com/RSDuck/craftus_reloaded/master/icon/craftusreloaded.png"
+		"icon": "https://raw.githubusercontent.com/RSDuck/craftus_reloaded/master/icon/craftusreloaded.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"Download craftusreloaded.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "RSDuck/craftus_reloaded",
+					"file": "craftus.*\\.zip",
+					"output": "/craftus.zip",
+					"message": "Downloading craftus.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/craftus.zip",
+					"input": "craftusreloaded.3dsx",
+					"output": "/%3DSX%/craftusreloaded.3dsx",
+					"message": "Extracting craftusreloaded.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/craftus.zip",
+					"message": "Deleting craftus.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "Manurocker95/Evolution_Sav3D_Me",
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/Manurocker95/Evolution_Sav3D_Me/Evolution_Sav3D_Me/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/evolution_sav3d_me.png"
+		"image": "https://db.universal-team.net/assets/images/images/evolution_sav3d_me.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"Download Evolution_Sav3D_Me.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "Manurocker95/Evolution_Sav3D_Me",
+					"file": "Evolution_Sav3D_Me.rar",
+					"output": "/Evolution_Sav3D_Me.rar",
+					"message": "Downloading Evolution_Sav3D_Me.rar..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Evolution_Sav3D_Me.rar",
+					"input": "Evolution_Sav3D_Me.3dsx",
+					"output": "%3DSX%/Evolution_Sav3D_Me.3dsx",
+					"message": "Extracting Evolution_Sav3D_Me.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Evolution_Sav3D_Me.rar",
+					"message": "Deleting Evolution_Sav3D_Me.rar..."
+				}
+			]
+		}
 	},
 	{
 		"github": "zoogie/Stuff",
@@ -738,7 +1245,31 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/deltabeard/ctrmus/master/meta/banner.png",
-		"icon": "https://raw.githubusercontent.com/deltabeard/ctrmus/master/meta/icon.png"
+		"icon": "https://raw.githubusercontent.com/deltabeard/ctrmus/master/meta/icon.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"Download ctrmus.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "deltabeard/ctrmus",
+					"file": "ctrmus.zip",
+					"output": "/ctrmus.zip",
+					"message": "Downloading ctrmus.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/ctrmus.zip",
+					"input": "3ds-arm/3ds/ctrmus/ctrmus.3dsx",
+					"output": "%3DSX%/ctrmus.3dsx",
+					"message": "Extracting ctrmus.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/ctrmus.zip",
+					"message": "Deleting ctrmus.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "aliceinpalth/3dfetch",
@@ -752,7 +1283,31 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/resources/Banner.png",
-		"icon": "https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/icon.png"
+		"icon": "https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/icon.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"Download ButtonPresser3DS.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "trainboy2019/ButtonPresser3DS",
+					"file": "3ds.zip",
+					"output": "/3ds.zip",
+					"message": "Downloading 3ds.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/3ds.zip",
+					"input": "3ds/ButtonPresser3DS.3dsx",
+					"output": "%3DSX%/ButtonPresser3DS.3dsx",
+					"message": "Extracting ButtonPresser3DS.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/3ds.zip",
+					"message": "Deleting 3ds.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "masterfeizz/Quake2CTR",
@@ -847,24 +1402,157 @@
 	},
 	{
 		"github": "LiquidFenrir/3ds1010",
+		"description": "Port of 1010! to 3ds homebrew, made in C.\nIt's like Tetris but with infinite time, you lose when you can no longer place any of the pieces you have available.",
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/LiquidFenrir/3ds1010/master/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/LiquidFenrir/3ds1010/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/LiquidFenrir/3ds1010/master/resources/icon.png",
+		"scripts": {
+			"Download 3ds1010.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "LiquidFenrir/3ds1010",
+					"file": "3ds1010.zip",
+					"output": "/3ds1010.zip",
+					"message": "Downloading 3ds1010.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/3ds1010.zip",
+					"input": "3ds1010.cia",
+					"output": "/3ds1010.cia",
+					"message": "Extracting 3ds1010.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/3ds1010.cia",
+					"message": "Installing 3ds1010.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/3ds1010.cia",
+					"message": "Deleting 3ds1010.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/3ds1010.zip",
+					"message": "Deleting 3ds1010.zip..."
+				}
+			],
+			"Download 3ds1010.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "LiquidFenrir/3ds1010",
+					"file": "3ds1010.zip",
+					"output": "/3ds1010.zip",
+					"message": "Downloading 3ds1010.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/3ds1010.zip",
+					"input": "3ds/3ds1010/3ds1010.3dsx",
+					"output": "%3DSX%/3ds1010.3dsx",
+					"message": "Extracting 3ds1010.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/3ds1010.zip",
+					"message": "Deleting 3ds1010.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "nop90/Griffon-Legend-3DS",
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/icon.png",
+		"scripts": {
+			"Download GriffonLegend.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "nop90/Griffon-Legend-3DS",
+					"file": "GriffonLegend.*\\.zip",
+					"output": "/GriffonLegend.zip",
+					"message": "Downloading GriffonLegend.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/GriffonLegend.zip",
+					"input": "GriffonLegend.cia",
+					"output": "/GriffonLegend.cia",
+					"message": "Extracting GriffonLegend.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/GriffonLegend.cia",
+					"message": "Installing GriffonLegend.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/GriffonLegend.cia",
+					"message": "Deleting GriffonLegend.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/GriffonLegend.zip",
+					"message": "Deleting GriffonLegend.zip..."
+				}
+			],
+			"Download GriffonLegend.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "nop90/Griffon-Legend-3DS",
+					"file": "GriffonLegend.*\\.zip",
+					"output": "/GriffonLegend.zip",
+					"message": "Downloading GriffonLegend.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/GriffonLegend.zip",
+					"input": "GriffonLegend.3dsx",
+					"output": "%3DSX%/GriffonLegend.3dsx",
+					"message": "Extracting GriffonLegend.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/GriffonLegend.zip",
+					"message": "Deleting GriffonLegend.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "d0k3/CTRXplorer",
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/banner.png",
-		"icon": "https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/icon.png"
+		"icon": "https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/icon.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"Download CTRXplorer.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "d0k3/CTRXplorer",
+					"file": "CTRXplorer.*\\.zip",
+					"output": "/CTRXplorer.zip",
+					"message": "Downloading CTRXplorer zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/CTRXplorer.zip",
+					"input": "3ds/CTRXplorer/CTRXplorer.3dsx",
+					"output": "%3DSX%/CTRXplorer.3dsx",
+					"message": "Extracting CTRXplorer.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/CTRXplorer.zip",
+					"message": "Deleting CTRXplorer.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "nop90/POWDER-3DS",
@@ -927,7 +1615,31 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/banner.png",
-		"icon": "https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/icon.png"
+		"icon": "https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/icon.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"Download GraphCalc3DS.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "flarn2006/graphcalc3ds",
+					"file": "GraphCalc3DS_3DSX.zip",
+					"output": "/GraphCalc3DS_3DSX.zip",
+					"message": "Downloading GraphCalc3DS_3DSX.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/GraphCalc3DS_3DSX.zip",
+					"input": "GraphCalc3DS.3dsx",
+					"output": "%3DSX%/GraphCalc3DS.3dsx",
+					"message": "Extracting GraphCalc3DS.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/GraphCalc3DS_3DSX.zip",
+					"message": "Deleting GraphCalc3DS_3DSX.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "Hoksy/ravimid",
@@ -955,14 +1667,150 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/masterfeizz/ctrQuake/master/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/ctrquake.png"
+		"image": "https://db.universal-team.net/assets/images/images/ctrquake.png",
+		"scripts": {
+			"Download ctrQuake.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "masterfeizz/ctrQuake",
+					"file": "ctrQuake.zip",
+					"output": "/ctrQuake.zip",
+					"message": "Downloading ctrQuake.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/ctrQuake.zip",
+					"input": "",
+					"output": "/",
+					"message": "Extracting ctrQuake..."
+				},
+				{
+					"type": "downloadRelease",
+					"repo": "masterfeizz/ctrQuake",
+					"file": "ctrQuake.cia",
+					"output": "/ctrQuake.cia",
+					"message": "Downloading ctrQuake.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/ctrQuake.cia",
+					"message": "Installing ctrQuake.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/ctrQuake.cia",
+					"message": "Deleting ctrQuake.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/ctrQuake.zip",
+					"message": "Deleting ctrQuake.zip..."
+				}
+			],
+			"Download ctrQuake.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "masterfeizz/ctrQuake",
+					"file": "ctrQuake.zip",
+					"output": "/ctrQuake.zip",
+					"message": "Downloading ctrQuake.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/ctrQuake.zip",
+					"input": "",
+					"output": "/",
+					"message": "Extracting ctrQuake..."
+				},
+				{
+					"type": "move",
+					"oldFile": "/3ds/ctrQuake/ctrQuake.3dsx",
+					"newFile": "%3DSX%/ctrQuake.3dsx"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/ctrQuake.zip",
+					"message": "Deleting ctrQuake.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "ItsDeidara/CaptureAssistant",
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/ItsDeidara/CaptureAssistant/master/assets/banner.png",
-		"icon": "https://raw.githubusercontent.com/ItsDeidara/CaptureAssistant/master/assets/icon.png"
+		"icon": "https://raw.githubusercontent.com/ItsDeidara/CaptureAssistant/master/assets/icon.png",
+		"scripts": {
+			"Download CaptureAssistant.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "ItsDeidara/CaptureAssistant",
+					"file": "CaptureAssistant.*\\.zip",
+					"output": "/CaptureAssistant.zip",
+					"message": "Downloading CaptureAssistant zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/CaptureAssistant.zip",
+					"input": "CaptureAssistant.cia",
+					"output": "/CaptureAssistant.cia",
+					"message": "Extracting CaptureAssistant.cia..."
+				},
+				{
+					"type": "promptMessage",
+					"message": "Use alternate calibration images?",
+					"count": 3
+				},
+				{
+					"type": "extractFile",
+					"file": "/CaptureAssistant.zip",
+					"input": "calibrationalt.png",
+					"output": "/calibration.png",
+					"message": "Extracting calibration.png..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/CaptureAssistant.zip",
+					"input": "calibrationalt2.png",
+					"output": "/calibration2.png",
+					"message": "Extracting calibration2.png..."
+				},
+				{
+					"type": "skip",
+					"count": 2
+				},
+				{
+					"type": "extractFile",
+					"file": "/CaptureAssistant.zip",
+					"input": "calibration.png",
+					"output": "/calibration.png",
+					"message": "Extracting calibration.png..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/CaptureAssistant.zip",
+					"input": "calibration2.png",
+					"output": "/calibration2.png",
+					"message": "Extracting calibration2.png..."
+				},
+				{
+					"type": "installCia",
+					"file": "/CaptureAssistant.cia",
+					"message": "Installing CaptureAssistant.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/CaptureAssistant.cia",
+					"message": "Deleting CaptureAssistant.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/CaptureAssistant.zip",
+					"message": "Deleting CaptureAssistant.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "nop90/OpenSyobon3DS",
@@ -997,14 +1845,128 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/TurtleP/Hax0r/master/graphics/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/hax0r.png"
+		"image": "https://db.universal-team.net/assets/images/images/hax0r.png",
+		"scripts": {
+			"Download Hax0r.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "TurtleP/Hax0r",
+					"file": "Hax0r.zip",
+					"output": "/Hax0r.zip",
+					"message": "Downloading Hax0r.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Hax0r.zip",
+					"input": "",
+					"output": "/3ds/Hax0r/",
+					"message": "Extracting Hax0r..."
+				},
+				{
+					"type": "installCia",
+					"file": "/3ds/Hax0r/Hax0r.cia",
+					"message": "Installing Hax0r.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/3ds/Hax0r/Hax0r.cia",
+					"message": "Deleting Hax0r.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Hax0r.zip",
+					"message": "Deleting Hax0r.zip..."
+				}
+			],
+			"Download Hax0r.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "TurtleP/Hax0r",
+					"file": "Hax0r.zip",
+					"output": "/Hax0r.zip",
+					"message": "Downloading Hax0r.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Hax0r.zip",
+					"input": "",
+					"output": "/3ds/Hax0r/",
+					"message": "Extracting Hax0r..."
+				},
+				{
+					"type": "move",
+					"oldFile": "/3ds/Hax0r/Hax0r.3dsx",
+					"newFile": "%3DSX%/Hax0r.3dsx",
+					"message": "Moving Hax0r..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Hax0r.zip",
+					"message": "Deleting Hax0r.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "nop90/Biniax2-3DS",
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/icon.png",
+		"scripts": {
+			"Download Biniax2.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "nop90/Biniax2-3DS",
+					"file": "Biniax2_CIA.*\\.zip",
+					"output": "/Biniax2_CIA.zip",
+					"message": "Downloading Biniax2_CIA zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Biniax2_CIA.zip",
+					"input": "Biniax2.cia",
+					"output": "/Biniax2.cia",
+					"message": "Extracting Biniax2.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/Biniax2.cia",
+					"message": "Installing Biniax2.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Biniax2.cia",
+					"message": "Deleting Biniax2.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Biniax2_CIA.zip",
+					"message": "Deleting Biniax2_CIA.zip..."
+				}
+			],
+			"Download Biniax2.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "nop90/Biniax2-3DS",
+					"file": "Biniax2_3DSX.*\\.zip",
+					"output": "/Biniax2_3DSX.zip",
+					"message": "Downloading Biniax2_3DSX zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Biniax2_3DSX.zip",
+					"input": "Biniax2/Biniax2.3dsx",
+					"output": "%3DSX%/Biniax2.3dsx",
+					"message": "Extracting Biniax2.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Biniax2_3DSX.zip",
+					"message": "Deleting Biniax2_3DSX.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "TurtleP/TurtleInvaders",
@@ -1031,7 +1993,43 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/phijor/ctroller/master/3DS/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/phijor/ctroller/master/3DS/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/phijor/ctroller/master/3DS/resources/icon.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"Download ctroller.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "phijor/ctroller",
+					"file": "ctroller.*.tar.gz",
+					"output": "/ctroller.tar.gz",
+					"message": "Downloading file.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/ctroller.tar.gz",
+					"input": "ctroller.tar",
+					"output": "/ctroller.tar",
+					"message": "Extracting ctroller.tar..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/ctroller.tar",
+					"input": "ctroller.3dsx",
+					"output": "%3DSX%/ctroller.3dsx",
+					"message": "Extracting ctroller.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/ctroller.tar.gz",
+					"message": "Deleting ctroller.tar.gz..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/ctroller.tar",
+					"message": "Deleting ctroller.tar..."
+				}
+			]
+		}
 	},
 	{
 		"github": "nop90/ZeldaROTH",
@@ -1052,21 +2050,231 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Asellus/3DS_Quick_Reboot/master/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/Asellus/3DS_Quick_Reboot/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/Asellus/3DS_Quick_Reboot/master/resources/icon.png",
+		"scripts": {
+			"Download 3DSQuickReboot.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "Asellus/3DS_Quick_Reboot",
+					"file": "3DSQuickReboot-.*\\.zip",
+					"output": "/3DSQuickReboot.zip",
+					"message": "Downloading 3DSQuickReboot zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/3DSQuickReboot.zip",
+					"input": "3DSQuickReboot.cia",
+					"output": "/3DSQuickReboot.cia",
+					"message": "Extracting 3DSQuickReboot.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/3DSQuickReboot.cia",
+					"message": "Installing 3DSQuickReboot.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/3DSQuickReboot.cia",
+					"message": "Deleting 3DSQuickReboot.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/3DSQuickReboot.zip",
+					"message": "Deleting 3DSQuickReboot.zip..."
+				}
+			],
+			"Download 3DSQuickReboot.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "Asellus/3DS_Quick_Reboot",
+					"file": "3DSQuickReboot-.*\\.zip",
+					"output": "/3DSQuickReboot.zip",
+					"message": "Downloading 3DSQuickReboot zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/3DSQuickReboot.zip",
+					"input": "3ds/3DSQuickReboot/3DSQuickReboot.3dsx",
+					"output": "%3DSX%/3DSQuickReboot.3dsx",
+					"message": "Extracting 3DSQuickReboot.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/3DSQuickReboot.zip",
+					"message": "Deleting 3DSQuickReboot.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "masterfeizz/EDuke3D",
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/masterfeizz/EDuke3D/master/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/eduke3d.png"
+		"image": "https://db.universal-team.net/assets/images/images/eduke3d.png",
+		"scripts": {
+			"Download EDuke3D.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "Owner/Repo",
+					"file": "EDuke3D.*\\.zip",
+					"output": "/EDuke3D.zip",
+					"message": "Downloading EDuke3D.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/EDuke3D.zip",
+					"input": "",
+					"output": "/",
+					"message": "Extracting EDuke3D..."
+				},
+				{
+					"type": "downloadRelease",
+					"repo": "Owner/Repo",
+					"file": "EDuke3D.cia",
+					"output": "/EDuke3D.cia",
+					"message": "Downloading EDuke3D.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/EDuke3D.cia",
+					"message": "Installing EDuke3D.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/EDuke3D.cia",
+					"message": "Deleting EDuke3D.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/EDuke3D.zip",
+					"message": "Deleting EDuke3D.zip..."
+				}
+			],
+			"Download eduke3d.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "Owner/Repo",
+					"file": "EDuke3D.*\\.zip",
+					"output": "/EDuke3D.zip",
+					"message": "Downloading EDuke3D.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/EDuke3D.zip",
+					"input": "",
+					"output": "/",
+					"message": "Extracting EDuke3D..."
+				},
+				{
+					"type": "move",
+					"oldFile": "/3ds/eduke3d/eduke3d.3dsx",
+					"newFile": "%3DSX%/eduke3d.3dsx"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/EDuke3D.zip",
+					"message": "Deleting EDuke3D.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "machinamentum/CS3DS",
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/machinamentum/CS3DS/master/jge/Projects/cspsp/icon_3ds.png",
-		"image": "https://db.universal-team.net/assets/images/images/cs3ds.png"
+		"image": "https://db.universal-team.net/assets/images/images/cs3ds.png",
+		"scripts": {
+			"Download cspsp.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "machinamentum/CS3DS",
+					"file": "cspsp.zip",
+					"output": "/cspsp.zip",
+					"message": "Downloading cspsp.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/cspsp.zip",
+					"input": "cspsp/",
+					"output": "/cspsp/",
+					"message": "Extracting cspsp..."
+				},
+				{
+					"type": "installCia",
+					"file": "/cspsp/cspsp.cia",
+					"message": "Installing cspsp.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/cspsp/cspsp.3dsx",
+					"message": "Deleting cspsp.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/cspsp/cspsp.cia",
+					"message": "Deleting cspsp.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/cspsp/cspsp.smdh",
+					"message": "Deleting cspsp.smdh..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/cspsp/README.txt",
+					"message": "Deleting README.txt..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/cspsp.zip",
+					"message": "Deleting cspsp.zip..."
+				}
+			],
+			"Download cspsp.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "machinamentum/CS3DS",
+					"file": "cspsp.zip",
+					"output": "/cspsp.zip",
+					"message": "Downloading cspsp.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/cspsp.zip",
+					"input": "cspsp/",
+					"output": "/cspsp/",
+					"message": "Extracting cspsp..."
+				},
+				{
+					"type": "move",
+					"oldFile": "/cspsp/cspsp.3dsx",
+					"newFile": "%3DSX%/cspsp.3dsx",
+					"message": "Moving cspsp.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/cspsp/cspsp.cia",
+					"message": "Deleting cspsp.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/cspsp/cspsp.smdh",
+					"message": "Deleting cspsp.smdh..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/cspsp/README.txt",
+					"message": "Deleting README.txt..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/cspsp.zip",
+					"message": "Deleting cspsp.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "Cruel/DrawAttack",
@@ -1159,6 +2367,7 @@
 		"icon": "https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/icon.png"
 	},
 	{
+		"title": "GameYob (3DS)",
 		"github": "Steveice10/GameYob",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
@@ -1176,7 +2385,75 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/banner.png",
-		"icon": "https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/icon48x48.png"
+		"icon": "https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/icon48x48.png",
+		"scripts": {
+			"Download 3DSController.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "CTurt/3DSController",
+					"file": "3DSController.*\\.zip",
+					"output": "/3DSController.zip",
+					"message": "Downloading 3DSController zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/3DSController.zip",
+					"input": "3DS/3DSController.cia",
+					"output": "/3DSController.cia",
+					"message": "Extracting 3DSController.cia..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/3DSController.zip",
+					"input": "3DS/3DSController.ini",
+					"output": "/3DSController.ini",
+					"message": "Extracting 3DSController.ini..."
+				},
+				{
+					"type": "installCia",
+					"file": "/3DSController.cia",
+					"message": "Installing 3DSController.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/3DSController.cia",
+					"message": "Deleting 3DSController.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/3DSController.zip",
+					"message": "Deleting 3DSController.zip..."
+				}
+			],
+			"Download 3DSController.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "CTurt/3DSController",
+					"file": "3DSController.*\\.zip",
+					"output": "/3DSController.zip",
+					"message": "Downloading 3DSController zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/3DSController.zip",
+					"input": "3DS/3DSController.3dsx",
+					"output": "%3DSX%/3DSController.3dsx",
+					"message": "Extracting 3DSController.3dsx..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/3DSController.zip",
+					"input": "3DS/3DSController.ini",
+					"output": "/3DSController.ini",
+					"message": "Extracting 3DSController.ini..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/3DSController.zip",
+					"message": "Deleting 3DSController.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "SuperSaiyajinStackZ/PKCount",
@@ -1219,7 +2496,61 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/icon.png",
-		"long_description": "A demonstration of the 800px mode on 3DS consoles. Will not work on O2DS consoles."
+		"long_description": "A demonstration of the 800px mode on 3DS consoles. Will not work on O2DS consoles.",
+		"scripts": {
+			"Download HoriHD-Gallery.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "RocketRobz/HoriHD-Gallery",
+					"file": "HoriHD-Gallery.7z",
+					"output": "/HoriHD-Gallery.7z",
+					"message": "Downloading HoriHD-Gallery.7z..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/HoriHD-Gallery.7z",
+					"input": "HoriHD-Gallery.cia",
+					"output": "/HoriHD-Gallery.cia",
+					"message": "Extracting HoriHD-Gallery.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/HoriHD-Gallery.cia",
+					"message": "Installing HoriHD-Gallery.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/HoriHD-Gallery.cia",
+					"message": "Deleting HoriHD-Gallery.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/HoriHD-Gallery.7z",
+					"message": "Deleting HoriHD-Gallery.7z..."
+				}
+			],
+			"Download HoriHD-Gallery.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "RocketRobz/HoriHD-Gallery",
+					"file": "HoriHD-Gallery.7z",
+					"output": "/HoriHD-Gallery.7z",
+					"message": "Downloading HoriHD-Gallery.7z..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/HoriHD-Gallery.7z",
+					"input": "HoriHD-Gallery.cia",
+					"output": "%3DSX%/HoriHD-Gallery.3dsx",
+					"message": "Extracting HoriHD-Gallery.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/HoriHD-Gallery.7z",
+					"message": "Deleting HoriHD-Gallery.7z..."
+				}
+			]
+		}
 	},
 	{
 		"github": "hax0kartik/wumiibo",
@@ -1352,7 +2683,7 @@
 					"file": "/TWiLightMenu-3DS.7z"
 				}
 			],
-			"[nightly lite] TWiLight Menu++": [
+			"[nightly lite] Download TWiLight Menu++": [
 				{
 					"type": "downloadFile",
 					"file": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Lite.7z",
@@ -1509,7 +2840,8 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/RocketRobz/hiyaCFW/unlaunch/logo/logo.png",
 		"icon": "https://raw.githubusercontent.com/RocketRobz/hiyaCFW/unlaunch/icon.bmp",
-		"long_description": "**Note:** For the initial install, please follow [dsi.cfw.guide](https://dsi.cfw.guide). If you are updating, then simply replace `sd:/hiya.dsi` from the `for SDNAND SD card` in the 7z."
+		"long_description": "**Note:** For the initial install, please follow [dsi.cfw.guide](https://dsi.cfw.guide). If you are updating, then simply replace `sd:/hiya.dsi` from the `for SDNAND SD card` in the 7z.",
+		"unistore_exclude": true
 	},
 	{
 		"github": "profi200/open_agb_firm",

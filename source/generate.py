@@ -8,6 +8,7 @@ import numpy
 import os
 from PIL import Image, ImageDraw
 import qrcode
+import re
 import requests
 import rfeed
 import sys
@@ -240,7 +241,7 @@ for app in source:
 			if not "downloads" in app:
 				app["downloads"] = {}
 			for asset in release["assets"]:
-				if not asset["name"] in app["downloads"]:
+				if not asset["name"] in app["downloads"] and len(re.findall("(nro|vpk|PS3|PSP|switch|wii|osx|ubuntu|win)", asset["name"])) == 0:
 					app["downloads"][asset["name"]] = {
 						"url": asset["browser_download_url"],
 						"size": asset["size"]
@@ -409,52 +410,54 @@ for app in source:
 				if "long_description" in app:
 					file.write(app["long_description"])
 
-	# Add entry for UniStore
-	uni = {
-		"info": {
-			"title": app["title"] if "title" in app else "",
-			"version": app["version"] if "version" in app else "",
-			"author": app["author"] if "author" in app else "",
-			"category": ", ".join(app["categories"]) if "categories" in app else "",
-			"console": ", ".join(app["systems"]) if "systems" in app else "",
-			"icon_index": len(icons) - 1 if "icon" in app or "image" in app else -1,
-			"description": app["description"] if "description" in app else "",
-			"license": app["license"] if "license" in app else ""
+	if not "unistore_exclude" in app or app["unistore_exclude"] == False:
+		# Add entry for UniStore
+		uni = {
+			"info": {
+				"title": app["title"] if "title" in app else "",
+				"version": app["version"] if "version" in app else "",
+				"author": app["author"] if "author" in app else "",
+				"category": ", ".join(app["categories"]) if "categories" in app else "",
+				"console": ", ".join(app["systems"]) if "systems" in app else "",
+				"icon_index": len(icons) - 1 if "icon" in app or "image" in app else -1,
+				"description": app["description"] if "description" in app else "",
+				"license": app["license"] if "license" in app else ""
+			}
 		}
-	}
-	if "updated" in app:
-		uni["info"]["last_updated"] = parser.parse(app["updated"]).strftime("%Y-%m-%d at %H:%M (UTC)")
+		if "updated" in app:
+			uni["info"]["last_updated"] = parser.parse(app["updated"]).strftime("%Y-%m-%d at %H:%M (UTC)")
 
-	# If scripts are specified, use those instead of the release files
-	if "scripts" in app:
-		for script in app["scripts"]:
-			uni[script] = app["scripts"][script]
-	else:
-		if "downloads" in app:
-			for file in app["downloads"]:
-				uni["Download " + file + ((" (" + byteCount(app["downloads"][file]["size"]) + ")") if "size" in app["downloads"][file] else "")] = downloadScript(file, app["downloads"][file]["url"])
+		# If scripts are specified, use those instead of the release files
+		if "scripts" in app:
+			for script in app["scripts"]:
+				uni[script] = app["scripts"][script]
+		
+		if "autogen_scripts" in app and app["autogen_scripts"] or not "scripts" in app:
+			if "downloads" in app:
+				for file in app["downloads"]:
+					uni["Download " + file + ((" (" + byteCount(app["downloads"][file]["size"]) + ")") if "size" in app["downloads"][file] else "")] = downloadScript(file, app["downloads"][file]["url"])
 
-		if "prerelease" in app:
-			for file in app["prerelease"]["downloads"]:
-				uni["[prerelease] Download " + file] = downloadScript(file, app["prerelease"]["downloads"][file]["url"])
+			if "prerelease" in app:
+				for file in app["prerelease"]["downloads"]:
+					uni["[prerelease] Download " + file] = downloadScript(file, app["prerelease"]["downloads"][file]["url"])
 
-		if "nightly" in app:
-			for file in app["nightly"]["downloads"]:
-				uni["[nightly] Download " + file] = downloadScript(file, app["nightly"]["downloads"][file]["url"])
+			if "nightly" in app:
+				for file in app["nightly"]["downloads"]:
+					uni["[nightly] Download " + file] = downloadScript(file, app["nightly"]["downloads"][file]["url"])
 
-	unistore["storeContent"].append(uni)
+		unistore["storeContent"].append(uni)
 
-	# Add authors, categories, and systems are to the unistore in not already in
-	for category in app["categories"]:
-		if not category in unistore["storeInfo"]["categories"]:
-			unistore["storeInfo"]["categories"].append(category)
+		# Add authors, categories, and systems are to the unistore in not already in
+		for category in app["categories"]:
+			if not category in unistore["storeInfo"]["categories"]:
+				unistore["storeInfo"]["categories"].append(category)
 
-	if "author" in app and not app["author"] in unistore["storeInfo"]["authors"]:
-		unistore["storeInfo"]["authors"].append(app["author"])
+		if "author" in app and not app["author"] in unistore["storeInfo"]["authors"]:
+			unistore["storeInfo"]["authors"].append(app["author"])
 
-	for system in app["systems"]:
-		if not system in unistore["storeInfo"]["consoles"]:
-			unistore["storeInfo"]["consoles"].append(system)
+		for system in app["systems"]:
+			if not system in unistore["storeInfo"]["consoles"]:
+				unistore["storeInfo"]["consoles"].append(system)
 
 # Make t3x
 with open(os.path.join("temp", "icons.t3s"), "w", encoding="utf8") as file:
