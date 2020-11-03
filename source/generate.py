@@ -138,24 +138,11 @@ unistore = {
 		"title": "Universal-DB",
 		"author": "Universal-Team",
 		"url": "https://db.universal-team.net/unistore/universal-db.unistore",
-		"file": "sdmc:/3ds/Universal-Updater/stores/Universal-DB.unistore",
-		"sheet": "sdmc:/3ds/Universal-Updater/stores/Universal-DB.t3x",
+		"file": "universal-db.unistore",
 		"sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
+		"sheet": "universal-db.t3x",
 		"description": "Universal-DB - An online database of 3DS and DS homebrew",
-		"categories": [],
-		"authors": [],
-		"consoles": [],
-		"barLight": "#395472",
-		"barDark": "#395472",
-		"bgDark": "#262c4d",
-		"bgLight": "#60a8c0",
-		"textDark": "#ffffff",
-		"textLight": "#000000",
-		"boxDark": "#313131",
-		"boxLight": "#f7f7f7",
-		"outlineDark": "#f00000",
-		"outlineLight": "#f00000",
-		"version": 2,
+		"version": 3,
 		"revision": 0 if not "revision" in unistoreOld["storeInfo"] else unistoreOld["storeInfo"]["revision"]
 	},
 	"storeContent": [],
@@ -417,8 +404,8 @@ for app in source:
 				"title": app["title"] if "title" in app else "",
 				"version": app["version"] if "version" in app else "",
 				"author": app["author"] if "author" in app else "",
-				"category": ", ".join(app["categories"]) if "categories" in app else "",
-				"console": ", ".join(app["systems"]) if "systems" in app else "",
+				"category": app["categories"] if "categories" in app else [],
+				"console": app["systems"] if "systems" in app else [],
 				"icon_index": len(icons) - 1 if "icon" in app or "image" in app else -1,
 				"description": app["description"] if "description" in app else "",
 				"license": app["license"] if "license" in app else ""
@@ -432,6 +419,7 @@ for app in source:
 			for script in app["scripts"]:
 				uni[script] = app["scripts"][script]
 		
+		# If autogen_scripts is forced or no scripts, generate scripts from downloads
 		if "autogen_scripts" in app and app["autogen_scripts"] or not "scripts" in app:
 			if "downloads" in app:
 				for file in app["downloads"]:
@@ -450,18 +438,6 @@ for app in source:
 
 		unistore["storeContent"].append(uni)
 
-		# Add authors, categories, and systems are to the unistore in not already in
-		for category in app["categories"]:
-			if not category in unistore["storeInfo"]["categories"]:
-				unistore["storeInfo"]["categories"].append(category)
-
-		if "author" in app and not app["author"] in unistore["storeInfo"]["authors"]:
-			unistore["storeInfo"]["authors"].append(app["author"])
-
-		for system in app["systems"]:
-			if not system in unistore["storeInfo"]["consoles"]:
-				unistore["storeInfo"]["consoles"].append(system)
-
 # Make t3x
 with open(os.path.join("temp", "icons.t3s"), "w", encoding="utf8") as file:
 	file.write("--atlas -f rgba -z auto\n\n")
@@ -475,16 +451,6 @@ if unistore != unistoreOld:
 
 # Write unistore to file
 with open(os.path.join("..", "unistore", "universal-db.unistore"), "w", encoding="utf8") as file:
-	file.write(json.dumps(unistore, sort_keys=True))
-
-# BETA v3 UniStore
-unistore["storeInfo"]["url"] = "https://db.universal-team.net/unistore/universal-db-beta.unistore"
-unistore["storeInfo"]["file"] = "universal-db-beta.unistore"
-unistore["storeInfo"]["sheet"] = "universal-db.t3x"
-unistore["storeInfo"]["version"] = 3
-
-# Write beta unistore to file
-with open(os.path.join("..", "unistore", "universal-db-beta.unistore"), "w", encoding="utf8") as file:
 	file.write(json.dumps(unistore, sort_keys=True))
 
 # Write output file
