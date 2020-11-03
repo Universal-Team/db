@@ -1,5 +1,6 @@
 ---
 author: KunoichiZ
+autogen_scripts: true
 categories:
 - utility
 color: '#9ae1d2'
@@ -21,6 +22,21 @@ license: wtfpl
 license_name: Do What The F*ck You Want To Public License
 qr:
   lumaupdater.cia: https://db.universal-team.net/assets/images/qr/lumaupdater.cia.png
+scripts:
+  lumaupdater.3dsx:
+  - file: lumaupdater.*\.zip
+    message: Downloading lumaupdater.zip...
+    output: /lumaupdater.zip
+    repo: author/repo
+    type: downloadRelease
+  - file: /lumaupdater.zip
+    input: 3ds/lumaupdater/lumaupdater.3dsx
+    message: Extracting lumaupdater.3dsx...
+    output: '%3DSX%/lumaupdater.3dsx'
+    type: extractFile
+  - file: /lumaupdater.zip
+    message: Deleting lumaupdater.zip...
+    type: deleteFile
 source: https://github.com/KunoichiZ/lumaupdate
 systems:
 - 3DS

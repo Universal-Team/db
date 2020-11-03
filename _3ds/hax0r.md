@@ -14,6 +14,45 @@ github: TurtleP/Hax0r
 icon: https://raw.githubusercontent.com/TurtleP/Hax0r/master/graphics/icon.png
 image: https://db.universal-team.net/assets/images/images/hax0r.png
 layout: app
+scripts:
+  Hax0r.3dsx:
+  - file: Hax0r.zip
+    message: Downloading Hax0r.zip...
+    output: /Hax0r.zip
+    repo: TurtleP/Hax0r
+    type: downloadRelease
+  - file: /Hax0r.zip
+    input: ''
+    message: Extracting Hax0r...
+    output: /3ds/Hax0r/
+    type: extractFile
+  - message: Moving Hax0r...
+    new: '%3DSX%/Hax0r.3dsx'
+    old: /3ds/Hax0r/Hax0r.3dsx
+    type: move
+  - file: /Hax0r.zip
+    message: Deleting Hax0r.zip...
+    type: deleteFile
+  Hax0r.cia:
+  - file: Hax0r.zip
+    message: Downloading Hax0r.zip...
+    output: /Hax0r.zip
+    repo: TurtleP/Hax0r
+    type: downloadRelease
+  - file: /Hax0r.zip
+    input: ''
+    message: Extracting Hax0r...
+    output: /3ds/Hax0r/
+    type: extractFile
+  - file: /3ds/Hax0r/Hax0r.cia
+    message: Installing Hax0r.cia...
+    type: installCia
+  - file: /3ds/Hax0r/Hax0r.cia
+    message: Deleting Hax0r.cia...
+    type: deleteFile
+  - file: /Hax0r.zip
+    message: Deleting Hax0r.zip...
+    type: deleteFile
 source: https://github.com/TurtleP/Hax0r
 systems:
 - 3DS

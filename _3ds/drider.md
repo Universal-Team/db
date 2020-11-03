@@ -16,6 +16,45 @@ image: https://raw.githubusercontent.com/ingolemo/drider/master/banner.png
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+scripts:
+  drider.3dsx:
+  - file: drider.zip
+    message: Downloading drider.zip...
+    output: /drider.zip
+    repo: ingolemo/drider
+    type: downloadRelease
+  - file: /drider.zip
+    input: 3ds/
+    message: Extracting drider...
+    output: /3ds/
+    type: extractFile
+  - message: Moving drider.3dsx...
+    new: '%3DSX%/drider.3dsx'
+    old: /3ds/drider/drider.3dsx
+    type: move
+  - file: /drider.zip
+    message: Deleting drider.zip...
+    type: deleteFile
+  drider.cia:
+  - file: drider.zip
+    message: Downloading drider.zip...
+    output: /drider.zip
+    repo: ingolemo/drider
+    type: downloadRelease
+  - file: /drider.zip
+    input: ''
+    message: Extracting drider...
+    output: /
+    type: extractFile
+  - file: /drider.cia
+    message: Installing drider.cia...
+    type: installCia
+  - file: /drider.cia
+    message: Deleting drider.cia...
+    type: deleteFile
+  - file: /drider.zip
+    message: Deleting drider.zip...
+    type: deleteFile
 source: https://github.com/ingolemo/drider
 systems:
 - 3DS

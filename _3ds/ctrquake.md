@@ -19,6 +19,49 @@ image: https://db.universal-team.net/assets/images/images/ctrquake.png
 layout: app
 qr:
   ctrQuake.cia: https://db.universal-team.net/assets/images/qr/ctrquake.cia.png
+scripts:
+  ctrQuake.3dsx:
+  - file: ctrQuake.zip
+    message: Downloading ctrQuake.zip...
+    output: /ctrQuake.zip
+    repo: masterfeizz/ctrQuake
+    type: downloadRelease
+  - file: /ctrQuake.zip
+    input: ''
+    message: Extracting ctrQuake...
+    output: /
+    type: extractFile
+  - new: '%3DSX%/ctrQuake.3dsx'
+    old: /3ds/ctrQuake/ctrQuake.3dsx
+    type: move
+  - file: /ctrQuake.zip
+    message: Deleting ctrQuake.zip...
+    type: deleteFile
+  ctrQuake.cia:
+  - file: ctrQuake.zip
+    message: Downloading ctrQuake.zip...
+    output: /ctrQuake.zip
+    repo: masterfeizz/ctrQuake
+    type: downloadRelease
+  - file: /ctrQuake.zip
+    input: ''
+    message: Extracting ctrQuake...
+    output: /
+    type: extractFile
+  - file: ctrQuake.cia
+    message: Downloading ctrQuake.cia...
+    output: /ctrQuake.cia
+    repo: masterfeizz/ctrQuake
+    type: downloadRelease
+  - file: /ctrQuake.cia
+    message: Installing ctrQuake.cia...
+    type: installCia
+  - file: /ctrQuake.cia
+    message: Deleting ctrQuake.cia...
+    type: deleteFile
+  - file: /ctrQuake.zip
+    message: Deleting ctrQuake.zip...
+    type: deleteFile
 source: https://github.com/masterfeizz/ctrQuake
 systems:
 - 3DS

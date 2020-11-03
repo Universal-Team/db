@@ -14,6 +14,41 @@ github: bubble2k16/picodrive_3ds
 icon: https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/picodrive/assets/icon.png
 image: https://db.universal-team.net/assets/images/images/picodrive.png
 layout: app
+scripts:
+  picodrive_3ds.3dsx:
+  - file: picodrive_3ds.*\.zip
+    message: Downloading picodrive_3ds zip...
+    output: /picodrive_3ds.zip
+    repo: bubble2k16/picodrive_3ds
+    type: downloadRelease
+  - file: /picodrive_3ds.zip
+    input: picodrive_3ds.3dsx
+    message: Extracting picodrive_3ds.3dsx...
+    output: '%3DSX%/picodrive_3ds.cia'
+    type: extractFile
+  - file: /picodrive_3ds.zip
+    message: Deleting picodrive_3ds.zip...
+    type: deleteFile
+  picodrive_3ds.cia:
+  - file: picodrive_3ds.*\.zip
+    message: Downloading picodrive_3ds zip...
+    output: /picodrive_3ds.zip
+    repo: bubble2k16/picodrive_3ds
+    type: downloadRelease
+  - file: /picodrive_3ds.zip
+    input: picodrive_3ds.cia
+    message: Extracting picodrive_3ds.cia...
+    output: /picodrive_3ds.cia
+    type: extractFile
+  - file: /picodrive_3ds.cia
+    message: Installing picodrive_3ds.cia...
+    type: installCia
+  - file: /picodrive_3ds.cia
+    message: Deleting picodrive_3ds.cia...
+    type: deleteFile
+  - file: /picodrive_3ds.zip
+    message: Deleting picodrive_3ds.zip...
+    type: deleteFile
 source: https://github.com/bubble2k16/picodrive_3ds
 systems:
 - 3DS

@@ -7,6 +7,9 @@ created: '2017-02-17T21:00:10Z'
 description: NitroHax cheat tool for Nintendo DS games, ported to Nintendo 3DS
 download_page: https://github.com/ahezard/NitroHax3DS/releases/tag/0.99.DSI
 downloads:
+  NitroHax.cia:
+    size: 1424128
+    url: https://github.com/ahezard/NitroHax3DS/releases/download/0.99.NTR/NitroHax.cia
   NitroHax_DSi_Release.zip:
     size: 502877
     url: https://github.com/ahezard/NitroHax3DS/releases/download/0.99.DSI/NitroHax_DSi_Release.zip
@@ -16,6 +19,8 @@ image: https://avatars0.githubusercontent.com/u/16766068?v=4
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+qr:
+  NitroHax.cia: https://db.universal-team.net/assets/images/qr/nitrohax.cia.png
 source: https://github.com/ahezard/NitroHax3DS
 systems:
 - DS

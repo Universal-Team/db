@@ -53,7 +53,7 @@ downloads:
 image: https://db.universal-team.net/assets/images/images/nds-cheat-databases.png
 layout: app
 scripts:
-  Download usrcheat.dat (TWiLight Menu++):
+  '[twlmenu] usrcheat.dat':
   - file: https://github.com/TWLBot/Builds/raw/master/usrcheat.dat.7z
     message: Downloading usrcheat.dat...
     output: /usrcheat.dat.7z

@@ -15,7 +15,7 @@ icon: https://db.universal-team.net/assets/images/icons/fbwo-3ds.png
 image: https://db.universal-team.net/assets/images/images/fbwo-3ds.png
 layout: app
 scripts:
-  Download fbwo.3dsx:
+  fbwo.3dsx:
   - file: fbwo.*\.zip
     message: Downloading fbwo.zip...
     output: /fbwo.zip
@@ -34,7 +34,7 @@ scripts:
   - file: /fbwo.zip
     message: Deleting fbwo.zip...
     type: deleteFile
-  Download fbwo.cia:
+  fbwo.cia:
   - file: fbwo.*\.zip
     message: Downloading fbwo.zip...
     output: /fbwo.zip

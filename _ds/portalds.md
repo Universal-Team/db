@@ -14,6 +14,26 @@ github: smealum/portalDS
 icon: https://raw.githubusercontent.com/smealum/portalDS/master/logo.bmp
 image: https://avatars2.githubusercontent.com/u/6338016?v=4
 layout: app
+scripts:
+  portalDS.nds:
+  - file: ASDS.*\.zip
+    message: Downloading ASDS.zip...
+    output: /ASDS.zip
+    repo: smealum/portalDS
+    type: downloadRelease
+  - file: /ASDS.zip
+    input: portalDS.nds
+    message: Extracting portalDS.nds...
+    output: '%NDS%/portalDS.nds'
+    type: extractFile
+  - file: /ASDS.zip
+    input: asds/
+    message: Extracting asds...
+    output: '%NDS%/asds/'
+    type: extractFile
+  - file: /ASDS.zip
+    message: Deleting ASDS.zip...
+    type: deleteFile
 source: https://github.com/smealum/portalDS
 systems:
 - DS

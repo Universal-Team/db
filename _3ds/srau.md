@@ -1,5 +1,6 @@
 ---
 author: noirscape
+autogen_scripts: true
 categories:
 - utility
 - save-tool
@@ -22,6 +23,21 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   SRAU.cia: https://db.universal-team.net/assets/images/qr/srau.cia.png
+scripts:
+  SRAU.3dsx:
+  - file: SRAU.7z
+    message: Downloading SRAU.7z...
+    output: /SRAU.7z
+    repo: noirscape/SRAU
+    type: downloadRelease
+  - file: /SRAU.7z
+    input: SRAU.3dsx
+    message: Extracting SRAU.3dsx...
+    output: '%3DSX%/SRAU.3dsx'
+    type: extractFile
+  - file: /SRAU.7z
+    message: Deleting SRAU.7z...
+    type: deleteFile
 source: https://github.com/noirscape/SRAU
 systems:
 - 3DS

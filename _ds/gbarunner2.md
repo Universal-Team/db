@@ -1,5 +1,6 @@
 ---
 author: Gericom
+autogen_scripts: true
 categories:
 - emulator
 color: '#48405c'
@@ -23,6 +24,13 @@ github: Gericom/GBARunner2
 icon: https://raw.githubusercontent.com/Gericom/GBARunner2/master/icon.bmp
 image: https://avatars2.githubusercontent.com/u/5251038?v=4
 layout: app
+scripts:
+  '[twlmenu] GBARunner2_arm7dldi_3ds.nds':
+  - file: GBARunner2_arm7dldi_3ds.nds
+    message: Downloading GBARunner2_arm7dldi_3ds.nds...
+    output: /_nds/GBARunner2_arm7dldi_3ds.nds
+    repo: Gericom/GBARunner2
+    type: downloadRelease
 source: https://github.com/Gericom/GBARunner2
 systems:
 - DS

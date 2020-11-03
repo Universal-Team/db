@@ -16,9 +16,6 @@ downloads:
   SuperHaxagon.cia:
     size: 20562880
     url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.3.0/SuperHaxagon.cia
-  SuperHaxagon.nro:
-    size: 28507881
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.3.0/SuperHaxagon.nro
 github: RedInquisitive/Super-Haxagon
 icon: https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/icon-3ds.png
 image: https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/banner.png

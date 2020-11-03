@@ -24,6 +24,51 @@ prerelease:
   updated: '2016-05-08T04:36:44Z'
   version: v1.0-beta
   version_title: Beta release (fixed)
+scripts:
+  '[prerelease] EDuke3D.cia':
+  - file: EDuke3D.*\.zip
+    includePrereleases: true
+    message: Downloading EDuke3D.zip...
+    output: /EDuke3D.zip
+    repo: Owner/Repo
+    type: downloadRelease
+  - file: /EDuke3D.zip
+    input: ''
+    message: Extracting EDuke3D...
+    output: /
+    type: extractFile
+  - file: EDuke3D.cia
+    message: Downloading EDuke3D.cia...
+    output: /EDuke3D.cia
+    repo: Owner/Repo
+    type: downloadRelease
+  - file: /EDuke3D.cia
+    message: Installing EDuke3D.cia...
+    type: installCia
+  - file: /EDuke3D.cia
+    message: Deleting EDuke3D.cia...
+    type: deleteFile
+  - file: /EDuke3D.zip
+    message: Deleting EDuke3D.zip...
+    type: deleteFile
+  '[prerelease] eduke3d.3dsx':
+  - file: EDuke3D.*\.zip
+    includePrereleases: true
+    message: Downloading EDuke3D.zip...
+    output: /EDuke3D.zip
+    repo: Owner/Repo
+    type: downloadRelease
+  - file: /EDuke3D.zip
+    input: ''
+    message: Extracting EDuke3D...
+    output: /
+    type: extractFile
+  - new: '%3DSX%/eduke3d.3dsx'
+    old: /3ds/eduke3d/eduke3d.3dsx
+    type: move
+  - file: /EDuke3D.zip
+    message: Deleting EDuke3D.zip...
+    type: deleteFile
 source: https://github.com/masterfeizz/EDuke3D
 systems:
 - 3DS

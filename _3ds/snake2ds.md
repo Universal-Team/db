@@ -1,5 +1,6 @@
 ---
 author: Jacudibu
+autogen_scripts: true
 categories:
 - game
 color: '#d6d6d6'
@@ -24,6 +25,21 @@ license: mit
 license_name: MIT License
 qr:
   Snake2DS.cia: https://db.universal-team.net/assets/images/qr/snake2ds.cia.png
+scripts:
+  Snake2DS.3dsx:
+  - file: Snake2DS-3DSFiles.*\.zip
+    message: Downloading Snake2DS-3DSFiles zip...
+    output: /Snake2DS.zip
+    repo: Jacudibu/Snake2DS
+    type: downloadRelease
+  - file: /Snake2DS.zip
+    input: Snake2DS
+    message: Extracting Snake2DS...
+    output: '%3DSX%/Snake2DS/'
+    type: extractFile
+  - file: /Snake2DS.zip
+    message: Deleting Snake2DS.zip...
+    type: deleteFile
 source: https://github.com/Jacudibu/Snake2DS
 systems:
 - 3DS

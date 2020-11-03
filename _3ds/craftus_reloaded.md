@@ -1,5 +1,6 @@
 ---
 author: RSDuck
+autogen_scripts: true
 categories:
 - game
 color: '#4e4f39'
@@ -33,6 +34,21 @@ prerelease:
   version_title: 0.3 Pre 2 Second Pre Release
 qr:
   craftus-0.22.cia: https://db.universal-team.net/assets/images/qr/craftus-0.22.cia.png
+scripts:
+  craftusreloaded.3dsx:
+  - file: craftus.*\.zip
+    message: Downloading craftus.zip...
+    output: /craftus.zip
+    repo: RSDuck/craftus_reloaded
+    type: downloadRelease
+  - file: /craftus.zip
+    input: craftusreloaded.3dsx
+    message: Extracting craftusreloaded.3dsx...
+    output: '%3DSX%/craftusreloaded.3dsx'
+    type: extractFile
+  - file: /craftus.zip
+    message: Deleting craftus.zip...
+    type: deleteFile
 source: https://github.com/RSDuck/craftus_reloaded
 systems:
 - 3DS

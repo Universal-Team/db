@@ -24,6 +24,21 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   3ds-vgmstream.cia: https://db.universal-team.net/assets/images/qr/3ds-vgmstream.cia.png
+scripts:
+  3ds-vgmstream.3dsx:
+  - file: 3ds-vgmstream.zip
+    message: Downloading 3ds-vgmstream.zip...
+    output: /3ds-vgmstream.zip
+    repo: TricksterGuy/3ds-vgmstream
+    type: downloadRelease
+  - file: /3ds-vgmstream.zip
+    input: 3ds/3ds-vgmstream/3ds-vgmstream.3dsx
+    message: Extracting 3ds-vgmstream.3dsx...
+    output: '%3DSX%/3ds-vgmstream.3dsx'
+    type: extractFile
+  - file: /3ds-vgmstream.zip
+    message: Deleting 3ds-vgmstream.zip...
+    type: deleteFile
 source: https://github.com/TricksterGuy/3ds-vgmstream
 systems:
 - 3DS

@@ -14,13 +14,7 @@ github: RedShyGuy/Vapecord-ACNL-Plugin
 image: https://avatars1.githubusercontent.com/u/43783060?v=4
 layout: app
 scripts:
-  Download Plugin boot.firm:
-  - file: boot.firm
-    message: Download the plugin boot.firm... please wait.
-    output: /boot.firm
-    repo: mariohackandglitch/Luma3DS
-    type: downloadRelease
-  Download for ACNL EUR:
+  For ACNL EUR:
   - file: Vapecord.Public.zip
     message: Downloading Vapecord.Public.zip...
     output: /Vapecord.zip
@@ -34,7 +28,7 @@ scripts:
   - file: sdmc:/Vapecord.zip
     message: Deleting Vapecord.zip...
     type: deleteFile
-  Download for ACNL JPN:
+  For ACNL JPN:
   - file: Vapecord.Public.zip
     message: Downloading Vapecord.Public.zip...
     output: /Vapecord.zip
@@ -48,7 +42,7 @@ scripts:
   - file: sdmc:/Vapecord.zip
     message: Deleting Vapecord.zip...
     type: deleteFile
-  Download for ACNL KOR:
+  For ACNL KOR:
   - file: Vapecord.Public.zip
     message: Downloading Vapecord.Public.zip...
     output: /Vapecord.zip
@@ -62,7 +56,7 @@ scripts:
   - file: sdmc:/Vapecord.zip
     message: Deleting Vapecord.zip...
     type: deleteFile
-  Download for ACNL USA:
+  For ACNL USA:
   - file: Vapecord.Public.zip
     message: Downloading Vapecord.Public.zip...
     output: /Vapecord.zip
@@ -76,7 +70,7 @@ scripts:
   - file: sdmc:/Vapecord.zip
     message: Deleting Vapecord.zip...
     type: deleteFile
-  Download for ACNL WA EUR:
+  For ACNL WA EUR:
   - file: Vapecord.Public.zip
     message: Downloading Vapecord.Public.zip...
     output: /Vapecord.zip
@@ -90,7 +84,7 @@ scripts:
   - file: sdmc:/Vapecord.zip
     message: Deleting Vapecord.zip...
     type: deleteFile
-  Download for ACNL WA JPN:
+  For ACNL WA JPN:
   - file: Vapecord.Public.zip
     message: Downloading Vapecord.Public.zip...
     output: /Vapecord.zip
@@ -104,7 +98,7 @@ scripts:
   - file: sdmc:/Vapecord.zip
     message: Deleting Vapecord.zip...
     type: deleteFile
-  Download for ACNL WA USA:
+  For ACNL WA USA:
   - file: Vapecord.Public.zip
     message: Downloading Vapecord.Public.zip...
     output: /Vapecord.zip
@@ -118,7 +112,7 @@ scripts:
   - file: sdmc:/Vapecord.zip
     message: Deleting Vapecord.zip...
     type: deleteFile
-  Download for ACNL Welcome Luxury:
+  For ACNL Welcome Luxury:
   - file: Vapecord.Luxury.zip
     message: Downloading Vapecord.Public.zip...
     output: /Vapecord.zip
@@ -132,6 +126,12 @@ scripts:
   - file: sdmc:/Vapecord.zip
     message: Deleting Vapecord.zip...
     type: deleteFile
+  Plugin boot.firm:
+  - file: boot.firm
+    message: Downloading boot.firm...
+    output: /boot.firm
+    repo: mariohackandglitch/Luma3DS
+    type: downloadRelease
 source: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin
 systems:
 - 3DS

@@ -39,7 +39,7 @@ nightly:
     TWiLightMenu.7z:
       url: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu.7z
 scripts:
-  Download TWiLight Menu++:
+  TWiLight Menu++:
   - file: TWiLightMenu-3DS.7z
     message: Downloading TWiLight Menu++...
     output: /TWiLightMenu-3DS.7z
@@ -94,7 +94,7 @@ scripts:
     type: deleteFile
   - file: /TWiLightMenu.7z
     type: deleteFile
-  '[nightly] Download TWiLight Menu++':
+  '[nightly] TWiLight Menu++':
   - file: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z
     message: Downloading TWiLight Menu++...
     output: /TWiLightMenu-3DS.7z

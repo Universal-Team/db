@@ -1,5 +1,6 @@
 ---
 author: deltabeard
+autogen_scripts: true
 categories:
 - utility
 color: '#f7f6f7'
@@ -21,6 +22,21 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   ctrmus.cia: https://db.universal-team.net/assets/images/qr/ctrmus.cia.png
+scripts:
+  ctrmus.3dsx:
+  - file: ctrmus.zip
+    message: Downloading ctrmus.zip...
+    output: /ctrmus.zip
+    repo: deltabeard/ctrmus
+    type: downloadRelease
+  - file: /ctrmus.zip
+    input: 3ds-arm/3ds/ctrmus/ctrmus.3dsx
+    message: Extracting ctrmus.3dsx...
+    output: '%3DSX%/ctrmus.3dsx'
+    type: extractFile
+  - file: /ctrmus.zip
+    message: Deleting ctrmus.zip...
+    type: deleteFile
 source: https://github.com/deltabeard/ctrmus
 systems:
 - 3DS

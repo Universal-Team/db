@@ -17,7 +17,19 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 scripts:
-  Download boot.firm:
+  '[hourly] boot.firm':
+  - file: boot.firm
+    message: Downloading boot.firm...
+    output: /boot.firm
+    repo: hax0kartik/luma-hourlies
+    type: downloadRelease
+  '[plugin loader] boot.firm':
+  - file: boot.firm
+    message: Downloading boot.firm...
+    output: /boot.firm
+    repo: jbmagination/Luma3DS_plg
+    type: downloadRelease
+  boot.firm:
   - file: Luma3DS.*.zip
     message: Downloading Luma3DS zip...
     output: /Luma3DS.zip
@@ -31,18 +43,6 @@ scripts:
   - file: /Luma3DS.zip
     message: Deleting Luma3DS.zip...
     type: deleteFile
-  '[hourly] Download boot.firm':
-  - file: boot.firm
-    message: Downloading boot.firm...
-    output: /boot.firm
-    repo: hax0kartik/luma-hourlies
-    type: downloadRelease
-  '[plugin loader] Download boot.firm':
-  - file: boot.firm
-    message: Downloading boot.firm...
-    output: /boot.firm
-    repo: jbmagination/Luma3DS_plg
-    type: downloadRelease
 source: https://github.com/LumaTeam/Luma3DS
 systems:
 - 3DS

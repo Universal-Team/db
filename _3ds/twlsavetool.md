@@ -1,5 +1,6 @@
 ---
 author: TuxSH
+autogen_scripts: true
 categories:
 - utility
 - save-tool
@@ -23,6 +24,21 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 qr:
   TWLSaveTool.cia: https://db.universal-team.net/assets/images/qr/twlsavetool.cia.png
+scripts:
+  TWLSaveTool.3dsx:
+  - file: TWLSaveTool.zip
+    message: Downloading TWLSaveTool.zip...
+    output: /TWLSaveTool.zip
+    repo: TuxSH/TWLSaveTool
+    type: downloadRelease
+  - file: /TWLSaveTool.zip
+    input: 3ds/TWLSaveTool/TWLSaveTool.3dsx
+    message: Extracting TWLSaveTool.3dsx...
+    output: '%3DSX%/TWLSaveTool.3dsx'
+    type: extractFile
+  - file: /TWLSaveTool.zip
+    message: Deleting TWLSaveTool.zip...
+    type: deleteFile
 source: https://github.com/TuxSH/TWLSaveTool
 systems:
 - 3DS

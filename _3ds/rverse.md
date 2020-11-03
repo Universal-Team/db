@@ -17,7 +17,7 @@ github: rverseTeam/rverse-Releases
 image: https://avatars2.githubusercontent.com/u/38678735?v=4
 layout: app
 scripts:
-  Download rverse:
+  rverse:
   - file: rverse-3ds.zip
     message: Downloading rverse...
     output: /rverse.zip

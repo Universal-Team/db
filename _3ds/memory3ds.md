@@ -16,6 +16,41 @@ image: https://raw.githubusercontent.com/Omegadrien/Memory3DS/master/assets/bann
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+scripts:
+  Memory3DS.3dsx:
+  - file: Memory3DS.*\.zip
+    message: Downloading Memory3DS.zip...
+    output: /Memory3DS.zip
+    repo: Omegadrien/Memory3DS
+    type: downloadRelease
+  - file: /Memory3DS.zip
+    input: Memory3DS/3ds/Memory3DS/Memory3DS.3dsx
+    message: Extracting Memory3DS.3dsx...
+    output: '%3DSX%/Memory3DS.3dsx'
+    type: extractFile
+  - file: /Memory3DS.zip
+    message: Deleting Memory3DS.zip...
+    type: deleteFile
+  Memory3DS.cia:
+  - file: Memory3DS.*\.zip
+    message: Downloading Memory3DS.zip...
+    output: /Memory3DS.zip
+    repo: Omegadrien/Memory3DS
+    type: downloadRelease
+  - file: /Memory3DS.zip
+    input: Memory3DS/Memory3DS.cia
+    message: Extracting Memory3DS.cia...
+    output: /Memory3DS.cia
+    type: extractFile
+  - file: /Memory3DS.cia
+    message: Installing Memory3DS.cia...
+    type: installCia
+  - file: /Memory3DS.cia
+    message: Deleting Memory3DS.cia...
+    type: deleteFile
+  - file: /Memory3DS.zip
+    message: Deleting Memory3DS.zip...
+    type: deleteFile
 source: https://github.com/Omegadrien/Memory3DS
 systems:
 - 3DS

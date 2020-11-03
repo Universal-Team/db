@@ -16,6 +16,41 @@ image: https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/res
 layout: app
 license: mit
 license_name: MIT License
+scripts:
+  seedstarter.3dsx:
+  - file: RELEASE.*\.zip
+    message: Downloading seedminer.zip...
+    output: /seedminer.zip
+    repo: zoogie/seedminer
+    type: downloadRelease
+  - file: /seedminer.zip
+    input: RELEASE.*/seedstarter.3dsx
+    message: Extracting seedstarter.3dsx...
+    output: '%3DSX%/seedstarter.3dsx'
+    type: extractFile
+  - file: /seedminer.zip
+    message: Deleting seedminer.zip...
+    type: deleteFile
+  seedstarter.cia:
+  - file: RELEASE.*\.zip
+    message: Downloading seedminer.zip...
+    output: /seedminer.zip
+    repo: zoogie/seedminer
+    type: downloadRelease
+  - file: /seedminer.zip
+    input: RELEASE.*/seedstarter.cia
+    message: Extracting seedstarter.cia...
+    output: /seedstarter.cia
+    type: extractFile
+  - file: /seedstarter.cia
+    message: Installing seedstarter.cia...
+    type: installCia
+  - file: /seedstarter.cia
+    message: Deleting seedstarter.cia...
+    type: deleteFile
+  - file: /seedminer.zip
+    message: Deleting seedminer.zip...
+    type: deleteFile
 source: https://github.com/zoogie/seedminer
 systems:
 - 3DS

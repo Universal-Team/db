@@ -1,5 +1,6 @@
 ---
 author: MechanicalDragon0687
+autogen_scripts: true
 categories:
 - utility
 color: '#735056'
@@ -19,6 +20,24 @@ image: https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resour
 layout: app
 qr:
   GYTB.cia: https://db.universal-team.net/assets/images/qr/gytb.cia.png
+scripts:
+  GYTB.3dsx:
+  - file: GYTB_hax.zip
+    message: Downloading GYTB_hax.zip...
+    output: /GYTB_hax.zip
+    repo: MechanicalDragon0687/GYTB
+    type: downloadRelease
+  - file: /GYTB_hax.zip
+    input: ''
+    message: Extracting GYTB...
+    output: /
+    type: extractFile
+  - new: '%3DSX%/GYTB.3dsx'
+    old: /3ds/GYTB/GYTB.3dsx
+    type: move
+  - file: /GYTB_hax.zip
+    message: Deleting GYTB_hax.zip...
+    type: deleteFile
 source: https://github.com/MechanicalDragon0687/GYTB
 systems:
 - 3DS

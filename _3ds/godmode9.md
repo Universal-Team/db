@@ -27,9 +27,32 @@ prerelease:
   version: v1.9.2pre1
   version_title: GodMode9 v1.9.2pre1 Fourth Anniversary Edition
 scripts:
-  Download GodMode9.firm:
+  GodMode9.firm:
   - file: GodMode9.*.zip
-    message: Downloading the GodMode9 zip...
+    message: Downloading GodMode9 zip...
+    output: /GodMode9.zip
+    repo: d0k3/GodMode9
+    type: downloadRelease
+  - file: /GodMode9.zip
+    input: GodMode9.firm
+    message: Extracting the GodMode9.firm...
+    output: /luma/payloads/GodMode9.firm
+    type: extractFile
+  - file: /GodMode9.zip
+    input: gm9/
+    message: Extracting the /gm9/ directory...
+    output: /gm9/
+    type: extractFile
+  - file: /luma/payloads/GodMode9.firm.sha
+    message: Deleting a stowaway file...
+    type: deleteFile
+  - file: /GodMode9.zip
+    message: Deleting the downloaded ZIP file...
+    type: deleteFile
+  '[prerelease] GodMode9.firm':
+  - file: GodMode9.*.zip
+    includePrereleases: true
+    message: Downloading GodMode9 zip...
     output: /GodMode9.zip
     repo: d0k3/GodMode9
     type: downloadRelease

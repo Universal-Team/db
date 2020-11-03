@@ -21,6 +21,93 @@ nightly:
   downloads:
     Relaunch.7z:
       url: https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z
+scripts:
+  Relaunch.cia:
+  - file: Relaunch.7z
+    message: Downloading Relaunch.7z...
+    output: /Relaunch.7z
+    repo: Universal-Team/Relaunch
+    type: downloadRelease
+  - file: /Relaunch.7z
+    input: Relaunch/Relaunch.cia
+    message: Extracting Relaunch.cia...
+    output: /Relaunch.cia
+    type: extractFile
+  - file: /Relaunch.7z
+    input: Relaunch/_nds/Relaunch/menu.bin
+    message: Extracting menu.bin...
+    output: /_nds/Relaunch/menu.bin
+    type: extractFile
+  - file: /Relaunch.cia
+    message: Installing Relaunch.cia...
+    type: installCia
+  - file: /Relaunch.cia
+    message: Deleting Relaunch.cia...
+    type: deleteFile
+  - file: /Relaunch.7z
+    message: Deleting Relaunch.7z...
+    type: deleteFile
+  Relaunch.nds:
+  - file: Relaunch.7z
+    message: Downloading Relaunch.7z...
+    output: /Relaunch.7z
+    repo: Universal-Team/Relaunch
+    type: downloadRelease
+  - file: /Relaunch.7z
+    input: Relaunch/Relaunch.nds
+    message: Extracting Relaunch.nds...
+    output: '%NDS%/Relaunch.nds'
+    type: extractFile
+  - file: /Relaunch.7z
+    input: Relaunch/_nds/Relaunch/menu.bin
+    message: Extracting menu.bin...
+    output: /_nds/Relaunch/menu.bin
+    type: extractFile
+  - file: /Relaunch.7z
+    message: Deleting Relaunch.7z...
+    type: deleteFile
+  '[nightly] Relaunch.cia':
+  - file: https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z
+    message: Downloading Relaunch.7z...
+    output: /Relaunch.7z
+    type: downloadFile
+  - file: /Relaunch.7z
+    input: Relaunch/Relaunch.cia
+    message: Extracting Relaunch.cia...
+    output: /Relaunch.cia
+    type: extractFile
+  - file: /Relaunch.7z
+    input: Relaunch/_nds/Relaunch/menu.bin
+    message: Extracting menu.bin...
+    output: /_nds/Relaunch/menu.bin
+    type: extractFile
+  - file: /Relaunch.cia
+    message: Installing Relaunch.cia...
+    type: installCia
+  - file: /Relaunch.cia
+    message: Deleting Relaunch.cia...
+    type: deleteFile
+  - file: /Relaunch.7z
+    message: Deleting Relaunch.7z...
+    type: deleteFile
+  '[nightly] Relaunch.nds':
+  - file: https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z
+    message: Downloading Relaunch.7z...
+    output: /Relaunch.7z
+    type: downloadFile
+  - file: /Relaunch.7z
+    input: Relaunch/Relaunch.nds
+    message: Extracting Relaunch.nds...
+    output: '%NDS%/Relaunch.nds'
+    type: extractFile
+  - file: /Relaunch.7z
+    input: Relaunch/_nds/Relaunch/menu.bin
+    message: Extracting menu.bin...
+    output: /_nds/Relaunch/menu.bin
+    type: extractFile
+  - file: /Relaunch.7z
+    message: Deleting Relaunch.7z...
+    type: deleteFile
 source: https://github.com/Universal-Team/Relaunch
 systems:
 - DS

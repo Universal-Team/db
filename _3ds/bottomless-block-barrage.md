@@ -1,5 +1,6 @@
 ---
 author: TricksterGuy
+autogen_scripts: true
 categories:
 - game
 color: '#8b8c8b'
@@ -24,6 +25,21 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   bottomless-block-barrage.cia: https://db.universal-team.net/assets/images/qr/bottomless-block-barrage.cia.png
+scripts:
+  bottomless-block-barrage.3dsx:
+  - file: bottomless-block-barrage.zip
+    message: Downloading bottomless-block-barrage.zip...
+    output: /bottomless-block-barrage.zip
+    repo: TricksterGuy/bottomless-block-barrage
+    type: downloadRelease
+  - file: /bottomless-block-barrage.zip
+    input: 3ds/bottomless-block-barrage/bottomless-block-barrage.3dsx
+    message: Extracting bottomless-block-barrage.3dsx...
+    output: '%3DSX%/bottomless-block-barrage.3dsx'
+    type: extractFile
+  - file: /bottomless-block-barrage.zip
+    message: Deleting bottomless-block-barrage.zip...
+    type: deleteFile
 source: https://github.com/TricksterGuy/bottomless-block-barrage
 systems:
 - 3DS

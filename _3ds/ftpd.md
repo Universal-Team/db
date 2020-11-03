@@ -19,12 +19,6 @@ downloads:
   ftpd-classic.cia.xz:
     size: 391488
     url: https://github.com/mtheall/ftpd/releases/download/v3.0.0/ftpd-classic.cia.xz
-  ftpd-classic.nro:
-    size: 490639
-    url: https://github.com/mtheall/ftpd/releases/download/v3.0.0/ftpd-classic.nro
-  ftpd-classic.nro.xz:
-    size: 169192
-    url: https://github.com/mtheall/ftpd/releases/download/v3.0.0/ftpd-classic.nro.xz
   ftpd.3dsx:
     size: 530020
     url: https://github.com/mtheall/ftpd/releases/download/v3.0.0/ftpd.3dsx
@@ -43,12 +37,6 @@ downloads:
   ftpd.nds.xz:
     size: 152668
     url: https://github.com/mtheall/ftpd/releases/download/v3.0.0/ftpd.nds.xz
-  ftpd.nro:
-    size: 975655
-    url: https://github.com/mtheall/ftpd/releases/download/v3.0.0/ftpd.nro
-  ftpd.nro.xz:
-    size: 403700
-    url: https://github.com/mtheall/ftpd/releases/download/v3.0.0/ftpd.nro.xz
 github: mtheall/ftpd
 icon: https://raw.githubusercontent.com/mtheall/ftpd/master/meta/icon.png
 image: https://raw.githubusercontent.com/mtheall/ftpd/master/meta/banner.png

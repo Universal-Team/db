@@ -1,5 +1,6 @@
 ---
 author: nop90
+autogen_scripts: true
 categories:
 - game
 color: '#d1babe'
@@ -19,6 +20,21 @@ image: https://raw.githubusercontent.com/nop90/ZeldaOLB/master/resources/banner.
 layout: app
 qr:
   ZeldaOLB_v1.1.cia: https://db.universal-team.net/assets/images/qr/zeldaolb_v1.1.cia.png
+scripts:
+  ZeldaOLB.3dsx:
+  - file: ZeldaOLB_3DSX.*\.zip
+    message: Downloading ZeldaOLB_3DSX zip...
+    output: /ZeldaOLB_3DSX.zip
+    repo: nop90/ZeldaOLB
+    type: downloadRelease
+  - file: /ZeldaOLB_3DSX.zip
+    input: ZeldaOLB/ZeldaOLB.3dsx
+    message: Extracting ZeldaOLB.3dsx...
+    output: '%3DSX%/ZeldaOLB.3dsx'
+    type: extractFile
+  - file: /ZeldaOLB_3DSX.zip
+    message: Deleting ZeldaOLB_3DSX.zip...
+    type: deleteFile
 source: https://github.com/nop90/ZeldaOLB
 systems:
 - 3DS

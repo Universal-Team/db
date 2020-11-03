@@ -1,5 +1,6 @@
 ---
 author: Possum
+autogen_scripts: true
 categories:
 - utility
 color: '#8b9990'
@@ -28,6 +29,35 @@ license_name: MIT License
 qr:
   LumaLocaleSwitcher-0.04-NIGHTLY.cia: https://db.universal-team.net/assets/images/qr/lumalocaleswitcher-0.04-nightly.cia.png
   LumaLocaleSwitcher-0.04.cia: https://db.universal-team.net/assets/images/qr/lumalocaleswitcher-0.04.cia.png
+scripts:
+  '[luma <= 6.6] LumaLocaleSwitcher.3dsx':
+  - file: LumaLocaleSwitcher-0.04.zip
+    message: Downloading LumaLocaleSwitcher-0.04.zip...
+    output: /LumaLocaleSwitcher.zip
+    repo: Possum/LumaLocaleSwitcher
+    type: downloadRelease
+  - file: /LumaLocaleSwitcher.zip
+    input: 3ds/LumaLocaleSwitcher/LumaLocaleSwitcher-0.04-NIGHTLY.3dsx
+    message: Extracting LumaLocaleSwitcher-0.04-NIGHTLY.3dsx...
+    output: '%3DSX%/LumaLocaleSwitcher-0.04-NIGHTLY.3dsx'
+    type: extractFile
+  - file: /LumaLocaleSwitcher.zip
+    message: Deleting LumaLocaleSwitcher.zip...
+    type: deleteFile
+  '[luma > 6.6] LumaLocaleSwitcher.3dsx':
+  - file: LumaLocaleSwitcher-0.04-NIGHTLY.zip
+    message: Downloading LumaLocaleSwitcher-0.04-NIGHTLY.zip...
+    output: /LumaLocaleSwitcher.zip
+    repo: Possum/LumaLocaleSwitcher
+    type: downloadRelease
+  - file: /LumaLocaleSwitcher.zip
+    input: 3ds/LumaLocaleSwitcher/LumaLocaleSwitcher-0.04.3dsx
+    message: Extracting LumaLocaleSwitcher-0.04.3dsx...
+    output: '%3DSX%/LumaLocaleSwitcher-0.04.3dsx'
+    type: extractFile
+  - file: /LumaLocaleSwitcher.zip
+    message: Deleting LumaLocaleSwitcher-0.04.zip...
+    type: deleteFile
 source: https://github.com/Possum/LumaLocaleSwitcher
 systems:
 - 3DS

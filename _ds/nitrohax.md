@@ -19,6 +19,7 @@ source: https://github.com/chishm/nitrohax
 systems:
 - DS
 title: nitrohax
+unistore_exclude: true
 updated: '2018-04-09T13:00:02Z'
 version: v0.94
 website: https://www.chishm.com/NitroHax/

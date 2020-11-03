@@ -20,6 +20,7 @@ source: https://github.com/RocketRobz/hiyaCFW
 systems:
 - DS
 title: hiyaCFW
+unistore_exclude: true
 updated: '2020-10-22T06:35:14Z'
 version: v1.4.0
 version_title: Hacktober (2020) release

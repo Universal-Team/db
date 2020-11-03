@@ -1,5 +1,6 @@
 ---
 author: nop90
+autogen_scripts: true
 categories:
 - game
 color: '#cac590'
@@ -19,6 +20,21 @@ image: https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/banner.p
 layout: app
 qr:
   Zelda3T_v1.0.cia: https://db.universal-team.net/assets/images/qr/zelda3t_v1.0.cia.png
+scripts:
+  Zelda3T.3dsx:
+  - file: Zelda3T_3DSX.*\.zip
+    message: Downloading Zelda3T_3DSX.zip...
+    output: /Zelda3T_3DSX.zip
+    repo: nop90/Zelda3T
+    type: downloadRelease
+  - file: /Zelda3T_3DSX.zip
+    input: Zelda3T/Zelda3T.3dsx
+    message: Extracting Zelda3T.3dsx...
+    output: '%3DSX%/Zelda3T.3dsx'
+    type: extractFile
+  - file: /Zelda3T_3DSX.zip
+    message: Deleting Zelda3T_3DSX.zip...
+    type: deleteFile
 source: https://github.com/nop90/Zelda3T
 systems:
 - 3DS

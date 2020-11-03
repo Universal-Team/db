@@ -14,6 +14,41 @@ github: nop90/Xrick-3ds
 icon: https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/banner.png
 layout: app
+scripts:
+  Xrick.3dsx:
+  - file: Xrick.*\.zip
+    message: Downloading Xrick zip...
+    output: /Xrick.zip
+    repo: nop90/Xrick-3ds
+    type: downloadRelease
+  - file: /Xrick.zip
+    input: Xrick/Xrick.3dsx
+    message: Extracting Xrick.3dsx...
+    output: '%3DSX%/Xrick.3dsx'
+    type: extractFile
+  - file: /Xrick.zip
+    message: Deleting Xrick.zip...
+    type: deleteFile
+  Xrick.cia:
+  - file: Xrick.*\.zip
+    message: Downloading Xrick zip...
+    output: /Xrick.zip
+    repo: nop90/Xrick-3ds
+    type: downloadRelease
+  - file: /Xrick.zip
+    input: Xrick.cia
+    message: Extracting Xrick.cia...
+    output: /Xrick.cia
+    type: extractFile
+  - file: /Xrick.cia
+    message: Installing Xrick.cia...
+    type: installCia
+  - file: /Xrick.cia
+    message: Deleting Xrick.cia...
+    type: deleteFile
+  - file: /Xrick.zip
+    message: Deleting Xrick.zip...
+    type: deleteFile
 source: https://github.com/nop90/Xrick-3ds
 systems:
 - 3DS
