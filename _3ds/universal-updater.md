@@ -5,14 +5,14 @@ categories:
 color: '#045190'
 created: '2019-10-31T02:19:37Z'
 description: A multiapp, JSON script-based updater for Nintendo 3DS
-download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/v2.5.1
+download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/v3.0.0
 downloads:
   Universal-Updater.3dsx:
-    size: 2475000
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.3dsx
+    size: 2210344
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.0.0/Universal-Updater.3dsx
   Universal-Updater.cia:
-    size: 2061248
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v2.5.1/Universal-Updater.cia
+    size: 1868736
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.0.0/Universal-Updater.cia
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/banner.png
@@ -34,9 +34,9 @@ source: https://github.com/Universal-Team/Universal-Updater
 systems:
 - 3DS
 title: Universal-Updater
-updated: '2020-07-02T14:03:03Z'
-version: v2.5.1
-version_title: BugFix Release!
+updated: '2020-11-03T16:59:59Z'
+version: v3.0.0
+version_title: Universal Updater 3.0.0 - Happy 1st Anniversary
 website: https://universal-team.net/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
