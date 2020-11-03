@@ -241,7 +241,7 @@ for app in source:
 			if not "downloads" in app:
 				app["downloads"] = {}
 			for asset in release["assets"]:
-				if not asset["name"] in app["downloads"] and len(re.findall("(nro|vpk|PS3|PSP|switch|wii|osx|ubuntu|win)", asset["name"])) == 0:
+				if not asset["name"] in app["downloads"] and len(re.findall("(nro|vpk|PS3|PSP|vita|switch|wii|osx|ubuntu|win)", asset["name"])) == 0:
 					app["downloads"][asset["name"]] = {
 						"url": asset["browser_download_url"],
 						"size": asset["size"]
@@ -435,15 +435,15 @@ for app in source:
 		if "autogen_scripts" in app and app["autogen_scripts"] or not "scripts" in app:
 			if "downloads" in app:
 				for file in app["downloads"]:
-					uni["Download " + file + ((" (" + byteCount(app["downloads"][file]["size"]) + ")") if "size" in app["downloads"][file] else "")] = downloadScript(file, app["downloads"][file]["url"])
+					uni[file + ((" (" + byteCount(app["downloads"][file]["size"]) + ")") if "size" in app["downloads"][file] else "")] = downloadScript(file, app["downloads"][file]["url"])
 
 			if "prerelease" in app:
 				for file in app["prerelease"]["downloads"]:
-					uni["[prerelease] Download " + file] = downloadScript(file, app["prerelease"]["downloads"][file]["url"])
+					uni["[prerelease] " + file + ((" (" + byteCount(app["downloads"][file]["size"]) + ")") if "size" in app["downloads"][file] else "")] = downloadScript(file, app["prerelease"]["downloads"][file]["url"])
 
 			if "nightly" in app:
 				for file in app["nightly"]["downloads"]:
-					uni["[nightly] Download " + file] = downloadScript(file, app["nightly"]["downloads"][file]["url"])
+					uni["[nightly] " + file] = downloadScript(file, app["nightly"]["downloads"][file]["url"])
 
 		unistore["storeContent"].append(uni)
 
