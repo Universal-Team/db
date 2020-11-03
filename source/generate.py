@@ -435,15 +435,18 @@ for app in source:
 		if "autogen_scripts" in app and app["autogen_scripts"] or not "scripts" in app:
 			if "downloads" in app:
 				for file in app["downloads"]:
-					uni[file + ((" (" + byteCount(app["downloads"][file]["size"]) + ")") if "size" in app["downloads"][file] else "")] = downloadScript(file, app["downloads"][file]["url"])
+					if len(re.findall("(zip|rar|7z|torrent|tar)", file)) == 0:
+						uni[file + ((" (" + byteCount(app["downloads"][file]["size"]) + ")") if "size" in app["downloads"][file] else "")] = downloadScript(file, app["downloads"][file]["url"])
 
 			if "prerelease" in app:
 				for file in app["prerelease"]["downloads"]:
-					uni["[prerelease] " + file + ((" (" + byteCount(app["downloads"][file]["size"]) + ")") if "size" in app["downloads"][file] else "")] = downloadScript(file, app["prerelease"]["downloads"][file]["url"])
+					if len(re.findall("(zip|rar|7z|torrent)", file)) == 0:
+						uni["[prerelease] " + file + ((" (" + byteCount(app["prerelease"]["downloads"][file]["size"]) + ")") if "size" in app["prerelease"]["downloads"][file] else "")] = downloadScript(file, app["prerelease"]["downloads"][file]["url"])
 
 			if "nightly" in app:
 				for file in app["nightly"]["downloads"]:
-					uni["[nightly] " + file] = downloadScript(file, app["nightly"]["downloads"][file]["url"])
+					if len(re.findall("(zip|rar|7z|torrent)", file)) == 0:
+						uni["[nightly] " + file + ((" (" + byteCount(app["nightly"]["downloads"][file]["size"]) + ")") if "size" in app["nightly"]["downloads"][file] else "")] = downloadScript(file, app["nightly"]["downloads"][file]["url"])
 
 		unistore["storeContent"].append(uni)
 

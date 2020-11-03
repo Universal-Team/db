@@ -159,6 +159,138 @@
 					"url": "https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z"
 				}
 			}
+		},
+		"scripts": {
+			"Relaunch.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "Universal-Team/Relaunch",
+					"file": "Relaunch.7z",
+					"output": "/Relaunch.7z",
+					"message": "Downloading Relaunch.7z..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Relaunch.7z",
+					"input": "Relaunch/Relaunch.cia",
+					"output": "/Relaunch.cia",
+					"message": "Extracting Relaunch.cia..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Relaunch.7z",
+					"input": "Relaunch/_nds/Relaunch/menu.bin",
+					"output": "/_nds/Relaunch/menu.bin",
+					"message": "Extracting menu.bin..."
+				},
+				{
+					"type": "installCia",
+					"file": "/Relaunch.cia",
+					"message": "Installing Relaunch.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Relaunch.cia",
+					"message": "Deleting Relaunch.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Relaunch.7z",
+					"message": "Deleting Relaunch.7z..."
+				}
+			],
+			"Relaunch.nds": [
+				{
+					"type": "downloadRelease",
+					"repo": "Universal-Team/Relaunch",
+					"file": "Relaunch.7z",
+					"output": "/Relaunch.7z",
+					"message": "Downloading Relaunch.7z..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Relaunch.7z",
+					"input": "Relaunch/Relaunch.nds",
+					"output": "%NDS%/Relaunch.nds",
+					"message": "Extracting Relaunch.nds..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Relaunch.7z",
+					"input": "Relaunch/_nds/Relaunch/menu.bin",
+					"output": "/_nds/Relaunch/menu.bin",
+					"message": "Extracting menu.bin..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Relaunch.7z",
+					"message": "Deleting Relaunch.7z..."
+				}
+			],
+			"[nightly] Relaunch.cia": [
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z",
+					"output": "/Relaunch.7z",
+					"message": "Downloading Relaunch.7z..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Relaunch.7z",
+					"input": "Relaunch/Relaunch.cia",
+					"output": "/Relaunch.cia",
+					"message": "Extracting Relaunch.cia..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Relaunch.7z",
+					"input": "Relaunch/_nds/Relaunch/menu.bin",
+					"output": "/_nds/Relaunch/menu.bin",
+					"message": "Extracting menu.bin..."
+				},
+				{
+					"type": "installCia",
+					"file": "/Relaunch.cia",
+					"message": "Installing Relaunch.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Relaunch.cia",
+					"message": "Deleting Relaunch.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Relaunch.7z",
+					"message": "Deleting Relaunch.7z..."
+				}
+			],
+			"[nightly] Relaunch.nds": [
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z",
+					"output": "/Relaunch.7z",
+					"message": "Downloading Relaunch.7z..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Relaunch.7z",
+					"input": "Relaunch/Relaunch.nds",
+					"output": "%NDS%/Relaunch.nds",
+					"message": "Extracting Relaunch.nds..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Relaunch.7z",
+					"input": "Relaunch/_nds/Relaunch/menu.bin",
+					"output": "/_nds/Relaunch/menu.bin",
+					"message": "Extracting menu.bin..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Relaunch.7z",
+					"message": "Deleting Relaunch.7z..."
+				}
+			]
 		}
 	},
 	{
@@ -201,11 +333,11 @@
 		"categories": ["game"],
 		"systems": ["DS"],
 		"downloads": {
-			"DScraft_310811.rar": {
-				"url": "https://db.universal-team.net/assets/files/DScraft_310811.rar"
+			"DScraft_310811.7z": {
+				"url": "https://db.universal-team.net/assets/files/DScraft_310811.7z"
 			},
-			"DScraft_fat_310811.rar": {
-				"url": "https://db.universal-team.net/assets/files/DScraft_fat_310811.rar"
+			"DScraft_fat_310811.7z": {
+				"url": "https://db.universal-team.net/assets/files/DScraft_fat_310811.7z"
 			}
 		},
 		"download_page": "https://web.archive.org/web/20160818124931/http://smealum.net/dscraft/",
@@ -218,55 +350,55 @@
 			"DScraft.nds": [
 				{
 					"type": "downloadFile",
-					"file": "https://db.universal-team.net/assets/files/DScraft_310811.rar",
-					"output": "/DScraft_310811.rar",
-					"message": "Downloading DScraft_310811.rar..."
+					"file": "https://db.universal-team.net/assets/files/DScraft_310811.7z",
+					"output": "/DScraft_310811.7z",
+					"message": "Downloading DScraft_310811.7z..."
 				},
 				{
 					"type": "extractFile",
-					"file": "/DScraft_310811.rar",
+					"file": "/DScraft_310811.7z",
 					"input": "DScraft.nds",
 					"output": "%NDS%/DScraft.nds",
 					"message": "Extracting DScraft.nds..."
 				},
 				{
 					"type": "extractFile",
-					"file": "/DScraft_310811.rar",
-					"input": "dscraft",
+					"file": "/DScraft_310811.7z",
+					"input": "dscraft/",
 					"output": "%NDS%/dscraft/",
 					"message": "Extracting dscraft..."
 				},
 				{
 					"type": "deleteFile",
-					"file": "/DScraft_310811.rar",
-					"message": "Deleting DScraft_310811.rar..."
+					"file": "/DScraft_310811.7z",
+					"message": "Deleting DScraft_310811.7z..."
 				}
 			],
 			"DScraft_fat.nds": [
 				{
 					"type": "downloadFile",
-					"file": "https://db.universal-team.net/assets/files/DScraft_fat_310811.rar",
-					"output": "/DScraft_fat_310811.rar",
-					"message": "Downloading DScraft_fat_310811.rar..."
+					"file": "https://db.universal-team.net/assets/files/DScraft_fat_310811.7z",
+					"output": "/DScraft_fat_310811.7z",
+					"message": "Downloading DScraft_fat_310811.7z..."
 				},
 				{
 					"type": "extractFile",
-					"file": "/DScraft_fat_310811.rar",
+					"file": "/DScraft_fat_310811.7z",
 					"input": "DScraft_fat.nds",
 					"output": "%NDS%/DScraft_fat.nds",
 					"message": "Extracting DScraft_fat.nds..."
 				},
 				{
 					"type": "extractFile",
-					"file": "/DScraft_fat_310811.rar",
+					"file": "/DScraft_fat_310811.7z",
 					"input": "dscraft",
-					"output": "dscraft/",
+					"output": "/dscraft/",
 					"message": "Extracting dscraft..."
 				},
 				{
 					"type": "deleteFile",
-					"file": "/DScraft_fat_310811.rar",
-					"message": "Deleting DScraft_fat_310811.rar..."
+					"file": "/DScraft_fat_310811.7z",
+					"message": "Deleting DScraft_fat_310811.7z..."
 				}
 			]
 		}
@@ -275,7 +407,37 @@
 		"github": "smealum/portalDS",
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/smealum/portalDS/master/logo.bmp",
-		"systems": ["DS"]
+		"systems": ["DS"],
+		"scripts": {
+			"portalDS.nds": [
+				{
+					"type": "downloadRelease",
+					"repo": "smealum/portalDS",
+					"file": "ASDS.*\\.zip",
+					"output": "/ASDS.zip",
+					"message": "Downloading ASDS.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/ASDS.zip",
+					"input": "portalDS.nds",
+					"output": "%NDS%/portalDS.nds",
+					"message": "Extracting portalDS.nds..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/ASDS.zip",
+					"input": "asds/",
+					"output": "%NDS%/asds/",
+					"message": "Extracting asds..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/ASDS.zip",
+					"message": "Deleting ASDS.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "rhaleblian/dslibris",
@@ -300,9 +462,14 @@
 				},
 				{
 					"type": "move",
-					"oldFile": "/dslibris.nds",
-					"newFile": "%NDS%/dslibris.nds",
+					"old": "/dslibris.nds",
+					"new": "%NDS%/dslibris.nds",
 					"message": "Moving dslibris.nds..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/INSTALL.txt",
+					"message": "Deleting INSTALL.txt..."
 				},
 				{
 					"type": "deleteFile",
@@ -424,6 +591,59 @@
 					"url": "https://github.com/TWLBot/Builds/raw/master/extras/nesDS.7z"
 				}
 			}
+		},
+		"autogen_scripts": true,
+		"scripts": {
+			"[nightly] nesDS.cia": [
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/TWLBot/Builds/raw/master/extras/nesDS.7z",
+					"output": "/nesDS.7z",
+					"message": "Downloading nesDS.7z..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/nesDS.7z",
+					"input": "nesDS/nesDS.cia",
+					"output": "/nesDS.cia",
+					"message": "Extracting nesDS.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/nesDS.cia",
+					"message": "Installing nesDS.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/nesDS.cia",
+					"message": "Deleting nesDS.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/nesDS.7z",
+					"message": "Deleting nesDS.7z..."
+				}
+			],
+			"[nightly] nesDS.nds": [
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/TWLBot/Builds/raw/master/extras/nesDS.7z",
+					"output": "/nesDS.7z",
+					"message": "Downloading nesDS.7z..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/nesDS.7z",
+					"input": "nesDS/nesDS.nds",
+					"output": "%NDS%/nesDS.nds",
+					"message": "Extracting nesDS.nds..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/nesDS.7z",
+					"message": "Deleting nesDS.7z..."
+				}
+			]
 		}
 	},
 	{
@@ -552,7 +772,8 @@
 		"github": "JeffRuLz/TMFH",
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/JeffRuLz/TMFH/master/icon.bmp",
-		"systems": ["DS"]
+		"systems": ["DS"],
+		"unistore_exclude": true
 	},
 	{
 		"github": "edo9300/ndsi-savedumper",
@@ -572,20 +793,81 @@
 		"website": "https://www.chishm.com/NitroHax/",
 		"download_page": "https://www.chishm.com/NitroHax/",
 		"categories": ["utility"],
-		"version": "v0.94"
+		"version": "v0.94",
+		"unistore_exclude": true
 	},
 	{
 		"github": "ahezard/NitroHax3DS",
 		"systems": ["DS"],
 		"categories": ["utility"],
-		"icon": "https://raw.githubusercontent.com/ahezard/NitroHax3DS/master/icon.bmp"
+		"icon": "https://raw.githubusercontent.com/ahezard/NitroHax3DS/master/icon.bmp",
+		"downloads": {
+			"NitroHax.cia": {
+				"url": "https://github.com/ahezard/NitroHax3DS/releases/download/0.99.NTR/NitroHax.cia",
+				"size": 1424128
+			}
+		}
 	},
 	{
 		"github": "Drenn1/GameYob",
 		"website": "https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/",
 		"icon": "https://raw.githubusercontent.com/Drenn1/GameYob/master/platform/ds/icon.bmp",
 		"systems": ["DS"],
-		"categories": ["emulator"]
+		"categories": ["emulator"],
+		"scripts": {
+			"GameYob.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "Drenn1/GameYob",
+					"file": "gameyob.zip",
+					"output": "/gameyob.zip",
+					"message": "Downloading gameyob.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/gameyob.zip",
+					"input": "gameyob.cia",
+					"output": "/gameyob.cia",
+					"message": "Extracting gameyob.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/gameyob.cia",
+					"message": "Installing gameyob.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/gameyob.cia",
+					"message": "Deleting gameyob.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/gameyob.zip",
+					"message": "Deleting gameyob.zip..."
+				}
+			],
+			"GameYob.nds": [
+				{
+					"type": "downloadRelease",
+					"repo": "Drenn1/GameYob",
+					"file": "gameyob.zip",
+					"output": "/gameyob.zip",
+					"message": "Downloading gameyob.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/gameyob.zip",
+					"input": "gameyob.nds",
+					"output": "%NDS%/gameyob.nds",
+					"message": "Extracting gameyob.nds..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/gameyob.zip",
+					"message": "Deleting gameyob.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "RocketRobz/SavvyManager",
@@ -613,7 +895,61 @@
 		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"image": "https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-256.png",
-		"icon": "https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-48.png"
+		"icon": "https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-48.png",
+		"scripts": {
+			"mgba.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "mgba-emu/mgba",
+					"file": "mGBA-.*-3ds.7z",
+					"output": "/mGBA.7z",
+					"message": "Downloading mGBA.7z..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/mGBA.7z",
+					"input": "mGBA-.*-3ds/cia/mgba.cia",
+					"output": "/mgba.cia",
+					"message": "Extracting mgba.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/mgba.cia",
+					"message": "Installing mgba.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/mgba.cia",
+					"message": "Deleting mgba.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/mGBA.7z",
+					"message": "Deleting mGBA.7z..."
+				}
+			],
+			"mgba.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "mgba-emu/mgba",
+					"file": "mGBA-.*-3ds.7z",
+					"output": "/mGBA.7z",
+					"message": "Downloading mGBA.7z..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/mGBA.7z",
+					"input": "mGBA-.*-3ds/3dsx/mgba.3dsx",
+					"output": "/mgba.3dsx",
+					"message": "Extracting mgba.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/mGBA.7z",
+					"message": "Deleting mGBA.7z..."
+				}
+			]
+		}
 	},
 	{
 		"github": "mtheall/ftpd",
@@ -752,8 +1088,8 @@
 				},
 				{
 					"type": "move",
-					"oldFile": "/3ds/GYTB/GYTB.3dsx",
-					"newFile": "%3DSX%/GYTB.3dsx"
+					"old": "/3ds/GYTB/GYTB.3dsx",
+					"new": "%3DSX%/GYTB.3dsx"
 				},
 				{
 					"type": "deleteFile",
@@ -953,14 +1289,92 @@
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
 		"image": "https://raw.githubusercontent.com/noirscape/SRAU/master/meta/banner.png",
-		"icon": "https://raw.githubusercontent.com/noirscape/SRAU/master/meta/icon.png"
+		"icon": "https://raw.githubusercontent.com/noirscape/SRAU/master/meta/icon.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"SRAU.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "noirscape/SRAU",
+					"file": "SRAU.7z",
+					"output": "/SRAU.7z",
+					"message": "Downloading SRAU.7z..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/SRAU.7z",
+					"input": "SRAU.3dsx",
+					"output": "%3DSX%/SRAU.3dsx",
+					"message": "Extracting SRAU.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/SRAU.7z",
+					"message": "Deleting SRAU.7z..."
+				}
+			]
+		}
 	},
 	{
 		"github": "bubble2k16/snes9x_3ds",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/bubble2k16/snes9x_3ds/master/assets/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/snes9x_3ds.png"
+		"image": "https://db.universal-team.net/assets/images/images/snes9x_3ds.png",
+		"scripts": {
+			"snes9x_3ds.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "bubble2k16/snes9x_3ds",
+					"file": "snes9x_3ds.*\\.zip",
+					"output": "/snes9x_3ds.zip",
+					"message": "Downloading snes9x_3ds.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/snes9x_3ds.zip",
+					"input": "snes9x_3ds.cia",
+					"output": "/snes9x_3ds.cia",
+					"message": "Extracting snes9x_3ds.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/snes9x_3ds.cia",
+					"message": "Installing snes9x_3ds.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/snes9x_3ds.cia",
+					"message": "Deleting snes9x_3ds.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/snes9x_3ds.zip",
+					"message": "Deleting snes9x_3ds.zip..."
+				}
+			],
+			"snes9x_3ds.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "bubble2k16/snes9x_3ds",
+					"file": "snes9x_3ds.*\\.zip",
+					"output": "/snes9x_3ds.zip",
+					"message": "Downloading snes9x_3ds.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/snes9x_3ds.zip",
+					"input": "snes9x_3ds.3dsx",
+					"output": "%3DSX%/snes9x_3ds.3dsx",
+					"message": "Extracting snes9x_3ds.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/snes9x_3ds.zip",
+					"message": "Deleting snes9x_3ds.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "bubble2k16/emus3ds",
@@ -969,7 +1383,61 @@
 		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/virtuanes/assets/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/virtualnes.png"
+		"image": "https://db.universal-team.net/assets/images/images/virtualnes.png",
+		"scripts": {
+			"virtuanes_3ds.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "bubble2k16/emus3ds",
+					"file": "virtuanes_3ds.*\\.zip",
+					"output": "/virtuanes_3ds.zip",
+					"message": "Downloading virtuanes_3ds zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/virtuanes_3ds.zip",
+					"input": "virtuanes_3ds.cia",
+					"output": "/virtuanes_3ds.cia",
+					"message": "Extracting virtuanes_3ds.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/virtuanes_3ds.cia",
+					"message": "Installing virtuanes_3ds.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/virtuanes_3ds.cia",
+					"message": "Deleting virtuanes_3ds.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/virtuanes_3ds.zip",
+					"message": "Deleting virtuanes_3ds.zip..."
+				}
+			],
+			"virtuanes_3ds.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "bubble2k16/emus3ds",
+					"file": "virtuanes_3ds.*\\.zip",
+					"output": "/virtuanes_3ds.zip",
+					"message": "Downloading virtuanes_3ds zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/virtuanes_3ds.zip",
+					"input": "virtuanes_3ds.3dsx",
+					"output": "%3DSX%/virtuanes_3ds.3dsx",
+					"message": "Extracting virtuanes_3ds.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/virtuanes_3ds.zip",
+					"message": "Deleting virtuanes_3ds.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "Ryuzaki-MrL/Cthulhu",
@@ -983,7 +1451,61 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/icon.png",
+		"scripts": {
+			"seedstarter.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "zoogie/seedminer",
+					"file": "RELEASE.*\\.zip",
+					"output": "/seedminer.zip",
+					"message": "Downloading seedminer.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/seedminer.zip",
+					"input": "RELEASE.*/seedstarter.cia",
+					"output": "/seedstarter.cia",
+					"message": "Extracting seedstarter.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/seedstarter.cia",
+					"message": "Installing seedstarter.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/seedstarter.cia",
+					"message": "Deleting seedstarter.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/seedminer.zip",
+					"message": "Deleting seedminer.zip..."
+				}
+			],
+			"seedstarter.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "zoogie/seedminer",
+					"file": "RELEASE.*\\.zip",
+					"output": "/seedminer.zip",
+					"message": "Downloading seedminer.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/seedminer.zip",
+					"input": "RELEASE.*/seedstarter.3dsx",
+					"output": "%3DSX%/seedstarter.3dsx",
+					"message": "Extracting seedstarter.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/seedminer.zip",
+					"message": "Deleting seedminer.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "joel16/3DS-Recovery-Tool",
@@ -1053,7 +1575,61 @@
 		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/picodrive/assets/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/picodrive.png"
+		"image": "https://db.universal-team.net/assets/images/images/picodrive.png",
+		"scripts": {
+			"picodrive_3ds.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "bubble2k16/picodrive_3ds",
+					"file": "picodrive_3ds.*\\.zip",
+					"output": "/picodrive_3ds.zip",
+					"message": "Downloading picodrive_3ds zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/picodrive_3ds.zip",
+					"input": "picodrive_3ds.cia",
+					"output": "/picodrive_3ds.cia",
+					"message": "Extracting picodrive_3ds.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/picodrive_3ds.cia",
+					"message": "Installing picodrive_3ds.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/picodrive_3ds.cia",
+					"message": "Deleting picodrive_3ds.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/picodrive_3ds.zip",
+					"message": "Deleting picodrive_3ds.zip..."
+				}
+			],
+			"picodrive_3ds.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "bubble2k16/picodrive_3ds",
+					"file": "picodrive_3ds.*\\.zip",
+					"output": "/picodrive_3ds.zip",
+					"message": "Downloading picodrive_3ds zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/picodrive_3ds.zip",
+					"input": "picodrive_3ds.3dsx",
+					"output": "%3DSX%/picodrive_3ds.cia",
+					"message": "Extracting picodrive_3ds.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/picodrive_3ds.zip",
+					"message": "Deleting picodrive_3ds.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "bubble2k16/temperpce_3ds",
@@ -1062,7 +1638,61 @@
 		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/temperpce/assets/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/temperpce.png"
+		"image": "https://db.universal-team.net/assets/images/images/temperpce.png",
+		"scripts": {
+			"temperpce_3ds.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "bubble2k16/temperpce_3ds",
+					"file": "temperpce_3ds.*\\.zip",
+					"output": "/temperpce_3ds.zip",
+					"message": "Downloading temperpce_3ds zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/temperpce_3ds.zip",
+					"input": "temperpce_3ds.cia",
+					"output": "/temperpce_3ds.cia",
+					"message": "Extracting temperpce_3ds.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/temperpce_3ds.cia",
+					"message": "Installing temperpce_3ds.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/temperpce_3ds.cia",
+					"message": "Deleting temperpce_3ds.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/temperpce_3ds.zip",
+					"message": "Deleting temperpce_3ds.zip..."
+				}
+			],
+			"temperpce_3ds.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "bubble2k16/temperpce_3ds",
+					"file": "temperpce_3ds.*\\.zip",
+					"output": "/temperpce_3ds.zip",
+					"message": "Downloading temperpce_3ds zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/temperpce_3ds.zip",
+					"input": "temperpce_3ds.3dsx",
+					"output": "%3DSX%/temperpce_3ds.3dsx",
+					"message": "Extracting temperpce_3ds.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/temperpce_3ds.zip",
+					"message": "Deleting temperpce_3ds.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "LiquidFenrir/HexIsoPath",
@@ -1127,14 +1757,14 @@
 				{
 					"type": "extractFile",
 					"file": "/drider.zip",
-					"input": "",
-					"output": "/",
+					"input": "3ds/",
+					"output": "/3ds/",
 					"message": "Extracting drider..."
 				},
 				{
 					"type": "move",
-					"oldFile": "/3ds/drider/drider.3dsx",
-					"newFile": "%3DSX%/drider.3dsx",
+					"old": "/3ds/drider/drider.3dsx",
+					"new": "%3DSX%/drider.3dsx",
 					"message": "Moving drider.3dsx..."
 				},
 				{
@@ -1164,7 +1794,31 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/icon.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"Zelda3T.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "nop90/Zelda3T",
+					"file": "Zelda3T_3DSX.*\\.zip",
+					"output": "/Zelda3T_3DSX.zip",
+					"message": "Downloading Zelda3T_3DSX.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Zelda3T_3DSX.zip",
+					"input": "Zelda3T/Zelda3T.3dsx",
+					"output": "%3DSX%/Zelda3T.3dsx",
+					"message": "Extracting Zelda3T.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Zelda3T_3DSX.zip",
+					"message": "Deleting Zelda3T_3DSX.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "TricksterGuy/bottomless-block-barrage",
@@ -1202,7 +1856,38 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/resources/icon.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"TRekt.3dsx": [
+				{
+					"type": "promptMessage",
+					"message": "UU is unable to extract this at the moment..."
+				},
+				{
+					"type": "exit"
+				},
+				{
+					"type": "downloadRelease",
+					"repo": "Manurocker95/TRekt_3D",
+					"file": "TRekt_3D.rar",
+					"output": "/TRekt_3D.rar",
+					"message": "Downloading TRekt_3D.rar..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/TRekt_3D.rar",
+					"input": "TRekt_3D.3dsx",
+					"output": "%3DSX%/TRekt_3D.3dsx",
+					"message": "Extracting TRekt_3D.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/TRekt_3D.rar",
+					"message": "Deleting TRekt_3D.rar..."
+				}
+			]
+		}
 	},
 	{
 		"github": "RSDuck/craftus_reloaded",
@@ -1223,7 +1908,7 @@
 					"type": "extractFile",
 					"file": "/craftus.zip",
 					"input": "craftusreloaded.3dsx",
-					"output": "/%3DSX%/craftusreloaded.3dsx",
+					"output": "%3DSX%/craftusreloaded.3dsx",
 					"message": "Extracting craftusreloaded.3dsx..."
 				},
 				{
@@ -1243,6 +1928,13 @@
 		"autogen_scripts": true,
 		"scripts": {
 			"Evolution_Sav3D_Me.3dsx": [
+				{
+					"type": "promptMessage",
+					"message": "UU is unable to extract this at the moment..."
+				},
+				{
+					"type": "exit"
+				},
 				{
 					"type": "downloadRelease",
 					"repo": "Manurocker95/Evolution_Sav3D_Me",
@@ -1284,7 +1976,61 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/NatTupper/Forecast/master/res/banner%20icon.png",
-		"icon": "https://raw.githubusercontent.com/NatTupper/Forecast/master/icon.png"
+		"icon": "https://raw.githubusercontent.com/NatTupper/Forecast/master/icon.png",
+		"scripts": {
+			"Forecast.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "NatTupper/Forecast",
+					"file": "Forecast.*\\.zip",
+					"output": "/Forecast.zip",
+					"message": "Downloading Forecast zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Forecast.zip",
+					"input": "Forecast.cia",
+					"output": "/Forecast.cia",
+					"message": "Extracting Forecast.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/Forecast.cia",
+					"message": "Installing Forecast.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Forecast.cia",
+					"message": "Deleting Forecast.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Forecast.zip",
+					"message": "Deleting Forecast.zip..."
+				}
+			],
+			"Forecast.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "NatTupper/Forecast",
+					"file": "Forecast.*\\.zip",
+					"output": "/Forecast.zip",
+					"message": "Downloading Forecast zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Forecast.zip",
+					"input": "Forecast.3dsx",
+					"output": "%3DSX%/Forecast.3dsx",
+					"message": "Extracting Forecast.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Forecast.zip",
+					"message": "Deleting Forecast.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "deltabeard/ctrmus",
@@ -1367,7 +2113,31 @@
 		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"image": "https://raw.githubusercontent.com/nop90/Neopop-SDL/master/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/nop90/Neopop-SDL/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/nop90/Neopop-SDL/master/resources/icon.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"neopop.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "nop90/Neopop-SDL",
+					"file": "neopop_3DSX.*\\.zip",
+					"output": "/neopop.zip",
+					"message": "Downloading neopop zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/neopop.zip",
+					"input": "neopop/neopop.3dsx",
+					"output": "%3DSX%/neopop.3dsx",
+					"message": "Extracting neopop.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/neopop.zip",
+					"message": "Deleting neopop.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "Creckeryop/3dsCookieClicker",
@@ -1381,7 +2151,31 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/ZeldaOLB/master/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/nop90/ZeldaOLB/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/nop90/ZeldaOLB/master/resources/icon.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"ZeldaOLB.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "nop90/ZeldaOLB",
+					"file": "ZeldaOLB_3DSX.*\\.zip",
+					"output": "/ZeldaOLB_3DSX.zip",
+					"message": "Downloading ZeldaOLB_3DSX zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/ZeldaOLB_3DSX.zip",
+					"input": "ZeldaOLB/ZeldaOLB.3dsx",
+					"output": "%3DSX%/ZeldaOLB.3dsx",
+					"message": "Extracting ZeldaOLB.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/ZeldaOLB_3DSX.zip",
+					"message": "Deleting ZeldaOLB_3DSX.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "hax0kartik/Multidownload",
@@ -1454,35 +2248,284 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/icon.png"
+		"icon": "https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/icon.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"WITB_3D.3dsx": [
+				{
+					"type": "promptMessage",
+					"message": "UU is unable to extract this at the moment..."
+				},
+				{
+					"type": "exit"
+				},
+				{
+					"type": "downloadRelease",
+					"repo": "Manurocker95/WITB_3D",
+					"file": "WITB_3D.rar",
+					"output": "/WITB_3D.rar",
+					"message": "Downloading WITB_3D.rar..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/WITB_3D.rar",
+					"input": "WITB_3D.3dsx",
+					"output": "%3DSX%/WITB_3D.3dsx",
+					"message": "Extracting WITB_3D.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/WITB_3D.rar",
+					"message": "Deleting WITB_3D.rar..."
+				}
+			]
+		}
 	},
 	{
 		"github": "EBLeifEricson/orchestrina",
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/banner2.png",
-		"icon": "https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/icon.png"
+		"icon": "https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/icon.png",
+		"scripts": {
+			"Orchestrina.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "EBLeifEricson/orchestrina",
+					"file": "Orchestrina.zip",
+					"output": "/Orchestrina.zip",
+					"message": "Downloading Orchestrina.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Orchestrina.zip",
+					"input": "3ds-arm/Orchestrina.cia",
+					"output": "/Orchestrina.cia",
+					"message": "Extracting Orchestrina.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/Orchestrina.cia",
+					"message": "Installing Orchestrina.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Orchestrina.cia",
+					"message": "Deleting Orchestrina.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Orchestrina.zip",
+					"message": "Deleting Orchestrina.zip..."
+				}
+			],
+			"Orchestrina.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "EBLeifEricson/orchestrina",
+					"file": "Orchestrina.zip",
+					"output": "/Orchestrina.zip",
+					"message": "Downloading Orchestrina.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Orchestrina.zip",
+					"input": "3ds-arm/3ds/Orchestrina/Orchestrina.3dsx",
+					"output": "%3DSX%/Orchestrina.3dsx",
+					"message": "Extracting Orchestrina.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Orchestrina.zip",
+					"message": "Deleting Orchestrina.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "nop90/Supertux-Milestone1-3ds",
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/icon.png",
+		"scripts": {
+			"[prerelease] Supertux.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "nop90/Supertux-Milestone1-3ds",
+					"file": "Supertux.*\\.zip",
+					"output": "/Supertux.zip",
+					"message": "Downloading Supertux zip...",
+					"includePrereleases": true
+				},
+				{
+					"type": "extractFile",
+					"file": "/Supertux.zip",
+					"input": "Supertux.cia",
+					"output": "/Supertux.cia",
+					"message": "Extracting Supertux.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/Supertux.cia",
+					"message": "Installing Supertux.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Supertux.cia",
+					"message": "Deleting Supertux.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Supertux.zip",
+					"message": "Deleting Supertux.zip..."
+				}
+			],
+			"[prerelease] Supertux.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "nop90/Supertux-Milestone1-3ds",
+					"file": "Supertux.*\\.zip",
+					"output": "/Supertux.zip",
+					"message": "Downloading Supertux zip...",
+					"includePrereleases": true
+				},
+				{
+					"type": "extractFile",
+					"file": "/Supertux.zip",
+					"input": "Supertux/Supertux.3dsx",
+					"output": "%3DSX%/Supertux.3dsx",
+					"message": "Extracting Supertux.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Supertux.zip",
+					"message": "Deleting Supertux.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "nop90/Opentyrian-3ds",
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/Opentyrian-3ds/master/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/nop90/Opentyrian-3ds/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/nop90/Opentyrian-3ds/master/resources/icon.png",
+		"scripts": {
+			"Opentyrian.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "nop90/Opentyrian-3ds",
+					"file": "Opentyrian.*\\.zip",
+					"output": "/Opentyrian.zip",
+					"message": "Downloading Opentyrian.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Opentyrian.zip",
+					"input": "Opentyrian.cia",
+					"output": "/Opentyrian.cia",
+					"message": "Extracting Opentyrian.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/Opentyrian.cia",
+					"message": "Installing Opentyrian.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Opentyrian.cia",
+					"message": "Deleting Opentyrian.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Opentyrian.zip",
+					"message": "Deleting Opentyrian.zip..."
+				}
+			],
+			"Opentyrian.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "nop90/Opentyrian-3ds",
+					"file": "Opentyrian.*\\.zip",
+					"output": "/Opentyrian.zip",
+					"message": "Downloading Opentyrian.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Opentyrian.zip",
+					"input": "Opentyrian/Opentyrian.3dsx",
+					"output": "%3DSX%/Opentyrian.3dsx",
+					"message": "Extracting Opentyrian.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Opentyrian.zip",
+					"message": "Deleting Opentyrian.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "nop90/Xrick-3ds",
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/icon.png",
+		"scripts": {
+			"Xrick.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "nop90/Xrick-3ds",
+					"file": "Xrick.*\\.zip",
+					"output": "/Xrick.zip",
+					"message": "Downloading Xrick zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Xrick.zip",
+					"input": "Xrick.cia",
+					"output": "/Xrick.cia",
+					"message": "Extracting Xrick.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/Xrick.cia",
+					"message": "Installing Xrick.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Xrick.cia",
+					"message": "Deleting Xrick.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Xrick.zip",
+					"message": "Deleting Xrick.zip..."
+				}
+			],
+			"Xrick.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "nop90/Xrick-3ds",
+					"file": "Xrick.*\\.zip",
+					"output": "/Xrick.zip",
+					"message": "Downloading Xrick zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Xrick.zip",
+					"input": "Xrick/Xrick.3dsx",
+					"output": "%3DSX%/Xrick.3dsx",
+					"message": "Extracting Xrick.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Xrick.zip",
+					"message": "Deleting Xrick.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "DDews/Snakes",
@@ -1650,14 +2693,101 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/POWDER-3DS/master/port/3ds/banner.png",
-		"icon": "https://raw.githubusercontent.com/nop90/POWDER-3DS/master/port/3ds/icon.png"
+		"icon": "https://raw.githubusercontent.com/nop90/POWDER-3DS/master/port/3ds/icon.png",
+		"scripts": {
+			"Powder.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "nop90/POWDER-3DS",
+					"file": "Powder.*\\.zip",
+					"output": "/Powder.zip",
+					"message": "Downloading Powder.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Powder.zip",
+					"input": "Powder.cia",
+					"output": "/Powder.cia",
+					"message": "Extracting Powder.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/Powder.cia",
+					"message": "Installing Powder.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Powder.cia",
+					"message": "Deleting Powder.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Powder.zip",
+					"message": "Deleting Powder.zip..."
+				}
+			],
+			"Powder.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "nop90/POWDER-3DS",
+					"file": "Powder.*\\.zip",
+					"output": "/Powder.zip",
+					"message": "Downloading Powder.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Powder.zip",
+					"input": "Powder/Powder.3dsx",
+					"output": "%3DSX%/Powder.3dsx",
+					"message": "Extracting Powder.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Powder.zip",
+					"message": "Deleting Powder.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "mrdanielps/r3Ddragon",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"image": "https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/icon.png"
+		"icon": "https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/icon.png",
+		"scripts": {
+			"r3Ddragon.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "mrdanielps/r3Ddragon",
+					"file": "r3Ddragon.*\\.zip",
+					"output": "/r3Ddragon.zip",
+					"message": "Downloading r3Ddragon zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/r3Ddragon.zip",
+					"input": "r3Ddragon.cia",
+					"output": "/r3Ddragon.cia",
+					"message": "Extracting r3Ddragon.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/r3Ddragon.cia",
+					"message": "Installing r3Ddragon.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/r3Ddragon.cia",
+					"message": "Deleting r3Ddragon.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/r3Ddragon.zip",
+					"message": "Deleting r3Ddragon.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "Ordim3n/Smash-Amiibo-Cheat-Tool",
@@ -1678,28 +2808,216 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/phijor/SpecializeMii/master/etc/banner.png",
-		"icon": "https://raw.githubusercontent.com/phijor/SpecializeMii/master/etc/icon.png"
+		"icon": "https://raw.githubusercontent.com/phijor/SpecializeMii/master/etc/icon.png",
+		"scripts": {
+			"SpecializeMii.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "phijor/SpecializeMii",
+					"file": "SpecializeMii.zip",
+					"output": "/SpecializeMii.zip",
+					"message": "Downloading SpecializeMii.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/SpecializeMii.zip",
+					"input": "3ds-arm/SpecializeMii.cia",
+					"output": "/SpecializeMii.cia",
+					"message": "Extracting SpecializeMii.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/SpecializeMii.cia",
+					"message": "Installing SpecializeMii.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/SpecializeMii.cia",
+					"message": "Deleting SpecializeMii.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/SpecializeMii.zip",
+					"message": "Deleting SpecializeMii.zip..."
+				}
+			],
+			"SpecializeMii.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "phijor/SpecializeMii",
+					"file": "SpecializeMii.zip",
+					"output": "/SpecializeMii.zip",
+					"message": "Downloading SpecializeMii.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/SpecializeMii.zip",
+					"input": "3ds-arm/3ds/SpecializeMii/SpecializeMii.3dsx",
+					"output": "%3DSX%/SpecializeMii.3dsx",
+					"message": "Extracting SpecializeMii.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/SpecializeMii.zip",
+					"message": "Deleting SpecializeMii.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "dragos240/Pocket-NLSE",
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
 		"image": "https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/res/banner%20icon.png",
-		"icon": "https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/icon.png"
+		"icon": "https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/icon.png",
+		"scripts": {
+			"Pocket-NLSE.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "dragos240/Pocket-NLSE",
+					"file": "Pocket-NLSE.*\\.zip",
+					"output": "/Pocket-NLSE.zip",
+					"message": "Downloading Pocket-NLSE zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Pocket-NLSE.zip",
+					"input": "Pocket-NLSE/Pocket-NLSE.cia",
+					"output": "/Pocket-NLSE.cia",
+					"message": "Extracting Pocket-NLSE.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/Pocket-NLSE.cia",
+					"message": "Installing Pocket-NLSE.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Pocket-NLSE.cia",
+					"message": "Deleting Pocket-NLSE.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Pocket-NLSE.zip",
+					"message": "Deleting Pocket-NLSE.zip..."
+				}
+			],
+			"Pocket-NLSE.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "dragos240/Pocket-NLSE",
+					"file": "Pocket-NLSE.*\\.zip",
+					"output": "/Pocket-NLSE.zip",
+					"message": "Downloading Pocket-NLSE zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Pocket-NLSE.zip",
+					"input": "Pocket-NLSE/Pocket-NLSE.3dsx",
+					"output": "%3DSX%/Pocket-NLSE.3dsx",
+					"message": "Extracting Pocket-NLSE.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Pocket-NLSE.zip",
+					"message": "Deleting Pocket-NLSE.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "DanTheMan827/tikSweep",
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/DanTheMan827/tikSweep/master/banner.png",
-		"icon": "https://raw.githubusercontent.com/DanTheMan827/tikSweep/master/icon.png"
+		"icon": "https://raw.githubusercontent.com/DanTheMan827/tikSweep/master/icon.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"tikSweep.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "DanTheMan827/tikSweep",
+					"file": "tikSweep.zip",
+					"output": "/tikSweep.zip",
+					"message": "Downloading tikSweep.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/tikSweep.zip",
+					"input": "3ds-arm/3ds/tikSweep/tikSweep.3dsx",
+					"output": "%3DSX%/tikSweep.3dsx",
+					"message": "Extracting tikSweep.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/tikSweep.zip",
+					"message": "Deleting tikSweep.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "nop90/ZeldaPicross",
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/icon.png",
+		"scripts": {
+			"[prerelease] ZeldaPicross.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "nop90/ZeldaPicross",
+					"file": "ZeldaPicross.*\\.zip",
+					"output": "/ZeldaPicross.zip",
+					"message": "Downloading ZeldaPicross zip...",
+					"includePrereleases": true
+				},
+				{
+					"type": "extractFile",
+					"file": "/ZeldaPicross.zip",
+					"input": "ZeldaPicross.cia",
+					"output": "/ZeldaPicross.cia",
+					"message": "Extracting ZeldaPicross.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/ZeldaPicross.cia",
+					"message": "Installing ZeldaPicross.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/ZeldaPicross.cia",
+					"message": "Deleting ZeldaPicross.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/ZeldaPicross.zip",
+					"message": "Deleting ZeldaPicross.zip..."
+				}
+			],
+			"[prerelease] ZeldaPicross.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "nop90/ZeldaPicross",
+					"file": "ZeldaPicross.*\\.zip",
+					"output": "/ZeldaPicross.zip",
+					"message": "Downloading ZeldaPicross zip...",
+					"includePrereleases": true
+				},
+				{
+					"type": "extractFile",
+					"file": "/ZeldaPicross.zip",
+					"input": "ZeldaPicross/ZeldaPicross.3dsx",
+					"output": "%3DSX%/ZeldaPicross.3dsx",
+					"message": "Extracting ZeldaPicross.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/ZeldaPicross.zip",
+					"message": "Deleting ZeldaPicross.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "flarn2006/graphcalc3ds",
@@ -1805,7 +3123,61 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS-Explorer/master/meta/banner.png",
-		"icon": "https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS-Explorer/master/meta/icon.png"
+		"icon": "https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS-Explorer/master/meta/icon.png",
+		"scripts": {
+			"RomFSExplorer.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "Ryuzaki-MrL/RomFS-Explorer",
+					"file": "RomFSExplorer.zip",
+					"output": "/RomFSExplorer.zip",
+					"message": "Downloading RomFSExplorer.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/RomFSExplorer.zip",
+					"input": "RomFSExplorer.cia",
+					"output": "/RomFSExplorer.cia",
+					"message": "Extracting RomFSExplorer.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/RomFSExplorer.cia",
+					"message": "Installing RomFSExplorer.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/RomFSExplorer.cia",
+					"message": "Deleting RomFSExplorer.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/RomFSExplorer.zip",
+					"message": "Deleting RomFSExplorer.zip..."
+				}
+			],
+			"RomFSExplorer.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "Ryuzaki-MrL/RomFS-Explorer",
+					"file": "RomFSExplorer.zip",
+					"output": "/RomFSExplorer.zip",
+					"message": "Downloading RomFSExplorer.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/RomFSExplorer.zip",
+					"input": "3ds/RomFSExplorer/RomFSExplorer.3dsx",
+					"output": "%3DSX%/RomFSExplorer.3dsx",
+					"message": "Extracting RomFSExplorer.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/RomFSExplorer.zip",
+					"message": "Deleting RomFSExplorer.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "masterfeizz/ctrQuake",
@@ -1869,8 +3241,8 @@
 				},
 				{
 					"type": "move",
-					"oldFile": "/3ds/ctrQuake/ctrQuake.3dsx",
-					"newFile": "%3DSX%/ctrQuake.3dsx"
+					"old": "/3ds/ctrQuake/ctrQuake.3dsx",
+					"new": "%3DSX%/ctrQuake.3dsx"
 				},
 				{
 					"type": "deleteFile",
@@ -1962,7 +3334,61 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/icon.png",
+		"scripts": {
+			"OpenSyobon3DS.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "author/repo",
+					"file": "OpenSyobon3DS.*\\.zip",
+					"output": "/OpenSyobon3DS.zip",
+					"message": "Downloading OpenSyobon3DS zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/OpenSyobon3DS.zip",
+					"input": "OpenSyobon3DS.cia",
+					"output": "/OpenSyobon3DS.cia",
+					"message": "Extracting OpenSyobon3DS.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/OpenSyobon3DS.cia",
+					"message": "Installing OpenSyobon3DS.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/OpenSyobon3DS.cia",
+					"message": "Deleting OpenSyobon3DS.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/OpenSyobon3DS.zip",
+					"message": "Deleting OpenSyobon3DS.zip..."
+				}
+			],
+			"OpenSyobon3DS.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "author/repo",
+					"file": "OpenSyobon3DS.*\\.zip",
+					"output": "/OpenSyobon3DS.zip",
+					"message": "Downloading OpenSyobon3DS zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/OpenSyobon3DS.zip",
+					"input": "3ds/OpenSyobon3DS/OpenSyobon3DS.3dsx",
+					"output": "%3DSX%/OpenSyobon3DS.3dsx",
+					"message": "Extracting OpenSyobon3DS.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/OpenSyobon3DS.zip",
+					"message": "Deleting OpenSyobon3DS.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "gnmmarechal/easyrpgdlre",
@@ -1976,14 +3402,61 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/Steveice10/WorldOf3DSand/master/meta/banner_3ds.png",
-		"icon": "https://raw.githubusercontent.com/Steveice10/WorldOf3DSand/master/meta/icon_3ds.png"
+		"icon": "https://raw.githubusercontent.com/Steveice10/WorldOf3DSand/master/meta/icon_3ds.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"Worldof3DSand.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "Steveice10/WorldOf3DSand",
+					"file": "Worldof3DSand.zip",
+					"output": "/Worldof3DSand.zip",
+					"message": "Downloading Worldof3DSand.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Worldof3DSand.zip",
+					"input": "3ds-arm/3ds/Worldof3DSand/Worldof3DSand.3dsx",
+					"output": "%3DSX%/Worldof3DSand.3dsx",
+					"message": "Extracting Worldof3DSand.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Worldof3DSand.zip",
+					"message": "Deleting Worldof3DSand.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "TricksterGuy/3ds-vgmstream",
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/TricksterGuy/3ds-vgmstream/master/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/TricksterGuy/3ds-vgmstream/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/TricksterGuy/3ds-vgmstream/master/resources/icon.png",
+		"scripts": {
+			"3ds-vgmstream.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "TricksterGuy/3ds-vgmstream",
+					"file": "3ds-vgmstream.zip",
+					"output": "/3ds-vgmstream.zip",
+					"message": "Downloading 3ds-vgmstream.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/3ds-vgmstream.zip",
+					"input": "3ds/3ds-vgmstream/3ds-vgmstream.3dsx",
+					"output": "%3DSX%/3ds-vgmstream.3dsx",
+					"message": "Extracting 3ds-vgmstream.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/3ds-vgmstream.zip",
+					"message": "Deleting 3ds-vgmstream.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "TurtleP/Hax0r",
@@ -2040,8 +3513,8 @@
 				},
 				{
 					"type": "move",
-					"oldFile": "/3ds/Hax0r/Hax0r.3dsx",
-					"newFile": "%3DSX%/Hax0r.3dsx",
+					"old": "/3ds/Hax0r/Hax0r.3dsx",
+					"new": "%3DSX%/Hax0r.3dsx",
 					"message": "Moving Hax0r..."
 				},
 				{
@@ -2059,13 +3532,14 @@
 		"image": "https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/icon.png",
 		"scripts": {
-			"Biniax2.cia": [
+			"[prerelease] Biniax2.cia": [
 				{
 					"type": "downloadRelease",
 					"repo": "nop90/Biniax2-3DS",
 					"file": "Biniax2_CIA.*\\.zip",
 					"output": "/Biniax2_CIA.zip",
-					"message": "Downloading Biniax2_CIA zip..."
+					"message": "Downloading Biniax2_CIA zip...",
+					"includePrereleases": true
 				},
 				{
 					"type": "extractFile",
@@ -2090,13 +3564,14 @@
 					"message": "Deleting Biniax2_CIA.zip..."
 				}
 			],
-			"Biniax2.3dsx": [
+			"[prerelease] Biniax2.3dsx": [
 				{
 					"type": "downloadRelease",
 					"repo": "nop90/Biniax2-3DS",
 					"file": "Biniax2_3DSX.*\\.zip",
 					"output": "/Biniax2_3DSX.zip",
-					"message": "Downloading Biniax2_3DSX zip..."
+					"message": "Downloading Biniax2_3DSX zip...",
+					"includePrereleases": true
 				},
 				{
 					"type": "extractFile",
@@ -2118,20 +3593,129 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://db.universal-team.net/assets/images/images/turtleinvaders.png",
-		"icon": "https://db.universal-team.net/assets/images/icons/turtleinvaders.png"
+		"icon": "https://db.universal-team.net/assets/images/icons/turtleinvaders.png",
+		"scripts": {
+			"TurtleInvaders.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "TurtleP/TurtleInvaders",
+					"file": "TurtleInvaders.zip",
+					"output": "/TurtleInvaders.zip",
+					"message": "Downloading TurtleInvaders.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/TurtleInvaders.zip",
+					"input": "TurtleInvaders.cia",
+					"output": "/TurtleInvaders.cia",
+					"message": "Extracting TurtleInvaders.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/TurtleInvaders.cia",
+					"message": "Installing TurtleInvaders.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/TurtleInvaders.cia",
+					"message": "Deleting TurtleInvaders.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/TurtleInvaders.zip",
+					"message": "Deleting TurtleInvaders.zip..."
+				}
+			],
+			"TurtleInvaders.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "TurtleP/TurtleInvaders",
+					"file": "TurtleInvaders.zip",
+					"output": "/TurtleInvaders.zip",
+					"message": "Downloading TurtleInvaders.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/TurtleInvaders.zip",
+					"input": "TurtleInvaders.3dsx",
+					"output": "%3DSX%/TurtleInvaders/TurtleInvaders.3dsx",
+					"message": "Extracting TurtleInvaders.3dsx..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/TurtleInvaders.zip",
+					"input": "game",
+					"output": "%3DSX%/TurtleInvaders/game",
+					"message": "Extracting game..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/TurtleInvaders.zip",
+					"message": "Deleting TurtleInvaders.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "Jacudibu/Snake2DS",
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/Jacudibu/Snake2DS/master/icon_large.png",
-		"image": "https://db.universal-team.net/assets/images/images/snake2ds.png"
+		"image": "https://db.universal-team.net/assets/images/images/snake2ds.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"Snake2DS.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "Jacudibu/Snake2DS",
+					"file": "Snake2DS-3DSFiles.*\\.zip",
+					"output": "/Snake2DS.zip",
+					"message": "Downloading Snake2DS-3DSFiles zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Snake2DS.zip",
+					"input": "Snake2DS",
+					"output": "%3DSX%/Snake2DS/",
+					"message": "Extracting Snake2DS..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Snake2DS.zip",
+					"message": "Deleting Snake2DS.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "TuxSH/TWLSaveTool",
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
-		"icon": "https://raw.githubusercontent.com/TuxSH/TWLSaveTool/master/app/IconLarge.png"
+		"icon": "https://raw.githubusercontent.com/TuxSH/TWLSaveTool/master/app/IconLarge.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"TWLSaveTool.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "TuxSH/TWLSaveTool",
+					"file": "TWLSaveTool.zip",
+					"output": "/TWLSaveTool.zip",
+					"message": "Downloading TWLSaveTool.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/TWLSaveTool.zip",
+					"input": "3ds/TWLSaveTool/TWLSaveTool.3dsx",
+					"output": "%3DSX%/TWLSaveTool.3dsx",
+					"message": "Extracting TWLSaveTool.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/TWLSaveTool.zip",
+					"message": "Deleting TWLSaveTool.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "phijor/ctroller",
@@ -2143,11 +3727,18 @@
 		"scripts": {
 			"ctroller.3dsx": [
 				{
+					"type": "promptMessage",
+					"message": "UU is unable to extract this at the moment..."
+				},
+				{
+					"type": "exit"
+				},
+				{
 					"type": "downloadRelease",
 					"repo": "phijor/ctroller",
 					"file": "ctroller.*.tar.gz",
 					"output": "/ctroller.tar.gz",
-					"message": "Downloading file.zip..."
+					"message": "Downloading ctroller.tar.gz..."
 				},
 				{
 					"type": "extractFile",
@@ -2181,14 +3772,92 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/icon.png",
+		"scripts": {
+			"ZeldaROTH.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "nop90/ZeldaROTH",
+					"file": "ZeldaROTH_CIA.*.zip",
+					"output": "/ZeldaROTH.zip",
+					"message": "Downloading ZeldaROTH zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/ZeldaROTH.zip",
+					"input": "ZeldaROTH.cia",
+					"output": "/ZeldaROTH.cia",
+					"message": "Extracting ZeldaROTH.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/ZeldaROTH.cia",
+					"message": "Installing ZeldaROTH.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/ZeldaROTH.cia",
+					"message": "Deleting ZeldaROTH.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/ZeldaROTH.zip",
+					"message": "Deleting ZeldaROTH.zip..."
+				}
+			],
+			"ZeldaROTH.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "nop90/ZeldaROTH",
+					"file": "ZeldaROTH_3DSX.*.zip",
+					"output": "/ZeldaROTH.zip",
+					"message": "Downloading ZeldaROTH zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/ZeldaROTH.zip",
+					"input": "ZeldaROTH/ZeldaROTH.3dsx",
+					"output": "%3DSX%/ZeldaROTH.3dsx",
+					"message": "Extracting ZeldaROTH.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/ZeldaROTH.zip",
+					"message": "Deleting ZeldaROTH.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "Ryuzaki-MrL/NotifyMii",
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Ryuzaki-MrL/NotifyMii/master/meta/banner.png",
-		"icon": "https://raw.githubusercontent.com/Ryuzaki-MrL/NotifyMii/master/meta/icon.png"
+		"icon": "https://raw.githubusercontent.com/Ryuzaki-MrL/NotifyMii/master/meta/icon.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"NotifyMii.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "Ryuzaki-MrL/NotifyMii",
+					"file": "NotifyMii.zip",
+					"output": "/NotifyMii.zip",
+					"message": "Downloading NotifyMii.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/NotifyMii.zip",
+					"input": "3ds/NotifyMii/NotifyMii.3dsx",
+					"output": "%3DSX%/NotifyMii.3dsx",
+					"message": "Extracting NotifyMii.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/NotifyMii.zip",
+					"message": "Deleting NotifyMii.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "Asellus/3DS_Quick_Reboot",
@@ -2258,13 +3927,14 @@
 		"icon": "https://raw.githubusercontent.com/masterfeizz/EDuke3D/master/icon.png",
 		"image": "https://db.universal-team.net/assets/images/images/eduke3d.png",
 		"scripts": {
-			"EDuke3D.cia": [
+			"[prerelease] EDuke3D.cia": [
 				{
 					"type": "downloadRelease",
 					"repo": "Owner/Repo",
 					"file": "EDuke3D.*\\.zip",
 					"output": "/EDuke3D.zip",
-					"message": "Downloading EDuke3D.zip..."
+					"message": "Downloading EDuke3D.zip...",
+					"includePrereleases": true
 				},
 				{
 					"type": "extractFile",
@@ -2296,13 +3966,14 @@
 					"message": "Deleting EDuke3D.zip..."
 				}
 			],
-			"eduke3d.3dsx": [
+			"[prerelease] eduke3d.3dsx": [
 				{
 					"type": "downloadRelease",
 					"repo": "Owner/Repo",
 					"file": "EDuke3D.*\\.zip",
 					"output": "/EDuke3D.zip",
-					"message": "Downloading EDuke3D.zip..."
+					"message": "Downloading EDuke3D.zip...",
+					"includePrereleases": true
 				},
 				{
 					"type": "extractFile",
@@ -2313,8 +3984,8 @@
 				},
 				{
 					"type": "move",
-					"oldFile": "/3ds/eduke3d/eduke3d.3dsx",
-					"newFile": "%3DSX%/eduke3d.3dsx"
+					"old": "/3ds/eduke3d/eduke3d.3dsx",
+					"new": "%3DSX%/eduke3d.3dsx"
 				},
 				{
 					"type": "deleteFile",
@@ -2331,13 +4002,14 @@
 		"icon": "https://raw.githubusercontent.com/machinamentum/CS3DS/master/jge/Projects/cspsp/icon_3ds.png",
 		"image": "https://db.universal-team.net/assets/images/images/cs3ds.png",
 		"scripts": {
-			"cspsp.cia": [
+			"[prerelease] cspsp.cia": [
 				{
 					"type": "downloadRelease",
 					"repo": "machinamentum/CS3DS",
 					"file": "cspsp.zip",
 					"output": "/cspsp.zip",
-					"message": "Downloading cspsp.zip..."
+					"message": "Downloading cspsp.zip...",
+					"includePrereleases": true
 				},
 				{
 					"type": "extractFile",
@@ -2377,13 +4049,14 @@
 					"message": "Deleting cspsp.zip..."
 				}
 			],
-			"cspsp.3dsx": [
+			"[prerelease] cspsp.3dsx": [
 				{
 					"type": "downloadRelease",
 					"repo": "machinamentum/CS3DS",
 					"file": "cspsp.zip",
 					"output": "/cspsp.zip",
-					"message": "Downloading cspsp.zip..."
+					"message": "Downloading cspsp.zip...",
+					"includePrereleases": true
 				},
 				{
 					"type": "extractFile",
@@ -2394,8 +4067,8 @@
 				},
 				{
 					"type": "move",
-					"oldFile": "/cspsp/cspsp.3dsx",
-					"newFile": "%3DSX%/cspsp.3dsx",
+					"old": "/cspsp/cspsp.3dsx",
+					"new": "%3DSX%/cspsp.3dsx",
 					"message": "Moving cspsp.3dsx..."
 				},
 				{
@@ -2509,21 +4182,123 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/banner.png",
-		"icon": "https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/icon.png"
+		"icon": "https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/icon.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"UpdateSuppressor.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "GiantBlargg/UpdateSuppressor",
+					"file": "UpdateSuppressor-3dsx.zip",
+					"output": "/UpdateSuppressor-3dsx.zip",
+					"message": "Downloading UpdateSuppressor-3dsx.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/UpdateSuppressor-3dsx.zip",
+					"input": "UpdateSuppressor/UpdateSuppressor.3dsx",
+					"output": "%3DSX%/UpdateSuppressor.3dsx",
+					"message": "Extracting UpdateSuppressor.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/UpdateSuppressor-3dsx.zip",
+					"message": "Deleting UpdateSuppressor-3dsx.zip..."
+				}
+			]
+		}
 	},
 	{
 		"title": "GameYob (3DS)",
 		"github": "Steveice10/GameYob",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
-		"icon": "https://raw.githubusercontent.com/Steveice10/GameYob/master/meta/icon_3ds.png"
+		"icon": "https://raw.githubusercontent.com/Steveice10/GameYob/master/meta/icon_3ds.png",
+		"autogen_scripts": true,
+		"scripts": {
+			"GameYob.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "Steveice10/GameYob",
+					"file": "GameYob.zip",
+					"output": "/GameYob.zip",
+					"message": "Downloading GameYob.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/GameYob.zip",
+					"input": "3ds-arm/3ds/GameYob/GameYob.3dsx",
+					"output": "%3DSX%/GameYob.3dsx",
+					"message": "Extracting GameYob.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/GameYob.zip",
+					"message": "Deleting GameYob.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "suloku/pdrpse",
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
 		"icon": "https://raw.githubusercontent.com/suloku/pdrpse/master/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/pdrpse.png"
+		"image": "https://db.universal-team.net/assets/images/images/pdrpse.png",
+		"scripts": {
+			"pdrpse.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "suloku/pdrpse",
+					"file": "pdrpse.*\\.zip",
+					"output": "/pdrpse.zip",
+					"message": "Downloading pdrpse zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/pdrpse.zip",
+					"input": "pdrpse.cia",
+					"output": "/pdrpse.cia",
+					"message": "Extracting pdrpse.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/pdrpse.cia",
+					"message": "Installing pdrpse.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/pdrpse.cia",
+					"message": "Deleting pdrpse.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/pdrpse.zip",
+					"message": "Deleting pdrpse.zip..."
+				}
+			],
+			"pdrpse.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "suloku/pdrpse",
+					"file": "pdrpse.*\\.zip",
+					"output": "/pdrpse.zip",
+					"message": "Downloading pdrpse zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/pdrpse.zip",
+					"input": "3ds/pdrpse/pdrpse.3dsx",
+					"output": "%3DSX%/pdrpse.3dsx",
+					"message": "Extracting pdrpse.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/pdrpse.zip",
+					"message": "Deleting pdrpse.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "CTurt/3DSController",
@@ -2700,7 +4475,30 @@
 	{
 		"github": "hax0kartik/wumiibo",
 		"systems": ["3DS"],
-		"categories": ["utility"]
+		"categories": ["utility"],
+		"scripts": {
+			"wumiibo": [
+				{
+					"type": "downloadRelease",
+					"repo": "hax0kartik/wumiibo",
+					"file": "0004013000004002.zip",
+					"output": "/0004013000004002.zip",
+					"message": "Downloading 0004013000004002.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/0004013000004002.zip",
+					"input": "0004013000004002/",
+					"output": "/luma/titles/0004013000004002/",
+					"message": "Extracting 0004013000004002..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/0004013000004002.zip",
+					"message": "Deleting 0004013000004002.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "masterfeizz/daedalusx64-3DS",
@@ -3049,7 +4847,41 @@
 					"repo": "d0k3/GodMode9",
 					"file": "GodMode9.*.zip",
 					"output": "/GodMode9.zip",
-					"message": "Downloading the GodMode9 zip..."
+					"message": "Downloading GodMode9 zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/GodMode9.zip",
+					"input": "GodMode9.firm",
+					"output": "/luma/payloads/GodMode9.firm",
+					"message": "Extracting the GodMode9.firm..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/GodMode9.zip",
+					"input": "gm9/",
+					"output": "/gm9/",
+					"message": "Extracting the /gm9/ directory..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/luma/payloads/GodMode9.firm.sha",
+					"message": "Deleting a stowaway file..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/GodMode9.zip",
+					"message": "Deleting the downloaded ZIP file..."
+				}
+			],
+			"[prerelease] GodMode9.firm": [
+				{
+					"type": "downloadRelease",
+					"repo": "d0k3/GodMode9",
+					"file": "GodMode9.*.zip",
+					"output": "/GodMode9.zip",
+					"message": "Downloading GodMode9 zip...",
+					"includePrereleases": true
 				},
 				{
 					"type": "extractFile",
@@ -3122,7 +4954,61 @@
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
 		"image": "https://raw.githubusercontent.com/dragos240/TownManager/master/res/banner%20icon.png",
-		"icon": "https://raw.githubusercontent.com/dragos240/TownManager/master/icon.png"
+		"icon": "https://raw.githubusercontent.com/dragos240/TownManager/master/icon.png",
+		"scripts": {
+			"TownManager.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "dragos240/TownManager",
+					"file": "TownManager.*\\.zip",
+					"output": "/TownManager.zip",
+					"message": "Downloading TownManager.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/TownManager.zip",
+					"input": "TownManager/TownManager.cia",
+					"output": "/TownManager.cia",
+					"message": "Extracting TownManager.cia..."
+				},
+				{
+					"type": "installCia",
+					"file": "/TownManager.cia",
+					"message": "Installing TownManager.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/TownManager.cia",
+					"message": "Deleting TownManager.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/TownManager.zip",
+					"message": "Deleting TownManager.zip..."
+				}
+			],
+			"TownManager.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "dragos240/TownManager",
+					"file": "TownManager.*\\.zip",
+					"output": "/TownManager.zip",
+					"message": "Downloading TownManager.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/TownManager.zip",
+					"input": "TownManager/TownManager.3dsx",
+					"output": "%3DSX%/TownManager.3dsx",
+					"message": "Extracting TownManager.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/TownManager.zip",
+					"message": "Deleting TownManager.zip..."
+				}
+			]
+		}
 	},
 	{
 		"github": "aspargas2/CartInstall",
