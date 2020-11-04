@@ -25,6 +25,11 @@ scripts:
     message: Extracting Vapecord...
     output: /luma/plugins/0004000000086400/
     type: extractFile
+  - file: /Vapecord.zip
+    input: boot.firm
+    message: Extracting boot.firm...
+    output: /boot.firm
+    type: extractFile
   - file: sdmc:/Vapecord.zip
     message: Deleting Vapecord.zip...
     type: deleteFile
@@ -38,6 +43,11 @@ scripts:
     input: luma/plugins/0004000000086200/
     message: Extracting Vapecord...
     output: /luma/plugins/0004000000086200/
+    type: extractFile
+  - file: /Vapecord.zip
+    input: boot.firm
+    message: Extracting boot.firm...
+    output: /boot.firm
     type: extractFile
   - file: sdmc:/Vapecord.zip
     message: Deleting Vapecord.zip...
@@ -53,6 +63,11 @@ scripts:
     message: Extracting Vapecord...
     output: /luma/plugins/0004000000086500/
     type: extractFile
+  - file: /Vapecord.zip
+    input: boot.firm
+    message: Extracting boot.firm...
+    output: /boot.firm
+    type: extractFile
   - file: sdmc:/Vapecord.zip
     message: Deleting Vapecord.zip...
     type: deleteFile
@@ -66,6 +81,11 @@ scripts:
     input: luma/plugins/0004000000086300/
     message: Extracting Vapecord...
     output: /luma/plugins/0004000000086300/
+    type: extractFile
+  - file: /Vapecord.zip
+    input: boot.firm
+    message: Extracting boot.firm...
+    output: /boot.firm
     type: extractFile
   - file: sdmc:/Vapecord.zip
     message: Deleting Vapecord.zip...
@@ -81,6 +101,11 @@ scripts:
     message: Extracting Vapecord...
     output: /luma/plugins/0004000000198f00/
     type: extractFile
+  - file: /Vapecord.zip
+    input: boot.firm
+    message: Extracting boot.firm...
+    output: /boot.firm
+    type: extractFile
   - file: sdmc:/Vapecord.zip
     message: Deleting Vapecord.zip...
     type: deleteFile
@@ -95,6 +120,11 @@ scripts:
     message: Extracting Vapecord...
     output: /luma/plugins/0004000000198d00/
     type: extractFile
+  - file: /Vapecord.zip
+    input: boot.firm
+    message: Extracting boot.firm...
+    output: /boot.firm
+    type: extractFile
   - file: sdmc:/Vapecord.zip
     message: Deleting Vapecord.zip...
     type: deleteFile
@@ -106,8 +136,13 @@ scripts:
     type: downloadRelease
   - file: /Vapecord.zip
     input: luma/plugins/0004000000198e00/
-    message: Extracting 1/3... please wait.
+    message: Extracting Vapecord...
     output: /luma/plugins/0004000000198e00/
+    type: extractFile
+  - file: /Vapecord.zip
+    input: boot.firm
+    message: Extracting boot.firm...
+    output: /boot.firm
     type: extractFile
   - file: sdmc:/Vapecord.zip
     message: Deleting Vapecord.zip...
@@ -123,15 +158,14 @@ scripts:
     message: Extracting Vapecord...
     output: /luma/plugins/00040000004C5700/
     type: extractFile
+  - file: /Vapecord.zip
+    input: boot.firm
+    message: Extracting boot.firm...
+    output: /boot.firm
+    type: extractFile
   - file: sdmc:/Vapecord.zip
     message: Deleting Vapecord.zip...
     type: deleteFile
-  Plugin boot.firm:
-  - file: boot.firm
-    message: Downloading boot.firm...
-    output: /boot.firm
-    repo: mariohackandglitch/Luma3DS
-    type: downloadRelease
 source: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin
 systems:
 - 3DS
