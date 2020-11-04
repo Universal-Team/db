@@ -414,6 +414,10 @@ for app in source:
 		if "updated" in app:
 			uni["info"]["last_updated"] = parser.parse(app["updated"]).strftime("%Y-%m-%d at %H:%M (UTC)")
 
+		if "DS" in uni["info"]["console"]:
+			uni["info"]["console"].remove("DS")
+			uni["info"]["console"].append("NDS")
+
 		# If scripts are specified, use those instead of the release files
 		if "scripts" in app:
 			for script in app["scripts"]:
