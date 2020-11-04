@@ -5351,5 +5351,12 @@
 		"image": "https://raw.githubusercontent.com/Epicpkmn11/dsi-camera/master/icon.bmp",
 		"icon": "https://raw.githubusercontent.com/Epicpkmn11/dsi-camera/master/icon.bmp",
 		"long_description": "This is just a simple proof of concept / example to show off the DSi's cameras being used in a homebrew app, and an open-source example for initializing the cameras in C/C++. Currently it can show both cameras and save a picture as photo.bmp.\n\n![Example image](https://github.com/Epicpkmn11/dsi-camera/raw/master/resources/example.png)"
+	},
+	{
+		"github": "RocketRobz/3DSBank",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"image": "https://db.universal-team.net/assets/images/icons/3dsbank.png",
+		"icon": "https://db.universal-team.net/assets/images/icons/3dsbank.png"
 	}
 ]
