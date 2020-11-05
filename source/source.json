@@ -6,6 +6,7 @@
 		"icon": "https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png",
 		"categories": ["utility"],
 		"github": "Universal-Team/Universal-Updater",
+		"unistore_exclude": true,
 		"nightly": {
 			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/Universal-Updater",
 			"downloads": {
