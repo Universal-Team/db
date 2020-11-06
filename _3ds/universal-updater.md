@@ -34,6 +34,7 @@ source: https://github.com/Universal-Team/Universal-Updater
 systems:
 - 3DS
 title: Universal-Updater
+unistore_exclude: true
 updated: '2020-11-03T16:59:59Z'
 version: v3.0.0
 version_title: Universal Updater 3.0.0 - Happy 1st Anniversary
