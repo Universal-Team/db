@@ -41,7 +41,7 @@ scripts:
   - file: nds-bootstrap.7z
     message: Downloading nds-bootstrap...
     output: /nds-bootstrap.7z
-    repo: ahezard/nds-bootstrap
+    repo: DS-Homebrew/nds-bootstrap
     type: downloadRelease
   - file: /nds-bootstrap.7z
     input: ''
