@@ -4718,7 +4718,7 @@
 			"nds-bootstrap": [
 				{
 					"type": "downloadRelease",
-					"repo": "ahezard/nds-bootstrap",
+					"repo": "DS-Homebrew/nds-bootstrap",
 					"file": "nds-bootstrap.7z",
 					"output": "/nds-bootstrap.7z",
 					"message": "Downloading nds-bootstrap..."
