@@ -5,14 +5,14 @@ categories:
 color: '#675f5d'
 created: '2020-10-11T22:29:51Z'
 description: "Ein Ludo klon f\xFCr den Nintendo 3DS."
-download_page: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/tag/v0.1.0
+download_page: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/tag/v0.2.0
 downloads:
   Ludo3DS.3dsx:
-    size: 560980
-    url: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/download/v0.1.0/Ludo3DS.3dsx
+    size: 564260
+    url: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/download/v0.2.0/Ludo3DS.3dsx
   Ludo3DS.cia:
-    size: 525248
-    url: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/download/v0.1.0/Ludo3DS.cia
+    size: 529344
+    url: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/download/v0.2.0/Ludo3DS.cia
 github: SuperSaiyajinStackZ/Ludo3DS
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/icon.png
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/Banner.png
@@ -25,9 +25,9 @@ source: https://github.com/SuperSaiyajinStackZ/Ludo3DS
 systems:
 - 3DS
 title: Ludo3DS
-updated: '2020-10-14T16:09:18Z'
-version: v0.1.0
-version_title: Ludo3DS v0.1.0!
+updated: '2020-11-08T02:14:31Z'
+version: v0.2.0
+version_title: Second Release of Ludo3DS!
 wiki: https://github.com/SuperSaiyajinStackZ/Ludo3DS/wiki
 ---
 > The game is playable in Deutsch and English
