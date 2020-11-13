@@ -8,16 +8,16 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v17.0.0
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 29990909
+    size: 29946194
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v17.0.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 29993490
+    size: 29949668
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v17.0.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 43086703
+    size: 43045207
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v17.0.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 43497131
+    size: 43454628
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v17.0.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
