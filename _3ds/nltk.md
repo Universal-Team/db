@@ -22,6 +22,8 @@ prerelease:
     NLTK.cia:
       size: 4965312
       url: https://github.com/Slattz/NLTK/releases/download/Nightly/NLTK.cia
+  qr:
+    NLTK.cia: https://db.universal-team.net/assets/images/qr/prerelease/nltk.cia.png
   updated: '2019-05-15T19:45:48Z'
   version: Nightly
   version_title: Nightly Build

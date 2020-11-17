@@ -21,6 +21,8 @@ prerelease:
     EDuke3D.cia:
       size: 1067456
       url: https://github.com/masterfeizz/EDuke3D/releases/download/v1.0-beta/EDuke3D.cia
+  qr:
+    EDuke3D.cia: https://db.universal-team.net/assets/images/qr/prerelease/eduke3d.cia.png
   updated: '2016-05-08T04:36:44Z'
   version: v1.0-beta
   version_title: Beta release (fixed)

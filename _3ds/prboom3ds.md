@@ -30,6 +30,8 @@ prerelease:
     prboom3ds.smdh:
       size: 14016
       url: https://github.com/elhobbs/prboom3ds/releases/download/v0.7-alpha/prboom3ds.smdh
+  qr:
+    prboom3ds.cia: https://db.universal-team.net/assets/images/qr/prerelease/prboom3ds.cia.png
   updated: '2019-12-21T23:47:05Z'
   version: v0.7-alpha
   version_title: v0.7-alpha

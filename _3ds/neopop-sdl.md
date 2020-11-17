@@ -20,6 +20,8 @@ prerelease:
     neopop_v0.4.cia:
       size: 1180608
       url: https://github.com/nop90/Neopop-SDL/releases/download/v0.4/neopop_v0.4.cia
+  qr:
+    neopop_v0.4.cia: https://db.universal-team.net/assets/images/qr/prerelease/neopop_v0.4.cia.png
   updated: '2017-06-14T18:53:35Z'
   version: v0.4
   version_title: Menu completed

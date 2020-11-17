@@ -18,6 +18,8 @@ prerelease:
     Quake2CTR.cia:
       size: 54547392
       url: https://github.com/masterfeizz/Quake2CTR/releases/download/v0.2/Quake2CTR.cia
+  qr:
+    Quake2CTR.cia: https://db.universal-team.net/assets/images/qr/prerelease/quake2ctr.cia.png
   updated: '2017-06-24T15:36:24Z'
   version: v0.2
   version_title: Save fix and Input enhancements

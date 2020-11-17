@@ -29,6 +29,8 @@ prerelease:
     craftusreloaded.cia:
       size: 590784
       url: https://github.com/RSDuck/craftus_reloaded/releases/download/0.3-pre2/craftusreloaded.cia
+  qr:
+    craftusreloaded.cia: https://db.universal-team.net/assets/images/qr/prerelease/craftusreloaded.cia.png
   updated: '2017-10-28T15:09:14Z'
   version: 0.3-pre2
   version_title: 0.3 Pre 2 Second Pre Release
