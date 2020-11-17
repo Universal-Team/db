@@ -23,9 +23,9 @@ jobs:
         sudo apt-get install python3-pip -y
         pip3 install -r source/requirements.txt
 
-    - name: Delete old pages
+    - name: Delete old pages and QRs
       run: |
-        rm -rf _3ds/* _ds/*
+        rm -rf _3ds/* _ds/* assets/images/qr/*.png assets/images/qr/nightly/*.png assets/images/qr/prerelease/*.png
 
     - name: Run generate.py
       run: |
