@@ -109,7 +109,16 @@
 										<div class="col-12">
 											<h3>Prereleases</h3>
 											{% for item in page.prerelease.downloads %}
-												<a class="btn btn-secondary m-1" href="{{ item[1].url }}">Download {{ item[0] }}</a>
+												<span class="btn btn-secondary m-1">
+													<a class="mr-1" href="{{ item[1].url }}">Download {{ item[0] }}</a>
+													{% for qr in page.prerelease.qr %}
+														{% if item[0] == qr[0] %}
+															<a class="qr-link" href="{{ qr[1] }}" role="button" data-toggle="modal" data-target="#qrModal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}">
+																<i class="fa fa-qrcode" aria-hidden="true"></i>
+															</a>
+														{% endif %}
+													{% endfor %}
+												</span>
 											{% endfor %}
 			
 											{% if page.prerelease.version %}

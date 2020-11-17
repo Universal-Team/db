@@ -17,6 +17,8 @@ prerelease:
   downloads:
     TWPatch.cia:
       url: https://puu.sh/GoWHS/9459f224fb.cia
+  qr:
+    TWPatch.cia: https://db.universal-team.net/assets/images/qr/prerelease/twpatch.cia.png
   updated: '2020-09-03T19:23:00Z'
   version: 2020/09/03
 qr:

@@ -350,7 +350,7 @@ for app in source:
 	if "downloads" in app:
 		for item in app["downloads"]:
 			if item[item.rfind(".") + 1:] == "cia":
-				qr = qrcode.make(app["downloads"][item]["url"], box_size = 5).convert("RGBA")
+				qr = qrcode.make(app["downloads"][item]["url"], box_size = 5, version = 5).convert("RGBA")
 				if img:
 					draw = ImageDraw.Draw(qr)
 					draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 4)), fill = (255, 255, 255))
@@ -360,10 +360,28 @@ for app in source:
 					app["qr"] = {}
 				app["qr"][item] = "https://db.universal-team.net/assets/images/qr/" + webName(item) + ".png"
 
+	if "prerelease" in app:
+		for item in app["prerelease"]["downloads"]:
+			if item[item.rfind(".") + 1:] == "cia":
+				qr = qrcode.make(app["prerelease"]["downloads"][item]["url"], box_size = 5, version = 5).convert("RGBA")
+				data = numpy.array(qr)
+				r, g, b, a = data.T
+				black = (r == 0) & (g == 0) & (b == 0)
+				data[...][black.T] = (0xF6, 0x6A, 0x0A, 0xFF)
+				qr = Image.fromarray(data)
+				if img:
+					draw = ImageDraw.Draw(qr)
+					draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 4)), fill = (255, 255, 255))
+					qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask = img if img.mode == "RGBA" else None)
+				qr.save(os.path.join("..", "assets", "images", "qr", "prerelease", webName(item) + ".png"))
+				if not "qr" in app["prerelease"]:
+					app["prerelease"]["qr"] = {}
+				app["prerelease"]["qr"][item] = "https://db.universal-team.net/assets/images/qr/prerelease/" + webName(item) + ".png"
+
 	if "nightly" in app:
 		for item in app["nightly"]["downloads"]:
 			if item[item.rfind(".") + 1:] == "cia":
-				qr = qrcode.make(app["nightly"]["downloads"][item]["url"], box_size = 5).convert("RGBA")
+				qr = qrcode.make(app["nightly"]["downloads"][item]["url"], box_size = 5, version = 5).convert("RGBA")
 				data = numpy.array(qr)
 				r, g, b, a = data.T
 				black = (r == 0) & (g == 0) & (b == 0)
