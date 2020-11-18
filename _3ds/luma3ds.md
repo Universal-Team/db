@@ -17,13 +17,26 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 scripts:
+  '[Nanquitas plugin loader] boot.firm':
+  - file: boot.firm
+    message: Downloading boot.firm...
+    output: /boot.firm
+    repo: Nanquitas/Luma3DS
+    type: downloadRelease
   '[hourly] boot.firm':
   - file: boot.firm
     message: Downloading boot.firm...
     output: /boot.firm
     repo: hax0kartik/luma-hourlies
     type: downloadRelease
-  '[plugin loader] boot.firm':
+  '[jbmagination plugin loader] boot.firm':
+  - count: 1
+    message: 'Warning: This version of Luma3DS is not
+
+      compatible with system version 11.14.0-46 or newer,
+
+      please only use on older system versions'
+    type: promptMessage
   - file: boot.firm
     message: Downloading boot.firm...
     output: /boot.firm
