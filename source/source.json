@@ -5156,10 +5156,19 @@
 				}
 				
 			],
-			"[plugin loader] boot.firm": [
+			"[jbmagination plugin loader] boot.firm": [
 				{
 					"type": "downloadRelease",
 					"repo": "jbmagination/Luma3DS_plg",
+					"file": "boot.firm",
+					"output": "/boot.firm",
+					"message": "Downloading boot.firm..."
+				}
+			],
+			"[Nanquitas plugin loader] boot.firm": [
+				{
+					"type": "downloadRelease",
+					"repo": "Nanquitas/Luma3DS",
 					"file": "boot.firm",
 					"output": "/boot.firm",
 					"message": "Downloading boot.firm..."
