@@ -5158,6 +5158,11 @@
 			],
 			"[jbmagination plugin loader] boot.firm": [
 				{
+					"type": "promptMessage",
+					"message": "Warning: This version of Luma3DS is not\ncompatible with system version 11.14.0-46 or newer,\nplease only use on older system versions",
+					"count": 1
+				},
+				{
 					"type": "downloadRelease",
 					"repo": "jbmagination/Luma3DS_plg",
 					"file": "boot.firm",
