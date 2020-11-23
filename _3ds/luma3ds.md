@@ -1,67 +1,35 @@
 ---
-author: LumaTeam
+author: Nanquitas
 categories:
 - utility
 - firm
-color: '#82e5d9'
-created: '2016-02-08T02:26:12Z'
+- luma3ds
+color: '#e39dd1'
+created: '2018-06-22T08:47:04Z'
 description: Noob-proof (N)3DS "Custom Firmware"
-download_page: https://github.com/LumaTeam/Luma3DS/releases/tag/v10.2.1
+download_page: https://github.com/Nanquitas/Luma3DS/releases/tag/v10.2.1
 downloads:
-  Luma3DSv10.2.1.zip:
-    size: 364996
-    url: https://github.com/LumaTeam/Luma3DS/releases/download/v10.2.1/Luma3DSv10.2.1.zip
-github: LumaTeam/Luma3DS
-image: https://avatars3.githubusercontent.com/u/65085206?v=4
+  boot.firm:
+    size: 240640
+    url: https://github.com/Nanquitas/Luma3DS/releases/download/v10.2.1/boot.firm
+github: Nanquitas/Luma3DS
+image: https://avatars3.githubusercontent.com/u/13298129?v=4
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 scripts:
-  '[Nanquitas plugin loader] boot.firm':
+  boot.firm:
   - file: boot.firm
     message: Downloading boot.firm...
     output: /boot.firm
     repo: Nanquitas/Luma3DS
     type: downloadRelease
-  '[hourly] boot.firm':
-  - file: boot.firm
-    message: Downloading boot.firm...
-    output: /boot.firm
-    repo: hax0kartik/luma-hourlies
-    type: downloadRelease
-  '[jbmagination plugin loader] boot.firm':
-  - count: 1
-    message: 'Warning: This version of Luma3DS is not
-
-      compatible with system version 11.14.0-46 or newer,
-
-      please only use on older system versions'
-    type: promptMessage
-  - file: boot.firm
-    message: Downloading boot.firm...
-    output: /boot.firm
-    repo: jbmagination/Luma3DS_plg
-    type: downloadRelease
-  boot.firm:
-  - file: Luma3DS.*.zip
-    message: Downloading Luma3DS zip...
-    output: /Luma3DS.zip
-    repo: LumaTeam/Luma3DS
-    type: downloadRelease
-  - file: /Luma3DS.zip
-    input: boot.firm
-    message: Extracting boot.firm...
-    output: /boot.firm
-    type: extractFile
-  - file: /Luma3DS.zip
-    message: Deleting Luma3DS.zip...
-    type: deleteFile
-source: https://github.com/LumaTeam/Luma3DS
+source: https://github.com/Nanquitas/Luma3DS
 systems:
 - 3DS
 title: Luma3DS
-updated: '2020-11-17T02:06:56Z'
+updated: '2020-11-17T11:21:13Z'
 version: v10.2.1
-version_title: v10.2.1
-wiki: https://github.com/LumaTeam/Luma3DS/wiki
+version_title: v10.2.1 3GX Loader Edition
+wiki: https://github.com/Nanquitas/Luma3DS/wiki
 ---
