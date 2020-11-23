@@ -4,23 +4,23 @@ categories:
 - utility
 color: '#7c626d'
 created: '2016-04-21T14:02:23Z'
-download_page: https://github.com/Nanquitas/BootNTR/releases/tag/v2.13.3
+download_page: https://github.com/Nanquitas/BootNTR/releases/tag/v2.13.4
 downloads:
   BootNTRSelector-FONZD-Banner.cia:
     size: 1508288
-    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.3/BootNTRSelector-FONZD-Banner.cia
+    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.4/BootNTRSelector-FONZD-Banner.cia
   BootNTRSelector-Mode3-FONZD-Banner.cia:
     size: 1508288
-    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.3/BootNTRSelector-Mode3-FONZD-Banner.cia
+    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.4/BootNTRSelector-Mode3-FONZD-Banner.cia
   BootNTRSelector-Mode3-PabloMK7-Banner.cia:
     size: 1487808
-    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.3/BootNTRSelector-Mode3-PabloMK7-Banner.cia
+    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.4/BootNTRSelector-Mode3-PabloMK7-Banner.cia
   BootNTRSelector-PabloMK7-Banner.3dsx:
-    size: 1075524
-    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.3/BootNTRSelector-PabloMK7-Banner.3dsx
+    size: 1074176
+    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.4/BootNTRSelector-PabloMK7-Banner.3dsx
   BootNTRSelector-PabloMK7-Banner.cia:
     size: 1487808
-    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.3/BootNTRSelector-PabloMK7-Banner.cia
+    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.4/BootNTRSelector-PabloMK7-Banner.cia
 github: Nanquitas/BootNTR
 icon: https://raw.githubusercontent.com/Nanquitas/BootNTR/master/resources/icon.png
 image: https://db.universal-team.net/assets/images/images/bootntr.png
@@ -36,7 +36,7 @@ source: https://github.com/Nanquitas/BootNTR
 systems:
 - 3DS
 title: BootNTR
-updated: '2019-12-17T15:51:26Z'
-version: v2.13.3
+updated: '2020-11-23T12:27:12Z'
+version: v2.13.4
 wiki: https://github.com/Nanquitas/BootNTR/wiki
 ---
