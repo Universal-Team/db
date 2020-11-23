@@ -5123,7 +5123,7 @@
 	{
 		"github": "LumaTeam/Luma3DS",
 		"systems": ["3DS"],
-		"categories": ["utility", "firm"],
+		"categories": ["utility", "firm", "luma3ds"],
 		"scripts": {
 			"boot.firm": [
 				{
@@ -5155,8 +5155,15 @@
 					"message": "Downloading boot.firm..."
 				}
 				
-			],
-			"[jbmagination plugin loader] boot.firm": [
+			]
+		}
+	},
+	{
+		"github": "jbmagination/Luma3DS_plg",
+		"systems": ["3DS"],
+		"categories": ["utility", "firm", "luma3ds"],
+		"scripts": {
+			"boot.firm": [
 				{
 					"type": "promptMessage",
 					"message": "Warning: This version of Luma3DS is not\ncompatible with system version 11.14.0-46 or newer,\nplease only use on older system versions",
@@ -5169,11 +5176,34 @@
 					"output": "/boot.firm",
 					"message": "Downloading boot.firm..."
 				}
-			],
-			"[Nanquitas plugin loader] boot.firm": [
+			]
+		}
+	},
+	{
+		"github": "Nanquitas/Luma3DS",
+		"systems": ["3DS"],
+		"categories": ["utility", "firm", "luma3ds"],
+		"scripts": {
+			"boot.firm": [
 				{
 					"type": "downloadRelease",
 					"repo": "Nanquitas/Luma3DS",
+					"file": "boot.firm",
+					"output": "/boot.firm",
+					"message": "Downloading boot.firm..."
+				}
+			]
+		}
+	},
+	{
+		"github": "mikewii/Luma3DS-plugin",
+		"systems": ["3DS"],
+		"categories": ["utility", "firm", "luma3ds"],
+		"scripts": {
+			"boot.firm": [
+				{
+					"type": "downloadRelease",
+					"repo": "mikewii/Luma3DS-plugin",
 					"file": "boot.firm",
 					"output": "/boot.firm",
 					"message": "Downloading boot.firm..."
