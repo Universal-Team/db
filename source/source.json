@@ -1999,30 +1999,7 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/RSDuck/craftus_reloaded/master/icon/craftusreloaded.png",
-		"autogen_scripts": true,
-		"scripts": {
-			"craftusreloaded.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "RSDuck/craftus_reloaded",
-					"file": "craftus.*\\.zip",
-					"output": "/craftus.zip",
-					"message": "Downloading craftus.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/craftus.zip",
-					"input": "craftusreloaded.3dsx",
-					"output": "%3DSX%/craftusreloaded.3dsx",
-					"message": "Extracting craftusreloaded.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/craftus.zip",
-					"message": "Deleting craftus.zip..."
-				}
-			]
-		}
+		"autogen_scripts": true
 	},
 	{
 		"github": "Manurocker95/Evolution_Sav3D_Me",
@@ -5181,6 +5158,7 @@
 	},
 	{
 		"github": "Nanquitas/Luma3DS",
+		"title": "Luma3DS (Nanquitas)",
 		"systems": ["3DS"],
 		"categories": ["utility", "firm", "luma3ds"],
 		"scripts": {
@@ -5509,8 +5487,8 @@
 		"icon": "https://db.universal-team.net/assets/images/icons/3dsbank.png"
 	},
 	{
-		"github": "GamesSanti/Craftus-Reskined",
-		"title": "Craftus Reskined",
+		"github": "GamesSanti/Craftus-Redesigned",
+		"title": "Craftus Redesigned",
 		"author": "RSDuck and GamesSanti",
 		"systems": ["3DS"],
 		"categories": ["game"],
