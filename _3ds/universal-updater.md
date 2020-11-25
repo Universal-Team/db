@@ -50,4 +50,4 @@ Some features include:
 - Customizable interface colors
 - Get some useful Homebrew apps thanks to the TinyDB implementation
 
-![The main menu](https://universal-team.net/images/universal-updater/mainMenu.png)
+![The main menu](https://universal-team.net/images/universal-updater/entryInfo.png)

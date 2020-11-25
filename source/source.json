@@ -1,6 +1,6 @@
 [
 	{
-		"long_description": "Universal-Updater is a homebrew app that allows easy installation and updating of other 3DS homebrew!\n\nSome features include:\n- Flexible and easy to make scripts\n- Pre-made scripts that anyone can submit available for download from within the app\n- Translated to English, French, German, Italian, Japanese, Lithuanian, Portuguese, Russian, and Spanish\n- Customizable interface colors\n- Get some useful Homebrew apps thanks to the TinyDB implementation\n\n![The main menu](https://universal-team.net/images/universal-updater/mainMenu.png)",
+		"long_description": "Universal-Updater is a homebrew app that allows easy installation and updating of other 3DS homebrew!\n\nSome features include:\n- Flexible and easy to make scripts\n- Pre-made scripts that anyone can submit available for download from within the app\n- Translated to English, French, German, Italian, Japanese, Lithuanian, Portuguese, Russian, and Spanish\n- Customizable interface colors\n- Get some useful Homebrew apps thanks to the TinyDB implementation\n\n![The main menu](https://universal-team.net/images/universal-updater/entryInfo.png)",
 		"systems": ["3DS"],
 		"image": "https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png",
