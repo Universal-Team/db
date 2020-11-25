@@ -22,21 +22,6 @@ license: other
 license_name: Other
 qr:
   craftus_reloaded.cia: https://db.universal-team.net/assets/images/qr/craftus_reloaded.cia.png
-scripts:
-  craftusreloaded.3dsx:
-  - file: craftus.*\.zip
-    message: Downloading craftus.zip...
-    output: /craftus.zip
-    repo: RSDuck/craftus_reloaded
-    type: downloadRelease
-  - file: /craftus.zip
-    input: craftusreloaded.3dsx
-    message: Extracting craftusreloaded.3dsx...
-    output: '%3DSX%/craftusreloaded.3dsx'
-    type: extractFile
-  - file: /craftus.zip
-    message: Deleting craftus.zip...
-    type: deleteFile
 source: https://github.com/RSDuck/craftus_reloaded
 systems:
 - 3DS
