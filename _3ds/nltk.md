@@ -24,6 +24,10 @@ prerelease:
       url: https://github.com/Slattz/NLTK/releases/download/Nightly/NLTK.cia
   qr:
     NLTK.cia: https://db.universal-team.net/assets/images/qr/prerelease/nltk.cia.png
+  update_notes: <p>NLTK Nightly Build based on latest commit (even though it says
+    there's commits since release/it was released a while ago). May be unstable, use
+    at your own risk.  Visit <a href="https://discord.gg/j2VUBBv" rel="nofollow">https://discord.gg/j2VUBBv</a>
+    if you have questions.</p>
   updated: '2019-05-15T19:45:48Z'
   version: Nightly
   version_title: Nightly Build
@@ -31,6 +35,10 @@ source: https://github.com/Slattz/NLTK
 systems:
 - 3DS
 title: NLTK
+update_notes: <p>NLTK Nightly Build based on latest commit (even though it says there's
+  commits since release/it was released a while ago). May be unstable, use at your
+  own risk.  Visit <a href="https://discord.gg/j2VUBBv" rel="nofollow">https://discord.gg/j2VUBBv</a>
+  if you have questions.</p>
 updated: '2019-05-15T19:45:48Z'
 version: Nightly
 version_title: Nightly Build

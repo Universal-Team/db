@@ -62,26 +62,31 @@ source: https://github.com/CTurt/3DSController
 systems:
 - 3DS
 title: 3DSController
-update_notes: '3DS Client:
+update_notes: '<p>3DS Client:</p>
 
-  - Backlight disabled when not in use (less battery consumption),
+  <ul>
 
-  - New 3DS buttons and C Stick support,
+  <li>Backlight disabled when not in use (less battery consumption),</li>
 
+  <li>New 3DS buttons and C Stick support,</li>
 
-  PC Server:
+  </ul>
 
-  - DLL errors fixed,
+  <p>PC Server:</p>
 
-  - Updated vJoy to latest version (fixes Windows 10 compatibility),
+  <ul>
 
-  - Screenshot code scrapped
+  <li>DLL errors fixed,</li>
 
-  - 2 separate JoySticks can be configured,
+  <li>Updated vJoy to latest version (fixes Windows 10 compatibility),</li>
 
-  - 8 additional JoyStick buttons supported,
+  <li>Screenshot code scrapped</li>
 
-  '
+  <li>2 separate JoySticks can be configured,</li>
+
+  <li>8 additional JoyStick buttons supported,</li>
+
+  </ul>'
 updated: '2015-09-08T22:08:00Z'
 version: '0.6'
 version_title: 3DS Controller 0.6

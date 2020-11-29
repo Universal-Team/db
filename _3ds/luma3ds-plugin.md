@@ -29,9 +29,15 @@ source: https://github.com/mikewii/Luma3DS-plugin
 systems:
 - 3DS
 title: Luma3DS-plugin
-update_notes: "Luma:\r\nFixes for latest firmware 11.14\r\n\r\nPlugin:\r\nFixed controller\
-  \ hook for old sdk games.\r\nPlugin now patch fs permissions and read smdh of current\
-  \ process, for future use.\r\n\r\n"
+update_notes: '<p>Luma:<br>
+
+  Fixes for latest firmware 11.14</p>
+
+  <p>Plugin:<br>
+
+  Fixed controller hook for old sdk games.<br>
+
+  Plugin now patch fs permissions and read smdh of current process, for future use.</p>'
 updated: '2020-11-17T20:45:13Z'
 version: r1.0.9.3
 version_title: 1.0.9.3

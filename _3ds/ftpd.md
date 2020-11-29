@@ -50,12 +50,28 @@ source: https://github.com/mtheall/ftpd
 systems:
 - 3DS
 title: ftpd
-update_notes: "- Even better graphics than ever (Dear ImGui backend)\r\n- NDS support\r\
-  \n- Exit button changed from B to PLUS/START\r\n- Backlight toggle changed from\
-  \ PLUS/START to MINUS/SELECT\r\n- User/Password support\r\n- Scrollable log\r\n\
-  - Status icons/text (battery/wifi/time)\r\n- \"Classic\" builds retain console interface\r\
-  \n- Further improvements to overall system stability and other minor adjustments\
-  \ have been made to enhance the user experience"
+update_notes: '<ul>
+
+  <li>Even better graphics than ever (Dear ImGui backend)</li>
+
+  <li>NDS support</li>
+
+  <li>Exit button changed from B to PLUS/START</li>
+
+  <li>Backlight toggle changed from PLUS/START to MINUS/SELECT</li>
+
+  <li>User/Password support</li>
+
+  <li>Scrollable log</li>
+
+  <li>Status icons/text (battery/wifi/time)</li>
+
+  <li>"Classic" builds retain console interface</li>
+
+  <li>Further improvements to overall system stability and other minor adjustments
+  have been made to enhance the user experience</li>
+
+  </ul>'
 updated: '2020-05-27T14:10:12Z'
 version: v3.0.0
 version_title: ftpd pro v3.0.0

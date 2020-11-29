@@ -40,9 +40,11 @@ source: https://github.com/rhaleblian/dslibris
 systems:
 - DS
 title: dslibris
-update_notes: "Version v1.5.0 rebuilt with devkitARM r45.\r\n\r\nAs such, there are\
-  \ no new features or changes in application behaviour.\r\n\r\nSee INSTALL.txt for\
-  \ installation instructions.\r\n"
+update_notes: '<p>Version v1.5.0 rebuilt with devkitARM r45.</p>
+
+  <p>As such, there are no new features or changes in application behaviour.</p>
+
+  <p>See INSTALL.txt for installation instructions.</p>'
 updated: '2018-11-23T01:58:57Z'
 version: v1.5.1
 version_title: v1.5.1

@@ -55,7 +55,16 @@ source: https://github.com/NatTupper/Forecast
 systems:
 - 3DS
 title: Forecast
-update_notes: "## Fixed\r\n* Fixed #1 "
+update_notes: '<h2>Fixed</h2>
+
+  <ul>
+
+  <li>Fixed <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+  data-id="245271043" data-permission-text="Title is private" data-url="https://github.com/NatTupper/Forecast/issues/1"
+  data-hovercard-type="issue" data-hovercard-url="/NatTupper/Forecast/issues/1/hovercard"
+  href="https://github.com/NatTupper/Forecast/issues/1">#1</a></li>
+
+  </ul>'
 updated: '2017-07-25T12:39:20Z'
 version: v1.0.1
 version_title: v1.0.1

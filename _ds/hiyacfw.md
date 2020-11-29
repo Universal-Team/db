@@ -21,13 +21,37 @@ systems:
 - DS
 title: hiyaCFW
 unistore_exclude: true
-update_notes: "To update, just replace `hiya.dsi` on the SD root, with the one from\
-  \ the 7z file, in `for SDNAND SD card`.\r\n\r\n**What's new?**\r\n* (@Epicpkmn11)\
-  \ Automatic dummy file creation has been added, so goodbye stock error screen!\r\
-  \n   * **NOTE:** If it's still shown for you, then the SDNAND contents are probably\
-  \ corrupt.\r\n* (@Epicpkmn11) Added animated GIF splash support.\r\n* (@Epicpkmn11)\
-  \ Added RGB565 BMP support.\r\n* A lockout message will now show, when launching\
-  \ on DS consoles or in DS mode."
+update_notes: '<p>To update, just replace <code>hiya.dsi</code> on the SD root, with
+  the one from the 7z file, in <code>for SDNAND SD card</code>.</p>
+
+  <p><strong>What''s new?</strong></p>
+
+  <ul>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  Automatic dummy file creation has been added, so goodbye stock error screen!
+
+  <ul>
+
+  <li><strong>NOTE:</strong> If it''s still shown for you, then the SDNAND contents
+  are probably corrupt.</li>
+
+  </ul>
+
+  </li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  Added animated GIF splash support.</li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  Added RGB565 BMP support.</li>
+
+  <li>A lockout message will now show, when launching on DS consoles or in DS mode.</li>
+
+  </ul>'
 updated: '2020-10-22T06:35:14Z'
 version: v1.4.0
 version_title: Hacktober (2020) release

@@ -25,10 +25,17 @@ source: https://github.com/LiquidFenrir/WifiManager
 systems:
 - 3DS
 title: WifiManager
-update_notes: "Fixes a bug introduced in the last release, sorry! The backup list\
-  \ would disappear if you didnt have enough of them.  \r\nAlso adds a touchscreen\
-  \ button for the password visibility toggle, and instructions! Just hold SELECT\
-  \ and they will appear on the top screen!\r\n\r\nQR code to the cia:\r\n![image](https://user-images.githubusercontent.com/16072534/34965250-f751cc9a-fa52-11e7-81cb-826bedeaa94d.png)"
+update_notes: '<p>Fixes a bug introduced in the last release, sorry! The backup list
+  would disappear if you didnt have enough of them.<br>
+
+  Also adds a touchscreen button for the password visibility toggle, and instructions!
+  Just hold SELECT and they will appear on the top screen!</p>
+
+  <p>QR code to the cia:<br>
+
+  <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/16072534/34965250-f751cc9a-fa52-11e7-81cb-826bedeaa94d.png"><img
+  src="https://user-images.githubusercontent.com/16072534/34965250-f751cc9a-fa52-11e7-81cb-826bedeaa94d.png"
+  alt="image" style="max-width:100%;"></a></p>'
 updated: '2018-01-15T23:19:27Z'
 version: v1.1.2
 version_title: Bugfixes and Instruction

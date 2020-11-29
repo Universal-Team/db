@@ -32,6 +32,12 @@ prerelease:
       url: https://github.com/elhobbs/prboom3ds/releases/download/v0.7-alpha/prboom3ds.smdh
   qr:
     prboom3ds.cia: https://db.universal-team.net/assets/images/qr/prerelease/prboom3ds.cia.png
+  update_notes: '<p>enum fix, enable lto, 3d view change</p>
+
+    <p>install:<br>
+
+    put all files in /3ds/prboom3ds along with doom wad files (you need to get these
+    elsewhere)</p>'
   updated: '2019-12-21T23:47:05Z'
   version: v0.7-alpha
   version_title: v0.7-alpha
@@ -39,6 +45,12 @@ source: https://github.com/elhobbs/prboom3ds
 systems:
 - 3DS
 title: prboom3ds
+update_notes: '<p>enum fix, enable lto, 3d view change</p>
+
+  <p>install:<br>
+
+  put all files in /3ds/prboom3ds along with doom wad files (you need to get these
+  elsewhere)</p>'
 updated: '2019-12-21T23:47:05Z'
 version: v0.7-alpha
 version_title: v0.7-alpha

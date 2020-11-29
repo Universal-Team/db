@@ -53,10 +53,18 @@ source: https://github.com/nop90/OpenSyobon3DS
 systems:
 - 3DS
 title: OpenSyobon3DS
-update_notes: "- Fixed blurred text caused by SFTDLib (used workaround found on Xerpi\
-  \ github)\n- Added sprites for ceiling spikes, previously drawn as white lines \n\
-  - Changed two level icons with better images\n- Added touch controls for level selection\
-  \ in menu and to retry level/quit level in game\n"
+update_notes: '<ul>
+
+  <li>Fixed blurred text caused by SFTDLib (used workaround found on Xerpi github)</li>
+
+  <li>Added sprites for ceiling spikes, previously drawn as white lines</li>
+
+  <li>Changed two level icons with better images</li>
+
+  <li>Added touch controls for level selection in menu and to retry level/quit level
+  in game</li>
+
+  </ul>'
 updated: '2016-07-27T08:58:59Z'
 version: v1.2
 version_title: Open Syobon 3DS v1.2

@@ -21,18 +21,24 @@ source: https://github.com/aliceinpalth/3dfetch
 systems:
 - 3DS
 title: 3dfetch
-update_notes: "Lots of stuff added! First and foremost:\r\n* Added a pretty animation\
-  \ to simulate typing a shell command\r\n* Cycling left text colors now additionally\
-  \ cycles the CFW logo color\r\n* Exact battery percentage is shown\r\n* Luma CFW\
-  \ now displays the version number with it\r\n* Added detection for Cakes CFW\r\n\
-  * Added detection for Corbenik CFW\r\n* Added detection for RX Tools CFW\r\n* Added\
-  \ detection for Rei CFW\r\n* 1.11: Fixed white background not being properly available\r\
-  \n\r\nWe've also now got a configuration menu! Press select to bring it up. All\
-  \ changes to the configuration are saved in a config file.\r\n\r\nAs always, you\
-  \ can update 3dfetch via the TitleDB option in FBI, or, use the QR code below and\
-  \ utilize remote install.\r\n\r\n![QR code](http://i.imgur.com/Zws5gCI.png)\r\n\r\
-  \nSend \u2764\uFE0F to [daedreth](https://github.com/daedreth) and [Alex](https://github.com/astronautlevel2)\
-  \ for their immense work on this while I was in exams week."
+update_notes: "<p>Lots of stuff added! First and foremost:</p>\n<ul>\n<li>Added a\
+  \ pretty animation to simulate typing a shell command</li>\n<li>Cycling left text\
+  \ colors now additionally cycles the CFW logo color</li>\n<li>Exact battery percentage\
+  \ is shown</li>\n<li>Luma CFW now displays the version number with it</li>\n<li>Added\
+  \ detection for Cakes CFW</li>\n<li>Added detection for Corbenik CFW</li>\n<li>Added\
+  \ detection for RX Tools CFW</li>\n<li>Added detection for Rei CFW</li>\n<li>1.11:\
+  \ Fixed white background not being properly available</li>\n</ul>\n<p>We've also\
+  \ now got a configuration menu! Press select to bring it up. All changes to the\
+  \ configuration are saved in a config file.</p>\n<p>As always, you can update 3dfetch\
+  \ via the TitleDB option in FBI, or, use the QR code below and utilize remote install.</p>\n\
+  <p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://camo.githubusercontent.com/454080f3c85e50265dc7c3015cccf92f3785f4e501a01cce68c340bad1438938/687474703a2f2f692e696d6775722e636f6d2f5a7773356743492e706e67\"\
+  ><img src=\"https://camo.githubusercontent.com/454080f3c85e50265dc7c3015cccf92f3785f4e501a01cce68c340bad1438938/687474703a2f2f692e696d6775722e636f6d2f5a7773356743492e706e67\"\
+  \ alt=\"QR code\" data-canonical-src=\"http://i.imgur.com/Zws5gCI.png\" style=\"\
+  max-width:100%;\"></a></p>\n<p>Send <g-emoji class=\"g-emoji\" alias=\"heart\" fallback-src=\"\
+  https://github.githubassets.com/images/icons/emoji/unicode/2764.png\">\u2764\uFE0F\
+  </g-emoji> to <a href=\"https://github.com/daedreth\">daedreth</a> and <a href=\"\
+  https://github.com/astronautlevel2\">Alex</a> for their immense work on this while\
+  \ I was in exams week.</p>"
 updated: '2017-06-30T22:45:59Z'
 version: '1.10'
 version_title: 3dfetch v1.10/11 - Major updates

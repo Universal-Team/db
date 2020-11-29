@@ -41,9 +41,22 @@ source: https://github.com/KunoichiZ/lumaupdate
 systems:
 - 3DS
 title: lumaupdate
-update_notes: 'This update fixes the error in #49, #50, and #51 and closes #49. This
-  update should now allow you to download Luma3DS and any future releases of Luma
-  Updater.'
+update_notes: <p>This update fixes the error in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="572902112" data-permission-text="Title
+  is private" data-url="https://github.com/KunoichiZ/lumaupdate/issues/49" data-hovercard-type="issue"
+  data-hovercard-url="/KunoichiZ/lumaupdate/issues/49/hovercard" href="https://github.com/KunoichiZ/lumaupdate/issues/49">#49</a>,
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="573355357"
+  data-permission-text="Title is private" data-url="https://github.com/KunoichiZ/lumaupdate/issues/50"
+  data-hovercard-type="issue" data-hovercard-url="/KunoichiZ/lumaupdate/issues/50/hovercard"
+  href="https://github.com/KunoichiZ/lumaupdate/issues/50">#50</a>, and <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="573445772" data-permission-text="Title
+  is private" data-url="https://github.com/KunoichiZ/lumaupdate/issues/51" data-hovercard-type="issue"
+  data-hovercard-url="/KunoichiZ/lumaupdate/issues/51/hovercard" href="https://github.com/KunoichiZ/lumaupdate/issues/51">#51</a>
+  and closes <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+  data-id="572902112" data-permission-text="Title is private" data-url="https://github.com/KunoichiZ/lumaupdate/issues/49"
+  data-hovercard-type="issue" data-hovercard-url="/KunoichiZ/lumaupdate/issues/49/hovercard"
+  href="https://github.com/KunoichiZ/lumaupdate/issues/49">#49</a>. This update should
+  now allow you to download Luma3DS and any future releases of Luma Updater.</p>
 updated: '2020-02-29T22:55:37Z'
 version: v2.5
 version_title: Fix for v2.4

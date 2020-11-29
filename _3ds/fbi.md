@@ -28,20 +28,47 @@ source: https://github.com/Steveice10/FBI
 systems:
 - 3DS
 title: FBI
-update_notes: "* Remove TitleDB support.\r\n* Add TLSv1.2 support.\r\n  * In testing,\
-  \ speeds were ~70-80kbps, which should be good enough for homebrew downloads.\r\n\
-  \    * I hope to investigate the matter further and improve speeds in the future,\
-  \ but wanted to finally get something out for the time being.\r\n  * Downloads from\
-  \ sources that support earlier TLS versions (i.e. not GitHub) will continue to use\
-  \ the 3DS's built-in HTTP stack, and thus should progress at the same speeds as\
-  \ before.\r\n* Revert the built-in updater back to using GitHub.\r\n\r\nMake sure\
-  \ to report any new issues caused by these changes. The issue ticket for TLSv1.2\
-  \ support can be found [here](https://github.com/Steveice10/FBI/issues/450).\r\n\
-  \r\nAlso, this update cannot be installed using the built-in updater, as the TitleDB\
-  \ servers are no longer available for previous versions of FBI to pull from. (**UPDATE**:\
-  \ The author of TitleDB has [stated](https://www.reddit.com/r/3dshacks/comments/aboq3j/fbi_release_260_removes_titledb_support_adds/ed3k6v1/)\
-  \ that the TitleDB servers are now set up to serve the new FBI release to the updater,\
-  \ so older versions should be able to update in-app now.)"
+update_notes: '<ul>
+
+  <li>Remove TitleDB support.</li>
+
+  <li>Add TLSv1.2 support.
+
+  <ul>
+
+  <li>In testing, speeds were ~70-80kbps, which should be good enough for homebrew
+  downloads.
+
+  <ul>
+
+  <li>I hope to investigate the matter further and improve speeds in the future, but
+  wanted to finally get something out for the time being.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Downloads from sources that support earlier TLS versions (i.e. not GitHub) will
+  continue to use the 3DS''s built-in HTTP stack, and thus should progress at the
+  same speeds as before.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Revert the built-in updater back to using GitHub.</li>
+
+  </ul>
+
+  <p>Make sure to report any new issues caused by these changes. The issue ticket
+  for TLSv1.2 support can be found <a href="https://github.com/Steveice10/FBI/issues/450"
+  data-hovercard-type="issue" data-hovercard-url="/Steveice10/FBI/issues/450/hovercard">here</a>.</p>
+
+  <p>Also, this update cannot be installed using the built-in updater, as the TitleDB
+  servers are no longer available for previous versions of FBI to pull from. (<strong>UPDATE</strong>:
+  The author of TitleDB has <a href="https://www.reddit.com/r/3dshacks/comments/aboq3j/fbi_release_260_removes_titledb_support_adds/ed3k6v1/"
+  rel="nofollow">stated</a> that the TitleDB servers are now set up to serve the new
+  FBI release to the updater, so older versions should be able to update in-app now.)</p>'
 updated: '2019-01-02T01:41:35Z'
 version: 2.6.0
 version_title: 2.6.0

@@ -120,20 +120,72 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: "Check here on how to update **TW**i**L**ight Menu++:\r\n* [Flashcard](https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%28flashcard%29)\r\
-  \n* [DSi](https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%28dsi%29)\r\
-  \n* [3DS](https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%283ds%29)\r\
-  \n     * [Universal-Updater](https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%283ds,-universal-updater%29)\r\
-  \n     * [Manual](https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%283ds,-manual%29)\r\
-  \n\r\n**What's new?**\r\n* (**Not tested!**) With M3 and SuperCard Slot-2 cards\
-  \ being supported, G6 and EZ-Flash are now supported as well!\r\nMost Slot-2 cards\
-  \ with it's own RAM (except the DS Memory Expansion Pak) can now be used for native\
-  \ GBA ROM loading!\r\n   * For EZ-Flash, if the launched GBA ROM is larger than\
-  \ 16MB, the NOR Flash chip will be used instead of the PSRAM.\r\n\r\n**Improvements**\r\
-  \n* (@Epicpkmn11 and various) Updated translations!\r\n\r\n**Bug fixes**\r\n* Attempted\
-  \ to fix GBA ROM not being loaded into the Slot-2 card's RAM.\r\n* Fixed ROM being\
-  \ loaded instead of the .sav file, into the card's SRAM.\r\n* File copy buffer is\
-  \ now 32KB (previously 256KB) as originally intended, and frees up a bit of memory."
+update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+  Menu++:</p>
+
+  <ul>
+
+  <li><a href="https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%28flashcard%29">Flashcard</a></li>
+
+  <li><a href="https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%28dsi%29">DSi</a></li>
+
+  <li><a href="https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%283ds%29">3DS</a>
+
+  <ul>
+
+  <li><a href="https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%283ds,-universal-updater%29">Universal-Updater</a></li>
+
+  <li><a href="https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%283ds,-manual%29">Manual</a></li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <p><strong>What''s new?</strong></p>
+
+  <ul>
+
+  <li>(<strong>Not tested!</strong>) With M3 and SuperCard Slot-2 cards being supported,
+  G6 and EZ-Flash are now supported as well!<br>
+
+  Most Slot-2 cards with it''s own RAM (except the DS Memory Expansion Pak) can now
+  be used for native GBA ROM loading!
+
+  <ul>
+
+  <li>For EZ-Flash, if the launched GBA ROM is larger than 16MB, the NOR Flash chip
+  will be used instead of the PSRAM.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <p><strong>Improvements</strong></p>
+
+  <ul>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
+  and various) Updated translations!</li>
+
+  </ul>
+
+  <p><strong>Bug fixes</strong></p>
+
+  <ul>
+
+  <li>Attempted to fix GBA ROM not being loaded into the Slot-2 card''s RAM.</li>
+
+  <li>Fixed ROM being loaded instead of the .sav file, into the card''s SRAM.</li>
+
+  <li>File copy buffer is now 32KB (previously 256KB) as originally intended, and
+  frees up a bit of memory.</li>
+
+  </ul>'
 updated: '2020-11-28T16:13:13Z'
 version: v17.1.1
 version_title: v17.1.1

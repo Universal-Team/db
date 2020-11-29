@@ -39,29 +39,34 @@ source: https://github.com/mrdanielps/r3Ddragon
 systems:
 - 3DS
 title: r3Ddragon
-update_notes: '#### Changelog:
+update_notes: '<h4>Changelog:</h4>
 
-  - Removed libhax. Homebrew launcher users will have to run a kernel exploit (like
-  [fasthax](https://github.com/nedwill/fasthax/releases)) first.
+  <ul>
 
-  - Added settings for frameskip, maxcycles, sound and debug output.
+  <li>Removed libhax. Homebrew launcher users will have to run a kernel exploit (like
+  <a href="https://github.com/nedwill/fasthax/releases">fasthax</a>) first.</li>
 
-  - Implemented floating point instructions.
+  <li>Added settings for frameskip, maxcycles, sound and debug output.</li>
 
+  <li>Implemented floating point instructions.</li>
 
-  #### Known Issues:
+  </ul>
 
-  - Low compatibility.
+  <h4>Known Issues:</h4>
 
-  - Glitchy graphics on some commercial games.
+  <ul>
 
-  - Frame limiting is broken when frameskip is enabled.
+  <li>Low compatibility.</li>
 
-  - Some menu options aren''t implemented.
+  <li>Glitchy graphics on some commercial games.</li>
 
-  - To change ROMs you have to exit first (touchscreen->File->Exit).
+  <li>Frame limiting is broken when frameskip is enabled.</li>
 
-  '
+  <li>Some menu options aren''t implemented.</li>
+
+  <li>To change ROMs you have to exit first (touchscreen-&gt;File-&gt;Exit).</li>
+
+  </ul>'
 updated: '2017-02-02T23:45:48Z'
 version: v0.87
 version_title: v0.87

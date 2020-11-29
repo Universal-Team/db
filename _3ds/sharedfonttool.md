@@ -38,8 +38,8 @@ source: https://github.com/dnasdw/SharedFontTool
 systems:
 - 3DS
 title: SharedFontTool
-update_notes: "Fix START exit bug\r\n\r\nSFontT: ACG SharedFontTool v3.1\r\nSFontT80:\
-  \ ACG \u5927 SharedFontTool v3.1"
+update_notes: "<p>Fix START exit bug</p>\n<p>SFontT: ACG SharedFontTool v3.1<br>\n\
+  SFontT80: ACG \u5927 SharedFontTool v3.1</p>"
 updated: '2018-08-13T06:45:19Z'
 version: v3.1
 version_title: SharedFontTool v3.1

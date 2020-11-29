@@ -32,8 +32,16 @@ source: https://github.com/RocketRobz/TWiLightMenu-Updater
 systems:
 - 3DS
 title: TWiLight Menu++ Updater
-update_notes: "**Bug fix**\r\n* (@Epicpkmn11) `TWiLightMenu-3DS.7z` is now downloaded\
-  \ instead of the larger `TWiLightMenu.7z` file."
+update_notes: '<p><strong>Bug fix</strong></p>
+
+  <ul>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  <code>TWiLightMenu-3DS.7z</code> is now downloaded instead of the larger <code>TWiLightMenu.7z</code>
+  file.</li>
+
+  </ul>'
 updated: '2020-10-21T22:41:23Z'
 version: v4.4.0
 version_title: v4.4.0

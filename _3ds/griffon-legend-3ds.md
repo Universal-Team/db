@@ -56,9 +56,11 @@ source: https://github.com/nop90/Griffon-Legend-3DS
 systems:
 - 3DS
 title: Griffon-Legend-3DS
-update_notes: '- Fixed CIA Version
+update_notes: '<ul>
 
-  '
+  <li>Fixed CIA Version</li>
+
+  </ul>'
 updated: '2017-02-12T16:35:33Z'
 version: v1.0
 version_title: Final release

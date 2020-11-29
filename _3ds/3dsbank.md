@@ -22,13 +22,44 @@ source: https://github.com/RocketRobz/3DSBank
 systems:
 - 3DS
 title: 3DSBank
-update_notes: "**What's new?**\r\n* (DrStraightface) Updated to allow custom naming\
-  \ of folders, and having currently active folder selected on startup!\r\n   * See\
-  \ the README for instructions.\r\n* Year has been added to the bottom of the top\
-  \ screen, along with the developer's name.\r\n* Robz8 has been to changed to RocketRobz\
-  \ in the banner text.\r\n   * To see the change, delete 3DSBank in DSiWare Data\
-  \ Management, then install the CIA again.\r\n\r\n**Improvement**\r\n* Dithering\
-  \ effect on the top screen has been removed!"
+update_notes: '<p><strong>What''s new?</strong></p>
+
+  <ul>
+
+  <li>(DrStraightface) Updated to allow custom naming of folders, and having currently
+  active folder selected on startup!
+
+  <ul>
+
+  <li>See the README for instructions.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Year has been added to the bottom of the top screen, along with the developer''s
+  name.</li>
+
+  <li>Robz8 has been to changed to RocketRobz in the banner text.
+
+  <ul>
+
+  <li>To see the change, delete 3DSBank in DSiWare Data Management, then install the
+  CIA again.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <p><strong>Improvement</strong></p>
+
+  <ul>
+
+  <li>Dithering effect on the top screen has been removed!</li>
+
+  </ul>'
 updated: '2020-11-04T01:21:35Z'
 version: v1.1
 wiki: https://github.com/RocketRobz/3DSBank/wiki

@@ -55,11 +55,23 @@ source: https://github.com/EBLeifEricson/orchestrina
 systems:
 - 3DS
 title: orchestrina
-update_notes: "This release features a major redesign of the Wind Waker baton in order\
-  \ to more closely reflect the game.\r\n\r\nWhat's new:\r\n\r\n* Rhythm meter added\
-  \ for Wind Waker\r\n* Time signatures added for Wind Waker\r\n* Time signature can\
-  \ be changed between 3/4 (default),  4/4 (D-Pad Left) and 6/4 (D-Pad Right)\r\n\
-  * Wind Waker controls moved to ABXY so D-Pad could be used for the above"
+update_notes: '<p>This release features a major redesign of the Wind Waker baton in
+  order to more closely reflect the game.</p>
+
+  <p>What''s new:</p>
+
+  <ul>
+
+  <li>Rhythm meter added for Wind Waker</li>
+
+  <li>Time signatures added for Wind Waker</li>
+
+  <li>Time signature can be changed between 3/4 (default),  4/4 (D-Pad Left) and 6/4
+  (D-Pad Right)</li>
+
+  <li>Wind Waker controls moved to ABXY so D-Pad could be used for the above</li>
+
+  </ul>'
 updated: '2017-03-30T01:49:01Z'
 version: v0.5.0-beta
 version_title: Orchestrina - Beta Release 5

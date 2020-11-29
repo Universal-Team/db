@@ -41,13 +41,15 @@ source: https://github.com/Steveice10/WorldOf3DSand
 systems:
 - 3DS
 title: WorldOf3DSand
-update_notes: '- Bring tooling up to date.
+update_notes: '<ul>
 
-  - Change unique ID to 0xF8002.
+  <li>Bring tooling up to date.</li>
 
-  - Migrate to citro3d.
+  <li>Change unique ID to 0xF8002.</li>
 
-  '
+  <li>Migrate to citro3d.</li>
+
+  </ul>'
 updated: '2016-07-12T03:28:55Z'
 version: 1.3.4
 version_title: 1.3.4

@@ -25,7 +25,7 @@ source: https://github.com/HIDE810/you-are-an-idiot
 systems:
 - 3DS
 title: you-are-an-idiot
-update_notes: Add sprite animation.
+update_notes: <p>Add sprite animation.</p>
 updated: '2019-05-30T13:55:07Z'
 version: '1.1'
 version_title: You are an idiot! v1.1

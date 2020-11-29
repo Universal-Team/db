@@ -83,8 +83,11 @@ source: https://github.com/MrHuu/opentitus-3ds
 systems:
 - 3DS
 title: opentitus-3ds
-update_notes: "ONLY for old3DS users, these builds use low frequency audio.\r\nWorse\
-  \ audio quality, but near full speed.\r\n\r\n.3dsx / .cia are included"
+update_notes: '<p>ONLY for old3DS users, these builds use low frequency audio.<br>
+
+  Worse audio quality, but near full speed.</p>
+
+  <p>.3dsx / .cia are included</p>'
 updated: '2018-12-27T00:34:34Z'
 version: 27-12-2018
 wiki: https://github.com/MrHuu/opentitus-3ds/wiki

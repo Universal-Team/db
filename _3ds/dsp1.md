@@ -22,7 +22,7 @@ source: https://github.com/zoogie/DSP1
 systems:
 - 3DS
 title: DSP1
-update_notes: "Initial release.\r\n\r\n"
+update_notes: <p>Initial release.</p>
 updated: '2017-05-03T01:57:36Z'
 version: v1.0
 version_title: DSP1

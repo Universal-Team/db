@@ -20,7 +20,7 @@ source: https://github.com/mariohackandglitch/homebrew_launcher_dummy
 systems:
 - 3DS
 title: homebrew_launcher_dummy
-update_notes: Click `Homebrew_Launcher.cia` to download the CIA.
+update_notes: <p>Click <code>Homebrew_Launcher.cia</code> to download the CIA.</p>
 updated: '2018-07-26T21:33:37Z'
 version: v1.0
 version_title: Homebrew Launcher Wrapper

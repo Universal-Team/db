@@ -170,23 +170,70 @@ source: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin
 systems:
 - 3DS
 title: Vapecord-ACNL-Plugin
-update_notes: "# New Update!!\r\nTook again some time but here a new update! [Edited\
-  \ for newest boot.firm so plugin works with newest 3DS Firmware]\r\n\r\n## The update\
-  \ has those features:\r\n> Grass Editor (lets you edit the grass state at your coordinates)\r\
-  \n> Chat Text2Item\r\n> Language Picker overhaul\r\n> Player Loader\r\n> Player\
-  \ Selector overhaul\r\n> Everything Seeder\r\n> and more!\r\n\r\n## There are also\
-  \ some bug fixes:\r\n> Player Randomizer fixed\r\n> Text2Item doesn't crash on the\
-  \ island while the chat is open anymore\r\n> Other players shouldn't be able to\
-  \ crash you anymore\r\n> If Language file is missing plugin doesn't abort anymore\r\
-  \n> Anti Animation is now 100% Bug-Free (it should)\r\n> Item Sequence is now 100%\
-  \ crash-free\r\n> and more!\r\n\r\n## How to use:\r\nunzip `Vapecord.Public.zip`\
-  \ and put everything on it in the root of your SD-Card\r\nThen open the Rosalina\
-  \ Menu and press `Plugin Loader: [Disabled]` (after you pressed it will say `Plugin\
-  \ Loader: \r\n[Enabled]`)\r\n(If you only update the plugin delete all old `.3gx`\
-  \ files and copy the new ones at those places instead)\r\nThen just start your game!\r\
-  \nIf you encounter any bugs feel free to report them on the official [Vapecord Discord\
-  \ Server](https://discord.gg/w9nvqjW).\r\n\r\n#### And I think that was it :)\r\n\
-  #### Have fun with the update!!"
+update_notes: '<h1>New Update!!</h1>
+
+  <p>Took again some time but here a new update! [Edited for newest boot.firm so plugin
+  works with newest 3DS Firmware]</p>
+
+  <h2>The update has those features:</h2>
+
+  <blockquote>
+
+  <p>Grass Editor (lets you edit the grass state at your coordinates)<br>
+
+  Chat Text2Item<br>
+
+  Language Picker overhaul<br>
+
+  Player Loader<br>
+
+  Player Selector overhaul<br>
+
+  Everything Seeder<br>
+
+  and more!</p>
+
+  </blockquote>
+
+  <h2>There are also some bug fixes:</h2>
+
+  <blockquote>
+
+  <p>Player Randomizer fixed<br>
+
+  Text2Item doesn''t crash on the island while the chat is open anymore<br>
+
+  Other players shouldn''t be able to crash you anymore<br>
+
+  If Language file is missing plugin doesn''t abort anymore<br>
+
+  Anti Animation is now 100% Bug-Free (it should)<br>
+
+  Item Sequence is now 100% crash-free<br>
+
+  and more!</p>
+
+  </blockquote>
+
+  <h2>How to use:</h2>
+
+  <p>unzip <code>Vapecord.Public.zip</code> and put everything on it in the root of
+  your SD-Card<br>
+
+  Then open the Rosalina Menu and press <code>Plugin Loader: [Disabled]</code> (after
+  you pressed it will say <code>Plugin Loader:  [Enabled]</code>)<br>
+
+  (If you only update the plugin delete all old <code>.3gx</code> files and copy the
+  new ones at those places instead)<br>
+
+  Then just start your game!<br>
+
+  If you encounter any bugs feel free to report them on the official <a href="https://discord.gg/w9nvqjW"
+  rel="nofollow">Vapecord Discord Server</a>.</p>
+
+  <h4>And I think that was it :)</h4>
+
+  <h4>Have fun with the update!!</h4>'
 updated: '2020-11-10T22:24:13Z'
 version: v1.8.1
 version_title: ACNL Vapecord Public Plugin [v.1.8.1][EDIT]

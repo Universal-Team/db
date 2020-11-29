@@ -19,6 +19,18 @@ prerelease:
     Biniax2_CIA.v0.4.zip:
       size: 18761345
       url: https://github.com/nop90/Biniax2-3DS/releases/download/V0.4alpha/Biniax2_CIA.v0.4.zip
+  update_notes: '<ul>
+
+    <li>Used a bigger font</li>
+
+    <li>Fixed a bug typing on ther virtual keyboard in the Hall of Fame for tactica
+    mode</li>
+
+    <li>Added a very simple AI to play vs CPU in multiplayer mode</li>
+
+    <li>Added CIA version</li>
+
+    </ul>'
   updated: '2016-07-04T07:32:48Z'
   version: V0.4alpha
   version_title: Bigger font and CIA version
@@ -63,6 +75,18 @@ source: https://github.com/nop90/Biniax2-3DS
 systems:
 - 3DS
 title: Biniax2-3DS
+update_notes: '<ul>
+
+  <li>Used a bigger font</li>
+
+  <li>Fixed a bug typing on ther virtual keyboard in the Hall of Fame for tactica
+  mode</li>
+
+  <li>Added a very simple AI to play vs CPU in multiplayer mode</li>
+
+  <li>Added CIA version</li>
+
+  </ul>'
 updated: '2016-07-04T07:32:48Z'
 version: V0.4alpha
 version_title: Bigger font and CIA version

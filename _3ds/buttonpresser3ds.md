@@ -39,12 +39,27 @@ source: https://github.com/trainboy2019/ButtonPresser3DS
 systems:
 - 3DS
 title: ButtonPresser3DS
-update_notes: "The buttons have gotten a few tweaks to make the app even better!\r\
-  \n\r\nChanges:\r\n* Press up or down to change the color of your button.\r\n* Press\
-  \ left or right to change the style of your button.\r\n* You can now see how many\
-  \ times you've pressed the button!\r\n* Press R to reset your score.\r\n\r\nJust\
-  \ scan this QR code!\r\n\r\n![QR 2.0](https://github.com/trainboy2019/ButtonPresser3DS/blob/master/Button%20QR%20Code%202.png?raw=true)\r\
-  \n"
+update_notes: '<p>The buttons have gotten a few tweaks to make the app even better!</p>
+
+  <p>Changes:</p>
+
+  <ul>
+
+  <li>Press up or down to change the color of your button.</li>
+
+  <li>Press left or right to change the style of your button.</li>
+
+  <li>You can now see how many times you''ve pressed the button!</li>
+
+  <li>Press R to reset your score.</li>
+
+  </ul>
+
+  <p>Just scan this QR code!</p>
+
+  <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/trainboy2019/ButtonPresser3DS/blob/master/Button%20QR%20Code%202.png?raw=true"><img
+  src="https://github.com/trainboy2019/ButtonPresser3DS/blob/master/Button%20QR%20Code%202.png?raw=true"
+  alt="QR 2.0" style="max-width:100%;"></a></p>'
 updated: '2017-06-22T02:42:08Z'
 version: '2.0'
 version_title: Button Presser 3DS 2.0

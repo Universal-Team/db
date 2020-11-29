@@ -36,23 +36,59 @@ source: https://github.com/Universal-Team/LeafEdit
 systems:
 - 3DS
 title: LeafEdit
-update_notes: "# After like 75% of this year, another release is there.\r\n\r\n##\
-  \ What's new?\r\n- Added initial Wild World support.\r\n- Implemented an Update\
-  \ Center. That means, you can update to Release & Nightly within LeafEdit itself.\r\
-  \n- Removed the need of editing Settings.json for the Acres Editor.\r\n- Added Town\
-  \ Map Editor.\r\n- Added Pattern Editor.\r\n- For a list of editing features, look\
-  \ [here](https://github.com/Universal-Team/LeafEdit/blob/master/editing-features.md).\r\
-  \n\r\n## Changes\r\n- Changed mainpath to `sdmc:/3ds/LeafEdit/`, so move your stuff\
-  \ there before updating.\r\n- Changed LeafEdit completely.\r\n- Remove Town Manager.\
-  \ (Use Checkpoint for backup and restore instead.)\r\n- Rewrite the core.\r\n- UI\
-  \ style changes.\r\n- Switched selections to lists for now.\r\n- English only for\
-  \ now until the core is completely done.\r\n- Changed assets, so you need an Internet\
-  \ Connection on first startup on this version.\r\n\r\n## This is version 0.2.1,\
-  \ because it doesn't have much changes and for v0.3.0, it is not ready yet.\r\n\r\
-  \n# The wiki will get an update later for the latest changes. So: **read the wiki\
-  \ before starting with LEAFEDIT and make backups**!!!!!\r\n## We are not responsible\
-  \ for any mistakes you do, so use this at your own risk. You can find the link to\
-  \ the wiki [here](https://github.com/Universal-Team/LeafEdit/wiki).\r\n\r\n"
+update_notes: '<h1>After like 75% of this year, another release is there.</h1>
+
+  <h2>What''s new?</h2>
+
+  <ul>
+
+  <li>Added initial Wild World support.</li>
+
+  <li>Implemented an Update Center. That means, you can update to Release &amp; Nightly
+  within LeafEdit itself.</li>
+
+  <li>Removed the need of editing Settings.json for the Acres Editor.</li>
+
+  <li>Added Town Map Editor.</li>
+
+  <li>Added Pattern Editor.</li>
+
+  <li>For a list of editing features, look <a href="https://github.com/Universal-Team/LeafEdit/blob/master/editing-features.md">here</a>.</li>
+
+  </ul>
+
+  <h2>Changes</h2>
+
+  <ul>
+
+  <li>Changed mainpath to <code>sdmc:/3ds/LeafEdit/</code>, so move your stuff there
+  before updating.</li>
+
+  <li>Changed LeafEdit completely.</li>
+
+  <li>Remove Town Manager. (Use Checkpoint for backup and restore instead.)</li>
+
+  <li>Rewrite the core.</li>
+
+  <li>UI style changes.</li>
+
+  <li>Switched selections to lists for now.</li>
+
+  <li>English only for now until the core is completely done.</li>
+
+  <li>Changed assets, so you need an Internet Connection on first startup on this
+  version.</li>
+
+  </ul>
+
+  <h2>This is version 0.2.1, because it doesn''t have much changes and for v0.3.0,
+  it is not ready yet.</h2>
+
+  <h1>The wiki will get an update later for the latest changes. So: <strong>read the
+  wiki before starting with LEAFEDIT and make backups</strong>!!!!!</h1>
+
+  <h2>We are not responsible for any mistakes you do, so use this at your own risk.
+  You can find the link to the wiki <a href="https://github.com/Universal-Team/LeafEdit/wiki">here</a>.</h2>'
 updated: '2020-09-05T17:30:43Z'
 version: v0.2.1
 version_title: Initial Wild World support.

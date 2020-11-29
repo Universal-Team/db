@@ -41,25 +41,87 @@ source: https://github.com/Universal-Team/3DEins
 systems:
 - 3DS
 title: 3DEins
-update_notes: "## DSEins, the NDS version of 3DEins is now included as well!\r\n\r\
-  \n## What's new?\r\n\r\n### DSEins\r\n- Add the initial release of DSEins, the NDS\
-  \ version of 3DEins! This is it's first release, so it could be buggy, feel free\
-  \ to report bugs, if there are any on the issue section or on the Universal-Server\
-  \ [here](https://discord.gg/KDJCfGF).\r\nNOTE: This release is NOT really much graphical,\
-  \ but the next version will be better for sure.\r\n\r\n### 3DEins\r\n- Add a draw\
-  \ and play animation (can be enabled / disabled in the Settings.)\r\n\r\n### 3DEins\
-  \ & DSEins\r\n- Use DSEins / 3DEins-Core which is made by me, StackZ. The core includes\
-  \ a proper cardset of 108 cards.. like the regular game! So that way.. you cannot\
-  \ have like 6 times Draw 4 which is a nice improvement to the old version!\r\n\r\
-  \n- Added Single Player mode with AI!\r\n\r\n- Full Translations of: Bruh, English,\
-  \ French, German, Italian, Japanese, Polish, Portuguese and Russian!\r\n\r\n## How\
-  \ to update\r\n### DSEins\r\n* Download `DSEins.nds` and put it to your SD Card.\r\
-  \n* Start it using Twilight Menu++ or whatever you like.\r\n**3DS User: You can\
-  \ install the CIA as well, but you need the NDS file as well into the root or at\
-  \ `sd:/_nds/DSEins/`.**\r\n\r\n### 3DEins\r\n* Download `3DEins.3dsx` or `3DEins.cia`\
-  \ and put it to your SD Card.\r\n* If downloading the CIA, install it using FBI.\
-  \ If 3dsx, open it using the Homebrew Launcher.\r\n\r\n### We hope you enjoy using\
-  \ DSEins & 3DEins v0.2.0! ~Universal-Team"
+update_notes: '<h2>DSEins, the NDS version of 3DEins is now included as well!</h2>
+
+  <h2>What''s new?</h2>
+
+  <h3>DSEins</h3>
+
+  <ul>
+
+  <li>Add the initial release of DSEins, the NDS version of 3DEins! This is it''s
+  first release, so it could be buggy, feel free to report bugs, if there are any
+  on the issue section or on the Universal-Server <a href="https://discord.gg/KDJCfGF"
+  rel="nofollow">here</a>.<br>
+
+  NOTE: This release is NOT really much graphical, but the next version will be better
+  for sure.</li>
+
+  </ul>
+
+  <h3>3DEins</h3>
+
+  <ul>
+
+  <li>Add a draw and play animation (can be enabled / disabled in the Settings.)</li>
+
+  </ul>
+
+  <h3>3DEins &amp; DSEins</h3>
+
+  <ul>
+
+  <li>
+
+  <p>Use DSEins / 3DEins-Core which is made by me, StackZ. The core includes a proper
+  cardset of 108 cards.. like the regular game! So that way.. you cannot have like
+  6 times Draw 4 which is a nice improvement to the old version!</p>
+
+  </li>
+
+  <li>
+
+  <p>Added Single Player mode with AI!</p>
+
+  </li>
+
+  <li>
+
+  <p>Full Translations of: Bruh, English, French, German, Italian, Japanese, Polish,
+  Portuguese and Russian!</p>
+
+  </li>
+
+  </ul>
+
+  <h2>How to update</h2>
+
+  <h3>DSEins</h3>
+
+  <ul>
+
+  <li>Download <code>DSEins.nds</code> and put it to your SD Card.</li>
+
+  <li>Start it using Twilight Menu++ or whatever you like.<br>
+
+  <strong>3DS User: You can install the CIA as well, but you need the NDS file as
+  well into the root or at <code>sd:/_nds/DSEins/</code>.</strong></li>
+
+  </ul>
+
+  <h3>3DEins</h3>
+
+  <ul>
+
+  <li>Download <code>3DEins.3dsx</code> or <code>3DEins.cia</code> and put it to your
+  SD Card.</li>
+
+  <li>If downloading the CIA, install it using FBI. If 3dsx, open it using the Homebrew
+  Launcher.</li>
+
+  </ul>
+
+  <h3>We hope you enjoy using DSEins &amp; 3DEins v0.2.0! ~Universal-Team</h3>'
 updated: '2020-06-20T15:33:33Z'
 version: v0.2.0
 version_title: 3DEins & DSEins v0.2.0!

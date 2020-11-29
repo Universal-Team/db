@@ -21,14 +21,24 @@ source: https://github.com/aspargas2/CartInstall
 systems:
 - 3DS
 title: CartInstall
-update_notes: "For information on what this is and how to use it, please see [the\
-  \ readme](https://github.com/aspargas2/CartInstall/blob/master/README.md).\r\n\r\
-  \nChanges since the last release:\r\n* Added EmuNAND support! I really had meant\
-  \ to do this a while ago, and forgot\r\n* Fixed an alignment-related edge-case bug\
-  \ that would cause a crash on boot after installing in rare circumstances\r\n* Switched\
-  \ to virtual mounting of DIFF partitions - this really has no use to the end user,\
-  \ but it's cool behind the scenes, I promise\r\n* Decided system update jokes were\
-  \ getting old"
+update_notes: '<p>For information on what this is and how to use it, please see <a
+  href="https://github.com/aspargas2/CartInstall/blob/master/README.md">the readme</a>.</p>
+
+  <p>Changes since the last release:</p>
+
+  <ul>
+
+  <li>Added EmuNAND support! I really had meant to do this a while ago, and forgot</li>
+
+  <li>Fixed an alignment-related edge-case bug that would cause a crash on boot after
+  installing in rare circumstances</li>
+
+  <li>Switched to virtual mounting of DIFF partitions - this really has no use to
+  the end user, but it''s cool behind the scenes, I promise</li>
+
+  <li>Decided system update jokes were getting old</li>
+
+  </ul>'
 updated: '2019-11-28T03:42:08Z'
 version: v1.3.0
 version_title: EmuNAND Edition

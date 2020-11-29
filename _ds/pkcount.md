@@ -29,9 +29,17 @@ systems:
 - DS
 - 3DS
 title: PKCount
-update_notes: "What's new?\r\n- A NDS Version has been developed! (Yeah, you can use\
-  \ it on DS(i) now as well!)\r\n- [3DS] Add Music Playback (put a `music.wav` to\
-  \ `sdmc:/3ds/PKCount/`)\r\n\r\nJust try it out! :P  ~ StackZ."
+update_notes: '<p>What''s new?</p>
+
+  <ul>
+
+  <li>A NDS Version has been developed! (Yeah, you can use it on DS(i) now as well!)</li>
+
+  <li>[3DS] Add Music Playback (put a <code>music.wav</code> to <code>sdmc:/3ds/PKCount/</code>)</li>
+
+  </ul>
+
+  <p>Just try it out! :P  ~ StackZ.</p>'
 updated: '2019-12-27T20:44:30Z'
 version: v0.0.2
 version_title: The second Release of PKCount!

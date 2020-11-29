@@ -94,15 +94,78 @@ source: https://github.com/DS-Homebrew/GodMode9i
 systems:
 - DS
 title: GodMode9i
-update_notes: "**What's new?**\r\n* Compatibility with GBA ROM dumping has been increased.\
-  \ You can now dump 64MB GBA ROMs!\r\nWhat can currently be dumped:\r\n  * GBA Video:\
-  \ Shark Tale\r\n  * GBA Video: Shrek\r\n  * GBA Video: Shrek & Shark Tale\r\n  *\
-  \ GBA Video: Shrek 2\r\n\r\n  What cannot currently be dumped:\r\n  * GBA Video:\
-  \ Shrek & Shrek 2 (Reason: Title ID not known)\r\n\r\n* (@unresolvedsymbol) Added\
-  \ multi file copy paste support.\r\n* (@unresolvedsymbol) Added selection deletion\
-  \ support\r\n* (@Epicpkmn11) Added save file restoring.\r\n\r\n**Bug fixes**\r\n\
-  * (@unresolvedsymbol) Fixed crash when copying empty folders\r\n* (@unresolvedsymbol)\
-  \ Misc formatting fixes."
+update_notes: '<p><strong>What''s new?</strong></p>
+
+  <ul>
+
+  <li>
+
+  <p>Compatibility with GBA ROM dumping has been increased. You can now dump 64MB
+  GBA ROMs!<br>
+
+  What can currently be dumped:</p>
+
+  <ul>
+
+  <li>GBA Video: Shark Tale</li>
+
+  <li>GBA Video: Shrek</li>
+
+  <li>GBA Video: Shrek &amp; Shark Tale</li>
+
+  <li>GBA Video: Shrek 2</li>
+
+  </ul>
+
+  <p>What cannot currently be dumped:</p>
+
+  <ul>
+
+  <li>GBA Video: Shrek &amp; Shrek 2 (Reason: Title ID not known)</li>
+
+  </ul>
+
+  </li>
+
+  <li>
+
+  <p>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/unresolvedsymbol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/unresolvedsymbol">@unresolvedsymbol</a>)
+  Added multi file copy paste support.</p>
+
+  </li>
+
+  <li>
+
+  <p>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/unresolvedsymbol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/unresolvedsymbol">@unresolvedsymbol</a>)
+  Added selection deletion support</p>
+
+  </li>
+
+  <li>
+
+  <p>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  Added save file restoring.</p>
+
+  </li>
+
+  </ul>
+
+  <p><strong>Bug fixes</strong></p>
+
+  <ul>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/unresolvedsymbol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/unresolvedsymbol">@unresolvedsymbol</a>)
+  Fixed crash when copying empty folders</li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/unresolvedsymbol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/unresolvedsymbol">@unresolvedsymbol</a>)
+  Misc formatting fixes.</li>
+
+  </ul>'
 updated: '2020-09-07T09:14:30Z'
 version: v2.5.0
 version_title: 'v2.5.0: Labor Day release'

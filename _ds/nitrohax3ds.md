@@ -25,14 +25,14 @@ source: https://github.com/ahezard/NitroHax3DS
 systems:
 - DS
 title: NitroHax3DS
-update_notes: "This is the DSi version of NitroHax. Extract release ZIP to root of\
-  \ SD card. Something with SD redirect patches like HiyaCFW required to use this\
-  \ with System Menu. I do not recommend installing custom/modified SRLs to NAND.\r\
-  \n\r\nChangelog:\r\n\r\n* Merged improvements from Chishm's fork of NitroHax\r\n\
-  \r\n* General stability improvements to enhance the user's experience\u2122\r\n\r\
-  \nAn example cheats.xml is provided. It includes cheats for a few games. For best\
-  \ operation only add entries for games you own. Using very large cheat databases\
-  \ may still cause issues with NitroHax."
+update_notes: "<p>This is the DSi version of NitroHax. Extract release ZIP to root\
+  \ of SD card. Something with SD redirect patches like HiyaCFW required to use this\
+  \ with System Menu. I do not recommend installing custom/modified SRLs to NAND.</p>\n\
+  <p>Changelog:</p>\n<ul>\n<li>\n<p>Merged improvements from Chishm's fork of NitroHax</p>\n\
+  </li>\n<li>\n<p>General stability improvements to enhance the user's experience\u2122\
+  </p>\n</li>\n</ul>\n<p>An example cheats.xml is provided. It includes cheats for\
+  \ a few games. For best operation only add entries for games you own. Using very\
+  \ large cheat databases may still cause issues with NitroHax.</p>"
 updated: '2018-04-26T01:26:55Z'
 version: 0.99.DSI
 version_title: 0.99.NTR DSI Build

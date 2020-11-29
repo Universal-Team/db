@@ -42,10 +42,21 @@ source: https://github.com/LumaTeam/Luma3DS
 systems:
 - 3DS
 title: Luma3DS
-update_notes: "* **Fix system version 11.14 not booting**\r\n* Allow out-of-region\
-  \ Download Play functionality (thanks @Pixel-Pop)\r\n* Fix a rare issue where the\
-  \ Rosalina Menu wouldn't be displayed during application launch (thanks @Nanquitas)\r\
-  \n* General system stability improvements to enhance the user's experience"
+update_notes: '<ul>
+
+  <li><strong>Fix system version 11.14 not booting</strong></li>
+
+  <li>Allow out-of-region Download Play functionality (thanks <a class="user-mention"
+  data-hovercard-type="user" data-hovercard-url="/users/Pixel-Pop/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Pixel-Pop">@Pixel-Pop</a>)</li>
+
+  <li>Fix a rare issue where the Rosalina Menu wouldn''t be displayed during application
+  launch (thanks <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Nanquitas/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Nanquitas">@Nanquitas</a>)</li>
+
+  <li>General system stability improvements to enhance the user''s experience</li>
+
+  </ul>'
 updated: '2020-11-17T02:06:56Z'
 version: v10.2.1
 version_title: v10.2.1

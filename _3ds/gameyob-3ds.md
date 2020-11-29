@@ -41,11 +41,13 @@ source: https://github.com/Steveice10/GameYob
 systems:
 - 3DS
 title: GameYob (3DS)
-update_notes: '- Update to devkitARM r45 and libctru 1.0.0.
+update_notes: '<ul>
 
-  - Fix releasing buttons during menu transitions.
+  <li>Update to devkitARM r45 and libctru 1.0.0.</li>
 
-  '
+  <li>Fix releasing buttons during menu transitions.</li>
+
+  </ul>'
 updated: '2015-12-23T02:19:04Z'
 version: 1.0.8
 version_title: 1.0.8

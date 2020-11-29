@@ -53,9 +53,22 @@ source: https://github.com/RocketRobz/HoriHD-Gallery
 systems:
 - 3DS
 title: HoriHD-Gallery
-update_notes: "**What's new?**\r\n* Added toggling between 400px and 800px modes,\
-  \ by pressing SELECT.\r\n\r\n**Improvement**\r\n* Added linear filtering in 400px\
-  \ mode (and O2DS consoles), so images don't look jagged."
+update_notes: '<p><strong>What''s new?</strong></p>
+
+  <ul>
+
+  <li>Added toggling between 400px and 800px modes, by pressing SELECT.</li>
+
+  </ul>
+
+  <p><strong>Improvement</strong></p>
+
+  <ul>
+
+  <li>Added linear filtering in 400px mode (and O2DS consoles), so images don''t look
+  jagged.</li>
+
+  </ul>'
 updated: '2020-06-21T01:28:09Z'
 version: v1.0.2
 version_title: 400/800px release

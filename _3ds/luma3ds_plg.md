@@ -35,9 +35,9 @@ source: https://github.com/jbmagination/Luma3DS_plg
 systems:
 - 3DS
 title: Luma3DS_plg
-update_notes: '**This is for use with Universal Updater.** If you are currently using
-  Universal Updater, you can continue. Otherwise, *[please use my other fork.](https://github.com/jbmagination/Luma3DS)*
-  It has much more features.'
+update_notes: <p><strong>This is for use with Universal Updater.</strong> If you are
+  currently using Universal Updater, you can continue. Otherwise, <em><a href="https://github.com/jbmagination/Luma3DS">please
+  use my other fork.</a></em> It has much more features.</p>
 updated: '2020-06-03T20:32:38Z'
 version: 10.1.3
 version_title: For use with Universal Updater.

@@ -39,13 +39,10 @@ source: https://github.com/GiantBlargg/UpdateSuppressor
 systems:
 - 3DS
 title: UpdateSuppressor
-update_notes: 'The CIA version will always run in delete-all mode.
+update_notes: '<p>The CIA version will always run in delete-all mode.</p>
 
-
-  If the 3dsx version is installed with its xml file it will run in single delete
-  mode. If the xml file is not present the 3dsx version will run in delete-all mode.
-
-  '
+  <p>If the 3dsx version is installed with its xml file it will run in single delete
+  mode. If the xml file is not present the 3dsx version will run in delete-all mode.</p>'
 updated: '2016-01-21T08:10:53Z'
 version: v0.2.0
 version_title: Delete all mode + CIA version

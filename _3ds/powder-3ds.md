@@ -55,11 +55,13 @@ source: https://github.com/nop90/POWDER-3DS
 systems:
 - 3DS
 title: POWDER-3DS
-update_notes: '- raised walking speed
+update_notes: '<ul>
 
-  - changed version srting from GBA to 3DS
+  <li>raised walking speed</li>
 
-  '
+  <li>changed version srting from GBA to 3DS</li>
+
+  </ul>'
 updated: '2017-02-03T23:50:45Z'
 version: v1,1
 version_title: Some improvements

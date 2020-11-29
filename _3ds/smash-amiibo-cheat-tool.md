@@ -28,12 +28,21 @@ source: https://github.com/Ordim3n/Smash-Amiibo-Cheat-Tool
 systems:
 - 3DS
 title: Smash-Amiibo-Cheat-Tool
-update_notes: "There's quite a lot in this new release, so here we go!\n\nSmall path\
-  \ change (again). the folder at the root of the sd card is now `/SACT` instead of\
-  \ ``/Smash Amiibo Cheat Tool`\n\nCustom bottom screen picture, same format as splashes,\
-  \ goes in `/SACT/scan.bin` \n\nYou can now randomize appdata\n\nYou can now bruteforce\
-  \ appids, that means that you will be able to have compatibility with more games\n\
-  \n![SACT 2.0](http://imgur.com/SdKRETo.png)\n"
+update_notes: '<p>There''s quite a lot in this new release, so here we go!</p>
+
+  <p>Small path change (again). the folder at the root of the sd card is now <code>/SACT</code>
+  instead of ``/Smash Amiibo Cheat Tool`</p>
+
+  <p>Custom bottom screen picture, same format as splashes, goes in <code>/SACT/scan.bin</code></p>
+
+  <p>You can now randomize appdata</p>
+
+  <p>You can now bruteforce appids, that means that you will be able to have compatibility
+  with more games</p>
+
+  <p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/2048808c1f53ca25e6f444b2576a96dbd3fc999db928136daeaca2c34251c562/687474703a2f2f696d6775722e636f6d2f53644b5245546f2e706e67"><img
+  src="https://camo.githubusercontent.com/2048808c1f53ca25e6f444b2576a96dbd3fc999db928136daeaca2c34251c562/687474703a2f2f696d6775722e636f6d2f53644b5245546f2e706e67"
+  alt="SACT 2.0" data-canonical-src="http://imgur.com/SdKRETo.png" style="max-width:100%;"></a></p>'
 updated: '2017-01-27T00:03:00Z'
 version: '2.0'
 version_title: First release of the year

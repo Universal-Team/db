@@ -50,22 +50,45 @@ source: https://github.com/profi200/open_agb_firm
 systems:
 - 3DS
 title: open_agb_firm
-update_notes: "This is a build from the kernel_experiments branch for the impatient.\r\
-  \n\r\n* 8fdc74a3c486af86416bf37505144dc03da66a14 A temporary workaround has been\
-  \ put in place to prevent panics using bootloaders with incompatible screen init.\r\
-  \n* 07f6f01d921696c890f828f94289426eb64957d0 Mimic ROM out-of-bounds reads more\
-  \ accurately (may fix games relying on it) including mirroring needed for the Classic\
-  \ NES Series games.\r\n* 179ea504d0f29fbf529a21227ce3aaeabd5d73ce You can now dump\
-  \ the GBA frame texture (pre-GPU processing) to \"texture_dump.bmp\" on the root\
-  \ of your SD card by pressing Y.\r\n* ac33d98ad5d03887e0dc1da2a2eab459b33b812c Fixed\
-  \ broken file browser sorting.\r\n* c87769a06e7dd4e2c11bc485e55f99cacee05b97 open_agb_firm\
-  \ now remembers the last dir you launched a ROM from.\r\n\r\n**This can and will\
-  \ destroy savegames for a few games due to broken save type detection so backup\
-  \ your saves!** You have been warned.\r\nAlso note that EEPROM savegames from some\
-  \ emulators or even flashcarts are incompatible because they are laid out wrong\
-  \ (every 8 bytes block of data is reversed). This [tool](https://gist.github.com/profi200/e06794d7561ed552c518b4b0b2f5f2f6)\
-  \ can fix that.\r\n\r\nIn the archive included are 2 builds. One with BIOS intro\
-  \ and one without. The used scale matrix is the default \"Sharp interpolated\" one."
+update_notes: '<p>This is a build from the kernel_experiments branch for the impatient.</p>
+
+  <ul>
+
+  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/8fdc74a3c486af86416bf37505144dc03da66a14/hovercard"
+  href="https://github.com/profi200/open_agb_firm/commit/8fdc74a3c486af86416bf37505144dc03da66a14"><tt>8fdc74a</tt></a>
+  A temporary workaround has been put in place to prevent panics using bootloaders
+  with incompatible screen init.</li>
+
+  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/07f6f01d921696c890f828f94289426eb64957d0/hovercard"
+  href="https://github.com/profi200/open_agb_firm/commit/07f6f01d921696c890f828f94289426eb64957d0"><tt>07f6f01</tt></a>
+  Mimic ROM out-of-bounds reads more accurately (may fix games relying on it) including
+  mirroring needed for the Classic NES Series games.</li>
+
+  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/179ea504d0f29fbf529a21227ce3aaeabd5d73ce/hovercard"
+  href="https://github.com/profi200/open_agb_firm/commit/179ea504d0f29fbf529a21227ce3aaeabd5d73ce"><tt>179ea50</tt></a>
+  You can now dump the GBA frame texture (pre-GPU processing) to "texture_dump.bmp"
+  on the root of your SD card by pressing Y.</li>
+
+  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/ac33d98ad5d03887e0dc1da2a2eab459b33b812c/hovercard"
+  href="https://github.com/profi200/open_agb_firm/commit/ac33d98ad5d03887e0dc1da2a2eab459b33b812c"><tt>ac33d98</tt></a>
+  Fixed broken file browser sorting.</li>
+
+  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/c87769a06e7dd4e2c11bc485e55f99cacee05b97/hovercard"
+  href="https://github.com/profi200/open_agb_firm/commit/c87769a06e7dd4e2c11bc485e55f99cacee05b97"><tt>c87769a</tt></a>
+  open_agb_firm now remembers the last dir you launched a ROM from.</li>
+
+  </ul>
+
+  <p><strong>This can and will destroy savegames for a few games due to broken save
+  type detection so backup your saves!</strong> You have been warned.<br>
+
+  Also note that EEPROM savegames from some emulators or even flashcarts are incompatible
+  because they are laid out wrong (every 8 bytes block of data is reversed). This
+  <a href="https://gist.github.com/profi200/e06794d7561ed552c518b4b0b2f5f2f6">tool</a>
+  can fix that.</p>
+
+  <p>In the archive included are 2 builds. One with BIOS intro and one without. The
+  used scale matrix is the default "Sharp interpolated" one.</p>'
 updated: '2020-10-26T00:10:31Z'
 version: alpha_2020-10-26
 version_title: open_agb_firm alpha build 2020-10-26

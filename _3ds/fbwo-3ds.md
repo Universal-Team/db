@@ -63,11 +63,9 @@ source: https://github.com/Spaqin/fbwo-3ds
 systems:
 - 3DS
 title: fbwo-3ds
-update_notes: 'A quick update adding per-level glue delay.
+update_notes: '<p>A quick update adding per-level glue delay.<br>
 
-  Be careful, the config file is different from the previous one.
-
-  '
+  Be careful, the config file is different from the previous one.</p>'
 updated: '2016-03-06T09:43:45Z'
 version: v0.4.1
 version_title: FBWO v0.4.1

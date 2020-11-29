@@ -43,7 +43,11 @@ source: https://github.com/TuxSH/TWLSaveTool
 systems:
 - 3DS
 title: TWLSaveTool
-update_notes: "- Fix Pok\xE9mon Mystery Dungeon: Explorers of Sky (thanks to @Steveice10)\n"
+update_notes: "<ul>\n<li>Fix Pok\xE9mon Mystery Dungeon: Explorers of Sky (thanks\
+  \ to <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
+  /users/Steveice10/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
+  link_type:self\" href=\"https://github.com/Steveice10\">@Steveice10</a>)</li>\n\
+  </ul>"
 updated: '2016-08-27T19:27:37Z'
 version: v1.2
 version_title: TWLSaveTool v1.2

@@ -25,18 +25,31 @@ source: https://github.com/Swiftloke/ModMoon
 systems:
 - 3DS
 title: ModMoon
-update_notes: "This release contains several critical fixes for broken things in 3.0.\
-  \ They include:\r\n- Include SaltySD files that do not crash after the character\
-  \ select screen in Smash (taken from the SaltySD 1.2 release page at https://github.com/shinyquagsire23/SaltySD/releases)\r\
-  \n- Correct the updater not working, at all, when trying to grab stuff from GitHub.\
-  \ \r\n- Also correct, in the actual release builds, the lack of a #define for BUILTFROM3DSX-\
-  \ this will allow the updater to work properly for 3dsx files from now on. The readme\
-  \ has also been updated to reflect this.\r\n- Fix an edge case where the user may\
-  \ be unable to write a SaltySD file using ModMoon.\r\n- Fix a bug that prevented\
-  \ the user from skipping the updater.\r\n- Add a version string within the title\
-  \ selection menu.\r\n***VERSION 3.0 IS CRITICALLY BROKEN DUE TO THE NON-FUNCTIONAL\
-  \ SALTYSD FILES AND THE BROKEN UPDATER. IF YOU DOWNLOADED 3.0, PLEASE DOWNLOAD 3.0.1\
-  \ MANUALLY.***"
+update_notes: '<p>This release contains several critical fixes for broken things in
+  3.0. They include:</p>
+
+  <ul>
+
+  <li>Include SaltySD files that do not crash after the character select screen in
+  Smash (taken from the SaltySD 1.2 release page at <a href="https://github.com/shinyquagsire23/SaltySD/releases">https://github.com/shinyquagsire23/SaltySD/releases</a>)</li>
+
+  <li>Correct the updater not working, at all, when trying to grab stuff from GitHub.</li>
+
+  <li>Also correct, in the actual release builds, the lack of a #define for BUILTFROM3DSX-
+  this will allow the updater to work properly for 3dsx files from now on. The readme
+  has also been updated to reflect this.</li>
+
+  <li>Fix an edge case where the user may be unable to write a SaltySD file using
+  ModMoon.</li>
+
+  <li>Fix a bug that prevented the user from skipping the updater.</li>
+
+  <li>Add a version string within the title selection menu.<br>
+
+  <em><strong>VERSION 3.0 IS CRITICALLY BROKEN DUE TO THE NON-FUNCTIONAL SALTYSD FILES
+  AND THE BROKEN UPDATER. IF YOU DOWNLOADED 3.0, PLEASE DOWNLOAD 3.0.1 MANUALLY.</strong></em></li>
+
+  </ul>'
 updated: '2018-09-29T16:45:22Z'
 version: v3.0.1
 version_title: 'Version 3.0.1: Fix major broken things'

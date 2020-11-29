@@ -41,19 +41,18 @@ source: https://github.com/flarn2006/GraphCalc3DS
 systems:
 - 3DS
 title: GraphCalc3DS
-update_notes: 'Small release to fix a bug in version 1.5. The bug was that undefined
+update_notes: '<p>Small release to fix a bug in version 1.5. The bug was that undefined
   values weren''t graphed properly (properly in this case being not at all) when the
-  equation was entered in algebraic notation. Because of this bug, for example, `sqrt(1-x^2)`
+  equation was entered in algebraic notation. Because of this bug, for example, <code>sqrt(1-x^2)</code>
   would appear as the top half of a circle like it should, except there would be two
-  vertical lines on the sides. Version 1.5.1 fixes this bug.
+  vertical lines on the sides. Version 1.5.1 fixes this bug.</p>
 
+  <p>QR code for CIA:</p>
 
-  QR code for CIA:
-
-
-  ![https://github.com/flarn2006/GraphCalc3DS/releases/download/v1.5.1/GraphCalc3DS.cia](http://i.imgur.com/qzu5DL3.png)
-
-  '
+  <p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/8e8e1919bdd2b5d036841488af2ca5e407ec1024ce17b617102783e74b61665e/687474703a2f2f692e696d6775722e636f6d2f717a7535444c332e706e67"><img
+  src="https://camo.githubusercontent.com/8e8e1919bdd2b5d036841488af2ca5e407ec1024ce17b617102783e74b61665e/687474703a2f2f692e696d6775722e636f6d2f717a7535444c332e706e67"
+  alt="https://github.com/flarn2006/GraphCalc3DS/releases/download/v1.5.1/GraphCalc3DS.cia"
+  data-canonical-src="http://i.imgur.com/qzu5DL3.png" style="max-width:100%;"></a></p>'
 updated: '2016-12-03T21:05:23Z'
 version: v1.5.1
 version_title: Version 1.5.1

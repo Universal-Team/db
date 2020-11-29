@@ -25,14 +25,16 @@ source: https://github.com/SuperSaiyajinStackZ/Ludo3DS
 systems:
 - 3DS
 title: Ludo3DS
-update_notes: "## Dies ist der Zweite Release von Ludo3DS.\r\n\r\n## Was gibt's neues?\r\
-  \n\r\n### Touch wurde hinzugef\xFCgt. Somit lassen die Figuren sich nun mit Touch\
-  \ ausw\xE4hlen.\r\n\r\n### Ein paar kleine Farb-Ver\xE4nderungen wurden durchgef\xFC\
-  hrt. Dies beinhaltet:\r\n- Neue W\xFCrfel-Farbe.\r\n- Text Farbe wurde zu RGB 190,\
-  \ 190, 190 ge\xE4ndert.\r\n\r\n### Offizielles Boxart Cover!\r\n\r\n![](https://github.com/SuperSaiyajinStackZ/Ludo3DS/blob/main/Cover_ReadMe.png)\r\
-  \n\r\n## Das Sonstige\r\nSie haben einen Fehler bemerkt? Dann bitte geben Sie mir\
-  \ in der Issues Sektion bescheid! Vielen Dank.\r\n\r\nIch hoffe Sie haben spa\xDF\
-  \ mit Ludo3DS v0.2.0! ~SuperSaiyajinStackZ"
+update_notes: "<h2>Dies ist der Zweite Release von Ludo3DS.</h2>\n<h2>Was gibt's neues?</h2>\n\
+  <h3>Touch wurde hinzugef\xFCgt. Somit lassen die Figuren sich nun mit Touch ausw\xE4\
+  hlen.</h3>\n<h3>Ein paar kleine Farb-Ver\xE4nderungen wurden durchgef\xFChrt. Dies\
+  \ beinhaltet:</h3>\n<ul>\n<li>Neue W\xFCrfel-Farbe.</li>\n<li>Text Farbe wurde zu\
+  \ RGB 190, 190, 190 ge\xE4ndert.</li>\n</ul>\n<h3>Offizielles Boxart Cover!</h3>\n\
+  <p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/SuperSaiyajinStackZ/Ludo3DS/blob/main/Cover_ReadMe.png\"\
+  ><img src=\"https://github.com/SuperSaiyajinStackZ/Ludo3DS/blob/main/Cover_ReadMe.png\"\
+  \ alt=\"\" style=\"max-width:100%;\"></a></p>\n<h2>Das Sonstige</h2>\n<p>Sie haben\
+  \ einen Fehler bemerkt? Dann bitte geben Sie mir in der Issues Sektion bescheid!\
+  \ Vielen Dank.</p>\n<p>Ich hoffe Sie haben spa\xDF mit Ludo3DS v0.2.0! ~SuperSaiyajinStackZ</p>"
 updated: '2020-11-08T02:14:31Z'
 version: v0.2.0
 version_title: Second Release of Ludo3DS!

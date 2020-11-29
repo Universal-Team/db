@@ -26,8 +26,13 @@ source: https://github.com/MrHuu/openbor-3ds
 systems:
 - 3DS
 title: openbor-3ds
-update_notes: "Changes:\r\n\r\n- allow the 3DS's parallax layer to be enabled using\
-  \ the 3d slider (.3dsx only)\r\n\r\n"
+update_notes: '<p>Changes:</p>
+
+  <ul>
+
+  <li>allow the 3DS''s parallax layer to be enabled using the 3d slider (.3dsx only)</li>
+
+  </ul>'
 updated: '2020-05-09T17:34:53Z'
 version: v0.0.4
 website: http://www.chronocrash.com

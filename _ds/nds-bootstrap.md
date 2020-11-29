@@ -54,15 +54,42 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: "Instructions:\r\n1. Download the .7z file.\r\n2. Extract the nds-bootstrap\
-  \ (or B4DS, for DS-mode flashcards) .nds files, to `root:/_nds`.\r\n3. Extract the\
-  \ .ver file to `root:/_nds/TWiLightMenu`.\r\n\r\n**Improvements**\r\n* The FAT table\
-  \ has been relocated from DSi WRAM to Main RAM.\r\nThis removes the need to reboot\
-  \ in DSiWarehax, after creating the FAT table.\r\nAlso works around a mirroring\
-  \ bug in DSi WRAM, and allows running games with DSiWarehax without saving the FAT\
-  \ table cache.\r\n* mpuInitOffset is now cached. This should improve boot times\
-  \ slightly.\r\n\r\n**Bug fixes (B4DS)**\r\n* Fixed Pokemon Gen 4 compatibility.\r\
-  \n* FAT table has been moved forward by 8KB, so it is not overwriting DTCM."
+update_notes: '<p>Instructions:</p>
+
+  <ol>
+
+  <li>Download the .7z file.</li>
+
+  <li>Extract the nds-bootstrap (or B4DS, for DS-mode flashcards) .nds files, to <code>root:/_nds</code>.</li>
+
+  <li>Extract the .ver file to <code>root:/_nds/TWiLightMenu</code>.</li>
+
+  </ol>
+
+  <p><strong>Improvements</strong></p>
+
+  <ul>
+
+  <li>The FAT table has been relocated from DSi WRAM to Main RAM.<br>
+
+  This removes the need to reboot in DSiWarehax, after creating the FAT table.<br>
+
+  Also works around a mirroring bug in DSi WRAM, and allows running games with DSiWarehax
+  without saving the FAT table cache.</li>
+
+  <li>mpuInitOffset is now cached. This should improve boot times slightly.</li>
+
+  </ul>
+
+  <p><strong>Bug fixes (B4DS)</strong></p>
+
+  <ul>
+
+  <li>Fixed Pokemon Gen 4 compatibility.</li>
+
+  <li>FAT table has been moved forward by 8KB, so it is not overwriting DTCM.</li>
+
+  </ul>'
 updated: '2020-05-09T19:31:50Z'
 version: v0.35.1
 version_title: v0.35.1

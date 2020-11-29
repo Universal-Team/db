@@ -20,7 +20,7 @@ source: https://github.com/zoogie/Stuff
 systems:
 - 3DS
 title: Stuff
-update_notes: "\r\n"
+update_notes: ''
 updated: '2017-08-11T08:48:34Z'
 version: 0.6.0
 version_title: Initial

@@ -41,17 +41,44 @@ source: https://github.com/Ryuzaki-MrL/NotifyMii
 systems:
 - 3DS
 title: NotifyMii
-update_notes: "If everything's working then this will be my last release for now.\r\
-  \n\r\nWhat's new:\r\n- Major UI changes.\r\n- Uses the 3DS's software keyboard.\r\
-  \n- Support for viewing a notification's image.\r\n- Preview support for TXT and\
-  \ JPG files.\r\n- Installed title list will now display all title's names alongside\
-  \ their title ID.\r\n\r\nWhat's fixed:\r\n- Deleting a notification will no longer\
-  \ mess with other notifications.\r\n- Max image filesize is now 50kb instead of\
-  \ 128kb.\r\n\r\nWhat's next:\r\nThere are some leftovers of unimplemented stuff\
-  \ in this release: Nintendo 3DS Camera support, notification editing, multi-selection,\
-  \ and other stuff.\r\nThese were canceled and will be implemented into a future\
-  \ release, which will have a GUI.\r\nHowever, it'll take some time as I don't plan\
-  \ on working on this anytime soon.\r\n"
+update_notes: '<p>If everything''s working then this will be my last release for now.</p>
+
+  <p>What''s new:</p>
+
+  <ul>
+
+  <li>Major UI changes.</li>
+
+  <li>Uses the 3DS''s software keyboard.</li>
+
+  <li>Support for viewing a notification''s image.</li>
+
+  <li>Preview support for TXT and JPG files.</li>
+
+  <li>Installed title list will now display all title''s names alongside their title
+  ID.</li>
+
+  </ul>
+
+  <p>What''s fixed:</p>
+
+  <ul>
+
+  <li>Deleting a notification will no longer mess with other notifications.</li>
+
+  <li>Max image filesize is now 50kb instead of 128kb.</li>
+
+  </ul>
+
+  <p>What''s next:<br>
+
+  There are some leftovers of unimplemented stuff in this release: Nintendo 3DS Camera
+  support, notification editing, multi-selection, and other stuff.<br>
+
+  These were canceled and will be implemented into a future release, which will have
+  a GUI.<br>
+
+  However, it''ll take some time as I don''t plan on working on this anytime soon.</p>'
 updated: '2016-05-24T15:23:21Z'
 version: '1.2'
 version_title: NotifyMii v1.2

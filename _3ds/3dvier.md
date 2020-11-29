@@ -34,16 +34,35 @@ source: https://github.com/Universal-Team/3DVier
 systems:
 - 3DS
 title: 3DVier
-update_notes: "## Now it's time for [3DEins](https://github.com/Universal-Team/3DEins)'s\
-  \ good friend: 3DVier!**\r\n\r\n> 3DVier is a Connect Four clone for Nintendo 3DS.\r\
-  \n\r\n**What has been added?**\r\n- Game is fully playable. (Right now only Multiplayer\
-  \ on one console.)\r\n- Multi Language support. (Right now English & German only.)\r\
-  \n\r\nBasically.. this is the initial Release, so it doesn't have much to Mention\
-  \ on the first Release.\r\n\r\n[Stack-Store](https://github.com/SuperSaiyajinStackZ/Stack-Store)'s\
-  \ UniStore will be updated in a bit, so you can download 3DVier by using [Universal-Updater](https://github.com/Universal-Team/Universal-Updater)!\r\
-  \n\r\nIf you like to see Screenshots, take a look inside the Screenshots Directory\
-  \ of this repository or look at the ReadMe.\r\n\r\nI hope you have fun with 3DVier\
-  \ and enjoy using it! ~SuperSaiyajinStackZ"
+update_notes: '<h2>Now it''s time for <a href="https://github.com/Universal-Team/3DEins">3DEins</a>''s
+  good friend: 3DVier!**</h2>
+
+  <blockquote>
+
+  <p>3DVier is a Connect Four clone for Nintendo 3DS.</p>
+
+  </blockquote>
+
+  <p><strong>What has been added?</strong></p>
+
+  <ul>
+
+  <li>Game is fully playable. (Right now only Multiplayer on one console.)</li>
+
+  <li>Multi Language support. (Right now English &amp; German only.)</li>
+
+  </ul>
+
+  <p>Basically.. this is the initial Release, so it doesn''t have much to Mention
+  on the first Release.</p>
+
+  <p><a href="https://github.com/SuperSaiyajinStackZ/Stack-Store">Stack-Store</a>''s
+  UniStore will be updated in a bit, so you can download 3DVier by using <a href="https://github.com/Universal-Team/Universal-Updater">Universal-Updater</a>!</p>
+
+  <p>If you like to see Screenshots, take a look inside the Screenshots Directory
+  of this repository or look at the ReadMe.</p>
+
+  <p>I hope you have fun with 3DVier and enjoy using it! ~SuperSaiyajinStackZ</p>'
 updated: '2020-05-17T17:30:53Z'
 version: v0.1.0
 version_title: 3DVier's initial Release!

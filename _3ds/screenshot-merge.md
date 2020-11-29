@@ -25,9 +25,33 @@ source: https://github.com/ihaveamac/screenshot-merge
 systems:
 - 3DS
 title: screenshot-merge
-update_notes: "* Support for new Luma3DS Rosalina screenshot filename layout by @piratesephiroth\
-  \ (#8)\r\n* Windows buildscript by @piratesephiroth (#8, #9, #10)\r\n* No additional\
-  \ stability"
+update_notes: '<ul>
+
+  <li>Support for new Luma3DS Rosalina screenshot filename layout by <a class="user-mention"
+  data-hovercard-type="user" data-hovercard-url="/users/piratesephiroth/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/piratesephiroth">@piratesephiroth</a>
+  (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="291457696"
+  data-permission-text="Title is private" data-url="https://github.com/ihaveamac/screenshot-merge/issues/8"
+  data-hovercard-type="pull_request" data-hovercard-url="/ihaveamac/screenshot-merge/pull/8/hovercard"
+  href="https://github.com/ihaveamac/screenshot-merge/pull/8">#8</a>)</li>
+
+  <li>Windows buildscript by <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/piratesephiroth/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/piratesephiroth">@piratesephiroth</a>
+  (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="291457696"
+  data-permission-text="Title is private" data-url="https://github.com/ihaveamac/screenshot-merge/issues/8"
+  data-hovercard-type="pull_request" data-hovercard-url="/ihaveamac/screenshot-merge/pull/8/hovercard"
+  href="https://github.com/ihaveamac/screenshot-merge/pull/8">#8</a>, <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="291463389" data-permission-text="Title
+  is private" data-url="https://github.com/ihaveamac/screenshot-merge/issues/9" data-hovercard-type="pull_request"
+  data-hovercard-url="/ihaveamac/screenshot-merge/pull/9/hovercard" href="https://github.com/ihaveamac/screenshot-merge/pull/9">#9</a>,
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="291466479"
+  data-permission-text="Title is private" data-url="https://github.com/ihaveamac/screenshot-merge/issues/10"
+  data-hovercard-type="pull_request" data-hovercard-url="/ihaveamac/screenshot-merge/pull/10/hovercard"
+  href="https://github.com/ihaveamac/screenshot-merge/pull/10">#10</a>)</li>
+
+  <li>No additional stability</li>
+
+  </ul>'
 updated: '2018-02-02T21:52:20Z'
 version: '1.4'
 version_title: screenshot merge 1.4

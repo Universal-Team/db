@@ -23,6 +23,15 @@ prerelease:
       url: https://github.com/masterfeizz/EDuke3D/releases/download/v1.0-beta/EDuke3D.cia
   qr:
     EDuke3D.cia: https://db.universal-team.net/assets/images/qr/prerelease/eduke3d.cia.png
+  update_notes: '<p>Bugfixes (mostly memory management) and first CIA release.<br>
+
+    View README on the project page for instructions.<br>
+
+    CIA bugs:<br>
+
+    Game must be closed from quit option on the menu, and not from the 3ds home menu<br>
+
+    Home button only works when in a level</p>'
   updated: '2016-05-08T04:36:44Z'
   version: v1.0-beta
   version_title: Beta release (fixed)
@@ -75,6 +84,15 @@ source: https://github.com/masterfeizz/EDuke3D
 systems:
 - 3DS
 title: EDuke3D
+update_notes: '<p>Bugfixes (mostly memory management) and first CIA release.<br>
+
+  View README on the project page for instructions.<br>
+
+  CIA bugs:<br>
+
+  Game must be closed from quit option on the menu, and not from the 3ds home menu<br>
+
+  Home button only works when in a level</p>'
 updated: '2016-05-08T04:36:44Z'
 version: v1.0-beta
 version_title: Beta release (fixed)

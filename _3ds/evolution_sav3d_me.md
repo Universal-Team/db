@@ -42,7 +42,7 @@ source: https://github.com/Manurocker95/Evolution_Sav3D_Me
 systems:
 - 3DS
 title: Evolution_Sav3D_Me
-update_notes: Changed the splash screen
+update_notes: <p>Changed the splash screen</p>
 updated: '2017-08-23T11:38:07Z'
 version: '1.1'
 version_title: 'A New Release '
