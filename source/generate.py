@@ -225,6 +225,9 @@ for app in source:
 			if not "updated" in app:
 				app["updated"] = release["published_at"]
 
+			if not "update_notes" in app and release["body"] != "" and release["body"] != None:
+				app["update_notes"] = release["body"]
+
 			if not "downloads" in app:
 				app["downloads"] = {}
 			for asset in release["assets"]:
@@ -493,9 +496,9 @@ for item in output:
 
 	if "updated" in item and (datetime.datetime.now(datetime.timezone.utc) - parser.parse(item["updated"])).days < 30:
 		feedItems.append(rfeed.Item(
-			title = "New " + item["title"] + " update",
+			title = item["title"] + " updated to " + item["version"] if "version" in item else "new version",
 			link = "https://db.universal-team.net/" + webName(item["systems"][0]) + "/" + webName(item["title"]),
-			description = item["version_title"] if "version_title" in item else item["version"],
+			description = (item["version_title"] if "version_title" in item else item["version"]) + (("<hr />" + requests.post("https://api.github.com/markdown", headers = header if header else None, json = {"text": item["update_notes"], "mode": "gfm" if "github" in item else "markdown", "context": item["github"] if "github" in item else None}).text) if "update_notes" in item else ""),
 			author = item["author"],
 			guid = rfeed.Guid("https://db.universal-team.net/" + webName(item["systems"][0]) + "/" + webName(item["title"])),
 			pubDate = parser.parse(item["updated"]),
