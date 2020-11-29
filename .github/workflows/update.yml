@@ -4,8 +4,8 @@ name: Update sources
 on:
   schedule:
     - cron: 0 0,6,12,18 * * *
-#  push:
-#    branches: [ master ]
+ push:
+   branches: [ master ]
 #    paths: [ source/source.json, source/generate.py, .github/workflows/update.yml ]
 
 jobs:
