@@ -222,11 +222,11 @@ for app in source:
 			if not "version_title" in app and release["name"] != "" and release["name"] != None:
 				app["version_title"] = release["name"]
 
+			if not "update_notes" in app and release["body"] != "" and release["body"] != None:
+				app["update_notes"] = requests.post("https://api.github.com/markdown", headers = header if header else None, json = {"text": release["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
+
 			if not "updated" in app:
 				app["updated"] = release["published_at"]
-
-			if not "update_notes" in app and release["body"] != "" and release["body"] != None:
-				app["update_notes"] = release["body"]
 
 			if not "downloads" in app:
 				app["downloads"] = {}
@@ -255,6 +255,11 @@ for app in source:
 				app["version_title"] = prerelease["name"]
 			if not "version_title" in app["prerelease"] and prerelease["name"] != "" and prerelease["name"] != None:
 				app["prerelease"]["version_title"] = prerelease["name"]
+
+			if not "update_notes" in app and prerelease["body"] != "" and prerelease["body"] != None:
+				app["update_notes"] = requests.post("https://api.github.com/markdown", headers = header if header else None, json = {"text": prerelease["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
+			if not "update_notes" in app["prerelease"] and prerelease["body"] != "" and prerelease["body"] != None:
+				app["prerelease"]["update_notes"] = requests.post("https://api.github.com/markdown", headers = header if header else None, json = {"text": prerelease["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
 
 			if not "updated" in app:
 				app["updated"] = prerelease["published_at"]
@@ -498,7 +503,7 @@ for item in output:
 		feedItems.append(rfeed.Item(
 			title = item["title"] + " updated to " + item["version"] if "version" in item else "new version",
 			link = "https://db.universal-team.net/" + webName(item["systems"][0]) + "/" + webName(item["title"]),
-			description = (item["version_title"] if "version_title" in item else item["version"]) + (("<hr />" + requests.post("https://api.github.com/markdown", headers = header if header else None, json = {"text": item["update_notes"], "mode": "gfm" if "github" in item else "markdown", "context": item["github"] if "github" in item else None}).text) if "update_notes" in item else ""),
+			description = (item["version_title"] if "version_title" in item else item["version"]) + (("<hr />" + item["update_notes"] if "update_notes" in item else "")),
 			author = item["author"],
 			guid = rfeed.Guid("https://db.universal-team.net/" + webName(item["systems"][0]) + "/" + webName(item["title"])),
 			pubDate = parser.parse(item["updated"]),
