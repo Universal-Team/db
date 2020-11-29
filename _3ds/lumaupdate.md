@@ -41,6 +41,9 @@ source: https://github.com/KunoichiZ/lumaupdate
 systems:
 - 3DS
 title: lumaupdate
+update_notes: 'This update fixes the error in #49, #50, and #51 and closes #49. This
+  update should now allow you to download Luma3DS and any future releases of Luma
+  Updater.'
 updated: '2020-02-29T22:55:37Z'
 version: v2.5
 version_title: Fix for v2.4

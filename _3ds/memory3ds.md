@@ -55,6 +55,9 @@ source: https://github.com/Omegadrien/Memory3DS
 systems:
 - 3DS
 title: Memory3DS
+update_notes: 'First release!
+
+  '
 updated: '2016-10-13T20:58:21Z'
 version: v1.0
 version_title: Memory3DS

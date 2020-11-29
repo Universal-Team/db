@@ -41,6 +41,19 @@ source: https://github.com/flarn2006/GraphCalc3DS
 systems:
 - 3DS
 title: GraphCalc3DS
+update_notes: 'Small release to fix a bug in version 1.5. The bug was that undefined
+  values weren''t graphed properly (properly in this case being not at all) when the
+  equation was entered in algebraic notation. Because of this bug, for example, `sqrt(1-x^2)`
+  would appear as the top half of a circle like it should, except there would be two
+  vertical lines on the sides. Version 1.5.1 fixes this bug.
+
+
+  QR code for CIA:
+
+
+  ![https://github.com/flarn2006/GraphCalc3DS/releases/download/v1.5.1/GraphCalc3DS.cia](http://i.imgur.com/qzu5DL3.png)
+
+  '
 updated: '2016-12-03T21:05:23Z'
 version: v1.5.1
 version_title: Version 1.5.1

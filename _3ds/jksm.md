@@ -26,6 +26,9 @@ source: https://github.com/J-D-K/JKSM
 systems:
 - 3DS
 title: JKSM
+update_notes: "* Dropped support for *hax\r\n* Cleaned up FS code\r\n* Favorites ported\
+  \ from switch\r\n* Fixed bug that caused extdata to not be backed up when dump all\
+  \ was used\r\n* Probably other stuff. It's been forever."
 updated: '2020-05-09T03:47:57Z'
 version: 05.08.2020
 version_title: JKSM 05.08.2020

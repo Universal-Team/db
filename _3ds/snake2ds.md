@@ -44,6 +44,21 @@ source: https://github.com/Jacudibu/Snake2DS
 systems:
 - 3DS
 title: Snake2DS
+update_notes: '**Install instructions**
+
+
+  **3DS (Homebrew only):**
+
+  Either install the .cia file directly or copy the Snake2DS Folder that''s inside
+  the .zip into your /3ds/ folder and it should appear inside your launcher''s home
+  menu.
+
+
+  **PC (Windows):**
+
+  Just unzip the File and run the .exe inside it.
+
+  '
 updated: '2016-06-16T14:28:38Z'
 version: v1.0
 version_title: Release v1.0

@@ -20,6 +20,14 @@ source: https://github.com/Epicpkmn11/dfc
 systems:
 - DS
 title: dfc
+update_notes: "This is a simple app that creates dummy files for hiyaCFW to work around\
+  \ the bug in the Nintendo DSi Menu that causes it to be unable to load with certain\
+  \ amounts of free space.\r\n\r\nTo use simply place `dfc.nds` on your SD card, boot\
+  \ your DSi holding <kbd>A</kbd> and <kbd>B</kbd>, then load `Dummy File Creator`\
+  \ from Unlaunch's file menu.\r\n\r\n---\r\n\r\n### Update 2020-10-22:\r\nWith hiyaCFW\
+  \ v1.4.0 dummy files are now managed automatically by hiyaCFW itself, please simply\
+  \ use the latest version of hiyaCFW instead of this tool. This download is only\
+  \ being kept up for preservation purposes.\r\n\r\nhttps://github.com/RocketRobz/hiyaCFW/releases"
 updated: '2020-09-14T04:07:03Z'
 version: v1.0.0
 version_title: Initial release

@@ -53,6 +53,10 @@ source: https://github.com/bubble2k16/picodrive_3ds
 systems:
 - 3DS
 title: PicoDrive
+update_notes: "- Added support to save battery-backed RAM for CD games\r\n- Fixed\
+  \ problems with games that show parts of the previous screens at the left/right\
+  \ edges\r\n- Added support for cheats.\r\n- Added configuration for region selection\
+  \ between (Default, US, Europe, Japan)"
 updated: '2018-03-24T02:19:48Z'
 version: v0.94
 version_title: v0.94

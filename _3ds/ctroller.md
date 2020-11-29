@@ -52,6 +52,10 @@ source: https://github.com/phijor/ctroller
 systems:
 - 3DS
 title: ctroller
+update_notes: "# Features\n- add gyroscope support:\n  - creates a new virtual device\
+  \ that reports 3 axis\n- change how to exit the app:\n  - the CIA now only exits\
+  \ by pressing HOME\n\n# Fixes\n- only report touch coordinates if there's a touch\n\
+  \n# Refactoring\n- restructure device handling\n"
 updated: '2016-06-15T19:03:12Z'
 version: 0.4.0
 version_title: '0.4.0: Virtual device rework and gyroscope support'

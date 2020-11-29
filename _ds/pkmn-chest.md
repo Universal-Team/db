@@ -36,6 +36,22 @@ source: https://github.com/Universal-Team/pkmn-chest
 systems:
 - DS
 title: pkmn-chest
+update_notes: "> Pok\xE9mon Chest, a Pok\xE9mon bank for the Nintendo DS(i)\r\n\r\n\
+  #### What's new:\r\n- The config menu can now be accessed with <kbd>SELECT</kbd>\
+  \ on the top menu\r\n- Directories can now be added to the top menu as favorites\r\
+  \n- The Fateful Encounter status of a Pok\xE9mon can now be changed\r\n  - In Generation\
+  \ 3 Mew must be a Fateful Encounter to obey\r\n- Updated the chest to use PKSM's\
+  \ latest bank version\r\n- A warning will now be shown before turning off if an\
+  \ exception is thrown\r\n\r\n#### Bug fixes:\r\n- Fixed party Pok\xE9mon's stats\
+  \ not updating until moved to/from the PC\r\n- Fixed the kerning on some characters\
+  \ in the font\r\n- Fixed Korean being called `\uD55C\uAD6D` instead of `\uD55C\uAD6D\
+  \uC5B4`\r\n- Fixed TM/HM pocket being called Pok\xE9 Balls\r\n- Fixed HMs not showing\
+  \ correctly in some Generation 3 games\r\n- (@remicalixte) Fixed shiny star not\
+  \ hiding after moving off a shiny Pok\xE9mon\r\n- Several bug fixes in [PKSM-Core](https://github.com/Flagbrew/PKSM-Core/compare/b543fa321133c5b5af784a09437e417cae26e094...27ba4a6ce64bf4206d0cce92f09d223c65dc975d)\r\
+  \n\r\n#### Side notes:\r\n- Nightly builds are available in the extras [repo](https://github.com/Universal-Team/extras/tree/master/builds/pkmn-chest)\
+  \ & [releases](https://github.com/Universal-Team/extras/releases).\r\n- Report any\
+  \ bugs you find [here](https://github.com/Universal-Team/pkmn-chest/issues/new/choose),\
+  \ and you can join our Discord server [here](https://discord.gg/KDJCfGF)"
 updated: '2020-07-07T04:00:43Z'
 version: v2.2
 version_title: Easy config access, favorite folders, and various bug fixes

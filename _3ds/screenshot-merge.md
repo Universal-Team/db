@@ -25,6 +25,9 @@ source: https://github.com/ihaveamac/screenshot-merge
 systems:
 - 3DS
 title: screenshot-merge
+update_notes: "* Support for new Luma3DS Rosalina screenshot filename layout by @piratesephiroth\
+  \ (#8)\r\n* Windows buildscript by @piratesephiroth (#8, #9, #10)\r\n* No additional\
+  \ stability"
 updated: '2018-02-02T21:52:20Z'
 version: '1.4'
 version_title: screenshot merge 1.4

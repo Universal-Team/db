@@ -59,6 +59,7 @@ source: https://github.com/ingolemo/drider
 systems:
 - 3DS
 title: drider
+update_notes: '* Images now show for more than just the first page of the book.'
 updated: '2017-11-14T16:05:57Z'
 version: v0.6
 version_title: Really images this time.

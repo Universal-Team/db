@@ -53,6 +53,7 @@ source: https://github.com/nop90/Xrick-3ds
 systems:
 - 3DS
 title: Xrick-3ds
+update_notes: "- Fixed 3dsx format\r\n- Fixed sound output"
 updated: '2017-03-10T20:41:13Z'
 version: v1.0
 version_title: Stable release

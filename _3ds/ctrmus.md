@@ -41,6 +41,10 @@ source: https://github.com/deltabeard/ctrmus
 systems:
 - 3DS
 title: ctrmus
+update_notes: "* Add OGG Vorbis file support.\r\n* Update Opus and mpg123 libraries\
+  \ to their latest version.\r\n* Further improvements to overall system stability\
+  \ and other minor adjustments have been made to enhance the user experience.\r\n\
+  \r\n![QR](https://zxing.org/w/chart?cht=qr&chs=230x230&chld=L&choe=UTF-8&chl=https%3A%2F%2Fgithub.com%2Fdeltabeard%2Fctrmus%2Freleases%2Fdownload%2F0.4.12%2Fctrmus.cia)"
 updated: '2017-07-08T18:35:46Z'
 version: 0.4.12
 version_title: '0.4.12: Vorbis Support'

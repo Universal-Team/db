@@ -60,6 +60,14 @@ source: https://github.com/TurtleP/TurtleInvaders
 systems:
 - 3DS
 title: TurtleInvaders
+update_notes: '[Bugs Fixed]
+
+  - Shooting while using mega cannon
+
+
+  ![](https://chart.googleapis.com/chart?chs=250x250&cht=qr&chl=https%3A%2F%2Fdl.dropboxusercontent.com%2Fu%2F97639347%2FTurtleInvaders.cia)
+
+  '
 updated: '2016-06-30T04:51:24Z'
 version: v1.0.2
 version_title: 3DS Stable Release 1.0.2

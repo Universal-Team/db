@@ -38,6 +38,8 @@ source: https://github.com/smealum/portalDS
 systems:
 - DS
 title: portalDS
+update_notes: The first (and only) publicly released version of the Aperture Science
+  DS.
 updated: '2019-11-23T23:14:24Z'
 version: r1
 version_title: Aperture Science DS r1

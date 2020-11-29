@@ -35,6 +35,8 @@ source: https://github.com/rverseTeam/rverse2
 systems:
 - 3DS
 title: rverse
+update_notes: "# rverse Public Release \\#1\r\n\r\nThis is the release you need to\
+  \ use, not the earlier one."
 updated: '2020-04-18T20:45:33Z'
 version: v3.0.0
 version_title: Release 20200417

@@ -71,6 +71,24 @@ source: https://github.com/ItsDeidara/CaptureAssistant
 systems:
 - 3DS
 title: CaptureAssistant
+update_notes: 'Extract to the root of your SD card and install CaptureAssistant with
+  FBI
+
+
+  Changelog-
+
+  Fixed duplicate Title ID
+
+
+  Bugs-
+
+  calibrationalt''s are slightly too large
+
+
+  If you would like to add anything too this or would like to request anything then
+  please request it in the tool''s GBAtemp thread http://gbatemp.net/threads/capture-assistant-a-capture-alignment-tool-for-capture-cards-ntr.439356/#post-6631437
+
+  '
 updated: '2016-08-26T23:13:12Z'
 version: '1.3'
 wiki: https://github.com/ItsDeidara/CaptureAssistant/wiki

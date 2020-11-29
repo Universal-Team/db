@@ -42,6 +42,7 @@ source: https://github.com/MechanicalDragon0687/GYTB
 systems:
 - 3DS
 title: GYTB
+update_notes: "forked to provide release for use in tinyDB\r\nThanks MrCheeze"
 updated: '2019-02-02T20:53:45Z'
 version: '1.0'
 version_title: GYTB

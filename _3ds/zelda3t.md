@@ -39,6 +39,8 @@ source: https://github.com/nop90/Zelda3T
 systems:
 - 3DS
 title: Zelda3T
+update_notes: "\r\n![zelda3t_v1 0 cia](https://user-images.githubusercontent.com/6418965/30785430-de03a4ba-a166-11e7-8ee4-c1a70f39968c.jpg)\r\
+  \n\r\n(QR code to dovnload and install the cia file with FBI)"
 updated: '2017-09-24T18:25:47Z'
 version: v1.0
 version_title: Added support for touchpad

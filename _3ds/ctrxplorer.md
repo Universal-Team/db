@@ -41,6 +41,14 @@ source: https://github.com/d0k3/CTRXplorer
 systems:
 - 3DS
 title: CTRXplorer
+update_notes: 'What''s new:
+
+  o Virtual keyboard available for string mode editing in hex editor
+
+
+  ![qrcode](https://cloud.githubusercontent.com/assets/12467483/22735721/41c21394-edfb-11e6-80d1-a0a13c4ff9f1.png)
+
+  '
 updated: '2017-02-08T11:36:20Z'
 version: v0.9.8.1
 version_title: CTRXplorer v0.9.8.1

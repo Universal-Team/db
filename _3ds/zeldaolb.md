@@ -39,6 +39,9 @@ source: https://github.com/nop90/ZeldaOLB
 systems:
 - 3DS
 title: ZeldaOLB
+update_notes: "- Improved Italian translation\r\n- Added a dirty workaround to avoid\
+  \ a memory leak\r\n- Renamed villageest.raw music file adding a startig capital\
+  \ letter to avoid the music module crash entering in Ruto Village"
 updated: '2017-06-07T19:23:53Z'
 version: v1,1
 version_title: Improved Italian translation and made some fixes

@@ -26,6 +26,7 @@ source: https://github.com/RSDuck/craftus_reloaded
 systems:
 - 3DS
 title: craftus_reloaded
+update_notes: Meanwhile here's a new release
 updated: '2020-11-18T00:15:43Z'
 version: '0.3'
 version_title: Craftus is still dead

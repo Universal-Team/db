@@ -41,6 +41,8 @@ source: https://github.com/DomRe/3DS_eBook_Reader
 systems:
 - 3DS
 title: 3DS_eBook_Reader
+update_notes: "Changes:\r\n - Fixed about screen flickering.\r\n\r\nSee [reddit](https://www.reddit.com/r/3dshacks/comments/7su3f4/released_v10_of_my_ebook_reader/)\
+  \ or [gbatemp](https://gbatemp.net/threads/release-ebook-reader-v1-0-read-ebooks-on-your-3ds.495129/)."
 updated: '2018-01-29T06:38:15Z'
 version: '1.2'
 version_title: eBook Reader v1.2

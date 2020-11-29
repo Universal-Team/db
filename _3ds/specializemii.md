@@ -55,6 +55,9 @@ source: https://github.com/phijor/SpecializeMii
 systems:
 - 3DS
 title: SpecializeMii
+update_notes: 'This fixes issues #2 and #3, thanks to @XT-8147 for reporting.
+
+  '
 updated: '2017-01-22T11:19:45Z'
 version: 0.1.4
 version_title: Fix un-specializing personal Mii

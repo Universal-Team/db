@@ -23,6 +23,7 @@ source: https://github.com/NPXTobi/Demo-Reset
 systems:
 - 3DS
 title: Demo-Reset
+update_notes: The first version of Demo-Reset. Have Fun.
 updated: '2020-07-16T15:14:32Z'
 version: 1.0.0
 version_title: 1.0.0

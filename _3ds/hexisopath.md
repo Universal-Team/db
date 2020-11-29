@@ -26,6 +26,10 @@ source: https://github.com/LiquidFenrir/HexIsoPath
 systems:
 - 3DS
 title: HexIsoPath
+update_notes: "HexIsoPath now has local multiplayer, you dont need to pass the console\
+  \ anymore! Press UP on the dpad to be the server (white) or DOWN to be the client\
+  \ (black) (Note: the server has to start before the client can connect)  \r\nAlso,\
+  \ instructions! Press and hold SELECT to view the basic controls"
 updated: '2018-01-02T15:26:49Z'
 version: v1.1.0
 version_title: Multiplayer and instructions!

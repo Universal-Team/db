@@ -94,6 +94,15 @@ source: https://github.com/DS-Homebrew/GodMode9i
 systems:
 - DS
 title: GodMode9i
+update_notes: "**What's new?**\r\n* Compatibility with GBA ROM dumping has been increased.\
+  \ You can now dump 64MB GBA ROMs!\r\nWhat can currently be dumped:\r\n  * GBA Video:\
+  \ Shark Tale\r\n  * GBA Video: Shrek\r\n  * GBA Video: Shrek & Shark Tale\r\n  *\
+  \ GBA Video: Shrek 2\r\n\r\n  What cannot currently be dumped:\r\n  * GBA Video:\
+  \ Shrek & Shrek 2 (Reason: Title ID not known)\r\n\r\n* (@unresolvedsymbol) Added\
+  \ multi file copy paste support.\r\n* (@unresolvedsymbol) Added selection deletion\
+  \ support\r\n* (@Epicpkmn11) Added save file restoring.\r\n\r\n**Bug fixes**\r\n\
+  * (@unresolvedsymbol) Fixed crash when copying empty folders\r\n* (@unresolvedsymbol)\
+  \ Misc formatting fixes."
 updated: '2020-09-07T09:14:30Z'
 version: v2.5.0
 version_title: 'v2.5.0: Labor Day release'

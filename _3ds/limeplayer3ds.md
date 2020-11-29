@@ -28,6 +28,19 @@ source: https://github.com/Oreo639/LimePlayer3DS
 systems:
 - 3DS
 title: LimePlayer3DS
+update_notes: "Notice\r\nThis release was hotfixed. If you downloaded it before this\
+  \ message, you might want to consider redownloading it to ensure you get the best\
+  \ experience.\r\n(The hotfix fixed issues where the opus metadata would not update\
+  \ after the song changed on a netradio stream)\r\n\r\nHappy New Years!\r\nThis is\
+  \ the first official release of LimePlayer3DS of the decade.\r\nLimePlayer3DS is\
+  \ a gui music player for the 3DS with MIDI and Internet Radio support.\r\n\r\nDownload\
+  \ the 3ds/cia and as always read the [wiki](https://github.com/Oreo639/LimePlayer3DS/wiki)\
+  \ and the [readme](https://github.com/Oreo639/LimePlayer3DS/blob/master/README.md)\
+  \ before getting started.\r\n\r\nWhat is new:\r\nFixed issue where the app would\
+  \ automatically change to the `/music` directory regardless of if it actually existed\
+  \ or not.\r\nReworked Internet Radio support and added support for opus streams.\r\
+  \nAdded progress bar\r\nImproved the icon\r\n\r\nWhat needs to be worked on:\r\n\
+  The ui, blech\r\nControls\r\nFix bugs ofc"
 updated: '2020-01-06T06:13:58Z'
 version: v0.0.9
 version_title: Beta 2 - Happy New Years edition

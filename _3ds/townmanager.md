@@ -56,6 +56,9 @@ source: https://github.com/dragos240/TownManager
 systems:
 - 3DS
 title: TownManager
+update_notes: 'Converts tm.conf files to the new config format.
+
+  '
 updated: '2017-01-21T13:45:49Z'
 version: v1.2.1
 version_title: v1.2.1 - Bugfix release

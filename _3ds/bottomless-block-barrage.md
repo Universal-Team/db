@@ -44,6 +44,14 @@ source: https://github.com/TricksterGuy/bottomless-block-barrage
 systems:
 - 3DS
 title: bottomless-block-barrage
+update_notes: "Whats new\r\n-----\r\nGoal Marker in Score mode type lines.\r\nUpdated\
+  \ replay file format and made replays better.\r\nSupport for more skill chain techniques.\r\
+  \n\r\nThe engine is now more timed like the original games.  \r\nIn endless mode\
+  \ you level up now with the number of panels removed.  \r\nTimeout values are now\
+  \ more based on the original.\r\n\r\nKnown Issues\r\n-----\r\nIssue #10. Somehow\
+  \ chains can be continued out of nowhere.\r\nIssue #13. Don't complete the final\
+  \ puzzle, or the game will crash.\r\nIssue #14. Hints for things aren't intuitive.\r\
+  \n\r\n![QR Code](https://i.imgur.com/WeKKRn5.png)"
 updated: '2017-09-11T08:23:56Z'
 version: v0.2.0
 version_title: Version 0.2.0

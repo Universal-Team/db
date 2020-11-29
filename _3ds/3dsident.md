@@ -32,6 +32,24 @@ source: https://github.com/joel16/3DSident
 systems:
 - 3DS
 title: 3DSident
+update_notes: "I think the time has arrived to close the doors on this project. It's\
+  \ been quite the 2 years and woah, the 405k downloads, that's quite the milestone\
+  \ for me. Thanks to everyone who were a part of this. \r\n\r\n**Both:**\r\n- Now\
+  \ displays NAND as well as the original local friend code seed. (Useful to know\
+  \ if you've switched your friend code seed before) \r\n- Removed a bunch of unused\
+  \ functions as well as the screenshot feature. (You should be able to use Rosalina\
+  \ now).\r\n- Based off the latest devkitARM toolchain. Both versions are also under\
+  \ one branch now and can be compiled together. \r\n- CIA versions include the new\
+  \ boot logos by FrozenFire\r\n\r\n**Original Version:**\r\n- Added some features\
+  \ from the GUI version - Now displays mac address for all 3 WiFi slots, card slot\
+  \ status and initial firmware version.\r\n\r\n**GUI Version:**\r\n- Integrated 3DSident\
+  \ button tester. (Use start + select to activate/deactivate)\r\n- Now uses Citro2D\
+  \ and up-to-date tool chain functions as well as many under the hood improvements.\r\
+  \n- Slight improvements to UI to make it sort of similar to the Switch version.\r\
+  \n\r\n*Original:*\r\n![image](https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fgithub.com%2Fjoel16%2F3DSident%2Freleases%2Fdownload%2F0.8.0%2F3DSident.cia&chs=180x180&choe=UTF-8&chld=L|2)\
+  \ \r\n\r\n*GUI:*\r\n![image](https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fgithub.com%2Fjoel16%2F3DSident%2Freleases%2Fdownload%2F0.8.0%2F3DSident-GUI.cia&chs=180x180&choe=UTF-8&chld=L|2)\r\
+  \n\r\n**If you'd like to support me, then feel free to buy me a coffee, I'd really\
+  \ appreciate it! https://www.paypal.me/Joel16IA**"
 updated: '2018-08-03T06:02:13Z'
 version: 0.8.0
 version_title: '3DSident v0.8.0 - Final '

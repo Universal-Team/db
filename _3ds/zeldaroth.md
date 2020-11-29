@@ -56,6 +56,11 @@ source: https://github.com/nop90/ZeldaROTH
 systems:
 - 3DS
 title: ZeldaROTH
+update_notes: '- Corrected SFX frequency
+
+  - Some small bug fixed
+
+  '
 updated: '2016-06-11T21:08:59Z'
 version: v1.0.2
 version_title: Minor changes

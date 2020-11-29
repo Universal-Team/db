@@ -24,6 +24,7 @@ source: https://github.com/HIDE810/WiFi-Status-Checker
 systems:
 - 3DS
 title: WiFi-Status-Checker
+update_notes: Initial release.
 updated: '2019-05-26T13:57:24Z'
 version: '1.0'
 version_title: WiFi Status Checker v1.0

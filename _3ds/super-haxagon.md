@@ -28,6 +28,11 @@ source: https://github.com/RedTopper/Super-Haxagon
 systems:
 - 3DS
 title: Super-Haxagon
+update_notes: "# Super Haxagon 3.3.0\r\n\r\nAdded a credits and a way to officially\
+  \ beat the game. You can watch the credits from the main menu (and be marked a cheater)\
+  \ or watch the credits by beating the HARDESTESTEST level of the game.\r\n\r\nI\
+  \ hope you enjoy Super Haxagon, and thanks for playing!\r\n\r\n## 3DS QR Code (FBI)\r\
+  \n\r\n![qr](https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/qr.png)"
 updated: '2020-08-03T04:34:23Z'
 version: 3.3.0
 version_title: Credits

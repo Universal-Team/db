@@ -27,6 +27,23 @@ source: https://github.com/RocketRobz/SavvyManager
 systems:
 - 3DS
 title: SavvyManager
+update_notes: "**What's new?**\r\n* KOR region is now finally supported!\r\nWith only\
+  \ the 1st and 2nd *Girls Style* games available in Korea, you can bring any character\
+  \ from the 3rd and 4th games into the 2nd game, using the character import feature!\r\
+  \n   * Please note that KOR support has not been thoroughly tested. There may be\
+  \ some text sizing and/or positioning issues.\r\n* Pre-rendered character previews\
+  \ for the 4th game, are now available for all importable characters!\r\n* Unique\
+  \ bottom backgrounds are used for each game in the game select menu.\r\n* 2020 *Rocket\
+  \ Robz* logo is now in use!\r\n   * The logo is also animated!\r\n* 800px wide mode\
+  \ (dubbed *Hori-HD* by me) is now used!\r\nSee improved clarity in the pre-rendered\
+  \ character previews!\r\n   * This feature is exclusive to Old 3DS, New 3DS, and\
+  \ New 2DS consoles.\r\n* Originally composed menu music has been added!\r\n\r\n\
+  **Improvements**\r\n* Fixed some character looks (e.g. hair, eyes, lips, makeup,\
+  \ outfit) outside of their games, such as:\r\n   * Brienne/Zahra\r\n   * Clara\r\
+  \n   * Rosie\r\n   * Yolanda\r\n   * Alina\r\n   * Ang\xE9lique\r\n\r\n**Bug fixes**\r\
+  \n* Fixed the characters below Brienne/Zahra missing from the importable 2nd game\
+  \ character list.\r\n* Fixed *it's* to *its* in the game select menu.\r\n\r\n**Known\
+  \ bug**\r\n* Black edges are seen around the background circles on the top screen."
 updated: '2020-11-26T08:30:24Z'
 version: v3.1.0
 version_title: Thanksgiving (2020) release

@@ -26,6 +26,8 @@ source: https://github.com/Core-2-Extreme/3DS-Battery-Checker
 systems:
 - 3DS
 title: 3DS-Battery-Checker
+update_notes: "-Add -battery mark result save & view\r\n-Add -battery history save\
+  \ & view"
 updated: '2019-03-20T12:57:15Z'
 version: v1.2.0
 version_title: 3DS_Battery_Checker v1.2.0

@@ -44,6 +44,16 @@ source: https://github.com/DanTheMan827/tikSweep
 systems:
 - 3DS
 title: tikSweep
+update_notes: 'The only thing changed in this build are the buildtools.
+
+
+  This causes the boot screen to go to the generic homebrew one instead of the animated
+  3DS one.
+
+
+  ![tikShop QR Code](http://chart.apis.google.com/chart?cht=qr&chs=200x200&chl=https%3A//github.com/DanTheMan827/tikSweep/releases/download/v1.1.2/tikSweep.cia&chld=L|0)
+
+  '
 updated: '2017-01-07T03:05:51Z'
 version: v1.1.2
 version_title: v1.1.2

@@ -23,6 +23,7 @@ source: https://github.com/CorySanin/FastPlayCoin
 systems:
 - 3DS
 title: FastPlayCoin
+update_notes: '![qr](https://user-images.githubusercontent.com/2897351/32695318-f180ce1e-c71d-11e7-96c2-17704b192dfc.png)'
 updated: '2017-11-11T09:44:57Z'
 version: v1.0
 version_title: Fast PlayCoin Initial Release

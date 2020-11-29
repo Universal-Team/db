@@ -41,6 +41,9 @@ source: https://github.com/Trinitro21/lpp-3ds
 systems:
 - 3DS
 title: lpp-3ds
+update_notes: "* Added footer signing using the SHA1-HMAC algorithm\r\n* Fixed the\
+  \ crash that occurs when the \"copy DAT contents\" function is invoked on a file\
+  \ that doesn't evenly divide into the size of the data type"
 updated: '2019-05-08T20:03:37Z'
 version: sbfm1.7
 version_title: SmileBASIC File Manager v1.7

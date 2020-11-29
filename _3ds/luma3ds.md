@@ -42,6 +42,10 @@ source: https://github.com/LumaTeam/Luma3DS
 systems:
 - 3DS
 title: Luma3DS
+update_notes: "* **Fix system version 11.14 not booting**\r\n* Allow out-of-region\
+  \ Download Play functionality (thanks @Pixel-Pop)\r\n* Fix a rare issue where the\
+  \ Rosalina Menu wouldn't be displayed during application launch (thanks @Nanquitas)\r\
+  \n* General system stability improvements to enhance the user's experience"
 updated: '2020-11-17T02:06:56Z'
 version: v10.2.1
 version_title: v10.2.1

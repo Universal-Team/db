@@ -34,6 +34,19 @@ source: https://github.com/Universal-Team/3DZwei
 systems:
 - 3DS
 title: 3DZwei
+update_notes: "## Changes?\r\n* Allow up to 345 card pairs.\r\n* Allow a custom background\
+  \ for the game screen.\r\n* Add a \"rules\" overlay with animations.\r\n* Randomize\
+  \ Cardsets in app!\r\n* Add a TimePlay mode, try to collect all cards with the least\
+  \ amount of time and least amount of tries.\r\n* Let collected cards disappear from\
+  \ the game screens.\r\n* Initial multi language implementation, currently only supports\
+  \ German & English.\r\n* Change Default cards to Universal-Team Homebrew app icons.\r\
+  \n* Improvements I guess.\r\n\r\n## Notes\r\n- 3DZwei will be moved to Universal-Team\
+  \ soon, so you will find the repo soon there!\r\n- Wanna find custom cardsets for\
+  \ 3DZwei? Then you can take a look at this repo [here](https://github.com/SuperSaiyajinStackZ/3DEins-3DZwei-Sets)!\r\
+  \n\r\n## Other\r\n- After 3DZwei is moved to Universal-Team, it will be easier to\
+  \ help translating the app with crowdin! For more about that, feel free to join\
+  \ the Universal-Server [here](https://universal-team.net/discord).\r\n\r\nHave fun\
+  \ with the second release of 3DZwei! ~SuperSaiyajinStackZ"
 updated: '2020-07-26T19:27:23Z'
 version: v0.2.0
 version_title: The second release of 3DZwei!

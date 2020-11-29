@@ -26,6 +26,19 @@ source: https://github.com/joel16/3DShell
 systems:
 - 3DS
 title: 3DShell
+update_notes: "**You can update straight from 3DShell, by tapping the download icon\
+  \ (Updates menu) and updating via the official release build option which is found\
+  \ under \"Milestone builds\".**\r\n\r\n- **Re-uploaded with https://github.com/joel16/3DShell/commit/94201c103a6da916623ec0a35bbec2ae2587d67d**\
+  \ Properly free image data when loaded from SD/Memory.\r\n- Fix down-sampled MP3\
+  \ files not being played properly, and providing inaccurate timings.\r\n- Possible\
+  \ attempt at fixing scratchy audio with O3DS as reported by one user (needs more\
+  \ testing?)\r\n- Fix crash with the CIA version (due to some resources not being\
+  \ freed properly) after you exit the app granted that you opened any of the supported\
+  \ audio files.\r\n- Added support for extracting more archive formats such as 7z,\
+  \ ISO 9660, AR, XAR and [other formats supported by libarchive](https://github.com/libarchive/libarchive/#supported-formats).\r\
+  \n- Next nightly/milestone releases will remove the .CIA file after updating from\
+  \ the .CIA version.\r\n\r\n\r\n**If you'd like to support me, then feel free to\
+  \ buy me a coffee, I'd really appreciate it! https://www.paypal.me/Joel16IA**"
 updated: '2019-06-27T04:04:05Z'
 version: v4.3.1
 version_title: 3DShell v4.3.1

@@ -25,6 +25,10 @@ source: https://github.com/hax0kartik/Multidownload
 systems:
 - 3DS
 title: Multidownload
+update_notes: "New in this release:-\r\n * Various bug fixes (Two criticals:- one\
+  \ related to zip & other related to downloading files over 15 mb)\r\n * Enhancement\
+  \ of UI\r\n\r\nMany thanks to all the people who help me make this project better!\r\
+  \n"
 updated: '2017-05-15T06:19:12Z'
 version: v3.2
 version_title: Multidownload++ v3.2

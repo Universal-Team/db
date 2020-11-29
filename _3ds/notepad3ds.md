@@ -25,6 +25,10 @@ source: https://github.com/RMcTn/Notepad3DS
 systems:
 - 3DS
 title: Notepad3DS
+update_notes: "# 1.1.2\r\n### Features\r\n* Lines are no longer restricted to a max\
+  \ length of 60 characters. Increased to 1024 to match with notepad's line limit.\r\
+  \n\r\n### Bug fixes\r\n* Lines are no longer redrawn when pressing down at the end\
+  \ of file.\r\n* Fixed program crashing when adding lines around 26/27 to a new file."
 updated: '2017-12-06T15:58:06Z'
 version: 1.1.2
 version_title: Notepad3DS

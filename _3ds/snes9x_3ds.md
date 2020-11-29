@@ -53,6 +53,13 @@ source: https://github.com/bubble2k16/snes9x_3ds
 systems:
 - 3DS
 title: snes9x_3ds
+update_notes: "- Improved sound synchronization.\r\n- Added BlargSNES DSP Core (experimental)\
+  \ for performance. The original Snes9X DSP core (default) suffers from sound skipping\
+  \ in some games like Aladdin and Gradius 3. You can choose which DSP core to use\
+  \ from the Options menu. The BlargSNES DSP Core sounds similar to the Snes9x Core\
+  \ for most games. Sounds like Final Fantasy 3's the howling wind sound different.\r\
+  \n- Added support for Tengai Makyou Zero English Patch (for hopefully all future\
+  \ versions)\r\n"
 updated: '2018-03-24T01:43:21Z'
 version: v1.30
 version_title: v1.30

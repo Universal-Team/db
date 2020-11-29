@@ -57,6 +57,18 @@ source: https://github.com/TurtleP/Hax0r
 systems:
 - 3DS
 title: Hax0r
+update_notes: 'Welp I messed up after Love Potion updated.
+
+
+  Here''s a fix for it.
+
+
+  Included are a 3dsx version _and_ cia version!
+
+
+  ![](http://tinyurl.com/Hax0rCIA)
+
+  '
 updated: '2016-07-07T19:36:27Z'
 version: v1.2
 version_title: Bugfixes 'n Stuff

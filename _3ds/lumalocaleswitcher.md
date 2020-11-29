@@ -62,6 +62,12 @@ source: https://github.com/Possum/LumaLocaleSwitcher
 systems:
 - 3DS
 title: LumaLocaleSwitcher
+update_notes: "- Fixes typos in default paths\r\n- Fixes detection issues in the UI\r\
+  \n- Hide title IDs most people would not want to tweak (DS/system titles; they can\
+  \ be toggled on with the Y button)\r\n\r\nThe builds below are identical with the\
+  \ exception that they have different defaults.\r\n\r\n**LUMA STABLE** (if your Luma\
+  \ is 6.6 or lower):\r\n![QR](https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/qr/0.04.png)\r\
+  \n\r\n**LUMA NIGHTLY** (if your Luma is greater than 6.6 or Nightly):\r\n![QR](https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/qr/0.04-NIGHTLY.png)"
 updated: '2017-04-22T18:55:03Z'
 version: '0.04'
 version_title: '0.04'

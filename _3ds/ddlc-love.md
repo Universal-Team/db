@@ -26,6 +26,7 @@ source: https://github.com/LukeZGD/DDLC-LOVE
 systems:
 - 3DS
 title: DDLC-LOVE
+update_notes: '- [See README notes](https://github.com/LukeZGD/DDLC-LOVE#some-notes)'
 updated: '2020-10-03T15:43:26Z'
 version: v1.1.9
 version_title: v1.1.9

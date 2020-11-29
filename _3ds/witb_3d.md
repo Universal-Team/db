@@ -42,6 +42,11 @@ source: https://github.com/Manurocker95/WITB_3D
 systems:
 - 3DS
 title: WITB_3D
+update_notes: "- New .sav mode in /3ds/data/WITB. If .sav doesn't exists, the game\
+  \ checks if the file \"witbdata.txt\" exists in the root of the sd card to read\
+  \ the taps. (Just for debugging) It creates the .sav for taps.\r\n\r\n- You can\
+  \ now save taps pressing START whenever you want.\r\n\r\n- Removed 3D Stereoscopic\
+  \ (cz for this is not needed) and tap sound (Seems it was the reason for the freezing) "
 updated: '2017-04-17T18:32:57Z'
 version: '1.1'
 version_title: Release 1.1 - Freeze Fix

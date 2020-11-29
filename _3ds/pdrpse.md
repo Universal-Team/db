@@ -54,6 +54,9 @@ source: https://github.com/suloku/pdrpse
 systems:
 - 3DS
 title: pdrpse
+update_notes: "Corrected offset saving for upgrades.\r\nL button now refills clouds\
+  \ (no more waiting).\r\n\r\n31th January 2017 update: included cia version in the\
+  \ package."
 updated: '2015-10-18T21:15:51Z'
 version: '0.3'
 version_title: Free Refills

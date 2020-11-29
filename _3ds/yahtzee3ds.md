@@ -25,6 +25,8 @@ source: https://github.com/LiquidFenrir/Yahtzee3DS
 systems:
 - 3DS
 title: Yahtzee3DS
+update_notes: Rolling 3 times would make the combinations button disappear and prevent
+  the game from continuing, thanks CecilFF4 for noticing
 updated: '2018-06-27T16:13:08Z'
 version: v1.0.1
 version_title: Breaking bugs fixed

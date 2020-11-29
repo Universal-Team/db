@@ -25,6 +25,12 @@ source: https://github.com/GamesSanti/Craftus-Redesigned
 systems:
 - 3DS
 title: Craftus Redesigned
+update_notes: "# WARNING!!! WORLDS CREATED BEFORE RELEASE 0.4.0 WILL NOT WORK OR WILL\
+  \ HAVE TEXTURES SWICHED!\r\n\r\n-Default controls were changed, if you wish to change\
+  \ them, go to `sd:/craftus_redesigned/options.ini`\r\n\r\n![top](https://user-images.githubusercontent.com/68710005/100171600-963d1880-2ea5-11eb-8bb8-db6d13c6fdcd.png)\r\
+  \n![bottom](https://user-images.githubusercontent.com/68710005/100171666-99d09f80-2ea5-11eb-9dc5-95f7953a6db5.png)\r\
+  \n\r\nQR code for remote install : \r\n![qrcode](https://user-images.githubusercontent.com/68710005/100368414-52036280-2fe2-11eb-822e-fd954f9ce364.png)\r\
+  \n"
 updated: '2020-11-26T15:22:41Z'
 version: 0.5.4
 version_title: V0.5.4

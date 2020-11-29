@@ -66,6 +66,18 @@ source: https://github.com/masterfeizz/ctrQuake
 systems:
 - 3DS
 title: ctrQuake
+update_notes: 'You can now host and also join online servers. Dithering has also been
+  implemented and can be toggled from the options menu.
+
+
+  A list of servers that "SHOULD" work can be found here http://servers.quakeone.com/home/0
+
+  Keep in mind that most servers require the full game
+
+
+  Happy Fragging
+
+  '
 updated: '2016-09-13T02:38:10Z'
 version: v0.8
 version_title: 8th Release - Online MP

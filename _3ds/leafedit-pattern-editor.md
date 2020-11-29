@@ -26,6 +26,15 @@ source: https://github.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor
 systems:
 - 3DS
 title: LeafEdit-Pattern-Editor
+update_notes: "## This is the fourth release of LeafEdit-Pattern-Editor.\r\n\r\n###\
+  \ What got added?\r\n- Support for Animal Crossing: Happy Home Designer pattern.\
+  \ (Including Storage & Pattern Editing).\r\n\r\n- Support for playing a `.wav` file.\
+  \ (For more look at the ReadMe).\r\n\r\n- Added Storage Menu (Now you can change,\
+  \ resize, create, manage & save your storage!). Also increased max boxlimit to 50,\
+  \ which allows 500 Pattern each storage.\r\n\r\n- Fix Filebrowse selector.\r\n\r\
+  \n- Use hidKeysDownRepeat() for better scrolling.\r\n\r\n\r\n### As always, for\
+  \ bugs, report on the Issues section or join my discord server [here](https://discord.gg/UrHM5Rj).\r\
+  \n\r\n### Have fun. ~SuperSaiyajinStackZ"
 updated: '2020-08-29T12:45:26Z'
 version: v0.4.0
 version_title: Happy Home Designer support!
