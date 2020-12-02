@@ -322,7 +322,11 @@ for app in source:
 		if not "screenshots" in app:
 			app["screenshots"] = []
 		for screenshot in os.listdir(os.path.join("..", "assets", "images", "screenshots", webName(app["title"]))):
-			app["screenshots"].append({"url": "https://db.universal-team.net/assets/images/screenshots/" + webName(app["title"]) + "/" + screenshot})
+			if screenshot[-3:] in ["png", "gif", "jpg", "peg", "iff", "bmp"]:
+				app["screenshots"].append({
+					"url": "https://db.universal-team.net/assets/images/screenshots/" + webName(app["title"]) + "/" + screenshot,
+					"description": screenshot[:screenshot.rfind(".")].capitalize().replace("-", " ")
+				})
 
 
 	if "title" in app:
@@ -445,12 +449,18 @@ for app in source:
 				"console": app["systems"].copy() if "systems" in app else [],
 				"icon_index": len(icons) - 1 if "icon" in app or "image" in app else -1,
 				"description": app["description"] if "description" in app else "",
-				"screenshots": app["screenshots"] if "screenshots" in app else [],
+				"screenshots": [],
 				"license": app["license"] if "license" in app else ""
 			}
 		}
+
 		if "updated" in app:
 			uni["info"]["last_updated"] = parser.parse(app["updated"]).strftime("%Y-%m-%d at %H:%M (UTC)")
+
+		if "screenshots" in app:
+			for screenshot in app["screenshots"]:
+				if screenshot["url"][-3:] == "png":
+					uni["info"]["screenshots"].append(screenshot)
 
 		if "DS" in uni["info"]["console"]:
 			uni["info"]["console"].remove("DS")

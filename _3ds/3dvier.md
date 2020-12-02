@@ -31,14 +31,22 @@ nightly:
 qr:
   3DVier.cia: https://db.universal-team.net/assets/images/qr/3dvier.cia.png
 screenshots:
-- url: https://db.universal-team.net/assets/images/screenshots/3dvier/keyboard.png
-- url: https://db.universal-team.net/assets/images/screenshots/3dvier/inGame.png
-- url: https://db.universal-team.net/assets/images/screenshots/3dvier/charSelection.png
-- url: https://db.universal-team.net/assets/images/screenshots/3dvier/uiSettings.png
-- url: https://db.universal-team.net/assets/images/screenshots/3dvier/colorSettings.png
-- url: https://db.universal-team.net/assets/images/screenshots/3dvier/langSelection.png
-- url: https://db.universal-team.net/assets/images/screenshots/3dvier/mainMenu.png
-- url: https://db.universal-team.net/assets/images/screenshots/3dvier/credits.png
+- description: Main menu
+  url: https://db.universal-team.net/assets/images/screenshots/3dvier/main-menu.png
+- description: Keyboard
+  url: https://db.universal-team.net/assets/images/screenshots/3dvier/keyboard.png
+- description: Ui settings
+  url: https://db.universal-team.net/assets/images/screenshots/3dvier/ui-settings.png
+- description: Color settings
+  url: https://db.universal-team.net/assets/images/screenshots/3dvier/color-settings.png
+- description: In game
+  url: https://db.universal-team.net/assets/images/screenshots/3dvier/in-game.png
+- description: Lang selection
+  url: https://db.universal-team.net/assets/images/screenshots/3dvier/lang-selection.png
+- description: Char selection
+  url: https://db.universal-team.net/assets/images/screenshots/3dvier/char-selection.png
+- description: Credits
+  url: https://db.universal-team.net/assets/images/screenshots/3dvier/credits.png
 source: https://github.com/Universal-Team/3DVier
 systems:
 - 3DS

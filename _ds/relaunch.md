@@ -22,8 +22,8 @@ nightly:
     Relaunch.7z:
       url: https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z
 screenshots:
-- url: https://db.universal-team.net/assets/images/screenshots/relaunch/bottom.png
-- url: https://db.universal-team.net/assets/images/screenshots/relaunch/top.png
+- description: Main
+  url: https://db.universal-team.net/assets/images/screenshots/relaunch/main.png
 scripts:
   Relaunch.cia:
   - file: Relaunch.7z

@@ -31,20 +31,34 @@ nightly:
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater.cia.png
 screenshots:
-- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/directorySettings.png
-- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/languageSelection.png
-- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/autoUpdateSettings.png
-- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/sortMenu.png
-- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/listStyle.png
-- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/settingsMenu.png
-- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/directorySelection.png
-- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/searchMenu.png
-- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/credits.png
-- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/guiSettings.png
-- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/markMenu.png
-- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/downloadList.png
-- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/entryInfo.png
-- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/storeSelection.png
+- description: Gui settings
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/gui-settings.png
+- description: Directory settings
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/directory-settings.png
+- description: Store selection
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/store-selection.png
+- description: Mark menu
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/mark-menu.png
+- description: Settings menu
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/settings-menu.png
+- description: Directory selection
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/directory-selection.png
+- description: Sort menu
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/sort-menu.png
+- description: Entry info
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/entry-info.png
+- description: Search menu
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/search-menu.png
+- description: Auto update settings
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/auto-update-settings.png
+- description: List style
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/list-style.png
+- description: Language selection
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/language-selection.png
+- description: Credits
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/credits.png
+- description: Download list
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/download-list.png
 source: https://github.com/Universal-Team/Universal-Updater
 systems:
 - 3DS

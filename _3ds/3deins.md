@@ -38,9 +38,12 @@ qr:
   3DEins.cia: https://db.universal-team.net/assets/images/qr/3deins.cia.png
   DSEins.nds.cia: https://db.universal-team.net/assets/images/qr/dseins.nds.cia.png
 screenshots:
-- url: https://db.universal-team.net/assets/images/screenshots/3deins/ingame.png
-- url: https://db.universal-team.net/assets/images/screenshots/3deins/charSelection.png
-- url: https://db.universal-team.net/assets/images/screenshots/3deins/mainMenu.png
+- description: Main menu
+  url: https://db.universal-team.net/assets/images/screenshots/3deins/main-menu.png
+- description: Ingame
+  url: https://db.universal-team.net/assets/images/screenshots/3deins/ingame.png
+- description: Char selection
+  url: https://db.universal-team.net/assets/images/screenshots/3deins/char-selection.png
 source: https://github.com/Universal-Team/3DEins
 systems:
 - 3DS
