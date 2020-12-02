@@ -2,7 +2,7 @@
 author: Spaqin
 categories:
 - game
-color: '#81786b'
+color: '#a09585'
 created: '2016-01-30T08:52:55Z'
 description: Falling Blocks Watch Out, a 3DS homebrew Tetris clone.
 download_page: https://github.com/Spaqin/fbwo-3ds/releases/tag/v0.4.1

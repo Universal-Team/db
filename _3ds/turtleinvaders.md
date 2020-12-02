@@ -2,7 +2,7 @@
 author: TurtleP
 categories:
 - game
-color: '#4d4317'
+color: '#7a6a24'
 created: '2015-08-29T03:59:28Z'
 description: A fixed-axis shooter with netplay
 download_page: https://github.com/TurtleP/TurtleInvaders/releases/tag/v1.0.2
