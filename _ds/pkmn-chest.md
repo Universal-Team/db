@@ -32,6 +32,26 @@ nightly:
     pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/nightly/pkmn-chest.cia.png
 qr:
   pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/pkmn-chest.cia.png
+screenshots:
+- url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/options
+- url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/box-1.png
+- url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/wallpaper.png
+- url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/box-2.png
+- url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/natures.png
+- url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/moves.png
+- url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/options.gif
+- url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/balls.png
+- url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/party.png
+- url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/top-menu-1.png
+- url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/top-menu-2.png
+- url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/origin.png
+- url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/stats.png
+- url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/x-menu.png
+- url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/species.png
+- url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/summary.png
+- url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/forms.png
+- url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/trainer.png
+- url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/bag.png
 source: https://github.com/Universal-Team/pkmn-chest
 systems:
 - DS

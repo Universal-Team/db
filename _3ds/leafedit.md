@@ -32,6 +32,43 @@ nightly:
     LeafEdit.cia: https://db.universal-team.net/assets/images/qr/nightly/leafedit.cia.png
 qr:
   LeafEdit.cia: https://db.universal-team.net/assets/images/qr/leafedit.cia.png
+screenshots:
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/mapEditorNL.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/villagerItemEditor.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/playerEditorNL2.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/patternViewer.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/paletteToolNL.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/appearanceEditorNL.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/settings.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/pocketEditorNL.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/itemEditorWW.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/acreEditorNL.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/playerSelector.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/badgeEditor.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/paletteToolNL2.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/villagerViewer.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/developed_screen.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/townEditor.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/villagerSelect.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/editor.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/playerEditorWW.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/itemList.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/playerEditorNL.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/saveSelect.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/patternEditor.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/patternToolMenu.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/playerEditorWW2.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/pocketEditorWW.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/paletteToolWW.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/mainMenu.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/appearanceEditorWW.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/credits.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/scriptMain.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/acreEditorWW.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/villagerEditor.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/itemEditorNL.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/mapEditorWW.png
+- url: https://db.universal-team.net/assets/images/screenshots/leafedit/updateCenter.png
 source: https://github.com/Universal-Team/LeafEdit
 systems:
 - 3DS

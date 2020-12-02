@@ -30,6 +30,15 @@ nightly:
     3DVier.cia: https://db.universal-team.net/assets/images/qr/nightly/3dvier.cia.png
 qr:
   3DVier.cia: https://db.universal-team.net/assets/images/qr/3dvier.cia.png
+screenshots:
+- url: https://db.universal-team.net/assets/images/screenshots/3dvier/keyboard.png
+- url: https://db.universal-team.net/assets/images/screenshots/3dvier/inGame.png
+- url: https://db.universal-team.net/assets/images/screenshots/3dvier/charSelection.png
+- url: https://db.universal-team.net/assets/images/screenshots/3dvier/uiSettings.png
+- url: https://db.universal-team.net/assets/images/screenshots/3dvier/colorSettings.png
+- url: https://db.universal-team.net/assets/images/screenshots/3dvier/langSelection.png
+- url: https://db.universal-team.net/assets/images/screenshots/3dvier/mainMenu.png
+- url: https://db.universal-team.net/assets/images/screenshots/3dvier/credits.png
 source: https://github.com/Universal-Team/3DVier
 systems:
 - 3DS

@@ -37,6 +37,10 @@ nightly:
 qr:
   3DEins.cia: https://db.universal-team.net/assets/images/qr/3deins.cia.png
   DSEins.nds.cia: https://db.universal-team.net/assets/images/qr/dseins.nds.cia.png
+screenshots:
+- url: https://db.universal-team.net/assets/images/screenshots/3deins/ingame.png
+- url: https://db.universal-team.net/assets/images/screenshots/3deins/charSelection.png
+- url: https://db.universal-team.net/assets/images/screenshots/3deins/mainMenu.png
 source: https://github.com/Universal-Team/3DEins
 systems:
 - 3DS

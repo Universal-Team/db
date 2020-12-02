@@ -30,6 +30,21 @@ nightly:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/nightly/universal-updater.cia.png
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater.cia.png
+screenshots:
+- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/directorySettings.png
+- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/languageSelection.png
+- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/autoUpdateSettings.png
+- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/sortMenu.png
+- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/listStyle.png
+- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/settingsMenu.png
+- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/directorySelection.png
+- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/searchMenu.png
+- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/credits.png
+- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/guiSettings.png
+- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/markMenu.png
+- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/downloadList.png
+- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/entryInfo.png
+- url: https://db.universal-team.net/assets/images/screenshots/universal-updater/storeSelection.png
 source: https://github.com/Universal-Team/Universal-Updater
 systems:
 - 3DS
