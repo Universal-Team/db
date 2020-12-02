@@ -318,6 +318,13 @@ for app in source:
 				app["updated"] = commit["date"]
 
 
+	if os.path.exists(os.path.join("..", "assets", "images", "screenshots", webName(app["title"]))):
+		if not "screenshots" in app:
+			app["screenshots"] = []
+		for screenshot in os.listdir(os.path.join("..", "assets", "images", "screenshots", webName(app["title"]))):
+			app["screenshots"].append({"url": "https://db.universal-team.net/assets/images/screenshots/" + webName(app["title"]) + "/" + screenshot})
+
+
 	if "title" in app:
 		print(webName(app["title"]))
 	print("=" * 80)
@@ -438,6 +445,7 @@ for app in source:
 				"console": app["systems"].copy() if "systems" in app else [],
 				"icon_index": len(icons) - 1 if "icon" in app or "image" in app else -1,
 				"description": app["description"] if "description" in app else "",
+				"screenshots": app["screenshots"] if "screenshots" in app else [],
 				"license": app["license"] if "license" in app else ""
 			}
 		}
