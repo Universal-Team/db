@@ -21,6 +21,13 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   ModMoon.cia: https://db.universal-team.net/assets/images/qr/modmoon.cia.png
+screenshots:
+- description: Main menu dark
+  url: https://db.universal-team.net/assets/images/screenshots/modmoon/main-menu-dark.png
+- description: Main menu
+  url: https://db.universal-team.net/assets/images/screenshots/modmoon/main-menu.png
+- description: Tools menu
+  url: https://db.universal-team.net/assets/images/screenshots/modmoon/tools-menu.png
 source: https://github.com/Swiftloke/ModMoon
 systems:
 - 3DS

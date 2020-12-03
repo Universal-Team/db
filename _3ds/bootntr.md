@@ -32,6 +32,13 @@ qr:
   BootNTRSelector-Mode3-FONZD-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-mode3-fonzd-banner.cia.png
   BootNTRSelector-Mode3-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-mode3-pablomk7-banner.cia.png
   BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-pablomk7-banner.cia.png
+screenshots:
+- description: Auto updater
+  url: https://db.universal-team.net/assets/images/screenshots/bootntr/auto-updater.png
+- description: Failed to load
+  url: https://db.universal-team.net/assets/images/screenshots/bootntr/failed-to-load.png
+- description: Main menu
+  url: https://db.universal-team.net/assets/images/screenshots/bootntr/main-menu.png
 source: https://github.com/Nanquitas/BootNTR
 systems:
 - 3DS

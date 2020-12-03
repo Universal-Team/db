@@ -23,6 +23,13 @@ license: mit
 license_name: MIT License
 qr:
   SavvyManager.cia: https://db.universal-team.net/assets/images/qr/savvymanager.cia.png
+screenshots:
+- description: Character change menu
+  url: https://db.universal-team.net/assets/images/screenshots/savvymanager/character-change-menu.png
+- description: Game select
+  url: https://db.universal-team.net/assets/images/screenshots/savvymanager/game-select.png
+- description: Import character
+  url: https://db.universal-team.net/assets/images/screenshots/savvymanager/import-character.png
 source: https://github.com/RocketRobz/SavvyManager
 systems:
 - 3DS

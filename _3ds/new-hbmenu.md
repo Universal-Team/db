@@ -15,6 +15,13 @@ github: fincs/new-hbmenu
 icon: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
 image: https://avatars2.githubusercontent.com/u/581494?v=4
 layout: app
+screenshots:
+- description: 3dslink
+  url: https://db.universal-team.net/assets/images/screenshots/new-hbmenu/3dslink.png
+- description: Favorite app
+  url: https://db.universal-team.net/assets/images/screenshots/new-hbmenu/favorite-app.png
+- description: File list
+  url: https://db.universal-team.net/assets/images/screenshots/new-hbmenu/file-list.png
 scripts:
   boot.3dsx:
   - file: boot.3dsx

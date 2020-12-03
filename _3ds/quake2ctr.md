@@ -25,6 +25,11 @@ prerelease:
   updated: '2017-06-24T15:36:24Z'
   version: v0.2
   version_title: Save fix and Input enhancements
+screenshots:
+- description: Gameplay 1
+  url: https://db.universal-team.net/assets/images/screenshots/quake2ctr/gameplay-1.png
+- description: Gameplay 2
+  url: https://db.universal-team.net/assets/images/screenshots/quake2ctr/gameplay-2.png
 source: https://github.com/masterfeizz/Quake2CTR
 systems:
 - 3DS

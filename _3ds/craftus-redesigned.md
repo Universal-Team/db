@@ -21,6 +21,11 @@ license: other
 license_name: Other
 qr:
   craftus_redesigned.cia: https://db.universal-team.net/assets/images/qr/craftus_redesigned.cia.png
+screenshots:
+- description: House
+  url: https://db.universal-team.net/assets/images/screenshots/craftus-redesigned/house.png
+- description: Title screen
+  url: https://db.universal-team.net/assets/images/screenshots/craftus-redesigned/title-screen.png
 source: https://github.com/GamesSanti/Craftus-Redesigned
 systems:
 - 3DS

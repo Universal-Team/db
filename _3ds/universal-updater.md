@@ -31,34 +31,34 @@ nightly:
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater.cia.png
 screenshots:
-- description: Settings menu
-  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/settings-menu.png
-- description: Credits
-  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/credits.png
-- description: Language selection
-  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/language-selection.png
-- description: Gui settings
-  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/gui-settings.png
-- description: Download list
-  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/download-list.png
-- description: Mark menu
-  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/mark-menu.png
 - description: Auto update settings
   url: https://db.universal-team.net/assets/images/screenshots/universal-updater/auto-update-settings.png
+- description: Credits
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/credits.png
 - description: Directory selection
   url: https://db.universal-team.net/assets/images/screenshots/universal-updater/directory-selection.png
-- description: Store selection
-  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/store-selection.png
-- description: Search menu
-  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/search-menu.png
-- description: Entry info
-  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/entry-info.png
 - description: Directory settings
   url: https://db.universal-team.net/assets/images/screenshots/universal-updater/directory-settings.png
+- description: Download list
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/download-list.png
+- description: Entry info
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/entry-info.png
+- description: Gui settings
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/gui-settings.png
+- description: Language selection
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/language-selection.png
 - description: List style
   url: https://db.universal-team.net/assets/images/screenshots/universal-updater/list-style.png
+- description: Mark menu
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/mark-menu.png
+- description: Search menu
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/search-menu.png
+- description: Settings menu
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/settings-menu.png
 - description: Sort menu
   url: https://db.universal-team.net/assets/images/screenshots/universal-updater/sort-menu.png
+- description: Store selection
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/store-selection.png
 source: https://github.com/Universal-Team/Universal-Updater
 systems:
 - 3DS
@@ -137,13 +137,16 @@ version_title: Universal Updater 3.0.0 - Happy 1st Anniversary
 website: https://universal-team.net/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
-Universal-Updater is a homebrew app that allows easy installation and updating of other 3DS homebrew!
+Universal-Updater is a homebrew application for the Nintendo 3DS with the intention to make downloading other homebrew simple and easy. No need to manually copy files or go through installation processes, as we do that for you.
 
-Some features include:
-- Flexible and easy to make scripts
-- Pre-made scripts that anyone can submit available for download from within the app
-- Translated to English, French, German, Italian, Japanese, Lithuanian, Portuguese, Russian, and Spanish
-- Customizable interface colors
-- Get some useful Homebrew apps thanks to the TinyDB implementation
-
-![The main menu](https://universal-team.net/images/universal-updater/entryInfo.png)
+Its features include:
+- A store format with a concept similar to the Cydia Repositories
+   - The default is [Universal-DB](https://db.universal-team.net)
+   - Want to add your own? Go to settings, find "Select Unistore", hit the + icon and type the URL or hit the QR button and scan the QR code (if they have one)
+- Customization in sorting and display
+   - Sort by Title, Author, or Last Updated
+   - Direction can be Ascending or Descending
+   - App display can be shown in either a Grid or Rows
+- Translations for users of many languages
+   - To contribute to translations, join our [Crowdin](https://crwd.in/universal-updater)
+   - Request a new language on our [Discord Server](https://universal-team.net/discord)

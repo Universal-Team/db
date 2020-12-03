@@ -21,6 +21,35 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   3DElf.cia: https://db.universal-team.net/assets/images/qr/3delf.cia.png
+screenshots:
+- description: Credits de
+  url: https://db.universal-team.net/assets/images/screenshots/3delf/credits-de.png
+- description: Credits en
+  url: https://db.universal-team.net/assets/images/screenshots/3delf/credits-en.png
+- description: Game screen de
+  url: https://db.universal-team.net/assets/images/screenshots/3delf/game-screen-de.png
+- description: Game screen en
+  url: https://db.universal-team.net/assets/images/screenshots/3delf/game-screen-en.png
+- description: Instructions de
+  url: https://db.universal-team.net/assets/images/screenshots/3delf/instructions-de.png
+- description: Instructions en
+  url: https://db.universal-team.net/assets/images/screenshots/3delf/instructions-en.png
+- description: Language overlay de
+  url: https://db.universal-team.net/assets/images/screenshots/3delf/language-overlay-de.png
+- description: Language overlay en
+  url: https://db.universal-team.net/assets/images/screenshots/3delf/language-overlay-en.png
+- description: Rules de
+  url: https://db.universal-team.net/assets/images/screenshots/3delf/rules-de.png
+- description: Rules en
+  url: https://db.universal-team.net/assets/images/screenshots/3delf/rules-en.png
+- description: Splash de
+  url: https://db.universal-team.net/assets/images/screenshots/3delf/splash-de.png
+- description: Splash en
+  url: https://db.universal-team.net/assets/images/screenshots/3delf/splash-en.png
+- description: Sub menu de
+  url: https://db.universal-team.net/assets/images/screenshots/3delf/sub-menu-de.png
+- description: Sub menu en
+  url: https://db.universal-team.net/assets/images/screenshots/3delf/sub-menu-en.png
 source: https://github.com/SuperSaiyajinStackZ/3DElf
 systems:
 - 3DS
@@ -40,10 +69,6 @@ wiki: https://github.com/SuperSaiyajinStackZ/3DElf/wiki
 
 [Elfer raus!](https://de.wikipedia.org/wiki/Elfer_raus!) klon für den Nintendo 3DS!
 
-![Spiel Screen](https://github.com/SuperSaiyajinStackZ/3DElf/raw/main/screenshots/game_screen_de.png)
-
 ### English
 
 [Elfer raus!](https://en.wikipedia.org/wiki/Domino_(card_game)#Elfer_Raus!) clone for the Nintendo 3DS!
-
-![The game screen](https://github.com/SuperSaiyajinStackZ/3DElf/raw/main/screenshots/game_screen_en.png)

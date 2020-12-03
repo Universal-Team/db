@@ -16,6 +16,17 @@ image: https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-256.png
 layout: app
 license: mpl-2.0
 license_name: Mozilla Public License 2.0
+screenshots:
+- description: File list
+  url: https://db.universal-team.net/assets/images/screenshots/mgba/file-list.png
+- description: In game menu
+  url: https://db.universal-team.net/assets/images/screenshots/mgba/in-game-menu.png
+- description: Scale 1x
+  url: https://db.universal-team.net/assets/images/screenshots/mgba/scale-1x.png
+- description: Scale aspect ratio
+  url: https://db.universal-team.net/assets/images/screenshots/mgba/scale-aspect-ratio.png
+- description: Scale stretch
+  url: https://db.universal-team.net/assets/images/screenshots/mgba/scale-stretch.png
 scripts:
   mgba.3dsx:
   - file: mGBA-.*-3ds.7z

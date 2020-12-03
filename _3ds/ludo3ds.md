@@ -21,6 +21,47 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   Ludo3DS.cia: https://db.universal-team.net/assets/images/qr/ludo3ds.cia.png
+screenshots:
+- description: Credits de
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/credits-de.png
+- description: Credits en
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/credits-en.png
+- description: Dice overlay de
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/dice-overlay-de.png
+- description: Dice overlay en
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/dice-overlay-en.png
+- description: Dice overlay2 de
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/dice-overlay2-de.png
+- description: Dice overlay2 en
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/dice-overlay2-en.png
+- description: Game screen de
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/game-screen-de.png
+- description: Game screen en
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/game-screen-en.png
+- description: Instructions1 de
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/instructions1-de.png
+- description: Instructions1 en
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/instructions1-en.png
+- description: Instructions2 de
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/instructions2-de.png
+- description: Instructions2 en
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/instructions2-en.png
+- description: Language overlay de
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/language-overlay-de.png
+- description: Language overlay en
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/language-overlay-en.png
+- description: Rules de
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/rules-de.png
+- description: Rules en
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/rules-en.png
+- description: Splash de
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/splash-de.png
+- description: Splash en
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/splash-en.png
+- description: Sub menu de
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/sub-menu-de.png
+- description: Sub menu en
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/sub-menu-en.png
 source: https://github.com/SuperSaiyajinStackZ/Ludo3DS
 systems:
 - 3DS
@@ -46,11 +87,6 @@ wiki: https://github.com/SuperSaiyajinStackZ/Ludo3DS/wiki
 
 Ludo klon für den Nintendo 3DS! Dieses Spiel ist ebenso als [Mensch ärger Dich nicht](https://de.wikipedia.org/wiki/Mensch_ärgere_Dich_nicht) bekannt.
 
-
-![Spiel Screen](https://github.com/SuperSaiyajinStackZ/Ludo3DS/raw/main/screenshots/game_screen_de.png)
-
 ### English
 
 Ludo clone for the Nintendo 3DS! The game is also known as [Mensch ärger Dich nicht (Man, Don't Get Angry)](https://en.wikipedia.org/wiki/Mensch_ärgere_Dich_nicht).
-
-![The game screen](https://github.com/SuperSaiyajinStackZ/Ludo3DS/raw/main/screenshots/game_screen_en.png)

@@ -24,6 +24,13 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 qr:
   DaedalusX64.cia: https://db.universal-team.net/assets/images/qr/daedalusx64.cia.png
+screenshots:
+- description: Mario kart 64
+  url: https://db.universal-team.net/assets/images/screenshots/daedalusx64-3ds/mario-kart-64.png
+- description: Super mario 64
+  url: https://db.universal-team.net/assets/images/screenshots/daedalusx64-3ds/super-mario-64.png
+- description: Touch screen menu
+  url: https://db.universal-team.net/assets/images/screenshots/daedalusx64-3ds/touch-screen-menu.png
 source: https://github.com/masterfeizz/DaedalusX64-3DS
 systems:
 - 3DS

@@ -20,6 +20,9 @@ image: https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resour
 layout: app
 qr:
   GYTB.cia: https://db.universal-team.net/assets/images/qr/gytb.cia.png
+screenshots:
+- description: While running
+  url: https://db.universal-team.net/assets/images/screenshots/gytb/while-running.png
 scripts:
   GYTB.3dsx:
   - file: GYTB_hax.zip

@@ -28,6 +28,11 @@ license_name: zlib License
 qr:
   3DSident-GUI.cia: https://db.universal-team.net/assets/images/qr/3dsident-gui.cia.png
   3DSident.cia: https://db.universal-team.net/assets/images/qr/3dsident.cia.png
+screenshots:
+- description: Kernel
+  url: https://db.universal-team.net/assets/images/screenshots/3dsident/kernel.png
+- description: Storage
+  url: https://db.universal-team.net/assets/images/screenshots/3dsident/storage.png
 source: https://github.com/joel16/3DSident
 systems:
 - 3DS

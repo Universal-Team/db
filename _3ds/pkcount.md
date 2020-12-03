@@ -24,6 +24,17 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   PKCount.cia: https://db.universal-team.net/assets/images/qr/pkcount.cia.png
+screenshots:
+- description: Encounter screen
+  url: https://db.universal-team.net/assets/images/screenshots/pkcount/encounter-screen.png
+- description: Help box
+  url: https://db.universal-team.net/assets/images/screenshots/pkcount/help-box.png
+- description: Main menu
+  url: https://db.universal-team.net/assets/images/screenshots/pkcount/main-menu.png
+- description: Settings
+  url: https://db.universal-team.net/assets/images/screenshots/pkcount/settings.png
+- description: The credits
+  url: https://db.universal-team.net/assets/images/screenshots/pkcount/the-credits.png
 source: https://github.com/SuperSaiyajinStackZ/PKCount
 systems:
 - DS

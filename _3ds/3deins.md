@@ -38,12 +38,12 @@ qr:
   3DEins.cia: https://db.universal-team.net/assets/images/qr/3deins.cia.png
   DSEins.nds.cia: https://db.universal-team.net/assets/images/qr/dseins.nds.cia.png
 screenshots:
-- description: Main menu
-  url: https://db.universal-team.net/assets/images/screenshots/3deins/main-menu.png
-- description: Ingame
-  url: https://db.universal-team.net/assets/images/screenshots/3deins/ingame.png
 - description: Char selection
   url: https://db.universal-team.net/assets/images/screenshots/3deins/char-selection.png
+- description: Ingame
+  url: https://db.universal-team.net/assets/images/screenshots/3deins/ingame.png
+- description: Main menu
+  url: https://db.universal-team.net/assets/images/screenshots/3deins/main-menu.png
 source: https://github.com/Universal-Team/3DEins
 systems:
 - 3DS
@@ -142,5 +142,3 @@ It currently includes:
 - Customizable Cards & Characters
 - Translated to English, French, German, Japanese, Russian, and Spanish
 - Customizable interface colors
-
-![The main menu](https://universal-team.net/images/3deins/mainMenu.png)

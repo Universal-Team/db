@@ -21,6 +21,9 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   Idiot.cia: https://db.universal-team.net/assets/images/qr/idiot.cia.png
+screenshots:
+- description: Main
+  url: https://db.universal-team.net/assets/images/screenshots/you-are-an-idiot/main.png
 source: https://github.com/HIDE810/you-are-an-idiot
 systems:
 - 3DS

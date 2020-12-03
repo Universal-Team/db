@@ -24,6 +24,13 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   LimePlayer3DS.cia: https://db.universal-team.net/assets/images/qr/limeplayer3ds.cia.png
+screenshots:
+- description: File list
+  url: https://db.universal-team.net/assets/images/screenshots/limeplayer3ds/file-list.png
+- description: Playback screen
+  url: https://db.universal-team.net/assets/images/screenshots/limeplayer3ds/playback-screen.png
+- description: Quick menu
+  url: https://db.universal-team.net/assets/images/screenshots/limeplayer3ds/quick-menu.png
 source: https://github.com/Oreo639/LimePlayer3DS
 systems:
 - 3DS

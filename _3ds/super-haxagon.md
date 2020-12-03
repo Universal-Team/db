@@ -24,6 +24,17 @@ license: mit
 license_name: MIT License
 qr:
   SuperHaxagon.cia: https://db.universal-team.net/assets/images/qr/superhaxagon.cia.png
+screenshots:
+- description: Gameplay 1
+  url: https://db.universal-team.net/assets/images/screenshots/super-haxagon/gameplay-1.png
+- description: Gameplay 2
+  url: https://db.universal-team.net/assets/images/screenshots/super-haxagon/gameplay-2.png
+- description: Gameplay 3
+  url: https://db.universal-team.net/assets/images/screenshots/super-haxagon/gameplay-3.png
+- description: Gameplay 4 horihd
+  url: https://db.universal-team.net/assets/images/screenshots/super-haxagon/gameplay-4-horihd.png
+- description: Gameplay 4
+  url: https://db.universal-team.net/assets/images/screenshots/super-haxagon/gameplay-4.png
 source: https://github.com/RedTopper/Super-Haxagon
 systems:
 - 3DS

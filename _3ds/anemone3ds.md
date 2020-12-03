@@ -27,6 +27,11 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   Anemone3DS.cia: https://db.universal-team.net/assets/images/qr/anemone3ds.cia.png
+screenshots:
+- description: Get themes mode
+  url: https://db.universal-team.net/assets/images/screenshots/anemone3ds/get-themes-mode.png
+- description: Theme list
+  url: https://db.universal-team.net/assets/images/screenshots/anemone3ds/theme-list.png
 source: https://github.com/astronautlevel2/Anemone3DS
 systems:
 - 3DS

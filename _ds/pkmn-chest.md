@@ -33,38 +33,38 @@ nightly:
 qr:
   pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/pkmn-chest.cia.png
 screenshots:
+- description: Bag
+  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/bag.png
+- description: Balls
+  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/balls.png
+- description: Box
+  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/box.png
+- description: Forms
+  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/forms.png
+- description: Moves
+  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/moves.png
+- description: Natures
+  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/natures.png
+- description: Options
+  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/options.gif
+- description: Origin
+  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/origin.png
+- description: Party
+  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/party.png
+- description: Species
+  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/species.png
 - description: Stats
   url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/stats.png
 - description: Summary
   url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/summary.png
 - description: Top menu
   url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/top-menu.png
-- description: Moves
-  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/moves.png
-- description: Bag
-  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/bag.png
 - description: Trainer
   url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/trainer.png
-- description: Natures
-  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/natures.png
 - description: Wallpaper
   url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/wallpaper.png
 - description: X menu
   url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/x-menu.png
-- description: Box
-  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/box.png
-- description: Origin
-  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/origin.png
-- description: Forms
-  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/forms.png
-- description: Options
-  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/options.gif
-- description: Balls
-  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/balls.png
-- description: Party
-  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/party.png
-- description: Species
-  url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/species.png
 source: https://github.com/Universal-Team/pkmn-chest
 systems:
 - DS
@@ -108,5 +108,3 @@ It's current features include:
 - Injecting pk* files from SD
 - Dumping Pokémon to pk* files
 - Translated to Chinese, English, French, German, Indonesian, Italian, Japanese, Korean*, Lithuanian, Polish, Portuguese, Russian, and Spanish
-
-![A storage box](https://universal-team.net/images/pkmn-chest/box-2.png) ![editing a Pokémon](https://universal-team.net/images/pkmn-chest/summary.png)

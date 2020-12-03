@@ -19,6 +19,11 @@ prerelease:
   update_notes: <p>Initial network play support.</p>
   updated: '2016-04-22T01:51:31Z'
   version: 0.6-alpha
+screenshots:
+- description: Gameplay
+  url: https://db.universal-team.net/assets/images/screenshots/cs3ds/gameplay.png
+- description: Title screen
+  url: https://db.universal-team.net/assets/images/screenshots/cs3ds/title-screen.png
 scripts:
   '[prerelease] cspsp.3dsx':
   - file: cspsp.zip

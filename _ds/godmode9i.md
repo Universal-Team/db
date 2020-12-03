@@ -177,5 +177,3 @@ Features:
 - Copy, move, delete, rename files/folders and create folders.
 - Mount the NitroFS of .nds files.
 - Browse files on supported flashcards when running GM9i from the NAND or SD Card. (`AceKard 2(i)` & `R4 Ultra (r4ultra.com)`)
-
-![The file list](https://gbatemp.b-cdn.net/attachments/snap_191132-png.195368)

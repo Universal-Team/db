@@ -22,6 +22,13 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   3DShell.cia: https://db.universal-team.net/assets/images/qr/3dshell.cia.png
+screenshots:
+- description: File list
+  url: https://db.universal-team.net/assets/images/screenshots/3dshell/file-list.png
+- description: Light mode ftp
+  url: https://db.universal-team.net/assets/images/screenshots/3dshell/light-mode-ftp.png
+- description: Settings
+  url: https://db.universal-team.net/assets/images/screenshots/3dshell/settings.png
 source: https://github.com/joel16/3DShell
 systems:
 - 3DS
