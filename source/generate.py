@@ -30,6 +30,9 @@ def webName(name):
 			out += "-"
 	return out
 
+def ucs2Name(string):
+	return "".join(list(filter(lambda c: ord(c) < 0xFFFF, string))).strip()
+
 # Convert names to lowercase alphanumeric + underscore and hyphen
 def byteCount(bytes):
 	if(type(bytes) != int):
@@ -444,13 +447,13 @@ for app in source:
 		# Add entry for UniStore
 		uni = {
 			"info": {
-				"title": app["title"] if "title" in app else "",
-				"version": app["version"] if "version" in app else "",
-				"author": app["author"] if "author" in app else "",
+				"title": ucs2Name(app["title"]) if "title" in app else "",
+				"version": ucs2Name(app["version"]) if "version" in app else "",
+				"author": ucs2Name(app["author"]) if "author" in app else "",
 				"category": app["categories"] if "categories" in app else [],
 				"console": app["systems"].copy() if "systems" in app else [],
 				"icon_index": len(icons) - 1 if "icon" in app or "image" in app else -1,
-				"description": app["description"] if "description" in app else "",
+				"description": ucs2Name(app["description"]) if "description" in app else "",
 				"screenshots": [],
 				"license": app["license"] if "license" in app else ""
 			}
