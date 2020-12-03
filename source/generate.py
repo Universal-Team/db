@@ -321,7 +321,9 @@ for app in source:
 	if os.path.exists(os.path.join("..", "assets", "images", "screenshots", webName(app["title"]))):
 		if not "screenshots" in app:
 			app["screenshots"] = []
-		for screenshot in os.listdir(os.path.join("..", "assets", "images", "screenshots", webName(app["title"]))):
+		dirlist = os.listdir(os.path.join("..", "assets", "images", "screenshots", webName(app["title"])))
+		dirlist.sort()
+		for screenshot in dirlist:
 			if screenshot[-3:] in ["png", "gif", "jpg", "peg", "iff", "bmp"]:
 				app["screenshots"].append({
 					"url": "https://db.universal-team.net/assets/images/screenshots/" + webName(app["title"]) + "/" + screenshot,
