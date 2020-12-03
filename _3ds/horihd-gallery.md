@@ -14,6 +14,11 @@ github: RocketRobz/HoriHD-Gallery
 icon: https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/icon.png
 image: https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/banner.png
 layout: app
+screenshots:
+- description: Breath of the wild horihd
+  url: https://db.universal-team.net/assets/images/screenshots/horihd-gallery/breath-of-the-wild-horihd.png
+- description: Breath of the wild
+  url: https://db.universal-team.net/assets/images/screenshots/horihd-gallery/breath-of-the-wild.png
 scripts:
   HoriHD-Gallery.3dsx:
   - file: HoriHD-Gallery.7z

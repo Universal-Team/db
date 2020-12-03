@@ -40,7 +40,7 @@ scripts:
 source: https://github.com/DomRe/3DS_eBook_Reader
 systems:
 - 3DS
-title: 3DS_eBook_Reader
+title: 3DS eBook Reader
 update_notes: '<p>Changes:</p>
 
   <ul>

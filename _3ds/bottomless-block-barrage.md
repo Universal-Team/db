@@ -43,7 +43,7 @@ scripts:
 source: https://github.com/TricksterGuy/bottomless-block-barrage
 systems:
 - 3DS
-title: bottomless-block-barrage
+title: Bottomless Block Barrage
 update_notes: '<h2>Whats new</h2>
 
   <p>Goal Marker in Score mode type lines.<br>

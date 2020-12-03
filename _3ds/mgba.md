@@ -65,7 +65,7 @@ scripts:
 source: https://github.com/mgba-emu/mgba
 systems:
 - 3DS
-title: mgba
+title: mGBA
 updated: '2020-10-30T02:03:03Z'
 version: 0.8.4
 website: https://mgba.io/

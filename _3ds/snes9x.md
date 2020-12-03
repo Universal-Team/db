@@ -52,7 +52,7 @@ scripts:
 source: https://github.com/bubble2k16/snes9x_3ds
 systems:
 - 3DS
-title: snes9x_3ds
+title: Snes9x
 update_notes: '<ul>
 
   <li>Improved sound synchronization.</li>

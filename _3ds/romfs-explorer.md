@@ -54,7 +54,7 @@ scripts:
 source: https://github.com/Ryuzaki-MrL/RomFS-Explorer
 systems:
 - 3DS
-title: RomFS-Explorer
+title: RomFS Explorer
 update_notes: <p>This release fixes files being overwritten even if you choose to
   not overwrite them.</p>
 updated: '2016-09-23T00:16:29Z'

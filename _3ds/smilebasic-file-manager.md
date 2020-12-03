@@ -40,7 +40,7 @@ scripts:
 source: https://github.com/Trinitro21/lpp-3ds
 systems:
 - 3DS
-title: lpp-3ds
+title: SmileBASIC File Manager
 update_notes: '<ul>
 
   <li>Added footer signing using the SHA1-HMAC algorithm</li>

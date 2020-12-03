@@ -62,7 +62,7 @@ scripts:
 source: https://github.com/Spaqin/fbwo-3ds
 systems:
 - 3DS
-title: fbwo-3ds
+title: Falling Blocks Watch Out
 update_notes: '<p>A quick update adding per-level glue delay.<br>
 
   Be careful, the config file is different from the previous one.</p>'
