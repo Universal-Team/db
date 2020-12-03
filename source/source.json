@@ -1,6 +1,6 @@
 [
 	{
-		"long_description": "Universal-Updater is a homebrew app that allows easy installation and updating of other 3DS homebrew!\n\nSome features include:\n- Flexible and easy to make scripts\n- Pre-made scripts that anyone can submit available for download from within the app\n- Translated to English, French, German, Italian, Japanese, Lithuanian, Portuguese, Russian, and Spanish\n- Customizable interface colors\n- Get some useful Homebrew apps thanks to the TinyDB implementation\n\n![The main menu](https://universal-team.net/images/universal-updater/entryInfo.png)",
+		"long_description": "Universal-Updater is a homebrew application for the Nintendo 3DS with the intention to make downloading other homebrew simple and easy. No need to manually copy files or go through installation processes, as we do that for you.\n\nIts features include:\n- A store format with a concept similar to the Cydia Repositories\n   - The default is [Universal-DB](https://db.universal-team.net)\n   - Want to add your own? Go to settings, find "Select Unistore", hit the + icon and type the URL or hit the QR button and scan the QR code (if they have one)\n- Customization in sorting and display\n   - Sort by Title, Author, or Last Updated\n   - Direction can be Ascending or Descending\n   - App display can be shown in either a Grid or Rows\n- Translations for users of many languages\n   - To contribute to translations, join our [Crowdin](https://crwd.in/universal-updater)\n   - Request a new language on our [Discord Server](https://universal-team.net/discord)",
 		"systems": ["3DS"],
 		"image": "https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png",
@@ -39,7 +39,7 @@
 		}
 	},
 	{
-		"long_description": "3DEins is a Cardgame for Nintendo 3DS. It's basically an UNO clone.\n\nIt currently includes:\n- Multi Player on one console\n- Customizable Cards & Characters\n- Translated to English, French, German, Japanese, Russian, and Spanish\n- Customizable interface colors\n\n![The main menu](https://universal-team.net/images/3deins/mainMenu.png)",
+		"long_description": "3DEins is a Cardgame for Nintendo 3DS. It's basically an UNO clone.\n\nIt currently includes:\n- Multi Player on one console\n- Customizable Cards & Characters\n- Translated to English, French, German, Japanese, Russian, and Spanish\n- Customizable interface colors",
 		"github": "Universal-Team/3DEins",
 		"image": "https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/icon.png",
@@ -81,7 +81,7 @@
 		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/icon.png",
 		"systems": ["3DS"],
-		"long_description": "> The game is playable in Deutsch and English\n\n### Deutsch\n\n[Elfer raus!](https://de.wikipedia.org/wiki/Elfer_raus!) klon für den Nintendo 3DS!\n\n![Spiel Screen](https://github.com/SuperSaiyajinStackZ/3DElf/raw/main/screenshots/game_screen_de.png)\n\n### English\n\n[Elfer raus!](https://en.wikipedia.org/wiki/Domino_(card_game)#Elfer_Raus!) clone for the Nintendo 3DS!\n\n![The game screen](https://github.com/SuperSaiyajinStackZ/3DElf/raw/main/screenshots/game_screen_en.png)"
+		"long_description": "> The game is playable in Deutsch and English\n\n### Deutsch\n\n[Elfer raus!](https://de.wikipedia.org/wiki/Elfer_raus!) klon für den Nintendo 3DS!\n\n### English\n\n[Elfer raus!](https://en.wikipedia.org/wiki/Domino_(card_game)#Elfer_Raus!) clone for the Nintendo 3DS!"
 	},
 	{
 		"github": "SuperSaiyajinStackZ/Ludo3DS",
@@ -89,10 +89,10 @@
 		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/Banner.png",
 		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/icon.png",
 		"systems": ["3DS"],
-		"long_description": "> The game is playable in Deutsch and English\n\n### Deutsch\n\nLudo klon für den Nintendo 3DS! Dieses Spiel ist ebenso als [Mensch ärger Dich nicht](https://de.wikipedia.org/wiki/Mensch_ärgere_Dich_nicht) bekannt.\n\n\n![Spiel Screen](https://github.com/SuperSaiyajinStackZ/Ludo3DS/raw/main/screenshots/game_screen_de.png)\n\n### English\n\nLudo clone for the Nintendo 3DS! The game is also known as [Mensch ärger Dich nicht (Man, Don't Get Angry)](https://en.wikipedia.org/wiki/Mensch_ärgere_Dich_nicht).\n\n![The game screen](https://github.com/SuperSaiyajinStackZ/Ludo3DS/raw/main/screenshots/game_screen_en.png)"
+		"long_description": "> The game is playable in Deutsch and English\n\n### Deutsch\n\nLudo klon für den Nintendo 3DS! Dieses Spiel ist ebenso als [Mensch ärger Dich nicht](https://de.wikipedia.org/wiki/Mensch_ärgere_Dich_nicht) bekannt.\n\n### English\n\nLudo clone for the Nintendo 3DS! The game is also known as [Mensch ärger Dich nicht (Man, Don't Get Angry)](https://en.wikipedia.org/wiki/Mensch_ärgere_Dich_nicht)."
 	},
 	{
-		"long_description": "LeafEdit is a work in progress Animal Crossing: New Leaf save manager and editor for the Nintendo 3DS!\n\nFeatures include:\n- Changing player info such as name, tan, and money\n- See the Items on your Pocket and Dresser\n- See the Villager and replace them\n- Editing the layout of your village [Experimental, because it can break your save easilly!!]\n\n![The map editor](https://universal-team.net/images/leafedit/acreEditorNL.png) ![The pocket editor](https://universal-team.net/images/leafedit/pocketEditorNL.png)",
+		"long_description": "LeafEdit is a work in progress Animal Crossing: New Leaf save manager and editor for the Nintendo 3DS!\n\nFeatures include:\n- Changing player info such as name, tan, and money\n- See the Items on your Pocket and Dresser\n- See the Villager and replace them\n- Editing the layout of your village [Experimental, because it can break your save easilly!!]",
 		"github": "Universal-Team/LeafEdit",
 		"image": "https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/icon.png",
@@ -129,7 +129,7 @@
 		}
 	},
 	{
-		"long_description": "Pokémon Chest is an app for the DS(i) that can store and edit Pokémon in the DS Pokémon games.\n\nIt's current features include:\n- Loading save files from DSi SD, Flashcard SD, and retail cartridges\n- Storing up to 50 (flashcards) or 500 (DSi/3DS) boxes of Pokémon per chest with support for multiple chests\n- Editing most Pokémon, trainer, and other save data\n- Editing items in the bag\n- Injecting pk* files from SD\n- Dumping Pokémon to pk* files\n- Translated to Chinese, English, French, German, Indonesian, Italian, Japanese, Korean*, Lithuanian, Polish, Portuguese, Russian, and Spanish\n\n![A storage box](https://universal-team.net/images/pkmn-chest/box-2.png) ![editing a Pokémon](https://universal-team.net/images/pkmn-chest/summary.png)",
+		"long_description": "Pokémon Chest is an app for the DS(i) that can store and edit Pokémon in the DS Pokémon games.\n\nIt's current features include:\n- Loading save files from DSi SD, Flashcard SD, and retail cartridges\n- Storing up to 50 (flashcards) or 500 (DSi/3DS) boxes of Pokémon per chest with support for multiple chests\n- Editing most Pokémon, trainer, and other save data\n- Editing items in the bag\n- Injecting pk* files from SD\n- Dumping Pokémon to pk* files\n- Translated to Chinese, English, French, German, Indonesian, Italian, Japanese, Korean*, Lithuanian, Polish, Portuguese, Russian, and Spanish",
 		"github": "Universal-Team/pkmn-chest",
 		"image": "https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/resources/icon.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/icon.bmp",
@@ -313,7 +313,7 @@
 		}
 	},
 	{
-		"long_description": "Features:\n- Dump GameBoy Advance cartridges on the original Nintendo DS and Nintendo DS Lite consoles.\n- Dump Nintendo DS/DSi cartridges on Nintendo DSi and Nintendo 3DS consoles (if GodMode9i is ran on the console SD card).\n- Copy, move, delete, rename files/folders and create folders.\n- Mount the NitroFS of .nds files.\n- Browse files on supported flashcards when running GM9i from the NAND or SD Card. (`AceKard 2(i)` & `R4 Ultra (r4ultra.com)`)\n\n![The file list](https://gbatemp.b-cdn.net/attachments/snap_191132-png.195368)",
+		"long_description": "Features:\n- Dump GameBoy Advance cartridges on the original Nintendo DS and Nintendo DS Lite consoles.\n- Dump Nintendo DS/DSi cartridges on Nintendo DSi and Nintendo 3DS consoles (if GodMode9i is ran on the console SD card).\n- Copy, move, delete, rename files/folders and create folders.\n- Mount the NitroFS of .nds files.\n- Browse files on supported flashcards when running GM9i from the NAND or SD Card. (`AceKard 2(i)` & `R4 Ultra (r4ultra.com)`)",
 		"github": "DS-Homebrew/GodMode9i",
 		"categories": ["utility", "save-tool"],
 		"systems": ["DS"],
@@ -4594,8 +4594,7 @@
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
 		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/master/app/banner.png",
-		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/master/app/icon.png",
-		"long_description": "![The editing screen](https://github.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/blob/master/screenshots/main.png?raw=true)"
+		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/master/app/icon.png"
 	},
 	{
 		"github": "Epicpkmn11/dfc",

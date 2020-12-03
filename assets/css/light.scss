@@ -12,6 +12,7 @@
 	--code-color: #333;
 	--a-color: gray;
 	--small-color: gray;
+	--carousel-caption-bg: #fffb;
 
 	// Cards
 	--card-background: var(--main-bg);
@@ -30,4 +31,12 @@
 	--light: #f8f9fa;
 	--light-border: #ced4da;
 	--light-placeholder: darkgray;
+}
+
+.carousel-dark-when-light .carousel-control-next-icon, .carousel-dark-when-light .carousel-control-prev-icon {
+	filter: invert(1) grayscale(100);
+}
+
+.carousel-dark-when-light .carousel-indicators li {
+	background-color: #000;
 }

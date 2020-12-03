@@ -274,6 +274,11 @@ div .btn-primary:hover {
 	border-top: var(--modal-borders);
 }
 
+.carousel-label {
+	background-color: var(--carousel-caption-bg);
+	border-radius: 10px;
+}
+
 @media only screen and (min-width: 1024px) {
 	.main-content {
 		max-width: 1024px;
