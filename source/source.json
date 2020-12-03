@@ -997,6 +997,7 @@
 	},
 	{
 		"github": "mgba-emu/mgba",
+		"title": "mGBA",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"image": "https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-256.png",
@@ -1116,6 +1117,7 @@
 	},
 	{
 		"github": "Trinitro21/lpp-3ds",
+		"title": "SmileBASIC File Manager",
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/Trinitro21/lpp-3ds/sbfm/icon.png",
@@ -1422,6 +1424,7 @@
 	},
 	{
 		"github": "bubble2k16/snes9x_3ds",
+		"title": "Snes9x",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/bubble2k16/snes9x_3ds/master/assets/icon.png",
@@ -1635,6 +1638,7 @@
 	},
 	{
 		"github": "DomRe/3DS_eBook_Reader",
+		"title": "3DS eBook Reader",
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/DomRe/3DS_eBook_Reader/master/meta/banner.png",
@@ -1927,6 +1931,7 @@
 	},
 	{
 		"github": "TricksterGuy/bottomless-block-barrage",
+		"title": "Bottomless Block Barrage",
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/master/resources/banner.png",
@@ -1996,6 +2001,7 @@
 	},
 	{
 		"github": "RSDuck/craftus_reloaded",
+		"title": "Craftus Reloaded",
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/RSDuck/craftus_reloaded/master/icon/craftusreloaded.png",
@@ -2426,6 +2432,7 @@
 	},
 	{
 		"github": "nop90/Supertux-Milestone1-3ds",
+		"title": "Supertux",
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/banner.png",
@@ -2873,6 +2880,7 @@
 	},
 	{
 		"github": "Ordim3n/Smash-Amiibo-Cheat-Tool",
+		"title": "Smash Amiibo Cheat Tool",
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Ordim3n/Smash-Amiibo-Cheat-Tool/master/meta/banner.png",
@@ -3202,6 +3210,7 @@
 	},
 	{
 		"github": "Ryuzaki-MrL/RomFS-Explorer",
+		"title": "RomFS Explorer",
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS-Explorer/master/meta/banner.png",
@@ -4185,6 +4194,7 @@
 	},
 	{
 		"github": "Spaqin/fbwo-3ds",
+		"title": "Falling Blocks Watch Out",
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://db.universal-team.net/assets/images/images/fbwo-3ds.png",
