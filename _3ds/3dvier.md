@@ -33,20 +33,20 @@ qr:
 screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/3dvier/main-menu.png
-- description: Keyboard
-  url: https://db.universal-team.net/assets/images/screenshots/3dvier/keyboard.png
+- description: Credits
+  url: https://db.universal-team.net/assets/images/screenshots/3dvier/credits.png
 - description: Ui settings
   url: https://db.universal-team.net/assets/images/screenshots/3dvier/ui-settings.png
-- description: Color settings
-  url: https://db.universal-team.net/assets/images/screenshots/3dvier/color-settings.png
+- description: Keyboard
+  url: https://db.universal-team.net/assets/images/screenshots/3dvier/keyboard.png
 - description: In game
   url: https://db.universal-team.net/assets/images/screenshots/3dvier/in-game.png
 - description: Lang selection
   url: https://db.universal-team.net/assets/images/screenshots/3dvier/lang-selection.png
 - description: Char selection
   url: https://db.universal-team.net/assets/images/screenshots/3dvier/char-selection.png
-- description: Credits
-  url: https://db.universal-team.net/assets/images/screenshots/3dvier/credits.png
+- description: Color settings
+  url: https://db.universal-team.net/assets/images/screenshots/3dvier/color-settings.png
 source: https://github.com/Universal-Team/3DVier
 systems:
 - 3DS

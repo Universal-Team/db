@@ -33,78 +33,78 @@ nightly:
 qr:
   LeafEdit.cia: https://db.universal-team.net/assets/images/qr/leafedit.cia.png
 screenshots:
-- description: Pattern editor
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/pattern-editor.png
-- description: Map editor ww
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/map-editor-ww.png
-- description: Palette tool nl
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/palette-tool-nl.png
-- description: Main menu
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/main-menu.png
-- description: Appearance editor nl
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/appearance-editor-nl.png
-- description: Settings
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/settings.png
 - description: Player editor ww2
   url: https://db.universal-team.net/assets/images/screenshots/leafedit/player-editor-ww2.png
-- description: Item editor ww
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/item-editor-ww.png
-- description: Town editor
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/town-editor.png
-- description: Developed screen
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/developed-screen.png
-- description: Script main
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/script-main.png
-- description: Palette tool nl2
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/palette-tool-nl2.png
-- description: Villager viewer
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/villager-viewer.png
-- description: Item list
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/item-list.png
+- description: Main menu
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/main-menu.png
 - description: Pocket editor ww
   url: https://db.universal-team.net/assets/images/screenshots/leafedit/pocket-editor-ww.png
-- description: Editor
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/editor.png
+- description: Item editor nl
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/item-editor-nl.png
 - description: Player editor ww
   url: https://db.universal-team.net/assets/images/screenshots/leafedit/player-editor-ww.png
-- description: Acreeditor ww
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/acreeditor-ww.png
-- description: Villager select
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/villager-select.png
-- description: Save select
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/save-select.png
-- description: Update center
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/update-center.png
+- description: Item list
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/item-list.png
+- description: Appearance editor nl
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/appearance-editor-nl.png
 - description: Pocket editor nl
   url: https://db.universal-team.net/assets/images/screenshots/leafedit/pocket-editor-nl.png
-- description: Villager item editor
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/villager-item-editor.png
-- description: Player editor nl
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/player-editor-nl.png
-- description: Pattern tool menu
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/pattern-tool-menu.png
-- description: Pattern viewer
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/pattern-viewer.png
-- description: Player selector
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/player-selector.png
-- description: Acre editor nl
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/acre-editor-nl.png
-- description: Villager editor
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/villager-editor.png
 - description: Credits
   url: https://db.universal-team.net/assets/images/screenshots/leafedit/credits.png
+- description: Map editor ww
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/map-editor-ww.png
+- description: Villager editor
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/villager-editor.png
+- description: Player editor nl
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/player-editor-nl.png
+- description: Item editor ww
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/item-editor-ww.png
+- description: Player editor nl2
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/player-editor-nl2.png
+- description: Save select
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/save-select.png
+- description: Pattern editor
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/pattern-editor.png
+- description: Player selector
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/player-selector.png
+- description: Palette tool nl
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/palette-tool-nl.png
+- description: Town editor
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/town-editor.png
+- description: Acre editor nl
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/acre-editor-nl.png
+- description: Script main
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/script-main.png
+- description: Villager select
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/villager-select.png
 - description: Badge editor
   url: https://db.universal-team.net/assets/images/screenshots/leafedit/badge-editor.png
 - description: Appearance editor ww
   url: https://db.universal-team.net/assets/images/screenshots/leafedit/appearance-editor-ww.png
-- description: Item editor nl
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/item-editor-nl.png
+- description: Pattern tool menu
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/pattern-tool-menu.png
+- description: Update center
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/update-center.png
 - description: Map editor nl
   url: https://db.universal-team.net/assets/images/screenshots/leafedit/map-editor-nl.png
-- description: Player editor nl2
-  url: https://db.universal-team.net/assets/images/screenshots/leafedit/player-editor-nl2.png
+- description: Editor
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/editor.png
+- description: Villager item editor
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/villager-item-editor.png
 - description: Palette tool ww
   url: https://db.universal-team.net/assets/images/screenshots/leafedit/palette-tool-ww.png
+- description: Developed screen
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/developed-screen.png
+- description: Settings
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/settings.png
+- description: Pattern viewer
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/pattern-viewer.png
+- description: Villager viewer
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/villager-viewer.png
+- description: Palette tool nl2
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/palette-tool-nl2.png
+- description: Acreeditor ww
+  url: https://db.universal-team.net/assets/images/screenshots/leafedit/acreeditor-ww.png
 source: https://github.com/Universal-Team/LeafEdit
 systems:
 - 3DS
