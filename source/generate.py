@@ -461,7 +461,7 @@ for app in source:
 
 		if "screenshots" in app:
 			for screenshot in app["screenshots"]:
-				if screenshot["url"][-3:] == "png":
+				if screenshot["url"][-3:] == "png" and "horihd" not in screenshot["url"]:
 					uni["info"]["screenshots"].append(screenshot)
 
 		if "DS" in uni["info"]["console"]:
