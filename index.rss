@@ -159,21 +159,4 @@ An example is available &lt;a href="https://github.com/Nanquitas/Luma3DS-Plugin-
 &lt;p&gt;&lt;a target="_blank" rel="noopener noreferrer" href="https://github.com/SuperSaiyajinStackZ/Ludo3DS/blob/main/Cover_ReadMe.png"&gt;&lt;img src="https://github.com/SuperSaiyajinStackZ/Ludo3DS/blob/main/Cover_ReadMe.png" alt="" style="max-width:100%;"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Das Sonstige&lt;/h2&gt;
 &lt;p&gt;Sie haben einen Fehler bemerkt? Dann bitte geben Sie mir in der Issues Sektion bescheid! Vielen Dank.&lt;/p&gt;
-&lt;p&gt;Ich hoffe Sie haben spaß mit Ludo3DS v0.2.0! ~SuperSaiyajinStackZ&lt;/p&gt;</description><author>SuperSaiyajinStackZ</author><pubDate>Sun, 08 Nov 2020 02:14:31 GMT</pubDate><category>3DS</category><guid isPermaLink="true">https://db.universal-team.net/3ds/ludo3ds</guid><enclosure url="https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/Banner.png" length="12794" type="image/png"></enclosure></item><item><title>3DSBank updated to v1.1</title><link>https://db.universal-team.net/3ds/3dsbank</link><description>v1.1&lt;hr /&gt;&lt;p&gt;&lt;strong&gt;What's new?&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;(DrStraightface) Updated to allow custom naming of folders, and having currently active folder selected on startup!
-&lt;ul&gt;
-&lt;li&gt;See the README for instructions.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Year has been added to the bottom of the top screen, along with the developer's name.&lt;/li&gt;
-&lt;li&gt;Robz8 has been to changed to RocketRobz in the banner text.
-&lt;ul&gt;
-&lt;li&gt;To see the change, delete 3DSBank in DSiWare Data Management, then install the CIA again.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Improvement&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Dithering effect on the top screen has been removed!&lt;/li&gt;
-&lt;/ul&gt;</description><author>RocketRobz</author><pubDate>Wed, 04 Nov 2020 01:21:35 GMT</pubDate><category>3DS</category><guid isPermaLink="true">https://db.universal-team.net/3ds/3dsbank</guid><enclosure url="https://db.universal-team.net/assets/images/icons/3dsbank.png" length="266" type="image/png"></enclosure></item></channel></rss>
+&lt;p&gt;Ich hoffe Sie haben spaß mit Ludo3DS v0.2.0! ~SuperSaiyajinStackZ&lt;/p&gt;</description><author>SuperSaiyajinStackZ</author><pubDate>Sun, 08 Nov 2020 02:14:31 GMT</pubDate><category>3DS</category><guid isPermaLink="true">https://db.universal-team.net/3ds/ludo3ds</guid><enclosure url="https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/Banner.png" length="12794" type="image/png"></enclosure></item></channel></rss>
