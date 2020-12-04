@@ -5,11 +5,11 @@ categories:
 color: '#947677'
 created: '2019-08-22T07:15:13Z'
 description: Animal Crossing NL Vapecord Public Plugin WIP
-download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/tag/v1.8.1
+download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/tag/v1.8.2
 downloads:
   Vapecord.Public.zip:
-    size: 4330434
-    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v1.8.1/Vapecord.Public.zip
+    size: 5120792
+    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v1.8.2/Vapecord.Public.zip
 github: RedShyGuy/Vapecord-ACNL-Plugin
 image: https://avatars1.githubusercontent.com/u/43783060?v=4
 layout: app
@@ -172,24 +172,25 @@ systems:
 title: Vapecord-ACNL-Plugin
 update_notes: '<h1>New Update!!</h1>
 
-  <p>Took again some time but here a new update! [Edited for newest boot.firm so plugin
-  works with newest 3DS Firmware]</p>
+  <p>Here a new update!! It adds a lot of stuff and changes!</p>
 
   <h2>The update has those features:</h2>
 
   <blockquote>
 
-  <p>Grass Editor (lets you edit the grass state at your coordinates)<br>
+  <p>House Interior/Exterior Editor<br>
 
-  Chat Text2Item<br>
+  Turnip Price Changer<br>
 
-  Language Picker overhaul<br>
+  Enable/Disable Cheats Overhaul<br>
 
-  Player Loader<br>
+  A lot of performance changes<br>
 
-  Player Selector overhaul<br>
+  Added Standard Plugin Color Editor (see FWKColors.txt)<br>
 
-  Everything Seeder<br>
+  Updated to CTRPF v0.6.0 Alpha<br>
+
+  Plugin now uses Luma v10.2.1<br>
 
   and more!</p>
 
@@ -199,17 +200,14 @@ update_notes: '<h1>New Update!!</h1>
 
   <blockquote>
 
-  <p>Player Randomizer fixed<br>
+  <p>Catalog To Pockets and other minor related bugs should be fixed<br>
 
-  Text2Item doesn''t crash on the island while the chat is open anymore<br>
+  Fixed not being able to drop at watered position (or in general at empty space with
+  flag)<br>
 
-  Other players shouldn''t be able to crash you anymore<br>
+  Map Editor Particles missing<br>
 
-  If Language file is missing plugin doesn''t abort anymore<br>
-
-  Anti Animation is now 100% Bug-Free (it should)<br>
-
-  Item Sequence is now 100% crash-free<br>
+  Take TPC Pic should be crash free now<br>
 
   and more!</p>
 
@@ -217,25 +215,12 @@ update_notes: '<h1>New Update!!</h1>
 
   <h2>How to use:</h2>
 
-  <p>unzip <code>Vapecord.Public.zip</code> and put everything on it in the root of
-  your SD-Card<br>
-
-  Then open the Rosalina Menu and press <code>Plugin Loader: [Disabled]</code> (after
-  you pressed it will say <code>Plugin Loader:  [Enabled]</code>)<br>
-
-  (If you only update the plugin delete all old <code>.3gx</code> files and copy the
-  new ones at those places instead)<br>
-
-  Then just start your game!<br>
+  <p>You can find a guide about the installation <a href="https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/wiki/How-to-install">here</a>.<br>
 
   If you encounter any bugs feel free to report them on the official <a href="https://discord.gg/w9nvqjW"
-  rel="nofollow">Vapecord Discord Server</a>.</p>
-
-  <h4>And I think that was it :)</h4>
-
-  <h4>Have fun with the update!!</h4>'
-updated: '2020-11-10T22:24:13Z'
-version: v1.8.1
-version_title: ACNL Vapecord Public Plugin [v.1.8.1][EDIT]
+  rel="nofollow">Vapecord Discord Server</a>.</p>'
+updated: '2020-12-03T22:03:11Z'
+version: v1.8.2
+version_title: ACNL Vapecord Public Plugin [v.1.8.2]
 wiki: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/wiki
 ---
