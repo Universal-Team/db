@@ -12,6 +12,7 @@ import re
 import requests
 import rfeed
 import sys
+import untangle
 import yaml
 
 # No py 2
@@ -515,11 +516,17 @@ with open(os.path.join("..", "data", "full.json"), "w", encoding="utf8") as file
 	file.write(json.dumps(output, sort_keys=True))
 
 # RSS feed
+# Get last update from old feed
+oldUpdate = parser.parse("1970-01-01T00:00:00Z")
+if os.path.exists(os.path.join("..", "index.rss")):
+	r = untangle.parse(os.path.join("..", "index.rss"))
+	oldUpdate = parser.parse(r.rss.channel.item[0].pubDate.cdata)
+
 feedItems = []
-latestUpdate = None
+latestUpdate = parser.parse("1970-01-01T00:00:00Z")
 output.sort(key=lambda item: item["updated"] if "updated" in item else "---", reverse=True)
 for item in output:
-	if "updated" in item and (latestUpdate == None or parser.parse(item["updated"]) > latestUpdate):
+	if "updated" in item and parser.parse(item["updated"]) > latestUpdate:
 		latestUpdate = parser.parse(item["updated"])
 
 	if "updated" in item and (datetime.datetime.now(datetime.timezone.utc) - parser.parse(item["updated"])).days < 30:
@@ -540,14 +547,14 @@ for item in output:
 			]
 		))
 
-if len(feedItems) > 0:
+if len(feedItems) > 0 and latestUpdate > oldUpdate:
 	feed = rfeed.Feed(
 		title = "Universal-DB",
 		link = "https://db.universal-team.net",
 		description = "A database of DS and 3DS homebrew",
 		language = "en-US",
-		lastBuildDate = latestUpdate,
-		pubDate = latestUpdate,
+		lastBuildDate = datetime.datetime.now(),
+		pubDate = datetime.datetime.now(),
 		items = feedItems,
 		image = rfeed.Image(title = "Universal-DB", url = "https://universal-team.net/images/icons/universal-team.png", link = "https://db.universal-team.net"),
 	)
