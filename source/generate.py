@@ -520,7 +520,7 @@ with open(os.path.join("..", "data", "full.json"), "w", encoding="utf8") as file
 oldUpdate = parser.parse("1970-01-01T00:00:00Z")
 if os.path.exists(os.path.join("..", "index.rss")):
 	r = untangle.parse(os.path.join("..", "index.rss"))
-	oldUpdate = parser.parse(r.rss.channel.item[0].pubDate.cdata)
+	oldUpdate = parser.parse(r.rss.channel.item[0].pubDate.cdata if type(r.rss.channel.item) == list else r.rss.channel.item.pubDate.cdata)
 
 feedItems = []
 latestUpdate = parser.parse("1970-01-01T00:00:00Z")

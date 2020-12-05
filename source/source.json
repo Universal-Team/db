@@ -297,6 +297,7 @@
 	{
 		"github": "Gericom/GBARunner2",
 		"icon": "https://raw.githubusercontent.com/Gericom/GBARunner2/master/icon.bmp",
+		"image": "https://db.universal-team.net/assets/images/icons/gbarunner2.png",
 		"categories": ["emulator"],
 		"systems": ["DS"],
 		"autogen_scripts": true,
@@ -512,6 +513,7 @@
 		"github": "smealum/portalDS",
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/smealum/portalDS/master/logo.bmp",
+		"image": "https://db.universal-team.net/assets/images/icons/portalds.png",
 		"systems": ["DS"],
 		"scripts": {
 			"portalDS.nds": [
@@ -549,6 +551,7 @@
 		"categories": ["utility"],
 		"systems": ["DS"],
 		"icon": "https://raw.githubusercontent.com/rhaleblian/dslibris/master/gfx/icon.bmp",
+		"image": "https://db.universal-team.net/assets/images/icons/dslibris.png",
 		"scripts": {
 			"dslibris.nds": [
 				{
@@ -689,6 +692,7 @@
 		"updated": "2018-10-19T22:09:05Z",
 		"systems": ["DS"],
 		"icon": "https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/icon.bmp",
+		"image": "https://db.universal-team.net/assets/images/icons/nesds.png",
 		"nightly": {
 			"download_page": "https://github.com/TWLBot/Builds/blob/master/extras/GodMode9i.7z",
 			"downloads": {
@@ -827,13 +831,15 @@
 		},
 		"systems": ["DS"],
 		"categories": ["emulator"],
-		"icon": "https://bitbucket.org/Coto88/snemulds/raw/c323eb1a7c411390de1ab32daa3640c17dbfa4ff/icon.bmp"
+		"icon": "https://bitbucket.org/Coto88/snemulds/raw/c323eb1a7c411390de1ab32daa3640c17dbfa4ff/icon.bmp",
+		"image": "https://db.universal-team.net/assets/images/icons/snemulds.png"
 	},
 	{
 		"github": "DS-Homebrew/PicoDriveTWL",
 		"categories": ["emulator"],
 		"systems": ["DS"],
-		"icon": "https://raw.githubusercontent.com/DS-Homebrew/PicoDriveTWL/master/genesis-32x32.bmp"
+		"icon": "https://raw.githubusercontent.com/DS-Homebrew/PicoDriveTWL/master/genesis-32x32.bmp",
+		"image": "https://db.universal-team.net/assets/images/icons/picodrivetwl.png"
 	},
 	{
 		"title": "jEnesisDS",
@@ -877,6 +883,7 @@
 		"github": "JeffRuLz/TMFH",
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/JeffRuLz/TMFH/master/icon.bmp",
+		"image": "https://db.universal-team.net/assets/images/icons/tmfh.png",
 		"systems": ["DS"],
 		"unistore_exclude": true
 	},
@@ -889,6 +896,7 @@
 		"github": "chishm/nitrohax",
 		"updated": "2018-04-09T13:00:02Z",
 		"icon": "https://raw.githubusercontent.com/chishm/nitrohax/master/icon.bmp",
+		"image": "https://db.universal-team.net/assets/images/icons/nitrohax.png",
 		"systems": ["DS"],
 		"downloads": {
 			"NitroHax.zip": {
@@ -906,6 +914,7 @@
 		"systems": ["DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/ahezard/NitroHax3DS/master/icon.bmp",
+		"image": "https://db.universal-team.net/assets/images/icons/nitrohax3ds.png",
 		"downloads": {
 			"NitroHax.cia": {
 				"url": "https://github.com/ahezard/NitroHax3DS/releases/download/0.99.NTR/NitroHax.cia",
@@ -917,6 +926,7 @@
 		"github": "Drenn1/GameYob",
 		"website": "https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/",
 		"icon": "https://raw.githubusercontent.com/Drenn1/GameYob/master/platform/ds/icon.bmp",
+		"image": "https://db.universal-team.net/assets/images/icons/gameyob.png",
 		"systems": ["DS"],
 		"categories": ["emulator"],
 		"scripts": {
