@@ -12,7 +12,7 @@ downloads:
     url: https://github.com/rhaleblian/dslibris/releases/download/v1.5.1/dslibris-1.5.1.zip
 github: rhaleblian/dslibris
 icon: https://raw.githubusercontent.com/rhaleblian/dslibris/master/gfx/icon.bmp
-image: https://avatars1.githubusercontent.com/u/94912?v=4
+image: https://db.universal-team.net/assets/images/icons/dslibris.png
 layout: app
 scripts:
   dslibris.nds:

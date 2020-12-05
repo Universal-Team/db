@@ -12,7 +12,7 @@ downloads:
     url: https://github.com/Drenn1/GameYob/releases/download/v0.5.2/gameyob.zip
 github: Drenn1/GameYob
 icon: https://raw.githubusercontent.com/Drenn1/GameYob/master/platform/ds/icon.bmp
-image: https://avatars1.githubusercontent.com/u/3671681?v=4
+image: https://db.universal-team.net/assets/images/icons/gameyob.png
 layout: app
 scripts:
   GameYob.cia:

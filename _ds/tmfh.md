@@ -12,7 +12,7 @@ downloads:
     url: https://github.com/JeffRuLz/TMFH/releases/download/v0.7.0/TMFH.0.7.1.zip
 github: JeffRuLz/TMFH
 icon: https://raw.githubusercontent.com/JeffRuLz/TMFH/master/icon.bmp
-image: https://avatars2.githubusercontent.com/u/14222721?v=4
+image: https://db.universal-team.net/assets/images/icons/tmfh.png
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

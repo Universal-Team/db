@@ -17,6 +17,11 @@ image: https://raw.githubusercontent.com/aliceinpalth/3dfetch/master/banner.png
 layout: app
 qr:
   3dfetch.cia: https://db.universal-team.net/assets/images/qr/3dfetch.cia.png
+screenshots:
+- description: Main screen
+  url: https://db.universal-team.net/assets/images/screenshots/3dfetch/main-screen.png
+- description: Settings
+  url: https://db.universal-team.net/assets/images/screenshots/3dfetch/settings.png
 source: https://github.com/aliceinpalth/3dfetch
 systems:
 - 3DS

@@ -24,6 +24,13 @@ license: mit
 license_name: MIT License
 qr:
   FBI.cia: https://db.universal-team.net/assets/images/qr/fbi.cia.png
+screenshots:
+- description: Main menu
+  url: https://db.universal-team.net/assets/images/screenshots/fbi/main-menu.png
+- description: Qr scanner
+  url: https://db.universal-team.net/assets/images/screenshots/fbi/qr-scanner.png
+- description: Sd list
+  url: https://db.universal-team.net/assets/images/screenshots/fbi/sd-list.png
 source: https://github.com/Steveice10/FBI
 systems:
 - 3DS
