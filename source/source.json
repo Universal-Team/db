@@ -5522,5 +5522,10 @@
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp",
 		"image": "https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png"
+	},
+	{
+		"github": "ihaveamac/faketik",
+		"systems": ["3DS"],
+		"categories": ["utility"]
 	}
 ]
