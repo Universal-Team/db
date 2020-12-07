@@ -549,7 +549,7 @@ for item in output:
 	if "updated" in item and parser.parse(item["updated"]) > latestUpdate:
 		latestUpdate = parser.parse(item["updated"])
 
-	if "updated" in item and (datetime.datetime.now(datetime.timezone.utc) - parser.parse(item["updated"])).days < 30:
+	if "updated" in item and (datetime.datetime.now(datetime.timezone.utc) - parser.parse(item["updated"])).days < 7:
 		feedItems.append(rfeed.Item(
 			title = item["title"] + " updated to " + item["version"] if "version" in item else "new version",
 			link = "https://db.universal-team.net/" + webName(item["systems"][0]) + "/" + webName(item["title"]),
