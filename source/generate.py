@@ -50,6 +50,22 @@ def byteCount(bytes):
 	else:
 		return "%d GiB" % (bytes // (1 << 30))
 
+# Recursively formats every string in an object using f-strings, pretty dangerous
+# as any code can be run, so limit to where needed
+def formatAll(app, item):
+	if type(item) == list:
+		for i in range(len(item)):
+			if type(item[i]) == str:
+				item[i] = eval('f"' + item[i] + '"')
+			else:
+				formatAll(app, item[i])
+	elif type(item) == dict:
+		for a in item:
+			if(type(item[a]) == str):
+				item[a] = eval('f"' + item[a] + '"')
+			else:
+				formatAll(app, item[a])
+
 def downloadScript(file, url):
 	if file[file.rfind(".") + 1:].lower() == "3dsx":
 		return [
@@ -320,6 +336,10 @@ for app in source:
 			if not "updated" in app:
 				commit = requests.get(fileAPI["commit"]["links"]["self"]["href"]).json()
 				app["updated"] = commit["date"]
+
+	# Process format strings
+	if "format_strings" in app and app["format_strings"]:
+		formatAll(app, app)
 
 
 	if os.path.exists(os.path.join("..", "assets", "images", "screenshots", webName(app["title"]))):
