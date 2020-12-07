@@ -7,9 +7,6 @@ created: '2018-12-17T04:06:39Z'
 description: Gui music player for the Nintendo 3DS (wip)
 download_page: https://github.com/Oreo639/LimePlayer3DS/releases/tag/v0.0.9
 downloads:
-  LimePlayer3DS-debug.elf:
-    size: 10730704
-    url: https://github.com/Oreo639/LimePlayer3DS/releases/download/v0.0.9/LimePlayer3DS-debug.elf
   LimePlayer3DS.3dsx:
     size: 1049156
     url: https://github.com/Oreo639/LimePlayer3DS/releases/download/v0.0.9/LimePlayer3DS.3dsx

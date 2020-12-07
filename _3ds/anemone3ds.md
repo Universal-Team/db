@@ -13,9 +13,6 @@ downloads:
   Anemone3DS.cia:
     size: 1020864
     url: https://github.com/astronautlevel2/Anemone3DS/releases/download/v2.1.0/Anemone3DS.cia
-  Anemone3DS.elf:
-    size: 2815952
-    url: https://github.com/astronautlevel2/Anemone3DS/releases/download/v2.1.0/Anemone3DS.elf
   Anemone3DS.smdh:
     size: 14016
     url: https://github.com/astronautlevel2/Anemone3DS/releases/download/v2.1.0/Anemone3DS.smdh
