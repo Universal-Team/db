@@ -235,7 +235,7 @@ for app in source:
 			if not "downloads" in app:
 				app["downloads"] = {}
 			for asset in release["assets"]:
-				if not asset["name"] in app["downloads"] and len(re.findall("(nro|vpk|PS3|PSP|vita|switch|wii|osx|ubuntu|win)", asset["name"])) == 0:
+				if not asset["name"] in app["downloads"] and len(re.findall("(nro|vpk|PS3|PSP|vita|switch|wii|osx|ubuntu|win|elf)", asset["name"])) == 0:
 					app["downloads"][asset["name"]] = {
 						"url": asset["browser_download_url"],
 						"size": asset["size"]
