@@ -5,20 +5,20 @@ categories:
 color: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
-download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v17.1.1
+download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v17.2.0
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 30024531
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v17.1.1/TWiLightMenu-3DS.7z
+    size: 29929149
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v17.2.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 30031081
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v17.1.1/TWiLightMenu-DSi.7z
+    size: 29936227
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v17.2.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 43124707
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v17.1.1/TWiLightMenu-Flashcard.7z
+    size: 43046998
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v17.2.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 43528527
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v17.1.1/TWiLightMenu.7z
+    size: 43461192
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v17.2.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 image: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/logo.png
@@ -147,30 +147,31 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
 
   <ul>
 
-  <li>(<strong>Not tested!</strong>) With M3 and SuperCard Slot-2 cards being supported,
-  G6 and EZ-Flash are now supported as well!<br>
-
-  Most Slot-2 cards with it''s own RAM (except the DS Memory Expansion Pak) can now
-  be used for native GBA ROM loading!
+  <li><strong>DS Phat/lite:</strong> You can now select a custom border to use in
+  GBA mode!
 
   <ul>
 
-  <li>For EZ-Flash, if the launched GBA ROM is larger than 16MB, the NOR Flash chip
-  will be used instead of the PSRAM.</li>
+  <li>Custom borders go in <code>/_nds/TWiLightMenu/gbaborders/</code>, and must be
+  in <code>.png</code> format with the resolution of 256x192.</li>
+
+  <li>Switch to the Games/Apps settings page to see the option.</li>
 
   </ul>
 
   </li>
 
+  <li><a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/wavemotion-dave/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/wavemotion-dave">@wavemotion-dave</a>''s
+  updated version (1.6) of StellaDS is now included!</li>
+
   </ul>
 
-  <p><strong>Improvements</strong></p>
+  <p><strong>Improvement (DS Phat/lite)</strong></p>
 
   <ul>
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  and various) Updated translations!</li>
+  <li>SRAM-patching GBA ROMs is no longer required!</li>
 
   </ul>
 
@@ -178,17 +179,44 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
 
   <ul>
 
-  <li>Attempted to fix GBA ROM not being loaded into the Slot-2 card''s RAM.</li>
+  <li><strong>DS Phat/lite:</strong> With native GBA ROM loading, most games will
+  no longer crash after the GBA logo screen!
 
-  <li>Fixed ROM being loaded instead of the .sav file, into the card''s SRAM.</li>
+  <ul>
 
-  <li>File copy buffer is now 32KB (previously 256KB) as originally intended, and
-  frees up a bit of memory.</li>
+  <li><strong>NOTE:</strong> Before this version, your <code>.sav</code> file has
+  became corrupted, if you used this feature. This is now fixed. To fix the corruption,
+  grab a backup of the <code>.sav</code> file, if you have one.</li>
+
+  </ul>
+
+  </li>
+
+  <li><strong>DS Phat/lite:</strong> Attempted to fix loading GBA ROMs above 16MB
+  on EZ-Flash Slot-2 cards.</li>
+
+  <li><strong>DS Phat/lite:</strong> Fixed non-GBA ROM being overwritten, when relaunching
+  TWLMenu++ after launching a non-GBA game.</li>
+
+  <li><strong>Flashcards:</strong> Fixed non-NDS games being moved to the <code>saves</code>
+  folder, when relaunching TWLMenu++ after launching a non-NDS game.</li>
+
+  <li><strong>DS Phat/lite:</strong> Fixed GBA border flickering before switching
+  to GBA mode, when launching a GBA ROM.</li>
+
+  </ul>
+
+  <p><strong>Known bug (DS Phat/lite)</strong></p>
+
+  <ul>
+
+  <li>Due to SRAM size limitations, some GBA games with the save size of 128KB will
+  show a message that the save is corrupt (ex. <em>Pokemon Emerald</em>).</li>
 
   </ul>'
-updated: '2020-11-28T16:13:13Z'
-version: v17.1.1
-version_title: v17.1.1
+updated: '2020-12-09T08:36:10Z'
+version: v17.2.0
+version_title: v17.2.0
 wiki: https://github.com/DS-Homebrew/TWiLightMenu/wiki
 ---
 TWiLight Menu++ is an open-source DSi Menu upgrade/replacement for the Nintendo DSi, the Nintendo 3DS, and Nintendo DS flashcards. It can launch Nintendo DS, SNES, NES, GameBoy (color), GameBoy Advance, Sega GameGear/Master System & Mega Drive/Genesis ROMs, as well as DSTWO plugins (if you use a DSTWO) and videos.
