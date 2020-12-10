@@ -5524,6 +5524,14 @@
 		"image": "https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png"
 	},
 	{
+		"github": "wavemotion-dave/A7800DS",
+		"author":"AlekMaul / Dave Bernazzani",
+		"systems": ["DS"],
+		"categories": ["emulator"],
+		"icon": "https://raw.githubusercontent.com/wavemotion-dave/A7800DS/main/logo.bmp",
+		"image": "https://raw.githubusercontent.com/wavemotion-dave/A7800DS/main/arm9/gfx/bgTop.png"
+	},
+	{
 		"github": "ihaveamac/faketik",
 		"systems": ["3DS"],
 		"categories": ["utility"]
