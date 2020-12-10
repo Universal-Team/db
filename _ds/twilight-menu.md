@@ -8,16 +8,16 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v17.2.0
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 29929149
+    size: 30084349
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v17.2.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 29936227
+    size: 30093365
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v17.2.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 43046998
+    size: 43185689
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v17.2.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 43461192
+    size: 43597395
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v17.2.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
@@ -120,8 +120,11 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
-  Menu++:</p>
+update_notes: '<p>Original release date: Dec 9, 2020, 1:36AM MST<br>
+
+  Re-released to fix an overlooked bug in GBARunner2.</p>
+
+  <p>Check here on how to update <strong>TW</strong>i<strong>L</strong>ight Menu++:</p>
 
   <ul>
 
@@ -214,7 +217,7 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
   show a message that the save is corrupt (ex. <em>Pokemon Emerald</em>).</li>
 
   </ul>'
-updated: '2020-12-09T08:36:10Z'
+updated: '2020-12-10T00:49:33Z'
 version: v17.2.0
 version_title: v17.2.0
 wiki: https://github.com/DS-Homebrew/TWiLightMenu/wiki
