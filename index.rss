@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Universal-DB</title><link>https://db.universal-team.net</link><description>A database of DS and 3DS homebrew</description><language>en-US</language><pubDate>Fri, 11 Dec 2020 00:27:46 GMT</pubDate><lastBuildDate>Fri, 11 Dec 2020 00:27:46 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><image><url>https://universal-team.net/images/icons/universal-team.png</url><title>Universal-DB</title><link>https://db.universal-team.net</link></image><item><title>A7800DS updated to 1.2</title><link>https://db.universal-team.net/ds/a7800ds</link><description>Version 1.2&lt;hr /&gt;&lt;p&gt;With sound improvements. It's much better - but nowhere near perfect.&lt;/p&gt;</description><author>AlekMaul / Dave Bernazzani</author><pubDate>Thu, 10 Dec 2020 13:15:11 GMT</pubDate><category>DS</category><guid isPermaLink="true">https://db.universal-team.net/ds/a7800ds</guid><enclosure url="https://raw.githubusercontent.com/wavemotion-dave/A7800DS/main/arm9/gfx/bgTop.png" length="12633" type="image/png"></enclosure></item><item><title>TWiLight Menu++ updated to v17.2.0</title><link>https://db.universal-team.net/ds/twilight-menu</link><description>v17.2.0&lt;hr /&gt;&lt;p&gt;Original release date: Dec 9, 2020, 1:36AM MST&lt;br&gt;
-Re-released to fix an overlooked bug in GBARunner2.&lt;/p&gt;
-&lt;p&gt;Check here on how to update &lt;strong&gt;TW&lt;/strong&gt;i&lt;strong&gt;L&lt;/strong&gt;ight Menu++:&lt;/p&gt;
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Universal-DB</title><link>https://db.universal-team.net</link><description>A database of DS and 3DS homebrew</description><language>en-US</language><pubDate>Fri, 11 Dec 2020 06:13:50 GMT</pubDate><lastBuildDate>Fri, 11 Dec 2020 06:13:50 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><image><url>https://universal-team.net/images/icons/universal-team.png</url><title>Universal-DB</title><link>https://db.universal-team.net</link></image><item><title>TWiLight Menu++ updated to v17.2.1</title><link>https://db.universal-team.net/ds/twilight-menu</link><description>v17.2.1&lt;hr /&gt;&lt;p&gt;Check here on how to update &lt;strong&gt;TW&lt;/strong&gt;i&lt;strong&gt;L&lt;/strong&gt;ight Menu++:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%28flashcard%29"&gt;Flashcard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%28flashcard%29"&gt;Flashcard&lt;/a&gt; (Strongly recommended!)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%28dsi%29"&gt;DSi&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%283ds%29"&gt;3DS&lt;/a&gt;
 &lt;ul&gt;
@@ -14,31 +12,26 @@ Re-released to fix an overlooked bug in GBARunner2.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;What's new?&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;DS Phat/lite:&lt;/strong&gt; You can now select a custom border to use in GBA mode!
+&lt;li&gt;Atari 7800 has been added to TWLMenu++ Virtual Console!
 &lt;ul&gt;
-&lt;li&gt;Custom borders go in &lt;code&gt;/_nds/TWiLightMenu/gbaborders/&lt;/code&gt;, and must be in &lt;code&gt;.png&lt;/code&gt; format with the resolution of 256x192.&lt;/li&gt;
-&lt;li&gt;Switch to the Games/Apps settings page to see the option.&lt;/li&gt;
+&lt;li&gt;Included emulator is A7800DS, developed by Alekmaul, and improved by &lt;a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/wavemotion-dave/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/wavemotion-dave"&gt;@wavemotion-dave&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ROMs must have the &lt;code&gt;.a78&lt;/code&gt; file type.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/wavemotion-dave/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/wavemotion-dave"&gt;@wavemotion-dave&lt;/a&gt;'s updated version (1.6) of StellaDS is now included!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DS Phat/lite:&lt;/strong&gt; If using an EZ-Flash Slot-2 card to run GBA games in native GBA mode, if the game does not use the SRAM save type, a message will be shown before the game boots, saying to SRAM-patch the ROM.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Improvement (DS Phat/lite)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Improvement&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;SRAM-patching GBA ROMs is no longer required!&lt;/li&gt;
+&lt;li&gt;(&lt;a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11"&gt;@Epicpkmn11&lt;/a&gt; and various) Updated translations!&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Bug fixes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bug fixes (DS Phat/lite)&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;DS Phat/lite:&lt;/strong&gt; With native GBA ROM loading, most games will no longer crash after the GBA logo screen!
+&lt;li&gt;Fixed some GBA game compatibility in native mode (ex. &lt;em&gt;Namco Museum: 50th Anniversary&lt;/em&gt;, &lt;em&gt;Kirby and the Amazing Mirror&lt;/em&gt;).&lt;/li&gt;
+&lt;li&gt;Fixed soft-lock sometimes occurring when restarting TWLMenu++ after running a GBA game in native mode.&lt;/li&gt;
+&lt;li&gt;Fixed GBA games that are 16MB or less, not booting in native mode using an EZ-Flash Slot-2 card.
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; Before this version, your &lt;code&gt;.sav&lt;/code&gt; file has became corrupted, if you used this feature. This is now fixed. To fix the corruption, grab a backup of the &lt;code&gt;.sav&lt;/code&gt; file, if you have one.&lt;/li&gt;
+&lt;li&gt;NOR flash is now always used, instead of PSRAM. PSRAM is now only used to store the rotating cube video for the 3DS theme.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;DS Phat/lite:&lt;/strong&gt; Attempted to fix loading GBA ROMs above 16MB on EZ-Flash Slot-2 cards.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;DS Phat/lite:&lt;/strong&gt; Fixed non-GBA ROM being overwritten, when relaunching TWLMenu++ after launching a non-GBA game.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Flashcards:&lt;/strong&gt; Fixed non-NDS games being moved to the &lt;code&gt;saves&lt;/code&gt; folder, when relaunching TWLMenu++ after launching a non-NDS game.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;DS Phat/lite:&lt;/strong&gt; Fixed GBA border flickering before switching to GBA mode, when launching a GBA ROM.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Known bug (DS Phat/lite)&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Due to SRAM size limitations, some GBA games with the save size of 128KB will show a message that the save is corrupt (ex. &lt;em&gt;Pokemon Emerald&lt;/em&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description><author>DS-Homebrew</author><pubDate>Thu, 10 Dec 2020 00:49:33 GMT</pubDate><category>DS</category><guid isPermaLink="true">https://db.universal-team.net/ds/twilight-menu</guid><enclosure url="https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/logo.png" length="142608" type="image/png"></enclosure></item><item><title>StellaDS updated to 1.6</title><link>https://db.universal-team.net/ds/stellads</link><description>Version 1.6&lt;hr /&gt;&lt;p&gt;Spit-and-polish release. Fixed 3F games. Added support for Star Raiders. Many small tweaks to various games for a better overall experience.&lt;/p&gt;</description><author>AlekMaul / Dave Bernazzani</author><pubDate>Sun, 06 Dec 2020 14:45:07 GMT</pubDate><category>DS</category><guid isPermaLink="true">https://db.universal-team.net/ds/stellads</guid><enclosure url="https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png" length="10279" type="image/png"></enclosure></item><item><title>SnemulDS updated to 0b04f9f</title><link>https://db.universal-team.net/ds/snemulds</link><description>0b04f9f</description><author>Coto</author><pubDate>Sat, 05 Dec 2020 21:37:42 GMT</pubDate><category>DS</category><guid isPermaLink="true">https://db.universal-team.net/ds/snemulds</guid><enclosure url="https://db.universal-team.net/assets/images/icons/snemulds.png" length="626" type="image/png"></enclosure></item></channel></rss>
+&lt;li&gt;Fixed slow patch speed when launching GBA games that use &lt;code&gt;FLASH512_V13X&lt;/code&gt; save type.&lt;/li&gt;
+&lt;/ul&gt;</description><author>DS-Homebrew</author><pubDate>Fri, 11 Dec 2020 04:01:15 GMT</pubDate><category>DS</category><guid isPermaLink="true">https://db.universal-team.net/ds/twilight-menu</guid><enclosure url="https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/logo.png" length="142608" type="image/png"></enclosure></item><item><title>A7800DS updated to 1.2</title><link>https://db.universal-team.net/ds/a7800ds</link><description>Version 1.2&lt;hr /&gt;&lt;p&gt;With sound improvements. It's much better - but nowhere near perfect.&lt;/p&gt;</description><author>AlekMaul / Dave Bernazzani</author><pubDate>Thu, 10 Dec 2020 13:15:11 GMT</pubDate><category>DS</category><guid isPermaLink="true">https://db.universal-team.net/ds/a7800ds</guid><enclosure url="https://raw.githubusercontent.com/wavemotion-dave/A7800DS/main/arm9/gfx/bgTop.png" length="12633" type="image/png"></enclosure></item><item><title>StellaDS updated to 1.6</title><link>https://db.universal-team.net/ds/stellads</link><description>Version 1.6&lt;hr /&gt;&lt;p&gt;Spit-and-polish release. Fixed 3F games. Added support for Star Raiders. Many small tweaks to various games for a better overall experience.&lt;/p&gt;</description><author>AlekMaul / Dave Bernazzani</author><pubDate>Sun, 06 Dec 2020 14:45:07 GMT</pubDate><category>DS</category><guid isPermaLink="true">https://db.universal-team.net/ds/stellads</guid><enclosure url="https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png" length="10279" type="image/png"></enclosure></item><item><title>SnemulDS updated to 0b04f9f</title><link>https://db.universal-team.net/ds/snemulds</link><description>0b04f9f</description><author>Coto</author><pubDate>Sat, 05 Dec 2020 21:37:42 GMT</pubDate><category>DS</category><guid isPermaLink="true">https://db.universal-team.net/ds/snemulds</guid><enclosure url="https://db.universal-team.net/assets/images/icons/snemulds.png" length="626" type="image/png"></enclosure></item></channel></rss>
