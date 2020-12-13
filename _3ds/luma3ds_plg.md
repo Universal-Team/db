@@ -6,7 +6,7 @@ categories:
 - luma3ds
 color: '#877346'
 created: '2020-04-21T05:08:56Z'
-description: Noob-proof (N)3DS "Custom Firmware" [plugin loader]
+description: Noob-proof (N)3DS "Custom Firmware" [@mariohackandglitch's plugin loader]
 download_page: https://github.com/jbmagination/Luma3DS_plg/releases/tag/10.1.3
 downloads:
   boot.firm:
