@@ -149,7 +149,7 @@ with open("source.json", "r", encoding="utf8") as file:
 	source = json.load(file)
 
 # Read version from old unistore
-with open(os.path.join("..", "unistore", "universal-db.unistore"), "r", encoding="utf8") as file:
+with open(os.path.join("..", "docs", "unistore", "universal-db.unistore"), "r", encoding="utf8") as file:
 	unistoreOld = json.load(file)
 
 # Create UniStore base
@@ -174,7 +174,7 @@ output = []
 # Old data json
 oldData = None
 
-with open(os.path.join("..", "data", "full.json"), "r", encoding="utf8") as file:
+with open(os.path.join("..", "docs", "data", "full.json"), "r", encoding="utf8") as file:
 	oldData = json.load(file)
 
 # Icons array
@@ -342,10 +342,10 @@ for app in source:
 		formatAll(app, app)
 
 
-	if os.path.exists(os.path.join("..", "assets", "images", "screenshots", webName(app["title"]))):
+	if os.path.exists(os.path.join("..", "docs", "assets", "images", "screenshots", webName(app["title"]))):
 		if not "screenshots" in app:
 			app["screenshots"] = []
-		dirlist = os.listdir(os.path.join("..", "assets", "images", "screenshots", webName(app["title"])))
+		dirlist = os.listdir(os.path.join("..", "docs", "assets", "images", "screenshots", webName(app["title"])))
 		dirlist.sort()
 		for screenshot in dirlist:
 			if screenshot[-3:] in ["png", "gif", "jpg", "peg", "iff", "bmp"]:
@@ -402,7 +402,7 @@ for app in source:
 					qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask = img if img.mode == "RGBA" else None)
 					if "version" in app:
 						draw.text(((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2 + img.height), app["version"][:img.width//6], (0, 0, 0))
-				qr.save(os.path.join("..", "assets", "images", "qr", webName(item) + ".png"))
+				qr.save(os.path.join("..", "docs", "assets", "images", "qr", webName(item) + ".png"))
 				if not "qr" in app:
 					app["qr"] = {}
 				app["qr"][item] = "https://db.universal-team.net/assets/images/qr/" + webName(item) + ".png"
@@ -422,7 +422,7 @@ for app in source:
 					qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask = img if img.mode == "RGBA" else None)
 					if "version" in app["prerelease"]:
 						draw.text(((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2 + img.height), app["prerelease"]["version"][:img.width//6], (0xF6, 0x6A, 0x0A))
-				qr.save(os.path.join("..", "assets", "images", "qr", "prerelease", webName(item) + ".png"))
+				qr.save(os.path.join("..", "docs", "assets", "images", "qr", "prerelease", webName(item) + ".png"))
 				if not "qr" in app["prerelease"]:
 					app["prerelease"]["qr"] = {}
 				app["prerelease"]["qr"][item] = "https://db.universal-team.net/assets/images/qr/prerelease/" + webName(item) + ".png"
@@ -440,7 +440,7 @@ for app in source:
 					draw = ImageDraw.Draw(qr)
 					draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 4)), fill = (255, 255, 255))
 					qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask = img if img.mode == "RGBA" else None)
-				qr.save(os.path.join("..", "assets", "images", "qr", "nightly", webName(item) + ".png"))
+				qr.save(os.path.join("..", "docs", "assets", "images", "qr", "nightly", webName(item) + ".png"))
 				if not "qr" in app["nightly"]:
 					app["nightly"]["qr"] = {}
 				app["nightly"]["qr"][item] = "https://db.universal-team.net/assets/images/qr/nightly/" + webName(item) + ".png"
@@ -459,7 +459,7 @@ for app in source:
 		web["updated"] = "---"
 	for system in web["systems"]:
 		if "title" in web:
-			with open(os.path.join("..", "_" + webName(system), webName(web["title"]) + ".md"), "w", encoding="utf8") as file:
+			with open(os.path.join("..", "docs", "_" + webName(system), webName(web["title"]) + ".md"), "w", encoding="utf8") as file:
 				file.write("---\n" + yaml.dump(web) + "---\n")
 				if "long_description" in app:
 					file.write(app["long_description"])
@@ -521,25 +521,25 @@ with open(os.path.join("temp", "icons.t3s"), "w", encoding="utf8") as file:
 	file.write("--atlas -f rgba -z auto\n\n")
 	for icon in icons:
 		file.write(icon + "\n")
-os.system("tex3ds -i " + os.path.join("temp", "icons.t3s") + " -o " + os.path.join("..", "unistore", "universal-db.t3x"))
+os.system("tex3ds -i " + os.path.join("temp", "icons.t3s") + " -o " + os.path.join("..", "docs", "unistore", "universal-db.t3x"))
 
 # Increment revision if not the same
 if unistore != unistoreOld:
 	unistore["storeInfo"]["revision"] += 1
 
 # Write unistore to file
-with open(os.path.join("..", "unistore", "universal-db.unistore"), "w", encoding="utf8") as file:
+with open(os.path.join("..", "docs", "unistore", "universal-db.unistore"), "w", encoding="utf8") as file:
 	file.write(json.dumps(unistore, sort_keys=True))
 
 # Write output file
-with open(os.path.join("..", "data", "full.json"), "w", encoding="utf8") as file:
+with open(os.path.join("..", "docs", "data", "full.json"), "w", encoding="utf8") as file:
 	file.write(json.dumps(output, sort_keys=True))
 
 # RSS feed
 # Get last update from old feed
 oldUpdate = parser.parse("1970-01-01T00:00:00Z")
-if os.path.exists(os.path.join("..", "index.rss")):
-	r = untangle.parse(os.path.join("..", "index.rss"))
+if os.path.exists(os.path.join("..", "docs", "index.rss")):
+	r = untangle.parse(os.path.join("..", "docs", "index.rss"))
 	oldUpdate = parser.parse(r.rss.channel.item[0].pubDate.cdata if type(r.rss.channel.item) == list else r.rss.channel.item.pubDate.cdata)
 
 feedItems = []
@@ -579,5 +579,5 @@ if len(feedItems) > 0 and latestUpdate > oldUpdate:
 		image = rfeed.Image(title = "Universal-DB", url = "https://universal-team.net/images/icons/universal-team.png", link = "https://db.universal-team.net"),
 	)
 
-	with open(os.path.join("..", "index.rss"), "w", encoding="utf8") as file:
+	with open(os.path.join("..", "docs", "index.rss"), "w", encoding="utf8") as file:
 		file.write(feed.rss())

@@ -25,7 +25,7 @@ jobs:
 
     - name: Delete old pages and QRs
       run: |
-        rm -rf _3ds/* _ds/* assets/images/qr/*.png assets/images/qr/nightly/*.png assets/images/qr/prerelease/*.png
+        rm -rf docs/_3ds/* docs/_ds/* docs/assets/images/qr/*.png docs/assets/images/qr/nightly/*.png docs/assets/images/qr/prerelease/*.png
 
     - name: Run generate.py
       run: |
