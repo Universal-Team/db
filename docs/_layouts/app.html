@@ -84,7 +84,7 @@
 												<a class="mr-1" href="{{ item[1].url }}">Download {{ item[0] }}</a>
 												{% for qr in page.qr %}
 													{% if item[0] == qr[0] %}
-														<a class="qr-link" href="{{ qr[1] }}" role="button" data-toggle="modal" data-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}">
+														<a class="qr-link" href="{{ qr[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}">
 															<i class="fa fa-qrcode" aria-hidden="true"></i>
 														</a>
 													{% endif %}
@@ -97,7 +97,7 @@
 											<small class="text-muted">
 												Version: {% if page.download_page %}<a href="{{ page.download_page }}">{% endif %}{{ page.version }}{% if page.download_page %}</a>{% endif %}
 												{% if page.update_notes %}
-													<button class="btn btn-outline-secondary btn-sm" role="button" data-toggle="modal" data-target="#modal" data-name="{% if page.version_title %}{{ page.version_title }}{% else %}{{ page.version }}{% endif %}" data-content="{{ page.update_notes | escape }}">
+													<button class="btn btn-outline-secondary btn-sm" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{% if page.version_title %}{{ page.version_title }}{% else %}{{ page.version }}{% endif %}" data-content="{{ page.update_notes | escape }}">
 														Update notes
 													</button>
 												{% endif %}
@@ -118,7 +118,7 @@
 													<a class="mr-1" href="{{ item[1].url }}">Download {{ item[0] }}</a>
 													{% for qr in page.prerelease.qr %}
 														{% if item[0] == qr[0] %}
-															<a class="qr-link" href="{{ qr[1] }}" role="button" data-toggle="modal" data-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}">
+															<a class="qr-link" href="{{ qr[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}">
 																<i class="fa fa-qrcode" aria-hidden="true"></i>
 															</a>
 														{% endif %}
@@ -131,7 +131,7 @@
 												<small class="text-muted">
 													Version: {% if page.prerelease.download_page %}<a href="{{ page.prerelease.download_page }}">{% endif %}{{ page.prerelease.version }}{% if page.prerelease.download_page %}</a>{% endif %}
 													{% if page.prerelease.update_notes %}
-														<button class="btn btn-outline-secondary btn-sm" role="button" data-toggle="modal" data-target="#modal" data-name="{% if page.prerelease.version_title %}{{ page.prerelease.version_title }}{% else %}{{ page.prerelease.version }}{% endif %}" data-content="{{ page.prerelease.update_notes | escape }}">
+														<button class="btn btn-outline-secondary btn-sm" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{% if page.prerelease.version_title %}{{ page.prerelease.version_title }}{% else %}{{ page.prerelease.version }}{% endif %}" data-content="{{ page.prerelease.update_notes | escape }}">
 															Update notes
 														</button>
 													{% endif %}
@@ -153,7 +153,7 @@
 													<a class="mr-1" href="{{ item[1].url }}">Download {{ item[0] }}</a>
 													{% for qr in page.nightly.qr %}
 														{% if item[0] == qr[0] %}
-															<a class="qr-link" href="{{ qr[1] }}" role="button" data-toggle="modal" data-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}">
+															<a class="qr-link" href="{{ qr[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}">
 																<i class="fa fa-qrcode" aria-hidden="true"></i>
 															</a>
 														{% endif %}
@@ -182,10 +182,10 @@
 									<div class="row mt-3">
 										<div class="col-12">
 											<h2>Screenshots</h2>
-											<div id="screenshotCarousel" class="carousel carousel-dark-when-light slide mb-3" data-ride="carousel">
+											<div id="screenshotCarousel" class="carousel carousel-dark-when-light slide mb-3" data-bs-ride="carousel">
 												<ol class="carousel-indicators">
 													{% for ss in page.screenshots %}
-														<li data-target="#screenshotCarousel" data-slide-to="{{ forloop.index0 }}" class="{% if forloop.first %}active{% endif %}"></li>
+														<li data-bs-target="#screenshotCarousel" data-bs-slide-to="{{ forloop.index0 }}" class="{% if forloop.first %}active{% endif %}"></li>
 													{% endfor %}
 												</ol>
 												<div class="carousel-inner">
@@ -198,11 +198,11 @@
 														</div>
 													{% endfor %}
 												</div>
-												<a class="carousel-control-prev" href="#screenshotCarousel" role="button" data-slide="prev">
+												<a class="carousel-control-prev" href="#screenshotCarousel" role="button" data-bs-slide="prev">
 													<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 													<span class="visually-hidden">Previous</span>
 												</a>
-												<a class="carousel-control-next" href="#screenshotCarousel" role="button" data-slide="next">
+												<a class="carousel-control-next" href="#screenshotCarousel" role="button" data-bs-slide="next">
 													<span class="carousel-control-next-icon" aria-hidden="true"></span>
 													<span class="visually-hidden">Next</span>
 												</a>
@@ -220,9 +220,7 @@
 
 	{% include footer.html %}
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-popRpmFF9JQgExhfw5tZT4I9/CI5e2QcuUZPOVXb1m7qUmeR2b50u+YFEYe1wgzy" crossorigin="anonymous"></script>
+	{% include common-js.html %}
 	<script src="/assets/js/modal.js"></script>
-	<script src="/assets/js/relativeTime.js"></script>
-	<script src="/assets/js/rescript.js"></script>
 </body>
 </html>
