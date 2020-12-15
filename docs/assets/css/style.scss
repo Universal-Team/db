@@ -61,6 +61,10 @@ a:hover, .a:hover {
 	text-decoration-thickness: 1px;
 }
 
+a.clean {
+	text-decoration: none;
+}
+
 small {
 	font-size: 75%;
 	color: var(--small-color);
