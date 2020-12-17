@@ -11,7 +11,7 @@ downloads:
     url: http://lolsnes.kuribo64.net/lolsnes.7z
 github: Arisotura/lolSnes
 icon: https://raw.githubusercontent.com/Arisotura/lolSnes/master/lolsnes.bmp
-image: http://lolsnes.kuribo64.net/img/banner.png
+image: https://db.universal-team.net/assets/images/images/lolsnes.png
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

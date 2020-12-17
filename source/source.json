@@ -769,7 +769,7 @@
 		"updated": "2013-08-31T00:23:48Z",
 		"systems": ["DS"],
 		"icon": "https://raw.githubusercontent.com/Arisotura/lolSnes/master/lolsnes.bmp",
-		"image": "http://lolsnes.kuribo64.net/img/banner.png",
+		"image": "https://db.universal-team.net/assets/images/images/lolsnes.png",
 		"nightly": {
 			"download_page": "http://lolsnes.kuribo64.net/download.php",
 			"downloads": {
