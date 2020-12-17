@@ -97,7 +97,7 @@
 											<small class="text-muted">
 												Version: {% if page.download_page %}<a href="{{ page.download_page }}">{% endif %}{{ page.version }}{% if page.download_page %}</a>{% endif %}
 												{% if page.update_notes %}
-													<button class="btn btn-outline-secondary btn-sm" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{% if page.version_title %}{{ page.version_title }}{% else %}{{ page.version }}{% endif %}" data-content="{{ page.update_notes | escape }}">
+													<button class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#modal" data-name="{% if page.version_title %}{{ page.version_title }}{% else %}{{ page.version }}{% endif %}" data-content="{{ page.update_notes | escape }}">
 														Update notes
 													</button>
 												{% endif %}
@@ -131,7 +131,7 @@
 												<small class="text-muted">
 													Version: {% if page.prerelease.download_page %}<a href="{{ page.prerelease.download_page }}">{% endif %}{{ page.prerelease.version }}{% if page.prerelease.download_page %}</a>{% endif %}
 													{% if page.prerelease.update_notes %}
-														<button class="btn btn-outline-secondary btn-sm" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{% if page.prerelease.version_title %}{{ page.prerelease.version_title }}{% else %}{{ page.prerelease.version }}{% endif %}" data-content="{{ page.prerelease.update_notes | escape }}">
+														<button class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#modal" data-name="{% if page.prerelease.version_title %}{{ page.prerelease.version_title }}{% else %}{{ page.prerelease.version }}{% endif %}" data-content="{{ page.prerelease.update_notes | escape }}">
 															Update notes
 														</button>
 													{% endif %}
@@ -147,7 +147,7 @@
 								{% if page.nightly %}
 									<div class="row mt-3">
 										<div class="col-12">
-											<abbr title="Commit / beta builds, potentially unstable but have the latest updates"><h3>Nightlies</h3></abbr>
+											<h3><abbr title="Commit / beta builds, potentially unstable but have the latest updates">Nightlies</abbr></h3>
 											{% for item in page.nightly.downloads %}
 												<span class="btn btn-dark m-1">
 													<a class="mr-1" href="{{ item[1].url }}">Download {{ item[0] }}</a>
