@@ -1,37 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Universal-DB</title><link>https://db.universal-team.net</link><description>A database of DS and 3DS homebrew</description><language>en-US</language><pubDate>Thu, 17 Dec 2020 18:14:15 GMT</pubDate><lastBuildDate>Thu, 17 Dec 2020 18:14:15 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><image><url>https://universal-team.net/images/icons/universal-team.png</url><title>Universal-DB</title><link>https://db.universal-team.net</link></image><item><title>A7800DS updated to 1.6</title><link>https://db.universal-team.net/ds/a7800ds</link><description>Version 1.6&lt;hr /&gt;&lt;p&gt;Rebranded PHOENIX EDITION and with minor cleanups, ready for wider release.&lt;/p&gt;</description><author>AlekMaul / Dave Bernazzani</author><pubDate>Thu, 17 Dec 2020 13:07:25 GMT</pubDate><category>DS</category><guid isPermaLink="true">https://db.universal-team.net/ds/a7800ds</guid><enclosure url="https://raw.githubusercontent.com/wavemotion-dave/A7800DS/main/arm9/gfx/bgTop.png" length="13123" type="image/png"></enclosure></item><item><title>SnemulDS updated to 84f0e31</title><link>https://db.universal-team.net/ds/snemulds</link><description>84f0e31</description><author>Coto</author><pubDate>Wed, 16 Dec 2020 20:32:02 GMT</pubDate><category>DS</category><guid isPermaLink="true">https://db.universal-team.net/ds/snemulds</guid><enclosure url="https://db.universal-team.net/assets/images/icons/snemulds.png" length="626" type="image/png"></enclosure></item><item><title>TWiLight Menu++ updated to v17.2.1</title><link>https://db.universal-team.net/ds/twilight-menu</link><description>v17.2.1&lt;hr /&gt;&lt;p&gt;Check here on how to update &lt;strong&gt;TW&lt;/strong&gt;i&lt;strong&gt;L&lt;/strong&gt;ight Menu++:&lt;/p&gt;
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Universal-DB</title><link>https://db.universal-team.net</link><description>A database of DS and 3DS homebrew</description><language>en-US</language><pubDate>Fri, 18 Dec 2020 18:20:42 GMT</pubDate><lastBuildDate>Fri, 18 Dec 2020 18:20:42 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><image><url>https://universal-team.net/images/icons/universal-team.png</url><title>Universal-DB</title><link>https://db.universal-team.net</link></image><item><title>wumiibo updated to v3.0</title><link>https://db.universal-team.net/3ds/wumiibo</link><description>v3.0 Fourth Release&lt;hr /&gt;&lt;p&gt;This is the fourth public release for wumiibo.&lt;br&gt;
+Following list of changes have been made.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%28flashcard%29"&gt;Flashcard&lt;/a&gt; (Strongly recommended!)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%28dsi%29"&gt;DSi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%283ds%29"&gt;3DS&lt;/a&gt;
+&lt;li&gt;
+&lt;p&gt;Fix wumiibo not recognizing some amiibos correctly.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%283ds,-universal-updater%29"&gt;Universal-Updater&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/DS-Homebrew/TWiLightMenu/wiki/updating-%283ds,-manual%29"&gt;Manual&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;This was fixed by commit &lt;a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/hax0kartik/wumiibo/commit/069eff6ed2350bc7712aeb6c84d106ce46d148f3/hovercard" href="https://github.com/hax0kartik/wumiibo/commit/069eff6ed2350bc7712aeb6c84d106ce46d148f3"&gt;&lt;tt&gt;069eff6&lt;/tt&gt;&lt;/a&gt;. See issue &lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="748011619" data-permission-text="Title is private" data-url="https://github.com/hax0kartik/wumiibo/issues/28" data-hovercard-type="issue" data-hovercard-url="/hax0kartik/wumiibo/issues/28/hovercard" href="https://github.com/hax0kartik/wumiibo/issues/28"&gt;#28&lt;/a&gt; for more details.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;What's new?&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;All 47 games are now compatible with wumiibo.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Atari 7800 has been added to TWLMenu++ Virtual Console!
-&lt;ul&gt;
-&lt;li&gt;Included emulator is A7800DS, developed by Alekmaul, and improved by &lt;a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/wavemotion-dave/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/wavemotion-dave"&gt;@wavemotion-dave&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;ROMs must have the &lt;code&gt;.a78&lt;/code&gt; file type.&lt;/li&gt;
+&lt;li&gt;With some games you still need to do the &lt;a href="https://github.com/hax0kartik/wumiibo#workaround-for-games-which-freeze"&gt;workaround&lt;/a&gt; for them to not freeze. Check the &lt;a href="https://github.com/hax0kartik/wumiibo/wiki/Compatibility-List"&gt;compatibilty list&lt;/a&gt; for such games.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;DS Phat/lite:&lt;/strong&gt; If using an EZ-Flash Slot-2 card to run GBA games in native GBA mode, if the game does not use the SRAM save type, a message will be shown before the game boots, saying to SRAM-patch the ROM.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Improvement&lt;/strong&gt;&lt;/p&gt;
+&lt;li&gt;
+&lt;p&gt;File limit bumped to 400 per directory.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Introduce WumiiboHelper&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;(&lt;a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11"&gt;@Epicpkmn11&lt;/a&gt; and various) Updated translations!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Bug fixes (DS Phat/lite)&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Fixed some GBA game compatibility in native mode (ex. &lt;em&gt;Namco Museum: 50th Anniversary&lt;/em&gt;, &lt;em&gt;Kirby and the Amazing Mirror&lt;/em&gt;).&lt;/li&gt;
-&lt;li&gt;Fixed soft-lock sometimes occurring when restarting TWLMenu++ after running a GBA game in native mode.&lt;/li&gt;
-&lt;li&gt;Fixed GBA games that are 16MB or less, not booting in native mode using an EZ-Flash Slot-2 card.
-&lt;ul&gt;
-&lt;li&gt;NOR flash is now always used, instead of PSRAM. PSRAM is now only used to store the rotating cube video for the 3DS theme.&lt;/li&gt;
+&lt;li&gt;WumiiboHelper is an easy to to use HB app. You can automatically download and install wumiibo from wumiibohelper.&lt;/li&gt;
+&lt;li&gt;WumiiboHelper has an option &lt;code&gt;Generate amiibos for a game&lt;/code&gt; which can be used to produce compatible amiibos for a compatible game right from your 3ds!&lt;br&gt;
+&lt;em&gt;Note: This app is not well tested, please open an issue if you encounter any error. Amiibos can also be generated manually by using this website:- &lt;a href="https://hax0kartik.github.io/amiibo-generator/" rel="nofollow"&gt;https://hax0kartik.github.io/amiibo-generator/&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Fixed slow patch speed when launching GBA games that use &lt;code&gt;FLASH512_V13X&lt;/code&gt; save type.&lt;/li&gt;
-&lt;/ul&gt;</description><author>DS-Homebrew</author><pubDate>Fri, 11 Dec 2020 04:01:15 GMT</pubDate><category>DS</category><guid isPermaLink="true">https://db.universal-team.net/ds/twilight-menu</guid><enclosure url="https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/logo.png" length="142608" type="image/png"></enclosure></item></channel></rss>
+&lt;li&gt;
+&lt;p&gt;Minor improvements have been made.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you're installing wumiibo for the first time, you can download and run WumiiboHelper and select &lt;code&gt;Download Wumiibo&lt;/code&gt; to download and install wumiibo(once installed use the second option to generate amiibos) or you can follow the manual installation steps &lt;a href="https://github.com/hax0kartik/wumiibo#how-to-use"&gt;here&lt;/a&gt;&lt;br&gt;
+As always special thanks to people on my discord server for helping me test wumiibo, wouldn't be possible without you guys!&lt;/p&gt;</description><author>hax0kartik</author><pubDate>Fri, 18 Dec 2020 13:30:35 GMT</pubDate><category>3DS</category><guid isPermaLink="true">https://db.universal-team.net/3ds/wumiibo</guid><enclosure url="https://avatars0.githubusercontent.com/u/16360444?v=4" length="214969" type="image/png"></enclosure></item><item><title>A7800DS updated to 1.6</title><link>https://db.universal-team.net/ds/a7800ds</link><description>Version 1.6&lt;hr /&gt;&lt;p&gt;Rebranded PHOENIX EDITION and with minor cleanups, ready for wider release.&lt;/p&gt;</description><author>AlekMaul / Dave Bernazzani</author><pubDate>Thu, 17 Dec 2020 13:07:25 GMT</pubDate><category>DS</category><guid isPermaLink="true">https://db.universal-team.net/ds/a7800ds</guid><enclosure url="https://raw.githubusercontent.com/wavemotion-dave/A7800DS/main/arm9/gfx/bgTop.png" length="13123" type="image/png"></enclosure></item><item><title>SnemulDS updated to 84f0e31</title><link>https://db.universal-team.net/ds/snemulds</link><description>84f0e31</description><author>Coto</author><pubDate>Wed, 16 Dec 2020 20:32:02 GMT</pubDate><category>DS</category><guid isPermaLink="true">https://db.universal-team.net/ds/snemulds</guid><enclosure url="https://db.universal-team.net/assets/images/icons/snemulds.png" length="626" type="image/png"></enclosure></item></channel></rss>

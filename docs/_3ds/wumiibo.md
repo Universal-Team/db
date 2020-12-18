@@ -5,11 +5,14 @@ categories:
 color: '#411d38'
 created: '2020-08-20T12:36:12Z'
 description: Amiibo Emulation for 3ds
-download_page: https://github.com/hax0kartik/wumiibo/releases/tag/v2.0
+download_page: https://github.com/hax0kartik/wumiibo/releases/tag/v3.0
 downloads:
   0004013000004002.zip:
-    size: 42617
-    url: https://github.com/hax0kartik/wumiibo/releases/download/v2.0/0004013000004002.zip
+    size: 42340
+    url: https://github.com/hax0kartik/wumiibo/releases/download/v3.0/0004013000004002.zip
+  wumiibohelper.3dsx:
+    size: 1510488
+    url: https://github.com/hax0kartik/wumiibo/releases/download/v3.0/wumiibohelper.3dsx
 github: hax0kartik/wumiibo
 image: https://avatars0.githubusercontent.com/u/16360444?v=4
 layout: app
@@ -34,26 +37,25 @@ source: https://github.com/hax0kartik/wumiibo
 systems:
 - 3DS
 title: wumiibo
-update_notes: '<p>This is the third public release for wumiibo.<br>
+update_notes: '<p>This is the fourth public release for wumiibo.<br>
 
-  Following list of changes has been made.</p>
+  Following list of changes have been made.</p>
 
   <ul>
 
   <li>
 
-  <p>Proper UID assignment and UID Randomization has been added.</p>
+  <p>Fix wumiibo not recognizing some amiibos correctly.</p>
 
   <ul>
 
-  <li>Wumiibo no longer uses a hardcoded UID for every amiibo. It automatically assigns
-  a new UID to every amiibo.</li>
-
-  <li>Some games limit users to only one scan of a specific amiibo per 24 hours. By
-  randomizing an amiibo''s UID you can overcome this limit.<br>
-
-  <strong>NOTE</strong>:- This depends on the game''s logic, and may not work with
-  every title.</li>
+  <li>This was fixed by commit <a class="commit-link" data-hovercard-type="commit"
+  data-hovercard-url="https://github.com/hax0kartik/wumiibo/commit/069eff6ed2350bc7712aeb6c84d106ce46d148f3/hovercard"
+  href="https://github.com/hax0kartik/wumiibo/commit/069eff6ed2350bc7712aeb6c84d106ce46d148f3"><tt>069eff6</tt></a>.
+  See issue <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+  data-id="748011619" data-permission-text="Title is private" data-url="https://github.com/hax0kartik/wumiibo/issues/28"
+  data-hovercard-type="issue" data-hovercard-url="/hax0kartik/wumiibo/issues/28/hovercard"
+  href="https://github.com/hax0kartik/wumiibo/issues/28">#28</a> for more details.</li>
 
   </ul>
 
@@ -61,12 +63,13 @@ update_notes: '<p>This is the third public release for wumiibo.<br>
 
   <li>
 
-  <p>Default wumiibo menu button can now be overridden.</p>
+  <p>All 47 games are now compatible with wumiibo.</p>
 
   <ul>
 
-  <li>This can be done by creating a <code>wumiibo.ini</code> file on the root of
-  your sd card. A sample of this file is <a href="https://github.com/hax0kartik/wumiibo/blob/master/wumiibo.ini">here</a>.</li>
+  <li>With some games you still need to do the <a href="https://github.com/hax0kartik/wumiibo#workaround-for-games-which-freeze">workaround</a>
+  for them to not freeze. Check the <a href="https://github.com/hax0kartik/wumiibo/wiki/Compatibility-List">compatibilty
+  list</a> for such games.</li>
 
   </ul>
 
@@ -74,19 +77,25 @@ update_notes: '<p>This is the third public release for wumiibo.<br>
 
   <li>
 
-  <p>DirectoryLister code has been improved.</p>
+  <p>File limit bumped to 400 per directory.</p>
+
+  </li>
+
+  <li>
+
+  <p>Introduce WumiiboHelper</p>
 
   <ul>
 
-  <li>You can now have upto <code>49</code> folders within the <code>wumiibo</code>
-  folder. Inside every folder you can have even more subfolders or amiibos. So if
-  you create your folders properly, there is virtually no limit on how many amiibos
-  you can have at a time.</li>
+  <li>WumiiboHelper is an easy to to use HB app. You can automatically download and
+  install wumiibo from wumiibohelper.</li>
 
-  <li>As a bonus feature, if you want to have a dedicated folder for a game, you can
-  give a folder the game''s TitleID and put all relevant amiibos in there. For example,
-  for Super Smash Bros EUR, you can create a folder <code>sd:/wumiibo/00040000000EE000</code>
-  and put the amiibos in there. Wumiibo will automatically open this folder in-game.</li>
+  <li>WumiiboHelper has an option <code>Generate amiibos for a game</code> which can
+  be used to produce compatible amiibos for a compatible game right from your 3ds!<br>
+
+  <em>Note: This app is not well tested, please open an issue if you encounter any
+  error. Amiibos can also be generated manually by using this website:- <a href="https://hax0kartik.github.io/amiibo-generator/"
+  rel="nofollow">https://hax0kartik.github.io/amiibo-generator/</a></em></li>
 
   </ul>
 
@@ -94,26 +103,21 @@ update_notes: '<p>This is the third public release for wumiibo.<br>
 
   <li>
 
-  <p>Various bugs have been fixed and minor improvements have been made.</p>
+  <p>Minor improvements have been made.</p>
 
   </li>
 
   </ul>
 
-  <p>If this the first time you''re installing wumiibo, you can follow the instruction
-  in the readme <a href="https://github.com/hax0kartik/wumiibo/blob/master/Readme.md">here</a>.</p>
+  <p>If you''re installing wumiibo for the first time, you can download and run WumiiboHelper
+  and select <code>Download Wumiibo</code> to download and install wumiibo(once installed
+  use the second option to generate amiibos) or you can follow the manual installation
+  steps <a href="https://github.com/hax0kartik/wumiibo#how-to-use">here</a><br>
 
-  <p>As of writing 42 out of 47 know games that have amiibo capabalities are known
-  to work. You can check the compatibility list <a href="https://github.com/hax0kartik/wumiibo/wiki/Compatibility-List">here</a>.</p>
-
-  <p>Massive thanks to Marcus7777, druivensap, Love Leiz and Graymar on my discord
-  server for helping me test out the games, wouldn''t been possible without you guys!</p>
-
-  <p>If you like my work, you can support me by buying me a coffee on <a href="https://ko-fi.com/hax0kartik"
-  rel="nofollow">ko-fi</a> or you can <a href="https://www.paypal.com/paypalme/preetiagarwala?locale.x=en_GB"
-  rel="nofollow">paypal</a> me!</p>'
-updated: '2020-09-24T18:30:26Z'
-version: v2.0
-version_title: v2.0 Third Release
+  As always special thanks to people on my discord server for helping me test wumiibo,
+  wouldn''t be possible without you guys!</p>'
+updated: '2020-12-18T13:30:35Z'
+version: v3.0
+version_title: v3.0 Fourth Release
 wiki: https://github.com/hax0kartik/wumiibo/wiki
 ---
