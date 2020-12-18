@@ -1739,7 +1739,7 @@
 					"type": "extractFile",
 					"file": "/picodrive_3ds.zip",
 					"input": "picodrive_3ds.3dsx",
-					"output": "%3DSX%/picodrive_3ds.cia",
+					"output": "%3DSX%/picodrive_3ds.3dsx",
 					"message": "Extracting picodrive_3ds.3dsx..."
 				},
 				{
@@ -4031,7 +4031,7 @@
 			"[prerelease] EDuke3D.cia": [
 				{
 					"type": "downloadRelease",
-					"repo": "Owner/Repo",
+					"repo": "masterfeizz/EDuke3D",
 					"file": "EDuke3D.*\\.zip",
 					"output": "/EDuke3D.zip",
 					"message": "Downloading EDuke3D.zip...",
@@ -4046,10 +4046,11 @@
 				},
 				{
 					"type": "downloadRelease",
-					"repo": "Owner/Repo",
+					"repo": "masterfeizz/EDuke3D",
 					"file": "EDuke3D.cia",
 					"output": "/EDuke3D.cia",
-					"message": "Downloading EDuke3D.cia..."
+					"message": "Downloading EDuke3D.cia...",
+					"includePrereleases": true
 				},
 				{
 					"type": "installCia",
@@ -4070,7 +4071,7 @@
 			"[prerelease] eduke3d.3dsx": [
 				{
 					"type": "downloadRelease",
-					"repo": "Owner/Repo",
+					"repo": "masterfeizz/EDuke3D",
 					"file": "EDuke3D.*\\.zip",
 					"output": "/EDuke3D.zip",
 					"message": "Downloading EDuke3D.zip...",
