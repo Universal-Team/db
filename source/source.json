@@ -4579,6 +4579,7 @@
 		"github": "hax0kartik/wumiibo",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"image": "https://raw.githubusercontent.com/hax0kartik/wumiibo/master/wumiibohelper/gfx/icon.png",
 		"scripts": {
 			"wumiibo": [
 				{
