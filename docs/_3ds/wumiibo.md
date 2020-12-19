@@ -2,7 +2,7 @@
 author: hax0kartik
 categories:
 - utility
-color: '#411d38'
+color: '#44372b'
 created: '2020-08-20T12:36:12Z'
 description: Amiibo Emulation for 3ds
 download_page: https://github.com/hax0kartik/wumiibo/releases/tag/v3.0
@@ -14,7 +14,7 @@ downloads:
     size: 1510488
     url: https://github.com/hax0kartik/wumiibo/releases/download/v3.0/wumiibohelper.3dsx
 github: hax0kartik/wumiibo
-image: https://avatars0.githubusercontent.com/u/16360444?v=4
+image: https://raw.githubusercontent.com/hax0kartik/wumiibo/master/wumiibohelper/gfx/icon.png
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
