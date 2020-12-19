@@ -41,7 +41,7 @@ scripts:
     includePrereleases: true
     message: Downloading EDuke3D.zip...
     output: /EDuke3D.zip
-    repo: Owner/Repo
+    repo: masterfeizz/EDuke3D
     type: downloadRelease
   - file: /EDuke3D.zip
     input: ''
@@ -49,9 +49,10 @@ scripts:
     output: /
     type: extractFile
   - file: EDuke3D.cia
+    includePrereleases: true
     message: Downloading EDuke3D.cia...
     output: /EDuke3D.cia
-    repo: Owner/Repo
+    repo: masterfeizz/EDuke3D
     type: downloadRelease
   - file: /EDuke3D.cia
     message: Installing EDuke3D.cia...
@@ -67,7 +68,7 @@ scripts:
     includePrereleases: true
     message: Downloading EDuke3D.zip...
     output: /EDuke3D.zip
-    repo: Owner/Repo
+    repo: masterfeizz/EDuke3D
     type: downloadRelease
   - file: /EDuke3D.zip
     input: ''

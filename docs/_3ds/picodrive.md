@@ -24,7 +24,7 @@ scripts:
   - file: /picodrive_3ds.zip
     input: picodrive_3ds.3dsx
     message: Extracting picodrive_3ds.3dsx...
-    output: '%3DSX%/picodrive_3ds.cia'
+    output: '%3DSX%/picodrive_3ds.3dsx'
     type: extractFile
   - file: /picodrive_3ds.zip
     message: Deleting picodrive_3ds.zip...
