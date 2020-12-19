@@ -107,6 +107,13 @@ update_notes: '<p>This is the fourth public release for wumiibo.<br>
 
   </li>
 
+  <li>
+
+  <p><strong>Note: Signal TagInRange and TagOutofRange are debug features, you shouldn''t
+  need them.</strong></p>
+
+  </li>
+
   </ul>
 
   <p>If you''re installing wumiibo for the first time, you can download and run WumiiboHelper
