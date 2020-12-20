@@ -827,7 +827,8 @@
 			"files": [
 				"release/arm9dldi-ntr/SNEmulDS.nds",
 				"release/snemul.cfg"
-			]
+			],
+			"branch": "TGDS1.6-Snemulds"
 		},
 		"systems": ["DS"],
 		"categories": ["emulator"],
