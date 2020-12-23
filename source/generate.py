@@ -243,6 +243,7 @@ for app in source:
 				app["version_title"] = release["name"]
 
 			if not "update_notes" in app and release["body"] != "" and release["body"] != None:
+				app["update_notes_md"] = release["body"]
 				app["update_notes"] = requests.post("https://api.github.com/markdown", headers = header if header else None, json = {"text": release["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
 
 			if not "updated" in app:
@@ -277,8 +278,10 @@ for app in source:
 				app["prerelease"]["version_title"] = prerelease["name"]
 
 			if not "update_notes" in app and prerelease["body"] != "" and prerelease["body"] != None:
+				app["update_notes_md"] = prerelease["body"]
 				app["update_notes"] = requests.post("https://api.github.com/markdown", headers = header if header else None, json = {"text": prerelease["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
 			if not "update_notes" in app["prerelease"] and prerelease["body"] != "" and prerelease["body"] != None:
+				app["prerelease"]["update_notes_md"] = prerelease["body"]
 				app["prerelease"]["update_notes"] = requests.post("https://api.github.com/markdown", headers = header if header else None, json = {"text": prerelease["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
 
 			if not "updated" in app:
@@ -451,8 +454,15 @@ for app in source:
 	# Website file
 	web = app.copy()
 	web["layout"] = "app"
+	# long description is put as the content
 	if "long_description" in web:
 		web.pop("long_description")
+	# Remove large things that aren't needed
+	if "update_notes_md" in web:
+		web.pop("update_notes_md")
+	if "scripts" in web:
+		web.pop("scripts")
+	# Add defaults where absolutely needed
 	if not "systems" in web:
 		web["systems"] = ["3DS"] # default to 3DS
 	if not "updated" in web:
@@ -475,6 +485,7 @@ for app in source:
 				"console": app["systems"].copy() if "systems" in app else [],
 				"icon_index": len(icons) - 1 if "icon" in app or "image" in app else -1,
 				"description": ucs2Name(app["description"]) if "description" in app else "",
+				"releasenotes": app["update_notes_md"] if "update_notes_md" in app else "",
 				"screenshots": [],
 				"license": app["license"] if "license" in app else ""
 			}
