@@ -14,6 +14,7 @@ downloads:
     url: https://github.com/aspargas2/CartInstall/releases/download/v1.3.0/CartInstall.firm
 github: aspargas2/CartInstall
 image: https://avatars3.githubusercontent.com/u/36926490?v=4
+image_length: 9612
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0

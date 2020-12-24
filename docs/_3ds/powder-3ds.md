@@ -13,6 +13,7 @@ downloads:
 github: nop90/POWDER-3DS
 icon: https://raw.githubusercontent.com/nop90/POWDER-3DS/master/port/3ds/icon.png
 image: https://raw.githubusercontent.com/nop90/POWDER-3DS/master/port/3ds/banner.png
+image_length: 49046
 layout: app
 license: other
 license_name: Other

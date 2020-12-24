@@ -12,6 +12,7 @@ downloads:
 github: SonoSooS/TWPatch_a
 icon: https://raw.githubusercontent.com/SonoSooS/TWPatch_a/master/assets/logo.png
 image: https://raw.githubusercontent.com/SonoSooS/TWPatch_a/master/assets/banner.png
+image_length: 25344
 layout: app
 prerelease:
   downloads:

@@ -9,6 +9,7 @@ download_page: https://github.com/nop90/Biniax2-3DS/releases/tag/V0.4alpha
 github: nop90/Biniax2-3DS
 icon: https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/banner.png
+image_length: 23461
 layout: app
 prerelease:
   download_page: https://github.com/nop90/Biniax2-3DS/releases/tag/V0.4alpha

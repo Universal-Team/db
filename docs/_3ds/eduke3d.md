@@ -9,6 +9,7 @@ download_page: https://github.com/masterfeizz/EDuke3D/releases/tag/v1.0-beta
 github: masterfeizz/EDuke3D
 icon: https://raw.githubusercontent.com/masterfeizz/EDuke3D/master/icon.png
 image: https://db.universal-team.net/assets/images/images/eduke3d.png
+image_length: 9124
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0

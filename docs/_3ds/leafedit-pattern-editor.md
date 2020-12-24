@@ -17,6 +17,7 @@ downloads:
 github: SuperSaiyajinStackZ/LeafEdit-Pattern-Editor
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/master/app/icon.png
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/master/app/banner.png
+image_length: 24808
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

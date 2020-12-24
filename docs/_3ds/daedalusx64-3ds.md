@@ -19,6 +19,7 @@ downloads:
 github: masterfeizz/daedalusx64-3DS
 icon: https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/v0.2/Source/SysCTR/Resources/icon.png
 image: https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/v0.2/Source/SysCTR/Resources/banner.png
+image_length: 23118
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0

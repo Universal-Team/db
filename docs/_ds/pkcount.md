@@ -19,6 +19,7 @@ downloads:
 github: SuperSaiyajinStackZ/PKCount
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/PKCount/master/3DS/app/icon.png
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/PKCount/master/3DS/app/banner.png
+image_length: 9935
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

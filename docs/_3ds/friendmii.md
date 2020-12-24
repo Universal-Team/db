@@ -16,6 +16,7 @@ downloads:
 github: joel16/FriendMii
 icon: https://raw.githubusercontent.com/joel16/FriendMii/master/res/ic_launcher_friendmii.png
 image: https://raw.githubusercontent.com/joel16/FriendMii/master/res/banner.png
+image_length: 4215
 layout: app
 license: mit
 license_name: MIT License

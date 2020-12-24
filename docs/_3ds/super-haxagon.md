@@ -19,6 +19,7 @@ downloads:
 github: RedInquisitive/Super-Haxagon
 icon: https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/icon-3ds.png
 image: https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/banner.png
+image_length: 114192
 layout: app
 license: mit
 license_name: MIT License

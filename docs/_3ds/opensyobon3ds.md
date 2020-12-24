@@ -13,6 +13,7 @@ downloads:
 github: nop90/OpenSyobon3DS
 icon: https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/banner.png
+image_length: 24314
 layout: app
 source: https://github.com/nop90/OpenSyobon3DS
 systems:

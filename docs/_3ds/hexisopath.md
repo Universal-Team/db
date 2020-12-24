@@ -17,6 +17,7 @@ downloads:
 github: LiquidFenrir/HexIsoPath
 icon: https://raw.githubusercontent.com/LiquidFenrir/HexIsoPath/master/icon.png
 image: https://raw.githubusercontent.com/LiquidFenrir/HexIsoPath/master/banner.png
+image_length: 6762
 layout: app
 license: mit
 license_name: MIT License

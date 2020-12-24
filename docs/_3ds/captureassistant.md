@@ -16,6 +16,7 @@ downloads:
 github: ItsDeidara/CaptureAssistant
 icon: https://raw.githubusercontent.com/ItsDeidara/CaptureAssistant/master/assets/icon.png
 image: https://raw.githubusercontent.com/ItsDeidara/CaptureAssistant/master/assets/banner.png
+image_length: 26023
 layout: app
 license: mit
 license_name: MIT License

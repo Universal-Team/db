@@ -15,6 +15,7 @@ downloads:
 github: HIDE810/WiFi-Status-Checker
 icon: https://raw.githubusercontent.com/HIDE810/WiFi-Status-Checker/master/resource/icon.png
 image: https://raw.githubusercontent.com/HIDE810/WiFi-Status-Checker/master/resource/banner.png
+image_length: 3876
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

@@ -13,6 +13,7 @@ downloads:
 github: TurtleP/TurtleInvaders
 icon: https://db.universal-team.net/assets/images/icons/turtleinvaders.png
 image: https://db.universal-team.net/assets/images/images/turtleinvaders.png
+image_length: 1778
 layout: app
 license: other
 license_name: Other

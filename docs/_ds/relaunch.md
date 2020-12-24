@@ -13,6 +13,7 @@ downloads:
 github: Universal-Team/Relaunch
 icon: https://raw.githubusercontent.com/Universal-Team/Relaunch/master/main/icon.bmp
 image: https://raw.githubusercontent.com/Universal-Team/Relaunch/master/logo.png
+image_length: 510792
 layout: app
 license: mit
 license_name: MIT License

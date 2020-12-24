@@ -18,6 +18,7 @@ downloads:
 github: Universal-Team/LeafEdit
 icon: https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/banner.png
+image_length: 34569
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

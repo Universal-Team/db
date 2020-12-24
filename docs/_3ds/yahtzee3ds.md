@@ -16,6 +16,7 @@ downloads:
 github: LiquidFenrir/Yahtzee3DS
 icon: https://raw.githubusercontent.com/LiquidFenrir/Yahtzee3DS/master/icon.png
 image: https://raw.githubusercontent.com/LiquidFenrir/Yahtzee3DS/master/sprites/banner.png
+image_length: 6451
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

@@ -16,6 +16,7 @@ downloads:
 github: SuperSaiyajinStackZ/Ludo3DS
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/icon.png
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/Banner.png
+image_length: 12316
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

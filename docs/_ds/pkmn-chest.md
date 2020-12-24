@@ -18,6 +18,7 @@ downloads:
 github: Universal-Team/pkmn-chest
 icon: https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/icon.bmp
 image: https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/resources/icon.png
+image_length: 381
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

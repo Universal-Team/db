@@ -16,6 +16,7 @@ downloads:
 github: Universal-Team/3DVier
 icon: https://raw.githubusercontent.com/Universal-Team/3DVier/master/3ds/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/3DVier/master/3ds/app/banner.png
+image_length: 18267
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

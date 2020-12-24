@@ -16,6 +16,7 @@ downloads:
 github: joel16/3DS-Recovery-Tool
 icon: https://raw.githubusercontent.com/joel16/3DS-Recovery-Tool/master/res/ic_launcher_recovery_tool.png
 image: https://raw.githubusercontent.com/joel16/3DS-Recovery-Tool/master/res/banner.png
+image_length: 16291
 layout: app
 license: mit
 license_name: MIT License

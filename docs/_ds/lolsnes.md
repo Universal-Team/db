@@ -12,6 +12,7 @@ downloads:
 github: Arisotura/lolSnes
 icon: https://raw.githubusercontent.com/Arisotura/lolSnes/master/lolsnes.bmp
 image: https://db.universal-team.net/assets/images/images/lolsnes.png
+image_length: 22541
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

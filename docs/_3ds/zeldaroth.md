@@ -16,6 +16,7 @@ downloads:
 github: nop90/ZeldaROTH
 icon: https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/banner.png
+image_length: 7049
 layout: app
 source: https://github.com/nop90/ZeldaROTH
 systems:

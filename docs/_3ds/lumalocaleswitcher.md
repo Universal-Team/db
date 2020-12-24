@@ -23,6 +23,7 @@ downloads:
 github: Possum/LumaLocaleSwitcher
 icon: https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/meta/icon.png
 image: https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/meta/banner.png
+image_length: 39325
 layout: app
 license: mit
 license_name: MIT License

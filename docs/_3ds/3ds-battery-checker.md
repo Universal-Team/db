@@ -19,6 +19,7 @@ downloads:
 github: Core-2-Extreme/3DS-Battery-Checker
 icon: https://raw.githubusercontent.com/Core-2-Extreme/3DS-Battery-Checker/master/v1.2.0/resource/icon.png
 image: https://raw.githubusercontent.com/Core-2-Extreme/3DS-Battery-Checker/master/v1.2.0/resource/bannerv1.2.png
+image_length: 60656
 layout: app
 qr:
   3DS_Battery_Checker.cia: https://db.universal-team.net/assets/images/qr/3ds_battery_checker.cia.png

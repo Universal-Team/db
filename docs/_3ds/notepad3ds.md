@@ -16,6 +16,7 @@ downloads:
 github: RMcTn/Notepad3DS
 icon: https://raw.githubusercontent.com/RMcTn/Notepad3DS/master/icon.png
 image: https://db.universal-team.net/assets/images/images/notepad3ds.png
+image_length: 588
 layout: app
 license: mit
 license_name: MIT License

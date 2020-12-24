@@ -16,6 +16,7 @@ downloads:
 github: Swiftloke/ModMoon
 icon: https://raw.githubusercontent.com/Swiftloke/ModMoon/master/CIA/icon.png
 image: https://raw.githubusercontent.com/Swiftloke/ModMoon/master/CIA/banner.png
+image_length: 25780
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

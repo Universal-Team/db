@@ -16,6 +16,7 @@ downloads:
 github: HIDE810/you-are-an-idiot
 icon: https://raw.githubusercontent.com/HIDE810/you-are-an-idiot/master/resource/icon.png
 image: https://raw.githubusercontent.com/HIDE810/you-are-an-idiot/master/resource/banner.png
+image_length: 4323
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

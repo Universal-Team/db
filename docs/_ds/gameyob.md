@@ -13,6 +13,7 @@ downloads:
 github: Drenn1/GameYob
 icon: https://raw.githubusercontent.com/Drenn1/GameYob/master/platform/ds/icon.bmp
 image: https://db.universal-team.net/assets/images/icons/gameyob.png
+image_length: 474
 layout: app
 source: https://github.com/Drenn1/GameYob
 systems:

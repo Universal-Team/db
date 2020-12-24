@@ -16,6 +16,7 @@ downloads:
 github: GamesSanti/Craftus-Redesigned
 icon: https://raw.githubusercontent.com/GamesSanti/Craftus-Reskined/main/icon/craftusreloaded.png
 image: https://user-images.githubusercontent.com/68710005/100094866-6c014180-2e38-11eb-9139-c4e9784e2c1b.png
+image_length: 288054
 layout: app
 license: other
 license_name: Other

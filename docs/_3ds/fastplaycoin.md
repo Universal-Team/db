@@ -16,6 +16,7 @@ downloads:
 github: CorySanin/FastPlayCoin
 icon: https://raw.githubusercontent.com/CorySanin/FastPlayCoin/master/resource/icon.png
 image: https://raw.githubusercontent.com/CorySanin/FastPlayCoin/master/resource/banner.png
+image_length: 19045
 layout: app
 qr:
   FastPlayCoin.cia: https://db.universal-team.net/assets/images/qr/fastplaycoin.cia.png

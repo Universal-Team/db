@@ -14,6 +14,7 @@ downloads:
 github: nop90/Griffon-Legend-3DS
 icon: https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/banner.png
+image_length: 29770
 layout: app
 license: other
 license_name: Other

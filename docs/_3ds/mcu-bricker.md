@@ -13,6 +13,7 @@ downloads:
 github: MechanicalDragon0687/MCU_Bricker_tinydb
 icon: https://db.universal-team.net/assets/images/icons/mcu-bricker.png
 image: https://db.universal-team.net/assets/images/images/mcu-bricker.png
+image_length: 6151
 layout: app
 qr:
   RGB.cia: https://db.universal-team.net/assets/images/qr/rgb.cia.png

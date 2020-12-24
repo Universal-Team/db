@@ -17,6 +17,7 @@ downloads:
 github: nop90/ZeldaOLB
 icon: https://raw.githubusercontent.com/nop90/ZeldaOLB/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/ZeldaOLB/master/resources/banner.png
+image_length: 23811
 layout: app
 qr:
   ZeldaOLB_v1.1.cia: https://db.universal-team.net/assets/images/qr/zeldaolb_v1.1.cia.png

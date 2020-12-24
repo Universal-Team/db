@@ -13,6 +13,7 @@ downloads:
 github: Asellus/3DS_Quick_Reboot
 icon: https://raw.githubusercontent.com/Asellus/3DS_Quick_Reboot/master/resources/icon.png
 image: https://raw.githubusercontent.com/Asellus/3DS_Quick_Reboot/master/resources/banner.png
+image_length: 7777
 layout: app
 license: mit
 license_name: MIT License

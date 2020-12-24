@@ -10,6 +10,7 @@ download_page: https://github.com/nop90/Neopop-SDL/releases/tag/v0.4
 github: nop90/Neopop-SDL
 icon: https://raw.githubusercontent.com/nop90/Neopop-SDL/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/Neopop-SDL/master/resources/banner.png
+image_length: 37739
 layout: app
 prerelease:
   download_page: https://github.com/nop90/Neopop-SDL/releases/tag/v0.4

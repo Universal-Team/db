@@ -14,6 +14,7 @@ downloads:
     url: https://github.com/d0k3/GodMode9/releases/download/v1.9.1/GodMode9-v1.9.1-20200110121417.zip
 github: d0k3/GodMode9
 image: https://raw.githubusercontent.com/d0k3/GodMode9/master/resources/logo.png
+image_length: 9316
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

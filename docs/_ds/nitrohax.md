@@ -12,6 +12,7 @@ downloads:
 github: chishm/nitrohax
 icon: https://raw.githubusercontent.com/chishm/nitrohax/master/icon.bmp
 image: https://db.universal-team.net/assets/images/icons/nitrohax.png
+image_length: 354
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

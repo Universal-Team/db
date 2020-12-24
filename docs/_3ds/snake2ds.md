@@ -20,6 +20,7 @@ downloads:
 github: Jacudibu/Snake2DS
 icon: https://raw.githubusercontent.com/Jacudibu/Snake2DS/master/icon_large.png
 image: https://db.universal-team.net/assets/images/images/snake2ds.png
+image_length: 1209
 layout: app
 license: mit
 license_name: MIT License

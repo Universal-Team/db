@@ -14,6 +14,7 @@ downloads:
     url: https://github.com/jbmagination/Luma3DS_plg/releases/download/10.1.3/boot.firm
 github: jbmagination/Luma3DS_plg
 image: https://avatars3.githubusercontent.com/u/26027089?v=4
+image_length: 9589
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

@@ -13,6 +13,7 @@ downloads:
 github: RocketRobz/3DSBank
 icon: https://db.universal-team.net/assets/images/icons/3dsbank.png
 image: https://db.universal-team.net/assets/images/icons/3dsbank.png
+image_length: 266
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

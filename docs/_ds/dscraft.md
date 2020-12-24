@@ -14,6 +14,7 @@ downloads:
 github: smealum/dscraft
 icon: https://db.universal-team.net/assets/images/icons/dscraft.png
 image: https://raw.githubusercontent.com/smealum/dscraft/master/site/dscraft-logo.png
+image_length: 2429
 layout: app
 source: https://github.com/smealum/dscraft
 systems:

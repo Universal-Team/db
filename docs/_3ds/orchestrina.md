@@ -13,6 +13,7 @@ downloads:
 github: EBLeifEricson/orchestrina
 icon: https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/icon.png
 image: https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/banner2.png
+image_length: 14835
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

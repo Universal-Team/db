@@ -13,6 +13,7 @@ downloads:
 github: rhaleblian/dslibris
 icon: https://raw.githubusercontent.com/rhaleblian/dslibris/master/gfx/icon.bmp
 image: https://db.universal-team.net/assets/images/icons/dslibris.png
+image_length: 379
 layout: app
 source: https://github.com/rhaleblian/dslibris
 systems:

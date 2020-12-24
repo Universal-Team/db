@@ -17,6 +17,7 @@ downloads:
 github: Steveice10/WorldOf3DSand
 icon: https://raw.githubusercontent.com/Steveice10/WorldOf3DSand/master/meta/icon_3ds.png
 image: https://raw.githubusercontent.com/Steveice10/WorldOf3DSand/master/meta/banner_3ds.png
+image_length: 8175
 layout: app
 license: mit
 license_name: MIT License

@@ -16,6 +16,7 @@ downloads:
 github: togetg/TJAPlayer_for_3DS
 icon: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resources/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resources/banner.png
+image_length: 17026
 layout: app
 qr:
   TJAPlayer_for_3DS.cia: https://db.universal-team.net/assets/images/qr/tjaplayer_for_3ds.cia.png

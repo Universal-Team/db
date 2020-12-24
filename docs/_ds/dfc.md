@@ -13,6 +13,7 @@ downloads:
 github: Epicpkmn11/dfc
 icon: https://raw.githubusercontent.com/Epicpkmn11/dfc/master/resources/icon.png
 image: https://raw.githubusercontent.com/Epicpkmn11/dfc/master/resources/banner.png
+image_length: 2960
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

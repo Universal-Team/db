@@ -13,6 +13,7 @@ downloads:
 github: gnmmarechal/easyrpgdlre
 icon: https://db.universal-team.net/assets/images/icons/easyrpgdlre.png
 image: https://db.universal-team.net/assets/images/images/easyrpgdlre.png
+image_length: 2573
 layout: app
 license: mit
 license_name: MIT License

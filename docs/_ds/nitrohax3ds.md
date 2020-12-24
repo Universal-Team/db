@@ -16,6 +16,7 @@ downloads:
 github: ahezard/NitroHax3DS
 icon: https://raw.githubusercontent.com/ahezard/NitroHax3DS/master/icon.bmp
 image: https://db.universal-team.net/assets/images/icons/nitrohax3ds.png
+image_length: 354
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

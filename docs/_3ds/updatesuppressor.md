@@ -17,6 +17,7 @@ downloads:
 github: GiantBlargg/UpdateSuppressor
 icon: https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/icon.png
 image: https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/banner.png
+image_length: 9099
 layout: app
 qr:
   UpdateSuppressor.cia: https://db.universal-team.net/assets/images/qr/updatesuppressor.cia.png

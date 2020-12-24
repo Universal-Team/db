@@ -9,6 +9,7 @@ download_page: https://github.com/masterfeizz/Quake2CTR/releases/tag/v0.2
 github: masterfeizz/Quake2CTR
 icon: https://db.universal-team.net/assets/images/icons/quake2ctr.png
 image: https://db.universal-team.net/assets/images/images/quake2ctr.png
+image_length: 6044
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0

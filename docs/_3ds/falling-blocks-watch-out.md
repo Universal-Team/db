@@ -13,6 +13,7 @@ downloads:
 github: Spaqin/fbwo-3ds
 icon: https://db.universal-team.net/assets/images/icons/fbwo-3ds.png
 image: https://db.universal-team.net/assets/images/images/fbwo-3ds.png
+image_length: 1112
 layout: app
 source: https://github.com/Spaqin/fbwo-3ds
 systems:

@@ -14,6 +14,7 @@ downloads:
 github: bubble2k16/temperpce_3ds
 icon: https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/temperpce/assets/icon.png
 image: https://db.universal-team.net/assets/images/images/temperpce.png
+image_length: 3236
 layout: app
 source: https://github.com/bubble2k16/temperpce_3ds
 systems:

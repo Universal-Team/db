@@ -14,6 +14,7 @@ downloads:
 github: dragos240/TownManager
 icon: https://raw.githubusercontent.com/dragos240/TownManager/master/icon.png
 image: https://raw.githubusercontent.com/dragos240/TownManager/master/res/banner%20icon.png
+image_length: 33925
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

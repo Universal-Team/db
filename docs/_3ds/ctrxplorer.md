@@ -17,6 +17,7 @@ downloads:
 github: d0k3/CTRXplorer
 icon: https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/icon.png
 image: https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/banner.png
+image_length: 6146
 layout: app
 license: mit
 license_name: MIT License

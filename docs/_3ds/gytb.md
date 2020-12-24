@@ -17,6 +17,7 @@ downloads:
 github: MechanicalDragon0687/GYTB
 icon: https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resources/icon.png
 image: https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resources/banner.png
+image_length: 2798
 layout: app
 qr:
   GYTB.cia: https://db.universal-team.net/assets/images/qr/gytb.cia.png

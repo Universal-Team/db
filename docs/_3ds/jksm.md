@@ -17,6 +17,7 @@ downloads:
 github: J-D-K/JKSM
 icon: https://raw.githubusercontent.com/J-D-K/JKSM/master/icon.png
 image: https://db.universal-team.net/assets/images/images/jksm.png
+image_length: 954
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

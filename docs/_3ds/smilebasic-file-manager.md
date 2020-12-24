@@ -17,6 +17,7 @@ downloads:
 github: Trinitro21/lpp-3ds
 icon: https://raw.githubusercontent.com/Trinitro21/lpp-3ds/sbfm/icon.png
 image: https://db.universal-team.net/assets/images/images/lpp-3ds.png
+image_length: 4451
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

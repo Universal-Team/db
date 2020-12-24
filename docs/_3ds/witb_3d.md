@@ -17,6 +17,7 @@ downloads:
 github: Manurocker95/WITB_3D
 icon: https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/icon.png
 image: https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/resources/banner.png
+image_length: 18849
 layout: app
 qr:
   WITB_3D.cia: https://db.universal-team.net/assets/images/qr/witb_3d.cia.png

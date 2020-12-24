@@ -12,6 +12,7 @@ downloads:
     url: https://github.com/ihaveamac/faketik/releases/download/v1.1.2/faketik.3dsx
 github: ihaveamac/faketik
 image: https://avatars3.githubusercontent.com/u/590576?v=4
+image_length: 218158
 layout: app
 license: mit
 license_name: MIT License

@@ -14,6 +14,7 @@ downloads:
     url: https://github.com/Nanquitas/Luma3DS/releases/download/v10.2.1/boot.firm
 github: Nanquitas/Luma3DS
 image: https://avatars3.githubusercontent.com/u/13298129?v=4
+image_length: 1564
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

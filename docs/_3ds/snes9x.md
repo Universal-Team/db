@@ -13,6 +13,7 @@ downloads:
 github: bubble2k16/snes9x_3ds
 icon: https://raw.githubusercontent.com/bubble2k16/snes9x_3ds/master/assets/icon.png
 image: https://db.universal-team.net/assets/images/images/snes9x_3ds.png
+image_length: 5476
 layout: app
 source: https://github.com/bubble2k16/snes9x_3ds
 systems:

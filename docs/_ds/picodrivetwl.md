@@ -9,6 +9,7 @@ download_page: https://github.com/DS-Homebrew/PicoDriveTWL/releases/tag/v2.0.2
 github: DS-Homebrew/PicoDriveTWL
 icon: https://raw.githubusercontent.com/DS-Homebrew/PicoDriveTWL/master/genesis-32x32.bmp
 image: https://db.universal-team.net/assets/images/icons/picodrivetwl.png
+image_length: 764
 layout: app
 prerelease:
   download_page: https://github.com/DS-Homebrew/PicoDriveTWL/releases/tag/v2.0.2

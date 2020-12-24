@@ -13,6 +13,7 @@ downloads:
 github: RocketRobz/HoriHD-Gallery
 icon: https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/icon.png
 image: https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/banner.png
+image_length: 10610
 layout: app
 screenshots:
 - description: Breath of the wild horihd

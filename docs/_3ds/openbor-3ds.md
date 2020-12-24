@@ -17,6 +17,7 @@ downloads:
 github: MrHuu/openbor-3ds
 icon: https://raw.githubusercontent.com/MrHuu/openbor-3ds/3DS/engine/resources/ctr/OpenBOR_Icon_48x48.png
 image: https://raw.githubusercontent.com/MrHuu/openbor-3ds/3DS/engine/resources/ctr/OpenBOR_Logo_256x128.png
+image_length: 33143
 layout: app
 license: bsd-3-clause
 license_name: BSD 3-Clause "New" or "Revised" License

@@ -13,6 +13,7 @@ downloads:
 github: zoogie/Stuff
 icon: https://raw.githubusercontent.com/zoogie/Stuff/master/nds-hb-menu/cia/icon.png
 image: https://raw.githubusercontent.com/zoogie/Stuff/master/nds-hb-menu/cia/banner.png
+image_length: 54321
 layout: app
 qr:
   nds-hb-menu.cia: https://db.universal-team.net/assets/images/qr/nds-hb-menu.cia.png

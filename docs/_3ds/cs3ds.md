@@ -9,6 +9,7 @@ download_page: https://github.com/machinamentum/CS3DS/releases/tag/0.6-alpha
 github: machinamentum/CS3DS
 icon: https://raw.githubusercontent.com/machinamentum/CS3DS/master/jge/Projects/cspsp/icon_3ds.png
 image: https://db.universal-team.net/assets/images/images/cs3ds.png
+image_length: 9552
 layout: app
 prerelease:
   download_page: https://github.com/machinamentum/CS3DS/releases/tag/0.6-alpha

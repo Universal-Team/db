@@ -19,6 +19,7 @@ downloads:
 github: Steveice10/FBI
 icon: https://raw.githubusercontent.com/Steveice10/FBI/master/meta/icon_3ds.png
 image: https://raw.githubusercontent.com/Steveice10/FBI/master/romfs/logo.png
+image_length: 573
 layout: app
 license: mit
 license_name: MIT License

@@ -12,6 +12,7 @@ downloads:
     url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v1.8.2/Vapecord.Public.zip
 github: RedShyGuy/Vapecord-ACNL-Plugin
 image: https://avatars1.githubusercontent.com/u/43783060?v=4
+image_length: 23338
 layout: app
 source: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin
 systems:

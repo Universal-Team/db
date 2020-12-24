@@ -24,6 +24,7 @@ downloads:
 github: Nanquitas/BootNTR
 icon: https://raw.githubusercontent.com/Nanquitas/BootNTR/master/resources/icon.png
 image: https://db.universal-team.net/assets/images/images/bootntr.png
+image_length: 7456
 layout: app
 license: mit
 license_name: MIT License

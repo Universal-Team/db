@@ -12,6 +12,7 @@ downloads:
 github: nop90/Opentyrian-3ds
 icon: https://raw.githubusercontent.com/nop90/Opentyrian-3ds/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/Opentyrian-3ds/master/resources/banner.png
+image_length: 72385
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0

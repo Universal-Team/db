@@ -17,6 +17,7 @@ downloads:
 github: flarn2006/graphcalc3ds
 icon: https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/icon.png
 image: https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/banner.png
+image_length: 48710
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

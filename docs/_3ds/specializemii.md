@@ -13,6 +13,7 @@ downloads:
 github: phijor/SpecializeMii
 icon: https://raw.githubusercontent.com/phijor/SpecializeMii/master/etc/icon.png
 image: https://raw.githubusercontent.com/phijor/SpecializeMii/master/etc/banner.png
+image_length: 3259
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

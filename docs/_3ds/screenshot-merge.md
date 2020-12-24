@@ -16,6 +16,7 @@ downloads:
 github: ihaveamac/screenshot-merge
 icon: https://raw.githubusercontent.com/ihaveamac/screenshot-merge/master/resources/icon.png
 image: https://raw.githubusercontent.com/ihaveamac/screenshot-merge/master/resources/banner.png
+image_length: 14368
 layout: app
 license: mit
 license_name: MIT License

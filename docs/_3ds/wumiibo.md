@@ -15,6 +15,7 @@ downloads:
     url: https://github.com/hax0kartik/wumiibo/releases/download/v3.0/wumiibohelper.3dsx
 github: hax0kartik/wumiibo
 image: https://raw.githubusercontent.com/hax0kartik/wumiibo/master/wumiibohelper/gfx/icon.png
+image_length: 4386
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

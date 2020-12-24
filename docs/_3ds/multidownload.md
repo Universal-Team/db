@@ -16,6 +16,7 @@ downloads:
 github: hax0kartik/Multidownload
 icon: https://raw.githubusercontent.com/hax0kartik/Multidownload/master/resources/icon.png
 image: https://raw.githubusercontent.com/hax0kartik/Multidownload/master/resources/banner.png
+image_length: 29351
 layout: app
 license: other
 license_name: Other

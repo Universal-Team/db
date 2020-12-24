@@ -8,6 +8,7 @@ description: A universally good TextEditor! :)
 github: Universal-Team/Universal-Edit
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Edit/master/3DS/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Edit/master/3DS/app/banner.png
+image_length: 3609
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

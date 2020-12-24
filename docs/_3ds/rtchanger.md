@@ -20,6 +20,7 @@ downloads:
 github: Storm-Eagle20/RTChanger
 icon: https://raw.githubusercontent.com/Storm-Eagle20/RTChanger/master/assets/logo.png
 image: https://raw.githubusercontent.com/Storm-Eagle20/RTChanger/master/assets/banner.png
+image_length: 134009
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

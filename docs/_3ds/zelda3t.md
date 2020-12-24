@@ -17,6 +17,7 @@ downloads:
 github: nop90/Zelda3T
 icon: https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/banner.png
+image_length: 29329
 layout: app
 qr:
   Zelda3T_v1.0.cia: https://db.universal-team.net/assets/images/qr/zelda3t_v1.0.cia.png

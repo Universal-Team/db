@@ -13,6 +13,7 @@ downloads:
 github: smealum/portalDS
 icon: https://raw.githubusercontent.com/smealum/portalDS/master/logo.bmp
 image: https://db.universal-team.net/assets/images/icons/portalds.png
+image_length: 1383
 layout: app
 source: https://github.com/smealum/portalDS
 systems:

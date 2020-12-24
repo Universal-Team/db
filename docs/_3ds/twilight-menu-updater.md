@@ -16,6 +16,7 @@ downloads:
 github: RocketRobz/TWiLightMenu-Updater
 icon: https://raw.githubusercontent.com/RocketRobz/TWiLightMenu-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/RocketRobz/TWiLightMenu-Updater/master/app/banner.png
+image_length: 22650
 layout: app
 nightly:
   download_page: https://github.com/TWLBot/Builds/tree/master/TWiLightMenu-Updater

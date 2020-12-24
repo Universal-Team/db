@@ -28,6 +28,7 @@ downloads:
 github: dnasdw/SharedFontTool
 icon: https://raw.githubusercontent.com/dnasdw/SharedFontTool/master/meta/icon_3ds.png
 image: https://raw.githubusercontent.com/dnasdw/SharedFontTool/master/meta/banner_3ds.png
+image_length: 46802
 layout: app
 license: mit
 license_name: MIT License

@@ -23,6 +23,7 @@ downloads:
 github: Gericom/GBARunner2
 icon: https://raw.githubusercontent.com/Gericom/GBARunner2/master/icon.bmp
 image: https://db.universal-team.net/assets/images/icons/gbarunner2.png
+image_length: 593
 layout: app
 source: https://github.com/Gericom/GBARunner2
 systems:

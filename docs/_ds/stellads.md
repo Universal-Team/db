@@ -13,6 +13,7 @@ downloads:
 github: wavemotion-dave/StellaDS
 icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
+image_length: 10279
 layout: app
 license: mit
 license_name: MIT License

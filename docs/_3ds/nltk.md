@@ -10,6 +10,7 @@ download_page: https://github.com/Slattz/NLTK/releases/tag/Nightly
 github: Slattz/NLTK
 icon: https://raw.githubusercontent.com/Slattz/NLTK/master/assets/meta/icon.png
 image: https://raw.githubusercontent.com/Slattz/NLTK/master/assets/meta/banner.png
+image_length: 3619
 layout: app
 license: mit
 license_name: MIT License

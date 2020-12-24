@@ -18,6 +18,7 @@ downloads:
 github: RocketRobz/SavvyManager
 icon: https://raw.githubusercontent.com/RocketRobz/SavvyManager/master/app/icon.png
 image: https://raw.githubusercontent.com/RocketRobz/SavvyManager/master/app/banner.png
+image_length: 42810
 layout: app
 license: mit
 license_name: MIT License

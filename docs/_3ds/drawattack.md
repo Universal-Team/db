@@ -16,6 +16,7 @@ downloads:
 github: Cruel/DrawAttack
 icon: https://raw.githubusercontent.com/Cruel/DrawAttack/master/res/app/icon.png
 image: https://raw.githubusercontent.com/Cruel/DrawAttack/master/res/app/banner.png
+image_length: 3773
 layout: app
 license: mit
 license_name: MIT License

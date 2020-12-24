@@ -13,6 +13,7 @@ downloads:
 github: DS-Homebrew/NesDS
 icon: https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/icon.bmp
 image: https://db.universal-team.net/assets/images/icons/nesds.png
+image_length: 277
 layout: app
 nightly:
   download_page: https://github.com/TWLBot/Builds/blob/master/extras/GodMode9i.7z

@@ -16,6 +16,7 @@ downloads:
 github: NPXTobi/Demo-Reset
 icon: https://raw.githubusercontent.com/NPXTobi/Demo-Reset/master/gfx/icon.png
 image: https://raw.githubusercontent.com/NPXTobi/Demo-Reset/master/cia/banner.png
+image_length: 4767
 layout: app
 qr:
   Demo-Reset.cia: https://db.universal-team.net/assets/images/qr/demo-reset.cia.png

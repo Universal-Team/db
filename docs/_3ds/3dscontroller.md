@@ -12,6 +12,7 @@ downloads:
 github: CTurt/3DSController
 icon: https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/icon48x48.png
 image: https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/banner.png
+image_length: 4254
 layout: app
 source: https://github.com/CTurt/3DSController
 systems:

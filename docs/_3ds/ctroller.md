@@ -17,6 +17,7 @@ downloads:
 github: phijor/ctroller
 icon: https://raw.githubusercontent.com/phijor/ctroller/master/3DS/resources/icon.png
 image: https://raw.githubusercontent.com/phijor/ctroller/master/3DS/resources/banner.png
+image_length: 3022
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

@@ -15,6 +15,7 @@ downloads:
 github: DS-Homebrew/GodMode9i
 icon: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/icon.bmp
 image: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png
+image_length: 44248
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

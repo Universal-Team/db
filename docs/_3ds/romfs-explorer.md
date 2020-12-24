@@ -13,6 +13,7 @@ downloads:
 github: Ryuzaki-MrL/RomFS-Explorer
 icon: https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS-Explorer/master/meta/icon.png
 image: https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS-Explorer/master/meta/banner.png
+image_length: 19162
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

@@ -19,6 +19,7 @@ downloads:
 github: Ordim3n/Smash-Amiibo-Cheat-Tool
 icon: https://raw.githubusercontent.com/Ordim3n/Smash-Amiibo-Cheat-Tool/master/meta/icon.png
 image: https://raw.githubusercontent.com/Ordim3n/Smash-Amiibo-Cheat-Tool/master/meta/banner.png
+image_length: 36320
 layout: app
 license: mit
 license_name: MIT License

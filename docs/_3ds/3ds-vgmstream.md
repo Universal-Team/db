@@ -19,6 +19,7 @@ downloads:
 github: TricksterGuy/3ds-vgmstream
 icon: https://raw.githubusercontent.com/TricksterGuy/3ds-vgmstream/master/resources/icon.png
 image: https://raw.githubusercontent.com/TricksterGuy/3ds-vgmstream/master/resources/banner.png
+image_length: 2549
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

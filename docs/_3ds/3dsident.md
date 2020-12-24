@@ -22,6 +22,7 @@ downloads:
 github: joel16/3DSident
 icon: https://raw.githubusercontent.com/joel16/3DSident/master/console/res/icon.png
 image: https://raw.githubusercontent.com/joel16/3DSident/master/console/res/banner.png
+image_length: 21034
 layout: app
 license: zlib
 license_name: zlib License

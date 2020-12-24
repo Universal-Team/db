@@ -20,6 +20,7 @@ downloads:
 github: DanTheMan827/tikSweep
 icon: https://raw.githubusercontent.com/DanTheMan827/tikSweep/master/icon.png
 image: https://raw.githubusercontent.com/DanTheMan827/tikSweep/master/banner.png
+image_length: 11389
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
