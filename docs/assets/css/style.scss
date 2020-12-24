@@ -1,9 +1,8 @@
 ---
 ---
 
+@import url("light.css");
 @import url("dark.css") (prefers-color-scheme: dark);
-@import url("light.css") (prefers-color-scheme: light);
-@import url("light.css") (prefers-color-scheme: no preference);
 
 // For the bottom aligned footer
 html, body {

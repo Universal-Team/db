@@ -1,4 +1,3 @@
-let item
 function search(query) {
 	Array.from(document.getElementById("card-container").children).forEach(function(r) {
 		let card = r.children[0];
