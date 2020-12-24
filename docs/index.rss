@@ -18,7 +18,7 @@ layout: compress
 					{{ app.url | prepend: site.url }}
 				</link>
 				<description>
-					{{ app.version }}
+					&lt;p&gt;{{ app.version }}{% if app.version_title %} - {{ app.version_title }}{% endif %}&lt;/p&gt;
 					{% if app.update_notes %}
 						&lt;hr /&gt;
 						{{ app.update_notes | escape | truncate: '2000' }}
