@@ -243,7 +243,7 @@ for app in source:
 				app["version_title"] = release["name"]
 
 			if not "update_notes" in app and release["body"] != "" and release["body"] != None:
-				app["update_notes_md"] = release["body"]
+				app["update_notes_md"] = release["body"].replace("\r\n", "\n")
 				app["update_notes"] = requests.post("https://api.github.com/markdown", headers = header if header else None, json = {"text": release["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
 
 			if not "updated" in app:
@@ -278,10 +278,10 @@ for app in source:
 				app["prerelease"]["version_title"] = prerelease["name"]
 
 			if not "update_notes" in app and prerelease["body"] != "" and prerelease["body"] != None:
-				app["update_notes_md"] = prerelease["body"]
+				app["update_notes_md"] = prerelease["body"].replace("\r\n", "\n")
 				app["update_notes"] = requests.post("https://api.github.com/markdown", headers = header if header else None, json = {"text": prerelease["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
 			if not "update_notes" in app["prerelease"] and prerelease["body"] != "" and prerelease["body"] != None:
-				app["prerelease"]["update_notes_md"] = prerelease["body"]
+				app["prerelease"]["update_notes_md"] = prerelease["body"].replace("\r\n", "\n")
 				app["prerelease"]["update_notes"] = requests.post("https://api.github.com/markdown", headers = header if header else None, json = {"text": prerelease["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
 
 			if not "updated" in app:
