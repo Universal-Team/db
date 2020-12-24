@@ -115,52 +115,78 @@ prerelease:
     into improvements of the GodMode9 code base and performance. I also thank everyone
     who helped us out with bug reports, testing and all members of the <a href="https://discord.gg/EGu6Qxw"
     rel="nofollow">official GodMode9 Discord channel</a>.</p>'
-  update_notes_md: "Yup, we're pretty late for this. Real life(tm) got in the way,\
-    \ and we didn't make the anniversary release on time this year. With the recent\
-    \ influx of screeninit relate bug reports we got another very good reason to finally\
-    \ give you this. Here's the new GodMode9 release and this is what you get:\r\n\
-    * [new] Mount support for title.db (thanks @aspargas2)\r\n* [new] Support for\
-    \ handling variable sized tickets (thanks @luigoalma)\r\n* [improved] Proper mount\
-    \ support for ticket.db (thanks @aspargas2)\r\n* [improved] Various improvements\
-    \ to the CIA builder, mostly for CIA from NCSD\r\n* [improved] Tons of small performance\
-    \ improvements (thanks @Wolfvak)\r\n* [improved] Much smaller firm size (thanks\
-    \ @Wolfvak)\r\n* [fixed] Fixed screen init (for real this time!) (thanks @Wolfvak)\r\
-    \n* [fixed] Tons of small bug fixes\r\n* [preview] Possibility to install NCCH,\
-    \ NCSD (.3DS), DSiWare NDS, CIA, NUS/CDN to the system\r\n\r\n**Did you know?**\r\
-    \nThe actual first public release of GodMode9 was GodMode9 v0.2.0, which was released\
-    \ on March 22nd, 2016. A lot has happened since then, and a lot of people contributed\
-    \ to this with code, bug reports and testing. GodMode9 transitioned from early\
-    \ entrypoints (Brahma anyone?) to the modern FIRM sighax entrypoint and gained\
-    \ more and more functionality, leading it to be what it is today - one of the\
-    \ most important swiss army knife utilities for the Nintendo 3DS console.\r\n\r\
-    \n**A prerelease?**\r\nWhile this has undergone basic testing, and we made sure\
-    \ nothing bad will happen, it is still considered beta state. New stuff may still\
-    \ be a little rough around the edges. Your feedback will help us to improve on\
-    \ what's left to do. We already know, turning off the backlight on a closed lid\
-    \ does no more work (a fix is in the works). We also included a preview of what\
-    \ we're currently working on - installing game images (directly from game cartridges\
-    \ works, too) to your system. This feature should still be used with caution (not\
-    \ marked as preview for no reason, maybe have a NAND backup ready?). Game installing\
-    \ will be improved and extended upon in the coming release.\r\n\r\n**GodMode9\
-    \ bootloader**\r\nWhen we introduced the GodMode9 bootloader, there was basically\
-    \ just one other alternative, which was [boot9strap](https://github.com/SciresM/boot9strap).\
-    \ We intended to provide the user with an alternative, providing more customization\
-    \ and possibilities. Nowadays, we got [fastboot3ds](https://github.com/derrekr/fastboot3DS)\
-    \ (which coincidentally is also coauthored by d0k3), and, if we're honest, the\
-    \ GodMode9 bootloader just can't hold the candle to fastboot3DS (not as a bootloader,\
-    \ that is). For this reason, the GodMode9 bootloader will be removed starting\
-    \ with the next major release. If you feel that decision is not right, you're\
-    \ free to discuss with us. We're available in the [GodMode9 Discord channel](https://discord.gg/EGu6Qxw).\r\
-    \n\r\n**Credits**\r\nGodMode9 is not a one man project, it wouldn't have gotten\
-    \ anywhere near what it is today without the help of numerous people. A big thank\
-    \ you for this release goes to @aspargas2, who provided a ton of code, including\
-    \ support for `ticket.db` and `title.db` manipulation (laying the base for game\
-    \ image installing) and lots of other, smaller bugfixes. Another big thank you\
-    \ goes to @profi200, who provided the solution to our screen init issues and to\
-    \ @Wolfvak, for porting that solution to GodMode9, in addition to all the work\
-    \ he's putting into improvements of the GodMode9 code base and performance. I\
-    \ also thank everyone who helped us out with bug reports, testing and all members\
-    \ of the [official GodMode9 Discord channel](https://discord.gg/EGu6Qxw)."
+  update_notes_md: 'Yup, we''re pretty late for this. Real life(tm) got in the way,
+    and we didn''t make the anniversary release on time this year. With the recent
+    influx of screeninit relate bug reports we got another very good reason to finally
+    give you this. Here''s the new GodMode9 release and this is what you get:
+
+    * [new] Mount support for title.db (thanks @aspargas2)
+
+    * [new] Support for handling variable sized tickets (thanks @luigoalma)
+
+    * [improved] Proper mount support for ticket.db (thanks @aspargas2)
+
+    * [improved] Various improvements to the CIA builder, mostly for CIA from NCSD
+
+    * [improved] Tons of small performance improvements (thanks @Wolfvak)
+
+    * [improved] Much smaller firm size (thanks @Wolfvak)
+
+    * [fixed] Fixed screen init (for real this time!) (thanks @Wolfvak)
+
+    * [fixed] Tons of small bug fixes
+
+    * [preview] Possibility to install NCCH, NCSD (.3DS), DSiWare NDS, CIA, NUS/CDN
+    to the system
+
+
+    **Did you know?**
+
+    The actual first public release of GodMode9 was GodMode9 v0.2.0, which was released
+    on March 22nd, 2016. A lot has happened since then, and a lot of people contributed
+    to this with code, bug reports and testing. GodMode9 transitioned from early entrypoints
+    (Brahma anyone?) to the modern FIRM sighax entrypoint and gained more and more
+    functionality, leading it to be what it is today - one of the most important swiss
+    army knife utilities for the Nintendo 3DS console.
+
+
+    **A prerelease?**
+
+    While this has undergone basic testing, and we made sure nothing bad will happen,
+    it is still considered beta state. New stuff may still be a little rough around
+    the edges. Your feedback will help us to improve on what''s left to do. We already
+    know, turning off the backlight on a closed lid does no more work (a fix is in
+    the works). We also included a preview of what we''re currently working on - installing
+    game images (directly from game cartridges works, too) to your system. This feature
+    should still be used with caution (not marked as preview for no reason, maybe
+    have a NAND backup ready?). Game installing will be improved and extended upon
+    in the coming release.
+
+
+    **GodMode9 bootloader**
+
+    When we introduced the GodMode9 bootloader, there was basically just one other
+    alternative, which was [boot9strap](https://github.com/SciresM/boot9strap). We
+    intended to provide the user with an alternative, providing more customization
+    and possibilities. Nowadays, we got [fastboot3ds](https://github.com/derrekr/fastboot3DS)
+    (which coincidentally is also coauthored by d0k3), and, if we''re honest, the
+    GodMode9 bootloader just can''t hold the candle to fastboot3DS (not as a bootloader,
+    that is). For this reason, the GodMode9 bootloader will be removed starting with
+    the next major release. If you feel that decision is not right, you''re free to
+    discuss with us. We''re available in the [GodMode9 Discord channel](https://discord.gg/EGu6Qxw).
+
+
+    **Credits**
+
+    GodMode9 is not a one man project, it wouldn''t have gotten anywhere near what
+    it is today without the help of numerous people. A big thank you for this release
+    goes to @aspargas2, who provided a ton of code, including support for `ticket.db`
+    and `title.db` manipulation (laying the base for game image installing) and lots
+    of other, smaller bugfixes. Another big thank you goes to @profi200, who provided
+    the solution to our screen init issues and to @Wolfvak, for porting that solution
+    to GodMode9, in addition to all the work he''s putting into improvements of the
+    GodMode9 code base and performance. I also thank everyone who helped us out with
+    bug reports, testing and all members of the [official GodMode9 Discord channel](https://discord.gg/EGu6Qxw).'
   updated: '2020-08-22T10:18:04Z'
   version: v1.9.2pre1
   version_title: GodMode9 v1.9.2pre1 Fourth Anniversary Edition

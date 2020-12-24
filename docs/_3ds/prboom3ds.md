@@ -38,8 +38,13 @@ prerelease:
 
     put all files in /3ds/prboom3ds along with doom wad files (you need to get these
     elsewhere)</p>'
-  update_notes_md: "enum fix, enable lto, 3d view change\r\n\r\ninstall:\r\nput all\
-    \ files in /3ds/prboom3ds along with doom wad files (you need to get these elsewhere)"
+  update_notes_md: 'enum fix, enable lto, 3d view change
+
+
+    install:
+
+    put all files in /3ds/prboom3ds along with doom wad files (you need to get these
+    elsewhere)'
   updated: '2019-12-21T23:47:05Z'
   version: v0.7-alpha
   version_title: v0.7-alpha
