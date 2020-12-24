@@ -344,7 +344,6 @@ for app in source:
 	if "format_strings" in app and app["format_strings"]:
 		formatAll(app, app)
 
-
 	if os.path.exists(os.path.join("..", "docs", "assets", "images", "screenshots", webName(app["title"]))):
 		if not "screenshots" in app:
 			app["screenshots"] = []
@@ -361,6 +360,10 @@ for app in source:
 	if "title" in app:
 		print(webName(app["title"]))
 	print("=" * 80)
+
+	# Get image size
+	if not "image_length" in app and "image" in app:
+		app["image_length"] = len(requests.get(app["image"]).content)
 
 	# Make icon for UniStore and QR
 	img = None
@@ -545,50 +548,3 @@ with open(os.path.join("..", "docs", "unistore", "universal-db.unistore"), "w", 
 # Write output file
 with open(os.path.join("..", "docs", "data", "full.json"), "w", encoding="utf8") as file:
 	file.write(json.dumps(output, sort_keys=True))
-
-# RSS feed
-# Get last update from old feed
-oldUpdate = parser.parse("1970-01-01T00:00:00Z")
-if os.path.exists(os.path.join("..", "docs", "index.rss")):
-	r = untangle.parse(os.path.join("..", "docs", "index.rss"))
-	oldUpdate = parser.parse(r.rss.channel.item[0].pubDate.cdata if type(r.rss.channel.item) == list else r.rss.channel.item.pubDate.cdata)
-
-feedItems = []
-latestUpdate = parser.parse("1970-01-01T00:00:00Z")
-output.sort(key=lambda item: item["updated"] if "updated" in item else "---", reverse=True)
-for item in output:
-	if "updated" in item and parser.parse(item["updated"]) > latestUpdate:
-		latestUpdate = parser.parse(item["updated"])
-
-	if "updated" in item and (datetime.datetime.now(datetime.timezone.utc) - parser.parse(item["updated"])).days < 7:
-		feedItems.append(rfeed.Item(
-			title = item["title"] + " updated to " + item["version"] if "version" in item else "new version",
-			link = "https://db.universal-team.net/" + webName(item["systems"][0]) + "/" + webName(item["title"]),
-			description = (item["version_title"] if "version_title" in item else item["version"]) + (("<hr />" + item["update_notes"] if "update_notes" in item else "")),
-			author = item["author"],
-			guid = rfeed.Guid("https://db.universal-team.net/" + webName(item["systems"][0]) + "/" + webName(item["title"])),
-			pubDate = parser.parse(item["updated"]),
-			categories = item["systems"],
-			extensions = [
-				rfeed.Enclosure(
-					url = item["image"],
-					length = len(requests.get(item["image"]).content),
-					type = "image/png"
-				) if "image" in item else None
-			]
-		))
-
-if len(feedItems) > 0 and latestUpdate > oldUpdate:
-	feed = rfeed.Feed(
-		title = "Universal-DB",
-		link = "https://db.universal-team.net",
-		description = "A database of DS and 3DS homebrew",
-		language = "en-US",
-		lastBuildDate = datetime.datetime.now(),
-		pubDate = datetime.datetime.now(),
-		items = feedItems,
-		image = rfeed.Image(title = "Universal-DB", url = "https://universal-team.net/images/icons/universal-team.png", link = "https://db.universal-team.net"),
-	)
-
-	with open(os.path.join("..", "docs", "index.rss"), "w", encoding="utf8") as file:
-		file.write(feed.rss())

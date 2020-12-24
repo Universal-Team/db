@@ -49,7 +49,7 @@ layout: compress
 							{% assign cards = site["3ds"] | concat: site.ds | uniq %}
 						{% endif %}
 
-					{% assign cards = cards | sort: "updated" | reverse %}
+						{% assign cards = cards | sort: "updated" | reverse %}
 
 						<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4" id="card-container">
 							{% for app in cards limit: page.limit %}

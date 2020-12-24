@@ -1,58 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Universal-DB</title><link>https://db.universal-team.net</link><description>A database of DS and 3DS homebrew</description><language>en-US</language><pubDate>Thu, 24 Dec 2020 12:19:20 GMT</pubDate><lastBuildDate>Thu, 24 Dec 2020 12:19:20 GMT</lastBuildDate><generator>rfeed v1.1.1</generator><docs>https://github.com/svpino/rfeed/blob/master/README.md</docs><image><url>https://universal-team.net/images/icons/universal-team.png</url><title>Universal-DB</title><link>https://db.universal-team.net</link></image><item><title>open_agb_firm updated to alpha_2020-12-24</title><link>https://db.universal-team.net/3ds/open_agb_firm</link><description>open_agb_firm alpha build 2020-12-24&lt;hr /&gt;&lt;p&gt;This is a build from the kernel_experiments branch for the impatient.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/5f257392863a807a4c1b70f836d99cb656c931b7/hovercard" href="https://github.com/profi200/open_agb_firm/commit/5f257392863a807a4c1b70f836d99cb656c931b7"&gt;&lt;tt&gt;5f25739&lt;/tt&gt;&lt;/a&gt; Proper ROM mirroring for all 8 Mbit games and direct boot (no BIOS intro) should have perfect compatibility now. This breaks mGBA's ROM out of bounds tests again because the ROM is treated as 8 Mbit ROM (different padding from what it expects).&lt;/li&gt;
-&lt;li&gt;&lt;a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/dd68d381ac7af12803e0826778a869347d28fb06/hovercard" href="https://github.com/profi200/open_agb_firm/commit/dd68d381ac7af12803e0826778a869347d28fb06"&gt;&lt;tt&gt;dd68d38&lt;/tt&gt;&lt;/a&gt; &lt;a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/31bbcbfe2593d407525c2c2bb4c7a58201dc6e1c/hovercard" href="https://github.com/profi200/open_agb_firm/commit/31bbcbfe2593d407525c2c2bb4c7a58201dc6e1c"&gt;&lt;tt&gt;31bbcbf&lt;/tt&gt;&lt;/a&gt; &lt;a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/29413979fa2589e1cb9ba332b2332141659bf85e/hovercard" href="https://github.com/profi200/open_agb_firm/commit/29413979fa2589e1cb9ba332b2332141659bf85e"&gt;&lt;tt&gt;2941397&lt;/tt&gt;&lt;/a&gt; Basic config file support. A few settings can be changed in "/3ds/open_agb_firm/config.ini" now. If you want the same gamma as previous releases change "outGamma=..." to "outGamma=1.21". Results may vary depending on what LCD panel your 3DS uses. The default of 1.54 is tuned for the old 3DS Sharp panel.&lt;/li&gt;
-&lt;li&gt;&lt;a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/96eebb01db61f12f1bf52df093edcfafc1f08f14/hovercard" href="https://github.com/profi200/open_agb_firm/commit/96eebb01db61f12f1bf52df093edcfafc1f08f14"&gt;&lt;tt&gt;96eebb0&lt;/tt&gt;&lt;/a&gt; fatfs got updated to R0.14.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The screenshot/texture dump location is now "/3ds/open_agb_firm". This will change to a separate "screenshots" dir once screenshots are created by date. If the video output freezes after making a screenshot try pressing the HOME button. This works most of the time. This is due to a hard to track down bug and will be fixed later.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;This can and will destroy savegames for a few games due to broken save type detection so backup your saves!&lt;/strong&gt; You have been warned.&lt;br&gt;
-Also note that EEPROM savegames from some emulators or even flashcarts are incompatible because they are laid out wrong (every 8 bytes block of data is reversed). This &lt;a href="https://gist.github.com/profi200/e06794d7561ed552c518b4b0b2f5f2f6"&gt;tool&lt;/a&gt; can fix that.&lt;/p&gt;
-&lt;p&gt;The used scale matrix is the default "Sharp interpolated" one.&lt;/p&gt;</description><author>profi200</author><pubDate>Thu, 24 Dec 2020 12:17:14 GMT</pubDate><category>3DS</category><guid isPermaLink="true">https://db.universal-team.net/3ds/open_agb_firm</guid><enclosure url="https://avatars0.githubusercontent.com/u/7831477?v=4" length="1560" type="image/png"></enclosure></item><item><title>Ludo3DS updated to v0.3.0</title><link>https://db.universal-team.net/3ds/ludo3ds</link><description>Weihnachts-Release v0.3.0&lt;hr /&gt;&lt;h2&gt;Was wurde verändert?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Die Spieldaten Struktur wurde überarbeitet und ist nun mit LudoJS.. als auch Ludo3DS kompatibel. Das bedeutet jedoch auch, dass ältere Spieldaten nun ungültig sind.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Die Benutzeroberfläche wurde etwas überarbeitet. Das Keyboard wird nun nicht mehr benutzt.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Ein paar Fehlerbehebungen.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Viel spaß mit Ludo3DS v0.3.0! ~SuperSaiyajinStackZ&lt;/p&gt;</description><author>SuperSaiyajinStackZ</author><pubDate>Thu, 24 Dec 2020 11:54:17 GMT</pubDate><category>3DS</category><guid isPermaLink="true">https://db.universal-team.net/3ds/ludo3ds</guid><enclosure url="https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/Banner.png" length="12316" type="image/png"></enclosure></item><item><title>A7800DS updated to 1.8</title><link>https://db.universal-team.net/ds/a7800ds</link><description>Version 1.8&lt;hr /&gt;&lt;p&gt;Version 1.8 with CPU Core improvements and maximum speed on DSi and above. Special DS-LITE version included if you want to try this on older hardware - but be warned, the compatibility is VERY low on the DS-LITE version so only try it with small games (Asteroids, Joust, Centipede, Meteor Shower, Moon Cresta, etc).&lt;/p&gt;
-&lt;p&gt;Otherwise stick to the normal A7800DS.NDS file for maximum compatibility and speed on the DSi or better hardware.&lt;/p&gt;</description><author>AlekMaul / Dave Bernazzani</author><pubDate>Wed, 23 Dec 2020 13:54:02 GMT</pubDate><category>DS</category><guid isPermaLink="true">https://db.universal-team.net/ds/a7800ds</guid><enclosure url="https://raw.githubusercontent.com/wavemotion-dave/A7800DS/main/arm9/gfx/bgTop.png" length="13123" type="image/png"></enclosure></item><item><title>SnemulDS updated to 30811e1</title><link>https://db.universal-team.net/ds/snemulds</link><description>30811e1</description><author>Coto</author><pubDate>Sun, 20 Dec 2020 00:20:22 GMT</pubDate><category>DS</category><guid isPermaLink="true">https://db.universal-team.net/ds/snemulds</guid><enclosure url="https://db.universal-team.net/assets/images/icons/snemulds.png" length="626" type="image/png"></enclosure></item><item><title>wumiibo updated to v3.0</title><link>https://db.universal-team.net/3ds/wumiibo</link><description>v3.0 Fourth Release&lt;hr /&gt;&lt;p&gt;This is the fourth public release for wumiibo.&lt;br&gt;
-Following list of changes have been made.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Fix wumiibo not recognizing some amiibos correctly.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;This was fixed by commit &lt;a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/hax0kartik/wumiibo/commit/069eff6ed2350bc7712aeb6c84d106ce46d148f3/hovercard" href="https://github.com/hax0kartik/wumiibo/commit/069eff6ed2350bc7712aeb6c84d106ce46d148f3"&gt;&lt;tt&gt;069eff6&lt;/tt&gt;&lt;/a&gt;. See issue &lt;a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="748011619" data-permission-text="Title is private" data-url="https://github.com/hax0kartik/wumiibo/issues/28" data-hovercard-type="issue" data-hovercard-url="/hax0kartik/wumiibo/issues/28/hovercard" href="https://github.com/hax0kartik/wumiibo/issues/28"&gt;#28&lt;/a&gt; for more details.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;All 47 games are now compatible with wumiibo.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;With some games you still need to do the &lt;a href="https://github.com/hax0kartik/wumiibo#workaround-for-games-which-freeze"&gt;workaround&lt;/a&gt; for them to not freeze. Check the &lt;a href="https://github.com/hax0kartik/wumiibo/wiki/Compatibility-List"&gt;compatibilty list&lt;/a&gt; for such games.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;File limit bumped to 400 per directory.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Introduce WumiiboHelper&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;WumiiboHelper is an easy to to use HB app. You can automatically download and install wumiibo from wumiibohelper.&lt;/li&gt;
-&lt;li&gt;WumiiboHelper has an option &lt;code&gt;Generate amiibos for a game&lt;/code&gt; which can be used to produce compatible amiibos for a compatible game right from your 3ds!&lt;br&gt;
-&lt;em&gt;Note: This app is not well tested, please open an issue if you encounter any error. Amiibos can also be generated manually by using this website:- &lt;a href="https://hax0kartik.github.io/amiibo-generator/" rel="nofollow"&gt;https://hax0kartik.github.io/amiibo-generator/&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Minor improvements have been made.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Note: Signal TagInRange and TagOutofRange are debug features, you shouldn't need them.&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;If you're installing wumiibo for the first time, you can download and run WumiiboHelper and select &lt;code&gt;Download Wumiibo&lt;/code&gt; to download and install wumiibo(once installed use the second option to generate amiibos) or you can follow the manual installation steps &lt;a href="https://github.com/hax0kartik/wumiibo#how-to-use"&gt;here&lt;/a&gt;&lt;br&gt;
-As always special thanks to people on my discord server for helping me test wumiibo, wouldn't be possible without you guys!&lt;/p&gt;</description><author>hax0kartik</author><pubDate>Fri, 18 Dec 2020 13:30:35 GMT</pubDate><category>3DS</category><guid isPermaLink="true">https://db.universal-team.net/3ds/wumiibo</guid><enclosure url="https://raw.githubusercontent.com/hax0kartik/wumiibo/master/wumiibohelper/gfx/icon.png" length="4386" type="image/png"></enclosure></item></channel></rss>
+---
+layout: compress
+---
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>{{ site.title }}</title>
+		<link>{{ site.url }}</link>
+		<atom:link href="{{ site.url | append: page.url }}" rel="self" type="application/rss+xml" />
+		<description>{{ site.description }}</description>
+		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+		{% assign apps = site["3ds"] | concat: site.ds | uniq | sort: "updated" | reverse %}
+		{% for app in apps limit: 5 %}
+			<item>
+				<title>{{ app.title }}</title>
+				<link>
+					{{ app.url | prepend: site.url }}
+				</link>
+				<description>
+					{{ app.version }}
+					{% if app.update_notes %}
+						&lt;hr /&gt;
+						{{ app.update_notes | escape | truncate: '2000' }}
+					{% endif %}
+				</description>
+				<pubDate>{{ app.date | date_to_rfc822 }}</pubDate>
+				<guid>
+					{{ app.url | prepend: site.url }}
+				</guid>
+				{% if app.image %}
+					<enclosure url="{{ app.image }}" length="{{ app.image_length }}" type="image/png"></enclosure>
+				{% endif %}
+			</item>
+		{% endfor %}
+	</channel>
+</rss>
