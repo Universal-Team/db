@@ -4915,27 +4915,6 @@
 					"file": "/open_agb_firm.7z",
 					"message": "Deleting open_agb_firm.7z..."
 				}
-			],
-			"open_agb_firm_no_bios.firm": [
-				{
-					"type": "downloadRelease",
-					"repo": "profi200/open_agb_firm",
-					"file": "open_agb_firm.*.7z",
-					"output": "/open_agb_firm.7z",
-					"message": "Downloading open_agb_firm 7z..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/open_agb_firm.7z",
-					"input": "open_agb_firm_no_bios.firm",
-					"output": "/luma/payloads/open_agb_firm_no_bios.firm",
-					"message": "Extracting open_agb_firm_no_bios.firm..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/open_agb_firm.7z",
-					"message": "Deleting open_agb_firm.7z..."
-				}
 			]
 		}
 	},
