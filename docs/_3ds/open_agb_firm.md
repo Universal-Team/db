@@ -7,11 +7,11 @@ color: '#c2e5d8'
 created: '2020-04-15T21:49:42Z'
 description: open_agb_firm is a bare metal app for running GBA homebrew/games using
   the 3DS builtin GBA hardware.
-download_page: https://github.com/profi200/open_agb_firm/releases/tag/alpha_2020-10-26
+download_page: https://github.com/profi200/open_agb_firm/releases/tag/alpha_2020-12-24
 downloads:
-  open_agb_firm_alpha_20201026.7z:
-    size: 93876
-    url: https://github.com/profi200/open_agb_firm/releases/download/alpha_2020-10-26/open_agb_firm_alpha_20201026.7z
+  open_agb_firm_alpha_20201224.7z:
+    size: 50931
+    url: https://github.com/profi200/open_agb_firm/releases/download/alpha_2020-12-24/open_agb_firm_alpha_20201224.7z
 github: profi200/open_agb_firm
 image: https://avatars0.githubusercontent.com/u/7831477?v=4
 layout: app
@@ -25,30 +25,33 @@ update_notes: '<p>This is a build from the kernel_experiments branch for the imp
 
   <ul>
 
-  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/8fdc74a3c486af86416bf37505144dc03da66a14/hovercard"
-  href="https://github.com/profi200/open_agb_firm/commit/8fdc74a3c486af86416bf37505144dc03da66a14"><tt>8fdc74a</tt></a>
-  A temporary workaround has been put in place to prevent panics using bootloaders
-  with incompatible screen init.</li>
+  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/5f257392863a807a4c1b70f836d99cb656c931b7/hovercard"
+  href="https://github.com/profi200/open_agb_firm/commit/5f257392863a807a4c1b70f836d99cb656c931b7"><tt>5f25739</tt></a>
+  Proper ROM mirroring for all 8 Mbit games and direct boot (no BIOS intro) should
+  have perfect compatibility now. This breaks mGBA''s ROM out of bounds tests again
+  because the ROM is treated as 8 Mbit ROM (different padding from what it expects).</li>
 
-  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/07f6f01d921696c890f828f94289426eb64957d0/hovercard"
-  href="https://github.com/profi200/open_agb_firm/commit/07f6f01d921696c890f828f94289426eb64957d0"><tt>07f6f01</tt></a>
-  Mimic ROM out-of-bounds reads more accurately (may fix games relying on it) including
-  mirroring needed for the Classic NES Series games.</li>
+  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/dd68d381ac7af12803e0826778a869347d28fb06/hovercard"
+  href="https://github.com/profi200/open_agb_firm/commit/dd68d381ac7af12803e0826778a869347d28fb06"><tt>dd68d38</tt></a>
+  <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/31bbcbfe2593d407525c2c2bb4c7a58201dc6e1c/hovercard"
+  href="https://github.com/profi200/open_agb_firm/commit/31bbcbfe2593d407525c2c2bb4c7a58201dc6e1c"><tt>31bbcbf</tt></a>
+  <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/29413979fa2589e1cb9ba332b2332141659bf85e/hovercard"
+  href="https://github.com/profi200/open_agb_firm/commit/29413979fa2589e1cb9ba332b2332141659bf85e"><tt>2941397</tt></a>
+  Basic config file support. A few settings can be changed in "/3ds/open_agb_firm/config.ini"
+  now. If you want the same gamma as previous releases change "outGamma=..." to "outGamma=1.21".
+  Results may vary depending on what LCD panel your 3DS uses. The default of 1.54
+  is tuned for the old 3DS Sharp panel.</li>
 
-  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/179ea504d0f29fbf529a21227ce3aaeabd5d73ce/hovercard"
-  href="https://github.com/profi200/open_agb_firm/commit/179ea504d0f29fbf529a21227ce3aaeabd5d73ce"><tt>179ea50</tt></a>
-  You can now dump the GBA frame texture (pre-GPU processing) to "texture_dump.bmp"
-  on the root of your SD card by pressing Y.</li>
-
-  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/ac33d98ad5d03887e0dc1da2a2eab459b33b812c/hovercard"
-  href="https://github.com/profi200/open_agb_firm/commit/ac33d98ad5d03887e0dc1da2a2eab459b33b812c"><tt>ac33d98</tt></a>
-  Fixed broken file browser sorting.</li>
-
-  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/c87769a06e7dd4e2c11bc485e55f99cacee05b97/hovercard"
-  href="https://github.com/profi200/open_agb_firm/commit/c87769a06e7dd4e2c11bc485e55f99cacee05b97"><tt>c87769a</tt></a>
-  open_agb_firm now remembers the last dir you launched a ROM from.</li>
+  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/96eebb01db61f12f1bf52df093edcfafc1f08f14/hovercard"
+  href="https://github.com/profi200/open_agb_firm/commit/96eebb01db61f12f1bf52df093edcfafc1f08f14"><tt>96eebb0</tt></a>
+  fatfs got updated to R0.14.</li>
 
   </ul>
+
+  <p>The screenshot/texture dump location is now "/3ds/open_agb_firm". This will change
+  to a separate "screenshots" dir once screenshots are created by date. If the video
+  output freezes after making a screenshot try pressing the HOME button. This works
+  most of the time. This is due to a hard to track down bug and will be fixed later.</p>
 
   <p><strong>This can and will destroy savegames for a few games due to broken save
   type detection so backup your saves!</strong> You have been warned.<br>
@@ -58,10 +61,9 @@ update_notes: '<p>This is a build from the kernel_experiments branch for the imp
   <a href="https://gist.github.com/profi200/e06794d7561ed552c518b4b0b2f5f2f6">tool</a>
   can fix that.</p>
 
-  <p>In the archive included are 2 builds. One with BIOS intro and one without. The
-  used scale matrix is the default "Sharp interpolated" one.</p>'
-updated: '2020-10-26T00:10:31Z'
-version: alpha_2020-10-26
-version_title: open_agb_firm alpha build 2020-10-26
+  <p>The used scale matrix is the default "Sharp interpolated" one.</p>'
+updated: '2020-12-24T12:17:14Z'
+version: alpha_2020-12-24
+version_title: open_agb_firm alpha build 2020-12-24
 wiki: https://github.com/profi200/open_agb_firm/wiki
 ---

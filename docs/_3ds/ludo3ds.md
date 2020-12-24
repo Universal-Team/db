@@ -5,14 +5,14 @@ categories:
 color: '#675f5d'
 created: '2020-10-11T22:29:51Z'
 description: "Ein Ludo klon f\xFCr den Nintendo 3DS."
-download_page: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/tag/v0.2.0
+download_page: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/tag/v0.3.0
 downloads:
   Ludo3DS.3dsx:
-    size: 564260
-    url: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/download/v0.2.0/Ludo3DS.3dsx
+    size: 577112
+    url: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/download/v0.3.0/Ludo3DS.3dsx
   Ludo3DS.cia:
-    size: 529344
-    url: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/download/v0.2.0/Ludo3DS.cia
+    size: 545728
+    url: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/download/v0.3.0/Ludo3DS.cia
 github: SuperSaiyajinStackZ/Ludo3DS
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/icon.png
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/Banner.png
@@ -66,19 +66,15 @@ source: https://github.com/SuperSaiyajinStackZ/Ludo3DS
 systems:
 - 3DS
 title: Ludo3DS
-update_notes: "<h2>Dies ist der Zweite Release von Ludo3DS.</h2>\n<h2>Was gibt's neues?</h2>\n\
-  <h3>Touch wurde hinzugef\xFCgt. Somit lassen die Figuren sich nun mit Touch ausw\xE4\
-  hlen.</h3>\n<h3>Ein paar kleine Farb-Ver\xE4nderungen wurden durchgef\xFChrt. Dies\
-  \ beinhaltet:</h3>\n<ul>\n<li>Neue W\xFCrfel-Farbe.</li>\n<li>Text Farbe wurde zu\
-  \ RGB 190, 190, 190 ge\xE4ndert.</li>\n</ul>\n<h3>Offizielles Boxart Cover!</h3>\n\
-  <p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/SuperSaiyajinStackZ/Ludo3DS/blob/main/Cover_ReadMe.png\"\
-  ><img src=\"https://github.com/SuperSaiyajinStackZ/Ludo3DS/blob/main/Cover_ReadMe.png\"\
-  \ alt=\"\" style=\"max-width:100%;\"></a></p>\n<h2>Das Sonstige</h2>\n<p>Sie haben\
-  \ einen Fehler bemerkt? Dann bitte geben Sie mir in der Issues Sektion bescheid!\
-  \ Vielen Dank.</p>\n<p>Ich hoffe Sie haben spa\xDF mit Ludo3DS v0.2.0! ~SuperSaiyajinStackZ</p>"
-updated: '2020-11-08T02:14:31Z'
-version: v0.2.0
-version_title: Second Release of Ludo3DS!
+update_notes: "<h2>Was wurde ver\xE4ndert?</h2>\n<ul>\n<li>\n<p>Die Spieldaten Struktur\
+  \ wurde \xFCberarbeitet und ist nun mit LudoJS.. als auch Ludo3DS kompatibel. Das\
+  \ bedeutet jedoch auch, dass \xE4ltere Spieldaten nun ung\xFCltig sind.</p>\n</li>\n\
+  <li>\n<p>Die Benutzeroberfl\xE4che wurde etwas \xFCberarbeitet. Das Keyboard wird\
+  \ nun nicht mehr benutzt.</p>\n</li>\n<li>\n<p>Ein paar Fehlerbehebungen.</p>\n\
+  </li>\n</ul>\n<p>Viel spa\xDF mit Ludo3DS v0.3.0! ~SuperSaiyajinStackZ</p>"
+updated: '2020-12-24T11:54:17Z'
+version: v0.3.0
+version_title: Weihnachts-Release v0.3.0
 wiki: https://github.com/SuperSaiyajinStackZ/Ludo3DS/wiki
 ---
 > The game is playable in Deutsch and English
