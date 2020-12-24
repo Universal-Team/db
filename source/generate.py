@@ -197,7 +197,7 @@ for app in source:
 		if len(releases) > 0 and releases[0]["prerelease"]:
 			prerelease = releases[0]
 		for r in releases:
-			if not r["prerelease"]:
+			if not (r["prerelease"] or r["draft"]):
 				release = r
 				break
 
