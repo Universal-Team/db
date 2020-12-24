@@ -78,11 +78,6 @@ img {
 	text-decoration: none;
 }
 
-div .btn-primary:hover {
-	background-color: inherit;
-	opacity: inherit;
-}
-
 // Override bootstraps primary color
 .bg-primary {
 	background-color: var(--primary)!important;
@@ -111,6 +106,10 @@ div .btn-primary:hover {
 // Override the secondary text color
 .btn-outline-secondary {
 	color: var(--main-color);
+}
+
+.btn-dark:hover, .btn-dark:active {
+	opacity: 0.8;
 }
 
 .alert-secondary {
@@ -208,6 +207,21 @@ div .btn-primary:hover {
 	font-size: 8pt;
 	padding: 5px;
 	z-index: 10;
+}
+
+.btn-with-qr {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	margin-right: 0!important;
+	padding-right: 0.25rem;
+}
+
+.btn-qr {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	margin-left: -5px!important;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
 }
 
 // Input box

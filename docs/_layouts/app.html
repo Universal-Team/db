@@ -84,15 +84,20 @@ layout: compress
 									<div class="col-12">
 										<h2>Downloads</h2>
 										{% for item in page.downloads %}
-											<span class="btn btn-primary m-1">
-												<a class="mr-1" href="{{ item[1].url }}">Download {{ item[0] }}</a>
-												{% for qr in page.qr %}
-													{% if item[0] == qr[0] %}
-														<a class="qr-link" href="{{ qr[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}">
-															<i class="fa fa-qrcode" aria-hidden="true"></i>
-														</a>
-													{% endif %}
-												{% endfor %}
+											{% assign itemQR = nil %}
+											{% for qr in page.qr %}
+												{% if item[0] == qr[0] %}
+													{% assign itemQR = qr %}
+													{% break %}
+												{% endif %}
+											{% endfor %}
+											<span class="text-nowrap">
+												<a class="btn btn-primary m-1 {% if itemQR %}btn-with-qr{% endif %}" href="{{ item[1].url }}">Download {{ item[0] }}</a>
+												{% if itemQR %}
+													<a class="btn btn-primary qr-link btn-qr" href="{{ itemQR[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}">
+														<i class="fa fa-qrcode" aria-hidden="true"></i>
+													</a>
+												{% endif %}
 											</span>
 										{% endfor %}
 										
@@ -118,15 +123,20 @@ layout: compress
 										<div class="col-12">
 											<h3>Prereleases</h3>
 											{% for item in page.prerelease.downloads %}
-												<span class="btn btn-secondary m-1">
-													<a class="mr-1" href="{{ item[1].url }}">Download {{ item[0] }}</a>
-													{% for qr in page.prerelease.qr %}
-														{% if item[0] == qr[0] %}
-															<a class="qr-link" href="{{ qr[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}">
-																<i class="fa fa-qrcode" aria-hidden="true"></i>
-															</a>
-														{% endif %}
-													{% endfor %}
+												{% assign itemQR = nil %}
+												{% for qr in page.prerelease.qr %}
+													{% if item[0] == qr[0] %}
+														{% assign itemQR = qr %}
+														{% break %}
+													{% endif %}
+												{% endfor %}
+												<span class="text-nowrap">
+													<a class="btn btn-secondary m-1 {% if itemQR %}btn-with-qr{% endif %}" href="{{ item[1].url }}">Download {{ item[0] }}</a>
+													{% if itemQR %}
+														<a class="btn btn-secondary qr-link btn-qr" href="{{ itemQR[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}">
+															<i class="fa fa-qrcode" aria-hidden="true"></i>
+														</a>
+													{% endif %}
 												</span>
 											{% endfor %}
 			
@@ -153,15 +163,20 @@ layout: compress
 										<div class="col-12">
 											<h3><abbr title="Commit / beta builds, potentially unstable but have the latest updates">Nightlies</abbr></h3>
 											{% for item in page.nightly.downloads %}
-												<span class="btn btn-dark m-1">
-													<a class="mr-1" href="{{ item[1].url }}">Download {{ item[0] }}</a>
-													{% for qr in page.nightly.qr %}
-														{% if item[0] == qr[0] %}
-															<a class="qr-link" href="{{ qr[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}">
-																<i class="fa fa-qrcode" aria-hidden="true"></i>
-															</a>
-														{% endif %}
-													{% endfor %}
+												{% assign itemQR = nil %}
+												{% for qr in page.nightly.qr %}
+													{% if item[0] == qr[0] %}
+														{% assign itemQR = qr %}
+														{% break %}
+													{% endif %}
+												{% endfor %}
+												<span class="text-nowrap">
+													<a class="btn btn-dark m-1 {% if itemQR %}btn-with-qr{% endif %}" href="{{ item[1].url }}">Download {{ item[0] }}</a>
+													{% if itemQR %}
+														<a class="btn btn-dark qr-link btn-qr" href="{{ itemQR[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}">
+															<i class="fa fa-qrcode" aria-hidden="true"></i>
+														</a>
+													{% endif %}
 												</span>
 											{% endfor %}
 			
