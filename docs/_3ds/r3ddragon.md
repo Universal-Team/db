@@ -14,27 +14,6 @@ github: mrdanielps/r3Ddragon
 icon: https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/icon.png
 image: https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/resources/banner.png
 layout: app
-scripts:
-  r3Ddragon.cia:
-  - file: r3Ddragon.*\.zip
-    message: Downloading r3Ddragon zip...
-    output: /r3Ddragon.zip
-    repo: mrdanielps/r3Ddragon
-    type: downloadRelease
-  - file: /r3Ddragon.zip
-    input: r3Ddragon.cia
-    message: Extracting r3Ddragon.cia...
-    output: /r3Ddragon.cia
-    type: extractFile
-  - file: /r3Ddragon.cia
-    message: Installing r3Ddragon.cia...
-    type: installCia
-  - file: /r3Ddragon.cia
-    message: Deleting r3Ddragon.cia...
-    type: deleteFile
-  - file: /r3Ddragon.zip
-    message: Deleting r3Ddragon.zip...
-    type: deleteFile
 source: https://github.com/mrdanielps/r3Ddragon
 systems:
 - 3DS

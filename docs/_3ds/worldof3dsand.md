@@ -22,21 +22,6 @@ license: mit
 license_name: MIT License
 qr:
   Worldof3DSand.cia: https://db.universal-team.net/assets/images/qr/worldof3dsand.cia.png
-scripts:
-  Worldof3DSand.3dsx:
-  - file: Worldof3DSand.zip
-    message: Downloading Worldof3DSand.zip...
-    output: /Worldof3DSand.zip
-    repo: Steveice10/WorldOf3DSand
-    type: downloadRelease
-  - file: /Worldof3DSand.zip
-    input: 3ds-arm/3ds/Worldof3DSand/Worldof3DSand.3dsx
-    message: Extracting Worldof3DSand.3dsx...
-    output: '%3DSX%/Worldof3DSand.3dsx'
-    type: extractFile
-  - file: /Worldof3DSand.zip
-    message: Deleting Worldof3DSand.zip...
-    type: deleteFile
 source: https://github.com/Steveice10/WorldOf3DSand
 systems:
 - 3DS

@@ -25,21 +25,6 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   tikSweep.cia: https://db.universal-team.net/assets/images/qr/tiksweep.cia.png
-scripts:
-  tikSweep.3dsx:
-  - file: tikSweep.zip
-    message: Downloading tikSweep.zip...
-    output: /tikSweep.zip
-    repo: DanTheMan827/tikSweep
-    type: downloadRelease
-  - file: /tikSweep.zip
-    input: 3ds-arm/3ds/tikSweep/tikSweep.3dsx
-    message: Extracting tikSweep.3dsx...
-    output: '%3DSX%/tikSweep.3dsx'
-    type: extractFile
-  - file: /tikSweep.zip
-    message: Deleting tikSweep.zip...
-    type: deleteFile
 source: https://github.com/DanTheMan827/tikSweep
 systems:
 - 3DS

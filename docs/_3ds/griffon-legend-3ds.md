@@ -17,41 +17,6 @@ image: https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resourc
 layout: app
 license: other
 license_name: Other
-scripts:
-  GriffonLegend.3dsx:
-  - file: GriffonLegend.*\.zip
-    message: Downloading GriffonLegend.zip...
-    output: /GriffonLegend.zip
-    repo: nop90/Griffon-Legend-3DS
-    type: downloadRelease
-  - file: /GriffonLegend.zip
-    input: GriffonLegend.3dsx
-    message: Extracting GriffonLegend.3dsx...
-    output: '%3DSX%/GriffonLegend.3dsx'
-    type: extractFile
-  - file: /GriffonLegend.zip
-    message: Deleting GriffonLegend.zip...
-    type: deleteFile
-  GriffonLegend.cia:
-  - file: GriffonLegend.*\.zip
-    message: Downloading GriffonLegend.zip...
-    output: /GriffonLegend.zip
-    repo: nop90/Griffon-Legend-3DS
-    type: downloadRelease
-  - file: /GriffonLegend.zip
-    input: GriffonLegend.cia
-    message: Extracting GriffonLegend.cia...
-    output: /GriffonLegend.cia
-    type: extractFile
-  - file: /GriffonLegend.cia
-    message: Installing GriffonLegend.cia...
-    type: installCia
-  - file: /GriffonLegend.cia
-    message: Deleting GriffonLegend.cia...
-    type: deleteFile
-  - file: /GriffonLegend.zip
-    message: Deleting GriffonLegend.zip...
-    type: deleteFile
 source: https://github.com/nop90/Griffon-Legend-3DS
 systems:
 - 3DS

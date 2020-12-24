@@ -22,21 +22,6 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   NotifyMii.cia: https://db.universal-team.net/assets/images/qr/notifymii.cia.png
-scripts:
-  NotifyMii.3dsx:
-  - file: NotifyMii.zip
-    message: Downloading NotifyMii.zip...
-    output: /NotifyMii.zip
-    repo: Ryuzaki-MrL/NotifyMii
-    type: downloadRelease
-  - file: /NotifyMii.zip
-    input: 3ds/NotifyMii/NotifyMii.3dsx
-    message: Extracting NotifyMii.3dsx...
-    output: '%3DSX%/NotifyMii.3dsx'
-    type: extractFile
-  - file: /NotifyMii.zip
-    message: Deleting NotifyMii.zip...
-    type: deleteFile
 source: https://github.com/Ryuzaki-MrL/NotifyMii
 systems:
 - 3DS

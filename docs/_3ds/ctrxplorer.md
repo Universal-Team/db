@@ -22,21 +22,6 @@ license: mit
 license_name: MIT License
 qr:
   CTRXplorer.cia: https://db.universal-team.net/assets/images/qr/ctrxplorer.cia.png
-scripts:
-  CTRXplorer.3dsx:
-  - file: CTRXplorer.*\.zip
-    message: Downloading CTRXplorer zip...
-    output: /CTRXplorer.zip
-    repo: d0k3/CTRXplorer
-    type: downloadRelease
-  - file: /CTRXplorer.zip
-    input: 3ds/CTRXplorer/CTRXplorer.3dsx
-    message: Extracting CTRXplorer.3dsx...
-    output: '%3DSX%/CTRXplorer.3dsx'
-    type: extractFile
-  - file: /CTRXplorer.zip
-    message: Deleting CTRXplorer.zip...
-    type: deleteFile
 source: https://github.com/d0k3/CTRXplorer
 systems:
 - 3DS

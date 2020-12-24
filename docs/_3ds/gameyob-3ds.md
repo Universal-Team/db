@@ -22,21 +22,6 @@ license: mit
 license_name: MIT License
 qr:
   GameYob.cia: https://db.universal-team.net/assets/images/qr/gameyob.cia.png
-scripts:
-  GameYob.3dsx:
-  - file: GameYob.zip
-    message: Downloading GameYob.zip...
-    output: /GameYob.zip
-    repo: Steveice10/GameYob
-    type: downloadRelease
-  - file: /GameYob.zip
-    input: 3ds-arm/3ds/GameYob/GameYob.3dsx
-    message: Extracting GameYob.3dsx...
-    output: '%3DSX%/GameYob.3dsx'
-    type: extractFile
-  - file: /GameYob.zip
-    message: Deleting GameYob.zip...
-    type: deleteFile
 source: https://github.com/Steveice10/GameYob
 systems:
 - 3DS

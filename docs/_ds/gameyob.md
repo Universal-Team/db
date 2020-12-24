@@ -14,41 +14,6 @@ github: Drenn1/GameYob
 icon: https://raw.githubusercontent.com/Drenn1/GameYob/master/platform/ds/icon.bmp
 image: https://db.universal-team.net/assets/images/icons/gameyob.png
 layout: app
-scripts:
-  GameYob.cia:
-  - file: gameyob.zip
-    message: Downloading gameyob.zip...
-    output: /gameyob.zip
-    repo: Drenn1/GameYob
-    type: downloadRelease
-  - file: /gameyob.zip
-    input: gameyob.cia
-    message: Extracting gameyob.cia...
-    output: /gameyob.cia
-    type: extractFile
-  - file: /gameyob.cia
-    message: Installing gameyob.cia...
-    type: installCia
-  - file: /gameyob.cia
-    message: Deleting gameyob.cia...
-    type: deleteFile
-  - file: /gameyob.zip
-    message: Deleting gameyob.zip...
-    type: deleteFile
-  GameYob.nds:
-  - file: gameyob.zip
-    message: Downloading gameyob.zip...
-    output: /gameyob.zip
-    repo: Drenn1/GameYob
-    type: downloadRelease
-  - file: /gameyob.zip
-    input: gameyob.nds
-    message: Extracting gameyob.nds...
-    output: '%NDS%/gameyob.nds'
-    type: extractFile
-  - file: /gameyob.zip
-    message: Deleting gameyob.zip...
-    type: deleteFile
 source: https://github.com/Drenn1/GameYob
 systems:
 - DS

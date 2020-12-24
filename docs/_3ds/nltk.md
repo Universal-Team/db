@@ -28,6 +28,9 @@ prerelease:
     there's commits since release/it was released a while ago). May be unstable, use
     at your own risk.  Visit <a href="https://discord.gg/j2VUBBv" rel="nofollow">https://discord.gg/j2VUBBv</a>
     if you have questions.</p>
+  update_notes_md: NLTK Nightly Build based on latest commit (even though it says
+    there's commits since release/it was released a while ago). May be unstable, use
+    at your own risk.  Visit https://discord.gg/j2VUBBv if you have questions.
   updated: '2019-05-15T19:45:48Z'
   version: Nightly
   version_title: Nightly Build

@@ -22,21 +22,6 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   sbfm.cia: https://db.universal-team.net/assets/images/qr/sbfm.cia.png
-scripts:
-  sbfm.3dsx:
-  - file: sbfm.zip
-    message: Downloading sbfm.zip...
-    output: /sbfm.zip
-    repo: Trinitro21/lpp-3ds
-    type: downloadRelease
-  - file: /sbfm.zip
-    input: sbfm.3dsx
-    message: Extracting sbfm.3dsx...
-    output: '%3DSX%/sbfm.3dsx'
-    type: extractFile
-  - file: /sbfm.zip
-    message: Deleting sbfm.zip...
-    type: deleteFile
 source: https://github.com/Trinitro21/lpp-3ds
 systems:
 - 3DS

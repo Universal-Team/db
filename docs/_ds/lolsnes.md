@@ -20,33 +20,6 @@ nightly:
   downloads:
     git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip:
       url: http://lolsnes.kuribo64.net/gitbuilds/git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip
-scripts:
-  '[nightly] lolSnes.nds':
-  - file: http://lolsnes.kuribo64.net/gitbuilds/git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip
-    message: Downloading lolsnes zip...
-    output: /lolsnes.zip
-    type: downloadFile
-  - file: /lolsnes.zip
-    input: lolSnes.nds
-    message: Extracting lolSnes.nds...
-    output: '%NDS%/lolSnes.nds'
-    type: extractFile
-  - file: /lolsnes.zip
-    message: Deleting lolsnes.zip...
-    type: deleteFile
-  lolSnes.nds:
-  - file: http://lolsnes.kuribo64.net/lolsnes.7z
-    message: Downloading lolsnes.7z...
-    output: /lolsnes.7z
-    type: downloadFile
-  - file: /lolsnes.7z
-    input: lolsnes/lolSnes.nds
-    message: Extracting lolSnes.nds...
-    output: '%NDS%/lolSnes.nds'
-    type: extractFile
-  - file: /lolsnes.7z
-    message: Deleting lolsnes.7z...
-    type: deleteFile
 source: https://github.com/Arisotura/lolSnes
 systems:
 - DS

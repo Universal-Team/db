@@ -31,46 +31,19 @@ prerelease:
     <li>Added CIA version</li>
 
     </ul>'
+  update_notes_md: '- Used a bigger font
+
+    - Fixed a bug typing on ther virtual keyboard in the Hall of Fame for tactica
+    mode
+
+    - Added a very simple AI to play vs CPU in multiplayer mode
+
+    - Added CIA version
+
+    '
   updated: '2016-07-04T07:32:48Z'
   version: V0.4alpha
   version_title: Bigger font and CIA version
-scripts:
-  '[prerelease] Biniax2.3dsx':
-  - file: Biniax2_3DSX.*\.zip
-    includePrereleases: true
-    message: Downloading Biniax2_3DSX zip...
-    output: /Biniax2_3DSX.zip
-    repo: nop90/Biniax2-3DS
-    type: downloadRelease
-  - file: /Biniax2_3DSX.zip
-    input: Biniax2/Biniax2.3dsx
-    message: Extracting Biniax2.3dsx...
-    output: '%3DSX%/Biniax2.3dsx'
-    type: extractFile
-  - file: /Biniax2_3DSX.zip
-    message: Deleting Biniax2_3DSX.zip...
-    type: deleteFile
-  '[prerelease] Biniax2.cia':
-  - file: Biniax2_CIA.*\.zip
-    includePrereleases: true
-    message: Downloading Biniax2_CIA zip...
-    output: /Biniax2_CIA.zip
-    repo: nop90/Biniax2-3DS
-    type: downloadRelease
-  - file: /Biniax2_CIA.zip
-    input: Biniax2.cia
-    message: Extracting Biniax2.cia...
-    output: /Biniax2.cia
-    type: extractFile
-  - file: /Biniax2.cia
-    message: Installing Biniax2.cia...
-    type: installCia
-  - file: /Biniax2.cia
-    message: Deleting Biniax2.cia...
-    type: deleteFile
-  - file: /Biniax2_CIA.zip
-    message: Deleting Biniax2_CIA.zip...
-    type: deleteFile
 source: https://github.com/nop90/Biniax2-3DS
 systems:
 - 3DS

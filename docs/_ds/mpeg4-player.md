@@ -12,20 +12,6 @@ downloads:
 github: Gericom/YouTubeDS
 image: https://avatars2.githubusercontent.com/u/5251038?v=4
 layout: app
-scripts:
-  MPEG4Player.nds:
-  - file: https://gbatemp.net/attachments/mpeg4player-nds-zip.203629/
-    message: Downloading MPEG4Player.nds.zip...
-    output: /MPEG4Player.nds.zip
-    type: downloadFile
-  - file: /MPEG4Player.nds.zip
-    input: MPEG4Player.nds
-    message: Extracting MPEG4Player.nds...
-    output: '%NDS%/MPEG4Player.nds'
-    type: extractFile
-  - file: /MPEG4Player.nds.zip
-    message: Deleting MPEG4Player.nds.zip...
-    type: deleteFile
 source: https://github.com/Gericom/YoutubeDS/tree/mpeg4player
 systems:
 - DS

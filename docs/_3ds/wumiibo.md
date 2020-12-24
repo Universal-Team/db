@@ -18,21 +18,6 @@ image: https://raw.githubusercontent.com/hax0kartik/wumiibo/master/wumiibohelper
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-scripts:
-  wumiibo:
-  - file: 0004013000004002.zip
-    message: Downloading 0004013000004002.zip...
-    output: /0004013000004002.zip
-    repo: hax0kartik/wumiibo
-    type: downloadRelease
-  - file: /0004013000004002.zip
-    input: 0004013000004002/
-    message: Extracting 0004013000004002...
-    output: /luma/titles/0004013000004002/
-    type: extractFile
-  - file: /0004013000004002.zip
-    message: Deleting 0004013000004002.zip...
-    type: deleteFile
 source: https://github.com/hax0kartik/wumiibo
 systems:
 - 3DS

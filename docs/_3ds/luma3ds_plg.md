@@ -17,20 +17,6 @@ image: https://avatars3.githubusercontent.com/u/26027089?v=4
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-scripts:
-  boot.firm:
-  - count: 1
-    message: 'Warning: This version of Luma3DS is not
-
-      compatible with system version 11.14.0-46 or newer,
-
-      please only use on older system versions'
-    type: promptMessage
-  - file: boot.firm
-    message: Downloading boot.firm...
-    output: /boot.firm
-    repo: jbmagination/Luma3DS_plg
-    type: downloadRelease
 source: https://github.com/jbmagination/Luma3DS_plg
 systems:
 - 3DS

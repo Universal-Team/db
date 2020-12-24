@@ -21,52 +21,6 @@ license: mit
 license_name: MIT License
 qr:
   CaptureAssistant.cia: https://db.universal-team.net/assets/images/qr/captureassistant.cia.png
-scripts:
-  CaptureAssistant.cia:
-  - file: CaptureAssistant.*\.zip
-    message: Downloading CaptureAssistant zip...
-    output: /CaptureAssistant.zip
-    repo: ItsDeidara/CaptureAssistant
-    type: downloadRelease
-  - file: /CaptureAssistant.zip
-    input: CaptureAssistant.cia
-    message: Extracting CaptureAssistant.cia...
-    output: /CaptureAssistant.cia
-    type: extractFile
-  - count: 3
-    message: Use alternate calibration images?
-    type: promptMessage
-  - file: /CaptureAssistant.zip
-    input: calibrationalt.png
-    message: Extracting calibration.png...
-    output: /calibration.png
-    type: extractFile
-  - file: /CaptureAssistant.zip
-    input: calibrationalt2.png
-    message: Extracting calibration2.png...
-    output: /calibration2.png
-    type: extractFile
-  - count: 2
-    type: skip
-  - file: /CaptureAssistant.zip
-    input: calibration.png
-    message: Extracting calibration.png...
-    output: /calibration.png
-    type: extractFile
-  - file: /CaptureAssistant.zip
-    input: calibration2.png
-    message: Extracting calibration2.png...
-    output: /calibration2.png
-    type: extractFile
-  - file: /CaptureAssistant.cia
-    message: Installing CaptureAssistant.cia...
-    type: installCia
-  - file: /CaptureAssistant.cia
-    message: Deleting CaptureAssistant.cia...
-    type: deleteFile
-  - file: /CaptureAssistant.zip
-    message: Deleting CaptureAssistant.zip...
-    type: deleteFile
 source: https://github.com/ItsDeidara/CaptureAssistant
 systems:
 - 3DS

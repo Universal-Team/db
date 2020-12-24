@@ -16,46 +16,6 @@ image: https://db.universal-team.net/assets/images/images/turtleinvaders.png
 layout: app
 license: other
 license_name: Other
-scripts:
-  TurtleInvaders.3dsx:
-  - file: TurtleInvaders.zip
-    message: Downloading TurtleInvaders.zip...
-    output: /TurtleInvaders.zip
-    repo: TurtleP/TurtleInvaders
-    type: downloadRelease
-  - file: /TurtleInvaders.zip
-    input: TurtleInvaders.3dsx
-    message: Extracting TurtleInvaders.3dsx...
-    output: '%3DSX%/TurtleInvaders/TurtleInvaders.3dsx'
-    type: extractFile
-  - file: /TurtleInvaders.zip
-    input: game
-    message: Extracting game...
-    output: '%3DSX%/TurtleInvaders/game'
-    type: extractFile
-  - file: /TurtleInvaders.zip
-    message: Deleting TurtleInvaders.zip...
-    type: deleteFile
-  TurtleInvaders.cia:
-  - file: TurtleInvaders.zip
-    message: Downloading TurtleInvaders.zip...
-    output: /TurtleInvaders.zip
-    repo: TurtleP/TurtleInvaders
-    type: downloadRelease
-  - file: /TurtleInvaders.zip
-    input: TurtleInvaders.cia
-    message: Extracting TurtleInvaders.cia...
-    output: /TurtleInvaders.cia
-    type: extractFile
-  - file: /TurtleInvaders.cia
-    message: Installing TurtleInvaders.cia...
-    type: installCia
-  - file: /TurtleInvaders.cia
-    message: Deleting TurtleInvaders.cia...
-    type: deleteFile
-  - file: /TurtleInvaders.zip
-    message: Deleting TurtleInvaders.zip...
-    type: deleteFile
 source: https://github.com/TurtleP/TurtleInvaders
 systems:
 - 3DS

@@ -18,13 +18,6 @@ downloads:
 github: mikewii/Luma3DS-plugin
 image: https://avatars0.githubusercontent.com/u/29737660?v=4
 layout: app
-scripts:
-  boot.firm:
-  - file: boot.firm
-    message: Downloading boot.firm...
-    output: /boot.firm
-    repo: mikewii/Luma3DS-plugin
-    type: downloadRelease
 source: https://github.com/mikewii/Luma3DS-plugin
 systems:
 - 3DS

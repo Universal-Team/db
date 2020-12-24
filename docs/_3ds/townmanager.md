@@ -17,41 +17,6 @@ image: https://raw.githubusercontent.com/dragos240/TownManager/master/res/banner
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-scripts:
-  TownManager.3dsx:
-  - file: TownManager.*\.zip
-    message: Downloading TownManager.zip...
-    output: /TownManager.zip
-    repo: dragos240/TownManager
-    type: downloadRelease
-  - file: /TownManager.zip
-    input: TownManager/TownManager.3dsx
-    message: Extracting TownManager.3dsx...
-    output: '%3DSX%/TownManager.3dsx'
-    type: extractFile
-  - file: /TownManager.zip
-    message: Deleting TownManager.zip...
-    type: deleteFile
-  TownManager.cia:
-  - file: TownManager.*\.zip
-    message: Downloading TownManager.zip...
-    output: /TownManager.zip
-    repo: dragos240/TownManager
-    type: downloadRelease
-  - file: /TownManager.zip
-    input: TownManager/TownManager.cia
-    message: Extracting TownManager.cia...
-    output: /TownManager.cia
-    type: extractFile
-  - file: /TownManager.cia
-    message: Installing TownManager.cia...
-    type: installCia
-  - file: /TownManager.cia
-    message: Deleting TownManager.cia...
-    type: deleteFile
-  - file: /TownManager.zip
-    message: Deleting TownManager.zip...
-    type: deleteFile
 source: https://github.com/dragos240/TownManager
 systems:
 - 3DS

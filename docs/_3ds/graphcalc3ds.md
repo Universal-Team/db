@@ -22,21 +22,6 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   GraphCalc3DS.cia: https://db.universal-team.net/assets/images/qr/graphcalc3ds.cia.png
-scripts:
-  GraphCalc3DS.3dsx:
-  - file: GraphCalc3DS_3DSX.zip
-    message: Downloading GraphCalc3DS_3DSX.zip...
-    output: /GraphCalc3DS_3DSX.zip
-    repo: flarn2006/graphcalc3ds
-    type: downloadRelease
-  - file: /GraphCalc3DS_3DSX.zip
-    input: GraphCalc3DS.3dsx
-    message: Extracting GraphCalc3DS.3dsx...
-    output: '%3DSX%/GraphCalc3DS.3dsx'
-    type: extractFile
-  - file: /GraphCalc3DS_3DSX.zip
-    message: Deleting GraphCalc3DS_3DSX.zip...
-    type: deleteFile
 source: https://github.com/flarn2006/GraphCalc3DS
 systems:
 - 3DS

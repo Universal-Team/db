@@ -16,41 +16,6 @@ image: https://raw.githubusercontent.com/NatTupper/Forecast/master/res/banner%20
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-scripts:
-  Forecast.3dsx:
-  - file: Forecast.*\.zip
-    message: Downloading Forecast zip...
-    output: /Forecast.zip
-    repo: NatTupper/Forecast
-    type: downloadRelease
-  - file: /Forecast.zip
-    input: Forecast.3dsx
-    message: Extracting Forecast.3dsx...
-    output: '%3DSX%/Forecast.3dsx'
-    type: extractFile
-  - file: /Forecast.zip
-    message: Deleting Forecast.zip...
-    type: deleteFile
-  Forecast.cia:
-  - file: Forecast.*\.zip
-    message: Downloading Forecast zip...
-    output: /Forecast.zip
-    repo: NatTupper/Forecast
-    type: downloadRelease
-  - file: /Forecast.zip
-    input: Forecast.cia
-    message: Extracting Forecast.cia...
-    output: /Forecast.cia
-    type: extractFile
-  - file: /Forecast.cia
-    message: Installing Forecast.cia...
-    type: installCia
-  - file: /Forecast.cia
-    message: Deleting Forecast.cia...
-    type: deleteFile
-  - file: /Forecast.zip
-    message: Deleting Forecast.zip...
-    type: deleteFile
 source: https://github.com/NatTupper/Forecast
 systems:
 - 3DS

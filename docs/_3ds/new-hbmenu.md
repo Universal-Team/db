@@ -22,13 +22,6 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/new-hbmenu/favorite-app.png
 - description: File list
   url: https://db.universal-team.net/assets/images/screenshots/new-hbmenu/file-list.png
-scripts:
-  boot.3dsx:
-  - file: boot.3dsx
-    message: Downloading boot.3dsx...
-    output: /boot.3dsx
-    repo: fincs/new-hbmenu
-    type: downloadRelease
 source: https://github.com/fincs/new-hbmenu
 systems:
 - 3DS

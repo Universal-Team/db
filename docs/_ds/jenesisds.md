@@ -10,20 +10,6 @@ downloads:
     url: https://db.universal-team.net/assets/files/JEnesisDS0174.zip
 icon: https://db.universal-team.net/assets/images/icons/jenesisds.png
 layout: app
-scripts:
-  jEnesisDS.nds:
-  - file: https://db.universal-team.net/assets/files/JEnesisDS0174.zip
-    message: Downloading JEnesisDS0174.zip...
-    output: /JEnesisDS0174.zip
-    type: downloadFile
-  - file: /JEnesisDS0174.zip
-    input: jEnesisDS.nds
-    message: Extracting jEnesisDS.nds...
-    output: '%NDS%/jEnesisDS.nds'
-    type: extractFile
-  - file: /JEnesisDS0174.zip
-    message: Deleting JEnesisDS0174.zip...
-    type: deleteFile
 systems:
 - DS
 title: jEnesisDS

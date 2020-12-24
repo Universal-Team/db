@@ -19,41 +19,6 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/horihd-gallery/breath-of-the-wild-horihd.png
 - description: Breath of the wild
   url: https://db.universal-team.net/assets/images/screenshots/horihd-gallery/breath-of-the-wild.png
-scripts:
-  HoriHD-Gallery.3dsx:
-  - file: HoriHD-Gallery.7z
-    message: Downloading HoriHD-Gallery.7z...
-    output: /HoriHD-Gallery.7z
-    repo: RocketRobz/HoriHD-Gallery
-    type: downloadRelease
-  - file: /HoriHD-Gallery.7z
-    input: HoriHD-Gallery.cia
-    message: Extracting HoriHD-Gallery.3dsx...
-    output: '%3DSX%/HoriHD-Gallery.3dsx'
-    type: extractFile
-  - file: /HoriHD-Gallery.7z
-    message: Deleting HoriHD-Gallery.7z...
-    type: deleteFile
-  HoriHD-Gallery.cia:
-  - file: HoriHD-Gallery.7z
-    message: Downloading HoriHD-Gallery.7z...
-    output: /HoriHD-Gallery.7z
-    repo: RocketRobz/HoriHD-Gallery
-    type: downloadRelease
-  - file: /HoriHD-Gallery.7z
-    input: HoriHD-Gallery.cia
-    message: Extracting HoriHD-Gallery.cia...
-    output: /HoriHD-Gallery.cia
-    type: extractFile
-  - file: /HoriHD-Gallery.cia
-    message: Installing HoriHD-Gallery.cia...
-    type: installCia
-  - file: /HoriHD-Gallery.cia
-    message: Deleting HoriHD-Gallery.cia...
-    type: deleteFile
-  - file: /HoriHD-Gallery.7z
-    message: Deleting HoriHD-Gallery.7z...
-    type: deleteFile
 source: https://github.com/RocketRobz/HoriHD-Gallery
 systems:
 - 3DS

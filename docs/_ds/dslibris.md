@@ -14,28 +14,6 @@ github: rhaleblian/dslibris
 icon: https://raw.githubusercontent.com/rhaleblian/dslibris/master/gfx/icon.bmp
 image: https://db.universal-team.net/assets/images/icons/dslibris.png
 layout: app
-scripts:
-  dslibris.nds:
-  - file: dslibris.*\.zip
-    message: Downloading dslibris.zip...
-    output: /dslibris.zip
-    repo: rhaleblian/dslibris
-    type: downloadRelease
-  - file: /dslibris.zip
-    input: ''
-    message: Extracting dslibris...
-    output: /
-    type: extractFile
-  - message: Moving dslibris.nds...
-    new: '%NDS%/dslibris.nds'
-    old: /dslibris.nds
-    type: move
-  - file: /INSTALL.txt
-    message: Deleting INSTALL.txt...
-    type: deleteFile
-  - file: /dslibris.zip
-    message: Deleting dslibris.zip...
-    type: deleteFile
 source: https://github.com/rhaleblian/dslibris
 systems:
 - DS

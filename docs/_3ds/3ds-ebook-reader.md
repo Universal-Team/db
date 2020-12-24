@@ -16,27 +16,6 @@ image: https://raw.githubusercontent.com/DomRe/3DS_eBook_Reader/master/meta/bann
 layout: app
 license: mit
 license_name: MIT License
-scripts:
-  eBook_Reader.cia:
-  - file: release.*\.zip
-    message: Downloading release zip...
-    output: /release.zip
-    repo: DomRe/3DS_eBook_Reader
-    type: downloadRelease
-  - file: /release.zip
-    input: ''
-    message: Extracting 3DS_eBook_Reader...
-    output: /
-    type: extractFile
-  - file: /eBook_Reader.cia
-    message: Installing eBook_Reader.cia...
-    type: installCia
-  - file: /eBook_Reader.cia
-    message: Deleting eBook_Reader.cia...
-    type: deleteFile
-  - file: /release.zip
-    message: Deleting release.zip...
-    type: deleteFile
 source: https://github.com/DomRe/3DS_eBook_Reader
 systems:
 - 3DS

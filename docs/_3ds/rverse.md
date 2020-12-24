@@ -16,21 +16,6 @@ downloads:
 github: rverseTeam/rverse-Releases
 image: https://avatars2.githubusercontent.com/u/38678735?v=4
 layout: app
-scripts:
-  rverse:
-  - file: rverse-3ds.zip
-    message: Downloading rverse...
-    output: /rverse.zip
-    repo: rverseTeam/rverse-Releases
-    type: downloadRelease
-  - file: /rverse.zip
-    input: ''
-    message: Extracting rverse...
-    output: /
-    type: extractFile
-  - file: sdmc:/rverse.zip
-    message: Deleting rverse.zip...
-    type: deleteFile
 source: https://github.com/rverseTeam/rverse2
 systems:
 - 3DS

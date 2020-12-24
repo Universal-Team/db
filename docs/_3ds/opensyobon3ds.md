@@ -14,41 +14,6 @@ github: nop90/OpenSyobon3DS
 icon: https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/banner.png
 layout: app
-scripts:
-  OpenSyobon3DS.3dsx:
-  - file: OpenSyobon3DS.*\.zip
-    message: Downloading OpenSyobon3DS zip...
-    output: /OpenSyobon3DS.zip
-    repo: author/repo
-    type: downloadRelease
-  - file: /OpenSyobon3DS.zip
-    input: 3ds/OpenSyobon3DS/OpenSyobon3DS.3dsx
-    message: Extracting OpenSyobon3DS.3dsx...
-    output: '%3DSX%/OpenSyobon3DS.3dsx'
-    type: extractFile
-  - file: /OpenSyobon3DS.zip
-    message: Deleting OpenSyobon3DS.zip...
-    type: deleteFile
-  OpenSyobon3DS.cia:
-  - file: OpenSyobon3DS.*\.zip
-    message: Downloading OpenSyobon3DS zip...
-    output: /OpenSyobon3DS.zip
-    repo: author/repo
-    type: downloadRelease
-  - file: /OpenSyobon3DS.zip
-    input: OpenSyobon3DS.cia
-    message: Extracting OpenSyobon3DS.cia...
-    output: /OpenSyobon3DS.cia
-    type: extractFile
-  - file: /OpenSyobon3DS.cia
-    message: Installing OpenSyobon3DS.cia...
-    type: installCia
-  - file: /OpenSyobon3DS.cia
-    message: Deleting OpenSyobon3DS.cia...
-    type: deleteFile
-  - file: /OpenSyobon3DS.zip
-    message: Deleting OpenSyobon3DS.zip...
-    type: deleteFile
 source: https://github.com/nop90/OpenSyobon3DS
 systems:
 - 3DS

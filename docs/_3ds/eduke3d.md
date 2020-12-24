@@ -32,55 +32,20 @@ prerelease:
     Game must be closed from quit option on the menu, and not from the 3ds home menu<br>
 
     Home button only works when in a level</p>'
+  update_notes_md: 'Bugfixes (mostly memory management) and first CIA release.
+
+    View README on the project page for instructions.
+
+    CIA bugs:
+
+    Game must be closed from quit option on the menu, and not from the 3ds home menu
+
+    Home button only works when in a level
+
+    '
   updated: '2016-05-08T04:36:44Z'
   version: v1.0-beta
   version_title: Beta release (fixed)
-scripts:
-  '[prerelease] EDuke3D.cia':
-  - file: EDuke3D.*\.zip
-    includePrereleases: true
-    message: Downloading EDuke3D.zip...
-    output: /EDuke3D.zip
-    repo: masterfeizz/EDuke3D
-    type: downloadRelease
-  - file: /EDuke3D.zip
-    input: ''
-    message: Extracting EDuke3D...
-    output: /
-    type: extractFile
-  - file: EDuke3D.cia
-    includePrereleases: true
-    message: Downloading EDuke3D.cia...
-    output: /EDuke3D.cia
-    repo: masterfeizz/EDuke3D
-    type: downloadRelease
-  - file: /EDuke3D.cia
-    message: Installing EDuke3D.cia...
-    type: installCia
-  - file: /EDuke3D.cia
-    message: Deleting EDuke3D.cia...
-    type: deleteFile
-  - file: /EDuke3D.zip
-    message: Deleting EDuke3D.zip...
-    type: deleteFile
-  '[prerelease] eduke3d.3dsx':
-  - file: EDuke3D.*\.zip
-    includePrereleases: true
-    message: Downloading EDuke3D.zip...
-    output: /EDuke3D.zip
-    repo: masterfeizz/EDuke3D
-    type: downloadRelease
-  - file: /EDuke3D.zip
-    input: ''
-    message: Extracting EDuke3D...
-    output: /
-    type: extractFile
-  - new: '%3DSX%/eduke3d.3dsx'
-    old: /3ds/eduke3d/eduke3d.3dsx
-    type: move
-  - file: /EDuke3D.zip
-    message: Deleting EDuke3D.zip...
-    type: deleteFile
 source: https://github.com/masterfeizz/EDuke3D
 systems:
 - 3DS

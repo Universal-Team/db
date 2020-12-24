@@ -20,21 +20,6 @@ image: https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/ban
 layout: app
 qr:
   UpdateSuppressor.cia: https://db.universal-team.net/assets/images/qr/updatesuppressor.cia.png
-scripts:
-  UpdateSuppressor.3dsx:
-  - file: UpdateSuppressor-3dsx.zip
-    message: Downloading UpdateSuppressor-3dsx.zip...
-    output: /UpdateSuppressor-3dsx.zip
-    repo: GiantBlargg/UpdateSuppressor
-    type: downloadRelease
-  - file: /UpdateSuppressor-3dsx.zip
-    input: UpdateSuppressor/UpdateSuppressor.3dsx
-    message: Extracting UpdateSuppressor.3dsx...
-    output: '%3DSX%/UpdateSuppressor.3dsx'
-    type: extractFile
-  - file: /UpdateSuppressor-3dsx.zip
-    message: Deleting UpdateSuppressor-3dsx.zip...
-    type: deleteFile
 source: https://github.com/GiantBlargg/UpdateSuppressor
 systems:
 - 3DS

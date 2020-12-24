@@ -17,13 +17,6 @@ image: https://avatars3.githubusercontent.com/u/13298129?v=4
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-scripts:
-  boot.firm:
-  - file: boot.firm
-    message: Downloading boot.firm...
-    output: /boot.firm
-    repo: Nanquitas/Luma3DS
-    type: downloadRelease
 source: https://github.com/Nanquitas/Luma3DS
 systems:
 - 3DS

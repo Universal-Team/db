@@ -20,24 +20,6 @@ image: https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/res
 layout: app
 qr:
   WITB_3D.cia: https://db.universal-team.net/assets/images/qr/witb_3d.cia.png
-scripts:
-  WITB_3D.3dsx:
-  - message: UU is unable to extract this at the moment...
-    type: promptMessage
-  - type: exit
-  - file: WITB_3D.rar
-    message: Downloading WITB_3D.rar...
-    output: /WITB_3D.rar
-    repo: Manurocker95/WITB_3D
-    type: downloadRelease
-  - file: /WITB_3D.rar
-    input: WITB_3D.3dsx
-    message: Extracting WITB_3D.3dsx...
-    output: '%3DSX%/WITB_3D.3dsx'
-    type: extractFile
-  - file: /WITB_3D.rar
-    message: Deleting WITB_3D.rar...
-    type: deleteFile
 source: https://github.com/Manurocker95/WITB_3D
 systems:
 - 3DS

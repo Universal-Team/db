@@ -22,6 +22,8 @@ prerelease:
     Quake2CTR.cia: https://db.universal-team.net/assets/images/qr/prerelease/quake2ctr.cia.png
   update_notes: <p>This small update mostly fixes the save loading issues and has
     tweaked input handling.</p>
+  update_notes_md: This small update mostly fixes the save loading issues and has
+    tweaked input handling.
   updated: '2017-06-24T15:36:24Z'
   version: v0.2
   version_title: Save fix and Input enhancements

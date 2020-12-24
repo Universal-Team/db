@@ -25,21 +25,6 @@ prerelease:
   updated: '2017-06-14T18:53:35Z'
   version: v0.4
   version_title: Menu completed
-scripts:
-  neopop.3dsx:
-  - file: neopop_3DSX.*\.zip
-    message: Downloading neopop zip...
-    output: /neopop.zip
-    repo: nop90/Neopop-SDL
-    type: downloadRelease
-  - file: /neopop.zip
-    input: neopop/neopop.3dsx
-    message: Extracting neopop.3dsx...
-    output: '%3DSX%/neopop.3dsx'
-    type: extractFile
-  - file: /neopop.zip
-    message: Deleting neopop.zip...
-    type: deleteFile
 source: https://github.com/nop90/Neopop-SDL
 systems:
 - 3DS

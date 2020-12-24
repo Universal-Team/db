@@ -15,41 +15,6 @@ github: suloku/pdrpse
 icon: https://raw.githubusercontent.com/suloku/pdrpse/master/icon.png
 image: https://db.universal-team.net/assets/images/images/pdrpse.png
 layout: app
-scripts:
-  pdrpse.3dsx:
-  - file: pdrpse.*\.zip
-    message: Downloading pdrpse zip...
-    output: /pdrpse.zip
-    repo: suloku/pdrpse
-    type: downloadRelease
-  - file: /pdrpse.zip
-    input: 3ds/pdrpse/pdrpse.3dsx
-    message: Extracting pdrpse.3dsx...
-    output: '%3DSX%/pdrpse.3dsx'
-    type: extractFile
-  - file: /pdrpse.zip
-    message: Deleting pdrpse.zip...
-    type: deleteFile
-  pdrpse.cia:
-  - file: pdrpse.*\.zip
-    message: Downloading pdrpse zip...
-    output: /pdrpse.zip
-    repo: suloku/pdrpse
-    type: downloadRelease
-  - file: /pdrpse.zip
-    input: pdrpse.cia
-    message: Extracting pdrpse.cia...
-    output: /pdrpse.cia
-    type: extractFile
-  - file: /pdrpse.cia
-    message: Installing pdrpse.cia...
-    type: installCia
-  - file: /pdrpse.cia
-    message: Deleting pdrpse.cia...
-    type: deleteFile
-  - file: /pdrpse.zip
-    message: Deleting pdrpse.zip...
-    type: deleteFile
 source: https://github.com/suloku/pdrpse
 systems:
 - 3DS

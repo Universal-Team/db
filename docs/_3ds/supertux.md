@@ -21,43 +21,6 @@ prerelease:
   updated: '2017-03-22T22:55:55Z'
   version: v0.1
   version_title: First release
-scripts:
-  '[prerelease] Supertux.3dsx':
-  - file: Supertux.*\.zip
-    includePrereleases: true
-    message: Downloading Supertux zip...
-    output: /Supertux.zip
-    repo: nop90/Supertux-Milestone1-3ds
-    type: downloadRelease
-  - file: /Supertux.zip
-    input: Supertux/Supertux.3dsx
-    message: Extracting Supertux.3dsx...
-    output: '%3DSX%/Supertux.3dsx'
-    type: extractFile
-  - file: /Supertux.zip
-    message: Deleting Supertux.zip...
-    type: deleteFile
-  '[prerelease] Supertux.cia':
-  - file: Supertux.*\.zip
-    includePrereleases: true
-    message: Downloading Supertux zip...
-    output: /Supertux.zip
-    repo: nop90/Supertux-Milestone1-3ds
-    type: downloadRelease
-  - file: /Supertux.zip
-    input: Supertux.cia
-    message: Extracting Supertux.cia...
-    output: /Supertux.cia
-    type: extractFile
-  - file: /Supertux.cia
-    message: Installing Supertux.cia...
-    type: installCia
-  - file: /Supertux.cia
-    message: Deleting Supertux.cia...
-    type: deleteFile
-  - file: /Supertux.zip
-    message: Deleting Supertux.zip...
-    type: deleteFile
 source: https://github.com/nop90/Supertux-Milestone1-3ds
 systems:
 - 3DS

@@ -17,27 +17,6 @@ image: https://avatars3.githubusercontent.com/u/65085206?v=4
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-scripts:
-  '[hourly] boot.firm':
-  - file: boot.firm
-    message: Downloading boot.firm...
-    output: /boot.firm
-    repo: hax0kartik/luma-hourlies
-    type: downloadRelease
-  boot.firm:
-  - file: Luma3DS.*.zip
-    message: Downloading Luma3DS zip...
-    output: /Luma3DS.zip
-    repo: LumaTeam/Luma3DS
-    type: downloadRelease
-  - file: /Luma3DS.zip
-    input: boot.firm
-    message: Extracting boot.firm...
-    output: /boot.firm
-    type: extractFile
-  - file: /Luma3DS.zip
-    message: Deleting Luma3DS.zip...
-    type: deleteFile
 source: https://github.com/LumaTeam/Luma3DS
 systems:
 - 3DS

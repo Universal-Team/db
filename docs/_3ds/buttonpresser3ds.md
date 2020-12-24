@@ -20,21 +20,6 @@ image: https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/re
 layout: app
 qr:
   ButtonPresser3DS.cia: https://db.universal-team.net/assets/images/qr/buttonpresser3ds.cia.png
-scripts:
-  ButtonPresser3DS.3dsx:
-  - file: 3ds.zip
-    message: Downloading 3ds.zip...
-    output: /3ds.zip
-    repo: trainboy2019/ButtonPresser3DS
-    type: downloadRelease
-  - file: /3ds.zip
-    input: 3ds/ButtonPresser3DS.3dsx
-    message: Extracting ButtonPresser3DS.3dsx...
-    output: '%3DSX%/ButtonPresser3DS.3dsx'
-    type: extractFile
-  - file: /3ds.zip
-    message: Deleting 3ds.zip...
-    type: deleteFile
 source: https://github.com/trainboy2019/ButtonPresser3DS
 systems:
 - 3DS

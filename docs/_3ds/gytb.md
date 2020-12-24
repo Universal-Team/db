@@ -23,24 +23,6 @@ qr:
 screenshots:
 - description: While running
   url: https://db.universal-team.net/assets/images/screenshots/gytb/while-running.png
-scripts:
-  GYTB.3dsx:
-  - file: GYTB_hax.zip
-    message: Downloading GYTB_hax.zip...
-    output: /GYTB_hax.zip
-    repo: MechanicalDragon0687/GYTB
-    type: downloadRelease
-  - file: /GYTB_hax.zip
-    input: ''
-    message: Extracting GYTB...
-    output: /
-    type: extractFile
-  - new: '%3DSX%/GYTB.3dsx'
-    old: /3ds/GYTB/GYTB.3dsx
-    type: move
-  - file: /GYTB_hax.zip
-    message: Deleting GYTB_hax.zip...
-    type: deleteFile
 source: https://github.com/MechanicalDragon0687/GYTB
 systems:
 - 3DS
