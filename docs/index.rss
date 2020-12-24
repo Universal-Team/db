@@ -13,7 +13,7 @@ layout: compress
 		{% assign apps = site["3ds"] | concat: site.ds | uniq | sort: "updated" | reverse %}
 		{% for app in apps limit: 5 %}
 			<item>
-				<title>{{ app.title }}</title>
+				<title>{{ app.title }} updated to {{ app.version | default: "new version" }}</title>
 				<link>
 					{{ app.url | prepend: site.url }}
 				</link>
@@ -24,7 +24,7 @@ layout: compress
 						{{ app.update_notes | escape | truncate: '2000' }}
 					{% endif %}
 				</description>
-				<pubDate>{{ app.date | date_to_rfc822 }}</pubDate>
+				<pubDate>{{ app.updated | date_to_rfc822 }}</pubDate>
 				<guid>
 					{{ app.url | prepend: site.url }}
 				</guid>
