@@ -1085,7 +1085,7 @@
 			"lumaupdater.3dsx": [
 				{
 					"type": "downloadRelease",
-					"repo": "author/repo",
+					"repo": "KunoichiZ/lumaupdate",
 					"file": "lumaupdater.*\\.zip",
 					"output": "/lumaupdater.zip",
 					"message": "Downloading lumaupdater.zip..."
@@ -3441,7 +3441,7 @@
 			"OpenSyobon3DS.cia": [
 				{
 					"type": "downloadRelease",
-					"repo": "author/repo",
+					"repo": "nop90/OpenSyobon3DS",
 					"file": "OpenSyobon3DS.*\\.zip",
 					"output": "/OpenSyobon3DS.zip",
 					"message": "Downloading OpenSyobon3DS zip..."
@@ -3472,7 +3472,7 @@
 			"OpenSyobon3DS.3dsx": [
 				{
 					"type": "downloadRelease",
-					"repo": "author/repo",
+					"repo": "nop90/OpenSyobon3DS",
 					"file": "OpenSyobon3DS.*\\.zip",
 					"output": "/OpenSyobon3DS.zip",
 					"message": "Downloading OpenSyobon3DS zip..."
