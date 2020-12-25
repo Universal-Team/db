@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>{{ site.title }}</title>
 		<link>{{ site.url }}</link>
@@ -21,7 +21,7 @@ layout: compress
 					&lt;p&gt;{{ app.version }}{% if app.version_title %} - {{ app.version_title }}{% endif %}&lt;/p&gt;
 					{% if app.update_notes %}
 						&lt;hr /&gt;
-						{{ app.update_notes | escape | truncate: '2000' }}
+						{{ app.update_notes | escape }}
 					{% endif %}
 				</description>
 				<pubDate>{{ app.updated | date_to_rfc822 }}</pubDate>
