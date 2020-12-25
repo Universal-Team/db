@@ -36,6 +36,10 @@ qr:
 screenshots:
 - description: Auto updater
   url: https://db.universal-team.net/assets/images/screenshots/bootntr/auto-updater.png
+- description: Banner fonzd
+  url: https://db.universal-team.net/assets/images/screenshots/bootntr/banner-fonzd.png
+- description: Banner pablomk7
+  url: https://db.universal-team.net/assets/images/screenshots/bootntr/banner-pablomk7.png
 - description: Failed to load
   url: https://db.universal-team.net/assets/images/screenshots/bootntr/failed-to-load.png
 - description: Main menu
