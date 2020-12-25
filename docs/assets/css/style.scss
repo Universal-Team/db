@@ -40,7 +40,7 @@ blockquote {
 	border-left: 3px solid var(--borders);
 }
 
-code {
+code, tt {
 	color: var(--code-color);
 	background-color: var(--code-bg);
 	padding: 3px;
