@@ -4,8 +4,8 @@ categories:
 - game
 color: '#dcd7e8'
 created: '2018-04-17T16:27:05Z'
-description: An unofficial cross-platform Doki Doki Literature Club port to Lua for
-  different game consoles
+description: An unofficial Doki Doki Literature Club port to Lua for different game
+  console platforms
 download_page: https://github.com/LukeZGD/DDLC-LOVE/releases/tag/v1.1.9
 downloads:
   DDLC-LOVE.3dsx:
@@ -33,6 +33,11 @@ systems:
 - 3DS
 title: DDLC-LOVE
 update_notes: '<ul>
+
+  <li>Fully supported on Switch and Vita only. For other systems, see <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="594397708" data-permission-text="Title
+  is private" data-url="https://github.com/LukeZGD/DDLC-LOVE/issues/123" data-hovercard-type="issue"
+  data-hovercard-url="/LukeZGD/DDLC-LOVE/issues/123/hovercard" href="https://github.com/LukeZGD/DDLC-LOVE/issues/123">#123</a></li>
 
   <li><a href="https://github.com/LukeZGD/DDLC-LOVE#some-notes">See README notes</a></li>
 
