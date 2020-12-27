@@ -28,8 +28,8 @@ source: https://github.com/SonoSooS/TWPatch_a
 systems:
 - 3DS
 title: TWPatch
-updated: '2019-12-27T01:19:00Z'
+updated: '2020-12-26T10:31:21Z'
 version: stable
-version_title: outdated
+version_title: 2020/12/26
 website: https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/
 ---
