@@ -5,9 +5,8 @@
 - https://db.universal-team.net, hosted from this repository with GitHub Pages this is the official Universal-DB website
 - [Universal-Updater](https://github.com/Universal-Team/Universal-Updater), Universal-DB is the default UniStore of Universal-Updater
 - [Universal-Bot](https://github.com/Universal-Team/Universal-Bot), our Discord bot, with `?db` you can search for apps on Universal-DB
-
 ## Using the data
-As Universal-DB is hosted by GitHub pages we're not able to have a proper API, but you can use `data/full.json` to get all the data we collect from the GitHub API and such all in one place.
+As Universal-DB is hosted by GitHub pages we're not able to have a proper API, but you can use `docs/data/full.json` to get all the data we collect from the GitHub API and such all in one place. We recommend using https://db.universal-team.net/data/full.json instead of the raw link to the file in the repo.
 Please make an issue here or ask on [our Discord server](https://universal-team.net/discord) if you would like anything to be added to `full.json`, if possible we will try add it.
 
 It would be nice if you credit us if you use our data, just a link to this repo or the official website with something like "Data from [Universal-DB](https://github.com/Universal-Team/db)" or so would be fine.
@@ -26,12 +25,25 @@ Universal-DB is updated every 6 hours automatically using GitHub Actions, howeve
 All info in `full.json` can override the GitHub API by specifing it in `source.json`, for example if you want an app title to have a space instead of a hyphen.
 
 Running `generate.py` will generate the following files:
-- `index.rss`, an RSS feed of all apps updated in the last month
-- A markdown file for each 3DS app in `_3ds`
-- A markdown file for each DS app in `_ds`
-- `data/full.json`, a JSON with all collected info
-- `unistore/universal-db.unistore`, a UniStore format file for Universal-Updater
-- `unistore/universal-db.t3x`, a t3x format spritesheet for Universal-Updater
+- A markdown file for each 3DS app in `docs/_3ds`
+- A markdown file for each DS app in `docs/_ds`
+- `docs/data/full.json`, a JSON with all collected info
+- `docs/unistore/universal-db.unistore`, a UniStore format file for Universal-Updater
+- `docs/unistore/universal-db.t3x`, a t3x format spritesheet for Universal-Updater
+
+## Running the site locally
+All of the website files are stored in the `docs` folder. To test the site locally, install Jekyll by running:
+```
+gem install bundler jekyll
+```
+Then run
+```
+bundle install
+```
+Then you can run the site by running this in the `docs` folder:
+```
+bundle exec jekyll serve
+```
 
 # Credits
 - [Pk11](https://github.com/Epicpkmn11): Most website design and data collection code
