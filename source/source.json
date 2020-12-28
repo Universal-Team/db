@@ -1237,6 +1237,13 @@
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_banner.png",
 		"icon": "https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_icon_48x48.png",
+		"downloads": {
+			"OpenTitus_MOKTAR_3DSX_23-12-2018.7z": "https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_MOKTAR_3DSX_23-12-2018.7z",
+			"OpenTitus_TITUS_3DSX_23-12-2018.7z": "https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_TITUS_3DSX_23-12-2018.7z",
+			"OpenTitus_MOKTAR_CIA_25-12-2018.7z": "https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_MOKTAR_CIA_25-12-2018.7z",
+			"OpenTitus_TITUS_CIA_25-12-2018.7z": "https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_TITUS_CIA_25-12-2018.7z"
+		},
+		"long_description": "The CIA and 3DSX downloads should be used on new 3DS systems, the LOW_FREQ downloads should be used on old 3DS.\n\nYou will need the original game files in `sdmc:/3ds/OpenTitus/moktar` for the moktar buids and `sdmc:/3ds/OpenTitus/titus` for the titus builds.",
 		"scripts": {
 			"[moktar] OpenTitus.cia": [
 				{
