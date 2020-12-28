@@ -109,6 +109,8 @@ layout: compress
 													<button class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#modal" data-name="{% if page.version_title %}{{ page.version_title }}{% else %}{{ page.version }}{% endif %}" data-content="{{ page.update_notes | escape }}">
 														Update notes
 													</button>
+												{% elsif page.version_title %}
+												- {{ page.version_title }}
 												{% endif %}
 												<br>
 												{% if page.updated != "---" %}
