@@ -496,6 +496,7 @@ for app in source:
 			return f"{match.group(1)}[{str(linkNum)}]"
 
 		notes = re.sub(r"(\[.*?\])\((.*?)\)", getLinkReplacement, notes)
+		notes = re.sub(r"[0-9a-fA-F]{40}", lambda match: match.group(0)[:7], notes)
 
 		if len(links) > 0:
 			notes += "\n"
