@@ -39,6 +39,10 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/game-screen-de.png
 - description: Game screen en
   url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/game-screen-en.png
+- description: Game settings de
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/game-settings-de.png
+- description: Game settings en
+  url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/game-settings-en.png
 - description: Instructions1 de
   url: https://db.universal-team.net/assets/images/screenshots/ludo3ds/instructions1-de.png
 - description: Instructions1 en

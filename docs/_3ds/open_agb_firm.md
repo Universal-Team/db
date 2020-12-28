@@ -29,8 +29,9 @@ update_notes: '<p>This is a build from the kernel_experiments branch for the imp
   <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/5f257392863a807a4c1b70f836d99cb656c931b7/hovercard"
   href="https://github.com/profi200/open_agb_firm/commit/5f257392863a807a4c1b70f836d99cb656c931b7"><tt>5f25739</tt></a>
   Proper ROM mirroring for all 8 Mbit games and direct boot (no BIOS intro) should
-  have perfect compatibility now. This breaks mGBA''s ROM out of bounds tests again
-  because the ROM is treated as 8 Mbit ROM (different padding from what it expects).</li>
+  have perfect compatibility now. This breaks mGBA''s test suite ROM out of bounds
+  tests again because the ROM is treated as 8 Mbit ROM (different padding from what
+  it expects).</li>
 
   <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/dd68d381ac7af12803e0826778a869347d28fb06/hovercard"
   href="https://github.com/profi200/open_agb_firm/commit/dd68d381ac7af12803e0826778a869347d28fb06"><tt>dd68d38</tt></a>
