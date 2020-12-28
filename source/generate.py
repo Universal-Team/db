@@ -478,6 +478,32 @@ for app in source:
 					file.write(app["long_description"])
 
 	if not "unistore_exclude" in app or app["unistore_exclude"] == False:
+		# Move links to end to be more readable in U-U
+		notes = app["update_notes_md"] if "update_notes_md" in app else ""
+		i = 0
+		links = []
+
+		def getLinkReplacement(match):
+			global i, links
+			linkNum = i
+
+			if match.group(2) in links:
+				linkNum = links.index(match.group(2))
+			else:
+				links.append(match.group(2))
+				i += 1
+
+			return f"{match.group(1)}[{str(linkNum)}]"
+
+		notes = re.sub(r"(\[.*?\])\((.*?)\)", getLinkReplacement, notes)
+
+		if len(links) > 0:
+			notes += "\n"
+
+		for i, link in enumerate(links):
+			notes += f"\n[{i}]: {link}"
+
+
 		# Add entry for UniStore
 		uni = {
 			"info": {
@@ -488,7 +514,7 @@ for app in source:
 				"console": app["systems"].copy() if "systems" in app else [],
 				"icon_index": len(icons) - 1 if "icon" in app or "image" in app else -1,
 				"description": ucs2Name(app["description"]) if "description" in app else "",
-				"releasenotes": app["update_notes_md"] if "update_notes_md" in app else "",
+				"releasenotes": notes,
 				"screenshots": [],
 				"license": app["license"] if "license" in app else ""
 			}
