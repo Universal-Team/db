@@ -8,9 +8,13 @@ description: 'A port of the game engine behind the DOS versions of Titus the Fox
   Moktar '
 download_page: https://github.com/MrHuu/opentitus-3ds/releases/tag/27-12-2018
 downloads:
+  OpenTitus_MOKTAR_3DSX_23-12-2018.7z: https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_MOKTAR_3DSX_23-12-2018.7z
+  OpenTitus_MOKTAR_CIA_25-12-2018.7z: https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_MOKTAR_CIA_25-12-2018.7z
   OpenTitus_MOKTAR_LOW_FREQ_27-12-2018.7z:
     size: 1044734
     url: https://github.com/MrHuu/opentitus-3ds/releases/download/27-12-2018/OpenTitus_MOKTAR_LOW_FREQ_27-12-2018.7z
+  OpenTitus_TITUS_3DSX_23-12-2018.7z: https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_TITUS_3DSX_23-12-2018.7z
+  OpenTitus_TITUS_CIA_25-12-2018.7z: https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_TITUS_CIA_25-12-2018.7z
   OpenTitus_TITUS_LOW_FREQ_27-12-2018.7z:
     size: 1041305
     url: https://github.com/MrHuu/opentitus-3ds/releases/download/27-12-2018/OpenTitus_TITUS_LOW_FREQ_27-12-2018.7z
@@ -34,3 +38,6 @@ updated: '2018-12-27T00:34:34Z'
 version: 27-12-2018
 wiki: https://github.com/MrHuu/opentitus-3ds/wiki
 ---
+The CIA and 3DSX downloads should be used on new 3DS systems, the LOW_FREQ downloads should be used on old 3DS.
+
+You will need the original game files in `sdmc:/3ds/OpenTitus/moktar` for the moktar buids and `sdmc:/3ds/OpenTitus/titus` for the titus builds.
