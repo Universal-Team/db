@@ -5,14 +5,14 @@ categories:
 color: '#045190'
 created: '2019-10-31T02:19:37Z'
 description: An easy to use app for installing and updating 3DS homebrew
-download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/v3.1.0
+download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/v3.1.1
 downloads:
   Universal-Updater.3dsx:
-    size: 2328640
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.1.0/Universal-Updater.3dsx
+    size: 2431136
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.1.1/Universal-Updater.3dsx
   Universal-Updater.cia:
-    size: 1958848
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.1.0/Universal-Updater.cia
+    size: 2032576
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.1.1/Universal-Updater.cia
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/banner.png
@@ -65,89 +65,34 @@ systems:
 - 3DS
 title: Universal-Updater
 unistore_exclude: true
-update_notes: '<h3>What''s New?</h3>
+update_notes: '<p>See <a href="https://github.com/Universal-Team/Universal-Updater/releases/tag/v3.1.0">v3.1.0</a>''s
+  changelog for full notes if updating from v3.0.0</p>
+
+  <p>This is just a little update with a single bug fix, but it''s a pretty important
+  bug fix. For a while 7z extraction has just been randomly failing sometimes and
+  we figured out it was due to the 2013 version of libarchive devkitPro provides,
+  but we weren''t exactly sure how to get the latest version working, we finally did
+  so here''s a little update.</p>
+
+  <p>The updated pkgbuild patches are at <a href="https://github.com/Epicpkmn11/pacman-packages">Epicpkmn11/pacman-packages</a>,
+  I would PR them to devkitPro''s, but we''re all banned so I can''t. If anyone at
+  devkitPro wants to upstream those changes please do. I will note though I have basically
+  no idea what I''m doing when it comes to porting libraries, so please report any
+  extraction problems and if upstreaming you may want to check if I did anything really
+  dumb ;P</p>
+
+  <p>Apps that were known to be broken before but work now are:</p>
 
   <ul>
 
-  <li>Shortcuts: When using the homebrew launcher you can now create shortcuts for
-  easily updating specific apps</li>
+  <li>open_agb_firm</li>
 
-  <li>Screenshots: You can now see what apps look like before downloading!
+  <li>OpenTitus (New 3DS versions)</li>
 
-  <ul>
-
-  <li>Note: Only around a fifth of Universal-DB has screenshots at the moment, more
-  will be added as we get around to it</li>
-
-  </ul>
-
-  </li>
-
-  <li>Sizes: Downloads can now have a size so you know how big they''ll be</li>
-
-  <li>Songs: You can now use a WAV file up to 10 MiB as background music, place it
-  at <code>sdmc:/3ds/Universal-Updater/music.wav</code></li>
-
-  <li>Safety: Universal-Updater now has parental controls set, at the same level as
-  the homebrew launcher and FBI, so you don''t have to worry about kids messing with
-  it</li>
-
-  <li>Stores: There''s now a list of of recommended UniStores accessible from the
-  select UniStore menu so you don''t even need to find a QR code or enter a URL</li>
-
-  <li>setoN: Okay fine, finally out of S words... but there''s still more! You can
-  now view the release Notes for apps so you know what''s changed!</li>
-
-  <li>Added Ukrainian</li>
-
-  <li>Added custom font support, the font at <code>sdmc:/3ds/Universal-Updater/font.bcfnt</code>
-  will be used when enabled
-
-  <ul>
-
-  <li>A default extended font will be downloaded on selecting Ukrainian as the default
-  font is missing some letters</li>
-
-  </ul>
-
-  </li>
-
-  <li>Toggle icons now have color when on to be more clear</li>
-
-  <li>Portuguese (Portugal), Lithuanian, and Danish have been removed for now due
-  to lack of translations, however if anyone helps translate they will be added back</li>
-
-  </ul>
-
-  <h3>Bug fixes:</h3>
-
-  <ul>
-
-  <li>Fixed an out of bounds access</li>
-
-  <li>Fix grid scrolling sometimes going too far</li>
-
-  <li>Fixed crashing when staring Universal-Updater without Wi-Fi</li>
-
-  <li>Double new lines no longer break wrapped text (fixed by Citro2D v1.5.0)</li>
-
-  </ul>
-
-  <h3>Other notes:</h3>
-
-  <p>Find any bugs we missed, have suggestions, or need help? Make an issue or discussion
-  here on GitHub. Normally this is where we''d offer to join our <a href="https://universal-team.net/discord"
-  rel="nofollow">Discord server</a>, but we''re not allowing new members as of the
-  creation of this release unless you know someone on the server and ask them to let
-  us know you should be let in.</p>
-
-  <p>We hope you enjoy the new update and have a merry Christmas! (or happy holidays
-  in general if you don''t celebrate Christmas!)<br>
-
-  ~ Univeral-Team</p>'
-updated: '2020-12-25T12:00:01Z'
-version: v3.1.0
-version_title: Christmas Update - Shortcuts, Screenshots, Sizes, Songs, Safety, setoN
+  </ul>'
+updated: '2020-12-29T00:40:07Z'
+version: v3.1.1
+version_title: 'Bug fix update: Update to latest libarchive version'
 website: https://universal-team.net/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
