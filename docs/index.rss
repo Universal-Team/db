@@ -10,6 +10,7 @@ layout: compress
 		<atom:link href="{{ site.url | append: page.url }}" rel="self" type="application/rss+xml" />
 		<description>{{ site.description }}</description>
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+		<language>en-us</language>
 		{% assign apps = site["3ds"] | concat: site.ds | uniq | sort: "updated" | reverse %}
 		{% for app in apps limit: 5 %}
 			<item>
