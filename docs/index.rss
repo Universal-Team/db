@@ -25,8 +25,8 @@ layout: compress
 					{% endif %}
 				</description>
 				<pubDate>{{ app.updated | date_to_rfc822 }}</pubDate>
-				<guid>
-					{{ app.url | prepend: site.url }}
+				<guid isPermaLink="false">
+					{{ app.title }} - {{ app.version }}
 				</guid>
 				{% if app.image %}
 					<enclosure url="{{ app.image }}" length="{{ app.image_length }}" type="image/png"></enclosure>
