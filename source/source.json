@@ -4038,6 +4038,40 @@
 		}
 	},
 	{
+		"github": "vargaviktor/ZeldaROTH",
+		"title": "ZeldaROTH 1.0.3 beta",
+		"systems": ["3DS"],
+		"categories": ["game"],
+		"image": "https://raw.githubusercontent.com/vargaviktor/ZeldaROTH/master/resources/banner.png",
+		"icon": "https://raw.githubusercontent.com/vargaviktor/ZeldaROTH/master/resources/icon.png",
+		"autogen_scripts": true,
+		"long_description": "ZeldaROTH 1.0.3 beta is including Hungarian translation for this classic fan game.\nBecause of the used sf2dlib was also out of date, it was also modified to compile with new (1.4.0+) citro3d library.\nBeta, because, its playable, but until now, it was not found yet, why it gives glitches, when loading a level map.",
+		"description": "ZeldaROTH 1.0.3 beta including Hungarian translation for this classic fan game, and was recompiled with actual libraries.",
+		"scripts": {
+			"ZeldaROTH.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "vargaviktor/ZeldaROTH",
+					"file": "ZeldaROTH_3DSX.zip",
+					"output": "/ZeldaROTH_3DSX.zip",
+					"message": "Downloading ZeldaROTH_3DSX.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/ZeldaROTH_3DSX.zip",
+					"input": "ZeldaROTH.3dsx",
+					"output": "%3DSX%/ZeldaROTH.3dsx",
+					"message": "Extracting ZeldaROTH.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/ZeldaROTH_3DSX.zip",
+					"message": "Deleting ZeldaROTH_3DSX.zip..."
+				}
+			]
+		}
+	},
+	{
 		"github": "Ryuzaki-MrL/NotifyMii",
 		"systems": ["3DS"],
 		"categories": ["utility"],
