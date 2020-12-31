@@ -50,22 +50,6 @@ def byteCount(bytes):
 	else:
 		return "%d GiB" % (bytes // (1 << 30))
 
-# Recursively formats every string in an object using f-strings, pretty dangerous
-# as any code can be run, so limit to where needed
-def formatAll(app, item):
-	if type(item) == list:
-		for i in range(len(item)):
-			if type(item[i]) == str:
-				item[i] = eval('f"' + item[i] + '"')
-			else:
-				formatAll(app, item[i])
-	elif type(item) == dict:
-		for a in item:
-			if(type(item[a]) == str):
-				item[a] = eval('f"' + item[a] + '"')
-			else:
-				formatAll(app, item[a])
-
 def downloadScript(file, url):
 	if file[file.rfind(".") + 1:].lower() == "3dsx":
 		return [
@@ -340,9 +324,17 @@ for app in source:
 				commit = requests.get(fileAPI["commit"]["links"]["self"]["href"]).json()
 				app["updated"] = commit["date"]
 
-	# Process format strings
-	if "format_strings" in app and app["format_strings"]:
-		formatAll(app, app)
+	# Process format strings in downloads if needed
+	if "format_downloads" in app and app["format_downloads"]:
+		if "download_page" in app and type(app["download_page"]) == str:
+			app["download_page"] = eval('f"' + app["download_page"] + '"')
+		for item in app["downloads"]:
+			if(type(app["downloads"][item]["url"]) == str):
+				app["downloads"][item]["url"] = eval('f"' + app["downloads"][item]["url"] + '"')
+		for script in app["scripts"]:
+			for function in app["scripts"][script]:
+				if function["type"] == "downloadFile" and type(function["file"]) == str:
+					function["file"] = eval('f"' + function["file"] + '"')
 
 	if os.path.exists(os.path.join("..", "docs", "assets", "images", "screenshots", webName(app["title"]))):
 		if not "screenshots" in app:
