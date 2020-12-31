@@ -12,7 +12,7 @@ downloads:
     url: https://buildbot.libretro.com/stable/1.9.0/nintendo/3ds/RetroArch_3dsx.7z
   RetroArch_cia.7z:
     url: https://buildbot.libretro.com/stable/1.9.0/nintendo/3ds/RetroArch_cia.7z
-format_strings: true
+format_downloads: true
 github: libretro/RetroArch
 icon: https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/ctr/assets/default.png
 image: https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/ctr/assets/libretro_banner.png
