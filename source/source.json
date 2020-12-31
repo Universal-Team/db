@@ -5712,7 +5712,7 @@
 				},
 				{
 					"type": "extractFile",
-					"file": "/RetroArch_3dsx.7z",
+					"file": "/RetroArch_cia.7z",
 					"input": "retroarch",
 					"output": "/retroarch",
 					"message": "Extracting RetroArch..."
@@ -5724,8 +5724,8 @@
 				},
 				{
 					"type": "deleteFile",
-					"file": "/RetroArch_3dsx.7z",
-					"message": "Deleting RetroArch_3dsx.7z..."
+					"file": "/RetroArch_cia.7z",
+					"message": "Deleting RetroArch_cia.7z..."
 				}
 			]
 		}
