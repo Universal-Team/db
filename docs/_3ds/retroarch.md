@@ -24,7 +24,6 @@ source: https://github.com/libretro/RetroArch
 systems:
 - 3DS
 title: RetroArch
-unistore_exclude: true
 updated: '2020-08-07T23:28:20Z'
 version: v1.9.0
 version_title: v1.9.0
