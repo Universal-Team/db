@@ -5,11 +5,17 @@ categories:
 color: '#969188'
 created: '2020-11-25T18:16:27Z'
 description: Atari 2600 emulator for DS (original code by AlekMaul)
-download_page: https://github.com/wavemotion-dave/StellaDS/releases/tag/1.6
+download_page: https://github.com/wavemotion-dave/StellaDS/releases/tag/1.7
 downloads:
   StellaDS.nds:
     size: 975360
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/1.6/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/1.7/StellaDS.nds
+  compatibility.txt:
+    size: 24960
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/1.7/compatibility.txt
+  readme.txt:
+    size: 8661
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/1.7/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -21,10 +27,9 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: <p>Spit-and-polish release. Fixed 3F games. Added support for Star Raiders.
-  Many small tweaks to various games for a better overall experience.</p>
-updated: '2020-12-06T14:45:07Z'
-version: '1.6'
-version_title: Version 1.6
+update_notes: '<p>Version 1.7:  Minor cleanup, spit-and-polish.</p>'
+updated: '2020-12-31T15:50:57Z'
+version: '1.7'
+version_title: Version 1.7
 wiki: https://github.com/wavemotion-dave/StellaDS/wiki
 ---
