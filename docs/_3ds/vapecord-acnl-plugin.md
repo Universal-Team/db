@@ -5,11 +5,11 @@ categories:
 color: '#947677'
 created: '2019-08-22T07:15:13Z'
 description: Animal Crossing NL Vapecord Public Plugin WIP
-download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/tag/v1.8.2
+download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/tag/v1.9.0
 downloads:
   Vapecord.Public.zip:
-    size: 5120792
-    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v1.8.2/Vapecord.Public.zip
+    size: 5272874
+    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v1.9.0/Vapecord.Public.zip
 github: RedShyGuy/Vapecord-ACNL-Plugin
 image: https://avatars1.githubusercontent.com/u/43783060?v=4
 image_length: 23338
@@ -20,27 +20,29 @@ systems:
 title: Vapecord-ACNL-Plugin
 update_notes: '<h1>New Update!!</h1>
 
-  <p>Here a new update!! It adds a lot of stuff and changes!</p>
-
   <h2>The update has those features:</h2>
 
   <blockquote>
 
-  <p>House Interior/Exterior Editor<br>
+  <ul>
 
-  Turnip Price Changer<br>
+  <li>Camera Mod</li>
 
-  Enable/Disable Cheats Overhaul<br>
+  <li>Amiibo Spoofer (which works everywhere and with every amiibo) [Thanks to <a
+  class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Slattz/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Slattz">@Slattz</a>
+  for making this!!!!]</li>
 
-  A lot of performance changes<br>
+  <li>Time Travel</li>
 
-  Added Standard Plugin Color Editor (see FWKColors.txt)<br>
+  <li>Delete Dump Files</li>
 
-  Updated to CTRPF v0.6.0 Alpha<br>
+  <li>Convert Picked Up Flower with PickUp Seeder to accessories (flowers which you
+  can wear)</li>
 
-  Plugin now uses Luma v10.2.1<br>
+  <li>and more!</li>
 
-  and more!</p>
+  </ul>
 
   </blockquote>
 
@@ -48,16 +50,17 @@ update_notes: '<h1>New Update!!</h1>
 
   <blockquote>
 
-  <p>Catalog To Pockets and other minor related bugs should be fixed<br>
+  <ul>
 
-  Fixed not being able to drop at watered position (or in general at empty space with
-  flag)<br>
+  <li>PickUp Seeder can''t pick up invalid items anymore</li>
 
-  Map Editor Particles missing<br>
+  <li>Plugin shouldn''t freeze that often anymore</li>
 
-  Take TPC Pic should be crash free now<br>
+  <li>Minor Bug fixes and stability fixes</li>
 
-  and more!</p>
+  <li>and more!</li>
+
+  </ul>
 
   </blockquote>
 
@@ -67,8 +70,8 @@ update_notes: '<h1>New Update!!</h1>
 
   If you encounter any bugs feel free to report them on the official <a href="https://discord.gg/w9nvqjW"
   rel="nofollow">Vapecord Discord Server</a>.</p>'
-updated: '2020-12-03T22:03:11Z'
-version: v1.8.2
-version_title: ACNL Vapecord Public Plugin [v.1.8.2]
+updated: '2020-12-30T20:31:01Z'
+version: v1.9.0
+version_title: ACNL Vapecord Public Plugin [v.1.9.0]
 wiki: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/wiki
 ---
