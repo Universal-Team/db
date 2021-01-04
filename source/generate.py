@@ -328,13 +328,15 @@ for app in source:
 	if "format_downloads" in app and app["format_downloads"]:
 		if "download_page" in app and type(app["download_page"]) == str:
 			app["download_page"] = eval('f"' + app["download_page"] + '"')
-		for item in app["downloads"]:
-			if(type(app["downloads"][item]["url"]) == str):
-				app["downloads"][item]["url"] = eval('f"' + app["downloads"][item]["url"] + '"')
-		for script in app["scripts"]:
-			for function in app["scripts"][script]:
-				if function["type"] == "downloadFile" and type(function["file"]) == str:
-					function["file"] = eval('f"' + function["file"] + '"')
+		if "downloads" in app:
+			for item in app["downloads"]:
+				if(type(app["downloads"][item]["url"]) == str):
+					app["downloads"][item]["url"] = eval('f"' + app["downloads"][item]["url"] + '"')
+		if "scripts" in app:
+			for script in app["scripts"]:
+				for function in app["scripts"][script]:
+					if function["type"] == "downloadFile" and type(function["file"]) == str:
+						function["file"] = eval('f"' + function["file"] + '"')
 
 	if os.path.exists(os.path.join("..", "docs", "assets", "images", "screenshots", webName(app["title"]))):
 		if not "screenshots" in app:
