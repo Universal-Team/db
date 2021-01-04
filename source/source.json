@@ -5338,7 +5338,7 @@
 		"icon": "https://raw.githubusercontent.com/SonoSooS/TWPatch_a/master/assets/logo.png",
 		"downloads": {
 			"TWPatch.cia": {
-				"url": "{untangle.parse(requests.get(\"https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia\").text).html.head.meta.get_attribute(\"content\")[3:]}"
+				"url": "{untangle.parse(requests.get('https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia').text).html.head.meta.get_attribute('content')[3:]}"
 			}
 		},
 		"format_downloads": true,
