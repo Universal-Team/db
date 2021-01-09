@@ -66,6 +66,11 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
 
   </ul>
 
+  <p><strong>NOTE:</strong> Some users have reported getting Guru Meditation Error
+  in the DSi/3DS/Saturn/HBL themes in this version, during loading the ROM list.<br>
+
+  If you get the same error, please switch the theme or downgrade to v18.1.0.</p>
+
   <p><strong>What''s new?</strong></p>
 
   <ul>
