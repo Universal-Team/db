@@ -537,17 +537,26 @@ for app in source:
 			if "downloads" in app:
 				for file in app["downloads"]:
 					if len(re.findall("(zip|rar|7z|torrent|tar)", file)) == 0:
-						uni[file + ((" (" + byteCount(app["downloads"][file]["size"]) + ")") if "size" in app["downloads"][file] else "")] = downloadScript(file, app["downloads"][file]["url"])
+						uni[file] = {
+							"script": downloadScript(file, app["downloads"][file]["url"]),
+							"size": byteCount(app["downloads"][file]["size"]) if "size" in app["downloads"][file] else "",
+						}
 
 			if "prerelease" in app:
 				for file in app["prerelease"]["downloads"]:
 					if len(re.findall("(zip|rar|7z|torrent)", file)) == 0:
-						uni["[prerelease] " + file + ((" (" + byteCount(app["prerelease"]["downloads"][file]["size"]) + ")") if "size" in app["prerelease"]["downloads"][file] else "")] = downloadScript(file, app["prerelease"]["downloads"][file]["url"])
+						uni["[prerelease] " + file] = {
+							"script": downloadScript(file, app["prerelease"]["downloads"][file]["url"]),
+							"size": byteCount(app["prerelease"]["downloads"][file]["size"]) if "size" in app["prerelease"]["downloads"][file] else "",
+						}
 
 			if "nightly" in app:
 				for file in app["nightly"]["downloads"]:
 					if len(re.findall("(zip|rar|7z|torrent)", file)) == 0:
-						uni["[nightly] " + file + ((" (" + byteCount(app["nightly"]["downloads"][file]["size"]) + ")") if "size" in app["nightly"]["downloads"][file] else "")] = downloadScript(file, app["nightly"]["downloads"][file]["url"])
+						uni["[nightly] " + file] = {
+							"script": downloadScript(file, app["nightly"]["downloads"][file]["url"]),
+							"size": byteCount(app["nightly"]["downloads"][file]["size"]) if "size" in app["nightly"]["downloads"][file] else "",
+						}
 
 		unistore["storeContent"].append(uni)
 
