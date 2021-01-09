@@ -74,32 +74,8 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  You can now select a custom font.
-
-  <ul>
-
-  <li>The custom font directory goes in <code>/_nds/TWiLightMenu/extras/</code>, and
-  the directory tree is as follows:<br>
-
-  <code>FontName</code>
-
-  <ul>
-
-  <li><code>large-ds.ntfr</code></li>
-
-  <li><code>large-dsi.ntfr</code></li>
-
-  <li><code>small-ds.ntfr</code></li>
-
-  <li><code>small-dsi.ntfr</code></li>
-
-  </ul>
-
-  </li>
-
-  </ul>
-
-  </li>
+  You can now select a custom font. See <a href="https://wiki.ds-homebrew.com/twilightmenu/custom-fonts"
+  rel="nofollow">here</a> on how to add one.</li>
 
   </ul>
 
