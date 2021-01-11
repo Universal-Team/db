@@ -924,6 +924,15 @@
 		}
 	},
 	{
+		"github": "Epicpkmn11/NitroHax3DS",
+		"title": "NitroHax3DS (usrcheat.dat)",
+		"long_description": "This is a fork of [ahezard/NitroHax3DS](nitrohax3ds) that switches the cheat database format to `usrcheat.dat`. If you want to use `cheats.xml`, then use the original.",
+		"systems": ["DS"],
+		"categories": ["utility"],
+		"icon": "https://raw.githubusercontent.com/Epicpkmn11/NitroHax3DS/master/icon.bmp",
+		"image": "https://db.universal-team.net/assets/images/icons/nitrohax3ds.png"
+	},
+	{
 		"github": "Drenn1/GameYob",
 		"website": "https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/",
 		"icon": "https://raw.githubusercontent.com/Drenn1/GameYob/master/platform/ds/icon.bmp",

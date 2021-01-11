@@ -60,7 +60,7 @@ def downloadScript(file, url):
 				"message": "Downloading " + file + "..."
 			}
 		]
-	elif file[file.rfind(".") + 1:].lower() == "nds":
+	elif file[file.rfind(".") + 1:].lower() in ["nds", "dsi"]:
 		return [
 			{
 				"type": "downloadFile",
