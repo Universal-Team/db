@@ -56,7 +56,7 @@ layout: compress
 								{% if page.category == Nil or app.categories contains page.category %}
 									<div class="col mb-3">
 										<div class="card h-100" data-title="{{ app.title | escape}}" data-author="{{ app.author | escape}}" data-description="{{ app.description | escape }}" data-updated="{{ app.updated }}">
-											<a class="flex-grow-1" href="{{ app.url }}">
+											<a class="flex-grow-1" href="{{ app.url | remove: ".html" }}">
 												{% if app.image %}
 													<div class="card-header card-image-header">
 														<img class="card-image" src="{{ app.image }}" alt="{{ app.title | escape }}">
