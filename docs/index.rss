@@ -7,7 +7,7 @@ layout: compress
 	<channel>
 		<title>{{ site.title }}</title>
 		<link>{{ site.url }}</link>
-		<atom:link href="{{ site.url | append: page.url }}" rel="self" type="application/rss+xml" />
+		<atom:link href="{{ page.url | absolute_url }}" rel="self" type="application/rss+xml" />
 		<description>{{ site.description }}</description>
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 		<language>en-us</language>
@@ -16,7 +16,7 @@ layout: compress
 			<item>
 				<title>{{ app.title }} updated to {{ app.version | default: "new version" }}</title>
 				<link>
-					{{ app.url | prepend: site.url }}
+					{{ app.url | absolute_url | remove: ".html" }}
 				</link>
 				<description>
 					&lt;p&gt;{{ app.version }}{% if app.version_title %} - {{ app.version_title }}{% endif %}&lt;/p&gt;
