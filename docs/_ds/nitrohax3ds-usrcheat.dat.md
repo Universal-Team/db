@@ -60,9 +60,9 @@ update_notes: '<p>This is a fork of NitroHax3DS that loads cheats from a <code>u
   Use <code>NitroHax.dsi</code> with TWiLight Menu++ or with <a href="https://github.com/JeffRuLz/TMFH/releases">TMFH</a>
   to install to hiyaCFW''s SDNAND.</p>
 
-  <p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/20df052e2b0f6b28f5a0a02636b2b4a933b51b26d664cf51bd6bf2bb628e416c/68747470733a2f2f64622e756e6976657273616c2d7465616d2e6e65742f6173736574732f696d616765732f71722f6e6974726f6861782d7573657263686561742e6369612e706e67"><img
-  src="https://camo.githubusercontent.com/20df052e2b0f6b28f5a0a02636b2b4a933b51b26d664cf51bd6bf2bb628e416c/68747470733a2f2f64622e756e6976657273616c2d7465616d2e6e65742f6173736574732f696d616765732f71722f6e6974726f6861782d7573657263686561742e6369612e706e67"
-  alt="QR code for the CIA" data-canonical-src="https://db.universal-team.net/assets/images/qr/nitrohax-usercheat.cia.png"
+  <p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/0b07e9088ed15399c468ed8566f9128e64ff6885f439eb1613b547afb123dc02/68747470733a2f2f64622e756e6976657273616c2d7465616d2e6e65742f6173736574732f696d616765732f71722f6e6974726f6861782d75737263686561742e6369612e706e67"><img
+  src="https://camo.githubusercontent.com/0b07e9088ed15399c468ed8566f9128e64ff6885f439eb1613b547afb123dc02/68747470733a2f2f64622e756e6976657273616c2d7465616d2e6e65742f6173736574732f696d616765732f71722f6e6974726f6861782d75737263686561742e6369612e706e67"
+  alt="QR code for the CIA" data-canonical-src="https://db.universal-team.net/assets/images/qr/nitrohax-usrcheat.cia.png"
   style="max-width:100%;"></a></p>'
 updated: '2021-01-11T07:44:59Z'
 version: '0.100'
