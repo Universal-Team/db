@@ -11,6 +11,7 @@ download_page: https://github.com/aspargas2/CartInstall/releases/tag/v1.3.0
 downloads:
   CartInstall.firm:
     size: 445952
+    size_str: 435 KiB
     url: https://github.com/aspargas2/CartInstall/releases/download/v1.3.0/CartInstall.firm
 github: aspargas2/CartInstall
 image: https://avatars3.githubusercontent.com/u/36926490?v=4

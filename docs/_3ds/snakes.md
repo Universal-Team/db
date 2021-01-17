@@ -9,9 +9,11 @@ download_page: https://github.com/DDews/Snakes/releases/tag/0.2.5
 downloads:
   snakes.3dsx:
     size: 327356
+    size_str: 319 KiB
     url: https://github.com/DDews/Snakes/releases/download/0.2.5/snakes.3dsx
   snakes.cia:
     size: 781248
+    size_str: 762 KiB
     url: https://github.com/DDews/Snakes/releases/download/0.2.5/snakes.cia
 github: DDews/Snakes
 icon: https://raw.githubusercontent.com/DDews/Snakes/master/meta/icon.png

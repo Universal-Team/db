@@ -10,9 +10,11 @@ download_page: https://github.com/flarn2006/GraphCalc3DS/releases/tag/v1.5.1
 downloads:
   GraphCalc3DS.cia:
     size: 1024960
+    size_str: 1000 KiB
     url: https://github.com/flarn2006/GraphCalc3DS/releases/download/v1.5.1/GraphCalc3DS.cia
   GraphCalc3DS_3DSX.zip:
     size: 292107
+    size_str: 285 KiB
     url: https://github.com/flarn2006/GraphCalc3DS/releases/download/v1.5.1/GraphCalc3DS_3DSX.zip
 github: flarn2006/graphcalc3ds
 icon: https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/icon.png

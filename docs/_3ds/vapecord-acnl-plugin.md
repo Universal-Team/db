@@ -9,6 +9,7 @@ download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/tag/v1
 downloads:
   Vapecord.Public.zip:
     size: 5272874
+    size_str: 5 MiB
     url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v1.9.0/Vapecord.Public.zip
 github: RedShyGuy/Vapecord-ACNL-Plugin
 image: https://avatars1.githubusercontent.com/u/43783060?v=4

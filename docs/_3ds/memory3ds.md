@@ -9,6 +9,7 @@ download_page: https://github.com/Omegadrien/Memory3DS/releases/tag/v1.0
 downloads:
   Memory3DSv1.0.zip:
     size: 19521332
+    size_str: 18 MiB
     url: https://github.com/Omegadrien/Memory3DS/releases/download/v1.0/Memory3DSv1.0.zip
 github: Omegadrien/Memory3DS
 icon: https://raw.githubusercontent.com/Omegadrien/Memory3DS/master/assets/icon.png

@@ -10,9 +10,11 @@ download_page: https://github.com/Steveice10/GameYob/releases/tag/1.0.8
 downloads:
   GameYob.cia:
     size: 792000
+    size_str: 773 KiB
     url: https://github.com/Steveice10/GameYob/releases/download/1.0.8/GameYob.cia
   GameYob.zip:
     size: 4168036
+    size_str: 3 MiB
     url: https://github.com/Steveice10/GameYob/releases/download/1.0.8/GameYob.zip
 github: Steveice10/GameYob
 icon: https://raw.githubusercontent.com/Steveice10/GameYob/master/meta/icon_3ds.png

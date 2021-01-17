@@ -9,6 +9,7 @@ download_page: https://github.com/TurtleP/Hax0r/releases/tag/v1.2
 downloads:
   Hax0r.zip:
     size: 8511357
+    size_str: 8 MiB
     url: https://github.com/TurtleP/Hax0r/releases/download/v1.2/Hax0r.zip
 github: TurtleP/Hax0r
 icon: https://raw.githubusercontent.com/TurtleP/Hax0r/master/graphics/icon.png

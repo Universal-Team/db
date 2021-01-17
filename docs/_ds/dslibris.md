@@ -9,6 +9,7 @@ download_page: https://github.com/rhaleblian/dslibris/releases/tag/v1.5.1
 downloads:
   dslibris-1.5.1.zip:
     size: 3349848
+    size_str: 3 MiB
     url: https://github.com/rhaleblian/dslibris/releases/download/v1.5.1/dslibris-1.5.1.zip
 github: rhaleblian/dslibris
 icon: https://raw.githubusercontent.com/rhaleblian/dslibris/master/gfx/icon.bmp

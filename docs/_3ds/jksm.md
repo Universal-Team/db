@@ -10,9 +10,11 @@ download_page: https://github.com/J-D-K/JKSM/releases/tag/05.08.2020
 downloads:
   JKSM.3dsx:
     size: 316076
+    size_str: 308 KiB
     url: https://github.com/J-D-K/JKSM/releases/download/05.08.2020/JKSM.3dsx
   JKSM.cia:
     size: 627648
+    size_str: 612 KiB
     url: https://github.com/J-D-K/JKSM/releases/download/05.08.2020/JKSM.cia
 github: J-D-K/JKSM
 icon: https://raw.githubusercontent.com/J-D-K/JKSM/master/icon.png

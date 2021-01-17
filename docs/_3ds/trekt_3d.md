@@ -10,9 +10,11 @@ download_page: https://github.com/Manurocker95/TRekt_3D/releases/tag/1.0
 downloads:
   TRekt_3D.cia:
     size: 6026176
+    size_str: 5 MiB
     url: https://github.com/Manurocker95/TRekt_3D/releases/download/1.0/TRekt_3D.cia
   TRekt_3D.rar:
     size: 7699415
+    size_str: 7 MiB
     url: https://github.com/Manurocker95/TRekt_3D/releases/download/1.0/TRekt_3D.rar
 github: Manurocker95/TRekt_3D
 icon: https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/resources/icon.png

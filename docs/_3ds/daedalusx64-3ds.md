@@ -9,12 +9,15 @@ download_page: https://github.com/masterfeizz/DaedalusX64-3DS/releases/tag/v0.2
 downloads:
   DaedalusX64.3dsx:
     size: 677156
+    size_str: 661 KiB
     url: https://github.com/masterfeizz/DaedalusX64-3DS/releases/download/v0.2/DaedalusX64.3dsx
   DaedalusX64.cia:
     size: 512960
+    size_str: 500 KiB
     url: https://github.com/masterfeizz/DaedalusX64-3DS/releases/download/v0.2/DaedalusX64.cia
   daedalus.zip:
     size: 361499
+    size_str: 353 KiB
     url: https://github.com/masterfeizz/DaedalusX64-3DS/releases/download/v0.2/daedalus.zip
 github: masterfeizz/daedalusx64-3DS
 icon: https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/v0.2/Source/SysCTR/Resources/icon.png

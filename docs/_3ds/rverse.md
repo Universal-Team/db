@@ -9,9 +9,11 @@ download_page: https://github.com/rverseTeam/rverse-Releases/releases/tag/v3.0.0
 downloads:
   rverse-3ds.7z:
     size: 3292
+    size_str: 3 KiB
     url: https://github.com/rverseTeam/rverse-Releases/releases/download/v3.0.0/rverse-3ds.7z
   rverse-3ds.zip:
     size: 6551
+    size_str: 6 KiB
     url: https://github.com/rverseTeam/rverse-Releases/releases/download/v3.0.0/rverse-3ds.zip
 github: rverseTeam/rverse-Releases
 image: https://avatars2.githubusercontent.com/u/38678735?v=4

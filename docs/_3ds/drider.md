@@ -9,6 +9,7 @@ download_page: https://github.com/ingolemo/drider/releases/tag/v0.6
 downloads:
   drider.zip:
     size: 3165004
+    size_str: 3 MiB
     url: https://github.com/ingolemo/drider/releases/download/v0.6/drider.zip
 github: ingolemo/drider
 icon: https://raw.githubusercontent.com/ingolemo/drider/master/icon.png

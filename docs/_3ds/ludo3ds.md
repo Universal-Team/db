@@ -9,9 +9,11 @@ download_page: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/tag/v0.3.
 downloads:
   Ludo3DS.3dsx:
     size: 577112
+    size_str: 563 KiB
     url: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/download/v0.3.0/Ludo3DS.3dsx
   Ludo3DS.cia:
     size: 545728
+    size_str: 532 KiB
     url: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/download/v0.3.0/Ludo3DS.cia
 github: SuperSaiyajinStackZ/Ludo3DS
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/icon.png

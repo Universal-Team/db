@@ -10,15 +10,19 @@ download_page: https://github.com/Possum/LumaLocaleSwitcher/releases/tag/0.04
 downloads:
   LumaLocaleSwitcher-0.04-NIGHTLY.cia:
     size: 545728
+    size_str: 532 KiB
     url: https://github.com/Possum/LumaLocaleSwitcher/releases/download/0.04/LumaLocaleSwitcher-0.04-NIGHTLY.cia
   LumaLocaleSwitcher-0.04-NIGHTLY.zip:
     size: 1764562
+    size_str: 1 MiB
     url: https://github.com/Possum/LumaLocaleSwitcher/releases/download/0.04/LumaLocaleSwitcher-0.04-NIGHTLY.zip
   LumaLocaleSwitcher-0.04.cia:
     size: 545728
+    size_str: 532 KiB
     url: https://github.com/Possum/LumaLocaleSwitcher/releases/download/0.04/LumaLocaleSwitcher-0.04.cia
   LumaLocaleSwitcher-0.04.zip:
     size: 1764105
+    size_str: 1 MiB
     url: https://github.com/Possum/LumaLocaleSwitcher/releases/download/0.04/LumaLocaleSwitcher-0.04.zip
 github: Possum/LumaLocaleSwitcher
 icon: https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/meta/icon.png

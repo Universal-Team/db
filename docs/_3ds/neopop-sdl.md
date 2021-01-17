@@ -17,9 +17,11 @@ prerelease:
   downloads:
     neopop_3DSX_v0.4.zip:
       size: 415884
+      size_str: 406 KiB
       url: https://github.com/nop90/Neopop-SDL/releases/download/v0.4/neopop_3DSX_v0.4.zip
     neopop_v0.4.cia:
       size: 1180608
+      size_str: 1 MiB
       url: https://github.com/nop90/Neopop-SDL/releases/download/v0.4/neopop_v0.4.cia
   qr:
     neopop_v0.4.cia: https://db.universal-team.net/assets/images/qr/prerelease/neopop_v0.4.cia.png

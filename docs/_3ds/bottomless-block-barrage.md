@@ -10,12 +10,15 @@ download_page: https://github.com/TricksterGuy/bottomless-block-barrage/releases
 downloads:
   bottomless-block-barrage.3ds:
     size: 1355776
+    size_str: 1 MiB
     url: https://github.com/TricksterGuy/bottomless-block-barrage/releases/download/v0.2.0/bottomless-block-barrage.3ds
   bottomless-block-barrage.cia:
     size: 1369024
+    size_str: 1 MiB
     url: https://github.com/TricksterGuy/bottomless-block-barrage/releases/download/v0.2.0/bottomless-block-barrage.cia
   bottomless-block-barrage.zip:
     size: 710782
+    size_str: 694 KiB
     url: https://github.com/TricksterGuy/bottomless-block-barrage/releases/download/v0.2.0/bottomless-block-barrage.zip
 github: TricksterGuy/bottomless-block-barrage
 icon: https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/master/resources/icon.png

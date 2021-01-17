@@ -10,6 +10,7 @@ download_page: https://github.com/edo9300/ndsi-savedumper/releases/tag/1.2
 downloads:
   savedumper.nds:
     size: 505344
+    size_str: 493 KiB
     url: https://github.com/edo9300/ndsi-savedumper/releases/download/1.2/savedumper.nds
 github: edo9300/ndsi-savedumper
 image: https://avatars0.githubusercontent.com/u/18705342?v=4

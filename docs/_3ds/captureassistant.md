@@ -9,9 +9,11 @@ download_page: https://github.com/ItsDeidara/CaptureAssistant/releases/tag/1.3
 downloads:
   CaptureAssistant.cia:
     size: 1606592
+    size_str: 1 MiB
     url: https://github.com/ItsDeidara/CaptureAssistant/releases/download/1.3/CaptureAssistant.cia
   CaptureAssistantv1.3.zip:
     size: 1285025
+    size_str: 1 MiB
     url: https://github.com/ItsDeidara/CaptureAssistant/releases/download/1.3/CaptureAssistantv1.3.zip
 github: ItsDeidara/CaptureAssistant
 icon: https://raw.githubusercontent.com/ItsDeidara/CaptureAssistant/master/assets/icon.png

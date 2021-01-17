@@ -9,6 +9,7 @@ download_page: https://github.com/Universal-Team/Relaunch/releases/tag/v4.0.1
 downloads:
   Relaunch.7z:
     size: 148518
+    size_str: 145 KiB
     url: https://github.com/Universal-Team/Relaunch/releases/download/v4.0.1/Relaunch.7z
 github: Universal-Team/Relaunch
 icon: https://raw.githubusercontent.com/Universal-Team/Relaunch/master/main/icon.bmp

@@ -9,9 +9,11 @@ download_page: https://github.com/zoogie/DSP1/releases/tag/v1.0
 downloads:
   DSP1.3dsx:
     size: 446968
+    size_str: 436 KiB
     url: https://github.com/zoogie/DSP1/releases/download/v1.0/DSP1.3dsx
   DSP1.cia:
     size: 240064
+    size_str: 234 KiB
     url: https://github.com/zoogie/DSP1/releases/download/v1.0/DSP1.cia
 github: zoogie/DSP1
 icon: https://raw.githubusercontent.com/zoogie/DSP1/master/cia/icon.png

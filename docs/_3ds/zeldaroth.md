@@ -9,9 +9,11 @@ download_page: https://github.com/nop90/ZeldaROTH/releases/tag/v1.0.2
 downloads:
   ZeldaROTH_3DSX_v1.0.2.zip:
     size: 44110456
+    size_str: 42 MiB
     url: https://github.com/nop90/ZeldaROTH/releases/download/v1.0.2/ZeldaROTH_3DSX_v1.0.2.zip
   ZeldaROTH_CIA_v1.0.2.zip:
     size: 45068215
+    size_str: 42 MiB
     url: https://github.com/nop90/ZeldaROTH/releases/download/v1.0.2/ZeldaROTH_CIA_v1.0.2.zip
 github: nop90/ZeldaROTH
 icon: https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/icon.png

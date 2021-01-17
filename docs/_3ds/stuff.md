@@ -9,6 +9,7 @@ download_page: https://github.com/zoogie/Stuff/releases/tag/0.6.0
 downloads:
   nds-hb-menu.cia:
     size: 689088
+    size_str: 672 KiB
     url: https://github.com/zoogie/Stuff/releases/download/0.6.0/nds-hb-menu.cia
 github: zoogie/Stuff
 icon: https://raw.githubusercontent.com/zoogie/Stuff/master/nds-hb-menu/cia/icon.png

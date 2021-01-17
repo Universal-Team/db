@@ -10,9 +10,11 @@ download_page: https://github.com/Manurocker95/Evolution_Sav3D_Me/releases/tag/1
 downloads:
   Evolution_Sav3D_Me.cia:
     size: 15668160
+    size_str: 14 MiB
     url: https://github.com/Manurocker95/Evolution_Sav3D_Me/releases/download/1.1/Evolution_Sav3D_Me.cia
   Evolution_Sav3D_Me.rar:
     size: 15800689
+    size_str: 15 MiB
     url: https://github.com/Manurocker95/Evolution_Sav3D_Me/releases/download/1.1/Evolution_Sav3D_Me.rar
 github: Manurocker95/Evolution_Sav3D_Me
 icon: https://raw.githubusercontent.com/Manurocker95/Evolution_Sav3D_Me/Evolution_Sav3D_Me/icon.png

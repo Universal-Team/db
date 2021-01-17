@@ -9,9 +9,11 @@ download_page: https://github.com/GamesSanti/Craftus-Redesigned/releases/tag/0.5
 downloads:
   craftus_redesigned.3dsx:
     size: 415708
+    size_str: 405 KiB
     url: https://github.com/GamesSanti/Craftus-Redesigned/releases/download/0.5.4/craftus_redesigned.3dsx
   craftus_redesigned.cia:
     size: 578496
+    size_str: 564 KiB
     url: https://github.com/GamesSanti/Craftus-Redesigned/releases/download/0.5.4/craftus_redesigned.cia
 github: GamesSanti/Craftus-Redesigned
 icon: https://raw.githubusercontent.com/GamesSanti/Craftus-Reskined/main/icon/craftusreloaded.png

@@ -9,9 +9,11 @@ download_page: https://github.com/RocketRobz/TWiLightMenu-Updater/releases/tag/v
 downloads:
   TWiLightMenu-Updater.3dsx:
     size: 6844020
+    size_str: 6 MiB
     url: https://github.com/RocketRobz/TWiLightMenu-Updater/releases/download/v4.4.0/TWiLightMenu-Updater.3dsx
   TWiLightMenu-Updater.cia:
     size: 6824896
+    size_str: 6 MiB
     url: https://github.com/RocketRobz/TWiLightMenu-Updater/releases/download/v4.4.0/TWiLightMenu-Updater.cia
 github: RocketRobz/TWiLightMenu-Updater
 icon: https://raw.githubusercontent.com/RocketRobz/TWiLightMenu-Updater/master/app/icon.png

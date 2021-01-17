@@ -9,12 +9,15 @@ download_page: https://github.com/noirscape/dses/releases/tag/v1.1
 downloads:
   DSES.3dsx:
     size: 164240
+    size_str: 160 KiB
     url: https://github.com/noirscape/dses/releases/download/v1.1/DSES.3dsx
   DSES.cia:
     size: 526784
+    size_str: 514 KiB
     url: https://github.com/noirscape/dses/releases/download/v1.1/DSES.cia
   DSES.zip:
     size: 753828
+    size_str: 736 KiB
     url: https://github.com/noirscape/dses/releases/download/v1.1/DSES.zip
 github: noirscape/dses
 icon: https://raw.githubusercontent.com/noirscape/dses/master/meta/icon.png

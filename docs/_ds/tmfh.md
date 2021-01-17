@@ -9,6 +9,7 @@ download_page: https://github.com/JeffRuLz/TMFH/releases/tag/v0.7.0
 downloads:
   TMFH.0.7.1.zip:
     size: 114153
+    size_str: 111 KiB
     url: https://github.com/JeffRuLz/TMFH/releases/download/v0.7.0/TMFH.0.7.1.zip
 github: JeffRuLz/TMFH
 icon: https://raw.githubusercontent.com/JeffRuLz/TMFH/master/icon.bmp

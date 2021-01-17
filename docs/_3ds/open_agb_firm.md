@@ -11,6 +11,7 @@ download_page: https://github.com/profi200/open_agb_firm/releases/tag/alpha_2020
 downloads:
   open_agb_firm_alpha_20201224.7z:
     size: 50931
+    size_str: 49 KiB
     url: https://github.com/profi200/open_agb_firm/releases/download/alpha_2020-12-24/open_agb_firm_alpha_20201224.7z
 github: profi200/open_agb_firm
 image: https://avatars0.githubusercontent.com/u/7831477?v=4

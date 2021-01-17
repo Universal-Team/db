@@ -9,12 +9,15 @@ download_page: https://github.com/astronautlevel2/Anemone3DS/releases/tag/v2.2.0
 downloads:
   Anemone3DS.3dsx:
     size: 635200
+    size_str: 620 KiB
     url: https://github.com/astronautlevel2/Anemone3DS/releases/download/v2.2.0/Anemone3DS.3dsx
   Anemone3DS.cia:
     size: 1029056
+    size_str: 1004 KiB
     url: https://github.com/astronautlevel2/Anemone3DS/releases/download/v2.2.0/Anemone3DS.cia
   Anemone3DS.smdh:
     size: 14016
+    size_str: 13 KiB
     url: https://github.com/astronautlevel2/Anemone3DS/releases/download/v2.2.0/Anemone3DS.smdh
 github: astronautlevel2/Anemone3DS
 icon: https://raw.githubusercontent.com/astronautlevel2/Anemone3DS/master/meta/icon.png

@@ -10,9 +10,11 @@ download_page: https://github.com/nop90/ZeldaOLB/releases/tag/v1%2C1
 downloads:
   ZeldaOLB_3DSX_v1.1.zip:
     size: 84591843
+    size_str: 80 MiB
     url: https://github.com/nop90/ZeldaOLB/releases/download/v1%2C1/ZeldaOLB_3DSX_v1.1.zip
   ZeldaOLB_v1.1.cia:
     size: 103437248
+    size_str: 98 MiB
     url: https://github.com/nop90/ZeldaOLB/releases/download/v1%2C1/ZeldaOLB_v1.1.cia
 github: nop90/ZeldaOLB
 icon: https://raw.githubusercontent.com/nop90/ZeldaOLB/master/resources/icon.png

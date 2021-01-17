@@ -10,6 +10,7 @@ download_page: https://github.com/fincs/new-hbmenu/releases/tag/v2.2.0
 downloads:
   boot.3dsx:
     size: 361820
+    size_str: 353 KiB
     url: https://github.com/fincs/new-hbmenu/releases/download/v2.2.0/boot.3dsx
 github: fincs/new-hbmenu
 icon: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png

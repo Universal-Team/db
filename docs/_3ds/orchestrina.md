@@ -9,6 +9,7 @@ download_page: https://github.com/EBLeifEricson/orchestrina/releases/tag/v0.5.0-
 downloads:
   Orchestrina.zip:
     size: 20274620
+    size_str: 19 MiB
     url: https://github.com/EBLeifEricson/orchestrina/releases/download/v0.5.0-beta/Orchestrina.zip
 github: EBLeifEricson/orchestrina
 icon: https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/icon.png

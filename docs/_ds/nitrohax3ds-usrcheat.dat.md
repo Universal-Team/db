@@ -10,9 +10,11 @@ download_page: https://github.com/Epicpkmn11/NitroHax3DS/releases/tag/0.100
 downloads:
   NitroHax-usrcheat.cia:
     size: 1368320
+    size_str: 1 MiB
     url: https://github.com/Epicpkmn11/NitroHax3DS/releases/download/0.100/NitroHax-usrcheat.cia
   NitroHax.dsi:
     size: 1353728
+    size_str: 1 MiB
     url: https://github.com/Epicpkmn11/NitroHax3DS/releases/download/0.100/NitroHax.dsi
 github: Epicpkmn11/NitroHax3DS
 icon: https://raw.githubusercontent.com/Epicpkmn11/NitroHax3DS/master/icon.bmp

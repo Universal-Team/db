@@ -11,9 +11,11 @@ download_page: https://github.com/Universal-Team/LeafEdit/releases/tag/v0.2.1
 downloads:
   LeafEdit.3dsx:
     size: 2858100
+    size_str: 2 MiB
     url: https://github.com/Universal-Team/LeafEdit/releases/download/v0.2.1/LeafEdit.3dsx
   LeafEdit.cia:
     size: 2450368
+    size_str: 2 MiB
     url: https://github.com/Universal-Team/LeafEdit/releases/download/v0.2.1/LeafEdit.cia
 github: Universal-Team/LeafEdit
 icon: https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/icon.png

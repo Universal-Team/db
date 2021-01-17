@@ -9,9 +9,11 @@ download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.35.1
 downloads:
   nds-bootstrap.7z:
     size: 440991
+    size_str: 430 KiB
     url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.35.1/nds-bootstrap.7z
   nds-bootstrap.zip:
     size: 1088985
+    size_str: 1 MiB
     url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.35.1/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://raw.githubusercontent.com/DS-Homebrew/nds-bootstrap/master/retail/assets/icon.bmp

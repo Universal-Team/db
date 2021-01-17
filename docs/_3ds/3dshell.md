@@ -10,9 +10,11 @@ download_page: https://github.com/joel16/3DShell/releases/tag/v4.3.1
 downloads:
   3DShell.3dsx:
     size: 2308764
+    size_str: 2 MiB
     url: https://github.com/joel16/3DShell/releases/download/v4.3.1/3DShell.3dsx
   3DShell.cia:
     size: 2028480
+    size_str: 1 MiB
     url: https://github.com/joel16/3DShell/releases/download/v4.3.1/3DShell.cia
 github: joel16/3DShell
 icon: https://raw.githubusercontent.com/joel16/3DShell/master/res/ic_launcher_filemanager.png

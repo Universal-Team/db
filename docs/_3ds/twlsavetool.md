@@ -12,9 +12,11 @@ download_page: https://github.com/TuxSH/TWLSaveTool/releases/tag/v1.2
 downloads:
   TWLSaveTool.cia:
     size: 614848
+    size_str: 600 KiB
     url: https://github.com/TuxSH/TWLSaveTool/releases/download/v1.2/TWLSaveTool.cia
   TWLSaveTool.zip:
     size: 114930
+    size_str: 112 KiB
     url: https://github.com/TuxSH/TWLSaveTool/releases/download/v1.2/TWLSaveTool.zip
 github: TuxSH/TWLSaveTool
 icon: https://raw.githubusercontent.com/TuxSH/TWLSaveTool/master/app/IconLarge.png

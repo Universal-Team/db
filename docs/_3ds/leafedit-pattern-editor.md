@@ -10,9 +10,11 @@ download_page: https://github.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/re
 downloads:
   LeafEdit-Pattern-Editor.3dsx:
     size: 2073840
+    size_str: 1 MiB
     url: https://github.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/releases/download/v0.4.0/LeafEdit-Pattern-Editor.3dsx
   LeafEdit-Pattern-Editor.cia:
     size: 2335680
+    size_str: 2 MiB
     url: https://github.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/releases/download/v0.4.0/LeafEdit-Pattern-Editor.cia
 github: SuperSaiyajinStackZ/LeafEdit-Pattern-Editor
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/master/app/icon.png

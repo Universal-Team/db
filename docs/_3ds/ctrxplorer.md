@@ -10,9 +10,11 @@ download_page: https://github.com/d0k3/CTRXplorer/releases/tag/v0.9.8.1
 downloads:
   CTRXplorer.cia:
     size: 838080
+    size_str: 818 KiB
     url: https://github.com/d0k3/CTRXplorer/releases/download/v0.9.8.1/CTRXplorer.cia
   CTRXplorer.v0.9.8.1.zip:
     size: 1827733
+    size_str: 1 MiB
     url: https://github.com/d0k3/CTRXplorer/releases/download/v0.9.8.1/CTRXplorer.v0.9.8.1.zip
 github: d0k3/CTRXplorer
 icon: https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/icon.png

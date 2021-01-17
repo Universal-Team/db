@@ -9,9 +9,11 @@ download_page: https://github.com/LiquidFenrir/WifiManager/releases/tag/v1.1.2
 downloads:
   WifiManager.3dsx:
     size: 687284
+    size_str: 671 KiB
     url: https://github.com/LiquidFenrir/WifiManager/releases/download/v1.1.2/WifiManager.3dsx
   WifiManager.cia:
     size: 807872
+    size_str: 788 KiB
     url: https://github.com/LiquidFenrir/WifiManager/releases/download/v1.1.2/WifiManager.cia
 github: LiquidFenrir/WifiManager
 icon: https://raw.githubusercontent.com/LiquidFenrir/WifiManager/master/meta/icon.png

@@ -8,18 +8,23 @@ download_page: https://github.com/Nanquitas/BootNTR/releases/tag/v2.13.4
 downloads:
   BootNTRSelector-FONZD-Banner.cia:
     size: 1508288
+    size_str: 1 MiB
     url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.4/BootNTRSelector-FONZD-Banner.cia
   BootNTRSelector-Mode3-FONZD-Banner.cia:
     size: 1508288
+    size_str: 1 MiB
     url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.4/BootNTRSelector-Mode3-FONZD-Banner.cia
   BootNTRSelector-Mode3-PabloMK7-Banner.cia:
     size: 1487808
+    size_str: 1 MiB
     url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.4/BootNTRSelector-Mode3-PabloMK7-Banner.cia
   BootNTRSelector-PabloMK7-Banner.3dsx:
     size: 1074176
+    size_str: 1 MiB
     url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.4/BootNTRSelector-PabloMK7-Banner.3dsx
   BootNTRSelector-PabloMK7-Banner.cia:
     size: 1487808
+    size_str: 1 MiB
     url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.4/BootNTRSelector-PabloMK7-Banner.cia
 github: Nanquitas/BootNTR
 icon: https://raw.githubusercontent.com/Nanquitas/BootNTR/master/resources/icon.png

@@ -10,9 +10,11 @@ download_page: https://github.com/Ryuzaki-MrL/NotifyMii/releases/tag/1.2
 downloads:
   NotifyMii.cia:
     size: 491968
+    size_str: 480 KiB
     url: https://github.com/Ryuzaki-MrL/NotifyMii/releases/download/1.2/NotifyMii.cia
   NotifyMii.zip:
     size: 1802585
+    size_str: 1 MiB
     url: https://github.com/Ryuzaki-MrL/NotifyMii/releases/download/1.2/NotifyMii.zip
 github: Ryuzaki-MrL/NotifyMii
 icon: https://raw.githubusercontent.com/Ryuzaki-MrL/NotifyMii/master/meta/icon.png

@@ -16,6 +16,7 @@ prerelease:
   downloads:
     ZeldaPicross.1.0RC.zip:
       size: 23147777
+      size_str: 22 MiB
       url: https://github.com/nop90/ZeldaPicross/releases/download/v1%2C0RC/ZeldaPicross.1.0RC.zip
   updated: '2017-01-02T12:35:39Z'
   version: v1,0RC

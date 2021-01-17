@@ -18,18 +18,23 @@ prerelease:
   downloads:
     prboom.wad:
       size: 283028
+      size_str: 276 KiB
       url: https://github.com/elhobbs/prboom3ds/releases/download/v0.7-alpha/prboom.wad
     prboom3ds.3ds:
       size: 993792
+      size_str: 970 KiB
       url: https://github.com/elhobbs/prboom3ds/releases/download/v0.7-alpha/prboom3ds.3ds
     prboom3ds.3dsx:
       size: 955168
+      size_str: 932 KiB
       url: https://github.com/elhobbs/prboom3ds/releases/download/v0.7-alpha/prboom3ds.3dsx
     prboom3ds.cia:
       size: 1007040
+      size_str: 983 KiB
       url: https://github.com/elhobbs/prboom3ds/releases/download/v0.7-alpha/prboom3ds.cia
     prboom3ds.smdh:
       size: 14016
+      size_str: 13 KiB
       url: https://github.com/elhobbs/prboom3ds/releases/download/v0.7-alpha/prboom3ds.smdh
   qr:
     prboom3ds.cia: https://db.universal-team.net/assets/images/qr/prerelease/prboom3ds.cia.png

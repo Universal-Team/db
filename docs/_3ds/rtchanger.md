@@ -10,12 +10,15 @@ download_page: https://github.com/Storm-Eagle20/RTChanger/releases/tag/1.0
 downloads:
   RTChanger-Version1.0.3dsx:
     size: 224036
+    size_str: 218 KiB
     url: https://github.com/Storm-Eagle20/RTChanger/releases/download/1.0/RTChanger-Version1.0.3dsx
   RTChanger-Version1.0.cia:
     size: 451008
+    size_str: 440 KiB
     url: https://github.com/Storm-Eagle20/RTChanger/releases/download/1.0/RTChanger-Version1.0.cia
   RTChanger.zip:
     size: 354851
+    size_str: 346 KiB
     url: https://github.com/Storm-Eagle20/RTChanger/releases/download/1.0/RTChanger.zip
 github: Storm-Eagle20/RTChanger
 icon: https://raw.githubusercontent.com/Storm-Eagle20/RTChanger/master/assets/logo.png

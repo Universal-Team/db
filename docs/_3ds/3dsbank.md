@@ -9,6 +9,7 @@ download_page: https://github.com/RocketRobz/3DSBank/releases/tag/v1.1
 downloads:
   3DSBank.cia:
     size: 651520
+    size_str: 636 KiB
     url: https://github.com/RocketRobz/3DSBank/releases/download/v1.1/3DSBank.cia
 github: RocketRobz/3DSBank
 icon: https://db.universal-team.net/assets/images/icons/3dsbank.png

@@ -10,9 +10,11 @@ download_page: https://github.com/phijor/ctroller/releases/tag/0.4.0
 downloads:
   ctroller-0.4.0.tar.gz:
     size: 489430
+    size_str: 477 KiB
     url: https://github.com/phijor/ctroller/releases/download/0.4.0/ctroller-0.4.0.tar.gz
   ctroller.cia:
     size: 620992
+    size_str: 606 KiB
     url: https://github.com/phijor/ctroller/releases/download/0.4.0/ctroller.cia
 github: phijor/ctroller
 icon: https://raw.githubusercontent.com/phijor/ctroller/master/3DS/resources/icon.png

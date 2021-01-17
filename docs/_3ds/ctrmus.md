@@ -10,9 +10,11 @@ download_page: https://github.com/deltabeard/ctrmus/releases/tag/0.4.12
 downloads:
   ctrmus.cia:
     size: 1036224
+    size_str: 1011 KiB
     url: https://github.com/deltabeard/ctrmus/releases/download/0.4.12/ctrmus.cia
   ctrmus.zip:
     size: 3047167
+    size_str: 2 MiB
     url: https://github.com/deltabeard/ctrmus/releases/download/0.4.12/ctrmus.zip
 github: deltabeard/ctrmus
 icon: https://raw.githubusercontent.com/deltabeard/ctrmus/master/meta/icon.png

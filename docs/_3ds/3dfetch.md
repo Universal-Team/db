@@ -10,6 +10,7 @@ download_page: https://github.com/aliceinpalth/3dfetch/releases/tag/1.10
 downloads:
   3dfetch.cia:
     size: 2528192
+    size_str: 2 MiB
     url: https://github.com/aliceinpalth/3dfetch/releases/download/1.10/3dfetch.cia
 github: aliceinpalth/3dfetch
 icon: https://raw.githubusercontent.com/aliceinpalth/3dfetch/master/icon.png

@@ -9,6 +9,7 @@ download_page: https://github.com/ihaveamac/faketik/releases/tag/v1.1.2
 downloads:
   faketik.3dsx:
     size: 195624
+    size_str: 191 KiB
     url: https://github.com/ihaveamac/faketik/releases/download/v1.1.2/faketik.3dsx
 github: ihaveamac/faketik
 image: https://avatars3.githubusercontent.com/u/590576?v=4

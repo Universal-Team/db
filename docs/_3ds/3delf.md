@@ -9,9 +9,11 @@ download_page: https://github.com/SuperSaiyajinStackZ/3DElf/releases/tag/v0.2.0
 downloads:
   3DElf.3dsx:
     size: 501220
+    size_str: 489 KiB
     url: https://github.com/SuperSaiyajinStackZ/3DElf/releases/download/v0.2.0/3DElf.3dsx
   3DElf.cia:
     size: 472000
+    size_str: 460 KiB
     url: https://github.com/SuperSaiyajinStackZ/3DElf/releases/download/v0.2.0/3DElf.cia
 github: SuperSaiyajinStackZ/3DElf
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/icon.png

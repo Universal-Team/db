@@ -9,6 +9,7 @@ download_page: https://github.com/MechanicalDragon0687/MCU_Bricker_tinydb/releas
 downloads:
   RGB.cia:
     size: 292800
+    size_str: 285 KiB
     url: https://github.com/MechanicalDragon0687/MCU_Bricker_tinydb/releases/download/1.0/RGB.cia
 github: MechanicalDragon0687/MCU_Bricker_tinydb
 icon: https://db.universal-team.net/assets/images/icons/mcu-bricker.png

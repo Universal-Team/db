@@ -9,9 +9,11 @@ download_page: https://github.com/hax0kartik/wumiibo/releases/tag/v3.0
 downloads:
   0004013000004002.zip:
     size: 42340
+    size_str: 41 KiB
     url: https://github.com/hax0kartik/wumiibo/releases/download/v3.0/0004013000004002.zip
   wumiibohelper.3dsx:
     size: 1510488
+    size_str: 1 MiB
     url: https://github.com/hax0kartik/wumiibo/releases/download/v3.0/wumiibohelper.3dsx
 github: hax0kartik/wumiibo
 image: https://raw.githubusercontent.com/hax0kartik/wumiibo/master/wumiibohelper/gfx/icon.png

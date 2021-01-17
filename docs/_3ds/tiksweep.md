@@ -10,12 +10,15 @@ download_page: https://github.com/DanTheMan827/tikSweep/releases/tag/v1.1.2
 downloads:
   tikSweep-1.1.2.torrent:
     size: 1895
+    size_str: 1 KiB
     url: https://github.com/DanTheMan827/tikSweep/releases/download/v1.1.2/tikSweep-1.1.2.torrent
   tikSweep.cia:
     size: 582080
+    size_str: 568 KiB
     url: https://github.com/DanTheMan827/tikSweep/releases/download/v1.1.2/tikSweep.cia
   tikSweep.zip:
     size: 1456296
+    size_str: 1 MiB
     url: https://github.com/DanTheMan827/tikSweep/releases/download/v1.1.2/tikSweep.zip
 github: DanTheMan827/tikSweep
 icon: https://raw.githubusercontent.com/DanTheMan827/tikSweep/master/icon.png

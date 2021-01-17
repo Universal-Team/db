@@ -9,6 +9,7 @@ download_page: https://github.com/Creckeryop/3dsCookieClicker/releases/tag/%2300
 downloads:
   CookieClicker.cia:
     size: 3072960
+    size_str: 2 MiB
     url: https://github.com/Creckeryop/3dsCookieClicker/releases/download/%230022/CookieClicker.cia
 github: Creckeryop/3dsCookieClicker
 icon: https://raw.githubusercontent.com/Creckeryop/3dsCookieClicker/master/logo.png

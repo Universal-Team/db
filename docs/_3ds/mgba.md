@@ -9,6 +9,7 @@ download_page: https://github.com/mgba-emu/mgba/releases/tag/0.8.4
 downloads:
   mGBA-0.8.4-3ds.7z:
     size: 1086332
+    size_str: 1 MiB
     url: https://github.com/mgba-emu/mgba/releases/download/0.8.4/mGBA-0.8.4-3ds.7z
 github: mgba-emu/mgba
 icon: https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-48.png

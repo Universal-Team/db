@@ -10,15 +10,19 @@ download_page: https://github.com/Gericom/GBARunner2/releases/tag/v20200812-1314
 downloads:
   GBARunner2_arm7dldi_3ds.nds:
     size: 265792
+    size_str: 259 KiB
     url: https://github.com/Gericom/GBARunner2/releases/download/v20200812-131430_6e4ce45/GBARunner2_arm7dldi_3ds.nds
   GBARunner2_arm7dldi_ds.nds:
     size: 265280
+    size_str: 259 KiB
     url: https://github.com/Gericom/GBARunner2/releases/download/v20200812-131430_6e4ce45/GBARunner2_arm7dldi_ds.nds
   GBARunner2_arm7dldi_dsi.nds:
     size: 265792
+    size_str: 259 KiB
     url: https://github.com/Gericom/GBARunner2/releases/download/v20200812-131430_6e4ce45/GBARunner2_arm7dldi_dsi.nds
   GBARunner2_arm9dldi_ds.nds:
     size: 264768
+    size_str: 258 KiB
     url: https://github.com/Gericom/GBARunner2/releases/download/v20200812-131430_6e4ce45/GBARunner2_arm9dldi_ds.nds
 github: Gericom/GBARunner2
 icon: https://raw.githubusercontent.com/Gericom/GBARunner2/master/icon.bmp

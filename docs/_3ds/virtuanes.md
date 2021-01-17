@@ -9,6 +9,7 @@ download_page: https://github.com/bubble2k16/emus3ds/releases/tag/v1.02
 downloads:
   virtuanes_3ds-v1.02.zip:
     size: 1371216
+    size_str: 1 MiB
     url: https://github.com/bubble2k16/emus3ds/releases/download/v1.02/virtuanes_3ds-v1.02.zip
 github: bubble2k16/emus3ds
 icon: https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/virtuanes/assets/icon.png

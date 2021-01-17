@@ -9,9 +9,11 @@ download_page: https://github.com/RMcTn/Notepad3DS/releases/tag/1.1.2
 downloads:
   Notepad3DS.3dsx:
     size: 586076
+    size_str: 572 KiB
     url: https://github.com/RMcTn/Notepad3DS/releases/download/1.1.2/Notepad3DS.3dsx
   Notepad3DS.cia:
     size: 433600
+    size_str: 423 KiB
     url: https://github.com/RMcTn/Notepad3DS/releases/download/1.1.2/Notepad3DS.cia
 github: RMcTn/Notepad3DS
 icon: https://raw.githubusercontent.com/RMcTn/Notepad3DS/master/icon.png

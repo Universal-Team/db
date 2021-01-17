@@ -10,6 +10,7 @@ download_page: https://github.com/dragos240/TownManager/releases/tag/v1.2.1
 downloads:
   TownManager-v1.2.1.zip:
     size: 1445661
+    size_str: 1 MiB
     url: https://github.com/dragos240/TownManager/releases/download/v1.2.1/TownManager-v1.2.1.zip
 github: dragos240/TownManager
 icon: https://raw.githubusercontent.com/dragos240/TownManager/master/icon.png

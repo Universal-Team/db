@@ -16,6 +16,7 @@ prerelease:
   downloads:
     PicoDriveTWL.nds:
       size: 726016
+      size_str: 709 KiB
       url: https://github.com/DS-Homebrew/PicoDriveTWL/releases/download/v2.0.2/PicoDriveTWL.nds
   update_notes: '<p><strong>Bug fixes</strong></p>
 

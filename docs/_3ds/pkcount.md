@@ -9,12 +9,15 @@ download_page: https://github.com/SuperSaiyajinStackZ/PKCount/releases/tag/v0.0.
 downloads:
   PKCount.3dsx:
     size: 767504
+    size_str: 749 KiB
     url: https://github.com/SuperSaiyajinStackZ/PKCount/releases/download/v0.0.2/PKCount.3dsx
   PKCount.cia:
     size: 582592
+    size_str: 568 KiB
     url: https://github.com/SuperSaiyajinStackZ/PKCount/releases/download/v0.0.2/PKCount.cia
   PKCount.nds:
     size: 719872
+    size_str: 703 KiB
     url: https://github.com/SuperSaiyajinStackZ/PKCount/releases/download/v0.0.2/PKCount.nds
 github: SuperSaiyajinStackZ/PKCount
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/PKCount/master/3DS/app/icon.png

@@ -9,6 +9,7 @@ download_page: https://github.com/bubble2k16/picodrive_3ds/releases/tag/v0.94
 downloads:
   picodrive_3ds-v0.94.zip:
     size: 1372485
+    size_str: 1 MiB
     url: https://github.com/bubble2k16/picodrive_3ds/releases/download/v0.94/picodrive_3ds-v0.94.zip
 github: bubble2k16/picodrive_3ds
 icon: https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/picodrive/assets/icon.png

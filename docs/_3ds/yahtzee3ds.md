@@ -9,9 +9,11 @@ download_page: https://github.com/LiquidFenrir/Yahtzee3DS/releases/tag/v1.0.1
 downloads:
   Yahtzee3DS.3dsx:
     size: 295640
+    size_str: 288 KiB
     url: https://github.com/LiquidFenrir/Yahtzee3DS/releases/download/v1.0.1/Yahtzee3DS.3dsx
   Yahtzee3DS.cia:
     size: 631744
+    size_str: 616 KiB
     url: https://github.com/LiquidFenrir/Yahtzee3DS/releases/download/v1.0.1/Yahtzee3DS.cia
 github: LiquidFenrir/Yahtzee3DS
 icon: https://raw.githubusercontent.com/LiquidFenrir/Yahtzee3DS/master/icon.png

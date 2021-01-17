@@ -9,15 +9,19 @@ download_page: https://github.com/joel16/3DSident/releases/tag/0.8.0
 downloads:
   3DSident-GUI.3dsx:
     size: 208260
+    size_str: 203 KiB
     url: https://github.com/joel16/3DSident/releases/download/0.8.0/3DSident-GUI.3dsx
   3DSident-GUI.cia:
     size: 570304
+    size_str: 556 KiB
     url: https://github.com/joel16/3DSident/releases/download/0.8.0/3DSident-GUI.cia
   3DSident.3dsx:
     size: 191192
+    size_str: 186 KiB
     url: https://github.com/joel16/3DSident/releases/download/0.8.0/3DSident.3dsx
   3DSident.cia:
     size: 535488
+    size_str: 522 KiB
     url: https://github.com/joel16/3DSident/releases/download/0.8.0/3DSident.cia
 github: joel16/3DSident
 icon: https://raw.githubusercontent.com/joel16/3DSident/master/console/res/icon.png

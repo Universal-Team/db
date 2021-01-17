@@ -9,6 +9,7 @@ download_page: https://github.com/RocketRobz/HoriHD-Gallery/releases/tag/v1.0.2
 downloads:
   HoriHD-Gallery.7z:
     size: 36652357
+    size_str: 34 MiB
     url: https://github.com/RocketRobz/HoriHD-Gallery/releases/download/v1.0.2/HoriHD-Gallery.7z
 github: RocketRobz/HoriHD-Gallery
 icon: https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/icon.png

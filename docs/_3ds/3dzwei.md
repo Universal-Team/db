@@ -9,9 +9,11 @@ download_page: https://github.com/Universal-Team/3DZwei/releases/tag/v0.2.0
 downloads:
   3DZwei.3dsx:
     size: 1185672
+    size_str: 1 MiB
     url: https://github.com/Universal-Team/3DZwei/releases/download/v0.2.0/3DZwei.3dsx
   3DZwei.cia:
     size: 934848
+    size_str: 912 KiB
     url: https://github.com/Universal-Team/3DZwei/releases/download/v0.2.0/3DZwei.cia
 github: SuperSaiyajinStackZ/3DZwei
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/icon.png

@@ -9,6 +9,7 @@ download_page: https://github.com/DomRe/3DS_eBook_Reader/releases/tag/1.2
 downloads:
   release1.2.zip:
     size: 540204
+    size_str: 527 KiB
     url: https://github.com/DomRe/3DS_eBook_Reader/releases/download/1.2/release1.2.zip
 github: DomRe/3DS_eBook_Reader
 icon: https://raw.githubusercontent.com/DomRe/3DS_eBook_Reader/master/meta/icon.png

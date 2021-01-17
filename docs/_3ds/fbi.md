@@ -9,12 +9,15 @@ download_page: https://github.com/Steveice10/FBI/releases/tag/2.6.0
 downloads:
   FBI.3dsx:
     size: 1133148
+    size_str: 1 MiB
     url: https://github.com/Steveice10/FBI/releases/download/2.6.0/FBI.3dsx
   FBI.cia:
     size: 1151936
+    size_str: 1 MiB
     url: https://github.com/Steveice10/FBI/releases/download/2.6.0/FBI.cia
   FBI.zip:
     size: 4128978
+    size_str: 3 MiB
     url: https://github.com/Steveice10/FBI/releases/download/2.6.0/FBI.zip
 github: Steveice10/FBI
 icon: https://raw.githubusercontent.com/Steveice10/FBI/master/meta/icon_3ds.png

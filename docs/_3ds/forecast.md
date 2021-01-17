@@ -9,6 +9,7 @@ download_page: https://github.com/NatTupper/Forecast/releases/tag/v1.0.1
 downloads:
   Forecast-1.0.1.zip:
     size: 828371
+    size_str: 808 KiB
     url: https://github.com/NatTupper/Forecast/releases/download/v1.0.1/Forecast-1.0.1.zip
 github: NatTupper/Forecast
 icon: https://raw.githubusercontent.com/NatTupper/Forecast/master/icon.png

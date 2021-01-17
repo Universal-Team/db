@@ -9,15 +9,19 @@ download_page: https://github.com/Universal-Team/3DEins/releases/tag/v0.2.0
 downloads:
   3DEins.3dsx:
     size: 1482056
+    size_str: 1 MiB
     url: https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/3DEins.3dsx
   3DEins.cia:
     size: 1209280
+    size_str: 1 MiB
     url: https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/3DEins.cia
   DSEins.nds:
     size: 928768
+    size_str: 907 KiB
     url: https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/DSEins.nds
   DSEins.nds.cia:
     size: 943360
+    size_str: 921 KiB
     url: https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/DSEins.nds.cia
 github: Universal-Team/3DEins
 icon: https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/icon.png

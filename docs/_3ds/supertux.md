@@ -18,6 +18,7 @@ prerelease:
   downloads:
     Supertux_M1_v0.1a.zip:
       size: 16342520
+      size_str: 15 MiB
       url: https://github.com/nop90/Supertux-Milestone1-3ds/releases/download/v0.1/Supertux_M1_v0.1a.zip
   updated: '2017-03-22T22:55:55Z'
   version: v0.1

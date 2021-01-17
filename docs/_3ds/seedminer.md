@@ -9,6 +9,7 @@ download_page: https://github.com/zoogie/seedminer/releases/tag/v2.1
 downloads:
   RELEASE_v2.1.zip:
     size: 11053478
+    size_str: 10 MiB
     url: https://github.com/zoogie/seedminer/releases/download/v2.1/RELEASE_v2.1.zip
 github: zoogie/seedminer
 icon: https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/icon.png

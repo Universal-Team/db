@@ -19,9 +19,11 @@ prerelease:
   downloads:
     NLTK.3dsx:
       size: 5542448
+      size_str: 5 MiB
       url: https://github.com/Slattz/NLTK/releases/download/Nightly/NLTK.3dsx
     NLTK.cia:
       size: 4965312
+      size_str: 4 MiB
       url: https://github.com/Slattz/NLTK/releases/download/Nightly/NLTK.cia
   qr:
     NLTK.cia: https://db.universal-team.net/assets/images/qr/prerelease/nltk.cia.png

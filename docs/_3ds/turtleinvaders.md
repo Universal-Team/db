@@ -9,6 +9,7 @@ download_page: https://github.com/TurtleP/TurtleInvaders/releases/tag/v1.0.2
 downloads:
   TurtleInvaders.zip:
     size: 5546969
+    size_str: 5 MiB
     url: https://github.com/TurtleP/TurtleInvaders/releases/download/v1.0.2/TurtleInvaders.zip
 github: TurtleP/TurtleInvaders
 icon: https://db.universal-team.net/assets/images/icons/turtleinvaders.png

@@ -9,9 +9,11 @@ download_page: https://github.com/Universal-Team/3DVier/releases/tag/v0.1.0
 downloads:
   3DVier.3dsx:
     size: 924748
+    size_str: 903 KiB
     url: https://github.com/Universal-Team/3DVier/releases/download/v0.1.0/3DVier.3dsx
   3DVier.cia:
     size: 713664
+    size_str: 696 KiB
     url: https://github.com/Universal-Team/3DVier/releases/download/v0.1.0/3DVier.cia
 github: Universal-Team/3DVier
 icon: https://raw.githubusercontent.com/Universal-Team/3DVier/master/3ds/app/icon.png

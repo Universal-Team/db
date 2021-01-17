@@ -9,6 +9,7 @@ download_page: https://github.com/Asellus/3DS_Quick_Reboot/releases/tag/v1.0.1
 downloads:
   3DSQuickReboot-v1.0.1.zip:
     size: 907497
+    size_str: 886 KiB
     url: https://github.com/Asellus/3DS_Quick_Reboot/releases/download/v1.0.1/3DSQuickReboot-v1.0.1.zip
 github: Asellus/3DS_Quick_Reboot
 icon: https://raw.githubusercontent.com/Asellus/3DS_Quick_Reboot/master/resources/icon.png

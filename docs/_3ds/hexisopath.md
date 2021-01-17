@@ -10,9 +10,11 @@ download_page: https://github.com/LiquidFenrir/HexIsoPath/releases/tag/v1.1.0
 downloads:
   HexIsoPath.3dsx:
     size: 302852
+    size_str: 295 KiB
     url: https://github.com/LiquidFenrir/HexIsoPath/releases/download/v1.1.0/HexIsoPath.3dsx
   HexIsoPath.cia:
     size: 615360
+    size_str: 600 KiB
     url: https://github.com/LiquidFenrir/HexIsoPath/releases/download/v1.1.0/HexIsoPath.cia
 github: LiquidFenrir/HexIsoPath
 icon: https://raw.githubusercontent.com/LiquidFenrir/HexIsoPath/master/icon.png

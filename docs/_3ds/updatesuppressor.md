@@ -10,9 +10,11 @@ download_page: https://github.com/GiantBlargg/UpdateSuppressor/releases/tag/v0.2
 downloads:
   UpdateSuppressor-3dsx.zip:
     size: 91407
+    size_str: 89 KiB
     url: https://github.com/GiantBlargg/UpdateSuppressor/releases/download/v0.2.0/UpdateSuppressor-3dsx.zip
   UpdateSuppressor.cia:
     size: 557504
+    size_str: 544 KiB
     url: https://github.com/GiantBlargg/UpdateSuppressor/releases/download/v0.2.0/UpdateSuppressor.cia
 github: GiantBlargg/UpdateSuppressor
 icon: https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/icon.png

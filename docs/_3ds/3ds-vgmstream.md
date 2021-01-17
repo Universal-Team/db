@@ -9,12 +9,15 @@ download_page: https://github.com/TricksterGuy/3ds-vgmstream/releases/tag/v0.2.0
 downloads:
   3ds-vgmstream.3ds:
     size: 982016
+    size_str: 959 KiB
     url: https://github.com/TricksterGuy/3ds-vgmstream/releases/download/v0.2.0/3ds-vgmstream.3ds
   3ds-vgmstream.cia:
     size: 995264
+    size_str: 971 KiB
     url: https://github.com/TricksterGuy/3ds-vgmstream/releases/download/v0.2.0/3ds-vgmstream.cia
   3ds-vgmstream.zip:
     size: 459519
+    size_str: 448 KiB
     url: https://github.com/TricksterGuy/3ds-vgmstream/releases/download/v0.2.0/3ds-vgmstream.zip
 github: TricksterGuy/3ds-vgmstream
 icon: https://raw.githubusercontent.com/TricksterGuy/3ds-vgmstream/master/resources/icon.png

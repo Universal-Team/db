@@ -9,9 +9,11 @@ download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/
 downloads:
   Universal-Updater.3dsx:
     size: 2431136
+    size_str: 2 MiB
     url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.1.1/Universal-Updater.3dsx
   Universal-Updater.cia:
     size: 2032576
+    size_str: 1 MiB
     url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.1.1/Universal-Updater.cia
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png

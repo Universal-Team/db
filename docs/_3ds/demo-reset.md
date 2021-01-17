@@ -9,9 +9,11 @@ download_page: https://github.com/NPXTobi/Demo-Reset/releases/tag/1.0.0
 downloads:
   Demo-Reset.3dsx:
     size: 1873396
+    size_str: 1 MiB
     url: https://github.com/NPXTobi/Demo-Reset/releases/download/1.0.0/Demo-Reset.3dsx
   Demo-Reset.cia:
     size: 2036672
+    size_str: 1 MiB
     url: https://github.com/NPXTobi/Demo-Reset/releases/download/1.0.0/Demo-Reset.cia
 github: NPXTobi/Demo-Reset
 icon: https://raw.githubusercontent.com/NPXTobi/Demo-Reset/master/gfx/icon.png

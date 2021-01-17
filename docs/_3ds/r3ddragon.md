@@ -9,6 +9,7 @@ download_page: https://github.com/mrdanielps/r3Ddragon/releases/tag/v0.87
 downloads:
   r3Ddragon-v0.87.zip:
     size: 463677
+    size_str: 452 KiB
     url: https://github.com/mrdanielps/r3Ddragon/releases/download/v0.87/r3Ddragon-v0.87.zip
 github: mrdanielps/r3Ddragon
 icon: https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/icon.png

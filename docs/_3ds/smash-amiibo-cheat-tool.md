@@ -9,12 +9,15 @@ download_page: https://github.com/Ordim3n/Smash-Amiibo-Cheat-Tool/releases/tag/2
 downloads:
   Release.zip:
     size: 412337
+    size_str: 402 KiB
     url: https://github.com/Ordim3n/Smash-Amiibo-Cheat-Tool/releases/download/2.0/Release.zip
   SmashAmiiboCheatTool.3dsx:
     size: 682076
+    size_str: 666 KiB
     url: https://github.com/Ordim3n/Smash-Amiibo-Cheat-Tool/releases/download/2.0/SmashAmiiboCheatTool.3dsx
   SmashAmiiboCheatTool.cia:
     size: 857024
+    size_str: 836 KiB
     url: https://github.com/Ordim3n/Smash-Amiibo-Cheat-Tool/releases/download/2.0/SmashAmiiboCheatTool.cia
 github: Ordim3n/Smash-Amiibo-Cheat-Tool
 icon: https://raw.githubusercontent.com/Ordim3n/Smash-Amiibo-Cheat-Tool/master/meta/icon.png

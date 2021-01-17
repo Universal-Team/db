@@ -9,6 +9,7 @@ download_page: https://github.com/RocketRobz/hiyaCFW/releases/tag/v1.4.0
 downloads:
   hiyaCFW.7z:
     size: 329866
+    size_str: 322 KiB
     url: https://github.com/RocketRobz/hiyaCFW/releases/download/v1.4.0/hiyaCFW.7z
 github: RocketRobz/hiyaCFW
 icon: https://raw.githubusercontent.com/RocketRobz/hiyaCFW/unlaunch/icon.bmp

@@ -9,6 +9,7 @@ download_page: https://github.com/nop90/POWDER-3DS/releases/tag/v1%2C1
 downloads:
   Powder.v1.1.zip:
     size: 2372799
+    size_str: 2 MiB
     url: https://github.com/nop90/POWDER-3DS/releases/download/v1%2C1/Powder.v1.1.zip
 github: nop90/POWDER-3DS
 icon: https://raw.githubusercontent.com/nop90/POWDER-3DS/master/port/3ds/icon.png

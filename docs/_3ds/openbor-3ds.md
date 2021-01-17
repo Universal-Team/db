@@ -10,9 +10,11 @@ download_page: https://github.com/MrHuu/openbor-3ds/releases/tag/v0.0.4
 downloads:
   OpenBOR.3dsx:
     size: 1753404
+    size_str: 1 MiB
     url: https://github.com/MrHuu/openbor-3ds/releases/download/v0.0.4/OpenBOR.3dsx
   OpenBOR.cia:
     size: 1188288
+    size_str: 1 MiB
     url: https://github.com/MrHuu/openbor-3ds/releases/download/v0.0.4/OpenBOR.cia
 github: MrHuu/openbor-3ds
 icon: https://raw.githubusercontent.com/MrHuu/openbor-3ds/3DS/engine/resources/ctr/OpenBOR_Icon_48x48.png

@@ -11,9 +11,11 @@ download_page: https://github.com/noirscape/SRAU/releases/tag/v1.1
 downloads:
   SRAU.7z:
     size: 556954
+    size_str: 543 KiB
     url: https://github.com/noirscape/SRAU/releases/download/v1.1/SRAU.7z
   SRAU.cia:
     size: 582592
+    size_str: 568 KiB
     url: https://github.com/noirscape/SRAU/releases/download/v1.1/SRAU.cia
 github: noirscape/SRAU
 icon: https://raw.githubusercontent.com/noirscape/SRAU/master/meta/icon.png

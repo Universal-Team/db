@@ -9,6 +9,7 @@ download_page: https://github.com/Ryuzaki-MrL/Cthulhu/releases/tag/1.3.5
 downloads:
   Cthulhu.3dsx:
     size: 234800
+    size_str: 229 KiB
     url: https://github.com/Ryuzaki-MrL/Cthulhu/releases/download/1.3.5/Cthulhu.3dsx
 github: Ryuzaki-MrL/Cthulhu
 icon: https://raw.githubusercontent.com/Ryuzaki-MrL/Cthulhu/master/meta/icon.png

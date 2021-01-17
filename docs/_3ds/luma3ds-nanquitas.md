@@ -11,6 +11,7 @@ download_page: https://github.com/Nanquitas/Luma3DS/releases/tag/v10.2.1
 downloads:
   boot.firm:
     size: 240640
+    size_str: 235 KiB
     url: https://github.com/Nanquitas/Luma3DS/releases/download/v10.2.1/boot.firm
 github: Nanquitas/Luma3DS
 image: https://avatars3.githubusercontent.com/u/13298129?v=4

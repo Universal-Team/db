@@ -9,9 +9,11 @@ download_page: https://github.com/ihaveamac/screenshot-merge/releases/tag/1.4
 downloads:
   screenshot-merge.3dsx:
     size: 1509892
+    size_str: 1 MiB
     url: https://github.com/ihaveamac/screenshot-merge/releases/download/1.4/screenshot-merge.3dsx
   screenshot-merge1.4.cia:
     size: 1012672
+    size_str: 988 KiB
     url: https://github.com/ihaveamac/screenshot-merge/releases/download/1.4/screenshot-merge1.4.cia
 github: ihaveamac/screenshot-merge
 icon: https://raw.githubusercontent.com/ihaveamac/screenshot-merge/master/resources/icon.png

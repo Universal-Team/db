@@ -9,9 +9,11 @@ download_page: https://github.com/togetg/TJAPlayer_for_3DS/releases/tag/v1.01
 downloads:
   TJAPlayer_for_3DS.3dsx:
     size: 609900
+    size_str: 595 KiB
     url: https://github.com/togetg/TJAPlayer_for_3DS/releases/download/v1.01/TJAPlayer_for_3DS.3dsx
   TJAPlayer_for_3DS.cia:
     size: 1023424
+    size_str: 999 KiB
     url: https://github.com/togetg/TJAPlayer_for_3DS/releases/download/v1.01/TJAPlayer_for_3DS.cia
 github: togetg/TJAPlayer_for_3DS
 icon: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resources/icon.png

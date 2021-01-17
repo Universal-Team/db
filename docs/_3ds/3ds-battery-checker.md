@@ -9,12 +9,15 @@ download_page: https://github.com/Core-2-Extreme/3DS-Battery-Checker/releases/ta
 downloads:
   3DS_Battery_Checker.3dsx:
     size: 215020
+    size_str: 209 KiB
     url: https://github.com/Core-2-Extreme/3DS-Battery-Checker/releases/download/v1.2.0/3DS_Battery_Checker.3dsx
   3DS_Battery_Checker.cia:
     size: 582592
+    size_str: 568 KiB
     url: https://github.com/Core-2-Extreme/3DS-Battery-Checker/releases/download/v1.2.0/3DS_Battery_Checker.cia
   3DS_Battery_Checker_v1.2.0.zip:
     size: 5761635
+    size_str: 5 MiB
     url: https://github.com/Core-2-Extreme/3DS-Battery-Checker/releases/download/v1.2.0/3DS_Battery_Checker_v1.2.0.zip
 github: Core-2-Extreme/3DS-Battery-Checker
 icon: https://raw.githubusercontent.com/Core-2-Extreme/3DS-Battery-Checker/master/v1.2.0/resource/icon.png

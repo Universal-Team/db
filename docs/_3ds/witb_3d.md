@@ -10,9 +10,11 @@ download_page: https://github.com/Manurocker95/WITB_3D/releases/tag/1.1
 downloads:
   WITB_3D.cia:
     size: 4899776
+    size_str: 4 MiB
     url: https://github.com/Manurocker95/WITB_3D/releases/download/1.1/WITB_3D.cia
   WITB_3D.rar:
     size: 5982710
+    size_str: 5 MiB
     url: https://github.com/Manurocker95/WITB_3D/releases/download/1.1/WITB_3D.rar
 github: Manurocker95/WITB_3D
 icon: https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/icon.png

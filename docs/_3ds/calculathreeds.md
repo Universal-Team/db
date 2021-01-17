@@ -9,6 +9,7 @@ download_page: https://github.com/LiquidFenrir/CalculaThreeDS/releases/tag/v0.2
 downloads:
   CalculaThreeDS.3dsx:
     size: 332796
+    size_str: 324 KiB
     url: https://github.com/LiquidFenrir/CalculaThreeDS/releases/download/v0.2/CalculaThreeDS.3dsx
 github: LiquidFenrir/CalculaThreeDS
 icon: https://raw.githubusercontent.com/LiquidFenrir/CalculaThreeDS/main/icon.png

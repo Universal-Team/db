@@ -8,6 +8,7 @@ download_page: https://github.com/CTurt/3DSController/releases/tag/0.6
 downloads:
   3DSController0.6.zip:
     size: 702073
+    size_str: 685 KiB
     url: https://github.com/CTurt/3DSController/releases/download/0.6/3DSController0.6.zip
 github: CTurt/3DSController
 icon: https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/icon48x48.png

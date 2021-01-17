@@ -9,6 +9,7 @@ download_page: https://github.com/Drenn1/GameYob/releases/tag/v0.5.2
 downloads:
   gameyob.zip:
     size: 627066
+    size_str: 612 KiB
     url: https://github.com/Drenn1/GameYob/releases/download/v0.5.2/gameyob.zip
 github: Drenn1/GameYob
 icon: https://raw.githubusercontent.com/Drenn1/GameYob/master/platform/ds/icon.bmp

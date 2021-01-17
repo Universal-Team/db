@@ -9,6 +9,7 @@ download_page: https://github.com/nop90/OpenSyobon3DS/releases/tag/v1.2
 downloads:
   OpenSyobon3DS_v1.2.zip:
     size: 14967899
+    size_str: 14 MiB
     url: https://github.com/nop90/OpenSyobon3DS/releases/download/v1.2/OpenSyobon3DS_v1.2.zip
 github: nop90/OpenSyobon3DS
 icon: https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/icon.png

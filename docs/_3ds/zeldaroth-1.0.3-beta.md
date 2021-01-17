@@ -11,15 +11,19 @@ download_page: https://github.com/vargaviktor/ZeldaROTH/releases/tag/1.0.3-beta
 downloads:
   ZeldaROTH.cia:
     size: 53617600
+    size_str: 51 MiB
     url: https://github.com/vargaviktor/ZeldaROTH/releases/download/1.0.3-beta/ZeldaROTH.cia
   ZeldaROTH_3dsx.zip:
     size: 44108235
+    size_str: 42 MiB
     url: https://github.com/vargaviktor/ZeldaROTH/releases/download/1.0.3-beta/ZeldaROTH_3dsx.zip
   ZeldaROTH_cia.zip:
     size: 45063210
+    size_str: 42 MiB
     url: https://github.com/vargaviktor/ZeldaROTH/releases/download/1.0.3-beta/ZeldaROTH_cia.zip
   qrcode.png:
     size: 633
+    size_str: 633 Bytes
     url: https://github.com/vargaviktor/ZeldaROTH/releases/download/1.0.3-beta/qrcode.png
 github: vargaviktor/ZeldaROTH
 icon: https://raw.githubusercontent.com/vargaviktor/ZeldaROTH/master/resources/icon.png

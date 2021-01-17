@@ -16,9 +16,11 @@ prerelease:
   downloads:
     Biniax2_3DSX.v0.4.zip:
       size: 18375236
+      size_str: 17 MiB
       url: https://github.com/nop90/Biniax2-3DS/releases/download/V0.4alpha/Biniax2_3DSX.v0.4.zip
     Biniax2_CIA.v0.4.zip:
       size: 18761345
+      size_str: 17 MiB
       url: https://github.com/nop90/Biniax2-3DS/releases/download/V0.4alpha/Biniax2_CIA.v0.4.zip
   update_notes: '<ul>
 

@@ -9,6 +9,7 @@ download_page: https://github.com/Ryuzaki-MrL/RomFS-Explorer/releases/tag/v1.0.1
 downloads:
   RomFSExplorer.zip:
     size: 1093834
+    size_str: 1 MiB
     url: https://github.com/Ryuzaki-MrL/RomFS-Explorer/releases/download/v1.0.1/RomFSExplorer.zip
 github: Ryuzaki-MrL/RomFS-Explorer
 icon: https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS-Explorer/master/meta/icon.png

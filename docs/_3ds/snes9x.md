@@ -9,6 +9,7 @@ download_page: https://github.com/bubble2k16/snes9x_3ds/releases/tag/v1.30
 downloads:
   snes9x_3ds-v1.30.zip:
     size: 1832323
+    size_str: 1 MiB
     url: https://github.com/bubble2k16/snes9x_3ds/releases/download/v1.30/snes9x_3ds-v1.30.zip
 github: bubble2k16/snes9x_3ds
 icon: https://raw.githubusercontent.com/bubble2k16/snes9x_3ds/master/assets/icon.png

@@ -10,9 +10,11 @@ download_page: https://github.com/MechanicalDragon0687/GYTB/releases/tag/1.0
 downloads:
   GYTB.cia:
     size: 297408
+    size_str: 290 KiB
     url: https://github.com/MechanicalDragon0687/GYTB/releases/download/1.0/GYTB.cia
   GYTB_hax.zip:
     size: 180734
+    size_str: 176 KiB
     url: https://github.com/MechanicalDragon0687/GYTB/releases/download/1.0/GYTB_hax.zip
 github: MechanicalDragon0687/GYTB
 icon: https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resources/icon.png

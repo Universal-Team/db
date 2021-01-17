@@ -8,9 +8,11 @@ download_page: https://github.com/HIDE810/WiFi-Status-Checker/releases/tag/1.0
 downloads:
   WiFi.3dsx:
     size: 175544
+    size_str: 171 KiB
     url: https://github.com/HIDE810/WiFi-Status-Checker/releases/download/1.0/WiFi.3dsx
   WiFi.cia:
     size: 542144
+    size_str: 529 KiB
     url: https://github.com/HIDE810/WiFi-Status-Checker/releases/download/1.0/WiFi.cia
 github: HIDE810/WiFi-Status-Checker
 icon: https://raw.githubusercontent.com/HIDE810/WiFi-Status-Checker/master/resource/icon.png

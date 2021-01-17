@@ -11,6 +11,7 @@ download_page: https://github.com/DS-Homebrew/GodMode9i/releases/tag/v2.5.0
 downloads:
   GodMode9i.7z:
     size: 167764
+    size_str: 163 KiB
     url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v2.5.0/GodMode9i.7z
 github: DS-Homebrew/GodMode9i
 icon: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/icon.bmp

@@ -9,9 +9,11 @@ download_page: https://github.com/joel16/3DS-Recovery-Tool/releases/tag/v1.40
 downloads:
   3DS_Recovery_Tool.3dsx:
     size: 497464
+    size_str: 485 KiB
     url: https://github.com/joel16/3DS-Recovery-Tool/releases/download/v1.40/3DS_Recovery_Tool.3dsx
   3DS_Recovery_Tool.cia:
     size: 832448
+    size_str: 812 KiB
     url: https://github.com/joel16/3DS-Recovery-Tool/releases/download/v1.40/3DS_Recovery_Tool.cia
 github: joel16/3DS-Recovery-Tool
 icon: https://raw.githubusercontent.com/joel16/3DS-Recovery-Tool/master/res/ic_launcher_recovery_tool.png

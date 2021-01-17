@@ -9,6 +9,7 @@ download_page: https://github.com/Spaqin/fbwo-3ds/releases/tag/v0.4.1
 downloads:
   fbwo.v0.4.1.zip:
     size: 7350096
+    size_str: 7 MiB
     url: https://github.com/Spaqin/fbwo-3ds/releases/download/v0.4.1/fbwo.v0.4.1.zip
 github: Spaqin/fbwo-3ds
 icon: https://db.universal-team.net/assets/images/icons/fbwo-3ds.png

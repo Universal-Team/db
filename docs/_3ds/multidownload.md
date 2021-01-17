@@ -9,9 +9,11 @@ download_page: https://github.com/hax0kartik/Multidownload/releases/tag/v3.2
 downloads:
   Multidownload.3dsx:
     size: 666948
+    size_str: 651 KiB
     url: https://github.com/hax0kartik/Multidownload/releases/download/v3.2/Multidownload.3dsx
   Multidownload.cia:
     size: 905664
+    size_str: 884 KiB
     url: https://github.com/hax0kartik/Multidownload/releases/download/v3.2/Multidownload.cia
 github: hax0kartik/Multidownload
 icon: https://raw.githubusercontent.com/hax0kartik/Multidownload/master/resources/icon.png

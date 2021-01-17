@@ -9,9 +9,11 @@ download_page: https://github.com/HIDE810/you-are-an-idiot/releases/tag/1.1
 downloads:
   Idiot.3dsx:
     size: 565604
+    size_str: 552 KiB
     url: https://github.com/HIDE810/you-are-an-idiot/releases/download/1.1/Idiot.3dsx
   Idiot.cia:
     size: 861120
+    size_str: 840 KiB
     url: https://github.com/HIDE810/you-are-an-idiot/releases/download/1.1/Idiot.cia
 github: HIDE810/you-are-an-idiot
 icon: https://raw.githubusercontent.com/HIDE810/you-are-an-idiot/master/resource/icon.png

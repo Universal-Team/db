@@ -9,9 +9,11 @@ download_page: https://github.com/Oreo639/LimePlayer3DS/releases/tag/v0.0.9
 downloads:
   LimePlayer3DS.3dsx:
     size: 1049156
+    size_str: 1 MiB
     url: https://github.com/Oreo639/LimePlayer3DS/releases/download/v0.0.9/LimePlayer3DS.3dsx
   LimePlayer3DS.cia:
     size: 1340352
+    size_str: 1 MiB
     url: https://github.com/Oreo639/LimePlayer3DS/releases/download/v0.0.9/LimePlayer3DS.cia
 github: Oreo639/LimePlayer3DS
 icon: https://raw.githubusercontent.com/Oreo639/LimePlayer3DS/master/meta/icon.png

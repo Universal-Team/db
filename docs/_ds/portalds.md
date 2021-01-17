@@ -9,6 +9,7 @@ download_page: https://github.com/smealum/portalDS/releases/tag/r1
 downloads:
   ASDS_r1.zip:
     size: 1397420
+    size_str: 1 MiB
     url: https://github.com/smealum/portalDS/releases/download/r1/ASDS_r1.zip
 github: smealum/portalDS
 icon: https://raw.githubusercontent.com/smealum/portalDS/master/logo.bmp

@@ -10,6 +10,7 @@ download_page: https://github.com/suloku/pdrpse/releases/tag/0.3
 downloads:
   pdrpse_0.3.zip:
     size: 521315
+    size_str: 509 KiB
     url: https://github.com/suloku/pdrpse/releases/download/0.3/pdrpse_0.3.zip
 github: suloku/pdrpse
 icon: https://raw.githubusercontent.com/suloku/pdrpse/master/icon.png

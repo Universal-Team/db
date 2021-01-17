@@ -9,9 +9,11 @@ download_page: https://github.com/joel16/FriendMii/releases/tag/v1.00
 downloads:
   FriendMii.3dsx:
     size: 254536
+    size_str: 248 KiB
     url: https://github.com/joel16/FriendMii/releases/download/v1.00/FriendMii.3dsx
   FriendMii.cia:
     size: 590784
+    size_str: 576 KiB
     url: https://github.com/joel16/FriendMii/releases/download/v1.00/FriendMii.cia
 github: joel16/FriendMii
 icon: https://raw.githubusercontent.com/joel16/FriendMii/master/res/ic_launcher_friendmii.png

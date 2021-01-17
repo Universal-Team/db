@@ -9,12 +9,15 @@ download_page: https://github.com/wavemotion-dave/StellaDS/releases/tag/1.7
 downloads:
   StellaDS.nds:
     size: 975360
+    size_str: 952 KiB
     url: https://github.com/wavemotion-dave/StellaDS/releases/download/1.7/StellaDS.nds
   compatibility.txt:
     size: 24960
+    size_str: 24 KiB
     url: https://github.com/wavemotion-dave/StellaDS/releases/download/1.7/compatibility.txt
   readme.txt:
     size: 8661
+    size_str: 8 KiB
     url: https://github.com/wavemotion-dave/StellaDS/releases/download/1.7/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp

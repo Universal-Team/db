@@ -9,6 +9,7 @@ download_page: https://github.com/Epicpkmn11/dsi-camera/releases/tag/v1.0.0
 downloads:
   dsi-camera.nds:
     size: 238592
+    size_str: 233 KiB
     url: https://github.com/Epicpkmn11/dsi-camera/releases/download/v1.0.0/dsi-camera.nds
 github: Epicpkmn11/dsi-camera
 icon: https://raw.githubusercontent.com/Epicpkmn11/dsi-camera/master/icon.bmp

@@ -10,12 +10,15 @@ download_page: https://github.com/Jacudibu/Snake2DS/releases/tag/v1.0
 downloads:
   Snake2DS-3DSFiles-v1.0.zip:
     size: 874256
+    size_str: 853 KiB
     url: https://github.com/Jacudibu/Snake2DS/releases/download/v1.0/Snake2DS-3DSFiles-v1.0.zip
   Snake2DS-PC-v1.0.zip:
     size: 2711426
+    size_str: 2 MiB
     url: https://github.com/Jacudibu/Snake2DS/releases/download/v1.0/Snake2DS-PC-v1.0.zip
   Snake2DS.cia:
     size: 1217472
+    size_str: 1 MiB
     url: https://github.com/Jacudibu/Snake2DS/releases/download/v1.0/Snake2DS.cia
 github: Jacudibu/Snake2DS
 icon: https://raw.githubusercontent.com/Jacudibu/Snake2DS/master/icon_large.png

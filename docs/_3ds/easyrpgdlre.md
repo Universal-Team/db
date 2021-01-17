@@ -9,6 +9,7 @@ download_page: https://github.com/gnmmarechal/easyrpgdlre/releases/tag/v2.1.1
 downloads:
   easyrpg-updater-re-v2.1.1.cia:
     size: 1516480
+    size_str: 1 MiB
     url: https://github.com/gnmmarechal/easyrpgdlre/releases/download/v2.1.1/easyrpg-updater-re-v2.1.1.cia
 github: gnmmarechal/easyrpgdlre
 icon: https://db.universal-team.net/assets/images/icons/easyrpgdlre.png

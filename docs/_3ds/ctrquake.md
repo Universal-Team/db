@@ -9,9 +9,11 @@ download_page: https://github.com/masterfeizz/ctrQuake/releases/tag/v0.8
 downloads:
   ctrQuake.cia:
     size: 984000
+    size_str: 960 KiB
     url: https://github.com/masterfeizz/ctrQuake/releases/download/v0.8/ctrQuake.cia
   ctrQuake.zip:
     size: 8921677
+    size_str: 8 MiB
     url: https://github.com/masterfeizz/ctrQuake/releases/download/v0.8/ctrQuake.zip
 github: masterfeizz/ctrQuake
 icon: https://raw.githubusercontent.com/masterfeizz/ctrQuake/master/icon.png

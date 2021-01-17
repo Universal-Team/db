@@ -9,9 +9,11 @@ download_page: https://github.com/Swiftloke/ModMoon/releases/tag/v3.0.1
 downloads:
   ModMoon.3dsx:
     size: 1580824
+    size_str: 1 MiB
     url: https://github.com/Swiftloke/ModMoon/releases/download/v3.0.1/ModMoon.3dsx
   ModMoon.cia:
     size: 1872832
+    size_str: 1 MiB
     url: https://github.com/Swiftloke/ModMoon/releases/download/v3.0.1/ModMoon.cia
 github: Swiftloke/ModMoon
 icon: https://raw.githubusercontent.com/Swiftloke/ModMoon/master/CIA/icon.png

@@ -9,6 +9,7 @@ download_page: https://github.com/mariohackandglitch/homebrew_launcher_dummy/rel
 downloads:
   Homebrew_Launcher.cia:
     size: 377792
+    size_str: 368 KiB
     url: https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/download/v1.0/Homebrew_Launcher.cia
 github: mariohackandglitch/homebrew_launcher_dummy
 icon: https://raw.githubusercontent.com/mariohackandglitch/homebrew_launcher_dummy/master/resources/icon.png

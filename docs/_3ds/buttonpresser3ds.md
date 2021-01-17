@@ -10,9 +10,11 @@ download_page: https://github.com/trainboy2019/ButtonPresser3DS/releases/tag/2.0
 downloads:
   3ds.zip:
     size: 1897892
+    size_str: 1 MiB
     url: https://github.com/trainboy2019/ButtonPresser3DS/releases/download/2.0/3ds.zip
   ButtonPresser3DS.cia:
     size: 2289088
+    size_str: 2 MiB
     url: https://github.com/trainboy2019/ButtonPresser3DS/releases/download/2.0/ButtonPresser3DS.cia
 github: trainboy2019/ButtonPresser3DS
 icon: https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/icon.png

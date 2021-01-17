@@ -9,6 +9,7 @@ download_page: https://github.com/Epicpkmn11/dfc/releases/tag/v1.0.0
 downloads:
   dfc.nds:
     size: 217600
+    size_str: 212 KiB
     url: https://github.com/Epicpkmn11/dfc/releases/download/v1.0.0/dfc.nds
 github: Epicpkmn11/dfc
 icon: https://raw.githubusercontent.com/Epicpkmn11/dfc/master/resources/icon.png

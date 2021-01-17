@@ -12,11 +12,13 @@ downloads:
   OpenTitus_MOKTAR_CIA_25-12-2018.7z: https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_MOKTAR_CIA_25-12-2018.7z
   OpenTitus_MOKTAR_LOW_FREQ_27-12-2018.7z:
     size: 1044734
+    size_str: 1020 KiB
     url: https://github.com/MrHuu/opentitus-3ds/releases/download/27-12-2018/OpenTitus_MOKTAR_LOW_FREQ_27-12-2018.7z
   OpenTitus_TITUS_3DSX_23-12-2018.7z: https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_TITUS_3DSX_23-12-2018.7z
   OpenTitus_TITUS_CIA_25-12-2018.7z: https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_TITUS_CIA_25-12-2018.7z
   OpenTitus_TITUS_LOW_FREQ_27-12-2018.7z:
     size: 1041305
+    size_str: 1016 KiB
     url: https://github.com/MrHuu/opentitus-3ds/releases/download/27-12-2018/OpenTitus_TITUS_LOW_FREQ_27-12-2018.7z
 github: MrHuu/opentitus-3ds
 icon: https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_icon_48x48.png

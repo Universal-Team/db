@@ -9,9 +9,11 @@ download_page: https://github.com/Cruel/DrawAttack/releases/tag/1.3
 downloads:
   DrawAttack.3dsx:
     size: 2184128
+    size_str: 2 MiB
     url: https://github.com/Cruel/DrawAttack/releases/download/1.3/DrawAttack.3dsx
   DrawAttack.cia:
     size: 2761664
+    size_str: 2 MiB
     url: https://github.com/Cruel/DrawAttack/releases/download/1.3/DrawAttack.cia
 github: Cruel/DrawAttack
 icon: https://raw.githubusercontent.com/Cruel/DrawAttack/master/res/app/icon.png

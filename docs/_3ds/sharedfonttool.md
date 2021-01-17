@@ -9,21 +9,27 @@ download_page: https://github.com/dnasdw/SharedFontTool/releases/tag/v3.1
 downloads:
   SFontT.3ds:
     size: 20676608
+    size_str: 19 MiB
     url: https://github.com/dnasdw/SharedFontTool/releases/download/v3.1/SFontT.3ds
   SFontT.cia:
     size: 20689856
+    size_str: 19 MiB
     url: https://github.com/dnasdw/SharedFontTool/releases/download/v3.1/SFontT.cia
   SFontT.zip:
     size: 38110427
+    size_str: 36 MiB
     url: https://github.com/dnasdw/SharedFontTool/releases/download/v3.1/SFontT.zip
   SFontT80.3ds:
     size: 20676608
+    size_str: 19 MiB
     url: https://github.com/dnasdw/SharedFontTool/releases/download/v3.1/SFontT80.3ds
   SFontT80.cia:
     size: 20689856
+    size_str: 19 MiB
     url: https://github.com/dnasdw/SharedFontTool/releases/download/v3.1/SFontT80.cia
   SFontT80.zip:
     size: 38112086
+    size_str: 36 MiB
     url: https://github.com/dnasdw/SharedFontTool/releases/download/v3.1/SFontT80.zip
 github: dnasdw/SharedFontTool
 icon: https://raw.githubusercontent.com/dnasdw/SharedFontTool/master/meta/icon_3ds.png

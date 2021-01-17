@@ -9,9 +9,11 @@ download_page: https://github.com/Hoksy/ravimid/releases/tag/1.2
 downloads:
   ravimid.cia:
     size: 2925504
+    size_str: 2 MiB
     url: https://github.com/Hoksy/ravimid/releases/download/1.2/ravimid.cia
   ravimid_deluxe.cia:
     size: 2917312
+    size_str: 2 MiB
     url: https://github.com/Hoksy/ravimid/releases/download/1.2/ravimid_deluxe.cia
 github: Hoksy/ravimid
 icon: https://db.universal-team.net/assets/images/icons/ravimid.png

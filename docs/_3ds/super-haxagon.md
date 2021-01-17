@@ -9,12 +9,15 @@ download_page: https://github.com/RedTopper/Super-Haxagon/releases/tag/3.3.0
 downloads:
   SuperHaxagon-Windows.zip:
     size: 18939886
+    size_str: 18 MiB
     url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.3.0/SuperHaxagon-Windows.zip
   SuperHaxagon.3dsx:
     size: 20133244
+    size_str: 19 MiB
     url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.3.0/SuperHaxagon.3dsx
   SuperHaxagon.cia:
     size: 20562880
+    size_str: 19 MiB
     url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.3.0/SuperHaxagon.cia
 github: RedInquisitive/Super-Haxagon
 icon: https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/icon-3ds.png

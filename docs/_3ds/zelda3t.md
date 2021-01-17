@@ -10,9 +10,11 @@ download_page: https://github.com/nop90/Zelda3T/releases/tag/v1.0
 downloads:
   Zelda3T_3DSX_v1.0.zip:
     size: 28244793
+    size_str: 26 MiB
     url: https://github.com/nop90/Zelda3T/releases/download/v1.0/Zelda3T_3DSX_v1.0.zip
   Zelda3T_v1.0.cia:
     size: 46773184
+    size_str: 44 MiB
     url: https://github.com/nop90/Zelda3T/releases/download/v1.0/Zelda3T_v1.0.cia
 github: nop90/Zelda3T
 icon: https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/icon.png

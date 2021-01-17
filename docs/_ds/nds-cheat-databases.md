@@ -25,30 +25,39 @@ download_page: https://bitbucket.org/DeadSkullzJr/nds-cheat-databases/src/master
 downloads:
   Cheats/cheat.dat:
     size: 44493500
+    size_str: 1 MiB
     url: https://api.bitbucket.org/2.0/repositories/DeadSkullzJr/nds-cheat-databases/src/933c375545d3ff90854d1e210dcf4b3b31d9d585/Cheats/cheat.dat
   Cheats/cheat.db:
     size: 75934073
+    size_str: 1 MiB
     url: https://api.bitbucket.org/2.0/repositories/DeadSkullzJr/nds-cheat-databases/src/933c375545d3ff90854d1e210dcf4b3b31d9d585/Cheats/cheat.db
   Cheats/cheat_EN.db:
     size: 75934073
+    size_str: 1 MiB
     url: https://api.bitbucket.org/2.0/repositories/DeadSkullzJr/nds-cheat-databases/src/933c375545d3ff90854d1e210dcf4b3b31d9d585/Cheats/cheat_EN.db
   Cheats/cheats.dat:
     size: 11596364
+    size_str: 1 MiB
     url: https://api.bitbucket.org/2.0/repositories/DeadSkullzJr/nds-cheat-databases/src/933c375545d3ff90854d1e210dcf4b3b31d9d585/Cheats/cheats.dat
   Cheats/cheats.xml:
     size: 108105819
+    size_str: 1 MiB
     url: https://api.bitbucket.org/2.0/repositories/DeadSkullzJr/nds-cheat-databases/src/933c375545d3ff90854d1e210dcf4b3b31d9d585/Cheats/cheats.xml
   Cheats/ezarcode.dat:
     size: 44493500
+    size_str: 1 MiB
     url: https://api.bitbucket.org/2.0/repositories/DeadSkullzJr/nds-cheat-databases/src/933c375545d3ff90854d1e210dcf4b3b31d9d585/Cheats/ezarcode.dat
   Cheats/user.evoCheats:
     size: 11596396
+    size_str: 1 MiB
     url: https://api.bitbucket.org/2.0/repositories/DeadSkullzJr/nds-cheat-databases/src/933c375545d3ff90854d1e210dcf4b3b31d9d585/Cheats/user.evoCheats
   Cheats/usrcheat.dat:
     size: 44493500
+    size_str: 1 MiB
     url: https://api.bitbucket.org/2.0/repositories/DeadSkullzJr/nds-cheat-databases/src/933c375545d3ff90854d1e210dcf4b3b31d9d585/Cheats/usrcheat.dat
   Cheats/~SCC Cheats~.7z:
     size: 1363341
+    size_str: 1 MiB
     url: https://api.bitbucket.org/2.0/repositories/DeadSkullzJr/nds-cheat-databases/src/933c375545d3ff90854d1e210dcf4b3b31d9d585/Cheats/~SCC%20Cheats~.7z
 image: https://db.universal-team.net/assets/images/images/nds-cheat-databases.png
 image_length: 10188

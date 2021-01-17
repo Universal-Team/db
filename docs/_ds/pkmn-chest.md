@@ -11,9 +11,11 @@ download_page: https://github.com/Universal-Team/pkmn-chest/releases/tag/v2.2
 downloads:
   pkmn-chest.cia:
     size: 1546496
+    size_str: 1 MiB
     url: https://github.com/Universal-Team/pkmn-chest/releases/download/v2.2/pkmn-chest.cia
   pkmn-chest.nds:
     size: 7269376
+    size_str: 6 MiB
     url: https://github.com/Universal-Team/pkmn-chest/releases/download/v2.2/pkmn-chest.nds
 github: Universal-Team/pkmn-chest
 icon: https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/icon.bmp
