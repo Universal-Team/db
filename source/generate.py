@@ -239,7 +239,8 @@ for app in source:
 				if not asset["name"] in app["downloads"] and len(re.findall("(nro|vpk|PS3|PSP|vita|switch|wii|osx|ubuntu|win|elf)", asset["name"])) == 0:
 					app["downloads"][asset["name"]] = {
 						"url": asset["browser_download_url"],
-						"size": asset["size"]
+						"size": asset["size"],
+						"size_str": byteCount(asset["size"])
 					}
 
 		if prerelease:
@@ -279,7 +280,8 @@ for app in source:
 				if not asset["name"] in app["prerelease"]["downloads"]:
 					app["prerelease"]["downloads"][asset["name"]] = {
 						"url": asset["browser_download_url"],
-						"size": asset["size"]
+						"size": asset["size"],
+						"size_str": byteCount(asset["size"])
 					}
 
 	if "bitbucket" in app:
@@ -311,7 +313,8 @@ for app in source:
 			if not download in app["downloads"]:
 				app["downloads"][download] = {
 					"url": fileAPI["links"]["self"]["href"],
-					"size": fileAPI["size"]
+					"size": fileAPI["size"],
+					"size_str": byteCount(asset["size"])
 				}
 
 			if not "download_page" in app:
