@@ -353,6 +353,8 @@ for app in source:
 					"description": screenshot[:screenshot.rfind(".")].capitalize().replace("-", " ")
 				})
 
+	if "update_notes_md" in app and "update_notes" not in app:
+		app["update_notes"] = requests.post("https://api.github.com/markdown", headers = header if header else None, json = {"text": app["update_notes_md"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
 
 	if "title" in app:
 		print(webName(app["title"]))
