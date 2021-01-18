@@ -15,22 +15,27 @@ icon: https://raw.githubusercontent.com/SonoSooS/TWPatch_a/master/assets/logo.pn
 image: https://raw.githubusercontent.com/SonoSooS/TWPatch_a/master/assets/banner.png
 image_length: 25344
 layout: app
-prerelease:
-  downloads:
-    TWPatch.cia:
-      url: https://puu.sh/GoWHS/9459f224fb.cia
-  qr:
-    TWPatch.cia: https://db.universal-team.net/assets/images/qr/prerelease/twpatch.cia.png
-  updated: '2020-09-03T19:23:00Z'
-  version: 2020/09/03
 qr:
   TWPatch.cia: https://db.universal-team.net/assets/images/qr/twpatch.cia.png
 source: https://github.com/SonoSooS/TWPatch_a
 systems:
 - 3DS
 title: TWPatch
-updated: '2020-12-26T10:31:21Z'
-version: stable
-version_title: 2020/12/26
+update_notes: '<p>New TWPatch update to get ready for LgyBg support:</p>
+
+  <ul>
+
+  <li>added new kernel patches to make LgyBg functional</li>
+
+  <li>unlocked the kernel patch menu, so it''s easier to access now (Y+B, X+A, START,
+  SELECT)</li>
+
+  </ul>
+
+  <p>LgyBg''s GBA mode is pretty close to alpha release.</p>
+
+  <p>For DS mode, I still need to get touch, datetime, and DSi-specific stuff working.</p>'
+updated: '2021-01-12T06:32:04Z'
+version: 2021/01/12
 website: https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/
 ---
