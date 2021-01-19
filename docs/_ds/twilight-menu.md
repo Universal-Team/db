@@ -5,24 +5,24 @@ categories:
 color: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
-download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v18.2.1
+download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v18.3.0
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 31354338
-    size_str: 29 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v18.2.1/TWiLightMenu-3DS.7z
+    size: 32307298
+    size_str: 30 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v18.3.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 31357014
-    size_str: 29 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v18.2.1/TWiLightMenu-DSi.7z
+    size: 32316783
+    size_str: 30 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v18.3.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 44458106
-    size_str: 42 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v18.2.1/TWiLightMenu-Flashcard.7z
+    size: 45415908
+    size_str: 43 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v18.3.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 44950339
-    size_str: 42 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v18.2.1/TWiLightMenu.7z
+    size: 45894138
+    size_str: 43 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v18.3.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 image: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/logo.png
@@ -76,28 +76,32 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/wavemotion-dave/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/wavemotion-dave">@wavemotion-dave</a>)
-  Updated A5200DS to 2.4!</li>
+  Updated Atari emulators to the latest versions.</li>
+
+  <li><strong>Native GBA ROM loader:</strong> Added support for multiboot ROMs.</li>
+
+  <li><code>.agb</code> and <code>.mb</code> GBA ROM files are now shown.</li>
+
+  <li><strong>DS Phat/lite:</strong> If no compatible Slot-2 flashcard is found, the
+  GBA launch method will fall back from native to GBARunner2, instead of hiding the
+  GBA ROMs.</li>
 
   </ul>
 
-  <p><strong>Improvements</strong></p>
+  <p><strong>Improvement</strong></p>
 
   <ul>
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Optimized cheat writing code.
+  <li><strong>DSi/3DS/Saturn/HBL themes:</strong> Moved some common drawing code to
+  ITCM.
 
   <ul>
 
-  <li>This shaves off nearly 300KB from each theme <code>.srldr</code> file.</li>
+  <li>This should fix the black line flicker that happens from time to time.</li>
 
   </ul>
 
   </li>
-
-  <li>On DS Phat/lite consoles, the bigger DSi-type font is now loaded into the DS
-  Memory Expansion Pak or a similar Slot-2 cart.</li>
 
   </ul>
 
@@ -105,26 +109,20 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
 
   <ul>
 
-  <li>Fixed Guru Meditation Error occurring when loading the current ROM list in the
-  DSi/3DS/Saturn/HBL themes!
+  <li>Fixed Slot-1 booting (or white screen crash, if 3DS game or nothing is inserted)
+  when soft-resetting in a ROM loaded by nds-bootstrap, if you launched Slot-1 in
+  the past.</li>
 
-  <ul>
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  Fixed manual text and glitching on page load.</li>
 
-  <li>SD removal images have been moved to near the end of the DSi RAM.</li>
-
-  <li>Box art cache and 3D cube video have been moved to the extra 16MB on 3DS consoles.</li>
-
-  </ul>
-
-  </li>
-
-  <li><strong>DSi/3DS/Saturn/HBL themes:</strong> Fixed top screen not being cleared,
-  if SD is removed.</li>
+  <li>Fixed font glitches if EZ-Flash Slot-2 cart is inserted.</li>
 
   </ul>'
-updated: '2021-01-10T04:16:44Z'
-version: v18.2.1
-version_title: v18.2.1
+updated: '2021-01-19T18:16:46Z'
+version: v18.3.0
+version_title: v18.3.0
 wiki: https://wiki.ds-homebrew.com/twilightmenu
 ---
 TWiLight Menu++ is an open-source DSi Menu upgrade/replacement for the Nintendo DSi, the Nintendo 3DS, and Nintendo DS flashcards. It can launch Nintendo DS, SNES, NES, GameBoy (color), GameBoy Advance, Sega GameGear/Master System & Mega Drive/Genesis ROMs, as well as DSTWO plugins (if you use a DSTWO) and videos.
