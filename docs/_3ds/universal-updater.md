@@ -91,7 +91,11 @@ update_notes: '<p>See <a href="https://github.com/Universal-Team/Universal-Updat
 
   <li>OpenTitus (New 3DS versions)</li>
 
-  </ul>'
+  </ul>
+
+  <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/105116665-cdd4d500-5a90-11eb-9f97-b0f30f1e36b3.png"><img
+  src="https://user-images.githubusercontent.com/41608708/105116665-cdd4d500-5a90-11eb-9f97-b0f30f1e36b3.png"
+  alt="universal-updater cia" style="max-width:100%;"></a></p>'
 updated: '2020-12-29T00:40:07Z'
 version: v3.1.1
 version_title: 'Bug fix update: Update to latest libarchive version'
