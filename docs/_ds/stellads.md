@@ -42,7 +42,7 @@ update_notes: '<ul>
   <li>L-TRIG+DPAD bumps screen offsets. R-TRIG+DPAD changes Y-Scaling</li>
 
   </ul>'
-updated: '2021-01-19T18:23:06Z'
+updated: '2021-01-19T19:03:57Z'
 version: '1.8'
 version_title: Version 1.8
 wiki: https://github.com/wavemotion-dave/StellaDS/wiki
