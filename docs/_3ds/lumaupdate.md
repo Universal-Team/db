@@ -18,7 +18,7 @@ downloads:
     url: https://github.com/KunoichiZ/lumaupdate/releases/download/v2.5/lumaupdater.cia
 github: KunoichiZ/lumaupdate
 icon: https://raw.githubusercontent.com/KunoichiZ/lumaupdate/master/meta/icon.png
-image: https://avatars1.githubusercontent.com/u/19984244?v=4
+image: https://avatars.githubusercontent.com/u/19984244?v=4
 image_length: 1288
 layout: app
 license: wtfpl

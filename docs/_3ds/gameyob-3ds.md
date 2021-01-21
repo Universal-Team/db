@@ -18,7 +18,7 @@ downloads:
     url: https://github.com/Steveice10/GameYob/releases/download/1.0.8/GameYob.zip
 github: Steveice10/GameYob
 icon: https://raw.githubusercontent.com/Steveice10/GameYob/master/meta/icon_3ds.png
-image: https://avatars2.githubusercontent.com/u/1269164?v=4
+image: https://avatars.githubusercontent.com/u/1269164?v=4
 image_length: 39577
 layout: app
 license: mit

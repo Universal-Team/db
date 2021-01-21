@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/TuxSH/TWLSaveTool/releases/download/v1.2/TWLSaveTool.zip
 github: TuxSH/TWLSaveTool
 icon: https://raw.githubusercontent.com/TuxSH/TWLSaveTool/master/app/IconLarge.png
-image: https://avatars2.githubusercontent.com/u/1922548?v=4
+image: https://avatars.githubusercontent.com/u/1922548?v=4
 image_length: 86615
 layout: app
 license: gpl-2.0

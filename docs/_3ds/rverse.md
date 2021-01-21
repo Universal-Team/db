@@ -16,7 +16,7 @@ downloads:
     size_str: 6 KiB
     url: https://github.com/rverseTeam/rverse-Releases/releases/download/v3.0.0/rverse-3ds.zip
 github: rverseTeam/rverse-Releases
-image: https://avatars2.githubusercontent.com/u/38678735?v=4
+image: https://avatars.githubusercontent.com/u/38678735?v=4
 image_length: 18219
 layout: app
 source: https://github.com/rverseTeam/rverse2

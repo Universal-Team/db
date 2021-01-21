@@ -14,7 +14,7 @@ downloads:
     size_str: 356 KiB
     url: https://github.com/LumaTeam/Luma3DS/releases/download/v10.2.1/Luma3DSv10.2.1.zip
 github: LumaTeam/Luma3DS
-image: https://avatars3.githubusercontent.com/u/65085206?v=4
+image: https://avatars.githubusercontent.com/u/65085206?v=4
 image_length: 17885
 layout: app
 license: gpl-3.0
