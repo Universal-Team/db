@@ -45,7 +45,7 @@ layout: compress
 							{% assign cards = site["3ds"] %}
 						{% elsif page.system == "ds" %}
 							{% assign cards = site.ds %}
-							{% elsif page.title == "Home" %}
+						{% elsif page.title == "Home" %}
 							{% assign cards = site["3ds"] | concat: site.ds | uniq %}
 						{% endif %}
 

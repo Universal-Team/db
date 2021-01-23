@@ -12,7 +12,7 @@ layout: compress
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 		<language>en-us</language>
 		{% assign apps = site["3ds"] | concat: site.ds | uniq | sort: "updated" | reverse %}
-		{% for app in apps limit: 5 %}
+		{% for app in apps limit: 4 %}
 			<item>
 				<title>{{ app.title }} updated to {{ app.version | default: "new version" }}</title>
 				<link>
