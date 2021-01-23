@@ -98,7 +98,7 @@ layout: compress
 															{% if app.qr.size == 1 %}
 																{% for qr in app.qr %}
 																	<p class="text-right">
-																		<a class="qr-link" href="{{ qr[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}">
+																		<a class="qr-link" href="{{ qr[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}" aria-label="Show QR Code for {{ qr[0] }}">
 																			<i class="fa fa-qrcode pointer" aria-hidden="true"></i>
 																		</a>
 																	</p>
