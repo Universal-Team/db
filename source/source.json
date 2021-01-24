@@ -5813,5 +5813,10 @@
 				}
 			]
 		}
+	},
+	{
+		"github": "DS-Homebrew/SafeNANDManager",
+		"systems": ["DS"],
+		"categories": ["utility"]
 	}
 ]
