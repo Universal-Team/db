@@ -5817,6 +5817,7 @@
 	{
 		"github": "DS-Homebrew/SafeNANDManager",
 		"systems": ["DS"],
-		"categories": ["utility"]
+		"categories": ["utility"],
+		"unistore_exclude": true
 	}
 ]
