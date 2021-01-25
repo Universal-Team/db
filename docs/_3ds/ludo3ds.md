@@ -5,16 +5,16 @@ categories:
 color: '#675f5d'
 created: '2020-10-11T22:29:51Z'
 description: "Ein Ludo klon f\xFCr den Nintendo 3DS."
-download_page: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/tag/v0.3.0
+download_page: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/tag/v0.4.0
 downloads:
   Ludo3DS.3dsx:
-    size: 577112
-    size_str: 563 KiB
-    url: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/download/v0.3.0/Ludo3DS.3dsx
+    size: 547428
+    size_str: 534 KiB
+    url: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/download/v0.4.0/Ludo3DS.3dsx
   Ludo3DS.cia:
-    size: 545728
-    size_str: 532 KiB
-    url: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/download/v0.3.0/Ludo3DS.cia
+    size: 521152
+    size_str: 508 KiB
+    url: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/download/v0.4.0/Ludo3DS.cia
 github: SuperSaiyajinStackZ/Ludo3DS
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/icon.png
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/Banner.png
@@ -73,15 +73,53 @@ source: https://github.com/SuperSaiyajinStackZ/Ludo3DS
 systems:
 - 3DS
 title: Ludo3DS
-update_notes: "<h2>Was wurde ver\xE4ndert?</h2>\n<ul>\n<li>\n<p>Die Spieldaten Struktur\
-  \ wurde \xFCberarbeitet und ist nun mit LudoJS.. als auch Ludo3DS kompatibel. Das\
-  \ bedeutet jedoch auch, dass \xE4ltere Spieldaten nun ung\xFCltig sind.</p>\n</li>\n\
-  <li>\n<p>Die Benutzeroberfl\xE4che wurde etwas \xFCberarbeitet. Das Keyboard wird\
-  \ nun nicht mehr benutzt.</p>\n</li>\n<li>\n<p>Ein paar Fehlerbehebungen.</p>\n\
-  </li>\n</ul>\n<p>Viel spa\xDF mit Ludo3DS v0.3.0! ~SuperSaiyajinStackZ</p>"
-updated: '2020-12-24T11:54:17Z'
-version: v0.3.0
-version_title: Weihnachts-Release v0.3.0
+update_notes: '<p>This is Ludo3DS v0.4.0 which in my opinion is the full version.</p>
+
+  <h2>What has been added?</h2>
+
+  <ul>
+
+  <li>
+
+  <p>New Button Selector with the figure chips.</p>
+
+  </li>
+
+  <li>
+
+  <p>New Splash screen at startup.</p>
+
+  </li>
+
+  <li>
+
+  <p>Figures can now move optional (animation).</p>
+
+  </li>
+
+  <li>
+
+  <p>Fix an out of bounds access hopefully with the previous figure selection, which
+  brought it to crash.</p>
+
+  </li>
+
+  <li>
+
+  <p>Gamedata have been changed and are compatible with <a href="https://github.com/SuperSaiyajinStackZ/LudoNDS/releases/v0.1.0">LudoNDS</a>
+  v0.1.0 and <a href="https://supersaiyajinstackz.github.io/LudoJS" rel="nofollow">LudoJS</a>
+  v0.3.0.</p>
+
+  </li>
+
+  </ul>
+
+  <p>Screenshots have been updated as well, you can find them at the <a href="https://github.com/SuperSaiyajinStackZ/Ludo3DS/blob/main/README.md">ReadMe</a>.</p>
+
+  <p>Have fun with Ludo3DS v0.4.0! ~SuperSaiyajinStackZ</p>'
+updated: '2021-01-24T23:00:01Z'
+version: v0.4.0
+version_title: StackDay Release!
 wiki: https://github.com/SuperSaiyajinStackZ/Ludo3DS/wiki
 ---
 > The game is playable in Deutsch and English
