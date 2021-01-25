@@ -54,7 +54,7 @@ layout: compress
 						<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4" id="card-container">
 							{% for app in cards limit: page.limit %}
 								{% if page.category == Nil or app.categories contains page.category %}
-									<div class="col mb-3">
+									<div class="col mb-3 {% if page.limit == 4 and forloop.index == 4 %}d-md-none d-xl-block{% endif %}">
 										<div class="card h-100" data-title="{{ app.title | escape}}" data-author="{{ app.author | escape}}" data-description="{{ app.description | escape }}" data-updated="{{ app.updated }}">
 											<a class="flex-grow-1" href="{{ app.url | remove: ".html" }}">
 												{% if app.image %}
