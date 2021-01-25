@@ -1,12 +1,21 @@
-const lengths = [1, 60, 3600, 86400, 604800, 2592000, 31536000, Infinity];
-const labels = ["", "second", "minute", "hour", "day", "week", "month", "year"];
+const labels = {
+	year:   31536000,
+	month:  2592000,
+	week:   604800,
+	day:    86400,
+	hour:   3600,
+	minute: 60,
+	second: 1
+};
+
+const relativeTime = new Intl.RelativeTimeFormat(navigator.language, {numeric: "auto"});
 
 function timeDifference(now, then) {
 	let dif = Math.round((now - then) / 1000);
 
-	for(let i in lengths) {
-		if(dif < lengths[i]) {
-			return Math.round(dif / lengths[i - 1]) + " " + labels[i] + (Math.round(dif / lengths[i - 1]) == 1 ? "" : "s") + " ago";
+	for(let label in labels) {
+		if(Math.abs(dif) > labels[label] || label == "second") {
+			return relativeTime.format(-Math.round(dif / labels[label]), label);
 		}
 	}
 }
