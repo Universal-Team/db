@@ -5690,6 +5690,13 @@
 				{
 					"type": "extractFile",
 					"file": "/RetroArch_3dsx.7z",
+					"input": "3dsx/3ds/RetroArch/RetroArch.smdh",
+					"output": "/3ds/RetroArch/RetroArch.smdh",
+					"message": "Extracting RetroArch.smdh..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/RetroArch_3dsx.7z",
 					"input": "retroarch",
 					"output": "/retroarch",
 					"message": "Extracting RetroArch..."
