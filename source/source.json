@@ -1189,6 +1189,7 @@
 		"categories": ["utility"],
 		"image": "https://db.universal-team.net/assets/images/images/mcu-bricker.png",
 		"icon": "https://db.universal-team.net/assets/images/icons/mcu-bricker.png",
+		"author": "MarcuzD",
 		"description": "Makes your LED go rainbow."
 	},
 	{
@@ -1204,6 +1205,7 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resources/icon.png",
+		"author": "MrCheeze",
 		"autogen_scripts": true,
 		"scripts": {
 			"GYTB.3dsx": [
