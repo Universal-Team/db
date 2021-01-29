@@ -5839,5 +5839,12 @@
 		"systems": ["DS"],
 		"categories": ["utility"],
 		"unistore_exclude": true
+	},
+	{
+		"github": "MechanicalDragon0687/TWLFix-CFW",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"image": "https://raw.githubusercontent.com/MechanicalDragon0687/TWLFix-CFW/master/icon.png",
+		"icon": "https://raw.githubusercontent.com/MechanicalDragon0687/TWLFix-CFW/master/icon.png"
 	}
 ]
