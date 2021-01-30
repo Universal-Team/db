@@ -5,36 +5,39 @@ categories:
 color: '#3f4340'
 created: '2018-12-14T14:57:08Z'
 description: Check your 3DS battery
-download_page: https://github.com/Core-2-Extreme/Battery_mark_for_3DS/releases/tag/v1.2.0
+download_page: https://github.com/Core-2-Extreme/Battery_mark_for_3DS/releases/tag/v2.0
 downloads:
-  3DS_Battery_Checker.3dsx:
-    size: 215020
-    size_str: 209 KiB
-    url: https://github.com/Core-2-Extreme/Battery_mark_for_3DS/releases/download/v1.2.0/3DS_Battery_Checker.3dsx
-  3DS_Battery_Checker.cia:
-    size: 582592
-    size_str: 568 KiB
-    url: https://github.com/Core-2-Extreme/Battery_mark_for_3DS/releases/download/v1.2.0/3DS_Battery_Checker.cia
-  3DS_Battery_Checker_v1.2.0.zip:
-    size: 5761635
+  Battery_mark_for_3DS.3dsx:
+    size: 5625140
     size_str: 5 MiB
-    url: https://github.com/Core-2-Extreme/Battery_mark_for_3DS/releases/download/v1.2.0/3DS_Battery_Checker_v1.2.0.zip
+    url: https://github.com/Core-2-Extreme/Battery_mark_for_3DS/releases/download/v2.0/Battery_mark_for_3DS.3dsx
+  Battery_mark_for_3DS.cia:
+    size: 4613056
+    size_str: 4 MiB
+    url: https://github.com/Core-2-Extreme/Battery_mark_for_3DS/releases/download/v2.0/Battery_mark_for_3DS.cia
 github: Core-2-Extreme/Battery_mark_for_3DS
 icon: https://raw.githubusercontent.com/Core-2-Extreme/Battery_mark_for_3DS/master/resource/icon.png
 image: https://raw.githubusercontent.com/Core-2-Extreme/Battery_mark_for_3DS/master/resource/banner.png
-image_length: 60253
+image_length: 65150
 layout: app
 qr:
-  3DS_Battery_Checker.cia: https://db.universal-team.net/assets/images/qr/3ds_battery_checker.cia.png
+  Battery_mark_for_3DS.cia: https://db.universal-team.net/assets/images/qr/battery_mark_for_3ds.cia.png
 source: https://github.com/Core-2-Extreme/Battery_mark_for_3DS
 systems:
 - 3DS
 title: Battery_mark_for_3DS
-update_notes: '<p>-Add -battery mark result save &amp; view<br>
+update_notes: '<ul>
 
-  -Add -battery history save &amp; view</p>'
-updated: '2019-03-20T12:57:15Z'
-version: v1.2.0
-version_title: 3DS_Battery_Checker v1.2.0
+  <li>Added battery mark ranking</li>
+
+  <li>Test result will be saved to notification list and sdmc:/Battery_mark/result/
+  (csv format)</li>
+
+  <li>Changed battery mark test(test result is not compatible with older version)</li>
+
+  </ul>'
+updated: '2021-01-30T13:49:35Z'
+version: v2.0
+version_title: Battery mark for 3DS v2.0
 wiki: https://github.com/Core-2-Extreme/Battery_mark_for_3DS/wiki
 ---
