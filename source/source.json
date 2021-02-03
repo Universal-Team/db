@@ -5631,7 +5631,7 @@
 	},
 	{
 		"github": "wavemotion-dave/StellaDS",
-		"author": "AlekMaul / Dave Bernazzani",
+		"author": "AlekMaul / wavemotion-dave",
 		"systems": ["DS"],
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp",
@@ -5639,7 +5639,7 @@
 	},
 	{
 		"github": "wavemotion-dave/A7800DS",
-		"author":"AlekMaul / Dave Bernazzani",
+		"author":"AlekMaul / wavemotion-dave",
 		"systems": ["DS"],
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/wavemotion-dave/A7800DS/main/logo.bmp",
@@ -5647,11 +5647,18 @@
 	},
 	{
 		"github": "wavemotion-dave/A5200DS",
-		"author":"AlekMaul / Dave Bernazzani",
+		"author":"AlekMaul / wavemotion-dave",
 		"systems": ["DS"],
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/wavemotion-dave/A5200DS/main/logo.bmp",
 		"image": "https://raw.githubusercontent.com/wavemotion-dave/A5200DS/main/arm9/gfx/bgTop.png"
+	},
+	{
+		"github": "wavemotion-dave/XEGS-DS",
+		"systems": ["DS"],
+		"categories": ["emulator"],
+		"icon": "https://raw.githubusercontent.com/wavemotion-dave/XEGS-DS/main/logo.bmp",
+		"image": "https://raw.githubusercontent.com/wavemotion-dave/XEGS-DS/main/arm9/gfx/bgTop.png"
 	},
 	{
 		"github": "ihaveamac/faketik",
