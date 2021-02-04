@@ -67,7 +67,7 @@ update_notes: '<h1>New Update!!</h1>
 
   <p>You can find a guide about the installation <a href="https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/wiki/How-to-install">here</a>.<br>
 
-  If you encounter any bugs feel free to report them on the official <a href="https://discord.gg/w9nvqjW"
+  If you encounter any bugs feel free to report them on the official <a href="https://discord.com/invite/qJNhVhQGpg"
   rel="nofollow">Vapecord Discord Server</a>.</p>'
 updated: '2021-01-30T18:47:33Z'
 version: v1.9.1
