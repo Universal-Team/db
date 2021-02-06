@@ -6,16 +6,16 @@ color: '#4e3b43'
 created: '2021-01-31T00:11:41Z'
 description: XEGS-DS An Atari 8-bit Computer Emulator (specially targeted for the
   XEGS Gaming System)
-download_page: https://github.com/wavemotion-dave/XEGS-DS/releases/tag/1.1
+download_page: https://github.com/wavemotion-dave/XEGS-DS/releases/tag/1.2
 downloads:
   XEGS-DS.nds:
-    size: 528384
-    size_str: 516 KiB
-    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/1.1/XEGS-DS.nds
+    size: 538624
+    size_str: 526 KiB
+    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/1.2/XEGS-DS.nds
   readme.txt:
-    size: 4398
-    size_str: 4 KiB
-    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/1.1/readme.txt
+    size: 5930
+    size_str: 5 KiB
+    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/1.2/readme.txt
 github: wavemotion-dave/XEGS-DS
 icon: https://raw.githubusercontent.com/wavemotion-dave/XEGS-DS/main/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/XEGS-DS/main/arm9/gfx/bgTop.png
@@ -25,21 +25,13 @@ source: https://github.com/wavemotion-dave/XEGS-DS
 systems:
 - DS
 title: XEGS-DS
-update_notes: '<p>V1.1 : 03-Feb-2021 by wavemotion-dave</p>
-
-  <ul>
-
-  <li>Fixed BRK on keyboard.</li>
-
-  <li>If game crashes, message is shown and emulator no longer auto-quits.</li>
-
-  <li>Improved loading of games so first load doesn''t fail.</li>
-
-  <li>Drive activity light, file read activity for large directories, etc.</li>
-
-  </ul>'
-updated: '2021-02-03T12:41:16Z'
-version: '1.1'
-version_title: Version 1.1
+update_notes: <p>Version 1.2 adds built-in BASIC support (thanks to Avery Lee and
+  the open-source Altirra project) which allows a wider variety of games to be played.
+  A few new optimizations. Fixes for PAL sound and framerate.  You can now tap the
+  lower right corner of the touch screen to toggle A=UP which makes games that have
+  a lot of jumping more enjoyable with a D-Pad (Alley Cat, etc).</p>
+updated: '2021-02-06T13:56:51Z'
+version: '1.2'
+version_title: Version 1.2
 wiki: https://github.com/wavemotion-dave/XEGS-DS/wiki
 ---
