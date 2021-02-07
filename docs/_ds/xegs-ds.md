@@ -2,7 +2,7 @@
 author: wavemotion-dave
 categories:
 - emulator
-color: '#4e3b43'
+color: '#6c616b'
 created: '2021-01-31T00:11:41Z'
 description: XEGS-DS An Atari 8-bit Computer Emulator (specially targeted for the
   XEGS Gaming System)
