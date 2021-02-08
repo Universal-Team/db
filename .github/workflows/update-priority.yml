@@ -1,0 +1,44 @@
+name: Update priority sources
+
+# Run hourly except when the real update runs
+on:
+  schedule:
+    - cron: 0 1-5,7-11,13-17,19-23 * * *
+#   push:
+#     branches: [ master ]
+#     paths: [ source/source.json, source/generate.py, .github/workflows/update.yml ]
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    container: devkitpro/devkitarm
+
+    steps:
+    - uses: actions/checkout@v1
+    
+    - name: Install packages
+      run: |
+        echo deb http://deb.debian.org/debian stable main contrib non-free >> /etc/apt/sources.list
+        sudo apt-get update
+        sudo apt-get install python3-pip -y
+        pip3 install -r source/requirements.txt
+
+    - name: Run generate.py
+      run: |
+        export PATH=$PATH:/opt/devkitpro/tools/bin
+        cd source
+        python3 generate.py ${{ secrets.GITHUB_TOKEN }} priority
+
+    - name: Pull origin
+      run: git pull origin master --ff-only # Pull origin in case a commit has been done while updating
+
+    - name: Push changes
+      uses: github-actions-x/commit@v2.6
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'master'
+        commit-message: 'Update sources'
+        force-add: 'false'
+        files: .
+        name: TWLBot
+        email: flamekat54@aol.com 
