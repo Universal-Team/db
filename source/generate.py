@@ -409,7 +409,7 @@ for app in source:
 				app["color"] = "#{:02x}{:02x}{:02x}".format(color[0], color[1], color[2])
 
 	# Output website page
-	if priorityOnlyMode and ("priority" in app and app["priority"]):
+	if not priorityOnlyMode or ("priority" in app and app["priority"]):
 		if "downloads" in app:
 			for item in app["downloads"]:
 				if item[item.rfind(".") + 1:] == "cia":
@@ -467,7 +467,7 @@ for app in source:
 	output.append(app)
 
 	# Website file
-	if priorityOnlyMode and ("priority" in app and app["priority"]):
+	if not priorityOnlyMode or ("priority" in app and app["priority"]):
 		web = app.copy()
 		web["layout"] = "app"
 		# long description is put as the content
