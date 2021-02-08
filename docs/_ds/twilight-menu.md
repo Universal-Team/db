@@ -43,6 +43,7 @@ nightly:
       url: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Lite.7z
     TWiLightMenu.7z:
       url: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu.7z
+priority: true
 source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
