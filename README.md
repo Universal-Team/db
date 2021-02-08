@@ -12,7 +12,7 @@ Please make an issue here or ask on [our Discord server](https://universal-team.
 It would be nice if you credit us if you use our data, just a link to this repo or the official website with something like "Data from [Universal-DB](https://github.com/Universal-Team/db)" or so would be fine.
 
 ## Running the data collection
-Universal-DB is updated every 6 hours automatically using GitHub Actions, however if you would like to run the data collection and file generation yourself then you will need to:
+Universal-DB is updated automatically every hour / 6 hours (depending on the app's priority) using GitHub Actions, however if you would like to run the data collection and file generation yourself then you will need to:
 1. Install `tex3ds` using [devkitPro's pacman](https://devkitpro.org/wiki/Getting_Started)
    - This is needed to generate the t3x files for the Universal-Updater's UniStore
 1. Install a recent version of [Python 3](https://www.python.org)
@@ -20,9 +20,10 @@ Universal-DB is updated every 6 hours automatically using GitHub Actions, howeve
 1. Run `pip3 -r requirements.txt` to install the needed Python libraries
 1. Run `./generate.py`
    - You can pass a GitHub API token as the first argument to expand your API rate limit, this is needed with the default `source.json`
+   - You can pass `priority` as the second argument to only update apps with `"priority": true`
 
-`source/source.json` is where the base data comes from, all apps should have a `github` (user/repo string), `systems` (string array), `categories` (string array), `image` (url string), and `icon` (url string). If the app isn't on GitHub then you will need to fill out most of the other infomation too. Some info can be pulled from the Bitbucket API too, but it's a bit more complicated than GitHub, look for examples in the current `source.json`.
-All info in `full.json` can override the GitHub API by specifing it in `source.json`, for example if you want an app title to have a space instead of a hyphen.
+`source/source.json` is where the base data comes from, all apps should have a `github` (user/repo string), `systems` (string array), `categories` (string array), `image` (url string), and `icon` (url string). If the app isn't on GitHub then you will need to fill out most of the other information too. Some info can be pulled from the Bitbucket API too, but it's a bit more complicated than GitHub, look for examples in the current `source.json`. If `priority` is `true` then the app will be checked hourly by actions instead of every 6 hours, technically everything could be done hourly but due to the amount of apps that rarely update it's done every 6 to reduce spam on GitHub's API.
+All info in `full.json` can override the GitHub API by specifying it in `source.json`, for example if you want an app title to have a space instead of a hyphen.
 
 Running `generate.py` will generate the following files:
 - A markdown file for each 3DS app in `docs/_3ds`
