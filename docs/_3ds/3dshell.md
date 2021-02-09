@@ -18,10 +18,6 @@ image: https://raw.githubusercontent.com/joel16/3DShell/master/res/banner.png
 image_length: 10753
 layout: app
 screenshots:
-- description: File list
-  url: https://db.universal-team.net/assets/images/screenshots/3dshell/file-list.png
-- description: Light mode ftp
-  url: https://db.universal-team.net/assets/images/screenshots/3dshell/light-mode-ftp.png
 - description: Settings
   url: https://db.universal-team.net/assets/images/screenshots/3dshell/settings.png
 source: https://github.com/joel16/3DShell
