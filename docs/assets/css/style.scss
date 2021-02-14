@@ -112,6 +112,10 @@ img {
 	opacity: 0.8;
 }
 
+.btn:focus {
+	box-shadow: none;
+}
+
 .alert-secondary {
 	color: var(--code-color);
 	background-color: var(--code-bg);
