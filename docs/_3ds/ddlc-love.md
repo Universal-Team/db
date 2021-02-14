@@ -43,6 +43,19 @@ update_notes: '<ul>
 
   <li><a href="https://github.com/LukeZGD/DDLC-LOVE#some-notes">See README notes</a></li>
 
+  </ul>
+
+  <p>Post-release updates:</p>
+
+  <ul>
+
+  <li>fix1 (2020-12-26): Fixed PSP and PS3 versions</li>
+
+  <li>fix2 (2021-02-14): Rebuilt Switch version to use LovePotion 2.0.0</li>
+
+  <li>These are the 2 exceptions to the "no longer updated", hopefully there would
+  be no more after this</li>
+
   </ul>'
 updated: '2020-10-03T15:43:26Z'
 version: v1.1.9
