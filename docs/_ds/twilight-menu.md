@@ -53,12 +53,12 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
 
   <ul>
 
-  <li><a href="https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard.html"
+  <li><a href="https://wiki.ds-homebrew.com/twilightmenu/updating-flashcard.html"
   rel="nofollow">Flashcard</a></li>
 
-  <li><a href="https://wiki.ds-homebrew.com/twilightmenu/installing-dsi.html" rel="nofollow">DSi</a></li>
+  <li><a href="https://wiki.ds-homebrew.com/twilightmenu/updating-dsi.html" rel="nofollow">DSi</a></li>
 
-  <li><a href="https://wiki.ds-homebrew.com/twilightmenu/installing-3ds.html" rel="nofollow">3DS</a></li>
+  <li><a href="https://wiki.ds-homebrew.com/twilightmenu/updating-3ds.html" rel="nofollow">3DS</a></li>
 
   </ul>
 
