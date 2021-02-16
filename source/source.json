@@ -1584,6 +1584,13 @@
 					"message": "Extracting snes9x_3ds.cia..."
 				},
 				{
+					"type": "extractFile",
+					"file": "/snes9x_3ds.zip",
+					"input": "snes9x_3ds_top.png",
+					"output": "/3ds/snes9x_3ds/snes9x_3ds_top.png",
+					"message": "Extracting snes9x_3ds_top.png..."
+				},
+				{
 					"type": "installCia",
 					"file": "/snes9x_3ds.cia",
 					"message": "Installing snes9x_3ds.cia..."
@@ -1613,6 +1620,13 @@
 					"input": "snes9x_3ds.3dsx",
 					"output": "%3DSX%/snes9x_3ds.3dsx",
 					"message": "Extracting snes9x_3ds.3dsx..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/snes9x_3ds.zip",
+					"input": "snes9x_3ds_top.png",
+					"output": "/3ds/snes9x_3ds/snes9x_3ds_top.png",
+					"message": "Extracting snes9x_3ds_top.png..."
 				},
 				{
 					"type": "deleteFile",
@@ -1647,6 +1661,13 @@
 					"message": "Extracting virtuanes_3ds.cia..."
 				},
 				{
+					"type": "extractFile",
+					"file": "/virtuanes_3ds.zip",
+					"input": "virtuanes_3ds_top.png",
+					"output": "/3ds/virtuanes_3ds/virtuanes_3ds_top.png",
+					"message": "Extracting virtuanes_3ds_top.png..."
+				},
+				{
 					"type": "installCia",
 					"file": "/virtuanes_3ds.cia",
 					"message": "Installing virtuanes_3ds.cia..."
@@ -1676,6 +1697,13 @@
 					"input": "virtuanes_3ds.3dsx",
 					"output": "%3DSX%/virtuanes_3ds.3dsx",
 					"message": "Extracting virtuanes_3ds.3dsx..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/virtuanes_3ds.zip",
+					"input": "virtuanes_3ds_top.png",
+					"output": "/3ds/virtuanes_3ds/virtuanes_3ds_top.png",
+					"message": "Extracting virtuanes_3ds_top.png..."
 				},
 				{
 					"type": "deleteFile",
@@ -1840,6 +1868,13 @@
 					"message": "Extracting picodrive_3ds.cia..."
 				},
 				{
+					"type": "extractFile",
+					"file": "/picodrive_3ds.zip",
+					"input": "picodrive_3ds_top.png",
+					"output": "/3ds/picodrive_3ds/picodrive_3ds_top.png",
+					"message": "Extracting picodrive_3ds_top.png..."
+				},
+				{
 					"type": "installCia",
 					"file": "/picodrive_3ds.cia",
 					"message": "Installing picodrive_3ds.cia..."
@@ -1869,6 +1904,13 @@
 					"input": "picodrive_3ds.3dsx",
 					"output": "%3DSX%/picodrive_3ds.3dsx",
 					"message": "Extracting picodrive_3ds.3dsx..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/picodrive_3ds.zip",
+					"input": "picodrive_3ds_top.png",
+					"output": "/3ds/picodrive_3ds/picodrive_3ds_top.png",
+					"message": "Extracting picodrive_3ds_top.png..."
 				},
 				{
 					"type": "deleteFile",
