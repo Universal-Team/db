@@ -50,9 +50,10 @@ def byteCount(bytes):
 	else:
 		return "%d GiB" % (bytes // (1 << 30))
 
-def downloadScript(file, url):
+def downloadScript(file, url, message):
+	script = []
 	if file[file.rfind(".") + 1:].lower() == "3dsx":
-		return [
+		script = [
 			{
 				"type": "downloadFile",
 				"file": url,
@@ -61,7 +62,7 @@ def downloadScript(file, url):
 			}
 		]
 	elif file[file.rfind(".") + 1:].lower() in ["nds", "dsi"]:
-		return [
+		script = [
 			{
 				"type": "downloadFile",
 				"file": url,
@@ -70,7 +71,7 @@ def downloadScript(file, url):
 			}
 		]
 	elif file[file.rfind(".") + 1:].lower() == "cia":
-		return [
+		script = [
 			{
 				"type": "downloadFile",
 				"file": url,
@@ -89,7 +90,7 @@ def downloadScript(file, url):
 			}
 		]
 	elif file[file.rfind(".") + 1:].lower() == "firm":
-		return [
+		script = [
 			{
 				"type": "downloadFile",
 				"file": url,
@@ -98,7 +99,7 @@ def downloadScript(file, url):
 			}
 		]
 	elif file[file.rfind(".") + 1:].lower() in ["zip", "7z", "rar"]:
-		return [
+		script = [
 			{
 				"type": "downloadFile",
 				"file": url,
@@ -119,7 +120,7 @@ def downloadScript(file, url):
 			}
 		]
 	else:
-		return [
+		script = [
 			{
 				"type": "downloadFile",
 				"file": url,
@@ -127,6 +128,14 @@ def downloadScript(file, url):
 				"message": "Downloading " + file + "..."
 			}
 		]
+	
+	if message:
+		script.append({
+			"type": "promptMessage",
+			"message": message
+		})
+
+	return script
 
 # Read json
 with open("source.json", "r", encoding="utf8") as file:
@@ -174,14 +183,18 @@ priorityOnlyMode = len(sys.argv) > 2 and sys.argv[2] == "priority"
 
 # Fetch info for GitHub apps and output
 for app in source:
+	foundExisting = False
 	if priorityOnlyMode and not ("priority" in app and app["priority"]):
 		temp = list(filter(lambda x: "github" in x and "github" in app and x["github"] == app["github"], oldData))
 		if len(temp) == 0:
 			temp = list(filter(lambda x: "bitbucket" in x and "bitbucket" in app and x["bitbucket"]["repo"] == app["bitbucket"]["repo"], oldData))
 		if len(temp) == 0:
 			temp = list(filter(lambda x: "title" in x and "author" in x and "title" in app and "author" in app and x["title"] == app["title"] and x["author"] == app["author"], oldData))
-		app = temp[0]
-	else:
+		
+		if len(temp) > 0:
+			foundExisting = True
+			app = temp[0]
+	if not foundExisting or not (priorityOnlyMode and not ("priority" in app and app["priority"])):
 		if "github" in app:
 			print("GitHub")
 			api = requests.get("https://api.github.com/repos/" + app["github"], headers = header if header else None).json()
@@ -409,7 +422,7 @@ for app in source:
 				app["color"] = "#{:02x}{:02x}{:02x}".format(color[0], color[1], color[2])
 
 	# Output website page
-	if not priorityOnlyMode or ("priority" in app and app["priority"]):
+	if not priorityOnlyMode or ("priority" in app and app["priority"]) or not foundExisting:
 		if "downloads" in app:
 			for item in app["downloads"]:
 				if item[item.rfind(".") + 1:] == "cia":
@@ -467,7 +480,7 @@ for app in source:
 	output.append(app)
 
 	# Website file
-	if not priorityOnlyMode or ("priority" in app and app["priority"]):
+	if not priorityOnlyMode or ("priority" in app and app["priority"]) or not foundExisting:
 		web = app.copy()
 		web["layout"] = "app"
 		# long description is put as the content
@@ -556,7 +569,7 @@ for app in source:
 				for file in app["downloads"]:
 					if len(re.findall("(zip|rar|7z|torrent|tar)", file)) == 0:
 						uni[file] = {
-							"script": downloadScript(file, app["downloads"][file]["url"]),
+							"script": downloadScript(file, app["downloads"][file]["url"], app["script_message"] if "script_message" in app else None),
 							"size": byteCount(app["downloads"][file]["size"]) if "size" in app["downloads"][file] else "",
 						}
 
@@ -564,7 +577,7 @@ for app in source:
 				for file in app["prerelease"]["downloads"]:
 					if len(re.findall("(zip|rar|7z|torrent)", file)) == 0:
 						uni["[prerelease] " + file] = {
-							"script": downloadScript(file, app["prerelease"]["downloads"][file]["url"]),
+							"script": downloadScript(file, app["prerelease"]["downloads"][file]["url"], app["script_message"] if "script_message" in app else None),
 							"size": byteCount(app["prerelease"]["downloads"][file]["size"]) if "size" in app["prerelease"]["downloads"][file] else "",
 						}
 
@@ -572,7 +585,7 @@ for app in source:
 				for file in app["nightly"]["downloads"]:
 					if len(re.findall("(zip|rar|7z|torrent)", file)) == 0:
 						uni["[nightly] " + file] = {
-							"script": downloadScript(file, app["nightly"]["downloads"][file]["url"]),
+							"script": downloadScript(file, app["nightly"]["downloads"][file]["url"], app["script_message"] if "script_message" in app else None),
 							"size": byteCount(app["nightly"]["downloads"][file]["size"]) if "size" in app["nightly"]["downloads"][file] else "",
 						}
 
