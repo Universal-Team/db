@@ -31,14 +31,14 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: "<p>Some of you might've heard that the 100th release will bring one\
-  \ or all of these features:</p>\n<ol>\n<li>DSi mode, which will allow:\n<ol>\n<li>Booting\
-  \ DSi-Enhanced games with DSi features, such as WPA1/2 and camera.</li>\n<li>Booting\
-  \ DSiWare games without the need for Unlaunch, or installing the game as a CIA.</li>\n\
-  </ol>\n</li>\n<li>Fixed cloneboot support, which will allow multiplayer via Download\
-  \ Play to work for the games that currently don't work the feature.</li>\n<li>Slot-2\
-  \ emulation for games such as <em>MegaMan ZX</em>, <em>Pok\xE9mon</em> Gen 4, and\
-  \ more.</li>\n</ol>\n<p>Unfortunately, due to my failed attempts of implementing\
+update_notes: "<p>Some of you might've heard that the 100th release is supposed to\
+  \ bring one or all of these features:</p>\n<ol>\n<li>DSi mode, which will allow:\n\
+  <ol>\n<li>Booting DSi-Enhanced games with DSi features, such as WPA1/2 and camera.</li>\n\
+  <li>Booting DSiWare games without the need for Unlaunch, or installing the game\
+  \ as a CIA.</li>\n</ol>\n</li>\n<li>Fixed cloneboot support, which will allow multiplayer\
+  \ via Download Play to work for the games that currently don't work the feature.</li>\n\
+  <li>Slot-2 emulation for games such as <em>MegaMan ZX</em>, <em>Pok\xE9mon</em>\
+  \ Gen 4, and more.</li>\n</ol>\n<p>Unfortunately, due to my failed attempts of implementing\
   \ those (thus lacking the knowledge how to do so), and the devs like <a class=\"\
   user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/ahezard/hovercard\"\
   \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
