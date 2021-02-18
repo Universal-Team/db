@@ -89,9 +89,7 @@ update_notes: "<p><strong>NOTE:</strong> Please read the full page before downlo
   </ul>\n</li>\n<li><strong>Reg:</strong> Fixed sound in <em>Dragon Ball Z: Goku Densetsu</em>\
   \ and some SDK5 THUMB games, if using DSiWarehax (e.g. Memory Pit).</li>\n<li><strong>Reg:</strong>\
   \ Fixed a bug with reading a pre-loaded 28.5MB (or 12.5MB for DSi) ROM from RAM.</li>\n\
-  <li>Fixed long-standing bug with overlay pack size calculation.</li>\n</ul>\n<p><strong>Regression</strong></p>\n\
-  <ul>\n<li>Some games have stopped booting, such as <em>Mario &amp; Sonic at the\
-  \ Olympic Winter Games</em>.</li>\n</ul>"
+  <li>Fixed long-standing bug with overlay pack size calculation.</li>\n</ul>"
 updated: '2021-02-15T07:34:32Z'
 version: v0.36.0
 version_title: 'v0.36.0: 100th release!'
