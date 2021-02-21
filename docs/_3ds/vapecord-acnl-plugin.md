@@ -5,12 +5,12 @@ categories:
 color: '#947677'
 created: '2019-08-22T07:15:13Z'
 description: Animal Crossing NL Vapecord Public Plugin WIP
-download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/tag/v1.9.1
+download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/tag/v1.9.2
 downloads:
   Vapecord.Public.zip:
-    size: 5148512
-    size_str: 4 MiB
-    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v1.9.1/Vapecord.Public.zip
+    size: 5382359
+    size_str: 5 MiB
+    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v1.9.2/Vapecord.Public.zip
 github: RedShyGuy/Vapecord-ACNL-Plugin
 image: https://avatars.githubusercontent.com/u/43783060?v=4
 image_length: 23338
@@ -27,19 +27,14 @@ update_notes: '<h1>New Update!!</h1>
 
   <ul>
 
-  <li>Island Unlocker</li>
+  <li>Text2Item Name Searcher</li>
 
-  <li>Caravan Changer</li>
+  <li>Custom Eye&amp;Hair Colors (Use Hair Color ID <code>0</code> and Eye Color ID
+  <code>1</code> for the custom ones)</li>
 
-  <li>Plugin Sounds</li>
+  <li>Custom Set Supports Secondary Flags now (e. g. presents)</li>
 
-  <li>Plugin will set language automatically to system language (can be changed afterwards)</li>
-
-  <li>Plugin can now be used as a blank plugin if not used in ACNL</li>
-
-  <li>Many performance changes</li>
-
-  <li>and more!</li>
+  <li>Reworked Language and Color Settings completely</li>
 
   </ul>
 
@@ -51,13 +46,21 @@ update_notes: '<h1>New Update!!</h1>
 
   <ul>
 
-  <li>PickUp will not break anymore if 3DS was closed</li>
+  <li>Drop Radius is now crash free</li>
 
-  <li>Room Warp works now</li>
+  <li>Room Warp can''t be used online now</li>
 
-  <li>Minor Bug fixes and stability fixes</li>
+  <li>Local Multiplayer fixed</li>
 
-  <li>and more!</li>
+  <li>Building mod is now lag-free</li>
+
+  <li>Using plugin as blank plugin works now</li>
+
+  <li>Change GameType should work now</li>
+
+  <li>Mini-Apps (Internet Browser, Friend List) work now</li>
+
+  <li>Player Speed has a limit now</li>
 
   </ul>
 
@@ -69,8 +72,8 @@ update_notes: '<h1>New Update!!</h1>
 
   If you encounter any bugs feel free to report them on the official <a href="https://discord.com/invite/qJNhVhQGpg"
   rel="nofollow">Vapecord Discord Server</a>.</p>'
-updated: '2021-01-30T18:47:33Z'
-version: v1.9.1
-version_title: ACNL Vapecord Public Plugin [v.1.9.1]
+updated: '2021-02-20T21:35:13Z'
+version: v1.9.2
+version_title: ACNL Vapecord Public Plugin [v.1.9.2]
 wiki: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/wiki
 ---
