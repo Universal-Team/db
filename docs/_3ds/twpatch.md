@@ -8,7 +8,7 @@ description: TWPatch alpha
 download_page: https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/
 downloads:
   TWPatch.cia:
-    url: https://puu.sh/H66jd/d1d2f93bd1.cia
+    url: https://puu.sh/HiJbF/deabae7f16.cia
 format_downloads: true
 github: SonoSooS/TWPatch_a
 icon: https://raw.githubusercontent.com/SonoSooS/TWPatch_a/master/assets/logo.png
