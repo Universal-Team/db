@@ -58,7 +58,7 @@ update_notes: "<h1>Super Haxagon 3.4.0</h1>\n<h3>About this build:</h3>\n<p>Most
   \ fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\"\
   >\u26A0\uFE0F</g-emoji></p>\n<h3>A summary:</h3>\n<p>I've finally come back to what\
   \ started my programming adventure. A simple app for a calculator. In 2013 I released\
-  \ the program \"Super Hexaspire\" as an alpha. At the time I had no idea that it\
+  \ the program \"Super Hexaspire\" as an alpha. At the time I had no idea that programming\
   \ would turn into a career.</p>\n<p>So here we are today, porting a game around\
   \ to so many different platforms. Starting with the Nspire, moving to the 3DS, then\
   \ to PC, then to the Switch, and finally back to the Nspire. Super Haxagon has been\
