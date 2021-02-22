@@ -20,179 +20,160 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 prerelease:
-  download_page: https://github.com/d0k3/GodMode9/releases/tag/v1.9.2pre1
+  download_page: https://github.com/d0k3/GodMode9/releases/tag/v1.9.3pre1
   downloads:
-    GodMode9-v1.9.2pre1-20200820205253.zip:
-      size: 2243273
+    GodMode9-v1.9.3pre1-20210222175159.zip:
+      size: 2341086
       size_str: 2 MiB
-      url: https://github.com/d0k3/GodMode9/releases/download/v1.9.2pre1/GodMode9-v1.9.2pre1-20200820205253.zip
-  update_notes: '<p>Yup, we''re pretty late for this. Real life(tm) got in the way,
-    and we didn''t make the anniversary release on time this year. With the recent
-    influx of screeninit relate bug reports we got another very good reason to finally
-    give you this. Here''s the new GodMode9 release and this is what you get:</p>
+      url: https://github.com/d0k3/GodMode9/releases/download/v1.9.3pre1/GodMode9-v1.9.3pre1-20210222175159.zip
+  update_notes: '<p>Has it really been half a year since the last prerelease and more
+    than one year since the last proper release? Obviously it has, so a new one is
+    overdue. This is another prerelease, with a lot of new stuff:</p>
 
     <ul>
 
-    <li>[new] Mount support for title.db (thanks <a class="user-mention" data-hovercard-type="user"
-    data-hovercard-url="/users/aspargas2/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/aspargas2">@aspargas2</a>)</li>
+    <li>[new] Completely rewritten MCU event handler (fixes a lot of stuff) (thanks
+    <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Wolfvak/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Wolfvak">@Wolfvak</a>)</li>
 
-    <li>[new] Support for handling variable sized tickets (thanks <a class="user-mention"
-    data-hovercard-type="user" data-hovercard-url="/users/luigoalma/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/luigoalma">@luigoalma</a>)</li>
+    <li>[new] Ability to install, build CIA from, verify, identify DSi CDN content
+    (read below)</li>
 
-    <li>[improved] Proper mount support for ticket.db (thanks <a class="user-mention"
+    <li>[new] Title manager available via HOME menu (read below)</li>
+
+    <li>[new] NDS carts can be dumped with secure area encrypted (thanks <a class="user-mention"
+    data-hovercard-type="user" data-hovercard-url="/users/mariomadproductions/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mariomadproductions">@mariomadproductions</a>
+    for testing)</li>
+
+    <li>[new] Gamecart drive <code>G:/</code> now includes an info text file (thanks
+    <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/GerbilSoft/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/GerbilSoft">@GerbilSoft</a>)</li>
+
+    <li>[new] Tickets can now be verified, installed and identified</li>
+
+    <li>[new] Trimming functionality for GBA rom dumps</li>
+
+    <li>[improved] Improved title info functionality, now compatible with more files</li>
+
+    <li>[improved] Several improvements to the GM9 MegaScript (thanks <a class="user-mention"
     data-hovercard-type="user" data-hovercard-url="/users/aspargas2/hovercard" data-octo-click="hovercard-link-click"
     data-octo-dimensions="link_type:self" href="https://github.com/aspargas2">@aspargas2</a>)</li>
 
-    <li>[improved] Various improvements to the CIA builder, mostly for CIA from NCSD</li>
+    <li>[improved] Several improvements to the game image installer</li>
 
-    <li>[improved] Tons of small performance improvements (thanks <a class="user-mention"
-    data-hovercard-type="user" data-hovercard-url="/users/Wolfvak/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/Wolfvak">@Wolfvak</a>)</li>
+    <li>[improved] Improved CIA builder, with stricter checks for legit builds</li>
 
-    <li>[improved] Much smaller firm size (thanks <a class="user-mention" data-hovercard-type="user"
-    data-hovercard-url="/users/Wolfvak/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/Wolfvak">@Wolfvak</a>)</li>
+    <li>[improved] Better handling of special cases in cart dumper (thanks <a class="user-mention"
+    data-hovercard-type="user" data-hovercard-url="/users/GerbilSoft/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/GerbilSoft">@GerbilSoft</a>)</li>
 
-    <li>[fixed] Fixed screen init (for real this time!) (thanks <a class="user-mention"
-    data-hovercard-type="user" data-hovercard-url="/users/Wolfvak/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/Wolfvak">@Wolfvak</a>)</li>
+    <li>[fixed] Proper seed handling when installing game images to the system</li>
 
-    <li>[fixed] Tons of small bug fixes</li>
+    <li>[fixed] Countless smaller fixes and improvements, too many to list</li>
 
-    <li>[preview] Possibility to install NCCH, NCSD (.3DS), DSiWare NDS, CIA, NUS/CDN
-    to the system</li>
+    <li>[scripting] <code>install</code> command for installing game images</li>
+
+    <li>[scripting] Quotes can be escaped (<code>\"</code>) in variables</li>
 
     </ul>
 
-    <p><strong>Did you know?</strong><br>
+    <p><strong>A prerelease again?</strong><br>
 
-    The actual first public release of GodMode9 was GodMode9 v0.2.0, which was released
-    on March 22nd, 2016. A lot has happened since then, and a lot of people contributed
-    to this with code, bug reports and testing. GodMode9 transitioned from early entrypoints
-    (Brahma anyone?) to the modern FIRM sighax entrypoint and gained more and more
-    functionality, leading it to be what it is today - one of the most important swiss
-    army knife utilities for the Nintendo 3DS console.</p>
+    I know what you''re thinking: you want a proper release, with no strings attached.
+    In fact, this will be coming, too, and very soon. We''re doing a prerelease now
+    so the testing can start. This might be a little rough around the edges, and we''re
+    hoping the community will help us get rid of any quirks left. Everything in GM9
+    needs testing, but especially the new stuff mentioned in the changelog above.
+    Looking forward to your bug reports!</p>
 
-    <p><strong>A prerelease?</strong><br>
+    <p><strong>Title manager</strong><br>
 
-    While this has undergone basic testing, and we made sure nothing bad will happen,
-    it is still considered beta state. New stuff may still be a little rough around
-    the edges. Your feedback will help us to improve on what''s left to do. We already
-    know, turning off the backlight on a closed lid does no more work (a fix is in
-    the works). We also included a preview of what we''re currently working on - installing
-    game images (directly from game cartridges works, too) to your system. This feature
-    should still be used with caution (not marked as preview for no reason, maybe
-    have a NAND backup ready?). Game installing will be improved and extended upon
-    in the coming release.</p>
+    The title manager may be the one feature most relevant to our users in this release.
+    It enables you to get an overview of your installed titles, build CIAs and even
+    (batch-) uninstall stuff from your system. To enter the title manager, press  and
+    select <code>Title manager</code>. SD installed titles are found on the <code>A:/</code>
+    drive, system titles and DSiWare titles are found on the <code>1:/</code> drive.</p>
 
-    <p><strong>GodMode9 bootloader</strong><br>
+    <p><strong>Handling DSi CDN content</strong><br>
 
-    When we introduced the GodMode9 bootloader, there was basically just one other
-    alternative, which was <a href="https://github.com/SciresM/boot9strap">boot9strap</a>.
-    We intended to provide the user with an alternative, providing more customization
-    and possibilities. Nowadays, we got <a href="https://github.com/derrekr/fastboot3DS">fastboot3ds</a>
-    (which coincidentally is also coauthored by d0k3), and, if we''re honest, the
-    GodMode9 bootloader just can''t hold the candle to fastboot3DS (not as a bootloader,
-    that is). For this reason, the GodMode9 bootloader will be removed starting with
-    the next major release. If you feel that decision is not right, you''re free to
-    discuss with us. We''re available in the <a href="https://discord.gg/EGu6Qxw"
-    rel="nofollow">GodMode9 Discord channel</a>.</p>
+    The other killer feature in this release is the ability to handle contents from
+    the DSi CDN. That means you are now able to install, build a CIA from, verify
+    or identify any title that was in the DSi eShop. You''re on your own providing
+    these files, of course. The <code>Nintendo DSi (Digital) (CDN)</code> dat-file
+    over on <a href="https://datomatic.no-intro.org/" rel="nofollow">No-Intro</a>
+    may help you get your CDN files in order. You will also need to provide a <code>decTitlekeys.bin</code>
+    file (with DSi titlekeys included) inside the <code>0:/GM9/support/</code> folder.</p>'
+  update_notes_md: 'Has it really been half a year since the last prerelease and more
+    than one year since the last proper release? Obviously it has, so a new one is
+    overdue. This is another prerelease, with a lot of new stuff:
 
-    <p><strong>Credits</strong><br>
+    * [new] Completely rewritten MCU event handler (fixes a lot of stuff) (thanks
+    @Wolfvak)
 
-    GodMode9 is not a one man project, it wouldn''t have gotten anywhere near what
-    it is today without the help of numerous people. A big thank you for this release
-    goes to <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/aspargas2/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/aspargas2">@aspargas2</a>,
-    who provided a ton of code, including support for <code>ticket.db</code> and <code>title.db</code>
-    manipulation (laying the base for game image installing) and lots of other, smaller
-    bugfixes. Another big thank you goes to <a class="user-mention" data-hovercard-type="user"
-    data-hovercard-url="/users/profi200/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/profi200">@profi200</a>,
-    who provided the solution to our screen init issues and to <a class="user-mention"
-    data-hovercard-type="user" data-hovercard-url="/users/Wolfvak/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/Wolfvak">@Wolfvak</a>,
-    for porting that solution to GodMode9, in addition to all the work he''s putting
-    into improvements of the GodMode9 code base and performance. I also thank everyone
-    who helped us out with bug reports, testing and all members of the <a href="https://discord.gg/EGu6Qxw"
-    rel="nofollow">official GodMode9 Discord channel</a>.</p>'
-  update_notes_md: 'Yup, we''re pretty late for this. Real life(tm) got in the way,
-    and we didn''t make the anniversary release on time this year. With the recent
-    influx of screeninit relate bug reports we got another very good reason to finally
-    give you this. Here''s the new GodMode9 release and this is what you get:
+    * [new] Ability to install, build CIA from, verify, identify DSi CDN content (read
+    below)
 
-    * [new] Mount support for title.db (thanks @aspargas2)
+    * [new] Title manager available via HOME menu (read below)
 
-    * [new] Support for handling variable sized tickets (thanks @luigoalma)
+    * [new] NDS carts can be dumped with secure area encrypted (thanks @mariomadproductions
+    for testing)
 
-    * [improved] Proper mount support for ticket.db (thanks @aspargas2)
+    * [new] Gamecart drive `G:/` now includes an info text file (thanks @GerbilSoft)
 
-    * [improved] Various improvements to the CIA builder, mostly for CIA from NCSD
+    * [new] Tickets can now be verified, installed and identified
 
-    * [improved] Tons of small performance improvements (thanks @Wolfvak)
+    * [new] Trimming functionality for GBA rom dumps
 
-    * [improved] Much smaller firm size (thanks @Wolfvak)
+    * [improved] Improved title info functionality, now compatible with more files
 
-    * [fixed] Fixed screen init (for real this time!) (thanks @Wolfvak)
+    * [improved] Several improvements to the GM9 MegaScript (thanks @aspargas2)
 
-    * [fixed] Tons of small bug fixes
+    * [improved] Several improvements to the game image installer
 
-    * [preview] Possibility to install NCCH, NCSD (.3DS), DSiWare NDS, CIA, NUS/CDN
-    to the system
+    * [improved] Improved CIA builder, with stricter checks for legit builds
+
+    * [improved] Better handling of special cases in cart dumper (thanks @GerbilSoft)
+
+    * [fixed] Proper seed handling when installing game images to the system
+
+    * [fixed] Countless smaller fixes and improvements, too many to list
+
+    * [scripting] `install` command for installing game images
+
+    * [scripting] Quotes can be escaped (`\"`) in variables
 
 
-    **Did you know?**
+    **A prerelease again?**
 
-    The actual first public release of GodMode9 was GodMode9 v0.2.0, which was released
-    on March 22nd, 2016. A lot has happened since then, and a lot of people contributed
-    to this with code, bug reports and testing. GodMode9 transitioned from early entrypoints
-    (Brahma anyone?) to the modern FIRM sighax entrypoint and gained more and more
-    functionality, leading it to be what it is today - one of the most important swiss
-    army knife utilities for the Nintendo 3DS console.
-
-
-    **A prerelease?**
-
-    While this has undergone basic testing, and we made sure nothing bad will happen,
-    it is still considered beta state. New stuff may still be a little rough around
-    the edges. Your feedback will help us to improve on what''s left to do. We already
-    know, turning off the backlight on a closed lid does no more work (a fix is in
-    the works). We also included a preview of what we''re currently working on - installing
-    game images (directly from game cartridges works, too) to your system. This feature
-    should still be used with caution (not marked as preview for no reason, maybe
-    have a NAND backup ready?). Game installing will be improved and extended upon
-    in the coming release.
+    I know what you''re thinking: you want a proper release, with no strings attached.
+    In fact, this will be coming, too, and very soon. We''re doing a prerelease now
+    so the testing can start. This might be a little rough around the edges, and we''re
+    hoping the community will help us get rid of any quirks left. Everything in GM9
+    needs testing, but especially the new stuff mentioned in the changelog above.
+    Looking forward to your bug reports!
 
 
-    **GodMode9 bootloader**
+    **Title manager**
 
-    When we introduced the GodMode9 bootloader, there was basically just one other
-    alternative, which was [boot9strap](https://github.com/SciresM/boot9strap). We
-    intended to provide the user with an alternative, providing more customization
-    and possibilities. Nowadays, we got [fastboot3ds](https://github.com/derrekr/fastboot3DS)
-    (which coincidentally is also coauthored by d0k3), and, if we''re honest, the
-    GodMode9 bootloader just can''t hold the candle to fastboot3DS (not as a bootloader,
-    that is). For this reason, the GodMode9 bootloader will be removed starting with
-    the next major release. If you feel that decision is not right, you''re free to
-    discuss with us. We''re available in the [GodMode9 Discord channel](https://discord.gg/EGu6Qxw).
+    The title manager may be the one feature most relevant to our users in this release.
+    It enables you to get an overview of your installed titles, build CIAs and even
+    (batch-) uninstall stuff from your system. To enter the title manager, press <HOME>
+    and select `Title manager`. SD installed titles are found on the `A:/` drive,
+    system titles and DSiWare titles are found on the `1:/` drive.
 
 
-    **Credits**
+    **Handling DSi CDN content**
 
-    GodMode9 is not a one man project, it wouldn''t have gotten anywhere near what
-    it is today without the help of numerous people. A big thank you for this release
-    goes to @aspargas2, who provided a ton of code, including support for `ticket.db`
-    and `title.db` manipulation (laying the base for game image installing) and lots
-    of other, smaller bugfixes. Another big thank you goes to @profi200, who provided
-    the solution to our screen init issues and to @Wolfvak, for porting that solution
-    to GodMode9, in addition to all the work he''s putting into improvements of the
-    GodMode9 code base and performance. I also thank everyone who helped us out with
-    bug reports, testing and all members of the [official GodMode9 Discord channel](https://discord.gg/EGu6Qxw).'
-  updated: '2020-08-22T10:18:04Z'
-  version: v1.9.2pre1
-  version_title: GodMode9 v1.9.2pre1 Fourth Anniversary Edition
+    The other killer feature in this release is the ability to handle contents from
+    the DSi CDN. That means you are now able to install, build a CIA from, verify
+    or identify any title that was in the DSi eShop. You''re on your own providing
+    these files, of course. The `Nintendo DSi (Digital) (CDN)` dat-file over on [No-Intro](https://datomatic.no-intro.org/)
+    may help you get your CDN files in order. You will also need to provide a `decTitlekeys.bin`
+    file (with DSi titlekeys included) inside the `0:/GM9/support/` folder. '
+  updated: '2021-02-22T16:56:59Z'
+  version: v1.9.3pre1
+  version_title: GodMode9 v1.9.3pre1
 source: https://github.com/d0k3/GodMode9
 systems:
 - 3DS
