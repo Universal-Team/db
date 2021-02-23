@@ -5916,5 +5916,82 @@
 		"categories": ["game"],
 		"image": "https://db.universal-team.net/assets/images/images/tic-tac-ds.png",
 		"icon": "https://raw.githubusercontent.com/Jonatan6/Tic-Tac-DS/master/icon.bmp"
+	},
+	{
+		"github": "CollinScripter/Revamped3DS",
+		"title": "Halo Revamped",
+		"author": "TCPixel / CollinScripter",
+		"systems": ["3DS"],
+		"categories": ["game"],
+		"image": "https://replayers.org/wp-content/uploads/2019/08/Halo-revamped-coverart-dreamcast.jpg",
+		"icon": "https://raw.githubusercontent.com/CollinScripter/Revamped3DS/master/icon.png",
+		"scripts": {
+			"Revamped.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "CollinScripter/Revamped3DS",
+					"file": "Revamped.zip",
+					"output": "/Revamped.zip",
+					"message": "Downloading Revamped.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Revamped.zip",
+					"input": "Revamped.cia",
+					"output": "/Revamped.cia",
+					"message": "Extracting Revamped.cia..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Revamped.zip",
+					"input": "3ds/Revamped",
+					"output": "/3ds/Revamped",
+					"message": "Extracting Revamped..."
+				},
+				{
+					"type": "installCia",
+					"file": "/Revamped.cia",
+					"message": "Installing Revamped.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Revamped.cia",
+					"message": "Deleting Revamped.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Revamped.zip",
+					"message": "Deleting Revamped.zip..."
+				}
+			],
+			"Revamped.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "CollinScripter/Revamped3DS",
+					"file": "Revamped.zip",
+					"output": "/Revamped.zip",
+					"message": "Downloading Revamped.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Revamped.zip",
+					"input": "3ds/Revamped",
+					"output": "/3ds/Revamped",
+					"message": "Extracting Revamped..."
+				},
+				{
+					"type": "move",
+					"old": "/3ds/Revamped/Revamped.3dsx",
+					"new": "%3DSX%/Revamped.3dsx",
+					"message": "Moving Revamped.3dsx..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Revamped.zip",
+					"message": "Deleting Revamped.zip..."
+				}
+			]
+		}
+		
 	}
 ]
