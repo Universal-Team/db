@@ -1,5 +1,5 @@
 ---
-author: TCPixel / CollinScripter
+author: TCPixel
 categories:
 - game
 color: '#696a6b'
