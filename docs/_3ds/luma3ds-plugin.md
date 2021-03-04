@@ -7,16 +7,16 @@ categories:
 color: '#7d6b55'
 created: '2020-05-06T19:38:46Z'
 description: Compiled Luma and plugin
-download_page: https://github.com/mikewii/Luma3DS-plugin/releases/tag/r1.0.9.3
+download_page: https://github.com/mikewii/Luma3DS-plugin/releases/tag/r1.0.9.4
 downloads:
   boot.firm:
     size: 238080
     size_str: 232 KiB
-    url: https://github.com/mikewii/Luma3DS-plugin/releases/download/r1.0.9.3/boot.firm
+    url: https://github.com/mikewii/Luma3DS-plugin/releases/download/r1.0.9.4/boot.firm
   default.3gx:
-    size: 629511
-    size_str: 614 KiB
-    url: https://github.com/mikewii/Luma3DS-plugin/releases/download/r1.0.9.3/default.3gx
+    size: 690696
+    size_str: 674 KiB
+    url: https://github.com/mikewii/Luma3DS-plugin/releases/download/r1.0.9.4/default.3gx
 github: mikewii/Luma3DS-plugin
 image: https://avatars.githubusercontent.com/u/29737660?v=4
 image_length: 18565
@@ -25,17 +25,11 @@ source: https://github.com/mikewii/Luma3DS-plugin
 systems:
 - 3DS
 title: Luma3DS-plugin
-update_notes: '<p>Luma:<br>
+update_notes: '<p>Plugin:<br>
 
-  Fixes for latest firmware 11.14</p>
-
-  <p>Plugin:<br>
-
-  Fixed controller hook for old sdk games.<br>
-
-  Plugin now patch fs permissions and read smdh of current process, for future use.</p>'
-updated: '2020-11-17T20:45:13Z'
-version: r1.0.9.3
-version_title: 1.0.9.3
+  Fixed MH4U issue with "LS finisher" crash.</p>'
+updated: '2021-03-04T13:24:50Z'
+version: r1.0.9.4
+version_title: 1.0.9.4
 wiki: https://github.com/mikewii/Luma3DS-plugin/wiki
 ---
