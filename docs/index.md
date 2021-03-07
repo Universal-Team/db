@@ -11,6 +11,6 @@ Here you can find lists of 3DS and DS homebrew, updated regularly to make sure y
 
 Most information on this site is automatically gathered from the information on the app's GitHub repository, however if you notice any incorrect information please report it as a [GitHub Issue](https://github.com/Universal-Team/db/issues/new) or on our [Discord server](https://universal-team.net/discord). Thanks!
 
-This is also the default UniStore for [Universal-Updater](/3ds/Universal-Updater), so if you'd like to browse and install apps from Universal-DB directly on your 3DS you should give it a try.
+This is also the default UniStore for [Universal-Updater](/3ds/universal-updater), so if you'd like to browse and install apps from Universal-DB directly on your 3DS you should give it a try.
 
 #### Last updated:
