@@ -5,12 +5,12 @@ categories:
 color: '#906e34'
 created: '2020-06-28T16:50:04Z'
 description: Tic Tac DS is a tic-tac-toe clone for the NDS.
-download_page: https://github.com/Jonatan6/Tic-Tac-DS/releases/tag/3.0
+download_page: https://github.com/Jonatan6/Tic-Tac-DS/releases/tag/v3.1
 downloads:
   tic-tac-ds.nds:
     size: 160256
     size_str: 156 KiB
-    url: https://github.com/Jonatan6/Tic-Tac-DS/releases/download/3.0/tic-tac-ds.nds
+    url: https://github.com/Jonatan6/Tic-Tac-DS/releases/download/v3.1/tic-tac-ds.nds
 github: Jonatan6/Tic-Tac-DS
 icon: https://raw.githubusercontent.com/Jonatan6/Tic-Tac-DS/master/icon.bmp
 image: https://db.universal-team.net/assets/images/images/tic-tac-ds.png
@@ -27,14 +27,11 @@ source: https://github.com/Jonatan6/Tic-Tac-DS
 systems:
 - DS
 title: Tic-Tac-DS
-update_notes: '<p>Added CPU battles with 3 difficulties, fixed bugs.<br>
-
-  <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/66566027/86486886-d5cf6080-bd5c-11ea-8a93-6493131b6a7a.png"><img
-  src="https://user-images.githubusercontent.com/66566027/86486886-d5cf6080-bd5c-11ea-8a93-6493131b6a7a.png"
-  alt="ai" style="max-width:100%;"></a></p>'
-updated: '2020-07-03T16:41:27Z'
-version: '3.0'
-version_title: Version 3.0
+update_notes: <p>This is a very minor release. The only thing I did was fix a couple
+  of bugs and change some small things.</p>
+updated: '2021-03-07T17:14:33Z'
+version: v3.1
+version_title: Version 3.1
 wiki: https://github.com/Jonatan6/Tic-Tac-DS/wiki
 ---
 A very simplistic Tic-Tac-Toe clone for the Nintendo DS.
