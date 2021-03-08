@@ -18,6 +18,11 @@ image_length: 26522
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+nightly:
+  download_page: https://github.com/TWLBot/Builds/blob/master/extras/hiyaCFW.7z
+  downloads:
+    hiyaCFW.7z:
+      url: https://github.com/TWLBot/Builds/raw/master/extras/hiyaCFW.7z
 source: https://github.com/RocketRobz/hiyaCFW
 systems:
 - DS
