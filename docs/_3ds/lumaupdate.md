@@ -6,16 +6,16 @@ categories:
 color: '#9ae1d2'
 created: '2017-04-26T01:20:59Z'
 description: Updater for Luma3DS
-download_page: https://github.com/KunoichiZ/lumaupdate/releases/tag/v2.5
+download_page: https://github.com/KunoichiZ/lumaupdate/releases/tag/v2.6
 downloads:
-  lumaupdater-2.5.zip:
-    size: 2009306
+  lumaupdater-2.6.zip:
+    size: 2009807
     size_str: 1 MiB
-    url: https://github.com/KunoichiZ/lumaupdate/releases/download/v2.5/lumaupdater-2.5.zip
+    url: https://github.com/KunoichiZ/lumaupdate/releases/download/v2.6/lumaupdater-2.6.zip
   lumaupdater.cia:
-    size: 1468352
+    size: 1469376
     size_str: 1 MiB
-    url: https://github.com/KunoichiZ/lumaupdate/releases/download/v2.5/lumaupdater.cia
+    url: https://github.com/KunoichiZ/lumaupdate/releases/download/v2.6/lumaupdater.cia
 github: KunoichiZ/lumaupdate
 icon: https://raw.githubusercontent.com/KunoichiZ/lumaupdate/master/meta/icon.png
 image: https://avatars.githubusercontent.com/u/19984244?v=4
@@ -32,24 +32,19 @@ source: https://github.com/KunoichiZ/lumaupdate
 systems:
 - 3DS
 title: lumaupdate
-update_notes: <p>This update fixes the error in <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="572902112" data-permission-text="Title
-  is private" data-url="https://github.com/KunoichiZ/lumaupdate/issues/49" data-hovercard-type="issue"
-  data-hovercard-url="/KunoichiZ/lumaupdate/issues/49/hovercard" href="https://github.com/KunoichiZ/lumaupdate/issues/49">#49</a>,
-  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="573355357"
-  data-permission-text="Title is private" data-url="https://github.com/KunoichiZ/lumaupdate/issues/50"
-  data-hovercard-type="issue" data-hovercard-url="/KunoichiZ/lumaupdate/issues/50/hovercard"
-  href="https://github.com/KunoichiZ/lumaupdate/issues/50">#50</a>, and <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="573445772" data-permission-text="Title
-  is private" data-url="https://github.com/KunoichiZ/lumaupdate/issues/51" data-hovercard-type="issue"
-  data-hovercard-url="/KunoichiZ/lumaupdate/issues/51/hovercard" href="https://github.com/KunoichiZ/lumaupdate/issues/51">#51</a>
-  and closes <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="572902112" data-permission-text="Title is private" data-url="https://github.com/KunoichiZ/lumaupdate/issues/49"
-  data-hovercard-type="issue" data-hovercard-url="/KunoichiZ/lumaupdate/issues/49/hovercard"
-  href="https://github.com/KunoichiZ/lumaupdate/issues/49">#49</a>. This update should
-  now allow you to download Luma3DS and any future releases of Luma Updater.</p>
-updated: '2020-02-29T22:55:37Z'
-version: v2.5
-version_title: Fix for v2.4
+update_notes: '<p>The following changes have been made:</p>
+
+  <ul>
+
+  <li><a href="https://github.com/KunoichiZ/lumaupdate/pull/73" data-hovercard-type="pull_request"
+  data-hovercard-url="/KunoichiZ/lumaupdate/pull/73/hovercard">Fix URL</a> by NightYoshi370</li>
+
+  <li><a href="https://github.com/KunoichiZ/lumaupdate/pull/88" data-hovercard-type="pull_request"
+  data-hovercard-url="/KunoichiZ/lumaupdate/pull/88/hovercard">Fix the http location
+  issue once for all</a> by mariohackandglitch</li>
+
+  </ul>'
+updated: '2021-03-07T22:15:23Z'
+version: v2.6
 website: https://gbatemp.net/threads/release-luma-updater.471739/
 ---
