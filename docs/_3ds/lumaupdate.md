@@ -9,7 +9,7 @@ description: Updater for Luma3DS
 download_page: https://github.com/KunoichiZ/lumaupdate/releases/tag/v2.6
 downloads:
   lumaupdater-2.6.zip:
-    size: 2009807
+    size: 2010508
     size_str: 1 MiB
     url: https://github.com/KunoichiZ/lumaupdate/releases/download/v2.6/lumaupdater-2.6.zip
   lumaupdater.cia:
