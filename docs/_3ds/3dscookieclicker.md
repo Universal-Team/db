@@ -25,5 +25,4 @@ title: 3dsCookieClicker
 updated: '2017-06-11T14:37:55Z'
 version: '#0022'
 version_title: Debug
-wiki: https://github.com/Creckeryop/3dsCookieClicker/wiki
 ---

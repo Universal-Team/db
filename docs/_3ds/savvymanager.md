@@ -61,5 +61,4 @@ update_notes: "<p><strong>What's new?</strong></p>\n<ul>\n<li>KOR region is now 
 updated: '2020-11-26T08:30:24Z'
 version: v3.1.0
 version_title: Thanksgiving (2020) release
-wiki: https://github.com/RocketRobz/SavvyManager/wiki
 ---

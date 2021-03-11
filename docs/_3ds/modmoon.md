@@ -63,5 +63,4 @@ update_notes: '<p>This release contains several critical fixes for broken things
 updated: '2018-09-29T16:45:22Z'
 version: v3.0.1
 version_title: 'Version 3.0.1: Fix major broken things'
-wiki: https://github.com/Swiftloke/ModMoon/wiki
 ---

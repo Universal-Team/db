@@ -39,5 +39,4 @@ update_notes: <p>Please read the README.md before attempting to use this program
 updated: '2017-07-31T14:06:14Z'
 version: '1.0'
 version_title: RTChanger v1.0
-wiki: https://github.com/Storm-Eagle20/RTChanger/wiki
 ---

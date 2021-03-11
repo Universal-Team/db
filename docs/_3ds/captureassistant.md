@@ -44,5 +44,4 @@ update_notes: '<p>Extract to the root of your SD card and install CaptureAssista
   rel="nofollow">http://gbatemp.net/threads/capture-assistant-a-capture-alignment-tool-for-capture-cards-ntr.439356/#post-6631437</a></p>'
 updated: '2016-08-26T23:13:12Z'
 version: '1.3'
-wiki: https://github.com/ItsDeidara/CaptureAssistant/wiki
 ---

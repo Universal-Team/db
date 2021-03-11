@@ -42,5 +42,4 @@ update_notes: '<p>Fixes a bug introduced in the last release, sorry! The backup 
 updated: '2018-01-15T23:19:27Z'
 version: v1.1.2
 version_title: Bugfixes and Instruction
-wiki: https://github.com/LiquidFenrir/WifiManager/wiki
 ---

@@ -26,5 +26,4 @@ update_notes: <p>First release!</p>
 updated: '2016-10-13T20:58:21Z'
 version: v1.0
 version_title: Memory3DS
-wiki: https://github.com/Omegadrien/Memory3DS/wiki
 ---

@@ -29,5 +29,4 @@ update_notes: '<ul>
 updated: '2018-03-19T15:38:20Z'
 version: v1.02
 version_title: v1.02
-wiki: https://github.com/bubble2k16/temperpce_3ds/wiki
 ---

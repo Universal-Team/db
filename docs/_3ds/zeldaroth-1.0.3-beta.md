@@ -72,7 +72,6 @@ update_notes: '<h2>Modifications</h2>
 updated: '2020-12-21T10:17:14Z'
 version: 1.0.3-beta
 version_title: 1.0.3-beta - Hungarian translation
-wiki: https://github.com/vargaviktor/ZeldaROTH/wiki
 ---
 ZeldaROTH 1.0.3 beta is including Hungarian translation for this classic fan game.
 Because of the used sf2dlib was also out of date, it was also modified to compile with new (1.4.0+) citro3d library.

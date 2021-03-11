@@ -29,5 +29,4 @@ update_notes: '<p>Small release that adds an option to set play coins to 300, th
 updated: '2019-11-28T09:08:38Z'
 version: 1.3.5
 version_title: Cthulhu v1.3.5
-wiki: https://github.com/Ryuzaki-MrL/Cthulhu/wiki
 ---

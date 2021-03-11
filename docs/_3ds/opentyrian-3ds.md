@@ -29,5 +29,4 @@ update_notes: '<ul>
 updated: '2017-03-11T20:24:51Z'
 version: v1.1
 version_title: Bugfix
-wiki: https://github.com/nop90/Opentyrian-3ds/wiki
 ---

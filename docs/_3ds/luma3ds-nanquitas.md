@@ -62,5 +62,4 @@ update_notes: '<h1>About 3GX plugins</h1>
 updated: '2020-11-17T11:21:13Z'
 version: v10.2.1
 version_title: v10.2.1 3GX Loader Edition
-wiki: https://github.com/Nanquitas/Luma3DS/wiki
 ---

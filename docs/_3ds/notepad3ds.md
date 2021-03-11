@@ -51,5 +51,4 @@ update_notes: '<h1>1.1.2</h1>
 updated: '2017-12-06T15:58:06Z'
 version: 1.1.2
 version_title: Notepad3DS
-wiki: https://github.com/RMcTn/Notepad3DS/wiki
 ---

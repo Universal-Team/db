@@ -26,5 +26,4 @@ update_notes: <p>Click <code>Homebrew_Launcher.cia</code> to download the CIA.</
 updated: '2018-07-26T21:33:37Z'
 version: v1.0
 version_title: Homebrew Launcher Wrapper
-wiki: https://github.com/mariohackandglitch/homebrew_launcher_dummy/wiki
 ---

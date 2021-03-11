@@ -62,5 +62,4 @@ updated: '2018-10-12T15:54:18Z'
 version: v1.1
 version_title: Self cleaning
 website: https://discord.gg/Q6jmQcV
-wiki: https://github.com/noirscape/dses/wiki
 ---

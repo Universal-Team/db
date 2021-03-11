@@ -26,5 +26,4 @@ update_notes: ''
 updated: '2017-08-11T08:48:34Z'
 version: 0.6.0
 version_title: Initial
-wiki: https://github.com/zoogie/Stuff/wiki
 ---

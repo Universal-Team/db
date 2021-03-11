@@ -54,6 +54,5 @@ update_notes: '<h1>WARNING!!! WORLDS CREATED BEFORE RELEASE 0.4.0 WILL NOT WORK 
 updated: '2020-11-26T15:22:41Z'
 version: 0.5.4
 version_title: V0.5.4
-wiki: https://github.com/GamesSanti/Craftus-Redesigned/wiki
 ---
 A modified version of Craftus Reloaded with a better texture pack and new blocks.

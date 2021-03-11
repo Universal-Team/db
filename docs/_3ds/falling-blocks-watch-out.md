@@ -26,5 +26,4 @@ update_notes: '<p>A quick update adding per-level glue delay.<br>
 updated: '2016-03-06T09:43:45Z'
 version: v0.4.1
 version_title: FBWO v0.4.1
-wiki: https://github.com/Spaqin/fbwo-3ds/wiki
 ---

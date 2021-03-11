@@ -35,5 +35,4 @@ update_notes: '<p>What''s new</p>
 updated: '2018-08-24T15:35:37Z'
 version: '1.2'
 version_title: Fakes
-wiki: https://github.com/edo9300/ndsi-savedumper/wiki
 ---

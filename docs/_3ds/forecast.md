@@ -35,5 +35,4 @@ update_notes: '<h2>Fixed</h2>
 updated: '2017-07-25T12:39:20Z'
 version: v1.0.1
 version_title: v1.0.1
-wiki: https://github.com/NatTupper/Forecast/wiki
 ---

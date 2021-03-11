@@ -40,5 +40,4 @@ update_notes: '<ul>
 updated: '2017-06-07T19:23:53Z'
 version: v1,1
 version_title: Improved Italian translation and made some fixes
-wiki: https://github.com/nop90/ZeldaOLB/wiki
 ---

@@ -46,5 +46,4 @@ update_notes: "<ul>\n<li><strong>Title ID\u3092\u5909\u66F4(v1.0\u3092\u524A\u96
 updated: '2018-10-29T09:52:52Z'
 version: v1.01
 version_title: v1.01 TJAPlayer for 3DS
-wiki: https://github.com/togetg/TJAPlayer_for_3DS/wiki
 ---

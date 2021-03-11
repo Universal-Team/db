@@ -103,7 +103,6 @@ update_notes: '<p>This is LudoNDS v0.1.0, which is already fully playable and in
 updated: '2021-01-24T23:00:05Z'
 version: v0.1.0
 version_title: StackDay Release!
-wiki: https://github.com/SuperSaiyajinStackZ/LudoNDS/wiki
 ---
 > The game is playable in Deutsch and English
 

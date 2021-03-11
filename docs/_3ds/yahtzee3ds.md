@@ -33,5 +33,4 @@ update_notes: <p>Rolling 3 times would make the combinations button disappear an
 updated: '2018-06-27T16:13:08Z'
 version: v1.0.1
 version_title: Breaking bugs fixed
-wiki: https://github.com/LiquidFenrir/Yahtzee3DS/wiki
 ---

@@ -37,5 +37,4 @@ update_notes: '<p>V1.9 : 06-Mar-2021 by wavemotion-dave</p>
 updated: '2021-03-06T14:09:06Z'
 version: '1.9'
 version_title: Version 1.9
-wiki: https://github.com/wavemotion-dave/XEGS-DS/wiki
 ---

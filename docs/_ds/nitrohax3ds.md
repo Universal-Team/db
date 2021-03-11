@@ -38,5 +38,4 @@ update_notes: "<p>This is the DSi version of NitroHax. Extract release ZIP to ro
 updated: '2018-04-26T01:26:55Z'
 version: 0.99.DSI
 version_title: 0.99.NTR DSI Build
-wiki: https://github.com/ahezard/NitroHax3DS/wiki
 ---

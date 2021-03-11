@@ -34,5 +34,4 @@ update_notes: '<p>The CIA version will always run in delete-all mode.</p>
 updated: '2016-01-21T08:10:53Z'
 version: v0.2.0
 version_title: Delete all mode + CIA version
-wiki: https://github.com/GiantBlargg/UpdateSuppressor/wiki
 ---

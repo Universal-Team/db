@@ -104,5 +104,4 @@ update_notes: '<p>I think the time has arrived to close the doors on this projec
 updated: '2018-08-03T06:02:13Z'
 version: 0.8.0
 version_title: '3DSident v0.8.0 - Final '
-wiki: https://github.com/joel16/3DSident/wiki
 ---

@@ -60,5 +60,4 @@ update_notes: '<p>This is more of a proof of concept, open source friend applica
 updated: '2018-07-29T17:18:00Z'
 version: v1.00
 version_title: FriendMii Initial Release v1.0.0
-wiki: https://github.com/joel16/FriendMii/wiki
 ---

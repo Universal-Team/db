@@ -30,5 +30,4 @@ update_notes: '<ul>
 updated: '2017-11-14T16:05:57Z'
 version: v0.6
 version_title: Really images this time.
-wiki: https://github.com/ingolemo/drider/wiki
 ---

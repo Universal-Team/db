@@ -44,5 +44,4 @@ update_notes: '<p>For information on what this is and how to use it, please see 
 updated: '2019-11-28T03:42:08Z'
 version: v1.3.0
 version_title: EmuNAND Edition
-wiki: https://github.com/aspargas2/CartInstall/wiki
 ---

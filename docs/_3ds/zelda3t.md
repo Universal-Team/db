@@ -35,5 +35,4 @@ update_notes: '<p><a target="_blank" rel="noopener noreferrer" href="https://use
 updated: '2017-09-24T18:25:47Z'
 version: v1.0
 version_title: Added support for touchpad
-wiki: https://github.com/nop90/Zelda3T/wiki
 ---

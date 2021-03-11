@@ -36,5 +36,4 @@ update_notes: '<p>Initial release.</p>
 updated: '2017-05-03T01:57:36Z'
 version: v1.0
 version_title: DSP1
-wiki: https://github.com/zoogie/DSP1/wiki
 ---

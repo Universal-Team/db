@@ -35,5 +35,4 @@ systems:
 title: GBARunner2
 updated: '2020-08-12T11:17:41Z'
 version: v20200812-131430_6e4ce45
-wiki: https://github.com/Gericom/GBARunner2/wiki
 ---

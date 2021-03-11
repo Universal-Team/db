@@ -51,5 +51,4 @@ update_notes: '<p>The buttons have gotten a few tweaks to make the app even bett
 updated: '2017-06-22T02:42:08Z'
 version: '2.0'
 version_title: Button Presser 3DS 2.0
-wiki: https://github.com/trainboy2019/ButtonPresser3DS/wiki
 ---

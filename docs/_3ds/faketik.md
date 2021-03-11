@@ -42,5 +42,4 @@ update_notes: '<ul>
 updated: '2020-11-14T22:53:05Z'
 version: v1.1.2
 version_title: faketik v1.1.2
-wiki: https://github.com/ihaveamac/faketik/wiki
 ---

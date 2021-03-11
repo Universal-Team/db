@@ -29,5 +29,4 @@ update_notes: '<p>Corrected offset saving for upgrades.<br>
 updated: '2015-10-18T21:15:51Z'
 version: '0.3'
 version_title: Free Refills
-wiki: https://github.com/suloku/pdrpse/wiki
 ---

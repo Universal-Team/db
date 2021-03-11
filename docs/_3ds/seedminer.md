@@ -86,5 +86,4 @@ update_notes: '<p>NOTE: This release archive contains a pyinstaller compiled pyt
 updated: '2018-02-22T09:37:13Z'
 version: v2.1
 version_title: Gimmie bin edition
-wiki: https://github.com/zoogie/seedminer/wiki
 ---

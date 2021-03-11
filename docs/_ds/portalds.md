@@ -25,5 +25,4 @@ update_notes: <p>The first (and only) publicly released version of the Aperture 
 updated: '2019-11-23T23:14:24Z'
 version: r1
 version_title: Aperture Science DS r1
-wiki: https://github.com/smealum/portalDS/wiki
 ---

@@ -44,6 +44,5 @@ update_notes: '<p><strong>What''s new?</strong></p>
 updated: '2020-06-21T01:28:09Z'
 version: v1.0.2
 version_title: 400/800px release
-wiki: https://github.com/RocketRobz/HoriHD-Gallery/wiki
 ---
 A demonstration of the 800px mode on 3DS consoles. Will not work on O2DS consoles.

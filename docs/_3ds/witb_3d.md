@@ -54,5 +54,4 @@ update_notes: '<ul>
 updated: '2017-04-17T18:32:57Z'
 version: '1.1'
 version_title: Release 1.1 - Freeze Fix
-wiki: https://github.com/Manurocker95/WITB_3D/wiki
 ---

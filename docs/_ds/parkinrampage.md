@@ -26,6 +26,5 @@ updated: '2021-01-02T20:17:30Z'
 version: '02012021'
 version_title: Parkin'Rampage 02012021
 website: https://mighty-max.itch.io/parkin-rampage
-wiki: https://github.com/DesperateProgrammer/ParkingRampage/wiki
 ---
 Navigate the police out of the jammed parking lot!

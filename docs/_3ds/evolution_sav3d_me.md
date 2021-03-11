@@ -31,5 +31,4 @@ update_notes: <p>Changed the splash screen</p>
 updated: '2017-08-23T11:38:07Z'
 version: '1.1'
 version_title: 'A New Release '
-wiki: https://github.com/Manurocker95/Evolution_Sav3D_Me/wiki
 ---

@@ -48,5 +48,4 @@ update_notes: <p>NLTK Nightly Build based on latest commit (even though it says 
 updated: '2019-05-15T19:45:48Z'
 version: Nightly
 version_title: Nightly Build
-wiki: https://github.com/Slattz/NLTK/wiki
 ---

@@ -42,5 +42,4 @@ update_notes: '<p>This release features a major redesign of the Wind Waker baton
 updated: '2017-03-30T01:49:01Z'
 version: v0.5.0-beta
 version_title: Orchestrina - Beta Release 5
-wiki: https://github.com/EBLeifEricson/orchestrina/wiki
 ---

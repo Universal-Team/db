@@ -35,5 +35,4 @@ update_notes: '<ul>
 updated: '2018-03-24T02:19:48Z'
 version: v0.94
 version_title: v0.94
-wiki: https://github.com/bubble2k16/picodrive_3ds/wiki
 ---

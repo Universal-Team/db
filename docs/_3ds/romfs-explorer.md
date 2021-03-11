@@ -27,5 +27,4 @@ update_notes: <p>This release fixes files being overwritten even if you choose t
 updated: '2016-09-23T00:16:29Z'
 version: v1.0.1
 version_title: Hotfix release
-wiki: https://github.com/Ryuzaki-MrL/RomFS-Explorer/wiki
 ---

@@ -33,5 +33,4 @@ update_notes: '<p>Fixed .cia not installing on n3DS<br>
 updated: '2016-11-08T23:24:17Z'
 version: '1.2'
 version_title: ravimid.cia
-wiki: https://github.com/Hoksy/ravimid/wiki
 ---

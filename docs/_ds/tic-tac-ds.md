@@ -32,6 +32,5 @@ update_notes: <p>This is a very minor release. The only thing I did was fix a co
 updated: '2021-03-07T17:14:33Z'
 version: v3.1
 version_title: Version 3.1
-wiki: https://github.com/Jonatan6/Tic-Tac-DS/wiki
 ---
 A very simplistic Tic-Tac-Toe clone for the Nintendo DS.

@@ -42,5 +42,4 @@ update_notes: '<p><strong>What''s new?</strong></p>
 updated: '2021-01-24T02:42:04Z'
 version: v1.1
 version_title: v1.1
-wiki: https://github.com/DS-Homebrew/SafeNANDManager/wiki
 ---

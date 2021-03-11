@@ -24,5 +24,4 @@ systems:
 title: MCU Bricker
 updated: '2019-04-01T01:27:47Z'
 version: '1.0'
-wiki: https://github.com/MechanicalDragon0687/MCU_Bricker_tinydb/wiki
 ---

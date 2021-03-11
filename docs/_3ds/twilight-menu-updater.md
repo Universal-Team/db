@@ -48,5 +48,4 @@ update_notes: '<p><strong>Bug fix</strong></p>
 updated: '2020-10-21T22:41:23Z'
 version: v4.4.0
 version_title: v4.4.0
-wiki: https://github.com/RocketRobz/TWiLightMenu-Updater/wiki
 ---

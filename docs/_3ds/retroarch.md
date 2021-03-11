@@ -28,5 +28,4 @@ updated: '2020-08-07T23:28:20Z'
 version: v1.9.0
 version_title: v1.9.0
 website: http://www.libretro.com
-wiki: https://github.com/libretro/RetroArch/wiki
 ---

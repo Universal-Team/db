@@ -96,5 +96,4 @@ update_notes: '<ul>
 updated: '2020-05-27T14:10:12Z'
 version: v3.0.0
 version_title: ftpd pro v3.0.0
-wiki: https://github.com/mtheall/ftpd/wiki
 ---

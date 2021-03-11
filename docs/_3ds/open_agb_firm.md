@@ -68,5 +68,4 @@ update_notes: '<p>This is a build from the kernel_experiments branch for the imp
 updated: '2020-12-24T12:17:14Z'
 version: alpha_2020-12-24
 version_title: open_agb_firm alpha build 2020-12-24
-wiki: https://github.com/profi200/open_agb_firm/wiki
 ---

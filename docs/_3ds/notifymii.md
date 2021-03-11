@@ -70,5 +70,4 @@ update_notes: '<p>If everything''s working then this will be my last release for
 updated: '2016-05-24T15:23:21Z'
 version: '1.2'
 version_title: NotifyMii v1.2
-wiki: https://github.com/Ryuzaki-MrL/NotifyMii/wiki
 ---

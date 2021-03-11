@@ -30,6 +30,5 @@ update_notes: <p>The first version of Demo-Reset. Have Fun.</p>
 updated: '2020-07-16T15:14:32Z'
 version: 1.0.0
 version_title: 1.0.0
-wiki: https://github.com/NPXTobi/Demo-Reset/wiki
 ---
 App To reset the Democounter of the 3ds Console

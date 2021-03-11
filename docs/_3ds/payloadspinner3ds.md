@@ -34,5 +34,4 @@ update_notes: '<p>This release fixes the app''s tendency to crash when no payloa
 updated: '2017-10-28T21:00:21Z'
 version: v1.2
 version_title: Slight Bug Fix
-wiki: https://github.com/SaturnSH2x2/PayloadSpinner3DS/wiki
 ---

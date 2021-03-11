@@ -35,5 +35,4 @@ update_notes: '<p>Fixed a couple 1.2 bugs, upped version to force users to updat
   response. And also added key repeating when holding a key.</p>'
 updated: '2016-04-17T07:38:25Z'
 version: '1.3'
-wiki: https://github.com/Cruel/DrawAttack/wiki
 ---

@@ -35,5 +35,4 @@ update_notes: '<p>Added complex numbers and the conjugate function to work with 
 updated: '2021-01-10T11:32:55Z'
 version: v0.2
 version_title: Complex number time!
-wiki: https://github.com/LiquidFenrir/CalculaThreeDS/wiki
 ---

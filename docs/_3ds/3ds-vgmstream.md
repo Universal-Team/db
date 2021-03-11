@@ -45,5 +45,4 @@ update_notes: '<p>New:<br>
 updated: '2016-07-11T07:32:44Z'
 version: v0.2.0
 version_title: Version 0.2.0
-wiki: https://github.com/TricksterGuy/3ds-vgmstream/wiki
 ---

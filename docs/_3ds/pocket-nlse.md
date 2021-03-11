@@ -32,5 +32,4 @@ update_notes: <p>First stable version of Pocket-NLSE. Additional features will b
 updated: '2017-01-11T13:18:21Z'
 version: v1.0.0
 version_title: v1.0.0
-wiki: https://github.com/dragos240/Pocket-NLSE/wiki
 ---

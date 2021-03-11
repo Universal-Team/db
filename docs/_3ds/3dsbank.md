@@ -64,5 +64,4 @@ update_notes: '<p><strong>What''s new?</strong></p>
   </ul>'
 updated: '2020-11-04T01:21:35Z'
 version: v1.1
-wiki: https://github.com/RocketRobz/3DSBank/wiki
 ---

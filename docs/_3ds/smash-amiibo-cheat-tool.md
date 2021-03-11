@@ -50,5 +50,4 @@ update_notes: '<p>There''s quite a lot in this new release, so here we go!</p>
 updated: '2017-01-27T00:03:00Z'
 version: '2.0'
 version_title: First release of the year
-wiki: https://github.com/Ordim3n/Smash-Amiibo-Cheat-Tool/wiki
 ---

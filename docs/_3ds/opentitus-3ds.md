@@ -38,7 +38,6 @@ update_notes: '<p>ONLY for old3DS users, these builds use low frequency audio.<b
   <p>.3dsx / .cia are included</p>'
 updated: '2018-12-27T00:34:34Z'
 version: 27-12-2018
-wiki: https://github.com/MrHuu/opentitus-3ds/wiki
 ---
 The CIA and 3DSX downloads should be used on new 3DS systems, the LOW_FREQ downloads should be used on old 3DS.
 

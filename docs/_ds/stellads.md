@@ -46,5 +46,4 @@ update_notes: '<p>V2.0 : 26-Jan-2021 by Dave Bernazzani (wavemotion)</p>
 updated: '2021-01-26T15:19:23Z'
 version: '2.0'
 version_title: Version 2.0
-wiki: https://github.com/wavemotion-dave/StellaDS/wiki
 ---

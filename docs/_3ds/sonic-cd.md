@@ -72,7 +72,6 @@ update_notes: '<p>These are minor fixes I''ve been sitting on for a while:</p>
 updated: '2021-02-09T06:54:37Z'
 version: v1.20a
 version_title: Minor Bugfixes
-wiki: https://github.com/SaturnSH2x2/Sonic-CD-11-Decompilation/wiki
 ---
 Port of Sonic CD to the 3DS, based on Rubberduckycooly's Sonic CD decompilation.
 

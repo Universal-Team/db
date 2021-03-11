@@ -120,7 +120,6 @@ update_notes: '<p>This is Ludo3DS v0.4.0 which in my opinion is the full version
 updated: '2021-01-24T23:00:01Z'
 version: v0.4.0
 version_title: StackDay Release!
-wiki: https://github.com/SuperSaiyajinStackZ/Ludo3DS/wiki
 ---
 > The game is playable in Deutsch and English
 

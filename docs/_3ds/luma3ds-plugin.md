@@ -32,5 +32,4 @@ update_notes: '<p>Plugin:<br>
 updated: '2021-03-04T13:24:50Z'
 version: r1.0.9.4
 version_title: 1.0.9.4
-wiki: https://github.com/mikewii/Luma3DS-plugin/wiki
 ---

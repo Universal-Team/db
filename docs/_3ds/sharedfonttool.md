@@ -50,5 +50,4 @@ update_notes: "<p>Fix START exit bug</p>\n<p>SFontT: ACG SharedFontTool v3.1<br>
 updated: '2018-08-13T06:45:19Z'
 version: v3.1
 version_title: SharedFontTool v3.1
-wiki: https://github.com/dnasdw/SharedFontTool/wiki
 ---

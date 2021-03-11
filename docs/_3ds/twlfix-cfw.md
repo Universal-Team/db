@@ -46,5 +46,4 @@ update_notes: '<ol>
   </ol>'
 updated: '2019-03-02T21:15:37Z'
 version: '1.1'
-wiki: https://github.com/MechanicalDragon0687/TWLFix-CFW/wiki
 ---

@@ -36,5 +36,4 @@ title: CS3DS
 update_notes: <p>Initial network play support.</p>
 updated: '2016-04-22T01:51:31Z'
 version: 0.6-alpha
-wiki: https://github.com/machinamentum/CS3DS/wiki
 ---

@@ -37,5 +37,4 @@ update_notes: '<p>[Bugs Fixed]</p>
 updated: '2016-06-30T04:51:24Z'
 version: v1.0.2
 version_title: 3DS Stable Release 1.0.2
-wiki: https://github.com/TurtleP/TurtleInvaders/wiki
 ---

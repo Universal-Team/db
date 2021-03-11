@@ -27,5 +27,4 @@ update_notes: <p>Converts tm.conf files to the new config format.</p>
 updated: '2017-01-21T13:45:49Z'
 version: v1.2.1
 version_title: v1.2.1 - Bugfix release
-wiki: https://github.com/dragos240/TownManager/wiki
 ---

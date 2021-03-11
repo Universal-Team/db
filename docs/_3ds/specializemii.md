@@ -35,5 +35,4 @@ update_notes: <p>This fixes issues <a class="issue-link js-issue-link" data-erro
 updated: '2017-01-22T11:19:45Z'
 version: 0.1.4
 version_title: Fix un-specializing personal Mii
-wiki: https://github.com/phijor/SpecializeMii/wiki
 ---

@@ -26,5 +26,4 @@ systems:
 title: nesDS
 updated: '2018-10-19T22:09:05Z'
 version: v1.3c
-wiki: https://github.com/DS-Homebrew/NesDS/wiki
 ---

@@ -44,5 +44,4 @@ update_notes: '<p>Small release to fix a bug in version 1.5. The bug was that un
 updated: '2016-12-03T21:05:23Z'
 version: v1.5.1
 version_title: Version 1.5.1
-wiki: https://github.com/flarn2006/GraphCalc3DS/wiki
 ---

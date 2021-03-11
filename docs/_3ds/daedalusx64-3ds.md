@@ -68,5 +68,4 @@ update_notes: '<h1>Beta v0.2</h1>
 updated: '2020-05-04T01:22:51Z'
 version: v0.2
 version_title: Beta v0.2
-wiki: https://github.com/masterfeizz/DaedalusX64-3DS/wiki
 ---

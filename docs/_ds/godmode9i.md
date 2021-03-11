@@ -40,7 +40,6 @@ update_notes: '<p><strong>Bug fix</strong></p>
 updated: '2021-01-28T16:42:31Z'
 version: v2.6.1
 version_title: v2.6.1
-wiki: https://github.com/DS-Homebrew/GodMode9i/wiki
 ---
 Features:
 - Dump GameBoy Advance cartridges on the original Nintendo DS and Nintendo DS Lite consoles.

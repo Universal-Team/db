@@ -65,5 +65,4 @@ update_notes: '<ul>
 updated: '2017-04-22T18:55:03Z'
 version: '0.04'
 version_title: '0.04'
-wiki: https://github.com/Possum/LumaLocaleSwitcher/wiki
 ---

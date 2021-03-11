@@ -73,5 +73,4 @@ update_notes: '<h2>Whats new</h2>
 updated: '2017-09-11T08:23:56Z'
 version: v0.2.0
 version_title: Version 0.2.0
-wiki: https://github.com/TricksterGuy/bottomless-block-barrage/wiki
 ---

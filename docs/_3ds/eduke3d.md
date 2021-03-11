@@ -65,5 +65,4 @@ update_notes: '<p>Bugfixes (mostly memory management) and first CIA release.<br>
 updated: '2016-05-08T04:36:44Z'
 version: v1.0-beta
 version_title: Beta release (fixed)
-wiki: https://github.com/masterfeizz/EDuke3D/wiki
 ---

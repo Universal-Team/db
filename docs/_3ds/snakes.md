@@ -137,5 +137,4 @@ update_notes: '<h1>Patch 0.2.5.2</h1>
 updated: '2017-01-24T22:01:22Z'
 version: 0.2.5
 version_title: Version 0.2.5.2
-wiki: https://github.com/DDews/Snakes/wiki
 ---

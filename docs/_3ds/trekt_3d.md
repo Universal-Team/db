@@ -31,5 +31,4 @@ update_notes: <p>Just one meteorite falls. Debug Mode activated by default</p>
 updated: '2017-08-26T15:39:19Z'
 version: '1.0'
 version_title: '1.0'
-wiki: https://github.com/Manurocker95/TRekt_3D/wiki
 ---

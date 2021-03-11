@@ -73,5 +73,4 @@ update_notes: '<h1>Features</h1>
 updated: '2016-06-15T19:03:12Z'
 version: 0.4.0
 version_title: '0.4.0: Virtual device rework and gyroscope support'
-wiki: https://github.com/phijor/ctroller/wiki
 ---

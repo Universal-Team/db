@@ -40,5 +40,4 @@ update_notes: '<ul>
 updated: '2019-05-08T20:03:37Z'
 version: sbfm1.7
 version_title: SmileBASIC File Manager v1.7
-wiki: https://github.com/Trinitro21/lpp-3ds/wiki
 ---

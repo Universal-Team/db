@@ -109,5 +109,4 @@ update_notes: '<h2>This is the fourth release of LeafEdit-Pattern-Editor.</h2>
 updated: '2020-08-29T12:45:26Z'
 version: v0.4.0
 version_title: Happy Home Designer support!
-wiki: https://github.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/wiki
 ---

@@ -101,5 +101,4 @@ updated: '2018-04-13T20:16:16Z'
 version: v1.1
 version_title: Release v1.1
 website: https://discord.gg/Q6jmQcV
-wiki: https://github.com/noirscape/SRAU/wiki
 ---

@@ -45,5 +45,4 @@ update_notes: '<p>The only thing changed in this build are the buildtools.</p>
 updated: '2017-01-07T03:05:51Z'
 version: v1.1.2
 version_title: v1.1.2
-wiki: https://github.com/DanTheMan827/tikSweep/wiki
 ---

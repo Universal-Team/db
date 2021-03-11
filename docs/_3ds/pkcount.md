@@ -58,5 +58,4 @@ update_notes: '<p>What''s new?</p>
 updated: '2019-12-27T20:44:30Z'
 version: v0.0.2
 version_title: The second Release of PKCount!
-wiki: https://github.com/SuperSaiyajinStackZ/PKCount/wiki
 ---

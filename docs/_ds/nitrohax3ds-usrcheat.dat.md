@@ -69,6 +69,5 @@ update_notes: '<p>This is a fork of NitroHax3DS that loads cheats from a <code>u
 updated: '2021-01-11T07:44:59Z'
 version: '0.100'
 version_title: Load cheats from usrcheat.dat instead of cheats.xml
-wiki: https://github.com/Epicpkmn11/NitroHax3DS/wiki
 ---
 This is a fork of [ahezard/NitroHax3DS](nitrohax3ds) that switches the cheat database format to `usrcheat.dat`. If you want to use `cheats.xml`, then use the original.

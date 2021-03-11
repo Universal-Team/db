@@ -30,5 +30,4 @@ update_notes: '<ul>
 updated: '2017-03-10T20:41:13Z'
 version: v1.0
 version_title: Stable release
-wiki: https://github.com/nop90/Xrick-3ds/wiki
 ---

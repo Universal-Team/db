@@ -47,5 +47,4 @@ update_notes: '<p><strong>Install instructions</strong></p>
 updated: '2016-06-16T14:28:38Z'
 version: v1.0
 version_title: Release v1.0
-wiki: https://github.com/Jacudibu/Snake2DS/wiki
 ---

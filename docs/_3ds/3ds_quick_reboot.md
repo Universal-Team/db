@@ -30,5 +30,4 @@ update_notes: '<ul>
 updated: '2016-05-18T11:55:39Z'
 version: v1.0.1
 version_title: 3DS Quick Reboot
-wiki: https://github.com/Asellus/3DS_Quick_Reboot/wiki
 ---

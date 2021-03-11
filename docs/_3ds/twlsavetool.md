@@ -39,5 +39,4 @@ update_notes: "<ul>\n<li>Fix Pok\xE9mon Mystery Dungeon: Explorers of Sky (thank
 updated: '2016-08-27T19:27:37Z'
 version: v1.2
 version_title: TWLSaveTool v1.2
-wiki: https://github.com/TuxSH/TWLSaveTool/wiki
 ---

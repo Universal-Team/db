@@ -54,5 +54,4 @@ update_notes: "<p>The main point of this release is because previous versions in
 updated: '2021-02-08T06:52:23Z'
 version: v5.0.0
 version_title: 3DShell v5.0.0 BETA 1
-wiki: https://github.com/joel16/3DShell/wiki
 ---

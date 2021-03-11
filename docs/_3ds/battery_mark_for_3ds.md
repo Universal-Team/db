@@ -39,5 +39,4 @@ update_notes: '<ul>
 updated: '2021-01-30T13:49:35Z'
 version: v2.0
 version_title: Battery mark for 3DS v2.0
-wiki: https://github.com/Core-2-Extreme/Battery_mark_for_3DS/wiki
 ---
