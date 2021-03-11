@@ -229,7 +229,7 @@ for app in source:
 			if not "website" in app and api["homepage"] != "" and api["homepage"] != None:
 				app["website"] = api["homepage"]
 
-			if not "wiki" in app and api["has_wiki"]:
+			if not "wiki" in app and api["has_wiki"] and requests.get(f"https://raw.githubusercontent.com/wiki/{app['github']}/Home.md").status_code != 404:
 				app["wiki"] = api["html_url"] + "/wiki"
 
 			if api["license"]:
