@@ -21,25 +21,6 @@
 		}
 	},
 	{
-		"title": "TWiLight Menu++ Updater",
-		"systems": ["3DS"],
-		"image": "https://raw.githubusercontent.com/RocketRobz/TWiLightMenu-Updater/master/app/banner.png",
-		"icon": "https://raw.githubusercontent.com/RocketRobz/TWiLightMenu-Updater/master/app/icon.png",
-		"categories": ["utility"],
-		"github": "RocketRobz/TWiLightMenu-Updater",
-		"nightly": {
-			"download_page": "https://github.com/TWLBot/Builds/tree/master/TWiLightMenu-Updater",
-			"downloads": {
-				"TWiLight_Menu_++_Updater.3dsx": {
-					"url": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Updater/TWiLight_Menu%2B%2B_Updater.3dsx"
-				},
-				"TWiLight_Menu_++_Updater.cia": {
-					"url": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Updater/TWiLight_Menu%2B%2B_Updater.cia"
-				}
-			}
-		}
-	},
-	{
 		"long_description": "3DEins is a Cardgame for Nintendo 3DS. It's basically an UNO clone.\n\nIt currently includes:\n- Multi Player on one console\n- Customizable Cards & Characters\n- Translated to English, French, German, Japanese, Russian, and Spanish\n- Customizable interface colors",
 		"github": "Universal-Team/3DEins",
 		"image": "https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/banner.png",
