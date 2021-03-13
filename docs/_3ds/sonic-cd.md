@@ -5,19 +5,19 @@ categories:
 color: '#516498'
 created: '2021-01-22T22:40:50Z'
 description: Port of Sonic CD to the 3DS, based on Rubberduckycooly's Sonic CD decompilation
-download_page: https://github.com/SaturnSH2x2/Sonic-CD-11-Decompilation/releases/tag/v1.20a
+download_page: https://github.com/SaturnSH2x2/Sonic-CD-11-3DS/releases/tag/v1.20a
 github: SaturnSH2x2/Sonic-CD-11-Decompilation
 icon: https://raw.githubusercontent.com/SaturnSH2x2/Sonic-CD-11-Decompilation/master/resources/48x48.png
 image: https://raw.githubusercontent.com/SaturnSH2x2/Sonic-CD-11-Decompilation/master/resources/banner.png
 image_length: 63421
 layout: app
 prerelease:
-  download_page: https://github.com/SaturnSH2x2/Sonic-CD-11-Decompilation/releases/tag/v1.20a
+  download_page: https://github.com/SaturnSH2x2/Sonic-CD-11-3DS/releases/tag/v1.20a
   downloads:
     SonicCD.cia:
       size: 809408
       size_str: 790 KiB
-      url: https://github.com/SaturnSH2x2/Sonic-CD-11-Decompilation/releases/download/v1.20a/SonicCD.cia
+      url: https://github.com/SaturnSH2x2/Sonic-CD-11-3DS/releases/download/v1.20a/SonicCD.cia
   qr:
     SonicCD.cia: https://db.universal-team.net/assets/images/qr/prerelease/soniccd.cia.png
   update_notes: '<p>These are minor fixes I''ve been sitting on for a while:</p>
@@ -54,7 +54,7 @@ script_message: 'Note: You will need "Data.rsdk" from
   the Steam, Android, or iOS version in
 
   "sdmc:/3ds/SonicCD" to play the game.'
-source: https://github.com/SaturnSH2x2/Sonic-CD-11-Decompilation
+source: https://github.com/SaturnSH2x2/Sonic-CD-11-3DS
 systems:
 - 3DS
 title: Sonic CD
