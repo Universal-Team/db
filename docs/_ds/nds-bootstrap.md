@@ -5,16 +5,16 @@ categories:
 color: '#585758'
 created: '2016-09-11T19:50:26Z'
 description: Boot an nds file
-download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.36.0
+download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.37.0
 downloads:
   nds-bootstrap.7z:
-    size: 446338
-    size_str: 435 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.36.0/nds-bootstrap.7z
+    size: 430759
+    size_str: 420 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.37.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1094642
+    size: 1231363
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.36.0/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.37.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://raw.githubusercontent.com/DS-Homebrew/nds-bootstrap/master/retail/assets/icon.bmp
 image: https://i.imgur.com/BFIu7xX.png
@@ -27,72 +27,126 @@ nightly:
   downloads:
     nds-bootstrap.7z:
       url: https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z
+priority: true
 source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: "<p><strong>NOTE:</strong> Please read the full page before downloading.</p>\n\
-  <p>Some of you might've heard that the 100th release is supposed to bring one or\
-  \ all of these features:</p>\n<ol>\n<li>DSi mode, which will allow:\n<ol>\n<li>Booting\
-  \ DSi-Enhanced games with DSi features, such as WPA1/2 and camera.</li>\n<li>Booting\
-  \ DSiWare games without the need for Unlaunch, or installing the game as a CIA.</li>\n\
-  </ol>\n</li>\n<li>Fixed cloneboot support, which will allow multiplayer via Download\
-  \ Play to work for the games that currently don't work the feature.</li>\n<li>Slot-2\
-  \ emulation for games such as <em>MegaMan ZX</em>, <em>Pok\xE9mon</em> Gen 4, and\
-  \ more.</li>\n</ol>\n<p>Unfortunately, due to my failed attempts of implementing\
-  \ those (thus lacking the knowledge how to do so), and the devs like <a class=\"\
-  user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/ahezard/hovercard\"\
-  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
-  \ href=\"https://github.com/ahezard\">@ahezard</a> (the main dev) and <a class=\"\
-  user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/shutterbug2000/hovercard\"\
-  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
-  \ href=\"https://github.com/shutterbug2000\">@shutterbug2000</a> not being around\
-  \ for a while, those features have not been implemented, and this release was solely\
-  \ made to bring nds-bootstrap out of the stealth release state, bringing some features\
-  \ and fixes that have only been in stealth and nightly builds.</p>\n<p>For a bit\
-  \ of news:</p>\n<ol>\n<li>A month ago, shutterbug has began work on DSi mode once\
-  \ again, and he plans to commit the changes soon<g-emoji class=\"g-emoji\" alias=\"\
-  tm\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2122.png\"\
-  >\u2122\uFE0F</g-emoji>.</li>\n<li>A while back, ahezard has stated that he will\
-  \ return to coding at some point.</li>\n</ol>\n<p>With all that said, it'll be a\
-  \ while before we see those features implemented, and even fixing some broken games,\
-  \ such as <em>Pok\xE9mon Dash</em> and <em>Golden Sun: Dark Dawn</em>, as well as\
-  \ fixing cheat support (some E-type codes don't work).</p>\n<p>Instructions:</p>\n\
-  <ol>\n<li>Download the .7z file.</li>\n<li>Extract the nds-bootstrap (or B4DS, for\
-  \ DS-mode flashcards) .nds files, to <code>root:/_nds</code>.</li>\n<li>Extract\
-  \ the .ver file to <code>root:/_nds/TWiLightMenu</code>.</li>\n</ol>\n<p><strong>Reg</strong>\
-  \ = Only for nds-bootstrap for DSi/3DS<br>\n<strong>B4DS</strong> = Only for nds-bootstrap\
-  \ for DS flashcards</p>\n<p><strong>What's new?</strong></p>\n<ul>\n<li>Two DSiWare\
-  \ games now boot in their DS mode demo versions!\n<ul>\n<li>Pop Island</li>\n<li>Pop\
-  \ Island: Paperfield</li>\n</ul>\n</li>\n<li><strong>Reg:</strong> (<a class=\"\
-  user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/xonn83/hovercard\"\
-  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
-  \ href=\"https://github.com/xonn83\">@xonn83</a> and me) You can now swap the screens\
-  \ by holding L+R+UP+X for 1 second. Useful for consoles with the GameBoy Macro mod.\n\
-  <ul>\n<li>Note that this doesn't work for all games (or all areas of the game),\
-  \ and some games that do work with this feature, will corrupt some graphics.</li>\n\
-  <li>This will also not work with B4DS, due to memory limitations.</li>\n</ul>\n\
-  </li>\n<li><strong>Reg:</strong> Added a <code>Hi</code> heap shrink setting.\n\
-  <ul>\n<li>Set this, if there's a cheat code not working. If this does not fix it,\
-  \ then wait for a fix.</li>\n<li>Set by setting <code>CARDENGINE_CACHED</code> to\
-  \ <code>2</code> in <code>nds-bootstrap.ini</code>.</li>\n</ul>\n</li>\n</ul>\n\
-  <p><strong>Improvements (Reg)</strong></p>\n<ul>\n<li>ARM7 binary is now stripped\
-  \ when pre-loading a ROM into RAM (as it's already loaded).\n<ul>\n<li>This allows\
-  \ more 28MB (or 12MB for DSi) ROMs to fit into RAM.</li>\n</ul>\n</li>\n<li>FAT\
-  \ table cache is now copied to DSi WRAM, if:\n<ul>\n<li>DSi WRAM is not mirrored\
-  \ (DSiWarehax not used, in other words)</li>\n<li>Game is running in DS mode</li>\n\
-  <li>Game is on the console's SD card</li>\n</ul>\n</li>\n</ul>\n<p><strong>Bug fixes</strong></p>\n\
-  <ul>\n<li><strong>Reg:</strong> Slot-1 is now disabled, in order for sleep mode\
-  \ to work with any card inserted in Slot-1!\n<ul>\n<li>Ejecting the Slot-1 card\
-  \ will also no longer cause the console to reboot or shut down!</li>\n<li>This does\
-  \ not affect IR games such as <em>Pok\xE9mon HGSS</em>, if Slot-1 isn't empty.</li>\n\
-  </ul>\n</li>\n<li><strong>Reg:</strong> Fixed sound in <em>Dragon Ball Z: Goku Densetsu</em>\
-  \ and some SDK5 THUMB games, if using DSiWarehax (e.g. Memory Pit).</li>\n<li><strong>Reg:</strong>\
-  \ Fixed a bug with reading a pre-loaded 28.5MB (or 12.5MB for DSi) ROM from RAM.</li>\n\
-  <li>Fixed long-standing bug with overlay pack size calculation.</li>\n</ul>"
-updated: '2021-02-15T07:34:32Z'
-version: v0.36.0
-version_title: 'v0.36.0: 100th release!'
+update_notes: '<p>Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v19.0.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v19.0.0</a></p>
+
+  <p>Instructions:</p>
+
+  <ol>
+
+  <li>Download the <code>.7z</code> file.</li>
+
+  <li>Extract the nds-bootstrap <code>.nds</code> files, to <code>root:/_nds</code>.</li>
+
+  <li>Extract the <code>.ver</code> file to <code>root:/_nds/TWiLightMenu</code>.</li>
+
+  </ol>
+
+  <p><strong>What''s new?</strong></p>
+
+  <ul>
+
+  <li>(me and <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  An in-game menu similar to Luma''s Rosalina menu has been added!<br>
+
+  You can dump the RAM, view/edit RAM, swap screens (which can still done by holding
+  L+R+UP+X for 1 sec), reset the game, and exit the game.
+
+  <ul>
+
+  <li>It can be opened with the same button combo: L+DOWN+SELECT</li>
+
+  <li>This replaces the L+R+DOWN+B button combo, as you can exit the game in the menu.</li>
+
+  <li>Cannot be opened, if <code>Expand ROM space in RAM</code> is turned on, and
+  if the game uses that feature (check TWLMenu++ per-game settings to see).</li>
+
+  <li>Cannot be opened, if the flashcard is running without access to the DSi hardware.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Cheat versions of AP fixes are now supported!
+
+  <ul>
+
+  <li>Detected by checking for the <code>.bin</code> extension in the filename.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Screens can now be swapped on flashcards!</li>
+
+  </ul>
+
+  <p><strong>Improvements</strong></p>
+
+  <ul>
+
+  <li>nds-bootstrap and B4DS have been merged into one .nds file! (HB is still separate.)
+
+  <ul>
+
+  <li>As a result, regular nds-bootstrap will now be used on flashcards, if DSi hardware
+  is accessible (via SCFG), thus increasing game compatibility to nearly the same
+  as when running from the console''s SD card!</li>
+
+  </ul>
+
+  </li>
+
+  <li>Heap shrink has been removed!<br>
+
+  Now all games will run fast as if it were turned on, but now no crashes will occur
+  (and if they still occur, at least it''s unrelated to shrinking the game''s heap)!</li>
+
+  <li>Cache block size is now hardcoded to 32KB.</li>
+
+  <li>The card engine arm9 code is now moved to uncached memory, in case if a ROM
+  hack makes use of the extra memory of the DSi in DSi mode.</li>
+
+  <li>Some minor optimizations.</li>
+
+  </ul>
+
+  <p><strong>Bug fixes</strong></p>
+
+  <ul>
+
+  <li>Fixed some bugs related to soft-resetting, when using forwarders on 3DS consoles.</li>
+
+  <li>Slot-1 is now disabled, if not in use. Fixes some bugs, if the frontend does
+  not disable Slot-1.</li>
+
+  </ul>
+
+  <p><strong>Known bug</strong></p>
+
+  <ul>
+
+  <li>The in-game menu will appear as only a black screen in some areas of some games.</li>
+
+  </ul>
+
+  <p><strong>Regression</strong></p>
+
+  <ul>
+
+  <li>Some games that use DMA for card reads, will now either crash at some point,
+  or not boot at all.</li>
+
+  </ul>'
+updated: '2021-03-17T06:34:01Z'
+version: v0.37.0
+version_title: v0.37.0
 wiki: https://github.com/DS-Homebrew/nds-bootstrap/wiki
 ---
 nds-bootstrap is an open-source application that allows Nintendo DS/DSi ROMs and homebrew to be natively utilised rather than using an emulator. nds-bootstrap works on Nintendo DSi/3DS SD cards through CFW and on Nintendo DS through flashcarts.

@@ -5,24 +5,24 @@ categories:
 color: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
-download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v18.5.0
+download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v19.0.0
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 28729247
-    size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v18.5.0/TWiLightMenu-3DS.7z
+    size: 33150511
+    size_str: 31 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v19.0.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 28731920
-    size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v18.5.0/TWiLightMenu-DSi.7z
+    size: 33149737
+    size_str: 31 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v19.0.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 41865863
-    size_str: 39 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v18.5.0/TWiLightMenu-Flashcard.7z
+    size: 46221793
+    size_str: 44 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v19.0.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 42378505
-    size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v18.5.0/TWiLightMenu.7z
+    size: 46545311
+    size_str: 44 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v19.0.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 image: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/logo.png
@@ -62,55 +62,49 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
 
   </ul>
 
-  <p>Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.36.0">nds-bootstrap
-  v0.36.0 (100th release!)</a></p>
-
-  <p>We may be past Valentine''s Day, but it''s never too late to bring some sweet
-  new goodies to <strong>TW</strong>i<strong>L</strong>ight Menu++!</p>
+  <p>Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.37.0">nds-bootstrap
+  v0.37.0</a></p>
 
   <p><strong>What''s new?</strong></p>
 
   <ul>
 
-  <li>A single-screen mode called Macro Mode has been added, and runs entirely on
-  the bottom screen! Useful for consoles with the GameBoy Macro mod.</li>
+  <li>Cheats can now be used, if flashcard is running with SCFG access for Slot-1
+  turned on.</li>
 
-  <li>Added Atari XEGS to TWLMenu++ Virtual Console!
+  <li><strong>Native GBA ROM loader:</strong> <em>WarioWare: Twisted!</em> and <em>Yoshi
+  Topsy Turvy</em> can now be playable with regular controls!</li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
+  and various) Added Dutch and Indonesian languages.</li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  Added sorting to the R4 theme.</li>
+
+  <li>Removed <code>Heap Shrink</code> and <code>Cache block size</code> settings.</li>
+
+  <li>Added AP fixes for these games:
 
   <ul>
 
-  <li><code>.xex</code> and <code>.atr</code> files are launched by XEGS-DS (<a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/wavemotion-dave/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/wavemotion-dave">@wavemotion-dave</a>).</li>
+  <li><em>Mario &amp; Luigi: Bowser''s Inside Story</em> (Cheat versions, switched
+  from the IPS versions)</li>
+
+  <li><em>Nanashi no Geemu</em>/<em>The Nameless Game</em> (The fix is unrelated to
+  AP, and is just a simple black screen fix code)</li>
+
+  <li><em>Yuuzai x Muzai</em> (Causes white screen, apparently) (Added by <a class="user-mention"
+  data-hovercard-type="user" data-hovercard-url="/users/R-YaTian/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/R-YaTian">@R-YaTian</a>)</li>
 
   </ul>
 
   </li>
 
-  <li>If the launched homebrew contains an ARM9 binary bigger than 3.5MB, it''ll have
-  Unlaunch boot it.
-
-  <ul>
-
-  <li>Works around the black screen bug in the DSi port of <em>Super Mario 64</em>
-  (<em>not</em> 64 DS), so you can save your progress!</li>
-
-  </ul>
-
-  </li>
-
-  <li>Added AP fix for Spanish translation of <em>Gyakuten Kenji 2</em>/<em>Ace Attorney
-  Investigations: Miles Edgeworth: Prosecuter''s Path</em>.</li>
-
-  <li><strong>3DS theme:</strong> Removed GBA icon.
-
-  <ul>
-
-  <li>It is kept in DS mode with the <code>Native</code> GBA option set.</li>
-
-  </ul>
-
-  </li>
+  <li><strong>Title splash screen:</strong> Green-colored background is now shown
+  for St. Patrick''s Day.</li>
 
   </ul>
 
@@ -119,39 +113,17 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
   <ul>
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  Improved GIF compatibility.</li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
   and various) Updated translations.</li>
 
-  <li>Improved homebrew check.</li>
-
-  </ul>
-
-  <p><strong>Bug fixes</strong></p>
-
-  <ul>
-
-  <li><strong>3DS consoles:</strong> Fixed IR not working in games that support it.
-
-  <ul>
-
-  <li>Achieved by rebooting the console before booting the game, if there''s something
-  inserted in Slot-1.</li>
-
-  </ul>
-
-  </li>
-
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Fixed some bugs related to font rendering.</li>
-
-  <li><strong>DSi-based themes:</strong> Fixed TWLMenu++ crashing with a Guru Meditation
-  Error, if running via Memory Pit.</li>
-
   </ul>'
-updated: '2021-02-15T08:20:08Z'
-version: v18.5.0
-version_title: After-Valentines (2021) release
+updated: '2021-03-17T07:10:38Z'
+version: v19.0.0
+version_title: St. Patrick's Day (2021) release
 wiki: https://wiki.ds-homebrew.com/twilightmenu
 ---
 TWiLight Menu++ is an open-source DSi Menu upgrade/replacement for the Nintendo DSi, the Nintendo 3DS, and Nintendo DS flashcards. It can launch Nintendo DS, SNES, NES, GameBoy (color), GameBoy Advance, Sega GameGear/Master System & Mega Drive/Genesis ROMs, as well as DSTWO plugins (if you use a DSTWO) and videos.

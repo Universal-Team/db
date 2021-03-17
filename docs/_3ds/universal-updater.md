@@ -92,7 +92,11 @@ update_notes: "<h3>What's new?</h3>\n<ul>\n<li>Now when you select something to 
   \ let you in.</p>\n<p>Also, notice: Our official 'nightly' builds are currently\
   \ extremely unstable as the devkitPro docker image uses an old version of Citro2D.\
   \ We recommend only using the official release or building yourself.</p>\n<p>Have\
-  \ a happy St. Patrick's Day and enjoy the new update!<br>\n~ Universal-Team</p>"
+  \ a happy St. Patrick's Day and enjoy the new update!<br>\n~ Universal-Team</p>\n\
+  <hr>\n<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://camo.githubusercontent.com/17ef3b51a9652557c473e773d97f81b1b7fc5b2af88729989f9bb74e4cd88486/68747470733a2f2f64622e756e6976657273616c2d7465616d2e6e65742f6173736574732f696d616765732f71722f756e6976657273616c2d757064617465722e6369612e706e67\"\
+  ><img src=\"https://camo.githubusercontent.com/17ef3b51a9652557c473e773d97f81b1b7fc5b2af88729989f9bb74e4cd88486/68747470733a2f2f64622e756e6976657273616c2d7465616d2e6e65742f6173736574732f696d616765732f71722f756e6976657273616c2d757064617465722e6369612e706e67\"\
+  \ alt=\"QR code for Universal-Updater.cia\" data-canonical-src=\"https://db.universal-team.net/assets/images/qr/universal-updater.cia.png\"\
+  \ style=\"max-width:100%;\"></a></p>"
 updated: '2021-03-17T05:38:11Z'
 version: v3.2.0
 version_title: Queue system with background downloading
