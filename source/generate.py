@@ -94,7 +94,7 @@ def downloadScript(file, url, message):
 			{
 				"type": "downloadFile",
 				"file": url,
-				"output": "sdmc:/luma/payloads/" + file,
+				"output": "%FIRM%/" + file,
 				"message": "Downloading " + file + "..."
 			}
 		]
