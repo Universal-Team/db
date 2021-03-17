@@ -5,16 +5,16 @@ categories:
 color: '#045190'
 created: '2019-10-31T02:19:37Z'
 description: An easy to use app for installing and updating 3DS homebrew
-download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/v3.1.1
+download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/v3.2.0
 downloads:
   Universal-Updater.3dsx:
-    size: 2431136
+    size: 2525172
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.1.1/Universal-Updater.3dsx
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.0/Universal-Updater.3dsx
   Universal-Updater.cia:
-    size: 2032576
+    size: 2094016
     size_str: 1 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.1.1/Universal-Updater.cia
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.0/Universal-Updater.cia
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/banner.png
@@ -68,38 +68,34 @@ systems:
 - 3DS
 title: Universal-Updater
 unistore_exclude: true
-update_notes: '<p>See <a href="https://github.com/Universal-Team/Universal-Updater/releases/tag/v3.1.0">v3.1.0</a>''s
-  changelog for full notes if updating from v3.0.0</p>
-
-  <p>This is just a little update with a single bug fix, but it''s a pretty important
-  bug fix. For a while 7z extraction has just been randomly failing sometimes and
-  we figured out it was due to the 2013 version of libarchive devkitPro provides,
-  but we weren''t exactly sure how to get the latest version working, we finally did
-  so here''s a little update.</p>
-
-  <p>The updated pkgbuild patches are at <a href="https://github.com/Epicpkmn11/pacman-packages">Epicpkmn11/pacman-packages</a>,
-  I would PR them to devkitPro''s, but we''re all banned so I can''t. If anyone at
-  devkitPro wants to upstream those changes please do. I will note though I have basically
-  no idea what I''m doing when it comes to porting libraries, so please report any
-  extraction problems and if upstreaming you may want to check if I did anything really
-  dumb ;P</p>
-
-  <p>Apps that were known to be broken before but work now are:</p>
-
-  <ul>
-
-  <li>open_agb_firm</li>
-
-  <li>OpenTitus (New 3DS versions)</li>
-
-  </ul>
-
-  <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/105116665-cdd4d500-5a90-11eb-9f97-b0f30f1e36b3.png"><img
-  src="https://user-images.githubusercontent.com/41608708/105116665-cdd4d500-5a90-11eb-9f97-b0f30f1e36b3.png"
-  alt="universal-updater cia" style="max-width:100%;"></a></p>'
-updated: '2020-12-29T00:40:07Z'
-version: v3.1.1
-version_title: 'Bug fix update: Update to latest libarchive version'
+update_notes: "<h3>What's new?</h3>\n<ul>\n<li>Now when you select something to download\
+  \ it'll just add it into the queue to download in the background so you can continue\
+  \ using the rest of the app while it installs!</li>\n<li>You can also now add all\
+  \ items from the current search / filter into the queue at once from the Search\
+  \ and Filters tab\n<ul>\n<li>When something is installed for the first time now\
+  \ it'll add an SD card icon next to the installed entry, only entries with the SD\
+  \ card icon will be updated when using this</li>\n</ul>\n</li>\n<li>When filtering\
+  \ you can now choose whether to only show items that match all of the selected filters\
+  \ or anything that matches any filter</li>\n<li>The current time and battery level\
+  \ are now shown on the top bar</li>\n<li>You can now set a custom location for FIRMs\
+  \ to be installed to</li>\n<li>You can now choose to install 3DSX files inside a\
+  \ folder of the same name instead of directly to the set folder</li>\n<li>You can\
+  \ now cancel installs and it'll clean up the current step and stop</li>\n<li>Portuguese\
+  \ (Portugal) has be re-enabled as it's now mostly translated</li>\n<li>Added themes\
+  \ (currently only two preset ones, custom will likely come soon\u2122)</li>\n</ul>\n\
+  <h3>Bug fixes</h3>\n<ul>\n<li>Fixed a crash on trying to write a negative amount\
+  \ to a file if an error occurred while extracting</li>\n</ul>\n<h3>Other notes</h3>\n\
+  <p>Find any bugs we missed, have suggestions, or need help? Make an issue or discussion\
+  \ here on GitHub, normally we'd suggest joining our <a href=\"https://universal-team.net/discord\"\
+  \ rel=\"nofollow\">Discord server</a> here too, but as of making this we're not\
+  \ allowing new members unless you know someone in it and have them let us know to\
+  \ let you in.</p>\n<p>Also, notice: Our official 'nightly' builds are currently\
+  \ extremely unstable as the devkitPro docker image uses an old version of Citro2D.\
+  \ We recommend only using the official release or building yourself.</p>\n<p>Have\
+  \ a happy St. Patrick's Day and enjoy the new update!<br>\n~ Universal-Team</p>"
+updated: '2021-03-17T05:38:11Z'
+version: v3.2.0
+version_title: Queue system with background downloading
 website: https://universal-team.net/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
