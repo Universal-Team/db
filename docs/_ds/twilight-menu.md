@@ -73,7 +73,7 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
   turned on.</li>
 
   <li><strong>Native GBA ROM loader:</strong> <em>WarioWare: Twisted!</em> and <em>Yoshi
-  Topsy Turvy</em> can now be playable with regular controls!</li>
+  Topsy Turvy</em> are now playable without tilt controls!</li>
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
