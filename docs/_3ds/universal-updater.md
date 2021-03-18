@@ -55,6 +55,14 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/universal-updater/list-style.png
 - description: Mark menu
   url: https://db.universal-team.net/assets/images/screenshots/universal-updater/mark-menu.png
+- description: Queue menu
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/queue-menu.png
+- description: Recommended unistores
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/recommended-unistores.png
+- description: Release notes
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/release-notes.png
+- description: Screenshot
+  url: https://db.universal-team.net/assets/images/screenshots/universal-updater/screenshot.png
 - description: Search menu
   url: https://db.universal-team.net/assets/images/screenshots/universal-updater/search-menu.png
 - description: Settings menu
