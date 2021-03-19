@@ -1,5 +1,6 @@
 ---
 author: Cruel
+avatar: https://avatars.githubusercontent.com/u/383999?v=4
 categories:
 - game
 color: '#edb0ad'

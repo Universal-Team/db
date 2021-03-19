@@ -1,5 +1,6 @@
 ---
 author: NatTupper
+avatar: https://avatars.githubusercontent.com/u/16436651?v=4
 categories:
 - utility
 color: '#a2a3a4'

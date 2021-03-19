@@ -1,5 +1,6 @@
 ---
 author: phijor
+avatar: https://avatars.githubusercontent.com/u/10487782?v=4
 categories:
 - utility
 color: '#a59123'

@@ -1,5 +1,6 @@
 ---
 author: dnasdw
+avatar: https://avatars.githubusercontent.com/u/2081018?v=4
 categories:
 - utility
 color: '#e06c24'

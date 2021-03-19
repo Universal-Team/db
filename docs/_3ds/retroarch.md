@@ -1,5 +1,6 @@
 ---
 author: libretro
+avatar: https://avatars.githubusercontent.com/u/1812827?v=4
 categories:
 - emulator
 color: '#484848'

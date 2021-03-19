@@ -1,5 +1,6 @@
 ---
 author: ItsDeidara
+avatar: https://avatars.githubusercontent.com/u/16449821?v=4
 categories:
 - utility
 color: '#71524e'

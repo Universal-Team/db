@@ -1,6 +1,7 @@
 ---
 author: KunoichiZ
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/19984244?v=4
 categories:
 - utility
 color: '#9ae1d2'

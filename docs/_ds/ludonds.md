@@ -1,5 +1,6 @@
 ---
 author: SuperSaiyajinStackZ
+avatar: https://avatars.githubusercontent.com/u/47382115?v=4
 categories:
 - game
 color: '#716a67'

@@ -1,5 +1,6 @@
 ---
 author: profi200
+avatar: https://avatars.githubusercontent.com/u/7831477?v=4
 categories:
 - emulator
 - firm

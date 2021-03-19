@@ -1,5 +1,6 @@
 ---
 author: machinamentum
+avatar: https://avatars.githubusercontent.com/u/1700799?v=4
 categories:
 - game
 color: '#333c49'

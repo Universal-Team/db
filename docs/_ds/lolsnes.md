@@ -1,5 +1,6 @@
 ---
 author: Arisotura
+avatar: https://avatars.githubusercontent.com/u/1311867?v=4
 categories:
 - emulator
 color: '#7c9187'

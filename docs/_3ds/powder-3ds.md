@@ -1,5 +1,6 @@
 ---
 author: nop90
+avatar: https://avatars.githubusercontent.com/u/6418965?v=4
 categories:
 - game
 color: '#c39b4b'

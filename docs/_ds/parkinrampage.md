@@ -1,5 +1,6 @@
 ---
 author: Tim 'Mighty Max' Seidel
+avatar: https://avatars.githubusercontent.com/u/16925975?v=4
 categories:
 - game
 color: '#6e7882'

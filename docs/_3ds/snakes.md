@@ -1,5 +1,6 @@
 ---
 author: DDews
+avatar: https://avatars.githubusercontent.com/u/9905864?v=4
 categories:
 - game
 color: '#00280e'

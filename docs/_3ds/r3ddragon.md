@@ -1,5 +1,6 @@
 ---
 author: mrdanielps
+avatar: https://avatars.githubusercontent.com/u/9087084?v=4
 categories:
 - emulator
 color: '#d3d2d2'

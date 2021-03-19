@@ -1,5 +1,6 @@
 ---
 author: RedTopper
+avatar: https://avatars.githubusercontent.com/u/6108605?v=4
 categories:
 - game
 color: '#6d190a'

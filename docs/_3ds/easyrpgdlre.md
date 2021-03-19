@@ -1,5 +1,6 @@
 ---
 author: gnmmarechal
+avatar: https://avatars.githubusercontent.com/u/11259227?v=4
 categories:
 - utility
 color: '#a3b290'

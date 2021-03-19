@@ -1,5 +1,6 @@
 ---
 author: NPX-I7/Tobi
+avatar: https://avatars.githubusercontent.com/u/62360113?v=4
 categories:
 - utility
 color: '#e2e6cd'

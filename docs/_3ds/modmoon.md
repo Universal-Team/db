@@ -1,5 +1,6 @@
 ---
 author: Swiftloke
+avatar: https://avatars.githubusercontent.com/u/22382655?v=4
 categories:
 - utility
 color: '#496373'

@@ -1,5 +1,6 @@
 ---
 author: Universal-Team
+avatar: https://avatars.githubusercontent.com/u/49733679?v=4
 categories:
 - game
 color: '#b89c52'

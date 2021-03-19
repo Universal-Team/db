@@ -1,5 +1,6 @@
 ---
 author: elhobbs
+avatar: https://avatars.githubusercontent.com/u/8599176?v=4
 categories:
 - game
 color: '#6d5127'

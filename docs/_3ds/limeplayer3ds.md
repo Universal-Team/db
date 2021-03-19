@@ -1,5 +1,6 @@
 ---
 author: Oreo639
+avatar: https://avatars.githubusercontent.com/u/31916379?v=4
 categories:
 - utility
 color: '#4d5351'

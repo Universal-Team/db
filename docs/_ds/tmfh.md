@@ -1,5 +1,6 @@
 ---
 author: JeffRuLz
+avatar: https://avatars.githubusercontent.com/u/14222721?v=4
 categories:
 - utility
 color: '#61ceff'
@@ -13,7 +14,7 @@ downloads:
     url: https://github.com/JeffRuLz/TMFH/releases/download/v0.7.0/TMFH.0.7.1.zip
 github: JeffRuLz/TMFH
 icon: https://raw.githubusercontent.com/JeffRuLz/TMFH/master/icon.bmp
-image: https://db.universal-team.net/assets/images/icons/tmfh.png
+image: https://db.universal-team.net/assets/images/images/tmfh.png
 image_length: 401
 layout: app
 license: gpl-3.0

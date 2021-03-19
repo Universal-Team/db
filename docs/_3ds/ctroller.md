@@ -1,6 +1,7 @@
 ---
 author: phijor
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/10487782?v=4
 categories:
 - utility
 color: '#a8a8a8'

@@ -1,5 +1,6 @@
 ---
 author: EBLeifEricson
+avatar: https://avatars.githubusercontent.com/u/13992834?v=4
 categories:
 - utility
 color: '#b7b7cf'

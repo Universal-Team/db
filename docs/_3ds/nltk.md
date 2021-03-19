@@ -1,5 +1,6 @@
 ---
 author: Slattz
+avatar: https://avatars.githubusercontent.com/u/15308186?v=4
 categories:
 - utility
 - save-tool

@@ -1,5 +1,6 @@
 ---
 author: Storm-Eagle20
+avatar: https://avatars.githubusercontent.com/u/26261465?v=4
 categories:
 - utility
 color: '#351125'

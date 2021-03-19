@@ -1,5 +1,6 @@
 ---
 author: chishm
+avatar: https://avatars.githubusercontent.com/u/18148723?v=4
 categories:
 - utility
 color: '#750000'
@@ -11,7 +12,7 @@ downloads:
     url: https://www.chishm.com/NitroHax/NitroHax.zip
 github: chishm/nitrohax
 icon: https://raw.githubusercontent.com/chishm/nitrohax/master/icon.bmp
-image: https://db.universal-team.net/assets/images/icons/nitrohax.png
+image: https://db.universal-team.net/assets/images/images/nitrohax.png
 image_length: 354
 layout: app
 license: gpl-3.0

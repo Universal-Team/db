@@ -1,5 +1,6 @@
 ---
 author: mariohackandglitch
+avatar: https://avatars.githubusercontent.com/u/10946643?v=4
 categories:
 - utility
 color: '#4bbbf5'

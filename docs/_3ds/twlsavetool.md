@@ -1,6 +1,7 @@
 ---
 author: TuxSH
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/1922548?v=4
 categories:
 - utility
 - save-tool

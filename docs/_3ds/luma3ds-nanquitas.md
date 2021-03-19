@@ -1,5 +1,6 @@
 ---
 author: Nanquitas
+avatar: https://avatars.githubusercontent.com/u/13298129?v=4
 categories:
 - utility
 - firm

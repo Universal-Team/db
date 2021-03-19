@@ -1,5 +1,6 @@
 ---
 author: togetg
+avatar: https://avatars.githubusercontent.com/u/18244518?v=4
 categories:
 - utility
 color: '#cd6c4b'

@@ -1,5 +1,6 @@
 ---
 author: bubble2k16
+avatar: https://avatars.githubusercontent.com/u/20153229?v=4
 categories:
 - emulator
 color: '#559cce'

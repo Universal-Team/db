@@ -1,6 +1,7 @@
 ---
 author: flarn2006
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/687313?v=4
 categories:
 - utility
 color: '#becdda'

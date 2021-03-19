@@ -1,6 +1,7 @@
 ---
 author: d0k3
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/12467483?v=4
 categories:
 - utility
 color: '#b49e8d'

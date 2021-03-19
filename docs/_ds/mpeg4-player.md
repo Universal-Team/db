@@ -1,5 +1,6 @@
 ---
 author: Gericom
+avatar: https://avatars.githubusercontent.com/u/5251038?v=4
 categories:
 - utility
 color: '#7f6a4b'

@@ -1,6 +1,7 @@
 ---
 author: Possum
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/153100?v=4
 categories:
 - utility
 color: '#8b9990'

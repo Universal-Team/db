@@ -1,5 +1,6 @@
 ---
 author: Creckeryop
+avatar: https://avatars.githubusercontent.com/u/25725992?v=4
 categories:
 - game
 color: '#546f7d'

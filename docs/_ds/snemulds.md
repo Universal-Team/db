@@ -1,5 +1,6 @@
 ---
 author: Coto
+avatar: https://bytebucket.org/ravatar/%7B9cf0f24a-1db9-40d3-b6f4-116761b7fe0b%7D?ts=default
 bitbucket:
   branch: TGDS1.6-Snemulds
   files:
@@ -22,7 +23,7 @@ downloads:
     size_str: 3 MiB
     url: https://api.bitbucket.org/2.0/repositories/Coto88/snemulds/src/30811e1407c24c14eb9ec573bb58201a1d248152/release/snemul.cfg
 icon: https://bitbucket.org/Coto88/snemulds/raw/c323eb1a7c411390de1ab32daa3640c17dbfa4ff/icon.bmp
-image: https://db.universal-team.net/assets/images/icons/snemulds.png
+image: https://db.universal-team.net/assets/images/images/snemulds.png
 image_length: 626
 layout: app
 source: https://bitbucket.org/Coto88/snemulds

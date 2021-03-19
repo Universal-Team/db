@@ -1,5 +1,6 @@
 ---
 author: aspargas2
+avatar: https://avatars.githubusercontent.com/u/36926490?v=4
 categories:
 - utility
 - firm

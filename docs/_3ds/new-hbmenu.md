@@ -1,5 +1,6 @@
 ---
 author: fincs
+avatar: https://avatars.githubusercontent.com/u/581494?v=4
 categories:
 - utility
 color: '#4bbbf5'

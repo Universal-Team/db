@@ -1,6 +1,7 @@
 ---
 author: Ryuzaki-MrL
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/13871621?v=4
 categories:
 - utility
 color: '#7abd9c'

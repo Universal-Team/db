@@ -7,8 +7,9 @@ description: A Sega Genesis/MegaDrive emulator for the Nintendo DS
 download_page: https://gamebrew.org/wiki/JEnesisDS
 downloads:
   JEnesisDS0174.zip:
-    url: https://db.universal-team.net/assets/files/JEnesisDS0174.zip
-icon: https://db.universal-team.net/assets/images/icons/jenesisds.png
+    url: https:///assets/files/JEnesisDS0174.zip
+image: https://db.universal-team.net/assets/images/images/jenesisds.png
+image_length: 453
 layout: app
 systems:
 - DS

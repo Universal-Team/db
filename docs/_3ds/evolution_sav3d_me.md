@@ -1,6 +1,7 @@
 ---
 author: Manurocker95
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/17181899?v=4
 categories:
 - game
 color: '#6d7a68'

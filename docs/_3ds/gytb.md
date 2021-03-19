@@ -1,6 +1,7 @@
 ---
 author: MrCheeze
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/43786828?v=4
 categories:
 - utility
 color: '#735056'

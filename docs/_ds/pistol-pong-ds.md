@@ -1,5 +1,6 @@
 ---
 author: Jonatan6
+avatar: https://avatars.githubusercontent.com/u/66566027?v=4
 categories:
 - game
 color: '#645750'

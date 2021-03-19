@@ -1,5 +1,6 @@
 ---
 author: xerpi
+avatar: https://avatars.githubusercontent.com/u/560596?v=4
 categories:
 - firm
 color: '#a1946f'

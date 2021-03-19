@@ -1,5 +1,6 @@
 ---
 author: bubble2k16
+avatar: https://avatars.githubusercontent.com/u/20153229?v=4
 categories:
 - emulator
 color: '#2f6fb0'
@@ -13,7 +14,7 @@ downloads:
     url: https://github.com/bubble2k16/snes9x_3ds/releases/download/v1.30/snes9x_3ds-v1.30.zip
 github: bubble2k16/snes9x_3ds
 icon: https://raw.githubusercontent.com/bubble2k16/snes9x_3ds/master/assets/icon.png
-image: https://db.universal-team.net/assets/images/images/snes9x_3ds.png
+image: https://db.universal-team.net/assets/images/images/snes9x.png
 image_length: 5476
 layout: app
 source: https://github.com/bubble2k16/snes9x_3ds

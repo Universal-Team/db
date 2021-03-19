@@ -1,6 +1,7 @@
 ---
 author: nop90
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/6418965?v=4
 categories:
 - emulator
 color: '#e5c3c3'

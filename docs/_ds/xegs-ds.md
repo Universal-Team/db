@@ -1,5 +1,6 @@
 ---
 author: wavemotion-dave
+avatar: https://avatars.githubusercontent.com/u/75039837?v=4
 categories:
 - emulator
 color: '#6c616b'

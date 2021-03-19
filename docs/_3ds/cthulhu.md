@@ -1,5 +1,6 @@
 ---
 author: Ryuzaki-MrL
+avatar: https://avatars.githubusercontent.com/u/13871621?v=4
 categories:
 - utility
 color: '#546541'

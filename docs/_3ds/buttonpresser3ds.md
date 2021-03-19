@@ -1,6 +1,7 @@
 ---
 author: trainboy2019
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/10735668?v=4
 categories:
 - game
 color: '#872217'

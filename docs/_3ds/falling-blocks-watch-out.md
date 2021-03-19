@@ -1,5 +1,6 @@
 ---
 author: Spaqin
+avatar: https://avatars.githubusercontent.com/u/1278433?v=4
 categories:
 - game
 color: '#a09585'
@@ -12,8 +13,8 @@ downloads:
     size_str: 7 MiB
     url: https://github.com/Spaqin/fbwo-3ds/releases/download/v0.4.1/fbwo.v0.4.1.zip
 github: Spaqin/fbwo-3ds
-icon: https://db.universal-team.net/assets/images/icons/fbwo-3ds.png
-image: https://db.universal-team.net/assets/images/images/fbwo-3ds.png
+icon: https://db.universal-team.net/assets/images/icons/falling-blocks-watch-out.png
+image: https://db.universal-team.net/assets/images/images/falling-blocks-watch-out.png
 image_length: 1112
 layout: app
 source: https://github.com/Spaqin/fbwo-3ds

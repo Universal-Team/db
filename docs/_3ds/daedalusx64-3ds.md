@@ -1,5 +1,6 @@
 ---
 author: masterfeizz
+avatar: https://avatars.githubusercontent.com/u/15205297?v=4
 categories:
 - emulator
 color: '#5d7255'

@@ -1,5 +1,6 @@
 ---
 author: rhaleblian
+avatar: https://avatars.githubusercontent.com/u/94912?v=4
 categories:
 - utility
 color: '#202020'
@@ -13,7 +14,7 @@ downloads:
     url: https://github.com/rhaleblian/dslibris/releases/download/v1.5.1/dslibris-1.5.1.zip
 github: rhaleblian/dslibris
 icon: https://raw.githubusercontent.com/rhaleblian/dslibris/master/gfx/icon.bmp
-image: https://db.universal-team.net/assets/images/icons/dslibris.png
+image: https://db.universal-team.net/assets/images/images/dslibris.png
 image_length: 379
 layout: app
 source: https://github.com/rhaleblian/dslibris

@@ -1,5 +1,6 @@
 ---
 author: hax0kartik
+avatar: https://avatars.githubusercontent.com/u/16360444?v=4
 categories:
 - utility
 color: '#2d880f'

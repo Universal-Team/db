@@ -1,5 +1,6 @@
 ---
 author: ingolemo
+avatar: https://avatars.githubusercontent.com/u/616859?v=4
 categories:
 - utility
 color: '#e5b8b8'

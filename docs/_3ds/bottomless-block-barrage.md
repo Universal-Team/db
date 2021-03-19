@@ -1,6 +1,7 @@
 ---
 author: TricksterGuy
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/824564?v=4
 categories:
 - game
 color: '#8b8c8b'

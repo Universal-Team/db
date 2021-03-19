@@ -1,5 +1,6 @@
 ---
 author: RSDuck and GamesSanti
+avatar: https://avatars.githubusercontent.com/u/68710005?v=4
 categories:
 - game
 color: '#7a6040'

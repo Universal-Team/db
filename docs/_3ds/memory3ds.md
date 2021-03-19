@@ -1,5 +1,6 @@
 ---
 author: Omegadrien
+avatar: https://avatars.githubusercontent.com/u/22015200?v=4
 categories:
 - game
 color: '#c8cacf'

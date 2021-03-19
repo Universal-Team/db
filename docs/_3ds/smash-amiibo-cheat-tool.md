@@ -1,5 +1,6 @@
 ---
 author: Ordim3n
+avatar: https://avatars.githubusercontent.com/u/16279160?v=4
 categories:
 - utility
 color: '#dddcda'

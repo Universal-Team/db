@@ -1,5 +1,6 @@
 ---
 author: LukeZGD
+avatar: https://avatars.githubusercontent.com/u/26163116?v=4
 categories:
 - game
 color: '#dcd7e8'

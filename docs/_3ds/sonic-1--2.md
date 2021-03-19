@@ -1,5 +1,6 @@
 ---
 author: JeffRuLz
+avatar: https://avatars.githubusercontent.com/u/14222721?v=4
 categories:
 - game
 color: '#8b948e'

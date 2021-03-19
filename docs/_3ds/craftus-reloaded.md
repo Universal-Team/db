@@ -1,6 +1,7 @@
 ---
 author: RSDuck
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/9352526?v=4
 categories:
 - game
 color: '#4e4f39'

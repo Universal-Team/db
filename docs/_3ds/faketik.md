@@ -1,5 +1,6 @@
 ---
 author: ihaveamac
+avatar: https://avatars.githubusercontent.com/u/590576?v=4
 categories:
 - utility
 color: '#a9a6b2'

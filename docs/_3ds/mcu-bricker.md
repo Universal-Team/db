@@ -1,5 +1,6 @@
 ---
 author: MarcuzD
+avatar: https://avatars.githubusercontent.com/u/43786828?v=4
 categories:
 - utility
 color: '#9d9290'

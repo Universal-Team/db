@@ -1,5 +1,6 @@
 ---
 author: bubble2k16
+avatar: https://avatars.githubusercontent.com/u/20153229?v=4
 categories:
 - emulator
 color: '#3a71a4'
@@ -13,7 +14,7 @@ downloads:
     url: https://github.com/bubble2k16/emus3ds/releases/download/v1.02/virtuanes_3ds-v1.02.zip
 github: bubble2k16/emus3ds
 icon: https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/virtuanes/assets/icon.png
-image: https://db.universal-team.net/assets/images/images/virtualnes.png
+image: https://db.universal-team.net/assets/images/images/virtuanes.png
 image_length: 2631
 layout: app
 source: https://github.com/bubble2k16/emus3ds

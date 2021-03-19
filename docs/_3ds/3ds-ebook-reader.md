@@ -1,5 +1,6 @@
 ---
 author: DomRe
+avatar: https://avatars.githubusercontent.com/u/8564184?v=4
 categories:
 - utility
 color: '#905933'

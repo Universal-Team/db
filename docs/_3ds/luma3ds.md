@@ -1,5 +1,6 @@
 ---
 author: LumaTeam
+avatar: https://avatars.githubusercontent.com/u/65085206?v=4
 categories:
 - utility
 - firm

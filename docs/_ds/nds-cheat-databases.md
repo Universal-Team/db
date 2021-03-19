@@ -1,5 +1,6 @@
 ---
 author: DeadSkullzJr
+avatar: https://bytebucket.org/ravatar/%7B7ecf1594-831c-4d72-9217-4e1fa1160803%7D?ts=default
 bitbucket:
   files:
   - Cheats/cheat.dat

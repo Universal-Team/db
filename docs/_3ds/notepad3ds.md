@@ -1,5 +1,6 @@
 ---
 author: RMcTn
+avatar: https://avatars.githubusercontent.com/u/18317099?v=4
 categories:
 - utility
 color: '#90c0fc'

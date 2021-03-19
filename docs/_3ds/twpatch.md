@@ -1,5 +1,6 @@
 ---
 author: SonoSooS
+avatar: https://avatars.githubusercontent.com/u/7823099?v=4
 categories:
 - utility
 color: '#8d8e9d'

@@ -1,5 +1,6 @@
 ---
 author: mikewii
+avatar: https://avatars.githubusercontent.com/u/29737660?v=4
 categories:
 - utility
 - firm

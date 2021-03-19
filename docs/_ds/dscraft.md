@@ -1,5 +1,6 @@
 ---
 author: smealum
+avatar: https://avatars.githubusercontent.com/u/6338016?v=4
 categories:
 - game
 color: '#4b5327'

@@ -1,5 +1,6 @@
 ---
 author: aliceinpalth
+avatar: https://avatars.githubusercontent.com/u/9029520?v=4
 categories:
 - utility
 color: '#beb6be'

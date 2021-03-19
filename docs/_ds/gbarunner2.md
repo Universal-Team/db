@@ -1,6 +1,7 @@
 ---
 author: Gericom
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/5251038?v=4
 categories:
 - emulator
 color: '#48405c'
@@ -26,7 +27,7 @@ downloads:
     url: https://github.com/Gericom/GBARunner2/releases/download/v20200812-131430_6e4ce45/GBARunner2_arm9dldi_ds.nds
 github: Gericom/GBARunner2
 icon: https://raw.githubusercontent.com/Gericom/GBARunner2/master/icon.bmp
-image: https://db.universal-team.net/assets/images/icons/gbarunner2.png
+image: https://db.universal-team.net/assets/images/images/gbarunner2.png
 image_length: 593
 layout: app
 source: https://github.com/Gericom/GBARunner2

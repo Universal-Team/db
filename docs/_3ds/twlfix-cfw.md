@@ -1,5 +1,6 @@
 ---
 author: MechanicalDragon0687
+avatar: https://avatars.githubusercontent.com/u/43786828?v=4
 categories:
 - utility
 color: '#e3d6d7'

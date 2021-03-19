@@ -1,5 +1,6 @@
 ---
 author: zoogie
+avatar: https://avatars.githubusercontent.com/u/28328903?v=4
 categories:
 - utility
 color: '#686d75'

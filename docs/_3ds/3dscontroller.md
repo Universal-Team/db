@@ -1,5 +1,6 @@
 ---
 author: CTurt
+avatar: https://avatars.githubusercontent.com/u/6132330?v=4
 categories:
 - utility
 color: '#939393'

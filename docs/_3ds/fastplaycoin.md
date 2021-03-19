@@ -1,5 +1,6 @@
 ---
 author: CorySanin
+avatar: https://avatars.githubusercontent.com/u/2897351?v=4
 categories:
 - utility
 color: '#7e9a6e'

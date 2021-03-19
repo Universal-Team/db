@@ -1,6 +1,7 @@
 ---
 author: huiminghao / Coto
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/46971470?v=4
 categories:
 - emulator
 color: '#b5774b'
@@ -12,7 +13,7 @@ downloads:
     url: https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/release/nesDS.nds
 github: DS-Homebrew/NesDS
 icon: https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/icon.bmp
-image: https://db.universal-team.net/assets/images/icons/nesds.png
+image: https://db.universal-team.net/assets/images/images/nesds.png
 image_length: 277
 layout: app
 nightly:

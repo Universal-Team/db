@@ -1,5 +1,6 @@
 ---
 author: RedShyGuy
+avatar: https://avatars.githubusercontent.com/u/43783060?v=4
 categories:
 - utility
 color: '#947677'

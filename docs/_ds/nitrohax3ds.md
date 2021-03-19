@@ -1,5 +1,6 @@
 ---
 author: ahezard
+avatar: https://avatars.githubusercontent.com/u/16766068?v=4
 categories:
 - utility
 color: '#750000'
@@ -16,7 +17,7 @@ downloads:
     url: https://github.com/ahezard/NitroHax3DS/releases/download/0.99.DSI/NitroHax_DSi_Release.zip
 github: ahezard/NitroHax3DS
 icon: https://raw.githubusercontent.com/ahezard/NitroHax3DS/master/icon.bmp
-image: https://db.universal-team.net/assets/images/icons/nitrohax3ds.png
+image: https://db.universal-team.net/assets/images/images/nitrohax3ds.png
 image_length: 354
 layout: app
 license: gpl-3.0

@@ -1,5 +1,6 @@
 ---
 author: d0k3
+avatar: https://avatars.githubusercontent.com/u/12467483?v=4
 categories:
 - utility
 - firm

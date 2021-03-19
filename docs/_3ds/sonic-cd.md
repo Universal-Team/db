@@ -1,5 +1,6 @@
 ---
 author: SaturnSH2x2
+avatar: https://avatars.githubusercontent.com/u/18273084?v=4
 categories:
 - game
 color: '#516498'

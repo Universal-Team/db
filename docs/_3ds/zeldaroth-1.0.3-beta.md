@@ -1,6 +1,7 @@
 ---
 author: vargaviktor
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/12373906?v=4
 categories:
 - game
 color: '#ceb1a5'

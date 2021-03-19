@@ -1,5 +1,6 @@
 ---
 author: Hoksy
+avatar: https://avatars.githubusercontent.com/u/5952243?v=4
 categories:
 - game
 color: '#7b5da7'

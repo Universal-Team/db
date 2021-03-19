@@ -1,6 +1,7 @@
 ---
 author: Steveice10
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/1269164?v=4
 categories:
 - game
 color: '#231e13'

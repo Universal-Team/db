@@ -1,5 +1,6 @@
 ---
 author: RocketRobz
+avatar: https://avatars.githubusercontent.com/u/16110127?v=4
 categories:
 - utility
 color: '#99d6e5'
@@ -12,8 +13,7 @@ downloads:
     size_str: 636 KiB
     url: https://github.com/RocketRobz/3DSBank/releases/download/v1.1/3DSBank.cia
 github: RocketRobz/3DSBank
-icon: https://db.universal-team.net/assets/images/icons/3dsbank.png
-image: https://db.universal-team.net/assets/images/icons/3dsbank.png
+image: https://db.universal-team.net/assets/images/images/3dsbank.png
 image_length: 266
 layout: app
 license: gpl-3.0

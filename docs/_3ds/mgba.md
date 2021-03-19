@@ -1,5 +1,6 @@
 ---
 author: mgba-emu
+avatar: https://avatars.githubusercontent.com/u/10085927?v=4
 categories:
 - emulator
 color: '#503a7e'

@@ -1,5 +1,6 @@
 ---
 author: Steveice10
+avatar: https://avatars.githubusercontent.com/u/1269164?v=4
 categories:
 - utility
 color: '#c0d0ff'

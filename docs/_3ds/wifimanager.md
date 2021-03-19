@@ -1,5 +1,6 @@
 ---
 author: LiquidFenrir
+avatar: https://avatars.githubusercontent.com/u/16072534?v=4
 categories:
 - utility
 color: '#0064ad'

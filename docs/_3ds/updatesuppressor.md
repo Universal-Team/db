@@ -1,6 +1,7 @@
 ---
 author: GiantBlargg
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/1700581?v=4
 categories:
 - utility
 color: '#ffc9ac'

@@ -1,6 +1,7 @@
 ---
 author: Jacudibu
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/9059719?v=4
 categories:
 - game
 color: '#d6d6d6'

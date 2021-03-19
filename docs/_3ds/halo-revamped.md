@@ -1,5 +1,6 @@
 ---
 author: TCPixel
+avatar: https://avatars.githubusercontent.com/u/5771065?v=4
 categories:
 - game
 color: '#696a6b'

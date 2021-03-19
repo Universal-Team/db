@@ -1,6 +1,7 @@
 ---
 author: deltabeard
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/3747104?v=4
 categories:
 - utility
 color: '#f7f6f7'

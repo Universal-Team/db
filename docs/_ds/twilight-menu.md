@@ -1,5 +1,6 @@
 ---
 author: DS-Homebrew
+avatar: https://avatars.githubusercontent.com/u/46971470?v=4
 categories:
 - utility
 color: '#464061'

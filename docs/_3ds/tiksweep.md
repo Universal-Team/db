@@ -1,6 +1,7 @@
 ---
 author: DanTheMan827
 autogen_scripts: true
+avatar: https://avatars.githubusercontent.com/u/790119?v=4
 categories:
 - utility
 color: '#957d49'

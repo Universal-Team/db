@@ -1,5 +1,6 @@
 ---
 author: TricksterGuy
+avatar: https://avatars.githubusercontent.com/u/824564?v=4
 categories:
 - utility
 color: '#182448'

@@ -1,5 +1,6 @@
 ---
 author: MrHuu
+avatar: https://avatars.githubusercontent.com/u/561623?v=4
 categories:
 - game
 color: '#b3a764'

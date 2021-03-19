@@ -1,5 +1,6 @@
 ---
 author: mtheall
+avatar: https://avatars.githubusercontent.com/u/896483?v=4
 categories:
 - utility
 color: '#001900'
