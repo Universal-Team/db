@@ -408,32 +408,33 @@ for app in source:
 			os.mkdir("temp")
 
 		url = app["icon"] if "icon" in app else app["image"] if "image" in app else ""
-		img = None
+		file = None
 		if url[:30] == "https://db.universal-team.net/":
 			file = open(f"../docs/{url[30:]}", "rb")
 		else:
 			file = io.BytesIO(requests.get(url).content)
 
-		with Image.open(file) as img:
-			if img.mode == "P":
-				pal = img.palette.getdata()[1]
-				img = img.convert("RGBA")
-				data = numpy.array(img)
-				r, g, b, a = data.T
-				transparent = (r == pal[2]) & (g == pal[1]) & (b == pal[0])
-				data[...][transparent.T] = (0, 0, 0, 0)
-				img = Image.fromarray(data)
-			elif img.mode != "RGBA":
-				img = img.convert("RGBA")
-			img.thumbnail((48, 48))
-			img.save(os.path.join("temp", str(iconIndex) + ".png"))
-			icons.append(str(iconIndex) + ".png")
-			iconIndex += 1
-			if not "color" in app:
-				color = img.copy()
-				color.thumbnail((1, 1))
-				color = color.getpixel((0, 0))
-				app["color"] = "#{:02x}{:02x}{:02x}".format(color[0], color[1], color[2])
+		if file:
+			with Image.open(file) as img:
+				if img.mode == "P":
+					pal = img.palette.getdata()[1]
+					img = img.convert("RGBA")
+					data = numpy.array(img)
+					r, g, b, a = data.T
+					transparent = (r == pal[2]) & (g == pal[1]) & (b == pal[0])
+					data[...][transparent.T] = (0, 0, 0, 0)
+					img = Image.fromarray(data)
+				elif img.mode != "RGBA":
+					img = img.convert("RGBA")
+				img.thumbnail((48, 48))
+				img.save(os.path.join("temp", str(iconIndex) + ".png"))
+				icons.append(str(iconIndex) + ".png")
+				iconIndex += 1
+				if not "color" in app:
+					color = img.copy()
+					color.thumbnail((1, 1))
+					color = color.getpixel((0, 0))
+					app["color"] = "#{:02x}{:02x}{:02x}".format(color[0], color[1], color[2])
 
 	# Output website page
 	if not priorityOnlyMode or ("priority" in app and app["priority"]) or not foundExisting:
