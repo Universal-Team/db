@@ -76,10 +76,10 @@ layout: compress
 													</div>
 												</div>
 											</a>
-											{% if app.version or app.qr.size == 1 %}
+											{% if app.version or app.qr.size == 1 or app.prerelease.qr.size == 1 %}
 												<div class="card-footer b-0">
 													<div class="row">
-														<div class="{% if app.qr.size == 1 %}col-10{% else %}col-12{% endif %}">
+														<div class="{% if app.qr.size == 1 or app.prerelease.qr.size == 1 %}col-10{% else %}col-12{% endif %}">
 															<small class="text-muted">
 																{% unless page.system %}
 																	System: {{ app.systems | join: ", "}}
@@ -96,13 +96,21 @@ layout: compress
 														</div>
 														<div class="col-2">
 															{% if app.qr.size == 1 %}
-																{% for qr in app.qr %}
-																	<p class="text-right">
+																<p class="text-right">
+																	{% for qr in app.qr %}
 																		<a class="qr-link" href="{{ qr[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}" aria-label="Show QR Code for {{ qr[0] }}">
 																			<i class="fa fa-qrcode pointer" aria-hidden="true"></i>
 																		</a>
-																	</p>
-																{% endfor %}
+																	{% endfor %}
+																</p>
+															{% elsif app.prerelease.qr.size == 1 %}
+																<p class="text-right">
+																	{% for qr in app.prerelease.qr %}
+																		<a class="qr-link" href="{{ qr[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}" aria-label="Show QR Code for {{ qr[0] }}">
+																			<i class="fa fa-qrcode pointer" aria-hidden="true"></i>
+																		</a>
+																	{% endfor %}
+																</p>
 															{% endif %}
 														</div>
 													</div>
