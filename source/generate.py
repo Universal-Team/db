@@ -217,8 +217,8 @@ for app in source:
 			if not "description" in app and api["description"] != "" and api["description"] != None:
 				app["description"] = api["description"]
 
-			if not "image" in app:
-				app["image"] = api["owner"]["avatar_url"]
+			if not "avatar" in app:
+				app["avatar"] = api["owner"]["avatar_url"]
 
 			if not "source" in app:
 				app["source"] = api["html_url"]
@@ -320,8 +320,8 @@ for app in source:
 			if not "description" in app:
 				app["description"] = api["description"].replace("\r\n", "\n")
 
-			if not "image" in app:
-				app["image"] = api["links"]["avatar"]["href"]
+			if not "avatar" in app:
+				app["avatar"] = api["links"]["avatar"]["href"]
 
 			if not "source" in app:
 				app["source"] = api["links"]["html"]["href"]
@@ -385,9 +385,21 @@ for app in source:
 		print(webName(app["title"]))
 	print("=" * 80)
 
+	# Check for local icon / image
+	if not "icon" in app and os.path.exists(os.path.join("..", "docs", "assets", "images", "icons", f"{webName(app['title'])}.png")):
+		app["icon"] = f"https://db.universal-team.net/assets/images/icons/{webName(app['title'])}.png"
+
+	if not "image" in app and os.path.exists(os.path.join("..", "docs", "assets", "images", "images", f"{webName(app['title'])}.png")):
+		app["image"] = f"https://db.universal-team.net/assets/images/images/{webName(app['title'])}.png"
+	elif not "image" in app and "avatar" in app:
+		app["image"] = app["avatar"]
+
 	# Get image size
 	if not "image_length" in app and "image" in app:
-		app["image_length"] = len(requests.get(app["image"]).content)
+		if app["image"][:30] == "https://db.universal-team.net/":
+			app["image_length"] = os.path.getsize(f"../docs/{app['image'][30:]}")
+		else:
+			app["image_length"] = len(requests.get(app["image"]).content)
 
 	# Make icon for UniStore and QR
 	img = None
@@ -395,12 +407,14 @@ for app in source:
 		if not os.path.exists("temp"):
 			os.mkdir("temp")
 
-		if "icon" in app:
-			r = requests.get(app["icon"])
+		url = app["icon"] if "icon" in app else app["image"] if "image" in app else ""
+		img = None
+		if url[:30] == "https://db.universal-team.net/":
+			file = open(f"../docs/{url[30:]}", "rb")
 		else:
-			r = requests.get(app["image"])
+			file = io.BytesIO(requests.get(url).content)
 
-		with Image.open(io.BytesIO(r.content)) as img:
+		with Image.open(file) as img:
 			if img.mode == "P":
 				pal = img.palette.getdata()[1]
 				img = img.convert("RGBA")

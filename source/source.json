@@ -287,7 +287,6 @@
 	{
 		"github": "Gericom/GBARunner2",
 		"icon": "https://raw.githubusercontent.com/Gericom/GBARunner2/master/icon.bmp",
-		"image": "https://db.universal-team.net/assets/images/icons/gbarunner2.png",
 		"categories": ["emulator"],
 		"systems": ["DS"],
 		"autogen_scripts": true,
@@ -439,7 +438,6 @@
 		"download_page": "https://web.archive.org/web/20160818124931/http://smealum.net/dscraft/",
 		"website": "https://web.archive.org/web/20160818124931/http://smealum.net/dscraft/",
 		"image": "https://raw.githubusercontent.com/smealum/dscraft/master/site/dscraft-logo.png",
-		"icon": "https://db.universal-team.net/assets/images/icons/dscraft.png",
 		"version": "v310811",
 		"updated": "2011-08-31T20:29:00Z",
 		"scripts": {
@@ -503,7 +501,6 @@
 		"github": "smealum/portalDS",
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/smealum/portalDS/master/logo.bmp",
-		"image": "https://db.universal-team.net/assets/images/icons/portalds.png",
 		"systems": ["DS"],
 		"scripts": {
 			"portalDS.nds": [
@@ -541,7 +538,6 @@
 		"categories": ["utility"],
 		"systems": ["DS"],
 		"icon": "https://raw.githubusercontent.com/rhaleblian/dslibris/master/gfx/icon.bmp",
-		"image": "https://db.universal-team.net/assets/images/icons/dslibris.png",
 		"scripts": {
 			"dslibris.nds": [
 				{
@@ -592,7 +588,6 @@
 		"version": "v1.1",
 		"updated": "2010-10-04T10:11:20Z",
 		"systems": ["DS"],
-		"icon": "https://db.universal-team.net/assets/images/icons/colors.png",
 		"scripts": {
 			"Colors.nds": [
 				{
@@ -682,7 +677,6 @@
 		"updated": "2018-10-19T22:09:05Z",
 		"systems": ["DS"],
 		"icon": "https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/icon.bmp",
-		"image": "https://db.universal-team.net/assets/images/icons/nesds.png",
 		"nightly": {
 			"download_page": "https://github.com/TWLBot/Builds/blob/master/extras/nesDS.7z",
 			"downloads": {
@@ -759,7 +753,6 @@
 		"updated": "2013-08-31T00:23:48Z",
 		"systems": ["DS"],
 		"icon": "https://raw.githubusercontent.com/Arisotura/lolSnes/master/lolsnes.bmp",
-		"image": "https://db.universal-team.net/assets/images/images/lolsnes.png",
 		"nightly": {
 			"download_page": "http://lolsnes.kuribo64.net/download.php",
 			"downloads": {
@@ -822,21 +815,19 @@
 		},
 		"systems": ["DS"],
 		"categories": ["emulator"],
-		"icon": "https://bitbucket.org/Coto88/snemulds/raw/c323eb1a7c411390de1ab32daa3640c17dbfa4ff/icon.bmp",
-		"image": "https://db.universal-team.net/assets/images/icons/snemulds.png"
+		"icon": "https://bitbucket.org/Coto88/snemulds/raw/c323eb1a7c411390de1ab32daa3640c17dbfa4ff/icon.bmp"
 	},
 	{
 		"github": "DS-Homebrew/PicoDriveTWL",
 		"categories": ["emulator"],
 		"systems": ["DS"],
-		"icon": "https://raw.githubusercontent.com/DS-Homebrew/PicoDriveTWL/master/genesis-32x32.bmp",
-		"image": "https://db.universal-team.net/assets/images/icons/picodrivetwl.png"
+		"icon": "https://raw.githubusercontent.com/DS-Homebrew/PicoDriveTWL/master/genesis-32x32.bmp"
 	},
 	{
 		"title": "jEnesisDS",
 		"downloads": {
 			"JEnesisDS0174.zip": {
-				"url": "https://db.universal-team.net/assets/files/JEnesisDS0174.zip"
+				"url": "https:///assets/files/JEnesisDS0174.zip"
 			}
 		},
 		"categories": ["emulator"],
@@ -846,12 +837,11 @@
 		"author": "Lordus",
 		"systems": ["DS"],
 		"description": "A Sega Genesis/MegaDrive emulator for the Nintendo DS",
-		"icon": "https://db.universal-team.net/assets/images/icons/jenesisds.png",
 		"scripts": {
 			"jEnesisDS.nds": [
 				{
 					"type": "downloadFile",
-					"file": "https://db.universal-team.net/assets/files/JEnesisDS0174.zip",
+					"file": "https:///assets/files/JEnesisDS0174.zip",
 					"output": "/JEnesisDS0174.zip",
 					"message": "Downloading JEnesisDS0174.zip..."
 				},
@@ -874,7 +864,6 @@
 		"github": "JeffRuLz/TMFH",
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/JeffRuLz/TMFH/master/icon.bmp",
-		"image": "https://db.universal-team.net/assets/images/icons/tmfh.png",
 		"systems": ["DS"],
 		"unistore_exclude": true
 	},
@@ -887,7 +876,6 @@
 		"github": "chishm/nitrohax",
 		"updated": "2018-04-09T13:00:02Z",
 		"icon": "https://raw.githubusercontent.com/chishm/nitrohax/master/icon.bmp",
-		"image": "https://db.universal-team.net/assets/images/icons/nitrohax.png",
 		"systems": ["DS"],
 		"downloads": {
 			"NitroHax.zip": {
@@ -905,7 +893,6 @@
 		"systems": ["DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/ahezard/NitroHax3DS/master/icon.bmp",
-		"image": "https://db.universal-team.net/assets/images/icons/nitrohax3ds.png",
 		"downloads": {
 			"NitroHax.cia": {
 				"url": "https://github.com/ahezard/NitroHax3DS/releases/download/0.99.NTR/NitroHax.cia",
@@ -919,14 +906,12 @@
 		"long_description": "This is a fork of [ahezard/NitroHax3DS](nitrohax3ds) that switches the cheat database format to `usrcheat.dat`. If you want to use `cheats.xml`, then use the original.",
 		"systems": ["DS"],
 		"categories": ["utility"],
-		"icon": "https://raw.githubusercontent.com/Epicpkmn11/NitroHax3DS/master/icon.bmp",
-		"image": "https://db.universal-team.net/assets/images/icons/nitrohax3ds.png"
+		"icon": "https://raw.githubusercontent.com/Epicpkmn11/NitroHax3DS/master/icon.bmp"
 	},
 	{
 		"github": "Drenn1/GameYob",
 		"website": "https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/",
 		"icon": "https://raw.githubusercontent.com/Drenn1/GameYob/master/platform/ds/icon.bmp",
-		"image": "https://db.universal-team.net/assets/images/icons/gameyob.png",
 		"systems": ["DS"],
 		"categories": ["emulator"],
 		"scripts": {
@@ -995,8 +980,7 @@
 		"github": "Nanquitas/BootNTR",
 		"systems": ["3DS"],
 		"categories": ["utility"],
-		"icon": "https://raw.githubusercontent.com/Nanquitas/BootNTR/master/resources/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/bootntr.png"
+		"icon": "https://raw.githubusercontent.com/Nanquitas/BootNTR/master/resources/icon.png"
 	},
 	{
 		"github": "MrHuu/openbor-3ds",
@@ -1131,7 +1115,6 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/Trinitro21/lpp-3ds/sbfm/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/lpp-3ds.png",
 		"autogen_scripts": true,
 		"scripts": {
 			"sbfm.3dsx": [
@@ -1169,8 +1152,6 @@
 		"title": "MCU Bricker",
 		"systems": ["3DS"],
 		"categories": ["utility"],
-		"image": "https://db.universal-team.net/assets/images/images/mcu-bricker.png",
-		"icon": "https://db.universal-team.net/assets/images/icons/mcu-bricker.png",
 		"author": "MarcuzD",
 		"description": "Makes your LED go rainbow."
 	},
@@ -1228,9 +1209,7 @@
 	{
 		"github": "LukeZGD/DDLC-LOVE",
 		"systems": ["3DS"],
-		"categories": ["game"],
-		"image": "https://db.universal-team.net/assets/images/images/ddlc-love.png",
-		"icon": "https://db.universal-team.net/assets/images/icons/ddlc-love.png"
+		"categories": ["game"]
 	},
 	{
 		"github": "MrHuu/opentitus-3ds",
@@ -1444,8 +1423,7 @@
 		"github": "J-D-K/JKSM",
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
-		"icon": "https://raw.githubusercontent.com/J-D-K/JKSM/master/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/jksm.png"
+		"icon": "https://raw.githubusercontent.com/J-D-K/JKSM/master/icon.png"
 	},
 	{
 		"github": "togetg/TJAPlayer_for_3DS",
@@ -1493,8 +1471,7 @@
 		"github": "mariohackandglitch/homebrew_launcher_dummy",
 		"systems": ["3DS"],
 		"categories": ["utility"],
-		"icon": "https://raw.githubusercontent.com/mariohackandglitch/homebrew_launcher_dummy/master/resources/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/homebrew_launcher_dummy.png"
+		"icon": "https://raw.githubusercontent.com/mariohackandglitch/homebrew_launcher_dummy/master/resources/icon.png"
 	},
 	{
 		"github": "LiquidFenrir/Yahtzee3DS",
@@ -1547,7 +1524,6 @@
 		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/bubble2k16/snes9x_3ds/master/assets/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/snes9x_3ds.png",
 		"scripts": {
 			"snes9x_3ds.cia": [
 				{
@@ -1624,7 +1600,6 @@
 		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/virtuanes/assets/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/virtualnes.png",
 		"scripts": {
 			"virtuanes_3ds.cia": [
 				{
@@ -1831,7 +1806,6 @@
 		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/picodrive/assets/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/picodrive.png",
 		"scripts": {
 			"picodrive_3ds.cia": [
 				{
@@ -1908,7 +1882,6 @@
 		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/temperpce/assets/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/temperpce.png",
 		"scripts": {
 			"temperpce_3ds.cia": [
 				{
@@ -1975,8 +1948,7 @@
 		"github": "RMcTn/Notepad3DS",
 		"systems": ["3DS"],
 		"categories": ["utility"],
-		"icon": "https://raw.githubusercontent.com/RMcTn/Notepad3DS/master/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/notepad3ds.png"
+		"icon": "https://raw.githubusercontent.com/RMcTn/Notepad3DS/master/icon.png"
 	},
 	{
 		"github": "ingolemo/drider",
@@ -2173,7 +2145,6 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/Manurocker95/Evolution_Sav3D_Me/Evolution_Sav3D_Me/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/evolution_sav3d_me.png",
 		"autogen_scripts": true,
 		"scripts": {
 			"Evolution_Sav3D_Me.3dsx": [
@@ -2353,9 +2324,7 @@
 	{
 		"github": "masterfeizz/Quake2CTR",
 		"systems": ["3DS"],
-		"categories": ["game"],
-		"image": "https://db.universal-team.net/assets/images/images/quake2ctr.png",
-		"icon": "https://db.universal-team.net/assets/images/icons/quake2ctr.png"
+		"categories": ["game"]
 	},
 	{
 		"github": "nop90/Neopop-SDL",
@@ -2392,8 +2361,7 @@
 		"github": "Creckeryop/3dsCookieClicker",
 		"systems": ["3DS"],
 		"categories": ["game"],
-		"icon": "https://raw.githubusercontent.com/Creckeryop/3dsCookieClicker/master/logo.png",
-		"image": "https://db.universal-team.net/assets/images/images/3dscookieclicker.png"
+		"icon": "https://raw.githubusercontent.com/Creckeryop/3dsCookieClicker/master/logo.png"
 	},
 	{
 		"github": "nop90/ZeldaOLB",
@@ -3304,9 +3272,7 @@
 	{
 		"github": "Hoksy/ravimid",
 		"systems": ["3DS"],
-		"categories": ["game"],
-		"image": "https://db.universal-team.net/assets/images/images/ravimid.png",
-		"icon": "https://db.universal-team.net/assets/images/icons/ravimid.png"
+		"categories": ["game"]
 	},
 	{
 		"github": "Omegadrien/Memory3DS",
@@ -3436,7 +3402,6 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/masterfeizz/ctrQuake/master/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/ctrquake.png",
 		"scripts": {
 			"ctrQuake.cia": [
 				{
@@ -3645,9 +3610,7 @@
 	{
 		"github": "gnmmarechal/easyrpgdlre",
 		"systems": ["3DS"],
-		"categories": ["utility"],
-		"image": "https://db.universal-team.net/assets/images/images/easyrpgdlre.png",
-		"icon": "https://db.universal-team.net/assets/images/icons/easyrpgdlre.png"
+		"categories": ["utility"]
 	},
 	{
 		"github": "Steveice10/WorldOf3DSand",
@@ -3715,7 +3678,6 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/TurtleP/Hax0r/master/graphics/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/hax0r.png",
 		"scripts": {
 			"Hax0r.cia": [
 				{
@@ -3844,8 +3806,6 @@
 		"github": "TurtleP/TurtleInvaders",
 		"systems": ["3DS"],
 		"categories": ["game"],
-		"image": "https://db.universal-team.net/assets/images/images/turtleinvaders.png",
-		"icon": "https://db.universal-team.net/assets/images/icons/turtleinvaders.png",
 		"scripts": {
 			"TurtleInvaders.cia": [
 				{
@@ -3913,7 +3873,6 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/Jacudibu/Snake2DS/master/icon_large.png",
-		"image": "https://db.universal-team.net/assets/images/images/snake2ds.png",
 		"autogen_scripts": true,
 		"scripts": {
 			"Snake2DS.3dsx": [
@@ -4211,7 +4170,6 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/masterfeizz/EDuke3D/master/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/eduke3d.png",
 		"scripts": {
 			"[prerelease] EDuke3D.cia": [
 				{
@@ -4287,7 +4245,6 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/machinamentum/CS3DS/master/jge/Projects/cspsp/icon_3ds.png",
-		"image": "https://db.universal-team.net/assets/images/images/cs3ds.png",
 		"scripts": {
 			"[prerelease] cspsp.cia": [
 				{
@@ -4393,8 +4350,6 @@
 		"title": "Falling Blocks Watch Out",
 		"systems": ["3DS"],
 		"categories": ["game"],
-		"image": "https://db.universal-team.net/assets/images/images/fbwo-3ds.png",
-		"icon": "https://db.universal-team.net/assets/images/icons/fbwo-3ds.png",
 		"description": "Falling Blocks Watch Out, a 3DS homebrew Tetris clone.",
 		"scripts": {
 			"fbwo.3dsx": [
@@ -4532,7 +4487,6 @@
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
 		"icon": "https://raw.githubusercontent.com/suloku/pdrpse/master/icon.png",
-		"image": "https://db.universal-team.net/assets/images/images/pdrpse.png",
 		"scripts": {
 			"pdrpse.cia": [
 				{
@@ -5044,7 +4998,6 @@
 		},
 		"systems": ["DS"],
 		"categories": ["extra"],
-		"image": "https://db.universal-team.net/assets/images/images/nds-cheat-databases.png",
 		"website": "https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/",
 		"scripts": {
 			"[twlmenu] usrcheat.dat": [
@@ -5649,9 +5602,7 @@
 	{
 		"github": "RocketRobz/3DSBank",
 		"systems": ["3DS"],
-		"categories": ["utility"],
-		"image": "https://db.universal-team.net/assets/images/icons/3dsbank.png",
-		"icon": "https://db.universal-team.net/assets/images/icons/3dsbank.png"
+		"categories": ["utility"]
 	},
 	{
 		"github": "GamesSanti/Craftus-Redesigned",
@@ -5915,7 +5866,6 @@
 		"long_description": "A very simplistic Tic-Tac-Toe clone for the Nintendo DS.",
 		"systems": ["DS"],
 		"categories": ["game"],
-		"image": "https://db.universal-team.net/assets/images/images/tic-tac-ds.png",
 		"icon": "https://raw.githubusercontent.com/Jonatan6/Tic-Tac-DS/master/icon.bmp"
 	},
 	{
@@ -6001,7 +5951,6 @@
 		"systems": ["DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/Jonatan6/Pistol-Pong-DS/main/icon.bmp",
-		"image": "https://db.universal-team.net/assets/images/images/pistol-pong-ds.png",
 		"long_description": "It's like the classic game pong, but with guns.\n\n## The rules are simple\n* Control your paddle by pressing up and down on the dpad, and fire your gun by pressing right on the dpad.\n* If you get shot or miss the ball, your opponent gains one point.\n* If you manage to shot your opponent of if it misses the ball, you gain one point.\n* And the most important of them all all: **Have fun!**"
 	}
 ]
