@@ -6,7 +6,7 @@ categories:
 color: '#905933'
 created: '2016-05-02T12:42:03Z'
 description: '[ARCHIVE] PoC 3DS eBook Reader.'
-download_page: https://github.com/DomRe/3DS_eBook_Reader/releases/tag/1.2
+download_page: https://github.com/DomRe/3DS_eBook_Reader/releases
 downloads:
   release1.2.zip:
     size: 540204

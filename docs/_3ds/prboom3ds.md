@@ -6,7 +6,7 @@ categories:
 color: '#6d5127'
 created: '2014-12-24T22:07:15Z'
 description: prboom for the 3ds
-download_page: https://github.com/elhobbs/prboom3ds/releases/tag/v0.7-alpha
+download_page: https://github.com/elhobbs/prboom3ds/releases
 github: elhobbs/prboom3ds
 icon: https://raw.githubusercontent.com/elhobbs/prboom3ds/master/prboom3ds.png
 image: https://raw.githubusercontent.com/elhobbs/prboom3ds/master/banner.png

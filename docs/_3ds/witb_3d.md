@@ -7,7 +7,7 @@ categories:
 color: '#e98f7d'
 created: '2017-04-16T16:13:10Z'
 description: Small Game for 3DS in C++
-download_page: https://github.com/Manurocker95/WITB_3D/releases/tag/1.1
+download_page: https://github.com/Manurocker95/WITB_3D/releases
 downloads:
   WITB_3D.cia:
     size: 4899776

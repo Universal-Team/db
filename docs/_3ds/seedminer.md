@@ -6,7 +6,7 @@ categories:
 color: '#121212'
 created: '2018-01-21T07:02:04Z'
 description: 34.2c3 POC
-download_page: https://github.com/zoogie/seedminer/releases/tag/v2.1
+download_page: https://github.com/zoogie/seedminer/releases
 downloads:
   RELEASE_v2.1.zip:
     size: 11053478

@@ -6,7 +6,7 @@ categories:
 color: '#a2a3a4'
 created: '2017-07-18T12:56:44Z'
 description: A weather app for the 3DS
-download_page: https://github.com/NatTupper/Forecast/releases/tag/v1.0.1
+download_page: https://github.com/NatTupper/Forecast/releases
 downloads:
   Forecast-1.0.1.zip:
     size: 828371

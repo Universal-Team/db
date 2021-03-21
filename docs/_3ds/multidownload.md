@@ -6,7 +6,7 @@ categories:
 color: '#2d880f'
 created: '2017-03-17T07:41:24Z'
 description: Download files straight onto your 3ds!
-download_page: https://github.com/hax0kartik/Multidownload/releases/tag/v3.2
+download_page: https://github.com/hax0kartik/Multidownload/releases
 downloads:
   Multidownload.3dsx:
     size: 666948

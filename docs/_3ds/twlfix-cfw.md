@@ -7,7 +7,7 @@ color: '#e3d6d7'
 created: '2019-02-15T22:11:59Z'
 description: Uninstall the stock TWL apps, to allow system to reinstall them from
   CDN
-download_page: https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/tag/1.1
+download_page: https://github.com/MechanicalDragon0687/TWLFix-CFW/releases
 downloads:
   TWLFix-CFW.3dsx:
     size: 516276

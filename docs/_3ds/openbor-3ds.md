@@ -7,7 +7,7 @@ color: '#b3a764'
 created: '2019-09-13T15:28:55Z'
 description: 'OpenBOR is the ultimate 2D side scrolling engine for beat em'' ups,
   shooters, and more! '
-download_page: https://github.com/MrHuu/openbor-3ds/releases/tag/v0.0.4
+download_page: https://github.com/MrHuu/openbor-3ds/releases
 downloads:
   OpenBOR.3dsx:
     size: 1753404

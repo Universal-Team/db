@@ -7,7 +7,7 @@ categories:
 color: '#d1babe'
 created: '2016-06-06T17:44:23Z'
 description: Port of Zelda OLB on 3ds
-download_page: https://github.com/nop90/ZeldaOLB/releases/tag/v1%2C1
+download_page: https://github.com/nop90/ZeldaOLB/releases
 downloads:
   ZeldaOLB_3DSX_v1.1.zip:
     size: 84591843

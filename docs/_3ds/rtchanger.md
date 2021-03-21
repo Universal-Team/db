@@ -7,7 +7,7 @@ color: '#351125'
 created: '2017-07-13T12:42:29Z'
 description: A Nintendo 3DS Homebrew application which allows the end user to freely
   change the (Raw) RTC of the system to bypass timegates.
-download_page: https://github.com/Storm-Eagle20/RTChanger/releases/tag/1.0
+download_page: https://github.com/Storm-Eagle20/RTChanger/releases
 downloads:
   RTChanger-Version1.0.3dsx:
     size: 224036

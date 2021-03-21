@@ -6,7 +6,7 @@ categories:
 color: '#546f7d'
 created: '2017-02-12T18:02:12Z'
 description: Cookie Clicker for Nintendo 3ds
-download_page: https://github.com/Creckeryop/3dsCookieClicker/releases/tag/%230022
+download_page: https://github.com/Creckeryop/3dsCookieClicker/releases
 downloads:
   CookieClicker.cia:
     size: 3072960

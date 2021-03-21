@@ -6,7 +6,7 @@ categories:
 color: '#fddfbc'
 created: '2016-06-29T21:30:57Z'
 description: Port of Biniax2 on 3ds
-download_page: https://github.com/nop90/Biniax2-3DS/releases/tag/V0.4alpha
+download_page: https://github.com/nop90/Biniax2-3DS/releases
 github: nop90/Biniax2-3DS
 icon: https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/banner.png

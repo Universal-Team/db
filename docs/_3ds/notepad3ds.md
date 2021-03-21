@@ -6,7 +6,7 @@ categories:
 color: '#90c0fc'
 created: '2017-06-06T19:39:05Z'
 description: Text editor for the Nintendo 3DS console
-download_page: https://github.com/RMcTn/Notepad3DS/releases/tag/1.1.2
+download_page: https://github.com/RMcTn/Notepad3DS/releases
 downloads:
   Notepad3DS.3dsx:
     size: 586076

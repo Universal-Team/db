@@ -6,7 +6,7 @@ categories:
 color: '#947677'
 created: '2019-08-22T07:15:13Z'
 description: Animal Crossing NL Vapecord Public Plugin WIP
-download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/tag/v1.9.2
+download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases
 downloads:
   Vapecord.Public.zip:
     size: 5382359

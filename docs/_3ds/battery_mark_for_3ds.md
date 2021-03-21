@@ -6,7 +6,7 @@ categories:
 color: '#3f4340'
 created: '2018-12-14T14:57:08Z'
 description: Check your 3DS battery
-download_page: https://github.com/Core-2-Extreme/Battery_mark_for_3DS/releases/tag/v2.0
+download_page: https://github.com/Core-2-Extreme/Battery_mark_for_3DS/releases
 downloads:
   Battery_mark_for_3DS.3dsx:
     size: 5625140

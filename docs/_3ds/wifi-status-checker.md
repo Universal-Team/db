@@ -5,7 +5,7 @@ categories:
 - utility
 color: '#c0c0c0'
 created: '2019-05-26T12:57:45Z'
-download_page: https://github.com/HIDE810/WiFi-Status-Checker/releases/tag/1.0
+download_page: https://github.com/HIDE810/WiFi-Status-Checker/releases
 downloads:
   WiFi.3dsx:
     size: 175544

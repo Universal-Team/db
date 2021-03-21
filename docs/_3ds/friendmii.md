@@ -6,7 +6,7 @@ categories:
 color: '#9d9d9d'
 created: '2017-09-02T02:06:20Z'
 description: An experimental open source friends app for the Nintendo 3DS.
-download_page: https://github.com/joel16/FriendMii/releases/tag/v1.00
+download_page: https://github.com/joel16/FriendMii/releases
 downloads:
   FriendMii.3dsx:
     size: 254536

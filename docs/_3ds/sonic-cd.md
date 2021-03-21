@@ -6,7 +6,7 @@ categories:
 color: '#516498'
 created: '2021-01-22T22:40:50Z'
 description: Port of Sonic CD to the 3DS, based on Rubberduckycooly's Sonic CD decompilation
-download_page: https://github.com/SaturnSH2x2/Sonic-CD-11-3DS/releases/tag/v1.20a
+download_page: https://github.com/SaturnSH2x2/Sonic-CD-11-Decompilation/releases
 github: SaturnSH2x2/Sonic-CD-11-Decompilation
 icon: https://raw.githubusercontent.com/SaturnSH2x2/Sonic-CD-11-Decompilation/master/resources/48x48.png
 image: https://raw.githubusercontent.com/SaturnSH2x2/Sonic-CD-11-Decompilation/master/resources/banner.png

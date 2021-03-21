@@ -6,7 +6,7 @@ categories:
 color: '#2f6fb0'
 created: '2016-10-15T13:52:35Z'
 description: SNES9x Port for 3DS / 2DS
-download_page: https://github.com/bubble2k16/snes9x_3ds/releases/tag/v1.30
+download_page: https://github.com/bubble2k16/snes9x_3ds/releases
 downloads:
   snes9x_3ds-v1.30.zip:
     size: 1832323

@@ -7,7 +7,7 @@ color: '#4bbbf5'
 created: '2017-06-05T00:05:27Z'
 description: "The 3DS Homebrew Menu (\u2229 \u0361\xB0 \u035C\u0296 \u0361\xB0)\u2283\
   \u2501\u2606\uFF9F "
-download_page: https://github.com/fincs/new-hbmenu/releases/tag/v2.2.0
+download_page: https://github.com/fincs/new-hbmenu/releases
 downloads:
   boot.3dsx:
     size: 361820

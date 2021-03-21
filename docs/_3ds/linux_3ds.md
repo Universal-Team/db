@@ -6,7 +6,7 @@ categories:
 color: '#a1946f'
 created: '2015-04-04T23:46:17Z'
 description: Linux kernel source tree
-download_page: https://github.com/xerpi/linux_3ds/releases/tag/5.10.0%2B
+download_page: https://github.com/xerpi/linux_3ds/releases
 downloads:
   linux-3ds-5.10.0+.zip:
     size: 15338178

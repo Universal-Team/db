@@ -6,7 +6,7 @@ categories:
 color: '#333c49'
 created: '2016-04-14T01:43:54Z'
 description: CSPSP port for 3DS
-download_page: https://github.com/machinamentum/CS3DS/releases/tag/0.6-alpha
+download_page: https://github.com/machinamentum/CS3DS/releases
 github: machinamentum/CS3DS
 icon: https://raw.githubusercontent.com/machinamentum/CS3DS/master/jge/Projects/cspsp/icon_3ds.png
 image: https://db.universal-team.net/assets/images/images/cs3ds.png

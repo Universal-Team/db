@@ -6,7 +6,7 @@ categories:
 color: '#6e9ed1'
 created: '2020-12-03T05:35:53Z'
 description: Dump or restore DSi NAND w/ nocash footer
-download_page: https://github.com/DS-Homebrew/SafeNANDManager/releases/tag/v1.1
+download_page: https://github.com/DS-Homebrew/SafeNANDManager/releases
 downloads:
   SafeNANDManager.nds:
     size: 250880

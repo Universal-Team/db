@@ -6,7 +6,7 @@ categories:
 color: '#496373'
 created: '2018-03-22T13:16:03Z'
 description: A mods manager for the 3DS, with fancy features and UI.
-download_page: https://github.com/Swiftloke/ModMoon/releases/tag/v3.0.1
+download_page: https://github.com/Swiftloke/ModMoon/releases
 downloads:
   ModMoon.3dsx:
     size: 1580824

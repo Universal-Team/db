@@ -7,7 +7,7 @@ categories:
 color: '#a8a8a8'
 created: '2016-05-09T16:49:33Z'
 description: Use your 3DS as a gamepad on linux
-download_page: https://github.com/phijor/ctroller/releases/tag/0.4.0
+download_page: https://github.com/phijor/ctroller/releases
 downloads:
   ctroller-0.4.0.tar.gz:
     size: 489430

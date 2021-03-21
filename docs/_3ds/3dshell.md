@@ -7,7 +7,7 @@ color: '#2c8ce1'
 created: '2017-05-22T18:38:09Z'
 description: 3DShell - (Pronounced 3D Shell) is a multi purpose file manager for the
   Nintendo 3DS. Heavily inspired by the CyanogenMod/LineageOS file manager.
-download_page: https://github.com/joel16/3DShell/releases/tag/v5.0.0
+download_page: https://github.com/joel16/3DShell/releases
 downloads:
   3DShell.3dsx:
     size: 1688936

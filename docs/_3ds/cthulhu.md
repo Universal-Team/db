@@ -6,7 +6,7 @@ categories:
 color: '#546541'
 created: '2016-08-22T03:05:13Z'
 description: Homebrew alternative to Nintendo's dev unit software
-download_page: https://github.com/Ryuzaki-MrL/Cthulhu/releases/tag/1.3.5
+download_page: https://github.com/Ryuzaki-MrL/Cthulhu/releases
 downloads:
   Cthulhu.3dsx:
     size: 234800

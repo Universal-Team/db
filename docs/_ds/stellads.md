@@ -6,7 +6,7 @@ categories:
 color: '#969188'
 created: '2020-11-25T18:16:27Z'
 description: Atari 2600 emulator for DS (original code by AlekMaul)
-download_page: https://github.com/wavemotion-dave/StellaDS/releases/tag/2.0
+download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
     size: 1065472

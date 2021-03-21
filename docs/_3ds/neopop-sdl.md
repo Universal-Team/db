@@ -7,7 +7,7 @@ categories:
 color: '#e5c3c3'
 created: '2017-06-01T21:56:07Z'
 description: Neo Geo Pocket Color Emulator for 3DS
-download_page: https://github.com/nop90/Neopop-SDL/releases/tag/v0.4
+download_page: https://github.com/nop90/Neopop-SDL/releases
 github: nop90/Neopop-SDL
 icon: https://raw.githubusercontent.com/nop90/Neopop-SDL/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/Neopop-SDL/master/resources/banner.png

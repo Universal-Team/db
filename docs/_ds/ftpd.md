@@ -6,7 +6,7 @@ categories:
 color: '#001900'
 created: '2014-11-23T22:40:26Z'
 description: FTP Server for 3DS/Switch
-download_page: https://github.com/mtheall/ftpd/releases/tag/v3.0.0
+download_page: https://github.com/mtheall/ftpd/releases
 downloads:
   ftpd-classic.3dsx:
     size: 318544

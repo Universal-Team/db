@@ -7,7 +7,7 @@ color: '#d0e2cf'
 created: '2016-12-05T09:08:27Z'
 description: Port to 3DS of a nice Action RPG in SNES style originally written by
   Syn9 in FreeBASIC
-download_page: https://github.com/nop90/Griffon-Legend-3DS/releases/tag/v1.0
+download_page: https://github.com/nop90/Griffon-Legend-3DS/releases
 downloads:
   GriffonLegend.v1.0.zip:
     size: 5008278

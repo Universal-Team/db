@@ -6,7 +6,7 @@ categories:
 color: '#676967'
 created: '2020-08-03T07:14:58Z'
 description: A simple example homebrew app that can use the DSi's cameras
-download_page: https://github.com/Epicpkmn11/dsi-camera/releases/tag/v1.0.0
+download_page: https://github.com/Epicpkmn11/dsi-camera/releases
 downloads:
   dsi-camera.nds:
     size: 238592

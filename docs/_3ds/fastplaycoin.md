@@ -6,7 +6,7 @@ categories:
 color: '#7e9a6e'
 created: '2017-11-11T08:27:21Z'
 description: '[3DS] Fast PlayCoin'
-download_page: https://github.com/CorySanin/FastPlayCoin/releases/tag/v1.0
+download_page: https://github.com/CorySanin/FastPlayCoin/releases
 downloads:
   FastPlayCoin.3dsx:
     size: 206988

@@ -6,7 +6,7 @@ categories:
 color: '#e5b8b8'
 created: '2016-04-29T11:51:59Z'
 description: An epub reader for the Nintendo3DS
-download_page: https://github.com/ingolemo/drider/releases/tag/v0.6
+download_page: https://github.com/ingolemo/drider/releases
 downloads:
   drider.zip:
     size: 3165004

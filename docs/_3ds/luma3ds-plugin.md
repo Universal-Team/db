@@ -8,7 +8,7 @@ categories:
 color: '#7d6b55'
 created: '2020-05-06T19:38:46Z'
 description: Compiled Luma and plugin
-download_page: https://github.com/mikewii/Luma3DS-plugin/releases/tag/r1.0.9.4
+download_page: https://github.com/mikewii/Luma3DS-plugin/releases
 downloads:
   boot.firm:
     size: 238080

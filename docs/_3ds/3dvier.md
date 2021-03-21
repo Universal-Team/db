@@ -6,7 +6,7 @@ categories:
 color: '#a34f3d'
 created: '2020-05-05T03:10:20Z'
 description: A Connect-Four clone for Nintendo 3DS.
-download_page: https://github.com/Universal-Team/3DVier/releases/tag/v0.1.0
+download_page: https://github.com/Universal-Team/3DVier/releases
 downloads:
   3DVier.3dsx:
     size: 924748

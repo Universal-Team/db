@@ -7,7 +7,7 @@ color: '#8b948e'
 created: '2021-01-28T00:52:25Z'
 description: Port of Sonic 1 and 2 to the 3DS, based on Rubberduckycooly's Sonic 1/2
   (2013) decompilation
-download_page: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/tag/v1.1.1.2
+download_page: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases
 downloads:
   Sonic1.3dsx:
     size: 951044

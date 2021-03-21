@@ -6,7 +6,7 @@ categories:
 color: '#645750'
 created: '2021-03-03T13:33:23Z'
 description: It's like the classic game pong, but with guns.
-download_page: https://github.com/Jonatan6/Pistol-Pong-DS/releases/tag/v1.0
+download_page: https://github.com/Jonatan6/Pistol-Pong-DS/releases
 downloads:
   Pistol-Pong-DS.nds:
     size: 190976

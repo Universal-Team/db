@@ -6,7 +6,7 @@ categories:
 color: '#232323'
 created: '2019-05-29T15:17:49Z'
 description: You are an idiot! Ahahahahahaha!!ahahahaha!
-download_page: https://github.com/HIDE810/you-are-an-idiot/releases/tag/1.1
+download_page: https://github.com/HIDE810/you-are-an-idiot/releases
 downloads:
   Idiot.3dsx:
     size: 565604

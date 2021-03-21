@@ -6,7 +6,7 @@ categories:
 color: '#c0c0d4'
 created: '2020-10-31T18:01:10Z'
 description: '3DS homebrew scientific calculator '
-download_page: https://github.com/LiquidFenrir/CalculaThreeDS/releases/tag/v0.2
+download_page: https://github.com/LiquidFenrir/CalculaThreeDS/releases
 downloads:
   CalculaThreeDS.3dsx:
     size: 332796

@@ -7,7 +7,7 @@ color: '#6c616b'
 created: '2021-01-31T00:11:41Z'
 description: XEGS-DS An Atari 8-bit Computer Emulator (specially targeted for the
   XEGS Gaming System)
-download_page: https://github.com/wavemotion-dave/XEGS-DS/releases/tag/2.0
+download_page: https://github.com/wavemotion-dave/XEGS-DS/releases
 downloads:
   XEGS-DS.nds:
     size: 555520

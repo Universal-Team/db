@@ -8,7 +8,7 @@ color: '#324039'
 created: '2019-05-08T17:29:52Z'
 description: An uncreatively named GodMode9 fork for installing 3DS cartridge games
   directly to the SD
-download_page: https://github.com/aspargas2/CartInstall/releases/tag/v1.3.0
+download_page: https://github.com/aspargas2/CartInstall/releases
 downloads:
   CartInstall.firm:
     size: 445952

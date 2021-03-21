@@ -5,7 +5,7 @@ categories:
 - utility
 color: '#7c626d'
 created: '2016-04-21T14:02:23Z'
-download_page: https://github.com/Nanquitas/BootNTR/releases/tag/v2.13.4
+download_page: https://github.com/Nanquitas/BootNTR/releases
 downloads:
   BootNTRSelector-FONZD-Banner.cia:
     size: 1508288

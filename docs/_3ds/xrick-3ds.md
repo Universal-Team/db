@@ -6,7 +6,7 @@ categories:
 color: '#764d2f'
 created: '2017-03-01T23:04:10Z'
 description: Port to 3ds of the open source remake of Rick Dangerous
-download_page: https://github.com/nop90/Xrick-3ds/releases/tag/v1.0
+download_page: https://github.com/nop90/Xrick-3ds/releases
 downloads:
   Xrick_v1.0.zip:
     size: 3966121

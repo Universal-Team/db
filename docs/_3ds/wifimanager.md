@@ -6,7 +6,7 @@ categories:
 color: '#0064ad'
 created: '2017-04-27T20:00:17Z'
 description: attempt at a wifi slots saving/restore/edit on 3ds
-download_page: https://github.com/LiquidFenrir/WifiManager/releases/tag/v1.1.2
+download_page: https://github.com/LiquidFenrir/WifiManager/releases
 downloads:
   WifiManager.3dsx:
     size: 687284

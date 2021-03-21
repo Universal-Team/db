@@ -6,7 +6,7 @@ categories:
 color: '#182448'
 created: '2016-02-01T06:16:42Z'
 description: Port of vgmstream for the nintendo 3ds along with a player
-download_page: https://github.com/TricksterGuy/3ds-vgmstream/releases/tag/v0.2.0
+download_page: https://github.com/TricksterGuy/3ds-vgmstream/releases
 downloads:
   3ds-vgmstream.3ds:
     size: 982016

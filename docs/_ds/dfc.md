@@ -6,7 +6,7 @@ categories:
 color: '#a4a8a4'
 created: '2020-09-14T03:45:48Z'
 description: A Dummy File Creator for hiyaCFW
-download_page: https://github.com/Epicpkmn11/dfc/releases/tag/v1.0.0
+download_page: https://github.com/Epicpkmn11/dfc/releases
 downloads:
   dfc.nds:
     size: 217600

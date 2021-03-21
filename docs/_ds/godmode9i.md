@@ -8,7 +8,7 @@ color: '#be8345'
 created: '2018-10-02T16:59:38Z'
 description: 'GodMode9i Explorer - A full access file browser for the Nintendo DS
   and DSi consoles :godmode:'
-download_page: https://github.com/DS-Homebrew/GodMode9i/releases/tag/v2.6.1
+download_page: https://github.com/DS-Homebrew/GodMode9i/releases
 downloads:
   GodMode9i.7z:
     size: 176022

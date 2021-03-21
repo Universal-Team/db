@@ -8,7 +8,7 @@ categories:
 color: '#e39dd1'
 created: '2018-06-22T08:47:04Z'
 description: Noob-proof (N)3DS "Custom Firmware"
-download_page: https://github.com/Nanquitas/Luma3DS/releases/tag/v10.2.1
+download_page: https://github.com/Nanquitas/Luma3DS/releases
 downloads:
   boot.firm:
     size: 240640

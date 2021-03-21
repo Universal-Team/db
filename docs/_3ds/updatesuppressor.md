@@ -7,7 +7,7 @@ categories:
 color: '#ffc9ac'
 created: '2015-11-29T08:18:36Z'
 description: Temporarily suppresses the 3ds update nag.
-download_page: https://github.com/GiantBlargg/UpdateSuppressor/releases/tag/v0.2.0
+download_page: https://github.com/GiantBlargg/UpdateSuppressor/releases
 downloads:
   UpdateSuppressor-3dsx.zip:
     size: 91407

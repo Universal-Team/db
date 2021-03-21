@@ -7,7 +7,7 @@ color: '#750000'
 created: '2019-10-17T22:38:27Z'
 description: NitroHax cheat tool for Nintendo DS games, ported to Nintendo DSi / 3DS
   and modified to load from a usrcheat.dat database
-download_page: https://github.com/Epicpkmn11/NitroHax3DS/releases/tag/0.100
+download_page: https://github.com/Epicpkmn11/NitroHax3DS/releases
 downloads:
   NitroHax-usrcheat.cia:
     size: 1368320

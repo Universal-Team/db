@@ -6,7 +6,7 @@ categories:
 color: '#90337d'
 created: '2019-12-02T01:37:45Z'
 description: A Pokemon Shiny Encounter Tool.
-download_page: https://github.com/SuperSaiyajinStackZ/PKCount/releases/tag/v0.0.2
+download_page: https://github.com/SuperSaiyajinStackZ/PKCount/releases
 downloads:
   PKCount.3dsx:
     size: 767504

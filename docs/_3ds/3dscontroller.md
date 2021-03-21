@@ -5,7 +5,7 @@ categories:
 - utility
 color: '#939393'
 created: '2014-12-05T16:52:25Z'
-download_page: https://github.com/CTurt/3DSController/releases/tag/0.6
+download_page: https://github.com/CTurt/3DSController/releases
 downloads:
   3DSController0.6.zip:
     size: 702073

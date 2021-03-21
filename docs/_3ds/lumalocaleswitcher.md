@@ -7,7 +7,7 @@ categories:
 color: '#8b9990'
 created: '2016-05-06T00:51:34Z'
 description: Front end to Luma3DS compatible locale system.
-download_page: https://github.com/Possum/LumaLocaleSwitcher/releases/tag/0.04
+download_page: https://github.com/Possum/LumaLocaleSwitcher/releases
 downloads:
   LumaLocaleSwitcher-0.04-NIGHTLY.cia:
     size: 545728

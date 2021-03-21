@@ -6,7 +6,7 @@ categories:
 color: '#a9a6b2'
 created: '2018-09-05T07:19:01Z'
 description: Generates fake tickets to make missing titles re-appear on 3DS.
-download_page: https://github.com/ihaveamac/faketik/releases/tag/v1.1.2
+download_page: https://github.com/ihaveamac/faketik/releases
 downloads:
   faketik.3dsx:
     size: 195624

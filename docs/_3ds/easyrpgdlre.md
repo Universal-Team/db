@@ -6,7 +6,7 @@ categories:
 color: '#a3b290'
 created: '2016-04-22T18:42:32Z'
 description: Rewrite of the EasyRPG 3DS Updater
-download_page: https://github.com/gnmmarechal/easyrpgdlre/releases/tag/v2.1.1
+download_page: https://github.com/gnmmarechal/easyrpgdlre/releases
 downloads:
   easyrpg-updater-re-v2.1.1.cia:
     size: 1516480

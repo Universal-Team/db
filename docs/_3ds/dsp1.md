@@ -6,7 +6,7 @@ categories:
 color: '#686d75'
 created: '2017-05-03T01:37:25Z'
 description: Dsp firmware dumper
-download_page: https://github.com/zoogie/DSP1/releases/tag/v1.0
+download_page: https://github.com/zoogie/DSP1/releases
 downloads:
   DSP1.3dsx:
     size: 446968

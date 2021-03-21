@@ -7,7 +7,7 @@ categories:
 color: '#ae822b'
 created: '2016-10-20T18:11:56Z'
 description: A specialized save manager for AC:NL
-download_page: https://github.com/dragos240/TownManager/releases/tag/v1.2.1
+download_page: https://github.com/dragos240/TownManager/releases
 downloads:
   TownManager-v1.2.1.zip:
     size: 1445661

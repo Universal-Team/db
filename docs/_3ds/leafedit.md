@@ -8,7 +8,7 @@ color: '#529b9d'
 created: '2019-08-14T21:36:39Z'
 description: 'Work in progress Animal Crossing: New Leaf save manager & editor for
   the Nintendo 3DS!'
-download_page: https://github.com/Universal-Team/LeafEdit/releases/tag/v0.2.1
+download_page: https://github.com/Universal-Team/LeafEdit/releases
 downloads:
   LeafEdit.3dsx:
     size: 2858100

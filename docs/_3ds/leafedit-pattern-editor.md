@@ -7,7 +7,7 @@ categories:
 color: '#8e98a8'
 created: '2020-08-12T22:06:02Z'
 description: This is LeafEdit's Pattern Editor as a separate app as well!
-download_page: https://github.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/releases/tag/v0.4.0
+download_page: https://github.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/releases
 downloads:
   LeafEdit-Pattern-Editor.3dsx:
     size: 2073840

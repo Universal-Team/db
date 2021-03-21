@@ -6,7 +6,7 @@ categories:
 color: '#44372b'
 created: '2020-08-20T12:36:12Z'
 description: Amiibo Emulation for 3ds
-download_page: https://github.com/hax0kartik/wumiibo/releases/tag/v3.0
+download_page: https://github.com/hax0kartik/wumiibo/releases
 downloads:
   0004013000004002.zip:
     size: 42340

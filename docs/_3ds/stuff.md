@@ -6,7 +6,7 @@ categories:
 color: '#343f89'
 created: '2017-07-31T01:35:11Z'
 description: Random 3ds stuff that probably deserves its own repo
-download_page: https://github.com/zoogie/Stuff/releases/tag/0.6.0
+download_page: https://github.com/zoogie/Stuff/releases
 downloads:
   nds-hb-menu.cia:
     size: 689088

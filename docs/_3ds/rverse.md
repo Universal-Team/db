@@ -6,7 +6,7 @@ categories:
 color: '#142699'
 created: '2020-04-18T01:16:12Z'
 description: Miiverse clone framework, for 3DS and Wii U
-download_page: https://github.com/rverseTeam/rverse-Releases/releases/tag/v3.0.0
+download_page: https://github.com/rverseTeam/rverse-Releases/releases
 downloads:
   rverse-3ds.7z:
     size: 3292

@@ -6,7 +6,7 @@ categories:
 color: '#045190'
 created: '2019-10-31T02:19:37Z'
 description: An easy to use app for installing and updating 3DS homebrew
-download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/v3.2.0
+download_page: https://github.com/Universal-Team/Universal-Updater/releases
 downloads:
   Universal-Updater.3dsx:
     size: 2525172

@@ -7,7 +7,7 @@ categories:
 color: '#957d49'
 created: '2016-08-09T02:47:06Z'
 description: A ticket cleaner for the Nintendo 3DS.
-download_page: https://github.com/DanTheMan827/tikSweep/releases/tag/v1.1.2
+download_page: https://github.com/DanTheMan827/tikSweep/releases
 downloads:
   tikSweep-1.1.2.torrent:
     size: 1895

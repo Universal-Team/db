@@ -6,7 +6,7 @@ categories:
 color: '#9ca8a5'
 created: '2016-04-23T18:50:28Z'
 description: 'Open Syobon Action (a.k.a Cat Mario) for 3DS '
-download_page: https://github.com/nop90/OpenSyobon3DS/releases/tag/v1.2
+download_page: https://github.com/nop90/OpenSyobon3DS/releases
 downloads:
   OpenSyobon3DS_v1.2.zip:
     size: 14967899

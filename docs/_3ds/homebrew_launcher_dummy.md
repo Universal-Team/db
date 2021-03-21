@@ -6,7 +6,7 @@ categories:
 color: '#4bbbf5'
 created: '2018-07-26T21:22:25Z'
 description: Homebrew Launcher Loader - Dummy App
-download_page: https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/tag/v1.0
+download_page: https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases
 downloads:
   Homebrew_Launcher.cia:
     size: 377792

@@ -7,7 +7,7 @@ color: '#40c62f'
 created: '2017-08-19T07:52:05Z'
 description: A 3DS port of the Hexagonal Iso-Path board game by youtuber pocket83
   !
-download_page: https://github.com/LiquidFenrir/HexIsoPath/releases/tag/v1.1.0
+download_page: https://github.com/LiquidFenrir/HexIsoPath/releases
 downloads:
   HexIsoPath.3dsx:
     size: 302852

@@ -6,7 +6,7 @@ categories:
 color: '#42b76e'
 created: '2016-05-15T07:49:07Z'
 description: 3DS Quick Reboot.
-download_page: https://github.com/Asellus/3DS_Quick_Reboot/releases/tag/v1.0.1
+download_page: https://github.com/Asellus/3DS_Quick_Reboot/releases
 downloads:
   3DSQuickReboot-v1.0.1.zip:
     size: 907497

@@ -6,7 +6,7 @@ categories:
 color: '#e06c24'
 created: '2016-05-03T02:29:42Z'
 description: 3DS SharedFontTool
-download_page: https://github.com/dnasdw/SharedFontTool/releases/tag/v3.1
+download_page: https://github.com/dnasdw/SharedFontTool/releases
 downloads:
   SFontT.3ds:
     size: 20676608

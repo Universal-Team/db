@@ -6,7 +6,7 @@ categories:
 color: '#9d9290'
 created: '2019-04-01T01:27:21Z'
 description: Makes your LED go rainbow.
-download_page: https://github.com/MechanicalDragon0687/MCU_Bricker_tinydb/releases/tag/1.0
+download_page: https://github.com/MechanicalDragon0687/MCU_Bricker_tinydb/releases
 downloads:
   RGB.cia:
     size: 292800

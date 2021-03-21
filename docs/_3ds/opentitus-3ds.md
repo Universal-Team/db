@@ -7,7 +7,7 @@ color: '#683a2b'
 created: '2018-12-23T19:36:03Z'
 description: 'A port of the game engine behind the DOS versions of Titus the Fox and
   Moktar '
-download_page: https://github.com/MrHuu/opentitus-3ds/releases/tag/27-12-2018
+download_page: https://github.com/MrHuu/opentitus-3ds/releases
 downloads:
   OpenTitus_MOKTAR_3DSX_23-12-2018.7z: https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_MOKTAR_3DSX_23-12-2018.7z
   OpenTitus_MOKTAR_CIA_25-12-2018.7z: https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_MOKTAR_CIA_25-12-2018.7z

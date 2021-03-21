@@ -6,7 +6,7 @@ categories:
 color: '#2d3f4a'
 created: '2017-06-11T18:50:18Z'
 description: Quake 2 port for Nintendo 3DS
-download_page: https://github.com/masterfeizz/Quake2CTR/releases/tag/v0.2
+download_page: https://github.com/masterfeizz/Quake2CTR/releases
 github: masterfeizz/Quake2CTR
 icon: https://db.universal-team.net/assets/images/icons/quake2ctr.png
 image: https://db.universal-team.net/assets/images/images/quake2ctr.png

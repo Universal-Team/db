@@ -6,7 +6,7 @@ categories:
 color: '#a59123'
 created: '2016-10-09T18:02:18Z'
 description: Golden Pants for everyone!
-download_page: https://github.com/phijor/SpecializeMii/releases/tag/0.1.4
+download_page: https://github.com/phijor/SpecializeMii/releases
 downloads:
   SpecializeMii.zip:
     size: 1290621

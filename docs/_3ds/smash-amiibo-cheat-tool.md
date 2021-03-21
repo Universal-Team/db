@@ -6,7 +6,7 @@ categories:
 color: '#dddcda'
 created: '2016-10-20T21:28:35Z'
 description: Hack your amiibos in a tap
-download_page: https://github.com/Ordim3n/Smash-Amiibo-Cheat-Tool/releases/tag/2.0
+download_page: https://github.com/Ordim3n/Smash-Amiibo-Cheat-Tool/releases
 downloads:
   Release.zip:
     size: 412337

@@ -6,7 +6,7 @@ categories:
 color: '#bdb183'
 created: '2016-12-05T09:24:55Z'
 description: Port  to 3DS of the Zelda style picross game by Vincent Joiullat
-download_page: https://github.com/nop90/ZeldaPicross/releases/tag/v1%2C0RC
+download_page: https://github.com/nop90/ZeldaPicross/releases
 github: nop90/ZeldaPicross
 icon: https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/banner.png

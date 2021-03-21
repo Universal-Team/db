@@ -6,7 +6,7 @@ categories:
 color: '#5d7255'
 created: '2020-04-30T00:57:08Z'
 description: Port of DaedalusX64 to the Nintendo 3DS
-download_page: https://github.com/masterfeizz/DaedalusX64-3DS/releases/tag/v0.2
+download_page: https://github.com/masterfeizz/daedalusx64-3DS/releases
 downloads:
   DaedalusX64.3dsx:
     size: 677156

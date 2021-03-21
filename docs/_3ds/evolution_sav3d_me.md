@@ -7,7 +7,7 @@ categories:
 color: '#6d7a68'
 created: '2017-01-31T16:20:47Z'
 description: A monkey who wants to survive!
-download_page: https://github.com/Manurocker95/Evolution_Sav3D_Me/releases/tag/1.1
+download_page: https://github.com/Manurocker95/Evolution_Sav3D_Me/releases
 downloads:
   Evolution_Sav3D_Me.cia:
     size: 15668160

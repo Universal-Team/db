@@ -6,7 +6,7 @@ categories:
 color: '#f1f1f1'
 created: '2018-06-07T21:18:15Z'
 description: Dead Simple Eula Set
-download_page: https://github.com/noirscape/dses/releases/tag/v1.1
+download_page: https://github.com/noirscape/dses/releases
 downloads:
   DSES.3dsx:
     size: 164240

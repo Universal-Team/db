@@ -6,7 +6,7 @@ categories:
 color: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
-download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v19.0.0
+download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
     size: 33150511

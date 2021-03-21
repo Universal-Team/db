@@ -6,7 +6,7 @@ categories:
 color: '#7a6040'
 created: '2020-11-08T10:28:37Z'
 description: Modification from Craftus Reloaded
-download_page: https://github.com/GamesSanti/Craftus-Redesigned/releases/tag/0.5.4
+download_page: https://github.com/GamesSanti/Craftus-Redesigned/releases
 downloads:
   craftus_redesigned.3dsx:
     size: 415708

@@ -6,7 +6,7 @@ categories:
 color: '#99d6e5'
 created: '2018-09-03T05:31:36Z'
 description: '"Nintendo 3DS" folder selector'
-download_page: https://github.com/RocketRobz/3DSBank/releases/tag/v1.1
+download_page: https://github.com/RocketRobz/3DSBank/releases
 downloads:
   3DSBank.cia:
     size: 651520

@@ -7,7 +7,7 @@ color: '#beb6be'
 created: '2017-06-20T04:43:35Z'
 description: "\U0001F342 Displays various information about your Nintendo 3DS in pretty\
   \ colors."
-download_page: https://github.com/aliceinpalth/3dfetch/releases/tag/1.10
+download_page: https://github.com/aliceinpalth/3dfetch/releases
 downloads:
   3dfetch.cia:
     size: 2528192

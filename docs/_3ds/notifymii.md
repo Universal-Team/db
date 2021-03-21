@@ -7,7 +7,7 @@ categories:
 color: '#7abd9c'
 created: '2016-04-18T06:36:04Z'
 description: Homebrew Notification Manager for the Nintendo 3DS
-download_page: https://github.com/Ryuzaki-MrL/NotifyMii/releases/tag/1.2
+download_page: https://github.com/Ryuzaki-MrL/NotifyMii/releases
 downloads:
   NotifyMii.cia:
     size: 491968

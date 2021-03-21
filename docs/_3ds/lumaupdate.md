@@ -7,7 +7,7 @@ categories:
 color: '#9ae1d2'
 created: '2017-04-26T01:20:59Z'
 description: Updater for Luma3DS
-download_page: https://github.com/KunoichiZ/lumaupdate/releases/tag/v2.6
+download_page: https://github.com/KunoichiZ/lumaupdate/releases
 downloads:
   lumaupdater-2.6.zip:
     size: 2010508

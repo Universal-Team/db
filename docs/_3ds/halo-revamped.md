@@ -6,7 +6,7 @@ categories:
 color: '#696a6b'
 created: '2017-08-01T06:45:58Z'
 description: Halo Revamped 3DS
-download_page: https://github.com/CollinScripter/Revamped3DS/releases/tag/V1.11
+download_page: https://github.com/CollinScripter/Revamped3DS/releases
 downloads:
   Revamped.zip:
     size: 106271441

@@ -6,7 +6,7 @@ categories:
 color: '#6d756e'
 created: '2017-03-22T22:13:53Z'
 description: Port to 3ds of Supertux v0.1.3 (Milestone 1)
-download_page: https://github.com/nop90/Supertux-Milestone1-3ds/releases/tag/v0.1
+download_page: https://github.com/nop90/Supertux-Milestone1-3ds/releases
 github: nop90/Supertux-Milestone1-3ds
 icon: https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/banner.png

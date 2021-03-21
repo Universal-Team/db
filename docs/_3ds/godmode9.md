@@ -8,7 +8,7 @@ color: '#130000'
 created: '2016-01-22T18:00:30Z'
 description: 'GodMode9 Explorer - A full access file browser for the Nintendo 3DS
   console :godmode:'
-download_page: https://github.com/d0k3/GodMode9/releases/tag/v1.9.1
+download_page: https://github.com/d0k3/GodMode9/releases
 downloads:
   GodMode9-v1.9.1-20200110121417.zip:
     size: 1840083

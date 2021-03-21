@@ -8,7 +8,7 @@ color: '#007600'
 created: '2016-08-31T14:42:55Z'
 description: 'A portable save editor for Animal Crossing: New Leaf on the Nintendo
   3DS'
-download_page: https://github.com/dragos240/Pocket-NLSE/releases/tag/v1.0.0
+download_page: https://github.com/dragos240/Pocket-NLSE/releases
 downloads:
   Pocket-NLSE-v1.0.0.zip:
     size: 2068489

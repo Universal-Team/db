@@ -6,7 +6,7 @@ categories:
 color: '#666666'
 created: '2017-07-24T04:43:30Z'
 description: World's FIRST Nintendo DSi CFW!
-download_page: https://github.com/RocketRobz/hiyaCFW/releases/tag/v1.4.0
+download_page: https://github.com/RocketRobz/hiyaCFW/releases
 downloads:
   hiyaCFW.7z:
     size: 329866

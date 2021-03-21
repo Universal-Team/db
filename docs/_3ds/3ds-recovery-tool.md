@@ -6,7 +6,7 @@ categories:
 color: '#cccfd0'
 created: '2017-08-08T15:01:01Z'
 description: A tool for restoring and backing-up unique data on the Nintendo 3DS
-download_page: https://github.com/joel16/3DS-Recovery-Tool/releases/tag/v1.40
+download_page: https://github.com/joel16/3DS-Recovery-Tool/releases
 downloads:
   3DS_Recovery_Tool.3dsx:
     size: 497464

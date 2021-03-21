@@ -6,7 +6,7 @@ categories:
 color: '#716a67'
 created: '2021-01-11T10:52:27Z'
 description: "Ein Ludo klon f\xFCr den Nintendo DS(i)."
-download_page: https://github.com/SuperSaiyajinStackZ/LudoNDS/releases/tag/v0.1.0
+download_page: https://github.com/SuperSaiyajinStackZ/LudoNDS/releases
 downloads:
   LudoNDS.nds:
     size: 977920

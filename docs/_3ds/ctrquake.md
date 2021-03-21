@@ -6,7 +6,7 @@ categories:
 color: '#44291b'
 created: '2015-10-20T01:25:02Z'
 description: Port of quake for the Nintendo 3DS
-download_page: https://github.com/masterfeizz/ctrQuake/releases/tag/v0.8
+download_page: https://github.com/masterfeizz/ctrQuake/releases
 downloads:
   ctrQuake.cia:
     size: 984000

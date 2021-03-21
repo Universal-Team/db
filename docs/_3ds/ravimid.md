@@ -6,7 +6,7 @@ categories:
 color: '#7b5da7'
 created: '2016-09-02T19:40:02Z'
 description: a pyramidman's quest to save his father
-download_page: https://github.com/Hoksy/ravimid/releases/tag/1.2
+download_page: https://github.com/Hoksy/ravimid/releases
 downloads:
   ravimid.cia:
     size: 2925504

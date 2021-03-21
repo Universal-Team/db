@@ -6,7 +6,7 @@ categories:
 color: '#3a71a4'
 created: '2017-03-23T14:05:11Z'
 description: VirtuaNES a high compatibility NES emulator for your old 3DS or 2DS.
-download_page: https://github.com/bubble2k16/emus3ds/releases/tag/v1.02
+download_page: https://github.com/bubble2k16/emus3ds/releases
 downloads:
   virtuanes_3ds-v1.02.zip:
     size: 1371216

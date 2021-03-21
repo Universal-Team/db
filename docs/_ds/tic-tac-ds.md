@@ -6,7 +6,7 @@ categories:
 color: '#906e34'
 created: '2020-06-28T16:50:04Z'
 description: Tic Tac DS is a tic-tac-toe clone for the NDS.
-download_page: https://github.com/Jonatan6/Tic-Tac-DS/releases/tag/v3.1
+download_page: https://github.com/Jonatan6/Tic-Tac-DS/releases
 downloads:
   tic-tac-ds.nds:
     size: 160256

@@ -8,7 +8,7 @@ color: '#ceb1a5'
 created: '2020-12-18T01:11:38Z'
 description: ZeldaROTH 1.0.3 beta including Hungarian translation for this classic
   fan game, and was recompiled with actual libraries.
-download_page: https://github.com/vargaviktor/ZeldaROTH/releases/tag/1.0.3-beta
+download_page: https://github.com/vargaviktor/ZeldaROTH/releases
 downloads:
   ZeldaROTH.cia:
     size: 53617600
