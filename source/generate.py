@@ -57,8 +57,8 @@ def downloadScript(file, url, message):
 			{
 				"type": "downloadFile",
 				"file": url,
-				"output": "%3DSX%/" + file,
-				"message": "Downloading " + file + "..."
+				"output": f"%3DSX%/{file}",
+				"message": f"Downloading {file}..."
 			}
 		]
 	elif file[file.rfind(".") + 1:].lower() in ["nds", "dsi"]:
@@ -66,8 +66,8 @@ def downloadScript(file, url, message):
 			{
 				"type": "downloadFile",
 				"file": url,
-				"output": "%NDS%/" + file,
-				"message": "Downloading " + file + "..."
+				"output": f"%NDS%/{file}",
+				"message": f"Downloading {file}..."
 			}
 		]
 	elif file[file.rfind(".") + 1:].lower() == "cia":
@@ -75,18 +75,18 @@ def downloadScript(file, url, message):
 			{
 				"type": "downloadFile",
 				"file": url,
-				"output": "sdmc:/" + file,
-				"message": "Downloading " + file + "..."
+				"output": f"sdmc:/{file}",
+				"message": f"Downloading {file}..."
 			},
 			{
 				"type": "installCia",
-				"file": "/" + file,
-				"message": "Installing " + file + "..."
+				"file": f"/{file}",
+				"message": f"Installing {file}..."
 			},
 			{
 				"type": "deleteFile",
-				"file": "sdmc:/" + file,
-				"message": "Deleting " + file + "."
+				"file": f"sdmc:/{file}",
+				"message": f"Deleting {file}..."
 			}
 		]
 	elif file[file.rfind(".") + 1:].lower() == "firm":
@@ -94,8 +94,8 @@ def downloadScript(file, url, message):
 			{
 				"type": "downloadFile",
 				"file": url,
-				"output": "%FIRM%/" + file,
-				"message": "Downloading " + file + "..."
+				"output": f"%FIRM%/{file}",
+				"message": f"Downloading {file}..."
 			}
 		]
 	elif file[file.rfind(".") + 1:].lower() in ["zip", "7z", "rar"]:
@@ -103,20 +103,20 @@ def downloadScript(file, url, message):
 			{
 				"type": "downloadFile",
 				"file": url,
-				"output": "sdmc:/" + file,
-				"message": "Downloading " + file + "..."
+				"output": f"sdmc:/{file}",
+				"message": f"Downloading {file}..."
 			},
 			{
 				"type": "extractFile",
-				"file": "sdmc:/" + file,
+				"file": f"sdmc:/{file}",
 				"input": "",
-				"output": "%ARCHIVE_DEFAULT%/" + file[0:file.find(".")] + "/",
-				"message": "Extracting " + file + "..."
+				"output": f"%ARCHIVE_DEFAULT%/{file[0:file.find('.')]}/",
+				"message": f"Extracting {file}..."
 			},
 			{
 				"type": "deleteFile",
-				"file": "sdmc:/" + file,
-				"message": "Deleting " + file +"..."
+				"file": f"sdmc:/{file}",
+				"message": f"Deleting {file}..."
 			}
 		]
 	else:
@@ -124,8 +124,8 @@ def downloadScript(file, url, message):
 			{
 				"type": "downloadFile",
 				"file": url,
-				"output": "sdmc:/" + file,
-				"message": "Downloading " + file + "..."
+				"output": f"sdmc:/{file}",
+				"message": f"Downloading {file}..."
 			}
 		]
 	
@@ -177,7 +177,7 @@ iconIndex = 0
 # Auth header
 header = None
 if len(sys.argv) > 1:
-	header = {"Authorization": "token " + sys.argv[1]}
+	header = {"Authorization": f"token {sys.argv[1]}"}
 
 priorityOnlyMode = len(sys.argv) > 2 and sys.argv[2] == "priority"
 
@@ -197,8 +197,8 @@ for app in source:
 	if not foundExisting or not (priorityOnlyMode and not ("priority" in app and app["priority"])):
 		if "github" in app:
 			print("GitHub")
-			api = requests.get("https://api.github.com/repos/" + app["github"], headers = header if header else None).json()
-			releases = requests.get("https://api.github.com/repos/" + app["github"] + "/releases", headers = header if header else None).json()
+			api = requests.get(f"https://api.github.com/repos/{app['github']}", headers = header if header else None).json()
+			releases = requests.get(f"https://api.github.com/repos/{app['github']}/releases", headers = header if header else None).json()
 			release = None
 			prerelease = None
 			if len(releases) > 0 and releases[0]["prerelease"]:
@@ -230,7 +230,7 @@ for app in source:
 				app["website"] = api["homepage"]
 
 			if not "wiki" in app and api["has_wiki"] and requests.get(f"https://raw.githubusercontent.com/wiki/{app['github']}/Home.md").status_code != 404:
-				app["wiki"] = api["html_url"] + "/wiki"
+				app["wiki"] = f"{api['html_url']}/wiki"
 
 			if api["license"]:
 				if not "license" in app:
@@ -309,7 +309,7 @@ for app in source:
 
 		if "bitbucket" in app:
 			print("Bitbucket")
-			api = requests.get("https://api.bitbucket.org/2.0/repositories/" + app["bitbucket"]["repo"]).json()
+			api = requests.get(f"https://api.bitbucket.org/2.0/repositories/{app['bitbucket']['repo']}").json()
 
 			if not "title" in app:
 				app["title"] = api["name"]
@@ -332,7 +332,7 @@ for app in source:
 			if not "downloads" in app:
 				app["downloads"] = {}
 			for download in app["bitbucket"]["files"]:
-				fileAPI = requests.get("https://api.bitbucket.org/2.0/repositories/" + app["bitbucket"]["repo"] + "/src/" + (app["bitbucket"]["branch"] if "branch" in app["bitbucket"] else "master") + "/" + download + "?format=meta").json()
+				fileAPI = requests.get(f"https://api.bitbucket.org/2.0/repositories/{app['bitbucket']['repo']}/src/{(app['bitbucket']['branch'] if 'branch' in app['bitbucket'] else 'master')}/{download}?format=meta").json()
 				if not download in app["downloads"]:
 					app["downloads"][download] = {
 						"url": fileAPI["links"]["self"]["href"],
@@ -341,7 +341,7 @@ for app in source:
 					}
 
 				if not "download_page" in app:
-					app["download_page"] = "https://bitbucket.org/" + app["bitbucket"]["repo"] +"/src/" + (app["bitbucket"]["branch"] if "branch" in app["bitbucket"] else "master") + "/" + download
+					app["download_page"] = f"https://bitbucket.org/{app['bitbucket']['repo']}/src/{(app['bitbucket']['branch'] if 'branch' in app['bitbucket'] else 'master')}/{download}"
 
 				if not "version" in app:
 					app["version"] = fileAPI["commit"]["hash"][:7]
@@ -373,7 +373,7 @@ for app in source:
 			for screenshot in dirlist:
 				if screenshot[-3:] in ["png", "gif", "jpg", "peg", "iff", "bmp"]:
 					app["screenshots"].append({
-						"url": "https://db.universal-team.net/assets/images/screenshots/" + webName(app["title"]) + "/" + screenshot,
+						"url": f"https://db.universal-team.net/assets/images/screenshots/{webName(app['title'])}/{screenshot}",
 						"description": screenshot[:screenshot.rfind(".")].capitalize().replace("-", " ")
 					})
 
@@ -427,8 +427,8 @@ for app in source:
 				elif img.mode != "RGBA":
 					img = img.convert("RGBA")
 				img.thumbnail((48, 48))
-				img.save(os.path.join("temp", str(iconIndex) + ".png"))
-				icons.append(str(iconIndex) + ".png")
+				img.save(os.path.join("temp", f"{iconIndex}.png"))
+				icons.append(f"{iconIndex}.png")
 				iconIndex += 1
 				if not "color" in app:
 					color = img.copy()
@@ -448,10 +448,10 @@ for app in source:
 						qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask = img if img.mode == "RGBA" else None)
 						if "version" in app:
 							draw.text(((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2 + img.height), app["version"][:img.width//6], (0, 0, 0))
-					qr.save(os.path.join("..", "docs", "assets", "images", "qr", webName(item) + ".png"))
+					qr.save(os.path.join("..", "docs", "assets", "images", "qr", f"{webName(item)}.png"))
 					if not "qr" in app:
 						app["qr"] = {}
-					app["qr"][item] = "https://db.universal-team.net/assets/images/qr/" + webName(item) + ".png"
+					app["qr"][item] = f"https://db.universal-team.net/assets/images/qr/{webName(item)}.png"
 
 		if "prerelease" in app:
 			for item in app["prerelease"]["downloads"]:
@@ -468,10 +468,10 @@ for app in source:
 						qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask = img if img.mode == "RGBA" else None)
 						if "version" in app["prerelease"]:
 							draw.text(((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2 + img.height), app["prerelease"]["version"][:img.width//6], (0xF6, 0x6A, 0x0A))
-					qr.save(os.path.join("..", "docs", "assets", "images", "qr", "prerelease", webName(item) + ".png"))
+					qr.save(os.path.join("..", "docs", "assets", "images", "qr", "prerelease", f"{webName(item)}.png"))
 					if not "qr" in app["prerelease"]:
 						app["prerelease"]["qr"] = {}
-					app["prerelease"]["qr"][item] = "https://db.universal-team.net/assets/images/qr/prerelease/" + webName(item) + ".png"
+					app["prerelease"]["qr"][item] = f"https://db.universal-team.net/assets/images/qr/prerelease/{webName(item)}.png"
 
 		if "nightly" in app:
 			for item in app["nightly"]["downloads"]:
@@ -486,10 +486,10 @@ for app in source:
 						draw = ImageDraw.Draw(qr)
 						draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 4)), fill = (255, 255, 255))
 						qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask = img if img.mode == "RGBA" else None)
-					qr.save(os.path.join("..", "docs", "assets", "images", "qr", "nightly", webName(item) + ".png"))
+					qr.save(os.path.join("..", "docs", "assets", "images", "qr", "nightly", f"{webName(item)}.png"))
 					if not "qr" in app["nightly"]:
 						app["nightly"]["qr"] = {}
-					app["nightly"]["qr"][item] = "https://db.universal-team.net/assets/images/qr/nightly/" + webName(item) + ".png"
+					app["nightly"]["qr"][item] = f"https://db.universal-team.net/assets/images/qr/nightly/{webName(item)}.png"
 
 	# Add to output json
 	output.append(app)
@@ -513,8 +513,8 @@ for app in source:
 			web["updated"] = "---"
 		for system in web["systems"]:
 			if "title" in web:
-				with open(os.path.join("..", "docs", "_" + webName(system), webName(web["title"]) + ".md"), "w", encoding="utf8") as file:
-					file.write("---\n" + yaml.dump(web) + "---\n")
+				with open(os.path.join("..", "docs", f"_{webName(system)}", f"{webName(web['title'])}.md"), "w", encoding="utf8") as file:
+					file.write(f"---\n{yaml.dump(web)}---\n")
 					if "long_description" in app:
 						file.write(app["long_description"])
 
@@ -591,7 +591,7 @@ for app in source:
 			if "prerelease" in app:
 				for file in app["prerelease"]["downloads"]:
 					if len(re.findall("(zip|rar|7z|torrent)", file)) == 0:
-						uni["[prerelease] " + file] = {
+						uni[f"[prerelease] {file}"] = {
 							"script": downloadScript(file, app["prerelease"]["downloads"][file]["url"], app["script_message"] if "script_message" in app else None),
 							"size": byteCount(app["prerelease"]["downloads"][file]["size"]) if "size" in app["prerelease"]["downloads"][file] else "",
 						}
@@ -599,7 +599,7 @@ for app in source:
 			if "nightly" in app:
 				for file in app["nightly"]["downloads"]:
 					if len(re.findall("(zip|rar|7z|torrent)", file)) == 0:
-						uni["[nightly] " + file] = {
+						uni[f"[nightly] {file}"] = {
 							"script": downloadScript(file, app["nightly"]["downloads"][file]["url"], app["script_message"] if "script_message" in app else None),
 							"size": byteCount(app["nightly"]["downloads"][file]["size"]) if "size" in app["nightly"]["downloads"][file] else "",
 						}
@@ -610,8 +610,8 @@ for app in source:
 with open(os.path.join("temp", "icons.t3s"), "w", encoding="utf8") as file:
 	file.write("--atlas -f rgba -z auto\n\n")
 	for icon in icons:
-		file.write(icon + "\n")
-os.system("tex3ds -i " + os.path.join("temp", "icons.t3s") + " -o " + os.path.join("..", "docs", "unistore", "universal-db.t3x"))
+		file.write(f"{icon}\n")
+os.system(f"tex3ds -i {os.path.join('temp', 'icons.t3s')} -o {os.path.join('..', 'docs', 'unistore', 'universal-db.t3x')}")
 
 # Increment revision if not the same
 if unistore != unistoreOld:
