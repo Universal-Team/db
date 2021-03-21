@@ -241,7 +241,7 @@ for app in source:
 
 			if release:
 				if not "download_page" in app:
-					app["download_page"] = release["html_url"]
+					app["download_page"] = f"https://github.com/{app['github']}/releases"
 
 				if not "version" in app:
 					app["version"] = release["tag_name"]
@@ -271,7 +271,7 @@ for app in source:
 					app["prerelease"] = {}
 
 				if not "download_page" in app:
-					app["download_page"] = prerelease["html_url"]
+					app["download_page"] = f"https://github.com/{app['github']}/releases"
 				if not "download_page" in app["prerelease"]:
 					app["prerelease"]["download_page"] = prerelease["html_url"]
 
