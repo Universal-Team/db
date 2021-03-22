@@ -12,6 +12,8 @@ icon: https://raw.githubusercontent.com/SaturnSH2x2/Sonic-CD-11-Decompilation/ma
 image: https://raw.githubusercontent.com/SaturnSH2x2/Sonic-CD-11-Decompilation/master/resources/banner.png
 image_length: 63421
 layout: app
+license: other
+license_name: Other
 prerelease:
   download_page: https://github.com/SaturnSH2x2/Sonic-CD-11-3DS/releases/tag/v1.20a
   downloads:
