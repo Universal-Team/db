@@ -5558,7 +5558,7 @@
 				{
 					"type": "downloadRelease",
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
-					"file": "Vapecord.Luxury.zip",
+					"file": "Vapecord.Public.zip",
 					"output": "/Vapecord.zip",
 					"message": "Downloading Vapecord.Public.zip..."
 				},
