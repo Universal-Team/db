@@ -557,7 +557,8 @@ for app in source:
 				"description": ucs2Name(app["description"]) if "description" in app else "",
 				"releasenotes": notes,
 				"screenshots": [],
-				"license": app["license"] if "license" in app else ""
+				"license": app["license"] if "license" in app else "",
+				"wiki": app["wiki"] if "wiki" in app else ""
 			}
 		}
 
