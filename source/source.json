@@ -5055,7 +5055,7 @@
 					"type": "extractFile",
 					"file": "/open_agb_firm.7z",
 					"input": "open_agb_firm.firm",
-					"output": "/luma/payloads/open_agb_firm.firm",
+					"output": "%FIRM%/open_agb_firm.firm",
 					"message": "Extracting open_agb_firm.firm..."
 				},
 				{
@@ -5084,7 +5084,7 @@
 					"type": "extractFile",
 					"file": "/GodMode9.zip",
 					"input": "GodMode9.firm",
-					"output": "/luma/payloads/GodMode9.firm",
+					"output": "%FIRM%/GodMode9.firm",
 					"message": "Extracting the GodMode9.firm..."
 				},
 				{
@@ -5093,45 +5093,6 @@
 					"input": "gm9/",
 					"output": "/gm9/",
 					"message": "Extracting the /gm9/ directory..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/luma/payloads/GodMode9.firm.sha",
-					"message": "Deleting a stowaway file..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/GodMode9.zip",
-					"message": "Deleting the downloaded ZIP file..."
-				}
-			],
-			"[prerelease] GodMode9.firm": [
-				{
-					"type": "downloadRelease",
-					"repo": "d0k3/GodMode9",
-					"file": "GodMode9.*.zip",
-					"output": "/GodMode9.zip",
-					"message": "Downloading GodMode9 zip...",
-					"includePrereleases": true
-				},
-				{
-					"type": "extractFile",
-					"file": "/GodMode9.zip",
-					"input": "GodMode9.firm",
-					"output": "/luma/payloads/GodMode9.firm",
-					"message": "Extracting the GodMode9.firm..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/GodMode9.zip",
-					"input": "gm9/",
-					"output": "/gm9/",
-					"message": "Extracting the /gm9/ directory..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/luma/payloads/GodMode9.firm.sha",
-					"message": "Deleting a stowaway file..."
 				},
 				{
 					"type": "deleteFile",
@@ -5807,7 +5768,7 @@
 					"type": "extractFile",
 					"file": "/linux-3ds.zip",
 					"input": "linux-3ds-.*/firm_linux_loader.firm",
-					"output": "/luma/payloads/firm_linux_loader.firm",
+					"output": "%FIRM%/firm_linux_loader.firm",
 					"message": "Extracting firm_linux_loader.firm..."
 				},
 				{
