@@ -5083,7 +5083,7 @@
 				{
 					"type": "extractFile",
 					"file": "/GodMode9.zip",
-					"input": "GodMode9.firm",
+					"input": "GodMode9.firm$",
 					"output": "%FIRM%/GodMode9.firm",
 					"message": "Extracting the GodMode9.firm..."
 				},
