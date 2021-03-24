@@ -1145,7 +1145,71 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/elhobbs/prboom3ds/master/banner.png",
-		"icon": "https://raw.githubusercontent.com/elhobbs/prboom3ds/master/prboom3ds.png"
+		"icon": "https://raw.githubusercontent.com/elhobbs/prboom3ds/master/prboom3ds.png",
+		"scripts": {
+			"prboom3ds.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "elhobbs/prboom3ds",
+					"file": "prboom3ds.3dsx",
+					"output": "%3DSX%/prboom3ds.3dsx",
+					"message": "Downloading prboom3ds.3dsx...",
+					"includePrereleases": true
+				},
+				{
+					"type": "downloadRelease",
+					"repo": "elhobbs/prboom3ds",
+					"file": "prboom3ds.smdh",
+					"output": "/3ds/prboom3ds/prboom3ds.smdh",
+					"message": "Downloading prboom3ds.smdh...",
+					"includePrereleases": true
+				},
+				{
+					"type": "downloadRelease",
+					"repo": "elhobbs/prboom3ds",
+					"file": "prboom.wad",
+					"output": "/3ds/prboom3ds/prboom.wad",
+					"message": "Downloading prboom.wad...",
+					"includePrereleases": true
+				},
+				{
+					"type": "promptMessage",
+					"message": "You will need to put Doom WAD files in\n\"sdmc:/3ds/prboom3ds/\" to play them."
+				}
+			],
+			"prboom3ds.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "elhobbs/prboom3ds",
+					"file": "prboom3ds.cia",
+					"output": "/prboom3ds.cia",
+					"message": "Downloading prboom3ds.cia...",
+					"includePrereleases": true
+				},
+				{
+					"type": "downloadRelease",
+					"repo": "elhobbs/prboom3ds",
+					"file": "prboom.wad",
+					"output": "sdmc:/3ds/prboom3ds/prboom.wad",
+					"message": "Downloading prboom.wad...",
+					"includePrereleases": true
+				},
+				{
+					"type": "installCia",
+					"file": "/prboom3ds.cia",
+					"message": "Installing prboom3ds.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/prboom3ds.cia",
+					"message": "Deleting prboom3ds.cia..."
+				},
+				{
+					"type": "promptMessage",
+					"message": "You will need to put Doom WAD files in\n\"sdmc:/3ds/prboom3ds/\" to play them."
+				}
+			]
+		}
 	},
 	{
 		"github": "MechanicalDragon0687/MCU_Bricker_tinydb",
