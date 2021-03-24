@@ -13,11 +13,11 @@ downloads:
   boot.firm:
     size: 238080
     size_str: 232 KiB
-    url: https://github.com/mikewii/Luma3DS-plugin/releases/download/r1.0.9.4/boot.firm
+    url: https://github.com/mikewii/Luma3DS-plugin/releases/download/r1.0.10/boot.firm
   default.3gx:
-    size: 690696
-    size_str: 674 KiB
-    url: https://github.com/mikewii/Luma3DS-plugin/releases/download/r1.0.9.4/default.3gx
+    size: 694681
+    size_str: 678 KiB
+    url: https://github.com/mikewii/Luma3DS-plugin/releases/download/r1.0.10/default.3gx
 github: mikewii/Luma3DS-plugin
 image: https://avatars.githubusercontent.com/u/29737660?v=4
 image_length: 18565
@@ -28,9 +28,15 @@ systems:
 title: Luma3DS-plugin
 update_notes: '<p>Plugin:<br>
 
-  Fixed MH4U issue with "LS finisher" crash, this fixes camera settings for USA version
-  as well.</p>'
-updated: '2021-03-04T13:24:50Z'
-version: r1.0.9.4
-version_title: 1.0.9.4
+  Fixed bug with mixing HP and Initial HP not working because Initial HP was set to
+  always on.<br>
+
+  Fixed initial path creation bug for those who doesnt have luma/plugins folders.</p>
+
+  <p>Updated settings file to avoid bugs in the future.</p>
+
+  <p>Added Enemy Info for MH3U.</p>'
+updated: '2021-03-24T13:24:23Z'
+version: r1.0.10
+version_title: 1.0.10
 ---
