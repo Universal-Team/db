@@ -9,13 +9,13 @@ description: An easy to use app for installing and updating 3DS homebrew
 download_page: https://github.com/Universal-Team/Universal-Updater/releases
 downloads:
   Universal-Updater.3dsx:
-    size: 2525172
+    size: 2559640
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.0/Universal-Updater.3dsx
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.1/Universal-Updater.3dsx
   Universal-Updater.cia:
-    size: 2094016
-    size_str: 1 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.0/Universal-Updater.cia
+    size: 2130880
+    size_str: 2 MiB
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.1/Universal-Updater.cia
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/banner.png
@@ -77,38 +77,78 @@ systems:
 - 3DS
 title: Universal-Updater
 unistore_exclude: true
-update_notes: "<h3>What's new?</h3>\n<ul>\n<li>Now when you select something to download\
-  \ it'll just add it into the queue to download in the background so you can continue\
-  \ using the rest of the app while it installs!</li>\n<li>You can also now add all\
-  \ items from the current search / filter into the queue at once from the Search\
-  \ and Filters tab\n<ul>\n<li>When something is installed for the first time now\
-  \ it'll add an SD card icon next to the installed entry, only entries with the SD\
-  \ card icon will be updated when using this</li>\n</ul>\n</li>\n<li>When filtering\
-  \ you can now choose whether to only show items that match all of the selected filters\
-  \ or anything that matches any filter</li>\n<li>The current time and battery level\
-  \ are now shown on the top bar</li>\n<li>You can now set a custom location for FIRMs\
-  \ to be installed to</li>\n<li>You can now choose to install 3DSX files inside a\
-  \ folder of the same name instead of directly to the set folder</li>\n<li>You can\
-  \ now cancel installs and it'll clean up the current step and stop</li>\n<li>Portuguese\
-  \ (Portugal) has be re-enabled as it's now mostly translated</li>\n<li>Added themes\
-  \ (currently only two preset ones, custom will likely come soon\u2122)</li>\n</ul>\n\
-  <h3>Bug fixes</h3>\n<ul>\n<li>Fixed a crash on trying to write a negative amount\
-  \ to a file if an error occurred while extracting</li>\n</ul>\n<h3>Other notes</h3>\n\
-  <p>Find any bugs we missed, have suggestions, or need help? Make an issue or discussion\
-  \ here on GitHub, normally we'd suggest joining our <a href=\"https://universal-team.net/discord\"\
-  \ rel=\"nofollow\">Discord server</a> here too, but as of making this we're not\
-  \ allowing new members unless you know someone in it and have them let us know to\
-  \ let you in.</p>\n<p>Also, notice: Our official 'nightly' builds are currently\
-  \ extremely unstable as the devkitPro docker image uses an old version of Citro2D.\
-  \ We recommend only using the official release or building yourself.</p>\n<p>Have\
-  \ a happy St. Patrick's Day and enjoy the new update!<br>\n~ Universal-Team</p>\n\
-  <hr>\n<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://camo.githubusercontent.com/17ef3b51a9652557c473e773d97f81b1b7fc5b2af88729989f9bb74e4cd88486/68747470733a2f2f64622e756e6976657273616c2d7465616d2e6e65742f6173736574732f696d616765732f71722f756e6976657273616c2d757064617465722e6369612e706e67\"\
-  ><img src=\"https://camo.githubusercontent.com/17ef3b51a9652557c473e773d97f81b1b7fc5b2af88729989f9bb74e4cd88486/68747470733a2f2f64622e756e6976657273616c2d7465616d2e6e65742f6173736574732f696d616765732f71722f756e6976657273616c2d757064617465722e6369612e706e67\"\
-  \ alt=\"QR code for Universal-Updater.cia\" data-canonical-src=\"https://db.universal-team.net/assets/images/qr/universal-updater.cia.png\"\
-  \ style=\"max-width:100%;\"></a></p>"
-updated: '2021-03-17T05:38:11Z'
-version: v3.2.0
-version_title: Queue system with background downloading
+update_notes: '<h3>What''s New?</h3>
+
+  <ul>
+
+  <li>Added Chinese (Simplified and Traditional, though Traditional is not fully translated
+  currently)</li>
+
+  <li>Added custom themes, see <a href="https://github.com/Universal-Team/Universal-Updater/wiki/custom-themes">the
+  wiki page</a> for details</li>
+
+  <li>Prompts now have buttons on the touch screen you can tap in addition to pressing
+  A and B</li>
+
+  </ul>
+
+  <h3>Changes</h3>
+
+  <ul>
+
+  <li>Shortened the description so it fits better in the Homebrew Launcher</li>
+
+  </ul>
+
+  <h3>Bug fixes</h3>
+
+  <ul>
+
+  <li>Fixed not showing progress bar when self updating</li>
+
+  <li>Fixed not showing a progress bar when downloading the custom font on selecting
+  Ukrainian</li>
+
+  <li>Fixed putting 3DSX files in folders setting not saving</li>
+
+  <li>Fixed sometimes crashing when a download failed</li>
+
+  <li>Fixed apps being set as installed if the installation failed</li>
+
+  <li>Fixed prompts sometimes immediately accepting instead of waiting for another
+  key press</li>
+
+  <li>Fixed the <code>Add Selection to Queue</code> button''s text max width being
+  bigger than the button</li>
+
+  </ul>
+
+  <h3>Other notes</h3>
+
+  <p>Wouldn''t be a good feature update without a bug fix update a few days later,
+  would it? ;P</p>
+
+  <p>Find any bugs we missed, have suggestions, or need help? Make an issue or discussion
+  here on GitHub, normally we''d suggest joining our <a href="https://universal-team.net/discord"
+  rel="nofollow">Discord server</a> here too, but as of making this we''re not allowing
+  new members unless you know someone in it and have them let us know to let you in.</p>
+
+  <p>Also, notice: Our official ''nightly'' builds are currently extremely unstable
+  as the devkitPro docker image uses an old version of Citro2D. We recommend only
+  using the official release or building yourself.</p>
+
+  <p>We hope you enjoy the new update!<br>
+
+  ~ Universal-Team</p>
+
+  <hr>
+
+  <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/112397103-670dab00-8ccf-11eb-8cef-8bae1b987eb5.png"><img
+  src="https://user-images.githubusercontent.com/41608708/112397103-670dab00-8ccf-11eb-8cef-8bae1b987eb5.png"
+  alt="QR code to Universal-Updater.cia" style="max-width:100%;"></a></p>'
+updated: '2021-03-24T23:20:56Z'
+version: v3.2.1
+version_title: 3, 2, 1, bug fix time!
 website: https://universal-team.net/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
