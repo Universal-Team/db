@@ -59,7 +59,7 @@ update_notes: '<p>Included in <a href="https://github.com/DS-Homebrew/TWiLightMe
   <li>This saves overhead on arm7, so sound will no longer be delayed on some SD cards
   during reads, and local multiplayer will no longer stop with a communication error.</li>
 
-  <li>arm7 itself still does the sector reading of arm7.</li>
+  <li>arm7 itself still does the sector reading of the SD card.</li>
 
   <li>(<strong>NOTE:</strong> This does not mean that cloneboot support is implemented,
   so games using DLP for multiplayer will still crash on the other console.)</li>
