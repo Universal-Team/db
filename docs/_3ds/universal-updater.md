@@ -133,9 +133,9 @@ update_notes: '<h3>What''s New?</h3>
   rel="nofollow">Discord server</a> here too, but as of making this we''re not allowing
   new members unless you know someone in it and have them let us know to let you in.</p>
 
-  <p>Also, notice: Our official ''nightly'' builds are currently extremely unstable
-  as the devkitPro docker image uses an old version of Citro2D. We recommend only
-  using the official release or building yourself.</p>
+  <p>Another thing that''s not really a change to Universal-Updater but is relevant,
+  we''re now using our own up to date Docker image instead of the devkitPro one (at
+  least until they update) so no more crashes in nightly builds!</p>
 
   <p>We hope you enjoy the new update!<br>
 
