@@ -5977,5 +5977,33 @@
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/Jonatan6/Pistol-Pong-DS/main/icon.bmp",
 		"long_description": "It's like the classic game pong, but with guns.\n\n## The rules are simple\n* Control your paddle by pressing up and down on the dpad, and fire your gun by pressing right on the dpad.\n* If you get shot or miss the ball, your opponent gains one point.\n* If you manage to shot your opponent of if it misses the ball, you gain one point.\n* And the most important of them all all: **Have fun!**"
+	},
+	{
+		"github": "hax0kartik/rehid",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"scripts": {
+			"0004013000001D02.zip": [
+				{
+					"type": "downloadRelease",
+					"repo": "hax0kartik/rehid",
+					"file": "0004013000001D02.zip",
+					"output": "/0004013000001D02.zip",
+					"message": "Downloading 0004013000001D02.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/0004013000001D02.zip",
+					"input": "0004013000001D02/",
+					"output": "/luma/titles/0004013000001D02/",
+					"message": "Extracting 0004013000001D02.zip..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/0004013000001D02.zip",
+					"message": "Deleting 0004013000001D02.zip..."
+				}
+			]
+		}
 	}
 ]
