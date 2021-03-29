@@ -8,10 +8,10 @@ created: '2014-12-09T21:37:23Z'
 description: mGBA Game Boy Advance Emulator
 download_page: https://github.com/mgba-emu/mgba/releases
 downloads:
-  mGBA-0.8.4-3ds.7z:
-    size: 1086332
+  mGBA-0.9.0-3ds.7z:
+    size: 1143661
     size_str: 1 MiB
-    url: https://github.com/mgba-emu/mgba/releases/download/0.8.4/mGBA-0.8.4-3ds.7z
+    url: https://github.com/mgba-emu/mgba/releases/download/0.9.0/mGBA-0.9.0-3ds.7z
 github: mgba-emu/mgba
 icon: https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-48.png
 image: https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-256.png
@@ -34,7 +34,7 @@ source: https://github.com/mgba-emu/mgba
 systems:
 - 3DS
 title: mGBA
-updated: '2020-10-30T02:03:03Z'
-version: 0.8.4
+updated: '2021-03-29T01:58:23Z'
+version: 0.9.0
 website: https://mgba.io/
 ---
