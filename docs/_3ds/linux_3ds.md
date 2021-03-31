@@ -5,7 +5,7 @@ categories:
 - firm
 color: '#a1946f'
 created: '2015-04-04T23:46:17Z'
-description: Linux kernel source tree
+description: 'Development has moved to: https://github.com/linux-3ds'
 download_page: https://github.com/xerpi/linux_3ds/releases
 downloads:
   linux-3ds-5.10.0+.zip:
@@ -13,12 +13,10 @@ downloads:
     size_str: 14 MiB
     url: https://github.com/xerpi/linux_3ds/releases/download/5.10.0%2B/linux-3ds-5.10.0%2B.zip
 github: xerpi/linux_3ds
-icon: https://raw.githubusercontent.com/xerpi/linux_3ds/master/Documentation/logo.gif
-image: https://raw.githubusercontent.com/xerpi/linux_3ds/master/Documentation/logo.gif
+icon: https://raw.githubusercontent.com/linux-3ds/linux/master/Documentation/logo.gif
+image: https://raw.githubusercontent.com/linux-3ds/linux/master/Documentation/logo.gif
 image_length: 16335
 layout: app
-license: other
-license_name: Other
 source: https://github.com/xerpi/linux_3ds
 systems:
 - 3DS
