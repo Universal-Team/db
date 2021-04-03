@@ -10,13 +10,13 @@ description: XEGS-DS An Atari 8-bit Computer Emulator (specially targeted for th
 download_page: https://github.com/wavemotion-dave/XEGS-DS/releases
 downloads:
   XEGS-DS.nds:
-    size: 573952
-    size_str: 560 KiB
-    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.3/XEGS-DS.nds
+    size: 582144
+    size_str: 568 KiB
+    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.4/XEGS-DS.nds
   readme.txt:
-    size: 12563
+    size: 12842
     size_str: 12 KiB
-    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.3/readme.txt
+    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.4/readme.txt
 github: wavemotion-dave/XEGS-DS
 icon: https://raw.githubusercontent.com/wavemotion-dave/XEGS-DS/main/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/XEGS-DS/main/arm9/gfx/bgTop.png
@@ -26,19 +26,18 @@ source: https://github.com/wavemotion-dave/XEGS-DS
 systems:
 - DS
 title: XEGS-DS
-update_notes: '<p>V2.3 : 31-Mar-2021 by wavemotion-dave</p>
+update_notes: '<p>V2.4 : 02-Apr-2021 by wavemotion-dave</p>
 
   <ul>
 
-  <li>Added Atari 800 (48K) mode with OS-B for compatiblity with older games.</li>
+  <li>New bank switching handling that is much faster (in some cases 10x faster)<br>
 
-  <li>L+X and R+X shortcuts for keys ''1'' and ''2'' which are useful to start some
-  games.</li>
+  to support all of the larger 128K, 320K and even the 1088K games (AtariBlast!)</li>
 
-  <li>Cleanup of options and main screen for better display of current emulator settings.</li>
+  <li>ATX format now supported for copy protected disk images.</li>
 
   </ul>'
-updated: '2021-03-31T10:56:16Z'
-version: '2.3'
-version_title: Version 2.3
+updated: '2021-04-03T11:20:38Z'
+version: '2.4'
+version_title: Version 2.4
 ---
