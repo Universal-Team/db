@@ -6005,5 +6005,12 @@
 				}
 			]
 		}
+	},
+	{
+		"github": "NPI-D7/BCSTM-Player",
+		"categories": ["utility"],
+		"systems": ["3DS"],
+		"icon": "https://raw.githubusercontent.com/NPI-D7/BCSTM-Player/main/app/icon.png",
+		"image": "https://raw.githubusercontent.com/NPI-D7/BCSTM-Player/main/app/banner.png"
 	}
 ]
