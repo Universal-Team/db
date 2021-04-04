@@ -2564,6 +2564,7 @@
 	},
 	{
 		"github": "EBLeifEricson/orchestrina",
+		"title": "Orchestrina",
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/banner2.png",
@@ -2598,6 +2599,215 @@
 					"type": "deleteFile",
 					"file": "/Orchestrina.zip",
 					"message": "Deleting Orchestrina.zip..."
+				},
+				{
+					"type": "promptMessage",
+					"message": "Download song files?",
+					"count": 100
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Healing-(ST).pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Healing (ST).pcm",
+					"message":"Downloading Song of Healing (ST).pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Double-Time.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Double Time.pcm",
+					"message":"Downloading Song of Double Time.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Nocturne-of-Shadow.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Nocturne of Shadow.pcm",
+					"message":"Downloading Nocturne of Shadow.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Soaring.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Soaring.pcm",
+					"message":"Downloading Song of Soaring.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Passing.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Passing.pcm",
+					"message":"Downloading Song of Passing.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Time.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Time.pcm",
+					"message":"Downloading Song of Time.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Sonata-of-Awakening.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Sonata of Awakening.pcm",
+					"message":"Downloading Sonata of Awakening.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Minuet-of-Forest.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Minuet of Forest.pcm",
+					"message":"Downloading Minuet of Forest.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Epona's-Song.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Epona's Song.pcm",
+					"message":"Downloading Epona's Song.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Wind's-Requiem.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Wind's Requiem.pcm",
+					"message":"Downloading Wind's Requiem.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Command-Melody.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Command Melody.pcm",
+					"message":"Downloading Command Melody.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Storms.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Storms.pcm",
+					"message":"Downloading Song of Storms.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Sun's-Song.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Sun's Song.pcm",
+					"message":"Downloading Sun's Song.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Inverted-Song-of-Time.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Inverted Song of Time.pcm",
+					"message":"Downloading Inverted Song of Time.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Frogs.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Frogs.pcm",
+					"message":"Downloading Song of Frogs.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Healing-(MM).pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Healing (MM).pcm",
+					"message":"Downloading Song of Healing (MM).pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Bolero-of-Fire.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Bolero of Fire.pcm",
+					"message":"Downloading Bolero of Fire.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Prelude-of-Light.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Prelude of Light.pcm",
+					"message":"Downloading Prelude of Light.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Light.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Light.pcm",
+					"message":"Downloading Song of Light.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Zelda's-Lullaby.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Zelda's Lullaby.pcm",
+					"message":"Downloading Zelda's Lullaby.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Saria's-Song.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Saria's Song.pcm",
+					"message":"Downloading Saria's Song.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Serenade-of-Water.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Serenade of Water.pcm",
+					"message":"Downloading Serenade of Water.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Earth-God's-Lyric.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Earth God's Lyric.pcm",
+					"message":"Downloading Earth God's Lyric.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Chai-Kingdom.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Chai Kingdom.pcm",
+					"message":"Downloading Chai Kingdom.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Goron's-Lullaby.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Goron's Lullaby.pcm",
+					"message":"Downloading Goron's Lullaby.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Birds.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Birds.pcm",
+					"message":"Downloading Song of Birds.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Oath-to-Order.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Oath to Order.pcm",
+					"message":"Downloading Oath to Order.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Ballad-of-Gales.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Ballad of Gales.pcm",
+					"message":"Downloading Ballad of Gales.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Discovery.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Discovery.pcm",
+					"message":"Downloading Song of Discovery.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Elegy-of-Emptiness.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Elegy of Emptiness.pcm",
+					"message":"Downloading Elegy of Emptiness.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Wind-God's-Aria.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Wind God's Aria.pcm",
+					"message":"Downloading Wind God's Aria.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Requiem-of-Spirit.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Requiem of Spirit.pcm",
+					"message":"Downloading Requiem of Spirit.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Awakening.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Awakening.pcm",
+					"message":"Downloading Song of Awakening.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/New-Wave-Bossa-Nova.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/New Wave Bossa Nova.pcm",
+					"message":"Downloading New Wave Bossa Nova.pcm..."
 				}
 			],
 			"Orchestrina.3dsx": [
@@ -2619,6 +2829,215 @@
 					"type": "deleteFile",
 					"file": "/Orchestrina.zip",
 					"message": "Deleting Orchestrina.zip..."
+				},
+				{
+					"type": "promptMessage",
+					"message": "Download song files?",
+					"count": 100
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Healing-(ST).pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Healing (ST).pcm",
+					"message":"Downloading Song of Healing (ST).pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Double-Time.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Double Time.pcm",
+					"message":"Downloading Song of Double Time.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Nocturne-of-Shadow.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Nocturne of Shadow.pcm",
+					"message":"Downloading Nocturne of Shadow.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Soaring.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Soaring.pcm",
+					"message":"Downloading Song of Soaring.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Passing.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Passing.pcm",
+					"message":"Downloading Song of Passing.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Time.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Time.pcm",
+					"message":"Downloading Song of Time.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Sonata-of-Awakening.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Sonata of Awakening.pcm",
+					"message":"Downloading Sonata of Awakening.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Minuet-of-Forest.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Minuet of Forest.pcm",
+					"message":"Downloading Minuet of Forest.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Epona's-Song.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Epona's Song.pcm",
+					"message":"Downloading Epona's Song.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Wind's-Requiem.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Wind's Requiem.pcm",
+					"message":"Downloading Wind's Requiem.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Command-Melody.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Command Melody.pcm",
+					"message":"Downloading Command Melody.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Storms.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Storms.pcm",
+					"message":"Downloading Song of Storms.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Sun's-Song.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Sun's Song.pcm",
+					"message":"Downloading Sun's Song.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Inverted-Song-of-Time.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Inverted Song of Time.pcm",
+					"message":"Downloading Inverted Song of Time.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Frogs.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Frogs.pcm",
+					"message":"Downloading Song of Frogs.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Healing-(MM).pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Healing (MM).pcm",
+					"message":"Downloading Song of Healing (MM).pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Bolero-of-Fire.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Bolero of Fire.pcm",
+					"message":"Downloading Bolero of Fire.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Prelude-of-Light.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Prelude of Light.pcm",
+					"message":"Downloading Prelude of Light.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Light.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Light.pcm",
+					"message":"Downloading Song of Light.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Zelda's-Lullaby.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Zelda's Lullaby.pcm",
+					"message":"Downloading Zelda's Lullaby.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Saria's-Song.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Saria's Song.pcm",
+					"message":"Downloading Saria's Song.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Serenade-of-Water.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Serenade of Water.pcm",
+					"message":"Downloading Serenade of Water.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Earth-God's-Lyric.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Earth God's Lyric.pcm",
+					"message":"Downloading Earth God's Lyric.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Chai-Kingdom.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Chai Kingdom.pcm",
+					"message":"Downloading Chai Kingdom.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Goron's-Lullaby.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Goron's Lullaby.pcm",
+					"message":"Downloading Goron's Lullaby.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Birds.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Birds.pcm",
+					"message":"Downloading Song of Birds.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Oath-to-Order.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Oath to Order.pcm",
+					"message":"Downloading Oath to Order.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Ballad-of-Gales.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Ballad of Gales.pcm",
+					"message":"Downloading Ballad of Gales.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Discovery.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Discovery.pcm",
+					"message":"Downloading Song of Discovery.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Elegy-of-Emptiness.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Elegy of Emptiness.pcm",
+					"message":"Downloading Elegy of Emptiness.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Wind-God's-Aria.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Wind God's Aria.pcm",
+					"message":"Downloading Wind God's Aria.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Requiem-of-Spirit.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Requiem of Spirit.pcm",
+					"message":"Downloading Requiem of Spirit.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Awakening.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/Song of Awakening.pcm",
+					"message":"Downloading Song of Awakening.pcm..."
+				},
+				{
+					"type":"downloadFile",
+					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/New-Wave-Bossa-Nova.pcm",
+					"output":"/3ds/Orchestrina/data/Songs/New Wave Bossa Nova.pcm",
+					"message":"Downloading New Wave Bossa Nova.pcm..."
 				}
 			]
 		}
