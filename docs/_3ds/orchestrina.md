@@ -22,7 +22,7 @@ license_name: GNU General Public License v3.0
 source: https://github.com/EBLeifEricson/orchestrina
 systems:
 - 3DS
-title: orchestrina
+title: Orchestrina
 update_notes: '<p>This release features a major redesign of the Wind Waker baton in
   order to more closely reflect the game.</p>
 
