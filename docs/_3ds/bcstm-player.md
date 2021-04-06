@@ -9,7 +9,7 @@ description: BCSTM-Player for 3ds
 download_page: https://github.com/NPI-D7/BCSTM-Player/releases
 downloads:
   BCSTM-Player.3dsx:
-    size: 714864
+    size: 714964
     size_str: 698 KiB
     url: https://github.com/NPI-D7/BCSTM-Player/releases/download/1.0.0/BCSTM-Player.3dsx
   BCSTM-Player.cia:
