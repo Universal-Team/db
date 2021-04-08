@@ -29,16 +29,12 @@ systems:
 title: XEGS-DS
 update_notes: '<p>V2.5 : 08-Apr-2021 by wavemotion-dave</p>
 
-  <ul>
+  <p>Major cleanup of unused code to get down to a small but efficient code base.<br>
 
-  <li>Major cleanup of unused code to get down to a small but efficient code base.</li>
+  Added LCD swap using L+R+A (hold for half second to toggle screens)<br>
 
-  <li>Added LCD swap using L+R+A (hold for half second to toggle screens)</li>
-
-  <li>Cleanup of text-on-screen handling and other minor bug fixes.</li>
-
-  </ul>'
-updated: '2021-04-08T12:06:09Z'
+  Cleanup of text-on-screen handling and other minor bug fixes.</p>'
+updated: '2021-04-08T12:24:16Z'
 version: '2.5'
 version_title: Version 2.5
 ---
