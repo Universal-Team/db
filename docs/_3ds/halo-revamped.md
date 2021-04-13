@@ -15,7 +15,7 @@ downloads:
 github: CollinScripter/Revamped3DS
 icon: https://raw.githubusercontent.com/CollinScripter/Revamped3DS/master/icon.png
 image: https://replayers.org/wp-content/uploads/2019/08/Halo-revamped-coverart-dreamcast.jpg
-image_length: 99628
+image_length: 6192
 layout: app
 source: https://github.com/CollinScripter/Revamped3DS
 systems:
