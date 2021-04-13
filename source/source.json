@@ -6318,7 +6318,6 @@
 		"author": "TCPixel",
 		"systems": ["3DS"],
 		"categories": ["game"],
-		"image": "https://replayers.org/wp-content/uploads/2019/08/Halo-revamped-coverart-dreamcast.jpg",
 		"icon": "https://raw.githubusercontent.com/CollinScripter/Revamped3DS/master/icon.png",
 		"scripts": {
 			"Revamped.cia": [
