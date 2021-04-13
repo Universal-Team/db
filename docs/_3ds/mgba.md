@@ -15,7 +15,7 @@ downloads:
 github: mgba-emu/mgba
 icon: https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-48.png
 image: https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-256.png
-image_length: 45084
+image_length: 43839
 layout: app
 license: mpl-2.0
 license_name: Mozilla Public License 2.0
