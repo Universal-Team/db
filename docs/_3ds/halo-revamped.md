@@ -14,8 +14,8 @@ downloads:
     url: https://github.com/CollinScripter/Revamped3DS/releases/download/V1.11/Revamped.zip
 github: CollinScripter/Revamped3DS
 icon: https://raw.githubusercontent.com/CollinScripter/Revamped3DS/master/icon.png
-image: https://replayers.org/wp-content/uploads/2019/08/Halo-revamped-coverart-dreamcast.jpg
-image_length: 99628
+image: https://avatars.githubusercontent.com/u/5771065?v=4
+image_length: 174619
 layout: app
 source: https://github.com/CollinScripter/Revamped3DS
 systems:
