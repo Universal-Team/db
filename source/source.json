@@ -6452,6 +6452,7 @@
 		"github": "MechanicalDragon0687/NDSForwarder",
 		"categories": ["utility"],
 		"systems": ["3DS"],
+		"long_description": "To install you will need to download the [3DS SD card forwarder pack](https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=1), then extract the contents of the `for SD card root` folder to the root of your SD card.\n\nWhen installing with Universal-Updater this is done automatically.",
 		"scripts": {
 			"ndsForwarder.3dsx": [
 				{
