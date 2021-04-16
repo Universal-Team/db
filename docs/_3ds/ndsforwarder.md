@@ -30,6 +30,16 @@ update_notes: '<p>Initial release.</p>
 
   Open with homebrew launcher</p>
 
+  <ul>
+
+  <li>note: you also need the nds-bootstrap forwarder pack from <a href="https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=1"
+  rel="nofollow">here</a>.</li>
+
+  <li>Be sure to copy the <code>_nds</code> folder from the <code>for SD card root</code>
+  folder to the sd card.</li>
+
+  </ul>
+
   <h2>Features</h2>
 
   <ul>
