@@ -6470,7 +6470,7 @@
 				{
 					"type": "extractFile",
 					"file": "/DS Game Forwarder pack (3DS SD Card).7z",
-					"input": "",
+					"input": "for SD Card root/",
 					"output": "/",
 					"message": "Extracting DS Game Forwarder pack (3DS SD Card).7z..."
 				},
