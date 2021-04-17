@@ -45,6 +45,7 @@ code, tt {
 	background-color: var(--code-bg);
 	padding: 3px;
 	border-radius: 0.25rem;
+	white-space: nowrap;
 }
 
 // .a is for making other things look like <a>s
