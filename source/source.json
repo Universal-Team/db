@@ -6493,7 +6493,10 @@
 		"icon": "https://raw.githubusercontent.com/MateoThePro/Celeste-Classic-3DS/main/celeste_classic_3ds_icon.png",
 		"description": "Celeste Classic port by MateoThePro, gba port by LinuxCat, Celeste Classic made by Matt Makes Games",
 		"downloads": {
-			"CelesteClassic_v1_1_homebrew.cia": "https://github.com/MateoThePro/Celeste-Classic-3DS/raw/main/CelesteClassic_v1_1_homebrew.cia"
+			"CelesteClassic_v1_1_homebrew.cia": {
+				"url": "https://github.com/MateoThePro/Celeste-Classic-3DS/raw/main/CelesteClassic_v1_1_homebrew.cia",
+				"size": 8905664
+			}
 		},
 		"updated": "2021-04-16T00:00:00Z",
 		"version": "1.0"
