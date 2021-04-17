@@ -75,3 +75,6 @@ updated: '2021-04-12T08:15:35Z'
 version: 1.0.0
 version_title: 1.0.0
 ---
+To install you will need to download the [3DS SD card forwarder pack](https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=1), then extract the contents of the `for SD card root` folder to the root of your SD card.
+
+When installing with Universal-Updater this is done automatically.
