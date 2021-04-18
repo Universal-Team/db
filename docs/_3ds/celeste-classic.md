@@ -13,8 +13,8 @@ downloads:
     url: https://github.com/MateoThePro/Celeste-Classic-3DS/raw/main/CelesteClassic_v1_1_homebrew.cia
 github: MateoThePro/Celeste-Classic-3DS
 icon: https://raw.githubusercontent.com/MateoThePro/Celeste-Classic-3DS/main/celeste_classic_3ds_icon.png
-image: https://avatars.githubusercontent.com/u/50515160?v=4
-image_length: 16052
+image: https://raw.githubusercontent.com/MateoThePro/Celeste-Classic-3DS/main/celeste_classic_3ds_icon.png
+image_length: 17439
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
