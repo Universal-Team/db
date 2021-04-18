@@ -16,8 +16,6 @@ icon: https://raw.githubusercontent.com/MateoThePro/Celeste-Classic-3DS/main/cel
 image: https://raw.githubusercontent.com/MateoThePro/Celeste-Classic-3DS/main/celeste_classic_3ds_icon.png
 image_length: 17439
 layout: app
-license: gpl-3.0
-license_name: GNU General Public License v3.0
 qr:
   CelesteClassic_v1_1_homebrew.cia: https://db.universal-team.net/assets/images/qr/celesteclassic_v1_1_homebrew.cia.png
 screenshots:
