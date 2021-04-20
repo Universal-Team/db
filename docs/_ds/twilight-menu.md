@@ -81,7 +81,7 @@ update_notes: "<p>Check here on how to update <strong>TW</strong>i<strong>L</str
   \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
   \ href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a> and various) Updated translations!</li>\n\
   </ul>\n<p><strong>Bug fixes</strong></p>\n<ul>\n<li><strong>DSi-based themes:</strong>\
-  \ <code>ds.nftr</code> fonts are now used in DSiWarehax to work around a crashing\
+  \ <code>ds.nftr</code> fonts are now used in DSiWareHax to work around a crashing\
   \ bug.</li>\n<li>Combined horizontal and vertical icon flipping now works.</li>\n\
   </ul>"
 updated: '2021-04-20T06:43:15Z'
