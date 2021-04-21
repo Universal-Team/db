@@ -305,6 +305,12 @@ img {
 	border-radius: 10px;
 }
 
+// Select
+.form-select-dark {
+	background-color: #444;
+	border: 1px solid #333;
+}
+
 @media only screen and (min-width: 1024px) {
 	.main-content {
 		max-width: 1024px;
