@@ -5,7 +5,7 @@ categories:
 - utility
 color: '#411d38'
 created: '2020-11-07T12:39:47Z'
-description: HID module rewrite
+description: HID module rewrite(button remapping and more)
 download_page: https://github.com/hax0kartik/rehid/releases
 downloads:
   0004013000001D02.zip:
