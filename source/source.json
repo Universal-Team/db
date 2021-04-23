@@ -1746,6 +1746,7 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/icon.png",
+		"unistore_exclude": true,
 		"scripts": {
 			"seedstarter.cia": [
 				{
