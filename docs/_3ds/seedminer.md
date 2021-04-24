@@ -31,6 +31,7 @@ source: https://github.com/zoogie/seedminer
 systems:
 - 3DS
 title: seedminer
+unistore_exclude: true
 update_notes: '<p>This release syncs the <a href="https://github.com/deadphoenix8091/seedminer/releases/tag/2%2C1%2C5.fixed">latest
   release</a> of the DeadPhoenix fork, because it''s used the most (and better for
   most things).</p>
