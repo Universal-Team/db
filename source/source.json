@@ -5353,57 +5353,6 @@
 					"type": "deleteFile",
 					"file": "/TWiLightMenu-3DS.7z"
 				}
-			],
-			"[nightly lite] TWiLight Menu++": [
-				{
-					"type": "downloadFile",
-					"file": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Lite.7z",
-					"output": "/TWiLightMenu.7z",
-					"message": "Downloading TWiLight Menu++..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/TWiLightMenu.7z",
-					"input": "TWiLightMenu/_nds/",
-					"output": "/_nds/",
-					"message": "Extracting TWiLight Menu++..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/TWiLightMenu.7z",
-					"input": "TWiLightMenu/3DS - CFW users/",
-					"output": "/",
-					"message": "Extracting TWiLight Menu++..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/TWiLightMenu.7z",
-					"input": "TWiLightMenu/DSi&3DS - SD card users/",
-					"output": "/",
-					"message": "Extracting TWiLight Menu++..."
-				},
-				{
-					"type": "installCia",
-					"file": "/TWiLight Menu.cia",
-					"message": "Installing TWiLight Menu++..."
-				},
-				{
-					"type": "installCia",
-					"file": "/TWiLight Menu - Game booter.cia",
-					"message": "Installing TWiLight Menu - Game booter..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/TWiLight Menu - Game booter.cia"
-				},
-				{
-					"type": "deleteFile",
-					"file": "/TWiLight Menu.cia"
-				},
-				{
-					"type": "deleteFile",
-					"file": "/TWiLightMenu.7z"
-				}
 			]
 		}
 	},
