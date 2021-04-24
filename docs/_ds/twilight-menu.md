@@ -40,8 +40,6 @@ nightly:
       url: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-DSi.7z
     TWiLightMenu-Flashcard.7z:
       url: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Flashcard.7z
-    TWiLightMenu-Lite.7z:
-      url: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Lite.7z
     TWiLightMenu.7z:
       url: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu.7z
 priority: true
