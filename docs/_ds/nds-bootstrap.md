@@ -61,17 +61,17 @@ update_notes: "<p>Included in <a href=\"https://github.com/DS-Homebrew/TWiLightM
   \ all games are multi-regional, so the feature won't work for some of them.</li>\n\
   </ul>\n</li>\n</ul>\n<p><strong>Bug fixes</strong></p>\n<ul>\n<li>The missing sprite\
   \ bug in <em>Mario vs. Donkey Kong: Mini-Land Mayhem</em> is fixed by turning on\
-  \ DS\u207D\u2071\u207E mode.</li>\n<li><em>Tom Clancy's Splinter Cell: Chaos Theory</em>\
-  \ now saves data.</li>\n<li>Fixed sound in <em>Pok\xE9mon Ranger: Shadows of Almia</em>,\
-  \ if using either DSiWareHax or forced DS\u207D\u2071\u207E mode.</li>\n<li>Fixed\
-  \ <em>Trauma Center: Under the Knife</em> not booting.</li>\n<li>Fixed DMA reads\
-  \ to VRAM not working.</li>\n<li>Fixed a bug causing potential crashes with ROMs\
-  \ loaded into the full extra RAM.</li>\n<li>Minor code optimizations have been applied.</li>\n\
-  </ul>\n<p><strong>Known bugs</strong></p>\n<ul>\n<li>DS\u207D\u2071\u207EWare saving\
-  \ currently doesn't work, so some games may not start as a result.</li>\n<li>When\
-  \ restarting <em>Face Training</em>, after successfully saving, it'll show that\
-  \ the save is corrupted.</li>\n<li>In <em>Hidden Photo</em>, while a puzzle loads,\
-  \ it'll crash after some seconds.</li>\n</ul>"
+  \ DS\u207D\u2071\u207E mode.</li>\n<li><em>WarioWare: DIY</em> now saves properly.</li>\n\
+  <li><em>Tom Clancy's Splinter Cell: Chaos Theory</em> now saves data.</li>\n<li>Fixed\
+  \ sound in <em>Pok\xE9mon Ranger: Shadows of Almia</em>, if using either DSiWareHax\
+  \ or forced DS\u207D\u2071\u207E mode.</li>\n<li>Fixed <em>Trauma Center: Under\
+  \ the Knife</em> not booting.</li>\n<li>Fixed DMA reads to VRAM not working.</li>\n\
+  <li>Fixed a bug causing potential crashes with ROMs loaded into the full extra RAM.</li>\n\
+  <li>Minor code optimizations have been applied.</li>\n</ul>\n<p><strong>Known bugs</strong></p>\n\
+  <ul>\n<li>DS\u207D\u2071\u207EWare saving currently doesn't work, so some games\
+  \ may not start as a result.</li>\n<li>When restarting <em>Face Training</em>, after\
+  \ successfully saving, it'll show that the save is corrupted.</li>\n<li>In <em>Hidden\
+  \ Photo</em>, while a puzzle loads, it'll crash after some seconds.</li>\n</ul>"
 updated: '2021-04-20T06:17:40Z'
 version: v0.39.0
 version_title: "D\u207D\u2071\u207Erectors' Cut"
