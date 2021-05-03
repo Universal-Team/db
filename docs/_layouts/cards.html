@@ -59,11 +59,11 @@ layout: compress
 											<a class="flex-grow-1" href="{{ app.url | remove: ".html" }}">
 												{% if app.image %}
 													<div class="card-header card-image-header">
-														<img class="card-image" src="{{ app.image }}" alt="{{ app.title | escape }}">
+														<img class="card-image" src="{{ app.image }}" alt="{{ app.title | escape }}" loading="lazy">
 													</div>
 												{% else if app.icon %}
 													<div class="card-header card-image-header">
-														<img class="card-image" src="{{ app.icon }}" alt="{{ app.title | escape }}">
+														<img class="card-image" src="{{ app.icon }}" alt="{{ app.title | escape }}" loading="lazy">
 													</div>
 												{% endif %}
 												<div class="card-body">
