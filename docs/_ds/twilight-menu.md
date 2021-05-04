@@ -52,16 +52,22 @@ update_notes: "<p>Check here on how to update <strong>TW</strong>i<strong>L</str
   \ rel=\"nofollow\">Flashcard</a></li>\n<li><a href=\"https://wiki.ds-homebrew.com/twilightmenu/updating-dsi.html\"\
   \ rel=\"nofollow\">DSi</a></li>\n<li><a href=\"https://wiki.ds-homebrew.com/twilightmenu/updating-3ds.html\"\
   \ rel=\"nofollow\">3DS</a></li>\n</ul>\n<p>Includes <a href=\"https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.39.1\"\
-  >nds-bootstrap v0.39.1</a></p>\n<p><strong>What's new?</strong></p>\n<ul>\n<li><strong>DS\
-  \ Classic Menu:</strong> You can now set an autorun title on your flashcard, if\
-  \ <code>autorun.inf</code> is on the flashcard's SD root, as well as TWLMenu++ running\
-  \ from the console's SD card.\n<ul>\n<li>Add <code>open=fat:/ndspath/game.nds</code>\
-  \ (example path) underneath <code>[autorun.twl]</code>.</li>\n<li>After doing so,\
-  \ the set title will be displayed as the top option on the bottom screen.</li>\n\
-  </ul>\n</li>\n<li>SNES ROMs are now visible again when running in DSiWarehax, but\
-  \ attempting to launch one will bring up a message, preventing the ROM from booting.</li>\n\
-  <li>When exiting a game from nds-bootstrap, both the Nintendo DS\u207D\u2071\u207E\
-  \ and TWLMenu++ splash screens will now be skipped!</li>\n</ul>\n<p><strong>Improvement</strong></p>\n\
+  >nds-bootstrap v0.39.1</a></p>\n<p><strong>What's new?</strong></p>\n<ul>\n<li><code>DS\u207D\
+  \u2071\u207E mode</code> is now the default <code>Run in</code> option!\n<ul>\n\
+  <li><code>DS\u207D\u2071\u207E mode</code> will be treated as <code>DS mode</code>\
+  \ when launching Slot-1 cartridges, unless if <code>Unlaunch</code> is set as the\
+  \ <code>Slot-1 Launch Method</code>.</li>\n<li><strong>NOTE:</strong> If TWLMenu++\
+  \ was installed before this version was released, you'll need to manually set the\
+  \ option.</li>\n</ul>\n</li>\n<li><strong>DS Classic Menu:</strong> You can now\
+  \ set an autorun title on your flashcard, if <code>autorun.inf</code> is on the\
+  \ flashcard's SD root, as well as TWLMenu++ running from the console's SD card.\n\
+  <ul>\n<li>Add <code>open=fat:/ndspath/game.nds</code> (example path) underneath\
+  \ <code>[autorun.twl]</code>.</li>\n<li>After doing so, the set title will be displayed\
+  \ as the top option on the bottom screen.</li>\n</ul>\n</li>\n<li>SNES ROMs are\
+  \ now visible again when running in DSiWarehax, but attempting to launch one will\
+  \ bring up a message, preventing the ROM from booting.</li>\n<li>When exiting a\
+  \ game from nds-bootstrap, both the Nintendo DS\u207D\u2071\u207E and TWLMenu++\
+  \ splash screens will now be skipped!</li>\n</ul>\n<p><strong>Improvement</strong></p>\n\
   <ul>\n<li>(<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
   /users/Epicpkmn11/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
   link_type:self\" href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a> and various)\
