@@ -9,13 +9,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 451596
-    size_str: 441 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.39.0/nds-bootstrap.7z
+    size: 309867
+    size_str: 302 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.39.1/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1282461
-    size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.39.0/nds-bootstrap.zip
+    size: 811951
+    size_str: 792 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.39.1/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://raw.githubusercontent.com/DS-Homebrew/nds-bootstrap/master/retail/assets/icon.bmp
 image: https://i.imgur.com/BFIu7xX.png
@@ -33,48 +33,40 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: "<p>Included in <a href=\"https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v20.0.0\"\
-  ><strong>TW</strong>i<strong>L</strong>ight Menu++ v20.0.0</a></p>\n<p>Instructions:</p>\n\
+update_notes: "<p>Included in <a href=\"https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v20.1.0\"\
+  ><strong>TW</strong>i<strong>L</strong>ight Menu++ v20.1.0</a></p>\n<p>Instructions:</p>\n\
   <ol>\n<li>Download the <code>.7z</code> file.</li>\n<li>Extract the nds-bootstrap\
   \ <code>.nds</code> files, to <code>root:/_nds</code>.</li>\n<li>Extract the <code>.ver</code>\
-  \ file to <code>root:/_nds/TWiLightMenu</code>.</li>\n</ol>\n<p><strong>What's new?</strong></p>\n\
-  <ul>\n<li>You asked, we listened, and now the wait is over, and the day has finally\
-  \ come!<br>\nAfter years of playing DS\u207D\u2071\u207E-Enhanced games in DS mode,\
-  \ whether it be on a flashcard or the console's SD card, DS\u207D\u2071\u207E mode\
-  \ has finally been added (with some help from <a class=\"user-mention\" data-hovercard-type=\"\
-  user\" data-hovercard-url=\"/users/shutterbug2000/hovercard\" data-octo-click=\"\
-  hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/shutterbug2000\"\
-  >@shutterbug2000</a>)!\n<ul>\n<li>With DS\u207D\u2071\u207E mode, you can play DS\u207D\
-  \u2071\u207E-Enhanced games with features only usable on DS\u207D\u2071\u207E or\
-  \ 3DS consoles, such as faster speed, camera, and/or using WPA1/2 networks to connect\
-  \ to the internet.</li>\n<li>As a result, you can play all 5 of the physical DS\u207D\
-  \u2071\u207E-Exclusive games as ROMs, which are\n<ul>\n<li><em>System Flaw</em></li>\n\
-  <li><em>Foto Showdown</em></li>\n<li><em>Picture Perfect Hair Salon</em></li>\n\
-  <li>and the rest (which are exclusive to Europe)</li>\n</ul>\n</li>\n<li>Also as\
-  \ a result, you can play some DS\u207D\u2071\u207EWare titles, such as\n<ul>\n<li><em>Earthworm\
-  \ Jim</em></li>\n<li><em>Shantae: Risky's Revenge</em></li>\n<li><em>The Legend\
-  \ of Zelda: Four Swords: Anniversary Edition</em></li>\n<li><em>X-Scape</em></li>\n\
-  <li>and more!</li>\n</ul>\n</li>\n<li>NOTE: Due to most of the memory being used\
-  \ by the game, the in-game menu is disabled, and attempting to open it will cause\
-  \ the game to close.</li>\n</ul>\n</li>\n<li>Game region can be set for DS\u207D\
-  \u2071\u207E-Exclusive and DS\u207D\u2071\u207EWare titles.\n<ul>\n<li>NOTE: Not\
-  \ all games are multi-regional, so the feature won't work for some of them.</li>\n\
-  </ul>\n</li>\n</ul>\n<p><strong>Bug fixes</strong></p>\n<ul>\n<li>The missing sprite\
-  \ bug in <em>Mario vs. Donkey Kong: Mini-Land Mayhem</em> is fixed by turning on\
-  \ DS\u207D\u2071\u207E mode.</li>\n<li><em>WarioWare: DIY</em> now saves properly.</li>\n\
-  <li><em>Tom Clancy's Splinter Cell: Chaos Theory</em> now saves data.</li>\n<li>Fixed\
-  \ sound in <em>Pok\xE9mon Ranger: Shadows of Almia</em>, if using either DSiWareHax\
-  \ or forced DS\u207D\u2071\u207E mode.</li>\n<li>Fixed <em>Trauma Center: Under\
-  \ the Knife</em> not booting.</li>\n<li>Fixed DMA reads to VRAM not working.</li>\n\
-  <li>Fixed a bug causing potential crashes with ROMs loaded into the full extra RAM.</li>\n\
-  <li>Minor code optimizations have been applied.</li>\n</ul>\n<p><strong>Known bugs</strong></p>\n\
-  <ul>\n<li>DS\u207D\u2071\u207EWare saving currently doesn't work, so some games\
-  \ may not start as a result.</li>\n<li>When restarting <em>Face Training</em>, after\
-  \ successfully saving, it'll show that the save is corrupted.</li>\n<li>In <em>Hidden\
-  \ Photo</em>, while a puzzle loads, it'll crash after some seconds.</li>\n</ul>"
-updated: '2021-04-20T06:17:40Z'
-version: v0.39.0
-version_title: "D\u207D\u2071\u207Erectors' Cut"
+  \ file to <code>root:/_nds/TWiLightMenu</code>.</li>\n</ol>\n<p><strong>In case\
+  \ you missed it... (See <a href=\"https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.39.0\"\
+  >D\u207D\u2071\u207Erectors' Cut changelog</a> for more information.)</strong></p>\n\
+  <ul>\n<li>DS\u207D\u2071\u207E mode support has been added, so DS\u207D\u2071\u207E\
+  -Enhanced games boot with DS\u207D\u2071\u207E enhancements (ex. WPA1/2 network\
+  \ support, faster CPU speed, and camera)!\n<ul>\n<li>As a result, DS\u207D\u2071\
+  \u207E-Exclusives and DS\u207D\u2071\u207EWare boot as well!</li>\n</ul>\n</li>\n\
+  <li>Saving has been fixed in <em>WarioWare: DIY</em>!</li>\n</ul>\n<p><strong>What's\
+  \ new?</strong></p>\n<ul>\n<li>(<a class=\"user-mention\" data-hovercard-type=\"\
+  user\" data-hovercard-url=\"/users/Epicpkmn11/hovercard\" data-octo-click=\"hovercard-link-click\"\
+  \ data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Epicpkmn11\"\
+  >@Epicpkmn11</a> and various) The in-game menu now has translations!</li>\n</ul>\n\
+  <p><strong>Bug fixes</strong></p>\n<ul>\n<li>Fixed a bug where <em>Fossil Fighters\
+  \ Champions</em> wouldn't boot.<br>\n<strong>NOTE:</strong> Due to an AP-related\
+  \ issue, it will not boot in DS\u207D\u2071\u207E mode.</li>\n<li>Fixed <em>Final\
+  \ Fantasy III</em> crashing when attempting to play the intro movie.</li>\n<li>Fixed\
+  \ screen flicker in <em>Sonic Rush Adventure</em> and <em>Sonic Colors</em> during\
+  \ streamed music (ex. Opening intro).</li>\n<li>Fixed bug in <em>Hotel Dusk: Room\
+  \ 215</em>, where black and green lines would appear. There will now be minimal\
+  \ to no lines.</li>\n<li>Fixed slowdown in the title screens of <em>Pokemon Black\
+  \ Version 2</em> and <em>Pokemon White Version 2</em>, when running in DS mode.</li>\n\
+  <li>A card read DMA alternative has been implemented to <em>Mario &amp; Sonic at\
+  \ the Olympic Winter Games</em>.</li>\n<li>(<a class=\"user-mention\" data-hovercard-type=\"\
+  user\" data-hovercard-url=\"/users/Epicpkmn11/hovercard\" data-octo-click=\"hovercard-link-click\"\
+  \ data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Epicpkmn11\"\
+  >@Epicpkmn11</a>) Optimized .ini file reader, so the nds-bootstrap .nds file is\
+  \ now cut in almost half!</li>\n</ul>"
+updated: '2021-05-03T23:55:41Z'
+version: v0.39.1
+version_title: v0.39.1
 wiki: https://github.com/DS-Homebrew/nds-bootstrap/wiki
 ---
 nds-bootstrap is an open-source application that allows Nintendo DS/DSi ROMs and homebrew to be natively utilised rather than using an emulator. nds-bootstrap works on Nintendo DSi/3DS SD cards through CFW and on Nintendo DS through flashcarts.
