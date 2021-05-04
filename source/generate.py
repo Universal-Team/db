@@ -337,7 +337,7 @@ for app in source:
 					app["downloads"][download] = {
 						"url": fileAPI["links"]["self"]["href"],
 						"size": fileAPI["size"],
-						"size_str": byteCount(asset["size"])
+						"size_str": byteCount(fileAPI["size"])
 					}
 
 				if not "download_page" in app:
