@@ -16,11 +16,11 @@ download_page: https://bitbucket.org/Coto88/snemulds/src/TGDS1.6-Snemulds/releas
 downloads:
   release/arm9dldi-ntr/SNEmulDS.nds:
     size: 870464
-    size_str: 3 MiB
+    size_str: 850 KiB
     url: https://api.bitbucket.org/2.0/repositories/Coto88/snemulds/src/30811e1407c24c14eb9ec573bb58201a1d248152/release/arm9dldi-ntr/SNEmulDS.nds
   release/snemul.cfg:
     size: 10086
-    size_str: 3 MiB
+    size_str: 9 KiB
     url: https://api.bitbucket.org/2.0/repositories/Coto88/snemulds/src/30811e1407c24c14eb9ec573bb58201a1d248152/release/snemul.cfg
 icon: https://bitbucket.org/Coto88/snemulds/raw/c323eb1a7c411390de1ab32daa3640c17dbfa4ff/icon.bmp
 image: https://db.universal-team.net/assets/images/images/snemulds.png
