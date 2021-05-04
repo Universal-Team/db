@@ -6459,5 +6459,16 @@
 		"icon": "https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/icon.png",
 		"long_description": "You can play .mp4 file on your 3DS!\n\nPerformance\nSoftware decoding\n256x144(144p)@30fps(H.264) on OLD 3DS\n640x360(360p)@24fps(H.264) on NEW 3DS\nHardware decoding (new 3ds only)\n854x480(480p)@40~50fps(H.264) on NEW 3DS",
 		"author": "Core 2 Extreme, dixy52-beep (icon, banner, in app texture)"
+	},
+	{
+		"github": "Core-2-Extreme/Line_for_3DS",
+		"title": "Line for 3DS",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"image": "https://raw.githubusercontent.com/Core-2-Extreme/Line_for_3DS/master/resource/banner.png",
+		"icon": "https://raw.githubusercontent.com/Core-2-Extreme/Line_for_3DS/master/resource/icon.png",
+		"long_description": "You can use line on your 3DS!\n* You need to set up your account\n* how to set up : <https://gbatemp.net/threads/v0-2-0-release-guide-line-for-3ds.539530/>",
+		"author": "Core 2 Extreme",
+		"script_message": "Note: You will need to set up your account.\nHow to set up: https://gbatemp.net/threads/539530"
 	}
 ]
