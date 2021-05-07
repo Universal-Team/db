@@ -114,7 +114,11 @@ update_notes: '<p>This is the second public release of rehid.<br>
   app.</p>
 
   <p>You can use the gbatemp <a href="https://gbatemp.net/threads/wip-rehid-hid-module-rewrite-for-easy-button-remapping-and-more.585387/"
-  rel="nofollow">thread</a> to ask for support.</p>'
+  rel="nofollow">thread</a> to ask for support.</p>
+
+  <p>If you like this project and would like to show some monetary support, you can
+  <a href="https://www.paypal.com/paypalme/preetiagarwala?locale.x=en_GB" rel="nofollow">paypal</a>
+  me!</p>'
 updated: '2021-05-06T16:15:24Z'
 version: v2.0
 version_title: v2.0 Second Release
