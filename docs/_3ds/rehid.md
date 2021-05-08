@@ -95,7 +95,7 @@ update_notes: '<p>This is the second public release of rehid.<br>
 
   <li>Rehidhelper is a hb app which makes it easier to install rehid/generate remappings.</li>
 
-  <li><strong>You can now easily generate your remappings using <a href="https://young-ravine-66468.herokuapp.com/config"
+  <li><strong>You can now easily generate your remappings using <a href="https://mikahjc.github.io/3dsRemapBuilder/config"
   rel="nofollow">this</a> site written by <a class="user-mention" data-hovercard-type="user"
   data-hovercard-url="/users/mikahjc/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/mikahjc">@mikahjc</a>
@@ -109,7 +109,7 @@ update_notes: '<p>This is the second public release of rehid.<br>
   </ul>
 
   <p>If you''re a newcomer, I personally suggest you install rehid through the rehidhelper.3dsx
-  app, after which you should head to the <a href="https://young-ravine-66468.herokuapp.com/config"
+  app, after which you should head to the <a href="https://mikahjc.github.io/3dsRemapBuilder/config"
   rel="nofollow">site</a>, generate your remappings and then scan the QR with the
   app.</p>
 
