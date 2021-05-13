@@ -7,6 +7,7 @@ assignees: ''
 
 ---
 <!-- These lines are comments, they won't show up when submitted -->
+<!-- Please don't delete the **bold text**, put what your info below it -->
 **Name of the app**
 
 
@@ -26,7 +27,7 @@ assignees: ''
 **Icon link**
 
 
-<!-- You can use HTML and/or Markdown in this, shown on the app's download page -->
+<!-- You can use HTML and / or Markdown in this, shown on the app's download page -->
 **Long description**
 
 
@@ -34,7 +35,7 @@ assignees: ''
 **Screeshots**
 
 
-<!-- If you use a different site then that, only GitHub and Bitbucket are supported atm but more can be added -->
+<!-- Used to automatically gather most metadata, only GitHub and Bitbucket are supported currently but other things with a decent API can be added -->
 **GitHub repository of the app**
 
 
@@ -77,5 +78,5 @@ assignees: ''
 **Download link(s)**
 
 
-<!-- type an X in between the brackets below to confirm, and if you aren't the developer then please actually check it's alright -->
+<!-- Replace the space between the brackets below with an X to confirm, and if you aren't the developer then please actually check it's alright -->
 - [ ] I am the app developer or have permission from the app developer to make this request
