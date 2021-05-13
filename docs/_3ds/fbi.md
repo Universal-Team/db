@@ -70,17 +70,7 @@ update_notes: '<ul>
 
   <li>Revert the built-in updater back to using GitHub.</li>
 
-  </ul>
-
-  <p>Make sure to report any new issues caused by these changes. The issue ticket
-  for TLSv1.2 support can be found <a href="https://github.com/Steveice10/FBI/issues/450"
-  data-hovercard-type="issue" data-hovercard-url="/Steveice10/FBI/issues/450/hovercard">here</a>.</p>
-
-  <p>Also, this update cannot be installed using the built-in updater, as the TitleDB
-  servers are no longer available for previous versions of FBI to pull from. (<strong>UPDATE</strong>:
-  The author of TitleDB has <a href="https://www.reddit.com/r/3dshacks/comments/aboq3j/fbi_release_260_removes_titledb_support_adds/ed3k6v1/"
-  rel="nofollow">stated</a> that the TitleDB servers are now set up to serve the new
-  FBI release to the updater, so older versions should be able to update in-app now.)</p>'
+  </ul>'
 updated: '2019-01-02T01:41:35Z'
 version: 2.6.0
 version_title: 2.6.0
