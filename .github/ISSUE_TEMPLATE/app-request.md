@@ -11,7 +11,7 @@ assignees: ''
 **Name of the app**
 
 
-<!-- (usually) the system(s) the app is native for, so a .nds app that works on 3DS is just DS -->
+<!-- The system(s) the app is native for, so a .nds app that works on 3DS is just DS, also only DS and 3DS requests are accepted -->
 **System(s)**
 
 
