@@ -9,19 +9,19 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 34215363
+    size: 34211169
     size_str: 32 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.2.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 34224459
+    size: 34224470
     size_str: 32 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.2.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 47320858
+    size: 47333143
     size_str: 45 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.2.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 47516793
+    size: 47513377
     size_str: 45 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.2.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
@@ -80,13 +80,9 @@ update_notes: "<p>Check here on how to update <strong>TW</strong>i<strong>L</str
   \ Updated translations.</li>\n</ul>\n<p><strong>Bug fixes</strong></p>\n<ul>\n<li>Cheats\
   \ are now set for DS\u207D\u2071\u207EWare!</li>\n<li>Fixed a bug that would cause\
   \ the SM64 DS\u207D\u2071\u207E port to crash on black screens.\n<ul>\n<li>Unlaunch\
-  \ is no longer used to boot the port.</li>\n</ul>\n</li>\n<li>(<a class=\"user-mention\"\
-  \ data-hovercard-type=\"user\" data-hovercard-url=\"/users/lifehackerhansol/hovercard\"\
-  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
-  \ href=\"https://github.com/lifehackerhansol\">@lifehackerhansol</a>) Fixed DSTT\
-  \ &amp; Clones failing to boot with only 2GB SD.</li>\n<li>Fixed launched <code>.gba</code>\
+  \ is no longer used to boot the port.</li>\n</ul>\n</li>\n<li>Fixed launched <code>.gba</code>\
   \ ROM being moved to the <code>saves</code> folder for whatever reason.</li>\n</ul>"
-updated: '2021-05-15T23:09:18Z'
+updated: '2021-05-15T23:54:35Z'
 version: v20.2.0
 version_title: v20.2.0
 wiki: https://wiki.ds-homebrew.com/twilightmenu

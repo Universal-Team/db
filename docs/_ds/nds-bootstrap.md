@@ -40,27 +40,26 @@ update_notes: "<p>Included in <a href=\"https://github.com/DS-Homebrew/TWiLightM
   \ file to <code>root:/_nds/TWiLightMenu</code>.</li>\n</ol>\n<p><strong>What's new?</strong></p>\n\
   <ul>\n<li>DS\u207D\u2071\u207EWare titles on the SD card are now booted the same\
   \ way as Unlaunch and the DS\u207D\u2071\u207E System Menu boot them!\n<ul>\n<li>As\
-  \ a result, saving now works, and DS\u207D\u2071\u207EWare compatibility is either\
-  \ perfect, or close to perfect!</li>\n<li>Because no patching is done, you can no\
-  \ longer use the in-game menu button combo to exit to TWLMenu++.</li>\n</ul>\n</li>\n\
-  <li>DS\u207D\u2071\u207E mode is now usable on all flashcards booted in DS mode\
-  \ with SCFG enabled!\n<ul>\n<li>Make sure nds-bootstrap is booted with TWL touch\
-  \ mode set (can be done by setting the Slot-1 TWL touch option in TWLMenu++ Settings),\
-  \ or else the Camera feature won't work, and may cause the game to crash.</li>\n\
-  <li>Trying to connect to the internet will cause either a lockup, or a crash.</li>\n\
-  <li><strong>NOTE:</strong> This feature will not make DS\u207D\u2071\u207E mode\
-  \ work on DS Phat/lite consoles.</li>\n</ul>\n</li>\n<li>(<a class=\"user-mention\"\
-  \ data-hovercard-type=\"user\" data-hovercard-url=\"/users/Epicpkmn11/hovercard\"\
-  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
-  \ href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a>) Custom in-game menu hotkey\
-  \ can now be set!</li>\n</ul>\n<p><strong>Improvement</strong></p>\n<ul>\n<li>(<a\
-  \ class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Epicpkmn11/hovercard\"\
-  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
-  \ href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a> and various) Updated in-game\
-  \ menu translations.</li>\n</ul>\n<p><strong>Bug fixes</strong></p>\n<ul>\n<li>The\
-  \ card read DMA alternative is now applied for most games!</li>\n<li>Saving now\
-  \ works in the EUR &amp; JAP versions of <em>Kirby Canvas Curse</em>!</li>\n<li>Fixed\
-  \ freezing issue in <em>Pokemon HeartGold &amp; SoulSilver Versions</em>!</li>\n\
+  \ a result, saving now works, and DS\u207D\u2071\u207EWare compatibility is near-perfect!</li>\n\
+  <li>Because no patching is done, you can no longer use the in-game menu button combo\
+  \ to exit to TWLMenu++.</li>\n</ul>\n</li>\n<li>DS\u207D\u2071\u207E mode is now\
+  \ usable on all flashcards booted in DS mode with SCFG enabled!\n<ul>\n<li>Make\
+  \ sure nds-bootstrap is booted with TWL touch mode set (can be done by setting the\
+  \ Slot-1 TWL touch option in TWLMenu++ Settings), or else the Camera feature won't\
+  \ work, and may cause the game to crash.</li>\n<li>Trying to connect to the internet\
+  \ will cause either a lockup, or a crash.</li>\n<li><strong>NOTE:</strong> This\
+  \ feature will not make DS\u207D\u2071\u207E mode work on DS Phat/lite consoles.</li>\n\
+  </ul>\n</li>\n<li>(<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
+  /users/Epicpkmn11/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
+  link_type:self\" href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a>) Custom\
+  \ in-game menu hotkey can now be set!</li>\n</ul>\n<p><strong>Improvement</strong></p>\n\
+  <ul>\n<li>(<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
+  /users/Epicpkmn11/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
+  link_type:self\" href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a> and various)\
+  \ Updated in-game menu translations.</li>\n</ul>\n<p><strong>Bug fixes</strong></p>\n\
+  <ul>\n<li>The card read DMA alternative is now applied for most games!</li>\n<li>Saving\
+  \ now works in the EUR &amp; JAP versions of <em>Kirby Canvas Curse</em>!</li>\n\
+  <li>Fixed freezing issue in <em>Pokemon HeartGold &amp; SoulSilver Versions</em>!</li>\n\
   <li>With IR support still being broken, Slot-1 is now disabled, regardless if the\
   \ game uses IR or not.\n<ul>\n<li>Fixes a bug where the game would exit when closing/opening\
   \ the console's lid.</li>\n</ul>\n</li>\n</ul>"
