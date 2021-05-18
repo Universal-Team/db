@@ -3,7 +3,7 @@ author: Universal-Team
 avatar: https://avatars.githubusercontent.com/u/49733679?v=4
 categories:
 - game
-color: '#828282'
+color: '#3b4048'
 created: '2020-06-22T08:12:23Z'
 description: A memory cardgame clone for Nintendo 3DS.
 download_page: https://github.com/SuperSaiyajinStackZ/3DZwei/releases
@@ -19,7 +19,7 @@ downloads:
 github: SuperSaiyajinStackZ/3DZwei
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/icon.png
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/banner.png
-image_length: 4633
+image_length: 10942
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
