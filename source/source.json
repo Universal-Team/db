@@ -1273,7 +1273,17 @@
 	{
 		"github": "LukeZGD/DDLC-LOVE",
 		"systems": ["3DS"],
-		"categories": ["game"]
+		"categories": ["game"],
+		"downloads": {
+			"DDLC-LOVE-3DS.3dsx": {
+				"url": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-LOVE-3DS.3dsx",
+				"size": 82645068
+			},
+			"DDLC-LOVE-3DS.cia": {
+				"url": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-LOVE-3DS.cia",
+				"size": 83207104
+			}
+		}
 	},
 	{
 		"github": "MrHuu/opentitus-3ds",
