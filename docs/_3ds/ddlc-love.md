@@ -8,7 +8,13 @@ created: '2018-04-17T16:27:05Z'
 description: An unofficial Doki Doki Literature Club port to Lua for different game
   console platforms
 download_page: https://github.com/LukeZGD/DDLC-LOVE/releases
-downloads: {}
+downloads:
+  DDLC-LOVE-3DS.3dsx:
+    size: 82645068
+    url: https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-LOVE-3DS.3dsx
+  DDLC-LOVE-3DS.cia:
+    size: 83207104
+    url: https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-LOVE-3DS.cia
 github: LukeZGD/DDLC-LOVE
 icon: https://db.universal-team.net/assets/images/icons/ddlc-love.png
 image: https://db.universal-team.net/assets/images/images/ddlc-love.png
@@ -16,6 +22,8 @@ image_length: 4459
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+qr:
+  DDLC-LOVE-3DS.cia: https://db.universal-team.net/assets/images/qr/ddlc-love-3ds.cia.png
 screenshots:
 - description: Gameplay
   url: https://db.universal-team.net/assets/images/screenshots/ddlc-love/gameplay.png
