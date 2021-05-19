@@ -9,21 +9,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 34211169
+    size: 34183007
     size_str: 32 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.2.0/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.2.1/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 34224470
+    size: 34200208
     size_str: 32 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.2.0/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.2.1/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 47333143
+    size: 47303050
     size_str: 45 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.2.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.2.1/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 47513377
+    size: 47479393
     size_str: 45 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.2.0/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.2.1/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 image: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/logo.png
@@ -51,40 +51,33 @@ update_notes: "<p>Check here on how to update <strong>TW</strong>i<strong>L</str
   \ Menu++:</p>\n<ul>\n<li><a href=\"https://wiki.ds-homebrew.com/twilightmenu/updating-flashcard.html\"\
   \ rel=\"nofollow\">Flashcard</a></li>\n<li><a href=\"https://wiki.ds-homebrew.com/twilightmenu/updating-dsi.html\"\
   \ rel=\"nofollow\">DSi</a></li>\n<li><a href=\"https://wiki.ds-homebrew.com/twilightmenu/updating-3ds.html\"\
-  \ rel=\"nofollow\">3DS</a></li>\n</ul>\n<p>Includes <a href=\"https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.40.0\"\
-  >nds-bootstrap v0.40.0</a></p>\n<p><strong>What's new?</strong></p>\n<ul>\n<li>nds-bootstrap\
-  \ is now the default DS\u207D\u2071\u207EWare booter!</li>\n<li>When launching DS\u207D\
-  \u2071\u207EWare on flashcards via nds-bootstrap, data is now copied to a temporary\
-  \ location on the console's SD card.\n<ul>\n<li>This is turned on by default to\
-  \ maintain compatibility.</li>\n</ul>\n</li>\n<li>8.3 SFN versions of the launched\
-  \ DS\u207D\u2071\u207EWare path (<code>.nds</code>, <code>.pub</code>, and <code>.prv</code>)\
-  \ are now set in <code>nds-bootstrap.ini</code> for the DS\u207D\u2071\u207EWare\
-  \ title to read long paths.</li>\n<li>The <code>Run in</code> setting is now shown\
-  \ for all flashcards with SCFG access enabled.</li>\n<li>The <em>Pop Island</em>\
-  \ games are now only launchable in DS\u207D\u2071\u207E mode.\n<ul>\n<li>To launch\
-  \ the DS mode demo version, start TWLMenu++ via DSiWarehax or DS flashcard.</li>\n\
-  </ul>\n</li>\n<li>Added \"Only for DSi\" message when attempting to launch DS\u207D\
-  \u2071\u207EWare or DS\u207D\u2071\u207E System Apps on DS Phat/lite consoles.</li>\n\
-  <li>(<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
-  /users/Epicpkmn11/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
-  link_type:self\" href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a>) Added option\
-  \ to set custom hotkey for nds-bootstrap's in-game menu.</li>\n<li>(<a class=\"\
-  user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Epicpkmn11/hovercard\"\
-  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
-  \ href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a>) Re-enabled manual icon\
-  \ in SELECT menu.</li>\n</ul>\n<p><strong>Improvements</strong></p>\n<ul>\n<li>The\
-  \ ROM list from melonDS is now used to determine the launched DS game's save size.</li>\n\
-  <li>(<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
+  \ rel=\"nofollow\">3DS</a></li>\n</ul>\n<p>Includes <a href=\"https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.40.2\"\
+  >nds-bootstrap v0.40.2</a></p>\n<p><strong>What's removed?</strong></p>\n<ul>\n\
+  <li>The <code>Last played ROM</code> feature has unfortunately been removed from\
+  \ the settings menu, but you can still start it on boot by holding B.\n<ul>\n<li>Why\
+  \ this was removed is because a lot of users didn't pay attention to the setting\
+  \ description while enabling it. :P</li>\n</ul>\n</li>\n</ul>\n<p><strong>Improvement</strong></p>\n\
+  <ul>\n<li>(<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
   /users/Epicpkmn11/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
   link_type:self\" href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a> and various)\
-  \ Updated translations.</li>\n</ul>\n<p><strong>Bug fixes</strong></p>\n<ul>\n<li>Cheats\
-  \ are now set for DS\u207D\u2071\u207EWare!</li>\n<li>Fixed a bug that would cause\
-  \ the SM64 DS\u207D\u2071\u207E port to crash on black screens.\n<ul>\n<li>Unlaunch\
-  \ is no longer used to boot the port.</li>\n</ul>\n</li>\n<li>Fixed launched <code>.gba</code>\
-  \ ROM being moved to the <code>saves</code> folder for whatever reason.</li>\n</ul>"
-updated: '2021-05-15T23:54:35Z'
-version: v20.2.0
-version_title: v20.2.0
+  \ Updated translations.</li>\n</ul>\n<p><strong>Bug fixes</strong></p>\n<ul>\n<li>Fixed\
+  \ DS\u207D\u2071\u207EWare saves with hex characters A-F in the size being created\
+  \ incorrectly without a header.\n<ul>\n<li>You'll need to manually delete the DS\u207D\
+  \u2071\u207EWare save, if the game still shows a save data/filesystem/download/system\
+  \ memory error.</li>\n</ul>\n</li>\n<li>Fixed launching DS\u207D\u2071\u207EWare\
+  \ (copied to SD) from flashcards booted in DS mode, where originally, launching\
+  \ would reboot TWLMenu++.</li>\n<li>The flashcard DS\u207D\u2071\u207EWare in a\
+  \ temporary SD location is now copied back to the flashcard only once, unless when\
+  \ restarting the game on TWLMenu++ boot.</li>\n<li>Fixed <code>cheatData.bin</code>\
+  \ not being created for DS\u207D\u2071\u207EWare.\n<ul>\n<li>Also fixed widescreen\
+  \ cheats not being activated for DS\u207D\u2071\u207EWare on flashcards, if copied\
+  \ to console SD.</li>\n</ul>\n</li>\n<li>Fixed WiFi being broken when running Slot-1\
+  \ carts.</li>\n<li><strong>DS Classic Menu:</strong> The correct ROM directory is\
+  \ now set when launching a game from either the SD card or flashcard.</li>\n<li>Fixed\
+  \ Greek and Russian language text being in one line.</li>\n</ul>"
+updated: '2021-05-19T08:10:54Z'
+version: v20.2.1
+version_title: v20.2.1
 wiki: https://wiki.ds-homebrew.com/twilightmenu
 ---
 TWiLight Menu++ is an open-source DSi Menu upgrade/replacement for the Nintendo DSi, the Nintendo 3DS, and Nintendo DS flashcards. It can launch Nintendo DS, SNES, NES, GameBoy (color), GameBoy Advance, Sega GameGear/Master System & Mega Drive/Genesis ROMs, as well as DSTWO plugins (if you use a DSTWO) and videos.
