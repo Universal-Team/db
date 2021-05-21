@@ -9,9 +9,9 @@ description: Animal Crossing NL Vapecord Public Plugin WIP
 download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases
 downloads:
   Vapecord.Public.zip:
-    size: 5510888
-    size_str: 5 MiB
-    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v1.9.3/Vapecord.Public.zip
+    size: 7955234
+    size_str: 7 MiB
+    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v1.9.4/Vapecord.Public.zip
 github: RedShyGuy/Vapecord-ACNL-Plugin
 image: https://avatars.githubusercontent.com/u/43783060?v=4
 image_length: 23338
@@ -28,25 +28,16 @@ update_notes: '<h1>New Update!!</h1>
 
   <ul>
 
-  <li>Campsite Villager Spoofer</li>
+  <li>Town Acre Editor reworked with Acre selection menu</li>
 
-  <li>Chat Copy/Paste</li>
+  <li>Show Players On Map reworked to show neat icons</li>
 
-  <li>New Non Hacker Mode <code>N:</code> (explained below)</li>
+  <li>Save Menu Changer (same as the now removed Design Menu Changer, just replacing
+  the Save Menu now instead)</li>
 
-  <li>Custom Crash Screen</li>
+  <li>Free Kappn Rides</li>
 
-  <li>Better looking Plugin Loading Screen (thanks to Kominost !!)</li>
-
-  <li>Environmental Items (Trees, Bushes) will now be planted instead of dropped</li>
-
-  <li>Force Send Chat can now spam messages</li>
-
-  <li>Random Colors are now directly updated in the menu</li>
-
-  <li>Seed Items can now be drag-dropped in the inventory</li>
-
-  <li>and more!</li>
+  <li>Custom sizes in Size Changer</li>
 
   </ul>
 
@@ -58,13 +49,17 @@ update_notes: '<h1>New Update!!</h1>
 
   <ul>
 
-  <li>Acre Editor fixed</li>
+  <li>Player/Town Name Changer and Gender Changer now cause 0 issues with anything
+  (Designs, Letters, Villager recognising you, etc...)</li>
 
-  <li>Camera Mod switches correctly off now</li>
+  <li>Catalog To Pocket Search function disabled outside of nooks shops to prevent
+  crash</li>
 
-  <li>Can''t change from Hex2Dec/Dec2Hex in a keyboard anymore</li>
+  <li>Furniture Movement Button disabled outside of your own house to prevent crash</li>
 
-  <li>and more!</li>
+  <li>Badge cheat doesn''t cause invalid badges if no option is selected</li>
+
+  <li>And more!</li>
 
   </ul>
 
@@ -76,31 +71,19 @@ update_notes: '<h1>New Update!!</h1>
 
   <ul>
 
-  <li>Force Send Chat doesn''t need to send one message first to work anymore</li>
+  <li>Many strings updated/changed</li>
 
-  <li>Dream Code Changer now also works if no previous Dream Code existed</li>
+  <li>Many cheats moved to new locations</li>
 
-  <li>Many performance updates</li>
+  <li>Many performance changes</li>
 
-  <li>and more!</li>
+  <li>Search Function reactivated</li>
+
+  <li>and lots more!</li>
 
   </ul>
 
   </blockquote>
-
-  <h2>New Non Hacker Mode <code>N:</code>:</h2>
-
-  <p>The new mode lets you drop items by simply typing their name or parts of the
-  name<br>
-
-  For example:<br>
-
-  <code>N:apple</code> will spawn an apple<br>
-
-  <code>N:99,000 Bells</code> will spawn 99k Bells | <code>N:99</code> will also spawn
-  99k Bells (as that item is the only one with <code>99</code> in its name)<br>
-
-  etc.</p>
 
   <h2>How to use:</h2>
 
@@ -108,8 +91,8 @@ update_notes: '<h1>New Update!!</h1>
 
   If you encounter any bugs feel free to report them on the official <a href="https://discord.gg/QwqdBpKWf3"
   rel="nofollow">Vapecord Discord Server</a>.</p>'
-updated: '2021-04-11T17:44:22Z'
-version: v1.9.3
-version_title: ACNL Vapecord Public Plugin [v.1.9.3] [EDITED]
+updated: '2021-05-21T17:53:35Z'
+version: v1.9.4
+version_title: ACNL Vapecord Public Plugin [v.1.9.4]
 wiki: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/wiki
 ---

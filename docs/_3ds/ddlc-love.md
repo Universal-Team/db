@@ -15,6 +15,10 @@ downloads:
   DDLC-LOVE-3DS.cia:
     size: 83207104
     url: https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-LOVE-3DS.cia
+  DDLC-LOVE.love:
+    size: 103365218
+    size_str: 98 MiB
+    url: https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.2.1/DDLC-LOVE.love
 github: LukeZGD/DDLC-LOVE
 icon: https://db.universal-team.net/assets/images/icons/ddlc-love.png
 image: https://db.universal-team.net/assets/images/images/ddlc-love.png
@@ -33,21 +37,14 @@ source: https://github.com/LukeZGD/DDLC-LOVE
 systems:
 - 3DS
 title: DDLC-LOVE
-update_notes: '<p>v1.2.0 Release</p>
-
-  <ul>
-
-  <li>This release is for the PS Vita only. For other systems, go to <a href="https://github.com/LukeZGD/DDLC-LOVE/releases/tag/v1.1.9">v1.1.9</a></li>
-
-  <li>I wanted to replay DDLC, but on my PS Vita, so I updated DDLC-LOVE to fix some
-  things that I encountered during my time playing/reading (even though I don''t really
-  want to mess with this code I made anymore)</li>
-
-  <li>With this release, the main change beside bug fixes is that <strong>I switched
-  to using Lua Player Plus Vita (lpp-vita)</strong></li>
-
-  </ul>'
-updated: '2021-05-19T09:45:29Z'
-version: v1.2.0
-version_title: v1.2.0
+update_notes: "<p>v1.2.1 Changes:</p>\n<ul>\n<li>Bug fixes and general improvements</li>\n\
+  <li>Fix some poems and dialogue</li>\n<li>Converted some image assets from png to\
+  \ jpg (smaller game size due to this change)</li>\n<li>Re-processed character sprites\
+  \ to display properly</li>\n<li>Save text toggle outline setting (toggle this by\
+  \ pressing Select in-game for better readability)</li>\n<li>Fix some audio problems\
+  \ and errors</li>\n</ul>\n<p>Note: A L\xD6VE file (<code>.love</code>) is now available.\
+  \ See readme for more details</p>"
+updated: '2021-05-21T14:26:23Z'
+version: v1.2.1
+version_title: v1.2.1
 ---
