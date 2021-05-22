@@ -1550,7 +1550,7 @@
 	{
 		"github": "LiquidFenrir/Yahtzee3DS",
 		"systems": ["3DS"],
-		"categories": ["utility"],
+		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/LiquidFenrir/Yahtzee3DS/master/sprites/banner.png",
 		"icon": "https://raw.githubusercontent.com/LiquidFenrir/Yahtzee3DS/master/icon.png"
 	},
