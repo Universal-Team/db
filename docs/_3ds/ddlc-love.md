@@ -15,10 +15,6 @@ downloads:
   DDLC-LOVE-3DS.cia:
     size: 83207104
     url: https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-LOVE-3DS.cia
-  DDLC-LOVE.love:
-    size: 103365218
-    size_str: 98 MiB
-    url: https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.2.1/DDLC-LOVE.love
 github: LukeZGD/DDLC-LOVE
 icon: https://db.universal-team.net/assets/images/icons/ddlc-love.png
 image: https://db.universal-team.net/assets/images/images/ddlc-love.png
