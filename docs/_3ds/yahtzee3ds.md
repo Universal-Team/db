@@ -2,7 +2,7 @@
 author: LiquidFenrir
 avatar: https://avatars.githubusercontent.com/u/16072534?v=4
 categories:
-- utility
+- game
 color: '#2a3c07'
 created: '2018-06-24T22:22:29Z'
 description: A 3ds homebrew game of Yahtzee, featuring multi-console multiplayer
