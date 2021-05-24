@@ -579,17 +579,22 @@
 		"categories": ["utility"],
 		"downloads": {
 			"Colors110ds.zip": {
-				"url": "https://db.universal-team.net/assets/files/Colors110ds.zip"
+				"url": "https://db.universal-team.net/assets/files/Colors110ds.zip",
+				"size": 15334221
+			},
+			"colors_1_10bbeta2.zip": {
+				"url": "https://db.universal-team.net/assets/files/colors_1_10bbeta2.zip",
+				"size": 3425204
 			}
 		},
 		"author": "Jens Andersson",
 		"website": "https://www.colorslive.com",
 		"download_page": "https://gamebrew.org/wiki/Colors!",
-		"version": "v1.1",
-		"updated": "2010-10-04T10:11:20Z",
+		"version": "v1.1b beta2",
+		"updated": "2010-11-16T21:50:12Z",
 		"systems": ["DS"],
 		"scripts": {
-			"Colors.nds": [
+			"[v1.1] Colors.nds": [
 				{
 					"type": "downloadFile",
 					"file": "https://db.universal-team.net/assets/files/Colors110ds.zip",
@@ -619,6 +624,26 @@
 					"type": "deleteFile",
 					"file": "/Colors110ds.zip",
 					"message": "Deleting Colors110ds.zip..."
+				}
+			],
+			"[v1.1b beta2] Colors.nds": [
+				{
+					"type": "downloadFile",
+					"file": "https://db.universal-team.net/assets/files/colors_1_10bbeta2.zip",
+					"output": "/colors_1_10bbeta2.zip",
+					"message": "Downloading colors_1_10bbeta2.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/colors_1_10bbeta2.zip",
+					"input": "Colors.nds",
+					"output": "%NDS%/Colors.nds",
+					"message": "Extracting Colors.nds..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/colors_1_10bbeta2.zip",
+					"message": "Deleting colors_1_10bbeta2.zip..."
 				}
 			]
 		}
