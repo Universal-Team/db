@@ -6506,5 +6506,14 @@
 		"long_description": "You can use line on your 3DS!\n* You need to set up your account\n* how to set up : <https://gbatemp.net/threads/v0-2-0-release-guide-line-for-3ds.539530/>",
 		"author": "Core 2 Extreme",
 		"script_message": "Note: You will need to set up your account.\nHow to set up: https://gbatemp.net/threads/539530"
+	},
+	{
+		"github": "mariohackandglitch/YAMKC_3DS",
+		"title": "Yet Another Mario Kart Clone 3DS",
+		"systems": ["3DS"],
+		"categories": ["game"],
+		"icon": "https://raw.githubusercontent.com/mariohackandglitch/YAMKC_3DS/main/icon.png",
+		"long_description": "YAMKC 3DS is a Mario Kart game clone for the 3DS, made with the intention to mimic the feeling of a Mario Kart game using Mario Kart 7 as the inspiration. Due to limited time to finish this project, only basic behaviour is implemented and the only available game mode is time trials on a single circuit.",
+		"description": "A Mario Kart game clone for the 3DS, made with the intention to mimic the feeling of a Mario Kart game using Mario Kart 7 as the inspiration"
 	}
 ]
