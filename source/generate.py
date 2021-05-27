@@ -174,6 +174,9 @@ with open(os.path.join("..", "docs", "data", "full.json"), "r", encoding="utf8")
 icons = []
 iconIndex = 0
 
+# GitHub name cache
+names = {}
+
 # Auth header
 header = None
 if len(sys.argv) > 1:
@@ -212,7 +215,14 @@ for app in source:
 				app["title"] = api["name"]
 
 			if not "author" in app:
-				app["author"] = api["owner"]["login"]
+				username = api["owner"]["login"]
+				if username in names:
+					username = names[username]
+				else:
+					user = requests.get(f"https://api.github.com/users/{username}", headers = header if header else None).json()
+					names[username] = user["name"] if user["name"] != None else username
+					username = names[username]
+				app["author"] = username
 
 			if not "description" in app and api["description"] != "" and api["description"] != None:
 				app["description"] = api["description"]
