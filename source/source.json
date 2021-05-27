@@ -6512,7 +6512,6 @@
 		"title": "Yet Another Mario Kart Clone 3DS",
 		"systems": ["3DS"],
 		"categories": ["game"],
-		"image": "https://raw.githubusercontent.com/mariohackandglitch/YAMKC_3DS/main/icon.png",
 		"icon": "https://raw.githubusercontent.com/mariohackandglitch/YAMKC_3DS/main/icon.png",
 		"long_description": "YAMKC 3DS is a Mario Kart game clone for the 3DS, made with the intention to mimic the feeling of a Mario Kart game using Mario Kart 7 as the inspiration. Due to limited time to finish this project, only basic behaviour is implemented and the only available game mode is time trials on a single circuit.",
 		"description": "A Mario Kart game clone for the 3DS, made with the intention to mimic the feeling of a Mario Kart game using Mario Kart 7 as the inspiration"
