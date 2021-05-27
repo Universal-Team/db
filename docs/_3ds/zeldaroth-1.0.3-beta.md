@@ -1,5 +1,5 @@
 ---
-author: vargaviktor
+author: Viktor Varga
 autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/12373906?v=4
 categories:

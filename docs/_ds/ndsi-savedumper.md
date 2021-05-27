@@ -1,5 +1,5 @@
 ---
-author: edo9300
+author: Edoardo Lolletti
 avatar: https://avatars.githubusercontent.com/u/18705342?v=4
 categories:
 - utility

@@ -1,5 +1,5 @@
 ---
-author: gnmmarechal
+author: "M\xE1rio Alexandre Lopes Liberato"
 avatar: https://avatars.githubusercontent.com/u/11259227?v=4
 categories:
 - utility

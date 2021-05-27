@@ -1,5 +1,5 @@
 ---
-author: Steveice10
+author: Steven Smith
 autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/1269164?v=4
 categories:

@@ -1,5 +1,5 @@
 ---
-author: mrdanielps
+author: danielps
 avatar: https://avatars.githubusercontent.com/u/9087084?v=4
 categories:
 - emulator

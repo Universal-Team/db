@@ -1,5 +1,5 @@
 ---
-author: NatTupper
+author: Nat Osaka
 avatar: https://avatars.githubusercontent.com/u/16436651?v=4
 categories:
 - utility

@@ -1,5 +1,5 @@
 ---
-author: Cruel
+author: Thomas Edvalson
 avatar: https://avatars.githubusercontent.com/u/383999?v=4
 categories:
 - game

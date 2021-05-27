@@ -1,5 +1,5 @@
 ---
-author: MechanicalDragon0687
+author: MechanicalDragon
 avatar: https://avatars.githubusercontent.com/u/43786828?v=4
 categories:
 - utility

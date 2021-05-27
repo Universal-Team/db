@@ -1,5 +1,5 @@
 ---
-author: mariohackandglitch
+author: PabloMK7
 avatar: https://avatars.githubusercontent.com/u/10946643?v=4
 categories:
 - game
@@ -15,8 +15,8 @@ downloads:
     url: https://github.com/mariohackandglitch/YAMKC_3DS/releases/download/v0.2/YAMKC_3DS.3dsx
 github: mariohackandglitch/YAMKC_3DS
 icon: https://raw.githubusercontent.com/mariohackandglitch/YAMKC_3DS/main/icon.png
-image: https://raw.githubusercontent.com/mariohackandglitch/YAMKC_3DS/main/icon.png
-image_length: 81904
+image: https://db.universal-team.net/assets/images/images/yet-another-mario-kart-clone-3ds.png
+image_length: 61098
 layout: app
 license: other
 license_name: Other

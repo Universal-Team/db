@@ -1,5 +1,5 @@
 ---
-author: RedTopper
+author: AJ Walter
 avatar: https://avatars.githubusercontent.com/u/6108605?v=4
 categories:
 - game

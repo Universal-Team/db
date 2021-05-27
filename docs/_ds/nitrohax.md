@@ -1,5 +1,5 @@
 ---
-author: chishm
+author: Michael Chisholm
 avatar: https://avatars.githubusercontent.com/u/18148723?v=4
 categories:
 - utility

@@ -1,5 +1,5 @@
 ---
-author: DomRe
+author: reworks
 avatar: https://avatars.githubusercontent.com/u/8564184?v=4
 categories:
 - utility

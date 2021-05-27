@@ -1,5 +1,5 @@
 ---
-author: TricksterGuy
+author: Brandon
 avatar: https://avatars.githubusercontent.com/u/824564?v=4
 categories:
 - utility

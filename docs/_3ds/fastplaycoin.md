@@ -1,5 +1,5 @@
 ---
-author: CorySanin
+author: Cory Sanin
 avatar: https://avatars.githubusercontent.com/u/2897351?v=4
 categories:
 - utility

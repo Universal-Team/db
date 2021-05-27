@@ -1,5 +1,5 @@
 ---
-author: TurtleP
+author: Jeremy S. Postelnek
 avatar: https://avatars.githubusercontent.com/u/6239208?v=4
 categories:
 - game

@@ -1,5 +1,5 @@
 ---
-author: masterfeizz
+author: Felipe Izzo
 avatar: https://avatars.githubusercontent.com/u/15205297?v=4
 categories:
 - game

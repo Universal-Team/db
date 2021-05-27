@@ -1,5 +1,5 @@
 ---
-author: SuperSaiyajinStackZ
+author: StackZ
 avatar: https://avatars.githubusercontent.com/u/47382115?v=4
 categories:
 - utility

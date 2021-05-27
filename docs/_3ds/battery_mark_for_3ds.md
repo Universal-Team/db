@@ -1,5 +1,5 @@
 ---
-author: Core-2-Extreme
+author: Core 2 Extreme
 avatar: https://avatars.githubusercontent.com/u/45873899?v=4
 categories:
 - utility

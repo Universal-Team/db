@@ -1,5 +1,5 @@
 ---
-author: Jacudibu
+author: Stefan
 autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/9059719?v=4
 categories:

@@ -1,5 +1,5 @@
 ---
-author: Ryuzaki-MrL
+author: "L\xE1zaro Vieira"
 avatar: https://avatars.githubusercontent.com/u/13871621?v=4
 categories:
 - utility

@@ -1,5 +1,5 @@
 ---
-author: mgba-emu
+author: mGBA
 avatar: https://avatars.githubusercontent.com/u/10085927?v=4
 categories:
 - emulator

@@ -1,5 +1,5 @@
 ---
-author: LiquidFenrir
+author: "Th\xE9o B."
 avatar: https://avatars.githubusercontent.com/u/16072534?v=4
 categories:
 - game

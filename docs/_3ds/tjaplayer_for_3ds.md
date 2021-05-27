@@ -1,5 +1,5 @@
 ---
-author: togetg
+author: Togetoge
 avatar: https://avatars.githubusercontent.com/u/18244518?v=4
 categories:
 - utility

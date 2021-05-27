@@ -1,5 +1,5 @@
 ---
-author: rhaleblian
+author: Ray Haleblian
 avatar: https://avatars.githubusercontent.com/u/94912?v=4
 categories:
 - utility

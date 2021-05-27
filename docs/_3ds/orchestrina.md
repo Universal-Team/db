@@ -1,5 +1,5 @@
 ---
-author: EBLeifEricson
+author: Eric Beller
 avatar: https://avatars.githubusercontent.com/u/13992834?v=4
 categories:
 - utility

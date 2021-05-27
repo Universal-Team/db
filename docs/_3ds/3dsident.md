@@ -1,5 +1,5 @@
 ---
-author: joel16
+author: Joel
 avatar: https://avatars.githubusercontent.com/u/6271991?v=4
 categories:
 - utility

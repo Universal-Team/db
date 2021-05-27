@@ -1,5 +1,5 @@
 ---
-author: HIDE810
+author: HIDE
 avatar: https://avatars.githubusercontent.com/u/48782538?v=4
 categories:
 - utility

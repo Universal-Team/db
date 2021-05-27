@@ -1,5 +1,5 @@
 ---
-author: LukeZGD
+author: LukeeGD
 avatar: https://avatars.githubusercontent.com/u/26163116?v=4
 categories:
 - game

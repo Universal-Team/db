@@ -1,5 +1,5 @@
 ---
-author: J-D-K
+author: JK
 avatar: https://avatars.githubusercontent.com/u/39171744?v=4
 categories:
 - utility

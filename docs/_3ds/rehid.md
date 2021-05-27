@@ -1,5 +1,5 @@
 ---
-author: hax0kartik
+author: Kartik
 avatar: https://avatars.githubusercontent.com/u/16360444?v=4
 categories:
 - utility
