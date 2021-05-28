@@ -38,12 +38,12 @@ jobs:
         git config user.name "TWLBot"
 
         echo "machine github.com" > "$HOME/.netrc"
-        echo "  login $GITHUB_ACTOR" >> "$HOME/.netrc"
-        echo "  password $INPUT_TOKEN" >> "$HOME/.netrc"
+        echo "  login TWLBot" >> "$HOME/.netrc"
+        echo "  password ${{ secrets.GITHUB_TOKEN }}" >> "$HOME/.netrc"
 
         echo "machine api.github.com" >> "$HOME/.netrc"
-        echo "  login $GITHUB_ACTOR" >> "$HOME/.netrc"
-        echo "  password $INPUT_TOKEN" >> "$HOME/.netrc"
+        echo "  login TWLBot" >> "$HOME/.netrc"
+        echo "  password ${{ secrets.GITHUB_TOKEN }}" >> "$HOME/.netrc"
 
         git checkout master
         git commit -a -m "Update sources"
