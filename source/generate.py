@@ -130,10 +130,21 @@ def downloadScript(file, url, message):
 		]
 	
 	if message:
-		script.append({
-			"type": "promptMessage",
-			"message": message
-		})
+		if type(message) == str:
+			script.append({
+				"type": "promptMessage",
+				"message": message
+			})
+		elif type(message) == dict and len(re.findall(message["for"], file)) > 0:
+			msg = {
+				"type": "promptMessage",
+				"message": message["message"],
+				"count": message["count"] if "count" in message else 0
+			}
+			if message["at"] == "end":
+				script.append(msg)
+			else:
+				script.insert(0, msg)
 
 	return script
 
