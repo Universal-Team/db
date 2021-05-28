@@ -46,5 +46,7 @@ jobs:
         echo "  password ${{ secrets.GITHUB_TOKEN }}" >> "$HOME/.netrc"
 
         git checkout master
-        git commit -a -m "Update sources"
-        git push origin master
+        git stage .
+        if git commit -m "Update sources"; then
+          git push origin master
+        fi
