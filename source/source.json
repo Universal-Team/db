@@ -579,12 +579,10 @@
 		"categories": ["utility"],
 		"downloads": {
 			"Colors110ds.zip": {
-				"url": "https://db.universal-team.net/assets/files/Colors110ds.zip",
-				"size": 15334221
+				"url": "https://db.universal-team.net/assets/files/Colors110ds.zip"
 			},
 			"colors_1_10bbeta2.zip": {
-				"url": "https://db.universal-team.net/assets/files/colors_1_10bbeta2.zip",
-				"size": 3425204
+				"url": "https://db.universal-team.net/assets/files/colors_1_10bbeta2.zip"
 			}
 		},
 		"author": "Jens Andersson",
@@ -920,8 +918,7 @@
 		"icon": "https://raw.githubusercontent.com/ahezard/NitroHax3DS/master/icon.bmp",
 		"downloads": {
 			"NitroHax.cia": {
-				"url": "https://github.com/ahezard/NitroHax3DS/releases/download/0.99.NTR/NitroHax.cia",
-				"size": 1424128
+				"url": "https://github.com/ahezard/NitroHax3DS/releases/download/0.99.NTR/NitroHax.cia"
 			}
 		}
 	},
@@ -1301,12 +1298,10 @@
 		"categories": ["game"],
 		"downloads": {
 			"DDLC-LOVE-3DS.3dsx": {
-				"url": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-LOVE-3DS.3dsx",
-				"size": 82645068
+				"url": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-LOVE-3DS.3dsx"
 			},
 			"DDLC-LOVE-3DS.cia": {
-				"url": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-LOVE-3DS.cia",
-				"size": 83207104
+				"url": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-LOVE-3DS.cia"
 			}
 		}
 	},
@@ -1317,10 +1312,18 @@
 		"image": "https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_banner.png",
 		"icon": "https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_icon_48x48.png",
 		"downloads": {
-			"OpenTitus_MOKTAR_3DSX_23-12-2018.7z": "https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_MOKTAR_3DSX_23-12-2018.7z",
-			"OpenTitus_TITUS_3DSX_23-12-2018.7z": "https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_TITUS_3DSX_23-12-2018.7z",
-			"OpenTitus_MOKTAR_CIA_25-12-2018.7z": "https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_MOKTAR_CIA_25-12-2018.7z",
-			"OpenTitus_TITUS_CIA_25-12-2018.7z": "https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_TITUS_CIA_25-12-2018.7z"
+			"OpenTitus_MOKTAR_3DSX_23-12-2018.7z": {
+				"url": "https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_MOKTAR_3DSX_23-12-2018.7z"
+			},
+			"OpenTitus_TITUS_3DSX_23-12-2018.7z": {
+				"url": "https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_TITUS_3DSX_23-12-2018.7z"
+			},
+			"OpenTitus_MOKTAR_CIA_25-12-2018.7z": {
+				"url": "https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_MOKTAR_CIA_25-12-2018.7z"
+			},
+			"OpenTitus_TITUS_CIA_25-12-2018.7z": {
+				"url": "https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_TITUS_CIA_25-12-2018.7z"
+			}
 		},
 		"long_description": "The CIA and 3DSX downloads should be used on new 3DS systems, the LOW_FREQ downloads should be used on old 3DS.\n\nYou will need the original game files in `sdmc:/3ds/OpenTitus/moktar` for the moktar buids and `sdmc:/3ds/OpenTitus/titus` for the titus builds.",
 		"scripts": {
@@ -6202,8 +6205,7 @@
 		"version_title": "Parkin'Rampage 02012021",
 		"downloads": {
 			"ParkingRampage.nds": {
-				"url": "https://github.com/DesperateProgrammer/ParkingRampage/raw/main/ParkingRampage.nds",
-				"size": 604672
+				"url": "https://github.com/DesperateProgrammer/ParkingRampage/raw/main/ParkingRampage.nds"
 			}
 		}
 	},
@@ -6478,8 +6480,7 @@
 		"description": "Celeste Classic port by MateoThePro, gba port by LinuxCat, Celeste Classic made by Matt Makes Games",
 		"downloads": {
 			"CelesteClassic_v1_1_homebrew.cia": {
-				"url": "https://github.com/MateoThePro/Celeste-Classic-3DS/raw/main/CelesteClassic_v1_1_homebrew.cia",
-				"size": 8905664
+				"url": "https://github.com/MateoThePro/Celeste-Classic-3DS/raw/main/CelesteClassic_v1_1_homebrew.cia"
 			}
 		},
 		"updated": "2021-04-16T00:00:00Z",
@@ -6546,12 +6547,10 @@
 		},
 		"downloads": {
 			"CTGP-7_Downloader.3dsx": {
-				"url": "https://ctgp7.page.link/3dsx_downloader",
-				"size": 1879508
+				"url": "https://ctgp7.page.link/3dsx_downloader"
 			},
 			"CTGP-7_Downloader.cia": {
-				"url": "https://ctgp7.page.link/cia_downloader",
-				"size": 2061248
+				"url": "https://ctgp7.page.link/cia_downloader"
 			}
 		}
 	}
