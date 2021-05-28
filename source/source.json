@@ -864,7 +864,7 @@
 			"jEnesisDS.nds": [
 				{
 					"type": "downloadFile",
-					"file": "https:///assets/files/JEnesisDS0174.zip",
+					"file": "https://db.universal-team.net/assets/files/JEnesisDS0174.zip",
 					"output": "/JEnesisDS0174.zip",
 					"message": "Downloading JEnesisDS0174.zip..."
 				},
