@@ -15,17 +15,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    
+
     - name: Install packages
       run: |
         echo deb http://deb.debian.org/debian stable main contrib non-free >> /etc/apt/sources.list
         sudo apt-get update
         sudo apt-get install python3-pip -y
         pip3 install -r source/requirements.txt
-
-    - name: Delete old pages and QRs
-      run: |
-        rm -rf docs/_3ds/* docs/_ds/* docs/assets/images/qr/*.png docs/assets/images/qr/nightly/*.png docs/assets/images/qr/prerelease/*.png
 
     - name: Run generate.py
       run: |
@@ -37,12 +33,18 @@ jobs:
       run: git pull origin master --ff-only # Pull origin in case a commit has been done while updating
 
     - name: Push changes
-      uses: github-actions-x/commit@v2.6
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        push-branch: 'master'
-        commit-message: 'Update sources'
-        force-add: 'false'
-        files: .
-        name: TWLBot
-        email: flamekat54@aol.com 
+      run: |
+        git config user.email "flamekat54@aol.com"
+        git config user.name "TWLBot"
+
+        echo "machine github.com" > "$HOME/.netrc"
+        echo "  login $GITHUB_ACTOR" >> "$HOME/.netrc"
+        echo "  password $INPUT_TOKEN" >> "$HOME/.netrc"
+
+        echo "machine api.github.com" >> "$HOME/.netrc"
+        echo "  login $GITHUB_ACTOR" >> "$HOME/.netrc"
+        echo "  password $INPUT_TOKEN" >> "$HOME/.netrc"
+
+        git checkout master
+        git commit -a -m "Update sources"
+        git push origin master

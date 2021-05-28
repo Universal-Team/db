@@ -45,5 +45,6 @@ jobs:
         echo "  login $GITHUB_ACTOR" >> "$HOME/.netrc"
         echo "  password $INPUT_TOKEN" >> "$HOME/.netrc"
 
+        git checkout master
         git commit -a -m "Update sources"
         git push origin master
