@@ -15,8 +15,8 @@ downloads:
     size_str: 232 KiB
     url: https://github.com/mikewii/Luma3DS-plugin/releases/download/r1.0.11/boot.firm
   default.3gx:
-    size: 696052
-    size_str: 679 KiB
+    size: 697238
+    size_str: 680 KiB
     url: https://github.com/mikewii/Luma3DS-plugin/releases/download/r1.0.11/default.3gx
 github: mikewii/Luma3DS-plugin
 image: https://avatars.githubusercontent.com/u/29737660?v=4

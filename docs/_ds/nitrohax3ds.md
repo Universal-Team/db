@@ -10,6 +10,7 @@ download_page: https://github.com/ahezard/NitroHax3DS/releases
 downloads:
   NitroHax.cia:
     size: 1424128
+    size_str: 1 MiB
     url: https://github.com/ahezard/NitroHax3DS/releases/download/0.99.NTR/NitroHax.cia
   NitroHax_DSi_Release.zip:
     size: 502877

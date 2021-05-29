@@ -9,9 +9,11 @@ download_page: https://gamebrew.org/wiki/Colors!
 downloads:
   Colors110ds.zip:
     size: 15334221
+    size_str: 14 MiB
     url: https://db.universal-team.net/assets/files/Colors110ds.zip
   colors_1_10bbeta2.zip:
     size: 3425204
+    size_str: 3 MiB
     url: https://db.universal-team.net/assets/files/colors_1_10bbeta2.zip
 icon: https://db.universal-team.net/assets/images/icons/colors.png
 layout: app

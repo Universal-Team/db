@@ -9,6 +9,8 @@ description: DS(i) mode screen filters and patches
 download_page: https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/
 downloads:
   TWPatch.cia:
+    size: 599488
+    size_str: 585 KiB
     url: https://puu.sh/HiJbF/deabae7f16.cia
 format_downloads: true
 icon: https://db.universal-team.net/assets/images/icons/twpatch.png

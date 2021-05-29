@@ -10,6 +10,8 @@ description: NesDS1.3c
 download_page: https://github.com/DS-Homebrew/NesDS/tree/master/release
 downloads:
   nesDS.nds:
+    size: 463872
+    size_str: 453 KiB
     url: https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/release/nesDS.nds
 github: DS-Homebrew/NesDS
 icon: https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/icon.bmp

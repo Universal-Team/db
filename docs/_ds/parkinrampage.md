@@ -10,7 +10,8 @@ description: A classic puzzle game. Your goal is to move all cars out of the way
 download_page: https://github.com/DesperateProgrammer/ParkingRampage
 downloads:
   ParkingRampage.nds:
-    size: 604672
+    size: 605696
+    size_str: 591 KiB
     url: https://github.com/DesperateProgrammer/ParkingRampage/raw/main/ParkingRampage.nds
 github: DesperateProgrammer/ParkingRampage
 icon: https://raw.githubusercontent.com/DesperateProgrammer/ParkingRampage/main/icon.bmp

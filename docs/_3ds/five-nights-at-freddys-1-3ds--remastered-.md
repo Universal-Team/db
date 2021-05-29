@@ -7,6 +7,8 @@ description: Five Nights at Freddy's port to the Nintendo 3DS
 download_page: https://gamejolt.com/games/fnaf13dsremastered/576273
 downloads:
   fnaf-1-remastered-0.3.1-pre1.cia:
+    size: 48980928
+    size_str: 46 MiB
     url: https://www.dropbox.com/s/jp60vmntqmtrz3r/fnaf-1-remastered-0.3.1-pre1.cia?dl=1
 image: https://db.universal-team.net/assets/images/images/five-nights-at-freddys-1-3ds--remastered-.png
 image_length: 4746

@@ -9,8 +9,12 @@ description: minecraft adaptation for nintendo DS
 download_page: https://web.archive.org/web/20160818124931/http://smealum.net/dscraft/
 downloads:
   DScraft_310811.7z:
+    size: 4986209
+    size_str: 4 MiB
     url: https://db.universal-team.net/assets/files/DScraft_310811.7z
   DScraft_fat_310811.7z:
+    size: 4989338
+    size_str: 4 MiB
     url: https://db.universal-team.net/assets/files/DScraft_fat_310811.7z
 github: smealum/dscraft
 icon: https://db.universal-team.net/assets/images/icons/dscraft.png
