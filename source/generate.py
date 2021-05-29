@@ -402,6 +402,19 @@ for app in source:
 		if "update_notes_md" in app and "update_notes" not in app:
 			app["update_notes"] = requests.post("https://api.github.com/markdown", headers = header if header else None, json = {"text": app["update_notes_md"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
 
+		# Get missing download sizes
+		if "downloads" in app:
+			for download in app["downloads"]:
+				if not "size" in app["downloads"][download]:
+					if app["downloads"][download]["url"][:30] == "https://db.universal-team.net/":
+						app["downloads"][download]["size"] = os.path.getsize(f"../docs/{app['downloads'][download]['url'][30:]}")
+						app["downloads"][download]["size_str"] = byteCount(app["downloads"][download]["size"])
+					else:
+						r = requests.head(app["downloads"][download]["url"], allow_redirects=True)
+						if r.status_code == 200:
+							app["downloads"][download]["size"] = int(r.headers["Content-Length"])
+							app["downloads"][download]["size_str"] = byteCount(app["downloads"][download]["size"])
+
 	if "title" in app:
 		print(webName(app["title"]))
 	print("=" * 80)
@@ -423,19 +436,6 @@ for app in source:
 			r = requests.head(app["image"], allow_redirects=True)
 			if r.status_code == 200:
 				app["image_length"] = int(r.headers["Content-Length"])
-
-	# Get missing download sizes
-	if "downloads" in app:
-		for download in app["downloads"]:
-			if not "size" in app["downloads"][download]:
-				if app["downloads"][download]["url"][:30] == "https://db.universal-team.net/":
-					app["downloads"][download]["size"] = os.path.getsize(f"../docs/{app['downloads'][download]['url'][30:]}")
-					app["downloads"][download]["size_str"] = byteCount(app["downloads"][download]["size"])
-				else:
-					r = requests.head(app["downloads"][download]["url"], allow_redirects=True)
-					if r.status_code == 200:
-						app["downloads"][download]["size"] = int(r.headers["Content-Length"])
-						app["downloads"][download]["size_str"] = byteCount(app["downloads"][download]["size"])
 
 	# Make icon for UniStore and QR
 	img = None
