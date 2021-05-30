@@ -19,7 +19,7 @@ layout: compress
 					{{ app.url | absolute_url | remove: ".html" }}
 				</link>
 				<description>
-					&lt;p&gt;{{ app.version }}{% if app.version_title %} - {{ app.version_title }}{% endif %}&lt;/p&gt;
+					&lt;h1&gt;{{ app.version }}{% if app.version_title %} - {{ app.version_title }}{% endif %}&lt;/h1&gt;
 					{% if app.update_notes %}
 						&lt;hr /&gt;
 						{{ app.update_notes | escape }}
