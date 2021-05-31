@@ -5603,13 +5603,6 @@
 		}
 	},
 	{
-		"github": "Slattz/NLTK",
-		"systems": ["3DS"],
-		"categories": ["utility", "save-tool"],
-		"image": "https://raw.githubusercontent.com/Slattz/NLTK/master/assets/meta/banner.png",
-		"icon": "https://raw.githubusercontent.com/Slattz/NLTK/master/assets/meta/icon.png"
-	},
-	{
 		"github": "dragos240/TownManager",
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
