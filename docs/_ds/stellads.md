@@ -9,17 +9,17 @@ description: Atari 2600 emulator for DS (original code by AlekMaul)
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1082880
+    size: 1081856
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.3/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.3a/StellaDS.nds
   compatibility.txt:
-    size: 25690
-    size_str: 25 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.3/compatibility.txt
+    size: 25584
+    size_str: 24 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.3a/compatibility.txt
   readme.txt:
-    size: 10919
+    size: 11050
     size_str: 10 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.3/readme.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.3a/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -31,11 +31,11 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p>Version 2.3<br>
+update_notes: '<p>Version 2.3a<br>
 
-  And another round of streamline/speed improvements across the board on the more
-  stubborn games. Just about everything is running at or near full speed on the DSi!</p>'
-updated: '2021-05-30T13:06:50Z'
-version: '2.3'
-version_title: Version 2.3
+  Fixed crash when you try to select a new game to play and then press ''B'' to cancel
+  out... sorry about that!</p>'
+updated: '2021-05-30T21:09:18Z'
+version: 2.3a
+version_title: Version 2.3a
 ---
