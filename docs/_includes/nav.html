@@ -11,7 +11,7 @@
 				{% for item in site.data.nav %}
 					{% if item.url %}
 						<li class="nav-item">
-							<a class="nav-link {% if item.title == page.title %} active {% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+							<a class="nav-link {% if item.title == page.title %} active {% endif %}" href="{{ item.url }}" accesskey="h">{{ item.title }}</a>
 						</li>
 					{% endif %}
 					{% if item.items %}
@@ -20,17 +20,17 @@
 								{% for entry in item.items %}
 									{% if entry.page_title == page.title %} active {% endif %}
 								{% endfor %}
-							dropdown-toggle" href="#" id="navbar-dropdown-menu-link-{{ item.title }}" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.title }}</a>
+							dropdown-toggle" href="#" id="navbar-dropdown-menu-link-{{ item.title }}" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" {% if entry.key %}accesskey="{{ item.key }}"{% endif %}>{{ item.title }}</a>
 							<div class="dropdown-menu hover-content" aria-labelledby="navbar-dropdown-menu-link-{{ item.title }}">
 								{% for entry in item.items %}
-									<a class="dropdown-item{% if entry.page_title == page.title %} active {% endif %}" href="{{ entry.url }}">{{ entry.title }}</a>
+									<a class="dropdown-item{% if entry.page_title == page.title %} active {% endif %}" href="{{ entry.url }}" {% if entry.key %}accesskey="{{ entry.key }}"{% endif %}>{{ entry.title }}</a>
 								{% endfor %}
 							</div>
 						</li>
 					{% endif %}
 				{% endfor %}
 				<li class="nav-item">
-					<a class="nav-link" href="https://github.com/{{ page.repo | default: site.repo }}">Source</a>
+					<a class="nav-link" href="https://github.com/{{ page.repo | default: site.repo }}" accesskey="s">Source</a>
 				</li>
 			</ul>
 		</div>

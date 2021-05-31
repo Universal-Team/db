@@ -9,7 +9,8 @@
       {
         "title": "All",
         "page_title": "3DS",
-        "url": "/3ds"
+        "url": "/3ds",
+        "key": "3"
       },
       {
         "title": "Emulators",
@@ -44,7 +45,8 @@
       {
         "title": "All",
         "page_title": "DS",
-        "url": "/ds"
+        "url": "/ds",
+        "key": "d"
       },
       {
         "title": "Emulators & Hypervisors",
