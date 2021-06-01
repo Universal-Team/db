@@ -41,9 +41,9 @@ update_notes: "<ul>\n<li><strong>Title ID\u3092\u5909\u66F4(v1.0\u3092\u524A\u96
   >README</a>\u3092\u8AAD\u3093\u3067\u304F\u3060\u3055\u3044\u3002<br>\nPlease read\
   \ the <a href=\"https://github.com/togetg/TJAPlayer_for_3DS/blob/master/README_en.md\"\
   >README</a> before starting.<br>\n<a target=\"_blank\" rel=\"noopener noreferrer\"\
-  \ href=\"https://user-images.githubusercontent.com/18244518/73936029-3fba1a00-4925-11ea-9625-025318cbc5e0.png\"\
-  ><img src=\"https://user-images.githubusercontent.com/18244518/73936029-3fba1a00-4925-11ea-9625-025318cbc5e0.png\"\
-  \ alt=\"v1.01\" style=\"max-width:100%;\"></a></p>"
+  \ href=\"https://user-images.githubusercontent.com/18244518/120348611-4c435c80-c338-11eb-863b-fb069613a5a3.png\"\
+  ><img src=\"https://user-images.githubusercontent.com/18244518/120348611-4c435c80-c338-11eb-863b-fb069613a5a3.png\"\
+  \ alt=\"1.01\" style=\"max-width:100%;\"></a></p>"
 updated: '2018-10-29T09:52:52Z'
 version: v1.01
 version_title: v1.01 TJAPlayer for 3DS

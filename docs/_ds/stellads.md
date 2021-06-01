@@ -9,17 +9,17 @@ description: Atari 2600 emulator for DS (original code by AlekMaul)
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1077248
+    size: 1081856
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.4/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.5/StellaDS.nds
   compatibility.txt:
     size: 25466
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.4/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.5/compatibility.txt
   readme.txt:
-    size: 11824
+    size: 12089
     size_str: 11 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.4/readme.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.5/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -31,34 +31,18 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p>V2.4 : 31-May-2021 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p>V2.5 : 1-Jun-2021 by Dave Bernazzani (wavemotion)</p>
 
-  <p>A bit more juice squeezed out of the TIA. Added cart-specific options<br>
+  <ul>
 
-  to bypass VerticalBlank zero (not all games need that memory cleared if<br>
+  <li>Restored PAL palette selection when choosing a game.</li>
 
-  we are dealing with a static screen... and this buys us CPU cycles!) and,<br>
+  <li>Eeked out 1 or 2 FPS on Starpath Supercharger games by limiting the number<br>
 
-  somewhat more dangerously, HorizontalBlank clearing can be disabled for<br>
+  of vertical scanlines we will show. Elevators Amiss is now close to 54FPS!</li>
 
-  more speed. Only a few of the more stubborn games utilize these!<br>
-
-  Removed PAL/NTSC option... only NTSC is supported (all games were released<br>
-
-  in NTSC except a dozen PAL exclusives which have long since been converted<br>
-
-  to run on NTSC - Search Atariage).<br>
-
-  General cleanup and minor memory/code optimizations to get the most out<br>
-
-  of the emulator.<br>
-
-  Added 2 more lines of resolution before the top of the screen and 5 more<br>
-
-  below... this allows the games that utilize underscan and/or significant<br>
-
-  overscan to show properly.</p>'
-updated: '2021-05-31T23:21:06Z'
-version: '2.4'
-version_title: Version 2.4
+  </ul>'
+updated: '2021-06-01T16:50:20Z'
+version: '2.5'
+version_title: Version 2.5
 ---
