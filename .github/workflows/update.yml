@@ -23,6 +23,9 @@ jobs:
         sudo apt-get install python3-pip -y
         pip3 install -r source/requirements.txt
 
+    - name: Delete old pages and QRs
+      run: rm -rf docs/_3ds/* docs/_ds/* docs/assets/images/qr/*.png docs/assets/images/qr/nightly/*.png docs/assets/images/qr/prerelease/*.png
+
     - name: Run generate.py
       run: |
         export PATH=$PATH:/opt/devkitpro/tools/bin

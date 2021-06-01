@@ -473,86 +473,84 @@ for app in source:
 					app["color"] = "#{:02x}{:02x}{:02x}".format(color[0], color[1], color[2])
 
 	# Output website page
-	if not priorityOnlyMode or ("priority" in app and app["priority"]) or not foundExisting:
-		if "downloads" in app:
-			for item in app["downloads"]:
-				if item[item.rfind(".") + 1:] == "cia":
-					qr = qrcode.make(app["downloads"][item]["url"], box_size = 5, version = 5).convert("RGBA")
-					if img:
-						draw = ImageDraw.Draw(qr)
-						draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 10 if "version" in app else 4)), fill = (255, 255, 255))
-						qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask = img if img.mode == "RGBA" else None)
-						if "version" in app:
-							draw.text(((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2 + img.height), app["version"][:img.width//6], (0, 0, 0))
-					qr.save(os.path.join("..", "docs", "assets", "images", "qr", f"{webName(item)}.png"))
-					if not "qr" in app:
-						app["qr"] = {}
-					app["qr"][item] = f"https://db.universal-team.net/assets/images/qr/{webName(item)}.png"
+	if "downloads" in app:
+		for item in app["downloads"]:
+			if item[item.rfind(".") + 1:] == "cia":
+				qr = qrcode.make(app["downloads"][item]["url"], box_size = 5, version = 5).convert("RGBA")
+				if img:
+					draw = ImageDraw.Draw(qr)
+					draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 10 if "version" in app else 4)), fill = (255, 255, 255))
+					qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask = img if img.mode == "RGBA" else None)
+					if "version" in app:
+						draw.text(((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2 + img.height), app["version"][:img.width//6], (0, 0, 0))
+				qr.save(os.path.join("..", "docs", "assets", "images", "qr", f"{webName(item)}.png"))
+				if not "qr" in app:
+					app["qr"] = {}
+				app["qr"][item] = f"https://db.universal-team.net/assets/images/qr/{webName(item)}.png"
 
-		if "prerelease" in app:
-			for item in app["prerelease"]["downloads"]:
-				if item[item.rfind(".") + 1:] == "cia":
-					qr = qrcode.make(app["prerelease"]["downloads"][item]["url"], box_size = 5, version = 5).convert("RGBA")
-					data = numpy.array(qr)
-					r, g, b, a = data.T
-					black = (r == 0) & (g == 0) & (b == 0)
-					data[...][black.T] = (0xF6, 0x6A, 0x0A, 0xFF)
-					qr = Image.fromarray(data)
-					if img:
-						draw = ImageDraw.Draw(qr)
-						draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 10 if "version" in app["prerelease"] else 4)), fill = (255, 255, 255))
-						qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask = img if img.mode == "RGBA" else None)
-						if "version" in app["prerelease"]:
-							draw.text(((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2 + img.height), app["prerelease"]["version"][:img.width//6], (0xF6, 0x6A, 0x0A))
-					qr.save(os.path.join("..", "docs", "assets", "images", "qr", "prerelease", f"{webName(item)}.png"))
-					if not "qr" in app["prerelease"]:
-						app["prerelease"]["qr"] = {}
-					app["prerelease"]["qr"][item] = f"https://db.universal-team.net/assets/images/qr/prerelease/{webName(item)}.png"
+	if "prerelease" in app:
+		for item in app["prerelease"]["downloads"]:
+			if item[item.rfind(".") + 1:] == "cia":
+				qr = qrcode.make(app["prerelease"]["downloads"][item]["url"], box_size = 5, version = 5).convert("RGBA")
+				data = numpy.array(qr)
+				r, g, b, a = data.T
+				black = (r == 0) & (g == 0) & (b == 0)
+				data[...][black.T] = (0xF6, 0x6A, 0x0A, 0xFF)
+				qr = Image.fromarray(data)
+				if img:
+					draw = ImageDraw.Draw(qr)
+					draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 10 if "version" in app["prerelease"] else 4)), fill = (255, 255, 255))
+					qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask = img if img.mode == "RGBA" else None)
+					if "version" in app["prerelease"]:
+						draw.text(((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2 + img.height), app["prerelease"]["version"][:img.width//6], (0xF6, 0x6A, 0x0A))
+				qr.save(os.path.join("..", "docs", "assets", "images", "qr", "prerelease", f"{webName(item)}.png"))
+				if not "qr" in app["prerelease"]:
+					app["prerelease"]["qr"] = {}
+				app["prerelease"]["qr"][item] = f"https://db.universal-team.net/assets/images/qr/prerelease/{webName(item)}.png"
 
-		if "nightly" in app:
-			for item in app["nightly"]["downloads"]:
-				if item[item.rfind(".") + 1:] == "cia":
-					qr = qrcode.make(app["nightly"]["downloads"][item]["url"], box_size = 5, version = 5).convert("RGBA")
-					data = numpy.array(qr)
-					r, g, b, a = data.T
-					black = (r == 0) & (g == 0) & (b == 0)
-					data[...][black.T] = (0, 0, 0xC0, 0xFF)
-					qr = Image.fromarray(data)
-					if img:
-						draw = ImageDraw.Draw(qr)
-						draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 4)), fill = (255, 255, 255))
-						qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask = img if img.mode == "RGBA" else None)
-					qr.save(os.path.join("..", "docs", "assets", "images", "qr", "nightly", f"{webName(item)}.png"))
-					if not "qr" in app["nightly"]:
-						app["nightly"]["qr"] = {}
-					app["nightly"]["qr"][item] = f"https://db.universal-team.net/assets/images/qr/nightly/{webName(item)}.png"
+	if "nightly" in app:
+		for item in app["nightly"]["downloads"]:
+			if item[item.rfind(".") + 1:] == "cia":
+				qr = qrcode.make(app["nightly"]["downloads"][item]["url"], box_size = 5, version = 5).convert("RGBA")
+				data = numpy.array(qr)
+				r, g, b, a = data.T
+				black = (r == 0) & (g == 0) & (b == 0)
+				data[...][black.T] = (0, 0, 0xC0, 0xFF)
+				qr = Image.fromarray(data)
+				if img:
+					draw = ImageDraw.Draw(qr)
+					draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 4)), fill = (255, 255, 255))
+					qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask = img if img.mode == "RGBA" else None)
+				qr.save(os.path.join("..", "docs", "assets", "images", "qr", "nightly", f"{webName(item)}.png"))
+				if not "qr" in app["nightly"]:
+					app["nightly"]["qr"] = {}
+				app["nightly"]["qr"][item] = f"https://db.universal-team.net/assets/images/qr/nightly/{webName(item)}.png"
 
 	# Add to output json
 	output.append(app)
 
 	# Website file
-	if not priorityOnlyMode or ("priority" in app and app["priority"]) or not foundExisting:
-		web = app.copy()
-		web["layout"] = "app"
-		# long description is put as the content
-		if "long_description" in web:
-			web.pop("long_description")
-		# Remove large things that aren't needed
-		if "update_notes_md" in web:
-			web.pop("update_notes_md")
-		if "scripts" in web:
-			web.pop("scripts")
-		# Add defaults where absolutely needed
-		if not "systems" in web:
-			web["systems"] = ["3DS"] # default to 3DS
-		if not "updated" in web:
-			web["updated"] = "---"
-		for system in web["systems"]:
-			if "title" in web:
-				with open(os.path.join("..", "docs", f"_{webName(system)}", f"{webName(web['title'])}.md"), "w", encoding="utf8") as file:
-					file.write(f"---\n{yaml.dump(web)}---\n")
-					if "long_description" in app:
-						file.write(app["long_description"])
+	web = app.copy()
+	web["layout"] = "app"
+	# long description is put as the content
+	if "long_description" in web:
+		web.pop("long_description")
+	# Remove large things that aren't needed
+	if "update_notes_md" in web:
+		web.pop("update_notes_md")
+	if "scripts" in web:
+		web.pop("scripts")
+	# Add defaults where absolutely needed
+	if not "systems" in web:
+		web["systems"] = ["3DS"] # default to 3DS
+	if not "updated" in web:
+		web["updated"] = "---"
+	for system in web["systems"]:
+		if "title" in web:
+			with open(os.path.join("..", "docs", f"_{webName(system)}", f"{webName(web['title'])}.md"), "w", encoding="utf8") as file:
+				file.write(f"---\n{yaml.dump(web)}---\n")
+				if "long_description" in app:
+					file.write(app["long_description"])
 
 	if not "unistore_exclude" in app or app["unistore_exclude"] == False:
 		# Move links to end to be more readable in U-U
