@@ -411,7 +411,7 @@ for app in source:
 						app["downloads"][download]["size_str"] = byteCount(app["downloads"][download]["size"])
 					else:
 						r = requests.head(app["downloads"][download]["url"], allow_redirects=True)
-						if r.status_code == 200:
+						if r.status_code == 200 and "Content-Length" in r.headers:
 							app["downloads"][download]["size"] = int(r.headers["Content-Length"])
 							app["downloads"][download]["size_str"] = byteCount(app["downloads"][download]["size"])
 
