@@ -9,7 +9,7 @@ description: Atari 2600 emulator for DS (original code by AlekMaul)
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1081856
+    size: 1081344
     size_str: 1 MiB
     url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.5/StellaDS.nds
   compatibility.txt:
@@ -33,16 +33,12 @@ systems:
 title: StellaDS
 update_notes: '<p>V2.5 : 1-Jun-2021 by Dave Bernazzani (wavemotion)</p>
 
-  <ul>
+  <p>Restored PAL palette selection when choosing a game.<br>
 
-  <li>Restored PAL palette selection when choosing a game.</li>
+  Eeked out 1 or 2 FPS on Starpath Supercharger games by limiting the number<br>
 
-  <li>Eeked out 1 or 2 FPS on Starpath Supercharger games by limiting the number<br>
-
-  of vertical scanlines we will show. Elevators Amiss is now close to 54FPS!</li>
-
-  </ul>'
-updated: '2021-06-01T16:50:20Z'
+  of vertical scanlines we will show. Elevators Amiss is now close to 54FPS!</p>'
+updated: '2021-06-01T21:46:49Z'
 version: '2.5'
 version_title: Version 2.5
 ---
