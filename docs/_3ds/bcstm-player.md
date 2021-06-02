@@ -23,6 +23,12 @@ image_length: 14584
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+prerelease:
+  download_page: https://github.com/NPI-D7/BCSTM-Player/releases/tag/v%24CURRENT_DATE
+  downloads: {}
+  updated: '2021-06-02T17:24:28Z'
+  version: v$CURRENT_DATE
+  version_title: Release refs/heads/bak1
 qr:
   BCSTM-Player.cia: https://db.universal-team.net/assets/images/qr/bcstm-player.cia.png
 screenshots:

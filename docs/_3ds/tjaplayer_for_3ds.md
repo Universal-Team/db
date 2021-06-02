@@ -17,8 +17,8 @@ downloads:
     size_str: 999 KiB
     url: https://github.com/togetg/TJAPlayer_for_3DS/releases/download/v1.01/TJAPlayer_for_3DS.cia
 github: togetg/TJAPlayer_for_3DS
-icon: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resources/icon.png
-image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resources/banner.png
+icon: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/icon.png
+image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
 qr:
