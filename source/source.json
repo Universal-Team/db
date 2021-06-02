@@ -1531,8 +1531,8 @@
 		"github": "togetg/TJAPlayer_for_3DS",
 		"systems": ["3DS"],
 		"categories": ["utility"],
-		"image": "https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resources/icon.png"
+		"image": "https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png",
+		"icon": "https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/icon.png"
 	},
 	{
 		"github": "noirscape/dses",
