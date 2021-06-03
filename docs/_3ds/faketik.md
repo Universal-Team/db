@@ -3,7 +3,7 @@ author: Ian Burgwin
 avatar: https://avatars.githubusercontent.com/u/590576?v=4
 categories:
 - utility
-color: '#d99ba5'
+color: '#9999c5'
 created: '2018-09-05T07:19:01Z'
 description: Generates fake tickets to make missing titles re-appear on 3DS.
 download_page: https://github.com/ihaveamac/faketik/releases
@@ -14,7 +14,7 @@ downloads:
     url: https://github.com/ihaveamac/faketik/releases/download/v1.1.2/faketik.3dsx
 github: ihaveamac/faketik
 image: https://avatars.githubusercontent.com/u/590576?v=4
-image_length: 157232
+image_length: 218158
 layout: app
 license: mit
 license_name: MIT License
