@@ -9,17 +9,17 @@ description: Atari 2600 emulator for DS (original code by AlekMaul)
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1081344
+    size: 1082368
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.5/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.6/StellaDS.nds
   compatibility.txt:
     size: 25466
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.5/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.6/compatibility.txt
   readme.txt:
-    size: 12089
-    size_str: 11 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.5/readme.txt
+    size: 12325
+    size_str: 12 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.6/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -31,14 +31,18 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p>V2.5 : 1-Jun-2021 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p>V2.6 : 3-Jun-2021 by Dave Bernazzani (wavemotion)</p>
 
-  <p>Restored PAL palette selection when choosing a game.<br>
+  <ul>
 
-  Eeked out 1 or 2 FPS on Starpath Supercharger games by limiting the number<br>
+  <li>Fixed ability to scale/move screen with Paddle games.</li>
 
-  of vertical scanlines we will show. Elevators Amiss is now close to 54FPS!</p>'
-updated: '2021-06-01T21:46:49Z'
-version: '2.5'
-version_title: Version 2.5
+  <li>Tweaked more than 100 game screen offsets to better center/show them by default.</li>
+
+  <li>Minor cleanups to the code and memory.</li>
+
+  </ul>'
+updated: '2021-06-03T19:55:47Z'
+version: '2.6'
+version_title: Version 2.6
 ---
