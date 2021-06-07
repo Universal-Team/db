@@ -83,7 +83,9 @@ update_notes: '<p>This is the fourth public release of rehid.<br>
   app.</strong></p>
 
   <p>You can use the gbatemp <a href="https://gbatemp.net/threads/wip-rehid-hid-module-rewrite-for-easy-button-remapping-and-more.585387/"
-  rel="nofollow">thread</a> to ask for support.</p>'
+  rel="nofollow">thread</a> to ask for support.</p>
+
+  <p>Some premade configs can be found here:- <a href="https://github.com/Nanashi13/Rehid-configs-files-3DS">https://github.com/Nanashi13/Rehid-configs-files-3DS</a></p>'
 updated: '2021-06-07T07:03:36Z'
 version: v3.0
 version_title: v3.0 Fourth Release
