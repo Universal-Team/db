@@ -9,13 +9,13 @@ description: HID module rewrite(button remapping and more)
 download_page: https://github.com/hax0kartik/rehid/releases
 downloads:
   0004013000001D02.zip:
-    size: 49226
-    size_str: 48 KiB
-    url: https://github.com/hax0kartik/rehid/releases/download/v2.1/0004013000001D02.zip
+    size: 51060
+    size_str: 49 KiB
+    url: https://github.com/hax0kartik/rehid/releases/download/v3.0/0004013000001D02.zip
   rehidhelper.3dsx:
-    size: 1425112
+    size: 1425380
     size_str: 1 MiB
-    url: https://github.com/hax0kartik/rehid/releases/download/v2.1/rehidhelper.3dsx
+    url: https://github.com/hax0kartik/rehid/releases/download/v3.0/rehidhelper.3dsx
 github: hax0kartik/rehid
 image: https://avatars.githubusercontent.com/u/16360444?v=4
 image_length: 214969
@@ -24,10 +24,58 @@ source: https://github.com/hax0kartik/rehid
 systems:
 - 3DS
 title: rehid
-update_notes: '<p>This is the third public release, fixing the issue where gyros/motion
-  controls did not work properly for some people.<br>
+update_notes: '<p>This is the fourth public release of rehid.<br>
 
-  You can update using the rehidhelper app</p>
+  You can update using rehidhelper app.</p>
+
+  <p>The following list of changes has been made:-</p>
+
+  <ul>
+
+  <li>
+
+  <p>You can now use luma''s input redirection with rehid.</p>
+
+  <ul>
+
+  <li>With this there is no real disadvantage of using rehid over stock hid!</li>
+
+  </ul>
+
+  </li>
+
+  <li>
+
+  <p>Fix touch screen bounds.</p>
+
+  <ul>
+
+  <li>This was being caused as rehid did not respect touchscreen calibration.</li>
+
+  </ul>
+
+  </li>
+
+  <li>
+
+  <p>You can now also do TOUCH&gt;KEY binding.</p>
+
+  </li>
+
+  <li>
+
+  <p>Fix a bug where rehidhelper created folders with wrong titleid.</p>
+
+  </li>
+
+  <li>
+
+  <p>For people with broken home menu button, you can now remap your home button to
+  a key combo.</p>
+
+  </li>
+
+  </ul>
 
   <p><strong>If you''re a newcomer, I personally suggest you install rehid through
   the rehidhelper.3dsx app, after which you should head to the <a href="https://mikahjc.github.io/3dsRemapBuilder/config"
@@ -35,12 +83,8 @@ update_notes: '<p>This is the third public release, fixing the issue where gyros
   app.</strong></p>
 
   <p>You can use the gbatemp <a href="https://gbatemp.net/threads/wip-rehid-hid-module-rewrite-for-easy-button-remapping-and-more.585387/"
-  rel="nofollow">thread</a> to ask for support.</p>
-
-  <p>If you like this project and would like to show some monetary support, you can
-  <a href="https://www.paypal.com/paypalme/preetiagarwala?locale.x=en_GB" rel="nofollow">paypal</a>
-  me!</p>'
-updated: '2021-05-12T10:10:10Z'
-version: v2.1
-version_title: v2.1 Third Release
+  rel="nofollow">thread</a> to ask for support.</p>'
+updated: '2021-06-07T07:03:36Z'
+version: v3.0
+version_title: v3.0 Fourth Release
 ---
