@@ -1,9 +1,11 @@
 function loadTheme() {
+	let themeCSS = document.getElementById("themeCSS");
 	if(!localStorage.theme || localStorage.theme == "default") {
-		document.getElementById("themeCSS")?.remove();
+		if(themeCSS)
+			themeCSS.remove();
 	} else {
-		if(document.getElementById("themeCSS")) {
-			document.getElementById("themeCSS").href = `/assets/css/${localStorage.theme}.css`;
+		if(themeCSS) {
+			themeCSS.href = `/assets/css/${localStorage.theme}.css`;
 		} else {
 			let l = document.createElement("link");
 			l.rel = "stylesheet";
@@ -15,11 +17,13 @@ function loadTheme() {
 			document.head.appendChild(l);
 		}
 	}
-
 }
 
 function setTheme(theme) {
-	localStorage.theme = theme;
+	if(theme == "default")
+		delete localStorage.theme;
+	else
+		localStorage.theme = theme;
 	loadTheme();
 }
 
