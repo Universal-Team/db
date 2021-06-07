@@ -13,18 +13,15 @@
 						<li class="nav-item">
 							<a class="nav-link {% if item.title == page.title %} active {% endif %}" href="{{ item.url }}" accesskey="h">{{ item.title }}</a>
 						</li>
-					{% endif %}
-					{% if item.items %}
+					{% elsif item.items %}
 						<li class="nav-item dropdown">
-							<a class="nav-link
-								{% for entry in item.items %}
-									{% if entry.page_title == page.title %} active {% endif %}
-								{% endfor %}
-							dropdown-toggle" href="#" id="navbar-dropdown-menu-link-{{ item.title }}" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" {% if entry.key %}accesskey="{{ item.key }}"{% endif %}>{{ item.title }}</a>
+							<a class="nav-link {% for entry in item.items %}{% if entry.page_title == page.title %}active{% endif %}{% endfor %} dropdown-toggle" href="#" id="navbar-dropdown-menu-link-{{ item.title }}" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" {% if entry.key %}accesskey="{{ item.key }}"{% endif %}>{{ item.title }}</a>
 							<div class="dropdown-menu hover-content" aria-labelledby="navbar-dropdown-menu-link-{{ item.title }}">
-								{% for entry in item.items %}
-									<a class="dropdown-item{% if entry.page_title == page.title %} active {% endif %}" href="{{ entry.url }}" {% if entry.key %}accesskey="{{ entry.key }}"{% endif %}>{{ entry.title }}</a>
-								{% endfor %}
+								<ul class="list-unstyled">
+									{% for entry in item.items %}
+										<li><a class="dropdown-item{% if entry.page_title == page.title %} active {% endif %}" href="{{ entry.url }}" {% if entry.key %}accesskey="{{ entry.key }}"{% endif %}>{{ entry.title }}</a></li>
+									{% endfor %}
+								</ul>
 							</div>
 						</li>
 					{% endif %}

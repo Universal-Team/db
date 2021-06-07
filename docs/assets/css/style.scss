@@ -48,6 +48,10 @@ code, tt {
 	white-space: nowrap;
 }
 
+li > p {
+	margin-bottom: 0;
+}
+
 // .a is for making other things look like <a>s
 a, .a {
 	text-decoration: underline;
