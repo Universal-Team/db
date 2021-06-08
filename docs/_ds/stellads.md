@@ -5,7 +5,9 @@ categories:
 - emulator
 color: '#969188'
 created: '2020-11-25T18:16:27Z'
-description: Atari 2600 emulator for DS (original code by AlekMaul)
+description: Atari 2600 emulator for DS (original code by AlekMaul). This is the PHOENIX
+  EDITION which brings greater speed, compatibility and accuracy to the emulation
+  on the DSi
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
