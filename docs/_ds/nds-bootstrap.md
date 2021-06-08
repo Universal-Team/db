@@ -9,13 +9,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 325476
-    size_str: 317 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.41.0/nds-bootstrap.7z
+    size: 363214
+    size_str: 354 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.42.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 844434
-    size_str: 824 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.41.0/nds-bootstrap.zip
+    size: 883630
+    size_str: 862 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.42.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://raw.githubusercontent.com/DS-Homebrew/nds-bootstrap/master/retail/assets/icon.bmp
 image: https://i.imgur.com/BFIu7xX.png
@@ -33,30 +33,111 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: "<p>Instructions:</p>\n<ol>\n<li>Download the <code>.7z</code> file.</li>\n\
-  <li>Extract the nds-bootstrap <code>.nds</code> files, to <code>root:/_nds</code>.</li>\n\
-  <li>Extract the <code>.ver</code> file to <code>root:/_nds/TWiLightMenu</code>.</li>\n\
-  </ol>\n<p>Included in <a href=\"https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v20.3.0\"\
-  ><strong>TW</strong>i<strong>L</strong>ight Menu++ v20.3.0</a></p>\n<p><strong>What's\
-  \ new?</strong></p>\n<ul>\n<li>Cheats can now be used in B4DS mode!</li>\n<li>The\
-  \ L+R+DOWN+B button combo to exit a game has been re-added!</li>\n</ul>\n<p><strong>Improvements</strong></p>\n\
-  <ul>\n<li>Booting a game in DS\u207D\u2071\u207E mode is now slightly faster!</li>\n\
-  <li>(<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
-  /users/Epicpkmn11/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
-  link_type:self\" href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a> and various)\
-  \ Updated in-game menu translations.</li>\n<li>When soft-resetting a game in B4DS\
-  \ mode on DS\u207D\u2071\u207E or 3DS, the console now reboots instead of shutting\
-  \ down.</li>\n</ul>\n<p><strong>Bug fixes</strong></p>\n<ul>\n<li>Some game compatibility\
-  \ has been fixed! (ex. <em>Lunar Knights</em>, <em>Professor Layton</em>, <em>Inazuma\
-  \ Eleven</em>, <em>Big Bang Mini</em>, etc.)</li>\n<li>The card read DMA alternative\
-  \ (which caused random issues for some users) is no longer used, and has reverted\
-  \ back to the regular card read DMA method, while still a bit buggy, is less buggier\
-  \ than the alternative.</li>\n</ul>\n<p><strong>Regression</strong></p>\n<ul>\n\
-  <li>Due to the DMA alternative no longer being used, there will be a few lags and/or\
-  \ screen flickers returning in some games.</li>\n</ul>"
-updated: '2021-05-27T02:32:58Z'
-version: v0.41.0
-version_title: v0.41.0
+update_notes: '<p>Instructions:</p>
+
+  <ol>
+
+  <li>Download the <code>.7z</code> file.</li>
+
+  <li>Extract the nds-bootstrap <code>.nds</code> files, to <code>root:/_nds</code>.</li>
+
+  <li>Extract the <code>.ver</code> file to <code>root:/_nds/TWiLightMenu</code>.</li>
+
+  </ol>
+
+  <p>Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v20.4.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v20.4.0</a></p>
+
+  <p><strong>What''s new?</strong></p>
+
+  <ul>
+
+  <li><strong>B4DS mode:</strong> ROMs up to 8MB can now be loaded into the DS Memory
+  Expansion Pak for faster loading!
+
+  <ul>
+
+  <li>If an M3, G6, or SuperCard GBA flashcard containing 32MB of RAM is detected,
+  then the ROM size limit is 32MB.
+
+  <ul>
+
+  <li>You''ll need to launch the DS ROM via TWLMenu++ for this feature to work.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  </li>
+
+  <li><strong>B4DS mode:</strong> You can now press SELECT+Down to lower sound volume
+  range to half. Press SELECT+Up to revert back to normal.</li>
+
+  <li>You can now have DSiWare read TWLNAND contents (or just <code>photo</code> folder)
+  from the SD card.</li>
+
+  <li>Pre-set default settings are now implemented, if some aren''t detected in <code>sd:/_nds/nds-bootstrap.ini</code>.</li>
+
+  </ul>
+
+  <p><strong>Improvement</strong></p>
+
+  <ul>
+
+  <li>The main arm9 code (first run when nds-bootstrap is booted by .nds loaders)
+  has been recompiled as ARM code instead of THUMB, so boot speed should be improved
+  a bit.</li>
+
+  </ul>
+
+  <p><strong>Bug fixes</strong></p>
+
+  <ul>
+
+  <li>By correcting and adding the remaining device list entries, DSiWare titles that
+  read photos taken by the DSi or 3DS camera will now work properly (ex. <em>Hidden
+  Photo</em> (DSiWare version), <em>Sparkle Snapshots</em>, etc.).</li>
+
+  <li>Fixed nds-bootstrap exiting out, if running from a Slot-2 flashcard.</li>
+
+  <li>Fixed local WiFi being locked to 0 bars, so local multiplayer now works again.
+
+  <ul>
+
+  <li>As a result, WiFi should no longer crash the game or cause an error, if running
+  on DSi without Unlaunch.</li>
+
+  <li>Once again, this does not mean that cloneboot support is fixed. When it eventually
+  does get fixed, it''ll be stated in the changelog.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <p><strong>Bug fix &amp; Regression</strong></p>
+
+  <ul>
+
+  <li>The top &amp; bottom main screen options no longer work properly, with the game
+  once again changing where the main screen is set.
+
+  <ul>
+
+  <li>This is done to hopefully fix unexpected issues (such as corrupt graphics and/or
+  random freezes) when running DSi-Enhanced games in DSi mode.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>'
+updated: '2021-06-08T02:40:21Z'
+version: v0.42.0
+version_title: v0.42.0
 wiki: https://github.com/DS-Homebrew/nds-bootstrap/wiki
 ---
 nds-bootstrap is an open-source application that allows Nintendo DS/DSi ROMs and homebrew to be natively utilised rather than using an emulator. nds-bootstrap works on Nintendo DSi/3DS SD cards through CFW and on Nintendo DS through flashcarts.
