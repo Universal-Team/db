@@ -9,21 +9,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 34316608
-    size_str: 32 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.3.0/TWiLightMenu-3DS.7z
+    size: 36527276
+    size_str: 34 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.4.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 34330019
-    size_str: 32 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.3.0/TWiLightMenu-DSi.7z
+    size: 36541075
+    size_str: 34 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.4.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 46866163
-    size_str: 44 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.3.0/TWiLightMenu-Flashcard.7z
+    size: 49256875
+    size_str: 46 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.4.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 47060967
-    size_str: 44 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.3.0/TWiLightMenu.7z
+    size: 49448692
+    size_str: 47 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v20.4.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 image: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/logo.png
@@ -61,41 +61,36 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
 
   </ul>
 
-  <p>Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.41.0">nds-bootstrap
-  v0.41.0</a></p>
+  <p>Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.42.0">nds-bootstrap
+  v0.42.0</a></p>
 
   <p><strong>What''s new?</strong></p>
 
   <ul>
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/R-YaTian/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/R-YaTian">@R-YaTian</a>)
-  Added AP-fixes for revised versions of the ENG and CHN translations of <em>Fire
-  Emblem: Shin Monshou no Nazo Hikari to Kage no Eiyuu</em>.</li>
-
-  <li>Added AP-fix for <em>The Legend of Zelda: Spirit Tracks</em> (Europe) (Rev 1).</li>
-
-  <li><code>Card read DMA</code> is now turned off by default to prevent some issues
-  in nds-bootstrap.
+  <li><code>Card read DMA</code> has been reverted to being turned on by default,
+  due to unexpected issues.
 
   <ul>
 
-  <li>If you installed TWiLight Menu++ before this version released, please turn the
-  setting off manually, and only turn it on for the games that require the setting.</li>
+  <li>Additionally, a card read DMA blacklist for certain games has been implemented.</li>
 
   </ul>
 
   </li>
 
-  <li>Cheats can now be enabled for flashcard or DS Phat/lite users (w/ no SCFG access).
+  <li>The remastered version of the Nintendo DSi Shop music (by BlastoiseVeteran)
+  is now used!</li>
 
-  <ul>
+  <li>Added <code>Photo/TWLNAND Location</code> option for DSiWare booted by nds-bootstrap
+  to read said content from either the NAND or SD Card.</li>
 
-  <li>Only usable if <code>Use nds-bootstrap</code> is set to <code>Yes</code>.</li>
+  <li>The Atari 2600 and PC-Engine consoles have been added to the TWLMenu++ splash
+  screen!</li>
 
-  </ul>
-
-  </li>
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>)
+  Added Ace3DS+, Gateway Blue, and R4Li-clone autoboot files.</li>
 
   </ul>
 
@@ -113,16 +108,19 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
 
   <ul>
 
-  <li>Fixed Manual screen showing an "SD removed" error message when using touch functions.</li>
+  <li>The <code>Run in</code> setting is now <code>DS mode</code> by default for old
+  DS homebrew.</li>
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>)
-  Fixed known issues with R4 Ultra and Acekard 2(i) flashcard loaders.</li>
+  <li>Fixed ROM and settings menu not appearing, if Memory Expansion Pak is inserted.</li>
+
+  <li>TWLMenu++ now boots from GBA flashcards (such as SuperCard MiniSD) again.</li>
+
+  <li>Some minor bug fixes to the DS Classic Menu.</li>
 
   </ul>'
-updated: '2021-05-27T02:44:01Z'
-version: v20.3.0
-version_title: v20.3.0
+updated: '2021-06-08T03:05:10Z'
+version: v20.4.0
+version_title: v20.4.0
 wiki: https://wiki.ds-homebrew.com/twilightmenu
 ---
 TWiLight Menu++ is an open-source DSi Menu upgrade/replacement for the Nintendo DSi, the Nintendo 3DS, and Nintendo DS flashcards. It can launch Nintendo DS, SNES, NES, GameBoy (color), GameBoy Advance, Sega GameGear/Master System & Mega Drive/Genesis ROMs, as well as DSTWO plugins (if you use a DSTWO) and videos.
