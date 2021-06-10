@@ -13,7 +13,7 @@ downloads:
     size_str: 49 KiB
     url: https://github.com/hax0kartik/rehid/releases/download/v3.0/0004013000001D02.zip
   rehidhelper.3dsx:
-    size: 1425380
+    size: 1425620
     size_str: 1 MiB
     url: https://github.com/hax0kartik/rehid/releases/download/v3.0/rehidhelper.3dsx
 github: hax0kartik/rehid
