@@ -6546,5 +6546,82 @@
 				"url": "https://ctgp7.page.link/cia_downloader"
 			}
 		}
+	},
+	{
+		"github": "ApacheThunder/NTR_Launcher",
+		"title": "NTR Launcher",
+		"author": "Apache Thunder",
+		"systems": ["DS"],
+		"categories": ["utility"],
+		"icon": "https://raw.githubusercontent.com/ApacheThunder/NTR_Launcher/dsi/icon.bmp",
+		"long_description": "A DS Slot-1 Launcher. Original code from NitroHax but with cheat engine/menu stripped out. Useful for launching older DS flashcarts.\nCredits go to Chishm for NitroHax which this source is based from and WinterMute for dslink source/reset code.",
+		"scripts": {
+			"NTR_Launcher.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "ApacheThunder/NTR_Launcher",
+					"file": "NTR_Launcher_.*\\.zip",
+					"output": "/NTR_Launcher.zip",
+					"message": "Downloading NTR_Launcher zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/NTR_Launcher.zip",
+					"input": "NTR_Launcher.cia",
+					"output": "/NTR_Launcher.cia",
+					"message": "Extracting NTR_Launcher.cia..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/NTR_Launcher.zip",
+					"input": "NDS/NTR_Launcher.ini",
+					"output": "/NDS/NTR_Launcher.ini",
+					"message": "Extracting NTR_Launcher.ini..."
+				},
+				{
+					"type": "installCia",
+					"file": "/NTR_Launcher.cia",
+					"message": "Installing NTR_Launcher.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/NTR_Launcher.cia",
+					"message": "Deleting NTR_Launcher.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/NTR_Launcher.zip",
+					"message": "Deleting NTR_Launcher.zip..."
+				}
+			],
+			"NTR_Launcher.nds": [
+				{
+					"type": "downloadRelease",
+					"repo": "ApacheThunder/NTR_Launcher",
+					"file": "NTR_Launcher_.*\\.zip",
+					"output": "/NTR_Launcher.zip",
+					"message": "Downloading NTR_Launcher zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/NTR_Launcher.zip",
+					"input": "title/00030004/4b535450/content/00000000.app",
+					"output": "%NDS%/NTR_Launcher.nds",
+					"message": "Extracting NTR_Launcher.nds..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/NTR_Launcher.zip",
+					"input": "NDS/NTR_Launcher.ini",
+					"output": "/NDS/NTR_Launcher.ini",
+					"message": "Extracting NTR_Launcher.ini..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/NTR_Launcher.zip",
+					"message": "Deleting NTR_Launcher.zip..."
+				}
+			]
+		}
 	}
 ]
