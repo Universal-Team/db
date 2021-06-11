@@ -107,10 +107,10 @@ update_notes: '<h3>What''s New?</h3>
   <p>A fairly minor update this time, but we''ve got enough bug fixes and new little
   things that we figured it was a good time.</p>
 
-  <p>Find any bugs we missed, have suggestions, or need help? Make an issue or discussion
-  here on GitHub, normally we''d suggest joining our <a href="https://universal-team.net/discord"
-  rel="nofollow">Discord server</a> here too, but as of making this we''re not allowing
-  new members unless you know someone in it and have them let us know to let you in.</p>
+  <p>Find any bugs we missed, have suggestions, or need help? You can either make
+  an issue or discussion here on GitHub or join our <a href="https://universal-team.net/discord"
+  rel="nofollow">Discord server</a>. That''s right, we''re letting people in again
+  now!</p>
 
   <p>We hope you enjoy the new update!<br>
 
