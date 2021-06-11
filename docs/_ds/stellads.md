@@ -11,17 +11,17 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1081856
+    size: 1062912
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.7/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.8/StellaDS.nds
   compatibility.txt:
-    size: 25428
+    size: 25415
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.7/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.8/compatibility.txt
   readme.txt:
-    size: 12515
+    size: 12800
     size_str: 12 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.7/readme.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.8/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -33,16 +33,18 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p>V2.7 : 5-Jun-2021 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p>V2.8 : 11-Jun-2021 by Dave Bernazzani (wavemotion)</p>
 
   <ul>
 
-  <li>A few more games added to the compatibility list.</li>
+  <li>A couple dozen micro-tweaks to the sound driver to squeeze out a bit more<br>
 
-  <li>A minor optimization for fetching PC contents - yielding 1 or 2FPS in many games.</li>
+  performance. Elevators Amiss is now running at 60FPS! All of the Starpath<br>
+
+  Supercharger games are running in the high 50s and many are at 60FPS.</li>
 
   </ul>'
-updated: '2021-06-05T13:19:50Z'
-version: '2.7'
-version_title: Version 2.7
+updated: '2021-06-11T11:50:46Z'
+version: '2.8'
+version_title: Version 2.8
 ---
