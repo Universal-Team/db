@@ -23,6 +23,17 @@ image_length: 17026
 layout: app
 qr:
   TJAPlayer_for_3DS.cia: https://db.universal-team.net/assets/images/qr/tjaplayer_for_3ds.cia.png
+screenshots:
+- description: '1'
+  url: https://db.universal-team.net/assets/images/screenshots/tjaplayer_for_3ds/1.png
+- description: '2'
+  url: https://db.universal-team.net/assets/images/screenshots/tjaplayer_for_3ds/2.png
+- description: '3'
+  url: https://db.universal-team.net/assets/images/screenshots/tjaplayer_for_3ds/3.png
+- description: '4'
+  url: https://db.universal-team.net/assets/images/screenshots/tjaplayer_for_3ds/4.png
+- description: '5'
+  url: https://db.universal-team.net/assets/images/screenshots/tjaplayer_for_3ds/5.png
 source: https://github.com/togetg/TJAPlayer_for_3DS
 systems:
 - 3DS
