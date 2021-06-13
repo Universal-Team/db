@@ -9,25 +9,25 @@ description: FTP Server for 3DS/Switch
 download_page: https://github.com/mtheall/ftpd/releases
 downloads:
   ftpd-classic.3dsx:
-    size: 318544
-    size_str: 311 KiB
-    url: https://github.com/mtheall/ftpd/releases/download/v3.0.0/ftpd-classic.3dsx
+    size: 317552
+    size_str: 310 KiB
+    url: https://github.com/mtheall/ftpd/releases/download/v3.1.0/ftpd-classic.3dsx
   ftpd-classic.cia:
-    size: 616896
-    size_str: 602 KiB
-    url: https://github.com/mtheall/ftpd/releases/download/v3.0.0/ftpd-classic.cia
+    size: 617920
+    size_str: 603 KiB
+    url: https://github.com/mtheall/ftpd/releases/download/v3.1.0/ftpd-classic.cia
   ftpd.3dsx:
-    size: 530020
-    size_str: 517 KiB
-    url: https://github.com/mtheall/ftpd/releases/download/v3.0.0/ftpd.3dsx
+    size: 554640
+    size_str: 541 KiB
+    url: https://github.com/mtheall/ftpd/releases/download/v3.1.0/ftpd.3dsx
   ftpd.cia:
-    size: 787392
-    size_str: 768 KiB
-    url: https://github.com/mtheall/ftpd/releases/download/v3.0.0/ftpd.cia
+    size: 803776
+    size_str: 784 KiB
+    url: https://github.com/mtheall/ftpd/releases/download/v3.1.0/ftpd.cia
   ftpd.nds:
-    size: 383488
-    size_str: 374 KiB
-    url: https://github.com/mtheall/ftpd/releases/download/v3.0.0/ftpd.nds
+    size: 379392
+    size_str: 370 KiB
+    url: https://github.com/mtheall/ftpd/releases/download/v3.1.0/ftpd.nds
 github: mtheall/ftpd
 icon: https://raw.githubusercontent.com/mtheall/ftpd/master/meta/icon.png
 image: https://raw.githubusercontent.com/mtheall/ftpd/master/meta/banner.png
@@ -52,29 +52,10 @@ systems:
 - 3DS
 - DS
 title: ftpd
-update_notes: '<ul>
-
-  <li>Even better graphics than ever (Dear ImGui backend)</li>
-
-  <li>NDS support</li>
-
-  <li>Exit button changed from B to PLUS/START</li>
-
-  <li>Backlight toggle changed from PLUS/START to MINUS/SELECT</li>
-
-  <li>User/Password support</li>
-
-  <li>Scrollable log</li>
-
-  <li>Status icons/text (battery/wifi/time)</li>
-
-  <li>"Classic" builds retain console interface</li>
-
-  <li>Further improvements to overall system stability and other minor adjustments
-  have been made to enhance the user experience</li>
-
-  </ul>'
-updated: '2020-05-27T14:10:12Z'
-version: v3.0.0
-version_title: ftpd pro v3.0.0
+update_notes: "<ul>\n<li>Access Point mode on Switch</li>\n<li>Reset button for configuration</li>\n\
+  <li>Update to Dear ImGui 1.83</li>\n<li>General system stability improvements to\
+  \ enhance the user\u2019s experience</li>\n</ul>"
+updated: '2021-06-12T19:39:34Z'
+version: v3.1.0
+version_title: ftpd pro v3.1.0
 ---
