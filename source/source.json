@@ -6627,5 +6627,10 @@
 				}
 			]
 		}
+	},
+	{
+		"github": "TheDude42069/fuck-u3DS",
+		"categories": ["game"],
+		"systems": ["3DS"]
 	}
 ]
