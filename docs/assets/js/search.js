@@ -1,5 +1,5 @@
 function search(query) {
-	let regex = new RegExp(query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/\\?./g, "$&.*"), "gi");
+	let regex = new RegExp(query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/\\?./g, "$&.*").replace(/[-_ ]/, "[-_ ]"), "gi");
 	Array.from(document.getElementById("card-container").children).forEach(function(r) {
 		let card = r.children[0];
 		for(let item in card.dataset) {
