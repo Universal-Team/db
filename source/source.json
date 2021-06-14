@@ -5767,13 +5767,13 @@
 		"categories": ["utility"],
 		"downloads": {
 			"TWPatch.cia": {
-				"url": "{untangle.parse(requests.get('https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia').text).html.head.meta.get_attribute('content')[3:]}"
+				"url": "untangle.parse(requests.get('https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia').text).html.head.meta.get_attribute('content')[3:]"
 			}
 		},
-		"format_downloads": true,
+		"eval_downloads": true,
 		"version": "2021/02/21",
 		"update_notes_md": "New TWPatch update to get ready for LgyBg support:\n- added new kernel patches to make LgyBg functional\n- unlocked the kernel patch menu, so it's easier to access now (Y+B, X+A, START, SELECT)\n\nLgyBg's GBA mode is pretty close to alpha release.\n\nFor DS mode, I still need to get touch, datetime, and DSi-specific stuff working.",
-		"download_page": "https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/",
+		"download_page": "'https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/'",
 		"website": "https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/"
 	},
 	{
@@ -6079,14 +6079,16 @@
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/ctr/assets/default.png",
 		"image": "https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/ctr/assets/libretro_banner.png",
-		"download_page": "https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds",
-		"format_downloads": true,
+		"download_page": "f\"https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds\"",
+		"eval_notes_md": true,
+		"update_notes_md": "re.findall(f\"# {app['version'][1:]}\\\\n+(.*?)\\\\n+#\", requests.get('https://raw.githubusercontent.com/libretro/RetroArch/master/CHANGES.md').text, re.DOTALL)[0]",
+		"eval_downloads": true,
 		"downloads": {
 			"RetroArch_3dsx.7z": {
-				"url": "https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds/RetroArch_3dsx.7z"
+				"url": "f\"https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds/RetroArch_3dsx.7z\""
 			},
 			"RetroArch_cia.7z": {
-				"url": "https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds/RetroArch_cia.7z"
+				"url": "f\"https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds/RetroArch_cia.7z\""
 			}
 		},
 		"scripts": {
@@ -6098,7 +6100,7 @@
 				},
 				{
 					"type": "downloadFile",
-					"file": "https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds/RetroArch_3dsx.7z",
+					"file": "f\"https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds/RetroArch_3dsx.7z\"",
 					"output": "/RetroArch_3dsx.7z",
 					"message": "Downloading RetroArch_3dsx.7z..."
 				},
@@ -6141,7 +6143,7 @@
 				},
 				{
 					"type": "downloadFile",
-					"file": "https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds/RetroArch_cia.7z",
+					"file": "f\"https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds/RetroArch_cia.7z\"",
 					"output": "/RetroArch_cia.7z",
 					"message": "Downloading RetroArch_cia.7z..."
 				},

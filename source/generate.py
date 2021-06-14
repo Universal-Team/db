@@ -372,18 +372,23 @@ for app in source:
 					app["updated"] = commit["date"]
 
 		# Process format strings in downloads if needed
-		if "format_downloads" in app and app["format_downloads"]:
+		if "eval_downloads" in app and app["eval_downloads"]:
 			if "download_page" in app and type(app["download_page"]) == str:
-				app["download_page"] = eval('f"' + app["download_page"] + '"')
+				app["download_page"] = eval(app["download_page"])
 			if "downloads" in app:
 				for item in app["downloads"]:
 					if(type(app["downloads"][item]["url"]) == str):
-						app["downloads"][item]["url"] = eval('f"' + app["downloads"][item]["url"] + '"')
+						app["downloads"][item]["url"] = eval(app["downloads"][item]["url"])
 			if "scripts" in app:
 				for script in app["scripts"]:
 					for function in app["scripts"][script]:
 						if function["type"] == "downloadFile" and type(function["file"]) == str:
-							function["file"] = eval('f"' + function["file"] + '"')
+							function["file"] = eval(function["file"])
+		if "eval_notes_md" in app and app["eval_notes_md"]:
+			if "update_notes_md" in app:
+				app["update_notes_md"] = eval(app["update_notes_md"])
+				if not "update_notes" in app:
+					app["update_notes"] = requests.post("https://api.github.com/markdown", headers = header if header else None, json = {"text": app["update_notes_md"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
 
 		# Check for screenshots
 		if os.path.exists(os.path.join("..", "docs", "assets", "images", "screenshots", webName(app["title"]))):
