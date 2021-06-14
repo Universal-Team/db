@@ -12,7 +12,7 @@ downloads:
     size: 599488
     size_str: 585 KiB
     url: https://puu.sh/HiJbF/deabae7f16.cia
-format_downloads: true
+eval_downloads: true
 icon: https://db.universal-team.net/assets/images/icons/twpatch.png
 image: https://db.universal-team.net/assets/images/images/twpatch.png
 image_length: 25344
