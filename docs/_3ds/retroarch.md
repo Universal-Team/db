@@ -7,16 +7,16 @@ color: '#484848'
 created: '2010-05-27T14:47:40Z'
 description: Cross-platform, sophisticated frontend for the libretro API. Licensed
   GPLv3.
-download_page: https://buildbot.libretro.com/stable/1.9.4/nintendo/3ds
+download_page: https://buildbot.libretro.com/stable/1.9.5/nintendo/3ds
 downloads:
   RetroArch_3dsx.7z:
-    size: 72176170
+    size: 72292104
     size_str: 68 MiB
-    url: https://buildbot.libretro.com/stable/1.9.4/nintendo/3ds/RetroArch_3dsx.7z
+    url: https://buildbot.libretro.com/stable/1.9.5/nintendo/3ds/RetroArch_3dsx.7z
   RetroArch_cia.7z:
-    size: 72890997
+    size: 72956147
     size_str: 69 MiB
-    url: https://buildbot.libretro.com/stable/1.9.4/nintendo/3ds/RetroArch_cia.7z
+    url: https://buildbot.libretro.com/stable/1.9.5/nintendo/3ds/RetroArch_cia.7z
 format_downloads: true
 github: libretro/RetroArch
 icon: https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/ctr/assets/default.png
@@ -29,7 +29,7 @@ source: https://github.com/libretro/RetroArch
 systems:
 - 3DS
 title: RetroArch
-updated: '2021-05-29T09:01:14Z'
-version: v1.9.4
+updated: '2021-06-13T21:44:21Z'
+version: v1.9.5
 website: http://www.libretro.com
 ---
