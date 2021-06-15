@@ -3,7 +3,7 @@ author: TheOneandonlyDude
 avatar: https://avatars.githubusercontent.com/u/57813266?v=4
 categories:
 - game
-color: '#a9e2cb'
+color: '#2e0d05'
 created: '2021-06-14T20:42:25Z'
 description: A 3ds homebrew app that displays "fuck you" on your screen, inspired
   by the Switch Homebrew app fuck-u
@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/TheDude42069/fuck-u3DS/releases/download/1.1/fuck-u3ds.3dsx
 github: TheDude42069/fuck-u3DS
 image: https://avatars.githubusercontent.com/u/57813266?v=4
-image_length: 1520
+image_length: 10684
 layout: app
 source: https://github.com/TheDude42069/fuck-u3DS
 systems:
