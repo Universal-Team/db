@@ -6414,23 +6414,6 @@
 		"image": "https://raw.githubusercontent.com/NPI-D7/BCSTM-Player/main/app/banner.png"
 	},
 	{
-		"title": "Five Nights at Freddy's 1 3DS -remastered-",
-		"description": "Five Nights at Freddy's port to the Nintendo 3DS",
-		"categories": ["game"],
-		"downloads": {
-			"fnaf-1-remastered-0.3.1-pre1.cia": {
-				"url": "https://www.dropbox.com/s/jp60vmntqmtrz3r/fnaf-1-remastered-0.3.1-pre1.cia?dl=1"
-			}
-		},
-		"author": "FreDEV",
-		"website": "https://gamejolt.com/games/fnaf13dsremastered/576273",
-		"download_page": "https://gamejolt.com/games/fnaf13dsremastered/576273",
-		"version": "v0.3.1-pre1",
-		"updated": "2021-01-17T10:41:27Z",
-		"systems": ["3DS"],
-		"update_notes_md": "You guys may remember my original FNaF 1 3DS port. Well, i have decided that i would remake it to make it a better experience for everyone! The ENTIRE game has been recoded from scratch and the game is better optimized than before. Besides that, the game experience is WAY better, because on both OLD/NEW 3DS systems, the game runs at a smooth 50-60 FPS! I hope you guys will enjoy the new port!\n\nthanks for all the awesome support! and also for 500+ subscribers already!\n\n**---QR CODE---**\n\n![freddy_qr_beta_31.png](https://m.gjcdn.net/content/600/5472530-r8w3fuau-v4.png)\n\n**---FEATURES/REDONE---**\n\n1. Freddy laughs while moving\n2. Kitchen sounds play\n3. Random music box in the night\n4. When foxy is out of cove, the static becomes red (i had to do this to prevent V-  Ram issues)\n5. Images have higher resolution\n6. Menu has been improved\n7. Custom night now unlocks after having beaten night 6\n8. good/bad ending\n9. 1987 easter egg\n10. Animatronic AI\n\n**---TO ADD---**\n1. ~~Stars~~\n2. (?) golden freddy (?)\n3. Pause menu\n\n**---KNOWN BUGS---**\n\n~~power system is kind of broken at the moment~~\n~~foxy is pretty quick~~\nfreddy not easily spottable on camera's (except the corner camera)\nmusic box plays multiple times per night\n~~stage sometimes is full while some of the animatronics are gone~~\n~~freddy sometimes moves in night 1/2~~\n~~chica doesnt appear in bathroom~~\n\n---RELEASE DATE---\n\n~~The current standing release date is on 1/17/2021 (between 11 - 15 PM (amsterdam timezone))~~\n\nGame has been released!\n\nversions release date's:\n\n0.1.0-pre3 **[RELEASED ON 1/17/2021]**\n\n0.2.1-pre1 **[RELEASED ON 1/22/2021]**\n\n0.3.0-pre1 **[RELEASED ON 1/26/2021]**\n\n0.3.1-pre1 **[RELEASED ON 1/26/2021]**\n\n![freddy_trailer.gif](https://i.gjcdn.net/data/games/9/23/576273/media/game-description/freddy_trailer-eniaetnz.gif)"
-	},
-	{
 		"github": "MechanicalDragon0687/NDSForwarder",
 		"categories": ["utility"],
 		"systems": ["3DS"],
