@@ -46,7 +46,16 @@ layout: compress
 						{% elsif page.system == "ds" %}
 							{% assign cards = site.ds %}
 						{% elsif page.title == "Home" %}
-							{% assign cards = site["3ds"] | concat: site.ds | uniq %}
+							{% assign temp = site["3ds"] | concat: site.ds %}
+							{% for item in temp %}
+								{% assign id = item.author | append: item.title %}
+								{% unless existing contains id %}
+									{% assign id = id | split: "////////" %}
+									{% assign existing = existing | concat: id %}
+									{% assign t = temp | where_exp: "i", "i == item" %}
+									{% assign cards = cards | concat: t %}
+								{% endunless %}
+							{% endfor %}
 						{% endif %}
 
 						{% assign cards = cards | sort: "updated" | reverse %}

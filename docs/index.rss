@@ -11,7 +11,17 @@ layout: compress
 		<description>{{ site.description }}</description>
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 		<language>en-us</language>
-		{% assign apps = site["3ds"] | concat: site.ds | uniq | sort: "updated" | reverse %}
+		{% assign temp = site["3ds"] | concat: site.ds %}
+		{% for item in temp %}
+			{% assign id = item.author | append: item.title %}
+			{% unless existing contains id %}
+				{% assign id = id | split: "////////" %}
+				{% assign existing = existing | concat: id %}
+				{% assign t = temp | where_exp: "i", "i == item" %}
+				{% assign apps = apps | concat: t %}
+			{% endunless %}
+		{% endfor %}
+		{% assign apps = apps | sort: "updated" | reverse %}
 		{% for app in apps limit: 8 %}
 			<item>
 				<title>{{ app.title }} updated to {{ app.version | default: "new version" }}</title>
