@@ -5,12 +5,13 @@ if(!localStorage.sortProp)
 
 document.getElementById("sort-" + localStorage.sortProp).classList.add("btn-secondary");
 document.getElementById("sort-" + localStorage.sortProp).classList.remove("btn-outline-secondary");
-document.getElementById("sort-direction").innerText = parseInt(localStorage.sortDirection) ? "Descending" : "Ascending";
+let dirButton = document.getElementById("sort-direction");
+dirButton.innerText = parseInt(localStorage.sortDirection) ? dirButton.dataset.descending : dirButton.dataset.ascending;
 sort();
 
 function toggleSortDirection() {
 	localStorage.sortDirection ^= 1;
-	document.getElementById("sort-direction").innerText = parseInt(localStorage.sortDirection) ? "Descending" : "Ascending";
+	document.getElementById("sort-direction").innerText = parseInt(localStorage.sortDirection) ? dirButton.dataset.descending : dirButton.dataset.ascending;
 	sort();
 }
 

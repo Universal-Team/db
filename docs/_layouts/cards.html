@@ -27,16 +27,16 @@ layout: compress
 						{% if page.system %}
 							<div class="d-none script-show">
 								<div class="mb-3">
-									Sort:
-									<button id="sort-title" class="btn btn-outline-secondary" onclick="sort('title')">Title</button>
-									<button id="sort-author" class="btn btn-outline-secondary" onclick="sort('author')">Author</button>
-									<button id="sort-description" class="btn btn-outline-secondary" onclick="sort('description')">Description</button>
-									<button id="sort-updated" class="btn btn-outline-secondary" onclick="sort('updated')">Date Updated</button>
-									<button id="sort-direction" class="btn btn-outline-secondary float-end" onclick="toggleSortDirection()">Ascending</button>
+									<span class="i18n innerHTML-sort">Sort:</span>
+									<button id="sort-title" class="btn btn-outline-secondary i18n innerHTML-title" onclick="sort('title')">Title</button>
+									<button id="sort-author" class="btn btn-outline-secondary i18n innerHTML-author" onclick="sort('author')">Author</button>
+									<button id="sort-description" class="btn btn-outline-secondary i18n innerHTML-description" onclick="sort('description')">Description</button>
+									<button id="sort-updated" class="btn btn-outline-secondary i18n innerHTML-date-updated" onclick="sort('updated')">Date Updated</button>
+									<button id="sort-direction" class="btn btn-outline-secondary float-end i18n innerHTML-ascending data-ascending-ascending data-descending-descending" onclick="toggleSortDirection()">Ascending</button>
 								</div>
 								<div class="input-group mb-3">
-										<label for="search" class="input-group-text">Search:</label>
-									<input id="search" class="form-control" type="text" placeholder="Search by title or description" onkeyup="search(event.srcElement.value);">
+										<label for="search" class="input-group-text i18n innerHTML-search">Search:</label>
+									<input id="search" class="form-control i18n placeholder-search-by-title-desc" type="text" placeholder="Search by title or description" onkeyup="search(event.srcElement.value);">
 								</div>
 							</div>
 						{% endif %}
@@ -91,15 +91,15 @@ layout: compress
 														<div class="{% if app.qr.size == 1 or app.prerelease.qr.size == 1 %}col-10{% else %}col-12{% endif %}">
 															<small class="text-muted">
 																{% unless page.system %}
-																	System: {{ app.systems | join: ", "}}
+																	<span class="i18n innerHTML-system">System: </span>{{ app.systems | join: ", "}}
 																	<br>
 																{% endunless %}
 																{% if app.version %}
-																	Version: {{ app.version }}
+																	<span class="i18n innerHTML-version">Version: </span>{{ app.version }}
 																{% endif %}
 																{% if app.updated != "---" %}
 																	{% if app.version %}<br>{% endif %}
-																	Last updated: <time datetime="{{ app.updated }}" title="{{ app.updated | date: '%Y-%m-%d at %H:%M' }}">{{ app.updated | date: "%Y-%m-%d" }}</time>
+																	<span class="i18n innerHTML-last-updated">Last updated: </span><time datetime="{{ app.updated }}" title="{{ app.updated | date: '%Y-%m-%d at %H:%M' }}">{{ app.updated | date: "%Y-%m-%d" }}</time>
 																{% endif %}
 															</small>
 														</div>
@@ -107,7 +107,7 @@ layout: compress
 															{% if app.qr.size == 1 %}
 																<p class="text-right">
 																	{% for qr in app.qr %}
-																		<a class="qr-link" href="{{ qr[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}" aria-label="Show QR Code for {{ qr[0] }}">
+																		<a class="qr-link i18n ariaLabel-show-qr-for" href="{{ qr[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}" aria-label="Show QR Code for {{ qr[0] }}">
 																			<i class="fa fa-qrcode pointer" aria-hidden="true"></i>
 																		</a>
 																	{% endfor %}
@@ -115,7 +115,7 @@ layout: compress
 															{% elsif app.prerelease.qr.size == 1 %}
 																<p class="text-right">
 																	{% for qr in app.prerelease.qr %}
-																		<a class="qr-link" href="{{ qr[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}" aria-label="Show QR Code for {{ qr[0] }}">
+																		<a class="qr-link i18n ariaLabel-show-qr-for" href="{{ qr[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}" aria-label="Show QR Code for {{ qr[0] }}">
 																			<i class="fa fa-qrcode pointer" aria-hidden="true"></i>
 																		</a>
 																	{% endfor %}

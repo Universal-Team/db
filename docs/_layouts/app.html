@@ -12,7 +12,7 @@ layout: compress
 
 		<main>
 			<a class="back-link" href=".">
-				<span class="btn btn-primary btn-back"><i class="fa fa-chevron-left" aria-hidden="true"></i> Back</span>
+				<span class="btn btn-primary btn-back i18n innerHTML-back"><i class="fa fa-chevron-left" aria-hidden="true"></i> Back</span>
 			</a>
 
 			{% include modal.html %}
@@ -45,44 +45,44 @@ layout: compress
 									{% if page.website %}</a>{% elsif page.source %}</a>{% endif %}
 									<div class="card-footer">
 										<small class="text-muted">
-											System:
-											{% for system in page.systems %}
+											<span class="i18n innerHTML-system">System: </span>
+											{%- for system in page.systems -%}
 												<a href="/{{ system | downcase }}">{{ system }}</a>{% if forloop.last == false %},{% endif %}
 											{% endfor %}
 											{% if page.categories %}
 												<br>
-												Categories:
-												{% for category in page.categories %}
+												<span class="i18n innerHTML-categories">Categories: </span>
+												{%- for category in page.categories -%}
 													<a href="/{{ page.collection }}/{{ category }}">{{ category }}</a>{% if forloop.last == false %},{% endif %}
 												{% endfor %}
 											{% endif %}
 											{% if page.created != "---" %}
 												<br>
-												Created: <time datetime="{{ page.created }}" title="{{ page.created | date: '%Y-%m-%d at %H:%M' }}">{{ page.created | date: "%Y-%m-%d" }}</time>
+												<span class="i18n innerHTML-created">Created: </span><time datetime="{{ page.created }}" title="{{ page.created | date: '%Y-%m-%d at %H:%M' }}">{{ page.created | date: "%Y-%m-%d" }}</time>
 											{% endif %}
 											{% if page.license_name %}
 												<br>
-												License: {{ page.license_name }}
+												<span class="i18n innerHTML-license">License: </span>{{ page.license_name }}
 											{% endif %}
 										</small>
 									</div>
 								</div>
 								<div class="text-center pt-3">
 									{% if page.source %}
-										<a class="btn btn-primary m-1" href="{{ page.source }}">Source</a>
+										<a class="btn btn-primary m-1 i18n innerHTML-source" href="{{ page.source }}">Source</a>
 									{% endif %}
 									{% if page.website %}
-										<a class="btn btn-primary m-1" href="{{ page.website }}">Website</a>
+										<a class="btn btn-primary m-1 i18n innerHTML-website" href="{{ page.website }}">Website</a>
 									{% endif %}
 									{% if page.wiki %}
-										<a class="btn btn-primary m-1" href="{{ page.wiki }}">Wiki</a>
+										<a class="btn btn-primary m-1 i18n innerHTML-wiki" href="{{ page.wiki }}">Wiki</a>
 									{% endif %}
 								</div>
 							</div>
 							<div class="col-md-8">
 								<div class="row">
 									<div class="col-12">
-										<h2>Downloads</h2>
+										<h2 class="i18n innerHTML-downloads">Downloads</h2>
 										{% for item in page.downloads %}
 											{% assign itemQR = nil %}
 											{% for qr in page.qr %}
@@ -92,9 +92,9 @@ layout: compress
 												{% endif %}
 											{% endfor %}
 											<span class="text-nowrap">
-												<a class="btn btn-primary m-1 {% if itemQR %}btn-with-qr{% endif %}" {% if item[1].size_str %}title="Size: {{ item[1].size_str }}"{% endif %} href="{{ item[1].url }}">Download {{ item[0] }}</a>
+												<a class="btn btn-primary m-1 {% if itemQR %}btn-with-qr{% endif %} i18n innerHTML-download-name" {% if item[1].size_str %}title="Size: {{ item[1].size_str }}"{% endif %} href="{{ item[1].url }}" data-name="{{ item[0] }}">Download {{ item[0] }}</a>
 												{% if itemQR %}
-													<a class="btn btn-primary qr-link btn-qr" href="{{ itemQR[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}" aria-label="Show QR Code for {{ item[0] }}">
+													<a class="btn btn-primary qr-link btn-qr i18n ariaLabel-show-qr-for" href="{{ itemQR[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}" aria-label="Show QR Code for {{ item[0] }}">
 														<i class="fa fa-qrcode" aria-hidden="true"></i>
 													</a>
 												{% endif %}
@@ -104,17 +104,15 @@ layout: compress
 										{% if page.version and page.downloads %}
 											<br>
 											<small class="text-muted">
-												Version: {% if page.download_page %}<a href="{{ page.download_page }}">{% endif %}{{ page.version }}{% if page.download_page %}</a>{% endif %}
+												<span class="i18n innerHTML-version">Version: </span>{% if page.download_page %}<a href="{{ page.download_page }}">{% endif %}{{ page.version }}{% if page.download_page %}</a>{% endif %}
 												{% if page.update_notes %}
-													<button class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#modal" data-name="{% if page.version_title %}{{ page.version_title }}{% else %}{{ page.version }}{% endif %}" data-content="{{ page.update_notes | escape }}">
-														Update notes
-													</button>
+													<button class="btn btn-outline-secondary btn-sm i18n innerHTML-update-notes" data-bs-toggle="modal" data-bs-target="#modal" data-name="{% if page.version_title %}{{ page.version_title }}{% else %}{{ page.version }}{% endif %}" data-content="{{ page.update_notes | escape }}">Update notes</button>
 												{% elsif page.version_title %}
 												- {{ page.version_title }}
 												{% endif %}
 												<br>
 												{% if page.updated != "---" %}
-													Last updated: <time datetime="{{ page.updated }}" title="{{ page.prerelease.updated | date: '%Y-%m-%d at %H:%M' }}">{{ page.updated | date: "%Y-%m-%d at %H:%M" }}</time>
+													<span class="i18n innerHTML-last-updated">Last updated: </span><time datetime="{{ page.updated }}" title="{{ page.prerelease.updated | date: '%Y-%m-%d at %H:%M' }}">{{ page.updated | date: "%Y-%m-%d at %H:%M" }}</time>
 												{% endif %}
 											</small>
 										{% endif %}
@@ -123,7 +121,7 @@ layout: compress
 								{% if page.prerelease %}
 									<div class="row mt-3">
 										<div class="col-12">
-											<h3>Prereleases</h3>
+											<h3 class="i18n innerHTML-prereleases">Prereleases</h3>
 											{% for item in page.prerelease.downloads %}
 												{% assign itemQR = nil %}
 												{% for qr in page.prerelease.qr %}
@@ -133,9 +131,9 @@ layout: compress
 													{% endif %}
 												{% endfor %}
 												<span class="text-nowrap">
-													<a class="btn btn-secondary m-1 {% if itemQR %}btn-with-qr{% endif %}" {% if item[1].size_str %}title="Size: {{ item[1].size_str }} bytes"{% endif %} href="{{ item[1].url }}">Download {{ item[0] }}</a>
+													<a class="btn btn-secondary m-1 {% if itemQR %}btn-with-qr{% endif %} i18n innerHTML-download-name" {% if item[1].size_str %}title="Size: {{ item[1].size_str }} bytes"{% endif %} href="{{ item[1].url }}" data-name="{{ item[0] }}">Download {{ item[0] }}</a>
 													{% if itemQR %}
-														<a class="btn btn-secondary qr-link btn-qr" href="{{ itemQR[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}" aria-label="Show QR Code for {{ item[0] }}">
+														<a class="btn btn-secondary qr-link btn-qr i18n ariaLabel-show-qr-for" href="{{ itemQR[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}" aria-label="Show QR Code for {{ item[0] }}">
 															<i class="fa fa-qrcode" aria-hidden="true"></i>
 														</a>
 													{% endif %}
@@ -163,7 +161,7 @@ layout: compress
 								{% if page.nightly %}
 									<div class="row mt-3">
 										<div class="col-12">
-											<h3><abbr title="Commit / beta builds, potentially unstable but have the latest updates">Nightlies</abbr></h3>
+											<h3><abbr class="i18n innerHTML-nightlies title-nightly-desc" title="Commit/beta builds, potentially unstable but have the latest updates">Nightlies</abbr></h3>
 											{% for item in page.nightly.downloads %}
 												{% assign itemQR = nil %}
 												{% for qr in page.nightly.qr %}
@@ -173,9 +171,9 @@ layout: compress
 													{% endif %}
 												{% endfor %}
 												<span class="text-nowrap">
-													<a class="btn btn-dark m-1 {% if itemQR %}btn-with-qr{% endif %}" {% if item[1].size_str %}title="Size: {{ item[1].size_str }} bytes"{% endif %} href="{{ item[1].url }}">Download {{ item[0] }}</a>
+													<a class="btn btn-dark m-1 {% if itemQR %}btn-with-qr{% endif %} i18n innerHTML-download-name" {% if item[1].size_str %}title="Size: {{ item[1].size_str }} bytes"{% endif %} href="{{ item[1].url }}" data-name="{{ item[0] }}">Download {{ item[0] }}</a>
 													{% if itemQR %}
-														<a class="btn btn-dark qr-link btn-qr" href="{{ itemQR[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}" aria-label="Show QR Code for {{ item[0] }}">
+														<a class="btn btn-dark qr-link btn-qr i18n ariaLabel-show-qr-for" href="{{ itemQR[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}" aria-label="Show QR Code for {{ item[0] }}">
 															<i class="fa fa-qrcode" aria-hidden="true"></i>
 														</a>
 													{% endif %}
@@ -185,7 +183,7 @@ layout: compress
 											{% if page.nightly.download_page %}
 												<br>
 												<small class="text-muted">
-													<a href="{{ page.nightly.download_page }}">Download page</a>
+													<a class="i18n innerHTML-download-page" href="{{ page.nightly.download_page }}">Download page</a>
 												</small>
 											{% endif %}
 										</div>
@@ -194,7 +192,7 @@ layout: compress
 								{% if content.size > 1 %}
 									<div class="row mt-3">
 										<div class="col-12">
-											<h2>Description</h2>
+											<h2 class="i18n innerHTML-description">Description</h2>
 											{{ content }}
 										</div>
 									</div>
@@ -202,7 +200,7 @@ layout: compress
 								{% if page.screenshots.size > 0 %}
 									<div class="row mt-3">
 										<div class="col-12">
-											<h2>Screenshots</h2>
+											<h2 class="i18n innerHTML-screenshots">Screenshots</h2>
 											<div id="screenshotCarousel" class="carousel carousel-dark-when-light slide mb-3" data-bs-ride="carousel">
 												<ol class="carousel-indicators">
 													{% for ss in page.screenshots %}
@@ -221,11 +219,11 @@ layout: compress
 												</div>
 												<a class="carousel-control-prev" href="#screenshotCarousel" role="button" data-bs-slide="prev">
 													<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-													<span class="visually-hidden">Previous</span>
+													<span class="visually-hidden i18n innerHTML-previous">Previous</span>
 												</a>
 												<a class="carousel-control-next" href="#screenshotCarousel" role="button" data-bs-slide="next">
 													<span class="carousel-control-next-icon" aria-hidden="true"></span>
-													<span class="visually-hidden">Next</span>
+													<span class="visually-hidden i18n innerHTML-next">Next</span>
 												</a>
 											</div>
 										</div>
