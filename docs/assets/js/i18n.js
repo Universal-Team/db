@@ -84,4 +84,5 @@ function setLang(lang) {
 		delete localStorage.language;
 
 	loadLang(false);
+	updateDates();
 }

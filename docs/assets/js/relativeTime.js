@@ -8,7 +8,7 @@ const labels = {
 	second: 1
 };
 
-const relativeTime = new Intl.RelativeTimeFormat(navigator.language, {numeric: "auto"});
+let relativeTime, now;
 
 function timeDifference(now, then) {
 	let dif = Math.round((now - then) / 1000);
@@ -20,9 +20,15 @@ function timeDifference(now, then) {
 	}
 }
 
-for(let i = 0; i < document.getElementsByTagName("time").length; i++) {
-	let elem = document.getElementsByTagName("time")[i];
-	let date = new Date(elem.dateTime);
-	elem.innerText = timeDifference(new Date(), date);
-	elem.title = date.toLocaleString();
+function updateDates() {
+	relativeTime = new Intl.RelativeTimeFormat(document.documentElement.lang, {numeric: "auto"});
+	now = new Date();
+
+	for(let elem of document.getElementsByTagName("time")) {
+		const date = new Date(elem.dateTime);
+		elem.innerText = timeDifference(now, date);
+		elem.title = date.toLocaleString(document.documentElement.lang);
+	}
 }
+
+updateDates();
