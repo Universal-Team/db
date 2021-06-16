@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 <!-- These lines are comments, they won't show up when submitted -->
-<!-- Please don't delete the **bold text**, put what your info below it -->
+<!-- Please don't delete the **bold text**, put your info below it -->
 **Name of the app**
 
 

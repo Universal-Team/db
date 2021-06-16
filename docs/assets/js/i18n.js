@@ -3,7 +3,7 @@
 
 const i18n = {
 	{%- for language in site.data.i18n -%}
-		{%- if site.data.languages contains language[0] -%}
+		{%- if site.data.languages contains language[0] or language[0] == "ic-IC" -%}
 			"{{ language[0] }}": {
 				{%- assign lang = language[0] -%}
 				"dir": "{{ site.data.languages[lang].dir }}",

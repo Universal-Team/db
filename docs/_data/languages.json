@@ -1,10 +1,82 @@
 {
+	"bruh-US": {
+		"name": "Bruh",
+		"dir": "ltr"
+	},
+	"da-DK": {
+		"name": "Dansk",
+		"dir": "ltr"
+	},
+	"de-DE": {
+		"name": "Deutsch",
+		"dir": "ltr"
+	},
 	"en-US": {
 		"name": "English",
 		"dir": "ltr"
 	},
+	"es-ES": {
+		"name": "Español",
+		"dir": "ltr"
+	},
+	"fr-FR": {
+		"name": "Français",
+		"dir": "ltr"
+	},
+	"he-IL": {
+		"name": "עברית",
+		"dir": "rtl"
+	},
+	"hu-HU": {
+		"name": "Magyar",
+		"dir": "ltr"
+	},
+	"it-IT": {
+		"name": "Italiano",
+		"dir": "ltr"
+	},
 	"ja-JP": {
 		"name": "日本語",
+		"dir": "ltr"
+	},
+	"ko-KR": {
+		"name": "한국어",
+		"dir": "ltr"
+	},
+	"lt-LT": {
+		"name": "Lietuvių",
+		"dir": "ltr"
+	},
+	"pl-PL": {
+		"name": "Polski",
+		"dir": "ltr"
+	},
+	"pt-BR": {
+		"name": "Português (Brasil)",
+		"dir": "ltr"
+	},
+	"pt-PT": {
+		"name": "Português (Portugal)",
+		"dir": "ltr"
+	},
+	"ru-RU": {
+		"name": "Русский",
+		"dir": "ltr"
+	},
+	"tr-TR": {
+		"name": "Türkçe",
+		"dir": "ltr"
+	},
+	"uk-UA": {
+		"name": "Украïнська",
+		"dir": "ltr"
+	},
+	"zh-CN": {
+		"name": "中文 (简体)",
+		"dir": "ltr"
+	},
+	"zh-TW": {
+		"name": "中文 (繁體)",
 		"dir": "ltr"
 	}
 }

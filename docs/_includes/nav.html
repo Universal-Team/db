@@ -39,7 +39,9 @@
 				<ul class="dropdown-menu dropdown-menu-sm-end hover-content" id="language-dropdown">
 					{% assign languages = site.data.languages | sort %}
 					{% for item in languages %}
-						<li><a class="dropdown-item {% if item[0] == "en-US" %}active{% endif %}" href="javascript:setLang('{{ item[0] }}')" lang="{{ item[0] }}" dir="{{ item[1].dir }}">{{ item[1].name }}</a></li>
+						{% if site.data.i18n contains item[0] %}
+							<li><a class="dropdown-item {% if item[0] == "en-US" %}active{% endif %}" href="javascript:setLang('{{ item[0] }}')" lang="{{ item[0] }}" dir="{{ item[1].dir }}">{{ item[1].name }}</a></li>
+						{% endif %}
 					{% endfor %}
 					<li><hr class="dropdown-divider"></li>
 					<li><a class="dropdown-item i18n innerHTML-translate-here" href="javascript:setLang('ic-IC')" accesskey="t">Translate here</a></li>
