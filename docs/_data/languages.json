@@ -5,11 +5,13 @@
 	},
 	"da-DK": {
 		"name": "Dansk",
-		"dir": "ltr"
+		"dir": "ltr",
+		"crowdin": "da"
 	},
 	"de-DE": {
 		"name": "Deutsch",
-		"dir": "ltr"
+		"dir": "ltr",
+		"crowdin": "de"
 	},
 	"en-US": {
 		"name": "English",
@@ -17,11 +19,13 @@
 	},
 	"es-ES": {
 		"name": "Español",
-		"dir": "ltr"
+		"dir": "ltr",
+		"crowdin": "es"
 	},
 	"fr-FR": {
 		"name": "Français",
-		"dir": "ltr"
+		"dir": "ltr",
+		"crowdin": "fr"
 	},
 	"he-IL": {
 		"name": "עברית",
@@ -29,15 +33,18 @@
 	},
 	"hu-HU": {
 		"name": "Magyar",
-		"dir": "ltr"
+		"dir": "ltr",
+		"crowdin": "hu"
 	},
 	"it-IT": {
 		"name": "Italiano",
-		"dir": "ltr"
+		"dir": "ltr",
+		"crowdin": "it"
 	},
 	"ja-JP": {
 		"name": "日本語",
-		"dir": "ltr"
+		"dir": "ltr",
+		"crowdin": "ja"
 	},
 	"ko-KR": {
 		"name": "한국어",
@@ -49,27 +56,33 @@
 	},
 	"pl-PL": {
 		"name": "Polski",
-		"dir": "ltr"
+		"dir": "ltr",
+		"crowdin": "pl"
 	},
 	"pt-BR": {
 		"name": "Português (Brasil)",
-		"dir": "ltr"
+		"dir": "ltr",
+		"crowdin": "pt"
 	},
 	"pt-PT": {
 		"name": "Português (Portugal)",
-		"dir": "ltr"
+		"dir": "ltr",
+		"crowdin": "pt"
 	},
 	"ru-RU": {
 		"name": "Русский",
-		"dir": "ltr"
+		"dir": "ltr",
+		"crowdin": "ru"
 	},
 	"tr-TR": {
 		"name": "Türkçe",
-		"dir": "ltr"
+		"dir": "ltr",
+		"crowdin": "tr"
 	},
 	"uk-UA": {
 		"name": "Украïнська",
-		"dir": "ltr"
+		"dir": "ltr",
+		"crowdin": "uk"
 	},
 	"zh-CN": {
 		"name": "中文 (简体)",

@@ -6,7 +6,8 @@ const i18n = {
 		{%- if site.data.languages contains language[0] or language[0] == "ic-IC" -%}
 			"{{ language[0] }}": {
 				{%- assign lang = language[0] -%}
-				"dir": "{{ site.data.languages[lang].dir }}",
+				"dir": "{{ site.data.languages[lang].dir | default: "ltr" }}",
+				{%- if site.data.languages[lang] contains "crowdin" -%}"crowdin": "{{ site.data.languages[lang].crowdin }}",{%- endif -%}
 				"strings": {
 					{%- for item in language[1] -%}
 						"{{ item[0] | replace: '"', '\"' }}":"{{ item[1] | replace: '"', '\"' }}"{% unless forloop.last %},{% endunless %}
@@ -64,6 +65,8 @@ function loadLang(initing) {
 			element.children[0].classList.remove("active");
 		}
 	}
+
+	document.getElementById("translate-on-crowdin").href = `https://${i18n[languageID].crowdin || "www"}.crowdin.com/project/universal-db`;
 
 	if(languageID == "ic-IC") {
 		_jipt.push(['project', 'universal-db']);
