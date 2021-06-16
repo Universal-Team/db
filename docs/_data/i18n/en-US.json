@@ -16,6 +16,7 @@
 	"ds": "DS",
 	"all": "All",
 	"source": "Source",
+	"translate-here": "Translate here",
 	"translate-on-crowdin": "Translate on Crowdin",
 	"cat-emulator": "Emulators & Hypervisors",
 	"cat-extra": "Extras",

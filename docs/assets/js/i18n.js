@@ -1,7 +1,7 @@
 ---
 ---
 
-let i18n = {
+const i18n = {
 	{%- for language in site.data.i18n -%}
 		{%- if site.data.languages contains language[0] -%}
 			"{{ language[0] }}": {
@@ -16,6 +16,8 @@ let i18n = {
 		{%- endif -%}
 	{%- endfor -%}
 };
+
+var _jipt = [];
 
 loadLang(true);
 
@@ -62,6 +64,30 @@ function loadLang(initing) {
 			element.children[0].classList.remove("active");
 		}
 	}
+
+	if(languageID == "ic-IC") {
+		_jipt.push(['project', 'universal-db']);
+		_jipt.push(['escape', function() {
+			delete localStorage.language;
+			location.reload();
+		}]);
+
+		let langCheck = setInterval(() => {
+			let selectedLang = document.getElementsByClassName("crowdin-jipt")?.[4]?.contentWindow.document.getElementById("jipt-target-languages").value;
+			if(selectedLang) {
+				clearInterval(langCheck);
+				if(["he"].includes(selectedLang)) {
+					document.dir = "rtl";
+					let bootstrapStylesheet = document.getElementById("bootstrap-stylesheet");
+					bootstrapStylesheet.integrity = "sha384-mUkCBeyHPdg0tqB6JDd+65Gpw5h/l8DKcCTV2D2UpaMMFd7Jo8A+mDAosaWgFBPl";
+					bootstrapStylesheet.href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.rtl.min.css";
+				}
+			}
+		}, 500);
+		let script = document.createElement("script");
+		script.src = "//cdn.crowdin.com/jipt/jipt.js";
+		document.head.appendChild(script);
+	}
 }
 
 function getLang() {
@@ -76,7 +102,9 @@ function getLang() {
 }
 
 function setLang(lang) {
-	if(getLang() == lang)
+	const prevLang = getLang();
+
+	if(prevLang == lang)
 		return;
 
 	if(lang)
@@ -86,4 +114,7 @@ function setLang(lang) {
 
 	loadLang(false);
 	updateDates();
+
+	if(prevLang == "ic-IC")
+		location.reload();
 }
