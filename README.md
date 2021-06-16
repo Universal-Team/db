@@ -1,5 +1,6 @@
 # Universal-DB
 > An online database of 3DS and DS homebrew
+
 [![Crowdin](https://badges.crowdin.net/universal-db/localized.svg)](https://crowdin.com/project/universal-db)
 
 ## Official uses
