@@ -95,7 +95,9 @@ function getLang() {
 		return localStorage.language;
 
 	for(let wl of window.navigator.languages) {
-		let l = Object.keys(i18n).find(r => r.substr(0, 2) == wl.substr(0, 2));
+		let l = Object.keys(i18n).find(r => r == `${wl.substr(0, 2)}-${wl.substr(3, 2).toUpperCase()}`);
+		if(!l) // If no match for lang-COUNTRY, try just lang
+			l = Object.keys(i18n).find(r => r.substr(0, 2) == wl.substr(0, 2));
 		if(l)
 			return languageID = `${l.substr(0, 2)}-${l.substr(3, 3).toUpperCase()}`;
 	}
