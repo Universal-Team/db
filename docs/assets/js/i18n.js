@@ -73,8 +73,9 @@ function loadLang(initing) {
 		}]);
 
 		let langCheck = setInterval(() => {
-			let selectedLang = document.getElementsByClassName("crowdin-jipt")?.[4]?.contentWindow.document.getElementById("jipt-target-languages").value;
-			if(selectedLang) {
+			let jipt = document.getElementsByClassName("crowdin-jipt");
+			if(jipt && jipt.length > 4) {
+				let selectedLang = jipt[4].contentWindow.document.getElementById("jipt-target-languages").value;
 				clearInterval(langCheck);
 				if(["he"].includes(selectedLang)) {
 					document.dir = "rtl";
