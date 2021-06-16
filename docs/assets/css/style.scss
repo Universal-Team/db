@@ -209,28 +209,57 @@ img {
 	max-height: 250px;
 }
 
-.btn-back {
-	position: absolute;
-	left: 5px;
-	margin: 5px 0;
-	font-size: 8pt;
-	padding: 5px;
-	z-index: 10;
+
+html:not([dir=rtl]) {
+	.btn-back {
+		position: absolute;
+		left: 5px;
+		margin: 5px 0;
+		font-size: 8pt;
+		padding: 5px;
+		z-index: 10;
+	}
+
+	.btn-with-qr {
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+		margin-right: 0!important;
+		padding-right: 0.25rem;
+	}
+	
+	.btn-qr {
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+		margin-left: -5px!important;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
 }
 
-.btn-with-qr {
-	border-top-right-radius: 0;
-	border-bottom-right-radius: 0;
-	margin-right: 0!important;
-	padding-right: 0.25rem;
-}
+html[dir=rtl] {
+	.btn-back {
+		position: absolute;
+		right: 5px;
+		margin: 5px 0;
+		font-size: 8pt;
+		padding: 5px;
+		z-index: 10;
+	}
 
-.btn-qr {
-	border-top-left-radius: 0;
-	border-bottom-left-radius: 0;
-	margin-left: -5px!important;
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
+	.btn-with-qr {
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+		margin-left: 0!important;
+		padding-left: 0.25rem;
+	}
+	
+	.btn-qr {
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+		margin-right: -5px!important;
+		padding-right: 0.5rem;
+		padding-left: 0.5rem;
+	}
 }
 
 // Input box
@@ -313,6 +342,15 @@ img {
 .form-select-dark {
 	background-color: #444;
 	border: 1px solid #333;
+}
+
+@media only screen and (min-width: 576px) {
+	// Seems to be broken in RTL in bootstrap v5.0-beta1, so override here
+	html[dir=rtl] .dropdown-menu-sm-end {
+		--bs-position: end;
+		right: auto;
+		left: 0;
+	}
 }
 
 @media only screen and (min-width: 1024px) {

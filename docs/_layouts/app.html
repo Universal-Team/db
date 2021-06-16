@@ -33,7 +33,7 @@ layout: compress
 												<img class="mx-auto d-block mw-100" src="{{ page.icon }}" alt="{{ page.title }}">
 											</div>
 										{% endif %}
-										<div class="card-body">
+										<div class="card-body" dir="ltr">
 											<div>
 												<h4 class="card-title text-center {% if page.author %}mb-0{% endif %}">{{ page.title }}</h4>
 												{% if page.author %}
@@ -194,7 +194,9 @@ layout: compress
 									<div class="row mt-3">
 										<div class="col-12">
 											<h2 class="i18n innerHTML-description">Description</h2>
-											{{ content }}
+											<div dir="ltr">
+												{{ content }}
+											</div>
 										</div>
 									</div>
 								{% endif %}

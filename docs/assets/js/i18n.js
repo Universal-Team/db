@@ -3,14 +3,16 @@
 
 let i18n = {
 	{%- for language in site.data.i18n -%}
-		"{{ language[0] }}": {
-			"dir": {%- for lang in site.data.languages -%}{%- if lang[1].id == language[0] -%}"{{- lang[1].dir -}}"{%- endif -%}{%- endfor -%},
-			"strings": {
-				{%- for item in language[1] -%}
-					"{{ item[0] | replace: '"', '\"' }}":"{{ item[1] | replace: '"', '\"' }}"{% unless forloop.last %},{% endunless %}
-				{%- endfor -%}
-			}
-		}{% unless forloop.last %},{% endunless %}
+		{%- for lang in site.data.languages -%}{%- if lang[1].id == language[0] -%}
+			"{{ language[0] }}": {
+				"dir": "{{ lang[1].dir }}",
+				"strings": {
+					{%- for item in language[1] -%}
+						"{{ item[0] | replace: '"', '\"' }}":"{{ item[1] | replace: '"', '\"' }}"{% unless forloop.last %},{% endunless %}
+					{%- endfor -%}
+				}
+			},
+		{%- endif -%}{%- endfor -%}
 	{%- endfor -%}
 };
 
@@ -44,6 +46,13 @@ function loadLang(initing) {
 
 	document.documentElement.lang = languageID;
 	document.documentElement.dir = i18n[languageID].dir;
+	if(document.dir == "rtl") {
+		document.getElementById("bootstrap-stylesheet").integrity = "sha384-mUkCBeyHPdg0tqB6JDd+65Gpw5h/l8DKcCTV2D2UpaMMFd7Jo8A+mDAosaWgFBPl";
+		document.getElementById("bootstrap-stylesheet").href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.rtl.min.css";
+	} else {
+		document.getElementById("bootstrap-stylesheet").integrity = "sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1";
+		document.getElementById("bootstrap-stylesheet").href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css";
+	}
 
 	for(let element of document.getElementById("language-dropdown").children) {
 		if(element.children[0].lang == languageID) {
