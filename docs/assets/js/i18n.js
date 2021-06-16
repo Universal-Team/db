@@ -3,16 +3,17 @@
 
 let i18n = {
 	{%- for language in site.data.i18n -%}
-		{%- for lang in site.data.languages -%}{%- if lang[1].id == language[0] -%}
+		{%- if site.data.languages contains language[0] -%}
 			"{{ language[0] }}": {
-				"dir": "{{ lang[1].dir }}",
+				{%- assign lang = language[0] -%}
+				"dir": "{{ site.data.languages[lang].dir }}",
 				"strings": {
 					{%- for item in language[1] -%}
 						"{{ item[0] | replace: '"', '\"' }}":"{{ item[1] | replace: '"', '\"' }}"{% unless forloop.last %},{% endunless %}
 					{%- endfor -%}
 				}
 			},
-		{%- endif -%}{%- endfor -%}
+		{%- endif -%}
 	{%- endfor -%}
 };
 

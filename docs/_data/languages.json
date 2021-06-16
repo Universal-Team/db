@@ -1,10 +1,10 @@
 {
-	"English": {
-		"id": "en-US",
+	"en-US": {
+		"name": "English",
 		"dir": "ltr"
 	},
-	"日本語": {
-		"id": "ja-JP",
+	"ja-JP": {
+		"name": "日本語",
 		"dir": "ltr"
 	}
 }

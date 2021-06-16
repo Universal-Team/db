@@ -37,8 +37,9 @@
 					</svg>
 				</button>
 				<ul class="dropdown-menu dropdown-menu-sm-end hover-content" id="language-dropdown">
-					{% for item in site.data.languages %}
-						<li><a class="dropdown-item {% if item[0] == "English" %}active{% endif %}" href="javascript:setLang('{{ item[1].id }}')" lang="{{ item[1].id }}" dir="{{ item[1].dir }}">{{ item[0] }}</a></li>
+					{% assign languages = site.data.languages | sort %}
+					{% for item in languages %}
+						<li><a class="dropdown-item {% if item[0] == "en-US" %}active{% endif %}" href="javascript:setLang('{{ item[0] }}')" lang="{{ item[0] }}" dir="{{ item[1].dir }}">{{ item[1].name }}</a></li>
 					{% endfor %}
 					<li><hr class="dropdown-divider"></li>
 					<!-- <li><a class="dropdown-item" type="button" onclick="setLang('ic-IC')" accesskey="t">Translate here</a></li> -->
