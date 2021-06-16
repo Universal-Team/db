@@ -19,7 +19,7 @@ layout: compress
 						{{ content }}
 
 						{% if page.description %}
-							<div class="alert alert-secondary mb-4">
+							<div class="alert alert-secondary mb-4 i18n innerHTML-catdesc-{{ page.category }}">
 								{{ page.description | escape }}
 							</div>
 						{% endif %}
