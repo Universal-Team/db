@@ -1,0 +1,7 @@
+"project_id_env": "UNIVERSAL_DB_CROWDIN_ID"
+"api_token_env": "CROWDIN_TOKEN"
+preserve_hierarchy: true
+
+files:
+  - source: /docs/_data/i18n/en-US.json
+    translation: /docs/_data/i18n/%locale%.json
