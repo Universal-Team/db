@@ -1,95 +1,95 @@
 {
-	"bruh-US": {
-		"name": "Bruh",
+	"Bruh": {
+		"id": "bruh-US",
 		"dir": "ltr"
 	},
-	"da-DK": {
-		"name": "Dansk",
+	"Dansk": {
+		"id": "da-DK",
 		"dir": "ltr",
 		"crowdin": "da"
 	},
-	"de-DE": {
-		"name": "Deutsch",
+	"Deutsch": {
+		"id": "de-DE",
 		"dir": "ltr",
 		"crowdin": "de"
 	},
-	"en-US": {
-		"name": "English",
+	"English": {
+		"id": "en-US",
 		"dir": "ltr"
 	},
-	"es-ES": {
-		"name": "Español",
+	"Español": {
+		"id": "es-ES",
 		"dir": "ltr",
 		"crowdin": "es"
 	},
-	"fr-FR": {
-		"name": "Français",
+	"Français": {
+		"id": "fr-FR",
 		"dir": "ltr",
 		"crowdin": "fr"
 	},
-	"he-IL": {
-		"name": "עברית",
+	"עברית": {
+		"id": "he-IL",
 		"dir": "rtl"
 	},
-	"hu-HU": {
-		"name": "Magyar",
+	"Magyar": {
+		"id": "hu-HU",
 		"dir": "ltr",
 		"crowdin": "hu"
 	},
-	"it-IT": {
-		"name": "Italiano",
+	"Italiano": {
+		"id": "it-IT",
 		"dir": "ltr",
 		"crowdin": "it"
 	},
-	"ja-JP": {
-		"name": "日本語",
+	"日本語": {
+		"id": "ja-JP",
 		"dir": "ltr",
 		"crowdin": "ja"
 	},
-	"ko-KR": {
-		"name": "한국어",
+	"한국어": {
+		"id": "ko-KR",
 		"dir": "ltr"
 	},
-	"lt-LT": {
-		"name": "Lietuvių",
+	"Lietuvių": {
+		"id": "lt-LT",
 		"dir": "ltr"
 	},
-	"pl-PL": {
-		"name": "Polski",
+	"Polski": {
+		"id": "pl-PL",
 		"dir": "ltr",
 		"crowdin": "pl"
 	},
-	"pt-BR": {
-		"name": "Português (Brasil)",
+	"Português (Brasil)": {
+		"id": "pt-BR",
 		"dir": "ltr",
 		"crowdin": "pt"
 	},
-	"pt-PT": {
-		"name": "Português (Portugal)",
+	"Português (Portugal)": {
+		"id": "pt-PT",
 		"dir": "ltr",
 		"crowdin": "pt"
 	},
-	"ru-RU": {
-		"name": "Русский",
+	"Русский": {
+		"id": "ru-RU",
 		"dir": "ltr",
 		"crowdin": "ru"
 	},
-	"tr-TR": {
-		"name": "Türkçe",
+	"Türkçe": {
+		"id": "tr-TR",
 		"dir": "ltr",
 		"crowdin": "tr"
 	},
-	"uk-UA": {
-		"name": "Украïнська",
+	"Украïнська": {
+		"id": "uk-UA",
 		"dir": "ltr",
 		"crowdin": "uk"
 	},
-	"zh-CN": {
-		"name": "中文 (简体)",
+	"中文 (简体)": {
+		"id": "zh-CN",
 		"dir": "ltr"
 	},
-	"zh-TW": {
-		"name": "中文 (繁體)",
+	"中文 (繁體)": {
+		"id": "zh-TW",
 		"dir": "ltr"
 	}
 }

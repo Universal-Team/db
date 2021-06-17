@@ -2,19 +2,20 @@
 ---
 
 const i18n = {
-	{%- for language in site.data.i18n -%}
-		{%- if site.data.languages contains language[0] or language[0] == "ic-IC" -%}
-			"{{ language[0] }}": {
-				{%- assign lang = language[0] -%}
-				"dir": "{{ site.data.languages[lang].dir | default: "ltr" }}",
-				{%- if site.data.languages[lang] contains "crowdin" -%}"crowdin": "{{ site.data.languages[lang].crowdin }}",{%- endif -%}
-				"strings": {
-					{%- for item in language[1] -%}
-						"{{ item[0] | replace: '"', '\"' }}":"{{ item[1] | replace: '"', '\"' }}"{% unless forloop.last %},{% endunless %}
-					{%- endfor -%}
-				}
-			},
-		{%- endif -%}
+	{%- for i18n in site.data.i18n -%}
+		{%- for lang in site.data.languages -%}
+			{%- if lang[1].id == i18n[0] -%}
+				"{{ i18n[0] }}": {
+					"dir": "{{ lang[1].dir | default: "ltr" }}",
+					{%- if lang[1] contains "crowdin" -%}"crowdin": "{{ lang[1].crowdin }}",{%- endif -%}
+					"strings": {
+						{%- for item in i18n[1] -%}
+							"{{ item[0] | replace: '"', '\"' }}":"{{ item[1] | replace: '"', '\"' }}"{% unless forloop.last %},{% endunless %}
+						{%- endfor -%}
+					}
+				},
+			{%- endif -%}
+		{%- endfor -%}
 	{%- endfor -%}
 };
 
