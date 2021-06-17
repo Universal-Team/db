@@ -95,7 +95,7 @@ layout: compress
 											<span class="text-nowrap">
 												<a class="btn btn-primary m-1 {% if itemQR %}btn-with-qr{% endif %} i18n innerHTML-download-name" {% if item[1].size_str %}title="Size: {{ item[1].size_str }}"{% endif %} href="{{ item[1].url }}" data-name="{{ item[0] }}">Download {{ item[0] }}</a>
 												{% if itemQR %}
-													<a class="btn btn-primary qr-link btn-qr i18n ariaLabel-show-qr-for" href="{{ itemQR[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}" aria-label="Show QR Code for {{ item[0] }}">
+													<a class="btn btn-primary qr-link btn-qr i18n ariaLabel-show-qr-for" href="{{ itemQR[1] }}" target="_blank" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}" aria-label="Show QR Code for {{ item[0] }}">
 														<i class="fa fa-qrcode" aria-hidden="true"></i>
 													</a>
 												{% endif %}
@@ -134,7 +134,7 @@ layout: compress
 												<span class="text-nowrap">
 													<a class="btn btn-secondary m-1 {% if itemQR %}btn-with-qr{% endif %} i18n innerHTML-download-name" {% if item[1].size_str %}title="Size: {{ item[1].size_str }} bytes"{% endif %} href="{{ item[1].url }}" data-name="{{ item[0] }}">Download {{ item[0] }}</a>
 													{% if itemQR %}
-														<a class="btn btn-secondary qr-link btn-qr i18n ariaLabel-show-qr-for" href="{{ itemQR[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}" aria-label="Show QR Code for {{ item[0] }}">
+														<a class="btn btn-secondary qr-link btn-qr i18n ariaLabel-show-qr-for" href="{{ itemQR[1] }}" target="_blank" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}" aria-label="Show QR Code for {{ item[0] }}">
 															<i class="fa fa-qrcode" aria-hidden="true"></i>
 														</a>
 													{% endif %}
@@ -174,7 +174,7 @@ layout: compress
 												<span class="text-nowrap">
 													<a class="btn btn-dark m-1 {% if itemQR %}btn-with-qr{% endif %} i18n innerHTML-download-name" {% if item[1].size_str %}title="Size: {{ item[1].size_str }} bytes"{% endif %} href="{{ item[1].url }}" data-name="{{ item[0] }}">Download {{ item[0] }}</a>
 													{% if itemQR %}
-														<a class="btn btn-dark qr-link btn-qr i18n ariaLabel-show-qr-for" href="{{ itemQR[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}" aria-label="Show QR Code for {{ item[0] }}">
+														<a class="btn btn-dark qr-link btn-qr i18n ariaLabel-show-qr-for" href="{{ itemQR[1] }}" target="_blank" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}" aria-label="Show QR Code for {{ item[0] }}">
 															<i class="fa fa-qrcode" aria-hidden="true"></i>
 														</a>
 													{% endif %}

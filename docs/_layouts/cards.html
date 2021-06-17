@@ -108,7 +108,7 @@ layout: compress
 															{% if app.qr.size == 1 %}
 																<p class="text-right">
 																	{% for qr in app.qr %}
-																		<a class="qr-link i18n ariaLabel-show-qr-for" href="{{ qr[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}" aria-label="Show QR Code for {{ qr[0] }}">
+																		<a class="qr-link i18n ariaLabel-show-qr-for" href="{{ qr[1] }}" target="_blank" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}" aria-label="Show QR Code for {{ qr[0] }}">
 																			<i class="fa fa-qrcode pointer" aria-hidden="true"></i>
 																		</a>
 																	{% endfor %}
@@ -116,7 +116,7 @@ layout: compress
 															{% elsif app.prerelease.qr.size == 1 %}
 																<p class="text-right">
 																	{% for qr in app.prerelease.qr %}
-																		<a class="qr-link i18n ariaLabel-show-qr-for" href="{{ qr[1] }}" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}" aria-label="Show QR Code for {{ qr[0] }}">
+																		<a class="qr-link i18n ariaLabel-show-qr-for" href="{{ qr[1] }}" target="_blank" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}" aria-label="Show QR Code for {{ qr[0] }}">
 																			<i class="fa fa-qrcode pointer" aria-hidden="true"></i>
 																		</a>
 																	{% endfor %}
