@@ -52,7 +52,7 @@
 	"wiki": "ウィキ",
 	"downloads": "ダウンロード",
 	"download-name": "${name}をダウンロード",
-	"update-notes": "更新履歴",
+	"update-notes": "リリースノート",
 	"prereleases": "プレリリース",
 	"nightlies": "ナイトリー",
 	"nightly-desc": "コミット・ベータのビルド、不安定になる可能性がありが、最新の更新があります",

@@ -47,7 +47,7 @@
 	"system": "מערכת: ",
 	"version": "גירסה: ",
 	"show-qr-for": "הראה קוד QR עבור ${name}",
-	"back": "<i class=\"fa fa-chevron-left\" aria-hidden=\"true\"></i> חזור",
+	"back": "<i class=\"fa fa-chevron-right\" aria-hidden=\"true\"></i> חזור",
 	"website": "אתר",
 	"wiki": "וויקי",
 	"downloads": "הורדות",

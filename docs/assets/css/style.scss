@@ -234,6 +234,10 @@ html:not([dir=rtl]) {
 		padding-left: 0.5rem;
 		padding-right: 0.5rem;
 	}
+
+	.end-3 {
+		right: 1rem;
+	}
 }
 
 html[dir=rtl] {
@@ -259,6 +263,10 @@ html[dir=rtl] {
 		margin-right: -5px!important;
 		padding-right: 0.5rem;
 		padding-left: 0.5rem;
+	}
+
+	.end-3 {
+		left: 1rem;
 	}
 }
 

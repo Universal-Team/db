@@ -88,42 +88,34 @@ layout: compress
 											</a>
 											{% if app.version or app.qr.size == 1 or app.prerelease.qr.size == 1 %}
 												<div class="card-footer b-0">
-													<div class="row">
-														<div class="{% if app.qr.size == 1 or app.prerelease.qr.size == 1 %}col-10{% else %}col-12{% endif %}">
-															<small class="text-muted">
-																{% unless page.system %}
-																	<span class="i18n innerHTML-system">System: </span>{{ app.systems | join: ", "}}
-																	<br>
-																{% endunless %}
-																{% if app.version %}
-																	<span class="i18n innerHTML-version">Version: </span>{{ app.version }}
-																{% endif %}
-																{% if app.updated != "---" %}
-																	{% if app.version %}<br>{% endif %}
-																	<span class="i18n innerHTML-last-updated">Last updated: </span><time datetime="{{ app.updated }}" title="{{ app.updated | date: '%Y-%m-%d at %H:%M' }}">{{ app.updated | date: "%Y-%m-%d" }}</time>
-																{% endif %}
-															</small>
-														</div>
-														<div class="col-2">
-															{% if app.qr.size == 1 %}
-																<p class="text-right">
-																	{% for qr in app.qr %}
-																		<a class="qr-link i18n ariaLabel-show-qr-for" href="{{ qr[1] }}" target="_blank" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}" aria-label="Show QR Code for {{ qr[0] }}">
-																			<i class="fa fa-qrcode pointer" aria-hidden="true"></i>
-																		</a>
-																	{% endfor %}
-																</p>
-															{% elsif app.prerelease.qr.size == 1 %}
-																<p class="text-right">
-																	{% for qr in app.prerelease.qr %}
-																		<a class="qr-link i18n ariaLabel-show-qr-for" href="{{ qr[1] }}" target="_blank" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}" aria-label="Show QR Code for {{ qr[0] }}">
-																			<i class="fa fa-qrcode pointer" aria-hidden="true"></i>
-																		</a>
-																	{% endfor %}
-																</p>
-															{% endif %}
-														</div>
+													<div class="position-absolute end-3">
+														{% if app.qr.size == 1 %}
+															{% for qr in app.qr %}
+																<a class="qr-link i18n ariaLabel-show-qr-for" href="{{ qr[1] }}" target="_blank" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}" aria-label="Show QR Code for {{ qr[0] }}">
+																	<i class="fa fa-qrcode pointer" aria-hidden="true"></i>
+																</a>
+															{% endfor %}
+														{% elsif app.prerelease.qr.size == 1 %}
+															{% for qr in app.prerelease.qr %}
+																<a class="qr-link i18n ariaLabel-show-qr-for" href="{{ qr[1] }}" target="_blank" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}" aria-label="Show QR Code for {{ qr[0] }}">
+																	<i class="fa fa-qrcode pointer" aria-hidden="true"></i>
+																</a>
+															{% endfor %}
+														{% endif %}
 													</div>
+													<small class="text-muted">
+														{% unless page.system %}
+															<span class="i18n innerHTML-system">System: </span>{{ app.systems | join: ", "}}
+															<br>
+														{% endunless %}
+														{% if app.version %}
+															<span class="i18n innerHTML-version">Version: </span>{{ app.version }}
+														{% endif %}
+														{% if app.updated != "---" %}
+															{% if app.version %}<br>{% endif %}
+															<span class="i18n innerHTML-last-updated">Last updated: </span><time datetime="{{ app.updated }}" title="{{ app.updated | date: '%Y-%m-%d at %H:%M' }}">{{ app.updated | date: "%Y-%m-%d" }}</time>
+														{% endif %}
+													</small>
 												</div>
 											{% endif %}
 										</div>
