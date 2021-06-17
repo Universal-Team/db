@@ -11,15 +11,15 @@
 				{% for item in site.data.nav %}
 					{% if item.url %}
 						<li class="nav-item">
-							<a class="nav-link {% if item.title == page.title %} active {% endif %} i18n innerHTML-{%if item.i18n %}{{ item.i18n }}{% else %}{{ item.title | downcase | replace: " ", "-" }}{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+							<a class="nav-link {% if item.title == page.title %}active{% endif %} i18n innerHTML-{%if item.i18n %}{{ item.i18n }}{% else %}{{ item.title | downcase | replace: " ", "-" }}{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
 						</li>
 					{% elsif item.items %}
 						<li class="nav-item dropdown">
-							<a class="nav-link {% for entry in item.items %}{% if entry.page_title == page.title %}active{% endif %}{% endfor %} dropdown-toggle i18n innerHTML-{%if item.i18n %}{{ item.i18n }}{% else %}{{ item.title | downcase | replace: " ", "-" }}{% endif %}" href="#" id="navbar-dropdown-menu-link-{{ item.title }}" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" {% if entry.key %}accesskey="{{ item.key }}"{% endif %}>{{ item.title }}</a>
+							<a class="nav-link {% for entry in item.items %}{% if entry.page_title == page.title or page.systems contains item.title %}active{% break %}{% endif %}{% endfor %} dropdown-toggle i18n innerHTML-{%if item.i18n %}{{ item.i18n }}{% else %}{{ item.title | downcase | replace: " ", "-" }}{% endif %}" href="#" id="navbar-dropdown-menu-link-{{ item.title }}" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" {% if entry.key %}accesskey="{{ item.key }}"{% endif %}>{{ item.title }}</a>
 							<div class="dropdown-menu hover-content" aria-labelledby="navbar-dropdown-menu-link-{{ item.title }}">
 								<ul class="list-unstyled">
 									{% for entry in item.items %}
-										<li><a class="dropdown-item{% if entry.page_title == page.title %} active {% endif %} i18n innerHTML-{%if entry.i18n %}{{ entry.i18n }}{% else %}{{ entry.title | downcase | replace: " ", "-" }}{% endif %}" href="{{ entry.url }}" {% if entry.key %}accesskey="{{ entry.key }}"{% endif %}>{{ entry.title }}</a></li>
+										<li><a class="dropdown-item {% if entry.page_title == page.title %}active{% endif %} i18n innerHTML-{%if entry.i18n %}{{ entry.i18n }}{% else %}{{ entry.title | downcase | replace: " ", "-" }}{% endif %}" href="{{ entry.url }}" {% if entry.key %}accesskey="{{ entry.key }}"{% endif %}>{{ entry.title }}</a></li>
 									{% endfor %}
 								</ul>
 							</div>
