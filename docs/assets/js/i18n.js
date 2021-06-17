@@ -20,33 +20,10 @@ const i18n = {
 
 var _jipt = [];
 
-loadLang(true);
+loadHead();
 
-function loadLang(initing) {
-	let languageID = getLang();
-
-	if(!languageID || (initing && languageID == "en-US"))
-		return;
-
-	if(!(languageID in i18n))
-		return console.warn("Language not found", languageID);
-
-	for(let element of document.getElementsByClassName("i18n")) {
-		for(let c of element.classList) {
-			let match = c.match(/(innerHTML|title|placeholder|ariaLabel|data-(.*?))-(.*)/);
-			if(match) {
-				let str = i18n[languageID].strings[match[3]];
-				if(str) {
-					if(match[2])
-						element.dataset[match[2]] = str.replace(/\${(.*)}/g, (full, capture) => element.dataset[capture]);
-					else
-						element[match[1]] = str.replace(/\${(.*)}/g, (full, capture) => element.dataset[capture]);
-				} else {
-					console.warn("Translation is missing string", match[3]);
-				}
-			}
-		}
-	}
+function loadHead(lang) {
+	let languageID = lang || getLang();
 
 	document.documentElement.lang = languageID;
 	document.documentElement.dir = i18n[languageID].dir;
@@ -57,16 +34,6 @@ function loadLang(initing) {
 		document.getElementById("bootstrap-stylesheet").integrity = "sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1";
 		document.getElementById("bootstrap-stylesheet").href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css";
 	}
-
-	for(let element of document.getElementById("language-dropdown").children) {
-		if(element.children[0].lang == languageID) {
-			element.children[0].classList.add("active");
-		} else {
-			element.children[0].classList.remove("active");
-		}
-	}
-
-	document.getElementById("translate-on-crowdin").href = `https://${i18n[languageID].crowdin || "www"}.crowdin.com/project/universal-db`;
 
 	if(languageID == "ic-IC") {
 		_jipt.push(['project', 'universal-db']);
@@ -92,6 +59,45 @@ function loadLang(initing) {
 		script.src = "//cdn.crowdin.com/jipt/jipt.js";
 		document.head.appendChild(script);
 	}
+}
+
+function loadLang(initing) {
+	let languageID = getLang();
+	if(!languageID || (initing && languageID == "en-US"))
+		return;
+
+	if(!initing)
+		loadHead(false, languageID);
+
+	if(!(languageID in i18n))
+		return console.warn("Language not found", languageID);
+
+	for(let element of document.getElementsByClassName("i18n")) {
+		for(let c of element.classList) {
+			let match = c.match(/(innerHTML|title|placeholder|ariaLabel|data-(.*?))-(.*)/);
+			if(match) {
+				let str = i18n[languageID].strings[match[3]];
+				if(str) {
+					if(match[2])
+						element.dataset[match[2]] = str.replace(/\${(.*)}/g, (full, capture) => element.dataset[capture]);
+					else
+						element[match[1]] = str.replace(/\${(.*)}/g, (full, capture) => element.dataset[capture]);
+				} else {
+					console.warn("Translation is missing string", match[3]);
+				}
+			}
+		}
+	}
+
+	for(let element of document.getElementById("language-dropdown").children) {
+		if(element.children[0].lang == languageID) {
+			element.children[0].classList.add("active");
+		} else {
+			element.children[0].classList.remove("active");
+		}
+	}
+
+	document.getElementById("translate-on-crowdin").href = `https://${i18n[languageID].crowdin || "www"}.crowdin.com/project/universal-db`;
 }
 
 function getLang() {
