@@ -11,3 +11,4 @@
 		</div>
 	</div>
 </div>
+<button class="d-none" data-bs-toggle="modal" data-bs-target="#modal" data-name="Access Keys" data-content="<ul><li><kbd>?</kbd>: Show this help</li><li><kbd>/</kbd>: Focus search box</li><li><kbd>h</kbd>: Go to home page</li>{% for item in site.data.nav %}{% if item.key %}<li><kbd>{{ item.key }}</kbd>: Go to {{ item.title }} page</li>{% elsif item.items %}{% for entry in item.items %}{% if entry.key %}<li><kbd>{{ entry.key }}</kbd>: Go to {{ item.title }}/{{ entry.title }} page</li>{% endif %}{% endfor %}{% endif %}{% endfor %}<li><kbd>t</kbd>: Translate page</li><li><kbd>c</kbd>: Go to translation project on Crowdin</li><li><kbd>s</kbd>: Go to source code on GitHub</li></ul>" accesskey="?"></button>
