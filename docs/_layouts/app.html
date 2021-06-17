@@ -54,7 +54,7 @@ layout: compress
 												<span class="i18n innerHTML-categories">Categories: </span>
 												{%- for category in page.categories -%}
 													{%- assign cat = category | prepend: "cat-" -%}
-													<a href="/{{ page.collection }}/{{ category }}" class="i18n innerHTML-cat-{{ category }}">{{ site.data.i18n.en-US[cat] }}</a>{% if forloop.last == false %},{% endif %}
+													<a href="/{{ page.collection }}/category/{{ category }}" class="i18n innerHTML-cat-{{ category }}">{{ site.data.i18n.en-US[cat] }}</a>{% if forloop.last == false %},{% endif %}
 												{% endfor %}
 											{% endif %}
 											{% if page.created != "---" %}

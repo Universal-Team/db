@@ -15,32 +15,32 @@
       {
         "title": "Emulators",
         "page_title": "3DS - Emulators & Hypervisors",
-        "url": "/3ds/emulator",
+        "url": "/3ds/category/emulator",
         "i18n": "cat-emulator"
         
       },
       {
         "title": "FIRMs",
         "page_title":"3DS - FIRMs",
-        "url": "/3ds/firm",
+        "url": "/3ds/category/firm",
         "i18n": "cat-firm"
       },
       {
         "title": "Games",
         "page_title":"3DS - Games",
-        "url": "/3ds/game",
+        "url": "/3ds/category/game",
         "i18n": "cat-game"
       },
       {
         "title": "Save Tools",
         "page_title":"3DS - Save Tools",
-        "url": "/3ds/save-tool",
+        "url": "/3ds/category/save-tool",
         "i18n": "cat-save-tool"
       },
       {
         "title": "Utilities",
         "page_title":"3DS - Utilities",
-        "url": "/3ds/utility",
+        "url": "/3ds/category/utility",
         "i18n": "cat-utility"
       }
     ]
@@ -57,31 +57,31 @@
       {
         "title": "Emulators & Hypervisors",
         "page_title": "DS - Emulators & Hypervisors",
-        "url": "/ds/emulator",
+        "url": "/ds/category/emulator",
         "i18n": "cat-emulator"
       },
       {
         "title": "Extras",
         "page_title": "DS - Extras",
-        "url": "/ds/extra",
+        "url": "/ds/category/extra",
         "i18n": "cat-extra"
       },
       {
         "title": "Games",
         "page_title": "DS - Games",
-        "url": "/ds/game",
+        "url": "/ds/category/game",
         "i18n": "cat-game"
       },
       {
         "title": "Save Tools",
         "page_title": "DS - Save Tools",
-        "url": "/ds/save-tool",
+        "url": "/ds/category/save-tool",
         "i18n": "cat-save-tool"
       },
       {
         "title": "Utilities",
         "page_title": "DS - Utilities",
-        "url": "/ds/utility",
+        "url": "/ds/category/utility",
         "i18n": "cat-utility"
       }
     ]
