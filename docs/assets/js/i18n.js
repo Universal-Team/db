@@ -30,11 +30,11 @@ function loadHead(lang) {
 	document.documentElement.lang = i18n[languageID].properId || languageID;
 	document.documentElement.dir = i18n[languageID].dir;
 	if(document.dir == "rtl") {
-		document.getElementById("bootstrap-stylesheet").integrity = "sha384-LPvXVVAlyPoBSGkX8UddpctDks+1P4HG8MhT7/YwqHtJ40bstjzCqjj+VVVDhsCo";
-		document.getElementById("bootstrap-stylesheet").href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.rtl.min.css";
+		document.getElementById("bootstrap-stylesheet").integrity = "sha384-mUkCBeyHPdg0tqB6JDd+65Gpw5h/l8DKcCTV2D2UpaMMFd7Jo8A+mDAosaWgFBPl";
+		document.getElementById("bootstrap-stylesheet").href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.rtl.min.css";
 	} else {
-		document.getElementById("bootstrap-stylesheet").integrity = "sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x";
-		document.getElementById("bootstrap-stylesheet").href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css";
+		document.getElementById("bootstrap-stylesheet").integrity = "sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1";
+		document.getElementById("bootstrap-stylesheet").href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css";
 	}
 
 	if(languageID == "ic-IC") {
@@ -92,7 +92,7 @@ function loadLang(initing) {
 	}
 
 	for(let element of document.getElementById("language-dropdown").children) {
-		if(element.children[0].lang == languageID) {
+		if(element.children[0].dataset.lang == languageID) {
 			element.children[0].classList.add("active");
 		} else {
 			element.children[0].classList.remove("active");
