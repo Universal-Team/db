@@ -40,7 +40,7 @@
 					{% assign languages = site.data.languages | sort %}
 					{% for item in languages %}
 						{% if site.data.i18n contains item[1].id %}
-							<li><a class="dropdown-item {% if item[1].id == "en-US" %}active{% endif %}" href="javascript:setLang('{{ item[1].id }}')" lang="{{ item[1].id }}" dir="{{ item[1].dir }}">{{ item[0] }}</a></li>
+							<li><a class="dropdown-item {% if item[1].id == "en-US" %}active{% endif %}" href="javascript:setLang('{{ item[1].id }}')" lang="{{ item[1].proper-id | default: item[1].id }}" dir="{{ item[1].dir }}">{{ item[0] }}</a></li>
 						{% endif %}
 					{% endfor %}
 					<li><hr class="dropdown-divider"></li>

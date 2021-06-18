@@ -8,6 +8,7 @@ const i18n = {
 				"{{ i18n[0] }}": {
 					"dir": "{{ lang[1].dir | default: "ltr" }}",
 					{%- if lang[1] contains "crowdin" -%}"crowdin": "{{ lang[1].crowdin }}",{%- endif -%}
+					{%- if lang[1] contains "proper-id" -%}"properId": "{{ lang[1].proper-id }}",{%- endif -%}
 					"strings": {
 						{%- for item in i18n[1] -%}
 							"{{ item[0] | replace: '"', '\"' }}":"{{ item[1] | replace: '"', '\"' }}"{% unless forloop.last %},{% endunless %}
@@ -26,14 +27,14 @@ loadHead();
 function loadHead(lang) {
 	let languageID = lang || getLang();
 
-	document.documentElement.lang = languageID;
+	document.documentElement.lang = i18n[languageID].properId || languageID;
 	document.documentElement.dir = i18n[languageID].dir;
 	if(document.dir == "rtl") {
-		document.getElementById("bootstrap-stylesheet").integrity = "sha384-mUkCBeyHPdg0tqB6JDd+65Gpw5h/l8DKcCTV2D2UpaMMFd7Jo8A+mDAosaWgFBPl";
-		document.getElementById("bootstrap-stylesheet").href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.rtl.min.css";
+		document.getElementById("bootstrap-stylesheet").integrity = "sha384-LPvXVVAlyPoBSGkX8UddpctDks+1P4HG8MhT7/YwqHtJ40bstjzCqjj+VVVDhsCo";
+		document.getElementById("bootstrap-stylesheet").href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.rtl.min.css";
 	} else {
-		document.getElementById("bootstrap-stylesheet").integrity = "sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1";
-		document.getElementById("bootstrap-stylesheet").href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css";
+		document.getElementById("bootstrap-stylesheet").integrity = "sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x";
+		document.getElementById("bootstrap-stylesheet").href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css";
 	}
 
 	if(languageID == "ic-IC") {
