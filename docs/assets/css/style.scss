@@ -292,7 +292,7 @@ html[dir=rtl] {
 	font-weight: normal;
 }
 
-.card:hover a h4, .card:hover a small {
+.card a:hover h4, .card a:hover small {
 	color: inherit;
 }
 
@@ -323,8 +323,12 @@ html[dir=rtl] {
 	cursor: pointer;
 }
 
-.qr-link {
-	outline: none;
+.card-qr {
+	color: var(--small-color);
+}
+
+.card-qr:hover {
+	opacity: 75%;
 }
 
 .qr-image {

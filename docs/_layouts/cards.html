@@ -91,7 +91,7 @@ layout: compress
 													<div class="position-absolute end-3">
 														{% if app.qr.size == 1 %}
 															{% for qr in app.qr %}
-																<a class="qr-link i18n ariaLabel-show-qr-for" href="{{ qr[1] }}" target="_blank" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}" aria-label="Show QR Code for {{ qr[0] }}">
+																<a class="card-qr i18n ariaLabel-show-qr-for" href="{{ qr[1] }}" target="_blank" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ qr[0] }}" data-path="{{ qr[1] }}" aria-label="Show QR Code for {{ qr[0] }}">
 																	<svg class="icon icon-qr_code" aria-hidden="true"><path d="M 0,6.2346667 H 6.2346667 V 0 H 0 Z M 1.568,1.568 H 4.6666667 V 4.6666667 H 1.568 Z M 0,14 H 6.2346667 V 7.7653332 H 0 Z M 1.568,9.3333333 H 4.6666667 V 12.432 H 1.568 Z M 7.7653333,0 V 6.2346667 H 14 V 0 Z M 12.432,4.6666667 H 9.3333333 V 1.568 H 12.432 Z m 0,7.7653333 H 14 V 14 H 12.432 Z M 7.7653333,7.7653332 h 1.568 v 1.5680001 h -1.568 z m 1.568,1.5680001 H 10.901333 V 10.901333 H 9.3333333 Z m -1.568,1.5679997 h 1.568 v 1.531445 h -1.568 z m 1.568,1.530667 H 10.901333 V 14 H 9.3333333 Z m 1.5679997,-1.530667 h 1.531445 v 1.531445 h -1.531445 z m 0,-3.1359998 h 1.531445 V 9.3333333 H 10.901333 Z M 12.432,9.3333333 H 14 v 1.5679997 h -1.568 z"></path></svg>
 																</a>
 															{% endfor %}
