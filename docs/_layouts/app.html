@@ -44,7 +44,7 @@ layout: compress
 										</div>
 									{% if page.website %}</a>{% elsif page.source %}</a>{% endif %}
 									<div class="card-footer">
-										<small class="text-muted">
+										<small>
 											<span class="i18n innerHTML-system">System: </span>
 											{%- for system in page.systems -%}
 												<a href="/{{ system | downcase }}">{{ system }}</a>{% if forloop.last == false %},{% endif %}
@@ -104,7 +104,7 @@ layout: compress
 										
 										{% if page.version and page.downloads %}
 											<br>
-											<small class="text-muted">
+											<small>
 												<span class="i18n innerHTML-version">Version: </span>{% if page.download_page %}<a href="{{ page.download_page }}">{% endif %}{{ page.version }}{% if page.download_page %}</a>{% endif %}
 												{% if page.update_notes %}
 													<button class="btn btn-outline-secondary btn-sm i18n innerHTML-update-notes" data-bs-toggle="modal" data-bs-target="#modal" data-name="{% if page.version_title %}{{ page.version_title }}{% else %}{{ page.version }}{% endif %}" data-content="{{ page.update_notes | escape }}">Update notes</button>
@@ -143,7 +143,7 @@ layout: compress
 			
 											{% if page.prerelease.version %}
 												<br>
-												<small class="text-muted">
+												<small>
 													Version: {% if page.prerelease.download_page %}<a href="{{ page.prerelease.download_page }}">{% endif %}{{ page.prerelease.version }}{% if page.prerelease.download_page %}</a>{% endif %}
 													{% if page.prerelease.update_notes %}
 														<button class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#modal" data-name="{% if page.prerelease.version_title %}{{ page.prerelease.version_title }}{% else %}{{ page.prerelease.version }}{% endif %}" data-content="{{ page.prerelease.update_notes | escape }}">
@@ -183,7 +183,7 @@ layout: compress
 			
 											{% if page.nightly.download_page %}
 												<br>
-												<small class="text-muted">
+												<small>
 													<a class="i18n innerHTML-download-page" href="{{ page.nightly.download_page }}">Download page</a>
 												</small>
 											{% endif %}

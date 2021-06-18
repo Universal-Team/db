@@ -292,7 +292,7 @@ html[dir=rtl] {
 	font-weight: normal;
 }
 
-.card:hover a h4 {
+.card:hover a h4, .card:hover a small {
 	color: inherit;
 }
 
