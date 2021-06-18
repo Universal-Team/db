@@ -14,7 +14,7 @@ downloads:
     size_str: 68 MiB
     url: https://buildbot.libretro.com/stable/1.9.5/nintendo/3ds/RetroArch_3dsx.7z
   RetroArch_cia.7z:
-    size: 72956147
+    size: 72957463
     size_str: 69 MiB
     url: https://buildbot.libretro.com/stable/1.9.5/nintendo/3ds/RetroArch_cia.7z
 eval_downloads: true
