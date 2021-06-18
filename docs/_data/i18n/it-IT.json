@@ -47,7 +47,7 @@
 	"system": "Sistema: ",
 	"version": "Versione: ",
 	"show-qr-for": "Mostra QR Code per ${name}",
-	"back": "<i class=\"fa fa-chevron-left\" aria-hidden=\"true\"></i> Indietro",
+	"back": "&lt; Indietro",
 	"website": "Sito",
 	"wiki": "Wiki",
 	"downloads": "Download",

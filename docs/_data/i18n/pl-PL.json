@@ -47,7 +47,7 @@
 	"system": "System: ",
 	"version": "Wersja: ",
 	"show-qr-for": "Pokaż kod QR dla ${name}",
-	"back": "<i class=\"fa fa-chevron-left\" aria-hidden=\"true\"></i> Wstecz",
+	"back": "&lt; Wstecz",
 	"website": "Strona",
 	"wiki": "Wiki",
 	"downloads": "Pobrane",

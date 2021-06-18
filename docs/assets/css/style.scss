@@ -352,6 +352,22 @@ html[dir=rtl] {
 	border: 1px solid #333;
 }
 
+// SVG
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	stroke-width: 0;
+	stroke: currentColor;
+	fill: currentColor;
+}
+
+.icon-qr_code {
+	font-size: 14px;
+	margin-top: -3px;
+}
+
+
 @media only screen and (min-width: 576px) {
 	// Seems to be broken in RTL in bootstrap v5.0-beta1, so override here
 	html[dir=rtl] .dropdown-menu-sm-end {
