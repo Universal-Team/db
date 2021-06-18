@@ -1,11 +1,11 @@
 ---
-author: MateoThePro, LinuxCat, Matt Makes Games
+author: MateoThePro, JeffRuLz, Matt Makes Games
 avatar: https://avatars.githubusercontent.com/u/50515160?v=4
 categories:
 - game
 color: '#050506'
 created: '2021-04-17T09:15:43Z'
-description: Celeste Classic port by MateoThePro, gba port by LinuxCat, Celeste Classic
+description: Celeste Classic port by MateoThePro, gba port by JeffRuLz, Celeste Classic
   made by Matt Makes Games
 downloads:
   CelesteClassic_v1_1_homebrew.cia:
