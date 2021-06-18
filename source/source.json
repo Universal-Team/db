@@ -6451,13 +6451,13 @@
 	{
 		"github": "MateoThePro/Celeste-Classic-3DS",
 		"title": "Celeste Classic",
-		"author": "MateoThePro, LinuxCat, Matt Makes Games",
+		"author": "MateoThePro, JeffRuLz, Matt Makes Games",
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"website": "https://celestegame.fandom.com/wiki/Celeste_Classic",
 		"icon": "https://raw.githubusercontent.com/MateoThePro/Celeste-Classic-3DS/main/celeste_classic_3ds_icon.png",
 		"image": "https://raw.githubusercontent.com/MateoThePro/Celeste-Classic-3DS/main/celeste_classic_3ds_icon.png",
-		"description": "Celeste Classic port by MateoThePro, gba port by LinuxCat, Celeste Classic made by Matt Makes Games",
+		"description": "Celeste Classic port by MateoThePro, gba port by JeffRuLz, Celeste Classic made by Matt Makes Games",
 		"downloads": {
 			"CelesteClassic_v1_1_homebrew.cia": {
 				"url": "https://github.com/MateoThePro/Celeste-Classic-3DS/raw/main/CelesteClassic_v1_1_homebrew.cia"
