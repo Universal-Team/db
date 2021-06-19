@@ -9,11 +9,11 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 363554
-    size_str: 355 KiB
+    size: 363458
+    size_str: 354 KiB
     url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.42.1/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 885343
+    size: 885245
     size_str: 864 KiB
     url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.42.1/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
@@ -49,10 +49,10 @@ update_notes: '<p>Instructions:</p>
 
   <ul>
 
-  <li>Fixed screen swap button combo not working.</li>
+  <li>Fixed screen swapping not working.</li>
 
   </ul>'
-updated: '2021-06-19T02:09:15Z'
+updated: '2021-06-19T02:23:56Z'
 version: v0.42.1
 version_title: v0.42.1
 wiki: https://github.com/DS-Homebrew/nds-bootstrap/wiki
