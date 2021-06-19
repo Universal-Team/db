@@ -27,4 +27,5 @@ systems:
 - 3DS
 title: Universal-Edit
 updated: '---'
+wiki: https://github.com/Universal-Team/Universal-Edit/wiki
 ---
