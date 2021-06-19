@@ -42,28 +42,28 @@ update_notes: "<ul>\n<li><strong>Title ID\u3092\u5909\u66F4(v1.0.1\u3092\u524A\u
   \u3057\u3066\u304B\u3089\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB\u3059\u308B\u3053\u3068\
   \u3092\u30AA\u30B9\u30B9\u30E1\u3057\u307E\u3059)</strong></li>\n<li>\u306F\u3084\
   \u3055\u3001offset\u3001\u30D0\u30C3\u30D5\u30A1\u30B5\u30A4\u30BA\u304C\u4EFB\u610F\
-  \u306E\u5024\u3067\u8A2D\u5B9A\u3067\u304D\u308B\u3088\u3046\u306B<br>\n<g-emoji\
-  \ class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\"\
+  \u306E\u5024\u3067\u8A2D\u5B9A\u3067\u304D\u308B\u3088\u3046\u306B\u306A\u308A\u307E\
+  \u3057\u305F<br>\n<g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\"\
   >\u26A0\uFE0F</g-emoji>\u97F3\u697D\u304C\u9045\u308C\u308B\u3001\u9014\u5207\u308C\
   \u308B\u5834\u5408\u306F\u30D0\u30C3\u30D5\u30A1\u30B5\u30A4\u30BA\u3092\u5927\u304D\
   \u304F\u8A2D\u5B9A\u3057\u3066\u304F\u3060\u3055\u3044\u3002(\u30D5\u30EC\u30FC\u30E0\
   \u30EC\u30FC\u30C8\u306F\u4F4E\u4E0B\u3057\u307E\u3059)</li>\n<li>\u8A2D\u5B9A\u3092\
-  TJAPlayerfor3ds.json\u306B\u4FDD\u5B58\u3059\u308B\u3088\u3046\u306B</li>\n<li>\u30DC\
-  \u30BF\u30F3\u30DE\u30C3\u30D4\u30F3\u30B0\u3092\u5B9F\u88C5</li>\n<li>\u30D5\u30EC\
-  \u30FC\u30E0\u30EC\u30FC\u30C8\u306E\u8868\u793A\u3092\u5B9F\u88C5</li>\n<li>\u30B9\
-  \u30DA\u30A4\u30F3\u8A9E\u7FFB\u8A33(Robichani6-1\u6C0F\u306B\u611F\u8B1D)</li>\n\
-  <li>\u30D0\u30B0\u4FEE\u6B63\n<ul>\n<li>\u30AA\u30FC\u30C8\u6642\u306E\u9023\u6253\
-  \u901F\u5EA6\u3092\u4E0A\u6607</li>\n<li>\u8B5C\u9762\u9593\u9694\u304C\u5E83\u304F\
-  \u306A\u308B\u4E0D\u5177\u5408\u3092\u4FEE\u6B63</li>\n<li>\u5206\u5C90\u6642\u306B\
-  \u5225\u8B5C\u9762\u306E\u30B3\u30DE\u30F3\u30C9\u304C\u5B9F\u884C\u3055\u308C\u308B\
-  \u4E0D\u5177\u5408\u3092\u4FEE\u6B63</li>\n<li>\u30AA\u30FC\u30C8\u6642\u306B\u30B3\
-  \u30F3\u30DC\u304C\u9014\u5207\u308C\u308B\u4E0D\u5177\u5408\u3092\u4FEE\u6B63</li>\n\
-  <li>\u98A8\u8239\u304C\u6D88\u6EC5\u3059\u308B\u4E0D\u5177\u5408\u3092\u4FEE\u6B63\
-  </li>\n<li>\u30CE\u30FC\u30C4\u304C\u6D41\u308C\u308B\u524D\u306E#BRANCHSTART \u306B\
-  \u5BFE\u5FDC</li>\n</ul>\n</li>\n</ul>\n<hr>\n<ul>\n<li><strong>Change Title ID\
-  \ (I recommend installing after deleting v1.0.1).</strong></li>\n<li>The speed,\
-  \ offset, and buffer size can now be set to arbitrary values.<br>\n<g-emoji class=\"\
-  g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\"\
+  TJAPlayerfor3ds.json\u306B\u4FDD\u5B58\u3059\u308B\u3088\u3046\u306B\u306A\u308A\
+  \u307E\u3057\u305F</li>\n<li>\u30DC\u30BF\u30F3\u30DE\u30C3\u30D4\u30F3\u30B0\u3092\
+  \u5B9F\u88C5</li>\n<li>\u30D5\u30EC\u30FC\u30E0\u30EC\u30FC\u30C8\u306E\u8868\u793A\
+  \u3092\u5B9F\u88C5</li>\n<li>\u30B9\u30DA\u30A4\u30F3\u8A9E\u7FFB\u8A33(Robichani6-1\u6C0F\
+  \u306B\u611F\u8B1D)</li>\n<li>\u30D0\u30B0\u4FEE\u6B63\n<ul>\n<li>\u30AA\u30FC\u30C8\
+  \u6642\u306E\u9023\u6253\u901F\u5EA6\u3092\u4E0A\u6607</li>\n<li>\u8B5C\u9762\u9593\
+  \u9694\u304C\u5E83\u304F\u306A\u308B\u4E0D\u5177\u5408\u3092\u4FEE\u6B63</li>\n\
+  <li>\u5206\u5C90\u6642\u306B\u5225\u8B5C\u9762\u306E\u30B3\u30DE\u30F3\u30C9\u304C\
+  \u5B9F\u884C\u3055\u308C\u308B\u4E0D\u5177\u5408\u3092\u4FEE\u6B63</li>\n<li>\u30AA\
+  \u30FC\u30C8\u6642\u306B\u30B3\u30F3\u30DC\u304C\u9014\u5207\u308C\u308B\u4E0D\u5177\
+  \u5408\u3092\u4FEE\u6B63</li>\n<li>\u98A8\u8239\u304C\u6D88\u6EC5\u3059\u308B\u4E0D\
+  \u5177\u5408\u3092\u4FEE\u6B63</li>\n<li>\u30CE\u30FC\u30C4\u304C\u6D41\u308C\u308B\
+  \u524D\u306E#BRANCHSTART \u306B\u5BFE\u5FDC</li>\n</ul>\n</li>\n</ul>\n<hr>\n<ul>\n\
+  <li><strong>Change Title ID (I recommend installing after deleting v1.0.1).</strong></li>\n\
+  <li>The speed, offset, and buffer size can now be set to arbitrary values.<br>\n\
+  <g-emoji class=\"g-emoji\" alias=\"warning\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\"\
   >\u26A0\uFE0F</g-emoji>If the music is delayed, set a larger buffer size.(This will\
   \ reduce the frame rate.)</li>\n<li>Save the configuration to TJAPlayerfor3ds.json</li>\n\
   <li>Implementation of button mapping.</li>\n<li>Implemented frame rate display.</li>\n\
