@@ -2,7 +2,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title {% unless page.layout == "app" %}class="i18n innerHTML-title-{{ page.title | downcase }}"{% endunless %}>
+	<title {% unless page.layout == "app" %}class="i18n innerHTML-title-{{ page.title | downcase | replace: " ", "-" }}"{% endunless %}>
 		{% if site.title != page.title %}
 			{{ page.title }} |
 		{% endif %}

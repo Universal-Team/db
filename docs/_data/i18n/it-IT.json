@@ -16,6 +16,7 @@
 	"ds": "DS",
 	"all": "Tutto",
 	"source": "Fonte",
+	"select-language": "Seleziona una lingua",
 	"translate-here": "Traduci qui",
 	"translate-on-crowdin": "Traduci su Crowdin",
 	"cat-emulator": "Emulatori & Hypervisor",

@@ -92,5 +92,10 @@
 	"中文 (繁體)": {
 		"id": "zh-TW",
 		"dir": "ltr"
+	},
+	"Crowdin In-Context": {
+		"id": "ic-IC",
+		"dir": "ltr",
+		"hide": true
 	}
 }
