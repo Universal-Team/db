@@ -11,17 +11,17 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1087488
+    size: 1079296
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.9/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.0/StellaDS.nds
   compatibility.txt:
     size: 25415
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.9/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.0/compatibility.txt
   readme.txt:
-    size: 12947
+    size: 13169
     size_str: 12 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/2.9/readme.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.0/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -33,18 +33,20 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p>Version 2.9   19-Jun-2021</p>
+update_notes: '<p>V3.0 : 21-Jun-2021 by Dave Bernazzani (wavemotion)</p>
 
   <ul>
 
-  <li>High Score Support added!</li>
+  <li>Reworked the page access and bank switching to eek out another 2-3% speed!</li>
 
-  <li>Preliminary support for instruction manuals (only a dozen games so far)</li>
+  <li>Cleanup for the CPU Core</li>
 
-  <li>Minor tweaks and bug fixes as time allows</li>
+  <li>More instruction manuals added (about 20 games total now)</li>
 
-  </ul>'
-updated: '2021-06-19T14:31:36Z'
-version: '2.9'
-version_title: Version 2.9
+  </ul>
+
+  <p>(3.0a includes the HotFix for the PS register)</p>'
+updated: '2021-06-21T14:49:58Z'
+version: '3.0'
+version_title: Version 3.0a
 ---
