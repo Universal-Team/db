@@ -23,7 +23,16 @@ source: https://github.com/edo9300/ndsi-savedumper
 systems:
 - DS
 title: ndsi-savedumper
-update_notes: ''
+update_notes: '<p>What''s new</p>
+
+  <ul>
+
+  <li>Fixed some tyos in the prompts</li>
+
+  <li>Added support for fake cards, now it should be able to dump saves from bootleg
+  games too</li>
+
+  </ul>'
 updated: '2018-08-24T15:35:37Z'
 version: '1.2'
 version_title: Fakes
