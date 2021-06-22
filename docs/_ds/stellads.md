@@ -43,8 +43,9 @@ update_notes: '<p>V3.0 : 21-Jun-2021 by Dave Bernazzani (wavemotion)</p>
 
   (3.0a includes the HotFix for the PS register)<br>
 
-  (3.0b includes tweaks for two games plus tweak to splash screen)</p>'
-updated: '2021-06-21T23:46:17Z'
+  (3.0b includes tweaks for two games plus tweak to splash screen and resetting of
+  difficulty switches when loading new game)</p>'
+updated: '2021-06-22T00:51:47Z'
 version: 3.0b
 version_title: Version 3.0b
 ---
