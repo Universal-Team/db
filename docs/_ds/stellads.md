@@ -11,17 +11,17 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1079296
+    size: 1083392
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.0b/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.1/StellaDS.nds
   compatibility.txt:
     size: 25415
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.0b/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.1/compatibility.txt
   readme.txt:
-    size: 13169
-    size_str: 12 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.0b/readme.txt
+    size: 13382
+    size_str: 13 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.1/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -33,19 +33,18 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p>V3.0 : 21-Jun-2021 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p>V3.1 : 22-Jun-2021 by Dave Bernazzani (wavemotion)</p>
 
-  <p>Reworked the page access and bank switching to eek out another 2-3% speed!<br>
+  <ul>
 
-  Cleanup for the CPU Core<br>
+  <li>Up to 30 instruction manuals added.</li>
 
-  More instruction manuals added (about 20 games total now)<br>
+  <li>Fix for difficulty switches (they reset on new game)</li>
 
-  (3.0a includes the HotFix for the PS register)<br>
+  <li>Fix for High Score initials so it recalls last known entry.</li>
 
-  (3.0b includes tweaks for two games plus tweak to splash screen and resetting of
-  difficulty switches when loading new game)</p>'
-updated: '2021-06-22T00:51:47Z'
-version: 3.0b
-version_title: Version 3.0b
+  </ul>'
+updated: '2021-06-22T17:25:58Z'
+version: '3.1'
+version_title: Version 3.1
 ---
