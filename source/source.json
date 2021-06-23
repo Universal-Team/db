@@ -6616,5 +6616,13 @@
 		"categories": ["game"],
 		"systems": ["3DS"],
 		"icon": "https://raw.githubusercontent.com/TheDude42069/fuck-u3DS/main/fu.png"
+	},
+	{
+		"github": "lifehackerhansol/fuck-uNDS",
+		"categories": ["game"],
+		"systems": ["DS"],
+		"icon": "https://raw.githubusercontent.com/lifehackerhansol/fuck-uNDS/main/icon.bmp",
+		"long_description": "An NDS homebrew app that displays \"fuck you\" on your screen, inspired by the Switch Homebrew app fuck-u",
+		"description": "An NDS homebrew app that displays \"fuck you\" on your screen, inspired by the Switch Homebrew app fuck-u"
 	}
 ]
