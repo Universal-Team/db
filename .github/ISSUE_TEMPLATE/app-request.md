@@ -32,7 +32,7 @@ assignees: ''
 
 
 <!-- Screenshots of the app to show on the website and in Universal-Updater. Ideally they should be both screens with no separation and nothing extra around them, just 400x480 (for 3DS) or 256x384 (for DS). Animated GIFs can be shown on the website, but not in Universal-Updater. -->
-**Screeshots**
+**Screenshots**
 
 
 <!-- Used to automatically gather most metadata, only GitHub and Bitbucket are supported currently but other things with a decent API can be added -->
