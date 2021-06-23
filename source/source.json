@@ -6614,6 +6614,7 @@
 	{
 		"github": "TheDude42069/fuck-u3DS",
 		"categories": ["game"],
-		"systems": ["3DS"]
+		"systems": ["3DS"],
+		"icon": "https://raw.githubusercontent.com/TheDude42069/fuck-u3DS/main/fu.png"
 	}
 ]
