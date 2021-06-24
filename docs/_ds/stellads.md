@@ -11,17 +11,17 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1083392
+    size: 1084928
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.1/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.2/StellaDS.nds
   compatibility.txt:
     size: 25415
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.1/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.2/compatibility.txt
   readme.txt:
-    size: 13382
+    size: 13570
     size_str: 13 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.1/readme.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.2/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -33,18 +33,16 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p>V3.1 : 22-Jun-2021 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p>V3.2 : 24-Jun-2021 by Dave Bernazzani (wavemotion)</p>
 
   <ul>
 
-  <li>Up to 30 instruction manuals added.</li>
+  <li>Vastly improved high score internals to support future enhancements.</li>
 
-  <li>Fix for difficulty switches (they reset on new game)</li>
-
-  <li>Fix for High Score initials so it recalls last known entry.</li>
+  <li>Cleanup of paddle handling - games like Tac-Scan now work.</li>
 
   </ul>'
-updated: '2021-06-22T17:25:58Z'
-version: '3.1'
-version_title: Version 3.1
+updated: '2021-06-24T12:24:35Z'
+version: '3.2'
+version_title: Version 3.2
 ---
