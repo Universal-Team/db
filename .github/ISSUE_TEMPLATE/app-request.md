@@ -7,6 +7,7 @@ assignees: ''
 
 ---
 <!-- These lines are comments, they won't show up when submitted -->
+<!-- Please read the contributing guidelines and make sure your app complies with our rules before submitting -->
 <!-- Please don't delete the **bold text**, put your info below it -->
 **Name of the app**
 
