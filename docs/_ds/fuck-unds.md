@@ -15,11 +15,14 @@ downloads:
     url: https://github.com/lifehackerhansol/fuck-uNDS/releases/download/1.0.1/fuck-uNDS.nds
 github: lifehackerhansol/fuck-uNDS
 icon: https://raw.githubusercontent.com/lifehackerhansol/fuck-uNDS/main/icon.bmp
-image: https://avatars.githubusercontent.com/u/37358975?v=4
-image_length: 32023
+image: https://db.universal-team.net/assets/images/images/fuck-unds.png
+image_length: 1246
 layout: app
-license: mit
-license_name: MIT License
+license: gpl-3.0
+license_name: GNU General Public License v3.0
+screenshots:
+- description: '"gameplay"'
+  url: https://db.universal-team.net/assets/images/screenshots/fuck-unds/"gameplay".png
 source: https://github.com/lifehackerhansol/fuck-uNDS
 systems:
 - DS
