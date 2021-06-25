@@ -1120,13 +1120,6 @@
 		"icon": "https://raw.githubusercontent.com/joel16/3DShell/master/res/ic_launcher_filemanager.png"
 	},
 	{
-		"github": "HIDE810/you-are-an-idiot",
-		"systems": ["3DS"],
-		"categories": ["game"],
-		"image": "https://raw.githubusercontent.com/HIDE810/you-are-an-idiot/master/resource/banner.png",
-		"icon": "https://raw.githubusercontent.com/HIDE810/you-are-an-idiot/master/resource/icon.png"
-	},
-	{
 		"github": "HIDE810/WiFi-Status-Checker",
 		"systems": ["3DS"],
 		"categories": ["utility"],
