@@ -11,17 +11,17 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1084928
+    size: 1086464
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.2/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.2a/StellaDS.nds
   compatibility.txt:
     size: 25415
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.2/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.2a/compatibility.txt
   readme.txt:
     size: 13570
     size_str: 13 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.2/readme.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.2a/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -33,16 +33,11 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p>V3.2 : 24-Jun-2021 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p>Version 3.2a fixes glitches for F8, F6 and F4 carts.<br>
 
-  <ul>
-
-  <li>Vastly improved high score internals to support future enhancements.</li>
-
-  <li>Cleanup of paddle handling - games like Tac-Scan now work.</li>
-
-  </ul>'
-updated: '2021-06-24T12:24:35Z'
-version: '3.2'
-version_title: Version 3.2
+  High Scores can now be set to sort Low-to-High (for games like Miniature Golf) as
+  well as an option to clear all scores for a game.</p>'
+updated: '2021-06-25T15:26:58Z'
+version: 3.2a
+version_title: Version 3.2a
 ---
