@@ -11,17 +11,17 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1090048
+    size: 1093120
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.2c/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.3/StellaDS.nds
   compatibility.txt:
     size: 25415
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.2c/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.3/compatibility.txt
   readme.txt:
-    size: 13570
+    size: 13781
     size_str: 13 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.2c/readme.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.3/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -33,17 +33,14 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p>Version 3.2c fixes glitches for F8, F6 and F4 carts.<br>
+update_notes: '<p>V3.3 : 26-Jun-2021 by Dave Bernazzani (wavemotion)</p>
 
-  High Scores can now be set to sort Low-to-High (for games like Miniature Golf) as
-  well as an option to clear all scores for a game.<br>
+  <p>Added [TIME], [LOW] and [ALPHA] as high-score options.<br>
 
-  High Score can be set to [TIME] to allow time-based games (Dragster, Skiing, Barnstorming,
-  etc).<br>
+  Fixed small graphical glitches in F8, F6 and F4 games.<br>
 
-  High Score can be set to [ALPHA] to allow free-form entry and sorting alphabetically
-  (Z &gt; A &gt; numbers).</p>'
-updated: '2021-06-26T01:34:55Z'
-version: 3.2c
-version_title: Version 3.2c
+  Another 5 instruction manuals added.</p>'
+updated: '2021-06-26T11:40:58Z'
+version: '3.3'
+version_title: Version 3.3
 ---
