@@ -11,17 +11,17 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1086464
+    size: 1090048
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.2a/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.2c/StellaDS.nds
   compatibility.txt:
     size: 25415
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.2a/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.2c/compatibility.txt
   readme.txt:
     size: 13570
     size_str: 13 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.2a/readme.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.2c/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -33,11 +33,17 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p>Version 3.2a fixes glitches for F8, F6 and F4 carts.<br>
+update_notes: '<p>Version 3.2c fixes glitches for F8, F6 and F4 carts.<br>
 
   High Scores can now be set to sort Low-to-High (for games like Miniature Golf) as
-  well as an option to clear all scores for a game.</p>'
-updated: '2021-06-25T15:26:58Z'
-version: 3.2a
-version_title: Version 3.2a
+  well as an option to clear all scores for a game.<br>
+
+  High Score can be set to [TIME] to allow time-based games (Dragster, Skiing, Barnstorming,
+  etc).<br>
+
+  High Score can be set to [ALPHA] to allow free-form entry and sorting alphabetically
+  (Z &gt; A &gt; numbers).</p>'
+updated: '2021-06-26T01:34:55Z'
+version: 3.2c
+version_title: Version 3.2c
 ---
