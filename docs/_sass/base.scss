@@ -311,6 +311,8 @@ html[dir=rtl] {
 	color: $light-placeholder;
 	background-color: $light;
 	border-color: $light-border;
+	display: inline;
+	min-width: 50%!important;
 }
 
 // Cards
