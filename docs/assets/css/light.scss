@@ -1,38 +1,41 @@
 ---
 ---
 
-:root {
-	// Main contents
-	--main-bg: #fff;
-	--main-color: #222;
-	--header-color: #222;
-	--borders: #bbb;
-	--blockquote-color: #666;
-	--code-bg: #e9e9e9;
-	--code-color: #333;
-	--a-color: gray;
-	--small-color: #666;
-	--carousel-caption-bg: #fffb;
+/// Variables
+// Main contents
+$main-bg: #fff;
+$main-color: #222;
+$header-color: #222;
+$borders: #bbb;
+$blockquote-color: #666;
+$code-bg: #e9e9e9;
+$code-color: #333;
+$a-color: gray;
+$small-color: #666;
+$carousel-caption-bg: #fffb;
 
-	// Cards
-	--card-background: var(--main-bg);
-	--card-edges-background: rgba(0,0,0,.03);
+// Cards
+$card-background: var($main-bg);
+$card-edges-background: rgba(0,0,0,.03);
 
-	// Modal
-	--modal-borders: 1px solid #dee2e6;
+// Modal
+$modal-borders: 1px solid #dee2e6;
 
-	// Nav
-	--nav-link-color: rgba(255, 255, 255, 0.7);
-	--nav-link-color-hover: rgba(255, 255, 255, 0.5);
-	--nav-link-color-active: rgba(255, 255, 255, 1);
-	--dropdown-item-bg-hover: rgba(0, 0, 0, 0.3);
-	--primary: {{ page.color | default: site.color }};
-	--dark: #343a40;
-	--light: #f8f9fa;
-	--light-border: #ced4da;
-	--light-placeholder: darkgray;
-}
+// Nav
+$nav-link-color: rgba(255, 255, 255, 0.7);
+$nav-link-color-hover: rgba(255, 255, 255, 0.5);
+$nav-link-color-active: rgba(255, 255, 255, 1);
+$dropdown-item-bg-hover: rgba(0, 0, 0, 0.3);
+$primary: {{ page.color | default: site.color }};
+$dark: #343a40;
+$light: #f8f9fa;
+$light-border: #ced4da;
+$light-placeholder: darkgray;
 
+/// Import base style
+@import "base";
+
+/// CSS Overrides
 .carousel-dark-when-light .carousel-control-next-icon, .carousel-dark-when-light .carousel-control-prev-icon {
 	filter: invert(1) grayscale(100);
 }

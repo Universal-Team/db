@@ -5,7 +5,7 @@ if(!localStorage.sortProp)
 
 document.getElementById("sort-" + localStorage.sortProp).classList.add("btn-secondary");
 document.getElementById("sort-" + localStorage.sortProp).classList.remove("btn-outline-secondary");
-let dirButton = document.getElementById("sort-direction");
+const dirButton = document.getElementById("sort-direction");
 dirButton.innerText = parseInt(localStorage.sortDirection) ? dirButton.dataset.descending : dirButton.dataset.ascending;
 sort();
 
@@ -24,13 +24,17 @@ function sort(prop) {
 		localStorage.sortProp = prop;
 	}
 
-	let sorted = Array.from(document.getElementsByClassName("card")).sort(function(l, r) {
+	const cards = document.getElementsByClassName("card");
+	const sorted = [];
+	for(i = 0; i < cards.length; i++)
+		sorted.push(cards[i]);
+	sorted.sort(function(l, r) {
 		return ((l.dataset[localStorage.sortProp].toLowerCase() < r.dataset[localStorage.sortProp].toLowerCase()) ^ localStorage.sortDirection) ? -1 : 1;
 	});
-	let container = document.getElementById("card-container");
+	const container = document.getElementById("card-container");
 	container.innerHTML = "";
 	sorted.forEach(function(r) {
-		let col = document.createElement("div");
+		const col = document.createElement("div");
 		col.classList = "col mb-3";
 		col.appendChild(r);
 		container.appendChild(col);

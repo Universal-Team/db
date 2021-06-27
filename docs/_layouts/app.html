@@ -95,7 +95,7 @@ layout: compress
 											<span class="text-nowrap">
 												<a class="btn btn-primary m-1 {% if itemQR %}btn-with-qr{% endif %} i18n innerHTML-download-name" {% if item[1].size_str %}title="Size: {{ item[1].size_str }}"{% endif %} href="{{ item[1].url }}" data-name="{{ item[0] }}">Download {{ item[0] }}</a>
 												{% if itemQR %}
-													<a class="btn btn-primary btn-qr i18n ariaLabel-show-qr-for" href="{{ itemQR[1] }}" target="_blank" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}" aria-label="Show QR Code for {{ item[0] }}">
+													<a class="qr-link btn btn-primary btn-qr i18n ariaLabel-show-qr-for" href="{{ itemQR[1] }}" target="_blank" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}" aria-label="Show QR Code for {{ item[0] }}">
 														<svg class="icon icon-qr_code" aria-hidden="true"><path d="M 0,6.2346667 H 6.2346667 V 0 H 0 Z M 1.568,1.568 H 4.6666667 V 4.6666667 H 1.568 Z M 0,14 H 6.2346667 V 7.7653332 H 0 Z M 1.568,9.3333333 H 4.6666667 V 12.432 H 1.568 Z M 7.7653333,0 V 6.2346667 H 14 V 0 Z M 12.432,4.6666667 H 9.3333333 V 1.568 H 12.432 Z m 0,7.7653333 H 14 V 14 H 12.432 Z M 7.7653333,7.7653332 h 1.568 v 1.5680001 h -1.568 z m 1.568,1.5680001 H 10.901333 V 10.901333 H 9.3333333 Z m -1.568,1.5679997 h 1.568 v 1.531445 h -1.568 z m 1.568,1.530667 H 10.901333 V 14 H 9.3333333 Z m 1.5679997,-1.530667 h 1.531445 v 1.531445 h -1.531445 z m 0,-3.1359998 h 1.531445 V 9.3333333 H 10.901333 Z M 12.432,9.3333333 H 14 v 1.5679997 h -1.568 z"></path></svg>
 													</a>
 												{% endif %}
@@ -134,7 +134,7 @@ layout: compress
 												<span class="text-nowrap">
 													<a class="btn btn-secondary m-1 {% if itemQR %}btn-with-qr{% endif %} i18n innerHTML-download-name" {% if item[1].size_str %}title="Size: {{ item[1].size_str }} bytes"{% endif %} href="{{ item[1].url }}" data-name="{{ item[0] }}">Download {{ item[0] }}</a>
 													{% if itemQR %}
-														<a class="btn btn-secondary btn-qr i18n ariaLabel-show-qr-for" href="{{ itemQR[1] }}" target="_blank" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}" aria-label="Show QR Code for {{ item[0] }}">
+														<a class="qr-link btn btn-secondary btn-qr i18n ariaLabel-show-qr-for" href="{{ itemQR[1] }}" target="_blank" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}" aria-label="Show QR Code for {{ item[0] }}">
 															<svg class="icon icon-qr_code" aria-hidden="true"><path d="M 0,6.2346667 H 6.2346667 V 0 H 0 Z M 1.568,1.568 H 4.6666667 V 4.6666667 H 1.568 Z M 0,14 H 6.2346667 V 7.7653332 H 0 Z M 1.568,9.3333333 H 4.6666667 V 12.432 H 1.568 Z M 7.7653333,0 V 6.2346667 H 14 V 0 Z M 12.432,4.6666667 H 9.3333333 V 1.568 H 12.432 Z m 0,7.7653333 H 14 V 14 H 12.432 Z M 7.7653333,7.7653332 h 1.568 v 1.5680001 h -1.568 z m 1.568,1.5680001 H 10.901333 V 10.901333 H 9.3333333 Z m -1.568,1.5679997 h 1.568 v 1.531445 h -1.568 z m 1.568,1.530667 H 10.901333 V 14 H 9.3333333 Z m 1.5679997,-1.530667 h 1.531445 v 1.531445 h -1.531445 z m 0,-3.1359998 h 1.531445 V 9.3333333 H 10.901333 Z M 12.432,9.3333333 H 14 v 1.5679997 h -1.568 z"></path></svg>
 														</a>
 													{% endif %}
@@ -174,7 +174,7 @@ layout: compress
 												<span class="text-nowrap">
 													<a class="btn btn-dark m-1 {% if itemQR %}btn-with-qr{% endif %} i18n innerHTML-download-name" {% if item[1].size_str %}title="Size: {{ item[1].size_str }} bytes"{% endif %} href="{{ item[1].url }}" data-name="{{ item[0] }}">Download {{ item[0] }}</a>
 													{% if itemQR %}
-														<a class="btn btn-dark btn-qr i18n ariaLabel-show-qr-for" href="{{ itemQR[1] }}" target="_blank" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}" aria-label="Show QR Code for {{ item[0] }}">
+														<a class="qr-link btn btn-dark btn-qr i18n ariaLabel-show-qr-for" href="{{ itemQR[1] }}" target="_blank" role="button" data-bs-toggle="modal" data-bs-target="#modal" data-name="{{ itemQR[0] }}" data-path="{{ itemQR[1] }}" aria-label="Show QR Code for {{ item[0] }}">
 															<svg class="icon icon-qr_code" aria-hidden="true"><path d="M 0,6.2346667 H 6.2346667 V 0 H 0 Z M 1.568,1.568 H 4.6666667 V 4.6666667 H 1.568 Z M 0,14 H 6.2346667 V 7.7653332 H 0 Z M 1.568,9.3333333 H 4.6666667 V 12.432 H 1.568 Z M 7.7653333,0 V 6.2346667 H 14 V 0 Z M 12.432,4.6666667 H 9.3333333 V 1.568 H 12.432 Z m 0,7.7653333 H 14 V 14 H 12.432 Z M 7.7653333,7.7653332 h 1.568 v 1.5680001 h -1.568 z m 1.568,1.5680001 H 10.901333 V 10.901333 H 9.3333333 Z m -1.568,1.5679997 h 1.568 v 1.531445 h -1.568 z m 1.568,1.530667 H 10.901333 V 14 H 9.3333333 Z m 1.5679997,-1.530667 h 1.531445 v 1.531445 h -1.531445 z m 0,-3.1359998 h 1.531445 V 9.3333333 H 10.901333 Z M 12.432,9.3333333 H 14 v 1.5679997 h -1.568 z"></path></svg>
 														</a>
 													{% endif %}

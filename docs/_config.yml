@@ -5,6 +5,9 @@ repo        : "Universal-Team/db"
 color       : "#072f4f"
 image       : "https://universal-team.net/images/icons/universal-team.png"
 
+sass:
+  sass_dir: _sass
+
 collections:
   3ds:
     output: true

@@ -20,12 +20,12 @@ const i18n = {
 	{%- endfor -%}
 };
 
-var _jipt = [];
+const _jipt = [];
 
 loadHead();
 
 function loadHead(lang) {
-	let languageID = lang || getLang();
+	const languageID = lang || getLang();
 
 	document.documentElement.lang = i18n[languageID].properId || languageID;
 	document.documentElement.dir = i18n[languageID].dir;
@@ -44,27 +44,26 @@ function loadHead(lang) {
 			location.reload();
 		}]);
 
-		let langCheck = setInterval(() => {
-			let jipt = document.getElementsByClassName("crowdin-jipt");
+		const langCheck = setInterval(function() {
+			const jipt = document.getElementsByClassName("crowdin-jipt");
 			if(jipt && jipt.length > 4) {
-				let selectedLang = jipt[4].contentWindow.document.getElementById("jipt-target-languages").value;
 				clearInterval(langCheck);
-				if(["he"].includes(selectedLang)) {
+				if(["he"].includes(jipt[4].contentWindow.document.getElementById("jipt-target-languages").value)) {
 					document.dir = "rtl";
-					let bootstrapStylesheet = document.getElementById("bootstrap-stylesheet");
+					const bootstrapStylesheet = document.getElementById("bootstrap-stylesheet");
 					bootstrapStylesheet.integrity = "sha384-mUkCBeyHPdg0tqB6JDd+65Gpw5h/l8DKcCTV2D2UpaMMFd7Jo8A+mDAosaWgFBPl";
 					bootstrapStylesheet.href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.rtl.min.css";
 				}
 			}
 		}, 500);
-		let script = document.createElement("script");
+		const script = document.createElement("script");
 		script.src = "//cdn.crowdin.com/jipt/jipt.js";
 		document.head.appendChild(script);
 	}
 }
 
 function loadLang(initing) {
-	let languageID = getLang();
+	const languageID = getLang();
 	if(!languageID || (initing && languageID == "en-US"))
 		return;
 
@@ -74,16 +73,18 @@ function loadLang(initing) {
 	if(!(languageID in i18n))
 		return console.warn("Language not found", languageID);
 
-	for(let element of document.getElementsByClassName("i18n")) {
-		for(let c of element.classList) {
-			let match = c.match(/(innerHTML|title|placeholder|ariaLabel|data-(.*?))-(.*)/);
+	const i18nElements = document.getElementsByClassName("i18n");
+	for(i = 0; i < i18nElements.length; i++) {
+		const element = i18nElements[i];
+		for(j = 0; j < element.classList.length; j++) {
+			const match = element.classList[j].match(/(innerHTML|title|placeholder|ariaLabel|data-(.*?))-(.*)/);
 			if(match) {
-				let str = i18n[languageID].strings[match[3]];
+				const str = i18n[languageID].strings[match[3]];
 				if(str) {
 					if(match[2])
-						element.dataset[match[2]] = str.replace(/\${(.*)}/g, (full, capture) => element.dataset[capture]);
+						element.dataset[match[2]] = str.replace(/\${(.*)}/g, function(full, capture) { return element.dataset[capture]; });
 					else
-						element[match[1]] = str.replace(/\${(.*)}/g, (full, capture) => element.dataset[capture]);
+						element[match[1]] = str.replace(/\${(.*)}/g, function(full, capture) { return element.dataset[capture]; });
 				} else {
 					console.warn("Translation is missing string", match[3]);
 				}
@@ -91,7 +92,9 @@ function loadLang(initing) {
 		}
 	}
 
-	for(let element of document.getElementById("language-dropdown").children) {
+	const dropdownLangs = document.getElementById("language-dropdown").children;
+	for(i = 0; i < dropdownLangs.length; i++) {
+		const element = dropdownLangs[i];
 		if(element.children[0].dataset.lang == languageID) {
 			element.children[0].classList.add("active");
 		} else {
@@ -99,19 +102,30 @@ function loadLang(initing) {
 		}
 	}
 
-	document.getElementById("translate-on-crowdin").href = `https://${i18n[languageID].crowdin || "www"}.crowdin.com/project/universal-db`;
+	document.getElementById("translate-on-crowdin").href = "https://" + (i18n[languageID].crowdin || "www") + ".crowdin.com/project/universal-db";
 }
 
 function getLang() {
-	if(localStorage.language)
+	if(localStorage.language) {
 		return localStorage.language;
+	}
 
-	for(let wl of window.navigator.languages) {
-		let l = Object.keys(i18n).find(r => r == `${wl.substr(0, 2)}-${wl.substr(3, 2).toUpperCase()}`);
-		if(!l) // If no match for lang-COUNTRY, try just lang
-			l = Object.keys(i18n).find(r => r.substr(0, 2) == wl.substr(0, 2));
-		if(l)
-			return languageID = `${l.substr(0, 2)}-${l.substr(3, 3).toUpperCase()}`;
+	const languages = window.navigator.languages || [window.navigator.language];
+	for(i = 0; i < languages.length; i++) {
+		const wl = languages[i];
+		for(i in Object.keys(i18n)) {
+			const key = Object.keys(i18n)[i];
+			if(key == wl.substr(0, 2) + "-" + wl.substr(3, 2).toUpperCase()) {
+				return key;
+			}
+		}
+
+		// If no match for lang-COUNTRY, try just lang
+		for(key in Object.keys(i18n)) {
+			if(key == wl.substr(0, 2)) {
+				return key;
+			}
+		}
 	}
 }
 

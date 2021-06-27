@@ -1,5 +1,5 @@
 document.getElementById("modal").addEventListener("show.bs.modal", function(event) {
-	let button = event.relatedTarget;
+	const button = event.relatedTarget;
 
 	this.querySelector(".modal-title").innerText = button.getAttribute("data-name");
 	if(button.getAttribute("data-path")) {

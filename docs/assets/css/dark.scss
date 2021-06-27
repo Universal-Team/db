@@ -1,34 +1,39 @@
 ---
 ---
 
-:root {
-	// Main contents
-	--main-bg: #333;
-	--main-color: #ccc;
-	--header-color: #ddd;
-	--borders: #555;
-	--blockquote-color: #999;
-	--code-bg: #3f3f3f;
-	--code-color: #ddd;
-	--a-color: gray;
-	--small-color: #999;
-	--carousel-caption-bg: #333b;
+/// Variables
+// Main contents
+$main-bg: #333;
+$main-color: #ccc;
+$header-color: #ddd;
+$borders: #555;
+$blockquote-color: #999;
+$code-bg: #3f3f3f;
+$code-color: #ddd;
+$a-color: gray;
+$small-color: #999;
+$carousel-caption-bg: #333b;
 
-	// Cards
-	--card-background: #444;
-	--card-edges-background: rgba(0, 0, 0, 0.15);
+// Cards
+$card-background: #444;
+$card-edges-background: rgba(0, 0, 0, 0.15);
 
-	// Modal
-	--modal-borders: 1px solid rgba(0, 0, 0, 0.2);
+// Modal
+$modal-borders: 1px solid rgba(0, 0, 0, 0.2);
 
-	// Nav
-	--nav-link-color: rgba(255, 255, 255, 0.7);
-	--nav-link-color-hover: rgba(255, 255, 255, 0.5);
-	--nav-link-color-active: rgba(255, 255, 255, 1);
-	--dropdown-item-bg-hover: rgba(0, 0, 0, 0.3);
-	--primary: {{ page.color | default: site.color }};
-	--dark: #f8f9fa;
-	--light: #3f3f3f;
-	--light-border: #292929;
-	--light-placeholder: #999;
-}
+// Nav
+$nav-link-color: rgba(255, 255, 255, 0.7);
+$nav-link-color-hover: rgba(255, 255, 255, 0.5);
+$nav-link-color-active: rgba(255, 255, 255, 1);
+$dropdown-item-bg-hover: rgba(0, 0, 0, 0.3);
+$primary: {{ page.color | default: site.color }};
+$dark: #f8f9fa;
+$light: #3f3f3f;
+$light-border: #292929;
+$light-placeholder: #999;
+
+
+/// Import base style
+@import "base";
+
+/// CSS Overrides

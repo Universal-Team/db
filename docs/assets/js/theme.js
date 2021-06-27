@@ -1,17 +1,17 @@
 function loadTheme() {
-	let themeCSS = document.getElementById("themeCSS");
+	const themeCSS = document.getElementById("themeCSS");
 	if(!localStorage.theme || localStorage.theme == "default") {
 		if(themeCSS)
 			themeCSS.remove();
 	} else {
 		if(themeCSS) {
-			themeCSS.href = `/assets/css/${localStorage.theme}.css`;
+			themeCSS.href = "/assets/css/" + localStorage.theme +".css";
 		} else {
-			let l = document.createElement("link");
+			const l = document.createElement("link");
 			l.rel = "stylesheet";
 			l.type = "text/css";
 			l.media = "screen";
-			l.href = `/assets/css/${localStorage.theme}.css`
+			l.href = "/assets/css/" + localStorage.theme +".css"
 			l.id = "themeCSS";
 		
 			document.head.appendChild(l);
@@ -29,7 +29,7 @@ function setTheme(theme) {
 
 loadTheme();
 
-window.onload = () => {
+window.onload = function() {
 	if(localStorage.theme)
 		document.getElementById("themeSelector").value = localStorage.theme;
 }

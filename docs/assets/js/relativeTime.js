@@ -8,24 +8,32 @@ const labels = {
 	second: 1
 };
 
-let relativeTime, now;
+var relativeTime = null, now;
 
 function timeDifference(now, then) {
-	let dif = Math.round((now - then) / 1000);
+	const dif = Math.round((now - then) / 1000);
 
-	for(let label in labels) {
+	for(label in labels) {
 		if(Math.abs(dif) > labels[label] || label == "second") {
-			return relativeTime.format(-Math.round(dif / labels[label]), label);
+			if(relativeTime) {
+				return relativeTime.format(-Math.round(dif / labels[label]), label);
+			} else {
+				const amount = Math.round(dif / labels[label]);
+				return amount + " " + label + (amount == 1 ? " ago" : "s ago");
+			}
 		}
 	}
 }
 
 function updateDates() {
-	relativeTime = new Intl.RelativeTimeFormat(document.documentElement.lang, {numeric: "auto"});
+	// if(typeof Intl !== "undefined")
+	// 	relativeTime = new Intl.RelativeTimeFormat(document.documentElement.lang, {numeric: "auto"});
 	now = new Date();
 
-	for(let elem of document.getElementsByTagName("time")) {
-		const date = new Date(elem.dateTime);
+	const times = document.getElementsByTagName("time");
+	for(i = 0; i < times.length; i++) {
+		const elem = times[i];
+		const date = new Date(elem.getAttribute("datetime"));
 		elem.innerText = timeDifference(now, date);
 		elem.title = date.toLocaleString(document.documentElement.lang);
 	}
