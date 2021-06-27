@@ -11,17 +11,17 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1094656
+    size: 1098240
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.3/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.3b/StellaDS.nds
   compatibility.txt:
     size: 25415
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.3/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.3b/compatibility.txt
   readme.txt:
     size: 13781
     size_str: 13 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.3/readme.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.3b/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -33,14 +33,12 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p>V3.3 : 26-Jun-2021 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p>3.3b We are now up to 50 instruction manuals! A few tweaks to add
+  the last of the known homebrews to the compatibility table.<br>
 
-  <p>Added [TIME], [LOW] and [ALPHA] as high-score options.<br>
-
-  Fixed small graphical glitches in F8, F6 and F4 games.<br>
-
-  Another 8 instruction manuals added.</p>'
-updated: '2021-06-26T15:20:41Z'
-version: '3.3'
-version_title: Version 3.3
+  Defender II, Stargate and Defender Aracade (hack) have new button mappings that
+  make them fully playable.</p>'
+updated: '2021-06-27T12:02:19Z'
+version: 3.3b
+version_title: Version 3.3b
 ---
