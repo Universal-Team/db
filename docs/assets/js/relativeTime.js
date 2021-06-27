@@ -26,8 +26,8 @@ function timeDifference(now, then) {
 }
 
 function updateDates() {
-	// if(typeof Intl !== "undefined")
-	// 	relativeTime = new Intl.RelativeTimeFormat(document.documentElement.lang, {numeric: "auto"});
+	if(typeof Intl !== "undefined")
+		relativeTime = new Intl.RelativeTimeFormat(document.documentElement.lang, {numeric: "auto"});
 	now = new Date();
 
 	const times = document.getElementsByTagName("time");
