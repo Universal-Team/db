@@ -47,19 +47,27 @@ li > p {
 
 // .a is for making other things look like <a>s
 a, .a {
-	text-decoration: underline;
+	text-decoration: none;
 	text-decoration-thickness: 1px;
-	color: inherit;
-	font-weight: bold;
+	color: $a-color;
 	cursor: pointer;
 }
 a:hover, .a:hover {
-	color: $a-color;
-	text-decoration-thickness: 1px;
+	text-decoration: underline;
 }
 
 a.clean {
 	text-decoration: none;
+}
+
+footer a {
+	color: inherit;
+	font-weight: bold;
+	text-decoration: underline;
+}
+footer a:hover {
+	color: inherit;
+	opacity: 50%;
 }
 
 small {
@@ -306,10 +314,11 @@ html[dir=rtl] {
 .card a {
 	text-decoration: none;
 	font-weight: normal;
+	color: inherit;
 }
 
-.card a:hover h4, .card a:hover small {
-	color: inherit;
+.card a:hover {
+	opacity: 50%;
 }
 
 .card-footer a {
