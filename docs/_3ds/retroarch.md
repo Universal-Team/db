@@ -7,16 +7,12 @@ color: '#484848'
 created: '2010-05-27T14:47:40Z'
 description: Cross-platform, sophisticated frontend for the libretro API. Licensed
   GPLv3.
-download_page: https://buildbot.libretro.com/stable/1.9.5/nintendo/3ds
+download_page: https://buildbot.libretro.com/stable/1.9.6/nintendo/3ds
 downloads:
   RetroArch_3dsx.7z:
-    size: 72294413
-    size_str: 68 MiB
-    url: https://buildbot.libretro.com/stable/1.9.5/nintendo/3ds/RetroArch_3dsx.7z
+    url: https://buildbot.libretro.com/stable/1.9.6/nintendo/3ds/RetroArch_3dsx.7z
   RetroArch_cia.7z:
-    size: 72957463
-    size_str: 69 MiB
-    url: https://buildbot.libretro.com/stable/1.9.5/nintendo/3ds/RetroArch_cia.7z
+    url: https://buildbot.libretro.com/stable/1.9.6/nintendo/3ds/RetroArch_cia.7z
 eval_downloads: true
 eval_notes_md: true
 github: libretro/RetroArch
@@ -32,57 +28,90 @@ systems:
 title: RetroArch
 update_notes: '<ul>
 
-  <li>ALSATHREAD: Make alsathread default for all ALSA devices with threads</li>
+  <li>ANDROID: Do not duplicate port 0 mouse and gun inputs to other ports</li>
 
-  <li>ARCHIVE: Fix loading of archived content with file names containing ''#'' characters</li>
+  <li>AUDIO/XAUDIO2: Fail instead of crashing when disconnecting an audio device</li>
 
-  <li>CHEEVOS: Upgrade to rcheevos 10.1</li>
+  <li>CHEEVOS: Reset cached progress each time menu is opened</li>
 
-  <li>CHEEVOS: Challenge indicators</li>
+  <li>CRT/SWITCHRES: Add support for switchres.ini core and directory overrides</li>
 
-  <li>CHEEVOS: Group achievements by category in quick menu</li>
+  <li>D3D11: Don''t use allow tearing flag with blit swap chains. Also disables the
+  flip model if the allow tearing flag is not supported.</li>
 
-  <li>CHEEVOS: Relabel ''Start Active'' with ''Encore Mode''</li>
+  <li>D3D11: Disable DXGI''s ALT+ENTER handling</li>
 
-  <li>D3D10: Window title should now update</li>
+  <li>D3D11: Don''t pass ALLOW_TEARING when unsupported</li>
 
-  <li>D3D11: Window title should now update</li>
+  <li>D3D11: Fix non-vsynced output without flip, black screens in fullscreen</li>
 
-  <li>D3D11: Allow fastforward in fullscreen</li>
+  <li>D3D12: Relcoated ''d3d12_gfx_sync''</li>
 
-  <li>D3D12: Window title should now update</li>
+  <li>D3D12: Fixed swap interval option</li>
 
-  <li>D3D12: Allow fastforward in fullscreen</li>
+  <li>GFX: Fix uninitialized variables in gfx_display_draw_cursor</li>
 
-  <li>CRT/SWITCHRES: New implementation</li>
+  <li>INPUT: ''Analog to Digital Type'' usability improvements</li>
 
-  <li>FONTS: Improve message wrapping with CJK languages</li>
+  <li>INPUT: Add support for mapping multiple controllers to a single input device</li>
 
-  <li>FONTS: Fix garbled characters when converting encodings</li>
+  <li>INPUT/REMAPPING: Add support for mapping multiple controllers to a single input
+  device</li>
 
-  <li>INPUT: Allow the 8 analog stick directions to be used as keys for core keyboard
-  mappings</li>
+  <li>INPUT/LIGHTGUN: Bind lightgun trigger to first mouse button by default</li>
 
-  <li>LIBRETRO: Add API extension for setting ''need_fullpath'' based on content file
-  extension and to request persistent frontend content data buffers</li>
+  <li>INPUT/WINDOWS/RAWINPUT: Mouse access violation fix</li>
 
-  <li>MENU/SEARCH: Add enhanced search functionality to the ''Manage Cores'' menu</li>
+  <li>INPUT/UDEV: Only add mouse if it has buttons and add vebose device friendly
+  names</li>
 
-  <li>OPENDINGUX: Fix black screens when triggering gfx driver initialisation via
-  menu actions</li>
+  <li>INPUT/UDEV: Skip mouse with no button errors and keep the rest</li>
 
-  <li>UNIX: Get better battery stats on sysfs nodes</li>
+  <li>INPUT/UDEV: Fix Game Focus mode</li>
 
-  <li>VIDEO: Extend Frame Delay range to 19 to accommodate PAL land too</li>
+  <li>INPUT/UDEV/X11: Change udev driver for dual lightgun support in X11</li>
 
-  <li>WIFI/LAKKA: Add nmcli to wifi drivers</li>
+  <li>LOCALIZATION: Fetch translations from Crowdin</li>
 
-  <li>WIFI/LAKKA: Add wifi configuration menu</li>
+  <li>LOCALIZATION: Fix Switchres menu texts</li>
 
-  <li>X11: fix fullscreen when swapping monitors/resolution</li>
+  <li>MENU/OZONE: Ensure sidebar display status is updated correctly when performing
+  rapid menu navigation</li>
+
+  <li>MENU/XMB: Dynamic wallpaper fix</li>
+
+  <li>MENU/XMB: Icon opacity fix</li>
+
+  <li>SECURITY: Plug so-called high-risk vulnerability related to Powershell - avoid
+  injection - don''t send speech input as commandline argument</li>
+
+  <li>UWP/XBOX: Add expanded resources Rescap to increase performance of UWP version
+  in app mode on Xbox</li>
+
+  <li>WINDOWS/INSTALLER: Add smarter isEmptyDir reference implementation that looks
+  for subdirectories from NSIS documentation</li>
+
+  <li>WINDOWS/INSTALLER: Register new function DirectorySet that is called when pressing
+  the "Next" button on the MUI_PAGE_DIRECTORY, aka the install folder selection GUI.
+  DirectorySet contains the criteria for an acceptable folder, which are:
+
+  <ul>
+
+  <li><code>IfFileExists "$INSTDIR\retroarch.exe"</code> returns 1</li>
+
+  <li><code>IfFileExists "$INSTDIR\*.*</code> returns 0, there is no existing folder</li>
+
+  <li><code>IfFileExists "$INSTDIR\*.*"</code> returns 1, there is a folder, and <code>isEmptyDir</code>
+  returns 1, therefore the folder is empty, including of subdirectories</li>
+
+  </ul>
+
+  </li>
+
+  <li>X11: Fix threaded video segfault</li>
 
   </ul>'
-updated: '2021-06-13T21:44:21Z'
-version: v1.9.5
+updated: '2021-06-27T05:01:07Z'
+version: v1.9.6
 website: http://www.libretro.com
 ---
