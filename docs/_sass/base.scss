@@ -179,9 +179,16 @@ img {
 }
 
 // Fixes for navbar on older browsers
-.navbar-toggler {
+html[dir=ltr] .navbar-toggler {
 	position: absolute;
 	right: 0.75rem;
+	top: 0.5rem;
+}
+
+html[dir=rtl] .navbar-toggler {
+	position: absolute;
+	left: 0.75rem;
+	top: 0.5rem;
 }
 
 .navbar {
@@ -446,8 +453,13 @@ html[dir=rtl] {
 		}
 	}
 
-	.lang-select-dropdown, .navbar-toggler {
+	html[dir=ltr] .lang-select-dropdown, .navbar-toggler {
 		position: absolute;
 		right: 0.75rem;
+	}
+
+	html[dir=rtl] .lang-select-dropdown, .navbar-toggler {
+		position: absolute;
+		left: 0.75rem;
 	}
 }
