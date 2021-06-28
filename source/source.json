@@ -5762,10 +5762,9 @@
 		"categories": ["utility"],
 		"downloads": {
 			"TWPatch.cia": {
-				"url": "untangle.parse(requests.get('https://sono.9net.org/hebrew/TWPatch/data/TWPatch.cia').text).html.head.meta.get_attribute('content')[3:]"
+				"url": "https://db.universal-team.net/assets/files/TWPatch.cia"
 			}
 		},
-		"eval_downloads": true,
 		"version": "2021/02/21",
 		"update_notes_md": "New TWPatch update to get ready for LgyBg support:\n- added new kernel patches to make LgyBg functional\n- unlocked the kernel patch menu, so it's easier to access now (Y+B, X+A, START, SELECT)\n\nLgyBg's GBA mode is pretty close to alpha release.\n\nFor DS mode, I still need to get touch, datetime, and DSi-specific stuff working.",
 		"download_page": "'https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/'",
