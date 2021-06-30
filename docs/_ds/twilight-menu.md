@@ -62,7 +62,15 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
   </ul>
 
   <p>This release was solely made to include <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.43.1">nds-bootstrap
-  v0.43.1</a>.</p>'
+  v0.43.1</a>.</p>
+
+  <p><strong>Known bug</strong></p>
+
+  <ul>
+
+  <li>The version is shown as <code>v21.0.0 v21.0.1</code> in TWLMenu++ Settings.</li>
+
+  </ul>'
 updated: '2021-06-29T04:14:02Z'
 version: v21.0.1
 version_title: v21.0.1 (hotfix)
