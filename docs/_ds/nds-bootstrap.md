@@ -45,6 +45,9 @@ update_notes: '<p>Instructions:</p>
 
   </ol>
 
+  <p>Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v21.0.2"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v21.0.2</a></p>
+
   <p><strong>Bug fix</strong></p>
 
   <ul>

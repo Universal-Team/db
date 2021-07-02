@@ -9,21 +9,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 39367020
+    size: 39366031
     size_str: 37 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.0.1/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.0.2/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 39382475
+    size: 39382807
     size_str: 37 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.0.1/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.0.2/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 51151852
+    size: 51148471
     size_str: 48 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.0.1/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.0.2/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 51335118
+    size: 51336089
     size_str: 48 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.0.1/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.0.2/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 image: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/logo.png
@@ -61,19 +61,20 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
 
   </ul>
 
-  <p>This release was solely made to include <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.43.1">nds-bootstrap
-  v0.43.1</a>.</p>
+  <p>Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.43.2">nds-bootstrap
+  v0.43.2</a></p>
 
-  <p><strong>Known bug</strong></p>
+  <p><strong>Improvement / Bug fix</strong></p>
 
   <ul>
 
-  <li>The version is shown as <code>v21.0.0 v21.0.1</code> in TWLMenu++ Settings.</li>
+  <li>Asynch and DMA card read blacklists have been updated with more known games
+  added.</li>
 
   </ul>'
-updated: '2021-06-29T04:14:02Z'
-version: v21.0.1
-version_title: v21.0.1 (hotfix)
+updated: '2021-07-02T02:04:52Z'
+version: v21.0.2
+version_title: v21.0.2 (hotfix)
 wiki: https://wiki.ds-homebrew.com/twilightmenu
 ---
 TWiLight Menu++ is an open-source DSi Menu upgrade/replacement for the Nintendo DSi, the Nintendo 3DS, and Nintendo DS flashcards. It can launch Nintendo DS, SNES, NES, GameBoy (color), GameBoy Advance, Sega GameGear/Master System & Mega Drive/Genesis ROMs, as well as DSTWO plugins (if you use a DSTWO) and videos.
