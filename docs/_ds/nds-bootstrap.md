@@ -9,13 +9,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 365976
-    size_str: 357 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.43.1/nds-bootstrap.7z
+    size: 365215
+    size_str: 356 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.43.2/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 889631
-    size_str: 868 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.43.1/nds-bootstrap.zip
+    size: 887198
+    size_str: 866 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.43.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://raw.githubusercontent.com/DS-Homebrew/nds-bootstrap/master/retail/assets/icon.bmp
 image: https://i.imgur.com/BFIu7xX.png
@@ -49,21 +49,23 @@ update_notes: '<p>Instructions:</p>
 
   <ul>
 
-  <li>Fixed overlooked bug where saving was broken.
+  <li>Save writing is now completely fixed!
 
   <ul>
 
-  <li>If you''re on v0.43.0, it is strongly recommended that you update to v0.43.1,
-  in order to prevent corrupt save data.</li>
+  <li>As a result, AP measures that use save checks are no longer tripped.</li>
+
+  <li>It is strongly recommended that you update to this version to avoid save corruption
+  further.</li>
 
   </ul>
 
   </li>
 
   </ul>'
-updated: '2021-06-29T04:01:53Z'
-version: v0.43.1
-version_title: v0.43.1 (hotfix)
+updated: '2021-07-02T01:59:34Z'
+version: v0.43.2
+version_title: v0.43.2 (hotfix)
 wiki: https://github.com/DS-Homebrew/nds-bootstrap/wiki
 ---
 nds-bootstrap is an open-source application that allows Nintendo DS/DSi ROMs and homebrew to be natively utilised rather than using an emulator. nds-bootstrap works on Nintendo DSi/3DS SD cards through CFW and on Nintendo DS through flashcarts.
