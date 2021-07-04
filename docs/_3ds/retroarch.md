@@ -10,11 +10,11 @@ description: Cross-platform, sophisticated frontend for the libretro API. Licens
 download_page: https://buildbot.libretro.com/stable/1.9.6/nintendo/3ds
 downloads:
   RetroArch_3dsx.7z:
-    size: 72336603
-    size_str: 68 MiB
+    size: 72377914
+    size_str: 69 MiB
     url: https://buildbot.libretro.com/stable/1.9.6/nintendo/3ds/RetroArch_3dsx.7z
   RetroArch_cia.7z:
-    size: 72933217
+    size: 72974048
     size_str: 69 MiB
     url: https://buildbot.libretro.com/stable/1.9.6/nintendo/3ds/RetroArch_cia.7z
 eval_downloads: true
@@ -31,6 +31,8 @@ systems:
 - 3DS
 title: RetroArch
 update_notes: '<ul>
+
+  <li>ARCHIVE: Fix archive delimiter detection when file path contains no slashes</li>
 
   <li>ANDROID: Do not duplicate port 0 mouse and gun inputs to other ports</li>
 
@@ -55,6 +57,8 @@ update_notes: '<ul>
 
   <li>GFX: Fix uninitialized variables in gfx_display_draw_cursor</li>
 
+  <li>HISTORY: Hide ''Add to Favorites'' when viewing an entry of the favorites playlist</li>
+
   <li>INPUT: ''Analog to Digital Type'' usability improvements</li>
 
   <li>INPUT: Add support for mapping multiple controllers to a single input device</li>
@@ -75,6 +79,8 @@ update_notes: '<ul>
 
   <li>INPUT/UDEV/X11: Change udev driver for dual lightgun support in X11</li>
 
+  <li>LIBNX/SWITCH: Update to libnx 4.0.0</li>
+
   <li>LOCALIZATION: Fetch translations from Crowdin</li>
 
   <li>LOCALIZATION: Fix Switchres menu texts</li>
@@ -85,6 +91,11 @@ update_notes: '<ul>
   <li>MENU/XMB: Dynamic wallpaper fix</li>
 
   <li>MENU/XMB: Icon opacity fix</li>
+
+  <li>MENU/QT/WIMP: Fix default core detection when playlist file name does not match
+  ''db_name''</li>
+
+  <li>PLAYLISTS: Optimise scanning of large rom sets</li>
 
   <li>SECURITY: Plug so-called high-risk vulnerability related to Powershell - avoid
   injection - don''t send speech input as commandline argument</li>
@@ -115,7 +126,8 @@ update_notes: '<ul>
   <li>X11: Fix threaded video segfault</li>
 
   </ul>'
-updated: '2021-06-27T05:01:07Z'
+updated: '2021-07-04T00:40:35Z'
 version: v1.9.6
+version_title: v1.9.6
 website: http://www.libretro.com
 ---
