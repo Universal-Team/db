@@ -7,6 +7,14 @@
 - https://db.universal-team.net, hosted from this repository with GitHub Pages this is the official Universal-DB website
 - [Universal-Updater](https://github.com/Universal-Team/Universal-Updater), Universal-DB is the default UniStore of Universal-Updater
 - [Universal-Bot](https://github.com/Universal-Team/Universal-Bot), our Discord bot, with `?db` you can search for apps on Universal-DB
+
+## Supported sites for automatic data collection
+These sites are the preferred places to host your downloads as Universal-DB can automatically fetch most of the info about it. More sites can be added provided they have sufficient info about it and are easy enough to get that info from, prefereably having some kind of API for it.
+
+- GitHub: Full support
+- BitBucket: Partial support
+- GBAtemp Download Center: Partial support
+
 ## Using the data
 As Universal-DB is hosted by GitHub pages we're not able to have a proper API, but you can use `docs/data/full.json` to get all the data we collect from the GitHub API and such all in one place. We recommend using https://db.universal-team.net/data/full.json instead of the raw link to the file in the repo.
 Please make an issue here or ask on [our Discord server](https://universal-team.net/discord) if you would like anything to be added to `full.json`, if possible we will try add it.

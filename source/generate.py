@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 
+from bs4 import BeautifulSoup
 import datetime
 from dateutil import parser
 import io
 import json
+from markdownify import markdownify
 import numpy
 import os
 from PIL import Image, ImageDraw
@@ -12,7 +14,6 @@ import re
 import requests
 import rfeed
 import sys
-import untangle
 import yaml
 
 # No py 2
@@ -50,84 +51,170 @@ def byteCount(bytes):
 	else:
 		return "%d GiB" % (bytes // (1 << 30))
 
-def downloadScript(file, url, message):
+def downloadScript(file, url, message, archive):
 	script = []
-	if file[file.rfind(".") + 1:].lower() == "3dsx":
+	if archive and file in archive:
 		script = [
 			{
 				"type": "downloadFile",
 				"file": url,
-				"output": f"%3DSX%/{file}",
+				"output": f"/{file}",
 				"message": f"Downloading {file}..."
 			}
 		]
-	elif file[file.rfind(".") + 1:].lower() in ["nds", "dsi"]:
-		script = [
-			{
-				"type": "downloadFile",
-				"file": url,
-				"output": f"%NDS%/{file}",
-				"message": f"Downloading {file}..."
-			}
-		]
-	elif file[file.rfind(".") + 1:].lower() == "cia":
-		script = [
-			{
-				"type": "downloadFile",
-				"file": url,
-				"output": f"sdmc:/{file}",
-				"message": f"Downloading {file}..."
-			},
-			{
-				"type": "installCia",
-				"file": f"/{file}",
-				"message": f"Installing {file}..."
-			},
-			{
-				"type": "deleteFile",
-				"file": f"sdmc:/{file}",
-				"message": f"Deleting {file}..."
-			}
-		]
-	elif file[file.rfind(".") + 1:].lower() == "firm":
-		script = [
-			{
-				"type": "downloadFile",
-				"file": url,
-				"output": f"%FIRM%/{file}",
-				"message": f"Downloading {file}..."
-			}
-		]
-	elif file[file.rfind(".") + 1:].lower() in ["zip", "7z", "rar"]:
-		script = [
-			{
-				"type": "downloadFile",
-				"file": url,
-				"output": f"sdmc:/{file}",
-				"message": f"Downloading {file}..."
-			},
-			{
-				"type": "extractFile",
-				"file": f"sdmc:/{file}",
-				"input": "",
-				"output": f"%ARCHIVE_DEFAULT%/{file[0:file.find('.')]}/",
-				"message": f"Extracting {file}..."
-			},
-			{
-				"type": "deleteFile",
-				"file": f"sdmc:/{file}",
-				"message": f"Deleting {file}..."
-			}
-		]
+		for item in archive[file]:
+			if item[item.rfind(".") + 1:].lower() == "3dsx":
+				script.append({
+					"type": "extractFile",
+					"file": f"/{file}",
+					"input": f"{item}",
+					"output": f"%3DSX%/{item[item.rfind('/') + 1:]}",
+					"message": f"Extracting {item[item.rfind('/') + 1:]}..."
+				})
+			elif item[item.rfind(".") + 1:].lower() in ["nds", "dsi"]:
+				script.append({
+					"type": "extractFile",
+					"file": f"/{file}",
+					"input": f"{item}",
+					"output": f"%NDS%/{item[item.rfind('/') + 1:]}",
+					"message": f"Extracting {file}..."
+				})
+			elif item[item.rfind(".") + 1:].lower() == "cia":
+				script.append({
+					"type": "extractFile",
+					"file": f"/{file}",
+					"input": f"{item}",
+					"output": f"sdmc:/{item[item.rfind('/') + 1:]}",
+					"message": f"Extracting {file}..."
+				})
+
+				script.append({
+					"type": "installCia",
+					"file": f"/{item}",
+					"message": f"Installing {item}..."
+				})
+
+				script.append({
+					"type": "deleteFile",
+					"file": f"sdmc:/{item}",
+					"message": f"Deleting {item}..."
+				})
+			elif item == "boot.firm":
+				script.append({
+					"type": "extractFile",
+					"file": f"/{file}",
+					"input": f"{item}",
+					"output": f"sdmc:/{item[item.rfind('/') + 1:]}",
+					"message": f"Extracting {item[item.rfind('/') + 1:]}..."
+				})
+			elif item[item.rfind(".") + 1:].lower() == "firm":
+				script.append({
+					"type": "extractFile",
+					"file": f"/{file}",
+					"input": f"{item}",
+					"output": f"%FIRM%/{item[item.rfind('/') + 1:]}",
+					"message": f"Extracting {item[item.rfind('/') + 1:]}..."
+				})
+			else:
+				script.append({
+					"type": "extractFile",
+					"file": f"/{file}",
+					"input": f"{item}",
+					"output": f"sdmc:/{item[item.rfind('/') + 1:]}",
+					"message": f"Extracting {item[item.rfind('/') + 1:]}..."
+				})
+
+		script.append({
+			"type": "deleteFile",
+			"file": f"/{file}",
+			"message": f"Deleting {file}..."
+		})
 	else:
-		script = [
-			{
-				"type": "downloadFile",
-				"file": url,
-				"output": f"sdmc:/{file}",
-				"message": f"Downloading {file}..."
-			}
-		]
+		if file[file.rfind(".") + 1:].lower() == "3dsx":
+			script = [
+				{
+					"type": "downloadFile",
+					"file": url,
+					"output": f"%3DSX%/{file}",
+					"message": f"Downloading {file}..."
+				}
+			]
+		elif file[file.rfind(".") + 1:].lower() in ["nds", "dsi"]:
+			script = [
+				{
+					"type": "downloadFile",
+					"file": url,
+					"output": f"%NDS%/{file}",
+					"message": f"Downloading {file}..."
+				}
+			]
+		elif file[file.rfind(".") + 1:].lower() == "cia":
+			script = [
+				{
+					"type": "downloadFile",
+					"file": url,
+					"output": f"sdmc:/{file}",
+					"message": f"Downloading {file}..."
+				},
+				{
+					"type": "installCia",
+					"file": f"/{file}",
+					"message": f"Installing {file}..."
+				},
+				{
+					"type": "deleteFile",
+					"file": f"sdmc:/{file}",
+					"message": f"Deleting {file}..."
+				}
+			]
+		elif file == "boot.firm":
+			script = [
+				{
+					"type": "downloadFile",
+					"file": url,
+					"output": f"sdmc:/{file}",
+					"message": f"Downloading {file}..."
+				}
+			]
+		elif file[file.rfind(".") + 1:].lower() == "firm":
+			script = [
+				{
+					"type": "downloadFile",
+					"file": url,
+					"output": f"%FIRM%/{file}",
+					"message": f"Downloading {file}..."
+				}
+			]
+		elif file[file.rfind(".") + 1:].lower() in ["zip", "7z", "rar"]:
+			script = [
+				{
+					"type": "downloadFile",
+					"file": url,
+					"output": f"sdmc:/{file}",
+					"message": f"Downloading {file}..."
+				},
+				{
+					"type": "extractFile",
+					"file": f"sdmc:/{file}",
+					"input": "",
+					"output": f"%ARCHIVE_DEFAULT%/{file[0:file.find('.')]}/",
+					"message": f"Extracting {file}..."
+				},
+				{
+					"type": "deleteFile",
+					"file": f"sdmc:/{file}",
+					"message": f"Deleting {file}..."
+				}
+			]
+		else:
+			script = [
+				{
+					"type": "downloadFile",
+					"file": url,
+					"output": f"sdmc:/{file}",
+					"message": f"Downloading {file}..."
+				}
+			]
 	
 	if message:
 		if type(message) == str:
@@ -209,6 +296,67 @@ for app in source:
 			foundExisting = True
 			app = temp[0]
 	if not foundExisting or not (priorityOnlyMode and not ("priority" in app and app["priority"])):
+		if "gbatemp" in app:
+			print("GBAtemp Download Center")
+			soup = BeautifulSoup(requests.get(f"https://gbatemp.net/download/{app['gbatemp']}/").text, "html.parser")
+
+			if not "title" in app:
+				app["title"] = soup.find(class_="resourceInfo").h1.find(text=True).strip()
+
+			if not "author" in app:
+				app["author"] = soup.find(class_="author").dd.a.text.strip()
+
+			if not "description" in app:
+				app["description"] = soup.find(class_="tagLine").text.strip()
+
+			if not "long_description" in app:
+				app["long_description"] = soup.blockquote.decode_contents().strip()
+
+			if not "avatar" in app:
+				app["avatar"] = "https://gbatemp.net/" + re.sub("/s/", "/l/", soup.find(class_="resourceImage").a.img["src"]).strip()
+
+			if not "created" in app:
+				app["created"] = parser.parse(soup.find(class_="firstRelease").dd.span["title"]).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+			if not "download_page" in app:
+				app["download_page"] = f"https://gbatemp.net/download/{app['gbatemp']}/"
+
+			if not "version" in app:
+				app["version"] = soup.find(class_="resourceInfo").h1.span.text.strip()
+
+			if not "version_title" in app:
+				app["version_title"] = soup.find(class_="updates").ol.li.a.text.strip()
+
+			if not "update_notes" in app or not "update_notes_md" in app:
+				if not "update_notes" in app:
+					notesSoup = BeautifulSoup(requests.get("https://gbatemp.net/" + soup.find(class_="updates").ol.li.a["href"]).text, "html.parser")
+					app["update_notes"] = notesSoup.blockquote.decode_contents().strip()
+
+				if not "update_notes_md" in app:
+					app["update_notes_md"] = markdownify(app["update_notes"], bullets="-")
+
+			if not "updated" in app:
+				app["updated"] = parser.parse(soup.find(class_="lastUpdate").dd.span["title"]).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+			if not "downloads" in app:
+				app["downloads"] = {}
+
+			head = requests.head("https://gbatemp.net/" + soup.find(class_="downloadButton").a["href"])
+			if head.status_code == 200:
+				if "Content-Disposition" in head.headers:
+					name = re.findall('filename="(.*)"', head.headers["Content-Disposition"])
+					if len(name) > 0:
+						name = name[0]
+						size = None
+						if not name in app["downloads"]:
+							app["downloads"][name] = {
+								"url": head.url,
+							}
+
+							if "Content-Length" in head.headers:
+								app["downloads"][download]["size"] = int(head.headers["Content-Length"])
+								app["downloads"][download]["size_str"] = byteCount(app["downloads"][download]["size"])
+
 		if "github" in app:
 			print("GitHub")
 			api = requests.get(f"https://api.github.com/repos/{app['github']}", headers = header if header else None).json()
@@ -439,7 +587,7 @@ for app in source:
 			app["image_length"] = os.path.getsize(f"../docs/{app['image'][30:]}")
 		else:
 			r = requests.head(app["image"], allow_redirects=True)
-			if r.status_code == 200:
+			if r.status_code == 200 and "Content-Length" in r.headers:
 				app["image_length"] = int(r.headers["Content-Length"])
 
 	# Make icon for UniStore and QR
@@ -622,25 +770,25 @@ for app in source:
 		if "autogen_scripts" in app and app["autogen_scripts"] or not "scripts" in app:
 			if "downloads" in app:
 				for file in app["downloads"]:
-					if len(re.findall("(zip|rar|7z|torrent|tar)", file)) == 0:
-						uni[file] = {
-							"script": downloadScript(file, app["downloads"][file]["url"], app["script_message"] if "script_message" in app else None),
+					if len(re.findall("(zip|rar|7z|torrent|tar)", file)) == 0 or ("archive" in app and file in app["archive"]):
+						uni[app["archive"][file][0] if ("archive" in app and file in app["archive"]) else file] = {
+							"script": downloadScript(file, app["downloads"][file]["url"], app["script_message"] if "script_message" in app else None, app["archive"] if "archive" in app else None),
 							"size": byteCount(app["downloads"][file]["size"]) if "size" in app["downloads"][file] else "",
 						}
 
 			if "prerelease" in app:
 				for file in app["prerelease"]["downloads"]:
-					if len(re.findall("(zip|rar|7z|torrent)", file)) == 0:
-						uni[f"[prerelease] {file}"] = {
-							"script": downloadScript(file, app["prerelease"]["downloads"][file]["url"], app["script_message"] if "script_message" in app else None),
+					if len(re.findall("(zip|rar|7z|torrent)", file)) == 0 or ("archive" in app and file in app["archive"]):
+						uni[f"[prerelease] {app['archive'][file][0] if ('archive' in app and file in app['archive']) else file}"] = {
+							"script": downloadScript(file, app["prerelease"]["downloads"][file]["url"], app["script_message"] if "script_message" in app else None, app["archive"] if "archive" in app else None),
 							"size": byteCount(app["prerelease"]["downloads"][file]["size"]) if "size" in app["prerelease"]["downloads"][file] else "",
 						}
 
 			if "nightly" in app:
 				for file in app["nightly"]["downloads"]:
-					if len(re.findall("(zip|rar|7z|torrent)", file)) == 0:
-						uni[f"[nightly] {file}"] = {
-							"script": downloadScript(file, app["nightly"]["downloads"][file]["url"], app["script_message"] if "script_message" in app else None),
+					if len(re.findall("(zip|rar|7z|torrent)", file)) == 0 or ("archive" in app and file in app["archive"]):
+						uni[f"[nightly] {app['archive'][file][0] if ('archive' in app and file in app['archive']) else file}"] = {
+							"script": downloadScript(file, app["nightly"]["downloads"][file]["url"], app["script_message"] if "script_message" in app else None, app["archive"] if "archive" in app else None),
 							"size": byteCount(app["nightly"]["downloads"][file]["size"]) if "size" in app["nightly"]["downloads"][file] else "",
 						}
 
