@@ -6,7 +6,7 @@ on:
     - cron: 0 1-5,7-11,13-17,19-23 * * *
   push:
     branches: [ master ]
-    paths: [ source/source.json, source/generate.py, .github/workflows/update-priority.yml ]
+    paths: [ source/source.json, source/generate.py, source/requirements.txt, .github/workflows/update-priority.yml ]
 
 jobs:
   run:
