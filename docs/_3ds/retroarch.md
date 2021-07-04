@@ -14,7 +14,7 @@ downloads:
     size_str: 69 MiB
     url: https://buildbot.libretro.com/stable/1.9.6/nintendo/3ds/RetroArch_3dsx.7z
   RetroArch_cia.7z:
-    size: 72974048
+    size: 72933217
     size_str: 69 MiB
     url: https://buildbot.libretro.com/stable/1.9.6/nintendo/3ds/RetroArch_cia.7z
 eval_downloads: true
@@ -51,7 +51,7 @@ update_notes: '<ul>
 
   <li>D3D11: Fix non-vsynced output without flip, black screens in fullscreen</li>
 
-  <li>D3D12: Relcoated ''d3d12_gfx_sync''</li>
+  <li>D3D12: Relocated ''d3d12_gfx_sync''</li>
 
   <li>D3D12: Fixed swap interval option</li>
 
