@@ -9,13 +9,13 @@ description: A clone of the mill game for Nintendo 3DS.
 download_page: https://github.com/SuperSaiyajinStackZ/StackMill/releases
 downloads:
   StackMill.3dsx:
-    size: 237780
-    size_str: 232 KiB
-    url: https://github.com/SuperSaiyajinStackZ/StackMill/releases/download/v0.1.0/StackMill.3dsx
+    size: 242604
+    size_str: 236 KiB
+    url: https://github.com/SuperSaiyajinStackZ/StackMill/releases/download/v0.2.0/StackMill.3dsx
   StackMill.cia:
     size: 283584
     size_str: 276 KiB
-    url: https://github.com/SuperSaiyajinStackZ/StackMill/releases/download/v0.1.0/StackMill.cia
+    url: https://github.com/SuperSaiyajinStackZ/StackMill/releases/download/v0.2.0/StackMill.cia
 github: SuperSaiyajinStackZ/StackMill
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/StackMill/main/3DS/app/icon.png
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/StackMill/main/3DS/app/banner.png
@@ -52,14 +52,40 @@ source: https://github.com/SuperSaiyajinStackZ/StackMill
 systems:
 - 3DS
 title: StackMill
-update_notes: '<p>This is StackMill v0.1.0... basically the initial implementation
-  from me.</p>
+update_notes: '<p>This is v0.2.0 of StackMill, which has the following changes:</p>
 
-  <p>This is a clone of the Mill game, also known as <code>Nine men''s morris</code>.
-  Check the README.md for more info about features, screenshots and more.</p>
+  <ul>
 
-  <p>Have fun with v0.1.0. ~SuperSaiyajinStackZ</p>'
-updated: '2021-06-30T00:48:02Z'
-version: v0.1.0
-version_title: StackMill's first release
+  <li>
+
+  <p>[Important Derp Fix]: The AI used the Player Phase instead of AI Phase. That
+  should now be fixed and the AI shouldn''t be weird anymore if the Player had the
+  Jump Phase and the AI the Move Phase for example.</p>
+
+  </li>
+
+  <li>
+
+  <p>Added a 50:50 AI Mode, which is slightly more difficult than the completely random
+  one, however still easy beat-able. If you want a challenge, then ask one of your
+  Friends or Family at home, to play against you! (Do NOTE, for that, the Stone on
+  the AI Mode at the Settings (Second Tab / Middle Tab) must be set to the Red one
+  (first one)).</p>
+
+  </li>
+
+  <li>
+
+  <p>Rules: Now does color the selected Section on the bottom screen, so you know,
+  at which section you are. You can also scroll with UP / DOWN now through the pages.</p>
+
+  </li>
+
+  </ul>
+
+  <p>That''s pretty much all I believe that changed in the two commits that have been
+  done until v0.2.0. Have fun. ~SuperSaiyajinStackZ</p>'
+updated: '2021-07-04T16:07:29Z'
+version: v0.2.0
+version_title: Important derps fixed
 ---
