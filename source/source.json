@@ -5705,34 +5705,12 @@
 		"github": "Nanquitas/Luma3DS",
 		"title": "Luma3DS (Nanquitas)",
 		"systems": ["3DS"],
-		"categories": ["utility", "firm", "luma3ds"],
-		"scripts": {
-			"boot.firm": [
-				{
-					"type": "downloadRelease",
-					"repo": "Nanquitas/Luma3DS",
-					"file": "boot.firm",
-					"output": "/boot.firm",
-					"message": "Downloading boot.firm..."
-				}
-			]
-		}
+		"categories": ["utility", "firm", "luma3ds"]
 	},
 	{
 		"github": "mikewii/Luma3DS-plugin",
 		"systems": ["3DS"],
-		"categories": ["utility", "firm", "luma3ds"],
-		"scripts": {
-			"boot.firm": [
-				{
-					"type": "downloadRelease",
-					"repo": "mikewii/Luma3DS-plugin",
-					"file": "boot.firm",
-					"output": "/boot.firm",
-					"message": "Downloading boot.firm..."
-				}
-			]
-		}
+		"categories": ["utility", "firm", "luma3ds"]
 	},
 	{
 		"github": "fincs/new-hbmenu",
@@ -6609,5 +6587,14 @@
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/StackMill/main/3DS/app/icon.png",
 		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/StackMill/main/3DS/app/banner.png"
+	},
+	{
+		"gbatemp": "35619",
+		"github": "DullPointer/Luma3DS",
+		"systems": ["3DS"],
+		"categories": ["utility", "firm", "luma3ds"],
+		"archive": {
+			"luma1021_QuickSwitchers - brightness_recalibration.zip": ["boot.firm"]
+		}
 	}
 ]
