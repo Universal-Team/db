@@ -41,7 +41,7 @@ update_notes: '<p>Instructions:</p>
 
   <li>Extract the nds-bootstrap <code>.nds</code> files, to <code>root:/_nds</code>.</li>
 
-  <li>Extract the <code>.ver</code> file to <code>root:/_nds/TWiLightMenu</code>.</li>
+  <li><strong>TWLMenu++ users:</strong> Extract the <code>.ver</code> file to <code>root:/_nds/TWiLightMenu</code>.</li>
 
   </ol>
 
