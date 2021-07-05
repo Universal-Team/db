@@ -11,17 +11,17 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1099264
+    size: 1110528
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.4/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.5/StellaDS.nds
   compatibility.txt:
     size: 25415
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.4/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.5/compatibility.txt
   readme.txt:
-    size: 13985
+    size: 14103
     size_str: 13 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.4/readme.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.5/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -33,21 +33,12 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p>V3.4 : 28-Jun-2021 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p>V3.5 - Up to 75 Instruction Manuals!<br>
 
-  <ul>
+  Quadrun sound improved.<br>
 
-  <li>Added new flicker reduction algorithms to help render games<br>
-
-  like Frogger, Asteroids, Astroblast, Pac-Man, more accurate.</li>
-
-  <li>Defender II and Stargate have mapped buttons for Hyperspace, Inviso and Smart
-  Bomb making them playable.</li>
-
-  <li>Total instruction manuals: 50!</li>
-
-  </ul>'
-updated: '2021-06-28T11:07:08Z'
-version: '3.4'
-version_title: Version 3.4
+  Other minor fixes and improvements as time allowed.</p>'
+updated: '2021-07-05T12:53:07Z'
+version: '3.5'
+version_title: Version 3.5
 ---
