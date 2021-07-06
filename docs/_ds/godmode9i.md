@@ -42,7 +42,14 @@ updated: '2021-01-28T16:42:31Z'
 version: v2.6.1
 version_title: v2.6.1
 ---
-Features:
+### Installation:
+- TWiLight Menu++: Use either the `GodMode9i.nds` or `GodMode9i.dsi` file, they function identically with TWiLight Menu++
+   - The only difference is that `GodMode9i.dsi` has a Title ID
+- Flashcard: Use the `GodMode9i.nds` file
+- hiyaCFW SDNAND: Install the `GodMode9i.dsi` file with [TMFH](/ds/tmfh)
+- 3DS HOME Menu: Install the `GodMode9i.cia` file with [FBI](/3ds/fbi)
+
+### Features:
 - Dump GameBoy Advance cartridges on the original Nintendo DS and Nintendo DS Lite consoles.
 - Dump Nintendo DS/DSi cartridges on Nintendo DSi and Nintendo 3DS consoles (if GodMode9i is ran on the console SD card).
 - Copy, move, delete, rename files/folders and create folders.
