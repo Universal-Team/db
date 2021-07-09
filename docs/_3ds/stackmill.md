@@ -9,13 +9,13 @@ description: A clone of the mill game for Nintendo 3DS.
 download_page: https://github.com/SuperSaiyajinStackZ/StackMill/releases
 downloads:
   StackMill.3dsx:
-    size: 242604
-    size_str: 236 KiB
-    url: https://github.com/SuperSaiyajinStackZ/StackMill/releases/download/v0.2.0/StackMill.3dsx
+    size: 270988
+    size_str: 264 KiB
+    url: https://github.com/SuperSaiyajinStackZ/StackMill/releases/download/v0.3.0/StackMill.3dsx
   StackMill.cia:
-    size: 283584
-    size_str: 276 KiB
-    url: https://github.com/SuperSaiyajinStackZ/StackMill/releases/download/v0.2.0/StackMill.cia
+    size: 299968
+    size_str: 292 KiB
+    url: https://github.com/SuperSaiyajinStackZ/StackMill/releases/download/v0.3.0/StackMill.cia
 github: SuperSaiyajinStackZ/StackMill
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/StackMill/main/3DS/app/icon.png
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/StackMill/main/3DS/app/banner.png
@@ -44,6 +44,14 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/stackmill/rules-6.png
 - description: Rules 7
   url: https://db.universal-team.net/assets/images/screenshots/stackmill/rules-7.png
+- description: Settings tab game settings
+  url: https://db.universal-team.net/assets/images/screenshots/stackmill/settings-tab-game-settings.png
+- description: Settings tab import export
+  url: https://db.universal-team.net/assets/images/screenshots/stackmill/settings-tab-import-export.png
+- description: Settings tab language
+  url: https://db.universal-team.net/assets/images/screenshots/stackmill/settings-tab-language.png
+- description: Settings tab main
+  url: https://db.universal-team.net/assets/images/screenshots/stackmill/settings-tab-main.png
 - description: Settings tab
   url: https://db.universal-team.net/assets/images/screenshots/stackmill/settings-tab.png
 - description: Splash
@@ -52,40 +60,35 @@ source: https://github.com/SuperSaiyajinStackZ/StackMill
 systems:
 - 3DS
 title: StackMill
-update_notes: '<p>This is v0.2.0 of StackMill, which has the following changes:</p>
+update_notes: '<p>This is v0.3.0 of StackMill, which has the following changes:</p>
 
   <ul>
 
   <li>
 
-  <p>[Important Derp Fix]: The AI used the Player Phase instead of AI Phase. That
-  should now be fixed and the AI shouldn''t be weird anymore if the Player had the
-  Jump Phase and the AI the Move Phase for example.</p>
+  <p>Added initial multi language support. (English, German and Japanese are supported
+  right now).</p>
 
   </li>
 
   <li>
 
-  <p>Added a 50:50 AI Mode, which is slightly more difficult than the completely random
-  one, however still easy beat-able. If you want a challenge, then ask one of your
-  Friends or Family at home, to play against you! (Do NOTE, for that, the Stone on
-  the AI Mode at the Settings (Second Tab / Middle Tab) must be set to the Red one
-  (first one)).</p>
+  <p>Reworked SettingsTab for Game Settings, Language and a new Import / Export feature
+  for the GameData.</p>
 
   </li>
 
   <li>
 
-  <p>Rules: Now does color the selected Section on the bottom screen, so you know,
-  at which section you are. You can also scroll with UP / DOWN now through the pages.</p>
+  <p>[NEW]: Save the current match to a file and Load it, so you can save an important
+  match and load it whenever you want.</p>
 
   </li>
 
   </ul>
 
-  <p>That''s pretty much all I believe that changed in the two commits that have been
-  done until v0.2.0. Have fun. ~SuperSaiyajinStackZ</p>'
-updated: '2021-07-04T16:07:29Z'
-version: v0.2.0
-version_title: Important derps fixed
+  <p>That''s pretty much all I believe that changed. Have fun. ~SuperSaiyajinStackZ</p>'
+updated: '2021-07-09T15:43:01Z'
+version: v0.3.0
+version_title: Multi-Language Support
 ---
