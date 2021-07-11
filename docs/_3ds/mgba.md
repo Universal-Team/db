@@ -8,10 +8,10 @@ created: '2014-12-09T21:37:23Z'
 description: mGBA Game Boy Advance Emulator
 download_page: https://github.com/mgba-emu/mgba/releases
 downloads:
-  mGBA-0.9.1-3ds.7z:
-    size: 1147259
+  mGBA-0.9.2-3ds.7z:
+    size: 1146807
     size_str: 1 MiB
-    url: https://github.com/mgba-emu/mgba/releases/download/0.9.1/mGBA-0.9.1-3ds.7z
+    url: https://github.com/mgba-emu/mgba/releases/download/0.9.2/mGBA-0.9.2-3ds.7z
 eval_notes_md: true
 github: mgba-emu/mgba
 icon: https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-48.png
@@ -39,19 +39,17 @@ update_notes: '<h3>Emulation fixes:</h3>
 
   <ul>
 
-  <li>ARM: Fix LDM^ with empty rlist (fixes mgba.io/i/2127)</li>
+  <li>GB Video: Clear VRAM on reset (fixes mgba.io/i/2152)</li>
 
-  <li>Core: Fix first event scheduling after loading savestate</li>
+  <li>GBA SIO: Add missing NORMAL8 implementation bits (fixes mgba.io/i/2172)</li>
 
-  <li>GB Serialize: Fix switching speed modes when loading a state (fixes mgba.io/i/2097)</li>
+  <li>GBA SIO: Fix missing interrupt on an unattached NORMAL transfer</li>
 
-  <li>GB: Fix skipping BIOS</li>
+  <li>GBA Memory: Fix prefetch mask when swapping modes within a region</li>
 
-  <li>GBA Memory: Fix loading Thumb savestates when in ARM mode</li>
+  <li>GBA Serialize: Fix loading audio enable bit late (fixes mgba.io/i/2230)</li>
 
-  <li>GBA Video: Fix window start on modes 3-5 with mosaic (fixes mgba.io/i/1690)</li>
-
-  <li>GBA Video: Fix mode 3-5 overflow with mosaic (fixes mgba.io/i/1691)</li>
+  <li>GBA Video: Revert scanline latching changes (fixes mgba.io/i/2153, mgba.io/i/2149)</li>
 
   </ul>
 
@@ -59,27 +57,37 @@ update_notes: '<h3>Emulation fixes:</h3>
 
   <ul>
 
-  <li>GBA: Fix non-USA 1.0 FireRed misdetecting as a ROM hack (fixes mgba.io/i/2100)</li>
+  <li>3DS: Fix disabling "wide" mode on 2DS (fixes mgba.io/i/2167)</li>
 
-  <li>GBA: Fix crash when ROM loading fails</li>
+  <li>ARM Debugger: Fix disassembly alignment (fixes mgba.io/i/2204)</li>
 
-  <li>GBA e-Reader: Fix bitmap short strip scanning</li>
+  <li>Core: Fix memory leak in opening games from the library</li>
 
-  <li>GBA Video: Fix mode 5 frame 1 caching (fixes mgba.io/i/2075)</li>
+  <li>Core: Fix memory searches for relative values (fixes mgba.io/i/2135)</li>
 
-  <li>GBA Video: Don''t attempt to copy invalid registers when switching renderer</li>
+  <li>Core: Fix portable mode on macOS</li>
 
-  <li>Qt: Fix crash when switching from high-resolution OpenGL renderer to software</li>
+  <li>GB Audio: Fix audio channel 4 being slow to deserialize</li>
 
-  <li>Qt: Fix OpenGL renderer lagging behind when fast-forwarding (fixes mgba.io/i/2094)</li>
+  <li>GB Core: Fix GBC colors setting breaking default model overrides (fixes mgba.io/i/2161)</li>
 
-  <li>Qt: Fix smudged window icon on Windows</li>
+  <li>mGUI: Cache save state screenshot validity in state menu (fixes mgba.io/i/2005)</li>
 
-  <li>Qt: Fix saving settings enabling camera when camera name changes (fixes mgba.io/i/2125)</li>
+  <li>Qt: Fix eventual deadlock when using sync to video</li>
 
-  <li>Qt: Fix frames getting backlogged (fixes mgba.io/i/2122)</li>
+  <li>Qt: Fix applying savetype-only overrides</li>
 
-  <li>Qt: Restore maximized state when starting (fixes mgba.io/i/487)</li>
+  <li>Qt: Fix crash in sprite view for partially out-of-bounds sprites (fixes mgba.io/i/2165)</li>
+
+  <li>Qt: Fix having to press controller buttons twice for menu items (fixes mgba.io/i/2143)</li>
+
+  <li>Qt: Redo sensor binding to be less fragile</li>
+
+  <li>Qt: Reuse timer when rescheduling missing frames (fixes mgba.io/i/2236)</li>
+
+  <li>Qt: Fix bounded fast forward with enhancement OpenGL renderer</li>
+
+  <li>Util: Fix loading UPS patches that affect the last byte of the file</li>
 
   </ul>
 
@@ -87,18 +95,10 @@ update_notes: '<h3>Emulation fixes:</h3>
 
   <ul>
 
-  <li>Core: Truncate preloading ROMs that slightly exceed max size (fixes mgba.io/i/2093)</li>
-
-  <li>GBA: Default-enable VBA bug compat for Ruby and Emerald ROM hacks</li>
-
-  <li>GBA Memory: Log GPIO writes on non-GPIO carts as Pak Hardware instead of Memory</li>
-
-  <li>Qt: Add ROM filename and size to bug reporter</li>
-
-  <li>Qt: Improve handling of disabling VBA bug compat mode (fixes mgba.io/i/2129)</li>
+  <li>Util: Improve speed of UPS patch loading</li>
 
   </ul>'
-updated: '2021-04-19T05:34:38Z'
-version: 0.9.1
+updated: '2021-07-11T04:19:14Z'
+version: 0.9.2
 website: https://mgba.io/
 ---
