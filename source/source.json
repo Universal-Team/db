@@ -4938,37 +4938,6 @@
 		}
 	},
 	{
-		"title": "GameYob (3DS)",
-		"github": "Steveice10/GameYob",
-		"systems": ["3DS"],
-		"categories": ["emulator"],
-		"icon": "https://raw.githubusercontent.com/Steveice10/GameYob/master/meta/icon_3ds.png",
-		"autogen_scripts": true,
-		"scripts": {
-			"GameYob.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "Steveice10/GameYob",
-					"file": "GameYob.zip",
-					"output": "/GameYob.zip",
-					"message": "Downloading GameYob.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/GameYob.zip",
-					"input": "3ds-arm/3ds/GameYob/GameYob.3dsx",
-					"output": "%3DSX%/GameYob.3dsx",
-					"message": "Extracting GameYob.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/GameYob.zip",
-					"message": "Deleting GameYob.zip..."
-				}
-			]
-		}
-	},
-	{
 		"github": "suloku/pdrpse",
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
