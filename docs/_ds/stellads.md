@@ -11,17 +11,17 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1231360
+    size: 1242112
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.6/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.7/StellaDS.nds
   compatibility.txt:
     size: 25415
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.6/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.7/compatibility.txt
   readme.txt:
-    size: 15256
-    size_str: 14 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.6/readme.txt
+    size: 15439
+    size_str: 15 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/3.7/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -33,16 +33,20 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p>V3.6 :10-July-2021 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p>V3.7 :12-July-2021 by Dave Bernazzani (wavemotion)</p>
 
-  <p>PAL Support! PAL games will render in proper 50Hz / 312 Scanlines.<br>
+  <ul>
 
-  Database of known games expanded from 850 to 1900.<br>
+  <li>100 Game Manuals!!</li>
 
-  Long rom filenames now scroll when selecting a game.<br>
+  <li>Fix for Thwocker prototypes.</li>
 
-  Total instruction manuals: 80!</p>'
-updated: '2021-07-10T14:17:55Z'
-version: '3.6'
-version_title: Version 3.6
+  <li>Minor screen tweaks to tighten up some displays.</li>
+
+  <li>New info graphic.</li>
+
+  </ul>'
+updated: '2021-07-12T17:06:16Z'
+version: '3.7'
+version_title: Version 3.7
 ---
