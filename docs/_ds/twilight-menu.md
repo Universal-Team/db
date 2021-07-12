@@ -9,21 +9,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 39366031
+    size: 39283630
     size_str: 37 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.0.2/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.1.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 39382807
+    size: 39296041
     size_str: 37 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.0.2/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.1.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 51148471
+    size: 51064454
     size_str: 48 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.0.2/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.1.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 51336089
+    size: 51245075
     size_str: 48 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.0.2/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.1.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 image: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/logo.png
@@ -61,20 +61,111 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
 
   </ul>
 
-  <p>Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.43.2">nds-bootstrap
-  v0.43.2</a></p>
+  <p>Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.44.0">nds-bootstrap
+  v0.44.0</a></p>
 
-  <p><strong>Improvement / Bug fix</strong></p>
+  <p><strong>What''s new?</strong></p>
 
   <ul>
 
-  <li>Asynch and DMA card read blacklists have been updated with more known games
-  added.</li>
+  <li>Proper widescreen support has been re-implemented. Once again, only games that
+  are widescreen-compatible will launch in the 16:10 aspect ratio, while games that
+  are not widescreen-compatible will stay in the original 4:3 aspect ratio!
+
+  <ul>
+
+  <li>The setting has moved back to the <code>Games/Apps</code> page in TWLMenu++
+  Settings.</li>
+
+  <li>Re-follow the widescreen guide for the feature to work properly.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Speaking of widescreen, more games are now supported!<br>
+
+  (codes by Vague Rant, gamemasterplc, DeadSkullzJr, and possibly more)
+
+  <ul>
+
+  <li>101 Dolphin Pets</li>
+
+  <li>101 Shark Pets</li>
+
+  <li>AiRace</li>
+
+  <li>AiRace: Tunnel</li>
+
+  <li>ARC Style: Soccer! (Korean version only)</li>
+
+  <li>Bakugan: Battle Brawlers</li>
+
+  <li>Bakugan: Battle Brawlers: Battle Trainer</li>
+
+  <li>Battle/Combat of Giants: Dinosaurs</li>
+
+  <li>Battle/Combat of Giants: Dinosaurs: Fight For Survival</li>
+
+  <li>Big Bass Arcade</li>
+
+  <li>Box Pusher</li>
+
+  <li>Clash of Elementalists</li>
+
+  <li>Curling Super Championship</li>
+
+  <li>Ducati Moto</li>
+
+  <li>Ferrari GT: Evolution</li>
+
+  <li>Frogger Returns</li>
+
+  <li>Glory Days: Tactical Defense</li>
+
+  <li>GO Series: Undead Storm</li>
+
+  <li>Hero of Sparta</li>
+
+  <li>LEGO Rock Band</li>
+
+  <li>Moto Racing DS</li>
+
+  <li>N+</li>
+
+  <li>Need for Speed Carbon: Own the City</li>
+
+  <li>Need for Speed - Nitro-X (USA)</li>
+
+  <li>New International Track &amp; Field</li>
+
+  <li>Real Soccer 2009</li>
+
+  <li>Remote Racers</li>
+
+  <li>Rock Band 3</li>
+
+  <li>Thorium Wars</li>
+
+  <li>X-Scape (USA)/3D Space Tank (Europe, Australia)/X-Returns (Japan)</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <p><strong>Improvement</strong></p>
+
+  <ul>
+
+  <li>The asynch and DMA card read blacklists have been updated with more known games
+  added!</li>
 
   </ul>'
-updated: '2021-07-02T02:04:52Z'
-version: v21.0.2
-version_title: v21.0.2 (hotfix)
+updated: '2021-07-12T08:14:53Z'
+version: v21.1.0
+version_title: v21.1.0
 wiki: https://wiki.ds-homebrew.com/twilightmenu
 ---
 TWiLight Menu++ is an open-source DSi Menu upgrade/replacement for the Nintendo DSi, the Nintendo 3DS, and Nintendo DS flashcards. It can launch Nintendo DS, SNES, NES, GameBoy (color), GameBoy Advance, Sega GameGear/Master System & Mega Drive/Genesis ROMs, as well as DSTWO plugins (if you use a DSTWO) and videos.
