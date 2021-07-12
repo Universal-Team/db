@@ -68,9 +68,10 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
 
   <ul>
 
-  <li>Proper widescreen support has been re-implemented. Once again, only games that
-  are widescreen-compatible will launch in the 16:10 aspect ratio, while games that
-  are not widescreen-compatible will stay in the original 4:3 aspect ratio!
+  <li><strong>3DS users:</strong> Proper widescreen support has been re-implemented.
+  Once again, only games that are widescreen-compatible will launch in the 16:10 aspect
+  ratio, while games that are not widescreen-compatible will stay in the original
+  4:3 aspect ratio!
 
   <ul>
 
@@ -85,7 +86,7 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
 
   <li>Speaking of widescreen, more games are now supported!<br>
 
-  (codes by Vague Rant, gamemasterplc, DeadSkullzJr, and possibly more)
+  (To see the complete list, as well as who made the codes, check <a href="https://github.com/DS-Homebrew/TWiLightMenu/blob/master/7zfile/3DS%20-%20CFW%20users/Games%20supported%20with%20widescreen.txt">here</a>.)
 
   <ul>
 
@@ -135,7 +136,7 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
 
   <li>Need for Speed Carbon: Own the City</li>
 
-  <li>Need for Speed - Nitro-X (USA)</li>
+  <li>Need for Speed: Nitro-X (USA)</li>
 
   <li>New International Track &amp; Field</li>
 
