@@ -287,6 +287,7 @@
 	{
 		"github": "Gericom/GBARunner2",
 		"icon": "https://raw.githubusercontent.com/Gericom/GBARunner2/master/icon.bmp",
+		"wiki": "https://wiki.ds-homebrew.com/gbarunner2/",
 		"categories": ["emulator"],
 		"systems": ["DS"],
 		"autogen_scripts": true,
@@ -309,6 +310,7 @@
 		"systems": ["DS"],
 		"image": "https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png",
 		"icon": "https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/icon.bmp",
+		"wiki": "https://wiki.ds-homebrew.com/other/godmode9i",
 		"nightly": {
 			"download_page": "https://github.com/TWLBot/Builds/blob/master/extras/GodMode9i.7z",
 			"downloads": {
@@ -5226,8 +5228,8 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/logo.png",
 		"icon": "https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif",
-		"long_description": "TWiLight Menu++ is an open-source DSi Menu upgrade/replacement for the Nintendo DSi, the Nintendo 3DS, and Nintendo DS flashcards. It can launch Nintendo DS, SNES, NES, GameBoy (color), GameBoy Advance, Sega GameGear/Master System & Mega Drive/Genesis ROMs, as well as DSTWO plugins (if you use a DSTWO) and videos.\n\nPlease check the [wiki](https://wiki.ds-homebrew.com/twilightmenu) for help installing.",
-		"wiki": "https://wiki.ds-homebrew.com/twilightmenu",
+		"long_description": "TWiLight Menu++ is an open-source DSi Menu upgrade/replacement for the Nintendo DSi, the Nintendo 3DS, and Nintendo DS flashcards. It can launch Nintendo DS, SNES, NES, GameBoy (color), GameBoy Advance, Sega GameGear/Master System & Mega Drive/Genesis ROMs, as well as DSTWO plugins (if you use a DSTWO) and videos.\n\nPlease check the [wiki](https://wiki.ds-homebrew.com/twilightmenu/) for help installing.",
+		"wiki": "https://wiki.ds-homebrew.com/twilightmenu/",
 		"priority": true,
 		"nightly": {
 			"download_page": "https://github.com/TWLBot/Builds",
@@ -5331,6 +5333,7 @@
 		"image": "https://i.imgur.com/BFIu7xX.png",
 		"icon": "https://raw.githubusercontent.com/DS-Homebrew/nds-bootstrap/master/retail/assets/icon.bmp",
 		"long_description": "nds-bootstrap is an open-source application that allows Nintendo DS/DSi ROMs and homebrew to be natively utilised rather than using an emulator. nds-bootstrap works on Nintendo DSi/3DS SD cards through CFW and on Nintendo DS through flashcarts.",
+		"wiki": "https://wiki.ds-homebrew.com/nds-bootstrap/",
 		"priority": true,
 		"nightly": {
 			"download_page": "https://github.com/TWLBot/Builds",
@@ -5429,6 +5432,7 @@
 		"image": "https://raw.githubusercontent.com/RocketRobz/hiyaCFW/unlaunch/logo/logo.png",
 		"icon": "https://raw.githubusercontent.com/RocketRobz/hiyaCFW/unlaunch/icon.bmp",
 		"long_description": "**Note:** For the initial install, please follow [dsi.cfw.guide](https://dsi.cfw.guide). If you are updating, then simply replace `sd:/hiya.dsi` from the `for SDNAND SD card` in the 7z.",
+		"wiki": "https://wiki.ds-homebrew.com/hiyacfw/",
 		"unistore_exclude": true,
 		"nightly": {
 			"download_page": "https://github.com/TWLBot/Builds/blob/master/extras/hiyaCFW.7z",
