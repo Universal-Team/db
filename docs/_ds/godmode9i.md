@@ -59,7 +59,7 @@ update_notes: '<p><strong>What''s new?</strong></p>
 
   <ul>
 
-  <li>If you previously dumped your trimmed ROM using a previous version of GM9<strong>i</strong>,
+  <li>If you''ve dumped your trimmed ROM using a previous version of GM9<strong>i</strong>,
   please redump using this version, in order for cloneboot to work.</li>
 
   </ul>
