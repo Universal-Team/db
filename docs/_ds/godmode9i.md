@@ -41,6 +41,7 @@ update_notes: '<p><strong>Bug fix</strong></p>
 updated: '2021-01-28T16:42:31Z'
 version: v2.6.1
 version_title: v2.6.1
+wiki: https://wiki.ds-homebrew.com/other/godmode9i
 ---
 ### Installation:
 - TWiLight Menu++: Use either the `GodMode9i.nds` or `GodMode9i.dsi` file, they function identically with TWiLight Menu++

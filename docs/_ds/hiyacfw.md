@@ -63,6 +63,6 @@ update_notes: '<p>To update, just replace <code>hiya.dsi</code> on the SD root, 
 updated: '2020-10-22T06:35:14Z'
 version: v1.4.0
 version_title: Hacktober (2020) release
-wiki: https://github.com/RocketRobz/hiyaCFW/wiki
+wiki: https://wiki.ds-homebrew.com/hiyacfw/
 ---
 **Note:** For the initial install, please follow [dsi.cfw.guide](https://dsi.cfw.guide). If you are updating, then simply replace `sd:/hiya.dsi` from the `for SDNAND SD card` in the 7z.
