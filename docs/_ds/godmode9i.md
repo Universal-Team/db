@@ -11,9 +11,9 @@ description: 'GodMode9i Explorer - A full access file browser for the Nintendo D
 download_page: https://github.com/DS-Homebrew/GodMode9i/releases
 downloads:
   GodMode9i.7z:
-    size: 176022
-    size_str: 171 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v2.6.1/GodMode9i.7z
+    size: 177027
+    size_str: 172 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v2.7.0/GodMode9i.7z
 github: DS-Homebrew/GodMode9i
 icon: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/icon.bmp
 image: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png
@@ -30,17 +30,62 @@ source: https://github.com/DS-Homebrew/GodMode9i
 systems:
 - DS
 title: GodMode9i
-update_notes: '<p><strong>Bug fix</strong></p>
+update_notes: '<p><strong>What''s new?</strong></p>
 
   <ul>
 
-  <li>Fixed an overlooked bug where dumping a trimmed ROM would show <code>Failed
-  to dump the ROM.</code> when done.</li>
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  Hex editor has been added!</li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Peter0x44/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Peter0x44">@Peter0x44</a>)
+  Implemented calculating SHA1 hash of files.</li>
+
+  <li>B4DS is no longer booted on flashcards, as it got merged with the main nds-bootstrap
+  build.</li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/spellboundtriangle/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/spellboundtriangle">@spellboundtriangle</a>)
+  Added save restoration support for sav1-sav9 filetypes.</li>
+
+  </ul>
+
+  <p><strong>Bug fixes</strong></p>
+
+  <ul>
+
+  <li>RSA key is now preserved when dumping a trimmed DS ROM.
+
+  <ul>
+
+  <li>If you previously dumped your trimmed ROM using a previous version of GM9<strong>i</strong>,
+  please redump using this version, in order for cloneboot to work.</li>
+
+  </ul>
+
+  </li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  Fixed 128KiB EEPROM save dumping.</li>
+
+  <li>Fix <code>D</code> first appearing in the filename, when dumping GBA ROM.</li>
+
+  <li>Cleared SD IRQ stat and mask registers on boot.
+
+  <ul>
+
+  <li>Should (hopefully) fix NAND init being stuck, if booted via hiyaCFW.</li>
+
+  </ul>
+
+  </li>
 
   </ul>'
-updated: '2021-01-28T16:42:31Z'
-version: v2.6.1
-version_title: v2.6.1
+updated: '2021-07-14T05:09:58Z'
+version: v2.7.0
+version_title: v2.7.0
 wiki: https://wiki.ds-homebrew.com/other/godmode9i
 ---
 ### Installation:

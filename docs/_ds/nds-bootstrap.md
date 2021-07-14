@@ -9,13 +9,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 368997
-    size_str: 360 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.44.1/nds-bootstrap.7z
+    size: 368002
+    size_str: 359 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.44.2/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 895064
-    size_str: 874 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.44.1/nds-bootstrap.zip
+    size: 894465
+    size_str: 873 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.44.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://raw.githubusercontent.com/DS-Homebrew/nds-bootstrap/master/retail/assets/icon.bmp
 image: https://i.imgur.com/BFIu7xX.png
@@ -33,15 +33,43 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: "<p>Instructions:</p>\n<ol>\n<li>Download the <code>.7z</code> file.</li>\n\
-  <li>Extract the nds-bootstrap <code>.nds</code> files, to <code>root:/_nds</code>.</li>\n\
-  <li><strong>TWLMenu++ users:</strong> Extract the <code>.ver</code> file to <code>root:/_nds/TWiLightMenu</code>.</li>\n\
-  </ol>\n<p><strong>Bug fix</strong></p>\n<ul>\n<li>Fixed an overlooked bug which\
-  \ broke <em>Pok\xE9mon Black &amp; White 1&amp;2</em> (and possibly other games\
-  \ which run in DSi mode).</li>\n</ul>"
-updated: '2021-07-12T19:32:25Z'
-version: v0.44.1
-version_title: v0.44.1 (hotfix)
+update_notes: '<p>Instructions:</p>
+
+  <ol>
+
+  <li>Download the <code>.7z</code> file.</li>
+
+  <li>Extract the nds-bootstrap <code>.nds</code> files, to <code>root:/_nds</code>.</li>
+
+  <li><strong>TWLMenu++ users:</strong> Extract the <code>.ver</code> file to <code>root:/_nds/TWiLightMenu</code>.</li>
+
+  </ol>
+
+  <p><strong>Bug fixes</strong></p>
+
+  <ul>
+
+  <li>Cloneboot is now fully fixed!<br>
+
+  Now you can play with other DS/DSi/3DS console users, in any DS(i) multiplayer game
+  possible (and without the need for a patched DLP app)!
+
+  <ul>
+
+  <li>If you previously dumped your trimmed ROM using a previous version of GodMode9<strong>i</strong>,
+  please redump using <a href="https://github.com/DS-Homebrew/GodMode9i/releases/tag/v2.7.0">v2.7.0</a>,
+  in order for cloneboot to work.</li>
+
+  </ul>
+
+  </li>
+
+  <li><em>WarioWare: Snapped!</em> now boots!</li>
+
+  </ul>'
+updated: '2021-07-14T05:58:15Z'
+version: v0.44.2
+version_title: v0.44.2
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
 nds-bootstrap is an open-source application that allows Nintendo DS/DSi ROMs and homebrew to be natively utilised rather than using an emulator. nds-bootstrap works on Nintendo DSi/3DS SD cards through CFW and on Nintendo DS through flashcarts.

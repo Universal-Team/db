@@ -62,10 +62,7 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
   </ul>
 
   <p>Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.44.0">nds-bootstrap
-  v0.44.0</a><br>
-
-  The latest is <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.44.1">v0.44.1</a>,
-  so update nds-bootstrap after installing or updating to this TWLMenu++ version.</p>
+  v0.44.0</a></p>
 
   <p><strong>What''s new?</strong></p>
 
