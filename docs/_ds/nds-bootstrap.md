@@ -45,18 +45,22 @@ update_notes: '<p>Instructions:</p>
 
   </ol>
 
+  <p>Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v21.1.1"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v21.1.1</a></p>
+
   <p><strong>Bug fixes</strong></p>
 
   <ul>
 
   <li>Cloneboot is now fully fixed!<br>
 
-  Now you can play with other DS/DSi/3DS console users, in any DS(i) multiplayer game
-  possible (and without the need for a patched DLP app)!
+  Now you can play with other DS/DSi/3DS console users, in the single-card mode of
+  any DS(i) multiplayer game (and without the need for a patched DLP app), without
+  the guest console crashing on the Nintendo logo!
 
   <ul>
 
-  <li>If you previously dumped your trimmed ROM using a previous version of GodMode9<strong>i</strong>,
+  <li>If you''ve dumped your trimmed ROM using a previous version of GodMode9<strong>i</strong>,
   please redump using <a href="https://github.com/DS-Homebrew/GodMode9i/releases/tag/v2.7.0">v2.7.0</a>,
   in order for cloneboot to work.</li>
 
