@@ -60,8 +60,8 @@ update_notes: '<p>Instructions:</p>
 
   <ul>
 
-  <li>If you''ve dumped your trimmed ROM using a previous version of GodMode9<strong>i</strong>,
-  please redump using <a href="https://github.com/DS-Homebrew/GodMode9i/releases/tag/v2.7.0">v2.7.0</a>,
+  <li>If you''ve dumped your trimmed ROM using either GodMode9 or a previous version
+  of GodMode9<strong>i</strong>, please redump using <a href="https://github.com/DS-Homebrew/GodMode9i/releases/tag/v2.7.0">v2.7.0</a>,
   in order for cloneboot to work.</li>
 
   </ul>
