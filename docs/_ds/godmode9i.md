@@ -40,7 +40,7 @@ update_notes: '<p><strong>What''s new?</strong></p>
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Peter0x44/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Peter0x44">@Peter0x44</a>)
-  Implemented calculating SHA1 hash of files.</li>
+  <strong>DSi-mode only:</strong> Implemented calculating SHA1 hash of files.</li>
 
   <li>B4DS is no longer booted on flashcards, as it got merged with the main nds-bootstrap
   build.</li>
