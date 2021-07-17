@@ -35,16 +35,13 @@ source: https://github.com/LukeZGD/DDLC-LOVE
 systems:
 - 3DS
 title: DDLC-LOVE
-update_notes: "<p>v1.2.1 Release</p>\n<ul>\n<li>This release is for the PS Vita and\
+update_notes: "<p>v1.2.2 Release:</p>\n<ul>\n<li>This release is for the PS Vita and\
   \ L\xD6VE versions only. For other systems, go to <a href=\"https://github.com/LukeZGD/DDLC-LOVE/releases/tag/v1.1.9\"\
-  >v1.1.9</a></li>\n</ul>\n<p>v1.2.1 Changes</p>\n<ul>\n<li>Bug fixes and general\
-  \ improvements</li>\n<li>Fix some poems and dialogue</li>\n<li>Converted some image\
-  \ assets from png to jpg (smaller game size due to this change)</li>\n<li>Re-processed\
-  \ character sprites to display properly</li>\n<li>Save text toggle outline setting\
-  \ (toggle this by pressing Select in-game for better readability)</li>\n<li>Fix\
-  \ some audio problems and errors</li>\n</ul>\n<p>Note: A L\xD6VE file (<code>.love</code>)\
-  \ is now available. See readme for more details</p>"
-updated: '2021-05-21T14:26:23Z'
-version: v1.2.1
-version_title: v1.2.1
+  >v1.1.9</a></li>\n</ul>\n<p>v1.2.2 Changes:</p>\n<ul>\n<li>Script, event, and other\
+  \ fixes</li>\n<li>Menu input improvements</li>\n<li>Update some image assets</li>\n\
+  <li>Update lpp-vita build</li>\n<li>Fix some issues with the L\xD6VE version</li>\n\
+  </ul>"
+updated: '2021-07-17T05:45:03Z'
+version: v1.2.2
+version_title: v1.2.2
 ---
