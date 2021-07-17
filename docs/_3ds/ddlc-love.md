@@ -35,12 +35,14 @@ source: https://github.com/LukeZGD/DDLC-LOVE
 systems:
 - 3DS
 title: DDLC-LOVE
-update_notes: "<p>v1.2.2 Release:</p>\n<ul>\n<li>This release is for the PS Vita and\
-  \ L\xD6VE versions only. For other systems, go to <a href=\"https://github.com/LukeZGD/DDLC-LOVE/releases/tag/v1.1.9\"\
-  >v1.1.9</a></li>\n</ul>\n<p>v1.2.2 Changes:</p>\n<ul>\n<li>Script, event, and other\
-  \ fixes</li>\n<li>Menu input improvements</li>\n<li>Update some image assets</li>\n\
-  <li>Update lpp-vita build</li>\n<li>Fix some issues with the L\xD6VE version</li>\n\
-  </ul>"
+update_notes: "<p><strong>v1.2.2 Release:</strong></p>\n<ul>\n<li>This release is\
+  \ for the PS Vita and L\xD6VE versions only. For other systems, go to <a href=\"\
+  https://github.com/LukeZGD/DDLC-LOVE/releases/tag/v1.1.9\">v1.1.9</a></li>\n</ul>\n\
+  <p><strong>v1.2.2 Changes:</strong></p>\n<ul>\n<li>Script, event, and other fixes</li>\n\
+  <li>Menu input improvements</li>\n<li>Update some image assets</li>\n<li>Update\
+  \ lpp-vita build</li>\n<li>Fix some issues with the L\xD6VE version</li>\n</ul>\n\
+  <p><strong>Post-release update:</strong></p>\n<ul>\n<li>Release has been updated\
+  \ to fix some small typo and enable VSync for Vita</li>\n</ul>"
 updated: '2021-07-17T05:45:03Z'
 version: v1.2.2
 version_title: v1.2.2
