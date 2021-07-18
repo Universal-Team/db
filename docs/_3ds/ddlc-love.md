@@ -42,7 +42,12 @@ update_notes: "<p><strong>v1.2.2 Release:</strong></p>\n<ul>\n<li>This release i
   <li>Menu input improvements</li>\n<li>Update some image assets</li>\n<li>Update\
   \ lpp-vita build</li>\n<li>Fix some issues with the L\xD6VE version</li>\n</ul>\n\
   <p><strong>Post-release update:</strong></p>\n<ul>\n<li>Release has been updated\
-  \ to fix some small typo and enable VSync for Vita</li>\n</ul>"
+  \ to fix some small typo and enable VSync for Vita</li>\n</ul>\n<p><strong>Note:</strong></p>\n\
+  <ul>\n<li>DDLC-LOVE is not compatible with any existing mods and translations, they\
+  \ have to be ported manually. Also, DDLC-LOVE is a port of the free base game only.\
+  \ Content from DDLC Plus will not be ported over to DDLC-LOVE. If you want DDLC\
+  \ Plus content, please support Team Salvato and buy the game from the official platforms</li>\n\
+  </ul>"
 updated: '2021-07-17T05:45:03Z'
 version: v1.2.2
 version_title: v1.2.2
