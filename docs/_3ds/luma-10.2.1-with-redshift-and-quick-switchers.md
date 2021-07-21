@@ -1,7 +1,8 @@
 ---
 archive:
-  luma1021_QuickSwitchers - brightness_recalibration.zip:
+  luma1021_QuickSwitchers - widesceen switcher.zip:
   - boot.firm
+  - luma/
 author: Nutez
 avatar: https://gbatemp.net/data/avatars/l/439/439371.jpg?1618764346
 categories:

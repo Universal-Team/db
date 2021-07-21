@@ -120,8 +120,8 @@ def downloadScript(file, url, message, archive):
 					"type": "extractFile",
 					"file": f"/{file}",
 					"input": f"{item}",
-					"output": f"sdmc:/{item[item.rfind('/') + 1:]}",
-					"message": f"Extracting {item[item.rfind('/') + 1:]}..."
+					"output": f"sdmc:/{item}",
+					"message": f"Extracting {item}..."
 				})
 
 		script.append({

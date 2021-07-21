@@ -6536,7 +6536,7 @@
 		"systems": ["3DS"],
 		"categories": ["utility", "firm", "luma3ds"],
 		"archive": {
-			"luma1021_QuickSwitchers - brightness_recalibration.zip": ["boot.firm"]
+			"luma1021_QuickSwitchers - widesceen switcher.zip": ["boot.firm", "luma/"]
 		}
 	}
 ]
