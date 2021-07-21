@@ -72,6 +72,7 @@ Features:<br/>
 </li>
 <li>TwlBg option displays ".cxi" files from "/luma/sysmodules/TwlBg" and persists selected file name to "/luma/sysmodules/twlbgName.txt"<br/>
 </li>
+<li><a class="externalLink" href="https://wiki.ds-homebrew.com/twilightmenu/playing-in-widescreen.html" rel="nofollow" target="_blank">Widescreen</a> option displays ".cxi" files from "/luma/sysmodules/Widescreen" and persists selected file name to "/luma/sysmodules/widescreenName.txt"</li>
 <li>AgbBg option displays ".cxi" files from "/luma/sysmodules/AgbBg" and persists selected file name to "/luma/sysmodules/agbbgName.txt"<br/>
 </li>
 <li>Open_AGB option displays ".ini" files from "/3ds/open_agb_firm" and persists selected file name to "/3ds/open_agb_firm/configName.txt"<br/>
@@ -112,4 +113,5 @@ Features:<br/>
 <li>Quick toggle LEDs from menus by pressing SELECT</li>
 <li>New3DS clock/cache status visible on main menu</li>
 <li>Menu rearrangement for quicker access to Wifi toggle</li>
+<li><a class="externalLink" href="https://github.com/LumaTeam/Luma3DS/pull/1634" rel="nofollow" target="_blank">Allow Patches in the Home Menu</a></li>
 </ul>
