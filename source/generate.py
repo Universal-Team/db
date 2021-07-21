@@ -316,7 +316,11 @@ for app in source:
 				app["avatar"] = "https://gbatemp.net/" + re.sub("/s/", "/l/", soup.find(class_="resourceImage").a.img["src"]).strip()
 
 			if not "created" in app:
-				app["created"] = parser.parse(soup.find(class_="firstRelease").dd.span["title"]).strftime("%Y-%m-%dT%H:%M:%SZ")
+				dd = soup.find(class_="firstRelease").dd
+				if dd.span:
+					app["created"] = parser.parse(dd.span["title"]).strftime("%Y-%m-%dT%H:%M:%SZ")
+				else: # Being shown as "Today at ..." or so
+					app["created"] = parser.parse(dd.appr.text).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 			if not "download_page" in app:
 				app["download_page"] = f"https://gbatemp.net/download/{app['gbatemp']}/"
@@ -336,7 +340,11 @@ for app in source:
 					app["update_notes_md"] = markdownify(app["update_notes"], bullets="-")
 
 			if not "updated" in app:
-				app["updated"] = parser.parse(soup.find(class_="lastUpdate").dd.span["title"]).strftime("%Y-%m-%dT%H:%M:%SZ")
+				dd = soup.find(class_="lastUpdate").dd
+				if dd.span:
+					app["updated"] = parser.parse(dd.span["title"]).strftime("%Y-%m-%dT%H:%M:%SZ")
+				else: # Being shown as "Today at ..." or so
+					app["updated"] = parser.parse(dd.abbr.text).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 			if not "downloads" in app:
 				app["downloads"] = {}
