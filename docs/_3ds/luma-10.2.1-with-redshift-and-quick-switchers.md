@@ -13,8 +13,8 @@ created: '2019-02-24T20:26:00Z'
 description: Return of the customisable screen filter & other QoL improvements
 download_page: https://gbatemp.net/download/35619/
 downloads:
-  luma1021_QuickSwitchers - brightness_recalibration.zip:
-    url: https://gbatemp.net/download/luma-10-2-1-with-redshift-and-quick-switchers.35619/download?version=38362
+  luma1021_QuickSwitchers - widesceen switcher.zip:
+    url: https://gbatemp.net/download/luma-10-2-1-with-redshift-and-quick-switchers.35619/download?version=38456
 gbatemp: '35619'
 github: DullPointer/Luma3DS
 image: https://gbatemp.net/data/avatars/l/439/439371.jpg?1618764346
@@ -25,36 +25,24 @@ source: https://github.com/DullPointer/Luma3DS
 systems:
 - 3DS
 title: Luma 10.2.1 with Redshift and Quick-Switchers
-update_notes: 'New feature:<br/>
-
-  Permanent brightness recalibration<br/>
+update_notes: 'Updates:<br/>
 
   <ul>
 
-  <li>Recalibration is applied for 3DS, DS/i and GBA modes</li>
+  <li>Widescreen.cxi added to Quick-Switchers - place .cxi files in "/luma/sysmodules/Widescreen"
+  to use</li>
 
-  <li>Accessible from System Configuration sub menu</li>
+  <li>Most recent Official Luma changes, including SD card stats shown in Debug info</li>
 
-  <li>Edit the values behind the 5 selectable brightness levels</li>
+  <li>Merged in "<a class="externalLink" href="https://github.com/LumaTeam/Luma3DS/pull/1634"
+  rel="nofollow" target="_blank">Allow Patches in the Home Menu</a>"</li>
 
-  <li>Changes are saved to NAND so use sparingly to avoid wearing out the memory</li>
-
-  <li>Upper limit of 172 is found in code so it is presumed to be safe but may reduce
-  LCD lifespan</li>
-
-  </ul>Minor fixes:<br/>
-
-  <ul>
-
-  <li>Able to use minimum luminance 0 for O3DS and 1 on N3DS</li>
-
-  <li>Custom screen filter reapply bug fix</li>
-
-  <li>Toggle top &amp; bottom LCD power</li>
+  <li>Volume now automatically muted and slider disabled when entering Software volume
+  control interface</li>
 
   </ul>'
-updated: '2021-06-01T18:17:00Z'
-version: 10.2.1 2021-06-01
+updated: '2021-07-20T18:10:00Z'
+version: 10.2.1 2021-07-20
 version_title: Luma 10.2.1 with Redshift and Quick-Switchers
 ---
 <a class="internalLink" href="https://gbatemp.net/threads/unofficial-luma-build-discussion.573617/">Discussion/question thread</a><br/>

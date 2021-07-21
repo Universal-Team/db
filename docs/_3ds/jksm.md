@@ -6,7 +6,7 @@ categories:
 - save-tool
 color: '#868581'
 created: '2018-07-12T09:28:08Z'
-description: JKSM for 3DS
+description: JK's Save Manager for 3DS
 download_page: https://github.com/J-D-K/JKSM/releases
 downloads:
   JKSM.3dsx:
