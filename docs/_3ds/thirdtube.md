@@ -51,6 +51,13 @@ prerelease:
   updated: '2021-07-22T13:48:41Z'
   version: v0.0.0
   version_title: Initial Release
+screenshots:
+- description: Comments
+  url: https://db.universal-team.net/assets/images/screenshots/thirdtube/comments.png
+- description: General
+  url: https://db.universal-team.net/assets/images/screenshots/thirdtube/general.png
+- description: Search
+  url: https://db.universal-team.net/assets/images/screenshots/thirdtube/search.png
 source: https://github.com/windows-server-2003/ThirdTube
 systems:
 - 3DS
