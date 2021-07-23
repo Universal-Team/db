@@ -6538,5 +6538,13 @@
 		"archive": {
 			"luma1021_QuickSwitchers - widesceen switcher.zip": ["boot.firm", "luma/"]
 		}
+	},
+	{
+		"github": "windows-server-2003/ThirdTube",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"icon": "https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/icon.png",
+		"image": "https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/banner.png",
+		"website": "https://gbatemp.net/threads/release-thirdtube-a-homebrew-youtube-client-for-the-new-3ds.591696/"
 	}
 ]
