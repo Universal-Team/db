@@ -36,7 +36,9 @@ update_notes: 'Updates:<br/>
   <li>Most recent Official Luma changes, including SD card stats shown in Debug info</li>
 
   <li>Merged in "<a class="externalLink" href="https://github.com/LumaTeam/Luma3DS/pull/1634"
-  rel="nofollow" target="_blank">Allow Patches in the Home Menu</a>"</li>
+  rel="nofollow" target="_blank">Allow Patches in the Home Menu</a>" e.g. place <a
+  class="internalLink" href="https://gbatemp.net/threads/release-betterbatterycolors-for-homemenu.523138/">BetterBatteryColors</a>
+  hud_LZ.bin in /luma/titles/*YourRegionHomeMenuTitleId*/romfs</li>
 
   <li>Volume now automatically muted and slider disabled when entering Software volume
   control interface</li>
@@ -114,5 +116,5 @@ Features:<br/>
 <li>Quick toggle LEDs from menus by pressing SELECT</li>
 <li>New3DS clock/cache status visible on main menu</li>
 <li>Menu rearrangement for quicker access to Wifi toggle</li>
-<li><a class="externalLink" href="https://github.com/LumaTeam/Luma3DS/pull/1634" rel="nofollow" target="_blank">Allow Patches in the Home Menu</a></li>
+<li><a class="externalLink" href="https://github.com/LumaTeam/Luma3DS/pull/1634" rel="nofollow" target="_blank">Allow Patches in the Home Menu</a> e.g. place <a class="internalLink" href="https://gbatemp.net/threads/release-betterbatterycolors-for-homemenu.523138/">BetterBatteryColors</a> hud_LZ.bin in /luma/titles/*YourRegionHomeMenuTitleId*/romfs</li>
 </ul>
