@@ -7,16 +7,12 @@ color: '#484848'
 created: '2010-05-27T14:47:40Z'
 description: Cross-platform, sophisticated frontend for the libretro API. Licensed
   GPLv3.
-download_page: https://buildbot.libretro.com/stable/1.9.6/nintendo/3ds
+download_page: https://buildbot.libretro.com/stable/1.9.7/nintendo/3ds
 downloads:
   RetroArch_3dsx.7z:
-    size: 72377914
-    size_str: 69 MiB
-    url: https://buildbot.libretro.com/stable/1.9.6/nintendo/3ds/RetroArch_3dsx.7z
+    url: https://buildbot.libretro.com/stable/1.9.7/nintendo/3ds/RetroArch_3dsx.7z
   RetroArch_cia.7z:
-    size: 72974048
-    size_str: 69 MiB
-    url: https://buildbot.libretro.com/stable/1.9.6/nintendo/3ds/RetroArch_cia.7z
+    url: https://buildbot.libretro.com/stable/1.9.7/nintendo/3ds/RetroArch_cia.7z
 eval_downloads: true
 eval_notes_md: true
 github: libretro/RetroArch
@@ -32,102 +28,131 @@ systems:
 title: RetroArch
 update_notes: '<ul>
 
-  <li>ARCHIVE: Fix archive delimiter detection when file path contains no slashes</li>
+  <li>3DS: Add unique ID''s</li>
 
-  <li>ANDROID: Do not duplicate port 0 mouse and gun inputs to other ports</li>
+  <li>CRT/SWITCHRES: Fixed some Monitor index bugs ad updated to the latest SR2</li>
 
-  <li>AUDIO/XAUDIO2: Fail instead of crashing when disconnecting an audio device</li>
+  <li>CRT/SWITCHRES: Fixed monitor index corruption on Windows and added correct fractal
+  scaling. Only used when required</li>
 
-  <li>CHEEVOS: Reset cached progress each time menu is opened</li>
+  <li>CRT/SWITCHRES: Updated log defines to match SR upstream.</li>
 
-  <li>CRT/SWITCHRES: Add support for switchres.ini core and directory overrides</li>
+  <li>CRT/SWITCHRES: Added new SR_CONFIG_PATHS for non Windows and Linux systems.<br>
 
-  <li>D3D11: Don''t use allow tearing flag with blit swap chains. Also disables the
-  flip model if the allow tearing flag is not supported.</li>
+  Not that SR works on them but to fix RA compile issues</li>
 
-  <li>D3D11: Disable DXGI''s ALT+ENTER handling</li>
+  <li>CRT/SWITCHRES: Updated SR2 code base to latest. Added supprt for windows monitor
+  indexing. Fixed monitor index bug where index 1 was not being used correctly and
+  "auto" was not being sent.</li>
 
-  <li>D3D11: Don''t pass ALLOW_TEARING when unsupported</li>
+  <li>CRT/SWITCHRES: Updated swithres for x86 windows fix</li>
 
-  <li>D3D11: Fix non-vsynced output without flip, black screens in fullscreen</li>
+  <li>CRT/SWITCHRES: fixed SR2 auto issue</li>
 
-  <li>D3D12: Relocated ''d3d12_gfx_sync''</li>
+  <li>CRT/SWITCHRES: Fixed auto monitor bug</li>
 
-  <li>D3D12: Fixed swap interval option</li>
+  <li>CRT/SWITCHRES: Fixed monitor index corruption on Windows</li>
 
-  <li>GFX: Fix uninitialized variables in gfx_display_draw_cursor</li>
+  <li>CRT/SWITCHRES: Fixed buffer size bug</li>
 
-  <li>HISTORY: Hide ''Add to Favorites'' when viewing an entry of the favorites playlist</li>
+  <li>CRT/SWITCHRES: Added correct fractal scalling. only used when required.</li>
 
-  <li>INPUT: ''Analog to Digital Type'' usability improvements</li>
+  <li>CORE INFO: Automatically disable core info cache when core info directory is
+  read-only</li>
 
-  <li>INPUT: Add support for mapping multiple controllers to a single input device</li>
+  <li>EMSCRIPTEN: add MAME2003 / MAME2003-plus to web.libretro</li>
 
-  <li>INPUT/REMAPPING: Add support for mapping multiple controllers to a single input
-  device</li>
+  <li>INPUT/UDEV: udev fixes add pointer pressed to pointer device to allow udev users
+  to access this device</li>
 
-  <li>INPUT/LIGHTGUN: Bind lightgun trigger to first mouse button by default</li>
+  <li>LIBNX/SWITCH: Enable 7zip support</li>
 
-  <li>INPUT/WINDOWS/RAWINPUT: Mouse access violation fix</li>
-
-  <li>INPUT/UDEV: Only add mouse if it has buttons and add vebose device friendly
-  names</li>
-
-  <li>INPUT/UDEV: Skip mouse with no button errors and keep the rest</li>
-
-  <li>INPUT/UDEV: Fix Game Focus mode</li>
-
-  <li>INPUT/UDEV/X11: Change udev driver for dual lightgun support in X11</li>
-
-  <li>LIBNX/SWITCH: Update to libnx 4.0.0</li>
+  <li>LINUX/XDG: Prevent xdg-screensaver''s "Protocol error" messages</li>
 
   <li>LOCALIZATION: Fetch translations from Crowdin</li>
 
-  <li>LOCALIZATION: Fix Switchres menu texts</li>
+  <li>LOCALIZATION: Add missing languages for the first startup</li>
 
-  <li>MENU/OZONE: Ensure sidebar display status is updated correctly when performing
-  rapid menu navigation</li>
+  <li>MENU/XMB/WIDGETS: Add workaround for FPU bug that breaks scale factor comparisons
+  on certain platforms (fixes XMB thumbnails on 32bit Linux/Windows)</li>
 
-  <li>MENU/XMB: Dynamic wallpaper fix</li>
+  <li>MENU/RGUI: Enable fullscreen thumbnail toggle using RetroPad ''start'' button</li>
 
-  <li>MENU/XMB: Icon opacity fix</li>
+  <li>MENU/RGUI: Fix sublabel length when menu clock is disabled</li>
 
-  <li>MENU/QT/WIMP: Fix default core detection when playlist file name does not match
-  ''db_name''</li>
+  <li>NETWORK/HTTP: Fix HTTP progress indication for large files on 32-bit systems</li>
 
-  <li>PLAYLISTS: Optimise scanning of large rom sets</li>
+  <li>NETWORK/NATT: implement natt fix from void()</li>
 
-  <li>SECURITY: Plug so-called high-risk vulnerability related to Powershell - avoid
-  injection - don''t send speech input as commandline argument</li>
+  <li>OPENDINGUX: Fix display when cores ''drop'' frames</li>
 
-  <li>UWP/XBOX: Add expanded resources Rescap to increase performance of UWP version
-  in app mode on Xbox</li>
+  <li>OPENDINGUX BETA: Use ALSA audio driver by default</li>
 
-  <li>WINDOWS/INSTALLER: Add smarter isEmptyDir reference implementation that looks
-  for subdirectories from NSIS documentation</li>
+  <li>OPENDINGUX BETA: Fix IPU scaling when running 256x224 (SNES/Genesis) content</li>
 
-  <li>WINDOWS/INSTALLER: Register new function DirectorySet that is called when pressing
-  the "Next" button on the MUI_PAGE_DIRECTORY, aka the install folder selection GUI.
-  DirectorySet contains the criteria for an acceptable folder, which are:
+  <li>PATHS: Fix garbled path string</li>
 
-  <ul>
+  <li>PS2: Implement proper ps2_font driver instead of using the font driver from
+  gskit</li>
 
-  <li><code>IfFileExists "$INSTDIR\retroarch.exe"</code> returns 1</li>
+  <li>PS2: Use BDM for increasing up USB stability</li>
 
-  <li><code>IfFileExists "$INSTDIR\*.*</code> returns 0, there is no existing folder</li>
+  <li>PS3: First basic RSX driver for PSL1GHT</li>
 
-  <li><code>IfFileExists "$INSTDIR\*.*"</code> returns 1, there is a folder, and <code>isEmptyDir</code>
-  returns 1, therefore the folder is empty, including of subdirectories</li>
+  <li>RS90: Initial port</li>
 
-  </ul>
+  <li>RS90: Fix offset of OSD text</li>
 
-  </li>
+  <li>RS90: Disable menu clock by default</li>
 
-  <li>X11: Fix threaded video segfault</li>
+  <li>RS90: Hide ''Bilinear Filtering'' video option</li>
+
+  <li>RS90: Move appdata (retroarch) base directory to external microsd card</li>
+
+  <li>RS90: Add optional approximate ''semi-linear'' scaling filter</li>
+
+  <li>SHADERS: Max Shader Parameters increased to 1024</li>
+
+  <li>VIDEO: Add ''Integer Scale Overlay'' - Force integer scaling to round up to
+  the next larger integer instead of rounding down</li>
+
+  <li>VIDEO: New ''Full'' aspect ratio added. This aspect ratio is useful when used
+  with a shader which has a border in it. The aspect ratio is set to the full window
+  area, so that the viewport spans the whole viewport. When using a border type shader
+  like the Mega Bezel this allows the graphics to span the whole window regardless
+  of the user''s monitor aspect ratio</li>
+
+  <li>VITA: Wrong flags for not piglet version</li>
+
+  <li>UNIX: Correct backlight max_brightness path</li>
+
+  <li>UWP/XBOX: Default to Direct3D11 driver on UWP builds</li>
+
+  <li>UWP/XBOX: Do not use windowed mode on UWP/Xbox by default, set default resolution
+  to 1920x1080 by default. Should fix display issues with Dolphin/PCSX2 on Xbox</li>
+
+  <li>WIIU: Fix inputs breaking when connecting/disconnecting remotes</li>
+
+  <li>WIIU: Input - ignore some bogus KPAD results</li>
+
+  <li>WIIU: Font rendering fixes - render font lines with correct spacing, and only
+  sample alpha channel when rendering fonts</li>
+
+  <li>WIIU/NETWORK: Network speed optimisations - WINSCALE, TCP sACK, large buffers</li>
+
+  <li>WIIU/LIBFAT: Increase cache size on WiiU</li>
+
+  <li>WIIU/FILE IO: Filesystem optimisations - add fast path for already aligned buffers</li>
+
+  <li>WIIU/FILE IO: Use 128K vbufs for WiiU - we have loads of RAM and large vbufs
+  are very beneficial</li>
+
+  <li>WIIU/MENU/OZONE: Fix Ozone rendering error (scissor fix)</li>
+
+  <li>WIIU/MENU/OZONE: Use Ozone icons instead of XMB Monochrome</li>
 
   </ul>'
-updated: '2021-07-04T00:40:35Z'
-version: v1.9.6
-version_title: v1.9.6
+updated: '2021-07-25T06:00:06Z'
+version: v1.9.7
 website: http://www.libretro.com
 ---
