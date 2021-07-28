@@ -27,7 +27,7 @@ downloads:
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 image: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/logo.png
-image_length: 142608
+image_length: 165573
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
