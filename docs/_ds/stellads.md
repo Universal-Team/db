@@ -11,17 +11,17 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1259008
+    size: 1261056
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.0/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.1/StellaDS.nds
   compatibility.txt:
     size: 25310
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.0/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.1/compatibility.txt
   readme.txt:
-    size: 16172
-    size_str: 15 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.0/readme.txt
+    size: 16543
+    size_str: 16 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.1/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -33,18 +33,23 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p>V4.0 :24-July-2021 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p>V4.1 :28-July-2021 by Dave Bernazzani (wavemotion)</p>
 
   <ul>
 
-  <li>Found another 3-5% speed up in TIA rendering! Official Frogger now at 60FPS.</li>
+  <li>Found another 1-2% speed up in TIA rendering!</li>
 
-  <li>Press and hold L+R+A to swap LCD screens.</li>
+  <li>Bumper Bash now plays correctly (you can use the shoulder buttons too).</li>
 
-  <li>Other minor cleanups and polish.</li>
+  <li>Kool-Aid-Man now plays correctly</li>
+
+  <li>Meltdown graphics improvements (but not fixed... but playable).</li>
+
+  <li>Alpha Beam, Big Bird and Cookie Monster games all work with joystick controls
+  now.</li>
 
   </ul>'
-updated: '2021-07-24T21:41:37Z'
-version: '4.0'
-version_title: Version 4.0
+updated: '2021-07-28T18:00:35Z'
+version: '4.1'
+version_title: Version 4.1
 ---
