@@ -72,15 +72,7 @@ update_notes: '<p><strong>What''s new?</strong></p>
 
   <li>Fix <code>D</code> first appearing in the filename, when dumping GBA ROM.</li>
 
-  <li>Cleared SD IRQ stat and mask registers on boot.
-
-  <ul>
-
-  <li>Should (hopefully) fix NAND init being stuck, if booted via hiyaCFW.</li>
-
-  </ul>
-
-  </li>
+  <li>Cleared SD IRQ stat and mask registers on boot.</li>
 
   </ul>'
 updated: '2021-07-14T05:09:58Z'
