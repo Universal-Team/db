@@ -6,4 +6,3 @@ python-dateutil==2.8.1
 PyYAML==5.4.1
 qrcode==6.1
 requests==2.25.1
-rfeed==1.1.1

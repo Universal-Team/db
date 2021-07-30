@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 from bs4 import BeautifulSoup
-import datetime
 from dateutil import parser
 import io
 import json
@@ -12,7 +11,6 @@ from PIL import Image, ImageDraw
 import qrcode
 import re
 import requests
-import rfeed
 import sys
 import yaml
 
@@ -215,7 +213,7 @@ def downloadScript(file, url, message, archive):
 					"message": f"Downloading {file}..."
 				}
 			]
-	
+
 	if message:
 		if type(message) == str:
 			script.append({
@@ -254,7 +252,7 @@ unistore = {
 		"sheet": "universal-db.t3x",
 		"description": "Universal-DB - An online database of 3DS and DS homebrew",
 		"version": 3,
-		"revision": 0 if not "revision" in unistoreOld["storeInfo"] else unistoreOld["storeInfo"]["revision"]
+		"revision": 0 if "revision" not in unistoreOld["storeInfo"] else unistoreOld["storeInfo"]["revision"]
 	},
 	"storeContent": [],
 }
@@ -291,7 +289,7 @@ for app in source:
 			temp = list(filter(lambda x: "bitbucket" in x and "bitbucket" in app and x["bitbucket"]["repo"] == app["bitbucket"]["repo"], oldData))
 		if len(temp) == 0:
 			temp = list(filter(lambda x: "title" in x and "author" in x and "title" in app and "author" in app and x["title"] == app["title"] and x["author"] == app["author"], oldData))
-		
+
 		if len(temp) > 0:
 			foundExisting = True
 			app = temp[0]
@@ -300,53 +298,53 @@ for app in source:
 			print("GBAtemp Download Center")
 			soup = BeautifulSoup(requests.get(f"https://gbatemp.net/download/{app['gbatemp']}/").text, "html.parser")
 
-			if not "title" in app:
+			if "title" not in app:
 				app["title"] = soup.find(class_="resourceInfo").h1.find(text=True).strip()
 
-			if not "author" in app:
+			if "author" not in app:
 				app["author"] = soup.find(class_="author").dd.a.text.strip()
 
-			if not "description" in app:
+			if "description" not in app:
 				app["description"] = soup.find(class_="tagLine").text.strip()
 
-			if not "long_description" in app:
+			if "long_description" not in app:
 				app["long_description"] = soup.blockquote.decode_contents().strip()
 
-			if not "avatar" in app:
+			if "avatar" not in app:
 				app["avatar"] = "https://gbatemp.net/" + re.sub("/s/", "/l/", soup.find(class_="resourceImage").a.img["src"]).strip()
 
-			if not "created" in app:
+			if "created" not in app:
 				dd = soup.find(class_="firstRelease").dd
 				if dd.span:
 					app["created"] = parser.parse(dd.span["title"]).strftime("%Y-%m-%dT%H:%M:%SZ")
 				else: # Being shown as "Today at ..." or so
 					app["created"] = parser.parse(dd.appr.text).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-			if not "download_page" in app:
+			if "download_page" not in app:
 				app["download_page"] = f"https://gbatemp.net/download/{app['gbatemp']}/"
 
-			if not "version" in app:
+			if "version" not in app:
 				app["version"] = soup.find(class_="resourceInfo").h1.span.text.strip()
 
-			if not "version_title" in app:
+			if "version_title" not in app:
 				app["version_title"] = soup.find(class_="updates").ol.li.a.text.strip()
 
-			if not "update_notes" in app or not "update_notes_md" in app:
-				if not "update_notes" in app:
+			if "update_notes" not in app or "update_notes_md" not in app:
+				if "update_notes" not in app:
 					notesSoup = BeautifulSoup(requests.get("https://gbatemp.net/" + soup.find(class_="updates").ol.li.a["href"]).text, "html.parser")
 					app["update_notes"] = notesSoup.blockquote.decode_contents().strip()
 
-				if not "update_notes_md" in app:
+				if "update_notes_md" not in app:
 					app["update_notes_md"] = markdownify(app["update_notes"], bullets="-")
 
-			if not "updated" in app:
+			if "updated" not in app:
 				dd = soup.find(class_="lastUpdate").dd
 				if dd.span:
 					app["updated"] = parser.parse(dd.span["title"]).strftime("%Y-%m-%dT%H:%M:%SZ")
 				else: # Being shown as "Today at ..." or so
 					app["updated"] = parser.parse(dd.abbr.text).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-			if not "downloads" in app:
+			if "downloads" not in app:
 				app["downloads"] = {}
 
 			head = requests.head("https://gbatemp.net/" + soup.find(class_="downloadButton").a["href"])
@@ -356,19 +354,19 @@ for app in source:
 					if len(name) > 0:
 						name = name[0]
 						size = None
-						if not name in app["downloads"]:
+						if name not in app["downloads"]:
 							app["downloads"][name] = {
 								"url": head.url,
 							}
 
 							if "Content-Length" in head.headers:
-								app["downloads"][download]["size"] = int(head.headers["Content-Length"])
-								app["downloads"][download]["size_str"] = byteCount(app["downloads"][download]["size"])
+								app["downloads"][name]["size"] = int(head.headers["Content-Length"])
+								app["downloads"][name]["size_str"] = byteCount(app["downloads"][name]["size"])
 
 		if "github" in app:
 			print("GitHub")
-			api = requests.get(f"https://api.github.com/repos/{app['github']}", headers = header if header else None).json()
-			releases = requests.get(f"https://api.github.com/repos/{app['github']}/releases", headers = header if header else None).json()
+			api = requests.get(f"https://api.github.com/repos/{app['github']}", headers=header if header else None).json()
+			releases = requests.get(f"https://api.github.com/repos/{app['github']}/releases", headers=header if header else None).json()
 			release = None
 			prerelease = None
 			if len(releases) > 0 and releases[0]["prerelease"]:
@@ -378,65 +376,65 @@ for app in source:
 					release = r
 					break
 
-			if not "title" in app:
+			if "title" not in app:
 				app["title"] = api["name"]
 
-			if not "author" in app:
+			if "author" not in app:
 				username = api["owner"]["login"]
 				if username in names:
 					username = names[username]
 				else:
-					user = requests.get(f"https://api.github.com/users/{username}", headers = header if header else None).json()
-					names[username] = user["name"] if user["name"] != None else username
+					user = requests.get(f"https://api.github.com/users/{username}", headers=header if header else None).json()
+					names[username] = user["name"] if user["name"] is not None else username
 					username = names[username]
 				app["author"] = username
 
-			if not "description" in app and api["description"] != "" and api["description"] != None:
+			if "description" not in app and api["description"] != "" and api["description"] is not None:
 				app["description"] = api["description"]
 
-			if not "avatar" in app:
+			if "avatar" not in app:
 				app["avatar"] = api["owner"]["avatar_url"]
 
-			if not "source" in app:
+			if "source" not in app:
 				app["source"] = api["html_url"]
 
-			if not "created" in app:
+			if "created" not in app:
 				app["created"] = api["created_at"]
 
-			if not "website" in app and api["homepage"] != "" and api["homepage"] != None:
+			if "website" not in app and api["homepage"] != "" and api["homepage"] is not None:
 				app["website"] = api["homepage"]
 
-			if not "wiki" in app and api["has_wiki"] and requests.get(f"https://raw.githubusercontent.com/wiki/{app['github']}/Home.md").status_code != 404:
+			if "wiki" not in app and api["has_wiki"] and requests.get(f"https://raw.githubusercontent.com/wiki/{app['github']}/Home.md").status_code != 404:
 				app["wiki"] = f"{api['html_url']}/wiki"
 
 			if api["license"]:
-				if not "license" in app:
+				if "license" not in app:
 					app["license"] = api["license"]["key"]
 
-				if not "license_name" in app:
+				if "license_name" not in app:
 					app["license_name"] = api["license"]["name"]
 
 			if release:
-				if not "download_page" in app:
+				if "download_page" not in app:
 					app["download_page"] = f"https://github.com/{app['github']}/releases"
 
-				if not "version" in app:
+				if "version" not in app:
 					app["version"] = release["tag_name"]
 
-				if not "version_title" in app and release["name"] != "" and release["name"] != None:
+				if "version_title" not in app and release["name"] != "" and release["name"] is not None:
 					app["version_title"] = release["name"]
 
-				if not "update_notes" in app and release["body"] != "" and release["body"] != None:
+				if "update_notes" not in app and release["body"] != "" and release["body"] is not None:
 					app["update_notes_md"] = release["body"].replace("\r\n", "\n")
-					app["update_notes"] = requests.post("https://api.github.com/markdown", headers = header if header else None, json = {"text": release["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
+					app["update_notes"] = requests.post("https://api.github.com/markdown", headers=header if header else None, json={"text": release["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
 
-				if not "updated" in app:
+				if "updated" not in app:
 					app["updated"] = release["published_at"]
 
-				if not "downloads" in app:
+				if "downloads" not in app:
 					app["downloads"] = {}
 				for asset in release["assets"]:
-					if not asset["name"] in app["downloads"] and len(re.findall("(\.nro|\.vpk|\.love|PS3|PSP|vita|switch|wii|osx|ubuntu|win|elf|\.xz)", asset["name"])) == 0:
+					if not asset["name"] in app["downloads"] and len(re.findall(r"(\.nro|\.vpk|\.love|PS3|PSP|vita|switch|wii|osx|ubuntu|win|elf|\.xz)", asset["name"])) == 0:
 						app["downloads"][asset["name"]] = {
 							"url": asset["browser_download_url"],
 							"size": asset["size"],
@@ -444,37 +442,37 @@ for app in source:
 						}
 
 			if prerelease:
-				if not "prerelease" in app:
+				if "prerelease" not in app:
 					app["prerelease"] = {}
 
-				if not "download_page" in app:
+				if "download_page" not in app:
 					app["download_page"] = f"https://github.com/{app['github']}/releases"
-				if not "download_page" in app["prerelease"]:
+				if "download_page" not in app["prerelease"]:
 					app["prerelease"]["download_page"] = prerelease["html_url"]
 
-				if not "version" in app:
+				if "version" not in app:
 					app["version"] = prerelease["tag_name"]
-				if not "version" in app["prerelease"]:
+				if "version" not in app["prerelease"]:
 					app["prerelease"]["version"] = prerelease["tag_name"]
 
-				if not "version_title" in app and prerelease["name"] != "" and prerelease["name"] != None:
+				if "version_title" not in app and prerelease["name"] != "" and prerelease["name"] is not None:
 					app["version_title"] = prerelease["name"]
-				if not "version_title" in app["prerelease"] and prerelease["name"] != "" and prerelease["name"] != None:
+				if "version_title" not in app["prerelease"] and prerelease["name"] != "" and prerelease["name"] is not None:
 					app["prerelease"]["version_title"] = prerelease["name"]
 
-				if not "update_notes" in app and prerelease["body"] != "" and prerelease["body"] != None:
+				if "update_notes" not in app and prerelease["body"] != "" and prerelease["body"] is not None:
 					app["update_notes_md"] = prerelease["body"].replace("\r\n", "\n")
-					app["update_notes"] = requests.post("https://api.github.com/markdown", headers = header if header else None, json = {"text": prerelease["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
-				if not "update_notes" in app["prerelease"] and prerelease["body"] != "" and prerelease["body"] != None:
+					app["update_notes"] = requests.post("https://api.github.com/markdown", headers=header if header else None, json={"text": prerelease["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
+				if "update_notes" not in app["prerelease"] and prerelease["body"] != "" and prerelease["body"] is not None:
 					app["prerelease"]["update_notes_md"] = prerelease["body"].replace("\r\n", "\n")
-					app["prerelease"]["update_notes"] = requests.post("https://api.github.com/markdown", headers = header if header else None, json = {"text": prerelease["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
+					app["prerelease"]["update_notes"] = requests.post("https://api.github.com/markdown", headers=header if header else None, json={"text": prerelease["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
 
-				if not "updated" in app:
+				if "updated" not in app:
 					app["updated"] = prerelease["published_at"]
-				if not "updated" in app["prerelease"]:
+				if "updated" not in app["prerelease"]:
 					app["prerelease"]["updated"] = prerelease["published_at"]
 
-				if not "downloads" in app["prerelease"]:
+				if "downloads" not in app["prerelease"]:
 					app["prerelease"]["downloads"] = {}
 				for asset in prerelease["assets"]:
 					if not asset["name"] in app["prerelease"]["downloads"]:
@@ -488,42 +486,42 @@ for app in source:
 			print("Bitbucket")
 			api = requests.get(f"https://api.bitbucket.org/2.0/repositories/{app['bitbucket']['repo']}").json()
 
-			if not "title" in app:
+			if "title" not in app:
 				app["title"] = api["name"]
 
-			if not "author" in app:
+			if "author" not in app:
 				app["author"] = api["owner"]["display_name"]
 
-			if not "description" in app:
+			if "description" not in app:
 				app["description"] = api["description"].replace("\r\n", "\n")
 
-			if not "avatar" in app:
+			if "avatar" not in app:
 				app["avatar"] = api["links"]["avatar"]["href"]
 
-			if not "source" in app:
+			if "source" not in app:
 				app["source"] = api["links"]["html"]["href"]
 
-			if not "created" in app:
+			if "created" not in app:
 				app["created"] = api["created_on"]
 
-			if not "downloads" in app:
+			if "downloads" not in app:
 				app["downloads"] = {}
 			for download in app["bitbucket"]["files"]:
 				fileAPI = requests.get(f"https://api.bitbucket.org/2.0/repositories/{app['bitbucket']['repo']}/src/{(app['bitbucket']['branch'] if 'branch' in app['bitbucket'] else 'master')}/{download}?format=meta").json()
-				if not download in app["downloads"]:
+				if download not in app["downloads"]:
 					app["downloads"][download] = {
 						"url": fileAPI["links"]["self"]["href"],
 						"size": fileAPI["size"],
 						"size_str": byteCount(fileAPI["size"])
 					}
 
-				if not "download_page" in app:
+				if "download_page" not in app:
 					app["download_page"] = f"https://bitbucket.org/{app['bitbucket']['repo']}/src/{(app['bitbucket']['branch'] if 'branch' in app['bitbucket'] else 'master')}/{download}"
 
-				if not "version" in app:
+				if "version" not in app:
 					app["version"] = fileAPI["commit"]["hash"][:7]
 
-				if not "updated" in app:
+				if "updated" not in app:
 					commit = requests.get(fileAPI["commit"]["links"]["self"]["href"]).json()
 					app["updated"] = commit["date"]
 
@@ -543,12 +541,12 @@ for app in source:
 		if "eval_notes_md" in app and app["eval_notes_md"]:
 			if "update_notes_md" in app:
 				app["update_notes_md"] = eval(app["update_notes_md"])
-				if not "update_notes" in app:
-					app["update_notes"] = requests.post("https://api.github.com/markdown", headers = header if header else None, json = {"text": app["update_notes_md"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
+				if "update_notes" not in app:
+					app["update_notes"] = requests.post("https://api.github.com/markdown", headers=header if header else None, json={"text": app["update_notes_md"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
 
 		# Check for screenshots
 		if os.path.exists(os.path.join("..", "docs", "assets", "images", "screenshots", webName(app["title"]))):
-			if not "screenshots" in app:
+			if "screenshots" not in app:
 				app["screenshots"] = []
 			dirlist = os.listdir(os.path.join("..", "docs", "assets", "images", "screenshots", webName(app["title"])))
 			dirlist.sort()
@@ -561,12 +559,12 @@ for app in source:
 
 		# Format update notes with GitHub's API
 		if "update_notes_md" in app and "update_notes" not in app:
-			app["update_notes"] = requests.post("https://api.github.com/markdown", headers = header if header else None, json = {"text": app["update_notes_md"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
+			app["update_notes"] = requests.post("https://api.github.com/markdown", headers=header if header else None, json={"text": app["update_notes_md"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
 
 		# Get missing download sizes
 		if "downloads" in app:
 			for download in app["downloads"]:
-				if not "size" in app["downloads"][download]:
+				if "size" not in app["downloads"][download]:
 					if app["downloads"][download]["url"][:30] == "https://db.universal-team.net/":
 						app["downloads"][download]["size"] = os.path.getsize(f"../docs/{app['downloads'][download]['url'][30:]}")
 						app["downloads"][download]["size_str"] = byteCount(app["downloads"][download]["size"])
@@ -581,16 +579,16 @@ for app in source:
 	print("=" * 80)
 
 	# Check for local icon / image
-	if not "icon" in app and os.path.exists(os.path.join("..", "docs", "assets", "images", "icons", f"{webName(app['title'])}.png")):
+	if "icon" not in app and os.path.exists(os.path.join("..", "docs", "assets", "images", "icons", f"{webName(app['title'])}.png")):
 		app["icon"] = f"https://db.universal-team.net/assets/images/icons/{webName(app['title'])}.png"
 
-	if not "image" in app and os.path.exists(os.path.join("..", "docs", "assets", "images", "images", f"{webName(app['title'])}.png")):
+	if "image" not in app and os.path.exists(os.path.join("..", "docs", "assets", "images", "images", f"{webName(app['title'])}.png")):
 		app["image"] = f"https://db.universal-team.net/assets/images/images/{webName(app['title'])}.png"
-	elif not "image" in app and "avatar" in app:
+	elif "image" not in app and "avatar" in app:
 		app["image"] = app["avatar"]
 
 	# Get image size
-	if not "image_length" in app and "image" in app:
+	if "image_length" not in app and "image" in app:
 		if app["image"][:30] == "https://db.universal-team.net/":
 			app["image_length"] = os.path.getsize(f"../docs/{app['image'][30:]}")
 		else:
@@ -627,7 +625,7 @@ for app in source:
 				img.save(os.path.join("temp", f"{iconIndex}.png"))
 				icons.append(f"{iconIndex}.png")
 				iconIndex += 1
-				if not "color" in app:
+				if "color" not in app:
 					color = img.copy()
 					color.thumbnail((1, 1))
 					color = color.getpixel((0, 0))
@@ -637,22 +635,22 @@ for app in source:
 	if "downloads" in app:
 		for item in app["downloads"]:
 			if item[item.rfind(".") + 1:] == "cia":
-				qr = qrcode.make(app["downloads"][item]["url"], box_size = 5, version = 5).convert("RGBA")
+				qr = qrcode.make(app["downloads"][item]["url"], box_size=5, version=5).convert("RGBA")
 				if img:
 					draw = ImageDraw.Draw(qr)
-					draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 10 if "version" in app else 4)), fill = (255, 255, 255))
-					qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask = img if img.mode == "RGBA" else None)
+					draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 10 if "version" in app else 4)), fill=(255, 255, 255))
+					qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask=img if img.mode == "RGBA" else None)
 					if "version" in app:
-						draw.text(((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2 + img.height), app["version"][:img.width//6], (0, 0, 0))
+						draw.text(((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2 + img.height), app["version"][:img.width // 6], (0, 0, 0))
 				qr.save(os.path.join("..", "docs", "assets", "images", "qr", f"{webName(item)}.png"))
-				if not "qr" in app:
+				if "qr" not in app:
 					app["qr"] = {}
 				app["qr"][item] = f"https://db.universal-team.net/assets/images/qr/{webName(item)}.png"
 
 	if "prerelease" in app:
 		for item in app["prerelease"]["downloads"]:
 			if item[item.rfind(".") + 1:] == "cia":
-				qr = qrcode.make(app["prerelease"]["downloads"][item]["url"], box_size = 5, version = 5).convert("RGBA")
+				qr = qrcode.make(app["prerelease"]["downloads"][item]["url"], box_size=5, version=5).convert("RGBA")
 				data = numpy.array(qr)
 				r, g, b, a = data.T
 				black = (r == 0) & (g == 0) & (b == 0)
@@ -660,19 +658,19 @@ for app in source:
 				qr = Image.fromarray(data)
 				if img:
 					draw = ImageDraw.Draw(qr)
-					draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 10 if "version" in app["prerelease"] else 4)), fill = (255, 255, 255))
-					qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask = img if img.mode == "RGBA" else None)
+					draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 10 if "version" in app["prerelease"] else 4)), fill=(255, 255, 255))
+					qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask=img if img.mode == "RGBA" else None)
 					if "version" in app["prerelease"]:
-						draw.text(((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2 + img.height), app["prerelease"]["version"][:img.width//6], (0xF6, 0x6A, 0x0A))
+						draw.text(((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2 + img.height), app["prerelease"]["version"][:img.width // 6], (0xF6, 0x6A, 0x0A))
 				qr.save(os.path.join("..", "docs", "assets", "images", "qr", "prerelease", f"{webName(item)}.png"))
-				if not "qr" in app["prerelease"]:
+				if "qr" not in app["prerelease"]:
 					app["prerelease"]["qr"] = {}
 				app["prerelease"]["qr"][item] = f"https://db.universal-team.net/assets/images/qr/prerelease/{webName(item)}.png"
 
 	if "nightly" in app:
 		for item in app["nightly"]["downloads"]:
 			if item[item.rfind(".") + 1:] == "cia":
-				qr = qrcode.make(app["nightly"]["downloads"][item]["url"], box_size = 5, version = 5).convert("RGBA")
+				qr = qrcode.make(app["nightly"]["downloads"][item]["url"], box_size=5, version=5).convert("RGBA")
 				data = numpy.array(qr)
 				r, g, b, a = data.T
 				black = (r == 0) & (g == 0) & (b == 0)
@@ -680,10 +678,10 @@ for app in source:
 				qr = Image.fromarray(data)
 				if img:
 					draw = ImageDraw.Draw(qr)
-					draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 4)), fill = (255, 255, 255))
-					qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask = img if img.mode == "RGBA" else None)
+					draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 4)), fill=(255, 255, 255))
+					qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask=img if img.mode == "RGBA" else None)
 				qr.save(os.path.join("..", "docs", "assets", "images", "qr", "nightly", f"{webName(item)}.png"))
-				if not "qr" in app["nightly"]:
+				if "qr" not in app["nightly"]:
 					app["nightly"]["qr"] = {}
 				app["nightly"]["qr"][item] = f"https://db.universal-team.net/assets/images/qr/nightly/{webName(item)}.png"
 
@@ -702,9 +700,9 @@ for app in source:
 	if "scripts" in web:
 		web.pop("scripts")
 	# Add defaults where absolutely needed
-	if not "systems" in web:
+	if "systems" not in web:
 		web["systems"] = ["3DS"] # default to 3DS
-	if not "updated" in web:
+	if "updated" not in web:
 		web["updated"] = "---"
 	for system in web["systems"]:
 		if "title" in web:
@@ -713,7 +711,7 @@ for app in source:
 				if "long_description" in app:
 					file.write(app["long_description"])
 
-	if not "unistore_exclude" in app or app["unistore_exclude"] == False:
+	if "unistore_exclude" not in app or not app["unistore_exclude"]:
 		# Move links to end to be more readable in U-U
 		notes = app["update_notes_md"] if "update_notes_md" in app else ""
 		i = 0
@@ -773,9 +771,9 @@ for app in source:
 		if "scripts" in app:
 			for script in app["scripts"]:
 				uni[script] = app["scripts"][script]
-		
+
 		# If autogen_scripts is forced or no scripts, generate scripts from downloads
-		if "autogen_scripts" in app and app["autogen_scripts"] or not "scripts" in app:
+		if "autogen_scripts" in app and app["autogen_scripts"] or "scripts" not in app:
 			if "downloads" in app:
 				for file in app["downloads"]:
 					if len(re.findall("(zip|rar|7z|torrent|tar)", file)) == 0 or ("archive" in app and file in app["archive"]):
