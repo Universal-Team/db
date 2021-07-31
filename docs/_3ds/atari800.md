@@ -1,6 +1,6 @@
 ---
 author: Adrian Siekierka
-avatar: https://avatars.githubusercontent.com/u/13063346?v=4
+avatar: https://avatars.githubusercontent.com/u/113514?v=4
 categories:
 - emulator
 color: '#4d4458'
