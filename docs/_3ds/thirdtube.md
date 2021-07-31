@@ -3,14 +3,14 @@ author: windows-server-2003
 avatar: https://avatars.githubusercontent.com/u/31173797?v=4
 categories:
 - utility
-color: '#ff2721'
+color: '#871112'
 created: '2021-07-19T17:53:12Z'
 description: A work-in-progress homebrew YouTube client for new 3DS
 download_page: https://github.com/windows-server-2003/ThirdTube/releases
 github: windows-server-2003/ThirdTube
 icon: https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/icon.png
 image: https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/banner.png
-image_length: 1397
+image_length: 9933
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
