@@ -36,7 +36,7 @@ update_notes: '<p><strong>What''s new?</strong></p>
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Added viewing NDS file info!
+  You can now view the info of NDS ROMs!
 
   <ul>
 
@@ -48,7 +48,7 @@ update_notes: '<p><strong>What''s new?</strong></p>
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Added trimming existing NDS ROMs.</li>
+  You can now trim your existing NDS ROMs!</li>
 
   </ul>'
 updated: '2021-08-01T04:55:01Z'
