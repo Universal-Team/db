@@ -11,17 +11,17 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1261056
+    size: 1273856
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.1/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.2/StellaDS.nds
   compatibility.txt:
     size: 25310
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.1/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.2/compatibility.txt
   readme.txt:
-    size: 16543
+    size: 16803
     size_str: 16 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.1/readme.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.2/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -33,23 +33,18 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p>V4.1 :28-July-2021 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p>V4.2 : 02-Aug-2021 by Dave Bernazzani (wavemotion)</p>
 
   <ul>
 
-  <li>Found another 1-2% speed up in TIA rendering!</li>
+  <li>New overlay graphic for Star Raiders (plus manual)</li>
 
-  <li>Bumper Bash now plays correctly (you can use the shoulder buttons too).</li>
+  <li>A half dozen odd games got their controllers straightened out</li>
 
-  <li>Kool-Aid-Man now plays correctly</li>
-
-  <li>Meltdown graphics improvements (but not fixed... but playable).</li>
-
-  <li>Alpha Beam, Big Bird and Cookie Monster games all work with joystick controls
-  now.</li>
+  <li>About 100 graphical tweaks for various games to make them look as good as possible.</li>
 
   </ul>'
-updated: '2021-07-28T18:00:35Z'
-version: '4.1'
-version_title: Version 4.1
+updated: '2021-08-02T12:53:59Z'
+version: '4.2'
+version_title: Version 4.2
 ---
