@@ -51,7 +51,10 @@ update_notes: '<p><a target="_blank" rel="noopener noreferrer" href="https://git
   alt="screenshot5" style="max-width:100%;"></a> <a target="_blank" rel="noopener
   noreferrer" href="https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.0/StyleSavvy.png"><img
   src="https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.0/StyleSavvy.png"
-  alt="screenshot6" style="max-width:100%;"></a></p>
+  alt="screenshot6" style="max-width:100%;"></a><br>
+
+  The above screenshots are taken straight from real hardware, without a capture card
+  or an emulator!</p>
 
   <p>Instructions:</p>
 
@@ -74,7 +77,9 @@ update_notes: '<p><a target="_blank" rel="noopener noreferrer" href="https://git
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  and Rocket Robz) You can now take screenshots of DS games!
+  and <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/RocketRobz/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/RocketRobz">@RocketRobz</a>)
+  You can now take screenshots of DS games!
 
   <ul>
 
@@ -83,19 +88,31 @@ update_notes: '<p><a target="_blank" rel="noopener noreferrer" href="https://git
   <li>Due to hardware limitations, only screenshots of the main-set screen will be
   taken.</li>
 
-  <li>Open the in-game menu, and select <code>Screenshots...</code></li>
-
-  <li>Select the VRAM bank, in case if the screenshot looks incorrect.</li>
-
   <li>Limit is 50 screenshots. After reaching the limit, you cannot take any more,
   until you delete <code>screenshots.tar</code> in <code>sd:/_nds/nds-bootstrap/</code>,
   where it''ll be re-created on next boot.</li>
+
+  <li>To take screenshots:
+
+  <ul>
+
+  <li>Open the in-game menu.</li>
+
+  <li>Select <code>Screenshots...</code></li>
+
+  <li>Select the VRAM bank, in case if the screenshot looks incorrect.</li>
 
   </ul>
 
   </li>
 
-  <li>You can now step 1 frame, while in the in-game menu.
+  <li>This feature cannot be used in B4DS mode.</li>
+
+  </ul>
+
+  </li>
+
+  <li>You can now step 1 frame, while in the in-game menu (by pressing R).
 
   <ul>
 
@@ -115,7 +132,7 @@ update_notes: '<p><a target="_blank" rel="noopener noreferrer" href="https://git
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
   and various) Updated in-game menu translations!</li>
 
-  <li>The <code>Date modified</code> flag in the <code>.sav</code> file is now updated,
+  <li>The <code>Date modified</code> flag for the <code>.sav</code> file is now updated,
   when booting the game.</li>
 
   <li>The in-game menu button combo now does nothing in DSi mode, since it''s already

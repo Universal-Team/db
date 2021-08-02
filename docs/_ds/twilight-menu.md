@@ -9,21 +9,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 39464915
-    size_str: 37 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.2.1/TWiLightMenu-3DS.7z
+    size: 39898708
+    size_str: 38 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.3.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 39478745
-    size_str: 37 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.2.1/TWiLightMenu-DSi.7z
+    size: 39912512
+    size_str: 38 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.3.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 51242386
-    size_str: 48 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.2.1/TWiLightMenu-Flashcard.7z
-  TWiLightMenu.7z:
-    size: 51428039
+    size: 51672211
     size_str: 49 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.2.1/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.3.0/TWiLightMenu-Flashcard.7z
+  TWiLightMenu.7z:
+    size: 51864389
+    size_str: 49 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.3.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 image: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/logo.png
@@ -61,27 +61,65 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
 
   </ul>
 
-  <p><strong>Improvement</strong></p>
+  <p>Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.46.0">nds-bootstrap
+  v0.46.0</a></p>
+
+  <p><strong>What''s new?</strong></p>
 
   <ul>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  <strong>DSi theme:</strong> If no photos are found, screenshots taken by nds-bootstrap
+  will now be displayed.</li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/spellboundtriangle/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/spellboundtriangle">@spellboundtriangle</a>)
+  Added CTGP Nitro (<em>Mario Kart DS</em> ROM hack) widescreen patch.</li>
+
+  <li>Due to the many issues caused by <code>Asynch Card Read</code> in nds-bootstrap,
+  the feature is now turned off by default.
+
+  <ul>
+
+  <li>If you''re updating from a previous TWLMenu++ version, it is recommended to
+  turn the feature off in TWLMenu++ Settings.</li>
+
+  </ul>
+
+  </li>
+
+  <li>The autorun game option has been re-added.
+
+  <ul>
+
+  <li>Can only be enabled by setting <code>AUTORUNGAME</code> to <code>1</code> in
+  <code>sd:/_nds/TWiLightMenu/settings.ini</code>.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <p><strong>Improvements</strong></p>
+
+  <ul>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  NFTR font format is now used in DS Classic Menu.</li>
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
   and various) Updated translations.</li>
 
-  </ul>
-
-  <p><strong>Bug fix</strong></p>
-
-  <ul>
-
-  <li><strong>DS Classic Menu:</strong> Fixed widescreen being activated if turned
-  off, or not being activated if turned on.</li>
+  <li>The TWLMenu++ splash screen music has been improved.</li>
 
   </ul>'
-updated: '2021-07-24T23:03:11Z'
-version: v21.2.1
-version_title: v21.2.1 (hotfix)
+updated: '2021-08-02T08:33:57Z'
+version: v21.3.0
+version_title: v21.3.0
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
 TWiLight Menu++ is an open-source DSi Menu upgrade/replacement for the Nintendo DSi, the Nintendo 3DS, and Nintendo DS flashcards. It can launch Nintendo DS, SNES, NES, GameBoy (color), GameBoy Advance, Sega GameGear/Master System & Mega Drive/Genesis ROMs, as well as DSTWO plugins (if you use a DSTWO) and videos.
