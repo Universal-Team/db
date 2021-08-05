@@ -37,5 +37,4 @@ update_notes: '<p>V2.5 : 08-Apr-2021 by wavemotion-dave</p>
 updated: '2021-04-08T12:24:16Z'
 version: '2.5'
 version_title: Version 2.5
-wiki: https://github.com/wavemotion-dave/XEGS-DS/wiki
 ---
