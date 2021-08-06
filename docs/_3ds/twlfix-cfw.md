@@ -88,5 +88,4 @@ update_notes: '<ol>
   </ol>'
 updated: '2019-03-02T21:15:37Z'
 version: '1.1'
-version_title: 1.2 KOR+CHN support
 ---

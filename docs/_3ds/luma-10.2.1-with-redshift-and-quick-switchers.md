@@ -14,8 +14,8 @@ created: '2019-02-24T20:26:00Z'
 description: Return of the customisable screen filter & other QoL improvements
 download_page: https://gbatemp.net/download/35619/
 downloads:
-  luma1021_QuickSwitchers - widesceen switcher.zip:
-    url: https://gbatemp.net/download/luma-10-2-1-with-redshift-and-quick-switchers.35619/download?version=38456
+  luma1021_QuickSwitchers - Wifi button toggle.zip:
+    url: https://gbatemp.net/download/luma-10-2-1-with-redshift-and-quick-switchers.35619/download?version=38477
 gbatemp: '35619'
 github: DullPointer/Luma3DS
 image: https://gbatemp.net/data/avatars/l/439/439371.jpg?1618764346
@@ -26,26 +26,28 @@ source: https://github.com/DullPointer/Luma3DS
 systems:
 - 3DS
 title: Luma 10.2.1 with Redshift and Quick-Switchers
-update_notes: 'Updates:<br/>
+update_notes: 'New features:<br/>
 
   <ul>
 
-  <li>Widescreen.cxi added to Quick-Switchers - place .cxi files in "/luma/sysmodules/Widescreen"
-  to use</li>
+  <li>Quick toggle Wifi from menus with START button press</li>
 
-  <li>Most recent Official Luma changes, including SD card stats shown in Debug info</li>
+  <li>Option to force revert TWiLightMenu widescreen patch from Quick-Switchers submenu
+  - useful if game specific aspect ratio patch fails or forced exist from TWiLightMenu</li>
 
-  <li>Merged in "<a class="externalLink" href="https://github.com/LumaTeam/Luma3DS/pull/1634"
-  rel="nofollow" target="_blank">Allow Patches in the Home Menu</a>" e.g. place <a
-  class="internalLink" href="https://gbatemp.net/threads/release-betterbatterycolors-for-homemenu.523138/">BetterBatteryColors</a>
-  hud_LZ.bin in /luma/titles/*YourRegionHomeMenuTitleId*/romfs</li>
+  <li>Option to toggle <a class="externalLink" href="https://github.com/hax0kartik/rehid"
+  rel="nofollow" target="_blank">rehid</a> folder from System configuration sub menu
+  - useful to temporarily disable rehid patch to allow use of button combos that might
+  otherwise be blocked (Rosalina, BootNTR, plugins, <a class="externalLink" href="https://github.com/hax0kartik/wumiibo"
+  rel="nofollow" target="_blank">wumiibo</a>). Folder must be disabled before loading
+  game to not have rehid apply.</li>
 
-  <li>Volume now automatically muted and slider disabled when entering Software volume
-  control interface</li>
+  <li>Merged in <a class="externalLink" href="https://github.com/LumaTeam/Luma3DS/pull/1623"
+  rel="nofollow" target="_blank">enhancements</a> to Luma cheats system</li>
 
   </ul>'
-updated: '2021-07-20T18:10:00Z'
-version: 10.2.1 2021-07-20
+updated: '2021-08-06T18:02:00Z'
+version: 10.2.1 2021-08-06
 version_title: Luma 10.2.1 with Redshift and Quick-Switchers
 ---
 <a class="internalLink" href="https://gbatemp.net/threads/unofficial-luma-build-discussion.573617/">Discussion/question thread</a><br/>
@@ -83,6 +85,7 @@ Features:<br/>
 <li>Works best with meaningful file names e.g. "redshiftWideMode.cxi", "pixelPerfect.cxi", "lowBrightness.ini"<br/>
 </li>
 <li>Delete the .txt file when creating new TwlBg/AgbBg patches to avoid the persisted name being incorrect</li>
+<li>Option to force revert TWiLightMenu widescreen patch</li>
 </ul><b><span style="color: rgb(0, 102, 0)">Plugin loader:</span></b><br/>
 <ul>
 <li>All credit to Nanquitas and PabloMK7 and anyone else involved in the CTRPF project!</li>
@@ -114,7 +117,11 @@ Features:<br/>
 </ul><b><span style="color: rgb(0, 102, 0)">Misc/QoL:</span></b><br/>
 <ul>
 <li>Quick toggle LEDs from menus by pressing SELECT</li>
+<li>Quick toggle WiFi from menus by pressing START<br/>
+</li>
 <li>New3DS clock/cache status visible on main menu</li>
 <li>Menu rearrangement for quicker access to Wifi toggle</li>
-<li><a class="externalLink" href="https://github.com/LumaTeam/Luma3DS/pull/1634" rel="nofollow" target="_blank">Allow Patches in the Home Menu</a> e.g. place <a class="internalLink" href="https://gbatemp.net/threads/release-betterbatterycolors-for-homemenu.523138/">BetterBatteryColors</a> hud_LZ.bin in /luma/titles/*YourRegionHomeMenuTitleId*/romfs</li>
+<li><a class="externalLink" href="https://github.com/LumaTeam/Luma3DS/pull/1634" rel="nofollow" target="_blank">Allow Patches in the Home Menu</a> e.g. place <a class="internalLink" href="https://gbatemp.net/threads/release-betterbatterycolors-for-homemenu.523138/">BetterBatteryColors</a> hud_LZ.bin in /luma/titles/*YourRegionHomeMenuTitleId*/romfs - thank you <b><span style="font-size: 15px"><a class="externalLink" href="https://github.com/gabe565" rel="nofollow" target="_blank">gabe565</a></span></b></li>
+<li>Merged in <a class="externalLink" href="https://github.com/LumaTeam/Luma3DS/pull/1623" rel="nofollow" target="_blank">enhancements</a> to Luma cheats system - thank you <span style="font-size: 15px"><a class="externalLink" href="https://github.com/s5bug" rel="nofollow" target="_blank">s5bug</a> </span></li>
+<li>Option to toggle <a class="externalLink" href="https://github.com/hax0kartik/rehid" rel="nofollow" target="_blank">rehid</a> folder System configuration sub menu (folder must be disabled before loading game to not have rehid apply)</li>
 </ul>

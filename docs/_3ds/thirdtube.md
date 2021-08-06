@@ -73,6 +73,5 @@ update_notes: '<p>Here''s the initial alpha release of ThirdTube.<br>
   (More info in the README)</p>'
 updated: '2021-07-22T13:48:41Z'
 version: v0.0.0
-version_title: Initial Release
 website: https://gbatemp.net/threads/release-thirdtube-a-homebrew-youtube-client-for-the-new-3ds.591696/
 ---
