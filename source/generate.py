@@ -51,7 +51,8 @@ def byteCount(bytes):
 
 def downloadScript(file, url, message, archive):
 	script = []
-	if archive and file in archive:
+	archiveItem = [item for item in archive if re.findall(item, file)] if archive else None
+	if archive and len(archiveItem) > 0:
 		script = [
 			{
 				"type": "downloadFile",
@@ -60,7 +61,8 @@ def downloadScript(file, url, message, archive):
 				"message": f"Downloading {file}..."
 			}
 		]
-		for item in archive[file]:
+		
+		for item in archive[archiveItem[0]]:
 			if item[item.rfind(".") + 1:].lower() == "3dsx":
 				script.append({
 					"type": "extractFile",
@@ -776,7 +778,7 @@ for app in source:
 		if "autogen_scripts" in app and app["autogen_scripts"] or "scripts" not in app:
 			if "downloads" in app:
 				for file in app["downloads"]:
-					if len(re.findall("(zip|rar|7z|torrent|tar)", file)) == 0 or ("archive" in app and file in app["archive"]):
+					if len(re.findall(r"\.(zip|rar|7z|torrent|tar)", file)) == 0 or ("archive" in app and len([item for item in app["archive"] if re.findall(item, file)])):
 						uni[app["archive"][file][0] if ("archive" in app and file in app["archive"]) else file] = {
 							"script": downloadScript(file, app["downloads"][file]["url"], app["script_message"] if "script_message" in app else None, app["archive"] if "archive" in app else None),
 							"size": byteCount(app["downloads"][file]["size"]) if "size" in app["downloads"][file] else "",
@@ -784,7 +786,7 @@ for app in source:
 
 			if "prerelease" in app:
 				for file in app["prerelease"]["downloads"]:
-					if len(re.findall("(zip|rar|7z|torrent)", file)) == 0 or ("archive" in app and file in app["archive"]):
+					if len(re.findall(r"\.(zip|rar|7z|torrent|tar)", file)) == 0 or ("archive" in app and file in app["archive"]):
 						uni[f"[prerelease] {app['archive'][file][0] if ('archive' in app and file in app['archive']) else file}"] = {
 							"script": downloadScript(file, app["prerelease"]["downloads"][file]["url"], app["script_message"] if "script_message" in app else None, app["archive"] if "archive" in app else None),
 							"size": byteCount(app["prerelease"]["downloads"][file]["size"]) if "size" in app["prerelease"]["downloads"][file] else "",
@@ -792,7 +794,7 @@ for app in source:
 
 			if "nightly" in app:
 				for file in app["nightly"]["downloads"]:
-					if len(re.findall("(zip|rar|7z|torrent)", file)) == 0 or ("archive" in app and file in app["archive"]):
+					if len(re.findall(r"\.(zip|rar|7z|torrent|tar)", file)) == 0 or ("archive" in app and file in app["archive"]):
 						uni[f"[nightly] {app['archive'][file][0] if ('archive' in app and file in app['archive']) else file}"] = {
 							"script": downloadScript(file, app["nightly"]["downloads"][file]["url"], app["script_message"] if "script_message" in app else None, app["archive"] if "archive" in app else None),
 							"size": byteCount(app["nightly"]["downloads"][file]["size"]) if "size" in app["nightly"]["downloads"][file] else "",
