@@ -50,7 +50,9 @@ jobs:
         echo "  password ${{ secrets.GITHUB_TOKEN }}" >> "$HOME/.netrc"
 
         git checkout master
-        git stage .
-        if git commit -m "Update sources"; then
-          git push origin master
+        if git diff --name-only | grep full.json; then
+          git stage .
+          if git commit -m "Update sources"; then
+            git push origin master
+          fi
         fi
