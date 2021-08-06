@@ -450,16 +450,15 @@ for app in source:
 				if "download_page" not in app["prerelease"]:
 					app["prerelease"]["download_page"] = prerelease["html_url"]
 
+				if "version_title" not in app and "version" not in app and prerelease["name"] != "" and prerelease["name"] is not None:
+					app["version_title"] = prerelease["name"]
+				if "version_title" not in app["prerelease"] and prerelease["name"] != "" and prerelease["name"] is not None:
+					app["prerelease"]["version_title"] = prerelease["name"]
+
 				if "version" not in app:
 					app["version"] = prerelease["tag_name"]
 				if "version" not in app["prerelease"]:
 					app["prerelease"]["version"] = prerelease["tag_name"]
-
-				if "version_title" not in app and "version" not in app and prerelease["name"] != "" and prerelease["name"] is not None:
-					app["version_title"] = prerelease["name"]
-					print(app["version_title"])
-				if "version_title" not in app["prerelease"] and prerelease["name"] != "" and prerelease["name"] is not None:
-					app["prerelease"]["version_title"] = prerelease["name"]
 
 				if "update_notes" not in app and prerelease["body"] != "" and prerelease["body"] is not None:
 					app["update_notes_md"] = prerelease["body"].replace("\r\n", "\n")
