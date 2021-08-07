@@ -120,8 +120,7 @@ Features:<br/>
 <li>Quick toggle WiFi from menus by pressing START<br/>
 </li>
 <li>New3DS clock/cache status visible on main menu</li>
-<li>Menu rearrangement for quicker access to Wifi toggle</li>
-<li><a class="externalLink" href="https://github.com/LumaTeam/Luma3DS/pull/1634" rel="nofollow" target="_blank">Allow Patches in the Home Menu</a> e.g. place <a class="internalLink" href="https://gbatemp.net/threads/release-betterbatterycolors-for-homemenu.523138/">BetterBatteryColors</a> hud_LZ.bin in /luma/titles/*YourRegionHomeMenuTitleId*/romfs - thank you <b><span style="font-size: 15px"><a class="externalLink" href="https://github.com/gabe565" rel="nofollow" target="_blank">gabe565</a></span></b></li>
-<li>Merged in <a class="externalLink" href="https://github.com/LumaTeam/Luma3DS/pull/1623" rel="nofollow" target="_blank">enhancements</a> to Luma cheats system - thank you <span style="font-size: 15px"><a class="externalLink" href="https://github.com/s5bug" rel="nofollow" target="_blank">s5bug</a> </span></li>
+<li><a class="externalLink" href="https://github.com/LumaTeam/Luma3DS/pull/1634" rel="nofollow" target="_blank">Allow Patches in the Home Menu</a> e.g. place <a class="internalLink" href="https://gbatemp.net/threads/release-betterbatterycolors-for-homemenu.523138/">BetterBatteryColors</a> hud_LZ.bin in /luma/titles/*YourRegionHomeMenuTitleId*/romfs - thank you <a class="externalLink" href="https://github.com/gabe565" rel="nofollow" target="_blank"><span style="font-size: 12px">gabe565</span></a></li>
+<li>Merged in <a class="externalLink" href="https://github.com/LumaTeam/Luma3DS/pull/1623" rel="nofollow" target="_blank">enhancements</a> to Luma cheats system - thank you <a class="externalLink" href="https://github.com/s5bug" rel="nofollow" target="_blank"><span style="font-size: 12px">s5bug</span></a></li>
 <li>Option to toggle <a class="externalLink" href="https://github.com/hax0kartik/rehid" rel="nofollow" target="_blank">rehid</a> folder System configuration sub menu (folder must be disabled before loading game to not have rehid apply)</li>
 </ul>
