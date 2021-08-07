@@ -51,4 +51,5 @@ update_notes: '<p><strong>Bug fixes</strong></p>
   </ul>'
 updated: '2020-04-14T06:08:48Z'
 version: v2.0.2
+version_title: v2.0.2
 ---

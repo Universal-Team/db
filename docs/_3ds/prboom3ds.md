@@ -67,4 +67,5 @@ update_notes: '<p>enum fix, enable lto, 3d view change</p>
   elsewhere)</p>'
 updated: '2019-12-21T23:47:05Z'
 version: v0.7-alpha
+version_title: v0.7-alpha
 ---

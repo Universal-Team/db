@@ -66,4 +66,5 @@ update_notes: '<ul>
   </ul>'
 updated: '2016-07-04T07:32:48Z'
 version: V0.4alpha
+version_title: Bigger font and CIA version
 ---

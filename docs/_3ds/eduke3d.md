@@ -65,4 +65,5 @@ update_notes: '<p>Bugfixes (mostly memory management) and first CIA release.<br>
   Home button only works when in a level</p>'
 updated: '2016-05-08T04:36:44Z'
 version: v1.0-beta
+version_title: Beta release (fixed)
 ---

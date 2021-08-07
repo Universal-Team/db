@@ -43,4 +43,5 @@ update_notes: <p>This small update mostly fixes the save loading issues and has 
   input handling.</p>
 updated: '2017-06-24T15:36:24Z'
 version: v0.2
+version_title: Save fix and Input enhancements
 ---

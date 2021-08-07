@@ -1,6 +1,6 @@
 ---
 archive:
-  luma1021_QuickSwitchers - widesceen switcher.zip:
+  .*\.zip:
   - boot.firm
   - luma/
 author: Nutez
