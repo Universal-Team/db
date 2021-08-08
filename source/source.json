@@ -6356,6 +6356,12 @@
 					"type": "deleteFile",
 					"file":"/DS Game Forwarder pack (3DS SD Card).7z",
 					"message": "Deleting DS Game Forwarder pack (3DS SD Card).7z..."
+				},
+				{
+					"type": "downloadFile",
+					"file": "https://raw.githubusercontent.com/TWLBot/Builds/master/extras/apfix.pck",
+					"output": "/_nds/ntr-forwarder/apfix.pck",
+					"message": "Downloading apfix.pck..."
 				}
 			]
 		}
