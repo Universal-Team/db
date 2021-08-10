@@ -11,17 +11,17 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1273856
+    size: 1317376
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.2/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.3/StellaDS.nds
   compatibility.txt:
-    size: 25310
+    size: 25032
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.2/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.3/compatibility.txt
   readme.txt:
-    size: 16803
+    size: 16986
     size_str: 16 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.2/readme.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.3/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -33,18 +33,16 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p>V4.2 : 02-Aug-2021 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p>V4.3 :09-Aug-2021 by wavemotion-dave</p>
 
   <ul>
 
-  <li>New overlay graphic for Star Raiders (plus manual)</li>
+  <li>Massive overhaul of the non-bank-switched engine so now the older DS-Lite<br>
 
-  <li>A half dozen odd games got their controllers straightened out</li>
-
-  <li>About 100 graphical tweaks for various games to make them look as good as possible.</li>
+  and DS-Phat will run many games at full speed.</li>
 
   </ul>'
-updated: '2021-08-02T12:53:59Z'
-version: '4.2'
-version_title: Version 4.2
+updated: '2021-08-10T10:45:47Z'
+version: '4.3'
+version_title: Version 4.3
 ---
