@@ -33,7 +33,7 @@ update_notes: 'New features:<br/>
   <li>Quick toggle Wifi from menus with START button press</li>
 
   <li>Option to force revert TWiLightMenu widescreen patch from Quick-Switchers submenu
-  - useful if game specific aspect ratio patch fails or forced exist from TWiLightMenu</li>
+  - useful if game specific aspect ratio patch fails or forced exit from TWiLightMenu</li>
 
   <li>Option to toggle <a class="externalLink" href="https://github.com/hax0kartik/rehid"
   rel="nofollow" target="_blank">rehid</a> folder from System configuration sub menu
