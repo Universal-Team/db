@@ -9,13 +9,13 @@ description: An easy to use app for installing and updating 3DS homebrew
 download_page: https://github.com/Universal-Team/Universal-Updater/releases
 downloads:
   Universal-Updater.3dsx:
-    size: 2545148
+    size: 2553036
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.2/Universal-Updater.3dsx
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.3/Universal-Updater.3dsx
   Universal-Updater.cia:
-    size: 2126784
+    size: 2134976
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.2/Universal-Updater.cia
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.3/Universal-Updater.cia
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/banner.png
@@ -77,15 +77,13 @@ systems:
 - 3DS
 title: Universal-Updater
 unistore_exclude: true
-update_notes: '<h3>What''s New?</h3>
+update_notes: '<h3>Changes</h3>
 
   <ul>
 
-  <li>Adds Korean and most other translations have been fully completed</li>
+  <li>Adds Danish and Turkish translations and updates to some existing translations</li>
 
-  <li>Uninstalling an app now makes it not show an icon for updates</li>
-
-  <li>Changed to a new icon with better shading</li>
+  <li>Adds Makefile option to build a Citra compatible version (<code>make citra</code>)</li>
 
   </ul>
 
@@ -93,24 +91,18 @@ update_notes: '<h3>What''s New?</h3>
 
   <ul>
 
-  <li>Fixes fonts being too large on Chinese, Taiwanese, and Korean consoles</li>
-
-  <li>Blocks going to the HOME menu and quitting the app while the queue is running,
-  which could cause buggy behavior</li>
-
-  <li>Adds safety checks for low SD card space</li>
+  <li>Fixes empty folders and 0 byte files not being extracted</li>
 
   </ul>
 
   <h3>Other notes</h3>
 
-  <p>A fairly minor update this time, but we''ve got enough bug fixes and new little
-  things that we figured it was a good time.</p>
+  <p>Pretty small update this time, it''s been a while since the last one though so
+  we figured we should push out the couple changes we have at the moment.</p>
 
   <p>Find any bugs we missed, have suggestions, or need help? You can either make
   an issue or discussion here on GitHub or join our <a href="https://universal-team.net/discord"
-  rel="nofollow">Discord server</a>. That''s right, we''re letting people in again
-  now!</p>
+  rel="nofollow">Discord server</a>.</p>
 
   <p>We hope you enjoy the new update!<br>
 
@@ -118,12 +110,12 @@ update_notes: '<h3>What''s New?</h3>
 
   <hr>
 
-  <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/119982867-00ce2e80-bf85-11eb-967f-d0b8c66b73e8.png"><img
-  src="https://user-images.githubusercontent.com/41608708/119982867-00ce2e80-bf85-11eb-967f-d0b8c66b73e8.png"
+  <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/128966211-6263b6b6-769b-4a54-b194-5f28b855903a.png"><img
+  src="https://user-images.githubusercontent.com/41608708/128966211-6263b6b6-769b-4a54-b194-5f28b855903a.png"
   alt="QR code for universal-updater.cia" style="max-width:100%;"></a></p>'
-updated: '2021-05-28T12:14:25Z'
-version: v3.2.2
-version_title: New icon, Korean, and bug fixes
+updated: '2021-08-11T03:37:15Z'
+version: v3.2.3
+version_title: Translation updates and a bug fix
 website: https://universal-team.net/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
