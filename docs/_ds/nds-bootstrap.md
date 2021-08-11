@@ -9,13 +9,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 370979
+    size: 371412
     size_str: 362 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.46.0/nds-bootstrap.7z
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.46.1/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 900535
-    size_str: 879 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.46.0/nds-bootstrap.zip
+    size: 901872
+    size_str: 880 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.46.1/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://raw.githubusercontent.com/DS-Homebrew/nds-bootstrap/master/retail/assets/icon.bmp
 image: https://i.imgur.com/BFIu7xX.png
@@ -33,143 +33,45 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.0/HGSS-Electricwifi.png"><img
-  src="https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.0/HGSS-Electricwifi.png"
-  alt="screenshot1" style="max-width:100%;"></a> <a target="_blank" rel="noopener
-  noreferrer" href="https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.0/SonicColors.png"><img
-  src="https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.0/SonicColors.png"
-  alt="screenshot2" style="max-width:100%;"></a> <a target="_blank" rel="noopener
-  noreferrer" href="https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.0/ProfLayton.png"><img
-  src="https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.0/ProfLayton.png"
-  alt="screenshot3" style="max-width:100%;"></a><br>
-
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.0/MKDS.png"><img
-  src="https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.0/MKDS.png"
-  alt="screenshot4" style="max-width:100%;"></a> <a target="_blank" rel="noopener
-  noreferrer" href="https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.0/KH-358-2-Days.png"><img
-  src="https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.0/KH-358-2-Days.png"
-  alt="screenshot5" style="max-width:100%;"></a> <a target="_blank" rel="noopener
-  noreferrer" href="https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.0/StyleSavvy.png"><img
-  src="https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.0/StyleSavvy.png"
-  alt="screenshot6" style="max-width:100%;"></a><br>
-
-  The above screenshots are taken straight from real hardware, without a capture card
-  or an emulator!</p>
-
-  <p>Instructions:</p>
-
-  <ol>
-
-  <li>Download the <code>.7z</code> file.</li>
-
-  <li>Extract the nds-bootstrap <code>.nds</code> files, to <code>root:/_nds</code>.</li>
-
-  <li><strong>TWLMenu++ users:</strong> Extract the <code>.ver</code> file to <code>root:/_nds/TWiLightMenu</code>.</li>
-
-  </ol>
-
-  <p>Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v21.3.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v21.3.0</a></p>
-
-  <p><strong>What''s new?</strong></p>
-
-  <ul>
-
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  and <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/RocketRobz/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/RocketRobz">@RocketRobz</a>)
-  You can now take screenshots of DS games!
-
-  <ul>
-
-  <li>Screenshots will be saved to <code>screenshots.tar</code> in <code>sd:/_nds/nds-bootstrap/</code>.</li>
-
-  <li>Due to hardware limitations, only screenshots of the main-set screen will be
-  taken.</li>
-
-  <li>Limit is 50 screenshots. After reaching the limit, you cannot take any more,
-  until you delete <code>screenshots.tar</code> in <code>sd:/_nds/nds-bootstrap/</code>,
-  where it''ll be re-created on next boot.</li>
-
-  <li>To take screenshots:
-
-  <ul>
-
-  <li>Open the in-game menu.</li>
-
-  <li>Select <code>Screenshots...</code></li>
-
-  <li>Select the VRAM bank, in case if the screenshot looks incorrect.</li>
-
-  </ul>
-
-  </li>
-
-  <li>This feature cannot be used in B4DS mode.</li>
-
-  </ul>
-
-  </li>
-
-  <li>You can now step 1 frame, while in the in-game menu (by pressing R).
-
-  <ul>
-
-  <li>Useful for getting frame-perfect screenshots!</li>
-
-  </ul>
-
-  </li>
-
-  </ul>
-
-  <p><strong>Improvements</strong></p>
-
-  <ul>
-
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  and various) Updated in-game menu translations!</li>
-
-  <li>The <code>Date modified</code> flag for the <code>.sav</code> file is now updated,
-  when booting the game.</li>
-
-  <li>The in-game menu button combo now does nothing in DSi mode, since it''s already
-  inaccessible.</li>
-
-  <li>Asynch card read is now disabled in DSi mode, regardless of settings.</li>
-
-  </ul>
-
-  <p><strong>Bug fixes</strong></p>
-
-  <ul>
-
-  <li>Fixed some DSi mode compatibility on DSi consoles (at the cost of card data
-  cache size).</li>
-
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Fixed where the in-game menu would sometimes be blank.</li>
-
-  </ul>
-
-  <p><strong>Known bugs</strong></p>
-
-  <ul>
-
-  <li>Screenshots of ActImagine/MobiClip videos contain only black screens.</li>
-
-  <li>Screenshots of moonshineDS will only contain half the screen on either horizontal
-  side.</li>
-
-  <li>The frame-stepping feature will not always work properly.</li>
-
-  </ul>'
-updated: '2021-08-02T08:19:37Z'
-version: v0.46.0
-version_title: 'v0.46.0: Screenshots are here!'
+update_notes: "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.1/metroidPrimeHunters.png\"\
+  ><img src=\"https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.1/metroidPrimeHunters.png\"\
+  \ alt=\"screenshot1\" style=\"max-width:100%;\"></a> <a target=\"_blank\" rel=\"\
+  noopener noreferrer\" href=\"https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.1/sonicColors.png\"\
+  ><img src=\"https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.1/sonicColors.png\"\
+  \ alt=\"screenshot2\" style=\"max-width:100%;\"></a> <a target=\"_blank\" rel=\"\
+  noopener noreferrer\" href=\"https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.1/sonicSegaRacing.png\"\
+  ><img src=\"https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.1/sonicSegaRacing.png\"\
+  \ alt=\"screenshot3\" style=\"max-width:100%;\"></a><br>\n<a target=\"_blank\" rel=\"\
+  noopener noreferrer\" href=\"https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.1/marioVsDk2.png\"\
+  ><img src=\"https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.1/marioVsDk2.png\"\
+  \ alt=\"screenshot4\" style=\"max-width:100%;\"></a> <a target=\"_blank\" rel=\"\
+  noopener noreferrer\" href=\"https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.1/styleSavvy.png\"\
+  ><img src=\"https://github.com/DS-Homebrew/nds-bootstrap/raw/master/screenshots/v0.46.1/styleSavvy.png\"\
+  \ alt=\"screenshot5\" style=\"max-width:100%;\"></a><br>\nThe above screenshots\
+  \ are taken straight from real hardware, without a capture card or an emulator!</p>\n\
+  <p>Instructions:</p>\n<ol>\n<li>Download the <code>.7z</code> file.</li>\n<li>Extract\
+  \ the nds-bootstrap <code>.nds</code> files, to <code>root:/_nds</code>.</li>\n\
+  <li><strong>TWLMenu++ users:</strong> Extract the <code>.ver</code> file to <code>root:/_nds/TWiLightMenu</code>.</li>\n\
+  </ol>\n<p>Included in <a href=\"https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v21.4.0\"\
+  ><strong>TW</strong>i<strong>L</strong>ight Menu++ v21.4.0</a></p>\n<p><strong>Improvement</strong></p>\n\
+  <ul>\n<li>(<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
+  /users/Epicpkmn11/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
+  link_type:self\" href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a> and various)\
+  \ Updated in-game menu translations.</li>\n</ul>\n<p><strong>Bug fixes</strong></p>\n\
+  <ul>\n<li>(<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
+  /users/Epicpkmn11/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
+  link_type:self\" href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a>) Screenshots\
+  \ of ActImagine/MobiClip videos are no longer blank!</li>\n<li>Slot-1 will now remain\
+  \ disabled, if DS game card with IR features isn't detected.\n<ul>\n<li>Fixes bug\
+  \ where waking from sleep mode causes the console to power off, when running a ROM\
+  \ of a game with IR features.</li>\n</ul>\n</li>\n</ul>\n<p><strong>Known bugs</strong></p>\n\
+  <ul>\n<li>Screenshots of ActImagine/MobiClip will still appear blank for a few games\
+  \ (ex. Mega Man ZX, Infinite Space).</li>\n<li>(As of v0.46.0) Gen 5 Pok\xE9mon\
+  \ Games freeze when taking screenshots and don't advance a frame on R-button press.</li>\n\
+  </ul>"
+updated: '2021-08-11T07:56:37Z'
+version: v0.46.1
+version_title: v0.46.1
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
 nds-bootstrap is an open-source application that allows Nintendo DS/DSi ROMs and homebrew to be natively utilised rather than using an emulator. nds-bootstrap works on Nintendo DSi/3DS SD cards through CFW and on Nintendo DS through flashcarts.
