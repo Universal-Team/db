@@ -35,12 +35,14 @@ update_notes: '<p>V2.6 : 11-Jul-2021 by wavemotion-dave</p>
   on dark backgrounds.</li>
 
   <li>If atarixl.rom exists, it is used by default (previously had still been defaulting
-  to Altirra rom)</li>
+  to Altirra rom).</li>
+
+  <li>New screen blending types to provide more options for screen scaling improvements.</li>
 
   <li>Minor cleanups as time permitted.</li>
 
   </ul>'
-updated: '2021-08-12T01:29:23Z'
+updated: '2021-08-12T12:12:37Z'
 version: '2.6'
 version_title: Version 2.6
 ---
