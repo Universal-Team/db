@@ -146,9 +146,7 @@ layout: compress
 												<small>
 													Version: {% if page.prerelease.download_page %}<a href="{{ page.prerelease.download_page }}">{% endif %}{{ page.prerelease.version }}{% if page.prerelease.download_page %}</a>{% endif %}
 													{% if page.prerelease.update_notes %}
-														<button class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#modal" data-name="{% if page.prerelease.version_title %}{{ page.prerelease.version_title }}{% else %}{{ page.prerelease.version }}{% endif %}" data-content="{{ page.prerelease.update_notes | escape }}">
-															Update notes
-														</button>
+														<button class="btn btn-outline-secondary btn-sm i18n innerHTML-update-notes" data-bs-toggle="modal" data-bs-target="#modal" data-name="{% if page.prerelease.version_title %}{{ page.prerelease.version_title }}{% else %}{{ page.prerelease.version }}{% endif %}" data-content="{{ page.prerelease.update_notes | escape }}">Update notes</button>
 													{% endif %}
 													<br>
 													{% if page.prerelease.updated != "---" %}
