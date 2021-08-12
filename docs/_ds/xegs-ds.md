@@ -29,20 +29,16 @@ systems:
 title: XEGS-DS
 update_notes: '<p>V2.6 : 11-Jul-2021 by wavemotion-dave</p>
 
-  <ul>
+  <p>Reduced down to one screen buffer - this cleans up ghosting visible sometimes
+  on dark backgrounds.<br>
 
-  <li>Reduced down to one screen buffer - this cleans up ghosting visible sometimes
-  on dark backgrounds.</li>
+  If atarixl.rom exists, it is used by default (previously had still been defaulting
+  to Altirra rom).<br>
 
-  <li>If atarixl.rom exists, it is used by default (previously had still been defaulting
-  to Altirra rom).</li>
+  New screen blending types to provide more options for screen scaling improvements.<br>
 
-  <li>New screen blending types to provide more options for screen scaling improvements.</li>
-
-  <li>Minor cleanups as time permitted.</li>
-
-  </ul>'
-updated: '2021-08-12T12:12:37Z'
+  Minor cleanups as time permitted.</p>'
+updated: '2021-08-12T12:30:10Z'
 version: '2.6'
 version_title: Version 2.6
 ---

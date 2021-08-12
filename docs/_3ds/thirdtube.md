@@ -9,13 +9,13 @@ description: A work-in-progress homebrew YouTube client for new 3DS
 download_page: https://github.com/windows-server-2003/ThirdTube/releases
 downloads:
   ThirdTube.3dsx:
-    size: 6497696
-    size_str: 6 MiB
-    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.1.0/ThirdTube.3dsx
+    size: 4152172
+    size_str: 3 MiB
+    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.1.1/ThirdTube.3dsx
   ThirdTube.cia:
-    size: 4502464
-    size_str: 4 MiB
-    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.1.0/ThirdTube.cia
+    size: 3113920
+    size_str: 2 MiB
+    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.1.1/ThirdTube.cia
 github: windows-server-2003/ThirdTube
 icon: https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/icon.png
 image: https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/banner.png
@@ -36,57 +36,33 @@ source: https://github.com/windows-server-2003/ThirdTube
 systems:
 - 3DS
 title: ThirdTube
-update_notes: '<ul>
-
-  <li>Added support for livestreams and premiere videos<br>
-
-  Due to the way it works, smooth playing of livestreams cannot be expected unless
-  you have a very stable connection.<br>
-
-  Live chat is not supported yet.<br>
-
-  You can access to a livestream before it starts, but you''ll have to press Advanced
-  -&gt; Reload in order to watch it when it starts.</li>
-
-  <li>Added more metadata in video player and other pages
+update_notes: '<p>A relatively critical crash bug was found in the previous release,
+  so I''m releasing this with the fix for it.</p>
 
   <ul>
 
-  <li>View count, published date, like count and dislike count in the video page</li>
+  <li>Fixed crashing when playing 1h + video</li>
 
-  <li>Uploader and duration in video suggestion page</li>
+  <li>Speeded up YouTube parser for quicker loading</li>
 
-  <li>Subscribers count and video count for channels, view count and published date
-  for videos in search results</li>
+  <li>Reduced the binary size by removing unnecessary codecs and demuxers from ffmpeg
+  library</li>
 
-  <li>Published date and view count in channel video list</li>
+  <li>Implemented experimental network framework using sslc service + manual HTTP/1.1
+  parser which can be enabled in Settings<br>
 
-  </ul>
+  This reuses TLS connection sessions if possible, improving performance for thumbnails
+  and livestreams.<br>
 
-  </li>
+  However, it''s less stable than current one using httpc service for now, so it''s
+  optional (and disabled by default).<br>
 
-  <li>New icon and banner (thanks <a class="user-mention" data-hovercard-type="user"
-  data-hovercard-url="/users/Poketubepoggu/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Poketubepoggu">@Poketubepoggu</a>)</li>
-
-  <li>Brought back dark theme</li>
-
-  <li>Fixed random playback failure due to 403 error</li>
-
-  <li>Fixed a bug in the parser that caused some videos to fail to play (rare)</li>
-
-  <li>Fixed slow buffering</li>
-
-  <li>Fixed long videos (1 h+) taking too much time to load/not playing/crashing<br>
-
-  Extremely long videos like <a href="https://www.youtube.com/watch?v=56lkofpjOAs"
-  rel="nofollow">this</a> are still subject to unending loading/freeze/crash.</li>
-
-  <li>Fixed a bug where the bottom of the video was stretched.</li>
+  Bug reports for this feature are greatly appreciated. It would be helpful to include
+  whether the bug still occurs if you turn off this feature in the bug report.</li>
 
   </ul>'
-updated: '2021-08-08T17:27:57Z'
-version: v0.1.0
-version_title: Release v0.1.0
+updated: '2021-08-12T16:07:55Z'
+version: v0.1.1
+version_title: Release v0.1.1
 website: https://gbatemp.net/threads/release-thirdtube-a-homebrew-youtube-client-for-the-new-3ds.591696/
 ---
