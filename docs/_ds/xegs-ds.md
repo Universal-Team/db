@@ -13,11 +13,11 @@ downloads:
   XEGS-DS.nds:
     size: 575488
     size_str: 562 KiB
-    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.5/XEGS-DS.nds
+    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.6/XEGS-DS.nds
   readme.txt:
-    size: 14022
+    size: 14310
     size_str: 13 KiB
-    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.5/readme.txt
+    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.6/readme.txt
 github: wavemotion-dave/XEGS-DS
 icon: https://raw.githubusercontent.com/wavemotion-dave/XEGS-DS/main/logo.bmp
 image: https://raw.githubusercontent.com/wavemotion-dave/XEGS-DS/main/arm9/gfx/bgTop.png
@@ -27,14 +27,20 @@ source: https://github.com/wavemotion-dave/XEGS-DS
 systems:
 - DS
 title: XEGS-DS
-update_notes: '<p>V2.5 : 08-Apr-2021 by wavemotion-dave</p>
+update_notes: '<p>V2.6 : 11-Jul-2021 by wavemotion-dave</p>
 
-  <p>Major cleanup of unused code to get down to a small but efficient code base.<br>
+  <ul>
 
-  Added LCD swap using L+R+A (hold for half second to toggle screens)<br>
+  <li>Reduced down to one screen buffer - this cleans up ghosting visible sometimes
+  on dark backgrounds.</li>
 
-  Cleanup of text-on-screen handling and other minor bug fixes.</p>'
-updated: '2021-04-08T12:24:16Z'
-version: '2.5'
-version_title: Version 2.5
+  <li>If atarixl.rom exists, it is used by default (previously had still been defaulting
+  to Altirra rom)</li>
+
+  <li>Minor cleanups as time permitted.</li>
+
+  </ul>'
+updated: '2021-08-12T01:29:23Z'
+version: '2.6'
+version_title: Version 2.6
 ---
