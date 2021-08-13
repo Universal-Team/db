@@ -298,72 +298,77 @@ for app in source:
 	if not foundExisting or not (priorityOnlyMode and not ("priority" in app and app["priority"])):
 		if "gbatemp" in app:
 			print("GBAtemp Download Center")
-			soup = BeautifulSoup(requests.get(f"https://gbatemp.net/download/{app['gbatemp']}/").text, "html.parser")
+			r = requests.get(f"https://gbatemp.net/download/{app['gbatemp']}/")
+			if r.status_code != 200:
+				print(f"Error {r.status_code:d}, using old data!")
+				app = list(filter(lambda x: "gbatemp" in x and x["gbatemp"] == app["gbatemp"], oldData))[0]
+			else:
+				soup = BeautifulSoup(r.text, "html.parser")
 
-			if "title" not in app:
-				app["title"] = soup.find(class_="resourceInfo").h1.find(text=True).strip()
+				if "title" not in app:
+					app["title"] = soup.find(class_="resourceInfo").h1.find(text=True).strip()
 
-			if "author" not in app:
-				app["author"] = soup.find(class_="author").dd.a.text.strip()
+				if "author" not in app:
+					app["author"] = soup.find(class_="author").dd.a.text.strip()
 
-			if "description" not in app:
-				app["description"] = soup.find(class_="tagLine").text.strip()
+				if "description" not in app:
+					app["description"] = soup.find(class_="tagLine").text.strip()
 
-			if "long_description" not in app:
-				app["long_description"] = soup.blockquote.decode_contents().strip()
+				if "long_description" not in app:
+					app["long_description"] = soup.blockquote.decode_contents().strip()
 
-			if "avatar" not in app:
-				app["avatar"] = "https://gbatemp.net/" + re.sub("/s/", "/l/", soup.find(class_="resourceImage").a.img["src"]).strip()
+				if "avatar" not in app:
+					app["avatar"] = "https://gbatemp.net/" + re.sub("/s/", "/l/", soup.find(class_="resourceImage").a.img["src"]).strip()
 
-			if "created" not in app:
-				dd = soup.find(class_="firstRelease").dd
-				if dd.span:
-					app["created"] = parser.parse(dd.span["title"]).strftime("%Y-%m-%dT%H:%M:%SZ")
-				else: # Being shown as "Today at ..." or so
-					app["created"] = parser.parse(dd.appr.text).strftime("%Y-%m-%dT%H:%M:%SZ")
+				if "created" not in app:
+					dd = soup.find(class_="firstRelease").dd
+					if dd.span:
+						app["created"] = parser.parse(dd.span["title"]).strftime("%Y-%m-%dT%H:%M:%SZ")
+					else: # Being shown as "Today at ..." or so
+						app["created"] = parser.parse(dd.appr.text).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-			if "download_page" not in app:
-				app["download_page"] = f"https://gbatemp.net/download/{app['gbatemp']}/"
+				if "download_page" not in app:
+					app["download_page"] = f"https://gbatemp.net/download/{app['gbatemp']}/"
 
-			if "version" not in app:
-				app["version"] = soup.find(class_="resourceInfo").h1.span.text.strip()
+				if "version" not in app:
+					app["version"] = soup.find(class_="resourceInfo").h1.span.text.strip()
 
-			if "version_title" not in app:
-				app["version_title"] = soup.find(class_="updates").ol.li.a.text.strip()
+				if "version_title" not in app:
+					app["version_title"] = soup.find(class_="updates").ol.li.a.text.strip()
 
-			if "update_notes" not in app or "update_notes_md" not in app:
-				if "update_notes" not in app:
-					notesSoup = BeautifulSoup(requests.get("https://gbatemp.net/" + soup.find(class_="updates").ol.li.a["href"]).text, "html.parser")
-					app["update_notes"] = notesSoup.blockquote.decode_contents().strip()
+				if "update_notes" not in app or "update_notes_md" not in app:
+					if "update_notes" not in app:
+						notesSoup = BeautifulSoup(requests.get("https://gbatemp.net/" + soup.find(class_="updates").ol.li.a["href"]).text, "html.parser")
+						app["update_notes"] = notesSoup.blockquote.decode_contents().strip()
 
-				if "update_notes_md" not in app:
-					app["update_notes_md"] = markdownify(app["update_notes"], bullets="-")
+					if "update_notes_md" not in app:
+						app["update_notes_md"] = markdownify(app["update_notes"], bullets="-")
 
-			if "updated" not in app:
-				dd = soup.find(class_="lastUpdate").dd
-				if dd.span:
-					app["updated"] = parser.parse(dd.span["title"]).strftime("%Y-%m-%dT%H:%M:%SZ")
-				else: # Being shown as "Today at ..." or so
-					app["updated"] = parser.parse(dd.abbr.text).strftime("%Y-%m-%dT%H:%M:%SZ")
+				if "updated" not in app:
+					dd = soup.find(class_="lastUpdate").dd
+					if dd.span:
+						app["updated"] = parser.parse(dd.span["title"]).strftime("%Y-%m-%dT%H:%M:%SZ")
+					else: # Being shown as "Today at ..." or so
+						app["updated"] = parser.parse(dd.abbr.text).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-			if "downloads" not in app:
-				app["downloads"] = {}
+				if "downloads" not in app:
+					app["downloads"] = {}
 
-			head = requests.head("https://gbatemp.net/" + soup.find(class_="downloadButton").a["href"])
-			if head.status_code == 200:
-				if "Content-Disposition" in head.headers:
-					name = re.findall('filename="(.*)"', head.headers["Content-Disposition"])
-					if len(name) > 0:
-						name = name[0]
-						size = None
-						if name not in app["downloads"]:
-							app["downloads"][name] = {
-								"url": head.url,
-							}
+				head = requests.head("https://gbatemp.net/" + soup.find(class_="downloadButton").a["href"])
+				if head.status_code == 200:
+					if "Content-Disposition" in head.headers:
+						name = re.findall('filename="(.*)"', head.headers["Content-Disposition"])
+						if len(name) > 0:
+							name = name[0]
+							size = None
+							if name not in app["downloads"]:
+								app["downloads"][name] = {
+									"url": head.url,
+								}
 
-							if "Content-Length" in head.headers:
-								app["downloads"][name]["size"] = int(head.headers["Content-Length"])
-								app["downloads"][name]["size_str"] = byteCount(app["downloads"][name]["size"])
+								if "Content-Length" in head.headers:
+									app["downloads"][name]["size"] = int(head.headers["Content-Length"])
+									app["downloads"][name]["size_str"] = byteCount(app["downloads"][name]["size"])
 
 		if "github" in app:
 			print("GitHub")
@@ -578,7 +583,6 @@ for app in source:
 
 	if "title" in app:
 		print(webName(app["title"]))
-	print("=" * 80)
 
 	# Check for local icon / image
 	if "icon" not in app and os.path.exists(os.path.join("..", "docs", "assets", "images", "icons", f"{webName(app['title'])}.png")):
@@ -609,7 +613,11 @@ for app in source:
 		if url[:30] == "https://db.universal-team.net/":
 			file = open(f"../docs/{url[30:]}", "rb")
 		else:
-			file = io.BytesIO(requests.get(url).content)
+			r = requests.get(url)
+			if r.status_code == 200:
+				file = io.BytesIO(r.content)
+			else:
+				print(f"Error {r.status_code} downloading image!")
 
 		if file:
 			with Image.open(file) as img:
@@ -801,6 +809,8 @@ for app in source:
 						}
 
 		unistore["storeContent"].append(uni)
+
+	print("=" * 80)
 
 # Make t3x
 with open(os.path.join("temp", "icons.t3s"), "w", encoding="utf8") as file:
