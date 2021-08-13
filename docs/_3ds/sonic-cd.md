@@ -3,14 +3,14 @@ author: SaturnSH2x2
 avatar: https://avatars.githubusercontent.com/u/18273084?v=4
 categories:
 - game
-color: '#516498'
+color: '#4d5872'
 created: '2021-01-22T22:40:50Z'
 description: Port of Sonic CD to the 3DS, based on Rubberduckycooly's Sonic CD decompilation
 download_page: https://github.com/SaturnSH2x2/Sonic-CD-11-Decompilation/releases
 github: SaturnSH2x2/Sonic-CD-11-Decompilation
 icon: https://raw.githubusercontent.com/SaturnSH2x2/Sonic-CD-11-Decompilation/master/resources/48x48.png
 image: https://raw.githubusercontent.com/SaturnSH2x2/Sonic-CD-11-Decompilation/master/resources/banner.png
-image_length: 63421
+image_length: 66191
 layout: app
 license: other
 license_name: Other
