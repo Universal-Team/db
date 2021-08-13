@@ -9,13 +9,13 @@ description: A work-in-progress homebrew YouTube client for new 3DS
 download_page: https://github.com/windows-server-2003/ThirdTube/releases
 downloads:
   ThirdTube.3dsx:
-    size: 4152172
-    size_str: 3 MiB
-    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.1.1/ThirdTube.3dsx
+    size: 4352244
+    size_str: 4 MiB
+    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.1.2/ThirdTube.3dsx
   ThirdTube.cia:
-    size: 3113920
-    size_str: 2 MiB
-    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.1.1/ThirdTube.cia
+    size: 3220416
+    size_str: 3 MiB
+    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.1.2/ThirdTube.cia
 github: windows-server-2003/ThirdTube
 icon: https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/icon.png
 image: https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/banner.png
@@ -36,33 +36,11 @@ source: https://github.com/windows-server-2003/ThirdTube
 systems:
 - 3DS
 title: ThirdTube
-update_notes: '<p>A relatively critical crash bug was found in the previous release,
-  so I''m releasing this with the fix for it.</p>
+update_notes: '<p>I realized the latest release was broken due to LTO (link time optiomization).<br>
 
-  <ul>
-
-  <li>Fixed crashing when playing 1h + video</li>
-
-  <li>Speeded up YouTube parser for quicker loading</li>
-
-  <li>Reduced the binary size by removing unnecessary codecs and demuxers from ffmpeg
-  library</li>
-
-  <li>Implemented experimental network framework using sslc service + manual HTTP/1.1
-  parser which can be enabled in Settings<br>
-
-  This reuses TLS connection sessions if possible, improving performance for thumbnails
-  and livestreams.<br>
-
-  However, it''s less stable than current one using httpc service for now, so it''s
-  optional (and disabled by default).<br>
-
-  Bug reports for this feature are greatly appreciated. It would be helpful to include
-  whether the bug still occurs if you turn off this feature in the bug report.</li>
-
-  </ul>'
-updated: '2021-08-12T16:07:55Z'
-version: v0.1.1
-version_title: Release v0.1.1
+  I apologize for not having tested thoroughly.</p>'
+updated: '2021-08-13T08:45:40Z'
+version: v0.1.2
+version_title: Release v0.1.2
 website: https://gbatemp.net/threads/release-thirdtube-a-homebrew-youtube-client-for-the-new-3ds.591696/
 ---
