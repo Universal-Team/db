@@ -825,8 +825,8 @@ if unistore != unistoreOld:
 
 # Write unistore to file
 with open(os.path.join("..", "docs", "unistore", "universal-db.unistore"), "w", encoding="utf8") as file:
-	file.write(json.dumps(unistore, sort_keys=True))
+	file.write(json.dumps(unistore, sort_keys=True, ensure_ascii=False))
 
 # Write output file
 with open(os.path.join("..", "docs", "data", "full.json"), "w", encoding="utf8") as file:
-	file.write(json.dumps(output, sort_keys=True))
+	file.write(json.dumps(output, sort_keys=True, ensure_ascii=False))
