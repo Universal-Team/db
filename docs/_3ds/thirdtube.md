@@ -36,9 +36,11 @@ source: https://github.com/windows-server-2003/ThirdTube
 systems:
 - 3DS
 title: ThirdTube
-update_notes: '<p>I realized the latest release was broken due to LTO (link time optiomization).<br>
+update_notes: '<p>I realized the latest release was broken due to LTO (link time optimization).<br>
 
-  I apologize for not having tested thoroughly.</p>'
+  I apologize for not having tested thoroughly.</p>
+
+  <p>(2021/08/14 11:34 JST) : Fixed typo, binary not changed.</p>'
 updated: '2021-08-13T08:45:40Z'
 version: v0.1.2
 version_title: Release v0.1.2
