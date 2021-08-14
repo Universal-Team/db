@@ -1,6 +1,6 @@
 ---
 name: App request
-about: Request an app be added to the site
+about: Request an app be added to Universal-DB
 title: ''
 labels: app request
 assignees: ''
