@@ -16,6 +16,8 @@ github: RedShyGuy/Vapecord-ACNL-Plugin
 image: https://avatars.githubusercontent.com/u/43783060?v=4
 image_length: 23338
 layout: app
+license: mit
+license_name: MIT License
 source: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin
 systems:
 - 3DS
