@@ -6560,5 +6560,11 @@
 		"avatar": "https://avatars.githubusercontent.com/u/113514?v=4",
 		"systems": ["3DS"],
 		"categories": ["emulator"]
+	},
+	{
+		"github": "Garhoogin/Box",
+		"systems": ["DS"],
+		"categories": ["game"],
+		"icon": "https://raw.githubusercontent.com/Garhoogin/Box/main/icon.bmp"
 	}
 ]
