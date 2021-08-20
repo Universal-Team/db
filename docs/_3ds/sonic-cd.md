@@ -9,21 +9,21 @@ description: Port of Sonic CD to the 3DS, based on Rubberduckycooly's Sonic CD d
 download_page: https://github.com/SaturnSH2x2/Sonic-CD-11-Decompilation/releases
 downloads:
   SonicCD_HW.3dsx:
-    size: 1432516
+    size: 1432524
     size_str: 1 MiB
-    url: https://github.com/SaturnSH2x2/Sonic-CD-11-3DS/releases/download/v1.31/SonicCD_HW.3dsx
+    url: https://github.com/SaturnSH2x2/Sonic-CD-11-3DS/releases/download/v1.32/SonicCD_HW.3dsx
   SonicCD_HW.cia:
     size: 1359808
     size_str: 1 MiB
-    url: https://github.com/SaturnSH2x2/Sonic-CD-11-3DS/releases/download/v1.31/SonicCD_HW.cia
+    url: https://github.com/SaturnSH2x2/Sonic-CD-11-3DS/releases/download/v1.32/SonicCD_HW.cia
   SonicCD_SW.3dsx:
-    size: 1440212
+    size: 1440220
     size_str: 1 MiB
-    url: https://github.com/SaturnSH2x2/Sonic-CD-11-3DS/releases/download/v1.31/SonicCD_SW.3dsx
+    url: https://github.com/SaturnSH2x2/Sonic-CD-11-3DS/releases/download/v1.32/SonicCD_SW.3dsx
   SonicCD_SW.cia:
-    size: 1364416
+    size: 1363904
     size_str: 1 MiB
-    url: https://github.com/SaturnSH2x2/Sonic-CD-11-3DS/releases/download/v1.31/SonicCD_SW.cia
+    url: https://github.com/SaturnSH2x2/Sonic-CD-11-3DS/releases/download/v1.32/SonicCD_SW.cia
 github: SaturnSH2x2/Sonic-CD-11-Decompilation
 icon: https://raw.githubusercontent.com/SaturnSH2x2/Sonic-CD-11-Decompilation/master/resources/48x48.png
 image: https://raw.githubusercontent.com/SaturnSH2x2/Sonic-CD-11-Decompilation/master/resources/banner.png
@@ -54,44 +54,16 @@ source: https://github.com/SaturnSH2x2/Sonic-CD-11-3DS
 systems:
 - 3DS
 title: Sonic CD
-update_notes: '<p>Minor update; basically stuff that should''ve gone into the previous
-  release to begin with.</p>
-
-  <h2>Changes:</h2>
-
-  <h3>All builds:</h3>
+update_notes: '<h2>Changelog</h2>
 
   <ul>
 
-  <li>Fix <code>modconfig.ini</code> not being properly written to; mod selections
-  should no longer be reset on startup/entering the mod menu.</li>
-
-  <li>Fix bug where the music wouldn''t play on the main menu upon switching soundtracks.</li>
-
-  <li>Fix stage-specific sound effects not being properly loaded on stage reloads.</li>
-
-  <li>Console output is now disabled on the bottom screen when the engine isn''t in
-  debug mode.</li>
-
-  <li>The engine now loads separate video files when using the US soundtrack; said
-  files should have the extension <code>.us.ogv</code>. Again, pre-scaled versions
-  can be found <a href="https://gamebanana.com/mods/313570" rel="nofollow">here</a>.</li>
-
-  </ul>
-
-  <h3>HW Build:</h3>
-
-  <ul>
-
-  <li>Fixed the depth value on sprite layers, certain objects should no longer go
-  "into" the background.</li>
-
-  <li>Fixed slight discoloration issues (most noticeable on the title screen).</li>
+  <li>Fix scripts on mobile RSDKs not loading properly, rendering the game unplayable.</li>
 
   </ul>'
-updated: '2021-08-16T18:11:25Z'
-version: v1.31
-version_title: Minor Tweaks and Bugfixes
+updated: '2021-08-20T02:51:47Z'
+version: v1.32
+version_title: Mobile RSDK Hotfix
 ---
 Port of Sonic CD to the 3DS, based on Rubberduckycooly's Sonic CD decompilation.
 
