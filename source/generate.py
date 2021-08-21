@@ -11,6 +11,7 @@ from PIL import Image, ImageDraw
 import qrcode
 import re
 import requests
+from shutil import copyfile
 import sys
 import yaml
 
@@ -634,12 +635,17 @@ for app in source:
 				img.thumbnail((48, 48))
 				img.save(os.path.join("temp", f"{iconIndex}.png"))
 				icons.append(f"{iconIndex}.png")
-				iconIndex += 1
 				if "color" not in app:
 					color = img.copy()
 					color.thumbnail((1, 1))
 					color = color.getpixel((0, 0))
 					app["color"] = "#{:02x}{:02x}{:02x}".format(color[0], color[1], color[2])
+
+			if "icon" in app and app["icon"].endswith(".bmp"):
+				copyfile(os.path.join("temp", f"{iconIndex}.png"), os.path.join("..", "docs", "assets", "images", "icons", f"{webName(app['title'])}.png"))
+				app["icon"] = f"https://db.universal-team.net/assets/images/icons/{webName(app['title'])}.png"
+
+			iconIndex += 1
 
 	# Output website page
 	if "downloads" in app:

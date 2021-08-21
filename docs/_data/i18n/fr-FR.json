@@ -62,8 +62,8 @@
 	"previous": "Précédent",
 	"next": "Suivant",
 	"welcome": "Bienvenue sur Universal-DB!",
-	"home-1": "Ici vous pouvez trouver des listes de homebrews 3DS et DS, régulièrement mises à jour pour vous assurer que vous obtenez les dernières versions. Cliquez sur les liens dans la barre de navigation en haut pour obtenir des listes complètes, ou jetez un coup d'oeil aux dernières mises à jour en bas de cette page!",
+	"home-1": "Ici vous pouvez trouver des listes de homebrews 3DS et DS, régulièrement mises à jour pour vous assurer que vous obtenez toujours les dernières versions. Cliquez sur les liens dans la barre de navigation en haut pour obtenir des listes complètes, ou jetez un coup d'oeil aux dernières mises à jour en bas de cette page!",
 	"home-2": "La majorité des informations sur ce site sont automatiquement recueillies à partir des informations sur le dépôt GitHub de l'application, cependant si vous remarquez des informations incorrectes, veuillez les signaler comme un <a href=\"https://github.com/Universal-Team/db/issues/new\">problème GitHub</a> ou sur notre <a href=\"https://universal-team.net/discord\">serveur Discord</a>. Merci!",
-	"home-3": "Ceci est aussi l'UniStore par défaut pour <a href=\"/3ds/universal-updater\">Universal-Updater</a>, donc si vous souhaitez naviguer et installer des applications depuis Universal-DB directement sur votre 3DS, vous devriez essayer.",
-	"last-updated-apps": "Dernière mise à jour : "
+	"home-3": "Universal-DB est aussi l'UniStore par défaut pour l'<a href=\"/3ds/universal-updater\">Universal-Updater</a>, donc si vous souhaitez rechercher et installer des applications disponibles sur Universal-DB directement sur votre 3DS, vous devriez essayer.",
+	"last-updated-apps": "Dernières mises à jour : "
 }
