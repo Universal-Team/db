@@ -13,7 +13,7 @@ downloads:
     size_str: 156 KiB
     url: https://github.com/Jonatan6/Tic-Tac-DS/releases/download/v3.1/tic-tac-ds.nds
 github: Jonatan6/Tic-Tac-DS
-icon: https://raw.githubusercontent.com/Jonatan6/Tic-Tac-DS/master/icon.bmp
+icon: https://db.universal-team.net/assets/images/icons/tic-tac-ds.png
 image: https://db.universal-team.net/assets/images/images/tic-tac-ds.png
 image_length: 9717
 layout: app

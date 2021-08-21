@@ -13,7 +13,7 @@ downloads:
     size_str: 145 KiB
     url: https://github.com/Universal-Team/Relaunch/releases/download/v4.0.1/Relaunch.7z
 github: Universal-Team/Relaunch
-icon: https://raw.githubusercontent.com/Universal-Team/Relaunch/master/main/icon.bmp
+icon: https://db.universal-team.net/assets/images/icons/relaunch.png
 image: https://raw.githubusercontent.com/Universal-Team/Relaunch/master/logo.png
 image_length: 510792
 layout: app

@@ -13,7 +13,7 @@ downloads:
     size_str: 955 KiB
     url: https://github.com/SuperSaiyajinStackZ/LudoNDS/releases/download/v0.1.0/LudoNDS.nds
 github: SuperSaiyajinStackZ/LudoNDS
-icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/LudoNDS/main/icon.bmp
+icon: https://db.universal-team.net/assets/images/icons/ludonds.png
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/LudoNDS/main/Cover_ReadMe.png
 image_length: 65046
 layout: app

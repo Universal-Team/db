@@ -23,7 +23,7 @@ downloads:
     size_str: 16 KiB
     url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.3/readme.txt
 github: wavemotion-dave/StellaDS
-icon: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/logo.bmp
+icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
 image_length: 10279
 layout: app

@@ -18,7 +18,7 @@ downloads:
     size_str: 1 MiB
     url: https://github.com/Epicpkmn11/NitroHax3DS/releases/download/0.100/NitroHax.dsi
 github: Epicpkmn11/NitroHax3DS
-icon: https://raw.githubusercontent.com/Epicpkmn11/NitroHax3DS/master/icon.bmp
+icon: https://db.universal-team.net/assets/images/icons/nitrohax3ds-usrcheat.dat.png
 image: https://db.universal-team.net/assets/images/images/nitrohax3ds-usrcheat.dat.png
 image_length: 354
 layout: app

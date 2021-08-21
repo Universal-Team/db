@@ -13,7 +13,7 @@ downloads:
     size_str: 102 KiB
     url: http://lolsnes.kuribo64.net/lolsnes.7z
 github: Arisotura/lolSnes
-icon: https://raw.githubusercontent.com/Arisotura/lolSnes/master/lolsnes.bmp
+icon: https://db.universal-team.net/assets/images/icons/lolsnes.png
 image: https://db.universal-team.net/assets/images/images/lolsnes.png
 image_length: 22541
 layout: app

@@ -14,7 +14,7 @@ downloads:
     size_str: 453 KiB
     url: https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/release/nesDS.nds
 github: DS-Homebrew/NesDS
-icon: https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/icon.bmp
+icon: https://db.universal-team.net/assets/images/icons/nesds.png
 image: https://db.universal-team.net/assets/images/images/nesds.png
 image_length: 277
 layout: app

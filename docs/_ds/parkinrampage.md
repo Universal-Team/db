@@ -14,7 +14,7 @@ downloads:
     size_str: 591 KiB
     url: https://github.com/DesperateProgrammer/ParkingRampage/raw/main/ParkingRampage.nds
 github: DesperateProgrammer/ParkingRampage
-icon: https://raw.githubusercontent.com/DesperateProgrammer/ParkingRampage/main/icon.bmp
+icon: https://db.universal-team.net/assets/images/icons/parkinrampage.png
 image: https://raw.githubusercontent.com/DesperateProgrammer/ParkingRampage/main/gfx/title.png
 image_length: 23442
 layout: app

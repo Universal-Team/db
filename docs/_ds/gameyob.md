@@ -13,7 +13,7 @@ downloads:
     size_str: 612 KiB
     url: https://github.com/Drenn1/GameYob/releases/download/v0.5.2/gameyob.zip
 github: Drenn1/GameYob
-icon: https://raw.githubusercontent.com/Drenn1/GameYob/master/platform/ds/icon.bmp
+icon: https://db.universal-team.net/assets/images/icons/gameyob.png
 image: https://db.universal-team.net/assets/images/images/gameyob.png
 image_length: 474
 layout: app

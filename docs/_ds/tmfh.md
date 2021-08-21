@@ -13,7 +13,7 @@ downloads:
     size_str: 111 KiB
     url: https://github.com/JeffRuLz/TMFH/releases/download/v0.7.0/TMFH.0.7.1.zip
 github: JeffRuLz/TMFH
-icon: https://raw.githubusercontent.com/JeffRuLz/TMFH/master/icon.bmp
+icon: https://db.universal-team.net/assets/images/icons/tmfh.png
 image: https://db.universal-team.net/assets/images/images/tmfh.png
 image_length: 401
 layout: app

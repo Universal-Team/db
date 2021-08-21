@@ -13,7 +13,7 @@ downloads:
     size_str: 184 KiB
     url: https://www.chishm.com/NitroHax/NitroHax.zip
 github: chishm/nitrohax
-icon: https://raw.githubusercontent.com/chishm/nitrohax/master/icon.bmp
+icon: https://db.universal-team.net/assets/images/icons/nitrohax.png
 image: https://db.universal-team.net/assets/images/images/nitrohax.png
 image_length: 354
 layout: app

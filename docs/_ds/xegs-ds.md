@@ -19,7 +19,7 @@ downloads:
     size_str: 13 KiB
     url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.6/readme.txt
 github: wavemotion-dave/XEGS-DS
-icon: https://raw.githubusercontent.com/wavemotion-dave/XEGS-DS/main/logo.bmp
+icon: https://db.universal-team.net/assets/images/icons/xegs-ds.png
 image: https://raw.githubusercontent.com/wavemotion-dave/XEGS-DS/main/arm9/gfx/bgTop.png
 image_length: 11641
 layout: app
