@@ -279,7 +279,7 @@ def retroarch(icon_index):
 					"wiki": ""
 				},
 				f"{name}.3dsx": downloadScript(f"{name}.zip", "https://buildbot.libretro.com" + a["href"], None, {f"{name}.zip": [f"{name}.3dsx"]}),
-				f"{name}.cia": downloadScript(f"{name}.zip", "https://buildbot.libretro.com" + a["href"].replace("/3dsx/", "/cia/"), None, {f"{name}.zip": [f"{name}.cia"]}),
+				f"{name}.cia": downloadScript(f"{name}.zip", "https://buildbot.libretro.com" + a["href"].replace("3dsx", "cia"), None, {f"{name}.zip": [f"{name}.cia"]}),
 			})
 
 	# Increment revision if not the same
