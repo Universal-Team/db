@@ -239,6 +239,7 @@ def downloadScript(file, url, message, archive):
 def retroarch(icon_index):
 	print("Generating RetroArch UniStore")
 
+	retroarchOld = None
 	if os.path.exists(os.path.join("..", "docs", "unistore", "retroarch.unistore")):
 		with open(os.path.join("..", "docs", "unistore", "retroarch.unistore"), "r", encoding="utf8") as file:
 			retroarchOld = json.load(file)
