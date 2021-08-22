@@ -11,17 +11,17 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1317376
+    size: 1317888
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.3/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.4/StellaDS.nds
   compatibility.txt:
     size: 25032
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.3/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.4/compatibility.txt
   readme.txt:
-    size: 16986
-    size_str: 16 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.3/readme.txt
+    size: 17619
+    size_str: 17 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.4/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -33,16 +33,18 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p>V4.3 :09-Aug-2021 by wavemotion-dave</p>
+update_notes: '<p>V4.4 :22-Aug-2021 by Dave Bernazzani (wavemotion)</p>
 
   <ul>
 
-  <li>Massive overhaul of the non-bank-switched engine so now the older DS-Lite<br>
+  <li>Minor cleanups across the board. Improved AR cart speed by ~1FPS.</li>
 
-  and DS-Phat will run many games at full speed.</li>
+  <li>Added horizontal stretch - use the Left Shoulder + L/R D-Pad.</li>
+
+  <li>The Y button is now auto-fire.</li>
 
   </ul>'
-updated: '2021-08-10T10:45:47Z'
-version: '4.3'
-version_title: Version 4.3
+updated: '2021-08-22T12:04:25Z'
+version: '4.4'
+version_title: Release 4.4
 ---
