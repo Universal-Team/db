@@ -18,9 +18,9 @@ downloads:
     size_str: 1 MiB
     url: https://github.com/Epicpkmn11/NitroHax3DS/releases/download/0.100/NitroHax.dsi
 github: Epicpkmn11/NitroHax3DS
-icon: https://db.universal-team.net/assets/images/icons/nitrohax3ds-usrcheat-dat.png
-image: https://avatars.githubusercontent.com/u/41608708?v=4
-image_length: 62657
+icon: https://db.universal-team.net/assets/images/icons/nitrohax3ds-usrcheat.dat.png
+image: https://db.universal-team.net/assets/images/images/nitrohax3ds-usrcheat.dat.png
+image_length: 354
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
