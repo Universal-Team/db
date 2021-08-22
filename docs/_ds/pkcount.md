@@ -28,7 +28,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  PKCount.cia: https://db.universal-team.net/assets/images/qr/pkcountcia.png
+  PKCount.cia: https://db.universal-team.net/assets/images/qr/pkcount.cia.png
 screenshots:
 - description: Encounter screen
   url: https://db.universal-team.net/assets/images/screenshots/pkcount/encounter-screen.png

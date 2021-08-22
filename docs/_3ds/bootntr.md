@@ -35,10 +35,10 @@ layout: app
 license: mit
 license_name: MIT License
 qr:
-  BootNTRSelector-FONZD-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-fonzd-bannercia.png
-  BootNTRSelector-Mode3-FONZD-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-mode3-fonzd-bannercia.png
-  BootNTRSelector-Mode3-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-mode3-pablomk7-bannercia.png
-  BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-pablomk7-bannercia.png
+  BootNTRSelector-FONZD-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-fonzd-banner.cia.png
+  BootNTRSelector-Mode3-FONZD-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-mode3-fonzd-banner.cia.png
+  BootNTRSelector-Mode3-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-mode3-pablomk7-banner.cia.png
+  BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-pablomk7-banner.cia.png
 screenshots:
 - description: Auto updater
   url: https://db.universal-team.net/assets/images/screenshots/bootntr/auto-updater.png

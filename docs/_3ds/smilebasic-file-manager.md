@@ -25,7 +25,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  sbfm.cia: https://db.universal-team.net/assets/images/qr/sbfmcia.png
+  sbfm.cia: https://db.universal-team.net/assets/images/qr/sbfm.cia.png
 source: https://github.com/Trinitro21/lpp-3ds
 systems:
 - 3DS

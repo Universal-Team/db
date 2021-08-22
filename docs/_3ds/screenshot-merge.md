@@ -24,7 +24,7 @@ layout: app
 license: mit
 license_name: MIT License
 qr:
-  screenshot-merge1.4.cia: https://db.universal-team.net/assets/images/qr/screenshot-merge14cia.png
+  screenshot-merge1.4.cia: https://db.universal-team.net/assets/images/qr/screenshot-merge1.4.cia.png
 screenshots:
 - description: Merging
   url: https://db.universal-team.net/assets/images/screenshots/screenshot-merge/merging.png

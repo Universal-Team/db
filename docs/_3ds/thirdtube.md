@@ -24,7 +24,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  ThirdTube.cia: https://db.universal-team.net/assets/images/qr/thirdtubecia.png
+  ThirdTube.cia: https://db.universal-team.net/assets/images/qr/thirdtube.cia.png
 screenshots:
 - description: Comments
   url: https://db.universal-team.net/assets/images/screenshots/thirdtube/comments.png

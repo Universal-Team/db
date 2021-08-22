@@ -32,7 +32,7 @@ image: https://raw.githubusercontent.com/vargaviktor/ZeldaROTH/master/resources/
 image_length: 7049
 layout: app
 qr:
-  ZeldaROTH.cia: https://db.universal-team.net/assets/images/qr/zeldarothcia.png
+  ZeldaROTH.cia: https://db.universal-team.net/assets/images/qr/zeldaroth.cia.png
 source: https://github.com/vargaviktor/ZeldaROTH
 systems:
 - 3DS

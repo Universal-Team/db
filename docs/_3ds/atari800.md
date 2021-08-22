@@ -24,7 +24,7 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 qr:
-  atari800.cia: https://db.universal-team.net/assets/images/qr/atari800cia.png
+  atari800.cia: https://db.universal-team.net/assets/images/qr/atari800.cia.png
 source: https://github.com/RandomMan25XX/atari800
 systems:
 - 3DS

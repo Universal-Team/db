@@ -18,7 +18,7 @@ image: https://db.universal-team.net/assets/images/images/homebrew_launcher_dumm
 image_length: 3633
 layout: app
 qr:
-  Homebrew_Launcher.cia: https://db.universal-team.net/assets/images/qr/homebrew_launchercia.png
+  Homebrew_Launcher.cia: https://db.universal-team.net/assets/images/qr/homebrew_launcher.cia.png
 source: https://github.com/mariohackandglitch/homebrew_launcher_dummy
 systems:
 - 3DS

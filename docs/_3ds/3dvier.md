@@ -31,9 +31,9 @@ nightly:
     3DVier.cia:
       url: https://github.com/Universal-Team/extras/raw/master/builds/3DVier/3DVier.cia
   qr:
-    3DVier.cia: https://db.universal-team.net/assets/images/qr/nightly/3dviercia.png
+    3DVier.cia: https://db.universal-team.net/assets/images/qr/nightly/3dvier.cia.png
 qr:
-  3DVier.cia: https://db.universal-team.net/assets/images/qr/3dviercia.png
+  3DVier.cia: https://db.universal-team.net/assets/images/qr/3dvier.cia.png
 screenshots:
 - description: Char selection
   url: https://db.universal-team.net/assets/images/screenshots/3dvier/char-selection.png

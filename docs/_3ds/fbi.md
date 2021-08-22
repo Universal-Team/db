@@ -28,7 +28,7 @@ layout: app
 license: mit
 license_name: MIT License
 qr:
-  FBI.cia: https://db.universal-team.net/assets/images/qr/fbicia.png
+  FBI.cia: https://db.universal-team.net/assets/images/qr/fbi.cia.png
 screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/fbi/main-menu.png

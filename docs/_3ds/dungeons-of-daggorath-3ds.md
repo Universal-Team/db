@@ -24,7 +24,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  3dsdod-1.1.cia: https://db.universal-team.net/assets/images/qr/3dsdod-11cia.png
+  3dsdod-1.1.cia: https://db.universal-team.net/assets/images/qr/3dsdod-1.1.cia.png
 screenshots:
 - description: Gameplay
   url: https://db.universal-team.net/assets/images/screenshots/dungeons-of-daggorath-3ds/gameplay.png

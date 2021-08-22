@@ -25,7 +25,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  JKSM.cia: https://db.universal-team.net/assets/images/qr/jksmcia.png
+  JKSM.cia: https://db.universal-team.net/assets/images/qr/jksm.cia.png
 screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/jksm/main-menu.png

@@ -24,7 +24,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  BCSTM-Player.cia: https://db.universal-team.net/assets/images/qr/bcstm-playercia.png
+  BCSTM-Player.cia: https://db.universal-team.net/assets/images/qr/bcstm-player.cia.png
 screenshots:
 - description: Credits
   url: https://db.universal-team.net/assets/images/screenshots/bcstm-player/credits.png

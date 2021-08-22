@@ -39,10 +39,10 @@ nightly:
     3DEins.cia:
       url: https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.cia
   qr:
-    3DEins.cia: https://db.universal-team.net/assets/images/qr/nightly/3deinscia.png
+    3DEins.cia: https://db.universal-team.net/assets/images/qr/nightly/3deins.cia.png
 qr:
-  3DEins.cia: https://db.universal-team.net/assets/images/qr/3deinscia.png
-  DSEins.nds.cia: https://db.universal-team.net/assets/images/qr/dseinsndscia.png
+  3DEins.cia: https://db.universal-team.net/assets/images/qr/3deins.cia.png
+  DSEins.nds.cia: https://db.universal-team.net/assets/images/qr/dseins.nds.cia.png
 screenshots:
 - description: Char selection
   url: https://db.universal-team.net/assets/images/screenshots/3deins/char-selection.png

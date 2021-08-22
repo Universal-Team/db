@@ -25,7 +25,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  NotifyMii.cia: https://db.universal-team.net/assets/images/qr/notifymiicia.png
+  NotifyMii.cia: https://db.universal-team.net/assets/images/qr/notifymii.cia.png
 source: https://github.com/Ryuzaki-MrL/NotifyMii
 systems:
 - 3DS

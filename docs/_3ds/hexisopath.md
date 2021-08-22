@@ -25,7 +25,7 @@ layout: app
 license: mit
 license_name: MIT License
 qr:
-  HexIsoPath.cia: https://db.universal-team.net/assets/images/qr/hexisopathcia.png
+  HexIsoPath.cia: https://db.universal-team.net/assets/images/qr/hexisopath.cia.png
 source: https://github.com/LiquidFenrir/HexIsoPath
 systems:
 - 3DS

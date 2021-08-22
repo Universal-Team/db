@@ -21,7 +21,7 @@ nightly:
     Universal-Edit.cia:
       url: https://github.com/Universal-Team/extras/raw/master/builds/Universal-Edit/Universal-Edit.cia
   qr:
-    Universal-Edit.cia: https://db.universal-team.net/assets/images/qr/nightly/universal-editcia.png
+    Universal-Edit.cia: https://db.universal-team.net/assets/images/qr/nightly/universal-edit.cia.png
 source: https://github.com/Universal-Team/Universal-Edit
 systems:
 - 3DS

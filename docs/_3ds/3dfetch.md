@@ -19,7 +19,7 @@ image: https://raw.githubusercontent.com/aliceinpalth/3dfetch/master/banner.png
 image_length: 41268
 layout: app
 qr:
-  3dfetch.cia: https://db.universal-team.net/assets/images/qr/3dfetchcia.png
+  3dfetch.cia: https://db.universal-team.net/assets/images/qr/3dfetch.cia.png
 screenshots:
 - description: Main screen
   url: https://db.universal-team.net/assets/images/screenshots/3dfetch/main-screen.png

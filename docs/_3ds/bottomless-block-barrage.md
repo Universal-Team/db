@@ -29,7 +29,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  bottomless-block-barrage.cia: https://db.universal-team.net/assets/images/qr/bottomless-block-barragecia.png
+  bottomless-block-barrage.cia: https://db.universal-team.net/assets/images/qr/bottomless-block-barrage.cia.png
 source: https://github.com/TricksterGuy/bottomless-block-barrage
 systems:
 - 3DS

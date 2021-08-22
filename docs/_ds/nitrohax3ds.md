@@ -24,7 +24,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  NitroHax.cia: https://db.universal-team.net/assets/images/qr/nitrohaxcia.png
+  NitroHax.cia: https://db.universal-team.net/assets/images/qr/nitrohax.cia.png
 source: https://github.com/ahezard/NitroHax3DS
 systems:
 - DS

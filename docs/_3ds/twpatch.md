@@ -17,7 +17,7 @@ image: https://db.universal-team.net/assets/images/images/twpatch.png
 image_length: 25344
 layout: app
 qr:
-  TWPatch.cia: https://db.universal-team.net/assets/images/qr/twpatchcia.png
+  TWPatch.cia: https://db.universal-team.net/assets/images/qr/twpatch.cia.png
 systems:
 - 3DS
 title: TWPatch

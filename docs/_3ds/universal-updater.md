@@ -31,10 +31,10 @@ nightly:
     Universal-Updater.cia:
       url: https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.cia
   qr:
-    Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/nightly/universal-updatercia.png
+    Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/nightly/universal-updater.cia.png
 priority: true
 qr:
-  Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updatercia.png
+  Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater.cia.png
 screenshots:
 - description: Auto update settings
   url: https://db.universal-team.net/assets/images/screenshots/universal-updater/auto-update-settings.png

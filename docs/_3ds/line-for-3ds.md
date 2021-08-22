@@ -34,10 +34,10 @@ image: https://raw.githubusercontent.com/Core-2-Extreme/Line_for_3DS/master/reso
 image_length: 1824
 layout: app
 qr:
-  Line_for_3DS_124mb.cia: https://db.universal-team.net/assets/images/qr/line_for_3ds_124mbcia.png
-  Line_for_3DS_178mb.cia: https://db.universal-team.net/assets/images/qr/line_for_3ds_178mbcia.png
-  Line_for_3DS_64mb.cia: https://db.universal-team.net/assets/images/qr/line_for_3ds_64mbcia.png
-  Line_for_3DS_80mb.cia: https://db.universal-team.net/assets/images/qr/line_for_3ds_80mbcia.png
+  Line_for_3DS_124mb.cia: https://db.universal-team.net/assets/images/qr/line_for_3ds_124mb.cia.png
+  Line_for_3DS_178mb.cia: https://db.universal-team.net/assets/images/qr/line_for_3ds_178mb.cia.png
+  Line_for_3DS_64mb.cia: https://db.universal-team.net/assets/images/qr/line_for_3ds_64mb.cia.png
+  Line_for_3DS_80mb.cia: https://db.universal-team.net/assets/images/qr/line_for_3ds_80mb.cia.png
 script_message: 'Note: You will need to set up your account.
 
   How to set up: https://gbatemp.net/threads/539530'

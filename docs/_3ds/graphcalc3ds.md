@@ -25,7 +25,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  GraphCalc3DS.cia: https://db.universal-team.net/assets/images/qr/graphcalc3dscia.png
+  GraphCalc3DS.cia: https://db.universal-team.net/assets/images/qr/graphcalc3ds.cia.png
 source: https://github.com/flarn2006/GraphCalc3DS
 systems:
 - 3DS

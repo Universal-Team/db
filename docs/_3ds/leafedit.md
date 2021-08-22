@@ -33,9 +33,9 @@ nightly:
     LeafEdit.cia:
       url: https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.cia
   qr:
-    LeafEdit.cia: https://db.universal-team.net/assets/images/qr/nightly/leafeditcia.png
+    LeafEdit.cia: https://db.universal-team.net/assets/images/qr/nightly/leafedit.cia.png
 qr:
-  LeafEdit.cia: https://db.universal-team.net/assets/images/qr/leafeditcia.png
+  LeafEdit.cia: https://db.universal-team.net/assets/images/qr/leafedit.cia.png
 screenshots:
 - description: Acre editor nl
   url: https://db.universal-team.net/assets/images/screenshots/leafedit/acre-editor-nl.png

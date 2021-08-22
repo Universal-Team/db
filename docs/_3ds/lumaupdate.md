@@ -25,7 +25,7 @@ layout: app
 license: wtfpl
 license_name: Do What The F*ck You Want To Public License
 qr:
-  lumaupdater.cia: https://db.universal-team.net/assets/images/qr/lumaupdatercia.png
+  lumaupdater.cia: https://db.universal-team.net/assets/images/qr/lumaupdater.cia.png
 screenshots:
 - description: Release notes
   url: https://db.universal-team.net/assets/images/screenshots/lumaupdate/release-notes.png

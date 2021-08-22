@@ -29,7 +29,7 @@ layout: app
 license: mit
 license_name: MIT License
 qr:
-  Snake2DS.cia: https://db.universal-team.net/assets/images/qr/snake2dscia.png
+  Snake2DS.cia: https://db.universal-team.net/assets/images/qr/snake2ds.cia.png
 source: https://github.com/Jacudibu/Snake2DS
 systems:
 - 3DS

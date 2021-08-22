@@ -27,7 +27,7 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 qr:
-  TWLSaveTool.cia: https://db.universal-team.net/assets/images/qr/twlsavetoolcia.png
+  TWLSaveTool.cia: https://db.universal-team.net/assets/images/qr/twlsavetool.cia.png
 source: https://github.com/TuxSH/TWLSaveTool
 systems:
 - 3DS

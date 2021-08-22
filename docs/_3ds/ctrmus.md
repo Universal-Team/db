@@ -25,7 +25,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  ctrmus.cia: https://db.universal-team.net/assets/images/qr/ctrmuscia.png
+  ctrmus.cia: https://db.universal-team.net/assets/images/qr/ctrmus.cia.png
 source: https://github.com/deltabeard/ctrmus
 systems:
 - 3DS

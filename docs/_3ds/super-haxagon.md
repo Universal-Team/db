@@ -32,7 +32,7 @@ layout: app
 license: mit
 license_name: MIT License
 qr:
-  SuperHaxagon.cia: https://db.universal-team.net/assets/images/qr/superhaxagoncia.png
+  SuperHaxagon.cia: https://db.universal-team.net/assets/images/qr/superhaxagon.cia.png
 screenshots:
 - description: Gameplay 1
   url: https://db.universal-team.net/assets/images/screenshots/super-haxagon/gameplay-1.png
