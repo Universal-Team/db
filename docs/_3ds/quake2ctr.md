@@ -22,7 +22,7 @@ prerelease:
       size_str: 52 MiB
       url: https://github.com/masterfeizz/Quake2CTR/releases/download/v0.2/Quake2CTR.cia
   qr:
-    Quake2CTR.cia: https://db.universal-team.net/assets/images/qr/prerelease/quake2ctr.cia.png
+    Quake2CTR.cia: https://db.universal-team.net/assets/images/qr/prerelease/quake2ctrcia.png
   update_notes: <p>This small update mostly fixes the save loading issues and has
     tweaked input handling.</p>
   update_notes_md: This small update mostly fixes the save loading issues and has

@@ -28,7 +28,7 @@ layout: app
 license: mit
 license_name: MIT License
 qr:
-  SmashAmiiboCheatTool.cia: https://db.universal-team.net/assets/images/qr/smashamiibocheattool.cia.png
+  SmashAmiiboCheatTool.cia: https://db.universal-team.net/assets/images/qr/smashamiibocheattoolcia.png
 source: https://github.com/SUOlivia/Smash-Amiibo-Cheat-Tool
 systems:
 - 3DS

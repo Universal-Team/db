@@ -23,7 +23,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  WiFi.cia: https://db.universal-team.net/assets/images/qr/wifi.cia.png
+  WiFi.cia: https://db.universal-team.net/assets/images/qr/wificia.png
 source: https://github.com/HIDE810/WiFi-Status-Checker
 systems:
 - 3DS

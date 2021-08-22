@@ -29,7 +29,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  RTChanger-Version1.0.cia: https://db.universal-team.net/assets/images/qr/rtchanger-version1.0.cia.png
+  RTChanger-Version1.0.cia: https://db.universal-team.net/assets/images/qr/rtchanger-version10cia.png
 source: https://github.com/Storm-Eagle20/RTChanger
 systems:
 - 3DS

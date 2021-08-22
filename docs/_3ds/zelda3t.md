@@ -23,7 +23,7 @@ image: https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/banner.p
 image_length: 29329
 layout: app
 qr:
-  Zelda3T_v1.0.cia: https://db.universal-team.net/assets/images/qr/zelda3t_v1.0.cia.png
+  Zelda3T_v1.0.cia: https://db.universal-team.net/assets/images/qr/zelda3t_v10cia.png
 source: https://github.com/nop90/Zelda3T
 systems:
 - 3DS

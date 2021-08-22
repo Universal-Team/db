@@ -24,7 +24,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  Yahtzee3DS.cia: https://db.universal-team.net/assets/images/qr/yahtzee3ds.cia.png
+  Yahtzee3DS.cia: https://db.universal-team.net/assets/images/qr/yahtzee3dscia.png
 source: https://github.com/LiquidFenrir/Yahtzee3DS
 systems:
 - 3DS

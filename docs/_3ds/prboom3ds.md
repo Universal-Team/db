@@ -38,7 +38,7 @@ prerelease:
       size_str: 13 KiB
       url: https://github.com/elhobbs/prboom3ds/releases/download/v0.7-alpha/prboom3ds.smdh
   qr:
-    prboom3ds.cia: https://db.universal-team.net/assets/images/qr/prerelease/prboom3ds.cia.png
+    prboom3ds.cia: https://db.universal-team.net/assets/images/qr/prerelease/prboom3dscia.png
   update_notes: '<p>enum fix, enable lto, 3d view change</p>
 
     <p>install:<br>

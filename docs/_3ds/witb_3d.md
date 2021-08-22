@@ -23,7 +23,7 @@ image: https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/res
 image_length: 18849
 layout: app
 qr:
-  WITB_3D.cia: https://db.universal-team.net/assets/images/qr/witb_3d.cia.png
+  WITB_3D.cia: https://db.universal-team.net/assets/images/qr/witb_3dcia.png
 source: https://github.com/Manurocker95/WITB_3D
 systems:
 - 3DS

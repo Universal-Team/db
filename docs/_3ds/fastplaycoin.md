@@ -22,7 +22,7 @@ image: https://raw.githubusercontent.com/CorySanin/FastPlayCoin/master/resource/
 image_length: 19045
 layout: app
 qr:
-  FastPlayCoin.cia: https://db.universal-team.net/assets/images/qr/fastplaycoin.cia.png
+  FastPlayCoin.cia: https://db.universal-team.net/assets/images/qr/fastplaycoincia.png
 source: https://github.com/CorySanin/FastPlayCoin
 systems:
 - 3DS

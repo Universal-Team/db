@@ -23,7 +23,7 @@ image: https://db.universal-team.net/assets/images/images/evolution_sav3d_me.png
 image_length: 4888
 layout: app
 qr:
-  Evolution_Sav3D_Me.cia: https://db.universal-team.net/assets/images/qr/evolution_sav3d_me.cia.png
+  Evolution_Sav3D_Me.cia: https://db.universal-team.net/assets/images/qr/evolution_sav3d_mecia.png
 source: https://github.com/Manurocker95/Evolution_Sav3D_Me
 systems:
 - 3DS

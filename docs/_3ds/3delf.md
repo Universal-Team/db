@@ -24,7 +24,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  3DElf.cia: https://db.universal-team.net/assets/images/qr/3delf.cia.png
+  3DElf.cia: https://db.universal-team.net/assets/images/qr/3delfcia.png
 screenshots:
 - description: Credits de
   url: https://db.universal-team.net/assets/images/screenshots/3delf/credits-de.png

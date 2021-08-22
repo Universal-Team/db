@@ -31,9 +31,9 @@ nightly:
     3DZwei.cia:
       url: https://github.com/Universal-Team/extras/raw/master/builds/3DZwei/3DZwei.cia
   qr:
-    3DZwei.cia: https://db.universal-team.net/assets/images/qr/nightly/3dzwei.cia.png
+    3DZwei.cia: https://db.universal-team.net/assets/images/qr/nightly/3dzweicia.png
 qr:
-  3DZwei.cia: https://db.universal-team.net/assets/images/qr/3dzwei.cia.png
+  3DZwei.cia: https://db.universal-team.net/assets/images/qr/3dzweicia.png
 screenshots:
 - description: Avatar selection1
   url: https://db.universal-team.net/assets/images/screenshots/3dzwei/avatar-selection1.png

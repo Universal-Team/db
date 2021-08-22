@@ -32,8 +32,8 @@ layout: app
 license: other
 license_name: Other
 qr:
-  SonicCD_HW.cia: https://db.universal-team.net/assets/images/qr/soniccd_hw.cia.png
-  SonicCD_SW.cia: https://db.universal-team.net/assets/images/qr/soniccd_sw.cia.png
+  SonicCD_HW.cia: https://db.universal-team.net/assets/images/qr/soniccd_hwcia.png
+  SonicCD_SW.cia: https://db.universal-team.net/assets/images/qr/soniccd_swcia.png
 screenshots:
 - description: Gameplay 1
   url: https://db.universal-team.net/assets/images/screenshots/sonic-cd/gameplay-1.png

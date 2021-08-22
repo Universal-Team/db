@@ -40,8 +40,8 @@ layout: app
 license: mit
 license_name: MIT License
 qr:
-  SFontT.cia: https://db.universal-team.net/assets/images/qr/sfontt.cia.png
-  SFontT80.cia: https://db.universal-team.net/assets/images/qr/sfontt80.cia.png
+  SFontT.cia: https://db.universal-team.net/assets/images/qr/sfonttcia.png
+  SFontT80.cia: https://db.universal-team.net/assets/images/qr/sfontt80cia.png
 source: https://github.com/dnasdw/SharedFontTool
 systems:
 - 3DS

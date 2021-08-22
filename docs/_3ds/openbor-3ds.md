@@ -25,7 +25,7 @@ layout: app
 license: bsd-3-clause
 license_name: BSD 3-Clause "New" or "Revised" License
 qr:
-  OpenBOR.cia: https://db.universal-team.net/assets/images/qr/openbor.cia.png
+  OpenBOR.cia: https://db.universal-team.net/assets/images/qr/openborcia.png
 source: https://github.com/MrHuu/openbor-3ds
 systems:
 - 3DS

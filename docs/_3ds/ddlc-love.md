@@ -25,7 +25,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  DDLC-LOVE-3DS.cia: https://db.universal-team.net/assets/images/qr/ddlc-love-3ds.cia.png
+  DDLC-LOVE-3DS.cia: https://db.universal-team.net/assets/images/qr/ddlc-love-3dscia.png
 screenshots:
 - description: Gameplay
   url: https://db.universal-team.net/assets/images/screenshots/ddlc-love/gameplay.png

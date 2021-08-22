@@ -23,7 +23,7 @@ image: https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/r
 image_length: 28447
 layout: app
 qr:
-  TRekt_3D.cia: https://db.universal-team.net/assets/images/qr/trekt_3d.cia.png
+  TRekt_3D.cia: https://db.universal-team.net/assets/images/qr/trekt_3dcia.png
 source: https://github.com/Manurocker95/TRekt_3D
 systems:
 - 3DS

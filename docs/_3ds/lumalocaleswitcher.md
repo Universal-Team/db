@@ -33,8 +33,8 @@ layout: app
 license: mit
 license_name: MIT License
 qr:
-  LumaLocaleSwitcher-0.04-NIGHTLY.cia: https://db.universal-team.net/assets/images/qr/lumalocaleswitcher-0.04-nightly.cia.png
-  LumaLocaleSwitcher-0.04.cia: https://db.universal-team.net/assets/images/qr/lumalocaleswitcher-0.04.cia.png
+  LumaLocaleSwitcher-0.04-NIGHTLY.cia: https://db.universal-team.net/assets/images/qr/lumalocaleswitcher-004-nightlycia.png
+  LumaLocaleSwitcher-0.04.cia: https://db.universal-team.net/assets/images/qr/lumalocaleswitcher-004cia.png
 source: https://github.com/Possum/LumaLocaleSwitcher
 systems:
 - 3DS

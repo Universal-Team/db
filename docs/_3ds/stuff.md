@@ -18,7 +18,7 @@ image: https://raw.githubusercontent.com/zoogie/Stuff/master/nds-hb-menu/cia/ban
 image_length: 54321
 layout: app
 qr:
-  nds-hb-menu.cia: https://db.universal-team.net/assets/images/qr/nds-hb-menu.cia.png
+  nds-hb-menu.cia: https://db.universal-team.net/assets/images/qr/nds-hb-menucia.png
 source: https://github.com/zoogie/Stuff
 systems:
 - 3DS

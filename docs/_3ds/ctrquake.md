@@ -22,7 +22,7 @@ image: https://db.universal-team.net/assets/images/images/ctrquake.png
 image_length: 3405
 layout: app
 qr:
-  ctrQuake.cia: https://db.universal-team.net/assets/images/qr/ctrquake.cia.png
+  ctrQuake.cia: https://db.universal-team.net/assets/images/qr/ctrquakecia.png
 source: https://github.com/masterfeizz/ctrQuake
 systems:
 - 3DS

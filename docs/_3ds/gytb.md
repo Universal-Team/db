@@ -23,7 +23,7 @@ image: https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resour
 image_length: 2798
 layout: app
 qr:
-  GYTB.cia: https://db.universal-team.net/assets/images/qr/gytb.cia.png
+  GYTB.cia: https://db.universal-team.net/assets/images/qr/gytbcia.png
 screenshots:
 - description: While running
   url: https://db.universal-team.net/assets/images/screenshots/gytb/while-running.png

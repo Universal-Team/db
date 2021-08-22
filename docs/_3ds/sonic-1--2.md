@@ -31,8 +31,8 @@ image: https://raw.githubusercontent.com/JeffRuLz/Sonic-1-2-2013-Decompilation/m
 image_length: 35081
 layout: app
 qr:
-  Sonic1.cia: https://db.universal-team.net/assets/images/qr/sonic1.cia.png
-  Sonic2.cia: https://db.universal-team.net/assets/images/qr/sonic2.cia.png
+  Sonic1.cia: https://db.universal-team.net/assets/images/qr/sonic1cia.png
+  Sonic2.cia: https://db.universal-team.net/assets/images/qr/sonic2cia.png
 screenshots:
 - description: Sonic 1 green hill zone
   url: https://db.universal-team.net/assets/images/screenshots/sonic-1--2/sonic-1-green-hill-zone.png

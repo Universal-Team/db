@@ -28,7 +28,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  DSES.cia: https://db.universal-team.net/assets/images/qr/dses.cia.png
+  DSES.cia: https://db.universal-team.net/assets/images/qr/dsescia.png
 source: https://github.com/noirscape/dses
 systems:
 - 3DS
