@@ -19,7 +19,7 @@ downloads:
     size_str: 6 MiB
     url: https://github.com/Universal-Team/pkmn-chest/releases/download/v2.2/pkmn-chest.nds
 github: Universal-Team/pkmn-chest
-icon: https://db.universal-team.net/assets/images/icons/pkmn-chest.png
+icon: https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/resources/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/resources/icon.png
 image_length: 381
 layout: app

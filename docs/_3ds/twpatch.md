@@ -6,7 +6,7 @@ categories:
 color: '#8d8e9d'
 created: '2019-07-23T19:16:11Z'
 description: DS(i) mode screen filters and patches
-download_page: '''https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/'''
+download_page: https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/
 downloads:
   TWPatch.cia:
     size: 599488
