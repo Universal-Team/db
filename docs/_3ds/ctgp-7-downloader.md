@@ -23,7 +23,7 @@ image: https://db.universal-team.net/assets/images/images/ctgp-7-downloader.png
 image_length: 51688
 layout: app
 qr:
-  CTGP-7_Downloader.cia: https://db.universal-team.net/assets/images/qr/ctgp-7_downloader.cia.png
+  CTGP-7_Downloader.cia: https://db.universal-team.net/assets/images/qr/ctgp-7_downloader-cia.png
 screenshots:
 - description: Character selection
   url: https://db.universal-team.net/assets/images/screenshots/ctgp-7-downloader/character-selection.png

@@ -23,7 +23,7 @@ image: https://raw.githubusercontent.com/joel16/3DShell/master/res/banner.png
 image_length: 10753
 layout: app
 qr:
-  3DShell.cia: https://db.universal-team.net/assets/images/qr/3dshell.cia.png
+  3DShell.cia: https://db.universal-team.net/assets/images/qr/3dshell-cia.png
 screenshots:
 - description: Settings
   url: https://db.universal-team.net/assets/images/screenshots/3dshell/settings.png

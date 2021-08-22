@@ -22,7 +22,7 @@ image: https://raw.githubusercontent.com/Core-2-Extreme/Battery_mark_for_3DS/mas
 image_length: 65150
 layout: app
 qr:
-  Battery_mark_for_3DS.cia: https://db.universal-team.net/assets/images/qr/battery_mark_for_3ds.cia.png
+  Battery_mark_for_3DS.cia: https://db.universal-team.net/assets/images/qr/battery_mark_for_3ds-cia.png
 source: https://github.com/Core-2-Extreme/Battery_mark_for_3DS
 systems:
 - 3DS

@@ -23,7 +23,7 @@ image: https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/re
 image_length: 36405
 layout: app
 qr:
-  ButtonPresser3DS.cia: https://db.universal-team.net/assets/images/qr/buttonpresser3ds.cia.png
+  ButtonPresser3DS.cia: https://db.universal-team.net/assets/images/qr/buttonpresser3ds-cia.png
 source: https://github.com/trainboy2019/ButtonPresser3DS
 systems:
 - 3DS

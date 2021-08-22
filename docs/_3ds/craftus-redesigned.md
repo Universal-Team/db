@@ -24,7 +24,7 @@ layout: app
 license: other
 license_name: Other
 qr:
-  craftus_redesigned.cia: https://db.universal-team.net/assets/images/qr/craftus_redesigned.cia.png
+  craftus_redesigned.cia: https://db.universal-team.net/assets/images/qr/craftus_redesigned-cia.png
 screenshots:
 - description: House
   url: https://db.universal-team.net/assets/images/screenshots/craftus-redesigned/house.png

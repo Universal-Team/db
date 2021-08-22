@@ -23,7 +23,7 @@ image: https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/ban
 image_length: 9099
 layout: app
 qr:
-  UpdateSuppressor.cia: https://db.universal-team.net/assets/images/qr/updatesuppressor.cia.png
+  UpdateSuppressor.cia: https://db.universal-team.net/assets/images/qr/updatesuppressor-cia.png
 source: https://github.com/GiantBlargg/UpdateSuppressor
 systems:
 - 3DS

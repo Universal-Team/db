@@ -18,7 +18,7 @@ image: https://db.universal-team.net/assets/images/images/3dscookieclicker.png
 image_length: 1821
 layout: app
 qr:
-  CookieClicker.cia: https://db.universal-team.net/assets/images/qr/cookieclicker.cia.png
+  CookieClicker.cia: https://db.universal-team.net/assets/images/qr/cookieclicker-cia.png
 source: https://github.com/Creckeryop/3dsCookieClicker
 systems:
 - 3DS

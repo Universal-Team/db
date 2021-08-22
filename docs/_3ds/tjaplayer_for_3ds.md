@@ -22,7 +22,7 @@ image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resourc
 image_length: 17026
 layout: app
 qr:
-  TJAPlayer_for_3DS.cia: https://db.universal-team.net/assets/images/qr/tjaplayer_for_3ds.cia.png
+  TJAPlayer_for_3DS.cia: https://db.universal-team.net/assets/images/qr/tjaplayer_for_3ds-cia.png
 screenshots:
 - description: '1'
   url: https://db.universal-team.net/assets/images/screenshots/tjaplayer_for_3ds/1.png

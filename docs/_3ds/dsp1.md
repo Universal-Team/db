@@ -24,7 +24,7 @@ layout: app
 license: mit
 license_name: MIT License
 qr:
-  DSP1.cia: https://db.universal-team.net/assets/images/qr/dsp1.cia.png
+  DSP1.cia: https://db.universal-team.net/assets/images/qr/dsp1-cia.png
 source: https://github.com/zoogie/DSP1
 systems:
 - 3DS

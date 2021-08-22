@@ -24,7 +24,7 @@ layout: app
 license: mit
 license_name: MIT License
 qr:
-  FriendMii.cia: https://db.universal-team.net/assets/images/qr/friendmii.cia.png
+  FriendMii.cia: https://db.universal-team.net/assets/images/qr/friendmii-cia.png
 source: https://github.com/joel16/FriendMii
 systems:
 - 3DS

@@ -26,7 +26,7 @@ layout: app
 license: mit
 license_name: MIT License
 qr:
-  SavvyManager.cia: https://db.universal-team.net/assets/images/qr/savvymanager.cia.png
+  SavvyManager.cia: https://db.universal-team.net/assets/images/qr/savvymanager-cia.png
 screenshots:
 - description: Character change menu
   url: https://db.universal-team.net/assets/images/screenshots/savvymanager/character-change-menu.png

@@ -18,7 +18,7 @@ image: https://raw.githubusercontent.com/SaturnSH2x2/PayloadSpinner3DS/master/as
 image_length: 5392
 layout: app
 qr:
-  PayloadSpinner3DS.cia: https://db.universal-team.net/assets/images/qr/payloadspinner3ds.cia.png
+  PayloadSpinner3DS.cia: https://db.universal-team.net/assets/images/qr/payloadspinner3ds-cia.png
 source: https://github.com/SaturnSH2x2/PayloadSpinner3DS
 systems:
 - 3DS

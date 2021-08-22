@@ -25,7 +25,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  LeafEdit-Pattern-Editor.cia: https://db.universal-team.net/assets/images/qr/leafedit-pattern-editor.cia.png
+  LeafEdit-Pattern-Editor.cia: https://db.universal-team.net/assets/images/qr/leafedit-pattern-editor-cia.png
 screenshots:
 - description: Color group
   url: https://db.universal-team.net/assets/images/screenshots/leafedit-pattern-editor/color-group.png

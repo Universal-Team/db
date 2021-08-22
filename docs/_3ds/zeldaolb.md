@@ -23,7 +23,7 @@ image: https://raw.githubusercontent.com/nop90/ZeldaOLB/master/resources/banner.
 image_length: 23811
 layout: app
 qr:
-  ZeldaOLB_v1.1.cia: https://db.universal-team.net/assets/images/qr/zeldaolb_v1.1.cia.png
+  ZeldaOLB_v1.1.cia: https://db.universal-team.net/assets/images/qr/zeldaolb_v1-1-cia.png
 source: https://github.com/nop90/ZeldaOLB
 systems:
 - 3DS

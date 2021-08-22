@@ -25,7 +25,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  ctroller.cia: https://db.universal-team.net/assets/images/qr/ctroller.cia.png
+  ctroller.cia: https://db.universal-team.net/assets/images/qr/ctroller-cia.png
 source: https://github.com/phijor/ctroller
 systems:
 - 3DS

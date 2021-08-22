@@ -36,8 +36,8 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  ftpd-classic.cia: https://db.universal-team.net/assets/images/qr/ftpd-classic.cia.png
-  ftpd.cia: https://db.universal-team.net/assets/images/qr/ftpd.cia.png
+  ftpd-classic.cia: https://db.universal-team.net/assets/images/qr/ftpd-classic-cia.png
+  ftpd.cia: https://db.universal-team.net/assets/images/qr/ftpd-cia.png
 screenshots:
 - description: Classic
   url: https://db.universal-team.net/assets/images/screenshots/ftpd/classic.png

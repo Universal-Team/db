@@ -25,7 +25,7 @@ layout: app
 license: mit
 license_name: MIT License
 qr:
-  CTRXplorer.cia: https://db.universal-team.net/assets/images/qr/ctrxplorer.cia.png
+  CTRXplorer.cia: https://db.universal-team.net/assets/images/qr/ctrxplorer-cia.png
 source: https://github.com/d0k3/CTRXplorer
 systems:
 - 3DS

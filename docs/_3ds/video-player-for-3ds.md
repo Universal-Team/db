@@ -22,7 +22,7 @@ image: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/mai
 image_length: 12768
 layout: app
 qr:
-  Video_player_for_3DS.cia: https://db.universal-team.net/assets/images/qr/video_player_for_3ds.cia.png
+  Video_player_for_3DS.cia: https://db.universal-team.net/assets/images/qr/video_player_for_3ds-cia.png
 screenshots:
 - description: Big buck bunny
   url: https://db.universal-team.net/assets/images/screenshots/video-player-for-3ds/big-buck-bunny.png

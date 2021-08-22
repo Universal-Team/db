@@ -22,8 +22,8 @@ image: https://db.universal-team.net/assets/images/images/ravimid.png
 image_length: 905
 layout: app
 qr:
-  ravimid.cia: https://db.universal-team.net/assets/images/qr/ravimid.cia.png
-  ravimid_deluxe.cia: https://db.universal-team.net/assets/images/qr/ravimid_deluxe.cia.png
+  ravimid.cia: https://db.universal-team.net/assets/images/qr/ravimid-cia.png
+  ravimid_deluxe.cia: https://db.universal-team.net/assets/images/qr/ravimid_deluxe-cia.png
 source: https://github.com/Hoksy/ravimid
 systems:
 - 3DS

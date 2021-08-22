@@ -24,7 +24,7 @@ layout: app
 license: other
 license_name: Other
 qr:
-  Multidownload.cia: https://db.universal-team.net/assets/images/qr/multidownload.cia.png
+  Multidownload.cia: https://db.universal-team.net/assets/images/qr/multidownload-cia.png
 source: https://github.com/hax0kartik/Multidownload
 systems:
 - 3DS

@@ -18,7 +18,7 @@ image: https://raw.githubusercontent.com/MateoThePro/Celeste-Classic-3DS/main/ce
 image_length: 17439
 layout: app
 qr:
-  CelesteClassic_v1_1_homebrew.cia: https://db.universal-team.net/assets/images/qr/celesteclassic_v1_1_homebrew.cia.png
+  CelesteClassic_v1_1_homebrew.cia: https://db.universal-team.net/assets/images/qr/celesteclassic_v1_1_homebrew-cia.png
 screenshots:
 - description: Gameplay
   url: https://db.universal-team.net/assets/images/screenshots/celeste-classic/gameplay.png

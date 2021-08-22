@@ -18,7 +18,7 @@ image: https://db.universal-team.net/assets/images/images/mcu-bricker.png
 image_length: 6151
 layout: app
 qr:
-  RGB.cia: https://db.universal-team.net/assets/images/qr/rgb.cia.png
+  RGB.cia: https://db.universal-team.net/assets/images/qr/rgb-cia.png
 source: https://github.com/MechanicalDragon0687/MCU_Bricker_tinydb
 systems:
 - 3DS
