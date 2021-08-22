@@ -236,6 +236,59 @@ def downloadScript(file, url, message, archive):
 
 	return script
 
+def retroarch(icon_index):
+	print("Generating RetroArch UniStore")
+
+	if os.path.exists(os.path.join("..", "docs", "unistore", "retroarch.unistore")):
+		with open(os.path.join("..", "docs", "unistore", "retroarch.unistore"), "r", encoding="utf8") as file:
+			retroarchOld = json.load(file)
+
+	retroarch = {
+		"storeInfo": {
+			"title": "RetroArch Cores",
+			"author": "Libretro",
+			"url": "https://db.universal-team.net/unistore/retroarch.unistore",
+			"file": "retroarch.unistore",
+			"sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
+			"sheet": "universal-db.t3x",
+			"description": "RetroArch cores",
+			"version": 3,
+			"revision": retroarchOld["storeInfo"]["revision"] if retroarchOld else 0
+		},
+		"storeContent": [],
+	}
+
+	r = requests.get("https://buildbot.libretro.com/nightly/nintendo/3ds/latest/3dsx/")
+	soup = BeautifulSoup(r.text, "html.parser")
+	for a in soup.find_all("a"):
+		if a["href"].startswith("/nightly/nintendo/3ds/latest/"):
+			name = re.findall(r"3dsx/(.*)\.3dsx", a["href"])[0]
+			retroarch["storeContent"].append({
+				"info": {
+					"title": ucs2Name(name),
+					"version": "nightly",
+					"author": "libretro",
+					"category": ["emulator"],
+					"console": ["3ds"],
+					"icon_index": icon_index,
+					"description": "",
+					"releasenotes": "",
+					"screenshots": [],
+					"license": "gpl-3.0",
+					"wiki": ""
+				},
+				f"{name}.3dsx": downloadScript(f"{name}.zip", "https://buildbot.libretro.com" + a["href"], None, {f"{name}.zip": [f"{name}.3dsx"]}),
+				f"{name}.cia": downloadScript(f"{name}.zip", "https://buildbot.libretro.com" + a["href"].replace("/3dsx/", "/cia/"), None, {f"{name}.zip": [f"{name}.cia"]}),
+			})
+
+	# Increment revision if not the same
+	if retroarch != retroarchOld:
+		retroarch["storeInfo"]["revision"] += 1
+
+	# Write unistore to file
+	with open(os.path.join("..", "docs", "unistore", "retroarch.unistore"), "w", encoding="utf8") as file:
+		file.write(json.dumps(retroarch, sort_keys=True, ensure_ascii=False))
+
 # Read json
 with open("source.json", "r", encoding="utf8") as file:
 	source = json.load(file)
@@ -541,6 +594,7 @@ for app in source:
 				for item in app["downloads"]:
 					if(type(app["downloads"][item]["url"]) == str):
 						app["downloads"][item]["url"] = eval(app["downloads"][item]["url"])
+		if "eval_scripts" in app and app["eval_scripts"]:
 			if "scripts" in app:
 				for script in app["scripts"]:
 					for function in app["scripts"][script]:
@@ -813,6 +867,10 @@ for app in source:
 							"script": downloadScript(file, app["nightly"]["downloads"][file]["url"], app["script_message"] if "script_message" in app else None, app["archive"] if "archive" in app else None),
 							"size": byteCount(app["nightly"]["downloads"][file]["size"]) if "size" in app["nightly"]["downloads"][file] else "",
 						}
+
+		if app["title"] == "RetroArch":
+			uni["info"]["description"] += "\n\nCores must be downloaded from their separate UniStore, which can be added in settings."
+			retroarch(uni["info"]["icon_index"])
 
 		unistore["storeContent"].append(uni)
 

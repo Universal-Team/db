@@ -6005,94 +6005,96 @@
 				"url": "f\"https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds/RetroArch_cia.7z\""
 			}
 		},
-		"scripts": {
-			"[3dsx] RetroArch": [
-				{
-					"type": "promptMessage",
-					"message": "Warning! This may crash when extracting!\nWhen using Universal-Updater from\n3DSX it may be more stable though.",
-					"count": 1000
+		"nightly": {
+			"download_page": "https://buildbot.libretro.com/nightly/nintendo/3ds/",
+			"downloads": {
+				"RetroArch_cia.7x": {
+					"url": "https://buildbot.libretro.com/nightly/nintendo/3ds/RetroArch_cia.7z"
 				},
+				"RetroArch_3dsx.7z": {
+					"url": "https://buildbot.libretro.com/nightly/nintendo/3ds/RetroArch_3dsx.7z"
+				}
+			}
+		},
+		"scripts": {
+			"Core info files": [
 				{
 					"type": "downloadFile",
-					"file": "f\"https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds/RetroArch_3dsx.7z\"",
-					"output": "/RetroArch_3dsx.7z",
-					"message": "Downloading RetroArch_3dsx.7z..."
+					"file": "https://buildbot.libretro.com/assets/frontend/info.zip",
+					"output": "/info.zip",
+					"message": "Downloading info.zip..."
 				},
 				{
 					"type": "extractFile",
-					"file": "/RetroArch_3dsx.7z",
-					"input": "3dsx/3ds/RetroArch/RetroArch.3dsx",
-					"output": "%3DSX%/RetroArch.3dsx",
-					"message": "Extracting RetroArch.3dsx..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/RetroArch_3dsx.7z",
-					"input": "3dsx/3ds/RetroArch/RetroArch.smdh",
-					"output": "/3ds/RetroArch/RetroArch.smdh",
-					"message": "Extracting RetroArch.smdh..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/RetroArch_3dsx.7z",
-					"input": "retroarch",
-					"output": "/retroarch",
-					"message": "Extracting RetroArch..."
+					"file": "/info.zip",
+					"input": "",
+					"output": "retroarch/media/",
+					"message": "Extracting info.zip..."
 				},
 				{
 					"type": "deleteFile",
-					"file": "/RetroArch_3dsx.7z",
-					"message": "Deleting RetroArch_3dsx.7z..."
-				},
-				{
-					"type": "promptMessage",
-					"message": "All cores have been extracted to sdmc:/retroarch/cores/\nYou may want to move some to another folder\n(ex. \"cores-unused\") to speed up loading."
+					"file": "/info.zip",
+					"message": "Deleting info.zip..."
 				}
 			],
-			"[cia] RetroArch": [
-				{
-					"type": "promptMessage",
-					"message": "Warning! This may crash when extracting!\nWhen using Universal-Updater from\n3DSX it may be more stable though.",
-					"count": 1000
-				},
+			"[optional] Assets": [
 				{
 					"type": "downloadFile",
-					"file": "f\"https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds/RetroArch_cia.7z\"",
-					"output": "/RetroArch_cia.7z",
-					"message": "Downloading RetroArch_cia.7z..."
+					"file": "https://buildbot.libretro.com/assets/frontend/assets.zip",
+					"output": "/assets.zip",
+					"message": "Downloading assets.zip..."
 				},
 				{
 					"type": "extractFile",
-					"file": "/RetroArch_cia.7z",
-					"input": "cia/retroarch_3ds.cia",
-					"output": "/retroarch_3ds.cia",
-					"message": "Extracting retroarch_3ds.cia..."
+					"file": "/assets.zip",
+					"input": "",
+					"output": "retroarch/media/",
+					"message": "Extracting assets.zip..."
 				},
 				{
-					"type": "installCia",
-					"file": "/retroarch_3ds.cia",
-					"message": "Installing retroarch_3ds.cia"
+					"type": "deleteFile",
+					"file": "/overlays.zip",
+					"message": "Deleting overlays.zip..."
+				}
+			],
+			"[optional] Overlays": [
+				{
+					"type": "downloadFile",
+					"file": "https://buildbot.libretro.com/assets/frontend/overlays.zip",
+					"output": "/overlays.zip",
+					"message": "Downloading overlays.zip..."
 				},
 				{
 					"type": "extractFile",
-					"file": "/RetroArch_cia.7z",
-					"input": "retroarch",
-					"output": "/retroarch",
-					"message": "Extracting RetroArch..."
+					"file": "/overlays.zip",
+					"input": "",
+					"output": "retroarch/overlays/",
+					"message": "Extracting overlays.zip..."
 				},
 				{
 					"type": "deleteFile",
-					"file": "/retroarch_3ds.cia",
-					"message": "Deleting retroarch_3ds.cia..."
+					"file": "/overlays.zip",
+					"message": "Deleting overlays.zip..."
+				}
+			],
+			"[optional] Database files": [
+				{
+					"type": "downloadFile",
+					"file": "https://buildbot.libretro.com/assets/frontend/database-rdb.zip",
+					"output": "/database-rdb.zip",
+					"message": "Downloading database-rdb.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/database-rdb.zip",
+					"input": "",
+					"output": "retroarch/database/rdb/",
+					"message": "Extracting database-rdb.zip..."
 				},
 				{
 					"type": "deleteFile",
-					"file": "/RetroArch_cia.7z",
-					"message": "Deleting RetroArch_cia.7z..."
-				},
-				{
-					"type": "promptMessage",
-					"message": "All cores have been extracted to sdmc:/retroarch/cores/\nInstall the ones you want with FBI."
+					"file": "/database-rdb.zip",
+					"message": "Deleting database-rdb.zip..."
 				}
 			]
 		}
