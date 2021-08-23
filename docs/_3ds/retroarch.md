@@ -7,16 +7,16 @@ color: '#484848'
 created: '2010-05-27T14:47:40Z'
 description: Cross-platform, sophisticated frontend for the libretro API. Licensed
   GPLv3.
-download_page: https://buildbot.libretro.com/stable/1.9.7/nintendo/3ds
+download_page: https://buildbot.libretro.com/stable/1.9.8/nintendo/3ds
 downloads:
   RetroArch_3dsx.7z:
-    size: 72372386
+    size: 72548706
     size_str: 69 MiB
-    url: https://buildbot.libretro.com/stable/1.9.7/nintendo/3ds/RetroArch_3dsx.7z
+    url: https://buildbot.libretro.com/stable/1.9.8/nintendo/3ds/RetroArch_3dsx.7z
   RetroArch_cia.7z:
-    size: 73020772
+    size: 73222446
     size_str: 69 MiB
-    url: https://buildbot.libretro.com/stable/1.9.7/nintendo/3ds/RetroArch_cia.7z
+    url: https://buildbot.libretro.com/stable/1.9.8/nintendo/3ds/RetroArch_cia.7z
 eval_downloads: true
 eval_notes_md: true
 github: libretro/RetroArch
@@ -26,137 +26,155 @@ image_length: 3154
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+nightly:
+  download_page: https://buildbot.libretro.com/nightly/nintendo/3ds/
+  downloads:
+    RetroArch_3dsx.7z:
+      url: https://buildbot.libretro.com/nightly/nintendo/3ds/RetroArch_3dsx.7z
+    RetroArch_cia.7x:
+      url: https://buildbot.libretro.com/nightly/nintendo/3ds/RetroArch_cia.7z
 source: https://github.com/libretro/RetroArch
 systems:
 - 3DS
 title: RetroArch
 update_notes: '<ul>
 
-  <li>3DS: Add unique ID''s</li>
+  <li>AUDIO/WINDOWS/WASAPI: Stop deactivating audio on fast forward</li>
 
-  <li>CRT/SWITCHRES: Fixed some Monitor index bugs ad updated to the latest SR2</li>
+  <li>CHEEVOS: Hide challenge indicators when resetting</li>
 
-  <li>CRT/SWITCHRES: Fixed monitor index corruption on Windows and added correct fractal
-  scaling. Only used when required</li>
+  <li>CHEEVOS: Support for more than 64 memory regions</li>
 
-  <li>CRT/SWITCHRES: Updated log defines to match SR upstream.</li>
+  <li>CHEEVOS: Automatically retry ''http error code -1''</li>
 
-  <li>CRT/SWITCHRES: Added new SR_CONFIG_PATHS for non Windows and Linux systems.<br>
+  <li>CONTENT INFORMATION: Show content info label+path rows always</li>
 
-  Not that SR works on them but to fix RA compile issues</li>
+  <li>CORE OPTIONS: Core option categories implemented</li>
 
-  <li>CRT/SWITCHRES: Updated SR2 code base to latest. Added supprt for windows monitor
-  indexing. Fixed monitor index bug where index 1 was not being used correctly and
-  "auto" was not being sent.</li>
+  <li>CORE OPTIONS: Add option to disable core option categories</li>
 
-  <li>CRT/SWITCHRES: Updated swithres for x86 windows fix</li>
+  <li>D3D10/11/12: Fix gfx_display_draw_texture - fixes OSK (On-Screen Keyboard) issues</li>
 
-  <li>CRT/SWITCHRES: fixed SR2 auto issue</li>
+  <li>DATABASE: Fix heap-buffer-overflow when fetching CRC values</li>
 
-  <li>CRT/SWITCHRES: Fixed auto monitor bug</li>
+  <li>DATABASE/EXPLORE: Fix CRC32 reading in explore menu</li>
 
-  <li>CRT/SWITCHRES: Fixed monitor index corruption on Windows</li>
+  <li>DATABASE/LIBRETRODB: Fix writing of numerical values</li>
 
-  <li>CRT/SWITCHRES: Fixed buffer size bug</li>
+  <li>DATABASE/LIBRETRODB: Fix libretro-db loading on big endian platforms</li>
 
-  <li>CRT/SWITCHRES: Added correct fractal scalling. only used when required.</li>
+  <li>DUMMY CORE: Skip state_manager_event_{deinit/init} when core type is dummy,
+  should skip warning spam ''Implementation uses threaded audio. Cannot use rewind..''
+  when using rewind</li>
 
-  <li>CORE INFO: Automatically disable core info cache when core info directory is
-  read-only</li>
+  <li>INPUT/UDEV: Limit udev device scan to subsystem ''input''</li>
 
-  <li>EMSCRIPTEN: add MAME2003 / MAME2003-plus to web.libretro</li>
+  <li>INPUT/SDL2/WINDOWS: Fix keyboard event keycodes</li>
 
-  <li>INPUT/UDEV: udev fixes add pointer pressed to pointer device to allow udev users
-  to access this device</li>
+  <li>INPUT/WAYLAND: Fixes a bug where the first player''s mouse, pointer, and lightgun
+  are echoed to the other ports. Now, those other ports correctly report zero. In
+  the future support for multiple mouselike devices will need to be added, which is
+  a bigger project</li>
 
-  <li>LIBNX/SWITCH: Enable 7zip support</li>
+  <li>INPUT/WAYLAND: The driver now respects keyboard_mapping_blocked</li>
 
-  <li>LINUX/XDG: Prevent xdg-screensaver''s "Protocol error" messages</li>
+  <li>INPUT/WAYLAND: When possible, deprecated lightgun defines are replaced with
+  the new ones. The coordinates are still using the old relative callbacks</li>
+
+  <li>INPUT/WINRAW: Trigger joypad driver reinit on DEVICECHANGE - avoids fullscreen
+  toggle</li>
+
+  <li>INPUT/WINRAW: Alt sticky fix</li>
+
+  <li>INPUT/WINRAW: Prevent Alt getting stuck when Alt-Tabbing</li>
+
+  <li>INPUT/WINRAW: Add pointer status</li>
+
+  <li>INPUT/WINRAW: Add missing analog keybinds</li>
+
+  <li>LIBNX/SWITCH: Fix poll missing for controller 2-8</li>
+
+  <li>LIBNX/SWITCH: Fix layout not applied correctly and hangs when splitting joycons</li>
+
+  <li>LIBRETRO: Core options category API implemented</li>
+
+  <li>LIBRETRO: Fix RETRO_ENVIRONMENT_SET_FASTFORWARDING_OVERRIDE callback when runahead
+  is enabled</li>
+
+  <li>LIBRETRO: Add environment callback for enabling core option menu visibility
+  updates without toggling Quick Menu</li>
+
+  <li>LOGGING: Starting logging and verbose mode before first config load</li>
+
+  <li>LINUX: In some Linux Desktop Environments, like Budgie, task bar feature is
+  unable to pin applications. With StartupWMClass= present in .desktop file, it is
+  possible to pin the application</li>
 
   <li>LOCALIZATION: Fetch translations from Crowdin</li>
 
-  <li>LOCALIZATION: Add missing languages for the first startup</li>
+  <li>MENU: Relocate ''Manage Playlists'' to top</li>
 
-  <li>MENU/XMB/WIDGETS: Add workaround for FPU bug that breaks scale factor comparisons
-  on certain platforms (fixes XMB thumbnails on 32bit Linux/Windows)</li>
+  <li>MENU: Fullscreen resolution width/height settings no longer require ''advanced
+  settings''</li>
 
-  <li>MENU/RGUI: Enable fullscreen thumbnail toggle using RetroPad ''start'' button</li>
+  <li>MENU/REFRESH RATE: Fix double notifications with refresh rate settings</li>
 
-  <li>MENU/RGUI: Fix sublabel length when menu clock is disabled</li>
+  <li>MENU/OZONE: Ensure the existence of values used in selection calculation</li>
 
-  <li>NETWORK/HTTP: Fix HTTP progress indication for large files on 32-bit systems</li>
+  <li>MENU/OZONE/VULKAN: Casting to unsigned caused an integer overflow and after
+  float promotion would lead to ''x'' being a garbage value, leading to problems when
+  this value was passed to vkCmdSetViewport. This stops Vulkan validation layers from
+  complaining about it</li>
 
-  <li>NETWORK/NATT: implement natt fix from void()</li>
+  <li>METAL: Fixed font driver memory leaks</li>
 
-  <li>OPENDINGUX: Fix display when cores ''drop'' frames</li>
+  <li>MOUSE: Change default mouse index to port index</li>
 
-  <li>OPENDINGUX BETA: Use ALSA audio driver by default</li>
+  <li>MOUSE: Friendly names for mice where available</li>
 
-  <li>OPENDINGUX BETA: Fix IPU scaling when running 256x224 (SNES/Genesis) content</li>
+  <li>OSX: Fix some memory leaks</li>
 
-  <li>PATHS: Fix garbled path string</li>
+  <li>OSX: Fix controller duplication bug</li>
 
-  <li>PS2: Implement proper ps2_font driver instead of using the font driver from
-  gskit</li>
+  <li>PS2: Implement alpha for the video driver</li>
 
-  <li>PS2: Use BDM for increasing up USB stability</li>
+  <li>PS2: Aspect ratio handling</li>
 
-  <li>PS3: First basic RSX driver for PSL1GHT</li>
+  <li>RETROFW: Initial port</li>
 
-  <li>RS90: Initial port</li>
+  <li>UWP/XBOX: Enable Explore tab by default - seems to work fine</li>
 
-  <li>RS90: Fix offset of OSD text</li>
+  <li>UWP/XBOX: Fix startup issues with latest Xbox Dashboard updates - ANGLE cores
+  still show up wrong</li>
 
-  <li>RS90: Disable menu clock by default</li>
+  <li>UWP/XBOX: fix issue where files where opened as OPENALWAYS instead of OPENEXISTING
+  this fixes beetle cores</li>
 
-  <li>RS90: Hide ''Bilinear Filtering'' video option</li>
+  <li>UWP/XBOX: fix issue where filesizes where not returned properly, this fixes
+  loading arcade dat files</li>
 
-  <li>RS90: Move appdata (retroarch) base directory to external microsd card</li>
+  <li>UWP/TRANSLATION: Enabled translation services for both UWP MSVC2017 and 2019.
+  No TTS speech yet.</li>
 
-  <li>RS90: Add optional approximate ''semi-linear'' scaling filter</li>
+  <li>VIDEO: Fix refresh rate 59Hz rounding</li>
 
-  <li>SHADERS: Max Shader Parameters increased to 1024</li>
+  <li>WINDOWS: Remember original refresh rate</li>
 
-  <li>VIDEO: Add ''Integer Scale Overlay'' - Force integer scaling to round up to
-  the next larger integer instead of rounding down</li>
+  <li>WINDOWS/VULKAN: Refresh rate fixes + cleanups</li>
 
-  <li>VIDEO: New ''Full'' aspect ratio added. This aspect ratio is useful when used
-  with a shader which has a border in it. The aspect ratio is set to the full window
-  area, so that the viewport spans the whole viewport. When using a border type shader
-  like the Mega Bezel this allows the graphics to span the whole window regardless
-  of the user''s monitor aspect ratio</li>
+  <li>WIIU: Fix L3/R3 buttons</li>
 
-  <li>VITA: Wrong flags for not piglet version</li>
+  <li>WIIU: Compress RPX libretro cores</li>
 
-  <li>UNIX: Correct backlight max_brightness path</li>
+  <li>WIIU: Add ICInvalidateRange (necessary for JITs)</li>
 
-  <li>UWP/XBOX: Default to Direct3D11 driver on UWP builds</li>
+  <li>WIIU: Slight filesystem optimisation</li>
 
-  <li>UWP/XBOX: Do not use windowed mode on UWP/Xbox by default, set default resolution
-  to 1920x1080 by default. Should fix display issues with Dolphin/PCSX2 on Xbox</li>
-
-  <li>WIIU: Fix inputs breaking when connecting/disconnecting remotes</li>
-
-  <li>WIIU: Input - ignore some bogus KPAD results</li>
-
-  <li>WIIU: Font rendering fixes - render font lines with correct spacing, and only
-  sample alpha channel when rendering fonts</li>
-
-  <li>WIIU/NETWORK: Network speed optimisations - WINSCALE, TCP sACK, large buffers</li>
-
-  <li>WIIU/LIBFAT: Increase cache size on WiiU</li>
-
-  <li>WIIU/FILE IO: Filesystem optimisations - add fast path for already aligned buffers</li>
-
-  <li>WIIU/FILE IO: Use 128K vbufs for WiiU - we have loads of RAM and large vbufs
-  are very beneficial</li>
-
-  <li>WIIU/MENU/OZONE: Fix Ozone rendering error (scissor fix)</li>
-
-  <li>WIIU/MENU/OZONE: Use Ozone icons instead of XMB Monochrome</li>
+  <li>WIIU: Add option for running without core info (emscripten-style)</li>
 
   </ul>'
-updated: '2021-07-25T06:00:06Z'
-version: v1.9.7
+updated: '2021-08-22T19:01:25Z'
+version: v1.9.8
+version_title: v1.9.8
 website: http://www.libretro.com
 ---
