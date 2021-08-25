@@ -30,6 +30,8 @@ icon: https://raw.githubusercontent.com/JeffRuLz/Sonic-1-2-2013-Decompilation/ma
 image: https://raw.githubusercontent.com/JeffRuLz/Sonic-1-2-2013-Decompilation/main/Sonic1Decomp.3DS/banner/banner.png
 image_length: 35081
 layout: app
+license: other
+license_name: Other
 qr:
   Sonic1.cia: https://db.universal-team.net/assets/images/qr/sonic1-cia.png
   Sonic2.cia: https://db.universal-team.net/assets/images/qr/sonic2-cia.png
