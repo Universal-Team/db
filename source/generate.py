@@ -327,8 +327,7 @@ oldData = None
 with open(os.path.join("..", "docs", "data", "full.json"), "r", encoding="utf8") as file:
 	oldData = json.load(file)
 
-# Icons array
-icons = []
+# Icon count
 iconIndex = 0
 
 # GitHub name cache
@@ -688,7 +687,6 @@ for app in source:
 				with Image.open(file) as img:
 					imgPal = None
 					if img.mode == "P":
-						imgPal = img
 						pal = img.palette.palette
 						img = img.convert("RGBA")
 						data = numpy.array(img)
@@ -701,20 +699,16 @@ for app in source:
 
 					img.thumbnail((48, 48))
 					img.save(os.path.join("temp", "48", f"{iconIndex}.png"))
-					if imgPal and imgPal.size == (32, 32) and ("icon" in app and app["icon"].endswith(".bmp")):
-						with open(os.path.join("temp", "32", f"{iconIndex}.bmp"), "wb") as bmp:
-							file.seek(0)
-							bmp.write(file.read())
-						icons.append(f"{iconIndex}.bmp")
-					elif imgPal:
-						imgPal.thumbnail((32, 32))
-						imgPal.save(os.path.join("temp", "32", f"{iconIndex}.png"))
-						icons.append(f"{iconIndex}.png")
-					else:
-						imgCopy = img.copy()
-						imgCopy.thumbnail((32, 32))
-						imgCopy.save(os.path.join("temp", "32", f"{iconIndex}.png"))
-						icons.append(f"{iconIndex}.png")
+
+					imgDS = img.copy()
+					imgDS.thumbnail((32, 32))
+					data = numpy.array(imgDS)
+					r, g, b, a = data.T
+					transparent = a < 0xFF
+					data[...][transparent.T] = (0xFF, 0, 0xFF, 0xFF)
+					imgDS = Image.fromarray(data)
+					imgDS = imgDS.quantize()
+					imgDS.save(os.path.join("temp", "32", f"{iconIndex}.png"))
 
 					if "color" not in app:
 						color = img.copy()
@@ -911,15 +905,15 @@ if not priorityOnlyMode:
 	# Make tdx
 	with open(os.path.join("temp", "32", "icons.tds"), "w", encoding="utf8") as file:
 		file.write("-gb -gB8 -gzl\n\n")
-		for icon in icons:
-			file.write(f"{icon}\n")
+		for i in range(iconIndex):
+			file.write(f"{i}.png\n")
 	os.system(f"./img2tdx.py {os.path.join('temp', '32', 'icons.tds')} -o {os.path.join('..', 'docs', 'unistore', 'universal-db.tdx')}")
 
 	# Make t3x
 	with open(os.path.join("temp", "48", "icons.t3s"), "w", encoding="utf8") as file:
 		file.write("--atlas -f rgba -z auto\n\n")
-		for icon in icons:
-			file.write(f"{icon.replace('bmp', 'png')}\n")
+		for i in range(iconIndex):
+			file.write(f"{i}.png\n")
 	os.system(f"tex3ds -i {os.path.join('temp', '48', 'icons.t3s')} -o {os.path.join('..', 'docs', 'unistore', 'universal-db.t3x')}")
 
 # Increment revision if not the same
