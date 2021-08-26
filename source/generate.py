@@ -252,6 +252,8 @@ def retroarch(icon_index):
 			"file": "retroarch.unistore",
 			"sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
 			"sheet": "universal-db.t3x",
+			"dsSheetURL": "https://db.universal-team.net/unistore/universal-db.tdx",
+			"dsSheet": "universal-db.tdx",
 			"description": "RetroArch cores",
 			"version": 3,
 			"revision": retroarchOld["storeInfo"]["revision"] if retroarchOld else 0
@@ -307,6 +309,8 @@ unistore = {
 		"file": "universal-db.unistore",
 		"sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
 		"sheet": "universal-db.t3x",
+		"dsSheetURL": "https://db.universal-team.net/unistore/universal-db.tdx",
+		"dsSheet": "universal-db.tdx",
 		"description": "Universal-DB - An online database of 3DS and DS homebrew",
 		"version": 3,
 		"revision": 0 if "revision" not in unistoreOld["storeInfo"] else unistoreOld["storeInfo"]["revision"]
@@ -637,124 +641,150 @@ for app in source:
 							app["downloads"][download]["size"] = int(r.headers["Content-Length"])
 							app["downloads"][download]["size_str"] = byteCount(app["downloads"][download]["size"])
 
+		# Check for local icon / image
+		if "icon" not in app and os.path.exists(os.path.join("..", "docs", "assets", "images", "icons", f"{webName(app['title'])}.png")):
+			app["icon"] = f"https://db.universal-team.net/assets/images/icons/{webName(app['title'])}.png"
+
+		if "image" not in app and os.path.exists(os.path.join("..", "docs", "assets", "images", "images", f"{webName(app['title'])}.png")):
+			app["image"] = f"https://db.universal-team.net/assets/images/images/{webName(app['title'])}.png"
+		elif "image" not in app and "avatar" in app:
+			app["image"] = app["avatar"]
+
+		# Get image size
+		if "image_length" not in app and "image" in app:
+			if app["image"][:30] == "https://db.universal-team.net/":
+				app["image_length"] = os.path.getsize(f"../docs/{app['image'][30:]}")
+			else:
+				r = requests.head(app["image"], allow_redirects=True)
+				if r.status_code == 200 and "Content-Length" in r.headers:
+					app["image_length"] = int(r.headers["Content-Length"])
+
+		# Make icon for UniStore and QR
+		img = None
+		if "icon" in app or "image" in app:
+			if not os.path.exists(os.path.join("temp", "48")):
+				os.makedirs(os.path.join("temp", "48"))
+			if not os.path.exists(os.path.join("temp", "32")):
+				os.makedirs(os.path.join("temp", "32"))
+
+			url = app["icon"] if "icon" in app else app["image"] if "image" in app else ""
+			file = None
+			if url[:30] == "https://db.universal-team.net/":
+				file = open(f"../docs/{url[30:]}", "rb")
+			else:
+				r = requests.get(url)
+				if r.status_code == 200:
+					file = io.BytesIO(r.content)
+				else:
+					print(f"Error {r.status_code} downloading image!")
+
+			if file:
+				if priorityOnlyMode:
+					old = next(item for item in oldData if item["title"] == app["title"])
+					app["icon_index"] = old["icon_index"] if "icon_index" in old else -1
+				else:
+					app["icon_index"] = iconIndex
+
+				with Image.open(file) as img:
+					imgPal = None
+					if img.mode == "P":
+						imgPal = img
+						pal = img.palette.palette
+						img = img.convert("RGBA")
+						data = numpy.array(img)
+						r, g, b, a = data.T
+						transparent = (r == pal[2]) & (g == pal[1]) & (b == pal[0])
+						data[...][transparent.T] = (0, 0, 0, 0)
+						img = Image.fromarray(data)
+					elif img.mode != "RGBA":
+						img = img.convert("RGBA")
+
+					img.thumbnail((48, 48))
+					img.save(os.path.join("temp", "48", f"{iconIndex}.png"))
+					if imgPal and imgPal.size == (32, 32) and ("icon" in app and app["icon"].endswith(".bmp")):
+						with open(os.path.join("temp", "32", f"{iconIndex}.bmp"), "wb") as bmp:
+							file.seek(0)
+							bmp.write(file.read())
+						icons.append(f"{iconIndex}.bmp")
+					elif imgPal:
+						imgPal.thumbnail((32, 32))
+						imgPal.save(os.path.join("temp", "32", f"{iconIndex}.png"))
+						icons.append(f"{iconIndex}.png")
+					else:
+						imgCopy = img.copy()
+						imgCopy.thumbnail((32, 32))
+						imgCopy.save(os.path.join("temp", "32", f"{iconIndex}.png"))
+						icons.append(f"{iconIndex}.png")
+
+					if "color" not in app:
+						color = img.copy()
+						color.thumbnail((1, 1))
+						color = color.getpixel((0, 0))
+						app["color"] = "#{:02x}{:02x}{:02x}".format(color[0], color[1], color[2])
+
+				if "icon" in app and app["icon"].endswith(".bmp"):
+					copyfile(os.path.join("temp", "48", f"{iconIndex}.png"), os.path.join("..", "docs", "assets", "images", "icons", f"{webName(app['title'])}.png"))
+					app["icon"] = f"https://db.universal-team.net/assets/images/icons/{webName(app['title'])}.png"
+
+				iconIndex += 1
+
 	if "title" in app:
 		print(webName(app["title"]))
 
-	# Check for local icon / image
-	if "icon" not in app and os.path.exists(os.path.join("..", "docs", "assets", "images", "icons", f"{webName(app['title'])}.png")):
-		app["icon"] = f"https://db.universal-team.net/assets/images/icons/{webName(app['title'])}.png"
+	# Make QR
+	if not foundExisting or not (priorityOnlyMode and not ("priority" in app and app["priority"])):
+		if "downloads" in app:
+			for item in app["downloads"]:
+				if item[item.rfind(".") + 1:] == "cia":
+					qr = qrcode.make(app["downloads"][item]["url"], box_size=5, version=5).convert("RGBA")
+					if img:
+						draw = ImageDraw.Draw(qr)
+						draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 10 if "version" in app else 4)), fill=(255, 255, 255))
+						qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask=img if img.mode == "RGBA" else None)
+						if "version" in app:
+							draw.text(((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2 + img.height), app["version"][:img.width // 6], (0, 0, 0))
+					qr.save(os.path.join("..", "docs", "assets", "images", "qr", f"{webName(item)}.png"))
+					if "qr" not in app:
+						app["qr"] = {}
+					app["qr"][item] = f"https://db.universal-team.net/assets/images/qr/{webName(item)}.png"
 
-	if "image" not in app and os.path.exists(os.path.join("..", "docs", "assets", "images", "images", f"{webName(app['title'])}.png")):
-		app["image"] = f"https://db.universal-team.net/assets/images/images/{webName(app['title'])}.png"
-	elif "image" not in app and "avatar" in app:
-		app["image"] = app["avatar"]
-
-	# Get image size
-	if "image_length" not in app and "image" in app:
-		if app["image"][:30] == "https://db.universal-team.net/":
-			app["image_length"] = os.path.getsize(f"../docs/{app['image'][30:]}")
-		else:
-			r = requests.head(app["image"], allow_redirects=True)
-			if r.status_code == 200 and "Content-Length" in r.headers:
-				app["image_length"] = int(r.headers["Content-Length"])
-
-	# Make icon for UniStore and QR
-	img = None
-	if "icon" in app or "image" in app:
-		if not os.path.exists("temp"):
-			os.mkdir("temp")
-
-		url = app["icon"] if "icon" in app else app["image"] if "image" in app else ""
-		file = None
-		if url[:30] == "https://db.universal-team.net/":
-			file = open(f"../docs/{url[30:]}", "rb")
-		else:
-			r = requests.get(url)
-			if r.status_code == 200:
-				file = io.BytesIO(r.content)
-			else:
-				print(f"Error {r.status_code} downloading image!")
-
-		if file:
-			with Image.open(file) as img:
-				if img.mode == "P":
-					pal = img.palette.getdata()[1]
-					img = img.convert("RGBA")
-					data = numpy.array(img)
+		if "prerelease" in app:
+			for item in app["prerelease"]["downloads"]:
+				if item[item.rfind(".") + 1:] == "cia":
+					qr = qrcode.make(app["prerelease"]["downloads"][item]["url"], box_size=5, version=5).convert("RGBA")
+					data = numpy.array(qr)
 					r, g, b, a = data.T
-					transparent = (r == pal[2]) & (g == pal[1]) & (b == pal[0])
-					data[...][transparent.T] = (0, 0, 0, 0)
-					img = Image.fromarray(data)
-				elif img.mode != "RGBA":
-					img = img.convert("RGBA")
-				img.thumbnail((48, 48))
-				img.save(os.path.join("temp", f"{iconIndex}.png"))
-				icons.append(f"{iconIndex}.png")
-				if "color" not in app:
-					color = img.copy()
-					color.thumbnail((1, 1))
-					color = color.getpixel((0, 0))
-					app["color"] = "#{:02x}{:02x}{:02x}".format(color[0], color[1], color[2])
+					black = (r == 0) & (g == 0) & (b == 0)
+					data[...][black.T] = (0xF6, 0x6A, 0x0A, 0xFF)
+					qr = Image.fromarray(data)
+					if img:
+						draw = ImageDraw.Draw(qr)
+						draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 10 if "version" in app["prerelease"] else 4)), fill=(255, 255, 255))
+						qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask=img if img.mode == "RGBA" else None)
+						if "version" in app["prerelease"]:
+							draw.text(((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2 + img.height), app["prerelease"]["version"][:img.width // 6], (0xF6, 0x6A, 0x0A))
+					qr.save(os.path.join("..", "docs", "assets", "images", "qr", "prerelease", f"{webName(item)}.png"))
+					if "qr" not in app["prerelease"]:
+						app["prerelease"]["qr"] = {}
+					app["prerelease"]["qr"][item] = f"https://db.universal-team.net/assets/images/qr/prerelease/{webName(item)}.png"
 
-			if "icon" in app and app["icon"].endswith(".bmp"):
-				copyfile(os.path.join("temp", f"{iconIndex}.png"), os.path.join("..", "docs", "assets", "images", "icons", f"{webName(app['title'])}.png"))
-				app["icon"] = f"https://db.universal-team.net/assets/images/icons/{webName(app['title'])}.png"
-
-			iconIndex += 1
-
-	# Output website page
-	if "downloads" in app:
-		for item in app["downloads"]:
-			if item[item.rfind(".") + 1:] == "cia":
-				qr = qrcode.make(app["downloads"][item]["url"], box_size=5, version=5).convert("RGBA")
-				if img:
-					draw = ImageDraw.Draw(qr)
-					draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 10 if "version" in app else 4)), fill=(255, 255, 255))
-					qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask=img if img.mode == "RGBA" else None)
-					if "version" in app:
-						draw.text(((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2 + img.height), app["version"][:img.width // 6], (0, 0, 0))
-				qr.save(os.path.join("..", "docs", "assets", "images", "qr", f"{webName(item)}.png"))
-				if "qr" not in app:
-					app["qr"] = {}
-				app["qr"][item] = f"https://db.universal-team.net/assets/images/qr/{webName(item)}.png"
-
-	if "prerelease" in app:
-		for item in app["prerelease"]["downloads"]:
-			if item[item.rfind(".") + 1:] == "cia":
-				qr = qrcode.make(app["prerelease"]["downloads"][item]["url"], box_size=5, version=5).convert("RGBA")
-				data = numpy.array(qr)
-				r, g, b, a = data.T
-				black = (r == 0) & (g == 0) & (b == 0)
-				data[...][black.T] = (0xF6, 0x6A, 0x0A, 0xFF)
-				qr = Image.fromarray(data)
-				if img:
-					draw = ImageDraw.Draw(qr)
-					draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 10 if "version" in app["prerelease"] else 4)), fill=(255, 255, 255))
-					qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask=img if img.mode == "RGBA" else None)
-					if "version" in app["prerelease"]:
-						draw.text(((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2 + img.height), app["prerelease"]["version"][:img.width // 6], (0xF6, 0x6A, 0x0A))
-				qr.save(os.path.join("..", "docs", "assets", "images", "qr", "prerelease", f"{webName(item)}.png"))
-				if "qr" not in app["prerelease"]:
-					app["prerelease"]["qr"] = {}
-				app["prerelease"]["qr"][item] = f"https://db.universal-team.net/assets/images/qr/prerelease/{webName(item)}.png"
-
-	if "nightly" in app:
-		for item in app["nightly"]["downloads"]:
-			if item[item.rfind(".") + 1:] == "cia":
-				qr = qrcode.make(app["nightly"]["downloads"][item]["url"], box_size=5, version=5).convert("RGBA")
-				data = numpy.array(qr)
-				r, g, b, a = data.T
-				black = (r == 0) & (g == 0) & (b == 0)
-				data[...][black.T] = (0, 0, 0xC0, 0xFF)
-				qr = Image.fromarray(data)
-				if img:
-					draw = ImageDraw.Draw(qr)
-					draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 4)), fill=(255, 255, 255))
-					qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask=img if img.mode == "RGBA" else None)
-				qr.save(os.path.join("..", "docs", "assets", "images", "qr", "nightly", f"{webName(item)}.png"))
-				if "qr" not in app["nightly"]:
-					app["nightly"]["qr"] = {}
-				app["nightly"]["qr"][item] = f"https://db.universal-team.net/assets/images/qr/nightly/{webName(item)}.png"
+		if "nightly" in app:
+			for item in app["nightly"]["downloads"]:
+				if item[item.rfind(".") + 1:] == "cia":
+					qr = qrcode.make(app["nightly"]["downloads"][item]["url"], box_size=5, version=5).convert("RGBA")
+					data = numpy.array(qr)
+					r, g, b, a = data.T
+					black = (r == 0) & (g == 0) & (b == 0)
+					data[...][black.T] = (0, 0, 0xC0, 0xFF)
+					qr = Image.fromarray(data)
+					if img:
+						draw = ImageDraw.Draw(qr)
+						draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 4)), fill=(255, 255, 255))
+						qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask=img if img.mode == "RGBA" else None)
+					qr.save(os.path.join("..", "docs", "assets", "images", "qr", "nightly", f"{webName(item)}.png"))
+					if "qr" not in app["nightly"]:
+						app["nightly"]["qr"] = {}
+					app["nightly"]["qr"][item] = f"https://db.universal-team.net/assets/images/qr/nightly/{webName(item)}.png"
 
 	# Add to output json
 	output.append(app)
@@ -817,7 +847,7 @@ for app in source:
 				"author": ucs2Name(app["author"]) if "author" in app else "",
 				"category": app["categories"] if "categories" in app else [],
 				"console": app["systems"].copy() if "systems" in app else [],
-				"icon_index": len(icons) - 1 if "icon" in app or "image" in app else -1,
+				"icon_index": app["icon_index"] if "icon_index" in app else -1,
 				"description": ucs2Name(app["description"]) if "description" in app else "",
 				"releasenotes": notes,
 				"screenshots": [],
@@ -877,12 +907,20 @@ for app in source:
 
 	print("=" * 80)
 
-# Make t3x
-with open(os.path.join("temp", "icons.t3s"), "w", encoding="utf8") as file:
-	file.write("--atlas -f rgba -z auto\n\n")
-	for icon in icons:
-		file.write(f"{icon}\n")
-os.system(f"tex3ds -i {os.path.join('temp', 'icons.t3s')} -o {os.path.join('..', 'docs', 'unistore', 'universal-db.t3x')}")
+if not priorityOnlyMode:
+	# Make tdx
+	with open(os.path.join("temp", "32", "icons.tds"), "w", encoding="utf8") as file:
+		file.write("-gb -gB8 -gzl\n\n")
+		for icon in icons:
+			file.write(f"{icon}\n")
+	os.system(f"./img2tdx.py {os.path.join('temp', '32', 'icons.tds')} -o {os.path.join('..', 'docs', 'unistore', 'universal-db.tdx')}")
+
+	# Make t3x
+	with open(os.path.join("temp", "48", "icons.t3s"), "w", encoding="utf8") as file:
+		file.write("--atlas -f rgba -z auto\n\n")
+		for icon in icons:
+			file.write(f"{icon.replace('bmp', 'png')}\n")
+	os.system(f"tex3ds -i {os.path.join('temp', '48', 'icons.t3s')} -o {os.path.join('..', 'docs', 'unistore', 'universal-db.t3x')}")
 
 # Increment revision if not the same
 if unistore != unistoreOld:
