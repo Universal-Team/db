@@ -19,6 +19,7 @@ downloads:
     url: https://github.com/Epicpkmn11/NitroHax3DS/releases/download/0.100/NitroHax.dsi
 github: Epicpkmn11/NitroHax3DS
 icon: https://db.universal-team.net/assets/images/icons/nitrohax3ds-usrcheat-dat.png
+icon_index: 26
 image: https://avatars.githubusercontent.com/u/41608708?v=4
 image_length: 62657
 layout: app

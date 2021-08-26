@@ -30,6 +30,7 @@ downloads:
     url: https://github.com/Core-2-Extreme/Line_for_3DS/releases/download/v1.7.2/Line_for_3DS_80mb.cia
 github: Core-2-Extreme/Line_for_3DS
 icon: https://raw.githubusercontent.com/Core-2-Extreme/Line_for_3DS/master/resource/icon.png
+icon_index: 179
 image: https://raw.githubusercontent.com/Core-2-Extreme/Line_for_3DS/master/resource/banner.png
 image_length: 1824
 layout: app

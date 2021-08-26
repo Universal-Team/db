@@ -14,6 +14,7 @@ downloads:
     url: https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases/download/v1.0/Homebrew_Launcher.cia
 github: mariohackandglitch/homebrew_launcher_dummy
 icon: https://raw.githubusercontent.com/mariohackandglitch/homebrew_launcher_dummy/master/resources/icon.png
+icon_index: 51
 image: https://db.universal-team.net/assets/images/images/homebrew_launcher_dummy.png
 image_length: 3633
 layout: app

@@ -60,6 +60,7 @@ downloads:
     size: 1363341
     size_str: 1 MiB
     url: https://api.bitbucket.org/2.0/repositories/DeadSkullzJr/nds-cheat-databases/src/933c375545d3ff90854d1e210dcf4b3b31d9d585/Cheats/~SCC%20Cheats~.7z
+icon_index: 141
 image: https://db.universal-team.net/assets/images/images/nds-cheat-databases.png
 image_length: 10188
 layout: app

@@ -23,6 +23,7 @@ downloads:
     size_str: 9 KiB
     url: https://api.bitbucket.org/2.0/repositories/Coto88/snemulds/src/30811e1407c24c14eb9ec573bb58201a1d248152/release/snemul.cfg
 icon: https://db.universal-team.net/assets/images/icons/snemulds.png
+icon_index: 19
 image: https://db.universal-team.net/assets/images/images/snemulds.png
 image_length: 626
 layout: app

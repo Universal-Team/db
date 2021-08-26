@@ -26,6 +26,7 @@ downloads:
     url: https://github.com/Universal-Team/3DEins/releases/download/v0.2.0/DSEins.nds.cia
 github: Universal-Team/3DEins
 icon: https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/icon.png
+icon_index: 1
 image: https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/banner.png
 image_length: 8040
 layout: app

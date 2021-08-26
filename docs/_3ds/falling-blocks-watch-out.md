@@ -14,6 +14,7 @@ downloads:
     url: https://github.com/Spaqin/fbwo-3ds/releases/download/v0.4.1/fbwo.v0.4.1.zip
 github: Spaqin/fbwo-3ds
 icon: https://db.universal-team.net/assets/images/icons/falling-blocks-watch-out.png
+icon_index: 127
 image: https://db.universal-team.net/assets/images/images/falling-blocks-watch-out.png
 image_length: 1112
 layout: app

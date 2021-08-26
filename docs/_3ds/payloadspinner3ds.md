@@ -14,6 +14,7 @@ downloads:
     url: https://github.com/SaturnSH2x2/PayloadSpinner3DS/releases/download/v1.2/PayloadSpinner3DS.cia
 github: SaturnSH2x2/PayloadSpinner3DS
 icon: https://raw.githubusercontent.com/SaturnSH2x2/PayloadSpinner3DS/master/assets/icon.png
+icon_index: 69
 image: https://raw.githubusercontent.com/SaturnSH2x2/PayloadSpinner3DS/master/assets/banner.png
 image_length: 5392
 layout: app

@@ -19,6 +19,7 @@ downloads:
     url: https://github.com/trainboy2019/ButtonPresser3DS/releases/download/2.0/ButtonPresser3DS.cia
 github: trainboy2019/ButtonPresser3DS
 icon: https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/icon.png
+icon_index: 80
 image: https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/resources/Banner.png
 image_length: 36405
 layout: app

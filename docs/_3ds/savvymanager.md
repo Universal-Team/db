@@ -20,6 +20,7 @@ downloads:
     url: https://github.com/RocketRobz/SavvyManager/releases/download/v3.1.0/SavvyManager.cia
 github: RocketRobz/SavvyManager
 icon: https://raw.githubusercontent.com/RocketRobz/SavvyManager/master/app/icon.png
+icon_index: 28
 image: https://raw.githubusercontent.com/RocketRobz/SavvyManager/master/app/banner.png
 image_length: 42810
 layout: app

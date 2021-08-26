@@ -19,6 +19,7 @@ downloads:
     url: https://github.com/d0k3/CTRXplorer/releases/download/v0.9.8.1/CTRXplorer.v0.9.8.1.zip
 github: d0k3/CTRXplorer
 icon: https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/icon.png
+icon_index: 96
 image: https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/banner.png
 image_length: 6146
 layout: app

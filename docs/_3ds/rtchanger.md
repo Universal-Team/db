@@ -23,6 +23,7 @@ downloads:
     url: https://github.com/Storm-Eagle20/RTChanger/releases/download/1.0/RTChanger.zip
 github: Storm-Eagle20/RTChanger
 icon: https://raw.githubusercontent.com/Storm-Eagle20/RTChanger/master/assets/logo.png
+icon_index: 76
 image: https://raw.githubusercontent.com/Storm-Eagle20/RTChanger/master/assets/banner.png
 image_length: 134009
 layout: app

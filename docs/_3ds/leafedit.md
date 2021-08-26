@@ -20,6 +20,7 @@ downloads:
     url: https://github.com/Universal-Team/LeafEdit/releases/download/v0.2.1/LeafEdit.cia
 github: Universal-Team/LeafEdit
 icon: https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/icon.png
+icon_index: 6
 image: https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/banner.png
 image_length: 34569
 layout: app

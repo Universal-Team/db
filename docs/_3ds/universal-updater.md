@@ -18,6 +18,7 @@ downloads:
     url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.3/Universal-Updater.cia
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
+icon_index: 0
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/banner.png
 image_length: 24475
 layout: app

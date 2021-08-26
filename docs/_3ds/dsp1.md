@@ -18,6 +18,7 @@ downloads:
     url: https://github.com/zoogie/DSP1/releases/download/v1.0/DSP1.cia
 github: zoogie/DSP1
 icon: https://raw.githubusercontent.com/zoogie/DSP1/master/cia/icon.png
+icon_index: 86
 image: https://raw.githubusercontent.com/zoogie/DSP1/master/cia/banner.png
 image_length: 89291
 layout: app

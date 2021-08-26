@@ -18,6 +18,7 @@ downloads:
     url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.1.2/ThirdTube.cia
 github: windows-server-2003/ThirdTube
 icon: https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/icon.png
+icon_index: 186
 image: https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/banner.png
 image_length: 9933
 layout: app

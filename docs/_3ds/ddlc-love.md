@@ -19,6 +19,7 @@ downloads:
     url: https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-LOVE-3DS.cia
 github: LukeZGD/DDLC-LOVE
 icon: https://db.universal-team.net/assets/images/icons/ddlc-love.png
+icon_index: 42
 image: https://db.universal-team.net/assets/images/images/ddlc-love.png
 image_length: 4459
 layout: app

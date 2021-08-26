@@ -19,6 +19,7 @@ downloads:
     size_str: 680 KiB
     url: https://github.com/mikewii/Luma3DS-plugin/releases/download/r1.0.11/default.3gx
 github: mikewii/Luma3DS-plugin
+icon_index: 150
 image: https://avatars.githubusercontent.com/u/29737660?v=4
 image_length: 18565
 layout: app

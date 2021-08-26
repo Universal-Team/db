@@ -15,6 +15,7 @@ downloads:
     url: https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/release/nesDS.nds
 github: DS-Homebrew/NesDS
 icon: https://db.universal-team.net/assets/images/icons/nesds.png
+icon_index: 17
 image: https://db.universal-team.net/assets/images/images/nesds.png
 image_length: 277
 layout: app

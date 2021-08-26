@@ -26,6 +26,7 @@ downloads:
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v21.4.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
+icon_index: 139
 image: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/logo.png
 image_length: 165666
 layout: app

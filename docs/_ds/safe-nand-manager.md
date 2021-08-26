@@ -13,6 +13,7 @@ downloads:
     size_str: 245 KiB
     url: https://github.com/DS-Homebrew/SafeNANDManager/releases/download/v1.1/SafeNANDManager.nds
 github: DS-Homebrew/SafeNANDManager
+icon_index: 167
 image: https://avatars.githubusercontent.com/u/46971470?v=4
 image_length: 16424
 layout: app

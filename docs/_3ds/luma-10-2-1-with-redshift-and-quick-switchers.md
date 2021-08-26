@@ -18,6 +18,7 @@ downloads:
     url: https://gbatemp.net/download/luma-10-2-1-with-redshift-and-quick-switchers.35619/download?version=38477
 gbatemp: '35619'
 github: DullPointer/Luma3DS
+icon_index: 185
 image: https://gbatemp.net/data/avatars/l/439/439371.jpg?1618764346
 layout: app
 license: gpl-3.0

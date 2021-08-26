@@ -14,6 +14,7 @@ downloads:
     url: https://github.com/nop90/POWDER-3DS/releases/download/v1%2C1/Powder.v1.1.zip
 github: nop90/POWDER-3DS
 icon: https://raw.githubusercontent.com/nop90/POWDER-3DS/master/port/3ds/icon.png
+icon_index: 97
 image: https://raw.githubusercontent.com/nop90/POWDER-3DS/master/port/3ds/banner.png
 image_length: 49046
 layout: app

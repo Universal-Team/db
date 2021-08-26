@@ -18,6 +18,7 @@ downloads:
     url: https://github.com/Universal-Team/3DVier/releases/download/v0.1.0/3DVier.cia
 github: Universal-Team/3DVier
 icon: https://raw.githubusercontent.com/Universal-Team/3DVier/master/3ds/app/icon.png
+icon_index: 2
 image: https://raw.githubusercontent.com/Universal-Team/3DVier/master/3ds/app/banner.png
 image_length: 18267
 layout: app

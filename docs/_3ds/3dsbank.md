@@ -13,6 +13,7 @@ downloads:
     size_str: 636 KiB
     url: https://github.com/RocketRobz/3DSBank/releases/download/v1.1/3DSBank.cia
 github: RocketRobz/3DSBank
+icon_index: 156
 image: https://db.universal-team.net/assets/images/images/3dsbank.png
 image_length: 266
 layout: app

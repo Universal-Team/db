@@ -14,6 +14,7 @@ downloads:
     url: https://github.com/MateoThePro/Celeste-Classic-3DS/raw/main/CelesteClassic_v1_1_homebrew.cia
 github: MateoThePro/Celeste-Classic-3DS
 icon: https://raw.githubusercontent.com/MateoThePro/Celeste-Classic-3DS/main/celeste_classic_3ds_icon.png
+icon_index: 177
 image: https://raw.githubusercontent.com/MateoThePro/Celeste-Classic-3DS/main/celeste_classic_3ds_icon.png
 image_length: 17439
 layout: app

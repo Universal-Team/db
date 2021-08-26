@@ -18,6 +18,7 @@ downloads:
     url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.46.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
+icon_index: 140
 image: https://i.imgur.com/BFIu7xX.png
 image_length: 5116
 layout: app

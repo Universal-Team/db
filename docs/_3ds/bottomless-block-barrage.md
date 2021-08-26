@@ -23,6 +23,7 @@ downloads:
     url: https://github.com/TricksterGuy/bottomless-block-barrage/releases/download/v0.2.0/bottomless-block-barrage.zip
 github: TricksterGuy/bottomless-block-barrage
 icon: https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/master/resources/icon.png
+icon_index: 71
 image: https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/master/resources/banner.png
 image_length: 42720
 layout: app

@@ -22,6 +22,7 @@ downloads:
     url: https://github.com/masterfeizz/DaedalusX64-3DS/releases/download/v0.2/daedalus.zip
 github: masterfeizz/daedalusx64-3DS
 icon: https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/v0.2/Source/SysCTR/Resources/icon.png
+icon_index: 136
 image: https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/v0.2/Source/SysCTR/Resources/banner.png
 image_length: 23118
 layout: app

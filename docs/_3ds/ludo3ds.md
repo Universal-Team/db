@@ -18,6 +18,7 @@ downloads:
     url: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/download/v0.4.0/Ludo3DS.cia
 github: SuperSaiyajinStackZ/Ludo3DS
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/icon.png
+icon_index: 4
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/Banner.png
 image_length: 12316
 layout: app

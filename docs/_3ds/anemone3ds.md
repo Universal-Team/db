@@ -22,6 +22,7 @@ downloads:
     url: https://github.com/astronautlevel2/Anemone3DS/releases/download/v2.2.0/Anemone3DS.smdh
 github: astronautlevel2/Anemone3DS
 icon: https://raw.githubusercontent.com/astronautlevel2/Anemone3DS/master/meta/icon.png
+icon_index: 53
 image: https://raw.githubusercontent.com/astronautlevel2/Anemone3DS/master/meta/banner.png
 image_length: 152331
 layout: app

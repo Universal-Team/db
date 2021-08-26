@@ -19,6 +19,7 @@ downloads:
     url: https://github.com/flarn2006/GraphCalc3DS/releases/download/v1.5.1/GraphCalc3DS_3DSX.zip
 github: flarn2006/graphcalc3ds
 icon: https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/icon.png
+icon_index: 105
 image: https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/banner.png
 image_length: 48710
 layout: app

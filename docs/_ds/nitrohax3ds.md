@@ -18,6 +18,7 @@ downloads:
     url: https://github.com/ahezard/NitroHax3DS/releases/download/0.99.DSI/NitroHax_DSi_Release.zip
 github: ahezard/NitroHax3DS
 icon: https://db.universal-team.net/assets/images/icons/nitrohax3ds.png
+icon_index: 25
 image: https://db.universal-team.net/assets/images/images/nitrohax3ds.png
 image_length: 354
 layout: app

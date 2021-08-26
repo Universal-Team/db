@@ -19,6 +19,7 @@ downloads:
     url: https://github.com/Manurocker95/TRekt_3D/releases/download/1.0/TRekt_3D.rar
 github: Manurocker95/TRekt_3D
 icon: https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/resources/icon.png
+icon_index: 72
 image: https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/resources/banner.png
 image_length: 28447
 layout: app

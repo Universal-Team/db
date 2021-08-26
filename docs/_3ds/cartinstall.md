@@ -15,6 +15,7 @@ downloads:
     size_str: 435 KiB
     url: https://github.com/aspargas2/CartInstall/releases/download/v1.3.0/CartInstall.firm
 github: aspargas2/CartInstall
+icon_index: 147
 image: https://avatars.githubusercontent.com/u/36926490?v=4
 image_length: 9612
 layout: app
