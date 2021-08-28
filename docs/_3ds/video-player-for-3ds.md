@@ -9,13 +9,13 @@ description: You can play .mp4 file on your 3DS!
 download_page: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases
 downloads:
   Video_player_for_3DS.3dsx:
-    size: 7606696
+    size: 7613032
     size_str: 7 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.3.0/Video_player_for_3DS.3dsx
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.3.1/Video_player_for_3DS.3dsx
   Video_player_for_3DS.cia:
-    size: 5157824
+    size: 5161920
     size_str: 4 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.3.0/Video_player_for_3DS.cia
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.3.1/Video_player_for_3DS.cia
 github: Core-2-Extreme/Video_player_for_3DS
 icon: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/icon.png
 icon_index: 178
@@ -33,22 +33,18 @@ systems:
 title: Video player for 3DS
 update_notes: '<ul>
 
-  <li>The video that has more than one audio tracks has been supported (Press Y key-&gt;
-  select audio track to select track)</li>
+  <li>Volume adjustment has been added (from 0% to 999%)</li>
 
-  <li>Multi-threaded decoding has been supported (Press Y key-&gt; use multi-threaded
-  decoding to toggle)</li>
+  <li>Direction pad seeking has been added (from 1 second to 99 seconds)</li>
 
-  <li>Hardware decoder has been merged (Press Y key-&gt; use hw decoder to toggle)</li>
-
-  <li>Full screen mode has been supported (Press select key to toggle)</li>
+  <li>Hungarian(magyar) translation has been added (by vargaviktor)</li>
 
   <li>Other minor changes</li>
 
   </ul>'
-updated: '2021-08-14T11:11:09Z'
-version: v1.3.0
-version_title: Video player for 3DS v1.3.0
+updated: '2021-08-28T11:03:10Z'
+version: v1.3.1
+version_title: Video player for 3DS v1.3.1
 ---
 You can play .mp4 file on your 3DS!
 
