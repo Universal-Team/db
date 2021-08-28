@@ -41,7 +41,11 @@ source: https://github.com/Steveice10/FBI
 systems:
 - 3DS
 title: FBI
-update_notes: "{\n  \"message\": \"Server Error\"\n}\n"
+update_notes: '<ul>
+
+  <li>Fix inability to cancel ext save data deletion.</li>
+
+  </ul>'
 updated: '2021-05-18T05:59:19Z'
 version: 2.6.1
 version_title: 2.6.1
