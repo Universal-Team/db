@@ -18,12 +18,12 @@ image: https://avatars.githubusercontent.com/u/43786828?v=4
 image_length: 30859
 layout: app
 prerelease:
-  download_page: https://github.com/MechanicalDragon0687/NDSForwarder/releases/tag/1.1.0-beta
+  download_page: https://github.com/MechanicalDragon0687/NDSForwarder/releases/tag/untagged-0a08cb14d41083389367
   downloads:
     ndsForwarder.3dsx:
-      size: 937176
-      size_str: 915 KiB
-      url: https://github.com/MechanicalDragon0687/NDSForwarder/releases/download/1.1.0-beta/ndsForwarder.3dsx
+      size: 942016
+      size_str: 919 KiB
+      url: https://github.com/MechanicalDragon0687/NDSForwarder/releases/download/untagged-0a08cb14d41083389367/ndsForwarder.3dsx
   update_notes: '<p>Requires full CFW via Rosalina (b9s+luma3ds)</p>
 
     <h2>Usage</h2>
@@ -51,6 +51,11 @@ prerelease:
     Home Cooking.bin</code>.  Custom banners can be located with the nds file or in
     <code>/3ds/forwarder/banners/</code></li>
 
+    <li>Custom Icons! They must be 4bit bmps and be named the same as the nds file.
+    If your nds file is <code>Jamal''s Home Cooking.nds</code> your custom icon should
+    be <code>Jamal''s Home Cooking.bmp</code>.  Custom icons can be located with the
+    nds file or in <code>/3ds/forwarder/icons/</code></li>
+
     <li>Auto Random TID.  This allows separate forwarders for romhacks that dont change
     TIDs</li>
 
@@ -63,6 +68,30 @@ prerelease:
     </ul>
 
     <h2>Changelog</h2>
+
+    <p>1.2.0-beta</p>
+
+    <ul>
+
+    <li>Supports BMP files for custom icons
+
+    <ul>
+
+    <li>4 bit</li>
+
+    <li>32x32 pixels</li>
+
+    <li>No Colorspace info (Compatibility options when exporting in GIMP)</li>
+
+    <li>color at index 0 will be transparent/white. You have been warned.</li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+
+    <p>1.1.0-beta</p>
 
     <ul>
 
@@ -84,17 +113,23 @@ prerelease:
     \ to the sd card.\n\n## Features\n* Custom banners! They must be named the same\
     \ as the nds file. If your nds file is `Jamal's Home Cooking.nds` your custom\
     \ banner should be `Jamal's Home Cooking.bin`.  Custom banners can be located\
-    \ with the nds file or in `/3ds/forwarder/banners/`\n* Auto Random TID.  This\
-    \ allows separate forwarders for romhacks that dont change TIDs\n* Custom Title.\
-    \ If you dont have a custom banner, or want one but need a different Title, check\
-    \ the box!\n* Install all in folder. You can install forwarders for all nds files\
-    \ in any given folder\n\n## Changelog\n* Warns user when reaching the limit of\
-    \ dsiware installed\n* No longer brown, now blue\n* Version is displayed on the\
-    \ bottom screen\n* _nds folder is hidden\n* if more than one template exists,\
+    \ with the nds file or in `/3ds/forwarder/banners/`\n* Custom Icons! They must\
+    \ be 4bit bmps and be named the same as the nds file. If your nds file is `Jamal's\
+    \ Home Cooking.nds` your custom icon should be `Jamal's Home Cooking.bmp`.  Custom\
+    \ icons can be located with the nds file or in `/3ds/forwarder/icons/`\n* Auto\
+    \ Random TID.  This allows separate forwarders for romhacks that dont change TIDs\n\
+    * Custom Title. If you dont have a custom banner, or want one but need a different\
+    \ Title, check the box!\n* Install all in folder. You can install forwarders for\
+    \ all nds files in any given folder\n\n## Changelog\n1.2.0-beta\n* Supports BMP\
+    \ files for custom icons\n  * 4 bit\n  * 32x32 pixels\n  * No Colorspace info\
+    \ (Compatibility options when exporting in GIMP)\n  * color at index 0 will be\
+    \ transparent/white. You have been warned.\n\n1.1.0-beta\n* Warns user when reaching\
+    \ the limit of dsiware installed\n* No longer brown, now blue\n* Version is displayed\
+    \ on the bottom screen\n* _nds folder is hidden\n* if more than one template exists,\
     \ can select which template to use"
-  updated: '2021-08-12T06:18:34Z'
-  version: 1.1.0-beta
-  version_title: 1.1.0-beta
+  updated: '2021-08-30T02:38:25Z'
+  version: untagged-0a08cb14d41083389367
+  version_title: 1.2.0-beta
 source: https://github.com/MechanicalDragon0687/NDSForwarder
 systems:
 - 3DS
