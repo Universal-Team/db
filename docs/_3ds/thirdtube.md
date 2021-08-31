@@ -9,13 +9,13 @@ description: A work-in-progress homebrew YouTube client for new 3DS
 download_page: https://github.com/windows-server-2003/ThirdTube/releases
 downloads:
   ThirdTube.3dsx:
-    size: 4352244
+    size: 4368344
     size_str: 4 MiB
-    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.1.2/ThirdTube.3dsx
+    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.1.3/ThirdTube.3dsx
   ThirdTube.cia:
-    size: 3220416
+    size: 3228608
     size_str: 3 MiB
-    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.1.2/ThirdTube.cia
+    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.1.3/ThirdTube.cia
 github: windows-server-2003/ThirdTube
 icon: https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/icon.png
 icon_index: 186
@@ -37,13 +37,22 @@ source: https://github.com/windows-server-2003/ThirdTube
 systems:
 - 3DS
 title: ThirdTube
-update_notes: '<p>I realized the latest release was broken due to LTO (link time optimization).<br>
+update_notes: '<p>The app was partially broken due to a change in YouTube. This is
+  the hotfix for it.</p>
 
-  I apologize for not having tested thoroughly.</p>
+  <ul>
 
-  <p>(2021/08/14 11:34 JST) : Fixed typo, binary not changed.</p>'
-updated: '2021-08-13T08:45:40Z'
-version: v0.1.2
-version_title: Release v0.1.2
+  <li>Fixed broken YouTube parser</li>
+
+  <li>Minor performance improvements</li>
+
+  <li>Minor stability improvements</li>
+
+  <li>Internal refactor in the video player</li>
+
+  </ul>'
+updated: '2021-08-31T11:53:33Z'
+version: v0.1.3
+version_title: Release v0.1.3
 website: https://gbatemp.net/threads/release-thirdtube-a-homebrew-youtube-client-for-the-new-3ds.591696/
 ---
