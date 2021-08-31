@@ -5,8 +5,8 @@ categories:
 - game
 color: '#dcd7e8'
 created: '2018-04-17T16:27:05Z'
-description: An unofficial Doki Doki Literature Club port to Lua for different game
-  console platforms
+description: An unofficial Doki Doki Literature Club port to Lua for the PS Vita and
+  other game consoles
 download_page: https://github.com/LukeZGD/DDLC-LOVE/releases
 downloads:
   DDLC-LOVE-3DS.3dsx:
