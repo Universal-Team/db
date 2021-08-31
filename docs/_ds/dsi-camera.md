@@ -18,8 +18,8 @@ icon_index: 155
 image: https://raw.githubusercontent.com/Epicpkmn11/dsi-camera/master/icon.bmp
 image_length: 630
 layout: app
-license: gpl-3.0
-license_name: GNU General Public License v3.0
+license: unlicense
+license_name: The Unlicense
 source: https://github.com/Epicpkmn11/dsi-camera
 systems:
 - DS
