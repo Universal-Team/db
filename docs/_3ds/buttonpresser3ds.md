@@ -49,7 +49,7 @@ update_notes: '<p>The buttons have gotten a few tweaks to make the app even bett
 
   <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/trainboy2019/ButtonPresser3DS/blob/master/Button%20QR%20Code%202.png?raw=true"><img
   src="https://github.com/trainboy2019/ButtonPresser3DS/blob/master/Button%20QR%20Code%202.png?raw=true"
-  alt="QR 2.0" style="max-width:100%;"></a></p>'
+  alt="QR 2.0" style="max-width: 100%;"></a></p>'
 updated: '2017-06-22T02:42:08Z'
 version: '2.0'
 version_title: Button Presser 3DS 2.0

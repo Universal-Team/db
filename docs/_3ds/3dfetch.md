@@ -43,11 +43,11 @@ update_notes: "<p>Lots of stuff added! First and foremost:</p>\n<ul>\n<li>Added 
   <p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://camo.githubusercontent.com/454080f3c85e50265dc7c3015cccf92f3785f4e501a01cce68c340bad1438938/687474703a2f2f692e696d6775722e636f6d2f5a7773356743492e706e67\"\
   ><img src=\"https://camo.githubusercontent.com/454080f3c85e50265dc7c3015cccf92f3785f4e501a01cce68c340bad1438938/687474703a2f2f692e696d6775722e636f6d2f5a7773356743492e706e67\"\
   \ alt=\"QR code\" data-canonical-src=\"http://i.imgur.com/Zws5gCI.png\" style=\"\
-  max-width:100%;\"></a></p>\n<p>Send <g-emoji class=\"g-emoji\" alias=\"heart\" fallback-src=\"\
-  https://github.githubassets.com/images/icons/emoji/unicode/2764.png\">\u2764\uFE0F\
-  </g-emoji> to <a href=\"https://github.com/daedreth\">daedreth</a> and <a href=\"\
-  https://github.com/astronautlevel2\">Alex</a> for their immense work on this while\
-  \ I was in exams week.</p>"
+  max-width: 100%;\"></a></p>\n<p>Send <g-emoji class=\"g-emoji\" alias=\"heart\"\
+  \ fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2764.png\"\
+  >\u2764\uFE0F</g-emoji> to <a href=\"https://github.com/daedreth\">daedreth</a>\
+  \ and <a href=\"https://github.com/astronautlevel2\">Alex</a> for their immense\
+  \ work on this while I was in exams week.</p>"
 updated: '2017-06-30T22:45:59Z'
 version: '1.10'
 version_title: 3dfetch v1.10/11 - Major updates

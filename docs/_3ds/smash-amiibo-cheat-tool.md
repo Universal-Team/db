@@ -48,7 +48,8 @@ update_notes: '<p>There''s quite a lot in this new release, so here we go!</p>
 
   <p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/2048808c1f53ca25e6f444b2576a96dbd3fc999db928136daeaca2c34251c562/687474703a2f2f696d6775722e636f6d2f53644b5245546f2e706e67"><img
   src="https://camo.githubusercontent.com/2048808c1f53ca25e6f444b2576a96dbd3fc999db928136daeaca2c34251c562/687474703a2f2f696d6775722e636f6d2f53644b5245546f2e706e67"
-  alt="SACT 2.0" data-canonical-src="http://imgur.com/SdKRETo.png" style="max-width:100%;"></a></p>'
+  alt="SACT 2.0" data-canonical-src="http://imgur.com/SdKRETo.png" style="max-width:
+  100%;"></a></p>'
 updated: '2017-01-27T00:03:00Z'
 version: '2.0'
 version_title: First release of the year

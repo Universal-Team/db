@@ -67,7 +67,7 @@ update_notes: '<p>This is a fork of NitroHax3DS that loads cheats from a <code>u
   <p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/0b07e9088ed15399c468ed8566f9128e64ff6885f439eb1613b547afb123dc02/68747470733a2f2f64622e756e6976657273616c2d7465616d2e6e65742f6173736574732f696d616765732f71722f6e6974726f6861782d75737263686561742e6369612e706e67"><img
   src="https://camo.githubusercontent.com/0b07e9088ed15399c468ed8566f9128e64ff6885f439eb1613b547afb123dc02/68747470733a2f2f64622e756e6976657273616c2d7465616d2e6e65742f6173736574732f696d616765732f71722f6e6974726f6861782d75737263686561742e6369612e706e67"
   alt="QR code for the CIA" data-canonical-src="https://db.universal-team.net/assets/images/qr/nitrohax-usrcheat.cia.png"
-  style="max-width:100%;"></a></p>'
+  style="max-width: 100%;"></a></p>'
 updated: '2021-01-11T07:44:59Z'
 version: '0.100'
 version_title: Load cheats from usrcheat.dat instead of cheats.xml

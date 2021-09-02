@@ -71,7 +71,8 @@ update_notes: '<h2>Whats new</h2>
 
   <p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/3eac87574a62bd730b7abb3c741913e4ac719d37de1c7b7642405de93bb7f622/68747470733a2f2f692e696d6775722e636f6d2f57654b4b526e352e706e67"><img
   src="https://camo.githubusercontent.com/3eac87574a62bd730b7abb3c741913e4ac719d37de1c7b7642405de93bb7f622/68747470733a2f2f692e696d6775722e636f6d2f57654b4b526e352e706e67"
-  alt="QR Code" data-canonical-src="https://i.imgur.com/WeKKRn5.png" style="max-width:100%;"></a></p>'
+  alt="QR Code" data-canonical-src="https://i.imgur.com/WeKKRn5.png" style="max-width:
+  100%;"></a></p>'
 updated: '2017-09-11T08:23:56Z'
 version: v0.2.0
 version_title: Version 0.2.0

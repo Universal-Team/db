@@ -69,7 +69,7 @@ update_notes: "<p>Happy Holidays everyone! We hope your holiday season has been 
   \ 2021!</p>\n<p>~ astronautlevel2<br>\n<a target=\"_blank\" rel=\"noopener noreferrer\"\
   \ href=\"https://user-images.githubusercontent.com/7305572/103111626-0366d980-461d-11eb-8704-6b4bbfba88a6.png\"\
   ><img src=\"https://user-images.githubusercontent.com/7305572/103111626-0366d980-461d-11eb-8704-6b4bbfba88a6.png\"\
-  \ alt=\"canvas\" style=\"max-width:100%;\"></a></p>"
+  \ alt=\"canvas\" style=\"max-width: 100%;\"></a></p>"
 updated: '2020-12-25T00:18:58Z'
 version: v2.2.0
 version_title: Anemone3DS Covid Christmas Edition

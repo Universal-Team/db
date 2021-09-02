@@ -36,7 +36,7 @@ systems:
 title: dses
 update_notes: '<p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/13433513/46879989-c94bfb80-ce47-11e8-8ab5-36f6fb0f061a.gif"><img
   src="https://user-images.githubusercontent.com/13433513/46879989-c94bfb80-ce47-11e8-8ab5-36f6fb0f061a.gif"
-  alt="QR code" style="max-width:100%;"></a></p>
+  alt="QR code" style="max-width: 100%;"></a></p>
 
   <p>Code changes:</p>
 

@@ -58,7 +58,7 @@ update_notes: "<ul>\n<li>\u30B8\u30E3\u30F3\u30EB\u6A5F\u80FD\u3092\u5B9F\u88C5<
   >README</a> before starting.<br>\n<a target=\"_blank\" rel=\"noopener noreferrer\"\
   \ href=\"https://user-images.githubusercontent.com/18244518/126890281-dd597f67-821a-4cd3-a6d0-e37c725418fe.png\"\
   ><img src=\"https://user-images.githubusercontent.com/18244518/126890281-dd597f67-821a-4cd3-a6d0-e37c725418fe.png\"\
-  \ alt=\"image\" style=\"max-width:100%;\"></a></p>"
+  \ alt=\"image\" style=\"max-width: 100%;\"></a></p>"
 updated: '2021-07-25T06:51:52Z'
 version: v1.2.0
 version_title: v1.2.0 TJAPlayer for 3DS

@@ -42,7 +42,7 @@ update_notes: '<p>This release mostly adds in a lot of missing error checks and 
 
   <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/13433513/38756013-40d03e2e-3f68-11e8-96cb-83704530de74.gif"><img
   src="https://user-images.githubusercontent.com/13433513/38756013-40d03e2e-3f68-11e8-96cb-83704530de74.gif"
-  alt="QR code" style="max-width:100%;"></a></p>
+  alt="QR code" style="max-width: 100%;"></a></p>
 
   <p>Changes:</p>
 

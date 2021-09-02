@@ -57,13 +57,13 @@ update_notes: '<ul>
 
   <a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/qr/0.04.png"><img
   src="https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/qr/0.04.png"
-  alt="QR" style="max-width:100%;"></a></p>
+  alt="QR" style="max-width: 100%;"></a></p>
 
   <p><strong>LUMA NIGHTLY</strong> (if your Luma is greater than 6.6 or Nightly):<br>
 
   <a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/qr/0.04-NIGHTLY.png"><img
   src="https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/qr/0.04-NIGHTLY.png"
-  alt="QR" style="max-width:100%;"></a></p>'
+  alt="QR" style="max-width: 100%;"></a></p>'
 updated: '2017-04-22T18:55:03Z'
 version: '0.04'
 version_title: '0.04'

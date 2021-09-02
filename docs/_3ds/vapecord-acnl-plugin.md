@@ -9,9 +9,9 @@ description: Animal Crossing NL Vapecord Public Plugin WIP
 download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases
 downloads:
   Vapecord.Public.zip:
-    size: 8039870
+    size: 8024165
     size_str: 7 MiB
-    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v1.9.5/Vapecord.Public.zip
+    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v.1.9.5-beta.2/Vapecord.Public.zip
 github: RedShyGuy/Vapecord-ACNL-Plugin
 icon_index: 153
 image: https://avatars.githubusercontent.com/u/43783060?v=4
@@ -23,11 +23,9 @@ source: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin
 systems:
 - 3DS
 title: Vapecord-ACNL-Plugin
-update_notes: '<h1>New Update!!</h1>
+update_notes: '<h1>New Beta Update!!</h1>
 
-  <h2>This update is just a beta version, so expect a few unfinished features in it.
-  I currently don''t have enough time to finish this version, so have fun playing
-  this beta!</h2>
+  <h2>This is just a small update which adds stuff I worked on the last weeks</h2>
 
   <h2>The update has those features:</h2>
 
@@ -35,11 +33,7 @@ update_notes: '<h1>New Update!!</h1>
 
   <ul>
 
-  <li>New custom crash screen with QR-Code holding crash data</li>
-
-  <li>NPC Codes!!</li>
-
-  <li>And a few other things</li>
+  <li>Info Bars showing current Time, Battery Percentage and Personal Friendcode</li>
 
   </ul>
 
@@ -51,21 +45,26 @@ update_notes: '<h1>New Update!!</h1>
 
   <ul>
 
-  <li>If design is hit with shovel it locks item (?)</li>
+  <li>Drop Radius Modifier fixed</li>
 
-  <li>Non ACNL games crash</li>
+  </ul>
 
-  <li>Non hacker doesn''t execute on others properly</li>
+  </blockquote>
 
-  <li>Time Travel string format is not working</li>
+  <h2>And some small changes:</h2>
 
-  <li>Grass Editor Fill/Clear whole map doesn''t work</li>
+  <blockquote>
 
-  <li>Player Name Changer only changes Mayor Name</li>
+  <ul>
 
-  <li>Show Players On Map randomly crashes</li>
+  <li>Plugin now checks for correct Game Version before being able to use it</li>
 
-  <li>Plugin generally randomly crashes (?)</li>
+  <li>Dev Mode is now easier accessable (Tip: 30 extra lives in Contra)</li>
+
+  <li>Rewritten a lot of code which made the plugin smaller in size</li>
+
+  <li>NPC Codes are now fully implemented into the plugin and are now also translatable
+  (and hotkeys can be changed)</li>
 
   </ul>
 
@@ -77,8 +76,8 @@ update_notes: '<h1>New Update!!</h1>
 
   If you encounter any bugs feel free to report them on the official <a href="https://discord.gg/QwqdBpKWf3"
   rel="nofollow">Vapecord Discord Server</a>.</p>'
-updated: '2021-08-06T16:04:37Z'
-version: v1.9.5
-version_title: ACNL Vapecord Public Plugin [v.1.9.5] BETA
+updated: '2021-09-02T01:05:48Z'
+version: v.1.9.5-beta.2
+version_title: ACNL Vapecord Public Plugin [v.1.9.5] BETA 2
 wiki: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/wiki
 ---

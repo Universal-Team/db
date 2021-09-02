@@ -118,13 +118,13 @@ update_notes: '<h1>This release is currently broken with official Luma3DS!</h1>
 
   <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/10946643/56131741-96b2c500-5f88-11e9-9af7-a81825505f5b.png"><img
   src="https://user-images.githubusercontent.com/10946643/56131741-96b2c500-5f88-11e9-9af7-a81825505f5b.png"
-  alt="image" style="max-width:100%;"></a></p>
+  alt="image" style="max-width: 100%;"></a></p>
 
   <h3>FONZD Banner</h3>
 
   <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/10946643/56131768-afbb7600-5f88-11e9-8585-6ceb930424cc.png"><img
   src="https://user-images.githubusercontent.com/10946643/56131768-afbb7600-5f88-11e9-8585-6ceb930424cc.png"
-  alt="image" style="max-width:100%;"></a></p>'
+  alt="image" style="max-width: 100%;"></a></p>'
 updated: '2020-11-23T12:27:12Z'
 version: v2.13.4
 wiki: https://github.com/Nanquitas/BootNTR/wiki

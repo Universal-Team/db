@@ -63,7 +63,7 @@ update_notes: '<h2>Modifications</h2>
 
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/vargaviktor/ZeldaROTH/releases/download/1.0.3-beta/qrcode.png"><img
   src="https://github.com/vargaviktor/ZeldaROTH/releases/download/1.0.3-beta/qrcode.png"
-  alt="QR Code" style="max-width:100%;"></a><br>
+  alt="QR Code" style="max-width: 100%;"></a><br>
 
   b. Download and install <a href="https://citra-emu.org/download/" rel="nofollow">Citra
   emulator</a> File -&gt; Install CIA</p>
