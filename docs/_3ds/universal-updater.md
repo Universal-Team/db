@@ -113,7 +113,7 @@ update_notes: '<h3>Changes</h3>
 
   <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/128966211-6263b6b6-769b-4a54-b194-5f28b855903a.png"><img
   src="https://user-images.githubusercontent.com/41608708/128966211-6263b6b6-769b-4a54-b194-5f28b855903a.png"
-  alt="QR code for universal-updater.cia" style="max-width: 100%;"></a></p>'
+  alt="QR code for universal-updater.cia" style="max-width:100%;"></a></p>'
 updated: '2021-08-11T03:37:15Z'
 version: v3.2.3
 version_title: Translation updates and a bug fix
