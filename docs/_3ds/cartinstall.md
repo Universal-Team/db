@@ -6,14 +6,10 @@ categories:
 - firm
 color: '#324039'
 created: '2019-05-08T17:29:52Z'
-description: An uncreatively named GodMode9 fork for installing 3DS cartridge games
-  directly to the SD
+description: An uncreatively named (and now deprecated) GodMode9 fork for installing
+  3DS cartridge games directly to the SD
 download_page: https://github.com/aspargas2/CartInstall/releases
-downloads:
-  CartInstall.firm:
-    size: 445952
-    size_str: 435 KiB
-    url: https://github.com/aspargas2/CartInstall/releases/download/v1.3.0/CartInstall.firm
+downloads: {}
 github: aspargas2/CartInstall
 icon_index: 147
 image: https://avatars.githubusercontent.com/u/36926490?v=4
@@ -25,8 +21,8 @@ source: https://github.com/aspargas2/CartInstall
 systems:
 - 3DS
 title: CartInstall
-update_notes: '<p>For information on what this is and how to use it, please see <a
-  href="https://github.com/aspargas2/CartInstall/blob/master/README.md">the readme</a>.</p>
+update_notes: '<p>Update 9/2/21: <strong>CartInstall is now deprecated. Please use
+  GodMode9''s builtin feature to install your cartridges.</strong></p>
 
   <p>Changes since the last release:</p>
 
