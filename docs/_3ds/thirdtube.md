@@ -9,13 +9,13 @@ description: A work-in-progress homebrew YouTube client for new 3DS
 download_page: https://github.com/windows-server-2003/ThirdTube/releases
 downloads:
   ThirdTube.3dsx:
-    size: 4368344
+    size: 4452096
     size_str: 4 MiB
-    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.1.3/ThirdTube.3dsx
+    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.2.0/ThirdTube.3dsx
   ThirdTube.cia:
-    size: 3228608
+    size: 3281856
     size_str: 3 MiB
-    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.1.3/ThirdTube.cia
+    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.2.0/ThirdTube.cia
 github: windows-server-2003/ThirdTube
 icon: https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/icon.png
 icon_index: 185
@@ -37,22 +37,33 @@ source: https://github.com/windows-server-2003/ThirdTube
 systems:
 - 3DS
 title: ThirdTube
-update_notes: '<p>The app was partially broken due to a change in YouTube. This is
-  the hotfix for it.</p>
+update_notes: '<p>It has been two years since the official YouTube app on 3DS was
+  discontinued.<br>
+
+  Several new features were added to ThirdTube on the other hand.</p>
 
   <ul>
 
-  <li>Fixed broken YouTube parser</li>
+  <li>Added the ability to show comment replies</li>
 
-  <li>Minor performance improvements</li>
+  <li>Added support for long comments and comment folding function</li>
 
-  <li>Minor stability improvements</li>
+  <li>Added support for subtitles</li>
 
-  <li>Internal refactor in the video player</li>
+  <li>Added duration text overlaid on the thumbnail in the search page</li>
+
+  <li>Added full screen mode (configurable in settings menu)</li>
+
+  <li>Fixed a bug where channel pages would not load more videos</li>
+
+  <li>Removed FPS indicator at the top left<br>
+
+  It was removed because it does not show the FPS of the video but the FPS of rendering
+  and caused confusion.</li>
 
   </ul>'
-updated: '2021-08-31T11:53:33Z'
-version: v0.1.3
-version_title: Release v0.1.3
+updated: '2021-09-03T16:46:20Z'
+version: v0.2.0
+version_title: Release v0.2.0
 website: https://gbatemp.net/threads/release-thirdtube-a-homebrew-youtube-client-for-the-new-3ds.591696/
 ---
