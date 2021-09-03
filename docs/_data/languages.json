@@ -1,9 +1,4 @@
 {
-	"Bruh": {
-		"id": "bruh-US",
-		"proper-id": "en-US",
-		"dir": "ltr"
-	},
 	"Dansk": {
 		"id": "da-DK",
 		"dir": "ltr",
@@ -30,6 +25,10 @@
 	},
 	"עברית": {
 		"id": "he-IL",
+		"dir": "rtl"
+	},
+	"العربية": {
+		"id": "ar-SA",
 		"dir": "rtl"
 	},
 	"Magyar": {
@@ -97,5 +96,9 @@
 		"id": "ic-IC",
 		"dir": "ltr",
 		"hide": true
+	},
+	"Română": {
+		"id": "ro-RO",
+		"dir": "ltr"
 	}
 }
