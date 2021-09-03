@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/download/1.1/TWLFix-CFW.3dsx
 github: MechanicalDragon0687/TWLFix-CFW
 icon: https://raw.githubusercontent.com/MechanicalDragon0687/TWLFix-CFW/master/icon.png
-icon_index: 168
+icon_index: 167
 image: https://raw.githubusercontent.com/MechanicalDragon0687/TWLFix-CFW/master/icon.png
 image_length: 614
 layout: app

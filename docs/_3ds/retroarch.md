@@ -21,7 +21,7 @@ eval_downloads: true
 eval_notes_md: true
 github: libretro/RetroArch
 icon: https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/ctr/assets/default.png
-icon_index: 163
+icon_index: 162
 image: https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/ctr/assets/libretro_banner.png
 image_length: 3154
 layout: app

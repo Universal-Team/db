@@ -14,7 +14,7 @@ downloads:
     url: https://github.com/xerpi/linux_3ds/releases/download/5.10.0%2B/linux-3ds-5.10.0%2B.zip
 github: xerpi/linux_3ds
 icon: https://raw.githubusercontent.com/linux-3ds/linux/master/Documentation/logo.gif
-icon_index: 166
+icon_index: 165
 image: https://raw.githubusercontent.com/linux-3ds/linux/master/Documentation/logo.gif
 image_length: 16335
 layout: app

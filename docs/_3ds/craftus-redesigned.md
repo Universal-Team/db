@@ -18,7 +18,7 @@ downloads:
     url: https://github.com/GamesSanti/Craftus-Redesigned/releases/download/0.5.4/craftus_redesigned.cia
 github: GamesSanti/Craftus-Redesigned
 icon: https://raw.githubusercontent.com/GamesSanti/Craftus-Reskined/main/icon/craftusreloaded.png
-icon_index: 157
+icon_index: 156
 image: https://user-images.githubusercontent.com/68710005/100094866-6c014180-2e38-11eb-9139-c4e9784e2c1b.png
 image_length: 288054
 layout: app

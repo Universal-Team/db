@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/fincs/new-hbmenu/releases/download/v2.2.0/boot.3dsx
 github: fincs/new-hbmenu
 icon: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
-icon_index: 151
+icon_index: 150
 image: https://avatars.githubusercontent.com/u/581494?v=4
 image_length: 169277
 layout: app

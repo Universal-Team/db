@@ -26,7 +26,7 @@ downloads:
     url: https://github.com/SaturnSH2x2/Sonic-CD-11-3DS/releases/download/v1.32/SonicCD_SW.cia
 github: SaturnSH2x2/Sonic-CD-11-Decompilation
 icon: https://raw.githubusercontent.com/SaturnSH2x2/Sonic-CD-11-Decompilation/master/resources/48x48.png
-icon_index: 169
+icon_index: 168
 image: https://raw.githubusercontent.com/SaturnSH2x2/Sonic-CD-11-Decompilation/master/resources/banner.png
 image_length: 66191
 layout: app
