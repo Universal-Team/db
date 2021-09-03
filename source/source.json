@@ -5601,11 +5601,6 @@
 		}
 	},
 	{
-		"github": "aspargas2/CartInstall",
-		"systems": ["3DS"],
-		"categories": ["utility", "firm"]
-	},
-	{
 		"github": "LumaTeam/Luma3DS",
 		"systems": ["3DS"],
 		"categories": ["utility", "firm", "luma3ds"],
