@@ -7,16 +7,12 @@ color: '#484848'
 created: '2010-05-27T14:47:40Z'
 description: Cross-platform, sophisticated frontend for the libretro API. Licensed
   GPLv3.
-download_page: https://buildbot.libretro.com/stable/1.9.8/nintendo/3ds
+download_page: https://buildbot.libretro.com/stable/1.9.9/nintendo/3ds
 downloads:
   RetroArch_3dsx.7z:
-    size: 72522402
-    size_str: 69 MiB
-    url: https://buildbot.libretro.com/stable/1.9.8/nintendo/3ds/RetroArch_3dsx.7z
+    url: https://buildbot.libretro.com/stable/1.9.9/nintendo/3ds/RetroArch_3dsx.7z
   RetroArch_cia.7z:
-    size: 73231019
-    size_str: 69 MiB
-    url: https://buildbot.libretro.com/stable/1.9.8/nintendo/3ds/RetroArch_cia.7z
+    url: https://buildbot.libretro.com/stable/1.9.9/nintendo/3ds/RetroArch_cia.7z
 eval_downloads: true
 eval_notes_md: true
 github: libretro/RetroArch
@@ -40,142 +36,94 @@ systems:
 title: RetroArch
 update_notes: '<ul>
 
-  <li>AUDIO/WINDOWS/WASAPI: Stop deactivating audio on fast forward</li>
+  <li>3DS: Add bottom touchscreen menu</li>
 
-  <li>CHEEVOS: Hide challenge indicators when resetting</li>
+  <li>3DS/SAVESTATES: Save and load save states to and from RAM</li>
 
-  <li>CHEEVOS: Support for more than 64 memory regions</li>
+  <li>AUDIO/MIXER: Ensure than menu sounds are re-enabled when calling CMD_EVENT_AUDIO_REINIT</li>
 
-  <li>CHEEVOS: Automatically retry ''http error code -1''</li>
+  <li>AUDIO/RESAMPLER/MIXER: Fix menu sounds (audio mixing) when using the ''sinc''
+  resampler with quality lower than ''normal''</li>
 
-  <li>CONTENT INFORMATION: Show content info label+path rows always</li>
+  <li>AUDIO/CONVERSION/ARM NEON: Add intrinsic NEON versions for float_to_s16/s16_to_float
+  - should lead to optimized codepaths for AArch64/ARMv7 architectures without being
+  dependent on ASM codepaths.</li>
 
-  <li>CORE OPTIONS: Core option categories implemented</li>
+  <li>AUDIO/RESAMPLER/ARM NEON: Add intrinsic NEON version for lanczos sinc function
+  - should lead to optimized codepaths for AArch64/ARMv7 architectures without being
+  dependent on ASM codepaths.</li>
 
-  <li>CORE OPTIONS: Add option to disable core option categories</li>
+  <li>CHEEVOS: Upgrade to rcheevos 10.2</li>
 
-  <li>D3D10/11/12: Fix gfx_display_draw_texture - fixes OSK (On-Screen Keyboard) issues</li>
+  <li>CHEATS: Add enhanced search functionality to the ''Cheats'' menu</li>
 
-  <li>DATABASE: Fix heap-buffer-overflow when fetching CRC values</li>
+  <li>CHEATS/RUNAHEAD: Fix cheats when using second instance runahead</li>
 
-  <li>DATABASE/EXPLORE: Fix CRC32 reading in explore menu</li>
+  <li>CONFIG: Add option to (force-)write current core options to disk (Quick Menu)</li>
 
-  <li>DATABASE/LIBRETRODB: Fix writing of numerical values</li>
+  <li>CORE INFO CACHE: Remove core path from core info cache. Should make core info
+  caches portable now (for example: you can move RetroArch to a separate dir and they
+  would still work).</li>
 
-  <li>DATABASE/LIBRETRODB: Fix libretro-db loading on big endian platforms</li>
+  <li>D3D11: Use Shader Model 5.0 for frontend shaders if D3D11 Feature level is at
+  least 11.0 or higher. Should fix some new shaders that require SM 5.0 (like AMD
+  FSR)</li>
 
-  <li>DUMMY CORE: Skip state_manager_event_{deinit/init} when core type is dummy,
-  should skip warning spam ''Implementation uses threaded audio. Cannot use rewind..''
-  when using rewind</li>
+  <li>D3D11: Add HDR support (disabled for UWP for now)</li>
 
-  <li>INPUT/UDEV: Limit udev device scan to subsystem ''input''</li>
+  <li>D3D12: Add HDR support (disabled for UWP for now)</li>
 
-  <li>INPUT/SDL2/WINDOWS: Fix keyboard event keycodes</li>
+  <li>EMSCRIPTEN: Fixed web player bug with filesystem and runtime</li>
 
-  <li>INPUT/WAYLAND: Fixes a bug where the first player''s mouse, pointer, and lightgun
-  are echoed to the other ports. Now, those other ports correctly report zero. In
-  the future support for multiple mouselike devices will need to be added, which is
-  a bigger project</li>
+  <li>INPUT/OVERLAY: Fix overlay input when analog to digital mapping is enabled</li>
 
-  <li>INPUT/WAYLAND: The driver now respects keyboard_mapping_blocked</li>
+  <li>INPUT/UDEV: Look for "ID_INPUT_KEY", not "ID_INPUT_KEYBOARD"</li>
 
-  <li>INPUT/WAYLAND: When possible, deprecated lightgun defines are replaced with
-  the new ones. The coordinates are still using the old relative callbacks</li>
+  <li>INPUT/WINRAW: Fix crash when overlay is enabled</li>
 
-  <li>INPUT/WINRAW: Trigger joypad driver reinit on DEVICECHANGE - avoids fullscreen
-  toggle</li>
+  <li>MAC/METAL: Add Discord RPC support</li>
 
-  <li>INPUT/WINRAW: Alt sticky fix</li>
+  <li>MENU: Allow ''Custom Aspect Ratio (X Position)/(Y Position)/(Width)/(Height)''
+  to be entered manually via keyboard</li>
 
-  <li>INPUT/WINRAW: Prevent Alt getting stuck when Alt-Tabbing</li>
+  <li>MENU: Allow ''Vertical Refresh Rate'' to be entered manually via keyboard</li>
 
-  <li>INPUT/WINRAW: Add pointer status</li>
+  <li>MENU/SHADERS: Highlight currently selected value in Shader Parameter drop-down
+  lists</li>
 
-  <li>INPUT/WINRAW: Add missing analog keybinds</li>
+  <li>STABILITY: Safer way of avoiding the race condition in<br>
 
-  <li>LIBNX/SWITCH: Fix poll missing for controller 2-8</li>
+  audio_driver_sample/audio_driver_sample_batch - we can check<br>
 
-  <li>LIBNX/SWITCH: Fix layout not applied correctly and hangs when splitting joycons</li>
+  audio-suspended to see if we''re doing a fs/windowed toggle - enhances stability
+  when fullscreen toggling/tearing down context</li>
 
-  <li>LIBRETRO: Core options category API implemented</li>
+  <li>STABILITY: When audio driver write callback function fails, don''t<br>
 
-  <li>LIBRETRO: Fix RETRO_ENVIRONMENT_SET_FASTFORWARDING_OVERRIDE callback when runahead
-  is enabled</li>
+  turn audio off completely - look if audio_driver_output_samples_conv_buf<br>
 
-  <li>LIBRETRO: Add environment callback for enabling core option menu visibility
-  updates without toggling Quick Menu</li>
+  is non-NULL first before we attempt to write audio - enhances stability when fullscreen
+  toggling/tearing down context</li>
 
-  <li>LOGGING: Starting logging and verbose mode before first config load</li>
+  <li>STABILITY: Input robustness for cores that use internal threading<br>
 
-  <li>LINUX: In some Linux Desktop Environments, like Budgie, task bar feature is
-  unable to pin applications. With StartupWMClass= present in .desktop file, it is
-  possible to pin the application</li>
+  (full teardown/setup), no audio should be processed at this point in<br>
 
-  <li>LOCALIZATION: Fetch translations from Crowdin</li>
+  time</li>
 
-  <li>MENU: Relocate ''Manage Playlists'' to top</li>
+  <li>VIDEO: Screen resolution list sanitizing</li>
 
-  <li>MENU: Fullscreen resolution width/height settings no longer require ''advanced
-  settings''</li>
+  <li>VULKAN: Fix some Vulkan validation layer errors</li>
 
-  <li>MENU/REFRESH RATE: Fix double notifications with refresh rate settings</li>
+  <li>UWP: Updated icons courtesy of Danp142</li>
 
-  <li>MENU/OZONE: Ensure the existence of values used in selection calculation</li>
+  <li>UWP/XBOX: Disable CPU model check on Xbox as it doesn''t work and can even crash</li>
 
-  <li>MENU/OZONE/VULKAN: Casting to unsigned caused an integer overflow and after
-  float promotion would lead to ''x'' being a garbage value, leading to problems when
-  this value was passed to vkCmdSetViewport. This stops Vulkan validation layers from
-  complaining about it</li>
-
-  <li>METAL: Fixed font driver memory leaks</li>
-
-  <li>MOUSE: Change default mouse index to port index</li>
-
-  <li>MOUSE: Friendly names for mice where available</li>
-
-  <li>OSX: Fix some memory leaks</li>
-
-  <li>OSX: Fix controller duplication bug</li>
-
-  <li>PS2: Implement alpha for the video driver</li>
-
-  <li>PS2: Aspect ratio handling</li>
-
-  <li>RETROFW: Initial port</li>
-
-  <li>UWP/XBOX: Enable Explore tab by default - seems to work fine</li>
-
-  <li>UWP/XBOX: Fix startup issues with latest Xbox Dashboard updates - ANGLE cores
-  still show up wrong</li>
-
-  <li>UWP/XBOX: fix issue where files where opened as OPENALWAYS instead of OPENEXISTING
-  this fixes beetle cores</li>
-
-  <li>UWP/XBOX: fix issue where filesizes where not returned properly, this fixes
-  loading arcade dat files</li>
-
-  <li>UWP/TRANSLATION: Enabled translation services for both UWP MSVC2017 and 2019.
-  No TTS speech yet.</li>
-
-  <li>VIDEO: Fix refresh rate 59Hz rounding</li>
-
-  <li>WINDOWS: Remember original refresh rate</li>
-
-  <li>WINDOWS/VULKAN: Refresh rate fixes + cleanups</li>
-
-  <li>WIIU: Fix L3/R3 buttons</li>
-
-  <li>WIIU: Compress RPX libretro cores</li>
-
-  <li>WIIU: Add ICInvalidateRange (necessary for JITs)</li>
-
-  <li>WIIU: Slight filesystem optimisation</li>
-
-  <li>WIIU: Add option for running without core info (emscripten-style)</li>
+  <li>UWP/VFS/XBOX: Code cleanup and simplification of UWP VFS driver</li>
 
   </ul>'
-updated: '2021-08-22T19:01:25Z'
-version: v1.9.8
-version_title: v1.9.8
+updated: '2021-09-05T02:00:50Z'
+version: v1.9.9
+version_title: v1.9.9
 website: http://www.libretro.com
 ---
