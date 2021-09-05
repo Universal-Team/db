@@ -311,6 +311,7 @@ unistore = {
 		"sheet": "universal-db.t3x",
 		"dsSheetURL": "https://github.com/Universal-Team/db/raw/master/docs/unistore/universal-db.tdx",
 		"dsSheet": "universal-db.tdx",
+		"infoURL": "https://github.com/Universal-Team/db/raw/master/docs/unistore/universal-db-info.json",
 		"description": "Universal-DB - An online database of 3DS and DS homebrew",
 		"version": 3,
 		"revision": 0 if "revision" not in unistoreOld["storeInfo"] else unistoreOld["storeInfo"]["revision"]
@@ -923,6 +924,9 @@ if unistore != unistoreOld:
 # Write unistore to file
 with open(os.path.join("..", "docs", "unistore", "universal-db.unistore"), "w", encoding="utf8") as file:
 	file.write(json.dumps(unistore, sort_keys=True, ensure_ascii=False))
+# and UniStore metadata
+with open(os.path.join("..", "docs", "unistore", "universal-db-info.json"), "w", encoding="utf8") as file:
+	file.write(json.dumps(unistore["storeInfo"], sort_keys=True, ensure_ascii=False))
 
 # Write output file
 with open(os.path.join("..", "docs", "data", "full.json"), "w", encoding="utf8") as file:
