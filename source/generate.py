@@ -85,7 +85,7 @@ def downloadScript(file, url, message, archive):
 					"type": "extractFile",
 					"file": f"/{file}",
 					"input": f"{item}",
-					"output": f"sdmc:/{item[item.rfind('/') + 1:]}",
+					"output": f"/{item[item.rfind('/') + 1:]}",
 					"message": f"Extracting {file}..."
 				})
 
@@ -97,7 +97,7 @@ def downloadScript(file, url, message, archive):
 
 				script.append({
 					"type": "deleteFile",
-					"file": f"sdmc:/{item}",
+					"file": f"/{item}",
 					"message": f"Deleting {item}..."
 				})
 			elif item == "boot.firm":
@@ -105,7 +105,7 @@ def downloadScript(file, url, message, archive):
 					"type": "extractFile",
 					"file": f"/{file}",
 					"input": f"{item}",
-					"output": f"sdmc:/{item[item.rfind('/') + 1:]}",
+					"output": f"/{item[item.rfind('/') + 1:]}",
 					"message": f"Extracting {item[item.rfind('/') + 1:]}..."
 				})
 			elif item[item.rfind(".") + 1:].lower() == "firm":
@@ -121,7 +121,7 @@ def downloadScript(file, url, message, archive):
 					"type": "extractFile",
 					"file": f"/{file}",
 					"input": f"{item}",
-					"output": f"sdmc:/{item}",
+					"output": f"/{item}",
 					"message": f"Extracting {item}..."
 				})
 
@@ -154,7 +154,7 @@ def downloadScript(file, url, message, archive):
 				{
 					"type": "downloadFile",
 					"file": url,
-					"output": f"sdmc:/{file}",
+					"output": f"/{file}",
 					"message": f"Downloading {file}..."
 				},
 				{
@@ -164,7 +164,7 @@ def downloadScript(file, url, message, archive):
 				},
 				{
 					"type": "deleteFile",
-					"file": f"sdmc:/{file}",
+					"file": f"/{file}",
 					"message": f"Deleting {file}..."
 				}
 			]
@@ -173,7 +173,7 @@ def downloadScript(file, url, message, archive):
 				{
 					"type": "downloadFile",
 					"file": url,
-					"output": f"sdmc:/{file}",
+					"output": f"/{file}",
 					"message": f"Downloading {file}..."
 				}
 			]
@@ -191,19 +191,19 @@ def downloadScript(file, url, message, archive):
 				{
 					"type": "downloadFile",
 					"file": url,
-					"output": f"sdmc:/{file}",
+					"output": f"/{file}",
 					"message": f"Downloading {file}..."
 				},
 				{
 					"type": "extractFile",
-					"file": f"sdmc:/{file}",
+					"file": f"/{file}",
 					"input": "",
 					"output": f"%ARCHIVE_DEFAULT%/{file[0:file.find('.')]}/",
 					"message": f"Extracting {file}..."
 				},
 				{
 					"type": "deleteFile",
-					"file": f"sdmc:/{file}",
+					"file": f"/{file}",
 					"message": f"Deleting {file}..."
 				}
 			]
@@ -212,7 +212,7 @@ def downloadScript(file, url, message, archive):
 				{
 					"type": "downloadFile",
 					"file": url,
-					"output": f"sdmc:/{file}",
+					"output": f"/{file}",
 					"message": f"Downloading {file}..."
 				}
 			]

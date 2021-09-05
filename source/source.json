@@ -5533,7 +5533,7 @@
 				},
 				{
 					"type": "deleteFile",
-					"file": "sdmc:/rverse.zip",
+					"file": "/rverse.zip",
 					"message": "Deleting rverse.zip..."
 				}
 			]
@@ -5714,7 +5714,7 @@
 				},
 				{
 					"type": "deleteFile",
-					"file": "sdmc:/Vapecord.zip",
+					"file": "/Vapecord.zip",
 					"message": "Deleting Vapecord.zip..."
 				}
 			],
@@ -5742,7 +5742,7 @@
 				},
 				{
 					"type": "deleteFile",
-					"file": "sdmc:/Vapecord.zip",
+					"file": "/Vapecord.zip",
 					"message": "Deleting Vapecord.zip..."
 				}
 			],
@@ -5770,7 +5770,7 @@
 				},
 				{
 					"type": "deleteFile",
-					"file": "sdmc:/Vapecord.zip",
+					"file": "/Vapecord.zip",
 					"message": "Deleting Vapecord.zip..."
 				}
 			],
@@ -5798,7 +5798,7 @@
 				},
 				{
 					"type": "deleteFile",
-					"file": "sdmc:/Vapecord.zip",
+					"file": "/Vapecord.zip",
 					"message": "Deleting Vapecord.zip..."
 				}
 			],
@@ -5826,7 +5826,7 @@
 				},
 				{
 					"type": "deleteFile",
-					"file": "sdmc:/Vapecord.zip",
+					"file": "/Vapecord.zip",
 					"message": "Deleting Vapecord.zip..."
 				}
 			],
@@ -5854,7 +5854,7 @@
 				},
 				{
 					"type": "deleteFile",
-					"file": "sdmc:/Vapecord.zip",
+					"file": "/Vapecord.zip",
 					"message": "Deleting Vapecord.zip..."
 				}
 			],
@@ -5882,7 +5882,7 @@
 				},
 				{
 					"type": "deleteFile",
-					"file": "sdmc:/Vapecord.zip",
+					"file": "/Vapecord.zip",
 					"message": "Deleting Vapecord.zip..."
 				}
 			],
@@ -5910,7 +5910,7 @@
 				},
 				{
 					"type": "deleteFile",
-					"file": "sdmc:/Vapecord.zip",
+					"file": "/Vapecord.zip",
 					"message": "Deleting Vapecord.zip..."
 				}
 			]
