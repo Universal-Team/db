@@ -6586,6 +6586,10 @@
 					"file": "knowncarts.cfg",
 					"output": "%NDS%/knowncarts.cfg",
 					"message": "Downloading knowncarts.cfg..."
+				},
+				{
+					"type": "promptMessage",
+					"message": "You need \"grom.bin\", \"exec.bin\", \"knowncarts.cfg\",\nand optionally \"ivoice.bin\" in the folder with your ROM files.\n\n\"knowncarts.cfg\" was downloaded to\nthe same folder as NINTV-DS.nds."
 				}
 			]
 		}

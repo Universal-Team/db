@@ -680,7 +680,7 @@ for app in source:
 
 			if file:
 				if priorityOnlyMode:
-					old = next(item for item in oldData if item["title"] == app["title"])
+					old = next((item for item in oldData if item["title"] == app["title"]), {"icon_index": -1})
 					app["icon_index"] = old["icon_index"] if "icon_index" in old else -1
 				else:
 					app["icon_index"] = iconIndex
