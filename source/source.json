@@ -6563,5 +6563,31 @@
 		"systems": ["DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/Garhoogin/Box/main/icon.bmp"
+	},
+	{
+		"github": "wavemotion-dave/NINTV-DS",
+		"title": "Nintellivision",
+		"systems": ["DS"],
+		"categories": ["emulator"],
+		"icon": "https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/logo.bmp",
+		"image": "https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png",
+		"scripts": {
+			"NINTV-DS.nds": [
+				{
+					"type": "downloadRelease",
+					"repo": "wavemotion-dave/NINTV-DS",
+					"file": "NINTV-DS.nds",
+					"output": "%NDS%/NINTV-DS.nds",
+					"message": "Downloading NINTV-DS.nds..."
+				},
+				{
+					"type": "downloadRelease",
+					"repo": "wavemotion-dave/NINTV-DS",
+					"file": "knowncarts.cfg",
+					"output": "%NDS%/knowncarts.cfg",
+					"message": "Downloading knowncarts.cfg..."
+				}
+			]
+		}
 	}
 ]
