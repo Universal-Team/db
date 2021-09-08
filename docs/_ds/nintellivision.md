@@ -22,7 +22,7 @@ downloads:
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.0/knowncarts.cfg
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
-icon_index: -1
+icon_index: 188
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
 image_length: 9995
 layout: app
