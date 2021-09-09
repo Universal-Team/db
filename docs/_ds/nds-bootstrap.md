@@ -9,13 +9,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 371612
-    size_str: 362 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.46.2/nds-bootstrap.7z
+    size: 371858
+    size_str: 363 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.46.3/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 902066
-    size_str: 880 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.46.2/nds-bootstrap.zip
+    size: 897903
+    size_str: 876 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.46.3/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 icon_index: 140
@@ -34,35 +34,28 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/bffc7e336e4c5143fe240248dcc164ff0325ed2bac5fb7aacf145eb544525d2e/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3238333737303733363231353139353634382f3837343933313534303938363033363232342f73637265656e73686f7433312e626d705f2e706e67"><img
-  src="https://camo.githubusercontent.com/bffc7e336e4c5143fe240248dcc164ff0325ed2bac5fb7aacf145eb544525d2e/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3238333737303733363231353139353634382f3837343933313534303938363033363232342f73637265656e73686f7433312e626d705f2e706e67"
-  alt="screenshot" style="max-width: 100%;"></a></p>
-
-  <p>Instructions:</p>
-
-  <ol>
-
-  <li>Download the <code>.7z</code> file.</li>
-
-  <li>Extract the nds-bootstrap <code>.nds</code> files, to <code>root:/_nds</code>.</li>
-
-  <li><strong>TWLMenu++ users:</strong> Extract the <code>.ver</code> file to <code>root:/_nds/TWiLightMenu</code>.</li>
-
-  </ol>
-
-  <p><strong>Bug fix</strong></p>
-
-  <ul>
-
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Screenshots of ActImagine/MobiClip videos from <em>Mega Man ZX</em> &amp; <em>Infinite
-  Space</em> are no longer blank!</li>
-
-  </ul>'
-updated: '2021-08-11T08:50:31Z'
-version: v0.46.2
-version_title: v0.46.2 (hotfix)
+update_notes: "<p>Instructions:</p>\n<ol>\n<li>Download the <code>.7z</code> file.</li>\n\
+  <li>Extract the nds-bootstrap <code>.nds</code> files, to <code>root:/_nds</code>.</li>\n\
+  <li><strong>TWLMenu++ users:</strong> Extract the <code>.ver</code> file to <code>root:/_nds/TWiLightMenu</code>.</li>\n\
+  </ol>\n<p><strong>Improvement</strong></p>\n<ul>\n<li>(<a class=\"user-mention\"\
+  \ data-hovercard-type=\"user\" data-hovercard-url=\"/users/Epicpkmn11/hovercard\"\
+  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
+  \ href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a> and various) Updated in-game\
+  \ menu translations.</li>\n</ul>\n<p><strong>Bug fixes</strong></p>\n<ul>\n<li>(<a\
+  \ class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Epicpkmn11/hovercard\"\
+  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
+  \ href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a>) Fixed freezing when taking\
+  \ screenshots in G5 Pok\xE9mon.</li>\n<li>(<a class=\"user-mention\" data-hovercard-type=\"\
+  user\" data-hovercard-url=\"/users/Epicpkmn11/hovercard\" data-octo-click=\"hovercard-link-click\"\
+  \ data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Epicpkmn11\"\
+  >@Epicpkmn11</a>) Slot-1 is now enabled for <em>Pok\xE9mon Typing DS</em>.</li>\n\
+  <li>Fixed sound not playing correctly in <em>Star Wars: Episode III: Revenge of\
+  \ the Sith</em>, while running in DSiWarehax or forced DSi mode.</li>\n</ul>\n<p><strong>Known\
+  \ bug</strong></p>\n<ul>\n<li>Saving currently doesn't work in <em>Pok\xE9mon Typing\
+  \ DS</em>.</li>\n</ul>"
+updated: '2021-09-09T18:09:59Z'
+version: v0.46.3
+version_title: v0.46.3
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
 nds-bootstrap is an open-source application that allows Nintendo DS/DSi ROMs and homebrew to be natively utilised rather than using an emulator. nds-bootstrap works on Nintendo DSi/3DS SD cards through CFW and on Nintendo DS through flashcarts.
