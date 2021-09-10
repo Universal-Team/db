@@ -9,44 +9,33 @@ description: Nintellivision - an Intellivision Emulator for the Nintendo DS/DSi
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 976896
-    size_str: 954 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.0/NINTV-DS.nds
+    size: 624128
+    size_str: 609 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.1a/NINTV-DS.nds
   README.md:
-    size: 2522
+    size: 2638
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.0/README.md
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.1a/README.md
   knowncarts.cfg:
-    size: 18415
-    size_str: 17 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.0/knowncarts.cfg
+    size: 18529
+    size_str: 18 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.1a/knowncarts.cfg
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 icon_index: 188
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 9995
+image_length: 9967
 layout: app
 source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p>NINTV-DS is an Intellivision console emulator running on the DS/DSi.</p>
+update_notes: '<p>V1.1 : 09-Sep-2021 by wavemotion-dave</p>
 
-  <h2>Install :</h2>
+  <p>Big boost in speed. Just about everything full speed on DSi.<br>
 
-  <p>To make this work, place NINTV-DS.NDS on your flashcart or SD card which you
-  can launch.<br>
-
-  You must have these 3 files in the same directory as your ROM files:<br>
-
-  grom.bin<br>
-
-  exec.bin<br>
-
-  knowncarts.cfg</p>
-
-  <p>Optional is ivoice.bin for Intellivoice games.</p>'
-updated: '2021-09-07T21:13:07Z'
-version: '1.0'
-version_title: Version 1.0
+  A few more overlays added.</p>'
+updated: '2021-09-09T22:10:31Z'
+version: 1.1a
+version_title: Version 1.1a
 ---
