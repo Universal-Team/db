@@ -5176,6 +5176,7 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/hax0kartik/wumiibo/master/wumiibohelper/gfx/icon.png",
+		"autogen_scripts": true,
 		"scripts": {
 			"wumiibo": [
 				{
