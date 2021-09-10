@@ -11,31 +11,35 @@ downloads:
   NINTV-DS.nds:
     size: 624128
     size_str: 609 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.1a/NINTV-DS.nds
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.2/NINTV-DS.nds
   README.md:
-    size: 2638
+    size: 2828
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.1a/README.md
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.2/README.md
   knowncarts.cfg:
     size: 18529
     size_str: 18 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.1a/knowncarts.cfg
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.2/knowncarts.cfg
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 icon_index: 188
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 9967
+image_length: 10001
 layout: app
 source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p>V1.1 : 09-Sep-2021 by wavemotion-dave</p>
+update_notes: '<p>V1.2 : 10-Sep-2021 by wavemotion-dave</p>
 
-  <p>Big boost in speed. Just about everything full speed on DSi.<br>
+  <ul>
 
-  A few more overlays added.</p>'
-updated: '2021-09-09T22:10:31Z'
-version: 1.1a
-version_title: Version 1.1a
+  <li>More speed - many games now playable full speed on the DS-LITE/PHAT!</li>
+
+  <li>On the DSi, even the Intellivoice games should be running full speed now.</li>
+
+  </ul>'
+updated: '2021-09-10T16:02:33Z'
+version: '1.2'
+version_title: Version 1.2
 ---
