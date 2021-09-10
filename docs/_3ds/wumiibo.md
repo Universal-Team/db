@@ -1,5 +1,6 @@
 ---
 author: Kartik
+autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/16360444?v=4
 categories:
 - utility
