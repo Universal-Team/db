@@ -13,6 +13,7 @@ import re
 import requests
 from shutil import copyfile
 import sys
+import textwrap
 import yaml
 
 # No py 2
@@ -236,7 +237,39 @@ def downloadScript(file, url, message, archive):
 
 	return script
 
-def retroarch(icon_index):
+def saveIcon(img, tempDir, index, ds):
+	imgPal = None
+	if img.mode == "P":
+		pal = img.palette.palette
+		img = img.convert("RGBA")
+		data = numpy.array(img)
+		r, g, b, a = data.T
+		transparent = (r == pal[2]) & (g == pal[1]) & (b == pal[0])
+		data[...][transparent.T] = (0, 0, 0, 0)
+		img = Image.fromarray(data)
+	elif img.mode != "RGBA":
+		img = img.convert("RGBA")
+
+	img.thumbnail((48, 48))
+	img.save(os.path.join(tempDir, "48", f"{index}.png"))
+
+	if ds:
+		imgDS = img.copy()
+		imgDS.thumbnail((32, 32))
+		data = numpy.array(imgDS)
+		r, g, b, a = data.T
+		transparent = a < 0xFF
+		data[...][transparent.T] = (0xFF, 0, 0xFF, 0xFF)
+		imgDS = Image.fromarray(data)
+		imgDS = imgDS.quantize()
+		imgDS.save(os.path.join(tempDir, "32", f"{index}.png"))
+
+	color = img.copy()
+	color.thumbnail((1, 1))
+	color = color.getpixel((0, 0))
+	return img, f"#{color[0]:02x}{color[1]:02x}{color[2]:02x}"
+
+def retroarchUniStore():
 	print("Generating RetroArch UniStore")
 
 	retroarchOld = None
@@ -244,16 +277,17 @@ def retroarch(icon_index):
 		with open(os.path.join("..", "docs", "unistore", "retroarch.unistore"), "r", encoding="utf8") as file:
 			retroarchOld = json.load(file)
 
+	if not os.path.exists(os.path.join("temp_ra", "48")):
+		os.makedirs(os.path.join("temp_ra", "48"))
+
 	retroarch = {
 		"storeInfo": {
 			"title": "RetroArch Cores",
 			"author": "Libretro",
 			"url": "https://github.com/Universal-Team/db/raw/master/docs/unistore/retroarch.unistore",
 			"file": "retroarch.unistore",
-			"sheetURL": "https://github.com/Universal-Team/db/raw/master/docs/unistore/universal-db.t3x",
-			"sheet": "universal-db.t3x",
-			"dsSheetURL": "https://github.com/Universal-Team/db/raw/master/docs/unistore/universal-db.tdx",
-			"dsSheet": "universal-db.tdx",
+			"sheetURL": "https://github.com/Universal-Team/db/raw/master/docs/unistore/retroarch.t3x",
+			"sheet": "retroarch.t3x",
 			"description": "RetroArch cores",
 			"version": 3,
 			"revision": retroarchOld["storeInfo"]["revision"] if retroarchOld else 0
@@ -261,28 +295,57 @@ def retroarch(icon_index):
 		"storeContent": [],
 	}
 
-	r = requests.get("https://buildbot.libretro.com/nightly/nintendo/3ds/latest/3dsx/")
-	soup = BeautifulSoup(r.text, "html.parser")
-	for a in soup.find_all("a"):
-		if a["href"].startswith("/nightly/nintendo/3ds/latest/"):
-			name = re.findall(r"3dsx/(.*)\.3dsx", a["href"])[0]
-			retroarch["storeContent"].append({
-				"info": {
-					"title": ucs2Name(name),
-					"version": "nightly",
-					"author": "libretro",
-					"category": ["emulator"],
-					"console": ["3ds"],
-					"icon_index": icon_index,
-					"description": "",
-					"releasenotes": "",
-					"screenshots": [],
-					"license": "gpl-3.0",
-					"wiki": ""
-				},
-				f"{name}.3dsx": downloadScript(f"{name}.zip", "https://buildbot.libretro.com" + a["href"], None, {f"{name}.zip": [f"{name}.3dsx"]}),
-				f"{name}.cia": downloadScript(f"{name}.zip", "https://buildbot.libretro.com" + a["href"].replace("3dsx", "cia"), None, {f"{name}.zip": [f"{name}.cia"]}),
-			})
+	iconIndexRA = -1
+
+	r = requests.get("https://buildbot.libretro.com/nightly/nintendo/3ds/latest/3dsx/.index-extended")
+	for app in r.text.strip().split("\n"):
+		name = app.split(" ")[2][:-9]
+		print(name)
+
+		href = f"https://buildbot.libretro.com/nightly/nintendo/3ds/latest/3dsx/{name}.3dsx.zip"
+
+		info = {}
+		for item in requests.get(f"https://raw.githubusercontent.com/libretro/libretro-core-info/master/{name}.info").text.strip().split("\n"):
+			matches = re.findall(r'(.*?) *= *"(.*)"', item)
+			if matches:
+				info[matches[0][0]] = matches[0][1]
+
+		img = requests.get(f"https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/ctr/assets/{name[:-9]}.png")
+		if img.status_code == 200:
+			iconIndexRA += 1
+			saveIcon(Image.open(io.BytesIO(img.content)), "temp_ra", iconIndexRA, False)
+
+		notes = ""
+		if "description" in info and len(info["description"]) > 200:
+			notes += f"### Description\n{info['description']}\n\n"
+		if "notes" in info:
+			notes += "### Notes\n" + info["notes"].replace("|", "\n")
+
+
+		retroarch["storeContent"].append({
+			"info": {
+				"title": ucs2Name(info["display_name"] if "name" in info else name),
+				"version": info["display_version"] if "display_version" in info else "nightly",
+				"author": info["authors"].replace("|", ", ") if "authors" in info else "libretro",
+				"category": info["categories"].split("|") if "categories" in info else ["emulator"],
+				"console": ["3ds"],
+				"icon_index": iconIndexRA if img.status_code == 200 else -1,
+				"description": textwrap.shorten(info["description"], 200, placeholder="...") if "description" in info else "",
+				"releasenotes": notes,
+				"screenshots": [],
+				"license": info["license"] if "license" in info else "",
+				"wiki": ""
+			},
+			f"{name}.3dsx": downloadScript(f"{name}.zip", href, None, {f"{name}.zip": [f"{name}.3dsx"]}),
+			f"{name}.cia": downloadScript(f"{name}.zip", href.replace("3dsx", "cia"), None, {f"{name}.zip": [f"{name}.cia"]}),
+		})
+
+	# Make t3x
+	with open(os.path.join("temp_ra", "48", "icons.t3s"), "w", encoding="utf8") as file:
+		file.write("--atlas -f rgba -z auto\n\n")
+		for i in range(iconIndexRA):
+			file.write(f"{i}.png\n")
+	os.system(f"tex3ds -i {os.path.join('temp_ra', '48', 'icons.t3s')} -o {os.path.join('..', 'docs', 'unistore', 'retroarch.t3x')}")
 
 	# Increment revision if not the same
 	if retroarch != retroarchOld:
@@ -686,36 +749,9 @@ for app in source:
 					app["icon_index"] = iconIndex
 
 				with Image.open(file) as img:
-					imgPal = None
-					if img.mode == "P":
-						pal = img.palette.palette
-						img = img.convert("RGBA")
-						data = numpy.array(img)
-						r, g, b, a = data.T
-						transparent = (r == pal[2]) & (g == pal[1]) & (b == pal[0])
-						data[...][transparent.T] = (0, 0, 0, 0)
-						img = Image.fromarray(data)
-					elif img.mode != "RGBA":
-						img = img.convert("RGBA")
-
-					img.thumbnail((48, 48))
-					img.save(os.path.join("temp", "48", f"{iconIndex}.png"))
-
-					imgDS = img.copy()
-					imgDS.thumbnail((32, 32))
-					data = numpy.array(imgDS)
-					r, g, b, a = data.T
-					transparent = a < 0xFF
-					data[...][transparent.T] = (0xFF, 0, 0xFF, 0xFF)
-					imgDS = Image.fromarray(data)
-					imgDS = imgDS.quantize()
-					imgDS.save(os.path.join("temp", "32", f"{iconIndex}.png"))
-
+					img, color = saveIcon(img, "temp", iconIndex, True)
 					if "color" not in app:
-						color = img.copy()
-						color.thumbnail((1, 1))
-						color = color.getpixel((0, 0))
-						app["color"] = "#{:02x}{:02x}{:02x}".format(color[0], color[1], color[2])
+						app["color"] = color
 
 				if "icon" in app and app["icon"].endswith(".bmp"):
 					copyfile(os.path.join("temp", "48", f"{iconIndex}.png"), os.path.join("..", "docs", "assets", "images", "icons", f"{webName(app['title'])}.png"))
@@ -896,7 +932,8 @@ for app in source:
 
 		if app["title"] == "RetroArch":
 			uni["info"]["description"] += "\n\nCores must be downloaded from their separate UniStore, which can be added in settings."
-			retroarch(uni["info"]["icon_index"])
+			if not priorityOnlyMode:
+				retroarchUniStore()
 
 		unistore["storeContent"].append(uni)
 
