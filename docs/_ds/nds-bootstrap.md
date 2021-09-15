@@ -70,7 +70,16 @@ update_notes: '<p><a target="_blank" rel="noopener noreferrer" href="https://git
   <ul>
 
   <li>You can now access the in-game menu, while running DSi-Enhanced/Exclusive games
-  in DSi mode!</li>
+  in DSi mode!
+
+  <ul>
+
+  <li>Take screenshots, alongside changing the clock speed and VRAM boost settings
+  to their DS versions.</li>
+
+  </ul>
+
+  </li>
 
   </ul>
 
