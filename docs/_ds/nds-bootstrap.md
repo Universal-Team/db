@@ -9,13 +9,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 371858
-    size_str: 363 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.46.3/nds-bootstrap.7z
+    size: 374537
+    size_str: 365 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.47.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 897903
-    size_str: 876 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.46.3/nds-bootstrap.zip
+    size: 910667
+    size_str: 889 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.47.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 icon_index: 140
@@ -34,29 +34,60 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: "<p>Instructions:</p>\n<ol>\n<li>Download the <code>.7z</code> file.</li>\n\
-  <li>Extract the nds-bootstrap <code>.nds</code> files, to <code>root:/_nds</code>.</li>\n\
-  <li><strong>TWLMenu++ users:</strong> Extract the <code>.ver</code> file to <code>root:/_nds/TWiLightMenu</code>.</li>\n\
-  </ol>\n<p>Included in <a href=\"https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v21.5.0\"\
-  ><strong>TW</strong>i<strong>L</strong>ight Menu++ v21.5.0</a></p>\n<p><strong>Improvement</strong></p>\n\
-  <ul>\n<li>(<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
-  /users/Epicpkmn11/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
-  link_type:self\" href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a> and various)\
-  \ Updated in-game menu translations.</li>\n</ul>\n<p><strong>Bug fixes</strong></p>\n\
-  <ul>\n<li>(<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
-  /users/Epicpkmn11/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
-  link_type:self\" href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a>) Fixed freezing\
-  \ when taking screenshots in G5 Pok\xE9mon.</li>\n<li>(<a class=\"user-mention\"\
-  \ data-hovercard-type=\"user\" data-hovercard-url=\"/users/Epicpkmn11/hovercard\"\
-  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
-  \ href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a>) Slot-1 is now enabled\
-  \ for <em>Pok\xE9mon Typing DS</em>.</li>\n<li>Fixed sound not playing correctly\
-  \ in <em>Star Wars: Episode III: Revenge of the Sith</em>, while running in DSiWarehax\
-  \ or forced DSi mode.</li>\n</ul>\n<p><strong>Known bug</strong></p>\n<ul>\n<li>Saving\
-  \ currently doesn't work in <em>Pok\xE9mon Typing DS</em>.</li>\n</ul>"
-updated: '2021-09-09T18:09:59Z'
-version: v0.46.3
-version_title: v0.46.3
+update_notes: '<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/DS-Homebrew/nds-bootstrap/blob/8380002905becb9cb8f79b7ae353eb88d15aa3f1/screenshots/v0.47.0/AssassinsCreed2Discovery.png?raw=true"><img
+  src="https://github.com/DS-Homebrew/nds-bootstrap/blob/8380002905becb9cb8f79b7ae353eb88d15aa3f1/screenshots/v0.47.0/AssassinsCreed2Discovery.png?raw=true"
+  alt="screenshot1" style="max-width: 100%;"></a> <a target="_blank" rel="noopener
+  noreferrer" href="https://github.com/DS-Homebrew/nds-bootstrap/blob/8380002905becb9cb8f79b7ae353eb88d15aa3f1/screenshots/v0.47.0/FotoShowdown.png?raw=true"><img
+  src="https://github.com/DS-Homebrew/nds-bootstrap/blob/8380002905becb9cb8f79b7ae353eb88d15aa3f1/screenshots/v0.47.0/FotoShowdown.png?raw=true"
+  alt="screenshot2" style="max-width: 100%;"></a> <a target="_blank" rel="noopener
+  noreferrer" href="https://github.com/DS-Homebrew/nds-bootstrap/blob/806a594fa68bab1d60647fd17af2ff86cd214378/screenshots/v0.47.0/PokemonB2W2.png?raw=true"><img
+  src="https://github.com/DS-Homebrew/nds-bootstrap/blob/806a594fa68bab1d60647fd17af2ff86cd214378/screenshots/v0.47.0/PokemonB2W2.png?raw=true"
+  alt="screenshot3" style="max-width: 100%;"></a> <a target="_blank" rel="noopener
+  noreferrer" href="https://github.com/DS-Homebrew/nds-bootstrap/blob/8380002905becb9cb8f79b7ae353eb88d15aa3f1/screenshots/v0.47.0/SystemFlaw.png?raw=true"><img
+  src="https://github.com/DS-Homebrew/nds-bootstrap/blob/8380002905becb9cb8f79b7ae353eb88d15aa3f1/screenshots/v0.47.0/SystemFlaw.png?raw=true"
+  alt="screenshot4" style="max-width: 100%;"></a><br>
+
+  The above screenshots are taken straight from real hardware, without a capture card
+  or an emulator!</p>
+
+  <p>Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v21.5.1"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v21.5.1</a></p>
+
+  <p>Instructions:</p>
+
+  <ol>
+
+  <li>Download the <code>.7z</code> file.</li>
+
+  <li>Extract the nds-bootstrap <code>.nds</code> files, to <code>root:/_nds</code>.</li>
+
+  <li><strong>TWLMenu++ users:</strong> Extract the <code>.ver</code> file to <code>root:/_nds/TWiLightMenu</code>.</li>
+
+  </ol>
+
+  <p><strong>What''s new?</strong></p>
+
+  <ul>
+
+  <li>You can now access the in-game menu, while running DSi-Enhanced/Exclusive games
+  in DSi mode!</li>
+
+  </ul>
+
+  <p><strong>Bug fixes</strong></p>
+
+  <ul>
+
+  <li>The patch offset cache from the previous nds-bootstrap version for each launched
+  ROM should now be properly cleared without having to manually delete the <code>patchOffsetCache</code>
+  folder in <code>sd:/_nds/nds-bootstrap/</code>.</li>
+
+  <li>Fixed an overlooked bug that broke some homebrew compatibility.</li>
+
+  </ul>'
+updated: '2021-09-15T08:57:31Z'
+version: v0.47.0
+version_title: v0.47.0
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
 nds-bootstrap is an open-source application that allows Nintendo DS/DSi ROMs and homebrew to be natively utilised rather than using an emulator. nds-bootstrap works on Nintendo DSi/3DS SD cards through CFW and on Nintendo DS through flashcarts.
