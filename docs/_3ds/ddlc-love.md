@@ -36,20 +36,19 @@ source: https://github.com/LukeZGD/DDLC-LOVE
 systems:
 - 3DS
 title: DDLC-LOVE
-update_notes: "<p><strong>v1.2.2 Release:</strong></p>\n<ul>\n<li>This release is\
-  \ for the PS Vita and L\xD6VE versions only. For other systems, go to <a href=\"\
+update_notes: "<p><strong>v1.2.3 Release:</strong></p>\n<ul>\n<li>This release is\
+  \ for the PS Vita, PSP, and L\xD6VE versions. For other systems, go to <a href=\"\
   https://github.com/LukeZGD/DDLC-LOVE/releases/tag/v1.1.9\">v1.1.9</a></li>\n</ul>\n\
-  <p><strong>v1.2.2 Changes:</strong></p>\n<ul>\n<li>Script, event, and other fixes</li>\n\
-  <li>Menu input improvements</li>\n<li>Update some image assets</li>\n<li>Update\
-  \ lpp-vita build</li>\n<li>Fix some issues with the L\xD6VE version</li>\n</ul>\n\
-  <p><strong>Post-release update:</strong></p>\n<ul>\n<li>Release has been updated\
-  \ to fix some small typo and enable VSync for Vita</li>\n</ul>\n<p><strong>Note:</strong></p>\n\
-  <ul>\n<li>DDLC-LOVE is not compatible with any existing mods and translations, they\
-  \ have to be ported manually. Also, DDLC-LOVE is a port of the free base game only.\
-  \ Content from DDLC Plus will not be ported over to DDLC-LOVE. If you want DDLC\
-  \ Plus content, please support Team Salvato and buy the game from the official platforms</li>\n\
-  </ul>"
-updated: '2021-07-17T05:45:03Z'
-version: v1.2.2
-version_title: v1.2.2
+  <p><strong>v1.2.3 Changes:</strong></p>\n<ul>\n<li>Update script-ch30.lua</li>\n\
+  <li>Add back PSP support</li>\n</ul>\n<p><strong>Notes:</strong></p>\n<ul>\n<li>Final\
+  \ release. With better ways to play DDLC on Switch and Vita platforms, DDLC-LOVE\
+  \ is no longer needed, and it will not be updated anymore.</li>\n<li>For the PS\
+  \ Vita, I recommend using <a href=\"https://github.com/SonicMastr/Doki-Doki-Literature-Club-Vita\"\
+  >Doki-Doki-Literature-Club-Vita</a> instead of DDLC-LOVE for the full desktop version\
+  \ (in Ren'Py) with support for mods.</li>\n<li>For the Switch, support Team Salvato\
+  \ and buy DDLC Plus! The original DDLC (in Ren'Py) can also be run with Switchroot\
+  \ Ubuntu or Android with support for mods.</li>\n</ul>"
+updated: '2021-09-16T07:03:42Z'
+version: v1.2.3
+version_title: v1.2.3
 ---
