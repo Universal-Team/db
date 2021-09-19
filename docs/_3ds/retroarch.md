@@ -7,16 +7,12 @@ color: '#484848'
 created: '2010-05-27T14:47:40Z'
 description: Cross-platform, sophisticated frontend for the libretro API. Licensed
   GPLv3.
-download_page: https://buildbot.libretro.com/stable/1.9.9/nintendo/3ds
+download_page: https://buildbot.libretro.com/stable/1.9.10/nintendo/3ds
 downloads:
   RetroArch_3dsx.7z:
-    size: 72656206
-    size_str: 69 MiB
-    url: https://buildbot.libretro.com/stable/1.9.9/nintendo/3ds/RetroArch_3dsx.7z
+    url: https://buildbot.libretro.com/stable/1.9.10/nintendo/3ds/RetroArch_3dsx.7z
   RetroArch_cia.7z:
-    size: 73302973
-    size_str: 69 MiB
-    url: https://buildbot.libretro.com/stable/1.9.9/nintendo/3ds/RetroArch_cia.7z
+    url: https://buildbot.libretro.com/stable/1.9.10/nintendo/3ds/RetroArch_cia.7z
 eval_downloads: true
 eval_notes_md: true
 github: libretro/RetroArch
@@ -40,94 +36,77 @@ systems:
 title: RetroArch
 update_notes: '<ul>
 
-  <li>3DS: Add bottom touchscreen menu</li>
+  <li>3DS: Add bottom screen idle state</li>
 
-  <li>3DS/SAVESTATES: Save and load save states to and from RAM</li>
+  <li>3DS: Add unique IDs for Gearboy/Gearcoleco/Gearsystem, correct CAP32 code</li>
 
-  <li>AUDIO/MIXER: Ensure than menu sounds are re-enabled when calling CMD_EVENT_AUDIO_REINIT</li>
+  <li>3DS/SAVESTATES: Fix RAM states to file when core deinits</li>
 
-  <li>AUDIO/RESAMPLER/MIXER: Fix menu sounds (audio mixing) when using the ''sinc''
-  resampler with quality lower than ''normal''</li>
+  <li>AUDIO/MIXER: Pad sample buffers to prevent potential heap-buffer-overflows when
+  resampling (fixes crash when using 30 kHz menu audio files)</li>
 
-  <li>AUDIO/CONVERSION/ARM NEON: Add intrinsic NEON versions for float_to_s16/s16_to_float
-  - should lead to optimized codepaths for AArch64/ARMv7 architectures without being
-  dependent on ASM codepaths.</li>
+  <li>AUDIO/LINUX/SNAP: Add JACK support</li>
 
-  <li>AUDIO/RESAMPLER/ARM NEON: Add intrinsic NEON version for lanczos sinc function
-  - should lead to optimized codepaths for AArch64/ARMv7 architectures without being
-  dependent on ASM codepaths.</li>
+  <li>CHEEVOS: Don''t write achievement credentials to overrides</li>
 
-  <li>CHEEVOS: Upgrade to rcheevos 10.2</li>
+  <li>CHEEVOS: Disable slowmotion when enabling hardcore mode</li>
 
-  <li>CHEATS: Add enhanced search functionality to the ''Cheats'' menu</li>
+  <li>D3D9: Fixed MVP matrix issue for RGUI texture (main game frame still won''t
+  show up though)</li>
 
-  <li>CHEATS/RUNAHEAD: Fix cheats when using second instance runahead</li>
+  <li>D3D11/D3D12/HDR: Fixed contrast to be more correct - now scales from 0-10 linearly
+  and behaves more the way you''d expect it to - changed name to ditch legacy settings
+  users may have</li>
 
-  <li>CONFIG: Add option to (force-)write current core options to disk (Quick Menu)</li>
+  <li>D3D11/HDR: Fixed D3D11''s blend, rasterizer and topology states not being set
+  to the sames when using HDR and leaving the menu - caused issues with PCSX2''s Shadow
+  of the Colossus</li>
 
-  <li>CORE INFO CACHE: Remove core path from core info cache. Should make core info
-  caches portable now (for example: you can move RetroArch to a separate dir and they
-  would still work).</li>
+  <li>D3D11/D3D12/HDR: Added ability to skip inverse tonemapper to the shader via
+  the constant buffer using ''inverse_tonemap'' - set to 0.0f to skip</li>
 
-  <li>D3D11: Use Shader Model 5.0 for frontend shaders if D3D11 Feature level is at
-  least 11.0 or higher. Should fix some new shaders that require SM 5.0 (like AMD
-  FSR)</li>
+  <li>D3D11/D3D12/HDR: Fixed potential bug when swapping between hdr and sdr and the
+  bit depth not being set correctly</li>
 
-  <li>D3D11: Add HDR support (disabled for UWP for now)</li>
+  <li>D3D11/D3D12/HDR: Added numerous helper functions to help create the correct
+  values to colour the UI - normally the white UI elements should be rendered at paper
+  white not max brightness for various reasons</li>
 
-  <li>D3D12: Add HDR support (disabled for UWP for now)</li>
+  <li>BUGFIX/ANDROID: Fix crash that could happen on Android with Sameboy core - would
+  crash on rumble function</li>
 
-  <li>EMSCRIPTEN: Fixed web player bug with filesystem and runtime</li>
+  <li>GFX/WIDGETS: New regular widget message appearance</li>
 
-  <li>INPUT/OVERLAY: Fix overlay input when analog to digital mapping is enabled</li>
+  <li>INPUT/MOUSE: Add distinct mouse zero index label for drivers that do not support
+  multimouse</li>
 
-  <li>INPUT/UDEV: Look for "ID_INPUT_KEY", not "ID_INPUT_KEYBOARD"</li>
+  <li>INPUT/RUMBLE: Add generic rumble gain to input settings</li>
 
-  <li>INPUT/WINRAW: Fix crash when overlay is enabled</li>
+  <li>INPUT/UDEV/X11: Add workaround to fix keyboard input when using X11 + Udev</li>
 
-  <li>MAC/METAL: Add Discord RPC support</li>
+  <li>LIBNX/SWITCH: Add Video Filters support</li>
 
-  <li>MENU: Allow ''Custom Aspect Ratio (X Position)/(Y Position)/(Width)/(Height)''
-  to be entered manually via keyboard</li>
+  <li>LOCALIZATION: Fetch translations from Crowdin</li>
 
-  <li>MENU: Allow ''Vertical Refresh Rate'' to be entered manually via keyboard</li>
+  <li>OPENDINGUX/BETA: Disable OpenAL</li>
 
-  <li>MENU/SHADERS: Highlight currently selected value in Shader Parameter drop-down
-  lists</li>
+  <li>PLAYLISTS: Add ''Refresh Playlist'' option</li>
 
-  <li>STABILITY: Safer way of avoiding the race condition in<br>
+  <li>STEAM: Initial release on Steam</li>
 
-  audio_driver_sample/audio_driver_sample_batch - we can check<br>
+  <li>UWP/VFS/XBOX: Improvements and bugfixes to UWP VFS driver</li>
 
-  audio-suspended to see if we''re doing a fs/windowed toggle - enhances stability
-  when fullscreen toggling/tearing down context</li>
+  <li>VIDEO/REFRESH RATE: Automatic PAL/NTSC refresh rate switch where available -
+  as long as the platform display server allows changing refresh rates and the display
+  has the desired refresh rate</li>
 
-  <li>STABILITY: When audio driver write callback function fails, don''t<br>
+  <li>VIDEO FILTERS: Add ''Picoscale_256x-320x240'' video filter</li>
 
-  turn audio off completely - look if audio_driver_output_samples_conv_buf<br>
-
-  is non-NULL first before we attempt to write audio - enhances stability when fullscreen
-  toggling/tearing down context</li>
-
-  <li>STABILITY: Input robustness for cores that use internal threading<br>
-
-  (full teardown/setup), no audio should be processed at this point in<br>
-
-  time</li>
-
-  <li>VIDEO: Screen resolution list sanitizing</li>
-
-  <li>VULKAN: Fix some Vulkan validation layer errors</li>
-
-  <li>UWP: Updated icons courtesy of Danp142</li>
-
-  <li>UWP/XBOX: Disable CPU model check on Xbox as it doesn''t work and can even crash</li>
-
-  <li>UWP/VFS/XBOX: Code cleanup and simplification of UWP VFS driver</li>
+  <li>WIIU/HID: Fix analog inputs on HID devices</li>
 
   </ul>'
-updated: '2021-09-05T02:00:50Z'
-version: v1.9.9
-version_title: v1.9.9
+updated: '2021-09-19T03:22:03Z'
+version: v1.9.10
+version_title: v1.9.10
 website: http://www.libretro.com
 ---

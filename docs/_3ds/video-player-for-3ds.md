@@ -9,13 +9,13 @@ description: You can play .mp4 file on your 3DS!
 download_page: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases
 downloads:
   Video_player_for_3DS.3dsx:
-    size: 7613032
+    size: 7632000
     size_str: 7 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.3.1/Video_player_for_3DS.3dsx
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.3.2/Video_player_for_3DS.3dsx
   Video_player_for_3DS.cia:
-    size: 5161920
+    size: 5166016
     size_str: 4 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.3.1/Video_player_for_3DS.cia
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.3.2/Video_player_for_3DS.cia
 github: Core-2-Extreme/Video_player_for_3DS
 icon: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/icon.png
 icon_index: 177
@@ -31,20 +31,16 @@ source: https://github.com/Core-2-Extreme/Video_player_for_3DS
 systems:
 - 3DS
 title: Video player for 3DS
-update_notes: '<ul>
+update_notes: '<p>Added aspect ratio 10:3 mode (for 800x240 videos)<br>
 
-  <li>Volume adjustment has been added (from 0% to 999%)</li>
+  Added disable resize and move video mode<br>
 
-  <li>Direction pad seeking has been added (from 1 second to 99 seconds)</li>
+  Added remember video pos mode (resume from that pos next time)<br>
 
-  <li>Hungarian(magyar) translation has been added (by vargaviktor)</li>
-
-  <li>Other minor changes</li>
-
-  </ul>'
-updated: '2021-08-28T11:03:10Z'
-version: v1.3.1
-version_title: Video player for 3DS v1.3.1
+  Other minor changes</p>'
+updated: '2021-09-19T03:36:46Z'
+version: v1.3.2
+version_title: Video player for 3DS v1.3.2
 ---
 You can play .mp4 file on your 3DS!
 
