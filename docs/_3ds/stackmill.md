@@ -9,13 +9,13 @@ description: A clone of the mill game for Nintendo 3DS.
 download_page: https://github.com/SuperSaiyajinStackZ/StackMill/releases
 downloads:
   StackMill.3dsx:
-    size: 270988
-    size_str: 264 KiB
-    url: https://github.com/SuperSaiyajinStackZ/StackMill/releases/download/v0.3.0/StackMill.3dsx
+    size: 280572
+    size_str: 273 KiB
+    url: https://github.com/SuperSaiyajinStackZ/StackMill/releases/download/v0.4.0/StackMill.3dsx
   StackMill.cia:
-    size: 299968
-    size_str: 292 KiB
-    url: https://github.com/SuperSaiyajinStackZ/StackMill/releases/download/v0.3.0/StackMill.cia
+    size: 308160
+    size_str: 300 KiB
+    url: https://github.com/SuperSaiyajinStackZ/StackMill/releases/download/v0.4.0/StackMill.cia
 github: SuperSaiyajinStackZ/StackMill
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/StackMill/main/3DS/app/icon.png
 icon_index: 183
@@ -61,35 +61,27 @@ source: https://github.com/SuperSaiyajinStackZ/StackMill
 systems:
 - 3DS
 title: StackMill
-update_notes: '<p>This is v0.3.0 of StackMill, which has the following changes:</p>
+update_notes: '<p>It''s quite some time i released v0.3.0, but now here it is: this
+  is StackMill''s final release with some bug fixes.</p>
 
   <ul>
 
-  <li>
+  <li>Fix the Language Selector not going to the proper current language.</li>
 
-  <p>Added initial multi language support. (English, German and Japanese are supported
-  right now).</p>
+  <li>Fix the Import / Export Settings button going out of scope when selected with
+  <code>A</code>.</li>
 
-  </li>
+  <li>Show the Cover on the top screen instead of the banner on the splash.</li>
 
-  <li>
-
-  <p>Reworked SettingsTab for Game Settings, Language and a new Import / Export feature
-  for the GameData.</p>
-
-  </li>
-
-  <li>
-
-  <p>[NEW]: Save the current match to a file and Load it, so you can save an important
-  match and load it whenever you want.</p>
-
-  </li>
+  <li>For the fun: Add AI vs AI mode, because why not. You need to press <code>START</code>
+  + <code>X</code> in the game tab for it though (Let''s see how many people read
+  actual release notes lol).</li>
 
   </ul>
 
-  <p>That''s pretty much all I believe that changed. Have fun. ~SuperSaiyajinStackZ</p>'
-updated: '2021-07-09T15:43:01Z'
-version: v0.3.0
-version_title: Multi-Language Support
+  <p>And that''s it. Thank you for using StackMill and have fun with v0.4.0, the final
+  version! ~SuperSaiyajinStackZ.</p>'
+updated: '2021-09-19T07:48:03Z'
+version: v0.4.0
+version_title: StackMill's final release
 ---
