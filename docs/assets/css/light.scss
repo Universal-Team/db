@@ -15,7 +15,7 @@ $small-color: #666;
 $carousel-caption-bg: #fffb;
 
 // Cards
-$card-background: var($main-bg);
+$card-background: $main-bg;
 $card-edges-background: rgba(0,0,0,.03);
 
 // Modal
