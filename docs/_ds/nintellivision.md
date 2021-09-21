@@ -11,45 +11,45 @@ downloads:
   NINTV-DS.nds:
     size: 621568
     size_str: 607 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.4/NINTV-DS.nds
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.5/NINTV-DS.nds
   README.md:
-    size: 4173
+    size: 4782
     size_str: 4 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.4/README.md
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.5/README.md
   custom-overlays.zip:
     size: 525143
     size_str: 512 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.4/custom-overlays.zip
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.5/custom-overlays.zip
   knowncarts.cfg:
-    size: 19026
+    size: 19152
     size_str: 18 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.4/knowncarts.cfg
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/1.5/knowncarts.cfg
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 icon_index: 188
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 10013
+image_length: 10018
 layout: app
 source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p>V1.4 : 16-Sep-2021 by wavemotion-dave</p>
+update_notes: '<p>V1.5 : 16-Sep-2021 by wavemotion-dave</p>
 
   <ul>
 
-  <li>Custom overlay support! See custom-overlay.zip in the distribution.</li>
+  <li>Better .ROM support (CVDEMO will now play)</li>
 
-  <li>Hide bios files from game listing.</li>
+  <li>More CP1610 optmization squeezing out a few more frames of performance.</li>
 
-  <li>New d-pad configuration options.</li>
+  <li>Improved Frameskip and Speed options in Config area.</li>
 
-  <li>Ability to map DS keys to meta-functions such as load, config, score, etc.</li>
+  <li>Cleanup for custom overlay support.</li>
 
-  <li>Other cleanups as time permitted...</li>
+  <li>Other minor cleanups where time permitted.</li>
 
   </ul>'
-updated: '2021-09-16T11:52:29Z'
-version: '1.4'
-version_title: Version 1.4
+updated: '2021-09-21T11:48:50Z'
+version: '1.5'
+version_title: Version 1.5
 ---
