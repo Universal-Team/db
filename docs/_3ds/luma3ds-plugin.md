@@ -13,11 +13,11 @@ downloads:
   boot.firm:
     size: 238080
     size_str: 232 KiB
-    url: https://github.com/mikewii/Luma3DS-plugin/releases/download/r1.0.11/boot.firm
+    url: https://github.com/mikewii/Luma3DS-plugin/releases/download/r1.0.12/boot.firm
   default.3gx:
-    size: 697238
-    size_str: 680 KiB
-    url: https://github.com/mikewii/Luma3DS-plugin/releases/download/r1.0.11/default.3gx
+    size: 770526
+    size_str: 752 KiB
+    url: https://github.com/mikewii/Luma3DS-plugin/releases/download/r1.0.12/default.3gx
 github: mikewii/Luma3DS-plugin
 icon_index: 149
 image: https://avatars.githubusercontent.com/u/29737660?v=4
@@ -29,12 +29,8 @@ systems:
 title: Luma3DS-plugin
 update_notes: '<p>Plugin:<br>
 
-  Added Battery info.<br>
-
-  White color is discharging, green is charging.<br>
-
-  Update period 1sec.</p>'
-updated: '2021-05-21T20:35:04Z'
-version: r1.0.11
-version_title: 1.0.11
+  fixed bug with wrong init order for hidInit</p>'
+updated: '2021-09-21T14:26:07Z'
+version: r1.0.12
+version_title: 1.0.12
 ---
