@@ -16,6 +16,10 @@ downloads:
     size: 240064
     size_str: 234 KiB
     url: https://github.com/zoogie/DSP1/releases/download/v1.0/DSP1.cia
+  DSP2.cia:
+    size: 240064
+    size_str: 234 KiB
+    url: https://github.com/zoogie/DSP1/releases/download/v1.0/DSP2.cia
 github: zoogie/DSP1
 icon: https://raw.githubusercontent.com/zoogie/DSP1/master/cia/icon.png
 icon_index: 86
@@ -26,15 +30,20 @@ license: mit
 license_name: MIT License
 qr:
   DSP1.cia: https://db.universal-team.net/assets/images/qr/dsp1-cia.png
+  DSP2.cia: https://db.universal-team.net/assets/images/qr/dsp2-cia.png
 source: https://github.com/zoogie/DSP1
 systems:
 - 3DS
 title: DSP1
-update_notes: '<p>Initial release.</p>
+update_notes: '<p>Initial release.<br>
 
-  <p>Stealth Dec 9, 2020: add .3dsx, thx <a class="user-mention" data-hovercard-type="user"
+  Stealth Dec 9, 2020: add .3dsx, thx <a class="user-mention" data-hovercard-type="user"
   data-hovercard-url="/users/Oreo639/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Oreo639">@Oreo639</a></p>'
+  data-octo-dimensions="link_type:self" href="https://github.com/Oreo639">@Oreo639</a></p>
+
+  <p>NOTE: The DSP2.cia is identical to DSP1.cia.<br>
+
+  DSP2.cia was added because of technical issues downloading DSP1.cia.</p>'
 updated: '2017-05-03T01:57:36Z'
 version: v1.0
 version_title: DSP1
