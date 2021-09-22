@@ -14,8 +14,8 @@ created: '2019-02-24T20:26:00Z'
 description: Return of the customisable screen filter & other QoL improvements
 download_page: https://gbatemp.net/download/35619/
 downloads:
-  luma1021_QuickSwitchers - Wifi button toggle.zip:
-    url: https://gbatemp.net/download/luma-10-2-1-with-redshift-and-quick-switchers.35619/download?version=38477
+  luma1021_QuickSwitchers - extra config.zip:
+    url: https://gbatemp.net/download/luma-10-2-1-with-redshift-and-quick-switchers.35619/download?version=38568
 gbatemp: '35619'
 github: DullPointer/Luma3DS
 icon_index: 184
@@ -27,28 +27,21 @@ source: https://github.com/DullPointer/Luma3DS
 systems:
 - 3DS
 title: Luma 10.2.1 with Redshift and Quick-Switchers
-update_notes: 'New features:<br/>
+update_notes: 'New features:<br>
 
   <ul>
 
-  <li>Quick toggle Wifi from menus with START button press</li>
+  <li>Extra Config sub-menu within System config sub-menu to manage power-saving options:
+  Automatically suppress LEDs, Cut power to TWL Flashcards, Cut 3DS WiFi in sleep
+  mode.</li>
 
-  <li>Option to force revert TWiLightMenu widescreen patch from Quick-Switchers submenu
-  - useful if game specific aspect ratio patch fails or forced exit from TWiLightMenu</li>
-
-  <li>Option to toggle <a class="externalLink" href="https://github.com/hax0kartik/rehid"
-  rel="nofollow" target="_blank">rehid</a> folder from System configuration sub menu
-  - useful to temporarily disable rehid patch to allow use of button combos that might
-  otherwise be blocked (Rosalina, BootNTR, plugins, <a class="externalLink" href="https://github.com/hax0kartik/wumiibo"
-  rel="nofollow" target="_blank">wumiibo</a>). Folder must be disabled before loading
-  game to not have rehid apply.</li>
-
-  <li>Merged in <a class="externalLink" href="https://github.com/LumaTeam/Luma3DS/pull/1623"
-  rel="nofollow" target="_blank">enhancements</a> to Luma cheats system</li>
+  <li>Automatically launch chosen titles with N3DS 804MHz cpu &amp; L2 cache enabled
+  - option available in N3DS menu when title is running (config file saved to "/luma/n3ds"
+  folder).</li>
 
   </ul>'
-updated: '2021-08-06T18:02:00Z'
-version: 10.2.1 2021-08-06
+updated: '2021-09-20T18:02:00Z'
+version: 10.2.1 2021-09-20
 version_title: Luma 10.2.1 with Redshift and Quick-Switchers
 ---
 <a class="internalLink" href="https://gbatemp.net/threads/unofficial-luma-build-discussion.573617/">Discussion/question thread</a><br/>
