@@ -41,9 +41,32 @@ source: https://github.com/masterfeizz/DaedalusX64-3DS
 systems:
 - 3DS
 title: DaedalusX64-3DS
-update_notes: "{\"message\": \"We had issues producing the response to your request.\
-  \ Sorry about that. Please try resubmitting your request and contact us if the problem\
-  \ persists.\"}\r\n"
+update_notes: '<h1>Beta v0.2</h1>
+
+  <ul>
+
+  <li>Dynarec, renderer, and user interface improvements</li>
+
+  </ul>
+
+  <h2>Instructions:</h2>
+
+  <ol>
+
+  <li>Download and extract the data.zip to the root of your sd card.</li>
+
+  <li>Place your ROM files in sdmc:/3ds/DaedalusX64/Roms/</li>
+
+  </ol>
+
+  <h2>Troubleshooting</h2>
+
+  <ul>
+
+  <li>If the emulator freezes everytime you try to launch a game, make sure you are
+  using a recent version of Luma and have dumped your dsp firmware.</li>
+
+  </ul>'
 updated: '2020-05-04T01:22:51Z'
 version: v0.2
 version_title: Beta v0.2
