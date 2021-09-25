@@ -13,11 +13,11 @@ downloads:
   boot.firm:
     size: 241664
     size_str: 236 KiB
-    url: https://github.com/mikewii/Luma3DS-plugin/releases/download/r1.0.13/boot.firm
+    url: https://github.com/mikewii/Luma3DS-plugin/releases/download/r2.0.0/boot.firm
   plugin.3gx:
-    size: 771494
-    size_str: 753 KiB
-    url: https://github.com/mikewii/Luma3DS-plugin/releases/download/r1.0.13/plugin.3gx
+    size: 765838
+    size_str: 747 KiB
+    url: https://github.com/mikewii/Luma3DS-plugin/releases/download/r2.0.0/plugin.3gx
 github: mikewii/Luma3DS-plugin
 icon_index: 149
 image: https://avatars.githubusercontent.com/u/29737660?v=4
@@ -27,21 +27,22 @@ source: https://github.com/mikewii/Luma3DS-plugin
 systems:
 - 3DS
 title: Luma3DS-plugin
-update_notes: '<p>Now using GCC 11.1.0!</p>
-
-  <p>Luma3DS:<br>
-
-  Updated to latest luma.<br>
-
-  New plugin name! From now on global plugin can be named <strong>plugin.3gx</strong><br>
-
-  Global plugin paths stays same</p>
+update_notes: '<p>Switching to correct semantic versioning.</p>
 
   <p>Plugin:<br>
 
-  Turned on swap functionality for old 2DS/3DS for ability to press HOME button while
-  in game.</p>'
-updated: '2021-09-23T21:07:11Z'
-version: r1.0.13
-version_title: 1.0.13
+  Disabled touch screen hook for old sdk games due to found bug on old3ds, default
+  hid will be initialized instead. This feature will make its return in later release
+  once i fix this bug.</p>
+
+  <p>MH4U (4G):<br>
+
+  Added support for all regions.</p>
+
+  <p>MH3U (3G):<br>
+
+  Added support for all regions.</p>'
+updated: '2021-09-25T05:31:11Z'
+version: r2.0.0
+version_title: 2.0.0
 ---
