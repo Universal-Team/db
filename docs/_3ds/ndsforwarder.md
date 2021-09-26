@@ -46,10 +46,10 @@ prerelease:
 
     <ul>
 
-    <li>Custom banners! They must be named the same as the nds file. If your nds file
-    is <code>Jamal''s Home Cooking.nds</code> your custom banner should be <code>Jamal''s
-    Home Cooking.bin</code>.  Custom banners can be located with the nds file or in
-    <code>/3ds/forwarder/banners/</code></li>
+    <li>Custom dsiware banners! They must be named the same as the nds file. If your
+    nds file is <code>Jamal''s Home Cooking.nds</code> your custom banner should be
+    <code>Jamal''s Home Cooking.bin</code>.  Custom banners can be located with the
+    nds file or in <code>/3ds/forwarder/banners/</code></li>
 
     <li>Custom Icons! They must be 4bit bmps and be named the same as the nds file.
     If your nds file is <code>Jamal''s Home Cooking.nds</code> your custom icon should
@@ -110,9 +110,9 @@ prerelease:
     \ in /3ds/\nOpen with homebrew launcher\n\n  * note: you also need the nds-bootstrap\
     \ forwarder pack from [here](https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=1).\
     \  \n  * Be sure to copy the `_nds` folder from the `for SD card root` folder\
-    \ to the sd card.\n\n## Features\n* Custom banners! They must be named the same\
-    \ as the nds file. If your nds file is `Jamal's Home Cooking.nds` your custom\
-    \ banner should be `Jamal's Home Cooking.bin`.  Custom banners can be located\
+    \ to the sd card.\n\n## Features\n* Custom dsiware banners! They must be named\
+    \ the same as the nds file. If your nds file is `Jamal's Home Cooking.nds` your\
+    \ custom banner should be `Jamal's Home Cooking.bin`.  Custom banners can be located\
     \ with the nds file or in `/3ds/forwarder/banners/`\n* Custom Icons! They must\
     \ be 4bit bmps and be named the same as the nds file. If your nds file is `Jamal's\
     \ Home Cooking.nds` your custom icon should be `Jamal's Home Cooking.bmp`.  Custom\
