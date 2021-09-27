@@ -6572,27 +6572,6 @@
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/logo.bmp",
 		"image": "https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png",
-		"scripts": {
-			"NINTV-DS.nds": [
-				{
-					"type": "downloadRelease",
-					"repo": "wavemotion-dave/NINTV-DS",
-					"file": "NINTV-DS.nds",
-					"output": "%NDS%/NINTV-DS.nds",
-					"message": "Downloading NINTV-DS.nds..."
-				},
-				{
-					"type": "downloadRelease",
-					"repo": "wavemotion-dave/NINTV-DS",
-					"file": "knowncarts.cfg",
-					"output": "%NDS%/knowncarts.cfg",
-					"message": "Downloading knowncarts.cfg..."
-				},
-				{
-					"type": "promptMessage",
-					"message": "You need \"grom.bin\", \"exec.bin\", \"knowncarts.cfg\",\nand optionally \"ivoice.bin\" in the folder with your ROM files.\n\n\"knowncarts.cfg\" was downloaded to\nthe same folder as NINTV-DS.nds."
-				}
-			]
-		}
+		"script_message": "You need \"grom.bin\", \"exec.bin\",\nand optionally \"ivoice.bin\" in the folder with your ROM files."
 	}
 ]
