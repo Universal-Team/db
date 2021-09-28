@@ -53,8 +53,6 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/stackmill/settings-tab-language.png
 - description: Settings tab main
   url: https://db.universal-team.net/assets/images/screenshots/stackmill/settings-tab-main.png
-- description: Settings tab
-  url: https://db.universal-team.net/assets/images/screenshots/stackmill/settings-tab.png
 - description: Splash
   url: https://db.universal-team.net/assets/images/screenshots/stackmill/splash.png
 source: https://github.com/SuperSaiyajinStackZ/StackMill
