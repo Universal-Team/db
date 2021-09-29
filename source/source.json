@@ -220,6 +220,11 @@
 			],
 			"[nightly] Relaunch.cia": [
 				{
+					"type": "promptMessage",
+					"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
+					"count": 1000
+				},
+				{
 					"type": "downloadFile",
 					"file": "https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z",
 					"output": "/Relaunch.7z",
@@ -256,6 +261,11 @@
 				}
 			],
 			"[nightly] Relaunch.nds": [
+				{
+					"type": "promptMessage",
+					"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
+					"count": 1000
+				},
 				{
 					"type": "downloadFile",
 					"file": "https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z",
@@ -374,6 +384,11 @@
 			],
 			"[nightly] GodMode9i.cia": [
 				{
+					"type": "promptMessage",
+					"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
+					"count": 1000
+				},
+				{
 					"type": "downloadFile",
 					"file": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z",
 					"output": "/GodMode9i.7z",
@@ -403,6 +418,11 @@
 				}
 			],
 			"[nightly] GodMode9i.nds": [
+				{
+					"type": "promptMessage",
+					"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
+					"count": 1000
+				},
 				{
 					"type": "downloadFile",
 					"file": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z",
@@ -714,6 +734,11 @@
 		"scripts": {
 			"[nightly] nesDS.cia": [
 				{
+					"type": "promptMessage",
+					"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
+					"count": 1000
+				},
+				{
 					"type": "downloadFile",
 					"file": "https://github.com/TWLBot/Builds/raw/master/extras/nesDS.7z",
 					"output": "/nesDS.7z",
@@ -743,6 +768,11 @@
 				}
 			],
 			"[nightly] nesDS.nds": [
+				{
+					"type": "promptMessage",
+					"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
+					"count": 1000
+				},
 				{
 					"type": "downloadFile",
 					"file": "https://github.com/TWLBot/Builds/raw/master/extras/nesDS.7z",
@@ -808,6 +838,11 @@
 				}
 			],
 			"[nightly] lolSnes.nds": [
+				{
+					"type": "promptMessage",
+					"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
+					"count": 1000
+				},
 				{
 					"type": "downloadFile",
 					"file": "http://lolsnes.kuribo64.net/gitbuilds/git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip",
@@ -5290,6 +5325,11 @@
 			],
 			"[nightly] TWiLight Menu++": [
 				{
+					"type": "promptMessage",
+					"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
+					"count": 1000
+				},
+				{
 					"type": "downloadFile",
 					"file": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z",
 					"output": "/TWiLightMenu-3DS.7z",
@@ -5346,6 +5386,11 @@
 		},
 		"scripts": {
 			"[nightly] nds-bootstrap": [
+				{
+					"type": "promptMessage",
+					"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
+					"count": 1000
+				},
 				{
 					"type": "downloadFile",
 					"file": "https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z",
