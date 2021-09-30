@@ -53,40 +53,40 @@ update_notes: "<p>Included in <a href=\"https://github.com/DS-Homebrew/TWiLightM
   <ul>\n<li>If using Memory Pit, some titles may not work or will crash later on.\
   \ The TWLMenu++ version listed above contains a list of incompatible DSiWare for\
   \ Memory Pit, and will prevent launching, if incompatible title is found.</li>\n\
-  <li>WiFi will not work with Memory Pit as well.</li>\n</ul>\n</li>\n<li>A new MPU\
-  \ configuration is now in use for DS mode, and is the same one used in DSi mode!</li>\n\
-  <li>SWI Halt hooking can now be disabled! (.ini setting: <code>SWI_HALT_HOOK</code>).\n\
-  <ul>\n<li>Disabling will fix slowdown that occur in some games, such as <em>Mario\
-  \ Kart DS</em>, <em>Sonic Rush</em>, and more.</li>\n</ul>\n</li>\n<li>If a ROM\
-  \ gets pre-loaded to RAM, the unpatched ARM9 and ARM7 binaries will now be placed\
-  \ in the DS debug RAM area, in order for more of the ROM data to be loaded.</li>\n\
-  <li>The in-game menu is now accessible in B4DS mode!</li>\n<li>When booting a game\
-  \ in DSi mode from a CycloDS iEvolution, the TWLCFG is reconstructed, as the flashcard\
-  \ clears it from RAM when it's menu opens.</li>\n</ul>\n<p><strong>Improvements</strong></p>\n\
-  <ul>\n<li><strong>3DS/2DS:</strong> For SDK1-4 games, the last 24MB of RAM is now\
-  \ used again for card data cache.</li>\n<li>(<a class=\"user-mention\" data-hovercard-type=\"\
-  user\" data-hovercard-url=\"/users/Epicpkmn11/hovercard\" data-octo-click=\"hovercard-link-click\"\
-  \ data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Epicpkmn11\"\
-  >@Epicpkmn11</a> and various) Updated in-game menu translations.</li>\n<li>Other\
-  \ minor improvements.</li>\n</ul>\n<p><strong>Bug fixes</strong></p>\n<ul>\n<li>The\
-  \ RTC glitches that occur on DSi are finally fixed!\n<ul>\n<li>No need to hear the\
-  \ bell over and over in <em>Animal Crossing: Wild World</em>!</li>\n<li><em>Face\
-  \ Training</em> can now be played properly.</li>\n<li>The quick day/night swap and\
-  \ the crashes will no longer occur in the Gen 4 <em>Pok\xE9mon</em> games!</li>\n\
-  </ul>\n</li>\n<li>(<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
+  </ul>\n</li>\n<li>A new MPU configuration is now in use for DS mode, and is the\
+  \ same one used in DSi mode!</li>\n<li>SWI Halt hooking can now be disabled! (.ini\
+  \ setting: <code>SWI_HALT_HOOK</code>).\n<ul>\n<li>Disabling will fix slowdown that\
+  \ occur in some games, such as <em>Mario Kart DS</em>, <em>Sonic Rush</em>, and\
+  \ more.</li>\n</ul>\n</li>\n<li>If a ROM gets pre-loaded to RAM, the unpatched ARM9\
+  \ and ARM7 binaries will now be placed in the DS debug RAM area, in order for more\
+  \ of the ROM data to be loaded.</li>\n<li>The in-game menu is now accessible in\
+  \ B4DS mode!</li>\n<li>When booting a game in DSi mode from a CycloDS iEvolution,\
+  \ the TWLCFG is reconstructed, as the flashcard clears it from RAM when it's menu\
+  \ opens.</li>\n</ul>\n<p><strong>Improvements</strong></p>\n<ul>\n<li><strong>3DS/2DS:</strong>\
+  \ For SDK1-4 games, the last 24MB of RAM is now used again for card data cache.</li>\n\
+  <li>(<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
   /users/Epicpkmn11/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
-  link_type:self\" href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a>) Fixed bugged\
-  \ pixels appearing in DSi mode screenshots.</li>\n<li>Fixed some DSi mode games\
-  \ not running from a flashcard on 3DS.</li>\n<li>Forced DSi mode now works again!</li>\n\
-  <li>Fixed broken sound in some games running in DSiWarehax or forced DSi mode.</li>\n\
-  <li>Fixed SDK5 games loaded into RAM rebooting the console when trying to open in-game\
-  \ menu.</li>\n<li>Fixed flashcard games running in DSi mode rebooting the console\
-  \ when trying to open in-game menu.</li>\n<li>Fixed games not starting if EZ-Flash\
-  \ 3-in-1 is inserted.</li>\n<li>Other minor fixes.</li>\n</ul>\n<p><strong>Known\
-  \ bugs</strong></p>\n<ul>\n<li>Due to the new MPU configuration, a few SDK2 games\
-  \ may not work. The few that didn't work such as <em>Trauma Center: Under the Knife</em>\
-  \ and <em>Lost in Blue</em> have already been fixed.</li>\n<li>The B4DS in-game\
-  \ menu will not work in some games.</li>\n</ul>"
+  link_type:self\" href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a> and various)\
+  \ Updated in-game menu translations.</li>\n<li>Other minor improvements.</li>\n\
+  </ul>\n<p><strong>Bug fixes</strong></p>\n<ul>\n<li>The RTC glitches that occur\
+  \ on DSi are finally fixed!\n<ul>\n<li>No need to hear the bell over and over in\
+  \ <em>Animal Crossing: Wild World</em>!</li>\n<li><em>Face Training</em> can now\
+  \ be played properly.</li>\n<li>The quick day/night swap and the crashes will no\
+  \ longer occur in the Gen 4 <em>Pok\xE9mon</em> games!</li>\n</ul>\n</li>\n<li>(<a\
+  \ class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Epicpkmn11/hovercard\"\
+  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
+  \ href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a>) Fixed bugged pixels appearing\
+  \ in DSi mode screenshots.</li>\n<li>Fixed some DSi mode games not running from\
+  \ a flashcard on 3DS.</li>\n<li>Forced DSi mode now works again!</li>\n<li>Fixed\
+  \ broken sound in some games running in DSiWarehax or forced DSi mode.</li>\n<li>Fixed\
+  \ SDK5 games loaded into RAM rebooting the console when trying to open in-game menu.</li>\n\
+  <li>Fixed flashcard games running in DSi mode rebooting the console when trying\
+  \ to open in-game menu.</li>\n<li>Fixed games not starting if EZ-Flash 3-in-1 is\
+  \ inserted.</li>\n<li>Other minor fixes.</li>\n</ul>\n<p><strong>Known bugs</strong></p>\n\
+  <ul>\n<li>Due to the new MPU configuration, a few SDK2 games may not work. The few\
+  \ that didn't work such as <em>Trauma Center: Under the Knife</em> and <em>Lost\
+  \ in Blue</em> have already been fixed.</li>\n<li>The B4DS in-game menu will not\
+  \ work in some games.</li>\n</ul>"
 updated: '2021-09-29T05:07:10Z'
 version: v0.48.0
 version_title: v0.48.0
