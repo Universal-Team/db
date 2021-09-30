@@ -9,13 +9,13 @@ description: You can play .mp4 file on your 3DS!
 download_page: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases
 downloads:
   Video_player_for_3DS.3dsx:
-    size: 7632000
+    size: 7639536
     size_str: 7 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.3.2/Video_player_for_3DS.3dsx
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.3.3/Video_player_for_3DS.3dsx
   Video_player_for_3DS.cia:
-    size: 5166016
+    size: 5170112
     size_str: 4 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.3.2/Video_player_for_3DS.cia
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.3.3/Video_player_for_3DS.cia
 github: Core-2-Extreme/Video_player_for_3DS
 icon: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/icon.png
 icon_index: 177
@@ -31,16 +31,15 @@ source: https://github.com/Core-2-Extreme/Video_player_for_3DS
 systems:
 - 3DS
 title: Video player for 3DS
-update_notes: '<p>Added aspect ratio 10:3 mode (for 800x240 videos)<br>
-
-  Added disable resize and move video mode<br>
-
-  Added remember video pos mode (resume from that pos next time)<br>
-
-  Other minor changes</p>'
-updated: '2021-09-19T03:36:46Z'
-version: v1.3.2
-version_title: Video player for 3DS v1.3.2
+update_notes: "<ul>\n<li>'aspect ratio 10:3 mode' has been changed to 'correct aspect\
+  \ ratio mode' (follow sar value(*0))</li>\n<li>Color conversion speed has been improved</li>\n\
+  <li>Simplified Chinese(\u7B80\u4F53\u4E2D\u6587) translation has been added (by\
+  \ LITTOMA)</li>\n<li>Italian(italiano) translation has been added (by dixy52-beep)</li>\n\
+  <li>Other minor changes</li>\n</ul>\n<p>*0 if video size is 800x240 and no sar value\
+  \ is set, it autmatically apply sar 1:2</p>"
+updated: '2021-09-30T01:40:45Z'
+version: v1.3.3
+version_title: Video player for 3DS v1.3.3
 ---
 You can play .mp4 file on your 3DS!
 
