@@ -59,6 +59,8 @@ update_notes: "<p>Included in <a href=\"https://github.com/DS-Homebrew/TWiLightM
   \ not working properly for ROMs pre-loaded into RAM.</li>\n<li>(Untested!) Fixed\
   \ soft-resetting for forwarders in hiyaCFW.</li>\n<li>Fixed nds-bootstrap logo always\
   \ showing in B4DS mode, if the patch offsets for set ROM are already cached.</li>\n\
+  </ul>\n<p><strong>Known bug</strong></p>\n<ul>\n<li>In <em>Glory Days: Tactical\
+  \ Defense</em> on DS/DS lite (B4DS mode), sleep mode will cause the game to crash.</li>\n\
   </ul>"
 updated: '2021-10-05T22:36:03Z'
 version: v0.49.0
