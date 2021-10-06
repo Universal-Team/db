@@ -6627,6 +6627,35 @@
 		"description": "The base forwarder packs for use with Forwarder3-DS and NDSForwarder forwarders",
 		"systems": ["3DS", "DS"],
 		"categories": ["utility"],
-		"icon": "https://raw.githubusercontent.com/RocketRobz/NTR_Forwarder/forwarder/SD%20Card/sd/icon.bmp"
+		"icon": "https://raw.githubusercontent.com/RocketRobz/NTR_Forwarder/forwarder/SD%20Card/sd/icon.bmp",
+		"scripts": {
+			"SD card forwarder pack": [
+				{
+					"type": "downloadRelease",
+					"repo": "RocketRobz/NTR_Forwarder",
+					"file": "DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"output": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"message": "Downloading DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"input": "for SD Card root/",
+					"output": "/",
+					"message": "Extracting DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
+				},
+				{
+					"type": "deleteFile",
+					"file":"/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"message": "Deleting DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
+				},
+				{
+					"type": "downloadFile",
+					"file": "https://raw.githubusercontent.com/TWLBot/Builds/master/extras/apfix.pck",
+					"output": "/_nds/ntr-forwarder/apfix.pck",
+					"message": "Downloading apfix.pck..."
+				}
+			]
+		}
 	}
 ]
