@@ -6373,7 +6373,7 @@
 		"github": "MechanicalDragon0687/NDSForwarder",
 		"categories": ["utility"],
 		"systems": ["3DS"],
-		"long_description": "### Installing\n1. Download the [3DS SD card forwarder pack](https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=1)\n1. Extract the contents of the `for SD card root` folder to the root of your SD card\n1. Download [TWiLight Menu++'s apfix.pck](https://raw.githubusercontent.com/TWLBot/Builds/master/extras/apfix.pck)\n1. Copy `apfix.pck` to `sdmc:/_nds/ntr-forwarder/apfix.pck` on your SD card\n\nWhen installing with Universal-Updater this is done automatically.",
+		"long_description": "### Installing\n1. Download the [3DS SD card forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)\n1. Extract the contents of the `for SD card root` folder to the root of your SD card\n1. Download [TWiLight Menu++'s apfix.pck](https://raw.githubusercontent.com/TWLBot/Builds/master/extras/apfix.pck)\n1. Copy `apfix.pck` to `sdmc:/_nds/ntr-forwarder/apfix.pck` on your SD card\n\nWhen installing with Universal-Updater this is done automatically.",
 		"scripts": {
 			"ndsForwarder.3dsx": [
 				{
@@ -6384,22 +6384,23 @@
 					"message": "Downloading ndsForwarder.3dsx..."
 				},
 				{
-					"type": "downloadFile",
-					"file": "https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=1",
-					"output": "/DS Game Forwarder pack (3DS SD Card).7z",
-					"message": "Downloading DS Game Forwarder pack (3DS SD Card).7z..."
+					"type": "downloadRelease",
+					"repo": "RocketRobz/NTR_Forwarder",
+					"file": "DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"output": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"message": "Downloading DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
 				},
 				{
 					"type": "extractFile",
-					"file": "/DS Game Forwarder pack (3DS SD Card).7z",
+					"file": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
 					"input": "for SD Card root/",
 					"output": "/",
-					"message": "Extracting DS Game Forwarder pack (3DS SD Card).7z..."
+					"message": "Extracting DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
 				},
 				{
 					"type": "deleteFile",
-					"file":"/DS Game Forwarder pack (3DS SD Card).7z",
-					"message": "Deleting DS Game Forwarder pack (3DS SD Card).7z..."
+					"file":"/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"message": "Deleting DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
 				},
 				{
 					"type": "downloadFile",
