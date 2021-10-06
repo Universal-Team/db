@@ -3,7 +3,6 @@ author: Universal-Team
 avatar: https://avatars.githubusercontent.com/u/49733679?v=4
 categories:
 - utility
-color: '#0b497b'
 created: '2019-10-31T02:19:37Z'
 description: An easy to use app for installing and updating 3DS homebrew
 download_page: https://github.com/Universal-Team/Universal-Updater/releases
@@ -18,9 +17,7 @@ downloads:
     url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.3/Universal-Updater.cia
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
-icon_index: 0
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/banner.png
-image_length: 24475
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
