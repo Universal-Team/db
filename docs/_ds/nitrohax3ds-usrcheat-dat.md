@@ -20,8 +20,8 @@ downloads:
 github: Epicpkmn11/NitroHax3DS
 icon: https://db.universal-team.net/assets/images/icons/nitrohax3ds-usrcheat-dat.png
 icon_index: 26
-image: https://avatars.githubusercontent.com/u/41608708?v=4
-image_length: 62657
+image: https://raw.githubusercontent.com/Epicpkmn11/NitroHax3DS/master/icon.bmp
+image_length: 630
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

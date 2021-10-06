@@ -17,6 +17,8 @@ downloads:
     url: https://db.universal-team.net/assets/files/colors_1_10bbeta2.zip
 icon: https://db.universal-team.net/assets/images/icons/colors.png
 icon_index: 15
+image: https://db.universal-team.net/assets/images/icons/colors.png
+image_length: 282
 layout: app
 systems:
 - DS

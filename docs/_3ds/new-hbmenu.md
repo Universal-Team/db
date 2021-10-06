@@ -16,8 +16,8 @@ downloads:
 github: fincs/new-hbmenu
 icon: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
 icon_index: 150
-image: https://avatars.githubusercontent.com/u/581494?v=4
-image_length: 216756
+image: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
+image_length: 21865
 layout: app
 screenshots:
 - description: 3dslink

@@ -20,8 +20,8 @@ downloads:
 github: RSDuck/craftus_reloaded
 icon: https://raw.githubusercontent.com/RSDuck/craftus_reloaded/master/icon/craftusreloaded.png
 icon_index: 73
-image: https://avatars.githubusercontent.com/u/9352526?v=4
-image_length: 1542
+image: https://raw.githubusercontent.com/RSDuck/craftus_reloaded/master/icon/craftusreloaded.png
+image_length: 4470
 layout: app
 license: other
 license_name: Other

@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/RocketRobz/NTR_Forwarder/releases/download/SD-1/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z
 github: RocketRobz/NTR_Forwarder
 icon: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
-icon_index: -1
+icon_index: 189
 image: https://raw.githubusercontent.com/RocketRobz/NTR_Forwarder/forwarder/SD%20Card/sd/icon.bmp
 image_length: 630
 layout: app

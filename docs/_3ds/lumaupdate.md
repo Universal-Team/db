@@ -20,8 +20,8 @@ downloads:
 github: KunoichiZ/lumaupdate
 icon: https://raw.githubusercontent.com/KunoichiZ/lumaupdate/master/meta/icon.png
 icon_index: 33
-image: https://avatars.githubusercontent.com/u/19984244?v=4
-image_length: 1288
+image: https://raw.githubusercontent.com/KunoichiZ/lumaupdate/master/meta/icon.png
+image_length: 23755
 layout: app
 license: wtfpl
 license_name: Do What The F*ck You Want To Public License

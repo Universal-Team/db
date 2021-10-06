@@ -22,8 +22,8 @@ downloads:
 github: TuxSH/TWLSaveTool
 icon: https://raw.githubusercontent.com/TuxSH/TWLSaveTool/master/app/IconLarge.png
 icon_index: 118
-image: https://avatars.githubusercontent.com/u/1922548?v=4
-image_length: 86615
+image: https://raw.githubusercontent.com/TuxSH/TWLSaveTool/master/app/IconLarge.png
+image_length: 2479
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
