@@ -717,6 +717,8 @@ for app in source:
 
 		if "image" not in app and os.path.exists(os.path.join("..", "docs", "assets", "images", "images", f"{webName(app['title'])}.png")):
 			app["image"] = f"https://db.universal-team.net/assets/images/images/{webName(app['title'])}.png"
+		elif "image" not in app and "icon" in app:
+			app["image"] = app["icon"]
 		elif "image" not in app and "avatar" in app:
 			app["image"] = app["avatar"]
 

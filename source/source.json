@@ -6620,5 +6620,13 @@
 		"icon": "https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/logo.bmp",
 		"image": "https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png",
 		"script_message": "You need \"grom.bin\", \"exec.bin\",\nand optionally \"ivoice.bin\" in the folder with your ROM files."
+	},
+	{
+		"github": "RocketRobz/NTR_Forwarder",
+		"title": "DS Forwarder Packs",
+		"description": "The base forwarder packs for use with Forwarder3-DS and NDSForwarder forwarders",
+		"systems": ["3DS", "DS"],
+		"categories": ["utility"],
+		"icon": "https://raw.githubusercontent.com/RocketRobz/NTR_Forwarder/forwarder/SD%20Card/sd/icon.bmp"
 	}
 ]
