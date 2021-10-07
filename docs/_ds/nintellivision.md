@@ -9,22 +9,22 @@ description: Nintellivision - an Intellivision Emulator for the Nintendo DS/DSi
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 653824
-    size_str: 638 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.1/NINTV-DS.nds
+    size: 656384
+    size_str: 641 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.2/NINTV-DS.nds
   README.md:
-    size: 6113
-    size_str: 5 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.1/README.md
+    size: 6224
+    size_str: 6 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.2/README.md
   custom-overlays.zip:
     size: 525178
     size_str: 512 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.1/custom-overlays.zip
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.2/custom-overlays.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 icon_index: 188
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 10016
+image_length: 10003
 layout: app
 script_message: 'You need "grom.bin", "exec.bin",
 
@@ -33,20 +33,20 @@ source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p>V2.1 : 03-Oct-2021 by wavemotion-dave</p>
+update_notes: '<p>V2.2 : 07-Oct-2021 by wavemotion-dave</p>
 
   <ul>
 
-  <li>Nova Blast fixed.</li>
+  <li>Stampede graphics fixed.</li>
 
-  <li>JLP random fixed and improved JLP compatibility.</li>
+  <li>Minor artifacts in Masters of the Universe fixed.</li>
 
-  <li>Reduced dynamic memory allocation.</li>
+  <li>Centipede working again.</li>
 
-  <li>Added headers and cleanup under the hood.</li>
+  <li>Improved speed across the board.</li>
 
   </ul>'
-updated: '2021-10-03T13:52:23Z'
-version: '2.1'
-version_title: Version 2.1
+updated: '2021-10-07T10:30:15Z'
+version: '2.2'
+version_title: Version 2.2
 ---
