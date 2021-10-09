@@ -6677,7 +6677,7 @@
 					"type": "extractFile",
 					"file": "/devilutionx-n3ds.zip",
 					"input": "devilutionx-n3ds/devilutionx.3dsx",
-					"output": "%3DSX%/devilutionx.3dsx",
+					"output": "/3ds/devilutionx/devilutionx.3dsx",
 					"message": "Extracting devilutionx.3dsx..."
 				},
 				{
