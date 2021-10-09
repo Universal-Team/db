@@ -14,7 +14,7 @@ downloads:
     url: https://github.com/diasurgical/devilutionX/releases/download/1.2.1/devilutionx-n3ds.zip
 github: diasurgical/devilutionX
 icon: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/icon.png
-icon_index: -1
+icon_index: 190
 image: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/banner.png
 image_length: 47500
 layout: app

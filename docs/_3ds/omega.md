@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/Omega-Numworks/Omega/releases/download/O1.22.1-E15/simulator.cia
 github: Omega-Numworks/Omega
 icon: https://raw.githubusercontent.com/Omega-Numworks/Omega/omega-master/ion/src/simulator/3ds/assets/logo.png
-icon_index: -1
+icon_index: 191
 image: https://raw.githubusercontent.com/Omega-Numworks/Omega/omega-master/ion/src/simulator/3ds/assets/banner.png
 image_length: 9865
 layout: app

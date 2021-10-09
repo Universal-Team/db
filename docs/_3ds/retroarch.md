@@ -7,16 +7,12 @@ color: '#484848'
 created: '2010-05-27T14:47:40Z'
 description: Cross-platform, sophisticated frontend for the libretro API. Licensed
   GPLv3.
-download_page: https://buildbot.libretro.com/stable/1.9.10/nintendo/3ds
+download_page: https://buildbot.libretro.com/stable/1.9.11/nintendo/3ds
 downloads:
   RetroArch_3dsx.7z:
-    size: 72886162
-    size_str: 69 MiB
-    url: https://buildbot.libretro.com/stable/1.9.10/nintendo/3ds/RetroArch_3dsx.7z
+    url: https://buildbot.libretro.com/stable/1.9.11/nintendo/3ds/RetroArch_3dsx.7z
   RetroArch_cia.7z:
-    size: 73419865
-    size_str: 70 MiB
-    url: https://buildbot.libretro.com/stable/1.9.10/nintendo/3ds/RetroArch_cia.7z
+    url: https://buildbot.libretro.com/stable/1.9.11/nintendo/3ds/RetroArch_cia.7z
 eval_downloads: true
 eval_notes_md: true
 github: libretro/RetroArch
@@ -40,77 +36,45 @@ systems:
 title: RetroArch
 update_notes: '<ul>
 
-  <li>3DS: Add bottom screen idle state</li>
+  <li>ANDROID: New launcher logo - will fill the corners on the homescreen</li>
 
-  <li>3DS: Add unique IDs for Gearboy/Gearcoleco/Gearsystem, correct CAP32 code</li>
+  <li>D3D9: Driver works again (RGUI only and software rendered cores work, no shader
+  support yet)</li>
 
-  <li>3DS/SAVESTATES: Fix RAM states to file when core deinits</li>
+  <li>HID/MAC: WiiU GameCube Adapter now works</li>
 
-  <li>AUDIO/MIXER: Pad sample buffers to prevent potential heap-buffer-overflows when
-  resampling (fixes crash when using 30 kHz menu audio files)</li>
+  <li>HID/WIIU: WiiU and general HID subsystem unified/merged</li>
 
-  <li>AUDIO/LINUX/SNAP: Add JACK support</li>
+  <li>INPUT: Refactor menu toggle combo button logic to allow quit combo button</li>
 
-  <li>CHEEVOS: Don''t write achievement credentials to overrides</li>
+  <li>INPUT/UDEV: Add mouse relative check and set appropriately to fix issue</li>
 
-  <li>CHEEVOS: Disable slowmotion when enabling hardcore mode</li>
+  <li>LIBNX/SWITCH: Splitted Joycon button mapping</li>
 
-  <li>D3D9: Fixed MVP matrix issue for RGUI texture (main game frame still won''t
-  show up though)</li>
+  <li>LIBRETRO: Add environment callback to enable cores to notify the frontend that
+  a core otion value has changed</li>
 
-  <li>D3D11/D3D12/HDR: Fixed contrast to be more correct - now scales from 0-10 linearly
-  and behaves more the way you''d expect it to - changed name to ditch legacy settings
-  users may have</li>
+  <li>MIYOO: Add initial port</li>
 
-  <li>D3D11/HDR: Fixed D3D11''s blend, rasterizer and topology states not being set
-  to the sames when using HDR and leaving the menu - caused issues with PCSX2''s Shadow
-  of the Colossus</li>
+  <li>OPENDINGUX/RG350: Enable tinyalsa for the RG350</li>
 
-  <li>D3D11/D3D12/HDR: Added ability to skip inverse tonemapper to the shader via
-  the constant buffer using ''inverse_tonemap'' - set to 0.0f to skip</li>
+  <li>PS2: Add ''Change Resolution'' option</li>
 
-  <li>D3D11/D3D12/HDR: Fixed potential bug when swapping between hdr and sdr and the
-  bit depth not being set correctly</li>
+  <li>PS2: Add option to change video windows offsets</li>
 
-  <li>D3D11/D3D12/HDR: Added numerous helper functions to help create the correct
-  values to colour the UI - normally the white UI elements should be rendered at paper
-  white not max brightness for various reasons</li>
+  <li>STEAM/LINUX: Move to new ''soldier'' runtime</li>
 
-  <li>BUGFIX/ANDROID: Fix crash that could happen on Android with Sameboy core - would
-  crash on rumble function</li>
+  <li>WAYLAND: Remove xdg-shell-v6 protocol</li>
 
-  <li>GFX/WIDGETS: New regular widget message appearance</li>
+  <li>WINDOWS: Fix non-ASCII text display in window title</li>
 
-  <li>INPUT/MOUSE: Add distinct mouse zero index label for drivers that do not support
-  multimouse</li>
+  <li>WINDOWS 11: Shows Windows 11 version name now (Information -&gt; System Information)</li>
 
-  <li>INPUT/RUMBLE: Add generic rumble gain to input settings</li>
-
-  <li>INPUT/UDEV/X11: Add workaround to fix keyboard input when using X11 + Udev</li>
-
-  <li>LIBNX/SWITCH: Add Video Filters support</li>
-
-  <li>LOCALIZATION: Fetch translations from Crowdin</li>
-
-  <li>OPENDINGUX/BETA: Disable OpenAL</li>
-
-  <li>PLAYLISTS: Add ''Refresh Playlist'' option</li>
-
-  <li>STEAM: Initial release on Steam</li>
-
-  <li>UWP/VFS/XBOX: Improvements and bugfixes to UWP VFS driver</li>
-
-  <li>VIDEO/REFRESH RATE: Automatic PAL/NTSC refresh rate switch where available -
-  as long as the platform display server allows changing refresh rates and the display
-  has the desired refresh rate</li>
-
-  <li>VIDEO FILTERS: Add ''Picoscale_256x-320x240'' video filter</li>
-
-  <li>WIIU/HID: Fix analog inputs on HID devices</li>
+  <li>UWP: Further improvements to WinRT VFS layer</li>
 
   </ul>'
-updated: '2021-09-19T03:22:03Z'
-version: v1.9.10
-version_title: v1.9.10
+updated: '2021-10-09T14:34:41Z'
+version: v1.9.11
+version_title: v1.9.11
 website: http://www.libretro.com
 ---

@@ -17,7 +17,7 @@ downloads:
     url: https://github.com/SkullEmperor/GameYob-1.0.8/releases/download/v1.0.8/GameYob.cia
 github: SkullEmperor/GameYob-1.0.8
 icon: https://raw.githubusercontent.com/SkullEmperor/GameYob-1.0.8/master/resources/icon.png
-icon_index: -1
+icon_index: 192
 image: https://raw.githubusercontent.com/SkullEmperor/GameYob-1.0.8/master/resources/icon.png
 image_length: 748
 layout: app
