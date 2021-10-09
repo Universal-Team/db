@@ -6766,9 +6766,9 @@
 	{
 		"title": "GameYob (3DS)",
 		"author": "Steven Smith",
-		"github": "SkullEmperor/GameYob-1.0.8",
+		"github": "SombrAbsol/GameYob-3DS",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
-		"icon": "https://raw.githubusercontent.com/SkullEmperor/GameYob-1.0.8/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/SombrAbsol/GameYob-3DS/main/resources/icon.png"
 	}
 ]
