@@ -9,21 +9,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 34853736
+    size: 34882696
     size_str: 33 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v22.1.0/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v22.2.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 34886944
+    size: 34894992
     size_str: 33 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v22.1.0/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v22.2.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 46215956
+    size: 46223116
     size_str: 44 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v22.1.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v22.2.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 46406857
+    size: 46404238
     size_str: 44 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v22.1.0/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v22.2.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_index: 139
@@ -62,29 +62,31 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
 
   </ul>
 
-  <p>Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.49.0">nds-bootstrap
-  v0.49.0</a></p>
+  <p>Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.49.1">nds-bootstrap
+  v0.49.1</a></p>
 
   <p><strong>What''s new?</strong></p>
 
   <ul>
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Unlaunch''s launcher patches are now defaulted to on.</li>
-
-  </ul>
-
-  <p><strong>Improvements</strong></p>
+  <li>Limited Mode has been added to TWLMenu++ Settings, and allows TWiLight Menu++
+  to run in a DSiWarehax environment without the need for an exploited DSiWare/System
+  app!
 
   <ul>
 
-  <li>Replaced CycloDSi check with an arm7 MBK check, should there be any more future
-  DSi mode flashcards.</li>
+  <li>Recommended for testing purposes.</li>
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  and various) Updated translations.</li>
+  <li><code>General</code> setting replicates the usual DSiWare exploits, and <code>Memory
+  Pit</code> setting replicates, well, the DSi Camera exploit (but has lower DSiWare
+  compatibility).</li>
+
+  </ul>
+
+  </li>
+
+  <li>If a DS(i) game''s save size is lower than expected, it''ll now be expanded
+  to the expected size to prevent eventual data loss.</li>
 
   </ul>
 
@@ -92,30 +94,25 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
 
   <ul>
 
-  <li>Fixed TWL_FIRM stuck in stretched widescreen after launching Slot-1.</li>
-
-  <li><strong>DSi-based themes:</strong> Fixed delay before moving cursor.</li>
-
-  <li>Fixed donor ROM message not shown for some SDK5 games, when one is not set.</li>
-
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>)
-  Original R4 and Ace3DS+ autoboot file has been re-added.</li>
+  Fixed autoboot files for Ace3DS+, R4iLS, and Gateway Blue.</li>
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/spellboundtriangle/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/spellboundtriangle">@spellboundtriangle</a>)
-  Changed MPEG4/MP4 references to FastVideo/FV.</li>
+  <li>DSi binaries are now checked before showing <code>Set as Donor ROM</code> for
+  DSi-Enhanced games.
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/MechanicalDragon0687/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/MechanicalDragon0687">@MechanicalDragon0687</a>)
-  <em>LEGO Batman: The Videogame</em> has been blacklisted from using TWL clock speed.</li>
+  <ul>
 
-  <li>Fixed black screen appearing when exiting from nds-bootstrap.</li>
+  <li>Does not affect DS mode flashcard users.</li>
+
+  </ul>
+
+  </li>
 
   </ul>'
-updated: '2021-10-05T22:50:13Z'
-version: v22.1.0
-version_title: v22.1.0
+updated: '2021-10-11T09:20:46Z'
+version: v22.2.0
+version_title: v22.2.0
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
 TWiLight Menu++ is an open-source DSi Menu upgrade/replacement for the Nintendo DSi, the Nintendo 3DS, and Nintendo DS flashcards. It can launch Nintendo DS, SNES, NES, GameBoy (color), GameBoy Advance, Sega GameGear/Master System & Mega Drive/Genesis ROMs, as well as DSTWO plugins (if you use a DSTWO) and videos.
