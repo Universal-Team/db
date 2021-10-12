@@ -9,22 +9,22 @@ description: Nintellivision - an Intellivision Emulator for the Nintendo DS/DSi
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 660480
-    size_str: 645 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.3/NINTV-DS.nds
+    size: 666624
+    size_str: 651 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.4/NINTV-DS.nds
   README.md:
-    size: 6605
+    size: 7119
     size_str: 6 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.3/README.md
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.4/README.md
   extras.zip:
     size: 734063
     size_str: 716 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.3/extras.zip
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.4/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 icon_index: 188
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 10042
+image_length: 10024
 layout: app
 script_message: 'You need "grom.bin", "exec.bin",
 
@@ -33,22 +33,22 @@ source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p>V2.3 : 10-Oct-2021 by wavemotion-dave</p>
+update_notes: '<p>V2.4 : 12-Oct-2021 by wavemotion-dave</p>
 
   <ul>
 
-  <li>New Custom Overlay Guide (see extras folder)</li>
+  <li>Fixed horizontal and vertical offset/scrolling. Christmas Carol should now work.</li>
 
-  <li>New Manual/Instructions Support (see extras folder)</li>
+  <li>Improved memory handling so we can load larger games.</li>
 
-  <li>Improved speed, reduced memory usage</li>
+  <li>Allow Manual/Instructions to be mapped to keys.</li>
 
-  <li>Full JLP flash support</li>
+  <li>Improved generic overlay graphic.</li>
 
-  <li>DS-LITE/PHAT sound improvement</li>
+  <li>Beta version of screen stretch/offset.</li>
 
   </ul>'
-updated: '2021-10-10T12:31:47Z'
-version: '2.3'
-version_title: Version 2.3
+updated: '2021-10-12T10:02:35Z'
+version: '2.4'
+version_title: Version 2.4
 ---
