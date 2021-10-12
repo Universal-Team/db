@@ -15,7 +15,7 @@ downloads:
 github: ihaveamac/faketik
 icon_index: 161
 image: https://avatars.githubusercontent.com/u/590576?v=4
-image_length: 160520
+image_length: 100120
 layout: app
 license: mit
 license_name: MIT License
