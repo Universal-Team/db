@@ -9,22 +9,22 @@ description: Nintellivision - an Intellivision Emulator for the Nintendo DS/DSi
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 666624
-    size_str: 651 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.4/NINTV-DS.nds
+    size: 674816
+    size_str: 659 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.5/NINTV-DS.nds
   README.md:
-    size: 7119
-    size_str: 6 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.4/README.md
+    size: 7456
+    size_str: 7 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.5/README.md
   extras.zip:
-    size: 734063
-    size_str: 716 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.4/extras.zip
+    size: 956617
+    size_str: 934 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.5/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 icon_index: 188
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 10024
+image_length: 16274
 layout: app
 script_message: 'You need "grom.bin", "exec.bin",
 
@@ -33,22 +33,22 @@ source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p>V2.4 : 12-Oct-2021 by wavemotion-dave</p>
+update_notes: '<p>V2.5 : 15-Oct-2021 by wavemotion-dave</p>
 
   <ul>
 
-  <li>Fixed horizontal and vertical offset/scrolling. Christmas Carol should now work.</li>
+  <li>Horizontal Stretch/Offset now saved on a per-game basis.</li>
 
-  <li>Improved memory handling so we can load larger games.</li>
+  <li>Custom Palette support (see example in ''extras'' folder).</li>
 
-  <li>Allow Manual/Instructions to be mapped to keys.</li>
+  <li>Ability to map DS key to bring up manuals.</li>
 
-  <li>Improved generic overlay graphic.</li>
+  <li>Added combo key mapping (AX, XY, YB, BA) for diagonal shooting.</li>
 
-  <li>Beta version of screen stretch/offset.</li>
+  <li>Updated example .man manuals (see ''extras'' folder).</li>
 
   </ul>'
-updated: '2021-10-12T10:02:35Z'
-version: '2.4'
-version_title: Version 2.4
+updated: '2021-10-15T12:53:12Z'
+version: '2.5'
+version_title: Version 2.5
 ---
