@@ -17,7 +17,7 @@ downloads:
     url: https://github.com/FluBBaOfWard/S8DS/releases/download/v1.1.4/S8DS.zip
 github: FluBBaOfWard/S8DS
 icon: https://db.universal-team.net/assets/images/icons/s8ds.png
-icon_index: -1
+icon_index: 193
 image: https://raw.githubusercontent.com/FluBBaOfWard/S8DS/main/Sms.bmp
 image_length: 630
 layout: app
