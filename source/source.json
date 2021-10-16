@@ -6770,5 +6770,14 @@
 		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/SombrAbsol/GameYob-3DS/main/resources/icon.png"
+	},
+	{
+		"github": "FluBBaOfWard/S8DS",
+		"systems": ["DS"],
+		"categories": ["emulator"],
+		"icon": "https://raw.githubusercontent.com/FluBBaOfWard/S8DS/main/Sms.bmp",
+		"archive": {
+			"S8DS.zip": ["S8DS.nds"]
+		}
 	}
 ]
