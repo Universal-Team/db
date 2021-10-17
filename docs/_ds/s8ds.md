@@ -12,9 +12,9 @@ description: A Sega 8bit systems emulator for NDS
 download_page: https://github.com/FluBBaOfWard/S8DS/releases
 downloads:
   S8DS.zip:
-    size: 223093
-    size_str: 217 KiB
-    url: https://github.com/FluBBaOfWard/S8DS/releases/download/v1.1.4/S8DS.zip
+    size: 223260
+    size_str: 218 KiB
+    url: https://github.com/FluBBaOfWard/S8DS/releases/download/v1.1.5/S8DS.zip
 github: FluBBaOfWard/S8DS
 icon: https://db.universal-team.net/assets/images/icons/s8ds.png
 icon_index: 193
@@ -25,18 +25,8 @@ source: https://github.com/FluBBaOfWard/S8DS
 systems:
 - DS
 title: S8DS
-update_notes: '<p>Reverted a GG_IO optimization.<br>
-
-  Fixed TV noise graphics after Power off.<br>
-
-  Fixed file extension checking.<br>
-
-  Fixed menu glitch if loading game directly.<br>
-
-  Fixed pause on older Sega machines.<br>
-
-  Better selection of machines.</p>'
-updated: '2021-10-16T15:42:04Z'
-version: v1.1.4
-version_title: V1.1.4
+update_notes: <p>Fixed load/save state for Master System.</p>
+updated: '2021-10-17T14:12:32Z'
+version: v1.1.5
+version_title: V1.1.5
 ---

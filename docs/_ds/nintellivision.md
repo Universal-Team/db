@@ -9,22 +9,22 @@ description: Nintellivision - an Intellivision Emulator for the Nintendo DS/DSi
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 674816
+    size: 675328
     size_str: 659 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.5/NINTV-DS.nds
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.6/NINTV-DS.nds
   README.md:
-    size: 7456
+    size: 7466
     size_str: 7 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.5/README.md
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.6/README.md
   extras.zip:
-    size: 956617
-    size_str: 934 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.5/extras.zip
+    size: 988051
+    size_str: 964 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/2.6/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 icon_index: 188
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 16274
+image_length: 16277
 layout: app
 script_message: 'You need "grom.bin", "exec.bin",
 
@@ -33,22 +33,20 @@ source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p>V2.5 : 15-Oct-2021 by wavemotion-dave</p>
+update_notes: '<p>V2.6 : 18-Oct-2021 by wavemotion-dave</p>
 
   <ul>
 
-  <li>Horizontal Stretch/Offset now saved on a per-game basis.</li>
+  <li>Added disc controller direction support to custom overlays. See Vectron.ovl
+  in extras.</li>
 
-  <li>Custom Palette support (see example in ''extras'' folder).</li>
+  <li>Patched Q-Bert so it doesn''t lose a life after each board.</li>
 
-  <li>Ability to map DS key to bring up manuals.</li>
-
-  <li>Added combo key mapping (AX, XY, YB, BA) for diagonal shooting.</li>
-
-  <li>Updated example .man manuals (see ''extras'' folder).</li>
+  <li>Fixed save states so we can save games with extra RAM (old save states will
+  not work - sorry)</li>
 
   </ul>'
-updated: '2021-10-15T12:53:12Z'
-version: '2.5'
-version_title: Version 2.5
+updated: '2021-10-17T12:42:59Z'
+version: '2.6'
+version_title: Version 2.6
 ---
