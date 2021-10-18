@@ -12,9 +12,9 @@ description: A Sega 8bit systems emulator for NDS
 download_page: https://github.com/FluBBaOfWard/S8DS/releases
 downloads:
   S8DS.zip:
-    size: 223260
+    size: 223379
     size_str: 218 KiB
-    url: https://github.com/FluBBaOfWard/S8DS/releases/download/v1.1.5/S8DS.zip
+    url: https://github.com/FluBBaOfWard/S8DS/releases/download/v1.1.6/S8DS.zip
 github: FluBBaOfWard/S8DS
 icon: https://db.universal-team.net/assets/images/icons/s8ds.png
 icon_index: 193
@@ -25,8 +25,8 @@ source: https://github.com/FluBBaOfWard/S8DS
 systems:
 - DS
 title: S8DS
-update_notes: <p>Fixed load/save state for Master System.</p>
-updated: '2021-10-17T14:12:32Z'
-version: v1.1.5
-version_title: V1.1.5
+update_notes: <p>Fixed load/save state for Coleco.</p>
+updated: '2021-10-18T17:16:53Z'
+version: v1.1.6
+version_title: V1.1.6
 ---
