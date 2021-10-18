@@ -6779,5 +6779,11 @@
 		"archive": {
 			"S8DS.zip": ["S8DS.nds"]
 		}
+	},
+	{
+		"github": "tilderain/IkachanDS",
+		"systems": ["DS"],
+		"categories": ["game"],
+		"icon": "https://raw.githubusercontent.com/tilderain/IkachanDS/master/icon.bmp"
 	}
 ]

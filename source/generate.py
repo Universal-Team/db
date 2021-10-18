@@ -766,6 +766,9 @@ for app in source:
 					copyfile(os.path.join("temp", "48", f"{iconIndex}.png"), os.path.join("..", "docs", "assets", "images", "icons", f"{webName(app['title'])}.png"))
 					app["icon"] = f"https://db.universal-team.net/assets/images/icons/{webName(app['title'])}.png"
 
+				if "image" in app and app["image"].endswith(".bmp"):
+					app["image"] = app["icon"]
+
 				iconIndex += 1
 
 	if "title" in app:
