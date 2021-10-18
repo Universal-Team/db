@@ -31,6 +31,15 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   bottomless-block-barrage.cia: https://db.universal-team.net/assets/images/qr/bottomless-block-barrage-cia.png
+screenshots:
+- description: Config
+  url: https://db.universal-team.net/assets/images/screenshots/bottomless-block-barrage/config.png
+- description: Endless
+  url: https://db.universal-team.net/assets/images/screenshots/bottomless-block-barrage/endless.png
+- description: Score
+  url: https://db.universal-team.net/assets/images/screenshots/bottomless-block-barrage/score.png
+- description: Title
+  url: https://db.universal-team.net/assets/images/screenshots/bottomless-block-barrage/title.png
 source: https://github.com/TricksterGuy/bottomless-block-barrage
 systems:
 - 3DS
