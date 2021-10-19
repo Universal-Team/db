@@ -22,6 +22,8 @@ downloads:
     size_str: 1020 KiB
     url: https://github.com/MrHuu/opentitus-3ds/releases/download/27-12-2018/OpenTitus_MOKTAR_LOW_FREQ_27-12-2018.7z
   OpenTitus_TITUS_3DSX_23-12-2018.7z:
+    size: 387241
+    size_str: 378 KiB
     url: https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_TITUS_3DSX_23-12-2018.7z
   OpenTitus_TITUS_CIA_25-12-2018.7z:
     size: 758124

@@ -16,7 +16,7 @@ downloads:
 github: RocketRobz/NTR_Forwarder
 icon: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
 icon_index: 189
-image: https://raw.githubusercontent.com/RocketRobz/NTR_Forwarder/forwarder/SD%20Card/sd/icon.bmp
+image: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
 image_length: 630
 layout: app
 source: https://github.com/RocketRobz/NTR_Forwarder

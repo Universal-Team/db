@@ -15,7 +15,7 @@ downloads:
 github: Epicpkmn11/dsi-camera
 icon: https://db.universal-team.net/assets/images/icons/dsi-camera.png
 icon_index: 154
-image: https://raw.githubusercontent.com/Epicpkmn11/dsi-camera/master/icon.bmp
+image: https://db.universal-team.net/assets/images/icons/dsi-camera.png
 image_length: 630
 layout: app
 license: unlicense
