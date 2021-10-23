@@ -1,22 +1,9 @@
 function loadTheme() {
-	const themeCSS = document.getElementById("themeCSS");
-	if(!localStorage.theme || localStorage.theme == "default") {
-		if(themeCSS)
-			themeCSS.remove();
-	} else {
-		if(themeCSS) {
-			themeCSS.href = "/assets/css/" + localStorage.theme +".css";
-		} else {
-			const l = document.createElement("link");
-			l.rel = "stylesheet";
-			l.type = "text/css";
-			l.media = "screen";
-			l.href = "/assets/css/" + localStorage.theme +".css"
-			l.id = "themeCSS";
-		
-			document.head.appendChild(l);
-		}
-	}
+	const themeCSS = document.getElementById("theme-css");
+	if(!localStorage.theme || localStorage.theme == "default")
+		themeCSS.href = "/assets/css/style.css";
+	else
+		themeCSS.href = "/assets/css/" + localStorage.theme + ".css";
 }
 
 function setTheme(theme) {
