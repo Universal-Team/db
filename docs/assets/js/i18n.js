@@ -112,18 +112,17 @@ function getLang() {
 
 	const languages = window.navigator.languages || [window.navigator.language];
 	for(i = 0; i < languages.length; i++) {
-		const wl = languages[i];
-		for(i in Object.keys(i18n)) {
-			const key = Object.keys(i18n)[i];
-			if(key == wl.substr(0, 2) + "-" + wl.substr(3, 2).toUpperCase()) {
-				return key;
+		const languageIds = Object.keys(i18n);
+		for(j in languageIds) {
+			if(languageIds[j] == languages[i].substr(0, 2) + "-" + languages[i].substr(3, 2).toUpperCase()) {
+				return languageIds[j];
 			}
 		}
 
 		// If no match for lang-COUNTRY, try just lang
-		for(key in Object.keys(i18n)) {
-			if(key == wl.substr(0, 2)) {
-				return key;
+		for(j in languageIds) {
+			if(languageIds[j].substr(0, 2) == languages[i]) {
+				return languageIds[j];
 			}
 		}
 	}
