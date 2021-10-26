@@ -34,8 +34,7 @@ prerelease:
 
     <ul>
 
-    <li>note: you also need the nds-bootstrap forwarder pack from <a href="https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=1"
-    rel="nofollow">here</a>.</li>
+    <li>note: you also need the nds-bootstrap forwarder pack from <a href="https://github.com/RocketRobz/NTR_Forwarder/releases">here</a>.</li>
 
     <li>Be sure to copy the <code>_nds</code> folder from the <code>for SD card root</code>
     folder to the sd card.</li>
@@ -108,7 +107,7 @@ prerelease:
     </ul>'
   update_notes_md: "\nRequires full CFW via Rosalina (b9s+luma3ds)\n\n## Usage\nPut\
     \ in /3ds/\nOpen with homebrew launcher\n\n  * note: you also need the nds-bootstrap\
-    \ forwarder pack from [here](https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=1).\
+    \ forwarder pack from [here](https://github.com/RocketRobz/NTR_Forwarder/releases).\
     \  \n  * Be sure to copy the `_nds` folder from the `for SD card root` folder\
     \ to the sd card.\n\n## Features\n* Custom dsiware banners! They must be named\
     \ the same as the nds file. If your nds file is `Jamal's Home Cooking.nds` your\
@@ -146,8 +145,7 @@ update_notes: '<p>Initial release.</p>
 
   <ul>
 
-  <li>note: you also need the nds-bootstrap forwarder pack from <a href="https://www.dropbox.com/s/k5uaa4jzbtkgm0z/DS%20Game%20Forwarder%20pack%20%283DS%20SD%20Card%29.7z?dl=1"
-  rel="nofollow">here</a>.</li>
+  <li>note: you also need the nds-bootstrap forwarder pack from <a href="https://github.com/RocketRobz/NTR_Forwarder/releases">here</a>.</li>
 
   <li>Be sure to copy the <code>_nds</code> folder from the <code>for SD card root</code>
   folder to the sd card.</li>
