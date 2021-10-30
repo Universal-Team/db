@@ -10,9 +10,9 @@ description: The base forwarder packs for use with Forwarder3-DS and NDSForwarde
 download_page: https://github.com/RocketRobz/NTR_Forwarder/releases
 downloads:
   DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z:
-    size: 430120
-    size_str: 420 KiB
-    url: https://github.com/RocketRobz/NTR_Forwarder/releases/download/SD-2/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z
+    size: 427395
+    size_str: 417 KiB
+    url: https://github.com/RocketRobz/NTR_Forwarder/releases/download/SD-3/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z
 github: RocketRobz/NTR_Forwarder
 icon: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
 icon_index: 189
@@ -24,8 +24,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p>Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.49.1">nds-bootstrap
-  v0.49.1</a></p>
+update_notes: '<p>Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.50.0">nds-bootstrap
+  v0.50.0</a></p>
 
   <p>To install or update:</p>
 
@@ -43,19 +43,18 @@ update_notes: '<p>Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap
 
   <ul>
 
-  <li>If a game''s save size is lower than expected, it''ll now be expanded to the
-  expected size to prevent eventual data loss.</li>
+  <li>Removed donor ROM requirement for certain games.</li>
 
   </ul>
 
-  <p><strong>Bug fix</strong></p>
+  <p><strong>Improvement</strong></p>
 
   <ul>
 
-  <li>Fixed retail DSi consoles being misdetected as a panda/debug DSi console.</li>
+  <li>Improved homebrew detection.</li>
 
   </ul>'
-updated: '2021-10-11T09:08:35Z'
-version: SD-2
-version_title: 'GitHub Release #2'
+updated: '2021-10-30T05:30:32Z'
+version: SD-3
+version_title: 'GitHub Release #3'
 ---
