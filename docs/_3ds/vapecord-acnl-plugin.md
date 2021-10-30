@@ -9,9 +9,9 @@ description: Animal Crossing NL Vapecord Public Plugin WIP
 download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases
 downloads:
   Vapecord.Public.zip:
-    size: 8024165
-    size_str: 7 MiB
-    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v.1.9.5-beta.2/Vapecord.Public.zip
+    size: 4950206
+    size_str: 4 MiB
+    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v1.9.5/Vapecord.Public.zip
 github: RedShyGuy/Vapecord-ACNL-Plugin
 icon_index: 152
 image: https://avatars.githubusercontent.com/u/43783060?v=4
@@ -23,9 +23,14 @@ source: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin
 systems:
 - 3DS
 title: Vapecord-ACNL-Plugin
-update_notes: '<h1>New Beta Update!!</h1>
+update_notes: '<h1>New Update!!</h1>
 
-  <h2>This is just a small update which adds stuff I worked on the last weeks</h2>
+  <h2>One of the drastic changes is the new Plugin Content Folder, you will now find
+  all the files needed for Vapecord inside <code>E:/Vapecord/Data/</code> and all
+  the user created files in <code>E:/Vapecord/[RegionName]/</code> (e. g. <code>E:/Vapecord/USA/</code>).</h2>
+
+  <h2>Meaning that if you are updating your plugin from a previous version, you can
+  delete the <code>Vapecord</code> folder from: <code>E:/luma/plugins/[TitleID]/Vapecord</code>.</h2>
 
   <h2>The update has those features:</h2>
 
@@ -33,38 +38,40 @@ update_notes: '<h1>New Beta Update!!</h1>
 
   <ul>
 
-  <li>Info Bars showing current Time, Battery Percentage and Personal Friendcode</li>
+  <li>Custom Inventory Buttons (e. g. Duplicate, Wrap Up)</li>
+
+  <li><code>Max Ore Hunting Points</code> replaces <code>Fill Inv With Bonus Ore</code></li>
+
+  <li><code>Instant Labyrinth Tour</code> replaces <code>Fill Inv With Needed Fruit</code></li>
+
+  <li>Always Aurora Lights</li>
+
+  <li><code>ActiveCheats.txt</code> will now be created if game crashes to make it
+  easier to figure out the crash reason</li>
+
+  <li>German Language support (thanks to bkfirmen!!)</li>
 
   </ul>
 
   </blockquote>
 
-  <h2>There are also some bug fixes:</h2>
+  <h2>And other small changes:</h2>
 
   <blockquote>
 
   <ul>
 
-  <li>Drop Radius Modifier fixed</li>
+  <li>8x faster installment of Vapecord</li>
 
-  </ul>
+  <li>Removed Music Speed Changer and Get Mail Text</li>
 
-  </blockquote>
+  <li>File Backup restoring now supports user created sub-Folders (example of this
+  can be seen in the Inventory Get Set cheat)</li>
 
-  <h2>And some small changes:</h2>
+  <li>Plugin will now still show all cheats if the game version is wrong and the user
+  didn''t ignore the warning</li>
 
-  <blockquote>
-
-  <ul>
-
-  <li>Plugin now checks for correct Game Version before being able to use it</li>
-
-  <li>Dev Mode is now easier accessable (Tip: 30 extra lives in Contra)</li>
-
-  <li>Rewritten a lot of code which made the plugin smaller in size</li>
-
-  <li>NPC Codes are now fully implemented into the plugin and are now also translatable
-  (and hotkeys can be changed)</li>
+  <li>Unlock All Tours was optimized and can stay active all the time now</li>
 
   </ul>
 
@@ -76,8 +83,8 @@ update_notes: '<h1>New Beta Update!!</h1>
 
   If you encounter any bugs feel free to report them on the official <a href="https://discord.gg/QwqdBpKWf3"
   rel="nofollow">Vapecord Discord Server</a>.</p>'
-updated: '2021-09-02T01:05:48Z'
-version: v.1.9.5-beta.2
-version_title: ACNL Vapecord Public Plugin [v.1.9.5] BETA 2
+updated: '2021-10-30T10:36:15Z'
+version: v1.9.5
+version_title: ACNL Vapecord Public Plugin [v.1.9.5]
 wiki: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/wiki
 ---
