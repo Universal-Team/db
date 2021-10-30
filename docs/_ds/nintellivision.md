@@ -9,17 +9,17 @@ description: Nintellivision - an Intellivision Emulator for the Nintendo DS/DSi
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 669184
-    size_str: 653 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.0/NINTV-DS.nds
+    size: 671232
+    size_str: 655 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.1/NINTV-DS.nds
   README.md:
-    size: 8292
+    size: 8660
     size_str: 8 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.0/README.md
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.1/README.md
   extras.zip:
     size: 988050
     size_str: 964 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.0/extras.zip
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.1/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 icon_index: 188
@@ -33,20 +33,20 @@ source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p>V3.0 : 25-Oct-2021 by wavemotion-dave</p>
+update_notes: '<p>V3.1 : 30-Oct-2021 by wavemotion-dave</p>
 
   <ul>
 
-  <li>Sound fixed - no more zingers!</li>
+  <li>Favorites support - you can select up to 64 games as ''favs''</li>
 
-  <li>New global menu option for green vs white font.</li>
+  <li>Sound sync when running faster than 60FPS</li>
 
-  <li>New Aggressive frameskip to help with older DS-LITE/PHAT play.</li>
+  <li>If BIOS files not found, emulator will search for them (slow but effective)</li>
 
-  <li>Many small cleanups and improvements under the hood.</li>
+  <li>Tiny bit more speed and optimization</li>
 
   </ul>'
-updated: '2021-10-25T13:15:46Z'
-version: '3.0'
-version_title: Version 3.0
+updated: '2021-10-30T13:59:31Z'
+version: '3.1'
+version_title: Version 3.1
 ---

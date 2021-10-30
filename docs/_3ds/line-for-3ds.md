@@ -47,10 +47,13 @@ systems:
 - 3DS
 title: Line for 3DS
 update_notes: "<ul>\n<li>\u3010App\u3011 Ver 1.7.2</li>\n<li>\u3010Line\u3011 Fixed\
-  \ some bugs.</li>\n<li>\u3010Vid\u3011 Added debug infomation.</li>\n<li>\u3010\
+  \ some bugs.</li>\n<li>\u3010Vid\u3011 Added debug information.</li>\n<li>\u3010\
   Vid\u3011 Changed initial image size and position</li>\n<li>\u3010App\u3011 Some\
-  \ minor update to better user experience.</li>\n</ul>\n<h1>Discord</h1>\n<p><a href=\"\
-  https://discord.gg/EqK3Kpb\" rel=\"nofollow\">https://discord.gg/EqK3Kpb</a></p>\n\
+  \ minor update to better user experience.</li>\n</ul>\n<p>**<strong>mb</strong>\
+  \ in Line_for_3DS_**<strong>mb</strong> .cia means usable RAM amount in the app,\
+  \ <br>\nif you use 124mb or 178mb.cia on OLD3DS it should work as 64mb.cia.<br>\n\
+  if you don't understand this, please use <strong>64mb.cia</strong>.</p>\n<h1>Discord</h1>\n\
+  <p><a href=\"https://discord.gg/EqK3Kpb\" rel=\"nofollow\">https://discord.gg/EqK3Kpb</a></p>\n\
   <h1>How to use</h1>\n<p><a href=\"https://gbatemp.net/threads/line-for-3ds.539530/\"\
   \ rel=\"nofollow\">https://gbatemp.net/threads/line-for-3ds.539530/</a></p>"
 updated: '2021-01-07T11:54:17Z'
