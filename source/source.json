@@ -5760,6 +5760,13 @@
 					"message": "Extracting boot.firm..."
 				},
 				{
+					"type": "extractFile",
+					"file": "/Vapecord.zip",
+					"input": "Vapecord/",
+					"output": "/Vapecord/",
+					"message": "Extracting Vapecord..."
+				},
+				{
 					"type": "deleteFile",
 					"file": "/Vapecord.zip",
 					"message": "Deleting Vapecord.zip..."
@@ -5786,6 +5793,13 @@
 					"input": "boot.firm",
 					"output": "/boot.firm",
 					"message": "Extracting boot.firm..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Vapecord.zip",
+					"input": "Vapecord/",
+					"output": "/Vapecord/",
+					"message": "Extracting Vapecord..."
 				},
 				{
 					"type": "deleteFile",
@@ -5816,6 +5830,13 @@
 					"message": "Extracting boot.firm..."
 				},
 				{
+					"type": "extractFile",
+					"file": "/Vapecord.zip",
+					"input": "Vapecord/",
+					"output": "/Vapecord/",
+					"message": "Extracting Vapecord..."
+				},
+				{
 					"type": "deleteFile",
 					"file": "/Vapecord.zip",
 					"message": "Deleting Vapecord.zip..."
@@ -5842,6 +5863,13 @@
 					"input": "boot.firm",
 					"output": "/boot.firm",
 					"message": "Extracting boot.firm..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Vapecord.zip",
+					"input": "Vapecord/",
+					"output": "/Vapecord/",
+					"message": "Extracting Vapecord..."
 				},
 				{
 					"type": "deleteFile",
@@ -5872,6 +5900,13 @@
 					"message": "Extracting boot.firm..."
 				},
 				{
+					"type": "extractFile",
+					"file": "/Vapecord.zip",
+					"input": "Vapecord/",
+					"output": "/Vapecord/",
+					"message": "Extracting Vapecord..."
+				},
+				{
 					"type": "deleteFile",
 					"file": "/Vapecord.zip",
 					"message": "Deleting Vapecord.zip..."
@@ -5898,6 +5933,13 @@
 					"input": "boot.firm",
 					"output": "/boot.firm",
 					"message": "Extracting boot.firm..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Vapecord.zip",
+					"input": "Vapecord/",
+					"output": "/Vapecord/",
+					"message": "Extracting Vapecord..."
 				},
 				{
 					"type": "deleteFile",
@@ -5928,6 +5970,13 @@
 					"message": "Extracting boot.firm..."
 				},
 				{
+					"type": "extractFile",
+					"file": "/Vapecord.zip",
+					"input": "Vapecord/",
+					"output": "/Vapecord/",
+					"message": "Extracting Vapecord..."
+				},
+				{
 					"type": "deleteFile",
 					"file": "/Vapecord.zip",
 					"message": "Deleting Vapecord.zip..."
@@ -5954,6 +6003,13 @@
 					"input": "boot.firm",
 					"output": "/boot.firm",
 					"message": "Extracting boot.firm..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/Vapecord.zip",
+					"input": "Vapecord/",
+					"output": "/Vapecord/",
+					"message": "Extracting Vapecord..."
 				},
 				{
 					"type": "deleteFile",
