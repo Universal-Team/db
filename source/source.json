@@ -868,7 +868,7 @@
 		"bitbucket": {
 			"repo": "Coto88/snemulds",
 			"files": [
-				"release/arm9dldi-ntr/SNEmulDS.nds",
+				"release/arm7dldi-ntr/SNEmulDS.nds",
 				"release/snemul.cfg"
 			],
 			"branch": "TGDS1.6-Snemulds"
