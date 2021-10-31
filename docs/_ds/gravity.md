@@ -14,7 +14,7 @@ downloads:
     url: https://github.com/Garhoogin/Gravity/releases/download/v1.0.0.0/gravity.nds
 github: Garhoogin/Gravity
 icon: https://db.universal-team.net/assets/images/icons/gravity.png
-icon_index: -1
+icon_index: 195
 image: https://db.universal-team.net/assets/images/icons/gravity.png
 image_length: 630
 layout: app
