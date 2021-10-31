@@ -9,22 +9,22 @@ description: Nintellivision - an Intellivision Emulator for the Nintendo DS/DSi
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 671232
+    size: 670720
     size_str: 655 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.1/NINTV-DS.nds
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.1a/NINTV-DS.nds
   README.md:
     size: 8660
     size_str: 8 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.1/README.md
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.1a/README.md
   extras.zip:
     size: 988050
     size_str: 964 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.1/extras.zip
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.1a/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 icon_index: 188
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 16258
+image_length: 16246
 layout: app
 script_message: 'You need "grom.bin", "exec.bin",
 
@@ -33,7 +33,7 @@ source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p>V3.1 : 30-Oct-2021 by wavemotion-dave</p>
+update_notes: '<p>V3.1a : 30-Oct-2021 by wavemotion-dave</p>
 
   <ul>
 
@@ -46,7 +46,7 @@ update_notes: '<p>V3.1 : 30-Oct-2021 by wavemotion-dave</p>
   <li>Tiny bit more speed and optimization</li>
 
   </ul>'
-updated: '2021-10-30T13:59:31Z'
-version: '3.1'
-version_title: Version 3.1
+updated: '2021-10-30T20:05:59Z'
+version: 3.1a
+version_title: Version 3.1a
 ---
