@@ -6395,6 +6395,7 @@
 		"github": "hax0kartik/rehid",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"autogen_scripts": true,
 		"scripts": {
 			"0004013000001D02.zip": [
 				{
