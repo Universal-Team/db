@@ -869,7 +869,7 @@
 			"repo": "Coto88/snemulds",
 			"files": [
 				"release/arm7dldi-ntr/SNEmulDS.nds",
-				"release/arm7dldi-twl/SNEmulDS.nds",
+				"release/arm7dldi-twl/SNEmulDS.srl",
 				"release/snemul.cfg"
 			],
 			"branch": "TGDS1.6-Snemulds"
