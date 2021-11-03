@@ -43,7 +43,7 @@ update_notes: "<h3>Features</h3>\n<h4>Platforms</h4>\n<ul>\n<li>Added support fo
   \ Cyrillic, <a href=\"https://github.com/diasurgical/devilutionx-assets/releases/download/v1/fonts.mpq\"\
   >Chinese, Japanese, and Korean</a></li>\n<li>Item outline color now matches rarity</li>\n\
   <li>Use gold color to indicate unique items in stores</li>\n<li>Improved XP bar\
-  \ visuals</li>\n<li>Widescreen loading sceens</li>\n</ul>\n<h4>Multiplayer</h4>\n\
+  \ visuals</li>\n<li>Widescreen loading scenes</li>\n</ul>\n<h4>Multiplayer</h4>\n\
   <ul>\n<li>Added built in support for ZeroTier (no need for port forwarding, no need\
   \ for an extra application)</li>\n<li>Added support for unencrypted public games</li>\n\
   <li>Added auto discovery of public games over ZeroTier</li>\n<li>Share map exploration\
