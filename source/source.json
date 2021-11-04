@@ -6727,35 +6727,21 @@
 				{
 					"type": "downloadRelease",
 					"repo": "diasurgical/devilutionX",
-					"file": "devilutionx-n3ds.zip",
-					"output": "/devilutionx-n3ds.zip",
-					"message": "Downloading devilutionx-n3ds.zip..."
+					"file": "devilutionx-3ds.zip",
+					"output": "/devilutionx-3ds.zip",
+					"message": "Downloading devilutionx-3ds.zip..."
 				},
 				{
 					"type": "extractFile",
-					"file": "/devilutionx-n3ds.zip",
-					"input": "devilutionx-n3ds/devilutionx.3dsx",
+					"file": "/devilutionx-3ds.zip",
+					"input": "devilutionx-3ds/devilutionx.3dsx",
 					"output": "/3ds/devilutionx/devilutionx.3dsx",
 					"message": "Extracting devilutionx.3dsx..."
 				},
 				{
-					"type": "extractFile",
-					"file": "/devilutionx-n3ds.zip",
-					"input": "devilutionx-n3ds/CharisSILB.ttf",
-					"output": "/3ds/devilutionx/CharisSILB.ttf",
-					"message": "Extracting CharisSILB.ttf..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/devilutionx-n3ds.zip",
-					"input": "devilutionx-n3ds/devilutionx.mpq",
-					"output": "/3ds/devilutionx/devilutionx.mpq",
-					"message": "Extracting devilutionx.mpq..."
-				},
-				{
 					"type": "deleteFile",
-					"file": "/devilutionx-n3ds.zip",
-					"message": "Deleting devilutionx-n3ds.zip..."
+					"file": "/devilutionx-3ds.zip",
+					"message": "Deleting devilutionx-3ds.zip..."
 				},
 				{
 					"type": "promptMessage",
@@ -6766,30 +6752,16 @@
 				{
 					"type": "downloadRelease",
 					"repo": "diasurgical/devilutionX",
-					"file": "devilutionx-n3ds.zip",
-					"output": "/devilutionx-n3ds.zip",
-					"message": "Downloading devilutionx-n3ds.zip..."
+					"file": "devilutionx-3ds.zip",
+					"output": "/devilutionx-3ds.zip",
+					"message": "Downloading devilutionx-3ds.zip..."
 				},
 				{
 					"type": "extractFile",
-					"file": "/devilutionx-n3ds.zip",
-					"input": "devilutionx-n3ds/devilutionx.cia",
+					"file": "/devilutionx-3ds.zip",
+					"input": "devilutionx-3ds/devilutionx.cia",
 					"output": "/devilutionx.cia",
 					"message": "Extracting devilutionx.cia..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/devilutionx-n3ds.zip",
-					"input": "devilutionx-n3ds/CharisSILB.ttf",
-					"output": "/3ds/devilutionx/CharisSILB.ttf",
-					"message": "Extracting CharisSILB.ttf..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/devilutionx-n3ds.zip",
-					"input": "devilutionx-n3ds/devilutionx.mpq",
-					"output": "/3ds/devilutionx/devilutionx.mpq",
-					"message": "Extracting devilutionx.mpq..."
 				},
 				{
 					"type": "installCia",
@@ -6803,8 +6775,8 @@
 				},
 				{
 					"type": "deleteFile",
-					"file": "/devilutionx-n3ds.zip",
-					"message": "Deleting devilutionx-n3ds.zip..."
+					"file": "/devilutionx-3ds.zip",
+					"message": "Deleting devilutionx-3ds.zip..."
 				},
 				{
 					"type": "promptMessage",
