@@ -11,22 +11,22 @@ description: Nintellivision - an Intellivision Emulator for the Nintendo DS/DSi.
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 670720
+    size: 671232
     size_str: 655 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.1a/NINTV-DS.nds
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.2/NINTV-DS.nds
   README.md:
-    size: 8660
+    size: 8926
     size_str: 8 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.1a/README.md
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.2/README.md
   extras.zip:
-    size: 988050
-    size_str: 964 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.1a/extras.zip
+    size: 1000463
+    size_str: 977 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.2/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 icon_index: 188
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 16246
+image_length: 16279
 layout: app
 script_message: 'You need "grom.bin", "exec.bin",
 
@@ -35,20 +35,20 @@ source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p>V3.1a : 30-Oct-2021 by wavemotion-dave</p>
+update_notes: '<p>V3.2 : 04-Nov-2021 by wavemotion-dave</p>
 
   <ul>
 
-  <li>Favorites support - you can select up to 64 games as ''favs''</li>
+  <li>Fixed .cfg file reading (last line was skipped if there was no CR)</li>
 
-  <li>Sound sync when running faster than 60FPS</li>
+  <li>A few homebrew and missing games added to the internal database.</li>
 
-  <li>If BIOS files not found, emulator will search for them (slow but effective)</li>
+  <li>A slight speedup on Intellivoice games which really helps the older DS hardware.</li>
 
-  <li>Tiny bit more speed and optimization</li>
+  <li>Another half-dozen game manuals added to extras.zip (thanks ts-x!)</li>
 
   </ul>'
-updated: '2021-10-30T20:05:59Z'
-version: 3.1a
-version_title: Version 3.1a
+updated: '2021-11-04T23:59:43Z'
+version: '3.2'
+version_title: Version 3.2
 ---

@@ -11,13 +11,13 @@ description: XEGS-DS An Atari 8-bit Computer Emulator (specially targeted for th
 download_page: https://github.com/wavemotion-dave/XEGS-DS/releases
 downloads:
   XEGS-DS.nds:
-    size: 575488
-    size_str: 562 KiB
-    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.6/XEGS-DS.nds
+    size: 572416
+    size_str: 559 KiB
+    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.7/XEGS-DS.nds
   readme.txt:
-    size: 14310
-    size_str: 13 KiB
-    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.6/readme.txt
+    size: 14869
+    size_str: 14 KiB
+    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.7/readme.txt
 github: wavemotion-dave/XEGS-DS
 icon: https://db.universal-team.net/assets/images/icons/xegs-ds.png
 icon_index: 160
@@ -28,18 +28,21 @@ source: https://github.com/wavemotion-dave/XEGS-DS
 systems:
 - DS
 title: XEGS-DS
-update_notes: '<p>V2.6 : 11-Jul-2021 by wavemotion-dave</p>
+update_notes: '<p>V2.7 : 04-Nov-2021 by wavemotion-dave</p>
 
-  <p>Reduced down to one screen buffer - this cleans up ghosting visible sometimes
-  on dark backgrounds.<br>
+  <ul>
 
-  If atarixl.rom exists, it is used by default (previously had still been defaulting
-  to Altirra rom).<br>
+  <li>New sound output processing to eliminate Zingers!</li>
 
-  New screen blending types to provide more options for screen scaling improvements.<br>
+  <li>bios files can now optionally be in /roms/bios or /data/bios</li>
 
-  Minor cleanups as time permitted.</p>'
-updated: '2021-08-12T12:30:10Z'
-version: '2.6'
-version_title: Version 2.6
+  <li>Left/Right now selects the next/previous option (rather than A button to only
+  cycle forward).</li>
+
+  <li>Other cleanups as time permitted.</li>
+
+  </ul>'
+updated: '2021-11-04T23:42:27Z'
+version: '2.7'
+version_title: Version 2.7
 ---
