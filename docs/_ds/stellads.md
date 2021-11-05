@@ -11,17 +11,17 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1317888
+    size: 1317376
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.4/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.5/StellaDS.nds
   compatibility.txt:
     size: 25032
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.4/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.5/compatibility.txt
   readme.txt:
-    size: 17619
+    size: 17725
     size_str: 17 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.4/readme.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.5/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 icon_index: 157
@@ -34,18 +34,14 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p>V4.4 :22-Aug-2021 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p>V4.5 : 05-Nov-2021 by Dave Bernazzani (wavemotion)</p>
 
   <ul>
 
-  <li>Minor cleanups across the board. Improved AR cart speed by ~1FPS.</li>
-
-  <li>Added horizontal stretch - use the Left Shoulder + L/R D-Pad.</li>
-
-  <li>The Y button is now auto-fire.</li>
+  <li>New sound output core - no more zingers!</li>
 
   </ul>'
-updated: '2021-08-22T12:04:25Z'
-version: '4.4'
-version_title: Release 4.4
+updated: '2021-11-05T18:06:35Z'
+version: '4.5'
+version_title: Version 4.5
 ---
