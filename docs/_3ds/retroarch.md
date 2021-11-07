@@ -7,16 +7,12 @@ color: '#484848'
 created: '2010-05-27T14:47:40Z'
 description: Cross-platform, sophisticated frontend for the libretro API. Licensed
   GPLv3.
-download_page: https://buildbot.libretro.com/stable/1.9.12/nintendo/3ds
+download_page: https://buildbot.libretro.com/stable/1.9.13/nintendo/3ds
 downloads:
   RetroArch_3dsx.7z:
-    size: 72975143
-    size_str: 69 MiB
-    url: https://buildbot.libretro.com/stable/1.9.12/nintendo/3ds/RetroArch_3dsx.7z
+    url: https://buildbot.libretro.com/stable/1.9.13/nintendo/3ds/RetroArch_3dsx.7z
   RetroArch_cia.7z:
-    size: 73492340
-    size_str: 70 MiB
-    url: https://buildbot.libretro.com/stable/1.9.12/nintendo/3ds/RetroArch_cia.7z
+    url: https://buildbot.libretro.com/stable/1.9.13/nintendo/3ds/RetroArch_cia.7z
 eval_downloads: true
 eval_notes_md: true
 github: libretro/RetroArch
@@ -40,46 +36,42 @@ systems:
 title: RetroArch
 update_notes: '<ul>
 
-  <li>3DS: Ensure parallax barrier is disabled when ''3DS Display Mode'' is ''2D''</li>
+  <li>CHEEVOS/MSVC2010: Add Cheevos support</li>
 
-  <li>COMMAND: Command interface should work again</li>
+  <li>CRT/SWITCHRES: Fixes some issue where scaling is incorrect in some video modes
+  for CRT output.</li>
 
-  <li>INPUT/HID: Rewrote the HID deregistration algorithm; it should no longer cause
-  issues when dealing with multiple pads of the same HID/VID combo</li>
+  <li>FRAMEDELAY: Add ''Automatic Frame Delay'' option</li>
 
-  <li>INPUT/HID: Fix initialization bug that caused wiimotes to fail to register without
-  an accessory attached</li>
+  <li>INPUT: Add ''All users control the menu'' setting - any gamepad can control
+  the menu when this is enabled. Only limitation right now is that only player 1 can
+  toggle the menu, but any set Menu Toggle Controller Combo will work fine for all
+  users, so this should be acceptable for now</li>
 
-  <li>INPUT/HID: Fix Wiimote regression</li>
+  <li>INPUT/UDEV: Fix Dolphin bar and safeguard against not adding devices with no
+  mouse or touch buttons detected</li>
 
-  <li>INPUT/HID/MAC: Get Sony Sixaxis (DualShock 3) working on MacOS</li>
+  <li>NETPLAY/CLI: -C/--connect commandline fix</li>
 
-  <li>INPUT/UDEV: Add extra abs check for dolphinbar</li>
+  <li>NETPLAY: Other improvements</li>
 
-  <li>INPUT/UDEV: Add relative left mouse button when pointer device is not abs</li>
+  <li>NETPLAY: Remove forced disconnection on unknown netplay command -<br>
 
-  <li>INPUT/WAYLAND: Fix keyboard input on Wayland - fixes ''Certain cores ignore
-  user input''</li>
+  will be backwards compatible with any version that removed this<br>
 
-  <li>NETPLAY: Improvements from Cthulhu</li>
+  disconnect. instead of disconnecting, we just read the data and<br>
 
-  <li>OPENDINGUX: Fix HAS_ANALOG/HAS_MENU_TOGGLE defines in sdl_dingux joypad driver</li>
+  ignore, like most network implementations do</li>
 
-  <li>LIBRETRO: Enable SRAM for contentless cores</li>
+  <li>TASKS/CHEEVOS: Replace coroutines with tasks/thread</li>
 
-  <li>LIBRETRO: Add environment callback to get the rate retro_run is called - GET_THROTTLE_STATE
-  and RETRO_THROTTLE_UNBLOCKED environment callback</li>
-
-  <li>LINUX: Update metadata manifest</li>
-
-  <li>MENU/OZONE: New themes - Solarized Light, Solarized Dark</li>
-
-  <li>WINDOWS/WIN9X: Fix non-ASCII text display in window title</li>
+  <li>TASKS/DATABASE/EXPLORE: Initialise ''Explore'' menu on a background thread -
+  no more stall when hovering over the Explore tab</li>
 
   </ul>'
-updated: '2021-10-24T01:57:44Z'
-version: v1.9.12
-version_title: v1.9.12
+updated: '2021-11-07T02:31:09Z'
+version: v1.9.13
+version_title: v1.9.13
 website: http://www.libretro.com
 wiki: https://github.com/libretro/RetroArch/wiki
 ---
