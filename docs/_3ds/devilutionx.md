@@ -9,7 +9,7 @@ description: Diablo build for modern operating systems
 download_page: https://github.com/diasurgical/devilutionX/releases
 downloads:
   devilutionx-3ds.zip:
-    size: 10526670
+    size: 10605819
     size_str: 10 MiB
     url: https://github.com/diasurgical/devilutionX/releases/download/1.3.0/devilutionx-3ds.zip
   devilutionx-linux-armhf.zip:
