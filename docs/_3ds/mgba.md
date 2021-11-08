@@ -36,9 +36,9 @@ source: https://github.com/mgba-emu/mgba
 systems:
 - 3DS
 title: mGBA
-update_notes: '<h3>Emulation fixes:</h3>
+update_notes: '<h3 dir="auto">Emulation fixes:</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li>GB Video: Clear VRAM on reset (fixes mgba.io/i/2152)</li>
 
@@ -54,9 +54,9 @@ update_notes: '<h3>Emulation fixes:</h3>
 
   </ul>
 
-  <h3>Other fixes:</h3>
+  <h3 dir="auto">Other fixes:</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li>3DS: Fix disabling "wide" mode on 2DS (fixes mgba.io/i/2167)</li>
 
@@ -92,9 +92,9 @@ update_notes: '<h3>Emulation fixes:</h3>
 
   </ul>
 
-  <h3>Misc:</h3>
+  <h3 dir="auto">Misc:</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Util: Improve speed of UPS patch loading</li>
 

@@ -34,9 +34,9 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p>V4.5 : 05-Nov-2021 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V4.5 : 05-Nov-2021 by Dave Bernazzani (wavemotion)</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>New sound output core - no more zingers!</li>
 

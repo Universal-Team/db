@@ -24,32 +24,32 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p>Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.50.0">nds-bootstrap
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.50.0">nds-bootstrap
   v0.50.0</a></p>
 
-  <p>To install or update:</p>
+  <p dir="auto">To install or update:</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>In the 7z file, extract what''s in <code>for SD card root</code> to the root
   of the SD card.</li>
 
   </ul>
 
-  <p>To create forwarders, see this page <a href="https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/"
+  <p dir="auto">To create forwarders, see this page <a href="https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/"
   rel="nofollow">here</a>.</p>
 
-  <p><strong>What''s new?</strong></p>
+  <p dir="auto"><strong>What''s new?</strong></p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Removed donor ROM requirement for certain games.</li>
 
   </ul>
 
-  <p><strong>Improvement</strong></p>
+  <p dir="auto"><strong>Improvement</strong></p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Improved homebrew detection.</li>
 

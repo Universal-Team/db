@@ -24,9 +24,9 @@ source: https://github.com/edo9300/ndsi-savedumper
 systems:
 - DS
 title: ndsi-savedumper
-update_notes: '<p>What''s new</p>
+update_notes: '<p dir="auto">What''s new</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Fixed some tyos in the prompts</li>
 

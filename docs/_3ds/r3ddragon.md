@@ -22,9 +22,9 @@ source: https://github.com/mrdanielps/r3Ddragon
 systems:
 - 3DS
 title: r3Ddragon
-update_notes: '<h4>Changelog:</h4>
+update_notes: '<h4 dir="auto">Changelog:</h4>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Removed libhax. Homebrew launcher users will have to run a kernel exploit (like
   <a href="https://github.com/nedwill/fasthax/releases">fasthax</a>) first.</li>
@@ -35,9 +35,9 @@ update_notes: '<h4>Changelog:</h4>
 
   </ul>
 
-  <h4>Known Issues:</h4>
+  <h4 dir="auto">Known Issues:</h4>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Low compatibility.</li>
 

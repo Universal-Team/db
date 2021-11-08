@@ -32,7 +32,7 @@ source: https://github.com/joel16/3DShell
 systems:
 - 3DS
 title: 3DShell
-update_notes: "<ul>\n<li>Block NAND access if developer options is disabled.</li>\n\
+update_notes: "<ul dir=\"auto\">\n<li>Block NAND access if developer options is disabled.</li>\n\
   <li>Fix selector going out of bounds when right/left (page up/page down) key is\
   \ used.</li>\n<li>CIA builds are now available. The updater will also download/install\
   \ updates based on the version you are updating from.</li>\n<li>Fix selector going\
@@ -48,9 +48,10 @@ update_notes: "<ul>\n<li>Block NAND access if developer options is disabled.</li
   \ goes beyond the screen.</li>\n<li>Touch controls are back for both file options\
   \ and settings.</li>\n<li>Fixed issues copying certain files/folders due to the\
   \ file names not being cleared and improper casting in progress bar.</li>\n</ul>\n\
-  <p>If you'd like to support this project, then feel free to <a href=\"https://www.paypal.me/Joel16IA\"\
-  \ rel=\"nofollow\">buy me a cup of <g-emoji class=\"g-emoji\" alias=\"coffee\" fallback-src=\"\
-  https://github.githubassets.com/images/icons/emoji/unicode/2615.png\">\u2615</g-emoji></a>.</p>"
+  <p dir=\"auto\">If you'd like to support this project, then feel free to <a href=\"\
+  https://www.paypal.me/Joel16IA\" rel=\"nofollow\">buy me a cup of <g-emoji class=\"\
+  g-emoji\" alias=\"coffee\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2615.png\"\
+  >\u2615</g-emoji></a>.</p>"
 updated: '2021-03-23T19:28:05Z'
 version: v5.1.0
 version_title: 3DShell v5.1.0

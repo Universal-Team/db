@@ -40,7 +40,7 @@ source: https://github.com/J-D-K/JKSM
 systems:
 - 3DS
 title: JKSM
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li>Dropped support for *hax</li>
 

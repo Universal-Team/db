@@ -25,9 +25,10 @@ source: https://github.com/profi200/open_agb_firm
 systems:
 - 3DS
 title: open_agb_firm
-update_notes: '<p>This is a build from the kernel_experiments branch for the impatient.</p>
+update_notes: '<p dir="auto">This is a build from the kernel_experiments branch for
+  the impatient.</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/5f257392863a807a4c1b70f836d99cb656c931b7/hovercard"
   href="https://github.com/profi200/open_agb_firm/commit/5f257392863a807a4c1b70f836d99cb656c931b7"><tt>5f25739</tt></a>
@@ -53,20 +54,21 @@ update_notes: '<p>This is a build from the kernel_experiments branch for the imp
 
   </ul>
 
-  <p>The screenshot/texture dump location is now "/3ds/open_agb_firm". This will change
-  to a separate "screenshots" dir once screenshots are created by date. If the video
-  output freezes after making a screenshot try pressing the HOME button. This works
-  most of the time. This is due to a hard to track down bug and will be fixed later.</p>
+  <p dir="auto">The screenshot/texture dump location is now "/3ds/open_agb_firm".
+  This will change to a separate "screenshots" dir once screenshots are created by
+  date. If the video output freezes after making a screenshot try pressing the HOME
+  button. This works most of the time. This is due to a hard to track down bug and
+  will be fixed later.</p>
 
-  <p><strong>This can and will destroy savegames for a few games due to broken save
-  type detection so backup your saves!</strong> You have been warned.<br>
+  <p dir="auto"><strong>This can and will destroy savegames for a few games due to
+  broken save type detection so backup your saves!</strong> You have been warned.<br>
 
   Also note that EEPROM savegames from some emulators or even flashcarts are incompatible
   because they are laid out wrong (every 8 bytes block of data is reversed). This
   <a href="https://gist.github.com/profi200/e06794d7561ed552c518b4b0b2f5f2f6">tool</a>
   can fix that.</p>
 
-  <p>The used scale matrix is the default "Sharp interpolated" one.</p>'
+  <p dir="auto">The used scale matrix is the default "Sharp interpolated" one.</p>'
 updated: '2020-12-24T12:17:14Z'
 version: alpha_2020-12-24
 version_title: open_agb_firm alpha build 2020-12-24

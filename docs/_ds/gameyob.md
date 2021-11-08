@@ -22,8 +22,9 @@ source: https://github.com/Drenn1/GameYob
 systems:
 - DS
 title: GameYob
-update_notes: <p>This is from the "v0.5-hotfix" branch, not the "master" branch. Original
-  date of release was Feb 4, 2017. Uploaded here since FileTrip is down.</p>
+update_notes: <p dir="auto">This is from the "v0.5-hotfix" branch, not the "master"
+  branch. Original date of release was Feb 4, 2017. Uploaded here since FileTrip is
+  down.</p>
 updated: '2020-10-05T13:52:12Z'
 version: v0.5.2
 version_title: Version 0.5.2

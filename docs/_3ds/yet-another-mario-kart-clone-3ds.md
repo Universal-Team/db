@@ -30,7 +30,7 @@ source: https://github.com/mariohackandglitch/YAMKC_3DS
 systems:
 - 3DS
 title: Yet Another Mario Kart Clone 3DS
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li>Initial Release, check <a href="README.md">README</a> for details.</li>
 

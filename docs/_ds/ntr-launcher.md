@@ -24,7 +24,7 @@ source: https://github.com/ApacheThunder/NTR_Launcher
 systems:
 - DS
 title: NTR Launcher
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li>Added Legacy mode. This is the previous version of cart loader that doesn''t
   have TWL mode. Use this mode to boot certain flashcarts that lost compatiblity with

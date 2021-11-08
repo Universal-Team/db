@@ -25,9 +25,9 @@ source: https://github.com/MechanicalDragon0687/TWLFix-CFW
 systems:
 - 3DS
 title: TWLFix-CFW
-update_notes: '<h3>Usage:</h3>
+update_notes: '<h3 dir="auto">Usage:</h3>
 
-  <ol>
+  <ol dir="auto">
 
   <li>copy <code>TWLFix-CFW.3dsx</code>  to <code>SD:/3ds/</code></li>
 
@@ -37,7 +37,7 @@ update_notes: '<h3>Usage:</h3>
 
   <li>follow the on screen prompts.
 
-  <ul>
+  <ul dir="auto">
 
   <li>once complete, the app should reboot the 3ds.</li>
 

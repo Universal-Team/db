@@ -34,13 +34,13 @@ source: https://github.com/noirscape/dses
 systems:
 - 3DS
 title: dses
-update_notes: '<p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/13433513/46879989-c94bfb80-ce47-11e8-8ab5-36f6fb0f061a.gif"><img
+update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/13433513/46879989-c94bfb80-ce47-11e8-8ab5-36f6fb0f061a.gif"><img
   src="https://user-images.githubusercontent.com/13433513/46879989-c94bfb80-ce47-11e8-8ab5-36f6fb0f061a.gif"
   alt="QR code" style="max-width: 100%;"></a></p>
 
-  <p>Code changes:</p>
+  <p dir="auto">Code changes:</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>DSES is now self-cleaning. Press SELECT to clean up the application after setting
   your EULAs!</li>
@@ -49,9 +49,9 @@ update_notes: '<p><a target="_blank" rel="noopener noreferrer" href="https://use
 
   </ul>
 
-  <p>Non-code changes:</p>
+  <p dir="auto">Non-code changes:</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Updated username in smdh.</li>
 

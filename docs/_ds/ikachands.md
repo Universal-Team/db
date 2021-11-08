@@ -22,7 +22,7 @@ source: https://github.com/tilderain/IkachanDS
 systems:
 - DS
 title: IkachanDS
-update_notes: <p>it's ikachan</p>
+update_notes: <p dir="auto">it's ikachan</p>
 updated: '2020-10-05T07:30:15Z'
 version: 0.1.1
 version_title: Ikachan DS

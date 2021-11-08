@@ -32,21 +32,21 @@ source: https://github.com/noirscape/SRAU
 systems:
 - 3DS
 title: SRAU
-update_notes: '<p>This release mostly adds in a lot of missing error checks and adds
-  in gamecard support + support for mismatched regions.</p>
+update_notes: '<p dir="auto">This release mostly adds in a lot of missing error checks
+  and adds in gamecard support + support for mismatched regions.</p>
 
-  <p>This release would not have been possible without the help of <a class="user-mention"
+  <p dir="auto">This release would not have been possible without the help of <a class="user-mention"
   data-hovercard-type="user" data-hovercard-url="/users/Sonlen1414/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/Sonlen1414">@Sonlen1414</a>
   .</p>
 
-  <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/13433513/38756013-40d03e2e-3f68-11e8-96cb-83704530de74.gif"><img
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/13433513/38756013-40d03e2e-3f68-11e8-96cb-83704530de74.gif"><img
   src="https://user-images.githubusercontent.com/13433513/38756013-40d03e2e-3f68-11e8-96cb-83704530de74.gif"
   alt="QR code" style="max-width: 100%;"></a></p>
 
-  <p>Changes:</p>
+  <p dir="auto">Changes:</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Closes <a class="issue-link js-issue-link" data-error-text="Failed to load title"
   data-id="312630837" data-permission-text="Title is private" data-url="https://github.com/noirscape/SRAU/issues/1"
@@ -83,10 +83,10 @@ update_notes: '<p>This release mostly adds in a lot of missing error checks and 
 
   </ul>
 
-  <p>Under the hood changes (you probably don''t care about this but for my own memory
-  it''s here):</p>
+  <p dir="auto">Under the hood changes (you probably don''t care about this but for
+  my own memory it''s here):</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Loads and loads. Really, I''ve rewritten about 90% of the program logic except
   for the ctrulib function calls themselves.</li>

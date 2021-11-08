@@ -29,11 +29,11 @@ source: https://github.com/Jonatan6/Pistol-Pong-DS
 systems:
 - DS
 title: Pistol Pong DS
-update_notes: '<h2>The first release of Pistol Pong DS is here!</h2>
+update_notes: '<h2 dir="auto">The first release of Pistol Pong DS is here!</h2>
 
-  <h3>The rules are simple:</h3>
+  <h3 dir="auto">The rules are simple:</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Control your paddle by pressing up and down on the dpad, and fire your gun by
   pressing right on the dpad.</li>
@@ -46,9 +46,9 @@ update_notes: '<h2>The first release of Pistol Pong DS is here!</h2>
 
   </ul>
 
-  <h3>To-Do</h3>
+  <h3 dir="auto">To-Do</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Add mystery-boxes/powerups</li>
 

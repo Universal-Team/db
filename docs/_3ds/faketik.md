@@ -23,11 +23,11 @@ source: https://github.com/ihaveamac/faketik
 systems:
 - 3DS
 title: faketik
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li>Fix reliability with getting SD title list
 
-  <ul>
+  <ul dir="auto">
 
   <li>This was due to a mistake that just happened to work in most cases, but stopped
   working as well when built with modern versions of devkitARM and libctru.</li>
@@ -40,7 +40,7 @@ update_notes: '<ul>
 
   </ul>
 
-  <p>You don''t need faketik.elf unless you are trying to debug faketik.</p>'
+  <p dir="auto">You don''t need faketik.elf unless you are trying to debug faketik.</p>'
 updated: '2020-11-14T22:53:05Z'
 version: v1.1.2
 version_title: faketik v1.1.2

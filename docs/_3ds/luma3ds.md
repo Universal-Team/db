@@ -25,7 +25,7 @@ source: https://github.com/LumaTeam/Luma3DS
 systems:
 - 3DS
 title: Luma3DS
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li><strong>Fix system version 11.14 not booting</strong></li>
 

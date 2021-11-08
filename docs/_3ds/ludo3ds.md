@@ -75,40 +75,41 @@ source: https://github.com/SuperSaiyajinStackZ/Ludo3DS
 systems:
 - 3DS
 title: Ludo3DS
-update_notes: '<p>This is Ludo3DS v0.4.0 which in my opinion is the full version.</p>
+update_notes: '<p dir="auto">This is Ludo3DS v0.4.0 which in my opinion is the full
+  version.</p>
 
-  <h2>What has been added?</h2>
+  <h2 dir="auto">What has been added?</h2>
 
-  <ul>
+  <ul dir="auto">
 
   <li>
 
-  <p>New Button Selector with the figure chips.</p>
+  <p dir="auto">New Button Selector with the figure chips.</p>
 
   </li>
 
   <li>
 
-  <p>New Splash screen at startup.</p>
+  <p dir="auto">New Splash screen at startup.</p>
 
   </li>
 
   <li>
 
-  <p>Figures can now move optional (animation).</p>
+  <p dir="auto">Figures can now move optional (animation).</p>
 
   </li>
 
   <li>
 
-  <p>Fix an out of bounds access hopefully with the previous figure selection, which
-  brought it to crash.</p>
+  <p dir="auto">Fix an out of bounds access hopefully with the previous figure selection,
+  which brought it to crash.</p>
 
   </li>
 
   <li>
 
-  <p>Gamedata have been changed and are compatible with <a href="https://github.com/SuperSaiyajinStackZ/LudoNDS/releases/v0.1.0">LudoNDS</a>
+  <p dir="auto">Gamedata have been changed and are compatible with <a href="https://github.com/SuperSaiyajinStackZ/LudoNDS/releases/v0.1.0">LudoNDS</a>
   v0.1.0 and <a href="https://supersaiyajinstackz.github.io/LudoJS" rel="nofollow">LudoJS</a>
   v0.3.0.</p>
 
@@ -116,9 +117,10 @@ update_notes: '<p>This is Ludo3DS v0.4.0 which in my opinion is the full version
 
   </ul>
 
-  <p>Screenshots have been updated as well, you can find them at the <a href="https://github.com/SuperSaiyajinStackZ/Ludo3DS/blob/main/README.md">ReadMe</a>.</p>
+  <p dir="auto">Screenshots have been updated as well, you can find them at the <a
+  href="https://github.com/SuperSaiyajinStackZ/Ludo3DS/blob/main/README.md">ReadMe</a>.</p>
 
-  <p>Have fun with Ludo3DS v0.4.0! ~SuperSaiyajinStackZ</p>'
+  <p dir="auto">Have fun with Ludo3DS v0.4.0! ~SuperSaiyajinStackZ</p>'
 updated: '2021-01-24T23:00:01Z'
 version: v0.4.0
 version_title: StackDay Release!

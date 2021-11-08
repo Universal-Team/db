@@ -24,9 +24,9 @@ systems:
 - DS
 title: Safe NAND Manager
 unistore_exclude: true
-update_notes: '<p><strong>What''s new?</strong></p>
+update_notes: '<p dir="auto"><strong>What''s new?</strong></p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)

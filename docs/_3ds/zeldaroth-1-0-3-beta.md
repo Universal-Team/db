@@ -38,9 +38,9 @@ source: https://github.com/vargaviktor/ZeldaROTH
 systems:
 - 3DS
 title: ZeldaROTH 1.0.3 beta
-update_notes: '<h2>Modifications</h2>
+update_notes: '<h2 dir="auto">Modifications</h2>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Hungarian translation was added</li>
 
@@ -49,17 +49,18 @@ update_notes: '<h2>Modifications</h2>
 
   </ul>
 
-  <h2>Known bug:</h2>
+  <h2 dir="auto">Known bug:</h2>
 
-  <ul>
+  <ul dir="auto">
 
   <li>when loading a level map, a graphical glitch occurs.</li>
 
   </ul>
 
-  <h2>Install</h2>
+  <h2 dir="auto">Install</h2>
 
-  <p>a. Nintendo 3DS CFW - Start FBI, Select Remote install &gt; Scan QR Code<br>
+  <p dir="auto">a. Nintendo 3DS CFW - Start FBI, Select Remote install &gt; Scan QR
+  Code<br>
 
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/vargaviktor/ZeldaROTH/releases/download/1.0.3-beta/qrcode.png"><img
   src="https://github.com/vargaviktor/ZeldaROTH/releases/download/1.0.3-beta/qrcode.png"
@@ -68,9 +69,10 @@ update_notes: '<h2>Modifications</h2>
   b. Download and install <a href="https://citra-emu.org/download/" rel="nofollow">Citra
   emulator</a> File -&gt; Install CIA</p>
 
-  <h2>Controls</h2>
+  <h2 dir="auto">Controls</h2>
 
-  <p>See in <a href="https://github.com/vargaviktor/ZeldaROTH/">Repository readme</a></p>'
+  <p dir="auto">See in <a href="https://github.com/vargaviktor/ZeldaROTH/">Repository
+  readme</a></p>'
 updated: '2020-12-21T10:17:14Z'
 version: 1.0.3-beta
 version_title: 1.0.3-beta - Hungarian translation

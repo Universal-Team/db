@@ -25,17 +25,17 @@ source: https://github.com/d0k3/GodMode9
 systems:
 - 3DS
 title: GodMode9
-update_notes: '<p>Today marks the 5th anniversary of the first public GodMode9 release.
-  With this being a special day, a proper release is in order. The conjoined changelog
-  is long, it includes 189 commits, 437 days of development work and two prereleases.
-  The two killer features in this one, for most users, will be the new title manager
-  and the ability to install basically anything (read below), but there are countless
-  other goodies in there, such as the revamped title info, better support for carts
-  and lots of under-the-hood improvements</p>
+update_notes: '<p dir="auto">Today marks the 5th anniversary of the first public GodMode9
+  release. With this being a special day, a proper release is in order. The conjoined
+  changelog is long, it includes 189 commits, 437 days of development work and two
+  prereleases. The two killer features in this one, for most users, will be the new
+  title manager and the ability to install basically anything (read below), but there
+  are countless other goodies in there, such as the revamped title info, better support
+  for carts and lots of under-the-hood improvements</p>
 
-  <p>This is new since the last prerelease:</p>
+  <p dir="auto">This is new since the last prerelease:</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>[new] Completely revamped title info, with special info for installed titles,
   TMDs and CIAs</li>
@@ -56,9 +56,9 @@ update_notes: '<p>Today marks the 5th anniversary of the first public GodMode9 r
 
   </ul>
 
-  <p>In addition, this is new since the last proper release:</p>
+  <p dir="auto">In addition, this is new since the last proper release:</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>[new] Possibility to install NCCH, NCSD (.3DS), DSiWare NDS, CIA, NUS/CDN, DSi
   CDN content to the system</li>
@@ -122,7 +122,7 @@ update_notes: '<p>Today marks the 5th anniversary of the first public GodMode9 r
 
   </ul>
 
-  <p><strong>Killer Feature 1: Title manager</strong><br>
+  <p dir="auto"><strong>Killer Feature 1: Title manager</strong><br>
 
   The title manager may be the one feature most relevant to our users in this release.
   It enables you to get an overview of your installed titles, build CIAs and even
@@ -130,7 +130,7 @@ update_notes: '<p>Today marks the 5th anniversary of the first public GodMode9 r
   select <code>Title manager</code>. SD installed titles are found on the <code>A:/</code>
   drive, system titles and DSiWare titles are found on the <code>1:/</code> drive.</p>
 
-  <p><strong>Killer Feature 2: Universal installer</strong><br>
+  <p dir="auto"><strong>Killer Feature 2: Universal installer</strong><br>
 
   The other killer feature in this release is the ability to install basically anything
   to your system. You can install CIA (obvious), NCSD (also called .3DS files), NCCH,
@@ -141,7 +141,7 @@ update_notes: '<p>Today marks the 5th anniversary of the first public GodMode9 r
   need to provide a <code>decTitlekeys.bin</code> file (with DSi titlekeys included)
   inside the <code>0:/GM9/support/</code> folder.</p>
 
-  <p><strong>How do I update GodMode9?</strong><br>
+  <p dir="auto"><strong>How do I update GodMode9?</strong><br>
 
   You wouldn''t believe how often we get that question when we do a new release. It''s
   actually very simple: Just replace <code>GodMode9.firm</code> on your SD card with
@@ -149,7 +149,7 @@ update_notes: '<p>Today marks the 5th anniversary of the first public GodMode9 r
   found in <code>gm9</code> folder inside the archive and go to the same folder on
   your SD card.</p>
 
-  <p><strong>Did you know?</strong><br>
+  <p dir="auto"><strong>Did you know?</strong><br>
 
   We actually missed last years'' anniversary release by a solid 5 months, and all
   you got back then was a prerelease. GodMode9 is a side project for all of our main

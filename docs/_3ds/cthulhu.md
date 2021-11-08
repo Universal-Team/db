@@ -24,10 +24,10 @@ source: https://github.com/Ryuzaki-MrL/Cthulhu
 systems:
 - 3DS
 title: Cthulhu
-update_notes: '<p>Small release that adds an option to set play coins to 300, the
-  system''s cap.</p>
+update_notes: '<p dir="auto">Small release that adds an option to set play coins to
+  300, the system''s cap.</p>
 
-  <p>This codebase is old and will likely not be updated again.</p>'
+  <p dir="auto">This codebase is old and will likely not be updated again.</p>'
 updated: '2019-11-28T09:08:38Z'
 version: 1.3.5
 version_title: Cthulhu v1.3.5

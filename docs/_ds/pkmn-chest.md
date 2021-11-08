@@ -74,14 +74,15 @@ source: https://github.com/Universal-Team/pkmn-chest
 systems:
 - DS
 title: pkmn-chest
-update_notes: "<blockquote>\n<p>Pok\xE9mon Chest, a Pok\xE9mon bank for the Nintendo\
-  \ DS(i)</p>\n</blockquote>\n<h4>What's new:</h4>\n<ul>\n<li>The config menu can\
-  \ now be accessed with <kbd>SELECT</kbd> on the top menu</li>\n<li>Directories can\
-  \ now be added to the top menu as favorites</li>\n<li>The Fateful Encounter status\
-  \ of a Pok\xE9mon can now be changed\n<ul>\n<li>In Generation 3 Mew must be a Fateful\
-  \ Encounter to obey</li>\n</ul>\n</li>\n<li>Updated the chest to use PKSM's latest\
-  \ bank version</li>\n<li>A warning will now be shown before turning off if an exception\
-  \ is thrown</li>\n</ul>\n<h4>Bug fixes:</h4>\n<ul>\n<li>Fixed party Pok\xE9mon's\
+update_notes: "<blockquote>\n<p dir=\"auto\">Pok\xE9mon Chest, a Pok\xE9mon bank for\
+  \ the Nintendo DS(i)</p>\n</blockquote>\n<h4 dir=\"auto\">What's new:</h4>\n<ul\
+  \ dir=\"auto\">\n<li>The config menu can now be accessed with <kbd>SELECT</kbd>\
+  \ on the top menu</li>\n<li>Directories can now be added to the top menu as favorites</li>\n\
+  <li>The Fateful Encounter status of a Pok\xE9mon can now be changed\n<ul dir=\"\
+  auto\">\n<li>In Generation 3 Mew must be a Fateful Encounter to obey</li>\n</ul>\n\
+  </li>\n<li>Updated the chest to use PKSM's latest bank version</li>\n<li>A warning\
+  \ will now be shown before turning off if an exception is thrown</li>\n</ul>\n<h4\
+  \ dir=\"auto\">Bug fixes:</h4>\n<ul dir=\"auto\">\n<li>Fixed party Pok\xE9mon's\
   \ stats not updating until moved to/from the PC</li>\n<li>Fixed the kerning on some\
   \ characters in the font</li>\n<li>Fixed Korean being called <code>\uD55C\uAD6D\
   </code> instead of <code>\uD55C\uAD6D\uC5B4</code></li>\n<li>Fixed TM/HM pocket\
@@ -91,8 +92,8 @@ update_notes: "<blockquote>\n<p>Pok\xE9mon Chest, a Pok\xE9mon bank for the Nint
   link_type:self\" href=\"https://github.com/remicalixte\">@remicalixte</a>) Fixed\
   \ shiny star not hiding after moving off a shiny Pok\xE9mon</li>\n<li>Several bug\
   \ fixes in <a href=\"https://github.com/Flagbrew/PKSM-Core/compare/b543fa321133c5b5af784a09437e417cae26e094...27ba4a6ce64bf4206d0cce92f09d223c65dc975d\"\
-  >PKSM-Core</a></li>\n</ul>\n<h4>Side notes:</h4>\n<ul>\n<li>Nightly builds are available\
-  \ in the extras <a href=\"https://github.com/Universal-Team/extras/tree/master/builds/pkmn-chest\"\
+  >PKSM-Core</a></li>\n</ul>\n<h4 dir=\"auto\">Side notes:</h4>\n<ul dir=\"auto\"\
+  >\n<li>Nightly builds are available in the extras <a href=\"https://github.com/Universal-Team/extras/tree/master/builds/pkmn-chest\"\
   >repo</a> &amp; <a href=\"https://github.com/Universal-Team/extras/releases\">releases</a>.</li>\n\
   <li>Report any bugs you find <a href=\"https://github.com/Universal-Team/pkmn-chest/issues/new/choose\"\
   >here</a>, and you can join our Discord server <a href=\"https://discord.gg/KDJCfGF\"\

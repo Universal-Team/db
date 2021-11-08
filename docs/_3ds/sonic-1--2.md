@@ -62,11 +62,11 @@ source: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation
 systems:
 - 3DS
 title: Sonic 1 / 2
-update_notes: '<p>A New 3DS is required for these games to play smoothly.</p>
+update_notes: '<p dir="auto">A New 3DS is required for these games to play smoothly.</p>
 
-  <h3>Updates</h3>
+  <h3 dir="auto">Updates</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Button mapping in ''settings.ini'' now works. (<strong>Important: if you''re
   updating from an older version you must delete your old ''settings.ini'' file otherwise
@@ -76,10 +76,10 @@ update_notes: '<p>A New 3DS is required for these games to play smoothly.</p>
 
   </ul>
 
-  <h3>Installation</h3>
+  <h3 dir="auto">Installation</h3>
 
-  <p>Before you can play you need to extract the ''data.rsdk'' files from your copy
-  of Sonic 1 and 2 (2013).<br>
+  <p dir="auto">Before you can play you need to extract the ''data.rsdk'' files from
+  your copy of Sonic 1 and 2 (2013).<br>
 
   Do this once for each game: Rename the .apk file extension into a .zip. Open it,
   and navigate go into the ''assets'' folder. Extract the ''Data.rsdk.xmf'' file and
@@ -87,11 +87,11 @@ update_notes: '<p>A New 3DS is required for these games to play smoothly.</p>
 
   Place them in ''sd:/3ds/Sonic1/'' and ''sd:/3ds/Sonic2/''.</p>
 
-  <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/14222721/107821288-13c14800-6d74-11eb-9805-b704749a9be7.png"><img
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/14222721/107821288-13c14800-6d74-11eb-9805-b704749a9be7.png"><img
   src="https://user-images.githubusercontent.com/14222721/107821288-13c14800-6d74-11eb-9805-b704749a9be7.png"
   alt="qr_sonic1" style="max-width: 100%;"></a></p>
 
-  <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/14222721/107821304-1a4fbf80-6d74-11eb-8dcb-b1224880933b.png"><img
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/14222721/107821304-1a4fbf80-6d74-11eb-8dcb-b1224880933b.png"><img
   src="https://user-images.githubusercontent.com/14222721/107821304-1a4fbf80-6d74-11eb-8dcb-b1224880933b.png"
   alt="qr_sonic2" style="max-width: 100%;"></a></p>'
 updated: '2021-02-12T20:37:15Z'

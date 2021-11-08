@@ -24,12 +24,12 @@ source: https://github.com/EBLeifEricson/orchestrina
 systems:
 - 3DS
 title: Orchestrina
-update_notes: '<p>This release features a major redesign of the Wind Waker baton in
-  order to more closely reflect the game.</p>
+update_notes: '<p dir="auto">This release features a major redesign of the Wind Waker
+  baton in order to more closely reflect the game.</p>
 
-  <p>What''s new:</p>
+  <p dir="auto">What''s new:</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Rhythm meter added for Wind Waker</li>
 

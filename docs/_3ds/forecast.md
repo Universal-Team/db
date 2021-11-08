@@ -24,9 +24,9 @@ source: https://github.com/NatTupper/Forecast
 systems:
 - 3DS
 title: Forecast
-update_notes: '<h2>Fixed</h2>
+update_notes: '<h2 dir="auto">Fixed</h2>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Fixed <a class="issue-link js-issue-link" data-error-text="Failed to load title"
   data-id="245271043" data-permission-text="Title is private" data-url="https://github.com/NatTupper/Forecast/issues/1"

@@ -22,7 +22,7 @@ source: https://github.com/bubble2k16/snes9x_3ds
 systems:
 - 3DS
 title: Snes9x
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li>Improved sound synchronization.</li>
 

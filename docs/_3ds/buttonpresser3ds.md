@@ -29,11 +29,12 @@ source: https://github.com/trainboy2019/ButtonPresser3DS
 systems:
 - 3DS
 title: ButtonPresser3DS
-update_notes: '<p>The buttons have gotten a few tweaks to make the app even better!</p>
+update_notes: '<p dir="auto">The buttons have gotten a few tweaks to make the app
+  even better!</p>
 
-  <p>Changes:</p>
+  <p dir="auto">Changes:</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Press up or down to change the color of your button.</li>
 
@@ -45,9 +46,9 @@ update_notes: '<p>The buttons have gotten a few tweaks to make the app even bett
 
   </ul>
 
-  <p>Just scan this QR code!</p>
+  <p dir="auto">Just scan this QR code!</p>
 
-  <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/trainboy2019/ButtonPresser3DS/blob/master/Button%20QR%20Code%202.png?raw=true"><img
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/trainboy2019/ButtonPresser3DS/blob/master/Button%20QR%20Code%202.png?raw=true"><img
   src="https://github.com/trainboy2019/ButtonPresser3DS/blob/master/Button%20QR%20Code%202.png?raw=true"
   alt="QR 2.0" style="max-width: 100%;"></a></p>'
 updated: '2017-06-22T02:42:08Z'

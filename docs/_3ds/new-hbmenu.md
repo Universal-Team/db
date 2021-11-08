@@ -30,7 +30,7 @@ source: https://github.com/fincs/new-hbmenu
 systems:
 - 3DS
 title: new-hbmenu
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li>Built with latest tools and libraries.</li>
 
@@ -52,8 +52,8 @@ update_notes: '<ul>
 
   </ul>
 
-  <p><strong>Binary hotfixed on 2020/07/18 01:50 (UTC+2) to solve a hax 2.x compatibility
-  problem</strong></p>'
+  <p dir="auto"><strong>Binary hotfixed on 2020/07/18 01:50 (UTC+2) to solve a hax
+  2.x compatibility problem</strong></p>'
 updated: '2020-07-16T15:04:31Z'
 version: v2.2.0
 version_title: Homebrew Menu v2.2.0

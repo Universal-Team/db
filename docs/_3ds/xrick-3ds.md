@@ -22,7 +22,7 @@ source: https://github.com/nop90/Xrick-3ds
 systems:
 - 3DS
 title: Xrick-3ds
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li>Fixed 3dsx format</li>
 

@@ -63,22 +63,22 @@ source: https://github.com/SuperSaiyajinStackZ/LudoNDS
 systems:
 - DS
 title: LudoNDS
-update_notes: '<p>This is LudoNDS v0.1.0, which is already fully playable and in my
-  opinion already the full version.</p>
+update_notes: '<p dir="auto">This is LudoNDS v0.1.0, which is already fully playable
+  and in my opinion already the full version.</p>
 
-  <h2>What has been added?</h2>
+  <h2 dir="auto">What has been added?</h2>
 
-  <ul>
+  <ul dir="auto">
 
   <li>
 
-  <p>Fully Playable gameplay.</p>
+  <p dir="auto">Fully Playable gameplay.</p>
 
   </li>
 
   <li>
 
-  <p>Gamedata compatibility with <a href="https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/v0.4.0">Ludo3DS</a>
+  <p dir="auto">Gamedata compatibility with <a href="https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/v0.4.0">Ludo3DS</a>
   v0.4.0 and <a href="https://supersaiyajinstackz.github.io/LudoJS" rel="nofollow">LudoJS</a>
   v0.3.0.</p>
 
@@ -86,22 +86,22 @@ update_notes: '<p>This is LudoNDS v0.1.0, which is already fully playable and in
 
   <li>
 
-  <p>Playable in English and German.</p>
+  <p dir="auto">Playable in English and German.</p>
 
   </li>
 
   <li>
 
-  <p>Pretty much identical UI as <a href="https://github.com/SuperSaiyajinStackZ/Ludo3DS">Ludo3DS</a>
+  <p dir="auto">Pretty much identical UI as <a href="https://github.com/SuperSaiyajinStackZ/Ludo3DS">Ludo3DS</a>
   with some slight changes.</p>
 
   </li>
 
   </ul>
 
-  <p>If you would like to see Screenshots, take a look inside the <a href="https://github.com/SuperSaiyajinStackZ/LudoNDS/blob/main/README.md">ReadMe</a>.</p>
+  <p dir="auto">If you would like to see Screenshots, take a look inside the <a href="https://github.com/SuperSaiyajinStackZ/LudoNDS/blob/main/README.md">ReadMe</a>.</p>
 
-  <p>Have fun with v0.1.0 of LudoNDS! ~SuperSaiyajinStackZ</p>'
+  <p dir="auto">Have fun with v0.1.0 of LudoNDS! ~SuperSaiyajinStackZ</p>'
 updated: '2021-01-24T23:00:05Z'
 version: v0.1.0
 version_title: StackDay Release!

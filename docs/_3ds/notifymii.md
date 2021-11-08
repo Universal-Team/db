@@ -31,11 +31,12 @@ source: https://github.com/Ryuzaki-MrL/NotifyMii
 systems:
 - 3DS
 title: NotifyMii
-update_notes: '<p>If everything''s working then this will be my last release for now.</p>
+update_notes: '<p dir="auto">If everything''s working then this will be my last release
+  for now.</p>
 
-  <p>What''s new:</p>
+  <p dir="auto">What''s new:</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Major UI changes.</li>
 
@@ -50,9 +51,9 @@ update_notes: '<p>If everything''s working then this will be my last release for
 
   </ul>
 
-  <p>What''s fixed:</p>
+  <p dir="auto">What''s fixed:</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Deleting a notification will no longer mess with other notifications.</li>
 
@@ -60,7 +61,7 @@ update_notes: '<p>If everything''s working then this will be my last release for
 
   </ul>
 
-  <p>What''s next:<br>
+  <p dir="auto">What''s next:<br>
 
   There are some leftovers of unimplemented stuff in this release: Nintendo 3DS Camera
   support, notification editing, multi-selection, and other stuff.<br>

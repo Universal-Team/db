@@ -30,15 +30,15 @@ source: https://github.com/joel16/FriendMii
 systems:
 - 3DS
 title: FriendMii
-update_notes: '<p>This is more of a proof of concept, open source friend application
-  than a fully functional application. Things are still quite limited but in working
-  condition for now. <em>The only advantage to this, is that it lets you search for
-  friends in your friends list which seems to be the one thing the friends app doesn''t
-  do</em>.</p>
+update_notes: '<p dir="auto">This is more of a proof of concept, open source friend
+  application than a fully functional application. Things are still quite limited
+  but in working condition for now. <em>The only advantage to this, is that it lets
+  you search for friends in your friends list which seems to be the one thing the
+  friends app doesn''t do</em>.</p>
 
-  <p>FriendMii consists of the following features:</p>
+  <p dir="auto">FriendMii consists of the following features:</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Displays friend list. (Use L/R to switch between your friend card and friends
   list)</li>
@@ -57,8 +57,8 @@ update_notes: '<p>This is more of a proof of concept, open source friend applica
 
   </ul>
 
-  <p><strong>If you''d like to support me, then feel free to buy me a coffee, I''d
-  really appreciate it! <a href="https://www.paypal.me/Joel16IA" rel="nofollow">https://www.paypal.me/Joel16IA</a></strong></p>'
+  <p dir="auto"><strong>If you''d like to support me, then feel free to buy me a coffee,
+  I''d really appreciate it! <a href="https://www.paypal.me/Joel16IA" rel="nofollow">https://www.paypal.me/Joel16IA</a></strong></p>'
 updated: '2018-07-29T17:18:00Z'
 version: v1.00
 version_title: FriendMii Initial Release v1.0.0

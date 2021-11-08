@@ -20,9 +20,9 @@ prerelease:
       size: 726016
       size_str: 709 KiB
       url: https://github.com/DS-Homebrew/PicoDriveTWL/releases/download/v2.0.2/PicoDriveTWL.nds
-  update_notes: '<p><strong>Bug fixes</strong></p>
+  update_notes: '<p dir="auto"><strong>Bug fixes</strong></p>
 
-    <ul>
+    <ul dir="auto">
 
     <li>Fixed ARGV support.</li>
 
@@ -41,9 +41,9 @@ source: https://github.com/DS-Homebrew/PicoDriveTWL
 systems:
 - DS
 title: PicoDriveTWL
-update_notes: '<p><strong>Bug fixes</strong></p>
+update_notes: '<p dir="auto"><strong>Bug fixes</strong></p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Fixed ARGV support.</li>
 

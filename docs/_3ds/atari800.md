@@ -30,10 +30,10 @@ source: https://github.com/RandomMan25XX/atari800
 systems:
 - 3DS
 title: Atari800
-update_notes: '<p>Here''s a CIA and 3dsx build of the latest 3ds port commit uploaded
-  here for your convenience</p>
+update_notes: '<p dir="auto">Here''s a CIA and 3dsx build of the latest 3ds port commit
+  uploaded here for your convenience</p>
 
-  <p>(Latest Commit built thanks to TimmSkiller)</p>'
+  <p dir="auto">(Latest Commit built thanks to TimmSkiller)</p>'
 updated: '2021-07-31T03:21:12Z'
 version: Version_3DS_0.3.5
 version_title: Prebuilt CIA and 3dsx of latest commit for 3ds port

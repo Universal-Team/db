@@ -24,14 +24,14 @@ source: https://github.com/Garhoogin/Box
 systems:
 - DS
 title: Box
-update_notes: '<p>Initial Release!</p>
+update_notes: '<p dir="auto">Initial Release!</p>
 
-  <p>Each player takes turns rolling dice and flipping tiles that add up to the dice
-  total. When a player can''t do this, their turn is over. The remaining tiles are
-  added up and that becomes the player''s score. The player with the lowest score
-  wins. If a player manages to get a score of 0, they have closed the box. The next
-  player must then also close the box for gameplay to continue. If they fail to do
-  so, the last player automatically wins.</p>'
+  <p dir="auto">Each player takes turns rolling dice and flipping tiles that add up
+  to the dice total. When a player can''t do this, their turn is over. The remaining
+  tiles are added up and that becomes the player''s score. The player with the lowest
+  score wins. If a player manages to get a score of 0, they have closed the box. The
+  next player must then also close the box for gameplay to continue. If they fail
+  to do so, the last player automatically wins.</p>'
 updated: '2021-08-16T03:36:01Z'
 version: v1.0.0.0
 version_title: Box 1.0.0.0

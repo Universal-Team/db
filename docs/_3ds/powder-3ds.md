@@ -24,7 +24,7 @@ source: https://github.com/nop90/POWDER-3DS
 systems:
 - 3DS
 title: POWDER-3DS
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li>raised walking speed</li>
 

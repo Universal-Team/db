@@ -35,10 +35,10 @@ source: https://github.com/SombrAbsol/GameYob-3DS
 systems:
 - 3DS
 title: GameYob (3DS)
-update_notes: '<p><em>The latest version of the GameYob port for the 3DS. I added
-  the .3dsx file from "GameYob.zip" just in case.</em></p>
+update_notes: '<p dir="auto"><em>The latest version of the GameYob port for the 3DS.
+  I added the .3dsx file from "GameYob.zip" just in case.</em></p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Update to devkitARM r45 and libctru 1.0.0.</li>
 

@@ -27,19 +27,19 @@ source: https://github.com/mikewii/Luma3DS-plugin
 systems:
 - 3DS
 title: Luma3DS-plugin
-update_notes: '<p>Switching to correct semantic versioning.</p>
+update_notes: '<p dir="auto">Switching to correct semantic versioning.</p>
 
-  <p>Plugin:<br>
+  <p dir="auto">Plugin:<br>
 
   Disabled touch screen hook for old sdk games due to found bug on old3ds, default
   hid will be initialized instead. This feature will make its return in later release
   once i fix this bug.</p>
 
-  <p>MH4U (4G):<br>
+  <p dir="auto">MH4U (4G):<br>
 
   Added support for all regions.</p>
 
-  <p>MH3U (3G):<br>
+  <p dir="auto">MH3U (3G):<br>
 
   Added support for all regions.</p>'
 updated: '2021-09-25T05:31:11Z'

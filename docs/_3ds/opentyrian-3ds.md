@@ -23,7 +23,7 @@ source: https://github.com/nop90/Opentyrian-3ds
 systems:
 - 3DS
 title: Opentyrian-3ds
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li>Disabled name input screen for highscores</li>
 

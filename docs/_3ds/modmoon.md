@@ -37,10 +37,10 @@ source: https://github.com/Swiftloke/ModMoon
 systems:
 - 3DS
 title: ModMoon
-update_notes: '<p>This release contains several critical fixes for broken things in
-  3.0. They include:</p>
+update_notes: '<p dir="auto">This release contains several critical fixes for broken
+  things in 3.0. They include:</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Include SaltySD files that do not crash after the character select screen in
   Smash (taken from the SaltySD 1.2 release page at <a href="https://github.com/shinyquagsire23/SaltySD/releases">https://github.com/shinyquagsire23/SaltySD/releases</a>)</li>

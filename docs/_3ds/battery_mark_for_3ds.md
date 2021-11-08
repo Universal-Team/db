@@ -28,7 +28,7 @@ source: https://github.com/Core-2-Extreme/Battery_mark_for_3DS
 systems:
 - 3DS
 title: Battery_mark_for_3DS
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li>Added battery mark ranking</li>
 

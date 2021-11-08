@@ -27,17 +27,17 @@ source: https://github.com/RocketRobz/HoriHD-Gallery
 systems:
 - 3DS
 title: HoriHD-Gallery
-update_notes: '<p><strong>What''s new?</strong></p>
+update_notes: '<p dir="auto"><strong>What''s new?</strong></p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Added toggling between 400px and 800px modes, by pressing SELECT.</li>
 
   </ul>
 
-  <p><strong>Improvement</strong></p>
+  <p dir="auto"><strong>Improvement</strong></p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Added linear filtering in 400px mode (and O2DS consoles), so images don''t look
   jagged.</li>

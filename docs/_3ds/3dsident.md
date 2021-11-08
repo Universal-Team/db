@@ -44,13 +44,13 @@ source: https://github.com/joel16/3DSident
 systems:
 - 3DS
 title: 3DSident
-update_notes: '<p>I think the time has arrived to close the doors on this project.
-  It''s been quite the 2 years and woah, the 405k downloads, that''s quite the milestone
-  for me. Thanks to everyone who were a part of this.</p>
+update_notes: '<p dir="auto">I think the time has arrived to close the doors on this
+  project. It''s been quite the 2 years and woah, the 405k downloads, that''s quite
+  the milestone for me. Thanks to everyone who were a part of this.</p>
 
-  <p><strong>Both:</strong></p>
+  <p dir="auto"><strong>Both:</strong></p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Now displays NAND as well as the original local friend code seed. (Useful to
   know if you''ve switched your friend code seed before)</li>
@@ -65,18 +65,18 @@ update_notes: '<p>I think the time has arrived to close the doors on this projec
 
   </ul>
 
-  <p><strong>Original Version:</strong></p>
+  <p dir="auto"><strong>Original Version:</strong></p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Added some features from the GUI version - Now displays mac address for all
   3 WiFi slots, card slot status and initial firmware version.</li>
 
   </ul>
 
-  <p><strong>GUI Version:</strong></p>
+  <p dir="auto"><strong>GUI Version:</strong></p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Integrated 3DSident button tester. (Use start + select to activate/deactivate)</li>
 
@@ -87,22 +87,22 @@ update_notes: '<p>I think the time has arrived to close the doors on this projec
 
   </ul>
 
-  <p><em>Original:</em><br>
+  <p dir="auto"><em>Original:</em><br>
 
   <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/6aaa108c2a77b2ebfba189286230291bba817844c8348bc10241fd17e98728aa/68747470733a2f2f63686172742e676f6f676c65617069732e636f6d2f63686172743f6368743d71722663686c3d68747470732533412532462532466769746875622e636f6d2532466a6f656c31362532463344536964656e7425324672656c6561736573253246646f776e6c6f6164253246302e382e302532463344536964656e742e636961266368733d313830783138302663686f653d5554462d382663686c643d4c25374332"><img
   src="https://camo.githubusercontent.com/6aaa108c2a77b2ebfba189286230291bba817844c8348bc10241fd17e98728aa/68747470733a2f2f63686172742e676f6f676c65617069732e636f6d2f63686172743f6368743d71722663686c3d68747470732533412532462532466769746875622e636f6d2532466a6f656c31362532463344536964656e7425324672656c6561736573253246646f776e6c6f6164253246302e382e302532463344536964656e742e636961266368733d313830783138302663686f653d5554462d382663686c643d4c25374332"
   alt="image" data-canonical-src="https://chart.googleapis.com/chart?cht=qr&amp;chl=https%3A%2F%2Fgithub.com%2Fjoel16%2F3DSident%2Freleases%2Fdownload%2F0.8.0%2F3DSident.cia&amp;chs=180x180&amp;choe=UTF-8&amp;chld=L%7C2"
   style="max-width: 100%;"></a></p>
 
-  <p><em>GUI:</em><br>
+  <p dir="auto"><em>GUI:</em><br>
 
   <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/4e53609c6906141fad327ede60a8b26ce7b05231e205858ca647970af1e2e8d7/68747470733a2f2f63686172742e676f6f676c65617069732e636f6d2f63686172743f6368743d71722663686c3d68747470732533412532462532466769746875622e636f6d2532466a6f656c31362532463344536964656e7425324672656c6561736573253246646f776e6c6f6164253246302e382e302532463344536964656e742d4755492e636961266368733d313830783138302663686f653d5554462d382663686c643d4c25374332"><img
   src="https://camo.githubusercontent.com/4e53609c6906141fad327ede60a8b26ce7b05231e205858ca647970af1e2e8d7/68747470733a2f2f63686172742e676f6f676c65617069732e636f6d2f63686172743f6368743d71722663686c3d68747470732533412532462532466769746875622e636f6d2532466a6f656c31362532463344536964656e7425324672656c6561736573253246646f776e6c6f6164253246302e382e302532463344536964656e742d4755492e636961266368733d313830783138302663686f653d5554462d382663686c643d4c25374332"
   alt="image" data-canonical-src="https://chart.googleapis.com/chart?cht=qr&amp;chl=https%3A%2F%2Fgithub.com%2Fjoel16%2F3DSident%2Freleases%2Fdownload%2F0.8.0%2F3DSident-GUI.cia&amp;chs=180x180&amp;choe=UTF-8&amp;chld=L%7C2"
   style="max-width: 100%;"></a></p>
 
-  <p><strong>If you''d like to support me, then feel free to buy me a coffee, I''d
-  really appreciate it! <a href="https://www.paypal.me/Joel16IA" rel="nofollow">https://www.paypal.me/Joel16IA</a></strong></p>'
+  <p dir="auto"><strong>If you''d like to support me, then feel free to buy me a coffee,
+  I''d really appreciate it! <a href="https://www.paypal.me/Joel16IA" rel="nofollow">https://www.paypal.me/Joel16IA</a></strong></p>'
 updated: '2018-08-03T06:02:13Z'
 version: 0.8.0
 version_title: '3DSident v0.8.0 - Final '

@@ -28,11 +28,11 @@ source: https://github.com/DDews/Snakes
 systems:
 - 3DS
 title: Snakes
-update_notes: '<h1>Patch 0.2.5.2</h1>
+update_notes: '<h1 dir="auto">Patch 0.2.5.2</h1>
 
-  <h2>Many bug fixes in this patch:</h2>
+  <h2 dir="auto">Many bug fixes in this patch:</h2>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Game no longer crashes randomly</li>
 
@@ -53,11 +53,11 @@ update_notes: '<h1>Patch 0.2.5.2</h1>
 
   </ul>
 
-  <h1>0.2.5 release!</h1>
+  <h1 dir="auto">0.2.5 release!</h1>
 
-  <h2>New features:</h2>
+  <h2 dir="auto">New features:</h2>
 
-  <ul>
+  <ul dir="auto">
 
   <li><strong>3 bot opponents</strong> with different difficulty settings for one-player
   experience.</li>
@@ -67,9 +67,9 @@ update_notes: '<h1>Patch 0.2.5.2</h1>
 
   </ul>
 
-  <h2>Changes:</h2>
+  <h2 dir="auto">Changes:</h2>
 
-  <ul>
+  <ul dir="auto">
 
   <li><em>Occasional holes</em> game mode now makes holes more common. Went from 1/80
   chance of appearing to about 1/20.</li>
@@ -106,9 +106,9 @@ update_notes: '<h1>Patch 0.2.5.2</h1>
 
   </ul>
 
-  <h2>Bug fixes:</h2>
+  <h2 dir="auto">Bug fixes:</h2>
 
-  <ul>
+  <ul dir="auto">
 
   <li><em>Frame drop on o3ds has been fixed</em></li>
 
@@ -132,10 +132,10 @@ update_notes: '<h1>Patch 0.2.5.2</h1>
 
   </ul>
 
-  <p><strong>Just a note</strong>: this game does not run very well on old 3ds models.
-  It is playable, but with 3 bots playing at once, the o3ds has severe frame-drop.
-  I am trying to find the source of this problem. It only occurs on the o3ds and o3dsxl.
-  The n3ds and n3dsxl are fine.</p>'
+  <p dir="auto"><strong>Just a note</strong>: this game does not run very well on
+  old 3ds models. It is playable, but with 3 bots playing at once, the o3ds has severe
+  frame-drop. I am trying to find the source of this problem. It only occurs on the
+  o3ds and o3dsxl. The n3ds and n3dsxl are fine.</p>'
 updated: '2017-01-24T22:01:22Z'
 version: 0.2.5
 version_title: Version 0.2.5.2

@@ -30,11 +30,11 @@ source: https://github.com/Cruel/DrawAttack
 systems:
 - 3DS
 title: DrawAttack
-update_notes: '<p>Fixed a couple 1.2 bugs, upped version to force users to update
-  and minimizing client crashing.</p>
+update_notes: '<p dir="auto">Fixed a couple 1.2 bugs, upped version to force users
+  to update and minimizing client crashing.</p>
 
-  <p>Changed keyboard to process key on touch (instead of release) for more reliable
-  response. And also added key repeating when holding a key.</p>'
+  <p dir="auto">Changed keyboard to process key on touch (instead of release) for
+  more reliable response. And also added key repeating when holding a key.</p>'
 updated: '2016-04-17T07:38:25Z'
 version: '1.3'
 ---

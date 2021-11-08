@@ -20,7 +20,7 @@ prerelease:
       size: 7314200
       size_str: 6 MiB
       url: https://github.com/machinamentum/CS3DS/releases/download/0.6-alpha/cspsp.zip
-  update_notes: <p>Initial network play support.</p>
+  update_notes: <p dir="auto">Initial network play support.</p>
   update_notes_md: 'Initial network play support.
 
     '
@@ -35,7 +35,7 @@ source: https://github.com/machinamentum/CS3DS
 systems:
 - 3DS
 title: CS3DS
-update_notes: <p>Initial network play support.</p>
+update_notes: <p dir="auto">Initial network play support.</p>
 updated: '2016-04-22T01:51:31Z'
 version: 0.6-alpha
 ---

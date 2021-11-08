@@ -25,7 +25,7 @@ source: https://github.com/FluBBaOfWard/S8DS
 systems:
 - DS
 title: S8DS
-update_notes: <p>Fixed load/save state for Coleco.</p>
+update_notes: <p dir="auto">Fixed load/save state for Coleco.</p>
 updated: '2021-10-18T17:16:53Z'
 version: v1.1.6
 version_title: V1.1.6

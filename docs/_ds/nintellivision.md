@@ -35,9 +35,9 @@ source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p>V3.2 : 04-Nov-2021 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V3.2 : 04-Nov-2021 by wavemotion-dave</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Fixed .cfg file reading (last line was skipped if there was no CR)</li>
 

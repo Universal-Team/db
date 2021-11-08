@@ -25,7 +25,7 @@ systems:
 - DS
 title: TMFH
 unistore_exclude: true
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li>Nand free space calculation is now accurate (or very close).</li>
 

@@ -25,7 +25,7 @@ source: https://github.com/rverseTeam/rverse2
 systems:
 - 3DS
 title: rverse
-update_notes: <p>New certificate and domain change</p>
+update_notes: <p dir="auto">New certificate and domain change</p>
 updated: '2021-11-02T19:29:54Z'
 version: v4.0.0
 version_title: Release 20211102

@@ -30,20 +30,20 @@ source: https://github.com/RMcTn/Notepad3DS
 systems:
 - 3DS
 title: Notepad3DS
-update_notes: '<h1>1.1.2</h1>
+update_notes: '<h1 dir="auto">1.1.2</h1>
 
-  <h3>Features</h3>
+  <h3 dir="auto">Features</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Lines are no longer restricted to a max length of 60 characters. Increased to
   1024 to match with notepad''s line limit.</li>
 
   </ul>
 
-  <h3>Bug fixes</h3>
+  <h3 dir="auto">Bug fixes</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Lines are no longer redrawn when pressing down at the end of file.</li>
 

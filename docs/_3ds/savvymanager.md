@@ -39,27 +39,28 @@ source: https://github.com/RocketRobz/SavvyManager
 systems:
 - 3DS
 title: SavvyManager
-update_notes: "<p><strong>What's new?</strong></p>\n<ul>\n<li>KOR region is now finally\
-  \ supported!<br>\nWith only the 1st and 2nd <em>Girls Style</em> games available\
-  \ in Korea, you can bring any character from the 3rd and 4th games into the 2nd\
-  \ game, using the character import feature!\n<ul>\n<li>Please note that KOR support\
-  \ has not been thoroughly tested. There may be some text sizing and/or positioning\
-  \ issues.</li>\n</ul>\n</li>\n<li>Pre-rendered character previews for the 4th game,\
-  \ are now available for all importable characters!</li>\n<li>Unique bottom backgrounds\
-  \ are used for each game in the game select menu.</li>\n<li>2020 <em>Rocket Robz</em>\
-  \ logo is now in use!\n<ul>\n<li>The logo is also animated!</li>\n</ul>\n</li>\n\
-  <li>800px wide mode (dubbed <em>Hori-HD</em> by me) is now used!<br>\nSee improved\
-  \ clarity in the pre-rendered character previews!\n<ul>\n<li>This feature is exclusive\
-  \ to Old 3DS, New 3DS, and New 2DS consoles.</li>\n</ul>\n</li>\n<li>Originally\
-  \ composed menu music has been added!</li>\n</ul>\n<p><strong>Improvements</strong></p>\n\
-  <ul>\n<li>Fixed some character looks (e.g. hair, eyes, lips, makeup, outfit) outside\
-  \ of their games, such as:\n<ul>\n<li>Brienne/Zahra</li>\n<li>Clara</li>\n<li>Rosie</li>\n\
-  <li>Yolanda</li>\n<li>Alina</li>\n<li>Ang\xE9lique</li>\n</ul>\n</li>\n</ul>\n<p><strong>Bug\
-  \ fixes</strong></p>\n<ul>\n<li>Fixed the characters below Brienne/Zahra missing\
-  \ from the importable 2nd game character list.</li>\n<li>Fixed <em>it's</em> to\
-  \ <em>its</em> in the game select menu.</li>\n</ul>\n<p><strong>Known bug</strong></p>\n\
-  <ul>\n<li>Black edges are seen around the background circles on the top screen.</li>\n\
-  </ul>"
+update_notes: "<p dir=\"auto\"><strong>What's new?</strong></p>\n<ul dir=\"auto\"\
+  >\n<li>KOR region is now finally supported!<br>\nWith only the 1st and 2nd <em>Girls\
+  \ Style</em> games available in Korea, you can bring any character from the 3rd\
+  \ and 4th games into the 2nd game, using the character import feature!\n<ul dir=\"\
+  auto\">\n<li>Please note that KOR support has not been thoroughly tested. There\
+  \ may be some text sizing and/or positioning issues.</li>\n</ul>\n</li>\n<li>Pre-rendered\
+  \ character previews for the 4th game, are now available for all importable characters!</li>\n\
+  <li>Unique bottom backgrounds are used for each game in the game select menu.</li>\n\
+  <li>2020 <em>Rocket Robz</em> logo is now in use!\n<ul dir=\"auto\">\n<li>The logo\
+  \ is also animated!</li>\n</ul>\n</li>\n<li>800px wide mode (dubbed <em>Hori-HD</em>\
+  \ by me) is now used!<br>\nSee improved clarity in the pre-rendered character previews!\n\
+  <ul dir=\"auto\">\n<li>This feature is exclusive to Old 3DS, New 3DS, and New 2DS\
+  \ consoles.</li>\n</ul>\n</li>\n<li>Originally composed menu music has been added!</li>\n\
+  </ul>\n<p dir=\"auto\"><strong>Improvements</strong></p>\n<ul dir=\"auto\">\n<li>Fixed\
+  \ some character looks (e.g. hair, eyes, lips, makeup, outfit) outside of their\
+  \ games, such as:\n<ul dir=\"auto\">\n<li>Brienne/Zahra</li>\n<li>Clara</li>\n<li>Rosie</li>\n\
+  <li>Yolanda</li>\n<li>Alina</li>\n<li>Ang\xE9lique</li>\n</ul>\n</li>\n</ul>\n<p\
+  \ dir=\"auto\"><strong>Bug fixes</strong></p>\n<ul dir=\"auto\">\n<li>Fixed the\
+  \ characters below Brienne/Zahra missing from the importable 2nd game character\
+  \ list.</li>\n<li>Fixed <em>it's</em> to <em>its</em> in the game select menu.</li>\n\
+  </ul>\n<p dir=\"auto\"><strong>Known bug</strong></p>\n<ul dir=\"auto\">\n<li>Black\
+  \ edges are seen around the background circles on the top screen.</li>\n</ul>"
 updated: '2020-11-26T08:30:24Z'
 version: v3.1.0
 version_title: Thanksgiving (2020) release

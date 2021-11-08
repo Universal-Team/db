@@ -28,7 +28,7 @@ prerelease:
       url: https://github.com/masterfeizz/EDuke3D/releases/download/v1.0-beta/EDuke3D.cia
   qr:
     EDuke3D.cia: https://db.universal-team.net/assets/images/qr/prerelease/eduke3d-cia.png
-  update_notes: '<p>Bugfixes (mostly memory management) and first CIA release.<br>
+  update_notes: '<p dir="auto">Bugfixes (mostly memory management) and first CIA release.<br>
 
     View README on the project page for instructions.<br>
 
@@ -55,7 +55,7 @@ source: https://github.com/masterfeizz/EDuke3D
 systems:
 - 3DS
 title: EDuke3D
-update_notes: '<p>Bugfixes (mostly memory management) and first CIA release.<br>
+update_notes: '<p dir="auto">Bugfixes (mostly memory management) and first CIA release.<br>
 
   View README on the project page for instructions.<br>
 

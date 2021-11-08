@@ -24,7 +24,8 @@ source: https://github.com/LiquidFenrir/CalculaThreeDS
 systems:
 - 3DS
 title: CalculaThreeDS
-update_notes: '<p>Added complex numbers and the conjugate function to work with them<br>
+update_notes: '<p dir="auto">Added complex numbers and the conjugate function to work
+  with them<br>
 
   Added implicit multiplications<br>
 
@@ -32,8 +33,8 @@ update_notes: '<p>Added complex numbers and the conjugate function to work with 
   src="https://user-images.githubusercontent.com/16072534/104121441-80dd5a00-533e-11eb-9954-a5a6c10dd60e.png"
   alt="image" style="max-width: 100%;"></a></p>
 
-  <p>As before, please report bugs you find if they can be reproduced, with an explanation
-  :)</p>'
+  <p dir="auto">As before, please report bugs you find if they can be reproduced,
+  with an explanation :)</p>'
 updated: '2021-01-10T11:32:55Z'
 version: v0.2
 version_title: Complex number time!

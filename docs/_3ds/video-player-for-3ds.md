@@ -31,10 +31,10 @@ source: https://github.com/Core-2-Extreme/Video_player_for_3DS
 systems:
 - 3DS
 title: Video player for 3DS
-update_notes: "<ul>\n<li>Decoded image(raw) buffer has been added and it makes playback\
-  \ <br>\n<strong>much much much much</strong> better (especially on OLD3DS)</li>\n\
-  <li>Spanish(espa\xF1ol) translation has been added (by Cookiee)</li>\n<li>Romanian(Rom\xE2\
-  n\u0103) translation has been added (by Tescu48)</li>\n</ul>"
+update_notes: "<ul dir=\"auto\">\n<li>Decoded image(raw) buffer has been added and\
+  \ it makes playback <br>\n<strong>much much much much</strong> better (especially\
+  \ on OLD3DS)</li>\n<li>Spanish(espa\xF1ol) translation has been added (by Cookiee)</li>\n\
+  <li>Romanian(Rom\xE2n\u0103) translation has been added (by Tescu48)</li>\n</ul>"
 updated: '2021-10-25T12:21:35Z'
 version: v1.4.0
 version_title: Video player for 3DS v1.4.0

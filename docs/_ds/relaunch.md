@@ -32,7 +32,8 @@ source: https://github.com/Universal-Team/Relaunch
 systems:
 - DS
 title: Relaunch
-update_notes: <p>This makes Universal-Updater download the latest stable version</p>
+update_notes: <p dir="auto">This makes Universal-Updater download the latest stable
+  version</p>
 updated: '2020-07-20T15:23:43Z'
 version: v4.0.1
 version_title: 'v4.0.1: replace Bruh edition'

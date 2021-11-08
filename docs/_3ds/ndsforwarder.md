@@ -24,15 +24,15 @@ prerelease:
       size: 942016
       size_str: 919 KiB
       url: https://github.com/MechanicalDragon0687/NDSForwarder/releases/download/untagged-0a08cb14d41083389367/ndsForwarder.3dsx
-  update_notes: '<p>Requires full CFW via Rosalina (b9s+luma3ds)</p>
+  update_notes: '<p dir="auto">Requires full CFW via Rosalina (b9s+luma3ds)</p>
 
-    <h2>Usage</h2>
+    <h2 dir="auto">Usage</h2>
 
-    <p>Put in /3ds/<br>
+    <p dir="auto">Put in /3ds/<br>
 
     Open with homebrew launcher</p>
 
-    <ul>
+    <ul dir="auto">
 
     <li>note: you also need the nds-bootstrap forwarder pack from <a href="https://github.com/RocketRobz/NTR_Forwarder/releases">here</a>.</li>
 
@@ -41,9 +41,9 @@ prerelease:
 
     </ul>
 
-    <h2>Features</h2>
+    <h2 dir="auto">Features</h2>
 
-    <ul>
+    <ul dir="auto">
 
     <li>Custom dsiware banners! They must be named the same as the nds file. If your
     nds file is <code>Jamal''s Home Cooking.nds</code> your custom banner should be
@@ -66,15 +66,15 @@ prerelease:
 
     </ul>
 
-    <h2>Changelog</h2>
+    <h2 dir="auto">Changelog</h2>
 
-    <p>1.2.0-beta</p>
+    <p dir="auto">1.2.0-beta</p>
 
-    <ul>
+    <ul dir="auto">
 
     <li>Supports BMP files for custom icons
 
-    <ul>
+    <ul dir="auto">
 
     <li>4 bit</li>
 
@@ -90,9 +90,9 @@ prerelease:
 
     </ul>
 
-    <p>1.1.0-beta</p>
+    <p dir="auto">1.1.0-beta</p>
 
-    <ul>
+    <ul dir="auto">
 
     <li>Warns user when reaching the limit of dsiware installed</li>
 
@@ -133,17 +133,17 @@ source: https://github.com/MechanicalDragon0687/NDSForwarder
 systems:
 - 3DS
 title: NDSForwarder
-update_notes: '<p>Initial release.</p>
+update_notes: '<p dir="auto">Initial release.</p>
 
-  <p>Requires full CFW via Rosalina (b9s+luma3ds)</p>
+  <p dir="auto">Requires full CFW via Rosalina (b9s+luma3ds)</p>
 
-  <h2>Usage</h2>
+  <h2 dir="auto">Usage</h2>
 
-  <p>Put in /3ds/<br>
+  <p dir="auto">Put in /3ds/<br>
 
   Open with homebrew launcher</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>note: you also need the nds-bootstrap forwarder pack from <a href="https://github.com/RocketRobz/NTR_Forwarder/releases">here</a>.</li>
 
@@ -152,9 +152,9 @@ update_notes: '<p>Initial release.</p>
 
   </ul>
 
-  <h2>Features</h2>
+  <h2 dir="auto">Features</h2>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Custom banners! They must be named the same as the nds file. If your nds file
   is <code>Jamal''s Home Cooking.nds</code> your custom banner should be <code>Jamal''s
@@ -172,9 +172,9 @@ update_notes: '<p>Initial release.</p>
 
   </ul>
 
-  <h2>Todo</h2>
+  <h2 dir="auto">Todo</h2>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Look... GUI code is a downright mess. I need to fix it.</li>
 

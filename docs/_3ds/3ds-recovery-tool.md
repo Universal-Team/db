@@ -30,7 +30,7 @@ source: https://github.com/joel16/3DS-Recovery-Tool
 systems:
 - 3DS
 title: 3DS-Recovery-Tool
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li>Switched to PP2D for handling graphics (for VBO, thanks Bernardo!).</li>
 
@@ -44,10 +44,10 @@ update_notes: '<ul>
 
   </ul>
 
-  <p><strong>If you''d like to support me, then buy me a coffee, I''d really appreciate
-  it! <a href="https://www.paypal.me/Joel16IA" rel="nofollow">https://www.paypal.me/Joel16IA</a></strong></p>
+  <p dir="auto"><strong>If you''d like to support me, then buy me a coffee, I''d really
+  appreciate it! <a href="https://www.paypal.me/Joel16IA" rel="nofollow">https://www.paypal.me/Joel16IA</a></strong></p>
 
-  <p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/d7f9b1b7ac7a1c588d43df948cba6c75e8dd4d68ac2b6d04ca39a94aed62c9b5/68747470733a2f2f63686172742e676f6f676c65617069732e636f6d2f63686172743f6368743d71722663686c3d68747470732533412532462532466769746875622e636f6d2532466a6f656c31362532463344532d5265636f766572792d546f6f6c25324672656c6561736573253246646f776e6c6f616425324676312e34302532463344535f5265636f766572795f546f6f6c2e636961266368733d313830783138302663686f653d5554462d382663686c643d4c25374332"><img
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/d7f9b1b7ac7a1c588d43df948cba6c75e8dd4d68ac2b6d04ca39a94aed62c9b5/68747470733a2f2f63686172742e676f6f676c65617069732e636f6d2f63686172743f6368743d71722663686c3d68747470732533412532462532466769746875622e636f6d2532466a6f656c31362532463344532d5265636f766572792d546f6f6c25324672656c6561736573253246646f776e6c6f616425324676312e34302532463344535f5265636f766572795f546f6f6c2e636961266368733d313830783138302663686f653d5554462d382663686c643d4c25374332"><img
   src="https://camo.githubusercontent.com/d7f9b1b7ac7a1c588d43df948cba6c75e8dd4d68ac2b6d04ca39a94aed62c9b5/68747470733a2f2f63686172742e676f6f676c65617069732e636f6d2f63686172743f6368743d71722663686c3d68747470732533412532462532466769746875622e636f6d2532466a6f656c31362532463344532d5265636f766572792d546f6f6c25324672656c6561736573253246646f776e6c6f616425324676312e34302532463344535f5265636f766572795f546f6f6c2e636961266368733d313830783138302663686f653d5554462d382663686c643d4c25374332"
   alt="image" data-canonical-src="https://chart.googleapis.com/chart?cht=qr&amp;chl=https%3A%2F%2Fgithub.com%2Fjoel16%2F3DS-Recovery-Tool%2Freleases%2Fdownload%2Fv1.40%2F3DS_Recovery_Tool.cia&amp;chs=180x180&amp;choe=UTF-8&amp;chld=L%7C2"
   style="max-width: 100%;"></a></p>'

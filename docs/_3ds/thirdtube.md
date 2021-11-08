@@ -37,14 +37,14 @@ source: https://github.com/windows-server-2003/ThirdTube
 systems:
 - 3DS
 title: ThirdTube
-update_notes: '<p>Here''s a major release bringing playlists support, watch history
-  and local channel subscription.</p>
+update_notes: '<p dir="auto">Here''s a major release bringing playlists support, watch
+  history and local channel subscription.</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Added support for playlists
 
-  <ul>
+  <ul dir="auto">
 
   <li>Now playlists appear both in search results and suggestions</li>
 
@@ -54,7 +54,7 @@ update_notes: '<p>Here''s a major release bringing playlists support, watch hist
 
   <li>Added local watch history (see hamburger menu -&gt; History)
 
-  <ul>
+  <ul dir="auto">
 
   <li>You can disable history recording/clear history in settings</li>
 
@@ -69,7 +69,7 @@ update_notes: '<p>Here''s a major release bringing playlists support, watch hist
 
   <li>Added video quality selector and audio-only mode selector in Control tab
 
-  <ul>
+  <ul dir="auto">
 
   <li>These options will save data usage and make the playback smooth when using a
   slow connection</li>
@@ -105,7 +105,7 @@ update_notes: '<p>Here''s a major release bringing playlists support, watch hist
 
   <li>Removed Advanced tab
 
-  <ul>
+  <ul dir="auto">
 
   <li>debug info can still be seen in Control tab if enabled in settings</li>
 

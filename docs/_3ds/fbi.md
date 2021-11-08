@@ -41,7 +41,7 @@ source: https://github.com/Steveice10/FBI
 systems:
 - 3DS
 title: FBI
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li>Fix inability to cancel ext save data deletion.</li>
 

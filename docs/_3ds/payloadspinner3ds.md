@@ -24,11 +24,11 @@ source: https://github.com/SaturnSH2x2/PayloadSpinner3DS
 systems:
 - 3DS
 title: PayloadSpinner3DS
-update_notes: '<p>This release fixes the app''s tendency to crash when no payloads
-  are detected, as well as manually creating all necessary directories if it finds
-  they aren''t all there.</p>
+update_notes: '<p dir="auto">This release fixes the app''s tendency to crash when
+  no payloads are detected, as well as manually creating all necessary directories
+  if it finds they aren''t all there.</p>
 
-  <p>QR:<br>
+  <p dir="auto">QR:<br>
 
   <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/18273084/32138523-00699f18-bc02-11e7-993b-7165c17ff9f5.png"><img
   src="https://user-images.githubusercontent.com/18273084/32138523-00699f18-bc02-11e7-993b-7165c17ff9f5.png"

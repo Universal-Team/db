@@ -24,7 +24,7 @@ source: https://github.com/ingolemo/drider
 systems:
 - 3DS
 title: drider
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li>Images now show for more than just the first page of the book.</li>
 

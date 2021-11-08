@@ -40,7 +40,7 @@ source: https://github.com/Possum/LumaLocaleSwitcher
 systems:
 - 3DS
 title: LumaLocaleSwitcher
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li>Fixes typos in default paths</li>
 
@@ -51,15 +51,17 @@ update_notes: '<ul>
 
   </ul>
 
-  <p>The builds below are identical with the exception that they have different defaults.</p>
+  <p dir="auto">The builds below are identical with the exception that they have different
+  defaults.</p>
 
-  <p><strong>LUMA STABLE</strong> (if your Luma is 6.6 or lower):<br>
+  <p dir="auto"><strong>LUMA STABLE</strong> (if your Luma is 6.6 or lower):<br>
 
   <a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/qr/0.04.png"><img
   src="https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/qr/0.04.png"
   alt="QR" style="max-width: 100%;"></a></p>
 
-  <p><strong>LUMA NIGHTLY</strong> (if your Luma is greater than 6.6 or Nightly):<br>
+  <p dir="auto"><strong>LUMA NIGHTLY</strong> (if your Luma is greater than 6.6 or
+  Nightly):<br>
 
   <a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/qr/0.04-NIGHTLY.png"><img
   src="https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/qr/0.04-NIGHTLY.png"

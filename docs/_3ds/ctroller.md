@@ -31,13 +31,13 @@ source: https://github.com/phijor/ctroller
 systems:
 - 3DS
 title: ctroller
-update_notes: '<h1>Features</h1>
+update_notes: '<h1 dir="auto">Features</h1>
 
-  <ul>
+  <ul dir="auto">
 
   <li>add gyroscope support:
 
-  <ul>
+  <ul dir="auto">
 
   <li>creates a new virtual device that reports 3 axis</li>
 
@@ -47,7 +47,7 @@ update_notes: '<h1>Features</h1>
 
   <li>change how to exit the app:
 
-  <ul>
+  <ul dir="auto">
 
   <li>the CIA now only exits by pressing HOME</li>
 
@@ -57,17 +57,17 @@ update_notes: '<h1>Features</h1>
 
   </ul>
 
-  <h1>Fixes</h1>
+  <h1 dir="auto">Fixes</h1>
 
-  <ul>
+  <ul dir="auto">
 
   <li>only report touch coordinates if there''s a touch</li>
 
   </ul>
 
-  <h1>Refactoring</h1>
+  <h1 dir="auto">Refactoring</h1>
 
-  <ul>
+  <ul dir="auto">
 
   <li>restructure device handling</li>
 

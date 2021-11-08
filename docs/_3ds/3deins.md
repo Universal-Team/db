@@ -55,13 +55,14 @@ source: https://github.com/Universal-Team/3DEins
 systems:
 - 3DS
 title: 3DEins
-update_notes: '<h2>DSEins, the NDS version of 3DEins is now included as well!</h2>
+update_notes: '<h2 dir="auto">DSEins, the NDS version of 3DEins is now included as
+  well!</h2>
 
-  <h2>What''s new?</h2>
+  <h2 dir="auto">What''s new?</h2>
 
-  <h3>DSEins</h3>
+  <h3 dir="auto">DSEins</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Add the initial release of DSEins, the NDS version of 3DEins! This is it''s
   first release, so it could be buggy, feel free to report bugs, if there are any
@@ -73,46 +74,46 @@ update_notes: '<h2>DSEins, the NDS version of 3DEins is now included as well!</h
 
   </ul>
 
-  <h3>3DEins</h3>
+  <h3 dir="auto">3DEins</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Add a draw and play animation (can be enabled / disabled in the Settings.)</li>
 
   </ul>
 
-  <h3>3DEins &amp; DSEins</h3>
+  <h3 dir="auto">3DEins &amp; DSEins</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li>
 
-  <p>Use DSEins / 3DEins-Core which is made by me, StackZ. The core includes a proper
-  cardset of 108 cards.. like the regular game! So that way.. you cannot have like
-  6 times Draw 4 which is a nice improvement to the old version!</p>
+  <p dir="auto">Use DSEins / 3DEins-Core which is made by me, StackZ. The core includes
+  a proper cardset of 108 cards.. like the regular game! So that way.. you cannot
+  have like 6 times Draw 4 which is a nice improvement to the old version!</p>
 
   </li>
 
   <li>
 
-  <p>Added Single Player mode with AI!</p>
+  <p dir="auto">Added Single Player mode with AI!</p>
 
   </li>
 
   <li>
 
-  <p>Full Translations of: Bruh, English, French, German, Italian, Japanese, Polish,
-  Portuguese and Russian!</p>
+  <p dir="auto">Full Translations of: Bruh, English, French, German, Italian, Japanese,
+  Polish, Portuguese and Russian!</p>
 
   </li>
 
   </ul>
 
-  <h2>How to update</h2>
+  <h2 dir="auto">How to update</h2>
 
-  <h3>DSEins</h3>
+  <h3 dir="auto">DSEins</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Download <code>DSEins.nds</code> and put it to your SD Card.</li>
 
@@ -123,9 +124,9 @@ update_notes: '<h2>DSEins, the NDS version of 3DEins is now included as well!</h
 
   </ul>
 
-  <h3>3DEins</h3>
+  <h3 dir="auto">3DEins</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Download <code>3DEins.3dsx</code> or <code>3DEins.cia</code> and put it to your
   SD Card.</li>
@@ -135,7 +136,7 @@ update_notes: '<h2>DSEins, the NDS version of 3DEins is now included as well!</h
 
   </ul>
 
-  <h3>We hope you enjoy using DSEins &amp; 3DEins v0.2.0! ~Universal-Team</h3>'
+  <h3 dir="auto">We hope you enjoy using DSEins &amp; 3DEins v0.2.0! ~Universal-Team</h3>'
 updated: '2020-06-20T15:33:33Z'
 version: v0.2.0
 version_title: 3DEins & DSEins v0.2.0!

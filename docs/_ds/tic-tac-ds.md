@@ -29,8 +29,8 @@ source: https://github.com/Jonatan6/Tic-Tac-DS
 systems:
 - DS
 title: Tic-Tac-DS
-update_notes: <p>This is a very minor release. The only thing I did was fix a couple
-  of bugs and change some small things.</p>
+update_notes: <p dir="auto">This is a very minor release. The only thing I did was
+  fix a couple of bugs and change some small things.</p>
 updated: '2021-03-07T17:14:33Z'
 version: v3.1
 version_title: Version 3.1

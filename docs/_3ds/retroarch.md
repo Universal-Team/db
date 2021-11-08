@@ -38,7 +38,7 @@ source: https://github.com/libretro/RetroArch
 systems:
 - 3DS
 title: RetroArch
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li>CHEEVOS/MSVC2010: Add Cheevos support</li>
 

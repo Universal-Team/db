@@ -31,17 +31,17 @@ source: https://github.com/Oreo639/LimePlayer3DS
 systems:
 - 3DS
 title: LimePlayer3DS
-update_notes: '<p>LimePlayer3DS is a gui music player for the 3DS with MIDI and Internet
-  Radio support.</p>
+update_notes: '<p dir="auto">LimePlayer3DS is a gui music player for the 3DS with
+  MIDI and Internet Radio support.</p>
 
-  <p>Download the 3dsx and as always read the <a href="https://github.com/Oreo639/LimePlayer3DS/wiki">wiki</a>
+  <p dir="auto">Download the 3dsx and as always read the <a href="https://github.com/Oreo639/LimePlayer3DS/wiki">wiki</a>
   and the <a href="https://github.com/Oreo639/LimePlayer3DS/blob/master/README.md">readme</a>
   before getting started.</p>
 
-  <p>This is a minor release meant to improve some UI issues with the previous release.
-  No major bugfixes or behind the scenes improvements.</p>
+  <p dir="auto">This is a minor release meant to improve some UI issues with the previous
+  release. No major bugfixes or behind the scenes improvements.</p>
 
-  <p>What is new:<br>
+  <p dir="auto">What is new:<br>
 
   Added touch screen buttons for switching between browser and controls.<br>
 
@@ -51,7 +51,7 @@ update_notes: '<p>LimePlayer3DS is a gui music player for the 3DS with MIDI and 
 
   Fixed bug where playback would not quit after skipping last song in playlist.</p>
 
-  <p>What needs to be worked on:<br>
+  <p dir="auto">What needs to be worked on:<br>
 
   The ui, blech<br>
 

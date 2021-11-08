@@ -28,7 +28,7 @@ source: https://github.com/CorySanin/FastPlayCoin
 systems:
 - 3DS
 title: FastPlayCoin
-update_notes: '<p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/2897351/32695318-f180ce1e-c71d-11e7-96c2-17704b192dfc.png"><img
+update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/2897351/32695318-f180ce1e-c71d-11e7-96c2-17704b192dfc.png"><img
   src="https://user-images.githubusercontent.com/2897351/32695318-f180ce1e-c71d-11e7-96c2-17704b192dfc.png"
   alt="qr" style="max-width: 100%;"></a></p>'
 updated: '2017-11-11T09:44:57Z'

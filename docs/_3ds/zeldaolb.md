@@ -29,7 +29,7 @@ source: https://github.com/nop90/ZeldaOLB
 systems:
 - 3DS
 title: ZeldaOLB
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li>Improved Italian translation</li>
 

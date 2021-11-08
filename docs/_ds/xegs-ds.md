@@ -28,9 +28,9 @@ source: https://github.com/wavemotion-dave/XEGS-DS
 systems:
 - DS
 title: XEGS-DS
-update_notes: '<p>V2.7 : 04-Nov-2021 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V2.7 : 04-Nov-2021 by wavemotion-dave</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>New sound output processing to eliminate Zingers!</li>
 

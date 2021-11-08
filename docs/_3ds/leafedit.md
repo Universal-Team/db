@@ -114,11 +114,11 @@ source: https://github.com/Universal-Team/LeafEdit
 systems:
 - 3DS
 title: LeafEdit
-update_notes: '<h1>After like 75% of this year, another release is there.</h1>
+update_notes: '<h1 dir="auto">After like 75% of this year, another release is there.</h1>
 
-  <h2>What''s new?</h2>
+  <h2 dir="auto">What''s new?</h2>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Added initial Wild World support.</li>
 
@@ -135,9 +135,9 @@ update_notes: '<h1>After like 75% of this year, another release is there.</h1>
 
   </ul>
 
-  <h2>Changes</h2>
+  <h2 dir="auto">Changes</h2>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Changed mainpath to <code>sdmc:/3ds/LeafEdit/</code>, so move your stuff there
   before updating.</li>
@@ -159,14 +159,14 @@ update_notes: '<h1>After like 75% of this year, another release is there.</h1>
 
   </ul>
 
-  <h2>This is version 0.2.1, because it doesn''t have much changes and for v0.3.0,
-  it is not ready yet.</h2>
+  <h2 dir="auto">This is version 0.2.1, because it doesn''t have much changes and
+  for v0.3.0, it is not ready yet.</h2>
 
-  <h1>The wiki will get an update later for the latest changes. So: <strong>read the
-  wiki before starting with LEAFEDIT and make backups</strong>!!!!!</h1>
+  <h1 dir="auto">The wiki will get an update later for the latest changes. So: <strong>read
+  the wiki before starting with LEAFEDIT and make backups</strong>!!!!!</h1>
 
-  <h2>We are not responsible for any mistakes you do, so use this at your own risk.
-  You can find the link to the wiki <a href="https://github.com/Universal-Team/LeafEdit/wiki">here</a>.</h2>'
+  <h2 dir="auto">We are not responsible for any mistakes you do, so use this at your
+  own risk. You can find the link to the wiki <a href="https://github.com/Universal-Team/LeafEdit/wiki">here</a>.</h2>'
 updated: '2020-09-05T17:30:43Z'
 version: v0.2.1
 version_title: Initial Wild World support.

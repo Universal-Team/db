@@ -59,10 +59,10 @@ source: https://github.com/SuperSaiyajinStackZ/3DElf
 systems:
 - 3DS
 title: 3DElf
-update_notes: "<p>Dies behebt ein paar Fehler und ein neuer Startbildschirm wurde\
-  \ hinzugef\xFCgt.</p>\n<p>Ebenfalls werden nicht spielbare Karten nun ausgeblendet,\
-  \ somit ist es etwas einfacher, spielbare Karten zu finden.</p>\n<p>Viel spa\xDF\
-  \ mit dieser Version! ~SuperSaiyajinStackZ</p>"
+update_notes: "<p dir=\"auto\">Dies behebt ein paar Fehler und ein neuer Startbildschirm\
+  \ wurde hinzugef\xFCgt.</p>\n<p dir=\"auto\">Ebenfalls werden nicht spielbare Karten\
+  \ nun ausgeblendet, somit ist es etwas einfacher, spielbare Karten zu finden.</p>\n\
+  <p dir=\"auto\">Viel spa\xDF mit dieser Version! ~SuperSaiyajinStackZ</p>"
 updated: '2020-10-07T20:51:16Z'
 version: v0.2.0
 version_title: Zweiter / Second 3DElf Release!

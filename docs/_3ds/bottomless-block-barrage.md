@@ -44,24 +44,24 @@ source: https://github.com/TricksterGuy/bottomless-block-barrage
 systems:
 - 3DS
 title: Bottomless Block Barrage
-update_notes: '<h2>Whats new</h2>
+update_notes: '<h2 dir="auto">Whats new</h2>
 
-  <p>Goal Marker in Score mode type lines.<br>
+  <p dir="auto">Goal Marker in Score mode type lines.<br>
 
   Updated replay file format and made replays better.<br>
 
   Support for more skill chain techniques.</p>
 
-  <p>The engine is now more timed like the original games.<br>
+  <p dir="auto">The engine is now more timed like the original games.<br>
 
   In endless mode you level up now with the number of panels removed.<br>
 
   Timeout values are now more based on the original.</p>
 
-  <h2>Known Issues</h2>
+  <h2 dir="auto">Known Issues</h2>
 
-  <p>Issue <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="249974535" data-permission-text="Title is private" data-url="https://github.com/TricksterGuy/bottomless-block-barrage/issues/10"
+  <p dir="auto">Issue <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="249974535" data-permission-text="Title is private" data-url="https://github.com/TricksterGuy/bottomless-block-barrage/issues/10"
   data-hovercard-type="issue" data-hovercard-url="/TricksterGuy/bottomless-block-barrage/issues/10/hovercard"
   href="https://github.com/TricksterGuy/bottomless-block-barrage/issues/10">#10</a>.
   Somehow chains can be continued out of nowhere.<br>
@@ -78,7 +78,7 @@ update_notes: '<h2>Whats new</h2>
   href="https://github.com/TricksterGuy/bottomless-block-barrage/issues/14">#14</a>.
   Hints for things aren''t intuitive.</p>
 
-  <p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/3eac87574a62bd730b7abb3c741913e4ac719d37de1c7b7642405de93bb7f622/68747470733a2f2f692e696d6775722e636f6d2f57654b4b526e352e706e67"><img
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/3eac87574a62bd730b7abb3c741913e4ac719d37de1c7b7642405de93bb7f622/68747470733a2f2f692e696d6775722e636f6d2f57654b4b526e352e706e67"><img
   src="https://camo.githubusercontent.com/3eac87574a62bd730b7abb3c741913e4ac719d37de1c7b7642405de93bb7f622/68747470733a2f2f692e696d6775722e636f6d2f57654b4b526e352e706e67"
   alt="QR Code" data-canonical-src="https://i.imgur.com/WeKKRn5.png" style="max-width:
   100%;"></a></p>'

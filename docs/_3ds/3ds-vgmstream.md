@@ -34,13 +34,13 @@ source: https://github.com/TricksterGuy/3ds-vgmstream
 systems:
 - 3DS
 title: 3ds-vgmstream
-update_notes: '<p>New:<br>
+update_notes: '<p dir="auto">New:<br>
 
   Now uses dsp over csnd, this grants all of the benefits of dsp, better streaming.  This
   does however require users to dump their dsp firmware (see <a href="https://github.com/Cruel/DspDump">dsp
   dumper</a>)</p>
 
-  <p>Fixed:<br>
+  <p dir="auto">Fixed:<br>
 
   Various other fixes, such as the sound being garbled if you play multiple songs
   in a single session.</p>'

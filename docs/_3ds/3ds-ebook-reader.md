@@ -24,15 +24,15 @@ source: https://github.com/DomRe/3DS_eBook_Reader
 systems:
 - 3DS
 title: 3DS eBook Reader
-update_notes: '<p>Changes:</p>
+update_notes: '<p dir="auto">Changes:</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Fixed about screen flickering.</li>
 
   </ul>
 
-  <p>See <a href="https://www.reddit.com/r/3dshacks/comments/7su3f4/released_v10_of_my_ebook_reader/"
+  <p dir="auto">See <a href="https://www.reddit.com/r/3dshacks/comments/7su3f4/released_v10_of_my_ebook_reader/"
   rel="nofollow">reddit</a> or <a href="https://gbatemp.net/threads/release-ebook-reader-v1-0-read-ebooks-on-your-3ds.495129/"
   rel="nofollow">gbatemp</a>.</p>'
 updated: '2018-01-29T06:38:15Z'

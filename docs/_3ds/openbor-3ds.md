@@ -31,9 +31,9 @@ source: https://github.com/MrHuu/openbor-3ds
 systems:
 - 3DS
 title: openbor-3ds
-update_notes: '<p>Changes:</p>
+update_notes: '<p dir="auto">Changes:</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>allow the 3DS''s parallax layer to be enabled using the 3d slider (.3dsx only)</li>
 

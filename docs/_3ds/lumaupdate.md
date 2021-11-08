@@ -34,9 +34,9 @@ source: https://github.com/KunoichiZ/lumaupdate
 systems:
 - 3DS
 title: lumaupdate
-update_notes: '<p>The following changes have been made:</p>
+update_notes: '<p dir="auto">The following changes have been made:</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li><a href="https://github.com/KunoichiZ/lumaupdate/pull/73" data-hovercard-type="pull_request"
   data-hovercard-url="/KunoichiZ/lumaupdate/pull/73/hovercard">Fix URL</a> by NightYoshi370</li>

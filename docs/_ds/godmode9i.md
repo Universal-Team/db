@@ -31,15 +31,15 @@ source: https://github.com/DS-Homebrew/GodMode9i
 systems:
 - DS
 title: GodMode9i
-update_notes: '<p><strong>What''s new?</strong></p>
+update_notes: '<p dir="auto"><strong>What''s new?</strong></p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
   You can now view the info of NDS ROMs!
 
-  <ul>
+  <ul dir="auto">
 
   <li>Useful for finding out which DSiWare title you''re trying to dump!</li>
 

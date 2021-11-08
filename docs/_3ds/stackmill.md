@@ -59,10 +59,10 @@ source: https://github.com/SuperSaiyajinStackZ/StackMill
 systems:
 - 3DS
 title: StackMill
-update_notes: '<p>It''s quite some time i released v0.3.0, but now here it is: this
-  is StackMill''s final release with some bug fixes.</p>
+update_notes: '<p dir="auto">It''s quite some time i released v0.3.0, but now here
+  it is: this is StackMill''s final release with some bug fixes.</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Fix the Language Selector not going to the proper current language.</li>
 
@@ -77,8 +77,8 @@ update_notes: '<p>It''s quite some time i released v0.3.0, but now here it is: t
 
   </ul>
 
-  <p>And that''s it. Thank you for using StackMill and have fun with v0.4.0, the final
-  version! ~SuperSaiyajinStackZ.</p>'
+  <p dir="auto">And that''s it. Thank you for using StackMill and have fun with v0.4.0,
+  the final version! ~SuperSaiyajinStackZ.</p>'
 updated: '2021-09-19T07:48:03Z'
 version: v0.4.0
 version_title: StackMill's final release

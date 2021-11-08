@@ -22,7 +22,7 @@ source: https://github.com/bubble2k16/emus3ds
 systems:
 - 3DS
 title: VirtuaNES
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li>Fixed bug in MMC5 mapper that was causing Castlevania 3''s graphics to corrupt.</li>
 

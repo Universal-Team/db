@@ -30,21 +30,22 @@ source: https://github.com/aliceinpalth/3dfetch
 systems:
 - 3DS
 title: 3dfetch
-update_notes: "<p>Lots of stuff added! First and foremost:</p>\n<ul>\n<li>Added a\
-  \ pretty animation to simulate typing a shell command</li>\n<li>Cycling left text\
-  \ colors now additionally cycles the CFW logo color</li>\n<li>Exact battery percentage\
-  \ is shown</li>\n<li>Luma CFW now displays the version number with it</li>\n<li>Added\
-  \ detection for Cakes CFW</li>\n<li>Added detection for Corbenik CFW</li>\n<li>Added\
-  \ detection for RX Tools CFW</li>\n<li>Added detection for Rei CFW</li>\n<li>1.11:\
-  \ Fixed white background not being properly available</li>\n</ul>\n<p>We've also\
-  \ now got a configuration menu! Press select to bring it up. All changes to the\
-  \ configuration are saved in a config file.</p>\n<p>As always, you can update 3dfetch\
-  \ via the TitleDB option in FBI, or, use the QR code below and utilize remote install.</p>\n\
-  <p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://camo.githubusercontent.com/454080f3c85e50265dc7c3015cccf92f3785f4e501a01cce68c340bad1438938/687474703a2f2f692e696d6775722e636f6d2f5a7773356743492e706e67\"\
+update_notes: "<p dir=\"auto\">Lots of stuff added! First and foremost:</p>\n<ul dir=\"\
+  auto\">\n<li>Added a pretty animation to simulate typing a shell command</li>\n\
+  <li>Cycling left text colors now additionally cycles the CFW logo color</li>\n<li>Exact\
+  \ battery percentage is shown</li>\n<li>Luma CFW now displays the version number\
+  \ with it</li>\n<li>Added detection for Cakes CFW</li>\n<li>Added detection for\
+  \ Corbenik CFW</li>\n<li>Added detection for RX Tools CFW</li>\n<li>Added detection\
+  \ for Rei CFW</li>\n<li>1.11: Fixed white background not being properly available</li>\n\
+  </ul>\n<p dir=\"auto\">We've also now got a configuration menu! Press select to\
+  \ bring it up. All changes to the configuration are saved in a config file.</p>\n\
+  <p dir=\"auto\">As always, you can update 3dfetch via the TitleDB option in FBI,\
+  \ or, use the QR code below and utilize remote install.</p>\n<p dir=\"auto\"><a\
+  \ target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://camo.githubusercontent.com/454080f3c85e50265dc7c3015cccf92f3785f4e501a01cce68c340bad1438938/687474703a2f2f692e696d6775722e636f6d2f5a7773356743492e706e67\"\
   ><img src=\"https://camo.githubusercontent.com/454080f3c85e50265dc7c3015cccf92f3785f4e501a01cce68c340bad1438938/687474703a2f2f692e696d6775722e636f6d2f5a7773356743492e706e67\"\
   \ alt=\"QR code\" data-canonical-src=\"http://i.imgur.com/Zws5gCI.png\" style=\"\
-  max-width: 100%;\"></a></p>\n<p>Send <g-emoji class=\"g-emoji\" alias=\"heart\"\
-  \ fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2764.png\"\
+  max-width: 100%;\"></a></p>\n<p dir=\"auto\">Send <g-emoji class=\"g-emoji\" alias=\"\
+  heart\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2764.png\"\
   >\u2764\uFE0F</g-emoji> to <a href=\"https://github.com/daedreth\">daedreth</a>\
   \ and <a href=\"https://github.com/astronautlevel2\">Alex</a> for their immense\
   \ work on this while I was in exams week.</p>"

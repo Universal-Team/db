@@ -26,11 +26,11 @@ source: https://github.com/dragos240/Pocket-NLSE
 systems:
 - 3DS
 title: Pocket-NLSE
-update_notes: <p>First stable version of Pocket-NLSE. Additional features will be
-  added later, but I felt it needed an "official" release. Bugs were fixed, unstable
-  options were hidden, icon was changed. As before, the .3dsx requires you include
-  the .xml file in the same directory as the .3dsx in order for it to work. The .cia
-  does not require a .xml file.</p>
+update_notes: <p dir="auto">First stable version of Pocket-NLSE. Additional features
+  will be added later, but I felt it needed an "official" release. Bugs were fixed,
+  unstable options were hidden, icon was changed. As before, the .3dsx requires you
+  include the .xml file in the same directory as the .3dsx in order for it to work.
+  The .cia does not require a .xml file.</p>
 updated: '2017-01-11T13:18:21Z'
 version: v1.0.0
 version_title: v1.0.0

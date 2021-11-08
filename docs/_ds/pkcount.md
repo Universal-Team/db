@@ -46,9 +46,9 @@ systems:
 - DS
 - 3DS
 title: PKCount
-update_notes: '<p>What''s new?</p>
+update_notes: '<p dir="auto">What''s new?</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>A NDS Version has been developed! (Yeah, you can use it on DS(i) now as well!)</li>
 
@@ -56,7 +56,7 @@ update_notes: '<p>What''s new?</p>
 
   </ul>
 
-  <p>Just try it out! :P  ~ StackZ.</p>'
+  <p dir="auto">Just try it out! :P  ~ StackZ.</p>'
 updated: '2019-12-27T20:44:30Z'
 version: v0.0.2
 version_title: The second Release of PKCount!

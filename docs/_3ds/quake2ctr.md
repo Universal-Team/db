@@ -24,8 +24,8 @@ prerelease:
       url: https://github.com/masterfeizz/Quake2CTR/releases/download/v0.2/Quake2CTR.cia
   qr:
     Quake2CTR.cia: https://db.universal-team.net/assets/images/qr/prerelease/quake2ctr-cia.png
-  update_notes: <p>This small update mostly fixes the save loading issues and has
-    tweaked input handling.</p>
+  update_notes: <p dir="auto">This small update mostly fixes the save loading issues
+    and has tweaked input handling.</p>
   update_notes_md: This small update mostly fixes the save loading issues and has
     tweaked input handling.
   updated: '2017-06-24T15:36:24Z'
@@ -40,8 +40,8 @@ source: https://github.com/masterfeizz/Quake2CTR
 systems:
 - 3DS
 title: Quake2CTR
-update_notes: <p>This small update mostly fixes the save loading issues and has tweaked
-  input handling.</p>
+update_notes: <p dir="auto">This small update mostly fixes the save loading issues
+  and has tweaked input handling.</p>
 updated: '2017-06-24T15:36:24Z'
 version: v0.2
 version_title: Save fix and Input enhancements

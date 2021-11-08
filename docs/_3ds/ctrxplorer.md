@@ -31,11 +31,11 @@ source: https://github.com/d0k3/CTRXplorer
 systems:
 - 3DS
 title: CTRXplorer
-update_notes: '<p>What''s new:<br>
+update_notes: '<p dir="auto">What''s new:<br>
 
   o Virtual keyboard available for string mode editing in hex editor</p>
 
-  <p><a target="_blank" rel="noopener noreferrer" href="https://cloud.githubusercontent.com/assets/12467483/22735721/41c21394-edfb-11e6-80d1-a0a13c4ff9f1.png"><img
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://cloud.githubusercontent.com/assets/12467483/22735721/41c21394-edfb-11e6-80d1-a0a13c4ff9f1.png"><img
   src="https://cloud.githubusercontent.com/assets/12467483/22735721/41c21394-edfb-11e6-80d1-a0a13c4ff9f1.png"
   alt="qrcode" style="max-width: 100%;"></a></p>'
 updated: '2017-02-08T11:36:20Z'

@@ -24,7 +24,7 @@ prerelease:
       size: 18761345
       size_str: 17 MiB
       url: https://github.com/nop90/Biniax2-3DS/releases/download/V0.4alpha/Biniax2_CIA.v0.4.zip
-  update_notes: '<ul>
+  update_notes: '<ul dir="auto">
 
     <li>Used a bigger font</li>
 
@@ -53,7 +53,7 @@ source: https://github.com/nop90/Biniax2-3DS
 systems:
 - 3DS
 title: Biniax2-3DS
-update_notes: '<ul>
+update_notes: '<ul dir="auto">
 
   <li>Used a bigger font</li>
 

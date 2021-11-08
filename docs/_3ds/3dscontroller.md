@@ -21,9 +21,9 @@ source: https://github.com/CTurt/3DSController
 systems:
 - 3DS
 title: 3DSController
-update_notes: '<p>3DS Client:</p>
+update_notes: '<p dir="auto">3DS Client:</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Backlight disabled when not in use (less battery consumption),</li>
 
@@ -31,9 +31,9 @@ update_notes: '<p>3DS Client:</p>
 
   </ul>
 
-  <p>PC Server:</p>
+  <p dir="auto">PC Server:</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>DLL errors fixed,</li>
 

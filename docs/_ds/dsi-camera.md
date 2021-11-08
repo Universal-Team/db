@@ -24,10 +24,10 @@ source: https://github.com/Epicpkmn11/dsi-camera
 systems:
 - DS
 title: dsi-camera
-update_notes: '<p>It works now! So have a release ;P</p>
+update_notes: '<p dir="auto">It works now! So have a release ;P</p>
 
-  <p>This is just a simple example to demonstrate the DSi cameras working in a homebrew
-  app. It can show both cameras and save a picture as a BMP.</p>'
+  <p dir="auto">This is just a simple example to demonstrate the DSi cameras working
+  in a homebrew app. It can show both cameras and save a picture as a BMP.</p>'
 updated: '2020-10-26T05:51:42Z'
 version: v1.0.0
 version_title: Initial release

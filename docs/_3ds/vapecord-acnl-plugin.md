@@ -23,20 +23,21 @@ source: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin
 systems:
 - 3DS
 title: Vapecord-ACNL-Plugin
-update_notes: '<h1>New Update!!</h1>
+update_notes: '<h1 dir="auto">New Update!!</h1>
 
-  <h2>One of the drastic changes is the new Plugin Content Folder, you will now find
-  all the files needed for Vapecord inside <code>E:/Vapecord/Data/</code> and all
-  the user created files in <code>E:/Vapecord/[RegionName]/</code> (e. g. <code>E:/Vapecord/USA/</code>).</h2>
+  <h2 dir="auto">One of the drastic changes is the new Plugin Content Folder, you
+  will now find all the files needed for Vapecord inside <code>E:/Vapecord/Data/</code>
+  and all the user created files in <code>E:/Vapecord/[RegionName]/</code> (e. g.
+  <code>E:/Vapecord/USA/</code>).</h2>
 
-  <h2>Meaning that if you are updating your plugin from a previous version, you can
-  delete the <code>Vapecord</code> folder from: <code>E:/luma/plugins/[TitleID]/Vapecord</code>.</h2>
+  <h2 dir="auto">Meaning that if you are updating your plugin from a previous version,
+  you can delete the <code>Vapecord</code> folder from: <code>E:/luma/plugins/[TitleID]/Vapecord</code>.</h2>
 
-  <h2>The update has those features:</h2>
+  <h2 dir="auto">The update has those features:</h2>
 
   <blockquote>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Custom Inventory Buttons (e. g. Duplicate, Wrap Up)</li>
 
@@ -55,11 +56,11 @@ update_notes: '<h1>New Update!!</h1>
 
   </blockquote>
 
-  <h2>And other small changes:</h2>
+  <h2 dir="auto">And other small changes:</h2>
 
   <blockquote>
 
-  <ul>
+  <ul dir="auto">
 
   <li>8x faster installment of Vapecord</li>
 
@@ -77,9 +78,9 @@ update_notes: '<h1>New Update!!</h1>
 
   </blockquote>
 
-  <h2>How to use:</h2>
+  <h2 dir="auto">How to use:</h2>
 
-  <p>You can find a guide about the installation <a href="https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/wiki/How-to-install">here</a>.<br>
+  <p dir="auto">You can find a guide about the installation <a href="https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/wiki/How-to-install">here</a>.<br>
 
   If you encounter any bugs feel free to report them on the official <a href="https://discord.gg/QwqdBpKWf3"
   rel="nofollow">Vapecord Discord Server</a>.</p>'

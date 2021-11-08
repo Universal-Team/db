@@ -28,17 +28,17 @@ source: https://github.com/hax0kartik/wumiibo
 systems:
 - 3DS
 title: wumiibo
-update_notes: '<p>This is the fourth public release for wumiibo.<br>
+update_notes: '<p dir="auto">This is the fourth public release for wumiibo.<br>
 
   Following list of changes have been made.</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>
 
-  <p>Fix wumiibo not recognizing some amiibos correctly.</p>
+  <p dir="auto">Fix wumiibo not recognizing some amiibos correctly.</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>This was fixed by commit <a class="commit-link" data-hovercard-type="commit"
   data-hovercard-url="https://github.com/hax0kartik/wumiibo/commit/069eff6ed2350bc7712aeb6c84d106ce46d148f3/hovercard"
@@ -54,9 +54,9 @@ update_notes: '<p>This is the fourth public release for wumiibo.<br>
 
   <li>
 
-  <p>All 47 games are now compatible with wumiibo.</p>
+  <p dir="auto">All 47 games are now compatible with wumiibo.</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>With some games you still need to do the <a href="https://github.com/hax0kartik/wumiibo#workaround-for-games-which-freeze">workaround</a>
   for them to not freeze. Check the <a href="https://github.com/hax0kartik/wumiibo/wiki/Compatibility-List">compatibilty
@@ -68,15 +68,15 @@ update_notes: '<p>This is the fourth public release for wumiibo.<br>
 
   <li>
 
-  <p>File limit bumped to 400 per directory.</p>
+  <p dir="auto">File limit bumped to 400 per directory.</p>
 
   </li>
 
   <li>
 
-  <p>Introduce WumiiboHelper</p>
+  <p dir="auto">Introduce WumiiboHelper</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>WumiiboHelper is an easy to to use HB app. You can automatically download and
   install wumiibo from wumiibohelper.</li>
@@ -94,23 +94,23 @@ update_notes: '<p>This is the fourth public release for wumiibo.<br>
 
   <li>
 
-  <p>Minor improvements have been made.</p>
+  <p dir="auto">Minor improvements have been made.</p>
 
   </li>
 
   <li>
 
-  <p><strong>Note: Signal TagInRange and TagOutofRange are debug features, you shouldn''t
-  need them.</strong></p>
+  <p dir="auto"><strong>Note: Signal TagInRange and TagOutofRange are debug features,
+  you shouldn''t need them.</strong></p>
 
   </li>
 
   </ul>
 
-  <p>If you''re installing wumiibo for the first time, you can download and run WumiiboHelper
-  and select <code>Download Wumiibo</code> to download and install wumiibo(once installed
-  use the second option to generate amiibos) or you can follow the manual installation
-  steps <a href="https://github.com/hax0kartik/wumiibo#how-to-use">here</a><br>
+  <p dir="auto">If you''re installing wumiibo for the first time, you can download
+  and run WumiiboHelper and select <code>Download Wumiibo</code> to download and install
+  wumiibo(once installed use the second option to generate amiibos) or you can follow
+  the manual installation steps <a href="https://github.com/hax0kartik/wumiibo#how-to-use">here</a><br>
 
   As always special thanks to people on my discord server for helping me test wumiibo,
   wouldn''t be possible without you guys!</p>'

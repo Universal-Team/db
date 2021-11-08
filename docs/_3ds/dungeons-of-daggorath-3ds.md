@@ -35,19 +35,20 @@ source: https://github.com/pyroticinsanity/3dsdod
 systems:
 - 3DS
 title: Dungeons of Daggorath 3DS
-update_notes: '<p>Attached are a CIA and 3DSX file depending on what you want to use.</p>
+update_notes: '<p dir="auto">Attached are a CIA and 3DSX file depending on what you
+  want to use.</p>
 
-  <h1>QR Code</h1>
+  <h1 dir="auto">QR Code</h1>
 
-  <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/1209016/83885547-bd3f3c80-a703-11ea-8d7d-e2f769a6e872.png"><img
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/1209016/83885547-bd3f3c80-a703-11ea-8d7d-e2f769a6e872.png"><img
   src="https://user-images.githubusercontent.com/1209016/83885547-bd3f3c80-a703-11ea-8d7d-e2f769a6e872.png"
   alt="image" style="max-width: 100%;"></a></p>
 
-  <h1>Change Log</h1>
+  <h1 dir="auto">Change Log</h1>
 
-  <h2>Bugs Fixed</h2>
+  <h2 dir="auto">Bugs Fixed</h2>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Fixed an issue where the 3DS would lock up if you closed the game via the Home
   button</li>

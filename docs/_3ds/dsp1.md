@@ -35,13 +35,13 @@ source: https://github.com/zoogie/DSP1
 systems:
 - 3DS
 title: DSP1
-update_notes: '<p>Initial release.<br>
+update_notes: '<p dir="auto">Initial release.<br>
 
   Stealth Dec 9, 2020: add .3dsx, thx <a class="user-mention" data-hovercard-type="user"
   data-hovercard-url="/users/Oreo639/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/Oreo639">@Oreo639</a></p>
 
-  <p>NOTE: The DSP2.cia is identical to DSP1.cia.<br>
+  <p dir="auto">NOTE: The DSP2.cia is identical to DSP1.cia.<br>
 
   DSP2.cia was added because of technical issues downloading DSP1.cia.</p>'
 updated: '2017-05-03T01:57:36Z'
