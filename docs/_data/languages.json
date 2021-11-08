@@ -100,5 +100,9 @@
 	"Română": {
 		"id": "ro-RO",
 		"dir": "ltr"
+	},
+	"Norsk": {
+		"id": "no-NO",
+		"dir": "ltr"
 	}
 }
