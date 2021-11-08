@@ -78,9 +78,9 @@ systems:
 - 3DS
 title: Universal-Updater
 unistore_exclude: true
-update_notes: '<h3>Changes</h3>
+update_notes: '<h3 dir="auto">Changes</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Adds Danish and Turkish translations and updates to some existing translations</li>
 
@@ -88,30 +88,30 @@ update_notes: '<h3>Changes</h3>
 
   </ul>
 
-  <h3>Bug fixes</h3>
+  <h3 dir="auto">Bug fixes</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Fixes empty folders and 0 byte files not being extracted</li>
 
   </ul>
 
-  <h3>Other notes</h3>
+  <h3 dir="auto">Other notes</h3>
 
-  <p>Pretty small update this time, it''s been a while since the last one though so
-  we figured we should push out the couple changes we have at the moment.</p>
+  <p dir="auto">Pretty small update this time, it''s been a while since the last one
+  though so we figured we should push out the couple changes we have at the moment.</p>
 
-  <p>Find any bugs we missed, have suggestions, or need help? You can either make
-  an issue or discussion here on GitHub or join our <a href="https://universal-team.net/discord"
+  <p dir="auto">Find any bugs we missed, have suggestions, or need help? You can either
+  make an issue or discussion here on GitHub or join our <a href="https://universal-team.net/discord"
   rel="nofollow">Discord server</a>.</p>
 
-  <p>We hope you enjoy the new update!<br>
+  <p dir="auto">We hope you enjoy the new update!<br>
 
   ~ Universal-Team</p>
 
   <hr>
 
-  <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/128966211-6263b6b6-769b-4a54-b194-5f28b855903a.png"><img
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/128966211-6263b6b6-769b-4a54-b194-5f28b855903a.png"><img
   src="https://user-images.githubusercontent.com/41608708/128966211-6263b6b6-769b-4a54-b194-5f28b855903a.png"
   alt="QR code for universal-updater.cia" style="max-width: 100%;"></a></p>'
 updated: '2021-08-11T03:37:15Z'

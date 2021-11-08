@@ -34,12 +34,12 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p>Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v23.0.1"><strong>TW</strong>i<strong>L</strong>ight
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v23.0.1"><strong>TW</strong>i<strong>L</strong>ight
   Menu++ v23.0.1</a></p>
 
-  <p>Instructions:</p>
+  <p dir="auto">Instructions:</p>
 
-  <ol>
+  <ol dir="auto">
 
   <li>Download the <code>.7z</code> file.</li>
 
@@ -49,15 +49,15 @@ update_notes: '<p>Included in <a href="https://github.com/DS-Homebrew/TWiLightMe
 
   </ol>
 
-  <p><strong>Bug fix</strong></p>
+  <p dir="auto"><strong>Bug fix</strong></p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
   InfraRed features are now fully working again!
 
-  <ul>
+  <ul dir="auto">
 
   <li>Only tested and working in HGSS, but should likely work in other IR-supported
   games.</li>

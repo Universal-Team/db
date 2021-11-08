@@ -48,10 +48,10 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li><a href="https://wiki.ds-homebrew.com/twilightmenu/updating-flashcard.html"
   rel="nofollow">Flashcard</a></li>
@@ -62,21 +62,21 @@ update_notes: '<p>Check here on how to update <strong>TW</strong>i<strong>L</str
 
   </ul>
 
-  <p>Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.50.1">nds-bootstrap
+  <p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.50.1">nds-bootstrap
   v0.50.1</a></p>
 
-  <p><strong>What''s new?</strong></p>
+  <p dir="auto"><strong>What''s new?</strong></p>
 
-  <ul>
+  <ul dir="auto">
 
   <li><strong>TWLMenu++ Splash Screen:</strong> The Rocket Robz logo has been moved
   to before the TWLMenu++ logo is shown.</li>
 
   </ul>
 
-  <p><strong>Bug fixes</strong></p>
+  <p dir="auto"><strong>Bug fixes</strong></p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Fixed the TWL clock speed blacklist not being read when launching games in widescreen.</li>
 
