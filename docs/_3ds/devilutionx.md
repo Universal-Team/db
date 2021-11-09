@@ -8,10 +8,10 @@ created: '2018-08-02T17:19:01Z'
 description: Diablo build for modern operating systems
 download_page: https://github.com/diasurgical/devilutionX/releases
 downloads:
-  devilutionx-3ds.zip:
-    size: 10605819
-    size_str: 10 MiB
-    url: https://github.com/diasurgical/devilutionX/releases/download/1.3.0/devilutionx-3ds.zip
+  devilutionx-3ds.cia:
+    size: 5575616
+    size_str: 5 MiB
+    url: https://github.com/diasurgical/devilutionX/releases/download/1.3.0/devilutionx-3ds.cia
   devilutionx-linux-armhf.zip:
     size: 10898449
     size_str: 10 MiB
@@ -24,6 +24,8 @@ image_length: 47500
 layout: app
 license: unlicense
 license_name: The Unlicense
+qr:
+  devilutionx-3ds.cia: https://db.universal-team.net/assets/images/qr/devilutionx-3ds-cia.png
 source: https://github.com/diasurgical/devilutionX
 systems:
 - 3DS
