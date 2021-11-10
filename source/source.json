@@ -872,7 +872,7 @@
 				"release/arm7dldi-twl/SNEmulDS.srl",
 				"release/snemul.cfg"
 			],
-			"branch": "TGDS1.6-Snemulds"
+			"branch": "master"
 		},
 		"systems": ["DS"],
 		"categories": ["emulator"],
