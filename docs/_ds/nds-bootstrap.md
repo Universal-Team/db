@@ -9,13 +9,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 385072
-    size_str: 376 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.50.1/nds-bootstrap.7z
+    size: 386567
+    size_str: 377 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.50.2/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 935414
-    size_str: 913 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.50.1/nds-bootstrap.zip
+    size: 937228
+    size_str: 915 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.50.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 icon_index: 140
@@ -34,10 +34,7 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v23.0.1"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v23.0.1</a></p>
-
-  <p dir="auto">Instructions:</p>
+update_notes: '<p dir="auto">Instructions:</p>
 
   <ol dir="auto">
 
@@ -49,31 +46,86 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <p dir="auto"><strong>Bug fix</strong></p>
+  <p dir="auto"><strong>What''s new?</strong></p>
 
   <ul dir="auto">
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  InfraRed features are now fully working again!
+  <li><strong>B4DS mode:</strong> <em>Nintendo DSi + Internet</em> now boots!</li>
+
+  <li>Saving is now stubbed out in a few DSiWare titles in order to proceed further,
+  when running from a CycloDS iEvolution.
 
   <ul dir="auto">
 
-  <li>Only tested and working in HGSS, but should likely work in other IR-supported
-  games.</li>
+  <li><strong>Known affected games:</strong>
 
-  <li><strong>NOTE:</strong> The 3DS console''s IR port still cannot be used, as it''s
-  not possible to use in DS(i) mode, and a game card containing IR features is still
-  required.</li>
+  <ul dir="auto">
+
+  <li>A Little Bit of... Nintendo Touch Golf</li>
+
+  <li>Asphalt 4: Elite Racing</li>
+
+  <li>Aura-Aura Climber</li>
+
+  <li>Brain Challenge</li>
+
+  <li>Cave Story</li>
+
+  <li>Ferrari GT: Evolution</li>
+
+  <li>Plants vs. Zombies</li>
+
+  <li>Puzzle League: Express</li>
+
+  <li>Rayman</li>
+
+  <li>Tetris Party Live</li>
 
   </ul>
 
   </li>
 
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <p dir="auto"><strong>Bug fixes</strong></p>
+
+  <ul dir="auto">
+
+  <li>Fixed an overlooked bug due to optimized code, which caused AP-patching to not
+  work properly for SDK5 games on DSi.</li>
+
+  <li>Increased the file size limit of AP-fix .ips patches from 192KB to 256KB.
+
+  <ul dir="auto">
+
+  <li>This fixes <em>Rabbids Go Home</em> (Only DS mode tested on DSi).</li>
+
+  </ul>
+
+  </li>
+
+  <li><strong>B4DS mode:</strong> Fixed AP-patching not working properly, when using
+  a Memory Expansion Pak.</li>
+
+  <li>Fixed WiFi not working when running from a CycloDS iEvolution.</li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  Fixed ARM7 RAM viewer randomly freezing.</li>
+
+  <li>Fixed an overlooked bug which caused <em>Kirby Canvas Curse</em> to lockup on
+  the logos with empty save data and with SWI Halt Hook turned on.</li>
+
+  <li>Fixed EUR version of <em>Hotel Dusk: Room 215</em> not booting.</li>
+
   </ul>'
-updated: '2021-11-02T19:00:30Z'
-version: v0.50.1
-version_title: v0.50.1
+updated: '2021-11-12T06:30:22Z'
+version: v0.50.2
+version_title: v0.50.2
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
 nds-bootstrap is an open-source application that allows Nintendo DS/DSi ROMs and homebrew to be natively utilised rather than using an emulator. nds-bootstrap works on Nintendo DSi/3DS SD cards through CFW and on Nintendo DS through flashcarts.
