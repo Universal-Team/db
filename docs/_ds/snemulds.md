@@ -18,15 +18,15 @@ downloads:
   release/arm7dldi-ntr/SNEmulDS.nds:
     size: 437312
     size_str: 427 KiB
-    url: https://api.bitbucket.org/2.0/repositories/Coto88/snemulds/src/b1e327c8d493a04bba85d94987a0e240fba56911/release/arm7dldi-ntr/SNEmulDS.nds
+    url: https://api.bitbucket.org/2.0/repositories/Coto88/snemulds/src/0332a7e679f1c27890e5be2de9dc03ff2978bd96/release/arm7dldi-ntr/SNEmulDS.nds
   release/arm7dldi-twl/SNEmulDS.srl:
     size: 440384
     size_str: 430 KiB
-    url: https://api.bitbucket.org/2.0/repositories/Coto88/snemulds/src/b1e327c8d493a04bba85d94987a0e240fba56911/release/arm7dldi-twl/SNEmulDS.srl
+    url: https://api.bitbucket.org/2.0/repositories/Coto88/snemulds/src/0332a7e679f1c27890e5be2de9dc03ff2978bd96/release/arm7dldi-twl/SNEmulDS.srl
   release/snemul.cfg:
     size: 10086
     size_str: 9 KiB
-    url: https://api.bitbucket.org/2.0/repositories/Coto88/snemulds/src/b1e327c8d493a04bba85d94987a0e240fba56911/release/snemul.cfg
+    url: https://api.bitbucket.org/2.0/repositories/Coto88/snemulds/src/0332a7e679f1c27890e5be2de9dc03ff2978bd96/release/snemul.cfg
 icon: https://db.universal-team.net/assets/images/icons/snemulds.png
 icon_index: 19
 image: https://db.universal-team.net/assets/images/images/snemulds.png
@@ -36,6 +36,6 @@ source: https://bitbucket.org/Coto88/snemulds
 systems:
 - DS
 title: SnemulDS
-updated: '2021-11-09T19:26:20+00:00'
-version: b1e327c
+updated: '2021-11-14T05:09:43+00:00'
+version: 0332a7e
 ---
