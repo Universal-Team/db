@@ -640,26 +640,27 @@ for app in source:
 			if "created" not in app:
 				app["created"] = api["created_on"]
 
-			if "downloads" not in app:
-				app["downloads"] = {}
-			for download in app["bitbucket"]["files"]:
-				fileAPI = requests.get(f"https://api.bitbucket.org/2.0/repositories/{app['bitbucket']['repo']}/src/{(app['bitbucket']['branch'] if 'branch' in app['bitbucket'] else 'master')}/{download}?format=meta").json()
-				if download not in app["downloads"]:
-					app["downloads"][download] = {
-						"url": fileAPI["links"]["self"]["href"],
-						"size": fileAPI["size"],
-						"size_str": byteCount(fileAPI["size"])
-					}
+			if "files" in app["bitbucket"]:
+				if "downloads" not in app:
+					app["downloads"] = {}
+				for download in app["bitbucket"]["files"]:
+					fileAPI = requests.get(f"https://api.bitbucket.org/2.0/repositories/{app['bitbucket']['repo']}/src/{(app['bitbucket']['branch'] if 'branch' in app['bitbucket'] else 'master')}/{download}?format=meta").json()
+					if download not in app["downloads"]:
+						app["downloads"][download[download.rfind("/") + 1:]] = {
+							"url": fileAPI["links"]["self"]["href"],
+							"size": fileAPI["size"],
+							"size_str": byteCount(fileAPI["size"])
+						}
 
-				if "download_page" not in app:
-					app["download_page"] = f"https://bitbucket.org/{app['bitbucket']['repo']}/src/{(app['bitbucket']['branch'] if 'branch' in app['bitbucket'] else 'master')}/{download}"
+					if "download_page" not in app:
+						app["download_page"] = f"https://bitbucket.org/{app['bitbucket']['repo']}/src/{(app['bitbucket']['branch'] if 'branch' in app['bitbucket'] else 'master')}/{download}"
 
-				if "version" not in app:
-					app["version"] = fileAPI["commit"]["hash"][:7]
+					if "version" not in app:
+						app["version"] = fileAPI["commit"]["hash"][:7]
 
-				if "updated" not in app:
-					commit = requests.get(fileAPI["commit"]["links"]["self"]["href"]).json()
-					app["updated"] = commit["date"]
+					if "updated" not in app:
+						commit = requests.get(fileAPI["commit"]["links"]["self"]["href"]).json()
+						app["updated"] = commit["date"]
 
 		# Process format strings in downloads if needed
 		if "eval_downloads" in app and app["eval_downloads"]:
