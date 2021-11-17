@@ -9,10 +9,6 @@ categories:
 color: '#848383'
 created: '2018-06-04T05:11:19.373852+00:00'
 description: SnemulDS 0.6 [Revival]
-files:
-- release/arm7dldi-ntr/SNEmulDS.nds
-- release/arm7dldi-twl/SNEmulDS.srl
-- release/snemul.cfg
 icon: https://db.universal-team.net/assets/images/icons/snemulds.png
 icon_index: 19
 image: https://db.universal-team.net/assets/images/images/snemulds.png
