@@ -10,10 +10,10 @@ description: 'GodMode9 Explorer - A full access file browser for the Nintendo 3D
   console :godmode:'
 download_page: https://github.com/d0k3/GodMode9/releases
 downloads:
-  GodMode9-v2.0.0-20210322174439.zip:
-    size: 2507188
+  GodMode9-v2.1.0-20211121131422.zip:
+    size: 2583932
     size_str: 2 MiB
-    url: https://github.com/d0k3/GodMode9/releases/download/v2.0.0/GodMode9-v2.0.0-20210322174439.zip
+    url: https://github.com/d0k3/GodMode9/releases/download/v2.1.0/GodMode9-v2.1.0-20211121131422.zip
 github: d0k3/GodMode9
 icon_index: 144
 image: https://raw.githubusercontent.com/d0k3/GodMode9/master/resources/logo.png
@@ -25,145 +25,75 @@ source: https://github.com/d0k3/GodMode9
 systems:
 - 3DS
 title: GodMode9
-update_notes: '<p dir="auto">Today marks the 5th anniversary of the first public GodMode9
-  release. With this being a special day, a proper release is in order. The conjoined
-  changelog is long, it includes 189 commits, 437 days of development work and two
-  prereleases. The two killer features in this one, for most users, will be the new
-  title manager and the ability to install basically anything (read below), but there
-  are countless other goodies in there, such as the revamped title info, better support
-  for carts and lots of under-the-hood improvements</p>
-
-  <p dir="auto">This is new since the last prerelease:</p>
-
-  <ul dir="auto">
-
-  <li>[new] Completely revamped title info, with special info for installed titles,
-  TMDs and CIAs</li>
-
-  <li>[new] Initial CARD2 save read support for carts (thanks <a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/dratini0/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/dratini0">@dratini0</a>!)</li>
-
-  <li>[improved] Title manager now includes a ticket dumper</li>
-
-  <li>[improved] Release ntrboot FIRMs now include scripts (thanks <a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/gholms/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/gholms">@gholms</a>)</li>
-
-  <li>[improved] Software keyboard now includes firstrun instructions</li>
-
-  <li>[improved/fixed] Various smaller visual improvements and bugfixes</li>
-
-  </ul>
-
-  <p dir="auto">In addition, this is new since the last proper release:</p>
-
-  <ul dir="auto">
-
-  <li>[new] Possibility to install NCCH, NCSD (.3DS), DSiWare NDS, CIA, NUS/CDN, DSi
-  CDN content to the system</li>
-
-  <li>[new] Title manager available via HOME menu</li>
-
-  <li>[new] Mount support for title.db (thanks <a class="user-mention" data-hovercard-type="user"
-  data-hovercard-url="/users/aspargas2/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/aspargas2">@aspargas2</a>)</li>
-
-  <li>[new] Support for handling variable sized tickets (thanks <a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/luigoalma/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/luigoalma">@luigoalma</a>)</li>
-
-  <li>[new] Completely rewritten MCU event handler (fixes a lot of stuff) (thanks
-  <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Wolfvak/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Wolfvak">@Wolfvak</a>)</li>
-
-  <li>[new] NDS carts can be dumped with secure area encrypted (thanks <a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/mariomadproductions/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mariomadproductions">@mariomadproductions</a>
-  for testing)</li>
-
-  <li>[new] Gamecart drive G:/ now includes an info text file (thanks <a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/GerbilSoft/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/GerbilSoft">@GerbilSoft</a>)</li>
-
-  <li>[new] Tickets can now be verified, installed and identified</li>
-
-  <li>[new] Trimming functionality for GBA rom dumps</li>
-
-  <li>[improved] Several improvements to the GM9 MegaScript (thanks <a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/aspargas2/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/aspargas2">@aspargas2</a>)</li>
-
-  <li>[improved] Improved CIA builder, with stricter checks for legit builds</li>
-
-  <li>[improved] Better handling of special cases in cart dumper (thanks <a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/GerbilSoft/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/GerbilSoft">@GerbilSoft</a>)</li>
-
-  <li>[improved] Tons of small performance improvements (thanks <a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/Wolfvak/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Wolfvak">@Wolfvak</a>)</li>
-
-  <li>[improved] Much smaller firm size (thanks <a class="user-mention" data-hovercard-type="user"
-  data-hovercard-url="/users/Wolfvak/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Wolfvak">@Wolfvak</a>)</li>
-
-  <li>[improved] Proper mount support for ticket.db (thanks <a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/aspargas2/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/aspargas2">@aspargas2</a>)</li>
-
-  <li>[scripting] install command for installing game images</li>
-
-  <li>[scripting] Quotes can be escaped (") in variables*</li>
-
-  <li>[fixed] Fixed screen init (for real this time!) (thanks <a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/Wolfvak/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Wolfvak">@Wolfvak</a>)</li>
-
-  </ul>
-
-  <p dir="auto"><strong>Killer Feature 1: Title manager</strong><br>
-
-  The title manager may be the one feature most relevant to our users in this release.
-  It enables you to get an overview of your installed titles, build CIAs and even
-  (batch-) uninstall stuff from your system. To enter the title manager, press  and
-  select <code>Title manager</code>. SD installed titles are found on the <code>A:/</code>
-  drive, system titles and DSiWare titles are found on the <code>1:/</code> drive.</p>
-
-  <p dir="auto"><strong>Killer Feature 2: Universal installer</strong><br>
-
-  The other killer feature in this release is the ability to install basically anything
-  to your system. You can install CIA (obvious), NCSD (also called .3DS files), NCCH,
-  DSiWare .NDS dumps, 3DS CDN/ NUS contents and DSi CDN contents. It''s even possible
-  to install a title directly from one of your gamecarts. For DSi CDN contents, the
-  <code>Nintendo DSi (Digital) (CDN)</code> dat-file over on <a href="https://datomatic.no-intro.org/"
-  rel="nofollow">No-Intro</a> may help you get your CDN files in order. You will also
-  need to provide a <code>decTitlekeys.bin</code> file (with DSi titlekeys included)
-  inside the <code>0:/GM9/support/</code> folder.</p>
-
-  <p dir="auto"><strong>How do I update GodMode9?</strong><br>
-
-  You wouldn''t believe how often we get that question when we do a new release. It''s
-  actually very simple: Just replace <code>GodMode9.firm</code> on your SD card with
-  the file found in the release ZIP. You may also want to update scripts, which are
-  found in <code>gm9</code> folder inside the archive and go to the same folder on
-  your SD card.</p>
-
-  <p dir="auto"><strong>Did you know?</strong><br>
-
-  We actually missed last years'' anniversary release by a solid 5 months, and all
-  you got back then was a prerelease. GodMode9 is a side project for all of our main
-  developers (that''s <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Wolfvak/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Wolfvak">@Wolfvak</a>,
-  <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/aspargas2/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/aspargas2">@aspargas2</a>
-  and myself), so it has to take second place to real life(tm) at times. Gladly, we''re
-  able to get this release out in time. Thanks go out to the numerous people who helped
-  make this possible, including contributing developers, people who submitted bug
-  reports &amp; feature requests and least but not last, you, the users, who motivate
-  us to keep on improving GodMode9.</p>'
-updated: '2021-03-22T18:38:07Z'
-version: v2.0.0
-version_title: GodMode9 v2.0.0 Fifth Anniversary Release
+update_notes: "<p dir=\"auto\">We're early for christmas this year with a new release:\
+  \ GodMode9 v2.1.0 comes with several new features and a truckload of bugfixes and\
+  \ smaller improvements.</p>\n<p dir=\"auto\">This is new since the last release:</p>\n\
+  <ul dir=\"auto\">\n<li>[new] Unicode support, including a special Unicode font created\
+  \ for GodMode9 (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
+  /users/Epicpkmn11/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
+  link_type:self\" href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a>)</li>\n\
+  <li>[new] Support for mounting <code>certs.db</code>, including improvement of certs\
+  \ handling (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
+  /users/luigoalma/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
+  link_type:self\" href=\"https://github.com/luigoalma\">@luigoalma</a>)</li>\n<li>[new]\
+  \ Support for SHA-1 checksums (<a class=\"user-mention\" data-hovercard-type=\"\
+  user\" data-hovercard-url=\"/users/aspargas2/hovercard\" data-octo-click=\"hovercard-link-click\"\
+  \ data-octo-dimensions=\"link_type:self\" href=\"https://github.com/aspargas2\"\
+  >@aspargas2</a>)</li>\n<li>[new] Raw cart dumper, accessible via R+A on cart drive</li>\n\
+  <li>[improved] Wider support for flash chips on carts, including ir (<a class=\"\
+  user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/dratini0/hovercard\"\
+  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
+  \ href=\"https://github.com/dratini0\">@dratini0</a>)</li>\n<li>[scripting] <code>SDSIZE</code>,\
+  \ <code>SDFREE</code> and <code>NANDFREE</code> global variables</li>\n<li>[scripting]\
+  \ Added <code>cartdump</code> command</li>\n<li>[fixed] Numerous bugfixes and small\
+  \ improvements, too many to list</li>\n</ul>\n<p dir=\"auto\"><strong>Killer Feature:\
+  \ Unicode support</strong><br>\nGodMode9 is no longer limited to just displaying\
+  \ English, it now has proper support for Unicode text. To facilitate this change\
+  \ there's also a new font format, a simple RIFF-based format called FRF, which you\
+  \ can easily convert to using the \xB4fontriff.py\xB4 conversion script. The default\
+  \ font has been updated to include the common accented Latin letters, Cyrillic for\
+  \ Russian, and Hiragana/Katakana for Japanese and there's also a font with complete\
+  \ JIS X 0208 support in the resources folder. You can also now type any character\
+  \ (up to U+FFFF) in the keyboard by switching to the number input mode, typing the\
+  \ codepoint, and pressing the U+ key. (ex. 0411 is \u0411 and 3042 is \u3042).</p>\n\
+  <p dir=\"auto\"><strong>How do I update GodMode9?</strong><br>\n(Do I really need\
+  \ to add that paragraph everytime?) You wouldn't believe how often we get that question\
+  \ when we do a new release. It's actually very simple: Just replace <code>GodMode9.firm</code>\
+  \ on your SD card with the file found in the release ZIP. You may also want to update\
+  \ scripts, which are found in the <code>./gm9</code> folder inside the archive and\
+  \ go to the same folder on your SD card.</p>\n<p dir=\"auto\"><strong>Special thanks</strong><br>\n\
+  With the project now being over 5 years old, and all of us working on other stuff,\
+  \ additionally to also having a real life(tm), the main devs (<a class=\"user-mention\"\
+  \ data-hovercard-type=\"user\" data-hovercard-url=\"/users/aspargas2/hovercard\"\
+  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
+  \ href=\"https://github.com/aspargas2\">@aspargas2</a>, <a class=\"user-mention\"\
+  \ data-hovercard-type=\"user\" data-hovercard-url=\"/users/Wolfvak/hovercard\" data-octo-click=\"\
+  hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Wolfvak\"\
+  >@Wolfvak</a> and me) sometimes take the backseat, only doing smaller features,\
+  \ bug fixes and general project maintenance. Gladly the void was filled by other\
+  \ developers. Special thanks go to <a class=\"user-mention\" data-hovercard-type=\"\
+  user\" data-hovercard-url=\"/users/Epicpkmn11/hovercard\" data-octo-click=\"hovercard-link-click\"\
+  \ data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Epicpkmn11\"\
+  >@Epicpkmn11</a> for Unicode support,<a class=\"user-mention\" data-hovercard-type=\"\
+  user\" data-hovercard-url=\"/users/dratini0/hovercard\" data-octo-click=\"hovercard-link-click\"\
+  \ data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dratini0\">@dratini0</a>\
+  \ for his continued work on supporting flash chips in the cart dumper and <a class=\"\
+  user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/luigoalma/hovercard\"\
+  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
+  \ href=\"https://github.com/luigoalma\">@luigoalma</a> who added support for mounting\
+  \ <code>certs.db</code> in this release. It's not only the devs who we have to thank,\
+  \ though, it's also the numerous people who point out problems and ask for features,\
+  \ as well as everyone who's patient enough to help us out with testing. More special\
+  \ thanks go to <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
+  /users/TimmSkiller/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
+  link_type:self\" href=\"https://github.com/TimmSkiller\">@TimmSkiller</a> and <a\
+  \ class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/mariomadproductions/hovercard\"\
+  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
+  \ href=\"https://github.com/mariomadproductions\">@mariomadproductions</a>, who\
+  \ both helped us a lot to improve GodMode9. In fact, the people who helped make\
+  \ this release a possibility are too numerous to list - thanks, all of you!</p>"
+updated: '2021-11-21T12:21:56Z'
+version: v2.1.0
+version_title: GodMode9 v2.1.0
 wiki: https://github.com/d0k3/GodMode9/wiki
 ---
