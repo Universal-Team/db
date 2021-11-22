@@ -6738,60 +6738,23 @@
 		"image": "https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/banner.png",
 		"icon": "https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/icon.png",
 		"scripts": {
-			"devilutionx.3dsx": [
+			"devilutionx-3ds.cia": [
 				{
 					"type": "downloadRelease",
 					"repo": "diasurgical/devilutionX",
-					"file": "devilutionx-3ds.zip",
-					"output": "/devilutionx-3ds.zip",
-					"message": "Downloading devilutionx-3ds.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/devilutionx-3ds.zip",
-					"input": "devilutionx-3ds/devilutionx.3dsx",
-					"output": "/3ds/devilutionx/devilutionx.3dsx",
-					"message": "Extracting devilutionx.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/devilutionx-3ds.zip",
-					"message": "Deleting devilutionx-3ds.zip..."
-				},
-				{
-					"type": "promptMessage",
-					"message": "You need the game files from your CD/GOG in\n\"sdmc:/3ds/devilutionx/\" to play the game.\n\nDiablo: \"diabdat.mpq\"\n\nDiablo - Hellfire: \"hellfire.mpq\", \"hfmonk.mpq\",\n\"hfmusic.mpq\", and \"hfvoice.mpq\"\n\nDiablo Spawn (shareware): \"spawn.mpq\""
-				}
-			],
-			"devilutionx.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "diasurgical/devilutionX",
-					"file": "devilutionx-3ds.zip",
-					"output": "/devilutionx-3ds.zip",
-					"message": "Downloading devilutionx-3ds.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/devilutionx-3ds.zip",
-					"input": "devilutionx-3ds/devilutionx.cia",
-					"output": "/devilutionx.cia",
-					"message": "Extracting devilutionx.cia..."
+					"file": "devilutionx-3ds.cia",
+					"output": "/devilutionx-3ds.cia",
+					"message": "Downloading devilutionx-3ds.cia..."
 				},
 				{
 					"type": "installCia",
-					"file": "/devilutionx.cia",
-					"message": "Installing devilutionx.cia..."
+					"file": "/devilutionx-3ds.cia",
+					"message": "Installing devilutionx-3ds.cia..."
 				},
 				{
 					"type": "deleteFile",
-					"file": "/devilutionx.cia",
-					"message": "Deleting devilutionx.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/devilutionx-3ds.zip",
-					"message": "Deleting devilutionx-3ds.zip..."
+					"file": "/devilutionx-3ds.cia",
+					"message": "Deleting devilutionx-3ds.cia..."
 				},
 				{
 					"type": "promptMessage",
