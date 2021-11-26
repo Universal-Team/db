@@ -10,9 +10,9 @@ description: The base forwarder packs for use with Forwarder3-DS and NDSForwarde
 download_page: https://github.com/RocketRobz/NTR_Forwarder/releases
 downloads:
   DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z:
-    size: 427395
-    size_str: 417 KiB
-    url: https://github.com/RocketRobz/NTR_Forwarder/releases/download/SD-3/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z
+    size: 442239
+    size_str: 431 KiB
+    url: https://github.com/RocketRobz/NTR_Forwarder/releases/download/SD-4/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z
 github: RocketRobz/NTR_Forwarder
 icon: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
 icon_index: 189
@@ -24,8 +24,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.50.0">nds-bootstrap
-  v0.50.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.51.0">nds-bootstrap
+  v0.51.0</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -43,18 +43,13 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Removed donor ROM requirement for certain games.</li>
-
-  </ul>
-
-  <p dir="auto"><strong>Improvement</strong></p>
-
-  <ul dir="auto">
-
-  <li>Improved homebrew detection.</li>
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  Per-game settings menu has been added, and can be opened by holding Y before the
+  game starts.</li>
 
   </ul>'
-updated: '2021-10-30T05:30:32Z'
-version: SD-3
-version_title: 'GitHub Release #3'
+updated: '2021-11-26T03:44:23Z'
+version: SD-4
+version_title: 'GitHub Release #4'
 ---
