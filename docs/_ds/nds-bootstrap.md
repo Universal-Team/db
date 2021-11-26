@@ -9,13 +9,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 386567
-    size_str: 377 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.50.2/nds-bootstrap.7z
+    size: 398061
+    size_str: 388 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.51.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 937228
-    size_str: 915 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.50.2/nds-bootstrap.zip
+    size: 964203
+    size_str: 941 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.51.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 icon_index: 140
@@ -34,98 +34,51 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Instructions:</p>
-
-  <ol dir="auto">
-
-  <li>Download the <code>.7z</code> file.</li>
-
-  <li>Extract the nds-bootstrap <code>.nds</code> files, to <code>root:/_nds</code>.</li>
-
-  <li><strong>TWLMenu++ users:</strong> Extract the <code>.ver</code> file to <code>root:/_nds/TWiLightMenu</code>.</li>
-
-  </ol>
-
-  <p dir="auto"><strong>What''s new?</strong></p>
-
-  <ul dir="auto">
-
-  <li><strong>B4DS mode:</strong> <em>Nintendo DSi + Internet</em> now boots!</li>
-
-  <li>Saving is now stubbed out in a few DSiWare titles in order to proceed further,
-  when running from a CycloDS iEvolution.
-
-  <ul dir="auto">
-
-  <li><strong>Known affected games:</strong>
-
-  <ul dir="auto">
-
-  <li>A Little Bit of... Nintendo Touch Golf</li>
-
-  <li>Asphalt 4: Elite Racing</li>
-
-  <li>Aura-Aura Climber</li>
-
-  <li>Brain Challenge</li>
-
-  <li>Cave Story</li>
-
-  <li>Ferrari GT: Evolution</li>
-
-  <li>Plants vs. Zombies</li>
-
-  <li>Puzzle League: Express</li>
-
-  <li>Rayman</li>
-
-  <li>Tetris Party Live</li>
-
-  </ul>
-
-  </li>
-
-  </ul>
-
-  </li>
-
-  </ul>
-
-  <p dir="auto"><strong>Bug fixes</strong></p>
-
-  <ul dir="auto">
-
-  <li>Fixed an overlooked bug due to optimized code, which caused AP-patching to not
-  work properly for SDK5 games on DSi.</li>
-
-  <li>Increased the file size limit of AP-fix .ips patches from 192KB to 256KB.
-
-  <ul dir="auto">
-
-  <li>This fixes <em>Rabbids Go Home</em> (Only DS mode tested on DSi).</li>
-
-  </ul>
-
-  </li>
-
-  <li><strong>B4DS mode:</strong> Fixed AP-patching not working properly, when using
-  a Memory Expansion Pak.</li>
-
-  <li>Fixed WiFi not working when running from a CycloDS iEvolution.</li>
-
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Fixed ARM7 RAM viewer randomly freezing.</li>
-
-  <li>Fixed an overlooked bug which caused <em>Kirby Canvas Curse</em> to lockup on
-  the logos with empty save data and with SWI Halt Hook turned on.</li>
-
-  <li>Fixed EUR version of <em>Hotel Dusk: Room 215</em> not booting.</li>
-
-  </ul>'
-updated: '2021-11-12T06:30:22Z'
-version: v0.50.2
-version_title: v0.50.2
+update_notes: "<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"\
+  https://github.com/DS-Homebrew/nds-bootstrap/blob/master/screenshots/v0.51.0/DSiWare%20on%20DS%20Phat.png?raw=true\"\
+  ><img src=\"https://github.com/DS-Homebrew/nds-bootstrap/blob/master/screenshots/v0.51.0/DSiWare%20on%20DS%20Phat.png?raw=true\"\
+  \ alt=\"screenshots\" style=\"max-width: 100%;\"></a></p>\n<p dir=\"auto\">Included\
+  \ in <a href=\"https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v23.1.0\"\
+  ><strong>TW</strong>i<strong>L</strong>ight Menu++ v23.1.0</a></p>\n<p dir=\"auto\"\
+  >Instructions:</p>\n<ol dir=\"auto\">\n<li>Download the <code>.7z</code> file.</li>\n\
+  <li>Extract the nds-bootstrap <code>.nds</code> files, to <code>root:/_nds</code>.</li>\n\
+  <li><strong>TWLMenu++ users:</strong> Extract the <code>.ver</code> file to <code>root:/_nds/TWiLightMenu</code>.</li>\n\
+  </ol>\n<p dir=\"auto\"><strong>What's new?</strong></p>\n<ul dir=\"auto\">\n<li><strong>B4DS\
+  \ mode:</strong> Support for up to 23 DSiWare titles have been added, making them\
+  \ playable on DS/DS lite consoles for the first time ever!<br>\n(For Debug DS consoles,\
+  \ additional support for 6 titles have been added.)\n<ul dir=\"auto\">\n<li>GO Series:\
+  \ 10 Second Run</li>\n<li>Ace Mathician</li>\n<li>Art Style: Aquia</li>\n<li>Aura-Aura\
+  \ Climber</li>\n<li>Art Style: BASE 10</li>\n<li>Dairojo! Samurai Defenders</li>\n\
+  <li>Dark Void Zero</li>\n<li>Dragon's Lair</li>\n<li>Dragon's Lair II: Time Warp\
+  \ (USA version only)</li>\n<li>DS WiFi Settings</li>\n<li>Famicom Wars DS: Ushinawareta\
+  \ Hikari</li>\n<li>GO Series: Defense Wars</li>\n<li>Game &amp; Watch: Ball</li>\n\
+  <li>Game &amp; Watch: Chef</li>\n<li>Game &amp; Watch: Donkey Kong Jr.</li>\n<li>Game\
+  \ &amp; Watch: Flagman</li>\n<li>Game &amp; Watch: Helmet</li>\n<li>Game &amp; Watch:\
+  \ Judge</li>\n<li>Game &amp; Watch: Manhole</li>\n<li>Game &amp; Watch: Mario's\
+  \ Cement Factory</li>\n<li>Game &amp; Watch: Vermin</li>\n<li>Mighty Flip Champs!</li>\n\
+  <li>Space Ace<br>\n<strong>For debug DS consoles:</strong>\n<ul dir=\"auto\">\n\
+  <li>G.G. Series: All Breaker</li>\n<li>G.G. Series: Assault Buster</li>\n<li>BlayzBloo:\
+  \ Super Melee Brawlers Battle Royale</li>\n<li>Mighty Milky Way</li>\n<li>Nintendo\
+  \ DSi XL Demo Video</li>\n<li>Nintendo DSi XL Demo Video: Volume 2</li>\n</ul>\n\
+  </li>\n</ul>\n</li>\n<li>Soft-resetting speeds have improved, and no longer reboots\
+  \ the console!\n<ul dir=\"auto\">\n<li>Shiny Pok\xE9mon hunters will find this feature\
+  \ useful, as it'll speed up the hunting process!</li>\n</ul>\n</li>\n</ul>\n<p dir=\"\
+  auto\"><strong>Bug fixes</strong></p>\n<ul dir=\"auto\">\n<li>Fixed Banana Cup causing\
+  \ a crash in <em>Mario Kart DS</em>.</li>\n<li>(Untested) The Power Washer minigame\
+  \ crash in <em>Mario Party DS</em> should now be fixed.</li>\n<li>Fixed <em>Anno\
+  \ 1701: Dawn of Discovery</em> not booting on 3DS.</li>\n<li>Fixed <em>Magic School\
+  \ Bus: Oceans</em> not booting on 3DS.</li>\n<li><em>Brain Age Express: Sudoku</em>\
+  \ no longer shows the <code>Download failed</code> message.</li>\n</ul>\n<p dir=\"\
+  auto\"><strong>Known bugs</strong></p>\n<ul dir=\"auto\">\n<li><strong>B4DS mode:</strong>\
+  \ None of the supported DSiWare titles (except <em>Famicom Wars DS: Ushinawareta\
+  \ Hikari</em>) can save data.</li>\n<li><strong>B4DS mode:</strong> Due to memory\
+  \ limitations of retail DS consoles, audio will not play in <em>Art Style: Aquia</em>.</li>\n\
+  <li><strong>B4DS mode:</strong> Connecting to WiFi in <em>Famicom Wars DS: Ushinawareta\
+  \ Hikari</em> will cause the game to crash.</li>\n<li>Soft-resetting may not work\
+  \ properly in a few games, causing a crash as a result.</li>\n</ul>"
+updated: '2021-11-26T02:36:36Z'
+version: v0.51.0
+version_title: Thanksgiving release (2021)
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
 nds-bootstrap is an open-source application that allows Nintendo DS/DSi ROMs and homebrew to be natively utilised rather than using an emulator. nds-bootstrap works on Nintendo DSi/3DS SD cards through CFW and on Nintendo DS through flashcarts.
