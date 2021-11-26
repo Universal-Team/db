@@ -81,8 +81,9 @@ update_notes: "<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer\" 
   \ mode:</strong> The <em>Game &amp; Watch</em> DSiWare titles will softlock after\
   \ finishing a game or exiting (usually in Game A mode).</li>\n<li><strong>B4DS mode:</strong>\
   \ Connecting to WiFi in <em>Famicom Wars DS: Ushinawareta Hikari</em> will cause\
-  \ the game to crash.</li>\n<li>Soft-resetting may not work properly in a few games,\
-  \ causing a crash as a result.</li>\n</ul>"
+  \ the game to crash.</li>\n<li>Some SDK2.0 games (such as <em>Super Mario 64 DS</em>)\
+  \ do not boot due to the fast soft-reset implementation.</li>\n<li>Soft-resetting\
+  \ may not work properly in a few games, causing a crash as a result.</li>\n</ul>"
 updated: '2021-11-26T02:36:36Z'
 version: v0.51.0
 version_title: Thanksgiving release (2021)
