@@ -61,19 +61,20 @@ update_notes: "<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer\" 
   \ Breaker</li>\n<li>G.G. Series: Assault Buster</li>\n<li>BlayzBloo: Super Melee\
   \ Brawlers Battle Royale</li>\n<li>Mighty Milky Way</li>\n<li>Nintendo DSi XL Demo\
   \ Video</li>\n<li>Nintendo DSi XL Demo Video: Volume 2</li>\n</ul>\n</li>\n</ul>\n\
-  </li>\n<li>Soft-resetting speeds have improved, and no longer reboots the console!\n\
-  <ul dir=\"auto\">\n<li>Shiny Pok\xE9mon hunters will find this feature useful, as\
-  \ it'll speed up the hunting process!</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\"\
-  ><strong>Bug fixes</strong></p>\n<ul dir=\"auto\">\n<li>Fixed Banana Cup causing\
-  \ a crash in <em>Mario Kart DS</em>.</li>\n<li>(Untested) The Power Washer minigame\
-  \ crash in <em>Mario Party DS</em> should now be fixed.</li>\n<li>Fixed <em>Anno\
-  \ 1701: Dawn of Discovery</em> not booting on 3DS.</li>\n<li>Fixed <em>Magic School\
-  \ Bus: Oceans</em> not booting on 3DS.</li>\n<li><em>Brain Age Express: Sudoku</em>\
-  \ no longer shows the <code>Download failed</code> message.</li>\n</ul>\n<p dir=\"\
-  auto\"><strong>Known bugs</strong></p>\n<ul dir=\"auto\">\n<li><strong>B4DS mode:</strong>\
-  \ None of the supported DSiWare titles (except <em>Famicom Wars DS: Ushinawareta\
-  \ Hikari</em>) can save data.</li>\n<li><strong>B4DS mode:</strong> Due to memory\
-  \ limitations of retail DS consoles, audio will not play in <em>Art Style: Aquia</em>.</li>\n\
+  </li>\n<li>Soft-resetting speeds have improved, and now doesn't reboot the console,\
+  \ so you no longer need to wait some time before the game starts again!\n<ul dir=\"\
+  auto\">\n<li>Shiny Pok\xE9mon hunters will find this feature useful, as it'll speed\
+  \ up the hunting process!</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\"><strong>Bug\
+  \ fixes</strong></p>\n<ul dir=\"auto\">\n<li>Fixed Banana Cup causing a crash in\
+  \ <em>Mario Kart DS</em>.</li>\n<li>(Untested) The Power Washer minigame crash in\
+  \ <em>Mario Party DS</em> should now be fixed.</li>\n<li>Fixed <em>Anno 1701: Dawn\
+  \ of Discovery</em> not booting on 3DS.</li>\n<li>Fixed <em>Magic School Bus: Oceans</em>\
+  \ not booting on 3DS.</li>\n<li><em>Brain Age Express: Sudoku</em> no longer shows\
+  \ the <code>Download failed</code> message.</li>\n</ul>\n<p dir=\"auto\"><strong>Known\
+  \ bugs</strong></p>\n<ul dir=\"auto\">\n<li><strong>B4DS mode:</strong> None of\
+  \ the supported DSiWare titles (except <em>Famicom Wars DS: Ushinawareta Hikari</em>)\
+  \ can save data.</li>\n<li><strong>B4DS mode:</strong> Due to memory limitations\
+  \ of retail DS consoles, audio will not play in <em>Art Style: Aquia</em>.</li>\n\
   <li><strong>B4DS mode:</strong> In <em>Aura-Aura Climber</em>, depending on how\
   \ far you go in Endless Mode, the game will crash. Inserting a Memory Expansion\
   \ Pak may prolong how far you can go up before the crash.</li>\n<li><strong>B4DS\
