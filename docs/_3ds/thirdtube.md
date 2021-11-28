@@ -9,13 +9,13 @@ description: A work-in-progress homebrew YouTube client for new 3DS
 download_page: https://github.com/windows-server-2003/ThirdTube/releases
 downloads:
   ThirdTube.3dsx:
-    size: 5287368
+    size: 5744164
     size_str: 5 MiB
-    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.3.0/ThirdTube.3dsx
+    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.4.0/ThirdTube.3dsx
   ThirdTube.cia:
-    size: 3802048
+    size: 4084672
     size_str: 3 MiB
-    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.3.0/ThirdTube.cia
+    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.4.0/ThirdTube.cia
 github: windows-server-2003/ThirdTube
 icon: https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/icon.png
 icon_index: 185
@@ -37,98 +37,85 @@ source: https://github.com/windows-server-2003/ThirdTube
 systems:
 - 3DS
 title: ThirdTube
-update_notes: '<p dir="auto">Here''s a major release bringing playlists support, watch
-  history and local channel subscription.</p>
+update_notes: '<p dir="auto">Hello, I''m releasing a new version with the community
+  posts support, basic audio editing options, and the ability to browse videos while
+  playing another video.<br>
+
+  Unfortunately, I have to tell you that I will be on a hiatus and temporarily leave
+  from the development of ThirdTube for four months from now for personal reasons.<br>
+
+  I''m glad if you remember this app when I come back.</p>
+
+  <p dir="auto">Here is the changelog :</p>
 
   <ul dir="auto">
 
-  <li>Added support for playlists
+  <li>Separated the video player and the video page<br>
 
-  <ul dir="auto">
+  This means you can now browse other videos while continuously playing one video.<br>
 
-  <li>Now playlists appear both in search results and suggestions</li>
+  It also means that a video doesn''t automatically play upon loading if another video
+  is playing, so you have to press the "Play" button in the "General" tab</li>
 
-  </ul>
+  <li>Added support for community posts in the channel page<br>
 
-  </li>
+  Animated images are currently not supported</li>
 
-  <li>Added local watch history (see hamburger menu -&gt; History)
+  <li>Added preamp, speed and pitch manipulators in the "Playback" tab</li>
 
-  <ul dir="auto">
+  <li>Added playlist tab in the channel page</li>
 
-  <li>You can disable history recording/clear history in settings</li>
+  <li>The 3DS now doesn''t go into sleep mode so that the app can continue the playback<br>
 
-  </ul>
+  While the lid is closed, you can still listen to the audio through the headphone
+  plug but not from the speaker because there seems to be no way to prevent it from
+  being disabled</li>
 
-  </li>
+  <li>Introduced thumb up/down icon to indicate like/dislike in the video page</li>
 
-  <li>Added local subscription and ability to load recent videos from the subscribed
-  channels (see hamburger menu -&gt; Subscription)</li>
+  <li>Added like counters on comments and replies</li>
 
-  <li>Added Control tab in the video player</li>
+  <li>Improved network performance when libcurl is chosen as the network framework
+  and a redirect occurs on a video/audio stream</li>
 
-  <li>Added video quality selector and audio-only mode selector in Control tab
+  <li>Improved the behavior when one of the subscribed channels changes its icon</li>
 
-  <ul dir="auto">
+  <li>Improved the performance and memory usage of the subscribed channels scene</li>
 
-  <li>These options will save data usage and make the playback smooth when using a
-  slow connection</li>
+  <li>Improved the behavior of option selector when you grab it and scroll</li>
 
-  </ul>
+  <li>Made it to retry when a minor network error occurs</li>
 
-  </li>
+  <li>Fixed random crashes when trying to play a video<br>
 
-  <li>Added yet another network framework : libcurl (it should be more stable ?)</li>
+  Tips : it had the possibility of crashing after loading 17th video counting from
+  the startup of the app</li>
 
-  <li>Added the button to directly input URL, next to the search box.</li>
+  <li>Fixed crashes when exiting the app while loading something (video page, comments
+  continuation, etc.)</li>
 
-  <li>Added seeking by 10 seconds by pressing the arrow button left/right</li>
+  <li>Fixed the throttling by YouTube which came back due to a change in one of their
+  javascripts</li>
 
-  <li>Added scrolling by using the d-pad up/down</li>
+  <li>Fixed long loading and possible crashes when trying to seek near the end of
+  the video</li>
 
-  <li>Added video pages caching</li>
+  <li>Fixed terrible audio for some video (<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="1030176577" data-permission-text="Title is private" data-url="https://github.com/windows-server-2003/ThirdTube/issues/53"
+  data-hovercard-type="issue" data-hovercard-url="/windows-server-2003/ThirdTube/issues/53/hovercard"
+  href="https://github.com/windows-server-2003/ThirdTube/issues/53">#53</a>)</li>
 
-  <li>Added the reason when a video is unplayable (e.g. private, removed, copyright
-  takedown)</li>
+  <li>Fixed memory leaks when video loading fails</li>
 
-  <li>Added video duration overlay text in the video list of a channel</li>
-
-  <li>Improved performance when opening the software keyboard</li>
-
-  <li>Improved the behavior when reaching the end of the video</li>
-
-  <li>Improved the behavior of the progress bar when seeking</li>
-
-  <li>Improved stability</li>
-
-  <li>Reorganized the settings menu</li>
-
-  <li>Removed Advanced tab
-
-  <ul dir="auto">
-
-  <li>debug info can still be seen in Control tab if enabled in settings</li>
-
-  <li>the texture filter toggle button has been moved to settings with the name "Linear
-  video filter"</li>
-
-  <li>the reload button has been moved to Control tab</li>
-
-  </ul>
-
-  </li>
-
-  <li>Fixed showing "Settings" in the hamburger menu when you are already opening
-  settings</li>
-
-  <li>Fixed httpcContext resource leaking when redirection occurs, which caused the
-  app to stop working</li>
-
-  <li>Fixed broken playback when playing videos with non-standard heights</li>
+  <li>Implemented a workaround for <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="1028279176" data-permission-text="Title is private" data-url="https://github.com/windows-server-2003/ThirdTube/issues/47"
+  data-hovercard-type="issue" data-hovercard-url="/windows-server-2003/ThirdTube/issues/47/hovercard"
+  href="https://github.com/windows-server-2003/ThirdTube/issues/47">#47</a> (240p
+  or below fails to load for some videos)</li>
 
   </ul>'
-updated: '2021-10-12T15:46:29Z'
-version: v0.3.0
-version_title: Release v0.3.0
+updated: '2021-11-28T15:33:37Z'
+version: v0.4.0
+version_title: Release v0.4.0
 website: https://gbatemp.net/threads/release-thirdtube-a-homebrew-youtube-client-for-the-new-3ds.591696/
 ---
