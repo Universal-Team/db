@@ -181,7 +181,7 @@ update_notes: "<h3 dir=\"auto\">Features</h3>\n<h4 dir=\"auto\">Platforms</h4>\n
   \ level 3</li>\n<li>Apply lights to all berserked monsters after loading save game</li>\n\
   <li>Remove light when killing a berserked monster</li>\n<li>Blood star becoming\
   \ invisible when blocked</li>\n<li>Rotate arrows in the appropriate direction when\
-  \ blocking</li>\n<li>Candles around around the storybook sometimes missing in Crypt</li>\n\
+  \ blocking</li>\n<li>Candles around the storybook sometimes missing in Crypt</li>\n\
   <li>Celia now leaves after her quest ends</li>\n<li>Update Celia and Complete Nut\
   \ graphics when completing their quests</li>\n<li>Only play \"Uh uh\" sound the\
   \ first time you pick up the cathedral map</li>\n<li>Glass breaking sound sometimes\
