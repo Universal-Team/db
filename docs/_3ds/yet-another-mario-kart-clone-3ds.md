@@ -12,7 +12,7 @@ downloads:
   YAMKC_3DS.3dsx:
     size: 7114120
     size_str: 6 MiB
-    url: https://github.com/mariohackandglitch/YAMKC_3DS/releases/download/v0.2/YAMKC_3DS.3dsx
+    url: https://github.com/PabloMK7/YAMKC_3DS/releases/download/v0.2/YAMKC_3DS.3dsx
 github: mariohackandglitch/YAMKC_3DS
 icon: https://raw.githubusercontent.com/mariohackandglitch/YAMKC_3DS/main/icon.png
 icon_index: 179
@@ -26,11 +26,11 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/yet-another-mario-kart-clone-3ds/gameplay.png
 - description: Reversed camera
   url: https://db.universal-team.net/assets/images/screenshots/yet-another-mario-kart-clone-3ds/reversed-camera.png
-source: https://github.com/mariohackandglitch/YAMKC_3DS
+source: https://github.com/PabloMK7/YAMKC_3DS
 systems:
 - 3DS
 title: Yet Another Mario Kart Clone 3DS
-update_notes: '<ul dir="auto">
+update_notes: '<ul>
 
   <li>Initial Release, check <a href="README.md">README</a> for details.</li>
 
