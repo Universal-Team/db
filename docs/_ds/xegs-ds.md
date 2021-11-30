@@ -11,13 +11,13 @@ description: XEGS-DS An Atari 8-bit Computer Emulator (specially targeted for th
 download_page: https://github.com/wavemotion-dave/XEGS-DS/releases
 downloads:
   XEGS-DS.nds:
-    size: 572416
-    size_str: 559 KiB
-    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.7/XEGS-DS.nds
+    size: 593920
+    size_str: 580 KiB
+    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.8/XEGS-DS.nds
   readme.txt:
-    size: 14869
+    size: 15021
     size_str: 14 KiB
-    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.7/readme.txt
+    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.8/readme.txt
 github: wavemotion-dave/XEGS-DS
 icon: https://db.universal-team.net/assets/images/icons/xegs-ds.png
 icon_index: 160
@@ -28,21 +28,16 @@ source: https://github.com/wavemotion-dave/XEGS-DS
 systems:
 - DS
 title: XEGS-DS
-update_notes: '<p dir="auto">V2.7 : 04-Nov-2021 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V2.8 : 30-Nov-2021 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>New sound output processing to eliminate Zingers!</li>
+  <li>Switched to maxmod audio library for improved sound.</li>
 
-  <li>bios files can now optionally be in /roms/bios or /data/bios</li>
-
-  <li>Left/Right now selects the next/previous option (rather than A button to only
-  cycle forward).</li>
-
-  <li>Other cleanups as time permitted.</li>
+  <li>Try to start in /roms or /roms/a800 if possible</li>
 
   </ul>'
-updated: '2021-11-04T23:42:27Z'
-version: '2.7'
-version_title: Version 2.7
+updated: '2021-11-30T14:10:27Z'
+version: '2.8'
+version_title: Version 2.8
 ---
