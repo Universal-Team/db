@@ -11,22 +11,22 @@ description: Nintellivision - an Intellivision Emulator for the Nintendo DS/DSi.
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 672768
+    size: 673280
     size_str: 657 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.3/NINTV-DS.nds
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.4/NINTV-DS.nds
   README.md:
-    size: 9240
+    size: 9523
     size_str: 9 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.3/README.md
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.4/README.md
   extras.zip:
-    size: 855920
-    size_str: 835 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.3/extras.zip
+    size: 826789
+    size_str: 807 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.4/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 icon_index: 188
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 16238
+image_length: 16271
 layout: app
 script_message: 'You need "grom.bin", "exec.bin",
 
@@ -35,22 +35,18 @@ source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V3.3 : 02-Dec-2021 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V3.4 : 04-Dec-2021 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Added use of generic.ovl which replaces the generic overlay if found.</li>
+  <li>Added support for more ROM segments so games like DK Jr Homebrew will run.</li>
 
-  <li>Fix for custom overlay manual/instruction meta key.</li>
+  <li>New global nintv-ds.man manual support - see extras folder.</li>
 
-  <li>Cleanups for .bin file reading and other small tweaks under the hood.</li>
-
-  <li>Code commented throughout for better maintainability.</li>
-
-  <li>More than 50 manuals added thanks to ts-x!  See extras folder.</li>
+  <li>Other small cleanups as time permitted.</li>
 
   </ul>'
-updated: '2021-12-02T14:17:54Z'
-version: '3.3'
-version_title: Version 3.3
+updated: '2021-12-04T14:04:48Z'
+version: '3.4'
+version_title: Version 3.4
 ---
