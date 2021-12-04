@@ -6799,5 +6799,13 @@
 		"systems": ["DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/Garhoogin/Gravity/main/icon.bmp"
+	},
+	{
+		"github": "wavemotion-dave/ColecoDS",
+		"author": "AlekMaul / wavemotion-dave",
+		"systems": ["DS"],
+		"categories": ["emulator"],
+		"icon": "https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/master/logo.bmp",
+		"image": "https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png"
 	}
 ]
