@@ -425,80 +425,6 @@ for app in source:
 			foundExisting = True
 			app = temp[0]
 	if not foundExisting or not (priorityOnlyMode and not ("priority" in app and app["priority"])):
-		if "gbatemp" in app:
-			print("GBAtemp Download Center")
-			r = requests.get(f"https://gbatemp.net/download/{app['gbatemp']}/")
-			if r.status_code != 200:
-				print(f"Error {r.status_code:d}, using old data!")
-				app = list(filter(lambda x: "gbatemp" in x and x["gbatemp"] == app["gbatemp"], oldData))[0]
-			else:
-				soup = BeautifulSoup(r.text, "html.parser")
-
-				if "title" not in app:
-					app["title"] = soup.find(class_="resourceInfo").h1.find(text=True).strip()
-
-				if "author" not in app:
-					app["author"] = soup.find(class_="author").dd.a.text.strip()
-
-				if "description" not in app:
-					app["description"] = soup.find(class_="tagLine").text.strip()
-
-				if "long_description" not in app:
-					app["long_description"] = soup.blockquote.decode_contents().strip()
-
-				if "avatar" not in app:
-					app["avatar"] = "https://gbatemp.net/" + re.sub("/s/", "/l/", soup.find(class_="resourceImage").a.img["src"]).strip()
-
-				if "created" not in app:
-					dd = soup.find(class_="firstRelease").dd
-					if dd.span:
-						app["created"] = parser.parse(dd.span["title"]).strftime("%Y-%m-%dT%H:%M:%SZ")
-					else: # Being shown as "Today at ..." or so
-						app["created"] = parser.parse(dd.appr.text).strftime("%Y-%m-%dT%H:%M:%SZ")
-
-				if "download_page" not in app:
-					app["download_page"] = f"https://gbatemp.net/download/{app['gbatemp']}/"
-
-				if "version" not in app:
-					app["version"] = soup.find(class_="resourceInfo").h1.span.text.strip()
-
-				if "version_title" not in app:
-					app["version_title"] = soup.find(class_="updates").ol.li.a.text.strip()
-
-				if "update_notes" not in app or "update_notes_md" not in app:
-					if "update_notes" not in app:
-						notesSoup = BeautifulSoup(requests.get("https://gbatemp.net/" + soup.find(class_="updates").ol.li.a["href"]).text, "html.parser")
-						app["update_notes"] = notesSoup.blockquote.decode_contents().strip()
-
-					if "update_notes_md" not in app:
-						app["update_notes_md"] = markdownify(app["update_notes"], bullets="-")
-
-				if "updated" not in app:
-					dd = soup.find(class_="lastUpdate").dd
-					if dd.span:
-						app["updated"] = parser.parse(dd.span["title"]).strftime("%Y-%m-%dT%H:%M:%SZ")
-					else: # Being shown as "Today at ..." or so
-						app["updated"] = parser.parse(dd.abbr.text).strftime("%Y-%m-%dT%H:%M:%SZ")
-
-				if "downloads" not in app:
-					app["downloads"] = {}
-
-				head = requests.head("https://gbatemp.net/" + soup.find(class_="downloadButton").a["href"])
-				if head.status_code == 200:
-					if "Content-Disposition" in head.headers:
-						name = re.findall('filename="(.*)"', head.headers["Content-Disposition"])
-						if len(name) > 0:
-							name = name[0]
-							size = None
-							if name not in app["downloads"]:
-								app["downloads"][name] = {
-									"url": head.url,
-								}
-
-								if "Content-Length" in head.headers:
-									app["downloads"][name]["size"] = int(head.headers["Content-Length"])
-									app["downloads"][name]["size_str"] = byteCount(app["downloads"][name]["size"])
-
 		if "github" in app:
 			print("GitHub")
 			api = requests.get(f"https://api.github.com/repos/{app['github']}", headers=header if header else None).json()
@@ -681,6 +607,10 @@ for app in source:
 				app["update_notes_md"] = eval(app["update_notes_md"])
 				if "update_notes" not in app:
 					app["update_notes"] = requests.post("https://api.github.com/markdown", headers=header if header else None, json={"text": app["update_notes_md"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
+
+		# If no markdown notes, generate from HTML
+		if "update_notes_md" not in app and "update_notes" in app:
+			app["update_notes_md"] = markdownify(app["update_notes"], bullets="-")
 
 		# Check for screenshots
 		if os.path.exists(os.path.join("..", "docs", "assets", "images", "screenshots", webName(app["title"]))):
