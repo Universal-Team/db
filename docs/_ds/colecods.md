@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/wavemotion-dave/ColecoDS/releases/download/3.8/README.md
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
-icon_index: -1
+icon_index: 196
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
 image_length: 15870
 layout: app
