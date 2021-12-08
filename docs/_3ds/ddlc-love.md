@@ -10,8 +10,6 @@ description: An unofficial Doki Doki Literature Club port to Lua for the PS Vita
 download_page: https://github.com/LukeZGD/DDLC-LOVE/releases
 downloads:
   DDLC-LOVE-3DS.3dsx:
-    size: 82645068
-    size_str: 78 MiB
     url: https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-LOVE-3DS.3dsx
   DDLC-LOVE-3DS.cia:
     size: 83207104
