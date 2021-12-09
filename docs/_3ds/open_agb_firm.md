@@ -10,10 +10,10 @@ description: open_agb_firm is a bare metal app for running GBA homebrew/games us
   the 3DS builtin GBA hardware.
 download_page: https://github.com/profi200/open_agb_firm/releases
 downloads:
-  open_agb_firm_alpha_20211121.7z:
-    size: 174552
+  open_agb_firm_alpha_20211209.7z:
+    size: 174539
     size_str: 170 KiB
-    url: https://github.com/profi200/open_agb_firm/releases/download/alpha_2021-11-21/open_agb_firm_alpha_20211121.7z
+    url: https://github.com/profi200/open_agb_firm/releases/download/alpha_2021-12-9/open_agb_firm_alpha_20211209.7z
 github: profi200/open_agb_firm
 icon_index: 143
 image: https://avatars.githubusercontent.com/u/7831477?v=4
@@ -29,24 +29,8 @@ update_notes: '<p dir="auto">This is a build from the master branch for the impa
 
   <ul dir="auto">
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="823850008"
-  data-permission-text="Title is private" data-url="https://github.com/profi200/open_agb_firm/issues/35"
-  data-hovercard-type="pull_request" data-hovercard-url="/profi200/open_agb_firm/pull/35/hovercard"
-  href="https://github.com/profi200/open_agb_firm/pull/35">#35</a>  A complete save
-  type database has been added by <a class="user-mention" data-hovercard-type="user"
-  data-hovercard-url="/users/HTV04/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/HTV04">@HTV04</a>.
-  A number of other config.ini changes have been made allowing you to set brightness
-  higher than previously for example (at your own risk). See the pull request description
-  for details.</li>
-
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="881607615"
-  data-permission-text="Title is private" data-url="https://github.com/profi200/open_agb_firm/issues/40"
-  data-hovercard-type="pull_request" data-hovercard-url="/profi200/open_agb_firm/pull/40/hovercard"
-  href="https://github.com/profi200/open_agb_firm/pull/40">#40</a> Support for Everdrive
-  GBA-style homebrew save type overrides was added by <a class="user-mention" data-hovercard-type="user"
-  data-hovercard-url="/users/exelotl/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/exelotl">@exelotl</a>.</li>
+  <li>A bug got fixed that made games with no save type unplayable (white screen/other
+  buggy behavior).</li>
 
   </ul>
 
@@ -67,8 +51,8 @@ update_notes: '<p dir="auto">This is a build from the master branch for the impa
   This works most of the time. This is due to a hard to track down bug and will be
   fixed later.</p>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/profi200/open_agb_firm/compare/alpha_2020-09-08...alpha_2021-11-21"><tt>alpha_2020-09-08...alpha_2021-11-21</tt></a></p>'
-updated: '2021-11-21T21:24:04Z'
-version: alpha_2021-11-21
-version_title: open_agb_firm alpha build 2021-11-21
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/profi200/open_agb_firm/compare/alpha_2021-11-21...alpha_2021-12-9"><tt>alpha_2021-11-21...alpha_2021-12-9</tt></a></p>'
+updated: '2021-12-09T16:31:36Z'
+version: alpha_2021-12-9
+version_title: open_agb_firm alpha build 2021-12-9
 ---
