@@ -14,7 +14,7 @@ downloads:
     size_str: 470 KiB
     url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.0/ColecoDS.nds
   README.md:
-    size: 6732
+    size: 6795
     size_str: 6 KiB
     url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.0/README.md
 github: wavemotion-dave/ColecoDS
