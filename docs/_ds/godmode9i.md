@@ -9,7 +9,11 @@ created: '2018-10-02T16:59:38Z'
 description: 'GodMode9i Explorer - A full access file browser for the Nintendo DS
   and DSi consoles :godmode:'
 download_page: https://github.com/DS-Homebrew/GodMode9i/releases
-downloads: {}
+downloads:
+  GodMode9i.7z:
+    size: 252456
+    size_str: 246 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.0.0/GodMode9i.7z
 github: DS-Homebrew/GodMode9i
 icon: https://db.universal-team.net/assets/images/icons/godmode9i.png
 icon_index: 11
@@ -52,8 +56,9 @@ update_notes: '<p dir="auto">All changes by <a class="user-mention" data-hoverca
 
   <ul dir="auto">
 
-  <li>If installed as CIA, you need to put either <code>GodMode9i.nds</code> or <code>GodMode9i.dsi</code>
-  on the SD root, for them to work properly.</li>
+  <li>If installed as CIA or to directly boot via Unlaunch, you need to put either
+  <code>GodMode9i.nds</code> or <code>GodMode9i.dsi</code> on the SD root, for them
+  to work properly.</li>
 
   </ul>
 
