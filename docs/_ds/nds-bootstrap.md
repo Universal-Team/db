@@ -42,7 +42,7 @@ update_notes: "<p dir=\"auto\">Included in <a href=\"https://github.com/DS-Homeb
   </ol>\n<p dir=\"auto\"><strong>What's new?</strong></p>\n<ul dir=\"auto\">\n<li><strong>B4DS\
   \ mode:</strong> Support for more titles have been added, making them playable on\
   \ DS/DS lite consoles!<br>\n(For a complete list of supported titles, see this list\
-  \ <a href=\"https://github.com/DS-Homebrew/TWiLightMenu/blob/c174faedd633b40b3e3ffa0368c2c8964e9ef16f/universal/include/incompatibleGameMap.h#L49\"\
+  \ <a href=\"https://github.com/DS-Homebrew/TWiLightMenu/blob/3c3663d499b22effe92a5c3304836a8a9def549e/universal/include/incompatibleGameMap.h#L49\"\
   >here</a>.)\n<ul dir=\"auto\">\n<li>99Bullets</li>\n<li>99Moves</li>\n<li>ARC Style:\
   \ Soccer! (Korea)</li>\n<li>Kung Fu Dragon</li>\n<li>Mr. Brain (Japan)</li>\n<li>Rabi\
   \ Laby</li>\n<li>Rabi Laby 2</li>\n<li>(For Debug DS consoles:)\n<ul dir=\"auto\"\
