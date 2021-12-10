@@ -9,11 +9,7 @@ created: '2018-10-02T16:59:38Z'
 description: 'GodMode9i Explorer - A full access file browser for the Nintendo DS
   and DSi consoles :godmode:'
 download_page: https://github.com/DS-Homebrew/GodMode9i/releases
-downloads:
-  GodMode9i.7z:
-    size: 180061
-    size_str: 175 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v2.7.1/GodMode9i.7z
+downloads: {}
 github: DS-Homebrew/GodMode9i
 icon: https://db.universal-team.net/assets/images/icons/godmode9i.png
 icon_index: 11
@@ -31,30 +27,66 @@ source: https://github.com/DS-Homebrew/GodMode9i
 systems:
 - DS
 title: GodMode9i
-update_notes: '<p dir="auto"><strong>What''s new?</strong></p>
+update_notes: '<p dir="auto">All changes by <a class="user-mention" data-hovercard-type="user"
+  data-hovercard-url="/users/Epicpkmn11/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
+  unless when noted.<br>
+
+  There are too many changes to list, so the notable changes will be shown.</p>
+
+  <p dir="auto"><strong>What''s new?</strong></p>
 
   <ul dir="auto">
+
+  <li>DS(i) ROMs stored on NAND chips (ex. <em>Face Training</em>, <em>Jam with the
+  Band</em>, and <em>WarioWare: DIY</em>) can now be dumped!</li>
+
+  <li>EEPROM and FLASH save types are now supported when dumping GBA ROM and save
+  files.</li>
+
+  <li>A new font is now in use!</li>
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  You can now view the info of NDS ROMs!
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
+  and various) Translations have been added!
 
   <ul dir="auto">
 
-  <li>Useful for finding out which DSiWare title you''re trying to dump!</li>
+  <li>If installed as CIA, you need to put either <code>GodMode9i.nds</code> or <code>GodMode9i.dsi</code>
+  on the SD root, for them to work properly.</li>
 
   </ul>
 
   </li>
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  You can now trim your existing NDS ROMs!</li>
+  <li>Pressing START will now bring up a START menu.</li>
+
+  <li>Progress bar is now shown when dumping ROMs and copying/moving files.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Improvements</strong></p>
+
+  <ul dir="auto">
+
+  <li>Directory loading is now faster.</li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/RocketRobz/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/RocketRobz">@RocketRobz</a>)
+  NAND is no longer read when detecting a DSi or 3DS console.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Bug fix</strong></p>
+
+  <ul dir="auto">
+
+  <li>Taking screenshots should now work everywhere.</li>
 
   </ul>'
-updated: '2021-08-01T04:55:01Z'
-version: v2.7.1
-version_title: v2.7.1
+updated: '2021-12-10T00:31:17Z'
+version: v3.0.0
+version_title: v3.0.0
 wiki: https://wiki.ds-homebrew.com/other/godmode9i
 ---
 ### Installation:

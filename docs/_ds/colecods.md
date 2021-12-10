@@ -10,13 +10,13 @@ description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. 
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 480768
-    size_str: 469 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/3.9/ColecoDS.nds
+    size: 481280
+    size_str: 470 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.0/ColecoDS.nds
   README.md:
-    size: 6551
+    size: 6732
     size_str: 6 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/3.9/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.0/README.md
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 196
@@ -27,24 +27,22 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V3.9: 06-Dec-2021 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V4.0: 09-Dec-2021 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Fix for Pitfall II Arcade Homebrew</li>
+  <li>Fix GhostBlaster homebrew.</li>
 
-  <li>Improved memory management</li>
+  <li>Fix for graphical issues in Meteoric Shower</li>
 
-  <li>Shorter keyclick for more responsive keypad touches</li>
+  <li>Improved DrZ80 core from various web sources</li>
 
-  <li>Improved UI key handling</li>
+  <li>Improved VDP handling to more closely mimic real TMS9918a</li>
 
-  <li>Other cleanups and improvements under the hood</li>
-
-  <li>Saved states changed again ... sorry!</li>
+  <li>Many small touch-ups and improvements under the hood</li>
 
   </ul>'
-updated: '2021-12-06T13:07:22Z'
-version: '3.9'
-version_title: Version 3.9
+updated: '2021-12-09T19:57:10Z'
+version: '4.0'
+version_title: Version 4.0
 ---
