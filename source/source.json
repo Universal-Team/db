@@ -341,6 +341,13 @@
 				{
 					"type": "extractFile",
 					"file": "/GodMode9i.7z",
+					"input": "GodMode9i.nds",
+					"output": "/GodMode9i.nds",
+					"message": "Extracting GodMode9i.nds..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/GodMode9i.7z",
 					"input": "GodMode9i.cia",
 					"output": "/GodMode9i.cia",
 					"message": "Extracting GodMode9i.cia..."
@@ -393,6 +400,13 @@
 					"file": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z",
 					"output": "/GodMode9i.7z",
 					"message": "Downloading GodMode9i.7z..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/GodMode9i.7z",
+					"input": "GodMode9i/GodMode9i.nds",
+					"output": "/GodMode9i.nds",
+					"message": "Extracting GodMode9i.nds..."
 				},
 				{
 					"type": "extractFile",
