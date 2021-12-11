@@ -55,23 +55,23 @@ update_notes: "<p dir=\"auto\">Check here on how to update <strong>TW</strong>i<
   \ rel=\"nofollow\">3DS</a></li>\n</ul>\n<p dir=\"auto\">Includes <a href=\"https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.52.0\"\
   >nds-bootstrap v0.52.0</a></p>\n<p dir=\"auto\"><strong>What's new?</strong></p>\n\
   <ul dir=\"auto\">\n<li><strong>DSi-based themes:</strong> The battery charge icon\
-  \ is now shown on DS lite consoles.</li>\n</ul>\n<p dir=\"auto\"><strong>Improvements</strong></p>\n\
-  <ul dir=\"auto\">\n<li>(<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
-  /users/R-YaTian/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
-  link_type:self\" href=\"https://github.com/R-YaTian\">@R-YaTian</a>) Updated AP-fix\
-  \ and widescreen codes for Chinese translation (Rev 4) of <em>Pok\xE9mon B2W2</em>.</li>\n\
-  <li>(<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
-  /users/Epicpkmn11/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
-  link_type:self\" href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a> and various)\
-  \ Updated translations.</li>\n</ul>\n<p dir=\"auto\"><strong>Bug fixes</strong></p>\n\
-  <ul dir=\"auto\">\n<li>Fixed settings not being read when launching Slot-1.\n<ul\
-  \ dir=\"auto\">\n<li>This fixes TWLMenu++ being limited to DS mode options when\
-  \ launching from flashcard with the SCFG unlock setting.</li>\n</ul>\n</li>\n<li>The\
-  \ hotkey option is now shown on flashcards in DS mode.</li>\n<li>(<a class=\"user-mention\"\
-  \ data-hovercard-type=\"user\" data-hovercard-url=\"/users/Epicpkmn11/hovercard\"\
+  \ is now shown on DS lite consoles, when charging.</li>\n</ul>\n<p dir=\"auto\"\
+  ><strong>Improvements</strong></p>\n<ul dir=\"auto\">\n<li>(<a class=\"user-mention\"\
+  \ data-hovercard-type=\"user\" data-hovercard-url=\"/users/R-YaTian/hovercard\"\
   \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
-  \ href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a>) Fixed blacklists hiding\
-  \ options until reboot.</li>\n</ul>"
+  \ href=\"https://github.com/R-YaTian\">@R-YaTian</a>) Updated AP-fix and widescreen\
+  \ codes for Chinese translation (Rev 4) of <em>Pok\xE9mon B2W2</em>.</li>\n<li>(<a\
+  \ class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Epicpkmn11/hovercard\"\
+  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
+  \ href=\"https://github.com/Epicpkmn11\">@Epicpkmn11</a> and various) Updated translations.</li>\n\
+  </ul>\n<p dir=\"auto\"><strong>Bug fixes</strong></p>\n<ul dir=\"auto\">\n<li>Fixed\
+  \ settings not being read when launching Slot-1.\n<ul dir=\"auto\">\n<li>This fixes\
+  \ TWLMenu++ being limited to DS mode options when launching from flashcard with\
+  \ the SCFG unlock setting.</li>\n</ul>\n</li>\n<li>The hotkey option is now shown\
+  \ on flashcards in DS mode.</li>\n<li>(<a class=\"user-mention\" data-hovercard-type=\"\
+  user\" data-hovercard-url=\"/users/Epicpkmn11/hovercard\" data-octo-click=\"hovercard-link-click\"\
+  \ data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Epicpkmn11\"\
+  >@Epicpkmn11</a>) Fixed blacklists hiding options until reboot.</li>\n</ul>"
 updated: '2021-12-09T23:48:04Z'
 version: v23.2.0
 version_title: v23.2.0
