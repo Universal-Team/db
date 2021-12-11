@@ -9,13 +9,13 @@ description: You can play .mp4 file on your 3DS!
 download_page: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases
 downloads:
   Video_player_for_3DS.3dsx:
-    size: 6905872
+    size: 6941476
     size_str: 6 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.4.0/Video_player_for_3DS.3dsx
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.4.1/Video_player_for_3DS.3dsx
   Video_player_for_3DS.cia:
-    size: 4748224
+    size: 4756416
     size_str: 4 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.4.0/Video_player_for_3DS.cia
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.4.1/Video_player_for_3DS.cia
 github: Core-2-Extreme/Video_player_for_3DS
 icon: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/icon.png
 icon_index: 177
@@ -31,13 +31,20 @@ source: https://github.com/Core-2-Extreme/Video_player_for_3DS
 systems:
 - 3DS
 title: Video player for 3DS
-update_notes: "<ul dir=\"auto\">\n<li>Decoded image(raw) buffer has been added and\
-  \ it makes playback <br>\n<strong>much much much much</strong> better (especially\
-  \ on OLD3DS)</li>\n<li>Spanish(espa\xF1ol) translation has been added (by Cookiee)</li>\n\
-  <li>Romanian(Rom\xE2n\u0103) translation has been added (by Tescu48)</li>\n</ul>"
-updated: '2021-10-25T12:21:35Z'
-version: v1.4.0
-version_title: Video player for 3DS v1.4.0
+update_notes: '<ul dir="auto">
+
+  <li>The "FSUSER_OpenFile() failed" error has been fixed</li>
+
+  <li>Adjusted font and button size in settings menu</li>
+
+  <li>Multi-threaded decoding is disabled by default because it has stability problem</li>
+
+  <li>Polish(Polski) translation has been added (by JustScratchCoder)</li>
+
+  </ul>'
+updated: '2021-12-11T14:02:17Z'
+version: v1.4.1
+version_title: Video player for 3DS v1.4.1
 ---
 You can play .mp4 file on your 3DS!
 
