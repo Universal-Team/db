@@ -12,11 +12,11 @@ downloads:
   ColecoDS.nds:
     size: 481280
     size_str: 470 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.0/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.1/ColecoDS.nds
   README.md:
-    size: 6795
+    size: 6971
     size_str: 6 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.0/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.1/README.md
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 196
@@ -27,22 +27,18 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V4.0: 09-Dec-2021 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V4.1: 11-Dec-2021 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Fix GhostBlaster homebrew.</li>
+  <li>VDP Timing fixes - Fathom now runs.</li>
 
-  <li>Fix for graphical issues in Meteoric Shower</li>
+  <li>Fixed loading of coleco.rom bios if in same directory as emulator.</li>
 
-  <li>Improved DrZ80 core from various web sources</li>
-
-  <li>Improved VDP handling to more closely mimic real TMS9918a</li>
-
-  <li>Many small touch-ups and improvements under the hood</li>
+  <li>Minor Z80 cleanups for more accurate timing.</li>
 
   </ul>'
-updated: '2021-12-09T19:57:10Z'
-version: '4.0'
-version_title: Version 4.0
+updated: '2021-12-11T21:27:15Z'
+version: '4.1'
+version_title: Version 4.1
 ---
