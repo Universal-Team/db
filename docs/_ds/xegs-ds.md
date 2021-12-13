@@ -11,13 +11,13 @@ description: XEGS-DS An Atari 8-bit Computer Emulator (specially targeted for th
 download_page: https://github.com/wavemotion-dave/XEGS-DS/releases
 downloads:
   XEGS-DS.nds:
-    size: 593920
-    size_str: 580 KiB
-    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.8/XEGS-DS.nds
+    size: 572928
+    size_str: 559 KiB
+    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.9/XEGS-DS.nds
   readme.txt:
-    size: 15021
+    size: 15133
     size_str: 14 KiB
-    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.8/readme.txt
+    url: https://github.com/wavemotion-dave/XEGS-DS/releases/download/2.9/readme.txt
 github: wavemotion-dave/XEGS-DS
 icon: https://db.universal-team.net/assets/images/icons/xegs-ds.png
 icon_index: 160
@@ -28,16 +28,10 @@ source: https://github.com/wavemotion-dave/XEGS-DS
 systems:
 - DS
 title: XEGS-DS
-update_notes: '<p dir="auto">V2.8 : 30-Nov-2021 by wavemotion-dave</p>
-
-  <ul dir="auto">
-
-  <li>Switched to maxmod audio library for improved sound.</li>
-
-  <li>Try to start in /roms or /roms/a800 if possible</li>
-
-  </ul>'
-updated: '2021-11-30T14:10:27Z'
-version: '2.8'
-version_title: Version 2.8
+update_notes: <p dir="auto">Version 2.9 - Reverted to Arm7 SoundLib core after discovering
+  some missing sounds on games that need fast in-scanline sampling (voices in Berzerk,
+  Bosconian and some other melodic sounds that suffered with the new handler).</p>
+updated: '2021-12-12T23:04:53Z'
+version: '2.9'
+version_title: Version 2.9
 ---
