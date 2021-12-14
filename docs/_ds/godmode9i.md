@@ -92,6 +92,7 @@ update_notes: '<p dir="auto">All changes by <a class="user-mention" data-hoverca
 updated: '2021-12-10T00:31:17Z'
 version: v3.0.0
 version_title: v3.0.0
+website: https://wiki.ds-homebrew.com/godmode9i/
 wiki: https://wiki.ds-homebrew.com/other/godmode9i
 ---
 ### Installation:
