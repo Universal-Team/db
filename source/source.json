@@ -6837,5 +6837,13 @@
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/master/logo.bmp",
 		"image": "https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png"
+	},
+	{
+		"github": "rayasticot/kirikou",
+		"description": "Explore the city of Bohicon and talk to the villagers ! /!\\ A bit of gore (low-resolution) /!\\",
+		"long_description": "Explore the city of Bohicon and talk to the villagers !\n/!\\ A bit of gore (low-resolution) /!\\",
+		"systems": ["DS"],
+		"categories": ["game"],
+		"icon": "https://raw.githubusercontent.com/rayasticot/kirikou/main/icon.bmp"
 	}
 ]
