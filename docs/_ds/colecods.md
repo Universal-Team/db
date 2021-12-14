@@ -10,13 +10,13 @@ description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. 
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 481280
-    size_str: 470 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.1/ColecoDS.nds
+    size: 605184
+    size_str: 591 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.2/ColecoDS.nds
   README.md:
-    size: 6971
-    size_str: 6 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.1/README.md
+    size: 7193
+    size_str: 7 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.2/README.md
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 196
@@ -27,18 +27,18 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V4.1: 11-Dec-2021 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V4.2: 14-Dec-2021</p>
 
   <ul dir="auto">
 
-  <li>VDP Timing fixes - Fathom now runs.</li>
+  <li>Allow mapping of Super Action Controller buttons.</li>
 
-  <li>Fixed loading of coleco.rom bios if in same directory as emulator.</li>
+  <li>Overlay support - three games supported (for now) + Generic.</li>
 
-  <li>Minor Z80 cleanups for more accurate timing.</li>
+  <li>Minor cleanups to VDP and better commenting.</li>
 
   </ul>'
-updated: '2021-12-11T21:27:15Z'
-version: '4.1'
-version_title: Version 4.1
+updated: '2021-12-14T16:03:47Z'
+version: '4.2'
+version_title: Version 4.2
 ---
