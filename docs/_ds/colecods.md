@@ -12,11 +12,11 @@ downloads:
   ColecoDS.nds:
     size: 605184
     size_str: 591 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.2/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.2a/ColecoDS.nds
   README.md:
-    size: 7193
+    size: 7244
     size_str: 7 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.2/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.2a/README.md
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 196
@@ -27,18 +27,20 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V4.2: 14-Dec-2021</p>
+update_notes: '<p dir="auto">V4.2a: 14-Dec-2021</p>
 
   <ul dir="auto">
 
   <li>Allow mapping of Super Action Controller buttons.</li>
 
-  <li>Overlay support - three games supported (for now) + Generic.</li>
+  <li>Overlay support - five games supported (for now) + Generic.</li>
+
+  <li>Main keypad graphic overhauled to look closer to real CV controller.</li>
 
   <li>Minor cleanups to VDP and better commenting.</li>
 
   </ul>'
-updated: '2021-12-14T16:03:47Z'
-version: '4.2'
-version_title: Version 4.2
+updated: '2021-12-15T00:19:14Z'
+version: 4.2a
+version_title: Version 4.2a
 ---
