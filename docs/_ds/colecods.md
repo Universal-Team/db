@@ -10,13 +10,13 @@ description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. 
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 651264
-    size_str: 636 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.2a/ColecoDS.nds
+    size: 677376
+    size_str: 661 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.3/ColecoDS.nds
   README.md:
-    size: 7244
+    size: 7401
     size_str: 7 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.2a/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.3/README.md
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 196
@@ -27,20 +27,16 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V4.2a: 14-Dec-2021</p>
+update_notes: '<p dir="auto">V4.3: 16-Dec-2021 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Allow mapping of Super Action Controller buttons.</li>
+  <li>More overlays added.</li>
 
-  <li>Overlay support - five games supported (for now) + Generic.</li>
-
-  <li>Main keypad graphic overhauled to look closer to real CV controller.</li>
-
-  <li>Minor cleanups to VDP and better commenting.</li>
+  <li>Adjust CPU timing slightly to fix Spy Hunter (cars now spawn) and Frantic.</li>
 
   </ul>'
-updated: '2021-12-15T00:19:14Z'
-version: 4.2a
-version_title: Version 4.2a
+updated: '2021-12-16T14:45:55Z'
+version: '4.3'
+version_title: Version 4.3
 ---
