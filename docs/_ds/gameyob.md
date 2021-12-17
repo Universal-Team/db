@@ -18,6 +18,8 @@ icon_index: 27
 image: https://db.universal-team.net/assets/images/images/gameyob.png
 image_length: 474
 layout: app
+license: mit
+license_name: MIT License
 source: https://github.com/Drenn1/GameYob
 systems:
 - DS
