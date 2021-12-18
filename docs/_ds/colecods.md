@@ -10,13 +10,13 @@ description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. 
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 677376
-    size_str: 661 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.3/ColecoDS.nds
+    size: 677888
+    size_str: 662 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.4/ColecoDS.nds
   README.md:
-    size: 7401
+    size: 7714
     size_str: 7 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.3/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.4/README.md
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 196
@@ -27,16 +27,20 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V4.3: 16-Dec-2021 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V4.4: 18-Dec-2021 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>More overlays added.</li>
+  <li>Added option for "Max Sprites" to set to original HW limit of 4 vs 32.</li>
 
-  <li>Adjust CPU timing slightly to fix Spy Hunter (cars now spawn) and Frantic.</li>
+  <li>New Vertical Sync option (default ON for DSi and above) to reduce tearing.</li>
+
+  <li>Fixed Save/Load state so it doesn''t break on every new release.</li>
+
+  <li>Slight adjustment to Z80 CPU timing for better accuracy.</li>
 
   </ul>'
-updated: '2021-12-16T14:45:55Z'
-version: '4.3'
-version_title: Version 4.3
+updated: '2021-12-18T13:02:04Z'
+version: '4.4'
+version_title: Version 4.4
 ---
