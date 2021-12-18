@@ -6819,6 +6819,16 @@
 		}
 	},
 	{
+		"github": "FluBBaOfWard/NitroSwan",
+		"systems": ["DS"],
+		"categories": ["emulator"],
+		"icon": "https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/WSLogo.bmp",
+		"image": "https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/logo.png",
+		"archive": {
+			"NitroSwan.zip": ["NitroSwan.nds"]
+		}
+	},
+	{
 		"github": "tilderain/IkachanDS",
 		"systems": ["DS"],
 		"categories": ["game"],
@@ -6841,7 +6851,7 @@
 	{
 		"github": "rayasticot/kirikou",
 		"description": "Explore the city of Bohicon and talk to the villagers ! /!\\ A bit of gore (low-resolution) /!\\",
-		"long_description": "Explore the city of Bohicon and talk to the villagers !\n/!\\ A bit of gore (low-resolution) /!\\",
+		"long_description": "Explore the city of Bohicon and talk to the villagers !\n\n/!\\ A bit of gore (low-resolution) /!\\",
 		"systems": ["DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/rayasticot/kirikou/main/icon.bmp"
