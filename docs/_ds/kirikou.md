@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/rayasticot/kirikou/releases/download/1.0.0/kirikou.nds
 github: rayasticot/kirikou
 icon: https://db.universal-team.net/assets/images/icons/kirikou.png
-icon_index: 197
+icon_index: 198
 image: https://db.universal-team.net/assets/images/icons/kirikou.png
 image_length: 632
 layout: app
@@ -29,4 +29,5 @@ version: 1.0.0
 version_title: Kirikou 1.0.0
 ---
 Explore the city of Bohicon and talk to the villagers !
+
 /!\ A bit of gore (low-resolution) /!\
