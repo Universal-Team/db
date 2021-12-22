@@ -10,13 +10,13 @@ description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. 
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 683008
-    size_str: 667 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.5/ColecoDS.nds
+    size: 788480
+    size_str: 770 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.6/ColecoDS.nds
   README.md:
-    size: 9043
+    size: 8685
     size_str: 8 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.5/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.6/README.md
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 197
@@ -27,23 +27,14 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V4.5: 21-Dec-2021 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V4.6: 22-Dec-2021 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Full support for Spinner/Trackball. Map SpinX, SpinY in key settings.</li>
-
-  <li>Five different sensitivities for the Spinner/Trackball in Game Options.</li>
-
-  <li>Added ability to Quit Emulator (will return to TWL++ or power off depending
-  on launcher).</li>
-
-  <li>Unified handling of UI in Redefine Keys and Game Options so they work the same.</li>
-
-  <li>Many small fixes and tweaks under the hood - Sudoku fixed.</li>
+  <li>New CZ80 core added to solve compatibility problems with the remaining games.</li>
 
   </ul>'
-updated: '2021-12-21T14:12:22Z'
-version: '4.5'
-version_title: Version 4.5
+updated: '2021-12-22T17:12:55Z'
+version: '4.6'
+version_title: Version 4.6
 ---
