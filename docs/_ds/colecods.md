@@ -10,13 +10,13 @@ description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. 
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 788480
-    size_str: 770 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.6a/ColecoDS.nds
+    size: 780800
+    size_str: 762 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.7/ColecoDS.nds
   README.md:
-    size: 8685
-    size_str: 8 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.6a/README.md
+    size: 9433
+    size_str: 9 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.7/README.md
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 197
@@ -27,14 +27,16 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V4.6: 22-Dec-2021 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V4.7: 23-Dec-2021 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>New CZ80 core added to solve compatibility problems with the remaining games.</li>
+  <li>Major speed improvements in the new CZ80 core.</li>
+
+  <li>Installed new CZ80 core as the default for DSi and above.</li>
 
   </ul>'
-updated: '2021-12-22T22:59:31Z'
-version: 4.6a
-version_title: Version 4.6a
+updated: '2021-12-23T12:57:02Z'
+version: '4.7'
+version_title: Version 4.7
 ---
