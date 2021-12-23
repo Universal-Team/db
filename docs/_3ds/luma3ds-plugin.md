@@ -5,7 +5,7 @@ categories:
 - utility
 - firm
 - luma3ds
-color: '#7d6b55'
+color: '#846f5b'
 created: '2020-05-06T19:38:46Z'
 description: Compiled Luma and plugin
 download_page: https://github.com/mikewii/Luma3DS-plugin/releases
@@ -21,7 +21,7 @@ downloads:
 github: mikewii/Luma3DS-plugin
 icon_index: 149
 image: https://avatars.githubusercontent.com/u/29737660?v=4
-image_length: 18565
+image_length: 20615
 layout: app
 source: https://github.com/mikewii/Luma3DS-plugin
 systems:

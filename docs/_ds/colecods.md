@@ -12,11 +12,11 @@ downloads:
   ColecoDS.nds:
     size: 788480
     size_str: 770 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.6/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.6a/ColecoDS.nds
   README.md:
     size: 8685
     size_str: 8 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.6/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.6a/README.md
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 197
@@ -34,7 +34,7 @@ update_notes: '<p dir="auto">V4.6: 22-Dec-2021 by wavemotion-dave</p>
   <li>New CZ80 core added to solve compatibility problems with the remaining games.</li>
 
   </ul>'
-updated: '2021-12-22T17:12:55Z'
-version: '4.6'
-version_title: Version 4.6
+updated: '2021-12-22T22:59:31Z'
+version: 4.6a
+version_title: Version 4.6a
 ---
