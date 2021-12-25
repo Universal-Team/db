@@ -9,13 +9,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 399105
-    size_str: 389 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.52.0/nds-bootstrap.7z
+    size: 399976
+    size_str: 390 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.53.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 963607
-    size_str: 941 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.52.0/nds-bootstrap.zip
+    size: 966862
+    size_str: 944 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.53.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 icon_index: 140
@@ -34,31 +34,78 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: "<p dir=\"auto\">Included in <a href=\"https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v23.2.0\"\
-  ><strong>TW</strong>i<strong>L</strong>ight Menu++ v23.2.0</a></p>\n<p dir=\"auto\"\
-  >Instructions:</p>\n<ol dir=\"auto\">\n<li>Download the <code>.7z</code> file.</li>\n\
-  <li>Extract the nds-bootstrap <code>.nds</code> files, to <code>root:/_nds</code>.</li>\n\
-  <li><strong>TWLMenu++ users:</strong> Extract the <code>.ver</code> file to <code>root:/_nds/TWiLightMenu</code>.</li>\n\
-  </ol>\n<p dir=\"auto\"><strong>What's new?</strong></p>\n<ul dir=\"auto\">\n<li><strong>B4DS\
-  \ mode:</strong> Support for more titles have been added, making them playable on\
-  \ DS/DS lite consoles!<br>\n(For a complete list of supported titles, see this list\
-  \ <a href=\"https://github.com/DS-Homebrew/TWiLightMenu/blob/3c3663d499b22effe92a5c3304836a8a9def549e/universal/include/incompatibleGameMap.h#L49\"\
-  >here</a>.)\n<ul dir=\"auto\">\n<li>99Bullets</li>\n<li>99Moves</li>\n<li>ARC Style:\
-  \ Soccer! (Korea)</li>\n<li>Kung Fu Dragon</li>\n<li>Mr. Brain (Japan)</li>\n<li>Rabi\
-  \ Laby</li>\n<li>Rabi Laby 2</li>\n<li>(For Debug DS consoles:)\n<ul dir=\"auto\"\
-  >\n<li>99Seconds</li>\n<li>Mixed Messages</li>\n<li>Phantasy Star 0 Mini</li>\n\
-  <li>Space Invaders Extreme Z</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<p dir=\"\
-  auto\"><strong>Bug fixes</strong></p>\n<ul dir=\"auto\">\n<li>The applied AP-fix\
-  \ will now persist when soft-resetting.\n<ul dir=\"auto\">\n<li><em>Pok\xE9mon HeartGold\
-  \ &amp; SoulSilver Versions</em> will now use the fast soft-reset method again.</li>\n\
-  </ul>\n</li>\n<li>Fixed sound in <em>Rainbow Islands Revolution</em> when using\
-  \ DSiWarehax or DSi mode.</li>\n<li><strong>B4DS mode:</strong> Cloneboot now works\
-  \ in <em>Art Style: BASE 10</em>.</li>\n</ul>\n<p dir=\"auto\"><strong>Known bug</strong></p>\n\
-  <ul dir=\"auto\">\n<li>Sleep mode will not work in the 99Trilogy, due to their code\
-  \ (possibly) taking place in the overlays.</li>\n</ul>"
-updated: '2021-12-09T23:32:45Z'
-version: v0.52.0
-version_title: v0.52.0
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v23.3.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v23.3.0</a></p>
+
+  <p dir="auto">Instructions:</p>
+
+  <ol dir="auto">
+
+  <li>Download the <code>.7z</code> file.</li>
+
+  <li>Extract the nds-bootstrap <code>.nds</code> files, to <code>root:/_nds</code>.</li>
+
+  <li><strong>TWLMenu++ users:</strong> Extract the <code>.ver</code> file to <code>root:/_nds/TWiLightMenu</code>.</li>
+
+  </ol>
+
+  <p dir="auto"><strong>What''s new?</strong></p>
+
+  <ul dir="auto">
+
+  <li><strong>B4DS mode:</strong> Support for more titles have been added, making
+  them playable on DS/DS lite consoles!<br>
+
+  (For a complete list of supported titles, see this list <a href="https://github.com/DS-Homebrew/TWiLightMenu/blob/3c3663d499b22effe92a5c3304836a8a9def549e/universal/include/incompatibleGameMap.h#L49">here</a>.)
+
+  <ul dir="auto">
+
+  <li>Flipper (music disabled)</li>
+
+  <li>Art Style: PiCTOBiTS</li>
+
+  <li>(For Debug DS consoles:)
+
+  <ul dir="auto">
+
+  <li>Cake Ninja</li>
+
+  <li>Flipper 2: Flush the Goldfish</li>
+
+  <li>Shantae: Risky''s Revenge (music disabled)</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  </li>
+
+  <li><strong>In-game menu:</strong> The <code>Reset Game</code> option no longer
+  reboots the console.</li>
+
+  <li>An ESRB rating screen will now be shown, if <code>esrb.bin</code> is found in
+  <code>sd:/_nds/nds-bootstrap/</code>.</li>
+
+  <li>B4DS mode can now be enabled on flashcards with unlocked SCFG! Only use this
+  for testing purposes. (.ini setting: <code>B4DS_MODE</code>)
+
+  <ul dir="auto">
+
+  <li>Setting to <code>1</code> will set the RAM to 4MB.</li>
+
+  <li>Setting to <code>2</code> will set the RAM to the console''s maximum amount.
+  Some game will not work with this setting.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>'
+updated: '2021-12-25T22:23:48Z'
+version: v0.53.0
+version_title: TWL Christmas Release (2021)
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
