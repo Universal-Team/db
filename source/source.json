@@ -5465,15 +5465,15 @@
 		"bitbucket": {
 			"repo": "DeadSkullzJr/nds-cheat-databases",
 			"files": [
-				"Cheats/cheat.dat",
-				"Cheats/cheat.db",
-				"Cheats/cheat_EN.db",
-				"Cheats/cheats.dat",
-				"Cheats/cheats.xml",
-				"Cheats/ezarcode.dat",
-				"Cheats/user.evoCheats",
-				"Cheats/usrcheat.dat",
-				"Cheats/~SCC Cheats~.7z"
+				"Cheat Databases/cheat.dat",
+				"Cheat Databases/cheat.db",
+				"Cheat Databases/cheat_EN.db",
+				"Cheat Databases/cheats.dat",
+				"Cheat Databases/cheats.xml",
+				"Cheat Databases/ezarcode.dat",
+				"Cheat Databases/user.evoCheats",
+				"Cheat Databases/usrcheat.dat",
+				"Cheat Databases/~SCC Cheats~.7z"
 			]
 		},
 		"systems": ["DS"],
