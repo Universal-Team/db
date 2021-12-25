@@ -6,18 +6,18 @@ categories:
 - save-tool
 color: '#e2afbc'
 created: '2019-11-13T20:37:19Z'
-description: A save manager for the Girls Mode/Girls Style/Style Savvy/Style Boutique
-  games, on Nintendo 3DS
+description: An editor/save manager for the Girls Mode/Girls Style/Style Savvy/Style
+  Boutique games, on Nintendo 3DS
 download_page: https://github.com/RocketRobz/SavvyManager/releases
 downloads:
   SavvyManager.3dsx:
-    size: 40128504
-    size_str: 38 MiB
-    url: https://github.com/RocketRobz/SavvyManager/releases/download/v3.1.0/SavvyManager.3dsx
+    size: 43086540
+    size_str: 41 MiB
+    url: https://github.com/RocketRobz/SavvyManager/releases/download/v3.2.0/SavvyManager.3dsx
   SavvyManager.cia:
-    size: 40522688
-    size_str: 38 MiB
-    url: https://github.com/RocketRobz/SavvyManager/releases/download/v3.1.0/SavvyManager.cia
+    size: 43484096
+    size_str: 41 MiB
+    url: https://github.com/RocketRobz/SavvyManager/releases/download/v3.2.0/SavvyManager.cia
 github: RocketRobz/SavvyManager
 icon: https://raw.githubusercontent.com/RocketRobz/SavvyManager/master/app/icon.png
 icon_index: 28
@@ -39,29 +39,68 @@ source: https://github.com/RocketRobz/SavvyManager
 systems:
 - 3DS
 title: SavvyManager
-update_notes: "<p dir=\"auto\"><strong>What's new?</strong></p>\n<ul dir=\"auto\"\
-  >\n<li>KOR region is now finally supported!<br>\nWith only the 1st and 2nd <em>Girls\
-  \ Style</em> games available in Korea, you can bring any character from the 3rd\
-  \ and 4th games into the 2nd game, using the character import feature!\n<ul dir=\"\
-  auto\">\n<li>Please note that KOR support has not been thoroughly tested. There\
-  \ may be some text sizing and/or positioning issues.</li>\n</ul>\n</li>\n<li>Pre-rendered\
-  \ character previews for the 4th game, are now available for all importable characters!</li>\n\
-  <li>Unique bottom backgrounds are used for each game in the game select menu.</li>\n\
-  <li>2020 <em>Rocket Robz</em> logo is now in use!\n<ul dir=\"auto\">\n<li>The logo\
-  \ is also animated!</li>\n</ul>\n</li>\n<li>800px wide mode (dubbed <em>Hori-HD</em>\
-  \ by me) is now used!<br>\nSee improved clarity in the pre-rendered character previews!\n\
-  <ul dir=\"auto\">\n<li>This feature is exclusive to Old 3DS, New 3DS, and New 2DS\
-  \ consoles.</li>\n</ul>\n</li>\n<li>Originally composed menu music has been added!</li>\n\
-  </ul>\n<p dir=\"auto\"><strong>Improvements</strong></p>\n<ul dir=\"auto\">\n<li>Fixed\
-  \ some character looks (e.g. hair, eyes, lips, makeup, outfit) outside of their\
-  \ games, such as:\n<ul dir=\"auto\">\n<li>Brienne/Zahra</li>\n<li>Clara</li>\n<li>Rosie</li>\n\
-  <li>Yolanda</li>\n<li>Alina</li>\n<li>Ang\xE9lique</li>\n</ul>\n</li>\n</ul>\n<p\
-  \ dir=\"auto\"><strong>Bug fixes</strong></p>\n<ul dir=\"auto\">\n<li>Fixed the\
-  \ characters below Brienne/Zahra missing from the importable 2nd game character\
-  \ list.</li>\n<li>Fixed <em>it's</em> to <em>its</em> in the game select menu.</li>\n\
-  </ul>\n<p dir=\"auto\"><strong>Known bug</strong></p>\n<ul dir=\"auto\">\n<li>Black\
-  \ edges are seen around the background circles on the top screen.</li>\n</ul>"
-updated: '2020-11-26T08:30:24Z'
-version: v3.1.0
-version_title: Thanksgiving (2020) release
+update_notes: '<p dir="auto"><strong>What''s new?</strong></p>
+
+  <ul dir="auto">
+
+  <li>All characters in the 3rd and 4th game''s save data are now visible in the character
+  list!</li>
+
+  <li>You can now change, add, and remove characters in GM4/SS4/NSB3''s Mewtube videos!
+
+  <ul dir="auto">
+
+  <li>As an example, Alina is the only character in <em>Twinkle Fantasia</em>, but
+  with Savvy Manager, you can now add either a partner, or backup singers to the video!</li>
+
+  </ul>
+
+  </li>
+
+  <li>You can now have anyone be your shop assistant in GM4/SS4/NSB3!</li>
+
+  <li>Any character from the GM3/SS3/NSB2 save data can now be imported into GM4/SS4/NSB3!</li>
+
+  <li>Added MC Mode (from <em>Trendsetters</em>) as importable character.</li>
+
+  <li>More male characters are now available when you expand the contact list in GM3/SS3/NSB2.</li>
+
+  <li>Emblem''s icon is now displayed in the Emblem list.</li>
+
+  <li>Added fallback to other regions, if save data for your system region isn''t
+  found.</li>
+
+  <li>New backgrounds are now in use for GM4/SS4/NSB3 editing.</li>
+
+  <li>The menu music now uses the <em>Style Savvy</em> soundfont.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Improvement</strong></p>
+
+  <ul dir="auto">
+
+  <li>Certain character looks have been improved when importing to other games.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Known bugs</strong></p>
+
+  <ul dir="auto">
+
+  <li>Characters imported into GM4/SS4/NSB3 from GM3/SS3/NSB2 save data will not contain
+  certain clothing (ex. from <em>Streetflow</em> and <em>Soy</em> brands), hair styles,
+  makeup, and other data, if used by the character. A fix is currently not implemented
+  for clothing.</li>
+
+  <li>Characters increased from the original amount in a Mewtube video will not be
+  holding microphone(s) in the original video that contains one.</li>
+
+  <li>The character previews have not been updated to reflect the improved character
+  looks.</li>
+
+  </ul>'
+updated: '2021-12-25T09:08:04Z'
+version: v3.2.0
+version_title: Savvy Christmas Release (2021)
 ---
