@@ -570,7 +570,7 @@ for app in source:
 				if "downloads" not in app:
 					app["downloads"] = {}
 				for download in app["bitbucket"]["files"]:
-					fileAPI = requests.get(f"https://api.bitbucket.org/2.0/repositories/{app['bitbucket']['repo']}/src/{(app['bitbucket']['branch'] if 'branch' in app['bitbucket'] else 'master')}/{download}?format=meta").json()
+					fileAPI = requests.get(f"https://api.bitbucket.org/2.0/repositories/{app['bitbucket']['repo']}/src/{(app['bitbucket']['branch'] if 'branch' in app['bitbucket'] else 'master')}/{download.replace(' ', '%20')}?format=meta").json()
 					if download not in app["downloads"]:
 						app["downloads"][download[download.rfind("/") + 1:]] = {
 							"url": fileAPI["links"]["self"]["href"],
