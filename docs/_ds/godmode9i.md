@@ -70,7 +70,7 @@ update_notes: '<p dir="auto"><strong>What''s new?</strong></p>
   </ul>'
 updated: '2021-12-25T08:33:20Z'
 version: v3.1.0
-version_title: Christmas Release (2021)
+version_title: TWL Christmas Release (2021)
 website: https://wiki.ds-homebrew.com/godmode9i/
 wiki: https://wiki.ds-homebrew.com/other/godmode9i
 ---

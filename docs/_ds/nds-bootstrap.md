@@ -102,7 +102,14 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </li>
 
-  </ul>'
+  </ul>
+
+  <p dir="auto"><strong>Trivia</strong><br>
+
+  <em>Flipper</em> was originally going to be released on a DS cartridge, but the
+  original publisher went bankrupt, and was released as DSiWare instead. See this
+  page <a href="https://goodbyegalaxygames.blogspot.com/2009/04/flipper-development.html?m=1"
+  rel="nofollow">here</a> for more information.</p>'
 updated: '2021-12-25T22:23:48Z'
 version: v0.53.0
 version_title: TWL Christmas Release (2021)
