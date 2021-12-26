@@ -56,7 +56,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   <li><strong>B4DS mode:</strong> Support for more DSiWare titles have been added,
   making them playable on DS/DS lite consoles!<br>
 
-  (For a complete list of supported titles, see this list <a href="https://github.com/DS-Homebrew/TWiLightMenu/blob/3c3663d499b22effe92a5c3304836a8a9def549e/universal/include/incompatibleGameMap.h#L49">here</a>.)
+  (For a complete list of supported titles, see this list <a href="https://github.com/DS-Homebrew/TWiLightMenu/blob/9127a26b6b3ca521362863680131cc40df7027d7/universal/include/incompatibleGameMap.h#L49">here</a>.)
 
   <ul dir="auto">
 
@@ -101,6 +101,16 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   </ul>
 
   </li>
+
+  </ul>
+
+  <p dir="auto"><strong>Bug found after release</strong></p>
+
+  <ul dir="auto">
+
+  <li>The <code>Reset Game</code> option will not work in some games, causing the
+  game to freeze instead. If that happens for your game, then the reboot method can
+  be used by holding L+R+START+SELECT for 2 seconds, should the game not support soft-reset.</li>
 
   </ul>
 
