@@ -53,8 +53,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li><strong>B4DS mode:</strong> Support for more titles have been added, making
-  them playable on DS/DS lite consoles!<br>
+  <li><strong>B4DS mode:</strong> Support for more DSiWare titles have been added,
+  making them playable on DS/DS lite consoles!<br>
 
   (For a complete list of supported titles, see this list <a href="https://github.com/DS-Homebrew/TWiLightMenu/blob/3c3663d499b22effe92a5c3304836a8a9def549e/universal/include/incompatibleGameMap.h#L49">here</a>.)
 
@@ -96,7 +96,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   <li>Setting to <code>1</code> will set the RAM to 4MB.</li>
 
   <li>Setting to <code>2</code> will set the RAM to the console''s maximum amount.
-  Some game will not work with this setting.</li>
+  Some games will not work with this setting.</li>
 
   </ul>
 
