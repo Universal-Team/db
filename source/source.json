@@ -5541,6 +5541,13 @@
 					"message": "Extracting open_agb_firm.firm..."
 				},
 				{
+					"type": "extractFile",
+					"file": "/open_agb_firm.7z",
+					"input": "3ds/",
+					"output": "/3ds/",
+					"message": "Extracting 3ds..."
+				},
+				{
 					"type": "deleteFile",
 					"file": "/open_agb_firm.7z",
 					"message": "Deleting open_agb_firm.7z..."
