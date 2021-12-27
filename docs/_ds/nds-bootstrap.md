@@ -9,13 +9,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 399976
-    size_str: 390 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.53.0/nds-bootstrap.7z
+    size: 401707
+    size_str: 392 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.53.1/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 966862
-    size_str: 944 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.53.0/nds-bootstrap.zip
+    size: 968647
+    size_str: 945 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.53.1/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 icon_index: 140
@@ -34,8 +34,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v23.3.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v23.3.0</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v23.3.1"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v23.3.1</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -49,80 +49,46 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <p dir="auto"><strong>What''s new?</strong></p>
+  <p dir="auto"><strong>Improvements</strong></p>
 
   <ul dir="auto">
 
-  <li><strong>B4DS mode:</strong> Support for more DSiWare titles have been added,
-  making them playable on DS/DS lite consoles!<br>
-
-  (For a complete list of supported titles, see this list <a href="https://github.com/DS-Homebrew/TWiLightMenu/blob/9127a26b6b3ca521362863680131cc40df7027d7/universal/include/incompatibleGameMap.h#L49">here</a>.)
+  <li>Retail DSi consoles now load the complete AP-fix .ips file while in DSi mode.
 
   <ul dir="auto">
 
-  <li>Flipper (music disabled)</li>
-
-  <li>Art Style: PiCTOBiTS</li>
-
-  <li>(For Debug DS consoles:)
-
-  <ul dir="auto">
-
-  <li>Cake Ninja</li>
-
-  <li>Flipper 2: Flush the Goldfish</li>
-
-  <li>Shantae: Risky''s Revenge (music disabled)</li>
+  <li>DSi mode heap has shrunken further to make room for AP-patched overlays.</li>
 
   </ul>
 
   </li>
 
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
+  and various) Updated translations.</li>
+
   </ul>
 
-  </li>
-
-  <li><strong>In-game menu:</strong> The <code>Reset Game</code> option no longer
-  reboots the console.</li>
-
-  <li>An ESRB rating screen will now be shown, if <code>esrb.bin</code> is found in
-  <code>sd:/_nds/nds-bootstrap/</code>.</li>
-
-  <li>B4DS mode can now be enabled on flashcards with unlocked SCFG! Only use this
-  for testing purposes. (.ini setting: <code>B4DS_MODE</code>)
+  <p dir="auto"><strong>Bug fix</strong></p>
 
   <ul dir="auto">
 
-  <li>Setting to <code>1</code> will set the RAM to 4MB.</li>
-
-  <li>Setting to <code>2</code> will set the RAM to the console''s maximum amount.
-  Some games will not work with this setting.</li>
+  <li>Part of RAM is now restored after taking screenshots while in DSi mode.</li>
 
   </ul>
 
-  </li>
-
-  </ul>
-
-  <p dir="auto"><strong>Bug found after release</strong></p>
+  <p dir="auto"><strong>Bug fix / Regression</strong></p>
 
   <ul dir="auto">
 
-  <li>The <code>Reset Game</code> option will not work in some games, causing the
-  game to freeze instead. If that happens for your game, then the reboot method can
-  be used by holding L+R+START+SELECT for 2 seconds, should the game not support soft-reset.</li>
+  <li>SDK5.4 &amp; 5.5 games have reverted to the slow soft-reset method (due to crashing,
+  apparently from timing issues), but can be worked around by enabling either TWL
+  clock speed or DSi mode.</li>
 
-  </ul>
-
-  <p dir="auto"><strong>Trivia</strong><br>
-
-  <em>Flipper</em> was originally going to be released on a DS cartridge, but the
-  original publisher went bankrupt, and was released as DSiWare instead. See this
-  page <a href="https://goodbyegalaxygames.blogspot.com/2009/04/flipper-development.html?m=1"
-  rel="nofollow">here</a> for more information.</p>'
-updated: '2021-12-25T22:23:48Z'
-version: v0.53.0
-version_title: TWL Christmas Release (2021)
+  </ul>'
+updated: '2021-12-27T22:49:14Z'
+version: v0.53.1
+version_title: v0.53.1 (hotfix)
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
