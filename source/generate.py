@@ -11,6 +11,7 @@ from PIL import Image, ImageDraw
 import qrcode
 import re
 import requests
+from requests.utils import requote_uri
 from shutil import copyfile
 import sys
 import textwrap
@@ -611,6 +612,11 @@ for app in source:
 		# If no markdown notes, generate from HTML
 		if "update_notes_md" not in app and "update_notes" in app:
 			app["update_notes_md"] = markdownify(app["update_notes"], bullets="-")
+
+		# Ensure URLs don't have spaces
+		for item in ["avatar", "download_page", "icon", "image", "source", "website", "wiki"]:
+			if item in app:
+				app[item] = requote_uri(app[item])
 
 		# Check for screenshots
 		if os.path.exists(os.path.join("..", "docs", "assets", "images", "screenshots", webName(app["title"]))):
