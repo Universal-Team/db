@@ -8,18 +8,10 @@ created: '2018-01-21T07:02:04Z'
 description: 34.2c3 POC
 download_page: https://github.com/zoogie/seedminer/releases
 downloads:
-  Seedminer_v2.1.5-x86_64-Linux.zip:
-    size: 3175524
-    size_str: 3 MiB
-    url: https://github.com/zoogie/seedminer/releases/download/v2.1.5/Seedminer_v2.1.5-x86_64-Linux.zip
-  Seedminer_v2.1.5-x86_64-Windows.zip:
-    size: 3360385
-    size_str: 3 MiB
-    url: https://github.com/zoogie/seedminer/releases/download/v2.1.5/Seedminer_v2.1.5-x86_64-Windows.zip
-  Seedminer_v2.1.5-x86_64-macOS.zip:
-    size: 3141655
-    size_str: 2 MiB
-    url: https://github.com/zoogie/seedminer/releases/download/v2.1.5/Seedminer_v2.1.5-x86_64-macOS.zip
+  Seedminer_v2.1.6-x86_64.zip:
+    size: 9677481
+    size_str: 9 MiB
+    url: https://github.com/zoogie/seedminer/releases/download/v2.1.6/Seedminer_v2.1.6-x86_64.zip
 github: zoogie/seedminer
 icon: https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/icon.png
 icon_index: 58
@@ -33,13 +25,14 @@ systems:
 - 3DS
 title: seedminer
 unistore_exclude: true
-update_notes: '<p dir="auto">This release syncs the <a href="https://github.com/deadphoenix8091/seedminer/releases/tag/2%2C1%2C5.fixed">latest
-  release</a> of the DeadPhoenix fork, because it''s used the most (and better for
-  most things).</p>
+update_notes: '<ul dir="auto">
 
-  <p dir="auto">I''ve also updated the way-out-of-date msed data in the fork release
-  with the <a href="https://github.com/zoogie/nodes">final msed data</a>.</p>'
-updated: '2021-04-21T01:51:28Z'
-version: v2.1.5
-version_title: Flight of the DeadPhoenix Edition
+  <li>Mii QR bugfix for seedminer_launcher3.py (thx Burguers and lifehackerhansol!)</li>
+
+  <li>Consolidate platforms for a single download.</li>
+
+  </ul>'
+updated: '2021-12-30T02:15:16Z'
+version: v2.1.6
+version_title: Seeding the BFM Clouds Edition
 ---
