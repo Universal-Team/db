@@ -18,8 +18,7 @@ categories:
 color: '#60b1e0'
 created: '2021-12-26T07:15:47.307433+00:00'
 description: ''
-download_page: https://bitbucket.org/DeadSkullzJr/nds-i-cheat-databases/src/master/Cheat
-  Databases/cheat.dat
+download_page: https://bitbucket.org/DeadSkullzJr/nds-i-cheat-databases/src/master/Cheat%20Databases/cheat.dat
 downloads:
   SCC Cheats.7z:
     size: 1334964
