@@ -10,13 +10,13 @@ description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. 
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 787456
-    size_str: 769 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.8a/ColecoDS.nds
+    size: 790528
+    size_str: 772 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.9/ColecoDS.nds
   README.md:
-    size: 9955
-    size_str: 9 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.8a/README.md
+    size: 10376
+    size_str: 10 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/4.9/README.md
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 197
@@ -27,18 +27,16 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V4.8: 26-Dec-2021 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V4.9: 30-Dec-2021 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Preliminary support for SG-1000 games (.sg format)</li>
+  <li>Improved SG-1000 game support.</li>
 
-  <li>Cleanup across the board - a bit more speed gained.</li>
+  <li>Preliminary support for Sord M5 games (.m5 format)</li>
 
-  </ul>
-
-  <p dir="auto">4.8a - restored working DrZ80 core</p>'
-updated: '2021-12-26T14:11:48Z'
-version: 4.8a
-version_title: Version 4.8a
+  </ul>'
+updated: '2021-12-31T03:05:58Z'
+version: '4.9'
+version_title: Version 4.9
 ---
