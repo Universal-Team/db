@@ -9,21 +9,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 35324622
+    size: 35587159
     size_str: 33 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v23.3.1/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v23.4.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 35337998
+    size: 35604759
     size_str: 33 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v23.3.1/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v23.4.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 46723454
+    size: 46980135
     size_str: 44 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v23.3.1/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v23.4.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 46917769
+    size: 47175018
     size_str: 44 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v23.3.1/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v23.4.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_index: 139
@@ -62,33 +62,59 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   </ul>
 
-  <p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.53.1">nds-bootstrap
-  v0.53.1</a></p>
+  <p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.53.2">nds-bootstrap
+  v0.53.2</a></p>
 
-  <p dir="auto"><strong>Bug fixes</strong></p>
-
-  <ul dir="auto">
-
-  <li>Fixed <code>Game-specific</code> still appearing in the region select screen,
-  after being removed in TWLMenu++ Settings.
+  <p dir="auto"><strong>What''s new?</strong></p>
 
   <ul dir="auto">
 
-  <li>If you''ve previously installed or updated to v23.3.0, please open TWLMenu++
-  Settings, and make sure you''re using the correct region setting, as the setting
-  you''ve selected will appear as the wrong one in TWLMenu++ Settings.</li>
+  <li>5 consoles have been added to TWLMenu++ Virtual Console!
+
+  <ul dir="auto">
+
+  <li>ColecoVision (S8DS &amp; ColecoDS) (<a class="user-mention" data-hovercard-type="user"
+  data-hovercard-url="/users/FluBBaOfWard/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/FluBBaOfWard">@FluBBaOfWard</a>
+  &amp; <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/wavemotion-dave/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/wavemotion-dave">@wavemotion-dave</a>)</li>
+
+  <li>Sord M5 (ColecoDS) (<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/wavemotion-dave/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/wavemotion-dave">@wavemotion-dave</a>)</li>
+
+  <li>Sega SG-1000 (S8DS &amp; ColecoDS) (<a class="user-mention" data-hovercard-type="user"
+  data-hovercard-url="/users/FluBBaOfWard/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/FluBBaOfWard">@FluBBaOfWard</a>
+  &amp; <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/wavemotion-dave/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/wavemotion-dave">@wavemotion-dave</a>)</li>
+
+  <li>WonderSwan (NitroSwan) (<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/FluBBaOfWard/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/FluBBaOfWard">@FluBBaOfWard</a>)</li>
+
+  <li>Neo Geo Pocket (NGPDS) (<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/FluBBaOfWard/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/FluBBaOfWard">@FluBBaOfWard</a>)</li>
 
   </ul>
 
   </li>
 
-  <li><strong>Flashcard:</strong> Tried fixing B button doing nothing while on the
-  <code>FAT init failed!</code> message containing the B button message.</li>
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>)
+  Added Wood R4igold.cc Upgrade autoboot.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Bug fix(?)</strong></p>
+
+  <ul dir="auto">
+
+  <li><strong>DSi-based themes:</strong> In order to work around a weird bug related
+  to sleep mode, sleep mode is now disabled.</li>
 
   </ul>'
-updated: '2021-12-27T22:57:28Z'
-version: v23.3.1
-version_title: v23.3.1 (hotfix)
+updated: '2022-01-02T05:06:29Z'
+version: v23.4.0
+version_title: New Years Release (2022)
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---

@@ -9,13 +9,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 401707
+    size: 402179
     size_str: 392 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.53.1/nds-bootstrap.7z
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.53.2/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 968647
-    size_str: 945 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.53.1/nds-bootstrap.zip
+    size: 969833
+    size_str: 947 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.53.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 icon_index: 140
@@ -34,8 +34,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v23.3.1"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v23.3.1</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v23.4.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v23.4.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -49,46 +49,42 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <p dir="auto"><strong>Improvements</strong></p>
+  <p dir="auto">With a new year, comes new support for more titles!</p>
+
+  <p dir="auto"><strong>What''s new?</strong></p>
 
   <ul dir="auto">
 
-  <li>Retail DSi consoles now load the complete AP-fix .ips file while in DSi mode.
+  <li><strong>B4DS mode:</strong> Support for more DSiWare titles have been added,
+  making them playable on DS/DS lite consoles!<br>
+
+  (For a complete list of supported titles, see this list <a href="https://github.com/DS-Homebrew/TWiLightMenu/blob/5c206b42d579a1dbaddaf6eca9c887582edbbb2a/universal/include/incompatibleGameMap.h#L49">here</a>.)
 
   <ul dir="auto">
 
-  <li>DSi mode heap has shrunken further to make room for AP-patched overlays.</li>
+  <li>Art Style: precipice</li>
+
+  <li>Art Style: ZENGAGE</li>
 
   </ul>
 
   </li>
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  and various) Updated translations.</li>
-
   </ul>
 
-  <p dir="auto"><strong>Bug fix</strong></p>
+  <p dir="auto"><strong>Bug fixes</strong></p>
 
   <ul dir="auto">
 
-  <li>Part of RAM is now restored after taking screenshots while in DSi mode.</li>
+  <li><strong>B4DS mode:</strong> <em>Art Style: AQUIA</em> and <em>PiCTOBiTS</em>
+  will no longer show error messages!</li>
 
-  </ul>
-
-  <p dir="auto"><strong>Bug fix / Regression</strong></p>
-
-  <ul dir="auto">
-
-  <li>SDK5.4 &amp; 5.5 games have reverted to the slow soft-reset method (due to crashing,
-  apparently from timing issues), but can be worked around by enabling either TWL
-  clock speed or DSi mode.</li>
+  <li><em>Big Mutha Truckers</em> now boots again!</li>
 
   </ul>'
-updated: '2021-12-27T22:49:14Z'
-version: v0.53.1
-version_title: v0.53.1 (hotfix)
+updated: '2022-01-02T04:53:35Z'
+version: v0.53.2
+version_title: New Years Release (2022)
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
