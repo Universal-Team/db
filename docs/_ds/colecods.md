@@ -10,17 +10,17 @@ description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. 
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 824832
-    size_str: 805 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.0/ColecoDS.nds
+    size: 892928
+    size_str: 872 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.1/ColecoDS.nds
   README.md:
-    size: 10708
+    size: 10937
     size_str: 10 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.0/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.1/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.0/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.1/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 197
@@ -31,16 +31,16 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V5.0: 02-Jan-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V5.1: 03-Jan-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>MSX1 game support up to 32K Standard Loader (.msx format)</li>
-
-  <li>New 3/4 Frameskip (show 3 of 4 frames) to help DS-LITE</li>
+  <li>MSX1 emulation now supports some of the common Mappers - some of the 128K games
+  work but you''ll probably have to turn off Vert Sync and turn on Frame Skip to get
+  it to run full speed.</li>
 
   </ul>'
-updated: '2022-01-02T14:36:16Z'
-version: '5.0'
-version_title: Version 5.0
+updated: '2022-01-03T20:09:23Z'
+version: '5.1'
+version_title: Version 5.1
 ---
