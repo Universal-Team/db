@@ -10,17 +10,17 @@ description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. 
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 892928
-    size_str: 872 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.1/ColecoDS.nds
+    size: 893952
+    size_str: 873 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.2/ColecoDS.nds
   README.md:
-    size: 10937
-    size_str: 10 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.1/README.md
+    size: 11411
+    size_str: 11 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.2/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.1/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.2/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 197
@@ -31,16 +31,19 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V5.1: 03-Jan-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V5.2: 04-Jan-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>MSX1 emulation now supports some of the common Mappers - some of the 128K games
-  work but you''ll probably have to turn off Vert Sync and turn on Frame Skip to get
-  it to run full speed.</li>
+  <li>MSX1 now supports 256K and 512K mega ROMs.</li>
+
+  <li>AY Sound core re-written so noise and envelopes work (not perfectly accurate
+  but good enough).</li>
+
+  <li>Optional you can use msx.rom BIOS if found in the usual places.</li>
 
   </ul>'
-updated: '2022-01-03T20:09:23Z'
-version: '5.1'
-version_title: Version 5.1
+updated: '2022-01-05T02:36:20Z'
+version: '5.2'
+version_title: Version 5.2
 ---
