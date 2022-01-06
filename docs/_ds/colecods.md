@@ -10,17 +10,17 @@ description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. 
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 893952
-    size_str: 873 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.2/ColecoDS.nds
+    size: 961536
+    size_str: 939 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.3/ColecoDS.nds
   README.md:
-    size: 11411
+    size: 12018
     size_str: 11 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.2/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.3/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.2/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.3/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 197
@@ -31,19 +31,28 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V5.2: 04-Jan-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V5.3: 06-Jan-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>MSX1 now supports 256K and 512K mega ROMs.</li>
+  <li>Added MSX config to set BIOS on per game basis.</li>
 
-  <li>AY Sound core re-written so noise and envelopes work (not perfectly accurate
-  but good enough).</li>
+  <li>Added MSX config to set mapper type.</li>
 
-  <li>Optional you can use msx.rom BIOS if found in the usual places.</li>
+  <li>Upgraded Config Database to 800 entries.</li>
+
+  <li>Upgrade High Score Database to 575 entries.</li>
+
+  <li>Upgrade roms per directory to 1024 entries.</li>
+
+  <li>Autodetect between CV and MSX .rom files.</li>
+
+  <li>Revised MSX controller map for better game support.</li>
+
+  <li>AY optimization so MSX games run faster.</li>
 
   </ul>'
-updated: '2022-01-05T02:36:20Z'
-version: '5.2'
-version_title: Version 5.2
+updated: '2022-01-06T12:46:02Z'
+version: '5.3'
+version_title: Version 5.3
 ---
