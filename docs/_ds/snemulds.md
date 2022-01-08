@@ -21,6 +21,10 @@ nightly:
       url: https://bitbucket.org/Coto88/snemulds/raw/master/release/arm7dldi-ntr/SNEmulDS.nds
     arm7dldi-twl/SNEmulDS.srl:
       url: https://bitbucket.org/Coto88/snemulds/raw/master/release/arm7dldi-twl/SNEmulDS.srl
+    arm7dldi-twl/ToolchainGenericDS-multiboot.srl:
+      url: https://bitbucket.org/Coto88/snemulds/raw/master/release/arm7dldi-twl/ToolchainGenericDS-multiboot.srl
+    arm7dldi-twl/tgds_multiboot_payload_twl.bin:
+      url: https://bitbucket.org/Coto88/snemulds/raw/master/release/arm7dldi-twl/tgds_multiboot_payload_twl.bin
     snemul.cfg:
       url: https://bitbucket.org/Coto88/snemulds/raw/master/release/snemul.cfg
 source: https://bitbucket.org/Coto88/snemulds
@@ -29,3 +33,16 @@ systems:
 title: SnemulDS
 updated: '---'
 ---
+NTR Mode Usage:
+- Download and copy, /arm7dldi-ntr -> SnemulDS.nds (NTR mode) from /release folder, snemul.cfg as well, in SD:/ root .
+   If it prompts for overwrite: Yes to All.
+- Create a /snes folder in SD: root, and put your homebrew games on it
+   - SPC Playback: Optionally, create a /spc folder in SD: root, and put your SPC files on it. You can choose and play a SPC File in the "SPC Jukebox" option.
+
+TWL Mode Usage:
+- Download and copy all files from /release/arm7dldi-twl folder, snemul.cfg as well, in SD:/ root .
+   If it prompts for overwrite: Yes to All.
+- Create a /snes folder in SD: root, and put your homebrew games on it
+   - SPC Playback: Optionally, create a /spc folder in SD: root, and put your SPC files on it. You can choose and play a SPC File in the "SPC Jukebox" option. 
+   - Now open TWiLightMenu (you must set it up first, so you can run TWL mode apps), and run ToolchainGenericDS-multiboot.srl.
+      Then select SnemulDS.srl from the menu, choose ARG (A button) and select the snes file to run. That's it!
