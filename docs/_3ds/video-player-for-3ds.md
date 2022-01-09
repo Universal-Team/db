@@ -9,13 +9,13 @@ description: You can play .mp4 file on your 3DS!
 download_page: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases
 downloads:
   Video_player_for_3DS.3dsx:
-    size: 6941476
+    size: 6949032
     size_str: 6 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.4.1/Video_player_for_3DS.3dsx
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.4.2/Video_player_for_3DS.3dsx
   Video_player_for_3DS.cia:
-    size: 4756416
+    size: 4764608
     size_str: 4 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.4.1/Video_player_for_3DS.cia
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.4.2/Video_player_for_3DS.cia
 github: Core-2-Extreme/Video_player_for_3DS
 icon: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/icon.png
 icon_index: 177
@@ -33,18 +33,20 @@ systems:
 title: Video player for 3DS
 update_notes: '<ul dir="auto">
 
-  <li>The "FSUSER_OpenFile() failed" error has been fixed</li>
+  <li>Unexpected touch in Nintendo''s home menu has been fixed</li>
 
-  <li>Adjusted font and button size in settings menu</li>
+  <li>Multi-threaded decoding stability has been fixed and it is enabled by default</li>
 
-  <li>Multi-threaded decoding is disabled by default because it has stability problem</li>
+  <li>Seeking stability has been fixed</li>
 
-  <li>Polish(Polski) translation has been added (by JustScratchCoder)</li>
+  <li>Repeat, in order, random playback mode have been added</li>
+
+  <li>Other minor changes</li>
 
   </ul>'
-updated: '2021-12-11T14:02:17Z'
-version: v1.4.1
-version_title: Video player for 3DS v1.4.1
+updated: '2022-01-09T13:23:44Z'
+version: v1.4.2
+version_title: Video player for 3DS v1.4.2
 ---
 You can play .mp4 file on your 3DS!
 

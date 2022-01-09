@@ -10,17 +10,17 @@ description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. 
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 963584
-    size_str: 941 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.4/ColecoDS.nds
+    size: 963072
+    size_str: 940 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.5/ColecoDS.nds
   README.md:
-    size: 12779
+    size: 13045
     size_str: 12 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.4/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.5/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.4/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.5/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 197
@@ -31,24 +31,18 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V5.4: 07-Jan-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V5.5: 09-Jan-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>AY Envelope sound handler improved - more games sound right!</li>
+  <li>Major improvement in speed for MSX megaROM games.</li>
 
-  <li>MSX, SG-1000 and Sord M5 SAVE/LOAD states working.</li>
+  <li>Fixed RESET of MSX megaROM games.</li>
 
-  <li>Press X on ROM selection to force-load MSX game cart (in case auto-detect fails).</li>
-
-  <li>Faster audio processing to gain us almost 5% speed boost across the board.</li>
-
-  <li>Fix controls when launched from TWL++</li>
-
-  <li>More cleanups and minor improvements under the hood.</li>
+  <li>Slight optimizations to all emulation cores.</li>
 
   </ul>'
-updated: '2022-01-07T21:33:54Z'
-version: '5.4'
-version_title: Version 5.4
+updated: '2022-01-09T13:46:37Z'
+version: '5.5'
+version_title: Version 5.5
 ---
