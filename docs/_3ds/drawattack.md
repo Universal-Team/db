@@ -3,7 +3,6 @@ author: Thomas Edvalson
 avatar: https://avatars.githubusercontent.com/u/383999?v=4
 categories:
 - game
-color: '#edb0ad'
 created: '2015-08-25T16:49:38Z'
 description: Multiplayer drawing battle game for the Nintendo 3DS.
 download_page: https://github.com/Cruel/DrawAttack/releases
@@ -18,7 +17,6 @@ downloads:
     url: https://github.com/Cruel/DrawAttack/releases/download/1.3/DrawAttack.cia
 github: Cruel/DrawAttack
 icon: https://raw.githubusercontent.com/Cruel/DrawAttack/master/res/app/icon.png
-icon_index: 126
 image: https://raw.githubusercontent.com/Cruel/DrawAttack/master/res/app/banner.png
 image_length: 3773
 layout: app

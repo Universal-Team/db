@@ -14,7 +14,7 @@ downloads:
     url: https://github.com/RocketRobz/HoriHD-Gallery/releases/download/v1.0.2/HoriHD-Gallery.7z
 github: RocketRobz/HoriHD-Gallery
 icon: https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/icon.png
-icon_index: 134
+icon_index: 133
 image: https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/banner.png
 image_length: 10610
 layout: app

@@ -13,7 +13,7 @@ downloads:
     size_str: 585 KiB
     url: https://db.universal-team.net/assets/files/TWPatch.cia
 icon: https://db.universal-team.net/assets/images/icons/twpatch.png
-icon_index: 151
+icon_index: 150
 image: https://db.universal-team.net/assets/images/images/twpatch.png
 image_length: 25344
 layout: app

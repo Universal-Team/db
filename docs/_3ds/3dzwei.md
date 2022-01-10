@@ -18,7 +18,7 @@ downloads:
     url: https://github.com/Universal-Team/3DZwei/releases/download/v0.2.0/3DZwei.cia
 github: SuperSaiyajinStackZ/3DZwei
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/icon.png
-icon_index: 133
+icon_index: 132
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/banner.png
 image_length: 10942
 layout: app
