@@ -22,7 +22,7 @@ downloads:
     url: https://github.com/SuperSaiyajinStackZ/PKCount/releases/download/v0.0.2/PKCount.nds
 github: SuperSaiyajinStackZ/PKCount
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/PKCount/master/3DS/app/icon.png
-icon_index: 130
+icon_index: 131
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/PKCount/master/3DS/app/banner.png
 image_length: 9935
 layout: app

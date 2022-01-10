@@ -23,7 +23,7 @@ downloads:
     url: https://github.com/SombrAbsol/GameYob-3DS/releases/download/1.0.8/GameYob.zip
 github: SombrAbsol/GameYob-3DS
 icon: https://raw.githubusercontent.com/SombrAbsol/GameYob-3DS/main/resources/icon.png
-icon_index: 191
+icon_index: 192
 image: https://raw.githubusercontent.com/SombrAbsol/GameYob-3DS/main/resources/icon.png
 image_length: 748
 layout: app

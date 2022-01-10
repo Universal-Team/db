@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/dragos240/TownManager/releases/download/v1.2.1/TownManager-v1.2.1.zip
 github: dragos240/TownManager
 icon: https://raw.githubusercontent.com/dragos240/TownManager/master/icon.png
-icon_index: 145
+icon_index: 146
 image: https://raw.githubusercontent.com/dragos240/TownManager/master/res/banner%20icon.png
 image_length: 33925
 layout: app
