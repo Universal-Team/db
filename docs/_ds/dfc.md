@@ -14,7 +14,7 @@ downloads:
     url: https://github.com/Epicpkmn11/dfc/releases/download/v1.0.0/dfc.nds
 github: Epicpkmn11/dfc
 icon: https://raw.githubusercontent.com/Epicpkmn11/dfc/master/resources/icon.png
-icon_index: 138
+icon_index: 137
 image: https://raw.githubusercontent.com/Epicpkmn11/dfc/master/resources/banner.png
 image_length: 2960
 layout: app
