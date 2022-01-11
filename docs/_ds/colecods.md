@@ -10,20 +10,20 @@ description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. 
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 963072
-    size_str: 940 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.5/ColecoDS.nds
+    size: 963584
+    size_str: 941 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.6/ColecoDS.nds
   README.md:
-    size: 13045
-    size_str: 12 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.5/README.md
+    size: 14344
+    size_str: 14 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.6/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.5/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.6/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
-icon_index: 197
+icon_index: 196
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
 image_length: 15870
 layout: app
@@ -31,18 +31,20 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V5.5: 09-Jan-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V5.6: 11-Jan-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Major improvement in speed for MSX megaROM games.</li>
+  <li>Improved loading of MSX 8K, 16K and 32K ROMs for higher compatibility.</li>
 
-  <li>Fixed RESET of MSX megaROM games.</li>
+  <li>Fixed so we only return joystick input for Port 1.</li>
 
-  <li>Slight optimizations to all emulation cores.</li>
+  <li>Fixed bug in memory write to Slot 1 (rare).</li>
+
+  <li>Minor cleanups across the board.</li>
 
   </ul>'
-updated: '2022-01-09T13:46:37Z'
-version: '5.5'
-version_title: Version 5.5
+updated: '2022-01-11T14:23:42Z'
+version: '5.6'
+version_title: Version 5.6
 ---

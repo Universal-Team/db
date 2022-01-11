@@ -3,7 +3,6 @@ author: StackZ
 avatar: https://avatars.githubusercontent.com/u/47382115?v=4
 categories:
 - utility
-color: '#90337d'
 created: '2019-12-02T01:37:45Z'
 description: A Pokemon Shiny Encounter Tool.
 download_page: https://github.com/SuperSaiyajinStackZ/PKCount/releases
@@ -22,7 +21,6 @@ downloads:
     url: https://github.com/SuperSaiyajinStackZ/PKCount/releases/download/v0.0.2/PKCount.nds
 github: SuperSaiyajinStackZ/PKCount
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/PKCount/master/3DS/app/icon.png
-icon_index: 131
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/PKCount/master/3DS/app/banner.png
 image_length: 9935
 layout: app

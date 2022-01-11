@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/PabloMK7/YAMKC_3DS/releases/download/v0.2/YAMKC_3DS.3dsx
 github: mariohackandglitch/YAMKC_3DS
 icon: https://raw.githubusercontent.com/mariohackandglitch/YAMKC_3DS/main/icon.png
-icon_index: 179
+icon_index: 178
 image: https://db.universal-team.net/assets/images/images/yet-another-mario-kart-clone-3ds.png
 image_length: 61098
 layout: app

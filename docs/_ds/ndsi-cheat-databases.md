@@ -56,7 +56,7 @@ downloads:
     size: 42983604
     size_str: 40 MiB
     url: https://api.bitbucket.org/2.0/repositories/DeadSkullzJr/nds-i-cheat-databases/src/963fff3858de7539891ef7918d992b8b06972a48/Cheat%20Databases/usrcheat.dat
-icon_index: 141
+icon_index: 140
 image: https://bytebucket.org/ravatar/%7B16be8083-bd64-4c29-98d4-95e277d7b2f0%7D?ts=default
 image_length: 1560
 layout: app

@@ -14,7 +14,7 @@ downloads:
     url: https://github.com/tilderain/IkachanDS/releases/download/0.1.1/IkachanDS-0.1.1.nds
 github: tilderain/IkachanDS
 icon: https://db.universal-team.net/assets/images/icons/ikachands.png
-icon_index: 195
+icon_index: 194
 image: https://db.universal-team.net/assets/images/icons/ikachands.png
 image_length: 630
 layout: app
