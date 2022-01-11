@@ -14,7 +14,7 @@ downloads:
     url: https://github.com/Asellus/3DS_Quick_Reboot/releases/download/v1.0.1/3DSQuickReboot-v1.0.1.zip
 github: Asellus/3DS_Quick_Reboot
 icon: https://raw.githubusercontent.com/Asellus/3DS_Quick_Reboot/master/resources/icon.png
-icon_index: 122
+icon_index: 123
 image: https://raw.githubusercontent.com/Asellus/3DS_Quick_Reboot/master/resources/banner.png
 image_length: 7777
 layout: app

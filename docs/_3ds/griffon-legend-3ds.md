@@ -3,6 +3,7 @@ author: nop90
 avatar: https://avatars.githubusercontent.com/u/6418965?v=4
 categories:
 - game
+color: '#d0e2cf'
 created: '2016-12-05T09:08:27Z'
 description: Port to 3DS of a nice Action RPG in SNES style originally written by
   Syn9 in FreeBASIC
@@ -14,6 +15,7 @@ downloads:
     url: https://github.com/nop90/Griffon-Legend-3DS/releases/download/v1.0/GriffonLegend.v1.0.zip
 github: nop90/Griffon-Legend-3DS
 icon: https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/icon.png
+icon_index: 95
 image: https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/banner.png
 image_length: 29770
 layout: app

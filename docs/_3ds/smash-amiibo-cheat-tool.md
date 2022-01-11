@@ -22,7 +22,7 @@ downloads:
     url: https://github.com/SUOlivia/Smash-Amiibo-Cheat-Tool/releases/download/2.0/SmashAmiiboCheatTool.cia
 github: Ordim3n/Smash-Amiibo-Cheat-Tool
 icon: https://raw.githubusercontent.com/Ordim3n/Smash-Amiibo-Cheat-Tool/master/meta/icon.png
-icon_index: 98
+icon_index: 99
 image: https://raw.githubusercontent.com/Ordim3n/Smash-Amiibo-Cheat-Tool/master/meta/banner.png
 image_length: 36320
 layout: app

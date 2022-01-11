@@ -23,7 +23,7 @@ downloads:
     url: https://github.com/Jacudibu/Snake2DS/releases/download/v1.0/Snake2DS.cia
 github: Jacudibu/Snake2DS
 icon: https://raw.githubusercontent.com/Jacudibu/Snake2DS/master/icon_large.png
-icon_index: 116
+icon_index: 117
 image: https://db.universal-team.net/assets/images/images/snake2ds.png
 image_length: 1209
 layout: app

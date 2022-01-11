@@ -18,7 +18,7 @@ downloads:
     url: https://github.com/diasurgical/devilutionX/releases/download/1.3.0/devilutionx-linux-armhf.zip
 github: diasurgical/devilutionX
 icon: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/icon.png
-icon_index: 189
+icon_index: 190
 image: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/banner.png
 image_length: 47500
 layout: app
@@ -189,8 +189,11 @@ update_notes: "<h3 dir=\"auto\">Features</h3>\n<h4 dir=\"auto\">Platforms</h4>\n
   <ul dir=\"auto\">\n<li>Fix dsync in Hive</li>\n<li>Open Crypt from the start</li>\n\
   <li>Restrict access to Hive and Crypt based on level</li>\n<li>Reflect spell not\
   \ being synced</li>\n<li>Search spell affecting all players</li>\n</ul>\n<h3 dir=\"\
-  auto\">Known issues</h3>\n<ul dir=\"auto\">\n<li>Switch/3DS: Polish dub produces\
-  \ static sounds</li>\n<li>OpenDingux: Now requires Beta</li>\n</ul>"
+  auto\">Known issues</h3>\n<ul dir=\"auto\">\n<li>The Linux build does not contain\
+  \ <a href=\"https://github.com/diasurgical/devilutionx-assets/releases/download/v1/devilutionx.mpq\"\
+  >devilutionx.mpq</a> which must be downloaded separately instead or it will be unable\
+  \ to locate <code>fonts\\yellowdialog.trn</code>.</li>\n<li>Switch/3DS: Polish dub\
+  \ produces static sounds</li>\n<li>OpenDingux: Now requires Beta</li>\n</ul>"
 updated: '2021-11-02T16:00:01Z'
 version: 1.3.0
 version_title: 1.3.0

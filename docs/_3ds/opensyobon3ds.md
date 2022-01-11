@@ -14,7 +14,7 @@ downloads:
     url: https://github.com/nop90/OpenSyobon3DS/releases/download/v1.2/OpenSyobon3DS_v1.2.zip
 github: nop90/OpenSyobon3DS
 icon: https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/icon.png
-icon_index: 110
+icon_index: 111
 image: https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/banner.png
 image_length: 24314
 layout: app
