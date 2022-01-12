@@ -9,7 +9,7 @@ description: CSPSP port for 3DS
 download_page: https://github.com/machinamentum/CS3DS/releases
 github: machinamentum/CS3DS
 icon: https://raw.githubusercontent.com/machinamentum/CS3DS/master/jge/Projects/cspsp/icon_3ds.png
-icon_index: 125
+icon_index: 124
 image: https://db.universal-team.net/assets/images/images/cs3ds.png
 image_length: 9552
 layout: app

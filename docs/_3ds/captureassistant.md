@@ -18,7 +18,7 @@ downloads:
     url: https://github.com/ItsDeidara/CaptureAssistant/releases/download/1.3/CaptureAssistantv1.3.zip
 github: ItsDeidara/CaptureAssistant
 icon: https://raw.githubusercontent.com/ItsDeidara/CaptureAssistant/master/assets/icon.png
-icon_index: 110
+icon_index: 109
 image: https://raw.githubusercontent.com/ItsDeidara/CaptureAssistant/master/assets/banner.png
 image_length: 26023
 layout: app

@@ -18,7 +18,7 @@ downloads:
     url: https://github.com/joel16/3DS-Recovery-Tool/releases/download/v1.40/3DS_Recovery_Tool.cia
 github: joel16/3DS-Recovery-Tool
 icon: https://raw.githubusercontent.com/joel16/3DS-Recovery-Tool/master/res/ic_launcher_recovery_tool.png
-icon_index: 59
+icon_index: 58
 image: https://raw.githubusercontent.com/joel16/3DS-Recovery-Tool/master/res/banner.png
 image_length: 16291
 layout: app

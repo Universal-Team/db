@@ -16,7 +16,6 @@ github: Universal-Team/Relaunch
 icon: https://db.universal-team.net/assets/images/icons/relaunch.png
 icon_index: 9
 image: https://raw.githubusercontent.com/Universal-Team/Relaunch/master/logo.png
-image_length: 510792
 layout: app
 license: mit
 license_name: MIT License

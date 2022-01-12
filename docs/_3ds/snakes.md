@@ -18,7 +18,7 @@ downloads:
     url: https://github.com/DDews/Snakes/releases/download/0.2.5/snakes.cia
 github: DDews/Snakes
 icon: https://raw.githubusercontent.com/DDews/Snakes/master/meta/icon.png
-icon_index: 93
+icon_index: 92
 image: https://raw.githubusercontent.com/DDews/Snakes/master/meta/banner.png
 image_length: 9681
 layout: app

@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/Manurocker95/WITB_3D/releases/download/1.1/WITB_3D.rar
 github: Manurocker95/WITB_3D
 icon: https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/icon.png
-icon_index: 88
+icon_index: 87
 image: https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/resources/banner.png
 image_length: 18849
 layout: app

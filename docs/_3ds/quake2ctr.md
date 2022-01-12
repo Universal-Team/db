@@ -9,7 +9,7 @@ description: Quake 2 port for Nintendo 3DS
 download_page: https://github.com/masterfeizz/Quake2CTR/releases
 github: masterfeizz/Quake2CTR
 icon: https://db.universal-team.net/assets/images/icons/quake2ctr.png
-icon_index: 81
+icon_index: 80
 image: https://db.universal-team.net/assets/images/images/quake2ctr.png
 image_length: 6044
 layout: app
