@@ -14,7 +14,7 @@ downloads:
     url: https://github.com/DomRe/3DS_eBook_Reader/releases/download/1.2/release1.2.zip
 github: DomRe/3DS_eBook_Reader
 icon: https://raw.githubusercontent.com/DomRe/3DS_eBook_Reader/master/meta/icon.png
-icon_index: 61
+icon_index: 62
 image: https://raw.githubusercontent.com/DomRe/3DS_eBook_Reader/master/meta/banner.png
 image_length: 18127
 layout: app

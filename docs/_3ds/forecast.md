@@ -14,7 +14,7 @@ downloads:
     url: https://github.com/NatTupper/Forecast/releases/download/v1.0.1/Forecast-1.0.1.zip
 github: NatTupper/Forecast
 icon: https://raw.githubusercontent.com/NatTupper/Forecast/master/icon.png
-icon_index: 76
+icon_index: 77
 image: https://raw.githubusercontent.com/NatTupper/Forecast/master/res/banner%20icon.png
 image_length: 9895
 layout: app

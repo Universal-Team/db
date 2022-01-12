@@ -18,7 +18,7 @@ downloads:
     url: https://github.com/LiquidFenrir/WifiManager/releases/download/v1.1.2/WifiManager.cia
 github: LiquidFenrir/WifiManager
 icon: https://raw.githubusercontent.com/LiquidFenrir/WifiManager/master/meta/icon.png
-icon_index: 59
+icon_index: 60
 image: https://raw.githubusercontent.com/LiquidFenrir/WifiManager/master/meta/banner.png
 image_length: 6073
 layout: app

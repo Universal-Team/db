@@ -24,6 +24,7 @@ github: astronautlevel2/Anemone3DS
 icon: https://raw.githubusercontent.com/astronautlevel2/Anemone3DS/master/meta/icon.png
 icon_index: 53
 image: https://raw.githubusercontent.com/astronautlevel2/Anemone3DS/master/meta/banner.png
+image_length: 152331
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

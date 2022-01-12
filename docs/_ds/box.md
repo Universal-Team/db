@@ -14,7 +14,7 @@ downloads:
     url: https://github.com/Garhoogin/Box/releases/download/v1.0.0.0/box.nds
 github: Garhoogin/Box
 icon: https://db.universal-team.net/assets/images/icons/box.png
-icon_index: 186
+icon_index: 187
 image: https://db.universal-team.net/assets/images/images/box.png
 image_length: 1012
 layout: app

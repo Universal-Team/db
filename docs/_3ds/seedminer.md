@@ -14,7 +14,7 @@ downloads:
     url: https://github.com/zoogie/seedminer/releases/download/v2.1.6/Seedminer_v2.1.6-x86_64.zip
 github: zoogie/seedminer
 icon: https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/icon.png
-icon_index: 57
+icon_index: 58
 image: https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/banner.png
 image_length: 4023
 layout: app

@@ -14,7 +14,7 @@ downloads:
     url: https://github.com/bubble2k16/snes9x_3ds/releases/download/v1.30/snes9x_3ds-v1.30.zip
 github: bubble2k16/snes9x_3ds
 icon: https://raw.githubusercontent.com/bubble2k16/snes9x_3ds/master/assets/icon.png
-icon_index: 54
+icon_index: 55
 image: https://db.universal-team.net/assets/images/images/snes9x.png
 image_length: 5476
 layout: app
