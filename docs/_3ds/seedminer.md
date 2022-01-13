@@ -16,6 +16,7 @@ github: zoogie/seedminer
 icon: https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/icon.png
 icon_index: 58
 image: https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/banner.png
+image_length: 4023
 layout: app
 license: mit
 license_name: MIT License
