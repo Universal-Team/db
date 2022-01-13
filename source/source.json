@@ -6869,5 +6869,49 @@
 		"systems": ["DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/rayasticot/kirikou/main/icon.bmp"
+	},
+	{
+		"github": "lifehackerhansol/CTR-NDSForwarder",
+		"title": "CTR-NDSForwarder template",
+		"long_description": "CTR-NDSForwarder is a 3DS-mode nds-bootstrap forwarder, allowing for more than 40 forwarder titles as compared to the older forwarder template.",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"scripts": {
+			"CTR-NDSForwarder": [
+				{
+					"type": "downloadRelease",
+					"repo": "lifehackerhansol/CTR-NDSForwarder",
+					"file": "CTR-NDSForwarder-macOS.zip",
+					"output": "/CTR-NDSForwarder-macOS.zip",
+					"message": "Downloading CTR-NDSForwarder-macOS.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/CTR-NDSForwarder-macOS.zip",
+					"input": "for SD card root/",
+					"output": "/",
+					"message": "Extracting CTR-NDSForwarder-macOS.zip..."
+				},
+				{
+					"type": "installCia",
+					"file": "/cias/bootstrap.cia",
+					"message": "Installing bootstrap.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/cias/bootstrap.cia",
+					"message": "Deleting bootstrap.cia..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/CTR-NDSForwarder-macOS.zip",
+					"message": "Deleting CTR-NDSForwarder-macOS.zip..."
+				},
+				{
+					"type": "promptMessage",
+					"message": "You will need to generate the actual forwarders on your computer.\n\nSee the README for more information:\nhttps://github.com/lifehackerhansol/CTR-NDSForwarder"
+				}
+			]
+		}
 	}
 ]
