@@ -6887,25 +6887,10 @@
 				},
 				{
 					"type": "downloadRelease",
-					"repo": "DS-Homebrew/nds-bootstrap",
-					"file": "nds-bootstrap.7z",
-					"output": "/nds-bootstrap.7z",
-					"message": "Downloading nds-bootstrap..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/nds-bootstrap.7z",
-					"input": "",
-					"output": "/_nds/",
-					"message": "Extracting nds-bootstrap..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/_nds/release-bootstrap.ver",
-				},
-				{
-					"type": "deleteFile",
-					"file": "/nds-bootstrap.7z"
+					"repo": "RocketRobz/NTR_Forwarder",
+					"file": "DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"output": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"message": "Downloading DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
 				},
 				{
 					"type": "extractFile",
@@ -6913,6 +6898,13 @@
 					"input": "for SD card root/",
 					"output": "/",
 					"message": "Extracting CTR-NDSForwarder-macOS.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"input": "for SD Card root/",
+					"output": "/",
+					"message": "Extracting DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
 				},
 				{
 					"type": "installCia",
@@ -6928,6 +6920,11 @@
 					"type": "deleteFile",
 					"file": "/CTR-NDSForwarder-macOS.zip",
 					"message": "Deleting CTR-NDSForwarder-macOS.zip..."
+				},
+				{
+					"type": "deleteFile",
+					"file":"/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"message": "Deleting DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
 				},
 				{
 					"type": "promptMessage",
