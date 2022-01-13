@@ -6902,7 +6902,6 @@
 				{
 					"type": "deleteFile",
 					"file": "/_nds/release-bootstrap.ver",
-					"message": "Deleting release-bootstrap.ver..."
 				},
 				{
 					"type": "deleteFile",
