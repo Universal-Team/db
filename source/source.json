@@ -6886,6 +6886,29 @@
 					"message": "Downloading CTR-NDSForwarder-macOS.zip..."
 				},
 				{
+					"type": "downloadRelease",
+					"repo": "DS-Homebrew/nds-bootstrap",
+					"file": "nds-bootstrap.7z",
+					"output": "/nds-bootstrap.7z",
+					"message": "Downloading nds-bootstrap..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/nds-bootstrap.7z",
+					"input": "",
+					"output": "/_nds/",
+					"message": "Extracting nds-bootstrap..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/_nds/release-bootstrap.ver",
+					"message": "Deleting release-bootstrap.ver..."
+				},
+				{
+					"type": "deleteFile",
+					"file": "/nds-bootstrap.7z"
+				},
+				{
 					"type": "extractFile",
 					"file": "/CTR-NDSForwarder-macOS.zip",
 					"input": "for SD card root/",
