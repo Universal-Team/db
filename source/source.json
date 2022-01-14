@@ -6871,45 +6871,64 @@
 		"icon": "https://raw.githubusercontent.com/rayasticot/kirikou/main/icon.bmp"
 	},
 	{
-		"github": "lifehackerhansol/CTR-NDSForwarder",
-		"title": "CTR-NDSForwarder template",
-		"long_description": "CTR-NDSForwarder is a 3DS-mode nds-bootstrap forwarder, allowing for more than 40 forwarder titles as compared to the older forwarder template.",
+		"github": "lifehackerhansol/YANBF",
+		"title": "Yet Another nds-bootstrap Forwarder",
+		"long_description": "YANBF is a 3DS-mode nds-bootstrap forwarder, allowing for more than 40 forwarder titles as compared to the older forwarder template.",
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"scripts": {
-			"CTR-NDSForwarder": [
+			"YANBF forwarder pack": [
 				{
 					"type": "downloadRelease",
-					"repo": "lifehackerhansol/CTR-NDSForwarder",
-					"file": "CTR-NDSForwarder-macOS.zip",
-					"output": "/CTR-NDSForwarder-macOS.zip",
-					"message": "Downloading CTR-NDSForwarder-macOS.zip..."
+					"repo": "lifehackerhansol/YANBF",
+					"file": "YANBF-macOS.zip",
+					"output": "/YANBF-macOS.zip",
+					"message": "Downloading YANBF-macOS.zip..."
+				},
+				{
+					"type": "downloadRelease",
+					"repo": "RocketRobz/NTR_Forwarder",
+					"file": "DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"output": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"message": "Downloading DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
 				},
 				{
 					"type": "extractFile",
-					"file": "/CTR-NDSForwarder-macOS.zip",
-					"input": "for SD card root/",
+					"file": "/YANBF-macOS.zip",
+					"input": "bootstrap.cia",
+					"output": "/bootstrap.cia",
+					"message": "Extracting YANBF-macOS.zip..."
+				},
+				{
+					"type": "extractFile",
+					"file": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"input": "for SD Card root/",
 					"output": "/",
-					"message": "Extracting CTR-NDSForwarder-macOS.zip..."
+					"message": "Extracting DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
 				},
 				{
 					"type": "installCia",
-					"file": "/cias/bootstrap.cia",
+					"file": "/bootstrap.cia",
 					"message": "Installing bootstrap.cia..."
 				},
 				{
 					"type": "deleteFile",
-					"file": "/cias/bootstrap.cia",
+					"file": "/bootstrap.cia",
 					"message": "Deleting bootstrap.cia..."
 				},
 				{
 					"type": "deleteFile",
-					"file": "/CTR-NDSForwarder-macOS.zip",
-					"message": "Deleting CTR-NDSForwarder-macOS.zip..."
+					"file": "/YANBF-macOS.zip",
+					"message": "Deleting YANBF-macOS.zip..."
+				},
+				{
+					"type": "deleteFile",
+					"file":"/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"message": "Deleting DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
 				},
 				{
 					"type": "promptMessage",
-					"message": "You will need to generate the actual forwarders on your computer.\n\nSee the README for more information:\nhttps://github.com/lifehackerhansol/CTR-NDSForwarder"
+					"message": "You will need to generate the actual forwarders on your computer.\n\nSee the README for more information:\nhttps://github.com/lifehackerhansol/YANBF"
 				}
 			]
 		}
