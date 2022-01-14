@@ -6895,8 +6895,8 @@
 				{
 					"type": "extractFile",
 					"file": "/YANBF-macOS.zip",
-					"input": "bootstrap.cia/",
-					"output": "/",
+					"input": "bootstrap.cia",
+					"output": "/bootstrap.cia",
 					"message": "Extracting YANBF-macOS.zip..."
 				},
 				{
@@ -6908,12 +6908,12 @@
 				},
 				{
 					"type": "installCia",
-					"file": "/cias/bootstrap.cia",
+					"file": "/bootstrap.cia",
 					"message": "Installing bootstrap.cia..."
 				},
 				{
 					"type": "deleteFile",
-					"file": "/cias/bootstrap.cia",
+					"file": "/bootstrap.cia",
 					"message": "Deleting bootstrap.cia..."
 				},
 				{
@@ -6928,7 +6928,7 @@
 				},
 				{
 					"type": "promptMessage",
-					"message": "You will need to generate the actual forwarders on your computer.\n\nSee the README for more information:\nhttps://github.com/lifehackerhansol/CTR-NDSForwarder"
+					"message": "You will need to generate the actual forwarders on your computer.\n\nSee the README for more information:\nhttps://github.com/lifehackerhansol/YANBF"
 				}
 			]
 		}
