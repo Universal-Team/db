@@ -1,5 +1,5 @@
 ---
-author: Oreo639
+author: oreo639
 avatar: https://avatars.githubusercontent.com/u/31916379?v=4
 categories:
 - utility
@@ -11,7 +11,7 @@ downloads:
   LimePlayer3DS.3dsx:
     size: 1043248
     size_str: 1018 KiB
-    url: https://github.com/Oreo639/LimePlayer3DS/releases/download/v0.0.10/LimePlayer3DS.3dsx
+    url: https://github.com/oreo639/LimePlayer3DS/releases/download/v0.0.10/LimePlayer3DS.3dsx
 github: Oreo639/LimePlayer3DS
 icon: https://raw.githubusercontent.com/Oreo639/LimePlayer3DS/master/meta/icon.png
 icon_index: 153
@@ -27,7 +27,7 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/limeplayer3ds/playback-screen.png
 - description: Quick menu
   url: https://db.universal-team.net/assets/images/screenshots/limeplayer3ds/quick-menu.png
-source: https://github.com/Oreo639/LimePlayer3DS
+source: https://github.com/oreo639/LimePlayer3DS
 systems:
 - 3DS
 title: LimePlayer3DS
@@ -62,5 +62,5 @@ updated: '2021-05-15T07:58:46Z'
 version: v0.0.10
 version_title: Beta 3 - Late pandemic release
 website: https://github.com/Oreo639/LimePlayer3DS/wiki/
-wiki: https://github.com/Oreo639/LimePlayer3DS/wiki
+wiki: https://github.com/oreo639/LimePlayer3DS/wiki
 ---

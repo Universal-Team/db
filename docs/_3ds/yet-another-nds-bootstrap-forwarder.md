@@ -21,7 +21,7 @@ downloads:
     size_str: 982 KiB
     url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.0.0/YANBF-macOS.zip
 github: lifehackerhansol/YANBF
-icon_index: -1
+icon_index: 199
 image: https://avatars.githubusercontent.com/u/37358975?v=4
 image_length: 32023
 layout: app
@@ -35,7 +35,23 @@ update_notes: '<p dir="auto">Yet another nds-bootstrap forwarder.</p>
 
   <p dir="auto">Thanks <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  for effectively debugging and testing everything up to this release.</p>'
+  for effectively debugging and testing everything up to this release.</p>
+
+  <p dir="auto">Known issues:</p>
+
+  <ul dir="auto">
+
+  <li><code>requirements.txt</code> is missing
+
+  <ul dir="auto">
+
+  <li>please run <code>pip install Pillow requests</code> in the meantime</li>
+
+  </ul>
+
+  </li>
+
+  </ul>'
 updated: '2022-01-14T05:09:04Z'
 version: v1.0.0
 version_title: 'v1.0.0: First release'
