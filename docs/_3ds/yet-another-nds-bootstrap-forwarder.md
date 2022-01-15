@@ -9,17 +9,17 @@ description: Yet another nds-bootstrap forwarder. Runs from 3DS-mode!
 download_page: https://github.com/lifehackerhansol/YANBF/releases
 downloads:
   YANBF-Linux.zip:
-    size: 1276368
+    size: 1277018
     size_str: 1 MiB
-    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.0.0/YANBF-Linux.zip
+    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.0.1/YANBF-Linux.zip
   YANBF-Windows.zip:
-    size: 1903332
+    size: 1903982
     size_str: 1 MiB
-    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.0.0/YANBF-Windows.zip
+    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.0.1/YANBF-Windows.zip
   YANBF-macOS.zip:
-    size: 1006463
-    size_str: 982 KiB
-    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.0.0/YANBF-macOS.zip
+    size: 1007113
+    size_str: 983 KiB
+    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.0.1/YANBF-macOS.zip
 github: lifehackerhansol/YANBF
 icon_index: 199
 image: https://avatars.githubusercontent.com/u/37358975?v=4
@@ -31,29 +31,27 @@ source: https://github.com/lifehackerhansol/YANBF
 systems:
 - 3DS
 title: Yet Another nds-bootstrap Forwarder
-update_notes: '<p dir="auto">Yet another nds-bootstrap forwarder.</p>
-
-  <p dir="auto">Thanks <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  for effectively debugging and testing everything up to this release.</p>
-
-  <p dir="auto">Known issues:</p>
+update_notes: '<p dir="auto">Bug fixes:</p>
 
   <ul dir="auto">
 
-  <li><code>requirements.txt</code> is missing
+  <li>Proper checking of the banner version and CRC-16 is now implemented to avoid
+  issues with poorly created banners, common in some ROM hacks.</li>
 
-  <ul dir="auto">
-
-  <li>please run <code>pip install Pillow requests</code> in the meantime</li>
+  <li><code>requirements.txt</code> has been added.</li>
 
   </ul>
 
-  </li>
+  <p dir="auto">Enhancements:</p>
+
+  <ul dir="auto">
+
+  <li>Better error handling for bannertool and makerom has been added to allow for
+  proper debugging if things break.</li>
 
   </ul>'
-updated: '2022-01-14T05:09:04Z'
-version: v1.0.0
-version_title: 'v1.0.0: First release'
+updated: '2022-01-14T21:01:35Z'
+version: v1.0.1
+version_title: 'v1.0.1: I fixed things'
 ---
 YANBF is a 3DS-mode nds-bootstrap forwarder, allowing for more than 40 forwarder titles as compared to the older forwarder template.
