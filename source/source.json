@@ -6932,5 +6932,12 @@
 				}
 			]
 		}
+	},
+	{
+		"github": "Epicpkmn11/NTM",
+		"systems": ["DS"],
+		"categories": ["utility"],
+		"icon": "https://raw.githubusercontent.com/Epicpkmn11/NTM/master/icon.bmp",
+		"unistore_exclude": true
 	}
 ]
