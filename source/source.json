@@ -6872,7 +6872,6 @@
 	},
 	{
 		"github": "lifehackerhansol/YANBF",
-		"title": "Yet Another nds-bootstrap Forwarder",
 		"long_description": "YANBF is a 3DS-mode nds-bootstrap forwarder, allowing for more than 40 forwarder titles as compared to the older forwarder template.",
 		"systems": ["3DS"],
 		"categories": ["utility"],
