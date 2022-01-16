@@ -1302,6 +1302,7 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"author": "MarcuzD",
+		"avatar": "https://avatars.githubusercontent.com/u/59751328?v=4",
 		"description": "Makes your LED go rainbow."
 	},
 	{
@@ -1318,6 +1319,7 @@
 		"image": "https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resources/icon.png",
 		"author": "MrCheeze",
+		"avatar": "https://avatars.githubusercontent.com/u/6541413?v=4",
 		"autogen_scripts": true,
 		"scripts": {
 			"GYTB.3dsx": [
