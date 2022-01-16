@@ -14,7 +14,7 @@ downloads:
     url: https://github.com/Epicpkmn11/NTM/releases/download/v0.1.0/NTM.dsi
 github: Epicpkmn11/NTM
 icon: https://db.universal-team.net/assets/images/icons/ntm.png
-icon_index: -1
+icon_index: 200
 image: https://db.universal-team.net/assets/images/icons/ntm.png
 image_length: 586
 layout: app
@@ -33,7 +33,9 @@ update_notes: '<blockquote>
   </blockquote>
 
   <p dir="auto">As this is the first release of NTM and it''s a fork of TMFH, this
-  is a changelog from TMFH <a href="https://github.com/JeffRuLz/TMFH/releases/tag/v0.7.0">v0.7.0</a>.</p>
+  is a changelog from <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/JeffRuLz/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/JeffRuLz">@JeffRuLz</a>''s
+  TMFH <a href="https://github.com/JeffRuLz/TMFH/releases/tag/v0.7.0">v0.7.0</a>.</p>
 
   <h3 dir="auto">What''s new?</h3>
 
@@ -45,6 +47,11 @@ update_notes: '<blockquote>
 
   <li>Many safety features have been implemented, however this has potential to be
   <strong>dangerous</strong>, please use with caution</li>
+
+  <li>Thanks to <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/DesperateProgrammer/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DesperateProgrammer">@DesperateProgrammer</a>
+  for the correct NAND writing code from <a href="https://github.com/DesperateProgrammer/DSiLanguagePacher">DSi
+  Language Patcher</a></li>
 
   </ul>
 
@@ -116,3 +123,4 @@ version: v0.1.0
 version_title: Initial release
 wiki: https://github.com/Epicpkmn11/NTM/wiki
 ---
+NAND Title Manager, NTM for short, is an application for the Nintendo DSi that allows you to manage titles on your NAND. It can manage titles on both [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/)'s SDNAND and your actual internal memory, typically called SysNAND. **When using in SysNAND mode please use with caution**.
