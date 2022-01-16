@@ -10,17 +10,17 @@ description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. 
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 991232
-    size_str: 968 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.7/ColecoDS.nds
+    size: 994304
+    size_str: 971 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.8/ColecoDS.nds
   README.md:
-    size: 14679
-    size_str: 14 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.7/README.md
+    size: 15811
+    size_str: 15 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.8/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.7/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.8/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 197
@@ -31,24 +31,22 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V5.7: 12-Jan-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V5.8: 16-Jan-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Fixed RESET of Colecovision games.</li>
+  <li>Improved DMA memory handling of MSX to bump mega ROM games speed by up to 10%</li>
 
-  <li>Added MSX keypad template and configurable MSX key ''5''</li>
+  <li>Improved loading database so more games detect memory mapper correctly.</li>
 
-  <li>Improved detection of 32K MSX basic games for better compatibility.</li>
+  <li>Faster RAM swapping for improved loading speed on games.</li>
 
-  <li>Allow 64K ROMs to be loaded in linear memory.</li>
+  <li>Other cleanups and improvements under the hood.</li>
 
-  <li>Allow 48K ROMs to be memory mapped.</li>
-
-  <li>Allow 32K ROMs to be loaded at 0K, 4K or 8K.</li>
+  <li>Fixed AY noise</li>
 
   </ul>'
-updated: '2022-01-13T02:36:29Z'
-version: '5.7'
-version_title: Version 5.7
+updated: '2022-01-16T15:22:01Z'
+version: '5.8'
+version_title: Version 5.8
 ---
