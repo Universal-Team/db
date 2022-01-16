@@ -6881,9 +6881,9 @@
 				{
 					"type": "downloadRelease",
 					"repo": "lifehackerhansol/YANBF",
-					"file": "YANBF-macOS.zip",
-					"output": "/YANBF-macOS.zip",
-					"message": "Downloading YANBF-macOS.zip..."
+					"file": "bootstrap.cia",
+					"output": "/bootstrap.cia",
+					"message": "Downloading bootstrap.cia..."
 				},
 				{
 					"type": "downloadRelease",
@@ -6891,13 +6891,6 @@
 					"file": "DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
 					"output": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
 					"message": "Downloading DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/YANBF-macOS.zip",
-					"input": "bootstrap.cia",
-					"output": "/bootstrap.cia",
-					"message": "Extracting YANBF-macOS.zip..."
 				},
 				{
 					"type": "extractFile",
@@ -6915,11 +6908,6 @@
 					"type": "deleteFile",
 					"file": "/bootstrap.cia",
 					"message": "Deleting bootstrap.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/YANBF-macOS.zip",
-					"message": "Deleting YANBF-macOS.zip..."
 				},
 				{
 					"type": "deleteFile",
