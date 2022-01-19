@@ -10,17 +10,17 @@ description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. 
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 994304
-    size_str: 971 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.8/ColecoDS.nds
+    size: 925696
+    size_str: 904 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.9/ColecoDS.nds
   README.md:
-    size: 15811
+    size: 16145
     size_str: 15 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.8/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.9/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.8/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.9/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 197
@@ -31,22 +31,15 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V5.8: 16-Jan-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V5.9: 19-Jan-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Improved DMA memory handling of MSX to bump mega ROM games speed by up to 10%</li>
-
-  <li>Improved loading database so more games detect memory mapper correctly.</li>
-
-  <li>Faster RAM swapping for improved loading speed on games.</li>
-
-  <li>Other cleanups and improvements under the hood.</li>
-
-  <li>Fixed AY noise</li>
+  <li>Refactor of memory to gain another 128K of fast VRAM to improve Coleco MegaCart
+  and MSX games.</li>
 
   </ul>'
-updated: '2022-01-16T15:22:01Z'
-version: '5.8'
-version_title: Version 5.8
+updated: '2022-01-19T11:52:19Z'
+version: '5.9'
+version_title: Version 5.9
 ---
