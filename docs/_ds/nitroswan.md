@@ -12,9 +12,9 @@ description: WonderSwan emulator for Nintendo DS.
 download_page: https://github.com/FluBBaOfWard/NitroSwan/releases
 downloads:
   NitroSwan.zip:
-    size: 144337
-    size_str: 140 KiB
-    url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.1.3/NitroSwan.zip
+    size: 140035
+    size_str: 136 KiB
+    url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.2.0/NitroSwan.zip
 github: FluBBaOfWard/NitroSwan
 icon: https://db.universal-team.net/assets/images/icons/nitroswan.png
 icon_index: 194
@@ -25,8 +25,8 @@ source: https://github.com/FluBBaOfWard/NitroSwan
 systems:
 - DS
 title: NitroSwan
-update_notes: <p dir="auto">Rewrote large portions of the cpu core in asm.</p>
-updated: '2022-01-09T10:55:06Z'
-version: v0.1.3
-version_title: V0.1.3
+update_notes: <p dir="auto">Completed the rewrite of the cpu core in ARM asm.</p>
+updated: '2022-01-19T21:35:02Z'
+version: v0.2.0
+version_title: V0.2.0
 ---
