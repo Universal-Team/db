@@ -3,13 +3,13 @@ author: Linux for 3DS
 avatar: https://avatars.githubusercontent.com/u/81656710?v=4
 categories:
 - firm
-color: '#597d8b'
+color: '#5b7f8b'
 created: '2021-01-02T21:01:10Z'
-description: 'Linux for 3DS - Default Log in username: root, password: toor'
+description: 'Linux for 3DS - Default log in username: root password: toor'
 download_page: https://github.com/linux-3ds/linux/releases
 github: linux-3ds/linux
-icon: https://github.com/linux-3ds.png
-icon_index: -1
+icon: https://github.com/linux-3ds.png?size=48
+icon_index: 165
 image: https://github.com/linux-3ds.png
 image_length: 210907
 layout: app
