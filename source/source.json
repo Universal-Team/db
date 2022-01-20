@@ -6272,39 +6272,57 @@
 		"icon": "https://raw.githubusercontent.com/LiquidFenrir/CalculaThreeDS/main/icon.png"
 	},
 	{
-		"github": "xerpi/linux_3ds",
+		"title": "Linux for 3DS",
+		"description": "Linux for 3DS - Default Log in username: root, password: toor",
+		"github": "linux-3ds/linux",
 		"systems": ["3DS"],
 		"categories": ["firm"],
-		"image": "https://raw.githubusercontent.com/linux-3ds/linux/master/Documentation/logo.gif",
-		"icon": "https://raw.githubusercontent.com/linux-3ds/linux/master/Documentation/logo.gif",
-		"website": "https://gbatemp.net/threads/release-linux-for-the-3ds.407187/",
+		"image": "https://github.com/linux-3ds.png",
+		"icon": "https://github.com/linux-3ds.png",
+		"website": "https://github.com/linux-3ds/",
+		"version": "9c6f996",
+		"version_title": "Development build 9c6f996",
 		"scripts": {
 			"linux_3ds": [
 				{
 					"type": "downloadRelease",
-					"repo": "xerpi/linux_3ds",
-					"file": "linux-3ds-.*\\.zip",
-					"output": "/linux-3ds.zip",
-					"message": "Downloading linux-3ds zip..."
+					"repo": "linux-3ds/linux",
+					"file": "nintendo3ds_ctr.dtb",
+					"output": "/linux/nintendo3ds_ctr.dtb",
+					"message": "Downloading nintendo3ds_ctr.dtb...",
+					"includePrereleases": true
 				},
 				{
-					"type": "extractFile",
-					"file": "/linux-3ds.zip",
-					"input": "linux-3ds-.*/firm_linux_loader.firm",
-					"output": "%FIRM%/firm_linux_loader.firm",
-					"message": "Extracting firm_linux_loader.firm..."
+					"type": "downloadRelease",
+					"repo": "linux-3ds/linux",
+					"file": "nintendo3ds_ktr.dtb",
+					"output": "/linux/nintendo3ds_ktr.dtb",
+					"message": "Downloading nintendo3ds_ktr.dtb...",
+					"includePrereleases": true
 				},
 				{
-					"type": "extractFile",
-					"file": "/linux-3ds.zip",
-					"input": "linux-3ds-.*/linux/",
-					"output": "/linux/",
-					"message": "Extracting linux..."
+					"type": "downloadRelease",
+					"repo": "linux-3ds/linux",
+					"file": "zImage",
+					"output": "/linux/zImage",
+					"message": "Downloading zImage...",
+					"includePrereleases": true
 				},
 				{
-					"type": "deleteFile",
-					"file": "/linux-3ds.zip",
-					"message": "Deleting linux-3ds.zip..."
+					"type": "downloadRelease",
+					"repo": "linux-3ds/arm9linuxfw",
+					"file": "arm9linuxfw.bin",
+					"output": "/linux/arm9linuxfw.bin",
+					"message": "Downloading arm9linuxfw.bin...",
+					"includePrereleases": true
+				},
+				{
+					"type": "downloadRelease",
+					"repo": "linux-3ds/firm_linux_loader",
+					"file": "firm_linux_loader.firm",
+					"output": "/luma/payloads/firm_linux_loader.firm",
+					"message": "Downloading firm_linux_loader.firm...",
+					"includePrereleases": true
 				}
 			]
 		}
