@@ -217,9 +217,8 @@ update_notes: '<ul dir="auto">
   (no exFAT or FAT32 support yet)</li>
 
   </ul>'
-updated: '2022-01-19T18:56:22Z'
+updated: '2022-01-20T17:38:41Z'
 version: v1.10.0
-version_title: v1.10.0
 website: http://www.libretro.com
 wiki: https://github.com/libretro/RetroArch/wiki
 ---
