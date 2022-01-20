@@ -6273,33 +6273,17 @@
 	},
 	{
 		"title": "Linux for 3DS",
-		"description": "Linux for 3DS - Default Log in username: root, password: toor",
+		"description": "Linux for 3DS - Default log in username: root password: toor",
 		"github": "linux-3ds/linux",
 		"systems": ["3DS"],
 		"categories": ["firm"],
 		"image": "https://github.com/linux-3ds.png",
-		"icon": "https://github.com/linux-3ds.png",
+		"icon": "https://github.com/linux-3ds.png?size=48",
 		"website": "https://github.com/linux-3ds/",
 		"version": "9c6f996",
 		"version_title": "Development build 9c6f996",
 		"scripts": {
-			"linux_3ds": [
-				{
-					"type": "downloadRelease",
-					"repo": "linux-3ds/linux",
-					"file": "nintendo3ds_ctr.dtb",
-					"output": "/linux/nintendo3ds_ctr.dtb",
-					"message": "Downloading nintendo3ds_ctr.dtb...",
-					"includePrereleases": true
-				},
-				{
-					"type": "downloadRelease",
-					"repo": "linux-3ds/linux",
-					"file": "nintendo3ds_ktr.dtb",
-					"output": "/linux/nintendo3ds_ktr.dtb",
-					"message": "Downloading nintendo3ds_ktr.dtb...",
-					"includePrereleases": true
-				},
+			"zImage": [
 				{
 					"type": "downloadRelease",
 					"repo": "linux-3ds/linux",
@@ -6307,7 +6291,29 @@
 					"output": "/linux/zImage",
 					"message": "Downloading zImage...",
 					"includePrereleases": true
-				},
+				}
+			],
+			"nintendo3ds_ctr.dtb": [
+				{
+					"type": "downloadRelease",
+					"repo": "linux-3ds/linux",
+					"file": "nintendo3ds_ctr.dtb",
+					"output": "/linux/nintendo3ds_ctr.dtb",
+					"message": "Downloading nintendo3ds_ctr.dtb...",
+					"includePrereleases": true
+				}
+			],
+			"nintendo3ds_ktr.dtb": [
+				{
+					"type": "downloadRelease",
+					"repo": "linux-3ds/linux",
+					"file": "nintendo3ds_ktr.dtb",
+					"output": "/linux/nintendo3ds_ktr.dtb",
+					"message": "Downloading nintendo3ds_ktr.dtb...",
+					"includePrereleases": true
+				}
+			],
+			"arm9linuxfw.bin": [
 				{
 					"type": "downloadRelease",
 					"repo": "linux-3ds/arm9linuxfw",
@@ -6315,7 +6321,9 @@
 					"output": "/linux/arm9linuxfw.bin",
 					"message": "Downloading arm9linuxfw.bin...",
 					"includePrereleases": true
-				},
+				}
+			],
+			"firm_linux_loader.firm": [
 				{
 					"type": "downloadRelease",
 					"repo": "linux-3ds/firm_linux_loader",
