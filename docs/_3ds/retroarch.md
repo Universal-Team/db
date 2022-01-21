@@ -10,8 +10,12 @@ description: Cross-platform, sophisticated frontend for the libretro API. Licens
 download_page: https://buildbot.libretro.com/stable/1.10.0/nintendo/3ds
 downloads:
   RetroArch_3dsx.7z:
+    size: 73976240
+    size_str: 70 MiB
     url: https://buildbot.libretro.com/stable/1.10.0/nintendo/3ds/RetroArch_3dsx.7z
   RetroArch_cia.7z:
+    size: 74965352
+    size_str: 71 MiB
     url: https://buildbot.libretro.com/stable/1.10.0/nintendo/3ds/RetroArch_cia.7z
 eval_downloads: true
 eval_notes_md: true
@@ -68,6 +72,8 @@ update_notes: '<ul dir="auto">
   <li>CORE INFO CACHE/SETTINGS: Restore missing ''Cache Core Info Files'' menu entry</li>
 
   <li>DATABASE: Serial scanning for Gamecube/MegaCD/SegaCD/Saturn/PSX/PSP/Dreamcast/Wii</li>
+
+  <li>D3D10/D3D11: Add Vsync swap interval</li>
 
   <li>EMSCRIPTEN: Add Jaxe, WASM4 cores</li>
 
