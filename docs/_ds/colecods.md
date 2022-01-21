@@ -10,17 +10,17 @@ description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. 
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 925696
-    size_str: 904 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.9/ColecoDS.nds
+    size: 926720
+    size_str: 905 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.0/ColecoDS.nds
   README.md:
-    size: 16145
+    size: 16310
     size_str: 15 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.9/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.0/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/5.9/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.0/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 197
@@ -31,15 +31,18 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V5.9: 19-Jan-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V6.0: 21-Jan-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Refactor of memory to gain another 128K of fast VRAM to improve Coleco MegaCart
-  and MSX games.</li>
+  <li>Improved MSX compatibility - more playable games.</li>
+
+  <li>Added D-PAD to emulate MSX arrow keys.</li>
+
+  <li>Added D-PAD diagonals emulation.</li>
 
   </ul>'
-updated: '2022-01-19T11:52:19Z'
-version: '5.9'
-version_title: Version 5.9
+updated: '2022-01-21T13:03:48Z'
+version: '6.0'
+version_title: Version 6.0
 ---
