@@ -984,7 +984,7 @@
 		"github": "ahezard/NitroHax3DS",
 		"systems": ["DS"],
 		"categories": ["utility"],
-		"long_description": "This is for use on DSi/3DS from internal SD, if using a flashcard see [NitroHax](nitrohax). This version uses a `cheats.xml` database, see the [usrcheat.dat fork](nitrohax3ds-usrcheat-dat) to use a `usrcheat.dat` database.",
+		"long_description": "This is for use on DSi/3DS from internal SD, if using a flashcard see [NitroHax](nitrohax). This version uses a `cheats.xml` database, see the [usrcheat.dat fork](nitrohax3ds-usrcheat-dat) to use a `usrcheat.dat` database.\n\nIf using on DSi make sure you have [Unlaunch installed](https://dsi.cfw.guide/installing-unlaunch.html)",
 		"icon": "https://raw.githubusercontent.com/ahezard/NitroHax3DS/master/icon.bmp",
 		"downloads": {
 			"NitroHax.cia": {
@@ -995,7 +995,7 @@
 	{
 		"github": "Epicpkmn11/NitroHax3DS",
 		"title": "NitroHax3DS (usrcheat.dat)",
-		"long_description": "This is for use on DSi/3DS from internal SD, if using a flashcard see [NitroHax](nitrohax). This fork uses a `usrcheat.dat` database, see [the original](nitrohax3ds) to use a `cheats.xml` database.",
+		"long_description": "This is for use on DSi/3DS from internal SD, if using a flashcard see [NitroHax](nitrohax). This fork uses a `usrcheat.dat` database, see [the original](nitrohax3ds) to use a `cheats.xml` database.\n\nIf using on DSi make sure you have [Unlaunch installed](https://dsi.cfw.guide/installing-unlaunch.html)",
 		"systems": ["DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/Epicpkmn11/NitroHax3DS/master/icon.bmp"
