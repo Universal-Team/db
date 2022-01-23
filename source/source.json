@@ -966,6 +966,7 @@
 	{
 		"github": "chishm/nitrohax",
 		"updated": "2018-04-09T13:00:02Z",
+		"long_description": "This is for use on flashcards, if using the internal SD on DSi/3DS see [NitroHax3DS](nitrohax3ds) or the [usrcheat.dat fork](nitrohax3ds-usrcheat-dat).",
 		"icon": "https://raw.githubusercontent.com/chishm/nitrohax/master/icon.bmp",
 		"systems": ["DS"],
 		"downloads": {
@@ -983,6 +984,7 @@
 		"github": "ahezard/NitroHax3DS",
 		"systems": ["DS"],
 		"categories": ["utility"],
+		"long_description": "This is for use on DSi/3DS from internal SD, if using a flashcard see [NitroHax](nitrohax). This version uses a `cheats.xml` database, see the [usrcheat.dat fork](nitrohax3ds-usrcheat-dat) to use a `usrcheat.dat` database.",
 		"icon": "https://raw.githubusercontent.com/ahezard/NitroHax3DS/master/icon.bmp",
 		"downloads": {
 			"NitroHax.cia": {
@@ -993,7 +995,7 @@
 	{
 		"github": "Epicpkmn11/NitroHax3DS",
 		"title": "NitroHax3DS (usrcheat.dat)",
-		"long_description": "This is a fork of [ahezard/NitroHax3DS](nitrohax3ds) that switches the cheat database format to `usrcheat.dat`. If you want to use `cheats.xml`, then use the original.",
+		"long_description": "This is for use on DSi/3DS from internal SD, if using a flashcard see [NitroHax](nitrohax). This fork uses a `usrcheat.dat` database, see [the original](nitrohax3ds) to use a `cheats.xml` database.",
 		"systems": ["DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/Epicpkmn11/NitroHax3DS/master/icon.bmp"
