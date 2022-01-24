@@ -3,7 +3,7 @@ author: RedShyGuy
 avatar: https://avatars.githubusercontent.com/u/43783060?v=4
 categories:
 - utility
-color: '#947677'
+color: '#a5a5a5'
 created: '2019-08-22T07:15:13Z'
 description: Animal Crossing NL Vapecord Public Plugin WIP
 download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases
@@ -15,7 +15,7 @@ downloads:
 github: RedShyGuy/Vapecord-ACNL-Plugin
 icon_index: 152
 image: https://avatars.githubusercontent.com/u/43783060?v=4
-image_length: 23338
+image_length: 19641
 layout: app
 license: mit
 license_name: MIT License
