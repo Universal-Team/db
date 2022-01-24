@@ -73,4 +73,6 @@ updated: '2021-01-11T07:44:59Z'
 version: '0.100'
 version_title: Load cheats from usrcheat.dat instead of cheats.xml
 ---
-This is a fork of [ahezard/NitroHax3DS](nitrohax3ds) that switches the cheat database format to `usrcheat.dat`. If you want to use `cheats.xml`, then use the original.
+This is for use on DSi/3DS from internal SD, if using a flashcard see [NitroHax](nitrohax). This fork uses a `usrcheat.dat` database, see [the original](nitrohax3ds) to use a `cheats.xml` database.
+
+If using on DSi make sure you have [Unlaunch installed](https://dsi.cfw.guide/installing-unlaunch.html)

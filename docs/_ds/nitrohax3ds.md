@@ -43,3 +43,6 @@ updated: '2018-04-26T01:26:55Z'
 version: 0.99.DSI
 version_title: 0.99.NTR DSI Build
 ---
+This is for use on DSi/3DS from internal SD, if using a flashcard see [NitroHax](nitrohax). This version uses a `cheats.xml` database, see the [usrcheat.dat fork](nitrohax3ds-usrcheat-dat) to use a `usrcheat.dat` database.
+
+If using on DSi make sure you have [Unlaunch installed](https://dsi.cfw.guide/installing-unlaunch.html)
