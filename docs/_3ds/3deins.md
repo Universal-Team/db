@@ -28,7 +28,6 @@ github: Universal-Team/3DEins
 icon: https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/icon.png
 icon_index: 1
 image: https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/banner.png
-image_length: 8040
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
