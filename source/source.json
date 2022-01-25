@@ -5740,11 +5740,6 @@
 		"categories": ["utility", "firm", "luma3ds"]
 	},
 	{
-		"github": "mikewii/Luma3DS-plugin",
-		"systems": ["3DS"],
-		"categories": ["utility", "firm", "luma3ds"]
-	},
-	{
 		"github": "fincs/new-hbmenu",
 		"systems": ["3DS"],
 		"categories": ["utility"],
