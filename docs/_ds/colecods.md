@@ -10,17 +10,17 @@ description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. 
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 926720
-    size_str: 905 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.0/ColecoDS.nds
+    size: 951296
+    size_str: 929 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.1/ColecoDS.nds
   README.md:
-    size: 16310
-    size_str: 15 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.0/README.md
+    size: 16908
+    size_str: 16 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.1/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.0/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.1/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 197
@@ -31,18 +31,22 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V6.0: 21-Jan-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V6.1: 25-Jan-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Improved MSX compatibility - more playable games.</li>
+  <li>Added full MSX keyboard overlay - Choose "MSX Full" in Game Options.</li>
 
-  <li>Added D-PAD to emulate MSX arrow keys.</li>
+  <li>Improved ASC8 mapper so Bomber King, Batman Rovin and others now playable.</li>
 
-  <li>Added D-PAD diagonals emulation.</li>
+  <li>Added SRAM support to make Hydlide II, Dragon Slayer II (Xanadu) and Deep Dungeon
+  2 are now playable.</li>
+
+  <li>Added ''beeper music'' sounds so games like Avenger, Batman - The Movie and
+  Masters of the Universe have sound.</li>
 
   </ul>'
-updated: '2022-01-21T13:03:48Z'
-version: '6.0'
-version_title: Version 6.0
+updated: '2022-01-25T12:15:53Z'
+version: '6.1'
+version_title: Version 6.1
 ---
