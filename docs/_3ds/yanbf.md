@@ -25,7 +25,7 @@ downloads:
     size_str: 212 KiB
     url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.1.0/bootstrap.cia
 github: lifehackerhansol/YANBF
-icon_index: 199
+icon_index: 198
 image: https://avatars.githubusercontent.com/u/37358975?v=4
 image_length: 32023
 layout: app
