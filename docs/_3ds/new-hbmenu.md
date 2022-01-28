@@ -12,7 +12,7 @@ downloads:
   boot.3dsx:
     size: 361820
     size_str: 353 KiB
-    url: https://github.com/fincs/new-hbmenu/releases/download/v2.2.0/boot.3dsx
+    url: https://github.com/fincs/new-hbmenu/releases/download/v2.3.0/boot.3dsx
 github: fincs/new-hbmenu
 icon: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
 icon_index: 149
@@ -34,27 +34,14 @@ update_notes: '<ul dir="auto">
 
   <li>Built with latest tools and libraries.</li>
 
-  <li>Added starring system (backported from nx-hbmenu): press SELECT to star or unstar
-  an application.</li>
-
-  <li>Added key repeat support for scrolling.</li>
-
-  <li>Added wave rendering!</li>
-
-  <li>Removed support for ninjhax 1.x.</li>
-
-  <li>Simplified app bundle detection support, removing some obsolete edge cases.</li>
-
-  <li>Miscellaneous optimizations and bug fixes.</li>
+  <li>Added support for 3dslink server option (requires 3dslink 0.6.1, available via
+  <a href="https://github.com/devkitPro/pacman/releases/latest">devkitPro pacman</a>).</li>
 
   <li>Further improvements to overall system stability and other minor adjustments
   have been made to enhance the user experience.</li>
 
-  </ul>
-
-  <p dir="auto"><strong>Binary hotfixed on 2020/07/18 01:50 (UTC+2) to solve a hax
-  2.x compatibility problem</strong></p>'
-updated: '2020-07-16T15:04:31Z'
-version: v2.2.0
-version_title: Homebrew Menu v2.2.0
+  </ul>'
+updated: '2022-01-28T18:08:56Z'
+version: v2.3.0
+version_title: Homebrew Menu v2.3.0
 ---
