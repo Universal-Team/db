@@ -53,7 +53,7 @@
 	"wiki": "Wiki",
 	"downloads": "Nedlastinger",
 	"download-name": "Last ned ${name}",
-	"update-notes": "Oppdater notater",
+	"update-notes": "Oppdaterings notater",
 	"prereleases": "Prereleaser",
 	"nightlies": "Nattlige",
 	"nightly-desc": "Commit/beta builds, potensielt ustabile men har de nyeste oppdateringene",
