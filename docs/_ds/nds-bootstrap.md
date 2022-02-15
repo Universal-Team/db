@@ -89,7 +89,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <li>Lola''s Alphabet Train</li>
 
-  <li>Magentic Joe</li>
+  <li>Magnetic Joe</li>
 
   <li>Monster Buster Club</li>
 
@@ -164,8 +164,9 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>In <em>Shantae: Risky''s Revenge</em>, only the first fight is playable. The
-  game cannot go further than that, and music is disabled, both due to memory limitations.</li>
+  <li>In <em>Shantae: Risky''s Revenge</em> (when played in B4DS mode), only the first
+  fight is playable. The game cannot go further than that, and music is disabled,
+  both due to memory limitations.</li>
 
   </ul>'
 updated: '2022-02-15T01:23:51Z'
