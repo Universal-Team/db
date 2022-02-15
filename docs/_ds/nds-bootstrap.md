@@ -149,7 +149,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <li><em>Nintendo DSi Camera</em> &amp; <em>Nintendo DSi Sound</em> now boot again!</li>
 
-  <li>Fixed soft-resetting not working in supported DSiWare titles.</li>
+  <li>Fixed soft-reset not working in supported DSiWare titles.</li>
 
   <li>Certain DSiWare titles should now access the SD card again, instead of giving
   an error or whatever the title does.</li>

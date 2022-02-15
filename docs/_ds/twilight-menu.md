@@ -119,11 +119,11 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>)
-  Added Ace3DS+ (and clones), R4iTT 3DS flashcart loaders.</li>
+  Added Ace3DS+ and R4iTT 3DS (and clones) flashcart loaders.</li>
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>)
-  Added M3 DS Real and iTouchDS autoboot.</li>
+  Added iTouchDS autoboot.</li>
 
   <li>In order to free up some space, the DS Classic music has been removed.
 
@@ -174,6 +174,16 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <li>In the per-game settings, <code>USA</code> text is now shown, if TID ends with
   <code>O</code>.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Known bug</strong></p>
+
+  <ul dir="auto">
+
+  <li>The random crashes related to SD writes (notably when launching games with ESRB
+  splash enabled or when exiting settings) have not been fixed. This does not occur
+  on flashcards.</li>
 
   </ul>'
 updated: '2022-02-15T01:57:01Z'
