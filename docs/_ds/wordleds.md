@@ -22,7 +22,7 @@ downloads:
     url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.0.0/WordleDS.nds
 github: Epicpkmn11/WordleDS
 icon: https://db.universal-team.net/assets/images/icons/wordleds.png
-icon_index: -1
+icon_index: 200
 image: https://db.universal-team.net/assets/images/icons/wordleds.png
 image_length: 630
 layout: app
@@ -62,9 +62,9 @@ update_notes: '<p dir="auto">A clone of <a href="https://www.nytimes.com/games/w
   while the <code>.nds</code> build doesn''t so it works on flashcards. The <code>.cia</code>
   build can be used to install to the 3DS HOME Menu, here''s a QR:</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/154047140-1aeafc63-25b5-40ca-84a6-ae3243af7b3c.png"><img
-  src="https://user-images.githubusercontent.com/41608708/154047140-1aeafc63-25b5-40ca-84a6-ae3243af7b3c.png"
-  alt="qr" style="max-width: 100%;"></a></p>'
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/154049090-9b3406e0-c8cb-47e5-a216-c8c0507252e1.png"><img
+  src="https://user-images.githubusercontent.com/41608708/154049090-9b3406e0-c8cb-47e5-a216-c8c0507252e1.png"
+  alt="QR code for the CIA" style="max-width: 100%;"></a></p>'
 updated: '2022-02-15T10:48:19Z'
 version: v1.0.0
 ---
