@@ -9,10 +9,14 @@ description: Explore the city of Bohicon and talk to the villagers ! /!\ A bit o
   gore (low-resolution) /!\
 download_page: https://github.com/rayasticot/kirikou/releases
 downloads:
-  superkirikoudemo.nds:
-    size: 3390464
-    size_str: 3 MiB
-    url: https://github.com/rayasticot/kirikou/releases/download/2/superkirikoudemo.nds
+  kirikou.nds:
+    size: 4360192
+    size_str: 4 MiB
+    url: https://github.com/rayasticot/kirikou/releases/download/v1.0.2/kirikou.nds
+  kirikou2.nds:
+    size: 8355840
+    size_str: 7 MiB
+    url: https://github.com/rayasticot/kirikou/releases/download/v1.0.2/kirikou2.nds
 github: rayasticot/kirikou
 icon: https://db.universal-team.net/assets/images/icons/kirikou.png
 icon_index: 197
@@ -23,14 +27,12 @@ source: https://github.com/rayasticot/kirikou
 systems:
 - DS
 title: kirikou
-update_notes: '<p dir="auto">;)<br>
-
-  <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/88832503/146801807-370d6d27-ead5-41af-8b53-967e120bbf74.png"><img
-  src="https://user-images.githubusercontent.com/88832503/146801807-370d6d27-ead5-41af-8b53-967e120bbf74.png"
-  alt="chevreavantsamort" style="max-width: 100%;"></a></p>'
-updated: '2021-12-20T16:42:43Z'
-version: '2'
-version_title: superkirikoudemo
+update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/88832503/154327256-9b319436-796f-40fa-9a2f-fde44bec05df.png"><img
+  src="https://user-images.githubusercontent.com/88832503/154327256-9b319436-796f-40fa-9a2f-fde44bec05df.png"
+  alt="kiriback" style="max-width: 100%;"></a></p>'
+updated: '2022-02-16T18:01:44Z'
+version: v1.0.2
+version_title: kirikou fun
 ---
 Explore the city of Bohicon and talk to the villagers !
 
