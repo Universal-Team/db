@@ -6533,6 +6533,12 @@
 					"file": "https://raw.githubusercontent.com/TWLBot/Builds/master/extras/apfix.pck",
 					"output": "/_nds/ntr-forwarder/apfix.pck",
 					"message": "Downloading apfix.pck..."
+				},
+				{
+					"type": "downloadFile",
+					"file": "https://raw.githubusercontent.com/TWLBot/Builds/master/extras/widescreen.pck",
+					"output": "/_nds/ntr-forwarder/widescreen.pck",
+					"message": "Downloading widescreen.pck..."
 				}
 			]
 		}
@@ -6796,6 +6802,12 @@
 					"file": "https://raw.githubusercontent.com/TWLBot/Builds/master/extras/apfix.pck",
 					"output": "/_nds/ntr-forwarder/apfix.pck",
 					"message": "Downloading apfix.pck..."
+				},
+				{
+					"type": "downloadFile",
+					"file": "https://raw.githubusercontent.com/TWLBot/Builds/master/extras/widescreen.pck",
+					"output": "/_nds/ntr-forwarder/widescreen.pck",
+					"message": "Downloading widescreen.pck..."
 				}
 			]
 		}
@@ -6937,6 +6949,18 @@
 					"type": "deleteFile",
 					"file":"/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
 					"message": "Deleting DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
+				},
+				{
+					"type": "downloadFile",
+					"file": "https://raw.githubusercontent.com/TWLBot/Builds/master/extras/apfix.pck",
+					"output": "/_nds/ntr-forwarder/apfix.pck",
+					"message": "Downloading apfix.pck..."
+				},
+				{
+					"type": "downloadFile",
+					"file": "https://raw.githubusercontent.com/TWLBot/Builds/master/extras/widescreen.pck",
+					"output": "/_nds/ntr-forwarder/widescreen.pck",
+					"message": "Downloading widescreen.pck..."
 				},
 				{
 					"type": "promptMessage",
