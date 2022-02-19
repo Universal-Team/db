@@ -9,17 +9,17 @@ description: A clone of Wordle for the Nintendo DS(i)
 download_page: https://github.com/Epicpkmn11/WordleDS/releases
 downloads:
   WordleDS.cia:
-    size: 1057024
+    size: 1057536
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.0.0/WordleDS.cia
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.0.1/WordleDS.cia
   WordleDS.dsi:
-    size: 1042432
+    size: 1042944
     size_str: 1018 KiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.0.0/WordleDS.dsi
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.0.1/WordleDS.dsi
   WordleDS.nds:
-    size: 1042432
+    size: 1042944
     size_str: 1018 KiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.0.0/WordleDS.nds
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.0.1/WordleDS.nds
 github: Epicpkmn11/WordleDS
 icon: https://db.universal-team.net/assets/images/icons/wordleds.png
 icon_index: 200
@@ -43,18 +43,18 @@ source: https://github.com/Epicpkmn11/WordleDS
 systems:
 - DS
 title: WordleDS
-update_notes: '<p dir="auto">A clone of <a href="https://www.nytimes.com/games/wordle/index.html"
-  rel="nofollow">Wordle</a> for the Nintendo DS/DSi.</p>
+update_notes: '<h3 dir="auto">Bug fixes</h3>
 
-  <p dir="auto">My family has been playing it recently and the JavaScript is too modern
-  for all my handheld devices so I had to use my laptop, but I figured <em>I could
-  make this on DS</em>... so I did.</p>
+  <ul dir="auto">
 
-  <p dir="auto">It should be more or less feature complete with the original. The
-  daily word matches, it tracks your stats, has high contrast colors/hard mode options,
-  etc. It even makes a txt file with the shareable emoji grid so you can send that
-  to your friends if you want. It also has most of the fancy animations, had a fun
-  time figuring out how to affine transform sprites and such for those lol.</p>
+  <li>Fixes the color of the keyboard keys being set for every letter instead of just
+  when a letter was better resulting in them sometimes being the wrong color (ex.
+  the guess <code>color</code> would result in the <code>o</code> key being gray instead
+  of yellow if the answer had only one <code>o</code> not in the 4th position)</li>
+
+  </ul>
+
+  <hr>
 
   <p dir="auto"><code>WordleDS.nds</code> and <code>WordleDS.dsi</code> are identical
   except that the <code>.dsi</code> build has a title ID so it can be installed using
@@ -62,9 +62,10 @@ update_notes: '<p dir="auto">A clone of <a href="https://www.nytimes.com/games/w
   while the <code>.nds</code> build doesn''t so it works on flashcards. The <code>.cia</code>
   build can be used to install to the 3DS HOME Menu, here''s a QR:</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/154049090-9b3406e0-c8cb-47e5-a216-c8c0507252e1.png"><img
-  src="https://user-images.githubusercontent.com/41608708/154049090-9b3406e0-c8cb-47e5-a216-c8c0507252e1.png"
-  alt="QR code for the CIA" style="max-width: 100%;"></a></p>'
-updated: '2022-02-15T10:48:19Z'
-version: v1.0.0
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/154786240-e4129642-5017-4c21-84c2-b029319217a6.png"><img
+  src="https://user-images.githubusercontent.com/41608708/154786240-e4129642-5017-4c21-84c2-b029319217a6.png"
+  alt="QR for WordleDS.cia" style="max-width: 100%;"></a></p>'
+updated: '2022-02-19T04:33:49Z'
+version: v1.0.1
+version_title: Fix key colors
 ---

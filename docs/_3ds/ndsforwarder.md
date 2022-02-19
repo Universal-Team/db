@@ -17,6 +17,8 @@ icon_index: 174
 image: https://avatars.githubusercontent.com/u/43786828?v=4
 image_length: 30859
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 source: https://github.com/MechanicalDragon0687/NDSForwarder
 systems:
 - 3DS
