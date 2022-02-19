@@ -8,10 +8,10 @@ created: '2021-04-12T08:12:05Z'
 description: Generate and Install NDS Forwarders
 download_page: https://github.com/MechanicalDragon0687/NDSForwarder/releases
 downloads:
-  NDSForwarder.3dsx:
+  ndsForwarder.3dsx:
     size: 1024560
     size_str: 1000 KiB
-    url: https://github.com/MechanicalDragon0687/NDSForwarder/releases/download/1.4.0/NDSForwarder.3dsx
+    url: https://github.com/MechanicalDragon0687/ndsForwarder/releases/download/1.4.0/ndsForwarder.3dsx
 github: MechanicalDragon0687/NDSForwarder
 icon_index: 174
 image: https://avatars.githubusercontent.com/u/43786828?v=4
@@ -19,10 +19,10 @@ image_length: 30859
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-source: https://github.com/MechanicalDragon0687/NDSForwarder
+source: https://github.com/MechanicalDragon0687/ndsForwarder
 systems:
 - 3DS
-title: NDSForwarder
+title: ndsForwarder
 update_notes: '<p dir="auto">Requires full CFW via Rosalina (b9s+luma3ds)</p>
 
   <h2 dir="auto">Usage</h2>
@@ -79,7 +79,8 @@ update_notes: '<p dir="auto">Requires full CFW via Rosalina (b9s+luma3ds)</p>
 
   <li>support ids extension</li>
 
-  <li>support widescreen (thanks hansol)</li>
+  <li>support widescreen (thanks hansol). note: you will have to remake your forwarders
+  for this to work.</li>
 
   <li>Fix unicode title support (thanks pks11)</li>
 
