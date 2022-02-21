@@ -9,21 +9,21 @@ description: Yet another nds-bootstrap forwarder. Runs from 3DS-mode!
 download_page: https://github.com/lifehackerhansol/YANBF/releases
 downloads:
   YANBF-Linux.zip:
-    size: 79757007
+    size: 79758325
     size_str: 76 MiB
-    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.2.0/YANBF-Linux.zip
+    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.3.0/YANBF-Linux.zip
   YANBF-Windows.zip:
-    size: 54979342
+    size: 54980660
     size_str: 52 MiB
-    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.2.0/YANBF-Windows.zip
+    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.3.0/YANBF-Windows.zip
   YANBF-macOS.zip:
-    size: 81643654
+    size: 81644972
     size_str: 77 MiB
-    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.2.0/YANBF-macOS.zip
+    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.3.0/YANBF-macOS.zip
   bootstrap.cia:
     size: 206080
     size_str: 201 KiB
-    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.2.0/bootstrap.cia
+    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.3.0/bootstrap.cia
 github: lifehackerhansol/YANBF
 icon_index: 198
 image: https://avatars.githubusercontent.com/u/37358975?v=4
@@ -41,18 +41,44 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li><a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
-  Widescreen support.
+  <li>UniqueID randomizing is here.
 
   <ul dir="auto">
 
-  <li>Please update the <a href="https://github.com/RocketRobz/NTR_Forwarder/releases/tag/SD-5">SD
-  forwarder pack</a> to accomodate this change.
+  <li>Not present in the GUI yet. You will need to do it via CLI.</li>
+
+  <li>Pass -r as an argument to randomize.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Launch splash has been changed from Homebrew to Nintendo 3DS.</li>
+
+  </ul>
+
+  <h3 dir="auto">Improvements</h3>
 
   <ul dir="auto">
 
-  <li>as usual, Universal Updater will update this for you.</li>
+  <li>UniqueID collision checking is now implemented.
+
+  <ul dir="auto">
+
+  <li>This will require your <code>Nintendo 3DS</code> folder to be "clean". This
+  means one ID0 folder and one ID1 folder only. If you have multiple, please clean
+  them up.</li>
+
+  <li>This works by checking all TIDLOW values that are present on the SD card. If
+  the UniqueID calculated by YANBF already exists on the SD card, it will simply increment
+  the UniqueID by 1 until it no longer collides.
+
+  <ul dir="auto">
+
+  <li>This may still collide with any titles that have not yet been installed. So
+  this has a chance of potentially being replaced in the future by a retail game or
+  some others homebrew app. There isn''t a public database of this stuff or anything
+  so unfortunately I cannot guarantee this for you.</li>
 
   </ul>
 
@@ -68,17 +94,12 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Fixed an issue where makerom may fail if the ROM path has spaces.</li>
-
-  <li>Fixed some NDS ROMs only having a handful of languages. Now all languages are
-  checked to make sure an out-of-bounds error doesn''t happen.</li>
-
-  <li>Tried to make the unique ID more... unique. This should fix an issue where same
-  game from different region replaces each other.</li>
+  <li>Fixed an issue where the 3DS-side app may display "Failed to launch CIA" error
+  for a brief moment before actually launching.</li>
 
   </ul>'
-updated: '2022-02-15T02:58:32Z'
-version: v1.2.0
-version_title: 'v1.2.0: widescreen support'
+updated: '2022-02-20T19:12:21Z'
+version: v1.3.0
+version_title: 'v1.3.0: randomizing is here'
 ---
 YANBF is a 3DS-mode nds-bootstrap forwarder, allowing for more than 40 forwarder titles as compared to the older forwarder template.
