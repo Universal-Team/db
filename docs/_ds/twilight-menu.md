@@ -9,21 +9,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 31562488
-    size_str: 30 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.0.0/TWiLightMenu-3DS.7z
+    size: 30772960
+    size_str: 29 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.1.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 31581039
-    size_str: 30 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.0.0/TWiLightMenu-DSi.7z
+    size: 30788748
+    size_str: 29 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.1.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 43184264
-    size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.0.0/TWiLightMenu-Flashcard.7z
+    size: 42355326
+    size_str: 40 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.1.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 43372782
-    size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.0.0/TWiLightMenu.7z
+    size: 42550792
+    size_str: 40 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.1.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_index: 139
@@ -62,79 +62,70 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   </ul>
 
-  <p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.54.0">nds-bootstrap
-  v0.54.0</a></p>
-
-  <p dir="auto">Happy Valentine''s Day! Here''s a new version of <strong>TW</strong>i<strong>L</strong>ight
-  Menu++ filled with sweet new features!</p>
+  <p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.54.1">nds-bootstrap
+  v0.54.1</a></p>
 
   <p dir="auto"><strong>What''s new?</strong></p>
 
   <ul dir="auto">
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/spellboundtriangle/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/spellboundtriangle">@spellboundtriangle</a>)
-  Added <em>Ermii Kart DS: Legacy Edition</em> and <em>CTGP Nitro</em> 1.0.0 widescreen
-  patches.</li>
-
-  <li>New valentine-themed background for the TWLMenu++ splash screen!</li>
-
-  <li>The <code>WiFi</code> setting is now shown on 3DS consoles.</li>
-
-  <li><strong>DSi consoles:</strong> You can now change the Power LED color to purple!
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/R-YaTian/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/R-YaTian">@R-YaTian</a>)
+  Added some AP-fixes:
 
   <ul dir="auto">
 
-  <li>In addition, depending on the theme, the battery icon color will change as well.</li>
+  <li>Fire Emblem: Shin Monshou no Nazo Hikari to Kage no Eiyuu (v3.01 English translation
+  With Update Beta2) (Revision to fix DSi binary file)</li>
+
+  <li>Fushigi no Dungeon: Fuurai no Shiren 5: Fortune Tower to Unmei no Dice (Chinese
+  translation)</li>
+
+  <li>Kyokugen Dasshutsu: 9-jikan, 9-nin, 9 no Tobira (Chinese translation)</li>
+
+  <li>RPG Tkool DS (Chinese translation) (Revision to fix DSi binary file)</li>
 
   </ul>
 
   </li>
 
-  <li>To cut down on wait times, the maximum limit of found files/folders (even those
-  not displayed) is now 320.</li>
+  <li>To prevent potential issues, the leftover AP-fix file of opposite format is
+  now deleted when launching a DS(i) game containing AP.</li>
 
-  <li>DSi(Ware) SDK5.0 Donor ROM is now set separate from the SDK5.x one.
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/DieGo367/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DieGo367">@DieGo367</a>)
+  Added loading custom icons from PNG files (works on non-DS ROMs). (<a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="1140878437" data-permission-text="Title
+  is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/1800" data-hovercard-type="pull_request"
+  data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/1800/hovercard" href="https://github.com/DS-Homebrew/TWiLightMenu/pull/1800">#1800</a>)
 
   <ul dir="auto">
-
-  <li>SDK5.0 ROM is required for <em>Nintendo DSi Camera</em> to run in general DSiWarehax.</li>
-
-  </ul>
-
-  </li>
-
-  <li>The <code>.ngc</code> (Neo-Geo Color) filetype is now supported.</li>
-
-  <li>SNEmulDS is now updated! An on-the-fly generated RAM disk by nds-bootstrap is
-  no longer used to run SNES games!</li>
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Added GBA game detection in DS Classic Menu.</li>
-
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  <strong>DSi/3DS/HBL themes:</strong> Progress bar is now shown while preparing music.</li>
-
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>)
-  Added Ace3DS+ and R4iTT 3DS (and clones) flashcart loaders.</li>
-
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>)
-  Added iTouchDS autoboot.</li>
-
-  <li>In order to free up some space, the DS Classic music has been removed.
-
-  <ul dir="auto">
-
-  <li>In case you miss it later on, it can be re-added to the DSi theme''s folder
-  as a custom music option. <a href="https://github.com/DS-Homebrew/TWiLightMenu/blob/d638c3245f47fc8301f48aee06cd700108f1f848/romsel_dsimenutheme/nitrofiles/sound/classicbg.wav">Download</a></li>
+  <code>banner.bin</code> can be used as well.</li>
 
   </ul>
 
   </li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  Removed Chinese/Korean bundled fonts.
+
+  <ul dir="auto">
+
+  <li>Switched Chinese font to WenQuanYi.</li>
+
+  <li>Falls back to default, if not found.</li>
+
+  </ul>
+
+  </li>
+
+  <li><code>Card Read DMA</code> setting is now shown for DSi-Exclusive games as well.</li>
+
+  <li>Removed various games from the card read DMA blacklist.</li>
 
   </ul>
 
@@ -142,7 +133,9 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <ul dir="auto">
 
-  <li>Donor ROM messages have been reworked.</li>
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
+  and various) Updated translations.</li>
 
   </ul>
 
@@ -150,45 +143,32 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <ul dir="auto">
 
-  <li>Disabling the <code>WiFi</code> setting should now work properly, with the console
-  unable to search for internet access points, as well as fixing the communication
-  error in Gen 4 Pokemon games, for those with a broken or incorrectly-seated WiFi
-  card.</li>
+  <li>Fixed the AP-fixes for <em>Dragon Quest V</em> (JAP) &amp; <em>Hotel Dusk: Room
+  215</em> (KOR), by using fixes based on the cheat versions.</li>
 
-  <li>Fixed <code>Use ROM Region</code> setting not being overridden if region is
-  set in per-game settings.</li>
+  <li>Fixed settings menu and manual crashing when exiting (which the SD write code
+  wasn''t causing it most of the time, but can still cause it sometimes).</li>
 
-  <li><em>OpenLara</em> now boots in native GBA mode.</li>
+  <li>Fixed <code>Expand ROM space in RAM</code> being shown for DSi-Exclusives.</li>
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  If music conversion failed, it will now be redone on reboot.</li>
+  <li><strong>DSi/Saturn/HBL theme:</strong> Fix SD switch missing from SELECT menu,
+  when running from flashcard with unlocked SCFG.</li>
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>)
-  Fixed booter_fc poweroff fail on DS.</li>
+  <li>Fixed DSi power LED briefly blinking purple if set to <code>Blue/Red</code>
+  in TWLMenu++ Settings.</li>
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Fixed SD inserted check.</li>
+  <li><code>DSiWare Booter</code> setting is no longer shown on 3DS consoles, as only
+  nds-bootstrap is used to boot DSiWare.</li>
 
-  <li>In the per-game settings, <code>USA</code> text is now shown, if TID ends with
-  <code>O</code>.</li>
+  <li>On 3DS, <code>SysNAND Region</code> setting is now only shown, if running via
+  DSiWarehax.</li>
 
-  </ul>
-
-  <p dir="auto"><strong>Known bug</strong></p>
-
-  <ul dir="auto">
-
-  <li>The random crashes related to SD writes (notably when launching games with ESRB
-  splash enabled or when exiting settings) have not been fixed. This does not occur
-  on flashcards.</li>
+  <li>Corrected ESRB rating for <em>Bangai-O Spirits</em>.</li>
 
   </ul>'
-updated: '2022-02-15T01:57:01Z'
-version: v24.0.0
-version_title: Valentine's Day Release (2022)
+updated: '2022-02-21T17:07:06Z'
+version: v24.1.0
+version_title: v24.1.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
