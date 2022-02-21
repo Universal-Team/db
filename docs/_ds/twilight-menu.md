@@ -111,13 +111,16 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  PNG/BMP can now be used instead of GRF for skins. It is now possible to make skins
+  without using grit!</li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
   Removed Chinese/Korean bundled fonts.
 
   <ul dir="auto">
 
-  <li>Switched Chinese font to WenQuanYi.</li>
-
-  <li>Falls back to default, if not found.</li>
+  <li>Falls back to default, if no extra font found.</li>
 
   </ul>
 
