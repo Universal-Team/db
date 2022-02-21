@@ -869,6 +869,7 @@ for app in source:
 						uni[f"[prerelease] {app['archive'][file][0] if ('archive' in app and file in app['archive']) else file}"] = {
 							"script": downloadScript(file, app["prerelease"]["downloads"][file]["url"], app["script_message"] if "script_message" in app else None, app["archive"] if "archive" in app else None),
 							"size": byteCount(app["prerelease"]["downloads"][file]["size"]) if "size" in app["prerelease"]["downloads"][file] else "",
+							"type": "prerelease"
 						}
 
 			if "nightly" in app:
@@ -877,6 +878,7 @@ for app in source:
 						uni[f"[nightly] {app['archive'][file][0] if ('archive' in app and file in app['archive']) else file}"] = {
 							"script": downloadScript(file, app["nightly"]["downloads"][file]["url"], app["script_message"] if "script_message" in app else None, app["archive"] if "archive" in app else None, nightly=True),
 							"size": byteCount(app["nightly"]["downloads"][file]["size"]) if "size" in app["nightly"]["downloads"][file] else "",
+							"type": "nightly"
 						}
 
 		if app["title"] == "RetroArch":

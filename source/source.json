@@ -218,80 +218,86 @@
 					"message": "Deleting Relaunch.7z..."
 				}
 			],
-			"[nightly] Relaunch.cia": [
-				{
-					"type": "promptMessage",
-					"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
-					"count": 1000
-				},
-				{
-					"type": "downloadFile",
-					"file": "https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z",
-					"output": "/Relaunch.7z",
-					"message": "Downloading Relaunch.7z..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Relaunch.7z",
-					"input": "Relaunch/Relaunch.cia",
-					"output": "/Relaunch.cia",
-					"message": "Extracting Relaunch.cia..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Relaunch.7z",
-					"input": "Relaunch/_nds/Relaunch/menu.bin",
-					"output": "/_nds/Relaunch/menu.bin",
-					"message": "Extracting menu.bin..."
-				},
-				{
-					"type": "installCia",
-					"file": "/Relaunch.cia",
-					"message": "Installing Relaunch.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Relaunch.cia",
-					"message": "Deleting Relaunch.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Relaunch.7z",
-					"message": "Deleting Relaunch.7z..."
-				}
-			],
-			"[nightly] Relaunch.nds": [
-				{
-					"type": "promptMessage",
-					"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
-					"count": 1000
-				},
-				{
-					"type": "downloadFile",
-					"file": "https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z",
-					"output": "/Relaunch.7z",
-					"message": "Downloading Relaunch.7z..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Relaunch.7z",
-					"input": "Relaunch/Relaunch.nds",
-					"output": "%NDS%/Relaunch.nds",
-					"message": "Extracting Relaunch.nds..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Relaunch.7z",
-					"input": "Relaunch/_nds/Relaunch/menu.bin",
-					"output": "/_nds/Relaunch/menu.bin",
-					"message": "Extracting menu.bin..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Relaunch.7z",
-					"message": "Deleting Relaunch.7z..."
-				}
-			]
+			"[nightly] Relaunch.cia": {
+				"type": "nightly",
+				"script": [
+					{
+						"type": "promptMessage",
+						"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
+						"count": 1000
+					},
+					{
+						"type": "downloadFile",
+						"file": "https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z",
+						"output": "/Relaunch.7z",
+						"message": "Downloading Relaunch.7z..."
+					},
+					{
+						"type": "extractFile",
+						"file": "/Relaunch.7z",
+						"input": "Relaunch/Relaunch.cia",
+						"output": "/Relaunch.cia",
+						"message": "Extracting Relaunch.cia..."
+					},
+					{
+						"type": "extractFile",
+						"file": "/Relaunch.7z",
+						"input": "Relaunch/_nds/Relaunch/menu.bin",
+						"output": "/_nds/Relaunch/menu.bin",
+						"message": "Extracting menu.bin..."
+					},
+					{
+						"type": "installCia",
+						"file": "/Relaunch.cia",
+						"message": "Installing Relaunch.cia..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/Relaunch.cia",
+						"message": "Deleting Relaunch.cia..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/Relaunch.7z",
+						"message": "Deleting Relaunch.7z..."
+					}
+				]
+			},
+			"[nightly] Relaunch.nds": {
+				"type": "nightly",
+				"script": [
+					{
+						"type": "promptMessage",
+						"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
+						"count": 1000
+					},
+					{
+						"type": "downloadFile",
+						"file": "https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z",
+						"output": "/Relaunch.7z",
+						"message": "Downloading Relaunch.7z..."
+					},
+					{
+						"type": "extractFile",
+						"file": "/Relaunch.7z",
+						"input": "Relaunch/Relaunch.nds",
+						"output": "%NDS%/Relaunch.nds",
+						"message": "Extracting Relaunch.nds..."
+					},
+					{
+						"type": "extractFile",
+						"file": "/Relaunch.7z",
+						"input": "Relaunch/_nds/Relaunch/menu.bin",
+						"output": "/_nds/Relaunch/menu.bin",
+						"message": "Extracting menu.bin..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/Relaunch.7z",
+						"message": "Deleting Relaunch.7z..."
+					}
+				]
+			}
 		}
 	},
 	{
@@ -389,73 +395,79 @@
 					"message": "Deleting GodMode9i.7z..."
 				}
 			],
-			"[nightly] GodMode9i.cia": [
-				{
-					"type": "promptMessage",
-					"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
-					"count": 1000
-				},
-				{
-					"type": "downloadFile",
-					"file": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z",
-					"output": "/GodMode9i.7z",
-					"message": "Downloading GodMode9i.7z..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/GodMode9i.7z",
-					"input": "GodMode9i/GodMode9i.nds",
-					"output": "/GodMode9i.nds",
-					"message": "Extracting GodMode9i.nds..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/GodMode9i.7z",
-					"input": "GodMode9i/GodMode9i.cia",
-					"output": "/GodMode9i.cia",
-					"message": "Extracting GodMode9i.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/GodMode9i.cia",
-					"message": "Installing GodMode9i.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/GodMode9i.cia",
-					"message": "Deleting GodMode9i.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/GodMode9i.7z",
-					"message": "Deleting GodMode9i.7z..."
-				}
-			],
-			"[nightly] GodMode9i.nds": [
-				{
-					"type": "promptMessage",
-					"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
-					"count": 1000
-				},
-				{
-					"type": "downloadFile",
-					"file": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z",
-					"output": "/GodMode9i.7z",
-					"message": "Downloading GodMode9i.7z..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/GodMode9i.7z",
-					"input": "GodMode9i/GodMode9i.nds",
-					"output": "%NDS%/GodMode9i.nds",
-					"message": "Extracting GodMode9i.nds..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/GodMode9i.7z",
-					"message": "Deleting GodMode9i.7z..."
-				}
-			]
+			"[nightly] GodMode9i.cia": {
+				"type": "nightly",
+				"script": [
+					{
+						"type": "promptMessage",
+						"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
+						"count": 1000
+					},
+					{
+						"type": "downloadFile",
+						"file": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z",
+						"output": "/GodMode9i.7z",
+						"message": "Downloading GodMode9i.7z..."
+					},
+					{
+						"type": "extractFile",
+						"file": "/GodMode9i.7z",
+						"input": "GodMode9i/GodMode9i.nds",
+						"output": "/GodMode9i.nds",
+						"message": "Extracting GodMode9i.nds..."
+					},
+					{
+						"type": "extractFile",
+						"file": "/GodMode9i.7z",
+						"input": "GodMode9i/GodMode9i.cia",
+						"output": "/GodMode9i.cia",
+						"message": "Extracting GodMode9i.cia..."
+					},
+					{
+						"type": "installCia",
+						"file": "/GodMode9i.cia",
+						"message": "Installing GodMode9i.cia..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/GodMode9i.cia",
+						"message": "Deleting GodMode9i.cia..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/GodMode9i.7z",
+						"message": "Deleting GodMode9i.7z..."
+					}
+				]
+			},
+			"[nightly] GodMode9i.nds": {
+				"type": "nightly",
+				"script": [
+					{
+						"type": "promptMessage",
+						"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
+						"count": 1000
+					},
+					{
+						"type": "downloadFile",
+						"file": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z",
+						"output": "/GodMode9i.7z",
+						"message": "Downloading GodMode9i.7z..."
+					},
+					{
+						"type": "extractFile",
+						"file": "/GodMode9i.7z",
+						"input": "GodMode9i/GodMode9i.nds",
+						"output": "%NDS%/GodMode9i.nds",
+						"message": "Extracting GodMode9i.nds..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/GodMode9i.7z",
+						"message": "Deleting GodMode9i.7z..."
+					}
+				]
+			}
 		}
 	},
 	{
@@ -746,66 +758,72 @@
 		},
 		"autogen_scripts": true,
 		"scripts": {
-			"[nightly] nesDS.cia": [
-				{
-					"type": "promptMessage",
-					"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
-					"count": 1000
-				},
-				{
-					"type": "downloadFile",
-					"file": "https://github.com/TWLBot/Builds/raw/master/extras/nesDS.7z",
-					"output": "/nesDS.7z",
-					"message": "Downloading nesDS.7z..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/nesDS.7z",
-					"input": "nesDS/nesDS.cia",
-					"output": "/nesDS.cia",
-					"message": "Extracting nesDS.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/nesDS.cia",
-					"message": "Installing nesDS.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/nesDS.cia",
-					"message": "Deleting nesDS.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/nesDS.7z",
-					"message": "Deleting nesDS.7z..."
-				}
-			],
-			"[nightly] nesDS.nds": [
-				{
-					"type": "promptMessage",
-					"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
-					"count": 1000
-				},
-				{
-					"type": "downloadFile",
-					"file": "https://github.com/TWLBot/Builds/raw/master/extras/nesDS.7z",
-					"output": "/nesDS.7z",
-					"message": "Downloading nesDS.7z..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/nesDS.7z",
-					"input": "nesDS/nesDS.nds",
-					"output": "%NDS%/nesDS.nds",
-					"message": "Extracting nesDS.nds..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/nesDS.7z",
-					"message": "Deleting nesDS.7z..."
-				}
-			]
+			"[nightly] nesDS.cia": {
+				"type": "nightly",
+				"script": [
+					{
+						"type": "promptMessage",
+						"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
+						"count": 1000
+					},
+					{
+						"type": "downloadFile",
+						"file": "https://github.com/TWLBot/Builds/raw/master/extras/nesDS.7z",
+						"output": "/nesDS.7z",
+						"message": "Downloading nesDS.7z..."
+					},
+					{
+						"type": "extractFile",
+						"file": "/nesDS.7z",
+						"input": "nesDS/nesDS.cia",
+						"output": "/nesDS.cia",
+						"message": "Extracting nesDS.cia..."
+					},
+					{
+						"type": "installCia",
+						"file": "/nesDS.cia",
+						"message": "Installing nesDS.cia..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/nesDS.cia",
+						"message": "Deleting nesDS.cia..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/nesDS.7z",
+						"message": "Deleting nesDS.7z..."
+					}
+				]
+			},
+			"[nightly] nesDS.nds": {
+				"type": "nightly",
+				"script": [
+					{
+						"type": "promptMessage",
+						"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
+						"count": 1000
+					},
+					{
+						"type": "downloadFile",
+						"file": "https://github.com/TWLBot/Builds/raw/master/extras/nesDS.7z",
+						"output": "/nesDS.7z",
+						"message": "Downloading nesDS.7z..."
+					},
+					{
+						"type": "extractFile",
+						"file": "/nesDS.7z",
+						"input": "nesDS/nesDS.nds",
+						"output": "%NDS%/nesDS.nds",
+						"message": "Extracting nesDS.nds..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/nesDS.7z",
+						"message": "Deleting nesDS.7z..."
+					}
+				]
+			}
 		}
 	},
 	{
@@ -851,31 +869,34 @@
 					"message": "Deleting lolsnes.7z..."
 				}
 			],
-			"[nightly] lolSnes.nds": [
-				{
-					"type": "promptMessage",
-					"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
-					"count": 1000
-				},
-				{
-					"type": "downloadFile",
-					"file": "http://lolsnes.kuribo64.net/gitbuilds/git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip",
-					"output": "/lolsnes.zip",
-					"message": "Downloading lolsnes zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/lolsnes.zip",
-					"input": "lolSnes.nds",
-					"output": "%NDS%/lolSnes.nds",
-					"message": "Extracting lolSnes.nds..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/lolsnes.zip",
-					"message": "Deleting lolsnes.zip..."
-				}
-			]
+			"[nightly] lolSnes.nds": {
+				"type": "nightly",
+				"script": [
+					{
+						"type": "promptMessage",
+						"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
+						"count": 1000
+					},
+					{
+						"type": "downloadFile",
+						"file": "http://lolsnes.kuribo64.net/gitbuilds/git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip",
+						"output": "/lolsnes.zip",
+						"message": "Downloading lolsnes zip..."
+					},
+					{
+						"type": "extractFile",
+						"file": "/lolsnes.zip",
+						"input": "lolSnes.nds",
+						"output": "%NDS%/lolSnes.nds",
+						"message": "Extracting lolSnes.nds..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/lolsnes.zip",
+						"message": "Deleting lolsnes.zip..."
+					}
+				]
+			}
 		}
 	},
 	{
@@ -3156,60 +3177,66 @@
 		"image": "https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/icon.png",
 		"scripts": {
-			"[prerelease] Supertux.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/Supertux-Milestone1-3ds",
-					"file": "Supertux.*\\.zip",
-					"output": "/Supertux.zip",
-					"message": "Downloading Supertux zip...",
-					"includePrereleases": true
-				},
-				{
-					"type": "extractFile",
-					"file": "/Supertux.zip",
-					"input": "Supertux.cia",
-					"output": "/Supertux.cia",
-					"message": "Extracting Supertux.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/Supertux.cia",
-					"message": "Installing Supertux.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Supertux.cia",
-					"message": "Deleting Supertux.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Supertux.zip",
-					"message": "Deleting Supertux.zip..."
-				}
-			],
-			"[prerelease] Supertux.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/Supertux-Milestone1-3ds",
-					"file": "Supertux.*\\.zip",
-					"output": "/Supertux.zip",
-					"message": "Downloading Supertux zip...",
-					"includePrereleases": true
-				},
-				{
-					"type": "extractFile",
-					"file": "/Supertux.zip",
-					"input": "Supertux/Supertux.3dsx",
-					"output": "%3DSX%/Supertux.3dsx",
-					"message": "Extracting Supertux.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Supertux.zip",
-					"message": "Deleting Supertux.zip..."
-				}
-			]
+			"[prerelease] Supertux.cia": {
+				"type": "prerelease",
+				"script": [
+					{
+						"type": "downloadRelease",
+						"repo": "nop90/Supertux-Milestone1-3ds",
+						"file": "Supertux.*\\.zip",
+						"output": "/Supertux.zip",
+						"message": "Downloading Supertux zip...",
+						"includePrereleases": true
+					},
+					{
+						"type": "extractFile",
+						"file": "/Supertux.zip",
+						"input": "Supertux.cia",
+						"output": "/Supertux.cia",
+						"message": "Extracting Supertux.cia..."
+					},
+					{
+						"type": "installCia",
+						"file": "/Supertux.cia",
+						"message": "Installing Supertux.cia..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/Supertux.cia",
+						"message": "Deleting Supertux.cia..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/Supertux.zip",
+						"message": "Deleting Supertux.zip..."
+					}
+				]
+			},
+			"[prerelease] Supertux.3dsx": {
+				"type": "prerelease",
+				"script": [
+					{
+						"type": "downloadRelease",
+						"repo": "nop90/Supertux-Milestone1-3ds",
+						"file": "Supertux.*\\.zip",
+						"output": "/Supertux.zip",
+						"message": "Downloading Supertux zip...",
+						"includePrereleases": true
+					},
+					{
+						"type": "extractFile",
+						"file": "/Supertux.zip",
+						"input": "Supertux/Supertux.3dsx",
+						"output": "%3DSX%/Supertux.3dsx",
+						"message": "Extracting Supertux.3dsx..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/Supertux.zip",
+						"message": "Deleting Supertux.zip..."
+					}
+				]
+			}
 		}
 	},
 	{
@@ -3771,60 +3798,66 @@
 		"image": "https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/icon.png",
 		"scripts": {
-			"[prerelease] ZeldaPicross.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/ZeldaPicross",
-					"file": "ZeldaPicross.*\\.zip",
-					"output": "/ZeldaPicross.zip",
-					"message": "Downloading ZeldaPicross zip...",
-					"includePrereleases": true
-				},
-				{
-					"type": "extractFile",
-					"file": "/ZeldaPicross.zip",
-					"input": "ZeldaPicross.cia",
-					"output": "/ZeldaPicross.cia",
-					"message": "Extracting ZeldaPicross.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/ZeldaPicross.cia",
-					"message": "Installing ZeldaPicross.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/ZeldaPicross.cia",
-					"message": "Deleting ZeldaPicross.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/ZeldaPicross.zip",
-					"message": "Deleting ZeldaPicross.zip..."
-				}
-			],
-			"[prerelease] ZeldaPicross.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/ZeldaPicross",
-					"file": "ZeldaPicross.*\\.zip",
-					"output": "/ZeldaPicross.zip",
-					"message": "Downloading ZeldaPicross zip...",
-					"includePrereleases": true
-				},
-				{
-					"type": "extractFile",
-					"file": "/ZeldaPicross.zip",
-					"input": "ZeldaPicross/ZeldaPicross.3dsx",
-					"output": "%3DSX%/ZeldaPicross.3dsx",
-					"message": "Extracting ZeldaPicross.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/ZeldaPicross.zip",
-					"message": "Deleting ZeldaPicross.zip..."
-				}
-			]
+			"[prerelease] ZeldaPicross.cia": {
+				"type": "prerelease",
+				"script": [
+					{
+						"type": "downloadRelease",
+						"repo": "nop90/ZeldaPicross",
+						"file": "ZeldaPicross.*\\.zip",
+						"output": "/ZeldaPicross.zip",
+						"message": "Downloading ZeldaPicross zip...",
+						"includePrereleases": true
+					},
+					{
+						"type": "extractFile",
+						"file": "/ZeldaPicross.zip",
+						"input": "ZeldaPicross.cia",
+						"output": "/ZeldaPicross.cia",
+						"message": "Extracting ZeldaPicross.cia..."
+					},
+					{
+						"type": "installCia",
+						"file": "/ZeldaPicross.cia",
+						"message": "Installing ZeldaPicross.cia..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/ZeldaPicross.cia",
+						"message": "Deleting ZeldaPicross.cia..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/ZeldaPicross.zip",
+						"message": "Deleting ZeldaPicross.zip..."
+					}
+				]
+			},
+			"[prerelease] ZeldaPicross.3dsx": {
+				"type": "prerelease",
+				"script": [
+					{
+						"type": "downloadRelease",
+						"repo": "nop90/ZeldaPicross",
+						"file": "ZeldaPicross.*\\.zip",
+						"output": "/ZeldaPicross.zip",
+						"message": "Downloading ZeldaPicross zip...",
+						"includePrereleases": true
+					},
+					{
+						"type": "extractFile",
+						"file": "/ZeldaPicross.zip",
+						"input": "ZeldaPicross/ZeldaPicross.3dsx",
+						"output": "%3DSX%/ZeldaPicross.3dsx",
+						"message": "Extracting ZeldaPicross.3dsx..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/ZeldaPicross.zip",
+						"message": "Deleting ZeldaPicross.zip..."
+					}
+				]
+			}
 		}
 	},
 	{
@@ -4304,60 +4337,66 @@
 		"image": "https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/icon.png",
 		"scripts": {
-			"[prerelease] Biniax2.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/Biniax2-3DS",
-					"file": "Biniax2_CIA.*\\.zip",
-					"output": "/Biniax2_CIA.zip",
-					"message": "Downloading Biniax2_CIA zip...",
-					"includePrereleases": true
-				},
-				{
-					"type": "extractFile",
-					"file": "/Biniax2_CIA.zip",
-					"input": "Biniax2.cia",
-					"output": "/Biniax2.cia",
-					"message": "Extracting Biniax2.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/Biniax2.cia",
-					"message": "Installing Biniax2.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Biniax2.cia",
-					"message": "Deleting Biniax2.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Biniax2_CIA.zip",
-					"message": "Deleting Biniax2_CIA.zip..."
-				}
-			],
-			"[prerelease] Biniax2.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/Biniax2-3DS",
-					"file": "Biniax2_3DSX.*\\.zip",
-					"output": "/Biniax2_3DSX.zip",
-					"message": "Downloading Biniax2_3DSX zip...",
-					"includePrereleases": true
-				},
-				{
-					"type": "extractFile",
-					"file": "/Biniax2_3DSX.zip",
-					"input": "Biniax2/Biniax2.3dsx",
-					"output": "%3DSX%/Biniax2.3dsx",
-					"message": "Extracting Biniax2.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Biniax2_3DSX.zip",
-					"message": "Deleting Biniax2_3DSX.zip..."
-				}
-			]
+			"[prerelease] Biniax2.cia": {
+				"type": "prerelease",
+				"script": [
+					{
+						"type": "downloadRelease",
+						"repo": "nop90/Biniax2-3DS",
+						"file": "Biniax2_CIA.*\\.zip",
+						"output": "/Biniax2_CIA.zip",
+						"message": "Downloading Biniax2_CIA zip...",
+						"includePrereleases": true
+					},
+					{
+						"type": "extractFile",
+						"file": "/Biniax2_CIA.zip",
+						"input": "Biniax2.cia",
+						"output": "/Biniax2.cia",
+						"message": "Extracting Biniax2.cia..."
+					},
+					{
+						"type": "installCia",
+						"file": "/Biniax2.cia",
+						"message": "Installing Biniax2.cia..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/Biniax2.cia",
+						"message": "Deleting Biniax2.cia..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/Biniax2_CIA.zip",
+						"message": "Deleting Biniax2_CIA.zip..."
+					}
+				]
+			},
+			"[prerelease] Biniax2.3dsx": {
+				"type": "prerelease",
+				"script": [
+					{
+						"type": "downloadRelease",
+						"repo": "nop90/Biniax2-3DS",
+						"file": "Biniax2_3DSX.*\\.zip",
+						"output": "/Biniax2_3DSX.zip",
+						"message": "Downloading Biniax2_3DSX zip...",
+						"includePrereleases": true
+					},
+					{
+						"type": "extractFile",
+						"file": "/Biniax2_3DSX.zip",
+						"input": "Biniax2/Biniax2.3dsx",
+						"output": "%3DSX%/Biniax2.3dsx",
+						"message": "Extracting Biniax2.3dsx..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/Biniax2_3DSX.zip",
+						"message": "Deleting Biniax2_3DSX.zip..."
+					}
+				]
+			}
 		}
 	},
 	{
@@ -4729,73 +4768,79 @@
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/masterfeizz/EDuke3D/master/icon.png",
 		"scripts": {
-			"[prerelease] EDuke3D.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "masterfeizz/EDuke3D",
-					"file": "EDuke3D.*\\.zip",
-					"output": "/EDuke3D.zip",
-					"message": "Downloading EDuke3D.zip...",
-					"includePrereleases": true
-				},
-				{
-					"type": "extractFile",
-					"file": "/EDuke3D.zip",
-					"input": "",
-					"output": "/",
-					"message": "Extracting EDuke3D..."
-				},
-				{
-					"type": "downloadRelease",
-					"repo": "masterfeizz/EDuke3D",
-					"file": "EDuke3D.cia",
-					"output": "/EDuke3D.cia",
-					"message": "Downloading EDuke3D.cia...",
-					"includePrereleases": true
-				},
-				{
-					"type": "installCia",
-					"file": "/EDuke3D.cia",
-					"message": "Installing EDuke3D.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/EDuke3D.cia",
-					"message": "Deleting EDuke3D.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/EDuke3D.zip",
-					"message": "Deleting EDuke3D.zip..."
-				}
-			],
-			"[prerelease] eduke3d.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "masterfeizz/EDuke3D",
-					"file": "EDuke3D.*\\.zip",
-					"output": "/EDuke3D.zip",
-					"message": "Downloading EDuke3D.zip...",
-					"includePrereleases": true
-				},
-				{
-					"type": "extractFile",
-					"file": "/EDuke3D.zip",
-					"input": "",
-					"output": "/",
-					"message": "Extracting EDuke3D..."
-				},
-				{
-					"type": "move",
-					"old": "/3ds/eduke3d/eduke3d.3dsx",
-					"new": "%3DSX%/eduke3d.3dsx"
-				},
-				{
-					"type": "deleteFile",
-					"file": "/EDuke3D.zip",
-					"message": "Deleting EDuke3D.zip..."
-				}
-			]
+			"[prerelease] EDuke3D.cia": {
+				"type": "prerelease",
+				"script": [
+					{
+						"type": "downloadRelease",
+						"repo": "masterfeizz/EDuke3D",
+						"file": "EDuke3D.*\\.zip",
+						"output": "/EDuke3D.zip",
+						"message": "Downloading EDuke3D.zip...",
+						"includePrereleases": true
+					},
+					{
+						"type": "extractFile",
+						"file": "/EDuke3D.zip",
+						"input": "",
+						"output": "/",
+						"message": "Extracting EDuke3D..."
+					},
+					{
+						"type": "downloadRelease",
+						"repo": "masterfeizz/EDuke3D",
+						"file": "EDuke3D.cia",
+						"output": "/EDuke3D.cia",
+						"message": "Downloading EDuke3D.cia...",
+						"includePrereleases": true
+					},
+					{
+						"type": "installCia",
+						"file": "/EDuke3D.cia",
+						"message": "Installing EDuke3D.cia..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/EDuke3D.cia",
+						"message": "Deleting EDuke3D.cia..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/EDuke3D.zip",
+						"message": "Deleting EDuke3D.zip..."
+					}
+				]
+			},
+			"[prerelease] eduke3d.3dsx": {
+				"type": "prerelease",
+				"script": [
+					{
+						"type": "downloadRelease",
+						"repo": "masterfeizz/EDuke3D",
+						"file": "EDuke3D.*\\.zip",
+						"output": "/EDuke3D.zip",
+						"message": "Downloading EDuke3D.zip...",
+						"includePrereleases": true
+					},
+					{
+						"type": "extractFile",
+						"file": "/EDuke3D.zip",
+						"input": "",
+						"output": "/",
+						"message": "Extracting EDuke3D..."
+					},
+					{
+						"type": "move",
+						"old": "/3ds/eduke3d/eduke3d.3dsx",
+						"new": "%3DSX%/eduke3d.3dsx"
+					},
+					{
+						"type": "deleteFile",
+						"file": "/EDuke3D.zip",
+						"message": "Deleting EDuke3D.zip..."
+					}
+				]
+			}
 		}
 	},
 	{
@@ -4804,96 +4849,102 @@
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/machinamentum/CS3DS/master/jge/Projects/cspsp/icon_3ds.png",
 		"scripts": {
-			"[prerelease] cspsp.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "machinamentum/CS3DS",
-					"file": "cspsp.zip",
-					"output": "/cspsp.zip",
-					"message": "Downloading cspsp.zip...",
-					"includePrereleases": true
-				},
-				{
-					"type": "extractFile",
-					"file": "/cspsp.zip",
-					"input": "cspsp/",
-					"output": "/cspsp/",
-					"message": "Extracting cspsp..."
-				},
-				{
-					"type": "installCia",
-					"file": "/cspsp/cspsp.cia",
-					"message": "Installing cspsp.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/cspsp/cspsp.3dsx",
-					"message": "Deleting cspsp.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/cspsp/cspsp.cia",
-					"message": "Deleting cspsp.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/cspsp/cspsp.smdh",
-					"message": "Deleting cspsp.smdh..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/cspsp/README.txt",
-					"message": "Deleting README.txt..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/cspsp.zip",
-					"message": "Deleting cspsp.zip..."
-				}
-			],
-			"[prerelease] cspsp.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "machinamentum/CS3DS",
-					"file": "cspsp.zip",
-					"output": "/cspsp.zip",
-					"message": "Downloading cspsp.zip...",
-					"includePrereleases": true
-				},
-				{
-					"type": "extractFile",
-					"file": "/cspsp.zip",
-					"input": "cspsp/",
-					"output": "/cspsp/",
-					"message": "Extracting cspsp..."
-				},
-				{
-					"type": "move",
-					"old": "/cspsp/cspsp.3dsx",
-					"new": "%3DSX%/cspsp.3dsx",
-					"message": "Moving cspsp.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/cspsp/cspsp.cia",
-					"message": "Deleting cspsp.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/cspsp/cspsp.smdh",
-					"message": "Deleting cspsp.smdh..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/cspsp/README.txt",
-					"message": "Deleting README.txt..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/cspsp.zip",
-					"message": "Deleting cspsp.zip..."
-				}
-			]
+			"[prerelease] cspsp.cia": {
+				"type": "prerelease",
+				"script": [
+					{
+						"type": "downloadRelease",
+						"repo": "machinamentum/CS3DS",
+						"file": "cspsp.zip",
+						"output": "/cspsp.zip",
+						"message": "Downloading cspsp.zip...",
+						"includePrereleases": true
+					},
+					{
+						"type": "extractFile",
+						"file": "/cspsp.zip",
+						"input": "cspsp/",
+						"output": "/cspsp/",
+						"message": "Extracting cspsp..."
+					},
+					{
+						"type": "installCia",
+						"file": "/cspsp/cspsp.cia",
+						"message": "Installing cspsp.cia..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/cspsp/cspsp.3dsx",
+						"message": "Deleting cspsp.3dsx..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/cspsp/cspsp.cia",
+						"message": "Deleting cspsp.cia..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/cspsp/cspsp.smdh",
+						"message": "Deleting cspsp.smdh..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/cspsp/README.txt",
+						"message": "Deleting README.txt..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/cspsp.zip",
+						"message": "Deleting cspsp.zip..."
+					}
+				]
+			},
+			"[prerelease] cspsp.3dsx": {
+				"type": "prerelease",
+				"script": [
+					{
+						"type": "downloadRelease",
+						"repo": "machinamentum/CS3DS",
+						"file": "cspsp.zip",
+						"output": "/cspsp.zip",
+						"message": "Downloading cspsp.zip...",
+						"includePrereleases": true
+					},
+					{
+						"type": "extractFile",
+						"file": "/cspsp.zip",
+						"input": "cspsp/",
+						"output": "/cspsp/",
+						"message": "Extracting cspsp..."
+					},
+					{
+						"type": "move",
+						"old": "/cspsp/cspsp.3dsx",
+						"new": "%3DSX%/cspsp.3dsx",
+						"message": "Moving cspsp.3dsx..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/cspsp/cspsp.cia",
+						"message": "Deleting cspsp.cia..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/cspsp/cspsp.smdh",
+						"message": "Deleting cspsp.smdh..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/cspsp/README.txt",
+						"message": "Deleting README.txt..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/cspsp.zip",
+						"message": "Deleting cspsp.zip..."
+					}
+				]
+			}
 		}
 	},
 	{
@@ -5358,48 +5409,51 @@
 					"file": "/TWiLightMenu-3DS.7z"
 				}
 			],
-			"[nightly] TWiLight Menu++": [
-				{
-					"type": "promptMessage",
-					"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
-					"count": 1000
-				},
-				{
-					"type": "downloadFile",
-					"file": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z",
-					"output": "/TWiLightMenu-3DS.7z",
-					"message": "Downloading TWiLight Menu++..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/TWiLightMenu-3DS.7z",
-					"input": "TWiLightMenu/",
-					"output": "/",
-					"message": "Extracting TWiLight Menu++..."
-				},
-				{
-					"type": "installCia",
-					"file": "/TWiLight Menu.cia",
-					"message": "Installing TWiLight Menu++..."
-				},
-				{
-					"type": "installCia",
-					"file": "/TWiLight Menu - Game booter.cia",
-					"message": "Installing TWiLight Menu - Game booter..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/TWiLight Menu - Game booter.cia"
-				},
-				{
-					"type": "deleteFile",
-					"file": "/TWiLight Menu.cia"
-				},
-				{
-					"type": "deleteFile",
-					"file": "/TWiLightMenu-3DS.7z"
-				}
-			]
+			"[nightly] TWiLight Menu++": {
+				"type": "nightly",
+				"script": [
+					{
+						"type": "promptMessage",
+						"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
+						"count": 1000
+					},
+					{
+						"type": "downloadFile",
+						"file": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z",
+						"output": "/TWiLightMenu-3DS.7z",
+						"message": "Downloading TWiLight Menu++..."
+					},
+					{
+						"type": "extractFile",
+						"file": "/TWiLightMenu-3DS.7z",
+						"input": "TWiLightMenu/",
+						"output": "/",
+						"message": "Extracting TWiLight Menu++..."
+					},
+					{
+						"type": "installCia",
+						"file": "/TWiLight Menu.cia",
+						"message": "Installing TWiLight Menu++..."
+					},
+					{
+						"type": "installCia",
+						"file": "/TWiLight Menu - Game booter.cia",
+						"message": "Installing TWiLight Menu - Game booter..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/TWiLight Menu - Game booter.cia"
+					},
+					{
+						"type": "deleteFile",
+						"file": "/TWiLight Menu.cia"
+					},
+					{
+						"type": "deleteFile",
+						"file": "/TWiLightMenu-3DS.7z"
+					}
+				]
+			}
 		}
 	},
 	{
@@ -5420,30 +5474,33 @@
 			}
 		},
 		"scripts": {
-			"[nightly] nds-bootstrap": [
-				{
-					"type": "promptMessage",
-					"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
-					"count": 1000
-				},
-				{
-					"type": "downloadFile",
-					"file": "https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z",
-					"output": "/nds-bootstrap.7z",
-					"message": "Downloading nds-bootstrap..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/nds-bootstrap.7z",
-					"input": "nds-bootstrap/",
-					"output": "/_nds/",
-					"message": "Extracting nds-bootstrap..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/nds-bootstrap.7z"
-				}
-			],
+			"[nightly] nds-bootstrap": {
+				"type": "nightly",
+				"script": [
+					{
+						"type": "promptMessage",
+						"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
+						"count": 1000
+					},
+					{
+						"type": "downloadFile",
+						"file": "https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z",
+						"output": "/nds-bootstrap.7z",
+						"message": "Downloading nds-bootstrap..."
+					},
+					{
+						"type": "extractFile",
+						"file": "/nds-bootstrap.7z",
+						"input": "nds-bootstrap/",
+						"output": "/_nds/",
+						"message": "Extracting nds-bootstrap..."
+					},
+					{
+						"type": "deleteFile",
+						"file": "/nds-bootstrap.7z"
+					}
+				]
+			},
 			"nds-bootstrap": [
 				{
 					"type": "downloadRelease",
