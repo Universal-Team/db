@@ -32,13 +32,9 @@ update_notes: '<p dir="auto"><strong>What''s new?</strong></p>
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
   Added a warning message before starting a NAND restore.</li>
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/zacchi4k/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/zacchi4k">@zacchi4k</a>)
-  ConsoleID and CID are now displayed.</li>
+  <li>(@zacchi4k) ConsoleID and CID are now displayed.</li>
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/zacchi4k/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/zacchi4k">@zacchi4k</a>)
-  A hiyaCFW warning is now shown, when invalid footer is detected.</li>
+  <li>(@zacchi4k) A hiyaCFW warning is now shown, when invalid footer is detected.</li>
 
   </ul>'
 updated: '2021-01-24T02:42:04Z'

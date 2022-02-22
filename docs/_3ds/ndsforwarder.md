@@ -9,9 +9,9 @@ description: Generate and Install NDS Forwarders
 download_page: https://github.com/MechanicalDragon0687/NDSForwarder/releases
 downloads:
   ndsForwarder.3dsx:
-    size: 1024560
+    size: 1024744
     size_str: 1000 KiB
-    url: https://github.com/MechanicalDragon0687/ndsForwarder/releases/download/1.4.0/ndsForwarder.3dsx
+    url: https://github.com/MechanicalDragon0687/ndsForwarder/releases/download/1.4.2/ndsForwarder.3dsx
 github: MechanicalDragon0687/NDSForwarder
 icon_index: 174
 image: https://avatars.githubusercontent.com/u/43786828?v=4
@@ -66,6 +66,14 @@ update_notes: '<p dir="auto">Requires full CFW via Rosalina (b9s+luma3ds)</p>
   </ul>
 
   <h2 dir="auto">Changelog</h2>
+
+  <p dir="auto">1.4.2<br>
+
+  fix the problem with nds file loading introduced in 1.4.1</p>
+
+  <p dir="auto">1.4.1<br>
+
+  Actually fixed the CRC checking issues</p>
 
   <p dir="auto">1.4.0</p>
 
@@ -127,9 +135,9 @@ update_notes: '<p dir="auto">Requires full CFW via Rosalina (b9s+luma3ds)</p>
   <li>if more than one template exists, can select which template to use</li>
 
   </ul>'
-updated: '2022-02-18T22:11:23Z'
-version: 1.4.0
-version_title: 1.4.0
+updated: '2022-02-22T00:03:22Z'
+version: 1.4.2
+version_title: 1.4.2
 ---
 ### Installing
 1. Download the [3DS SD card forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)
