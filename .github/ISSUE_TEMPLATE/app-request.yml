@@ -3,7 +3,7 @@ description: Request an app be added to Universal-DB
 title: "[App Request] "
 labels: ["app request"]
 body:
-  - type: textarea
+  - type: input
     attributes:
       label: Title
       description: The name of the app.
@@ -48,7 +48,10 @@ body:
   - type: textarea
     attributes:
       label: Screenshots
-      description: Screenshots of the app to show on the website and in Universal-Updater. Ideally they should be both screens with no separation and nothing extra around them, just 400x480 (for 3DS) or 256x384 (for DS). Animated GIFs can be shown on the website, but not in Universal-Updater.
+      description: |
+        Screenshots of the app to show on the website and in Universal-Updater. Ideally they should be both screens with no separation and nothing extra around them, just 400×480 (for 3DS) or 256×384 (for DS).
+
+        Animated GIFs can be shown on the website, but not in Universal-Updater.
   - type: input
     attributes:
       label: GitHub repository of the app
@@ -90,7 +93,7 @@ body:
   - type: input
     attributes:
       label: Version title
-  - type: input
+  - type: textarea
     attributes:
       label: Download link(s)
       description: |
