@@ -99,6 +99,10 @@ body:
         If there are prereleases or nightly (or other automated) builds then mark them as such and they can be separated.
 
         Also if you have nightly or so builds in addition to GitHub releases then add them here, they must be at a static link though and won't have update tracking.
+  - type: textarea
+    attributes:
+      label: Other notes
+      description: Anything else you want to mention. If the app requires any special steps for installation explain/link an explanation here.
   - type: checkboxes
     attributes:
       label: Developer permission
