@@ -1,0 +1,106 @@
+name: App request
+description: Request an app be added to Universal-DB
+title: "[App Request] "
+labels: ["app request"]
+body:
+  - type: textarea
+    attributes:
+      label: Title
+      description: The name of the app.
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: System(s)
+      description: The system(s) the app is native for, so a `.nds` app that works on 3DS is just DS.
+      multiple: true
+      options:
+        - 3DS
+        - DS
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Categories
+      description: Additional categories can be requested in the other notes.
+      multiple: true
+      options:
+        - Game
+        - Emulator
+        - Utility
+        - Save Tool
+        - FIRM
+        - Luma3DS
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Image link
+      description: For 3DS apps with a 2D banner, that works well.
+  - type: input
+    attributes:
+      label: Icon link
+      description: Usually the app icon that's used on the HOME Menu.
+  - type: textarea
+    attributes:
+      label: Long description
+      description: You can use HTML and / or Markdown in this, shown on the app's download page.
+  - type: textarea
+    attributes:
+      label: Screenshots
+      description: Screenshots of the app to show on the website and in Universal-Updater. Ideally they should be both screens with no separation and nothing extra around them, just 400x480 (for 3DS) or 256x384 (for DS). Animated GIFs can be shown on the website, but not in Universal-Updater.
+  - type: input
+    attributes:
+      label: GitHub repository of the app
+      description: Used to automatically gather most metadata, only GitHub and Bitbucket are supported currently but other things with a decent API can be added.
+  - type: markdown
+    attributes:
+      value: |
+        If you've provided a GitHub repository, then only fill out the rest if you want different information than your GitHub repository has.
+
+        It can all be automatically gathered through the GitHub API.
+  - type: input
+    attributes:
+      label: Author
+  - type: input
+    attributes:
+      label: Short descrption
+      description: Will be shown on the app cards and in Universal-Updater.
+  - type: input
+    attributes:
+      label: Source code link
+  - type: input
+    attributes:
+      label: Creation date
+  - type: input
+    attributes:
+      label: Last update date
+  - type: input
+    attributes:
+      label: Website link
+  - type: input
+    attributes:
+      label: Wiki link
+  - type: input
+    attributes:
+      label: Download page link
+  - type: input
+    attributes:
+      label: Version number
+  - type: input
+    attributes:
+      label: Version title
+  - type: input
+    attributes:
+      label: Download link(s)
+      description: |
+        If there are prereleases or nightly (or other automated) builds then mark them as such and they can be separated.
+
+        Also if you have nightly or so builds in addition to GitHub releases then add them here, they must be at a static link though and won't have update tracking.
+  - type: checkboxes
+    attributes:
+      label: Developer permission
+      description: If you aren't a developer of the app, then please actually check it's alright with them.
+      options:
+        - label: I am the app developer or have permission from the app developer to make this request
+          required: true
