@@ -1,6 +1,5 @@
 name: App request
 description: Request an app be added to Universal-DB
-title: "[App Request] "
 labels: ["app request"]
 body:
   - type: input
