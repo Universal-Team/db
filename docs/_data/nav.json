@@ -87,6 +87,6 @@
     ]
   }, {
     "title": "Submit app request",
-    "url": "https://github.com/Universal-Team/db/issues/new?assignees=&labels=app+request&template=app-request.md"
+    "url": "https://github.com/Universal-Team/db/issues/new?assignees=&labels=app+request&template=app-request.yml&title=%5BApp+Request%5D+"
   }
 ]

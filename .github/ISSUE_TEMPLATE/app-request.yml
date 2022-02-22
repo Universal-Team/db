@@ -44,7 +44,7 @@ body:
   - type: textarea
     attributes:
       label: Long description
-      description: You can use HTML and / or Markdown in this, shown on the app's download page.
+      description: You can use HTML and/or Markdown in this, shown on the app's download page.
   - type: textarea
     attributes:
       label: Screenshots
