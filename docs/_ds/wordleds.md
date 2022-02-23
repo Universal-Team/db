@@ -9,17 +9,17 @@ description: A clone of Wordle for the Nintendo DS(i)
 download_page: https://github.com/Epicpkmn11/WordleDS/releases
 downloads:
   WordleDS.cia:
-    size: 1057536
+    size: 1058048
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.0.1/WordleDS.cia
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.1.0/WordleDS.cia
   WordleDS.dsi:
-    size: 1042944
-    size_str: 1018 KiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.0.1/WordleDS.dsi
+    size: 1043456
+    size_str: 1019 KiB
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.1.0/WordleDS.dsi
   WordleDS.nds:
-    size: 1042944
-    size_str: 1018 KiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.0.1/WordleDS.nds
+    size: 1043456
+    size_str: 1019 KiB
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.1.0/WordleDS.nds
 github: Epicpkmn11/WordleDS
 icon: https://db.universal-team.net/assets/images/icons/wordleds.png
 icon_index: 200
@@ -43,14 +43,14 @@ source: https://github.com/Epicpkmn11/WordleDS
 systems:
 - DS
 title: WordleDS
-update_notes: '<h3 dir="auto">Bug fixes</h3>
+update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Fixes the color of the keyboard keys being set for every letter instead of just
-  when a letter was better resulting in them sometimes being the wrong color (ex.
-  the guess <code>color</code> would result in the <code>o</code> key being gray instead
-  of yellow if the answer had only one <code>o</code> not in the 4th position)</li>
+  <li>Wordle DS will now only quit on <kbd>START</kbd> press if loaded from a menu
+  that supports returning to it (TWiLight Menu++ or HBMenu)</li>
+
+  <li>Enter and Backspace keys have been made larger</li>
 
   </ul>
 
@@ -62,10 +62,9 @@ update_notes: '<h3 dir="auto">Bug fixes</h3>
   while the <code>.nds</code> build doesn''t so it works on flashcards. The <code>.cia</code>
   build can be used to install to the 3DS HOME Menu, here''s a QR:</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/154786240-e4129642-5017-4c21-84c2-b029319217a6.png"><img
-  src="https://user-images.githubusercontent.com/41608708/154786240-e4129642-5017-4c21-84c2-b029319217a6.png"
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/155247327-b7a75e1d-59b2-4200-bbda-f3dab43946d0.png"><img
+  src="https://user-images.githubusercontent.com/41608708/155247327-b7a75e1d-59b2-4200-bbda-f3dab43946d0.png"
   alt="QR for WordleDS.cia" style="max-width: 100%;"></a></p>'
-updated: '2022-02-19T04:33:49Z'
-version: v1.0.1
-version_title: Fix key colors
+updated: '2022-02-23T01:22:21Z'
+version: v1.1.0
 ---
