@@ -7082,6 +7082,27 @@
 		"github": "Epicpkmn11/WordleDS",
 		"systems": ["DS"],
 		"categories": ["game"],
-		"icon": "https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/icon.bmp"
+		"icon": "https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/icon.bmp",
+		"long_description": "A clone of [Wordle](https://www.nytimes.com/games/wordle/index.html) for the Nintendo DS(i). It features the same word each day as the official Wordle and has most of the same features including statistics tracking, high contrast and hard mode options, and even makes a txt file with a sharable emoji grid."
+	},
+	{
+		"github": "NotImplementedLife/d-Elusion",
+		"description": "The lost kitty's saga",
+		"systems": ["DS"],
+		"categories": ["game"],
+		"icon": "https://raw.githubusercontent.com/NotImplementedLife/d-Elusion/master/icon.bmp",
+		"wiki": "https://www.gamebrew.org/wiki/D-Elusion",
+		"website": "https://notimplementedlife.itch.io/d-elusion",
+		"long_description": "A kitten has lost in the strange outside world. Help the poor kitten find the way back to its mother. Guide it through the map using a fish (the only stimulus the kitten responds to). Explore the zone and mark dangerous zones with flags. Use the arrow cursor to remove a misplaced flag."
+	},
+	{
+		"github": "NotImplementedLife/FSPDS",
+		"systems": ["DS"],
+		"categories": ["utility"],
+		"icon": "https://raw.githubusercontent.com/NotImplementedLife/FSPDS/master/icon.bmp",
+		"long_description": "A DS ROM which allows playing DSi's Flipnote Studio (.ppm) files on a DS Phat/Lite. It features flipnote image and sound player with pause/resume option, and also a file metadata viewer.\n\nPlace the flipnotes you want to play in a `/flipnotes/` folder at the root of your SD card. FSPDS will not detect/play files larger than 1MB. It is also possible the app won't play correctly files with more than 512KB of BGM soundtrack (although I have never met such a file during my tests).",
+		"archive": {
+			"FSPDS-.*\\.zip": ["FSPDS.nds"]
+		}
 	}
 ]
