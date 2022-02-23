@@ -68,3 +68,4 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 updated: '2022-02-23T01:22:21Z'
 version: v1.1.0
 ---
+A clone of [Wordle](https://www.nytimes.com/games/wordle/index.html) for the Nintendo DS(i). It features the same word each day as the official Wordle and has most of the same features including statistics tracking, high contrast and hard mode options, and even makes a txt file with a sharable emoji grid.
