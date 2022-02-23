@@ -2,6 +2,7 @@
 
 from bs4 import BeautifulSoup
 from dateutil import parser
+from datetime import datetime, timezone
 import io
 import json
 from markdownify import markdownify
@@ -415,6 +416,7 @@ priorityOnlyMode = len(sys.argv) > 2 and sys.argv[2] == "priority"
 # Fetch info for GitHub apps and output
 for app in source:
 	foundExisting = False
+
 	if priorityOnlyMode and not ("priority" in app and app["priority"]):
 		temp = list(filter(lambda x: "github" in x and "github" in app and x["github"] == app["github"], oldData))
 		if len(temp) == 0:
@@ -422,7 +424,12 @@ for app in source:
 		if len(temp) == 0:
 			temp = list(filter(lambda x: "title" in x and "author" in x and "title" in app and "author" in app and x["title"] == app["title"] and x["author"] == app["author"], oldData))
 
-		if len(temp) > 0:
+		# Always treat apps that updated in the last 30 days as priority
+		daysSinceUpdate = 1000
+		if "updated" in temp[0]:
+			daysSinceUpdate = (datetime.now(tz=timezone.utc) - parser.parse(temp[0]["updated"])).days
+
+		if len(temp) > 0 and daysSinceUpdate > 30:
 			foundExisting = True
 			app = temp[0]
 	if not foundExisting or not (priorityOnlyMode and not ("priority" in app and app["priority"])):
