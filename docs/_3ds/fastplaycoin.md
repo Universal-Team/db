@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/2897351?v=4
 categories:
 - utility
 color: '#7e9a6e'
+color_bg: '#68805b'
 created: '2017-11-11T08:27:21Z'
 description: '[3DS] Fast PlayCoin'
 download_page: https://github.com/CorySanin/FastPlayCoin/releases

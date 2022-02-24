@@ -5,6 +5,7 @@ avatar: https://avatars.githubusercontent.com/u/6418965?v=4
 categories:
 - game
 color: '#cac590'
+color_bg: '#807c5b'
 created: '2017-08-17T18:53:01Z'
 description: Port to 3ds of the Zelda fan game Zelda Time to Triumph
 download_page: https://github.com/nop90/Zelda3T/releases

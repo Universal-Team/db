@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/11259227?v=4
 categories:
 - utility
 color: '#a3b290'
+color_bg: '#758067'
 created: '2016-04-22T18:42:32Z'
 description: Rewrite of the EasyRPG 3DS Updater
 download_page: https://github.com/gnmmarechal/easyrpgdlre/releases

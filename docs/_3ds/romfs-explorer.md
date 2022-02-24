@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/13871621?v=4
 categories:
 - utility
 color: '#b4ac70'
+color_bg: '#807a4f'
 created: '2016-07-13T17:16:45Z'
 description: RomFS file explorer and dumper for Nintendo 3DS titles
 download_page: https://github.com/Ryuzaki-MrL/RomFS-Explorer/releases

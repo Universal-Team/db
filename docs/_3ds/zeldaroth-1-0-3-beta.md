@@ -5,6 +5,7 @@ avatar: https://avatars.githubusercontent.com/u/12373906?v=4
 categories:
 - game
 color: '#ceb1a5'
+color_bg: '#806e66'
 created: '2020-12-18T01:11:38Z'
 description: ZeldaROTH 1.0.3 beta including Hungarian translation for this classic
   fan game, and was recompiled with actual libraries.

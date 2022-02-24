@@ -5,6 +5,7 @@ avatar: https://avatars.githubusercontent.com/u/1700581?v=4
 categories:
 - utility
 color: '#ffc9ac'
+color_bg: '#806456'
 created: '2015-11-29T08:18:36Z'
 description: Temporarily suppresses the 3ds update nag.
 download_page: https://github.com/GiantBlargg/UpdateSuppressor/releases

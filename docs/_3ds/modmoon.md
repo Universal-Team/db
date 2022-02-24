@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/22382655?v=4
 categories:
 - utility
 color: '#496373'
+color_bg: '#496373'
 created: '2018-03-22T13:16:03Z'
 description: A mods manager for the 3DS, with fancy features and UI.
 download_page: https://github.com/Swiftloke/ModMoon/releases

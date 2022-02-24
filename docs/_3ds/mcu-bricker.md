@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/59751328?v=4
 categories:
 - utility
 color: '#9d9290'
+color_bg: '#807775'
 created: '2019-04-01T01:27:21Z'
 description: Makes your LED go rainbow.
 download_page: https://github.com/MechanicalDragon0687/MCU_Bricker_tinydb/releases

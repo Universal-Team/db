@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/81656710?v=4
 categories:
 - firm
 color: '#5b7f8b'
+color_bg: '#537480'
 created: '2021-01-02T21:01:10Z'
 description: 'Linux for 3DS - Default log in username: root password: toor'
 download_page: https://github.com/linux-3ds/linux/releases

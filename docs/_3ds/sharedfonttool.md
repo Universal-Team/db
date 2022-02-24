@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/2081018?v=4
 categories:
 - utility
 color: '#e06c24'
+color_bg: '#803d14'
 created: '2016-05-03T02:29:42Z'
 description: 3DS SharedFontTool
 download_page: https://github.com/dnasdw/SharedFontTool/releases

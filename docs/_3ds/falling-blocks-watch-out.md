@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/1278433?v=4
 categories:
 - game
 color: '#a09585'
+color_bg: '#80776a'
 created: '2016-01-30T08:52:55Z'
 description: Falling Blocks Watch Out, a 3DS homebrew Tetris clone.
 download_page: https://github.com/Spaqin/fbwo-3ds/releases

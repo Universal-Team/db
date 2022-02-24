@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/26261465?v=4
 categories:
 - utility
 color: '#351125'
+color_bg: '#351125'
 created: '2017-07-13T12:42:29Z'
 description: A Nintendo 3DS Homebrew application which allows the end user to freely
   change the (Raw) RTC of the system to bypass timegates.

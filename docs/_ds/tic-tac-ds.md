@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/66566027?v=4
 categories:
 - game
 color: '#906e34'
+color_bg: '#80612e'
 created: '2020-06-28T16:50:04Z'
 description: Tic Tac DS is a tic-tac-toe clone for the NDS.
 download_page: https://github.com/Jonatan6/Tic-Tac-DS/releases

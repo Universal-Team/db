@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/10487782?v=4
 categories:
 - utility
 color: '#a59123'
+color_bg: '#80701b'
 created: '2016-10-09T18:02:18Z'
 description: Golden Pants for everyone!
 download_page: https://github.com/phijor/SpecializeMii/releases

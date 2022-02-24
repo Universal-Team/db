@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/48782538?v=4
 categories:
 - utility
 color: '#c0c0c0'
+color_bg: '#808080'
 created: '2019-05-26T12:57:45Z'
 download_page: https://github.com/HIDE810/WiFi-Status-Checker/releases
 downloads:

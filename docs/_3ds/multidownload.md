@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/16360444?v=4
 categories:
 - utility
 color: '#2d880f'
+color_bg: '#2a800e'
 created: '2017-03-17T07:41:24Z'
 description: Download files straight onto your 3ds!
 download_page: https://github.com/hax0kartik/Multidownload/releases

@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/6418965?v=4
 categories:
 - game
 color: '#6d756e'
+color_bg: '#6d756e'
 created: '2017-03-22T22:13:53Z'
 description: Port to 3ds of Supertux v0.1.3 (Milestone 1)
 download_page: https://github.com/nop90/Supertux-Milestone1-3ds/releases

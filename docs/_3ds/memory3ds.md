@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/22015200?v=4
 categories:
 - game
 color: '#c8cacf'
+color_bg: '#7b7c80'
 created: '2016-10-13T20:48:22Z'
 description: A 3DS memory game!
 download_page: https://github.com/Omegadrien/Memory3DS/releases

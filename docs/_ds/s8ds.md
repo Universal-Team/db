@@ -7,6 +7,7 @@ avatar: https://avatars.githubusercontent.com/u/2324920?v=4
 categories:
 - emulator
 color: '#594648'
+color_bg: '#594648'
 created: '2021-09-05T11:34:00Z'
 description: A Sega 8bit systems emulator for NDS
 download_page: https://github.com/FluBBaOfWard/S8DS/releases

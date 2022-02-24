@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/18345369?v=4
 categories:
 - utility
 color: '#42b76e'
+color_bg: '#2e804d'
 created: '2016-05-15T07:49:07Z'
 description: 3DS Quick Reboot.
 download_page: https://github.com/Asellus/3DS_Quick_Reboot/releases

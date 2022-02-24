@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/31173797?v=4
 categories:
 - utility
 color: '#871112'
+color_bg: '#801011'
 created: '2021-07-19T17:53:12Z'
 description: A work-in-progress homebrew YouTube client for new 3DS
 download_page: https://github.com/windows-server-2003/ThirdTube/releases

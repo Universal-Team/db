@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/88832503?v=4
 categories:
 - game
 color: '#4a2110'
+color_bg: '#4a2110'
 created: '2021-10-03T19:38:32Z'
 description: Explore the city of Bohicon and talk to the villagers ! /!\ A bit of
   gore (low-resolution) /!\

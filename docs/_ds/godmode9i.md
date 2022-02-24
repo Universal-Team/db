@@ -5,6 +5,7 @@ categories:
 - utility
 - save-tool
 color: '#be8345'
+color_bg: '#80582e'
 created: '2018-10-02T16:59:38Z'
 description: 'GodMode9i Explorer - A full access file browser for the Nintendo DS
   and DSi consoles :godmode:'

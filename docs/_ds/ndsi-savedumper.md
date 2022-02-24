@@ -5,6 +5,7 @@ categories:
 - utility
 - save-tool
 color: '#cae5da'
+color_bg: '#708079'
 created: '2018-08-15T15:52:45Z'
 description: Homebrew to dump and inject savefiles from original game cards on dsi
 download_page: https://github.com/edo9300/ndsi-savedumper/releases

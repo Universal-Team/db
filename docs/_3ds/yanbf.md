@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/37358975?v=4
 categories:
 - utility
 color: '#90594d'
+color_bg: '#804f44'
 created: '2021-06-16T08:14:55Z'
 description: Yet another nds-bootstrap forwarder. Runs from 3DS-mode!
 download_page: https://github.com/lifehackerhansol/YANBF/releases

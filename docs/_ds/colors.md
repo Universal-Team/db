@@ -3,6 +3,7 @@ author: Jens Andersson
 categories:
 - utility
 color: '#697e93'
+color_bg: '#5b6d80'
 description: Colors! is a simplistic painting application combining ease of use and
   powerful painting tools.
 download_page: https://gamebrew.org/wiki/Colors!

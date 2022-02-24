@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/46403089?s=200&v=4
 categories:
 - game
 color: '#59393b'
+color_bg: '#59393b'
 created: '2015-01-01T00:00:00Z'
 description: 'CTGP-7 modpack for Mario Kart 7.
 

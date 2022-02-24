@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/9029520?v=4
 categories:
 - utility
 color: '#beb6be'
+color_bg: '#807a80'
 created: '2017-06-20T04:43:35Z'
 description: "\U0001F342 Displays various information about your Nintendo 3DS in pretty\
   \ colors."

@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/71648010?v=4
 categories:
 - utility
 color: '#e2c8da'
+color_bg: '#80717b'
 created: '2021-02-04T09:53:45Z'
 description: BCSTM-Player for 3ds
 download_page: https://github.com/NPI-D7/BCSTM-Player/releases

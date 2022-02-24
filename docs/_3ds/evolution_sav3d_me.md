@@ -5,6 +5,7 @@ avatar: https://avatars.githubusercontent.com/u/17181899?v=4
 categories:
 - game
 color: '#6d7a68'
+color_bg: '#6d7a68'
 created: '2017-01-31T16:20:47Z'
 description: A monkey who wants to survive!
 download_page: https://github.com/Manurocker95/Evolution_Sav3D_Me/releases

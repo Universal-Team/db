@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/13298129?v=4
 categories:
 - utility
 color: '#7c626d'
+color_bg: '#7c626d'
 created: '2016-04-21T14:02:23Z'
 download_page: https://github.com/Nanquitas/BootNTR/releases
 downloads:

@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/6271991?v=4
 categories:
 - utility
 color: '#cccfd0'
+color_bg: '#7d7f80'
 created: '2017-08-08T15:01:01Z'
 description: A tool for restoring and backing-up unique data on the Nintendo 3DS
 download_page: https://github.com/joel16/3DS-Recovery-Tool/releases

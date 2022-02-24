@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/16110127?v=4
 categories:
 - utility
 color: '#666666'
+color_bg: '#666666'
 created: '2017-07-24T04:43:30Z'
 description: World's FIRST Nintendo DSi CFW!
 download_page: https://github.com/RocketRobz/hiyaCFW/releases

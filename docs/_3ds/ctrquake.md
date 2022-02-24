@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/15205297?v=4
 categories:
 - game
 color: '#44291b'
+color_bg: '#44291b'
 created: '2015-10-20T01:25:02Z'
 description: Port of quake for the Nintendo 3DS
 download_page: https://github.com/masterfeizz/ctrQuake/releases

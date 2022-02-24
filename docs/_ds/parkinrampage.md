@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/16925975?v=4
 categories:
 - game
 color: '#6e7882'
+color_bg: '#6c7680'
 created: '2020-12-14T13:09:57Z'
 description: A classic puzzle game. Your goal is to move all cars out of the way,
   so the police can leave the parking lot.

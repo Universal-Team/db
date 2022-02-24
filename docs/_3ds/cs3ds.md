@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/1700799?v=4
 categories:
 - game
 color: '#333c49'
+color_bg: '#333c49'
 created: '2016-04-14T01:43:54Z'
 description: CSPSP port for 3DS
 download_page: https://github.com/machinamentum/CS3DS/releases

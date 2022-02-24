@@ -3,6 +3,7 @@ author: Lordus
 categories:
 - emulator
 color: '#875536'
+color_bg: '#805033'
 description: A Sega Genesis/MegaDrive emulator for the Nintendo DS
 download_page: https://gamebrew.org/wiki/JEnesisDS
 downloads:

@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/74314538?v=4
 categories:
 - emulator
 color: '#9e8e57'
+color_bg: '#807346'
 created: '2021-10-09T17:54:18Z'
 description: 3DS GameYob port, a [Super] Game Boy [Color] emulator for the Nintendo
   DS

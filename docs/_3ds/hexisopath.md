@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/16072534?v=4
 categories:
 - game
 color: '#40c62f'
+color_bg: '#29801e'
 created: '2017-08-19T07:52:05Z'
 description: A 3DS port of the Hexagonal Iso-Path board game by youtuber pocket83
   !

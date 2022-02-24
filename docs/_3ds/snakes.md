@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/9905864?v=4
 categories:
 - game
 color: '#00280e'
+color_bg: '#00280e'
 created: '2017-01-06T21:56:01Z'
 description: Local play snake game for 3DS homebrew/cfw
 download_page: https://github.com/DDews/Snakes/releases

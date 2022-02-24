@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/28328903?v=4
 categories:
 - utility
 color: '#343f89'
+color_bg: '#303b80'
 created: '2017-07-31T01:35:11Z'
 description: Random 3ds stuff that probably deserves its own repo
 download_page: https://github.com/zoogie/Stuff/releases

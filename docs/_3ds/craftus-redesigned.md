@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/68710005?v=4
 categories:
 - game
 color: '#7a6040'
+color_bg: '#7a6040'
 created: '2020-11-08T10:28:37Z'
 description: Modification from Craftus Reloaded
 download_page: https://github.com/GamesSanti/Craftus-Redesigned/releases

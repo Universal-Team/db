@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/22681618?v=4
 categories:
 - game
 color: '#414752'
+color_bg: '#414752'
 created: '2021-10-30T22:08:29Z'
 description: Gravity Game for DS.
 download_page: https://github.com/Garhoogin/Gravity/releases

@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/41608708?v=4
 categories:
 - utility
 color: '#676967'
+color_bg: '#676967'
 created: '2020-08-03T07:14:58Z'
 description: A simple example homebrew app that can use the DSi's cameras
 download_page: https://github.com/Epicpkmn11/dsi-camera/releases

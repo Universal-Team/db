@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/5771065?v=4
 categories:
 - game
 color: '#696a6b'
+color_bg: '#696a6b'
 created: '2017-08-01T06:45:58Z'
 description: Halo Revamped 3DS
 download_page: https://github.com/CollinScripter/Revamped3DS/releases

@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/22681618?v=4
 categories:
 - game
 color: '#5b473d'
+color_bg: '#5b473d'
 created: '2021-08-16T03:31:52Z'
 description: Close The Box but made terribly on the DS
 download_page: https://github.com/Garhoogin/Box/releases

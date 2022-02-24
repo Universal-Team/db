@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/15205297?v=4
 categories:
 - game
 color: '#2d3f4a'
+color_bg: '#2d3f4a'
 created: '2017-06-11T18:50:18Z'
 description: Quake 2 port for Nintendo 3DS
 download_page: https://github.com/masterfeizz/Quake2CTR/releases

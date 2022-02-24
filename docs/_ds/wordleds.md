@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/41608708?v=4
 categories:
 - game
 color: '#96c392'
+color_bg: '#62805f'
 created: '2022-02-14T05:51:08Z'
 description: A clone of Wordle for the Nintendo DS(i)
 download_page: https://github.com/Epicpkmn11/WordleDS/releases

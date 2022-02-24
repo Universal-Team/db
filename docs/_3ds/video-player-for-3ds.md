@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/45873899?v=4
 categories:
 - utility
 color: '#4ca5f1'
+color_bg: '#285780'
 created: '2021-04-02T02:28:20Z'
 description: You can play .mp4 file on your 3DS!
 download_page: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases

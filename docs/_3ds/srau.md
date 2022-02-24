@@ -6,6 +6,7 @@ categories:
 - utility
 - save-tool
 color: '#ddbca2'
+color_bg: '#806c5d'
 created: '2018-04-08T18:03:47Z'
 description: 'Samus Returns: Amiibo Unlocker'
 download_page: https://github.com/noirscape/SRAU/releases

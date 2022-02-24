@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/6418965?v=4
 categories:
 - game
 color: '#ada6a0'
+color_bg: '#807a76'
 created: '2017-03-04T06:48:10Z'
 download_page: https://github.com/nop90/Opentyrian-3ds/releases
 downloads:

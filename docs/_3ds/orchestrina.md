@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/13992834?v=4
 categories:
 - utility
 color: '#b7b7cf'
+color_bg: '#717180'
 created: '2016-07-09T04:21:45Z'
 description: A homebrew Legend of Zelda instrument player
 download_page: https://github.com/EBLeifEricson/orchestrina/releases

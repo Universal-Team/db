@@ -5,6 +5,7 @@ avatar: https://avatars.githubusercontent.com/u/790119?v=4
 categories:
 - utility
 color: '#957d49'
+color_bg: '#806b3e'
 created: '2016-08-09T02:47:06Z'
 description: A ticket cleaner for the Nintendo 3DS.
 download_page: https://github.com/DanTheMan827/tikSweep/releases

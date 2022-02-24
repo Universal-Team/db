@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/10946643?v=4
 categories:
 - game
 color: '#557662'
+color_bg: '#557662'
 created: '2021-03-14T09:40:28Z'
 description: A Mario Kart game clone for the 3DS, made with the intention to mimic
   the feeling of a Mario Kart game using Mario Kart 7 as the inspiration

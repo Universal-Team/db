@@ -16,6 +16,7 @@ bitbucket:
 categories:
 - extra
 color: '#84836f'
+color_bg: '#807f6b'
 created: '2021-12-26T07:15:47.307433+00:00'
 description: ''
 download_page: https://bitbucket.org/DeadSkullzJr/nds-i-cheat-databases/src/master/Cheat%20Databases/cheat.dat

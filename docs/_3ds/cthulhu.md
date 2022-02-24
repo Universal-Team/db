@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/13871621?v=4
 categories:
 - utility
 color: '#546541'
+color_bg: '#546541'
 created: '2016-08-22T03:05:13Z'
 description: Homebrew alternative to Nintendo's dev unit software
 download_page: https://github.com/Ryuzaki-MrL/Cthulhu/releases

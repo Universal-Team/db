@@ -5,6 +5,7 @@ avatar: https://avatars.githubusercontent.com/u/6418965?v=4
 categories:
 - emulator
 color: '#e5c3c3'
+color_bg: '#806d6d'
 created: '2017-06-01T21:56:07Z'
 description: Neo Geo Pocket Color Emulator for 3DS
 download_page: https://github.com/nop90/Neopop-SDL/releases

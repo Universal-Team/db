@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/16766068?v=4
 categories:
 - utility
 color: '#750000'
+color_bg: '#750000'
 created: '2017-02-17T21:00:10Z'
 description: NitroHax cheat tool for Nintendo DS games, ported to Nintendo 3DS
 download_page: https://github.com/ahezard/NitroHax3DS/releases

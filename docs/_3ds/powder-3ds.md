@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/6418965?v=4
 categories:
 - game
 color: '#c39b4b'
+color_bg: '#806531'
 created: '2017-01-04T10:11:24Z'
 description: Port to 3DS of the roguelike game POWDER
 download_page: https://github.com/nop90/POWDER-3DS/releases

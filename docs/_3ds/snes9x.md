@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/20153229?v=4
 categories:
 - emulator
 color: '#2f6fb0'
+color_bg: '#225080'
 created: '2016-10-15T13:52:35Z'
 description: SNES9x Port for 3DS / 2DS
 download_page: https://github.com/bubble2k16/snes9x_3ds/releases

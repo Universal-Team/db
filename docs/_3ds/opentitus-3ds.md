@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/561623?v=4
 categories:
 - game
 color: '#683a2b'
+color_bg: '#683a2b'
 created: '2018-12-23T19:36:03Z'
 description: 'A port of the game engine behind the DOS versions of Titus the Fox and
   Moktar '

@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/66566027?v=4
 categories:
 - game
 color: '#645750'
+color_bg: '#645750'
 created: '2021-03-03T13:33:23Z'
 description: It's like the classic game pong, but with guns.
 download_page: https://github.com/Jonatan6/Pistol-Pong-DS/releases

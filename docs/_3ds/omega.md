@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/56520121?v=4
 categories:
 - utility
 color: '#cd264c'
+color_bg: '#80182f'
 created: '2019-08-10T10:11:33Z'
 description: Omega 1.23, the next evolution of Epsilon! Now available for your Numworks
   calculator!

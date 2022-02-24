@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/16110127?v=4
 categories:
 - utility
 color: '#99d6e5'
+color_bg: '#557780'
 created: '2018-09-03T05:31:36Z'
 description: '"Nintendo 3DS" folder selector'
 download_page: https://github.com/RocketRobz/3DSBank/releases

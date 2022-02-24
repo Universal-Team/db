@@ -5,6 +5,7 @@ avatar: https://avatars.githubusercontent.com/u/17181899?v=4
 categories:
 - game
 color: '#5f9478'
+color_bg: '#528067'
 created: '2017-08-26T12:59:26Z'
 description: T-Rekt for 3DS in C++
 download_page: https://github.com/Manurocker95/TRekt_3D/releases

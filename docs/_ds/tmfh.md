@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/14222721?v=4
 categories:
 - utility
 color: '#61ceff'
+color_bg: '#306780'
 created: '2018-09-12T19:48:02Z'
 description: DSi Title Manager for HiyaCFW
 download_page: https://github.com/JeffRuLz/TMFH/releases

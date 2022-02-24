@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/7954485?v=4
 categories:
 - game
 color: '#998080'
+color_bg: '#806b6b'
 created: '2020-09-23T23:23:50Z'
 description: Ikachan for Nintendo DS
 download_page: https://github.com/tilderain/IkachanDS/releases

@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/1311867?v=4
 categories:
 - emulator
 color: '#7c9187'
+color_bg: '#6d8077'
 created: '2013-08-02T12:14:31Z'
 description: SNES emulator for DS
 download_page: http://lolsnes.kuribo64.net/download.php

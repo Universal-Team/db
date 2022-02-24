@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/49733679?v=4
 categories:
 - game
 color: '#b89c52'
+color_bg: '#806c39'
 created: '2019-11-18T16:59:30Z'
 description: A Card game for Nintendo 3DS & DS(i)!
 download_page: https://github.com/Universal-Team/3DEins/releases

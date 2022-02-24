@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/47382115?v=4
 categories:
 - utility
 color: '#90337d'
+color_bg: '#802d6f'
 created: '2019-12-02T01:37:45Z'
 description: A Pokemon Shiny Encounter Tool.
 download_page: https://github.com/SuperSaiyajinStackZ/PKCount/releases

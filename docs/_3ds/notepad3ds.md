@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/18317099?v=4
 categories:
 - utility
 color: '#90c0fc'
+color_bg: '#496180'
 created: '2017-06-06T19:39:05Z'
 description: Text editor for the Nintendo 3DS console
 download_page: https://github.com/RMcTn/Notepad3DS/releases

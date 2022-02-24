@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/824564?v=4
 categories:
 - utility
 color: '#182448'
+color_bg: '#182448'
 created: '2016-02-01T06:16:42Z'
 description: Port of vgmstream for the nintendo 3ds along with a player
 download_page: https://github.com/TricksterGuy/3ds-vgmstream/releases

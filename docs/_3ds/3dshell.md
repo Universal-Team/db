@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/6271991?v=4
 categories:
 - utility
 color: '#2c8ce1'
+color_bg: '#194f80'
 created: '2017-05-22T18:38:09Z'
 description: 3DShell - (Pronounced 3D Shell) is a multi purpose file manager for the
   Nintendo 3DS. Heavily inspired by the CyanogenMod/LineageOS file manager.

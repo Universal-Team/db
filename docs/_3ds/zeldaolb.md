@@ -5,6 +5,7 @@ avatar: https://avatars.githubusercontent.com/u/6418965?v=4
 categories:
 - game
 color: '#d1babe'
+color_bg: '#807174'
 created: '2016-06-06T17:44:23Z'
 description: Port of Zelda OLB on 3ds
 download_page: https://github.com/nop90/ZeldaOLB/releases

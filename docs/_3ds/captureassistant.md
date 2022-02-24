@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/16449821?v=4
 categories:
 - utility
 color: '#71524e'
+color_bg: '#71524e'
 created: '2016-08-26T15:57:26Z'
 description: A capture alignment assistant for 3ds capture cards and NTRviewer
 download_page: https://github.com/ItsDeidara/CaptureAssistant/releases

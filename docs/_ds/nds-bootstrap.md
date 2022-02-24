@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/46971470?v=4
 categories:
 - emulator
 color: '#585758'
+color_bg: '#585758'
 created: '2016-09-11T19:50:26Z'
 description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases

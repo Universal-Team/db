@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/28328903?v=4
 categories:
 - utility
 color: '#686d75'
+color_bg: '#686d75'
 created: '2017-05-03T01:37:25Z'
 description: Dsp firmware dumper
 download_page: https://github.com/zoogie/DSP1/releases

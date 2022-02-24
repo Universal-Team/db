@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/41608708?v=4
 categories:
 - utility
 color: '#81de8e'
+color_bg: '#4a8052'
 created: '2022-01-09T06:28:39Z'
 description: NAND Title Manager for DSi
 download_page: https://github.com/Epicpkmn11/NTM/releases

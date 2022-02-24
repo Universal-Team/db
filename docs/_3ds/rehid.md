@@ -5,6 +5,7 @@ avatar: https://avatars.githubusercontent.com/u/16360444?v=4
 categories:
 - utility
 color: '#411d38'
+color_bg: '#411d38'
 created: '2020-11-07T12:39:47Z'
 description: HID module rewrite(button remapping and more)
 download_page: https://github.com/hax0kartik/rehid/releases

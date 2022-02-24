@@ -5,6 +5,7 @@ categories:
 - utility
 - save-tool
 color: '#529b9d'
+color_bg: '#437e80'
 created: '2019-08-14T21:36:39Z'
 description: 'Work in progress Animal Crossing: New Leaf save manager & editor for
   the Nintendo 3DS!'

@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/40645014?v=4
 categories:
 - game
 color: '#695d5d'
+color_bg: '#695d5d'
 created: '2018-08-02T17:19:01Z'
 description: Diablo build for modern operating systems
 download_page: https://github.com/diasurgical/devilutionX/releases

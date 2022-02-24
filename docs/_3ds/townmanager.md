@@ -5,6 +5,7 @@ categories:
 - utility
 - save-tool
 color: '#ae822b'
+color_bg: '#805f20'
 created: '2016-10-20T18:11:56Z'
 description: A specialized save manager for AC:NL
 download_page: https://github.com/dragos240/TownManager/releases

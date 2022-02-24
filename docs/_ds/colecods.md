@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/75039837?v=4
 categories:
 - emulator
 color: '#4a4a42'
+color_bg: '#4a4a42'
 created: '2021-11-09T21:09:48Z'
 description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. Phoenix-Edition
   by Wavemotion. '

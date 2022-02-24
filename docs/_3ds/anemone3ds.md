@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/7305572?v=4
 categories:
 - utility
 color: '#5a9cc8'
+color_bg: '#396380'
 created: '2017-07-10T21:48:13Z'
 description: A theme and boot splash manager for the Nintendo 3DS console
 download_page: https://github.com/astronautlevel2/Anemone3DS/releases

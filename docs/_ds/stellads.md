@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/75039837?v=4
 categories:
 - emulator
 color: '#969188'
+color_bg: '#807b74'
 created: '2020-11-25T18:16:27Z'
 description: Atari 2600 emulator for DS (original code by AlekMaul). This is the PHOENIX
   EDITION which brings greater speed, compatibility and accuracy to the emulation

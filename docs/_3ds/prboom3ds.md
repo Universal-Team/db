@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/8599176?v=4
 categories:
 - game
 color: '#6d5127'
+color_bg: '#6d5127'
 created: '2014-12-24T22:07:15Z'
 description: prboom for the 3ds
 download_page: https://github.com/elhobbs/prboom3ds/releases

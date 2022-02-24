@@ -5,6 +5,7 @@ avatar: https://avatars.githubusercontent.com/u/15205297?v=4
 categories:
 - emulator
 color: '#5d7255'
+color_bg: '#5d7255'
 created: '2020-04-30T00:57:08Z'
 description: Port of DaedalusX64 to the Nintendo 3DS
 download_page: https://github.com/masterfeizz/daedalusx64-3DS/releases

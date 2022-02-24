@@ -6,6 +6,7 @@ categories:
 - firm
 - luma3ds
 color: '#82e5d9'
+color_bg: '#488079'
 created: '2016-02-08T02:26:12Z'
 description: Noob-proof (N)3DS "Custom Firmware"
 download_page: https://github.com/LumaTeam/Luma3DS/releases

@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/6418965?v=4
 categories:
 - game
 color: '#764d2f'
+color_bg: '#764d2f'
 created: '2017-03-01T23:04:10Z'
 description: Port to 3ds of the open source remake of Rick Dangerous
 download_page: https://github.com/nop90/Xrick-3ds/releases

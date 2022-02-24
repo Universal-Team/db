@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/41608708?v=4
 categories:
 - utility
 color: '#a4a8a4'
+color_bg: '#7c807c'
 created: '2020-09-14T03:45:48Z'
 description: A Dummy File Creator for hiyaCFW
 download_page: https://github.com/Epicpkmn11/dfc/releases

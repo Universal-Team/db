@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/46971470?v=4
 categories:
 - utility
 color: '#6e9ed1'
+color_bg: '#436080'
 created: '2020-12-03T05:35:53Z'
 description: Dump or restore DSi NAND w/ nocash footer
 download_page: https://github.com/DS-Homebrew/SafeNANDManager/releases

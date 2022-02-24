@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/6418965?v=4
 categories:
 - game
 color: '#ceb1a5'
+color_bg: '#806e66'
 created: '2016-05-06T23:17:31Z'
 description: Port of Zelda ROTH on 3ds
 download_page: https://github.com/nop90/ZeldaROTH/releases

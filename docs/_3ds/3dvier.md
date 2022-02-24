@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/49733679?v=4
 categories:
 - game
 color: '#a34f3d'
+color_bg: '#803e30'
 created: '2020-05-05T03:10:20Z'
 description: A Connect-Four clone for Nintendo 3DS.
 download_page: https://github.com/Universal-Team/3DVier/releases

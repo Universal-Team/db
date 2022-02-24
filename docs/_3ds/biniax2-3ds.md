@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/6418965?v=4
 categories:
 - game
 color: '#fddfbc'
+color_bg: '#80705f'
 created: '2016-06-29T21:30:57Z'
 description: Port of Biniax2 on 3ds
 download_page: https://github.com/nop90/Biniax2-3DS/releases

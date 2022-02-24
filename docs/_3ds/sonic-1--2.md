@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/14222721?v=4
 categories:
 - game
 color: '#8b948e'
+color_bg: '#78807a'
 created: '2021-01-28T00:52:25Z'
 description: Port of Sonic 1 and 2 to the 3DS, based on Rubberduckycooly's Sonic 1/2
   (2013) decompilation

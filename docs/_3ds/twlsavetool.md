@@ -6,6 +6,7 @@ categories:
 - utility
 - save-tool
 color: '#386637'
+color_bg: '#386637'
 created: '2015-12-24T15:36:14Z'
 description: A 3DS homebrew that allows you to read, write, and erase save files from
   NDS cartridges

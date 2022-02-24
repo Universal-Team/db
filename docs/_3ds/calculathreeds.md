@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/16072534?v=4
 categories:
 - utility
 color: '#c0c0d4'
+color_bg: '#737380'
 created: '2020-10-31T18:01:10Z'
 description: '3DS homebrew scientific calculator '
 download_page: https://github.com/LiquidFenrir/CalculaThreeDS/releases

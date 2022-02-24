@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/25725992?v=4
 categories:
 - game
 color: '#546f7d'
+color_bg: '#546f7d'
 created: '2017-02-12T18:02:12Z'
 description: Cookie Clicker for Nintendo 3ds
 download_page: https://github.com/Creckeryop/3dsCookieClicker/releases

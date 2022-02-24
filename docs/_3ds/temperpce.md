@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/20153229?v=4
 categories:
 - emulator
 color: '#559cce'
+color_bg: '#356180'
 created: '2017-06-18T16:00:26Z'
 description: This is a port of Exophase's Temper (TurboGrafx/PC-Engine) emulator to
   the old 3DS and old 2DS.

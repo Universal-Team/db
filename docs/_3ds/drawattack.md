@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/383999?v=4
 categories:
 - game
 color: '#edb0ad'
+color_bg: '#805f5d'
 created: '2015-08-25T16:49:38Z'
 description: Multiplayer drawing battle game for the Nintendo 3DS.
 download_page: https://github.com/Cruel/DrawAttack/releases

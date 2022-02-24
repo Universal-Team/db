@@ -7,6 +7,7 @@ avatar: https://avatars.githubusercontent.com/u/70803115?v=4
 categories:
 - utility
 color: '#c0a28a'
+color_bg: '#806c5c'
 created: '2021-01-27T13:49:42Z'
 description: Flipnote Studio Player for Nintendo DS
 download_page: https://github.com/NotImplementedLife/FSPDS/releases

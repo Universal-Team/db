@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/6271991?v=4
 categories:
 - utility
 color: '#9d9d9d'
+color_bg: '#808080'
 created: '2017-09-02T02:06:20Z'
 description: An experimental open source friends app for the Nintendo 3DS.
 download_page: https://github.com/joel16/FriendMii/releases

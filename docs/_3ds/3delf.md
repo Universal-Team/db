@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/47382115?v=4
 categories:
 - game
 color: '#79c0b9'
+color_bg: '#50807b'
 created: '2020-10-03T20:29:35Z'
 description: "Ein \"Elfer raus!\" klon f\xFCr den Nintendo 3DS."
 download_page: https://github.com/SuperSaiyajinStackZ/3DElf/releases

@@ -5,6 +5,7 @@ categories:
 - utility
 - save-tool
 color: '#8e98a8'
+color_bg: '#6c7380'
 created: '2020-08-12T22:06:02Z'
 description: This is LeafEdit's Pattern Editor as a separate app as well!
 download_page: https://github.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/releases

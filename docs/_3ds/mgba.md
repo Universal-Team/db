@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/10085927?v=4
 categories:
 - emulator
 color: '#503a7e'
+color_bg: '#503a7e'
 created: '2014-12-09T21:37:23Z'
 description: mGBA Game Boy Advance Emulator
 download_page: https://github.com/mgba-emu/mgba/releases

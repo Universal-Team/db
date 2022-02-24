@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/6418965?v=4
 categories:
 - game
 color: '#bdb183'
+color_bg: '#807758'
 created: '2016-12-05T09:24:55Z'
 description: Port  to 3DS of the Zelda style picross game by Vincent Joiullat
 download_page: https://github.com/nop90/ZeldaPicross/releases

@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/26163116?v=4
 categories:
 - game
 color: '#dcd7e8'
+color_bg: '#797680'
 created: '2018-04-17T16:27:05Z'
 description: An unofficial Doki Doki Literature Club port to Lua for the PS Vita and
   other game consoles

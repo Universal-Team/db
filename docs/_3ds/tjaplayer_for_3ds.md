@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/18244518?v=4
 categories:
 - utility
 color: '#9e4d4d'
+color_bg: '#803e3e'
 created: '2017-10-09T10:22:35Z'
 description: It's a music game of the TJA file used by Taiko Jiro on 3DS.
 download_page: https://github.com/togetg/TJAPlayer_for_3DS/releases

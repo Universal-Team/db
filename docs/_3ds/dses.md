@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/13433513?v=4
 categories:
 - utility
 color: '#f1f1f1'
+color_bg: '#808080'
 created: '2018-06-07T21:18:15Z'
 description: Dead Simple Eula Set
 download_page: https://github.com/noirscape/dses/releases

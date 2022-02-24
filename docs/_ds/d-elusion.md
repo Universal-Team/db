@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/70803115?v=4
 categories:
 - game
 color: '#897b7b'
+color_bg: '#807272'
 created: '2021-10-13T05:33:14Z'
 description: The lost kitty's saga
 download_page: https://github.com/NotImplementedLife/d-Elusion/releases

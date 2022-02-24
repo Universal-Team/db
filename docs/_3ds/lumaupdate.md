@@ -5,6 +5,7 @@ avatar: https://avatars.githubusercontent.com/u/19984244?v=4
 categories:
 - utility
 color: '#9ae1d2'
+color_bg: '#578077'
 created: '2017-04-26T01:20:59Z'
 description: Updater for Luma3DS
 download_page: https://github.com/KunoichiZ/lumaupdate/releases

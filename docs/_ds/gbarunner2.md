@@ -5,6 +5,7 @@ avatar: https://avatars.githubusercontent.com/u/5251038?v=4
 categories:
 - emulator
 color: '#48405c'
+color_bg: '#48405c'
 created: '2016-08-17T16:49:13Z'
 description: A GBA hypervisor for DS. (like nintendont for gc on wii)
 download_page: https://github.com/Gericom/GBARunner2/releases

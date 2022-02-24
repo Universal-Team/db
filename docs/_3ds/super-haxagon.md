@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/6108605?v=4
 categories:
 - game
 color: '#6d190a'
+color_bg: '#6d190a'
 created: '2016-06-11T03:45:12Z'
 description: A Super Hexagon Clone
 download_page: https://github.com/RedInquisitive/Super-Haxagon/releases

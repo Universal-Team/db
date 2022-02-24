@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/113514?v=4
 categories:
 - emulator
 color: '#4d4458'
+color_bg: '#4d4458'
 created: '2021-07-31T03:15:16Z'
 description: Atari 8-bit computer and 5200 console emulator
 download_page: https://github.com/RandomMan25XX/atari800/releases

@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/6338016?v=4
 categories:
 - game
 color: '#675758'
+color_bg: '#675758'
 created: '2014-02-21T21:33:14Z'
 description: homebrew nintendo DS adaptation of Valve's Portal
 download_page: https://github.com/smealum/portalDS/releases

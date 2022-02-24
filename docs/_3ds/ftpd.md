@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/896483?v=4
 categories:
 - utility
 color: '#001900'
+color_bg: '#001900'
 created: '2014-11-23T22:40:26Z'
 description: FTP Server for 3DS/Switch
 download_page: https://github.com/mtheall/ftpd/releases

@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/50515160?v=4
 categories:
 - game
 color: '#050506'
+color_bg: '#050506'
 created: '2021-04-17T09:15:43Z'
 description: Celeste Classic port by MateoThePro, gba port by JeffRuLz, Celeste Classic
   made by Matt Makes Games

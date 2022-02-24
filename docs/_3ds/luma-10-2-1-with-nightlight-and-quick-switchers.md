@@ -10,6 +10,7 @@ categories:
 - firm
 - luma3ds
 color: '#957d64'
+color_bg: '#806b56'
 created: '2020-05-08T09:27:29Z'
 description: Return of the customisable screen filter & other QoL improvements
 download_page: https://gbatemp.net/download/35619/

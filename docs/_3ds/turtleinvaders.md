@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/6239208?v=4
 categories:
 - game
 color: '#7a6a24'
+color_bg: '#7a6a24'
 created: '2015-08-29T03:59:28Z'
 description: A fixed-axis shooter with netplay
 download_page: https://github.com/TurtleP/TurtleInvaders/releases

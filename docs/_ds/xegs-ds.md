@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/75039837?v=4
 categories:
 - emulator
 color: '#6c616b'
+color_bg: '#6c616b'
 created: '2021-01-31T00:11:41Z'
 description: XEGS-DS An Atari 8-bit Computer Emulator (specially targeted for the
   XEGS Gaming System but expanded to include virtually anything the Atari 8-bit computers

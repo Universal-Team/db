@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/47382115?v=4
 categories:
 - game
 color: '#716a67'
+color_bg: '#716a67'
 created: '2021-01-11T10:52:27Z'
 description: "Ein Ludo klon f\xFCr den Nintendo DS(i)."
 download_page: https://github.com/SuperSaiyajinStackZ/LudoNDS/releases

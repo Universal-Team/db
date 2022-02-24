@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/590576?v=4
 categories:
 - utility
 color: '#9fa3c2'
+color_bg: '#686b80'
 created: '2018-09-05T07:19:01Z'
 description: Generates fake tickets to make missing titles re-appear on 3DS.
 download_page: https://github.com/ihaveamac/faketik/releases

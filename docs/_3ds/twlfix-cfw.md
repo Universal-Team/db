@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/43786828?v=4
 categories:
 - utility
 color: '#e3d6d7'
+color_bg: '#807879'
 created: '2019-02-15T22:11:59Z'
 description: Uninstall the stock TWL apps, to allow system to reinstall them from
   CDN

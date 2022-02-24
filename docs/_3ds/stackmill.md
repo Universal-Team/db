@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/47382115?v=4
 categories:
 - game
 color: '#aaaa92'
+color_bg: '#80806e'
 created: '2021-06-29T23:49:38Z'
 description: A clone of the mill game for Nintendo 3DS.
 download_page: https://github.com/SuperSaiyajinStackZ/StackMill/releases

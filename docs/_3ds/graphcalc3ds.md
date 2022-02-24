@@ -5,6 +5,7 @@ avatar: https://avatars.githubusercontent.com/u/687313?v=4
 categories:
 - utility
 color: '#becdda'
+color_bg: '#6f7880'
 created: '2015-10-04T00:18:09Z'
 description: Simple graphing calculator for 3DS
 download_page: https://github.com/flarn2006/graphcalc3ds/releases

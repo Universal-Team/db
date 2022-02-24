@@ -5,6 +5,7 @@ avatar: https://avatars.githubusercontent.com/u/46971470?v=4
 categories:
 - emulator
 color: '#b5774b'
+color_bg: '#805435'
 created: '2019-02-22T22:33:39Z'
 description: NesDS1.3c
 download_page: https://github.com/DS-Homebrew/NesDS/tree/master/release

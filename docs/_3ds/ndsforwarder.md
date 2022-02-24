@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/43786828?v=4
 categories:
 - utility
 color: '#82c3d7'
+color_bg: '#4d7480'
 created: '2021-04-12T08:12:05Z'
 description: Generate and Install NDS Forwarders
 download_page: https://github.com/MechanicalDragon0687/NDSForwarder/releases

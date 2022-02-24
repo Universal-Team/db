@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/5952243?v=4
 categories:
 - game
 color: '#7b5da7'
+color_bg: '#5e4780'
 created: '2016-09-02T19:40:02Z'
 description: a pyramidman's quest to save his father
 download_page: https://github.com/Hoksy/ravimid/releases

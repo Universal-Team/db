@@ -5,6 +5,7 @@ categories:
 - utility
 - save-tool
 color: '#e2afbc'
+color_bg: '#80636a'
 created: '2019-11-13T20:37:19Z'
 description: An editor/save manager for the Girls Mode/Girls Style/Style Savvy/Style
   Boutique games, on Nintendo 3DS

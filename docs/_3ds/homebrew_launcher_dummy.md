@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/10946643?v=4
 categories:
 - utility
 color: '#4bbbf5'
+color_bg: '#276180'
 created: '2018-07-26T21:22:25Z'
 description: Homebrew Launcher Loader - Dummy App
 download_page: https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases

@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/75039837?v=4
 categories:
 - emulator
 color: '#b4b4d3'
+color_bg: '#6d6d80'
 created: '2021-09-02T21:28:15Z'
 description: Nintellivision - an Intellivision Emulator for the Nintendo DS/DSi. High
   compatibility, custom overlay support, high score saving, tons of input mapping

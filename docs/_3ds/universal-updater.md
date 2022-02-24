@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/49733679?v=4
 categories:
 - utility
 color: '#0b497b'
+color_bg: '#0b497b'
 created: '2019-10-31T02:19:37Z'
 description: An easy to use app for installing and updating 3DS homebrew
 download_page: https://github.com/Universal-Team/Universal-Updater/releases

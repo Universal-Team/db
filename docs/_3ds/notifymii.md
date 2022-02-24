@@ -5,6 +5,7 @@ avatar: https://avatars.githubusercontent.com/u/13871621?v=4
 categories:
 - utility
 color: '#7abd9c'
+color_bg: '#528069'
 created: '2016-04-18T06:36:04Z'
 description: Homebrew Notification Manager for the Nintendo 3DS
 download_page: https://github.com/Ryuzaki-MrL/NotifyMii/releases

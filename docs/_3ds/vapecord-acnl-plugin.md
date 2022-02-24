@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/43783060?v=4
 categories:
 - utility
 color: '#a5a5a5'
+color_bg: '#808080'
 created: '2019-08-22T07:15:13Z'
 description: Animal Crossing NL Vapecord Public Plugin WIP
 download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases

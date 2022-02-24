@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/1209016?v=4
 categories:
 - game
 color: '#2d2d2d'
+color_bg: '#2d2d2d'
 created: '2020-02-13T21:20:32Z'
 description: Dungeons of Daggorath for the 3DS
 download_page: https://github.com/pyroticinsanity/3dsdod/releases
