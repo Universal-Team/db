@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-from bs4 import BeautifulSoup
-from dateutil import parser
+import colorsys
 from datetime import datetime, timezone
+from dateutil import parser
 import io
 import json
 from markdownify import markdownify
@@ -705,6 +705,11 @@ for app in source:
 					img, color = saveIcon(img, "temp", iconIndex, True)
 					if "color" not in app:
 						app["color"] = color
+					if "color_bg" not in app:
+						# Darken color to a maximum of 50% brightness
+						hsv = list(colorsys.rgb_to_hsv(*[int(x, 16) / 255 for x in re.findall("#(..)(..)(..)", color)[0]]))
+						hsv[2] = min(0.5, hsv[2])
+						app["color_bg"] = "#%02x%02x%02x" % (*[round(x * 255) for x in colorsys.hsv_to_rgb(*hsv)],)
 
 				if "icon" in app and app["icon"].endswith(".bmp"):
 					copyfile(os.path.join("temp", "48", f"{iconIndex}.png"), os.path.join("..", "docs", "assets", "images", "icons", f"{webName(app['title'])}.png"))

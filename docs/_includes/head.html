@@ -14,6 +14,32 @@
 	<link id="theme-css" rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css">
 	<script src="/assets/js/theme.js"></script>
 
+	{% if page.color_bg or page.color %}
+		{% assign accent = page.color_bg | default: page.color %}
+		<style>
+			.bg-primary,
+			.btn-primary, .btn-primary:focus,
+			.btn-outline-primary:hover, .btn-outline-primary:active,
+			.text-primary,
+			.dropdown-menu, .dropdown .hover-content {
+				background-color: {{ accent }}!important;
+			}
+
+
+			.btn-primary, .btn-primary:focus,
+			.btn-outline-primary,
+			.btn-outline-primary:hover, .btn-outline-primary:active {
+				border-color: {{ accent }}!important;
+			}
+
+
+
+			.btn-outline-primary {
+				color: {{ accent }}!important;
+			}
+		</style>
+	{% endif %}
+
 	<link rel="alternate" type="application/rss+xml" title="RSS Feed | Universal-DB" href="/index.rss">
 	<link rel="alternate" type="application/rss+xml" title="3DS Feed | Universal-DB" href="/3ds.rss">
 	<link rel="alternate" type="application/rss+xml" title="DS Feed | Universal-DB" href="/ds.rss">
