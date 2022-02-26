@@ -8,11 +8,7 @@ color_bg: '#121212'
 created: '2018-01-21T07:02:04Z'
 description: 34.2c3 POC
 download_page: https://github.com/zoogie/seedminer/releases
-downloads:
-  Seedminer_v2.1.6-x86_64.zip:
-    size: 9677481
-    size_str: 9 MiB
-    url: https://github.com/zoogie/seedminer/releases/download/v2.1.6/Seedminer_v2.1.6-x86_64.zip
+downloads: {}
 github: zoogie/seedminer
 icon: https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/icon.png
 icon_index: 58

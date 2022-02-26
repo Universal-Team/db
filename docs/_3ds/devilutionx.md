@@ -13,10 +13,6 @@ downloads:
     size: 5575616
     size_str: 5 MiB
     url: https://github.com/diasurgical/devilutionX/releases/download/1.3.0/devilutionx-3ds.cia
-  devilutionx-linux-armhf.zip:
-    size: 10898449
-    size_str: 10 MiB
-    url: https://github.com/diasurgical/devilutionX/releases/download/1.3.0/devilutionx-linux-armhf.zip
 github: diasurgical/devilutionX
 icon: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/icon.png
 icon_index: 189

@@ -17,10 +17,6 @@ downloads:
     size: 20575168
     size_str: 19 MiB
     url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.4.0/SuperHaxagon.cia
-  linux-x86_64.zip:
-    size: 18773272
-    size_str: 17 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.4.0/linux-x86_64.zip
   nspire-arm.zip:
     size: 1297634
     size_str: 1 MiB
