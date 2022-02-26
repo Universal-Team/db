@@ -930,6 +930,27 @@
 		"icon": "https://bitbucket.org/Coto88/snemulds/raw/c323eb1a7c411390de1ab32daa3640c17dbfa4ff/icon.bmp"
 	},
 	{
+		"bitbucket": {
+			"repo": "Coto88/toolchaingenericds-audioplayer",
+			"branch": "master"
+		},
+		"nightly": {
+			"download_page": "https://bitbucket.org/Coto88/toolchaingenericds-audioplayer/src/master/release",
+			"downloads": {
+				"arm7dldi-ntr/SNEmulDS.nds": {
+					"url": "https://bitbucket.org/Coto88/toolchaingenericds-audioplayer/raw/master/release/arm7dldi-ntr/ToolchainGenericDS-audioplayer.nds"
+				},
+				"arm7dldi-twl/SNEmulDS.srl": {
+					"url": "https://bitbucket.org/Coto88/toolchaingenericds-audioplayer/raw/master/release/arm7dldi-twl/ToolchainGenericDS-audioplayer.srl"
+				}
+			}
+		},
+		"systems": ["DS"],
+		"categories": ["utility"],
+		"icon": "https://bitbucket.org/Coto88/toolchaingenericds-audioplayer/raw/master/icon.bmp",
+		"long_description": "TGDS Audio Player, supported formats are:\n- IMA-ADPCM (Intel)/WAV/MP3/ (Up to 192K)AAC - M4A - M4B/Ogg/FLAC/NSF/SPC/GBS/+ others working.  Streaming mp3, ogg and acc is stripped since itｴs 2019 and the DS does not support HTTPS (TLS1.2+)\n\nButtons:\n- (Start): File Browser -> (A) to play audio file\n- (L): Recent Playlist\n- (R): Random audio file playback\n- (B): Stop audio playback\n- (X): Mandelbrot demo\n- (D-PAD: Down): Volume -\n- (D-PAD: Up): Volume +\n- (Select): this menu"
+	},
+	{
 		"github": "DS-Homebrew/PicoDriveTWL",
 		"categories": ["emulator"],
 		"systems": ["DS"],
