@@ -425,13 +425,14 @@ for app in source:
 			temp = list(filter(lambda x: "title" in x and "author" in x and "title" in app and "author" in app and x["title"] == app["title"] and x["author"] == app["author"], oldData))
 
 		# Always treat apps that updated in the last 30 days as priority
-		daysSinceUpdate = 1000
-		if "updated" in temp[0]:
-			daysSinceUpdate = (datetime.now(tz=timezone.utc) - parser.parse(temp[0]["updated"])).days
+		if len(temp) > 0:
+			daysSinceUpdate = 1000
+			if "updated" in temp[0]:
+				daysSinceUpdate = (datetime.now(tz=timezone.utc) - parser.parse(temp[0]["updated"])).days
 
-		if len(temp) > 0 and daysSinceUpdate > 30:
-			foundExisting = True
-			app = temp[0]
+			if daysSinceUpdate > 30:
+				foundExisting = True
+				app = temp[0]
 	if not foundExisting or not (priorityOnlyMode and not ("priority" in app and app["priority"])):
 		if "github" in app:
 			print("GitHub")
