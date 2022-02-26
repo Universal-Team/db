@@ -24,7 +24,7 @@ downloads:
     url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.2/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
-icon_index: 196
+icon_index: 197
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
 image_length: 15870
 layout: app

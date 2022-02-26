@@ -23,7 +23,7 @@ downloads:
     url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.4.0/nspire-arm.zip
 github: RedInquisitive/Super-Haxagon
 icon: https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/icon-3ds.png
-icon_index: 100
+icon_index: 101
 image: https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/banner.png
 image_length: 114192
 layout: app

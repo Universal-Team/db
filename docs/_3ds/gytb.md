@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/MechanicalDragon0687/GYTB/releases/download/1.0/GYTB_hax.zip
 github: MechanicalDragon0687/GYTB
 icon: https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resources/icon.png
-icon_index: 40
+icon_index: 41
 image: https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resources/banner.png
 image_length: 2798
 layout: app

@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/TurtleP/TurtleInvaders/releases/download/v1.0.2/TurtleInvaders.zip
 github: TurtleP/TurtleInvaders
 icon: https://db.universal-team.net/assets/images/icons/turtleinvaders.png
-icon_index: 116
+icon_index: 117
 image: https://db.universal-team.net/assets/images/images/turtleinvaders.png
 image_length: 1778
 layout: app

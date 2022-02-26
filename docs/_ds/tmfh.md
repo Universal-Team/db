@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/JeffRuLz/TMFH/releases/download/v0.7.0/TMFH.0.7.1.zip
 github: JeffRuLz/TMFH
 icon: https://db.universal-team.net/assets/images/icons/tmfh.png
-icon_index: 22
+icon_index: 23
 image: https://db.universal-team.net/assets/images/images/tmfh.png
 image_length: 401
 layout: app

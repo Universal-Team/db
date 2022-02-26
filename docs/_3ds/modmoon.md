@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/Swiftloke/ModMoon/releases/download/v3.0.1/ModMoon.cia
 github: Swiftloke/ModMoon
 icon: https://raw.githubusercontent.com/Swiftloke/ModMoon/master/CIA/icon.png
-icon_index: 47
+icon_index: 48
 image: https://raw.githubusercontent.com/Swiftloke/ModMoon/master/CIA/banner.png
 image_length: 25780
 layout: app

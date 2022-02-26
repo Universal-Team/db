@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/diasurgical/devilutionX/releases/download/1.3.0/devilutionx-3ds.cia
 github: diasurgical/devilutionX
 icon: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/icon.png
-icon_index: 189
+icon_index: 190
 image: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/banner.png
 image_length: 47500
 layout: app

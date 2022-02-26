@@ -23,7 +23,7 @@ downloads:
     url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.1.0/WordleDS.nds
 github: Epicpkmn11/WordleDS
 icon: https://db.universal-team.net/assets/images/icons/wordleds.png
-icon_index: 200
+icon_index: 201
 image: https://db.universal-team.net/assets/images/icons/wordleds.png
 image_length: 630
 layout: app

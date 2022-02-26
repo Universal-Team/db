@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/Creckeryop/3dsCookieClicker/releases/download/%230022/CookieClicker.cia
 github: Creckeryop/3dsCookieClicker
 icon: https://raw.githubusercontent.com/Creckeryop/3dsCookieClicker/master/logo.png
-icon_index: 83
+icon_index: 84
 image: https://db.universal-team.net/assets/images/images/3dscookieclicker.png
 image_length: 1821
 layout: app

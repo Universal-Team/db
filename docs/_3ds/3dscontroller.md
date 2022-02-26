@@ -14,7 +14,7 @@ downloads:
     url: https://github.com/CTurt/3DSController/releases/download/0.6/3DSController0.6.zip
 github: CTurt/3DSController
 icon: https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/icon48x48.png
-icon_index: 130
+icon_index: 131
 image: https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/banner.png
 image_length: 4254
 layout: app

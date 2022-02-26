@@ -16,7 +16,7 @@ downloads:
     url: https://github.com/aliceinpalth/3dfetch/releases/download/1.10/3dfetch.cia
 github: aliceinpalth/3dfetch
 icon: https://raw.githubusercontent.com/aliceinpalth/3dfetch/master/icon.png
-icon_index: 79
+icon_index: 80
 image: https://raw.githubusercontent.com/aliceinpalth/3dfetch/master/banner.png
 image_length: 41268
 layout: app

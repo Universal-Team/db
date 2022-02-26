@@ -19,7 +19,7 @@ downloads:
     size_str: 1 MiB
     url: https://github.com/hax0kartik/wumiibo/releases/download/v3.0/wumiibohelper.3dsx
 github: hax0kartik/wumiibo
-icon_index: 135
+icon_index: 136
 image: https://raw.githubusercontent.com/hax0kartik/wumiibo/master/wumiibohelper/gfx/icon.png
 image_length: 4386
 layout: app

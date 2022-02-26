@@ -18,7 +18,7 @@ downloads:
     url: https://github.com/HIDE810/WiFi-Status-Checker/releases/download/1.0/WiFi.cia
 github: HIDE810/WiFi-Status-Checker
 icon: https://raw.githubusercontent.com/HIDE810/WiFi-Status-Checker/master/resource/icon.png
-icon_index: 35
+icon_index: 36
 image: https://raw.githubusercontent.com/HIDE810/WiFi-Status-Checker/master/resource/banner.png
 image_length: 3876
 layout: app

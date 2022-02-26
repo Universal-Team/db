@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/phijor/SpecializeMii/releases/download/0.1.4/SpecializeMii.zip
 github: phijor/SpecializeMii
 icon: https://raw.githubusercontent.com/phijor/SpecializeMii/master/etc/icon.png
-icon_index: 101
+icon_index: 102
 image: https://raw.githubusercontent.com/phijor/SpecializeMii/master/etc/banner.png
 image_length: 3259
 layout: app

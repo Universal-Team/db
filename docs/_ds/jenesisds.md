@@ -11,7 +11,7 @@ downloads:
     size: 139176
     size_str: 135 KiB
     url: https://db.universal-team.net/assets/files/JEnesisDS0174.zip
-icon_index: 21
+icon_index: 22
 image: https://db.universal-team.net/assets/images/images/jenesisds.png
 image_length: 453
 layout: app

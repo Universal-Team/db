@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/KunoichiZ/lumaupdate/releases/download/v2.6/lumaupdater.cia
 github: KunoichiZ/lumaupdate
 icon: https://raw.githubusercontent.com/KunoichiZ/lumaupdate/master/meta/icon.png
-icon_index: 33
+icon_index: 34
 image: https://raw.githubusercontent.com/KunoichiZ/lumaupdate/master/meta/icon.png
 image_length: 23755
 layout: app

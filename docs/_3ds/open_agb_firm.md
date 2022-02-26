@@ -16,7 +16,7 @@ downloads:
     size_str: 170 KiB
     url: https://github.com/profi200/open_agb_firm/releases/download/alpha_2021-12-24/open_agb_firm_alpha_20211224.7z
 github: profi200/open_agb_firm
-icon_index: 143
+icon_index: 144
 image: https://avatars.githubusercontent.com/u/7831477?v=4
 image_length: 1560
 layout: app

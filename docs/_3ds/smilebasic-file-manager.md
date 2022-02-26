@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/Trinitro21/lpp-3ds/releases/download/sbfm1.7/sbfm.zip
 github: Trinitro21/lpp-3ds
 icon: https://raw.githubusercontent.com/Trinitro21/lpp-3ds/sbfm/icon.png
-icon_index: 36
+icon_index: 37
 image: https://db.universal-team.net/assets/images/images/smilebasic-file-manager.png
 image_length: 4451
 layout: app

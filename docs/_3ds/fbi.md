@@ -23,7 +23,7 @@ downloads:
     url: https://github.com/Steveice10/FBI/releases/download/2.6.1/FBI.zip
 github: Steveice10/FBI
 icon: https://raw.githubusercontent.com/Steveice10/FBI/master/meta/icon_3ds.png
-icon_index: 41
+icon_index: 42
 image: https://raw.githubusercontent.com/Steveice10/FBI/master/romfs/logo.png
 image_length: 573
 layout: app

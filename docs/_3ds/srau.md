@@ -21,7 +21,7 @@ downloads:
     url: https://github.com/noirscape/SRAU/releases/download/v1.1/SRAU.cia
 github: noirscape/SRAU
 icon: https://raw.githubusercontent.com/noirscape/SRAU/master/meta/icon.png
-icon_index: 54
+icon_index: 55
 image: https://raw.githubusercontent.com/noirscape/SRAU/master/meta/banner.png
 image_length: 13110
 layout: app

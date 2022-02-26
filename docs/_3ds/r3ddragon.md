@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/mrdanielps/r3Ddragon/releases/download/v0.87/r3Ddragon-v0.87.zip
 github: mrdanielps/r3Ddragon
 icon: https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/icon.png
-icon_index: 98
+icon_index: 99
 image: https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/resources/banner.png
 image_length: 5927
 layout: app

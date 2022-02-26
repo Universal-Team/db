@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/bubble2k16/emus3ds/releases/download/v1.02/virtuanes_3ds-v1.02.zip
 github: bubble2k16/emus3ds
 icon: https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/virtuanes/assets/icon.png
-icon_index: 56
+icon_index: 57
 image: https://db.universal-team.net/assets/images/images/virtuanes.png
 image_length: 2631
 layout: app

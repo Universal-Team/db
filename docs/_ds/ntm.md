@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/Epicpkmn11/NTM/releases/download/v0.1.1/NTM.dsi
 github: Epicpkmn11/NTM
 icon: https://db.universal-team.net/assets/images/icons/ntm.png
-icon_index: 199
+icon_index: 200
 image: https://db.universal-team.net/assets/images/icons/ntm.png
 image_length: 586
 layout: app

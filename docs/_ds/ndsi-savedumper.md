@@ -15,7 +15,7 @@ downloads:
     size_str: 493 KiB
     url: https://github.com/edo9300/ndsi-savedumper/releases/download/1.2/savedumper.nds
 github: edo9300/ndsi-savedumper
-icon_index: 23
+icon_index: 24
 image: https://avatars.githubusercontent.com/u/18705342?v=4
 image_length: 1574
 layout: app

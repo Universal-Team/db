@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/hax0kartik/Multidownload/releases/download/v3.2/Multidownload.cia
 github: hax0kartik/Multidownload
 icon: https://raw.githubusercontent.com/hax0kartik/Multidownload/master/resources/icon.png
-icon_index: 85
+icon_index: 86
 image: https://raw.githubusercontent.com/hax0kartik/Multidownload/master/resources/banner.png
 image_length: 29351
 layout: app

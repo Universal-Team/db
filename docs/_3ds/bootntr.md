@@ -30,7 +30,7 @@ downloads:
     url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.4/BootNTRSelector-PabloMK7-Banner.cia
 github: Nanquitas/BootNTR
 icon: https://raw.githubusercontent.com/Nanquitas/BootNTR/master/resources/icon.png
-icon_index: 29
+icon_index: 30
 image: https://db.universal-team.net/assets/images/images/bootntr.png
 image_length: 7456
 layout: app

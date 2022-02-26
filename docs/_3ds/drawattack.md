@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/Cruel/DrawAttack/releases/download/1.3/DrawAttack.cia
 github: Cruel/DrawAttack
 icon: https://raw.githubusercontent.com/Cruel/DrawAttack/master/res/app/icon.png
-icon_index: 126
+icon_index: 127
 image: https://raw.githubusercontent.com/Cruel/DrawAttack/master/res/app/banner.png
 image_length: 3773
 layout: app

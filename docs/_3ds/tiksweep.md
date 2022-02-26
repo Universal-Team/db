@@ -24,7 +24,7 @@ downloads:
     url: https://github.com/DanTheMan827/tikSweep/releases/download/v1.1.2/tikSweep.zip
 github: DanTheMan827/tikSweep
 icon: https://raw.githubusercontent.com/DanTheMan827/tikSweep/master/icon.png
-icon_index: 103
+icon_index: 104
 image: https://raw.githubusercontent.com/DanTheMan827/tikSweep/master/banner.png
 image_length: 11389
 layout: app

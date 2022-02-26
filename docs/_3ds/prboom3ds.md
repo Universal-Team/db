@@ -10,7 +10,7 @@ description: prboom for the 3ds
 download_page: https://github.com/elhobbs/prboom3ds/releases
 github: elhobbs/prboom3ds
 icon: https://raw.githubusercontent.com/elhobbs/prboom3ds/master/prboom3ds.png
-icon_index: 37
+icon_index: 38
 image: https://raw.githubusercontent.com/elhobbs/prboom3ds/master/banner.png
 image_length: 61311
 layout: app

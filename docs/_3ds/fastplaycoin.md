@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/CorySanin/FastPlayCoin/releases/download/v1.0/FastPlayCoin.cia
 github: CorySanin/FastPlayCoin
 icon: https://raw.githubusercontent.com/CorySanin/FastPlayCoin/master/resource/icon.png
-icon_index: 68
+icon_index: 69
 image: https://raw.githubusercontent.com/CorySanin/FastPlayCoin/master/resource/banner.png
 image_length: 19045
 layout: app

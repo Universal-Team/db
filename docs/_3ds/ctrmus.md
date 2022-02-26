@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/deltabeard/ctrmus/releases/download/0.4.12/ctrmus.zip
 github: deltabeard/ctrmus
 icon: https://raw.githubusercontent.com/deltabeard/ctrmus/master/meta/icon.png
-icon_index: 78
+icon_index: 79
 image: https://raw.githubusercontent.com/deltabeard/ctrmus/master/meta/banner.png
 image_length: 11483
 layout: app

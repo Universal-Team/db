@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/joel16/FriendMii/releases/download/v1.00/FriendMii.cia
 github: joel16/FriendMii
 icon: https://raw.githubusercontent.com/joel16/FriendMii/master/res/ic_launcher_friendmii.png
-icon_index: 50
+icon_index: 51
 image: https://raw.githubusercontent.com/joel16/FriendMii/master/res/banner.png
 image_length: 4215
 layout: app

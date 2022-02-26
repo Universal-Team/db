@@ -23,7 +23,7 @@ downloads:
     url: https://github.com/TricksterGuy/3ds-vgmstream/releases/download/v0.2.0/3ds-vgmstream.zip
 github: TricksterGuy/3ds-vgmstream
 icon: https://raw.githubusercontent.com/TricksterGuy/3ds-vgmstream/master/resources/icon.png
-icon_index: 113
+icon_index: 114
 image: https://raw.githubusercontent.com/TricksterGuy/3ds-vgmstream/master/resources/banner.png
 image_length: 2549
 layout: app

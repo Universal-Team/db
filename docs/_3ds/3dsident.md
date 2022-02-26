@@ -27,7 +27,7 @@ downloads:
     url: https://github.com/joel16/3DSident/releases/download/0.8.0/3DSident.cia
 github: joel16/3DSident
 icon: https://raw.githubusercontent.com/joel16/3DSident/master/console/res/icon.png
-icon_index: 49
+icon_index: 50
 image: https://raw.githubusercontent.com/joel16/3DSident/master/console/res/banner.png
 image_length: 21034
 layout: app
