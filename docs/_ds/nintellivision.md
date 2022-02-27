@@ -27,7 +27,7 @@ github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 icon_index: 188
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 16271
+image_length: 16273
 layout: app
 script_message: 'You need "grom.bin", "exec.bin",
 
