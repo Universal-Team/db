@@ -9,17 +9,10 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
-    container: devkitpro/devkitarm
+    container: universalteam/db
 
     steps:
     - uses: actions/checkout@v1
-
-    - name: Install packages
-      run: |
-        echo deb http://deb.debian.org/debian stable main contrib non-free >> /etc/apt/sources.list
-        sudo apt-get update
-        sudo apt-get install python3-pip -y
-        pip3 install -r source/requirements.txt
 
     - name: Delete old pages and QRs
       run: rm -rf docs/_3ds/* docs/_ds/* docs/assets/images/qr/*.png docs/assets/images/qr/nightly/*.png docs/assets/images/qr/prerelease/*.png
