@@ -11,8 +11,8 @@ description: The base forwarder packs for use with Forwarder3-DS and NDSForwarde
 download_page: https://github.com/RocketRobz/NTR_Forwarder/releases
 downloads:
   DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z:
-    size: 488151
-    size_str: 476 KiB
+    size: 488486
+    size_str: 477 KiB
     url: https://github.com/RocketRobz/NTR_Forwarder/releases/download/SD-5/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z
 github: RocketRobz/NTR_Forwarder
 icon: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
@@ -25,8 +25,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto"><strong>UPDATE 2/21/2022:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.54.1">nds-bootstrap
-  v0.54.1</a></p>
+update_notes: '<p dir="auto"><strong>UPDATE 2/28/2022:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.54.2">nds-bootstrap
+  v0.54.2</a></p>
 
   <p dir="auto">To install or update:</p>
 
