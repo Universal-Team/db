@@ -12,17 +12,17 @@ description: Nintellivision - an Intellivision Emulator for the Nintendo DS/DSi.
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 673280
-    size_str: 657 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.4/NINTV-DS.nds
+    size: 687616
+    size_str: 671 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.5/NINTV-DS.nds
   README.md:
-    size: 9523
-    size_str: 9 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.4/README.md
+    size: 10248
+    size_str: 10 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.5/README.md
   extras.zip:
-    size: 826789
+    size: 826858
     size_str: 807 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.4/extras.zip
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.5/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 icon_index: 188
@@ -36,18 +36,19 @@ source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V3.4 : 04-Dec-2021 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V3.5 : 01-Mar-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Added support for more ROM segments so games like DK Jr Homebrew will run.</li>
+  <li>Added support for ECS and ECS-Sound-Enhanced games.</li>
 
-  <li>New global nintv-ds.man manual support - see extras folder.</li>
+  <li>Improved internal database so more games are recognized correctly.</li>
 
-  <li>Other small cleanups as time permitted.</li>
+  <li>Save states changed with ECS support. Finish your 3.4 games before upgrading
+  or lose your progress.</li>
 
   </ul>'
-updated: '2021-12-04T14:04:48Z'
-version: '3.4'
-version_title: Version 3.4
+updated: '2022-03-01T12:06:09Z'
+version: '3.5'
+version_title: Version 3.5
 ---
