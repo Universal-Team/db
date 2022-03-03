@@ -28,6 +28,8 @@ license_name: GNU General Public License v3.0
 qr:
   StackMill.cia: https://db.universal-team.net/assets/images/qr/stackmill-cia.png
 screenshots:
+- description: Credits tab translators
+  url: https://db.universal-team.net/assets/images/screenshots/stackmill/credits-tab-translators.png
 - description: Credits tab
   url: https://db.universal-team.net/assets/images/screenshots/stackmill/credits-tab.png
 - description: Game tab
