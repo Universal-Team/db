@@ -2,6 +2,7 @@
 	"title-home": "Ev | Universal-DB",
 	"title-3ds": "3DS | Universal-DB",
 	"title-ds": "DS | Universal-DB",
+	"title-error-404": "Error 404 | Universal-DB",
 	"by": "<a href=\"https://universal-team.net/\" class=\"link\">Universal-Team</a> tarafından",
 	"published-with": "GitHub Sayfalar'da <a href=\"https://pages.github.com\">yayınlanmıştır</a>, <a href=\"https://github.com/${repo}\">kaynağı</a> GitHub'da görüntüle.",
 	"color-scheme": "Renk şemaları:",
@@ -65,5 +66,7 @@
 	"home-1": "Burada, en son sürümleri edindiğinden emin olmak için düzenli olarak güncellenen 3DS ve DS homebrew listelerini bulabilirsin. Tam listeleri almak için en üstteki gezinme çubuğundaki bağlantılara tıkla veya bu sayfanın alt kısmındaki en son güncellenenlerden bazılarına göz at!",
 	"home-2": "Bu sitedeki bilgilerin çoğu, uygulamanın GitHub deposundaki bilgilerden otomatik olarak çekilir, ancak herhangi bir yanlış bilgi fark ederseniz lütfen bunu bir <a href=\"https://github.com/Universal-Team/db/issues/new\">GitHub Sorunu</a> olarak ya da <a href=\"https://universal-team.net/discord\">Discord sunucusuna</a> bildir. Teşekkürler!",
 	"home-3": "Burası ayrıca <a href=\"/3ds/universal-updater\">Universal-Updater</a> için varsayılan UniStore'dur, bu nedenle Universal-DB'den uygulamalara göz atmak ve doğrudan 3DS'nize yüklemek istiyorsan, bir göz atabilirsin.",
-	"last-updated-apps": "Son güncelleme: "
+	"last-updated-apps": "Son güncelleme: ",
+	"error-404": "Error! 404!",
+	"return-to-home": "Return to the <a href=\"/\">home page</a> or <span class=\"a\" onclick=\"window.history.back()\">go back</span> to the previous page."
 }

@@ -2,6 +2,7 @@
 	"title-home": "Acasă | Universal-DB",
 	"title-3ds": "3DS | Universal-DB",
 	"title-ds": "DS | Universal-DB",
+	"title-error-404": "Eroare 404 | Universal-DB",
 	"by": "De: <a href=\"https://universal-team.net/\" class=\"link\">Universal-Team</a>",
 	"published-with": "Publicat cu <a href=\"https://pages.github.com\">Pagini GitHub</a>, vizualizați <a href=\"https://github.com/${repo}\">sursa</a> pe GitHub.",
 	"color-scheme": "Paleta de culori:",
@@ -36,7 +37,7 @@
 	"title": "Titlu",
 	"author": "Autor",
 	"description": "Descriere",
-	"date-updated": "Dată actualizată",
+	"date-updated": "Data Actualizării",
 	"ascending": "Crescător",
 	"descending": "Descrescătoare",
 	"search": "Căutați:",
@@ -65,5 +66,7 @@
 	"home-1": "Aici puteți găsi liste de aplicații homebrew pentru DS și 3DS, actualizate în mod regulat pentru a ne asigura că aveți cele mai recente versiuni. Apăsați pe linkurile din bara de navigare de deasupra pentru a avea listele întregi, sau vedeți cele mai recente actualizări în josul acestei pagini!",
 	"home-2": "Majoritatea informațiilor de pe acest site sunt automat obținute din depozitul GitHub al aplicației, dar dacă observați orice informație incorectă vă rugăm să o raportați ca un <a href=\"https://github.com/Universal-Team/db/issues/new\">GitHub Issue</a> sau pe <a href=\"https://universal-team.net/discord\">Serverul Discord</a>. Vă mulțumim!",
 	"home-3": "Acesta este de asemenea UniStore-ul implicit pentru <a href=\"/3ds/universal-updater\">Universal Updater</a>, deci dacă doriți să navigați și să instalați aplicații de pe Universal-DB direct pe 3DS-ul vostru ar trebui să încercați măcar odată.",
-	"last-updated-apps": "Ultima actualizare: "
+	"last-updated-apps": "Ultima actualizare: ",
+	"error-404": "Eroare! 404!",
+	"return-to-home": "Întoarceți-vă la <a href=\"/\">pagina principală</a> sau <span class=\"a\" onclick=\"window.history.back()\">întoarceți-vă</span> la pagina anterioară."
 }

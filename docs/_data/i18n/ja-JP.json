@@ -2,6 +2,7 @@
 	"title-home": "ホーム | Universal-DB",
 	"title-3ds": "3DS | Universal-DB",
 	"title-ds": "DS | Universal-DB",
+	"title-error-404": "エラー404 | Universal-DB",
 	"by": "<a href=\"https://universal-team.net/\" class=\"link\">Universal-Team</a>による",
 	"published-with": "<a href=\"https://pages.github.com\">GitHub Pages</a>で公開され、GitHubで<a href=\"https://github.com/${repo}\">ソース</a>を表示します。",
 	"color-scheme": "配色:",
@@ -65,5 +66,7 @@
 	"home-1": "ここでは、3DSとDSの自作ソフトのリストを見つけることができます。最新のバージョンを取得していますことを確認するために定期的に更新されます。上部のナビゲーションバーのリンクをクリックすると、完全なリストを表示されます、またはこのページの下部に最新の更新を確認してください！",
 	"home-2": "このサイトのほとんどの情報は、アプリのGitHubリポジトリの情報から自動的に収集されます。しかし、何か違った情報に気づいた場合は、<a href=\"https://github.com/Universal-Team/db/issues/new\">GitHub Issue</a>としてまたは<a href=\"https://universal-team.net/discord\">Discordサーバー</a>に報告してください。ありがとう！",
 	"home-3": "これは、<a href=\"/3ds/universal-updater\">Universal-Updater</a>のデフォルトのUniStoreです。3DSに直接にUniversal-DBからアプリを参照してインストールしたい場合は、ぜひお試してください。",
-	"last-updated-apps": "最新の更新: "
+	"last-updated-apps": "最新の更新: ",
+	"error-404": "エラー！404！",
+	"return-to-home": "<a href=\"/\">ホームページ</a>または<span class=\"a\" onclick=\"window.history.back()\">前のページ</span>に戻ってください。"
 }

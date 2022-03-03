@@ -2,6 +2,7 @@
 	"title-home": "Home | Universal-DB",
 	"title-3ds": "3DS | Universal-DB",
 	"title-ds": "DS | Universal-DB",
+	"title-error-404": "Errore 404 | Universal-DB",
 	"by": "Creato da: <a href=\"https://universal-team.net/\" class=\"link\">Universal-Team</a>",
 	"published-with": "Pubblicato con <a href=\"https://pages.github.com\">GitHub Pages</a>, visualizza <a href=\"https://github.com/${repo}\">il codice sorgente</a> su GitHub.",
 	"color-scheme": "Combinazione colore:",
@@ -65,5 +66,7 @@
 	"home-1": "Qui puoi trovare elenchi di homebrew per 3DS e DS, aggiornati regolarmente per assicurarti di avere le ultime versioni. Fai clic sui link nella barra di navigazione in alto per ottenere liste complete, o dai un'occhiata ad alcuni dei più recenti homebrew aggiornati in fondo a questa pagina!",
 	"home-2": "La maggior parte delle informazioni su questo sito vengono raccolte automaticamente dalle informazioni sulla repository di GitHub dell'app, tuttavia se noti qualsiasi informazione errata segnalala come un <a href=\"https://github.com/Universal-Team/db/issues/new\">problema GitHub</a> o sul nostro <a href=\"https://universal-team.net/discord\">server Discord</a>. Grazie!",
 	"home-3": "Questo è anche l'UniStore predefinito per <a href=\"/3ds/universal-updater\">Universal-Updater</a>, quindi se desideri navigare e installare applicazioni da Universal-DB direttamente sul tuo 3DS dovresti provarlo.",
-	"last-updated-apps": "Ultimo aggiornamento: "
+	"last-updated-apps": "Ultimo aggiornamento: ",
+	"error-404": "Errore! 404!",
+	"return-to-home": "Torna alla <a href=\"/\">home page</a> o <span class=\"a\" onclick=\"window.history.back()\">torna</span> alla pagina precedente."
 }

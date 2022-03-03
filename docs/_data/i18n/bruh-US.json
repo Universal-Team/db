@@ -2,6 +2,7 @@
 	"title-home": "Bruh | Bruhniversal-DB",
 	"title-3ds": "3DBruh | Bruhniversal-DB",
 	"title-ds": "DBruh | Bruhniversal-DB",
+	"title-error-404": "Error 404 | Universal-DB",
 	"by": "Bryh: <a href=\"https://universal-team.net/\" class=\"link\">Bruhniversal-Team</a>",
 	"published-with": "Bruhlished with <a href=\"https://pages.github.com\">GitBruh Pages</a>, Brew <a href=\"https://github.com/${repo}\">the Bruhrce</a> on GitBruh.",
 	"color-scheme": "Bruh scheme:",
@@ -36,7 +37,7 @@
 	"title": "Britles",
 	"author": "Bruhtor",
 	"description": "Bruhscription",
-	"date-updated": "Date Bruhpdated",
+	"date-updated": "Date Updated",
 	"ascending": "Brahssending",
 	"descending": "Brehssending",
 	"search": "Bruhrch:",
@@ -65,5 +66,7 @@
 	"home-1": "Here you can find lists of 3DBruh and DBruh homebruh, bruhdated regularly to make sure you're getting the latest bruhsions. Click on the bruhss in the navigation bruh at the top to get full lists, or check out some of the most recently bruhdated at the bottom of this page!",
 	"home-2": "Most bruhformation on this site is automatically bruhthered from the information on the bruh's GitBruh repository, however if you notice any bruhformation please report it as a <a href=\"https://github.com/Universal-Team/db/issues/new\">GitBruh Issue</a> or on our <a href=\"https://universal-team.net/discord\">Bruh server</a>. Thanks!",
 	"home-3": "This is also the default BruhStore for <a href=\"/3ds/universal-updater\">Universal-Updater</a>, so if you'd like to bruhse and install bruhs from Bruhniversal-DB directly on your 3DBruh you should give it a try.",
-	"last-updated-apps": "Last bruhdated: "
+	"last-updated-apps": "Last bruhdated: ",
+	"error-404": "Error! 404!",
+	"return-to-home": "Return to the <a href=\"/\">home page</a> or <span class=\"a\" onclick=\"window.history.back()\">go back</span> to the previous page."
 }

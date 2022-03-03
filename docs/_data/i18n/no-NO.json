@@ -2,6 +2,7 @@
 	"title-home": "Hjem | Universal-DB",
 	"title-3ds": "3DS | Universal-DB",
 	"title-ds": "DS | Universal-DB",
+	"title-error-404": "Feil 404 | Universal-DB",
 	"by": "Av: <a href=\"https://universal-team.net/\" class=\"link\">Universel-Team</a>",
 	"published-with": "Publisert med <a href=\"https://pages.github.com\">GitHub sider</a>, vis <a href=\"https://github.com/${repo}\">kilden</a> på GitHub.",
 	"color-scheme": "Fargevalg:",
@@ -36,7 +37,7 @@
 	"title": "Tittel",
 	"author": "Forfatter",
 	"description": "Beskrivelse",
-	"date-updated": "Dato oppdatert",
+	"date-updated": "Dato Oppdatert",
 	"ascending": "Stigende",
 	"descending": "Synkende",
 	"search": "Søk:",
@@ -65,5 +66,7 @@
 	"home-1": "Her kan du finne lister over 3DS og DS homebrew, oppdatert regelmessig for å sikre at du får de nyeste versjonene. Klikk på lenkene i navigasjonslinjen øverst for å få fullstendige lister, eller sjekk ut noen av de sist oppdaterte på bunnen av denne siden!",
 	"home-2": "Mesteparten av informasjonen på dette nettstedet blir automatisk samlet fra informasjonen i appens GitHub-depot, men hvis du oppdager feil informasjon, vennligst rapporter den som en <a href=\"https://github.com/Universal-Team/db/issues/new\">GitHub Issue</a> eller på vår <a href=\"https://universal-team.net/discord\">Discord server</a>. Takk!",
 	"home-3": "Dette er også standard UniStore for <a href=\"/3ds/universal-updater\"> Universal-Updater </a>, så hvis du vil bla gjennom og installere apper fra Universal-DB direkte på 3DS-en din, så bør du gi det et forsøk.",
-	"last-updated-apps": "Sist oppdatert: "
+	"last-updated-apps": "Sist oppdatert: ",
+	"error-404": "Feil! 404!",
+	"return-to-home": "Gå tilbake til <a href=\"/\">hjemmesiden</a> eller <span class=\"a\" onclick=\"window.history.back()\">gå tilbake</span> til forrige side."
 }

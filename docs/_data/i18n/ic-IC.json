@@ -2,6 +2,7 @@
 	"title-home": "crwdns22848:0crwdne22848:0",
 	"title-3ds": "crwdns22850:0crwdne22850:0",
 	"title-ds": "crwdns22852:0crwdne22852:0",
+	"title-error-404": "crwdns30054:0crwdne30054:0",
 	"by": "crwdns22854:0crwdne22854:0",
 	"published-with": "crwdns22856:0${repo}crwdne22856:0",
 	"color-scheme": "crwdns22858:0crwdne22858:0",
@@ -36,7 +37,7 @@
 	"title": "crwdns22902:0crwdne22902:0",
 	"author": "crwdns22904:0crwdne22904:0",
 	"description": "crwdns22906:0crwdne22906:0",
-	"date-updated": "crwdns22908:0crwdne22908:0",
+	"date-updated": "crwdns30056:0crwdne30056:0",
 	"ascending": "crwdns22910:0crwdne22910:0",
 	"descending": "crwdns22912:0crwdne22912:0",
 	"search": "crwdns22914:0crwdne22914:0",
@@ -65,5 +66,7 @@
 	"home-1": "crwdns22960:0crwdne22960:0",
 	"home-2": "crwdns22962:0crwdne22962:0",
 	"home-3": "crwdns22964:0crwdne22964:0",
-	"last-updated-apps": "crwdns22966:0crwdne22966:0"
+	"last-updated-apps": "crwdns22966:0crwdne22966:0",
+	"error-404": "crwdns30058:0crwdne30058:0",
+	"return-to-home": "crwdns30060:0crwdne30060:0"
 }

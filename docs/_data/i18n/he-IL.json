@@ -2,6 +2,7 @@
 	"title-home": "דף הבית | Universal-DB",
 	"title-3ds": "3DS | Universal-DB",
 	"title-ds": "DS | Universal-DB",
+	"title-error-404": "Error 404 | Universal-DB",
 	"by": "נוצר על ידי: <a href=\"https://universal-team.net/\" class=\"link\">Universal-Team</a>",
 	"published-with": "פורסם עם <a href=\"https://pages.github.com\">GitHub Pages</a>, צפו <a href=\"https://github.com/${repo}\">במקור </a> בGitHub.",
 	"color-scheme": "ערכת צבעים:",
@@ -65,5 +66,7 @@
 	"home-1": "כאן תוכלו למצוא רשימות של הומברו ל3DS ולDS המתעדכנות באופן קבוע על מנת להבטיח שאתם מקבלים את הגרסות האחרונות. לחצו על הלינקים בתפריט הניווט בראש העמוד על מנת לראות רשימות מלאות, או בדקו את אלו שעדכנו לאחרונה בתחתית עמוד זה!",
 	"home-2": "רוב המידע באתר זה נאסף באופן אוטומטי מהמידע בעמוד הGitHub של האפליקציה. אם אתם שמים לב למידע שגוי בבקשה תדווחו את זה כ<a href=\"https://github.com/Universal-Team/db/issues/new\">בעית GitHub</a> או ב <a href=\"https://universal-team.net/discord\">שרת הDiscord שלנו</a>. תודה!",
 	"home-3": "זהו גם UniStore ברירת המחדל עבור <a href=\"/3ds/universal-updater\">Universal-Updater</a>, כך שאם תרצו לדפדף ולהתקין אפילקציות מUniversal-DB ישירות על ה3DS כדאי לכם לנסות.",
-	"last-updated-apps": "עדכון אחרון: "
+	"last-updated-apps": "עדכון אחרון: ",
+	"error-404": "Error! 404!",
+	"return-to-home": "Return to the <a href=\"/\">home page</a> or <span class=\"a\" onclick=\"window.history.back()\">go back</span> to the previous page."
 }
