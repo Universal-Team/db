@@ -7101,6 +7101,7 @@
 	},
 	{
 		"github": "Epicpkmn11/WordleDS",
+		"title": "Wordle DS",
 		"systems": ["DS"],
 		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/icon.bmp",
