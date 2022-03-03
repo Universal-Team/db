@@ -89,7 +89,7 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
   <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/156544809-7631253e-1372-4550-b06c-a06f258c96b1.png"><img
   src="https://user-images.githubusercontent.com/41608708/156544809-7631253e-1372-4550-b06c-a06f258c96b1.png"
   alt="QR code for WordleDS.cia" style="max-width: 100%;"></a></p>'
-updated: '2022-03-03T10:11:10Z'
+updated: '2022-03-03T10:42:58Z'
 version: v1.2.0
 version_title: Proper win messages
 ---
