@@ -20,7 +20,7 @@ downloads:
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 icon_index: 0
-image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/banner.png
+image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/resources/2d-banner.png
 image_length: 24475
 layout: app
 license: gpl-3.0
