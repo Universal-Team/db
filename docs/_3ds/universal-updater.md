@@ -10,13 +10,13 @@ description: An easy to use app for installing and updating 3DS homebrew
 download_page: https://github.com/Universal-Team/Universal-Updater/releases
 downloads:
   Universal-Updater.3dsx:
-    size: 2553036
+    size: 2595560
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.3/Universal-Updater.3dsx
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.4/Universal-Updater.3dsx
   Universal-Updater.cia:
-    size: 2134976
+    size: 2188224
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.3/Universal-Updater.cia
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.4/Universal-Updater.cia
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 icon_index: 0
@@ -79,13 +79,31 @@ systems:
 - 3DS
 title: Universal-Updater
 unistore_exclude: true
-update_notes: '<h3 dir="auto">Changes</h3>
+update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Adds Danish and Turkish translations and updates to some existing translations</li>
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/lividhen/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lividhen">@lividhen</a>)
+  Universal-Updater now has a 3D banner!<br>
 
-  <li>Adds Makefile option to build a Citra compatible version (<code>make citra</code>)</li>
+  <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/156866896-485ca026-6942-46f4-a970-3e94ea4ecce8.png"><img
+  src="https://user-images.githubusercontent.com/41608708/156866896-485ca026-6942-46f4-a970-3e94ea4ecce8.png"
+  alt="3d-banner" style="max-width: 100%;"></a></li>
+
+  <li>Added Dutch, Norwegian, and Romanian translations, some existing translations
+  have been improved</li>
+
+  <li>The search tab now defaults to searching by title</li>
+
+  <li><kbd>START</kbd> will now exit Universal-Updater, anything that was previously
+  triggered by <kbd>START</kbd> is now <kbd>SELECT</kbd></li>
+
+  <li>Notes are now shown explaining what "nightlies" and "prereleases" are before
+  installing</li>
+
+  <li><kbd>Left</kbd>/<kbd>Right</kbd> can now be used to scroll through release notes
+  faster</li>
 
   </ul>
 
@@ -93,14 +111,18 @@ update_notes: '<h3 dir="auto">Changes</h3>
 
   <ul dir="auto">
 
-  <li>Fixes empty folders and 0 byte files not being extracted</li>
+  <li>Fixed lagging/crashing on really long release notes</li>
 
   </ul>
 
   <h3 dir="auto">Other notes</h3>
 
-  <p dir="auto">Pretty small update this time, it''s been a while since the last one
-  though so we figured we should push out the couple changes we have at the moment.</p>
+  <p dir="auto">Another relatively small update, mainly created to add the translations
+  that have been added/updated since v3.2.3 and the new 3D banner. We''ve been working
+  on the next major update in the <a href="https://github.com/Universal-Team/Universal-Updater/tree/rewrite">rewrite
+  branch</a> with the major planned feature being DSi support, however that''s stalled
+  due to the DSi Wi-Fi library still being too unstable resulting in a lack of interest
+  in working on it, so in the meantime we''re putting out this smaller update.</p>
 
   <p dir="auto">Find any bugs we missed, have suggestions, or need help? You can either
   make an issue or discussion here on GitHub or join our <a href="https://universal-team.net/discord"
@@ -112,12 +134,12 @@ update_notes: '<h3 dir="auto">Changes</h3>
 
   <hr>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/128966211-6263b6b6-769b-4a54-b194-5f28b855903a.png"><img
-  src="https://user-images.githubusercontent.com/41608708/128966211-6263b6b6-769b-4a54-b194-5f28b855903a.png"
-  alt="QR code for universal-updater.cia" style="max-width: 100%;"></a></p>'
-updated: '2021-08-11T03:37:15Z'
-version: v3.2.3
-version_title: Translation updates and a bug fix
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/156898274-d50caf55-6a53-4e55-a0dc-7ad2f8e6e482.png"><img
+  src="https://user-images.githubusercontent.com/41608708/156898274-d50caf55-6a53-4e55-a0dc-7ad2f8e6e482.png"
+  alt="QR code for Universal-Updater.cia" style="max-width: 100%;"></a></p>'
+updated: '2022-03-05T19:53:26Z'
+version: v3.2.4
+version_title: 3D banner and new translations
 website: https://universal-team.net/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
