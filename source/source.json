@@ -6262,10 +6262,12 @@
 		"eval_downloads": true,
 		"downloads": {
 			"RetroArch_3dsx.7z": {
-				"url": "f\"https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds/RetroArch_3dsx.7z\""
+				"url": "f\"https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds/RetroArch_3dsx.7z\"",
+				"size": null
 			},
 			"RetroArch_cia.7z": {
-				"url": "f\"https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds/RetroArch_cia.7z\""
+				"url": "f\"https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds/RetroArch_cia.7z\"",
+				"size": null
 			}
 		},
 		"nightly": {
