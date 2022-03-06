@@ -53,7 +53,7 @@ def byteCount(bytes):
 	else:
 		return "%d GiB" % (bytes // (1 << 30))
 
-def downloadScript(file, url, message, archive, nightly=False):
+def downloadScript(file, url, message, archive):
 	script = []
 	archiveItem = [item for item in archive if re.findall(item, file)] if archive else None
 	if archive and len(archiveItem) > 0:
@@ -236,13 +236,6 @@ def downloadScript(file, url, message, archive, nightly=False):
 				script.append(msg)
 			else:
 				script.insert(0, msg)
-
-	if nightly:
-		script.insert(0, {
-			"type": "promptMessage",
-			"message": "Note: [nightly] versions are intended for testing\nupcoming features and may be unstable.\n\nIf you simply want to install the app,\nplease cancel and install the normal version.",
-			"count": 1000
-		})
 
 	return script
 
@@ -889,7 +882,7 @@ for app in source:
 				for file in app["nightly"]["downloads"]:
 					if len(re.findall(r"\.(zip|rar|7z|torrent|tar)", file)) == 0 or ("archive" in app and file in app["archive"]):
 						uni[f"[nightly] {app['archive'][file][0] if ('archive' in app and file in app['archive']) else file}"] = {
-							"script": downloadScript(file, app["nightly"]["downloads"][file]["url"], app["script_message"] if "script_message" in app else None, app["archive"] if "archive" in app else None, nightly=True),
+							"script": downloadScript(file, app["nightly"]["downloads"][file]["url"], app["script_message"] if "script_message" in app else None, app["archive"] if "archive" in app else None),
 							"size": byteCount(app["nightly"]["downloads"][file]["size"]) if "size" in app["nightly"]["downloads"][file] else "",
 							"type": "nightly"
 						}
