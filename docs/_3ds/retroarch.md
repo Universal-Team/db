@@ -11,12 +11,10 @@ description: Cross-platform, sophisticated frontend for the libretro API. Licens
 download_page: https://buildbot.libretro.com/stable/1.10.1/nintendo/3ds
 downloads:
   RetroArch_3dsx.7z:
-    size: 76998102
-    size_str: 73 MiB
+    size: null
     url: https://buildbot.libretro.com/stable/1.10.1/nintendo/3ds/RetroArch_3dsx.7z
   RetroArch_cia.7z:
-    size: 77352456
-    size_str: 73 MiB
+    size: null
     url: https://buildbot.libretro.com/stable/1.10.1/nintendo/3ds/RetroArch_cia.7z
 eval_downloads: true
 eval_notes_md: true
