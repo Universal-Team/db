@@ -12,11 +12,11 @@ downloads:
   Universal-Updater.3dsx:
     size: 2595560
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.4/Universal-Updater.3dsx
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.5/Universal-Updater.3dsx
   Universal-Updater.cia:
     size: 2188224
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.4/Universal-Updater.cia
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.5/Universal-Updater.cia
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 icon_index: 0
@@ -79,67 +79,39 @@ systems:
 - 3DS
 title: Universal-Updater
 unistore_exclude: true
-update_notes: '<h3 dir="auto">What''s new?</h3>
-
-  <ul dir="auto">
-
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/lividhen/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lividhen">@lividhen</a>)
-  Universal-Updater now has a 3D banner!<br>
-
-  <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/156866896-485ca026-6942-46f4-a970-3e94ea4ecce8.png"><img
-  src="https://user-images.githubusercontent.com/41608708/156866896-485ca026-6942-46f4-a970-3e94ea4ecce8.png"
-  alt="3d-banner" style="max-width: 100%;"></a></li>
-
-  <li>Added Dutch, Norwegian, and Romanian translations, some existing translations
-  have been improved</li>
-
-  <li>The search tab now defaults to searching by title</li>
-
-  <li><kbd>START</kbd> will now exit Universal-Updater, anything that was previously
-  triggered by <kbd>START</kbd> is now <kbd>SELECT</kbd></li>
-
-  <li>Notes are now shown explaining what "nightlies" and "prereleases" are before
-  installing</li>
-
-  <li><kbd>Left</kbd>/<kbd>Right</kbd> can now be used to scroll through release notes
-  faster</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed lagging/crashing on really long release notes</li>
-
-  </ul>
-
-  <h3 dir="auto">Other notes</h3>
-
-  <p dir="auto">Another relatively small update, mainly created to add the translations
-  that have been added/updated since v3.2.3 and the new 3D banner. We''ve been working
-  on the next major update in the <a href="https://github.com/Universal-Team/Universal-Updater/tree/rewrite">rewrite
-  branch</a> with the major planned feature being DSi support, however that''s stalled
-  due to the DSi Wi-Fi library still being too unstable resulting in a lack of interest
-  in working on it, so in the meantime we''re putting out this smaller update.</p>
-
-  <p dir="auto">Find any bugs we missed, have suggestions, or need help? You can either
-  make an issue or discussion here on GitHub or join our <a href="https://universal-team.net/discord"
-  rel="nofollow">Discord server</a>.</p>
-
-  <p dir="auto">We hope you enjoy the new update!<br>
-
-  ~ Universal-Team</p>
-
-  <hr>
-
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/156898274-d50caf55-6a53-4e55-a0dc-7ad2f8e6e482.png"><img
-  src="https://user-images.githubusercontent.com/41608708/156898274-d50caf55-6a53-4e55-a0dc-7ad2f8e6e482.png"
-  alt="QR code for Universal-Updater.cia" style="max-width: 100%;"></a></p>'
-updated: '2022-03-05T19:53:26Z'
-version: v3.2.4
-version_title: 3D banner and new translations
+update_notes: "<h3 dir=\"auto\">What's new?</h3>\n<ul dir=\"auto\">\n<li>\n<p dir=\"\
+  auto\">(<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
+  /users/PabloMK7/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
+  link_type:self\" href=\"https://github.com/PabloMK7\">@PabloMK7</a>) The 3D banner\
+  \ has been improved with animations and shading!</p>\n<details open=\"\" class=\"\
+  details-reset border rounded-2\">\n  <summary class=\"px-3 py-2\">\n    <svg aria-hidden=\"\
+  true\" height=\"16\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" data-view-component=\"\
+  true\" class=\"octicon octicon-device-camera-video\">\n    <path fill-rule=\"evenodd\"\
+  \ d=\"M16 3.75a.75.75 0 00-1.136-.643L11 5.425V4.75A1.75 1.75 0 009.25 3h-7.5A1.75\
+  \ 1.75 0 000 4.75v6.5C0 12.216.784 13 1.75 13h7.5A1.75 1.75 0 0011 11.25v-.675l3.864\
+  \ 2.318A.75.75 0 0016 12.25v-8.5zm-5 5.075l3.5 2.1v-5.85l-3.5 2.1v1.65zM9.5 6.75v-2a.25.25\
+  \ 0 00-.25-.25h-7.5a.25.25 0 00-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-4.5z\"\
+  ></path>\n</svg>\n    <span aria-label=\"Video description 2022-03-07.02-37-37.mp4\"\
+  \ class=\"m-1\">2022-03-07.02-37-37.mp4</span>\n    <span class=\"dropdown-caret\"\
+  ></span>\n  </summary>\n\n  <video src=\"https://user-images.githubusercontent.com/10946643/156953976-55b54211-67e4-4caa-8dd1-5e525319e189.mp4\"\
+  \ data-canonical-src=\"https://user-images.githubusercontent.com/10946643/156953976-55b54211-67e4-4caa-8dd1-5e525319e189.mp4\"\
+  \ controls=\"controls\" muted=\"muted\" class=\"d-block rounded-bottom-2 border-top\
+  \ width-fit\" style=\"max-height:640px;\">\n\n  </video>\n</details>\n\n</li>\n\
+  </ul>\n<h3 dir=\"auto\">Bug fixes</h3>\n<ul dir=\"auto\">\n<li>Fixed really short\
+  \ release notes not showing</li>\n</ul>\n<h3 dir=\"auto\">Other notes</h3>\n<p dir=\"\
+  auto\">See <a href=\"https://github.com/Universal-Team/Universal-Updater/releases/tag/v3.2.4\"\
+  >v3.2.4</a> for more recent changes, there was just a relatively major new bug in\
+  \ that version and the improved banner so we're putting out another release so soon.</p>\n\
+  <p dir=\"auto\">Find any bugs we missed, have suggestions, or need help? You can\
+  \ either make an issue or discussion here on GitHub or join our <a href=\"https://universal-team.net/discord\"\
+  \ rel=\"nofollow\">Discord server</a>.</p>\n<p dir=\"auto\">We hope you enjoy the\
+  \ new update!<br>\n~ Universal-Team</p>\n<hr>\n<p dir=\"auto\"><a target=\"_blank\"\
+  \ rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/41608708/156961045-e2bb0dd5-049a-4fbf-8f59-8e8fd9af0f83.png\"\
+  ><img src=\"https://user-images.githubusercontent.com/41608708/156961045-e2bb0dd5-049a-4fbf-8f59-8e8fd9af0f83.png\"\
+  \ alt=\"QR code for Universal-Updater.cia\" style=\"max-width: 100%;\"></a></p>"
+updated: '2022-03-07T03:01:27Z'
+version: v3.2.5
+version_title: Bug fix and improved 3D banner
 website: https://universal-team.net/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
