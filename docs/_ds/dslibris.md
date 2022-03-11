@@ -31,5 +31,4 @@ update_notes: '<p dir="auto">Version v1.5.0 rebuilt with devkitARM r45.</p>
 updated: '2018-11-23T01:58:57Z'
 version: v1.5.1
 version_title: v1.5.1
-website: https://rhaleblian.wordpress.com/dslibris-an-ebook-reader-for-the-nintendo-ds/
 ---
