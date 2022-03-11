@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 30771661
+    size: 30875572
     size_str: 29 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.1.1/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.2.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 30790340
+    size: 30892793
     size_str: 29 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.1.1/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.2.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 42355129
+    size: 42459780
     size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.1.1/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.2.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 42550633
+    size: 42656717
     size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.1.1/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.2.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_index: 140
@@ -49,7 +49,10 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.55.0">nds-bootstrap
+  v0.55.0</a></p>
+
+  <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
 
   <ul dir="auto">
@@ -63,19 +66,25 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   </ul>
 
-  <p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.54.2">nds-bootstrap
-  v0.54.2</a></p>
-
   <p dir="auto"><strong>What''s new?</strong></p>
 
   <ul dir="auto">
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/DieGo367/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DieGo367">@DieGo367</a>)
-  Added custom icons for folders. (<a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="1146605441" data-permission-text="Title is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/1819"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/1819/hovercard"
-  href="https://github.com/DS-Homebrew/TWiLightMenu/pull/1819">#1819</a>)</li>
+  <li><strong>TWLMenu++ Splash Screen:</strong> Mario-themed splash variant has been
+  added for MAR10 Day!</li>
+
+  <li>Progress bar is now shown when creating save data!</li>
+
+  <li>Replaced broken <em>GoldenEye 007</em> AP-fix with working cheat version.</li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/R-YaTian/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/R-YaTian">@R-YaTian</a>)
+  Replaced AP-fix for Chinese translation of <em>Kyokugen Dasshutsu: 9-jikan, 9-nin,
+  9 no Tobira</em>.</li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/spellboundtriangle/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/spellboundtriangle">@spellboundtriangle</a>)
+  <code>ramdisks</code> folder is now hidden.</li>
 
   </ul>
 
@@ -83,34 +92,26 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <ul dir="auto">
 
-  <li>Save data is now created for DS ROMs containing <code>NTRJ</code> as the TID.
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  Custom icons under 32x32 are now allowed.</li>
 
-  <ul dir="auto">
+  <li><strong>DSi:</strong> Fixed backlight change not working in DS Classic Menu.</li>
 
-  <li>Should fix saving not working in <em>Super Mario 256</em>.</li>
+  <li>Fixed save not being created/used for <em>Super Mario 256</em> (for real, this
+  time).</li>
 
-  </ul>
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/spellboundtriangle/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/spellboundtriangle">@spellboundtriangle</a>)
+  <em>Rune Factory</em> games are now unable to use TWL clock speed, due to bugs.</li>
 
-  </li>
-
-  <li>Fixed WiFi being off by default on 3DS consoles.
-
-  <ul dir="auto">
-
-  <li><strong>NOTE:</strong> If you''ve previously updated to v24.0.0 or v24.1.0,
-  please make sure <code>WiFi</code> is set to <code>On</code> in TWLMenu++ Settings,
-  if you want to use wireless features.</li>
-
-  </ul>
-
-  </li>
-
-  <li><strong>Settings:</strong> Fixed System Settings not launching.</li>
+  <li>Fixed System Settings not launching on EUR/AUS consoles, when selected in TWLMenu++
+  Settings.</li>
 
   </ul>'
-updated: '2022-02-28T21:36:04Z'
-version: v24.1.1
-version_title: v24.1.1
+updated: '2022-03-11T01:42:00Z'
+version: v24.2.0
+version_title: 'v24.2.0: MAR10 Day (2022)'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
