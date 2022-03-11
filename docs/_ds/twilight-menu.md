@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 30875572
+    size: 30876676
     size_str: 29 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.2.0/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.2.1/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 30892793
+    size: 30893515
     size_str: 29 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.2.0/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.2.1/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 42459780
+    size: 42458197
     size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.2.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.2.1/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 42656717
+    size: 42653280
     size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.2.0/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.2.1/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_index: 140
@@ -49,8 +49,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.55.0">nds-bootstrap
-  v0.55.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.55.1">nds-bootstrap
+  v0.55.1</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -66,52 +66,18 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <p dir="auto"><strong>What''s new?</strong></p>
-
-  <ul dir="auto">
-
-  <li><strong>TWLMenu++ Splash Screen:</strong> Mario-themed splash variant has been
-  added for MAR10 Day!</li>
-
-  <li>Progress bar is now shown when creating save data!</li>
-
-  <li>Replaced broken <em>GoldenEye 007</em> AP-fix with working cheat version.</li>
-
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/R-YaTian/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/R-YaTian">@R-YaTian</a>)
-  Replaced AP-fix for Chinese translation of <em>Kyokugen Dasshutsu: 9-jikan, 9-nin,
-  9 no Tobira</em>.</li>
-
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/spellboundtriangle/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/spellboundtriangle">@spellboundtriangle</a>)
-  <code>ramdisks</code> folder is now hidden.</li>
-
-  </ul>
-
-  <p dir="auto"><strong>Bug fixes</strong></p>
+  <p dir="auto"><strong>Improvement</strong></p>
 
   <ul dir="auto">
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Custom icons under 32x32 are now allowed.</li>
-
-  <li><strong>DSi:</strong> Fixed backlight change not working in DS Classic Menu.</li>
-
-  <li>Fixed save not being created/used for <em>Super Mario 256</em> (for real, this
-  time).</li>
-
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/spellboundtriangle/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/spellboundtriangle">@spellboundtriangle</a>)
-  <em>Rune Factory</em> games are now unable to use TWL clock speed, due to bugs.</li>
-
-  <li>Fixed System Settings not launching on EUR/AUS consoles, when selected in TWLMenu++
-  Settings.</li>
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
+  and various) Updated translations.</li>
 
   </ul>'
-updated: '2022-03-11T01:42:00Z'
-version: v24.2.0
-version_title: 'v24.2.0: MAR10 Day (2022)'
+updated: '2022-03-11T03:28:39Z'
+version: v24.2.1
+version_title: 'v24.2.1: MAR10 Day (2022) (hotfix)'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
