@@ -11,17 +11,13 @@ description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. 
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 951808
-    size_str: 929 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.2/ColecoDS.nds
+    size: 1012224
+    size_str: 988 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.3/ColecoDS.nds
   README.md:
-    size: 17196
-    size_str: 16 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.2/README.md
-  cbios.txt:
-    size: 2265
-    size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.2/cbios.txt
+    size: 18344
+    size_str: 17 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.3/README.md
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 197
@@ -32,20 +28,17 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V6.2: 29-Jan-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V6.3: 12-Mar-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Increased AY noise frequency dynamic range - improves MSX and CV-SGM sounds.</li>
+  <li>ADAM Computer support is added! Play .ddp and .dsk games (requires eos.rom and
+  writer.rom).</li>
 
-  <li>Increased AY tone frequency dynamic range - improves MSX and CV-SGM sounds.</li>
-
-  <li>Diagonal d-pad mapping now available on SG-1000.</li>
-
-  <li>Other minor cleanups as time permitted.</li>
+  <li>Other minor cleanups and fixes as time permitted.</li>
 
   </ul>'
-updated: '2022-01-29T12:20:38Z'
-version: '6.2'
-version_title: Version 6.2
+updated: '2022-03-12T22:00:51Z'
+version: '6.3'
+version_title: Version 6.3
 ---
