@@ -11,13 +11,13 @@ description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. 
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1012224
-    size_str: 988 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.3/ColecoDS.nds
+    size: 1012736
+    size_str: 989 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.3a/ColecoDS.nds
   README.md:
     size: 18344
     size_str: 17 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.3/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.3a/README.md
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 197
@@ -28,7 +28,7 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V6.3: 12-Mar-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V6.3a: 13-Mar-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
@@ -37,8 +37,12 @@ update_notes: '<p dir="auto">V6.3: 12-Mar-2022 by wavemotion-dave</p>
 
   <li>Other minor cleanups and fixes as time permitted.</li>
 
+  <li>Improved keyboard support for ADAM - CAPS indicator and smoother operation.</li>
+
+  <li>New option to randomize or wipe RAM on startup.</li>
+
   </ul>'
-updated: '2022-03-12T22:00:51Z'
-version: '6.3'
-version_title: Version 6.3
+updated: '2022-03-13T12:04:51Z'
+version: 6.3a
+version_title: Version 6.3a
 ---
