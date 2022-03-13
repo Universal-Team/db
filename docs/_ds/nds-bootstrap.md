@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 431685
-    size_str: 421 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.55.1/nds-bootstrap.7z
+    size: 432845
+    size_str: 422 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.54.2/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1041179
-    size_str: 1016 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.55.1/nds-bootstrap.zip
+    size: 1045432
+    size_str: 1020 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.54.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 icon_index: 141
@@ -35,8 +35,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v24.2.1"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v24.2.1</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v24.1.1"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v24.1.1</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -50,16 +50,36 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <p dir="auto"><strong>Bug fix</strong></p>
+  <p dir="auto"><strong>Bug fixes</strong></p>
 
   <ul dir="auto">
 
-  <li>Fixed in-game menu not exiting properly sometimes.</li>
+  <li>Fixed <em>Rabbids Go Home</em> not booting in DSi mode.</li>
+
+  <li>Fixed saving not working in <em>Lufia: Curse of the Sinistrals</em>.</li>
+
+  <li>Pre-loaded ROM hacks containing data beyond the ROM size in the header, now
+  has the data loaded.
+
+  <ul dir="auto">
+
+  <li>It is recommended to manually fix the ROM size in the header, to avoid further
+  issues.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Fixed <em>Mario''s Holiday</em> versions before Rev 11 not booting on 3DS.</li>
+
+  <li>Fixed exception screen not shown in <em>CTGP Nitro</em>.</li>
+
+  <li>Other minor fixes.</li>
 
   </ul>'
-updated: '2022-03-11T03:23:52Z'
-version: v0.55.1
-version_title: v0.55.1 (hotfix)
+updated: '2022-02-28T21:25:59Z'
+version: v0.54.2
+version_title: v0.54.2
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
