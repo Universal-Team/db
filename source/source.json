@@ -7083,5 +7083,33 @@
 		"archive": {
 			"FSPDS-.*\\.zip": ["FSPDS.nds"]
 		}
+	},
+	{
+		"github": "Strrationalism/CPyMO",
+		"author": "Strrationalism Studio",
+		"systems": ["3DS"],
+		"categories": ["emulator"],
+		"image": "https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/banner.png",
+		"icon": "https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/icon.png"
+	},
+	{
+		"github": "lifehackerhansol/NDSForwarder-DSi",
+		"systems": ["DS"],
+		"categories": ["utility"],
+		"icon": "https://raw.githubusercontent.com/lifehackerhansol/NDSForwarder-DSi/master/icon.bmp",
+		"description": "A basic nds-bootstrap forwarder generator for DSi SDNAND.",
+		"long_description": "# NDSForwarder for hiyaCFW\nA basic nds-bootstrap forwarder generator for DSi SDNAND.\n\n## Usage\n- https://wiki.ds-homebrew.com/ds-index/forwarders.html?tab=tab-dsi-sd-card",
+		"nightly": {
+			"download_page": "https://github.com/lifehackerhansol/NDSForwarder-DSi/actions",
+			"downloads": {
+				"build.zip": {
+					"url": "https://nightly.link/lifehackerhansol/NDSForwarder-DSi/workflows/nightly/master/build.zip"
+				}
+			}
+		},
+		"archive": {
+			"build.zip": ["NDSForwarder.dsi"]
+		},
+		"unistore_exclude": true
 	}
 ]
