@@ -6,8 +6,8 @@ categories:
 color: '#4a4a42'
 color_bg: '#4a4a42'
 created: '2021-11-09T21:09:48Z'
-description: 'ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. Phoenix-Edition
-  by Wavemotion. '
+description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. Phoenix-Edition
+  by Wavemotion with support for Colecovision, ADAM, MSX1, Sord-M5 and SG-1000.
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
