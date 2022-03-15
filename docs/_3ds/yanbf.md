@@ -10,21 +10,21 @@ description: Yet another nds-bootstrap forwarder. Runs from 3DS-mode!
 download_page: https://github.com/lifehackerhansol/YANBF/releases
 downloads:
   YANBF-Linux.zip:
-    size: 99859911
-    size_str: 95 MiB
-    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.4.0/YANBF-Linux.zip
+    size: 101660053
+    size_str: 96 MiB
+    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.5.0/YANBF-Linux.zip
   YANBF-Windows.zip:
-    size: 64939878
+    size: 64940409
     size_str: 61 MiB
-    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.4.0/YANBF-Windows.zip
+    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.5.0/YANBF-Windows.zip
   YANBF-macOS.zip:
-    size: 88294589
+    size: 88294432
     size_str: 84 MiB
-    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.4.0/YANBF-macOS.zip
+    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.5.0/YANBF-macOS.zip
   bootstrap.cia:
     size: 206080
     size_str: 201 KiB
-    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.4.0/bootstrap.cia
+    url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.5.0/bootstrap.cia
 github: lifehackerhansol/YANBF
 icon_index: 199
 image: https://avatars.githubusercontent.com/u/37358975?v=4
@@ -42,10 +42,21 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Python dependency is now gone. Life is easy!</li>
+  <li>A repository for community-provided custom banners and sounds is now open! <a
+  href="https://github.com/lifehackerhansol/YANBF-assets">https://github.com/lifehackerhansol/YANBF-assets</a>
 
-  <li>A fork of the GUI was created to accomodate this release, for now. While the
-  PR waits, anyway.</li>
+  <ul dir="auto">
+
+  <li>As of this moment, only eCDP is provided. (Thanks Yrouel on GBAtemp!)</li>
+
+  <li>Now YOU can make your own and share it to everyone!</li>
+
+  </ul>
+
+  </li>
+
+  <li>The program will search for a pre-existing custom banner beforehand, and default
+  to the standard boxart if none are found.</li>
 
   </ul>
 
@@ -53,24 +64,11 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Fixed UniqueID searching where it wrongly detects more than one ID0.</li>
-
-  <li><a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
-  fixed bannergif module not properly detecting animated icons.</li>
-
-  </ul>
-
-  <h3 dir="auto">Known issues</h3>
-
-  <ul dir="auto">
-
-  <li>The GUI still does not have a randomizing function, though with the UniqueID
-  collision checking this is largely unnecessary.</li>
+  <li>Fixed an issue where UniqueID incrementing was out of range.</li>
 
   </ul>'
-updated: '2022-03-13T21:47:14Z'
-version: v1.4.0
-version_title: 'v1.4.0: Python Begone'
+updated: '2022-03-15T19:48:13Z'
+version: v1.5.0
+version_title: 'v1.5.0: Now YOU can make your own banner!'
 ---
 YANBF is a 3DS-mode nds-bootstrap forwarder, allowing for more than 40 forwarder titles as compared to the older forwarder template.
