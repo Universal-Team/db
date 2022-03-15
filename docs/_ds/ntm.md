@@ -12,7 +12,7 @@ downloads:
   NTM.dsi:
     size: 253952
     size_str: 248 KiB
-    url: https://github.com/Epicpkmn11/NTM/releases/download/v0.1.2/NTM.dsi
+    url: https://github.com/Epicpkmn11/NTM/releases/download/v0.1.1/NTM.dsi
 github: Epicpkmn11/NTM
 icon: https://db.universal-team.net/assets/images/icons/ntm.png
 icon_index: 200
@@ -33,25 +33,24 @@ update_notes: '<blockquote>
 
   </blockquote>
 
+  <h3 dir="auto">What''s new</h3>
+
+  <ul dir="auto">
+
+  <li>Adds option to patch system apps to normal DSiWare for safer installation</li>
+
+  </ul>
+
   <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>Fixes a bug which caused some save files to be generated incorrectly, preventing
-  the games from loading
-
-  <ul dir="auto">
-
-  <li>Dragon Quest Wars is known to be affected, not sure if anything else was</li>
-
-  </ul>
-
-  </li>
+  <li>Fixes homebrew banners sometimes not working</li>
 
   </ul>'
-updated: '2022-03-14T09:46:54Z'
-version: v0.1.2
-version_title: Fixed save file generation
+updated: '2022-01-28T21:20:59Z'
+version: v0.1.1
+version_title: Minor bug fix update
 wiki: https://github.com/Epicpkmn11/NTM/wiki
 ---
 NAND Title Manager, NTM for short, is an application for the Nintendo DSi that allows you to manage titles on your NAND. It can manage titles on both [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/)'s SDNAND and your actual internal memory, typically called SysNAND. **When using in SysNAND mode please use with caution**.
