@@ -18,7 +18,7 @@ downloads:
     url: https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/download/v0.2.3/NDSForwarder.dsi
 github: lifehackerhansol/NDSForwarder-DSi
 icon: https://db.universal-team.net/assets/images/icons/ndsforwarder-dsi.png
-icon_index: -1
+icon_index: 205
 image: https://db.universal-team.net/assets/images/icons/ndsforwarder-dsi.png
 image_length: 2102
 layout: app

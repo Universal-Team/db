@@ -85,12 +85,9 @@ update_notes: "<p dir=\"auto\">We're early for christmas this year with a new re
   \ <code>certs.db</code> in this release. It's not only the devs who we have to thank,\
   \ though, it's also the numerous people who point out problems and ask for features,\
   \ as well as everyone who's patient enough to help us out with testing. More special\
-  \ thanks go to @TimmSkiller and <a class=\"user-mention\" data-hovercard-type=\"\
-  user\" data-hovercard-url=\"/users/mariomadproductions/hovercard\" data-octo-click=\"\
-  hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/mariomadproductions\"\
-  >@mariomadproductions</a>, who both helped us a lot to improve GodMode9. In fact,\
-  \ the people who helped make this release a possibility are too numerous to list\
-  \ - thanks, all of you!</p>"
+  \ thanks go to @TimmSkiller and @mariomadproductions, who both helped us a lot to\
+  \ improve GodMode9. In fact, the people who helped make this release a possibility\
+  \ are too numerous to list - thanks, all of you!</p>"
 updated: '2021-11-21T12:21:56Z'
 version: v2.1.0
 version_title: GodMode9 v2.1.0
