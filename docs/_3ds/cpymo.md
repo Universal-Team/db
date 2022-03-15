@@ -17,71 +17,84 @@ layout: app
 license: agpl-3.0
 license_name: GNU Affero General Public License v3.0
 prerelease:
-  download_page: https://github.com/Strrationalism/CPyMO/releases/tag/v0.9.4
+  download_page: https://github.com/Strrationalism/CPyMO/releases/tag/v0.9.5
   downloads:
+    cpymo-linux:
+      size: 110478168
+      size_str: 105 MiB
+      url: https://github.com/Strrationalism/CPyMO/releases/download/v0.9.5/cpymo-linux
+    cpymo-macos:
+      size: 21767456
+      size_str: 20 MiB
+      url: https://github.com/Strrationalism/CPyMO/releases/download/v0.9.5/cpymo-macos
+    cpymo-tool-linux:
+      size: 24512
+      size_str: 23 KiB
+      url: https://github.com/Strrationalism/CPyMO/releases/download/v0.9.5/cpymo-tool-linux
+    cpymo-tool-macos:
+      size: 53728
+      size_str: 52 KiB
+      url: https://github.com/Strrationalism/CPyMO/releases/download/v0.9.5/cpymo-tool-macos
     cpymo-tool.exe:
-      size: 12288
-      size_str: 12 KiB
-      url: https://github.com/Strrationalism/CPyMO/releases/download/v0.9.4/cpymo-tool.exe
+      size: 14848
+      size_str: 14 KiB
+      url: https://github.com/Strrationalism/CPyMO/releases/download/v0.9.5/cpymo-tool.exe
     cpymo.3dsx:
-      size: 15190860
+      size: 15194640
       size_str: 14 MiB
-      url: https://github.com/Strrationalism/CPyMO/releases/download/v0.9.4/cpymo.3dsx
+      url: https://github.com/Strrationalism/CPyMO/releases/download/v0.9.5/cpymo.3dsx
     cpymo.cia:
       size: 11301824
       size_str: 10 MiB
-      url: https://github.com/Strrationalism/CPyMO/releases/download/v0.9.4/cpymo.cia
+      url: https://github.com/Strrationalism/CPyMO/releases/download/v0.9.5/cpymo.cia
     cpymo.exe:
-      size: 13495296
-      size_str: 12 MiB
-      url: https://github.com/Strrationalism/CPyMO/releases/download/v0.9.4/cpymo.exe
+      size: 17025536
+      size_str: 16 MiB
+      url: https://github.com/Strrationalism/CPyMO/releases/download/v0.9.5/cpymo.exe
+    cpymo.nro:
+      size: 18743870
+      size_str: 17 MiB
+      url: https://github.com/Strrationalism/CPyMO/releases/download/v0.9.5/cpymo.nro
   qr:
     cpymo.cia: https://db.universal-team.net/assets/images/qr/prerelease/cpymo-cia.png
-  update_notes: "<h1 dir=\"auto\">CPyMO Beta Release 5</h1>\n<p dir=\"auto\">\u76F8\
-    \u6BD4v0.9.3\u505A\u51FA\u4EE5\u4E0B\u4FEE\u6539\uFF1A</p>\n<ul dir=\"auto\">\n\
-    <li>3DS\u589E\u5F3A\u663E\u793A\u6A21\u5F0F\u73B0\u5728\u5DF2\u7ECF\u652F\u6301\
-    \u4F7F\u7528\u89E6\u5C4F\u64CD\u4F5C\u5E38\u7528UI</li>\n</ul>\n<h2 dir=\"auto\"\
-    >3DS FBI\u4E8C\u7EF4\u7801</h2>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener\
-    \ noreferrer\" href=\"https://camo.githubusercontent.com/f53bb166900655ed6d5bf5343baf96d53c28e478b86ad0dca0565c4bc7ab1a96/68747470733a2f2f6170692e71727365727665722e636f6d2f76312f6372656174652d71722d636f64652f3f646174613d68747470733a2f2f6769746875622e636f6d2f53656e672d4a696b2f6370796d6f2f72656c65617365732f646f776e6c6f61642f76302e392e342f6370796d6f2e636961\"\
-    ><img src=\"https://camo.githubusercontent.com/f53bb166900655ed6d5bf5343baf96d53c28e478b86ad0dca0565c4bc7ab1a96/68747470733a2f2f6170692e71727365727665722e636f6d2f76312f6372656174652d71722d636f64652f3f646174613d68747470733a2f2f6769746875622e636f6d2f53656e672d4a696b2f6370796d6f2f72656c65617365732f646f776e6c6f61642f76302e392e342f6370796d6f2e636961\"\
-    \ alt=\"FBI QRCODE\" data-canonical-src=\"https://api.qrserver.com/v1/create-qr-code/?data=https://github.com/Seng-Jik/cpymo/releases/download/v0.9.4/cpymo.cia\"\
-    \ style=\"max-width: 100%;\"></a></p>\n<p dir=\"auto\">\u5982\u679C\u4F60\u7684\
-    \u76843DS\u4E0D\u80FD\u542F\u52A8CIA\u7248\u672C\uFF0C\u8BF7\u5C1D\u8BD5\u4F7F\
-    \u7528Homebrew Launcher\u542F\u52A83DSX\u7248\u672C\u3002</p>\n<p dir=\"auto\"\
-    >\u5982\u679C\u4F60\u5DF2\u7ECF\u5B89\u88C5\u4E86\u65E7\u7248\u672C\u7684CIA\uFF0C\
-    \u5219\u9700\u8981\u5148\u5B8C\u5168\u5378\u8F7D\u65E7\u7248\u672CCPyMO\u540E\u624D\
-    \u53EF\u4EE5\u5B89\u88C5\u6B64\u7248\u672C\u3002</p>"
-  update_notes_md: "# CPyMO Beta Release 5\n\n\u76F8\u6BD4v0.9.3\u505A\u51FA\u4EE5\
-    \u4E0B\u4FEE\u6539\uFF1A\n* 3DS\u589E\u5F3A\u663E\u793A\u6A21\u5F0F\u73B0\u5728\
-    \u5DF2\u7ECF\u652F\u6301\u4F7F\u7528\u89E6\u5C4F\u64CD\u4F5C\u5E38\u7528UI\n\n\
-    ## 3DS FBI\u4E8C\u7EF4\u7801\n![FBI QRCODE](https://api.qrserver.com/v1/create-qr-code/?data=https://github.com/Seng-Jik/cpymo/releases/download/v0.9.4/cpymo.cia)\n\
-    \n\u5982\u679C\u4F60\u7684\u76843DS\u4E0D\u80FD\u542F\u52A8CIA\u7248\u672C\uFF0C\
-    \u8BF7\u5C1D\u8BD5\u4F7F\u7528Homebrew Launcher\u542F\u52A83DSX\u7248\u672C\u3002\
-    \n\n\u5982\u679C\u4F60\u5DF2\u7ECF\u5B89\u88C5\u4E86\u65E7\u7248\u672C\u7684CIA\uFF0C\
-    \u5219\u9700\u8981\u5148\u5B8C\u5168\u5378\u8F7D\u65E7\u7248\u672CCPyMO\u540E\u624D\
-    \u53EF\u4EE5\u5B89\u88C5\u6B64\u7248\u672C\u3002\n"
-  updated: '2022-03-14T05:39:50Z'
-  version: v0.9.4
-  version_title: Beta Release 5
+  update_notes: "<h1 dir=\"auto\">CPyMO Beta Release 6</h1>\n<ul dir=\"auto\">\n<li>\u767B\
+    \u5F55<a href=\"https://db.universal-team.net/3ds/cpymo\" rel=\"nofollow\">Universal\
+    \ Updater\u5E94\u7528\u5546\u5E97</a></li>\n<li>\u652F\u6301\u4EFB\u5929\u5802\
+    Switch</li>\n<li>\u4FEE\u590D <a class=\"issue-link js-issue-link\" data-error-text=\"\
+    Failed to load title\" data-id=\"1167493259\" data-permission-text=\"Title is\
+    \ private\" data-url=\"https://github.com/Strrationalism/CPyMO/issues/3\" data-hovercard-type=\"\
+    issue\" data-hovercard-url=\"/Strrationalism/CPyMO/issues/3/hovercard\" href=\"\
+    https://github.com/Strrationalism/CPyMO/issues/3\">#3</a></li>\n<li>\u4FEE\u6B63\
+    \u7ACB\u7ED8\u987A\u5E8F\u9519\u8BEF\u95EE\u9898</li>\n</ul>\n<p dir=\"auto\"\
+    >\u4E4B\u540E\u4E0D\u518D\u53D1\u5E03FBI\u4E8C\u7EF4\u7801\uFF0C\u4F60\u53EF\u4EE5\
+    \u76F4\u63A5\u5728Universal Updater\u5E94\u7528\u5546\u5E97\u7684\u94FE\u63A5\u4E2D\
+    \u83B7\u53D6\u4E8C\u7EF4\u7801\u3002</p>"
+  update_notes_md: "# CPyMO Beta Release 6\n\n* \u767B\u5F55[Universal Updater\u5E94\
+    \u7528\u5546\u5E97](https://db.universal-team.net/3ds/cpymo)\n* \u652F\u6301\u4EFB\
+    \u5929\u5802Switch\n* \u4FEE\u590D #3 \n* \u4FEE\u6B63\u7ACB\u7ED8\u987A\u5E8F\
+    \u9519\u8BEF\u95EE\u9898\n\n\u4E4B\u540E\u4E0D\u518D\u53D1\u5E03FBI\u4E8C\u7EF4\
+    \u7801\uFF0C\u4F60\u53EF\u4EE5\u76F4\u63A5\u5728Universal Updater\u5E94\u7528\u5546\
+    \u5E97\u7684\u94FE\u63A5\u4E2D\u83B7\u53D6\u4E8C\u7EF4\u7801\u3002\n"
+  updated: '2022-03-15T08:59:44Z'
+  version: v0.9.5
+  version_title: Beta Release 6
 source: https://github.com/Strrationalism/CPyMO
 systems:
 - 3DS
 title: CPyMO
-update_notes: "<h1 dir=\"auto\">CPyMO Beta Release 5</h1>\n<p dir=\"auto\">\u76F8\u6BD4\
-  v0.9.3\u505A\u51FA\u4EE5\u4E0B\u4FEE\u6539\uFF1A</p>\n<ul dir=\"auto\">\n<li>3DS\u589E\
-  \u5F3A\u663E\u793A\u6A21\u5F0F\u73B0\u5728\u5DF2\u7ECF\u652F\u6301\u4F7F\u7528\u89E6\
-  \u5C4F\u64CD\u4F5C\u5E38\u7528UI</li>\n</ul>\n<h2 dir=\"auto\">3DS FBI\u4E8C\u7EF4\
-  \u7801</h2>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"\
-  https://camo.githubusercontent.com/f53bb166900655ed6d5bf5343baf96d53c28e478b86ad0dca0565c4bc7ab1a96/68747470733a2f2f6170692e71727365727665722e636f6d2f76312f6372656174652d71722d636f64652f3f646174613d68747470733a2f2f6769746875622e636f6d2f53656e672d4a696b2f6370796d6f2f72656c65617365732f646f776e6c6f61642f76302e392e342f6370796d6f2e636961\"\
-  ><img src=\"https://camo.githubusercontent.com/f53bb166900655ed6d5bf5343baf96d53c28e478b86ad0dca0565c4bc7ab1a96/68747470733a2f2f6170692e71727365727665722e636f6d2f76312f6372656174652d71722d636f64652f3f646174613d68747470733a2f2f6769746875622e636f6d2f53656e672d4a696b2f6370796d6f2f72656c65617365732f646f776e6c6f61642f76302e392e342f6370796d6f2e636961\"\
-  \ alt=\"FBI QRCODE\" data-canonical-src=\"https://api.qrserver.com/v1/create-qr-code/?data=https://github.com/Seng-Jik/cpymo/releases/download/v0.9.4/cpymo.cia\"\
-  \ style=\"max-width: 100%;\"></a></p>\n<p dir=\"auto\">\u5982\u679C\u4F60\u7684\u7684\
-  3DS\u4E0D\u80FD\u542F\u52A8CIA\u7248\u672C\uFF0C\u8BF7\u5C1D\u8BD5\u4F7F\u7528Homebrew\
-  \ Launcher\u542F\u52A83DSX\u7248\u672C\u3002</p>\n<p dir=\"auto\">\u5982\u679C\u4F60\
-  \u5DF2\u7ECF\u5B89\u88C5\u4E86\u65E7\u7248\u672C\u7684CIA\uFF0C\u5219\u9700\u8981\
-  \u5148\u5B8C\u5168\u5378\u8F7D\u65E7\u7248\u672CCPyMO\u540E\u624D\u53EF\u4EE5\u5B89\
-  \u88C5\u6B64\u7248\u672C\u3002</p>"
-updated: '2022-03-14T05:39:50Z'
-version: v0.9.4
-version_title: Beta Release 5
+update_notes: "<h1 dir=\"auto\">CPyMO Beta Release 6</h1>\n<ul dir=\"auto\">\n<li>\u767B\
+  \u5F55<a href=\"https://db.universal-team.net/3ds/cpymo\" rel=\"nofollow\">Universal\
+  \ Updater\u5E94\u7528\u5546\u5E97</a></li>\n<li>\u652F\u6301\u4EFB\u5929\u5802Switch</li>\n\
+  <li>\u4FEE\u590D <a class=\"issue-link js-issue-link\" data-error-text=\"Failed\
+  \ to load title\" data-id=\"1167493259\" data-permission-text=\"Title is private\"\
+  \ data-url=\"https://github.com/Strrationalism/CPyMO/issues/3\" data-hovercard-type=\"\
+  issue\" data-hovercard-url=\"/Strrationalism/CPyMO/issues/3/hovercard\" href=\"\
+  https://github.com/Strrationalism/CPyMO/issues/3\">#3</a></li>\n<li>\u4FEE\u6B63\
+  \u7ACB\u7ED8\u987A\u5E8F\u9519\u8BEF\u95EE\u9898</li>\n</ul>\n<p dir=\"auto\">\u4E4B\
+  \u540E\u4E0D\u518D\u53D1\u5E03FBI\u4E8C\u7EF4\u7801\uFF0C\u4F60\u53EF\u4EE5\u76F4\
+  \u63A5\u5728Universal Updater\u5E94\u7528\u5546\u5E97\u7684\u94FE\u63A5\u4E2D\u83B7\
+  \u53D6\u4E8C\u7EF4\u7801\u3002</p>"
+updated: '2022-03-15T08:59:44Z'
+version: v0.9.5
+version_title: Beta Release 6
 ---
