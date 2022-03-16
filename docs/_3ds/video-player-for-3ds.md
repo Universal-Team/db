@@ -44,7 +44,9 @@ update_notes: '<ul dir="auto">
 
   <li>Other minor changes</li>
 
-  </ul>'
+  </ul>
+
+  <h3 dir="auto"><a href="https://discord.gg/MMsAXvetpR" rel="nofollow">Discord channnel</a></h3>'
 updated: '2022-01-09T13:23:44Z'
 version: v1.4.2
 version_title: Video player for 3DS v1.4.2

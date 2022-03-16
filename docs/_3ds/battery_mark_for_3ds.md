@@ -43,6 +43,8 @@ update_notes: '<ul dir="auto">
 
   </ul>
 
+  <h3 dir="auto"><a href="https://discord.gg/66qCrQNqrw" rel="nofollow">Discord channel</a></h3>
+
   <p dir="auto">This is free software, but I accept donation.</p>
 
   <ul dir="auto">
