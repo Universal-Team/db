@@ -10,17 +10,17 @@ description: A clone of Wordle for the Nintendo DS(i)
 download_page: https://github.com/Epicpkmn11/WordleDS/releases
 downloads:
   WordleDS.cia:
-    size: 1097984
+    size: 1133312
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.2.0/WordleDS.cia
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.3.0/WordleDS.cia
   WordleDS.dsi:
-    size: 1083392
+    size: 1118720
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.2.0/WordleDS.dsi
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.3.0/WordleDS.dsi
   WordleDS.nds:
-    size: 1083392
+    size: 1118720
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.2.0/WordleDS.nds
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.3.0/WordleDS.nds
 github: Epicpkmn11/WordleDS
 icon: https://db.universal-team.net/assets/images/icons/wordle-ds.png
 icon_index: 201
@@ -48,33 +48,10 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>There are now the proper messages on winning instead of just a generic "Congratulations!"
+  <li>The keyboard keys have been made a bit larger</li>
 
-  <ul dir="auto">
-
-  <li>I was originally too lazy to add proper text rending but then I did it anyways
-  for the stats menu so there wasn''t a reason for that anymore</li>
-
-  <li>The loss message is still different since I really like the animation I did
-  for that ;P</li>
-
-  </ul>
-
-  </li>
-
-  <li>Proper Unicode handling
-
-  <ul dir="auto">
-
-  <li>Doesn''t affect English Wordle at all, but if anyone wants to modify this for
-  another language or such it''ll now be much easier; any European language should
-  be as simple as editing a couple images, the keyboard layout, and the word lists</li>
-
-  </ul>
-
-  </li>
-
-  <li>The current version number is now shown in the settings menu</li>
+  <li>A QR code with your latest game''s results can now be shown from the statistics
+  menu</li>
 
   </ul>
 
@@ -86,11 +63,11 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
   while the <code>.nds</code> build doesn''t so it works on flashcards. The <code>.cia</code>
   build can be used to install to the 3DS HOME Menu, here''s a QR:</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/156544809-7631253e-1372-4550-b06c-a06f258c96b1.png"><img
-  src="https://user-images.githubusercontent.com/41608708/156544809-7631253e-1372-4550-b06c-a06f258c96b1.png"
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/158723246-71a13710-7f5b-4cd0-b81b-585e38ce2b19.png"><img
+  src="https://user-images.githubusercontent.com/41608708/158723246-71a13710-7f5b-4cd0-b81b-585e38ce2b19.png"
   alt="QR code for WordleDS.cia" style="max-width: 100%;"></a></p>'
-updated: '2022-03-03T10:42:58Z'
-version: v1.2.0
-version_title: Proper win messages
+updated: '2022-03-17T02:15:47Z'
+version: v1.3.0
+version_title: Larger keyboard and QR codes
 ---
 A clone of [Wordle](https://www.nytimes.com/games/wordle/index.html) for the Nintendo DS(i). It features the same word each day as the official Wordle and has most of the same features including statistics tracking, high contrast and hard mode options, and even makes a txt file with a sharable emoji grid.
