@@ -23,6 +23,8 @@ if(sys.version_info.major != 3):
 	print("This is Python %d!\nPlease use Python 3!" % sys.version_info.major)
 	exit()
 
+DOWNLOAD_BLACKLIST = r"(\.nro|\.vpk|\.love|PS3|PSP|vita|switch|wii|osx|ubuntu|win|elf|\.xz|\.dmg|.exe|\.opk|\.appimage|\.apk|x86_64|armhf|macos|linux)"
+
 # Convert names to lowercase alphanumeric + underscore and hyphen
 def webName(name):
 	name = name.lower()
@@ -498,7 +500,7 @@ for app in source:
 				if "downloads" not in app:
 					app["downloads"] = {}
 				for asset in release["assets"]:
-					if not asset["name"] in app["downloads"] and (len(re.findall(app["download_filter"], asset["name"])) > 0 if "download_filter" in app else len(re.findall(r"(\.nro|\.vpk|\.love|PS3|PSP|vita|switch|wii|osx|ubuntu|win|elf|\.xz|\.dmg|\.opk|\.appimage|\.apk|x86_64|armhf)", asset["name"])) == 0):
+					if not asset["name"] in app["downloads"] and (len(re.findall(app["download_filter"], asset["name"])) > 0 if "download_filter" in app else len(re.findall(DOWNLOAD_BLACKLIST, asset["name"])) == 0):
 						app["downloads"][asset["name"]] = {
 							"url": asset["browser_download_url"],
 							"size": asset["size"],
@@ -539,7 +541,7 @@ for app in source:
 				if "downloads" not in app["prerelease"]:
 					app["prerelease"]["downloads"] = {}
 				for asset in prerelease["assets"]:
-					if not asset["name"] in app["prerelease"]["downloads"]:
+					if not asset["name"] in app["prerelease"]["downloads"] and (len(re.findall(app["download_filter"], asset["name"])) > 0 if "download_filter" in app else len(re.findall(DOWNLOAD_BLACKLIST, asset["name"])) == 0):
 						app["prerelease"]["downloads"][asset["name"]] = {
 							"url": asset["browser_download_url"],
 							"size": asset["size"],
