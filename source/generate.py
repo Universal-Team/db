@@ -25,6 +25,7 @@ if(sys.version_info.major != 3):
 
 DOWNLOAD_BLACKLIST = r"(\.nro|\.vpk|\.love|PS3|PSP|vita|switch|wii|osx|ubuntu|win|elf|\.xz|\.dmg|.exe|\.opk|\.appimage|\.apk|x86_64|armhf|macos|linux)"
 
+
 # Convert names to lowercase alphanumeric + underscore and hyphen
 def webName(name):
 	name = name.lower()
@@ -36,8 +37,10 @@ def webName(name):
 			out += "-"
 	return out
 
+
 def ucs2Name(string):
 	return "".join(list(filter(lambda c: ord(c) < 0xFFFF, string))).strip()
+
 
 # Convert names to lowercase alphanumeric + underscore and hyphen
 def byteCount(bytes):
@@ -55,6 +58,7 @@ def byteCount(bytes):
 	else:
 		return "%d GiB" % (bytes // (1 << 30))
 
+
 def downloadScript(file, url, message, archive):
 	script = []
 	archiveItem = [item for item in archive if re.findall(item, file)] if archive else None
@@ -67,7 +71,7 @@ def downloadScript(file, url, message, archive):
 				"message": f"Downloading {file}..."
 			}
 		]
-		
+
 		for item in archive[archiveItem[0]]:
 			if item[item.rfind(".") + 1:].lower() == "3dsx":
 				script.append({
@@ -241,8 +245,8 @@ def downloadScript(file, url, message, archive):
 
 	return script
 
+
 def saveIcon(img, tempDir, index, ds):
-	imgPal = None
 	if img.mode == "P":
 		pal = img.palette.palette
 		img = img.convert("RGBA")
@@ -272,6 +276,7 @@ def saveIcon(img, tempDir, index, ds):
 	color.thumbnail((1, 1))
 	color = color.getpixel((0, 0))
 	return img, f"#{color[0]:02x}{color[1]:02x}{color[2]:02x}"
+
 
 def retroarchUniStore():
 	print("Generating RetroArch UniStore")
@@ -325,7 +330,6 @@ def retroarchUniStore():
 		if "notes" in info:
 			notes += "### Notes\n" + info["notes"].replace("|", "\n")
 
-
 		retroarch["storeContent"].append({
 			"info": {
 				"title": ucs2Name(info["display_name"] if "name" in info else name),
@@ -358,6 +362,7 @@ def retroarchUniStore():
 	# Write unistore to file
 	with open(os.path.join("..", "docs", "unistore", "retroarch.unistore"), "w", encoding="utf8") as file:
 		file.write(json.dumps(retroarch, sort_keys=True, ensure_ascii=False))
+
 
 # Read json
 with open("source.json", "r", encoding="utf8") as file:
@@ -790,7 +795,7 @@ for app in source:
 		web.pop("scripts")
 	# Add defaults where absolutely needed
 	if "systems" not in web:
-		web["systems"] = ["3DS"] # default to 3DS
+		web["systems"] = ["3DS"]  # default to 3DS
 	if "updated" not in web:
 		web["updated"] = "---"
 	for system in web["systems"]:
