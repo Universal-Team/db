@@ -1160,36 +1160,6 @@
 		"icon": "https://raw.githubusercontent.com/mtheall/ftpd/master/meta/icon.png"
 	},
 	{
-		"github": "KunoichiZ/lumaupdate",
-		"systems": ["3DS"],
-		"categories": ["utility"],
-		"icon": "https://raw.githubusercontent.com/KunoichiZ/lumaupdate/master/meta/icon.png",
-		"autogen_scripts": true,
-		"scripts": {
-			"lumaupdater.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "KunoichiZ/lumaupdate",
-					"file": "lumaupdater.*\\.zip",
-					"output": "/lumaupdater.zip",
-					"message": "Downloading lumaupdater.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/lumaupdater.zip",
-					"input": "3ds/lumaupdater/lumaupdater.3dsx",
-					"output": "%3DSX%/lumaupdater.3dsx",
-					"message": "Extracting lumaupdater.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/lumaupdater.zip",
-					"message": "Deleting lumaupdater.zip..."
-				}
-			]
-		}
-	},
-	{
 		"github": "joel16/3DShell",
 		"systems": ["3DS"],
 		"categories": ["utility"],
