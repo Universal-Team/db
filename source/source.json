@@ -6423,7 +6423,8 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/MechanicalDragon0687/TWLFix-CFW/master/icon.png",
-		"icon": "https://raw.githubusercontent.com/MechanicalDragon0687/TWLFix-CFW/master/icon.png"
+		"icon": "https://raw.githubusercontent.com/MechanicalDragon0687/TWLFix-CFW/master/icon.png",
+		"long_description": "### Usage:\n1. copy `TWLFix-CFW.3dsx` to `SD:/3ds/`\n2. open homebrew launcher\n3. run TWLFix-CFW\n4. follow the on screen prompts.\n   - once complete, the app should reboot the 3ds.\n6. go to `settings -> other settings -> system update`"
 	},
 	{
 		"github": "SaturnSH2x2/Sonic-CD-11-Decompilation",
