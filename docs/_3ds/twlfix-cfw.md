@@ -53,3 +53,10 @@ updated: '2021-09-17T03:18:23Z'
 version: '1.3'
 version_title: 1.3.0
 ---
+### Usage:
+1. copy `TWLFix-CFW.3dsx` to `SD:/3ds/`
+2. open homebrew launcher
+3. run TWLFix-CFW
+4. follow the on screen prompts.
+   - once complete, the app should reboot the 3ds.
+6. go to `settings -> other settings -> system update`
