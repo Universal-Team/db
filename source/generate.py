@@ -61,83 +61,72 @@ def byteCount(bytes):
 
 def downloadScript(file, url, message, archive):
 	script = []
-	archiveItem = [item for item in archive if re.findall(item, file)] if archive else None
-	if archive and len(archiveItem) > 0:
+	if archive:
 		script = [
 			{
 				"type": "downloadFile",
 				"file": url,
-				"output": f"/{file}",
-				"message": f"Downloading {file}..."
+				"output": f"/{file}"
 			}
 		]
 
-		for item in archive[archiveItem[0]]:
+		for item in archive:
 			if item[item.rfind(".") + 1:].lower() == "3dsx":
 				script.append({
 					"type": "extractFile",
 					"file": f"/{file}",
 					"input": f"{item}",
-					"output": f"%3DSX%/{item[item.rfind('/') + 1:]}",
-					"message": f"Extracting {item[item.rfind('/') + 1:]}..."
+					"output": f"%3DSX%/{item[item.rfind('/') + 1:]}"
 				})
 			elif item[item.rfind(".") + 1:].lower() in ["nds", "dsi"]:
 				script.append({
 					"type": "extractFile",
 					"file": f"/{file}",
 					"input": f"{item}",
-					"output": f"%NDS%/{item[item.rfind('/') + 1:]}",
-					"message": f"Extracting {file}..."
+					"output": f"%NDS%/{item[item.rfind('/') + 1:]}"
 				})
 			elif item[item.rfind(".") + 1:].lower() == "cia":
 				script.append({
 					"type": "extractFile",
 					"file": f"/{file}",
 					"input": f"{item}",
-					"output": f"/{item[item.rfind('/') + 1:]}",
-					"message": f"Extracting {file}..."
+					"output": f"/{item[item.rfind('/') + 1:]}"
 				})
 
 				script.append({
 					"type": "installCia",
-					"file": f"/{item}",
-					"message": f"Installing {item}..."
+					"file": f"/{item[item.rfind('/') + 1:]}"
 				})
 
 				script.append({
 					"type": "deleteFile",
-					"file": f"/{item}",
-					"message": f"Deleting {item}..."
+					"file": f"/{item[item.rfind('/') + 1:]}"
 				})
 			elif item == "boot.firm":
 				script.append({
 					"type": "extractFile",
 					"file": f"/{file}",
 					"input": f"{item}",
-					"output": f"/{item[item.rfind('/') + 1:]}",
-					"message": f"Extracting {item[item.rfind('/') + 1:]}..."
+					"output": f"/{item[item.rfind('/') + 1:]}"
 				})
 			elif item[item.rfind(".") + 1:].lower() == "firm":
 				script.append({
 					"type": "extractFile",
 					"file": f"/{file}",
 					"input": f"{item}",
-					"output": f"%FIRM%/{item[item.rfind('/') + 1:]}",
-					"message": f"Extracting {item[item.rfind('/') + 1:]}..."
+					"output": f"%FIRM%/{item[item.rfind('/') + 1:]}"
 				})
 			else:
 				script.append({
 					"type": "extractFile",
 					"file": f"/{file}",
 					"input": f"{item}",
-					"output": f"/{item}",
-					"message": f"Extracting {item}..."
+					"output": f"/{item}"
 				})
 
 		script.append({
 			"type": "deleteFile",
-			"file": f"/{file}",
-			"message": f"Deleting {file}..."
+			"file": f"/{file}"
 		})
 	else:
 		if file[file.rfind(".") + 1:].lower() == "3dsx":
@@ -145,8 +134,7 @@ def downloadScript(file, url, message, archive):
 				{
 					"type": "downloadFile",
 					"file": url,
-					"output": f"%3DSX%/{file}",
-					"message": f"Downloading {file}..."
+					"output": f"%3DSX%/{file}"
 				}
 			]
 		elif file[file.rfind(".") + 1:].lower() in ["nds", "dsi"]:
@@ -154,8 +142,7 @@ def downloadScript(file, url, message, archive):
 				{
 					"type": "downloadFile",
 					"file": url,
-					"output": f"%NDS%/{file}",
-					"message": f"Downloading {file}..."
+					"output": f"%NDS%/{file}"
 				}
 			]
 		elif file[file.rfind(".") + 1:].lower() == "cia":
@@ -163,18 +150,15 @@ def downloadScript(file, url, message, archive):
 				{
 					"type": "downloadFile",
 					"file": url,
-					"output": f"/{file}",
-					"message": f"Downloading {file}..."
+					"output": f"/{file}"
 				},
 				{
 					"type": "installCia",
-					"file": f"/{file}",
-					"message": f"Installing {file}..."
+					"file": f"/{file}"
 				},
 				{
 					"type": "deleteFile",
-					"file": f"/{file}",
-					"message": f"Deleting {file}..."
+					"file": f"/{file}"
 				}
 			]
 		elif file == "boot.firm":
@@ -182,8 +166,7 @@ def downloadScript(file, url, message, archive):
 				{
 					"type": "downloadFile",
 					"file": url,
-					"output": f"/{file}",
-					"message": f"Downloading {file}..."
+					"output": f"/{file}"
 				}
 			]
 		elif file[file.rfind(".") + 1:].lower() == "firm":
@@ -191,8 +174,7 @@ def downloadScript(file, url, message, archive):
 				{
 					"type": "downloadFile",
 					"file": url,
-					"output": f"%FIRM%/{file}",
-					"message": f"Downloading {file}..."
+					"output": f"%FIRM%/{file}"
 				}
 			]
 		elif file[file.rfind(".") + 1:].lower() in ["zip", "7z", "rar"]:
@@ -200,20 +182,17 @@ def downloadScript(file, url, message, archive):
 				{
 					"type": "downloadFile",
 					"file": url,
-					"output": f"/{file}",
-					"message": f"Downloading {file}..."
+					"output": f"/{file}"
 				},
 				{
 					"type": "extractFile",
 					"file": f"/{file}",
 					"input": "",
-					"output": f"%ARCHIVE_DEFAULT%/{file[0:file.find('.')]}/",
-					"message": f"Extracting {file}..."
+					"output": f"%ARCHIVE_DEFAULT%/{file[0:file.find('.')]}/"
 				},
 				{
 					"type": "deleteFile",
-					"file": f"/{file}",
-					"message": f"Deleting {file}..."
+					"file": f"/{file}"
 				}
 			]
 		else:
@@ -221,8 +200,7 @@ def downloadScript(file, url, message, archive):
 				{
 					"type": "downloadFile",
 					"file": url,
-					"output": f"/{file}",
-					"message": f"Downloading {file}..."
+					"output": f"/{file}"
 				}
 			]
 
@@ -793,6 +771,8 @@ for app in source:
 		web.pop("update_notes_md")
 	if "scripts" in web:
 		web.pop("scripts")
+	if "archive" in web:
+		web.pop("archive")
 	# Add defaults where absolutely needed
 	if "systems" not in web:
 		web["systems"] = ["3DS"]  # default to 3DS
@@ -870,29 +850,44 @@ for app in source:
 		if "autogen_scripts" in app and app["autogen_scripts"] or "scripts" not in app:
 			if "downloads" in app:
 				for file in app["downloads"]:
-					if len(re.findall(r"\.(zip|rar|7z|torrent|tar)", file)) == 0 or ("archive" in app and len([item for item in app["archive"] if re.findall(item, file)])):
-						uni[app["archive"][file][0] if ("archive" in app and file in app["archive"]) else file] = {
-							"script": downloadScript(file, app["downloads"][file]["url"], app["script_message"] if "script_message" in app else None, app["archive"] if "archive" in app else None),
-							"size": byteCount(app["downloads"][file]["size"]) if "size" in app["downloads"][file] else "",
-						}
+					items = next((app["archive"][x] for x in app["archive"] if re.findall(x, file)), None) if "archive" in app else None
+					if len(re.findall(r"\.(zip|rar|7z|torrent|tar)", file)) == 0 or ("archive" in app and items):
+						if not items:
+							items = {file: None}
+
+						for item in items:
+							uni[item] = {
+								"script": downloadScript(file, app["downloads"][file]["url"], app["script_message"] if "script_message" in app else None, items[item]),
+								"size": byteCount(app["downloads"][file]["size"]) if "size" in app["downloads"][file] else "",
+							}
 
 			if "prerelease" in app:
 				for file in app["prerelease"]["downloads"]:
-					if len(re.findall(r"\.(zip|rar|7z|torrent|tar)", file)) == 0 or ("archive" in app and file in app["archive"]):
-						uni[f"[prerelease] {app['archive'][file][0] if ('archive' in app and file in app['archive']) else file}"] = {
-							"script": downloadScript(file, app["prerelease"]["downloads"][file]["url"], app["script_message"] if "script_message" in app else None, app["archive"] if "archive" in app else None),
-							"size": byteCount(app["prerelease"]["downloads"][file]["size"]) if "size" in app["prerelease"]["downloads"][file] else "",
-							"type": "prerelease"
-						}
+					items = next((app["archive"][x] for x in app["archive"] if re.findall(x, file)), None) if "archive" in app else None
+					if len(re.findall(r"\.(zip|rar|7z|torrent|tar)", file)) == 0 or ("archive" in app and items):
+						if not items:
+							items = {file: None}
+
+						for item in items:
+							uni[f"[prerelease] {item}"] = {
+								"script": downloadScript(file, app["prerelease"]["downloads"][file]["url"], app["script_message"] if "script_message" in app else None, items[item]),
+								"size": byteCount(app["prerelease"]["downloads"][file]["size"]) if "size" in app["prerelease"]["downloads"][file] else "",
+								"type": "prerelease"
+							}
 
 			if "nightly" in app:
 				for file in app["nightly"]["downloads"]:
-					if len(re.findall(r"\.(zip|rar|7z|torrent|tar)", file)) == 0 or ("archive" in app and file in app["archive"]):
-						uni[f"[nightly] {app['archive'][file][0] if ('archive' in app and file in app['archive']) else file}"] = {
-							"script": downloadScript(file, app["nightly"]["downloads"][file]["url"], app["script_message"] if "script_message" in app else None, app["archive"] if "archive" in app else None),
-							"size": byteCount(app["nightly"]["downloads"][file]["size"]) if "size" in app["nightly"]["downloads"][file] else "",
-							"type": "nightly"
-						}
+					items = next((app["archive"][x] for x in app["archive"] if re.findall(x, file)), None) if "archive" in app else None
+					if len(re.findall(r"\.(zip|rar|7z|torrent|tar)", file)) == 0 or ("archive" in app and items):
+						if not items:
+							items = {file: None}
+
+						for item in items:
+							uni[f"[nightly] {item}"] = {
+								"script": downloadScript(file, app["nightly"]["downloads"][file]["url"], app["script_message"] if "script_message" in app else None, items[item]),
+								"size": byteCount(app["nightly"]["downloads"][file]["size"]) if "size" in app["nightly"]["downloads"][file] else "",
+								"type": "nightly"
+							}
 
 		if app["title"] == "RetroArch":
 			uni["info"]["description"] += "\n\nCores must be downloaded from their separate UniStore, which can be added in settings."
