@@ -23,8 +23,7 @@ jobs:
     - name: Run generate.py
       run: |
         export PATH=$PATH:/opt/devkitpro/tools/bin
-        cd source
-        python3 generate.py ${{ secrets.GITHUB_TOKEN }} priority
+        python3 source/generate.py source/source.json docs --token ${{ secrets.GITHUB_TOKEN }} --priority
 
     - name: Pull origin
       run: git pull origin master --ff-only # Pull origin in case a commit has been done while updating

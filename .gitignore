@@ -7,5 +7,4 @@
 *.jekyll-metadata
 *Gemfile.lock
 
-source/temp
-source/temp_ra
+*temp/

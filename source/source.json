@@ -157,37 +157,31 @@
 					"type": "downloadRelease",
 					"repo": "Universal-Team/Relaunch",
 					"file": "Relaunch.7z",
-					"output": "/Relaunch.7z",
-					"message": "Downloading Relaunch.7z..."
+					"output": "/Relaunch.7z"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Relaunch.7z",
 					"input": "Relaunch/Relaunch.cia",
-					"output": "/Relaunch.cia",
-					"message": "Extracting Relaunch.cia..."
+					"output": "/Relaunch.cia"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Relaunch.7z",
 					"input": "Relaunch/_nds/Relaunch/menu.bin",
-					"output": "/_nds/Relaunch/menu.bin",
-					"message": "Extracting menu.bin..."
+					"output": "/_nds/Relaunch/menu.bin"
 				},
 				{
 					"type": "installCia",
-					"file": "/Relaunch.cia",
-					"message": "Installing Relaunch.cia..."
+					"file": "/Relaunch.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/Relaunch.cia",
-					"message": "Deleting Relaunch.cia..."
+					"file": "/Relaunch.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/Relaunch.7z",
-					"message": "Deleting Relaunch.7z..."
+					"file": "/Relaunch.7z"
 				}
 			],
 			"Relaunch.nds": [
@@ -195,27 +189,23 @@
 					"type": "downloadRelease",
 					"repo": "Universal-Team/Relaunch",
 					"file": "Relaunch.7z",
-					"output": "/Relaunch.7z",
-					"message": "Downloading Relaunch.7z..."
+					"output": "/Relaunch.7z"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Relaunch.7z",
 					"input": "Relaunch/Relaunch.nds",
-					"output": "%NDS%/Relaunch.nds",
-					"message": "Extracting Relaunch.nds..."
+					"output": "%NDS%/Relaunch.nds"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Relaunch.7z",
 					"input": "Relaunch/_nds/Relaunch/menu.bin",
-					"output": "/_nds/Relaunch/menu.bin",
-					"message": "Extracting menu.bin..."
+					"output": "/_nds/Relaunch/menu.bin"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/Relaunch.7z",
-					"message": "Deleting Relaunch.7z..."
+					"file": "/Relaunch.7z"
 				}
 			],
 			"[nightly] Relaunch.cia": {
@@ -224,37 +214,31 @@
 					{
 						"type": "downloadFile",
 						"file": "https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z",
-						"output": "/Relaunch.7z",
-						"message": "Downloading Relaunch.7z..."
+						"output": "/Relaunch.7z"
 					},
 					{
 						"type": "extractFile",
 						"file": "/Relaunch.7z",
 						"input": "Relaunch/Relaunch.cia",
-						"output": "/Relaunch.cia",
-						"message": "Extracting Relaunch.cia..."
+						"output": "/Relaunch.cia"
 					},
 					{
 						"type": "extractFile",
 						"file": "/Relaunch.7z",
 						"input": "Relaunch/_nds/Relaunch/menu.bin",
-						"output": "/_nds/Relaunch/menu.bin",
-						"message": "Extracting menu.bin..."
+						"output": "/_nds/Relaunch/menu.bin"
 					},
 					{
 						"type": "installCia",
-						"file": "/Relaunch.cia",
-						"message": "Installing Relaunch.cia..."
+						"file": "/Relaunch.cia"
 					},
 					{
 						"type": "deleteFile",
-						"file": "/Relaunch.cia",
-						"message": "Deleting Relaunch.cia..."
+						"file": "/Relaunch.cia"
 					},
 					{
 						"type": "deleteFile",
-						"file": "/Relaunch.7z",
-						"message": "Deleting Relaunch.7z..."
+						"file": "/Relaunch.7z"
 					}
 				]
 			},
@@ -264,27 +248,23 @@
 					{
 						"type": "downloadFile",
 						"file": "https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z",
-						"output": "/Relaunch.7z",
-						"message": "Downloading Relaunch.7z..."
+						"output": "/Relaunch.7z"
 					},
 					{
 						"type": "extractFile",
 						"file": "/Relaunch.7z",
 						"input": "Relaunch/Relaunch.nds",
-						"output": "%NDS%/Relaunch.nds",
-						"message": "Extracting Relaunch.nds..."
+						"output": "%NDS%/Relaunch.nds"
 					},
 					{
 						"type": "extractFile",
 						"file": "/Relaunch.7z",
 						"input": "Relaunch/_nds/Relaunch/menu.bin",
-						"output": "/_nds/Relaunch/menu.bin",
-						"message": "Extracting menu.bin..."
+						"output": "/_nds/Relaunch/menu.bin"
 					},
 					{
 						"type": "deleteFile",
-						"file": "/Relaunch.7z",
-						"message": "Deleting Relaunch.7z..."
+						"file": "/Relaunch.7z"
 					}
 				]
 			}
@@ -303,8 +283,7 @@
 					"type": "downloadRelease",
 					"repo": "Gericom/GBARunner2",
 					"file": "GBARunner2_arm7dldi_3ds.nds",
-					"output": "/_nds/GBARunner2_arm7dldi_3ds.nds",
-					"message": "Downloading GBARunner2_arm7dldi_3ds.nds..."
+					"output": "/_nds/GBARunner2_arm7dldi_3ds.nds"
 				}
 			]
 		}
@@ -331,37 +310,31 @@
 					"type": "downloadRelease",
 					"repo": "DS-Homebrew/GodMode9i",
 					"file": "GodMode9i.7z",
-					"output": "/GodMode9i.7z",
-					"message": "Downloading GodMode9i.7z..."
+					"output": "/GodMode9i.7z"
 				},
 				{
 					"type": "extractFile",
 					"file": "/GodMode9i.7z",
 					"input": "GodMode9i.nds",
-					"output": "/GodMode9i.nds",
-					"message": "Extracting GodMode9i.nds..."
+					"output": "/GodMode9i.nds"
 				},
 				{
 					"type": "extractFile",
 					"file": "/GodMode9i.7z",
 					"input": "GodMode9i.cia",
-					"output": "/GodMode9i.cia",
-					"message": "Extracting GodMode9i.cia..."
+					"output": "/GodMode9i.cia"
 				},
 				{
 					"type": "installCia",
-					"file": "/GodMode9i.cia",
-					"message": "Installing GodMode9i.cia..."
+					"file": "/GodMode9i.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/GodMode9i.cia",
-					"message": "Deleting GodMode9i.cia..."
+					"file": "/GodMode9i.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/GodMode9i.7z",
-					"message": "Deleting GodMode9i.7z..."
+					"file": "/GodMode9i.7z"
 				}
 			],
 			"GodMode9i.nds": [
@@ -369,20 +342,17 @@
 					"type": "downloadRelease",
 					"repo": "DS-Homebrew/GodMode9i",
 					"file": "GodMode9i.7z",
-					"output": "/GodMode9i.7z",
-					"message": "Downloading GodMode9i.7z..."
+					"output": "/GodMode9i.7z"
 				},
 				{
 					"type": "extractFile",
 					"file": "/GodMode9i.7z",
 					"input": "GodMode9i.nds",
-					"output": "%NDS%/GodMode9i.nds",
-					"message": "Extracting GodMode9i.nds..."
+					"output": "%NDS%/GodMode9i.nds"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/GodMode9i.7z",
-					"message": "Deleting GodMode9i.7z..."
+					"file": "/GodMode9i.7z"
 				}
 			],
 			"[nightly] GodMode9i.cia": {
@@ -391,37 +361,31 @@
 					{
 						"type": "downloadFile",
 						"file": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z",
-						"output": "/GodMode9i.7z",
-						"message": "Downloading GodMode9i.7z..."
+						"output": "/GodMode9i.7z"
 					},
 					{
 						"type": "extractFile",
 						"file": "/GodMode9i.7z",
 						"input": "GodMode9i/GodMode9i.nds",
-						"output": "/GodMode9i.nds",
-						"message": "Extracting GodMode9i.nds..."
+						"output": "/GodMode9i.nds"
 					},
 					{
 						"type": "extractFile",
 						"file": "/GodMode9i.7z",
 						"input": "GodMode9i/GodMode9i.cia",
-						"output": "/GodMode9i.cia",
-						"message": "Extracting GodMode9i.cia..."
+						"output": "/GodMode9i.cia"
 					},
 					{
 						"type": "installCia",
-						"file": "/GodMode9i.cia",
-						"message": "Installing GodMode9i.cia..."
+						"file": "/GodMode9i.cia"
 					},
 					{
 						"type": "deleteFile",
-						"file": "/GodMode9i.cia",
-						"message": "Deleting GodMode9i.cia..."
+						"file": "/GodMode9i.cia"
 					},
 					{
 						"type": "deleteFile",
-						"file": "/GodMode9i.7z",
-						"message": "Deleting GodMode9i.7z..."
+						"file": "/GodMode9i.7z"
 					}
 				]
 			},
@@ -431,20 +395,17 @@
 					{
 						"type": "downloadFile",
 						"file": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z",
-						"output": "/GodMode9i.7z",
-						"message": "Downloading GodMode9i.7z..."
+						"output": "/GodMode9i.7z"
 					},
 					{
 						"type": "extractFile",
 						"file": "/GodMode9i.7z",
 						"input": "GodMode9i/GodMode9i.nds",
-						"output": "%NDS%/GodMode9i.nds",
-						"message": "Extracting GodMode9i.nds..."
+						"output": "%NDS%/GodMode9i.nds"
 					},
 					{
 						"type": "deleteFile",
-						"file": "/GodMode9i.7z",
-						"message": "Deleting GodMode9i.7z..."
+						"file": "/GodMode9i.7z"
 					}
 				]
 			}
@@ -473,54 +434,46 @@
 				{
 					"type": "downloadFile",
 					"file": "https://db.universal-team.net/assets/files/DScraft_310811.7z",
-					"output": "/DScraft_310811.7z",
-					"message": "Downloading DScraft_310811.7z..."
+					"output": "/DScraft_310811.7z"
 				},
 				{
 					"type": "extractFile",
 					"file": "/DScraft_310811.7z",
 					"input": "DScraft.nds",
-					"output": "%NDS%/DScraft.nds",
-					"message": "Extracting DScraft.nds..."
+					"output": "%NDS%/DScraft.nds"
 				},
 				{
 					"type": "extractFile",
 					"file": "/DScraft_310811.7z",
 					"input": "dscraft/",
-					"output": "%NDS%/dscraft/",
-					"message": "Extracting dscraft..."
+					"output": "%NDS%/dscraft/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/DScraft_310811.7z",
-					"message": "Deleting DScraft_310811.7z..."
+					"file": "/DScraft_310811.7z"
 				}
 			],
 			"DScraft_fat.nds": [
 				{
 					"type": "downloadFile",
 					"file": "https://db.universal-team.net/assets/files/DScraft_fat_310811.7z",
-					"output": "/DScraft_fat_310811.7z",
-					"message": "Downloading DScraft_fat_310811.7z..."
+					"output": "/DScraft_fat_310811.7z"
 				},
 				{
 					"type": "extractFile",
 					"file": "/DScraft_fat_310811.7z",
 					"input": "DScraft_fat.nds",
-					"output": "%NDS%/DScraft_fat.nds",
-					"message": "Extracting DScraft_fat.nds..."
+					"output": "%NDS%/DScraft_fat.nds"
 				},
 				{
 					"type": "extractFile",
 					"file": "/DScraft_fat_310811.7z",
 					"input": "dscraft",
-					"output": "/dscraft/",
-					"message": "Extracting dscraft..."
+					"output": "/dscraft/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/DScraft_fat_310811.7z",
-					"message": "Deleting DScraft_fat_310811.7z..."
+					"file": "/DScraft_fat_310811.7z"
 				}
 			]
 		}
@@ -536,27 +489,23 @@
 					"type": "downloadRelease",
 					"repo": "smealum/portalDS",
 					"file": "ASDS.*\\.zip",
-					"output": "/ASDS.zip",
-					"message": "Downloading ASDS.zip..."
+					"output": "/ASDS.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/ASDS.zip",
 					"input": "portalDS.nds",
-					"output": "%NDS%/portalDS.nds",
-					"message": "Extracting portalDS.nds..."
+					"output": "%NDS%/portalDS.nds"
 				},
 				{
 					"type": "extractFile",
 					"file": "/ASDS.zip",
 					"input": "asds/",
-					"output": "%NDS%/asds/",
-					"message": "Extracting asds..."
+					"output": "%NDS%/asds/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/ASDS.zip",
-					"message": "Deleting ASDS.zip..."
+					"file": "/ASDS.zip"
 				}
 			]
 		}
@@ -572,31 +521,26 @@
 					"type": "downloadRelease",
 					"repo": "rhaleblian/dslibris",
 					"file": "dslibris.*\\.zip",
-					"output": "/dslibris.zip",
-					"message": "Downloading dslibris.zip..."
+					"output": "/dslibris.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/dslibris.zip",
 					"input": "",
-					"output": "/",
-					"message": "Extracting dslibris..."
+					"output": "/"
 				},
 				{
 					"type": "move",
 					"old": "/dslibris.nds",
-					"new": "%NDS%/dslibris.nds",
-					"message": "Moving dslibris.nds..."
+					"new": "%NDS%/dslibris.nds"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/INSTALL.txt",
-					"message": "Deleting INSTALL.txt..."
+					"file": "/INSTALL.txt"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/dslibris.zip",
-					"message": "Deleting dslibris.zip..."
+					"file": "/dslibris.zip"
 				}
 			]
 		}
@@ -624,15 +568,13 @@
 				{
 					"type": "downloadFile",
 					"file": "https://db.universal-team.net/assets/files/Colors110ds.zip",
-					"output": "/Colors110ds.zip",
-					"message": "Downloading Colors110ds.zip..."
+					"output": "/Colors110ds.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Colors110ds.zip",
 					"input": "Colors.nds",
-					"output": "%NDS%/Colors.nds",
-					"message": "Extracting Colors.nds..."
+					"output": "%NDS%/Colors.nds"
 				},
 				{
 					"type": "promptMessage",
@@ -643,33 +585,28 @@
 					"type": "extractFile",
 					"file": "/Colors110ds.zip",
 					"input": "ColorsMagazine_1.col",
-					"output": "%NDS%/ColorsMagazine_1.col",
-					"message": "Extracting ColorsMagazine_1.col..."
+					"output": "%NDS%/ColorsMagazine_1.col"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/Colors110ds.zip",
-					"message": "Deleting Colors110ds.zip..."
+					"file": "/Colors110ds.zip"
 				}
 			],
 			"[v1.1b beta2] Colors.nds": [
 				{
 					"type": "downloadFile",
 					"file": "https://db.universal-team.net/assets/files/colors_1_10bbeta2.zip",
-					"output": "/colors_1_10bbeta2.zip",
-					"message": "Downloading colors_1_10bbeta2.zip..."
+					"output": "/colors_1_10bbeta2.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/colors_1_10bbeta2.zip",
 					"input": "Colors.nds",
-					"output": "%NDS%/Colors.nds",
-					"message": "Extracting Colors.nds..."
+					"output": "%NDS%/Colors.nds"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/colors_1_10bbeta2.zip",
-					"message": "Deleting colors_1_10bbeta2.zip..."
+					"file": "/colors_1_10bbeta2.zip"
 				}
 			]
 		}
@@ -690,27 +627,10 @@
 		"version": "c633295",
 		"systems": ["DS"],
 		"updated": "2020-04-09T16:23:00Z",
-		"scripts": {
-			"MPEG4Player.nds": [
-				{
-					"type": "downloadFile",
-					"file": "https://gbatemp.net/attachments/mpeg4player-nds-zip.203629/",
-					"output": "/MPEG4Player.nds.zip",
-					"message": "Downloading MPEG4Player.nds.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/MPEG4Player.nds.zip",
-					"input": "MPEG4Player.nds",
-					"output": "%NDS%/MPEG4Player.nds",
-					"message": "Extracting MPEG4Player.nds..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/MPEG4Player.nds.zip",
-					"message": "Deleting MPEG4Player.nds.zip..."
-				}
-			]
+		"archive": {
+			"MPEG4Player.nds.zip": {
+				"MPEG4Player.nds": ["MPEG4Player.nds"]
+			}
 		}
 	},
 	{
@@ -736,63 +656,9 @@
 				}
 			}
 		},
-		"autogen_scripts": true,
-		"scripts": {
-			"[nightly] nesDS.cia": {
-				"type": "nightly",
-				"script": [
-					{
-						"type": "downloadFile",
-						"file": "https://github.com/TWLBot/Builds/raw/master/extras/nesDS.7z",
-						"output": "/nesDS.7z",
-						"message": "Downloading nesDS.7z..."
-					},
-					{
-						"type": "extractFile",
-						"file": "/nesDS.7z",
-						"input": "nesDS/nesDS.cia",
-						"output": "/nesDS.cia",
-						"message": "Extracting nesDS.cia..."
-					},
-					{
-						"type": "installCia",
-						"file": "/nesDS.cia",
-						"message": "Installing nesDS.cia..."
-					},
-					{
-						"type": "deleteFile",
-						"file": "/nesDS.cia",
-						"message": "Deleting nesDS.cia..."
-					},
-					{
-						"type": "deleteFile",
-						"file": "/nesDS.7z",
-						"message": "Deleting nesDS.7z..."
-					}
-				]
-			},
-			"[nightly] nesDS.nds": {
-				"type": "nightly",
-				"script": [
-					{
-						"type": "downloadFile",
-						"file": "https://github.com/TWLBot/Builds/raw/master/extras/nesDS.7z",
-						"output": "/nesDS.7z",
-						"message": "Downloading nesDS.7z..."
-					},
-					{
-						"type": "extractFile",
-						"file": "/nesDS.7z",
-						"input": "nesDS/nesDS.nds",
-						"output": "%NDS%/nesDS.nds",
-						"message": "Extracting nesDS.nds..."
-					},
-					{
-						"type": "deleteFile",
-						"file": "/nesDS.7z",
-						"message": "Deleting nesDS.7z..."
-					}
-				]
+		"archive": {
+			"nesDS.7z": {
+				"nesDS.cia": ["nesDS/nesDS.cia"]
 			}
 		}
 	},
@@ -818,49 +684,12 @@
 				}
 			}
 		},
-		"scripts": {
-			"lolSnes.nds": [
-				{
-					"type": "downloadFile",
-					"file": "http://lolsnes.kuribo64.net/lolsnes.7z",
-					"output": "/lolsnes.7z",
-					"message": "Downloading lolsnes.7z..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/lolsnes.7z",
-					"input": "lolsnes/lolSnes.nds",
-					"output": "%NDS%/lolSnes.nds",
-					"message": "Extracting lolSnes.nds..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/lolsnes.7z",
-					"message": "Deleting lolsnes.7z..."
-				}
-			],
-			"[nightly] lolSnes.nds": {
-				"type": "nightly",
-				"script": [
-					{
-						"type": "downloadFile",
-						"file": "http://lolsnes.kuribo64.net/gitbuilds/git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip",
-						"output": "/lolsnes.zip",
-						"message": "Downloading lolsnes zip..."
-					},
-					{
-						"type": "extractFile",
-						"file": "/lolsnes.zip",
-						"input": "lolSnes.nds",
-						"output": "%NDS%/lolSnes.nds",
-						"message": "Extracting lolSnes.nds..."
-					},
-					{
-						"type": "deleteFile",
-						"file": "/lolsnes.zip",
-						"message": "Deleting lolsnes.zip..."
-					}
-				]
+		"archive": {
+			"lolsnes.7z": {
+				"lolSnes.nds": ["lolsnes/lolSnes.nds"]
+			},
+			"git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip": {
+				"lolSnes.nds": ["lolSnes.nds"]
 			}
 		}
 	},
@@ -935,27 +764,10 @@
 		"author": "Lordus",
 		"systems": ["DS"],
 		"description": "A Sega Genesis/MegaDrive emulator for the Nintendo DS",
-		"scripts": {
-			"jEnesisDS.nds": [
-				{
-					"type": "downloadFile",
-					"file": "https://db.universal-team.net/assets/files/JEnesisDS0174.zip",
-					"output": "/JEnesisDS0174.zip",
-					"message": "Downloading JEnesisDS0174.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/JEnesisDS0174.zip",
-					"input": "jEnesisDS.nds",
-					"output": "%NDS%/jEnesisDS.nds",
-					"message": "Extracting jEnesisDS.nds..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/JEnesisDS0174.zip",
-					"message": "Deleting JEnesisDS0174.zip..."
-				}
-			]
+		"archive": {
+			"JEnesisDS0174.zip": {
+				"jEnesisDS.nds": ["jEnesisDS.nds"]
+			}
 		}
 	},
 	{
@@ -1013,59 +825,11 @@
 		"icon": "https://raw.githubusercontent.com/Drenn1/GameYob/master/platform/ds/icon.bmp",
 		"systems": ["DS"],
 		"categories": ["emulator"],
-		"scripts": {
-			"GameYob.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "Drenn1/GameYob",
-					"file": "gameyob.zip",
-					"output": "/gameyob.zip",
-					"message": "Downloading gameyob.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/gameyob.zip",
-					"input": "gameyob.cia",
-					"output": "/gameyob.cia",
-					"message": "Extracting gameyob.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/gameyob.cia",
-					"message": "Installing gameyob.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/gameyob.cia",
-					"message": "Deleting gameyob.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/gameyob.zip",
-					"message": "Deleting gameyob.zip..."
-				}
-			],
-			"GameYob.nds": [
-				{
-					"type": "downloadRelease",
-					"repo": "Drenn1/GameYob",
-					"file": "gameyob.zip",
-					"output": "/gameyob.zip",
-					"message": "Downloading gameyob.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/gameyob.zip",
-					"input": "gameyob.nds",
-					"output": "%NDS%/gameyob.nds",
-					"message": "Extracting gameyob.nds..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/gameyob.zip",
-					"message": "Deleting gameyob.zip..."
-				}
-			]
+		"archive": {
+			"gameyob.zip": {
+				"GameYob.cia": ["GameYob.cia"],
+				"GameYob.nds": ["GameYob.nds"]
+			}
 		}
 	},
 	{
@@ -1097,59 +861,11 @@
 		"icon": "https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-48.png",
 		"eval_notes_md": true,
 		"update_notes_md": "re.sub('^([^ ])', '\\n### \\\\1', re.findall(f\"{app['version']}:[^\\\\n]*\\\\n(.*?)\\\\n\\\\n[0-9]+\\\\.[0-9]+\\\\.[0-9]+:\", requests.get('https://raw.githubusercontent.com/mgba-emu/mgba/master/CHANGES').text, re.DOTALL)[0], flags=re.MULTILINE)",
-		"scripts": {
-			"mgba.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "mgba-emu/mgba",
-					"file": "mGBA-.*-3ds.7z",
-					"output": "/mGBA.7z",
-					"message": "Downloading mGBA.7z..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/mGBA.7z",
-					"input": "mGBA-.*-3ds/cia/mgba.cia",
-					"output": "/mgba.cia",
-					"message": "Extracting mgba.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/mgba.cia",
-					"message": "Installing mgba.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/mgba.cia",
-					"message": "Deleting mgba.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/mGBA.7z",
-					"message": "Deleting mGBA.7z..."
-				}
-			],
-			"mgba.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "mgba-emu/mgba",
-					"file": "mGBA-.*-3ds.7z",
-					"output": "/mGBA.7z",
-					"message": "Downloading mGBA.7z..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/mGBA.7z",
-					"input": "mGBA-.*-3ds/3dsx/mgba.3dsx",
-					"output": "/mgba.3dsx",
-					"message": "Extracting mgba.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/mGBA.7z",
-					"message": "Deleting mGBA.7z..."
-				}
-			]
+		"archive": {
+			"mGBA-.*-3ds.7z": {
+				"mgba.cia": ["mGBA-.*-3ds/cia/mgba.cia"],
+				"mgba.3dsx": ["mGBA-.*-3ds/3dsx/mgba.3dsx"]
+			}
 		}
 	},
 	{
@@ -1179,29 +895,10 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/Trinitro21/lpp-3ds/sbfm/icon.png",
-		"autogen_scripts": true,
-		"scripts": {
-			"sbfm.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "Trinitro21/lpp-3ds",
-					"file": "sbfm.zip",
-					"output": "/sbfm.zip",
-					"message": "Downloading sbfm.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/sbfm.zip",
-					"input": "sbfm.3dsx",
-					"output": "%3DSX%/sbfm.3dsx",
-					"message": "Extracting sbfm.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/sbfm.zip",
-					"message": "Deleting sbfm.zip..."
-				}
-			]
+		"archive": {
+			"sbfm.zip": {
+				"sbfm.3dsx": ["sbfm.3dsx"]
+			}
 		}
 	},
 	{
@@ -1211,68 +908,67 @@
 		"image": "https://raw.githubusercontent.com/elhobbs/prboom3ds/master/banner.png",
 		"icon": "https://raw.githubusercontent.com/elhobbs/prboom3ds/master/prboom3ds.png",
 		"scripts": {
-			"prboom3ds.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "elhobbs/prboom3ds",
-					"file": "prboom3ds.3dsx",
-					"output": "%3DSX%/prboom3ds.3dsx",
-					"message": "Downloading prboom3ds.3dsx...",
-					"includePrereleases": true
-				},
-				{
-					"type": "downloadRelease",
-					"repo": "elhobbs/prboom3ds",
-					"file": "prboom3ds.smdh",
-					"output": "/3ds/prboom3ds/prboom3ds.smdh",
-					"message": "Downloading prboom3ds.smdh...",
-					"includePrereleases": true
-				},
-				{
-					"type": "downloadRelease",
-					"repo": "elhobbs/prboom3ds",
-					"file": "prboom.wad",
-					"output": "/3ds/prboom3ds/prboom.wad",
-					"message": "Downloading prboom.wad...",
-					"includePrereleases": true
-				},
-				{
-					"type": "promptMessage",
-					"message": "You will need to put Doom WAD files in\n\"sdmc:/3ds/prboom3ds/\" to play them."
-				}
-			],
-			"prboom3ds.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "elhobbs/prboom3ds",
-					"file": "prboom3ds.cia",
-					"output": "/prboom3ds.cia",
-					"message": "Downloading prboom3ds.cia...",
-					"includePrereleases": true
-				},
-				{
-					"type": "downloadRelease",
-					"repo": "elhobbs/prboom3ds",
-					"file": "prboom.wad",
-					"output": "sdmc:/3ds/prboom3ds/prboom.wad",
-					"message": "Downloading prboom.wad...",
-					"includePrereleases": true
-				},
-				{
-					"type": "installCia",
-					"file": "/prboom3ds.cia",
-					"message": "Installing prboom3ds.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/prboom3ds.cia",
-					"message": "Deleting prboom3ds.cia..."
-				},
-				{
-					"type": "promptMessage",
-					"message": "You will need to put Doom WAD files in\n\"sdmc:/3ds/prboom3ds/\" to play them."
-				}
-			]
+			"[prerelease] prboom3ds.3dsx": {
+				"type": "prerelease",
+				"script": [
+					{
+						"type": "downloadRelease",
+						"repo": "elhobbs/prboom3ds",
+						"file": "prboom3ds.3dsx",
+						"output": "%3DSX%/prboom3ds.3dsx",
+						"includePrereleases": true
+					},
+					{
+						"type": "downloadRelease",
+						"repo": "elhobbs/prboom3ds",
+						"file": "prboom3ds.smdh",
+						"output": "/3ds/prboom3ds/prboom3ds.smdh",
+						"includePrereleases": true
+					},
+					{
+						"type": "downloadRelease",
+						"repo": "elhobbs/prboom3ds",
+						"file": "prboom.wad",
+						"output": "/3ds/prboom3ds/prboom.wad",
+						"includePrereleases": true
+					},
+					{
+						"type": "promptMessage",
+						"message": "You will need to put Doom WAD files in\n\"sdmc:/3ds/prboom3ds/\" to play them."
+					}
+				]
+			},
+			"[prerelease] prboom3ds.cia": {
+				"type": "prerelease",
+				"script": [
+					{
+						"type": "downloadRelease",
+						"repo": "elhobbs/prboom3ds",
+						"file": "prboom3ds.cia",
+						"output": "/prboom3ds.cia",
+						"includePrereleases": true
+					},
+					{
+						"type": "downloadRelease",
+						"repo": "elhobbs/prboom3ds",
+						"file": "prboom.wad",
+						"output": "sdmc:/3ds/prboom3ds/prboom.wad",
+						"includePrereleases": true
+					},
+					{
+						"type": "installCia",
+						"file": "/prboom3ds.cia"
+					},
+					{
+						"type": "deleteFile",
+						"file": "/prboom3ds.cia"
+					},
+					{
+						"type": "promptMessage",
+						"message": "You will need to put Doom WAD files in\n\"sdmc:/3ds/prboom3ds/\" to play them."
+					}
+				]
+			}
 		}
 	},
 	{
@@ -1306,15 +1002,13 @@
 					"type": "downloadRelease",
 					"repo": "MechanicalDragon0687/GYTB",
 					"file": "GYTB_hax.zip",
-					"output": "/GYTB_hax.zip",
-					"message": "Downloading GYTB_hax.zip..."
+					"output": "/GYTB_hax.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/GYTB_hax.zip",
 					"input": "",
-					"output": "/",
-					"message": "Extracting GYTB..."
+					"output": "/"
 				},
 				{
 					"type": "move",
@@ -1323,8 +1017,7 @@
 				},
 				{
 					"type": "deleteFile",
-					"file": "/GYTB_hax.zip",
-					"message": "Deleting GYTB_hax.zip..."
+					"file": "/GYTB_hax.zip"
 				}
 			]
 		}
@@ -1380,8 +1073,7 @@
 				{
 					"type": "downloadFile",
 					"file": "https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_MOKTAR_CIA_25-12-2018.7z",
-					"output": "/OpenTitus.7z",
-					"message": "Downloading OpenTitus 7z..."
+					"output": "/OpenTitus.7z"
 				},
 				{
 					"type": "skip",
@@ -1391,30 +1083,25 @@
 					"type": "downloadRelease",
 					"repo": "MrHuu/opentitus-3ds",
 					"file": "OpenTitus_MOKTAR.*\\.7z",
-					"output": "/OpenTitus.7z",
-					"message": "Downloading OpenTitus 7z..."
+					"output": "/OpenTitus.7z"
 				},
 				{
 					"type": "extractFile",
 					"file": "/OpenTitus.7z",
 					"input": "OpenTitus/",
-					"output": "/3ds/OpenTitus/",
-					"message": "Extracting OpenTitus..."
+					"output": "/3ds/OpenTitus/"
 				},
 				{
 					"type": "installCia",
-					"file": "/3ds/OpenTitus/OpenTitus.cia",
-					"message": "Installing OpenTitus.cia..."
+					"file": "/3ds/OpenTitus/OpenTitus.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/3ds/OpenTitus/OpenTitus.cia",
-					"message": "Deleting OpenTitus.cia..."
+					"file": "/3ds/OpenTitus/OpenTitus.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/OpenTitus.7z",
-					"message": "Deleting OpenTitus.7z..."
+					"file": "/OpenTitus.7z"
 				},
 				{
 					"type": "promptMessage",
@@ -1430,8 +1117,7 @@
 				{
 					"type": "downloadFile",
 					"file": "https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_MOKTAR_3DSX_23-12-2018.7z",
-					"output": "/OpenTitus.7z",
-					"message": "Downloading OpenTitus 7z..."
+					"output": "/OpenTitus.7z"
 				},
 				{
 					"type": "skip",
@@ -1441,26 +1127,22 @@
 					"type": "downloadRelease",
 					"repo": "MrHuu/opentitus-3ds",
 					"file": "OpenTitus_MOKTAR.*\\.7z",
-					"output": "/OpenTitus.7z",
-					"message": "Downloading OpenTitus 7z..."
+					"output": "/OpenTitus.7z"
 				},
 				{
 					"type": "extractFile",
 					"file": "/OpenTitus.7z",
 					"input": "OpenTitus/",
-					"output": "/3ds/OpenTitus/",
-					"message": "Extracting OpenTitus..."
+					"output": "/3ds/OpenTitus/"
 				},
 				{
 					"type": "move",
 					"old": "/3ds/OpenTitus/OpenTitus.3dsx",
-					"new": "%3DSX%/OpenTitus.3dsx",
-					"message": "Moving OpenTitus.3dsx..."
+					"new": "%3DSX%/OpenTitus.3dsx"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/OpenTitus.7z",
-					"message": "Deleting OpenTitus.7z..."
+					"file": "/OpenTitus.7z"
 				},
 				{
 					"type": "promptMessage",
@@ -1476,8 +1158,7 @@
 				{
 					"type": "downloadFile",
 					"file": "https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_TITUS_CIA_25-12-2018.7z",
-					"output": "/OpenTitus.7z",
-					"message": "Downloading OpenTitus 7z..."
+					"output": "/OpenTitus.7z"
 				},
 				{
 					"type": "skip",
@@ -1487,30 +1168,25 @@
 					"type": "downloadRelease",
 					"repo": "MrHuu/opentitus-3ds",
 					"file": "OpenTitus_TITUS.*\\.7z",
-					"output": "/OpenTitus.7z",
-					"message": "Downloading OpenTitus 7z..."
+					"output": "/OpenTitus.7z"
 				},
 				{
 					"type": "extractFile",
 					"file": "/OpenTitus.7z",
 					"input": "OpenTitus/",
-					"output": "/3ds/OpenTitus/",
-					"message": "Extracting OpenTitus..."
+					"output": "/3ds/OpenTitus/"
 				},
 				{
 					"type": "installCia",
-					"file": "/3ds/OpenTitus/OpenTitus.cia",
-					"message": "Installing OpenTitus.cia..."
+					"file": "/3ds/OpenTitus/OpenTitus.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/3ds/OpenTitus/OpenTitus.cia",
-					"message": "Deleting OpenTitus.cia..."
+					"file": "/3ds/OpenTitus/OpenTitus.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/OpenTitus.7z",
-					"message": "Deleting OpenTitus.7z..."
+					"file": "/OpenTitus.7z"
 				},
 				{
 					"type": "promptMessage",
@@ -1526,8 +1202,7 @@
 				{
 					"type": "downloadFile",
 					"file": "https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_TITUS_3DSX_23-12-2018.7z",
-					"output": "/OpenTitus.7z",
-					"message": "Downloading OpenTitus 7z..."
+					"output": "/OpenTitus.7z"
 				},
 				{
 					"type": "skip",
@@ -1537,26 +1212,22 @@
 					"type": "downloadRelease",
 					"repo": "MrHuu/opentitus-3ds",
 					"file": "OpenTitus_TITUS.*\\.7z",
-					"output": "/OpenTitus.7z",
-					"message": "Downloading OpenTitus 7z..."
+					"output": "/OpenTitus.7z"
 				},
 				{
 					"type": "extractFile",
 					"file": "/OpenTitus.7z",
 					"input": "OpenTitus/",
-					"output": "/3ds/OpenTitus/",
-					"message": "Extracting OpenTitus..."
+					"output": "/3ds/OpenTitus/"
 				},
 				{
 					"type": "move",
 					"old": "/3ds/OpenTitus/OpenTitus.3dsx",
-					"new": "%3DSX%/OpenTitus.3dsx",
-					"message": "Moving OpenTitus.3dsx..."
+					"new": "%3DSX%/OpenTitus.3dsx"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/OpenTitus.7z",
-					"message": "Deleting OpenTitus.7z..."
+					"file": "/OpenTitus.7z"
 				},
 				{
 					"type": "promptMessage",
@@ -1639,29 +1310,10 @@
 		"categories": ["utility", "save-tool"],
 		"image": "https://raw.githubusercontent.com/noirscape/SRAU/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/noirscape/SRAU/master/meta/icon.png",
-		"autogen_scripts": true,
-		"scripts": {
-			"SRAU.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "noirscape/SRAU",
-					"file": "SRAU.7z",
-					"output": "/SRAU.7z",
-					"message": "Downloading SRAU.7z..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/SRAU.7z",
-					"input": "SRAU.3dsx",
-					"output": "%3DSX%/SRAU.3dsx",
-					"message": "Extracting SRAU.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/SRAU.7z",
-					"message": "Deleting SRAU.7z..."
-				}
-			]
+		"archive": {
+			"SRAU.7z": {
+				"SRAU.3dsx": ["SRAU.3dsx"]
+			}
 		}
 	},
 	{
@@ -1676,37 +1328,31 @@
 					"type": "downloadRelease",
 					"repo": "bubble2k16/snes9x_3ds",
 					"file": "snes9x_3ds.*\\.zip",
-					"output": "/snes9x_3ds.zip",
-					"message": "Downloading snes9x_3ds.zip..."
+					"output": "/snes9x_3ds.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/snes9x_3ds.zip",
 					"input": "snes9x_3ds.cia",
-					"output": "/snes9x_3ds.cia",
-					"message": "Extracting snes9x_3ds.cia..."
+					"output": "/snes9x_3ds.cia"
 				},
 				{
 					"type": "extractFile",
 					"file": "/snes9x_3ds.zip",
 					"input": "snes9x_3ds_top.png",
-					"output": "/3ds/snes9x_3ds/snes9x_3ds_top.png",
-					"message": "Extracting snes9x_3ds_top.png..."
+					"output": "/3ds/snes9x_3ds/snes9x_3ds_top.png"
 				},
 				{
 					"type": "installCia",
-					"file": "/snes9x_3ds.cia",
-					"message": "Installing snes9x_3ds.cia..."
+					"file": "/snes9x_3ds.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/snes9x_3ds.cia",
-					"message": "Deleting snes9x_3ds.cia..."
+					"file": "/snes9x_3ds.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/snes9x_3ds.zip",
-					"message": "Deleting snes9x_3ds.zip..."
+					"file": "/snes9x_3ds.zip"
 				}
 			],
 			"snes9x_3ds.3dsx": [
@@ -1714,27 +1360,23 @@
 					"type": "downloadRelease",
 					"repo": "bubble2k16/snes9x_3ds",
 					"file": "snes9x_3ds.*\\.zip",
-					"output": "/snes9x_3ds.zip",
-					"message": "Downloading snes9x_3ds.zip..."
+					"output": "/snes9x_3ds.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/snes9x_3ds.zip",
 					"input": "snes9x_3ds.3dsx",
-					"output": "%3DSX%/snes9x_3ds.3dsx",
-					"message": "Extracting snes9x_3ds.3dsx..."
+					"output": "%3DSX%/snes9x_3ds.3dsx"
 				},
 				{
 					"type": "extractFile",
 					"file": "/snes9x_3ds.zip",
 					"input": "snes9x_3ds_top.png",
-					"output": "/3ds/snes9x_3ds/snes9x_3ds_top.png",
-					"message": "Extracting snes9x_3ds_top.png..."
+					"output": "/3ds/snes9x_3ds/snes9x_3ds_top.png"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/snes9x_3ds.zip",
-					"message": "Deleting snes9x_3ds.zip..."
+					"file": "/snes9x_3ds.zip"
 				}
 			]
 		}
@@ -1752,37 +1394,31 @@
 					"type": "downloadRelease",
 					"repo": "bubble2k16/emus3ds",
 					"file": "virtuanes_3ds.*\\.zip",
-					"output": "/virtuanes_3ds.zip",
-					"message": "Downloading virtuanes_3ds zip..."
+					"output": "/virtuanes_3ds.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/virtuanes_3ds.zip",
 					"input": "virtuanes_3ds.cia",
-					"output": "/virtuanes_3ds.cia",
-					"message": "Extracting virtuanes_3ds.cia..."
+					"output": "/virtuanes_3ds.cia"
 				},
 				{
 					"type": "extractFile",
 					"file": "/virtuanes_3ds.zip",
 					"input": "virtuanes_3ds_top.png",
-					"output": "/3ds/virtuanes_3ds/virtuanes_3ds_top.png",
-					"message": "Extracting virtuanes_3ds_top.png..."
+					"output": "/3ds/virtuanes_3ds/virtuanes_3ds_top.png"
 				},
 				{
 					"type": "installCia",
-					"file": "/virtuanes_3ds.cia",
-					"message": "Installing virtuanes_3ds.cia..."
+					"file": "/virtuanes_3ds.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/virtuanes_3ds.cia",
-					"message": "Deleting virtuanes_3ds.cia..."
+					"file": "/virtuanes_3ds.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/virtuanes_3ds.zip",
-					"message": "Deleting virtuanes_3ds.zip..."
+					"file": "/virtuanes_3ds.zip"
 				}
 			],
 			"virtuanes_3ds.3dsx": [
@@ -1790,27 +1426,23 @@
 					"type": "downloadRelease",
 					"repo": "bubble2k16/emus3ds",
 					"file": "virtuanes_3ds.*\\.zip",
-					"output": "/virtuanes_3ds.zip",
-					"message": "Downloading virtuanes_3ds zip..."
+					"output": "/virtuanes_3ds.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/virtuanes_3ds.zip",
 					"input": "virtuanes_3ds.3dsx",
-					"output": "%3DSX%/virtuanes_3ds.3dsx",
-					"message": "Extracting virtuanes_3ds.3dsx..."
+					"output": "%3DSX%/virtuanes_3ds.3dsx"
 				},
 				{
 					"type": "extractFile",
 					"file": "/virtuanes_3ds.zip",
 					"input": "virtuanes_3ds_top.png",
-					"output": "/3ds/virtuanes_3ds/virtuanes_3ds_top.png",
-					"message": "Extracting virtuanes_3ds_top.png..."
+					"output": "/3ds/virtuanes_3ds/virtuanes_3ds_top.png"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/virtuanes_3ds.zip",
-					"message": "Deleting virtuanes_3ds.zip..."
+					"file": "/virtuanes_3ds.zip"
 				}
 			]
 		}
@@ -1829,59 +1461,11 @@
 		"image": "https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/icon.png",
 		"unistore_exclude": true,
-		"scripts": {
-			"seedstarter.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "zoogie/seedminer",
-					"file": "RELEASE.*\\.zip",
-					"output": "/seedminer.zip",
-					"message": "Downloading seedminer.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/seedminer.zip",
-					"input": "RELEASE.*/seedstarter.cia",
-					"output": "/seedstarter.cia",
-					"message": "Extracting seedstarter.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/seedstarter.cia",
-					"message": "Installing seedstarter.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/seedstarter.cia",
-					"message": "Deleting seedstarter.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/seedminer.zip",
-					"message": "Deleting seedminer.zip..."
-				}
-			],
-			"seedstarter.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "zoogie/seedminer",
-					"file": "RELEASE.*\\.zip",
-					"output": "/seedminer.zip",
-					"message": "Downloading seedminer.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/seedminer.zip",
-					"input": "RELEASE.*/seedstarter.3dsx",
-					"output": "%3DSX%/seedstarter.3dsx",
-					"message": "Extracting seedstarter.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/seedminer.zip",
-					"message": "Deleting seedminer.zip..."
-				}
-			]
+		"archive": {
+			"RELEASE.*\\.zip": {
+				"seedstarter.3dsx": ["RELEASE.*/seedstarter.3dsx"],
+				"seedstarter.cia": ["RELEASE.*/seedstarter.cia"]
+			}
 		}
 	},
 	{
@@ -1918,30 +1502,25 @@
 					"type": "downloadRelease",
 					"repo": "DomRe/3DS_eBook_Reader",
 					"file": "release.*\\.zip",
-					"output": "/release.zip",
-					"message": "Downloading release zip..."
+					"output": "/release.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/release.zip",
 					"input": "",
-					"output": "/",
-					"message": "Extracting 3DS_eBook_Reader..."
+					"output": "/"
 				},
 				{
 					"type": "installCia",
-					"file": "/eBook_Reader.cia",
-					"message": "Installing eBook_Reader.cia..."
+					"file": "/eBook_Reader.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/eBook_Reader.cia",
-					"message": "Deleting eBook_Reader.cia..."
+					"file": "/eBook_Reader.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/release.zip",
-					"message": "Deleting release.zip..."
+					"file": "/release.zip"
 				}
 			]
 		}
@@ -1959,37 +1538,31 @@
 					"type": "downloadRelease",
 					"repo": "bubble2k16/picodrive_3ds",
 					"file": "picodrive_3ds.*\\.zip",
-					"output": "/picodrive_3ds.zip",
-					"message": "Downloading picodrive_3ds zip..."
+					"output": "/picodrive_3ds.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/picodrive_3ds.zip",
 					"input": "picodrive_3ds.cia",
-					"output": "/picodrive_3ds.cia",
-					"message": "Extracting picodrive_3ds.cia..."
+					"output": "/picodrive_3ds.cia"
 				},
 				{
 					"type": "extractFile",
 					"file": "/picodrive_3ds.zip",
 					"input": "picodrive_3ds_top.png",
-					"output": "/3ds/picodrive_3ds/picodrive_3ds_top.png",
-					"message": "Extracting picodrive_3ds_top.png..."
+					"output": "/3ds/picodrive_3ds/picodrive_3ds_top.png"
 				},
 				{
 					"type": "installCia",
-					"file": "/picodrive_3ds.cia",
-					"message": "Installing picodrive_3ds.cia..."
+					"file": "/picodrive_3ds.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/picodrive_3ds.cia",
-					"message": "Deleting picodrive_3ds.cia..."
+					"file": "/picodrive_3ds.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/picodrive_3ds.zip",
-					"message": "Deleting picodrive_3ds.zip..."
+					"file": "/picodrive_3ds.zip"
 				}
 			],
 			"picodrive_3ds.3dsx": [
@@ -1997,27 +1570,23 @@
 					"type": "downloadRelease",
 					"repo": "bubble2k16/picodrive_3ds",
 					"file": "picodrive_3ds.*\\.zip",
-					"output": "/picodrive_3ds.zip",
-					"message": "Downloading picodrive_3ds zip..."
+					"output": "/picodrive_3ds.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/picodrive_3ds.zip",
 					"input": "picodrive_3ds.3dsx",
-					"output": "%3DSX%/picodrive_3ds.3dsx",
-					"message": "Extracting picodrive_3ds.3dsx..."
+					"output": "%3DSX%/picodrive_3ds.3dsx"
 				},
 				{
 					"type": "extractFile",
 					"file": "/picodrive_3ds.zip",
 					"input": "picodrive_3ds_top.png",
-					"output": "/3ds/picodrive_3ds/picodrive_3ds_top.png",
-					"message": "Extracting picodrive_3ds_top.png..."
+					"output": "/3ds/picodrive_3ds/picodrive_3ds_top.png"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/picodrive_3ds.zip",
-					"message": "Deleting picodrive_3ds.zip..."
+					"file": "/picodrive_3ds.zip"
 				}
 			]
 		}
@@ -2035,30 +1604,25 @@
 					"type": "downloadRelease",
 					"repo": "bubble2k16/temperpce_3ds",
 					"file": "temperpce_3ds.*\\.zip",
-					"output": "/temperpce_3ds.zip",
-					"message": "Downloading temperpce_3ds zip..."
+					"output": "/temperpce_3ds.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/temperpce_3ds.zip",
 					"input": "temperpce_3ds.cia",
-					"output": "/temperpce_3ds.cia",
-					"message": "Extracting temperpce_3ds.cia..."
+					"output": "/temperpce_3ds.cia"
 				},
 				{
 					"type": "installCia",
-					"file": "/temperpce_3ds.cia",
-					"message": "Installing temperpce_3ds.cia..."
+					"file": "/temperpce_3ds.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/temperpce_3ds.cia",
-					"message": "Deleting temperpce_3ds.cia..."
+					"file": "/temperpce_3ds.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/temperpce_3ds.zip",
-					"message": "Deleting temperpce_3ds.zip..."
+					"file": "/temperpce_3ds.zip"
 				}
 			],
 			"temperpce_3ds.3dsx": [
@@ -2066,20 +1630,17 @@
 					"type": "downloadRelease",
 					"repo": "bubble2k16/temperpce_3ds",
 					"file": "temperpce_3ds.*\\.zip",
-					"output": "/temperpce_3ds.zip",
-					"message": "Downloading temperpce_3ds zip..."
+					"output": "/temperpce_3ds.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/temperpce_3ds.zip",
 					"input": "temperpce_3ds.3dsx",
-					"output": "%3DSX%/temperpce_3ds.3dsx",
-					"message": "Extracting temperpce_3ds.3dsx..."
+					"output": "%3DSX%/temperpce_3ds.3dsx"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/temperpce_3ds.zip",
-					"message": "Deleting temperpce_3ds.zip..."
+					"file": "/temperpce_3ds.zip"
 				}
 			]
 		}
@@ -2109,30 +1670,25 @@
 					"type": "downloadRelease",
 					"repo": "ingolemo/drider",
 					"file": "drider.zip",
-					"output": "/drider.zip",
-					"message": "Downloading drider.zip..."
+					"output": "/drider.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/drider.zip",
 					"input": "",
-					"output": "/",
-					"message": "Extracting drider..."
+					"output": "/"
 				},
 				{
 					"type": "installCia",
-					"file": "/drider.cia",
-					"message": "Installing drider.cia..."
+					"file": "/drider.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/drider.cia",
-					"message": "Deleting drider.cia..."
+					"file": "/drider.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/drider.zip",
-					"message": "Deleting drider.zip..."
+					"file": "/drider.zip"
 				}
 			],
 			"drider.3dsx": [
@@ -2140,26 +1696,22 @@
 					"type": "downloadRelease",
 					"repo": "ingolemo/drider",
 					"file": "drider.zip",
-					"output": "/drider.zip",
-					"message": "Downloading drider.zip..."
+					"output": "/drider.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/drider.zip",
 					"input": "3ds/",
-					"output": "/3ds/",
-					"message": "Extracting drider..."
+					"output": "/3ds/"
 				},
 				{
 					"type": "move",
 					"old": "/3ds/drider/drider.3dsx",
-					"new": "%3DSX%/drider.3dsx",
-					"message": "Moving drider.3dsx..."
+					"new": "%3DSX%/drider.3dsx"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/drider.zip",
-					"message": "Deleting drider.zip..."
+					"file": "/drider.zip"
 				}
 			]
 		}
@@ -2184,29 +1736,10 @@
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/icon.png",
-		"autogen_scripts": true,
-		"scripts": {
-			"Zelda3T.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/Zelda3T",
-					"file": "Zelda3T_3DSX.*\\.zip",
-					"output": "/Zelda3T_3DSX.zip",
-					"message": "Downloading Zelda3T_3DSX.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Zelda3T_3DSX.zip",
-					"input": "Zelda3T/Zelda3T.3dsx",
-					"output": "%3DSX%/Zelda3T.3dsx",
-					"message": "Extracting Zelda3T.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Zelda3T_3DSX.zip",
-					"message": "Deleting Zelda3T_3DSX.zip..."
-				}
-			]
+		"archive": {
+			"Zelda3T_3DSX.*\\.zip": {
+				"Zelda3T.3dsx": ["Zelda3T/Zelda3T.3dsx"]
+			}
 		}
 	},
 	{
@@ -2216,29 +1749,10 @@
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/master/resources/icon.png",
-		"autogen_scripts": true,
-		"scripts": {
-			"bottomless-block-barrage.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "TricksterGuy/bottomless-block-barrage",
-					"file": "bottomless-block-barrage.zip",
-					"output": "/bottomless-block-barrage.zip",
-					"message": "Downloading bottomless-block-barrage.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/bottomless-block-barrage.zip",
-					"input": "3ds/bottomless-block-barrage/bottomless-block-barrage.3dsx",
-					"output": "%3DSX%/bottomless-block-barrage.3dsx",
-					"message": "Extracting bottomless-block-barrage.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/bottomless-block-barrage.zip",
-					"message": "Deleting bottomless-block-barrage.zip..."
-				}
-			]
+		"archive": {
+			"bottomless-block-barrage.zip": {
+				"bottomless-block-barrage.3dsx": ["3ds/bottomless-block-barrage/bottomless-block-barrage.3dsx"]
+			}
 		}
 	},
 	{
@@ -2261,20 +1775,17 @@
 					"type": "downloadRelease",
 					"repo": "Manurocker95/TRekt_3D",
 					"file": "TRekt_3D.rar",
-					"output": "/TRekt_3D.rar",
-					"message": "Downloading TRekt_3D.rar..."
+					"output": "/TRekt_3D.rar"
 				},
 				{
 					"type": "extractFile",
 					"file": "/TRekt_3D.rar",
 					"input": "TRekt_3D.3dsx",
-					"output": "%3DSX%/TRekt_3D.3dsx",
-					"message": "Extracting TRekt_3D.3dsx..."
+					"output": "%3DSX%/TRekt_3D.3dsx"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/TRekt_3D.rar",
-					"message": "Deleting TRekt_3D.rar..."
+					"file": "/TRekt_3D.rar"
 				}
 			]
 		}
@@ -2306,20 +1817,17 @@
 					"type": "downloadRelease",
 					"repo": "Manurocker95/Evolution_Sav3D_Me",
 					"file": "Evolution_Sav3D_Me.rar",
-					"output": "/Evolution_Sav3D_Me.rar",
-					"message": "Downloading Evolution_Sav3D_Me.rar..."
+					"output": "/Evolution_Sav3D_Me.rar"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Evolution_Sav3D_Me.rar",
 					"input": "Evolution_Sav3D_Me.3dsx",
-					"output": "%3DSX%/Evolution_Sav3D_Me.3dsx",
-					"message": "Extracting Evolution_Sav3D_Me.3dsx..."
+					"output": "%3DSX%/Evolution_Sav3D_Me.3dsx"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/Evolution_Sav3D_Me.rar",
-					"message": "Deleting Evolution_Sav3D_Me.rar..."
+					"file": "/Evolution_Sav3D_Me.rar"
 				}
 			]
 		}
@@ -2344,59 +1852,11 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/NatTupper/Forecast/master/res/banner%20icon.png",
 		"icon": "https://raw.githubusercontent.com/NatTupper/Forecast/master/icon.png",
-		"scripts": {
-			"Forecast.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "NatTupper/Forecast",
-					"file": "Forecast.*\\.zip",
-					"output": "/Forecast.zip",
-					"message": "Downloading Forecast zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Forecast.zip",
-					"input": "Forecast.cia",
-					"output": "/Forecast.cia",
-					"message": "Extracting Forecast.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/Forecast.cia",
-					"message": "Installing Forecast.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Forecast.cia",
-					"message": "Deleting Forecast.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Forecast.zip",
-					"message": "Deleting Forecast.zip..."
-				}
-			],
-			"Forecast.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "NatTupper/Forecast",
-					"file": "Forecast.*\\.zip",
-					"output": "/Forecast.zip",
-					"message": "Downloading Forecast zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Forecast.zip",
-					"input": "Forecast.3dsx",
-					"output": "%3DSX%/Forecast.3dsx",
-					"message": "Extracting Forecast.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Forecast.zip",
-					"message": "Deleting Forecast.zip..."
-				}
-			]
+		"archive": {
+			"Forecast.*\\.zip": {
+				"Forecast.cia": ["Forecast.cia"],
+				"Forecast.3dsx": ["Forecast.3dsx"]
+			}
 		}
 	},
 	{
@@ -2405,29 +1865,10 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/deltabeard/ctrmus/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/deltabeard/ctrmus/master/meta/icon.png",
-		"autogen_scripts": true,
-		"scripts": {
-			"ctrmus.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "deltabeard/ctrmus",
-					"file": "ctrmus.zip",
-					"output": "/ctrmus.zip",
-					"message": "Downloading ctrmus.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/ctrmus.zip",
-					"input": "3ds-arm/3ds/ctrmus/ctrmus.3dsx",
-					"output": "%3DSX%/ctrmus.3dsx",
-					"message": "Extracting ctrmus.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/ctrmus.zip",
-					"message": "Deleting ctrmus.zip..."
-				}
-			]
+		"archive": {
+			"ctrmus.zip": {
+				"ctrmus.3dsx": ["3ds-arm/3ds/ctrmus/ctrmus.3dsx"]
+			}
 		}
 	},
 	{
@@ -2443,29 +1884,10 @@
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/resources/Banner.png",
 		"icon": "https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/icon.png",
-		"autogen_scripts": true,
-		"scripts": {
-			"ButtonPresser3DS.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "trainboy2019/ButtonPresser3DS",
-					"file": "3ds.zip",
-					"output": "/3ds.zip",
-					"message": "Downloading 3ds.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/3ds.zip",
-					"input": "3ds/ButtonPresser3DS.3dsx",
-					"output": "%3DSX%/ButtonPresser3DS.3dsx",
-					"message": "Extracting ButtonPresser3DS.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/3ds.zip",
-					"message": "Deleting 3ds.zip..."
-				}
-			]
+		"archive": {
+			"3ds.zip": {
+				"ButtonPresser3DS.3dsx": ["3ds/ButtonPresser3DS.3dsx"]
+			}
 		}
 	},
 	{
@@ -2479,29 +1901,10 @@
 		"categories": ["emulator"],
 		"image": "https://raw.githubusercontent.com/nop90/Neopop-SDL/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Neopop-SDL/master/resources/icon.png",
-		"autogen_scripts": true,
-		"scripts": {
-			"neopop.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/Neopop-SDL",
-					"file": "neopop_3DSX.*\\.zip",
-					"output": "/neopop.zip",
-					"message": "Downloading neopop zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/neopop.zip",
-					"input": "neopop/neopop.3dsx",
-					"output": "%3DSX%/neopop.3dsx",
-					"message": "Extracting neopop.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/neopop.zip",
-					"message": "Deleting neopop.zip..."
-				}
-			]
+		"archive": {
+			"neopop_3DSX.*\\.zip": {
+				"neopop.3dsx": ["neopop/neopop.3dsx"]
+			}
 		}
 	},
 	{
@@ -2516,29 +1919,10 @@
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/ZeldaOLB/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/ZeldaOLB/master/resources/icon.png",
-		"autogen_scripts": true,
-		"scripts": {
-			"ZeldaOLB.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/ZeldaOLB",
-					"file": "ZeldaOLB_3DSX.*\\.zip",
-					"output": "/ZeldaOLB_3DSX.zip",
-					"message": "Downloading ZeldaOLB_3DSX zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/ZeldaOLB_3DSX.zip",
-					"input": "ZeldaOLB/ZeldaOLB.3dsx",
-					"output": "%3DSX%/ZeldaOLB.3dsx",
-					"message": "Extracting ZeldaOLB.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/ZeldaOLB_3DSX.zip",
-					"message": "Deleting ZeldaOLB_3DSX.zip..."
-				}
-			]
+		"archive": {
+			"ZeldaOLB_3DSX.*\\.zip": {
+				"ZeldaOLB.3dsx": ["ZeldaOLB/ZeldaOLB.3dsx"]
+			}
 		}
 	},
 	{
@@ -2561,50 +1945,11 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/meta/icon.png",
-		"autogen_scripts": true,
-		"scripts": {
-			"[luma > 6.6] LumaLocaleSwitcher.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "Possum/LumaLocaleSwitcher",
-					"file": "LumaLocaleSwitcher-0.04-NIGHTLY.zip",
-					"output": "/LumaLocaleSwitcher.zip",
-					"message": "Downloading LumaLocaleSwitcher-0.04-NIGHTLY.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/LumaLocaleSwitcher.zip",
-					"input": "3ds/LumaLocaleSwitcher/LumaLocaleSwitcher-0.04.3dsx",
-					"output": "%3DSX%/LumaLocaleSwitcher-0.04.3dsx",
-					"message": "Extracting LumaLocaleSwitcher-0.04.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/LumaLocaleSwitcher.zip",
-					"message": "Deleting LumaLocaleSwitcher-0.04.zip..."
-				}
-			],
-			"[luma <= 6.6] LumaLocaleSwitcher.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "Possum/LumaLocaleSwitcher",
-					"file": "LumaLocaleSwitcher-0.04.zip",
-					"output": "/LumaLocaleSwitcher.zip",
-					"message": "Downloading LumaLocaleSwitcher-0.04.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/LumaLocaleSwitcher.zip",
-					"input": "3ds/LumaLocaleSwitcher/LumaLocaleSwitcher-0.04-NIGHTLY.3dsx",
-					"output": "%3DSX%/LumaLocaleSwitcher-0.04-NIGHTLY.3dsx",
-					"message": "Extracting LumaLocaleSwitcher-0.04-NIGHTLY.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/LumaLocaleSwitcher.zip",
-					"message": "Deleting LumaLocaleSwitcher.zip..."
-				}
-			]
+		"download_filter": "NIGHTLY",
+		"archive": {
+			"LumaLocaleSwitcher-0.04-NIGHTLY.zip": {
+				"LumaLocaleSwitcher-0.04.3dsx": ["3ds/LumaLocaleSwitcher/LumaLocaleSwitcher-0.04.3dsx"]
+			}
 		}
 	},
 	{
@@ -2627,20 +1972,17 @@
 					"type": "downloadRelease",
 					"repo": "Manurocker95/WITB_3D",
 					"file": "WITB_3D.rar",
-					"output": "/WITB_3D.rar",
-					"message": "Downloading WITB_3D.rar..."
+					"output": "/WITB_3D.rar"
 				},
 				{
 					"type": "extractFile",
 					"file": "/WITB_3D.rar",
 					"input": "WITB_3D.3dsx",
-					"output": "%3DSX%/WITB_3D.3dsx",
-					"message": "Extracting WITB_3D.3dsx..."
+					"output": "%3DSX%/WITB_3D.3dsx"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/WITB_3D.rar",
-					"message": "Deleting WITB_3D.rar..."
+					"file": "/WITB_3D.rar"
 				}
 			]
 		}
@@ -2652,475 +1994,184 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/banner2.png",
 		"icon": "https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/icon.png",
+		"autogen_scripts": true,
+		"archive": {
+			"Orchestrina.zip": {
+				"Orchestrina.3dsx": ["3ds-arm/3ds/Orchestrina/Orchestrina.3dsx"],
+				"Orchestrina.cia": ["3ds-arm/Orchestrina.cia"]
+			}
+		},
 		"scripts": {
-			"Orchestrina.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "EBLeifEricson/orchestrina",
-					"file": "Orchestrina.zip",
-					"output": "/Orchestrina.zip",
-					"message": "Downloading Orchestrina.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Orchestrina.zip",
-					"input": "3ds-arm/Orchestrina.cia",
-					"output": "/Orchestrina.cia",
-					"message": "Extracting Orchestrina.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/Orchestrina.cia",
-					"message": "Installing Orchestrina.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Orchestrina.cia",
-					"message": "Deleting Orchestrina.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Orchestrina.zip",
-					"message": "Deleting Orchestrina.zip..."
-				},
-				{
-					"type": "promptMessage",
-					"message": "Download song files?",
-					"count": 100
-				},
+			"Song Files": [
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Healing-(ST).pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Healing (ST).pcm",
-					"message":"Downloading Song of Healing (ST).pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Song of Healing (ST).pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Double-Time.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Double Time.pcm",
-					"message":"Downloading Song of Double Time.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Song of Double Time.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Nocturne-of-Shadow.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Nocturne of Shadow.pcm",
-					"message":"Downloading Nocturne of Shadow.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Nocturne of Shadow.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Soaring.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Soaring.pcm",
-					"message":"Downloading Song of Soaring.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Song of Soaring.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Passing.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Passing.pcm",
-					"message":"Downloading Song of Passing.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Song of Passing.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Time.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Time.pcm",
-					"message":"Downloading Song of Time.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Song of Time.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Sonata-of-Awakening.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Sonata of Awakening.pcm",
-					"message":"Downloading Sonata of Awakening.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Sonata of Awakening.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Minuet-of-Forest.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Minuet of Forest.pcm",
-					"message":"Downloading Minuet of Forest.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Minuet of Forest.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Epona's-Song.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Epona's Song.pcm",
-					"message":"Downloading Epona's Song.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Epona's Song.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Wind's-Requiem.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Wind's Requiem.pcm",
-					"message":"Downloading Wind's Requiem.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Wind's Requiem.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Command-Melody.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Command Melody.pcm",
-					"message":"Downloading Command Melody.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Command Melody.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Storms.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Storms.pcm",
-					"message":"Downloading Song of Storms.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Song of Storms.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Sun's-Song.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Sun's Song.pcm",
-					"message":"Downloading Sun's Song.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Sun's Song.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Inverted-Song-of-Time.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Inverted Song of Time.pcm",
-					"message":"Downloading Inverted Song of Time.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Inverted Song of Time.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Frogs.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Frogs.pcm",
-					"message":"Downloading Song of Frogs.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Song of Frogs.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Healing-(MM).pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Healing (MM).pcm",
-					"message":"Downloading Song of Healing (MM).pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Song of Healing (MM).pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Bolero-of-Fire.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Bolero of Fire.pcm",
-					"message":"Downloading Bolero of Fire.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Bolero of Fire.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Prelude-of-Light.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Prelude of Light.pcm",
-					"message":"Downloading Prelude of Light.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Prelude of Light.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Light.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Light.pcm",
-					"message":"Downloading Song of Light.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Song of Light.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Zelda's-Lullaby.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Zelda's Lullaby.pcm",
-					"message":"Downloading Zelda's Lullaby.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Zelda's Lullaby.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Saria's-Song.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Saria's Song.pcm",
-					"message":"Downloading Saria's Song.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Saria's Song.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Serenade-of-Water.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Serenade of Water.pcm",
-					"message":"Downloading Serenade of Water.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Serenade of Water.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Earth-God's-Lyric.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Earth God's Lyric.pcm",
-					"message":"Downloading Earth God's Lyric.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Earth God's Lyric.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Chai-Kingdom.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Chai Kingdom.pcm",
-					"message":"Downloading Chai Kingdom.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Chai Kingdom.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Goron's-Lullaby.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Goron's Lullaby.pcm",
-					"message":"Downloading Goron's Lullaby.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Goron's Lullaby.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Birds.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Birds.pcm",
-					"message":"Downloading Song of Birds.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Song of Birds.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Oath-to-Order.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Oath to Order.pcm",
-					"message":"Downloading Oath to Order.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Oath to Order.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Ballad-of-Gales.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Ballad of Gales.pcm",
-					"message":"Downloading Ballad of Gales.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Ballad of Gales.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Discovery.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Discovery.pcm",
-					"message":"Downloading Song of Discovery.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Song of Discovery.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Elegy-of-Emptiness.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Elegy of Emptiness.pcm",
-					"message":"Downloading Elegy of Emptiness.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Elegy of Emptiness.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Wind-God's-Aria.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Wind God's Aria.pcm",
-					"message":"Downloading Wind God's Aria.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Wind God's Aria.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Requiem-of-Spirit.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Requiem of Spirit.pcm",
-					"message":"Downloading Requiem of Spirit.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Requiem of Spirit.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Awakening.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Awakening.pcm",
-					"message":"Downloading Song of Awakening.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/Song of Awakening.pcm"
 				},
 				{
 					"type":"downloadFile",
 					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/New-Wave-Bossa-Nova.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/New Wave Bossa Nova.pcm",
-					"message":"Downloading New Wave Bossa Nova.pcm..."
-				}
-			],
-			"Orchestrina.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "EBLeifEricson/orchestrina",
-					"file": "Orchestrina.zip",
-					"output": "/Orchestrina.zip",
-					"message": "Downloading Orchestrina.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Orchestrina.zip",
-					"input": "3ds-arm/3ds/Orchestrina/Orchestrina.3dsx",
-					"output": "%3DSX%/Orchestrina.3dsx",
-					"message": "Extracting Orchestrina.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Orchestrina.zip",
-					"message": "Deleting Orchestrina.zip..."
-				},
-				{
-					"type": "promptMessage",
-					"message": "Download song files?",
-					"count": 100
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Healing-(ST).pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Healing (ST).pcm",
-					"message":"Downloading Song of Healing (ST).pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Double-Time.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Double Time.pcm",
-					"message":"Downloading Song of Double Time.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Nocturne-of-Shadow.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Nocturne of Shadow.pcm",
-					"message":"Downloading Nocturne of Shadow.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Soaring.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Soaring.pcm",
-					"message":"Downloading Song of Soaring.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Passing.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Passing.pcm",
-					"message":"Downloading Song of Passing.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Time.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Time.pcm",
-					"message":"Downloading Song of Time.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Sonata-of-Awakening.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Sonata of Awakening.pcm",
-					"message":"Downloading Sonata of Awakening.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Minuet-of-Forest.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Minuet of Forest.pcm",
-					"message":"Downloading Minuet of Forest.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Epona's-Song.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Epona's Song.pcm",
-					"message":"Downloading Epona's Song.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Wind's-Requiem.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Wind's Requiem.pcm",
-					"message":"Downloading Wind's Requiem.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Command-Melody.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Command Melody.pcm",
-					"message":"Downloading Command Melody.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Storms.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Storms.pcm",
-					"message":"Downloading Song of Storms.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Sun's-Song.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Sun's Song.pcm",
-					"message":"Downloading Sun's Song.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Inverted-Song-of-Time.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Inverted Song of Time.pcm",
-					"message":"Downloading Inverted Song of Time.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Frogs.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Frogs.pcm",
-					"message":"Downloading Song of Frogs.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Healing-(MM).pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Healing (MM).pcm",
-					"message":"Downloading Song of Healing (MM).pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Bolero-of-Fire.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Bolero of Fire.pcm",
-					"message":"Downloading Bolero of Fire.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Prelude-of-Light.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Prelude of Light.pcm",
-					"message":"Downloading Prelude of Light.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Light.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Light.pcm",
-					"message":"Downloading Song of Light.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Zelda's-Lullaby.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Zelda's Lullaby.pcm",
-					"message":"Downloading Zelda's Lullaby.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Saria's-Song.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Saria's Song.pcm",
-					"message":"Downloading Saria's Song.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Serenade-of-Water.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Serenade of Water.pcm",
-					"message":"Downloading Serenade of Water.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Earth-God's-Lyric.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Earth God's Lyric.pcm",
-					"message":"Downloading Earth God's Lyric.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Chai-Kingdom.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Chai Kingdom.pcm",
-					"message":"Downloading Chai Kingdom.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Goron's-Lullaby.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Goron's Lullaby.pcm",
-					"message":"Downloading Goron's Lullaby.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Birds.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Birds.pcm",
-					"message":"Downloading Song of Birds.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Oath-to-Order.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Oath to Order.pcm",
-					"message":"Downloading Oath to Order.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Ballad-of-Gales.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Ballad of Gales.pcm",
-					"message":"Downloading Ballad of Gales.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Discovery.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Discovery.pcm",
-					"message":"Downloading Song of Discovery.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Elegy-of-Emptiness.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Elegy of Emptiness.pcm",
-					"message":"Downloading Elegy of Emptiness.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Wind-God's-Aria.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Wind God's Aria.pcm",
-					"message":"Downloading Wind God's Aria.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Requiem-of-Spirit.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Requiem of Spirit.pcm",
-					"message":"Downloading Requiem of Spirit.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/Song-of-Awakening.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/Song of Awakening.pcm",
-					"message":"Downloading Song of Awakening.pcm..."
-				},
-				{
-					"type":"downloadFile",
-					"file":"https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/data/Songs/New-Wave-Bossa-Nova.pcm",
-					"output":"/3ds/Orchestrina/data/Songs/New Wave Bossa Nova.pcm",
-					"message":"Downloading New Wave Bossa Nova.pcm..."
+					"output":"/3ds/Orchestrina/data/Songs/New Wave Bossa Nova.pcm"
 				}
 			]
 		}
@@ -3132,66 +2183,10 @@
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/icon.png",
-		"scripts": {
-			"[prerelease] Supertux.cia": {
-				"type": "prerelease",
-				"script": [
-					{
-						"type": "downloadRelease",
-						"repo": "nop90/Supertux-Milestone1-3ds",
-						"file": "Supertux.*\\.zip",
-						"output": "/Supertux.zip",
-						"message": "Downloading Supertux zip...",
-						"includePrereleases": true
-					},
-					{
-						"type": "extractFile",
-						"file": "/Supertux.zip",
-						"input": "Supertux.cia",
-						"output": "/Supertux.cia",
-						"message": "Extracting Supertux.cia..."
-					},
-					{
-						"type": "installCia",
-						"file": "/Supertux.cia",
-						"message": "Installing Supertux.cia..."
-					},
-					{
-						"type": "deleteFile",
-						"file": "/Supertux.cia",
-						"message": "Deleting Supertux.cia..."
-					},
-					{
-						"type": "deleteFile",
-						"file": "/Supertux.zip",
-						"message": "Deleting Supertux.zip..."
-					}
-				]
-			},
-			"[prerelease] Supertux.3dsx": {
-				"type": "prerelease",
-				"script": [
-					{
-						"type": "downloadRelease",
-						"repo": "nop90/Supertux-Milestone1-3ds",
-						"file": "Supertux.*\\.zip",
-						"output": "/Supertux.zip",
-						"message": "Downloading Supertux zip...",
-						"includePrereleases": true
-					},
-					{
-						"type": "extractFile",
-						"file": "/Supertux.zip",
-						"input": "Supertux/Supertux.3dsx",
-						"output": "%3DSX%/Supertux.3dsx",
-						"message": "Extracting Supertux.3dsx..."
-					},
-					{
-						"type": "deleteFile",
-						"file": "/Supertux.zip",
-						"message": "Deleting Supertux.zip..."
-					}
-				]
+		"archive": {
+			"Supertux.*\\.zip": {
+				"Supertux.cia": ["Supertux.cia"],
+				"Supertux.3dsx": ["Supertux/Supertux.3dsx"]
 			}
 		}
 	},
@@ -3201,59 +2196,11 @@
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/Opentyrian-3ds/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Opentyrian-3ds/master/resources/icon.png",
-		"scripts": {
-			"Opentyrian.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/Opentyrian-3ds",
-					"file": "Opentyrian.*\\.zip",
-					"output": "/Opentyrian.zip",
-					"message": "Downloading Opentyrian.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Opentyrian.zip",
-					"input": "Opentyrian.cia",
-					"output": "/Opentyrian.cia",
-					"message": "Extracting Opentyrian.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/Opentyrian.cia",
-					"message": "Installing Opentyrian.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Opentyrian.cia",
-					"message": "Deleting Opentyrian.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Opentyrian.zip",
-					"message": "Deleting Opentyrian.zip..."
-				}
-			],
-			"Opentyrian.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/Opentyrian-3ds",
-					"file": "Opentyrian.*\\.zip",
-					"output": "/Opentyrian.zip",
-					"message": "Downloading Opentyrian.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Opentyrian.zip",
-					"input": "Opentyrian/Opentyrian.3dsx",
-					"output": "%3DSX%/Opentyrian.3dsx",
-					"message": "Extracting Opentyrian.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Opentyrian.zip",
-					"message": "Deleting Opentyrian.zip..."
-				}
-			]
+		"archive": {
+			"Opentyrian.*\\.zip": {
+				"Opentyrian.cia": ["Opentyrian.cia"],
+				"Opentyrian.3dsx": ["Opentyrian/Opentyrian.3dsx"]
+			}
 		}
 	},
 	{
@@ -3262,59 +2209,11 @@
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/icon.png",
-		"scripts": {
-			"Xrick.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/Xrick-3ds",
-					"file": "Xrick.*\\.zip",
-					"output": "/Xrick.zip",
-					"message": "Downloading Xrick zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Xrick.zip",
-					"input": "Xrick.cia",
-					"output": "/Xrick.cia",
-					"message": "Extracting Xrick.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/Xrick.cia",
-					"message": "Installing Xrick.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Xrick.cia",
-					"message": "Deleting Xrick.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Xrick.zip",
-					"message": "Deleting Xrick.zip..."
-				}
-			],
-			"Xrick.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/Xrick-3ds",
-					"file": "Xrick.*\\.zip",
-					"output": "/Xrick.zip",
-					"message": "Downloading Xrick zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Xrick.zip",
-					"input": "Xrick/Xrick.3dsx",
-					"output": "%3DSX%/Xrick.3dsx",
-					"message": "Extracting Xrick.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Xrick.zip",
-					"message": "Deleting Xrick.zip..."
-				}
-			]
+		"archive": {
+			"Xrick.*\\.zip": {
+				"Xrick.cia": ["Xrick.cia"],
+				"Xrick.3dsx": ["Xrick/Xrick.3dsx"]
+			}
 		}
 	},
 	{
@@ -3331,59 +2230,11 @@
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/LiquidFenrir/3ds1010/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/LiquidFenrir/3ds1010/master/resources/icon.png",
-		"scripts": {
-			"3ds1010.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "LiquidFenrir/3ds1010",
-					"file": "3ds1010.zip",
-					"output": "/3ds1010.zip",
-					"message": "Downloading 3ds1010.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/3ds1010.zip",
-					"input": "3ds1010.cia",
-					"output": "/3ds1010.cia",
-					"message": "Extracting 3ds1010.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/3ds1010.cia",
-					"message": "Installing 3ds1010.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/3ds1010.cia",
-					"message": "Deleting 3ds1010.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/3ds1010.zip",
-					"message": "Deleting 3ds1010.zip..."
-				}
-			],
-			"3ds1010.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "LiquidFenrir/3ds1010",
-					"file": "3ds1010.zip",
-					"output": "/3ds1010.zip",
-					"message": "Downloading 3ds1010.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/3ds1010.zip",
-					"input": "3ds/3ds1010/3ds1010.3dsx",
-					"output": "%3DSX%/3ds1010.3dsx",
-					"message": "Extracting 3ds1010.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/3ds1010.zip",
-					"message": "Deleting 3ds1010.zip..."
-				}
-			]
+		"archive": {
+			"3ds1010.zip": {
+				"3ds1010.cia": ["3ds1010.cia"],
+				"3ds1010.3dsx": ["3ds/3ds1010/3ds1010.3dsx"]
+			}
 		}
 	},
 	{
@@ -3392,59 +2243,11 @@
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/icon.png",
-		"scripts": {
-			"GriffonLegend.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/Griffon-Legend-3DS",
-					"file": "GriffonLegend.*\\.zip",
-					"output": "/GriffonLegend.zip",
-					"message": "Downloading GriffonLegend.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/GriffonLegend.zip",
-					"input": "GriffonLegend.cia",
-					"output": "/GriffonLegend.cia",
-					"message": "Extracting GriffonLegend.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/GriffonLegend.cia",
-					"message": "Installing GriffonLegend.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/GriffonLegend.cia",
-					"message": "Deleting GriffonLegend.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/GriffonLegend.zip",
-					"message": "Deleting GriffonLegend.zip..."
-				}
-			],
-			"GriffonLegend.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/Griffon-Legend-3DS",
-					"file": "GriffonLegend.*\\.zip",
-					"output": "/GriffonLegend.zip",
-					"message": "Downloading GriffonLegend.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/GriffonLegend.zip",
-					"input": "GriffonLegend.3dsx",
-					"output": "%3DSX%/GriffonLegend.3dsx",
-					"message": "Extracting GriffonLegend.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/GriffonLegend.zip",
-					"message": "Deleting GriffonLegend.zip..."
-				}
-			]
+		"archive": {
+			"GriffonLegend.*\\.zip": {
+				"GriffonLegend.cia": ["GriffonLegend.cia"],
+				"GriffonLegend.3dsx": ["GriffonLegend.3dsx"]
+			}
 		}
 	},
 	{
@@ -3453,29 +2256,10 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/icon.png",
-		"autogen_scripts": true,
-		"scripts": {
-			"CTRXplorer.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "d0k3/CTRXplorer",
-					"file": "CTRXplorer.*\\.zip",
-					"output": "/CTRXplorer.zip",
-					"message": "Downloading CTRXplorer zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/CTRXplorer.zip",
-					"input": "3ds/CTRXplorer/CTRXplorer.3dsx",
-					"output": "%3DSX%/CTRXplorer.3dsx",
-					"message": "Extracting CTRXplorer.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/CTRXplorer.zip",
-					"message": "Deleting CTRXplorer.zip..."
-				}
-			]
+		"archive": {
+			"CTRXplorer.*\\.zip": {
+				"CTRXplorer.3dsx": ["3ds/CTRXplorer/CTRXplorer.3dsx"]
+			}
 		}
 	},
 	{
@@ -3484,59 +2268,11 @@
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/POWDER-3DS/master/port/3ds/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/POWDER-3DS/master/port/3ds/icon.png",
-		"scripts": {
-			"Powder.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/POWDER-3DS",
-					"file": "Powder.*\\.zip",
-					"output": "/Powder.zip",
-					"message": "Downloading Powder.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Powder.zip",
-					"input": "Powder.cia",
-					"output": "/Powder.cia",
-					"message": "Extracting Powder.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/Powder.cia",
-					"message": "Installing Powder.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Powder.cia",
-					"message": "Deleting Powder.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Powder.zip",
-					"message": "Deleting Powder.zip..."
-				}
-			],
-			"Powder.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/POWDER-3DS",
-					"file": "Powder.*\\.zip",
-					"output": "/Powder.zip",
-					"message": "Downloading Powder.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Powder.zip",
-					"input": "Powder/Powder.3dsx",
-					"output": "%3DSX%/Powder.3dsx",
-					"message": "Extracting Powder.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Powder.zip",
-					"message": "Deleting Powder.zip..."
-				}
-			]
+		"archive": {
+			"Powder.*\\.zip": {
+				"Powder.cia": ["Powder.cia"],
+				"Powder.3dsx": ["Powder/Powder.3dsx"]
+			}
 		}
 	},
 	{
@@ -3545,38 +2281,10 @@
 		"categories": ["emulator"],
 		"image": "https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/icon.png",
-		"scripts": {
-			"r3Ddragon.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "mrdanielps/r3Ddragon",
-					"file": "r3Ddragon.*\\.zip",
-					"output": "/r3Ddragon.zip",
-					"message": "Downloading r3Ddragon zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/r3Ddragon.zip",
-					"input": "r3Ddragon.cia",
-					"output": "/r3Ddragon.cia",
-					"message": "Extracting r3Ddragon.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/r3Ddragon.cia",
-					"message": "Installing r3Ddragon.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/r3Ddragon.cia",
-					"message": "Deleting r3Ddragon.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/r3Ddragon.zip",
-					"message": "Deleting r3Ddragon.zip..."
-				}
-			]
+		"archive": {
+			"r3Ddragon.*\\.zip": {
+				"r3Ddragon.cia": ["r3Ddragon.cia"]
+			}
 		}
 	},
 	{
@@ -3600,59 +2308,11 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/phijor/SpecializeMii/master/etc/banner.png",
 		"icon": "https://raw.githubusercontent.com/phijor/SpecializeMii/master/etc/icon.png",
-		"scripts": {
-			"SpecializeMii.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "phijor/SpecializeMii",
-					"file": "SpecializeMii.zip",
-					"output": "/SpecializeMii.zip",
-					"message": "Downloading SpecializeMii.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/SpecializeMii.zip",
-					"input": "3ds-arm/SpecializeMii.cia",
-					"output": "/SpecializeMii.cia",
-					"message": "Extracting SpecializeMii.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/SpecializeMii.cia",
-					"message": "Installing SpecializeMii.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/SpecializeMii.cia",
-					"message": "Deleting SpecializeMii.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/SpecializeMii.zip",
-					"message": "Deleting SpecializeMii.zip..."
-				}
-			],
-			"SpecializeMii.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "phijor/SpecializeMii",
-					"file": "SpecializeMii.zip",
-					"output": "/SpecializeMii.zip",
-					"message": "Downloading SpecializeMii.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/SpecializeMii.zip",
-					"input": "3ds-arm/3ds/SpecializeMii/SpecializeMii.3dsx",
-					"output": "%3DSX%/SpecializeMii.3dsx",
-					"message": "Extracting SpecializeMii.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/SpecializeMii.zip",
-					"message": "Deleting SpecializeMii.zip..."
-				}
-			]
+		"archive": {
+			"SpecializeMii.zip": {
+				"SpecializeMii.3dsx": ["3ds-arm/3ds/SpecializeMii/SpecializeMii.3dsx"],
+				"SpecializeMii.cia": ["3ds-arm/SpecializeMii.cia"]
+			}
 		}
 	},
 	{
@@ -3661,59 +2321,11 @@
 		"categories": ["utility", "save-tool"],
 		"image": "https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/res/banner%20icon.png",
 		"icon": "https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/icon.png",
-		"scripts": {
-			"Pocket-NLSE.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "dragos240/Pocket-NLSE",
-					"file": "Pocket-NLSE.*\\.zip",
-					"output": "/Pocket-NLSE.zip",
-					"message": "Downloading Pocket-NLSE zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Pocket-NLSE.zip",
-					"input": "Pocket-NLSE/Pocket-NLSE.cia",
-					"output": "/Pocket-NLSE.cia",
-					"message": "Extracting Pocket-NLSE.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/Pocket-NLSE.cia",
-					"message": "Installing Pocket-NLSE.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Pocket-NLSE.cia",
-					"message": "Deleting Pocket-NLSE.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Pocket-NLSE.zip",
-					"message": "Deleting Pocket-NLSE.zip..."
-				}
-			],
-			"Pocket-NLSE.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "dragos240/Pocket-NLSE",
-					"file": "Pocket-NLSE.*\\.zip",
-					"output": "/Pocket-NLSE.zip",
-					"message": "Downloading Pocket-NLSE zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Pocket-NLSE.zip",
-					"input": "Pocket-NLSE/Pocket-NLSE.3dsx",
-					"output": "%3DSX%/Pocket-NLSE.3dsx",
-					"message": "Extracting Pocket-NLSE.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Pocket-NLSE.zip",
-					"message": "Deleting Pocket-NLSE.zip..."
-				}
-			]
+		"archive": {
+			"Pocket-NLSE.*\\.zip": {
+				"Pocket-NLSE.3dsx": ["Pocket-NLSE/Pocket-NLSE.3dsx"],
+				"Pocket-NLSE.cia": ["Pocket-NLSE/Pocket-NLSE.cia"]
+			}
 		}
 	},
 	{
@@ -3722,29 +2334,10 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/DanTheMan827/tikSweep/master/banner.png",
 		"icon": "https://raw.githubusercontent.com/DanTheMan827/tikSweep/master/icon.png",
-		"autogen_scripts": true,
-		"scripts": {
-			"tikSweep.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "DanTheMan827/tikSweep",
-					"file": "tikSweep.zip",
-					"output": "/tikSweep.zip",
-					"message": "Downloading tikSweep.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/tikSweep.zip",
-					"input": "3ds-arm/3ds/tikSweep/tikSweep.3dsx",
-					"output": "%3DSX%/tikSweep.3dsx",
-					"message": "Extracting tikSweep.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/tikSweep.zip",
-					"message": "Deleting tikSweep.zip..."
-				}
-			]
+		"archive": {
+			"tikSweep.zip": {
+				"tikSweep.3dsx": ["3ds-arm/3ds/tikSweep/tikSweep.3dsx"]
+			}
 		}
 	},
 	{
@@ -3753,66 +2346,10 @@
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/icon.png",
-		"scripts": {
-			"[prerelease] ZeldaPicross.cia": {
-				"type": "prerelease",
-				"script": [
-					{
-						"type": "downloadRelease",
-						"repo": "nop90/ZeldaPicross",
-						"file": "ZeldaPicross.*\\.zip",
-						"output": "/ZeldaPicross.zip",
-						"message": "Downloading ZeldaPicross zip...",
-						"includePrereleases": true
-					},
-					{
-						"type": "extractFile",
-						"file": "/ZeldaPicross.zip",
-						"input": "ZeldaPicross.cia",
-						"output": "/ZeldaPicross.cia",
-						"message": "Extracting ZeldaPicross.cia..."
-					},
-					{
-						"type": "installCia",
-						"file": "/ZeldaPicross.cia",
-						"message": "Installing ZeldaPicross.cia..."
-					},
-					{
-						"type": "deleteFile",
-						"file": "/ZeldaPicross.cia",
-						"message": "Deleting ZeldaPicross.cia..."
-					},
-					{
-						"type": "deleteFile",
-						"file": "/ZeldaPicross.zip",
-						"message": "Deleting ZeldaPicross.zip..."
-					}
-				]
-			},
-			"[prerelease] ZeldaPicross.3dsx": {
-				"type": "prerelease",
-				"script": [
-					{
-						"type": "downloadRelease",
-						"repo": "nop90/ZeldaPicross",
-						"file": "ZeldaPicross.*\\.zip",
-						"output": "/ZeldaPicross.zip",
-						"message": "Downloading ZeldaPicross zip...",
-						"includePrereleases": true
-					},
-					{
-						"type": "extractFile",
-						"file": "/ZeldaPicross.zip",
-						"input": "ZeldaPicross/ZeldaPicross.3dsx",
-						"output": "%3DSX%/ZeldaPicross.3dsx",
-						"message": "Extracting ZeldaPicross.3dsx..."
-					},
-					{
-						"type": "deleteFile",
-						"file": "/ZeldaPicross.zip",
-						"message": "Deleting ZeldaPicross.zip..."
-					}
-				]
+		"archive": {
+			"ZeldaPicross.*\\.zip": {
+				"ZeldaPicross.cia": ["ZeldaPicross.cia"],
+				"ZeldaPicross.3dsx": ["ZeldaPicross/ZeldaPicross.3dsx"]
 			}
 		}
 	},
@@ -3822,29 +2359,10 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/banner.png",
 		"icon": "https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/icon.png",
-		"autogen_scripts": true,
-		"scripts": {
-			"GraphCalc3DS.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "flarn2006/graphcalc3ds",
-					"file": "GraphCalc3DS_3DSX.zip",
-					"output": "/GraphCalc3DS_3DSX.zip",
-					"message": "Downloading GraphCalc3DS_3DSX.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/GraphCalc3DS_3DSX.zip",
-					"input": "GraphCalc3DS.3dsx",
-					"output": "%3DSX%/GraphCalc3DS.3dsx",
-					"message": "Extracting GraphCalc3DS.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/GraphCalc3DS_3DSX.zip",
-					"message": "Deleting GraphCalc3DS_3DSX.zip..."
-				}
-			]
+		"archive": {
+			"GraphCalc3DS_3DSX.zip": {
+				"GraphCalc3DS.3dsx": ["GraphCalc3DS.3dsx"]
+			}
 		}
 	},
 	{
@@ -3858,59 +2376,11 @@
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/Omegadrien/Memory3DS/master/assets/banner.png",
 		"icon": "https://raw.githubusercontent.com/Omegadrien/Memory3DS/master/assets/icon.png",
-		"scripts": {
-			"Memory3DS.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "Omegadrien/Memory3DS",
-					"file": "Memory3DS.*\\.zip",
-					"output": "/Memory3DS.zip",
-					"message": "Downloading Memory3DS.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Memory3DS.zip",
-					"input": "Memory3DS/Memory3DS.cia",
-					"output": "/Memory3DS.cia",
-					"message": "Extracting Memory3DS.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/Memory3DS.cia",
-					"message": "Installing Memory3DS.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Memory3DS.cia",
-					"message": "Deleting Memory3DS.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Memory3DS.zip",
-					"message": "Deleting Memory3DS.zip..."
-				}
-			],
-			"Memory3DS.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "Omegadrien/Memory3DS",
-					"file": "Memory3DS.*\\.zip",
-					"output": "/Memory3DS.zip",
-					"message": "Downloading Memory3DS.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Memory3DS.zip",
-					"input": "Memory3DS/3ds/Memory3DS/Memory3DS.3dsx",
-					"output": "%3DSX%/Memory3DS.3dsx",
-					"message": "Extracting Memory3DS.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Memory3DS.zip",
-					"message": "Deleting Memory3DS.zip..."
-				}
-			]
+		"archive": {
+			"Memory3DS.*\\.zip": {
+				"Memory3DS.3dsx": ["Memory3DS/3ds/Memory3DS/Memory3DS.3dsx"],
+				"Memory3DS.cia": ["Memory3DS/Memory3DS.cia"]
+			}
 		}
 	},
 	{
@@ -3920,59 +2390,11 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS-Explorer/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS-Explorer/master/meta/icon.png",
-		"scripts": {
-			"RomFSExplorer.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "Ryuzaki-MrL/RomFS-Explorer",
-					"file": "RomFSExplorer.zip",
-					"output": "/RomFSExplorer.zip",
-					"message": "Downloading RomFSExplorer.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/RomFSExplorer.zip",
-					"input": "RomFSExplorer.cia",
-					"output": "/RomFSExplorer.cia",
-					"message": "Extracting RomFSExplorer.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/RomFSExplorer.cia",
-					"message": "Installing RomFSExplorer.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/RomFSExplorer.cia",
-					"message": "Deleting RomFSExplorer.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/RomFSExplorer.zip",
-					"message": "Deleting RomFSExplorer.zip..."
-				}
-			],
-			"RomFSExplorer.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "Ryuzaki-MrL/RomFS-Explorer",
-					"file": "RomFSExplorer.zip",
-					"output": "/RomFSExplorer.zip",
-					"message": "Downloading RomFSExplorer.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/RomFSExplorer.zip",
-					"input": "3ds/RomFSExplorer/RomFSExplorer.3dsx",
-					"output": "%3DSX%/RomFSExplorer.3dsx",
-					"message": "Extracting RomFSExplorer.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/RomFSExplorer.zip",
-					"message": "Deleting RomFSExplorer.zip..."
-				}
-			]
+		"archive": {
+			"RomFSExplorer.zip": {
+				"RomFSExplorer.3dsx": ["3ds/RomFSExplorer/RomFSExplorer.3dsx"],
+				"RomFSExplorer.ci": ["RomFSExplorer.cia"]
+			}
 		}
 	},
 	{
@@ -3986,37 +2408,31 @@
 					"type": "downloadRelease",
 					"repo": "masterfeizz/ctrQuake",
 					"file": "ctrQuake.zip",
-					"output": "/ctrQuake.zip",
-					"message": "Downloading ctrQuake.zip..."
+					"output": "/ctrQuake.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/ctrQuake.zip",
 					"input": "",
-					"output": "/",
-					"message": "Extracting ctrQuake..."
+					"output": "/"
 				},
 				{
 					"type": "downloadRelease",
 					"repo": "masterfeizz/ctrQuake",
 					"file": "ctrQuake.cia",
-					"output": "/ctrQuake.cia",
-					"message": "Downloading ctrQuake.cia..."
+					"output": "/ctrQuake.cia"
 				},
 				{
 					"type": "installCia",
-					"file": "/ctrQuake.cia",
-					"message": "Installing ctrQuake.cia..."
+					"file": "/ctrQuake.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/ctrQuake.cia",
-					"message": "Deleting ctrQuake.cia..."
+					"file": "/ctrQuake.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/ctrQuake.zip",
-					"message": "Deleting ctrQuake.zip..."
+					"file": "/ctrQuake.zip"
 				}
 			],
 			"ctrQuake.3dsx": [
@@ -4024,15 +2440,13 @@
 					"type": "downloadRelease",
 					"repo": "masterfeizz/ctrQuake",
 					"file": "ctrQuake.zip",
-					"output": "/ctrQuake.zip",
-					"message": "Downloading ctrQuake.zip..."
+					"output": "/ctrQuake.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/ctrQuake.zip",
 					"input": "",
-					"output": "/",
-					"message": "Extracting ctrQuake..."
+					"output": "/"
 				},
 				{
 					"type": "move",
@@ -4041,8 +2455,7 @@
 				},
 				{
 					"type": "deleteFile",
-					"file": "/ctrQuake.zip",
-					"message": "Deleting ctrQuake.zip..."
+					"file": "/ctrQuake.zip"
 				}
 			]
 		}
@@ -4059,15 +2472,13 @@
 					"type": "downloadRelease",
 					"repo": "ItsDeidara/CaptureAssistant",
 					"file": "CaptureAssistant.*\\.zip",
-					"output": "/CaptureAssistant.zip",
-					"message": "Downloading CaptureAssistant zip..."
+					"output": "/CaptureAssistant.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/CaptureAssistant.zip",
 					"input": "CaptureAssistant.cia",
-					"output": "/CaptureAssistant.cia",
-					"message": "Extracting CaptureAssistant.cia..."
+					"output": "/CaptureAssistant.cia"
 				},
 				{
 					"type": "promptMessage",
@@ -4078,15 +2489,13 @@
 					"type": "extractFile",
 					"file": "/CaptureAssistant.zip",
 					"input": "calibrationalt.png",
-					"output": "/calibration.png",
-					"message": "Extracting calibration.png..."
+					"output": "/calibration.png"
 				},
 				{
 					"type": "extractFile",
 					"file": "/CaptureAssistant.zip",
 					"input": "calibrationalt2.png",
-					"output": "/calibration2.png",
-					"message": "Extracting calibration2.png..."
+					"output": "/calibration2.png"
 				},
 				{
 					"type": "skip",
@@ -4096,30 +2505,25 @@
 					"type": "extractFile",
 					"file": "/CaptureAssistant.zip",
 					"input": "calibration.png",
-					"output": "/calibration.png",
-					"message": "Extracting calibration.png..."
+					"output": "/calibration.png"
 				},
 				{
 					"type": "extractFile",
 					"file": "/CaptureAssistant.zip",
 					"input": "calibration2.png",
-					"output": "/calibration2.png",
-					"message": "Extracting calibration2.png..."
+					"output": "/calibration2.png"
 				},
 				{
 					"type": "installCia",
-					"file": "/CaptureAssistant.cia",
-					"message": "Installing CaptureAssistant.cia..."
+					"file": "/CaptureAssistant.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/CaptureAssistant.cia",
-					"message": "Deleting CaptureAssistant.cia..."
+					"file": "/CaptureAssistant.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/CaptureAssistant.zip",
-					"message": "Deleting CaptureAssistant.zip..."
+					"file": "/CaptureAssistant.zip"
 				}
 			]
 		}
@@ -4130,59 +2534,11 @@
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/icon.png",
-		"scripts": {
-			"OpenSyobon3DS.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/OpenSyobon3DS",
-					"file": "OpenSyobon3DS.*\\.zip",
-					"output": "/OpenSyobon3DS.zip",
-					"message": "Downloading OpenSyobon3DS zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/OpenSyobon3DS.zip",
-					"input": "OpenSyobon3DS.cia",
-					"output": "/OpenSyobon3DS.cia",
-					"message": "Extracting OpenSyobon3DS.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/OpenSyobon3DS.cia",
-					"message": "Installing OpenSyobon3DS.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/OpenSyobon3DS.cia",
-					"message": "Deleting OpenSyobon3DS.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/OpenSyobon3DS.zip",
-					"message": "Deleting OpenSyobon3DS.zip..."
-				}
-			],
-			"OpenSyobon3DS.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/OpenSyobon3DS",
-					"file": "OpenSyobon3DS.*\\.zip",
-					"output": "/OpenSyobon3DS.zip",
-					"message": "Downloading OpenSyobon3DS zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/OpenSyobon3DS.zip",
-					"input": "3ds/OpenSyobon3DS/OpenSyobon3DS.3dsx",
-					"output": "%3DSX%/OpenSyobon3DS.3dsx",
-					"message": "Extracting OpenSyobon3DS.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/OpenSyobon3DS.zip",
-					"message": "Deleting OpenSyobon3DS.zip..."
-				}
-			]
+		"archive": {
+			"OpenSyobon3DS.*\\.zip": {
+				"OpenSyobon3DS.3dsx": ["3ds/OpenSyobon3DS/OpenSyobon3DS.3dsx"],
+				"OpenSyobon3DS.cia": ["OpenSyobon3DS.cia"]
+			}
 		}
 	},
 	{
@@ -4196,28 +2552,10 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/TricksterGuy/3ds-vgmstream/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/TricksterGuy/3ds-vgmstream/master/resources/icon.png",
-		"scripts": {
-			"3ds-vgmstream.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "TricksterGuy/3ds-vgmstream",
-					"file": "3ds-vgmstream.zip",
-					"output": "/3ds-vgmstream.zip",
-					"message": "Downloading 3ds-vgmstream.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/3ds-vgmstream.zip",
-					"input": "3ds/3ds-vgmstream/3ds-vgmstream.3dsx",
-					"output": "%3DSX%/3ds-vgmstream.3dsx",
-					"message": "Extracting 3ds-vgmstream.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/3ds-vgmstream.zip",
-					"message": "Deleting 3ds-vgmstream.zip..."
-				}
-			]
+		"archive": {
+			"3ds-vgmstream.zip": {
+				"3ds-vgmstream.3dsx": ["3ds/3ds-vgmstream/3ds-vgmstream.3dsx"]
+			}
 		}
 	},
 	{
@@ -4231,30 +2569,25 @@
 					"type": "downloadRelease",
 					"repo": "TurtleP/Hax0r",
 					"file": "Hax0r.zip",
-					"output": "/Hax0r.zip",
-					"message": "Downloading Hax0r.zip..."
+					"output": "/Hax0r.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Hax0r.zip",
 					"input": "",
-					"output": "/3ds/Hax0r/",
-					"message": "Extracting Hax0r..."
+					"output": "/3ds/Hax0r/"
 				},
 				{
 					"type": "installCia",
-					"file": "/3ds/Hax0r/Hax0r.cia",
-					"message": "Installing Hax0r.cia..."
+					"file": "/3ds/Hax0r/Hax0r.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/3ds/Hax0r/Hax0r.cia",
-					"message": "Deleting Hax0r.cia..."
+					"file": "/3ds/Hax0r/Hax0r.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/Hax0r.zip",
-					"message": "Deleting Hax0r.zip..."
+					"file": "/Hax0r.zip"
 				}
 			],
 			"Hax0r.3dsx": [
@@ -4262,26 +2595,22 @@
 					"type": "downloadRelease",
 					"repo": "TurtleP/Hax0r",
 					"file": "Hax0r.zip",
-					"output": "/Hax0r.zip",
-					"message": "Downloading Hax0r.zip..."
+					"output": "/Hax0r.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Hax0r.zip",
 					"input": "",
-					"output": "/3ds/Hax0r/",
-					"message": "Extracting Hax0r..."
+					"output": "/3ds/Hax0r/"
 				},
 				{
 					"type": "move",
 					"old": "/3ds/Hax0r/Hax0r.3dsx",
-					"new": "%3DSX%/Hax0r.3dsx",
-					"message": "Moving Hax0r..."
+					"new": "%3DSX%/Hax0r.3dsx"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/Hax0r.zip",
-					"message": "Deleting Hax0r.zip..."
+					"file": "/Hax0r.zip"
 				}
 			]
 		}
@@ -4292,66 +2621,12 @@
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/icon.png",
-		"scripts": {
-			"[prerelease] Biniax2.cia": {
-				"type": "prerelease",
-				"script": [
-					{
-						"type": "downloadRelease",
-						"repo": "nop90/Biniax2-3DS",
-						"file": "Biniax2_CIA.*\\.zip",
-						"output": "/Biniax2_CIA.zip",
-						"message": "Downloading Biniax2_CIA zip...",
-						"includePrereleases": true
-					},
-					{
-						"type": "extractFile",
-						"file": "/Biniax2_CIA.zip",
-						"input": "Biniax2.cia",
-						"output": "/Biniax2.cia",
-						"message": "Extracting Biniax2.cia..."
-					},
-					{
-						"type": "installCia",
-						"file": "/Biniax2.cia",
-						"message": "Installing Biniax2.cia..."
-					},
-					{
-						"type": "deleteFile",
-						"file": "/Biniax2.cia",
-						"message": "Deleting Biniax2.cia..."
-					},
-					{
-						"type": "deleteFile",
-						"file": "/Biniax2_CIA.zip",
-						"message": "Deleting Biniax2_CIA.zip..."
-					}
-				]
+		"archive": {
+			"Biniax2_3DSX.*\\.zip": {
+				"Biniax2.3dsx": ["Biniax2/Biniax2.3dsx"]
 			},
-			"[prerelease] Biniax2.3dsx": {
-				"type": "prerelease",
-				"script": [
-					{
-						"type": "downloadRelease",
-						"repo": "nop90/Biniax2-3DS",
-						"file": "Biniax2_3DSX.*\\.zip",
-						"output": "/Biniax2_3DSX.zip",
-						"message": "Downloading Biniax2_3DSX zip...",
-						"includePrereleases": true
-					},
-					{
-						"type": "extractFile",
-						"file": "/Biniax2_3DSX.zip",
-						"input": "Biniax2/Biniax2.3dsx",
-						"output": "%3DSX%/Biniax2.3dsx",
-						"message": "Extracting Biniax2.3dsx..."
-					},
-					{
-						"type": "deleteFile",
-						"file": "/Biniax2_3DSX.zip",
-						"message": "Deleting Biniax2_3DSX.zip..."
-					}
-				]
+			"Biniax2_CIA.*\\.zip": {
+				"Biniax2.cia": ["Biniax2.cia"]
 			}
 		}
 	},
@@ -4359,66 +2634,11 @@
 		"github": "TurtleP/TurtleInvaders",
 		"systems": ["3DS"],
 		"categories": ["game"],
-		"scripts": {
-			"TurtleInvaders.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "TurtleP/TurtleInvaders",
-					"file": "TurtleInvaders.zip",
-					"output": "/TurtleInvaders.zip",
-					"message": "Downloading TurtleInvaders.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/TurtleInvaders.zip",
-					"input": "TurtleInvaders.cia",
-					"output": "/TurtleInvaders.cia",
-					"message": "Extracting TurtleInvaders.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/TurtleInvaders.cia",
-					"message": "Installing TurtleInvaders.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/TurtleInvaders.cia",
-					"message": "Deleting TurtleInvaders.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/TurtleInvaders.zip",
-					"message": "Deleting TurtleInvaders.zip..."
-				}
-			],
-			"TurtleInvaders.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "TurtleP/TurtleInvaders",
-					"file": "TurtleInvaders.zip",
-					"output": "/TurtleInvaders.zip",
-					"message": "Downloading TurtleInvaders.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/TurtleInvaders.zip",
-					"input": "TurtleInvaders.3dsx",
-					"output": "%3DSX%/TurtleInvaders/TurtleInvaders.3dsx",
-					"message": "Extracting TurtleInvaders.3dsx..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/TurtleInvaders.zip",
-					"input": "game",
-					"output": "%3DSX%/TurtleInvaders/game",
-					"message": "Extracting game..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/TurtleInvaders.zip",
-					"message": "Deleting TurtleInvaders.zip..."
-				}
-			]
+		"archive": {
+			"TurtleInvaders.zip": {
+				"TurtleInvaders.3dsx": ["TurtleInvaders.3dsx"],
+				"TurtleInvaders.cia": ["TurtleInvaders.cia"]
+			}
 		}
 	},
 	{
@@ -4433,20 +2653,17 @@
 					"type": "downloadRelease",
 					"repo": "Jacudibu/Snake2DS",
 					"file": "Snake2DS-3DSFiles.*\\.zip",
-					"output": "/Snake2DS.zip",
-					"message": "Downloading Snake2DS-3DSFiles zip..."
+					"output": "/Snake2DS.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Snake2DS.zip",
-					"input": "Snake2DS",
-					"output": "%3DSX%/Snake2DS/",
-					"message": "Extracting Snake2DS..."
+					"input": "Snake2DS/",
+					"output": "%3DSX%/Snake2DS/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/Snake2DS.zip",
-					"message": "Deleting Snake2DS.zip..."
+					"file": "/Snake2DS.zip"
 				}
 			]
 		}
@@ -4456,29 +2673,10 @@
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
 		"icon": "https://raw.githubusercontent.com/TuxSH/TWLSaveTool/master/app/IconLarge.png",
-		"autogen_scripts": true,
-		"scripts": {
-			"TWLSaveTool.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "TuxSH/TWLSaveTool",
-					"file": "TWLSaveTool.zip",
-					"output": "/TWLSaveTool.zip",
-					"message": "Downloading TWLSaveTool.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/TWLSaveTool.zip",
-					"input": "3ds/TWLSaveTool/TWLSaveTool.3dsx",
-					"output": "%3DSX%/TWLSaveTool.3dsx",
-					"message": "Extracting TWLSaveTool.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/TWLSaveTool.zip",
-					"message": "Deleting TWLSaveTool.zip..."
-				}
-			]
+		"archive": {
+			"TWLSaveTool.zip": {
+				"TWLSaveTool.3dsx": ["3ds/TWLSaveTool/TWLSaveTool.3dsx"]
+			}
 		}
 	},
 	{
@@ -4537,59 +2735,13 @@
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/icon.png",
-		"scripts": {
-			"ZeldaROTH.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/ZeldaROTH",
-					"file": "ZeldaROTH_CIA.*.zip",
-					"output": "/ZeldaROTH.zip",
-					"message": "Downloading ZeldaROTH zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/ZeldaROTH.zip",
-					"input": "ZeldaROTH.cia",
-					"output": "/ZeldaROTH.cia",
-					"message": "Extracting ZeldaROTH.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/ZeldaROTH.cia",
-					"message": "Installing ZeldaROTH.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/ZeldaROTH.cia",
-					"message": "Deleting ZeldaROTH.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/ZeldaROTH.zip",
-					"message": "Deleting ZeldaROTH.zip..."
-				}
-			],
-			"ZeldaROTH.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "nop90/ZeldaROTH",
-					"file": "ZeldaROTH_3DSX.*.zip",
-					"output": "/ZeldaROTH.zip",
-					"message": "Downloading ZeldaROTH zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/ZeldaROTH.zip",
-					"input": "ZeldaROTH/ZeldaROTH.3dsx",
-					"output": "%3DSX%/ZeldaROTH.3dsx",
-					"message": "Extracting ZeldaROTH.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/ZeldaROTH.zip",
-					"message": "Deleting ZeldaROTH.zip..."
-				}
-			]
+		"archive": {
+			"ZeldaROTH_3DSX.*.zip": {
+				"ZeldaROTH.3dsx": ["ZeldaROTH/ZeldaROTH.3dsx"]
+			},
+			"ZeldaROTH_CIA.*.zip": {
+				"ZeldaROTH.cia": ["ZeldaROTH.cia"]
+			}
 		}
 	},
 	{
@@ -4599,31 +2751,12 @@
 		"categories": ["game"],
 		"image": "https://raw.githubusercontent.com/vargaviktor/ZeldaROTH/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/vargaviktor/ZeldaROTH/master/resources/icon.png",
-		"autogen_scripts": true,
 		"long_description": "ZeldaROTH 1.0.3 beta is including Hungarian translation for this classic fan game.\nBecause of the used sf2dlib was also out of date, it was also modified to compile with new (1.4.0+) citro3d library.\nBeta, because, its playable, but until now, it was not found yet, why it gives glitches, when loading a level map.",
 		"description": "ZeldaROTH 1.0.3 beta including Hungarian translation for this classic fan game, and was recompiled with actual libraries.",
-		"scripts": {
-			"ZeldaROTH.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "vargaviktor/ZeldaROTH",
-					"file": "ZeldaROTH_3DSX.zip",
-					"output": "/ZeldaROTH_3DSX.zip",
-					"message": "Downloading ZeldaROTH_3DSX.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/ZeldaROTH_3DSX.zip",
-					"input": "ZeldaROTH.3dsx",
-					"output": "%3DSX%/ZeldaROTH.3dsx",
-					"message": "Extracting ZeldaROTH.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/ZeldaROTH_3DSX.zip",
-					"message": "Deleting ZeldaROTH_3DSX.zip..."
-				}
-			]
+		"archive": {
+			"ZeldaROTH_3DSX.zip": {
+				"ZeldaROTH.3dsx": ["ZeldaROTH.3dsx"]
+			}
 		}
 	},
 	{
@@ -4632,29 +2765,10 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Ryuzaki-MrL/NotifyMii/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/Ryuzaki-MrL/NotifyMii/master/meta/icon.png",
-		"autogen_scripts": true,
-		"scripts": {
-			"NotifyMii.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "Ryuzaki-MrL/NotifyMii",
-					"file": "NotifyMii.zip",
-					"output": "/NotifyMii.zip",
-					"message": "Downloading NotifyMii.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/NotifyMii.zip",
-					"input": "3ds/NotifyMii/NotifyMii.3dsx",
-					"output": "%3DSX%/NotifyMii.3dsx",
-					"message": "Extracting NotifyMii.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/NotifyMii.zip",
-					"message": "Deleting NotifyMii.zip..."
-				}
-			]
+		"archive": {
+			"NotifyMii.zip": {
+				"NotifyMii.3dsx": ["3ds/NotifyMii/NotifyMii.3dsx"]
+			}
 		}
 	},
 	{
@@ -4663,59 +2777,11 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Asellus/3DS_Quick_Reboot/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/Asellus/3DS_Quick_Reboot/master/resources/icon.png",
-		"scripts": {
-			"3DSQuickReboot.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "Asellus/3DS_Quick_Reboot",
-					"file": "3DSQuickReboot-.*\\.zip",
-					"output": "/3DSQuickReboot.zip",
-					"message": "Downloading 3DSQuickReboot zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/3DSQuickReboot.zip",
-					"input": "3DSQuickReboot.cia",
-					"output": "/3DSQuickReboot.cia",
-					"message": "Extracting 3DSQuickReboot.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/3DSQuickReboot.cia",
-					"message": "Installing 3DSQuickReboot.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/3DSQuickReboot.cia",
-					"message": "Deleting 3DSQuickReboot.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/3DSQuickReboot.zip",
-					"message": "Deleting 3DSQuickReboot.zip..."
-				}
-			],
-			"3DSQuickReboot.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "Asellus/3DS_Quick_Reboot",
-					"file": "3DSQuickReboot-.*\\.zip",
-					"output": "/3DSQuickReboot.zip",
-					"message": "Downloading 3DSQuickReboot zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/3DSQuickReboot.zip",
-					"input": "3ds/3DSQuickReboot/3DSQuickReboot.3dsx",
-					"output": "%3DSX%/3DSQuickReboot.3dsx",
-					"message": "Extracting 3DSQuickReboot.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/3DSQuickReboot.zip",
-					"message": "Deleting 3DSQuickReboot.zip..."
-				}
-			]
+		"archive": {
+			"3DSQuickReboot-.*\\.zip": {
+				"3DSQuickReboot.3dsx": ["3ds/3DSQuickReboot/3DSQuickReboot.3dsx"],
+				"3DSQuickReboot.cia": ["3DSQuickReboot.cia"]
+			}
 		}
 	},
 	{
@@ -4732,38 +2798,32 @@
 						"repo": "masterfeizz/EDuke3D",
 						"file": "EDuke3D.*\\.zip",
 						"output": "/EDuke3D.zip",
-						"message": "Downloading EDuke3D.zip...",
 						"includePrereleases": true
 					},
 					{
 						"type": "extractFile",
 						"file": "/EDuke3D.zip",
 						"input": "",
-						"output": "/",
-						"message": "Extracting EDuke3D..."
+						"output": "/"
 					},
 					{
 						"type": "downloadRelease",
 						"repo": "masterfeizz/EDuke3D",
 						"file": "EDuke3D.cia",
 						"output": "/EDuke3D.cia",
-						"message": "Downloading EDuke3D.cia...",
 						"includePrereleases": true
 					},
 					{
 						"type": "installCia",
-						"file": "/EDuke3D.cia",
-						"message": "Installing EDuke3D.cia..."
+						"file": "/EDuke3D.cia"
 					},
 					{
 						"type": "deleteFile",
-						"file": "/EDuke3D.cia",
-						"message": "Deleting EDuke3D.cia..."
+						"file": "/EDuke3D.cia"
 					},
 					{
 						"type": "deleteFile",
-						"file": "/EDuke3D.zip",
-						"message": "Deleting EDuke3D.zip..."
+						"file": "/EDuke3D.zip"
 					}
 				]
 			},
@@ -4775,15 +2835,13 @@
 						"repo": "masterfeizz/EDuke3D",
 						"file": "EDuke3D.*\\.zip",
 						"output": "/EDuke3D.zip",
-						"message": "Downloading EDuke3D.zip...",
 						"includePrereleases": true
 					},
 					{
 						"type": "extractFile",
 						"file": "/EDuke3D.zip",
 						"input": "",
-						"output": "/",
-						"message": "Extracting EDuke3D..."
+						"output": "/"
 					},
 					{
 						"type": "move",
@@ -4792,8 +2850,7 @@
 					},
 					{
 						"type": "deleteFile",
-						"file": "/EDuke3D.zip",
-						"message": "Deleting EDuke3D.zip..."
+						"file": "/EDuke3D.zip"
 					}
 				]
 			}
@@ -4813,45 +2870,37 @@
 						"repo": "machinamentum/CS3DS",
 						"file": "cspsp.zip",
 						"output": "/cspsp.zip",
-						"message": "Downloading cspsp.zip...",
 						"includePrereleases": true
 					},
 					{
 						"type": "extractFile",
 						"file": "/cspsp.zip",
 						"input": "cspsp/",
-						"output": "/cspsp/",
-						"message": "Extracting cspsp..."
+						"output": "/cspsp/"
 					},
 					{
 						"type": "installCia",
-						"file": "/cspsp/cspsp.cia",
-						"message": "Installing cspsp.cia..."
+						"file": "/cspsp/cspsp.cia"
 					},
 					{
 						"type": "deleteFile",
-						"file": "/cspsp/cspsp.3dsx",
-						"message": "Deleting cspsp.3dsx..."
+						"file": "/cspsp/cspsp.3dsx"
 					},
 					{
 						"type": "deleteFile",
-						"file": "/cspsp/cspsp.cia",
-						"message": "Deleting cspsp.cia..."
+						"file": "/cspsp/cspsp.cia"
 					},
 					{
 						"type": "deleteFile",
-						"file": "/cspsp/cspsp.smdh",
-						"message": "Deleting cspsp.smdh..."
+						"file": "/cspsp/cspsp.smdh"
 					},
 					{
 						"type": "deleteFile",
-						"file": "/cspsp/README.txt",
-						"message": "Deleting README.txt..."
+						"file": "/cspsp/README.txt"
 					},
 					{
 						"type": "deleteFile",
-						"file": "/cspsp.zip",
-						"message": "Deleting cspsp.zip..."
+						"file": "/cspsp.zip"
 					}
 				]
 			},
@@ -4863,41 +2912,34 @@
 						"repo": "machinamentum/CS3DS",
 						"file": "cspsp.zip",
 						"output": "/cspsp.zip",
-						"message": "Downloading cspsp.zip...",
 						"includePrereleases": true
 					},
 					{
 						"type": "extractFile",
 						"file": "/cspsp.zip",
 						"input": "cspsp/",
-						"output": "/cspsp/",
-						"message": "Extracting cspsp..."
+						"output": "/cspsp/"
 					},
 					{
 						"type": "move",
 						"old": "/cspsp/cspsp.3dsx",
-						"new": "%3DSX%/cspsp.3dsx",
-						"message": "Moving cspsp.3dsx..."
+						"new": "%3DSX%/cspsp.3dsx"
 					},
 					{
 						"type": "deleteFile",
-						"file": "/cspsp/cspsp.cia",
-						"message": "Deleting cspsp.cia..."
+						"file": "/cspsp/cspsp.cia"
 					},
 					{
 						"type": "deleteFile",
-						"file": "/cspsp/cspsp.smdh",
-						"message": "Deleting cspsp.smdh..."
+						"file": "/cspsp/cspsp.smdh"
 					},
 					{
 						"type": "deleteFile",
-						"file": "/cspsp/README.txt",
-						"message": "Deleting README.txt..."
+						"file": "/cspsp/README.txt"
 					},
 					{
 						"type": "deleteFile",
-						"file": "/cspsp.zip",
-						"message": "Deleting cspsp.zip..."
+						"file": "/cspsp.zip"
 					}
 				]
 			}
@@ -4916,73 +2958,11 @@
 		"systems": ["3DS"],
 		"categories": ["game"],
 		"description": "Falling Blocks Watch Out, a 3DS homebrew Tetris clone.",
-		"scripts": {
-			"fbwo.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "Spaqin/fbwo-3ds",
-					"file": "fbwo.*\\.zip",
-					"output": "/fbwo.zip",
-					"message": "Downloading fbwo.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/fbwo.zip",
-					"input": "fbwodata",
-					"output": "/fbwodata",
-					"message": "Extracting fbwodata..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/fbwo.zip",
-					"input": "3ds/fbwo/fbwo.3dsx",
-					"output": "/3ds/fbwo.3dsx",
-					"message": "Extracting fbwo.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/fbwo.zip",
-					"message": "Deleting fbwo.zip..."
-				}
-			],
-			"fbwo.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "Spaqin/fbwo-3ds",
-					"file": "fbwo.*\\.zip",
-					"output": "/fbwo.zip",
-					"message": "Downloading fbwo.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/fbwo.zip",
-					"input": "fbwodata",
-					"output": "/fbwodata",
-					"message": "Extracting fbwodata..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/fbwo.zip",
-					"input": "fbwo.cia",
-					"output": "/fbwo.cia",
-					"message": "Extracting fbwo.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/fbwo.cia",
-					"message": "Installing fbwo.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/fbwo.zip",
-					"message": "Deleting fbwo.zip..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/fbwo.cia",
-					"message": "Deleting fbwo.zip..."
-				}
-			]
+		"archive": {
+			"fbwo.*\\.zip": {
+				"fbwo.3dsx": ["3ds/fbwo/fbwo.3dsx", "fbwodata/"],
+				"fbwo.cia": ["fbwo.cia", "fbwodata/"]
+			}
 		}
 	},
 	{
@@ -4991,29 +2971,10 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/banner.png",
 		"icon": "https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/icon.png",
-		"autogen_scripts": true,
-		"scripts": {
-			"UpdateSuppressor.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "GiantBlargg/UpdateSuppressor",
-					"file": "UpdateSuppressor-3dsx.zip",
-					"output": "/UpdateSuppressor-3dsx.zip",
-					"message": "Downloading UpdateSuppressor-3dsx.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/UpdateSuppressor-3dsx.zip",
-					"input": "UpdateSuppressor/UpdateSuppressor.3dsx",
-					"output": "%3DSX%/UpdateSuppressor.3dsx",
-					"message": "Extracting UpdateSuppressor.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/UpdateSuppressor-3dsx.zip",
-					"message": "Deleting UpdateSuppressor-3dsx.zip..."
-				}
-			]
+		"archive": {
+			"UpdateSuppressor-3dsx.zip": {
+				"UpdateSuppressor.3dsx": ["UpdateSuppressor/UpdateSuppressor.3dsx"]
+			}
 		}
 	},
 	{
@@ -5021,59 +2982,11 @@
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
 		"icon": "https://raw.githubusercontent.com/suloku/pdrpse/master/icon.png",
-		"scripts": {
-			"pdrpse.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "suloku/pdrpse",
-					"file": "pdrpse.*\\.zip",
-					"output": "/pdrpse.zip",
-					"message": "Downloading pdrpse zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/pdrpse.zip",
-					"input": "pdrpse.cia",
-					"output": "/pdrpse.cia",
-					"message": "Extracting pdrpse.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/pdrpse.cia",
-					"message": "Installing pdrpse.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/pdrpse.cia",
-					"message": "Deleting pdrpse.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/pdrpse.zip",
-					"message": "Deleting pdrpse.zip..."
-				}
-			],
-			"pdrpse.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "suloku/pdrpse",
-					"file": "pdrpse.*\\.zip",
-					"output": "/pdrpse.zip",
-					"message": "Downloading pdrpse zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/pdrpse.zip",
-					"input": "3ds/pdrpse/pdrpse.3dsx",
-					"output": "%3DSX%/pdrpse.3dsx",
-					"message": "Extracting pdrpse.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/pdrpse.zip",
-					"message": "Deleting pdrpse.zip..."
-				}
-			]
+		"archive": {
+			"pdrpse.*\\.zip": {
+				"pdrpse.3dsx": ["3ds/pdrpse/pdrpse.3dsx"],
+				"pdrpse.cia": ["pdrpse.cia"]
+			}
 		}
 	},
 	{
@@ -5082,73 +2995,11 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/banner.png",
 		"icon": "https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/icon48x48.png",
-		"scripts": {
-			"3DSController.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "CTurt/3DSController",
-					"file": "3DSController.*\\.zip",
-					"output": "/3DSController.zip",
-					"message": "Downloading 3DSController zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/3DSController.zip",
-					"input": "3DS/3DSController.cia",
-					"output": "/3DSController.cia",
-					"message": "Extracting 3DSController.cia..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/3DSController.zip",
-					"input": "3DS/3DSController.ini",
-					"output": "/3DSController.ini",
-					"message": "Extracting 3DSController.ini..."
-				},
-				{
-					"type": "installCia",
-					"file": "/3DSController.cia",
-					"message": "Installing 3DSController.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/3DSController.cia",
-					"message": "Deleting 3DSController.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/3DSController.zip",
-					"message": "Deleting 3DSController.zip..."
-				}
-			],
-			"3DSController.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "CTurt/3DSController",
-					"file": "3DSController.*\\.zip",
-					"output": "/3DSController.zip",
-					"message": "Downloading 3DSController zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/3DSController.zip",
-					"input": "3DS/3DSController.3dsx",
-					"output": "%3DSX%/3DSController.3dsx",
-					"message": "Extracting 3DSController.3dsx..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/3DSController.zip",
-					"input": "3DS/3DSController.ini",
-					"output": "/3DSController.ini",
-					"message": "Extracting 3DSController.ini..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/3DSController.zip",
-					"message": "Deleting 3DSController.zip..."
-				}
-			]
+		"archive": {
+			"3DSController.*\\.zip": {
+				"3DSController.3dsx": ["3DS/3DSController.3dsx", "3DS/3DSController.ini"],
+				"3DSController.cia": ["3DS/3DSController.cia", "3DS/3DSController.ini"]
+			}
 		}
 	},
 	{
@@ -5193,59 +3044,11 @@
 		"image": "https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/icon.png",
 		"long_description": "A demonstration of the 800px mode on 3DS consoles. Will not work on O2DS consoles.",
-		"scripts": {
-			"HoriHD-Gallery.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "RocketRobz/HoriHD-Gallery",
-					"file": "HoriHD-Gallery.7z",
-					"output": "/HoriHD-Gallery.7z",
-					"message": "Downloading HoriHD-Gallery.7z..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/HoriHD-Gallery.7z",
-					"input": "HoriHD-Gallery.cia",
-					"output": "/HoriHD-Gallery.cia",
-					"message": "Extracting HoriHD-Gallery.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/HoriHD-Gallery.cia",
-					"message": "Installing HoriHD-Gallery.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/HoriHD-Gallery.cia",
-					"message": "Deleting HoriHD-Gallery.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/HoriHD-Gallery.7z",
-					"message": "Deleting HoriHD-Gallery.7z..."
-				}
-			],
-			"HoriHD-Gallery.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "RocketRobz/HoriHD-Gallery",
-					"file": "HoriHD-Gallery.7z",
-					"output": "/HoriHD-Gallery.7z",
-					"message": "Downloading HoriHD-Gallery.7z..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/HoriHD-Gallery.7z",
-					"input": "HoriHD-Gallery.cia",
-					"output": "%3DSX%/HoriHD-Gallery.3dsx",
-					"message": "Extracting HoriHD-Gallery.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/HoriHD-Gallery.7z",
-					"message": "Deleting HoriHD-Gallery.7z..."
-				}
-			]
+		"archive": {
+			"HoriHD-Gallery.7z": {
+				"HoriHD-Gallery.3dsx": ["HoriHD-Gallery.3dsx"],
+				"HoriHD-Gallery.cia": ["HoriHD-Gallery.cia"]
+			}
 		}
 	},
 	{
@@ -5260,20 +3063,17 @@
 					"type": "downloadRelease",
 					"repo": "hax0kartik/wumiibo",
 					"file": "0004013000004002.zip",
-					"output": "/0004013000004002.zip",
-					"message": "Downloading 0004013000004002.zip..."
+					"output": "/0004013000004002.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/0004013000004002.zip",
 					"input": "0004013000004002/",
-					"output": "/luma/titles/0004013000004002/",
-					"message": "Extracting 0004013000004002..."
+					"output": "/luma/titles/0004013000004002/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/0004013000004002.zip",
-					"message": "Deleting 0004013000004002.zip..."
+					"file": "/0004013000004002.zip"
 				}
 			]
 		}
@@ -5311,15 +3111,13 @@
 						"type": "downloadRelease",
 						"repo": "cmod31/DaedalusX64-3DS-archived",
 						"file": "data.zip",
-						"output": "/data.zip",
-						"message": "Downloading data.zip..."
+						"output": "/data.zip"
 					},
 					{
 						"type": "extractFile",
 						"file": "/data.zip",
 						"input": "",
-						"output": "/",
-						"message": "Extracting data.zip..."
+						"output": "/"
 					},
 					{
 						"type": "deleteFile",
@@ -5376,25 +3174,21 @@
 					"type": "downloadRelease",
 					"repo": "DS-Homebrew/TWiLightMenu",
 					"file": "TWiLightMenu-3DS.7z",
-					"output": "/TWiLightMenu-3DS.7z",
-					"message": "Downloading TWiLight Menu++..."
+					"output": "/TWiLightMenu-3DS.7z"
 				},
 				{
 					"type": "extractFile",
 					"file": "/TWiLightMenu-3DS.7z",
 					"input": "",
-					"output": "/",
-					"message": "Extracting TWiLight Menu++..."
+					"output": "/"
 				},
 				{
 					"type": "installCia",
-					"file": "/TWiLight Menu.cia",
-					"message": "Installing TWiLight Menu++..."
+					"file": "/TWiLight Menu.cia"
 				},
 				{
 					"type": "installCia",
-					"file": "/TWiLight Menu - Game booter.cia",
-					"message": "Installing TWiLight Menu - Game booter..."
+					"file": "/TWiLight Menu - Game booter.cia"
 				},
 				{
 					"type": "deleteFile",
@@ -5415,25 +3209,21 @@
 					{
 						"type": "downloadFile",
 						"file": "https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z",
-						"output": "/TWiLightMenu-3DS.7z",
-						"message": "Downloading TWiLight Menu++..."
+						"output": "/TWiLightMenu-3DS.7z"
 					},
 					{
 						"type": "extractFile",
 						"file": "/TWiLightMenu-3DS.7z",
 						"input": "TWiLightMenu/",
-						"output": "/",
-						"message": "Extracting TWiLight Menu++..."
+						"output": "/"
 					},
 					{
 						"type": "installCia",
-						"file": "/TWiLight Menu.cia",
-						"message": "Installing TWiLight Menu++..."
+						"file": "/TWiLight Menu.cia"
 					},
 					{
 						"type": "installCia",
-						"file": "/TWiLight Menu - Game booter.cia",
-						"message": "Installing TWiLight Menu - Game booter..."
+						"file": "/TWiLight Menu - Game booter.cia"
 					},
 					{
 						"type": "deleteFile",
@@ -5475,15 +3265,13 @@
 					{
 						"type": "downloadFile",
 						"file": "https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z",
-						"output": "/nds-bootstrap.7z",
-						"message": "Downloading nds-bootstrap..."
+						"output": "/nds-bootstrap.7z"
 					},
 					{
 						"type": "extractFile",
 						"file": "/nds-bootstrap.7z",
 						"input": "nds-bootstrap/",
-						"output": "/_nds/",
-						"message": "Extracting nds-bootstrap..."
+						"output": "/_nds/"
 					},
 					{
 						"type": "deleteFile",
@@ -5496,21 +3284,18 @@
 					"type": "downloadRelease",
 					"repo": "DS-Homebrew/nds-bootstrap",
 					"file": "nds-bootstrap.7z",
-					"output": "/nds-bootstrap.7z",
-					"message": "Downloading nds-bootstrap..."
+					"output": "/nds-bootstrap.7z"
 				},
 				{
 					"type": "extractFile",
 					"file": "/nds-bootstrap.7z",
 					"input": "",
-					"output": "/_nds/",
-					"message": "Extracting nds-bootstrap..."
+					"output": "/_nds/"
 				},
 				{
 					"type": "move",
 					"old": "/_nds/release-bootstrap.ver",
-					"new": "/_nds/TWiLightMenu/release-bootstrap.ver",
-					"message": "Moving release-bootstrap.ver..."
+					"new": "/_nds/TWiLightMenu/release-bootstrap.ver"
 				},
 				{
 					"type": "deleteFile",
@@ -5543,15 +3328,13 @@
 				{
 					"type": "downloadFile",
 					"file": "https://github.com/TWLBot/Builds/raw/master/usrcheat.dat.7z",
-					"output": "/usrcheat.dat.7z",
-					"message": "Downloading usrcheat.dat..."
+					"output": "/usrcheat.dat.7z"
 				},
 				{
 					"type": "extractFile",
 					"file": "/usrcheat.dat.7z",
 					"input": "usrcheat.dat",
-					"output": "/_nds/TWiLightMenu/extras/usrcheat.dat",
-					"message": "Extracting usrcheat.dat..."
+					"output": "/_nds/TWiLightMenu/extras/usrcheat.dat"
 				},
 				{
 					"type": "deleteFile",
@@ -5588,27 +3371,23 @@
 					"type": "downloadRelease",
 					"repo": "profi200/open_agb_firm",
 					"file": "open_agb_firm.*.7z",
-					"output": "/open_agb_firm.7z",
-					"message": "Downloading open_agb_firm 7z..."
+					"output": "/open_agb_firm.7z"
 				},
 				{
 					"type": "extractFile",
 					"file": "/open_agb_firm.7z",
 					"input": "open_agb_firm.firm",
-					"output": "%FIRM%/open_agb_firm.firm",
-					"message": "Extracting open_agb_firm.firm..."
+					"output": "%FIRM%/open_agb_firm.firm"
 				},
 				{
 					"type": "extractFile",
 					"file": "/open_agb_firm.7z",
 					"input": "3ds/",
-					"output": "/3ds/",
-					"message": "Extracting 3ds..."
+					"output": "/3ds/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/open_agb_firm.7z",
-					"message": "Deleting open_agb_firm.7z..."
+					"file": "/open_agb_firm.7z"
 				}
 			]
 		}
@@ -5624,27 +3403,23 @@
 					"type": "downloadRelease",
 					"repo": "d0k3/GodMode9",
 					"file": "GodMode9.*.zip",
-					"output": "/GodMode9.zip",
-					"message": "Downloading GodMode9 zip..."
+					"output": "/GodMode9.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/GodMode9.zip",
 					"input": "GodMode9.firm$",
-					"output": "%FIRM%/GodMode9.firm",
-					"message": "Extracting the GodMode9.firm..."
+					"output": "%FIRM%/GodMode9.firm"
 				},
 				{
 					"type": "extractFile",
 					"file": "/GodMode9.zip",
 					"input": "gm9/",
-					"output": "/gm9/",
-					"message": "Extracting the /gm9/ directory..."
+					"output": "/gm9/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/GodMode9.zip",
-					"message": "Deleting the downloaded ZIP file..."
+					"file": "/GodMode9.zip"
 				}
 			]
 		}
@@ -5663,20 +3438,17 @@
 					"type": "downloadRelease",
 					"repo": "rverseTeam/rverse-Releases",
 					"file": "rverse-3ds.zip",
-					"output": "/rverse.zip",
-					"message": "Downloading rverse..."
+					"output": "/rverse.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/rverse.zip",
 					"input": "",
-					"output": "/",
-					"message": "Extracting rverse..."
+					"output": "/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/rverse.zip",
-					"message": "Deleting rverse.zip..."
+					"file": "/rverse.zip"
 				}
 			]
 		}
@@ -5687,97 +3459,35 @@
 		"categories": ["utility", "save-tool"],
 		"image": "https://raw.githubusercontent.com/dragos240/TownManager/master/res/banner%20icon.png",
 		"icon": "https://raw.githubusercontent.com/dragos240/TownManager/master/icon.png",
-		"scripts": {
-			"TownManager.cia": [
-				{
-					"type": "downloadRelease",
-					"repo": "dragos240/TownManager",
-					"file": "TownManager.*\\.zip",
-					"output": "/TownManager.zip",
-					"message": "Downloading TownManager.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/TownManager.zip",
-					"input": "TownManager/TownManager.cia",
-					"output": "/TownManager.cia",
-					"message": "Extracting TownManager.cia..."
-				},
-				{
-					"type": "installCia",
-					"file": "/TownManager.cia",
-					"message": "Installing TownManager.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/TownManager.cia",
-					"message": "Deleting TownManager.cia..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/TownManager.zip",
-					"message": "Deleting TownManager.zip..."
-				}
-			],
-			"TownManager.3dsx": [
-				{
-					"type": "downloadRelease",
-					"repo": "dragos240/TownManager",
-					"file": "TownManager.*\\.zip",
-					"output": "/TownManager.zip",
-					"message": "Downloading TownManager.zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/TownManager.zip",
-					"input": "TownManager/TownManager.3dsx",
-					"output": "%3DSX%/TownManager.3dsx",
-					"message": "Extracting TownManager.3dsx..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/TownManager.zip",
-					"message": "Deleting TownManager.zip..."
-				}
-			]
+		"archive": {
+			"TownManager.*\\.zip": {
+				"TownManager.3dsx": ["TownManager/TownManager.3dsx"],
+				"TownManager.cia": ["TownManager/TownManager.cia"]
+			}
 		}
 	},
 	{
 		"github": "LumaTeam/Luma3DS",
 		"systems": ["3DS"],
 		"categories": ["utility", "firm", "luma3ds"],
+		"autogen_scripts": true,
+		"archive": {
+			"Luma3DS.*.zip": {
+				"boot.firm": ["boot.firm"]
+			}
+		},
 		"scripts": {
-			"boot.firm": [
-				{
-					"type": "downloadRelease",
-					"repo": "LumaTeam/Luma3DS",
-					"file": "Luma3DS.*.zip",
-					"output": "/Luma3DS.zip",
-					"message": "Downloading Luma3DS zip..."
-				},
-				{
-					"type": "extractFile",
-					"file": "/Luma3DS.zip",
-					"input": "boot.firm",
-					"output": "/boot.firm",
-					"message": "Extracting boot.firm..."
-				},
-				{
-					"type": "deleteFile",
-					"file": "/Luma3DS.zip",
-					"message": "Deleting Luma3DS.zip..."
-				}
-			],
-			"[hourly] boot.firm": [
-				{
-					"type": "downloadRelease",
-					"repo": "hax0kartik/luma-hourlies",
-					"file": "boot.firm",
-					"output": "/boot.firm",
-					"message": "Downloading boot.firm..."
-				}
-				
-			]
+			"[hourly] boot.firm": {
+				"type": "nightly",
+				"script": [
+					{
+						"type": "downloadRelease",
+						"repo": "hax0kartik/luma-hourlies",
+						"file": "boot.firm",
+						"output": "/boot.firm"
+					}
+				]
+			}
 		}
 	},
 	{
@@ -5797,8 +3507,7 @@
 					"type": "downloadRelease",
 					"repo": "fincs/new-hbmenu",
 					"file": "boot.3dsx",
-					"output": "/boot.3dsx",
-					"message": "Downloading boot.3dsx..."
+					"output": "/boot.3dsx"
 				}
 			]
 		}
@@ -5832,34 +3541,29 @@
 					"type": "downloadRelease",
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 					"file": "Vapecord.Public.zip",
-					"output": "/Vapecord.zip",
-					"message": "Downloading Vapecord.Public.zip..."
+					"output": "/Vapecord.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "luma/plugins/0004000000086400/",
-					"output": "/luma/plugins/0004000000086400/",
-					"message": "Extracting Vapecord..."
+					"output": "/luma/plugins/0004000000086400/"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "boot.firm",
-					"output": "/boot.firm",
-					"message": "Extracting boot.firm..."
+					"output": "/boot.firm"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "Vapecord/",
-					"output": "/Vapecord/",
-					"message": "Extracting Vapecord..."
+					"output": "/Vapecord/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/Vapecord.zip",
-					"message": "Deleting Vapecord.zip..."
+					"file": "/Vapecord.zip"
 				}
 			],
 			"For ACNL USA": [
@@ -5867,34 +3571,29 @@
 					"type": "downloadRelease",
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 					"file": "Vapecord.Public.zip",
-					"output": "/Vapecord.zip",
-					"message": "Downloading Vapecord.Public.zip..."
+					"output": "/Vapecord.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "luma/plugins/0004000000086300/",
-					"output": "/luma/plugins/0004000000086300/",
-					"message": "Extracting Vapecord..."
+					"output": "/luma/plugins/0004000000086300/"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "boot.firm",
-					"output": "/boot.firm",
-					"message": "Extracting boot.firm..."
+					"output": "/boot.firm"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "Vapecord/",
-					"output": "/Vapecord/",
-					"message": "Extracting Vapecord..."
+					"output": "/Vapecord/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/Vapecord.zip",
-					"message": "Deleting Vapecord.zip..."
+					"file": "/Vapecord.zip"
 				}
 			],
 			"For ACNL JPN": [
@@ -5902,34 +3601,29 @@
 					"type": "downloadRelease",
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 					"file": "Vapecord.Public.zip",
-					"output": "/Vapecord.zip",
-					"message": "Downloading Vapecord.Public.zip..."
+					"output": "/Vapecord.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "luma/plugins/0004000000086200/",
-					"output": "/luma/plugins/0004000000086200/",
-					"message": "Extracting Vapecord..."
+					"output": "/luma/plugins/0004000000086200/"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "boot.firm",
-					"output": "/boot.firm",
-					"message": "Extracting boot.firm..."
+					"output": "/boot.firm"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "Vapecord/",
-					"output": "/Vapecord/",
-					"message": "Extracting Vapecord..."
+					"output": "/Vapecord/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/Vapecord.zip",
-					"message": "Deleting Vapecord.zip..."
+					"file": "/Vapecord.zip"
 				}
 			],
 			"For ACNL KOR": [
@@ -5937,34 +3631,29 @@
 					"type": "downloadRelease",
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 					"file": "Vapecord.Public.zip",
-					"output": "/Vapecord.zip",
-					"message": "Downloading Vapecord.Public.zip..."
+					"output": "/Vapecord.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "luma/plugins/0004000000086500/",
-					"output": "/luma/plugins/0004000000086500/",
-					"message": "Extracting Vapecord..."
+					"output": "/luma/plugins/0004000000086500/"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "boot.firm",
-					"output": "/boot.firm",
-					"message": "Extracting boot.firm..."
+					"output": "/boot.firm"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "Vapecord/",
-					"output": "/Vapecord/",
-					"message": "Extracting Vapecord..."
+					"output": "/Vapecord/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/Vapecord.zip",
-					"message": "Deleting Vapecord.zip..."
+					"file": "/Vapecord.zip"
 				}
 			],
 			"For ACNL WA EUR": [
@@ -5972,34 +3661,29 @@
 					"type": "downloadRelease",
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 					"file": "Vapecord.Public.zip",
-					"output": "/Vapecord.zip",
-					"message": "Downloading Vapecord.Public.zip..."
+					"output": "/Vapecord.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "luma/plugins/0004000000198f00/",
-					"output": "/luma/plugins/0004000000198f00/",
-					"message": "Extracting Vapecord..."
+					"output": "/luma/plugins/0004000000198f00/"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "boot.firm",
-					"output": "/boot.firm",
-					"message": "Extracting boot.firm..."
+					"output": "/boot.firm"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "Vapecord/",
-					"output": "/Vapecord/",
-					"message": "Extracting Vapecord..."
+					"output": "/Vapecord/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/Vapecord.zip",
-					"message": "Deleting Vapecord.zip..."
+					"file": "/Vapecord.zip"
 				}
 			],
 			"For ACNL WA USA": [
@@ -6007,34 +3691,29 @@
 					"type": "downloadRelease",
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 					"file": "Vapecord.Public.zip",
-					"output": "/Vapecord.zip",
-					"message": "Downloading Vapecord.Public.zip..."
+					"output": "/Vapecord.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "luma/plugins/0004000000198e00/",
-					"output": "/luma/plugins/0004000000198e00/",
-					"message": "Extracting Vapecord..."
+					"output": "/luma/plugins/0004000000198e00/"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "boot.firm",
-					"output": "/boot.firm",
-					"message": "Extracting boot.firm..."
+					"output": "/boot.firm"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "Vapecord/",
-					"output": "/Vapecord/",
-					"message": "Extracting Vapecord..."
+					"output": "/Vapecord/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/Vapecord.zip",
-					"message": "Deleting Vapecord.zip..."
+					"file": "/Vapecord.zip"
 				}
 			],
 			"For ACNL WA JPN": [
@@ -6042,34 +3721,29 @@
 					"type": "downloadRelease",
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 					"file": "Vapecord.Public.zip",
-					"output": "/Vapecord.zip",
-					"message": "Downloading Vapecord.Public.zip..."
+					"output": "/Vapecord.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "luma/plugins/0004000000198d00/",
-					"output": "/luma/plugins/0004000000198d00/",
-					"message": "Extracting Vapecord..."
+					"output": "/luma/plugins/0004000000198d00/"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "boot.firm",
-					"output": "/boot.firm",
-					"message": "Extracting boot.firm..."
+					"output": "/boot.firm"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "Vapecord/",
-					"output": "/Vapecord/",
-					"message": "Extracting Vapecord..."
+					"output": "/Vapecord/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/Vapecord.zip",
-					"message": "Deleting Vapecord.zip..."
+					"file": "/Vapecord.zip"
 				}
 			],
 			"For ACNL Welcome Luxury": [
@@ -6077,34 +3751,29 @@
 					"type": "downloadRelease",
 					"repo": "RedShyGuy/Vapecord-ACNL-Plugin",
 					"file": "Vapecord.Public.zip",
-					"output": "/Vapecord.zip",
-					"message": "Downloading Vapecord.Public.zip..."
+					"output": "/Vapecord.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "luma/plugins/00040000004C5700/",
-					"output": "/luma/plugins/00040000004C5700/",
-					"message": "Extracting Vapecord..."
+					"output": "/luma/plugins/00040000004C5700/"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "boot.firm",
-					"output": "/boot.firm",
-					"message": "Extracting boot.firm..."
+					"output": "/boot.firm"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Vapecord.zip",
 					"input": "Vapecord/",
-					"output": "/Vapecord/",
-					"message": "Extracting Vapecord..."
+					"output": "/Vapecord/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/Vapecord.zip",
-					"message": "Deleting Vapecord.zip..."
+					"file": "/Vapecord.zip"
 				}
 			]
 		}
@@ -6211,80 +3880,68 @@
 				{
 					"type": "downloadFile",
 					"file": "https://buildbot.libretro.com/assets/frontend/info.zip",
-					"output": "/info.zip",
-					"message": "Downloading info.zip..."
+					"output": "/info.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/info.zip",
 					"input": "",
-					"output": "retroarch/media/",
-					"message": "Extracting info.zip..."
+					"output": "retroarch/media/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/info.zip",
-					"message": "Deleting info.zip..."
+					"file": "/info.zip"
 				}
 			],
 			"[optional] Assets": [
 				{
 					"type": "downloadFile",
 					"file": "https://buildbot.libretro.com/assets/frontend/assets.zip",
-					"output": "/assets.zip",
-					"message": "Downloading assets.zip..."
+					"output": "/assets.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/assets.zip",
 					"input": "",
-					"output": "retroarch/media/",
-					"message": "Extracting assets.zip..."
+					"output": "retroarch/media/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/overlays.zip",
-					"message": "Deleting overlays.zip..."
+					"file": "/overlays.zip"
 				}
 			],
 			"[optional] Overlays": [
 				{
 					"type": "downloadFile",
 					"file": "https://buildbot.libretro.com/assets/frontend/overlays.zip",
-					"output": "/overlays.zip",
-					"message": "Downloading overlays.zip..."
+					"output": "/overlays.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/overlays.zip",
 					"input": "",
-					"output": "retroarch/overlays/",
-					"message": "Extracting overlays.zip..."
+					"output": "retroarch/overlays/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/overlays.zip",
-					"message": "Deleting overlays.zip..."
+					"file": "/overlays.zip"
 				}
 			],
 			"[optional] Database files": [
 				{
 					"type": "downloadFile",
 					"file": "https://buildbot.libretro.com/assets/frontend/database-rdb.zip",
-					"output": "/database-rdb.zip",
-					"message": "Downloading database-rdb.zip..."
+					"output": "/database-rdb.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/database-rdb.zip",
 					"input": "",
-					"output": "retroarch/database/rdb/",
-					"message": "Extracting database-rdb.zip..."
+					"output": "retroarch/database/rdb/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/database-rdb.zip",
-					"message": "Deleting database-rdb.zip..."
+					"file": "/database-rdb.zip"
 				}
 			]
 		}
@@ -6335,7 +3992,6 @@
 					"repo": "linux-3ds/linux",
 					"file": "zImage",
 					"output": "/linux/zImage",
-					"message": "Downloading zImage...",
 					"includePrereleases": true
 				}
 			],
@@ -6345,7 +4001,6 @@
 					"repo": "linux-3ds/linux",
 					"file": "nintendo3ds_ctr.dtb",
 					"output": "/linux/nintendo3ds_ctr.dtb",
-					"message": "Downloading nintendo3ds_ctr.dtb...",
 					"includePrereleases": true
 				}
 			],
@@ -6355,7 +4010,6 @@
 					"repo": "linux-3ds/linux",
 					"file": "nintendo3ds_ktr.dtb",
 					"output": "/linux/nintendo3ds_ktr.dtb",
-					"message": "Downloading nintendo3ds_ktr.dtb...",
 					"includePrereleases": true
 				}
 			],
@@ -6365,7 +4019,6 @@
 					"repo": "linux-3ds/arm9linuxfw",
 					"file": "arm9linuxfw.bin",
 					"output": "/linux/arm9linuxfw.bin",
-					"message": "Downloading arm9linuxfw.bin...",
 					"includePrereleases": true
 				}
 			],
@@ -6375,7 +4028,6 @@
 					"repo": "linux-3ds/firm_linux_loader",
 					"file": "firm_linux_loader.firm",
 					"output": "/luma/payloads/firm_linux_loader.firm",
-					"message": "Downloading firm_linux_loader.firm...",
 					"includePrereleases": true
 				}
 			]
@@ -6438,37 +4090,31 @@
 					"type": "downloadRelease",
 					"repo": "CollinScripter/Revamped3DS",
 					"file": "Revamped.zip",
-					"output": "/Revamped.zip",
-					"message": "Downloading Revamped.zip..."
+					"output": "/Revamped.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Revamped.zip",
 					"input": "Revamped.cia",
-					"output": "/Revamped.cia",
-					"message": "Extracting Revamped.cia..."
+					"output": "/Revamped.cia"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Revamped.zip",
 					"input": "3ds/Revamped",
-					"output": "/3ds/Revamped",
-					"message": "Extracting Revamped..."
+					"output": "/3ds/Revamped"
 				},
 				{
 					"type": "installCia",
-					"file": "/Revamped.cia",
-					"message": "Installing Revamped.cia..."
+					"file": "/Revamped.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/Revamped.cia",
-					"message": "Deleting Revamped.cia..."
+					"file": "/Revamped.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/Revamped.zip",
-					"message": "Deleting Revamped.zip..."
+					"file": "/Revamped.zip"
 				}
 			],
 			"Revamped.3dsx": [
@@ -6476,26 +4122,22 @@
 					"type": "downloadRelease",
 					"repo": "CollinScripter/Revamped3DS",
 					"file": "Revamped.zip",
-					"output": "/Revamped.zip",
-					"message": "Downloading Revamped.zip..."
+					"output": "/Revamped.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/Revamped.zip",
 					"input": "3ds/Revamped",
-					"output": "/3ds/Revamped",
-					"message": "Extracting Revamped..."
+					"output": "/3ds/Revamped"
 				},
 				{
 					"type": "move",
 					"old": "/3ds/Revamped/Revamped.3dsx",
-					"new": "%3DSX%/Revamped.3dsx",
-					"message": "Moving Revamped.3dsx..."
+					"new": "%3DSX%/Revamped.3dsx"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/Revamped.zip",
-					"message": "Deleting Revamped.zip..."
+					"file": "/Revamped.zip"
 				}
 			]
 		}
@@ -6520,20 +4162,17 @@
 					"type": "downloadRelease",
 					"repo": "hax0kartik/rehid",
 					"file": "0004013000001D02.zip",
-					"output": "/0004013000001D02.zip",
-					"message": "Downloading 0004013000001D02.zip..."
+					"output": "/0004013000001D02.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/0004013000001D02.zip",
 					"input": "0004013000001D02/",
-					"output": "/luma/titles/0004013000001D02/",
-					"message": "Extracting 0004013000001D02.zip..."
+					"output": "/luma/titles/0004013000001D02/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/0004013000001D02.zip",
-					"message": "Deleting 0004013000001D02.zip..."
+					"file": "/0004013000001D02.zip"
 				}
 			]
 		}
@@ -6556,39 +4195,33 @@
 					"type": "downloadRelease",
 					"repo": "MechanicalDragon0687/NDSForwarder",
 					"file": "ndsForwarder.3dsx",
-					"output": "%3DSX%/ndsForwarder.3dsx",
-					"message": "Downloading ndsForwarder.3dsx..."
+					"output": "%3DSX%/ndsForwarder.3dsx"
 				},
 				{
 					"type": "downloadRelease",
 					"repo": "RocketRobz/NTR_Forwarder",
 					"file": "DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
-					"output": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
-					"message": "Downloading DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
+					"output": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z"
 				},
 				{
 					"type": "extractFile",
 					"file": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
 					"input": "for SD Card root/",
-					"output": "/",
-					"message": "Extracting DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
+					"output": "/"
 				},
 				{
 					"type": "deleteFile",
-					"file":"/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
-					"message": "Deleting DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
+					"file":"/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z"
 				},
 				{
 					"type": "downloadFile",
 					"file": "https://raw.githubusercontent.com/TWLBot/Builds/master/extras/apfix.pck",
-					"output": "/_nds/ntr-forwarder/apfix.pck",
-					"message": "Downloading apfix.pck..."
+					"output": "/_nds/ntr-forwarder/apfix.pck"
 				},
 				{
 					"type": "downloadFile",
 					"file": "https://raw.githubusercontent.com/TWLBot/Builds/master/extras/widescreen.pck",
-					"output": "/_nds/ntr-forwarder/widescreen.pck",
-					"message": "Downloading widescreen.pck..."
+					"output": "/_nds/ntr-forwarder/widescreen.pck"
 				}
 			]
 		}
@@ -6693,37 +4326,31 @@
 					"type": "downloadRelease",
 					"repo": "ApacheThunder/NTR_Launcher",
 					"file": "NTR_Launcher_.*\\.zip",
-					"output": "/NTR_Launcher.zip",
-					"message": "Downloading NTR_Launcher zip..."
+					"output": "/NTR_Launcher.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/NTR_Launcher.zip",
 					"input": "NTR_Launcher.cia",
-					"output": "/NTR_Launcher.cia",
-					"message": "Extracting NTR_Launcher.cia..."
+					"output": "/NTR_Launcher.cia"
 				},
 				{
 					"type": "extractFile",
 					"file": "/NTR_Launcher.zip",
 					"input": "NDS/NTR_Launcher.ini",
-					"output": "/NDS/NTR_Launcher.ini",
-					"message": "Extracting NTR_Launcher.ini..."
+					"output": "/NDS/NTR_Launcher.ini"
 				},
 				{
 					"type": "installCia",
-					"file": "/NTR_Launcher.cia",
-					"message": "Installing NTR_Launcher.cia..."
+					"file": "/NTR_Launcher.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/NTR_Launcher.cia",
-					"message": "Deleting NTR_Launcher.cia..."
+					"file": "/NTR_Launcher.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/NTR_Launcher.zip",
-					"message": "Deleting NTR_Launcher.zip..."
+					"file": "/NTR_Launcher.zip"
 				}
 			],
 			"NTR_Launcher.nds": [
@@ -6731,27 +4358,23 @@
 					"type": "downloadRelease",
 					"repo": "ApacheThunder/NTR_Launcher",
 					"file": "NTR_Launcher_.*\\.zip",
-					"output": "/NTR_Launcher.zip",
-					"message": "Downloading NTR_Launcher zip..."
+					"output": "/NTR_Launcher.zip"
 				},
 				{
 					"type": "extractFile",
 					"file": "/NTR_Launcher.zip",
 					"input": "title/00030004/4b535450/content/00000000.app",
-					"output": "%NDS%/NTR_Launcher.nds",
-					"message": "Extracting NTR_Launcher.nds..."
+					"output": "%NDS%/NTR_Launcher.nds"
 				},
 				{
 					"type": "extractFile",
 					"file": "/NTR_Launcher.zip",
 					"input": "NDS/NTR_Launcher.ini",
-					"output": "/NDS/NTR_Launcher.ini",
-					"message": "Extracting NTR_Launcher.ini..."
+					"output": "/NDS/NTR_Launcher.ini"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/NTR_Launcher.zip",
-					"message": "Deleting NTR_Launcher.zip..."
+					"file": "/NTR_Launcher.zip"
 				}
 			]
 		}
@@ -6768,7 +4391,9 @@
 		"systems": ["3DS"],
 		"categories": ["utility", "firm", "luma3ds"],
 		"archive": {
-			".*\\.zip": ["boot.firm", "luma/"]
+			".*\\.zip": {
+				"boot.firm": ["boot.firm", "luma/"]
+			}
 		},
 		"downloads": {
 			"luma1021_QuickSwitchers - NightLight.zip": {
@@ -6832,32 +4457,27 @@
 					"type": "downloadRelease",
 					"repo": "RocketRobz/NTR_Forwarder",
 					"file": "DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
-					"output": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
-					"message": "Downloading DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
+					"output": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z"
 				},
 				{
 					"type": "extractFile",
 					"file": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
 					"input": "for SD Card root/",
-					"output": "/",
-					"message": "Extracting DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
+					"output": "/"
 				},
 				{
 					"type": "deleteFile",
-					"file":"/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
-					"message": "Deleting DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
+					"file":"/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z"
 				},
 				{
 					"type": "downloadFile",
 					"file": "https://raw.githubusercontent.com/TWLBot/Builds/master/extras/apfix.pck",
-					"output": "/_nds/ntr-forwarder/apfix.pck",
-					"message": "Downloading apfix.pck..."
+					"output": "/_nds/ntr-forwarder/apfix.pck"
 				},
 				{
 					"type": "downloadFile",
 					"file": "https://raw.githubusercontent.com/TWLBot/Builds/master/extras/widescreen.pck",
-					"output": "/_nds/ntr-forwarder/widescreen.pck",
-					"message": "Downloading widescreen.pck..."
+					"output": "/_nds/ntr-forwarder/widescreen.pck"
 				}
 			]
 		}
@@ -6874,18 +4494,15 @@
 					"type": "downloadRelease",
 					"repo": "diasurgical/devilutionX",
 					"file": "devilutionx-3ds.cia",
-					"output": "/devilutionx-3ds.cia",
-					"message": "Downloading devilutionx-3ds.cia..."
+					"output": "/devilutionx-3ds.cia"
 				},
 				{
 					"type": "installCia",
-					"file": "/devilutionx-3ds.cia",
-					"message": "Installing devilutionx-3ds.cia..."
+					"file": "/devilutionx-3ds.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/devilutionx-3ds.cia",
-					"message": "Deleting devilutionx-3ds.cia..."
+					"file": "/devilutionx-3ds.cia"
 				},
 				{
 					"type": "promptMessage",
@@ -6916,7 +4533,9 @@
 		"categories": ["emulator"],
 		"icon": "https://raw.githubusercontent.com/FluBBaOfWard/S8DS/main/Sms.bmp",
 		"archive": {
-			"S8DS.zip": ["S8DS.nds"]
+			"S8DS.zip": {
+				"S8DS.nds": ["S8DS.nds"]
+			}
 		}
 	},
 	{
@@ -6926,7 +4545,9 @@
 		"icon": "https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/WSLogo.bmp",
 		"image": "https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/logo.png",
 		"archive": {
-			"NitroSwan.zip": ["NitroSwan.nds"]
+			"NitroSwan.zip": {
+				"NitroSwan.nds": ["NitroSwan.nds"]
+			}
 		}
 	},
 	{
@@ -6968,49 +4589,41 @@
 					"type": "downloadRelease",
 					"repo": "lifehackerhansol/YANBF",
 					"file": "bootstrap.cia",
-					"output": "/bootstrap.cia",
-					"message": "Downloading bootstrap.cia..."
+					"output": "/bootstrap.cia"
 				},
 				{
 					"type": "downloadRelease",
 					"repo": "RocketRobz/NTR_Forwarder",
 					"file": "DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
-					"output": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
-					"message": "Downloading DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
+					"output": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z"
 				},
 				{
 					"type": "extractFile",
 					"file": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
 					"input": "for SD Card root/",
-					"output": "/",
-					"message": "Extracting DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
+					"output": "/"
 				},
 				{
 					"type": "installCia",
-					"file": "/bootstrap.cia",
-					"message": "Installing bootstrap.cia..."
+					"file": "/bootstrap.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/bootstrap.cia",
-					"message": "Deleting bootstrap.cia..."
+					"file": "/bootstrap.cia"
 				},
 				{
 					"type": "deleteFile",
-					"file":"/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
-					"message": "Deleting DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z..."
+					"file":"/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z"
 				},
 				{
 					"type": "downloadFile",
 					"file": "https://raw.githubusercontent.com/TWLBot/Builds/master/extras/apfix.pck",
-					"output": "/_nds/ntr-forwarder/apfix.pck",
-					"message": "Downloading apfix.pck..."
+					"output": "/_nds/ntr-forwarder/apfix.pck"
 				},
 				{
 					"type": "downloadFile",
 					"file": "https://raw.githubusercontent.com/TWLBot/Builds/master/extras/widescreen.pck",
-					"output": "/_nds/ntr-forwarder/widescreen.pck",
-					"message": "Downloading widescreen.pck..."
+					"output": "/_nds/ntr-forwarder/widescreen.pck"
 				},
 				{
 					"type": "promptMessage",
@@ -7052,7 +4665,9 @@
 		"icon": "https://raw.githubusercontent.com/NotImplementedLife/FSPDS/master/icon.bmp",
 		"long_description": "A DS ROM which allows playing DSi's Flipnote Studio (.ppm) files on a DS Phat/Lite. It features flipnote image and sound player with pause/resume option, and also a file metadata viewer.\n\nPlace the flipnotes you want to play in a `/flipnotes/` folder at the root of your SD card. FSPDS will not detect/play files larger than 1MB. It is also possible the app won't play correctly files with more than 512KB of BGM soundtrack (although I have never met such a file during my tests).",
 		"archive": {
-			"FSPDS-.*\\.zip": ["FSPDS.nds"]
+			"FSPDS-.*\\.zip": {
+				"FSPDS.nds": ["FSPDS.nds"]
+			}
 		}
 	},
 	{
@@ -7079,7 +4694,9 @@
 			}
 		},
 		"archive": {
-			"build.zip": ["NDSForwarder.dsi"]
+			"build.zip": {
+				"NDSForwarder.dsi": ["NDSForwarder.dsi"]
+			}
 		},
 		"unistore_exclude": true
 	}
