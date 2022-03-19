@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/TurtleP/Hax0r/releases/download/v1.2/Hax0r.zip
 github: TurtleP/Hax0r
 icon: https://raw.githubusercontent.com/TurtleP/Hax0r/master/graphics/icon.png
-icon_index: 115
+icon_index: 114
 image: https://db.universal-team.net/assets/images/images/hax0r.png
 image_length: 1812
 layout: app

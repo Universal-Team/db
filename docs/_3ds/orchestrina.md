@@ -1,5 +1,6 @@
 ---
 author: LeifEricson
+autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/13992834?v=4
 categories:
 - utility
@@ -15,7 +16,7 @@ downloads:
     url: https://github.com/EBLeifEricson/orchestrina/releases/download/v0.5.0-beta/Orchestrina.zip
 github: EBLeifEricson/orchestrina
 icon: https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/icon.png
-icon_index: 90
+icon_index: 89
 image: https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/banner2.png
 image_length: 14835
 layout: app

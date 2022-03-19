@@ -31,7 +31,7 @@ downloads:
     url: https://github.com/Core-2-Extreme/Line_for_3DS/releases/download/v1.7.2/Line_for_3DS_80mb.cia
 github: Core-2-Extreme/Line_for_3DS
 icon: https://raw.githubusercontent.com/Core-2-Extreme/Line_for_3DS/master/resource/icon.png
-icon_index: 178
+icon_index: 177
 image: https://raw.githubusercontent.com/Core-2-Extreme/Line_for_3DS/master/resource/banner.png
 image_length: 1824
 layout: app
@@ -47,17 +47,34 @@ source: https://github.com/Core-2-Extreme/Line_for_3DS
 systems:
 - 3DS
 title: Line for 3DS
-update_notes: "<ul dir=\"auto\">\n<li>\u3010App\u3011 Ver 1.7.2</li>\n<li>\u3010Line\u3011\
-  \ Fixed some bugs.</li>\n<li>\u3010Vid\u3011 Added debug information.</li>\n<li>\u3010\
-  Vid\u3011 Changed initial image size and position</li>\n<li>\u3010App\u3011 Some\
-  \ minor update to better user experience.</li>\n</ul>\n<p dir=\"auto\">**<strong>mb</strong>\
-  \ in Line_for_3DS_**<strong>mb</strong> .cia means usable RAM amount in the app,\
-  \ <br>\nif you use 124mb or 178mb.cia on OLD3DS it should work as 64mb.cia.<br>\n\
-  if you don't understand this, please use <strong>64mb.cia</strong>.</p>\n<h1 dir=\"\
-  auto\">Discord</h1>\n<p dir=\"auto\"><a href=\"https://discord.gg/EqK3Kpb\" rel=\"\
-  nofollow\">https://discord.gg/EqK3Kpb</a></p>\n<h1 dir=\"auto\">How to use</h1>\n\
-  <p dir=\"auto\"><a href=\"https://gbatemp.net/threads/line-for-3ds.539530/\" rel=\"\
-  nofollow\">https://gbatemp.net/threads/line-for-3ds.539530/</a></p>"
+update_notes: '<ul dir="auto">
+
+  <li>【App】 Ver 1.7.2</li>
+
+  <li>【Line】 Fixed some bugs.</li>
+
+  <li>【Vid】 Added debug information.</li>
+
+  <li>【Vid】 Changed initial image size and position</li>
+
+  <li>【App】 Some minor update to better user experience.</li>
+
+  </ul>
+
+  <p dir="auto">**<strong>mb</strong> in Line_for_3DS_**<strong>mb</strong> .cia means
+  usable RAM amount in the app, <br>
+
+  if you use 124mb or 178mb.cia on OLD3DS it should work as 64mb.cia.<br>
+
+  if you don''t understand this, please use <strong>64mb.cia</strong>.</p>
+
+  <h1 dir="auto">Discord</h1>
+
+  <p dir="auto"><a href="https://discord.gg/EqK3Kpb" rel="nofollow">https://discord.gg/EqK3Kpb</a></p>
+
+  <h1 dir="auto">How to use</h1>
+
+  <p dir="auto"><a href="https://gbatemp.net/threads/line-for-3ds.539530/" rel="nofollow">https://gbatemp.net/threads/line-for-3ds.539530/</a></p>'
 updated: '2021-01-07T11:54:17Z'
 version: v1.7.2
 version_title: Line for 3DS v1.7.2

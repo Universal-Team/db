@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/MechanicalDragon0687/MCU_Bricker_tinydb/releases/download/1.0/RGB.cia
 github: MechanicalDragon0687/MCU_Bricker_tinydb
 icon: https://db.universal-team.net/assets/images/icons/mcu-bricker.png
-icon_index: 39
+icon_index: 38
 image: https://db.universal-team.net/assets/images/images/mcu-bricker.png
 image_length: 6151
 layout: app

@@ -57,7 +57,7 @@ downloads:
     size: 42983604
     size_str: 40 MiB
     url: https://api.bitbucket.org/2.0/repositories/DeadSkullzJr/nds-i-cheat-databases/src/963fff3858de7539891ef7918d992b8b06972a48/Cheat%20Databases/usrcheat.dat
-icon_index: 142
+icon_index: 141
 image: https://db.universal-team.net/assets/images/images/ndsi-cheat-databases.png
 image_length: 10188
 layout: app

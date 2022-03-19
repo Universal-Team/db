@@ -36,7 +36,7 @@ downloads:
     url: https://github.com/MrHuu/opentitus-3ds/releases/download/27-12-2018/OpenTitus_TITUS_LOW_FREQ_27-12-2018.7z
 github: MrHuu/opentitus-3ds
 icon: https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_icon_48x48.png
-icon_index: 44
+icon_index: 43
 image: https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_banner.png
 image_length: 24903
 layout: app

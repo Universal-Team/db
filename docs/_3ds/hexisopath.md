@@ -1,5 +1,5 @@
 ---
-author: "Th\xE9o B."
+author: Théo B.
 avatar: https://avatars.githubusercontent.com/u/16072534?v=4
 categories:
 - game
@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/LiquidFenrir/HexIsoPath/releases/download/v1.1.0/HexIsoPath.cia
 github: LiquidFenrir/HexIsoPath
 icon: https://raw.githubusercontent.com/LiquidFenrir/HexIsoPath/master/icon.png
-icon_index: 66
+icon_index: 65
 image: https://raw.githubusercontent.com/LiquidFenrir/HexIsoPath/master/banner.png
 image_length: 6762
 layout: app

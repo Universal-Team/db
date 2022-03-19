@@ -7,7 +7,7 @@ categories:
 color: '#adb1a4'
 color_bg: '#7d8076'
 created: '2015-10-14T14:54:41Z'
-description: "Pok\xE9mon Dream Radar Savegame Editor for 3DS"
+description: Pokémon Dream Radar Savegame Editor for 3DS
 download_page: https://github.com/suloku/pdrpse/releases
 downloads:
   pdrpse_0.3.zip:
@@ -16,7 +16,7 @@ downloads:
     url: https://github.com/suloku/pdrpse/releases/download/0.3/pdrpse_0.3.zip
 github: suloku/pdrpse
 icon: https://raw.githubusercontent.com/suloku/pdrpse/master/icon.png
-icon_index: 130
+icon_index: 129
 image: https://db.universal-team.net/assets/images/images/pdrpse.png
 image_length: 11567
 layout: app

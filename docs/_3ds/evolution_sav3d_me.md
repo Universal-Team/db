@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/Manurocker95/Evolution_Sav3D_Me/releases/download/1.1/Evolution_Sav3D_Me.rar
 github: Manurocker95/Evolution_Sav3D_Me
 icon: https://raw.githubusercontent.com/Manurocker95/Evolution_Sav3D_Me/Evolution_Sav3D_Me/icon.png
-icon_index: 75
+icon_index: 74
 image: https://db.universal-team.net/assets/images/images/evolution_sav3d_me.png
 image_length: 4888
 layout: app

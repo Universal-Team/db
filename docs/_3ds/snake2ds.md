@@ -7,7 +7,7 @@ categories:
 color: '#d6d6d6'
 color_bg: '#808080'
 created: '2016-06-03T14:02:09Z'
-description: "A Snake Clone for the Nintendo 3DS. Made with L\xF6vePotion."
+description: A Snake Clone for the Nintendo 3DS. Made with LövePotion.
 download_page: https://github.com/Jacudibu/Snake2DS/releases
 downloads:
   Snake2DS-3DSFiles-v1.0.zip:
@@ -24,7 +24,7 @@ downloads:
     url: https://github.com/Jacudibu/Snake2DS/releases/download/v1.0/Snake2DS.cia
 github: Jacudibu/Snake2DS
 icon: https://raw.githubusercontent.com/Jacudibu/Snake2DS/master/icon_large.png
-icon_index: 118
+icon_index: 117
 image: https://db.universal-team.net/assets/images/images/snake2ds.png
 image_length: 1209
 layout: app

@@ -1,8 +1,5 @@
 ---
-archive:
-  S8DS.zip:
-  - S8DS.nds
-author: "Fredrik Ahlstr\xF6m"
+author: Fredrik Ahlström
 avatar: https://avatars.githubusercontent.com/u/2324920?v=4
 categories:
 - emulator
@@ -18,7 +15,7 @@ downloads:
     url: https://github.com/FluBBaOfWard/S8DS/releases/download/v1.1.6/S8DS.zip
 github: FluBBaOfWard/S8DS
 icon: https://db.universal-team.net/assets/images/icons/s8ds.png
-icon_index: 193
+icon_index: 192
 image: https://db.universal-team.net/assets/images/icons/s8ds.png
 image_length: 630
 layout: app

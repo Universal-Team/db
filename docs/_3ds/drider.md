@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/ingolemo/drider/releases/download/v0.6/drider.zip
 github: ingolemo/drider
 icon: https://raw.githubusercontent.com/ingolemo/drider/master/icon.png
-icon_index: 68
+icon_index: 67
 image: https://raw.githubusercontent.com/ingolemo/drider/master/banner.png
 image_length: 22607
 layout: app

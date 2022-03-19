@@ -1,5 +1,5 @@
 ---
-author: "N\u2022I\u2022L"
+author: N•I•L
 avatar: https://avatars.githubusercontent.com/u/70803115?v=4
 categories:
 - game
@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/NotImplementedLife/d-Elusion/releases/download/0.3/d-Elusion.nds
 github: NotImplementedLife/d-Elusion
 icon: https://db.universal-team.net/assets/images/icons/d-elusion.png
-icon_index: 202
+icon_index: 201
 image: https://db.universal-team.net/assets/images/icons/d-elusion.png
 image_length: 630
 layout: app

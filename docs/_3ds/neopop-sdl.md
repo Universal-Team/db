@@ -1,6 +1,5 @@
 ---
 author: nop90
-autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/6418965?v=4
 categories:
 - emulator
@@ -11,7 +10,7 @@ description: Neo Geo Pocket Color Emulator for 3DS
 download_page: https://github.com/nop90/Neopop-SDL/releases
 github: nop90/Neopop-SDL
 icon: https://raw.githubusercontent.com/nop90/Neopop-SDL/master/resources/icon.png
-icon_index: 83
+icon_index: 82
 image: https://raw.githubusercontent.com/nop90/Neopop-SDL/master/resources/banner.png
 image_length: 37739
 layout: app

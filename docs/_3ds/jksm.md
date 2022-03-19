@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/J-D-K/JKSM/releases/download/05.08.2020/JKSM.cia
 github: J-D-K/JKSM
 icon: https://raw.githubusercontent.com/J-D-K/JKSM/master/icon.png
-icon_index: 45
+icon_index: 44
 image: https://db.universal-team.net/assets/images/images/jksm.png
 image_length: 954
 layout: app

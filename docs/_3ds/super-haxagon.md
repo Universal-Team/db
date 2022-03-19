@@ -23,7 +23,7 @@ downloads:
     url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.4.0/nspire-arm.zip
 github: RedInquisitive/Super-Haxagon
 icon: https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/icon-3ds.png
-icon_index: 101
+icon_index: 100
 image: https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/banner.png
 image_length: 114192
 layout: app
@@ -46,26 +46,48 @@ source: https://github.com/RedTopper/Super-Haxagon
 systems:
 - 3DS
 title: Super-Haxagon
-update_notes: "<h1>Super Haxagon 3.4.0</h1>\n<h3>About this build:</h3>\n<p>Most systems\
-  \ haven't significantly changed across platforms. All have been tested on hardware.\
-  \ This is primarily a release for the TI-Nspire but I'll upload new builds here\
-  \ to keep them up to date.</p>\n<p>As for the TI-Nspire build the credits and beatmaps\
-  \ are not currently working.</p>\n<p><g-emoji class=\"g-emoji\" alias=\"warning\"\
-  \ fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\"\
-  >\u26A0\uFE0F</g-emoji> Install: Copy <code>haxagon.tns</code> AND <code>levels.haxagon.tns</code>\
-  \ into the <code>ndless</code> folder <g-emoji class=\"g-emoji\" alias=\"warning\"\
-  \ fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/26a0.png\"\
-  >\u26A0\uFE0F</g-emoji></p>\n<h3>A summary:</h3>\n<p>I've finally come back to what\
-  \ started my programming adventure. A simple app for a calculator. In 2013 I released\
-  \ the program \"Super Hexaspire\" as an alpha. At the time I had no idea that programming\
-  \ would turn into a career.</p>\n<p>So here we are today, porting a game around\
-  \ to so many different platforms. Starting with the Nspire, moving to the 3DS, then\
-  \ to PC, then to the Switch, and finally back to the Nspire. Super Haxagon has been\
-  \ quite a project over the years and taught me many things about technology, and\
-  \ for that I am grateful.</p>\n<h3>Timeline:</h3>\n<p>2013: TI-Nspire version Alpha<br>\n\
-  2016: 3DS version 1<br>\n2017: 3DS version 2 (Complete Rewrite)<br>\n2020: 3DS version\
-  \ 3 (Complete Rewrite)<br>\n2020: Windows and Linux release<br>\n2020: Nintendo\
-  \ Switch release<br>\n2021: TI-Nspire release</p>\n<h3>Thanks for playing!</h3>"
+update_notes: '<h1>Super Haxagon 3.4.0</h1>
+
+  <h3>About this build:</h3>
+
+  <p>Most systems haven''t significantly changed across platforms. All have been tested
+  on hardware. This is primarily a release for the TI-Nspire but I''ll upload new
+  builds here to keep them up to date.</p>
+
+  <p>As for the TI-Nspire build the credits and beatmaps are not currently working.</p>
+
+  <p><g-emoji class="g-emoji" alias="warning" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png">⚠️</g-emoji>
+  Install: Copy <code>haxagon.tns</code> AND <code>levels.haxagon.tns</code> into
+  the <code>ndless</code> folder <g-emoji class="g-emoji" alias="warning" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png">⚠️</g-emoji></p>
+
+  <h3>A summary:</h3>
+
+  <p>I''ve finally come back to what started my programming adventure. A simple app
+  for a calculator. In 2013 I released the program "Super Hexaspire" as an alpha.
+  At the time I had no idea that programming would turn into a career.</p>
+
+  <p>So here we are today, porting a game around to so many different platforms. Starting
+  with the Nspire, moving to the 3DS, then to PC, then to the Switch, and finally
+  back to the Nspire. Super Haxagon has been quite a project over the years and taught
+  me many things about technology, and for that I am grateful.</p>
+
+  <h3>Timeline:</h3>
+
+  <p>2013: TI-Nspire version Alpha<br>
+
+  2016: 3DS version 1<br>
+
+  2017: 3DS version 2 (Complete Rewrite)<br>
+
+  2020: 3DS version 3 (Complete Rewrite)<br>
+
+  2020: Windows and Linux release<br>
+
+  2020: Nintendo Switch release<br>
+
+  2021: TI-Nspire release</p>
+
+  <h3>Thanks for playing!</h3>'
 updated: '2021-02-20T07:45:33Z'
 version: 3.4.0
 version_title: TI-Nspire release

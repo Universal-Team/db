@@ -23,7 +23,7 @@ downloads:
     url: https://github.com/noirscape/dses/releases/download/v1.1/DSES.zip
 github: noirscape/dses
 icon: https://raw.githubusercontent.com/noirscape/dses/master/meta/icon.png
-icon_index: 47
+icon_index: 46
 image: https://raw.githubusercontent.com/noirscape/dses/master/meta/banner.png
 image_length: 51919
 layout: app

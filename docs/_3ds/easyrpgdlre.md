@@ -1,5 +1,5 @@
 ---
-author: "M\xE1rio Alexandre Lopes Liberato"
+author: Mário Alexandre Lopes Liberato
 avatar: https://avatars.githubusercontent.com/u/11259227?v=4
 categories:
 - utility
@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/gnmmarechal/easyrpgdlre/releases/download/v2.1.1/easyrpg-updater-re-v2.1.1.cia
 github: gnmmarechal/easyrpgdlre
 icon: https://db.universal-team.net/assets/images/icons/easyrpgdlre.png
-icon_index: 113
+icon_index: 112
 image: https://db.universal-team.net/assets/images/images/easyrpgdlre.png
 image_length: 2573
 layout: app

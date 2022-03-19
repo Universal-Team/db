@@ -35,7 +35,7 @@ downloads:
     url: https://github.com/dnasdw/SharedFontTool/releases/download/v3.1/SFontT80.zip
 github: dnasdw/SharedFontTool
 icon: https://raw.githubusercontent.com/dnasdw/SharedFontTool/master/meta/icon_3ds.png
-icon_index: 49
+icon_index: 48
 image: https://raw.githubusercontent.com/dnasdw/SharedFontTool/master/meta/banner_3ds.png
 image_length: 46802
 layout: app
@@ -48,8 +48,11 @@ source: https://github.com/dnasdw/SharedFontTool
 systems:
 - 3DS
 title: SharedFontTool
-update_notes: "<p dir=\"auto\">Fix START exit bug</p>\n<p dir=\"auto\">SFontT: ACG\
-  \ SharedFontTool v3.1<br>\nSFontT80: ACG \u5927 SharedFontTool v3.1</p>"
+update_notes: '<p dir="auto">Fix START exit bug</p>
+
+  <p dir="auto">SFontT: ACG SharedFontTool v3.1<br>
+
+  SFontT80: ACG 大 SharedFontTool v3.1</p>'
 updated: '2018-08-13T06:45:19Z'
 version: v3.1
 version_title: SharedFontTool v3.1

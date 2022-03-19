@@ -6,7 +6,7 @@ categories:
 color: '#282928'
 color_bg: '#282928'
 created: '2019-04-27T19:07:23Z'
-description: "Open-Source lookalike of nocash\u2019s Unlaunch.dsi"
+description: Open-Source lookalike of nocash’s Unlaunch.dsi
 download_page: https://github.com/Universal-Team/Relaunch/releases
 downloads:
   Relaunch.7z:

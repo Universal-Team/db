@@ -1,6 +1,5 @@
 ---
 author: Giantblargg
-autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/1700581?v=4
 categories:
 - utility
@@ -20,7 +19,7 @@ downloads:
     url: https://github.com/GiantBlargg/UpdateSuppressor/releases/download/v0.2.0/UpdateSuppressor.cia
 github: GiantBlargg/UpdateSuppressor
 icon: https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/icon.png
-icon_index: 129
+icon_index: 128
 image: https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/banner.png
 image_length: 9099
 layout: app

@@ -10,7 +10,7 @@ description: prboom for the 3ds
 download_page: https://github.com/elhobbs/prboom3ds/releases
 github: elhobbs/prboom3ds
 icon: https://raw.githubusercontent.com/elhobbs/prboom3ds/master/prboom3ds.png
-icon_index: 38
+icon_index: 37
 image: https://raw.githubusercontent.com/elhobbs/prboom3ds/master/banner.png
 image_length: 61311
 layout: app
@@ -35,10 +35,6 @@ prerelease:
       size: 1007040
       size_str: 983 KiB
       url: https://github.com/elhobbs/prboom3ds/releases/download/v0.7-alpha/prboom3ds.cia
-    prboom3ds.smdh:
-      size: 14016
-      size_str: 13 KiB
-      url: https://github.com/elhobbs/prboom3ds/releases/download/v0.7-alpha/prboom3ds.smdh
   qr:
     prboom3ds.cia: https://db.universal-team.net/assets/images/qr/prerelease/prboom3ds-cia.png
   update_notes: '<p dir="auto">enum fix, enable lto, 3d view change</p>

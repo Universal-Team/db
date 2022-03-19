@@ -1,6 +1,5 @@
 ---
 author: Mahyar Koshkouei
-autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/3747104?v=4
 categories:
 - utility
@@ -20,7 +19,7 @@ downloads:
     url: https://github.com/deltabeard/ctrmus/releases/download/0.4.12/ctrmus.zip
 github: deltabeard/ctrmus
 icon: https://raw.githubusercontent.com/deltabeard/ctrmus/master/meta/icon.png
-icon_index: 79
+icon_index: 78
 image: https://raw.githubusercontent.com/deltabeard/ctrmus/master/meta/banner.png
 image_length: 11483
 layout: app

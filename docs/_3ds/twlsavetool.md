@@ -1,6 +1,5 @@
 ---
 author: TuxSH
-autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/1922548?v=4
 categories:
 - utility
@@ -22,7 +21,7 @@ downloads:
     url: https://github.com/TuxSH/TWLSaveTool/releases/download/v1.2/TWLSaveTool.zip
 github: TuxSH/TWLSaveTool
 icon: https://raw.githubusercontent.com/TuxSH/TWLSaveTool/master/app/IconLarge.png
-icon_index: 119
+icon_index: 118
 image: https://raw.githubusercontent.com/TuxSH/TWLSaveTool/master/app/IconLarge.png
 image_length: 2479
 layout: app
@@ -34,11 +33,13 @@ source: https://github.com/TuxSH/TWLSaveTool
 systems:
 - 3DS
 title: TWLSaveTool
-update_notes: "<ul dir=\"auto\">\n<li>Fix Pok\xE9mon Mystery Dungeon: Explorers of\
-  \ Sky (thanks to <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
-  /users/Steveice10/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
-  link_type:self\" href=\"https://github.com/Steveice10\">@Steveice10</a>)</li>\n\
-  </ul>"
+update_notes: '<ul dir="auto">
+
+  <li>Fix Pokémon Mystery Dungeon: Explorers of Sky (thanks to <a class="user-mention"
+  data-hovercard-type="user" data-hovercard-url="/users/Steveice10/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Steveice10">@Steveice10</a>)</li>
+
+  </ul>'
 updated: '2016-08-27T19:27:37Z'
 version: v1.2
 version_title: TWLSaveTool v1.2

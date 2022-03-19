@@ -1,6 +1,5 @@
 ---
 author: noirscape
-autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/13433513?v=4
 categories:
 - utility
@@ -21,7 +20,7 @@ downloads:
     url: https://github.com/noirscape/SRAU/releases/download/v1.1/SRAU.cia
 github: noirscape/SRAU
 icon: https://raw.githubusercontent.com/noirscape/SRAU/master/meta/icon.png
-icon_index: 55
+icon_index: 54
 image: https://raw.githubusercontent.com/noirscape/SRAU/master/meta/banner.png
 image_length: 13110
 layout: app

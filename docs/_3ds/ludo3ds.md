@@ -6,7 +6,7 @@ categories:
 color: '#675f5d'
 color_bg: '#675f5d'
 created: '2020-10-11T22:29:51Z'
-description: "Ein Ludo klon f\xFCr den Nintendo 3DS."
+description: Ein Ludo klon für den Nintendo 3DS.
 download_page: https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases
 downloads:
   Ludo3DS.3dsx:

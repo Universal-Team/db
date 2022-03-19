@@ -7,8 +7,8 @@ categories:
 color: '#964644'
 color_bg: '#803c3a'
 created: '2019-06-08T01:46:43Z'
-description: "A Pok\xE9mon Bank for the 3rd through 5th generation Pok\xE9mon games\
-  \ for the Nintendo DS(i)."
+description: A Pokémon Bank for the 3rd through 5th generation Pokémon games for the
+  Nintendo DS(i).
 download_page: https://github.com/Universal-Team/pkmn-chest/releases
 downloads:
   pkmn-chest.cia:
@@ -75,30 +75,69 @@ source: https://github.com/Universal-Team/pkmn-chest
 systems:
 - DS
 title: pkmn-chest
-update_notes: "<blockquote>\n<p dir=\"auto\">Pok\xE9mon Chest, a Pok\xE9mon bank for\
-  \ the Nintendo DS(i)</p>\n</blockquote>\n<h4 dir=\"auto\">What's new:</h4>\n<ul\
-  \ dir=\"auto\">\n<li>The config menu can now be accessed with <kbd>SELECT</kbd>\
-  \ on the top menu</li>\n<li>Directories can now be added to the top menu as favorites</li>\n\
-  <li>The Fateful Encounter status of a Pok\xE9mon can now be changed\n<ul dir=\"\
-  auto\">\n<li>In Generation 3 Mew must be a Fateful Encounter to obey</li>\n</ul>\n\
-  </li>\n<li>Updated the chest to use PKSM's latest bank version</li>\n<li>A warning\
-  \ will now be shown before turning off if an exception is thrown</li>\n</ul>\n<h4\
-  \ dir=\"auto\">Bug fixes:</h4>\n<ul dir=\"auto\">\n<li>Fixed party Pok\xE9mon's\
-  \ stats not updating until moved to/from the PC</li>\n<li>Fixed the kerning on some\
-  \ characters in the font</li>\n<li>Fixed Korean being called <code>\uD55C\uAD6D\
-  </code> instead of <code>\uD55C\uAD6D\uC5B4</code></li>\n<li>Fixed TM/HM pocket\
-  \ being called Pok\xE9 Balls</li>\n<li>Fixed HMs not showing correctly in some Generation\
-  \ 3 games</li>\n<li>(<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
-  /users/remicalixte/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
-  link_type:self\" href=\"https://github.com/remicalixte\">@remicalixte</a>) Fixed\
-  \ shiny star not hiding after moving off a shiny Pok\xE9mon</li>\n<li>Several bug\
-  \ fixes in <a href=\"https://github.com/Flagbrew/PKSM-Core/compare/b543fa321133c5b5af784a09437e417cae26e094...27ba4a6ce64bf4206d0cce92f09d223c65dc975d\"\
-  >PKSM-Core</a></li>\n</ul>\n<h4 dir=\"auto\">Side notes:</h4>\n<ul dir=\"auto\"\
-  >\n<li>Nightly builds are available in the extras <a href=\"https://github.com/Universal-Team/extras/tree/master/builds/pkmn-chest\"\
-  >repo</a> &amp; <a href=\"https://github.com/Universal-Team/extras/releases\">releases</a>.</li>\n\
-  <li>Report any bugs you find <a href=\"https://github.com/Universal-Team/pkmn-chest/issues/new/choose\"\
-  >here</a>, and you can join our Discord server <a href=\"https://discord.gg/KDJCfGF\"\
-  \ rel=\"nofollow\">here</a></li>\n</ul>"
+update_notes: '<blockquote>
+
+  <p dir="auto">Pokémon Chest, a Pokémon bank for the Nintendo DS(i)</p>
+
+  </blockquote>
+
+  <h4 dir="auto">What''s new:</h4>
+
+  <ul dir="auto">
+
+  <li>The config menu can now be accessed with <kbd>SELECT</kbd> on the top menu</li>
+
+  <li>Directories can now be added to the top menu as favorites</li>
+
+  <li>The Fateful Encounter status of a Pokémon can now be changed
+
+  <ul dir="auto">
+
+  <li>In Generation 3 Mew must be a Fateful Encounter to obey</li>
+
+  </ul>
+
+  </li>
+
+  <li>Updated the chest to use PKSM''s latest bank version</li>
+
+  <li>A warning will now be shown before turning off if an exception is thrown</li>
+
+  </ul>
+
+  <h4 dir="auto">Bug fixes:</h4>
+
+  <ul dir="auto">
+
+  <li>Fixed party Pokémon''s stats not updating until moved to/from the PC</li>
+
+  <li>Fixed the kerning on some characters in the font</li>
+
+  <li>Fixed Korean being called <code>한국</code> instead of <code>한국어</code></li>
+
+  <li>Fixed TM/HM pocket being called Poké Balls</li>
+
+  <li>Fixed HMs not showing correctly in some Generation 3 games</li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/remicalixte/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/remicalixte">@remicalixte</a>)
+  Fixed shiny star not hiding after moving off a shiny Pokémon</li>
+
+  <li>Several bug fixes in <a href="https://github.com/Flagbrew/PKSM-Core/compare/b543fa321133c5b5af784a09437e417cae26e094...27ba4a6ce64bf4206d0cce92f09d223c65dc975d">PKSM-Core</a></li>
+
+  </ul>
+
+  <h4 dir="auto">Side notes:</h4>
+
+  <ul dir="auto">
+
+  <li>Nightly builds are available in the extras <a href="https://github.com/Universal-Team/extras/tree/master/builds/pkmn-chest">repo</a>
+  &amp; <a href="https://github.com/Universal-Team/extras/releases">releases</a>.</li>
+
+  <li>Report any bugs you find <a href="https://github.com/Universal-Team/pkmn-chest/issues/new/choose">here</a>,
+  and you can join our Discord server <a href="https://discord.gg/KDJCfGF" rel="nofollow">here</a></li>
+
+  </ul>'
 updated: '2020-07-07T04:00:43Z'
 version: v2.2
 version_title: Easy config access, favorite folders, and various bug fixes

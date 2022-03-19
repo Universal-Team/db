@@ -1,8 +1,5 @@
 ---
-archive:
-  NitroSwan.zip:
-  - NitroSwan.nds
-author: "Fredrik Ahlstr\xF6m"
+author: Fredrik Ahlström
 avatar: https://avatars.githubusercontent.com/u/2324920?v=4
 categories:
 - emulator
@@ -18,7 +15,7 @@ downloads:
     url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.3.5/NitroSwan.zip
 github: FluBBaOfWard/NitroSwan
 icon: https://db.universal-team.net/assets/images/icons/nitroswan.png
-icon_index: 194
+icon_index: 193
 image: https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/logo.png
 image_length: 38554
 layout: app

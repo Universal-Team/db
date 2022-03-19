@@ -16,7 +16,7 @@ downloads:
     url: https://github.com/DesperateProgrammer/ParkingRampage/raw/main/ParkingRampage.nds
 github: DesperateProgrammer/ParkingRampage
 icon: https://db.universal-team.net/assets/images/icons/parkinrampage.png
-icon_index: 163
+icon_index: 162
 image: https://raw.githubusercontent.com/DesperateProgrammer/ParkingRampage/main/gfx/title.png
 image_length: 23442
 layout: app

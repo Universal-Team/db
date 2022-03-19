@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/RMcTn/Notepad3DS/releases/download/1.1.2/Notepad3DS.cia
 github: RMcTn/Notepad3DS
 icon: https://raw.githubusercontent.com/RMcTn/Notepad3DS/master/icon.png
-icon_index: 67
+icon_index: 66
 image: https://db.universal-team.net/assets/images/images/notepad3ds.png
 image_length: 588
 layout: app

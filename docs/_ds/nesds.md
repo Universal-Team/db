@@ -1,6 +1,5 @@
 ---
 author: huiminghao / Coto
-autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/46971470?v=4
 categories:
 - emulator

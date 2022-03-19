@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/ApacheThunder/NTR_Launcher/releases/download/2.5/NTR_Launcher_v2_5.zip
 github: ApacheThunder/NTR_Launcher
 icon: https://db.universal-team.net/assets/images/icons/ntr-launcher.png
-icon_index: 182
+icon_index: 181
 image: https://db.universal-team.net/assets/images/images/ntr-launcher.png
 image_length: 721
 layout: app

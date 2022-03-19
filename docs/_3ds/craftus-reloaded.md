@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/RSDuck/craftus_reloaded/releases/download/0.3/craftus_reloaded.cia
 github: RSDuck/craftus_reloaded
 icon: https://raw.githubusercontent.com/RSDuck/craftus_reloaded/master/icon/craftusreloaded.png
-icon_index: 74
+icon_index: 73
 image: https://raw.githubusercontent.com/RSDuck/craftus_reloaded/master/icon/craftusreloaded.png
 image_length: 4470
 layout: app

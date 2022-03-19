@@ -1,6 +1,5 @@
 ---
 author: Viktor Varga
-autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/12373906?v=4
 categories:
 - game
@@ -29,7 +28,7 @@ downloads:
     url: https://github.com/vargaviktor/ZeldaROTH/releases/download/1.0.3-beta/qrcode.png
 github: vargaviktor/ZeldaROTH
 icon: https://raw.githubusercontent.com/vargaviktor/ZeldaROTH/master/resources/icon.png
-icon_index: 122
+icon_index: 121
 image: https://raw.githubusercontent.com/vargaviktor/ZeldaROTH/master/resources/banner.png
 image_length: 7049
 layout: app

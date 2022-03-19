@@ -6,8 +6,7 @@ categories:
 color: '#4bbbf5'
 color_bg: '#276180'
 created: '2017-06-05T00:05:27Z'
-description: "The 3DS Homebrew Menu (\u2229 \u0361\xB0 \u035C\u0296 \u0361\xB0)\u2283\
-  \u2501\u2606\uFF9F "
+description: 'The 3DS Homebrew Menu (∩ ͡° ͜ʖ ͡°)⊃━☆ﾟ '
 download_page: https://github.com/fincs/new-hbmenu/releases
 downloads:
   boot.3dsx:
@@ -16,7 +15,7 @@ downloads:
     url: https://github.com/fincs/new-hbmenu/releases/download/v2.3.0/boot.3dsx
 github: fincs/new-hbmenu
 icon: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
-icon_index: 150
+icon_index: 149
 image: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
 image_length: 21865
 layout: app

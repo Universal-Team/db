@@ -10,7 +10,7 @@ description: 'Linux for 3DS - Default log in username: root password: toor'
 download_page: https://github.com/linux-3ds/linux/releases
 github: linux-3ds/linux
 icon: https://github.com/linux-3ds.png?size=48
-icon_index: 165
+icon_index: 164
 image: https://github.com/linux-3ds.png
 image_length: 210907
 layout: app

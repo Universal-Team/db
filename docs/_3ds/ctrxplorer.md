@@ -1,6 +1,5 @@
 ---
 author: d0k3
-autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/12467483?v=4
 categories:
 - utility
@@ -20,7 +19,7 @@ downloads:
     url: https://github.com/d0k3/CTRXplorer/releases/download/v0.9.8.1/CTRXplorer.v0.9.8.1.zip
 github: d0k3/CTRXplorer
 icon: https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/icon.png
-icon_index: 97
+icon_index: 96
 image: https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/banner.png
 image_length: 6146
 layout: app

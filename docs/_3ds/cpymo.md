@@ -10,7 +10,7 @@ description: PyMO AVG Game Engine implemention in C.
 download_page: https://github.com/Strrationalism/CPyMO/releases
 github: Strrationalism/CPyMO
 icon: https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/icon.png
-icon_index: 204
+icon_index: 203
 image: https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/banner.png
 image_length: 30736
 layout: app
@@ -29,24 +29,27 @@ prerelease:
       url: https://github.com/Strrationalism/CPyMO/releases/download/v0.9.5/cpymo.cia
   qr:
     cpymo.cia: https://db.universal-team.net/assets/images/qr/prerelease/cpymo-cia.png
-  update_notes: "<h1 dir=\"auto\">CPyMO Beta Release 6</h1>\n<ul dir=\"auto\">\n<li>\u767B\
-    \u5F55<a href=\"https://db.universal-team.net/3ds/cpymo\" rel=\"nofollow\">Universal\
-    \ Updater\u5E94\u7528\u5546\u5E97</a></li>\n<li>\u652F\u6301\u4EFB\u5929\u5802\
-    Switch</li>\n<li>\u4FEE\u590D <a class=\"issue-link js-issue-link\" data-error-text=\"\
-    Failed to load title\" data-id=\"1167493259\" data-permission-text=\"Title is\
-    \ private\" data-url=\"https://github.com/Strrationalism/CPyMO/issues/3\" data-hovercard-type=\"\
-    issue\" data-hovercard-url=\"/Strrationalism/CPyMO/issues/3/hovercard\" href=\"\
-    https://github.com/Strrationalism/CPyMO/issues/3\">#3</a></li>\n<li>\u4FEE\u6B63\
-    \u7ACB\u7ED8\u987A\u5E8F\u9519\u8BEF\u95EE\u9898</li>\n</ul>\n<p dir=\"auto\"\
-    >\u4E4B\u540E\u4E0D\u518D\u53D1\u5E03FBI\u4E8C\u7EF4\u7801\uFF0C\u4F60\u53EF\u4EE5\
-    \u76F4\u63A5\u5728Universal Updater\u5E94\u7528\u5546\u5E97\u7684\u94FE\u63A5\u4E2D\
-    \u83B7\u53D6\u4E8C\u7EF4\u7801\u3002</p>"
-  update_notes_md: "# CPyMO Beta Release 6\n\n* \u767B\u5F55[Universal Updater\u5E94\
-    \u7528\u5546\u5E97](https://db.universal-team.net/3ds/cpymo)\n* \u652F\u6301\u4EFB\
-    \u5929\u5802Switch\n* \u4FEE\u590D #3 \n* \u4FEE\u6B63\u7ACB\u7ED8\u987A\u5E8F\
-    \u9519\u8BEF\u95EE\u9898\n\n\u4E4B\u540E\u4E0D\u518D\u53D1\u5E03FBI\u4E8C\u7EF4\
-    \u7801\uFF0C\u4F60\u53EF\u4EE5\u76F4\u63A5\u5728Universal Updater\u5E94\u7528\u5546\
-    \u5E97\u7684\u94FE\u63A5\u4E2D\u83B7\u53D6\u4E8C\u7EF4\u7801\u3002\n"
+  update_notes: '<h1 dir="auto">CPyMO Beta Release 6</h1>
+
+    <ul dir="auto">
+
+    <li>登录<a href="https://db.universal-team.net/3ds/cpymo" rel="nofollow">Universal
+    Updater应用商店</a></li>
+
+    <li>支持任天堂Switch</li>
+
+    <li>修复 <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="1167493259" data-permission-text="Title is private" data-url="https://github.com/Strrationalism/CPyMO/issues/3"
+    data-hovercard-type="issue" data-hovercard-url="/Strrationalism/CPyMO/issues/3/hovercard"
+    href="https://github.com/Strrationalism/CPyMO/issues/3">#3</a></li>
+
+    <li>修正立绘顺序错误问题</li>
+
+    </ul>
+
+    <p dir="auto">之后不再发布FBI二维码，你可以直接在Universal Updater应用商店的链接中获取二维码。</p>'
+  update_notes_md: "# CPyMO Beta Release 6\n\n* 登录[Universal Updater应用商店](https://db.universal-team.net/3ds/cpymo)\n\
+    * 支持任天堂Switch\n* 修复 #3 \n* 修正立绘顺序错误问题\n\n之后不再发布FBI二维码，你可以直接在Universal Updater应用商店的链接中获取二维码。\n"
   updated: '2022-03-15T08:59:44Z'
   version: v0.9.5
   version_title: Beta Release 6
@@ -54,18 +57,25 @@ source: https://github.com/Strrationalism/CPyMO
 systems:
 - 3DS
 title: CPyMO
-update_notes: "<h1 dir=\"auto\">CPyMO Beta Release 6</h1>\n<ul dir=\"auto\">\n<li>\u767B\
-  \u5F55<a href=\"https://db.universal-team.net/3ds/cpymo\" rel=\"nofollow\">Universal\
-  \ Updater\u5E94\u7528\u5546\u5E97</a></li>\n<li>\u652F\u6301\u4EFB\u5929\u5802Switch</li>\n\
-  <li>\u4FEE\u590D <a class=\"issue-link js-issue-link\" data-error-text=\"Failed\
-  \ to load title\" data-id=\"1167493259\" data-permission-text=\"Title is private\"\
-  \ data-url=\"https://github.com/Strrationalism/CPyMO/issues/3\" data-hovercard-type=\"\
-  issue\" data-hovercard-url=\"/Strrationalism/CPyMO/issues/3/hovercard\" href=\"\
-  https://github.com/Strrationalism/CPyMO/issues/3\">#3</a></li>\n<li>\u4FEE\u6B63\
-  \u7ACB\u7ED8\u987A\u5E8F\u9519\u8BEF\u95EE\u9898</li>\n</ul>\n<p dir=\"auto\">\u4E4B\
-  \u540E\u4E0D\u518D\u53D1\u5E03FBI\u4E8C\u7EF4\u7801\uFF0C\u4F60\u53EF\u4EE5\u76F4\
-  \u63A5\u5728Universal Updater\u5E94\u7528\u5546\u5E97\u7684\u94FE\u63A5\u4E2D\u83B7\
-  \u53D6\u4E8C\u7EF4\u7801\u3002</p>"
+update_notes: '<h1 dir="auto">CPyMO Beta Release 6</h1>
+
+  <ul dir="auto">
+
+  <li>登录<a href="https://db.universal-team.net/3ds/cpymo" rel="nofollow">Universal
+  Updater应用商店</a></li>
+
+  <li>支持任天堂Switch</li>
+
+  <li>修复 <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+  data-id="1167493259" data-permission-text="Title is private" data-url="https://github.com/Strrationalism/CPyMO/issues/3"
+  data-hovercard-type="issue" data-hovercard-url="/Strrationalism/CPyMO/issues/3/hovercard"
+  href="https://github.com/Strrationalism/CPyMO/issues/3">#3</a></li>
+
+  <li>修正立绘顺序错误问题</li>
+
+  </ul>
+
+  <p dir="auto">之后不再发布FBI二维码，你可以直接在Universal Updater应用商店的链接中获取二维码。</p>'
 updated: '2022-03-15T08:59:44Z'
 version: v0.9.5
 version_title: Beta Release 6

@@ -1,5 +1,5 @@
 ---
-author: "L\xE1zaro Vieira"
+author: Lázaro Vieira
 avatar: https://avatars.githubusercontent.com/u/13871621?v=4
 categories:
 - utility
@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/Ryuzaki-MrL/Cthulhu/releases/download/1.3.5/Cthulhu.3dsx
 github: Ryuzaki-MrL/Cthulhu
 icon: https://raw.githubusercontent.com/Ryuzaki-MrL/Cthulhu/master/meta/icon.png
-icon_index: 58
+icon_index: 57
 image: https://raw.githubusercontent.com/Ryuzaki-MrL/Cthulhu/master/meta/banner.png
 image_length: 13689
 layout: app

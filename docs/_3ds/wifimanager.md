@@ -1,5 +1,5 @@
 ---
-author: "Th\xE9o B."
+author: Théo B.
 avatar: https://avatars.githubusercontent.com/u/16072534?v=4
 categories:
 - utility
@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/LiquidFenrir/WifiManager/releases/download/v1.1.2/WifiManager.cia
 github: LiquidFenrir/WifiManager
 icon: https://raw.githubusercontent.com/LiquidFenrir/WifiManager/master/meta/icon.png
-icon_index: 61
+icon_index: 60
 image: https://raw.githubusercontent.com/LiquidFenrir/WifiManager/master/meta/banner.png
 image_length: 6073
 layout: app

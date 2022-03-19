@@ -6,7 +6,7 @@ categories:
 color: '#79c0b9'
 color_bg: '#50807b'
 created: '2020-10-03T20:29:35Z'
-description: "Ein \"Elfer raus!\" klon f\xFCr den Nintendo 3DS."
+description: Ein "Elfer raus!" klon für den Nintendo 3DS.
 download_page: https://github.com/SuperSaiyajinStackZ/3DElf/releases
 downloads:
   3DElf.3dsx:
@@ -60,10 +60,13 @@ source: https://github.com/SuperSaiyajinStackZ/3DElf
 systems:
 - 3DS
 title: 3DElf
-update_notes: "<p dir=\"auto\">Dies behebt ein paar Fehler und ein neuer Startbildschirm\
-  \ wurde hinzugef\xFCgt.</p>\n<p dir=\"auto\">Ebenfalls werden nicht spielbare Karten\
-  \ nun ausgeblendet, somit ist es etwas einfacher, spielbare Karten zu finden.</p>\n\
-  <p dir=\"auto\">Viel spa\xDF mit dieser Version! ~SuperSaiyajinStackZ</p>"
+update_notes: '<p dir="auto">Dies behebt ein paar Fehler und ein neuer Startbildschirm
+  wurde hinzugefügt.</p>
+
+  <p dir="auto">Ebenfalls werden nicht spielbare Karten nun ausgeblendet, somit ist
+  es etwas einfacher, spielbare Karten zu finden.</p>
+
+  <p dir="auto">Viel spaß mit dieser Version! ~SuperSaiyajinStackZ</p>'
 updated: '2020-10-07T20:51:16Z'
 version: v0.2.0
 version_title: Zweiter / Second 3DElf Release!

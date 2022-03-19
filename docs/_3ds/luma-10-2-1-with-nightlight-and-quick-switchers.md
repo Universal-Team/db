@@ -1,8 +1,4 @@
 ---
-archive:
-  .*\.zip:
-  - boot.firm
-  - luma/
 author: Nutez
 avatar: https://gbatemp.net/data/avatars/l/439/439371.jpg?1618764346
 categories:
@@ -19,7 +15,7 @@ downloads:
     size: 196867
     url: https://gbatemp.net/download/luma-10-2-1-with-redshift-and-quick-switchers.35619/download?version=38695
 github: DullPointer/Luma3DS
-icon_index: 184
+icon_index: 183
 image: https://gbatemp.net/data/avatars/l/439/439371.jpg?1618764346
 layout: app
 license: gpl-3.0

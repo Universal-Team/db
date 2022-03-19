@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/nop90/Xrick-3ds/releases/download/v1.0/Xrick_v1.0.zip
 github: nop90/Xrick-3ds
 icon: https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/icon.png
-icon_index: 93
+icon_index: 92
 image: https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/banner.png
 image_length: 21816
 layout: app

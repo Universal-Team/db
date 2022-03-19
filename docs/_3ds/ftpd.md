@@ -54,9 +54,17 @@ systems:
 - 3DS
 - DS
 title: ftpd
-update_notes: "<ul dir=\"auto\">\n<li>Access Point mode on Switch</li>\n<li>Reset\
-  \ button for configuration</li>\n<li>Update to Dear ImGui 1.83</li>\n<li>General\
-  \ system stability improvements to enhance the user\u2019s experience</li>\n</ul>"
+update_notes: '<ul dir="auto">
+
+  <li>Access Point mode on Switch</li>
+
+  <li>Reset button for configuration</li>
+
+  <li>Update to Dear ImGui 1.83</li>
+
+  <li>General system stability improvements to enhance the user’s experience</li>
+
+  </ul>'
 updated: '2021-06-12T19:39:34Z'
 version: v3.1.0
 version_title: ftpd pro v3.1.0

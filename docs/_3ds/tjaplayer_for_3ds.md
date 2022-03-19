@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/togetg/TJAPlayer_for_3DS/releases/download/v1.2.0/TJAPlayer_for_3DS.cia
 github: togetg/TJAPlayer_for_3DS
 icon: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/icon.png
-icon_index: 46
+icon_index: 45
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
@@ -40,27 +40,70 @@ source: https://github.com/togetg/TJAPlayer_for_3DS
 systems:
 - 3DS
 title: TJAPlayer_for_3DS
-update_notes: "<ul dir=\"auto\">\n<li>\u30B8\u30E3\u30F3\u30EB\u6A5F\u80FD\u3092\u5B9F\
-  \u88C5</li>\n<li>\u30A2\u30A4\u30B3\u30F3\u3001\u30D0\u30CA\u30FC\u3092\u5909\u66F4\
-  </li>\n<li>\u5224\u5B9A\u306E\u30AB\u30B9\u30BF\u30DE\u30A4\u30BA\u3092\u5B9F\u88C5\
-  </li>\n<li>\u30D5\u30EC\u30FC\u30E0\u30EC\u30FC\u30C8\u306E\u30B5\u30F3\u30D7\u30EB\
-  \u6570\u3092\u5909\u66F4</li>\n<li>\u8B66\u544A\u753B\u9762\u3092\u5B9F\u88C5\n\
-  <ul dir=\"auto\">\n<li>DSP1\u3092\u8D77\u52D5\u3057\u3066\u3044\u306A\u3044\u6642\
-  </li>\n<li>\u97F3\u697D\u30D5\u30A1\u30A4\u30EB\u304C\u5B58\u5728\u3057\u306A\u3044\
-  \u6642</li>\n<li>\u97F3\u697D\u30D5\u30A1\u30A4\u30EB\u304COgg\u30D5\u30A1\u30A4\
-  \u30EB\u3058\u3083\u306A\u3044\u6642</li>\n</ul>\n</li>\n</ul>\n<hr>\n<ul dir=\"\
-  auto\">\n<li>Implemented the genre function.</li>\n<li>Changed the icon and banner.</li>\n\
-  <li>Implemented customization of judgment.</li>\n<li>Changed the number of samples\
-  \ for frame rate.</li>\n<li>Implemented the warning screen.\n<ul dir=\"auto\">\n\
-  <li>DSP1 has never been activated.</li>\n<li>The music file does not exist.</li>\n\
-  <li>The music file is not an Ogg file.</li>\n</ul>\n</li>\n</ul>\n<hr>\n<p dir=\"\
-  auto\">\u8D77\u52D5\u3059\u308B\u524D\u306B<a href=\"https://github.com/togetg/TJAPlayer_for_3DS/blob/master/README.md\"\
-  >README</a>\u3092\u8AAD\u3093\u3067\u304F\u3060\u3055\u3044\u3002<br>\nPlease read\
-  \ the <a href=\"https://github.com/togetg/TJAPlayer_for_3DS/blob/master/README_en.md\"\
-  >README</a> before starting.<br>\n<a target=\"_blank\" rel=\"noopener noreferrer\"\
-  \ href=\"https://user-images.githubusercontent.com/18244518/126890281-dd597f67-821a-4cd3-a6d0-e37c725418fe.png\"\
-  ><img src=\"https://user-images.githubusercontent.com/18244518/126890281-dd597f67-821a-4cd3-a6d0-e37c725418fe.png\"\
-  \ alt=\"image\" style=\"max-width: 100%;\"></a></p>"
+update_notes: '<ul dir="auto">
+
+  <li>ジャンル機能を実装</li>
+
+  <li>アイコン、バナーを変更</li>
+
+  <li>判定のカスタマイズを実装</li>
+
+  <li>フレームレートのサンプル数を変更</li>
+
+  <li>警告画面を実装
+
+  <ul dir="auto">
+
+  <li>DSP1を起動していない時</li>
+
+  <li>音楽ファイルが存在しない時</li>
+
+  <li>音楽ファイルがOggファイルじゃない時</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <hr>
+
+  <ul dir="auto">
+
+  <li>Implemented the genre function.</li>
+
+  <li>Changed the icon and banner.</li>
+
+  <li>Implemented customization of judgment.</li>
+
+  <li>Changed the number of samples for frame rate.</li>
+
+  <li>Implemented the warning screen.
+
+  <ul dir="auto">
+
+  <li>DSP1 has never been activated.</li>
+
+  <li>The music file does not exist.</li>
+
+  <li>The music file is not an Ogg file.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <hr>
+
+  <p dir="auto">起動する前に<a href="https://github.com/togetg/TJAPlayer_for_3DS/blob/master/README.md">README</a>を読んでください。<br>
+
+  Please read the <a href="https://github.com/togetg/TJAPlayer_for_3DS/blob/master/README_en.md">README</a>
+  before starting.<br>
+
+  <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/18244518/126890281-dd597f67-821a-4cd3-a6d0-e37c725418fe.png"><img
+  src="https://user-images.githubusercontent.com/18244518/126890281-dd597f67-821a-4cd3-a6d0-e37c725418fe.png"
+  alt="image" style="max-width: 100%;"></a></p>'
 updated: '2021-07-25T06:51:52Z'
 version: v1.2.0
 version_title: v1.2.0 TJAPlayer for 3DS

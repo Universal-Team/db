@@ -6,7 +6,7 @@ categories:
 color: '#716a67'
 color_bg: '#716a67'
 created: '2021-01-11T10:52:27Z'
-description: "Ein Ludo klon f\xFCr den Nintendo DS(i)."
+description: Ein Ludo klon für den Nintendo DS(i).
 download_page: https://github.com/SuperSaiyajinStackZ/LudoNDS/releases
 downloads:
   LudoNDS.nds:
