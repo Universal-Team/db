@@ -23,7 +23,7 @@ from textwrap import shorten
 from typing import Tuple
 from unistore import StoreEntry, UniStore
 
-DOWNLOAD_BLACKLIST = r"(\.apk|\.appimage|\.dmg|\.exe|\.love|\.nro|\.opk|\.vpk|\.xz|armhf|elf|linux|macos|osx|PS3|PSP|switch|ubuntu|vita|wii|win|x86_64)"
+DOWNLOAD_BLACKLIST = r"(\.apk|\.appimage|\.dmg|\.exe|\.love|\.nro|\.opk|\.smdh|\.vpk|\.xz|armhf|elf|linux|macos|osx|PS3|PSP|switch|ubuntu|vita|wii|win|x86_64)"
 
 
 def webName(name: str) -> str:
