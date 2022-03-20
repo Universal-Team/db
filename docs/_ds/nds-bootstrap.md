@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 431685
+    size: 432087
     size_str: 421 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.55.1/nds-bootstrap.7z
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.55.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1041179
-    size_str: 1016 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.55.1/nds-bootstrap.zip
+    size: 1042445
+    size_str: 1018 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.55.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 icon_index: 140
@@ -35,8 +35,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v24.2.1"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v24.2.1</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v24.2.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v24.2.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -50,16 +50,61 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <p dir="auto"><strong>Bug fix</strong></p>
+  <p dir="auto"><strong>Improvements</strong></p>
 
   <ul dir="auto">
 
-  <li>Fixed in-game menu not exiting properly sometimes.</li>
+  <li>Card data of around the exact length is now loaded at once, whenever possible.</li>
+
+  <li>FAT code has been optimized further.
+
+  <ul dir="auto">
+
+  <li>FAT table cache is no longer saved to a file.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Other minor improvements.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Bug fixes</strong></p>
+
+  <ul dir="auto">
+
+  <li><strong>B4DS mode:</strong> Fixed THUMB games not booting (ex. <em>SEGA Superstars
+  Tennis</em>, <em>GTA: Chinatown Wars</em> (MEP required), <em>Domo</em> games, etc.).</li>
+
+  <li>Fixed DSi mode not working on flashcards (with either unlocked SCFG or if TWLMenu++
+  runs in DSi mode).</li>
+
+  <li><em>Nintendo DS Browser</em> no longer crashes on DSi consoles!</li>
+
+  <li>Fixed <em>Dragon Quest V</em> going back to the company logo screens before
+  the opening music first plays.
+
+  <ul dir="auto">
+
+  <li>If it still occurs, make sure the ROM read LEDs are turned off, or it may be
+  caused by SD speed.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Master brightness is now cleared when an exception error occurs.</li>
+
+  <li>Fixed DSi mode heap shrink on DSi consoles to avoid overwriting the AP-patched
+  overlays.</li>
+
+  <li><strong>B4DS mode:</strong> Fixed file writes not working correctly.</li>
 
   </ul>'
-updated: '2022-03-11T03:23:52Z'
-version: v0.55.1
-version_title: v0.55.1 (hotfix)
+updated: '2022-03-11T01:31:35Z'
+version: v0.55.0
+version_title: v0.55.0
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
