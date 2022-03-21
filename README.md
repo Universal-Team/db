@@ -13,7 +13,6 @@ These sites are the preferred places to host your downloads as Universal-DB can 
 
 - [GitHub](https://github.com): Full support
 - [Bitbucket](https://bitbucket.org): Partial support
-- [GBAtemp Download Center](https://gbatemp.net/download/): Partial support
 
 ## Using the data
 As Universal-DB is hosted by GitHub pages we're not able to have a proper API, but you can use `docs/data/full.json` to get all the data we collect from the GitHub API and such all in one place. We recommend using https://db.universal-team.net/data/full.json instead of the raw link to the file in the repo.
