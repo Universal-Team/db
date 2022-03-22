@@ -8,14 +8,14 @@ color_bg: '#484848'
 created: '2010-05-27T14:47:40Z'
 description: Cross-platform, sophisticated frontend for the libretro API. Licensed
   GPLv3.
-download_page: https://buildbot.libretro.com/stable/1.10.1/nintendo/3ds
+download_page: https://buildbot.libretro.com/stable/1.10.2/nintendo/3ds
 downloads:
   RetroArch_3dsx.7z:
     size: null
-    url: https://buildbot.libretro.com/stable/1.10.1/nintendo/3ds/RetroArch_3dsx.7z
+    url: https://buildbot.libretro.com/stable/1.10.2/nintendo/3ds/RetroArch_3dsx.7z
   RetroArch_cia.7z:
     size: null
-    url: https://buildbot.libretro.com/stable/1.10.1/nintendo/3ds/RetroArch_cia.7z
+    url: https://buildbot.libretro.com/stable/1.10.2/nintendo/3ds/RetroArch_cia.7z
 eval_downloads: true
 eval_notes_md: true
 github: libretro/RetroArch
@@ -39,103 +39,116 @@ systems:
 title: RetroArch
 update_notes: '<ul dir="auto">
 
-  <li>ANDROID: Add <code>HAVE_LANGEXTRA</code> back to makefile</li>
+  <li>3DS: Add a menu toggle for switching between old and new 3DS speeds, located
+  in the ''Power Management'' menu. Enabled by default, hidden on old 3DS devices.</li>
 
-  <li>ANDROID: Include adaptive launcher icons</li>
+  <li>CHEEVOS: Update to rcheevos 10.3.3</li>
 
-  <li>ANDROID: Populate external storage devices inside the file browser on Android
-  11+ devices</li>
+  <li>CHEEVOS: Support for Arduboy</li>
 
-  <li>CHEEVOS: add mastery placard</li>
+  <li>CHEEVOS: Fix tab sequences in rich presence being turned into t character</li>
 
-  <li>CHEEVOS: more description message for missing RetroAchievements credentials</li>
+  <li>CHEEVOS: Fix overflow when parsing float value that has more than 9 digits after
+  the decimal</li>
 
-  <li>CHEEVOS: prevent occasional infinite wait loading multi-disc game from secondary
-  disc</li>
+  <li>CHEEVOS: Fix memory mapping when disconnect mask breaks a region into multiple
+  blocks</li>
 
-  <li>CHEEVOS: stop load process if unable to retrieve achievement data</li>
+  <li>CORES: Enable manual selection of which cores are displayed in the ''Standalone
+  Cores'' menu</li>
 
-  <li>CHEEVOS: support for identifying Dreamcast CHDs</li>
+  <li>DATABASE/EXPLORE: Added more categories to the Explore menu</li>
 
-  <li>CHEEVOS: Updated to 10.3.2</li>
+  <li>INPUT/MAPPING: Add ''Manage Remap Files'' submenu + automatically save input
+  remaps when closing content</li>
 
-  <li>CONTENTLESS CORES: Disable per-game and per-content-directory remaps when running
-  contentless cores</li>
+  <li>INPUT/MAPPING: Add ''Reset Input Mapping'' option to ''Manage Remap Files''
+  menu</li>
 
-  <li>CONTENTLESS CORES: Disable per-game and per-content-directory shader presets</li>
+  <li>INPUT/MAPPING: Fix keyboard device remap nulling</li>
 
-  <li>CONTENTLESS CORES: Enable config overrides</li>
+  <li>IOS/IOS13+: Support a toolbar that allows toggling of onscreen keyboard and
+  touch mouse</li>
 
-  <li>CONTENTLESS CORES: Enable runtime logging</li>
+  <li>LIBRETRO: RETRO_ENVIRONMENT_SHUTDOWN fix - ensure core is properly unloaded
+  when RETRO_ENVIRONMENT_SHUTDOWN is called</li>
 
-  <li>CORE INFORMATION: Show core version</li>
+  <li>LIBRETRO: RETRO_ENVIRONMENT_SHUTDOWN fix - ensure menu stack is properly flushed
+  when RETRO_ENVIRONMENT_SHUTDOWN is called</li>
 
-  <li>CORE UPDATER: Add ''Core System Files Downloader''</li>
+  <li>LINUX/MALI FBDEV: Fix segfault switching video threaded from quickmenu</li>
 
-  <li>CORES/SETTINGS: Add ''Standalone Cores'' menu</li>
+  <li>LOCALIZATION: Add Czech language support</li>
 
-  <li>D3D10/D3D11: Add Vsync swap interval</li>
+  <li>MIYOO: Improve CPU architecture and model name identification for Miyoo</li>
 
-  <li>EMSCRIPTEN: Enable 7zip</li>
+  <li>MENU/SETTINGS: Remove ''Advanced Settings'' flag from ''Settings &gt; Core''
+  menu</li>
 
-  <li>GBA: New GBA filter Upscale_240x160-320x240</li>
+  <li>MENU/MATERIALUI: Add ''Gray Dark + Light'' themes</li>
 
-  <li>GONG: Removed now that it''s a standalone core</li>
+  <li>MENU/RGUI: Add 6x10 extended ASCII and Latin Extended A and B fonts.  These
+  will enable most Latin alphabets to be displayed in RGUI.</li>
 
-  <li>HISTORY/FAVORITES: Fix default core on ''Add to Favorites''</li>
+  <li>MENU/RGUI: Add ''Gray Dark + Light'' themes</li>
 
-  <li>INPUT/WAYLAND: Allow toggling mouse grabs</li>
+  <li>MENU/XMB: Add title margin adjustment</li>
 
-  <li>INPUT/WAYLAND: Release keys and mouse buttons on lost focus</li>
+  <li>MENU/XMB: Vertical fade corrections</li>
 
-  <li>iOS: Support for custom keyboard and touch mouse support, among other iOS 13
-  features</li>
+  <li>MENU/OZONE: The size of the thumbnail bar can now be changed though a new option
+  (Settings-&gt;User interface-&gt;Appearance) up to double its normal size.</li>
 
-  <li>LIBRETRO: Fix crash when cores using RETRO_ENVIRONMENT_SET_AUDIO_CALLBACK return
-  false from retro_load_game()</li>
+  <li>MENU/OZONE: Add ''Gray Dark + Light'' themes</li>
 
-  <li>LIBRETRO: Add optional frame skipping when fast-forwarding</li>
+  <li>MENU/OZONE: Add thumbnail scale option</li>
 
-  <li>LOCALIZATION: Fetch translations from Crowdin</li>
+  <li>HOTKEYS: Added hotkey for toggling sync to exact content framerate</li>
 
-  <li>LOCALIZATION: OSD fonts for Chinese, Korean, Arabic and Persian</li>
+  <li>HOTKEYS: Prevent log spam when using rewind hotkey with cores that don''t support
+  rewind, if rewind functionality itself is disabled</li>
 
-  <li>LOCALIZATION: Translation fixes for various languages</li>
+  <li>HOTKEYS: Add hotkey for toggling sync to exact content framerate</li>
 
-  <li>MENU/RGUI: Add dynamic theme</li>
+  <li>STEAM: Use native OSK (Onscreen Keyboard) instead of built-in RetroArch version</li>
 
-  <li>MIYOO: Enable NEAREST audio resampler</li>
+  <li>STEAM: New built-in core DLC downloader</li>
 
-  <li>MIYOO: Support battery level</li>
+  <li>STEAM: Swap OK/Cancel buttons by default</li>
 
-  <li>NETPLAY: Disable savestates on stateless mode</li>
+  <li>VIDEO/HDR: Removed redundant copy of buffer in HDR mode if the shader has already
+  a HDR format i.e. R10G10B10A2 (updated Vulkan/D3D11/D3D12 drivers)</li>
 
-  <li>NGC/Wii: Several improvements</li>
+  <li>VIDEO/HDR: Fixed crash when using stock shader and HDR and previous optimisation</li>
 
-  <li>OSX: Enable compilation on PPC</li>
+  <li>WAYLAND: Dynamically load libdecor at runtime</li>
 
-  <li>OZONE/XMB: Improve efficiency/accuracy of History/Favorites icon rendering</li>
+  <li>WAYLAND: Fix splash screen when using xdg_toplevel</li>
 
-  <li>RECORDING/FFMPEG: Fix building against FFmpeg 5.0</li>
+  <li>WAYLAND: SHM anti-collision for the splash screen</li>
 
-  <li>RETROARCH INFORMATION: No longer report on enabled Python support, which was
-  removed in RetroArch 1.7.8</li>
+  <li>WAYLAND: Skip splash screen if window is not ready</li>
 
-  <li>SAVESTATES: Disable save states based on save state support level defined in
-  core info files</li>
+  <li>WII: Fix find_connection_entry(): needs unsigned int<br>
 
-  <li>UNIX/WINDOWS: Allow setting the default libretro_directory via environment variable</li>
+  Otherwise the USB gamepad cannot be found, if VID/PID has leading zero. This issue
+  happened with Retrode gamepad adapter</li>
 
-  <li>WAYLAND/VULKAN: Fix Wayland Vulkan not reacting to initial resize</li>
+  <li>WII: Rework Retrode gamepad implementation to support multi_pad interface</li>
 
-  <li>WINDOWS/WINRAW: Enable mouse overlay control</li>
+  <li>WII: Fix - Unplugging and re-plugging now works again</li>
 
-  <li>Xbox/UWP: Fix CHD not working with Cheevos / Add 7zip support.</li>
+  <li>WII: vWii- Only gamepad 1 is supported, because multi_pad is currently only
+  relevant in the Wii U implementation</li>
+
+  <li>WIIU: Implemented the multi_pad interface according to input/connect/connect_wiiugca.c</li>
+
+  <li>WIIU: Add Optimize for Gamepad option</li>
 
   </ul>'
-updated: '2022-03-04T13:39:51Z'
-version: v1.10.1
-version_title: v1.10.1
+updated: '2022-03-22T20:21:56Z'
+version: v1.10.2
+version_title: v1.10.2
 website: http://www.libretro.com
 wiki: https://github.com/libretro/RetroArch/wiki
 ---
