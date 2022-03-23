@@ -9,10 +9,10 @@ created: '2019-07-23T19:16:11Z'
 description: DS(i) mode screen filters and patches
 download_page: https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/
 downloads:
+  TWPatch.3dsx:
+    url: https://gbatemp.net/download/twpatch.37400/version/38832/download?file=302086
   TWPatch.cia:
-    size: 599488
-    size_str: 585 KiB
-    url: https://db.universal-team.net/assets/files/TWPatch.cia
+    url: https://gbatemp.net/download/twpatch.37400/version/38832/download?file=302085
 icon: https://db.universal-team.net/assets/images/icons/twpatch.png
 icon_index: 150
 image: https://db.universal-team.net/assets/images/images/twpatch.png
