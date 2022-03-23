@@ -146,7 +146,7 @@ update_notes: '<ul dir="auto">
   <li>WIIU: Add Optimize for Gamepad option</li>
 
   </ul>'
-updated: '2022-03-22T20:21:56Z'
+updated: '2022-03-23T05:53:24Z'
 version: v1.10.2
 version_title: v1.10.2
 website: http://www.libretro.com
