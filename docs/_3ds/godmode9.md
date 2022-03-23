@@ -11,10 +11,10 @@ description: 'GodMode9 Explorer - A full access file browser for the Nintendo 3D
   console :godmode:'
 download_page: https://github.com/d0k3/GodMode9/releases
 downloads:
-  GodMode9-v2.1.0-20211121131422.zip:
-    size: 2583932
+  GodMode9-v2.1.1-20220322194259.zip:
+    size: 2587358
     size_str: 2 MiB
-    url: https://github.com/d0k3/GodMode9/releases/download/v2.1.0/GodMode9-v2.1.0-20211121131422.zip
+    url: https://github.com/d0k3/GodMode9/releases/download/v2.1.1/GodMode9-v2.1.1-20220322194259.zip
 github: d0k3/GodMode9
 icon_index: 144
 image: https://raw.githubusercontent.com/d0k3/GodMode9/master/resources/logo.png
@@ -26,88 +26,63 @@ source: https://github.com/d0k3/GodMode9
 systems:
 - 3DS
 title: GodMode9
-update_notes: '<p dir="auto">We''re early for christmas this year with a new release:
-  GodMode9 v2.1.0 comes with several new features and a truckload of bugfixes and
-  smaller improvements.</p>
+update_notes: '<p dir="auto">Is it really that time of the year again? Six years ago,
+  on March 22nd of the faraway year of 2016, GodMode9 was first released to the public.
+  It has come a long way, reaching high stability and amassing features. Right now,
+  there''s not much left that GodMode9 can''t do, and there''s only the odd bug coming
+  in from time to time. As such, this release is a rather small one, with only bugfixes
+  and maintenance stuff.</p>
 
-  <p dir="auto">This is new since the last release:</p>
+  <p dir="auto">I still wanted to celebrate the day with a release, so here is GodMode9
+  v2.1.1 with these changes:</p>
 
   <ul dir="auto">
 
-  <li>[new] Unicode support, including a special Unicode font created for GodMode9
-  (<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)</li>
+  <li>[improved] Improved installation of DSiWare games (thanks <a class="user-mention"
+  data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)</li>
 
-  <li>[new] Support for mounting <code>certs.db</code>, including improvement of certs
-  handling (<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/luigoalma/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/luigoalma">@luigoalma</a>)</li>
+  <li>[scripting] Faster script loading as well as other improvements and fixes (thanks
+  <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/aspargas2/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/aspargas2">@aspargas2</a>)</li>
 
-  <li>[new] Support for SHA-1 checksums (<a class="user-mention" data-hovercard-type="user"
-  data-hovercard-url="/users/aspargas2/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/aspargas2">@aspargas2</a>)</li>
+  <li>[fixed] Fixed a nasty bug when trimming certain DS cart dumps</li>
 
-  <li>[new] Raw cart dumper, accessible via R+A on cart drive</li>
-
-  <li>[improved] Wider support for flash chips on carts, including ir (<a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/dratini0/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/dratini0">@dratini0</a>)</li>
-
-  <li>[scripting] <code>SDSIZE</code>, <code>SDFREE</code> and <code>NANDFREE</code>
-  global variables</li>
-
-  <li>[scripting] Added <code>cartdump</code> command</li>
-
-  <li>[fixed] Numerous bugfixes and small improvements, too many to list</li>
+  <li>[fixed] Some smaller bugfixes and general code maintenance</li>
 
   </ul>
 
-  <p dir="auto"><strong>Killer Feature: Unicode support</strong><br>
-
-  GodMode9 is no longer limited to just displaying English, it now has proper support
-  for Unicode text. To facilitate this change there''s also a new font format, a simple
-  RIFF-based format called FRF, which you can easily convert to using the ´fontriff.py´
-  conversion script. The default font has been updated to include the common accented
-  Latin letters, Cyrillic for Russian, and Hiragana/Katakana for Japanese and there''s
-  also a font with complete JIS X 0208 support in the resources folder. You can also
-  now type any character (up to U+FFFF) in the keyboard by switching to the number
-  input mode, typing the codepoint, and pressing the U+ key. (ex. 0411 is Б and 3042
-  is あ).</p>
-
   <p dir="auto"><strong>How do I update GodMode9?</strong><br>
 
-  (Do I really need to add that paragraph everytime?) You wouldn''t believe how often
-  we get that question when we do a new release. It''s actually very simple: Just
-  replace <code>GodMode9.firm</code> on your SD card with the file found in the release
-  ZIP. You may also want to update scripts, which are found in the <code>./gm9</code>
-  folder inside the archive and go to the same folder on your SD card.</p>
+  (This may be the last time I tell you how to in the release notes, so please remember)
+  You wouldn''t believe how often we get that question when we do a new release. It''s
+  actually very simple: Just replace <code>GodMode9.firm</code> on your SD card with
+  the file found in the release ZIP. You may also want to update scripts, which are
+  found in the <code>./gm9</code> folder inside the archive and go to the same folder
+  on your SD card.</p>
 
   <p dir="auto"><strong>Special thanks</strong><br>
 
-  With the project now being over 5 years old, and all of us working on other stuff,
-  additionally to also having a real life(tm), the main devs (<a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/aspargas2/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/aspargas2">@aspargas2</a>,
-  <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Wolfvak/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Wolfvak">@Wolfvak</a>
-  and me) sometimes take the backseat, only doing smaller features, bug fixes and
-  general project maintenance. Gladly the void was filled by other developers. Special
-  thanks go to <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  for Unicode support,<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/dratini0/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dratini0">@dratini0</a>
-  for his continued work on supporting flash chips in the cart dumper and <a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/luigoalma/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/luigoalma">@luigoalma</a>
-  who added support for mounting <code>certs.db</code> in this release. It''s not
-  only the devs who we have to thank, though, it''s also the numerous people who point
-  out problems and ask for features, as well as everyone who''s patient enough to
-  help us out with testing. More special thanks go to @TimmSkiller and <a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/mariomadproductions/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mariomadproductions">@mariomadproductions</a>,
-  who both helped us a lot to improve GodMode9. In fact, the people who helped make
-  this release a possibility are too numerous to list - thanks, all of you!</p>'
-updated: '2021-11-21T12:21:56Z'
-version: v2.1.0
-version_title: GodMode9 v2.1.0
+  I''ll be honest, I''ve long given up mentioning everyone here. The sheer number
+  of contributors (developers, people who report bugs or suggest features, people
+  who help with advice or web hosting...) after 6 years of development is just too
+  big. Just know, each and every contribution, no matter how big or small is highly
+  appreciated. For this release, special thanks go to <a class="user-mention" data-hovercard-type="user"
+  data-hovercard-url="/users/Wolfvak/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Wolfvak">@Wolfvak</a>,
+  who''s been a main dev with me for almost all of the lifetime of GodMode9, to <a
+  class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/aspargas2/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/aspargas2">@aspargas2</a>
+  who did maintenance and fixed bugs, to <a class="user-mention" data-hovercard-type="user"
+  data-hovercard-url="/users/Epicpkmn11/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>,
+  who improved the save game generation and thus the installation for DSiWare CIAs
+  and dumps and to <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/giiutfff/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/giiutfff">@giiutfff</a>
+  who catched a really nasty bug happening when trimming certain DS cart dumps in
+  GodMode9 (great catch!).</p>'
+updated: '2022-03-22T19:11:38Z'
+version: v2.1.1
+version_title: GodMode9 v2.1.1 Sixth Anniversary Release
 wiki: https://github.com/d0k3/GodMode9/wiki
 ---
