@@ -3522,8 +3522,11 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"downloads": {
+			"TWPatch.3dsx": {
+				"url": "https://gbatemp.net/download/twpatch.37400/version/38832/download?file=302086"
+			},
 			"TWPatch.cia": {
-				"url": "https://db.universal-team.net/assets/files/TWPatch.cia"
+				"url": "https://gbatemp.net/download/twpatch.37400/version/38832/download?file=302085"
 			}
 		},
 		"version": "2021/02/21",
