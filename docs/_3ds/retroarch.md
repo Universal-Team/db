@@ -59,6 +59,8 @@ update_notes: '<ul dir="auto">
 
   <li>DATABASE/EXPLORE: Added more categories to the Explore menu</li>
 
+  <li>INPUT: Fix analog stick not working with ''Unified Menu Controls''</li>
+
   <li>INPUT/MAPPING: Add ''Manage Remap Files'' submenu + automatically save input
   remaps when closing content</li>
 
