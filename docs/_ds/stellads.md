@@ -12,17 +12,17 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   StellaDS.nds:
-    size: 1346560
+    size: 1272320
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.6/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.7/StellaDS.nds
   compatibility.txt:
     size: 25032
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.6/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.7/compatibility.txt
   readme.txt:
-    size: 18295
-    size_str: 17 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.6/readme.txt
+    size: 20355
+    size_str: 19 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.7/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 icon_index: 156
@@ -35,17 +35,16 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V4.6 : 20-Mar-2022 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V4.7 : 24-Mar-2022 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
-  <li>Added SaveKey support - standard games will have a virtual SaveKey in the right
-  controller jack and will be auto-backed to a 32K /data/StellaDS.EE file.</li>
+  <li>Added per-game configuration settings.</li>
 
-  <li>Added EF, EFSC, DFSC and SB (SuperBank) support for games as large as 256K!</li>
+  <li>Fixed 3E/3F and UA bankswitching schemes.</li>
 
   </ul>'
-updated: '2022-03-20T13:08:56Z'
-version: '4.6'
-version_title: Version 4.6
+updated: '2022-03-24T14:07:30Z'
+version: '4.7'
+version_title: Version 4.7
 ---
