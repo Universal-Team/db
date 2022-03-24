@@ -12,8 +12,8 @@ description: Noob-proof (N)3DS "Custom Firmware"
 download_page: https://github.com/Nanquitas/Luma3DS/releases
 downloads:
   boot.firm:
-    size: 242176
-    size_str: 236 KiB
+    size: 242688
+    size_str: 237 KiB
     url: https://github.com/Nanquitas/Luma3DS/releases/download/v10.3/boot.firm
 github: Nanquitas/Luma3DS
 icon_index: 148
