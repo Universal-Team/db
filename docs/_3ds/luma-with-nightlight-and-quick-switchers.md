@@ -35,7 +35,7 @@ update_notes: '<p dir="auto">Official Luma version number bump</p>
   this file to "logo.bin" or create your own).</li>
 
   </ul>'
-updated: '2022-03-24T08:27:00Z'
+updated: '2022-03-24T20:27:00Z'
 version: 10.3 2022-03-24
 version_title: Luma 10.3 with Night/Light and Quick-Switchers
 website: https://gbatemp.net/download/35619/
