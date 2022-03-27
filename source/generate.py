@@ -500,10 +500,13 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 						qr = qrcode.make(app["downloads"][item]["url"], box_size=5, version=5).convert("RGBA")
 						if img:
 							draw = ImageDraw.Draw(qr)
-							draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 10 if "version" in app else 4)), fill=(255, 255, 255))
-							qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask=img if img.mode == "RGBA" else None)
+							draw.rectangle((((qr.width - img.width) // 2 - 5, (qr.height - img.height) // 2 - 5), ((qr.width + img.width) // 2 + 4, (qr.height + img.height) // 2 + 10 if "version" in app else 4)), fill=(255, 255, 255))
+							qr.paste(img, ((qr.width - img.width) // 2, (qr.height - img.height) // 2), mask=img if img.mode == "RGBA" else None)
 							if "version" in app:
-								draw.text(((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2 + img.height), app["version"][:img.width // 6], (0, 0, 0))
+								if img.width == 32 and len(app["version"]) > 5:
+									draw.text(((qr.width - img.width) // 2 - 2, (qr.height - img.height) // 2 + img.height), app["version"][:(img.width + 4) // 6], (0, 0, 0))
+								else:
+									draw.text(((qr.width - img.width) // 2, (qr.height - img.height) // 2 + img.height), app["version"][:img.width // 6], (0, 0, 0))
 						qr.save(path.join(docsDir, "assets", "images", "qr", f"{webName(item)}.png"))
 						if "qr" not in app:
 							app["qr"] = {}
@@ -520,10 +523,10 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 						qr = Image.fromarray(data)
 						if img:
 							draw = ImageDraw.Draw(qr)
-							draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 10 if "version" in app["prerelease"] else 4)), fill=(255, 255, 255))
-							qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask=img if img.mode == "RGBA" else None)
+							draw.rectangle((((qr.width - img.width) // 2 - 5, (qr.height - img.height) // 2 - 5), ((qr.width + img.width) // 2 + 4, (qr.height + img.height) // 2 + 10 if "version" in app["prerelease"] else 4)), fill=(255, 255, 255))
+							qr.paste(img, ((qr.width - img.width) // 2, (qr.height - img.height) // 2), mask=img if img.mode == "RGBA" else None)
 							if "version" in app["prerelease"]:
-								draw.text(((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2 + img.height), app["prerelease"]["version"][:img.width // 6], (0xF6, 0x6A, 0x0A))
+								draw.text(((qr.width - img.width) // 2, (qr.height - img.height) // 2 + img.height), app["prerelease"]["version"][:img.width // 6], (0xF6, 0x6A, 0x0A))
 						qr.save(path.join(docsDir, "assets", "images", "qr", "prerelease", f"{webName(item)}.png"))
 						if "qr" not in app["prerelease"]:
 							app["prerelease"]["qr"] = {}
@@ -540,8 +543,8 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 						qr = Image.fromarray(data)
 						if img:
 							draw = ImageDraw.Draw(qr)
-							draw.rectangle((((qr.size[0] - img.size[0]) // 2 - 5, (qr.size[1] - img.size[1]) // 2 - 5), ((qr.size[0] + img.size[0]) // 2 + 4, (qr.size[1] + img.size[1]) // 2 + 4)), fill=(255, 255, 255))
-							qr.paste(img, ((qr.size[0] - img.size[0]) // 2, (qr.size[1] - img.size[1]) // 2), mask=img if img.mode == "RGBA" else None)
+							draw.rectangle((((qr.width - img.width) // 2 - 5, (qr.height - img.height) // 2 - 5), ((qr.width + img.width) // 2 + 4, (qr.height + img.height) // 2 + 4)), fill=(255, 255, 255))
+							qr.paste(img, ((qr.width - img.width) // 2, (qr.height - img.height) // 2), mask=img if img.mode == "RGBA" else None)
 						qr.save(path.join(docsDir, "assets", "images", "qr", "nightly", f"{webName(item)}.png"))
 						if "qr" not in app["nightly"]:
 							app["nightly"]["qr"] = {}
