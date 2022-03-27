@@ -48,7 +48,7 @@ $light-placeholder: darkgray;
 h1, h2, h3, h4, h5, h6, blockquote, dd, dl, dt, li, p, pre, a, abbr, b, bdi,
 bdo, br, cite, code, data, dfn, em, i, kbd, mark, q, ruby, s, small, span,
 strong, sub, sup, time, u, table, th, td, button, form, input, label, legend,
-option, output, progress, select, textarea, details, summary {
+option, output, progress, select, textarea, details, summary, tt {
 	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red)!important;
 	-webkit-background-clip: text!important;
 	-moz-background-clip: text!important;
