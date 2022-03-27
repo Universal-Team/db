@@ -77,8 +77,8 @@ update_notes: '<h3 dir="auto">Bug fixes</h3>
   while the <code>.nds</code> build doesn''t so it works on flashcards. The <code>.cia</code>
   build can be used to install to the 3DS HOME Menu, here''s a QR:</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/160292827-c1f310a0-aa26-4dd0-b9ff-40b06835adad.png"><img
-  src="https://user-images.githubusercontent.com/41608708/160292827-c1f310a0-aa26-4dd0-b9ff-40b06835adad.png"
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/160297498-c58b1f16-8c06-4e39-9456-07beb44b937c.png"><img
+  src="https://user-images.githubusercontent.com/41608708/160297498-c58b1f16-8c06-4e39-9456-07beb44b937c.png"
   alt="QR code for WordleDS.cia" style="max-width: 100%;"></a></p>'
 updated: '2022-03-27T17:14:50Z'
 version: v1.3.1
