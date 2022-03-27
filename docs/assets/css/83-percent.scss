@@ -1,0 +1,57 @@
+---
+---
+
+/// Variables
+// Main contents
+$main-bg: #fff;
+$main-color: #222;
+$header-color: #222;
+$borders: #bbb;
+$blockquote-color: #666;
+$code-bg: #e9e9e9;
+$code-color: #333;
+$a-color: #0366d6;
+$small-color: #666;
+$carousel-caption-bg: #fffb;
+
+// Cards
+$card-background: $main-bg;
+$card-edges-background: rgba(0,0,0,.03);
+
+// Modal
+$modal-borders: 1px solid #dee2e6;
+
+// Nav
+$nav-link-color: rgba(255, 255, 255, 0.7);
+$nav-link-color-hover: rgba(255, 255, 255, 0.5);
+$nav-link-color-active: rgba(255, 255, 255, 1);
+$dropdown-item-bg-hover: rgba(0, 0, 0, 0.3);
+$primary: {{ page.color | default: site.color }};
+$dark: #343a40;
+$light: #f8f9fa;
+$light-border: #ced4da;
+$light-placeholder: darkgray;
+
+/// Import base style
+@import "base";
+
+/// CSS Overrides
+.carousel-dark-when-light .carousel-control-next-icon, .carousel-dark-when-light .carousel-control-prev-icon {
+	filter: invert(1) grayscale(100);
+}
+
+.carousel-dark-when-light .carousel-indicators li {
+	background-color: #000;
+}
+
+// Basically everything except header, footer, div, and a couple others like that
+h1, h2, h3, h4, h5, h6, blockquote, dd, dl, dt, li, p, pre, a, abbr, b, bdi,
+bdo, br, cite, code, data, dfn, em, i, kbd, mark, q, ruby, s, small, span,
+strong, sub, sup, time, u, table, th, td, button, form, input, label, legend,
+option, output, progress, select, textarea, details, summary {
+	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red)!important;
+	-webkit-background-clip: text!important;
+	-moz-background-clip: text!important;
+	background-clip: text!important;
+	color: transparent!important;
+}
