@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 431685
-    size_str: 421 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.55.1/nds-bootstrap.7z
+    size: 430129
+    size_str: 420 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.55.2/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1041179
-    size_str: 1016 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.55.1/nds-bootstrap.zip
+    size: 1038180
+    size_str: 1013 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.55.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 icon_index: 140
@@ -35,8 +35,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v24.2.1"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v24.2.1</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v24.3.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v24.3.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -50,16 +50,47 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <p dir="auto"><strong>Bug fix</strong></p>
+  <p dir="auto"><strong>What''s new?</strong></p>
 
   <ul dir="auto">
 
-  <li>Fixed in-game menu not exiting properly sometimes.</li>
+  <li>The cursor in the in-game menu is now wrapped.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Bug fixes</strong></p>
+
+  <ul dir="auto">
+
+  <li><strong>SD users:</strong> Card data of around the exact length is no longer
+  loaded all at once, fixing weird crashes in some games.</li>
+
+  <li>Fixed some areas of RAM not being dumped in certain games.</li>
+
+  <li><strong>B4DS:</strong> Fixed <em>Frogger Returns</em> not showing publisher
+  &amp; developer logos on boot.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Regression</strong></p>
+
+  <ul dir="auto">
+
+  <li><em>Dragon Quest V</em> now loops back to the company logos before playing the
+  opening music.
+
+  <ul dir="auto">
+
+  <li>TWL clock speed may fix the issue.</li>
+
+  </ul>
+
+  </li>
 
   </ul>'
-updated: '2022-03-11T03:23:52Z'
-version: v0.55.1
-version_title: v0.55.1 (hotfix)
+updated: '2022-03-27T02:53:22Z'
+version: v0.55.2
+version_title: v0.55.2
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
