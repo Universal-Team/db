@@ -11,9 +11,9 @@ description: The base forwarder packs for use with Forwarder3-DS and NDSForwarde
 download_page: https://github.com/RocketRobz/NTR_Forwarder/releases
 downloads:
   DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z:
-    size: 487232
-    size_str: 475 KiB
-    url: https://github.com/RocketRobz/NTR_Forwarder/releases/download/SD-5/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z
+    size: 482283
+    size_str: 470 KiB
+    url: https://github.com/RocketRobz/NTR_Forwarder/releases/download/SD-6/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z
 github: RocketRobz/NTR_Forwarder
 icon: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
 icon_index: 188
@@ -25,10 +25,7 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto"><strong>UPDATE Mar10/2022:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.55.1">nds-bootstrap
-  v0.55.1</a></p>
-
-  <p dir="auto">To install or update:</p>
+update_notes: '<p dir="auto">To install or update:</p>
 
   <ul dir="auto">
 
@@ -47,17 +44,33 @@ update_notes: '<p dir="auto"><strong>UPDATE Mar10/2022:</strong> Includes <a hre
 
   <ul dir="auto">
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Added cheat support.</li>
+  <li>Updated card read DMA and TWL clock speed blacklists to current ones from TWiLight
+  Menu++.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Improvement</strong></p>
+
+  <ul dir="auto">
+
+  <li>Improved DSi binary check further.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Bug fixes</strong></p>
+
+  <ul dir="auto">
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Added widescreen support. (Requires new forwarder to be made with the SD Card template
-  updated in Forwarder3-DS.)</li>
+  Fixed only using <code>Widescreen.cxi</code> from <code>TWiLightMenu</code> folder.</li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  Fixed rebooting to self not working.</li>
 
   </ul>'
-updated: '2022-02-15T02:37:08Z'
-version: SD-5
-version_title: 'GitHub Release #5'
+updated: '2022-03-27T04:01:08Z'
+version: SD-6
+version_title: 'GitHub Release #6'
 ---
