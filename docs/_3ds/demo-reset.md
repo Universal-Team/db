@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/NPXTobi/Demo-Reset/releases/download/1.0.0/Demo-Reset.cia
 github: NPXTobi/Demo-Reset
 icon: https://raw.githubusercontent.com/NPXTobi/Demo-Reset/master/gfx/icon.png
-icon_index: 132
+icon_index: 131
 image: https://raw.githubusercontent.com/NPXTobi/Demo-Reset/master/cia/banner.png
 image_length: 4767
 layout: app

@@ -3,8 +3,6 @@ author: Alice
 avatar: https://avatars.githubusercontent.com/u/9029520?v=4
 categories:
 - utility
-color: '#beb6be'
-color_bg: '#807a80'
 created: '2017-06-20T04:43:35Z'
 description: 🍂 Displays various information about your Nintendo 3DS in pretty colors.
 download_page: https://github.com/aliceinpalth/3dfetch/releases
@@ -15,7 +13,6 @@ downloads:
     url: https://github.com/aliceinpalth/3dfetch/releases/download/1.10/3dfetch.cia
 github: aliceinpalth/3dfetch
 icon: https://raw.githubusercontent.com/aliceinpalth/3dfetch/master/icon.png
-icon_index: 79
 image: https://raw.githubusercontent.com/aliceinpalth/3dfetch/master/banner.png
 image_length: 41268
 layout: app

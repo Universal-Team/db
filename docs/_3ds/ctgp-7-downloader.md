@@ -20,7 +20,7 @@ downloads:
     size_str: 2 MiB
     url: https://ctgp7.page.link/cia_downloader
 icon: https://db.universal-team.net/assets/images/icons/ctgp-7-downloader.png
-icon_index: 180
+icon_index: 179
 image: https://db.universal-team.net/assets/images/images/ctgp-7-downloader.png
 image_length: 51688
 layout: app

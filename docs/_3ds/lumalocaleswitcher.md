@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/Possum/LumaLocaleSwitcher/releases/download/0.04/LumaLocaleSwitcher-0.04-NIGHTLY.zip
 github: Possum/LumaLocaleSwitcher
 icon: https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/meta/icon.png
-icon_index: 87
+icon_index: 86
 image: https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/meta/banner.png
 image_length: 39325
 layout: app

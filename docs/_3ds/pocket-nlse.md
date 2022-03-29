@@ -17,7 +17,7 @@ downloads:
     url: https://github.com/dragos240/Pocket-NLSE/releases/download/v1.0.0/Pocket-NLSE-v1.0.0.zip
 github: dragos240/Pocket-NLSE
 icon: https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/icon.png
-icon_index: 102
+icon_index: 101
 image: https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/res/banner%20icon.png
 image_length: 5235
 layout: app

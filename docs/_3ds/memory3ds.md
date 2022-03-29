@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/Omegadrien/Memory3DS/releases/download/v1.0/Memory3DSv1.0.zip
 github: Omegadrien/Memory3DS
 icon: https://raw.githubusercontent.com/Omegadrien/Memory3DS/master/assets/icon.png
-icon_index: 107
+icon_index: 106
 image: https://raw.githubusercontent.com/Omegadrien/Memory3DS/master/assets/banner.png
 image_length: 6818
 layout: app

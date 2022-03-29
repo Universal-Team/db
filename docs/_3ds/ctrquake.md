@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/masterfeizz/ctrQuake/releases/download/v0.8/ctrQuake.zip
 github: masterfeizz/ctrQuake
 icon: https://raw.githubusercontent.com/masterfeizz/ctrQuake/master/icon.png
-icon_index: 109
+icon_index: 108
 image: https://db.universal-team.net/assets/images/images/ctrquake.png
 image_length: 3405
 layout: app

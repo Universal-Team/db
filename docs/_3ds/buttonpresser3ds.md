@@ -19,9 +19,8 @@ downloads:
     url: https://github.com/trainboy2019/ButtonPresser3DS/releases/download/2.0/ButtonPresser3DS.cia
 github: trainboy2019/ButtonPresser3DS
 icon: https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/icon.png
-icon_index: 80
+icon_index: 79
 image: https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/resources/Banner.png
-image_length: 36405
 layout: app
 qr:
   ButtonPresser3DS.cia: https://db.universal-team.net/assets/images/qr/buttonpresser3ds-cia.png
@@ -54,4 +53,5 @@ update_notes: '<p dir="auto">The buttons have gotten a few tweaks to make the ap
 updated: '2017-06-22T02:42:08Z'
 version: '2.0'
 version_title: Button Presser 3DS 2.0
+wiki: https://github.com/trainboy2019/ButtonPresser3DS/wiki
 ---

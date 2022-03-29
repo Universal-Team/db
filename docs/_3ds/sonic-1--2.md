@@ -28,7 +28,7 @@ downloads:
     url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.1.1.2/Sonic2.cia
 github: JeffRuLz/Sonic-1-2-2013-Decompilation
 icon: https://raw.githubusercontent.com/JeffRuLz/Sonic-1-2-2013-Decompilation/main/Sonic1Decomp.3DS/banner/icon.png
-icon_index: 168
+icon_index: 167
 image: https://raw.githubusercontent.com/JeffRuLz/Sonic-1-2-2013-Decompilation/main/Sonic1Decomp.3DS/banner/banner.png
 image_length: 35081
 layout: app

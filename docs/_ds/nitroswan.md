@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.3.5/NitroSwan.zip
 github: FluBBaOfWard/NitroSwan
 icon: https://db.universal-team.net/assets/images/icons/nitroswan.png
-icon_index: 193
+icon_index: 192
 image: https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/logo.png
 image_length: 38554
 layout: app
