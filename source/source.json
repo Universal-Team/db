@@ -3293,11 +3293,6 @@
 					"output": "/_nds/"
 				},
 				{
-					"type": "move",
-					"old": "/_nds/release-bootstrap.ver",
-					"new": "/_nds/TWiLightMenu/release-bootstrap.ver"
-				},
-				{
 					"type": "deleteFile",
 					"file": "/nds-bootstrap.7z"
 				}
