@@ -42,6 +42,8 @@ update_notes: '<ul dir="auto">
   <li>3DS: Add a menu toggle for switching between old and new 3DS speeds, located
   in the ''Power Management'' menu. Enabled by default, hidden on old 3DS devices.</li>
 
+  <li>AUDIO/MIXER: Free audio voices properly</li>
+
   <li>CHEEVOS: Update to rcheevos 10.3.3</li>
 
   <li>CHEEVOS: Support for Arduboy</li>
@@ -82,6 +84,8 @@ update_notes: '<ul dir="auto">
 
   <li>LOCALIZATION: Add Czech language support</li>
 
+  <li>MMAP: Handle disconnect bits on both sides of len</li>
+
   <li>MIYOO: Improve CPU architecture and model name identification for Miyoo</li>
 
   <li>MENU/SETTINGS: Remove ''Advanced Settings'' flag from ''Settings &gt; Core''
@@ -111,6 +115,14 @@ update_notes: '<ul dir="auto">
   rewind, if rewind functionality itself is disabled</li>
 
   <li>HOTKEYS: Add hotkey for toggling sync to exact content framerate</li>
+
+  <li>PS3/PSL1GHT: Add RSX graphics support</li>
+
+  <li>PS3/PSL1GHT: Add libco support</li>
+
+  <li>PS3/PSL1GHT: Add experimental PSMove support</li>
+
+  <li>RS90: Optimise layout of sdl_rs90_video</li>
 
   <li>STEAM: Use native OSK (Onscreen Keyboard) instead of built-in RetroArch version</li>
 
@@ -147,8 +159,10 @@ update_notes: '<ul dir="auto">
 
   <li>WIIU: Add Optimize for Gamepad option</li>
 
+  <li>WIIU: Fix USB gamepad support</li>
+
   </ul>'
-updated: '2022-03-27T02:47:47Z'
+updated: '2022-03-29T01:30:34Z'
 version: v1.10.2
 version_title: v1.10.2
 website: http://www.libretro.com
