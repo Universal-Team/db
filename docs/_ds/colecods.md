@@ -16,7 +16,7 @@ downloads:
     size_str: 1 MiB
     url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.4/ColecoDS.nds
   README.md:
-    size: 19818
+    size: 20196
     size_str: 19 KiB
     url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.4/README.md
   cbios.txt:
@@ -25,7 +25,7 @@ downloads:
     url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.4/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
-icon_index: 195
+icon_index: 196
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
 image_length: 15870
 layout: app

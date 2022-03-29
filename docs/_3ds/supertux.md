@@ -10,7 +10,7 @@ description: Port to 3ds of Supertux v0.1.3 (Milestone 1)
 download_page: https://github.com/nop90/Supertux-Milestone1-3ds/releases
 github: nop90/Supertux-Milestone1-3ds
 icon: https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/icon.png
-icon_index: 89
+icon_index: 90
 image: https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/banner.png
 image_length: 35283
 layout: app

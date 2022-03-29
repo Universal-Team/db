@@ -10,7 +10,7 @@ description: PyMO AVG Game Engine implemention in C.
 download_page: https://github.com/Strrationalism/CPyMO/releases
 github: Strrationalism/CPyMO
 icon: https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/icon.png
-icon_index: 202
+icon_index: 203
 image: https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/banner.png
 image_length: 30736
 layout: app

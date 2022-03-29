@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/Hoksy/ravimid/releases/download/1.2/ravimid_deluxe.cia
 github: Hoksy/ravimid
 icon: https://db.universal-team.net/assets/images/icons/ravimid.png
-icon_index: 105
+icon_index: 106
 image: https://db.universal-team.net/assets/images/images/ravimid.png
 image_length: 905
 layout: app

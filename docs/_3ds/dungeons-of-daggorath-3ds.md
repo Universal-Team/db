@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/pyroticinsanity/3dsdod/releases/download/1.1/3dsdod-1.1.cia
 github: pyroticinsanity/3dsdod
 icon: https://raw.githubusercontent.com/pyroticinsanity/3dsdod/master/banner/3dsdod-icon.png
-icon_index: 178
+icon_index: 179
 image: https://db.universal-team.net/assets/images/images/dungeons-of-daggorath-3ds.png
 image_length: 18876
 layout: app

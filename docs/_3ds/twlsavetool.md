@@ -21,7 +21,7 @@ downloads:
     url: https://github.com/TuxSH/TWLSaveTool/releases/download/v1.2/TWLSaveTool.zip
 github: TuxSH/TWLSaveTool
 icon: https://raw.githubusercontent.com/TuxSH/TWLSaveTool/master/app/IconLarge.png
-icon_index: 117
+icon_index: 118
 image: https://raw.githubusercontent.com/TuxSH/TWLSaveTool/master/app/IconLarge.png
 image_length: 2479
 layout: app

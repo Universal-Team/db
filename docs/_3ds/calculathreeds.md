@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/LiquidFenrir/CalculaThreeDS/releases/download/v0.2/CalculaThreeDS.3dsx
 github: LiquidFenrir/CalculaThreeDS
 icon: https://raw.githubusercontent.com/LiquidFenrir/CalculaThreeDS/main/icon.png
-icon_index: 162
+icon_index: 163
 image: https://raw.githubusercontent.com/LiquidFenrir/CalculaThreeDS/main/icon.png
 image_length: 1211
 layout: app

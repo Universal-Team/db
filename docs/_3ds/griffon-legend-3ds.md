@@ -16,7 +16,7 @@ downloads:
     url: https://github.com/nop90/Griffon-Legend-3DS/releases/download/v1.0/GriffonLegend.v1.0.zip
 github: nop90/Griffon-Legend-3DS
 icon: https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/icon.png
-icon_index: 94
+icon_index: 95
 image: https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/banner.png
 image_length: 29770
 layout: app

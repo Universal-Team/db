@@ -15,7 +15,7 @@ downloads:
     size: 196867
     url: https://gbatemp.net/download/luma-10-3-with-night-light-and-quick-switchers.35619/download
 github: DullPointer/Luma3DS
-icon_index: 182
+icon_index: 183
 image: https://gbatemp.net/data/avatars/l/439/439371.jpg?1618764346
 layout: app
 license: gpl-3.0

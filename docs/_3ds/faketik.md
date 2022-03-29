@@ -14,7 +14,7 @@ downloads:
     size_str: 191 KiB
     url: https://github.com/ihaveamac/faketik/releases/download/v1.1.2/faketik.3dsx
 github: ihaveamac/faketik
-icon_index: 159
+icon_index: 160
 image: https://avatars.githubusercontent.com/u/590576?v=4
 image_length: 153586
 layout: app

@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/releases/download/v0.4.0/LeafEdit-Pattern-Editor.cia
 github: SuperSaiyajinStackZ/LeafEdit-Pattern-Editor
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/master/app/icon.png
-icon_index: 136
+icon_index: 137
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/master/app/banner.png
 image_length: 24808
 layout: app
