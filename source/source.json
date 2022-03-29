@@ -4711,5 +4711,27 @@
 			}
 		},
 		"unistore_exclude": true
+	},
+	{
+		"github": "PretendoNetwork/HokakuCTR",
+		"author": "Pretendo Network",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"description": "A 3DS game plugin (3GX) to dump the RMC communication between 3DS games and NEX. The traffic is dumped to the SD into pcap files.",
+		"website": "https://pretendo.network/",
+		"scripts": {
+			"default.3gx": [
+				{
+					"type": "downloadRelease",
+					"repo": "PretendoNetwork/HokakuCTR",
+					"file": "Hokaku3DS.3gx",
+					"output": "/luma/plugins/default.3gx"
+				},
+				{
+					"type": "promptMessage",
+					"message": "You will need to to install a plugin loader Luma3DS fork,\n\"Luma3DS (Nanquitas)\" and \"Luma with Night/Light\nand Quick-Switchers\" should both work.\n\nAfter installing that and rebooting, open the Rosalina menu\nand enable the plugin loader."
+				}
+			]
+		}
 	}
 ]
