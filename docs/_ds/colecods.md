@@ -12,17 +12,13 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1064960
-    size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.4/ColecoDS.nds
+    size: 1012736
+    size_str: 989 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.3a/ColecoDS.nds
   README.md:
-    size: 20196
-    size_str: 19 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.4/README.md
-  cbios.txt:
-    size: 2265
-    size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.4/cbios.txt
+    size: 18344
+    size_str: 17 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.3a/README.md
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 196
@@ -33,18 +29,21 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V6.4: 29-Mar-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V6.3a: 13-Mar-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Memotech MTX support added (.mtx and .run files only)</li>
-
-  <li>Better load file handling so more games are recognized correctly.</li>
+  <li>ADAM Computer support is added! Play .ddp and .dsk games (requires eos.rom and
+  writer.rom).</li>
 
   <li>Other minor cleanups and fixes as time permitted.</li>
 
+  <li>Improved keyboard support for ADAM - CAPS indicator and smoother operation.</li>
+
+  <li>New option to randomize or wipe RAM on startup.</li>
+
   </ul>'
-updated: '2022-03-29T17:01:40Z'
-version: '6.4'
-version_title: Version 6.4
+updated: '2022-03-13T12:04:51Z'
+version: 6.3a
+version_title: Version 6.3a
 ---
