@@ -73,5 +73,4 @@ update_notes: '<p dir="auto">To install or update:</p>
 updated: '2022-03-27T04:01:08Z'
 version: SD-6
 version_title: 'GitHub Release #6'
-wiki: https://github.com/RocketRobz/NTR_Forwarder/wiki
 ---
