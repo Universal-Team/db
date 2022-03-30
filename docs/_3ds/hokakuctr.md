@@ -15,7 +15,7 @@ downloads:
     size_str: 270 KiB
     url: https://github.com/PretendoNetwork/HokakuCTR/releases/download/v1.0/Hokaku3DS.3gx
 github: PretendoNetwork/HokakuCTR
-icon_index: -1
+icon_index: 205
 image: https://avatars.githubusercontent.com/u/36684034?v=4
 image_length: 9412
 layout: app
@@ -30,3 +30,11 @@ version: v1.0
 version_title: Initial Release
 website: https://pretendo.network/
 ---
+## Usage
+
+1. Install the [Luma3DS 3GX plugin loader](https://github.com/Nanquitas/Luma3DS/releases/latest).
+2. Navigate to **luma/plugins** and copy the **.3gx** file as **default.3gx** to load it for all game or place it inside a folder with the game *titleID* you want to use.
+3. Open the Rosalina menu and enable the plugin loader.
+4. Launch the game to dump traffic from. The screen should flash blue and some text will display on the screen. If it says **Not Ready**, it means this game is not compatible. If it says **Ready**, you can go online to dump the traffic.
+
+The dumps will be placed inside the **HokakuCTR** folder in the SD card root.
