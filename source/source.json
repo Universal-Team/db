@@ -3135,14 +3135,6 @@
 		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/master/app/icon.png"
 	},
 	{
-		"github": "Epicpkmn11/dfc",
-		"systems": ["DS"],
-		"categories": ["utility"],
-		"image": "https://raw.githubusercontent.com/Epicpkmn11/dfc/master/resources/banner.png",
-		"icon": "https://raw.githubusercontent.com/Epicpkmn11/dfc/master/resources/icon.png",
-		"unistore_exclude": true
-	},
-	{
 		"title": "TWiLight Menu++",
 		"github": "DS-Homebrew/TWiLightMenu",
 		"systems": ["DS"],
