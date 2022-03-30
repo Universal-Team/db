@@ -75,5 +75,6 @@ update_notes: '<h3 dir="auto">Changes</h3>
 updated: '2022-03-30T06:07:45Z'
 version: v1.3.2
 version_title: Update word list
+wiki: https://github.com/Epicpkmn11/WordleDS/wiki
 ---
 A clone of [Wordle](https://www.nytimes.com/games/wordle/index.html) for the Nintendo DS(i). It features the same word each day as the official Wordle and has most of the same features including statistics tracking, high contrast and hard mode options, and even makes a txt file with a sharable emoji grid.

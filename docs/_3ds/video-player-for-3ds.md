@@ -66,6 +66,7 @@ update_notes: '<ul dir="auto">
 updated: '2022-03-29T14:04:03Z'
 version: v1.5.0
 version_title: Video player for 3DS v1.5.0
+wiki: https://github.com/Core-2-Extreme/Video_player_for_3DS/wiki
 ---
 You can play .mp4 file on your 3DS!
 
