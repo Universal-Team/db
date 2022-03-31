@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/CollinScripter/Revamped3DS/releases/download/V1.11/Revamped.zip
 github: CollinScripter/Revamped3DS
 icon: https://raw.githubusercontent.com/CollinScripter/Revamped3DS/master/icon.png
-icon_index: 170
+icon_index: 169
 image: https://db.universal-team.net/assets/images/images/halo-revamped.png
 image_length: 989386
 layout: app

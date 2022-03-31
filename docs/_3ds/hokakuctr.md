@@ -15,7 +15,7 @@ downloads:
     size_str: 270 KiB
     url: https://github.com/PretendoNetwork/HokakuCTR/releases/download/v1.0/Hokaku3DS.3gx
 github: PretendoNetwork/HokakuCTR
-icon_index: 205
+icon_index: 204
 image: https://avatars.githubusercontent.com/u/36684034?v=4
 image_length: 9412
 layout: app

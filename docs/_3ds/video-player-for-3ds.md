@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.5.0/Video_player_for_3DS.cia
 github: Core-2-Extreme/Video_player_for_3DS
 icon: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/icon.png
-icon_index: 176
+icon_index: 175
 image: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/banner.png
 image_length: 12768
 layout: app

@@ -16,7 +16,7 @@ downloads:
     size_str: 2 MiB
     url: https://github.com/d0k3/GodMode9/releases/download/v2.1.1/GodMode9-v2.1.1-20220322194259.zip
 github: d0k3/GodMode9
-icon_index: 144
+icon_index: 143
 image: https://raw.githubusercontent.com/d0k3/GodMode9/master/resources/logo.png
 image_length: 9316
 layout: app
