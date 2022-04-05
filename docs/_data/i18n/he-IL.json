@@ -2,13 +2,14 @@
 	"title-home": "דף הבית | Universal-DB",
 	"title-3ds": "3DS | Universal-DB",
 	"title-ds": "DS | Universal-DB",
-	"title-error-404": "Error 404 | Universal-DB",
+	"title-error-404": "שגיאה 404 | Universal-DB",
 	"by": "נוצר על ידי: <a href=\"https://universal-team.net/\" class=\"link\">Universal-Team</a>",
 	"published-with": "פורסם עם <a href=\"https://pages.github.com\">GitHub Pages</a>, צפו <a href=\"https://github.com/${repo}\">במקור </a> בGitHub.",
 	"color-scheme": "ערכת צבעים:",
 	"default": "ברירת המחדל",
 	"dark": "כהה",
 	"light": "בהיר",
+	"83-percent": "83% יותר יפה",
 	"rss": "RSS Feed",
 	"discord": "שרת הדיסקורד",
 	"close": "סגור",
@@ -37,7 +38,7 @@
 	"title": "כותרת",
 	"author": "יוצר",
 	"description": "תיאור",
-	"date-updated": "עודכן בתאריך",
+	"date-updated": "תאריך עדכון",
 	"ascending": "בסדר עולה",
 	"descending": "בסדר יורד",
 	"search": "חיפוש:",
@@ -67,6 +68,6 @@
 	"home-2": "רוב המידע באתר זה נאסף באופן אוטומטי מהמידע בעמוד הGitHub של האפליקציה. אם אתם שמים לב למידע שגוי בבקשה תדווחו את זה כ<a href=\"https://github.com/Universal-Team/db/issues/new\">בעית GitHub</a> או ב <a href=\"https://universal-team.net/discord\">שרת הDiscord שלנו</a>. תודה!",
 	"home-3": "זהו גם UniStore ברירת המחדל עבור <a href=\"/3ds/universal-updater\">Universal-Updater</a>, כך שאם תרצו לדפדף ולהתקין אפילקציות מUniversal-DB ישירות על ה3DS כדאי לכם לנסות.",
 	"last-updated-apps": "עדכון אחרון: ",
-	"error-404": "Error! 404!",
-	"return-to-home": "Return to the <a href=\"/\">home page</a> or <span class=\"a\" onclick=\"window.history.back()\">go back</span> to the previous page."
+	"error-404": "שגיאה! 404!",
+	"return-to-home": "חזרה <a href=\"/\">לעמוד הבית</a> או <span class=\"a\" onclick=\"window.history.back()\">לעמוד הקודם</span>."
 }

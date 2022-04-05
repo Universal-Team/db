@@ -2,13 +2,14 @@
 	"title-home": "Startseite | Universal-DB",
 	"title-3ds": "3DS | Universal-DB",
 	"title-ds": "DS | Universal-DB",
-	"title-error-404": "Error 404 | Universal-DB",
+	"title-error-404": "Fehler 404 | Universal-DB",
 	"by": "Von: <a href=\"https://universal-team.net/\" class=\"link\">Universal-Team</a>",
 	"published-with": "Veröffentlicht mit <a href=\"https://pages.github.com\">GitHub-Seiten</a>, sehen Sie <a href=\"https://github.com/${repo}\">die Quelle</a> auf GitHub.",
 	"color-scheme": "Farbschema:",
 	"default": "Standard",
 	"dark": "Dunkel",
 	"light": "Hell",
+	"83-percent": "83% schöner",
 	"rss": "RSS-Feed",
 	"discord": "Discord Server",
 	"close": "Schließen",
@@ -37,7 +38,7 @@
 	"title": "Titel",
 	"author": "Autor",
 	"description": "Beschreibung",
-	"date-updated": "Date Updated",
+	"date-updated": "Aktualisierungsdatum",
 	"ascending": "Aufsteigend",
 	"descending": "Absteigend",
 	"search": "Suche:",
@@ -67,6 +68,6 @@
 	"home-2": "Die meisten Informationen auf dieser Seite werden automatisch aus den Informationen im GitHub-Repository der App gesammelt, aber wenn du falsche Informationen bemerkst, melde sie bitte als <a href=\"https://github.com/Universal-Team/db/issues/new\">GitHub Problem</a> oder auf unserem <a href=\"https://universal-team.net/discord\">Discord Server</a>. Danke!",
 	"home-3": "Dies ist auch der Standard UniStore für <a href=\"/3ds/universal-updater\">Universal-Updater</a>, Wenn du also Apps von Universal-DB direkt auf deinem 3DS durchsuchen und installieren möchtest, solltest du es probieren.",
 	"last-updated-apps": "Zuletzt aktualisiert: ",
-	"error-404": "Error! 404!",
-	"return-to-home": "Return to the <a href=\"/\">home page</a> or <span class=\"a\" onclick=\"window.history.back()\">go back</span> to the previous page."
+	"error-404": "Fehler 404!",
+	"return-to-home": "Zurück zur <a href=\"/\">Startseite</a> oder zurück zur <span class=\"a\" onclick=\"window.history.back()\">vorherigen Seite</span>."
 }
