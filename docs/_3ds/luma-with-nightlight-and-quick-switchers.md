@@ -24,7 +24,17 @@ source: https://github.com/DullPointer/Luma3DS
 systems:
 - 3DS
 title: Luma with Night/Light and Quick-Switchers
-update_notes: '{"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}'
+update_notes: '<p dir="auto">Official Luma version number bump</p>
+
+  <ul dir="auto">
+
+  <li>Recent official Luma changes e.g. improved system time setting and "Wait for
+  B release before exiting rosalina menu".<br>
+
+  -Pixel-Pop''s feature to load custom logo.bin from "/luma/logo.bin" (example: rename
+  this file to "logo.bin" or create your own).</li>
+
+  </ul>'
 updated: '2022-03-24T20:27:00Z'
 version: 10.3 2022-03-24
 version_title: Luma 10.3 with Night/Light and Quick-Switchers
