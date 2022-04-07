@@ -12,17 +12,21 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1048576
+    size: 1053696
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.5/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.6/ColecoDS.nds
   README.md:
-    size: 21039
-    size_str: 20 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.5/README.md
+    size: 21869
+    size_str: 21 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.6/README.md
+  blank.cas:
+    size: 1
+    size_str: 1 Byte
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.6/blank.cas
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.5/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.6/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 195
@@ -33,21 +37,24 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V6.5: 02-Apr-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V6.6: 07-Apr-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Spectravideo SVI (328) support added (.cas files auto-detected format)</li>
+  <li>CAS icon implemented to provide a menu of cassette-based actions including swapping
+  tape/disk for multi-load games.</li>
 
-  <li>MTX Cassette support added (.cas files auto-detected format)</li>
+  <li>SC-3000 emulated more fully with support for the SC-3000 Survivors Multi-Cart.</li>
 
-  <li>Overhaul of full keyboard to support another row of characters and shoulder-button
-  for SHIFT</li>
+  <li>PAL vs NTSC now supported for the Memotech MTX, Spectravideo SVI and SC-3000.</li>
 
-  <li>Increased config database to 1400 entries (from 700 - this version will auto-update)</li>
+  <li>SAV files have been streamlined and are now smaller/faster. Old saves won''t
+  work. Sorry.</li>
+
+  <li>Better overall memory handling to keep the program size manageable.</li>
 
   </ul>'
-updated: '2022-04-02T12:36:30Z'
-version: '6.5'
-version_title: Version 6.5
+updated: '2022-04-07T12:58:28Z'
+version: '6.6'
+version_title: Version 6.6
 ---
