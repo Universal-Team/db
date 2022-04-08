@@ -10,7 +10,7 @@ description: Animal Crossing NL Vapecord Public Plugin WIP
 download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases
 downloads:
   Vapecord.Public.zip:
-    size: 4486730
+    size: 4484933
     size_str: 4 MiB
     url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v1.9.6/Vapecord.Public.zip
   quickmenu.bin:
@@ -29,7 +29,17 @@ source: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin
 systems:
 - 3DS
 title: Vapecord-ACNL-Plugin
-update_notes: '<h1 dir="auto">New Update!!</h1>
+update_notes: '<p dir="auto">[QUICK FIX]</p>
+
+  <ul dir="auto">
+
+  <li>Player Save Cheats now work on the island</li>
+
+  <li>Non Hacker Commands now work</li>
+
+  </ul>
+
+  <h1 dir="auto">New Update!!</h1>
 
   <h2 dir="auto">After a while finally a new update! The plugin has gone through a
   lot of rewriting. One big new addition is the Quick Menu V2, which lets you modify
@@ -96,6 +106,6 @@ update_notes: '<h1 dir="auto">New Update!!</h1>
   rel="nofollow">Vapecord Discord Server</a>.</p>'
 updated: '2022-04-07T21:57:53Z'
 version: v1.9.6
-version_title: ACNL Vapecord Public Plugin [v.1.9.6]
+version_title: ACNL Vapecord Public Plugin [v.1.9.6][QUICK FIX]
 wiki: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/wiki
 ---
