@@ -24,7 +24,7 @@ downloads:
 github: Epicpkmn11/WordleDS
 icon: https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/resources/icon/icon.0.png
 icon_gif: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
-icon_index: -1
+icon_index: 199
 image: https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/resources/icon/icon.0.png
 image_length: 347
 layout: app
