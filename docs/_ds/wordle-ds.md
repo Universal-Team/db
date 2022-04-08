@@ -3,8 +3,6 @@ author: Pk11
 avatar: https://avatars.githubusercontent.com/u/41608708?v=4
 categories:
 - game
-color: '#96c392'
-color_bg: '#62805f'
 created: '2022-02-14T05:51:08Z'
 description: A clone of Wordle for the Nintendo DS(i)
 download_page: https://github.com/Epicpkmn11/WordleDS/releases
@@ -22,10 +20,8 @@ downloads:
     size_str: 1 MiB
     url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.3.2/WordleDS.nds
 github: Epicpkmn11/WordleDS
-icon: https://db.universal-team.net/assets/images/icons/wordle-ds.png
-icon_index: 199
-image: https://db.universal-team.net/assets/images/icons/wordle-ds.png
-image_length: 630
+icon: https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/icon.bmp
+image: https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/icon.bmp
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
