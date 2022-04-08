@@ -3526,6 +3526,8 @@
 		"github": "RedShyGuy/Vapecord-ACNL-Plugin",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"image": "https://raw.githubusercontent.com/RedShyGuy/Vapecord-ACNL-Plugin/master/Vapecord.png",
+		"icon": "https://raw.githubusercontent.com/RedShyGuy/Vapecord-ACNL-Plugin/master/Vapecord.png",
 		"scripts": {
 			"For ACNL EUR": [
 				{
