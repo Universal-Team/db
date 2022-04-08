@@ -28,9 +28,9 @@ layout: compress
 											<div class="card-header">
 												<img class="mx-auto d-block mw-100" src="{{ page.image }}" alt="{{ page.title }}">
 											</div>
-										{% else if page.icon %}
+										{% else if page.icon or page.icon_gif %}
 											<div class="card-header">
-												<img class="mx-auto d-block mw-100" src="{{ page.icon }}" alt="{{ page.title }}">
+												<img class="mx-auto d-block mw-100" src="{{ page.icon_gif | alt: page.icon }}" alt="{{ page.title }}">
 											</div>
 										{% endif %}
 										<div class="card-body" dir="ltr">

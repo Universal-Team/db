@@ -427,6 +427,8 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 			# Check for local icon / image
 			if "icon" not in app and path.exists(path.join(docsDir, "assets", "images", "icons", f"{webName(app['title'])}.png")):
 				app["icon"] = f"https://db.universal-team.net/assets/images/icons/{webName(app['title'])}.png"
+			if "icon_gif" not in app and path.exists(path.join(docsDir, "assets", "images", "icons", f"{webName(app['title'])}.gif")):
+				app["icon_gif"] = f"https://db.universal-team.net/assets/images/icons/{webName(app['title'])}.gif"
 
 			if "image" not in app and path.exists(path.join(docsDir, "assets", "images", "images", f"{webName(app['title'])}.png")):
 				app["image"] = f"https://db.universal-team.net/assets/images/images/{webName(app['title'])}.png"
