@@ -10,9 +10,13 @@ description: Animal Crossing NL Vapecord Public Plugin WIP
 download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases
 downloads:
   Vapecord.Public.zip:
-    size: 4951214
+    size: 4486730
     size_str: 4 MiB
-    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v1.9.5/Vapecord.Public.zip
+    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v1.9.6/Vapecord.Public.zip
+  quickmenu.bin:
+    size: 6
+    size_str: 6 Bytes
+    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v1.9.6/quickmenu.bin
 github: RedShyGuy/Vapecord-ACNL-Plugin
 icon_index: 150
 image: https://avatars.githubusercontent.com/u/43783060?v=4
@@ -26,58 +30,62 @@ systems:
 title: Vapecord-ACNL-Plugin
 update_notes: '<h1 dir="auto">New Update!!</h1>
 
-  <h2 dir="auto">One of the drastic changes is the new Plugin Content Folder, you
-  will now find all the files needed for Vapecord inside <code>E:/Vapecord/Data/</code>
-  and all the user created files in <code>E:/Vapecord/[RegionName]/</code> (e. g.
-  <code>E:/Vapecord/USA/</code>).</h2>
+  <h2 dir="auto">After a while finally a new update! The plugin has gone through a
+  lot of rewriting. One big new addition is the Quick Menu V2, which lets you modify
+  the contents of the Quick Menu however you want! (An example custom quick Menu can
+  be found in this release, just download it and place it in your region folder (E:/Vapecord/[region]/)</h2>
 
-  <h2 dir="auto">Meaning that if you are updating your plugin from a previous version,
-  you can delete the <code>Vapecord</code> folder from: <code>E:/luma/plugins/[TitleID]/Vapecord</code>.</h2>
-
-  <h2 dir="auto">The update has those features:</h2>
-
-  <blockquote>
+  <h2 dir="auto">New Features:</h2>
 
   <ul dir="auto">
 
-  <li>Custom Inventory Buttons (e. g. Duplicate, Wrap Up)</li>
+  <li>Quick Menu V2</li>
 
-  <li><code>Max Ore Hunting Points</code> replaces <code>Fill Inv With Bonus Ore</code></li>
+  <li>No Shovel Knockback</li>
 
-  <li><code>Instant Labyrinth Tour</code> replaces <code>Fill Inv With Needed Fruit</code></li>
+  <li>Fill Museum</li>
 
-  <li>Always Aurora Lights</li>
+  <li>Never Bedhead</li>
 
-  <li><code>ActiveCheats.txt</code> will now be created if game crashes to make it
-  easier to figure out the crash reason</li>
-
-  <li>German Language support (thanks to bkfirmen!!)</li>
+  <li>Korean Language support (thanks to Soopoolleaf !!)</li>
 
   </ul>
 
-  </blockquote>
-
-  <h2 dir="auto">And other small changes:</h2>
-
-  <blockquote>
+  <h2 dir="auto">Bug fixes:</h2>
 
   <ul dir="auto">
 
-  <li>8x faster installment of Vapecord</li>
+  <li>Touch Teleport teleporting you to X00Y00 by pressing anywhere fixed</li>
 
-  <li>Removed Music Speed Changer and Get Mail Text</li>
+  <li>Mushroomized Furniture now works as it should</li>
 
-  <li>File Backup restoring now supports user created sub-Folders (example of this
-  can be seen in the Inventory Get Set cheat)</li>
+  <li>Town Name Changer messing up saves fixed</li>
 
-  <li>Plugin will now still show all cheats if the game version is wrong and the user
-  didn''t ignore the warning</li>
+  <li>Town Acre Editor crashing fixed</li>
 
-  <li>Unlock All Tours was optimized and can stay active all the time now</li>
+  <li>Unlock QR Machine now works always</li>
+
+  <li>Design Backup now backups designs correctly</li>
+
+  <li>Island Unlocker now works fine (also works for your other players now)</li>
 
   </ul>
 
-  </blockquote>
+  <h2 dir="auto">Small changes:</h2>
+
+  <ul dir="auto">
+
+  <li>Finish Mayor permit now works better</li>
+
+  <li>Town/Player Name Changer and Gender Changer now work in an instant</li>
+
+  <li>Enzyclopedia now adds random sizes to insects/fish/sea creatures</li>
+
+  <li>House Editor removed (for now!, will be back soon, but working 100%)</li>
+
+  </ul>
+
+  <p dir="auto">And a few other things I can''t think of right now!</p>
 
   <h2 dir="auto">How to use:</h2>
 
@@ -85,8 +93,8 @@ update_notes: '<h1 dir="auto">New Update!!</h1>
 
   If you encounter any bugs feel free to report them on the official <a href="https://discord.gg/QwqdBpKWf3"
   rel="nofollow">Vapecord Discord Server</a>.</p>'
-updated: '2021-10-30T10:36:15Z'
-version: v1.9.5
-version_title: ACNL Vapecord Public Plugin [v.1.9.5] [UPDATED]
+updated: '2022-04-07T21:57:53Z'
+version: v1.9.6
+version_title: ACNL Vapecord Public Plugin [v.1.9.6]
 wiki: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/wiki
 ---
