@@ -24,13 +24,13 @@ layout: compress
 							<div class="col-md-4 mb-3">
 								<div class="card">
 									{% if page.website %}<a href="{{ page.website }}">{% elsif page.source %}<a href="{{ page.source }}">{% endif %}
-										{% if page.image and page.image != page.icon %}
+										{% if page.image %}
 											<div class="card-header">
 												<img class="mx-auto d-block mw-100" src="{{ page.image }}" alt="{{ page.title }}">
 											</div>
-										{% else if page.icon or page.icon_gif %}
+										{% else if page.icon
 											<div class="card-header">
-												<img class="mx-auto d-block mw-100" src="{{ page.icon_gif | default: page.icon }}" alt="{{ page.title }}">
+												<img class="mx-auto d-block mw-100" src="{{ page.icon }}" alt="{{ page.title }}">
 											</div>
 										{% endif %}
 										<div class="card-body" dir="ltr">

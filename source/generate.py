@@ -425,10 +425,9 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 								app["downloads"][download]["size_str"] = byteCount(app["downloads"][download]["size"])
 
 			# Check for local icon / image
-			if "icon" not in app and path.exists(path.join(docsDir, "assets", "images", "icons", f"{webName(app['title'])}.png")):
-				app["icon"] = f"https://db.universal-team.net/assets/images/icons/{webName(app['title'])}.png"
-			if "icon_gif" not in app and path.exists(path.join(docsDir, "assets", "images", "icons", f"{webName(app['title'])}.gif")):
-				app["icon_gif"] = f"https://db.universal-team.net/assets/images/icons/{webName(app['title'])}.gif"
+			for ext in (".png", ".gif"):
+				if "icon" not in app and path.exists(path.join(docsDir, "assets", "images", "icons", webName(app['title']) + ext)):
+					app["icon"] = f"https://db.universal-team.net/assets/images/icons/{webName(app['title'])}{ext}"
 
 			if "image" not in app and path.exists(path.join(docsDir, "assets", "images", "images", f"{webName(app['title'])}.png")):
 				app["image"] = f"https://db.universal-team.net/assets/images/images/{webName(app['title'])}.png"
@@ -448,13 +447,13 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 
 			# Make icon for UniStore and QR
 			img = None
-			if "icon" in app or "image" in app:
+			if "icon" in app or "image" in app or "icon_static" in app:
 				if not path.exists(path.join(tempDir, "48")):
 					makedirs(path.join(tempDir, "48"))
 				if not path.exists(path.join(tempDir, "32")):
 					makedirs(path.join(tempDir, "32"))
 
-				url = app["icon"] if "icon" in app else app["image"] if "image" in app else ""
+				url = app["icon_static"] if "icon_static" in app else (app["icon"] if "icon" in app else app["image"] if "image" in app else "")
 				file = None
 				if url[:30] == "https://db.universal-team.net/":
 					file = open(path.join(docsDir, url[30:]), "rb")
@@ -485,6 +484,9 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 					if "icon" in app and app["icon"].endswith(".bmp"):
 						copyfile(path.join(tempDir, "48", f"{iconIndex}.png"), path.join(docsDir, "assets", "images", "icons", f"{webName(app['title'])}.png"))
 						app["icon"] = f"https://db.universal-team.net/assets/images/icons/{webName(app['title'])}.png"
+					elif "icon_static" not in app and "icon" in app and app["icon"].endswith(".gif"):
+						copyfile(path.join(tempDir, "48", f"{iconIndex}.png"), path.join(docsDir, "assets", "images", "icons", f"{webName(app['title'])}.png"))
+						app["icon_static"] = f"https://db.universal-team.net/assets/images/icons/{webName(app['title'])}.png"
 
 					if "image" in app and app["image"].endswith(".bmp"):
 						app["image"] = app["icon"]
