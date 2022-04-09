@@ -22,11 +22,11 @@ downloads:
     size_str: 1 MiB
     url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.3.2/WordleDS.nds
 github: Epicpkmn11/WordleDS
-icon: https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/resources/icon/icon.0.png
-icon_gif: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
+icon: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
 icon_index: 199
-image: https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/resources/icon/icon.0.png
-image_length: 347
+icon_static: https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/resources/icon/icon.0.png
+image: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
+image_length: 3957
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
