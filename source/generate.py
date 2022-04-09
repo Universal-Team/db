@@ -494,7 +494,8 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 					iconIndex += 1
 
 		if "title" in app:
-			print(webName(app["title"]))
+			app["slug"] = webName(app["title"])
+			print(app["slug"])
 
 		# Make QR
 		if not foundExisting or not (priorityOnlyMode and not ("priority" in app and app["priority"])):
@@ -570,6 +571,8 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 			web.pop("scripts")
 		if "archive" in web:
 			web.pop("archive")
+		if "slug" in web:
+			web.pop("slug")
 		# Add defaults where absolutely needed
 		if "systems" not in web:
 			web["systems"] = ["3DS"]  # default to 3DS
