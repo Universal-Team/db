@@ -12,9 +12,9 @@ description: 'GodMode9i Explorer - A full access file browser for the Nintendo D
 download_page: https://github.com/DS-Homebrew/GodMode9i/releases
 downloads:
   GodMode9i.7z:
-    size: 340724
-    size_str: 332 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.2.0/GodMode9i.7z
+    size: 347783
+    size_str: 339 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.2.1/GodMode9i.7z
 github: DS-Homebrew/GodMode9i
 icon: https://db.universal-team.net/assets/images/icons/godmode9i.png
 icon_index: 11
@@ -32,36 +32,23 @@ source: https://github.com/DS-Homebrew/GodMode9i
 systems:
 - DS
 title: GodMode9i
-update_notes: '<p dir="auto"><strong>What''s new?</strong> (<a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)</p>
+update_notes: '<p dir="auto">All changes by <a class="user-mention" data-hovercard-type="user"
+  data-hovercard-url="/users/Epicpkmn11/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a></p>
+
+  <p dir="auto"><strong>What''s new?</strong></p>
 
   <ul dir="auto">
 
-  <li>Added restoring DS saves on DS/DS Lite.</li>
+  <li>Dutch, Ukrainian, and Hebrew translations added.</li>
 
-  <li>Added dumping DS saves using GBA cart save data.</li>
-
-  <li>Added title manager menu for easier DSiWare dumping.</li>
-
-  <li>Metadata dumping has been added.</li>
-
-  <li>Slot-2 RAM can now be used as RAM drives. (ex. DS Memory Expansion Pak, Supercard
-  MiniSD, etc.)</li>
-
-  <li>NitroFS can now be mounted from SysNAND and SDNAND.</li>
+  <li>A warning will now be shown if file is too large to copy.</li>
 
   </ul>
 
-  <p dir="auto"><strong>Improvements</strong></p>
+  <p dir="auto"><strong>Improvement</strong></p>
 
   <ul dir="auto">
-
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  DSi &amp; 3DS RAM drives have been combined into one.</li>
-
-  <li>Increased DSi/3DS RAM drive size by 3MB.</li>
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
@@ -69,24 +56,18 @@ update_notes: '<p dir="auto"><strong>What''s new?</strong> (<a class="user-menti
 
   </ul>
 
-  <p dir="auto"><strong>Bug fix</strong></p>
+  <p dir="auto"><strong>Bug fixes</strong></p>
 
   <ul dir="auto">
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Fixed remounting SD card.</li>
+  <li>Fixed bugs related to keyboard.</li>
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Writing actions are now hidden when drive is read-only.</li>
-
-  <li>Other minor fixes.</li>
+  <li>Fixed always showing DS icon on first frame of TWL icon animation.</li>
 
   </ul>'
-updated: '2022-02-15T04:44:40Z'
-version: v3.2.0
-version_title: Valentine's Day Release (2022)
+updated: '2022-04-08T18:47:32Z'
+version: v3.2.1
+version_title: v3.2.1
 website: https://wiki.ds-homebrew.com/godmode9i/
 wiki: https://wiki.ds-homebrew.com/other/godmode9i
 ---
