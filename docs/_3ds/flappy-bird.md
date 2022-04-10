@@ -23,6 +23,8 @@ icon_index: 205
 image: https://raw.githubusercontent.com/NPI-D7/Flappy-Bird/master/app/banner.png
 image_length: 5916
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 qr:
   Flappy-Bird.cia: https://db.universal-team.net/assets/images/qr/flappy-bird-cia.png
 screenshots:
