@@ -4724,5 +4724,14 @@
 				}
 			]
 		}
+	},
+	{
+		"github": "NPI-D7/Flappy-Bird",
+		"systems": ["3DS"],
+		"categories": ["game"],
+		"description": "A Clone of Flappy-Bird for the 3ds.",
+		"image": "https://raw.githubusercontent.com/NPI-D7/Flappy-Bird/master/app/banner.png",
+		"icon": "https://raw.githubusercontent.com/NPI-D7/Flappy-Bird/screenshots/app/icon.png",
+		"long_description": "### Flappy-Bird \n![[Discord](https://discord.gg/XuX6EN8dyt)](https://img.shields.io/discord/961610973066702889?style=for-the-badge)\n\nThe ground is a bit buggy currently!\n\n\n### Credits\ndevkitpro: for libctru, citro2/3d.\nDong Nguyen, .Gears: for the Game."
 	}
 ]
