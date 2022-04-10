@@ -19,12 +19,21 @@ downloads:
     url: https://github.com/NPI-D7/Flappy-Bird/releases/download/1.0.0/Flappy-Bird.cia
 github: NPI-D7/Flappy-Bird
 icon: https://raw.githubusercontent.com/NPI-D7/Flappy-Bird/screenshots/app/icon.png
-icon_index: -1
+icon_index: 205
 image: https://raw.githubusercontent.com/NPI-D7/Flappy-Bird/master/app/banner.png
 image_length: 5916
 layout: app
 qr:
   Flappy-Bird.cia: https://db.universal-team.net/assets/images/qr/flappy-bird-cia.png
+screenshots:
+- description: Different colors
+  url: https://db.universal-team.net/assets/images/screenshots/flappy-bird/different-colors.png
+- description: Flying
+  url: https://db.universal-team.net/assets/images/screenshots/flappy-bird/flying.png
+- description: Game over
+  url: https://db.universal-team.net/assets/images/screenshots/flappy-bird/game-over.png
+- description: Title screen
+  url: https://db.universal-team.net/assets/images/screenshots/flappy-bird/title-screen.png
 source: https://github.com/NPI-D7/Flappy-Bird
 systems:
 - 3DS
