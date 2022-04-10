@@ -67,7 +67,7 @@ version: 1.0.0
 version_title: Flappy-Bird 1.0
 ---
 ### Flappy-Bird 
-![[Discord](https://discord.gg/XuX6EN8dyt)](https://img.shields.io/discord/961610973066702889?style=for-the-badge)
+[![Discord](https://img.shields.io/discord/961610973066702889?style=for-the-badge)](https://discord.gg/XuX6EN8dyt)
 
 The ground is a bit buggy currently!
 
