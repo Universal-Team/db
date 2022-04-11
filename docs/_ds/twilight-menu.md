@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 28808793
+    size: 28464230
     size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.4.0/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.3.1/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 28825006
+    size: 28485227
     size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.4.0/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.3.1/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 40516038
+    size: 40174728
     size_str: 38 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.4.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.3.1/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 40716708
+    size: 40367744
     size_str: 38 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.4.0/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.3.1/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_index: 138
@@ -50,7 +50,10 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.55.3">nds-bootstrap
+  v0.55.3</a></p>
+
+  <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
 
   <ul dir="auto">
@@ -70,18 +73,22 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>)
-  Added AP-fixes for <em>Pokémon: Blaze Black 2</em> &amp; <em>Pokémon: Volt White
-  2</em> (v1.2).</li>
+  Added AP-fix for English translation of <em>Nora to Toki no Koubou: Kiri no Mori
+  no Majo</em> v0.1a.</li>
 
-  <li>Added four new splash screen variants for April Fools and the release dates
-  of the <em>Virtual Boy</em> console, <em>Super Mario 64 DS</em>, and <em>Style Savvy</em>.</li>
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  DSiWare Booter and nds-bootstrap have been added as per-game settings (the latter
+  of which only appears on flashcards)!</li>
 
-  <li>The <em>Virtual Boy</em> variant of the DS(i) splash screen will now also be
-  shown on the release date of the <em>Virtual Boy</em> console.</li>
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  <code>*</code> is now shown next to existing save numbers.</li>
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/xonn83/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xonn83">@xonn83</a>)
-  Added GBMacro version of jEnesisDS for use with Macro Mode.</li>
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Yrouel/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Yrouel">@Yrouel</a>)
+  nds-bootstrap <code>.ver</code> files are now read outside of the <code>TWiLightMenu</code>
+  folder.</li>
 
   </ul>
 
@@ -89,12 +96,12 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <ul dir="auto">
 
-  <li>Fixed TWL clock speed being used by default when launching Slot-1 cartridges.</li>
+  <li>Fixed white screen / guru error crash when using the DSi theme in Memory Pit.</li>
 
   </ul>'
-updated: '2022-04-05T06:14:59Z'
-version: v24.4.0
-version_title: v24.4.0
+updated: '2022-03-29T19:50:54Z'
+version: v24.3.1
+version_title: v24.3.1
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
