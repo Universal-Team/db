@@ -9,18 +9,46 @@ created: '2021-12-07T16:15:06Z'
 description: PyMO AVG Game Engine implemention in C.
 download_page: https://github.com/Strrationalism/CPyMO/releases
 downloads:
+  CPyMO.for.Linux.x64.zip:
+    size: 8294190
+    size_str: 7 MiB
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.4/CPyMO.for.Linux.x64.zip
   CPyMO.for.PSV.zip:
-    size: 1343292
+    size: 1324183
     size_str: 1 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.3/CPyMO.for.PSV.zip
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.4/CPyMO.for.PSV.zip
+  CPyMO.for.Windows.ARM.zip:
+    size: 6146350
+    size_str: 5 MiB
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.4/CPyMO.for.Windows.ARM.zip
+  CPyMO.for.Windows.ARM64.zip:
+    size: 6508930
+    size_str: 6 MiB
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.4/CPyMO.for.Windows.ARM64.zip
+  CPyMO.for.Windows.x64.zip:
+    size: 7523448
+    size_str: 7 MiB
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.4/CPyMO.for.Windows.x64.zip
+  CPyMO.for.Windows.x86.zip:
+    size: 6515288
+    size_str: 6 MiB
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.4/CPyMO.for.Windows.x86.zip
+  CPyMO.for.macOS.Apple.Silicon.zip:
+    size: 7345449
+    size_str: 7 MiB
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.4/CPyMO.for.macOS.Apple.Silicon.zip
+  CPyMO.for.macOS.x64.zip:
+    size: 8387768
+    size_str: 7 MiB
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.4/CPyMO.for.macOS.x64.zip
   cpymo-3ds.3dsx:
     size: 15190616
     size_str: 14 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.3/cpymo-3ds.3dsx
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.4/cpymo-3ds.3dsx
   cpymo-3ds.cia:
     size: 11301824
     size_str: 10 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.3/cpymo-3ds.cia
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.4/cpymo-3ds.cia
 github: Strrationalism/CPyMO
 icon: https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/icon.png
 icon_index: 202
@@ -39,15 +67,7 @@ update_notes: '<h1 dir="auto">新功能</h1>
 
   <ul dir="auto">
 
-  <li>新增Sony Playstation Vita支持</li>
-
-  <li>新增macOS Apple Silicon支持</li>
-
-  <li>新增Windows ARM支持</li>
-
-  <li>新增Windows ARM64支持</li>
-
-  <li>新增Windows x86支持</li>
+  <li>CPyMO现在可以通过Emscripten编译到Web Assembly / asm.js</li>
 
   </ul>
 
@@ -55,18 +75,14 @@ update_notes: '<h1 dir="auto">新功能</h1>
 
   <ul dir="auto">
 
-  <li>Bug fixed: 在没有文字框背景图片的情况下3DS增强显示模式异常</li>
+  <li>修正PSV没有声音的问题</li>
 
-  <li>Bug fixed: 在CG界面中，3DS会误响应触摸屏操作</li>
+  <li>3DS Makefile精简</li>
 
-  <li>Bug fixed: 将会在PSP上保存上一次选择的游戏</li>
-
-  <li>将Switch和PSP的配置数据转移到Makefile中</li>
-
-  <li>优化Switch上游戏选择器的UI使其更易于使用</li>
+  <li>PSV改用Makefile进行构建</li>
 
   </ul>'
-updated: '2022-04-08T17:15:31Z'
-version: v1.0.3
-version_title: CPyMO 1.0.3
+updated: '2022-04-11T08:16:30Z'
+version: v1.0.4
+version_title: CPyMO 1.0.4
 ---
