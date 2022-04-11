@@ -10,13 +10,13 @@ description: A Clone of Flappy-Bird for the 3ds.
 download_page: https://github.com/NPI-D7/Flappy-Bird/releases
 downloads:
   Flappy-Bird.3dsx:
-    size: 1700068
+    size: 1704436
     size_str: 1 MiB
-    url: https://github.com/NPI-D7/Flappy-Bird/releases/download/1.0.0/Flappy-Bird.3dsx
+    url: https://github.com/NPI-D7/Flappy-Bird/releases/download/1.1.0/Flappy-Bird.3dsx
   Flappy-Bird.cia:
-    size: 1622976
+    size: 1627072
     size_str: 1 MiB
-    url: https://github.com/NPI-D7/Flappy-Bird/releases/download/1.0.0/Flappy-Bird.cia
+    url: https://github.com/NPI-D7/Flappy-Bird/releases/download/1.1.0/Flappy-Bird.cia
 github: NPI-D7/Flappy-Bird
 icon: https://raw.githubusercontent.com/NPI-D7/Flappy-Bird/screenshots/app/icon.png
 icon_index: 205
@@ -40,42 +40,22 @@ source: https://github.com/NPI-D7/Flappy-Bird
 systems:
 - 3DS
 title: Flappy-Bird
-update_notes: '<h3 dir="auto">This is the first Release of Flappy-Bird for the 3ds.</h3>
+update_notes: '<p dir="auto">This Release fixes some issues.</p>
 
-  <p dir="auto">The ground is a bit buggy currently!</p>
+  <p dir="auto">The Ground in''t buggy anymore.<br>
 
-  <details>
+  An Crash wen exitiong through the Home Menu is fixed.<br>
 
-  <summary>Screenshots</summary>
-
-  <br>
-
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/71647024/162621212-528316ee-5ddf-42cb-8efb-28ab9be001f0.png"><img
-  src="https://user-images.githubusercontent.com/71647024/162621212-528316ee-5ddf-42cb-8efb-28ab9be001f0.png"
-  alt="Fb" style="max-width: 100%;"></a><br>
-
-  <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/71647024/162621218-0e25ceca-5885-457b-a45c-3290e3e25ebc.png"><img
-  src="https://user-images.githubusercontent.com/71647024/162621218-0e25ceca-5885-457b-a45c-3290e3e25ebc.png"
-  alt="Diffrent Colers" style="max-width: 100%;"></a><br>
-
-  <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/71647024/162621219-9b32029d-609f-443f-b85b-6cc2a4a79c2b.png"><img
-  src="https://user-images.githubusercontent.com/71647024/162621219-9b32029d-609f-443f-b85b-6cc2a4a79c2b.png"
-  alt="Flying" style="max-width: 100%;"></a><br>
-
-  <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/71647024/162621226-3b254304-3fc5-411f-8753-42993771c9cd.png"><img
-  src="https://user-images.githubusercontent.com/71647024/162621226-3b254304-3fc5-411f-8753-42993771c9cd.png"
-  alt="Gover" style="max-width: 100%;"></a></p>
-
-  </details>
+  Updated the Author String to NPI-D7.</p>
 
   <h1 dir="auto">QR-Code</h1>
 
-  <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/71647024/162621632-443d20c7-c848-4ba2-a26d-3a8e94412c20.png"><img
-  src="https://user-images.githubusercontent.com/71647024/162621632-443d20c7-c848-4ba2-a26d-3a8e94412c20.png"
+  <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/71647024/162700680-fe986dbc-99f5-4773-b5fb-05e9ab3ea800.png"><img
+  src="https://user-images.githubusercontent.com/71647024/162700680-fe986dbc-99f5-4773-b5fb-05e9ab3ea800.png"
   width="300" style="max-width: 100%;"></a></p>'
-updated: '2022-04-10T13:54:31Z'
-version: 1.0.0
-version_title: Flappy-Bird 1.0
+updated: '2022-04-11T08:53:29Z'
+version: 1.1.0
+version_title: Flappy-Bird 1.1.0
 ---
 ### Flappy-Bird 
 [![Discord](https://img.shields.io/discord/961610973066702889?style=for-the-badge)](https://discord.gg/XuX6EN8dyt)
