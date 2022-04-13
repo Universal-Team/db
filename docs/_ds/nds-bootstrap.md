@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 429954
-    size_str: 419 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.55.3/nds-bootstrap.7z
+    size: 430105
+    size_str: 420 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.55.4/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1038132
-    size_str: 1013 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.55.3/nds-bootstrap.zip
+    size: 1038580
+    size_str: 1014 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.55.4/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 icon_index: 139
@@ -35,8 +35,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v24.3.1"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v24.3.1</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v24.5.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v24.5.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -49,31 +49,17 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <p dir="auto"><strong>What''s new?</strong></p>
+  <p dir="auto"><strong>Bug fix</strong></p>
 
   <ul dir="auto">
 
-  <li>The .ver file is now moved outside of the <code>TWiLightMenu</code> folder.
-  TWiLight Menu++ will need to be updated to v24.3.1 or later for the .ver file to
-  be read.</li>
-
-  </ul>
-
-  <p dir="auto"><strong>Bug fixes</strong></p>
-
-  <ul dir="auto">
-
-  <li>Fixed SDK5 games crashing when reading or writing save data in DS mode in DSiWarehax
-  (e.g. Memory Pit, Flipnote Lenny, etc.).</li>
-
-  <li><em>Asphalt: Urban GT</em> now boots again!</li>
-
-  <li>Other very minor fixes.</li>
+  <li><strong>B4DS mode:</strong> Fixed overlooked bug that caused <em>Sonic Classic
+  Collection</em> to not boot.</li>
 
   </ul>'
-updated: '2022-03-29T19:08:31Z'
-version: v0.55.3
-version_title: v0.55.3
+updated: '2022-04-13T00:47:10Z'
+version: v0.55.4
+version_title: v0.55.4
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
