@@ -4733,5 +4733,34 @@
 		"image": "https://raw.githubusercontent.com/NPI-D7/Flappy-Bird/master/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/NPI-D7/Flappy-Bird/screenshots/app/icon.png",
 		"long_description": "### Flappy-Bird \n[![Discord](https://img.shields.io/discord/961610973066702889?style=for-the-badge)](https://discord.gg/XuX6EN8dyt)\n\nThe ground is a bit buggy currently!\n\n\n### Credits\ndevkitpro: for libctru, citro2/3d.\nDong Nguyen, .Gears: for the Game."
+	},
+	{
+		"github": "badda71/vice3ds",
+		"title": "vice3DS",
+		"systems": ["3DS"],
+		"categories": ["emulator"],
+		"description": "Port of the VICE C64 (x64) emulator to 3DS",
+		"long_description": "Port of the VICE C64 (x64) emulator to 3DS. VICE - the Versatile Commodore Emulator - http://vice-emu.sourceforge.net/\n\nIncluding UI for the 3DS bottom screen, and a lot of new & 3DS-exclusive functionality.",
+		"website": "https://gbatemp.net/threads/release-vice3ds-c64-emulator.534830/",
+		"icon": "https://raw.githubusercontent.com/badda71/vice3ds/master/meta/icon_3ds_C64.png"
+	},
+	{
+		"github": "badda71/uae3DS",
+		"systems": ["3DS"],
+		"categories": ["emulator"],
+		"description": "Port of Chui's UAE4ALL Amiga 500 emulator to Nintendo 3DS",
+		"long_description": "Port of Chui's UAE4ALL Amiga 500 emulator (http://chui.dcemu.co.uk/uae4all.html) to Nintendo 3DS",
+		"website": "https://gbatemp.net/threads/release-uae3ds-amiga-500-emulator-for-nintendo-3ds.558577/",
+		"icon": "https://raw.githubusercontent.com/badda71/uae3DS/master/meta/icon.png",
+		"image": "https://raw.githubusercontent.com/badda71/uae3DS/master/meta/banner.png",
+		"script_message": "You will need a \"kick.rom\" file in sdmc:/3ds/uae3DS.\n\nIt must be called \"kick.rom\", be a kickstart 1.3 image,\nand be the 512KB overdumped version."
+	},
+	{
+		"github": "badda71/TinyVNC",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"website": "https://gbatemp.net/threads/release-tinyvnc-vnc-viewer-for-nintendo-3ds.574242/",
+		"image": "https://raw.githubusercontent.com/badda71/TinyVNC/master/meta/banner.png",
+		"icon": "https://raw.githubusercontent.com/badda71/TinyVNC/master/meta/icon.png"
 	}
 ]
