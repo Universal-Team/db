@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 28808793
+    size: 28694569
     size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.4.0/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.5.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 28825006
+    size: 28746925
     size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.4.0/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.5.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 40516038
+    size: 40523126
     size_str: 38 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.4.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.5.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 40716708
+    size: 40718857
     size_str: 38 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.4.0/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.5.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_index: 138
@@ -50,7 +50,10 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.55.4">nds-bootstrap
+  v0.55.4</a></p>
+
+  <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
 
   <ul dir="auto">
@@ -68,33 +71,95 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <ul dir="auto">
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>)
-  Added AP-fixes for <em>Pokémon: Blaze Black 2</em> &amp; <em>Pokémon: Volt White
-  2</em> (v1.2).</li>
-
-  <li>Added four new splash screen variants for April Fools and the release dates
-  of the <em>Virtual Boy</em> console, <em>Super Mario 64 DS</em>, and <em>Style Savvy</em>.</li>
-
-  <li>The <em>Virtual Boy</em> variant of the DS(i) splash screen will now also be
-  shown on the release date of the <em>Virtual Boy</em> console.</li>
-
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/xonn83/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/xonn83">@xonn83</a>)
-  Added GBMacro version of jEnesisDS for use with Macro Mode.</li>
-
-  </ul>
-
-  <p dir="auto"><strong>Bug fix</strong></p>
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>)
+  The icon is now animated again!
 
   <ul dir="auto">
 
-  <li>Fixed TWL clock speed being used by default when launching Slot-1 cartridges.</li>
+  <li>For this to take effect, delete TWiLight Menu++ in System Settings, before updating.
+  (Using FBI to delete it will work as well, but make sure TWLMenu++ is gone from
+  the HOME Menu, before updating.)</li>
+
+  </ul>
+
+  </li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>)
+  Added AP-fixes for:
+
+  <ul dir="auto">
+
+  <li>Metal Max 2: Reloaded (English translation)</li>
+
+  <li>Nora to Toki no Koubou: Kiri no Mori no Majo (English translation v0.3c)</li>
+
+  <li>Pokémon: Moon Black 2</li>
+
+  <li>SaGa 2: Hihou Densetsu: Goddess of Destiny (English translation)</li>
+
+  </ul>
+
+  </li>
+
+  <li>Deleted AP-fixes for randomized Pokémon ROMs, as each one have varying headers.</li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  Launcher App &amp; SysNAND Region are now autodetected from DSi NAND.</li>
+
+  <li>When launching a GBA ROM using the Native feature on DS Phat/Lite, holding D-Pad
+  Left &amp; R shoulder buttons will now activate a feature hidden in the console,
+  which swaps green intensity between every two pixels.
+
+  <ul dir="auto">
+
+  <li>As this is not a visible feature in TWLMenu++ Settings, it should only be used
+  for testing purposes.</li>
+
+  <li>Will not work with EZ-Flash 3 in 1.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <p dir="auto"><strong>Improvement</strong></p>
+
+  <ul dir="auto">
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
+  and various) Updated translations.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Bug fixes</strong></p>
+
+  <ul dir="auto">
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  Fixed DSi icon palettes in DSi-based themes. (See <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="1197973424" data-permission-text="Title
+  is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/1884" data-hovercard-type="pull_request"
+  data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/1884/hovercard" href="https://github.com/DS-Homebrew/TWiLightMenu/pull/1884">#1884</a>
+  for more info.)</li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  ROM folder is now reset if missing.</li>
+
+  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>)
+  Fixed AP-fix for <em>Metal Max 2: Reloaded</em>.</li>
 
   </ul>'
-updated: '2022-04-05T06:14:59Z'
-version: v24.4.0
-version_title: v24.4.0
+updated: '2022-04-13T01:13:10Z'
+version: v24.5.0
+version_title: v24.5.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---

@@ -10,17 +10,17 @@ description: A clone of Wordle for the Nintendo DS(i)
 download_page: https://github.com/Epicpkmn11/WordleDS/releases
 downloads:
   WordleDS.cia:
-    size: 1133824
+    size: 1145024
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.3.2/WordleDS.cia
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.3.3/WordleDS.cia
   WordleDS.dsi:
-    size: 1119232
+    size: 1130432
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.3.2/WordleDS.dsi
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.3.3/WordleDS.dsi
   WordleDS.nds:
-    size: 1119232
+    size: 1130432
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.3.2/WordleDS.nds
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.3.3/WordleDS.nds
 github: Epicpkmn11/WordleDS
 icon: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
 icon_index: 199
@@ -45,20 +45,32 @@ source: https://github.com/Epicpkmn11/WordleDS
 systems:
 - DS
 title: Wordle DS
-update_notes: '<h3 dir="auto">Changes</h3>
+update_notes: '<h3 dir="auto">What''s new</h3>
 
   <ul dir="auto">
 
-  <li>Updates the word list to match the official version, the NY Times moved 17 upcoming
-  words to the end for some reason</li>
+  <li>An animated icon has been added, thanks to <a class="user-mention" data-hovercard-type="user"
+  data-hovercard-url="/users/lifehackerhansol/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>
+  for the Python script used for TWiLight Menu++
+
+  <ul dir="auto">
+
+  <li>Update to the latest TWiLight Menu++ (v24.5.0 or newer) for the icon to display
+  correctly, it also doesn''t display correctly on the 3DS HOME Menu but it does on
+  the DSi Menu (on 3DS HOME Menu and old TWiLight it''s always green)</li>
+
+  <li><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/d0df1d5d8fea567e46ddfb058406e62e5ace74f51e170dfdcbbbc6496cbfe8ee/68747470733a2f2f64622e756e6976657273616c2d7465616d2e6e65742f6173736574732f696d616765732f69636f6e732f776f72646c652d64732e676966"><img
+  src="https://camo.githubusercontent.com/d0df1d5d8fea567e46ddfb058406e62e5ace74f51e170dfdcbbbc6496cbfe8ee/68747470733a2f2f64622e756e6976657273616c2d7465616d2e6e65742f6173736574732f696d616765732f69636f6e732f776f72646c652d64732e676966"
+  alt="Animated icon" data-canonical-src="https://db.universal-team.net/assets/images/icons/wordle-ds.gif"
+  style="max-width: 100%;"></a></li>
 
   </ul>
 
-  <h3 dir="auto">Bug fixes</h3>
+  </li>
 
-  <ul dir="auto">
-
-  <li>Fixes the streak not resetting on loss</li>
+  <li>A refresh button will now be shown if the day changes while playing to allow
+  you to switch to the new day without exiting</li>
 
   </ul>
 
@@ -70,11 +82,11 @@ update_notes: '<h3 dir="auto">Changes</h3>
   while the <code>.nds</code> build doesn''t so it works on flashcards. The <code>.cia</code>
   build can be used to install to the 3DS HOME Menu, here''s a QR:</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/160762676-ba371507-95aa-49f9-8b3a-6dd9a5cd033d.png"><img
-  src="https://user-images.githubusercontent.com/41608708/160762676-ba371507-95aa-49f9-8b3a-6dd9a5cd033d.png"
-  alt="QR code for WordleDS.cia" style="max-width: 100%;"></a></p>'
-updated: '2022-03-30T06:07:45Z'
-version: v1.3.2
-version_title: Update word list
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/163081859-5e603bb7-dbc5-4a98-b5e7-b91c0d4d1387.png"><img
+  src="https://user-images.githubusercontent.com/41608708/163081859-5e603bb7-dbc5-4a98-b5e7-b91c0d4d1387.png"
+  alt="QR for WordleDS.cia" style="max-width: 100%;"></a></p>'
+updated: '2022-04-13T01:37:57Z'
+version: v1.3.3
+version_title: Animated icon
 ---
 A clone of [Wordle](https://www.nytimes.com/games/wordle/index.html) for the Nintendo DS(i). It features the same word each day as the official Wordle and has most of the same features including statistics tracking, high contrast and hard mode options, and even makes a txt file with a sharable emoji grid.
