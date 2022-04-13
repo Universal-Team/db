@@ -77,9 +77,9 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>For this to take effect, delete TWiLight Menu++ in System Settings, before updating.
-  (Using FBI to delete it will work as well, but make sure TWLMenu++ is gone from
-  the HOME Menu, before updating.)</li>
+  <li><strong>3DS:</strong> For this to take effect, delete TWiLight Menu++ in System
+  Settings, before updating. (Using FBI to delete it will work as well, but make sure
+  TWLMenu++ is gone from the HOME Menu, before updating.)</li>
 
   </ul>
 

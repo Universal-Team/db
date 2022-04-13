@@ -10,15 +10,15 @@ description: A clone of Wordle for the Nintendo DS(i)
 download_page: https://github.com/Epicpkmn11/WordleDS/releases
 downloads:
   WordleDS.cia:
-    size: 1145024
+    size: 1128640
     size_str: 1 MiB
     url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.3.3/WordleDS.cia
   WordleDS.dsi:
-    size: 1130432
+    size: 1114048
     size_str: 1 MiB
     url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.3.3/WordleDS.dsi
   WordleDS.nds:
-    size: 1130432
+    size: 1114048
     size_str: 1 MiB
     url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.3.3/WordleDS.nds
 github: Epicpkmn11/WordleDS
@@ -72,6 +72,8 @@ update_notes: '<h3 dir="auto">What''s new</h3>
   <li>A refresh button will now be shown if the day changes while playing to allow
   you to switch to the new day without exiting</li>
 
+  <li>Wordle DS can now be played if the FAT init fails, it just can''t save stats</li>
+
   </ul>
 
   <hr>
@@ -82,10 +84,10 @@ update_notes: '<h3 dir="auto">What''s new</h3>
   while the <code>.nds</code> build doesn''t so it works on flashcards. The <code>.cia</code>
   build can be used to install to the 3DS HOME Menu, here''s a QR:</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/163081859-5e603bb7-dbc5-4a98-b5e7-b91c0d4d1387.png"><img
-  src="https://user-images.githubusercontent.com/41608708/163081859-5e603bb7-dbc5-4a98-b5e7-b91c0d4d1387.png"
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/163091940-298b6efc-09ad-41c6-a87a-10ad1ca6ead9.png"><img
+  src="https://user-images.githubusercontent.com/41608708/163091940-298b6efc-09ad-41c6-a87a-10ad1ca6ead9.png"
   alt="QR for WordleDS.cia" style="max-width: 100%;"></a></p>'
-updated: '2022-04-13T01:37:57Z'
+updated: '2022-04-13T03:05:28Z'
 version: v1.3.3
 version_title: Animated icon
 ---
