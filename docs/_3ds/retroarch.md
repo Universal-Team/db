@@ -41,6 +41,8 @@ update_notes: '<ul dir="auto">
 
   <li>ANDROID: Decouple Play Core dependency to bring app into compliance for F-Droid</li>
 
+  <li>ANDROID: Allow audio playback capture on android</li>
+
   <li>AI/SERVICE: Disable AI Service setting by default</li>
 
   <li>BLUETOOTH/LAKKA: bluetoothctl: add / modify pairing steps</li>
@@ -48,6 +50,8 @@ update_notes: '<ul dir="auto">
   <li>CHEEVOS: Disallow manual frame delay setting in Hardcore Mode</li>
 
   <li>DATABASE: Serial scanning for Wii now includes WBFS</li>
+
+  <li>INPUT: Allow proper descriptor declaration for analog triggers</li>
 
   <li>INPUT/MAPPING: Fix offset + crash when clearing input port binds</li>
 
