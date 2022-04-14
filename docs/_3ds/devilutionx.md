@@ -17,18 +17,6 @@ downloads:
     size: 6976448
     size_str: 6 MiB
     url: https://github.com/diasurgical/devilutionX/releases/download/1.4.0/devilutionx-3ds.cia
-  devilutionx-ios.ipa:
-    size: 6914944
-    size_str: 6 MiB
-    url: https://github.com/diasurgical/devilutionX/releases/download/1.4.0/devilutionx-ios.ipa
-  devilutionx-ps4.pkg:
-    size: 13434880
-    size_str: 12 MiB
-    url: https://github.com/diasurgical/devilutionX/releases/download/1.4.0/devilutionx-ps4.pkg
-  devilutionx-xbox-one-series.zip:
-    size: 5217656
-    size_str: 4 MiB
-    url: https://github.com/diasurgical/devilutionX/releases/download/1.4.0/devilutionx-xbox-one-series.zip
 github: diasurgical/devilutionX
 icon: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/icon.png
 icon_index: 188
