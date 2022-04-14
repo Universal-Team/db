@@ -29,7 +29,7 @@ update_notes: '<p dir="auto"><strong>What''s new?</strong></p>
 
   <ul dir="auto">
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
   Added a warning message before starting a NAND restore.</li>
 

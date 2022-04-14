@@ -119,7 +119,7 @@ update_notes: '<blockquote>
 
   <li>Fixed HMs not showing correctly in some Generation 3 games</li>
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/remicalixte/hovercard"
+  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/remicalixte/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/remicalixte">@remicalixte</a>)
   Fixed shiny star not hiding after moving off a shiny Pokémon</li>
 

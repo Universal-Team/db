@@ -38,7 +38,7 @@ systems:
 title: DSP1
 update_notes: '<p dir="auto">Initial release.<br>
 
-  Stealth Dec 9, 2020: add .3dsx, thx <a class="user-mention" data-hovercard-type="user"
+  Stealth Dec 9, 2020: add .3dsx, thx <a class="user-mention notranslate" data-hovercard-type="user"
   data-hovercard-url="/users/oreo639/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/oreo639">@oreo639</a></p>
 

@@ -32,9 +32,9 @@ update_notes: <p dir="auto">This fixes issues <a class="issue-link js-issue-link
   and <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="201727055"
   data-permission-text="Title is private" data-url="https://github.com/phijor/SpecializeMii/issues/3"
   data-hovercard-type="issue" data-hovercard-url="/phijor/SpecializeMii/issues/3/hovercard"
-  href="https://github.com/phijor/SpecializeMii/issues/3">#3</a>, thanks to <a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/XT-8147/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/XT-8147">@XT-8147</a>
+  href="https://github.com/phijor/SpecializeMii/issues/3">#3</a>, thanks to <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/XT-8147/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/XT-8147">@XT-8147</a>
   for reporting.</p>
 updated: '2017-01-22T11:19:45Z'
 version: 0.1.4

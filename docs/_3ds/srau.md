@@ -35,9 +35,9 @@ title: SRAU
 update_notes: '<p dir="auto">This release mostly adds in a lot of missing error checks
   and adds in gamecard support + support for mismatched regions.</p>
 
-  <p dir="auto">This release would not have been possible without the help of <a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/Sonlen1414/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Sonlen1414">@Sonlen1414</a>
+  <p dir="auto">This release would not have been possible without the help of <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sonlen1414/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sonlen1414">@Sonlen1414</a>
   .</p>
 
   <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/13433513/38756013-40d03e2e-3f68-11e8-96cb-83704530de74.gif"><img

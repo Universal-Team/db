@@ -38,16 +38,17 @@ systems:
 title: screenshot-merge
 update_notes: '<ul dir="auto">
 
-  <li>Support for new Luma3DS Rosalina screenshot filename layout by <a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/piratesephiroth/hovercard"
+  <li>Support for new Luma3DS Rosalina screenshot filename layout by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/piratesephiroth/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/piratesephiroth">@piratesephiroth</a>
   (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="291457696"
   data-permission-text="Title is private" data-url="https://github.com/ihaveamac/screenshot-merge/issues/8"
   data-hovercard-type="pull_request" data-hovercard-url="/ihaveamac/screenshot-merge/pull/8/hovercard"
   href="https://github.com/ihaveamac/screenshot-merge/pull/8">#8</a>)</li>
 
-  <li>Windows buildscript by <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/piratesephiroth/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/piratesephiroth">@piratesephiroth</a>
+  <li>Windows buildscript by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/piratesephiroth/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/piratesephiroth">@piratesephiroth</a>
   (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="291457696"
   data-permission-text="Title is private" data-url="https://github.com/ihaveamac/screenshot-merge/issues/8"
   data-hovercard-type="pull_request" data-hovercard-url="/ihaveamac/screenshot-merge/pull/8/hovercard"
