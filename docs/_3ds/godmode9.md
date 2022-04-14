@@ -38,12 +38,12 @@ update_notes: '<p dir="auto">Is it really that time of the year again? Six years
 
   <ul dir="auto">
 
-  <li>[improved] Improved installation of DSiWare games (thanks <a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)</li>
+  <li>[improved] Improved installation of DSiWare games (thanks <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)</li>
 
   <li>[scripting] Faster script loading as well as other improvements and fixes (thanks
-  <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/aspargas2/hovercard"
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/aspargas2/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/aspargas2">@aspargas2</a>)</li>
 
   <li>[fixed] Fixed a nasty bug when trimming certain DS cart dumps</li>
@@ -67,18 +67,19 @@ update_notes: '<p dir="auto">Is it really that time of the year again? Six years
   of contributors (developers, people who report bugs or suggest features, people
   who help with advice or web hosting...) after 6 years of development is just too
   big. Just know, each and every contribution, no matter how big or small is highly
-  appreciated. For this release, special thanks go to <a class="user-mention" data-hovercard-type="user"
-  data-hovercard-url="/users/Wolfvak/hovercard" data-octo-click="hovercard-link-click"
+  appreciated. For this release, special thanks go to <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/Wolfvak/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/Wolfvak">@Wolfvak</a>,
   who''s been a main dev with me for almost all of the lifetime of GodMode9, to <a
-  class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/aspargas2/hovercard"
+  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/aspargas2/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/aspargas2">@aspargas2</a>
-  who did maintenance and fixed bugs, to <a class="user-mention" data-hovercard-type="user"
+  who did maintenance and fixed bugs, to <a class="user-mention notranslate" data-hovercard-type="user"
   data-hovercard-url="/users/Epicpkmn11/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>,
   who improved the save game generation and thus the installation for DSiWare CIAs
-  and dumps and to <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/giiutfff/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/giiutfff">@giiutfff</a>
+  and dumps and to <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/giiutfff/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/giiutfff">@giiutfff</a>
   who catched a really nasty bug happening when trimming certain DS cart dumps in
   GodMode9 (great catch!).</p>'
 updated: '2022-03-22T19:11:38Z'

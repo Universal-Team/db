@@ -80,7 +80,7 @@ systems:
 title: Universal-Updater
 unistore_exclude: true
 update_notes: "<h3 dir=\"auto\">What's new?</h3>\n<ul dir=\"auto\">\n<li>\n<p dir=\"\
-  auto\">(<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"\
+  auto\">(<a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"\
   /users/PabloMK7/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
   link_type:self\" href=\"https://github.com/PabloMK7\">@PabloMK7</a>) The 3D banner\
   \ has been improved with animations and shading!</p>\n<details open=\"\" class=\"\

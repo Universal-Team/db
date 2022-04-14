@@ -49,9 +49,9 @@ update_notes: '<h3 dir="auto">What''s new</h3>
 
   <ul dir="auto">
 
-  <li>An animated icon has been added, thanks to <a class="user-mention" data-hovercard-type="user"
-  data-hovercard-url="/users/lifehackerhansol/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>
+  <li>An animated icon has been added, thanks to <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>
   for the Python script used for TWiLight Menu++
 
   <ul dir="auto">

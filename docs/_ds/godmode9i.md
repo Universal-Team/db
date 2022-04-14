@@ -32,7 +32,7 @@ source: https://github.com/DS-Homebrew/GodMode9i
 systems:
 - DS
 title: GodMode9i
-update_notes: '<p dir="auto">All changes by <a class="user-mention" data-hovercard-type="user"
+update_notes: '<p dir="auto">All changes by <a class="user-mention notranslate" data-hovercard-type="user"
   data-hovercard-url="/users/Epicpkmn11/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a></p>
 
@@ -50,7 +50,7 @@ update_notes: '<p dir="auto">All changes by <a class="user-mention" data-hoverca
 
   <ul dir="auto">
 
-  <li>(<a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
   and various) Updated translations.</li>
 

@@ -62,28 +62,28 @@ update_notes: '<ul dir="auto">
   js-issue-link" data-error-text="Failed to load title" data-id="1036563625" data-permission-text="Title
   is private" data-url="https://github.com/LumaTeam/Luma3DS/issues/1687" data-hovercard-type="pull_request"
   data-hovercard-url="/LumaTeam/Luma3DS/pull/1687/hovercard" href="https://github.com/LumaTeam/Luma3DS/pull/1687">#1687</a>,
-  <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/aspargas2/hovercard"
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/aspargas2/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/aspargas2">@aspargas2</a>)</li>
 
   <li>Fix a few bugs in the cheat system (<a class="issue-link js-issue-link" data-error-text="Failed
   to load title" data-id="855169992" data-permission-text="Title is private" data-url="https://github.com/LumaTeam/Luma3DS/issues/1623"
   data-hovercard-type="pull_request" data-hovercard-url="/LumaTeam/Luma3DS/pull/1623/hovercard"
-  href="https://github.com/LumaTeam/Luma3DS/pull/1623">#1623</a>, <a class="user-mention"
-  data-hovercard-type="user" data-hovercard-url="/users/s5bug/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/s5bug">@s5bug</a>)</li>
+  href="https://github.com/LumaTeam/Luma3DS/pull/1623">#1623</a>, <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/s5bug/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/s5bug">@s5bug</a>)</li>
 
   <li>Add ASCII View to Rosalina Process List (<a class="issue-link js-issue-link"
   data-error-text="Failed to load title" data-id="1091294296" data-permission-text="Title
   is private" data-url="https://github.com/LumaTeam/Luma3DS/issues/1703" data-hovercard-type="pull_request"
   data-hovercard-url="/LumaTeam/Luma3DS/pull/1703/hovercard" href="https://github.com/LumaTeam/Luma3DS/pull/1703">#1703</a>,
-  <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/George-lewis/hovercard"
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/George-lewis/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/George-lewis">@George-lewis</a>)</li>
 
   <li>Allow using game-patching on Home Menu (<a class="issue-link js-issue-link"
   data-error-text="Failed to load title" data-id="911807068" data-permission-text="Title
   is private" data-url="https://github.com/LumaTeam/Luma3DS/issues/1634" data-hovercard-type="pull_request"
   data-hovercard-url="/LumaTeam/Luma3DS/pull/1634/hovercard" href="https://github.com/LumaTeam/Luma3DS/pull/1634">#1634</a>,
-  <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/gabe565/hovercard"
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gabe565/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gabe565">@gabe565</a>)</li>
 
   <li>Wait for the user to release the B key when exiting the Rosalina menu. This
@@ -91,7 +91,7 @@ update_notes: '<ul dir="auto">
   data-error-text="Failed to load title" data-id="1087351954" data-permission-text="Title
   is private" data-url="https://github.com/LumaTeam/Luma3DS/issues/1701" data-hovercard-type="pull_request"
   data-hovercard-url="/LumaTeam/Luma3DS/pull/1701/hovercard" href="https://github.com/LumaTeam/Luma3DS/pull/1701">#1701</a>,
-  suggestion from <a class="user-mention" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  suggestion from <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)</li>
 
   <li>gdb: properly handle software breakpoints</li>
