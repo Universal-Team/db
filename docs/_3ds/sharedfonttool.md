@@ -9,10 +9,6 @@ created: '2016-05-03T02:29:42Z'
 description: 3DS SharedFontTool
 download_page: https://github.com/dnasdw/SharedFontTool/releases
 downloads:
-  SFontT.3ds:
-    size: 20676608
-    size_str: 19 MiB
-    url: https://github.com/dnasdw/SharedFontTool/releases/download/v3.1/SFontT.3ds
   SFontT.cia:
     size: 20689856
     size_str: 19 MiB
@@ -21,10 +17,6 @@ downloads:
     size: 38110427
     size_str: 36 MiB
     url: https://github.com/dnasdw/SharedFontTool/releases/download/v3.1/SFontT.zip
-  SFontT80.3ds:
-    size: 20676608
-    size_str: 19 MiB
-    url: https://github.com/dnasdw/SharedFontTool/releases/download/v3.1/SFontT80.3ds
   SFontT80.cia:
     size: 20689856
     size_str: 19 MiB

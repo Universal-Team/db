@@ -9,10 +9,6 @@ created: '2016-03-04T08:01:22Z'
 description: Panel de Pon (Tetris Attack) clone for the 3ds.
 download_page: https://github.com/TricksterGuy/bottomless-block-barrage/releases
 downloads:
-  bottomless-block-barrage.3ds:
-    size: 1355776
-    size_str: 1 MiB
-    url: https://github.com/TricksterGuy/bottomless-block-barrage/releases/download/v0.2.0/bottomless-block-barrage.3ds
   bottomless-block-barrage.cia:
     size: 1369024
     size_str: 1 MiB

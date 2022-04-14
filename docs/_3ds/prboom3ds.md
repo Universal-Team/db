@@ -23,10 +23,6 @@ prerelease:
       size: 283028
       size_str: 276 KiB
       url: https://github.com/elhobbs/prboom3ds/releases/download/v0.7-alpha/prboom.wad
-    prboom3ds.3ds:
-      size: 993792
-      size_str: 970 KiB
-      url: https://github.com/elhobbs/prboom3ds/releases/download/v0.7-alpha/prboom3ds.3ds
     prboom3ds.3dsx:
       size: 955168
       size_str: 932 KiB

@@ -9,10 +9,6 @@ created: '2019-03-30T21:31:31Z'
 description: Port of the VICE C64 (x64) emulator to 3DS
 download_page: https://github.com/badda71/vice3ds/releases
 downloads:
-  vice3DS-C64.3ds:
-    size: 2945024
-    size_str: 2 MiB
-    url: https://github.com/badda71/vice3ds/releases/download/2.4.1/vice3DS-C64.3ds
   vice3DS-C64.3dsx:
     size: 3902724
     size_str: 3 MiB
@@ -23,7 +19,7 @@ downloads:
     url: https://github.com/badda71/vice3ds/releases/download/2.4.1/vice3DS-C64.cia
 github: badda71/vice3ds
 icon: https://raw.githubusercontent.com/badda71/vice3ds/master/meta/icon_3ds_C64.png
-icon_index: -1
+icon_index: 206
 image: https://raw.githubusercontent.com/badda71/vice3ds/master/meta/icon_3ds_C64.png
 image_length: 2537
 layout: app

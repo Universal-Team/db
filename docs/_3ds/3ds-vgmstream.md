@@ -9,10 +9,6 @@ created: '2016-02-01T06:16:42Z'
 description: Port of vgmstream for the nintendo 3ds along with a player
 download_page: https://github.com/TricksterGuy/3ds-vgmstream/releases
 downloads:
-  3ds-vgmstream.3ds:
-    size: 982016
-    size_str: 959 KiB
-    url: https://github.com/TricksterGuy/3ds-vgmstream/releases/download/v0.2.0/3ds-vgmstream.3ds
   3ds-vgmstream.cia:
     size: 995264
     size_str: 971 KiB

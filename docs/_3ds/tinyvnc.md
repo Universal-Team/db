@@ -9,10 +9,6 @@ created: '2020-08-16T11:22:33Z'
 description: A VNC viewer for Nintendo 3DS
 download_page: https://github.com/badda71/TinyVNC/releases
 downloads:
-  TinyVNC.3ds:
-    size: 1662976
-    size_str: 1 MiB
-    url: https://github.com/badda71/TinyVNC/releases/download/1.0/TinyVNC.3ds
   TinyVNC.3dsx:
     size: 1681652
     size_str: 1 MiB
@@ -23,7 +19,7 @@ downloads:
     url: https://github.com/badda71/TinyVNC/releases/download/1.0/TinyVNC.cia
 github: badda71/TinyVNC
 icon: https://raw.githubusercontent.com/badda71/TinyVNC/master/meta/icon.png
-icon_index: -1
+icon_index: 208
 image: https://raw.githubusercontent.com/badda71/TinyVNC/master/meta/banner.png
 image_length: 36242
 layout: app

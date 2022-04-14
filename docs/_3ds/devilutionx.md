@@ -9,10 +9,26 @@ created: '2018-08-02T17:19:01Z'
 description: Diablo build for modern operating systems
 download_page: https://github.com/diasurgical/devilutionX/releases
 downloads:
+  devilutionx-3ds.3dsx:
+    size: 7911540
+    size_str: 7 MiB
+    url: https://github.com/diasurgical/devilutionX/releases/download/1.4.0/devilutionx-3ds.3dsx
   devilutionx-3ds.cia:
-    size: 5575616
-    size_str: 5 MiB
-    url: https://github.com/diasurgical/devilutionX/releases/download/1.3.0/devilutionx-3ds.cia
+    size: 6976448
+    size_str: 6 MiB
+    url: https://github.com/diasurgical/devilutionX/releases/download/1.4.0/devilutionx-3ds.cia
+  devilutionx-ios.ipa:
+    size: 6914944
+    size_str: 6 MiB
+    url: https://github.com/diasurgical/devilutionX/releases/download/1.4.0/devilutionx-ios.ipa
+  devilutionx-ps4.pkg:
+    size: 13434880
+    size_str: 12 MiB
+    url: https://github.com/diasurgical/devilutionX/releases/download/1.4.0/devilutionx-ps4.pkg
+  devilutionx-xbox-one-series.zip:
+    size: 5217656
+    size_str: 4 MiB
+    url: https://github.com/diasurgical/devilutionX/releases/download/1.4.0/devilutionx-xbox-one-series.zip
 github: diasurgical/devilutionX
 icon: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/icon.png
 icon_index: 188
@@ -29,27 +45,84 @@ systems:
 title: devilutionX
 update_notes: '<h3 dir="auto">Features</h3>
 
+  <h4 dir="auto">Translations</h4>
+
+  <ul dir="auto">
+
+  <li>Added support for Ukraine <g-emoji class="g-emoji" alias="ukraine" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f1fa-1f1e6.png">🇺🇦</g-emoji></li>
+
+  <li>Added Greek localization</li>
+
+  <li>Added Japanese translation</li>
+
+  <li>Added Swedish translation</li>
+
+  <li>Fix some items causing crashes for Spanish and French translations</li>
+
+  <li>Improve Bulgarian localization</li>
+
+  <li>Improve Chinese (Simplified) localization</li>
+
+  <li>Improve Croatian localization</li>
+
+  <li>Improve Czech localization</li>
+
+  <li>Improve French localization</li>
+
+  <li>Improve German localization</li>
+
+  <li>Improve Italian localization</li>
+
+  <li>Improve Korean localization</li>
+
+  <li>Improve Portuguese localization</li>
+
+  <li>Improve Romanian localization</li>
+
+  <li>Improve Russian localization (<a href="https://github.com/diasurgical/devilutionx-assets/releases/download/v2/ru.mpq">optional
+  dub</a> by Stream)</li>
+
+  <li>Improve Spanish localization</li>
+
+  </ul>
+
+  <h4 dir="auto">Gameplay</h4>
+
+  <ul dir="auto">
+
+  <li>Added a stash at Gillian''s house</li>
+
+  <li>Remove missile limit</li>
+
+  <li>Added settings menu</li>
+
+  <li>Added xp share indicator to monster health bar</li>
+
+  <li>Added option to see exact health/mana</li>
+
+  </ul>
+
   <h4 dir="auto">Platforms</h4>
 
   <ul dir="auto">
 
-  <li>Added support for <a href="https://play.google.com/store/apps/details?id=org.diasurgical.devilutionx"
-  rel="nofollow">Android</a> (please leave us a review <g-emoji class="g-emoji" alias="hugs"
-  fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f917.png">🤗</g-emoji>)</li>
+  <li>Added support for iOS</li>
 
-  <li>Added support for the original Nintendo 3DS</li>
+  <li>Added support for Nintendo 2DS</li>
 
-  <li>Added support for Lepus - jz4760/RG300 with multiplayer support</li>
+  <li>Added support for PlayStation 4</li>
 
-  <li>Switch: Added TCP/IP multiplayer support</li>
+  <li>Added support for Xbox One/Series</li>
 
-  <li>Vita: Added TCP/IP multiplayer support</li>
+  <li>Discord Rich Presence</li>
 
-  <li>OpenDingux: Added TCP/IP multiplayer support</li>
+  <li>Android: Auto Backup</li>
 
-  <li>3DS: Added TCP/IP multiplayer support</li>
+  <li>Android: Added game data import shortcut</li>
 
-  <li>3DS: Add launcher sound</li>
+  <li>Windows: Auto detect language</li>
+
+  <li>Windows: Prefer Direct3D 11 for upscaling</li>
 
   </ul>
 
@@ -57,34 +130,29 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Animations are now updated at render time for high fps visuals</li>
+  <li>Always draw hotkeys on spell list</li>
 
-  <li>Added support for hardware cursor (solves cursor lag)</li>
+  <li>Do not stop music when navigating in the main menu</li>
 
-  <li>Quests being ordered logically in the quest panel</li>
+  <li>Don''t hide automap when opening help screen</li>
 
-  <li>Quest panel now lists completed quests</li>
+  <li>Don''t restart music if the same track is played</li>
 
-  <li>More fine grained volume slider</li>
+  <li>Match unique monster''s missiles color to their owner''s</li>
 
-  <li>Added option for pickup sound</li>
+  <li>Show game Difficulty in Automap</li>
 
-  <li>Shrine reveals map in a different color than your own exploration</li>
+  <li>Use unique unused graphics for Long War Bow</li>
 
-  <li>Automap has drop shadow for better contrast in some levels</li>
+  <li>Display numeric max resists on character panel</li>
 
-  <li>Added font with support for Extended Latin, Greek, Coptic, Cyrillic, <a href="https://github.com/diasurgical/devilutionx-assets/releases/download/v1/fonts.mpq">Chinese,
-  Japanese, and Korean</a></li>
+  <li>Add additional emojis</li>
 
-  <li>Item outline color now matches rarity</li>
+  <li>Mute videos when minimized</li>
 
-  <li>Use gold color to indicate unique items in stores</li>
+  <li>MP3 support</li>
 
-  <li>Improved XP bar visuals</li>
-
-  <li>More widescreen loading scenes</li>
-
-  <li>Mac: Icon now follow Big Sur style guide</li>
+  <li>Remove stippled transparency option</li>
 
   </ul>
 
@@ -92,14 +160,15 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Added built in support for ZeroTier (no need for port forwarding, no need for
-  an extra application)</li>
+  <li>Improve how public games are displayed</li>
 
-  <li>Added support for unencrypted public games</li>
+  <li>Revamped chat</li>
 
-  <li>Added auto discovery of public games over ZeroTier</li>
+  <li>Added a chat log</li>
 
-  <li>Share map exploration (in a different color than your own exploration)</li>
+  <li>Enable dungeon messages</li>
+
+  <li>OpenDingux Lepus: Enable ZeroTier</li>
 
   </ul>
 
@@ -107,39 +176,39 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Press alt to show items on ground with labels</li>
+  <li>A large number of actions can now be mapped to custom keys</li>
 
-  <li>Added option for stopping the hero with a key-press</li>
+  <li>Increase spell hotkeys from 4 to 12</li>
 
-  <li>Hold click to continue to attack/walk/consume</li>
+  <li>Quick cast option</li>
 
-  <li>Click ctrl-click to drop an item</li>
+  <li>Added support for touch controls on all devices</li>
 
-  <li>Click shift-click to swap to the clicked weapon</li>
+  <li>Prevent spells from targeting other players in friendly mode</li>
 
-  <li>Limit the max width between panels</li>
+  <li>Slightly more responsive player control</li>
 
-  <li>Center align panels</li>
+  <li>Add support for multiple lines in quick messages</li>
 
-  <li>Rune bomb and crypt map can be used when standing next to target</li>
+  <li>Make main menu react to mouse up instead of mouse down</li>
 
-  <li>Added option for disabling crippling shrines</li>
+  <li>Android: Auto hide touch UI when not in use</li>
 
-  <li>Improve inventory filling order</li>
+  <li>mouse: Support for extra buttons</li>
 
-  <li>Added option to refill belt automatically</li>
+  <li>gamepad: Hold button to repeat action</li>
 
-  <li>gamepad: Equip equipment when pressing [use]</li>
+  <li>gamepad: Make scrolls usable from the inventory</li>
 
-  <li>gamepad: Operate object as last option for primary controller action</li>
+  <li>gamepad: Graphical circle menus</li>
 
-  <li>gamepad: Allow applying oils with secondary action button</li>
+  <li>touch: Spend stat points when clicking the buttons</li>
 
-  <li>gamepad: Inventory now takes object size into consideration</li>
+  <li>touch: Disable stand button when in town</li>
 
-  <li>gamepad: Add joystick dead zone range to ini</li>
+  <li>touch: Enable navigating the spell book</li>
 
-  <li>touch: Add input hint to virtual keyboards</li>
+  <li>3DS: Add support for the C-stick</li>
 
   </ul>
 
@@ -147,70 +216,17 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Add support for translations</li>
+  <li>Embed assets</li>
 
-  <li>Run in self-contained (portable) mode if diablo.ini is in the same folder as
-  DevilutionX</li>
+  <li>Fine grain control of startup splashes</li>
 
-  <li>Chat now supports Unicode, including emojis</li>
+  <li>Load custom assets from save folder instead of last known MPQ folder</li>
 
-  <li>Several actions can now have their key bindings remapped in the ini</li>
+  <li>Reduce default debug output</li>
 
-  <li>Added key bind options for quick save/load</li>
+  <li>Reduce memory consumption during movies</li>
 
-  <li>Show additional logging with <code>--verbose</code></li>
-
-  <li>Start directly in Hellfire mode with <code>--hellfire</code></li>
-
-  <li>Support for MPQs with compressed audio</li>
-
-  <li>Log errors to the terminal as well</li>
-
-  <li>Added options to adjust audio quality to ini</li>
-
-  <li>Update Shareware help text to match retail version</li>
-
-  <li>Automatically pause and mute the game when put in the background</li>
-
-  <li>Allow for multiple heroes with the same name</li>
-
-  <li>Only update diablo.ini if there are changes</li>
-
-  <li>Windows: Auto detect location of MPQ files from GOG installation</li>
-
-  </ul>
-
-  <h4 dir="auto">Translations</h4>
-
-  <ul dir="auto">
-
-  <li>Added Brazilian Portuguese</li>
-
-  <li>Added Bulgarian</li>
-
-  <li>Added Czech</li>
-
-  <li>Added French</li>
-
-  <li>Added German</li>
-
-  <li>Added Italian</li>
-
-  <li>Added Korean (requires the <a href="https://github.com/diasurgical/devilutionx-assets/releases/download/v1/fonts.mpq">additional
-  fonts</a>)</li>
-
-  <li>Added Polish (<a href="https://github.com/diasurgical/devilutionx-assets/releases/download/v1/pl.mpq">optional
-  dub</a> by professional voice actors)</li>
-
-  <li>Added Russian</li>
-
-  <li>Added Simplified Chinese (requires the <a href="https://github.com/diasurgical/devilutionx-assets/releases/download/v1/fonts.mpq">additional
-  fonts</a>)</li>
-
-  <li>Added Spanish</li>
-
-  <li>Added Traditional Chinese (requires the <a href="https://github.com/diasurgical/devilutionx-assets/releases/download/v1/fonts.mpq">additional
-  fonts</a>)</li>
+  <li>Support compressed MPQs</li>
 
   </ul>
 
@@ -220,19 +236,7 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Fix small rooms missing from some levels</li>
-
-  <li>Golem''s to-hit being incorrect after loading a save game</li>
-
-  <li>Diablo: Correct spells mana cost for the Sorcerer</li>
-
-  <li>Diablo: Armor piercing was 2x of what it should be</li>
-
-  <li>Diablo: Barbarian missing his armor piercing bonus</li>
-
-  <li>Hellfire: Elemental spell was missing</li>
-
-  <li>Hellfire: Firering spell not creating the correct shape</li>
+  <li>Ring of Engagement having too high armor penetration in Hellfire</li>
 
   </ul>
 
@@ -240,7 +244,9 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Switch: No longer reacts to touch events</li>
+  <li>Android: Remove broken quit menu</li>
+
+  <li>Vita/Switch/3DS: Fix support for voice packs</li>
 
   </ul>
 
@@ -248,15 +254,25 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Corrected directional sounds for distant sources</li>
+  <li>Correct Diablo''s HP (in non-Hellfire games)</li>
 
-  <li>Fix sound cut off when exiting game or starting the intro video</li>
+  <li>Correct the number of items sold by Adria (in non-Hellfire games)</li>
 
-  <li>Entirely new audio mixer to solve audio issues and lower memory usage</li>
+  <li>Berserked monsters not fighting each other</li>
 
-  <li>Fixed rendering issues on 8bit outputs</li>
+  <li>Colored border showing around hardware cursor</li>
 
-  <li>Hellfire: Clearly indicate if it''s in shareware mode</li>
+  <li>Durability overflow not behaving as expected</li>
+
+  <li>Hero flickering briefly when dying from a barrel</li>
+
+  <li>Only use Hardware Cursor if supported</li>
+
+  <li>Various text rendering improvements</li>
+
+  <li>Windows: Restore default audio driver (WASAPI)</li>
+
+  <li>Windows: Fix window scaling</li>
 
   </ul>
 
@@ -264,13 +280,11 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Reverted melee damage, when friendly fire and friendly mode is on</li>
+  <li>Correct network error messages</li>
 
-  <li>Do not show XP bar when chat is open</li>
+  <li>Improve handling of high latency</li>
 
-  <li>Do not show unbound status in place of game name</li>
-
-  <li>Show host version when incompatible</li>
+  <li>Multiplayer being paused after minimizing during loading</li>
 
   </ul>
 
@@ -278,15 +292,17 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Gamepad: Prevent wasting stat points on maxed out stats</li>
+  <li>Fix some joysticks not working</li>
 
-  <li>Gamepad: Do not reset cursor position when switching between mouse and gamepad</li>
+  <li>Item highlighting getting stuck when walking on top of items</li>
 
-  <li>Gamepad: Unable to open crypt and hive</li>
+  <li>Missing OK button on error screens</li>
 
-  <li>Gamepad: Close cathedral map when pressing B-button</li>
+  <li>Targeting entrances below the original panel height</li>
 
-  <li>Touch: Open virtual keyboard when text input is needed</li>
+  <li>macOS: Mouse confined to a portion of the screen</li>
+
+  <li>gamepad: Minor improvement to UI navigation</li>
 
   </ul>
 
@@ -294,34 +310,9 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Correctly reset game state if not saved</li>
+  <li>Fix multiple crashes</li>
 
-  <li>Compatibility with shareware save games</li>
-
-  <li>Correctly handle folders with non English symbols in them</li>
-
-  <li>Free network connection after ending game</li>
-
-  <li>Never require write mode for MPQ files</li>
-
-  <li>Allow for comments in ini file</li>
-
-  <li>Load assets from a folder called <code>assets</code> next to the application
-  if not found in data paths</li>
-
-  <li>Added listfile to our MPQs</li>
-
-  <li>Add ini option for showing FPS</li>
-
-  <li>Fix name filtering</li>
-
-  <li>Correct minor memory leaks</li>
-
-  <li>Further reduced memory usage</li>
-
-  <li>Performance improvments</li>
-
-  <li>Windows: Only show network errors once</li>
+  <li>Improve multiplayer stability</li>
 
   </ul>
 
@@ -331,71 +322,29 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Player becoming immune to stun while using manashield at low health</li>
+  <li>Add gold to inventory in a consistent manner</li>
 
-  <li>Monsters and players are no-longer immune to missiles when moving horizontally</li>
+  <li>Correct cow collision box</li>
 
-  <li>Fix missiles hitting multiple times</li>
+  <li>Final Dungeon Message not playing</li>
 
-  <li>Fix missiles sometimes skipping hit checks when passing a target</li>
+  <li>Knockback being able to push monsters on top of each other</li>
 
-  <li>Fix charging monsters disappearing from the game if changing levels while they
-  were charging</li>
+  <li>Lightning Arrow extra damage not always being applied</li>
 
-  <li>Fix negative AC bonus resulting in +1 AC</li>
+  <li>Mana Shield effectiveness not improving with spell level</li>
 
-  <li>Do not attack dead monsters</li>
+  <li>Minor rounding error in monster damage</li>
 
-  <li>Show more accurate <code>To hit</code> value in char panel</li>
+  <li>Negative stats incorrectly preventing use of items</li>
 
-  <li>Wake up minions when their leader wakes up</li>
+  <li>Shrines incorrectly lowering Life/Mana below the minimum</li>
 
-  <li>Disallow swapping gear while not standing/walking to avoid animation lock</li>
+  <li>Some empty tiles in hell blocking movement and missiles</li>
 
-  <li>Switching of spells during casting changing the cost of the cast</li>
+  <li>Some levels changing layout after loading</li>
 
-  <li>Not being able to pick up items after starting a new game for a short amount
-  of time</li>
-
-  <li>Persist shop inventory shop items when saving and loading</li>
-
-  <li>Diablo''s chamber opening with one lever after level loading</li>
-
-  <li>Thaumaturgic shrine not restocking trapped chests</li>
-
-  <li>Scavengers/Gravedigger were only able to search for corpses south of them</li>
-
-  <li>Scavenger leaders getting stuck if minions started eating</li>
-
-  <li>Quest monsters level being increased twice</li>
-
-  <li>Fix gold piles with 0 gold from incorrect treasure room generation</li>
-
-  <li>Avoid using temporary missiles for game state tracking</li>
-
-  <li>Object interactions stacking while other actions are being performed</li>
-
-  <li>Quest items sometimes not being picked up when clicked</li>
-
-  <li>Teleport spell failing for some valid positions</li>
-
-  <li>Phasing spell sometime failing or sending you outside the level</li>
-
-  <li>Phasing not working in Lazarus'' chamber</li>
-
-  <li>Too many monster slots being allocated for golems on levels with quests</li>
-
-  <li>Golems spawning on top of the player</li>
-
-  <li>Fix Zhar''s bookcase resetting a golem instead of Zhar</li>
-
-  <li>Zhar saying his line twice in a game</li>
-
-  <li>Fix stairs up to level 8 sometimes taking the player to town instead</li>
-
-  <li>Fix random tiles being explored on automap</li>
-
-  <li>Fixed various typos</li>
+  <li>Some monsters were placed on top of doors</li>
 
   </ul>
 
@@ -403,24 +352,13 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Monster light not updating when monster teleports</li>
+  <li>Align various game texts</li>
 
-  <li>Correctly shorten item names depending on visual length</li>
+  <li>Center panel text when holding red items</li>
 
-  <li>Missing dirt corners on map</li>
+  <li>Correct death animation when wearing armor</li>
 
-  <li>Wobbling map indicator when walking</li>
-
-  <li>Fix screen position jumping after loading some saves</li>
-
-  <li>Some lava still animated despite game pause</li>
-
-  <li>Fully close the dialog screen when pausing game</li>
-
-  <li>Changed player saying "Not enough mana" to a more fitting message when using
-  a level 0 spell</li>
-
-  <li>Draw belt item number for unusable scrolls</li>
+  <li>Missing torches near traps</li>
 
   </ul>
 
@@ -428,29 +366,9 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Correct dsync caused by incorrect vision range for other players</li>
+  <li>Fix multiple dsync issues</li>
 
-  <li>Sync monster active state</li>
-
-  <li>Player attack speed being out of sync</li>
-
-  <li>Dsync when switching items without sufficient inventory space</li>
-
-  <li>Compensate for desync cause related to player movement</li>
-
-  <li>Golem dsyncing if owner leaves level</li>
-
-  <li>Prevent golems from fighting each other</li>
-
-  <li>Play the correct sound when a player is hit by missiles</li>
-
-  </ul>
-
-  <h4 dir="auto">Controls</h4>
-
-  <ul dir="auto">
-
-  <li>Controls [ + ] stat point buttons sometimes not responding to clicks</li>
+  <li>Auric amulet affecting all players</li>
 
   </ul>
 
@@ -458,19 +376,15 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Keyboard layout is now correct when entering chat messages</li>
+  <li>Various stability issues</li>
 
-  <li>Validate network messages to harden security</li>
+  <li>Various item corruption issues</li>
 
-  <li>Fix corrupt save games for levels with large amount of entities</li>
+  <li>Various typos</li>
 
-  <li>Game now remembers the last selected hero</li>
+  <li>Game freezing if low level hero interacts with the slain hero</li>
 
-  <li>Added menu for switching between Hellfire / Diablo</li>
-
-  <li>Make menu navigation wrapping consistent</li>
-
-  <li>Corrected multiple crashes and stability issues</li>
+  <li>Support systems with no GPU</li>
 
   </ul>
 
@@ -480,26 +394,13 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Range monsters cannot hit target at melee range</li>
+  <li>Mana Shield effectiveness decreasing with spell level</li>
 
-  <li>Monsters could not see firewalls if covered by lightning wall and vice versa</li>
+  <li>Torchant and Hellbat damage range being ignored</li>
 
-  <li>Armor piercing affix on ranged weapons decreasing hit chance instead of increasing
-  it</li>
+  <li>Monsters dying multiple times from Reflect + Thorn</li>
 
-  <li>Fix stuttering when running in town</li>
-
-  <li>Firering spell damage not being based on the caster</li>
-
-  <li>Firering spell giving XP to the wrong player</li>
-
-  <li>Solar shrine time was off by 1 hour, and did nothing between 4 and 5 am</li>
-
-  <li>Reflect spell not working after loading a save game</li>
-
-  <li>Potion trap was not degrading rejuvenation potion into mana or life</li>
-
-  <li>Barbarian''s skill not correctly updating health points</li>
+  <li>Monk''s staff did not take damage when blocking</li>
 
   </ul>
 
@@ -507,25 +408,7 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Fix missing player lights when loading Hive level 3</li>
-
-  <li>Apply lights to all berserked monsters after loading save game</li>
-
-  <li>Remove light when killing a berserked monster</li>
-
-  <li>Blood star becoming invisible when blocked</li>
-
-  <li>Rotate arrows in the appropriate direction when blocking</li>
-
-  <li>Candles around the storybook sometimes missing in Crypt</li>
-
-  <li>Celia now leaves after her quest ends</li>
-
-  <li>Update Celia and Complete Nut graphics when completing their quests</li>
-
-  <li>Only play "Uh uh" sound the first time you pick up the cathedral map</li>
-
-  <li>Glass breaking sound sometimes not playing for the potion trap</li>
+  <li>Blocked arrows always rotate south</li>
 
   </ul>
 
@@ -533,32 +416,13 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Fix dsync in Hive</li>
+  <li>Main quest items disappearing</li>
 
-  <li>Open Crypt from the start</li>
-
-  <li>Restrict access to Hive and Crypt based on level</li>
-
-  <li>Reflect spell not being synced</li>
-
-  <li>Search spell affecting all players</li>
-
-  </ul>
-
-  <h3 dir="auto">Known issues</h3>
-
-  <ul dir="auto">
-
-  <li>The Linux build does not contain <a href="https://github.com/diasurgical/devilutionx-assets/releases/download/v1/devilutionx.mpq">devilutionx.mpq</a>
-  which must be downloaded separately instead or it will be unable to locate <code>fonts\yellowdialog.trn</code>.</li>
-
-  <li>Switch/3DS: Polish dub produces static sounds</li>
-
-  <li>OpenDingux: Now requires Beta</li>
+  <li>Cow quest getting stuck</li>
 
   </ul>'
-updated: '2021-11-02T16:00:01Z'
-version: 1.3.0
-version_title: 1.3.0
+updated: '2022-04-13T21:12:43Z'
+version: 1.4.0
+version_title: 1.4.0
 wiki: https://github.com/diasurgical/devilutionX/wiki
 ---

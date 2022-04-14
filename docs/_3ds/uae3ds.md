@@ -9,10 +9,6 @@ created: '2020-02-18T23:04:48Z'
 description: Port of Chui's UAE4ALL Amiga 500 emulator to Nintendo 3DS
 download_page: https://github.com/badda71/uae3DS/releases
 downloads:
-  uae3DS.3ds:
-    size: 1961984
-    size_str: 1 MiB
-    url: https://github.com/badda71/uae3DS/releases/download/1.0/uae3DS.3ds
   uae3DS.3dsx:
     size: 2478228
     size_str: 2 MiB
@@ -23,7 +19,7 @@ downloads:
     url: https://github.com/badda71/uae3DS/releases/download/1.0/uae3DS.cia
 github: badda71/uae3DS
 icon: https://raw.githubusercontent.com/badda71/uae3DS/master/meta/icon.png
-icon_index: -1
+icon_index: 207
 image: https://raw.githubusercontent.com/badda71/uae3DS/master/meta/banner.png
 image_length: 28872
 layout: app
