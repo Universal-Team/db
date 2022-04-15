@@ -95,7 +95,7 @@ update_notes: '<ul dir="auto">
   <li>WIIU: Fix USB get_device_name(), don''t truncate to three chars</li>
 
   </ul>'
-updated: '2022-04-11T20:24:01Z'
+updated: '2022-04-15T17:23:24Z'
 version: v1.10.3
 version_title: v1.10.3
 website: http://www.libretro.com
