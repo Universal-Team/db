@@ -3,8 +3,8 @@ author: NPI-D7
 avatar: https://avatars.githubusercontent.com/u/71648010?v=4
 categories:
 - utility
-color: '#e2c8da'
-color_bg: '#80717b'
+color: '#a1a0c9'
+color_bg: '#666580'
 created: '2021-02-04T09:53:45Z'
 description: BCSTM-Player for 3ds
 download_page: https://github.com/NPI-D7/BCSTM-Player/releases
@@ -21,7 +21,7 @@ github: NPI-D7/BCSTM-Player
 icon: https://raw.githubusercontent.com/NPI-D7/BCSTM-Player/main/app/icon.png
 icon_index: 172
 image: https://raw.githubusercontent.com/NPI-D7/BCSTM-Player/main/app/banner.png
-image_length: 14584
+image_length: 2829
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
