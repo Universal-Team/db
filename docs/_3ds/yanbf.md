@@ -10,15 +10,15 @@ description: Yet another nds-bootstrap forwarder. Runs from 3DS-mode!
 download_page: https://github.com/lifehackerhansol/YANBF/releases
 downloads:
   YANBF-Linux.zip:
-    size: 100863619
+    size: 100863603
     size_str: 96 MiB
     url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.5.1/YANBF-Linux.zip
   YANBF-Windows.zip:
-    size: 70885859
+    size: 70885844
     size_str: 67 MiB
     url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.5.1/YANBF-Windows.zip
   YANBF-macOS.zip:
-    size: 88329150
+    size: 88329152
     size_str: 84 MiB
     url: https://github.com/lifehackerhansol/YANBF/releases/download/v1.5.1/YANBF-macOS.zip
   bootstrap.cia:
@@ -63,7 +63,7 @@ update_notes: '<h3 dir="auto">Bug fix</h3>
   </li>
 
   </ul>'
-updated: '2022-04-11T16:18:59Z'
+updated: '2022-04-16T06:59:23Z'
 version: v1.5.1
 version_title: 'v1.5.1: minor hotfixing that hopefully works'
 ---
