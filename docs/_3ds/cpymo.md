@@ -10,49 +10,49 @@ description: PyMO AVG Game Engine implemention in C.
 download_page: https://github.com/Strrationalism/CPyMO/releases
 downloads:
   CPyMO.for.Linux.x64.zip:
-    size: 5144568
-    size_str: 4 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.5/CPyMO.for.Linux.x64.zip
+    size: 6143992
+    size_str: 5 MiB
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.6/CPyMO.for.Linux.x64.zip
   CPyMO.for.Nintendo.3DS.3dsx:
-    size: 15190752
+    size: 15190696
     size_str: 14 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.5/CPyMO.for.Nintendo.3DS.3dsx
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.6/CPyMO.for.Nintendo.3DS.3dsx
   CPyMO.for.Nintendo.3DS.cia:
     size: 11301824
     size_str: 10 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.5/CPyMO.for.Nintendo.3DS.cia
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.6/CPyMO.for.Nintendo.3DS.cia
   CPyMO.for.PSV.zip:
-    size: 1325116
-    size_str: 1 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.5/CPyMO.for.PSV.zip
+    size: 557048
+    size_str: 543 KiB
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.6/CPyMO.for.PSV.zip
   CPyMO.for.Universal.Windows.Platform.zip:
-    size: 26069852
+    size: 26070934
     size_str: 24 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.5/CPyMO.for.Universal.Windows.Platform.zip
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.6/CPyMO.for.Universal.Windows.Platform.zip
   CPyMO.for.Windows.ARM.zip:
-    size: 6146687
+    size: 6146924
     size_str: 5 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.5/CPyMO.for.Windows.ARM.zip
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.6/CPyMO.for.Windows.ARM.zip
   CPyMO.for.Windows.ARM64.zip:
-    size: 6508800
-    size_str: 6 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.5/CPyMO.for.Windows.ARM64.zip
+    size: 5820587
+    size_str: 5 MiB
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.6/CPyMO.for.Windows.ARM64.zip
   CPyMO.for.Windows.x64.zip:
-    size: 7523559
+    size: 7523429
     size_str: 7 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.5/CPyMO.for.Windows.x64.zip
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.6/CPyMO.for.Windows.x64.zip
   CPyMO.for.Windows.x86.zip:
-    size: 6514685
+    size: 6515398
     size_str: 6 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.5/CPyMO.for.Windows.x86.zip
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.6/CPyMO.for.Windows.x86.zip
   CPyMO.for.macOS.Apple.Silicon.zip:
-    size: 7345702
-    size_str: 7 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.5/CPyMO.for.macOS.Apple.Silicon.zip
+    size: 4702200
+    size_str: 4 MiB
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.6/CPyMO.for.macOS.Apple.Silicon.zip
   CPyMO.for.macOS.x64.zip:
-    size: 8387781
-    size_str: 7 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.5/CPyMO.for.macOS.x64.zip
+    size: 4718584
+    size_str: 4 MiB
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.6/CPyMO.for.macOS.x64.zip
 github: Strrationalism/CPyMO
 icon: https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/icon.png
 icon_index: 202
@@ -67,24 +67,19 @@ source: https://github.com/Strrationalism/CPyMO
 systems:
 - 3DS
 title: CPyMO
-update_notes: '<h1 dir="auto">新功能</h1>
+update_notes: '<h1 dir="auto">改进</h1>
 
   <ul dir="auto">
 
-  <li>增加Android平台支持</li>
+  <li>PSP版改用Docker构建以避免环境问题</li>
 
-  <li>增加UWP平台支持</li>
+  <li>PSP版增加MODULE INFO</li>
 
-  </ul>
+  <li>PSP版现在可以在实体机上启动了</li>
 
-  <h1 dir="auto">改进</h1>
-
-  <ul dir="auto">
-
-  <li>在rmenu界面中长按可退出rmenu界面</li>
+  <li>增加DISABLE_SDL2_MIXER_MUSIC宏以解决某些情况下SDL2_mixer中Music组件不能工作的情况</li>
 
   </ul>'
-updated: '2022-04-13T16:19:05Z'
-version: v1.0.5
-version_title: CPyMO 1.0.5
+updated: '2022-04-16T15:02:19Z'
+version: v1.0.6
 ---
