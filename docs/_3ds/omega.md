@@ -33,9 +33,9 @@ source: https://github.com/Omega-Numworks/Omega
 systems:
 - 3DS
 title: Omega
-updated: '2022-03-27T17:32:33Z'
-version: O2.0.0-E15
-version_title: ' O2.0.0-E15'
+updated: '2022-04-17T13:56:26Z'
+version: O2.0.2-E15
+version_title: O2.0.2-E15
 website: https://getomega.dev
 wiki: https://github.com/Omega-Numworks/Omega/wiki
 ---
