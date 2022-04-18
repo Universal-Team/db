@@ -408,6 +408,21 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <li>Cow quest getting stuck</li>
 
+  </ul>
+
+  <h3 dir="auto">Known issues</h3>
+
+  <h4 dir="auto">Platform</h4>
+
+  <ul dir="auto">
+
+  <li>PS4: The games fail to launch without a default ini, please see <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="1205239402" data-permission-text="Title
+  is private" data-url="https://github.com/diasurgical/devilutionX/issues/4443" data-hovercard-type="issue"
+  data-hovercard-url="/diasurgical/devilutionX/issues/4443/hovercard" href="https://github.com/diasurgical/devilutionX/issues/4443">#4443</a></li>
+
+  <li>Clicking an empty hero slot will crash the game</li>
+
   </ul>'
 updated: '2022-04-13T21:12:43Z'
 version: 1.4.0
