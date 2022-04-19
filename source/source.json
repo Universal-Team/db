@@ -3784,7 +3784,7 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/Epicpkmn11/dsi-camera/master/icon.bmp",
 		"icon": "https://raw.githubusercontent.com/Epicpkmn11/dsi-camera/master/icon.bmp",
-		"long_description": "This is just a simple proof of concept / example to show off the DSi's cameras being used in a homebrew app, and an open-source example for initializing the cameras in C/C++. Currently it can show both cameras and save a picture as photo.bmp.\n\n![Example image](https://github.com/Epicpkmn11/dsi-camera/raw/master/resources/example.png)"
+		"long_description": "This is just a simple proof of concept/example to show off the DSi's cameras being used in a homebrew app, and an open-source example for initializing the cameras in C/C++. Currently it can show both cameras and save a picture as to `sd:/DCIM/100DSITEST/IMG_####.PNG`.\n\n![Example image](https://github.com/Epicpkmn11/dsi-camera/raw/master/resources/example.png)"
 	},
 	{
 		"github": "RocketRobz/3DSBank",
@@ -4648,7 +4648,7 @@
 		"systems": ["DS"],
 		"categories": ["game"],
 		"icon_static": "https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/resources/icon/icon.0.png",
-		"long_description": "A clone of [Wordle](https://www.nytimes.com/games/wordle/index.html) for the Nintendo DS(i). It features the same word each day as the official Wordle and has most of the same features including statistics tracking, high contrast and hard mode options, and even makes a txt file with a sharable emoji grid."
+		"long_description": "A clone of [Wordle](https://www.nytimes.com/games/wordle/index.html) for the Nintendo DS(i). It features the same word each day as the official Wordle and has most of the same features including statistics tracking, high contrast and hard mode options, and even sharable emoji grid via QR code or txt file. Also featuring custom original background music by Rocket Robz."
 	},
 	{
 		"github": "NotImplementedLife/d-Elusion",
