@@ -46,17 +46,17 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
   <li>Photos are now saved as 24-bit PNGs instead of 15-bit BMPs, as YUV mode is now
   used for higher quality</li>
 
-  <li>Photos are new saved to <code>sd:/DCIM/100DSITEST/IMG_####.PNG</code>, allowing
+  <li>Photos are new saved to <code>sd:/DCIM/100DSI00/IMG_####.PNG</code>, allowing
   for multiple images to be taken</li>
 
   <li>Changed the source to be 100% C, since it was already effectively C but using
   C++ files</li>
 
   </ul>'
-updated: '2022-04-19T03:16:59Z'
+updated: '2022-04-19T06:49:48Z'
 version: v1.1.0
 version_title: 640×480
 ---
-This is just a simple proof of concept/example to show off the DSi's cameras being used in a homebrew app, and an open-source example for initializing the cameras in C/C++. Currently it can show both cameras and save a picture as to `sd:/DCIM/100DSITEST/IMG_####.PNG`.
+This is just a simple proof of concept/example to show off the DSi's cameras being used in a homebrew app, and an open-source example for initializing the cameras in C/C++. Currently it can show both cameras and save a picture as to `sd:/DCIM/100DSI00/IMG_####.PNG`.
 
 ![Example image](https://github.com/Epicpkmn11/dsi-camera/raw/master/resources/example.png)
