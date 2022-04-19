@@ -28,8 +28,8 @@ license_name: The Unlicense
 qr:
   dsi-camera.cia: https://db.universal-team.net/assets/images/qr/dsi-camera-cia.png
 screenshots:
-- description: Main menu
-  url: https://db.universal-team.net/assets/images/screenshots/dsi-camera/main-menu.png
+- description: Taking a picture
+  url: https://db.universal-team.net/assets/images/screenshots/dsi-camera/taking-a-picture.png
 source: https://github.com/Epicpkmn11/dsi-camera
 systems:
 - DS
