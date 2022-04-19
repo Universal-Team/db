@@ -9,10 +9,14 @@ created: '2020-08-03T07:14:58Z'
 description: A simple example homebrew app that can use the DSi's cameras
 download_page: https://github.com/Epicpkmn11/dsi-camera/releases
 downloads:
+  dsi-camera.cia:
+    size: 302336
+    size_str: 295 KiB
+    url: https://github.com/Epicpkmn11/dsi-camera/releases/download/v1.1.0/dsi-camera.cia
   dsi-camera.nds:
-    size: 238592
-    size_str: 233 KiB
-    url: https://github.com/Epicpkmn11/dsi-camera/releases/download/v1.0.0/dsi-camera.nds
+    size: 287744
+    size_str: 281 KiB
+    url: https://github.com/Epicpkmn11/dsi-camera/releases/download/v1.1.0/dsi-camera.nds
 github: Epicpkmn11/dsi-camera
 icon: https://db.universal-team.net/assets/images/icons/dsi-camera.png
 icon_index: 152
@@ -21,18 +25,38 @@ image_length: 630
 layout: app
 license: unlicense
 license_name: The Unlicense
+qr:
+  dsi-camera.cia: https://db.universal-team.net/assets/images/qr/dsi-camera-cia.png
+screenshots:
+- description: Main menu
+  url: https://db.universal-team.net/assets/images/screenshots/dsi-camera/main-menu.png
 source: https://github.com/Epicpkmn11/dsi-camera
 systems:
 - DS
 title: dsi-camera
-update_notes: '<p dir="auto">It works now! So have a release ;P</p>
+update_notes: '<h3 dir="auto">What''s new?</h3>
 
-  <p dir="auto">This is just a simple example to demonstrate the DSi cameras working
-  in a homebrew app. It can show both cameras and save a picture as a BMP.</p>'
-updated: '2020-10-26T05:51:42Z'
-version: v1.0.0
-version_title: Initial release
+  <ul dir="auto">
+
+  <li>Photos are now saved at 640×480! (Thanks to <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/Arisotura/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Arisotura">@Arisotura</a>
+  once again for pointing out the obvious fix lol)</li>
+
+  <li>Photos are now saved as 24-bit PNGs instead of 15-bit BMPs, as YUV mode is now
+  used for higher quality</li>
+
+  <li>Photos are new saved to <code>sd:/DCIM/100DSITEST/IMG_####.PNG</code>, allowing
+  for multiple images to be taken</li>
+
+  <li>Changed the source to be 100% C, since it was already effectively C but using
+  C++ files</li>
+
+  </ul>'
+updated: '2022-04-19T03:16:59Z'
+version: v1.1.0
+version_title: 640×480
 ---
-This is just a simple proof of concept / example to show off the DSi's cameras being used in a homebrew app, and an open-source example for initializing the cameras in C/C++. Currently it can show both cameras and save a picture as photo.bmp.
+This is just a simple proof of concept/example to show off the DSi's cameras being used in a homebrew app, and an open-source example for initializing the cameras in C/C++. Currently it can show both cameras and save a picture as to `sd:/DCIM/100DSITEST/IMG_####.PNG`.
 
 ![Example image](https://github.com/Epicpkmn11/dsi-camera/raw/master/resources/example.png)
