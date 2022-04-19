@@ -7,7 +7,7 @@ color: '#e9cdd1'
 color_bg: '#807072'
 created: '2021-06-16T08:14:55Z'
 description: Yet another nds-bootstrap forwarder. Runs from 3DS-mode!
-download_page: https://github.com/lifehackerhansol/YANBF/releases
+download_page: https://github.com/YANBForwarder/YANBF/releases
 downloads:
   YANBF-Linux.zip:
     size: 100865059
@@ -25,7 +25,7 @@ downloads:
     size: 206080
     size_str: 201 KiB
     url: https://github.com/YANBForwarder/YANBF/releases/download/v1.5.2/bootstrap.cia
-github: lifehackerhansol/YANBF
+github: YANBForwarder/YANBF
 icon_index: 197
 image: https://avatars.githubusercontent.com/u/103953989?v=4
 image_length: 1561
@@ -38,9 +38,9 @@ source: https://github.com/YANBForwarder/YANBF
 systems:
 - 3DS
 title: YANBF
-update_notes: '<h3>What''s new?</h3>
+update_notes: '<h3 dir="auto">What''s new?</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li>All repositories are consolidated to a <code>YANBForwarder</code> repository
   on GitHub.</li>
@@ -51,9 +51,9 @@ update_notes: '<h3>What''s new?</h3>
 
   </ul>
 
-  <h3>Bug fix</h3>
+  <h3 dir="auto">Bug fix</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Fixed an issue where the Linux release was mistakenly named <code>macOS</code>.</li>
 
