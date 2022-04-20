@@ -10,9 +10,9 @@ description: WonderSwan emulator for Nintendo DS.
 download_page: https://github.com/FluBBaOfWard/NitroSwan/releases
 downloads:
   NitroSwan.zip:
-    size: 145661
-    size_str: 142 KiB
-    url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.3.5/NitroSwan.zip
+    size: 145304
+    size_str: 141 KiB
+    url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.3.6/NitroSwan.zip
 github: FluBBaOfWard/NitroSwan
 icon: https://db.universal-team.net/assets/images/icons/nitroswan.png
 icon_index: 192
@@ -23,16 +23,16 @@ source: https://github.com/FluBBaOfWard/NitroSwan
 systems:
 - DS
 title: NitroSwan
-update_notes: '<p dir="auto">Added RTC emulation.<br>
+update_notes: '<ul dir="auto">
 
-  Added a border to emu screen.<br>
+  <li>Fixed sound DMA a bit.</li>
 
-  Better mapping of input.<br>
+  <li>Added savestates.</li>
 
-  Optimized graphic redraw.<br>
+  <li>Added sound button (Select).</li>
 
-  Optimized PC/IP handling in cpu core.</p>'
-updated: '2022-03-09T17:42:01Z'
-version: v0.3.5
-version_title: v0.3.5
+  </ul>'
+updated: '2022-04-20T12:45:15Z'
+version: v0.3.6
+version_title: V0.3.6
 ---
