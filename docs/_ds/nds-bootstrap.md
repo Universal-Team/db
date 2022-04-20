@@ -35,28 +35,7 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v24.5.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v24.5.0</a></p>
-
-  <p dir="auto">Instructions:</p>
-
-  <ol dir="auto">
-
-  <li>Download the <code>.7z</code> file.</li>
-
-  <li>Extract the nds-bootstrap <code>.nds</code> and <code>.ver</code> files, to
-  <code>root:/_nds</code>.</li>
-
-  </ol>
-
-  <p dir="auto"><strong>Bug fix</strong></p>
-
-  <ul dir="auto">
-
-  <li><strong>B4DS mode:</strong> Fixed overlooked bug that caused <em>Sonic Classic
-  Collection</em> to not boot.</li>
-
-  </ul>'
+update_notes: "{\n  \"message\": \"Server Error\"\n}\n"
 updated: '2022-04-13T00:47:10Z'
 version: v0.55.4
 version_title: v0.55.4
