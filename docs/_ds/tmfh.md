@@ -26,7 +26,10 @@ systems:
 - DS
 title: TMFH
 unistore_exclude: true
-update_notes: '<ul dir="auto">
+update_notes: '<h3 dir="auto">IMPORTAINT: <a href="https://github.com/Epicpkmn11/NTM">This
+  project has been superseded by NTM</a>. Use that instead.</h3>
+
+  <ul dir="auto">
 
   <li>Nand free space calculation is now accurate (or very close).</li>
 
