@@ -91,5 +91,6 @@ update_notes: '<h3 dir="auto">What''s new</h3>
 updated: '2022-04-19T03:25:15Z'
 version: v1.4.0
 version_title: Background music
+wiki: https://github.com/Epicpkmn11/WordleDS/wiki
 ---
 A clone of [Wordle](https://www.nytimes.com/games/wordle/index.html) for the Nintendo DS(i). It features the same word each day as the official Wordle and has most of the same features including statistics tracking, high contrast and hard mode options, and even sharable emoji grid via QR code or txt file. Also featuring custom original background music by Rocket Robz.
