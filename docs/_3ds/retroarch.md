@@ -8,14 +8,14 @@ color_bg: '#484848'
 created: '2010-05-27T14:47:40Z'
 description: Cross-platform, sophisticated frontend for the libretro API. Licensed
   GPLv3.
-download_page: https://buildbot.libretro.com/stable/1.10.2/nintendo/3ds
+download_page: https://buildbot.libretro.com/stable/1.10.3/nintendo/3ds
 downloads:
   RetroArch_3dsx.7z:
     size: null
-    url: https://buildbot.libretro.com/stable/1.10.2/nintendo/3ds/RetroArch_3dsx.7z
+    url: https://buildbot.libretro.com/stable/1.10.3/nintendo/3ds/RetroArch_3dsx.7z
   RetroArch_cia.7z:
     size: null
-    url: https://buildbot.libretro.com/stable/1.10.2/nintendo/3ds/RetroArch_cia.7z
+    url: https://buildbot.libretro.com/stable/1.10.3/nintendo/3ds/RetroArch_cia.7z
 eval_downloads: true
 eval_notes_md: true
 github: libretro/RetroArch
@@ -39,132 +39,65 @@ systems:
 title: RetroArch
 update_notes: '<ul dir="auto">
 
-  <li>3DS: Add a menu toggle for switching between old and new 3DS speeds, located
-  in the ''Power Management'' menu. Enabled by default, hidden on old 3DS devices.</li>
+  <li>ANDROID: Decouple Play Core dependency to bring app into compliance for F-Droid</li>
 
-  <li>AUDIO/MIXER: Free audio voices properly</li>
+  <li>ANDROID: Allow audio playback capture on android</li>
 
-  <li>CHEEVOS: Update to rcheevos 10.3.3</li>
+  <li>AI/SERVICE: Disable AI Service setting by default</li>
 
-  <li>CHEEVOS: Support for Arduboy</li>
+  <li>BLUETOOTH/LAKKA: bluetoothctl: add / modify pairing steps</li>
 
-  <li>CHEEVOS: Fix tab sequences in rich presence being turned into t character</li>
+  <li>CHEEVOS: Disallow manual frame delay setting in Hardcore Mode</li>
 
-  <li>CHEEVOS: Fix overflow when parsing float value that has more than 9 digits after
-  the decimal</li>
+  <li>DATABASE: Serial scanning for Wii now includes WBFS</li>
 
-  <li>CHEEVOS: Fix memory mapping when disconnect mask breaks a region into multiple
-  blocks</li>
+  <li>INPUT: Allow proper descriptor declaration for analog triggers</li>
 
-  <li>CORES: Enable manual selection of which cores are displayed in the ''Standalone
-  Cores'' menu</li>
+  <li>INPUT/MAPPING: Fix offset + crash when clearing input port binds</li>
 
-  <li>DATABASE/EXPLORE: Added more categories to the Explore menu</li>
+  <li>INPUT/MAPPING: Fix saving of ''Analog to Digital Type'' when configuration overrides
+  are used</li>
 
-  <li>INPUT: Fix analog stick not working with ''Unified Menu Controls''</li>
+  <li>INPUT/MAPPING: Fix saving of ''Analog to Digital Type'' when configuration overrides
+  are used</li>
 
-  <li>INPUT/MAPPING: Add ''Manage Remap Files'' submenu + automatically save input
-  remaps when closing content</li>
+  <li>LOCALIZATION: Add Valencian language option</li>
 
-  <li>INPUT/MAPPING: Add ''Reset Input Mapping'' option to ''Manage Remap Files''
-  menu</li>
+  <li>LOCALIZATION: Updates</li>
 
-  <li>INPUT/MAPPING: Fix keyboard device remap nulling</li>
+  <li>MENU/SETTINGS: Move ''Show Menu Bar'' under ''Windowed Mode'' settings</li>
 
-  <li>IOS/IOS13+: Support a toolbar that allows toggling of onscreen keyboard and
-  touch mouse</li>
+  <li>MENU/SETTINGS: Add sublabels for ''Subsystems'' and ''Input Deadzone/Sensitivity''</li>
 
-  <li>LIBRETRO: RETRO_ENVIRONMENT_SHUTDOWN fix - ensure core is properly unloaded
-  when RETRO_ENVIRONMENT_SHUTDOWN is called</li>
+  <li>MENU/SETTINGS: Move ''On-Screen Notifications'' to top</li>
 
-  <li>LIBRETRO: RETRO_ENVIRONMENT_SHUTDOWN fix - ensure menu stack is properly flushed
-  when RETRO_ENVIRONMENT_SHUTDOWN is called</li>
+  <li>MENU/XMB: Unified the shadow alpha value to a slightly darker one for better
+  readability</li>
 
-  <li>LINUX/MALI FBDEV: Fix segfault switching video threaded from quickmenu</li>
+  <li>MENU/XMB: Corrected the option label and sublabel for actual behavior</li>
 
-  <li>LOCALIZATION: Add Czech language support</li>
+  <li>MIYOO: Enable ALSA audio driver and default to it</li>
 
-  <li>MMAP: Handle disconnect bits on both sides of len</li>
+  <li>PSP: Take out extra languages/localization, adds about 4/5MB to the binary,
+  and RAM is limited on PSP (32MB and 64MB RAM models)</li>
 
-  <li>MIYOO: Improve CPU architecture and model name identification for Miyoo</li>
+  <li>STATIC PLATFORMS: Populate all history list metadata when launching content
+  from playlists</li>
 
-  <li>MENU/SETTINGS: Remove ''Advanced Settings'' flag from ''Settings &gt; Core''
-  menu</li>
+  <li>STEAM: Introduce Steam Rich Presence</li>
 
-  <li>MENU/MATERIALUI: Add ''Gray Dark + Light'' themes</li>
+  <li>VIDEO: Fast-Forward Frameskip improvement</li>
 
-  <li>MENU/RGUI: Add 6x10 extended ASCII and Latin Extended A and B fonts.  These
-  will enable most Latin alphabets to be displayed in RGUI.</li>
+  <li>VIDEO/THREADED: Stability fixes</li>
 
-  <li>MENU/RGUI: Add ''Gray Dark + Light'' themes</li>
+  <li>WINDOWS/WINRAW: Fix multiple light guns</li>
 
-  <li>MENU/XMB: Add title margin adjustment</li>
-
-  <li>MENU/XMB: Vertical fade corrections</li>
-
-  <li>MENU/OZONE: The size of the thumbnail bar can now be changed though a new option
-  (Settings-&gt;User interface-&gt;Appearance) up to double its normal size.</li>
-
-  <li>MENU/OZONE: Add ''Gray Dark + Light'' themes</li>
-
-  <li>MENU/OZONE: Add thumbnail scale option</li>
-
-  <li>HOTKEYS: Added hotkey for toggling sync to exact content framerate</li>
-
-  <li>HOTKEYS: Prevent log spam when using rewind hotkey with cores that don''t support
-  rewind, if rewind functionality itself is disabled</li>
-
-  <li>HOTKEYS: Add hotkey for toggling sync to exact content framerate</li>
-
-  <li>PS3/PSL1GHT: Add RSX graphics support</li>
-
-  <li>PS3/PSL1GHT: Add libco support</li>
-
-  <li>PS3/PSL1GHT: Add experimental PSMove support</li>
-
-  <li>RS90: Optimise layout of sdl_rs90_video</li>
-
-  <li>STEAM: Use native OSK (Onscreen Keyboard) instead of built-in RetroArch version</li>
-
-  <li>STEAM: New built-in core DLC downloader</li>
-
-  <li>STEAM: Swap OK/Cancel buttons by default</li>
-
-  <li>VIDEO/HDR: Removed redundant copy of buffer in HDR mode if the shader has already
-  a HDR format i.e. R10G10B10A2 (updated Vulkan/D3D11/D3D12 drivers)</li>
-
-  <li>VIDEO/HDR: Fixed crash when using stock shader and HDR and previous optimisation</li>
-
-  <li>WAYLAND: Dynamically load libdecor at runtime</li>
-
-  <li>WAYLAND: Fix splash screen when using xdg_toplevel</li>
-
-  <li>WAYLAND: SHM anti-collision for the splash screen</li>
-
-  <li>WAYLAND: Skip splash screen if window is not ready</li>
-
-  <li>WII: Fix find_connection_entry(): needs unsigned int<br>
-
-  Otherwise the USB gamepad cannot be found, if VID/PID has leading zero. This issue
-  happened with Retrode gamepad adapter</li>
-
-  <li>WII: Rework Retrode gamepad implementation to support multi_pad interface</li>
-
-  <li>WII: Fix - Unplugging and re-plugging now works again</li>
-
-  <li>WII: vWii- Only gamepad 1 is supported, because multi_pad is currently only
-  relevant in the Wii U implementation</li>
-
-  <li>WIIU: Implemented the multi_pad interface according to input/connect/connect_wiiugca.c</li>
-
-  <li>WIIU: Add Optimize for Gamepad option</li>
-
-  <li>WIIU: Fix USB gamepad support</li>
+  <li>WIIU: Fix USB get_device_name(), don''t truncate to three chars</li>
 
   </ul>'
-updated: '2022-03-29T01:30:34Z'
-version: v1.10.2
-version_title: v1.10.2
+updated: '2022-04-15T17:23:24Z'
+version: v1.10.3
+version_title: v1.10.3
 website: http://www.libretro.com
 wiki: https://github.com/libretro/RetroArch/wiki
 ---
