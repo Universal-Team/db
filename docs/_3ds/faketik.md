@@ -1,5 +1,5 @@
 ---
-author: Ian Burgwin
+author: ihaveahax
 avatar: https://avatars.githubusercontent.com/u/590576?v=4
 categories:
 - utility
