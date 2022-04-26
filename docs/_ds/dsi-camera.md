@@ -46,8 +46,8 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
   <li>Photos are now saved as 24-bit PNGs instead of 15-bit BMPs, as YUV mode is now
   used for higher quality</li>
 
-  <li>Photos are new saved to <code>sd:/DCIM/100DSI00/IMG_####.PNG</code>, allowing
-  for multiple images to be taken</li>
+  <li>Photos are new saved to <code class="notranslate">sd:/DCIM/100DSI00/IMG_####.PNG</code>,
+  allowing for multiple images to be taken</li>
 
   <li>Changed the source to be 100% C, since it was already effectively C but using
   C++ files</li>

@@ -68,15 +68,16 @@ update_notes: '<h3 dir="auto">What''s new</h3>
 
   </li>
 
-  <li>Statistics, settings, music, etc have been moved to <code>sd:/_nds/WordleDS</code>
+  <li>Statistics, settings, music, etc have been moved to <code class="notranslate">sd:/_nds/WordleDS</code>
 
   <ul dir="auto">
 
   <li>When loading this version for the first time your old files should be imported
   automatically</li>
 
-  <li>The <code>WordleDS.txt</code> is now found at <code>sd:/_nds/WordleDS/[mod folder]/share.txt</code>
-  (for the base game, <code>[mod folder]</code> will be <code>Wordle DS</code>)</li>
+  <li>The <code class="notranslate">WordleDS.txt</code> is now found at <code class="notranslate">sd:/_nds/WordleDS/[mod
+  folder]/share.txt</code> (for the base game, <code class="notranslate">[mod folder]</code>
+  will be <code class="notranslate">Wordle DS</code>)</li>
 
   </ul>
 
@@ -91,11 +92,13 @@ update_notes: '<h3 dir="auto">What''s new</h3>
 
   <hr>
 
-  <p dir="auto"><code>WordleDS.nds</code> and <code>WordleDS.dsi</code> are identical
-  except that the <code>.dsi</code> build has a title ID so it can be installed using
-  <a href="https://github.com/JeffRuLz/TMFH/releases">TMFH</a> or <a href="https://github.com/Epicpkmn11/NTM/releases">NTM</a>
-  while the <code>.nds</code> build doesn''t so it works on flashcards. The <code>.cia</code>
-  build can be used to install to the 3DS HOME Menu, here''s a QR:</p>
+  <p dir="auto"><code class="notranslate">WordleDS.nds</code> and <code class="notranslate">WordleDS.dsi</code>
+  are identical except that the <code class="notranslate">.dsi</code> build has a
+  title ID so it can be installed using <a href="https://github.com/JeffRuLz/TMFH/releases">TMFH</a>
+  or <a href="https://github.com/Epicpkmn11/NTM/releases">NTM</a> while the <code
+  class="notranslate">.nds</code> build doesn''t so it works on flashcards. The <code
+  class="notranslate">.cia</code> build can be used to install to the 3DS HOME Menu,
+  here''s a QR:</p>
 
   <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/165210022-0c8bda03-f9c5-4071-ad4c-d6268c754275.png"><img
   src="https://user-images.githubusercontent.com/41608708/165210022-0c8bda03-f9c5-4071-ad4c-d6268c754275.png"

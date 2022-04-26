@@ -32,8 +32,8 @@ update_notes: '<p dir="auto"><strong>As of 4/22/2022:</strong> Includes <a href=
 
   <ul dir="auto">
 
-  <li>In the 7z file, extract what''s in <code>for SD card root</code> to the root
-  of the SD card.</li>
+  <li>In the 7z file, extract what''s in <code class="notranslate">for SD card root</code>
+  to the root of the SD card.</li>
 
   </ul>
 
@@ -66,7 +66,8 @@ update_notes: '<p dir="auto"><strong>As of 4/22/2022:</strong> Includes <a href=
 
   <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Fixed only using <code>Widescreen.cxi</code> from <code>TWiLightMenu</code> folder.</li>
+  Fixed only using <code class="notranslate">Widescreen.cxi</code> from <code class="notranslate">TWiLightMenu</code>
+  folder.</li>
 
   <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
