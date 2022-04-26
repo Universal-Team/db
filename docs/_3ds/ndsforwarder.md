@@ -36,8 +36,8 @@ update_notes: '<p dir="auto">Requires full CFW via Rosalina (b9s+luma3ds)</p>
 
   <li>note: you also need the nds-bootstrap forwarder pack from <a href="https://github.com/RocketRobz/NTR_Forwarder/releases">here</a>.</li>
 
-  <li>Be sure to copy the <code>_nds</code> folder from the <code>for SD card root</code>
-  folder to the sd card.</li>
+  <li>Be sure to copy the <code class="notranslate">_nds</code> folder from the <code
+  class="notranslate">for SD card root</code> folder to the sd card.</li>
 
   </ul>
 
@@ -46,14 +46,14 @@ update_notes: '<p dir="auto">Requires full CFW via Rosalina (b9s+luma3ds)</p>
   <ul dir="auto">
 
   <li>Custom dsiware banners! They must be named the same as the nds file. If your
-  nds file is <code>Jamal''s Home Cooking.nds</code> your custom banner should be
-  <code>Jamal''s Home Cooking.bin</code>.  Custom banners can be located with the
-  nds file or in <code>/3ds/forwarder/banners/</code></li>
+  nds file is <code class="notranslate">Jamal''s Home Cooking.nds</code> your custom
+  banner should be <code class="notranslate">Jamal''s Home Cooking.bin</code>.  Custom
+  banners can be located with the nds file or in <code class="notranslate">/3ds/forwarder/banners/</code></li>
 
   <li>Custom Icons! They must be 4bit bmps and be named the same as the nds file.
-  If your nds file is <code>Jamal''s Home Cooking.nds</code> your custom icon should
-  be <code>Jamal''s Home Cooking.bmp</code>.  Custom icons can be located with the
-  nds file or in <code>/3ds/forwarder/icons/</code></li>
+  If your nds file is <code class="notranslate">Jamal''s Home Cooking.nds</code> your
+  custom icon should be <code class="notranslate">Jamal''s Home Cooking.bmp</code>.  Custom
+  icons can be located with the nds file or in <code class="notranslate">/3ds/forwarder/icons/</code></li>
 
   <li>Auto Random TID.  This allows separate forwarders for romhacks that dont change
   TIDs</li>

@@ -27,7 +27,8 @@ prerelease:
 
     <li>Fixed ARGV support.</li>
 
-    <li>Corrected remaining instance of <code>PicoDriveDS</code> to <code>PicoDriveTWL</code>.</li>
+    <li>Corrected remaining instance of <code class="notranslate">PicoDriveDS</code>
+    to <code class="notranslate">PicoDriveTWL</code>.</li>
 
     </ul>'
   update_notes_md: '**Bug fixes**
@@ -48,7 +49,8 @@ update_notes: '<p dir="auto"><strong>Bug fixes</strong></p>
 
   <li>Fixed ARGV support.</li>
 
-  <li>Corrected remaining instance of <code>PicoDriveDS</code> to <code>PicoDriveTWL</code>.</li>
+  <li>Corrected remaining instance of <code class="notranslate">PicoDriveDS</code>
+  to <code class="notranslate">PicoDriveTWL</code>.</li>
 
   </ul>'
 updated: '2020-04-14T06:08:48Z'

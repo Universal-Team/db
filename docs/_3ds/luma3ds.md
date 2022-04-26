@@ -32,7 +32,7 @@ update_notes: '<ul dir="auto">
   <li>Add more detailed battery percentage, plus battery voltage and temperature</li>
 
   <li>Add an option to dump the DSP firmware from Home Menu, effectively making programs
-  like <code>DSP1</code> obsolete</li>
+  like <code class="notranslate">DSP1</code> obsolete</li>
 
   <li>Split NTP and user time offset nullification. This means two things:
 
@@ -42,9 +42,9 @@ update_notes: '<ul dir="auto">
   after using the feature anymore (although Home Menu might not always immmediately
   display the new time -- just open and close an application in that case)</li>
 
-  <li>Programs like <code>ctr-no-timeoffset</code> should not be needed anymore. Also,
-  even if 3ds.hacks.guide recommends it and GodMode9 mandates it, time offset nullification
-  should <em>not</em> be done</li>
+  <li>Programs like <code class="notranslate">ctr-no-timeoffset</code> should not
+  be needed anymore. Also, even if 3ds.hacks.guide recommends it and GodMode9 mandates
+  it, time offset nullification should <em>not</em> be done</li>
 
   </ul>
 
@@ -55,8 +55,8 @@ update_notes: '<ul dir="auto">
   rebooting</li>
 
   <li>Do not initialize the screens in the very common case the user has only one
-  payload in the <code>/luma/payloads</code> folder, effectively working around a
-  long-standing bug</li>
+  payload in the <code class="notranslate">/luma/payloads</code> folder, effectively
+  working around a long-standing bug</li>
 
   <li>Fix reading emuNAND sector 0 for RedNAND and Gateway-style emuNAND (<a class="issue-link
   js-issue-link" data-error-text="Failed to load title" data-id="1036563625" data-permission-text="Title
