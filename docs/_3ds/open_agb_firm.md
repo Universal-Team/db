@@ -11,10 +11,10 @@ description: open_agb_firm is a bare metal app for running GBA homebrew/games us
   the 3DS builtin GBA hardware.
 download_page: https://github.com/profi200/open_agb_firm/releases
 downloads:
-  open_agb_firm_alpha_20211224.7z:
-    size: 174956
-    size_str: 170 KiB
-    url: https://github.com/profi200/open_agb_firm/releases/download/alpha_2021-12-24/open_agb_firm_alpha_20211224.7z
+  open_agb_firm_alpha_20220425.7z:
+    size: 175207
+    size_str: 171 KiB
+    url: https://github.com/profi200/open_agb_firm/releases/download/alpha_2022-4-25/open_agb_firm_alpha_20220425.7z
 github: profi200/open_agb_firm
 icon_index: 142
 image: https://avatars.githubusercontent.com/u/7831477?v=4
@@ -30,27 +30,31 @@ update_notes: '<p dir="auto">This is a build from the master branch for the impa
 
   <ul dir="auto">
 
-  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/b09e3a0eeebc3fc494df6a8c98da55573df7b3c3/hovercard"
-  href="https://github.com/profi200/open_agb_firm/commit/b09e3a0eeebc3fc494df6a8c98da55573df7b3c3"><tt>b09e3a0</tt></a>
-  Increased file browser entry limit to 1000 per folder(the real limit depends on
-  the average file name length of all files).</li>
+  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/9756e2eafcfe1a881ccebe8bf13fda4b8fb2122c/hovercard"
+  href="https://github.com/profi200/open_agb_firm/commit/9756e2eafcfe1a881ccebe8bf13fda4b8fb2122c"><tt>9756e2e</tt></a>
+  Added configurable scaling so only 1 build is needed instead of one per scaling
+  method. See the <a href="https://github.com/profi200/open_agb_firm/blob/master/README.md#video">README</a>
+  on how to configure this.</li>
 
-  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/37f3df4a522e8fcda23b8ee5e4a073b6febf2172/hovercard"
-  href="https://github.com/profi200/open_agb_firm/commit/37f3df4a522e8fcda23b8ee5e4a073b6febf2172"><tt>37f3df4</tt></a>
-  Autoboot support has been added. Place <code>autoboot.txt</code> in <code>/3ds/open_agb_firm</code>
-  containing the ROM path in a single line. Example path: <code>sdmc:/rom.gba</code></li>
+  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/a9fcf853bb2b21623f528ac23675c8af05180297/hovercard"
+  href="https://github.com/profi200/open_agb_firm/commit/a9fcf853bb2b21623f528ac23675c8af05180297"><tt>a9fcf85</tt></a>
+  Fixed the missing newline in the default config.ini.</li>
 
-  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/247cb19cb5cb0722edea7fc1cdb0681743989541/hovercard"
-  href="https://github.com/profi200/open_agb_firm/commit/247cb19cb5cb0722edea7fc1cdb0681743989541"><tt>247cb19</tt></a>
-  All savegames and per-game configs are now stored under <code>/3ds/open_agb_firm/saves</code>.</li>
+  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/782596facd41a6e9e5e9018b34b8dfbb4788deec/hovercard"
+  href="https://github.com/profi200/open_agb_firm/commit/782596facd41a6e9e5e9018b34b8dfbb4788deec"><tt>782596f</tt></a>
+  firmtool support was added to the build system thanks to <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Midnoclose/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Midnoclose">@Midnoclose</a>.</li>
 
-  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/15cf1bffd5ac186c2301f30f46ff2b1940b1c947/hovercard"
-  href="https://github.com/profi200/open_agb_firm/commit/15cf1bffd5ac186c2301f30f46ff2b1940b1c947"><tt>15cf1bf</tt></a>
-  Per game config support has been added and with it multiple savegame slot support
-  (up to 10). Currently this is the only officially supported config option for games.
-  Place <code>romName.ini</code> (replace romName with the ROM file name) in <code>/3ds/open_agb_firm/saves</code>.
-  See the <a href="https://github.com/profi200/open_agb_firm#game">README</a> under
-  the Game section.</li>
+  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/2222e54f0fb8e981cd6fc4df216b058b0974f07f/hovercard"
+  href="https://github.com/profi200/open_agb_firm/commit/2222e54f0fb8e981cd6fc4df216b058b0974f07f"><tt>2222e54</tt></a>
+  Fixed a bug that may cause the file browser not to display all 1000 files.</li>
+
+  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/profi200/open_agb_firm/commit/4a6603d1104587fd7682854b794697c08f3f8a35/hovercard"
+  href="https://github.com/profi200/open_agb_firm/commit/4a6603d1104587fd7682854b794697c08f3f8a35"><tt>4a6603d</tt></a>
+  Added day of week calculation for the GBA RTC.</li>
+
+  <li>Other non-user facing improvements/fixes.</li>
 
   </ul>
 
@@ -71,8 +75,8 @@ update_notes: '<p dir="auto">This is a build from the master branch for the impa
   This works most of the time. This is due to a hard to track down bug and will be
   fixed later.</p>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/profi200/open_agb_firm/compare/alpha_2021-12-9...alpha_2021-12-24"><tt>alpha_2021-12-9...alpha_2021-12-24</tt></a></p>'
-updated: '2021-12-24T14:52:47Z'
-version: alpha_2021-12-24
-version_title: open_agb_firm alpha build 2021-12-24
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/profi200/open_agb_firm/compare/alpha_2021-12-24...alpha_2022-4-25"><tt>alpha_2021-12-24...alpha_2022-4-25</tt></a></p>'
+updated: '2022-04-25T19:33:22Z'
+version: alpha_2022-4-25
+version_title: open_agb_firm alpha build 2022-4-25
 ---
