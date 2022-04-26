@@ -10,17 +10,17 @@ description: A clone of Wordle for the Nintendo DS(i)
 download_page: https://github.com/Epicpkmn11/WordleDS/releases
 downloads:
   WordleDS.cia:
-    size: 1207488
+    size: 1355968
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.4.0/WordleDS.cia
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.0.0/WordleDS.cia
   WordleDS.dsi:
-    size: 1192896
+    size: 1341376
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.4.0/WordleDS.dsi
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.0.0/WordleDS.dsi
   WordleDS.nds:
-    size: 1192896
+    size: 1341376
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v1.4.0/WordleDS.nds
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.0.0/WordleDS.nds
 github: Epicpkmn11/WordleDS
 icon: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
 icon_index: 199
@@ -49,31 +49,43 @@ update_notes: '<h3 dir="auto">What''s new</h3>
 
   <ul dir="auto">
 
-  <li>Adds background music
+  <li>Wordle DS now supports loading simple user created mods!
 
   <ul dir="auto">
 
-  <li>An original composition for Wordle DS by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/RocketRobz/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/RocketRobz">@RocketRobz</a></li>
+  <li>See <a href="https://github.com/Epicpkmn11/WordleDS/wiki/Modding">the modding
+  wiki page</a> for more information</li>
 
-  <li>Alternatively, you can supply a custom song as <code>WordleDS.msl</code> in
-  the same folder as <code>WordleDS.json</code>
+  <li>Mods can be downloaded from Universal-Updater or a web page in this repo, as
+  explained on the wiki page linked above</li>
 
-  <ul dir="auto">
-
-  <li>Custom songs must be module files, ex. from <a href="https://modarchive.org"
-  rel="nofollow">The Mod Archive</a>, and be converted as described in the <a href="https://github.com/Epicpkmn11/WordleDS#customizing">README</a></li>
+  <li>Currently there is only a "Wordle (ES)" (Spanish) mod made by me as an example,
+  however I''ve made <a href="https://github.com/Epicpkmn11/WordleDS/discussions/12">a
+  mod sharing discussion</a> so if anyone makes any please share them and they can
+  be added to the repo for easy downloading</li>
 
   </ul>
 
   </li>
 
-  <li>Music can also be disabled from settings</li>
+  <li>Statistics, settings, music, etc have been moved to <code>sd:/_nds/WordleDS</code>
+
+  <ul dir="auto">
+
+  <li>When loading this version for the first time your old files should be imported
+  automatically</li>
+
+  <li>The <code>WordleDS.txt</code> is now found at <code>sd:/_nds/WordleDS/[mod folder]/share.txt</code>
+  (for the base game, <code>[mod folder]</code> will be <code>Wordle DS</code>)</li>
 
   </ul>
 
   </li>
+
+  <li>There is now a fade to/from white effect when opening/closing Wordle DS</li>
+
+  <li>The board state will now be saved after each guess, allowing closing the app
+  without progress loss</li>
 
   </ul>
 
@@ -85,12 +97,12 @@ update_notes: '<h3 dir="auto">What''s new</h3>
   while the <code>.nds</code> build doesn''t so it works on flashcards. The <code>.cia</code>
   build can be used to install to the 3DS HOME Menu, here''s a QR:</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/163914025-85704900-de4c-4095-9c8a-0f419c9e5878.png"><img
-  src="https://user-images.githubusercontent.com/41608708/163914025-85704900-de4c-4095-9c8a-0f419c9e5878.png"
-  alt="QR for WordleDS.cia" style="max-width: 100%;"></a></p>'
-updated: '2022-04-19T03:25:15Z'
-version: v1.4.0
-version_title: Background music
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/165210022-0c8bda03-f9c5-4071-ad4c-d6268c754275.png"><img
+  src="https://user-images.githubusercontent.com/41608708/165210022-0c8bda03-f9c5-4071-ad4c-d6268c754275.png"
+  alt="QR code for WordleDS.cia" style="max-width: 100%;"></a></p>'
+updated: '2022-04-26T02:52:32Z'
+version: v2.0.0
+version_title: Mod support
 wiki: https://github.com/Epicpkmn11/WordleDS/wiki
 ---
 A clone of [Wordle](https://www.nytimes.com/games/wordle/index.html) for the Nintendo DS(i). It features the same word each day as the official Wordle and has most of the same features including statistics tracking, high contrast and hard mode options, and even sharable emoji grid via QR code or txt file. Also featuring custom original background music by Rocket Robz.
