@@ -12,21 +12,21 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1105920
+    size: 1177088
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.9/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.0/ColecoDS.nds
   README.md:
-    size: 24423
+    size: 24575
     size_str: 23 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.9/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.0/README.md
   blank.cas:
     size: 1
     size_str: 1 Byte
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.9/blank.cas
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.0/blank.cas
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/6.9/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.0/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 195
@@ -37,17 +37,20 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V6.9: 24-Apr-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V7.0: 27-Apr-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Much improved Tatung Einstein support. More than 50 games now run correctly.
-  See readme.md for details.</li>
+  <li>Added CreatiVision emulation support with m6502 CPU core.</li>
+
+  <li>Coleco EEPROM support for Boxxle, Black Onyx, etc.</li>
+
+  <li>More definable keys for MSX emulation.</li>
 
   <li>Minor cleanups as time permitted.</li>
 
   </ul>'
-updated: '2022-04-24T13:12:41Z'
-version: '6.9'
-version_title: Version 6.9
+updated: '2022-04-27T15:08:39Z'
+version: '7.0'
+version_title: Version 7.0
 ---
