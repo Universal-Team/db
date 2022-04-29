@@ -423,6 +423,8 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <li>Clicking an empty hero slot will crash the game</li>
 
+  <li>Xbo/s: Missing translation files (download and add <a href="https://github.com/diasurgical/devilutionx-assets/releases/download/v2/devilutionx.mpq">devilutionx.mpq</a>)</li>
+
   </ul>'
 updated: '2022-04-13T21:12:43Z'
 version: 1.4.0
