@@ -1,5 +1,6 @@
 ---
 author: Pk11
+autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/41608708?v=4
 categories:
 - game
