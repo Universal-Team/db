@@ -14,19 +14,19 @@ downloads:
   ColecoDS.nds:
     size: 1177088
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.0/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.1/ColecoDS.nds
   README.md:
-    size: 24575
-    size_str: 23 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.0/README.md
+    size: 25058
+    size_str: 24 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.1/README.md
   blank.cas:
     size: 1
     size_str: 1 Byte
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.0/blank.cas
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.1/blank.cas
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.0/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.1/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 195
@@ -37,20 +37,18 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V7.0: 27-Apr-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V7.1: 1-May-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Added CreatiVision emulation support with m6502 CPU core.</li>
+  <li>Fixed PV-2000 driver (broken in 7.0).</li>
 
-  <li>Coleco EEPROM support for Boxxle, Black Onyx, etc.</li>
-
-  <li>More definable keys for MSX emulation.</li>
+  <li>Minor optimization for the CreatiVision to help on older DS-LITE/PHAT.</li>
 
   <li>Minor cleanups as time permitted.</li>
 
   </ul>'
-updated: '2022-04-27T15:08:39Z'
-version: '7.0'
-version_title: Version 7.0
+updated: '2022-05-01T13:04:56Z'
+version: '7.1'
+version_title: Version 7.1
 ---
