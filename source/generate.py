@@ -21,6 +21,7 @@ from requests.utils import requote_uri
 from shutil import copyfile
 from textwrap import shorten
 from typing import Tuple
+from unidecode import unidecode
 from unistore import StoreEntry, UniStore
 
 DOWNLOAD_BLACKLIST = r"(\.3ds$|\.apk|\.appimage|\.dmg|\.exe|\.ipa|\.love|\.nro|\.opk|\.pkg|\.smdh|\.vpk|\.xz|armhf|elf|linux|macos|osx|PS3|PSP|switch|ubuntu|vita|wii|win|x86_64|xbox)"
@@ -29,7 +30,7 @@ DOWNLOAD_BLACKLIST = r"(\.3ds$|\.apk|\.appimage|\.dmg|\.exe|\.ipa|\.love|\.nro|\
 def webName(name: str) -> str:
 	"""Convert names to lowercase alphanumeric, underscore, and hyphen"""
 
-	name = name.lower()
+	name = unidecode(name).lower()
 	out = ""
 	for letter in name:
 		if letter in "abcdefghijklmnopqrstuvwxyz0123456789-_":
