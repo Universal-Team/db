@@ -14,10 +14,12 @@ layout: compress
 		{% assign apps = site["3ds"] | uniq | sort: "updated" | reverse %}
 		{% for app in apps limit: 8 %}
 			<item>
-				<title>{{ app.title }} updated to {{ app.version | default: "new version" }}</title>
-				<link>
-					{{ app.url | absolute_url | remove: ".html" }}
-				</link>
+				{% if app.version == nil or app.version == "v1.0.0" %}
+					<title>{{ app.title }} {{ app.version }} released</title>
+				{% else %}
+					<title>{{ app.title }} updated to {{ app.version }}</title>
+				{% endif %}
+				<link>{{ app.url | absolute_url | remove: ".html" }}</link>
 				<description>
 					&lt;h1&gt;{{ app.version }}{% if app.version_title and app.version_title != app.version %} - {{ app.version_title }}{% endif %}&lt;/h1&gt;
 					{% if app.update_notes %}
@@ -27,9 +29,7 @@ layout: compress
 				</description>
 				<author>{{ app.author }}</author>
 				<pubDate>{{ app.updated | date_to_rfc822 }}</pubDate>
-				<guid isPermaLink="false">
-					{{ app.title }} - {{ app.version }}
-				</guid>
+				<guid isPermaLink="false">{{ app.title }} - {{ app.version }}</guid>
 				{% if app.image %}
 					<enclosure url="{{ app.image }}" length="{{ app.image_length }}" type="image/png"></enclosure>
 				{% endif %}
