@@ -12,7 +12,7 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1177088
+    size: 1179648
     size_str: 1 MiB
     url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.1/ColecoDS.nds
   README.md:
