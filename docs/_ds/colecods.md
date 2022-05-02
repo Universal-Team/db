@@ -45,6 +45,10 @@ update_notes: '<p dir="auto">V7.1: 1-May-2022 by wavemotion-dave</p>
 
   <li>Minor optimization for the CreatiVision to help on older DS-LITE/PHAT.</li>
 
+  <li>Fixed SG-1000 bootlegs from Taiwan (some of them at least work).</li>
+
+  <li>Added MTX F1-F8 as mappable keys.</li>
+
   <li>Minor cleanups as time permitted.</li>
 
   </ul>'
