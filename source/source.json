@@ -4793,5 +4793,125 @@
 				"size": 226816
 			}
 		}
+	},
+	{
+		"github": "MegaPika/SatellaZone",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"icon": "https://satellazone.neocities.org/universallogo.png",
+		"description": "A Nintendo Zone Revival for the 3DS.",
+		"long_description": "Satella Zone is a Nintendo Zone Revival for the Nintendo 3DS.\nCredits :\n\nMegaPika (Me) for working a lot lol\nCooolgamer for A LOT OF THINGS\nGhost64 for debug/credit pages + other things\nBostonSix for some images\nSudocraft for the SatellaZone logo\nBraden Yes for retalking about revive Nintendo Zone\nEnvy for research about Nintendo Zone\nJeremKO for beta testing",
+		"website": "https://satellazone.neocities.org/",
+		"scripts": {
+			"EUR": [
+				{
+					"type": "downloadRelease",
+					"repo": "MegaPika/SatellaZone",
+					"file": "SatellaZone.zip",
+					"output": "/SatellaZone.zip"
+				},
+				{
+					"type": "extractFile",
+					"file": "/SatellaZone.zip",
+					"input": "",
+					"output": "/luma/titles/0004001000022B00/"
+				},
+{
+					"type": "deleteFile",
+					"file": "/SatellaZone.zip"
+				}
+			],
+			"USA": [
+				{
+					"type": "downloadRelease",
+					"repo": "MegaPika/SatellaZone",
+					"file": "SatellaZone.zip",
+					"output": "/SatellaZone.zip"
+				},
+				{
+					"type": "extractFile",
+					"file": "/SatellaZone.zip",
+					"input": "",
+					"output": "/luma/titles/0004001000021B00/"
+				},
+{
+					"type": "deleteFile",
+					"file": "/SatellaZone.zip"
+				}
+			],
+			"JPN": [
+				{
+					"type": "downloadRelease",
+					"repo": "MegaPika/SatellaZone",
+					"file": "SatellaZone.zip",
+					"output": "/SatellaZone.zip"
+				},
+				{
+					"type": "extractFile",
+					"file": "/SatellaZone.zip",
+					"input": "",
+					"output": "/luma/titles/0004001000020B00/"
+				},
+{
+					"type": "deleteFile",
+					"file": "/SatellaZone.zip"
+				}
+			],
+			"[lite] EUR": [
+				{
+					"type": "downloadRelease",
+					"repo": "MegaPika/SatellaZone",
+					"file": "SatellaZone-Lite.zip",
+					"output": "/SatellaZone-Lite.zip"
+				},
+				{
+					"type": "extractFile",
+					"file": "/SatellaZone-Lite.zip",
+					"input": "",
+					"output": "/luma/titles/0004001000022B00/"
+				},
+{
+					"type": "deleteFile",
+					"file": "/SatellaZone-Lite.zip"
+				}
+			],
+			"[lite] USA": [
+				{
+					"type": "downloadRelease",
+					"repo": "MegaPika/SatellaZone",
+					"file": "SatellaZone-Lite.zip",
+					"output": "/SatellaZone-Lite.zip"
+				},
+				{
+					"type": "extractFile",
+					"file": "/SatellaZone-Lite.zip",
+					"input": "",
+					"output": "/luma/titles/0004001000021B00/"
+				},
+{
+					"type": "deleteFile",
+					"file": "/SatellaZone-Lite.zip"
+				}
+			],
+			"[lite] JPN": [
+				{
+					"type": "downloadRelease",
+					"repo": "MegaPika/SatellaZone",
+					"file": "SatellaZone-Lite.zip",
+					"output": "/SatellaZone-Lite.zip"
+				},
+				{
+					"type": "extractFile",
+					"file": "/SatellaZone-Lite.zip",
+					"input": "",
+					"output": "/luma/titles/0004001000020B00/"
+				},
+{
+					"type": "deleteFile",
+					"file": "/SatellaZone-Lite.zip"
+				}
+			]
+		}
+
 	}
 ]
