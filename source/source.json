@@ -4795,6 +4795,46 @@
 		}
 	},
 	{
+		"github": "LopezTutoriales/GodMode9_ESP",
+		"title": "GodMode9 En Español",
+		"systems": ["3DS"],
+		"categories": ["utility", "firm"],
+		"long_description": "GodMode9 es un navegador de archivos de acceso completo para la consola Nintendo 3DS, que le brinda acceso a su tarjeta SD, a las particiones FAT dentro de su SysNAND y EmuNAND y básicamente a cualquier otra cosa. Entre otras funciones, puede copiar, eliminar, renombrar archivos y crear carpetas.",
+		"scripts": {
+			"GodMode9.firm": [
+				{
+					"type": "downloadRelease",
+					"repo": "d0k3/GodMode9",
+					"file": "GodMode9.*\\.zip",
+					"output": "/GodMode9.zip"
+				},
+				{
+					"type": "extractFile",
+					"file": "/GodMode9.zip",
+					"input": "GodMode9.firm$",
+					"output": "%FIRM%/GodMode9.firm"
+				},
+				{
+					"type": "extractFile",
+					"file": "/GodMode9.zip",
+					"input": "gm9/",
+					"output": "/gm9/"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/GodMode9.zip"
+				}
+			]
+		}
+	},
+	{
+		"github": "LopezTutoriales/FBI-Spanish",
+		"title": "FBI En Español",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"long_description": "### Características\n\n- Explore y modifique la tarjeta SD, las fotos TWL, los sonidos TWL, guarde datos y ext guarde datos.\n\n- Exporte, importe y borre datos guardados de cartuchos DS.\n\n- Exporte, importe y elimine valores seguros de datos guardados.\n\n- Instale títulos/boletos desde un sistema de archivos, a través de una red local o a través de Internet con una URL o un código QR.\n\n> Se importan automáticamente las semillas del título en la instalación, ya sea desde Internet o desde la tarjeta SD.\n\n- Explore y elimine títulos pendientes (actualizaciones descargadas, títulos de eShop en curso, etc.).\n\n- Personalice la apariencia colocando reemplazos para los recursos de RomFS en "sdmc:/fbi/theme/".\n\n-  Solo disponible cuando se ejecuta desde CIA, 3DS o 3DSX bajo Luma3DS:\n\n> Explore y modifique CTR NAND, TWL NAND y datos guardados del sistema.\n\n> Vuelque la NAND original sin procesar en la tarjeta SD.\n\n> Inicie títulos instalados en el sistema."
+	},
+	{
 		"github": "MegaPika/SatellaZone",
 		"systems": ["3DS"],
 		"categories": ["utility"],
