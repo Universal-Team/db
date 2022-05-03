@@ -70,13 +70,14 @@ version_title: V1
 website: https://satellazone.neocities.org/
 ---
 Satella Zone is a Nintendo Zone Revival for the Nintendo 3DS.
+
 Credits :
 
-MegaPika (Me) for working a lot lol
-Cooolgamer for A LOT OF THINGS
-Ghost64 for debug/credit pages + other things
-BostonSix for some images
-Sudocraft for the SatellaZone logo
-Braden Yes for retalking about revive Nintendo Zone
-Envy for research about Nintendo Zone
-JeremKO for beta testing
+-MegaPika (Me) for working a lot lol
+-Cooolgamer for A LOT OF THINGS
+-Ghost64 for debug/credit pages + other things
+-BostonSix for some images
+-Sudocraft for the SatellaZone logo
+-Braden Yes for retalking about revive Nintendo Zone
+-Envy for research about Nintendo Zone
+-JeremKO for beta testing
