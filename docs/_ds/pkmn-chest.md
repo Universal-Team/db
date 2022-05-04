@@ -113,8 +113,7 @@ update_notes: '<blockquote>
 
   <li>Fixed the kerning on some characters in the font</li>
 
-  <li>Fixed Korean being called <code class="notranslate">한국</code> instead of <code
-  class="notranslate">한국어</code></li>
+  <li>Fixed Korean being called <code>한국</code> instead of <code>한국어</code></li>
 
   <li>Fixed TM/HM pocket being called Poké Balls</li>
 

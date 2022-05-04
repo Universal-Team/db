@@ -80,8 +80,8 @@ update_notes: '<h2 dir="auto">This is the fourth release of LeafEdit-Pattern-Edi
 
   <li>
 
-  <p dir="auto">Support for playing a <code class="notranslate">.wav</code> file.
-  (For more look at the ReadMe).</p>
+  <p dir="auto">Support for playing a <code>.wav</code> file. (For more look at the
+  ReadMe).</p>
 
   </li>
 

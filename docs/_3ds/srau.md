@@ -91,8 +91,7 @@ update_notes: '<p dir="auto">This release mostly adds in a lot of missing error 
   <li>Loads and loads. Really, I''ve rewritten about 90% of the program logic except
   for the ctrulib function calls themselves.</li>
 
-  <li>No more if blocks. The entirety of the state machine is now handled with a <code
-  class="notranslate">switch</code>.</li>
+  <li>No more if blocks. The entirety of the state machine is now handled with a <code>switch</code>.</li>
 
   <li>Got rid of editprofile.c completely and split it up into various functions inside
   save.c with lowid selection getting moved to title.c.</li>

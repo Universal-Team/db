@@ -37,9 +37,8 @@ systems:
 - 3DS
 title: BCSTM-Player
 update_notes: <p dir="auto">This is the first Version of BCSTM-Player. I'll add some
-  stuff in future. Currently you can Play <code class="notranslate">.bcstm</code>
-  files. The Filebrowser is optimized to search <code class="notranslate">.bcstm</code>
-  files only. Have Fun.</p>
+  stuff in future. Currently you can Play <code>.bcstm</code> files. The Filebrowser
+  is optimized to search <code>.bcstm</code> files only. Have Fun.</p>
 updated: '2021-04-03T04:21:46Z'
 version: 1.0.0
 version_title: Version 1.0.0

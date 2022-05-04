@@ -30,7 +30,7 @@ update_notes: '<h3 dir="auto">Usage:</h3>
 
   <ol dir="auto">
 
-  <li>copy <code class="notranslate">TWLFix-CFW.3dsx</code>  to <code class="notranslate">SD:/3ds/</code></li>
+  <li>copy <code>TWLFix-CFW.3dsx</code>  to <code>SD:/3ds/</code></li>
 
   <li>open homebrew launcher</li>
 
@@ -46,7 +46,7 @@ update_notes: '<h3 dir="auto">Usage:</h3>
 
   </li>
 
-  <li>go to <code class="notranslate">settings -&gt; other settings -&gt; system update</code></li>
+  <li>go to <code>settings -&gt; other settings -&gt; system update</code></li>
 
   </ol>'
 updated: '2021-09-17T03:18:23Z'

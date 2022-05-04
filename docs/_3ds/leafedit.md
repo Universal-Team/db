@@ -140,8 +140,8 @@ update_notes: '<h1 dir="auto">After like 75% of this year, another release is th
 
   <ul dir="auto">
 
-  <li>Changed mainpath to <code class="notranslate">sdmc:/3ds/LeafEdit/</code>, so
-  move your stuff there before updating.</li>
+  <li>Changed mainpath to <code>sdmc:/3ds/LeafEdit/</code>, so move your stuff there
+  before updating.</li>
 
   <li>Changed LeafEdit completely.</li>
 

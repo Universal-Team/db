@@ -48,11 +48,11 @@ update_notes: '<h1 dir="auto">About 3GX plugins</h1>
 
   <ul dir="auto">
 
-  <li><code class="notranslate">sd:/luma/plugins/&lt;TITLEID&gt;/&lt;filename&gt;.3gx</code>
-  to set a plugin for a specified title (higher priority)</li>
+  <li><code>sd:/luma/plugins/&lt;TITLEID&gt;/&lt;filename&gt;.3gx</code> to set a
+  plugin for a specified title (higher priority)</li>
 
-  <li><code class="notranslate">sd:/luma/plugins/default.3gx</code> to set a plugin
-  which would be loaded for all games (lower priority)</li>
+  <li><code>sd:/luma/plugins/default.3gx</code> to set a plugin which would be loaded
+  for all games (lower priority)</li>
 
   </ul>
 

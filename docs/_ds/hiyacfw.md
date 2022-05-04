@@ -31,9 +31,8 @@ systems:
 - DS
 title: hiyaCFW
 unistore_exclude: true
-update_notes: '<p dir="auto">To update, just replace <code class="notranslate">hiya.dsi</code>
-  on the SD root, with the one from the 7z file, in <code class="notranslate">for
-  SDNAND SD card</code>.</p>
+update_notes: '<p dir="auto">To update, just replace <code>hiya.dsi</code> on the
+  SD root, with the one from the 7z file, in <code>for SDNAND SD card</code>.</p>
 
   <p dir="auto"><strong>What''s new?</strong></p>
 
