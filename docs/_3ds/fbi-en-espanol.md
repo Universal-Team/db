@@ -22,7 +22,7 @@ downloads:
     size_str: 4 MiB
     url: https://github.com/LopezTutoriales/FBI-Spanish/releases/download/2.6.1/FBI_ESP.zip
 github: LopezTutoriales/FBI-Spanish
-icon_index: -1
+icon_index: 211
 image: https://db.universal-team.net/assets/images/images/fbi-en-espanol.png
 image_length: 266
 layout: app

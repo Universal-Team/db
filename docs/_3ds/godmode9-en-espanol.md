@@ -16,7 +16,7 @@ downloads:
     size_str: 2 MiB
     url: https://github.com/LopezTutoriales/GodMode9_ESP/releases/download/v2.1.1/GodMode9-2.1.1-ESP.zip
 github: LopezTutoriales/GodMode9_ESP
-icon_index: -1
+icon_index: 210
 image: https://db.universal-team.net/assets/images/images/godmode9-en-espanol.png
 image_length: 39746
 layout: app

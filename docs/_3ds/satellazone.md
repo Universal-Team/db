@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/MegaPika/SatellaZone/releases/download/SatellaZone/SatellaZone.zip
 github: MegaPika/SatellaZone
 icon: https://satellazone.neocities.org/universallogo.png
-icon_index: -1
+icon_index: 212
 image: https://satellazone.neocities.org/universallogo.png
 image_length: 1431
 layout: app
