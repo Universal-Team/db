@@ -70,13 +70,11 @@ update_notes: '<h3 dir="auto">Bug fixes</h3>
 
   <hr>
 
-  <p dir="auto"><code class="notranslate">WordleDS.nds</code> and <code class="notranslate">WordleDS.dsi</code>
-  are identical except that the <code class="notranslate">.dsi</code> build has a
-  title ID so it can be installed using <a href="https://github.com/JeffRuLz/TMFH/releases">TMFH</a>
-  or <a href="https://github.com/Epicpkmn11/NTM/releases">NTM</a> while the <code
-  class="notranslate">.nds</code> build doesn''t so it works on flashcards. The <code
-  class="notranslate">.cia</code> build can be used to install to the 3DS HOME Menu,
-  here''s a QR:</p>
+  <p dir="auto"><code>WordleDS.nds</code> and <code>WordleDS.dsi</code> are identical
+  except that the <code>.dsi</code> build has a title ID so it can be installed using
+  <a href="https://github.com/JeffRuLz/TMFH/releases">TMFH</a> or <a href="https://github.com/Epicpkmn11/NTM/releases">NTM</a>
+  while the <code>.nds</code> build doesn''t so it works on flashcards. The <code>.cia</code>
+  build can be used to install to the 3DS HOME Menu, here''s a QR:</p>
 
   <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/165682059-3e8a1943-d389-4191-941e-a66764b13e26.png"><img
   src="https://user-images.githubusercontent.com/41608708/165682059-3e8a1943-d389-4191-941e-a66764b13e26.png"
