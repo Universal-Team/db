@@ -53,7 +53,8 @@ update_notes: '<p dir="auto">What''s new?</p>
 
   <li>A NDS Version has been developed! (Yeah, you can use it on DS(i) now as well!)</li>
 
-  <li>[3DS] Add Music Playback (put a <code>music.wav</code> to <code>sdmc:/3ds/PKCount/</code>)</li>
+  <li>[3DS] Add Music Playback (put a <code class="notranslate">music.wav</code> to
+  <code class="notranslate">sdmc:/3ds/PKCount/</code>)</li>
 
   </ul>
 

@@ -40,7 +40,7 @@ update_notes: '<h1 dir="auto">WARNING!!! WORLDS CREATED BEFORE RELEASE 0.4.0 WIL
   NOT WORK OR WILL HAVE TEXTURES SWICHED!</h1>
 
   <p dir="auto">-Default controls were changed, if you wish to change them, go to
-  <code>sd:/craftus_redesigned/options.ini</code></p>
+  <code class="notranslate">sd:/craftus_redesigned/options.ini</code></p>
 
   <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/68710005/100171600-963d1880-2ea5-11eb-8bb8-db6d13c6fdcd.png"><img
   src="https://user-images.githubusercontent.com/68710005/100171600-963d1880-2ea5-11eb-8bb8-db6d13c6fdcd.png"

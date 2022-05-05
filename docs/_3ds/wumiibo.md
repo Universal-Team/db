@@ -82,8 +82,9 @@ update_notes: '<p dir="auto">This is the fourth public release for wumiibo.<br>
   <li>WumiiboHelper is an easy to to use HB app. You can automatically download and
   install wumiibo from wumiibohelper.</li>
 
-  <li>WumiiboHelper has an option <code>Generate amiibos for a game</code> which can
-  be used to produce compatible amiibos for a compatible game right from your 3ds!<br>
+  <li>WumiiboHelper has an option <code class="notranslate">Generate amiibos for a
+  game</code> which can be used to produce compatible amiibos for a compatible game
+  right from your 3ds!<br>
 
   <em>Note: This app is not well tested, please open an issue if you encounter any
   error. Amiibos can also be generated manually by using this website:- <a href="https://hax0kartik.github.io/amiibo-generator/"
@@ -109,9 +110,9 @@ update_notes: '<p dir="auto">This is the fourth public release for wumiibo.<br>
   </ul>
 
   <p dir="auto">If you''re installing wumiibo for the first time, you can download
-  and run WumiiboHelper and select <code>Download Wumiibo</code> to download and install
-  wumiibo(once installed use the second option to generate amiibos) or you can follow
-  the manual installation steps <a href="https://github.com/hax0kartik/wumiibo#how-to-use">here</a><br>
+  and run WumiiboHelper and select <code class="notranslate">Download Wumiibo</code>
+  to download and install wumiibo(once installed use the second option to generate
+  amiibos) or you can follow the manual installation steps <a href="https://github.com/hax0kartik/wumiibo#how-to-use">here</a><br>
 
   As always special thanks to people on my discord server for helping me test wumiibo,
   wouldn''t be possible without you guys!</p>'

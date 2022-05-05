@@ -33,8 +33,8 @@ systems:
 - DS
 title: NitroHax3DS (usrcheat.dat)
 update_notes: '<p dir="auto">This is a fork of NitroHax3DS that loads cheats from
-  a <code>usrcheat.dat</code> file instead of <code>cheats.xml</code>. If you want
-  to use a cheats.xml, then use <a href="https://github.com/ahezard/NitroHax3DS/releases">ahezard/NitroHax3DS</a>.</p>
+  a <code class="notranslate">usrcheat.dat</code> file instead of <code class="notranslate">cheats.xml</code>.
+  If you want to use a cheats.xml, then use <a href="https://github.com/ahezard/NitroHax3DS/releases">ahezard/NitroHax3DS</a>.</p>
 
   <p dir="auto">See the README for <a href="https://github.com/Epicpkmn11/NitroHax3DS#usage-revised-for-dsi3ds-do-not-attempt-to-use-this-build-on-a-original-dsds-lite-use-chishms-original-build-instead">usage
   instructions</a>.</p>
@@ -54,12 +54,12 @@ update_notes: '<p dir="auto">This is a fork of NitroHax3DS that loads cheats fro
   <p dir="auto">If you don''t have a cheat database, I recommend using <a href="https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/"
   rel="nofollow">DeadSkullzJr''s</a>.</p>
 
-  <p dir="auto">Use <code>NitroHax-usrcheat.cia</code> to install to the 3DS HOME
-  Menu.<br>
+  <p dir="auto">Use <code class="notranslate">NitroHax-usrcheat.cia</code> to install
+  to the 3DS HOME Menu.<br>
 
-  Use <code>NitroHax.dsi</code> with TWiLight Menu++ or with <a href="https://github.com/JeffRuLz/TMFH/releases">TMFH</a>/<a
-  href="https://github.com/Epicpkmn11/NTM/releases">NTM</a> to install to the DSi
-  Menu.</p>
+  Use <code class="notranslate">NitroHax.dsi</code> with TWiLight Menu++ or with <a
+  href="https://github.com/JeffRuLz/TMFH/releases">TMFH</a>/<a href="https://github.com/Epicpkmn11/NTM/releases">NTM</a>
+  to install to the DSi Menu.</p>
 
   <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/155246853-533de731-0e0e-47f0-986a-7c009961f665.png"><img
   src="https://user-images.githubusercontent.com/41608708/155246853-533de731-0e0e-47f0-986a-7c009961f665.png"

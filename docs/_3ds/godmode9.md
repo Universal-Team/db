@@ -56,10 +56,10 @@ update_notes: '<p dir="auto">Is it really that time of the year again? Six years
 
   (This may be the last time I tell you how to in the release notes, so please remember)
   You wouldn''t believe how often we get that question when we do a new release. It''s
-  actually very simple: Just replace <code>GodMode9.firm</code> on your SD card with
-  the file found in the release ZIP. You may also want to update scripts, which are
-  found in the <code>./gm9</code> folder inside the archive and go to the same folder
-  on your SD card.</p>
+  actually very simple: Just replace <code class="notranslate">GodMode9.firm</code>
+  on your SD card with the file found in the release ZIP. You may also want to update
+  scripts, which are found in the <code class="notranslate">./gm9</code> folder inside
+  the archive and go to the same folder on your SD card.</p>
 
   <p dir="auto"><strong>Special thanks</strong><br>
 

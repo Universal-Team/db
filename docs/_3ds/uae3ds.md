@@ -45,10 +45,10 @@ update_notes: '<p dir="auto">This is the first (hopefully) stable version of uae
 
   <li>Move all save state files to directory /3ds/uae3DS/save/ on your SD card</li>
 
-  <li>Rename the files to <code>&lt;ADF file name&gt;-&lt;NR&gt;.asf</code> where
-  <code>&lt;ADF file name&gt;</code> is the name of the disc image in drive DF0 at
-  the time of writing the state file and <code>&lt;NR&gt;</code> is the save state
-  number (0 - 3), e.g. <code>Chaos Engine, The_Disk1.adf-0.asf</code></li>
+  <li>Rename the files to <code class="notranslate">&lt;ADF file name&gt;-&lt;NR&gt;.asf</code>
+  where <code class="notranslate">&lt;ADF file name&gt;</code> is the name of the
+  disc image in drive DF0 at the time of writing the state file and <code class="notranslate">&lt;NR&gt;</code>
+  is the save state number (0 - 3), e.g. <code class="notranslate">Chaos Engine, The_Disk1.adf-0.asf</code></li>
 
   </ol>
 

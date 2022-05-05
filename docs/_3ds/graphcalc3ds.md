@@ -34,9 +34,9 @@ title: GraphCalc3DS
 update_notes: '<p dir="auto">Small release to fix a bug in version 1.5. The bug was
   that undefined values weren''t graphed properly (properly in this case being not
   at all) when the equation was entered in algebraic notation. Because of this bug,
-  for example, <code>sqrt(1-x^2)</code> would appear as the top half of a circle like
-  it should, except there would be two vertical lines on the sides. Version 1.5.1
-  fixes this bug.</p>
+  for example, <code class="notranslate">sqrt(1-x^2)</code> would appear as the top
+  half of a circle like it should, except there would be two vertical lines on the
+  sides. Version 1.5.1 fixes this bug.</p>
 
   <p dir="auto">QR code for CIA:</p>
 

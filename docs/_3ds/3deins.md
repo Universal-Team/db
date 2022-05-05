@@ -116,12 +116,12 @@ update_notes: '<h2 dir="auto">DSEins, the NDS version of 3DEins is now included 
 
   <ul dir="auto">
 
-  <li>Download <code>DSEins.nds</code> and put it to your SD Card.</li>
+  <li>Download <code class="notranslate">DSEins.nds</code> and put it to your SD Card.</li>
 
   <li>Start it using Twilight Menu++ or whatever you like.<br>
 
   <strong>3DS User: You can install the CIA as well, but you need the NDS file as
-  well into the root or at <code>sd:/_nds/DSEins/</code>.</strong></li>
+  well into the root or at <code class="notranslate">sd:/_nds/DSEins/</code>.</strong></li>
 
   </ul>
 
@@ -129,8 +129,8 @@ update_notes: '<h2 dir="auto">DSEins, the NDS version of 3DEins is now included 
 
   <ul dir="auto">
 
-  <li>Download <code>3DEins.3dsx</code> or <code>3DEins.cia</code> and put it to your
-  SD Card.</li>
+  <li>Download <code class="notranslate">3DEins.3dsx</code> or <code class="notranslate">3DEins.cia</code>
+  and put it to your SD Card.</li>
 
   <li>If downloading the CIA, install it using FBI. If 3dsx, open it using the Homebrew
   Launcher.</li>
