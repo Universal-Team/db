@@ -4856,7 +4856,7 @@
 					"input": "",
 					"output": "/luma/titles/0004001000022B00/"
 				},
-{
+				{
 					"type": "deleteFile",
 					"file": "/SatellaZone.zip"
 				}
@@ -4874,7 +4874,7 @@
 					"input": "",
 					"output": "/luma/titles/0004001000021B00/"
 				},
-{
+				{
 					"type": "deleteFile",
 					"file": "/SatellaZone.zip"
 				}
@@ -4892,7 +4892,7 @@
 					"input": "",
 					"output": "/luma/titles/0004001000020B00/"
 				},
-{
+				{
 					"type": "deleteFile",
 					"file": "/SatellaZone.zip"
 				}
@@ -4910,7 +4910,7 @@
 					"input": "",
 					"output": "/luma/titles/0004001000022B00/"
 				},
-{
+				{
 					"type": "deleteFile",
 					"file": "/SatellaZone-Lite.zip"
 				}
@@ -4928,7 +4928,7 @@
 					"input": "",
 					"output": "/luma/titles/0004001000021B00/"
 				},
-{
+				{
 					"type": "deleteFile",
 					"file": "/SatellaZone-Lite.zip"
 				}
@@ -4946,12 +4946,27 @@
 					"input": "",
 					"output": "/luma/titles/0004001000020B00/"
 				},
-{
+				{
 					"type": "deleteFile",
 					"file": "/SatellaZone-Lite.zip"
 				}
 			]
 		}
-
+	},
+	{
+		"github": "MaikelChan/SpaceCadetPinball",
+		"title": "3D Pinball - Space Cadet",
+		"source": "https://github.com/MaikelChan/SpaceCadetPinball/tree/3ds",
+		"systems": ["3DS"],
+		"categories": ["game"],
+		"image": "https://github.com/MaikelChan/SpaceCadetPinball/raw/3ds/ctr/banner.png",
+		"icon": "https://github.com/MaikelChan/SpaceCadetPinball/raw/3ds/ctr/icon.png",
+		"long_description": "# 3D Pinball - Space Cadet for 3DS\n\nThis is a port of 3D Pinball - Space Cadet for Nintendo 3DS. It's originally a game that came bundled with Windows from Windows 95 up to Windows XP. This is the current state of the project:\n\n- No menus, options, or results screen.\n- It plays sound effects and music (if the player supplies the music in OGG format).\n- There are still some bugs here and there.\n- It should be running fine on New 3DS, but on a regular 3DS it runs slow.\n\nIt is based on the PC decompilation made by [k4zmu2a](https://github.com/k4zmu2a): https://github.com/k4zmu2a/SpaceCadetPinball\n\nThe PC decompilation uses SDL2 to render the game. This 3DS port has been changed to use native GPU rendering with the Citro3D library.\n\n## How to build\n\nThe main requirement is to have [devkitPro](https://devkitpro.org).\n\nFollow the instructions to install devkitPro here: https://devkitpro.org/wiki/Getting_Started\nYou will also need the 3DS development package, and also the libraries 3ds-sdl and 3ds-sdl_mixer.\n\nIf you use Windows or Ubuntu, here are more detailed instructions.\n\n### Windows\n\nEven though devkitPro offers a Windows installer, I've had some issues setting it up. It's easier to use WSL. If you want to use the Windows installer anyway, check the link above for instructions.\n\n1. Install [WSL](https://docs.microsoft.com/en-us/windows/wsl/install). By default it will install Ubuntu, which is fine.\n2. Open a WSL terminal and just follow the Ubuntu instructions below. With the difference that, if you want to clone the project into, for example, the `C:\\` folder, you will need move to that folder inside the terminal with the command `cd /mnt/c/`.\n\n### Ubuntu and other Debian based linux distros\n\n1. Open the terminal in the folder where you want to clone the project.\n2. Clone it with the command `git clone --branch 3ds https://github.com/MaikelChan/SpaceCadetPinball`. A subfolder called `SpaceCadetPinball` will be created containing the project.\n3. Move to that subfolder with `cd SpaceCadetPinball`.\n4. Download the latest version of the [custom devkitPro pacman](https://github.com/devkitPro/pacman/releases/tag/v1.0.2), that will be used to download the compilers and libraries to build the project. Once downloaded, put it in the `SpaceCadetPinball` folder.\n5. Install devkitPro pacman with this command: `sudo gdebi devkitpro-pacman.amd64.deb`. If gdebi is not found, install it with `sudo apt install gdebi-core`, and then try again installing pacman.\n6. Use the following command to sync pacman databases: `sudo dkp-pacman -Sy`.\n7. Now update packages with `sudo dkp-pacman -Syu`.\n8. Install the 3DS development tools with `sudo dkp-pacman -S 3ds-dev`.\n9. Install SDL with `sudo dkp-pacman -S 3ds-sdl`.\n10. Install SDL_mixer with `sudo dkp-pacman -S 3ds-sdl_mixer`.\n11. Set the DEVKITPRO environment variables so the system knows where the compilers and libraries are installed with these commands:\n    - `export DEVKITPRO=/opt/devkitpro`.\n    - `export DEVKITARM=/opt/devkitpro/devkitARM`.\n12. To generate Build the project with the command `make -j4`.\n13. Optionally, to generate a CIA file, you will need to have [bannertool](https://github.com/Steveice10/bannertool/releases/) and [makerom](https://github.com/3DSGuy/Project_CTR/releases) in the `$DEVKITPRO/tools/bin` folder. Then build the project with the command `make -j4 BUILD_CIA=1`.\n\nAfter a successful build, you will get a file called `SpaceCadetPinball.3dsx`, which is the main executable.\n\n## How to run\n\n### 3DS with Homebrew Launcher\n\n1. Go to your SD card and enter the `3ds` folder.\n2. Copy `SpaceCadetPinbal.3dsx` into the `3ds` folder.\n3. Make sure you have your `dspfirm.cdc` in the `3ds` folder, as you will need it to have sound in homebrew games. If you don't have it, [dump your DSP](https://github.com/zoogie/DSP1/releases/latest).\n4. Inside the `3ds` folder, create a new folder named `SpaceCadetPinball`.\n5. For legal reasons, you will need to get the original PC game on your own to obtain the assets like graphics and sound effects. Those are not contained in this repository.\n6. Copy all files from the original PC version into the `SpaceCadetPinball` folder that was created earlier.\n7. Optionally, since this port doesn't play MIDI files, you'll need to convert the music to ogg format, and call the file `PINBALL.ogg`, and put it along the other assets in the `SpaceCadetPinball` folder. Make sure that the music has a sample rate no higher than 44100Hz, or it won't play correctly.\n8. If everything went fine, you should be able to run the game from the Homebrew Launcher.\n\n### Citra\n\n1. Get the [Citra emulator](https://citra-emu.org/download/) if you don't have it.\n2. Open it and go to the menu `File/Open Citra Folder`. This will open the folder where Citra's configuration is stored.\n3. Go to the `sdmc` folder and create a new folder there named `3ds` if it doesn't exist already.\n4. Enter the `3ds` folder and create an empty file there named `dspfirm.cdc`. This will allow to have audio in homebrew apps.\n5. Inside the `3ds` folder create another folder named `SpaceCadetPinball`.\n6. For legal reasons, you will need to get the original PC game on your own to obtain the assets like graphics and sound effects. Those are not contained in this repository.\n7. Copy all PC game's assets to the `SpaceCadetPinball` folder that was created earlier.\n8. Optionally, since this port doesn't play MIDI files, you'll need to convert the music to ogg format, and call the file `PINBALL.ogg`, and put it along the other assets in the `SpaceCadetPinball` folder. Make sure that the music has a sample rate no higher than 44100Hz, or it won't play correctly.\n9. If everything went fine, you should be able to run the game.\n\n## How to play\n\n| Button               | Action                                            |\n|----------------------|---------------------------------------------------|\n| A                    | Launch the ball                                   |\n| L                    | Move the left paddle                              |\n| R                    | Move the right paddle                             |\n| DPad Left, Right, Up | Bump table                                        |\n| X                    | Start a new game                                  |\n| Y                    | Exit the game                                     |\n| Start                | Pause                                             |\n",
+		"archive": {
+			"SpaceCadetPinball-3DS-v.*\\.7z": {
+				"SpaceCadetPinball.3dsx": "SpaceCadetPinball.3dsx",
+				"SpaceCadetPinball.cia": "SpaceCadetPinball.cia"
+			}
+		}
 	}
 ]
