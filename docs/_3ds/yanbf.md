@@ -42,8 +42,8 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>All repositories are consolidated to a <code>YANBForwarder</code> repository
-  on GitHub.</li>
+  <li>All repositories are consolidated to a <code class="notranslate">YANBForwarder</code>
+  repository on GitHub.</li>
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/spitzeqc/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/spitzeqc">@spitzeqc</a>:
@@ -55,7 +55,7 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Fixed an issue where the Linux release was mistakenly named <code>macOS</code>.</li>
+  <li>Fixed an issue where the Linux release was mistakenly named <code class="notranslate">macOS</code>.</li>
 
   </ul>'
 updated: '2022-04-18T17:02:04Z'

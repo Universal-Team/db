@@ -100,10 +100,10 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DieGo367">@DieGo367</a>
   &amp; <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Added <code>Use skin font</code> setting! (<a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="1206201521" data-permission-text="Title is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/1896"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/1896/hovercard"
-  href="https://github.com/DS-Homebrew/TWiLightMenu/pull/1896">#1896</a>)</li>
+  Added <code class="notranslate">Use skin font</code> setting! (<a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="1206201521" data-permission-text="Title
+  is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/1896" data-hovercard-type="pull_request"
+  data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/1896/hovercard" href="https://github.com/DS-Homebrew/TWiLightMenu/pull/1896">#1896</a>)</li>
 
   </ul>'
 updated: '2022-04-23T00:53:53Z'

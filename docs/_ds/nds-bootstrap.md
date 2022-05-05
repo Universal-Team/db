@@ -42,10 +42,10 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ol dir="auto">
 
-  <li>Download the <code>.7z</code> file.</li>
+  <li>Download the <code class="notranslate">.7z</code> file.</li>
 
-  <li>Extract the nds-bootstrap <code>.nds</code> and <code>.ver</code> files, to
-  <code>root:/_nds</code>.</li>
+  <li>Extract the nds-bootstrap <code class="notranslate">.nds</code> and <code class="notranslate">.ver</code>
+  files, to <code class="notranslate">root:/_nds</code>.</li>
 
   </ol>
 
@@ -81,7 +81,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Read from <code>MANUAL_PATH</code> in <code>sd:/_nds/nds-bootstrap.ini</code></li>
+  <li>Read from <code class="notranslate">MANUAL_PATH</code> in <code class="notranslate">sd:/_nds/nds-bootstrap.ini</code></li>
 
   </ul>
 
