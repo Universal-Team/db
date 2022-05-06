@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 28706487
+    size: 28722682
     size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.6.0/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.7.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 28753791
+    size: 28774772
     size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.6.0/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.7.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 40531364
+    size: 40554117
     size_str: 38 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.6.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.7.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 40727996
+    size: 40749328
     size_str: 38 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.6.0/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.7.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_index: 138
@@ -50,8 +50,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.56.0">nds-bootstrap
-  v0.56.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.57.0">nds-bootstrap
+  v0.57.0</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -74,41 +74,57 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   <li>Updated B4DS DSiWare whitelist to accommodate for the included nds-bootstrap
   version.</li>
 
-  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/spellboundtriangle/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/spellboundtriangle">@spellboundtriangle</a>)
-  Added widescreen patch for beebzDS (Demon Turf DS).</li>
+  <li>Added warning messages when launching <em>Art Style: Aquia</em>, <em>Flipper</em>,
+  and <em>Mighty Milky Way</em> on flashcards in DS mode.</li>
 
   <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Added setting nds-bootstrap game manual!</li>
+  Allowed skins to set username/date/time X/Y and override settings for macro mode.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Improvement</strong></p>
+
+  <ul dir="auto">
+
+  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
+  and various) Updated translations.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Bug fixes</strong></p>
+
+  <ul dir="auto">
+
+  <li><strong>R4/GBC themes: Fixed recent console icon additions not being displayed.</strong></li>
+
+  <li>Fixed trying to read custom skin BGM, if no custom skin is found.</li>
+
+  <li>Slot-1 is now inited properly, regardless of the <code class="notranslate">Slot-1
+  microSD access</code> setting.
+
+  <ul dir="auto">
+
+  <li>This allows certain flashcards to be launched (ex. Gateway Blue Card).</li>
+
+  </ul>
+
+  </li>
+
+  <li>Fixed <code class="notranslate">Set as Donor ROM</code> option not showing on
+  flashcards if nds-bootstrap is off.</li>
 
   <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DieGo367/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DieGo367">@DieGo367</a>)
-  Themes can now use multiple font palettes! (<a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="1205997590" data-permission-text="Title
-  is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/1894" data-hovercard-type="pull_request"
-  data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/1894/hovercard" href="https://github.com/DS-Homebrew/TWiLightMenu/pull/1894">#1894</a>)</li>
+  Various grayscale color mode fixes.</li>
 
-  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DieGo367/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DieGo367">@DieGo367</a>)
-  Themes can now have fonts bundled! (<a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="1206189832" data-permission-text="Title is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/1895"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/1895/hovercard"
-  href="https://github.com/DS-Homebrew/TWiLightMenu/pull/1895">#1895</a>)</li>
-
-  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DieGo367/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DieGo367">@DieGo367</a>
-  &amp; <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Added <code class="notranslate">Use skin font</code> setting! (<a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="1206201521" data-permission-text="Title
-  is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/1896" data-hovercard-type="pull_request"
-  data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/1896/hovercard" href="https://github.com/DS-Homebrew/TWiLightMenu/pull/1896">#1896</a>)</li>
+  <li>Fixed bugged sounds in Pictochat and DLP, if not using DSiWarehax.</li>
 
   </ul>'
-updated: '2022-04-23T00:53:53Z'
-version: v24.6.0
-version_title: 'v24.6.0: Earth Day Release'
+updated: '2022-05-06T04:22:32Z'
+version: v24.7.0
+version_title: 'v24.7.0: 5/5 release'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
