@@ -67,6 +67,11 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
+  <p dir="auto"><strong>Reminder:</strong> If you get a white screen crash instead
+  of the ROM menu being shown, hold SELECT during the splash screen or after you launched
+  TWLMenu++, to open TWLMenu++ Settings, and change the <code class="notranslate">DSi/3DS
+  Theme Music</code> setting to something other than <code class="notranslate">Theme</code>.</p>
+
   <p dir="auto"><strong>What''s new?</strong></p>
 
   <ul dir="auto">
@@ -124,7 +129,7 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   </ul>'
 updated: '2022-05-06T04:22:32Z'
 version: v24.7.0
-version_title: 'v24.7.0: 5/5 release'
+version_title: 'v24.7.0: 5/5 release, and 5th birthday!'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
