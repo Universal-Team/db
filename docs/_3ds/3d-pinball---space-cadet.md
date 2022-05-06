@@ -15,12 +15,15 @@ downloads:
     url: https://github.com/MaikelChan/SpaceCadetPinball/releases/download/v0.5-3ds/SpaceCadetPinball-3DS-v0.5.7z
 github: MaikelChan/SpaceCadetPinball
 icon: https://github.com/MaikelChan/SpaceCadetPinball/raw/3ds/ctr/icon.png
-icon_index: -1
+icon_index: 213
 image: https://github.com/MaikelChan/SpaceCadetPinball/raw/3ds/ctr/banner.png
 image_length: 17484
 layout: app
 license: mit
 license_name: MIT License
+screenshots:
+- description: Awaiting deployment
+  url: https://db.universal-team.net/assets/images/screenshots/3d-pinball---space-cadet/awaiting-deployment.png
 source: https://github.com/MaikelChan/SpaceCadetPinball/tree/3ds
 systems:
 - 3DS
