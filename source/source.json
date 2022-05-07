@@ -4901,54 +4901,54 @@
 				{
 					"type": "downloadRelease",
 					"repo": "MegaPika/SatellaZone",
-					"file": "SatellaZone-Lite.zip",
-					"output": "/SatellaZone-Lite.zip"
+					"file": "SatellaZoneLite.zip",
+					"output": "/SatellaZoneLite.zip"
 				},
 				{
 					"type": "extractFile",
-					"file": "/SatellaZone-Lite.zip",
+					"file": "/SatellaZoneLite.zip",
 					"input": "",
 					"output": "/luma/titles/0004001000022B00/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/SatellaZone-Lite.zip"
+					"file": "/SatellaZoneLite.zip"
 				}
 			],
 			"[lite] USA": [
 				{
 					"type": "downloadRelease",
 					"repo": "MegaPika/SatellaZone",
-					"file": "SatellaZone-Lite.zip",
-					"output": "/SatellaZone-Lite.zip"
+					"file": "SatellaZoneLite.zip",
+					"output": "/SatellaZoneLite.zip"
 				},
 				{
 					"type": "extractFile",
-					"file": "/SatellaZone-Lite.zip",
+					"file": "/SatellaZoneLite.zip",
 					"input": "",
 					"output": "/luma/titles/0004001000021B00/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/SatellaZone-Lite.zip"
+					"file": "/SatellaZoneLite.zip"
 				}
 			],
 			"[lite] JPN": [
 				{
 					"type": "downloadRelease",
 					"repo": "MegaPika/SatellaZone",
-					"file": "SatellaZone-Lite.zip",
-					"output": "/SatellaZone-Lite.zip"
+					"file": "SatellaZoneLite.zip",
+					"output": "/SatellaZoneLite.zip"
 				},
 				{
 					"type": "extractFile",
-					"file": "/SatellaZone-Lite.zip",
+					"file": "/SatellaZoneLite.zip",
 					"input": "",
 					"output": "/luma/titles/0004001000020B00/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/SatellaZone-Lite.zip"
+					"file": "/SatellaZoneLite.zip"
 				}
 			]
 		}
