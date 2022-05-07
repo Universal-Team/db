@@ -4845,6 +4845,10 @@
 		"scripts": {
 			"EUR": [
 				{
+					"type": "mkdir",
+					"directory": "/luma/titles/0004001000022B00/romfs"
+				},
+				{
 					"type": "rmdir",
 					"directory": "/luma/titles/0004001000022B00/romfs"
 				},
@@ -4866,6 +4870,10 @@
 				}
 			],
 			"USA": [
+				{
+					"type": "mkdir",
+					"directory": "/luma/titles/0004001000021B00/romfs"
+				},
 				{
 					"type": "rmdir",
 					"directory": "/luma/titles/0004001000021B00/romfs"
@@ -4889,6 +4897,10 @@
 			],
 			"JPN": [
 				{
+					"type": "mkdir",
+					"directory": "/luma/titles/0004001000020B00/romfs"
+				},
+				{
 					"type": "rmdir",
 					"directory": "/luma/titles/0004001000020B00/romfs"
 				},
@@ -4910,6 +4922,10 @@
 				}
 			],
 			"[lite] EUR": [
+				{
+					"type": "mkdir",
+					"directory": "/luma/titles/0004001000022B00/romfs"
+				},
 				{
 					"type": "rmdir",
 					"directory": "/luma/titles/0004001000022B00/romfs"
@@ -4933,6 +4949,10 @@
 			],
 			"[lite] USA": [
 				{
+					"type": "mkdir",
+					"directory": "/luma/titles/0004001000021B00/romfs"
+				},
+				{
 					"type": "rmdir",
 					"directory": "/luma/titles/0004001000021B00/romfs"
 				},
@@ -4954,6 +4974,10 @@
 				}
 			],
 			"[lite] JPN": [
+				{
+					"type": "mkdir",
+					"directory": "/luma/titles/0004001000020B00/romfs"
+				},
 				{
 					"type": "rmdir",
 					"directory": "/luma/titles/0004001000020B00/romfs"
