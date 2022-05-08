@@ -10,8 +10,8 @@ description: A Nintendo Zone Revival for the 3DS.
 download_page: https://github.com/MegaPika/SatellaZone/releases
 downloads:
   SatellaZone.zip:
-    size: 968488107
-    size_str: 923 MiB
+    size: 635457609
+    size_str: 606 MiB
     url: https://github.com/MegaPika/SatellaZone/releases/download/1.1/SatellaZone.zip
   SatellaZoneLite.zip:
     size: 5056084
@@ -54,10 +54,15 @@ update_notes: '<h2 dir="auto">Some big changes!</h2>
 
   </ul>
 
+  <h2 dir="auto">Installation instructions</h2>
+
+  <p dir="auto">All is written on the readme: <a href="https://github.com/MegaPika/SatellaZone#readme">https://github.com/MegaPika/SatellaZone#readme</a></p>
+
   <h2 dir="auto">Important!</h2>
 
   <p dir="auto">If you already downloaded the first version, please delete the romfs
-  folder of it before installing this one. It will take many space for nothing</p>'
+  folder of it before installing this one. It will take many space on your SDcard
+  for nothing</p>'
 updated: '2022-05-07T20:30:38Z'
 version: '1.1'
 version_title: SatellaZone reorganized
