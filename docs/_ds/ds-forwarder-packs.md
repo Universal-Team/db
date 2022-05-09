@@ -8,12 +8,6 @@ color_bg: '#801818'
 created: '2017-02-12T22:18:43Z'
 description: The base forwarder packs for use with Forwarder3-DS and NDSForwarder
   forwarders
-download_page: https://github.com/RocketRobz/NTR_Forwarder/releases
-downloads:
-  DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z:
-    size: 473415
-    size_str: 462 KiB
-    url: https://github.com/RocketRobz/NTR_Forwarder/releases/download/SD-6/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z
 github: RocketRobz/NTR_Forwarder
 icon: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
 icon_index: 187
@@ -25,56 +19,5 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto"><strong>As of 5/5/2022:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.57.0">nds-bootstrap
-  v0.57.0</a></p>
-
-  <p dir="auto">To install or update:</p>
-
-  <ul dir="auto">
-
-  <li>In the 7z file, extract what''s in <code class="notranslate">for SD card root</code>
-  to the root of the SD card.</li>
-
-  </ul>
-
-  <p dir="auto">To create forwarders, see this page <a href="https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/"
-  rel="nofollow">here</a>, or <a href="https://gbatemp.net/threads/nds-yet-another-nds-bootstrap-forwarder-more-than-40-forwarders-are-now-possible.606138/"
-  rel="nofollow">this one</a> to make more than 40 forwarders on 3DS consoles, or
-  <a href="https://gbatemp.net/threads/release-ndsforwarder-for-dsi-generate-hiyacfw-forwarders-on-the-dsi-directly.606964/"
-  rel="nofollow">this one</a> to make hiyaCFW forwarders directly on the DSi console.</p>
-
-  <p dir="auto"><strong>What''s new?</strong></p>
-
-  <ul dir="auto">
-
-  <li>Updated card read DMA and TWL clock speed blacklists to current ones from TWiLight
-  Menu++.</li>
-
-  </ul>
-
-  <p dir="auto"><strong>Improvement</strong></p>
-
-  <ul dir="auto">
-
-  <li>Improved DSi binary check further.</li>
-
-  </ul>
-
-  <p dir="auto"><strong>Bug fixes</strong></p>
-
-  <ul dir="auto">
-
-  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Fixed only using <code class="notranslate">Widescreen.cxi</code> from <code class="notranslate">TWiLightMenu</code>
-  folder.</li>
-
-  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Fixed rebooting to self not working.</li>
-
-  </ul>'
-updated: '2022-03-27T04:01:08Z'
-version: SD-6
-version_title: 'GitHub Release #6'
+updated: '---'
 ---

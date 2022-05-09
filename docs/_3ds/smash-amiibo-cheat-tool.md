@@ -37,10 +37,10 @@ systems:
 title: Smash Amiibo Cheat Tool
 update_notes: '<p>There''s quite a lot in this new release, so here we go!</p>
 
-  <p>Small path change (again). the folder at the root of the sd card is now <code>/SACT</code>
-  instead of ``/Smash Amiibo Cheat Tool`</p>
+  <p>Small path change (again). the folder at the root of the sd card is now <code
+  class="notranslate">/SACT</code> instead of ``/Smash Amiibo Cheat Tool`</p>
 
-  <p>Custom bottom screen picture, same format as splashes, goes in <code>/SACT/scan.bin</code></p>
+  <p>Custom bottom screen picture, same format as splashes, goes in <code class="notranslate">/SACT/scan.bin</code></p>
 
   <p>You can now randomize appdata</p>
 
