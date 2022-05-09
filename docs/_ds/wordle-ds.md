@@ -11,17 +11,17 @@ description: A clone of Wordle for the Nintendo DS(i)
 download_page: https://github.com/Epicpkmn11/WordleDS/releases
 downloads:
   WordleDS.cia:
-    size: 1355968
-    size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.0.1/WordleDS.cia
+    size: 967872
+    size_str: 945 KiB
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.0.2/WordleDS.cia
   WordleDS.dsi:
-    size: 1341376
-    size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.0.1/WordleDS.dsi
+    size: 953280
+    size_str: 930 KiB
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.0.2/WordleDS.dsi
   WordleDS.nds:
-    size: 1341376
-    size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.0.1/WordleDS.nds
+    size: 953280
+    size_str: 930 KiB
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.0.2/WordleDS.nds
 github: Epicpkmn11/WordleDS
 icon: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
 icon_index: 199
@@ -46,25 +46,29 @@ source: https://github.com/Epicpkmn11/WordleDS
 systems:
 - DS
 title: Wordle DS
-update_notes: '<h3 dir="auto">Bug fixes</h3>
+update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Fixes clearing your streak if reloading Wordle DS on the same day</li>
+  <li>Updates the word lists to match the NY Times'' latest changes
 
-  <li>Fixes using high contrast yellow emoji in mods instead of the normal one</li>
+  <ul dir="auto">
+
+  <li>6 upcoming words have been moved to the end</li>
+
+  <li>All(?) previously removed words have been re-added to the valid guesses list
+  (but not the correct answers list)</li>
 
   </ul>
 
-  <h3 dir="auto">What''s new?</h3>
+  </li>
 
-  <ul dir="auto">
+  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/SombrAbsol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/SombrAbsol">@SombrAbsol</a>)
+  Added a <a href="https://github.com/Epicpkmn11/WordleDS/tree/v2.0.2/resources/boxart">boxart
+  image</a> for TWiLight Menu++</li>
 
-  <li>For future proofing, mods can now specify a minimum version if needed, currently
-  no real need to set it</li>
-
-  <li>See <a href="https://github.com/Epicpkmn11/WordleDS/releases/tag/v2.0.0">v2.0.0</a>
-  for more recent changes</li>
+  <li>Rewrote the JSON code to use cJSON, saving approximately 400 KB file size</li>
 
   </ul>
 
@@ -78,12 +82,12 @@ update_notes: '<h3 dir="auto">Bug fixes</h3>
   class="notranslate">.cia</code> build can be used to install to the 3DS HOME Menu,
   here''s a QR:</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/165682059-3e8a1943-d389-4191-941e-a66764b13e26.png"><img
-  src="https://user-images.githubusercontent.com/41608708/165682059-3e8a1943-d389-4191-941e-a66764b13e26.png"
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/167492552-84ec11b8-c912-41a8-b4c4-f73c3b94acc0.png"><img
+  src="https://user-images.githubusercontent.com/41608708/167492552-84ec11b8-c912-41a8-b4c4-f73c3b94acc0.png"
   alt="QR code for WordleDS.cia" style="max-width: 100%;"></a></p>'
-updated: '2022-04-28T05:24:52Z'
-version: v2.0.1
-version_title: Bug fixes
+updated: '2022-05-09T20:31:24Z'
+version: v2.0.2
+version_title: Update word list (again)
 wiki: https://github.com/Epicpkmn11/WordleDS/wiki
 ---
 A clone of [Wordle](https://www.nytimes.com/games/wordle/index.html) for the Nintendo DS(i). It features the same word each day as the official Wordle and has most of the same features including statistics tracking, high contrast and hard mode options, and even sharable emoji grid via QR code or txt file. Also featuring custom original background music by Rocket Robz.
