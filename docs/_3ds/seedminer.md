@@ -22,14 +22,13 @@ systems:
 - 3DS
 title: seedminer
 unistore_exclude: true
-update_notes: '<ul dir="auto">
+update_notes: '<p dir="auto">This release syncs the <a href="https://github.com/deadphoenix8091/seedminer/releases/tag/2%2C1%2C5.fixed">latest
+  release</a> of the DeadPhoenix fork, because it''s used the most (and better for
+  most things).</p>
 
-  <li>Mii QR bugfix for seedminer_launcher3.py (thx Burguers and lifehackerhansol!)</li>
-
-  <li>Consolidate platforms for a single download.</li>
-
-  </ul>'
-updated: '2021-12-30T02:15:16Z'
-version: v2.1.6
-version_title: Seeding the BFM Clouds Edition
+  <p dir="auto">I''ve also updated the way-out-of-date msed data in the fork release
+  with the <a href="https://github.com/zoogie/nodes">final msed data</a>.</p>'
+updated: '2021-04-21T01:51:28Z'
+version: v2.1.5
+version_title: Flight of the DeadPhoenix Edition
 ---
