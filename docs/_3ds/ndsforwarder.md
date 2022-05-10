@@ -10,9 +10,9 @@ description: Generate and Install NDS Forwarders
 download_page: https://github.com/MechanicalDragon0687/NDSForwarder/releases
 downloads:
   ndsForwarder.3dsx:
-    size: 1025260
-    size_str: 1001 KiB
-    url: https://github.com/MechanicalDragon0687/ndsForwarder/releases/download/1.4.3/ndsForwarder.3dsx
+    size: 1024740
+    size_str: 1000 KiB
+    url: https://github.com/MechanicalDragon0687/ndsForwarder/releases/download/1.4.2.1/ndsForwarder.3dsx
 github: MechanicalDragon0687/NDSForwarder
 icon_index: 173
 image: https://avatars.githubusercontent.com/u/43786828?v=4
@@ -68,20 +68,77 @@ update_notes: '<p dir="auto">Requires full CFW via Rosalina (b9s+luma3ds)</p>
 
   <h2 dir="auto">Changelog</h2>
 
-  <p dir="auto">1.4.3<br>
-
-  remove rom type checking to allow dsiware installation</p>
-
   <p dir="auto">1.4.2<br>
 
   fix the problem with nds file loading introduced in 1.4.1</p>
 
   <p dir="auto">1.4.1<br>
 
-  Actually fixed the CRC checking issues</p>'
-updated: '2022-05-04T03:07:07Z'
-version: 1.4.3
-version_title: 1.4.3
+  Actually fixed the CRC checking issues</p>
+
+  <p dir="auto">1.4.0</p>
+
+  <ul dir="auto">
+
+  <li>Support srl extension</li>
+
+  <li>block dsiware and system apps</li>
+
+  <li>add crc checks to header and banners</li>
+
+  <li>support ids extension</li>
+
+  <li>support widescreen (thanks hansol). note: you will have to remake your forwarders
+  for this to work.</li>
+
+  <li>Fix unicode title support (thanks pks11)</li>
+
+  </ul>
+
+  <p dir="auto">1.3.0-beta<br>
+
+  I dont even remember anymore....</p>
+
+  <p dir="auto">1.2.0-beta</p>
+
+  <ul dir="auto">
+
+  <li>Supports BMP files for custom icons
+
+  <ul dir="auto">
+
+  <li>4 bit</li>
+
+  <li>32x32 pixels</li>
+
+  <li>No Colorspace info (Compatibility options when exporting in GIMP)</li>
+
+  <li>color at index 0 will be transparent/white. You have been warned.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <p dir="auto">1.1.0-beta</p>
+
+  <ul dir="auto">
+
+  <li>Warns user when reaching the limit of dsiware installed</li>
+
+  <li>No longer brown, now blue</li>
+
+  <li>Version is displayed on the bottom screen</li>
+
+  <li>_nds folder is hidden</li>
+
+  <li>if more than one template exists, can select which template to use</li>
+
+  </ul>'
+updated: '2022-02-22T00:03:22Z'
+version: 1.4.2.1
+version_title: 1.4.2.1
 ---
 ### Installing
 1. Download the [3DS SD card forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)
