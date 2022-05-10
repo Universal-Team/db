@@ -4020,7 +4020,7 @@
 					"type": "downloadRelease",
 					"repo": "linux-3ds/firm_linux_loader",
 					"file": "firm_linux_loader.firm",
-					"output": "/luma/payloads/firm_linux_loader.firm",
+					"output": "%FIRM%/firm_linux_loader.firm",
 					"includePrereleases": true
 				}
 			]
