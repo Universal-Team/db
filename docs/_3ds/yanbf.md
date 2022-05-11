@@ -10,21 +10,21 @@ description: Yet another nds-bootstrap forwarder. Runs from 3DS-mode!
 download_page: https://github.com/YANBForwarder/YANBF/releases
 downloads:
   YANBF-Linux.zip:
-    size: 100865059
-    size_str: 96 MiB
-    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.5.2/YANBF-Linux.zip
+    size: 96765831
+    size_str: 92 MiB
+    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.0/YANBF-Linux.zip
   YANBF-Windows.zip:
-    size: 70886564
+    size: 70805542
     size_str: 67 MiB
-    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.5.2/YANBF-Windows.zip
+    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.0/YANBF-Windows.zip
   YANBF-macOS.zip:
-    size: 88330124
+    size: 88283800
     size_str: 84 MiB
-    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.5.2/YANBF-macOS.zip
+    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.0/YANBF-macOS.zip
   bootstrap.cia:
     size: 206080
     size_str: 201 KiB
-    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.5.2/bootstrap.cia
+    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.0/bootstrap.cia
 github: YANBForwarder/YANBF
 icon_index: 197
 image: https://avatars.githubusercontent.com/u/103953989?v=4
@@ -42,12 +42,75 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>All repositories are consolidated to a <code class="notranslate">YANBForwarder</code>
-  repository on GitHub.</li>
+  <li>SD card dependency has been removed. (CLI only)
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/spitzeqc/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/spitzeqc">@spitzeqc</a>:
-  added sound support to the GUI.</li>
+  <ul dir="auto">
+
+  <li>Fixes <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+  data-id="1167716062" data-permission-text="Title is private" data-url="https://github.com/YANBForwarder/YANBF/issues/10"
+  data-hovercard-type="issue" data-hovercard-url="/YANBForwarder/YANBF/issues/10/hovercard"
+  href="https://github.com/YANBForwarder/YANBF/issues/10">#10</a></li>
+
+  <li>You can now apply a custom ROM path that is different from the input ROM using
+  <code class="notranslate">-p &lt;ROM path&gt;</code>
+
+  <ul dir="auto">
+
+  <li>This path must follow POSIX standards. This may be improved in the future.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  </li>
+
+  <li>Unique ID is no longer based on the title''s gamecode.
+
+  <ul dir="auto">
+
+  <li>Fixes <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+  data-id="1217883897" data-permission-text="Title is private" data-url="https://github.com/YANBForwarder/YANBF/issues/20"
+  data-hovercard-type="issue" data-hovercard-url="/YANBForwarder/YANBF/issues/20/hovercard"
+  href="https://github.com/YANBForwarder/YANBF/issues/20">#20</a></li>
+
+  <li>Unique ID 0xFF400-0xFF7FF is allocated for YANBF.</li>
+
+  <li>A new <code class="notranslate">id.txt</code> file is created and is used as
+  a counter for Unique IDs.
+
+  <ul dir="auto">
+
+  <li>Should this file be lost, you may potentially start replacing older forwarders.
+  Which isn''t a huge loss, but annoying nonetheless.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <h3 dir="auto">Improvements</h3>
+
+  <ul dir="auto">
+
+  <li>Some reworking of the code. Not visible to the end user, just made the thing
+  more maintainable really.</li>
+
+  <li>libscrc has been replaced with a custom CRC16 function
+
+  <ul dir="auto">
+
+  <li>GBATEK swiCRC16 pseudocode provided by nocash. Thanks nocash!</li>
+
+  </ul>
+
+  </li>
 
   </ul>
 
@@ -55,11 +118,33 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Fixed an issue where the Linux release was mistakenly named <code class="notranslate">macOS</code>.</li>
+  <li>The GameTDB access will ping the EN endpoint if the album artwork is not found
+  on the correct region.
+
+  <ul dir="auto">
+
+  <li>Apparently this is intended behaviour. Weird but oh well, another ping isn''t
+  taxing.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <h3 dir="auto">Known issues</h3>
+
+  <ul dir="auto">
+
+  <li>As is standard for YANBF releases, the GUI is always one step behind in functionality.
+  So passing a custom ROM path will not work for now.</li>
+
+  <li>DSiWare is not supported, as GameTDB does not provide box art for them (of course
+  they don''t, they don''t come in a box.)</li>
 
   </ul>'
-updated: '2022-04-18T17:02:04Z'
-version: v1.5.2
-version_title: 'v1.5.2: visualizing sounds'
+updated: '2022-05-11T01:56:36Z'
+version: v1.6.0
+version_title: 'v1.6.0: look ma, no SD card'
 ---
 YANBF is a 3DS-mode nds-bootstrap forwarder, allowing for more than 40 forwarder titles as compared to the older forwarder template.
