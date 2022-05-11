@@ -12,7 +12,7 @@ downloads:
   NDSForwarder.dsi:
     size: 483328
     size_str: 472 KiB
-    url: https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/download/v0.2.2/NDSForwarder.dsi
+    url: https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/download/v0.2.3/NDSForwarder.dsi
 github: lifehackerhansol/NDSForwarder-DSi
 icon: https://db.universal-team.net/assets/images/icons/ndsforwarder-dsi.png
 icon_index: 203
@@ -31,38 +31,24 @@ systems:
 - DS
 title: NDSForwarder-DSi
 unistore_exclude: true
-update_notes: '<p dir="auto"><strong>Improvements</strong>:</p>
+update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>More sanity checks are done.
-
-  <ul dir="auto">
-
-  <li>Header CRC is now checked before install.</li>
-
-  <li>Banner CRC, if the game is not DSi-Enhanced, is now checked before install.
-
-  <ul dir="auto">
-
-  <li>If any of the checks fail, the installation will fail entirely.</li>
-
-  <li>DSi-Enhanced games are checked separately, as this can be fixed by removing
-  all DSi icon related data. The rest of them should have no reason to be corrupt,
-  and will be checked accordingly.</li>
+  <li>New icon to finally distinguish from TMFH.</li>
 
   </ul>
 
-  </li>
+  <h3 dir="auto">Bug fix</h3>
 
-  </ul>
+  <ul dir="auto">
 
-  </li>
+  <li>Flipped the order of CRC checks so that things are actually fixed.</li>
 
   </ul>'
-updated: '2022-02-18T23:45:41Z'
-version: v0.2.2
-version_title: 'v0.2.2: sanity checks'
+updated: '2022-03-14T20:02:02Z'
+version: v0.2.3
+version_title: 'v0.2.3: I flipped something around'
 ---
 # NDSForwarder for hiyaCFW
 A basic nds-bootstrap forwarder generator for DSi SDNAND.
