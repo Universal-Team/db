@@ -8,6 +8,11 @@ color_bg: '#801818'
 created: '2017-02-12T22:18:43Z'
 description: The base forwarder packs for use with Forwarder3-DS and NDSForwarder
   forwarders
+downloads:
+  DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z:
+    size: 473415
+    size_str: 462 KiB
+    url: https://github.com/RocketRobz/NTR_Forwarder/releases/download/SD-6/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z
 github: RocketRobz/NTR_Forwarder
 icon: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
 icon_index: 187
