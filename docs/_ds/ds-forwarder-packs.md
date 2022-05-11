@@ -8,6 +8,7 @@ color_bg: '#801818'
 created: '2017-02-12T22:18:43Z'
 description: The base forwarder packs for use with Forwarder3-DS and NDSForwarder
   forwarders
+download_page: https://github.com/RocketRobz/NTR_Forwarder/releases
 downloads:
   DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z:
     size: 473415
@@ -24,5 +25,39 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-updated: '---'
+update_notes: '<p dir="auto"><strong>UPDATE Mar10/2022:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.55.1">nds-bootstrap
+  v0.55.1</a></p>
+
+  <p dir="auto">To install or update:</p>
+
+  <ul dir="auto">
+
+  <li>In the 7z file, extract what''s in <code class="notranslate">for SD card root</code>
+  to the root of the SD card.</li>
+
+  </ul>
+
+  <p dir="auto">To create forwarders, see this page <a href="https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/"
+  rel="nofollow">here</a>, or <a href="https://gbatemp.net/threads/nds-yet-another-nds-bootstrap-forwarder-more-than-40-forwarders-are-now-possible.606138/"
+  rel="nofollow">this one</a> to make more than 40 forwarders on 3DS consoles, or
+  <a href="https://gbatemp.net/threads/release-ndsforwarder-for-dsi-generate-hiyacfw-forwarders-on-the-dsi-directly.606964/"
+  rel="nofollow">this one</a> to make hiyaCFW forwarders directly on the DSi console.</p>
+
+  <p dir="auto"><strong>What''s new?</strong></p>
+
+  <ul dir="auto">
+
+  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  Added cheat support.</li>
+
+  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  Added widescreen support. (Requires new forwarder to be made with the SD Card template
+  updated in Forwarder3-DS.)</li>
+
+  </ul>'
+updated: '2022-02-15T02:37:08Z'
+version: SD-5
+version_title: 'GitHub Release #5'
 ---
