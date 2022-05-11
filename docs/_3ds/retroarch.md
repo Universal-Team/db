@@ -1,5 +1,5 @@
 ---
-author: libretro
+author: Libretro
 avatar: https://avatars.githubusercontent.com/u/1812827?v=4
 categories:
 - emulator
