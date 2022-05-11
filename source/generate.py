@@ -640,7 +640,9 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 			if "autogen_scripts" in app and app["autogen_scripts"] or "scripts" not in app:
 				if "downloads" in app:
 					for file in app["downloads"]:
-						items = next((app["archive"][x] for x in app["archive"] if re.findall(x, file)), None) if "archive" in app else None
+						items, match = next(((app["archive"][x], re.findall(x, file)) for x in app["archive"] if re.findall(x, file)), (None, None)) if "archive" in app else (None, None)
+						if items and match:
+							items = {x.format(*match): [item.format(*match) for item in items[x]] for x in items}
 						if len(re.findall(r"\.(zip|rar|7z|torrent|tar)", file)) == 0 or ("archive" in app and items):
 							if not items:
 								items = {file: None}
@@ -652,7 +654,9 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 
 				if "prerelease" in app:
 					for file in app["prerelease"]["downloads"]:
-						items = next((app["archive"][x] for x in app["archive"] if re.findall(x, file)), None) if "archive" in app else None
+						items, match = next(((app["archive"][x], re.findall(x, file)) for x in app["archive"] if re.findall(x, file)), (None, None)) if "archive" in app else (None, None)
+						if items and match:
+							items = {x.format(*match): [item.format(*match) for item in items[x]] for x in items}
 						if len(re.findall(r"\.(zip|rar|7z|torrent|tar)", file)) == 0 or ("archive" in app and items):
 							if not items:
 								items = {file: None}
@@ -664,7 +668,9 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 
 				if "nightly" in app:
 					for file in app["nightly"]["downloads"]:
-						items = next((app["archive"][x] for x in app["archive"] if re.findall(x, file)), None) if "archive" in app else None
+						items, match = next(((app["archive"][x], re.findall(x, file)) for x in app["archive"] if re.findall(x, file)), (None, None)) if "archive" in app else (None, None)
+						if items and match:
+							items = {x.format(*match): [item.format(*match) for item in items[x]] for x in items}
 						if len(re.findall(r"\.(zip|rar|7z|torrent|tar)", file)) == 0 or ("archive" in app and items):
 							if not items:
 								items = {file: None}
