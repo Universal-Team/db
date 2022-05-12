@@ -1,5 +1,5 @@
 ---
-author: Angband
+author: timschumi
 avatar: https://avatars.githubusercontent.com/u/458884?v=4
 categories:
 - game
@@ -10,10 +10,12 @@ description: A free, single-player roguelike dungeon exploration game
 download_page: https://github.com/angband/angband/releases
 github: angband/angband
 icon: https://github.com/angband.png?size=48
-icon_index: 214
+icon_index: -1
 image: https://github.com/angband.png
 image_length: 3366
 layout: app
+license: gpl-2.0
+license_name: GNU General Public License v2.0
 prerelease:
   download_page: https://github.com/angband/angband/releases/tag/4.2.4-39-g0c3d1eedf
   downloads:
@@ -35,7 +37,8 @@ prerelease:
 source: https://github.com/angband/angband
 systems:
 - 3DS
-title: A free, single-player roguelike dungeon exploration game
+- DS
+title: Angband
 updated: '2022-05-06T22:09:12Z'
 version: 4.2.4-39-g0c3d1eedf
 version_title: Release 4.2.4-39-g0c3d1eedf
