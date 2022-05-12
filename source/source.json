@@ -5044,7 +5044,7 @@
 		"title": "Angband",
 		"author": "timschumi",
 		"source": "https://github.com/angband/angband",
-		"systems": ["3DS"],
+		"systems": ["3DS", "DS"],
 		"categories": ["game"],
 		"image": "https://github.com/angband.png",
 		"icon": "https://github.com/angband.png?size=48",
@@ -5054,6 +5054,9 @@
 		"archive": {
 			"Angband-(.*)-3ds\\.zip": {
 				"Angband-{}.3dsx": ["Angband-{}.3dsx", "angband"]
+			},
+			"Angband-(.*)-nds\\.zip": {
+				"Angband-{}.nds": ["Angband-{}.nds", "angband"]
 			}
 		}
 	}
