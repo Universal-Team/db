@@ -10,17 +10,17 @@ description: A Nintendo Zone Revival for the 3DS.
 download_page: https://github.com/MegaPika/SatellaZone/releases
 downloads:
   SatellaZone.zip:
-    size: 635457609
+    size: 635557034
     size_str: 606 MiB
-    url: https://github.com/MegaPika/SatellaZone/releases/download/1.1/SatellaZone.zip
+    url: https://github.com/MegaPika/SatellaZone/releases/download/1.2/SatellaZone.zip
   SatellaZoneLite.zip:
-    size: 5056084
+    size: 5155311
     size_str: 4 MiB
-    url: https://github.com/MegaPika/SatellaZone/releases/download/1.1/SatellaZoneLite.zip
-  usapatch.zip:
+    url: https://github.com/MegaPika/SatellaZone/releases/download/1.2/SatellaZoneLite.zip
+  UsaPatch.zip:
     size: 672
     size_str: 672 Bytes
-    url: https://github.com/MegaPika/SatellaZone/releases/download/1.1/usapatch.zip
+    url: https://github.com/MegaPika/SatellaZone/releases/download/1.2/UsaPatch.zip
 github: MegaPika/SatellaZone
 icon: https://satellazone.neocities.org/universallogo.png
 icon_index: 212
@@ -33,39 +33,25 @@ source: https://github.com/MegaPika/SatellaZone
 systems:
 - 3DS
 title: SatellaZone
-update_notes: '<h2 dir="auto">Some big changes!</h2>
+update_notes: '<ul dir="auto">
 
-  <ul dir="auto">
+  <li>The title says it, this release fix the HORRIBLE quality of previous SatellaZone</li>
 
-  <li>Redone some pages (changed some images and pages/some images are better quality)</li>
+  <li>Also rearanged some menus (and added a not found page for pages not findable,
+  if you have a "specified file was not found on the server" error (NOT VIDEOS ON
+  THE LITE EDITION because this is normal in this case!), please report it to us because
+  this is not normal)</li>
 
-  <li>Reorganized ALL romfs files</li>
+  <li>IMPORTANT! Again, please delete the old romfs folder of Nintendo Zone because
+  some files name changed again and the old ones will be unused and will take space
+  for nothing.</li>
 
-  </ul>
+  <li>Special thanks to Spencer Everly for sending Nintendo Zone saved page!</li>
 
-  <h2 dir="auto">USA homemenu patch</h2>
-
-  <ul dir="auto">
-
-  <li>This patch allow you to launch Nintendo Zone from homemenu on USA!</li>
-
-  <li>To use: simply extract the luma folder from the "usapatch.zip" archive on the
-  root of your SDcard!</li>
-
-  </ul>
-
-  <h2 dir="auto">Installation instructions</h2>
-
-  <p dir="auto">All is written on the readme: <a href="https://github.com/MegaPika/SatellaZone#readme">https://github.com/MegaPika/SatellaZone#readme</a></p>
-
-  <h2 dir="auto">Important!</h2>
-
-  <p dir="auto">If you already downloaded the first version, please delete the romfs
-  folder of it before installing this one. It will take many space on your SDcard
-  for nothing</p>'
-updated: '2022-05-07T20:30:38Z'
-version: '1.1'
-version_title: SatellaZone reorganized
+  </ul>'
+updated: '2022-05-14T16:06:04Z'
+version: '1.2'
+version_title: SatellaZone Better Quality Edition
 website: https://satellazone.neocities.org/
 ---
 Satella Zone is a Nintendo Zone Revival for the Nintendo 3DS.
