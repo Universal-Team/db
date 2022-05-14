@@ -10,11 +10,11 @@ description: A Nintendo Zone Revival for the 3DS.
 download_page: https://github.com/MegaPika/SatellaZone/releases
 downloads:
   SatellaZone.zip:
-    size: 635557034
+    size: 635557023
     size_str: 606 MiB
     url: https://github.com/MegaPika/SatellaZone/releases/download/1.2/SatellaZone.zip
   SatellaZoneLite.zip:
-    size: 5155311
+    size: 5155300
     size_str: 4 MiB
     url: https://github.com/MegaPika/SatellaZone/releases/download/1.2/SatellaZoneLite.zip
   UsaPatch.zip:
