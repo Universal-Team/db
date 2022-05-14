@@ -10,9 +10,9 @@ description: NAND Title Manager for DSi
 download_page: https://github.com/Epicpkmn11/NTM/releases
 downloads:
   NTM.dsi:
-    size: 253952
+    size: 254464
     size_str: 248 KiB
-    url: https://github.com/Epicpkmn11/NTM/releases/download/v0.1.2/NTM.dsi
+    url: https://github.com/Epicpkmn11/NTM/releases/download/v0.1.3/NTM.dsi
 github: Epicpkmn11/NTM
 icon: https://db.universal-team.net/assets/images/icons/ntm.png
 icon_index: 198
@@ -26,32 +26,39 @@ systems:
 - DS
 title: NTM
 unistore_exclude: true
-update_notes: '<blockquote>
+update_notes: '<table role="table">
 
-  <p dir="auto">Please see <a href="https://github.com/Epicpkmn11/NTM/wiki">the wiki</a>
-  for information on how to use NTM.</p>
+  <thead>
 
-  </blockquote>
+  <tr>
 
-  <h3 dir="auto">Bug fixes</h3>
+  <th align="left"><g-emoji class="g-emoji" alias="exclamation" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2757.png">❗</g-emoji>
+  Please see <a href="https://github.com/Epicpkmn11/NTM/wiki">the wiki</a> for information
+  on how to use NTM.</th>
+
+  </tr>
+
+  </thead>
+
+  </table>
+
+  <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Fixes a bug which caused some save files to be generated incorrectly, preventing
-  the games from loading
+  <li>NTM will now show a warning if a TMD file was not provided when installing to
+  SysNAND</li>
 
-  <ul dir="auto">
+  <li>Blacklisted titles now only apply to the DSi''s region, those titles from other
+  regions are now able to be (un)installed like normal</li>
 
-  <li>Dragon Quest Wars is known to be affected, not sure if anything else was</li>
-
-  </ul>
-
-  </li>
+  <li>You are now able to install blacklisted titles if they are missing (ex. if System
+  Settings was somehow uninstalled in the past, NTM can now reinstall it)</li>
 
   </ul>'
-updated: '2022-03-14T09:46:54Z'
-version: v0.1.2
-version_title: Fixed save file generation
+updated: '2022-05-13T23:18:10Z'
+version: v0.1.3
+version_title: Missing TMD warning
 wiki: https://github.com/Epicpkmn11/NTM/wiki
 ---
 NAND Title Manager, NTM for short, is an application for the Nintendo DSi that allows you to manage titles on your NAND. It can manage titles on both [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/)'s SDNAND and your actual internal memory, typically called SysNAND. **When using in SysNAND mode please use with caution**.
