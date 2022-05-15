@@ -10,11 +10,11 @@ description: A Nintendo Zone Revival for the 3DS.
 download_page: https://github.com/MegaPika/SatellaZone/releases
 downloads:
   SatellaZone.zip:
-    size: 635557023
+    size: 635557022
     size_str: 606 MiB
     url: https://github.com/MegaPika/SatellaZone/releases/download/1.2/SatellaZone.zip
   SatellaZoneLite.zip:
-    size: 5155300
+    size: 5155299
     size_str: 4 MiB
     url: https://github.com/MegaPika/SatellaZone/releases/download/1.2/SatellaZoneLite.zip
   UsaPatch.zip:
@@ -37,16 +37,15 @@ update_notes: '<ul dir="auto">
 
   <li>The title says it, this release fix the HORRIBLE quality of previous SatellaZone</li>
 
-  <li>Also rearanged some menus (and added a not found page for pages not findable,
-  if you have a "specified file was not found on the server" error (NOT VIDEOS ON
-  THE LITE EDITION because this is normal in this case!), please report it to us because
-  this is not normal)</li>
+  <li>Also rearanged some menus (and added a not found page for pages not findable)</li>
 
   <li>IMPORTANT! Again, please delete the old romfs folder of Nintendo Zone because
   some files name changed again and the old ones will be unused and will take space
   for nothing.</li>
 
   <li>Special thanks to Spencer Everly for sending Nintendo Zone saved page!</li>
+
+  <li>15/5/2022: fixed some errors</li>
 
   </ul>'
 updated: '2022-05-14T16:06:04Z'
