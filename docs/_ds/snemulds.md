@@ -34,16 +34,12 @@ systems:
 title: SnemulDS
 updated: '---'
 ---
-NTR Mode Usage:
-- Download and copy, /arm7dldi-ntr -> SnemulDS.nds (NTR mode) from /release folder, snemul.cfg as well, in SD:/ root .
-   If it prompts for overwrite: Yes to All.
-- Create a /snes folder in SD: root, and put your homebrew games on it
-   - SPC Playback: Optionally, create a /spc folder in SD: root, and put your SPC files on it. You can choose and play a SPC File in the "SPC Jukebox" option.
-
-TWL Mode Usage:
-- Download and copy all files from /release/arm7dldi-twl folder, snemul.cfg as well, in SD:/ root .
-   If it prompts for overwrite: Yes to All.
-- Create a /snes folder in SD: root, and put your homebrew games on it
-   - SPC Playback: Optionally, create a /spc folder in SD: root, and put your SPC files on it. You can choose and play a SPC File in the "SPC Jukebox" option. 
-   - Now open TWiLightMenu (you must set it up first, so you can run TWL mode apps), and run ToolchainGenericDS-multiboot.srl.
-      Then select SnemulDS.srl from the menu, choose ARG (A button) and select the snes file to run. That's it!
+Usage:
+- Download and copy all files starting arm7dldi-[ntr/twl] and `snemul.cfg` to the SD root
+   - [NTR] is for DS mode, and [TWL] is for DSi mode
+   - If it prompts for overwrite: Yes to All
+   - Create a `snes` folder in the SD root, and put your games in it
+- SPC Playback: Optionally, create an `spc` folder in the SD root, and put your SPC files in it
+   - You can choose and play an SPC File in the "SPC Jukebox" option
+- [NTR]: Now open loader (internal, hbmenu or other), and run `ToolchainGenericDS-multiboot.nds`. Then select `SnemulDS.nds` from the menu, choose ARG (A button) and select the SNES file to run
+- [TWL]: Now open TWiLight Menu++ (you must set it up first, so you can run TWL mode apps), and run `ToolchainGenericDS-multiboot.srl`. Then select `SnemulDS.srl` from the menu, choose ARG (A button) and select the snes file to run
