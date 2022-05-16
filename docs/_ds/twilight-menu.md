@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 28722682
+    size: 28730543
     size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.7.0/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.8.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 28774772
+    size: 28780455
     size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.7.0/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.8.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 40554117
+    size: 40559214
     size_str: 38 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.7.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.8.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 40749328
+    size: 40755212
     size_str: 38 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.7.0/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.8.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_index: 138
@@ -50,8 +50,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.57.0">nds-bootstrap
-  v0.57.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.57.1">nds-bootstrap
+  v0.57.1</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -67,34 +67,32 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <p dir="auto"><strong>Reminder:</strong> If you get a white screen crash instead
-  of the ROM menu being shown, hold SELECT during the splash screen or after you launched
-  TWLMenu++, to open TWLMenu++ Settings, and change the <code class="notranslate">DSi/3DS
-  Theme Music</code> setting to something other than <code class="notranslate">Theme</code>.</p>
-
   <p dir="auto"><strong>What''s new?</strong></p>
 
   <ul dir="auto">
 
-  <li>Updated B4DS DSiWare whitelist to accommodate for the included nds-bootstrap
-  version.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>:
+  Added AP-fix for <code class="notranslate">Pokémon: SoothingSilver Version (v1.2.0)</code>.</li>
 
-  <li>Added warning messages when launching <em>Art Style: Aquia</em>, <em>Flipper</em>,
-  and <em>Mighty Milky Way</em> on flashcards in DS mode.</li>
-
-  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Allowed skins to set username/date/time X/Y and override settings for macro mode.</li>
-
-  </ul>
-
-  <p dir="auto"><strong>Improvement</strong></p>
+  <li><strong>DSi theme:</strong> Added support for rumble, when moving the cursor!
 
   <ul dir="auto">
 
-  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  and various) Updated translations.</li>
+  <li>Requires the DS Rumble Pak, <em>Drill Dozer</em>, <em>Pokemon Pinball: Ruby
+  &amp; Sapphire</em> (untested), or <em>WarioWare: Twisted</em>.</li>
+
+  </ul>
+
+  </li>
+
+  <li>A message will now appear when attempting to launch a DSiWare title from a flashcard
+  in DS mode on DSi or 3DS consoles.</li>
+
+  <li>The donor ROM message can no longer be skipped without viewing the second page
+  of it.</li>
+
+  <li><strong>3DS theme:</strong> Message box now pops up instead of sliding in.</li>
 
   </ul>
 
@@ -102,34 +100,28 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li><strong>R4/GBC themes: Fixed recent console icon additions not being displayed.</strong></li>
+  <li>Save files are now checked before the per-game settings are shown, instead of
+  selecting a save slot.</li>
 
-  <li>Fixed trying to read custom skin BGM, if no custom skin is found.</li>
+  <li>Fixed reverting to DSi theme after rebooting with GBC theme set.</li>
 
-  <li>Slot-1 is now inited properly, regardless of the <code class="notranslate">Slot-1
-  microSD access</code> setting.
+  <li>Fixed donor ROM message not appearing if nds-bootstrap setting (for DS games)
+  is disabled when launching DSiWare titles from flashcard.</li>
+
+  <li>Tried fixing autoboot with hiyaCFW not working (thus, untested).
 
   <ul dir="auto">
 
-  <li>This allows certain flashcards to be launched (ex. Gateway Blue Card).</li>
+  <li>Icon is now not animated in hiyaCFW.</li>
 
   </ul>
 
   </li>
 
-  <li>Fixed <code class="notranslate">Set as Donor ROM</code> option not showing on
-  flashcards if nds-bootstrap is off.</li>
-
-  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DieGo367/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DieGo367">@DieGo367</a>)
-  Various grayscale color mode fixes.</li>
-
-  <li>Fixed bugged sounds in Pictochat and DLP, if not using DSiWarehax.</li>
-
   </ul>'
-updated: '2022-05-06T04:22:32Z'
-version: v24.7.0
-version_title: 'v24.7.0: 5/5 release, and 5th birthday!'
+updated: '2022-05-16T18:23:45Z'
+version: v24.8.0
+version_title: v24.8.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
