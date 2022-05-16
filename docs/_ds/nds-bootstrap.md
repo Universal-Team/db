@@ -54,7 +54,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   <ul dir="auto">
 
   <li>Three DSiWare titles now support rumble (via the DS Rumble Pak, <em>Drill Dozer</em>,
-  <em>Pokemon Pinball: Ruby &amp; Sapphire</em> (untested), or <em>WarioWare: Twisted</em>)!
+  or <em>WarioWare: Twisted</em>)!
 
   <ul dir="auto">
 

@@ -79,8 +79,7 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Requires the DS Rumble Pak, <em>Drill Dozer</em>, <em>Pokemon Pinball: Ruby
-  &amp; Sapphire</em> (untested), or <em>WarioWare: Twisted</em>.</li>
+  <li>Requires the DS Rumble Pak, <em>Drill Dozer</em>, or <em>WarioWare: Twisted</em>.</li>
 
   </ul>
 
