@@ -53,9 +53,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Three DSiWare titles now support rumble (via the Rumble Pak, <em>Drill Dozer</em>
-  (untested), <em>Pokemon Pinball: Ruby &amp; Sapphire</em> (untested), or <em>WarioWare:
-  Twisted</em>)!
+  <li>Three DSiWare titles now support rumble (via the DS Rumble Pak, <em>Drill Dozer</em>,
+  <em>Pokemon Pinball: Ruby &amp; Sapphire</em> (untested), or <em>WarioWare: Twisted</em>)!
 
   <ul dir="auto">
 
@@ -71,9 +70,11 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ul>
 
-  <p dir="auto"><strong>Bug fix</strong></p>
+  <p dir="auto"><strong>Bug fixes</strong></p>
 
   <ul dir="auto">
+
+  <li><strong>B4DS mode:</strong> Re-enabled sound effects in <em>Mighty Milky Way</em>.</li>
 
   <li>Fixed <em>Mario vs. Donkey Kong: Mini-Land Mayhem</em> crashing in DSi mode
   (on DSi) after selecting a save file.</li>
