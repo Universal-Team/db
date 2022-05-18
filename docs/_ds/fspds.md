@@ -21,6 +21,46 @@ image_length: 586
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+prerelease:
+  download_page: https://github.com/NotImplementedLife/FSPDS/releases/tag/V0.3.41164628D
+  downloads:
+    FSPDS-V0.3.41164628D.nds:
+      size: 235520
+      size_str: 230 KiB
+      url: https://github.com/NotImplementedLife/FSPDS/releases/download/V0.3.41164628D/FSPDS-V0.3.41164628D.nds
+  update_notes: '<p dir="auto">FSPDS now looks for flipnotes in official Flipnote
+    Studio paths from the SD card:</p>
+
+    <ul dir="auto">
+
+    <li>/private/ds/app/4b475556 - for Flipnote Studio Europe/Australia</li>
+
+    <li>/private/ds/app/4B475545 - for Flipnote Studio Americas</li>
+
+    <li>/private/ds/app/4B47554A - for Flipnote Studio Japan</li>
+
+    </ul>
+
+    <p dir="auto">The directories are detected automatically based on whether they
+    exist on the SD card. The user can choose which path to look in for flipnotes.</p>
+
+    <p dir="auto">Pressing B on the "Files" tab displays the Path menu in case user
+    wants to inspect another directory</p>
+
+    <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/70803115/169023464-eb05000c-0c7c-4904-afed-96b54e13e17e.png"><img
+    src="https://user-images.githubusercontent.com/70803115/169023464-eb05000c-0c7c-4904-afed-96b54e13e17e.png"
+    alt="Screenshot" style="max-width: 100%;"></a></p>'
+  update_notes_md: "FSPDS now looks for flipnotes in official Flipnote Studio paths\
+    \ from the SD card:\n - /private/ds/app/4b475556 - for Flipnote Studio Europe/Australia\n\
+    \ - /private/ds/app/4B475545 - for Flipnote Studio Americas\n - /private/ds/app/4B47554A\
+    \ - for Flipnote Studio Japan\n\nThe directories are detected automatically based\
+    \ on whether they exist on the SD card. The user can choose which path to look\
+    \ in for flipnotes.\n\nPressing B on the \"Files\" tab displays the Path menu\
+    \ in case user wants to inspect another directory\n\n\n![Screenshot](https://user-images.githubusercontent.com/70803115/169023464-eb05000c-0c7c-4904-afed-96b54e13e17e.png)\n\
+    \n"
+  updated: '2022-05-18T07:47:22Z'
+  version: V0.3.41164628D
+  version_title: FSPDS V0.3.41164628D
 screenshots:
 - description: File list
   url: https://db.universal-team.net/assets/images/screenshots/fspds/file-list.png
