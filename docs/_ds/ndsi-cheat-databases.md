@@ -15,8 +15,8 @@ bitbucket:
   repo: DeadSkullzJr/nds-i-cheat-databases
 categories:
 - extra
-color: '#84836f'
-color_bg: '#807f6b'
+color: '#898772'
+color_bg: '#807e6a'
 created: '2021-12-26T07:15:47.307433+00:00'
 description: ''
 download_page: https://bitbucket.org/DeadSkullzJr/nds-i-cheat-databases/src/master/Cheat%20Databases/cheat.dat
@@ -59,7 +59,7 @@ downloads:
     url: https://api.bitbucket.org/2.0/repositories/DeadSkullzJr/nds-i-cheat-databases/src/963fff3858de7539891ef7918d992b8b06972a48/Cheat%20Databases/usrcheat.dat
 icon_index: 140
 image: https://db.universal-team.net/assets/images/images/ndsi-cheat-databases.png
-image_length: 10188
+image_length: 7190
 layout: app
 source: https://bitbucket.org/DeadSkullzJr/nds-i-cheat-databases
 systems:

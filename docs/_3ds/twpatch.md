@@ -3,8 +3,8 @@ author: Sono
 avatar: https://avatars.githubusercontent.com/u/7823099?v=4
 categories:
 - utility
-color: '#8d8e9d'
-color_bg: '#737380'
+color: '#4b5182'
+color_bg: '#4a4f80'
 created: '2019-07-23T19:16:11Z'
 description: DS(i) mode screen filters and patches
 download_page: https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/
@@ -16,7 +16,7 @@ downloads:
 icon: https://db.universal-team.net/assets/images/icons/twpatch.png
 icon_index: 149
 image: https://db.universal-team.net/assets/images/images/twpatch.png
-image_length: 25344
+image_length: 24255
 layout: app
 qr:
   TWPatch.cia: https://db.universal-team.net/assets/images/qr/twpatch-cia.png

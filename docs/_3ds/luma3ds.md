@@ -18,8 +18,8 @@ downloads:
     url: https://github.com/LumaTeam/Luma3DS/releases/download/v10.3/Luma3DSv10.3.zip
 github: LumaTeam/Luma3DS
 icon_index: 146
-image: https://avatars.githubusercontent.com/u/65085206?v=4
-image_length: 17885
+image: https://avatars.githubusercontent.com/u/65085206?v=4&size=128
+image_length: 7260
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

@@ -17,7 +17,7 @@ github: Jonatan6/Pistol-Pong-DS
 icon: https://db.universal-team.net/assets/images/icons/pistol-pong-ds.png
 icon_index: 170
 image: https://db.universal-team.net/assets/images/images/pistol-pong-ds.png
-image_length: 14765
+image_length: 2201
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

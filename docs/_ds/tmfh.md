@@ -17,7 +17,7 @@ github: JeffRuLz/TMFH
 icon: https://db.universal-team.net/assets/images/icons/tmfh.png
 icon_index: 23
 image: https://db.universal-team.net/assets/images/images/tmfh.png
-image_length: 401
+image_length: 225
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

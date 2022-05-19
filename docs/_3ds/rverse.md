@@ -19,8 +19,8 @@ downloads:
     url: https://github.com/rverseTeam/rverse-Releases/releases/download/v4.0.0/rverse-3ds.zip
 github: rverseTeam/rverse-Releases
 icon_index: 144
-image: https://avatars.githubusercontent.com/u/38678735?v=4
-image_length: 18219
+image: https://avatars.githubusercontent.com/u/38678735?v=4&size=128
+image_length: 4504
 layout: app
 source: https://github.com/rverseTeam/rverse2
 systems:

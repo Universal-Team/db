@@ -17,7 +17,7 @@ github: Drenn1/GameYob
 icon: https://db.universal-team.net/assets/images/icons/gameyob.png
 icon_index: 28
 image: https://db.universal-team.net/assets/images/images/gameyob.png
-image_length: 474
+image_length: 246
 layout: app
 license: mit
 license_name: MIT License

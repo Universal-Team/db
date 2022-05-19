@@ -22,7 +22,7 @@ downloads:
 icon: https://db.universal-team.net/assets/images/icons/ctgp-7-downloader.png
 icon_index: 179
 image: https://db.universal-team.net/assets/images/images/ctgp-7-downloader.png
-image_length: 51688
+image_length: 45424
 layout: app
 qr:
   CTGP-7_Downloader.cia: https://db.universal-team.net/assets/images/qr/ctgp-7_downloader-cia.png

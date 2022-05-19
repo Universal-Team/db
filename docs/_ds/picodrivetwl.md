@@ -12,7 +12,7 @@ github: DS-Homebrew/PicoDriveTWL
 icon: https://db.universal-team.net/assets/images/icons/picodrivetwl.png
 icon_index: 21
 image: https://db.universal-team.net/assets/images/images/picodrivetwl.png
-image_length: 764
+image_length: 466
 layout: app
 prerelease:
   download_page: https://github.com/DS-Homebrew/PicoDriveTWL/releases/tag/v2.0.2

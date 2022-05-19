@@ -13,7 +13,7 @@ description: SnemulDS 0.6 [Revival]
 icon: https://db.universal-team.net/assets/images/icons/snemulds.png
 icon_index: 19
 image: https://db.universal-team.net/assets/images/images/snemulds.png
-image_length: 626
+image_length: 342
 layout: app
 nightly:
   download_page: https://bitbucket.org/Coto88/snemulds/src/master/release

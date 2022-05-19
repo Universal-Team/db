@@ -15,8 +15,8 @@ downloads:
     url: https://github.com/DS-Homebrew/SafeNANDManager/releases/download/v1.1/SafeNANDManager.nds
 github: DS-Homebrew/SafeNANDManager
 icon_index: 164
-image: https://avatars.githubusercontent.com/u/46971470?v=4
-image_length: 16424
+image: https://avatars.githubusercontent.com/u/46971470?v=4&size=128
+image_length: 4456
 layout: app
 license: mit
 license_name: MIT License

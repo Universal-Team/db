@@ -30,7 +30,7 @@ github: Gericom/GBARunner2
 icon: https://db.universal-team.net/assets/images/icons/gbarunner2.png
 icon_index: 10
 image: https://db.universal-team.net/assets/images/images/gbarunner2.png
-image_length: 593
+image_length: 324
 layout: app
 source: https://github.com/Gericom/GBARunner2
 systems:

@@ -17,7 +17,7 @@ github: DS-Homebrew/NesDS
 icon: https://db.universal-team.net/assets/images/icons/nesds.png
 icon_index: 17
 image: https://db.universal-team.net/assets/images/images/nesds.png
-image_length: 277
+image_length: 177
 layout: app
 nightly:
   download_page: https://github.com/TWLBot/Builds/blob/master/extras/nesDS.7z

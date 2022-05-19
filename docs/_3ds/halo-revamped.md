@@ -17,7 +17,7 @@ github: CollinScripter/Revamped3DS
 icon: https://raw.githubusercontent.com/CollinScripter/Revamped3DS/master/icon.png
 icon_index: 169
 image: https://db.universal-team.net/assets/images/images/halo-revamped.png
-image_length: 989386
+image_length: 30077
 layout: app
 source: https://github.com/CollinScripter/Revamped3DS
 systems:

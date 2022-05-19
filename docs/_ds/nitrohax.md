@@ -17,7 +17,7 @@ github: chishm/nitrohax
 icon: https://db.universal-team.net/assets/images/icons/nitrohax.png
 icon_index: 25
 image: https://db.universal-team.net/assets/images/images/nitrohax.png
-image_length: 354
+image_length: 241
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

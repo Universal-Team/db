@@ -17,7 +17,7 @@ github: Arisotura/lolSnes
 icon: https://db.universal-team.net/assets/images/icons/lolsnes.png
 icon_index: 18
 image: https://db.universal-team.net/assets/images/images/lolsnes.png
-image_length: 22541
+image_length: 7997
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

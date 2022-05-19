@@ -18,7 +18,7 @@ github: mariohackandglitch/YAMKC_3DS
 icon: https://raw.githubusercontent.com/mariohackandglitch/YAMKC_3DS/main/icon.png
 icon_index: 177
 image: https://db.universal-team.net/assets/images/images/yet-another-mario-kart-clone-3ds.png
-image_length: 61098
+image_length: 41664
 layout: app
 license: other
 license_name: Other

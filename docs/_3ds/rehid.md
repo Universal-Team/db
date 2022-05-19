@@ -4,8 +4,8 @@ autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/16360444?v=4
 categories:
 - utility
-color: '#411d38'
-color_bg: '#411d38'
+color: '#411c38'
+color_bg: '#411c38'
 created: '2020-11-07T12:39:47Z'
 description: HID module rewrite(button remapping and more)
 download_page: https://github.com/hax0kartik/rehid/releases
@@ -20,8 +20,8 @@ downloads:
     url: https://github.com/hax0kartik/rehid/releases/download/v3.0/rehidhelper.3dsx
 github: hax0kartik/rehid
 icon_index: 171
-image: https://avatars.githubusercontent.com/u/16360444?v=4
-image_length: 214969
+image: https://avatars.githubusercontent.com/u/16360444?v=4&size=128
+image_length: 21350
 layout: app
 source: https://github.com/hax0kartik/rehid
 systems:

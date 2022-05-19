@@ -17,7 +17,7 @@ github: smealum/portalDS
 icon: https://db.universal-team.net/assets/images/icons/portalds.png
 icon_index: 13
 image: https://db.universal-team.net/assets/images/images/portalds.png
-image_length: 1383
+image_length: 473
 layout: app
 source: https://github.com/smealum/portalDS
 systems:

@@ -17,7 +17,7 @@ github: Garhoogin/Box
 icon: https://db.universal-team.net/assets/images/icons/box.png
 icon_index: 185
 image: https://db.universal-team.net/assets/images/images/box.png
-image_length: 1012
+image_length: 405
 layout: app
 license: bsd-2-clause
 license_name: BSD 2-Clause "Simplified" License
