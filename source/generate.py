@@ -435,7 +435,7 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 			elif "image" not in app and "icon" in app:
 				app["image"] = app["icon"]
 			elif "image" not in app and "avatar" in app:
-				app["image"] = app["avatar"]
+				app["image"] = app["avatar"] + "&size=128"
 
 			# Get image size
 			if "image_length" not in app and "image" in app:

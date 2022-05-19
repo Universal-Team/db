@@ -3,8 +3,8 @@ author: MechanicalDragon
 avatar: https://avatars.githubusercontent.com/u/43786828?v=4
 categories:
 - utility
-color: '#82c3d7'
-color_bg: '#4d7480'
+color: '#82c1d7'
+color_bg: '#4d7280'
 created: '2021-04-12T08:12:05Z'
 description: Generate and Install NDS Forwarders
 download_page: https://github.com/MechanicalDragon0687/NDSForwarder/releases
@@ -15,8 +15,8 @@ downloads:
     url: https://github.com/MechanicalDragon0687/ndsForwarder/releases/download/1.4.3/ndsForwarder.3dsx
 github: MechanicalDragon0687/NDSForwarder
 icon_index: 173
-image: https://avatars.githubusercontent.com/u/43786828?v=4
-image_length: 30859
+image: https://avatars.githubusercontent.com/u/43786828?v=4&size=128
+image_length: 10211
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

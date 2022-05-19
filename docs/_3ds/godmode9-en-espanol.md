@@ -4,7 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/5817696?v=4
 categories:
 - utility
 - firm
-color: '#e17806'
+color: '#e37906'
 color_bg: '#804403'
 created: '2022-04-25T23:50:04Z'
 description: 'GodMode9 Explorer - Un navegador de archivos de acceso completo para
@@ -18,7 +18,7 @@ downloads:
 github: LopezTutoriales/GodMode9_ESP
 icon_index: 210
 image: https://db.universal-team.net/assets/images/images/godmode9-en-espanol.png
-image_length: 39746
+image_length: 8862
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

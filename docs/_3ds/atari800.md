@@ -21,7 +21,7 @@ github: RandomMan25XX/atari800
 icon: https://db.universal-team.net/assets/images/icons/atari800.png
 icon_index: 184
 image: https://db.universal-team.net/assets/images/images/atari800.png
-image_length: 16843
+image_length: 12011
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0

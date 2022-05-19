@@ -4,8 +4,8 @@ avatar: https://avatars.githubusercontent.com/u/5817696?v=4
 categories:
 - firm
 - luma3ds
-color: '#ada491'
-color_bg: '#80796b'
+color: '#aea591'
+color_bg: '#80796a'
 created: '2021-05-15T18:53:42Z'
 description: '"Firmware personalizado" (N)3DS a prueba de novatos'
 download_page: https://github.com/LopezTutoriales/Luma3DS-Spanish/releases
@@ -19,8 +19,8 @@ downloads:
     url: https://www.dropbox.com/s/wr4hpebjz215avm/boot.firm?dl=1
 github: LopezTutoriales/Luma3DS-Spanish
 icon_index: 209
-image: https://avatars.githubusercontent.com/u/5817696?v=4
-image_length: 151760
+image: https://avatars.githubusercontent.com/u/5817696?v=4&size=128
+image_length: 26161
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

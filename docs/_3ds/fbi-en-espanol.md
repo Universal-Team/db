@@ -24,7 +24,7 @@ downloads:
 github: LopezTutoriales/FBI-Spanish
 icon_index: 211
 image: https://db.universal-team.net/assets/images/images/fbi-en-espanol.png
-image_length: 266
+image_length: 251
 layout: app
 license: mit
 license_name: MIT License

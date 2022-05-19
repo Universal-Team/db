@@ -17,7 +17,7 @@ downloads:
     url: https://github.com/profi200/open_agb_firm/releases/download/alpha_2022-4-25/open_agb_firm_alpha_20220425.7z
 github: profi200/open_agb_firm
 icon_index: 142
-image: https://avatars.githubusercontent.com/u/7831477?v=4
+image: https://avatars.githubusercontent.com/u/7831477?v=4&size=128
 image_length: 1560
 layout: app
 license: gpl-3.0
