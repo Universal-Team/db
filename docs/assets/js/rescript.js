@@ -1,3 +1,5 @@
+let es9 = {...{}}; // Intentional syntax error in pre-ES9 to not run this file
+
 // Make navbar not open on hover
 Array.from(document.getElementsByClassName("hover-content")).forEach(r => {
 	r.classList.remove("hover-content");
