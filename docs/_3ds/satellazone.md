@@ -10,17 +10,17 @@ description: A Nintendo Zone Revival for the 3DS.
 download_page: https://github.com/MegaPika/SatellaZone/releases
 downloads:
   LocalSatellaZone.zip:
-    size: 635337408
+    size: 635399644
     size_str: 605 MiB
     url: https://github.com/MegaPika/SatellaZone/releases/download/1.3/LocalSatellaZone.zip
   SatellaZone.zip:
-    size: 4937524
+    size: 4707894
     size_str: 4 MiB
     url: https://github.com/MegaPika/SatellaZone/releases/download/1.3/SatellaZone.zip
-  usapatch.zip:
+  UsaPatch.zip:
     size: 672
     size_str: 672 Bytes
-    url: https://github.com/MegaPika/SatellaZone/releases/download/1.3/usapatch.zip
+    url: https://github.com/MegaPika/SatellaZone/releases/download/1.3/UsaPatch.zip
 github: MegaPika/SatellaZone
 icon: https://satellazone.neocities.org/universallogo.png
 icon_index: 212
@@ -37,7 +37,7 @@ update_notes: '<h2 dir="auto">Big update!</h2>
 
   <ul dir="auto">
 
-  <li>Videos are now server sided, you need to creat a hotspot named "NintendoSpotPass1"
+  <li>Videos are now server sided, you need to create a hotspot named "NintendoSpotPass1"
   wihout password to watch them</li>
 
   <li>Edited some error messages</li>
