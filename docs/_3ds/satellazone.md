@@ -9,18 +9,18 @@ created: '2022-04-26T16:05:24Z'
 description: A Nintendo Zone Revival for the 3DS.
 download_page: https://github.com/MegaPika/SatellaZone/releases
 downloads:
+  LocalSatellaZone.zip:
+    size: 635337408
+    size_str: 605 MiB
+    url: https://github.com/MegaPika/SatellaZone/releases/download/1.3/LocalSatellaZone.zip
   SatellaZone.zip:
-    size: 635557022
-    size_str: 606 MiB
-    url: https://github.com/MegaPika/SatellaZone/releases/download/1.2/SatellaZone.zip
-  SatellaZoneLite.zip:
-    size: 5155299
+    size: 4937524
     size_str: 4 MiB
-    url: https://github.com/MegaPika/SatellaZone/releases/download/1.2/SatellaZoneLite.zip
-  UsaPatch.zip:
+    url: https://github.com/MegaPika/SatellaZone/releases/download/1.3/SatellaZone.zip
+  usapatch.zip:
     size: 672
     size_str: 672 Bytes
-    url: https://github.com/MegaPika/SatellaZone/releases/download/1.2/UsaPatch.zip
+    url: https://github.com/MegaPika/SatellaZone/releases/download/1.3/usapatch.zip
 github: MegaPika/SatellaZone
 icon: https://satellazone.neocities.org/universallogo.png
 icon_index: 212
@@ -33,24 +33,25 @@ source: https://github.com/MegaPika/SatellaZone
 systems:
 - 3DS
 title: SatellaZone
-update_notes: '<ul dir="auto">
+update_notes: '<h2 dir="auto">Big update!</h2>
 
-  <li>The title says it, this release fix the HORRIBLE quality of previous SatellaZone</li>
+  <ul dir="auto">
 
-  <li>Also rearanged some menus (and added a not found page for pages not findable)</li>
+  <li>Videos are now server sided, you need to creat a hotspot named "NintendoSpotPass1"
+  wihout password to watch them</li>
 
-  <li>IMPORTANT! Again, please delete the old romfs folder of Nintendo Zone because
-  some files name changed again and the old ones will be unused and will take space
-  for nothing.</li>
+  <li>Edited some error messages</li>
 
-  <li>Special thanks to Spencer Everly for sending Nintendo Zone saved page!</li>
+  <li>As always, improved some pages quality</li>
 
-  <li>15/5/2022: fixed some errors</li>
+  <li>Don''t forget to delete old romfs folder like on every updates!</li>
+
+  <li>(If you see something wrong, please report it on the discord server, thanks!)</li>
 
   </ul>'
-updated: '2022-05-14T16:06:04Z'
-version: '1.2'
-version_title: SatellaZone Better Quality Edition
+updated: '2022-05-21T17:20:23Z'
+version: '1.3'
+version_title: Server Videos!
 website: https://satellazone.neocities.org/
 ---
 Satella Zone is a Nintendo Zone Revival for the Nintendo 3DS.
