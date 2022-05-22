@@ -9,12 +9,8 @@ created: '2022-04-26T16:05:24Z'
 description: A Nintendo Zone Revival for the 3DS.
 download_page: https://github.com/MegaPika/SatellaZone/releases
 downloads:
-  LocalSatellaZone.zip:
-    size: 635399644
-    size_str: 605 MiB
-    url: https://github.com/MegaPika/SatellaZone/releases/download/1.3/LocalSatellaZone.zip
   SatellaZone.zip:
-    size: 4707894
+    size: 4928100
     size_str: 4 MiB
     url: https://github.com/MegaPika/SatellaZone/releases/download/1.3/SatellaZone.zip
   UsaPatch.zip:
