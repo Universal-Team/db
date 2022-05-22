@@ -7,7 +7,7 @@ layout: compress
 	<channel>
 		<title>3DS | {{ site.title }}</title>
 		<link>{{ site.url }}</link>
-		<atom:link href="{{ page.url | absolute_url }}" rel="self" type="application/rss+xml" />
+		<atom:link href="{{ page.url | absolute_url | replace: "http://", "https://" }}" rel="self" type="application/rss+xml" />
 		<description>{{ site.description }}</description>
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 		<language>en-us</language>
@@ -19,7 +19,7 @@ layout: compress
 				{% else %}
 					<title>{{ app.title }} updated to {{ app.version }}</title>
 				{% endif %}
-				<link>{{ app.url | absolute_url | remove: ".html" }}</link>
+				<link>{{ app.url | absolute_url | remove: ".html" | replace: "http://", "https://" }}</link>
 				<description>
 					&lt;h1&gt;{{ app.version }}{% if app.version_title and app.version_title != app.version %} - {{ app.version_title }}{% endif %}&lt;/h1&gt;
 					{% if app.update_notes %}
