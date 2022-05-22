@@ -1,6 +1,6 @@
 ---
-author: fincs
-avatar: https://avatars.githubusercontent.com/u/581494?v=4
+author: devkitPro
+avatar: https://avatars.githubusercontent.com/u/7538897?v=4
 categories:
 - utility
 color: '#4bbbf5'
@@ -12,25 +12,18 @@ downloads:
   boot.3dsx:
     size: 362344
     size_str: 353 KiB
-    url: https://github.com/fincs/new-hbmenu/releases/download/v2.3.0/boot.3dsx
+    url: https://github.com/devkitPro/3ds-hbmenu/releases/download/v2.3.0/boot.3dsx
 github: fincs/new-hbmenu
 icon: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
 icon_index: 148
 image: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
 image_length: 21865
 layout: app
-screenshots:
-- description: 3dslink
-  url: https://db.universal-team.net/assets/images/screenshots/new-hbmenu/3dslink.png
-- description: Favorite app
-  url: https://db.universal-team.net/assets/images/screenshots/new-hbmenu/favorite-app.png
-- description: File list
-  url: https://db.universal-team.net/assets/images/screenshots/new-hbmenu/file-list.png
-source: https://github.com/fincs/new-hbmenu
+source: https://github.com/devkitPro/3ds-hbmenu
 systems:
 - 3DS
-title: new-hbmenu
-update_notes: '<ul dir="auto">
+title: 3ds-hbmenu
+update_notes: '<ul>
 
   <li>Built with latest tools and libraries.</li>
 
