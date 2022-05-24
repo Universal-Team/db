@@ -5058,5 +5058,44 @@
 				"Angband-{}.nds": ["Angband-{}.nds", "angband"]
 			}
 		}
+	},
+	{
+		"github": "SciresM/boot9strap",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"scripts": {
+			"boot9strap.firm": [
+				{
+					"type": "downloadRelease",
+					"repo": "SciresM/boot9strap",
+					"file": "boot9strap-[\\d.]*\\.zip",
+					"output": "/boot9strap.zip"
+				},
+				{
+					"type": "extractFile",
+					"file": "/boot9strap.zip",
+					"input": "",
+					"output": "/boot9strap/"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/boot9strap.zip"
+				},
+				{
+					"type": "promptMessage",
+					"message": "To install/update, use SafeB9SInstaller.\nSee https://3ds.hacks.guide for usage instructions."
+				}
+			]
+		}
+	},
+	{
+		"github": "d0k3/SafeB9SInstaller",
+		"systems": ["3DS"],
+		"categories": ["utility", "firm"],
+		"archive": {
+			"SafeB9SInstaller-.*\\.zip": {
+				"SafeB9SInstaller.firm": ["SafeB9SInstaller.firm"]
+			}
+		}
 	}
 ]
