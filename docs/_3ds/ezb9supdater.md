@@ -84,6 +84,6 @@ EzB9SUpdater is an utility that allows updating to the latest Boot9Strap version
 1. Once you finish the B9S update, you can exit the app and uninstall it from FBI.
 1. In order to check if you updated B9S from 1.3 to 1.4 do the following steps:
    1. Power off your console.
-   1. Press and hold the following button combination: X + START + SELECT.
+   1. Press and hold the following button combination: `X + START + SELECT`.
    1. Without releasing those buttons, power on your device.
-   1. Your notification LED should lit up for a second (status codes). If it didn't, the update wasn't installed properly.
+   1. Your notification LED should lit up for a second ([status codes](https://github.com/PabloMK7/boot9strap/tree/patch-1#led-status-codes)). If it didn't, the update wasn't installed properly.
