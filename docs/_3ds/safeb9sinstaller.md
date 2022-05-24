@@ -15,7 +15,7 @@ downloads:
     size_str: 606 KiB
     url: https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip
 github: d0k3/SafeB9SInstaller
-icon_index: -1
+icon_index: 216
 image: https://avatars.githubusercontent.com/u/12467483?v=4&size=128
 image_length: 27635
 layout: app
