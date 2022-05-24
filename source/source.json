@@ -5092,6 +5092,7 @@
 		"github": "d0k3/SafeB9SInstaller",
 		"systems": ["3DS"],
 		"categories": ["utility", "firm"],
+		"icon": "https://raw.githubusercontent.com/d0k3/SafeB9SInstaller/master/resources/BrahmaIcon.png",
 		"scripts": {
 			"SafeB9SInstaller.firm": [
 				{
