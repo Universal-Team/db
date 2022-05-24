@@ -12,22 +12,22 @@ description: Nintellivision - an Intellivision Emulator for the Nintendo DS/DSi.
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 687616
-    size_str: 671 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.5/NINTV-DS.nds
+    size: 689664
+    size_str: 673 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.6/NINTV-DS.nds
   README.md:
-    size: 10248
+    size: 10645
     size_str: 10 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.5/README.md
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.6/README.md
   extras.zip:
-    size: 826858
-    size_str: 807 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.5/extras.zip
+    size: 832208
+    size_str: 812 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.6/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 icon_index: 186
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 16273
+image_length: 16283
 layout: app
 script_message: 'You need "grom.bin", "exec.bin",
 
@@ -36,19 +36,15 @@ source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V3.5 : 01-Mar-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V3.6 : 24-May-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Added support for ECS and ECS-Sound-Enhanced games.</li>
-
-  <li>Improved internal database so more games are recognized correctly.</li>
-
-  <li>Save states changed with ECS support. Finish your 3.4 games before upgrading
-  or lose your progress.</li>
+  <li>Added cheat support. Place NINTV-DS.cht into /data directory. See ''extras''
+  folder.</li>
 
   </ul>'
-updated: '2022-03-01T12:06:09Z'
-version: '3.5'
-version_title: Version 3.5
+updated: '2022-05-24T11:10:21Z'
+version: '3.6'
+version_title: Version 3.6
 ---
