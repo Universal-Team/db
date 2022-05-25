@@ -5064,6 +5064,7 @@
 		"github": "SciresM/boot9strap",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unistore_exclude": true,
 		"scripts": {
 			"boot9strap.firm": [
 				{
