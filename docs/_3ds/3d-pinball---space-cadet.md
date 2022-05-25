@@ -24,6 +24,9 @@ license_name: MIT License
 screenshots:
 - description: Awaiting deployment
   url: https://db.universal-team.net/assets/images/screenshots/3d-pinball---space-cadet/awaiting-deployment.png
+script_message: 'Note: You will need the game data files from
+
+  an actual copy of 3D pinball or "Full Tilt!".'
 source: https://github.com/MaikelChan/SpaceCadetPinball/tree/3ds
 systems:
 - 3DS
