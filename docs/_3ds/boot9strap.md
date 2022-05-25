@@ -36,6 +36,7 @@ source: https://github.com/SciresM/boot9strap
 systems:
 - 3DS
 title: boot9strap
+unistore_exclude: true
 update_notes: '<p dir="auto">Boot9/Boot11 code execution.</p>
 
   <ul dir="auto">
