@@ -12,7 +12,7 @@ downloads:
   NTM.dsi:
     size: 254464
     size_str: 248 KiB
-    url: https://github.com/Epicpkmn11/NTM/releases/download/v0.1.3/NTM.dsi
+    url: https://github.com/Epicpkmn11/NTM/releases/download/v0.1.4/NTM.dsi
 github: Epicpkmn11/NTM
 icon: https://db.universal-team.net/assets/images/icons/ntm.png
 icon_index: 198
@@ -42,23 +42,17 @@ update_notes: '<table role="table">
 
   </table>
 
-  <h3 dir="auto">What''s new?</h3>
+  <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>NTM will now show a warning if a TMD file was not provided when installing to
-  SysNAND</li>
-
-  <li>Blacklisted titles now only apply to the DSi''s region, those titles from other
-  regions are now able to be (un)installed like normal</li>
-
-  <li>You are now able to install blacklisted titles if they are missing (ex. if System
-  Settings was somehow uninstalled in the past, NTM can now reinstall it)</li>
+  <li>Fixes the TMD warning <em>always</em> triggering, instead of only when the TMD
+  is missing</li>
 
   </ul>'
-updated: '2022-05-13T23:18:10Z'
-version: v0.1.3
-version_title: Missing TMD warning
+updated: '2022-05-26T21:41:44Z'
+version: v0.1.4
+version_title: Derp fix
 wiki: https://github.com/Epicpkmn11/NTM/wiki
 ---
 NAND Title Manager, NTM for short, is an application for the Nintendo DSi that allows you to manage titles on your NAND. It can manage titles on both [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/)'s SDNAND and your actual internal memory, typically called SysNAND. **When using in SysNAND mode please use with caution**.
