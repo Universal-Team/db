@@ -23,8 +23,8 @@ icon_index: 85
 image: https://raw.githubusercontent.com/hax0kartik/Multidownload/master/resources/banner.png
 image_length: 29351
 layout: app
-license: other
-license_name: Other
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 qr:
   Multidownload.cia: https://db.universal-team.net/assets/images/qr/multidownload-cia.png
 source: https://github.com/hax0kartik/Multidownload
