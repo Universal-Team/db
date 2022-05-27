@@ -5042,7 +5042,7 @@
 	{
 		"github": "angband/angband",
 		"title": "Angband",
-		"author": "timschumi",
+		"author": "The Angband team",
 		"source": "https://github.com/angband/angband",
 		"systems": ["3DS", "DS"],
 		"categories": ["game"],
