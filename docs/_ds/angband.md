@@ -1,5 +1,5 @@
 ---
-author: timschumi
+author: The Angband team
 avatar: https://avatars.githubusercontent.com/u/458884?v=4
 categories:
 - game
