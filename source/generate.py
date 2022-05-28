@@ -99,8 +99,8 @@ def retroarchUniStore(docsDir: str, tempDir: str) -> None:
 		"RetroArch Cores",
 		"Libretro",
 		"RetroArch cores",
-		"https://github.com/Universal-Team/db/raw/master/docs/unistore/retroarch.unistore",
-		"https://github.com/Universal-Team/db/raw/master/docs/unistore/retroarch.t3x"
+		"https://db.universal-team.net/unistore/retroarch.unistore",
+		"https://db.universal-team.net/unistore/retroarch.t3x"
 	)
 
 	iconIndexRA = -1
@@ -176,10 +176,10 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 		"Universal-DB",
 		"Universal-Team",
 		"Universal-DB - An online database of 3DS and DS homebrew",
-		"https://github.com/Universal-Team/db/raw/master/docs/unistore/universal-db.unistore",
-		"https://github.com/Universal-Team/db/raw/master/docs/unistore/universal-db.t3x",
-		"https://github.com/Universal-Team/db/raw/master/docs/unistore/universal-db.tdx",
-		"https://github.com/Universal-Team/db/raw/master/docs/unistore/universal-db-info.json"
+		"https://db.universal-team.net/unistore/universal-db.unistore",
+		"https://db.universal-team.net/unistore/universal-db.t3x",
+		"https://db.universal-team.net/unistore/universal-db.tdx",
+		"https://db.universal-team.net/unistore/universal-db-info.json"
 	)
 
 	# Fetch info for GitHub apps and output
