@@ -16,8 +16,8 @@ downloads:
     size_str: 1 MiB
     url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.2/ColecoDS.nds
   README.md:
-    size: 25529
-    size_str: 24 KiB
+    size: 10645
+    size_str: 10 KiB
     url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.2/README.md
   blank.cas:
     size: 1
