@@ -7,28 +7,9 @@ color: '#c1b295'
 color_bg: '#807662'
 created: '2021-12-07T16:15:06Z'
 description: PyMO AVG Game Engine implemention in C.
+download_filter: (\.3dsx|\.cia)
 download_page: https://github.com/Strrationalism/CPyMO/releases
 downloads:
-  CPyMO.ASCII.ART.for.Linux.zip:
-    size: 219718
-    size_str: 214 KiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/CPyMO.ASCII.ART.for.Linux.zip
-  CPyMO.ASCII.ART.for.macOS.zip:
-    size: 189867
-    size_str: 185 KiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/CPyMO.ASCII.ART.for.macOS.zip
-  CPyMO.for.Android.zip:
-    size: 35084878
-    size_str: 33 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/CPyMO.for.Android.zip
-  CPyMO.for.Linux.SDL.1.2.zip:
-    size: 228309
-    size_str: 222 KiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/CPyMO.for.Linux.SDL.1.2.zip
-  CPyMO.for.Linux.x64.zip:
-    size: 8306064
-    size_str: 7 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/CPyMO.for.Linux.x64.zip
   CPyMO.for.Nintendo.3DS.3dsx:
     size: 15191800
     size_str: 14 MiB
@@ -37,66 +18,6 @@ downloads:
     size: 11301824
     size_str: 10 MiB
     url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/CPyMO.for.Nintendo.3DS.cia
-  CPyMO.for.Nintendo.Wii.dol:
-    size: 1006592
-    size_str: 983 KiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/CPyMO.for.Nintendo.Wii.dol
-  CPyMO.for.Universal.Windows.Platform.zip:
-    size: 26023006
-    size_str: 24 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/CPyMO.for.Universal.Windows.Platform.zip
-  CPyMO.for.Windows.ARM.zip:
-    size: 6145681
-    size_str: 5 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/CPyMO.for.Windows.ARM.zip
-  CPyMO.for.Windows.ARM64.zip:
-    size: 6488180
-    size_str: 6 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/CPyMO.for.Windows.ARM64.zip
-  CPyMO.for.Windows.SDL.1.2.zip:
-    size: 1148939
-    size_str: 1 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/CPyMO.for.Windows.SDL.1.2.zip
-  CPyMO.for.Windows.x64.zip:
-    size: 7527941
-    size_str: 7 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/CPyMO.for.Windows.x64.zip
-  CPyMO.for.Windows.x86.zip:
-    size: 6512483
-    size_str: 6 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/CPyMO.for.Windows.x86.zip
-  CPyMO.for.macOS.Apple.Silicon.zip:
-    size: 7351032
-    size_str: 7 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/CPyMO.for.macOS.Apple.Silicon.zip
-  CPyMO.for.macOS.x64.zip:
-    size: 8398414
-    size_str: 8 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/CPyMO.for.macOS.x64.zip
-  libpymo.ykm:
-    size: 10539
-    size_str: 10 KiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/libpymo.ykm
-  mo2pymo.ps1:
-    size: 67012
-    size_str: 65 KiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/mo2pymo.ps1
-  pymo-convert-audio-to-ogg.ps1:
-    size: 3418
-    size_str: 3 KiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/pymo-convert-audio-to-ogg.ps1
-  pymo-convert.ps1:
-    size: 7976
-    size_str: 7 KiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/pymo-convert.ps1
-  pymo-strip.ps1:
-    size: 11512
-    size_str: 11 KiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/pymo-strip.ps1
-  pymo2ykm.ps1:
-    size: 39574
-    size_str: 38 KiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/pymo2ykm.ps1
 github: Strrationalism/CPyMO
 icon: https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/icon.png
 icon_index: 202
