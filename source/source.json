@@ -4699,7 +4699,8 @@
 		"systems": ["3DS"],
 		"categories": ["emulator"],
 		"image": "https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/banner.png",
-		"icon": "https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/icon.png"
+		"icon": "https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/icon.png",
+		"download_filter": "(\\.3dsx|\\.cia)"
 	},
 	{
 		"github": "lifehackerhansol/NDSForwarder-DSi",
