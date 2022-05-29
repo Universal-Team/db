@@ -4925,100 +4925,22 @@
 					"file": "/SatellaZone.zip"
 				}
 			],
-			"[lite] EUR": [
-				{
-					"type": "mkdir",
-					"directory": "/luma/titles/0004001000022B00/romfs/"
-				},
-				{
-					"type": "rmdir",
-					"directory": "/luma/titles/0004001000022B00/romfs"
-				},
+			"UsaPatch": [
 				{
 					"type": "downloadRelease",
 					"repo": "MegaPika/SatellaZone",
-					"file": "SatellaZoneLite.zip",
-					"output": "/SatellaZoneLite.zip"
+					"file": "UsaPatch.zip",
+					"output": "/UsaPatch.zip"
 				},
 				{
 					"type": "extractFile",
-					"file": "/SatellaZoneLite.zip",
-					"input": "",
-					"output": "/luma/titles/0004001000022B00/"
-				},
-				{
-					"type": "deleteFile",
-					"file": "/SatellaZoneLite.zip"
-				}
-			],
-			"[lite] USA": [
-				{
-					"type": "mkdir",
-					"directory": "/luma/titles/0004001000021B00/romfs/"
-				},
-				{
-					"type": "rmdir",
-					"directory": "/luma/titles/0004001000021B00/romfs"
-				},
-				{
-					"type": "downloadRelease",
-					"repo": "MegaPika/SatellaZone",
-					"file": "SatellaZoneLite.zip",
-					"output": "/SatellaZoneLite.zip"
-				},
-				{
-					"type": "extractFile",
-					"file": "/SatellaZoneLite.zip",
-					"input": "",
-					"output": "/luma/titles/0004001000021B00/"
-				},
-				{
-					"type": "deleteFile",
-					"file": "/SatellaZoneLite.zip"
-				}
-			],
-			"[lite] JPN": [
-				{
-					"type": "mkdir",
-					"directory": "/luma/titles/0004001000020B00/romfs/"
-				},
-				{
-					"type": "rmdir",
-					"directory": "/luma/titles/0004001000020B00/romfs"
-				},
-				{
-					"type": "downloadRelease",
-					"repo": "MegaPika/SatellaZone",
-					"file": "SatellaZoneLite.zip",
-					"output": "/SatellaZoneLite.zip"
-				},
-				{
-					"type": "extractFile",
-					"file": "/SatellaZoneLite.zip",
-					"input": "",
-					"output": "/luma/titles/0004001000020B00/"
-				},
-				{
-					"type": "deleteFile",
-					"file": "/SatellaZoneLite.zip"
-				}
-			],
-			"usapatch": [
-				{
-					"type": "downloadRelease",
-					"repo": "MegaPika/SatellaZone",
-					"file": "usapatch.zip",
-					"output": "/usapatch.zip"
-				},
-				{
-					"type": "extractFile",
-					"file": "/usapatch.zip",
+					"file": "/UsaPatch.zip",
 					"input": "",
 					"output": "/"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/usapatch.zip"
+					"file": "/UsaPatch.zip"
 				}
 			]
 		}
