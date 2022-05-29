@@ -48,7 +48,11 @@ update_notes: '<h2 dir="auto">Big update!</h2>
 
   <li>(If you see something wrong, please report it on the discord server, thanks!)</li>
 
-  </ul>'
+  </ul>
+
+  <h2 dir="auto">Installation instructions</h2>
+
+  <p dir="auto">All is written on the readme: <a href="https://github.com/MegaPika/SatellaZone#readme">https://github.com/MegaPika/SatellaZone#readme</a></p>'
 updated: '2022-05-21T17:20:23Z'
 version: '1.3'
 version_title: Patience is a virtue
