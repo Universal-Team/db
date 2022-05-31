@@ -12,21 +12,21 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1181696
+    size: 1143808
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.2/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.3/ColecoDS.nds
   README.md:
-    size: 10645
-    size_str: 10 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.2/README.md
+    size: 25660
+    size_str: 25 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.3/README.md
   blank.cas:
     size: 1
     size_str: 1 Byte
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.2/blank.cas
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.3/blank.cas
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.2/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.3/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 195
@@ -37,24 +37,18 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V7.2: 14-May-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V7.3: 31-May-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Improved Einstein driver to allow SHIFT and CONTROL key maps.</li>
+  <li>Massive optimization of the VDP core and memory handling so we are now almost
+  35% faster on Colecovision games and more than 10% faster on all other systems.</li>
 
-  <li>Added AY Envelope Reset option for the few games that need it (Warp &amp; Warp,
-  Killer Station)</li>
-
-  <li>Added 2P mapping support for SVI games so MEGALONE (Burken Pak 14) and CRAZY
-  TEETH will play properly.</li>
-
-  <li>Improved the SG-1000 driver so that the Dahjee and TW bootlegs work.</li>
-
-  <li>Added F1-F8 as assignable maps on Memotech</li>
+  <li>Due to these optmizations, the DrZ80 core has been removed and only the high-compatibility
+  CZ80 core remains.</li>
 
   </ul>'
-updated: '2022-05-14T11:42:35Z'
-version: '7.2'
-version_title: Version 7.2
+updated: '2022-05-31T17:59:43Z'
+version: '7.3'
+version_title: Version 7.3
 ---
