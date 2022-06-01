@@ -3504,21 +3504,22 @@
 		"author": "Sono",
 		"avatar": "https://avatars.githubusercontent.com/u/7823099?v=4",
 		"description": "DS(i) mode screen filters and patches",
-		"updated": "2021-02-21T09:37:00Z",
+		"updated": "2022-06-01T03:12:00Z",
 		"created": "2019-07-23T19:16:11Z",
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"downloads": {
 			"TWPatch.3dsx": {
-				"url": "https://gbatemp.net/download/twpatch.37400/version/38832/download?file=302086"
+				"url": "https://gbatemp.net/download/twpatch.37400/version/38954/download?file=312135"
 			},
 			"TWPatch.cia": {
-				"url": "https://gbatemp.net/download/twpatch.37400/version/38832/download?file=302085"
+				"url": "https://gbatemp.net/download/twpatch.37400/version/38954/download?file=312134"
 			}
 		},
-		"version": "2021/02/21",
-		"update_notes_md": "New TWPatch update to get ready for LgyBg support:\n- added new kernel patches to make LgyBg functional\n- unlocked the kernel patch menu, so it's easier to access now (Y+B, X+A, START, SELECT)\n\nLgyBg's GBA mode is pretty close to alpha release.\n\nFor DS mode, I still need to get touch, datetime, and DSi-specific stuff working.",
-		"download_page": "https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/",
+		"version": "2022/06/01",
+		"version_title": "New patch: disable CPad",
+		"update_notes_md": "Added a patch to disable CPad emulation, for those with broken CPad.",
+		"download_page": "https://gbatemp.net/download/twpatch.37400/",
 		"website": "https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/"
 	},
 	{
