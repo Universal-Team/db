@@ -7,12 +7,12 @@ color: '#4b5182'
 color_bg: '#4a4f80'
 created: '2019-07-23T19:16:11Z'
 description: DS(i) mode screen filters and patches
-download_page: https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/
+download_page: https://gbatemp.net/download/twpatch.37400/
 downloads:
   TWPatch.3dsx:
-    url: https://gbatemp.net/download/twpatch.37400/version/38832/download?file=302086
+    url: https://gbatemp.net/download/twpatch.37400/version/38954/download?file=312135
   TWPatch.cia:
-    url: https://gbatemp.net/download/twpatch.37400/version/38832/download?file=302085
+    url: https://gbatemp.net/download/twpatch.37400/version/38954/download?file=312134
 icon: https://db.universal-team.net/assets/images/icons/twpatch.png
 icon_index: 149
 image: https://db.universal-team.net/assets/images/images/twpatch.png
@@ -23,23 +23,11 @@ qr:
 systems:
 - 3DS
 title: TWPatch
-update_notes: '<p>New TWPatch update to get ready for LgyBg support:</p>
-
-  <ul>
-
-  <li>added new kernel patches to make LgyBg functional</li>
-
-  <li>unlocked the kernel patch menu, so it''s easier to access now (Y+B, X+A, START,
-  SELECT)</li>
-
-  </ul>
-
-  <p>LgyBg''s GBA mode is pretty close to alpha release.</p>
-
-  <p>For DS mode, I still need to get touch, datetime, and DSi-specific stuff working.</p>
+update_notes: '<p>Added a patch to disable CPad emulation, for those with broken CPad.</p>
 
   '
-updated: '2021-02-21T09:37:00Z'
-version: 2021/02/21
+updated: '2022-06-01T03:12:00Z'
+version: 2022/06/01
+version_title: 'New patch: disable CPad'
 website: https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/
 ---
