@@ -10,17 +10,17 @@ description: A Nintendo Zone Revival for the 3DS.
 download_page: https://github.com/MegaPika/SatellaZone/releases
 downloads:
   LocalSatellaZone.zip:
-    size: 635323938
+    size: 635324211
     size_str: 605 MiB
-    url: https://github.com/MegaPika/SatellaZone/releases/download/1.3/LocalSatellaZone.zip
+    url: https://github.com/MegaPika/SatellaZone/releases/download/1.3.1/LocalSatellaZone.zip
   SatellaZone.zip:
-    size: 4928410
+    size: 4929348
     size_str: 4 MiB
-    url: https://github.com/MegaPika/SatellaZone/releases/download/1.3/SatellaZone.zip
+    url: https://github.com/MegaPika/SatellaZone/releases/download/1.3.1/SatellaZone.zip
   UsaPatch.zip:
     size: 672
     size_str: 672 Bytes
-    url: https://github.com/MegaPika/SatellaZone/releases/download/1.3/UsaPatch.zip
+    url: https://github.com/MegaPika/SatellaZone/releases/download/1.3.1/UsaPatch.zip
 github: MegaPika/SatellaZone
 icon: https://satellazone.neocities.org/universallogo.png
 icon_index: 212
@@ -33,29 +33,20 @@ source: https://github.com/MegaPika/SatellaZone
 systems:
 - 3DS
 title: SatellaZone
-update_notes: '<h2 dir="auto">Big update!</h2>
+update_notes: '<ul dir="auto">
 
-  <ul dir="auto">
+  <li>Added more informations on help page about the SSL patch that is required</li>
 
-  <li>Videos are now server sided, you need to create a hotspot named "NintendoSpotPass1"
-  wihout password to watch them</li>
-
-  <li>Edited some error messages to make them understandable</li>
-
-  <li>As always, improved some pages quality</li>
-
-  <li>Don''t forget to delete old romfs folder like on every updates!</li>
-
-  <li>(If you see something wrong, please report it on the discord server, thanks!)</li>
+  <li>Fixed screenshots pages</li>
 
   </ul>
 
   <h2 dir="auto">Installation instructions</h2>
 
   <p dir="auto">All is written on the readme: <a href="https://github.com/MegaPika/SatellaZone#readme">https://github.com/MegaPika/SatellaZone#readme</a></p>'
-updated: '2022-05-21T17:20:23Z'
-version: '1.3'
-version_title: Patience is a virtue
+updated: '2022-06-03T13:38:43Z'
+version: 1.3.1
+version_title: Small fixes
 website: https://satellazone.neocities.org/
 ---
 Satella Zone is a Nintendo Zone Revival for the Nintendo 3DS.
