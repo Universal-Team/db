@@ -26,7 +26,10 @@ source: https://github.com/Nanquitas/Luma3DS
 systems:
 - 3DS
 title: Luma3DS (Nanquitas)
-update_notes: '<h1 dir="auto">About 3GX plugins</h1>
+update_notes: '<h1 dir="auto">I''m aware of the new Luma3DS v11.0, please give me
+  a day to update the plugin loader</h1>
+
+  <h1 dir="auto">About 3GX plugins</h1>
 
   <h2 dir="auto">What are <strong>.3gx</strong> files?</h2>
 

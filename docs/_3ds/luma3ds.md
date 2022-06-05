@@ -12,10 +12,10 @@ created: '2016-02-08T02:26:12Z'
 description: Noob-proof (N)3DS "Custom Firmware"
 download_page: https://github.com/LumaTeam/Luma3DS/releases
 downloads:
-  Luma3DSv10.3.zip:
-    size: 367144
-    size_str: 358 KiB
-    url: https://github.com/LumaTeam/Luma3DS/releases/download/v10.3/Luma3DSv10.3.zip
+  Luma3DSv11.0.zip:
+    size: 390048
+    size_str: 380 KiB
+    url: https://github.com/LumaTeam/Luma3DS/releases/download/v11.0/Luma3DSv11.0.zip
 github: LumaTeam/Luma3DS
 icon_index: 146
 image: https://avatars.githubusercontent.com/u/65085206?v=4&size=128
@@ -29,78 +29,74 @@ systems:
 title: Luma3DS
 update_notes: '<ul dir="auto">
 
-  <li>Add more detailed battery percentage, plus battery voltage and temperature</li>
-
-  <li>Add an option to dump the DSP firmware from Home Menu, effectively making programs
-  like <code class="notranslate">DSP1</code> obsolete</li>
-
-  <li>Split NTP and user time offset nullification. This means two things:
+  <li>Migrate the configuration to <strong>INI format</strong> (<code class="notranslate">config.bin</code>
+  becomes <code class="notranslate">config.ini</code>)
 
   <ul dir="auto">
 
-  <li>Time changes are immmediately visible and you do not need to reboot your console
-  after using the feature anymore (although Home Menu might not always immmediately
-  display the new time -- just open and close an application in that case)</li>
+  <li>This means that configuration is now human-readable, and makes situations like
+  wanting to modify Rosalina''s combo without opening its menu much easier to resolve</li>
 
-  <li>Programs like <code class="notranslate">ctr-no-timeoffset</code> should not
-  be needed anymore. Also, even if 3ds.hacks.guide recommends it and GodMode9 mandates
-  it, time offset nullification should <em>not</em> be done</li>
+  <li>The following options have been removed from the config menu and moved to be
+  exclusively in the INI file:
+
+  <ul dir="auto">
+
+  <li>"Splash duration": this is because it can now be configured to take any 32-bit
+  value (default: 3 seconds)</li>
+
+  <li>"Set developer UNITINFO",</li>
+
+  <li>"Disable Arm11 exception handlers"</li>
+
+  <li>"Enable Rosalina on SAFE_FIRM"</li>
 
   </ul>
 
   </li>
 
-  <li>Also improve the precision of the NTP client implementation and fix a few bugs.
-  It can be precise as +- 1ms (usually), although some of this precision is lost when
-  rebooting</li>
+  <li>"Show NAND or user string in System Settings" is now enabled by default, when
+  auto-generating a blank configuration file</li>
 
-  <li>Do not initialize the screens in the very common case the user has only one
-  payload in the <code class="notranslate">/luma/payloads</code> folder, effectively
-  working around a long-standing bug</li>
+  </ul>
 
-  <li>Fix reading emuNAND sector 0 for RedNAND and Gateway-style emuNAND (<a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="1036563625" data-permission-text="Title
-  is private" data-url="https://github.com/LumaTeam/Luma3DS/issues/1687" data-hovercard-type="pull_request"
-  data-hovercard-url="/LumaTeam/Luma3DS/pull/1687/hovercard" href="https://github.com/LumaTeam/Luma3DS/pull/1687">#1687</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/aspargas2/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/aspargas2">@aspargas2</a>)</li>
+  </li>
 
-  <li>Fix a few bugs in the cheat system (<a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="855169992" data-permission-text="Title is private" data-url="https://github.com/LumaTeam/Luma3DS/issues/1623"
-  data-hovercard-type="pull_request" data-hovercard-url="/LumaTeam/Luma3DS/pull/1623/hovercard"
-  href="https://github.com/LumaTeam/Luma3DS/pull/1623">#1623</a>, <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/s5bug/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/s5bug">@s5bug</a>)</li>
+  <li>Essential system files (bootROMs, OTP, HWCAL, LCFS, SecureInfo) are now automatically
+  backed up to <code class="notranslate">/luma/backups</code> (upon upgrading Luma3DS,
+  if not already present at that location)</li>
 
-  <li>Add ASCII View to Rosalina Process List (<a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="1091294296" data-permission-text="Title
-  is private" data-url="https://github.com/LumaTeam/Luma3DS/issues/1703" data-hovercard-type="pull_request"
-  data-hovercard-url="/LumaTeam/Luma3DS/pull/1703/hovercard" href="https://github.com/LumaTeam/Luma3DS/pull/1703">#1703</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/George-lewis/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/George-lewis">@George-lewis</a>)</li>
+  <li>Upon upgrading Luma3DS, <code class="notranslate">boot.firm</code> is now automatically
+  copied to the root of the CTRNAND partition</li>
 
-  <li>Allow using game-patching on Home Menu (<a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="911807068" data-permission-text="Title
-  is private" data-url="https://github.com/LumaTeam/Luma3DS/issues/1634" data-hovercard-type="pull_request"
-  data-hovercard-url="/LumaTeam/Luma3DS/pull/1634/hovercard" href="https://github.com/LumaTeam/Luma3DS/pull/1634">#1634</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gabe565/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gabe565">@gabe565</a>)</li>
+  <li>Restore extended-remote support (this was broken with recent versions of GDB).
+  <strong>Breaking change</strong>: use <code class="notranslate">attach &lt;PID+1&gt;</code>
+  (e.g 1 for <code class="notranslate">fs</code>) to attach to a process, as GDB doesn''t
+  support PID 0.</li>
 
-  <li>Wait for the user to release the B key when exiting the Rosalina menu. This
-  should prevent games to think the B key has been pressed (<a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="1087351954" data-permission-text="Title
-  is private" data-url="https://github.com/LumaTeam/Luma3DS/issues/1701" data-hovercard-type="pull_request"
-  data-hovercard-url="/LumaTeam/Luma3DS/pull/1701/hovercard" href="https://github.com/LumaTeam/Luma3DS/pull/1701">#1701</a>,
-  suggestion from <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)</li>
+  <li>Add option to toggle card slot (<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="379507464" data-permission-text="Title is private" data-url="https://github.com/LumaTeam/Luma3DS/issues/1202"
+  data-hovercard-type="issue" data-hovercard-url="/LumaTeam/Luma3DS/issues/1202/hovercard"
+  href="https://github.com/LumaTeam/Luma3DS/issues/1202">#1202</a>)</li>
 
-  <li>gdb: properly handle software breakpoints</li>
+  <li>Screen filters can now be saved to <code class="notranslate">config.ini</code>
+  and restored at boot (you need to go to "Miscellaneous options &gt; Save settings").
+  You can now even manually edit <code class="notranslate">config.ini</code> to use
+  custom values for those (within the 1000 to 25100K range)</li>
 
-  <li>General system stability improvements to enhance the user''s experience</li>
+  <li>NTP timezone can also now be saved to <code class="notranslate">config.ini</code>;
+  also fix a bug where some timezones would not be reachable</li>
+
+  <li>Fix a long-standing issue where some system calls took longer than they should,
+  causing lags in some situations (thanks <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/PabloMK7/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/PabloMK7">@PabloMK7</a>)</li>
+
+  <li>Fix calculation of displayed battery voltage (thanks nocash)</li>
 
   </ul>'
-updated: '2022-03-16T22:37:49Z'
-version: v10.3
-version_title: v10.3
+updated: '2022-06-04T23:27:32Z'
+version: v11.0
+version_title: v11.0
 wiki: https://github.com/LumaTeam/Luma3DS/wiki
 ---
