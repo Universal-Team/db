@@ -12,21 +12,21 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1143808
+    size: 1185280
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.3/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.4/ColecoDS.nds
   README.md:
-    size: 25660
-    size_str: 25 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.3/README.md
+    size: 26640
+    size_str: 26 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.4/README.md
   blank.cas:
     size: 1
     size_str: 1 Byte
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.3/blank.cas
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.4/blank.cas
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.3/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.4/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 195
@@ -37,18 +37,25 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V7.3: 31-May-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V7.4: 05-June-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Massive optimization of the VDP core and memory handling so we are now almost
-  35% faster on Colecovision games and more than 10% faster on all other systems.</li>
+  <li>Added back DrZ80 core and fixed Colecovision Boulder Dash so it doesn''t crash.</li>
 
-  <li>Due to these optmizations, the DrZ80 core has been removed and only the high-compatibility
-  CZ80 core remains.</li>
+  <li>Better Einstein CTC handling so timing is a bit more accurate.</li>
+
+  <li>Improved Einstein memory swap for faster performance.</li>
+
+  <li>Improved MSX mapper detection - about 30 more games playable without fiddling
+  with settings.</li>
+
+  <li>MSX PAL game support added (it was only 80% working before this).</li>
+
+  <li>A few more frames of performance squeezed out to make more games run buttery-smooth.</li>
 
   </ul>'
-updated: '2022-05-31T17:59:43Z'
-version: '7.3'
-version_title: Version 7.3
+updated: '2022-06-05T14:52:36Z'
+version: '7.4'
+version_title: Version 7.4
 ---
