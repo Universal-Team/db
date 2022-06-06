@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/NPI-D7/Flappy-Bird/releases/download/1.2.0/Flappy-Bird.cia
 github: NPI-D7/Flappy-Bird
 icon: https://raw.githubusercontent.com/NPI-D7/Flappy-Bird/screenshots/app/icon.png
-icon_index: 205
+icon_index: 206
 image: https://raw.githubusercontent.com/NPI-D7/Flappy-Bird/master/app/banner.png
 image_length: 5916
 layout: app

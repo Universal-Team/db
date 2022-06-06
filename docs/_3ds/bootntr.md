@@ -56,7 +56,10 @@ source: https://github.com/Nanquitas/BootNTR
 systems:
 - 3DS
 title: BootNTR
-update_notes: '<h1 dir="auto">This release is currently broken with official Luma3DS!</h1>
+update_notes: '<h1 dir="auto">This release is currently broken with Luma Plugin Loader
+  v11.0. Please use Luma Plugin Loader v10.3 until the issue is addressed!</h1>
+
+  <h1 dir="auto">This release is currently broken with official Luma3DS!</h1>
 
   <p dir="auto">You can temporarily use the <a href="https://github.com/Nanquitas/Luma3DS/releases">Luma3DS
   3GX Loader build</a> until this issue is addressed!<br>

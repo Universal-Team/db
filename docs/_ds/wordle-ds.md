@@ -24,7 +24,7 @@ downloads:
     url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.0.2/WordleDS.nds
 github: Epicpkmn11/WordleDS
 icon: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
-icon_index: 199
+icon_index: 200
 icon_static: https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/resources/icon/icon.0.png
 image: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
 image_length: 3957

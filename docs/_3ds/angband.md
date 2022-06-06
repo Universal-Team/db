@@ -10,7 +10,7 @@ description: A free, single-player roguelike dungeon exploration game
 download_page: https://github.com/angband/angband/releases
 github: angband/angband
 icon: https://github.com/angband.png?size=48
-icon_index: 214
+icon_index: 215
 image: https://github.com/angband.png
 image_length: 3366
 layout: app

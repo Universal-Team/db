@@ -16,7 +16,7 @@ downloads:
     url: https://github.com/d0k3/SafeB9SInstaller/releases/download/v0.0.7/SafeB9SInstaller-20170605-122940.zip
 github: d0k3/SafeB9SInstaller
 icon: https://raw.githubusercontent.com/d0k3/SafeB9SInstaller/master/resources/BrahmaIcon.png
-icon_index: 216
+icon_index: 217
 image: https://db.universal-team.net/assets/images/images/safeb9sinstaller.png
 image_length: 10252
 layout: app

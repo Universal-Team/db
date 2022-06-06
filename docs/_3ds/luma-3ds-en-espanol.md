@@ -18,7 +18,7 @@ downloads:
     size: 226816
     url: https://www.dropbox.com/s/wr4hpebjz215avm/boot.firm?dl=1
 github: LopezTutoriales/Luma3DS-Spanish
-icon_index: 209
+icon_index: 210
 image: https://avatars.githubusercontent.com/u/5817696?v=4&size=128
 image_length: 26161
 layout: app

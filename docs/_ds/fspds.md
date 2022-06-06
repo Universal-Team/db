@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/NotImplementedLife/FSPDS/releases/download/V0.2.1/FSPDS-V0-2-1.zip
 github: NotImplementedLife/FSPDS
 icon: https://db.universal-team.net/assets/images/icons/fspds.png
-icon_index: 201
+icon_index: 202
 image: https://db.universal-team.net/assets/images/icons/fspds.png
 image_length: 586
 layout: app
