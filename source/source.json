@@ -4416,8 +4416,14 @@
 	},
 	{
 		"github": "RandomMan25XX/atari800",
+		"description": "Atari 8-bit computer and 5200 console emulator - Unofficial CIA release",
+		"title": "Atari800 (RandomMan25XX)",
+		"systems": ["3DS"],
+		"categories": ["emulator"]
+	},
+	{
+		"github": "asiekierka/atari800",
 		"title": "Atari800",
-		"avatar": "https://avatars.githubusercontent.com/u/113514?v=4",
 		"systems": ["3DS"],
 		"categories": ["emulator"]
 	},
