@@ -6,7 +6,7 @@ categories:
 color: '#4d4458'
 color_bg: '#4d4458'
 created: '2018-06-20T10:16:26Z'
-description: Atari 8-bit computer and 5200 console emulator
+description: Atari 8-bit computer and 5200 console emulator - 3DS port
 download_page: https://github.com/asiekierka/atari800-3ds/releases
 downloads:
   atari800.3dsx:
