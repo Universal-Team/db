@@ -11,13 +11,13 @@ download_filter: (\.3dsx|\.cia)
 download_page: https://github.com/Strrationalism/CPyMO/releases
 downloads:
   CPyMO.for.Nintendo.3DS.3dsx:
-    size: 15191800
+    size: 15191248
     size_str: 14 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/CPyMO.for.Nintendo.3DS.3dsx
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.8/CPyMO.for.Nintendo.3DS.3dsx
   CPyMO.for.Nintendo.3DS.cia:
     size: 11301824
     size_str: 10 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/CPyMO.for.Nintendo.3DS.cia
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.8/CPyMO.for.Nintendo.3DS.cia
 github: Strrationalism/CPyMO
 icon: https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/icon.png
 icon_index: 203
@@ -32,52 +32,42 @@ source: https://github.com/Strrationalism/CPyMO
 systems:
 - 3DS
 title: CPyMO
-update_notes: '<h1 dir="auto">改进</h1>
+update_notes: '<h1 dir="auto">新功能</h1>
 
   <ul dir="auto">
 
-  <li>修复当快进时循环音效不会被覆盖的问题。</li>
+  <li>CPyMO ASCII ART变种，此变种将会在控制台上输出游戏画面。</li>
 
-  <li>cpymo-tool在resize图片时，若比率为1, 1，则只转换格式而不进行缩放。</li>
+  <li>增加SDL1.2后端支持，以在老旧的平台上运行。</li>
 
-  <li>修复pymo-converter在不存在chara目录的情况下报错的问题。</li>
+  <li>新增Nintendo Wii平台支持。</li>
 
-  <li>立绘命令缓存增加到64个，以应对复杂的立绘情况。</li>
+  </ul>
 
-  <li>在图标不为57*57的情况下将会引发警告。</li>
+  <h1 dir="auto">改进</h1>
 
-  <li>在mask渐变加载失败时将会引发警告。</li>
+  <ul dir="auto">
 
-  <li>修复找不到脚本文件时会引发UB的问题。</li>
+  <li>Bug fixed: 不能正确读取存档中scroll的背景坐标的问题。</li>
 
-  <li>修复进入album界面时需要点击一下界面才能操作的问题。</li>
+  <li>文本框显示效果优化。</li>
 
-  <li>INVALID_ARG不再会导致游戏卡住。</li>
+  <li>SDL2后端的头文件在大部分情况下将会使用更通用的路径&lt;SDL2/*.h&gt;。</li>
 
-  <li>libpymo中新增来自YukimiScript编译器的<code class="notranslate">if</code>语法。</li>
+  <li>禁用了游戏选择器中的退出键。</li>
 
-  <li>当播放视频时若找不到文件则不应当崩溃。</li>
+  </ul>
 
-  <li>修复了当<code class="notranslate">select</code>系命令的<code class="notranslate">init_position</code>超过选项数时会发生崩溃的问题。</li>
+  <h1 dir="auto">构建过程</h1>
 
-  <li>修复了文本框不正常的问题。</li>
+  <ul dir="auto">
 
-  <li>libpymo中if_goto的实现不正确，所有的运算符都会被强制替换为eq。</li>
+  <li>所有的Windows构建都可以携带pymo的图标。</li>
 
-  <li>修复了在选择支关闭右键菜单时可能会引发崩溃的错误行为。</li>
-
-  <li>菜单的鼠标选择和点击统一以最后一个选中的目标为准。</li>
-
-  <li>优化album返回时可能会出现误操作的问题。</li>
-
-  <li>已经修复pymo-convert在某些情况下不能正常使用的问题。</li>
-
-  <li>pymo-convert可以自动生成目标目录。</li>
-
-  <li>新增pymo-strip工具用于精简pymo游戏数据包。</li>
+  <li>优化了所有的makefile，使其可以被mingw正确构建。</li>
 
   </ul>'
-updated: '2022-05-26T04:35:28Z'
-version: v1.0.9
-version_title: CPyMO 1.0.9
+updated: '2022-05-13T09:28:53Z'
+version: v1.0.8
+version_title: CPyMO 1.0.8
 ---
