@@ -1,5 +1,5 @@
 ---
-author: Adrian Siekierka
+author: Captain_Jerkass96
 avatar: https://avatars.githubusercontent.com/u/113514?v=4
 categories:
 - emulator
