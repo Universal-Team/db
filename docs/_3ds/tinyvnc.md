@@ -10,13 +10,13 @@ description: A VNC viewer for Nintendo 3DS
 download_page: https://github.com/badda71/TinyVNC/releases
 downloads:
   TinyVNC.3dsx:
-    size: 1681652
+    size: 1749576
     size_str: 1 MiB
-    url: https://github.com/badda71/TinyVNC/releases/download/1.0/TinyVNC.3dsx
+    url: https://github.com/badda71/TinyVNC/releases/download/2.0/TinyVNC.3dsx
   TinyVNC.cia:
-    size: 1676224
+    size: 1713088
     size_str: 1 MiB
-    url: https://github.com/badda71/TinyVNC/releases/download/1.0/TinyVNC.cia
+    url: https://github.com/badda71/TinyVNC/releases/download/2.0/TinyVNC.cia
 github: badda71/TinyVNC
 icon: https://raw.githubusercontent.com/badda71/TinyVNC/master/meta/icon.png
 icon_index: 209
@@ -29,8 +29,25 @@ source: https://github.com/badda71/TinyVNC
 systems:
 - 3DS
 title: TinyVNC
-update_notes: '<p dir="auto">This is the first (hopefully) stable release of TinyVNC,
-  the VNC-viewer for Nintendo 3DS.</p>
+update_notes: '<p dir="auto">This is version 2.0 of TinyVNC, the VNC-viewer for Nintendo
+  3DS.</p>
+
+  <p dir="auto"><strong>Features:</strong></p>
+
+  <ul dir="auto">
+
+  <li>Two independent and fast VNC-viewers for 3DS top and bottom screen</li>
+
+  <li>Streaming audio client (mp3 over HTTP)</li>
+
+  <li>Cemuhook server for serving 3DS controler and motion data to clients (e.g. Cemu)</li>
+
+  <li>UDP-Feeder client to serve 3DS controler and motion data to remote vJoy via
+  <a href="https://github.com/klach/vjoy-udp-feeder">vJoy-udp-feeder</a></li>
+
+  <li>supports server or client side scaling if VNC screen size is too big</li>
+
+  </ul>
 
   <p dir="auto"><strong>Installation:</strong><br>
 
@@ -57,7 +74,9 @@ update_notes: '<p dir="auto">This is the first (hopefully) stable release of Tin
 
   Y: y-key<br>
 
-  L, R: q, w-keys<br>
+  L: right mouse button<br>
+
+  R: w-keys<br>
 
   ZL, ZR: 1, 2-keys<br>
 
@@ -67,9 +86,29 @@ update_notes: '<p dir="auto">This is the first (hopefully) stable release of Tin
 
   C-Stick: i, k, j, l-keys<br>
 
-  SELECT: Escape-key<br>
+  SELECT: Shift key (for alternate button funtions)<br>
 
-  START: Disconnect</p>
+  START: Quick function menu</p>
+
+  <p dir="auto">Shift + A: A-key<br>
+
+  Shift + B: B-key<br>
+
+  Shift + X: X-key<br>
+
+  Shift + Y: Y-key<br>
+
+  Shift + L, Shift + R: Q, W-keys<br>
+
+  Shift + ZL, Shift + ZR: 3, 4-keys<br>
+
+  Shift + C-Pad: Cursor up, down, left, right<br>
+
+  Shift + D-Pad: T, G, F, H-keys<br>
+
+  Shift + C-Stick: I, K, J, L-keys<br>
+
+  Shift + START: disconnect</p>
 
   <p dir="auto">The touch screen acts as a touchpad for mouse control (tap-to-click,
   double-tap-to-double-click, tap-and-drag)<br>
@@ -81,27 +120,33 @@ update_notes: '<p dir="auto">This is the first (hopefully) stable release of Tin
 
   <ul dir="auto">
 
-  <li>CIA/3DS version</li>
+  <li>support of 2nd VNC connection on bottom screen</li>
 
-  <li>added streaming audio support (mp3 via HTTP)</li>
+  <li>added vJoy-UDP-feeder clients: one for buttons and joysticks, another for motion
+  controls</li>
 
-  <li>added on-screen keyboard</li>
+  <li>added Cemuhook server: sends motion controls, buttons and joysticks to clients
+  (Cemu, Yuzu etc.)</li>
 
-  <li>configurable scaling (on/off)</li>
+  <li>added server (if supported) or client side scaling. Now, screens &gt;1024px
+  size are scaled automatically.</li>
 
-  <li>key value to toggle bottom backlight (8)</li>
+  <li>TinyVNC can be run without VNC-connection (e.g. only cemuhook server or only
+  mp3 stream client)</li>
+
+  <li>added quick command menu to control connection settings</li>
+
+  <li>added "shift"-key to enable button combinations</li>
+
+  <li>lots of minor optimizations and bugfixes</li>
 
   </ul>
 
   <p dir="auto">Have fun!</p>
 
-  <p dir="auto">Scan QR-code below with FBI<br>
-
-  <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/11392517/95758082-42d18b00-0ca8-11eb-840f-5a7a339dee2f.png"><img
-  src="https://user-images.githubusercontent.com/11392517/95758082-42d18b00-0ca8-11eb-840f-5a7a339dee2f.png"
-  alt="grafik" style="max-width: 100%;"></a></p>'
-updated: '2020-10-12T14:29:50Z'
-version: '1.0'
-version_title: TinyVNC 1.0
+  <p dir="auto">Scan QR-code below with FBI</p>'
+updated: '2022-06-07T15:19:51Z'
+version: '2.0'
+version_title: TinyVNC 2.0
 website: https://gbatemp.net/threads/release-tinyvnc-vnc-viewer-for-nintendo-3ds.574242/
 ---
