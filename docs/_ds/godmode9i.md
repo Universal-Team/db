@@ -12,9 +12,9 @@ description: 'GodMode9i Explorer - A full access file browser for the Nintendo D
 download_page: https://github.com/DS-Homebrew/GodMode9i/releases
 downloads:
   GodMode9i.7z:
-    size: 347783
-    size_str: 339 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.2.1/GodMode9i.7z
+    size: 349107
+    size_str: 340 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.2.2/GodMode9i.7z
 github: DS-Homebrew/GodMode9i
 icon: https://db.universal-team.net/assets/images/icons/godmode9i.png
 icon_index: 11
@@ -32,42 +32,39 @@ source: https://github.com/DS-Homebrew/GodMode9i
 systems:
 - DS
 title: GodMode9i
-update_notes: '<p dir="auto">All changes by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/Epicpkmn11/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a></p>
-
-  <p dir="auto"><strong>What''s new?</strong></p>
+update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Dutch, Ukrainian, and Hebrew translations added.</li>
-
-  <li>A warning will now be shown if file is too large to copy.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/SombrAbsol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/SombrAbsol">@SombrAbsol</a>:
+  Added custom <strong>TW</strong>i<strong>L</strong>ight Menu++ boxart, which you
+  can download <a href="https://github.com/DS-Homebrew/GodMode9i/blob/5d8e75af26424a8f458d6a13bc7376fc5aac7a2e/resources/boxart/GodMode9i.nds.png">here</a>.</li>
 
   </ul>
 
-  <p dir="auto"><strong>Improvement</strong></p>
+  <h3 dir="auto">Improvement</h3>
 
   <ul dir="auto">
 
-  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  and various) Updated translations.</li>
+  and various: Updated translations, and added Turkish language.</li>
 
   </ul>
 
-  <p dir="auto"><strong>Bug fixes</strong></p>
+  <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>Fixed bugs related to keyboard.</li>
-
-  <li>Fixed always showing DS icon on first frame of TWL icon animation.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
+  Fixed 128KB EEPROM DS(i) save dumps being a byte off.</li>
 
   </ul>'
-updated: '2022-04-08T18:47:32Z'
-version: v3.2.1
-version_title: v3.2.1
+updated: '2022-06-07T01:03:46Z'
+version: v3.2.2
+version_title: 'v3.2.2: TWL Summer Release'
 website: https://wiki.ds-homebrew.com/godmode9i/
 wiki: https://wiki.ds-homebrew.com/other/godmode9i
 ---
