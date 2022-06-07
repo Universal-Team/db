@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 28730543
+    size: 28767725
     size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.8.0/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.9.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 28780455
+    size: 28820146
     size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.8.0/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.9.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 40559214
+    size: 40618454
     size_str: 38 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.8.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.9.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 40755212
+    size: 40827622
     size_str: 38 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.8.0/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.9.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_index: 138
@@ -50,8 +50,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.57.1">nds-bootstrap
-  v0.57.1</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.58.0">nds-bootstrap
+  v0.58.0</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -67,60 +67,92 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <p dir="auto"><strong>What''s new?</strong></p>
+  <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>:
-  Added AP-fix for <code class="notranslate">Pokémon: SoothingSilver Version (v1.2.0)</code>.</li>
+  <li>Added AP-fixes for <em>Pokemon HeartGold</em> &amp; <em>SoulSilver</em> (Latin
+  Spanish translation).</li>
 
-  <li><strong>DSi theme:</strong> Added support for rumble, when moving the cursor!
+  <li>When detecting rumble, it no longer checks for TIDs of GBA games, in order for
+  custom GBA carts with rumble to work as well.</li>
+
+  <li>Updated ESRB game list to add more games. (<a class="commit-link" data-hovercard-type="commit"
+  data-hovercard-url="https://github.com/DS-Homebrew/TWiLightMenu/commit/c0645f63c0d115588e9975d98ad08ef6aea7ae14/hovercard"
+  href="https://github.com/DS-Homebrew/TWiLightMenu/commit/c0645f63c0d115588e9975d98ad08ef6aea7ae14"><tt>c0645f6</tt></a>)</li>
+
+  <li>The <code class="notranslate">External FIRMs and modules</code> setting in Luma
+  config is now checked before rebooting to widescreen.
 
   <ul dir="auto">
 
-  <li>Requires the DS Rumble Pak, <em>Drill Dozer</em>, or <em>WarioWare: Twisted</em>.</li>
+  <li>Make sure Luma is on v11 or later for this to work.</li>
 
   </ul>
 
   </li>
 
-  <li>A message will now appear when attempting to launch a DSiWare title from a flashcard
-  in DS mode on DSi or 3DS consoles.</li>
-
-  <li>The donor ROM message can no longer be skipped without viewing the second page
-  of it.</li>
-
-  <li><strong>3DS theme:</strong> Message box now pops up instead of sliding in.</li>
+  <li>The brightness can now be changed in the DS Classic Menu on DS lite consoles!</li>
 
   </ul>
 
-  <p dir="auto"><strong>Bug fixes</strong></p>
+  <h3 dir="auto">Improvement</h3>
 
   <ul dir="auto">
 
-  <li>Save files are now checked before the per-game settings are shown, instead of
-  selecting a save slot.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
+  and various: Improved translations.</li>
 
-  <li>Fixed reverting to DSi theme after rebooting with GBC theme set.</li>
+  </ul>
 
-  <li>Fixed donor ROM message not appearing if nds-bootstrap setting (for DS games)
-  is disabled when launching DSiWare titles from flashcard.</li>
-
-  <li>Tried fixing autoboot with hiyaCFW not working (thus, untested).
+  <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>Icon is now not animated in hiyaCFW.</li>
+  <li>Fixed a long-standing bug where sleep mode would not work and/or cause a crash
+  (with a glitched top screen) after exiting.
+
+  <ul dir="auto">
+
+  <li>This is achieved by implementing a custom sleep mode handler, as the one in
+  libnds is bugged.</li>
 
   </ul>
 
   </li>
+
+  <li>Fixed another long-standing bug where a certain area of RAM gets cleared while
+  using Memory Pit.
+
+  <ul dir="auto">
+
+  <li>This allows the complete font set to be loaded without issues in Memory Pit.</li>
+
+  </ul>
+
+  </li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
+  The flashcard kernel (Wood, in this case) now uses the correct save file extension
+  (being <code class="notranslate">.sav</code> instead of <code class="notranslate">.nds.sav</code>).</li>
+
+  <li>The brightness level on DS lite no longer self-changes while using the flashcard
+  kernel (Wood, in this case) to run games!</li>
+
+  <li>Fixed AP warning not shown for <em>Mario &amp; Luigi RPG: Siganui Partner</em>
+  (Korea), if AP-fix doesn''t exist.</li>
+
+  <li><strong>DSi-based themes:</strong> Fixed crash when opening per-game settings
+  for a DS(i) ROM with no icon.</li>
+
+  <li>Fixed TWLMenu++ not starting via hiyaCFW, by having Unlaunch start it instead.</li>
 
   </ul>'
-updated: '2022-05-16T18:23:45Z'
-version: v24.8.0
-version_title: v24.8.0
+updated: '2022-06-07T02:07:07Z'
+version: v24.9.0
+version_title: 'v24.9.0: TWL Summer Release'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
