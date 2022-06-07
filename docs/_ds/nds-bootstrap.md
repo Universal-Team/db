@@ -141,8 +141,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   <li>Loaders such as DSi4DS do not work properly with RAM disks.</li>
 
   <li>Not an nds-bootstrap issue, but <em>Super Smash Bros. Crash</em> will freeze
-  after destroying a new challenger. When that happens, just restart the game, as
-  the data has already been saved.</li>
+  after fighting the new approaching challenger. When that happens, just restart the
+  game, as the data has already been saved.</li>
 
   </ul>
 
