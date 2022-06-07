@@ -148,7 +148,7 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   <li><strong>DSi-based themes:</strong> Fixed crash when opening per-game settings
   for a DS(i) ROM with no icon.</li>
 
-  <li>Fixed TWLMenu++ not starting via hiyaCFW, by having Unlaunch start it instead.</li>
+  <li><del>Fixed TWLMenu++ not starting via hiyaCFW, by having Unlaunch start it instead.</del></li>
 
   </ul>'
 updated: '2022-06-07T02:07:07Z'
