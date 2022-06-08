@@ -25,8 +25,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto"><strong>As of 5/5/2022:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.57.0">nds-bootstrap
-  v0.57.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.58.1">nds-bootstrap
+  v0.58.1</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -47,34 +47,12 @@ update_notes: '<p dir="auto"><strong>As of 5/5/2022:</strong> Includes <a href="
 
   <ul dir="auto">
 
-  <li>Updated card read DMA and TWL clock speed blacklists to current ones from TWiLight
-  Menu++.</li>
-
-  </ul>
-
-  <p dir="auto"><strong>Improvement</strong></p>
-
-  <ul dir="auto">
-
-  <li>Improved DSi binary check further.</li>
-
-  </ul>
-
-  <p dir="auto"><strong>Bug fixes</strong></p>
-
-  <ul dir="auto">
-
   <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Fixed only using <code class="notranslate">Widescreen.cxi</code> from <code class="notranslate">TWiLightMenu</code>
-  folder.</li>
-
-  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Fixed rebooting to self not working.</li>
+  Added forced widescreen setting.</li>
 
   </ul>'
-updated: '2022-03-27T04:01:08Z'
-version: SD-6
-version_title: 'GitHub Release #6'
+updated: '2022-06-07T19:45:29Z'
+version: SD-7
+version_title: 'GitHub Release #7'
 ---
