@@ -14,9 +14,6 @@ downloads:
     size: 390911
     size_str: 381 KiB
     url: https://github.com/LopezTutoriales/Luma3DS-Spanish/releases/download/v11.0/Luma3DSv11.0_ESP.zip
-  boot.firm:
-    size: 226816
-    url: https://www.dropbox.com/s/wr4hpebjz215avm/boot.firm?dl=1
 github: LopezTutoriales/Luma3DS-Spanish
 icon_index: 210
 image: https://avatars.githubusercontent.com/u/5817696?v=4&size=128
