@@ -843,7 +843,13 @@
 		"github": "Nanquitas/BootNTR",
 		"systems": ["3DS"],
 		"categories": ["utility"],
-		"icon": "https://raw.githubusercontent.com/Nanquitas/BootNTR/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/Nanquitas/BootNTR/master/resources/icon.png",
+		"archive": {
+			"Home.Menu.Alternate.Banner.zip": {
+				"BootNTRSelector.cia": ["BootNTRSelector.cia"],
+				"BootNTRSelector-Mode3.cia": ["BootNTRSelector-Mode3.cia"]
+			}
+		}
 	},
 	{
 		"github": "MrHuu/openbor-3ds",
