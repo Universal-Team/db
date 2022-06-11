@@ -64,7 +64,7 @@ update_notes: '<h1 dir="auto">About 3GX plugins</h1>
   a menu easily.<br>
 
   An example is available <a href="https://github.com/Nanquitas/Luma3DS-Plugin-sample">here</a>.</p>'
-updated: '2022-06-05T09:19:24Z'
+updated: '2022-06-11T15:55:52Z'
 version: v11.0
-version_title: v11.0 3GX Loader Edition
+version_title: Luma3DS 3GX Loader v11.0
 ---
