@@ -11,23 +11,23 @@ downloads:
   BootNTRSelector-FONZD-Banner.cia:
     size: 1508288
     size_str: 1 MiB
-    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.4/BootNTRSelector-FONZD-Banner.cia
+    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.5/BootNTRSelector-FONZD-Banner.cia
   BootNTRSelector-Mode3-FONZD-Banner.cia:
     size: 1508288
     size_str: 1 MiB
-    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.4/BootNTRSelector-Mode3-FONZD-Banner.cia
+    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.5/BootNTRSelector-Mode3-FONZD-Banner.cia
   BootNTRSelector-Mode3-PabloMK7-Banner.cia:
     size: 1487808
     size_str: 1 MiB
-    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.4/BootNTRSelector-Mode3-PabloMK7-Banner.cia
+    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.5/BootNTRSelector-Mode3-PabloMK7-Banner.cia
   BootNTRSelector-PabloMK7-Banner.3dsx:
-    size: 1074176
+    size: 1073496
     size_str: 1 MiB
-    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.4/BootNTRSelector-PabloMK7-Banner.3dsx
+    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.5/BootNTRSelector-PabloMK7-Banner.3dsx
   BootNTRSelector-PabloMK7-Banner.cia:
     size: 1487808
     size_str: 1 MiB
-    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.4/BootNTRSelector-PabloMK7-Banner.cia
+    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.5/BootNTRSelector-PabloMK7-Banner.cia
 github: Nanquitas/BootNTR
 icon: https://raw.githubusercontent.com/Nanquitas/BootNTR/master/resources/icon.png
 icon_index: 30
@@ -56,11 +56,7 @@ source: https://github.com/Nanquitas/BootNTR
 systems:
 - 3DS
 title: BootNTR
-update_notes: '<h1 dir="auto">This release is currently broken with Luma Plugin Loader
-  v11.0. Please use <a href="https://github.com/Nanquitas/BootNTR/files/8846685/Luma3GX.-.v10.3.zip">Luma
-  Plugin Loader v10.3</a> until the issue is addressed!</h1>
-
-  <h1 dir="auto">This release is currently broken with official Luma3DS!</h1>
+update_notes: '<h1 dir="auto">This release is currently broken with official Luma3DS!</h1>
 
   <p dir="auto">You can temporarily use the <a href="https://github.com/Nanquitas/Luma3DS/releases">Luma3DS
   3GX Loader build</a> until this issue is addressed!<br>
@@ -130,7 +126,8 @@ update_notes: '<h1 dir="auto">This release is currently broken with Luma Plugin 
   <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/10946643/56131768-afbb7600-5f88-11e9-8585-6ceb930424cc.png"><img
   src="https://user-images.githubusercontent.com/10946643/56131768-afbb7600-5f88-11e9-8585-6ceb930424cc.png"
   alt="image" style="max-width: 100%;"></a></p>'
-updated: '2020-11-23T12:27:12Z'
-version: v2.13.4
+updated: '2022-06-10T22:42:28Z'
+version: v2.13.5
+version_title: v2.13.5 - Luma3DS 3GX v11.0 Support
 wiki: https://github.com/Nanquitas/BootNTR/wiki
 ---
