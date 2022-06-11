@@ -8,26 +8,22 @@ color_bg: '#7c626d'
 created: '2016-04-21T14:02:23Z'
 download_page: https://github.com/Nanquitas/BootNTR/releases
 downloads:
-  BootNTRSelector-FONZD-Banner.cia:
-    size: 1508288
+  BootNTRSelector.3dsx:
+    size: 1073272
     size_str: 1 MiB
-    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.5/BootNTRSelector-FONZD-Banner.cia
-  BootNTRSelector-Mode3-FONZD-Banner.cia:
-    size: 1508288
-    size_str: 1 MiB
-    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.5/BootNTRSelector-Mode3-FONZD-Banner.cia
-  BootNTRSelector-Mode3-PabloMK7-Banner.cia:
+    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.6/BootNTRSelector.3dsx
+  BootNTRSelector.cia:
     size: 1487808
     size_str: 1 MiB
-    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.5/BootNTRSelector-Mode3-PabloMK7-Banner.cia
-  BootNTRSelector-PabloMK7-Banner.3dsx:
-    size: 1073496
-    size_str: 1 MiB
-    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.5/BootNTRSelector-PabloMK7-Banner.3dsx
-  BootNTRSelector-PabloMK7-Banner.cia:
+    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.6/BootNTRSelector.cia
+  BootNTRSelector_Mode3.cia:
     size: 1487808
     size_str: 1 MiB
-    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.5/BootNTRSelector-PabloMK7-Banner.cia
+    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.6/BootNTRSelector_Mode3.cia
+  Home.Menu.Alternate.Banner.zip:
+    size: 2225631
+    size_str: 2 MiB
+    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.6/Home.Menu.Alternate.Banner.zip
 github: Nanquitas/BootNTR
 icon: https://raw.githubusercontent.com/Nanquitas/BootNTR/master/resources/icon.png
 icon_index: 30
@@ -37,10 +33,8 @@ layout: app
 license: mit
 license_name: MIT License
 qr:
-  BootNTRSelector-FONZD-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-fonzd-banner-cia.png
-  BootNTRSelector-Mode3-FONZD-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-mode3-fonzd-banner-cia.png
-  BootNTRSelector-Mode3-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-mode3-pablomk7-banner-cia.png
-  BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-pablomk7-banner-cia.png
+  BootNTRSelector.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-cia.png
+  BootNTRSelector_Mode3.cia: https://db.universal-team.net/assets/images/qr/bootntrselector_mode3-cia.png
 screenshots:
 - description: Auto updater
   url: https://db.universal-team.net/assets/images/screenshots/bootntr/auto-updater.png
@@ -84,10 +78,7 @@ update_notes: '<h1 dir="auto">This release is currently broken with official Lum
 
   <ul dir="auto">
 
-  <li>Added 11.14 support.</li>
-
-  <li>Adapted code to latest ctrulib, no longer uses dma svcs to copy memory, so launching
-  is way more stable.</li>
+  <li>Added Luma3DS 3GX v11.0 compatibility.</li>
 
   </ul>
 
@@ -110,24 +101,26 @@ update_notes: '<h1 dir="auto">This release is currently broken with official Lum
   menu.) <strong>You don''t need to install the Mode3 version if you don''t want to
   use any extended memory game or you have a New 3DS/2DS.</strong></p>
 
-  <h2 dir="auto">PabloMK7 / FONZD banner</h2>
+  <h2 dir="auto">Home Menu Banner</h2>
 
   <p dir="auto">The banner is the 3D model that shows in the top screen when you select
-  the app in the home menu. The difference is only visual and is up to your own choice.</p>
+  the app in the home menu. The difference is only visual and is up to your own choice.
+  The default banner files can be directly found below, while the alternate banner
+  files are inside a <code class="notranslate">.zip</code> file.</p>
 
-  <h3 dir="auto">PabloMK7 Banner</h3>
+  <h3 dir="auto">Default Banner (PabloMK7)</h3>
 
   <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/10946643/56131741-96b2c500-5f88-11e9-9af7-a81825505f5b.png"><img
   src="https://user-images.githubusercontent.com/10946643/56131741-96b2c500-5f88-11e9-9af7-a81825505f5b.png"
   alt="image" style="max-width: 100%;"></a></p>
 
-  <h3 dir="auto">FONZD Banner</h3>
+  <h3 dir="auto">Alternate Banner (FONZD)</h3>
 
   <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/10946643/56131768-afbb7600-5f88-11e9-8585-6ceb930424cc.png"><img
   src="https://user-images.githubusercontent.com/10946643/56131768-afbb7600-5f88-11e9-8585-6ceb930424cc.png"
   alt="image" style="max-width: 100%;"></a></p>'
-updated: '2022-06-10T22:42:28Z'
-version: v2.13.5
-version_title: v2.13.5 - Luma3DS 3GX v11.0 Support
+updated: '2022-06-11T14:52:06Z'
+version: v2.13.6
+version_title: v2.13.6
 wiki: https://github.com/Nanquitas/BootNTR/wiki
 ---
