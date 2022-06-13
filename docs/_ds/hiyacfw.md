@@ -1,6 +1,6 @@
 ---
-author: RocketRobz
-avatar: https://avatars.githubusercontent.com/u/16110127?v=4
+author: DS-Homebrew
+avatar: https://avatars.githubusercontent.com/u/46971470?v=4
 categories:
 - utility
 color: '#666666'
@@ -12,7 +12,7 @@ downloads:
   hiyaCFW.7z:
     size: 329866
     size_str: 322 KiB
-    url: https://github.com/RocketRobz/hiyaCFW/releases/download/v1.4.0/hiyaCFW.7z
+    url: https://github.com/DS-Homebrew/hiyaCFW/releases/download/v1.4.0/hiyaCFW.7z
 github: RocketRobz/hiyaCFW
 icon: https://db.universal-team.net/assets/images/icons/hiyacfw.png
 icon_index: 141
@@ -26,24 +26,24 @@ nightly:
   downloads:
     hiyaCFW.7z:
       url: https://github.com/TWLBot/Builds/raw/master/extras/hiyaCFW.7z
-source: https://github.com/RocketRobz/hiyaCFW
+source: https://github.com/DS-Homebrew/hiyaCFW
 systems:
 - DS
 title: hiyaCFW
 unistore_exclude: true
-update_notes: '<p dir="auto">To update, just replace <code class="notranslate">hiya.dsi</code>
+update_notes: '<p>To update, just replace <code class="notranslate">hiya.dsi</code>
   on the SD root, with the one from the 7z file, in <code class="notranslate">for
   SDNAND SD card</code>.</p>
 
-  <p dir="auto"><strong>What''s new?</strong></p>
+  <p><strong>What''s new?</strong></p>
 
-  <ul dir="auto">
+  <ul>
 
   <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
   Automatic dummy file creation has been added, so goodbye stock error screen!
 
-  <ul dir="auto">
+  <ul>
 
   <li><strong>NOTE:</strong> If it''s still shown for you, then the SDNAND contents
   are probably corrupt.</li>
