@@ -11,7 +11,7 @@ description: '"Firmware personalizado" (N)3DS a prueba de novatos'
 download_page: https://github.com/LopezTutoriales/Luma3DS-Spanish/releases
 downloads:
   Luma3DSv11.0_ESP.zip:
-    size: 390911
+    size: 391164
     size_str: 381 KiB
     url: https://github.com/LopezTutoriales/Luma3DS-Spanish/releases/download/v11.0/Luma3DSv11.0_ESP.zip
 github: LopezTutoriales/Luma3DS-Spanish

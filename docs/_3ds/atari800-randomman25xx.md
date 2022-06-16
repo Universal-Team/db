@@ -31,8 +31,10 @@ source: https://github.com/RandomMan25XX/atari800-3ds
 systems:
 - 3DS
 title: Atari800 (RandomMan25XX)
-update_notes: <p>Once again we get yet another update from asiekierka, and once again
+update_notes: '<p>Once again we get yet another update from asiekierka, and once again
   I push out another updated cia release</p>
+
+  <p>(Emulator now reports the correct version)</p>'
 updated: '2022-06-15T06:04:43Z'
 version: Version_3DS_0.3.7
 version_title: A Surprise Update From asiekierka
