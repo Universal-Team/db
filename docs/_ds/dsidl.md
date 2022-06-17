@@ -6,11 +6,11 @@ categories:
 color: '#e7e7e7'
 color_bg: '#808080'
 created: '2022-06-14T07:42:22Z'
-description: DSi Downloader
+description: A simple QR based file downloader for the DSi
 download_page: https://github.com/Epicpkmn11/dsidl/releases
 github: Epicpkmn11/dsidl
 icon: https://db.universal-team.net/assets/images/icons/dsidl.gif
-icon_index: -1
+icon_index: 220
 icon_static: https://raw.githubusercontent.com/Epicpkmn11/dsidl/master/resources/icon/icon.0.png
 image: https://db.universal-team.net/assets/images/icons/dsidl.gif
 image_length: 7315
@@ -147,6 +147,9 @@ prerelease:
   updated: '2022-06-17T05:22:27Z'
   version: v0.1.0
   version_title: UI improvements and simple scripting
+screenshots:
+- description: Main menu
+  url: https://db.universal-team.net/assets/images/screenshots/dsidl/main-menu.png
 source: https://github.com/Epicpkmn11/dsidl
 systems:
 - DS
