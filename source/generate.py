@@ -502,12 +502,17 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 		if not foundExisting or not (priorityOnlyMode and not ("priority" in app and app["priority"])):
 			if "downloads" in app:
 				for item in app["downloads"]:
-					if item[item.rfind(".") + 1:] == "cia":
+					if item.endswith(".cia") or item.endswith(".nds") or item.endswith(".dsi"):
 						qr = qrcode.make(app["downloads"][item]["url"], box_size=5, version=5).convert("RGBA")
 						if img:
 							draw = ImageDraw.Draw(qr)
-							draw.rectangle((((qr.width - img.width) // 2 - 5, (qr.height - img.height) // 2 - 5), ((qr.width + img.width) // 2 + 4, (qr.height + img.height) // 2 + 10 if "version" in app else 4)), fill=(255, 255, 255))
+							draw.rectangle((((qr.width - img.width) // 2 - 5, (qr.height - img.height) // 2 - 10), ((qr.width + img.width) // 2 + 4, (qr.height + img.height) // 2 + 10 if "version" in app else 4)), fill=(255, 255, 255))
 							qr.paste(img, ((qr.width - img.width) // 2, (qr.height - img.height) // 2), mask=img if img.mode == "RGBA" else None)
+							if item.endswith(".cia"):
+								draw.text(((qr.width - img.width) // 2, (qr.height - img.height) // 2 - 10), "3", (255, 0, 0))
+								draw.text(((qr.width - img.width) // 2 + 6, (qr.height - img.height) // 2 - 10), "DS", (0, 0, 0))
+							else:
+								draw.text(((qr.width - img.width) // 2, (qr.height - img.height) // 2 - 10), "DSi", (0, 0, 0))
 							if "version" in app:
 								if img.width == 32 and len(app["version"]) > 5:
 									draw.text(((qr.width - img.width) // 2 - 2, (qr.height - img.height) // 2 + img.height), app["version"][:(img.width + 4) // 6], (0, 0, 0))
