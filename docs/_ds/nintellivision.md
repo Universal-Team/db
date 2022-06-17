@@ -29,6 +29,8 @@ icon_index: 187
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
 image_length: 16283
 layout: app
+qr:
+  NINTV-DS.nds: https://db.universal-team.net/assets/images/qr/nintv-ds-nds.png
 script_message: 'You need "grom.bin", "exec.bin",
 
   and optionally "ivoice.bin" in the folder with your ROM files.'

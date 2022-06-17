@@ -21,6 +21,8 @@ image_length: 586
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+qr:
+  NTM.dsi: https://db.universal-team.net/assets/images/qr/ntm-dsi.png
 source: https://github.com/Epicpkmn11/NTM
 systems:
 - DS
