@@ -1,12 +1,20 @@
-document.getElementById("modal").addEventListener("show.bs.modal", function(event) {
-	const button = event.relatedTarget;
+function updateModal(event) {
+	// console.log(event);
+	const button = event.relatedTarget || event.srcElement;
+	const modal = document.getElementById("modal");
 
-	this.querySelector(".modal-title").innerText = button.getAttribute("data-name");
+	// console.log(button, modal);
+
+	modal.querySelector(".modal-title").innerText = button.getAttribute("data-name");
 	if(button.getAttribute("data-path")) {
-		this.querySelector(".modal-body").innerHTML = "<img class='qr-image' alt='QR code for " + button.getAttribute("data-name") + "' src='" + button.getAttribute("data-path") + "'>";
-		this.querySelector(".modal-dialog").classList.remove("modal-lg");
+		modal.querySelector(".modal-dialog").classList.remove("modal-lg");
+		modal.querySelector(".modal-body").innerHTML =
+				'<div class="mx-auto text-center"><img class="qr-image" alt="QR code for ' + button.getAttribute("data-name") + '" src="' + button.getAttribute("data-path") + '">' +
+				"<p>" + (button.getAttribute("data-name").endsWith(".cia") ? strings["scan-qr-fbi"] : strings["scan-qr-dsidl"]) + "</p></div>";
 	} else if(button.getAttribute("data-content")) {
-		this.querySelector(".modal-body").innerHTML = button.getAttribute("data-content");
-		this.querySelector(".modal-dialog").classList.add("modal-lg");
+		modal.querySelector(".modal-dialog").classList.add("modal-lg");
+		modal.querySelector(".modal-body").innerHTML = button.getAttribute("data-content");
 	}
-});
+}
+
+document.getElementById("modal").addEventListener("show.bs.modal", updateModal);

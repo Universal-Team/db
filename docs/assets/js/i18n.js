@@ -20,6 +20,8 @@ const i18n = {
 	{%- endfor -%}
 };
 
+var strings = i18n["en-US"].strings;
+
 const _jipt = [];
 
 loadHead();
@@ -73,13 +75,15 @@ function loadLang(initing) {
 	if(!(languageID in i18n))
 		return console.warn("Language not found", languageID);
 
+	strings = i18n[languageID].strings;
+
 	const i18nElements = document.getElementsByClassName("i18n");
 	for(i = 0; i < i18nElements.length; i++) {
 		const element = i18nElements[i];
 		for(j = 0; j < element.classList.length; j++) {
 			const match = element.classList[j].match(/(innerHTML|title|placeholder|ariaLabel|data-(.*?))-(.*)/);
 			if(match) {
-				const str = i18n[languageID].strings[match[3]];
+				const str = strings[match[3]];
 				if(str) {
 					if(match[2])
 						element.dataset[match[2]] = str.replace(/\${(.*)}/g, function(full, capture) { return element.dataset[capture]; });
