@@ -31,6 +31,8 @@ image_length: 10279
 layout: app
 license: mit
 license_name: MIT License
+qr:
+  StellaDS.nds: https://db.universal-team.net/assets/images/qr/stellads-nds.png
 source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS

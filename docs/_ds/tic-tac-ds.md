@@ -21,6 +21,8 @@ image_length: 9717
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+qr:
+  tic-tac-ds.nds: https://db.universal-team.net/assets/images/qr/tic-tac-ds-nds.png
 screenshots:
 - description: Choose difficulty
   url: https://db.universal-team.net/assets/images/screenshots/tic-tac-ds/choose-difficulty.png

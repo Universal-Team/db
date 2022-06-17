@@ -33,6 +33,8 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   WordleDS.cia: https://db.universal-team.net/assets/images/qr/wordleds-cia.png
+  WordleDS.dsi: https://db.universal-team.net/assets/images/qr/wordleds-dsi.png
+  WordleDS.nds: https://db.universal-team.net/assets/images/qr/wordleds-nds.png
 screenshots:
 - description: How to play
   url: https://db.universal-team.net/assets/images/screenshots/wordle-ds/how-to-play.png

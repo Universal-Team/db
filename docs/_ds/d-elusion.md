@@ -23,6 +23,9 @@ icon_index: 201
 image: https://db.universal-team.net/assets/images/icons/d-elusion.png
 image_length: 630
 layout: app
+qr:
+  d-Elusion-no-sound.nds: https://db.universal-team.net/assets/images/qr/d-elusion-no-sound-nds.png
+  d-Elusion.nds: https://db.universal-team.net/assets/images/qr/d-elusion-nds.png
 screenshots:
 - description: Gameplay 1
   url: https://db.universal-team.net/assets/images/screenshots/d-elusion/gameplay-1.png

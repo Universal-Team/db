@@ -24,6 +24,8 @@ nightly:
   downloads:
     nesDS.7z:
       url: https://github.com/TWLBot/Builds/raw/master/extras/nesDS.7z
+qr:
+  nesDS.nds: https://db.universal-team.net/assets/images/qr/nesds-nds.png
 source: https://github.com/DS-Homebrew/NesDS
 systems:
 - DS

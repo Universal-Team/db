@@ -27,6 +27,7 @@ license: unlicense
 license_name: The Unlicense
 qr:
   dsi-camera.cia: https://db.universal-team.net/assets/images/qr/dsi-camera-cia.png
+  dsi-camera.nds: https://db.universal-team.net/assets/images/qr/dsi-camera-nds.png
 screenshots:
 - description: Taking a picture
   url: https://db.universal-team.net/assets/images/screenshots/dsi-camera/taking-a-picture.png

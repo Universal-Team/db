@@ -19,6 +19,8 @@ icon_index: 194
 image: https://db.universal-team.net/assets/images/icons/ikachands.png
 image_length: 630
 layout: app
+qr:
+  IkachanDS-0.1.1.nds: https://db.universal-team.net/assets/images/qr/ikachands-0-1-1-nds.png
 source: https://github.com/tilderain/IkachanDS
 systems:
 - DS

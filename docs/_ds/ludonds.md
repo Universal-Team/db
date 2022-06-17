@@ -21,6 +21,8 @@ image_length: 65046
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+qr:
+  LudoNDS.nds: https://db.universal-team.net/assets/images/qr/ludonds-nds.png
 screenshots:
 - description: Credits de
   url: https://db.universal-team.net/assets/images/screenshots/ludonds/credits-de.png

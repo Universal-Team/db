@@ -28,6 +28,7 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   NitroHax-usrcheat.cia: https://db.universal-team.net/assets/images/qr/nitrohax-usrcheat-cia.png
+  NitroHax.dsi: https://db.universal-team.net/assets/images/qr/nitrohax-dsi.png
 source: https://github.com/Epicpkmn11/NitroHax3DS
 systems:
 - DS

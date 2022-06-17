@@ -26,6 +26,8 @@ nightly:
   downloads:
     build.zip:
       url: https://nightly.link/lifehackerhansol/NDSForwarder-DSi/workflows/nightly/master/build.zip
+qr:
+  NDSForwarder.dsi: https://db.universal-team.net/assets/images/qr/ndsforwarder-dsi.png
 source: https://github.com/lifehackerhansol/NDSForwarder-DSi
 systems:
 - DS

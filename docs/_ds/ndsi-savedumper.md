@@ -21,6 +21,8 @@ image_length: 1574
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+qr:
+  savedumper.nds: https://db.universal-team.net/assets/images/qr/savedumper-nds.png
 source: https://github.com/edo9300/ndsi-savedumper
 systems:
 - DS

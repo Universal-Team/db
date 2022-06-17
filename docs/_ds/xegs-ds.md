@@ -25,6 +25,8 @@ icon_index: 158
 image: https://raw.githubusercontent.com/wavemotion-dave/XEGS-DS/main/arm9/gfx/bgTop.png
 image_length: 11641
 layout: app
+qr:
+  XEGS-DS.nds: https://db.universal-team.net/assets/images/qr/xegs-ds-nds.png
 source: https://github.com/wavemotion-dave/XEGS-DS
 systems:
 - DS

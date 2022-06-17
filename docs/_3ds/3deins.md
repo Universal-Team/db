@@ -44,6 +44,7 @@ nightly:
     3DEins.cia: https://db.universal-team.net/assets/images/qr/nightly/3deins-cia.png
 qr:
   3DEins.cia: https://db.universal-team.net/assets/images/qr/3deins-cia.png
+  DSEins.nds: https://db.universal-team.net/assets/images/qr/dseins-nds.png
   DSEins.nds.cia: https://db.universal-team.net/assets/images/qr/dseins-nds-cia.png
 screenshots:
 - description: Char selection
