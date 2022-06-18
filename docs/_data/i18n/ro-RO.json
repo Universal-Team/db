@@ -50,6 +50,8 @@
 	"system": "Sistem: ",
 	"version": "Versiune: ",
 	"show-qr-for": "Arătați Cod QR pentru ${name}",
+	"scan-qr-fbi": "Scanați acest cod QR folosind <a href=\"/3ds/fbi\">FBI</a> pe consola dvs. pentru a instala.",
+	"scan-qr-dsidl": "Scanați acest cod QR folosind <a href=\"/ds/dsidl\">FBI</a> pe consola dvs. pentru a instala.",
 	"back": "&lt; Înapoi",
 	"website": "Site web",
 	"wiki": "Wiki",

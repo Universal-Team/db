@@ -50,6 +50,8 @@
 	"system": "本体: ",
 	"version": "バージョン: ",
 	"show-qr-for": "${name}のQRコードを表示",
+	"scan-qr-fbi": "3DSの<a href=\"/3ds/fbi\">FBI</a>を使って、このQRコードをスキャンしてインストールしてください。",
+	"scan-qr-dsidl": "DSiの<a href=\"/ds/dsidl\">dsidl</a>を使って、このQRコードをスキャンしてインストールしてください。",
 	"back": "＜ 戻る",
 	"website": "Webサイト",
 	"wiki": "ウィキ",

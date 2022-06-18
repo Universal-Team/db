@@ -50,6 +50,8 @@
 	"system": "crwdns22926:0crwdne22926:0",
 	"version": "crwdns22928:0crwdne22928:0",
 	"show-qr-for": "crwdns22930:0${name}crwdne22930:0",
+	"scan-qr-fbi": "crwdns31448:0crwdne31448:0",
+	"scan-qr-dsidl": "crwdns31450:0crwdne31450:0",
 	"back": "crwdns22996:0crwdne22996:0",
 	"website": "crwdns22934:0crwdne22934:0",
 	"wiki": "crwdns22936:0crwdne22936:0",

@@ -50,6 +50,8 @@
 	"system": "본체: ",
 	"version": "버전: ",
 	"show-qr-for": "${name} QR코드 표시",
+	"scan-qr-fbi": "Scan this QR code using <a href=\"/3ds/fbi\">FBI</a> on your 3DS to install.",
+	"scan-qr-dsidl": "Scan this QR code using <a href=\"/ds/dsidl\">dsidl</a> on your DSi to install.",
 	"back": "&lt; 뒤로",
 	"website": "웹사이트",
 	"wiki": "위키",

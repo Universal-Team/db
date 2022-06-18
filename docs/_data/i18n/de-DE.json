@@ -50,6 +50,8 @@
 	"system": "System: ",
 	"version": "Version: ",
 	"show-qr-for": "QR-Code für ${name} anzeigen",
+	"scan-qr-fbi": "Scanne diesen QR code mit <a href=\"/ds/dsidl\">FBI</a> auf deinem 3DS zum installieren.",
+	"scan-qr-dsidl": "Scanne diesen QR code mit <a href=\"/ds/dsidl\">dsidl</a> auf deinem DSi zum installieren.",
 	"back": "&lt; Zurück",
 	"website": "Webseite",
 	"wiki": "Wiki",

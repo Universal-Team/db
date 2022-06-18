@@ -50,6 +50,8 @@
 	"system": "对应主机： ",
 	"version": "版本: ",
 	"show-qr-for": "显示 ${name} 的二维码",
+	"scan-qr-fbi": "Scan this QR code using <a href=\"/3ds/fbi\">FBI</a> on your 3DS to install.",
+	"scan-qr-dsidl": "Scan this QR code using <a href=\"/ds/dsidl\">dsidl</a> on your DSi to install.",
 	"back": "&lt; 返回",
 	"website": "网站",
 	"wiki": "维基",
