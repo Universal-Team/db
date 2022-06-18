@@ -22,6 +22,8 @@ nightly:
       url: https://bitbucket.org/Coto88/toolchaingenericds-multimediaplayer/raw/master/release/arm7dldi-ntr/ToolchainGenericDS-multimediaplayer.nds
     arm7dldi-twl/SNEmulDS.srl:
       url: https://bitbucket.org/Coto88/toolchaingenericds-multimediaplayer/raw/master/release/arm7dldi-twl/ToolchainGenericDS-multimediaplayer.srl
+  qr:
+    arm7dldi-ntr/SNEmulDS.nds: https://db.universal-team.net/assets/images/qr/nightly/arm7dldi-ntrsnemulds-nds.png
 source: https://bitbucket.org/Coto88/toolchaingenericds-multimediaplayer
 systems:
 - DS

@@ -36,6 +36,7 @@ nightly:
       url: https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.nds
   qr:
     pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/nightly/pkmn-chest-cia.png
+    pkmn-chest.nds: https://db.universal-team.net/assets/images/qr/nightly/pkmn-chest-nds.png
 qr:
   pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/pkmn-chest-cia.png
   pkmn-chest.nds: https://db.universal-team.net/assets/images/qr/pkmn-chest-nds.png

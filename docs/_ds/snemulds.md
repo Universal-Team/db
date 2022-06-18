@@ -28,6 +28,8 @@ nightly:
       url: https://bitbucket.org/Coto88/snemulds/raw/master/release/arm7dldi-twl/tgds_multiboot_payload_twl.bin
     snemul.cfg:
       url: https://bitbucket.org/Coto88/snemulds/raw/master/release/snemul.cfg
+  qr:
+    arm7dldi-ntr/SNEmulDS.nds: https://db.universal-team.net/assets/images/qr/nightly/arm7dldi-ntrsnemulds-nds.png
 source: https://bitbucket.org/Coto88/snemulds
 systems:
 - DS

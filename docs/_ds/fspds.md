@@ -28,6 +28,8 @@ prerelease:
       size: 235520
       size_str: 230 KiB
       url: https://github.com/NotImplementedLife/FSPDS/releases/download/V0.3.41164628D/FSPDS-V0.3.41164628D.nds
+  qr:
+    FSPDS-V0.3.41164628D.nds: https://db.universal-team.net/assets/images/qr/prerelease/fspds-v0-3-41164628d-nds.png
   update_notes: '<p dir="auto">FSPDS now looks for flipnotes in official Flipnote
     Studio paths from the SD card:</p>
 
