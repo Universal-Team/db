@@ -17,30 +17,30 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.4-52-ge6bf30693
+  download_page: https://github.com/angband/angband/releases/tag/4.2.4-63-g81ef15325
   downloads:
-    Angband-4.2.4-52-ge6bf30693-3ds.zip:
-      size: 23445336
+    Angband-4.2.4-63-g81ef15325-3ds.zip:
+      size: 23444809
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.4-52-ge6bf30693/Angband-4.2.4-52-ge6bf30693-3ds.zip
-    Angband-4.2.4-52-ge6bf30693-nds.zip:
-      size: 23350651
+      url: https://github.com/angband/angband/releases/download/4.2.4-63-g81ef15325/Angband-4.2.4-63-g81ef15325-3ds.zip
+    Angband-4.2.4-63-g81ef15325-nds.zip:
+      size: 23355307
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.4-52-ge6bf30693/Angband-4.2.4-52-ge6bf30693-nds.zip
-    Angband-4.2.4-52-ge6bf30693.tar.gz:
-      size: 25215194
+      url: https://github.com/angband/angband/releases/download/4.2.4-63-g81ef15325/Angband-4.2.4-63-g81ef15325-nds.zip
+    Angband-4.2.4-63-g81ef15325.tar.gz:
+      size: 25211606
       size_str: 24 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.4-52-ge6bf30693/Angband-4.2.4-52-ge6bf30693.tar.gz
-  updated: '2022-05-28T22:14:02Z'
-  version: 4.2.4-52-ge6bf30693
-  version_title: Release 4.2.4-52-ge6bf30693
+      url: https://github.com/angband/angband/releases/download/4.2.4-63-g81ef15325/Angband-4.2.4-63-g81ef15325.tar.gz
+  updated: '2022-06-18T22:53:43Z'
+  version: 4.2.4-63-g81ef15325
+  version_title: Release 4.2.4-63-g81ef15325
 source: https://github.com/angband/angband
 systems:
 - 3DS
 - DS
 title: Angband
-updated: '2022-05-28T22:14:02Z'
-version: 4.2.4-52-ge6bf30693
-version_title: Release 4.2.4-52-ge6bf30693
+updated: '2022-06-18T22:53:43Z'
+version: 4.2.4-63-g81ef15325
+version_title: Release 4.2.4-63-g81ef15325
 ---
 Angband is a graphical dungeon adventure game that uses textual characters to represent the walls and floors of a dungeon and the inhabitants therein, in the vein of games like NetHack and Rogue. If you need help in-game, press ?.
