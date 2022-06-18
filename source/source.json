@@ -827,8 +827,8 @@
 		"categories": ["emulator"],
 		"archive": {
 			"gameyob.zip": {
-				"GameYob.cia": ["GameYob.cia"],
-				"GameYob.nds": ["GameYob.nds"]
+				"gameyob.cia": ["gameyob.cia"],
+				"gameyob.nds": ["gameyob.nds"]
 			}
 		}
 	},
