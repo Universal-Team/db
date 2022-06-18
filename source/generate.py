@@ -525,7 +525,7 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 
 			if "prerelease" in app:
 				for item in app["prerelease"]["downloads"]:
-					if item[item.rfind(".") + 1:] == "cia":
+					if item.endswith(".cia") or item.endswith(".nds") or item.endswith(".dsi"):
 						qr = qrcode.make(app["prerelease"]["downloads"][item]["url"], box_size=5, version=5).convert("RGBA")
 						data = numpy.array(qr)
 						r, g, b, a = data.T
@@ -550,7 +550,7 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 
 			if "nightly" in app:
 				for item in app["nightly"]["downloads"]:
-					if item[item.rfind(".") + 1:] == "cia":
+					if item.endswith(".cia") or item.endswith(".nds") or item.endswith(".dsi"):
 						qr = qrcode.make(app["nightly"]["downloads"][item]["url"], box_size=5, version=5).convert("RGBA")
 						data = numpy.array(qr)
 						r, g, b, a = data.T
