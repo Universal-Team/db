@@ -30,6 +30,7 @@ prerelease:
       url: https://github.com/Epicpkmn11/dsidl/releases/download/v0.1.0/dsidl.dsi
   qr:
     dsidl.cia: https://db.universal-team.net/assets/images/qr/prerelease/dsidl-cia.png
+    dsidl.dsi: https://db.universal-team.net/assets/images/qr/prerelease/dsidl-dsi.png
   update_notes: '<h2 dir="auto">What''s new?</h2>
 
     <ul dir="auto">
