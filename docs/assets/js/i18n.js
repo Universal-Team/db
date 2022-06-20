@@ -81,7 +81,7 @@ function loadLang(initing) {
 	for(i = 0; i < i18nElements.length; i++) {
 		const element = i18nElements[i];
 		for(j = 0; j < element.classList.length; j++) {
-			const match = element.classList[j].match(/(innerHTML|title|placeholder|ariaLabel|data-(.*?))-(.*)/);
+			const match = element.classList[j].match(/(innerHTML|title|placeholder|ariaLabel|value|data-(.*?))-(.*)/);
 			if(match) {
 				const str = strings[match[3]];
 				if(str) {
