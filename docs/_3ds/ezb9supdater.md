@@ -32,9 +32,9 @@ systems:
 title: EzB9SUpdater
 update_notes: '<h2 dir="auto">QR Code</h2>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/10946643/170087006-a46d23f2-a15c-45ac-aaf3-d539533960b9.png"><img
-  src="https://user-images.githubusercontent.com/10946643/170087006-a46d23f2-a15c-45ac-aaf3-d539533960b9.png"
-  alt="ezb9supdater" style="max-width: 100%;"></a></p>
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/assets/10946643/a46d23f2-a15c-45ac-aaf3-d539533960b9"><img
+  src="https://github.com/assets/10946643/a46d23f2-a15c-45ac-aaf3-d539533960b9" alt="ezb9supdater"
+  class="js-img-time" style="max-width: 100%;"></a></p>
 
   <h2 dir="auto">Usage</h2>
 
