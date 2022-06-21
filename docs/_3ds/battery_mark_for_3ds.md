@@ -47,9 +47,9 @@ update_notes: '<ul dir="auto">
 
   <p dir="auto">QR code for .cia<br>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/45873899/161756023-9d3528b1-c458-4b2c-8dd4-8265beb871b0.png"><img
-  src="https://user-images.githubusercontent.com/45873899/161756023-9d3528b1-c458-4b2c-8dd4-8265beb871b0.png"
-  alt="image" style="max-width: 100%;"></a></p>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/assets/45873899/9d3528b1-c458-4b2c-8dd4-8265beb871b0"><img
+  src="https://github.com/assets/45873899/9d3528b1-c458-4b2c-8dd4-8265beb871b0" alt="image"
+  class="js-img-time" style="max-width: 100%;"></a></p>
 
   <p dir="auto">This is free software, but I accept donation.</p>
 

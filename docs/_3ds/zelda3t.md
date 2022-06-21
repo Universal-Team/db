@@ -29,9 +29,9 @@ source: https://github.com/nop90/Zelda3T
 systems:
 - 3DS
 title: Zelda3T
-update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/6418965/30785430-de03a4ba-a166-11e7-8ee4-c1a70f39968c.jpg"><img
-  src="https://user-images.githubusercontent.com/6418965/30785430-de03a4ba-a166-11e7-8ee4-c1a70f39968c.jpg"
-  alt="zelda3t_v1 0 cia" style="max-width: 100%;"></a></p>
+update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/assets/6418965/de03a4ba-a166-11e7-8ee4-c1a70f39968c"><img
+  src="https://github.com/assets/6418965/de03a4ba-a166-11e7-8ee4-c1a70f39968c" alt="zelda3t_v1
+  0 cia" class="js-img-time" style="max-width: 100%;"></a></p>
 
   <p dir="auto">(QR code to dovnload and install the cia file with FBI)</p>'
 updated: '2017-09-24T18:25:47Z'

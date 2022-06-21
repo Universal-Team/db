@@ -12,11 +12,11 @@ downloads:
   craftus_redesigned.3dsx:
     size: 415708
     size_str: 405 KiB
-    url: https://github.com/GamesSanti/Craftus-Redesigned/releases/download/0.5.4/craftus_redesigned.3dsx
+    url: https://github.com/yunes-0840/Craftus-Redesigned/releases/download/0.5.4/craftus_redesigned.3dsx
   craftus_redesigned.cia:
     size: 578496
     size_str: 564 KiB
-    url: https://github.com/GamesSanti/Craftus-Redesigned/releases/download/0.5.4/craftus_redesigned.cia
+    url: https://github.com/yunes-0840/Craftus-Redesigned/releases/download/0.5.4/craftus_redesigned.cia
 github: GamesSanti/Craftus-Redesigned
 icon: https://raw.githubusercontent.com/GamesSanti/Craftus-Reskined/main/icon/craftusreloaded.png
 icon_index: 154
@@ -32,17 +32,16 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/craftus-redesigned/house.png
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/craftus-redesigned/title-screen.png
-source: https://github.com/GamesSanti/Craftus-Redesigned
+source: https://github.com/yunes-0840/Craftus-Redesigned
 systems:
 - 3DS
 title: Craftus Redesigned
-update_notes: '<h1 dir="auto">WARNING!!! WORLDS CREATED BEFORE RELEASE 0.4.0 WILL
-  NOT WORK OR WILL HAVE TEXTURES SWICHED!</h1>
+update_notes: '<h1>WARNING!!! WORLDS CREATED BEFORE RELEASE 0.4.0 WILL NOT WORK OR
+  WILL HAVE TEXTURES SWICHED!</h1>
 
-  <p dir="auto">-Default controls were changed, if you wish to change them, go to
-  <code class="notranslate">sd:/craftus_redesigned/options.ini</code></p>
+  <p>-Default controls were changed, if you wish to change them, go to <code class="notranslate">sd:/craftus_redesigned/options.ini</code></p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/68710005/100171600-963d1880-2ea5-11eb-8bb8-db6d13c6fdcd.png"><img
+  <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/68710005/100171600-963d1880-2ea5-11eb-8bb8-db6d13c6fdcd.png"><img
   src="https://user-images.githubusercontent.com/68710005/100171600-963d1880-2ea5-11eb-8bb8-db6d13c6fdcd.png"
   alt="top" style="max-width: 100%;"></a><br>
 
@@ -50,7 +49,7 @@ update_notes: '<h1 dir="auto">WARNING!!! WORLDS CREATED BEFORE RELEASE 0.4.0 WIL
   src="https://user-images.githubusercontent.com/68710005/100171666-99d09f80-2ea5-11eb-9dc5-95f7953a6db5.png"
   alt="bottom" style="max-width: 100%;"></a></p>
 
-  <p dir="auto">QR code for remote install :<br>
+  <p>QR code for remote install :<br>
 
   <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/68710005/100368414-52036280-2fe2-11eb-822e-fd954f9ce364.png"><img
   src="https://user-images.githubusercontent.com/68710005/100368414-52036280-2fe2-11eb-822e-fd954f9ce364.png"

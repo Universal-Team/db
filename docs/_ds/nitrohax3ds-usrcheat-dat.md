@@ -62,9 +62,9 @@ update_notes: '<p dir="auto">This is a fork of NitroHax3DS that loads cheats fro
   href="https://github.com/JeffRuLz/TMFH/releases">TMFH</a>/<a href="https://github.com/Epicpkmn11/NTM/releases">NTM</a>
   to install to the DSi Menu.</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/155246853-533de731-0e0e-47f0-986a-7c009961f665.png"><img
-  src="https://user-images.githubusercontent.com/41608708/155246853-533de731-0e0e-47f0-986a-7c009961f665.png"
-  alt="QR code for the CIA" style="max-width: 100%;"></a></p>'
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/assets/41608708/533de731-0e0e-47f0-986a-7c009961f665"><img
+  src="https://github.com/assets/41608708/533de731-0e0e-47f0-986a-7c009961f665" alt="QR
+  code for the CIA" class="js-img-time" style="max-width: 100%;"></a></p>'
 updated: '2022-02-23T01:15:15Z'
 version: '0.101'
 version_title: Improved boot splash
