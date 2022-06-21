@@ -54,7 +54,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   <ul dir="auto">
 
   <li>When connecting to Wii using a Pokemon Gen 4 title, the received SRL file is
-  now booted!</li>
+  now booted, and no longer crashes on white screens!</li>
 
   <li>Homebrew bootloader has moved to NitroFS in order for loaders such as TWLMenu++
   to load it directly.</li>
@@ -74,7 +74,10 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </li>
 
-  <li>ARM9i and ARM7i binaries of homebrew are now loaded.</li>
+  <li>ARM9i and ARM7i binaries of homebrew are now loaded when booting in DSi mode.</li>
+
+  <li><code class="notranslate">VRAM_BOOST</code> can now be changed for when running
+  NTR games in DSi mode.</li>
 
   </ul>
 

@@ -8,7 +8,23 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads: {}
+downloads:
+  TWiLightMenu-3DS.7z:
+    size: 28992622
+    size_str: 27 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.10.0/TWiLightMenu-3DS.7z
+  TWiLightMenu-DSi.7z:
+    size: 29041682
+    size_str: 27 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.10.0/TWiLightMenu-DSi.7z
+  TWiLightMenu-Flashcard.7z:
+    size: 40838261
+    size_str: 38 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.10.0/TWiLightMenu-Flashcard.7z
+  TWiLightMenu.7z:
+    size: 41049547
+    size_str: 39 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.10.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_index: 138
@@ -86,9 +102,9 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   <code class="notranslate">Language</code> and <code class="notranslate">Region</code>
   are now hidden.</li>
 
-  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/chishm/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/chishm">@chishm</a>)
-  With FastVideoDS still to come in the future, an old obscure video player, tuna-viDS,
+  <li>With FastVideoDS still to come in the future, an old obscure video player, tuna-viDS
+  (by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/chishm/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/chishm">@chishm</a>),
   has been added for Xvid (.avi) video playback!
 
   <ul dir="auto">

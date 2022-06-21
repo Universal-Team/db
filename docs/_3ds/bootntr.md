@@ -110,15 +110,15 @@ update_notes: '<h1 dir="auto">This release is currently broken with official Lum
 
   <h3 dir="auto">Default Banner (PabloMK7)</h3>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/assets/10946643/96b2c500-5f88-11e9-9af7-a81825505f5b"><img
-  src="https://github.com/assets/10946643/96b2c500-5f88-11e9-9af7-a81825505f5b" alt="image"
-  class="js-img-time" style="max-width: 100%;"></a></p>
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/10946643/56131741-96b2c500-5f88-11e9-9af7-a81825505f5b.png"><img
+  src="https://user-images.githubusercontent.com/10946643/56131741-96b2c500-5f88-11e9-9af7-a81825505f5b.png"
+  alt="image" style="max-width: 100%;"></a></p>
 
   <h3 dir="auto">Alternate Banner (FONZD)</h3>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/assets/10946643/afbb7600-5f88-11e9-8585-6ceb930424cc"><img
-  src="https://github.com/assets/10946643/afbb7600-5f88-11e9-8585-6ceb930424cc" alt="image"
-  class="js-img-time" style="max-width: 100%;"></a></p>'
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/10946643/56131768-afbb7600-5f88-11e9-8585-6ceb930424cc.png"><img
+  src="https://user-images.githubusercontent.com/10946643/56131768-afbb7600-5f88-11e9-8585-6ceb930424cc.png"
+  alt="image" style="max-width: 100%;"></a></p>'
 updated: '2022-06-11T14:52:06Z'
 version: v2.13.6
 version_title: v2.13.6

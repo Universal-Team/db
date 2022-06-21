@@ -106,10 +106,9 @@ update_notes: "<h3 dir=\"auto\">What's new?</h3>\n<ul dir=\"auto\">\n<li>\n<p di
   \ either make an issue or discussion here on GitHub or join our <a href=\"https://universal-team.net/discord\"\
   \ rel=\"nofollow\">Discord server</a>.</p>\n<p dir=\"auto\">We hope you enjoy the\
   \ new update!<br>\n~ Universal-Team</p>\n<hr>\n<p dir=\"auto\"><a target=\"_blank\"\
-  \ rel=\"noopener noreferrer\" href=\"https://github.com/assets/41608708/e2bb0dd5-049a-4fbf-8f59-8e8fd9af0f83\"\
-  ><img src=\"https://github.com/assets/41608708/e2bb0dd5-049a-4fbf-8f59-8e8fd9af0f83\"\
-  \ alt=\"QR code for Universal-Updater.cia\" class=\"js-img-time\" style=\"max-width:\
-  \ 100%;\"></a></p>"
+  \ rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/41608708/156961045-e2bb0dd5-049a-4fbf-8f59-8e8fd9af0f83.png\"\
+  ><img src=\"https://user-images.githubusercontent.com/41608708/156961045-e2bb0dd5-049a-4fbf-8f59-8e8fd9af0f83.png\"\
+  \ alt=\"QR code for Universal-Updater.cia\" style=\"max-width: 100%;\"></a></p>"
 updated: '2022-03-07T03:01:27Z'
 version: v3.2.5
 version_title: Bug fix and improved 3D banner

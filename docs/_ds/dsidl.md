@@ -112,13 +112,13 @@ prerelease:
 
     <tr>
 
-    <td><a target="_blank" rel="noopener noreferrer" href="https://github.com/assets/41608708/c35cfe2a-0793-4b9f-b45d-ac0627728a62"><img
-    src="https://github.com/assets/41608708/c35cfe2a-0793-4b9f-b45d-ac0627728a62"
-    alt="QR for dsidl.dsi" class="js-img-time" style="max-width: 100%;"></a></td>
+    <td><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/174230925-c35cfe2a-0793-4b9f-b45d-ac0627728a62.png"><img
+    src="https://user-images.githubusercontent.com/41608708/174230925-c35cfe2a-0793-4b9f-b45d-ac0627728a62.png"
+    alt="QR for dsidl.dsi" style="max-width: 100%;"></a></td>
 
-    <td><a target="_blank" rel="noopener noreferrer" href="https://github.com/assets/41608708/84aa480b-8bc7-4607-aa34-785f71e105cb"><img
-    src="https://github.com/assets/41608708/84aa480b-8bc7-4607-aa34-785f71e105cb"
-    alt="QR for dsidl.cia" class="js-img-time" style="max-width: 100%;"></a></td>
+    <td><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/174230974-84aa480b-8bc7-4607-aa34-785f71e105cb.png"><img
+    src="https://user-images.githubusercontent.com/41608708/174230974-84aa480b-8bc7-4607-aa34-785f71e105cb.png"
+    alt="QR for dsidl.cia" style="max-width: 100%;"></a></td>
 
     </tr>
 
@@ -237,13 +237,13 @@ update_notes: '<h2 dir="auto">What''s new?</h2>
 
   <tr>
 
-  <td><a target="_blank" rel="noopener noreferrer" href="https://github.com/assets/41608708/c35cfe2a-0793-4b9f-b45d-ac0627728a62"><img
-  src="https://github.com/assets/41608708/c35cfe2a-0793-4b9f-b45d-ac0627728a62" alt="QR
-  for dsidl.dsi" class="js-img-time" style="max-width: 100%;"></a></td>
+  <td><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/174230925-c35cfe2a-0793-4b9f-b45d-ac0627728a62.png"><img
+  src="https://user-images.githubusercontent.com/41608708/174230925-c35cfe2a-0793-4b9f-b45d-ac0627728a62.png"
+  alt="QR for dsidl.dsi" style="max-width: 100%;"></a></td>
 
-  <td><a target="_blank" rel="noopener noreferrer" href="https://github.com/assets/41608708/84aa480b-8bc7-4607-aa34-785f71e105cb"><img
-  src="https://github.com/assets/41608708/84aa480b-8bc7-4607-aa34-785f71e105cb" alt="QR
-  for dsidl.cia" class="js-img-time" style="max-width: 100%;"></a></td>
+  <td><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/174230974-84aa480b-8bc7-4607-aa34-785f71e105cb.png"><img
+  src="https://user-images.githubusercontent.com/41608708/174230974-84aa480b-8bc7-4607-aa34-785f71e105cb.png"
+  alt="QR for dsidl.cia" style="max-width: 100%;"></a></td>
 
   </tr>
 
