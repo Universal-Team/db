@@ -29,7 +29,7 @@ layout: compress
 				{% else %}
 					<title>{{ app.title }} updated to {{ app.version }}</title>
 				{% endif %}
-				<link>{{ app.url | absolute_url | remove: ".html" | replace: "http://", "https://" }}</link>
+				<link>{{ app.url | absolute_url | remove: ".html" | replace: "http://", "https://" | escape }}</link>
 				<description>
 					&lt;h1&gt;{{ app.version }}{% if app.version_title and app.version_title != app.version %} - {{ app.version_title }}{% endif %}&lt;/h1&gt;
 					{% if app.update_notes %}
@@ -41,7 +41,7 @@ layout: compress
 				<pubDate>{{ app.updated | date_to_rfc822 }}</pubDate>
 				<guid isPermaLink="false">{{ app.title }} - {{ app.version }}</guid>
 				{% if app.image %}
-					<enclosure url="{{ app.image }}" length="{{ app.image_length }}" type="image/png"></enclosure>
+					<enclosure url="{{ app.image | escape }}" length="{{ app.image_length }}" type="image/png"></enclosure>
 				{% endif %}
 			</item>
 		{% endfor %}
