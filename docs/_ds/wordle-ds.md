@@ -84,9 +84,9 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
   class="notranslate">.cia</code> build can be used to install to the 3DS HOME Menu,
   here''s a QR:</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/assets/41608708/84ec11b8-c912-41a8-b4c4-f73c3b94acc0"><img
-  src="https://github.com/assets/41608708/84ec11b8-c912-41a8-b4c4-f73c3b94acc0" alt="QR
-  code for WordleDS.cia" class="js-img-time" style="max-width: 100%;"></a></p>'
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/167492552-84ec11b8-c912-41a8-b4c4-f73c3b94acc0.png"><img
+  src="https://user-images.githubusercontent.com/41608708/167492552-84ec11b8-c912-41a8-b4c4-f73c3b94acc0.png"
+  alt="QR code for WordleDS.cia" style="max-width: 100%;"></a></p>'
 updated: '2022-05-09T20:31:24Z'
 version: v2.0.2
 version_title: Update word list (again)

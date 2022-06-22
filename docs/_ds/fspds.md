@@ -49,9 +49,9 @@ prerelease:
     <p dir="auto">Pressing B on the "Files" tab displays the Path menu in case user
     wants to inspect another directory</p>
 
-    <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/assets/70803115/eb05000c-0c7c-4904-afed-96b54e13e17e"><img
-    src="https://github.com/assets/70803115/eb05000c-0c7c-4904-afed-96b54e13e17e"
-    alt="Screenshot" class="js-img-time" style="max-width: 100%;"></a></p>'
+    <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/70803115/169023464-eb05000c-0c7c-4904-afed-96b54e13e17e.png"><img
+    src="https://user-images.githubusercontent.com/70803115/169023464-eb05000c-0c7c-4904-afed-96b54e13e17e.png"
+    alt="Screenshot" style="max-width: 100%;"></a></p>'
   update_notes_md: "FSPDS now looks for flipnotes in official Flipnote Studio paths\
     \ from the SD card:\n - /private/ds/app/4b475556 - for Flipnote Studio Europe/Australia\n\
     \ - /private/ds/app/4B475545 - for Flipnote Studio Americas\n - /private/ds/app/4B47554A\

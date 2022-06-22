@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 28992622
+    size: 28987557
     size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.10.0/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.10.1/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 29041682
+    size: 29042626
     size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.10.0/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.10.1/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 40838261
+    size: 40836584
     size_str: 38 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.10.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.10.1/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 41049547
+    size: 41053926
     size_str: 39 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.10.0/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.10.1/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_index: 138
@@ -50,10 +50,7 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.59.0">nds-bootstrap
-  v0.59.0</a></p>
-
-  <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
 
   <ul dir="auto">
@@ -67,73 +64,17 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <h3 dir="auto">What''s new?</h3>
+  <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>Added AP-fixes for <em>Inazuma Eleven 3</em> and <em>Ni no Kuni</em> (Spanish
-  translations).</li>
-
-  <li>nds-bootstrap-hb''s bootloader is now directly loaded, eliminating the middleman,
-  so booting old DS homebrew is now 2 seconds faster!
-
-  <ul dir="auto">
-
-  <li>Currently only applies to DSi-based themes and the DS Classic Menu, the latter
-  of which pre-loads the homebrew''s ARM9 binary for a slightly faster boot.</li>
-
-  </ul>
-
-  </li>
-
-  <li>The <code class="notranslate">Direct boot</code> setting has been removed for
-  console SD users.
-
-  <ul dir="auto">
-
-  <li>Pre-2009 DS homebrew will now always use nds-bootstrap, and 2009 or later homebrew
-  will use nds-bootstrap if either DS mode or a RAM disk is set.</li>
-
-  </ul>
-
-  </li>
-
-  <li>For homebrew with large ARM9 binaries (ex. SM64DSi), all per-game settings except
-  <code class="notranslate">Language</code> and <code class="notranslate">Region</code>
-  are now hidden.</li>
-
-  <li>With FastVideoDS still to come in the future, an old obscure video player, tuna-viDS
-  (by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/chishm/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/chishm">@chishm</a>),
-  has been added for Xvid (.avi) video playback!
-
-  <ul dir="auto">
-
-  <li>See <a href="https://gbatemp.net/threads/tuna-vids-guide-for-dsi.613493/" rel="nofollow">this</a>
-  guide for how to convert a video, starting from Step 2.</li>
-
-  </ul>
-
-  </li>
-
-  <li>SNEmulDS has been reverted to the legacy pre-TGDS build to work around a few
-  bugs.
-
-  <ul dir="auto">
-
-  <li>As the TGDS build is still bundled, you can switch to it by setting <code class="notranslate">NEW_SNES_EMU_VER</code>
-  to <code class="notranslate">1</code> in <code class="notranslate">sd:/_nds/TWiLightMenu/settings.ini</code>.</li>
-
-  </ul>
-
-  </li>
-
-  <li>The VRAM mode setting can now be changed for when running NTR games in DSi mode.</li>
+  <li>Fixed GBARunner2 not starting from DS Classic Menu, after last launching GBA
+  ROM from console SD.</li>
 
   </ul>'
-updated: '2022-06-21T22:19:22Z'
-version: v24.10.0
-version_title: 'v24.10.0: TWL Summer Solstice Release'
+updated: '2022-06-21T23:49:20Z'
+version: v24.10.1
+version_title: v24.10.1 (hotfix)
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
