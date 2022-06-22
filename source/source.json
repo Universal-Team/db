@@ -3442,6 +3442,10 @@
 				{
 					"type": "deleteFile",
 					"file": "/rverse.zip"
+				},
+				{
+					"type": "promptMessage",
+					"message": "Ensure \"Enable game patching\" is enabled\nin Luma3DS settings for this to work."
 				}
 			]
 		}
@@ -4882,6 +4886,10 @@
 				{
 					"type": "deleteFile",
 					"file": "/SatellaZone.zip"
+				},
+				{
+					"type": "promptMessage",
+					"message": "Ensure \"Enable game patching\" is enabled\nin Luma3DS settings for this to work."
 				}
 			],
 			"USA": [
@@ -4908,6 +4916,10 @@
 				{
 					"type": "deleteFile",
 					"file": "/SatellaZone.zip"
+				},
+				{
+					"type": "promptMessage",
+					"message": "Ensure \"Enable game patching\" is enabled\nin Luma3DS settings for this to work."
 				}
 			],
 			"JPN": [
@@ -4934,6 +4946,10 @@
 				{
 					"type": "deleteFile",
 					"file": "/SatellaZone.zip"
+				},
+				{
+					"type": "promptMessage",
+					"message": "Ensure \"Enable game patching\" is enabled\nin Luma3DS settings for this to work."
 				}
 			],
 			"UsaPatch": [
@@ -4952,6 +4968,10 @@
 				{
 					"type": "deleteFile",
 					"file": "/UsaPatch.zip"
+				},
+				{
+					"type": "promptMessage",
+					"message": "Ensure \"Enable game patching\" is enabled\nin Luma3DS settings for this to work."
 				}
 			]
 		}
