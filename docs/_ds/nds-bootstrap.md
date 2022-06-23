@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 430387
-    size_str: 420 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.59.0/nds-bootstrap.7z
+    size: 429852
+    size_str: 419 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.59.1/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1035347
+    size: 1035410
     size_str: 1011 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.59.0/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.59.1/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 icon_index: 139
@@ -35,8 +35,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v24.10.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v24.10.0</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v24.10.1"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v24.10.1</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -53,75 +53,43 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>When connecting to Wii using a Pokemon Gen 4 title, the received SRL file is
-  now booted, and no longer crashes on white screens!</li>
+  <li>Moonshell v2.10 (child Zwai, Direct Boot) no longer shows the ARM9/7 memory
+  error.</li>
 
-  <li>Homebrew bootloader has moved to NitroFS in order for loaders such as TWLMenu++
-  to load it directly.</li>
+  </ul>
 
-  <li>You can now exit directly to TWLMenu++ without rebooting, when running a DSi-Enhanced/Exclusive
-  title in DSi mode!</li>
-
-  <li>Patch offset cache files have been renamed from <code class="notranslate">romname.bin</code>
-  to TID &amp; CRC (ex. <code class="notranslate">VSOE-82A2.bin</code>).
+  <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>This allows .nds/.srl files launched from within one to have it''s own patch
-  offset cache file.</li>
+  <li>Fixed <em>Kirby: Canvas Curse</em> not booting by fixing the branches to the
+  save data functions.
+
+  <ul dir="auto">
+
+  <li>This should also fix other games which started to not boot in v0.59.0, if they''ve
+  been affected by this bug.</li>
 
   </ul>
 
   </li>
 
-  <li>ARM9i and ARM7i binaries of homebrew are now loaded when booting in DSi mode.</li>
-
-  <li><code class="notranslate">VRAM_BOOST</code> can now be changed for when running
-  NTR games in DSi mode.</li>
+  <li>SWI functions are now patched for homebrew running in DSi mode, regardless if
+  using a RAM disk or not.</li>
 
   </ul>
 
-  <h3 dir="auto">Improvements</h3>
+  <h3 dir="auto">Known bug</h3>
 
   <ul dir="auto">
 
-  <li>Soft-resetting in B4DS mode no longer turns off or reboots the console.</li>
-
-  <li>DSi SD DLDI driver has been moved to the HB bootloader to cut down the HB build
-  filesize.</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fix</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed battery level showing as blank when first opening in-game menu.</li>
-
-  </ul>
-
-  <h3 dir="auto">Known bugs</h3>
-
-  <ul dir="auto">
-
-  <li>The received SRL file from a Pokemon Wii title cannot connect to the Wii after
-  being booted. It is unknown how to fix this.
-
-  <ul dir="auto">
-
-  <li>Additionally, when connecting using Platinum, the save data cannot be read.</li>
-
-  <li>Additionally (again), when connecting using HGSS, a red screen crash will occur
-  (apparently due to attempting to read non-existing Diamond/Pearl/Platinum ROM data).</li>
-
-  </ul>
-
-  </li>
+  <li>Moonshell v2.10 is stuck on initing the DLDI driver, due to the SD driver not
+  running.</li>
 
   </ul>'
-updated: '2022-06-21T21:48:17Z'
-version: v0.59.0
-version_title: 'v0.59.0: TWL Summer Solstice Release'
+updated: '2022-06-23T01:19:32Z'
+version: v0.59.1
+version_title: v0.59.1 (hotfix)
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
