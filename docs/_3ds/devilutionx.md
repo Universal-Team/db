@@ -112,6 +112,8 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <li>Windows: Prefer Direct3D 11 for upscaling</li>
 
+  <li>macOS: Embed assets</li>
+
   </ul>
 
   <h4 dir="auto">Graphics / Audio</h4>
@@ -204,8 +206,6 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Embed assets</li>
-
   <li>Fine grain control of startup splashes</li>
 
   <li>Load custom assets from save folder instead of last known MPQ folder</li>
@@ -224,7 +224,15 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
+  <li>Correct Diablo''s HP (in non-Hellfire games)</li>
+
+  <li>Berserked monsters not fighting each other</li>
+
   <li>Ring of Engagement having too high armor penetration in Hellfire</li>
+
+  <li>Correct the number of items sold by Adria (in non-Hellfire games)</li>
+
+  <li>Durability overflow not behaving as expected</li>
 
   </ul>
 
@@ -242,15 +250,7 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Correct Diablo''s HP (in non-Hellfire games)</li>
-
-  <li>Correct the number of items sold by Adria (in non-Hellfire games)</li>
-
-  <li>Berserked monsters not fighting each other</li>
-
   <li>Colored border showing around hardware cursor</li>
-
-  <li>Durability overflow not behaving as expected</li>
 
   <li>Hero flickering briefly when dying from a barrel</li>
 

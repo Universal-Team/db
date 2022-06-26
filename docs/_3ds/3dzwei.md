@@ -10,13 +10,13 @@ description: A memory cardgame clone for Nintendo 3DS.
 download_page: https://github.com/SuperSaiyajinStackZ/3DZwei/releases
 downloads:
   3DZwei.3dsx:
-    size: 1185672
+    size: 1089812
     size_str: 1 MiB
-    url: https://github.com/Universal-Team/3DZwei/releases/download/v0.2.0/3DZwei.3dsx
+    url: https://github.com/Universal-Team/3DZwei/releases/download/v0.1.0/3DZwei.3dsx
   3DZwei.cia:
-    size: 934848
-    size_str: 912 KiB
-    url: https://github.com/Universal-Team/3DZwei/releases/download/v0.2.0/3DZwei.cia
+    size: 857024
+    size_str: 836 KiB
+    url: https://github.com/Universal-Team/3DZwei/releases/download/v0.1.0/3DZwei.cia
 github: SuperSaiyajinStackZ/3DZwei
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/icon.png
 icon_index: 133
@@ -73,58 +73,41 @@ source: https://github.com/Universal-Team/3DZwei
 systems:
 - 3DS
 title: 3DZwei
-update_notes: '<h2>Changes?</h2>
+update_notes: '<p>This is 3DZwei''s first release.</p>
+
+  <p>What does it include?</p>
 
   <ul>
 
-  <li>Allow up to 345 card pairs.</li>
+  <li>Avatars from <a href="https://github.com/Universal-Team/3DEins">3DEins</a> &amp;
+  <a href="https://github.com/Universal-Team/3DVier">3DVier</a>.</li>
 
-  <li>Allow a custom background for the game screen.</li>
+  <li>Custom card sets option. If you want to read more about this, take a look at
+  the <a href="https://github.com/SuperSaiyajinStackZ/3DZwei/wiki">wiki</a>, which
+  will be created soon.</li>
 
-  <li>Add a "rules" overlay with animations.</li>
+  <li>RGB Overlay for the UI Color Settings.</li>
 
-  <li>Randomize Cardsets in app!</li>
+  <li>A "remember all played cards" and "remember last 2 played cards" AI. This is
+  the initial release, so bugs can be expected, but I didn''t noticed any while creating
+  this release.</li>
 
-  <li>Add a TimePlay mode, try to collect all cards with the least amount of time
-  and least amount of tries.</li>
-
-  <li>Let collected cards disappear from the game screens.</li>
-
-  <li>Initial multi language implementation, currently only supports German &amp;
-  English.</li>
-
-  <li>Change Default cards to Universal-Team Homebrew app icons.</li>
-
-  <li>Improvements I guess.</li>
+  <li>2 Player mode on one console.</li>
 
   </ul>
 
-  <h2>Notes</h2>
+  <h2>Game Logic</h2>
 
-  <ul>
+  <p>The logic of this game is really simple. You and your opponent try to draw 2
+  cards each round. If the card matches, you will receive a "pair" and you can do
+  your next turn. If not, it is the next player''s turn. The player with the most
+  pairs wins a game. By default you need to win 3 games, but you can change the number
+  of games to win before the game starts.</p>
 
-  <li>3DZwei will be moved to Universal-Team soon, so you will find the repo soon
-  there!</li>
-
-  <li>Wanna find custom cardsets for 3DZwei? Then you can take a look at this repo
-  <a href="https://github.com/SuperSaiyajinStackZ/3DEins-3DZwei-Sets">here</a>!</li>
-
-  </ul>
-
-  <h2>Other</h2>
-
-  <ul>
-
-  <li>After 3DZwei is moved to Universal-Team, it will be easier to help translating
-  the app with crowdin! For more about that, feel free to join the Universal-Server
-  <a href="https://universal-team.net/discord" rel="nofollow">here</a>.</li>
-
-  </ul>
-
-  <p>Have fun with the second release of 3DZwei! ~SuperSaiyajinStackZ</p>'
-updated: '2020-07-26T19:27:23Z'
-version: v0.2.0
-version_title: The second release of 3DZwei!
+  <p>I hope you have fun with the first release of 3DZwei! ~SuperSaiyajinStackZ</p>'
+updated: '2020-07-19T01:11:13Z'
+version: v0.1.0
+version_title: 3DZwei's first release!
 wiki: https://github.com/Universal-Team/3DZwei/wiki
 ---
 A memory cardgame clone for Nintendo 3DS.
