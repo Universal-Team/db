@@ -3,8 +3,8 @@ author: ihaveahax
 avatar: https://avatars.githubusercontent.com/u/590576?v=4
 categories:
 - utility
-color: '#a1a5bc'
-color_bg: '#6d7080'
+color: '#a0a3bb'
+color_bg: '#6d6f80'
 created: '2018-09-05T07:19:01Z'
 description: Generates fake tickets to make missing titles re-appear on 3DS.
 download_page: https://github.com/ihaveamac/faketik/releases
@@ -16,7 +16,7 @@ downloads:
 github: ihaveamac/faketik
 icon_index: 159
 image: https://avatars.githubusercontent.com/u/590576?v=4&size=128
-image_length: 23249
+image_length: 30803
 layout: app
 license: mit
 license_name: MIT License
