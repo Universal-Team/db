@@ -52,6 +52,9 @@ update_notes: '<ul dir="auto">
 
   </ul>
 
+  <h4 dir="auto">On NEW 3(2)DS, it is recommended to use <a href="https://github.com/Core-2-Extreme/Luma3DS/releases/">patched
+  Luma3DS</a> for better performance.</h4>
+
   <h3 dir="auto"><a href="https://discord.gg/MMsAXvetpR" rel="nofollow">Discord channnel</a></h3>
 
   <p dir="auto">This is free software, but I accept donation.</p>
