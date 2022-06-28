@@ -80,5 +80,4 @@ update_notes: '<h1 dir="auto">改进</h1>
 updated: '2022-05-26T04:35:28Z'
 version: v1.0.9
 version_title: CPyMO 1.0.9
-wiki: https://github.com/Strrationalism/CPyMO/wiki
 ---
