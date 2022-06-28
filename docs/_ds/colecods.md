@@ -12,21 +12,21 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1131520
+    size: 1152512
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.5/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.6/ColecoDS.nds
   README.md:
-    size: 26941
-    size_str: 26 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.5/README.md
+    size: 28033
+    size_str: 27 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.6/README.md
   blank.cas:
     size: 1
     size_str: 1 Byte
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.5/blank.cas
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.6/blank.cas
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.5/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.6/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 icon_index: 196
@@ -39,24 +39,22 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V7.5: 18-June-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V7.6: 28-June-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Major update to the way internal memory is handled. It''s slimmer, trimmer and
-  much faster across-the-board. More games run at full speed.</li>
+  <li>Cleanup of Cassette Menu handling.</li>
 
-  <li>Fixed EE and SRAM handling on MSX games - those also now back to files on the
-  SD card so you can pick up where you left off.</li>
+  <li>Improved MSX compatibility.</li>
 
-  <li>Improvements to the Sord M5 driver so more games run correctly - Mahjong now
-  works.</li>
+  <li>Faster large-ROM loading speed.</li>
 
-  <li>Improvements to the Coleco/ADAM driver so more games run correctly. Boulder
-  Dash works properly and more ADAM disk games run properly.</li>
+  <li>New Alpha-only Keyboard support.</li>
+
+  <li>A few minor bug fixes as time allowed.</li>
 
   </ul>'
-updated: '2022-06-18T11:46:21Z'
-version: '7.5'
-version_title: Version 7.5
+updated: '2022-06-28T10:48:51Z'
+version: '7.6'
+version_title: Version 7.6
 ---
