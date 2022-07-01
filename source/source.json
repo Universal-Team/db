@@ -4814,6 +4814,12 @@
 		}
 	},
 	{
+		"github": "LopezTutoriales/Luma3DS_3GX_Loader_ESP",
+		"title": "Luma 3DS (Nanquitas) En Español",
+		"systems": ["3DS"],
+		"categories": ["firm", "luma3ds"]
+	},
+	{
 		"github": "LopezTutoriales/GodMode9_ESP",
 		"title": "GodMode9 En Español",
 		"systems": ["3DS"],
