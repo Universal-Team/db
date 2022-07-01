@@ -68,4 +68,4 @@ version: v1.4.0
 version_title: Hacktober (2020) release
 wiki: https://wiki.ds-homebrew.com/hiyacfw/
 ---
-**Note:** For the initial install, please follow [dsi.cfw.guide](https://dsi.cfw.guide). If you are updating, then simply replace `sd:/hiya.dsi` from the `for SDNAND SD card` in the 7z.
+**Note:** For the initial install, please follow [this guide](https://wiki.ds-homebrew.com/hiyacfw/installing). If you are updating, then simply replace `sd:/hiya.dsi` from the `for SDNAND SD card` in the 7z.
