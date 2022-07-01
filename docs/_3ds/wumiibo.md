@@ -11,13 +11,13 @@ description: Amiibo Emulation for 3ds
 download_page: https://github.com/hax0kartik/wumiibo/releases
 downloads:
   0004013000004002.zip:
-    size: 42340
-    size_str: 41 KiB
-    url: https://github.com/hax0kartik/wumiibo/releases/download/v3.0/0004013000004002.zip
-  wumiibohelper.3dsx:
-    size: 1510488
-    size_str: 1 MiB
-    url: https://github.com/hax0kartik/wumiibo/releases/download/v3.0/wumiibohelper.3dsx
+    size: 41161
+    size_str: 40 KiB
+    url: https://github.com/hax0kartik/wumiibo/releases/download/v4.0/0004013000004002.zip
+  wumiibohelper.cia:
+    size: 28693440
+    size_str: 27 MiB
+    url: https://github.com/hax0kartik/wumiibo/releases/download/v4.0/wumiibohelper.cia
 github: hax0kartik/wumiibo
 icon_index: 135
 image: https://raw.githubusercontent.com/hax0kartik/wumiibo/master/wumiibohelper/gfx/icon.png
@@ -25,99 +25,83 @@ image_length: 4386
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+qr:
+  wumiibohelper.cia: https://db.universal-team.net/assets/images/qr/wumiibohelper-cia.png
 source: https://github.com/hax0kartik/wumiibo
 systems:
 - 3DS
 title: wumiibo
-update_notes: '<p dir="auto">This is the fourth public release for wumiibo.<br>
+update_notes: '<p dir="auto">This is the fifth public release of wumiibo.<br>
 
-  Following list of changes have been made.</p>
-
-  <ul dir="auto">
-
-  <li>
-
-  <p dir="auto">Fix wumiibo not recognizing some amiibos correctly.</p>
+  The following list of changes has been made:-</p>
 
   <ul dir="auto">
 
-  <li>This was fixed by commit <a class="commit-link" data-hovercard-type="commit"
-  data-hovercard-url="https://github.com/hax0kartik/wumiibo/commit/069eff6ed2350bc7712aeb6c84d106ce46d148f3/hovercard"
-  href="https://github.com/hax0kartik/wumiibo/commit/069eff6ed2350bc7712aeb6c84d106ce46d148f3"><tt>069eff6</tt></a>.
-  See issue <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="748011619" data-permission-text="Title is private" data-url="https://github.com/hax0kartik/wumiibo/issues/28"
-  data-hovercard-type="issue" data-hovercard-url="/hax0kartik/wumiibo/issues/28/hovercard"
-  href="https://github.com/hax0kartik/wumiibo/issues/28">#28</a> for more details.</li>
+  <li>
 
-  </ul>
+  <p dir="auto">Fix pixelated/glitchy bottom screen text when opening wumiibo menu
+  on old 3ds.</p>
 
   </li>
 
   <li>
 
-  <p dir="auto">All 47 games are now compatible with wumiibo.</p>
-
-  <ul dir="auto">
-
-  <li>With some games you still need to do the <a href="https://github.com/hax0kartik/wumiibo#workaround-for-games-which-freeze">workaround</a>
-  for them to not freeze. Check the <a href="https://github.com/hax0kartik/wumiibo/wiki/Compatibility-List">compatibilty
-  list</a> for such games.</li>
-
-  </ul>
+  <p dir="auto">Fix an issue which caused wumiibo.ini not to be read.</p>
 
   </li>
 
   <li>
 
-  <p dir="auto">File limit bumped to 400 per directory.</p>
+  <p dir="auto">WumiiboHelper is now available in cia format so you can directly install
+  it on home-menu.</p>
 
   </li>
 
   <li>
 
-  <p dir="auto">Introduce WumiiboHelper</p>
-
-  <ul dir="auto">
-
-  <li>WumiiboHelper is an easy to to use HB app. You can automatically download and
-  install wumiibo from wumiibohelper.</li>
-
-  <li>WumiiboHelper has an option <code class="notranslate">Generate amiibos for a
-  game</code> which can be used to produce compatible amiibos for a compatible game
-  right from your 3ds!<br>
-
-  <em>Note: This app is not well tested, please open an issue if you encounter any
-  error. Amiibos can also be generated manually by using this website:- <a href="https://hax0kartik.github.io/amiibo-generator/"
-  rel="nofollow">https://hax0kartik.github.io/amiibo-generator/</a></em></li>
-
-  </ul>
+  <p dir="auto">Update WumiiboHelper to work with latest luma version.</p>
 
   </li>
 
   <li>
 
-  <p dir="auto">Minor improvements have been made.</p>
+  <p dir="auto">Added an option <code class="notranslate">Toggle Amiibo State</code>
+  to WumiiboHelper which allows you to enable/disable wumiibo without turning off
+  game patching.</p>
 
   </li>
 
   <li>
 
-  <p dir="auto"><strong>Note: Signal TagInRange and TagOutofRange are debug features,
-  you shouldn''t need them.</strong></p>
+  <p dir="auto">You can now select which amiibo you want to generate with WumiiboHelper.</p>
+
+  </li>
+
+  <li>
+
+  <p dir="auto">Other small changes and minor improvements have been made.</p>
 
   </li>
 
   </ul>
 
-  <p dir="auto">If you''re installing wumiibo for the first time, you can download
-  and run WumiiboHelper and select <code class="notranslate">Download Wumiibo</code>
-  to download and install wumiibo(once installed use the second option to generate
-  amiibos) or you can follow the manual installation steps <a href="https://github.com/hax0kartik/wumiibo#how-to-use">here</a><br>
+  <p dir="auto">To Install WumiiboHelper, you can scan the below QR code with FBI.<br>
 
-  As always special thanks to people on my discord server for helping me test wumiibo,
-  wouldn''t be possible without you guys!</p>'
-updated: '2020-12-18T13:30:35Z'
-version: v3.0
-version_title: v3.0 Fourth Release
+  <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/883eb752aef51b3c1031cf58dadd32cb877a5f694c82a45315cc404c40f8102f/687474703a2f2f6170692e71727365727665722e636f6d2f76312f6372656174652d71722d636f64652f3f636f6c6f723d303030303030266267636f6c6f723d46464646464626646174613d68747470732533412532462532466769746875622e636f6d253246686178306b617274696b25324677756d6969626f25324672656c6561736573253246646f776e6c6f616425324676342e3025324677756d6969626f68656c7065722e63696126717a6f6e653d31266d617267696e3d302673697a653d34303078343030266563633d4c"><img
+  src="https://camo.githubusercontent.com/883eb752aef51b3c1031cf58dadd32cb877a5f694c82a45315cc404c40f8102f/687474703a2f2f6170692e71727365727665722e636f6d2f76312f6372656174652d71722d636f64652f3f636f6c6f723d303030303030266267636f6c6f723d46464646464626646174613d68747470732533412532462532466769746875622e636f6d253246686178306b617274696b25324677756d6969626f25324672656c6561736573253246646f776e6c6f616425324676342e3025324677756d6969626f68656c7065722e63696126717a6f6e653d31266d617267696e3d302673697a653d34303078343030266563633d4c"
+  alt="QR" data-canonical-src="http://api.qrserver.com/v1/create-qr-code/?color=000000&amp;bgcolor=FFFFFF&amp;data=https%3A%2F%2Fgithub.com%2Fhax0kartik%2Fwumiibo%2Freleases%2Fdownload%2Fv4.0%2Fwumiibohelper.cia&amp;qzone=1&amp;margin=0&amp;size=400x400&amp;ecc=L"
+  style="max-width: 100%;"></a></p>
+
+  <p dir="auto">A common usage/installation guide for wumiibo can be found <a href="https://github.com/hax0kartik/wumiibo/wiki/Usage-guide-for-Wumiibo-and-WumiiboHelper">here</a>.<br>
+
+  For any issues/questions or suggestions you can join <a href="https://discord.gg/hyuvmb9"
+  rel="nofollow">this</a> discord server or use the issues/discussion page.<br>
+
+  If you like my work, you can support me by buying me a coffee on <a href="https://ko-fi.com/hax0kartik"
+  rel="nofollow">ko-fi</a> or you can <a href="https://www.paypal.com/paypalme/preetiagarwala?locale.x=en_GB"
+  rel="nofollow">paypal</a> me!</p>'
+updated: '2022-07-01T03:30:31Z'
+version: v4.0
+version_title: v4.0 Fifth Release
 wiki: https://github.com/hax0kartik/wumiibo/wiki
 ---
