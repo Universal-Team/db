@@ -3342,7 +3342,7 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/RocketRobz/hiyaCFW/unlaunch/logo/logo.png",
 		"icon": "https://raw.githubusercontent.com/RocketRobz/hiyaCFW/unlaunch/icon.bmp",
-		"long_description": "**Note:** For the initial install, please follow [dsi.cfw.guide](https://dsi.cfw.guide). If you are updating, then simply replace `sd:/hiya.dsi` from the `for SDNAND SD card` in the 7z.",
+		"long_description": "**Note:** For the initial install, please follow [this guide](https://wiki.ds-homebrew.com/hiyacfw/installing). If you are updating, then simply replace `sd:/hiya.dsi` from the `for SDNAND SD card` in the 7z.",
 		"wiki": "https://wiki.ds-homebrew.com/hiyacfw/",
 		"unistore_exclude": true,
 		"nightly": {
