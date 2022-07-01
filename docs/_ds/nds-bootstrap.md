@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 429852
-    size_str: 419 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.59.1/nds-bootstrap.7z
+    size: 431831
+    size_str: 421 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.60.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1035410
-    size_str: 1011 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.59.1/nds-bootstrap.zip
+    size: 1039670
+    size_str: 1015 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.60.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 icon_index: 139
@@ -35,8 +35,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v24.10.1"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v24.10.1</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v24.11.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v24.11.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -53,8 +53,30 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Moonshell v2.10 (child Zwai, Direct Boot) no longer shows the ARM9/7 memory
-  error.</li>
+  <li>7MB SDK5 ROMs are now pre-loaded into RAM on DSi consoles.</li>
+
+  <li>DSi mode heap size is now shrunk further for <em>Power Pro Kun Pocket 12 &amp;
+  13</em> AP-fixes to work on DSi consoles.</li>
+
+  </ul>
+
+  <h3 dir="auto">Improvements</h3>
+
+  <ul dir="auto">
+
+  <li>Overlays are now only loaded into RAM if AP-fix .ips file contains overlay patching.
+
+  <ul dir="auto">
+
+  <li>This avoids having to shrink the DSi mode heap size further than needed, if
+  no patches are to be applied to the overlays.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Improved MPU patching code to be slightly faster, along with adding a new patch
+  method for SDK5 titles.</li>
 
   </ul>
 
@@ -62,34 +84,39 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Fixed <em>Kirby: Canvas Curse</em> not booting by fixing the branches to the
-  save data functions.
+  <li>DSi mode heap size is now only shrunk by 256KB on 3DS consoles.
 
   <ul dir="auto">
 
-  <li>This should also fix other games which started to not boot in v0.59.0, if they''ve
-  been affected by this bug.</li>
+  <li>This fixes <em>Hidden Photo</em> (EUR) crashing during loading after selecting
+  a photo.</li>
 
   </ul>
 
   </li>
 
-  <li>SWI functions are now patched for homebrew running in DSi mode, regardless if
-  using a RAM disk or not.</li>
+  <li>Fixed <em>Power Pro Kun Pocket 12</em> not booting in DSi mode.</li>
 
-  </ul>
+  <li>Fixed <em>Rabbids Go Home</em> not booting in DSi mode on 3DS consoles.</li>
 
-  <h3 dir="auto">Known bug</h3>
+  <li>SDK5.4 &amp; 5.5 games now properly soft-reset without rebooting the console.
 
   <ul dir="auto">
 
-  <li>Moonshell v2.10 is stuck on initing the DLDI driver, due to the SD driver not
-  running.</li>
+  <li>As a result, <em>SD Gundam Sangoku Den - Brave Battle Warriors - Shin Militia
+  Taisen</em> now boots!</li>
+
+  </ul>
+
+  </li>
+
+  <li>Fixed card read DMA auto-disable not working in SDK1-4 games when using wireless
+  features.</li>
 
   </ul>'
-updated: '2022-06-23T01:19:32Z'
-version: v0.59.1
-version_title: v0.59.1 (hotfix)
+updated: '2022-07-01T21:24:06Z'
+version: v0.60.0
+version_title: 'v0.60.0: TWL Summer Release #3'
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
