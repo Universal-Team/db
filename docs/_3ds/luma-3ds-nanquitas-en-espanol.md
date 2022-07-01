@@ -19,7 +19,7 @@ downloads:
     size_str: 253 KiB
     url: https://github.com/LopezTutoriales/Luma3DS_3GX_Loader_ESP/releases/download/v11.0/boot.firm
 github: LopezTutoriales/Luma3DS_3GX_Loader_ESP
-icon_index: -1
+icon_index: 211
 image: https://db.universal-team.net/assets/images/images/luma-3ds-nanquitas-en-espanol.png
 image_length: 4378
 layout: app

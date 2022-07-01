@@ -10,7 +10,7 @@ description: A simple QR based file downloader for the DSi
 download_page: https://github.com/Epicpkmn11/dsidl/releases
 github: Epicpkmn11/dsidl
 icon: https://db.universal-team.net/assets/images/icons/dsidl.gif
-icon_index: 220
+icon_index: 221
 icon_static: https://raw.githubusercontent.com/Epicpkmn11/dsidl/master/resources/icon/icon.0.png
 image: https://db.universal-team.net/assets/images/icons/dsidl.gif
 image_length: 7315
