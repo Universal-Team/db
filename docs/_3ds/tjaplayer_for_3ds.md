@@ -10,13 +10,13 @@ description: It's a music game of the TJA file used by Taiko Jiro on 3DS.
 download_page: https://github.com/togetg/TJAPlayer_for_3DS/releases
 downloads:
   TJAPlayer_for_3DS.3dsx:
-    size: 762340
-    size_str: 744 KiB
-    url: https://github.com/togetg/TJAPlayer_for_3DS/releases/download/v1.2.0/TJAPlayer_for_3DS.3dsx
+    size: 695760
+    size_str: 679 KiB
+    url: https://github.com/togetg/TJAPlayer_for_3DS/releases/download/v1.1.0/TJAPlayer_for_3DS.3dsx
   TJAPlayer_for_3DS.cia:
-    size: 1098688
+    size: 1078208
     size_str: 1 MiB
-    url: https://github.com/togetg/TJAPlayer_for_3DS/releases/download/v1.2.0/TJAPlayer_for_3DS.cia
+    url: https://github.com/togetg/TJAPlayer_for_3DS/releases/download/v1.1.0/TJAPlayer_for_3DS.cia
 github: togetg/TJAPlayer_for_3DS
 icon: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/icon.png
 icon_index: 45
@@ -42,23 +42,35 @@ systems:
 title: TJAPlayer_for_3DS
 update_notes: '<ul dir="auto">
 
-  <li>ジャンル機能を実装</li>
+  <li><strong>Title IDを変更(v1.0.1を削除してからインストールすることをオススメします)</strong></li>
 
-  <li>アイコン、バナーを変更</li>
+  <li>はやさ、offset、バッファサイズが任意の値で設定できるようになりました<br>
 
-  <li>判定のカスタマイズを実装</li>
+  <g-emoji class="g-emoji" alias="warning" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png">⚠️</g-emoji>音楽が遅れる、途切れる場合はバッファサイズを大きく設定してください。(フレームレートは低下します)</li>
 
-  <li>フレームレートのサンプル数を変更</li>
+  <li>設定をTJAPlayerfor3ds.jsonに保存するようになりました</li>
 
-  <li>警告画面を実装
+  <li>ボタンマッピングを実装</li>
+
+  <li>フレームレートの表示を実装</li>
+
+  <li>スペイン語翻訳(Robichani6-1氏に感謝)</li>
+
+  <li>バグ修正
 
   <ul dir="auto">
 
-  <li>DSP1を起動していない時</li>
+  <li>オート時の連打速度を上昇</li>
 
-  <li>音楽ファイルが存在しない時</li>
+  <li>譜面間隔が広くなる不具合を修正</li>
 
-  <li>音楽ファイルがOggファイルじゃない時</li>
+  <li>分岐時に別譜面のコマンドが実行される不具合を修正</li>
+
+  <li>オート時にコンボが途切れる不具合を修正</li>
+
+  <li>風船が消滅する不具合を修正</li>
+
+  <li>ノーツが流れる前の#BRANCHSTART に対応</li>
 
   </ul>
 
@@ -70,23 +82,36 @@ update_notes: '<ul dir="auto">
 
   <ul dir="auto">
 
-  <li>Implemented the genre function.</li>
+  <li><strong>Change Title ID (I recommend installing after deleting v1.0.1).</strong></li>
 
-  <li>Changed the icon and banner.</li>
+  <li>The speed, offset, and buffer size can now be set to arbitrary values.<br>
 
-  <li>Implemented customization of judgment.</li>
+  <g-emoji class="g-emoji" alias="warning" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png">⚠️</g-emoji>If
+  the music is delayed, set a larger buffer size.(This will reduce the frame rate.)</li>
 
-  <li>Changed the number of samples for frame rate.</li>
+  <li>Save the configuration to TJAPlayerfor3ds.json</li>
 
-  <li>Implemented the warning screen.
+  <li>Implementation of button mapping.</li>
+
+  <li>Implemented frame rate display.</li>
+
+  <li>Spanish Translation.(Thanks to Robichani6-1)</li>
+
+  <li>Bug fixes
 
   <ul dir="auto">
 
-  <li>DSP1 has never been activated.</li>
+  <li>Increases the speed of consecutive hits in auto mode.</li>
 
-  <li>The music file does not exist.</li>
+  <li>Fixed a bug that caused a wide gap between tracks.</li>
 
-  <li>The music file is not an Ogg file.</li>
+  <li>Fixed a bug in which commands for other course were executed when branching.</li>
+
+  <li>Fixed a bug where combos were broken when in auto mode.</li>
+
+  <li>Fixed a bug that caused balloons to disappear.</li>
+
+  <li>Added support for #BRANCHSTART before the notes appear.</li>
 
   </ul>
 
@@ -101,10 +126,10 @@ update_notes: '<ul dir="auto">
   Please read the <a href="https://github.com/togetg/TJAPlayer_for_3DS/blob/master/README_en.md">README</a>
   before starting.<br>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/18244518/126890281-dd597f67-821a-4cd3-a6d0-e37c725418fe.png"><img
-  src="https://user-images.githubusercontent.com/18244518/126890281-dd597f67-821a-4cd3-a6d0-e37c725418fe.png"
-  alt="image" style="max-width: 100%;"></a></p>'
-updated: '2021-07-25T06:51:52Z'
-version: v1.2.0
-version_title: v1.2.0 TJAPlayer for 3DS
+  <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/18244518/120994488-7cb74a80-c7bf-11eb-9c6e-e1e327940b2f.png"><img
+  src="https://user-images.githubusercontent.com/18244518/120994488-7cb74a80-c7bf-11eb-9c6e-e1e327940b2f.png"
+  alt="v1.1.0" style="max-width: 100%;"></a></p>'
+updated: '2021-06-07T09:32:26Z'
+version: v1.1.0
+version_title: v1.1.0 TJAPlayer for 3DS
 ---
