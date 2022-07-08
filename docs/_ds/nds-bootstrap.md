@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 431831
-    size_str: 421 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.60.0/nds-bootstrap.7z
+    size: 449250
+    size_str: 438 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.61.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1039670
-    size_str: 1015 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.60.0/nds-bootstrap.zip
+    size: 1081396
+    size_str: 1 MiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.61.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 icon_index: 139
@@ -35,8 +35,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v24.11.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v24.11.0</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v24.12.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v24.12.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -53,10 +53,9 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>7MB SDK5 ROMs are now pre-loaded into RAM on DSi consoles.</li>
+  <li><em>Black Sigil: Blade of the Exiled</em> now boots!</li>
 
-  <li>DSi mode heap size is now shrunk further for <em>Power Pro Kun Pocket 12 &amp;
-  13</em> AP-fixes to work on DSi consoles.</li>
+  <li>DSi Donor ROM can now be read from TWLNAND on DSi consoles!</li>
 
   </ul>
 
@@ -64,19 +63,15 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Overlays are now only loaded into RAM if AP-fix .ips file contains overlay patching.
+  <li>Soft-resetting when connecting to Wii via Pokemon Gen 4 title is now faster!</li>
 
-  <ul dir="auto">
+  <li>The <code class="notranslate">Expand ROM space in RAM</code> setting (<code
+  class="notranslate">EXTENDED_MEMORY</code> in <code class="notranslate">nds-bootstrap.ini</code>)
+  now allows wireless to work, as well as card read DMA working properly.</li>
 
-  <li>This avoids having to shrink the DSi mode heap size further than needed, if
-  no patches are to be applied to the overlays.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Improved MPU patching code to be slightly faster, along with adding a new patch
-  method for SDK5 titles.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
+  and various: Updated translations.</li>
 
   </ul>
 
@@ -84,39 +79,30 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>DSi mode heap size is now only shrunk by 256KB on 3DS consoles.
+  <li>Fixed a regression which made <em>Super Mario Galaxy DS</em> not boot.</li>
 
-  <ul dir="auto">
+  <li>Fixed the mini toy sprites not displaying in <em>Mario vs. Donkey Kong: Mini-Land
+  Mayhem</em> while running in DS mode!</li>
 
-  <li>This fixes <em>Hidden Photo</em> (EUR) crashing during loading after selecting
-  a photo.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Fixed <em>Power Pro Kun Pocket 12</em> not booting in DSi mode.</li>
-
-  <li>Fixed <em>Rabbids Go Home</em> not booting in DSi mode on 3DS consoles.</li>
-
-  <li>SDK5.4 &amp; 5.5 games now properly soft-reset without rebooting the console.
-
-  <ul dir="auto">
-
-  <li>As a result, <em>SD Gundam Sangoku Den - Brave Battle Warriors - Shin Militia
-  Taisen</em> now boots!</li>
+  <li>A bug fix port from 3DS to DSi, <em>Hidden Photo</em> (EUR/GER) no longer crashes
+  during loading after selecting a photo.</li>
 
   </ul>
 
-  </li>
+  <h3 dir="auto">Known bugs</h3>
 
-  <li>Fixed card read DMA auto-disable not working in SDK1-4 games when using wireless
-  features.</li>
+  <ul dir="auto">
+
+  <li>On DSi, the Word Search and Spot the Difference minigames in <em>Hidden Photo</em>
+  (EUR) will crash. This bug does not occur in the German version.</li>
+
+  <li>The issues that occurred after connecting to Wii via Pokemon Gen 4 title will
+  still occur.</li>
 
   </ul>'
-updated: '2022-07-01T21:24:06Z'
-version: v0.60.0
-version_title: 'v0.60.0: TWL Summer Release #3'
+updated: '2022-07-08T07:44:56Z'
+version: v0.61.0
+version_title: 'v0.61.0: TWL Summer Release #4'
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
