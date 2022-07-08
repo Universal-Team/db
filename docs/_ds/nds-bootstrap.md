@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 449250
+    size: 448908
     size_str: 438 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.61.0/nds-bootstrap.7z
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.61.1/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1081396
+    size: 1080919
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.61.0/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.61.1/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 icon_index: 139
@@ -35,8 +35,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v24.12.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v24.12.0</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v24.12.10"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v24.12.1</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -49,60 +49,21 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <h3 dir="auto">What''s new?</h3>
-
-  <ul dir="auto">
-
-  <li><em>Black Sigil: Blade of the Exiled</em> now boots!</li>
-
-  <li>DSi Donor ROM can now be read from TWLNAND on DSi consoles!</li>
-
-  </ul>
-
-  <h3 dir="auto">Improvements</h3>
-
-  <ul dir="auto">
-
-  <li>Soft-resetting when connecting to Wii via Pokemon Gen 4 title is now faster!</li>
-
-  <li>The <code class="notranslate">Expand ROM space in RAM</code> setting (<code
-  class="notranslate">EXTENDED_MEMORY</code> in <code class="notranslate">nds-bootstrap.ini</code>)
-  now allows wireless to work, as well as card read DMA working properly.</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  and various: Updated translations.</li>
-
-  </ul>
-
   <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>Fixed a regression which made <em>Super Mario Galaxy DS</em> not boot.</li>
+  <li>Fixed an overlooked bug which caused SDK5 titles to not boot in DS mode. (B4DS
+  mode has not been affected by the bug.)</li>
 
-  <li>Fixed the mini toy sprites not displaying in <em>Mario vs. Donkey Kong: Mini-Land
-  Mayhem</em> while running in DS mode!</li>
-
-  <li>A bug fix port from 3DS to DSi, <em>Hidden Photo</em> (EUR/GER) no longer crashes
-  during loading after selecting a photo.</li>
-
-  </ul>
-
-  <h3 dir="auto">Known bugs</h3>
-
-  <ul dir="auto">
-
-  <li>On DSi, the Word Search and Spot the Difference minigames in <em>Hidden Photo</em>
-  (EUR) will crash. This bug does not occur in the German version.</li>
-
-  <li>The issues that occurred after connecting to Wii via Pokemon Gen 4 title will
-  still occur.</li>
+  <li>Fixed an overlooked bug which caused the ARM7 SCFG patch registers to overwrite
+  the FAT table cache when running a non-DSiWare TWL title in DSi mode (which would
+  be noticeable if the SD cluster size is lower than 32KB).</li>
 
   </ul>'
-updated: '2022-07-08T07:44:56Z'
-version: v0.61.0
-version_title: 'v0.61.0: TWL Summer Release #4'
+updated: '2022-07-08T17:02:56Z'
+version: v0.61.1
+version_title: v0.61.1 (hotfix)
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
