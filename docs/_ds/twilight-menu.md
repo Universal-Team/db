@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 29028302
+    size: 29028480
     size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.12.0/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.12.1/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 29076974
+    size: 29076782
     size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.12.0/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.12.1/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 40880844
+    size: 40700967
     size_str: 38 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.12.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.12.1/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 41084666
+    size: 40913572
     size_str: 39 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.12.0/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v24.12.1/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_index: 138
@@ -50,8 +50,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.61.0">nds-bootstrap
-  v0.61.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.61.1">nds-bootstrap
+  v0.61.1</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -71,46 +71,26 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li><strong>DSiWarehax users:</strong> If a DSi donor ROM hasn''t been set yet,
-  one from TWLNAND (ex. <em>Nintendo DSi Sound</em>, and/or a valid title the exploit
-  uses) will automatically be set when you start TWLMenu++!</li>
-
-  <li>Directly loading nds-bootstrap''s HB bootloader is now an option. (Disabled
-  by default to work around bugs.)</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
-  Cheat names will now scroll in the R4/GBC themes!</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
+  The <code class="notranslate">_BOOT_DS.NDS</code> file has been removed for R4i-SDHC
+  flashcard users, and loading TWLMenu++ now takes place in the <code class="notranslate">R4.dat</code>
+  file.</li>
 
   </ul>
 
-  <h3 dir="auto">Improvement</h3>
+  <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  and various: Updated translations.</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
-
-  <ul dir="auto">
-
-  <li>The <code class="notranslate">Run in</code> setting is now hidden and defaults
-  to DS mode, if TWL clock speed is blacklisted for a certain title.</li>
-
-  <li>Fixed DS homebrew showing VRAM boost as <code class="notranslate">DSi mode</code>
-  if <code class="notranslate">Run in</code> is set to <code class="notranslate">Default</code>.</li>
-
-  <li>As a TWLNAND mount bug got fixed, Unlaunch is no longer used to reboot into
-  TWLMenu++, when launched via hiyaCFW.</li>
+  <li>Fixed DS mode not being set if a certain launched title is blacklisted from
+  using TWL clock speed, when launching the <code class="notranslate">Last-run ROM</code>
+  title from hiyaCFW, or if soft-resetting in a DS game under a specific condition.</li>
 
   </ul>'
-updated: '2022-07-08T07:59:33Z'
-version: v24.12.0
-version_title: 'v24.12.0: TWL Summer Release #4'
+updated: '2022-07-08T17:52:49Z'
+version: v24.12.1
+version_title: v24.12.1 (hotfix)
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
