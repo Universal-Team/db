@@ -79,36 +79,7 @@ systems:
 - 3DS
 title: Universal-Updater
 unistore_exclude: true
-update_notes: "<h3 dir=\"auto\">What's new?</h3>\n<ul dir=\"auto\">\n<li>\n<p dir=\"\
-  auto\">(<a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"\
-  /users/PabloMK7/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
-  link_type:self\" href=\"https://github.com/PabloMK7\">@PabloMK7</a>) The 3D banner\
-  \ has been improved with animations and shading!</p>\n<details open=\"\" class=\"\
-  details-reset border rounded-2\">\n  <summary class=\"px-3 py-2\">\n    <svg aria-hidden=\"\
-  true\" height=\"16\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" data-view-component=\"\
-  true\" class=\"octicon octicon-device-camera-video\">\n    <path fill-rule=\"evenodd\"\
-  \ d=\"M16 3.75a.75.75 0 00-1.136-.643L11 5.425V4.75A1.75 1.75 0 009.25 3h-7.5A1.75\
-  \ 1.75 0 000 4.75v6.5C0 12.216.784 13 1.75 13h7.5A1.75 1.75 0 0011 11.25v-.675l3.864\
-  \ 2.318A.75.75 0 0016 12.25v-8.5zm-5 5.075l3.5 2.1v-5.85l-3.5 2.1v1.65zM9.5 6.75v-2a.25.25\
-  \ 0 00-.25-.25h-7.5a.25.25 0 00-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-4.5z\"\
-  ></path>\n</svg>\n    <span aria-label=\"Video description 2022-03-07.02-37-37.mp4\"\
-  \ class=\"m-1\">2022-03-07.02-37-37.mp4</span>\n    <span class=\"dropdown-caret\"\
-  ></span>\n  </summary>\n\n  <video src=\"https://user-images.githubusercontent.com/10946643/156953976-55b54211-67e4-4caa-8dd1-5e525319e189.mp4\"\
-  \ data-canonical-src=\"https://user-images.githubusercontent.com/10946643/156953976-55b54211-67e4-4caa-8dd1-5e525319e189.mp4\"\
-  \ controls=\"controls\" muted=\"muted\" class=\"d-block rounded-bottom-2 border-top\
-  \ width-fit\" style=\"max-height:640px;\">\n\n  </video>\n</details>\n\n</li>\n\
-  </ul>\n<h3 dir=\"auto\">Bug fixes</h3>\n<ul dir=\"auto\">\n<li>Fixed really short\
-  \ release notes not showing</li>\n</ul>\n<h3 dir=\"auto\">Other notes</h3>\n<p dir=\"\
-  auto\">See <a href=\"https://github.com/Universal-Team/Universal-Updater/releases/tag/v3.2.4\"\
-  >v3.2.4</a> for more recent changes, there was just a relatively major new bug in\
-  \ that version and the improved banner so we're putting out another release so soon.</p>\n\
-  <p dir=\"auto\">Find any bugs we missed, have suggestions, or need help? You can\
-  \ either make an issue or discussion here on GitHub or join our <a href=\"https://universal-team.net/discord\"\
-  \ rel=\"nofollow\">Discord server</a>.</p>\n<p dir=\"auto\">We hope you enjoy the\
-  \ new update!<br>\n~ Universal-Team</p>\n<hr>\n<p dir=\"auto\"><a target=\"_blank\"\
-  \ rel=\"noopener noreferrer\" href=\"https://user-images.githubusercontent.com/41608708/156961045-e2bb0dd5-049a-4fbf-8f59-8e8fd9af0f83.png\"\
-  ><img src=\"https://user-images.githubusercontent.com/41608708/156961045-e2bb0dd5-049a-4fbf-8f59-8e8fd9af0f83.png\"\
-  \ alt=\"QR code for Universal-Updater.cia\" style=\"max-width: 100%;\"></a></p>"
+update_notes: ''
 updated: '2022-03-07T03:01:27Z'
 version: v3.2.5
 version_title: Bug fix and improved 3D banner
