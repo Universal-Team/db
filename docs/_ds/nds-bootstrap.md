@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 448908
+    size: 448951
     size_str: 438 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.61.1/nds-bootstrap.7z
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.61.2/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1080919
+    size: 1079231
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.61.1/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.61.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 icon_index: 139
@@ -35,10 +35,7 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v24.12.10"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v24.12.1</a></p>
-
-  <p dir="auto">Instructions:</p>
+update_notes: '<p dir="auto">Instructions:</p>
 
   <ol dir="auto">
 
@@ -49,21 +46,35 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <h3 dir="auto">Bug fixes</h3>
+  <h3 dir="auto">Improvement/Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>Fixed an overlooked bug which caused SDK5 titles to not boot in DS mode. (B4DS
-  mode has not been affected by the bug.)</li>
+  <li>Reworked ROM loading from RAM with the <code class="notranslate">Expand ROM
+  space in RAM</code> setting to fix an overlooked bug.</li>
 
-  <li>Fixed an overlooked bug which caused the ARM7 SCFG patch registers to overwrite
-  the FAT table cache when running a non-DSiWare TWL title in DSi mode (which would
-  be noticeable if the SD cluster size is lower than 32KB).</li>
+  </ul>
+
+  <h3 dir="auto">Bug fix</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed an overlooked bug which caused microphone input to not work in some TWL
+  titles which use NTR touch mode, by having said mode be set on boot.
+
+  <ul dir="auto">
+
+  <li>As a result, if the title uses NTR touch mode, the console will reboot, when
+  exiting the game.</li>
+
+  </ul>
+
+  </li>
 
   </ul>'
-updated: '2022-07-08T17:02:56Z'
-version: v0.61.1
-version_title: v0.61.1 (hotfix)
+updated: '2022-07-09T03:51:21Z'
+version: v0.61.2
+version_title: v0.61.2 (Hopefully the last hotfix)
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
