@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/5817696?v=4
 categories:
 - firm
 - luma3ds
+- translation
 color: '#ec2803'
 color_bg: '#801602'
 created: '2022-06-19T18:25:09Z'
