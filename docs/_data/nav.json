@@ -38,6 +38,12 @@
         "i18n": "cat-save-tool"
       },
       {
+        "title": "Translations",
+        "page_title":"3DS - Translations",
+        "url": "/3ds/category/translation",
+        "i18n": "cat-translation"
+      },
+      {
         "title": "Utilities",
         "page_title":"3DS - Utilities",
         "url": "/3ds/category/utility",
