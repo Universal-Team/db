@@ -85,6 +85,12 @@
         "i18n": "cat-save-tool"
       },
       {
+        "title": "Translations",
+        "page_title":"DS - Translations",
+        "url": "/ds/category/translation",
+        "i18n": "cat-translation"
+      },
+      {
         "title": "Utilities",
         "page_title": "DS - Utilities",
         "url": "/ds/category/utility",
