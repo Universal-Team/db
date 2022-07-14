@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/Robichani6-1/FTPD-ES/releases/download/1.5/ftpd.cia
 github: Robichani6-1/FTPD-ES
 icon: https://github.com/Robichani6-1/FTPD-ES/raw/master/meta/icon.png
-icon_index: -1
+icon_index: 215
 image: https://github.com/Robichani6-1/FTPD-ES/raw/master/meta/banner.png
 image_length: 2124
 layout: app

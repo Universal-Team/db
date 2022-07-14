@@ -15,7 +15,7 @@ downloads:
     url: https://github.com/PabloMK7/EzB9SUpdater/releases/download/v1.0.1/EzB9SUpdater.cia
 github: PabloMK7/EzB9SUpdater
 icon: https://raw.githubusercontent.com/PabloMK7/EzB9SUpdater/main/resources/icon.png
-icon_index: 219
+icon_index: 226
 image: https://raw.githubusercontent.com/PabloMK7/EzB9SUpdater/main/resources/banner.png
 image_length: 27384
 layout: app

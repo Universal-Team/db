@@ -3,6 +3,7 @@ author: López Tutoriales
 avatar: https://avatars.githubusercontent.com/u/5817696?v=4
 categories:
 - utility
+- translation
 color: '#fc9206'
 color_bg: '#804a03'
 created: '2021-01-19T23:37:38Z'

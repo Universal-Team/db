@@ -15,7 +15,7 @@ downloads:
     size_str: 216 KiB
     url: https://github.com/Robichani6-1/dumpTool-ES/releases/download/v1.0/dumpTool-ES.nds
 github: Robichani6-1/dumpTool-ES
-icon_index: -1
+icon_index: 219
 image: https://avatars.githubusercontent.com/u/79669283?v=4&size=128
 image_length: 2626
 layout: app

@@ -15,7 +15,7 @@ downloads:
     size_str: 188 KiB
     url: https://github.com/Robichani6-1/CTR-NO-TIMEOFFSET-ES/releases/download/v1.0/ctr-no-timeoffset.3dsx
 github: Robichani6-1/CTR-NO-TIMEOFFSET-ES
-icon_index: -1
+icon_index: 218
 image: https://avatars.githubusercontent.com/u/79669283?v=4&size=128
 image_length: 2626
 layout: app

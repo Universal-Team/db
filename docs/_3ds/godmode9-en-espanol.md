@@ -4,6 +4,7 @@ avatar: https://avatars.githubusercontent.com/u/5817696?v=4
 categories:
 - utility
 - firm
+- translation
 color: '#e37906'
 color_bg: '#804403'
 created: '2022-04-25T23:50:04Z'

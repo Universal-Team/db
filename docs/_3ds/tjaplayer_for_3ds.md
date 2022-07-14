@@ -2,7 +2,7 @@
 author: Togetoge
 avatar: https://avatars.githubusercontent.com/u/18244518?v=4
 categories:
-- utility
+- game
 color: '#9e4d4d'
 color_bg: '#803e3e'
 created: '2017-10-09T10:22:35Z'

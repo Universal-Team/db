@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/Robichani6-1/JKSM-ES/releases/download/1.0/JKSM.ES.cia
 github: Robichani6-1/JKSM-ES
 icon: https://github.com/Robichani6-1/JKSM-ES/raw/master/icon.png
-icon_index: -1
+icon_index: 214
 image: https://github.com/Robichani6-1/JKSM-ES/raw/master/resources/banner.png
 image_length: 19206
 layout: app
