@@ -10,13 +10,13 @@ description: You can play .mp4 file on your 3DS!
 download_page: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases
 downloads:
   Video_player_for_3DS.3dsx:
-    size: 7762376
+    size: 7777104
     size_str: 7 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.5.0/Video_player_for_3DS.3dsx
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.5.1/Video_player_for_3DS.3dsx
   Video_player_for_3DS.cia:
-    size: 5317568
+    size: 5329856
     size_str: 5 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.5.0/Video_player_for_3DS.cia
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.5.1/Video_player_for_3DS.cia
 github: Core-2-Extreme/Video_player_for_3DS
 icon: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/icon.png
 icon_index: 175
@@ -32,30 +32,61 @@ source: https://github.com/Core-2-Extreme/Video_player_for_3DS
 systems:
 - 3DS
 title: Video player for 3DS
-update_notes: '<ul dir="auto">
+update_notes: '<h4 dir="auto">Added features</h4>
 
-  <li>Subtitles have been supported (*0)</li>
+  <p dir="auto">Screen update frequency in audio only files have been increased <br>
 
-  <li>Disable video, audio and subtitle have been added</li>
+  Performance has been improved by adding DMA <br>
 
-  <li>Audio desync has been fixed</li>
+  Video playback is automatically paused when runs out of buffer <br>
 
-  <li>AV1 videos have been supported</li>
+  (You can change threshold by changing ''Restart playback threshold'' settings) <br>
 
-  <li>The problem some video won''t play smoothly in sw decoder has been fixed</li>
+  Seeking speed has been improved</p>
 
-  <li>Screen brightness adjustment function has been added (DPAD "↑" and "↓")</li>
+  <h4 dir="auto">Changes</h4>
 
-  <li>Other minor changes<br>
+  <p dir="auto">Disallow sleep when only headset is connected <br>
 
-  *0 No style support, only plain text</li>
+  (allow sleep if headset is disconnected during playback) <br>
 
-  </ul>
+  App directory has been changed from sdmc:/Video_player/ to sdmc:/3ds/Video_player/
+  <br>
+
+  (App will automatically move folder) <br>
+
+  Simplified Chinese(简体中文) translation has been updated <br>
+
+  Enabled ''correct aspect ratio option'' by default</p>
+
+  <h4 dir="auto">Fixed bugs</h4>
+
+  <p dir="auto">Crashes in hw decoder in some videos have been fixed <br>
+
+  Automatically enter full screen mode even file explorer is opened has been fixed
+  <br>
+
+  App will freeze if you seek after EOF has been fixed <br>
+
+  Unable to pause/resume in tagged mp3 has been fixed <br>
+
+  Video position won''t be saved in some cases have been fixed <br>
+
+  Glitch on video in full screen mode has been fixed <br>
+
+  Some directories can''t be entered have been fixed <br>
+
+  Some videos won''t be played at correct speed has been fixed <br>
+
+  Frame desync in some 3D videos have been fixed</p>
 
   <h4 dir="auto">On NEW 3(2)DS, it is recommended to use <a href="https://github.com/Core-2-Extreme/Luma3DS/releases/">patched
   Luma3DS</a> for better performance.</h4>
 
   <h3 dir="auto"><a href="https://discord.gg/MMsAXvetpR" rel="nofollow">Discord channnel</a></h3>
+
+  <h3 dir="auto"><a href="https://gbatemp.net/threads/release-video-player-for-3ds.586094"
+  rel="nofollow">GBAtemp thread</a></h3>
 
   <p dir="auto">This is free software, but I accept donation.</p>
 
@@ -66,9 +97,9 @@ update_notes: '<ul dir="auto">
   <li>LTC : MKTD3U2vCMi7S7Jb1EQ2FiS4AdHC23PxJh</li>
 
   </ul>'
-updated: '2022-03-29T14:04:03Z'
-version: v1.5.0
-version_title: Video player for 3DS v1.5.0
+updated: '2022-07-14T11:39:36Z'
+version: v1.5.1
+version_title: Video player for 3DS v1.5.1
 ---
 You can play .mp4 file on your 3DS!
 
