@@ -11,13 +11,13 @@ download_filter: (\.3dsx|\.cia)
 download_page: https://github.com/Strrationalism/CPyMO/releases
 downloads:
   CPyMO.for.Nintendo.3DS.3dsx:
-    size: 15224140
+    size: 15191800
     size_str: 14 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.1.0/CPyMO.for.Nintendo.3DS.3dsx
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/CPyMO.for.Nintendo.3DS.3dsx
   CPyMO.for.Nintendo.3DS.cia:
-    size: 11367360
+    size: 11301824
     size_str: 10 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.1.0/CPyMO.for.Nintendo.3DS.cia
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.0.9/CPyMO.for.Nintendo.3DS.cia
 github: Strrationalism/CPyMO
 icon: https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/icon.png
 icon_index: 203
@@ -36,60 +36,48 @@ update_notes: '<h1 dir="auto">改进</h1>
 
   <ul dir="auto">
 
-  <li>解决了O3DS上cia版本不能启动的问题。</li>
+  <li>修复当快进时循环音效不会被覆盖的问题。</li>
 
-  <li>PSP上采用16位色帧缓存。</li>
+  <li>cpymo-tool在resize图片时，若比率为1, 1，则只转换格式而不进行缩放。</li>
 
-  <li>在Wii和PSP上流式加载图片。</li>
+  <li>修复pymo-converter在不存在chara目录的情况下报错的问题。</li>
 
-  <li>优化Wii体验。</li>
+  <li>立绘命令缓存增加到64个，以应对复杂的立绘情况。</li>
 
-  <li>Wii上可以按需刷新了。</li>
+  <li>在图标不为57*57的情况下将会引发警告。</li>
 
-  <li>Wii上现在支持音频播放。</li>
+  <li>在mask渐变加载失败时将会引发警告。</li>
 
-  <li>SDL1后端上将会在srcrect和dstrect中绘制区域大小不同时进行居中处理。</li>
+  <li>修复找不到脚本文件时会引发UB的问题。</li>
 
-  <li>SDL1后端现在可以自由选择字体渲染质量更偏向质量还是性能。</li>
+  <li>修复进入album界面时需要点击一下界面才能操作的问题。</li>
 
-  <li>SDL2后端现在可以修改帧缓存格式。</li>
+  <li>INVALID_ARG不再会导致游戏卡住。</li>
 
-  <li>移动了自动存档的发生时机，使其看起来更加流畅。</li>
+  <li>libpymo中新增来自YukimiScript编译器的<code class="notranslate">if</code>语法。</li>
 
-  <li>移除了多余的刷新。</li>
+  <li>当播放视频时若找不到文件则不应当崩溃。</li>
 
-  <li>已修复当使用CR换行符时CPyMO出现的未定义行为。</li>
+  <li>修复了当<code class="notranslate">select</code>系命令的<code class="notranslate">init_position</code>超过选项数时会发生崩溃的问题。</li>
 
-  <li>已修复gameconfig.txt中gametitle为空时的未定义行为。</li>
+  <li>修复了文本框不正常的问题。</li>
 
-  <li>定义<code class="notranslate">DISABLE_IMAGE_SCALING</code>宏即可阻止图片组件的缩放行为。</li>
+  <li>libpymo中if_goto的实现不正确，所有的运算符都会被强制替换为eq。</li>
 
-  <li>重启CPyMO游戏的时候不会再打印cpymo的logo。</li>
+  <li>修复了在选择支关闭右键菜单时可能会引发崩溃的错误行为。</li>
 
-  <li>将会尝试在包中查找长度超过31的长文件名。</li>
+  <li>菜单的鼠标选择和点击统一以最后一个选中的目标为准。</li>
 
-  <li>由小涂增加的适用于Android平台的TTS音频视障帮助。</li>
+  <li>优化album返回时可能会出现误操作的问题。</li>
 
-  <li>视障帮助中，退出backlog时不会阅读当前文本的问题已经解决。</li>
+  <li>已经修复pymo-convert在某些情况下不能正常使用的问题。</li>
 
-  <li>新增CPyMO Text后端，它将仅在控制台上输出游戏文本。</li>
+  <li>pymo-convert可以自动生成目标目录。</li>
 
-  <li>mo2pymo补丁不能正常读取游戏名称的bug修正。</li>
-
-  <li>mo2pymo补丁不能正常生成<code class="notranslate">crs</code>命令的实现的问题。</li>
-
-  <li>mo2pymo补丁现在将会处理秋之回忆1中的<code class="notranslate">#goto _END</code>找不到标签的问题。</li>
-
-  <li>pymo2ykm不能正常处理<code class="notranslate">chara_pos</code>的问题。</li>
-
-  <li>改进了CMake和NMake的配置文件，现在它自动扫描源代码并编译，而不再需要手动指定。</li>
-
-  <li>整理gitignore。</li>
-
-  <li>为SDL1和SDL2的makefile提供了DEBUG选项。</li>
+  <li>新增pymo-strip工具用于精简pymo游戏数据包。</li>
 
   </ul>'
-updated: '2022-07-16T13:22:32Z'
-version: v1.1.0
-version_title: CPyMO v1.1.0
+updated: '2022-05-26T04:35:28Z'
+version: v1.0.9
+version_title: CPyMO 1.0.9
 ---
