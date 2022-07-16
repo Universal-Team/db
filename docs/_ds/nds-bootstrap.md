@@ -35,8 +35,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Will be included in an upcoming version of <strong>TW</strong>i<strong>L</strong>ight
-  Menu++.</p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v25.0.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v25.0.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
