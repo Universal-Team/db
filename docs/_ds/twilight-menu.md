@@ -145,11 +145,16 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
+  <li>Animated <code class="notranslate">.gif</code> files will appear static.</li>
+
   <li>4-bit <code class="notranslate">.bmp</code> files are not supported. A black
   screen will be shown instead.</li>
 
   <li>Trying to launch a title stored on an Acekard 2(i) with <code class="notranslate">Slot-1
   microSD access</code> enabled will still crash on white screens.</li>
+
+  <li>The image viewer currently ignores the SD removal detection setting, so ejecting
+  the SD card will trigger the SD removal screen regardless.</li>
 
   </ul>'
 updated: '2022-07-16T04:42:54Z'
