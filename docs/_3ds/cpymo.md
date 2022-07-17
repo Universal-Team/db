@@ -92,4 +92,5 @@ update_notes: '<h1 dir="auto">改进</h1>
 updated: '2022-07-17T02:35:16Z'
 version: v1.1.0
 version_title: CPyMO 1.1.0
+wiki: https://github.com/Strrationalism/CPyMO/wiki
 ---
