@@ -4901,8 +4901,8 @@
 		"github": "cooolgamer/ThirdTube-FR",
 		"systems": ["3DS"],
 		"categories": ["utility", "translation"],
-		"icon": "https://github.com/cooolgamer/ThirdTube-FR/raw/master/resource/icon.png",
-		"image": "https://github.com/cooolgamer/ThirdTube-FR/raw/master/resource/banner.png"
+		"icon": "https://github.com/cooolgamer/ThirdTube-FR/raw/main/resource/icon.png",
+		"image": "https://github.com/cooolgamer/ThirdTube-FR/raw/main/resource/banner.png"
 	},
 	{
 		"github": "MegaPika/SatellaZone",
