@@ -4898,11 +4898,32 @@
 		"categories": ["utility", "translation"]
 	},
 	{
+		"github": "Robichani6-1/Anemone3DS-ES",
+		"systems": ["3DS"],
+		"categories": ["utility", "translation"],
+		"icon": "https://github.com/Robichani6-1/Anemone3DS-ES/raw/master/meta/icon.png",
+		"image": "https://github.com/Robichani6-1/Anemone3DS-ES/raw/master/meta/banner.png"
+	},
+	{
+		"github": "Robichani6-1/sysUpdater-ES",
+		"systems": ["3DS"],
+		"categories": ["utility", "translation"],
+		"icon": "https://github.com/Robichani6-1/sysUpdater-ES/raw/master/app/icon48x48.png",
+		"image": "https://github.com/Robichani6-1/sysUpdater-ES/raw/master/app/banner.png"
+	},
+	{
 		"github": "cooolgamer/ThirdTube-FR",
 		"systems": ["3DS"],
 		"categories": ["utility", "translation"],
 		"icon": "https://github.com/cooolgamer/ThirdTube-FR/raw/main/resource/icon.png",
 		"image": "https://github.com/cooolgamer/ThirdTube-FR/raw/main/resource/banner.png"
+	},
+	{
+		"github": "cooolgamer/Anemone3DS-FR",
+		"systems": ["3DS"],
+		"categories": ["utility", "translation"],
+		"icon": "https://github.com/cooolgamer/Anemone3DS-FR/raw/master/meta/icon.png",
+		"image": "https://github.com/cooolgamer/Anemone3DS-FR/raw/master/meta/banner.png"
 	},
 	{
 		"github": "MegaPika/SatellaZone",
