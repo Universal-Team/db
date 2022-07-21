@@ -5177,5 +5177,10 @@
 		"categories": ["utility"],
 		"icon_static": "https://raw.githubusercontent.com/Epicpkmn11/dsidl/master/resources/icon/icon.0.png",
 		"unistore_exclude": true
+	},
+	{
+		"github": "MechanicalDragon0687/3DS-ParentalUnlock",
+		"systems": ["3DS"],
+		"categories": ["utility"]
 	}
 ]
