@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 450342
-    size_str: 439 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.61.3/nds-bootstrap.7z
+    size: 452035
+    size_str: 441 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.62.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1082496
+    size: 1087455
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.61.3/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.62.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 icon_index: 139
@@ -35,8 +35,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v25.0.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v25.0.0</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v25.1.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v25.1.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -53,31 +53,42 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Do you have Memory Pit installed, but still want to use the <em>Nintendo DSi
-  Camera</em> application normally at the same time? Well now you can!<br>
-
-  If the Memory Pit exploit is detected in <code class="notranslate">pit.bin</code>,
-  <em>Nintendo DSi Camera</em> will be redirected to instead read <code class="notranslate">tip.bin</code>.
+  <li>More DSiWare titles are now playable on DS Phat/Lite consoles! (<a href="https://github.com/DS-Homebrew/TWiLightMenu/blob/a4d5f17737801a135a39776b1f73ccc26abd3b64/universal/include/compatibleDSiWareMap.h">Full
+  list of compatible titles</a>)
 
   <ul dir="auto">
 
-  <li>This requires a ROM dump of <em>Nintendo DSi Camera</em>.</li>
+  <li><strong>Retail &amp; Debug units</strong> (Total: 73 -&gt; 80)
 
-  <li>If you backed up your <code class="notranslate">pit.bin</code> file before this
-  release, make a copy of it, rename the copy to <code class="notranslate">tip.bin</code>,
-  and add it to <code class="notranslate">sd:/private/ds/app/484E494A/</code>.</li>
+  <ul dir="auto">
+
+  <li>Advanced Circuits</li>
+
+  <li>Bugs''N''Balls</li>
+
+  <li>Dr. Mario Express (CHN version not supported)</li>
+
+  <li>GO Series: Earth Saver</li>
+
+  <li>Magical Whip</li>
+
+  <li>Paul''s Shooting Adventure</li>
+
+  <li>Paul''s Shooting Adventure 2</li>
 
   </ul>
 
   </li>
 
-  <li>Added support for two DSiWare titles to be played on DS Debug console units!
+  <li><strong>Debug units only</strong> (Total: 18 -&gt; 21)
 
   <ul dir="auto">
 
-  <li>101 Pinball World</li>
+  <li>Candle Route</li>
 
-  <li>Robot Rescue 2</li>
+  <li>Need for Speed: Nitro-X</li>
+
+  <li>Neko Reversi</li>
 
   </ul>
 
@@ -85,31 +96,25 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ul>
 
-  <h3 dir="auto">Bug fix</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed four DSiWare <em>Rytmik</em> titles to not crash. This is achieved by
-  not loading the in-game menu and cheat engine for those titles.
-
-  <ul dir="auto">
-
-  <li>Hip Hop King: Rytmik Edition</li>
-
-  <li>Rytmik Retrobits</li>
-
-  <li>Rytmik Rock Edition</li>
-
-  <li>Rytmik World Music</li>
+  </li>
 
   </ul>
 
-  </li>
+  <h3 dir="auto">Bug fixes</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed <em>Nintendo DS Browser</em> crashing with only bottom button graphics
+  shown.</li>
+
+  <li>Fixed part of the pre-loaded ROM getting corrupt when using the <code class="notranslate">Expand
+  ROM space in RAM</code> (.ini: <code class="notranslate">EXTENDED_MEMORY</code>)
+  setting.</li>
 
   </ul>'
-updated: '2022-07-15T06:56:01Z'
-version: v0.61.3
-version_title: 'v0.61.3: TWL Summer Release #5'
+updated: '2022-07-22T07:45:54Z'
+version: v0.62.0
+version_title: 'v0.62.0: TWL Summer Release #6'
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
