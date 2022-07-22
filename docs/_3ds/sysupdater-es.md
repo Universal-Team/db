@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/Robichani6-1/sysUpdater-ES/releases/download/1.0/sysUpdater-ES.cia
 github: Robichani6-1/sysUpdater-ES
 icon: https://github.com/Robichani6-1/sysUpdater-ES/raw/master/app/icon48x48.png
-icon_index: -1
+icon_index: 221
 image: https://github.com/Robichani6-1/sysUpdater-ES/raw/master/app/banner.png
 image_length: 1054
 layout: app

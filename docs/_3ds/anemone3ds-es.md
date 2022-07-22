@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/Robichani6-1/Anemone3DS-ES/releases/download/1.0/Anemone3DS-ES.cia
 github: Robichani6-1/Anemone3DS-ES
 icon: https://github.com/Robichani6-1/Anemone3DS-ES/raw/master/meta/icon.png
-icon_index: -1
+icon_index: 220
 image: https://github.com/Robichani6-1/Anemone3DS-ES/raw/master/meta/banner.png
 image_length: 15027
 layout: app
