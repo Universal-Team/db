@@ -17,18 +17,30 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.4-96-gbebe3d87d
-  downloads: {}
-  updated: '2022-07-22T22:21:59Z'
-  version: 4.2.4-96-gbebe3d87d
-  version_title: Release 4.2.4-96-gbebe3d87d
+  download_page: https://github.com/angband/angband/releases/tag/4.2.4-97-g42b7b1f9b
+  downloads:
+    Angband-4.2.4-97-g42b7b1f9b-3ds.zip:
+      size: 24149493
+      size_str: 23 MiB
+      url: https://github.com/angband/angband/releases/download/4.2.4-97-g42b7b1f9b/Angband-4.2.4-97-g42b7b1f9b-3ds.zip
+    Angband-4.2.4-97-g42b7b1f9b-nds.zip:
+      size: 23351980
+      size_str: 22 MiB
+      url: https://github.com/angband/angband/releases/download/4.2.4-97-g42b7b1f9b/Angband-4.2.4-97-g42b7b1f9b-nds.zip
+    Angband-4.2.4-97-g42b7b1f9b.tar.gz:
+      size: 25230385
+      size_str: 24 MiB
+      url: https://github.com/angband/angband/releases/download/4.2.4-97-g42b7b1f9b/Angband-4.2.4-97-g42b7b1f9b.tar.gz
+  updated: '2022-07-22T23:04:17Z'
+  version: 4.2.4-97-g42b7b1f9b
+  version_title: Release 4.2.4-97-g42b7b1f9b
 source: https://github.com/angband/angband
 systems:
 - 3DS
 - DS
 title: Angband
-updated: '2022-07-22T22:21:59Z'
-version: 4.2.4-96-gbebe3d87d
-version_title: Release 4.2.4-96-gbebe3d87d
+updated: '2022-07-22T23:04:17Z'
+version: 4.2.4-97-g42b7b1f9b
+version_title: Release 4.2.4-97-g42b7b1f9b
 ---
 Angband is a graphical dungeon adventure game that uses textual characters to represent the walls and floors of a dungeon and the inhabitants therein, in the vein of games like NetHack and Rogue. If you need help in-game, press ?.
