@@ -206,15 +206,11 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 			if "github" in app:
 				print("GitHub")
 				api = requests.get(f"https://api.github.com/repos/{app['github']}", headers=header if header else None).json()
-				releases = requests.get(f"https://api.github.com/repos/{app['github']}/releases", headers=header if header else None).json()
-				release = None
+				release = requests.get(f"https://api.github.com/repos/{app['github']}/releases/latest", headers=header if header else None).json()
+				releases = requests.get(f"https://api.github.com/repos/{app['github']}/releases?per_page=1", headers=header if header else None).json()
 				prerelease = None
 				if len(releases) > 0 and releases[0]["prerelease"]:
 					prerelease = releases[0]
-				for r in releases:
-					if not (r["prerelease"] or r["draft"]):
-						release = r
-						break
 
 				if "title" not in app:
 					app["title"] = api["name"]
