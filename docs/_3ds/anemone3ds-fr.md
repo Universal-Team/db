@@ -4,8 +4,8 @@ avatar: https://avatars.githubusercontent.com/u/64099608?v=4
 categories:
 - utility
 - translation
-color: '#5a9cc8'
-color_bg: '#396380'
+color: '#a393a5'
+color_bg: '#7e7280'
 created: '2022-07-21T13:19:43Z'
 description: Un outil pour gérer les thèmes et splashs sur Nintendo 3DS
 download_page: https://github.com/cooolgamer/Anemone3DS-FR/releases
@@ -19,7 +19,7 @@ downloads:
     size_str: 1016 KiB
     url: https://github.com/cooolgamer/Anemone3DS-FR/releases/download/2.3.0.1/Anemone3DSFR.cia
 github: cooolgamer/Anemone3DS-FR
-icon: https://github.com/cooolgamer/Anemone3DS-FR/raw/master/meta/icon.png
+icon: https://db.universal-team.net/assets/images/icons/anemone3ds-fr.png
 icon_index: 223
 image: https://github.com/cooolgamer/Anemone3DS-FR/raw/master/meta/banner.png
 image_length: 9749
