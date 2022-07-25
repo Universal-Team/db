@@ -4912,6 +4912,38 @@
 		"image": "https://github.com/Robichani6-1/sysUpdater-ES/raw/master/app/banner.png"
 	},
 	{
+		"github": "Robichani6-1/wumiibo-ES",
+		"systems": ["3DS"],
+		"categories": ["utility", "translation"],
+		"scripts": {
+			"wumiibo-ES": [
+				{
+					"type": "downloadRelease",
+					"repo": "Robichani6-1/wumiibo-ES",
+					"file": "0004013000004002.zip",
+					"output": "/0004013000004002.zip"
+				},
+				{
+					"type": "extractFile",
+					"file": "/0004013000004002.zip",
+					"input": "0004013000004002/",
+					"output": "/luma/titles/0004013000004002/"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/0004013000004002.zip"
+				}
+			]
+		}
+	},
+	{
+		"github": "Robichani6-1/wumiibohelper-ES",
+		"systems": ["3DS"],
+		"categories": ["utility", "translation"],
+		"icon": "https://github.com/Robichani6-1/wumiibohelper-ES/raw/main/gfx/icon_app.png",
+		"image": "https://github.com/Robichani6-1/wumiibohelper-ES/raw/main/cia/banner.png"
+	},
+	{
 		"github": "cooolgamer/ThirdTube-FR",
 		"systems": ["3DS"],
 		"categories": ["utility", "translation"],
