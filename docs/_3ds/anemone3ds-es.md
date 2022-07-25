@@ -11,7 +11,7 @@ description: Instalador de Temas y Splashes de 3Ds escrito en C
 download_page: https://github.com/Robichani6-1/Anemone3DS-ES/releases
 downloads:
   Anemone3DS-ES.3dsx:
-    size: 647076
+    size: 647068
     size_str: 631 KiB
     url: https://github.com/Robichani6-1/Anemone3DS-ES/releases/download/1.0/Anemone3DS-ES.3dsx
   Anemone3DS-ES.cia:
