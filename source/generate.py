@@ -595,6 +595,8 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 			web.pop("archive")
 		if "slug" in web:
 			web.pop("slug")
+		if "icon_index" in web:
+			web.pop("icon_index")
 		# Add defaults where absolutely needed
 		if "systems" not in web:
 			web["systems"] = ["3DS"]  # default to 3DS
