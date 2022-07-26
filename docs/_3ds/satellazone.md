@@ -23,7 +23,7 @@ downloads:
     url: https://github.com/MegaPika/SatellaZone/releases/download/1.3.1/UsaPatch.zip
 github: MegaPika/SatellaZone
 icon: https://satellazone.neocities.org/universallogo.png
-icon_index: 224
+icon_index: 226
 image: https://satellazone.neocities.org/universallogo.png
 image_length: 1431
 layout: app

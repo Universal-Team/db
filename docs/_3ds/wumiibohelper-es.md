@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/Robichani6-1/wumiibohelper-ES/releases/download/1.0/wumiibohelper-ES.cia
 github: Robichani6-1/wumiibohelper-ES
 icon: https://github.com/Robichani6-1/wumiibohelper-ES/raw/main/gfx/icon_app.png
-icon_index: -1
+icon_index: 223
 image: https://github.com/Robichani6-1/wumiibohelper-ES/raw/main/cia/banner.png
 image_length: 5828
 layout: app

@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/cooolgamer/Anemone3DS-FR/releases/download/2.3.0.1/Anemone3DSFR.cia
 github: cooolgamer/Anemone3DS-FR
 icon: https://db.universal-team.net/assets/images/icons/anemone3ds-fr.png
-icon_index: 223
+icon_index: 225
 image: https://github.com/cooolgamer/Anemone3DS-FR/raw/master/meta/banner.png
 image_length: 9749
 layout: app
