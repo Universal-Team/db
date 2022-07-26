@@ -25,7 +25,6 @@ downloads:
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.6/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
-icon_index: 187
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
 image_length: 16283
 layout: app

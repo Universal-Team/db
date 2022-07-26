@@ -19,7 +19,6 @@ downloads:
     url: https://github.com/Ryuzaki-MrL/NotifyMii/releases/download/1.2/NotifyMii.zip
 github: Ryuzaki-MrL/NotifyMii
 icon: https://raw.githubusercontent.com/Ryuzaki-MrL/NotifyMii/master/meta/icon.png
-icon_index: 122
 image: https://raw.githubusercontent.com/Ryuzaki-MrL/NotifyMii/master/meta/banner.png
 image_length: 24608
 layout: app

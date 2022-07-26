@@ -16,7 +16,6 @@ downloads:
     url: https://github.com/Robichani6-1/Better-TJAPlayer-ES/releases/download/v1.0/BetterTJAPlayer.ES.rar
 github: Robichani6-1/Better-TJAPlayer-ES
 icon: https://github.com/Robichani6-1/Better-TJAPlayer-ES/raw/master/resources/icon.png
-icon_index: 217
 image: https://github.com/Robichani6-1/Better-TJAPlayer-ES/raw/master/resources/banner.png
 image_length: 18144
 layout: app

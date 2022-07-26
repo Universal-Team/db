@@ -19,7 +19,6 @@ downloads:
     size_str: 27 MiB
     url: https://github.com/hax0kartik/wumiibo/releases/download/v4.0/wumiibohelper.cia
 github: hax0kartik/wumiibo
-icon_index: 135
 image: https://raw.githubusercontent.com/hax0kartik/wumiibo/master/wumiibohelper/gfx/icon.png
 image_length: 4386
 layout: app

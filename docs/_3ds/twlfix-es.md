@@ -21,7 +21,6 @@ downloads:
     url: https://github.com/Robichani6-1/TWLFix-ES/releases/download/1.0/TWLFix-ES.cia
 github: Robichani6-1/TWLFix-ES
 icon: https://github.com/Robichani6-1/TWLFix-ES/raw/master/icon.png
-icon_index: 216
 image: https://github.com/Robichani6-1/TWLFix-ES/raw/master/resource/banner.png
 image_length: 10251
 layout: app

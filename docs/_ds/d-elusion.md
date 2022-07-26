@@ -19,7 +19,6 @@ downloads:
     url: https://github.com/NotImplementedLife/d-Elusion/releases/download/0.3/d-Elusion.nds
 github: NotImplementedLife/d-Elusion
 icon: https://db.universal-team.net/assets/images/icons/d-elusion.png
-icon_index: 201
 image: https://db.universal-team.net/assets/images/icons/d-elusion.png
 image_length: 630
 layout: app

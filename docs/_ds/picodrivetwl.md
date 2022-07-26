@@ -10,7 +10,6 @@ description: SEGA Genesis/Mega Drive emulator for the Nintendo DS(i)
 download_page: https://github.com/DS-Homebrew/PicoDriveTWL/releases
 github: DS-Homebrew/PicoDriveTWL
 icon: https://db.universal-team.net/assets/images/icons/picodrivetwl.png
-icon_index: 21
 image: https://db.universal-team.net/assets/images/images/picodrivetwl.png
 image_length: 466
 layout: app

@@ -19,7 +19,6 @@ downloads:
     size_str: 1 MiB
     url: https://github.com/hax0kartik/rehid/releases/download/v3.0/rehidhelper.3dsx
 github: hax0kartik/rehid
-icon_index: 171
 image: https://avatars.githubusercontent.com/u/16360444?v=4&size=128
 image_length: 21350
 layout: app

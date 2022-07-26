@@ -15,7 +15,6 @@ downloads:
     url: https://www.chishm.com/NitroHax/NitroHax.zip
 github: chishm/nitrohax
 icon: https://db.universal-team.net/assets/images/icons/nitrohax.png
-icon_index: 25
 image: https://db.universal-team.net/assets/images/images/nitrohax.png
 image_length: 241
 layout: app

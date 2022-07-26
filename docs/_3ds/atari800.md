@@ -15,7 +15,6 @@ downloads:
     url: https://github.com/asiekierka/atari800-3ds/releases/download/port-3ds/v0.3.7/atari800.3dsx
 github: asiekierka/atari800-3ds
 icon: https://db.universal-team.net/assets/images/icons/atari800.png
-icon_index: 185
 image: https://db.universal-team.net/assets/images/images/atari800.png
 image_length: 12011
 layout: app

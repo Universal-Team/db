@@ -19,7 +19,6 @@ downloads:
     url: https://github.com/SuperSaiyajinStackZ/StackMill/releases/download/v0.5.0/StackMill.cia
 github: SuperSaiyajinStackZ/StackMill
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/StackMill/main/3DS/app/icon.png
-icon_index: 181
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/StackMill/main/3DS/app/banner.png
 image_length: 6061
 layout: app

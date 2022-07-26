@@ -19,7 +19,6 @@ downloads:
     url: https://github.com/badda71/vice3ds/releases/download/2.4.1/vice3DS-C64.cia
 github: badda71/vice3ds
 icon: https://raw.githubusercontent.com/badda71/vice3ds/master/meta/icon_3ds_C64.png
-icon_index: 207
 image: https://raw.githubusercontent.com/badda71/vice3ds/master/meta/icon_3ds_C64.png
 image_length: 2537
 layout: app

@@ -19,7 +19,6 @@ downloads:
     url: https://github.com/RandomMan25XX/atari800-3ds/releases/download/Version_3DS_0.3.7/atari800.cia
 github: RandomMan25XX/atari800
 icon: https://db.universal-team.net/assets/images/icons/atari800-randomman25xx.png
-icon_index: 184
 image: https://db.universal-team.net/assets/images/images/atari800-randomman25xx.png
 image_length: 12011
 layout: app

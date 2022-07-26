@@ -26,7 +26,6 @@ downloads:
     size_str: 10 KiB
     url: https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip
 github: SciresM/boot9strap
-icon_index: 229
 image: https://avatars.githubusercontent.com/u/8676005?v=4&size=128
 image_length: 2857
 layout: app

@@ -20,7 +20,6 @@ downloads:
     url: https://github.com/MrHuu/openbor-3ds/releases/download/v0.0.5/OpenBOR.cia
 github: MrHuu/openbor-3ds
 icon: https://raw.githubusercontent.com/MrHuu/openbor-3ds/3DS/engine/resources/ctr/OpenBOR_Icon_48x48.png
-icon_index: 31
 image: https://raw.githubusercontent.com/MrHuu/openbor-3ds/3DS/engine/resources/ctr/OpenBOR_Logo_256x128.png
 image_length: 33143
 layout: app

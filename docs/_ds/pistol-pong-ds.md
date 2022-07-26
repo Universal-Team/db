@@ -15,7 +15,6 @@ downloads:
     url: https://github.com/Jonatan6/Pistol-Pong-DS/releases/download/v1.0/Pistol-Pong-DS.nds
 github: Jonatan6/Pistol-Pong-DS
 icon: https://db.universal-team.net/assets/images/icons/pistol-pong-ds.png
-icon_index: 170
 image: https://db.universal-team.net/assets/images/images/pistol-pong-ds.png
 image_length: 2201
 layout: app

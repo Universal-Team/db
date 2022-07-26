@@ -19,7 +19,6 @@ downloads:
     url: https://github.com/Epicpkmn11/dsi-camera/releases/download/v1.1.0/dsi-camera.nds
 github: Epicpkmn11/dsi-camera
 icon: https://db.universal-team.net/assets/images/icons/dsi-camera.png
-icon_index: 152
 image: https://db.universal-team.net/assets/images/icons/dsi-camera.png
 image_length: 630
 layout: app

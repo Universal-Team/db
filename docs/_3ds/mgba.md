@@ -16,7 +16,6 @@ downloads:
 eval_notes_md: true
 github: mgba-emu/mgba
 icon: https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-48.png
-icon_index: 32
 image: https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-256.png
 image_length: 43839
 layout: app

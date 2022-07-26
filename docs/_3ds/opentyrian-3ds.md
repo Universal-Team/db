@@ -14,7 +14,6 @@ downloads:
     url: https://github.com/nop90/Opentyrian-3ds/releases/download/v1.1/Opentyrian_v1.1.zip
 github: nop90/Opentyrian-3ds
 icon: https://raw.githubusercontent.com/nop90/Opentyrian-3ds/master/resources/icon.png
-icon_index: 91
 image: https://raw.githubusercontent.com/nop90/Opentyrian-3ds/master/resources/banner.png
 image_length: 72385
 layout: app

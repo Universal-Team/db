@@ -15,7 +15,6 @@ downloads:
     size_str: 41 KiB
     url: https://github.com/Robichani6-1/wumiibo-ES/releases/download/1.0/0004013000004002.zip
 github: Robichani6-1/wumiibo-ES
-icon_index: 222
 image: https://avatars.githubusercontent.com/u/79669283?v=4&size=128
 image_length: 2626
 layout: app

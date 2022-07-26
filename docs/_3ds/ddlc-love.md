@@ -24,7 +24,6 @@ downloads:
     url: https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.2.3/DDLC-LOVE-Vita-v1.2.2-to-v1.2.3.zip
 github: LukeZGD/DDLC-LOVE
 icon: https://db.universal-team.net/assets/images/icons/ddlc-love.png
-icon_index: 42
 image: https://db.universal-team.net/assets/images/images/ddlc-love.png
 image_length: 4459
 layout: app

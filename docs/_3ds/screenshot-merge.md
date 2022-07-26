@@ -19,7 +19,6 @@ downloads:
     url: https://github.com/ihaveamac/screenshot-merge/releases/download/1.4/screenshot-merge1.4.cia
 github: ihaveamac/screenshot-merge
 icon: https://raw.githubusercontent.com/ihaveamac/screenshot-merge/master/resources/icon.png
-icon_index: 61
 image: https://raw.githubusercontent.com/ihaveamac/screenshot-merge/master/resources/banner.png
 image_length: 14368
 layout: app

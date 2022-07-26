@@ -15,7 +15,6 @@ downloads:
     url: https://github.com/Ryuzaki-MrL/RomFS-Explorer/releases/download/v1.0.1/RomFSExplorer.zip
 github: Ryuzaki-MrL/RomFS-Explorer
 icon: https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS-Explorer/master/meta/icon.png
-icon_index: 108
 image: https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS-Explorer/master/meta/banner.png
 image_length: 19162
 layout: app

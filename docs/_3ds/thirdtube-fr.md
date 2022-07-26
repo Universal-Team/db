@@ -20,7 +20,6 @@ downloads:
     url: https://github.com/cooolgamer/ThirdTube-FR/releases/download/v0.5.0/ThirdTube.cia
 github: cooolgamer/ThirdTube-FR
 icon: https://github.com/cooolgamer/ThirdTube-FR/raw/main/resource/icon.png
-icon_index: 224
 image: https://github.com/cooolgamer/ThirdTube-FR/raw/main/resource/banner.png
 image_length: 9933
 layout: app

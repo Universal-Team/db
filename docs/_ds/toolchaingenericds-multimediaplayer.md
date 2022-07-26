@@ -11,7 +11,6 @@ color_bg: '#54544d'
 created: '2019-10-26T15:04:41.173265+00:00'
 description: ''
 icon: https://db.universal-team.net/assets/images/icons/toolchaingenericds-multimediaplayer.png
-icon_index: 20
 image: https://db.universal-team.net/assets/images/icons/toolchaingenericds-multimediaplayer.png
 image_length: 630
 layout: app

@@ -10,7 +10,6 @@ description: Port  to 3DS of the Zelda style picross game by Vincent Joiullat
 download_page: https://github.com/nop90/ZeldaPicross/releases
 github: nop90/ZeldaPicross
 icon: https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/icon.png
-icon_index: 104
 image: https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/banner.png
 image_length: 6202
 layout: app

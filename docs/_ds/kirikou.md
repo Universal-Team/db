@@ -20,7 +20,6 @@ downloads:
     url: https://github.com/rayasticot/kirikou/releases/download/v1.0.2/kirikou2.nds
 github: rayasticot/kirikou
 icon: https://db.universal-team.net/assets/images/icons/kirikou.png
-icon_index: 197
 image: https://db.universal-team.net/assets/images/icons/kirikou.png
 image_length: 632
 layout: app

@@ -19,7 +19,6 @@ downloads:
     url: https://github.com/Core-2-Extreme/Battery_mark_for_3DS/releases/download/v2.1.0/Battery_mark_for_3DS.cia
 github: Core-2-Extreme/Battery_mark_for_3DS
 icon: https://raw.githubusercontent.com/Core-2-Extreme/Battery_mark_for_3DS/master/resource/icon.png
-icon_index: 39
 image: https://raw.githubusercontent.com/Core-2-Extreme/Battery_mark_for_3DS/master/resource/banner.png
 image_length: 65150
 layout: app

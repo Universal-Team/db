@@ -17,7 +17,6 @@ downloads:
     size_str: 380 KiB
     url: https://github.com/LumaTeam/Luma3DS/releases/download/v11.0/Luma3DSv11.0.zip
 github: LumaTeam/Luma3DS
-icon_index: 146
 image: https://avatars.githubusercontent.com/u/65085206?v=4&size=128
 image_length: 7260
 layout: app

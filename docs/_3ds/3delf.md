@@ -19,7 +19,6 @@ downloads:
     url: https://github.com/SuperSaiyajinStackZ/3DElf/releases/download/v0.2.0/3DElf.cia
 github: SuperSaiyajinStackZ/3DElf
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/icon.png
-icon_index: 3
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/banner.png
 image_length: 2306
 layout: app

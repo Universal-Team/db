@@ -27,7 +27,6 @@ downloads:
     url: https://github.com/dnasdw/SharedFontTool/releases/download/v3.1/SFontT80.zip
 github: dnasdw/SharedFontTool
 icon: https://raw.githubusercontent.com/dnasdw/SharedFontTool/master/meta/icon_3ds.png
-icon_index: 48
 image: https://raw.githubusercontent.com/dnasdw/SharedFontTool/master/meta/banner_3ds.png
 image_length: 46802
 layout: app

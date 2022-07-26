@@ -31,7 +31,6 @@ downloads:
     url: https://github.com/mtheall/ftpd/releases/download/v3.1.0/ftpd.nds
 github: mtheall/ftpd
 icon: https://raw.githubusercontent.com/mtheall/ftpd/master/meta/icon.png
-icon_index: 33
 image: https://raw.githubusercontent.com/mtheall/ftpd/master/meta/banner.png
 image_length: 2124
 layout: app

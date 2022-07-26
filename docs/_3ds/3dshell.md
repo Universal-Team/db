@@ -20,7 +20,6 @@ downloads:
     url: https://github.com/joel16/3DShell/releases/download/v5.1.0/3DShell.cia
 github: joel16/3DShell
 icon: https://raw.githubusercontent.com/joel16/3DShell/master/res/ic_launcher_filemanager.png
-icon_index: 34
 image: https://raw.githubusercontent.com/joel16/3DShell/master/res/banner.png
 image_length: 10753
 layout: app

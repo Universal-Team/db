@@ -19,7 +19,6 @@ downloads:
     url: https://github.com/nop90/ZeldaOLB/releases/download/v1%2C1/ZeldaOLB_v1.1.cia
 github: nop90/ZeldaOLB
 icon: https://raw.githubusercontent.com/nop90/ZeldaOLB/master/resources/icon.png
-icon_index: 84
 image: https://raw.githubusercontent.com/nop90/ZeldaOLB/master/resources/banner.png
 image_length: 23811
 layout: app

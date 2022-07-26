@@ -15,7 +15,6 @@ downloads:
     url: https://github.com/oreo639/LimePlayer3DS/releases/download/v0.0.10/LimePlayer3DS.3dsx
 github: Oreo639/LimePlayer3DS
 icon: https://raw.githubusercontent.com/Oreo639/LimePlayer3DS/master/meta/icon.png
-icon_index: 151
 image: https://raw.githubusercontent.com/Oreo639/LimePlayer3DS/master/meta/banner.png
 image_length: 13104
 layout: app

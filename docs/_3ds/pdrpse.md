@@ -16,7 +16,6 @@ downloads:
     url: https://github.com/suloku/pdrpse/releases/download/0.3/pdrpse_0.3.zip
 github: suloku/pdrpse
 icon: https://raw.githubusercontent.com/suloku/pdrpse/master/icon.png
-icon_index: 129
 image: https://db.universal-team.net/assets/images/images/pdrpse.png
 image_length: 11567
 layout: app

@@ -15,7 +15,6 @@ downloads:
     url: https://github.com/rhaleblian/dslibris/releases/download/v1.5.1/dslibris-1.5.1.zip
 github: rhaleblian/dslibris
 icon: https://db.universal-team.net/assets/images/icons/dslibris.png
-icon_index: 14
 image: https://db.universal-team.net/assets/images/images/dslibris.png
 image_length: 213
 layout: app

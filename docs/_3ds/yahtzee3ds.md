@@ -19,7 +19,6 @@ downloads:
     url: https://github.com/LiquidFenrir/Yahtzee3DS/releases/download/v1.0.1/Yahtzee3DS.cia
 github: LiquidFenrir/Yahtzee3DS
 icon: https://raw.githubusercontent.com/LiquidFenrir/Yahtzee3DS/master/icon.png
-icon_index: 52
 image: https://raw.githubusercontent.com/LiquidFenrir/Yahtzee3DS/master/sprites/banner.png
 image_length: 6451
 layout: app

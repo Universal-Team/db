@@ -19,7 +19,6 @@ downloads:
     url: https://github.com/badda71/uae3DS/releases/download/1.0/uae3DS.cia
 github: badda71/uae3DS
 icon: https://raw.githubusercontent.com/badda71/uae3DS/master/meta/icon.png
-icon_index: 208
 image: https://raw.githubusercontent.com/badda71/uae3DS/master/meta/banner.png
 image_length: 28872
 layout: app

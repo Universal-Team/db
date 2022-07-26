@@ -19,7 +19,6 @@ downloads:
     url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v1.9.6/quickmenu.bin
 github: RedShyGuy/Vapecord-ACNL-Plugin
 icon: https://raw.githubusercontent.com/RedShyGuy/Vapecord-ACNL-Plugin/master/Vapecord.png
-icon_index: 150
 image: https://raw.githubusercontent.com/RedShyGuy/Vapecord-ACNL-Plugin/master/Vapecord.png
 image_length: 6583
 layout: app

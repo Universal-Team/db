@@ -11,7 +11,6 @@ color_bg: '#807f7f'
 created: '2018-06-04T05:11:19.373852+00:00'
 description: SnemulDS 0.6 [Revival]
 icon: https://db.universal-team.net/assets/images/icons/snemulds.png
-icon_index: 19
 image: https://db.universal-team.net/assets/images/images/snemulds.png
 image_length: 342
 layout: app

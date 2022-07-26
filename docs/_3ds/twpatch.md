@@ -14,7 +14,6 @@ downloads:
   TWPatch.cia:
     url: https://gbatemp.net/download/twpatch.37400/version/38954/download?file=312134
 icon: https://db.universal-team.net/assets/images/icons/twpatch.png
-icon_index: 149
 image: https://db.universal-team.net/assets/images/images/twpatch.png
 image_length: 24255
 layout: app

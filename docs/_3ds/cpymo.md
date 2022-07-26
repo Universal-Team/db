@@ -20,7 +20,6 @@ downloads:
     url: https://github.com/Strrationalism/CPyMO/releases/download/v1.1.0/CPyMO.for.Nintendo.3DS.cia
 github: Strrationalism/CPyMO
 icon: https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/icon.png
-icon_index: 203
 image: https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/banner.png
 image_length: 30736
 layout: app

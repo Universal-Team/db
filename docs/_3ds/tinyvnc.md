@@ -19,7 +19,6 @@ downloads:
     url: https://github.com/badda71/TinyVNC/releases/download/2.0/TinyVNC.cia
 github: badda71/TinyVNC
 icon: https://raw.githubusercontent.com/badda71/TinyVNC/master/meta/icon.png
-icon_index: 209
 image: https://raw.githubusercontent.com/badda71/TinyVNC/master/meta/banner.png
 image_length: 36242
 layout: app

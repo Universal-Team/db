@@ -15,7 +15,6 @@ downloads:
     url: https://github.com/zoogie/Stuff/releases/download/0.6.0/nds-hb-menu.cia
 github: zoogie/Stuff
 icon: https://raw.githubusercontent.com/zoogie/Stuff/master/nds-hb-menu/cia/icon.png
-icon_index: 75
 image: https://raw.githubusercontent.com/zoogie/Stuff/master/nds-hb-menu/cia/banner.png
 image_length: 54321
 layout: app

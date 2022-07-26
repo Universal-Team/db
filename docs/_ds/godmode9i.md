@@ -17,7 +17,6 @@ downloads:
     url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.2.3/GodMode9i.7z
 github: DS-Homebrew/GodMode9i
 icon: https://db.universal-team.net/assets/images/icons/godmode9i.png
-icon_index: 11
 image: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png
 image_length: 44248
 layout: app

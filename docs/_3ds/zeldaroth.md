@@ -19,7 +19,6 @@ downloads:
     url: https://github.com/nop90/ZeldaROTH/releases/download/v1.0.2/ZeldaROTH_CIA_v1.0.2.zip
 github: nop90/ZeldaROTH
 icon: https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/icon.png
-icon_index: 120
 image: https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/banner.png
 image_length: 7049
 layout: app

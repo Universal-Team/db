@@ -28,7 +28,6 @@ downloads:
     url: https://github.com/Gericom/GBARunner2/releases/download/v20200812-131430_6e4ce45/GBARunner2_arm9dldi_ds.nds
 github: Gericom/GBARunner2
 icon: https://db.universal-team.net/assets/images/icons/gbarunner2.png
-icon_index: 10
 image: https://db.universal-team.net/assets/images/images/gbarunner2.png
 image_length: 324
 layout: app

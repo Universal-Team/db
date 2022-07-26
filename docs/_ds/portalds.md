@@ -15,7 +15,6 @@ downloads:
     url: https://github.com/smealum/portalDS/releases/download/r1/ASDS_r1.zip
 github: smealum/portalDS
 icon: https://db.universal-team.net/assets/images/icons/portalds.png
-icon_index: 13
 image: https://db.universal-team.net/assets/images/images/portalds.png
 image_length: 473
 layout: app

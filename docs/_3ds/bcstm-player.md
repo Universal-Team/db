@@ -19,7 +19,6 @@ downloads:
     url: https://github.com/NPI-D7/BCSTM-Player/releases/download/1.0.0/BCSTM-Player.cia
 github: NPI-D7/BCSTM-Player
 icon: https://raw.githubusercontent.com/NPI-D7/BCSTM-Player/main/app/icon.png
-icon_index: 172
 image: https://raw.githubusercontent.com/NPI-D7/BCSTM-Player/main/app/banner.png
 image_length: 2829
 layout: app

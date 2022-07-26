@@ -15,7 +15,6 @@ downloads:
     url: https://github.com/devkitPro/3ds-hbmenu/releases/download/v2.4.0/boot.3dsx
 github: fincs/new-hbmenu
 icon: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
-icon_index: 148
 image: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
 image_length: 21865
 layout: app

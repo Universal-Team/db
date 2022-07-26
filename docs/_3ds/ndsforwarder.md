@@ -14,7 +14,6 @@ downloads:
     size_str: 1001 KiB
     url: https://github.com/MechanicalDragon0687/ndsForwarder/releases/download/1.4.3/ndsForwarder.3dsx
 github: MechanicalDragon0687/NDSForwarder
-icon_index: 173
 image: https://avatars.githubusercontent.com/u/43786828?v=4&size=128
 image_length: 10211
 layout: app

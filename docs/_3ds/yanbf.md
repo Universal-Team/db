@@ -26,7 +26,6 @@ downloads:
     size_str: 201 KiB
     url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.1/bootstrap.cia
 github: YANBForwarder/YANBF
-icon_index: 198
 image: https://avatars.githubusercontent.com/u/103953989?v=4&size=128
 image_length: 1561
 layout: app

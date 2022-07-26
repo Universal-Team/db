@@ -16,7 +16,6 @@ downloads:
     size_str: 251 KiB
     url: https://github.com/Nanquitas/Luma3DS/releases/download/v11.0/boot.firm
 github: Nanquitas/Luma3DS
-icon_index: 147
 image: https://avatars.githubusercontent.com/u/13298129?v=4&size=128
 image_length: 1564
 layout: app

@@ -20,7 +20,6 @@ downloads:
     url: https://github.com/phijor/ctroller/releases/download/0.4.0/ctroller.cia
 github: phijor/ctroller
 icon: https://raw.githubusercontent.com/phijor/ctroller/master/3DS/resources/icon.png
-icon_index: 119
 image: https://raw.githubusercontent.com/phijor/ctroller/master/3DS/resources/banner.png
 image_length: 3022
 layout: app

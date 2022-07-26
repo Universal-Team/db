@@ -16,7 +16,6 @@ downloads:
     size_str: 381 KiB
     url: https://github.com/LopezTutoriales/Luma3DS-Spanish/releases/download/v11.0/Luma3DSv11.0_ESP.zip
 github: LopezTutoriales/Luma3DS-Spanish
-icon_index: 210
 image: https://avatars.githubusercontent.com/u/5817696?v=4&size=128
 image_length: 26161
 layout: app

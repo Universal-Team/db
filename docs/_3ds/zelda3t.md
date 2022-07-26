@@ -19,7 +19,6 @@ downloads:
     url: https://github.com/nop90/Zelda3T/releases/download/v1.0/Zelda3T_v1.0.cia
 github: nop90/Zelda3T
 icon: https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/icon.png
-icon_index: 70
 image: https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/banner.png
 image_length: 29329
 layout: app

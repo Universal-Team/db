@@ -12,7 +12,6 @@ download_page: https://github.com/angband/angband/releases
 downloads: {}
 github: angband/angband
 icon: https://github.com/angband.png?size=48
-icon_index: 228
 image: https://github.com/angband.png
 image_length: 3366
 layout: app
