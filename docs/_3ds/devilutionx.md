@@ -194,6 +194,18 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <li>Monsters not reacting to being attacked by berserked monster</li>
 
+  </ul>
+
+  <h3 dir="auto">Known issues</h3>
+
+  <h4 dir="auto">Stability / Performance / System</h4>
+
+  <ul dir="auto">
+
+  <li>macOS build is currently being work out and will be up again shortly</li>
+
+  <li>Linux ARM builds have not arrived yet</li>
+
   </ul>'
 updated: '2022-07-25T20:55:27Z'
 version: 1.4.1
