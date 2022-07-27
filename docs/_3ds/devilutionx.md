@@ -68,14 +68,6 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   </ul>
 
-  <h4 dir="auto">Platforms</h4>
-
-  <ul dir="auto">
-
-  <li>macOS: Now a Universal app for M1 and x86_64</li>
-
-  </ul>
-
   <h3 dir="auto">Bugfixes</h3>
 
   <h4 dir="auto">Gameplay</h4>
@@ -201,8 +193,6 @@ update_notes: '<h3 dir="auto">Features</h3>
   <h4 dir="auto">Stability / Performance / System</h4>
 
   <ul dir="auto">
-
-  <li>macOS build is currently being work out and will be up again shortly</li>
 
   <li>Linux ARM builds have not arrived yet</li>
 
