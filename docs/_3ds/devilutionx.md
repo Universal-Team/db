@@ -24,24 +24,6 @@ image_length: 47500
 layout: app
 license: unlicense
 license_name: The Unlicense
-prerelease:
-  download_page: https://github.com/diasurgical/devilutionX/releases/tag/1.5.1.alpha1
-  downloads:
-    devilutionx-miniui.zip:
-      size: 5233691
-      size_str: 4 MiB
-      url: https://github.com/diasurgical/devilutionX/releases/download/1.5.1.alpha1/devilutionx-miniui.zip
-    devilutionx-onion-os.zip:
-      size: 5444498
-      size_str: 5 MiB
-      url: https://github.com/diasurgical/devilutionX/releases/download/1.5.1.alpha1/devilutionx-onion-os.zip
-  update_notes: <p dir="auto">Just testing whether release build automation works.
-    This release will be deleted afterwards.</p>
-  update_notes_md: Just testing whether release build automation works. This release
-    will be deleted afterwards.
-  updated: '2022-07-31T14:04:05Z'
-  version: 1.5.1.alpha1
-  version_title: 1.5.1.alpha1 - testing release build automation
 qr:
   devilutionx-3ds.cia: https://db.universal-team.net/assets/images/qr/devilutionx-3ds-cia.png
 source: https://github.com/diasurgical/devilutionX
