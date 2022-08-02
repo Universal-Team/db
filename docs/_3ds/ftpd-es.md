@@ -10,14 +10,14 @@ created: '2021-06-19T23:21:57Z'
 description: Servidor FTP para 3Ds traducido al español
 download_page: https://github.com/Robichani6-1/FTPD-ES/releases
 downloads:
-  ftpd.3dsx:
-    size: 620440
-    size_str: 605 KiB
-    url: https://github.com/Robichani6-1/FTPD-ES/releases/download/1.5/ftpd.3dsx
-  ftpd.cia:
+  FTPD.ES.3dsx:
+    size: 620632
+    size_str: 606 KiB
+    url: https://github.com/Robichani6-1/FTPD-ES/releases/download/1.0/FTPD.ES.3dsx
+  FTPD.ES.cia:
     size: 820160
     size_str: 800 KiB
-    url: https://github.com/Robichani6-1/FTPD-ES/releases/download/1.5/ftpd.cia
+    url: https://github.com/Robichani6-1/FTPD-ES/releases/download/1.0/FTPD.ES.cia
 github: Robichani6-1/FTPD-ES
 icon: https://github.com/Robichani6-1/FTPD-ES/raw/master/meta/icon.png
 image: https://github.com/Robichani6-1/FTPD-ES/raw/master/meta/banner.png
@@ -26,12 +26,12 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  ftpd.cia: https://db.universal-team.net/assets/images/qr/ftpd-cia.png
+  FTPD.ES.cia: https://db.universal-team.net/assets/images/qr/ftpd-es-cia.png
 source: https://github.com/Robichani6-1/FTPD-ES
 systems:
 - 3DS
 title: FTPD-ES
-updated: '2021-07-11T19:17:24Z'
-version: '1.5'
-version_title: Corrección de fallos ortográficos
+updated: '2021-06-21T14:47:25Z'
+version: '1.0'
+version_title: Versión "100% traducida"
 ---

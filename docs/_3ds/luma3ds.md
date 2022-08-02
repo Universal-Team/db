@@ -12,10 +12,10 @@ created: '2016-02-08T02:26:12Z'
 description: Noob-proof (N)3DS "Custom Firmware"
 download_page: https://github.com/LumaTeam/Luma3DS/releases
 downloads:
-  Luma3DSv11.0.zip:
-    size: 390048
-    size_str: 380 KiB
-    url: https://github.com/LumaTeam/Luma3DS/releases/download/v11.0/Luma3DSv11.0.zip
+  Luma3DSv10.2.zip:
+    size: 359574
+    size_str: 351 KiB
+    url: https://github.com/LumaTeam/Luma3DS/releases/download/v10.2/Luma3DSv10.2.zip
 github: LumaTeam/Luma3DS
 image: https://avatars.githubusercontent.com/u/65085206?v=4&size=128
 image_length: 7260
@@ -28,74 +28,107 @@ systems:
 title: Luma3DS
 update_notes: '<ul dir="auto">
 
-  <li>Migrate the configuration to <strong>INI format</strong> (<code class="notranslate">config.bin</code>
-  becomes <code class="notranslate">config.ini</code>)
+  <li>Massively improved the screenshot feature:
 
   <ul dir="auto">
 
-  <li>This means that configuration is now human-readable, and makes situations like
-  wanting to modify Rosalina''s combo without opening its menu much easier to resolve</li>
+  <li><strong>Now takes around 100ms instead of 10s</strong> (speed may vary, and
+  the first screenshot in a series is slower)</li>
 
-  <li>The following options have been removed from the config menu and moved to be
-  exclusively in the INI file:
+  <li>800px top-screen mode is now supported</li>
 
-  <ul dir="auto">
-
-  <li>"Splash duration": this is because it can now be configured to take any 32-bit
-  value (default: 3 seconds)</li>
-
-  <li>"Set developer UNITINFO",</li>
-
-  <li>"Disable Arm11 exception handlers"</li>
-
-  <li>"Enable Rosalina on SAFE_FIRM"</li>
+  <li>Rosalina menu options have been reordered to take this into account</li>
 
   </ul>
 
   </li>
 
-  <li>"Show NAND or user string in System Settings" is now enabled by default, when
-  auto-generating a blank configuration file</li>
+  <li>Added brightness (luminance) selection submenu</li>
+
+  <li>Screen filters submenu improvements:
+
+  <ul dir="auto">
+
+  <li>Changed the filter values, and there are now more of them</li>
+
+  <li>The selected filter is now properly restored when the lid is reopened</li>
 
   </ul>
 
   </li>
 
-  <li>Essential system files (bootROMs, OTP, HWCAL, LCFS, SecureInfo) are now automatically
-  backed up to <code class="notranslate">/luma/backups</code> (upon upgrading Luma3DS,
-  if not already present at that location)</li>
+  <li>Removed the lag and crash associated to InputRedirection (thanks <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Nanquitas/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Nanquitas">@Nanquitas</a>)
 
-  <li>Upon upgrading Luma3DS, <code class="notranslate">boot.firm</code> is now automatically
-  copied to the root of the CTRNAND partition</li>
+  <ul dir="auto">
 
-  <li>Restore extended-remote support (this was broken with recent versions of GDB).
-  <strong>Breaking change</strong>: use <code class="notranslate">attach &lt;PID+1&gt;</code>
-  (e.g 1 for <code class="notranslate">fs</code>) to attach to a process, as GDB doesn''t
-  support PID 0.</li>
+  <li>On N3DS, this may cause a key press to be repeated in Home Menu for no reason.
+  Just pressing ZL/ZR on the console is enough to fix this</li>
 
-  <li>Add option to toggle card slot (<a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="379507464" data-permission-text="Title is private" data-url="https://github.com/LumaTeam/Luma3DS/issues/1202"
-  data-hovercard-type="issue" data-hovercard-url="/LumaTeam/Luma3DS/issues/1202/hovercard"
-  href="https://github.com/LumaTeam/Luma3DS/issues/1202">#1202</a>)</li>
+  </ul>
 
-  <li>Screen filters can now be saved to <code class="notranslate">config.ini</code>
-  and restored at boot (you need to go to "Miscellaneous options &gt; Save settings").
-  You can now even manually edit <code class="notranslate">config.ini</code> to use
-  custom values for those (within the 1000 to 25100K range)</li>
+  </li>
 
-  <li>NTP timezone can also now be saved to <code class="notranslate">config.ini</code>;
-  also fix a bug where some timezones would not be reachable</li>
+  <li>Improved Rosalina menu handling:
 
-  <li>Fix a long-standing issue where some system calls took longer than they should,
-  causing lags in some situations (thanks <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/PabloMK7/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/PabloMK7">@PabloMK7</a>)</li>
+  <ul dir="auto">
 
-  <li>Fix calculation of displayed battery voltage (thanks nocash)</li>
+  <li>C-Pad (left pad) can now be used to navigate the menu</li>
 
-  </ul>'
-updated: '2022-06-04T23:27:32Z'
-version: v11.0
-version_title: v11.0
+  <li>You can now easily scroll through the menus by maintaining directional keys</li>
+
+  <li>InputRedirection can now be used to access and navigate the menu</li>
+
+  <li>New key options for the menu combo: C-Pad Left/Right/Up/Down &amp; "Touch Screen
+  Pressed" (sorry, no ZL/ZR)</li>
+
+  </ul>
+
+  </li>
+
+  <li>Removed the need for the console to reboot again when switching to homebrew
+  from a higher-memory game (e.g. Pokémon Sun on O3DS -&gt; configured homebrew title)</li>
+
+  <li>Homebrew can now write to the shared config page</li>
+
+  <li>Fixed the fact that the console would hang if sleep mode was entered when the
+  Rosalina menu was open</li>
+
+  <li>Enabling either the debugger or InputRedirection will now prevent the console
+  from going to sleep until both are disabled (to prevent the console from hanging)</li>
+
+  <li>Rosalina is now supported on N3DS <code class="notranslate">SAFE_FIRM</code>,
+  including the homebrew launching functionality that comes with it:
+
+  <ul dir="auto">
+
+  <li>This is controlled by a new option in the main Luma menu. That option also enables
+  running 11.3-and-below system versions on N2DS and also allows the system to run
+  even with defective head-tracking hardware</li>
+
+  <li>The newest release of the Homebrew Menu needs to be used (it comes bundled with
+  Luma3DS in this release archive). You also need to rebuild all your homebrew with
+  the latest libctru release. Some homebrew may not work, nevertheless</li>
+
+  <li>Some Rosalina features may not work properly there (e.g. the brightness and
+  New 3DS submenus)</li>
+
+  </ul>
+
+  </li>
+
+  <li>Separated the exception dump parser script to a new repository: <a href="https://github.com/LumaTeam/luma3ds_exception_dump_parser">https://github.com/LumaTeam/luma3ds_exception_dump_parser</a></li>
+
+  </ul>
+
+  <p dir="auto">In addition, with thanks to <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/fincs/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/fincs">@fincs</a>,
+  this release of Luma3DS comes bundled with version 2.2.0 of the <a href="https://github.com/fincs/new-hbmenu">Homebrew
+  Menu</a>. (EDIT: replaced by hotfixed version)</p>'
+updated: '2020-07-16T17:33:28Z'
+version: v10.2
+version_title: v10.2
 wiki: https://github.com/LumaTeam/Luma3DS/wiki
 ---

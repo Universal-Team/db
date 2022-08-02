@@ -10,13 +10,9 @@ description: a pyramidman's quest to save his father
 download_page: https://github.com/Hoksy/ravimid/releases
 downloads:
   ravimid.cia:
-    size: 2925504
+    size: 2945984
     size_str: 2 MiB
-    url: https://github.com/Hoksy/ravimid/releases/download/1.2/ravimid.cia
-  ravimid_deluxe.cia:
-    size: 2917312
-    size_str: 2 MiB
-    url: https://github.com/Hoksy/ravimid/releases/download/1.2/ravimid_deluxe.cia
+    url: https://github.com/Hoksy/ravimid/releases/download/1.1/ravimid.cia
 github: Hoksy/ravimid
 icon: https://db.universal-team.net/assets/images/icons/ravimid.png
 image: https://db.universal-team.net/assets/images/images/ravimid.png
@@ -24,15 +20,12 @@ image_length: 905
 layout: app
 qr:
   ravimid.cia: https://db.universal-team.net/assets/images/qr/ravimid-cia.png
-  ravimid_deluxe.cia: https://db.universal-team.net/assets/images/qr/ravimid_deluxe-cia.png
 source: https://github.com/Hoksy/ravimid
 systems:
 - 3DS
 title: ravimid
-update_notes: '<p dir="auto">Fixed .cia not installing on n3DS<br>
-
-  Thanks to VideahGams!</p>'
-updated: '2016-11-08T23:24:17Z'
-version: '1.2'
+update_notes: <p dir="auto">I did the commit backwards</p>
+updated: '2016-09-03T21:18:33Z'
+version: '1.1'
 version_title: ravimid.cia
 ---
