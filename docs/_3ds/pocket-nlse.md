@@ -11,10 +11,10 @@ description: 'A portable save editor for Animal Crossing: New Leaf on the Ninten
   3DS'
 download_page: https://github.com/dragos240/Pocket-NLSE/releases
 downloads:
-  Pocket-NLSE_2016-11-08.zip:
-    size: 1913953
+  Pocket-NLSE-v1.0.0.zip:
+    size: 2068489
     size_str: 1 MiB
-    url: https://github.com/dragos240/Pocket-NLSE/releases/download/2016-11-08/Pocket-NLSE_2016-11-08.zip
+    url: https://github.com/dragos240/Pocket-NLSE/releases/download/v1.0.0/Pocket-NLSE-v1.0.0.zip
 github: dragos240/Pocket-NLSE
 icon: https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/icon.png
 image: https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/res/banner%20icon.png
@@ -26,9 +26,12 @@ source: https://github.com/dragos240/Pocket-NLSE
 systems:
 - 3DS
 title: Pocket-NLSE
-update_notes: <p dir="auto">Updated to work with the new update. THIS IS NOT STABLE.
-  I will release a stable version soon. Use with caution.</p>
-updated: '2016-11-08T23:33:13Z'
-version: '2016-11-08'
-version_title: '2016-11-08'
+update_notes: <p dir="auto">First stable version of Pocket-NLSE. Additional features
+  will be added later, but I felt it needed an "official" release. Bugs were fixed,
+  unstable options were hidden, icon was changed. As before, the .3dsx requires you
+  include the .xml file in the same directory as the .3dsx in order for it to work.
+  The .cia does not require a .xml file.</p>
+updated: '2017-01-11T13:18:21Z'
+version: v1.0.0
+version_title: v1.0.0
 ---

@@ -16,34 +16,55 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/masterfeizz/EDuke3D/releases/tag/v1.0-alpha2
+  download_page: https://github.com/masterfeizz/EDuke3D/releases/tag/v1.0-beta
   downloads:
-    eduke3d-v1.0-alpha2.zip:
-      size: 5674394
+    EDuke3D-v1.0-beta.zip:
+      size: 5673892
       size_str: 5 MiB
-      url: https://github.com/masterfeizz/EDuke3D/releases/download/v1.0-alpha2/eduke3d-v1.0-alpha2.zip
-  update_notes: '<p dir="auto">Switched from vorbis to theora (Music should sound
-    right this time).<br>
+      url: https://github.com/masterfeizz/EDuke3D/releases/download/v1.0-beta/EDuke3D-v1.0-beta.zip
+    EDuke3D.cia:
+      size: 1067456
+      size_str: 1 MiB
+      url: https://github.com/masterfeizz/EDuke3D/releases/download/v1.0-beta/EDuke3D.cia
+  qr:
+    EDuke3D.cia: https://db.universal-team.net/assets/images/qr/prerelease/eduke3d-cia.png
+  update_notes: '<p dir="auto">Bugfixes (mostly memory management) and first CIA release.<br>
 
-    Fixed problems with saving and loading.</p>'
-  update_notes_md: 'Switched from vorbis to theora (Music should sound right this
-    time).
+    View README on the project page for instructions.<br>
 
-    Fixed problems with saving and loading.
+    CIA bugs:<br>
+
+    Game must be closed from quit option on the menu, and not from the 3ds home menu<br>
+
+    Home button only works when in a level</p>'
+  update_notes_md: 'Bugfixes (mostly memory management) and first CIA release.
+
+    View README on the project page for instructions.
+
+    CIA bugs:
+
+    Game must be closed from quit option on the menu, and not from the 3ds home menu
+
+    Home button only works when in a level
 
     '
-  updated: '2016-05-02T02:21:36Z'
-  version: v1.0-alpha2
-  version_title: Alpha 2 Release
+  updated: '2016-05-08T04:36:44Z'
+  version: v1.0-beta
+  version_title: Beta release (fixed)
 source: https://github.com/masterfeizz/EDuke3D
 systems:
 - 3DS
 title: EDuke3D
-update_notes: '<p dir="auto">Switched from vorbis to theora (Music should sound right
-  this time).<br>
+update_notes: '<p dir="auto">Bugfixes (mostly memory management) and first CIA release.<br>
 
-  Fixed problems with saving and loading.</p>'
-updated: '2016-05-02T02:21:36Z'
-version: v1.0-alpha2
-version_title: Alpha 2 Release
+  View README on the project page for instructions.<br>
+
+  CIA bugs:<br>
+
+  Game must be closed from quit option on the menu, and not from the 3ds home menu<br>
+
+  Home button only works when in a level</p>'
+updated: '2016-05-08T04:36:44Z'
+version: v1.0-beta
+version_title: Beta release (fixed)
 ---
