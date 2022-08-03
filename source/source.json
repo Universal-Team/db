@@ -5113,6 +5113,9 @@
 			"Angband-(.*)-3ds\\.zip": {
 				"Angband-{}.3dsx": ["Angband-{}.3dsx", "angband"]
 			},
+			"Angband-(.*)-3ds\\.zip": {
+				"Angband-{}.cia": ["Angband-{}.cia", "angband"]
+			},
 			"Angband-(.*)-nds\\.zip": {
 				"Angband-{}.nds": ["Angband-{}.nds", "angband"]
 			}
