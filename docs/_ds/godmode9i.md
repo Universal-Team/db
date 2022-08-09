@@ -12,9 +12,9 @@ description: 'GodMode9i Explorer - A full access file browser for the Nintendo D
 download_page: https://github.com/DS-Homebrew/GodMode9i/releases
 downloads:
   GodMode9i.7z:
-    size: 348644
-    size_str: 340 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.2.3/GodMode9i.7z
+    size: 349911
+    size_str: 341 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.3.0/GodMode9i.7z
 github: DS-Homebrew/GodMode9i
 icon: https://db.universal-team.net/assets/images/icons/godmode9i.png
 image: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png
@@ -31,25 +31,34 @@ source: https://github.com/DS-Homebrew/GodMode9i
 systems:
 - DS
 title: GodMode9i
-update_notes: '<h3 dir="auto">Bug fix</h3>
+update_notes: '<p dir="auto">All changes by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/Epicpkmn11/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a></p>
+
+  <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Fixed being stuck on <code class="notranslate">Mounting drives...</code>, when
-  launched from hiyaCFW.
+  <li>Keyboard cursor can now be moved by touch input.</li>
 
-  <ul dir="auto">
+  <li>Remember selected folder when pressing <code class="notranslate">B</code>.</li>
 
-  <li>Holding X is no longer required.</li>
+  <li><code class="notranslate">SCREEN_SWAP</code> can now be activated in <code class="notranslate">sd:/gm9i/config.ini</code>.</li>
 
   </ul>
 
-  </li>
+  <h3 dir="auto">Bug fixes</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed not scrolling up after deletion of file or folder.</li>
+
+  <li>Always pad time with space and pad hour with 0.</li>
 
   </ul>'
-updated: '2022-07-08T04:53:50Z'
-version: v3.2.3
-version_title: 'v3.2.3: TWL Summer Release #2'
+updated: '2022-08-09T02:44:00Z'
+version: v3.3.0
+version_title: 'v3.3.0: TWL Summer Release #3'
 website: https://wiki.ds-homebrew.com/godmode9i/
 wiki: https://wiki.ds-homebrew.com/other/godmode9i
 ---
