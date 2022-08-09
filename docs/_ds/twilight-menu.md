@@ -8,7 +8,23 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads: {}
+downloads:
+  TWiLightMenu-3DS.7z:
+    size: 31112511
+    size_str: 29 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.2.0/TWiLightMenu-3DS.7z
+  TWiLightMenu-DSi.7z:
+    size: 31158897
+    size_str: 29 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.2.0/TWiLightMenu-DSi.7z
+  TWiLightMenu-Flashcard.7z:
+    size: 41910560
+    size_str: 39 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.2.0/TWiLightMenu-Flashcard.7z
+  TWiLightMenu.7z:
+    size: 42119409
+    size_str: 40 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.2.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -33,8 +49,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.63.0">nds-bootstrap
-  v0.63.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.63.1">nds-bootstrap
+  v0.63.1</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -99,13 +115,21 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <li>Fixed language and region selection screens for macro mode.</li>
 
-  <li>Fixed always using Grayscale for the transparent parts of battary, volume, and
+  <li>Fixed always using Grayscale for the transparent parts of battery, volume, and
   date/time.</li>
 
   <li>Other minor fixes.</li>
 
+  </ul>
+
+  <h3 dir="auto">Known bug</h3>
+
+  <ul dir="auto">
+
+  <li>The GBA splash for macro mode plays at half-speed.</li>
+
   </ul>'
-updated: '2022-08-09T02:01:45Z'
+updated: '2022-08-09T02:31:41Z'
 version: v25.2.0
 version_title: 'v25.2.0: TWL Summer Release #7'
 website: https://wiki.ds-homebrew.com/twilightmenu/
