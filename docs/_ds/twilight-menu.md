@@ -8,23 +8,7 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads:
-  TWiLightMenu-3DS.7z:
-    size: 30960166
-    size_str: 29 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.1.0/TWiLightMenu-3DS.7z
-  TWiLightMenu-DSi.7z:
-    size: 31014947
-    size_str: 29 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.1.0/TWiLightMenu-DSi.7z
-  TWiLightMenu-Flashcard.7z:
-    size: 41761517
-    size_str: 39 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.1.0/TWiLightMenu-Flashcard.7z
-  TWiLightMenu.7z:
-    size: 41974726
-    size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.1.0/TWiLightMenu.7z
+downloads: {}
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -49,8 +33,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.62.0">nds-bootstrap
-  v0.62.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.63.0">nds-bootstrap
+  v0.63.0</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -70,30 +54,34 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>:
-  Updated AP-fix for <em>Pokémon: SoothingSilver Version</em> (v1.2.1 to v1.2.2)</li>
+  <li>The DS firmware proto version of the GBA splash (with white BG) is now used
+  in macro mode instead of the DS(i) splash.</li>
 
-  <li>If the WiFi setting is found to be off, it''ll now be auto-set to on.
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
+  and various: Added Catalan language.
 
   <ul dir="auto">
 
-  <li>This is done for those who have previously updated to the TWLMenu++ version
-  which sets the WiFi setting off by default for 3DS/2DS users.</li>
-
-  <li>If you still don''t want to use wireless/WiFi features, you must manually turn
-  it off again in TWLMenu++ Settings.</li>
+  <li>Only usable in nds-bootstrap.</li>
 
   </ul>
 
   </li>
 
-  <li>A <strong>TW</strong>i<strong>L</strong>ight Menu++ <code class="notranslate">.nds</code>/<code
-  class="notranslate">.srldr</code> file can no longer be launched from within <strong>TW</strong>i<strong>L</strong>ight
-  Menu++ itself.</li>
+  </ul>
 
-  <li><strong>3DS theme:</strong> The rotating cubes are now displayed in B&amp;W/Grayscale
-  mode.</li>
+  <h3 dir="auto">Improvements</h3>
+
+  <ul dir="auto">
+
+  <li>Changed <code class="notranslate">Use bottom screen</code> to <code class="notranslate">Display
+  Screen</code>: <code class="notranslate">Top</code>/<code class="notranslate">Bottom</code>
+  in the GBARunner2 page of TWLMenu++ Settings.</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
+  and various: Updated translations.</li>
 
   </ul>
 
@@ -101,26 +89,25 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
-  Fixed volume icon, time text, and battery icon being placed over previous one(s)
-  when updated.</li>
+  <li>Fixed <code class="notranslate">Screen Aspect Ratio</code> per-game setting
+  displaying if <code class="notranslate">Widescreen.cxi</code> didn''t exist.</li>
 
-  <li>Fixed known bugs related to B&amp;W/Grayscale mode.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
+  Fixed DS Lite backlight info not being properly saved when launching a flashcard
+  game with Wood FW.</li>
 
-  </ul>
+  <li>Fixed language and region selection screens for macro mode.</li>
 
-  <h3 dir="auto">Known bug</h3>
+  <li>Fixed always using Grayscale for the transparent parts of battary, volume, and
+  date/time.</li>
 
-  <ul dir="auto">
-
-  <li>The HBL theme will now have the volume icon, time text, and battery icon show
-  a gray background behind them.</li>
+  <li>Other minor fixes.</li>
 
   </ul>'
-updated: '2022-07-22T08:00:20Z'
-version: v25.1.0
-version_title: 'v25.1.0: TWL Summer Release #6'
+updated: '2022-08-09T02:01:45Z'
+version: v25.2.0
+version_title: 'v25.2.0: TWL Summer Release #7'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
