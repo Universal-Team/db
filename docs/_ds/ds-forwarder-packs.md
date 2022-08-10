@@ -24,8 +24,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto"><strong>UPDATE 7/15/2022:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.61.3">nds-bootstrap
-  v0.61.3</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.63.1">nds-bootstrap
+  v0.63.1</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -42,16 +42,25 @@ update_notes: '<p dir="auto"><strong>UPDATE 7/15/2022:</strong> Includes <a href
   <a href="https://gbatemp.net/threads/release-ndsforwarder-for-dsi-generate-hiyacfw-forwarders-on-the-dsi-directly.606964/"
   rel="nofollow">this one</a> to make hiyaCFW forwarders directly on the DSi console.</p>
 
-  <p dir="auto"><strong>What''s new?</strong></p>
+  <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Added forced widescreen setting.</li>
+  <li>Updated card read DMA blacklist to include <em>Black Sigil</em> &amp; <em>Pokémon
+  Conquest</em>.</li>
+
+  </ul>
+
+  <h3 dir="auto">Bug fix</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed blacklists for <code class="notranslate">ARM9 CPU Speed</code>, <code
+  class="notranslate">Card Read DMA</code>, and <code class="notranslate">Async Card
+  Read</code> not being used.</li>
 
   </ul>'
-updated: '2022-06-07T19:45:29Z'
-version: SD-7
-version_title: 'GitHub Release #7'
+updated: '2022-08-10T00:33:31Z'
+version: SD-8
+version_title: 'GitHub Release #8'
 ---
