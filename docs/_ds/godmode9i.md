@@ -10,7 +10,23 @@ created: '2018-10-02T16:59:38Z'
 description: 'GodMode9i Explorer - A full access file browser for the Nintendo DS
   and DSi consoles :godmode:'
 download_page: https://github.com/DS-Homebrew/GodMode9i/releases
-downloads: {}
+downloads:
+  GodMode9i.7z:
+    size: 349924
+    size_str: 341 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.3.1/GodMode9i.7z
+  GodMode9i.cia:
+    size: 935168
+    size_str: 913 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.3.1/GodMode9i.cia
+  GodMode9i.dsi:
+    size: 920576
+    size_str: 899 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.3.1/GodMode9i.dsi
+  GodMode9i.nds:
+    size: 920576
+    size_str: 899 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.3.1/GodMode9i.nds
 github: DS-Homebrew/GodMode9i
 icon: https://db.universal-team.net/assets/images/icons/godmode9i.png
 image: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png
@@ -23,22 +39,38 @@ nightly:
   downloads:
     GodMode9i.7z:
       url: https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z
+qr:
+  GodMode9i.cia: https://db.universal-team.net/assets/images/qr/godmode9i-cia.png
+  GodMode9i.dsi: https://db.universal-team.net/assets/images/qr/godmode9i-dsi.png
+  GodMode9i.nds: https://db.universal-team.net/assets/images/qr/godmode9i-nds.png
 source: https://github.com/DS-Homebrew/GodMode9i
 systems:
 - DS
 title: GodMode9i
-update_notes: '<h3 dir="auto">Bug fix</h3>
+update_notes: '<p dir="auto">All changes by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/Epicpkmn11/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a></p>
+
+  <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
-  Fixed clock using 12-hour format and covering last character of the path.</li>
+  <li>Added on-screen mention of how to (de)select all.</li>
+
+  <li>Unzipped builds are now uploaded alongside the 7z.</li>
+
+  </ul>
+
+  <h3 dir="auto">Bug fix</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed clock using 12-hour format and covering last character of the path.</li>
 
   </ul>'
-updated: '2022-08-10T00:57:56Z'
+updated: '2022-08-10T01:12:26Z'
 version: v3.3.1
-version_title: v3.3.1 (hotfix)
+version_title: v3.3.1
 website: https://wiki.ds-homebrew.com/godmode9i/
 wiki: https://wiki.ds-homebrew.com/other/godmode9i
 ---
