@@ -7,7 +7,7 @@ categories:
 color: '#43424b'
 color_bg: '#43424b'
 created: '2022-07-20T16:35:57Z'
-description: Actualizar 3Ds de forma online con un .cia de actualización
+description: Actualizar 3Ds de forma offline con un .cia de actualización
 download_page: https://github.com/Robichani6-1/sysUpdater-ES/releases
 downloads:
   sysUpdater-ES.3dsx:
