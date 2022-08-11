@@ -10,9 +10,9 @@ description: WonderSwan emulator for Nintendo DS.
 download_page: https://github.com/FluBBaOfWard/NitroSwan/releases
 downloads:
   NitroSwan.zip:
-    size: 145304
-    size_str: 141 KiB
-    url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.3.6/NitroSwan.zip
+    size: 147378
+    size_str: 143 KiB
+    url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.4.0/NitroSwan.zip
 github: FluBBaOfWard/NitroSwan
 icon: https://db.universal-team.net/assets/images/icons/nitroswan.png
 image: https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/logo.png
@@ -22,16 +22,20 @@ source: https://github.com/FluBBaOfWard/NitroSwan
 systems:
 - DS
 title: NitroSwan
-update_notes: '<ul dir="auto">
+update_notes: '<p dir="auto">Fixed flag calculation for most opcodes.<br>
 
-  <li>Fixed sound DMA a bit.</li>
+  Fixed emulation of undefined opcodes.<br>
 
-  <li>Added savestates.</li>
+  Fixed settings to disable Bg,Fg &amp; Spr.<br>
 
-  <li>Added sound button (Select).</li>
+  Fixed default sound volume on WSC/SC.<br>
 
-  </ul>'
-updated: '2022-04-20T12:45:15Z'
-version: v0.3.6
-version_title: V0.3.6
+  Optimized the cpu core.<br>
+
+  Tweaked behaviour of timers.<br>
+
+  Mute Ch2 when playing samples.</p>'
+updated: '2022-08-11T17:59:20Z'
+version: v0.4.0
+version_title: V0.4.0
 ---
