@@ -8,12 +8,28 @@ color: '#fc9206'
 color_bg: '#804a03'
 created: '2021-01-19T23:37:38Z'
 description: Administrador de títulos de código abierto para 3DS
+download_page: https://github.com/LopezTutoriales/FBI-Spanish/releases
+downloads:
+  FBI_ESP.3dsx:
+    size: 1269180
+    size_str: 1 MiB
+    url: https://github.com/LopezTutoriales/FBI-Spanish/releases/download/2.6.1/FBI_ESP.3dsx
+  FBI_ESP.cia:
+    size: 1274816
+    size_str: 1 MiB
+    url: https://github.com/LopezTutoriales/FBI-Spanish/releases/download/2.6.1/FBI_ESP.cia
+  FBI_ESP.zip:
+    size: 4250786
+    size_str: 4 MiB
+    url: https://github.com/LopezTutoriales/FBI-Spanish/releases/download/2.6.1/FBI_ESP.zip
 github: LopezTutoriales/FBI-Spanish
 image: https://db.universal-team.net/assets/images/images/fbi-en-espanol.png
 image_length: 251
 layout: app
 license: mit
 license_name: MIT License
+qr:
+  FBI_ESP.cia: https://db.universal-team.net/assets/images/qr/fbi_esp-cia.png
 screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/fbi-en-espanol/main-menu.png
@@ -21,7 +37,17 @@ source: https://github.com/LopezTutoriales/FBI-Spanish
 systems:
 - 3DS
 title: FBI En Español
-updated: '---'
+update_notes: '<ul dir="auto">
+
+  <li>Corrección de la incapacidad para cancelar la eliminación de datos adicionales
+  de juegos y apps.</li>
+
+  <li>Traducción a español corregida y mejorada</li>
+
+  </ul>'
+updated: '2022-05-02T15:07:33Z'
+version: 2.6.1
+version_title: 2.6.1 en Español
 ---
 ### Características
 
