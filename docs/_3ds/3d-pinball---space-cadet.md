@@ -9,10 +9,10 @@ created: '2021-10-15T11:13:15Z'
 description: Wii and 3DS ports of  3D Pinball - Space Cadet
 download_page: https://github.com/MaikelChan/SpaceCadetPinball/releases
 downloads:
-  SpaceCadetPinball-3DS-v0.4.7z:
-    size: 485000
-    size_str: 473 KiB
-    url: https://github.com/MaikelChan/SpaceCadetPinball/releases/download/v0.4-3ds/SpaceCadetPinball-3DS-v0.4.7z
+  SpaceCadetPinball-3DS-v0.5.7z:
+    size: 524651
+    size_str: 512 KiB
+    url: https://github.com/MaikelChan/SpaceCadetPinball/releases/download/v0.5-3ds/SpaceCadetPinball-3DS-v0.5.7z
 github: MaikelChan/SpaceCadetPinball
 icon: https://github.com/MaikelChan/SpaceCadetPinball/raw/3ds/ctr/icon.png
 image: https://github.com/MaikelChan/SpaceCadetPinball/raw/3ds/ctr/banner.png
@@ -32,17 +32,26 @@ systems:
 title: 3D Pinball - Space Cadet
 update_notes: '<ul dir="auto">
 
-  <li>The game now loads the good font that''s embedded in pinball.exe.</li>
+  <li>On New 3DS, enable Vsync, high speed mode.</li>
 
-  <li>In case that font is not available, the one in PINBALL2.MID is scaled down and
-  has the same color palette as the other font, so it fits better and it''s more readable.</li>
+  <li>Fixed some random crashes when exiting the game and pausing.</li>
 
-  <li>Also deleted the font that was included in EmbeddedData.cpp.</li>
+  <li>Optimizations.</li>
+
+  <li>Reduced memory usage.</li>
+
+  <li>Build now can also generate a CIA file (thanks to <a href="https://github.com/MrHuu">MrHuu</a>,
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1047670809"
+  data-permission-text="Title is private" data-url="https://github.com/MaikelChan/SpaceCadetPinball/issues/7"
+  data-hovercard-type="pull_request" data-hovercard-url="/MaikelChan/SpaceCadetPinball/pull/7/hovercard"
+  href="https://github.com/MaikelChan/SpaceCadetPinball/pull/7">#7</a>).</li>
+
+  <li>Top screen layout adjustments.</li>
 
   </ul>'
-updated: '2021-10-31T21:51:23Z'
-version: v0.4-3ds
-version_title: v0.4 3DS
+updated: '2021-11-21T23:56:45Z'
+version: v0.5-3ds
+version_title: v0.5 3DS
 ---
 # 3D Pinball - Space Cadet for 3DS
 
