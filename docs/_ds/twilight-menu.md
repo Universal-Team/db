@@ -8,23 +8,7 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads:
-  TWiLightMenu-3DS.7z:
-    size: 31112511
-    size_str: 29 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.2.0/TWiLightMenu-3DS.7z
-  TWiLightMenu-DSi.7z:
-    size: 31158897
-    size_str: 29 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.2.0/TWiLightMenu-DSi.7z
-  TWiLightMenu-Flashcard.7z:
-    size: 41910560
-    size_str: 39 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.2.0/TWiLightMenu-Flashcard.7z
-  TWiLightMenu.7z:
-    size: 42119409
-    size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.2.0/TWiLightMenu.7z
+downloads: {}
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -49,8 +33,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.63.1">nds-bootstrap
-  v0.63.1</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.63.2">nds-bootstrap
+  v0.63.2</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -66,72 +50,18 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <h3 dir="auto">What''s new?</h3>
+  <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>The DS firmware proto version of the GBA splash (with white BG) is now used
-  in macro mode instead of the DS(i) splash.</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  and various: Added Catalan language.
-
-  <ul dir="auto">
-
-  <li>Only usable in nds-bootstrap.</li>
-
-  </ul>
-
-  </li>
-
-  </ul>
-
-  <h3 dir="auto">Improvements</h3>
-
-  <ul dir="auto">
-
-  <li>Changed <code class="notranslate">Use bottom screen</code> to <code class="notranslate">Display
-  Screen</code>: <code class="notranslate">Top</code>/<code class="notranslate">Bottom</code>
-  in the GBARunner2 page of TWLMenu++ Settings.</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  and various: Updated translations.</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed <code class="notranslate">Screen Aspect Ratio</code> per-game setting
-  displaying if <code class="notranslate">Widescreen.cxi</code> didn''t exist.</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
-  Fixed DS Lite backlight info not being properly saved when launching a flashcard
-  game with Wood FW.</li>
-
-  <li>Fixed language and region selection screens for macro mode.</li>
-
-  <li>Fixed always using Grayscale for the transparent parts of battery, volume, and
-  date/time.</li>
-
-  <li>Other minor fixes.</li>
-
-  </ul>
-
-  <h3 dir="auto">Known bug</h3>
-
-  <ul dir="auto">
-
-  <li>The GBA splash for macro mode plays at half-speed.</li>
+  <li>Fixed <code class="notranslate">Async Card Read</code> not showing in the per-game
+  settings menu, if it''s opened for a TWL ROM which can pre-load into RAM in DS mode
+  on DSi consoles.</li>
 
   </ul>'
-updated: '2022-08-09T02:31:41Z'
-version: v25.2.0
-version_title: 'v25.2.0: TWL Summer Release #7'
+updated: '2022-08-12T05:18:51Z'
+version: v25.2.1
+version_title: v25.2.1
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---

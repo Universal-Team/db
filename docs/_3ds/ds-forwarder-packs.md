@@ -24,8 +24,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.63.1">nds-bootstrap
-  v0.63.1</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.63.2">nds-bootstrap
+  v0.63.2</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -46,21 +46,11 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Updated card read DMA blacklist to include <em>Black Sigil</em> &amp; <em>Pokémon
-  Conquest</em>.</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fix</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed blacklists for <code class="notranslate">ARM9 CPU Speed</code>, <code
-  class="notranslate">Card Read DMA</code>, and <code class="notranslate">Async Card
-  Read</code> not being used.</li>
+  <li>Removed <em>Pokémon Conquest</em> from the card read DMA blacklist, due to the
+  title having no issues with it in nds-bootstrap v0.63.2.</li>
 
   </ul>'
-updated: '2022-08-10T00:33:31Z'
-version: SD-8
-version_title: 'GitHub Release #8'
+updated: '2022-08-12T05:08:52Z'
+version: SD-9
+version_title: 'GitHub Release #9'
 ---
