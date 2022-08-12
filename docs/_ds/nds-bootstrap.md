@@ -52,14 +52,15 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Due to one of the bug fixes from v0.63.0, <em>Mario Kart DS</em> and <em>Mario
-  Party DS</em> are now pre-loadable into RAM on 3DS consoles again!
+  <li>Because of the bug fix from v0.63.1, <em>Mario Kart DS</em> and <em>Mario Party
+  DS</em> are now pre-loadable into RAM on 3DS consoles again!
 
   <ul dir="auto">
 
   <li><em>Mario Kart DS</em> requires <code class="notranslate">EXTENDED_MEMORY</code>
   setting to be set in <code class="notranslate">sd:/_nds/nds-bootstrap.ini</code>,
-  or <code class="notranslate">Ex. ROM Space in RAM</code> in TWLMenu++.</li>
+  or <code class="notranslate">Ex. ROM Space in RAM</code> in TWLMenu++ per-game settings
+  menu.</li>
 
   </ul>
 
@@ -85,8 +86,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </li>
 
-  <li>Worked around an issue with card read DMA in DSi mode, by using the regular
-  card read code in place.
+  <li>Worked around unexpected issues with card read DMA in DSi mode, by using the
+  regular card read code in place.
 
   <ul dir="auto">
 
