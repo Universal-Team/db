@@ -3910,7 +3910,7 @@
 				},
 				{
 					"type": "deleteFile",
-					"file": "/overlays.zip"
+					"file": "/assets.zip"
 				}
 			],
 			"[optional] Overlays": [
