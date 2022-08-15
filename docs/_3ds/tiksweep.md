@@ -1,5 +1,5 @@
 ---
-author: DanTheMan827
+author: Daniel
 avatar: https://avatars.githubusercontent.com/u/790119?v=4
 categories:
 - utility
