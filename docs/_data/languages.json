@@ -104,5 +104,9 @@
 	"Norsk": {
 		"id": "no-NO",
 		"dir": "ltr"
+	},
+	"琉球諸語": {
+		"id": "ry-JP",
+		"dir": "ltr"
 	}
 }
