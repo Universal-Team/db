@@ -5217,5 +5217,43 @@
 		"icon": "https://raw.githubusercontent.com/CyberYoshi64/CTGP7-SaveTransfer/main/app/icon.png",
 		"description": "Save data copier between MK7 and CTGP-7",
 		"long_description": "This tool allows you to copy your save data between CTGP-7 and Mario Kart 7.\nSupported are Physical and Digital versions of all regions.\n\nYou can either just copy your stats or include your Time Trial ghosts as well.\n(Note: Only those for the original tracks are considered. Such for custom tracks are left alone.)"
+	},
+	{
+		"github": "Fewnity/Counter-Strike-Nintendo-DS",
+		"systems": ["DS"],
+		"categories": ["game"],
+		"icon": "https://github.com/Fewnity/Counter-Strike-Nintendo-DS/raw/main/Counter-Strike-nds/icon.bmp",
+		"scripts": {
+			"counter_strike.nds": [
+				{
+					"type": "downloadRelease",
+					"repo": "Fewnity/Counter-Strike-Nintendo-DS",
+					"file": "Counter\\.Strike\\.DS\\.[\\d.]+\\.zip",
+					"output": "/Counter Strike DS.zip"
+				},
+				{
+					"file": "/Counter Strike DS.zip",
+					"input": "counter_strike.nds",
+					"output": "%NDS%/counter_strike.nds",
+					"type": "extractFile"
+				},
+				{
+					"file": "/Counter Strike DS.zip",
+					"input": "counter_strike_music.raw",
+					"output": "%NDS%/counter_strike_music.raw",
+					"type": "extractFile"
+				},
+				{
+					"file": "/Counter Strike DS.zip",
+					"input": "soundbank.bin",
+					"output": "%NDS%/soundbank.bin",
+					"type": "extractFile"
+				},
+				{
+					"file": "/Counter Strike DS.zip",
+					"type": "deleteFile"
+				}
+			]
+		}
 	}
 ]
