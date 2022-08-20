@@ -5271,8 +5271,12 @@
 		"icon": "https://raw.githubusercontent.com/TurtleP/Antibounce/master/graphics/icon.png",
 		"image": "https://raw.githubusercontent.com/TurtleP/Antibounce/master/graphics/title.png",
 		"downloads": {
-			"Antibounce.cia": "https://github.com/TurtleP/Antibounce/releases/download/1.2.1/Antibounce.cia",
-			"antibounce-3ds.zip": "https://github.com/TurtleP/Antibounce/releases/download/v1.2/antibounce-3ds.zip"
+			"Antibounce.cia": {
+				"url": "https://github.com/TurtleP/Antibounce/releases/download/1.2.1/Antibounce.cia"
+			},
+			"antibounce-3ds.zip": {
+				"url": "https://github.com/TurtleP/Antibounce/releases/download/v1.2/antibounce-3ds.zip"
+			}
 		},
 		"autogen_scripts": true,
 		"scripts": {
