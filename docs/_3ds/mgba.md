@@ -21,6 +21,11 @@ image_length: 43839
 layout: app
 license: mpl-2.0
 license_name: Mozilla Public License 2.0
+nightly:
+  download_page: https://mgba.io/downloads.html#development-downloads
+  downloads:
+    mGBA-build-latest-3ds.7z:
+      url: https://s3.amazonaws.com/mgba/mGBA-build-latest-3ds.7z
 screenshots:
 - description: File list
   url: https://db.universal-team.net/assets/images/screenshots/mgba/file-list.png
