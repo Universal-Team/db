@@ -21,47 +21,33 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 prerelease:
-  download_page: https://github.com/NotImplementedLife/FSPDS/releases/tag/V0.3.41164628D
+  download_page: https://github.com/NotImplementedLife/FSPDS/releases/tag/V0.3.47244716D
   downloads:
-    FSPDS-V0.3.41164628D.nds:
-      size: 235520
-      size_str: 230 KiB
-      url: https://github.com/NotImplementedLife/FSPDS/releases/download/V0.3.41164628D/FSPDS-V0.3.41164628D.nds
+    FSPDS-V0.3.47244716D.nds:
+      size: 243712
+      size_str: 238 KiB
+      url: https://github.com/NotImplementedLife/FSPDS/releases/download/V0.3.47244716D/FSPDS-V0.3.47244716D.nds
   qr:
-    FSPDS-V0.3.41164628D.nds: https://db.universal-team.net/assets/images/qr/prerelease/fspds-v0-3-41164628d-nds.png
-  update_notes: '<p dir="auto">FSPDS now looks for flipnotes in official Flipnote
-    Studio paths from the SD card:</p>
+    FSPDS-V0.3.47244716D.nds: https://db.universal-team.net/assets/images/qr/prerelease/fspds-v0-3-47244716d-nds.png
+  update_notes: '<ul dir="auto">
 
-    <ul dir="auto">
+    <li>better file management system (still, not perfect)</li>
 
-    <li>/private/ds/app/4b475556 - for Flipnote Studio Europe/Australia</li>
+    <li>added screen saver</li>
 
-    <li>/private/ds/app/4B475545 - for Flipnote Studio Americas</li>
+    <li>fixed a sound pausing issue that let redundant samples play after the user
+    has switched tabs</li>
 
-    <li>/private/ds/app/4B47554A - for Flipnote Studio Japan</li>
+    </ul>'
+  update_notes_md: '- better file management system (still, not perfect)
 
-    </ul>
+    - added screen saver
 
-    <p dir="auto">The directories are detected automatically based on whether they
-    exist on the SD card. The user can choose which path to look in for flipnotes.</p>
-
-    <p dir="auto">Pressing B on the "Files" tab displays the Path menu in case user
-    wants to inspect another directory</p>
-
-    <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/70803115/169023464-eb05000c-0c7c-4904-afed-96b54e13e17e.png"><img
-    src="https://user-images.githubusercontent.com/70803115/169023464-eb05000c-0c7c-4904-afed-96b54e13e17e.png"
-    alt="Screenshot" style="max-width: 100%;"></a></p>'
-  update_notes_md: "FSPDS now looks for flipnotes in official Flipnote Studio paths\
-    \ from the SD card:\n - /private/ds/app/4b475556 - for Flipnote Studio Europe/Australia\n\
-    \ - /private/ds/app/4B475545 - for Flipnote Studio Americas\n - /private/ds/app/4B47554A\
-    \ - for Flipnote Studio Japan\n\nThe directories are detected automatically based\
-    \ on whether they exist on the SD card. The user can choose which path to look\
-    \ in for flipnotes.\n\nPressing B on the \"Files\" tab displays the Path menu\
-    \ in case user wants to inspect another directory\n\n\n![Screenshot](https://user-images.githubusercontent.com/70803115/169023464-eb05000c-0c7c-4904-afed-96b54e13e17e.png)\n\
-    \n"
-  updated: '2022-05-18T07:47:22Z'
-  version: V0.3.41164628D
-  version_title: FSPDS V0.3.41164628D
+    - fixed a sound pausing issue that let redundant samples play after the user has
+    switched tabs'
+  updated: '2022-07-27T17:09:37Z'
+  version: V0.3.47244716D
+  version_title: FSPDS V0.3.47244716D
 screenshots:
 - description: File list
   url: https://db.universal-team.net/assets/images/screenshots/fspds/file-list.png
