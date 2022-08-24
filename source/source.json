@@ -4952,6 +4952,14 @@
 		"image": "https://github.com/Robichani6-1/wumiibohelper-ES/raw/main/cia/banner.png"
 	},
 	{
+		"github": "JustSofter/ThirdTube-ES",
+		"author": "Softer. / Robichani6-1",
+		"systems": ["3DS"],
+		"categories": ["utility", "translation"],
+		"icon": "https://github.com/JustSofter/ThirdTube-ES/raw/main/resource/icon.png",
+		"image": "https://github.com/JustSofter/ThirdTube-ES/raw/main/resource/banner.png"
+	},
+	{
 		"github": "cooolgamer/ThirdTube-FR",
 		"systems": ["3DS"],
 		"categories": ["utility", "translation"],
