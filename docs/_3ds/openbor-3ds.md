@@ -11,13 +11,13 @@ description: 'OpenBOR is the ultimate 2D side scrolling engine for beat em'' ups
 download_page: https://github.com/MrHuu/openbor-3ds/releases
 downloads:
   OpenBOR.3dsx:
-    size: 1723656
+    size: 1723876
     size_str: 1 MiB
-    url: https://github.com/MrHuu/openbor-3ds/releases/download/v0.0.5/OpenBOR.3dsx
+    url: https://github.com/MrHuu/openbor-3ds/releases/download/v0.0.6/OpenBOR.3dsx
   OpenBOR.cia:
     size: 1781696
     size_str: 1 MiB
-    url: https://github.com/MrHuu/openbor-3ds/releases/download/v0.0.5/OpenBOR.cia
+    url: https://github.com/MrHuu/openbor-3ds/releases/download/v0.0.6/OpenBOR.cia
 github: MrHuu/openbor-3ds
 icon: https://raw.githubusercontent.com/MrHuu/openbor-3ds/3DS/engine/resources/ctr/OpenBOR_Icon_48x48.png
 image: https://raw.githubusercontent.com/MrHuu/openbor-3ds/3DS/engine/resources/ctr/OpenBOR_Logo_256x128.png
@@ -35,19 +35,10 @@ update_notes: '<p dir="auto">Changes:</p>
 
   <ul dir="auto">
 
-  <li>Updated to build with latest devkitARM, libctru, sdl-3ds</li>
+  <li>Do not disable backlight on o2DS devices</li>
 
-  <li>Code cleanup</li>
-
-  <li>Reworked menu<br>
-
-  *First screenshot taken will be loaded as menu preview</li>
-
-  </ul>
-
-  <p dir="auto">Note: It may be required to remove previously generated .cfg files</p>'
-updated: '2022-04-02T16:19:00Z'
-version: v0.0.5
-version_title: v0.0.5
+  </ul>'
+updated: '2022-08-24T21:57:13Z'
+version: v0.0.6
 website: http://www.chronocrash.com
 ---
