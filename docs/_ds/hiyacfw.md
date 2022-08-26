@@ -10,9 +10,9 @@ description: World's FIRST Nintendo DSi CFW!
 download_page: https://github.com/RocketRobz/hiyaCFW/releases
 downloads:
   hiyaCFW.7z:
-    size: 329866
-    size_str: 322 KiB
-    url: https://github.com/DS-Homebrew/hiyaCFW/releases/download/v1.4.0/hiyaCFW.7z
+    size: 236485
+    size_str: 230 KiB
+    url: https://github.com/DS-Homebrew/hiyaCFW/releases/download/v1.4.1/hiyaCFW.7z
 github: RocketRobz/hiyaCFW
 icon: https://db.universal-team.net/assets/images/icons/hiyacfw.png
 image: https://raw.githubusercontent.com/RocketRobz/hiyaCFW/unlaunch/logo/logo.png
@@ -34,37 +34,27 @@ update_notes: '<p>To update, just replace <code class="notranslate">hiya.dsi</co
   on the SD root, with the one from the 7z file, in <code class="notranslate">for
   SDNAND SD card</code>.</p>
 
-  <p><strong>What''s new?</strong></p>
+  <p>Changes by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a></p>
+
+  <h3>Improvement</h3>
 
   <ul>
 
-  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Automatic dummy file creation has been added, so goodbye stock error screen!
-
-  <ul>
-
-  <li><strong>NOTE:</strong> If it''s still shown for you, then the SDNAND contents
-  are probably corrupt.</li>
+  <li>Improved GIF compatibility.</li>
 
   </ul>
 
-  </li>
+  <h3>Bug fix</h3>
 
-  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Added animated GIF splash support.</li>
+  <ul>
 
-  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Added RGB565 BMP support.</li>
-
-  <li>A lockout message will now show, when launching on DS consoles or in DS mode.</li>
+  <li>Fixed free space under 20MiB causing data management to appear.</li>
 
   </ul>'
-updated: '2020-10-22T06:35:14Z'
-version: v1.4.0
-version_title: Hacktober (2020) release
+updated: '2022-08-26T17:32:17Z'
+version: v1.4.1
+version_title: v1.4.1
 wiki: https://wiki.ds-homebrew.com/hiyacfw/
 ---
 **Note:** For the initial install, please follow [this guide](https://wiki.ds-homebrew.com/hiyacfw/installing). If you are updating, then simply replace `sd:/hiya.dsi` from the `for SDNAND SD card` in the 7z.
