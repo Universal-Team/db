@@ -877,8 +877,8 @@
 		},
 		"archive": {
 			"mGBA-.*-3ds.7z": {
-				"mgba.cia": ["mGBA-.*-3ds.*/cia/mgba\\.cia"],
-				"mgba.3dsx": ["mGBA-.*-3ds.*/3dsx/mgba\\.3dsx"]
+				"mgba.cia": ["mGBA-.*-3ds.*/cia/mgba.cia"],
+				"mgba.3dsx": ["mGBA-.*-3ds.*/3dsx/mgba.3dsx"]
 			}
 		}
 	},
