@@ -22,8 +22,8 @@ icon: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging
 image: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/banner.png
 image_length: 47500
 layout: app
-license: unlicense
-license_name: The Unlicense
+license: other
+license_name: Other
 qr:
   devilutionx-3ds.cia: https://db.universal-team.net/assets/images/qr/devilutionx-3ds-cia.png
 source: https://github.com/diasurgical/devilutionX
