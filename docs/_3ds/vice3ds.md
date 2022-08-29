@@ -59,7 +59,7 @@ update_notes: '<p dir="auto">Bugfix release 2.4.1. This release fixes a bug whic
 
   <p dir="auto">Scan QR-code below with FBI<br>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/11392517/88260248-4adee780-ccc4-11ea-8d4c-854736fb5fb3.png"><img
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/11392517/88260248-4adee780-ccc4-11ea-8d4c-854736fb5fb3.png"><img
   src="https://user-images.githubusercontent.com/11392517/88260248-4adee780-ccc4-11ea-8d4c-854736fb5fb3.png"
   alt="grafik" style="max-width: 100%;"></a></p>'
 updated: '2020-06-03T06:26:03Z'

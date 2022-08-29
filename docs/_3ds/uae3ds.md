@@ -144,7 +144,7 @@ update_notes: '<p dir="auto">This is the first (hopefully) stable version of uae
 
   <p dir="auto">Have fun!</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/11392517/85423689-49ac8480-b577-11ea-9693-440e3d212b8c.png"><img
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/11392517/85423689-49ac8480-b577-11ea-9693-440e3d212b8c.png"><img
   src="https://user-images.githubusercontent.com/11392517/85423689-49ac8480-b577-11ea-9693-440e3d212b8c.png"
   alt="grafik" style="max-width: 100%;"></a></p>'
 updated: '2020-06-23T15:01:36Z'

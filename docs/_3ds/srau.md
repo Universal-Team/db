@@ -39,7 +39,7 @@ update_notes: '<p dir="auto">This release mostly adds in a lot of missing error 
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sonlen1414">@Sonlen1414</a>
   .</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/13433513/38756013-40d03e2e-3f68-11e8-96cb-83704530de74.gif"><img
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/13433513/38756013-40d03e2e-3f68-11e8-96cb-83704530de74.gif"><img
   src="https://user-images.githubusercontent.com/13433513/38756013-40d03e2e-3f68-11e8-96cb-83704530de74.gif"
   alt="QR code" data-animated-image="" style="max-width: 100%;"></a></p>
 

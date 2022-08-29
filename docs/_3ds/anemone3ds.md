@@ -83,7 +83,7 @@ update_notes: '<p dir="auto">Sup gamers, just a patch release this time around. 
 
   <h2 dir="auto">And here''s a download QR to use with FBI</h2>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/1565516/182042894-01d35270-5726-4d66-b940-77987fee7777.png"><img
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/1565516/182042894-01d35270-5726-4d66-b940-77987fee7777.png"><img
   src="https://user-images.githubusercontent.com/1565516/182042894-01d35270-5726-4d66-b940-77987fee7777.png"
   alt="frame" style="max-width: 100%;"></a></p>'
 updated: '2022-07-31T19:54:46Z'

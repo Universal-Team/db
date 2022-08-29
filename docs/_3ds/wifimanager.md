@@ -38,7 +38,7 @@ update_notes: '<p dir="auto">Fixes a bug introduced in the last release, sorry! 
 
   <p dir="auto">QR code to the cia:<br>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/16072534/34965250-f751cc9a-fa52-11e7-81cb-826bedeaa94d.png"><img
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/16072534/34965250-f751cc9a-fa52-11e7-81cb-826bedeaa94d.png"><img
   src="https://user-images.githubusercontent.com/16072534/34965250-f751cc9a-fa52-11e7-81cb-826bedeaa94d.png"
   alt="image" style="max-width: 100%;"></a></p>'
 updated: '2018-01-15T23:19:27Z'

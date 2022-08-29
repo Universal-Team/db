@@ -111,11 +111,11 @@ prerelease:
 
     <tr>
 
-    <td><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/174230925-c35cfe2a-0793-4b9f-b45d-ac0627728a62.png"><img
+    <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/174230925-c35cfe2a-0793-4b9f-b45d-ac0627728a62.png"><img
     src="https://user-images.githubusercontent.com/41608708/174230925-c35cfe2a-0793-4b9f-b45d-ac0627728a62.png"
     alt="QR for dsidl.dsi" style="max-width: 100%;"></a></td>
 
-    <td><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/174230974-84aa480b-8bc7-4607-aa34-785f71e105cb.png"><img
+    <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/174230974-84aa480b-8bc7-4607-aa34-785f71e105cb.png"><img
     src="https://user-images.githubusercontent.com/41608708/174230974-84aa480b-8bc7-4607-aa34-785f71e105cb.png"
     alt="QR for dsidl.cia" style="max-width: 100%;"></a></td>
 
@@ -236,11 +236,11 @@ update_notes: '<h2 dir="auto">What''s new?</h2>
 
   <tr>
 
-  <td><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/174230925-c35cfe2a-0793-4b9f-b45d-ac0627728a62.png"><img
+  <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/174230925-c35cfe2a-0793-4b9f-b45d-ac0627728a62.png"><img
   src="https://user-images.githubusercontent.com/41608708/174230925-c35cfe2a-0793-4b9f-b45d-ac0627728a62.png"
   alt="QR for dsidl.dsi" style="max-width: 100%;"></a></td>
 
-  <td><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/41608708/174230974-84aa480b-8bc7-4607-aa34-785f71e105cb.png"><img
+  <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/174230974-84aa480b-8bc7-4607-aa34-785f71e105cb.png"><img
   src="https://user-images.githubusercontent.com/41608708/174230974-84aa480b-8bc7-4607-aa34-785f71e105cb.png"
   alt="QR for dsidl.cia" style="max-width: 100%;"></a></td>
 

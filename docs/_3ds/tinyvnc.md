@@ -145,7 +145,7 @@ update_notes: '<p dir="auto">This is version 2.0 of TinyVNC, the VNC-viewer for 
 
   <p dir="auto">Scan QR-code below with FBI<br>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/11392517/173825133-5823f96b-e7fd-4218-9871-41116c53b264.png"><img
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/11392517/173825133-5823f96b-e7fd-4218-9871-41116c53b264.png"><img
   src="https://user-images.githubusercontent.com/11392517/173825133-5823f96b-e7fd-4218-9871-41116c53b264.png"
   alt="grafik" style="max-width: 100%;"></a></p>'
 updated: '2022-06-07T15:19:51Z'

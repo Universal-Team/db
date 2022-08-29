@@ -29,7 +29,7 @@ update_notes: '<p dir="auto">Added complex numbers and the conjugate function to
 
   Added implicit multiplications<br>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/16072534/104121441-80dd5a00-533e-11eb-9954-a5a6c10dd60e.png"><img
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/16072534/104121441-80dd5a00-533e-11eb-9954-a5a6c10dd60e.png"><img
   src="https://user-images.githubusercontent.com/16072534/104121441-80dd5a00-533e-11eb-9954-a5a6c10dd60e.png"
   alt="image" style="max-width: 100%;"></a></p>
 

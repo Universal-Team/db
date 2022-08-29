@@ -87,11 +87,11 @@ update_notes: '<p dir="auto">A New 3DS is required for these games to play smoot
 
   Place them in ''sd:/3ds/Sonic1/'' and ''sd:/3ds/Sonic2/''.</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/14222721/107821288-13c14800-6d74-11eb-9805-b704749a9be7.png"><img
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/14222721/107821288-13c14800-6d74-11eb-9805-b704749a9be7.png"><img
   src="https://user-images.githubusercontent.com/14222721/107821288-13c14800-6d74-11eb-9805-b704749a9be7.png"
   alt="qr_sonic1" style="max-width: 100%;"></a></p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/14222721/107821304-1a4fbf80-6d74-11eb-8dcb-b1224880933b.png"><img
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/14222721/107821304-1a4fbf80-6d74-11eb-8dcb-b1224880933b.png"><img
   src="https://user-images.githubusercontent.com/14222721/107821304-1a4fbf80-6d74-11eb-8dcb-b1224880933b.png"
   alt="qr_sonic2" style="max-width: 100%;"></a></p>'
 updated: '2021-02-12T20:37:15Z'

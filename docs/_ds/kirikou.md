@@ -30,7 +30,8 @@ source: https://github.com/rayasticot/kirikou
 systems:
 - DS
 title: kirikou
-update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/88832503/154327256-9b319436-796f-40fa-9a2f-fde44bec05df.png"><img
+update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow"
+  href="https://user-images.githubusercontent.com/88832503/154327256-9b319436-796f-40fa-9a2f-fde44bec05df.png"><img
   src="https://user-images.githubusercontent.com/88832503/154327256-9b319436-796f-40fa-9a2f-fde44bec05df.png"
   alt="kiriback" style="max-width: 100%;"></a></p>'
 updated: '2022-02-16T18:01:44Z'

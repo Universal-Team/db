@@ -47,14 +47,14 @@ update_notes: '<ul dir="auto">
 
   <p dir="auto"><strong>LUMA STABLE</strong> (if your Luma is 6.6 or lower):<br>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/qr/0.04.png"><img
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/qr/0.04.png"><img
   src="https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/qr/0.04.png"
   alt="QR" style="max-width: 100%;"></a></p>
 
   <p dir="auto"><strong>LUMA NIGHTLY</strong> (if your Luma is greater than 6.6 or
   Nightly):<br>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/qr/0.04-NIGHTLY.png"><img
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/qr/0.04-NIGHTLY.png"><img
   src="https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/qr/0.04-NIGHTLY.png"
   alt="QR" style="max-width: 100%;"></a></p>'
 updated: '2017-04-22T18:55:03Z'

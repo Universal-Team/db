@@ -42,7 +42,7 @@ title: Flappy-Bird
 update_notes: '<p dir="auto">Fixed a Bug where you got under the ground when going
   back to title Screen.</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/71647024/163732211-e74ae266-4d50-4532-ac73-3ec62f9aecf3.png"><img
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/71647024/163732211-e74ae266-4d50-4532-ac73-3ec62f9aecf3.png"><img
   src="https://user-images.githubusercontent.com/71647024/163732211-e74ae266-4d50-4532-ac73-3ec62f9aecf3.png"
   alt="Flappy-Bird" style="max-width: 100%;"></a></p>'
 updated: '2022-04-17T21:14:28Z'

@@ -46,7 +46,7 @@ update_notes: '<ul dir="auto">
 
   <p dir="auto">QR code for .cia<br>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/45873899/161756023-9d3528b1-c458-4b2c-8dd4-8265beb871b0.png"><img
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/45873899/161756023-9d3528b1-c458-4b2c-8dd4-8265beb871b0.png"><img
   src="https://user-images.githubusercontent.com/45873899/161756023-9d3528b1-c458-4b2c-8dd4-8265beb871b0.png"
   alt="image" style="max-width: 100%;"></a></p>
 
