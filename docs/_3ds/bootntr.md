@@ -9,21 +9,21 @@ created: '2016-04-21T14:02:23Z'
 download_page: https://github.com/Nanquitas/BootNTR/releases
 downloads:
   BootNTRSelector.3dsx:
-    size: 1073272
+    size: 1071324
     size_str: 1 MiB
-    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.6/BootNTRSelector.3dsx
+    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.7/BootNTRSelector.3dsx
   BootNTRSelector.cia:
     size: 1487808
     size_str: 1 MiB
-    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.6/BootNTRSelector.cia
+    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.7/BootNTRSelector.cia
   BootNTRSelector_Mode3.cia:
     size: 1487808
     size_str: 1 MiB
-    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.6/BootNTRSelector_Mode3.cia
+    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.7/BootNTRSelector_Mode3.cia
   Home.Menu.Alternate.Banner.zip:
-    size: 2225631
+    size: 2227787
     size_str: 2 MiB
-    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.6/Home.Menu.Alternate.Banner.zip
+    url: https://github.com/Nanquitas/BootNTR/releases/download/v2.13.7/Home.Menu.Alternate.Banner.zip
 github: Nanquitas/BootNTR
 icon: https://raw.githubusercontent.com/Nanquitas/BootNTR/master/resources/icon.png
 image: https://db.universal-team.net/assets/images/images/bootntr.png
@@ -77,7 +77,7 @@ update_notes: '<h1 dir="auto">This release is currently broken with official Lum
 
   <ul dir="auto">
 
-  <li>Added Luma3DS 3GX v11.0 compatibility.</li>
+  <li>Added 11.16.0 firmware compatibility.</li>
 
   </ul>
 
@@ -118,8 +118,8 @@ update_notes: '<h1 dir="auto">This release is currently broken with official Lum
   <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/10946643/56131768-afbb7600-5f88-11e9-8585-6ceb930424cc.png"><img
   src="https://user-images.githubusercontent.com/10946643/56131768-afbb7600-5f88-11e9-8585-6ceb930424cc.png"
   alt="image" style="max-width: 100%;"></a></p>'
-updated: '2022-06-11T14:52:06Z'
-version: v2.13.6
-version_title: v2.13.6
+updated: '2022-08-30T10:45:54Z'
+version: v2.13.7
+version_title: v2.13.7
 wiki: https://github.com/Nanquitas/BootNTR/wiki
 ---
