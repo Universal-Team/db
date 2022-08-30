@@ -2801,7 +2801,7 @@
 	{
 		"github": "masterfeizz/EDuke3D",
 		"systems": ["3DS"],
-		"categories": ["utility"],
+		"categories": ["game"],
 		"icon": "https://raw.githubusercontent.com/masterfeizz/EDuke3D/master/icon.png",
 		"scripts": {
 			"[prerelease] EDuke3D.cia": {
