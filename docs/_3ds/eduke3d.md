@@ -2,7 +2,7 @@
 author: Felipe Izzo
 avatar: https://avatars.githubusercontent.com/u/15205297?v=4
 categories:
-- utility
+- game
 color: '#6fb1f4'
 color_bg: '#3a5c80'
 created: '2015-11-08T13:42:52Z'
