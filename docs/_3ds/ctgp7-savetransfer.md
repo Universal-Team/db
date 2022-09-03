@@ -11,13 +11,13 @@ description: Save data copier between MK7 and CTGP-7
 download_page: https://github.com/CyberYoshi64/CTGP7-SaveTransfer/releases
 downloads:
   CTGP7SaveTransfer.3dsx:
-    size: 740140
-    size_str: 722 KiB
-    url: https://github.com/CyberYoshi64/CTGP7-SaveTransfer/releases/download/v0.2r1/CTGP7SaveTransfer.3dsx
+    size: 741172
+    size_str: 723 KiB
+    url: https://github.com/CyberYoshi64/CTGP7-SaveTransfer/releases/download/v0.3/CTGP7SaveTransfer.3dsx
   CTGP7SaveTransfer.cia:
     size: 1061824
     size_str: 1 MiB
-    url: https://github.com/CyberYoshi64/CTGP7-SaveTransfer/releases/download/v0.2r1/CTGP7SaveTransfer.cia
+    url: https://github.com/CyberYoshi64/CTGP7-SaveTransfer/releases/download/v0.3/CTGP7SaveTransfer.cia
 github: CyberYoshi64/CTGP7-SaveTransfer
 icon: https://raw.githubusercontent.com/CyberYoshi64/CTGP7-SaveTransfer/main/app/icon.png
 image: https://raw.githubusercontent.com/CyberYoshi64/CTGP7-SaveTransfer/main/app/banner.png
@@ -40,24 +40,17 @@ systems:
 title: CTGP7-SaveTransfer
 update_notes: '<ul dir="auto">
 
-  <li>N64 Luigi Circuit is no longer from GCN (classic copy-pasta incident, right?)</li>
+  <li>Changed app design to green</li>
 
-  <li>Fixed GUI logic for MK7 version select.</li>
+  <li>Adding more checks for the save data and immediately refuse if source save doesn''t
+  exist.</li>
 
-  <li>Allow navigating over disabled buttons, rather than jumping around.
-
-  <ul dir="auto">
-
-  <li>Emphasized disabled button when hovered over.</li>
-
-  </ul>
-
-  </li>
+  <li>Making transfer errors less cryptic and add common solutions in the message.</li>
 
   </ul>'
-updated: '2022-08-15T09:07:31Z'
-version: v0.2r1
-version_title: More bugfixes
+updated: '2022-09-03T12:09:55Z'
+version: v0.3
+version_title: Even more sanity checks
 ---
 This tool allows you to copy your save data between CTGP-7 and Mario Kart 7.
 Supported are Physical and Digital versions of all regions.
