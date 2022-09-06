@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 31111544
-    size_str: 29 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.2.1/TWiLightMenu-3DS.7z
+    size: 32047100
+    size_str: 30 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.3.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 31160050
-    size_str: 29 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.2.1/TWiLightMenu-DSi.7z
+    size: 32097206
+    size_str: 30 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.3.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 41910377
-    size_str: 39 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.2.1/TWiLightMenu-Flashcard.7z
-  TWiLightMenu.7z:
-    size: 42120295
+    size: 42840437
     size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.2.1/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.3.0/TWiLightMenu-Flashcard.7z
+  TWiLightMenu.7z:
+    size: 43049436
+    size_str: 41 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.3.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -49,8 +49,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.63.2">nds-bootstrap
-  v0.63.2</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.64.0">nds-bootstrap
+  v0.64.0</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -66,18 +66,76 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <h3 dir="auto">Bug fix</h3>
+  <p dir="auto"><strong>NOTE:</strong> Starting with this release, old custom themes
+  will need to be updated.</p>
+
+  <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Fixed <code class="notranslate">Async Card Read</code> not showing in the per-game
-  settings menu, if it''s opened for a TWL ROM which can pre-load into RAM in DS mode
-  on DSi consoles.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DieGo367/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DieGo367">@DieGo367</a>:
+  <strong>DSi Theme:</strong> Added macro-specific backgrounds (<a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="1338538512" data-permission-text="Title
+  is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/2004" data-hovercard-type="pull_request"
+  data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2004/hovercard" href="https://github.com/DS-Homebrew/TWiLightMenu/pull/2004">#2004</a>)</li>
+
+  <li>Due to some requests, the long version of the TWLMenu++ splash jingle has been
+  re-added as an optional setting.</li>
+
+  </ul>
+
+  <h3 dir="auto">Improvements</h3>
+
+  <ul dir="auto">
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
+  and various: Updated translations and added Ryukyuan language.</li>
+
+  <li>The TWLMenu++ splash screen now plays with no jitter on DS consoles from flashcard,
+  and DSi consoles from SD card.</li>
+
+  </ul>
+
+  <h3 dir="auto">Bug fixes</h3>
+
+  <ul dir="auto">
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
+  Switched to open-source M3DS Real DLDI, fixing compatibility with nds-bootstrap''s
+  B4DS mode.</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
+  Switched to open-source EZ-Flash V DLDI.</li>
+
+  <li>Fixed manual not opening in 3DS theme on flashcards.</li>
+
+  <li>Fixed the SD/Slot-1 icon not displaying on flashcards running with the SD/SCFG
+  access settings.</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
+  Fix residual text when printing small characters (<a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="1344923925" data-permission-text="Title
+  is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/2012" data-hovercard-type="pull_request"
+  data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2012/hovercard" href="https://github.com/DS-Homebrew/TWiLightMenu/pull/2012">#2012</a>)</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DieGo367/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DieGo367">@DieGo367</a>:
+  Some top text printing fixes (<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="1347328473" data-permission-text="Title is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/2018"
+  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2018/hovercard"
+  href="https://github.com/DS-Homebrew/TWiLightMenu/pull/2018">#2018</a>)</li>
+
+  <li>Other minor fixes.</li>
 
   </ul>'
-updated: '2022-08-12T05:18:51Z'
-version: v25.2.1
-version_title: v25.2.1
+updated: '2022-09-06T02:46:50Z'
+version: v25.3.0
+version_title: 'v25.3.0: Labor Day Release'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---

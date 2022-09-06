@@ -24,8 +24,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.63.2">nds-bootstrap
-  v0.63.2</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.64.0">nds-bootstrap
+  v0.64.0</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -46,11 +46,10 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Removed <em>Pokémon Conquest</em> from the card read DMA blacklist, due to the
-  title having no issues with it in nds-bootstrap v0.63.2.</li>
+  <li>Removed some games from the TWL clock speed blacklist.</li>
 
   </ul>'
-updated: '2022-08-12T05:08:52Z'
-version: SD-9
-version_title: 'GitHub Release #9'
+updated: '2022-09-06T03:16:53Z'
+version: SD-10
+version_title: 'GitHub Release #10'
 ---
