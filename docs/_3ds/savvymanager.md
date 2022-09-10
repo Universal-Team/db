@@ -12,7 +12,7 @@ description: An editor/save manager for the Girls Mode/Girls Style/Style Savvy/S
 download_page: https://github.com/RocketRobz/SavvyManager/releases
 downloads:
   SavvyManager.3dsx:
-    size: 43086144
+    size: 43084080
     size_str: 41 MiB
     url: https://github.com/RocketRobz/SavvyManager/releases/download/v3.3.0/SavvyManager.3dsx
   SavvyManager.cia:
@@ -39,7 +39,10 @@ source: https://github.com/RocketRobz/SavvyManager
 systems:
 - 3DS
 title: SavvyManager
-update_notes: '<h3 dir="auto">What''s new?</h3>
+update_notes: '<p dir="auto"><strong>UPDATE 9/10/2022:</strong> Fixed bug where custom
+  character importing would either not work (in Citra) or cause a crash (on real hardware).</p>
+
+  <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
