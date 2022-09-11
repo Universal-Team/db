@@ -14,15 +14,15 @@ downloads:
   StellaDS.nds:
     size: 1272320
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.7/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.8/StellaDS.nds
   compatibility.txt:
-    size: 25032
+    size: 24787
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.7/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.8/compatibility.txt
   readme.txt:
-    size: 20355
+    size: 20441
     size_str: 19 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.7/readme.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.8/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -36,16 +36,15 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V4.7 : 24-Mar-2022 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V4.8 : 11-Sep-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Added per-game configuration settings.</li>
-
-  <li>Fixed 3E/3F and UA bankswitching schemes.</li>
+  <li>Fixed Super Bank (SB) scheme for 128k/256k games. In theory, Circus Convoy will
+  run.</li>
 
   </ul>'
-updated: '2022-03-24T14:07:30Z'
-version: '4.7'
-version_title: Version 4.7
+updated: '2022-09-11T13:38:52Z'
+version: '4.8'
+version_title: Version 4.8
 ---
