@@ -11,17 +11,17 @@ description: A clone of Wordle for the Nintendo DS(i)
 download_page: https://github.com/Epicpkmn11/WordleDS/releases
 downloads:
   WordleDS.cia:
-    size: 1110208
+    size: 1193152
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.1.0/WordleDS.cia
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.1.1/WordleDS.cia
   WordleDS.dsi:
-    size: 1095616
+    size: 1178560
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.1.0/WordleDS.dsi
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.1.1/WordleDS.dsi
   WordleDS.nds:
-    size: 1095616
+    size: 1178560
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.1.0/WordleDS.nds
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.1.1/WordleDS.nds
 github: Epicpkmn11/WordleDS
 icon: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
 icon_static: https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/resources/icon/icon.0.png
@@ -51,41 +51,23 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Wordle DS now tracks how long it takes you finish
+  <li>For the first time the NYT has decided to update the <em>guessable words</em>
+  list
 
   <ul dir="auto">
 
-  <li>Your average completion time will be displayed in the statistics menu</li>
+  <li>Note that this is completely separate from the correct answers list, the correct
+  answers have not been altered</li>
 
-  <li>It can also optionally be included in the share message thanks to...</li>
+  <li>1,881 more words have been made guessable for a total of 12,546 incorrect words
+  and 14,855 total words</li>
 
   </ul>
 
   </li>
 
-  <li>Added a new option to the settings menu for customizing the share message, allowing
-  you to include your completion time and/or current streak</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed a bug in the image reading that was slowing it down and making Wordle
-  DS fail crash from GodMode9i and melonDS</li>
-
-  <li>Fixed a bug where it was attempting to create its folders even when it had no
-  SD card causing a crash in melonDS without DLDI/SD</li>
-
-  </ul>
-
-  <h3 dir="auto">Known bugs</h3>
-
-  <ul dir="auto">
-
-  <li>Completion time tracking doesn''t work on any emulator besides no$gba unless
-  you close and open the lid before inputting your answer</li>
+  <li>Added an option for the share QR to open a web page instead of the raw text,
+  as some QR readers do not handle newlines or such correctly</li>
 
   </ul>
 
@@ -99,12 +81,12 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
   class="notranslate">.cia</code> build can be used to install to the 3DS HOME Menu,
   here''s a QR:</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/185937357-a2c904ec-91d9-4af6-8fce-ab663549aacf.png"><img
-  src="https://user-images.githubusercontent.com/41608708/185937357-a2c904ec-91d9-4af6-8fce-ab663549aacf.png"
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/190408005-e057eb66-46fa-4077-b1c6-db3014ecd2fc.png"><img
+  src="https://user-images.githubusercontent.com/41608708/190408005-e057eb66-46fa-4077-b1c6-db3014ecd2fc.png"
   alt="QR code for WordleDS.cia" style="max-width: 100%;"></a></p>'
-updated: '2022-08-22T13:53:29Z'
-version: v2.1.0
-version_title: Completion timer
+updated: '2022-09-15T12:46:50Z'
+version: v2.1.1
+version_title: Update guessable list
 wiki: https://github.com/Epicpkmn11/WordleDS/wiki
 ---
 A clone of [Wordle](https://www.nytimes.com/games/wordle/index.html) for the Nintendo DS(i). It features the same word each day as the official Wordle and has most of the same features including statistics tracking, high contrast and hard mode options, and even sharable emoji grid via QR code or txt file. Also featuring custom original background music by Rocket Robz.
