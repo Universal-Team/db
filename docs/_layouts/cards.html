@@ -133,7 +133,7 @@ layout: compress
 															<span class="i18n innerHTML-last-updated">Last updated: </span><time datetime="{{ app.updated }}" title="{{ app.updated | date: '%Y-%m-%d at %H:%M' }}">{{ app.updated | date: "%Y-%m-%d" }}</time>
 														{% endif %}
 														{% if page.system == "3ds" and app.unique_ids.size >= 1 %}
-															{% if app.updated %}<br>{% endif %}
+															{% if app.updated != "---" %}<br>{% endif %}
 															{% if app.unique_ids.size == 1 %}
 																<span class="i18n innerHTML-unique-id">Unique ID:</span>
 															{% else %}

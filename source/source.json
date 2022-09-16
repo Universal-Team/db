@@ -5102,6 +5102,7 @@
 		"author": "Softer. / Robichani6-1",
 		"systems": ["3DS"],
 		"categories": ["utility", "translation"],
+		"unique_ids": [784205],
 		"icon": "https://github.com/JustSofter/ThirdTube-ES/raw/main/resource/icon.png",
 		"image": "https://github.com/JustSofter/ThirdTube-ES/raw/main/resource/banner.png"
 	},
@@ -5109,6 +5110,7 @@
 		"github": "cooolgamer/ThirdTube-FR",
 		"systems": ["3DS"],
 		"categories": ["utility", "translation"],
+		"unique_ids": [784205],
 		"icon": "https://github.com/cooolgamer/ThirdTube-FR/raw/main/resource/icon.png",
 		"image": "https://github.com/cooolgamer/ThirdTube-FR/raw/main/resource/banner.png"
 	},
@@ -5379,6 +5381,7 @@
 		"github": "CyberYoshi64/CTGP7-SaveTransfer",
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
+		"unique_ids": [92418],
 		"image": "https://raw.githubusercontent.com/CyberYoshi64/CTGP7-SaveTransfer/main/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/CyberYoshi64/CTGP7-SaveTransfer/main/app/icon.png",
 		"description": "Save data copier between MK7 and CTGP-7",
