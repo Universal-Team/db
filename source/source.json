@@ -5498,5 +5498,48 @@
 				"3ds-httpd.cia": ["3ds-httpd.cia"]
 			}
 		}
+	},
+	{
+		"github": "PabloMK7/kartdlphax",
+		"systems": ["3DS"],
+		"categories": ["utility", "exploit"],
+		"scripts": {
+			"[EUR] plugin.3gx": [
+				{
+					"type": "downloadRelease",
+					"repo": "PabloMK7/kartdlphax",
+					"file": "plugin.3gx",
+					"output": "/luma/plugins/0004000000030700/plugin.3gx"
+				},
+				{
+					"type": "promptMessage",
+					"message": "You will need to to install a plugin loader Luma3DS fork,\n\"Luma3DS (Nanquitas)\" and \"Luma with Night/Light\nand Quick-Switchers\" should both work.\n\nAfter installing that and rebooting, open the Rosalina menu\nand enable the plugin loader."
+				}
+			],
+			"[JPN] plugin.3gx": [
+				{
+					"type": "downloadRelease",
+					"repo": "PabloMK7/kartdlphax",
+					"file": "plugin.3gx",
+					"output": "/luma/plugins/0004000000030600/plugin.3gx"
+				},
+				{
+					"type": "promptMessage",
+					"message": "You will need to to install a plugin loader Luma3DS fork,\n\"Luma3DS (Nanquitas)\" and \"Luma with Night/Light\nand Quick-Switchers\" should both work.\n\nAfter installing that and rebooting, open the Rosalina menu\nand enable the plugin loader."
+				}
+			],
+			"[USA] plugin.3gx": [
+				{
+					"type": "downloadRelease",
+					"repo": "PabloMK7/kartdlphax",
+					"file": "plugin.3gx",
+					"output": "/luma/plugins/0004000000030800/plugin.3gx"
+				},
+				{
+					"type": "promptMessage",
+					"message": "You will need to to install a plugin loader Luma3DS fork,\n\"Luma3DS (Nanquitas)\" and \"Luma with Night/Light\nand Quick-Switchers\" should both work.\n\nAfter installing that and rebooting, open the Rosalina menu\nand enable the plugin loader."
+				}
+			]
+		}
 	}
 ]
