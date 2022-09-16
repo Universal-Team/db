@@ -504,6 +504,10 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 			app["slug"] = webName(app["title"])
 			print(app["slug"])
 
+			app["urls"] = []
+			for system in app["systems"]:
+				app["urls"].append(f"https://db.universal-team.net/{system.lower()}/{app['slug']}")
+
 		# Make QR
 		if not foundExisting or not (priorityOnlyMode and not ("priority" in app and app["priority"])):
 			if "downloads" in app:
@@ -598,6 +602,8 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 			web.pop("archive")
 		if "slug" in web:
 			web.pop("slug")
+		if "urls" in web:
+			web.pop("urls")
 		if "icon_index" in web:
 			web.pop("icon_index")
 		# Add defaults where absolutely needed
