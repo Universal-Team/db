@@ -31,6 +31,8 @@ source: https://github.com/cooolgamer/ThirdTube-FR
 systems:
 - 3DS
 title: ThirdTube-FR
+unique_ids:
+- '0xBF74D'
 update_notes: <p dir="auto">contient des bugs mais reste utilisable</p>
 updated: '2022-06-24T14:49:12Z'
 version: v0.5.0
