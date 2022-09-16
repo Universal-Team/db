@@ -583,6 +583,9 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 		# Website file
 		web = app.copy()
 		web["layout"] = "app"
+		# We want unique IDs as hex
+		if "unique_ids" in web:
+			web["unique_ids"] = [f"0x{uid:X}" for uid in web["unique_ids"]]
 		# long description is put as the content
 		if "long_description" in web:
 			web.pop("long_description")

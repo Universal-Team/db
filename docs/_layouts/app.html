@@ -65,6 +65,15 @@ layout: compress
 												<br>
 												<span class="i18n innerHTML-license">License: </span>{{ page.license_name }}
 											{% endif %}
+											{% if page.unique_ids.size >= 1 %}
+												<br>
+												{% if page.unique_ids.size == 1 %}
+													<span class="i18n innerHTML-unique-id">Unique ID:</span>
+												{% else %}
+													<span class="i18n innerHTML-unique-ids">Unique IDs:</span>
+												{% endif %}
+												{{ page.unique_ids | join: ", " }}
+											{% endif %}
 										</small>
 									</div>
 								</div>

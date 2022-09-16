@@ -34,6 +34,12 @@ body:
       required: true
   - type: input
     attributes:
+      label: Unique ID(s)
+      description: The Unique ID(s) of any CIAs of this app, this is the "UniqueId" in the RSF file. If you do not have a 3DS CIA build then skip this.
+    validations:
+      required: true
+  - type: input
+    attributes:
       label: Image link
       description: For 3DS apps with a 2D banner, that works well.
   - type: input

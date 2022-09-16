@@ -86,7 +86,7 @@ layout: compress
 													</div>
 												</div>
 											</a>
-											{% if app.version or app.qr.size >= 1 or app.prerelease.qr.size >= 1 %}
+											{% if app.version or app.unique_ids.size >= 1 or app.qr.size >= 1 or app.prerelease.qr.size >= 1 %}
 												<div class="card-footer b-0">
 													<div class="position-absolute end-3">
 														{% assign qrCount = app.qr.size | plus: app.prerelease.qr.size %}
@@ -122,7 +122,7 @@ layout: compress
 													</div>
 													<small>
 														{% unless page.system %}
-															<span class="i18n innerHTML-system">System: </span>{{ app.systems | join: ", "}}
+															<span class="i18n innerHTML-system">System: </span>{{ app.systems | join: ", " }}
 															<br>
 														{% endunless %}
 														{% if app.version %}
@@ -131,6 +131,15 @@ layout: compress
 														{% if app.updated != "---" %}
 															{% if app.version %}<br>{% endif %}
 															<span class="i18n innerHTML-last-updated">Last updated: </span><time datetime="{{ app.updated }}" title="{{ app.updated | date: '%Y-%m-%d at %H:%M' }}">{{ app.updated | date: "%Y-%m-%d" }}</time>
+														{% endif %}
+														{% if page.system == "3ds" and app.unique_ids.size >= 1 %}
+															{% if app.updated %}<br>{% endif %}
+															{% if app.unique_ids.size == 1 %}
+																<span class="i18n innerHTML-unique-id">Unique ID:</span>
+															{% else %}
+																<span class="i18n innerHTML-unique-ids">Unique IDs:</span>
+															{% endif %}
+															{{ app.unique_ids | join: ", " }}
 														{% endif %}
 													</small>
 												</div>

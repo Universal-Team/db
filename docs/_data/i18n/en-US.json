@@ -51,6 +51,8 @@
 	"last-updated": "Last updated: ",
 	"license": "License: ",
 	"system": "System: ",
+	"unique-id": "Unique ID: ",
+	"unique-ids": "Unique IDs: ",
 	"version": "Version: ",
 	"show-qr-for": "Show QR Code for ${name}",
 	"scan-qr-fbi": "Scan this QR code using <a href=\"/3ds/fbi\">FBI</a> on your 3DS to install.",

@@ -5,6 +5,7 @@
 		"image": "https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/resources/2d-banner.png",
 		"icon": "https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png",
 		"categories": ["utility"],
+		"unique_ids": [276759],
 		"github": "Universal-Team/Universal-Updater",
 		"unistore_exclude": true,
 		"priority": true,
@@ -27,6 +28,7 @@
 		"icon": "https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/icon.png",
 		"categories": ["game"],
 		"systems": ["3DS"],
+		"unique_ids": [275968],
 		"nightly": {
 			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/3DEins",
 			"downloads": {
@@ -45,6 +47,7 @@
 		"icon": "https://raw.githubusercontent.com/Universal-Team/3DVier/master/3ds/app/icon.png",
 		"categories": ["game"],
 		"systems": ["3DS"],
+		"unique_ids": [275863],
 		"nightly": {
 			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/3DVier",
 			"downloads": {
@@ -63,11 +66,13 @@
 		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DElf/main/3ds/app/icon.png",
 		"systems": ["3DS"],
+		"unique_ids": [275859],
 		"long_description": "> The game is playable in Deutsch and English\n\n### Deutsch\n\n[Elfer raus!](https://de.wikipedia.org/wiki/Elfer_raus!) klon für den Nintendo 3DS!\n\n### English\n\n[Elfer raus!](https://en.wikipedia.org/wiki/Domino_(card_game)#Elfer_Raus!) clone for the Nintendo 3DS!"
 	},
 	{
 		"github": "SuperSaiyajinStackZ/Ludo3DS",
 		"categories": ["game"],
+		"unique_ids": [275861],
 		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/Banner.png",
 		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/Ludo3DS/main/3ds/app/icon.png",
 		"systems": ["3DS"],
@@ -88,6 +93,7 @@
 		"icon": "https://raw.githubusercontent.com/Universal-Team/LeafEdit/master/3ds/app/icon.png",
 		"categories": ["utility", "save-tool"],
 		"systems": ["3DS"],
+		"unique_ids": [276769],
 		"nightly": {
 			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/LeafEdit",
 			"downloads": {
@@ -106,6 +112,7 @@
 		"icon": "https://raw.githubusercontent.com/Universal-Team/Universal-Edit/master/3DS/app/icon.png",
 		"categories": ["utility"],
 		"systems": ["3DS"],
+		"unique_ids": [276757],
 		"nightly": {
 			"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/Universal-Edit",
 			"downloads": {
@@ -836,6 +843,7 @@
 		"github": "RocketRobz/SavvyManager",
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
+		"unique_ids": [223603],
 		"image": "https://raw.githubusercontent.com/RocketRobz/SavvyManager/master/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/RocketRobz/SavvyManager/master/app/icon.png"
 	},
@@ -843,6 +851,7 @@
 		"github": "Nanquitas/BootNTR",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [962560, 963328],
 		"icon": "https://raw.githubusercontent.com/Nanquitas/BootNTR/master/resources/icon.png",
 		"archive": {
 			"Home.Menu.Alternate.Banner.zip": {
@@ -855,6 +864,7 @@
 		"github": "MrHuu/openbor-3ds",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [721981],
 		"image": "https://raw.githubusercontent.com/MrHuu/openbor-3ds/3DS/engine/resources/ctr/OpenBOR_Logo_256x128.png",
 		"icon": "https://raw.githubusercontent.com/MrHuu/openbor-3ds/3DS/engine/resources/ctr/OpenBOR_Icon_48x48.png"
 	},
@@ -863,6 +873,7 @@
 		"title": "mGBA",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
+		"unique_ids": [6686],
 		"image": "https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-256.png",
 		"icon": "https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-48.png",
 		"eval_notes_md": true,
@@ -886,6 +897,7 @@
 		"github": "mtheall/ftpd",
 		"systems": ["3DS", "DS"],
 		"categories": ["utility"],
+		"unique_ids": [782069],
 		"image": "https://raw.githubusercontent.com/mtheall/ftpd/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/mtheall/ftpd/master/meta/icon.png"
 	},
@@ -893,6 +905,7 @@
 		"github": "joel16/3DShell",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [90624],
 		"image": "https://raw.githubusercontent.com/joel16/3DShell/master/res/banner.png",
 		"icon": "https://raw.githubusercontent.com/joel16/3DShell/master/res/ic_launcher_filemanager.png"
 	},
@@ -900,6 +913,7 @@
 		"github": "HIDE810/WiFi-Status-Checker",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [4658],
 		"image": "https://raw.githubusercontent.com/HIDE810/WiFi-Status-Checker/master/resource/banner.png",
 		"icon": "https://raw.githubusercontent.com/HIDE810/WiFi-Status-Checker/master/resource/icon.png"
 	},
@@ -908,6 +922,7 @@
 		"title": "SmileBASIC File Manager",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [23539],
 		"icon": "https://raw.githubusercontent.com/Trinitro21/lpp-3ds/sbfm/icon.png",
 		"archive": {
 			"sbfm.zip": {
@@ -919,6 +934,7 @@
 		"github": "elhobbs/prboom3ds",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [983090],
 		"image": "https://raw.githubusercontent.com/elhobbs/prboom3ds/master/banner.png",
 		"icon": "https://raw.githubusercontent.com/elhobbs/prboom3ds/master/prboom3ds.png",
 		"scripts": {
@@ -990,6 +1006,7 @@
 		"title": "MCU Bricker",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [912081],
 		"author": "MarcuzD",
 		"avatar": "https://avatars.githubusercontent.com/u/59751328?v=4",
 		"description": "Makes your LED go rainbow."
@@ -998,6 +1015,7 @@
 		"github": "Core-2-Extreme/Battery_mark_for_3DS",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [967936],
 		"image": "https://raw.githubusercontent.com/Core-2-Extreme/Battery_mark_for_3DS/master/resource/banner.png",
 		"icon": "https://raw.githubusercontent.com/Core-2-Extreme/Battery_mark_for_3DS/master/resource/icon.png"
 	},
@@ -1005,6 +1023,7 @@
 		"github": "MechanicalDragon0687/GYTB",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [7643],
 		"image": "https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resources/icon.png",
 		"author": "MrCheeze",
@@ -1040,6 +1059,7 @@
 		"github": "Steveice10/FBI",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [1015809],
 		"image": "https://raw.githubusercontent.com/Steveice10/FBI/master/romfs/logo.png",
 		"icon": "https://raw.githubusercontent.com/Steveice10/FBI/master/meta/icon_3ds.png"
 	},
@@ -1047,6 +1067,7 @@
 		"github": "LukeZGD/DDLC-LOVE",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [56828],
 		"downloads": {
 			"DDLC-LOVE-3DS.3dsx": {
 				"url": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-LOVE-3DS.3dsx"
@@ -1060,6 +1081,7 @@
 		"github": "MrHuu/opentitus-3ds",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [1045312, 1045313],
 		"image": "https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_banner.png",
 		"icon": "https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_icon_48x48.png",
 		"downloads": {
@@ -1254,12 +1276,14 @@
 		"github": "J-D-K/JKSM",
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
+		"unique_ids": [180786],
 		"icon": "https://raw.githubusercontent.com/J-D-K/JKSM/master/icon.png"
 	},
 	{
 		"github": "togetg/TJAPlayer_for_3DS",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [751189],
 		"image": "https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png",
 		"icon": "https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/icon.png"
 	},
@@ -1267,6 +1291,7 @@
 		"github": "noirscape/dses",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [979202],
 		"image": "https://raw.githubusercontent.com/noirscape/dses/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/noirscape/dses/master/meta/icon.png"
 	},
@@ -1274,6 +1299,7 @@
 		"github": "Swiftloke/ModMoon",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [42810],
 		"image": "https://raw.githubusercontent.com/Swiftloke/ModMoon/master/CIA/banner.png",
 		"icon": "https://raw.githubusercontent.com/Swiftloke/ModMoon/master/CIA/icon.png"
 	},
@@ -1281,6 +1307,7 @@
 		"github": "dnasdw/SharedFontTool",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [983041, 983042],
 		"image": "https://raw.githubusercontent.com/dnasdw/SharedFontTool/master/meta/banner_3ds.png",
 		"icon": "https://raw.githubusercontent.com/dnasdw/SharedFontTool/master/meta/icon_3ds.png"
 	},
@@ -1288,6 +1315,7 @@
 		"github": "joel16/3DSident",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [90112, 90368],
 		"image": "https://raw.githubusercontent.com/joel16/3DSident/master/console/res/banner.png",
 		"icon": "https://raw.githubusercontent.com/joel16/3DSident/master/console/res/icon.png"
 	},
@@ -1295,6 +1323,7 @@
 		"github": "joel16/FriendMii",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [90214],
 		"image": "https://raw.githubusercontent.com/joel16/FriendMii/master/res/banner.png",
 		"icon": "https://raw.githubusercontent.com/joel16/FriendMii/master/res/ic_launcher_friendmii.png"
 	},
@@ -1302,12 +1331,14 @@
 		"github": "mariohackandglitch/homebrew_launcher_dummy",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [889374],
 		"icon": "https://raw.githubusercontent.com/mariohackandglitch/homebrew_launcher_dummy/master/resources/icon.png"
 	},
 	{
 		"github": "LiquidFenrir/Yahtzee3DS",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [83763],
 		"image": "https://raw.githubusercontent.com/LiquidFenrir/Yahtzee3DS/master/sprites/banner.png",
 		"icon": "https://raw.githubusercontent.com/LiquidFenrir/Yahtzee3DS/master/icon.png"
 	},
@@ -1315,6 +1346,7 @@
 		"github": "astronautlevel2/Anemone3DS",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [765920],
 		"image": "https://raw.githubusercontent.com/astronautlevel2/Anemone3DS/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/astronautlevel2/Anemone3DS/master/meta/icon.png"
 	},
@@ -1322,6 +1354,7 @@
 		"github": "noirscape/SRAU",
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
+		"unique_ids": [979201],
 		"image": "https://raw.githubusercontent.com/noirscape/SRAU/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/noirscape/SRAU/master/meta/icon.png",
 		"archive": {
@@ -1335,6 +1368,7 @@
 		"title": "Snes9x",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
+		"unique_ids": [14409],
 		"icon": "https://raw.githubusercontent.com/bubble2k16/snes9x_3ds/master/assets/icon.png",
 		"scripts": {
 			"snes9x_3ds.cia": [
@@ -1401,6 +1435,7 @@
 		"description": "VirtuaNES a high compatibility NES emulator for your old 3DS or 2DS.",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
+		"unique_ids": [14410],
 		"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/virtuanes/assets/icon.png",
 		"scripts": {
 			"virtuanes_3ds.cia": [
@@ -1486,6 +1521,7 @@
 		"github": "joel16/3DS-Recovery-Tool",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [91648],
 		"image": "https://raw.githubusercontent.com/joel16/3DS-Recovery-Tool/master/res/banner.png",
 		"icon": "https://raw.githubusercontent.com/joel16/3DS-Recovery-Tool/master/res/ic_launcher_recovery_tool.png"
 	},
@@ -1493,6 +1529,7 @@
 		"github": "LiquidFenrir/WifiManager",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [24009],
 		"image": "https://raw.githubusercontent.com/LiquidFenrir/WifiManager/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/LiquidFenrir/WifiManager/master/meta/icon.png"
 	},
@@ -1500,6 +1537,7 @@
 		"github": "ihaveamac/screenshot-merge",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [985804],
 		"image": "https://raw.githubusercontent.com/ihaveamac/screenshot-merge/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/ihaveamac/screenshot-merge/master/resources/icon.png"
 	},
@@ -1508,6 +1546,7 @@
 		"title": "3DS eBook Reader",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [962833],
 		"image": "https://raw.githubusercontent.com/DomRe/3DS_eBook_Reader/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/DomRe/3DS_eBook_Reader/master/meta/icon.png",
 		"scripts": {
@@ -1545,6 +1584,7 @@
 		"description": "This is a port of notaz's PicoDrive emulator to the old 3DS and old 2DS.",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
+		"unique_ids": [14412],
 		"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/picodrive/assets/icon.png",
 		"scripts": {
 			"picodrive_3ds.cia": [
@@ -1611,6 +1651,7 @@
 		"description": "This is a port of Exophase's Temper (TurboGrafx/PC-Engine) emulator to the old 3DS and old 2DS.",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
+		"unique_ids": [14411],
 		"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/temperpce/assets/icon.png",
 		"scripts": {
 			"temperpce_3ds.cia": [
@@ -1663,6 +1704,7 @@
 		"github": "LiquidFenrir/HexIsoPath",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [361238],
 		"image": "https://raw.githubusercontent.com/LiquidFenrir/HexIsoPath/master/banner.png",
 		"icon": "https://raw.githubusercontent.com/LiquidFenrir/HexIsoPath/master/icon.png"
 	},
@@ -1670,12 +1712,14 @@
 		"github": "RMcTn/Notepad3DS",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [1037311],
 		"icon": "https://raw.githubusercontent.com/RMcTn/Notepad3DS/master/icon.png"
 	},
 	{
 		"github": "ingolemo/drider",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [55325],
 		"image": "https://raw.githubusercontent.com/ingolemo/drider/master/banner.png",
 		"icon": "https://raw.githubusercontent.com/ingolemo/drider/master/icon.png",
 		"scripts": {
@@ -1734,6 +1778,7 @@
 		"github": "CorySanin/FastPlayCoin",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [3992],
 		"image": "https://raw.githubusercontent.com/CorySanin/FastPlayCoin/master/resource/banner.png",
 		"icon": "https://raw.githubusercontent.com/CorySanin/FastPlayCoin/master/resource/icon.png"
 	},
@@ -1741,6 +1786,7 @@
 		"github": "SaturnSH2x2/PayloadSpinner3DS",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [10409],
 		"image": "https://raw.githubusercontent.com/SaturnSH2x2/PayloadSpinner3DS/master/assets/banner.png",
 		"icon": "https://raw.githubusercontent.com/SaturnSH2x2/PayloadSpinner3DS/master/assets/icon.png"
 	},
@@ -1748,6 +1794,7 @@
 		"github": "nop90/Zelda3T",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [39284],
 		"image": "https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/icon.png",
 		"archive": {
@@ -1761,6 +1808,7 @@
 		"title": "Bottomless Block Barrage",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [723739],
 		"image": "https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/master/resources/icon.png",
 		"archive": {
@@ -1773,6 +1821,7 @@
 		"github": "Manurocker95/TRekt_3D",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [1027148],
 		"image": "https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/resources/icon.png",
 		"autogen_scripts": true,
@@ -1809,6 +1858,7 @@
 		"title": "Craftus Reloaded",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [1026852],
 		"icon": "https://raw.githubusercontent.com/RSDuck/craftus_reloaded/master/icon/craftusreloaded.png",
 		"autogen_scripts": true
 	},
@@ -1816,6 +1866,7 @@
 		"github": "Manurocker95/Evolution_Sav3D_Me",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [1027100],
 		"icon": "https://raw.githubusercontent.com/Manurocker95/Evolution_Sav3D_Me/Evolution_Sav3D_Me/icon.png",
 		"autogen_scripts": true,
 		"scripts": {
@@ -1850,6 +1901,7 @@
 		"github": "zoogie/Stuff",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [29011],
 		"image": "https://raw.githubusercontent.com/zoogie/Stuff/master/nds-hb-menu/cia/banner.png",
 		"icon": "https://raw.githubusercontent.com/zoogie/Stuff/master/nds-hb-menu/cia/icon.png"
 	},
@@ -1857,6 +1909,7 @@
 		"github": "Storm-Eagle20/RTChanger",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [64716],
 		"image": "https://raw.githubusercontent.com/Storm-Eagle20/RTChanger/master/assets/banner.png",
 		"icon": "https://raw.githubusercontent.com/Storm-Eagle20/RTChanger/master/assets/logo.png"
 	},
@@ -1864,6 +1917,7 @@
 		"github": "NatTupper/Forecast",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [928887],
 		"image": "https://raw.githubusercontent.com/NatTupper/Forecast/master/res/banner%20icon.png",
 		"icon": "https://raw.githubusercontent.com/NatTupper/Forecast/master/icon.png",
 		"archive": {
@@ -1877,6 +1931,7 @@
 		"github": "deltabeard/ctrmus",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [1045452],
 		"image": "https://raw.githubusercontent.com/deltabeard/ctrmus/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/deltabeard/ctrmus/master/meta/icon.png",
 		"archive": {
@@ -1889,6 +1944,7 @@
 		"github": "aliceinpalth/3dfetch",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [653726],
 		"image": "https://raw.githubusercontent.com/aliceinpalth/3dfetch/master/banner.png",
 		"icon": "https://raw.githubusercontent.com/aliceinpalth/3dfetch/master/icon.png"
 	},
@@ -1896,6 +1952,7 @@
 		"github": "trainboy2019/ButtonPresser3DS",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [17968],
 		"image": "https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/resources/Banner.png",
 		"icon": "https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/icon.png",
 		"archive": {
@@ -1907,12 +1964,14 @@
 	{
 		"github": "masterfeizz/Quake2CTR",
 		"systems": ["3DS"],
-		"categories": ["game"]
+		"categories": ["game"],
+		"unique_ids": [1044773]
 	},
 	{
 		"github": "nop90/Neopop-SDL",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
+		"unique_ids": [39302],
 		"image": "https://raw.githubusercontent.com/nop90/Neopop-SDL/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Neopop-SDL/master/resources/icon.png",
 		"archive": {
@@ -1925,12 +1984,14 @@
 		"github": "Creckeryop/3dsCookieClicker",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [62015],
 		"icon": "https://raw.githubusercontent.com/Creckeryop/3dsCookieClicker/master/logo.png"
 	},
 	{
 		"github": "nop90/ZeldaOLB",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [39283],
 		"image": "https://raw.githubusercontent.com/nop90/ZeldaOLB/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/ZeldaOLB/master/resources/icon.png",
 		"archive": {
@@ -1943,6 +2004,7 @@
 		"github": "hax0kartik/Multidownload",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [4144],
 		"image": "https://raw.githubusercontent.com/hax0kartik/Multidownload/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/hax0kartik/Multidownload/master/resources/icon.png"
 	},
@@ -1950,6 +2012,7 @@
 		"github": "zoogie/DSP1",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [54673],
 		"image": "https://raw.githubusercontent.com/zoogie/DSP1/master/cia/banner.png",
 		"icon": "https://raw.githubusercontent.com/zoogie/DSP1/master/cia/icon.png"
 	},
@@ -1957,6 +2020,7 @@
 		"github": "Possum/LumaLocaleSwitcher",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [658593],
 		"image": "https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/meta/icon.png",
 		"download_filter": "NIGHTLY",
@@ -1970,6 +2034,7 @@
 		"github": "Manurocker95/WITB_3D",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [1027116],
 		"image": "https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/icon.png",
 		"autogen_scripts": true,
@@ -2006,6 +2071,7 @@
 		"title": "Orchestrina",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [987168],
 		"image": "https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/banner2.png",
 		"icon": "https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/icon.png",
 		"autogen_scripts": true,
@@ -2195,6 +2261,7 @@
 		"title": "Supertux",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [39298],
 		"image": "https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/icon.png",
 		"archive": {
@@ -2208,6 +2275,7 @@
 		"github": "nop90/Opentyrian-3ds",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [39294],
 		"image": "https://raw.githubusercontent.com/nop90/Opentyrian-3ds/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Opentyrian-3ds/master/resources/icon.png",
 		"archive": {
@@ -2221,6 +2289,7 @@
 		"github": "nop90/Xrick-3ds",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [39293],
 		"image": "https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/icon.png",
 		"archive": {
@@ -2234,6 +2303,7 @@
 		"github": "DDews/Snakes",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [590658],
 		"image": "https://raw.githubusercontent.com/DDews/Snakes/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/DDews/Snakes/master/meta/icon.png"
 	},
@@ -2242,6 +2312,7 @@
 		"description": "Port of 1010! to 3ds homebrew, made in C.\nIt's like Tetris but with infinite time, you lose when you can no longer place any of the pieces you have available.",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [250224],
 		"image": "https://raw.githubusercontent.com/LiquidFenrir/3ds1010/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/LiquidFenrir/3ds1010/master/resources/icon.png",
 		"archive": {
@@ -2255,6 +2326,7 @@
 		"github": "nop90/Griffon-Legend-3DS",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [39296],
 		"image": "https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/icon.png",
 		"archive": {
@@ -2268,6 +2340,7 @@
 		"github": "d0k3/CTRXplorer",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [10352],
 		"image": "https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/icon.png",
 		"archive": {
@@ -2280,6 +2353,7 @@
 		"github": "nop90/POWDER-3DS",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [39291],
 		"image": "https://raw.githubusercontent.com/nop90/POWDER-3DS/master/port/3ds/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/POWDER-3DS/master/port/3ds/icon.png",
 		"archive": {
@@ -2293,6 +2367,7 @@
 		"github": "mrdanielps/r3Ddragon",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
+		"unique_ids": [1042379],
 		"image": "https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/icon.png",
 		"archive": {
@@ -2306,6 +2381,7 @@
 		"title": "Smash Amiibo Cheat Tool",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [688072],
 		"image": "https://raw.githubusercontent.com/Ordim3n/Smash-Amiibo-Cheat-Tool/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/Ordim3n/Smash-Amiibo-Cheat-Tool/master/meta/icon.png"
 	},
@@ -2313,6 +2389,7 @@
 		"github": "RedInquisitive/Super-Haxagon",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [39338],
 		"image": "https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/banner.png",
 		"icon": "https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/icon-3ds.png"
 	},
@@ -2320,6 +2397,7 @@
 		"github": "phijor/SpecializeMii",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [998809],
 		"image": "https://raw.githubusercontent.com/phijor/SpecializeMii/master/etc/banner.png",
 		"icon": "https://raw.githubusercontent.com/phijor/SpecializeMii/master/etc/icon.png",
 		"archive": {
@@ -2333,6 +2411,7 @@
 		"github": "dragos240/Pocket-NLSE",
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
+		"unique_ids": [839214],
 		"image": "https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/res/banner%20icon.png",
 		"icon": "https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/icon.png",
 		"archive": {
@@ -2346,6 +2425,7 @@
 		"github": "DanTheMan827/tikSweep",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [43199],
 		"image": "https://raw.githubusercontent.com/DanTheMan827/tikSweep/master/banner.png",
 		"icon": "https://raw.githubusercontent.com/DanTheMan827/tikSweep/master/icon.png",
 		"archive": {
@@ -2358,6 +2438,7 @@
 		"github": "nop90/ZeldaPicross",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [39297],
 		"image": "https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/icon.png",
 		"archive": {
@@ -2371,6 +2452,7 @@
 		"github": "flarn2006/graphcalc3ds",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [1012099],
 		"image": "https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/banner.png",
 		"icon": "https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/icon.png",
 		"archive": {
@@ -2382,12 +2464,14 @@
 	{
 		"github": "Hoksy/ravimid",
 		"systems": ["3DS"],
-		"categories": ["game"]
+		"categories": ["game"],
+		"unique_ids": [677313]
 	},
 	{
 		"github": "Omegadrien/Memory3DS",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [395937],
 		"image": "https://raw.githubusercontent.com/Omegadrien/Memory3DS/master/assets/banner.png",
 		"icon": "https://raw.githubusercontent.com/Omegadrien/Memory3DS/master/assets/icon.png",
 		"archive": {
@@ -2402,6 +2486,7 @@
 		"title": "RomFS Explorer",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [662316],
 		"image": "https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS-Explorer/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS-Explorer/master/meta/icon.png",
 		"archive": {
@@ -2415,6 +2500,7 @@
 		"github": "masterfeizz/ctrQuake",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [1044771],
 		"icon": "https://raw.githubusercontent.com/masterfeizz/ctrQuake/master/icon.png",
 		"scripts": {
 			"ctrQuake.cia": [
@@ -2478,6 +2564,7 @@
 		"github": "ItsDeidara/CaptureAssistant",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [26722],
 		"image": "https://raw.githubusercontent.com/ItsDeidara/CaptureAssistant/master/assets/banner.png",
 		"icon": "https://raw.githubusercontent.com/ItsDeidara/CaptureAssistant/master/assets/icon.png",
 		"scripts": {
@@ -2546,6 +2633,7 @@
 		"github": "nop90/OpenSyobon3DS",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [39281],
 		"image": "https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/icon.png",
 		"archive": {
@@ -2558,12 +2646,14 @@
 	{
 		"github": "gnmmarechal/easyrpgdlre",
 		"systems": ["3DS"],
-		"categories": ["utility"]
+		"categories": ["utility"],
+		"unique_ids": [42308]
 	},
 	{
 		"github": "TricksterGuy/3ds-vgmstream",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [252579],
 		"image": "https://raw.githubusercontent.com/TricksterGuy/3ds-vgmstream/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/TricksterGuy/3ds-vgmstream/master/resources/icon.png",
 		"archive": {
@@ -2576,6 +2666,7 @@
 		"github": "TurtleP/Hax0r",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [54170],
 		"icon": "https://raw.githubusercontent.com/TurtleP/Hax0r/master/graphics/icon.png",
 		"scripts": {
 			"Hax0r.cia": [
@@ -2633,6 +2724,7 @@
 		"github": "nop90/Biniax2-3DS",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [39288],
 		"image": "https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/icon.png",
 		"archive": {
@@ -2648,6 +2740,7 @@
 		"github": "TurtleP/TurtleInvaders",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [1006285],
 		"archive": {
 			"TurtleInvaders.zip": {
 				"TurtleInvaders.3dsx": ["TurtleInvaders.3dsx"],
@@ -2659,6 +2752,7 @@
 		"github": "Jacudibu/Snake2DS",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [4163],
 		"icon": "https://raw.githubusercontent.com/Jacudibu/Snake2DS/master/icon_large.png",
 		"autogen_scripts": true,
 		"scripts": {
@@ -2686,6 +2780,7 @@
 		"github": "TuxSH/TWLSaveTool",
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
+		"unique_ids": [986607],
 		"icon": "https://raw.githubusercontent.com/TuxSH/TWLSaveTool/master/app/IconLarge.png",
 		"archive": {
 			"TWLSaveTool.zip": {
@@ -2697,6 +2792,7 @@
 		"github": "phijor/ctroller",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [998748],
 		"image": "https://raw.githubusercontent.com/phijor/ctroller/master/3DS/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/phijor/ctroller/master/3DS/resources/icon.png",
 		"autogen_scripts": true,
@@ -2747,6 +2843,7 @@
 		"github": "nop90/ZeldaROTH",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [39282],
 		"image": "https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/icon.png",
 		"archive": {
@@ -2763,6 +2860,7 @@
 		"title": "ZeldaROTH 1.0.3 beta",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [39282],
 		"image": "https://raw.githubusercontent.com/vargaviktor/ZeldaROTH/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/vargaviktor/ZeldaROTH/master/resources/icon.png",
 		"long_description": "ZeldaROTH 1.0.3 beta is including Hungarian translation for this classic fan game.\nBecause of the used sf2dlib was also out of date, it was also modified to compile with new (1.4.0+) citro3d library.\nBeta, because, its playable, but until now, it was not found yet, why it gives glitches, when loading a level map.",
@@ -2777,6 +2875,7 @@
 		"github": "Ryuzaki-MrL/NotifyMii",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [973200],
 		"image": "https://raw.githubusercontent.com/Ryuzaki-MrL/NotifyMii/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/Ryuzaki-MrL/NotifyMii/master/meta/icon.png",
 		"archive": {
@@ -2789,6 +2888,7 @@
 		"github": "Asellus/3DS_Quick_Reboot",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [983075],
 		"image": "https://raw.githubusercontent.com/Asellus/3DS_Quick_Reboot/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/Asellus/3DS_Quick_Reboot/master/resources/icon.png",
 		"archive": {
@@ -2802,6 +2902,7 @@
 		"github": "masterfeizz/EDuke3D",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [1044772],
 		"icon": "https://raw.githubusercontent.com/masterfeizz/EDuke3D/master/icon.png",
 		"scripts": {
 			"[prerelease] EDuke3D.cia": {
@@ -2874,6 +2975,7 @@
 		"github": "machinamentum/CS3DS",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [990125],
 		"icon": "https://raw.githubusercontent.com/machinamentum/CS3DS/master/jge/Projects/cspsp/icon_3ds.png",
 		"scripts": {
 			"[prerelease] cspsp.cia": {
@@ -2963,6 +3065,7 @@
 		"github": "Cruel/DrawAttack",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [30488],
 		"image": "https://raw.githubusercontent.com/Cruel/DrawAttack/master/res/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/Cruel/DrawAttack/master/res/app/icon.png"
 	},
@@ -2971,6 +3074,7 @@
 		"title": "Falling Blocks Watch Out",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [64101],
 		"description": "Falling Blocks Watch Out, a 3DS homebrew Tetris clone.",
 		"archive": {
 			"fbwo.*\\.zip": {
@@ -2983,6 +3087,7 @@
 		"github": "GiantBlargg/UpdateSuppressor",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [128260],
 		"image": "https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/banner.png",
 		"icon": "https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/icon.png",
 		"archive": {
@@ -2995,6 +3100,7 @@
 		"github": "suloku/pdrpse",
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
+		"unique_ids": [1017951],
 		"icon": "https://raw.githubusercontent.com/suloku/pdrpse/master/icon.png",
 		"archive": {
 			"pdrpse.*\\.zip": {
@@ -3007,6 +3113,7 @@
 		"github": "CTurt/3DSController",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [987074],
 		"image": "https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/banner.png",
 		"icon": "https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/icon48x48.png",
 		"archive": {
@@ -3020,6 +3127,7 @@
 		"github": "SuperSaiyajinStackZ/PKCount",
 		"systems": ["DS", "3DS"],
 		"categories": ["utility"],
+		"unique_ids": [275200],
 		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/PKCount/master/3DS/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/PKCount/master/3DS/app/icon.png"
 	},
@@ -3027,6 +3135,7 @@
 		"github": "NPXTobi/Demo-Reset",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [476512],
 		"image": "https://raw.githubusercontent.com/NPXTobi/Demo-Reset/master/cia/banner.png",
 		"icon": "https://raw.githubusercontent.com/NPXTobi/Demo-Reset/master/gfx/icon.png",
 		"author": "NPX-I7/Tobi",
@@ -3036,6 +3145,7 @@
 		"github": "SuperSaiyajinStackZ/3DZwei",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [275864],
 		"long_description": "A memory cardgame clone for Nintendo 3DS.",
 		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/icon.png",
@@ -3055,6 +3165,7 @@
 		"github": "RocketRobz/HoriHD-Gallery",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [295070],
 		"image": "https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/icon.png",
 		"long_description": "A demonstration of the 800px mode on 3DS consoles. Will not work on O2DS consoles.",
@@ -3069,6 +3180,7 @@
 		"github": "hax0kartik/wumiibo",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [57105],
 		"image": "https://raw.githubusercontent.com/hax0kartik/wumiibo/master/wumiibohelper/gfx/icon.png",
 		"autogen_scripts": true,
 		"scripts": {
@@ -3096,6 +3208,7 @@
 		"github": "masterfeizz/daedalusx64-3DS",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
+		"unique_ids": [896723],
 		"image": "https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/master/Source/SysCTR/Resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/master/Source/SysCTR/Resources/icon.png",
 		"prerelease": {
@@ -3145,6 +3258,7 @@
 		"github": "SuperSaiyajinStackZ/LeafEdit-Pattern-Editor",
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
+		"unique_ids": [275489],
 		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/master/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/master/app/icon.png"
 	},
@@ -3462,6 +3576,7 @@
 		"github": "dragos240/TownManager",
 		"systems": ["3DS"],
 		"categories": ["utility", "save-tool"],
+		"unique_ids": [72067],
 		"image": "https://raw.githubusercontent.com/dragos240/TownManager/master/res/banner%20icon.png",
 		"icon": "https://raw.githubusercontent.com/dragos240/TownManager/master/icon.png",
 		"archive": {
@@ -3526,6 +3641,7 @@
 		"created": "2019-07-23T19:16:11Z",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [130828],
 		"downloads": {
 			"TWPatch.3dsx": {
 				"url": "https://gbatemp.net/download/twpatch.37400/version/38954/download?file=312135"
@@ -3793,6 +3909,7 @@
 		"github": "Oreo639/LimePlayer3DS",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [973318],
 		"image": "https://raw.githubusercontent.com/Oreo639/LimePlayer3DS/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/Oreo639/LimePlayer3DS/master/meta/icon.png"
 	},
@@ -3815,6 +3932,7 @@
 		"author": "RSDuck and GamesSanti",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [1026852],
 		"image": "https://user-images.githubusercontent.com/68710005/100094866-6c014180-2e38-11eb-9139-c4e9784e2c1b.png",
 		"icon": "https://raw.githubusercontent.com/GamesSanti/Craftus-Reskined/main/icon/craftusreloaded.png",
 		"long_description": "A modified version of Craftus Reloaded with a better texture pack and new blocks."
@@ -3859,6 +3977,7 @@
 		"github": "libretro/RetroArch",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
+		"unique_ids": [764928],
 		"icon": "https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/ctr/assets/default.png",
 		"image": "https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/ctr/assets/libretro_banner.png",
 		"download_page": "f\"https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds\"",
@@ -4065,6 +4184,7 @@
 		"description": "Port of Sonic CD to the 3DS, based on Rubberduckycooly's Sonic CD decompilation",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [12417],
 		"image": "https://raw.githubusercontent.com/SaturnSH2x2/Sonic-CD-11-Decompilation/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/SaturnSH2x2/Sonic-CD-11-Decompilation/master/resources/48x48.png",
 		"long_description": "Port of Sonic CD to the 3DS, based on Rubberduckycooly's Sonic CD decompilation.\n\nIn order to run the game, you need to copy the \"Data.rsdk\" file from the Steam version of Sonic CD to \"/3ds/SonicCD\" on your SD card.",
@@ -4076,6 +4196,7 @@
 		"description": "Port of Sonic 1 and 2 to the 3DS, based on Rubberduckycooly's Sonic 1/2 (2013) decompilation",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [18331, 18332],
 		"image": "https://raw.githubusercontent.com/JeffRuLz/Sonic-1-2-2013-Decompilation/main/Sonic1Decomp.3DS/banner/banner.png",
 		"icon": "https://raw.githubusercontent.com/JeffRuLz/Sonic-1-2-2013-Decompilation/main/Sonic1Decomp.3DS/banner/icon.png",
 		"long_description": "Port of Sonic 1 and 2 to the 3DS, based on Rubberduckycooly's Sonic 1/2 (2013) decompilation.\n\nIn order to run the game, you need to get the \"Data.rsdk.xmf\" file from a copy of Sonic 1 or 2 (2013), rename it to \"Data.rsdk\", and copy it to \"/3ds/Sonic1\" or \"/3ds/Sonic2\" respectively on your SD card.\n\nOfficial video guide on how to get the \"Data.rsdk.xmf\" file from each game: <https://www.youtube.com/watch?v=gzIfRW91IxE>",
@@ -4094,6 +4215,7 @@
 		"author": "TCPixel",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [225771],
 		"icon": "https://raw.githubusercontent.com/CollinScripter/Revamped3DS/master/icon.png",
 		"scripts": {
 			"Revamped.cia": [
@@ -4192,6 +4314,7 @@
 		"github": "NPI-D7/BCSTM-Player",
 		"categories": ["utility"],
 		"systems": ["3DS"],
+		"unique_ids": [493875],
 		"icon": "https://raw.githubusercontent.com/NPI-D7/BCSTM-Player/main/app/icon.png",
 		"image": "https://raw.githubusercontent.com/NPI-D7/BCSTM-Player/main/app/banner.png"
 	},
@@ -4242,6 +4365,7 @@
 		"author": "MateoThePro, JeffRuLz, Matt Makes Games",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [64457],
 		"website": "https://celestegame.fandom.com/wiki/Celeste_Classic",
 		"icon": "https://raw.githubusercontent.com/MateoThePro/Celeste-Classic-3DS/main/celeste_classic_3ds_icon.png",
 		"image": "https://raw.githubusercontent.com/MateoThePro/Celeste-Classic-3DS/main/celeste_classic_3ds_icon.png",
@@ -4260,6 +4384,7 @@
 		"description": "You can play .mp4 file on your 3DS!",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [968192],
 		"image": "https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/banner.png",
 		"icon": "https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/icon.png",
 		"long_description": "You can play .mp4 file on your 3DS!\n\nPerformance\nSoftware decoding\n256x144(144p)@30fps(H.264) on OLD 3DS\n640x360(360p)@24fps(H.264) on NEW 3DS\nHardware decoding (new 3ds only)\n854x480(480p)@40~50fps(H.264) on NEW 3DS",
@@ -4270,6 +4395,7 @@
 		"title": "Line for 3DS",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [969040],
 		"image": "https://raw.githubusercontent.com/Core-2-Extreme/Line_for_3DS/master/resource/banner.png",
 		"icon": "https://raw.githubusercontent.com/Core-2-Extreme/Line_for_3DS/master/resource/icon.png",
 		"long_description": "You can use line on your 3DS!\n* You need to set up your account\n* how to set up : <https://gbatemp.net/threads/v0-2-0-release-guide-line-for-3ds.539530/>",
@@ -4290,6 +4416,7 @@
 		"title": "Dungeons of Daggorath 3DS",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [253197],
 		"icon": "https://raw.githubusercontent.com/pyroticinsanity/3dsdod/master/banner/3dsdod-icon.png",
 		"long_description": "A port of the TRS-80 game \"Dungeons of Daggorath.\" The original game is controlled by typing commands on the computer, so they are assigned to the 3DS buttons in this port. You can also make custom commands when you press the L button."
 	},
@@ -4298,6 +4425,7 @@
 		"author": "CTGP-7 Team",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [198412],
 		"description": "CTGP-7 modpack for Mario Kart 7.\nMore info: ctgp-7.github.io",
 		"long_description": "CTGP-7 is a modpack for Mario Kart 7 which includes several custom tracks, characters and music, as well as extra features such as a speedometer, speed modifier, backwards camera, among others. More info in the [CTGP-7 website](https://ctgp-7.github.io/).",
 		"created": "2015-01-01T00:00:00Z",
@@ -4393,6 +4521,7 @@
 		"github": "SuperSaiyajinStackZ/StackMill",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [275721],
 		"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/StackMill/main/3DS/app/icon.png",
 		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/StackMill/main/3DS/app/banner.png"
 	},
@@ -4428,6 +4557,7 @@
 		"github": "windows-server-2003/ThirdTube",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [784205],
 		"icon": "https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/icon.png",
 		"image": "https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/banner.png",
 		"website": "https://gbatemp.net/threads/release-thirdtube-a-homebrew-youtube-client-for-the-new-3ds.591696/"
@@ -4437,7 +4567,8 @@
 		"description": "Atari 8-bit computer and 5200 console emulator - Unofficial CIA release",
 		"title": "Atari800 (RandomMan25XX)",
 		"systems": ["3DS"],
-		"categories": ["emulator"]
+		"categories": ["emulator"],
+		"unique_ids": [688128]
 	},
 	{
 		"github": "asiekierka/atari800-3ds",
@@ -4508,6 +4639,7 @@
 		"github": "diasurgical/devilutionX",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [258965],
 		"image": "https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/banner.png",
 		"icon": "https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/icon.png",
 		"scripts": {
@@ -4537,6 +4669,7 @@
 		"github": "Omega-Numworks/Omega",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [431136],
 		"image": "https://raw.githubusercontent.com/Omega-Numworks/Omega/omega-master/ion/src/simulator/3ds/assets/banner.png",
 		"icon": "https://raw.githubusercontent.com/Omega-Numworks/Omega/omega-master/ion/src/simulator/3ds/assets/logo.png",
 		"download_filter": "(\\.3dsx|\\.cia)",
@@ -4555,6 +4688,7 @@
 		"github": "SombrAbsol/GameYob-3DS",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
+		"unique_ids": [6439],
 		"icon": "https://raw.githubusercontent.com/SombrAbsol/GameYob-3DS/main/resources/icon.png"
 	},
 	{
@@ -4722,6 +4856,7 @@
 		"author": "Strrationalism Studio",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
+		"unique_ids": [995480],
 		"image": "https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/banner.png",
 		"icon": "https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/icon.png",
 		"download_filter": "(\\.3dsx|\\.cia)"
@@ -4775,6 +4910,7 @@
 		"github": "NPI-D7/Flappy-Bird",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [413040],
 		"description": "A Clone of Flappy-Bird for the 3ds.",
 		"image": "https://raw.githubusercontent.com/NPI-D7/Flappy-Bird/master/app/banner.png",
 		"icon": "https://raw.githubusercontent.com/NPI-D7/Flappy-Bird/screenshots/app/icon.png",
@@ -4785,6 +4921,7 @@
 		"title": "vice3DS",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
+		"unique_ids": [1045690],
 		"description": "Port of the VICE C64 (x64) emulator to 3DS",
 		"long_description": "Port of the VICE C64 (x64) emulator to 3DS. VICE - the Versatile Commodore Emulator - http://vice-emu.sourceforge.net/\n\nIncluding UI for the 3DS bottom screen, and a lot of new & 3DS-exclusive functionality.",
 		"website": "https://gbatemp.net/threads/release-vice3ds-c64-emulator.534830/",
@@ -4794,6 +4931,7 @@
 		"github": "badda71/uae3DS",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
+		"unique_ids": [300611],
 		"description": "Port of Chui's UAE4ALL Amiga 500 emulator to Nintendo 3DS",
 		"long_description": "Port of Chui's UAE4ALL Amiga 500 emulator (http://chui.dcemu.co.uk/uae4all.html) to Nintendo 3DS",
 		"website": "https://gbatemp.net/threads/release-uae3ds-amiga-500-emulator-for-nintendo-3ds.558577/",
@@ -4805,6 +4943,7 @@
 		"github": "badda71/TinyVNC",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [795699],
 		"website": "https://gbatemp.net/threads/release-tinyvnc-vnc-viewer-for-nintendo-3ds.574242/",
 		"image": "https://raw.githubusercontent.com/badda71/TinyVNC/master/meta/banner.png",
 		"icon": "https://raw.githubusercontent.com/badda71/TinyVNC/master/meta/icon.png"
@@ -4864,6 +5003,7 @@
 		"github": "LopezTutoriales/FBI-Spanish",
 		"title": "FBI En Español",
 		"systems": ["3DS"],
+		"unique_ids": [1015809],
 		"categories": ["utility", "translation"],
 		"long_description": "### Características\n\n- Explore y modifique la tarjeta SD, las fotos TWL, los sonidos TWL, guarde datos y ext guarde datos.\n\n- Exporte, importe y borre datos guardados de cartuchos DS.\n\n- Exporte, importe y elimine valores seguros de datos guardados.\n\n- Instale títulos/boletos desde un sistema de archivos, a través de una red local o a través de Internet con una URL o un código QR.\n\n> Se importan automáticamente las semillas del título en la instalación, ya sea desde Internet o desde la tarjeta SD.\n\n- Explore y elimine títulos pendientes (actualizaciones descargadas, títulos de eShop en curso, etc.).\n\n- Personalice la apariencia colocando reemplazos para los recursos de RomFS en \"sdmc:/fbi/theme/\".\n\n-  Solo disponible cuando se ejecuta desde CIA, 3DS o 3DSX bajo Luma3DS:\n\n> Explore y modifique CTR NAND, TWL NAND y datos guardados del sistema.\n\n> Vuelque la NAND original sin procesar en la tarjeta SD.\n\n> Inicie títulos instalados en el sistema."
 	},
@@ -4871,6 +5011,7 @@
 		"github": "Robichani6-1/JKSM-ES",
 		"systems": ["3DS"],
 		"categories": ["utility", "translation"],
+		"unique_ids": [180786],
 		"icon": "https://github.com/Robichani6-1/JKSM-ES/raw/master/icon.png",
 		"image": "https://github.com/Robichani6-1/JKSM-ES/raw/master/resources/banner.png"
 	},
@@ -4878,6 +5019,7 @@
 		"github": "Robichani6-1/FTPD-ES",
 		"systems": ["3DS"],
 		"categories": ["utility", "translation"],
+		"unique_ids": [782069],
 		"icon": "https://github.com/Robichani6-1/FTPD-ES/raw/master/meta/icon.png",
 		"image": "https://github.com/Robichani6-1/FTPD-ES/raw/master/meta/banner.png"
 	},
@@ -4892,6 +5034,7 @@
 		"github": "Robichani6-1/Better-TJAPlayer-ES",
 		"systems": ["3DS"],
 		"categories": ["game", "translation"],
+		"unique_ids": [46951],
 		"icon": "https://github.com/Robichani6-1/Better-TJAPlayer-ES/raw/master/resources/icon.png",
 		"image": "https://github.com/Robichani6-1/Better-TJAPlayer-ES/raw/master/resources/banner.png"
 	},
@@ -4909,6 +5052,7 @@
 		"github": "Robichani6-1/Anemone3DS-ES",
 		"systems": ["3DS"],
 		"categories": ["utility", "translation"],
+		"unique_ids": [765920],
 		"icon": "https://github.com/Robichani6-1/Anemone3DS-ES/raw/master/meta/icon.png",
 		"image": "https://github.com/Robichani6-1/Anemone3DS-ES/raw/master/meta/banner.png"
 	},
@@ -4916,6 +5060,7 @@
 		"github": "Robichani6-1/sysUpdater-ES",
 		"systems": ["3DS"],
 		"categories": ["utility", "translation"],
+		"unique_ids": [983047],
 		"icon": "https://github.com/Robichani6-1/sysUpdater-ES/raw/master/app/icon48x48.png",
 		"image": "https://github.com/Robichani6-1/sysUpdater-ES/raw/master/app/banner.png"
 	},
@@ -4948,6 +5093,7 @@
 		"github": "Robichani6-1/wumiibohelper-ES",
 		"systems": ["3DS"],
 		"categories": ["utility", "translation"],
+		"unique_ids": [57105],
 		"icon": "https://github.com/Robichani6-1/wumiibohelper-ES/raw/main/gfx/icon_app.png",
 		"image": "https://github.com/Robichani6-1/wumiibohelper-ES/raw/main/cia/banner.png"
 	},
@@ -4970,6 +5116,7 @@
 		"github": "cooolgamer/Anemone3DS-FR",
 		"systems": ["3DS"],
 		"categories": ["utility", "translation"],
+		"unique_ids": [765920],
 		"image": "https://github.com/cooolgamer/Anemone3DS-FR/raw/master/meta/banner.png"
 	},
 	{
@@ -5094,6 +5241,7 @@
 		"source": "https://github.com/MaikelChan/SpaceCadetPinball/tree/3ds",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [137785],
 		"image": "https://github.com/MaikelChan/SpaceCadetPinball/raw/3ds/ctr/banner.png",
 		"icon": "https://github.com/MaikelChan/SpaceCadetPinball/raw/3ds/ctr/icon.png",
 		"long_description": "# 3D Pinball - Space Cadet for 3DS\n\nThis is a port of 3D Pinball - Space Cadet for Nintendo 3DS. It's originally a game that came bundled with Windows from Windows 95 up to Windows XP. This is the current state of the project:\n\n- No menus, options, or results screen.\n- It plays sound effects and music (if the player supplies the music in OGG format).\n- There are still some bugs here and there.\n- It should be running fine on New 3DS, but on a regular 3DS it runs slow.\n\nIt is based on the PC decompilation made by [k4zmu2a](https://github.com/k4zmu2a): https://github.com/k4zmu2a/SpaceCadetPinball\n\nThe PC decompilation uses SDL2 to render the game. This 3DS port has been changed to use native GPU rendering with the Citro3D library.\n\n## How to build\n\nThe main requirement is to have [devkitPro](https://devkitpro.org).\n\nFollow the instructions to install devkitPro here: https://devkitpro.org/wiki/Getting_Started\nYou will also need the 3DS development package, and also the libraries 3ds-sdl and 3ds-sdl_mixer.\n\nIf you use Windows or Ubuntu, here are more detailed instructions.\n\n### Windows\n\nEven though devkitPro offers a Windows installer, I've had some issues setting it up. It's easier to use WSL. If you want to use the Windows installer anyway, check the link above for instructions.\n\n1. Install [WSL](https://docs.microsoft.com/en-us/windows/wsl/install). By default it will install Ubuntu, which is fine.\n2. Open a WSL terminal and just follow the Ubuntu instructions below. With the difference that, if you want to clone the project into, for example, the `C:\\` folder, you will need move to that folder inside the terminal with the command `cd /mnt/c/`.\n\n### Ubuntu and other Debian based linux distros\n\n1. Open the terminal in the folder where you want to clone the project.\n2. Clone it with the command `git clone --branch 3ds https://github.com/MaikelChan/SpaceCadetPinball`. A subfolder called `SpaceCadetPinball` will be created containing the project.\n3. Move to that subfolder with `cd SpaceCadetPinball`.\n4. Download the latest version of the [custom devkitPro pacman](https://github.com/devkitPro/pacman/releases/tag/v1.0.2), that will be used to download the compilers and libraries to build the project. Once downloaded, put it in the `SpaceCadetPinball` folder.\n5. Install devkitPro pacman with this command: `sudo gdebi devkitpro-pacman.amd64.deb`. If gdebi is not found, install it with `sudo apt install gdebi-core`, and then try again installing pacman.\n6. Use the following command to sync pacman databases: `sudo dkp-pacman -Sy`.\n7. Now update packages with `sudo dkp-pacman -Syu`.\n8. Install the 3DS development tools with `sudo dkp-pacman -S 3ds-dev`.\n9. Install SDL with `sudo dkp-pacman -S 3ds-sdl`.\n10. Install SDL_mixer with `sudo dkp-pacman -S 3ds-sdl_mixer`.\n11. Set the DEVKITPRO environment variables so the system knows where the compilers and libraries are installed with these commands:\n    - `export DEVKITPRO=/opt/devkitpro`.\n    - `export DEVKITARM=/opt/devkitpro/devkitARM`.\n12. To generate Build the project with the command `make -j4`.\n13. Optionally, to generate a CIA file, you will need to have [bannertool](https://github.com/Steveice10/bannertool/releases/) and [makerom](https://github.com/3DSGuy/Project_CTR/releases) in the `$DEVKITPRO/tools/bin` folder. Then build the project with the command `make -j4 BUILD_CIA=1`.\n\nAfter a successful build, you will get a file called `SpaceCadetPinball.3dsx`, which is the main executable.\n\n## How to run\n\n### 3DS with Homebrew Launcher\n\n1. Go to your SD card and enter the `3ds` folder.\n2. Copy `SpaceCadetPinbal.3dsx` into the `3ds` folder.\n3. Make sure you have your `dspfirm.cdc` in the `3ds` folder, as you will need it to have sound in homebrew games. If you don't have it, [dump your DSP](https://github.com/zoogie/DSP1/releases/latest).\n4. Inside the `3ds` folder, create a new folder named `SpaceCadetPinball`.\n5. For legal reasons, you will need to get the original PC game on your own to obtain the assets like graphics and sound effects. Those are not contained in this repository.\n6. Copy all files from the original PC version into the `SpaceCadetPinball` folder that was created earlier.\n7. Optionally, since this port doesn't play MIDI files, you'll need to convert the music to ogg format, and call the file `PINBALL.ogg`, and put it along the other assets in the `SpaceCadetPinball` folder. Make sure that the music has a sample rate no higher than 44100Hz, or it won't play correctly.\n8. If everything went fine, you should be able to run the game from the Homebrew Launcher.\n\n### Citra\n\n1. Get the [Citra emulator](https://citra-emu.org/download/) if you don't have it.\n2. Open it and go to the menu `File/Open Citra Folder`. This will open the folder where Citra's configuration is stored.\n3. Go to the `sdmc` folder and create a new folder there named `3ds` if it doesn't exist already.\n4. Enter the `3ds` folder and create an empty file there named `dspfirm.cdc`. This will allow to have audio in homebrew apps.\n5. Inside the `3ds` folder create another folder named `SpaceCadetPinball`.\n6. For legal reasons, you will need to get the original PC game on your own to obtain the assets like graphics and sound effects. Those are not contained in this repository.\n7. Copy all PC game's assets to the `SpaceCadetPinball` folder that was created earlier.\n8. Optionally, since this port doesn't play MIDI files, you'll need to convert the music to ogg format, and call the file `PINBALL.ogg`, and put it along the other assets in the `SpaceCadetPinball` folder. Make sure that the music has a sample rate no higher than 44100Hz, or it won't play correctly.\n9. If everything went fine, you should be able to run the game.\n\n## How to play\n\n| Button               | Action                                            |\n|----------------------|---------------------------------------------------|\n| A                    | Launch the ball                                   |\n| L                    | Move the left paddle                              |\n| R                    | Move the right paddle                             |\n| DPad Left, Right, Up | Bump table                                        |\n| X                    | Start a new game                                  |\n| Y                    | Exit the game                                     |\n| Start                | Pause                                             |\n",
@@ -5112,6 +5260,7 @@
 		"source": "https://github.com/angband/angband",
 		"systems": ["3DS", "DS"],
 		"categories": ["game"],
+		"unique_ids": [1045503],
 		"image": "https://github.com/angband.png",
 		"icon": "https://github.com/angband.png?size=48",
 		"long_description": "Angband is a graphical dungeon adventure game that uses textual characters to represent the walls and floors of a dungeon and the inhabitants therein, in the vein of games like NetHack and Rogue. If you need help in-game, press ?.",
@@ -5204,6 +5353,7 @@
 		"github": "PabloMK7/EzB9SUpdater",
 		"systems": ["3DS"],
 		"categories": ["utility"],
+		"unique_ids": [969621],
 		"icon": "https://raw.githubusercontent.com/PabloMK7/EzB9SUpdater/main/resources/icon.png",
 		"image": "https://raw.githubusercontent.com/PabloMK7/EzB9SUpdater/main/resources/banner.png",
 		"long_description": "EzB9SUpdater is an utility that allows updating to the latest Boot9Strap version directly on the 3DS without the need of a computer or SD card reader. This tool downloads the latest Boot9Strap and SafeB9SInstaller to the SD card and starts the B9S update process. Since the app fetches the latest version and configuration from its github repo, it can be adjusted or disabled remotely if a new version of B9S is released again or compatibility is lost. As the app does exactly the same steps as the 3DS hacking guide, it's perfectly safe to use.\n\n## Usage\n\n1. Install the EzB9SUpdater cia or scan the QR code above.\n1. Launch the EzB9SUpdater app from the Home Menu.\n1. Follow the instructions in the app. At some point, you will be asked to press and hold the START button to reboot into SafeB9SInstaller. It is important that you keep holding the button until you see the SafeB9SInstaller screen. Otherwise, the console will just reboot into EzB9SUpdater and no update will be performed.\n1. Once you finish the B9S update, you can exit the app and uninstall it from FBI.\n1. In order to check if you updated B9S from 1.3 to 1.4 do the following steps:\n   1. Power off your console.\n   1. Press and hold the following button combination: `X + START + SELECT`.\n   1. Without releasing those buttons, power on your device.\n   1. Your notification LED should lit up for a second ([status codes](https://github.com/PabloMK7/boot9strap/tree/patch-1#led-status-codes)). If it didn't, the update wasn't installed properly."
@@ -5276,6 +5426,7 @@
 		"github": "TurtleP/Antibounce",
 		"systems": ["3DS"],
 		"categories": ["game"],
+		"unique_ids": [42078],
 		"icon": "https://raw.githubusercontent.com/TurtleP/Antibounce/master/graphics/icon.png",
 		"image": "https://raw.githubusercontent.com/TurtleP/Antibounce/master/graphics/title.png",
 		"downloads": {
