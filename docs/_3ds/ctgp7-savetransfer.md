@@ -38,6 +38,8 @@ source: https://github.com/CyberYoshi64/CTGP7-SaveTransfer
 systems:
 - 3DS
 title: CTGP7-SaveTransfer
+unique_ids:
+- '0x16902'
 update_notes: '<ul dir="auto">
 
   <li>Changed app design to green</li>

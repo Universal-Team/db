@@ -31,6 +31,8 @@ source: https://github.com/JustSofter/ThirdTube-ES
 systems:
 - 3DS
 title: ThirdTube-ES
+unique_ids:
+- '0xBF74D'
 update_notes: '<p dir="auto">Novedades: Se han traducido varias partes que no estaban
   traducidas en la versión final - Versión basada en ThirdTube 0.5.0</p>'
 updated: '2022-08-22T18:59:11Z'
