@@ -505,8 +505,8 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 			print(app["slug"])
 
 			app["urls"] = []
-			for system in app["systems"]:
-				app["urls"].append(f"https://db.universal-team.net/{system.lower()}/{app['slug']}")
+			for sys in app["systems"]:
+				app["urls"].append(f"https://db.universal-team.net/{sys.lower()}/{app['slug']}")
 
 		# Make QR
 		if not foundExisting or not (priorityOnlyMode and not ("priority" in app and app["priority"])):
