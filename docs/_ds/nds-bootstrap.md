@@ -58,7 +58,8 @@ update_notes: '<p dir="auto">Instructions:</p>
   <li>The pack''s filename must have the TID and CRC from the ROM''s header (ex. <code
   class="notranslate">KS3E-57FE.pck</code>)</li>
 
-  <li>The pack files and creator are currently unavailable.</li>
+  <li>The pack files are currently unavailable, but the creator can be downloaded
+  <a href="https://github.com/DS-Homebrew/nds-bootstrap-extras/tree/main/musicPackCreator">here</a>.</li>
 
   <li>This will only work with those two games. Other games are not supported.</li>
 
