@@ -31,6 +31,8 @@ source: https://github.com/MrHuu/openbor-3ds
 systems:
 - 3DS
 title: openbor-3ds
+unique_ids:
+- '0xB043D'
 update_notes: '<p dir="auto">Changes:</p>
 
   <ul dir="auto">

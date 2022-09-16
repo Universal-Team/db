@@ -49,6 +49,9 @@ source: https://github.com/Nanquitas/BootNTR
 systems:
 - 3DS
 title: BootNTR
+unique_ids:
+- '0xEB000'
+- '0xEB300'
 update_notes: '<h1 dir="auto">This release is currently broken with official Luma3DS!</h1>
 
   <p dir="auto">You can temporarily use the <a href="https://github.com/Nanquitas/Luma3DS/releases">Luma3DS

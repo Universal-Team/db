@@ -77,6 +77,8 @@ source: https://github.com/Universal-Team/Universal-Updater
 systems:
 - 3DS
 title: Universal-Updater
+unique_ids:
+- '0x43917'
 unistore_exclude: true
 update_notes: "<h3 dir=\"auto\">What's new?</h3>\n<ul dir=\"auto\">\n<li>\n<p dir=\"\
   auto\">(<a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"\

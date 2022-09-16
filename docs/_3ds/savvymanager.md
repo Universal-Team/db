@@ -39,6 +39,8 @@ source: https://github.com/RocketRobz/SavvyManager
 systems:
 - 3DS
 title: SavvyManager
+unique_ids:
+- '0x36973'
 update_notes: '<p dir="auto"><strong>UPDATE 9/10/2022:</strong> Fixed bug where custom
   character importing would either not work (in Citra) or cause a crash (on real hardware).</p>
 
