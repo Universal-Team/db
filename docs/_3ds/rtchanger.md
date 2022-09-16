@@ -35,6 +35,8 @@ source: https://github.com/Storm-Eagle20/RTChanger
 systems:
 - 3DS
 title: RTChanger
+unique_ids:
+- '0xFCCC'
 update_notes: <p dir="auto">Please read the README.md before attempting to use this
   program. With Arm9LoaderHax, you can only use the .CIA version. You are required
   to restart your system when setting the Raw RTC.</p>

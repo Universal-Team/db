@@ -31,6 +31,8 @@ source: https://github.com/noirscape/SRAU
 systems:
 - 3DS
 title: SRAU
+unique_ids:
+- '0xEF101'
 update_notes: '<p dir="auto">This release mostly adds in a lot of missing error checks
   and adds in gamecard support + support for mismatched regions.</p>
 

@@ -24,6 +24,8 @@ source: https://github.com/Asellus/3DS_Quick_Reboot
 systems:
 - 3DS
 title: 3DS_Quick_Reboot
+unique_ids:
+- '0xF0023'
 update_notes: '<ul dir="auto">
 
   <li>Fixed UNIQUE_ID</li>

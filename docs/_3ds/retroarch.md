@@ -36,6 +36,8 @@ source: https://github.com/libretro/RetroArch
 systems:
 - 3DS
 title: RetroArch
+unique_ids:
+- '0xBAC00'
 update_notes: '<ul dir="auto">
 
   <li>ANDROID: Decouple Play Core dependency to bring app into compliance for F-Droid</li>

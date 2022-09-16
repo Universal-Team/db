@@ -22,6 +22,8 @@ source: https://github.com/TurtleP/Hax0r
 systems:
 - 3DS
 title: Hax0r
+unique_ids:
+- '0xD39A'
 update_notes: '<p dir="auto">Welp I messed up after Love Potion updated.</p>
 
   <p dir="auto">Here''s a fix for it.</p>

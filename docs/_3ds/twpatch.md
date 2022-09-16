@@ -22,6 +22,8 @@ qr:
 systems:
 - 3DS
 title: TWPatch
+unique_ids:
+- '0x1FF0C'
 update_notes: '<p>Added a patch to disable CPad emulation, for those with broken CPad.</p>
 
   '

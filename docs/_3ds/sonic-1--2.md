@@ -62,6 +62,9 @@ source: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation
 systems:
 - 3DS
 title: Sonic 1 / 2
+unique_ids:
+- '0x479B'
+- '0x479C'
 update_notes: '<p dir="auto">A New 3DS is required for these games to play smoothly.</p>
 
   <h3 dir="auto">Updates</h3>

@@ -37,6 +37,8 @@ source: https://github.com/LopezTutoriales/FBI-Spanish
 systems:
 - 3DS
 title: FBI En Español
+unique_ids:
+- '0xF8001'
 update_notes: '<ul dir="auto">
 
   <li>Corrección de la incapacidad para cancelar la eliminación de datos adicionales

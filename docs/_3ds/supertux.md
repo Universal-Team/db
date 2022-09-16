@@ -29,6 +29,8 @@ source: https://github.com/nop90/Supertux-Milestone1-3ds
 systems:
 - 3DS
 title: Supertux
+unique_ids:
+- '0x9982'
 updated: '2017-03-22T22:55:55Z'
 version: v0.1
 version_title: First release

@@ -35,6 +35,8 @@ source: https://github.com/Jacudibu/Snake2DS
 systems:
 - 3DS
 title: Snake2DS
+unique_ids:
+- '0x1043'
 update_notes: '<p dir="auto"><strong>Install instructions</strong></p>
 
   <p dir="auto"><strong>3DS (Homebrew only):</strong><br>

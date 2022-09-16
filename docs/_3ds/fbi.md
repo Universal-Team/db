@@ -41,6 +41,8 @@ source: https://github.com/Steveice10/FBI
 systems:
 - 3DS
 title: FBI
+unique_ids:
+- '0xF8001'
 update_notes: '<ul dir="auto">
 
   <li>Fix inability to cancel ext save data deletion.</li>

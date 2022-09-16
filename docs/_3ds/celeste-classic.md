@@ -27,6 +27,8 @@ source: https://github.com/MateoThePro/Celeste-Classic-3DS
 systems:
 - 3DS
 title: Celeste Classic
+unique_ids:
+- '0xFBC9'
 updated: '2021-04-16T00:00:00Z'
 version: '1.0'
 website: https://celestegame.fandom.com/wiki/Celeste_Classic

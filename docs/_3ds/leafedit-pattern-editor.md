@@ -64,6 +64,8 @@ source: https://github.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor
 systems:
 - 3DS
 title: LeafEdit-Pattern-Editor
+unique_ids:
+- '0x43421'
 update_notes: '<h2 dir="auto">This is the fourth release of LeafEdit-Pattern-Editor.</h2>
 
   <h3 dir="auto">What got added?</h3>

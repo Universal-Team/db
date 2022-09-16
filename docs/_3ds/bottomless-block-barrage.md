@@ -39,6 +39,8 @@ source: https://github.com/TricksterGuy/bottomless-block-barrage
 systems:
 - 3DS
 title: Bottomless Block Barrage
+unique_ids:
+- '0xB0B1B'
 update_notes: '<h2 dir="auto">Whats new</h2>
 
   <p dir="auto">Goal Marker in Score mode type lines.<br>

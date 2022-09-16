@@ -23,6 +23,8 @@ source: https://github.com/bubble2k16/temperpce_3ds
 systems:
 - 3DS
 title: TemperPCE
+unique_ids:
+- '0x384B'
 update_notes: '<ul dir="auto">
 
   <li>Fixed the sound lag problem.</li>

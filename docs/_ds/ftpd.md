@@ -54,6 +54,8 @@ systems:
 - 3DS
 - DS
 title: ftpd
+unique_ids:
+- '0xBEEF5'
 update_notes: '<ul dir="auto">
 
   <li>Access Point mode on Switch</li>

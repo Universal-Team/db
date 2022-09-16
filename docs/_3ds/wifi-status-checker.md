@@ -29,6 +29,8 @@ source: https://github.com/hide0123/WiFi-Status-Checker
 systems:
 - 3DS
 title: WiFi-Status-Checker
+unique_ids:
+- '0x1232'
 update_notes: <p>Initial release.</p>
 updated: '2019-05-26T13:57:24Z'
 version: '1.0'

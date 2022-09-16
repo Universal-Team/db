@@ -34,6 +34,8 @@ source: https://github.com/DanTheMan827/tikSweep
 systems:
 - 3DS
 title: tikSweep
+unique_ids:
+- '0xA8BF'
 update_notes: '<p dir="auto">The only thing changed in this build are the buildtools.</p>
 
   <p dir="auto">This causes the boot screen to go to the generic homebrew one instead

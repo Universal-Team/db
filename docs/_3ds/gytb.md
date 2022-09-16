@@ -32,6 +32,8 @@ source: https://github.com/MechanicalDragon0687/GYTB
 systems:
 - 3DS
 title: GYTB
+unique_ids:
+- '0x1DDB'
 update_notes: '<p dir="auto">forked to provide release for use in tinyDB<br>
 
   Thanks MrCheeze</p>'

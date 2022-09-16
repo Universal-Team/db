@@ -30,6 +30,8 @@ source: https://github.com/d0k3/CTRXplorer
 systems:
 - 3DS
 title: CTRXplorer
+unique_ids:
+- '0x2870'
 update_notes: '<p dir="auto">What''s new:<br>
 
   o Virtual keyboard available for string mode editing in hex editor</p>

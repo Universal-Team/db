@@ -30,6 +30,8 @@ source: https://github.com/Ryuzaki-MrL/NotifyMii
 systems:
 - 3DS
 title: NotifyMii
+unique_ids:
+- '0xED990'
 update_notes: '<p dir="auto">If everything''s working then this will be my last release
   for now.</p>
 

@@ -29,6 +29,8 @@ source: https://github.com/Manurocker95/TRekt_3D
 systems:
 - 3DS
 title: TRekt_3D
+unique_ids:
+- '0xFAC4C'
 update_notes: <p dir="auto">Just one meteorite falls. Debug Mode activated by default</p>
 updated: '2017-08-26T15:39:19Z'
 version: '1.0'

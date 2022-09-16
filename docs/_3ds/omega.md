@@ -32,6 +32,8 @@ source: https://github.com/Omega-Numworks/Omega
 systems:
 - 3DS
 title: Omega
+unique_ids:
+- '0x69420'
 updated: '2022-04-17T13:56:26Z'
 version: O2.0.2-E15
 version_title: O2.0.2-E15

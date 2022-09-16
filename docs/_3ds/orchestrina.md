@@ -25,6 +25,8 @@ source: https://github.com/EBLeifEricson/orchestrina
 systems:
 - 3DS
 title: Orchestrina
+unique_ids:
+- '0xF1020'
 update_notes: '<p dir="auto">This release features a major redesign of the Wind Waker
   baton in order to more closely reflect the game.</p>
 

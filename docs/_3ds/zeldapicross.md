@@ -27,6 +27,8 @@ source: https://github.com/nop90/ZeldaPicross
 systems:
 - 3DS
 title: ZeldaPicross
+unique_ids:
+- '0x9981'
 updated: '2017-01-02T12:35:39Z'
 version: v1,0RC
 version_title: CIA Build

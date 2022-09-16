@@ -39,6 +39,9 @@ source: https://github.com/dnasdw/SharedFontTool
 systems:
 - 3DS
 title: SharedFontTool
+unique_ids:
+- '0xF0001'
+- '0xF0002'
 update_notes: '<p dir="auto">Fix START exit bug</p>
 
   <p dir="auto">SFontT: ACG SharedFontTool v3.1<br>

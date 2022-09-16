@@ -31,6 +31,8 @@ source: https://github.com/Robichani6-1/JKSM-ES
 systems:
 - 3DS
 title: JKSM-ES
+unique_ids:
+- '0x2C232'
 update_notes: <p dir="auto">Aplicación 100% funcional</p>
 updated: '2021-06-16T19:52:39Z'
 version: '1.0'

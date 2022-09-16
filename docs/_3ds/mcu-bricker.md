@@ -24,6 +24,8 @@ source: https://github.com/MechanicalDragon0687/MCU_Bricker_tinydb
 systems:
 - 3DS
 title: MCU Bricker
+unique_ids:
+- '0xDEAD1'
 updated: '2019-04-01T01:27:47Z'
 version: '1.0'
 ---

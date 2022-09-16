@@ -24,6 +24,8 @@ source: https://github.com/NatTupper/Forecast
 systems:
 - 3DS
 title: Forecast
+unique_ids:
+- '0xE2C77'
 update_notes: '<h2 dir="auto">Fixed</h2>
 
   <ul dir="auto">

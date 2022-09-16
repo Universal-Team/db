@@ -24,6 +24,8 @@ source: https://github.com/PabloMK7/homebrew_launcher_dummy
 systems:
 - 3DS
 title: homebrew_launcher_dummy
+unique_ids:
+- '0xD921E'
 update_notes: <p>Click <code class="notranslate">Homebrew_Launcher.cia</code> to download
   the CIA.</p>
 updated: '2018-07-26T21:33:37Z'

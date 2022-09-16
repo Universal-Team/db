@@ -30,6 +30,8 @@ source: https://github.com/RandomMan25XX/atari800-3ds
 systems:
 - 3DS
 title: Atari800 (RandomMan25XX)
+unique_ids:
+- '0xA8000'
 update_notes: '<p>Once again we get yet another update from asiekierka, and once again
   I push out another updated cia release</p>
 

@@ -28,6 +28,8 @@ source: https://github.com/nop90/ZeldaOLB
 systems:
 - 3DS
 title: ZeldaOLB
+unique_ids:
+- '0x9973'
 update_notes: '<ul dir="auto">
 
   <li>Improved Italian translation</li>

@@ -30,6 +30,8 @@ source: https://github.com/MaikelChan/SpaceCadetPinball/tree/3ds
 systems:
 - 3DS
 title: 3D Pinball - Space Cadet
+unique_ids:
+- '0x21A39'
 update_notes: '<ul dir="auto">
 
   <li>On New 3DS, enable Vsync, high speed mode.</li>

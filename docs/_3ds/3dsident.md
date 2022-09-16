@@ -44,6 +44,9 @@ source: https://github.com/joel16/3DSident
 systems:
 - 3DS
 title: 3DSident
+unique_ids:
+- '0x16000'
+- '0x16100'
 update_notes: '<p dir="auto">I think the time has arrived to close the doors on this
   project. It''s been quite the 2 years and woah, the 405k downloads, that''s quite
   the milestone for me. Thanks to everyone who were a part of this.</p>

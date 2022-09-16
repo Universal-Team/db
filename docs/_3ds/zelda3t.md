@@ -28,6 +28,8 @@ source: https://github.com/nop90/Zelda3T
 systems:
 - 3DS
 title: Zelda3T
+unique_ids:
+- '0x9974'
 update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow"
   href="https://user-images.githubusercontent.com/6418965/30785430-de03a4ba-a166-11e7-8ee4-c1a70f39968c.jpg"><img
   src="https://user-images.githubusercontent.com/6418965/30785430-de03a4ba-a166-11e7-8ee4-c1a70f39968c.jpg"

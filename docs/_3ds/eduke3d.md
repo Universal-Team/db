@@ -55,6 +55,8 @@ source: https://github.com/masterfeizz/EDuke3D
 systems:
 - 3DS
 title: EDuke3D
+unique_ids:
+- '0xFF124'
 update_notes: '<p dir="auto">Bugfixes (mostly memory management) and first CIA release.<br>
 
   View README on the project page for instructions.<br>

@@ -37,6 +37,8 @@ source: https://github.com/vargaviktor/ZeldaROTH
 systems:
 - 3DS
 title: ZeldaROTH 1.0.3 beta
+unique_ids:
+- '0x9972'
 update_notes: '<h2 dir="auto">Modifications</h2>
 
   <ul dir="auto">

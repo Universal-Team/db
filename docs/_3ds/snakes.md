@@ -28,6 +28,8 @@ source: https://github.com/DDews/Snakes
 systems:
 - 3DS
 title: Snakes
+unique_ids:
+- '0x90342'
 update_notes: '<h1 dir="auto">Patch 0.2.5.2</h1>
 
   <h2 dir="auto">Many bug fixes in this patch:</h2>

@@ -30,6 +30,8 @@ source: https://github.com/RMcTn/Notepad3DS
 systems:
 - 3DS
 title: Notepad3DS
+unique_ids:
+- '0xFD3FF'
 update_notes: '<h1 dir="auto">1.1.2</h1>
 
   <h3 dir="auto">Features</h3>

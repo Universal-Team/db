@@ -114,6 +114,8 @@ source: https://github.com/Universal-Team/LeafEdit
 systems:
 - 3DS
 title: LeafEdit
+unique_ids:
+- '0x43921'
 update_notes: '<h1 dir="auto">After like 75% of this year, another release is there.</h1>
 
   <h2 dir="auto">What''s new?</h2>

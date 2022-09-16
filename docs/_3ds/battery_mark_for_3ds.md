@@ -28,6 +28,8 @@ source: https://github.com/Core-2-Extreme/Battery_mark_for_3DS
 systems:
 - 3DS
 title: Battery_mark_for_3DS
+unique_ids:
+- '0xEC500'
 update_notes: '<ul dir="auto">
 
   <li>Battery level/temp/voltage graph has been added to battery mark and battery

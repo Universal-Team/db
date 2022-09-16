@@ -30,6 +30,8 @@ source: https://github.com/Cruel/DrawAttack
 systems:
 - 3DS
 title: DrawAttack
+unique_ids:
+- '0x7718'
 update_notes: '<p dir="auto">Fixed a couple 1.2 bugs, upped version to force users
   to update and minimizing client crashing.</p>
 

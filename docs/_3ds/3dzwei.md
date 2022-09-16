@@ -72,6 +72,8 @@ source: https://github.com/Universal-Team/3DZwei
 systems:
 - 3DS
 title: 3DZwei
+unique_ids:
+- '0x43598'
 update_notes: '<h2>Changes?</h2>
 
   <ul>

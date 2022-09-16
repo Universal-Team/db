@@ -34,6 +34,8 @@ source: https://github.com/SUOlivia/Smash-Amiibo-Cheat-Tool
 systems:
 - 3DS
 title: Smash Amiibo Cheat Tool
+unique_ids:
+- '0xA7FC8'
 update_notes: '<p>There''s quite a lot in this new release, so here we go!</p>
 
   <p>Small path change (again). the folder at the root of the sd card is now <code

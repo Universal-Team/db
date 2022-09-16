@@ -30,6 +30,8 @@ source: https://github.com/joel16/3DS-Recovery-Tool
 systems:
 - 3DS
 title: 3DS-Recovery-Tool
+unique_ids:
+- '0x16600'
 update_notes: '<ul dir="auto">
 
   <li>Switched to PP2D for handling graphics (for VBO, thanks Bernardo!).</li>

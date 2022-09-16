@@ -56,6 +56,8 @@ source: https://github.com/Universal-Team/3DEins
 systems:
 - 3DS
 title: 3DEins
+unique_ids:
+- '0x43600'
 update_notes: '<h2 dir="auto">DSEins, the NDS version of 3DEins is now included as
   well!</h2>
 

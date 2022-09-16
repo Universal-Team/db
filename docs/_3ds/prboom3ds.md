@@ -52,6 +52,8 @@ source: https://github.com/elhobbs/prboom3ds
 systems:
 - 3DS
 title: prboom3ds
+unique_ids:
+- '0xF0032'
 update_notes: '<p dir="auto">enum fix, enable lto, 3d view change</p>
 
   <p dir="auto">install:<br>

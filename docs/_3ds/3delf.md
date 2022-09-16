@@ -59,6 +59,8 @@ source: https://github.com/SuperSaiyajinStackZ/3DElf
 systems:
 - 3DS
 title: 3DElf
+unique_ids:
+- '0x43593'
 update_notes: '<p dir="auto">Dies behebt ein paar Fehler und ein neuer Startbildschirm
   wurde hinzugefügt.</p>
 

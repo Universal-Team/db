@@ -31,6 +31,8 @@ source: https://github.com/oreo639/LimePlayer3DS
 systems:
 - 3DS
 title: LimePlayer3DS
+unique_ids:
+- '0xEDA06'
 update_notes: '<p dir="auto">LimePlayer3DS is a gui music player for the 3DS with
   MIDI and Internet Radio support.</p>
 

@@ -31,6 +31,8 @@ source: https://github.com/LiquidFenrir/HexIsoPath
 systems:
 - 3DS
 title: HexIsoPath
+unique_ids:
+- '0x58316'
 update_notes: '<p dir="auto">HexIsoPath now has local multiplayer, you dont need to
   pass the console anymore! Press UP on the dpad to be the server (white) or DOWN
   to be the client (black) (Note: the server has to start before the client can connect)<br>

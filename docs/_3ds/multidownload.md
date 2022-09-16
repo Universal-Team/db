@@ -30,6 +30,8 @@ source: https://github.com/hax0kartik/Multidownload
 systems:
 - 3DS
 title: Multidownload
+unique_ids:
+- '0x1030'
 update_notes: '<p dir="auto">New in this release:-</p>
 
   <ul dir="auto">

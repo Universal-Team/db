@@ -30,6 +30,8 @@ source: https://github.com/ItsDeidara/CaptureAssistant
 systems:
 - 3DS
 title: CaptureAssistant
+unique_ids:
+- '0x6862'
 update_notes: '<p dir="auto">Extract to the root of your SD card and install CaptureAssistant
   with FBI</p>
 

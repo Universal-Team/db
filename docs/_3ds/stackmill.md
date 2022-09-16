@@ -61,6 +61,8 @@ source: https://github.com/SuperSaiyajinStackZ/StackMill
 systems:
 - 3DS
 title: StackMill
+unique_ids:
+- '0x43509'
 update_notes: '<p dir="auto">Yeah, i already said v0.4.0 was the latest, but ehh decided
   to bring out a release a bit before my birthday.</p>
 

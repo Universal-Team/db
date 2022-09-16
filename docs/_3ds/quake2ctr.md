@@ -40,6 +40,8 @@ source: https://github.com/masterfeizz/Quake2CTR
 systems:
 - 3DS
 title: Quake2CTR
+unique_ids:
+- '0xFF125'
 update_notes: <p dir="auto">This small update mostly fixes the save loading issues
   and has tweaked input handling.</p>
 updated: '2017-06-24T15:36:24Z'

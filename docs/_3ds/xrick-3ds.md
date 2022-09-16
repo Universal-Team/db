@@ -22,6 +22,8 @@ source: https://github.com/nop90/Xrick-3ds
 systems:
 - 3DS
 title: Xrick-3ds
+unique_ids:
+- '0x997D'
 update_notes: '<ul dir="auto">
 
   <li>Fixed 3dsx format</li>

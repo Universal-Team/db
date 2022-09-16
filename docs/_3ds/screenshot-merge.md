@@ -35,6 +35,8 @@ source: https://github.com/ihaveamac/screenshot-merge
 systems:
 - 3DS
 title: screenshot-merge
+unique_ids:
+- '0xF0ACC'
 update_notes: '<ul dir="auto">
 
   <li>Support for new Luma3DS Rosalina screenshot filename layout by <a class="user-mention

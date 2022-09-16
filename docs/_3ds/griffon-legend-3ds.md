@@ -25,6 +25,8 @@ source: https://github.com/nop90/Griffon-Legend-3DS
 systems:
 - 3DS
 title: Griffon-Legend-3DS
+unique_ids:
+- '0x9980'
 update_notes: '<ul dir="auto">
 
   <li>Fixed CIA Version</li>

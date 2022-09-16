@@ -62,6 +62,8 @@ source: https://github.com/masterfeizz/DaedalusX64-3DS
 systems:
 - 3DS
 title: DaedalusX64-3DS
+unique_ids:
+- '0xDAED3'
 update_notes: '<h1 dir="auto">Beta v0.2</h1>
 
   <ul dir="auto">

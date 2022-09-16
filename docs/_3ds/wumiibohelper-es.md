@@ -31,6 +31,8 @@ source: https://github.com/Robichani6-1/wumiibohelper-ES
 systems:
 - 3DS
 title: wumiibohelper-ES
+unique_ids:
+- '0xDF11'
 updated: '2022-07-20T16:34:38Z'
 version: '1.0'
 version_title: 1.0 VERSIÓN ESPAÑOLA

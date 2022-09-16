@@ -32,6 +32,8 @@ source: https://github.com/joel16/3DShell
 systems:
 - 3DS
 title: 3DShell
+unique_ids:
+- '0x16200'
 update_notes: '<ul dir="auto">
 
   <li>Block NAND access if developer options is disabled.</li>

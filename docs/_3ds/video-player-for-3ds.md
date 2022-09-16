@@ -31,6 +31,8 @@ source: https://github.com/Core-2-Extreme/Video_player_for_3DS
 systems:
 - 3DS
 title: Video player for 3DS
+unique_ids:
+- '0xEC600'
 update_notes: '<h4 dir="auto">Added features</h4>
 
   <p dir="auto">Screen update frequency in audio only files have been increased <br>

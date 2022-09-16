@@ -28,6 +28,8 @@ source: https://github.com/badda71/vice3ds
 systems:
 - 3DS
 title: vice3DS
+unique_ids:
+- '0xFF4BA'
 update_notes: '<p dir="auto">Bugfix release 2.4.1. This release fixes a bug which
   caused gamebase64 launcher to crash if more than 64 games were downloaded.</p>
 

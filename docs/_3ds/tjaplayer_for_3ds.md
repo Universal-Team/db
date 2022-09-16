@@ -39,6 +39,8 @@ source: https://github.com/togetg/TJAPlayer_for_3DS
 systems:
 - 3DS
 title: TJAPlayer_for_3DS
+unique_ids:
+- '0xB7655'
 update_notes: '<ul dir="auto">
 
   <li>ジャンル機能を実装</li>

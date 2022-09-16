@@ -40,6 +40,8 @@ source: https://github.com/J-D-K/JKSM
 systems:
 - 3DS
 title: JKSM
+unique_ids:
+- '0x2C232'
 update_notes: '<ul dir="auto">
 
   <li>Dropped support for *hax</li>

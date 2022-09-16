@@ -34,6 +34,8 @@ source: https://github.com/badda71/uae3DS
 systems:
 - 3DS
 title: uae3DS
+unique_ids:
+- '0x49643'
 update_notes: '<p dir="auto">This is the first (hopefully) stable version of uae3DS,
   the Amiga 500 emulator for Nintendo 3DS.<br>
 

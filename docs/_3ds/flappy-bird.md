@@ -39,6 +39,8 @@ source: https://github.com/NPI-D7/Flappy-Bird
 systems:
 - 3DS
 title: Flappy-Bird
+unique_ids:
+- '0x64D70'
 update_notes: '<p dir="auto">Fixed a Bug where you got under the ground when going
   back to title Screen.</p>
 

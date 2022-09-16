@@ -35,6 +35,8 @@ source: https://github.com/zoogie/DSP1
 systems:
 - 3DS
 title: DSP1
+unique_ids:
+- '0xD591'
 update_notes: '<p dir="auto">Initial release.<br>
 
   Stealth Dec 9, 2020: add .3dsx, thx <a class="user-mention notranslate" data-hovercard-type="user"

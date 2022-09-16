@@ -32,6 +32,8 @@ source: https://github.com/TuxSH/TWLSaveTool
 systems:
 - 3DS
 title: TWLSaveTool
+unique_ids:
+- '0xF0DEF'
 update_notes: '<ul dir="auto">
 
   <li>Fix Pokémon Mystery Dungeon: Explorers of Sky (thanks to <a class="user-mention

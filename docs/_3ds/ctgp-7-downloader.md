@@ -42,6 +42,8 @@ script_message:
 systems:
 - 3DS
 title: CTGP-7 Downloader
+unique_ids:
+- '0x3070C'
 updated: '2021-03-04T23:37:56Z'
 version: Latest
 website: https://ctgp-7.github.io/

@@ -21,6 +21,8 @@ source: https://github.com/CTurt/3DSController
 systems:
 - 3DS
 title: 3DSController
+unique_ids:
+- '0xF0FC2'
 update_notes: '<p dir="auto">3DS Client:</p>
 
   <ul dir="auto">

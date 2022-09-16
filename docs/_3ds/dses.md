@@ -34,6 +34,8 @@ source: https://github.com/noirscape/dses
 systems:
 - 3DS
 title: dses
+unique_ids:
+- '0xEF102'
 update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow"
   href="https://user-images.githubusercontent.com/13433513/46879989-c94bfb80-ce47-11e8-8ab5-36f6fb0f061a.gif"><img
   src="https://user-images.githubusercontent.com/13433513/46879989-c94bfb80-ce47-11e8-8ab5-36f6fb0f061a.gif"

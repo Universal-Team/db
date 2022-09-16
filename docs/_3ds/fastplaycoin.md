@@ -28,6 +28,8 @@ source: https://github.com/CorySanin/FastPlayCoin
 systems:
 - 3DS
 title: FastPlayCoin
+unique_ids:
+- '0xF98'
 update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow"
   href="https://user-images.githubusercontent.com/2897351/32695318-f180ce1e-c71d-11e7-96c2-17704b192dfc.png"><img
   src="https://user-images.githubusercontent.com/2897351/32695318-f180ce1e-c71d-11e7-96c2-17704b192dfc.png"

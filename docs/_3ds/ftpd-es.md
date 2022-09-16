@@ -31,6 +31,8 @@ source: https://github.com/Robichani6-1/FTPD-ES
 systems:
 - 3DS
 title: FTPD-ES
+unique_ids:
+- '0xBEEF5'
 updated: '2021-06-21T14:47:25Z'
 version: '1.0'
 version_title: Versión "100% traducida"

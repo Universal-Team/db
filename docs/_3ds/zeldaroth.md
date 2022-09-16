@@ -26,6 +26,8 @@ source: https://github.com/nop90/ZeldaROTH
 systems:
 - 3DS
 title: ZeldaROTH
+unique_ids:
+- '0x9972'
 update_notes: '<ul dir="auto">
 
   <li>Corrected SFX frequency</li>

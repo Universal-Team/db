@@ -31,6 +31,8 @@ source: https://github.com/Robichani6-1/Anemone3DS-ES
 systems:
 - 3DS
 title: Anemone3DS-ES
+unique_ids:
+- '0xBAFE0'
 updated: '2022-07-20T16:45:01Z'
 version: '1.0'
 version_title: 1.0 VERSIÓN ESPAÑOLA

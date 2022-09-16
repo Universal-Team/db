@@ -35,6 +35,8 @@ source: https://github.com/NPI-D7/BCSTM-Player
 systems:
 - 3DS
 title: BCSTM-Player
+unique_ids:
+- '0x78933'
 update_notes: <p dir="auto">This is the first Version of BCSTM-Player. I'll add some
   stuff in future. Currently you can Play <code class="notranslate">.bcstm</code>
   files. The Filebrowser is optimized to search <code class="notranslate">.bcstm</code>

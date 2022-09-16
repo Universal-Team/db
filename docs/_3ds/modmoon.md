@@ -37,6 +37,8 @@ source: https://github.com/Swiftloke/ModMoon
 systems:
 - 3DS
 title: ModMoon
+unique_ids:
+- '0xA73A'
 update_notes: '<p dir="auto">This release contains several critical fixes for broken
   things in 3.0. They include:</p>
 

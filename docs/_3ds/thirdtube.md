@@ -37,6 +37,8 @@ source: https://github.com/windows-server-2003/ThirdTube
 systems:
 - 3DS
 title: ThirdTube
+unique_ids:
+- '0xBF74D'
 update_notes: '<p dir="auto">I''m back with a major release v0.5.0!<br>
 
   I will continue to add features and fix bugs.<br>

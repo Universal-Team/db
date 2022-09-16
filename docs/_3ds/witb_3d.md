@@ -29,6 +29,8 @@ source: https://github.com/Manurocker95/WITB_3D
 systems:
 - 3DS
 title: WITB_3D
+unique_ids:
+- '0xFAC2C'
 update_notes: '<ul dir="auto">
 
   <li>

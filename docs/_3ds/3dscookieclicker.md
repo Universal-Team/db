@@ -24,6 +24,8 @@ source: https://github.com/Creckeryop/3dsCookieClicker
 systems:
 - 3DS
 title: 3dsCookieClicker
+unique_ids:
+- '0xF23F'
 updated: '2017-06-11T14:37:55Z'
 version: '#0022'
 version_title: Debug

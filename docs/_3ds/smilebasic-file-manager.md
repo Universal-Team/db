@@ -30,6 +30,8 @@ source: https://github.com/Trinitro21/lpp-3ds
 systems:
 - 3DS
 title: SmileBASIC File Manager
+unique_ids:
+- '0x5BF3'
 update_notes: '<ul dir="auto">
 
   <li>Added footer signing using the SHA1-HMAC algorithm</li>

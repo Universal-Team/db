@@ -24,6 +24,8 @@ source: https://github.com/Ryuzaki-MrL/RomFS-Explorer
 systems:
 - 3DS
 title: RomFS Explorer
+unique_ids:
+- '0xA1B2C'
 update_notes: <p dir="auto">This release fixes files being overwritten even if you
   choose to not overwrite them.</p>
 updated: '2016-09-23T00:16:29Z'

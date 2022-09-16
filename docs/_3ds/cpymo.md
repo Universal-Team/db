@@ -31,6 +31,8 @@ source: https://github.com/Strrationalism/CPyMO
 systems:
 - 3DS
 title: CPyMO
+unique_ids:
+- '0xF3098'
 update_notes: '<h1 dir="auto">重要提示</h1>
 
   <p dir="auto">Android CPyMO已经更新签名，需要先卸载原有版本再安装新版本，卸载CPyMO不会造成存档丢失。</p>

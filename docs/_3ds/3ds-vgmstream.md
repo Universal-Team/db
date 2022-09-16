@@ -30,6 +30,8 @@ source: https://github.com/TricksterGuy/3ds-vgmstream
 systems:
 - 3DS
 title: 3ds-vgmstream
+unique_ids:
+- '0x3DAA3'
 update_notes: '<p dir="auto">New:<br>
 
   Now uses dsp over csnd, this grants all of the benefits of dsp, better streaming.  This

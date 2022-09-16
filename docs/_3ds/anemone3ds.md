@@ -35,6 +35,8 @@ source: https://github.com/astronautlevel2/Anemone3DS
 systems:
 - 3DS
 title: Anemone3DS
+unique_ids:
+- '0xBAFE0'
 update_notes: '<p dir="auto">Sup gamers, just a patch release this time around. Of
   note this time around is that, if you have dumped official themes in the past, it
   didn''t actually work - so you may have to scramble around and dump them again.

@@ -22,6 +22,8 @@ source: https://github.com/CollinScripter/Revamped3DS
 systems:
 - 3DS
 title: Halo Revamped
+unique_ids:
+- '0x371EB'
 update_notes: "<h2 dir=\"auto\">What's changed?</h2>  \n<ul dir=\"auto\">\n<li>O3DS\
   \ support is back</li>\n<li>Added a option to disable 3D</li>\n<li>A proper CIA\
   \ build</li>\n<li>More stuff that nobody cares about</li>\n</ul>\n<p dir=\"auto\"\

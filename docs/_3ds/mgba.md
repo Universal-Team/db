@@ -41,6 +41,8 @@ source: https://github.com/mgba-emu/mgba
 systems:
 - 3DS
 title: mGBA
+unique_ids:
+- '0x1A1E'
 update_notes: '<h3 dir="auto">Emulation fixes:</h3>
 
   <ul dir="auto">

@@ -22,6 +22,8 @@ source: https://github.com/Spaqin/fbwo-3ds
 systems:
 - 3DS
 title: Falling Blocks Watch Out
+unique_ids:
+- '0xFA65'
 update_notes: '<p dir="auto">A quick update adding per-level glue delay.<br>
 
   Be careful, the config file is different from the previous one.</p>'

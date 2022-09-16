@@ -28,6 +28,8 @@ source: https://github.com/badda71/TinyVNC
 systems:
 - 3DS
 title: TinyVNC
+unique_ids:
+- '0xC2433'
 update_notes: '<p dir="auto">This is version 2.0 of TinyVNC, the VNC-viewer for Nintendo
   3DS.</p>
 

@@ -31,6 +31,8 @@ source: https://github.com/Robichani6-1/sysUpdater-ES
 systems:
 - 3DS
 title: sysUpdater-ES
+unique_ids:
+- '0xF0007'
 updated: '2022-07-20T16:39:55Z'
 version: '1.0'
 version_title: 1.0 VERSIÓN ESPAÑOLA

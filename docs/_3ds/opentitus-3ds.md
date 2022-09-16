@@ -45,6 +45,9 @@ source: https://github.com/MrHuu/opentitus-3ds
 systems:
 - 3DS
 title: opentitus-3ds
+unique_ids:
+- '0xFF340'
+- '0xFF341'
 update_notes: '<p dir="auto">ONLY for old3DS users, these builds use low frequency
   audio.<br>
 

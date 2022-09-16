@@ -31,6 +31,8 @@ source: https://github.com/Possum/LumaLocaleSwitcher
 systems:
 - 3DS
 title: LumaLocaleSwitcher
+unique_ids:
+- '0xA0CA1'
 update_notes: '<ul dir="auto">
 
   <li>Fixes typos in default paths</li>

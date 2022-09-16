@@ -30,6 +30,8 @@ source: https://github.com/LiquidFenrir/WifiManager
 systems:
 - 3DS
 title: WifiManager
+unique_ids:
+- '0x5DC9'
 update_notes: '<p dir="auto">Fixes a bug introduced in the last release, sorry! The
   backup list would disappear if you didnt have enough of them.<br>
 

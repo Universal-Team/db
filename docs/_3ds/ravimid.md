@@ -29,6 +29,8 @@ source: https://github.com/Hoksy/ravimid
 systems:
 - 3DS
 title: ravimid
+unique_ids:
+- '0xA55C1'
 update_notes: '<p dir="auto">Fixed .cia not installing on n3DS<br>
 
   Thanks to VideahGams!</p>'

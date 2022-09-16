@@ -56,6 +56,8 @@ source: https://github.com/Universal-Team/3DVier
 systems:
 - 3DS
 title: 3DVier
+unique_ids:
+- '0x43597'
 update_notes: '<h2 dir="auto">Now it''s time for <a href="https://github.com/Universal-Team/3DEins">3DEins</a>''s
   good friend: 3DVier!**</h2>
 

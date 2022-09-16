@@ -23,6 +23,8 @@ source: https://github.com/Robichani6-1/Better-TJAPlayer-ES
 systems:
 - 3DS
 title: Better-TJAPlayer-ES
+unique_ids:
+- '0xB767'
 update_notes: <p dir="auto">Disfruten :D</p>
 updated: '2021-05-21T08:07:26Z'
 version: v1.0

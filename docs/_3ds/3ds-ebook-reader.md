@@ -24,6 +24,8 @@ source: https://github.com/DomRe/3DS_eBook_Reader
 systems:
 - 3DS
 title: 3DS eBook Reader
+unique_ids:
+- '0xEB111'
 update_notes: '<p dir="auto">Changes:</p>
 
   <ul dir="auto">

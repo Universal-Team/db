@@ -28,6 +28,8 @@ source: https://github.com/GiantBlargg/UpdateSuppressor
 systems:
 - 3DS
 title: UpdateSuppressor
+unique_ids:
+- '0x1F504'
 update_notes: '<p dir="auto">The CIA version will always run in delete-all mode.</p>
 
   <p dir="auto">If the 3dsx version is installed with its xml file it will run in

@@ -24,6 +24,8 @@ source: https://github.com/phijor/SpecializeMii
 systems:
 - 3DS
 title: SpecializeMii
+unique_ids:
+- '0xF3D99'
 update_notes: <p dir="auto">This fixes issues <a class="issue-link js-issue-link"
   data-error-text="Failed to load title" data-id="201148320" data-permission-text="Title
   is private" data-url="https://github.com/phijor/SpecializeMii/issues/2" data-hovercard-type="issue"

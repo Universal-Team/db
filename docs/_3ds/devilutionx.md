@@ -30,6 +30,8 @@ source: https://github.com/diasurgical/devilutionX
 systems:
 - 3DS
 title: devilutionX
+unique_ids:
+- '0x3F395'
 update_notes: '<h3 dir="auto">Features</h3>
 
   <h4 dir="auto">Graphics / Audio</h4>

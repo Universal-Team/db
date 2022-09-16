@@ -40,6 +40,8 @@ source: https://github.com/LukeZGD/DDLC-LOVE
 systems:
 - 3DS
 title: DDLC-LOVE
+unique_ids:
+- '0xDDFC'
 update_notes: '<p dir="auto"><strong>v1.2.3 Release:</strong></p>
 
   <ul dir="auto">

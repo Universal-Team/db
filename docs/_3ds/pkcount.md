@@ -47,6 +47,8 @@ systems:
 - DS
 - 3DS
 title: PKCount
+unique_ids:
+- '0x43300'
 update_notes: '<p dir="auto">What''s new?</p>
 
   <ul dir="auto">

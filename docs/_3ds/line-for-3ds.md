@@ -46,6 +46,8 @@ source: https://github.com/Core-2-Extreme/Line_for_3DS
 systems:
 - 3DS
 title: Line for 3DS
+unique_ids:
+- '0xEC950'
 update_notes: '<ul dir="auto">
 
   <li>【App】 Ver 1.7.2</li>

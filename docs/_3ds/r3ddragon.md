@@ -22,6 +22,8 @@ source: https://github.com/mrdanielps/r3Ddragon
 systems:
 - 3DS
 title: r3Ddragon
+unique_ids:
+- '0xFE7CB'
 update_notes: '<h4 dir="auto">Changelog:</h4>
 
   <ul dir="auto">

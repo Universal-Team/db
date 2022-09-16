@@ -29,6 +29,8 @@ source: https://github.com/aliceinpalth/3dfetch
 systems:
 - 3DS
 title: 3dfetch
+unique_ids:
+- '0x9F99E'
 update_notes: '<p dir="auto">Lots of stuff added! First and foremost:</p>
 
   <ul dir="auto">

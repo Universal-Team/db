@@ -30,6 +30,8 @@ source: https://github.com/flarn2006/GraphCalc3DS
 systems:
 - 3DS
 title: GraphCalc3DS
+unique_ids:
+- '0xF7183'
 update_notes: '<p dir="auto">Small release to fix a bug in version 1.5. The bug was
   that undefined values weren''t graphed properly (properly in this case being not
   at all) when the equation was entered in algebraic notation. Because of this bug,

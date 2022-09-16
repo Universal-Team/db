@@ -55,6 +55,8 @@ source: https://github.com/SaturnSH2x2/Sonic-CD-11-3DS
 systems:
 - 3DS
 title: Sonic CD
+unique_ids:
+- '0x3081'
 update_notes: '<h2>Changelog</h2>
 
   <ul>

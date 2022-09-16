@@ -75,6 +75,8 @@ source: https://github.com/SuperSaiyajinStackZ/Ludo3DS
 systems:
 - 3DS
 title: Ludo3DS
+unique_ids:
+- '0x43595'
 update_notes: '<p dir="auto">This is Ludo3DS v0.4.0 which in my opinion is the full
   version.</p>
 

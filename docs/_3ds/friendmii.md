@@ -30,6 +30,8 @@ source: https://github.com/joel16/FriendMii
 systems:
 - 3DS
 title: FriendMii
+unique_ids:
+- '0x16066'
 update_notes: '<p dir="auto">This is more of a proof of concept, open source friend
   application than a fully functional application. Things are still quite limited
   but in working condition for now. <em>The only advantage to this, is that it lets

@@ -26,6 +26,8 @@ source: https://github.com/dragos240/Pocket-NLSE
 systems:
 - 3DS
 title: Pocket-NLSE
+unique_ids:
+- '0xCCE2E'
 update_notes: <p dir="auto">First stable version of Pocket-NLSE. Additional features
   will be added later, but I felt it needed an "official" release. Bugs were fixed,
   unstable options were hidden, icon was changed. As before, the .3dsx requires you

@@ -36,6 +36,8 @@ source: https://github.com/TurtleP/Antibounce
 systems:
 - 3DS
 title: Antibounce
+unique_ids:
+- '0xA45E'
 update_notes: '<ul dir="auto">
 
   <li>Complete rewrite. Code-base overhaul. The good stuff.</li>

@@ -45,6 +45,8 @@ source: https://github.com/RedTopper/Super-Haxagon
 systems:
 - 3DS
 title: Super-Haxagon
+unique_ids:
+- '0x99AA'
 update_notes: '<h1>Super Haxagon 3.4.0</h1>
 
   <h3>About this build:</h3>

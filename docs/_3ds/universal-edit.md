@@ -27,6 +27,8 @@ source: https://github.com/Universal-Team/Universal-Edit
 systems:
 - 3DS
 title: Universal-Edit
+unique_ids:
+- '0x43915'
 updated: '---'
 wiki: https://github.com/Universal-Team/Universal-Edit/wiki
 ---

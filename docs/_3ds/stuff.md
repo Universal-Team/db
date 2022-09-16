@@ -24,6 +24,8 @@ source: https://github.com/zoogie/Stuff
 systems:
 - 3DS
 title: Stuff
+unique_ids:
+- '0x7153'
 update_notes: ''
 updated: '2017-08-11T08:48:34Z'
 version: 0.6.0

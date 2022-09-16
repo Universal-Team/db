@@ -30,6 +30,8 @@ source: https://github.com/deltabeard/ctrmus
 systems:
 - 3DS
 title: ctrmus
+unique_ids:
+- '0xFF3CC'
 update_notes: '<ul dir="auto">
 
   <li>Add OGG Vorbis file support.</li>

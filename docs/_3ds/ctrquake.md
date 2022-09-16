@@ -28,6 +28,8 @@ source: https://github.com/masterfeizz/ctrQuake
 systems:
 - 3DS
 title: ctrQuake
+unique_ids:
+- '0xFF123'
 update_notes: '<p dir="auto">You can now host and also join online servers. Dithering
   has also been implemented and can be toggled from the options menu.</p>
 

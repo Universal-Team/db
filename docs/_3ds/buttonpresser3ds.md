@@ -28,6 +28,8 @@ source: https://github.com/trainboy2019/ButtonPresser3DS
 systems:
 - 3DS
 title: ButtonPresser3DS
+unique_ids:
+- '0x4630'
 update_notes: '<p dir="auto">The buttons have gotten a few tweaks to make the app
   even better!</p>
 

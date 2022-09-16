@@ -35,6 +35,8 @@ source: https://github.com/yunes-0840/Craftus-Redesigned
 systems:
 - 3DS
 title: Craftus Redesigned
+unique_ids:
+- '0xFAB24'
 update_notes: '<h1>WARNING!!! WORLDS CREATED BEFORE RELEASE 0.4.0 WILL NOT WORK OR
   WILL HAVE TEXTURES SWICHED!</h1>
 

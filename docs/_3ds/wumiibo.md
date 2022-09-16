@@ -30,6 +30,8 @@ source: https://github.com/hax0kartik/wumiibo
 systems:
 - 3DS
 title: wumiibo
+unique_ids:
+- '0xDF11'
 update_notes: '<p dir="auto">This is the fifth public release of wumiibo.<br>
 
   The following list of changes has been made:-</p>

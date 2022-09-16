@@ -36,6 +36,8 @@ systems:
 - 3DS
 - DS
 title: Angband
+unique_ids:
+- '0xFF3FF'
 update_notes: '<p dir="auto">This version contains a LOT of bug-fixing and code improvements,
   again<br>
 

@@ -22,6 +22,8 @@ source: https://github.com/bubble2k16/picodrive_3ds
 systems:
 - 3DS
 title: PicoDrive
+unique_ids:
+- '0x384C'
 update_notes: '<ul dir="auto">
 
   <li>Added support to save battery-backed RAM for CD games</li>

@@ -26,6 +26,8 @@ source: https://github.com/gnmmarechal/easyrpgdlre
 systems:
 - 3DS
 title: easyrpgdlre
+unique_ids:
+- '0xA544'
 updated: '2016-07-23T23:51:20Z'
 version: v2.1.1
 version_title: CIA for TitleDB.com

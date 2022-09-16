@@ -35,6 +35,8 @@ source: https://github.com/pyroticinsanity/3dsdod
 systems:
 - 3DS
 title: Dungeons of Daggorath 3DS
+unique_ids:
+- '0x3DD0D'
 update_notes: '<p dir="auto">Attached are a CIA and 3DSX file depending on what you
   want to use.</p>
 

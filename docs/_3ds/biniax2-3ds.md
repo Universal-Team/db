@@ -53,6 +53,8 @@ source: https://github.com/nop90/Biniax2-3DS
 systems:
 - 3DS
 title: Biniax2-3DS
+unique_ids:
+- '0x9978'
 update_notes: '<ul dir="auto">
 
   <li>Used a bigger font</li>

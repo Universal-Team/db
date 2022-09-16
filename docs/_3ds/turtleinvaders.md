@@ -24,6 +24,8 @@ source: https://github.com/TurtleP/TurtleInvaders
 systems:
 - 3DS
 title: TurtleInvaders
+unique_ids:
+- '0xF5ACD'
 update_notes: '<p dir="auto">[Bugs Fixed]</p>
 
   <ul dir="auto">

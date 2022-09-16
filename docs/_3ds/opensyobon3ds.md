@@ -22,6 +22,8 @@ source: https://github.com/nop90/OpenSyobon3DS
 systems:
 - 3DS
 title: OpenSyobon3DS
+unique_ids:
+- '0x9971'
 update_notes: '<ul dir="auto">
 
   <li>Fixed blurred text caused by SFTDLib (used workaround found on Xerpi github)</li>

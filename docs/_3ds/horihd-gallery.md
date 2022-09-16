@@ -27,6 +27,8 @@ source: https://github.com/RocketRobz/HoriHD-Gallery
 systems:
 - 3DS
 title: HoriHD-Gallery
+unique_ids:
+- '0x4809E'
 update_notes: '<p dir="auto"><strong>What''s new?</strong></p>
 
   <ul dir="auto">

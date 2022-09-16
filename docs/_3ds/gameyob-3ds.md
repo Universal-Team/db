@@ -35,6 +35,8 @@ source: https://github.com/SombrAbsol/GameYob-3DS
 systems:
 - 3DS
 title: GameYob (3DS)
+unique_ids:
+- '0x1927'
 update_notes: '<p dir="auto"><em>The latest version of the GameYob port for the 3DS.
   I added the .3dsx file from "GameYob.zip" just in case.</em></p>
 

@@ -23,6 +23,8 @@ source: https://github.com/suloku/pdrpse
 systems:
 - 3DS
 title: pdrpse
+unique_ids:
+- '0xF885F'
 update_notes: '<p dir="auto">Corrected offset saving for upgrades.<br>
 
   L button now refills clouds (no more waiting).</p>

@@ -31,6 +31,8 @@ source: https://github.com/phijor/ctroller
 systems:
 - 3DS
 title: ctroller
+unique_ids:
+- '0xF3D5C'
 update_notes: '<h1 dir="auto">Features</h1>
 
   <ul dir="auto">

@@ -31,6 +31,8 @@ source: https://github.com/cooolgamer/Anemone3DS-FR
 systems:
 - 3DS
 title: Anemone3DS-FR
+unique_ids:
+- '0xBAFE0'
 update_notes: <p dir="auto">Cette version se base sur la nouvelle version d'anemone
   (<a href="https://github.com/astronautlevel2/Anemone3DS/releases/tag/v2.3.1">https://github.com/astronautlevel2/Anemone3DS/releases/tag/v2.3.1</a>)</p>
 updated: '2022-08-01T11:03:58Z'

@@ -35,6 +35,8 @@ source: https://github.com/machinamentum/CS3DS
 systems:
 - 3DS
 title: CS3DS
+unique_ids:
+- '0xF1BAD'
 update_notes: <p dir="auto">Initial network play support.</p>
 updated: '2016-04-22T01:51:31Z'
 version: 0.6-alpha
