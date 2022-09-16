@@ -81,12 +81,14 @@ update_notes: '<p dir="auto">Instructions:</p>
 
   </ul>
 
-  <h3 dir="auto">Known bug</h3>
+  <h3 dir="auto">Known bugs</h3>
 
   <ul dir="auto">
 
-  <li>Music playing from a music pack will have slight pauses. Depending on what''s
-  happening, the pause may be longer.</li>
+  <li>Music playing from a music pack will have slight lags. Depending on what''s
+  happening, the lag may be longer.</li>
+
+  <li>Music playing from a music pack will not pause when the game is paused.</li>
 
   </ul>'
 updated: '2022-09-16T03:33:10Z'
