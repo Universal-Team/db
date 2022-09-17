@@ -10,8 +10,8 @@ description: Generate and Install NDS Forwarders
 download_page: https://github.com/MechanicalDragon0687/NDSForwarder/releases
 downloads:
   ndsForwarder.3dsx:
-    size: 1025260
-    size_str: 1001 KiB
+    size: 1046844
+    size_str: 1022 KiB
     url: https://github.com/MechanicalDragon0687/ndsForwarder/releases/download/1.4.3/ndsForwarder.3dsx
 github: MechanicalDragon0687/NDSForwarder
 image: https://avatars.githubusercontent.com/u/43786828?v=4&size=128
@@ -19,6 +19,20 @@ image_length: 10211
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+prerelease:
+  download_page: https://github.com/MechanicalDragon0687/ndsForwarder/releases/tag/1.4.4
+  downloads:
+    ndsForwarder.3dsx:
+      size: 1048032
+      size_str: 1023 KiB
+      url: https://github.com/MechanicalDragon0687/ndsForwarder/releases/download/1.4.4/ndsForwarder.3dsx
+  update_notes: <p dir="auto">Adds a Force Install option</p>
+  update_notes_md: 'Adds a Force Install option
+
+    '
+  updated: '2022-09-17T02:12:24Z'
+  version: 1.4.4
+  version_title: 1.4.4 - Use the force
 source: https://github.com/MechanicalDragon0687/ndsForwarder
 systems:
 - 3DS

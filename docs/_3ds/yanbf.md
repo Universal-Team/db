@@ -10,21 +10,21 @@ description: Yet another nds-bootstrap forwarder. Runs from 3DS-mode!
 download_page: https://github.com/YANBForwarder/YANBF/releases
 downloads:
   YANBF-Linux.zip:
-    size: 98213452
-    size_str: 93 MiB
-    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.1/YANBF-Linux.zip
+    size: 94258476
+    size_str: 89 MiB
+    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.2/YANBF-Linux.zip
   YANBF-Windows.zip:
-    size: 70825569
+    size: 70890788
     size_str: 67 MiB
-    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.1/YANBF-Windows.zip
+    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.2/YANBF-Windows.zip
   YANBF-macOS.zip:
-    size: 87198108
+    size: 87132202
     size_str: 83 MiB
-    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.1/YANBF-macOS.zip
+    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.2/YANBF-macOS.zip
   bootstrap.cia:
-    size: 206080
+    size: 206592
     size_str: 201 KiB
-    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.1/bootstrap.cia
+    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.2/bootstrap.cia
 github: YANBForwarder/YANBF
 image: https://avatars.githubusercontent.com/u/103953989?v=4&size=128
 image_length: 1561
@@ -37,51 +37,20 @@ source: https://github.com/YANBForwarder/YANBF
 systems:
 - 3DS
 title: YANBF
-update_notes: '<h3 dir="auto">What''s new?</h3>
+update_notes: '<h3 dir="auto">Improvements</h3>
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/spitzeqc/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/spitzeqc">@spitzeqc</a>:
-  added custom path support to the GUI.
+  <li>Another debugging string has been added to the log.</li>
+
+  <li>The program will now fail if the ROM is detected to not be on the SD card, or
+  if a custom path is not set.
 
   <ul dir="auto">
 
-  <li>SD card dependency is now fully removed.</li>
-
-  </ul>
-
-  </li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fix</h3>
-
-  <ul dir="auto">
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
-  fixed unicode paths for <code class="notranslate">bannertool</code>.
-
-  <ul dir="auto">
-
-  <li>Fixes <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="1234495572" data-permission-text="Title is private" data-url="https://github.com/YANBForwarder/YANBF/issues/25"
-  data-hovercard-type="issue" data-hovercard-url="/YANBForwarder/YANBF/issues/25/hovercard"
-  href="https://github.com/YANBForwarder/YANBF/issues/25">#25</a></li>
-
-  </ul>
-
-  </li>
-
-  <li>Fixed an exception where converting images would write nowhere
-
-  <ul dir="auto">
-
-  <li>Fixes <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="1185565149" data-permission-text="Title is private" data-url="https://github.com/YANBForwarder/YANBF/issues/12"
-  data-hovercard-type="issue" data-hovercard-url="/YANBForwarder/YANBF/issues/12/hovercard"
-  href="https://github.com/YANBForwarder/YANBF/issues/12">#12</a></li>
+  <li>Before this, it would silently succeed with the wrong path, or with the <code
+  class="notranslate">/</code> character removed. This is no longer an issue and forces
+  people to read the instructions on why it broke.</li>
 
   </ul>
 
@@ -97,8 +66,8 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
   they don''t, they don''t come in a box.)</li>
 
   </ul>'
-updated: '2022-05-19T02:06:57Z'
-version: v1.6.1
-version_title: 'v1.6.1: sometimes not everything is in my control'
+updated: '2022-09-17T04:16:37Z'
+version: v1.6.2
+version_title: 'v1.6.2: This is why reading is important'
 ---
 YANBF is a 3DS-mode nds-bootstrap forwarder, allowing for more than 40 forwarder titles as compared to the older forwarder template.
