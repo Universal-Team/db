@@ -34,7 +34,10 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Instructions:</p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v25.3.1"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v25.3.1</a></p>
+
+  <p dir="auto">Instructions:</p>
 
   <ol dir="auto">
 
@@ -76,8 +79,8 @@ update_notes: '<p dir="auto">Instructions:</p>
   <li>Fixed a regression which caused <em>Pokemon Black/White</em> to crash with a
   red screen.</li>
 
-  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
   Fixed Japanese font mapping in the in-game menu.</li>
 
   </ul>
