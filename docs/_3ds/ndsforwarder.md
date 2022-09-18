@@ -23,7 +23,7 @@ prerelease:
   download_page: https://github.com/MechanicalDragon0687/ndsForwarder/releases/tag/1.4.4
   downloads:
     ndsForwarder.3dsx:
-      size: 1048032
+      size: 1048212
       size_str: 1023 KiB
       url: https://github.com/MechanicalDragon0687/ndsForwarder/releases/download/1.4.4/ndsForwarder.3dsx
   update_notes: <p dir="auto">Adds a Force Install option</p>
