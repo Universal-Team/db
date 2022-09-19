@@ -5501,6 +5501,7 @@
 	},
 	{
 		"github": "PabloMK7/kartdlphax",
+		"description": "Mario Kart 7 semi-primary exploit for the Nintendo 3DS.\n\nNOTE: This is only meant to be used for installing CFW, please do not use unless following a guide.",
 		"systems": ["3DS"],
 		"categories": ["utility", "exploit"],
 		"scripts": {
@@ -5513,7 +5514,7 @@
 				},
 				{
 					"type": "promptMessage",
-					"message": "You will need to to install a plugin loader Luma3DS fork,\n\"Luma3DS (Nanquitas)\" and \"Luma with Night/Light\nand Quick-Switchers\" should both work.\n\nAfter installing that and rebooting, open the Rosalina menu\nand enable the plugin loader."
+					"message": "You will need to to install a plugin loader Luma3DS fork,\n\"Luma3DS (Nanquitas)\" and \"Luma with Night/Light\nand Quick-Switchers\" should both work.\n\nAfter installing that and rebooting, open the Rosalina menu\nand enable the plugin loader.\n\nSee https://3ds.hacks.guide/installing-boot9strap-(kartdlphax)\nfor how to use this."
 				}
 			],
 			"[JPN] plugin.3gx": [
@@ -5525,7 +5526,7 @@
 				},
 				{
 					"type": "promptMessage",
-					"message": "You will need to to install a plugin loader Luma3DS fork,\n\"Luma3DS (Nanquitas)\" and \"Luma with Night/Light\nand Quick-Switchers\" should both work.\n\nAfter installing that and rebooting, open the Rosalina menu\nand enable the plugin loader."
+					"message": "You will need to to install a plugin loader Luma3DS fork,\n\"Luma3DS (Nanquitas)\" and \"Luma with Night/Light\nand Quick-Switchers\" should both work.\n\nAfter installing that and rebooting, open the Rosalina menu\nand enable the plugin loader.\n\nSee https://3ds.hacks.guide/installing-boot9strap-(kartdlphax)\nfor how to use this."
 				}
 			],
 			"[USA] plugin.3gx": [
@@ -5537,7 +5538,7 @@
 				},
 				{
 					"type": "promptMessage",
-					"message": "You will need to to install a plugin loader Luma3DS fork,\n\"Luma3DS (Nanquitas)\" and \"Luma with Night/Light\nand Quick-Switchers\" should both work.\n\nAfter installing that and rebooting, open the Rosalina menu\nand enable the plugin loader."
+					"message": "You will need to to install a plugin loader Luma3DS fork,\n\"Luma3DS (Nanquitas)\" and \"Luma with Night/Light\nand Quick-Switchers\" should both work.\n\nAfter installing that and rebooting, open the Rosalina menu\nand enable the plugin loader.\n\nSee https://3ds.hacks.guide/installing-boot9strap-(kartdlphax)\nfor how to use this."
 				}
 			]
 		}
