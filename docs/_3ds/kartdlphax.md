@@ -7,7 +7,11 @@ categories:
 color: '#6a5452'
 color_bg: '#6a5452'
 created: '2021-04-28T21:23:54Z'
-description: Mario Kart 7 semi-primary exploit for the Nintendo 3DS.
+description: 'Mario Kart 7 semi-primary exploit for the Nintendo 3DS.
+
+
+  NOTE: This is only meant to be used for installing CFW, please do not use unless
+  following a guide.'
 download_page: https://github.com/PabloMK7/kartdlphax/releases
 downloads:
   plugin.3gx:
