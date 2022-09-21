@@ -10,13 +10,13 @@ description: You can play .mp4 file on your 3DS!
 download_page: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases
 downloads:
   Video_player_for_3DS.3dsx:
-    size: 7777104
+    size: 8051104
     size_str: 7 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.5.1/Video_player_for_3DS.3dsx
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.5.2/Video_player_for_3DS.3dsx
   Video_player_for_3DS.cia:
-    size: 5329856
+    size: 5551040
     size_str: 5 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.5.1/Video_player_for_3DS.cia
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.5.2/Video_player_for_3DS.cia
 github: Core-2-Extreme/Video_player_for_3DS
 icon: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/banner.png
@@ -33,53 +33,18 @@ systems:
 title: Video player for 3DS
 unique_ids:
 - '0xEC600'
-update_notes: '<h4 dir="auto">Added features</h4>
+update_notes: '<h4 dir="auto">Changes</h4>
 
-  <p dir="auto">Screen update frequency in audio only files have been increased <br>
+  <p dir="auto">Ignore unsupported codec so that you can play supported codec only<br>
 
-  Performance has been improved by adding DMA <br>
-
-  Video playback is automatically paused when runs out of buffer <br>
-
-  (You can change threshold by changing ''Restart playback threshold'' settings) <br>
-
-  Seeking speed has been improved</p>
-
-  <h4 dir="auto">Changes</h4>
-
-  <p dir="auto">Disallow sleep when only headset is connected <br>
-
-  (allow sleep if headset is disconnected during playback) <br>
-
-  App directory has been changed from sdmc:/Video_player/ to sdmc:/3ds/Video_player/
-  <br>
-
-  (App will automatically move folder) <br>
-
-  Simplified Chinese(简体中文) translation has been updated <br>
-
-  Enabled ''correct aspect ratio option'' by default</p>
+  (e.g. You can now play videos that contain unsupported subtitles/audio)</p>
 
   <h4 dir="auto">Fixed bugs</h4>
 
-  <p dir="auto">Crashes in hw decoder in some videos have been fixed <br>
+  <p dir="auto">Hardware decoder won''t play videos that contain B-frames smoothly
+  has been fixed<br>
 
-  Automatically enter full screen mode even file explorer is opened has been fixed
-  <br>
-
-  App will freeze if you seek after EOF has been fixed <br>
-
-  Unable to pause/resume in tagged mp3 has been fixed <br>
-
-  Video position won''t be saved in some cases have been fixed <br>
-
-  Glitch on video in full screen mode has been fixed <br>
-
-  Some directories can''t be entered have been fixed <br>
-
-  Some videos won''t be played at correct speed has been fixed <br>
-
-  Frame desync in some 3D videos have been fixed</p>
+  (It means you don''t have to care about B-frames when encoding to H.264 videos)</p>
 
   <h4 dir="auto">On NEW 3(2)DS, it is recommended to use <a href="https://github.com/Core-2-Extreme/Luma3DS/releases/">patched
   Luma3DS</a> for better performance.</h4>
@@ -98,9 +63,9 @@ update_notes: '<h4 dir="auto">Added features</h4>
   <li>LTC : MKTD3U2vCMi7S7Jb1EQ2FiS4AdHC23PxJh</li>
 
   </ul>'
-updated: '2022-07-14T11:39:36Z'
-version: v1.5.1
-version_title: Video player for 3DS v1.5.1
+updated: '2022-09-21T14:54:46Z'
+version: v1.5.2
+version_title: Video player for 3DS v1.5.2
 ---
 You can play .mp4 file on your 3DS!
 
