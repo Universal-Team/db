@@ -23,7 +23,7 @@ prerelease:
   download_page: https://github.com/dimaguy/3ds-httpd/releases/tag/nightly
   downloads:
     3ds-httpd.3dsx:
-      size: 225184
+      size: 224916
       size_str: 219 KiB
       url: https://github.com/dimaguy/3ds-httpd/releases/download/nightly/3ds-httpd.3dsx
     3ds-httpd.cia:
@@ -36,15 +36,15 @@ prerelease:
 
     <ul dir="auto">
 
-    <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/dimaguy/3ds-httpd/commit/d0b97cf2d979abd53a4d2cb009ae6e7328011a31/hovercard"
-    href="https://github.com/dimaguy/3ds-httpd/commit/d0b97cf2d979abd53a4d2cb009ae6e7328011a31"><tt>d0b97cf</tt></a>:
-    Improve README.md (dimaguy)</li>
+    <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/dimaguy/3ds-httpd/commit/ec38a2c512062eff246e5c1628559e95501a554f/hovercard"
+    href="https://github.com/dimaguy/3ds-httpd/commit/ec38a2c512062eff246e5c1628559e95501a554f"><tt>ec38a2c</tt></a>:
+    Code reformatting, fix disappearing manual (dimaguy)</li>
 
     </ul>'
   update_notes_md: '## Commits
 
-    - d0b97cf: Improve README.md (dimaguy)'
-  updated: '2022-09-19T12:23:35Z'
+    - ec38a2c: Code reformatting, fix disappearing manual (dimaguy)'
+  updated: '2022-09-23T12:28:28Z'
   version: nightly
   version_title: Nightly Build
 source: https://github.com/dimaguy/3ds-httpd
@@ -55,12 +55,12 @@ update_notes: '<h2 dir="auto">Commits</h2>
 
   <ul dir="auto">
 
-  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/dimaguy/3ds-httpd/commit/d0b97cf2d979abd53a4d2cb009ae6e7328011a31/hovercard"
-  href="https://github.com/dimaguy/3ds-httpd/commit/d0b97cf2d979abd53a4d2cb009ae6e7328011a31"><tt>d0b97cf</tt></a>:
-  Improve README.md (dimaguy)</li>
+  <li><a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/dimaguy/3ds-httpd/commit/ec38a2c512062eff246e5c1628559e95501a554f/hovercard"
+  href="https://github.com/dimaguy/3ds-httpd/commit/ec38a2c512062eff246e5c1628559e95501a554f"><tt>ec38a2c</tt></a>:
+  Code reformatting, fix disappearing manual (dimaguy)</li>
 
   </ul>'
-updated: '2022-09-19T12:23:35Z'
+updated: '2022-09-23T12:28:28Z'
 version: nightly
 version_title: Nightly Build
 ---
