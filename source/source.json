@@ -4333,7 +4333,7 @@
 				},
 				{
 					"type": "downloadFile",
-					"file": "https://github.com/RocketRobz/NTR_Forwarder/releases/download/SD-6/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"file": "https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
 					"output": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z"
 				},
 				{
@@ -4602,14 +4602,14 @@
 			"DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z": {
 				"size": 473415,
 				"size_str": "462 KiB",
-				"url": "https://github.com/RocketRobz/NTR_Forwarder/releases/download/SD-6/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z"
+				"url": "https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z"
 			}
 		},
 		"scripts": {
 			"SD card forwarder pack": [
 				{
 					"type": "downloadFile",
-					"file": "https://github.com/RocketRobz/NTR_Forwarder/releases/download/SD-6/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"file": "https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
 					"output": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z"
 				},
 				{
@@ -4757,7 +4757,7 @@
 				},
 				{
 					"type": "downloadFile",
-					"file": "https://github.com/RocketRobz/NTR_Forwarder/releases/download/SD-6/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"file": "https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
 					"output": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z"
 				},
 				{
