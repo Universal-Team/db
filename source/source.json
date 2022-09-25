@@ -5542,5 +5542,10 @@
 				}
 			]
 		}
+	},
+	{
+		"github": "ihaveamac/save-data-copy-tool",
+		"systems": ["3DS"],
+		"categories": ["utility"]
 	}
 ]
