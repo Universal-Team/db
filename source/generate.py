@@ -8,6 +8,7 @@ import requests
 import yaml
 
 from argparse import ArgumentParser, FileType
+from bs4 import BeautifulSoup
 from colorsys import hsv_to_rgb, rgb_to_hsv
 from datetime import datetime, timezone
 from dateutil import parser
@@ -203,6 +204,77 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 					foundExisting = True
 					app = temp[0]
 		if not foundExisting or not (priorityOnlyMode and not ("priority" in app and app["priority"])):
+			if "gbatemp" in app:
+				print("GBAtemp Download Center")
+				r = requests.get(f"https://gbatemp.net/download/{app['gbatemp']}/")
+				if r.status_code != 200:
+					print(f"Error {r.status_code:d}, using old data!")
+					app = list(filter(lambda x: "gbatemp" in x and x["gbatemp"] == app["gbatemp"], oldData))[0]
+				else:
+					soup = BeautifulSoup(r.text, "html.parser")
+
+					if "title" not in app:
+						app["title"] = soup.find(class_="p-title").h1.find(text=True).strip()
+
+					if "author" not in app:
+						app["author"] = soup.find(class_="username").text.strip()
+
+					# if "description" not in app:
+					# 	app["description"] = soup.find(class_="tagLine").text.strip()
+
+					if "long_description" not in app:
+						app["long_description"] = soup.find(class_="bbWrapper").decode_contents().strip()
+
+					if "avatar" not in app:
+						userId = soup.find(class_="username")["data-user-id"].strip()
+						app["avatar"] = f"https://gbatemp.net/data/avatars/l/{userId[:3]}/{userId}.jpg"
+
+					if "image" not in app:
+						img = soup.find(class_="avatar").img
+						if img:
+							app["image"] = "https://gbatemp.net" + img["src"].strip()
+
+					if "created" not in app:
+						app["created"] = soup.find(class_="u-dt")["datetime"].replace("+0000", "Z")
+
+					if "download_page" not in app:
+						app["download_page"] = f"https://gbatemp.net/download/{app['gbatemp']}/"
+
+					if "version" not in app:
+						app["version"] = soup.find(class_="p-title").h1.span.text.strip()
+
+					if "version_title" not in app:
+						app["version_title"] = soup.select("div.block > div > ol.block-body > li:first-of-type > h3 > a")[0].text.strip()
+
+					if "updated" not in app:
+						app["updated"] = soup.findAll(class_="u-dt")[2]["datetime"].replace("+0000", "Z")
+
+					if "update_notes" not in app or "update_notes_md" not in app:
+						if "update_notes" not in app:
+							notesSoup = BeautifulSoup(requests.get(f"https://gbatemp.net/download/{app['gbatemp']}/updates").text, "html.parser")
+							app["update_notes"] = notesSoup.find(class_="bbWrapper").decode_contents().strip()
+
+						if "update_notes_md" not in app:
+							app["update_notes_md"] = markdownify(app["update_notes"], bullets="-")
+
+					if "downloads" not in app:
+						app["downloads"] = {}
+
+					head = requests.head(f"https://gbatemp.net/download/{app['gbatemp']}/download")
+					if head.status_code == 200:
+						if "Content-Disposition" in head.headers:
+							name = re.findall('filename="(.*)"', head.headers["Content-Disposition"])
+							if len(name) > 0:
+								name = name[0]
+								if name not in app["downloads"]:
+									app["downloads"][name] = {
+										"url": head.url,
+									}
+
+									if "Content-Length" in head.headers:
+										app["downloads"][name]["size"] = int(head.headers["Content-Length"])
+										app["downloads"][name]["size_str"] = byteCount(app["downloads"][name]["size"])
+
 			if "github" in app:
 				print("GitHub")
 				api = requests.get(f"https://api.github.com/repos/{app['github']}", headers=header if header else None).json()
@@ -215,7 +287,7 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 					if not (r["prerelease"] or r["draft"]):
 						release = r
 						break
-				
+
 				# If no actual release found on page 1, try /latest
 				if not release:
 					release = requests.get(f"https://api.github.com/repos/{app['github']}/releases/latest", headers=header if header else None).json()
@@ -378,7 +450,7 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 					app["download_page"] = eval(app["download_page"])
 				if "downloads" in app:
 					for item in app["downloads"]:
-						if(type(app["downloads"][item]["url"]) == str):
+						if type(app["downloads"][item]["url"]) == str:
 							app["downloads"][item]["url"] = eval(app["downloads"][item]["url"])
 			if "eval_scripts" in app and app["eval_scripts"]:
 				if "scripts" in app:
@@ -441,7 +513,9 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 			elif "image" not in app and "icon" in app:
 				app["image"] = app["icon"]
 			elif "image" not in app and "avatar" in app:
-				app["image"] = app["avatar"] + "&size=128"
+				app["image"] = app["avatar"]
+				if "github" in app["image"]:
+					app["image"] += "&size=128"
 
 			# Get image size
 			if "image_length" not in app and "image" in app:
