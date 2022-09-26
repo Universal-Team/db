@@ -9,10 +9,10 @@ created: '2014-11-17T22:30:56Z'
 description: A Virtual Boy emulator for the 3DS
 download_page: https://github.com/mrdanielps/r3Ddragon/releases
 downloads:
-  r3Ddragon-v0.87.zip:
-    size: 463677
-    size_str: 452 KiB
-    url: https://github.com/mrdanielps/r3Ddragon/releases/download/v0.87/r3Ddragon-v0.87.zip
+  r3Ddragon-v0.86.zip:
+    size: 474601
+    size_str: 463 KiB
+    url: https://github.com/mrdanielps/r3Ddragon/releases/download/v0.86/r3Ddragon-v0.86.zip
 github: mrdanielps/r3Ddragon
 icon: https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/icon.png
 image: https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/resources/banner.png
@@ -28,12 +28,9 @@ update_notes: '<h4 dir="auto">Changelog:</h4>
 
   <ul dir="auto">
 
-  <li>Removed libhax. Homebrew launcher users will have to run a kernel exploit (like
-  <a href="https://github.com/nedwill/fasthax/releases">fasthax</a>) first.</li>
+  <li>Improved compatibility (Insmouse is playable, Wario Land and Teleroboxer boot...).</li>
 
-  <li>Added settings for frameskip, maxcycles, sound and debug output.</li>
-
-  <li>Implemented floating point instructions.</li>
+  <li>Added a CIA build.</li>
 
   </ul>
 
@@ -52,8 +49,8 @@ update_notes: '<h4 dir="auto">Changelog:</h4>
   <li>To change ROMs you have to exit first (touchscreen-&gt;File-&gt;Exit).</li>
 
   </ul>'
-updated: '2017-02-02T23:45:48Z'
-version: v0.87
-version_title: v0.87
+updated: '2016-05-15T22:38:22Z'
+version: v0.86
+version_title: v0.86
 wiki: https://github.com/mrdanielps/r3Ddragon/wiki
 ---

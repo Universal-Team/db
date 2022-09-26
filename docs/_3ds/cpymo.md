@@ -11,13 +11,13 @@ download_filter: (\.3dsx|\.cia)
 download_page: https://github.com/Strrationalism/CPyMO/releases
 downloads:
   CPyMO.for.Nintendo.3DS.3dsx:
-    size: 15224172
+    size: 15238800
     size_str: 14 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.1.1/CPyMO.for.Nintendo.3DS.3dsx
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.1.2/CPyMO.for.Nintendo.3DS.3dsx
   CPyMO.for.Nintendo.3DS.cia:
-    size: 11367360
+    size: 11375552
     size_str: 10 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.1.1/CPyMO.for.Nintendo.3DS.cia
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.1.2/CPyMO.for.Nintendo.3DS.cia
 github: Strrationalism/CPyMO
 icon: https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/icon.png
 image: https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/banner.png
@@ -33,90 +33,96 @@ systems:
 title: CPyMO
 unique_ids:
 - '0xF3098'
-update_notes: '<h1 dir="auto">重要提示</h1>
-
-  <p dir="auto">Android CPyMO已经更新签名，需要先卸载原有版本再安装新版本，卸载CPyMO不会造成存档丢失。</p>
-
-  <h1 dir="auto">改进</h1>
+update_notes: '<h1 dir="auto">新功能</h1>
 
   <ul dir="auto">
 
-  <li>列表UI添加了滑动惯性。</li>
+  <li><strong>支持iOS。</strong></li>
 
-  <li>游戏界面向上滑动即可打开回想界面。</li>
+  <li>现在允许仅跳过已读部分，可以在游戏设置中开关此功能。</li>
 
-  <li>优化长按手感。</li>
+  <li>已读内容变暗。</li>
 
-  <li>PSP现在可以实机启动
+  <li>增加<code class="notranslate">software</code>后端用于在脱离硬件和系统API的情况下进行软件渲染，将输出RGB帧缓冲。</li>
 
-  <ul dir="auto">
+  <li>CPyMO ASCII Art现在支持rule图淡化过场。</li>
 
-  <li>更新PSP的构建环境</li>
-
-  <li>重写PSP的Makefile使文件布局整洁</li>
-
-  <li>重新映射PSP键位</li>
+  <li>SDL2后端可以通过<code class="notranslate">DISABLE_VSYNC</code>宏关闭垂直同步以提升快进速度。</li>
 
   </ul>
 
-  </li>
-
-  <li>SDL2后端更新
+  <h1 dir="auto">PyMO行为一致性</h1>
 
   <ul dir="auto">
 
-  <li>允许自定义SDL2_Mixer音频后端的音频格式</li>
+  <li>现在say命令将会取消fade_out状态。</li>
 
-  <li>允许禁用stb库，以替换成SDL2_image和SDL2_ttf</li>
+  <li>goto和if goto失败时不会崩溃，而是继续执行。</li>
 
-  <li>重新实现强制居中功能</li>
-
-  <li>允许禁用鼠标</li>
-
-  <li>同时按下ALT+ENTER切换全屏时现在不会引发ENTER键误触</li>
+  <li>change不应该破坏调用栈。</li>
 
   </ul>
 
-  </li>
+  <h1 dir="auto">Bug修正</h1>
 
-  <li>新增<code class="notranslate">CPYMO_ARR_COUNT</code>和<code class="notranslate">CPYMO_FOREACH_ARR</code>宏用于简化数组操作</li>
+  <ul dir="auto">
 
-  <li>视障帮助功能整理为<code class="notranslate">TEXT_EXTRACT</code>、<code class="notranslate">TEXT_EXTRACT_COPY_TO_CLIPBOARD</code>和<code
-  class="notranslate">TEXT_EXTRACT_ANDROID_ACCESSIBILITY</code></li>
+  <li>历史记录中<code class="notranslate">max_lines</code>字段没有进行初始化。</li>
 
-  <li>修正在多个album列表文件的情况下不能正确产生对应album ui界面图像的问题</li>
+  <li>已修正Win32与UWP平台下鼠标和触屏混合操作时List UI不灵敏的问题。</li>
 
-  <li>允许通过GNU工具链构建出具有自定义图标和不具有控制台窗口的Windows版CPyMO</li>
+  <li>修复List UI上可能崩溃的问题。</li>
 
-  <li>文字菜单在选中时产生微弱移动效果使得选中状态更加直观。</li>
+  <li>加载带mask图像失败时可能会导致双重free。</li>
 
-  <li>Bug修正：<code class="notranslate">cpymo_utils_replace_cr</code>具有不正确的行为。</li>
+  </ul>
 
-  <li>增加<code class="notranslate">cpymo_assetloader_load_icon</code>及<code class="notranslate">cpymo_assetloader_load_icon_pixels</code>函数用于加载图标。</li>
+  <h1 dir="auto">体验改进</h1>
 
-  <li>在HDPI设备上修正了鼠标位置不正确的问题。</li>
+  <ul dir="auto">
 
-  <li>pymo-convert支持在不支持的设备上剔除组件。</li>
+  <li>桌面版CPyMO在使用时若游戏窗口大小超过屏幕大小，则直接创建最大化窗口，并且挑选一个合适的窗口大小。</li>
 
-  <li>pymo-convert可以显示更多信息。</li>
+  <li>SDL2后端新增Menu键支持。</li>
 
-  <li>pymo-convert可以进行最大比例适配（并为3DS开启）。</li>
+  <li>支持在SDL 2.0.18及以上版本响应高精度触摸板的平滑滚动。</li>
 
-  <li>3DS现在可以等比例拉伸去黑边（以屏幕下端对齐）。</li>
+  <li>支持在SDL2、SDL1后端上当用户即将关闭窗口时询问是否确定关闭。</li>
 
-  <li>cpymo-tool现在支持生成album UI缓存图片。</li>
+  <li>优化触屏长按操作手感，现在不再需要松开才能响应。</li>
 
-  <li>3DS, PSV, Android, Emscripten上的ffmpeg已经升级到5.0.1。</li>
+  <li>CPyMO ASCII Art在Windows上的输出效率得到大幅优化，现在GitHub Action上提供Windows版CPyMO ASCII Art的二进制文件。</li>
 
-  <li>使得movie行为与pymo一致。</li>
+  <li>rule图淡化方向现在与ONScripter一致。</li>
 
-  <li>CPyMO将会检查PyMO版本兼容性。</li>
+  <li>滚动列表要在页面还满的时候就停止滚动，而不是滚动到只有一行。</li>
 
-  <li>3ds，psv，Emscripten将会从github安装ffmpeg。</li>
+  </ul>
+
+  <h1 dir="auto">优化</h1>
+
+  <ul dir="auto">
+
+  <li>当使用call命令时，若该脚本已经被加载于其他的解释器，则直接调用其他解释器的脚本，而不是重新加载。</li>
+
+  <li>使用<code class="notranslate">stb_ds</code>优化<code class="notranslate">cpymo_hash_flags</code>和<code
+  class="notranslate">cpymo_vars</code>。</li>
+
+  <li>使用柔性数组优化<code class="notranslate">cpymo_chara</code>。</li>
+
+  <li>从<code class="notranslate">cpymo_interpreter</code>中拆分出<code class="notranslate">cpymo_script</code>。</li>
+
+  <li><code class="notranslate">cpymo_parser_stream_span</code>改名为<code class="notranslate">cpymo_str</code>。</li>
+
+  <li>backlog功能的存储被移动到了堆上以减少静态存储区占用过大导致的崩溃问题。</li>
+
+  <li>使用<code class="notranslate">stb_leakcheck</code>进行内存泄漏检查。</li>
+
+  <li>在<code class="notranslate">text</code>后端上禁用了图像加载功能以减少内存占用。</li>
 
   </ul>'
-updated: '2022-07-30T11:11:48Z'
-version: v1.1.1
-version_title: CPyMO v1.1.1
+updated: '2022-09-26T16:55:33Z'
+version: v1.1.2
+version_title: CPyMO v1.1.2
 wiki: https://github.com/Strrationalism/CPyMO/wiki
 ---
