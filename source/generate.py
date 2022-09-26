@@ -244,7 +244,9 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 						app["version"] = soup.find(class_="p-title").h1.span.text.strip()
 
 					if "version_title" not in app:
-						app["version_title"] = soup.select("div.block > div > ol.block-body > li:first-of-type > h3 > a")[0].text.strip()
+						verTitle = soup.select("div.block > div > ol.block-body > li:first-of-type > h3 > a")
+						if verTitle:
+							app["version_title"] = verTitle[0].text.strip()
 
 					if "updated" not in app:
 						app["updated"] = soup.findAll(class_="u-dt")[2]["datetime"].replace("+0000", "Z")

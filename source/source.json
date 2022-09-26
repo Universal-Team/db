@@ -5532,5 +5532,10 @@
 		"github": "ihaveamac/save-data-copy-tool",
 		"systems": ["3DS"],
 		"categories": ["utility"]
+	},
+	{
+		"gbatemp": "36828",
+		"categories": ["utility"],
+		"systems": ["3DS"]
 	}
 ]
