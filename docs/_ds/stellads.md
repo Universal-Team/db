@@ -52,7 +52,9 @@ update_notes: '<p dir="auto">V5.0 : 27-Sep-2022 by wavemotion-dave</p>
 
   <li>Lots of cleanup across the board in the database to make more games playable.</li>
 
-  </ul>'
+  </ul>
+
+  <p dir="auto">Updated to 5.0c with another frame of improvement for 4K and 8K games!</p>'
 updated: '2022-09-27T11:26:42Z'
 version: '5.0'
 version_title: Version 5.0
