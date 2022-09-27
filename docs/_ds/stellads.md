@@ -16,7 +16,7 @@ downloads:
     size_str: 1 KiB
     url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.0/LICENSE
   StellaDS.nds:
-    size: 1336320
+    size: 1337856
     size_str: 1 MiB
     url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.0/StellaDS.nds
   compatibility.txt:
