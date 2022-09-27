@@ -14,19 +14,19 @@ downloads:
   LICENSE:
     size: 1068
     size_str: 1 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.9/LICENSE
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.0/LICENSE
   StellaDS.nds:
-    size: 1277952
+    size: 1336320
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.9/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.0/StellaDS.nds
   compatibility.txt:
     size: 24787
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.9/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.0/compatibility.txt
   readme.txt:
-    size: 20750
+    size: 21091
     size_str: 20 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/4.9/readme.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.0/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -40,16 +40,20 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V4.9 : 18-Sep-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V5.0 : 27-Sep-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Added new bankswitching schemes:  TVBOY, UASW and 0840 (Econobanking)</li>
+  <li>Added new bankswitching scheme:  X07 (Stella''s Stocking).</li>
 
-  <li>Fixed UA bankswitching scheme to allow more games to run</li>
+  <li>Improved 4K/2K driver to squeese out a couple more frames of performance.</li>
+
+  <li>New special F8 driver to support more 8K games on the DS-Lite.</li>
+
+  <li>Lots of cleanup across the board in the database to make more games playable.</li>
 
   </ul>'
-updated: '2022-09-18T21:40:54Z'
-version: '4.9'
-version_title: Version 4.9
+updated: '2022-09-27T11:26:42Z'
+version: '5.0'
+version_title: Version 5.0
 ---
