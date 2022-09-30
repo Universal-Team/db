@@ -16,7 +16,7 @@ downloads:
     size_str: 1 KiB
     url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.2/LICENSE
   StellaDS.nds:
-    size: 1376768
+    size: 1375744
     size_str: 1 MiB
     url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.2/StellaDS.nds
   compatibility.txt:
@@ -51,7 +51,7 @@ update_notes: '<p dir="auto">V5.2 : 30-Sep-2022 by Dave Bernazzani (wavemotion)<
   <li>More accurate AR cart handling for Supercharger games</li>
 
   </ul>'
-updated: '2022-09-30T10:45:35Z'
+updated: '2022-09-30T12:12:39Z'
 version: '5.2'
 version_title: Version 5.2
 ---
