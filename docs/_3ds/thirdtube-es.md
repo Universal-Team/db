@@ -1,5 +1,5 @@
 ---
-author: Softer. / Robichani6-1
+author: Softer.
 avatar: https://avatars.githubusercontent.com/u/70171835?v=4
 categories:
 - utility
