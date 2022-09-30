@@ -14,19 +14,19 @@ downloads:
   LICENSE:
     size: 1068
     size_str: 1 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.1/LICENSE
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.2/LICENSE
   StellaDS.nds:
-    size: 1377280
+    size: 1376768
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.1/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.2/StellaDS.nds
   compatibility.txt:
     size: 24787
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.1/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.2/compatibility.txt
   readme.txt:
-    size: 21319
-    size_str: 20 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.1/readme.txt
+    size: 21534
+    size_str: 21 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.2/readme.txt
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -40,18 +40,18 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V5.1 : 29-Sep-2022 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V5.2 : 30-Sep-2022 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
-  <li>Improved all bankswitching for more speed and greater copatibility.</li>
+  <li>Fixed goof in F6, F4 and related F6SC and F4SC drivers!</li>
 
-  <li>New F6 driver for DS-LITE to support 16K games - many at full speed!</li>
+  <li>Another frame of increased performance</li>
 
-  <li>Cleanups across the board.</li>
+  <li>More accurate AR cart handling for Supercharger games</li>
 
   </ul>'
-updated: '2022-09-29T14:55:58Z'
-version: '5.1'
-version_title: Version 5.1
+updated: '2022-09-30T10:45:35Z'
+version: '5.2'
+version_title: Version 5.2
 ---
