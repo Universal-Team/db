@@ -1,5 +1,5 @@
 ---
-author: Nat Amundsen
+author: Nat Osaka
 avatar: https://avatars.githubusercontent.com/u/704081?v=4
 categories:
 - utility
