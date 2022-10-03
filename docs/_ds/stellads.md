@@ -14,19 +14,19 @@ downloads:
   LICENSE:
     size: 1068
     size_str: 1 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.2/LICENSE
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.3/LICENSE
+  README.md:
+    size: 23596
+    size_str: 23 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.3/README.md
   StellaDS.nds:
-    size: 1375744
+    size: 1362432
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.2/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.3/StellaDS.nds
   compatibility.txt:
     size: 24787
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.2/compatibility.txt
-  readme.txt:
-    size: 21534
-    size_str: 21 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.2/readme.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.3/compatibility.txt
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -40,18 +40,22 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V5.2 : 30-Sep-2022 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V5.3 : 03-Oct-2022 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
-  <li>Fixed goof in F6, F4 and related F6SC and F4SC drivers!</li>
+  <li>Added Chetiry (CTY) bank switching scheme with EEPROM support (but no music
+  fetchers).</li>
 
-  <li>Another frame of increased performance</li>
+  <li>Improved memory handling across the board for another frame of performance.</li>
 
-  <li>More accurate AR cart handling for Supercharger games</li>
+  <li>Fixed SP+ so it runs properly again.</li>
+
+  <li>Improved driver for Midnight Magic and Realsports Tennis so both now run at
+  60FPS!</li>
 
   </ul>'
-updated: '2022-09-30T12:12:39Z'
-version: '5.2'
-version_title: Version 5.2
+updated: '2022-10-03T21:45:19Z'
+version: '5.3'
+version_title: Version 5.3
 ---
