@@ -20,7 +20,7 @@ downloads:
     size_str: 23 KiB
     url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.3/README.md
   StellaDS.nds:
-    size: 1362432
+    size: 1361920
     size_str: 1 MiB
     url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.3/StellaDS.nds
   compatibility.txt:
@@ -55,7 +55,7 @@ update_notes: '<p dir="auto">V5.3 : 03-Oct-2022 by Dave Bernazzani (wavemotion)<
   60FPS!</li>
 
   </ul>'
-updated: '2022-10-03T21:45:19Z'
+updated: '2022-10-03T22:49:38Z'
 version: '5.3'
 version_title: Version 5.3
 ---
