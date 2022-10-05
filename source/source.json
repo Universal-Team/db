@@ -5457,6 +5457,7 @@
 	{
 		"github": "RetroGamer02/raptor3ds",
 		"title": "Raptor3DS",
+		"author": "RetroGamer02/Ryan",
 		"categories": ["game"],
 		"systems": ["3DS"],
 		"image": "https://raw.githubusercontent.com/RetroGamer02/raptor3ds/master/RapBanner.png",
