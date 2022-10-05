@@ -1,5 +1,5 @@
 ---
-author: Devin
+author: RetroGamer02/Ryan
 avatar: https://avatars.githubusercontent.com/u/70994866?v=4
 categories:
 - game
