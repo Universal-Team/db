@@ -17,26 +17,19 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/0.5.1
+  download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/0.5.2
   downloads:
-    Raptor3DS.V0.5.1.zip:
-      size: 4061425
+    Raptor3DS.V0.5.2.zip:
+      size: 4063574
       size_str: 3 MiB
-      url: https://github.com/RetroGamer02/raptor3ds/releases/download/0.5.1/Raptor3DS.V0.5.1.zip
-  update_notes: '<p dir="auto">This is the first semi working 3DS version of Raptor
-    Call of the Shadows.<br>
-
-    Expect possible crashes more so if playing beyond Bravo sector.</p>'
-  update_notes_md: 'This is the first semi working 3DS version of Raptor Call of the
-    Shadows.
-
-    Expect possible crashes more so if playing beyond Bravo sector.
-
-
-    '
-  updated: '2022-10-05T04:06:47Z'
-  version: 0.5.1
-  version_title: First Release
+      url: https://github.com/RetroGamer02/raptor3ds/releases/download/0.5.2/Raptor3DS.V0.5.2.zip
+  update_notes: <p dir="auto">Fixed Player Deletion, Audio on New 3DS Systems, and
+    Added a 1v1 video option.</p>
+  update_notes_md: Fixed Player Deletion, Audio on New 3DS Systems, and Added a 1v1
+    video option.
+  updated: '2022-10-06T22:05:44Z'
+  version: 0.5.2
+  version_title: Small fixes release
 screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/raptor3ds/main-menu.png
@@ -49,12 +42,10 @@ source: https://github.com/RetroGamer02/raptor3ds
 systems:
 - 3DS
 title: Raptor3DS
-update_notes: '<p dir="auto">This is the first semi working 3DS version of Raptor
-  Call of the Shadows.<br>
-
-  Expect possible crashes more so if playing beyond Bravo sector.</p>'
-updated: '2022-10-05T04:06:47Z'
-version: 0.5.1
-version_title: First Release
+update_notes: <p dir="auto">Fixed Player Deletion, Audio on New 3DS Systems, and Added
+  a 1v1 video option.</p>
+updated: '2022-10-06T22:05:44Z'
+version: 0.5.2
+version_title: Small fixes release
 ---
 Reversed-engineered source port from Raptor Call Of The Shadows ported to the Nintendo 3DS.
