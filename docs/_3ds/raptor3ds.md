@@ -20,7 +20,7 @@ prerelease:
   download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/0.5.2
   downloads:
     Raptor3DS.V0.5.2.zip:
-      size: 4063574
+      size: 4063573
       size_str: 3 MiB
       url: https://github.com/RetroGamer02/raptor3ds/releases/download/0.5.2/Raptor3DS.V0.5.2.zip
   update_notes: <p dir="auto">Fixed Player Deletion, Audio on New 3DS Systems, and
