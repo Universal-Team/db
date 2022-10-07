@@ -14,19 +14,19 @@ downloads:
   LICENSE:
     size: 1068
     size_str: 1 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.3/LICENSE
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.4/LICENSE
   README.md:
-    size: 23596
+    size: 23901
     size_str: 23 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.3/README.md
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.4/README.md
   StellaDS.nds:
-    size: 1361920
+    size: 1394176
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.3/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.4/StellaDS.nds
   compatibility.txt:
     size: 24787
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.3/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.4/compatibility.txt
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -40,22 +40,20 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V5.3 : 03-Oct-2022 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V5.4 : 07-Oct-2022 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
-  <li>Added Chetiry (CTY) bank switching scheme with EEPROM support (but no music
-  fetchers).</li>
+  <li>Added DF bank switching scheme (missed when DFSC was added).</li>
 
-  <li>Improved memory handling across the board for another frame of performance.</li>
+  <li>New core execution loop that gives us another 2 frames of performance.</li>
 
-  <li>Fixed SP+ so it runs properly again.</li>
+  <li>Optimized F4 driver to make some of the 32K games playable on DS-Lite.</li>
 
-  <li>Improved driver for Midnight Magic and Realsports Tennis so both now run at
-  60FPS!</li>
+  <li>Cleanup across the board.</li>
 
   </ul>'
-updated: '2022-10-03T22:49:38Z'
-version: '5.3'
-version_title: Version 5.3
+updated: '2022-10-07T11:06:03Z'
+version: '5.4'
+version_title: Version 5.4
 ---
