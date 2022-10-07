@@ -16,13 +16,9 @@ downloads:
     size_str: 1 KiB
     url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.4/LICENSE
   README.md:
-    size: 23901
-    size_str: 23 KiB
+    size: 24942
+    size_str: 24 KiB
     url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.4/README.md
-  StellaDS.nds:
-    size: 1394176
-    size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.4/StellaDS.nds
   compatibility.txt:
     size: 24787
     size_str: 24 KiB
@@ -34,8 +30,6 @@ image_length: 10279
 layout: app
 license: mit
 license_name: MIT License
-qr:
-  StellaDS.nds: https://db.universal-team.net/assets/images/qr/stellads-nds.png
 source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
