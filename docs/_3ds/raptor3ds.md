@@ -17,19 +17,21 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/0.5.2
+  download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/0.5.3
   downloads:
-    Raptor3DS.V0.5.2.zip:
-      size: 4063573
+    Raptor3DS.V0.5.3.zip:
+      size: 4053609
       size_str: 3 MiB
-      url: https://github.com/RetroGamer02/raptor3ds/releases/download/0.5.2/Raptor3DS.V0.5.2.zip
-  update_notes: <p dir="auto">Fixed Player Deletion, Audio on New 3DS Systems, and
-    Added a 1v1 video option.</p>
-  update_notes_md: Fixed Player Deletion, Audio on New 3DS Systems, and Added a 1v1
-    video option.
-  updated: '2022-10-06T22:05:44Z'
-  version: 0.5.2
-  version_title: Small fixes release
+      url: https://github.com/RetroGamer02/raptor3ds/releases/download/0.5.3/Raptor3DS.V0.5.3.zip
+  update_notes: <p dir="auto">Fixes Missile Pod, Bonus items spawning out of bounds,
+    Cia version should be generally more stable, and both versions are less likely
+    to crash when a boss is destroyed.</p>
+  update_notes_md: Fixes Missile Pod, Bonus items spawning out of bounds, Cia version
+    should be generally more stable, and both versions are less likely to crash when
+    a boss is destroyed.
+  updated: '2022-10-08T05:06:37Z'
+  version: 0.5.3
+  version_title: More Small fixes
 screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/raptor3ds/main-menu.png
@@ -42,10 +44,11 @@ source: https://github.com/RetroGamer02/raptor3ds
 systems:
 - 3DS
 title: Raptor3DS
-update_notes: <p dir="auto">Fixed Player Deletion, Audio on New 3DS Systems, and Added
-  a 1v1 video option.</p>
-updated: '2022-10-06T22:05:44Z'
-version: 0.5.2
-version_title: Small fixes release
+update_notes: <p dir="auto">Fixes Missile Pod, Bonus items spawning out of bounds,
+  Cia version should be generally more stable, and both versions are less likely to
+  crash when a boss is destroyed.</p>
+updated: '2022-10-08T05:06:37Z'
+version: 0.5.3
+version_title: More Small fixes
 ---
 Reversed-engineered source port from Raptor Call Of The Shadows ported to the Nintendo 3DS.
