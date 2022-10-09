@@ -11,21 +11,37 @@ description: Port of Sonic 1 and 2 to the 3DS, based on Rubberduckycooly's Sonic
 download_page: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases
 downloads:
   Sonic1.3dsx:
-    size: 951044
-    size_str: 928 KiB
-    url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.1.1.2/Sonic1.3dsx
+    size: 1047520
+    size_str: 1022 KiB
+    url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic1.3dsx
   Sonic1.cia:
-    size: 995264
-    size_str: 971 KiB
-    url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.1.1.2/Sonic1.cia
+    size: 1055168
+    size_str: 1 MiB
+    url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic1.cia
+  Sonic1_rev01.3dsx:
+    size: 1047736
+    size_str: 1023 KiB
+    url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic1_rev01.3dsx
+  Sonic1_rev01.cia:
+    size: 1055680
+    size_str: 1 MiB
+    url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic1_rev01.cia
   Sonic2.3dsx:
-    size: 951044
-    size_str: 928 KiB
-    url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.1.1.2/Sonic2.3dsx
+    size: 1047520
+    size_str: 1022 KiB
+    url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic2.3dsx
   Sonic2.cia:
-    size: 1010624
-    size_str: 986 KiB
-    url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.1.1.2/Sonic2.cia
+    size: 1070528
+    size_str: 1 MiB
+    url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic2.cia
+  Sonic2_rev01.3dsx:
+    size: 1047736
+    size_str: 1023 KiB
+    url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic2_rev01.3dsx
+  Sonic2_rev01.cia:
+    size: 1070528
+    size_str: 1 MiB
+    url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic2_rev01.cia
 github: JeffRuLz/Sonic-1-2-2013-Decompilation
 icon: https://raw.githubusercontent.com/JeffRuLz/Sonic-1-2-2013-Decompilation/main/Sonic1Decomp.3DS/banner/icon.png
 image: https://raw.githubusercontent.com/JeffRuLz/Sonic-1-2-2013-Decompilation/main/Sonic1Decomp.3DS/banner/banner.png
@@ -35,7 +51,9 @@ license: other
 license_name: Other
 qr:
   Sonic1.cia: https://db.universal-team.net/assets/images/qr/sonic1-cia.png
+  Sonic1_rev01.cia: https://db.universal-team.net/assets/images/qr/sonic1_rev01-cia.png
   Sonic2.cia: https://db.universal-team.net/assets/images/qr/sonic2-cia.png
+  Sonic2_rev01.cia: https://db.universal-team.net/assets/images/qr/sonic2_rev01-cia.png
 screenshots:
 - description: Sonic 1 green hill zone
   url: https://db.universal-team.net/assets/images/screenshots/sonic-1--2/sonic-1-green-hill-zone.png
@@ -65,41 +83,59 @@ title: Sonic 1 / 2
 unique_ids:
 - '0x479B'
 - '0x479C'
-update_notes: '<p dir="auto">A New 3DS is required for these games to play smoothly.</p>
+update_notes: '<h1 dir="auto"><a href="https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/tree/main#requirements">!!!
+  Read the Setup Guide !!!</a></h1>
+
+  <h1 dir="auto">A New 3DS is required</h1>
 
   <h3 dir="auto">Updates</h3>
 
   <ul dir="auto">
 
-  <li>Button mapping in ''settings.ini'' now works. (<strong>Important: if you''re
-  updating from an older version you must delete your old ''settings.ini'' file otherwise
-  inputs may not work.</strong>)</li>
+  <li>Now based on RSDKv4 version 1.3.0</li>
 
-  <li>The bottom screen can be used if ''ScreenWidth'' is set to 320.</li>
+  <li>Mods can now be used</li>
+
+  <li>REV01 builds are now provided
+
+  <ul dir="auto">
+
+  <li>Adds compatibility for certain data files.</li>
+
+  <li>Only use if you''re having issues with the normal builds.</li>
 
   </ul>
 
-  <h3 dir="auto">Installation</h3>
+  </li>
 
-  <p dir="auto">Before you can play you need to extract the ''data.rsdk'' files from
-  your copy of Sonic 1 and 2 (2013).<br>
+  <li>Audio processing is now done in a separate thread on a separate core</li>
 
-  Do this once for each game: Rename the .apk file extension into a .zip. Open it,
-  and navigate go into the ''assets'' folder. Extract the ''Data.rsdk.xmf'' file and
-  rename it to ''Data.rsdk''.<br>
+  <li>Performance boost to special stages, due to the new audio thread
 
-  Place them in ''sd:/3ds/Sonic1/'' and ''sd:/3ds/Sonic2/''.</p>
+  <ul dir="auto">
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/14222721/107821288-13c14800-6d74-11eb-9805-b704749a9be7.png"><img
-  src="https://user-images.githubusercontent.com/14222721/107821288-13c14800-6d74-11eb-9805-b704749a9be7.png"
-  alt="qr_sonic1" style="max-width: 100%;"></a></p>
+  <li>Sonic 1 special stages run at 30-60fps</li>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/14222721/107821304-1a4fbf80-6d74-11eb-8dcb-b1224880933b.png"><img
-  src="https://user-images.githubusercontent.com/14222721/107821304-1a4fbf80-6d74-11eb-8dcb-b1224880933b.png"
-  alt="qr_sonic2" style="max-width: 100%;"></a></p>'
-updated: '2021-02-12T20:37:15Z'
-version: v1.1.1.2
-version_title: New 3DS v1.1.1.2
+  <li>Sonic 2 special stages run 15-30fps</li>
+
+  </ul>
+
+  </li>
+
+  <li>Added warning screens for some common user errors</li>
+
+  </ul>
+
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/14222721/194726393-d59587cf-1530-46f5-850c-ef33c3a882ff.png"><img
+  src="https://user-images.githubusercontent.com/14222721/194726393-d59587cf-1530-46f5-850c-ef33c3a882ff.png"
+  alt="sonic1qr" style="max-width: 100%;"></a></p>
+
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/14222721/194726395-24f5fa12-421f-4dc2-82bc-7e4d81c5281b.png"><img
+  src="https://user-images.githubusercontent.com/14222721/194726395-24f5fa12-421f-4dc2-82bc-7e4d81c5281b.png"
+  alt="sonic2qr" style="max-width: 100%;"></a></p>'
+updated: '2022-10-08T20:05:50Z'
+version: v1.3.0
+version_title: New 3DS v1.3.0
 ---
 Port of Sonic 1 and 2 to the 3DS, based on Rubberduckycooly's Sonic 1/2 (2013) decompilation.
 
