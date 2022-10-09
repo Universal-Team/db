@@ -17,21 +17,23 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/0.5.3
+  download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/0.6.0
   downloads:
-    Raptor3DS.V0.5.3.zip:
-      size: 4053609
+    Raptor3DS.V0.6.0.zip:
+      size: 4053516
       size_str: 3 MiB
-      url: https://github.com/RetroGamer02/raptor3ds/releases/download/0.5.3/Raptor3DS.V0.5.3.zip
-  update_notes: <p dir="auto">Fixes Missile Pod, Bonus items spawning out of bounds,
-    Cia version should be generally more stable, and both versions are less likely
-    to crash when a boss is destroyed.</p>
-  update_notes_md: Fixes Missile Pod, Bonus items spawning out of bounds, Cia version
-    should be generally more stable, and both versions are less likely to crash when
-    a boss is destroyed.
-  updated: '2022-10-08T05:06:37Z'
-  version: 0.5.3
-  version_title: More Small fixes
+      url: https://github.com/RetroGamer02/raptor3ds/releases/download/0.6.0/Raptor3DS.V0.6.0.zip
+  update_notes: '<p dir="auto">The Tango Sector and Outer Region Sector are now fully
+    playable, and Shop enter timer reduced by over half.<br>
+
+    Some crashes and temporary workarounds need to be properly fixed.</p>'
+  update_notes_md: 'The Tango Sector and Outer Region Sector are now fully playable,
+    and Shop enter timer reduced by over half.
+
+    Some crashes and temporary workarounds need to be properly fixed.'
+  updated: '2022-10-09T18:03:59Z'
+  version: 0.6.0
+  version_title: Tango and Outer Region
 screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/raptor3ds/main-menu.png
@@ -44,11 +46,12 @@ source: https://github.com/RetroGamer02/raptor3ds
 systems:
 - 3DS
 title: Raptor3DS
-update_notes: <p dir="auto">Fixes Missile Pod, Bonus items spawning out of bounds,
-  Cia version should be generally more stable, and both versions are less likely to
-  crash when a boss is destroyed.</p>
-updated: '2022-10-08T05:06:37Z'
-version: 0.5.3
-version_title: More Small fixes
+update_notes: '<p dir="auto">The Tango Sector and Outer Region Sector are now fully
+  playable, and Shop enter timer reduced by over half.<br>
+
+  Some crashes and temporary workarounds need to be properly fixed.</p>'
+updated: '2022-10-09T18:03:59Z'
+version: 0.6.0
+version_title: Tango and Outer Region
 ---
 Reversed-engineered source port from Raptor Call Of The Shadows ported to the Nintendo 3DS.
