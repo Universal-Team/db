@@ -94,7 +94,8 @@ update_notes: '<h1 dir="auto"><a href="https://github.com/JeffRuLz/Sonic-1-2-201
 
   <li>Now based on RSDKv4 version 1.3.0</li>
 
-  <li>Mods can now be used</li>
+  <li>Mods can now be used. (Read: <a href="https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation#about-mods">About
+  Mods</a>)</li>
 
   <li>REV01 builds are now provided
 
