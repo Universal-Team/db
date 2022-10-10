@@ -5465,8 +5465,8 @@
 		"long_description": "Reversed-engineered source port from Raptor Call Of The Shadows ported to the Nintendo 3DS.",
 		"archive": {
 			"Raptor3DS\\.(.*)\\.zip": {
-				"raptor3ds{}.3dsx": ["raptor3dsV0.5.1.3dsx", "Raptor"],
-				"raptor3ds{}.cia": ["raptor3dsV0.5.1.cia", "Raptor"]
+				"Raptor3DS {}.3dsx": ["Raptor3DS {}.3dsx", "Raptor"],
+				"Raptor3DS {}.cia": ["Raptor3DS {}.cia", "Raptor"]
 			}
 		},
 		"script_message": "Note: You will need \"FILE0002.GLB\", \"FILE0003.GLB\",\nand \"FILE0004.GLB\" from the v1.2 DOS version the in\nthe SD root to play the game."
