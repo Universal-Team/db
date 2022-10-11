@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 512884
-    size_str: 500 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.64.1/nds-bootstrap.7z
+    size: 537458
+    size_str: 524 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.65.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1207544
+    size: 1257876
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.64.1/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.65.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -34,8 +34,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v25.3.1"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v25.3.1</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v25.4.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v25.4.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -52,23 +52,50 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li><strong>B4DS mode:</strong> Tired of playing <em>Mighty Milky Way</em> and/or
-  <em>Shantae: Risky''s Revenge</em> on your DS/DS Lite without music? If so, you
-  can now play them with music, by adding music packs for those games to <code class="notranslate">fat:/_nds/nds-bootstrap/musicPacks/</code>.
+  <li>A whopping 51 new DSiWare titles are now supported on flashcards in B4DS mode,
+  making them playable on DS and DS Lite!
 
   <ul dir="auto">
 
-  <li>The pack''s filename must have the TID and CRC from the ROM''s header (ex. <code
-  class="notranslate">KS3E-57FE.pck</code>)</li>
+  <li>An additional 7 are now supported for debug consoles as well.</li>
 
-  <li>The pack files are currently unavailable, but the creator can be downloaded
-  <a href="https://github.com/DS-Homebrew/nds-bootstrap-extras/tree/main/musicPackCreator">here</a>.</li>
-
-  <li>This will only work with those two games. Other games are not supported.</li>
+  <li>Scroll down to see which titles are now supported.</li>
 
   </ul>
 
   </li>
+
+  <li>1 or 2 parts of the launched ROM can now be pre-loaded into RAM to work around
+  slowdown, flickers, and crashes in some games.
+
+  <ul dir="auto">
+
+  <li>Settings are read from <code class="notranslate">sd:/_nds/nds-bootstrap/preLoadSettingsDSi.pck</code>
+  or <code class="notranslate">sd:/_nds/nds-bootstrap/preLoadSettings3DS.pck</code></li>
+
+  <li>They can be downloaded from <a href="https://github.com/DS-Homebrew/nds-bootstrap-extras/tree/main/preLoadSettings">here</a>.
+  The above TWiLight Menu++ version already bundles them.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Adding yet another advantage over flashcard firmwares/kernels, screenshots can
+  now be taken via the in-game menu in B4DS mode!</li>
+
+  <li>Text manuals can now be opened in the in-game menu in B4DS mode!</li>
+
+  <li>The help button is now hidden in the title screens of <em>Mighty Flip Champs!</em>
+  &amp; <em>Shantae: Risky''s Revenge</em> when running in B4DS mode, as the manuals
+  cannot be opened.</li>
+
+  </ul>
+
+  <h3 dir="auto">Improvement</h3>
+
+  <ul dir="auto">
+
+  <li>Merged cardEngine9i SDK1-4 &amp; SDK5 binaries to save space.</li>
 
   </ul>
 
@@ -76,28 +103,186 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Fixed a regression which caused <em>Pokemon Black/White</em> to crash with a
-  red screen.</li>
+  <li>Fixed where the patch offset cache version wouldn''t save correctly.</li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
-  Fixed Japanese font mapping in the in-game menu.</li>
+  <li>Fixed WiFi crashing <em>Bomberman Blitz</em> in B4DS mode.</li>
+
+  <li>Fixed an overlooked bug where the DSiWare version of <em>Plants vs. Zombies</em>
+  would crash in B4DS mode on debug DS consoles after going into gameplay.</li>
 
   </ul>
 
-  <h3 dir="auto">Known bugs</h3>
+  <h2 dir="auto">Newly supported DSiWare titles on retail &amp; debug DS consoles</h2>
+
+  <p dir="auto">Click <a href="https://github.com/DS-Homebrew/TWiLightMenu/blob/a236b80f1592df221043507a76f15fcafad1a88b/universal/include/compatibleDSiWareMap.h">here</a>
+  for the full list.</p>
 
   <ul dir="auto">
 
-  <li>Music playing from a music pack will have slight lags. Depending on what''s
-  happening, the lag may be longer.</li>
+  <li>Anne''s Doll Studio: Antique Collection*</li>
 
-  <li>Music playing from a music pack will not pause when the game is paused.</li>
+  <li>Anne''s Doll Studio: Gothic Collection*</li>
+
+  <li>Anne''s Doll Studio: Lolita Collection*</li>
+
+  <li>Anne''s Doll Studio: Princess Collection*</li>
+
+  <li>Anne''s Doll Studio: Tokyo Collection*</li>
+
+  <li>Bejeweled Twist (USA)</li>
+
+  <li>Dreamwalker</li>
+
+  <li>Electroplankton: Hanenbow</li>
+
+  <li>Electroplankton: Luminarrow</li>
+
+  <li>Electroplankton: Marine-Crystals</li>
+
+  <li>Electroplankton: Nanocarp</li>
+
+  <li>Electroplankton: Rec-Rec</li>
+
+  <li>Electroplankton: Sun-Animalcule</li>
+
+  <li>Electroplankton: Varvoice</li>
+
+  <li>Littlest Pet Shop</li>
+
+  <li>Lola''s Fruit Shop Sudoku</li>
+
+  <li>Missy Mila Twisted Tales</li>
+
+  <li>PictureBook Games: The Royal Bluff
+
+  <ul dir="auto">
+
+  <li>Audio does not play on retail consoles</li>
+
+  </ul>
+
+  </li>
+
+  <li>Pinball Attack! (Part of GO Series in USA, Europe, and Australia)
+
+  <ul dir="auto">
+
+  <li>On retail consoles, it will crash later on in Stage 3</li>
+
+  </ul>
+
+  </li>
+
+  <li>Plants vs. Zombies (Previously only booted on debug consoles)</li>
+
+  <li>Prehistorik Man</li>
+
+  <li>Puzzle to Go: Baby Animals</li>
+
+  <li>Puzzle to Go: Diddl</li>
+
+  <li>Puzzle to Go: Planets and Universe</li>
+
+  <li>Puzzle to Go: Sightseeing</li>
+
+  <li>Puzzle to Go: Wildlife</li>
+
+  <li>Real Crimes: Jack the Ripper</li>
+
+  <li>Renjuku Kanji: Shougaku 1 Nensei</li>
+
+  <li>Renjuku Kanji: Shougaku 2 Nensei</li>
+
+  <li>Renjuku Kanji: Shougaku 3 Nensei</li>
+
+  <li>Renjuku Kanji: Shougaku 4 Nensei</li>
+
+  <li>Renjuku Kanji: Shougaku 5 Nensei</li>
+
+  <li>Renjuku Kanji: Shougaku 6 Nensei</li>
+
+  <li>Renjuku Kanji: Chuugakusei</li>
+
+  <li>Smart Girl''s Playhouse Mini</li>
+
+  <li>Tales to Enjoy!: Little Red Riding Hood</li>
+
+  <li>Tales to Enjoy!: Puss in Boots</li>
+
+  <li>Tales to Enjoy!: The Three Little Pigs</li>
+
+  <li>Tales to Enjoy!: The Ugly Duckling</li>
+
+  <li>Tangrams</li>
+
+  <li>Tantei Jinguuji Saburou: Tsubaki no Yukue</li>
+
+  <li>Tantei Jinguuji Saburou: Akenaiyoru ni</li>
+
+  <li>Tantei Jinguuji Saburou: Kadannoitte</li>
+
+  <li>Tantei Jinguuji Saburou: Rensa Suru Noroi</li>
+
+  <li>Tantei Jinguuji Saburou: Nakiko no Shouzou</li>
+
+  <li>Tetris Party Live</li>
+
+  <li>Turn: The Lost Artifact
+
+  <ul dir="auto">
+
+  <li>Does not save due to difficulty in implementation</li>
+
+  </ul>
+
+  </li>
+
+  <li>Zombie Blaster</li>
+
+  <li>Zombie Skape</li>
+
+  <li>Zoonies: Escape from Makatu</li>
+
+  <li>Zuma''s Revenge!</li>
+
+  </ul>
+
+  <p dir="auto">*As there''s no photo album in B4DS mode, you must use the screenshot
+  feature in the in-game menu to take a picture in <em>Anne''s Doll Studio</em>.</p>
+
+  <h2 dir="auto">Newly supported DSiWare titles only on debug DS consoles</h2>
+
+  <ul dir="auto">
+
+  <li>Bejeweled Twist (Europe, Australia)
+
+  <ul dir="auto">
+
+  <li>As the USA version is already supported on both retail and debug consoles, this
+  one is not counted towards the total</li>
+
+  </ul>
+
+  </li>
+
+  <li>Electroplankton: Beatnes</li>
+
+  <li>Electroplankton: Lumiloop</li>
+
+  <li>Electroplankton: Trapy</li>
+
+  <li>Go! Go! Kokopolo</li>
+
+  <li>Little Red Riding Hood''s Zombie BBQ</li>
+
+  <li>Pirates Assault</li>
+
+  <li>Remote Racers</li>
 
   </ul>'
-updated: '2022-09-16T03:33:10Z'
-version: v0.64.1
-version_title: v0.64.1
+updated: '2022-10-11T04:38:54Z'
+version: v0.65.0
+version_title: 'v0.65.0: Canadian Thanksgiving 10/10 Release'
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
