@@ -107,6 +107,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <li>Fixed WiFi crashing <em>Bomberman Blitz</em> in B4DS mode.</li>
 
+  <li>Fixed saving not working in <em>Heathcliff: Spot On</em> in B4DS mode.</li>
+
   <li>Fixed an overlooked bug where the DSiWare version of <em>Plants vs. Zombies</em>
   would crash in B4DS mode on debug DS consoles after going into gameplay.</li>
 
