@@ -27,27 +27,27 @@ prerelease:
       size_str: 8 KiB
       url: https://github.com/linux-3ds/linux/releases/download/latest/nintendo3ds_ktr.dtb
     zImage:
-      size: 4391752
+      size: 5126992
       size_str: 4 MiB
       url: https://github.com/linux-3ds/linux/releases/download/latest/zImage
   update_notes: '<h2 dir="auto">Commits</h2>
 
     <ul dir="auto">
 
-    <li>9c6f996: Better keyboard (<a class="issue-link js-issue-link" data-error-text="Failed
-    to load title" data-id="1090146918" data-permission-text="Title is private" data-url="https://github.com/linux-3ds/linux/issues/67"
-    data-hovercard-type="pull_request" data-hovercard-url="/linux-3ds/linux/pull/67/hovercard"
-    href="https://github.com/linux-3ds/linux/pull/67">#67</a>) (shokifrend007) <a
-    href="https://github.com/linux-3ds/linux/pull/67" data-hovercard-type="pull_request"
-    data-hovercard-url="/linux-3ds/linux/pull/67/hovercard">#67</a></li>
+    <li>253c328: fix CTR_TSC_TOUCH dependencies (<a class="issue-link js-issue-link"
+    data-error-text="Failed to load title" data-id="1402741561" data-permission-text="Title
+    is private" data-url="https://github.com/linux-3ds/linux/issues/80" data-hovercard-type="pull_request"
+    data-hovercard-url="/linux-3ds/linux/pull/80/hovercard" href="https://github.com/linux-3ds/linux/pull/80">#80</a>)
+    (raisin) <a href="https://github.com/linux-3ds/linux/pull/80" data-hovercard-type="pull_request"
+    data-hovercard-url="/linux-3ds/linux/pull/80/hovercard">#80</a></li>
 
     </ul>'
   update_notes_md: '## Commits
 
-    - 9c6f996: Better keyboard (#67) (shokifrend007) [#67](https://github.com/linux-3ds/linux/pull/67)'
-  updated: '2021-12-30T22:28:37Z'
+    - 253c328: fix CTR_TSC_TOUCH dependencies (#80) (raisin) [#80](https://github.com/linux-3ds/linux/pull/80)'
+  updated: '2022-10-11T17:12:12Z'
   version: latest
-  version_title: Development build 9c6f996
+  version_title: Development build 253c328
 source: https://github.com/linux-3ds/linux
 systems:
 - 3DS
@@ -56,14 +56,15 @@ update_notes: '<h2 dir="auto">Commits</h2>
 
   <ul dir="auto">
 
-  <li>9c6f996: Better keyboard (<a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="1090146918" data-permission-text="Title is private" data-url="https://github.com/linux-3ds/linux/issues/67"
-  data-hovercard-type="pull_request" data-hovercard-url="/linux-3ds/linux/pull/67/hovercard"
-  href="https://github.com/linux-3ds/linux/pull/67">#67</a>) (shokifrend007) <a href="https://github.com/linux-3ds/linux/pull/67"
-  data-hovercard-type="pull_request" data-hovercard-url="/linux-3ds/linux/pull/67/hovercard">#67</a></li>
+  <li>253c328: fix CTR_TSC_TOUCH dependencies (<a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="1402741561" data-permission-text="Title
+  is private" data-url="https://github.com/linux-3ds/linux/issues/80" data-hovercard-type="pull_request"
+  data-hovercard-url="/linux-3ds/linux/pull/80/hovercard" href="https://github.com/linux-3ds/linux/pull/80">#80</a>)
+  (raisin) <a href="https://github.com/linux-3ds/linux/pull/80" data-hovercard-type="pull_request"
+  data-hovercard-url="/linux-3ds/linux/pull/80/hovercard">#80</a></li>
 
   </ul>'
-updated: '2021-12-30T22:28:37Z'
+updated: '2022-10-11T17:12:12Z'
 version: 9c6f996
 version_title: Development build 9c6f996
 website: https://github.com/linux-3ds/
