@@ -14,15 +14,19 @@ downloads:
   LICENSE:
     size: 1068
     size_str: 1 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.4/LICENSE
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.5/LICENSE
   README.md:
-    size: 24942
+    size: 25355
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.4/README.md
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.5/README.md
+  StellaDS.nds:
+    size: 1534464
+    size_str: 1 MiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.5/StellaDS.nds
   compatibility.txt:
-    size: 24787
+    size: 24608
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.4/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.5/compatibility.txt
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -30,24 +34,23 @@ image_length: 10279
 layout: app
 license: mit
 license_name: MIT License
+qr:
+  StellaDS.nds: https://db.universal-team.net/assets/images/qr/stellads-nds.png
 source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V5.4 : 07-Oct-2022 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V5.5 : 12-Oct-2022 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
-  <li>Added DF bank switching scheme (missed when DFSC was added).</li>
+  <li>Added DPC+ with ARM Thumbulator to provide some preliminary support for ARM-assisted
+  games.</li>
 
-  <li>New core execution loop that gives us another 2 frames of performance.</li>
-
-  <li>Optimized F4 driver to make some of the 32K games playable on DS-Lite.</li>
-
-  <li>Cleanup across the board.</li>
+  <li>Improved execution speed of the emulator and improved the frame blending algorithm.</li>
 
   </ul>'
-updated: '2022-10-07T11:06:03Z'
-version: '5.4'
-version_title: Version 5.4
+updated: '2022-10-12T18:50:31Z'
+version: '5.5'
+version_title: Version 5.5
 ---
