@@ -17,19 +17,18 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/0.6.2
+  download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/0.6.3
   downloads:
-    Raptor3DS.V0.6.2.zip:
-      size: 4070481
+    Raptor3DS.V0.6.3.zip:
+      size: 4071540
       size_str: 3 MiB
-      url: https://github.com/RetroGamer02/raptor3ds/releases/download/0.6.2/Raptor3DS.V0.6.2.zip
-  update_notes: <p dir="auto">Recompiled libctru 1.90 with 03 optimization for yet
-    another boost of speed.</p>
-  update_notes_md: Recompiled libctru 1.90 with 03 optimization for yet another boost
-    of speed.
-  updated: '2022-10-12T04:28:34Z'
-  version: 0.6.2
-  version_title: Another speed boost
+      url: https://github.com/RetroGamer02/raptor3ds/releases/download/0.6.3/Raptor3DS.V0.6.3.zip
+  update_notes: <p dir="auto">Raised the quality of the audio along with yet another
+    speed boost.</p>
+  update_notes_md: Raised the quality of the audio along with yet another speed boost.
+  updated: '2022-10-12T14:06:57Z'
+  version: 0.6.3
+  version_title: Audio Quality
 screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/raptor3ds/main-menu.png
@@ -42,10 +41,10 @@ source: https://github.com/RetroGamer02/raptor3ds
 systems:
 - 3DS
 title: Raptor3DS
-update_notes: <p dir="auto">Recompiled libctru 1.90 with 03 optimization for yet another
-  boost of speed.</p>
-updated: '2022-10-12T04:28:34Z'
-version: 0.6.2
-version_title: Another speed boost
+update_notes: <p dir="auto">Raised the quality of the audio along with yet another
+  speed boost.</p>
+updated: '2022-10-12T14:06:57Z'
+version: 0.6.3
+version_title: Audio Quality
 ---
 Reversed-engineered source port from Raptor Call Of The Shadows ported to the Nintendo 3DS.
