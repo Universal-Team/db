@@ -11,35 +11,35 @@ description: Port of Sonic 1 and 2 to the 3DS, based on Rubberduckycooly's Sonic
 download_page: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases
 downloads:
   Sonic1.3dsx:
-    size: 1047560
-    size_str: 1023 KiB
+    size: 1046936
+    size_str: 1022 KiB
     url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic1.3dsx
   Sonic1.cia:
-    size: 1055680
+    size: 1054656
     size_str: 1 MiB
     url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic1.cia
   Sonic1_rev01.3dsx:
-    size: 1047776
-    size_str: 1023 KiB
+    size: 1047152
+    size_str: 1022 KiB
     url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic1_rev01.3dsx
   Sonic1_rev01.cia:
-    size: 1055680
+    size: 1055168
     size_str: 1 MiB
     url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic1_rev01.cia
   Sonic2.3dsx:
-    size: 1047560
-    size_str: 1023 KiB
+    size: 1046936
+    size_str: 1022 KiB
     url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic2.3dsx
   Sonic2.cia:
-    size: 1070528
+    size: 1069504
     size_str: 1 MiB
     url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic2.cia
   Sonic2_rev01.3dsx:
-    size: 1047776
-    size_str: 1023 KiB
+    size: 1047152
+    size_str: 1022 KiB
     url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic2_rev01.3dsx
   Sonic2_rev01.cia:
-    size: 1071040
+    size: 1070528
     size_str: 1 MiB
     url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic2_rev01.cia
 github: JeffRuLz/Sonic-1-2-2013-Decompilation
@@ -125,10 +125,12 @@ update_notes: '<h1 dir="auto"><a href="https://github.com/JeffRuLz/Sonic-1-2-201
 
   <li>Added warning screens for some common user errors</li>
 
-  </ul>
+  <li><strong>October 9th Hotfix: Fixed a bug that prevented multiple mods from loading.</strong></li>
 
-  <h2 dir="auto">Hotfix October 9th: Fixed a bug that prevented multiple mods from
-  loading.</h2>
+  <li><strong>October 11th: Debug text is no longer displayed when debug mode is disabled.
+  (Except for specific situations.)</strong></li>
+
+  </ul>
 
   <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/14222721/194726393-d59587cf-1530-46f5-850c-ef33c3a882ff.png"><img
   src="https://user-images.githubusercontent.com/14222721/194726393-d59587cf-1530-46f5-850c-ef33c3a882ff.png"
