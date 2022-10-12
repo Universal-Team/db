@@ -17,23 +17,17 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/0.6.0
+  download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/0.6.1
   downloads:
-    Raptor3DS.V0.6.0.zip:
-      size: 4053516
+    Raptor3DS.V0.6.1.zip:
+      size: 4064961
       size_str: 3 MiB
-      url: https://github.com/RetroGamer02/raptor3ds/releases/download/0.6.0/Raptor3DS.V0.6.0.zip
-  update_notes: '<p dir="auto">The Tango Sector and Outer Region Sector are now fully
-    playable, and Shop enter timer reduced by over half.<br>
-
-    Some crashes and temporary workarounds need to be properly fixed.</p>'
-  update_notes_md: 'The Tango Sector and Outer Region Sector are now fully playable,
-    and Shop enter timer reduced by over half.
-
-    Some crashes and temporary workarounds need to be properly fixed.'
-  updated: '2022-10-09T18:03:59Z'
-  version: 0.6.0
-  version_title: Tango and Outer Region
+      url: https://github.com/RetroGamer02/raptor3ds/releases/download/0.6.1/Raptor3DS.V0.6.1.zip
+  update_notes: <p dir="auto">This release is mainly to speed up the game a bit.</p>
+  update_notes_md: This release is mainly to speed up the game a bit.
+  updated: '2022-10-12T02:19:18Z'
+  version: 0.6.1
+  version_title: Speed Boost
 screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/raptor3ds/main-menu.png
@@ -46,12 +40,9 @@ source: https://github.com/RetroGamer02/raptor3ds
 systems:
 - 3DS
 title: Raptor3DS
-update_notes: '<p dir="auto">The Tango Sector and Outer Region Sector are now fully
-  playable, and Shop enter timer reduced by over half.<br>
-
-  Some crashes and temporary workarounds need to be properly fixed.</p>'
-updated: '2022-10-09T18:03:59Z'
-version: 0.6.0
-version_title: Tango and Outer Region
+update_notes: <p dir="auto">This release is mainly to speed up the game a bit.</p>
+updated: '2022-10-12T02:19:18Z'
+version: 0.6.1
+version_title: Speed Boost
 ---
 Reversed-engineered source port from Raptor Call Of The Shadows ported to the Nintendo 3DS.
