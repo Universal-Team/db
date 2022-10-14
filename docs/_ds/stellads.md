@@ -14,19 +14,19 @@ downloads:
   LICENSE:
     size: 1068
     size_str: 1 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.5/LICENSE
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.6/LICENSE
   README.md:
-    size: 25355
-    size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.5/README.md
+    size: 25679
+    size_str: 25 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.6/README.md
   StellaDS.nds:
-    size: 1534464
+    size: 1530368
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.5/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.6/StellaDS.nds
   compatibility.txt:
     size: 24608
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.5/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.6/compatibility.txt
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -40,17 +40,18 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V5.5 : 12-Oct-2022 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V5.6 : 12-Oct-2022 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
-  <li>Added DPC+ with ARM Thumbulator to provide some preliminary support for ARM-assisted
-  games.</li>
+  <li>Massive speedup improvement for DPC+ games. Most play full speed on the DSi.</li>
 
-  <li>Improved execution speed of the emulator and improved the frame blending algorithm.</li>
+  <li>Fixed graphical glitches on Space Rocks homebrew.</li>
+
+  <li>Other cleanups and optimizations across the board to shine things up.</li>
 
   </ul>'
-updated: '2022-10-12T18:50:31Z'
-version: '5.5'
-version_title: Version 5.5
+updated: '2022-10-14T11:03:52Z'
+version: '5.6'
+version_title: Version 5.6
 ---
