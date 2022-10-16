@@ -17,18 +17,21 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/0.6.3
+  download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/0.6.4
   downloads:
-    Raptor3DS.V0.6.3.zip:
-      size: 4071540
+    Raptor3DS.V0.6.4.zip:
+      size: 4073414
       size_str: 3 MiB
-      url: https://github.com/RetroGamer02/raptor3ds/releases/download/0.6.3/Raptor3DS.V0.6.3.zip
-  update_notes: <p dir="auto">Raised the quality of the audio along with yet another
-    speed boost.</p>
-  update_notes_md: Raised the quality of the audio along with yet another speed boost.
-  updated: '2022-10-12T14:06:57Z'
-  version: 0.6.3
-  version_title: Audio Quality
+      url: https://github.com/RetroGamer02/raptor3ds/releases/download/0.6.4/Raptor3DS.V0.6.4.zip
+  update_notes: <p dir="auto">Video scaling if using second screen fixed and game
+    will now check if Raptor directory and setup file exists. If it does not will
+    make directory and setup.</p>
+  update_notes_md: Video scaling if using second screen fixed and game will now check
+    if Raptor directory and setup file exists. If it does not will make directory
+    and setup.
+  updated: '2022-10-16T17:09:30Z'
+  version: 0.6.4
+  version_title: More Small fixes
 screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/raptor3ds/main-menu.png
@@ -41,10 +44,11 @@ source: https://github.com/RetroGamer02/raptor3ds
 systems:
 - 3DS
 title: Raptor3DS
-update_notes: <p dir="auto">Raised the quality of the audio along with yet another
-  speed boost.</p>
-updated: '2022-10-12T14:06:57Z'
-version: 0.6.3
-version_title: Audio Quality
+update_notes: <p dir="auto">Video scaling if using second screen fixed and game will
+  now check if Raptor directory and setup file exists. If it does not will make directory
+  and setup.</p>
+updated: '2022-10-16T17:09:30Z'
+version: 0.6.4
+version_title: More Small fixes
 ---
 Reversed-engineered source port from Raptor Call Of The Shadows ported to the Nintendo 3DS.
