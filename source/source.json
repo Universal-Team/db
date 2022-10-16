@@ -3211,44 +3211,27 @@
 		"unique_ids": [896723],
 		"image": "https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/master/Source/SysCTR/Resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/master/Source/SysCTR/Resources/icon.png",
-		"prerelease": {
-			"download_page": "https://github.com/cmod31/DaedalusX64-3DS-archived/releases/tag/v0.4",
-			"downloads": {
-				"DaedalusX64.cia": {
-					"size": 938944,
-					"url": "https://github.com/cmod31/DaedalusX64-3DS-archived/releases/download/v0.4/DaedalusX64.cia"
-				},
-				"data.zip": {
-					"size": 13472726,
-					"url": "https://github.com/cmod31/DaedalusX64-3DS-archived/releases/download/v0.4/data.zip"
-				}
-			},
-			"update_notes_md": "This is the Last Release i found on a old Discord that doesn't exist anymore.\r\nThe sourcecode is unavailable.\r\nIt ads a lot of new settings, a new good looking GUI and better emulation.\r\n(I can't give you an original changelog)\r\n**INSTALLATION:**\r\nYou need to extract the `data.zip` on the root of your SD-Card so that the contents of the `3ds` folder are in your `3ds` folder.\r\nThen just install the `.cia` with a cia installer like [FBI](https://github.com/Steveice10/FBI/releases).",
-			"updated": "2022-02-20T12:28:04Z",
-			"version": "v0.4",
-			"version_title": "Last found Release"
-		},
 		"autogen_scripts": true,
 		"scripts": {
-			"[prerelease] data.zip": {
+			"3ds.zip": {
 				"type": "prerelease",
-				"size": "12.8 MiB",
+				"size": "12.9 MiB",
 				"script": [
 					{
 						"type": "downloadRelease",
-						"repo": "cmod31/DaedalusX64-3DS-archived",
-						"file": "data.zip",
-						"output": "/data.zip"
+						"repo": "masterfeizz/DaedalusX64-3DS",
+						"file": "3ds.zip",
+						"output": "/3ds.zip"
 					},
 					{
 						"type": "extractFile",
-						"file": "/data.zip",
+						"file": "/3ds.zip",
 						"input": "",
 						"output": "/"
 					},
 					{
 						"type": "deleteFile",
-						"file": "/data.zip"
+						"file": "/3ds.zip"
 					}
 				]
 			}
