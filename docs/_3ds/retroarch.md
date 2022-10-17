@@ -108,6 +108,8 @@ update_notes: '<ul dir="auto">
 
   <li>SCREENSHOTS/VULKAN: Fix screenshot widget crash when ticker animating</li>
 
+  <li>WAYLAND: Set correct app ID</li>
+
   <li>WIIU: Add some missing default directories</li>
 
   <li>WIIU: Get mkdir working on WiiU (directory creation)</li>

@@ -10,45 +10,25 @@ created: '2020-04-30T00:57:08Z'
 description: Port of DaedalusX64 to the Nintendo 3DS
 download_page: https://github.com/masterfeizz/daedalusx64-3DS/releases
 downloads:
+  3ds.zip:
+    size: 13474361
+    size_str: 12 MiB
+    url: https://github.com/masterfeizz/DaedalusX64-3DS/releases/download/v1.0/3ds.zip
   DaedalusX64.3dsx:
-    size: 677156
-    size_str: 661 KiB
-    url: https://github.com/masterfeizz/DaedalusX64-3DS/releases/download/v0.2/DaedalusX64.3dsx
+    size: 1309152
+    size_str: 1 MiB
+    url: https://github.com/masterfeizz/DaedalusX64-3DS/releases/download/v1.0/DaedalusX64.3dsx
   DaedalusX64.cia:
-    size: 512960
-    size_str: 500 KiB
-    url: https://github.com/masterfeizz/DaedalusX64-3DS/releases/download/v0.2/DaedalusX64.cia
-  daedalus.zip:
-    size: 361499
-    size_str: 353 KiB
-    url: https://github.com/masterfeizz/DaedalusX64-3DS/releases/download/v0.2/daedalus.zip
+    size: 938944
+    size_str: 916 KiB
+    url: https://github.com/masterfeizz/DaedalusX64-3DS/releases/download/v1.0/DaedalusX64.cia
 github: masterfeizz/daedalusx64-3DS
 icon: https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/master/Source/SysCTR/Resources/icon.png
 image: https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/master/Source/SysCTR/Resources/banner.png
-image_length: 23118
+image_length: 15215
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
-prerelease:
-  download_page: https://github.com/cmod31/DaedalusX64-3DS-archived/releases/tag/v0.4
-  downloads:
-    DaedalusX64.cia:
-      size: 938944
-      url: https://github.com/cmod31/DaedalusX64-3DS-archived/releases/download/v0.4/DaedalusX64.cia
-    data.zip:
-      size: 13472726
-      url: https://github.com/cmod31/DaedalusX64-3DS-archived/releases/download/v0.4/data.zip
-  qr:
-    DaedalusX64.cia: https://db.universal-team.net/assets/images/qr/prerelease/daedalusx64-cia.png
-  update_notes_md: "This is the Last Release i found on a old Discord that doesn't\
-    \ exist anymore.\r\nThe sourcecode is unavailable.\r\nIt ads a lot of new settings,\
-    \ a new good looking GUI and better emulation.\r\n(I can't give you an original\
-    \ changelog)\r\n**INSTALLATION:**\r\nYou need to extract the `data.zip` on the\
-    \ root of your SD-Card so that the contents of the `3ds` folder are in your `3ds`\
-    \ folder.\r\nThen just install the `.cia` with a cia installer like [FBI](https://github.com/Steveice10/FBI/releases)."
-  updated: '2022-02-20T12:28:04Z'
-  version: v0.4
-  version_title: Last found Release
 qr:
   DaedalusX64.cia: https://db.universal-team.net/assets/images/qr/daedalusx64-cia.png
 screenshots:
@@ -64,9 +44,11 @@ systems:
 title: DaedalusX64-3DS
 unique_ids:
 - '0xDAED3'
-update_notes: '<h1 dir="auto">Beta v0.2</h1>
+update_notes: '<h1 dir="auto">Release v1.0</h1>
 
   <ul dir="auto">
+
+  <li>Hardware fog rendering</li>
 
   <li>Dynarec, renderer, and user interface improvements</li>
 
@@ -80,6 +62,8 @@ update_notes: '<h1 dir="auto">Beta v0.2</h1>
 
   <li>Place your ROM files in sdmc:/3ds/DaedalusX64/Roms/</li>
 
+  <li>Delete sdmc:/3ds/DaedalusX64/preferences.ini from older versions if present</li>
+
   </ol>
 
   <h2 dir="auto">Troubleshooting</h2>
@@ -89,8 +73,10 @@ update_notes: '<h1 dir="auto">Beta v0.2</h1>
   <li>If the emulator freezes everytime you try to launch a game, make sure you are
   using a recent version of Luma and have dumped your dsp firmware.</li>
 
+  <li>Delete sdmc:/3ds/DaedalusX64/preferences.ini from older versions if present</li>
+
   </ul>'
-updated: '2020-05-04T01:22:51Z'
-version: v0.2
-version_title: Beta v0.2
+updated: '2022-10-16T21:47:42Z'
+version: v1.0
+version_title: v1.0
 ---
