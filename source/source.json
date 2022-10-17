@@ -3214,7 +3214,6 @@
 		"autogen_scripts": true,
 		"scripts": {
 			"3ds.zip": {
-				"type": "prerelease",
 				"size": "12.9 MiB",
 				"script": [
 					{
