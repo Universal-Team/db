@@ -40,7 +40,7 @@ script_message: 'Note: You will need "FILE0002.GLB", "FILE0003.GLB",
 
   and "FILE0004.GLB" from the v1.2 DOS version the in
 
-  the SD root to play the game.'
+  the sdmc:/3ds/Raptor folder to play the game.'
 source: https://github.com/RetroGamer02/raptor3ds
 systems:
 - 3DS
