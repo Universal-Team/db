@@ -115,7 +115,7 @@ update_notes: '<ul dir="auto">
   <li>WIIU: Get mkdir working on WiiU (directory creation)</li>
 
   </ul>'
-updated: '2022-10-16T16:17:09Z'
+updated: '2022-10-17T13:15:48Z'
 version: v1.12.0
 version_title: v1.12.0
 website: http://www.libretro.com
