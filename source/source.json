@@ -5451,6 +5451,6 @@
 				"Raptor3DS {}.cia": ["Raptor3DS {}.cia", "Raptor"]
 			}
 		},
-		"script_message": "Note: You will need \"FILE0002.GLB\", \"FILE0003.GLB\",\nand \"FILE0004.GLB\" from the v1.2 DOS version the in\nthe SD root to play the game."
+		"script_message": "Note: You will need \"FILE0002.GLB\", \"FILE0003.GLB\",\nand \"FILE0004.GLB\" from the v1.2 DOS version the in\nthe sdmc:/3ds/Raptor folder to play the game."
 	}
 ]
