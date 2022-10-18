@@ -16,22 +16,19 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/0.6.6
+  download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/0.6.7
   downloads:
-    Raptor3DS.V0.6.6.zip:
-      size: 4066422
+    Raptor3DS.V0.6.7.zip:
+      size: 4063256
       size_str: 3 MiB
-      url: https://github.com/RetroGamer02/raptor3ds/releases/download/0.6.6/Raptor3DS.V0.6.6.zip
-  update_notes: '<p dir="auto">One probably final speedup by optimizing not only the
-    game but the libs it uses.<br>
-
-    Video now has a slightly lower priority than before so music can run smoother.</p>'
-  update_notes_md: "One probably final speedup by optimizing not only the game but\
-    \ the libs it uses. \nVideo now has a slightly lower priority than before so music\
-    \ can run smoother."
-  updated: '2022-10-17T20:49:11Z'
-  version: 0.6.6
-  version_title: Fine tuned optimizations
+      url: https://github.com/RetroGamer02/raptor3ds/releases/download/0.6.7/Raptor3DS.V0.6.7.zip
+  update_notes: <p dir="auto">Having trouble in your game? Try pressing Start and
+    Y at the same time while in game! Warning will erase your current score/cash.</p>
+  update_notes_md: Having trouble in your game? Try pressing Start and Y at the same
+    time while in game! Warning will erase your current score/cash.
+  updated: '2022-10-18T19:32:38Z'
+  version: 0.6.7
+  version_title: Cheat codes
 screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/raptor3ds/main-menu.png
@@ -44,12 +41,10 @@ source: https://github.com/RetroGamer02/raptor3ds
 systems:
 - 3DS
 title: Raptor3DS
-update_notes: '<p dir="auto">One probably final speedup by optimizing not only the
-  game but the libs it uses.<br>
-
-  Video now has a slightly lower priority than before so music can run smoother.</p>'
-updated: '2022-10-17T20:49:11Z'
-version: 0.6.6
-version_title: Fine tuned optimizations
+update_notes: <p dir="auto">Having trouble in your game? Try pressing Start and Y
+  at the same time while in game! Warning will erase your current score/cash.</p>
+updated: '2022-10-18T19:32:38Z'
+version: 0.6.7
+version_title: Cheat codes
 ---
 Reversed-engineered source port from Raptor Call Of The Shadows ported to the Nintendo 3DS.
