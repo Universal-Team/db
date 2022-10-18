@@ -14,19 +14,19 @@ downloads:
   LICENSE:
     size: 1068
     size_str: 1 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.6/LICENSE
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.7/LICENSE
   README.md:
-    size: 25679
+    size: 25914
     size_str: 25 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.6/README.md
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.7/README.md
   StellaDS.nds:
-    size: 1529856
+    size: 1521664
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.6/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.7/StellaDS.nds
   compatibility.txt:
     size: 24608
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.6/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.7/compatibility.txt
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -40,18 +40,18 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V5.6 : 12-Oct-2022 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V5.7 : 18-Oct-2022 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
-  <li>Massive speedup improvement for DPC+ games. Most play full speed on the DSi.</li>
+  <li>Fixed Sword of Surtr so it plays properly.</li>
 
-  <li>Fixed graphical glitches on Space Rocks homebrew.</li>
+  <li>Added TWIN STICK controller so games like Rail Slider are playable!</li>
 
-  <li>Other cleanups and optimizations across the board to shine things up.</li>
+  <li>More DPC+ optimizations... Space Rocks is almost full speed!</li>
 
   </ul>'
-updated: '2022-10-14T11:03:52Z'
-version: '5.6'
-version_title: Version 5.6
+updated: '2022-10-18T11:11:50Z'
+version: '5.7'
+version_title: Version 5.7
 ---
