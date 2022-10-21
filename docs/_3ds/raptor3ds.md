@@ -16,19 +16,19 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/0.7.0
+  download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/0.7.1
   downloads:
-    Raptor3DS.V0.7.0.zip:
-      size: 4063253
+    Raptor3DS.V0.7.1.zip:
+      size: 4101066
       size_str: 3 MiB
-      url: https://github.com/RetroGamer02/raptor3ds/releases/download/0.7.0/Raptor3DS.V0.7.0.zip
-  update_notes: <p dir="auto">Fixed a crash that could occur by moving too far off
-    screen when a boss is defeated.</p>
-  update_notes_md: Fixed a crash that could occur by moving too far off screen when
-    a boss is defeated.
-  updated: '2022-10-19T19:51:21Z'
-  version: 0.7.0
-  version_title: Crash fix
+      url: https://github.com/RetroGamer02/raptor3ds/releases/download/0.7.1/Raptor3DS.V0.7.1.zip
+  update_notes: <p dir="auto">Significant speed up and now uses a custom SDL lib mixed
+    from nop90's and StephenCWills's and Citro3D updated to V1.6.0.</p>
+  update_notes_md: Significant speed up and now uses a custom SDL lib mixed from nop90's
+    and StephenCWills's and Citro3D updated to V1.6.0.
+  updated: '2022-10-21T21:58:10Z'
+  version: 0.7.1
+  version_title: Improved speed and updated Libs
 screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/raptor3ds/main-menu.png
@@ -41,10 +41,10 @@ source: https://github.com/RetroGamer02/raptor3ds
 systems:
 - 3DS
 title: Raptor3DS
-update_notes: <p dir="auto">Fixed a crash that could occur by moving too far off screen
-  when a boss is defeated.</p>
-updated: '2022-10-19T19:51:21Z'
-version: 0.7.0
-version_title: Crash fix
+update_notes: <p dir="auto">Significant speed up and now uses a custom SDL lib mixed
+  from nop90's and StephenCWills's and Citro3D updated to V1.6.0.</p>
+updated: '2022-10-21T21:58:10Z'
+version: 0.7.1
+version_title: Improved speed and updated Libs
 ---
 Reversed-engineered source port from Raptor Call Of The Shadows ported to the Nintendo 3DS.
