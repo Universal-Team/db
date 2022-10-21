@@ -4682,10 +4682,12 @@
 		}
 	},
 	{
-		"github": "tilderain/IkachanDS",
+		"github": "awkitsune/IkachanDS",
+		"author": "tilderain / Vladimir Kosickij",
 		"systems": ["DS"],
 		"categories": ["game"],
-		"icon": "https://raw.githubusercontent.com/tilderain/IkachanDS/master/icon.bmp"
+		"icon": "https://raw.githubusercontent.com/awkitsune/IkachanDS/master/icon.bmp",
+		"long_description": "In this game you can play as a squid named Ikachan, who swims through a cave, meeting and helping other creatures.\n\nThe game is compatible with DS flashcards, NDS-Bootstrap and HiyaCFW home menu via TMFH"
 	},
 	{
 		"github": "Garhoogin/Gravity",
