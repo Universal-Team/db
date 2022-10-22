@@ -16,19 +16,29 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/0.7.1
+  download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/0.7.2
   downloads:
-    Raptor3DS.V0.7.1.zip:
-      size: 4101066
+    Raptor3DS.V0.7.2.zip:
+      size: 4101521
       size_str: 3 MiB
-      url: https://github.com/RetroGamer02/raptor3ds/releases/download/0.7.1/Raptor3DS.V0.7.1.zip
-  update_notes: <p dir="auto">Significant speed up and now uses a custom SDL lib mixed
-    from nop90's and StephenCWills's and Citro3D updated to V1.6.0.</p>
-  update_notes_md: Significant speed up and now uses a custom SDL lib mixed from nop90's
-    and StephenCWills's and Citro3D updated to V1.6.0.
-  updated: '2022-10-21T21:58:10Z'
-  version: 0.7.1
-  version_title: Improved speed and updated Libs
+      url: https://github.com/RetroGamer02/raptor3ds/releases/download/0.7.2/Raptor3DS.V0.7.2.zip
+  update_notes: '<p dir="auto">The changes are mostly to the custom SDL library for
+    stability. A new Fullscreen video mode is available.<br>
+
+    In the setup.ini aspect1to1 has changed to screen_mode. The setup will default
+    it to fit to height.<br>
+
+    Screen mode 0 is fit to height, 1 is 1to1 aspect ratio, and 2 is fullscreen.</p>'
+  update_notes_md: 'The changes are mostly to the custom SDL library for stability.
+    A new Fullscreen video mode is available.
+
+    In the setup.ini aspect1to1 has changed to screen_mode. The setup will default
+    it to fit to height.
+
+    Screen mode 0 is fit to height, 1 is 1to1 aspect ratio, and 2 is fullscreen.'
+  updated: '2022-10-22T20:25:55Z'
+  version: 0.7.2
+  version_title: Crash fix and fullscreen option
 screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/raptor3ds/main-menu.png
@@ -41,10 +51,15 @@ source: https://github.com/RetroGamer02/raptor3ds
 systems:
 - 3DS
 title: Raptor3DS
-update_notes: <p dir="auto">Significant speed up and now uses a custom SDL lib mixed
-  from nop90's and StephenCWills's and Citro3D updated to V1.6.0.</p>
-updated: '2022-10-21T21:58:10Z'
-version: 0.7.1
-version_title: Improved speed and updated Libs
+update_notes: '<p dir="auto">The changes are mostly to the custom SDL library for
+  stability. A new Fullscreen video mode is available.<br>
+
+  In the setup.ini aspect1to1 has changed to screen_mode. The setup will default it
+  to fit to height.<br>
+
+  Screen mode 0 is fit to height, 1 is 1to1 aspect ratio, and 2 is fullscreen.</p>'
+updated: '2022-10-22T20:25:55Z'
+version: 0.7.2
+version_title: Crash fix and fullscreen option
 ---
 Reversed-engineered source port from Raptor Call Of The Shadows ported to the Nintendo 3DS.
