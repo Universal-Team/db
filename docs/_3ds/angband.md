@@ -24,6 +24,10 @@ prerelease:
       size: 24154590
       size_str: 23 MiB
       url: https://github.com/angband/angband/releases/download/4.2.4-147-g273e7c72a/Angband-4.2.4-147-g273e7c72a-3ds.zip
+    Angband-4.2.4-147-g273e7c72a-nds.zip:
+      size: 23357192
+      size_str: 22 MiB
+      url: https://github.com/angband/angband/releases/download/4.2.4-147-g273e7c72a/Angband-4.2.4-147-g273e7c72a-nds.zip
   updated: '2022-10-21T23:50:18Z'
   version: 4.2.4-147-g273e7c72a
   version_title: Release 4.2.4-147-g273e7c72a
