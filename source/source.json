@@ -4018,7 +4018,7 @@
 					"type": "extractFile",
 					"file": "/assets.zip",
 					"input": "",
-					"output": "retroarch/media/"
+					"output": "retroarch/assets/"
 				},
 				{
 					"type": "deleteFile",
