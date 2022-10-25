@@ -65,7 +65,7 @@ class StoreEntry:
 
 		self._entry[scriptName] = script
 
-	def addDownloadScript(self, scriptName: str, file: str, url: str, message: str = None, archive: tuple = None, size: str = None, releaseType: str = None) -> None:
+	def addDownloadScript(self, scriptName: str, file: str, url: str, message: str = None, archive: tuple = None, size: str = None, releaseType: str = None, retroarch: bool = False) -> None:
 		"""Generates a script to download the given file"""
 
 		if releaseType not in (None, "nightly", "prerelease"):
@@ -108,10 +108,17 @@ class StoreEntry:
 						"file": f"/{item[item.rfind('/') + 1:]}"
 					})
 
-					script.append({
-						"type": "deleteFile",
-						"file": f"/{item[item.rfind('/') + 1:]}"
-					})
+					if retroarch:
+						script.append({
+							"type": "move",
+							"old": f"/{item[item.rfind('/') + 1:]}",
+							"new": f"/retroarch/cores/{item[item.rfind('/') + 1:]}"
+						})
+					else:
+						script.append({
+							"type": "deleteFile",
+							"file": f"/{item[item.rfind('/') + 1:]}"
+						})
 				elif item == "boot.firm":
 					script.append({
 						"type": "extractFile",

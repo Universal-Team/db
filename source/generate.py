@@ -145,7 +145,7 @@ def retroarchUniStore(docsDir: str, tempDir: str) -> None:
 		)
 
 		entry.addDownloadScript(f"{name}.3dsx", f"{name}.zip", href, archive=(f"{name}.3dsx",))
-		entry.addDownloadScript(f"{name}.cia", f"{name}.zip", href.replace("3dsx", "cia"), archive=(f"{name}.cia",))
+		entry.addDownloadScript(f"{name}.cia", f"{name}.zip", href.replace("3dsx", "cia"), archive=(f"{name}.cia",), retroarch=True)
 
 		unistoreRA.append(entry)
 
