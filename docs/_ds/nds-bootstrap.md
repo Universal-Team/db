@@ -356,6 +356,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <li>Only USA version is supported</li>
 
+  <li>Does not save</li>
+
   </ul>
 
   </li>
