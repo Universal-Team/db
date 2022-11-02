@@ -1968,7 +1968,128 @@
 		"github": "masterfeizz/Quake2CTR",
 		"systems": ["3DS"],
 		"categories": ["game"],
-		"unique_ids": [1044773]
+		"unique_ids": [1044773],
+		"script_message": "Note: You will need the \"baseq2\" folder\nfrom the full release of the game in\n\"sdmc:/3ds/quake2\" to play the game."
+	},
+	{
+		"github": "masterfeizz/ioQuake3DS",
+		"systems": ["3DS"],
+		"categories": ["game"],
+		"unique_ids": [1044773],
+		"scripts": {
+			"OpenArena.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "masterfeizz/ioQuake3DS",
+					"file": "OpenArena.3dsx",
+					"output": "%3DSX%/OpenArena.3dsx"
+				},
+				{
+					"type": "downloadRelease",
+					"repo": "masterfeizz/ioQuake3DS",
+					"file": "openarena_data.zip",
+					"output": "/openarena_data.zip"
+				},
+				{
+					"type": "extractFile",
+					"file": "/openarena_data.zip",
+					"input": "",
+					"output": "/"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/openarena_data.zip"
+				}
+			],
+			"OpenArena.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "masterfeizz/ioQuake3DS",
+					"file": "OpenArena.cia",
+					"output": "/OpenArena.cia"
+				},
+				{
+					"type": "installCia",
+					"file": "/OpenArena.cia"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/OpenArena.cia"
+				},
+				{
+					"type": "downloadRelease",
+					"repo": "masterfeizz/ioQuake3DS",
+					"file": "openarena_data.zip",
+					"output": "/openarena_data.zip"
+				},
+				{
+					"type": "extractFile",
+					"file": "/openarena_data.zip",
+					"input": "",
+					"output": "/"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/openarena_data.zip"
+				}
+			],
+			"Quake3DS.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "masterfeizz/ioQuake3DS",
+					"file": "Quake3DS.3dsx",
+					"output": "%3DSX%/Quake3DS.3dsx"
+				},
+				{
+					"type": "downloadRelease",
+					"repo": "masterfeizz/ioQuake3DS",
+					"file": "quake3_data.zip",
+					"output": "/quake3_data.zip"
+				},
+				{
+					"type": "extractFile",
+					"file": "/quake3_data.zip",
+					"input": "",
+					"output": "/"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/quake3_data.zip"
+				}
+			],
+			"Quake3DS.cia": [
+				{
+					"type": "downloadRelease",
+					"repo": "masterfeizz/ioQuake3DS",
+					"file": "Quake3DS.cia",
+					"output": "/Quake3DS.cia"
+				},
+				{
+					"type": "installCia",
+					"file": "/Quake3DS.cia"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Quake3DS.cia"
+				},
+				{
+					"type": "downloadRelease",
+					"repo": "masterfeizz/ioQuake3DS",
+					"file": "quake3_data.zip",
+					"output": "/quake3_data.zip"
+				},
+				{
+					"type": "extractFile",
+					"file": "/quake3_data.zip",
+					"input": "",
+					"output": "/"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/quake3_data.zip"
+				}
+			]
+		}
 	},
 	{
 		"github": "nop90/Neopop-SDL",
