@@ -5585,5 +5585,20 @@
 			}
 		},
 		"script_message": "Note: You will need \"FILE0002.GLB\", \"FILE0003.GLB\",\nand \"FILE0004.GLB\" from the v1.2 DOS version the in\nthe sdmc:/3ds/Raptor folder to play the game."
+	},
+	{
+		"github": "Mips96/Trogdor-Reburninated",
+		"title": "Trogdor: Reburninated",
+		"description": "Burninate the countryside!",
+		"categories": ["game"],
+		"systems": ["3DS"],
+		"image": "https://raw.githubusercontent.com/Mips96/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/background_psp.png",
+		"icon": "https://raw.githubusercontent.com/Mips96/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/logo_icon_android_48.png",
+		"long_description": "An enhanced recreation of the Homestar Runner Flash game, \"Trogdor\", expanded with new features.\n- New Options menu to customize your game\n- Level select\n- New cheats\n- Optional soundtrack from Stinkoman 20X6, another Homestar Runner game\n- Multiple screen scaling options\n- Bugs from the original game have been fixed",
+		"archive": {
+			"Trogdor-Reburninated-(.*)-3ds\\.zip": {
+				"Trogdor-Reburninated.3dsx": ["3ds"]
+			}
+		}
 	}
 ]
