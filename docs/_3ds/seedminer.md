@@ -27,7 +27,9 @@ update_notes: '<ul dir="auto">
 
   <li>Consolidate platforms for a single download.</li>
 
-  </ul>'
+  </ul>
+
+  <p dir="auto">Stealth 22/11/2: Update msed_data to total=1,334,530</p>'
 updated: '2021-12-30T02:15:16Z'
 version: v2.1.6
 version_title: Seeding the BFM Clouds Edition
