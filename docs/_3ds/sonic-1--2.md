@@ -11,35 +11,35 @@ description: Port of Sonic 1 and 2 to the 3DS, based on Rubberduckycooly's Sonic
 download_page: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases
 downloads:
   Sonic1.3dsx:
-    size: 1046936
-    size_str: 1022 KiB
+    size: 1051460
+    size_str: 1 MiB
     url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic1.3dsx
   Sonic1.cia:
-    size: 1054656
+    size: 1057216
     size_str: 1 MiB
     url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic1.cia
   Sonic1_rev01.3dsx:
-    size: 1047152
-    size_str: 1022 KiB
+    size: 1051676
+    size_str: 1 MiB
     url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic1_rev01.3dsx
   Sonic1_rev01.cia:
-    size: 1055168
+    size: 1057728
     size_str: 1 MiB
     url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic1_rev01.cia
   Sonic2.3dsx:
-    size: 1046936
-    size_str: 1022 KiB
+    size: 1051460
+    size_str: 1 MiB
     url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic2.3dsx
   Sonic2.cia:
-    size: 1069504
+    size: 1072576
     size_str: 1 MiB
     url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic2.cia
   Sonic2_rev01.3dsx:
-    size: 1047152
-    size_str: 1022 KiB
+    size: 1051676
+    size_str: 1 MiB
     url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic2_rev01.3dsx
   Sonic2_rev01.cia:
-    size: 1070528
+    size: 1072576
     size_str: 1 MiB
     url: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation/releases/download/v1.3.0/Sonic2_rev01.cia
 github: JeffRuLz/Sonic-1-2-2013-Decompilation
@@ -129,6 +129,10 @@ update_notes: '<h1 dir="auto"><a href="https://github.com/JeffRuLz/Sonic-1-2-201
 
   <li><strong>October 11th: Debug text is no longer displayed when debug mode is disabled.
   (Except for specific situations.)</strong></li>
+
+  <li><strong>November 4th: Fixed game options not working properly (Thanks to <a
+  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/MegAmi24/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/MegAmi24">@MegAmi24</a>)</strong></li>
 
   </ul>
 
