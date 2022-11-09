@@ -11,17 +11,17 @@ description: A clone of Wordle for the Nintendo DS(i)
 download_page: https://github.com/Epicpkmn11/WordleDS/releases
 downloads:
   WordleDS.cia:
-    size: 1193152
+    size: 1209536
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.1.1/WordleDS.cia
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.0/WordleDS.cia
   WordleDS.dsi:
-    size: 1178560
+    size: 1194944
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.1.1/WordleDS.dsi
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.0/WordleDS.dsi
   WordleDS.nds:
-    size: 1178560
+    size: 1194944
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.1.1/WordleDS.nds
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.0/WordleDS.nds
 github: Epicpkmn11/WordleDS
 icon: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
 icon_static: https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/resources/icon/icon.0.png
@@ -51,23 +51,53 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>For the first time the NYT has decided to update the <em>guessable words</em>
-  list
+  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ItsSiem/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ItsSiem">@ItsSiem</a>
+  and me) Added infinite mode
 
   <ul dir="auto">
 
-  <li>Note that this is completely separate from the correct answers list, the correct
-  answers have not been altered</li>
+  <li>Randomly picks words instead of daily</li>
 
-  <li>1,881 more words have been made guessable for a total of 12,546 incorrect words
-  and 14,855 total words</li>
+  <li>Stats are stored separately from daily mode</li>
+
+  <li>Streak only breaks on fail/skip, not missing a day</li>
 
   </ul>
 
   </li>
 
-  <li>Added an option for the share QR to open a web page instead of the raw text,
-  as some QR readers do not handle newlines or such correctly</li>
+  <li>The Times has hired an editor<sup><a href="https://www.theverge.com/2022/11/7/23445167/wordle-the-new-york-times-editor-tracy-bennett"
+  rel="nofollow">[1]</a></sup> so now words are no longer completely random
+
+  <ul dir="auto">
+
+  <li>Currently words until Christmas Eve are public, so expect an update by Christmas</li>
+
+  </ul>
+
+  </li>
+
+  <li>The timer now pauses when sleeping and works on non-no$gba emulators</li>
+
+  <li>There is now a fade effect between all menus to hide any glitchy texture changes</li>
+
+  </ul>
+
+  <h3 dir="auto">Bug Fixes</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed a regression where it failed to load before Wordle 0
+
+  <ul dir="auto">
+
+  <li>Note: Negative Wordles are not guaranteed to stay the same between versions,
+  especially with the now more frequent word list updates</li>
+
+  </ul>
+
+  </li>
 
   </ul>
 
@@ -81,12 +111,12 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
   class="notranslate">.cia</code> build can be used to install to the 3DS HOME Menu,
   here''s a QR:</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/190408005-e057eb66-46fa-4077-b1c6-db3014ecd2fc.png"><img
-  src="https://user-images.githubusercontent.com/41608708/190408005-e057eb66-46fa-4077-b1c6-db3014ecd2fc.png"
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/200749765-89d48516-6e2c-4601-9723-b82d6e1c5b14.png"><img
+  src="https://user-images.githubusercontent.com/41608708/200749765-89d48516-6e2c-4601-9723-b82d6e1c5b14.png"
   alt="QR code for WordleDS.cia" style="max-width: 100%;"></a></p>'
-updated: '2022-09-15T12:46:50Z'
-version: v2.1.1
-version_title: Update guessable list
+updated: '2022-11-09T05:53:18Z'
+version: v2.2.0
+version_title: Infinite mode and word list update
 wiki: https://github.com/Epicpkmn11/WordleDS/wiki
 ---
 A clone of [Wordle](https://www.nytimes.com/games/wordle/index.html) for the Nintendo DS(i). It features the same word each day as the official Wordle and has most of the same features including statistics tracking, high contrast and hard mode options, and even sharable emoji grid via QR code or txt file. Also featuring custom original background music by Rocket Robz.
