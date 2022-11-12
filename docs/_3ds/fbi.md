@@ -1,11 +1,11 @@
 ---
-author: Steven Smith
+author: Steven
 avatar: https://avatars.githubusercontent.com/u/1269164?v=4
 categories:
 - utility
 color: '#c0d0ff'
 color_bg: '#606880'
-created: '2015-01-20T04:23:49Z'
+created: '2022-11-12T01:40:26Z'
 description: Open source title manager for the 3DS.
 download_page: https://github.com/Steveice10/FBI/releases
 downloads:
@@ -43,12 +43,8 @@ systems:
 title: FBI
 unique_ids:
 - '0xF8001'
-update_notes: '<ul dir="auto">
-
-  <li>Fix inability to cancel ext save data deletion.</li>
-
-  </ul>'
-updated: '2021-05-18T05:59:19Z'
+update_notes: <p dir="auto">Release 2.6.1</p>
+updated: '2022-11-12T01:42:08Z'
 version: 2.6.1
 version_title: 2.6.1
 ---
