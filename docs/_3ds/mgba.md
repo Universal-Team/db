@@ -59,7 +59,7 @@ update_notes: '<h3 dir="auto">Features:</h3>
 
   <li>Cheat code support in homebrew ports</li>
 
-  <li>Acclerometer and gyro support for controllers on PC</li>
+  <li>Accelerometer and gyro support for controllers on PC</li>
 
   <li>Support for combo "Super Game Boy Color" SGB + GBC ROM hacks</li>
 
@@ -91,7 +91,7 @@ update_notes: '<h3 dir="auto">Features:</h3>
 
   <li>GB: Fix HALT breaking M-cycle alignment (fixes mgba.io/i/250)</li>
 
-  <li>GB Audio: Fix channel 1/2 reseting edge cases (fixes mgba.io/i/1925)</li>
+  <li>GB Audio: Fix channel 1/2 resetting edge cases (fixes mgba.io/i/1925)</li>
 
   <li>GB Audio: Properly apply per-model audio differences</li>
 
