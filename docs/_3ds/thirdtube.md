@@ -10,13 +10,13 @@ description: A work-in-progress homebrew YouTube client for the 3DS
 download_page: https://github.com/windows-server-2003/ThirdTube/releases
 downloads:
   ThirdTube.3dsx:
-    size: 5755820
+    size: 5733288
     size_str: 5 MiB
-    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.5.0/ThirdTube.3dsx
+    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.5.1/ThirdTube.3dsx
   ThirdTube.cia:
-    size: 4109248
+    size: 4113344
     size_str: 3 MiB
-    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.5.0/ThirdTube.cia
+    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.5.1/ThirdTube.cia
 github: windows-server-2003/ThirdTube
 icon: https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/icon.png
 image: https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/banner.png
@@ -39,104 +39,39 @@ systems:
 title: ThirdTube
 unique_ids:
 - '0xBF74D'
-update_notes: '<p dir="auto">I''m back with a major release v0.5.0!<br>
+update_notes: '<p dir="auto">Recent changes on YouTube broke one of the fundamental
+  function of ThirdTube(channel page), so I am releasing a new release along with
+  some other addition/fixes/improvements.</p>
 
-  I will continue to add features and fix bugs.<br>
-
-  I would like to specially thank <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/Core-2-Extreme/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Core-2-Extreme">@Core-2-Extreme</a>
-  for implementing multithread decoding in his app <a href="https://github.com/Core-2-Extreme/Video_player_for_3DS/">Video
-  Player for 3DS</a>, which made it possible to support o3ds.</p>
-
-  <h2 dir="auto">New features</h2>
+  <p dir="auto">Tips : You can update the app from Settings -&gt; Update. If you see
+  a message saying the app is up-to-date, try restarting the app.</p>
 
   <ul dir="auto">
 
-  <li>Old 3DS support<br>
+  <li>Added configuration for C-pad scrolling speed</li>
 
-  Only 144p videos are supported, and there are some minor limitations</li>
+  <li>Added mention of luma''s new function of dumping DSP firmware when it''is not
+  found</li>
 
-  <li>Always play video on the top screen (when you are playing something in background)</li>
+  <li>Added coloring in the debug log</li>
 
-  <li>Added Home page</li>
+  <li>Fixed channel page not loading videos</li>
 
-  <li>Added self-updater integrated in the app (in Settings menu)</li>
+  <li>Fixed subscriber count text of the uploader on video pages</li>
 
-  <li>Added equalizer</li>
+  <li>Fixed a bug in linebreak drawing which caused the DSP firmware error to be truncated</li>
 
-  <li>SELECT + START to black out the bottom screen</li>
+  <li>Improved performance of text drawing</li>
 
-  <li>L/R to switch between tabs</li>
+  <li>Improved error message on network failure</li>
 
-  <li>Added an option to configure the ratio of forward and backward buffer</li>
+  <li>Improved stability on network failure</li>
 
-  </ul>
-
-  <h2 dir="auto">Changes to existing features</h2>
-
-  <ul dir="auto">
-
-  <li>Debug log keycombo is now SELECT + X instead of SELECT only</li>
-
-  <li>Subscription menu has been integrated into the Home page</li>
-
-  <li>Network framework option deleted(now libcurl is always used)</li>
-
-  <li>Removed dislike counter from the app as YouTube no longer shows it</li>
-
-  </ul>
-
-  <h2 dir="auto">Performance</h2>
-
-  <ul dir="auto">
-
-  <li>HTTP/2 multiplexing support (subscription feed loading is now super fast!)</li>
-
-  <li>Use HTTP content encoding(brotli) (3x faster page loading in some cases)</li>
-
-  <li>Use YouTube json endpoints(faster) instead of html page</li>
-
-  <li>Use icons that are smaller but still clear enough for 3DS</li>
-
-  <li>Faster YouTube parser</li>
-
-  <li>Faster characters drawing</li>
-
-  <li>Use rapidjson instead of json11</li>
-
-  </ul>
-
-  <h2 dir="auto">Bugfixes/Improvements</h2>
-
-  <ul dir="auto">
-
-  <li>Fixed high memory consumption after continuously playing a long video</li>
-
-  <li>Fixed watch history and channel subscription disappear when one of the items
-  contains certain characters(such as double quotes)</li>
-
-  <li>Fixed audio only mode getting enabled when it shouldn''t</li>
-
-  <li>Fixed the unnecessary icon reloading in the subscription menu</li>
-
-  <li>Fixed some crashes</li>
-
-  <li>General error handling improvements</li>
-
-  </ul>
-
-  <h2 dir="auto">Internals</h2>
-
-  <ul dir="auto">
-
-  <li>Updated stb_image to v2.27</li>
-
-  <li>Updated libcurl to 7.82.0</li>
+  <li>Refactored several files</li>
 
   </ul>'
-updated: '2022-05-25T12:36:42Z'
-version: v0.5.0
-version_title: Release v0.5.0
+updated: '2022-11-13T14:00:51Z'
+version: v0.5.1
+version_title: Release v0.5.1
 website: https://gbatemp.net/threads/release-thirdtube-a-homebrew-youtube-client-for-the-new-3ds.591696/
 ---

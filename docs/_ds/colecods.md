@@ -12,21 +12,21 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1153536
+    size: 1602560
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.7/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.8/ColecoDS.nds
   README.md:
-    size: 28401
-    size_str: 27 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.7/README.md
+    size: 28707
+    size_str: 28 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.8/README.md
   blank.cas:
     size: 1
     size_str: 1 Byte
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.7/blank.cas
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.8/blank.cas
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.7/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.8/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -38,16 +38,18 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V7.7: 05-Sept-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V7.8: 13-Nov-2022 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>MegaROMs now supported up to 1024k</li>
+  <li>Partial MSX SCC added. Music on Gradius 2/3, Parodius, King''s Valley 2, F1
+  Spirit and Salamander!</li>
 
-  <li>Minor cleanup across the board.</li>
+  <li>Better audio channel combining so that games with multiple channels of sound
+  don''t sound ''half as loud''.</li>
 
   </ul>'
-updated: '2022-09-05T13:31:02Z'
-version: '7.7'
-version_title: Version 7.7
+updated: '2022-11-13T14:20:56Z'
+version: '7.8'
+version_title: Version 7.8
 ---
