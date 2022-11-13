@@ -4325,7 +4325,7 @@
 		"image": "https://raw.githubusercontent.com/SaturnSH2x2/RSDKv5-Decompilation/3ds-main/3ds/banner.png",
 		"icon": "https://raw.githubusercontent.com/SaturnSH2x2/RSDKv5-Decompilation/3ds-main/3ds/48x48.png",
 		"website": "https://gbatemp.net/threads/release-sonic-mania-3ds-port.618771/",
-		"script_message": "Note: You will need \"Data.rsdk\" from\nthe PC version in\n\"/3ds/SonicMania\" to play the game."
+		"script_message": "Note: You will need \"Data.rsdk\" from\nan official version in\n\"/3ds/SonicMania\" to play the game."
 	},
 	{
 		"github": "Jonatan6/Tic-Tac-DS",
