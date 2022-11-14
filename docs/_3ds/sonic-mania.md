@@ -31,7 +31,7 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/sonic-mania/studiopolis.png
 script_message: 'Note: You will need "Data.rsdk" from
 
-  the Steam, Android, or iOS version in
+  an official version in
 
   "/3ds/SonicMania" to play the game.'
 source: https://github.com/SaturnSH2x2/RSDKv5-Decompilation
