@@ -5612,5 +5612,13 @@
 				"Trogdor-Reburninated.3dsx": ["3ds"]
 			}
 		}
+	},
+	{
+		"github": "Komas19-new/flappy3DS",
+		"title": "Flappy3DS",
+		"description": "Flappy3DS is an Flappy Bird clone for 3DS",
+		"systems": ["3DS"],
+		"categories": ["game"],
+		"unique_ids": [4919]
 	}
 ]
