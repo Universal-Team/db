@@ -6,7 +6,8 @@ categories:
 color: '#625456'
 color_bg: '#625456'
 created: '2022-09-10T22:26:05Z'
-description: Raptor Call Of The Shadows 3DS Port from Reversed-engineered source code
+description: Raptor Call Of The Shadows Console Ports from Reversed-engineered source
+  code
 download_page: https://github.com/RetroGamer02/raptor3ds/releases
 downloads:
   Raptor3DS.V1.0RC1.zip:
