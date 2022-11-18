@@ -63,7 +63,11 @@ update_notes: '<ul dir="auto">
 
   </ul>
 
-  <p dir="auto">Enjoy!</p>'
+  <p dir="auto">Enjoy!</p>
+
+  <p dir="auto">[UPDATE 11/18/22: I finally managed to test the Gamecube version,
+  and it currently doesn''t work. It will be fixed at a later date. Every other console
+  port works fine, though.]</p>'
 updated: '2022-11-16T01:10:50Z'
 version: v1.1
 version_title: v1.1
