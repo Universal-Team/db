@@ -21,6 +21,22 @@ image_length: 37938
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
+prerelease:
+  download_page: https://github.com/RetroGamer02/raptor3ds/releases/tag/XBox-Test
+  downloads:
+    Raptor-XBOX.zip:
+      size: 7445478
+      size_str: 7 MiB
+      url: https://github.com/RetroGamer02/raptor3ds/releases/download/XBox-Test/Raptor-XBOX.zip
+  update_notes: '<p dir="auto">First test release of the Raptor Original Xbox port.<br>
+
+    Currently shareware only.</p>'
+  update_notes_md: 'First test release of the Raptor Original Xbox port.
+
+    Currently shareware only.'
+  updated: '2022-11-19T18:17:54Z'
+  version: XBox-Test
+  version_title: Xbox Test build
 screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/raptor3ds/main-menu.png
