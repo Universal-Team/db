@@ -57,9 +57,10 @@ update_notes: '<ul dir="auto">
   <li>DATABASE/PLAYLISTS: Playlist + database changes - Cleanup ''entry_slot'', fallback
   label + logging</li>
 
-  <li>FRONTEND: Fix default remaps folder for various cores: remap should …<br>
+  <li>FRONTEND: Fix default remaps folder for various cores: remap should be nested
+  in config folder</li>
 
-  …be nested in config folder</li>
+  <li>GFX/VIDEO FILTERS: Prevent video filter init if game is not running</li>
 
   <li>HOTKEYS: Fix shader toggle and add hotkey + sublabel</li>
 
@@ -75,8 +76,6 @@ update_notes: '<ul dir="auto">
 
   <li>IOS13+: Adds iPad Trackpad Support to iOS13 Project (for iOS 13.4 and above)</li>
 
-  <li>INPUT: Addition to analog stick menu navigation</li>
-
   <li>INPUT: Fixed the way devices were previously indexed. Input devices were only
   being indexed in order and would stop at the first time an input has no device connected
   to it. The problem is when a device gets disconnected, that input will have no devices
@@ -91,11 +90,22 @@ update_notes: '<ul dir="auto">
   <li>INPUT/HID: Added usb hid controllers for the famous ZeroDelay encoder and also
   for "Kade: Kick Ass Dynamic Encoder" to be able to use some custom arcade sticks.</li>
 
-  <li>INPUT/OVERLAY: Add eightway area types. The playlist supports UTF8, but edit
-  control replaces the extended character with #. The following code enables extended
-  character input in Netplay Chatting, Search, and Rename titles.</li>
+  <li>INPUT/OVERLAY: Add eightway area types.</li>
+
+  <li>INPUT/OVERLAY: Ignore hitboxes with zero area. I.e. Set ''reach_x'' or ''reach_y''
+  to zero to ensure no hitbox math is done. This simplifies designating animation-only
+  descriptors (e.g. for eightway areas) or obsolete descriptors.</li>
+
+  <li>INPUT/OVERLAY: Add ''reach'' and ''exclusive'' for hitboxes. Allows stretching
+  hitboxes and handling their overlap.</li>
 
   <li>INPUT/OVERLAY: Fix overlay next_index for unnamed targets</li>
+
+  <li>INPUT/MENU: Addition to analog stick menu navigation</li>
+
+  <li>INPUT/MENU: Enable menu navigation also with right analog stick</li>
+
+  <li>INPUT/MENU: Add option for swapping menu scrolling buttons</li>
 
   <li>LOCALIZATION: Updates</li>
 
@@ -108,8 +118,6 @@ update_notes: '<ul dir="auto">
   <li>MENU: Remove useless sublabel from System Information</li>
 
   <li>MENU: Improve widget appearance with missing assets</li>
-
-  <li>MENU/INPUT: Add option for swapping menu scrolling buttons</li>
 
   <li>MENU/QT/WIMP: Remove SSL/TLS check at startup</li>
 
@@ -125,6 +133,18 @@ update_notes: '<ul dir="auto">
 
   <li>MENU/OZONE: Footer improvements - Tighten padding between icon and title, and
   widen between helpers</li>
+
+  <li>MENU/OZONE: Launching anything from a View no longer throws Quick Menu off the
+  screen</li>
+
+  <li>MENU/OZONE: Save state thumbnails in slot dropdown obeys fullscreen toggle properly
+  when content launched via CLI</li>
+
+  <li>MENU/OZONE: Save state thumbnail dropdown won’t allow fullscreen toggle when
+  it shouldn’t</li>
+
+  <li>MENU/OZONE: Selection position remembering in non-playlists won’t flash the
+  first entry</li>
 
   <li>MENU/OZONE: Remember selection per main tabs</li>
 
@@ -153,13 +173,6 @@ update_notes: '<ul dir="auto">
 
   <li>OSX: Fix broken fullscreen mode in macOS Ventura</li>
 
-  <li>OVERLAYS: Ignore hitboxes with zero area. I.e. Set ''reach_x'' or ''reach_y''
-  to zero to ensure no hitbox math is done. This simplifies designating animation-only
-  descriptors (e.g. for eightway areas) or obsolete descriptors.</li>
-
-  <li>OVERLAYS: Add ''reach'' and ''exclusive'' for hitboxes. Allows stretching hitboxes
-  and handling their overlap.</li>
-
   <li>PS2: Fix Error saving remaps and runtime logs</li>
 
   <li>PS3: Fix Core Remap Overwrite Fail</li>
@@ -180,7 +193,9 @@ update_notes: '<ul dir="auto">
   <li>THREADED VIDEO/GLCORE: Fix regression ''Shader presets dont load, when video
   driver is set to glcore''</li>
 
-  <li>VULKAN: Fix HDR inverse tonemapping</li>
+  <li>VULKAN: Fix HDR inverse tonemapping. Only skip tonemapper if HDR10 is explicitly
+  enabled by last shader pass. Otherwise, we are simply just inheriting the bit-depth
+  of the swapchain.</li>
 
   </ul>'
 updated: '2022-11-19T02:11:12Z'
