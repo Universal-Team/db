@@ -365,33 +365,6 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 					if "prerelease" not in app:
 						app["prerelease"] = {}
 
-					if "download_page" not in app:
-						app["download_page"] = f"https://github.com/{app['github']}/releases"
-					if "download_page" not in app["prerelease"]:
-						app["prerelease"]["download_page"] = prerelease["html_url"]
-
-					if "version_title" not in app and "version" not in app and prerelease["name"] != "" and prerelease["name"] is not None:
-						app["version_title"] = prerelease["name"]
-					if "version_title" not in app["prerelease"] and prerelease["name"] != "" and prerelease["name"] is not None:
-						app["prerelease"]["version_title"] = prerelease["name"]
-
-					if "version" not in app:
-						app["version"] = prerelease["tag_name"]
-					if "version" not in app["prerelease"]:
-						app["prerelease"]["version"] = prerelease["tag_name"]
-
-					if "update_notes" not in app and prerelease["body"] != "" and prerelease["body"] is not None:
-						app["update_notes_md"] = prerelease["body"].replace("\r\n", "\n")
-						app["update_notes"] = requests.post("https://api.github.com/markdown", headers=header if header else None, json={"text": prerelease["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
-					if "update_notes" not in app["prerelease"] and prerelease["body"] != "" and prerelease["body"] is not None:
-						app["prerelease"]["update_notes_md"] = prerelease["body"].replace("\r\n", "\n")
-						app["prerelease"]["update_notes"] = requests.post("https://api.github.com/markdown", headers=header if header else None, json={"text": prerelease["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
-
-					if "updated" not in app:
-						app["updated"] = prerelease["published_at"]
-					if "updated" not in app["prerelease"]:
-						app["prerelease"]["updated"] = prerelease["published_at"]
-
 					if "downloads" not in app["prerelease"]:
 						app["prerelease"]["downloads"] = {}
 					for asset in prerelease["assets"]:
@@ -401,6 +374,36 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 								"size": asset["size"],
 								"size_str": byteCount(asset["size"])
 							}
+
+					if len(app["prerelease"]["downloads"]) > 0:
+						if "download_page" not in app:
+							app["download_page"] = f"https://github.com/{app['github']}/releases"
+						if "download_page" not in app["prerelease"]:
+							app["prerelease"]["download_page"] = prerelease["html_url"]
+
+						if "version_title" not in app and "version" not in app and prerelease["name"] != "" and prerelease["name"] is not None:
+							app["version_title"] = prerelease["name"]
+						if "version_title" not in app["prerelease"] and prerelease["name"] != "" and prerelease["name"] is not None:
+							app["prerelease"]["version_title"] = prerelease["name"]
+
+						if "version" not in app:
+							app["version"] = prerelease["tag_name"]
+						if "version" not in app["prerelease"]:
+							app["prerelease"]["version"] = prerelease["tag_name"]
+
+						if "update_notes" not in app and prerelease["body"] != "" and prerelease["body"] is not None:
+							app["update_notes_md"] = prerelease["body"].replace("\r\n", "\n")
+							app["update_notes"] = requests.post("https://api.github.com/markdown", headers=header if header else None, json={"text": prerelease["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
+						if "update_notes" not in app["prerelease"] and prerelease["body"] != "" and prerelease["body"] is not None:
+							app["prerelease"]["update_notes_md"] = prerelease["body"].replace("\r\n", "\n")
+							app["prerelease"]["update_notes"] = requests.post("https://api.github.com/markdown", headers=header if header else None, json={"text": prerelease["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
+
+						if "updated" not in app:
+							app["updated"] = prerelease["published_at"]
+						if "updated" not in app["prerelease"]:
+							app["prerelease"]["updated"] = prerelease["published_at"]
+					else:
+						app.pop("prerelease")
 
 			if "bitbucket" in app:
 				print("Bitbucket")
