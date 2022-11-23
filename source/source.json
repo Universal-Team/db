@@ -5610,7 +5610,7 @@
 		"long_description": "An enhanced recreation of the Homestar Runner Flash game, \"Trogdor\", expanded with new features.\n- New Options menu to customize your game\n- Level select\n- New cheats\n- Optional soundtrack from Stinkoman 20X6, another Homestar Runner game\n- Multiple screen scaling options\n- Bugs from the original game have been fixed",
 		"archive": {
 			"Trogdor-Reburninated-(.*)-3ds\\.zip": {
-				"Trogdor-Reburninated.3dsx": ["Trogdor-RB"]
+				"Trogdor-Reburninated.3dsx": ["3ds"]
 			}
 		}
 	},
