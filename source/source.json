@@ -5605,13 +5605,34 @@
 		"description": "Burninate the countryside!",
 		"categories": ["game"],
 		"systems": ["3DS"],
+		"download_filter": "3ds",
 		"image": "https://raw.githubusercontent.com/Mips96/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/background_psp.png",
 		"icon": "https://raw.githubusercontent.com/Mips96/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/logo_icon_android_48.png",
 		"long_description": "An enhanced recreation of the Homestar Runner Flash game, \"Trogdor\", expanded with new features.\n- New Options menu to customize your game\n- Level select\n- New cheats\n- Optional soundtrack from Stinkoman 20X6, another Homestar Runner game\n- Multiple screen scaling options\n- Bugs from the original game have been fixed",
-		"archive": {
-			"Trogdor-Reburninated-(.*)-3ds\\.zip": {
-				"Trogdor-Reburninated.3dsx": ["3ds/"]
-			}
+		"scripts": {
+			"Trogdor-Reburninated.3dsx": [
+				{
+					"type": "downloadRelease",
+					"repo": "Mips96/Trogdor-Reburninated",
+					"file": "Trogdor-Reburninated-v.*-3ds\\.zip",
+					"output": "/Trogdor-Reburninated.zip"
+				},
+				{
+					"type": "extractFile",
+					"file": "/Trogdor-Reburninated.zip",
+					"input": "Trogdor-Reburninated-v.*-3ds/3ds/",
+					"output": "/3ds/"
+				},
+				{
+					"type": "move",
+					"old": "/3ds/Trogdor-RB/Trogdor-Reburninated.3dsx",
+					"new": "%3DSX%/Trogdor-Reburninated.3dsx"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Trogdor-Reburninated.zip"
+				}
+			]
 		}
 	},
 	{
