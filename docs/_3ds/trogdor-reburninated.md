@@ -7,28 +7,13 @@ color: '#0a6c24'
 color_bg: '#0a6c24'
 created: '2021-11-13T05:10:52Z'
 description: Burninate the countryside!
+download_filter: 3ds
 download_page: https://github.com/Mips96/Trogdor-Reburninated/releases
 downloads:
   Trogdor-Reburninated-v1.1-3ds.zip:
     size: 11545436
     size_str: 11 MiB
     url: https://github.com/Mips96/Trogdor-Reburninated/releases/download/v1.1/Trogdor-Reburninated-v1.1-3ds.zip
-  Trogdor-Reburninated-v1.1-gc.zip:
-    size: 11746135
-    size_str: 11 MiB
-    url: https://github.com/Mips96/Trogdor-Reburninated/releases/download/v1.1/Trogdor-Reburninated-v1.1-gc.zip
-  Trogdor-Reburninated-v1.1-psp.zip:
-    size: 9221586
-    size_str: 8 MiB
-    url: https://github.com/Mips96/Trogdor-Reburninated/releases/download/v1.1/Trogdor-Reburninated-v1.1-psp.zip
-  Trogdor-Reburninated-v1.1-x64.zip:
-    size: 12500398
-    size_str: 11 MiB
-    url: https://github.com/Mips96/Trogdor-Reburninated/releases/download/v1.1/Trogdor-Reburninated-v1.1-x64.zip
-  Trogdor-Reburninated-v1.1-x86.zip:
-    size: 12319261
-    size_str: 11 MiB
-    url: https://github.com/Mips96/Trogdor-Reburninated/releases/download/v1.1/Trogdor-Reburninated-v1.1-x86.zip
 github: Mips96/Trogdor-Reburninated
 icon: https://raw.githubusercontent.com/Mips96/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/logo_icon_android_48.png
 image: https://raw.githubusercontent.com/Mips96/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/background_psp.png
