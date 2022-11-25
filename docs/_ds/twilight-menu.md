@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 32295852
-    size_str: 30 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.5.0/TWiLightMenu-3DS.7z
+    size: 32867717
+    size_str: 31 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.6.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 32345989
-    size_str: 30 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.5.0/TWiLightMenu-DSi.7z
+    size: 32915396
+    size_str: 31 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.6.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 43087789
+    size: 43700419
     size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.5.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.6.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 43296107
+    size: 43902058
     size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.5.0/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.6.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -49,8 +49,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.66.0">nds-bootstrap
-  v0.66.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.67.0">nds-bootstrap
+  v0.67.0</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -70,43 +70,30 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Updated halloween splash BG to add a jack-o-lantern pumpkin face!</li>
+  <li>The first 32KB of both the arm9 &amp; arm7 DSi BIOS is now dumped to <code class="notranslate">sd:/_nds/</code>
+  for use by nds-bootstrap.</li>
 
-  <li>Added Super Nintendo DS logo for if a Slot-2 flashcard is detected!</li>
-
-  <li>Added Kiosk mode, which disables access to any settings menu, and the hiding
-  and deletion of titles.
+  <li><strong>TW</strong>i<strong>L</strong>ight Menu++ is no longer required to be
+  installed on your flashcard in order to access it''s contents from DSi/3DS SD card
+  with unlocked SCFG!
 
   <ul dir="auto">
 
-  <li>Can only be enabled in <code class="notranslate">sd:/_nds/TWiLightMenu/settings.ini</code>
-  by setting <code class="notranslate">KIOSK_MODE</code> to <code class="notranslate">1</code>.</li>
-
-  <li>TWLMenu++ Settings can still be opened by holding SELECT before the ROM menu
-  appears.</li>
+  <li>It may still need to be installed there in order to run some retro games from
+  the flashcard.</li>
 
   </ul>
 
   </li>
 
-  <li>If the console screens go black when starting via Unlaunch, sleep mode can now
-  be disabled by setting <code class="notranslate">SLEEP_MODE</code> to <code class="notranslate">0</code>
-  in <code class="notranslate">sd:/_nds/TWiLightMenu/settings.ini</code>.</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/SNBeast/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/SNBeast">@SNBeast</a>
-  &amp; <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
-  Added new Unlaunch Launcher patch! (<a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="1405430740" data-permission-text="Title is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/2070"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2070/hovercard"
-  href="https://github.com/DS-Homebrew/TWiLightMenu/pull/2070">#2070</a>)</li>
-
   </ul>
 
-  <h3 dir="auto">Improvement</h3>
+  <h3 dir="auto">Improvements</h3>
 
   <ul dir="auto">
+
+  <li>Mr. Start: The <em>Super Nintendo DS</em> splash screen (only viewable with
+  Slot-2 flashcards which aren''t EZ-Flash) has been updated!</li>
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
@@ -114,18 +101,28 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <h3 dir="auto">Bug fix</h3>
+  <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
-  Restored alpha blending to top screen fonts in DSi-based themes.</li>
+  WAV header is now used for converted ADPCM music, in order to fix where the sample
+  rate is wrong on second play of the music.</li>
+
+  <li>The last 16KB of the DSi WRAM is no longer cleared in order for dsibiosdumper
+  to work correctly.</li>
+
+  <li>Fixed the SD removal check being tripped in DS Classic Menu (the result of the
+  black screens with white text) depending on how much RAM is used.</li>
+
+  <li>Fixed Slot-1 or some flashcards not booting with <code class="notranslate">Slot-1
+  microSD access</code> turned off.</li>
 
   </ul>'
-updated: '2022-11-01T02:31:18Z'
-version: v25.5.0
-version_title: 'v25.5.0: Halloween (2022) release'
+updated: '2022-11-25T02:47:35Z'
+version: v25.6.0
+version_title: 'v25.6.0: Thanksgiving release (2022)'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
