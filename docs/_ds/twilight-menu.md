@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 32867717
+    size: 32872299
     size_str: 31 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.6.0/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.6.1/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 32915396
+    size: 32915230
     size_str: 31 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.6.0/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.6.1/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 43700419
+    size: 43701071
     size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.6.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.6.1/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 43902058
+    size: 43900818
     size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.6.0/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.6.1/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -49,10 +49,7 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.67.0">nds-bootstrap
-  v0.67.0</a></p>
-
-  <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
 
   <ul dir="auto">
@@ -66,63 +63,17 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <h3 dir="auto">What''s new?</h3>
+  <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>The first 32KB of both the arm9 &amp; arm7 DSi BIOS are now dumped to <code
-  class="notranslate">sd:/_nds/</code> for use by nds-bootstrap.</li>
-
-  <li><strong>TW</strong>i<strong>L</strong>ight Menu++ is no longer required to be
-  installed on your flashcard in order to access it''s contents from DSi/3DS SD card
-  with unlocked SCFG!
-
-  <ul dir="auto">
-
-  <li>It may still need to be installed there in order to run some retro games from
-  the flashcard.</li>
-
-  </ul>
-
-  </li>
-
-  </ul>
-
-  <h3 dir="auto">Improvements</h3>
-
-  <ul dir="auto">
-
-  <li>Mr. Start: The <em>Super Nintendo DS</em> splash screen (only viewable with
-  Slot-2 flashcards which aren''t EZ-Flash) has been updated!</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  and various: Updated translations.</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
-
-  <ul dir="auto">
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
-  WAV header is now used for converted ADPCM music, in order to fix where the sample
-  rate is wrong on second play of the music.</li>
-
-  <li>The last 16KB of the DSi WRAM is no longer cleared in order for dsibiosdumper
-  to work correctly.</li>
-
-  <li>Fixed the SD removal check being tripped in DS Classic Menu (the result of the
-  black screens with white text) depending on how much RAM is used.</li>
-
-  <li>Fixed Slot-1 or some flashcards not booting with <code class="notranslate">Slot-1
-  microSD access</code> turned off.</li>
+  <li>Fixed an overlooked bug which caused TWLMenu++ to not start via Memory Pit and/or
+  when exiting from homebrew.</li>
 
   </ul>'
-updated: '2022-11-25T02:47:35Z'
-version: v25.6.0
-version_title: 'v25.6.0: Thanksgiving release (2022)'
+updated: '2022-11-25T05:39:49Z'
+version: v25.6.1
+version_title: v25.6.1 (hotfix)
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---

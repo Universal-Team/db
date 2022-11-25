@@ -61,6 +61,9 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <li>Scroll down to see which titles are now supported.</li>
 
+  <li>Click &gt;<a href="https://github.com/DS-Homebrew/TWiLightMenu/blob/79602be985add9d24562b532bb216b0b1792a241/universal/include/compatibleDSiWareMap.h">here</a>&lt;
+  for the full list of supported titles.</li>
+
   </ul>
 
   </li>
