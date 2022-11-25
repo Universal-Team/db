@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 560300
-    size_str: 547 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.66.0/nds-bootstrap.7z
+    size: 589115
+    size_str: 575 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.67.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1324406
+    size: 1386853
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.66.0/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.67.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -34,8 +34,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v25.5.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v25.5.0</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v25.6.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v25.6.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -50,20 +50,14 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <h3 dir="auto">What''s new?</h3>
 
-  <ul dir="auto">
-
-  <li>25 more DSiWare titles are now playable on DS/DS lite, with 5 of those being
-  the first to require the DS Memory Expansion Pak!
+  <h4 dir="auto">DS &amp; DS lite (B4DS mode)</h4>
 
   <ul dir="auto">
 
-  <li><em>Nintendo DS Browser</em> is no longer the only official DS(i) software to
-  use the Memory Expansion Pak!</li>
+  <li>Added support for 24 more DSiWare titles, bringing the amount of supported DSiWare
+  on DS/DS lite (not counting debug consoles), up to a grand total of 200 titles!
 
-  <li>An additional 3 are now supported for debug consoles as well.</li>
-
-  <li>An additional one is also supported for both retail and debug consoles, but
-  requires Slot-2 RAM expansion larger than the MEP (ex. M3, G6, SuperCard).</li>
+  <ul dir="auto">
 
   <li>Scroll down to see which titles are now supported.</li>
 
@@ -71,155 +65,136 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </li>
 
-  <li>Increased compatibility when running from Slot-2 flashcards, as ROMs up to 32MB
-  can now be played properly!
+  <li>A few DSiWare can now read the TWL font table!
 
   <ul dir="auto">
 
-  <li>A few (if not all) ROMs above that size may work as well.</li>
+  <li>Currently, only <em>4 Travellers</em>, <em>Chuck E. Cheese''s Arcade Room</em>,
+  <em>Chuck E. Cheese''s Alien Defense Force</em>, <em>Flashlight</em>, <em>Gunjin
+  Shougi</em>, and <em>Sea Battle</em> use it (mainly for the help/instruction manual
+  screen).</li>
+
+  <li>Place <code class="notranslate">TWLFontTable.dat</code> (Non-CHN/KOR) in <code
+  class="notranslate">sd:/_nds/nds-bootstrap/</code>.</li>
 
   </ul>
 
   </li>
 
-  <li>Special thanks to <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/Epicpkmn11/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
-  The red with white dots error screen has been replaced with a new detailed error
-  screen taking place in the in-game menu!</li>
+  <li>FAT cluster cache is now compressed to reduce heap shrink.
 
-  <li>The in-game menu can now enter sleep mode by closing the console''s lid.</li>
+  <ul dir="auto">
+
+  <li>Should increase game compatibility, as well as fix support for SD cards with
+  cluster size less than 32KB.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <h4 dir="auto">DSi &amp; 3DS</h4>
+
+  <ul dir="auto">
+
+  <li>If booted from flashcard, nds-bootstrap data will now be read from or saved
+  to the flashcard.</li>
+
+  <li><strong>DSi only:</strong> FAT cluster cache is now compressed to reduce heap
+  shrink while in DSi mode.
+
+  <ul dir="auto">
+
+  <li>Should reduce crashes in some DSi-Enhanced games.</li>
+
+  </ul>
+
+  </li>
+
+  <li>When booting a TWL title from a DS flashcard booted with unlocked SCFG access,
+  DSi BIOS dumps are now loaded from <code class="notranslate">sd:/_nds/</code> in
+  order to fix some bugs such as WPA1/2 crashing the console.
+
+  <ul dir="auto">
+
+  <li>Either <code class="notranslate">bios9i.bin</code> &amp; <code class="notranslate">bios7i.bin</code>,
+  or <code class="notranslate">bios9i_part1.bin</code> &amp; <code class="notranslate">bios7i_part2.bin</code>
+  (the <code class="notranslate">part</code> files are dumped by TWLMenu++) are used.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Added external <code class="notranslate">TWLFontTable.dat</code> loading, needed
+  for some out of region DSiWare to boot!
+
+  <ul dir="auto">
+
+  <li>Place <code class="notranslate">TWLFontTable.dat</code> (Non-CHN/KOR) in <code
+  class="notranslate">sd:/_nds/nds-bootstrap/</code>.</li>
+
+  <li>Place CHN (iQue) <code class="notranslate">TWLFontTable.dat</code> renamed to
+  <code class="notranslate">CHNFontTable.dat</code> in <code class="notranslate">sd:/_nds/nds-bootstrap/</code>.</li>
+
+  <li>Place KOR <code class="notranslate">TWLFontTable.dat</code> renamed to <code
+  class="notranslate">KORFontTable.dat</code> in <code class="notranslate">sd:/_nds/nds-bootstrap/</code>.</li>
+
+  </ul>
+
+  </li>
 
   </ul>
 
   <h3 dir="auto">Bug fixes</h3>
 
+  <h4 dir="auto">DS &amp; DS lite (B4DS mode)</h4>
+
   <ul dir="auto">
 
-  <li>Fixed some weird red screen crashes which wouldn''t occur in previous versions.</li>
-
-  <li>Fixed some overlooked bugs which made some DSiWare titles not boot in B4DS mode.</li>
-
-  <li>Fixed a B4DS mode crash which occurred later on in <em>Pinball Attack!</em>.</li>
+  <li>Fixed <em>Nintendo DSi + Internet</em> (USA) not booting.</li>
 
   </ul>
 
-  <h2 dir="auto">Newly supported DSiWare titles on retail &amp; debug DS consoles</h2>
-
-  <p dir="auto">Click <a href="https://github.com/DS-Homebrew/TWiLightMenu/blob/77f1e23795bc3c65c2af181f0021f877f1e3df37/universal/include/compatibleDSiWareMap.h">here</a>
-  for the full list.</p>
+  <h4 dir="auto">DSi &amp; 3DS</h4>
 
   <ul dir="auto">
 
-  <li>Big Bass Arcade
+  <li>Fixed TWL titles not booting in DSi mode from a DS flashcard booted with unlocked
+  SCFG access.</li>
 
-  <ul dir="auto">
+  <li>Fixed <em>Kim Possible: Kimmunicator</em> not booting.</li>
 
-  <li>Will crash later on retail consoles</li>
+  <li>Fixed in-game menu not controllable when red screen error occurred in DSiWare
+  booted from SD.</li>
 
   </ul>
 
-  </li>
-
-  <li>Cake Ninja 2
+  <h3 dir="auto">DSiWare titles now supported on DS &amp; DS lite</h3>
 
   <ul dir="auto">
 
-  <li>Previously only supported on debug consoles</li>
+  <li>4 Travellers: Play French</li>
 
-  </ul>
+  <li>4 Travellers: Play Spanish</li>
 
-  </li>
+  <li>505 Tangram</li>
 
-  <li>Castle Conqueror
+  <li>Bloons TD
 
   <ul dir="auto">
 
-  <li>Previously only supported on debug consoles</li>
+  <li>Audio is disabled on non-debug consoles to fit within RAM limitations</li>
 
-  <li>Only USA version is supported</li>
+  <li>Does not save</li>
 
   </ul>
 
   </li>
 
-  <li>Castle Conqueror: Heroes 2
+  <li>Captain Sub (GO Series)</li>
 
-  <ul dir="auto">
-
-  <li>Previously only supported on debug consoles</li>
-
-  <li>Memory Expansion Pak is required</li>
-
-  </ul>
-
-  </li>
-
-  <li>The Legend of Zelda: Four Swords: Anniversary Edition
-
-  <ul dir="auto">
-
-  <li>Previously only supported on debug consoles</li>
-
-  <li>Audio is disabled on retail consoles</li>
-
-  <li>May crash after completing a stage</li>
-
-  <li>Memory Expansion Pak is required</li>
-
-  </ul>
-
-  </li>
-
-  <li>Motto Me de Unou o Kitaeru: DS Sokudoku Jutsu Light</li>
-
-  <li>Music on: Playing Piano</li>
-
-  <li>Music on: Retro Keyboard</li>
-
-  <li>Nintendo Countdown Calendar
-
-  <ul dir="auto">
-
-  <li>Memory Expansion Pak is required</li>
-
-  </ul>
-
-  </li>
-
-  <li>Nintendoji
-
-  <ul dir="auto">
-
-  <li>Will crash later on</li>
-
-  <li>Audio is disabled due to memory limitations</li>
-
-  <li>Memory Expansion Pak is required</li>
-
-  </ul>
-
-  </li>
-
-  <li>Peg Solitaire</li>
-
-  <li>Puzzler Brain Games</li>
-
-  <li>Redau Shirizu: Gunjin Shougi</li>
-
-  <li>Remote Racers
-
-  <ul dir="auto">
-
-  <li>Previously only supported on debug consoles</li>
-
-  <li>Memory Expansion Pak is required</li>
-
-  </ul>
-
-  </li>
-
-  <li>Sokuren Keisa: Shougaku 1 Nensei
+  <li>Fall in the Dark
 
   <ul dir="auto">
 
@@ -229,7 +204,13 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </li>
 
-  <li>Sokuren Keisa: Shougaku 2 Nensei
+  <li>Farm Frenzy</li>
+
+  <li>Fizz</li>
+
+  <li>Fuuu! Dairoujou Kai</li>
+
+  <li>Maestro! Green Groove
 
   <ul dir="auto">
 
@@ -239,137 +220,56 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </li>
 
-  <li>Sokuren Keisa: Shougaku 3 Nensei
+  <li>Music on: Drums</li>
+
+  <li>My Aquarium: Seven Oceans</li>
+
+  <li>My Asian Farm</li>
+
+  <li>My Australian Farm</li>
+
+  <li>My Exotic Farm</li>
+
+  <li>My Farm</li>
+
+  <li>Pop+ Solo</li>
+
+  <li>Puffins: Let''s Fish!</li>
+
+  <li>Puffins: Let''s Race!</li>
+
+  <li>Sea Battle</li>
+
+  <li>Simply Mahjong</li>
+
+  <li>Simply Minesweeper</li>
+
+  <li>Simply Solitaire</li>
+
+  <li>Simply Sudoku</li>
+
+  </ul>
+
+  <h3 dir="auto">DSiWare titles now supported on DS &amp; DS lite debug consoles only</h3>
 
   <ul dir="auto">
 
-  <li>Does not save</li>
+  <li>Bloons TD 4
+
+  <ul dir="auto">
+
+  <li>Audio is disabled to fit within RAM limitations</li>
 
   </ul>
 
   </li>
 
-  <li>Sokuren Keisa: Shougaku 4 Nensei
-
-  <ul dir="auto">
-
-  <li>Does not save</li>
-
-  </ul>
-
-  </li>
-
-  <li>Sokuren Keisa: Shougaku 5 Nensei
-
-  <ul dir="auto">
-
-  <li>Does not save</li>
-
-  </ul>
-
-  </li>
-
-  <li>Sokuren Keisa: Shougaku 6 Nensei
-
-  <ul dir="auto">
-
-  <li>Does not save</li>
-
-  </ul>
-
-  </li>
-
-  <li>Sokuren Keisa: Nanmon-Hen
-
-  <ul dir="auto">
-
-  <li>Does not save</li>
-
-  </ul>
-
-  </li>
-
-  <li>Space Invaders Extreme Z
-
-  <ul dir="auto">
-
-  <li>Previously only supported on debug consoles</li>
-
-  <li>Game can be played without the Memory Expansion Pak, but is required for bottom
-  screen backgrounds to be displayed</li>
-
-  <li>Does not save</li>
-
-  </ul>
-
-  </li>
-
-  <li>Spin Six</li>
-
-  <li>Wonderful Sports: Bowling
-
-  <ul dir="auto">
-
-  <li>Will crash later on retail consoles</li>
-
-  <li>Music is disabled on retail consoles</li>
-
-  </ul>
-
-  </li>
-
-  <li>Yummy Yummy Cooking Jam
-
-  <ul dir="auto">
-
-  <li>Music is disabled due to memory limitations</li>
-
-  </ul>
-
-  </li>
-
-  </ul>
-
-  <h3 dir="auto">Requiring Slot-2 RAM expansion larger than MEP</h3>
-
-  <ul dir="auto">
-
-  <li>Meikyou Kokugo: Rakubiki Jiten
-
-  <ul dir="auto">
-
-  <li>Does not save</li>
-
-  </ul>
-
-  </li>
-
-  </ul>
-
-  <h2 dir="auto">Newly supported DSiWare titles only on debug DS consoles</h2>
-
-  <ul dir="auto">
-
-  <li>Mario vs. Donkey Kong: Minis March Again!
-
-  <ul dir="auto">
-
-  <li>Only USA version is supported</li>
-
-  <li>Does not save</li>
-
-  </ul>
-
-  </li>
-
-  <li>Puzzler World 2013</li>
-
-  <li>Puzzler World XL</li>
+  <li>Shawn Johnson Gymnastics</li>
 
   </ul>'
-updated: '2022-11-01T02:01:25Z'
-version: v0.66.0
-version_title: 'v0.66.0: Halloween (2022) release'
+updated: '2022-11-25T02:27:21Z'
+version: v0.67.0
+version_title: 'v0.67.0: Thanksgiving release (2022)'
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
