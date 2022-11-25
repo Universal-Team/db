@@ -70,8 +70,8 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>The first 32KB of both the arm9 &amp; arm7 DSi BIOS is now dumped to <code class="notranslate">sd:/_nds/</code>
-  for use by nds-bootstrap.</li>
+  <li>The first 32KB of both the arm9 &amp; arm7 DSi BIOS are now dumped to <code
+  class="notranslate">sd:/_nds/</code> for use by nds-bootstrap.</li>
 
   <li><strong>TW</strong>i<strong>L</strong>ight Menu++ is no longer required to be
   installed on your flashcard in order to access it''s contents from DSi/3DS SD card
