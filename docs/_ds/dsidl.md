@@ -154,7 +154,6 @@ source: https://github.com/Epicpkmn11/dsidl
 systems:
 - DS
 title: dsidl
-unistore_exclude: true
 update_notes: '<h2 dir="auto">What''s new?</h2>
 
   <ul dir="auto">

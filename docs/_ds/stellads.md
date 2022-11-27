@@ -14,19 +14,19 @@ downloads:
   LICENSE:
     size: 1068
     size_str: 1 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.9-fix/LICENSE
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.0/LICENSE
   README.md:
-    size: 26743
+    size: 27057
     size_str: 26 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.9-fix/README.md
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.0/README.md
   StellaDS.nds:
-    size: 1538560
+    size: 1628672
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.9-fix/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.0/StellaDS.nds
   compatibility.txt:
     size: 24608
     size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/5.9-fix/compatibility.txt
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.0/compatibility.txt
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -40,15 +40,17 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V5.9 : 21-Nov-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V6.0 : 27-Nov-2022 by Dave Bernazzani (wavemotion)</p>
 
-  <p dir="auto">Minor fixes for some games to render them more accurately including
-  the new Chaotic Grill homebrew.<br>
+  <ul dir="auto">
 
-  Improved ARM Thumbulator for another frame of performance.<br>
+  <li>CDF/CDFJ games are now supported (but not CDFJ+)</li>
 
-  Minor cleanups and optimizations across the board.</p>'
-updated: '2022-11-21T13:45:15Z'
-version: 5.9-fix
-version_title: Version 5.9
+  <li>Big speedup in ARM Thumb processing to render all DPC+ games full-speed on the
+  DSi or above.</li>
+
+  </ul>'
+updated: '2022-11-27T17:19:40Z'
+version: '6.0'
+version_title: Version 6.0
 ---
