@@ -11,7 +11,7 @@ download_filter: 3ds
 download_page: https://github.com/nzp-team/nzportable/releases
 downloads:
   nzportable-3ds.zip:
-    size: 30659599
+    size: 30662402
     size_str: 29 MiB
     url: https://github.com/nzp-team/nzportable/releases/download/nightly/nzportable-3ds.zip
 github: nzp-team/nzportable
@@ -43,23 +43,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <ul dir="auto">
 
-  <li>
+  <li>Game Assets</li>
 
-  <p dir="auto">Game Assets</p>
-
-  </li>
-
-  <li>
-
-  <p dir="auto">Quakespasm (PS VITA/Nintendo Switch Engine)</p>
-
-  </li>
-
-  <li>
-
-  <p dir="auto">glQuake (Nintendo 3DS Engine)</p>
-
-  </li>
+  <li>glQuake (Nintendo 3DS Engine)</li>
 
   </ul>
 
@@ -76,9 +62,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
   and launch with Homebrew Launcher. Requires extra memory, so make sure to open HBLauncher
   by holding ''R'' over an installed title!</li>
 
-  <li>PS VITA: Extract the .ZIP archive into ux0: and install <code class="notranslate">nzp.vpk</code><br>
+  <li>PS VITA: Extract the .ZIP archive into ux0: and install <code class="notranslate">nzp.vpk</code>.</li>
 
-  .* Nintendo 3DS: Extract the .ZIP archive into <code class="notranslate">/3ds/</code><br>
+  <li>Nintendo 3DS: Extract the .ZIP archive into <code class="notranslate">/3ds/</code><br>
 
   You can also play the WebGL version at <a href="https://nzp-team.github.io/latest/game.html"
   rel="nofollow">https://nzp-team.github.io/latest/game.html</a></li>
@@ -86,7 +72,7 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
   </ul>'
 updated: '2022-04-05T21:17:21Z'
 version: nightly
-version_title: 2.0.0-indev+20221127184213
+version_title: 2.0.0-indev+20221128071905
 website: https://discord.gg/6GBGf4N
 ---
 A Work-in-Progress Quake "demake" of the Zombies mode from Call of Duty.
