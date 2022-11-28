@@ -7,24 +7,13 @@ color: '#1e1015'
 color_bg: '#1e1015'
 created: '2022-02-08T23:52:38Z'
 description: 'Call of Duty: Zombies demake, powered by various Quake sourceports.'
+download_filter: 3ds
 download_page: https://github.com/nzp-team/nzportable/releases
 downloads:
-  build-version.txt:
-    size: 27
-    size_str: 27 Bytes
-    url: https://github.com/nzp-team/nzportable/releases/download/nightly/build-version.txt
   nzportable-3ds.zip:
     size: 30659599
     size_str: 29 MiB
     url: https://github.com/nzp-team/nzportable/releases/download/nightly/nzportable-3ds.zip
-  nzportable-psp-32mb.zip:
-    size: 31323259
-    size_str: 29 MiB
-    url: https://github.com/nzp-team/nzportable/releases/download/nightly/nzportable-psp-32mb.zip
-  nzportable-psp-64mb.zip:
-    size: 31323059
-    size_str: 29 MiB
-    url: https://github.com/nzp-team/nzportable/releases/download/nightly/nzportable-psp-64mb.zip
 github: nzp-team/nzportable
 icon: https://raw.githubusercontent.com/nzp-team/glquake/main/icon.png
 image: https://raw.githubusercontent.com/nzp-team/glquake/main/icon.png
