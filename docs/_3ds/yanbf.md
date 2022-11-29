@@ -10,21 +10,21 @@ description: Yet another nds-bootstrap forwarder. Runs from 3DS-mode!
 download_page: https://github.com/YANBForwarder/YANBF/releases
 downloads:
   YANBF-Linux.zip:
-    size: 94258476
-    size_str: 89 MiB
-    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.2/YANBF-Linux.zip
+    size: 89737030
+    size_str: 85 MiB
+    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.3/YANBF-Linux.zip
   YANBF-Windows.zip:
-    size: 70890788
+    size: 71071637
     size_str: 67 MiB
-    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.2/YANBF-Windows.zip
+    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.3/YANBF-Windows.zip
   YANBF-macOS.zip:
-    size: 87132202
+    size: 87123644
     size_str: 83 MiB
-    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.2/YANBF-macOS.zip
+    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.3/YANBF-macOS.zip
   bootstrap.cia:
     size: 206592
     size_str: 201 KiB
-    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.2/bootstrap.cia
+    url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.3/bootstrap.cia
 github: YANBForwarder/YANBF
 image: https://avatars.githubusercontent.com/u/103953989?v=4&size=128
 image_length: 1561
@@ -37,37 +37,39 @@ source: https://github.com/YANBForwarder/YANBF
 systems:
 - 3DS
 title: YANBF
-update_notes: '<h3 dir="auto">Improvements</h3>
+update_notes: '<h1 dir="auto">IMPORTANT WHEN UPDATING:</h1>
 
   <ul dir="auto">
 
-  <li>Another debugging string has been added to the log.</li>
+  <li>After downloading the updated generator, copy the id.txt file from the old release
+  to the new one! <strong>YOU RISK REPLACING YOUR OLD FORWARDERS WITHOUT THIS!</strong></li>
 
-  <li>The program will now fail if the ROM is detected to not be on the SD card, or
-  if a custom path is not set.
+  </ul>
+
+  <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>Before this, it would silently succeed with the wrong path, or with the <code
-  class="notranslate">/</code> character removed. This is no longer an issue and forces
-  people to read the instructions on why it broke.</li>
+  <li>Dependency on the YANBF API has been removed entirely, and now directly accesses
+  GitHub for the assets.
+
+  <ul dir="auto">
+
+  <li>The API broke and doesn''t want to fix itself. There''s no point keeping it
+  up anymore.</li>
+
+  <li>Fixes <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+  data-id="1467086901" data-permission-text="Title is private" data-url="https://github.com/YANBForwarder/YANBF/issues/42"
+  data-hovercard-type="issue" data-hovercard-url="/YANBForwarder/YANBF/issues/42/hovercard"
+  href="https://github.com/YANBForwarder/YANBF/issues/42">#42</a></li>
 
   </ul>
 
   </li>
 
-  </ul>
-
-  <h3 dir="auto">Known issues</h3>
-
-  <ul dir="auto">
-
-  <li>DSiWare is not supported, as GameTDB does not provide box art for them (of course
-  they don''t, they don''t come in a box.)</li>
-
   </ul>'
-updated: '2022-09-17T04:16:37Z'
-version: v1.6.2
-version_title: 'v1.6.2: This is why reading is important'
+updated: '2022-11-29T05:28:56Z'
+version: v1.6.3
+version_title: 'v1.6.3: yo my server died'
 ---
 YANBF is a 3DS-mode nds-bootstrap forwarder, allowing for more than 40 forwarder titles as compared to the older forwarder template.
