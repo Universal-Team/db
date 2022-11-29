@@ -11,7 +11,7 @@ download_filter: 3ds
 download_page: https://github.com/nzp-team/nzportable/releases
 downloads:
   nzportable-3ds.zip:
-    size: 30662402
+    size: 30662731
     size_str: 29 MiB
     url: https://github.com/nzp-team/nzportable/releases/download/nightly/nzportable-3ds.zip
 github: nzp-team/nzportable
@@ -43,9 +43,23 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <ul dir="auto">
 
-  <li>Game Assets</li>
+  <li>
 
-  <li>glQuake (Nintendo 3DS Engine)</li>
+  <p dir="auto">Game Assets</p>
+
+  </li>
+
+  <li>
+
+  <p dir="auto">Quakespasm (PS VITA/Nintendo Switch Engine)</p>
+
+  </li>
+
+  <li>
+
+  <p dir="auto">glQuake (Nintendo 3DS Engine)</p>
+
+  </li>
 
   </ul>
 
@@ -72,7 +86,7 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
   </ul>'
 updated: '2022-04-05T21:17:21Z'
 version: nightly
-version_title: 2.0.0-indev+20221128071905
+version_title: 2.0.0-indev+20221129071956
 website: https://discord.gg/6GBGf4N
 ---
 A Work-in-Progress Quake "demake" of the Zombies mode from Call of Duty.
