@@ -16,8 +16,8 @@ downloads:
     url: https://github.com/nzp-team/nzportable/releases/download/nightly/nzportable-3ds.zip
 github: nzp-team/nzportable
 icon: https://raw.githubusercontent.com/nzp-team/glquake/main/icon.png
-image: https://raw.githubusercontent.com/nzp-team/glquake/main/icon.png
-image_length: 13986
+image: https://raw.githubusercontent.com/nzp-team/glquake/main/banner.png
+image_length: 66499
 layout: app
 screenshots:
 - description: Gameplay 1
