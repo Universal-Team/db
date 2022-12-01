@@ -37,7 +37,37 @@ source: https://github.com/YANBForwarder/YANBF
 systems:
 - 3DS
 title: YANBF
-update_notes: ''
+update_notes: '<h1 dir="auto">IMPORTANT WHEN UPDATING:</h1>
+
+  <ul dir="auto">
+
+  <li>After downloading the updated generator, copy the id.txt file from the old release
+  to the new one! <strong>YOU RISK REPLACING YOUR OLD FORWARDERS WITHOUT THIS!</strong></li>
+
+  </ul>
+
+  <h3 dir="auto">Bug fixes</h3>
+
+  <ul dir="auto">
+
+  <li>Dependency on the YANBF API has been removed entirely, and now directly accesses
+  GitHub for the assets.
+
+  <ul dir="auto">
+
+  <li>The API broke and doesn''t want to fix itself. There''s no point keeping it
+  up anymore.</li>
+
+  <li>Fixes <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+  data-id="1467086901" data-permission-text="Title is private" data-url="https://github.com/YANBForwarder/YANBF/issues/42"
+  data-hovercard-type="issue" data-hovercard-url="/YANBForwarder/YANBF/issues/42/hovercard"
+  href="https://github.com/YANBForwarder/YANBF/issues/42">#42</a></li>
+
+  </ul>
+
+  </li>
+
+  </ul>'
 updated: '2022-11-29T05:28:56Z'
 version: v1.6.3
 version_title: 'v1.6.3: yo my server died'
