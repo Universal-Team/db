@@ -9,29 +9,29 @@ created: '2019-02-25T01:32:17Z'
 download_page: https://github.com/masterfeizz/ioQuake3DS/releases
 downloads:
   OpenArena.3dsx:
-    size: 1734848
+    size: 1617252
     size_str: 1 MiB
-    url: https://github.com/masterfeizz/ioQuake3DS/releases/download/v1.2.0/OpenArena.3dsx
+    url: https://github.com/masterfeizz/ioQuake3DS/releases/download/v1.1.0/OpenArena.3dsx
   OpenArena.cia:
-    size: 1069504
-    size_str: 1 MiB
-    url: https://github.com/masterfeizz/ioQuake3DS/releases/download/v1.2.0/OpenArena.cia
+    size: 1004480
+    size_str: 980 KiB
+    url: https://github.com/masterfeizz/ioQuake3DS/releases/download/v1.1.0/OpenArena.cia
   Quake3DS.3dsx:
-    size: 1744148
+    size: 1626728
     size_str: 1 MiB
-    url: https://github.com/masterfeizz/ioQuake3DS/releases/download/v1.2.0/Quake3DS.3dsx
+    url: https://github.com/masterfeizz/ioQuake3DS/releases/download/v1.1.0/Quake3DS.3dsx
   Quake3DS.cia:
-    size: 1068480
-    size_str: 1 MiB
-    url: https://github.com/masterfeizz/ioQuake3DS/releases/download/v1.2.0/Quake3DS.cia
+    size: 1003968
+    size_str: 980 KiB
+    url: https://github.com/masterfeizz/ioQuake3DS/releases/download/v1.1.0/Quake3DS.cia
   openarena_data.zip:
     size: 413005647
     size_str: 393 MiB
-    url: https://github.com/masterfeizz/ioQuake3DS/releases/download/v1.2.0/openarena_data.zip
+    url: https://github.com/masterfeizz/ioQuake3DS/releases/download/v1.1.0/openarena_data.zip
   quake3_data.zip:
     size: 72100713
     size_str: 68 MiB
-    url: https://github.com/masterfeizz/ioQuake3DS/releases/download/v1.2.0/quake3_data.zip
+    url: https://github.com/masterfeizz/ioQuake3DS/releases/download/v1.1.0/quake3_data.zip
 github: masterfeizz/ioQuake3DS
 image: https://avatars.githubusercontent.com/u/15205297?v=4&size=128
 image_length: 1569
@@ -71,15 +71,18 @@ update_notes: '<h1 dir="auto">Instructions for Quake 3:</h1>
 
   <ul dir="auto">
 
-  <li>Multi-threaded rendering (N3DS only)</li>
+  <li>OpenArena support!</li>
 
-  <li>800px (Wide) mode support (N3DS only)</li>
+  <li>Added CirclePad input. CirclePad aiming can be toggled by disabling joystick
+  input in the settings menu.</li>
+
+  <li>Fix ghost audio bug</li>
 
   </ul>
 
-  <p dir="auto"><strong>WARNING:</strong> Original 3DS support is very buggy and is
+  <p dir="auto"><strong>WARNING:</strong> original 3ds support is very buggy and is
   not supported on the .3dsx version.</p>'
-updated: '2022-10-30T23:15:15Z'
-version: v1.2.0
-version_title: 3DS port v1.2.0
+updated: '2019-09-03T02:15:36Z'
+version: v1.1.0
+version_title: 3DS port v1.1.0
 ---
