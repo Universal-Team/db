@@ -11,9 +11,9 @@ description: Uninstall the stock TWL apps, to allow system to reinstall them fro
 download_page: https://github.com/MechanicalDragon0687/TWLFix-CFW/releases
 downloads:
   TWLFix-CFW.3dsx:
-    size: 550368
-    size_str: 537 KiB
-    url: https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/download/1.3/TWLFix-CFW.3dsx
+    size: 572088
+    size_str: 558 KiB
+    url: https://github.com/MechanicalDragon0687/TWLFix-CFW/releases/download/1.3.1/TWLFix-CFW.3dsx
 github: MechanicalDragon0687/TWLFix-CFW
 icon: https://raw.githubusercontent.com/MechanicalDragon0687/TWLFix-CFW/master/icon.png
 image: https://raw.githubusercontent.com/MechanicalDragon0687/TWLFix-CFW/master/icon.png
@@ -48,9 +48,9 @@ update_notes: '<h3 dir="auto">Usage:</h3>
   <li>go to <code class="notranslate">settings -&gt; other settings -&gt; system update</code></li>
 
   </ol>'
-updated: '2021-09-17T03:18:23Z'
-version: '1.3'
-version_title: 1.3.0
+updated: '2022-12-02T14:04:27Z'
+version: 1.3.1
+version_title: Fixing KOR again
 ---
 ### Usage:
 1. copy `TWLFix-CFW.3dsx` to `SD:/3ds/`
