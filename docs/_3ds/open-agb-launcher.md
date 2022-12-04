@@ -43,9 +43,14 @@ update_notes: 'First of all a HUGE thank you to <a class="link link--internal" h
 
   <li data-xf-list-type="ul">Download <a class="link link--external" href="https://github.com/profi200/open_agb_firm/releases/latest"
   rel="nofollow ugc noopener" target="_blank">the latest open_agb_firm</a>, rename
-  it to <i>"GBA.firm"</i>, and place it in the root of your SD card.</li>
+  it to <i>"<a class="gbaKw" data-xf-init="tooltip" href="https://gbatemp.net/forums/nintendo-gba.339/"
+  style="text-decoration: underline; text-decoration-style: dotted;" target="_blank"
+  title="Nintendo GBA discussions forum">GBA</a>.firm"</i>, and place it in the root
+  of your SD card.</li>
 
-  </ul>If there''s no <i>"GBA.firm"</i>, it also looks for <i>"open_agb_firm.firm"</i>
+  </ul>If there''s no <i>"<a class="gbaKw" data-xf-init="tooltip" href="https://gbatemp.net/forums/nintendo-gba.339/"
+  style="text-decoration: underline; text-decoration-style: dotted;" target="_blank"
+  title="Nintendo GBA discussions forum">GBA</a>.firm"</i>, it also looks for <i>"open_agb_firm.firm"</i>
   under <i>"/luma/payloads/".</i>'
 updated: '2020-12-01T13:52:50Z'
 version: '2.0'
@@ -58,5 +63,5 @@ First of all a HUGE thank you to <a class="link link--internal" href="https://gb
 </li>
 <li data-xf-list-type="ul">Set FastBoot3DS or GodMode9 as your Firm0, B9S won't do.</li>
 <li data-xf-list-type="ul">If using FastBoot3DS, enable FCRAM boot.</li>
-<li data-xf-list-type="ul">Download <a class="link link--external" href="https://github.com/profi200/open_agb_firm/releases/latest" rel="nofollow ugc noopener" target="_blank">the latest open_agb_firm</a>, rename it to <i>"GBA.firm"</i>, and place it in the root of your SD card.</li>
-</ul>If there's no <i>"GBA.firm"</i>, it also looks for <i>"open_agb_firm.firm"</i> under <i>"/luma/payloads/".</i>
+<li data-xf-list-type="ul">Download <a class="link link--external" href="https://github.com/profi200/open_agb_firm/releases/latest" rel="nofollow ugc noopener" target="_blank">the latest open_agb_firm</a>, rename it to <i>"<a class="gbaKw" data-xf-init="tooltip" href="https://gbatemp.net/forums/nintendo-gba.339/" style="text-decoration: underline; text-decoration-style: dotted;" target="_blank" title="Nintendo GBA discussions forum">GBA</a>.firm"</i>, and place it in the root of your SD card.</li>
+</ul>If there's no <i>"<a class="gbaKw" data-xf-init="tooltip" href="https://gbatemp.net/forums/nintendo-gba.339/" style="text-decoration: underline; text-decoration-style: dotted;" target="_blank" title="Nintendo GBA discussions forum">GBA</a>.firm"</i>, it also looks for <i>"open_agb_firm.firm"</i> under <i>"/luma/payloads/".</i>
