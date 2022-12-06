@@ -26,7 +26,7 @@ source: https://github.com/Fewnity/Counter-Strike-Nintendo-DS
 systems:
 - DS
 title: Counter-Strike-Nintendo-DS
-update_notes: ''
+update_notes: <p dir="auto">First official release</p>
 updated: '2022-07-09T17:04:41Z'
 version: 1.0.0
 version_title: 1.0.0
