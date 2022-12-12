@@ -13,7 +13,7 @@ downloads:
   StarCruiser7.3dsx:
     size: 1141700
     size_str: 1 MiB
-    url: https://github.com/dotMizi/StarCruiser7/raw/main/StarCruiser7.3dsx
+    url: https://github.com/dotMizi/StarCruiser7/releases/download/v0.9-beta/StarCruiser7.3dsx
 github: dotMizi/StarCruiser7
 icon: https://raw.githubusercontent.com/dotMizi/StarCruiser7/main/logo.png
 image: https://raw.githubusercontent.com/dotMizi/StarCruiser7/main/logo.png
