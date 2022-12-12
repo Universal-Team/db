@@ -8,14 +8,14 @@ color_bg: '#484848'
 created: '2010-05-27T14:47:40Z'
 description: Cross-platform, sophisticated frontend for the libretro API. Licensed
   GPLv3.
-download_page: https://buildbot.libretro.com/stable/1.13.0/nintendo/3ds
+download_page: https://buildbot.libretro.com/stable/1.14.0/nintendo/3ds
 downloads:
   RetroArch_3dsx.7z:
     size: null
-    url: https://buildbot.libretro.com/stable/1.13.0/nintendo/3ds/RetroArch_3dsx.7z
+    url: https://buildbot.libretro.com/stable/1.14.0/nintendo/3ds/RetroArch_3dsx.7z
   RetroArch_cia.7z:
     size: null
-    url: https://buildbot.libretro.com/stable/1.13.0/nintendo/3ds/RetroArch_cia.7z
+    url: https://buildbot.libretro.com/stable/1.14.0/nintendo/3ds/RetroArch_cia.7z
 eval_downloads: true
 eval_notes_md: true
 github: libretro/RetroArch
@@ -40,167 +40,184 @@ unique_ids:
 - '0xBAC00'
 update_notes: '<ul dir="auto">
 
-  <li>3DS: Remove debug button combo to shutdown RA</li>
+  <li>AUDIO/COREAUDIO/APPLE: Allow coreaudio3 driver to work with audio devices that
+  have 2 or more output channels</li>
 
-  <li>3DS: Remove MaterialUI as per MrHuu recommendation</li>
+  <li>CHEEVOS: Fix construction of Cheevos badge path</li>
 
-  <li>ANDROID: Enable ''Vibrate On Key Press'' by default</li>
+  <li>CLI: Fixed not getting any output when running --version or --features without
+  --verbose</li>
 
-  <li>ANDROID: Turn ''Threaded Video'' off by default</li>
+  <li>CLI: Fixed crash when running empty - parameter (it proceeded to content loading)</li>
 
-  <li>CHEEVOS: Upgrade to rcheevos 10.5</li>
+  <li>CLI: Reformatted --features to require less rows and to be more consistent</li>
 
-  <li>COMPILATION: Fixed compiling with --disable-menu</li>
+  <li>CLI: Added -V shorthand for --version</li>
 
-  <li>CONFIG: Don''t show override notification with appendconfig alone</li>
+  <li>CLI: Tab removal + whitespace nits</li>
 
-  <li>DATABASE/PLAYLISTS: Playlist + database changes - Cleanup ''entry_slot'', fallback
-  label + logging</li>
+  <li>CONFIG/MIDI: Prevent MIDI startup error with old configurations</li>
 
-  <li>FRONTEND: Fix default remaps folder for various cores: remap should be nested
-  in config folder</li>
+  <li>D3D11: Fix when using shaders with TATE mode arcades etc</li>
 
-  <li>GFX/VIDEO FILTERS: Prevent video filter init if game is not running</li>
+  <li>D3D12: Fix when using shaders with TATE mode arcades etc</li>
 
-  <li>HOTKEYS: Fix shader toggle and add hotkey + sublabel</li>
+  <li>D3D12: Added support for break on errors  (development aid - define DEVICE_DEBUG
+  to use)</li>
 
-  <li>HOTKEYS: Cleanups and corrections - Keep hotkey pause and menu pause separate
-  in order to not trigger unwanted pause when toggling menu regardless if menu will
-  pause or not</li>
+  <li>D3D12: Added support for DRED (device remove extended data) (development aid
+  - define DEVICE_DEBUG to use)</li>
 
-  <li>HOTKEYS: Cleanups and corrections - Allow unpausing with Start (makes resuming
-  more convenient after controller disconnect if menu does not pause)</li>
+  <li>D3D12: Made D3D12 viewport and scissors to behave more like Vulkan drivers (or
+  be more correct)</li>
 
-  <li>IOS13+: Pointer movement accuracy. iPad Trackpad Pointer Movement Accuracy through
-  absolute location (for iOS 13.4 and above)</li>
+  <li>D3D12: Fixed validation error on start up due to buffers not being setup correctly
+  for one frame</li>
 
-  <li>IOS13+: Adds iPad Trackpad Support to iOS13 Project (for iOS 13.4 and above)</li>
+  <li>DATABASE/EXPLORE/VIEW: Bugfix - RGUI did not clear thumbnail on non-playlist
+  items such as Save and Delete<br>
 
-  <li>INPUT: Fixed the way devices were previously indexed. Input devices were only
-  being indexed in order and would stop at the first time an input has no device connected
-  to it. The problem is when a device gets disconnected, that input will have no devices
-  connected to it, but the next input may still have a device connected. So, that
-  makes changing the port of the currently connected devices impossible.</li>
+  menu_explore_get_entry_playlist_index() returns -1 on invalid entries, but the variable
+  where it was stored was unsigned</li>
 
-  <li>INPUT/AUTOCONFIG: Add option for pause on controller disconnect</li>
+  <li>DATABASE/EXPLORE/VIEW: Bugfix - XMB+Ozone cleared thumbnail in Quick Menu when
+  navigating away from Run</li>
 
-  <li>INPUT/AUTOCONFIG: Driver independent disconnection notification. Should show
-  disconnect notification now properly on Windows with XInput and/or DirectInput pads</li>
+  <li>DRM/ODROID GO2: Implement get_video_size for DRM GL context driver</li>
 
-  <li>INPUT/HID: Added usb hid controllers for the famous ZeroDelay encoder and also
-  for "Kade: Kick Ass Dynamic Encoder" to be able to use some custom arcade sticks.</li>
+  <li>FASTFORWARD: Restore framelimit on fastforward toggle. Fast-forward was broken
+  after toggling vrr_runloop off, since it will force frame limit to 1.0 (even on
+  every frame) and never restores it. So let''s make sure the wanted ratio is applied
+  when toggling FF (Fastforward).</li>
 
-  <li>INPUT/OVERLAY: Add eightway area types.</li>
+  <li>FFMPEG CORE: Fix runtime error in FFmpeg core when build with FFmpeg n5.1.2
+  and OpenGL ES</li>
 
-  <li>INPUT/OVERLAY: Ignore hitboxes with zero area. I.e. Set ''reach_x'' or ''reach_y''
-  to zero to ensure no hitbox math is done. This simplifies designating animation-only
-  descriptors (e.g. for eightway areas) or obsolete descriptors.</li>
+  <li>GFX/VIDEO FILTERS: (picoscale_256x_320x240) Added snn function to upscale Fuse
+  (ZX Spectrum) core borderless output to 320x240. ZX Spectrum resolution of 256x192
+  was previously unsupported.</li>
 
-  <li>INPUT/OVERLAY: Add ''reach'' and ''exclusive'' for hitboxes. Allows stretching
-  hitboxes and handling their overlap.</li>
+  <li>HOTKEYS: Further reorder internal hotkey items for consistency and removed SEND_DEBUG_INFO,
+  OVERLAY_NEXT and OSK from visible hotkey bind list. "Send Debug Info" stuff is removed
+  as much as possible without breakage due to translation files.</li>
 
-  <li>INPUT/OVERLAY: Fix overlay next_index for unnamed targets</li>
+  <li>INPUT/AUTOCONFIG: Disable ''pause on controller disconnect'' by default - was
+  enabled by default on 1.13.0</li>
 
-  <li>INPUT/MENU: Addition to analog stick menu navigation</li>
+  <li>INPUT/MENU: Device Index menu refactor</li>
 
-  <li>INPUT/MENU: Enable menu navigation also with right analog stick</li>
+  <li>INPUT/OVERLAY: Fix analog drift blocking touch input (could occur on overlay_next
+  if physical inputs shown on overlay)</li>
 
-  <li>INPUT/MENU: Add option for swapping menu scrolling buttons</li>
+  <li>INPUT/OVERLAY: Fix overlay_next buttons lighting up in unison</li>
+
+  <li>INPUT/OVERLAY: Skip meta keys in input_overlay_add_inputs (not supported by
+  input_state_internal)</li>
+
+  <li>INPUT/WINDOWS/WINRAW: Fix mouse position when using input overlay with mouse
+  cursor</li>
+
+  <li>INPUT/WINDOWS/WINRAW: Fixed mouse position to use the same method required for
+  menu items and pointer when simulating input overlays with mouse, since it won''t
+  work with multi mouse method</li>
+
+  <li>INPUT/WINDOWS/WINRAW: Fixed passing mouse position to core also when using aforementioned
+  method</li>
+
+  <li>LEAPFROG: Add Leapfrog (LFx000) Target</li>
 
   <li>LOCALIZATION: Updates</li>
 
-  <li>LOCALIZATION: Add Hungarian language option</li>
+  <li>LOCALIZATION/INPUT/IME/MENU/ONSCREEN KEYBOARD: Extended IME and Korean OSK</li>
 
-  <li>MENU: Thumbnail fullscreen toggle behavior correction</li>
+  <li>MENU: Cleanup of help texts</li>
 
-  <li>MENU: Consistent left-right scrolling for Quick Menu items</li>
+  <li>MENU: Allow toggling info off with the same button</li>
 
-  <li>MENU: Remove useless sublabel from System Information</li>
+  <li>MENU: Allow menu wallpaper/background reset. Let''s also remove the current
+  wallpaper from the screen when pressing Start.</li>
 
-  <li>MENU: Improve widget appearance with missing assets</li>
+  <li>MENU: Null driver shows with different color (Added for all menus the ability
+  to show "disabled" items with a muted color)</li>
 
-  <li>MENU/QT/WIMP: Remove SSL/TLS check at startup</li>
+  <li>MENU/DRIVERS: Menu driver first, Audio Resampler removed because it is enough
+  to exist under audio settings</li>
 
-  <li>MENU/OZONE: Show metadata helper in footer only with second thumbnail</li>
+  <li>MENU/INPUT: Moved "Confirm Quit" to Input menu</li>
 
-  <li>MENU/OZONE: Footer improvements - Add "Cycle thumbnails" helper when suitable</li>
+  <li>MENU/INPUT/HOTKEYS: Input hotkey menu completely overhauled to keep related
+  entries together, and also adjusted some labels and sublabels</li>
 
-  <li>MENU/OZONE: Footer improvements - Show "Search" helper only when search function
-  is enabled</li>
+  <li>MENU/OVERLAY: Fix overlays behind menu without core running. "Show Overlay Behind
+  Menu" is currently broken with Ozone and XMB (with any other color theme than Plain)
+  when running without a core.</li>
 
-  <li>MENU/OZONE: Footer improvements - Fix "Thumbnails available" helper for save
-  states</li>
+  <li>MENU/MATERIALUI: Fix home screen on first startup - no more stray entries</li>
 
-  <li>MENU/OZONE: Footer improvements - Tighten padding between icon and title, and
-  widen between helpers</li>
+  <li>MENU/OZONE: Allowed drawing sidebar and thumbnail bar background color also
+  when core is running</li>
 
-  <li>MENU/OZONE: Launching anything from a View no longer throws Quick Menu off the
-  screen</li>
+  <li>MENU/OZONE: Stopped using different padding and position for savestate thumbnails
+  vs imageviewer</li>
 
-  <li>MENU/OZONE: Save state thumbnails in slot dropdown obeys fullscreen toggle properly
-  when content launched via CLI</li>
+  <li>MENU/OZONE: Removed gradient background effect when core is running, because
+  some themes already have gradient background, which creates ugly rough steps</li>
 
-  <li>MENU/OZONE: Save state thumbnail dropdown won’t allow fullscreen toggle when
-  it shouldn’t</li>
+  <li>MENU/OZONE: Fixed "Gray Light" theme from using the same background as "Gray
+  Dark", which makes selection cursor near impossible to see</li>
 
-  <li>MENU/OZONE: Selection position remembering in non-playlists won’t flash the
-  first entry</li>
+  <li>MENU/OZONE: Some whitespace corrections</li>
 
-  <li>MENU/OZONE: Remember selection per main tabs</li>
+  <li>MENU/UX: Extend OFF menu value colors</li>
 
-  <li>MENU/OZONE: Remove incomplete assets warning</li>
+  <li>MENU/UX: Menu icon improvements - Menu Visibility icons (Quick Menu + Settings)</li>
 
-  <li>MENU/OZONE: Add option to adjust cursor memory when changing menu tabs</li>
+  <li>MENU/UX: Menu icon improvements - Playlist Manager icons</li>
 
-  <li>MENU/OZONE: Further extend texture support for Core Option categories</li>
+  <li>MENU/UX: Menu icon improvements - Explore icon as database icon</li>
 
-  <li>MENU/XMB: Remove incomplete assets warning</li>
+  <li>MENU/UX: Menu icon improvements - View and filter icons as cursor icon (folder
+  icon in GLUI)</li>
 
-  <li>MENU/XMB: Add truncate playlist name option</li>
+  <li>MENU/UX: Menu icon improvements - View save + delete icons</li>
 
-  <li>MENU/XMB: Improve background image selector</li>
+  <li>MENU/UX: Menu icon improvements - Moved Explore + Views below Standalone Cores</li>
 
-  <li>MENU/XMB: Add option to adjust cursor memory when changing menu tabs</li>
+  <li>MENU/UX/OZONE: Removed icons from menus where others items don''t have icons,
+  and added icons to menus where the rest have icons</li>
 
-  <li>MENU/XMB: Further extend texture support for Core Option categories</li>
+  <li>MENU/UX/OZONE: Changed the way "no icon" is handled from kludgy way of not drawing
+  SUBSETTING icon</li>
 
-  <li>MENU/MATERIALUI: Remove incomplete assets warning</li>
+  <li>MENU/UX/XMB: Changed playlist entry index positioning to bottom right when thumbnails
+  are in vertical mode, because big lists will overlap with arrow and current "breadcrumb"
+  icons when the position is next to current selection</li>
 
-  <li>OSX: Fixed Z/X keys not working on the macOS port</li>
+  <li>MENU/UX/XMB: Added a rather nasty hack to prevent showing wrong icons under
+  Explore as "breadcrumb" icon</li>
 
-  <li>OSX: Fixed RETROK_LMETA not working on macOS port. The RETROK_LMETA key was
-  not defined in the rarch_key_map_apple_hid</li>
+  <li>MENU/UX/XMB: Optimized certain icon drawing loops (Main horizontal icons were
+  looped even when not visible, and all previous "breadcrumb" icons were looped when
+  only one certain was needed)</li>
 
-  <li>OSX: Fix broken fullscreen mode in macOS Ventura</li>
+  <li>MENU/UX/MATERIALUI: Fixed showing icons where there should not be any (Waitable
+  Swapchains, Show Recording + Streaming)</li>
 
-  <li>PS2: Fix Error saving remaps and runtime logs</li>
+  <li>OSX/MACOS: Fixed Cocoa keyboard not allowing to map Analog stick</li>
 
-  <li>PS3: Fix Core Remap Overwrite Fail</li>
+  <li>PS2: Use the recently created ps2_drivers which makes easier the loading and
+  init of all the drivers: Memory Card, USB, HDD, Audio, Controllers</li>
 
-  <li>QB: Don''t fail if OSDependent/OGLCompiler libraries are not present</li>
+  <li>PS2: Adds exFat support for USB, and probably solves some unexpected issues
+  when using an HDD driver for booting cores/games.</li>
 
-  <li>SCANNER/PS1: Improved scanning of PS1 discs</li>
+  <li>SDL GFX: Fix no menu on start/blank screen issue.</li>
 
-  <li>SCANNER/PS2: Added serial scanning of PS2 discs - should now scan DVDs and other
-  discs which were previously missed</li>
-
-  <li>THUMBNAIL: If you rename title, you cannot use the thumbnail image. because
-  the thumbnail filename and the title must be the same.<br>
-
-  If there is no thumbnail with title, find the thumbnail image with rom-name. This
-  has nothing to do with IME.</li>
-
-  <li>THREADED VIDEO/GLCORE: Fix regression ''Shader presets dont load, when video
-  driver is set to glcore''</li>
-
-  <li>VULKAN: Fix HDR inverse tonemapping. Only skip tonemapper if HDR10 is explicitly
-  enabled by last shader pass. Otherwise, we are simply just inheriting the bit-depth
-  of the swapchain.</li>
+  <li>SRAM: Don''t init SRAM saving without content (gets rid of the redundant logging)</li>
 
   </ul>'
-updated: '2022-11-19T02:11:12Z'
-version: v1.13.0
-version_title: v1.13.0
+updated: '2022-12-12T22:25:22Z'
+version: v1.14.0
 website: http://www.libretro.com
 wiki: https://github.com/libretro/RetroArch/wiki
 ---
