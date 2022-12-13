@@ -74,6 +74,10 @@ update_notes: '<ul dir="auto">
   <li>D3D12: Fixed validation error on start up due to buffers not being setup correctly
   for one frame</li>
 
+  <li>D3D12: Fixed some shaders not appearing with the d3d12 driver - this reintroduces
+  a validation error though but it seems to work as in not crash and is the old RA
+  behaviour. Guess we need a different way of fixing the validation issue.</li>
+
   <li>DATABASE/EXPLORE/VIEW: Bugfix - RGUI did not clear thumbnail on non-playlist
   items such as Save and Delete<br>
 
