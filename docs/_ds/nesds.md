@@ -5,7 +5,7 @@ categories:
 - emulator
 color: '#b5774b'
 color_bg: '#805435'
-created: '2019-02-22T22:33:39Z'
+created: '2022-12-15T03:44:14Z'
 description: NesDS1.3c
 download_page: https://github.com/DS-Homebrew/NesDS/tree/master/release
 downloads:
