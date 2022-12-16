@@ -1433,6 +1433,14 @@
 		}
 	},
 	{
+		"github": "Xeddius-Network/snes9x_3ds",
+		"title": "Snes9x (updated fork)",
+		"author": "bubble2k16 / matbo87 / willjow",
+		"categories": ["emulator"],
+		"systems": ["3DS"],
+		"unique_ids": [14409]
+	},
+	{
 		"github": "bubble2k16/emus3ds",
 		"title": "VirtuaNES",
 		"description": "VirtuaNES a high compatibility NES emulator for your old 3DS or 2DS.",
