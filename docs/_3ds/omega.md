@@ -1,5 +1,5 @@
 ---
-author: The Omega Team
+author: Omega
 avatar: https://avatars.githubusercontent.com/u/56520121?v=4
 categories:
 - utility
