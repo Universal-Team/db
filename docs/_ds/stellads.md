@@ -14,15 +14,15 @@ downloads:
   LICENSE:
     size: 1068
     size_str: 1 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.3/LICENSE
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.4/LICENSE
   README.md:
-    size: 31236
-    size_str: 30 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.3/README.md
+    size: 33210
+    size_str: 32 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.4/README.md
   StellaDS.nds:
-    size: 1697792
+    size: 1689600
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.3/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.4/StellaDS.nds
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -36,18 +36,23 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V6.3 : 11-Dec-2022 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V6.4 : 16-Dec-2022 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
-  <li>Improved performance across the board. More games play at the right speed even
-  on the older DS-Lite/Phat.</li>
+  <li>Reduced stack memory so we don''t crash when first creating a Savekey EE file.</li>
 
-  <li>New QuadTari support - for now it''s just Dual Joysticks + SaveKey which is
-  useful for games like Robotwar.</li>
+  <li>Improved 6502 handling to localize the PC for a bit of a performance boost.</li>
+
+  <li>Added the 3E+ banking scheme.</li>
+
+  <li>New global palette and sound options on the Configuration Menu page 2 (use L/R
+  keys).</li>
+
+  <li>Other small improvements as time permitted.</li>
 
   </ul>'
-updated: '2022-12-11T14:06:12Z'
-version: '6.3'
-version_title: Version 6.3
+updated: '2022-12-16T13:57:49Z'
+version: '6.4'
+version_title: Version 6.4
 ---
