@@ -1060,6 +1060,8 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"unique_ids": [1015809],
+		"created": "2015-01-20T04:23:49Z",
+		"updated": "2021-05-18T05:59:19Z",
 		"image": "https://raw.githubusercontent.com/Steveice10/FBI/master/romfs/logo.png",
 		"icon": "https://raw.githubusercontent.com/Steveice10/FBI/master/meta/icon_3ds.png"
 	},
