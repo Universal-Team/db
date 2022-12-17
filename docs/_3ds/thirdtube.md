@@ -17,6 +17,12 @@ downloads:
     size: 4113344
     size_str: 3 MiB
     url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.5.1/ThirdTube.cia
+  thirdtube.3dsx:
+    size: 5807544
+    url: https://github.com/brainwo/thirdtube/releases/download/v0.5.1-fixed/thirdtube.3dsx
+  thirdtube.cia:
+    size: 4142016
+    url: https://github.com/brainwo/thirdtube/releases/download/v0.5.1-fixed/thirdtube.cia
 github: windows-server-2003/ThirdTube
 icon: https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/icon.png
 image: https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/banner.png
@@ -26,6 +32,7 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   ThirdTube.cia: https://db.universal-team.net/assets/images/qr/thirdtube-cia.png
+  thirdtube.cia: https://db.universal-team.net/assets/images/qr/thirdtube-cia.png
 screenshots:
 - description: Comments
   url: https://db.universal-team.net/assets/images/screenshots/thirdtube/comments.png
