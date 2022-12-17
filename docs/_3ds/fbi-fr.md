@@ -12,21 +12,21 @@ description: Gestionnaire de titres 3DS open source modifié pour l'installation
 download_page: https://github.com/cooolgamer/FBI-Reloaded-FR/releases
 downloads:
   FBI-FR.3dsx:
-    size: 1194400
+    size: 1194480
     size_str: 1 MiB
-    url: https://github.com/cooolgamer/FBI-Reloaded-FR/releases/download/1.0/FBI-FR.3dsx
+    url: https://github.com/cooolgamer/FBI-Reloaded-FR/releases/download/1.0.1/FBI-FR.3dsx
   FBI-FR.cia:
     size: 1192896
     size_str: 1 MiB
-    url: https://github.com/cooolgamer/FBI-Reloaded-FR/releases/download/1.0/FBI-FR.cia
+    url: https://github.com/cooolgamer/FBI-Reloaded-FR/releases/download/1.0.1/FBI-FR.cia
   FBI-FR_Sombre.3dsx:
-    size: 1196732
+    size: 1194480
     size_str: 1 MiB
-    url: https://github.com/cooolgamer/FBI-Reloaded-FR/releases/download/1.0/FBI-FR_Sombre.3dsx
+    url: https://github.com/cooolgamer/FBI-Reloaded-FR/releases/download/1.0.1/FBI-FR_Sombre.3dsx
   FBI-FR_Sombre.cia:
     size: 1192896
     size_str: 1 MiB
-    url: https://github.com/cooolgamer/FBI-Reloaded-FR/releases/download/1.0/FBI-FR_Sombre.cia
+    url: https://github.com/cooolgamer/FBI-Reloaded-FR/releases/download/1.0.1/FBI-FR_Sombre.cia
 github: cooolgamer/FBI-Reloaded-FR
 icon: https://github.com/cooolgamer/FBI-Reloaded-FR/raw/master/meta/icon_fr.png
 image: https://github.com/cooolgamer/FBI-Reloaded-FR/raw/master/meta/icon_fr.png
@@ -48,18 +48,17 @@ unique_ids:
 - '0xF8001'
 update_notes: '<ul dir="auto">
 
-  <li>Voici l''app la plus connue (presque) entièrement traduite en français!</li>
+  <li>Correction de certaines traductions pour être plus conforme aux textes original
+  des paramètres</li>
 
-  <li>Il y a 2 version, normale (thème clair) et sombre (thème sombre)</li>
+  <li>Légère amélioration du thème sombre</li>
 
-  <li>Et voilà! Très utile pour les personnes ne comprenant pas bien l''anglais ;)</li>
+  <li>Encore merci à MyPasswordIsWeak pour avoir compilé!</li>
 
-  </ul>
-
-  <p dir="auto">(merci beaucoup à MyPasswordIsWeak d''avoir compilé)</p>'
-updated: '2022-12-16T13:14:11Z'
-version: '1.0'
-version_title: FBI en français
+  </ul>'
+updated: '2022-12-17T20:10:41Z'
+version: 1.0.1
+version_title: FBI Français v1.0.1
 ---
 # Fonctionnalités
 
