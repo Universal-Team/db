@@ -1064,6 +1064,14 @@
 		"icon": "https://raw.githubusercontent.com/Steveice10/FBI/master/meta/icon_3ds.png"
 	},
 	{
+		"github": "TheRealZora/FBI-Reloaded",
+		"title": "FBI Reloaded",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"unique_ids": [1015809],
+		"image": "https://raw.githubusercontent.com/TheRealZora/FBI-Reloaded/master/romfs_dark/logo.png"
+	},
+	{
 		"github": "LukeZGD/DDLC-LOVE",
 		"systems": ["3DS"],
 		"categories": ["game"],
