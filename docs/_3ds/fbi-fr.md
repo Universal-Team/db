@@ -12,21 +12,21 @@ description: Gestionnaire de titres 3DS open source modifié pour l'installation
 download_page: https://github.com/cooolgamer/FBI-Reloaded-FR/releases
 downloads:
   FBI-FR.3dsx:
-    size: 1194480
+    size: 1194364
     size_str: 1 MiB
-    url: https://github.com/cooolgamer/FBI-Reloaded-FR/releases/download/1.0.1/FBI-FR.3dsx
+    url: https://github.com/cooolgamer/FBI-Reloaded-FR/releases/download/1.1.0/FBI-FR.3dsx
   FBI-FR.cia:
     size: 1192896
     size_str: 1 MiB
-    url: https://github.com/cooolgamer/FBI-Reloaded-FR/releases/download/1.0.1/FBI-FR.cia
+    url: https://github.com/cooolgamer/FBI-Reloaded-FR/releases/download/1.1.0/FBI-FR.cia
   FBI-FR_Sombre.3dsx:
-    size: 1194480
+    size: 1198148
     size_str: 1 MiB
-    url: https://github.com/cooolgamer/FBI-Reloaded-FR/releases/download/1.0.1/FBI-FR_Sombre.3dsx
+    url: https://github.com/cooolgamer/FBI-Reloaded-FR/releases/download/1.1.0/FBI-FR_Sombre.3dsx
   FBI-FR_Sombre.cia:
-    size: 1192896
+    size: 1196992
     size_str: 1 MiB
-    url: https://github.com/cooolgamer/FBI-Reloaded-FR/releases/download/1.0.1/FBI-FR_Sombre.cia
+    url: https://github.com/cooolgamer/FBI-Reloaded-FR/releases/download/1.1.0/FBI-FR_Sombre.cia
 github: cooolgamer/FBI-Reloaded-FR
 icon: https://github.com/cooolgamer/FBI-Reloaded-FR/raw/master/meta/icon_fr.png
 image: https://github.com/cooolgamer/FBI-Reloaded-FR/raw/master/meta/icon_fr.png
@@ -51,14 +51,17 @@ update_notes: '<ul dir="auto">
   <li>Correction de certaines traductions pour être plus conforme aux textes original
   des paramètres</li>
 
+  <li>Traduction des jours</li>
+
   <li>Légère amélioration du thème sombre</li>
 
-  <li>Encore merci à MyPasswordIsWeak pour avoir compilé!</li>
+  <li>Encore merci à MyPasswordIsWeak pour avoir compilé et aidé à coder la traduction
+  des jours!</li>
 
   </ul>'
-updated: '2022-12-17T20:10:41Z'
-version: 1.0.1
-version_title: FBI Français v1.0.1
+updated: '2022-12-17T21:02:04Z'
+version: 1.1.0
+version_title: FBI Français v1.1.0
 ---
 # Fonctionnalités
 
