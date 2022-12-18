@@ -5,7 +5,7 @@ categories:
 - utility
 color: '#c0d0ff'
 color_bg: '#606880'
-created: '2022-11-12T01:40:26Z'
+created: '2015-01-20T04:23:49Z'
 description: Open source title manager for the 3DS.
 download_page: https://github.com/Steveice10/FBI/releases
 downloads:
@@ -44,7 +44,7 @@ title: FBI
 unique_ids:
 - '0xF8001'
 update_notes: <p dir="auto">Release 2.6.1</p>
-updated: '2022-11-12T01:42:08Z'
+updated: '2021-05-18T05:59:19Z'
 version: 2.6.1
 version_title: 2.6.1
 ---
