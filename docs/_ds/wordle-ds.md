@@ -51,7 +51,7 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>The word list has been updated to include through 2022-02-04, today is the last
+  <li>The word list has been updated to include through 2023-02-04, today is the last
   correct day in the old version so update before tomorrow!</li>
 
   </ul>'
