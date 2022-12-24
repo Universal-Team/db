@@ -13,15 +13,15 @@ downloads:
   WordleDS.cia:
     size: 1209536
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.0/WordleDS.cia
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.1/WordleDS.cia
   WordleDS.dsi:
     size: 1194944
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.0/WordleDS.dsi
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.1/WordleDS.dsi
   WordleDS.nds:
     size: 1194944
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.0/WordleDS.nds
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.1/WordleDS.nds
 github: Epicpkmn11/WordleDS
 icon: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
 icon_static: https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/resources/icon/icon.0.png
@@ -51,72 +51,13 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ItsSiem/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ItsSiem">@ItsSiem</a>
-  and me) Added infinite mode
+  <li>The word list has been updated to include through 2022-02-04, today is the last
+  correct day in the old version so update before tomorrow!</li>
 
-  <ul dir="auto">
-
-  <li>Randomly picks words instead of daily</li>
-
-  <li>Stats are stored separately from daily mode</li>
-
-  <li>Streak only breaks on fail/skip, not missing a day</li>
-
-  </ul>
-
-  </li>
-
-  <li>The Times has hired an editor<sup><a href="https://www.theverge.com/2022/11/7/23445167/wordle-the-new-york-times-editor-tracy-bennett"
-  rel="nofollow">[1]</a></sup> so now words are no longer completely random
-
-  <ul dir="auto">
-
-  <li>Currently words until Christmas Eve are public, so expect an update by Christmas</li>
-
-  </ul>
-
-  </li>
-
-  <li>The timer now pauses when sleeping and works on non-no$gba emulators</li>
-
-  <li>There is now a fade effect between all menus to hide any glitchy texture changes</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug Fixes</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed a regression where it failed to load before Wordle 0
-
-  <ul dir="auto">
-
-  <li>Note: Negative Wordles are not guaranteed to stay the same between versions,
-  especially with the now more frequent word list updates</li>
-
-  </ul>
-
-  </li>
-
-  </ul>
-
-  <hr>
-
-  <p dir="auto"><code class="notranslate">WordleDS.nds</code> and <code class="notranslate">WordleDS.dsi</code>
-  are identical except that the <code class="notranslate">.dsi</code> build has a
-  title ID so it can be installed using <a href="https://github.com/JeffRuLz/TMFH/releases">TMFH</a>
-  or <a href="https://github.com/Epicpkmn11/NTM/releases">NTM</a> while the <code
-  class="notranslate">.nds</code> build doesn''t so it works on flashcards. The <code
-  class="notranslate">.cia</code> build can be used to install to the 3DS HOME Menu,
-  here''s a QR:</p>
-
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/200749765-89d48516-6e2c-4601-9723-b82d6e1c5b14.png"><img
-  src="https://user-images.githubusercontent.com/41608708/200749765-89d48516-6e2c-4601-9723-b82d6e1c5b14.png"
-  alt="QR code for WordleDS.cia" style="max-width: 100%;"></a></p>'
-updated: '2022-11-09T05:53:18Z'
-version: v2.2.0
-version_title: Infinite mode and word list update
+  </ul>'
+updated: '2022-12-24T17:07:21Z'
+version: v2.2.1
+version_title: Update word list
 wiki: https://github.com/Epicpkmn11/WordleDS/wiki
 ---
 A clone of [Wordle](https://www.nytimes.com/games/wordle/index.html) for the Nintendo DS(i). It features the same word each day as the official Wordle and has most of the same features including statistics tracking, high contrast and hard mode options, and even sharable emoji grid via QR code or txt file. Also featuring custom original background music by Rocket Robz.
