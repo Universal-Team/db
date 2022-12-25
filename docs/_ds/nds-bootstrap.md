@@ -57,8 +57,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   <li>Special thanks to <a class="user-mention notranslate" data-hovercard-type="user"
   data-hovercard-url="/users/Gericom/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/Gericom">@Gericom</a>:
-  A huge compatibility improvement has been implemented, making a lot more DS games
-  compatible!
+  Added a huge compatibility improvement, making a lot more DS games compatible!
 
   <ul dir="auto">
 
