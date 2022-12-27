@@ -19,9 +19,9 @@ downloads:
     size_str: 1 MiB
     url: https://github.com/Epicpkmn11/NitroHax3DS/releases/download/0.101/NitroHax.dsi
 github: Epicpkmn11/NitroHax3DS
-icon: https://db.universal-team.net/assets/images/icons/nitrohax3ds-usrcheat-dat.png
-image: https://db.universal-team.net/assets/images/icons/nitrohax3ds-usrcheat-dat.png
-image_length: 630
+icon: https://db.universal-team.net/assets/images/icons/nitrohax3ds.png
+image: https://db.universal-team.net/assets/images/images/nitrohax3ds.png
+image_length: 241
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
@@ -31,7 +31,7 @@ qr:
 source: https://github.com/Epicpkmn11/NitroHax3DS
 systems:
 - DS
-title: NitroHax3DS (usrcheat.dat)
+title: NitroHax3DS
 update_notes: '<p dir="auto">This is a fork of NitroHax3DS that loads cheats from
   a <code class="notranslate">usrcheat.dat</code> file instead of <code class="notranslate">cheats.xml</code>.
   If you want to use a cheats.xml, then use <a href="https://github.com/ahezard/NitroHax3DS/releases">ahezard/NitroHax3DS</a>.</p>
@@ -68,6 +68,6 @@ updated: '2022-02-23T01:15:15Z'
 version: '0.101'
 version_title: Improved boot splash
 ---
-This is for use on DSi/3DS from internal SD, if using a flashcard see [NitroHax](nitrohax). This fork uses a `usrcheat.dat` database, see [the original](nitrohax3ds) to use a `cheats.xml` database.
+This is for use on DSi/3DS from internal SD, if using a flashcard see [NitroHax](nitrohax).
 
 If using on DSi make sure you have [Unlaunch installed](https://dsi.cfw.guide/installing-unlaunch.html)

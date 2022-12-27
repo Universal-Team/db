@@ -24,8 +24,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto"><strong>UPDATE 10/11/2022:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.65.1">nds-bootstrap
-  v0.65.1</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.68.0">nds-bootstrap
+  v0.68.0</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -42,14 +42,16 @@ update_notes: '<p dir="auto"><strong>UPDATE 10/11/2022:</strong> Includes <a hre
   <a href="https://gbatemp.net/threads/release-ndsforwarder-for-dsi-generate-hiyacfw-forwarders-on-the-dsi-directly.606964/"
   rel="nofollow">this one</a> to make hiyaCFW forwarders directly on the DSi console.</p>
 
-  <h3 dir="auto">What''s new?</h3>
+  <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>Removed some games from the TWL clock speed blacklist.</li>
+  <li>Fixed "DSi binaries missing" message being shown when <code class="notranslate">Run
+  in</code> is set to <code class="notranslate">DS mode</code> in the per-game settings
+  menu.</li>
 
   </ul>'
-updated: '2022-09-06T03:16:53Z'
-version: SD-10
-version_title: 'GitHub Release #10'
+updated: '2022-12-26T20:59:54Z'
+version: SD-11
+version_title: 'GitHub Release #11'
 ---

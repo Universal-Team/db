@@ -29,4 +29,4 @@ updated: '2018-04-09T13:00:02Z'
 version: v0.94
 website: https://www.chishm.com/NitroHax/
 ---
-This is for use on flashcards, if using the internal SD on DSi/3DS see [NitroHax3DS](nitrohax3ds) or the [usrcheat.dat fork](nitrohax3ds-usrcheat-dat).
+This is for use on flashcards, if using the internal SD on DSi/3DS see [NitroHax3DS](nitrohax3ds).

@@ -71,3 +71,5 @@ version_title: Bug fixes and minor improvements
 wiki: https://github.com/Epicpkmn11/NTM/wiki
 ---
 NAND Title Manager, NTM for short, is an application for the Nintendo DSi that allows you to manage titles on your NAND. It can manage titles on both [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/)'s SDNAND and your actual internal memory, typically called SysNAND. **When using in SysNAND mode please use with caution**.
+
+Please see the [guide on the wiki](https://github.com/Epicpkmn11/NTM/wiki/How-to-Install-DSiWare) for how to properly and safely use NTM.
