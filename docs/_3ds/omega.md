@@ -34,9 +34,9 @@ systems:
 title: Omega
 unique_ids:
 - '0x69420'
-updated: '2022-04-17T13:56:26Z'
-version: O2.0.2-E15
-version_title: O2.0.2-E15
+updated: '2022-12-29T00:17:52Z'
+version: O2.0.4-E15
+version_title: O2.0.4-E15
 website: https://getomega.dev
 wiki: https://github.com/Omega-Numworks/Omega/wiki
 ---

@@ -27,6 +27,8 @@ downloads:
     size_str: 378 KiB
     url: https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_TITUS_3DSX_23-12-2018.7z
   OpenTitus_TITUS_CIA_25-12-2018.7z:
+    size: 758124
+    size_str: 740 KiB
     url: https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_TITUS_CIA_25-12-2018.7z
   OpenTitus_TITUS_LOW_FREQ_27-12-2018.7z:
     size: 1041305
