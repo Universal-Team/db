@@ -96,9 +96,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
   rel="nofollow">https://nzp-team.github.io/latest/game.html</a></li>
 
   </ul>'
-updated: '2022-12-29T00:46:57Z'
+updated: '2022-12-29T01:11:07Z'
 version: nightly
-version_title: 2.0.0-indev+20221229004535
+version_title: 2.0.0-indev+20221229011005
 website: https://discord.gg/6GBGf4N
 ---
 A Work-in-Progress Quake "demake" of the Zombies mode from Call of Duty.
