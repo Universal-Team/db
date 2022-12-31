@@ -10,17 +10,17 @@ description: A Nintendo Zone Revival for the 3DS.
 download_page: https://github.com/MegaPika/SatellaZone/releases
 downloads:
   LocalSatellaZone.zip:
-    size: 635324211
-    size_str: 605 MiB
-    url: https://github.com/MegaPika/SatellaZone/releases/download/1.3.1/LocalSatellaZone.zip
+    size: 239177026
+    size_str: 228 MiB
+    url: https://github.com/MegaPika/SatellaZone/releases/download/2.0/LocalSatellaZone.zip
   SatellaZone.zip:
-    size: 4929348
-    size_str: 4 MiB
-    url: https://github.com/MegaPika/SatellaZone/releases/download/1.3.1/SatellaZone.zip
+    size: 13027828
+    size_str: 12 MiB
+    url: https://github.com/MegaPika/SatellaZone/releases/download/2.0/SatellaZone.zip
   UsaPatch.zip:
     size: 672
     size_str: 672 Bytes
-    url: https://github.com/MegaPika/SatellaZone/releases/download/1.3.1/UsaPatch.zip
+    url: https://github.com/MegaPika/SatellaZone/releases/download/2.0/UsaPatch.zip
 github: MegaPika/SatellaZone
 icon: https://db.universal-team.net/assets/images/icons/satellazone.png
 image: https://db.universal-team.net/assets/images/icons/satellazone.png
@@ -34,18 +34,27 @@ systems:
 title: SatellaZone
 update_notes: '<ul dir="auto">
 
-  <li>Added more informations on help page about the SSL patch that is required</li>
+  <li>For this release there is no hotspot method to watch the videos with the normal
+  version. If you want to watch the videos you need to download the "LocalSatellaZone"
+  version, the quality of the videos have been scaled down so the files are not too
+  big. If the quality is too bad i will do another release with normal quality videos.</li>
 
-  <li>Fixed screenshots pages</li>
+  <li>Fixed a lot of pages with edited images</li>
+
+  <li>New menu and pages</li>
+
+  <li>Around 40 videos to watch !</li>
+
+  <li>New easter egg (as always)</li>
 
   </ul>
 
   <h2 dir="auto">Installation instructions</h2>
 
   <p dir="auto">All is written on the readme: <a href="https://github.com/MegaPika/SatellaZone#readme">https://github.com/MegaPika/SatellaZone#readme</a></p>'
-updated: '2022-06-03T13:38:43Z'
-version: 1.3.1
-version_title: Small fixes
+updated: '2022-12-31T16:30:44Z'
+version: '2.0'
+version_title: 2.0 Finally
 website: https://satellazone.neocities.org/
 ---
 Satella Zone is a Nintendo Zone Revival for the Nintendo 3DS.
