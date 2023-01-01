@@ -12,11 +12,11 @@ description: 'CTGP-7 modpack for Mario Kart 7.
 download_page: https://gamebanana.com/mods/50221
 downloads:
   CTGP-7_Downloader.3dsx:
-    size: 2556556
+    size: 2567496
     size_str: 2 MiB
     url: https://ctgp7.page.link/3dsx_downloader
   CTGP-7_Downloader.cia:
-    size: 2741184
+    size: 2753472
     size_str: 2 MiB
     url: https://ctgp7.page.link/cia_downloader
 icon: https://db.universal-team.net/assets/images/icons/ctgp-7-downloader.png
