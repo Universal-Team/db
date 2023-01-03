@@ -10,13 +10,13 @@ description: A work-in-progress homebrew YouTube client for the 3DS
 download_page: https://github.com/windows-server-2003/ThirdTube/releases
 downloads:
   ThirdTube.3dsx:
-    size: 5733288
+    size: 5734360
     size_str: 5 MiB
-    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.5.1/ThirdTube.3dsx
+    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.5.2/ThirdTube.3dsx
   ThirdTube.cia:
-    size: 4113344
+    size: 4121536
     size_str: 3 MiB
-    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.5.1/ThirdTube.cia
+    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.5.2/ThirdTube.cia
   thirdtube.3dsx:
     size: 5807544
     url: https://github.com/brainwo/thirdtube/releases/download/v0.5.1-fixed/thirdtube.3dsx
@@ -46,39 +46,24 @@ systems:
 title: ThirdTube
 unique_ids:
 - '0xBF74D'
-update_notes: '<p dir="auto">Recent changes on YouTube broke one of the fundamental
-  function of ThirdTube(channel page), so I am releasing a new release along with
-  some other addition/fixes/improvements.</p>
-
-  <p dir="auto">Tips : You can update the app from Settings -&gt; Update. If you see
-  a message saying the app is up-to-date, try restarting the app.</p>
+update_notes: '<p dir="auto">I apologize for late fix of the bugs from the last release.
+  Most of the fatal bugs should be fixed in this release.</p>
 
   <ul dir="auto">
 
-  <li>Added configuration for C-pad scrolling speed</li>
+  <li>Fixed random crashes soon after opening the app(only on .cia)</li>
 
-  <li>Added mention of luma''s new function of dumping DSP firmware when it''is not
-  found</li>
+  <li>Fixed search function broken</li>
 
-  <li>Added coloring in the debug log</li>
+  <li>Fixed channel page failing to load additional videos</li>
 
-  <li>Fixed channel page not loading videos</li>
+  <li>Fixed some subscribed channels disappearing(sorry for those who lost their subscription)</li>
 
-  <li>Fixed subscriber count text of the uploader on video pages</li>
-
-  <li>Fixed a bug in linebreak drawing which caused the DSP firmware error to be truncated</li>
-
-  <li>Improved performance of text drawing</li>
-
-  <li>Improved error message on network failure</li>
-
-  <li>Improved stability on network failure</li>
-
-  <li>Refactored several files</li>
+  <li>Subscription and history files are now resistant to corruption</li>
 
   </ul>'
-updated: '2022-11-13T14:00:51Z'
-version: v0.5.1
-version_title: Release v0.5.1
+updated: '2023-01-03T14:28:53Z'
+version: v0.5.2
+version_title: Release v0.5.2
 website: https://gbatemp.net/threads/release-thirdtube-a-homebrew-youtube-client-for-the-new-3ds.591696/
 ---
