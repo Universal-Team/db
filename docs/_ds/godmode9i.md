@@ -59,7 +59,8 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
   <li>Files can now be copied across all drives with all flashcards!</li>
 
   <li>Requires a DSi BIOS dump in <code class="notranslate">sd:/_nds/</code>. Either
-  a full or part dump (of which is from TWLMenu++) will work.</li>
+  a full or part dump (of which is already dumped by TWLMenu++ to said location) will
+  work.</li>
 
   </ul>
 
