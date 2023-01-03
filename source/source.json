@@ -3419,14 +3419,6 @@
 					"file": "/TWiLight Menu.cia"
 				},
 				{
-					"type": "installCia",
-					"file": "/TWiLight Menu - Game booter.cia"
-				},
-				{
-					"type": "deleteFile",
-					"file": "/TWiLight Menu - Game booter.cia"
-				},
-				{
 					"type": "deleteFile",
 					"file": "/TWiLight Menu.cia"
 				},
@@ -3452,14 +3444,6 @@
 					{
 						"type": "installCia",
 						"file": "/TWiLight Menu.cia"
-					},
-					{
-						"type": "installCia",
-						"file": "/TWiLight Menu - Game booter.cia"
-					},
-					{
-						"type": "deleteFile",
-						"file": "/TWiLight Menu - Game booter.cia"
 					},
 					{
 						"type": "deleteFile",
