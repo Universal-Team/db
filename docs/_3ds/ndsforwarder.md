@@ -20,19 +20,26 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 prerelease:
-  download_page: https://github.com/MechanicalDragon0687/ndsForwarder/releases/tag/1.4.4
+  download_page: https://github.com/MechanicalDragon0687/ndsForwarder/releases/tag/1.4.5
   downloads:
     ndsForwarder.3dsx:
-      size: 1048212
-      size_str: 1023 KiB
-      url: https://github.com/MechanicalDragon0687/ndsForwarder/releases/download/1.4.4/ndsForwarder.3dsx
-  update_notes: <p dir="auto">Adds a Force Install option</p>
-  update_notes_md: 'Adds a Force Install option
+      size: 1056812
+      size_str: 1 MiB
+      url: https://github.com/MechanicalDragon0687/ndsForwarder/releases/download/1.4.5/ndsForwarder.3dsx
+  update_notes: '<p dir="auto">Changelog:</p>
 
-    '
-  updated: '2022-09-17T02:12:24Z'
-  version: 1.4.4
-  version_title: 1.4.4 - Use the force
+    <p dir="auto">Added some error numbers<br>
+
+    fixed random tid</p>'
+  update_notes_md: 'Changelog:
+
+
+    Added some error numbers
+
+    fixed random tid'
+  updated: '2023-01-05T02:28:33Z'
+  version: 1.4.5
+  version_title: 1.4.5
 source: https://github.com/MechanicalDragon0687/ndsForwarder
 systems:
 - 3DS
