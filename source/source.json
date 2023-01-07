@@ -5163,10 +5163,6 @@
 		"scripts": {
 			"EUR": [
 				{
-					"type": "mkdir",
-					"directory": "/luma/titles/0004001000022B00/romfs/"
-				},
-				{
 					"type": "rmdir",
 					"directory": "/luma/titles/0004001000022B00/romfs"
 				},
@@ -5179,7 +5175,7 @@
 				{
 					"type": "extractFile",
 					"file": "/SatellaZone.zip",
-					"input": "",
+					"input": "SatellaZone/",
 					"output": "/luma/titles/0004001000022B00/"
 				},
 				{
@@ -5192,10 +5188,6 @@
 				}
 			],
 			"USA": [
-				{
-					"type": "mkdir",
-					"directory": "/luma/titles/0004001000021B00/romfs/"
-				},
 				{
 					"type": "rmdir",
 					"directory": "/luma/titles/0004001000021B00/romfs"
@@ -5215,7 +5207,7 @@
 				{
 					"type": "extractFile",
 					"file": "/SatellaZone.zip",
-					"input": "",
+					"input": "SatellaZone/",
 					"output": "/luma/titles/0004001000021B00/"
 				},
 				{
@@ -5239,10 +5231,6 @@
 			],
 			"JPN": [
 				{
-					"type": "mkdir",
-					"directory": "/luma/titles/0004001000020B00/romfs/"
-				},
-				{
 					"type": "rmdir",
 					"directory": "/luma/titles/0004001000020B00/romfs"
 				},
@@ -5255,7 +5243,7 @@
 				{
 					"type": "extractFile",
 					"file": "/SatellaZone.zip",
-					"input": "",
+					"input": "SatellaZone/",
 					"output": "/luma/titles/0004001000020B00/"
 				},
 				{
