@@ -11,13 +11,13 @@ description: A work-in-progress homebrew YouTube client for new 3DS french trans
 download_page: https://github.com/cooolgamer/ThirdTube-FR/releases
 downloads:
   ThirdTube.3dsx:
-    size: 5762388
+    size: 5772900
     size_str: 5 MiB
-    url: https://github.com/cooolgamer/ThirdTube-FR/releases/download/v0.5.0/ThirdTube.3dsx
+    url: https://github.com/cooolgamer/ThirdTube-FR/releases/download/v0.5.2/ThirdTube.3dsx
   ThirdTube.cia:
-    size: 4117440
+    size: 4146112
     size_str: 3 MiB
-    url: https://github.com/cooolgamer/ThirdTube-FR/releases/download/v0.5.0/ThirdTube.cia
+    url: https://github.com/cooolgamer/ThirdTube-FR/releases/download/v0.5.2/ThirdTube.cia
 github: cooolgamer/ThirdTube-FR
 icon: https://github.com/cooolgamer/ThirdTube-FR/raw/main/resource/icon.png
 image: https://github.com/cooolgamer/ThirdTube-FR/raw/main/resource/banner.png
@@ -33,8 +33,20 @@ systems:
 title: ThirdTube-FR
 unique_ids:
 - '0xBF74D'
-update_notes: <p dir="auto">contient des bugs mais reste utilisable</p>
-updated: '2022-06-24T14:49:12Z'
-version: v0.5.0
-version_title: Première version
+update_notes: '<ul dir="auto">
+
+  <li>Basée sur la dernière version de thirdtube (v0.5.2)</li>
+
+  <li>Fix du bug du bouton selectionné sur "English" dans les paramètres quand la
+  langue est en français</li>
+
+  <li>Revue de certaines traductions</li>
+
+  <li>Toujours le bug des vidéos non affichée dans l''onglet "nouveau" quand la langue
+  du contenu est en français (je sait absolument pas comment le fix)</li>
+
+  </ul>'
+updated: '2023-01-07T13:44:32Z'
+version: v0.5.2
+version_title: 2ème version
 ---
