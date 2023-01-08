@@ -10,17 +10,17 @@ description: A Nintendo Zone Revival for the 3DS.
 download_page: https://github.com/MegaPika/SatellaZone/releases
 downloads:
   LocalSatellaZone.zip:
-    size: 239249275
-    size_str: 228 MiB
-    url: https://github.com/MegaPika/SatellaZone/releases/download/2.1/LocalSatellaZone.zip
+    size: 238212535
+    size_str: 227 MiB
+    url: https://github.com/MegaPika/SatellaZone/releases/download/2.1.1/LocalSatellaZone.zip
   SatellaZone.zip:
-    size: 10976698
-    size_str: 10 MiB
-    url: https://github.com/MegaPika/SatellaZone/releases/download/2.1/SatellaZone.zip
+    size: 11659834
+    size_str: 11 MiB
+    url: https://github.com/MegaPika/SatellaZone/releases/download/2.1.1/SatellaZone.zip
   UsaPatch.zip:
     size: 672
     size_str: 672 Bytes
-    url: https://github.com/MegaPika/SatellaZone/releases/download/2.1/UsaPatch.zip
+    url: https://github.com/MegaPika/SatellaZone/releases/download/2.1.1/UsaPatch.zip
 github: MegaPika/SatellaZone
 icon: https://db.universal-team.net/assets/images/icons/satellazone.png
 image: https://db.universal-team.net/assets/images/icons/satellazone.png
@@ -32,31 +32,20 @@ source: https://github.com/MegaPika/SatellaZone
 systems:
 - 3DS
 title: SatellaZone
-update_notes: '<h2 dir="auto">Already? What''s new?</h2>
+update_notes: '<h2 dir="auto">Micro update, nothing much changed</h2>
 
   <ul dir="auto">
 
-  <li>New Zone selection page</li>
+  <li>Redid some pages</li>
 
-  <li>Fixed a screenshot page back button</li>
+  <li>Added ACNL exclusive content page</li>
 
-  <li>Made fake loading pages not on history</li>
+  <li>Removed confusing "easter egg" (there''s still the base one :P)</li>
 
-  <li>Moved credits</li>
-
-  <li>Bring not found back (idk why pika deleted it) to not confuse people that tapping
-  does nothing</li>
-
-  <li>Edited custom page</li>
-
-  </ul>
-
-  <h2 dir="auto">Installation instructions</h2>
-
-  <p dir="auto">Everything is written on the readme: <a href="https://github.com/MegaPika/SatellaZone#readme">https://github.com/MegaPika/SatellaZone#readme</a></p>'
-updated: '2023-01-01T15:24:27Z'
-version: '2.1'
-version_title: SatellaZone 2.1
+  </ul>'
+updated: '2023-01-08T18:17:19Z'
+version: 2.1.1
+version_title: SatellaZone 2.1.1
 website: https://satellazone.neocities.org/
 ---
 Satella Zone is a Nintendo Zone Revival for the Nintendo 3DS.
