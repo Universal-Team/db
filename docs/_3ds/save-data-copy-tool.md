@@ -3,8 +3,8 @@ author: ihaveahax
 avatar: https://avatars.githubusercontent.com/u/590576?v=4
 categories:
 - utility
-color: '#6a6f90'
-color_bg: '#5e6280'
+color: '#a0a3bb'
+color_bg: '#6d6f80'
 created: '2022-03-24T10:24:39Z'
 description: Copy save data between gamecard and digital versions of games on Nintendo
   3DS
@@ -16,7 +16,7 @@ downloads:
     url: https://github.com/ihaveamac/save-data-copy-tool/releases/download/v0.1.0/save-data-copy-tool.3dsx
 github: ihaveamac/save-data-copy-tool
 image: https://avatars.githubusercontent.com/u/590576?v=4&size=128
-image_length: 20359
+image_length: 30803
 layout: app
 license: mit
 license_name: MIT License
