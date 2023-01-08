@@ -12,8 +12,6 @@ download_filter: (\.3dsx|\.cia)
 download_page: https://github.com/Omega-Numworks/Omega/releases
 downloads:
   simulator.3dsx:
-    size: 1849488
-    size_str: 1 MiB
     url: https://github.com/Omega-Numworks/Omega/releases/download/O1.22.1-E15/simulator.3dsx
   simulator.cia:
     size: 1124800
