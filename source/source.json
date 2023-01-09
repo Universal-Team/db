@@ -5175,7 +5175,7 @@
 				{
 					"type": "extractFile",
 					"file": "/SatellaZone.zip",
-					"input": "SatellaZone/",
+					"input": "",
 					"output": "/luma/titles/0004001000022B00/"
 				},
 				{
@@ -5207,7 +5207,7 @@
 				{
 					"type": "extractFile",
 					"file": "/SatellaZone.zip",
-					"input": "SatellaZone/",
+					"input": "",
 					"output": "/luma/titles/0004001000021B00/"
 				},
 				{
@@ -5243,7 +5243,7 @@
 				{
 					"type": "extractFile",
 					"file": "/SatellaZone.zip",
-					"input": "SatellaZone/",
+					"input": "",
 					"output": "/luma/titles/0004001000020B00/"
 				},
 				{
