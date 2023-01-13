@@ -1,5 +1,5 @@
 ---
-author: trainboy2019
+author: Ike Rolader
 avatar: https://avatars.githubusercontent.com/u/10735668?v=4
 categories:
 - game
