@@ -10,13 +10,13 @@ description: BCSTM-Player for 3ds
 download_page: https://github.com/NPI-D7/BCSTM-Player/releases
 downloads:
   BCSTM-Player.3dsx:
-    size: 714964
-    size_str: 698 KiB
-    url: https://github.com/NPI-D7/BCSTM-Player/releases/download/1.0.0/BCSTM-Player.3dsx
+    size: 5244404
+    size_str: 5 MiB
+    url: https://github.com/NPI-D7/BCSTM-Player/releases/download/v1.2.1/BCSTM-Player.3dsx
   BCSTM-Player.cia:
-    size: 840640
-    size_str: 820 KiB
-    url: https://github.com/NPI-D7/BCSTM-Player/releases/download/1.0.0/BCSTM-Player.cia
+    size: 5342144
+    size_str: 5 MiB
+    url: https://github.com/NPI-D7/BCSTM-Player/releases/download/v1.2.1/BCSTM-Player.cia
 github: NPI-D7/BCSTM-Player
 icon: https://raw.githubusercontent.com/NPI-D7/BCSTM-Player/main/app/icon.png
 image: https://raw.githubusercontent.com/NPI-D7/BCSTM-Player/main/app/banner.png
@@ -37,11 +37,10 @@ systems:
 title: BCSTM-Player
 unique_ids:
 - '0x78933'
-update_notes: <p dir="auto">This is the first Version of BCSTM-Player. I'll add some
-  stuff in future. Currently you can Play <code class="notranslate">.bcstm</code>
-  files. The Filebrowser is optimized to search <code class="notranslate">.bcstm</code>
-  files only. Have Fun.</p>
-updated: '2021-04-03T04:21:46Z'
-version: 1.0.0
-version_title: Version 1.0.0
+update_notes: '<p dir="auto">Forgot The Controls Info<br>
+
+  and DSP not found Watermark</p>'
+updated: '2023-01-13T15:04:09Z'
+version: v1.2.1
+version_title: v1.2.1
 ---
