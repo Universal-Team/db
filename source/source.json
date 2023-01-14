@@ -2622,7 +2622,7 @@
 		"archive": {
 			"RomFSExplorer.zip": {
 				"RomFSExplorer.3dsx": ["3ds/RomFSExplorer/RomFSExplorer.3dsx"],
-				"RomFSExplorer.ci": ["RomFSExplorer.cia"]
+				"RomFSExplorer.cia": ["RomFSExplorer.cia"]
 			}
 		}
 	},
