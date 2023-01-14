@@ -11,7 +11,7 @@ download_filter: 3ds
 download_page: https://github.com/nzp-team/nzportable/releases
 downloads:
   nzportable-3ds.zip:
-    size: 30126467
+    size: 30126498
     size_str: 28 MiB
     url: https://github.com/nzp-team/nzportable/releases/download/nightly/nzportable-3ds.zip
 github: nzp-team/nzportable
@@ -49,8 +49,6 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <li>dQuakePlus (PSP Engine)</li>
 
-  <li>glQuake (Nintendo 3DS Engine)</li>
-
   </ul>
 
   <p dir="auto">Installation Instructions:</p>
@@ -74,9 +72,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
   rel="nofollow">https://nzp-team.github.io/latest/game.html</a></li>
 
   </ul>'
-updated: '2023-01-13T22:58:40Z'
+updated: '2023-01-14T01:00:20Z'
 version: nightly
-version_title: 2.0.0-indev+20230113225717
+version_title: 2.0.0-indev+20230114005923
 website: https://discord.gg/6GBGf4N
 ---
 A Work-in-Progress Quake "demake" of the Zombies mode from Call of Duty.
