@@ -10,13 +10,13 @@ description: BCSTM-Player for 3ds
 download_page: https://github.com/NPI-D7/BCSTM-Player/releases
 downloads:
   BCSTM-Player.3dsx:
-    size: 5244404
+    size: 5246452
     size_str: 5 MiB
-    url: https://github.com/NPI-D7/BCSTM-Player/releases/download/v1.2.1/BCSTM-Player.3dsx
+    url: https://github.com/NPI-D7/BCSTM-Player/releases/download/v1.3.0/BCSTM-Player.3dsx
   BCSTM-Player.cia:
     size: 5342144
     size_str: 5 MiB
-    url: https://github.com/NPI-D7/BCSTM-Player/releases/download/v1.2.1/BCSTM-Player.cia
+    url: https://github.com/NPI-D7/BCSTM-Player/releases/download/v1.3.0/BCSTM-Player.cia
 github: NPI-D7/BCSTM-Player
 icon: https://raw.githubusercontent.com/NPI-D7/BCSTM-Player/main/app/icon.png
 image: https://raw.githubusercontent.com/NPI-D7/BCSTM-Player/main/app/banner.png
@@ -37,10 +37,12 @@ systems:
 title: BCSTM-Player
 unique_ids:
 - '0x78933'
-update_notes: '<p dir="auto">Forgot The Controls Info<br>
+update_notes: '<p dir="auto">Fixed Filebrowser Bug</p>
 
-  and DSP not found Watermark</p>'
-updated: '2023-01-13T15:04:09Z'
-version: v1.2.1
-version_title: v1.2.1
+  <h1 dir="auto">The 3dsx Version does not play sound for some reason!</h1>
+
+  <p dir="auto">Will fix this in an update!</p>'
+updated: '2023-01-15T21:21:49Z'
+version: v1.3.0
+version_title: v1.3.0
 ---
