@@ -10,13 +10,13 @@ description: BCSTM-Player for 3ds
 download_page: https://github.com/NPI-D7/BCSTM-Player/releases
 downloads:
   BCSTM-Player.3dsx:
-    size: 5250260
-    size_str: 5 MiB
-    url: https://github.com/NPI-D7/BCSTM-Player/releases/download/v1.4.0/BCSTM-Player.3dsx
+    size: 5236168
+    size_str: 4 MiB
+    url: https://github.com/NPI-D7/BCSTM-Player/releases/download/v1.5.0/BCSTM-Player.3dsx
   BCSTM-Player.cia:
-    size: 5342144
+    size: 5329856
     size_str: 5 MiB
-    url: https://github.com/NPI-D7/BCSTM-Player/releases/download/v1.4.0/BCSTM-Player.cia
+    url: https://github.com/NPI-D7/BCSTM-Player/releases/download/v1.5.0/BCSTM-Player.cia
 github: NPI-D7/BCSTM-Player
 icon: https://raw.githubusercontent.com/NPI-D7/BCSTM-Player/main/app/icon.png
 image: https://raw.githubusercontent.com/NPI-D7/BCSTM-Player/main/app/banner.png
@@ -37,26 +37,12 @@ systems:
 title: BCSTM-Player
 unique_ids:
 - '0x78933'
-update_notes: '<h1 dir="auto">The 3dsx Version does not play sound for some reason!</h1>
+update_notes: '<p dir="auto">Fixed the 3dsx problem!<br>
 
-  <p dir="auto">Will fix this in an update!</p>
+  Some UI fixes!</p>
 
-  <h1 dir="auto">Changes</h1>
-
-  <p dir="auto">Some UI improvements</p>
-
-  <ul dir="auto">
-
-  <li>Stringshorter</li>
-
-  <li>Currect Placements<br>
-
-  Some Debug Info<br>
-
-  Progress bar</li>
-
-  </ul>'
-updated: '2023-01-16T20:19:38Z'
-version: v1.4.0
-version_title: v1.4.0
+  <p dir="auto">Last Update of the 1. series... working on 2.0.0 now</p>'
+updated: '2023-01-17T14:15:17Z'
+version: v1.5.0
+version_title: v1.5.0
 ---
