@@ -3,6 +3,7 @@
 Any app requests must conform with the following rules to be added.
 1. Do not include any copyrighted content that you don't have the rights to use (piracy)
    - Loading copyrighted assets externally from the SD card is fine as long as it's not shipped with the application, whether from the script or in the app itself
+   - This includes apps developed with Unity, as Unity for 3DS can only legally be acquired by signing an NDA that prevents you from developing homebrew
 1. The app should not be focused around NSFW content
    - If it does have NSFW content in it as a minor part, then it should be clearly labeled as such
 1. There must be some description of what the app does, whether in the README or submitted app description
