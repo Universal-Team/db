@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
+  - name: Universal-Updater issue
+    url: https://github.com/Universal-Team/Universal-Updater/issues/new/choose
+    about: Issues with the 3DS app should go in the Universal-Updater repository
   - name: Support (on Discord)
     url: https://universal-team.net/discord
     about: "Please use #support on the Discord server to for support-related questions"
