@@ -3,8 +3,8 @@ author: CTGP-7 Team
 avatar: https://avatars.githubusercontent.com/u/46403089?s=200&v=4
 categories:
 - game
-color: '#59393b'
-color_bg: '#59393b'
+color: '#654547'
+color_bg: '#654547'
 created: '2015-01-01T00:00:00Z'
 description: 'CTGP-7 modpack for Mario Kart 7.
 
@@ -12,7 +12,7 @@ description: 'CTGP-7 modpack for Mario Kart 7.
 download_page: https://gamebanana.com/mods/50221
 downloads:
   CTGP-7_Downloader.3dsx:
-    size: 2567400
+    size: 2567824
     size_str: 2 MiB
     url: https://ctgp7.page.link/3dsx_downloader
   CTGP-7_Downloader.cia:
