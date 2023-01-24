@@ -72,7 +72,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li><em>Spin Six</em> is the only title to display the current level.</li>
+  <li><em>Spin Six</em> is the only title to display the current volume level.</li>
 
   </ul>
 

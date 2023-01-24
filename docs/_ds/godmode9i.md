@@ -12,21 +12,21 @@ description: 'GodMode9i Explorer - A full access file browser for the Nintendo D
 download_page: https://github.com/DS-Homebrew/GodMode9i/releases
 downloads:
   GodMode9i.7z:
-    size: 356397
+    size: 356395
     size_str: 348 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.4.0/GodMode9i.7z
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.4.1/GodMode9i.7z
   GodMode9i.cia:
-    size: 966912
-    size_str: 944 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.4.0/GodMode9i.cia
+    size: 967936
+    size_str: 945 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.4.1/GodMode9i.cia
   GodMode9i.dsi:
-    size: 952320
-    size_str: 930 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.4.0/GodMode9i.dsi
+    size: 953344
+    size_str: 931 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.4.1/GodMode9i.dsi
   GodMode9i.nds:
-    size: 952320
-    size_str: 930 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.4.0/GodMode9i.nds
+    size: 953344
+    size_str: 931 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.4.1/GodMode9i.nds
 github: DS-Homebrew/GodMode9i
 icon: https://db.universal-team.net/assets/images/icons/godmode9i.png
 image: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png
@@ -47,59 +47,18 @@ source: https://github.com/DS-Homebrew/GodMode9i
 systems:
 - DS
 title: GodMode9i
-update_notes: '<h3 dir="auto">What''s new?</h3>
-
-  <ul dir="auto">
-
-  <li>DSi NAND is now accessible after a DS flashcard has been booted with unlocked
-  SCFG!
-
-  <ul dir="auto">
-
-  <li>Files can now be copied across all drives with all flashcards!</li>
-
-  <li>Requires a DSi BIOS dump in <code class="notranslate">sd:/_nds/</code>. Either
-  a full or part dump (of which is already dumped by TWLMenu++ to said location) will
-  work.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Bootstrapping a <code class="notranslate">.nds</code> file has been removed.
-  This is due to:
-
-  <ul dir="auto">
-
-  <li>TWLMenu++ already having such feature.</li>
-
-  <li>GM9i not being updated as often.</li>
-
-  <li>Would run into the same issue as TWLoader, where we''d maintain more than one
-  <code class="notranslate">.nds</code> loader.</li>
-
-  </ul>
-
-  </li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/metroid-maniac/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/metroid-maniac">@metroid-maniac</a>:
-  Added dumping GBA RTC data in metadata and saves.</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fix</h3>
+update_notes: '<h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
-  Fixed dumping apps with versions over <code class="notranslate">000000FF</code>.</li>
+  Fixed copying files from NitroFS not working properly.</li>
 
   </ul>'
-updated: '2023-01-01T07:13:38Z'
-version: v3.4.0
-version_title: 'v3.4.0: New Year, New Release'
+updated: '2023-01-24T04:14:45Z'
+version: v3.4.1
+version_title: v3.4.1
 website: https://wiki.ds-homebrew.com/godmode9i/
 wiki: https://wiki.ds-homebrew.com/other/godmode9i
 ---
