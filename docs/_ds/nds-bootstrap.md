@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 575677
-    size_str: 562 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.68.0/nds-bootstrap.7z
+    size: 585275
+    size_str: 571 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.69.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1335974
+    size: 1355310
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.68.0/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.69.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -34,8 +34,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v25.7.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v25.7.0</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v25.8.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v25.8.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -50,61 +50,22 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <h3 dir="auto">What''s new?</h3>
 
-  <h4 dir="auto">DS &amp; DS lite (B4DS mode)</h4>
+  <h4 dir="auto">For DS &amp; DS lite consoles (B4DS mode)</h4>
 
   <ul dir="auto">
 
-  <li>Special thanks to <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/Gericom/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Gericom">@Gericom</a>:
-  Added a huge compatibility improvement, making a lot more DS games compatible!
-
-  <ul dir="auto">
-
-  <li>Compatibility is now near the level of DSi/3DS SD card.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Added support for 4 more DSiWare titles!
+  <li>Added support for 20 more DSiWare titles!
 
   <ul dir="auto">
 
   <li>Scroll down to see which titles are now supported.</li>
 
-  <li>Click &gt;<a href="https://github.com/DS-Homebrew/TWiLightMenu/blob/184d8e864c9e70c20fdab0a600411e6bb4dfe18b/universal/include/compatibleDSiWareMap.h">here</a>&lt;
+  <li>Click &gt;<a href="https://github.com/DS-Homebrew/TWiLightMenu/blob/61319873fa8bb58e0b2c48f9dce6d784acad2707/universal/include/compatibleDSiWareMap.h">here</a>&lt;
   for the full list of supported titles.</li>
 
   </ul>
 
   </li>
-
-  <li>A few more DSiWare titles can now open the manual screen.
-
-  <ul dir="auto">
-
-  <li>Certain ones will require a Memory Expansion Pak to open it.</li>
-
-  </ul>
-
-  </li>
-
-  <li>A standalone donor arm7 binary from a DSi-Enhanced ROM can now be loaded from
-  <code class="notranslate">fat:/_nds/nds-bootstrap/</code> for running DSiWare.
-
-  <ul dir="auto">
-
-  <li>File must be named <code class="notranslate">b4dsTwlDonor.bin</code>.</li>
-
-  <li>This saves space compared to setting an individual DSi-Enhanced ROM as a donor.</li>
-
-  </ul>
-
-  </li>
-
-  <li>You can now properly exit back to TWiLight Menu++ using the <code class="notranslate">Quit
-  Game</code> option in the in-game menu!</li>
 
   </ul>
 
@@ -112,46 +73,25 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Fixed <em>Yoshi Touch &amp; Go</em> (Europe) not booting.
-
-  <ul dir="auto">
-
-  <li>An SDK2.0 donor ROM is now required for it to boot.</li>
+  <li>Instead of all ROMs using the SDK version used by <em>Yoshi Touch &amp; Go</em>
+  (Europe) having to use a donor ROM, only said game now uses a donor ROM in order
+  to fix other games using said SDK version not working.</li>
 
   </ul>
 
-  </li>
-
-  <li>Fixed saving not working in <em>Eigo ga Nigate na Otona no DS Training: Eigo
-  Zuke</em>.</li>
-
-  </ul>
-
-  <h4 dir="auto">DS &amp; DS lite (B4DS mode)</h4>
+  <h4 dir="auto">For DS &amp; DS lite consoles (B4DS mode)</h4>
 
   <ul dir="auto">
 
-  <li>Fixed static sound playing for certain users.</li>
+  <li>Saving now works in <em>GO Series: Earth Saver</em> (Europe).</li>
 
   </ul>
 
-  <h4 dir="auto">DSi &amp; 3DS</h4>
+  <h4 dir="auto">For DSi &amp; 3DS consoles</h4>
 
   <ul dir="auto">
 
-  <li>Fixed dev/debug TWL ROMs not booting.</li>
-
-  <li>Fixed <code class="notranslate">TWLFontTable.dat</code> being opened on non-CHN/KOR
-  consoles.</li>
-
-  </ul>
-
-  <h3 dir="auto">Known bug (B4DS mode)</h3>
-
-  <ul dir="auto">
-
-  <li>The <code class="notranslate">Quit Game</code> option may not work after using
-  the <code class="notranslate">Reset Game</code> option.</li>
+  <li>Fixed <em>Pokemon Ranger: Batonnage</em> crashing on boot.</li>
 
   </ul>
 
@@ -159,34 +99,96 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Goooooal America
+  <li>Aa! Nikaku Dori</li>
+
+  <li>Alien Puzzle Adventure</li>
+
+  <li>All-Star Air Hockey</li>
+
+  <li>Animal Puzzle Adventure</li>
+
+  <li>Anyohaseyo!: Kankokugo Wado Pazuru</li>
+
+  <li>Arcade Bowling</li>
+
+  <li>Arcade Hoops Basketball</li>
+
+  <li>Armada
 
   <ul dir="auto">
 
-  <li>Audio is disabled to fit within RAM limitations</li>
+  <li>The stage music does not play on retail consoles due to RAM limitations.</li>
 
   </ul>
 
   </li>
 
-  <li>Music on: Electric Guitar</li>
+  <li>Artillery: Knights vs. Orcs</li>
 
-  <li>Music on: Electronic Keyboard</li>
+  <li>Astro</li>
 
-  <li>Snakenoid Deluxe
+  <li>ATV Fever</li>
+
+  <li>ATV Quad Kings</li>
+
+  <li>Bird &amp; Beans
 
   <ul dir="auto">
 
-  <li>Audio is disabled to fit within RAM limitations</li>
+  <li>Only the Japanese version <em>Tori to Mame</em> boots.</li>
+
+  <li>TWL font is not displayed.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Clubhouse Games Express: Card Classics</li>
+
+  <li>Clubhouse Games Express: Family Favorites</li>
+
+  <li>Clubhouse Games Express: Strategy Pack</li>
+
+  <li>Earth Saver: Inseki Bakuha Dai Sakuse</li>
+
+  <li>Globulos Party
+
+  <ul dir="auto">
+
+  <li>DS Download Play does not work on retail consoles due to RAM limitations.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Music on: Acoustic Guitar
+
+  <ul dir="auto">
+
+  <li>Does not save.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Paper Airplane Chase
+
+  <ul dir="auto">
+
+  <li>Only the Japanese version <em>Kami Hikouki</em> boots.</li>
+
+  <li>Does not save.</li>
+
+  <li>TWL font is not displayed.</li>
 
   </ul>
 
   </li>
 
   </ul>'
-updated: '2022-12-25T04:10:54Z'
-version: v0.68.0
-version_title: 'v0.68.0: TWL Christmas release'
+updated: '2023-01-24T01:53:50Z'
+version: v0.69.0
+version_title: v0.69.0
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
