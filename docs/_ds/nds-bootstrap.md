@@ -10,11 +10,11 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 585275
+    size: 585479
     size_str: 571 KiB
     url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.69.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1355310
+    size: 1355627
     size_str: 1 MiB
     url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.69.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
@@ -62,6 +62,17 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <li>Click &gt;<a href="https://github.com/DS-Homebrew/TWiLightMenu/blob/61319873fa8bb58e0b2c48f9dce6d784acad2707/universal/include/compatibleDSiWareMap.h">here</a>&lt;
   for the full list of supported titles.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Upgraded volume change feature via <code class="notranslate">SELECT + Up/Down</code>
+  to 4 levels: High/Max, Medium, Low, and Off
+
+  <ul dir="auto">
+
+  <li><em>Spin Six</em> is the only title to display the current level.</li>
 
   </ul>
 
@@ -186,7 +197,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   </li>
 
   </ul>'
-updated: '2023-01-24T01:53:50Z'
+updated: '2023-01-24T03:11:33Z'
 version: v0.69.0
 version_title: v0.69.0
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
