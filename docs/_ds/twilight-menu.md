@@ -126,7 +126,7 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <h3 dir="auto">Improvements</h3>
+  <h3 dir="auto">Improvement</h3>
 
   <ul dir="auto">
 
