@@ -119,10 +119,10 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
-  Added M3i Zero (GMP-Z003) autoboot (<a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="1522825485" data-permission-text="Title is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/2138"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2138/hovercard"
-  href="https://github.com/DS-Homebrew/TWiLightMenu/pull/2138">#2138</a>)</li>
+  Added M3i Zero (GMP-Z003) autoboot (<a aria-label="Pull request #2138" class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="1522825485" data-permission-text="Title
+  is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/2138" data-hovercard-type="pull_request"
+  data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2138/hovercard" href="https://github.com/DS-Homebrew/TWiLightMenu/pull/2138">#2138</a>)</li>
 
   </ul>
 
