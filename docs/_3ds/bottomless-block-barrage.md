@@ -57,20 +57,20 @@ update_notes: '<h2 dir="auto">Whats new</h2>
 
   <h2 dir="auto">Known Issues</h2>
 
-  <p dir="auto">Issue <a class="issue-link js-issue-link" data-error-text="Failed
+  <p dir="auto">Issue <a aria-label="Issue #10" class="issue-link js-issue-link" data-error-text="Failed
   to load title" data-id="249974535" data-permission-text="Title is private" data-url="https://github.com/TricksterGuy/bottomless-block-barrage/issues/10"
   data-hovercard-type="issue" data-hovercard-url="/TricksterGuy/bottomless-block-barrage/issues/10/hovercard"
   href="https://github.com/TricksterGuy/bottomless-block-barrage/issues/10">#10</a>.
   Somehow chains can be continued out of nowhere.<br>
 
-  Issue <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="256611785" data-permission-text="Title is private" data-url="https://github.com/TricksterGuy/bottomless-block-barrage/issues/13"
+  Issue <a aria-label="Issue #13" class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="256611785" data-permission-text="Title is private" data-url="https://github.com/TricksterGuy/bottomless-block-barrage/issues/13"
   data-hovercard-type="issue" data-hovercard-url="/TricksterGuy/bottomless-block-barrage/issues/13/hovercard"
   href="https://github.com/TricksterGuy/bottomless-block-barrage/issues/13">#13</a>.
   Don''t complete the final puzzle, or the game will crash.<br>
 
-  Issue <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="256615982" data-permission-text="Title is private" data-url="https://github.com/TricksterGuy/bottomless-block-barrage/issues/14"
+  Issue <a aria-label="Issue #14" class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="256615982" data-permission-text="Title is private" data-url="https://github.com/TricksterGuy/bottomless-block-barrage/issues/14"
   data-hovercard-type="issue" data-hovercard-url="/TricksterGuy/bottomless-block-barrage/issues/14/hovercard"
   href="https://github.com/TricksterGuy/bottomless-block-barrage/issues/14">#14</a>.
   Hints for things aren''t intuitive.</p>

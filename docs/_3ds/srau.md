@@ -49,23 +49,23 @@ update_notes: '<p dir="auto">This release mostly adds in a lot of missing error 
 
   <ul dir="auto">
 
-  <li>Closes <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="312630837" data-permission-text="Title is private" data-url="https://github.com/noirscape/SRAU/issues/1"
+  <li>Closes <a aria-label="Issue #1" class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="312630837" data-permission-text="Title is private" data-url="https://github.com/noirscape/SRAU/issues/1"
   data-hovercard-type="issue" data-hovercard-url="/noirscape/SRAU/issues/1/hovercard"
   href="https://github.com/noirscape/SRAU/issues/1">#1</a> (no gamecard support).
   Thanks to astronautlevel for the bug report and Sonlen for testing my fixes. If
   a gamecard is found, it is chosen over any local installation.</li>
 
-  <li>Closes <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="312631121" data-permission-text="Title is private" data-url="https://github.com/noirscape/SRAU/issues/2"
+  <li>Closes <a aria-label="Issue #2" class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="312631121" data-permission-text="Title is private" data-url="https://github.com/noirscape/SRAU/issues/2"
   data-hovercard-type="issue" data-hovercard-url="/noirscape/SRAU/issues/2/hovercard"
   href="https://github.com/noirscape/SRAU/issues/2">#2</a> (no support for mismatched
   regions). Thanks to astronautlevel for this bug report. You are now prompted if
   the program detects multiple regions. If there is only one region, it is autodetected
   and you are not prompted.</li>
 
-  <li>Closes <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="313041232" data-permission-text="Title is private" data-url="https://github.com/noirscape/SRAU/issues/4"
+  <li>Closes <a aria-label="Issue #4" class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="313041232" data-permission-text="Title is private" data-url="https://github.com/noirscape/SRAU/issues/4"
   data-hovercard-type="issue" data-hovercard-url="/noirscape/SRAU/issues/4/hovercard"
   href="https://github.com/noirscape/SRAU/issues/4">#4</a> (no support for missing
   save files). The program only allows you to choose existing save files. If there

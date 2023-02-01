@@ -73,10 +73,10 @@ update_notes: '<ul dir="auto">
   (e.g 1 for <code class="notranslate">fs</code>) to attach to a process, as GDB doesn''t
   support PID 0.</li>
 
-  <li>Add option to toggle card slot (<a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="379507464" data-permission-text="Title is private" data-url="https://github.com/LumaTeam/Luma3DS/issues/1202"
-  data-hovercard-type="issue" data-hovercard-url="/LumaTeam/Luma3DS/issues/1202/hovercard"
-  href="https://github.com/LumaTeam/Luma3DS/issues/1202">#1202</a>)</li>
+  <li>Add option to toggle card slot (<a aria-label="Issue #1202" class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="379507464" data-permission-text="Title
+  is private" data-url="https://github.com/LumaTeam/Luma3DS/issues/1202" data-hovercard-type="issue"
+  data-hovercard-url="/LumaTeam/Luma3DS/issues/1202/hovercard" href="https://github.com/LumaTeam/Luma3DS/issues/1202">#1202</a>)</li>
 
   <li>Screen filters can now be saved to <code class="notranslate">config.ini</code>
   and restored at boot (you need to go to "Miscellaneous options &gt; Save settings").

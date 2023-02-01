@@ -42,23 +42,24 @@ update_notes: '<ul dir="auto">
   <li>Support for new Luma3DS Rosalina screenshot filename layout by <a class="user-mention
   notranslate" data-hovercard-type="user" data-hovercard-url="/users/piratesephiroth/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/piratesephiroth">@piratesephiroth</a>
-  (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="291457696"
-  data-permission-text="Title is private" data-url="https://github.com/ihaveamac/screenshot-merge/issues/8"
+  (<a aria-label="Pull request #8" class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="291457696" data-permission-text="Title is private" data-url="https://github.com/ihaveamac/screenshot-merge/issues/8"
   data-hovercard-type="pull_request" data-hovercard-url="/ihaveamac/screenshot-merge/pull/8/hovercard"
   href="https://github.com/ihaveamac/screenshot-merge/pull/8">#8</a>)</li>
 
   <li>Windows buildscript by <a class="user-mention notranslate" data-hovercard-type="user"
   data-hovercard-url="/users/piratesephiroth/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/piratesephiroth">@piratesephiroth</a>
-  (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="291457696"
-  data-permission-text="Title is private" data-url="https://github.com/ihaveamac/screenshot-merge/issues/8"
+  (<a aria-label="Pull request #8" class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="291457696" data-permission-text="Title is private" data-url="https://github.com/ihaveamac/screenshot-merge/issues/8"
   data-hovercard-type="pull_request" data-hovercard-url="/ihaveamac/screenshot-merge/pull/8/hovercard"
-  href="https://github.com/ihaveamac/screenshot-merge/pull/8">#8</a>, <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="291463389" data-permission-text="Title
-  is private" data-url="https://github.com/ihaveamac/screenshot-merge/issues/9" data-hovercard-type="pull_request"
-  data-hovercard-url="/ihaveamac/screenshot-merge/pull/9/hovercard" href="https://github.com/ihaveamac/screenshot-merge/pull/9">#9</a>,
-  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="291466479"
-  data-permission-text="Title is private" data-url="https://github.com/ihaveamac/screenshot-merge/issues/10"
+  href="https://github.com/ihaveamac/screenshot-merge/pull/8">#8</a>, <a aria-label="Pull
+  request #9" class="issue-link js-issue-link" data-error-text="Failed to load title"
+  data-id="291463389" data-permission-text="Title is private" data-url="https://github.com/ihaveamac/screenshot-merge/issues/9"
+  data-hovercard-type="pull_request" data-hovercard-url="/ihaveamac/screenshot-merge/pull/9/hovercard"
+  href="https://github.com/ihaveamac/screenshot-merge/pull/9">#9</a>, <a aria-label="Pull
+  request #10" class="issue-link js-issue-link" data-error-text="Failed to load title"
+  data-id="291466479" data-permission-text="Title is private" data-url="https://github.com/ihaveamac/screenshot-merge/issues/10"
   data-hovercard-type="pull_request" data-hovercard-url="/ihaveamac/screenshot-merge/pull/10/hovercard"
   href="https://github.com/ihaveamac/screenshot-merge/pull/10">#10</a>)</li>
 

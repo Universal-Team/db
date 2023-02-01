@@ -58,8 +58,8 @@ update_notes: '<h1 dir="auto">IMPORTANT WHEN UPDATING:</h1>
   <li>The API broke and doesn''t want to fix itself. There''s no point keeping it
   up anymore.</li>
 
-  <li>Fixes <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="1467086901" data-permission-text="Title is private" data-url="https://github.com/YANBForwarder/YANBF/issues/42"
+  <li>Fixes <a aria-label="Issue #42" class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="1467086901" data-permission-text="Title is private" data-url="https://github.com/YANBForwarder/YANBF/issues/42"
   data-hovercard-type="issue" data-hovercard-url="/YANBForwarder/YANBF/issues/42/hovercard"
   href="https://github.com/YANBForwarder/YANBF/issues/42">#42</a></li>
 

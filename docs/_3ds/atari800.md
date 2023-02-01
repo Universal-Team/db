@@ -26,8 +26,8 @@ systems:
 title: Atari800
 update_notes: '<ul dir="auto">
 
-  <li>(<a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="1360732628" data-permission-text="Title is private" data-url="https://github.com/asiekierka/atari800-3ds/issues/3"
+  <li>(<a aria-label="Issue #3" class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="1360732628" data-permission-text="Title is private" data-url="https://github.com/asiekierka/atari800-3ds/issues/3"
   data-hovercard-type="issue" data-hovercard-url="/asiekierka/atari800-3ds/issues/3/hovercard"
   href="https://github.com/asiekierka/atari800-3ds/issues/3">#3</a>) Fixed networking
   (R: device) emulation.</li>
