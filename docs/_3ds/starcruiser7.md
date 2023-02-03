@@ -11,9 +11,9 @@ description: StarCruiser7 is a first-person space combat simulator for the 3DS g
 download_page: https://github.com/dotMizi/StarCruiser7/releases
 downloads:
   StarCruiser7.3dsx:
-    size: 1141700
+    size: 1143084
     size_str: 1 MiB
-    url: https://github.com/dotMizi/StarCruiser7/releases/download/v0.9-beta/StarCruiser7.3dsx
+    url: https://github.com/dotMizi/StarCruiser7/releases/download/v0.9.1-beta/StarCruiser7.3dsx
 github: dotMizi/StarCruiser7
 icon: https://raw.githubusercontent.com/dotMizi/StarCruiser7/main/logo.png
 image: https://raw.githubusercontent.com/dotMizi/StarCruiser7/main/logo.png
@@ -34,20 +34,10 @@ source: https://github.com/dotMizi/StarCruiser7
 systems:
 - 3DS
 title: StarCruiser7
-update_notes: '<ul dir="auto">
-
-  <li>feature complete</li>
-
-  <li>fixed resume issue</li>
-
-  <li>fixed starbas surround issue</li>
-
-  <li>added sound effects</li>
-
-  </ul>'
-updated: '2022-12-12T08:39:22Z'
-version: v0.9-beta
-version_title: First release
+update_notes: <p dir="auto">I've added an additional enemy fighter</p>
+updated: '2023-02-03T11:54:57Z'
+version: v0.9.1-beta
+version_title: Enemy fighter enhancement
 website: https://gbatemp.net/threads/starcruiser7.620148/
 ---
 Star Cruiser 7 is an homage to the late 70s game Star Raiders by Doug Neubauer, published by Atari. It is a Star Raiders-like remake for the Nintendo 3DS game console. My goal was to bring this milestone in the development of computer and console games a bit into the modern era, while maintaining the character and simplicity of this iconic 8-bit game and still using specific features of the 3DS console such as 3D screen, two displays, a faster CPU or the touch function. Even though diving through a star field is by no means realistic, it achieved a wonderful 3d effect on the Atari and this still works on the 3DS. Therefore, this unrealistic effect has been preserved. It should feel like you are playing the game on an Atari 400 home computer, but it should be as much fun as a real 3DS game.
