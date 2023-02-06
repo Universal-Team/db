@@ -43,8 +43,6 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <ul dir="auto">
 
-  <li>Game Assets</li>
-
   <li>FTEQW (PC Engine)</li>
 
   <li>QuakeC (Game Code)</li>
@@ -74,9 +72,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <p dir="auto">You can also play the WebGL version at <a href="https://nzp.gay/"
   rel="nofollow">https://nzp.gay/</a></p>'
-updated: '2023-02-05T21:15:26Z'
+updated: '2023-02-06T07:21:56Z'
 version: nightly
-version_title: 2.0.0-indev+20230205211425
+version_title: 2.0.0-indev+20230206072020
 website: https://discord.gg/6GBGf4N
 ---
 A Work-in-Progress Quake "demake" of the Zombies mode from Call of Duty.
