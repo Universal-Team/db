@@ -111,4 +111,5 @@ update_notes: '<h3 dir="auto">Emulation fixes:</h3>
 updated: '2023-01-11T04:13:19Z'
 version: 0.10.1
 website: https://mgba.io/
+wiki: https://github.com/mgba-emu/mgba/wiki
 ---
