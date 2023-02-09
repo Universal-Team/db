@@ -10,9 +10,9 @@ description: 'The 3DS Homebrew Menu (∩ ͡° ͜ʖ ͡°)⊃━☆ﾟ '
 download_page: https://github.com/fincs/new-hbmenu/releases
 downloads:
   boot.3dsx:
-    size: 400280
-    size_str: 390 KiB
-    url: https://github.com/devkitPro/3ds-hbmenu/releases/download/v2.4.0/boot.3dsx
+    size: 400848
+    size_str: 391 KiB
+    url: https://github.com/devkitPro/3ds-hbmenu/releases/download/v2.4.1/boot.3dsx
 github: fincs/new-hbmenu
 icon: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
 image: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
@@ -24,13 +24,12 @@ systems:
 title: 3ds-hbmenu
 update_notes: '<ul>
 
-  <li>Added support for filetype associations, backported from Switch Homebrew Menu
-  (Feature developed by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/TurtleP/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/TurtleP">@TurtleP</a>)</li>
+  <li>Built with latest tools and libraries.</li>
+
+  <li>Fixed starred function when used inside an empty folder.</li>
 
   </ul>'
-updated: '2022-06-04T19:57:30Z'
-version: v2.4.0
-version_title: 3DS Homebrew Menu v2.4.0
+updated: '2023-02-09T17:20:56Z'
+version: v2.4.1
+version_title: 3DS Homebrew Menu v2.4.1
 ---
