@@ -11,10 +11,10 @@ description: Raptor Call Of The Shadows Console Ports from Reversed-engineered s
 download_filter: 3DS
 download_page: https://github.com/RetroGamer02/raptor-consoles/releases
 downloads:
-  Raptor3DS.V1.0RC1.zip:
-    size: 4124132
+  Raptor3DS.V1.0.0.zip:
+    size: 4137936
     size_str: 3 MiB
-    url: https://github.com/RetroGamer02/raptor-consoles/releases/download/1.0RC1/Raptor3DS.V1.0RC1.zip
+    url: https://github.com/RetroGamer02/raptor-consoles/releases/download/1.0/Raptor3DS.V1.0.0.zip
 github: RetroGamer02/raptor-consoles
 icon: https://raw.githubusercontent.com/RetroGamer02/raptor3ds/master/rapicon.png
 image: https://raw.githubusercontent.com/RetroGamer02/raptor3ds/master/RapBanner.png
@@ -34,11 +34,9 @@ source: https://github.com/RetroGamer02/raptor-consoles
 systems:
 - 3DS
 title: Raptor3DS
-update_notes: '<p dir="auto">3DS: Tons of fixes and some improvements!<br>
-
-  Xbox: Initial Test release.</p>'
-updated: '2022-11-13T21:44:43Z'
-version: 1.0RC1
-version_title: 3DS Release Candidate 1 / Xbox Test
+update_notes: <p dir="auto">Updated libctru to v2.1.2.</p>
+updated: '2023-02-10T06:23:38Z'
+version: '1.0'
+version_title: Libctru Update
 ---
 Reversed-engineered source port from Raptor Call Of The Shadows ported to the Nintendo 3DS.
