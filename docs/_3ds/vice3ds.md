@@ -10,13 +10,13 @@ description: Port of the VICE C64 (x64) emulator to 3DS
 download_page: https://github.com/badda71/vice3ds/releases
 downloads:
   vice3DS-C64.3dsx:
-    size: 3902724
+    size: 3895088
     size_str: 3 MiB
-    url: https://github.com/badda71/vice3ds/releases/download/2.4.1/vice3DS-C64.3dsx
+    url: https://github.com/badda71/vice3ds/releases/download/2.4.2/vice3DS-C64.3dsx
   vice3DS-C64.cia:
     size: 2958272
     size_str: 2 MiB
-    url: https://github.com/badda71/vice3ds/releases/download/2.4.1/vice3DS-C64.cia
+    url: https://github.com/badda71/vice3ds/releases/download/2.4.2/vice3DS-C64.cia
 github: badda71/vice3ds
 icon: https://raw.githubusercontent.com/badda71/vice3ds/master/meta/icon_3ds_C64.png
 image: https://raw.githubusercontent.com/badda71/vice3ds/master/meta/icon_3ds_C64.png
@@ -30,19 +30,16 @@ systems:
 title: vice3DS
 unique_ids:
 - '0xFF4BA'
-update_notes: '<p dir="auto">Bugfix release 2.4.1. This release fixes a bug which
-  caused gamebase64 launcher to crash if more than 64 games were downloaded.</p>
+update_notes: '<p dir="auto">Micro release 2.4.2. This release fixes the download
+  of games in gamebase64 launcher. The old hoster was down and now, games are downloaded
+  using a new hoster. To prevent future issues, the hosters can now be defined in
+  gamebase64 database.</p>
 
   <p dir="auto"><strong>Installation:</strong><br>
 
   Install CIA with <a href="https://github.com/Steveice10/FBI/releases">FBI</a>, run
   3dsx from homebrew launcher (put 3dsx file in /3ds/vice3DS-C64 dir) or run 3ds from
-  flash card.<br>
-
-  Apart from this, a DSP-dump is required for sound to work correctly in the CIA version.<br>
-
-  <a href="https://gbatemp.net/threads/dsp1-a-new-dsp-dumper-cia-for-better-stability.469461/"
-  rel="nofollow">https://gbatemp.net/threads/dsp1-a-new-dsp-dumper-cia-for-better-stability.469461/</a></p>
+  flash card.</p>
 
   <p dir="auto"><strong>Usage:</strong><br>
 
@@ -53,7 +50,7 @@ update_notes: '<p dir="auto">Bugfix release 2.4.1. This release fixes a bug whic
 
   <ul dir="auto">
 
-  <li>bugfix: fix gamebase64 launcher crash if more than 64 games are downloaded</li>
+  <li>enhancement: use new hoster for games download in gamebase64 launcher</li>
 
   </ul>
 
@@ -61,12 +58,12 @@ update_notes: '<p dir="auto">Bugfix release 2.4.1. This release fixes a bug whic
 
   <p dir="auto">Scan QR-code below with FBI<br>
 
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/11392517/88260248-4adee780-ccc4-11ea-8d4c-854736fb5fb3.png"><img
-  src="https://user-images.githubusercontent.com/11392517/88260248-4adee780-ccc4-11ea-8d4c-854736fb5fb3.png"
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/11392517/218280012-60704442-0764-4117-ba4f-89828809bb60.png"><img
+  src="https://user-images.githubusercontent.com/11392517/218280012-60704442-0764-4117-ba4f-89828809bb60.png"
   alt="grafik" style="max-width: 100%;"></a></p>'
-updated: '2020-06-03T06:26:03Z'
-version: 2.4.1
-version_title: vice3DS v2.4.1 Senbei
+updated: '2023-02-11T20:33:51Z'
+version: 2.4.2
+version_title: vice3DS v2.4.2 Senbei
 website: https://gbatemp.net/threads/release-vice3ds-c64-emulator.534830/
 ---
 Port of the VICE C64 (x64) emulator to 3DS. VICE - the Versatile Commodore Emulator - http://vice-emu.sourceforge.net/
