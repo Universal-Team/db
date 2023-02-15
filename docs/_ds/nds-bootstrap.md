@@ -92,7 +92,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <li>Fixed 0xC1 and 0xC2 cheat types causing a crash.</li>
 
-  <li>Tried fixing Japanese consoles using external <code class="notranslate">TWLFontTable.dat</code>
+  <li>Tried fixing Japanese DSi/3DS consoles using external <code class="notranslate">TWLFontTable.dat</code>
   (which isn''t CHN or KOR), despite the same one existing in TWLNAND.</li>
 
   </ul>
@@ -122,17 +122,6 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   <ul dir="auto">
 
   <li>Exclusive to debug consoles</li>
-
-  </ul>
-
-  </li>
-
-  <li>Animal Boxing
-
-  <ul dir="auto">
-
-  <li>Exclusive to debug consoles, but retail console users can still play the DS
-  version</li>
 
   </ul>
 
@@ -191,6 +180,17 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   </li>
 
   <li>Abyss</li>
+
+  <li>Animal Boxing
+
+  <ul dir="auto">
+
+  <li>Exclusive to debug consoles, but retail console users can still play the DS
+  version</li>
+
+  </ul>
+
+  </li>
 
   <li>Around the World in 80 Days</li>
 
