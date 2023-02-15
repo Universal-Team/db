@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 32865843
+    size: 32933408
     size_str: 31 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.8.0/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.8.1/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 32915672
+    size: 32985867
     size_str: 31 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.8.0/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.8.1/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 43796364
+    size: 43864241
     size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.8.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.8.1/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 43991123
-    size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.8.0/TWiLightMenu.7z
+    size: 44060042
+    size_str: 42 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.8.1/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -49,8 +49,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.69.0">nds-bootstrap
-  v0.69.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.70.0">nds-bootstrap
+  v0.70.0</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -66,78 +66,30 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <h3 dir="auto">What''s new?</h3>
-
-  <ul dir="auto">
-
-  <li>The new <em>Digimon Story: Lost Evolution</em> English translation is now AP-fixed
-  instead of the old one.</li>
-
-  <li>Corrected AP-fix for <em>Alice in Wonderland</em> (Europe).
-
-  <ul dir="auto">
-
-  <li>Does not fix the AP issue.</li>
-
-  </ul>
-
-  </li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DieGo367/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DieGo367">@DieGo367</a>:
-  Allow setting custom color palettes based on user profile color for all paletted
-  graphics (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2137" data-hovercard-type="pull_request"
-  data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2137/hovercard">#2137</a>)</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
-  Allow making the loading screen dark (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2134"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2134/hovercard">#2134</a>)</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
-  Added option to disable alpha blending (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2141"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2141/hovercard">#2141</a>)</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
-  Improved in-game menu hotkey setting menu (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2127"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2127/hovercard">#2127</a>)</li>
-
-  <li><strong>DSi/3DS:</strong> Added feature to swap SD cards before TWLMenu++ starts,
-  by holding <code class="notranslate">Right + A</code>.
-
-  <ul dir="auto">
-
-  <li>Useful if Unlaunch cannot display TWLMenu++ (as <code class="notranslate">boot.nds</code>),
-  despite the SD card being formatted properly, and if you have another SD card which
-  Unlaunch can display the <code class="notranslate">boot.nds</code> file just fine.</li>
-
-  </ul>
-
-  </li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
-  Added M3i Zero (GMP-Z003) autoboot (<a aria-label="Pull request #2138" class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="1522825485" data-permission-text="Title
-  is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/2138" data-hovercard-type="pull_request"
-  data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2138/hovercard" href="https://github.com/DS-Homebrew/TWiLightMenu/pull/2138">#2138</a>)</li>
-
-  </ul>
-
   <h3 dir="auto">Improvement</h3>
 
   <ul dir="auto">
 
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
+  and various: Updated translations.</li>
+
+  </ul>
+
+  <h3 dir="auto">Bug fix</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed error message not appearing when launching via flashcard loader fails.</li>
+
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
-  Switched to open-source Ace3DS+ DLDI.</li>
+  Added missed INI setting for RTS-compatible flashcard loaders.</li>
 
   </ul>'
-updated: '2023-01-24T04:00:39Z'
-version: v25.8.0
-version_title: v25.8.0
+updated: '2023-02-15T05:03:55Z'
+version: v25.8.1
+version_title: 'v25.8.1: Valentine''s Day Release'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
