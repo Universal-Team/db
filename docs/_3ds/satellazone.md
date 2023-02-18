@@ -12,15 +12,19 @@ downloads:
   LocalSatellaZone.zip:
     size: 238212535
     size_str: 227 MiB
-    url: https://github.com/MegaPika/SatellaZone/releases/download/2.1.1/LocalSatellaZone.zip
+    url: https://github.com/MegaPika/SatellaZone/releases/download/2.1.2/LocalSatellaZone.zip
+  LocalSatellaZoneHQ.zip:
+    size: 441867850
+    size_str: 421 MiB
+    url: https://github.com/MegaPika/SatellaZone/releases/download/2.1.2/LocalSatellaZoneHQ.zip
   SatellaZone.zip:
     size: 11659834
     size_str: 11 MiB
-    url: https://github.com/MegaPika/SatellaZone/releases/download/2.1.1/SatellaZone.zip
+    url: https://github.com/MegaPika/SatellaZone/releases/download/2.1.2/SatellaZone.zip
   UsaPatch.zip:
     size: 672
     size_str: 672 Bytes
-    url: https://github.com/MegaPika/SatellaZone/releases/download/2.1.1/UsaPatch.zip
+    url: https://github.com/MegaPika/SatellaZone/releases/download/2.1.2/UsaPatch.zip
 github: MegaPika/SatellaZone
 icon: https://db.universal-team.net/assets/images/icons/satellazone.png
 image: https://db.universal-team.net/assets/images/icons/satellazone.png
@@ -32,20 +36,33 @@ source: https://github.com/MegaPika/SatellaZone
 systems:
 - 3DS
 title: SatellaZone
-update_notes: '<h2 dir="auto">Micro update, nothing much changed</h2>
+update_notes: '<h2 dir="auto">High Quality Videos!</h2>
 
   <ul dir="auto">
 
-  <li>Redid some pages</li>
+  <li>Videos are now available in full quality on <code class="notranslate">LocalSatellaZoneHQ</code>
+  !</li>
 
-  <li>Added ACNL exclusive content page</li>
+  </ul>
 
-  <li>Removed confusing "easter egg" (there''s still the base one :P)</li>
+  <p dir="auto">You can now choose between</p>
 
-  </ul>'
-updated: '2023-01-08T18:17:19Z'
-version: 2.1.1
-version_title: SatellaZone 2.1.1
+  <ul dir="auto">
+
+  <li><code class="notranslate">LocalSatellaZoneHQ</code> for High Quality Videos.</li>
+
+  <li><code class="notranslate">LocalSatellaZone</code> for Low Quality Videos.</li>
+
+  <li><code class="notranslate">SatellaZone</code> for No Videos.</li>
+
+  </ul>
+
+  <h2 dir="auto">Installation instructions</h2>
+
+  <p dir="auto">Everything is written on the Readme: <a href="https://github.com/MegaPika/SatellaZone#readme">https://github.com/MegaPika/SatellaZone#readme</a></p>'
+updated: '2023-02-18T09:53:13Z'
+version: 2.1.2
+version_title: SatellaZone 2.1.2
 website: https://satellazone.neocities.org/
 ---
 Satella Zone is a Nintendo Zone Revival for the Nintendo 3DS.
