@@ -9,19 +9,7 @@ color_bg: '#638061'
 created: '2022-02-14T05:51:08Z'
 description: A clone of Wordle for the Nintendo DS(i)
 download_page: https://github.com/Epicpkmn11/WordleDS/releases
-downloads:
-  WordleDS.cia:
-    size: 1209536
-    size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.2/WordleDS.cia
-  WordleDS.dsi:
-    size: 1194944
-    size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.2/WordleDS.dsi
-  WordleDS.nds:
-    size: 1194944
-    size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.2/WordleDS.nds
+downloads: {}
 github: Epicpkmn11/WordleDS
 icon: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
 icon_static: https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/resources/icon/icon.0.png
@@ -30,10 +18,6 @@ image_length: 3957
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-qr:
-  WordleDS.cia: https://db.universal-team.net/assets/images/qr/wordleds-cia.png
-  WordleDS.dsi: https://db.universal-team.net/assets/images/qr/wordleds-dsi.png
-  WordleDS.nds: https://db.universal-team.net/assets/images/qr/wordleds-nds.png
 screenshots:
 - description: How to play
   url: https://db.universal-team.net/assets/images/screenshots/wordle-ds/how-to-play.png
@@ -51,18 +35,17 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>The word list has been updated to include through February 19th, 2023 (previously
-  February 4th)</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
+  <li>The word list has been updated to include through February 24th, 2023 (previously
+  February 19th)
 
   <ul dir="auto">
 
-  <li>Fixes restoring the board state with non-ASCII Unicode characters</li>
+  <li>Annoyingly only 5 days available right now, hopefully they add a month or so
+  again...</li>
 
-  <li>Fixes the mod minimum version checks not working correctly</li>
+  </ul>
+
+  </li>
 
   </ul>
 
@@ -93,12 +76,12 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <tr>
 
-  <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/213533296-7c70b5ae-2d26-4ae2-91be-39d0c60fdb1f.png"><img
-  src="https://user-images.githubusercontent.com/41608708/213533296-7c70b5ae-2d26-4ae2-91be-39d0c60fdb1f.png"
+  <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/219830318-8996a422-af50-492e-ac63-0e7e60964412.png"><img
+  src="https://user-images.githubusercontent.com/41608708/219830318-8996a422-af50-492e-ac63-0e7e60964412.png"
   alt="QR for WordleDS.cia" style="max-width: 100%;"></a></td>
 
-  <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/213533301-96d2bc3c-f945-4850-807c-cfbab86a5f8c.png"><img
-  src="https://user-images.githubusercontent.com/41608708/213533301-96d2bc3c-f945-4850-807c-cfbab86a5f8c.png"
+  <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/219830319-ec2d4c54-6c90-4c88-84c7-cb5eb2b1258c.png"><img
+  src="https://user-images.githubusercontent.com/41608708/219830319-ec2d4c54-6c90-4c88-84c7-cb5eb2b1258c.png"
   alt="QR for WordleDS.dsi" style="max-width: 100%;"></a></td>
 
   </tr>
@@ -106,9 +89,9 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
   </tbody>
 
   </table>'
-updated: '2023-01-19T18:42:42Z'
-version: v2.2.2
-version_title: Bug fixes and word list update
+updated: '2023-02-18T04:04:18Z'
+version: v2.2.3
+version_title: Update words
 wiki: https://github.com/Epicpkmn11/WordleDS/wiki
 ---
 A clone of [Wordle](https://www.nytimes.com/games/wordle/index.html) for the Nintendo DS(i). It features the same word each day as the official Wordle and has most of the same features including statistics tracking, high contrast and hard mode options, and even sharable emoji grid via QR code or txt file. Also featuring custom original background music by Rocket Robz.
