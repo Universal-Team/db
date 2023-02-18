@@ -9,7 +9,19 @@ color_bg: '#638061'
 created: '2022-02-14T05:51:08Z'
 description: A clone of Wordle for the Nintendo DS(i)
 download_page: https://github.com/Epicpkmn11/WordleDS/releases
-downloads: {}
+downloads:
+  WordleDS.cia:
+    size: 1209536
+    size_str: 1 MiB
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.3/WordleDS.cia
+  WordleDS.dsi:
+    size: 1194944
+    size_str: 1 MiB
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.3/WordleDS.dsi
+  WordleDS.nds:
+    size: 1194944
+    size_str: 1 MiB
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.3/WordleDS.nds
 github: Epicpkmn11/WordleDS
 icon: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
 icon_static: https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/resources/icon/icon.0.png
@@ -18,6 +30,10 @@ image_length: 3957
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+qr:
+  WordleDS.cia: https://db.universal-team.net/assets/images/qr/wordleds-cia.png
+  WordleDS.dsi: https://db.universal-team.net/assets/images/qr/wordleds-dsi.png
+  WordleDS.nds: https://db.universal-team.net/assets/images/qr/wordleds-nds.png
 screenshots:
 - description: How to play
   url: https://db.universal-team.net/assets/images/screenshots/wordle-ds/how-to-play.png
