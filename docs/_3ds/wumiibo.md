@@ -40,7 +40,7 @@ update_notes: '<p dir="auto">This is the sixth public release of wumiibo.<br>
 
   <li>Update WumiiboHelper to work with latest luma version.</li>
 
-  <li>Other small changes and minor improvements have been made.</li>
+  <li>Other small changes and minor improvements.</li>
 
   </ul>
 
