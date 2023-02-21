@@ -4660,17 +4660,7 @@
 		"unique_ids": [784205],
 		"icon": "https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/icon.png",
 		"image": "https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/banner.png",
-		"website": "https://gbatemp.net/threads/release-thirdtube-a-homebrew-youtube-client-for-the-new-3ds.591696/",
-		"downloads": {
-			"thirdtube.cia": {
-				"url": "https://github.com/brainwo/thirdtube/releases/download/v0.5.1-fixed/thirdtube.cia",
-				"size": 4142016
-			},
-			"thirdtube.3dsx": {
-				"url": "https://github.com/brainwo/thirdtube/releases/download/v0.5.1-fixed/thirdtube.3dsx",
-				"size": 5807544
-			}
-		}
+		"website": "https://gbatemp.net/threads/release-thirdtube-a-homebrew-youtube-client-for-the-new-3ds.591696/"
 	},
 	{
 		"github": "RandomMan25XX/atari800",
