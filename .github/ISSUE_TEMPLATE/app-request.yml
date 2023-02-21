@@ -2,6 +2,9 @@ name: App request
 description: Request an app be added to Universal-DB
 labels: ["app request"]
 body:
+  - type: markdown
+    attributes:
+      value: **Please ensure your app complies with the [Universal-DB guidelines](https://github.com/Universal-Team/db/blob/da0f7076fa5632294af0c597efe315bcc86acab4/CONTRIBUTING.md#app-requests) before submitting a request.**
   - type: input
     attributes:
       label: Title
@@ -62,7 +65,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        If you've provided a GitHub repository, then only fill out the rest if you want different information than your GitHub repository has.
+        **If you've provided a GitHub repository, then only fill out the rest if you want different information than your GitHub repository has.**
 
         It can all be automatically gathered through the GitHub API.
   - type: input
@@ -112,5 +115,5 @@ body:
       label: Developer permission
       description: If you aren't a developer of the app, then please actually check it's alright with them.
       options:
-        - label: I am the app developer or have permission from the app developer to make this request
+        - label: I am the app developer or have permission from the app developer to make this request; my request is compliant with the [Universal-DB guidelines](https://github.com/Universal-Team/db/blob/da0f7076fa5632294af0c597efe315bcc86acab4/CONTRIBUTING.md#app-requests)
           required: true
