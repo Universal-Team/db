@@ -66,7 +66,7 @@ wiki: https://wiki.ds-homebrew.com/other/godmode9i
 - TWiLight Menu++: Use either the `GodMode9i.nds` or `GodMode9i.dsi` file, they function identically with TWiLight Menu++
    - The only difference is that `GodMode9i.dsi` has a Title ID
 - Flashcard: Use the `GodMode9i.nds` file
-- hiyaCFW SDNAND: Install the `GodMode9i.dsi` file with [TMFH](/ds/tmfh)
+- hiyaCFW SDNAND: Install the `GodMode9i.dsi` file with [NTM](/ds/NTM)
 - 3DS HOME Menu: Install the `GodMode9i.cia` file with [FBI](/3ds/fbi)
 
 ### Features:
