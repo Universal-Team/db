@@ -91,8 +91,6 @@ update_notes: '<h3 dir="auto">Emulation fixes:</h3>
 
   <li>Res: Fix species name location in Ruby/Sapphire revs 1/2 (fixes mgba.io/i/2685)</li>
 
-  <li>Scripting: Fix receiving packets for client sockets</li>
-
   <li>VFS: Fix minizip write returning 0 on success instead of size</li>
 
   </ul>
