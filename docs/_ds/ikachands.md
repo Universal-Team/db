@@ -50,4 +50,4 @@ version_title: v0.2.0
 ---
 In this game you can play as a squid named Ikachan, who swims through a cave, meeting and helping other creatures.
 
-The game is compatible with DS flashcards, NDS-Bootstrap and HiyaCFW home menu via TMFH
+The game is compatible with DS flashcards, NDS-Bootstrap and HiyaCFW home menu via [NTM](/ds/NTM)
