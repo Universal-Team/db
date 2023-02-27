@@ -11,14 +11,10 @@ created: '2022-06-19T18:25:09Z'
 description: Custom Firmware Luma3DS modificado por Nanquitas para cargar plugins
 download_page: https://github.com/LopezTutoriales/Luma3DS_3GX_Loader_ESP/releases
 downloads:
-  boot.3dsx:
-    size: 400280
-    size_str: 390 KiB
-    url: https://github.com/LopezTutoriales/Luma3DS_3GX_Loader_ESP/releases/download/v11.0/boot.3dsx
-  boot.firm:
-    size: 259072
-    size_str: 253 KiB
-    url: https://github.com/LopezTutoriales/Luma3DS_3GX_Loader_ESP/releases/download/v11.0/boot.firm
+  Luma3GXv12.0_ESP.zip:
+    size: 418836
+    size_str: 409 KiB
+    url: https://github.com/LopezTutoriales/Luma3DS_3GX_Loader_ESP/releases/download/v12.0/Luma3GXv12.0_ESP.zip
 github: LopezTutoriales/Luma3DS_3GX_Loader_ESP
 image: https://db.universal-team.net/assets/images/images/luma-3ds-nanquitas-en-espanol.png
 image_length: 4378
@@ -67,22 +63,8 @@ update_notes: '<h1 dir="auto">Sobre los plugins 3GX</h1>
   <p dir="auto">Una API está disponible para permitirle crear fácilmente sus propios
   plugins usando un menú.<br>
 
-  Un ejemplo está disponible <a href="https://github.com/Nanquitas/Luma3DS-Plugin-sample">aquí</a></p>
-
-  <h2 dir="auto">Nota</h2>
-
-  <p dir="auto">En la descarga dejo 2 archivos:</p>
-
-  <ul dir="auto">
-
-  <li><code class="notranslate">boot.firm</code> archivo de luma modificado para cargar
-  plugins</li>
-
-  <li><code class="notranslate">boot.3dsx</code> archivo del Homebrew Launcher actualizado
-  para funcionar con esta versión</li>
-
-  </ul>'
-updated: '2022-06-19T19:14:04Z'
-version: v11.0
-version_title: Luma3DS 3GX Loader v11.0 en Español
+  Un ejemplo está disponible <a href="https://github.com/Nanquitas/Luma3DS-Plugin-sample">aquí</a></p>'
+updated: '2023-02-27T12:14:43Z'
+version: v12.0
+version_title: Luma3DS 3GX Loader v12.0 en Español
 ---
