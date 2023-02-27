@@ -13,15 +13,15 @@ downloads:
   WordleDS.cia:
     size: 1209536
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.3/WordleDS.cia
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.4/WordleDS.cia
   WordleDS.dsi:
     size: 1194944
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.3/WordleDS.dsi
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.4/WordleDS.dsi
   WordleDS.nds:
     size: 1194944
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.3/WordleDS.nds
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v2.2.4/WordleDS.nds
 github: Epicpkmn11/WordleDS
 icon: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
 icon_static: https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/resources/icon/icon.0.png
@@ -51,17 +51,8 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>The word list has been updated to include through February 24th, 2023 (previously
-  February 19th)
-
-  <ul dir="auto">
-
-  <li>Annoyingly only 5 days available right now, hopefully they add a month or so
-  again...</li>
-
-  </ul>
-
-  </li>
+  <li>The word list has been updated to include through March 12th, 2023 (previously
+  February 24th, whoops sorry)</li>
 
   </ul>
 
@@ -92,21 +83,18 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <tr>
 
-  <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/219830318-8996a422-af50-492e-ac63-0e7e60964412.png"><img
-  src="https://user-images.githubusercontent.com/41608708/219830318-8996a422-af50-492e-ac63-0e7e60964412.png"
-  alt="QR for WordleDS.cia" style="max-width: 100%;"></a></td>
+  <td><a target="_blank" rel="noopener noreferrer" href=""><img alt="QR for WordleDS.cia"
+  style="max-width: 100%;"></a></td>
 
-  <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/219830319-ec2d4c54-6c90-4c88-84c7-cb5eb2b1258c.png"><img
-  src="https://user-images.githubusercontent.com/41608708/219830319-ec2d4c54-6c90-4c88-84c7-cb5eb2b1258c.png"
-  alt="QR for WordleDS.dsi" style="max-width: 100%;"></a></td>
+  <td>![QR for WordleDS.dsi][dsi-qr]</td>
 
   </tr>
 
   </tbody>
 
   </table>'
-updated: '2023-02-18T04:04:18Z'
-version: v2.2.3
+updated: '2023-02-27T20:56:13Z'
+version: v2.2.4
 version_title: Update words
 wiki: https://github.com/Epicpkmn11/WordleDS/wiki
 ---
