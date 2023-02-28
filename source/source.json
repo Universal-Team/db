@@ -5067,7 +5067,12 @@
 		"github": "LopezTutoriales/Luma3DS_3GX_Loader_ESP",
 		"title": "Luma 3DS (Nanquitas) En Español",
 		"systems": ["3DS"],
-		"categories": ["firm", "luma3ds", "translation"]
+		"categories": ["firm", "luma3ds", "translation"],
+		"archive": {
+			"Luma3GX.*_ESP\\.zip": {
+				"boot.firm": ["boot.firm"]
+			}
+		}
 	},
 	{
 		"github": "LopezTutoriales/GodMode9_ESP",
