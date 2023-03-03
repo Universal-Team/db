@@ -10,13 +10,13 @@ description: A work-in-progress homebrew YouTube client for the 3DS
 download_page: https://github.com/windows-server-2003/ThirdTube/releases
 downloads:
   ThirdTube.3dsx:
-    size: 5734360
+    size: 5768368
     size_str: 5 MiB
-    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.5.2/ThirdTube.3dsx
+    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.5.3/ThirdTube.3dsx
   ThirdTube.cia:
-    size: 4121536
+    size: 4142016
     size_str: 3 MiB
-    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.5.2/ThirdTube.cia
+    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.5.3/ThirdTube.cia
 github: windows-server-2003/ThirdTube
 icon: https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/icon.png
 image: https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/banner.png
@@ -39,24 +39,9 @@ systems:
 title: ThirdTube
 unique_ids:
 - '0xBF74D'
-update_notes: '<p dir="auto">I apologize for late fix of the bugs from the last release.
-  Most of the fatal bugs should be fixed in this release.</p>
-
-  <ul dir="auto">
-
-  <li>Fixed random crashes soon after opening the app(only on .cia)</li>
-
-  <li>Fixed search function broken</li>
-
-  <li>Fixed channel page failing to load additional videos</li>
-
-  <li>Fixed some subscribed channels disappearing(sorry for those who lost their subscription)</li>
-
-  <li>Subscription and history files are now resistant to corruption</li>
-
-  </ul>'
-updated: '2023-01-03T14:28:53Z'
-version: v0.5.2
-version_title: Release v0.5.2
+update_notes: <p dir="auto">This is a minor release fixing the broken video playback.</p>
+updated: '2023-03-03T05:41:10Z'
+version: v0.5.3
+version_title: Release v0.5.3
 website: https://gbatemp.net/threads/release-thirdtube-a-homebrew-youtube-client-for-the-new-3ds.591696/
 ---
