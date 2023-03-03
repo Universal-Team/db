@@ -5984,5 +5984,24 @@
 				}
 			]
 		}
+	},
+	{
+		"title": "Protista",
+		"author": "Clark Morse, Corey Ross, Jonathan Bryant",
+		"systems": ["DS"],
+		"categories": ["game"],
+		"created": "2007-01-01T00:00:00Z",
+		"updated": "2009-09-01T00:00:00Z",
+		"website": "https://web.archive.org/web/20101226085139/https://www.digipen.edu/?id=1170&proj=436",
+		"description": "Protista is an interactive toy where player-created creatures compete for supremacy of the Petri dish.",
+		"long_description": "Protista is an interactive toy where player-created creatures compete for supremacy of the Petri dish. Protista, an experiment in interactivity, challenges both the right and left sides of the brain.\n\nThe creative side is unleashed to design and build an assortment of creatures in a full-featured creature editor. Protista tasks the analytic side to program the creatures with a graphical programming language.\n\nThen, the whole brain can sit back and watch its creations battle it out in a struggle of microscopic proportions.\n\nProtista includes the following game modes:\n\nSandbox - A quick way to see your creature in action in a free-play environment.\nCreature Studio - Dreams of oddness become reality.\nAI Lab - Aspiring programmers can develop programs to transform peace-loving microbes into killing machines.\nRace Track - A creature's mobility is put to the test.\nBattle Arena - Creatures are forced to fight until one creature is pushing up seaweed.",
+		"downloads": {
+			"Protista.nds": {
+				"url": "https://db.universal-team.net/assets/files/Protista.nds"
+			},
+			"Protista_manual.zip": {
+				"url": "https://db.universal-team.net/assets/files/Protista_manual.zip"
+			}
+		}
 	}
 ]
