@@ -28,11 +28,11 @@ update_notes: '<p dir="auto">Adds an EPUB version of the wiki QuickStart.<br>
 
   Otherwise, the app itself is exactly the same.</p>
 
-  <p dir="auto">(thanks <a aria-label="Issue #34" class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="1182616031" data-permission-text="Title
-  is private" data-url="https://github.com/rhaleblian/dslibris/issues/34" data-hovercard-type="issue"
-  data-hovercard-url="/rhaleblian/dslibris/issues/34/hovercard" href="https://github.com/rhaleblian/dslibris/issues/34">#34</a>
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Victini378/hovercard"
+  <p dir="auto">(thanks <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="1182616031" data-permission-text="Title is private" data-url="https://github.com/rhaleblian/dslibris/issues/34"
+  data-hovercard-type="issue" data-hovercard-url="/rhaleblian/dslibris/issues/34/hovercard"
+  href="https://github.com/rhaleblian/dslibris/issues/34">#34</a> <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Victini378/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Victini378">@Victini378</a>)</p>'
 updated: '2023-01-03T16:47:00Z'
 version: v1.5.1b

@@ -34,12 +34,12 @@ prerelease:
 
     <ul dir="auto">
 
-    <li>253c328: fix CTR_TSC_TOUCH dependencies (<a aria-label="Pull request #80"
-    class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1402741561"
-    data-permission-text="Title is private" data-url="https://github.com/linux-3ds/linux/issues/80"
-    data-hovercard-type="pull_request" data-hovercard-url="/linux-3ds/linux/pull/80/hovercard"
-    href="https://github.com/linux-3ds/linux/pull/80">#80</a>) (raisin) <a href="https://github.com/linux-3ds/linux/pull/80"
-    data-hovercard-type="pull_request" data-hovercard-url="/linux-3ds/linux/pull/80/hovercard">#80</a></li>
+    <li>253c328: fix CTR_TSC_TOUCH dependencies (<a class="issue-link js-issue-link"
+    data-error-text="Failed to load title" data-id="1402741561" data-permission-text="Title
+    is private" data-url="https://github.com/linux-3ds/linux/issues/80" data-hovercard-type="pull_request"
+    data-hovercard-url="/linux-3ds/linux/pull/80/hovercard" href="https://github.com/linux-3ds/linux/pull/80">#80</a>)
+    (raisin) <a href="https://github.com/linux-3ds/linux/pull/80" data-hovercard-type="pull_request"
+    data-hovercard-url="/linux-3ds/linux/pull/80/hovercard">#80</a></li>
 
     </ul>'
   update_notes_md: '## Commits
@@ -56,8 +56,8 @@ update_notes: '<h2 dir="auto">Commits</h2>
 
   <ul dir="auto">
 
-  <li>253c328: fix CTR_TSC_TOUCH dependencies (<a aria-label="Pull request #80" class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="1402741561" data-permission-text="Title
+  <li>253c328: fix CTR_TSC_TOUCH dependencies (<a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="1402741561" data-permission-text="Title
   is private" data-url="https://github.com/linux-3ds/linux/issues/80" data-hovercard-type="pull_request"
   data-hovercard-url="/linux-3ds/linux/pull/80/hovercard" href="https://github.com/linux-3ds/linux/pull/80">#80</a>)
   (raisin) <a href="https://github.com/linux-3ds/linux/pull/80" data-hovercard-type="pull_request"

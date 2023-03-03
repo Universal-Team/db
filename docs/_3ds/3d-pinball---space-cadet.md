@@ -43,8 +43,8 @@ update_notes: '<ul dir="auto">
   <li>Reduced memory usage.</li>
 
   <li>Build now can also generate a CIA file (thanks to <a href="https://github.com/MrHuu">MrHuu</a>,
-  <a aria-label="Pull request #7" class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="1047670809" data-permission-text="Title is private" data-url="https://github.com/MaikelChan/SpaceCadetPinball/issues/7"
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1047670809"
+  data-permission-text="Title is private" data-url="https://github.com/MaikelChan/SpaceCadetPinball/issues/7"
   data-hovercard-type="pull_request" data-hovercard-url="/MaikelChan/SpaceCadetPinball/pull/7/hovercard"
   href="https://github.com/MaikelChan/SpaceCadetPinball/pull/7">#7</a>).</li>
 

@@ -30,8 +30,8 @@ update_notes: '<h2 dir="auto">Fixed</h2>
 
   <ul dir="auto">
 
-  <li>Fixed <a aria-label="Issue #1" class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="245271043" data-permission-text="Title is private" data-url="https://github.com/NatTupper/Forecast/issues/1"
+  <li>Fixed <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+  data-id="245271043" data-permission-text="Title is private" data-url="https://github.com/NatTupper/Forecast/issues/1"
   data-hovercard-type="issue" data-hovercard-url="/NatTupper/Forecast/issues/1/hovercard"
   href="https://github.com/NatTupper/Forecast/issues/1">#1</a></li>
 
