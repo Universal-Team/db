@@ -4911,6 +4911,7 @@
 		"title": "Wordle DS",
 		"systems": ["DS"],
 		"categories": ["game"],
+		"website": "https://wordle.xn--rck9c.xn--tckwe",
 		"icon_static": "https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/resources/icon/icon.0.png",
 		"long_description": "A clone of [Wordle](https://www.nytimes.com/games/wordle/index.html) for the Nintendo DS(i). It features the same word each day as the official Wordle and has most of the same features including statistics tracking, high contrast and hard mode options, and even sharable emoji grid via QR code or txt file. Also featuring custom original background music by Rocket Robz.",
 		"autogen_scripts": true,
