@@ -17,6 +17,17 @@ downloads:
 layout: app
 qr:
   Protista.nds: https://db.universal-team.net/assets/images/qr/protista-nds.png
+screenshots:
+- description: Choose creature
+  url: https://db.universal-team.net/assets/images/screenshots/protista/choose-creature.png
+- description: Gameplay 1
+  url: https://db.universal-team.net/assets/images/screenshots/protista/gameplay-1.png
+- description: Gameplay 2
+  url: https://db.universal-team.net/assets/images/screenshots/protista/gameplay-2.png
+- description: Gameplay 3
+  url: https://db.universal-team.net/assets/images/screenshots/protista/gameplay-3.png
+- description: Title screen
+  url: https://db.universal-team.net/assets/images/screenshots/protista/title-screen.png
 systems:
 - DS
 title: Protista
