@@ -38,5 +38,5 @@ update_notes: <p dir="auto">Dit is een minor-release die de niet-werkende videow
   oplost.</p>
 updated: '2023-03-03T14:59:36Z'
 version: v0.5.3
-version_title: Release v0.5.3
+version_title: Uitgeving v0.5.3
 ---
