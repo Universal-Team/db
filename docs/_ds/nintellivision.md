@@ -12,21 +12,21 @@ description: Nintellivision - an Intellivision Emulator for the Nintendo DS/DSi.
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 674816
-    size_str: 659 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.8/NINTV-DS.nds
+    size: 678400
+    size_str: 662 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.9/NINTV-DS.nds
   README.md:
-    size: 12787
-    size_str: 12 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.8/README.md
+    size: 13908
+    size_str: 13 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.9/README.md
   extras.zip:
     size: 832208
     size_str: 812 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.8/extras.zip
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.9/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 16288
+image_length: 30242
 layout: app
 qr:
   NINTV-DS.nds: https://db.universal-team.net/assets/images/qr/nintv-ds-nds.png
@@ -37,36 +37,22 @@ source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V3.8 : 26-Dec-2022 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V3.9 : 05-Mar-2023 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Improved memory handling so we don''t run out of memory on the DS-Lite/Phat
-  and no more crashes!</li>
+  <li>Improved ECS keyboard handling so we can handle ''transposed'' scanning of columns/rows
+  (allows demos like Adventure to run).</li>
 
-  <li>ECS and extra cart RAM now in faster VRAM to improve performance.</li>
+  <li>Improved banking / page-flipping for faster page switches and more robust. There
+  should be no more small audio ''gaps'' when page-flipping music.</li>
 
-  <li>Fixed sound channels so that PSG + ECS + Intelivoice can all play nice together
-  (mostly for World Series of Baseball)</li>
-
-  <li>Improved .ROM parsing support - now checking the CRC integrity and properly
-  parsing the compatibility tags so more games run with the right settings (Intellivoice
-  or JLP or ECS, etc).</li>
-
-  <li>New Game/Emulator Information screen to let you know if you are running in DS
-  compatibility mode (less RAM, slower CPU) or DSi compatibilty mode (more RAM and
-  faster CPU).</li>
-
-  <li>For the DSi or above we now support a much wider range of binary files (up to
-  512K) with page flipping.</li>
-
-  <li>New menu to allow you to launch a game with specific hardware configurations.
-  Use X to load the game instead of A (launch instructions are on-screen).</li>
-
-  <li>Lots of small improvements and cleanup as time permitted.</li>
+  <li>For the DSi we now support 1024KB (512K Words) of binary ROM which is almost
+  unfathomably large in the world of Intellivision games (130% larger than anything
+  I''m aware of).</li>
 
   </ul>'
-updated: '2022-12-26T14:19:24Z'
-version: '3.8'
-version_title: Version 3.8
+updated: '2023-03-05T13:06:17Z'
+version: '3.9'
+version_title: Version 3.9
 ---
