@@ -10,17 +10,17 @@ description: A clone of Wordle for the Nintendo DS(i)
 download_page: https://github.com/Epicpkmn11/WordleDS/releases
 downloads:
   WordleDS.cia:
-    size: 1264832
+    size: 1245376
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.0.0/WordleDS.cia
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.0.1/WordleDS.cia
   WordleDS.dsi:
-    size: 1250240
+    size: 1230784
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.0.0/WordleDS.dsi
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.0.1/WordleDS.dsi
   WordleDS.nds:
-    size: 1250240
+    size: 1230784
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.0.0/WordleDS.nds
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.0.1/WordleDS.nds
 github: Epicpkmn11/WordleDS
 icon: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
 icon_static: https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/resources/icon/icon.0.png
@@ -46,38 +46,30 @@ source: https://github.com/Epicpkmn11/WordleDS
 systems:
 - DS
 title: Wordle DS
-update_notes: '<h3 dir="auto">What''s new?</h3>
+update_notes: '<h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>The word order is now synchronized from the internet to remove the need to update
-  the whole game frequently
+  <li>Fixes the default mod''s non-answer words list not being loaded
 
   <ul dir="auto">
 
-  <li>Unfortunately this requires a WEP router in-app, however 3DS users can use Universal-Updater
-  (it''ll automatically download the latest list on update and there''s a manual entry
-  for it too) and I also made a little <a href="https://github.com/Epicpkmn11/WordleDS/blob/main/resources/update-words.py">Python
-  script</a> which you can just put in <code class="notranslate">sd:/_nds/WordleDS/Wordle
-  DS</code> and run on PC, can always just manually <a href="https://wordle.xn--rck9c.xn--tckwe/words.php?mode=mod.json"
-  rel="nofollow">download it</a> too</li>
+  <li>Wouldn''t be a major update without a derp fix <g-emoji class="g-emoji" alias="sweat_smile"
+  fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f605.png">😅</g-emoji></li>
 
   </ul>
 
   </li>
 
-  <li>Attempting to enable hard mode while playing now has a popup explaining why
-  you can''t</li>
-
   </ul>
 
-  <p dir="auto">Wow I just noticed that the 1st birthday of Wordle DS was back on
-  February 13th, when I started this it was supposed to be a little one off thing
-  that I just had a little fun making, released, and never worked on again. And here
-  I am making v3.0.0 a year later. It''s not really <em>thaaat</em> major of a change
-  all things considered, but with it being such a major change to the usage of the
-  app I figured I''d give it the v3. Also, Wordle DS has an <a href="https://wordle.xn--rck9c.xn--tckwe"
-  rel="nofollow">official webpage</a> now ;P</p>
+  <h3 dir="auto">Changes</h3>
+
+  <ul dir="auto">
+
+  <li>Updates the included word list</li>
+
+  </ul>
 
   <hr>
 
@@ -106,12 +98,12 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <tr>
 
-  <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/222622039-446b9781-01e9-498b-8ba0-cc2fb096ea7d.png"><img
-  src="https://user-images.githubusercontent.com/41608708/222622039-446b9781-01e9-498b-8ba0-cc2fb096ea7d.png"
+  <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/222964844-af04f871-312e-4148-87c1-b98ce831889d.png"><img
+  src="https://user-images.githubusercontent.com/41608708/222964844-af04f871-312e-4148-87c1-b98ce831889d.png"
   alt="QR for WordleDS.cia" style="max-width: 100%;"></a></td>
 
-  <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/222622042-213a850f-9879-4674-bb10-e73b202c2611.png"><img
-  src="https://user-images.githubusercontent.com/41608708/222622042-213a850f-9879-4674-bb10-e73b202c2611.png"
+  <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/222964846-3d98e7f3-05ca-4f6c-b441-fa48ac85638c.png"><img
+  src="https://user-images.githubusercontent.com/41608708/222964846-3d98e7f3-05ca-4f6c-b441-fa48ac85638c.png"
   alt="QR for WordleDS.dsi" style="max-width: 100%;"></a></td>
 
   </tr>
@@ -119,9 +111,9 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
   </tbody>
 
   </table>'
-updated: '2023-03-03T03:12:28Z'
-version: v3.0.0
-version_title: Online word updates
+updated: '2023-03-05T13:57:39Z'
+version: v3.0.1
+version_title: Fix non-answer list not working
 website: https://wordle.xn--rck9c.xn--tckwe
 wiki: https://github.com/Epicpkmn11/WordleDS/wiki
 ---
