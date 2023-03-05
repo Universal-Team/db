@@ -72,9 +72,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <p dir="auto">You can also play the WebGL version at <a href="https://nzp.gay/"
   rel="nofollow">https://nzp.gay/</a></p>'
-updated: '2023-03-05T07:19:43Z'
+updated: '2023-03-05T15:58:36Z'
 version: nightly
-version_title: 2.0.0-indev+20230305071833
+version_title: 2.0.0-indev+20230305155732
 website: https://discord.gg/6GBGf4N
 ---
 A Work-in-Progress Quake "demake" of the Zombies mode from Call of Duty.
