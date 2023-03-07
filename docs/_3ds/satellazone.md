@@ -30,8 +30,8 @@ icon: https://db.universal-team.net/assets/images/icons/satellazone.png
 image: https://db.universal-team.net/assets/images/icons/satellazone.png
 image_length: 6846
 layout: app
-license: bsd-3-clause
-license_name: BSD 3-Clause "New" or "Revised" License
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 source: https://github.com/MegaPika/SatellaZone
 systems:
 - 3DS
