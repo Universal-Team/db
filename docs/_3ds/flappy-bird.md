@@ -10,13 +10,13 @@ description: A Clone of Flappy-Bird for the 3ds.
 download_page: https://github.com/NPI-D7/Flappy-Bird/releases
 downloads:
   Flappy-Bird.3dsx:
-    size: 1710508
+    size: 1721300
     size_str: 1 MiB
-    url: https://github.com/NPI-D7/Flappy-Bird/releases/download/1.2.0/Flappy-Bird.3dsx
+    url: https://github.com/NPI-D7/Flappy-Bird/releases/download/1.3.0/Flappy-Bird.3dsx
   Flappy-Bird.cia:
-    size: 1631168
+    size: 1659840
     size_str: 1 MiB
-    url: https://github.com/NPI-D7/Flappy-Bird/releases/download/1.2.0/Flappy-Bird.cia
+    url: https://github.com/NPI-D7/Flappy-Bird/releases/download/1.3.0/Flappy-Bird.cia
 github: NPI-D7/Flappy-Bird
 icon: https://raw.githubusercontent.com/NPI-D7/Flappy-Bird/screenshots/app/icon.png
 image: https://raw.githubusercontent.com/NPI-D7/Flappy-Bird/master/app/banner.png
@@ -41,15 +41,46 @@ systems:
 title: Flappy-Bird
 unique_ids:
 - '0x64D70'
-update_notes: '<p dir="auto">Fixed a Bug where you got under the ground when going
-  back to title Screen.</p>
+update_notes: '<p dir="auto">This update includes some Bugfixes</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/71647024/163732211-e74ae266-4d50-4532-ac73-3ec62f9aecf3.png"><img
-  src="https://user-images.githubusercontent.com/71647024/163732211-e74ae266-4d50-4532-ac73-3ec62f9aecf3.png"
+  <ul dir="auto">
+
+  <li>Menu Bird Animation</li>
+
+  <li>Glitching Pipes</li>
+
+  </ul>
+
+  <p dir="auto">And other Changes</p>
+
+  <ul dir="auto">
+
+  <li>Build with latest libctru</li>
+
+  <li>Moved to RenderD7 0.9.0
+
+  <ul dir="auto">
+
+  <li>Faster Color Convertation</li>
+
+  <li>latest libctru</li>
+
+  <li>No more slow Fps cheat lol</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <p dir="auto">QR-Code:<br>
+
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/71647024/223484571-71a778c6-c30f-4e9c-90be-206814ee9f62.png"><img
+  src="https://user-images.githubusercontent.com/71647024/223484571-71a778c6-c30f-4e9c-90be-206814ee9f62.png"
   alt="Flappy-Bird" style="max-width: 100%;"></a></p>'
-updated: '2022-04-17T21:14:28Z'
-version: 1.2.0
-version_title: Release 1.2.0 Bugfix
+updated: '2023-03-07T16:20:50Z'
+version: 1.3.0
+version_title: (1.3.0) Fixes and Stuff
 ---
 ### Flappy-Bird 
 [![Discord](https://img.shields.io/discord/961610973066702889?style=for-the-badge)](https://discord.gg/XuX6EN8dyt)
