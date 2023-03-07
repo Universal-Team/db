@@ -11,13 +11,13 @@ description: NitroHax cheat tool for Nintendo DS games, ported to Nintendo DSi /
 download_page: https://github.com/Epicpkmn11/NitroHax3DS/releases
 downloads:
   NitroHax-usrcheat.cia:
-    size: 1313024
+    size: 1368320
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/NitroHax3DS/releases/download/0.101/NitroHax-usrcheat.cia
+    url: https://github.com/Epicpkmn11/NitroHax3DS/releases/download/0.100/NitroHax-usrcheat.cia
   NitroHax.dsi:
-    size: 1298432
+    size: 1353728
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/NitroHax3DS/releases/download/0.101/NitroHax.dsi
+    url: https://github.com/Epicpkmn11/NitroHax3DS/releases/download/0.100/NitroHax.dsi
 github: Epicpkmn11/NitroHax3DS
 icon: https://db.universal-team.net/assets/images/icons/nitrohax3ds.png
 image: https://db.universal-team.net/assets/images/images/nitrohax3ds.png
@@ -36,37 +36,43 @@ update_notes: '<p dir="auto">This is a fork of NitroHax3DS that loads cheats fro
   a <code class="notranslate">usrcheat.dat</code> file instead of <code class="notranslate">cheats.xml</code>.
   If you want to use a cheats.xml, then use <a href="https://github.com/ahezard/NitroHax3DS/releases">ahezard/NitroHax3DS</a>.</p>
 
-  <p dir="auto">See the README for <a href="https://github.com/Epicpkmn11/NitroHax3DS#usage-revised-for-dsi3ds-do-not-attempt-to-use-this-build-on-a-original-dsds-lite-use-chishms-original-build-instead">usage
-  instructions</a>.</p>
-
-  <h3 dir="auto">What''s new?</h3>
+  <p dir="auto">Cheats will be loaded from the following files in this order:</p>
 
   <ul dir="auto">
 
-  <li>The boot splash has been upgraded to use the GIF files and audio from TWiLight
-  Menu++ allowing for 60 FPS, all 8 languages, and birthday sounds - all with a smaller
-  file size!</li>
+  <li><code class="notranslate">usrcheat.dat</code> (in the current directory)</li>
+
+  <li><code class="notranslate">/DS/NitroHax/usrcheat.dat</code></li>
+
+  <li><code class="notranslate">/NitroHax/usrcheat.dat</code></li>
+
+  <li><code class="notranslate">/data/NitroHax/usrcheat.dat</code></li>
+
+  <li><code class="notranslate">/usrcheat.dat</code></li>
+
+  <li><code class="notranslate">/_nds/usrcheat.dat</code></li>
+
+  <li><code class="notranslate">/_nds/TWiLightMenu/extras/usrcheat.dat</code> (this
+  is the same place TWiLight Menu++ uses)</li>
 
   </ul>
-
-  <hr>
 
   <p dir="auto">If you don''t have a cheat database, I recommend using <a href="https://gbatemp.net/threads/deadskullzjrs-nds-cheat-databases.488711/"
   rel="nofollow">DeadSkullzJr''s</a>.</p>
 
   <p dir="auto">Use <code class="notranslate">NitroHax-usrcheat.cia</code> to install
-  to the 3DS HOME Menu.<br>
+  to the 3DS home menu.<br>
 
   Use <code class="notranslate">NitroHax.dsi</code> with TWiLight Menu++ or with <a
-  href="https://github.com/JeffRuLz/TMFH/releases">TMFH</a>/<a href="https://github.com/Epicpkmn11/NTM/releases">NTM</a>
-  to install to the DSi Menu.</p>
+  href="https://github.com/JeffRuLz/TMFH/releases">TMFH</a> to install to hiyaCFW''s
+  SDNAND.</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/155246853-533de731-0e0e-47f0-986a-7c009961f665.png"><img
-  src="https://user-images.githubusercontent.com/41608708/155246853-533de731-0e0e-47f0-986a-7c009961f665.png"
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/155246707-26382cea-ae01-453d-ab58-fd0a66ca9937.png"><img
+  src="https://user-images.githubusercontent.com/41608708/155246707-26382cea-ae01-453d-ab58-fd0a66ca9937.png"
   alt="QR code for the CIA" style="max-width: 100%;"></a></p>'
-updated: '2022-02-23T01:15:15Z'
-version: '0.101'
-version_title: Improved boot splash
+updated: '2021-01-11T07:44:59Z'
+version: '0.100'
+version_title: Load cheats from usrcheat.dat instead of cheats.xml
 ---
 This is for use on DSi/3DS from internal SD, if using a flashcard see [NitroHax](nitrohax).
 
