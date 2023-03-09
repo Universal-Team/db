@@ -10,13 +10,13 @@ description: A Clone of Flappy-Bird for the 3ds.
 download_page: https://github.com/NPI-D7/Flappy-Bird/releases
 downloads:
   Flappy-Bird.3dsx:
-    size: 1776900
+    size: 1720644
     size_str: 1 MiB
-    url: https://github.com/NPI-D7/Flappy-Bird/releases/download/1.3.1/Flappy-Bird.3dsx
+    url: https://github.com/NPI-D7/Flappy-Bird/releases/download/1.4.0/Flappy-Bird.3dsx
   Flappy-Bird.cia:
-    size: 1688512
+    size: 1659840
     size_str: 1 MiB
-    url: https://github.com/NPI-D7/Flappy-Bird/releases/download/1.3.1/Flappy-Bird.cia
+    url: https://github.com/NPI-D7/Flappy-Bird/releases/download/1.4.0/Flappy-Bird.cia
 github: NPI-D7/Flappy-Bird
 icon: https://raw.githubusercontent.com/NPI-D7/Flappy-Bird/screenshots/app/icon.png
 image: https://raw.githubusercontent.com/NPI-D7/Flappy-Bird/master/app/banner.png
@@ -41,16 +41,20 @@ systems:
 title: Flappy-Bird
 unique_ids:
 - '0x64D70'
-update_notes: '<p dir="auto">Fix Crash</p>
+update_notes: '<p dir="auto">Update to Latest RenderD7...</p>
 
   <ul dir="auto">
 
-  <li>Fallback to RenderD7 April 30 2022</li>
+  <li>Speeds Up Color Convertation</li>
+
+  <li>No more possible to cheat with fps</li>
+
+  <li>RD7SR (No Visible improvements)</li>
 
   </ul>'
-updated: '2023-03-08T05:51:22Z'
-version: 1.3.1
-version_title: 1.3.1
+updated: '2023-03-09T19:26:13Z'
+version: 1.4.0
+version_title: 1.4.0
 ---
 ### Flappy-Bird 
 [![Discord](https://img.shields.io/discord/961610973066702889?style=for-the-badge)](https://discord.gg/XuX6EN8dyt)
