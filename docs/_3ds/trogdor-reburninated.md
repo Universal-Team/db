@@ -11,7 +11,7 @@ download_filter: 3ds
 download_page: https://github.com/Mips96/Trogdor-Reburninated/releases
 downloads:
   Trogdor-Reburninated-v2.0-3ds.zip:
-    size: 37465147
+    size: 37224571
     size_str: 35 MiB
     url: https://github.com/Mips96/Trogdor-Reburninated/releases/download/v2.0/Trogdor-Reburninated-v2.0-3ds.zip
 github: Mips96/Trogdor-Reburninated
@@ -96,7 +96,10 @@ update_notes: '<p dir="auto">The v2.0 update is here!</p>
   at a later date, so the new PSP release is experimental. If you want something more
   stable for PSP, fall back to v1.1 for now.</p>
 
-  <p dir="auto">Enjoy!</p>'
+  <p dir="auto">Enjoy!</p>
+
+  <p dir="auto"><strong>Hotfix 3/10/23</strong>: Removed unused graphics from downloads
+  (it''s only ~200KB when zipped, but still).</p>'
 updated: '2023-03-03T01:15:04Z'
 version: v2.0
 version_title: v2.0
