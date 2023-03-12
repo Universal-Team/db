@@ -66,8 +66,14 @@ update_notes: '<table role="table">
 
   </li>
 
-  </ul>'
-updated: '2023-03-10T13:29:50Z'
+  </ul>
+
+  <p dir="auto"><strong>NOTE</strong>: This release was hotfixed with commit <a class="commit-link"
+  data-hovercard-type="commit" data-hovercard-url="https://github.com/Epicpkmn11/NTM/commit/7ca8bd1a7c994cd4a8bd30cd40142515f590a2ce/hovercard"
+  href="https://github.com/Epicpkmn11/NTM/commit/7ca8bd1a7c994cd4a8bd30cd40142515f590a2ce"><tt>7ca8bd1</tt></a>
+  to still allow fixing the FAT copy mismatch when Unlaunch is not installed, since
+  that is required to install Unlaunch</p>'
+updated: '2023-03-12T02:31:24Z'
 version: v0.1.7
 version_title: Unlaunch required
 wiki: https://github.com/Epicpkmn11/NTM/wiki
