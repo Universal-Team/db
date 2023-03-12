@@ -5225,7 +5225,7 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"description": "A Nintendo Zone Revival for the 3DS.",
-		"long_description": "Satella Zone is a Nintendo Zone Revival for the Nintendo 3DS.\n\nCredits :\n\n-MegaPika (Me) for working a lot lol\n-Cooolgamer for A LOT OF THINGS\n-Ghost64 for debug/credit pages + other things\n-BostonSix for some images\n-Sudocraft for the SatellaZone logo\n-Braden Yes for retalking about revive Nintendo Zone\n-Envy for research about Nintendo Zone\n-JeremKO for beta testing",
+		"long_description": "SatellaZone is a 3DS Nintendo Zone Revival patch that allows you to access archives from different stores and restaurants such as Best Buy, AT&T, McDonalds, and more!\n You can access videos using the LocalSatellaZone version.\n You can also be able to access Nintendo Zone without having to launch FBI by downloading the UsaPatch (which is for USA consoles only).\n You can find more informations and tutorials at https://github.com/MegaPika/SatellaZone#readme",
 		"website": "https://satellazone.neocities.org/",
 		"scripts": {
 			"EUR": [
