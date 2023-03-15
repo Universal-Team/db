@@ -10,17 +10,17 @@ description: A clone of Wordle for the Nintendo DS(i)
 download_page: https://github.com/Epicpkmn11/WordleDS/releases
 downloads:
   WordleDS.cia:
-    size: 1245376
+    size: 1264832
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.0.1/WordleDS.cia
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.1.0/WordleDS.cia
   WordleDS.dsi:
-    size: 1230784
+    size: 1250240
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.0.1/WordleDS.dsi
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.1.0/WordleDS.dsi
   WordleDS.nds:
-    size: 1230784
+    size: 1250240
     size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.0.1/WordleDS.nds
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.1.0/WordleDS.nds
 github: Epicpkmn11/WordleDS
 icon: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
 icon_static: https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/resources/icon/icon.0.png
@@ -46,16 +46,19 @@ source: https://github.com/Epicpkmn11/WordleDS
 systems:
 - DS
 title: Wordle DS
-update_notes: '<h3 dir="auto">Bug fixes</h3>
+update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Fixes the default mod''s non-answer words list not being loaded
+  <li>Allows the custom order to specify answers in the incorrect guesses list, since
+  that''s a thing now (Wordle 646)
 
   <ul dir="auto">
 
-  <li>Wouldn''t be a major update without a derp fix <g-emoji class="g-emoji" alias="sweat_smile"
-  fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f605.png">😅</g-emoji></li>
+  <li>The one major assumption I make, that the answers will still come from the old
+  list, and they break it</li>
+
+  <li>Please don''t add new words at least</li>
 
   </ul>
 
@@ -63,11 +66,19 @@ update_notes: '<h3 dir="auto">Bug fixes</h3>
 
   </ul>
 
+  <h3 dir="auto">Bug fixes</h3>
+
+  <ul dir="auto">
+
+  <li>Fixes settings showing one higher than is actually downloaded</li>
+
+  </ul>
+
   <h3 dir="auto">Changes</h3>
 
   <ul dir="auto">
 
-  <li>Updates the included word list</li>
+  <li>Updates the included word list through April 9th</li>
 
   </ul>
 
@@ -111,9 +122,9 @@ update_notes: '<h3 dir="auto">Bug fixes</h3>
   </tbody>
 
   </table>'
-updated: '2023-03-05T13:57:39Z'
-version: v3.0.1
-version_title: Fix non-answer list not working
+updated: '2023-03-15T00:49:50Z'
+version: v3.1.0
+version_title: Answers in the guess list
 website: https://wordle.xn--rck9c.xn--tckwe
 wiki: https://github.com/Epicpkmn11/WordleDS/wiki
 ---
