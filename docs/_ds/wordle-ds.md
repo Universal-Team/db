@@ -109,12 +109,12 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <tr>
 
-  <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/222964844-af04f871-312e-4148-87c1-b98ce831889d.png"><img
-  src="https://user-images.githubusercontent.com/41608708/222964844-af04f871-312e-4148-87c1-b98ce831889d.png"
+  <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/225175663-76a1c7ba-e013-468b-9895-d3a196378bce.png"><img
+  src="https://user-images.githubusercontent.com/41608708/225175663-76a1c7ba-e013-468b-9895-d3a196378bce.png"
   alt="QR for WordleDS.cia" style="max-width: 100%;"></a></td>
 
-  <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/222964846-3d98e7f3-05ca-4f6c-b441-fa48ac85638c.png"><img
-  src="https://user-images.githubusercontent.com/41608708/222964846-3d98e7f3-05ca-4f6c-b441-fa48ac85638c.png"
+  <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/225175666-7ea92569-c1e7-4a4f-b943-1714f2bb8c2a.png"><img
+  src="https://user-images.githubusercontent.com/41608708/225175666-7ea92569-c1e7-4a4f-b943-1714f2bb8c2a.png"
   alt="QR for WordleDS.dsi" style="max-width: 100%;"></a></td>
 
   </tr>
