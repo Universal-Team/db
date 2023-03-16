@@ -610,7 +610,7 @@ update_notes: '<ul dir="auto">
   Thus strip everything from args except the actual parameters.</li>
 
   </ul>'
-updated: '2023-03-10T18:20:51Z'
+updated: '2023-03-16T06:15:37Z'
 version: v1.15.0
 version_title: v1.15.0
 website: http://www.libretro.com
