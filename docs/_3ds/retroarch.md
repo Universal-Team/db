@@ -169,6 +169,8 @@ update_notes: '<ul dir="auto">
   data-hovercard-url="/libretro/RetroArch/pull/14893/hovercard" href="https://github.com/libretro/RetroArch/pull/14893">#14893</a>).
   Fixes preemptive frames not starting up with a few cores</li>
 
+  <li>LIBRETRO-COMMON/VFS/FILESTREAM: Fixes filestream_vscanf regression</li>
+
   <li>LOCALIZATION: Updates</li>
 
   <li>LOCALIZATION: Enable localization of video rotation, orientation, and aspect
@@ -200,6 +202,8 @@ update_notes: '<ul dir="auto">
 
   <li>INPUT: Allowing keyboard RetroPad keys for typing if emulated device type is
   "None"</li>
+
+  <li>INPUT/AUTOCONFIG: Check for ''enable_hotkey'' also from autoconf binds</li>
 
   <li>INPUT/BLUETOOTH: Fix a crash in for BT HID devices. (<a class="issue-link js-issue-link"
   data-error-text="Failed to load title" data-id="1561147322" data-permission-text="Title
@@ -301,6 +305,8 @@ update_notes: '<ul dir="auto">
   <li>MENU/RGUI: Fix disabled menu item color. The effect was not working properly,
   since transparency meant using the core output color as background.</li>
 
+  <li>MENU/XMB: Horizontal icon animation fix</li>
+
   <li>MENU/XMB: Fixed playlist manager icons to take Explore Views into account properly</li>
 
   <li>MENU/XMB: Changed XMB Explore View title to match Ozone</li>
@@ -401,6 +407,22 @@ update_notes: '<ul dir="auto">
   <li>NETWORKING/STDIN: Add LOAD_STATE_SLOT N command to stdin/network protocol</li>
 
   <li>OSD/STATISTICS: Add Run-Ahead data to on-screen statistics</li>
+
+  <li>OSD/STATISTICS: Notification font + statistics adjustments</li>
+
+  <li>OSD/STATISTICS: Finetuned statistics layout to be more compact and aligned</li>
+
+  <li>OSD/STATISTICS: Group Run-Ahead and Frame Delay as "Latency"</li>
+
+  <li>OSD/STATISTICS: Try to scale font as small as possible/readable if stats won''t
+  fit</li>
+
+  <li>OSD/STATISTICS/FONT: Allow reseting notification font with RetroPad Y to "null",
+  which uses the fallback pixel font</li>
+
+  <li>OSD/STATISTICS/FONT: Show "Default" instead of empty with default font</li>
+
+  <li>OSD/STATISTICS/FONT: Start browsing font from assets instead of root</li>
 
   <li>OSX/MACOS: Steam platform support</li>
 
@@ -599,6 +621,9 @@ update_notes: '<ul dir="auto">
   <li>WAYLAND: Build pointer-constraints and relative-pointer protocols.</li>
 
   <li>WAYLAND/GL: GL is sometimes not rescaling property (Super + Left).</li>
+
+  <li>WIN32: Ignore window limiting with fixed position. The other resizing part already
+  took this into account, but WM_GETMINMAXINFO did not.</li>
 
   <li>WIN32/INPUT: Add support for mouse button swap</li>
 
