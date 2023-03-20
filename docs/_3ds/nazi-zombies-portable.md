@@ -9,11 +9,7 @@ created: '2022-02-08T23:52:38Z'
 description: 'Call of Duty: Zombies demake, powered by various Quake sourceports.'
 download_filter: 3ds
 download_page: https://github.com/nzp-team/nzportable/releases
-downloads:
-  nzportable-3ds.zip:
-    size: 23893622
-    size_str: 22 MiB
-    url: https://github.com/nzp-team/nzportable/releases/download/nightly/nzportable-3ds.zip
+downloads: {}
 github: nzp-team/nzportable
 icon: https://raw.githubusercontent.com/nzp-team/glquake/main/icon.png
 image: https://raw.githubusercontent.com/nzp-team/glquake/main/banner.png
@@ -70,9 +66,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <p dir="auto">You can also play the WebGL version at <a href="https://nzp.gay/"
   rel="nofollow">https://nzp.gay/</a></p>'
-updated: '2023-03-19T07:18:41Z'
+updated: '2023-03-20T07:20:02Z'
 version: nightly
-version_title: 2.0.0-indev+20230319071740
+version_title: 2.0.0-indev+20230320071902
 website: https://discord.gg/6GBGf4N
 ---
 A Work-in-Progress Quake "demake" of the Zombies mode from Call of Duty.
