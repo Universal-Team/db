@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 632995
-    size_str: 618 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.70.0/nds-bootstrap.7z
+    size: 585479
+    size_str: 571 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.69.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1500783
+    size: 1355627
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.70.0/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.69.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -34,8 +34,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v25.8.1"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v25.8.1</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v25.8.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v25.8.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -50,39 +50,33 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <h3 dir="auto">What''s new?</h3>
 
-  <p dir="auto">Do you love the Nintendo DS? Do you love the Nintendo DSi? Do you
-  love (or like) some of it''s DSiWare library?<br>
-
-  If you''ve answered <em>yes</em> to all (or for some reason, just No. 1 &amp; No.
-  3) of those questions, then Happy Valentine''s Day! This nds-bootstrap release is
-  for you!</p>
+  <h4 dir="auto">For DS &amp; DS lite consoles (B4DS mode)</h4>
 
   <ul dir="auto">
 
-  <li>Why? Because we''ve added support for 43 more DSiWare titles to play on your
-  DS and/or DS lite (plus 4 more for debug consoles)!
+  <li>Added support for 20 more DSiWare titles!
 
   <ul dir="auto">
 
   <li>Scroll down to see which titles are now supported.</li>
 
-  <li>Click &gt;<a href="https://github.com/DS-Homebrew/TWiLightMenu/blob/6adc82f05a5e09ce2ecfda33be56a7ec77db4f36/universal/include/compatibleDSiWareMap.h">here</a>&lt;
+  <li>Click &gt;<a href="https://github.com/DS-Homebrew/TWiLightMenu/blob/61319873fa8bb58e0b2c48f9dce6d784acad2707/universal/include/compatibleDSiWareMap.h">here</a>&lt;
   for the full list of supported titles.</li>
 
   </ul>
 
   </li>
 
-  </ul>
-
-  <h3 dir="auto">Improvement</h3>
+  <li>Upgraded volume change feature via <code class="notranslate">SELECT + Up/Down</code>
+  to 4 levels: High/Max, Medium, Low, and Off
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  and <a href="https://crowdin.com/profile/earedguitr" rel="nofollow">вухаста гітара</a>:
-  Updated Ukranian in-game menu translation.</li>
+  <li><em>Spin Six</em> is the only title to display the current volume level.</li>
+
+  </ul>
+
+  </li>
 
   </ul>
 
@@ -90,10 +84,25 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Fixed 0xC1 and 0xC2 cheat types causing a crash.</li>
+  <li>Instead of all ROMs using the SDK version used by <em>Yoshi Touch &amp; Go</em>
+  (Europe) having to use a donor ROM, only said game now uses a donor ROM in order
+  to fix other games using said SDK version not working.</li>
 
-  <li>Tried fixing Japanese DSi/3DS consoles using external <code class="notranslate">TWLFontTable.dat</code>
-  (which isn''t CHN or KOR), despite the same one existing in TWLNAND.</li>
+  </ul>
+
+  <h4 dir="auto">For DS &amp; DS lite consoles (B4DS mode)</h4>
+
+  <ul dir="auto">
+
+  <li>Saving now works in <em>GO Series: Earth Saver</em> (Europe).</li>
+
+  </ul>
+
+  <h4 dir="auto">For DSi &amp; 3DS consoles</h4>
+
+  <ul dir="auto">
+
+  <li>Fixed <em>Pokemon Ranger: Batonnage</em> crashing on boot.</li>
 
   </ul>
 
@@ -101,265 +110,96 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>1st Class Poker &amp; BlackJack</li>
+  <li>Aa! Nikaku Dori</li>
 
-  <li>101 Pinball World
+  <li>Alien Puzzle Adventure</li>
+
+  <li>All-Star Air Hockey</li>
+
+  <li>Animal Puzzle Adventure</li>
+
+  <li>Anyohaseyo!: Kankokugo Wado Pazuru</li>
+
+  <li>Arcade Bowling</li>
+
+  <li>Arcade Hoops Basketball</li>
+
+  <li>Armada
 
   <ul dir="auto">
 
-  <li>Previously only booted on debug consoles</li>
-
-  <li>Audio is disabled to fit within RAM limitations on retail consoles</li>
-
-  <li>Opening one of the pinball stages will cause a crash</li>
+  <li>The stage music does not play on retail consoles due to RAM limitations.</li>
 
   </ul>
 
   </li>
 
-  <li>18th Gate
+  <li>Artillery: Knights vs. Orcs</li>
+
+  <li>Astro</li>
+
+  <li>ATV Fever</li>
+
+  <li>ATV Quad Kings</li>
+
+  <li>Bird &amp; Beans
 
   <ul dir="auto">
 
-  <li>Exclusive to debug consoles</li>
+  <li>Only the Japanese version <em>Tori to Mame</em> boots.</li>
+
+  <li>TWL font is not displayed.</li>
 
   </ul>
 
   </li>
 
-  <li>1001 Crystal Mazes Collection
+  <li>Clubhouse Games Express: Card Classics</li>
+
+  <li>Clubhouse Games Express: Family Favorites</li>
+
+  <li>Clubhouse Games Express: Strategy Pack</li>
+
+  <li>Earth Saver: Inseki Bakuha Dai Sakuse</li>
+
+  <li>Globulos Party
 
   <ul dir="auto">
 
-  <li>Music is disabled to fit within RAM limitations on retail consoles</li>
+  <li>DS Download Play does not work on retail consoles due to RAM limitations.</li>
 
   </ul>
 
   </li>
 
-  <li>200 Vmaja: Charen Ji Supirittsu</li>
-
-  <li>24/7 Solitaire</li>
-
-  <li>3D Mahjong</li>
-
-  <li>3D Twist Match
+  <li>Music on: Acoustic Guitar
 
   <ul dir="auto">
 
-  <li>Does not save</li>
+  <li>Does not save.</li>
 
   </ul>
 
   </li>
 
-  <li>3 Punten Katou Itsu: Bakumatsu Kuizu He</li>
-
-  <li>3 Punten Katou Itsu: Higashi Nihon Sengoku Kuizu He</li>
-
-  <li>3 Punten Katou Itsu: Nishinihon Sengoku Kuizu He</li>
-
-  <li>3450 Algo</li>
-
-  <li>4 Elements</li>
-
-  <li>5 in 1 Mahjong</li>
-
-  <li>7 Card Games</li>
-
-  <li>7 Wonders II</li>
-
-  <li>90''s Pool
+  <li>Paper Airplane Chase
 
   <ul dir="auto">
 
-  <li>Audio is disabled to fit within RAM limitations on retail consoles</li>
+  <li>Only the Japanese version <em>Kami Hikouki</em> boots.</li>
 
-  </ul>
+  <li>Does not save.</li>
 
-  </li>
-
-  <li>Abyss</li>
-
-  <li>Animal Boxing
-
-  <ul dir="auto">
-
-  <li>Exclusive to debug consoles, but retail console users can still play the DS
-  version</li>
-
-  </ul>
-
-  </li>
-
-  <li>Around the World in 80 Days</li>
-
-  <li>Arrow of Laputa
-
-  <ul dir="auto">
-
-  <li>Audio is disabled to fit within RAM limitations on retail consoles</li>
-
-  </ul>
-
-  </li>
-
-  <li>Aru Seishun no Monogatari: Kouenji Joshi Sakka
-
-  <ul dir="auto">
-
-  <li>Requires Memory Expansion Pak to launch on retail consoles</li>
-
-  <li>FMVs are disabled on retail consoles</li>
-
-  </ul>
-
-  </li>
-
-  <li>Atama o Yoku Suru Anzan DS: Zou no Hana Fuusen</li>
-
-  <li>Ball Fighter</li>
-
-  <li>Boardwalk Ball Toss</li>
-
-  <li>Bookstore Dream</li>
-
-  <li>Boom Boom Squaries
-
-  <ul dir="auto">
-
-  <li>Does not save</li>
-
-  </ul>
-
-  </li>
-
-  <li>Bounce &amp; Break</li>
-
-  <li>Box Pusher</li>
-
-  <li>Dancing Academy</li>
-
-  <li>Deep Sea Creatures
-
-  <ul dir="auto">
-
-  <li>Exclusive to debug consoles</li>
-
-  </ul>
-
-  </li>
-
-  <li>Dekisugi Tingle Pack
-
-  <ul dir="auto">
-
-  <li>A crash will occur when exiting the Dance menu for an unknown reason</li>
-
-  </ul>
-
-  </li>
-
-  <li>Devil Band: Rock the Underworld
-
-  <ul dir="auto">
-
-  <li>Exclusive to debug consoles</li>
-
-  </ul>
-
-  </li>
-
-  <li>Divergent Shift</li>
-
-  <li>Furo Jump!! Girutegia Gaiden! (ARC Style)
-
-  <ul dir="auto">
-
-  <li>Exclusive to debug consoles</li>
-
-  </ul>
-
-  </li>
-
-  <li>Go! Go! Kokopolo
-
-  <ul dir="auto">
-
-  <li>Previously only booted on debug consoles</li>
-
-  </ul>
-
-  </li>
-
-  <li>Hachiwandaiba DS: Naru Zouku Ha Samishougi</li>
-
-  <li>Halloween Trick or Treat
-
-  <ul dir="auto">
-
-  <li>Music is disabled to fit within RAM limitations on retail consoles</li>
-
-  </ul>
-
-  </li>
-
-  <li>Handy Hockey</li>
-
-  <li>Handy Mahjong</li>
-
-  <li>Hearts Spades Euchre</li>
-
-  <li>Hell''s Kitchen VS</li>
-
-  <li>High Stakes Texas Hold''em</li>
-
-  <li>Hints Hunter</li>
-
-  <li>Legendary Wars: T-Rex Rumble</li>
-
-  <li>Metal Torrent
-
-  <ul dir="auto">
-
-  <li>Previously only booted on debug consoles</li>
-
-  <li>Music is disabled to fit within RAM limitations on retail consoles</li>
-
-  <li>The Japanese version has a weird bug where in menus, almost all of the bottom
-  screen is covered by a black rectangle. This does not occur during gameplay</li>
-
-  </ul>
-
-  </li>
-
-  <li>Spot the Difference
-
-  <ul dir="auto">
-
-  <li>Exclusive to debug consoles</li>
-
-  </ul>
-
-  </li>
-
-  <li>Touch Solitaire</li>
-
-  <li>Whack-A-Friend
-
-  <ul dir="auto">
-
-  <li>As the DSi Camera does not exist on DS or DS lite, the photo feature will redirect
-  you to gameplay</li>
+  <li>TWL font is not displayed.</li>
 
   </ul>
 
   </li>
 
   </ul>'
-updated: '2023-02-15T04:54:58Z'
-version: v0.70.0
-version_title: 'v0.70.0: I ❤️ DS⁽ⁱ⁾Ware'
+updated: '2023-01-24T03:11:33Z'
+version: v0.69.0
+version_title: v0.69.0
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
