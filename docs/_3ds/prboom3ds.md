@@ -16,54 +16,51 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/elhobbs/prboom3ds/releases/tag/v0.6-alpha
+  download_page: https://github.com/elhobbs/prboom3ds/releases/tag/v0.7-alpha
   downloads:
     prboom.wad:
       size: 283028
       size_str: 276 KiB
-      url: https://github.com/elhobbs/prboom3ds/releases/download/v0.6-alpha/prboom.wad
+      url: https://github.com/elhobbs/prboom3ds/releases/download/v0.7-alpha/prboom.wad
     prboom3ds.3dsx:
-      size: 970696
-      size_str: 947 KiB
-      url: https://github.com/elhobbs/prboom3ds/releases/download/v0.6-alpha/prboom3ds.3dsx
+      size: 955168
+      size_str: 932 KiB
+      url: https://github.com/elhobbs/prboom3ds/releases/download/v0.7-alpha/prboom3ds.3dsx
     prboom3ds.cia:
-      size: 984000
-      size_str: 960 KiB
-      url: https://github.com/elhobbs/prboom3ds/releases/download/v0.6-alpha/prboom3ds.cia
+      size: 1007040
+      size_str: 983 KiB
+      url: https://github.com/elhobbs/prboom3ds/releases/download/v0.7-alpha/prboom3ds.cia
   qr:
     prboom3ds.cia: https://db.universal-team.net/assets/images/qr/prerelease/prboom3ds-cia.png
-  update_notes: '<p dir="auto">install:<br>
+  update_notes: '<p dir="auto">enum fix, enable lto, 3d view change</p>
+
+    <p dir="auto">install:<br>
 
     put all files in /3ds/prboom3ds along with doom wad files (you need to get these
-    elsewhere)</p>
+    elsewhere)</p>'
+  update_notes_md: 'enum fix, enable lto, 3d view change
 
-    <p dir="auto">note - these are the same binaries as in the master branch - just
-    added here so they are easier to find.</p>'
-  update_notes_md: 'install:
+
+    install:
 
     put all files in /3ds/prboom3ds along with doom wad files (you need to get these
-    elsewhere)
-
-
-    note - these are the same binaries as in the master branch - just added here so
-    they are easier to find.'
-  updated: '2019-11-10T23:32:15Z'
-  version: v0.6-alpha
-  version_title: v0.6-alpha
+    elsewhere)'
+  updated: '2019-12-21T23:47:05Z'
+  version: v0.7-alpha
+  version_title: v0.7-alpha
 source: https://github.com/elhobbs/prboom3ds
 systems:
 - 3DS
 title: prboom3ds
 unique_ids:
 - '0xF0032'
-update_notes: '<p dir="auto">install:<br>
+update_notes: '<p dir="auto">enum fix, enable lto, 3d view change</p>
+
+  <p dir="auto">install:<br>
 
   put all files in /3ds/prboom3ds along with doom wad files (you need to get these
-  elsewhere)</p>
-
-  <p dir="auto">note - these are the same binaries as in the master branch - just
-  added here so they are easier to find.</p>'
-updated: '2019-11-10T23:32:15Z'
-version: v0.6-alpha
-version_title: v0.6-alpha
+  elsewhere)</p>'
+updated: '2019-12-21T23:47:05Z'
+version: v0.7-alpha
+version_title: v0.7-alpha
 ---
