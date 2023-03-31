@@ -294,8 +294,6 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </li>
 
-  <li>Fire Panic</li>
-
   <li>Flip the Core</li>
 
   <li>Flips: The Bubonic Builders</li>
@@ -311,6 +309,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   <li>Flips: Silent But Deadly</li>
 
   <li>Flips: Terror in Cubicle Four</li>
+
+  <li>Fire Panic</li>
 
   <li>Frenzic
 
