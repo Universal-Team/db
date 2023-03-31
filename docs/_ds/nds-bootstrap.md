@@ -59,7 +59,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <li>Scroll down to see which titles are now supported.</li>
 
-  <li>Click &gt;<a href="https://github.com/DS-Homebrew/TWiLightMenu/blob/6adc82f05a5e09ce2ecfda33be56a7ec77db4f36/universal/include/compatibleDSiWareMap.h">here</a>&lt;
+  <li>Click &gt;<a href="https://github.com/DS-Homebrew/TWiLightMenu/blob/3afc1f67c6fad5ab314d477a257e861e16aa6bfe/universal/include/compatibleDSiWareMap.h">here</a>&lt;
   for the full list of supported titles.</li>
 
   </ul>
@@ -123,6 +123,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   Pit.</li>
 
   <li>Fixed <em>Panewa!</em> not booting.</li>
+
+  <li>Fixed <em>Super Smash Bros. Crash</em> not switching between menus.</li>
 
   </ul>
 
