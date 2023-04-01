@@ -8,23 +8,7 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads:
-  TWiLightMenu-3DS.7z:
-    size: 32713181
-    size_str: 31 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.0/TWiLightMenu-3DS.7z
-  TWiLightMenu-DSi.7z:
-    size: 32766283
-    size_str: 31 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.0/TWiLightMenu-DSi.7z
-  TWiLightMenu-Flashcard.7z:
-    size: 43646203
-    size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.0/TWiLightMenu-Flashcard.7z
-  TWiLightMenu.7z:
-    size: 43848299
-    size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.0/TWiLightMenu.7z
+downloads: {}
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -49,10 +33,7 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.71.0">nds-bootstrap
-  v0.71.0</a></p>
-
-  <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
 
   <ul dir="auto">
@@ -68,100 +49,55 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <h3 dir="auto">What''s new?</h3>
 
-  <ul dir="auto">
+  <p dir="auto">You''ve asked, we listened, and we''ve finally implemented a feature
+  thought to be impossible!<br>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>:
-  Added AP-fix for <em>Pokémon: SoothingSilver Version</em> (v1.3.0)</li>
+  Previously, we''ve added support for running DSiWare on DS via nds-bootstrap, and
+  now, we''ve added support for running 3DS games on DSi, via 3ds-bootstrap!</p>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>:
-  Added AP-fix for <em>Pokemon: StormSilver Version</em> (v1.10)</li>
+  <p dir="auto">Please note that 3ds-bootstrap is not available separately, and is
+  in a beta state, so very few games are known to work.<br>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/icup321/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/icup321">@icup321</a>:
-  Added <em>Rayman Raving Rabbids</em> widescreen patch (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2169"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2169/hovercard">#2169</a>)</li>
+  Because we can''t do all the testing ourselves, we ask you, our community, to test
+  out any 3DS games you have and let us know if they boot or not, in order for us
+  to make any improvements!<br>
 
-  <li>To recreate the look and feel more closely, the DSi &amp; 3DS themes now fade
-  in after loading the current page of games.</li>
+  Remember to enable <code class="notranslate">Logging</code> in the nds-bootstrap
+  page of TWiLight Menu++ Settings, so we get a better idea of how to improve things!</p>
 
-  <li>Increased file/folder limit from 320 to 512 (Flashcard) or 1024 (DSi/3DS).</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/PW5190/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/PW5190">@PW5190</a>:
-  Added ESRB Ratings for more DS games (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2175"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2175/hovercard">#2175</a>)</li>
-
-  <li>Changed the <code class="notranslate">Use nds-bootstrap</code> setting to <code
-  class="notranslate">Game Loader</code> on flashcards.
+  <p dir="auto">Some games that are known to work are:</p>
 
   <ul dir="auto">
 
-  <li>Default setting is <code class="notranslate">nds-bootstrap</code>.</li>
+  <li>HarmoKnight</li>
+
+  <li>The Legend of Zelda: Ocarina of Time 3D</li>
+
+  <li>Luigi''s Mansion: Dark Moon</li>
+
+  <li>Mario &amp; Luigi: Superstar Saga + Bowser''s Minions</li>
+
+  <li>Mighty Switch Force</li>
+
+  <li>New Super Mario Bros. 2</li>
+
+  <li>Pokemon Rumble Blast</li>
+
+  <li>Super Mario 3D Land (pictured on the right)</li>
+
+  <li>Style Savvy: Trendsetters</li>
+
+  <li>Style Savvy: Styling Star (pictured on the left)</li>
 
   </ul>
 
-  </li>
-
-  </ul>
-
-  <h3 dir="auto">Improvement</h3>
-
-  <ul dir="auto">
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  and various: Updated translations.</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
-
-  <ul dir="auto">
-
-  <li>To prevent some weird issues, TWLMenu++ no longer boots with a write-locked
-  SD card.</li>
-
-  <li>argv is no longer passed to <code class="notranslate">Unlaunch.dsi</code>, in
-  hopes of fixing the bug where it doesn''t boot for certain users.</li>
-
-  <li>Fixed <code class="notranslate">sd:/hiya.dsi</code> not being detected, for
-  when trying to open System Settings or the DSi Menu.</li>
-
-  <li>Fixed DSiWare launched from flashcard not booting via nds-bootstrap when copied
-  to a temp location on the SD card.</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DieGo367/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DieGo367">@DieGo367</a>:
-  Fixed custom icons/banners on argv files (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2166"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2166/hovercard">#2166</a>,
-  <a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2167" data-hovercard-type="pull_request"
-  data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2167/hovercard">#2167</a>)</li>
-
-  <li>Fixed a long-standing bug where launching Pictochat or DLP using the DS Classic
-  Menu doesn''t work sometimes.</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DieGo367/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DieGo367">@DieGo367</a>:
-  Added bounds checks for datetime/username font draws (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2173"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2173/hovercard">#2173</a>)</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DieGo367/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DieGo367">@DieGo367</a>:
-  Fixed font-related crash (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2163"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2163/hovercard">#2163</a>)</li>
-
-  <li>If an invalid user/favorite color is detected in the FW chip, it now defaults
-  to gray (or red for the TWLMenu++ splash screen).</li>
-
-  <li>Switched back to the FastVideoDSPlayer build with TWL WRAM check to allow video
-  playback when using Memory Pit.</li>
-
-  </ul>'
-updated: '2023-03-31T02:27:20Z'
-version: v25.9.0
-version_title: v25.9.0
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/cc16db343a03eb3221e43394cb090dbb9903a9e5037646bab96329b2ad5aa8d9/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3238333737323336373838333436383830312f313039313438383636373138363439393735342f494d475f32303233303333315f3135353932365f3537362e6a7067"><img
+  src="https://camo.githubusercontent.com/cc16db343a03eb3221e43394cb090dbb9903a9e5037646bab96329b2ad5aa8d9/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3238333737323336373838333436383830312f313039313438383636373138363439393735342f494d475f32303233303333315f3135353932365f3537362e6a7067"
+  alt="image" data-canonical-src="https://cdn.discordapp.com/attachments/283772367883468801/1091488667186499754/IMG_20230331_155926_576.jpg"
+  style="max-width: 100%;"></a></p>'
+updated: '2023-04-01T09:15:54Z'
+version: v25.9.1
+version_title: 3DS on DSi, at last!
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
