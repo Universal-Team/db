@@ -113,7 +113,7 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
   style="max-width: 100%;"></a></p>'
 updated: '2023-04-01T09:15:54Z'
 version: v25.9.1
-version_title: 3DS on DSi, at last!
+version_title: 'April Fools release: 3DS on DSi, at last!'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
