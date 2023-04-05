@@ -31,7 +31,7 @@ website: https://pretendo.network/
 ---
 ## Usage
 
-1. Install the [Luma3DS 3GX plugin loader](https://github.com/Nanquitas/Luma3DS/releases/latest).
+1. Install the [Luma3DS 3GX plugin loader](https://github.com/PabloMK7/Luma3DS_3GX/releases/latest).
 2. Navigate to **luma/plugins** and copy the **.3gx** file as **default.3gx** to load it for all game or place it inside a folder with the game *titleID* you want to use.
 3. Open the Rosalina menu and enable the plugin loader.
 4. Launch the game to dump traffic from. The screen should flash blue and some text will display on the screen. If it says **Not Ready**, it means this game is not compatible. If it says **Ready**, you can go online to dump the traffic.
