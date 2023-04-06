@@ -74,6 +74,7 @@ update_notes: '<h4 dir="auto">Changes</h4>
 updated: '2023-03-13T12:25:52Z'
 version: v1.5.3
 version_title: Video player for 3DS v1.5.3
+website: https://gbatemp.net/threads/release-video-player-for-3ds.586094
 ---
 You can play .mp4 file on your 3DS!
 
