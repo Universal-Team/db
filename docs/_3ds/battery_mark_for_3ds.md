@@ -6,7 +6,7 @@ categories:
 color: '#3f4340'
 color_bg: '#3f4340'
 created: '2018-12-14T14:57:08Z'
-description: Check your 3DS battery
+description: Benchmark your 3DS battery
 download_page: https://github.com/Core-2-Extreme/Battery_mark_for_3DS/releases
 downloads:
   Battery_mark_for_3DS.3dsx:
@@ -64,4 +64,5 @@ update_notes: '<ul dir="auto">
 updated: '2022-03-08T04:56:36Z'
 version: v2.1.0
 version_title: Battery mark for 3DS v2.1
+website: https://gbatemp.net/threads/release-battery-mark-v2.581951/
 ---
