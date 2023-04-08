@@ -4944,7 +4944,7 @@
 					"type": "downloadRelease",
 					"repo": "Epicpkmn11/WordleDS",
 					"file": "WordleDS.cia",
-					"output": "%NDS%/WordleDS.cia"
+					"output": "/WordleDS.cia"
 				},
 				{
 					"type": "downloadFile",
