@@ -11,10 +11,10 @@ created: '2021-05-15T18:53:42Z'
 description: '"Firmware personalizado" para (N)3DS a prueba de novatos'
 download_page: https://github.com/LopezTutoriales/Luma3DS-Spanish/releases
 downloads:
-  Luma3DSv12.0.1.zip:
+  Luma3DSv12.0.1_ESP.zip:
     size: 405956
     size_str: 396 KiB
-    url: https://github.com/LopezTutoriales/Luma3DS-Spanish/releases/download/v12.0.1/Luma3DSv12.0.1.zip
+    url: https://github.com/LopezTutoriales/Luma3DS-Spanish/releases/download/v12.0.1/Luma3DSv12.0.1_ESP.zip
 github: LopezTutoriales/Luma3DS-Spanish
 image: https://avatars.githubusercontent.com/u/5817696?v=4&size=128
 image_length: 26161
