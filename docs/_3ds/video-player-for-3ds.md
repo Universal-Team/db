@@ -10,13 +10,13 @@ description: You can play .mp4 file on your 3DS!
 download_page: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases
 downloads:
   Video_player_for_3DS.3dsx:
-    size: 12440432
-    size_str: 11 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.5.3/Video_player_for_3DS.3dsx
+    size: 8051104
+    size_str: 7 MiB
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.5.2/Video_player_for_3DS.3dsx
   Video_player_for_3DS.cia:
-    size: 9724864
-    size_str: 9 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.5.3/Video_player_for_3DS.cia
+    size: 5551040
+    size_str: 5 MiB
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.5.2/Video_player_for_3DS.cia
 github: Core-2-Extreme/Video_player_for_3DS
 icon: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/banner.png
@@ -35,27 +35,19 @@ unique_ids:
 - '0xEC600'
 update_notes: '<h4 dir="auto">Changes</h4>
 
-  <p dir="auto">Audio files more than 2ch (e.g. 2.1ch) has been supported. <br>
+  <p dir="auto">Ignore unsupported codec so that you can play supported codec only<br>
 
-  Many pixel formats have been supported, however, YUV420P is recommended for performance
-  reason. <br>
-
-  Ryukyuan(琉球諸語) translation has been added (by kuragehimekurara1). <br>
-
-  Auto mode for top screen mode has been added, when this is enabled (settings -&gt;
-  LCD -&gt; screen mode -&gt; auto) you can just use 3d slider to change between 3D
-  &lt;-&gt; 800px mode. <br>
-
-  Simplified Chinese(简体中文) translation has been updated.</p>
+  (e.g. You can now play videos that contain unsupported subtitles/audio)</p>
 
   <h4 dir="auto">Fixed bugs</h4>
 
-  <p dir="auto">Many problems with seek function including backward seeking has been
-  fixed. <br>
+  <p dir="auto">Hardware decoder won''t play videos that contain B-frames smoothly
+  has been fixed<br>
 
-  Problem that it won''t enter sleep mode in some case has been fixed. <br>
+  (It means you don''t have to care about B-frames when encoding to H.264 videos)</p>
 
-  Problem that h263p video is not played correctly in some resolution has been fixed.</p>
+  <h4 dir="auto">On NEW 3(2)DS, it is recommended to use <a href="https://github.com/Core-2-Extreme/Luma3DS/releases/">patched
+  Luma3DS</a> for better performance.</h4>
 
   <h3 dir="auto"><a href="https://discord.gg/MMsAXvetpR" rel="nofollow">Discord channnel</a></h3>
 
@@ -71,9 +63,9 @@ update_notes: '<h4 dir="auto">Changes</h4>
   <li>LTC : MKTD3U2vCMi7S7Jb1EQ2FiS4AdHC23PxJh</li>
 
   </ul>'
-updated: '2023-03-13T12:25:52Z'
-version: v1.5.3
-version_title: Video player for 3DS v1.5.3
+updated: '2022-09-21T14:54:46Z'
+version: v1.5.2
+version_title: Video player for 3DS v1.5.2
 website: https://gbatemp.net/threads/release-video-player-for-3ds.586094
 ---
 You can play .mp4 file on your 3DS!
