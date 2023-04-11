@@ -146,16 +146,20 @@ version_title: Wi-Fi strength indicator and other minor improvements
 website: https://universal-team.net/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
-Universal-Updater is a homebrew application for the Nintendo 3DS with the intention to make downloading other homebrew simple and easy. No need to manually copy files or go through installation processes, as we do that for you.
+Universal-Updater is a homebrew application for the Nintendo 3DS with the intention to make downloading other homebrew simple and easy. No need to manually copy files or go through installation processes, as it does that all for you.
 
-Its features include:
+### Features
 - A store format with a concept similar to the Cydia Repositories
    - The default is [Universal-DB](https://db.universal-team.net)
-   - Want to add your own? Go to settings, find "Select Unistore", hit the + icon and type the URL or hit the QR button and scan the QR code (if they have one)
+   - Want to add more? Go to settings, choose "Select Unistore", click the + icon and select one from the list, enter a URL, or scan a QR code
 - Customization in sorting and display
-   - Sort by Title, Author, or Last Updated
+   - Several sorting keys: "Title", "Author", and "Last Updated"
    - Direction can be Ascending or Descending
-   - App display can be shown in either a Grid or Rows
+   - App display can be shown in either a grid or rows
+- Background installation so you can keep using the rest of the app while installing
+- Searching and markings to make finding apps easy
+- Viewing screenshots and release notes for apps
+- Shortcuts for easily updating frequently updated apps when using the Homebrew Launcher
 - Translations for users of many languages
-   - To contribute to translations, join our [Crowdin](https://crwd.in/universal-updater)
-   - Request a new language on our [Discord Server](https://universal-team.net/discord)
+   - To contribute to translations, join our [Crowdin project](https://crwd.in/universal-updater)
+   - To request a new language, join our [Discord Server](https://universal-team.net/discord) or contact a project manager on Crowdin
