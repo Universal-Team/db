@@ -1,5 +1,5 @@
 ---
-author: Frocat64
+author: Frocat
 avatar: https://avatars.githubusercontent.com/u/65976911?v=4
 categories:
 - utility
