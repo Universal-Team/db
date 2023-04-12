@@ -1,5 +1,5 @@
 ---
-author: Manu
+author: Manuel Rodríguez Matesanz
 autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/17181899?v=4
 categories:
