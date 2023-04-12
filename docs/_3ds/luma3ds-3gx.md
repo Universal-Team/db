@@ -12,9 +12,9 @@ description: Noob-proof (N)3DS "Custom Firmware" (3GX Branch)
 download_page: https://github.com/PabloMK7/Luma3DS_3GX/releases
 downloads:
   boot.firm:
-    size: 277504
-    size_str: 271 KiB
-    url: https://github.com/PabloMK7/Luma3DS_3GX/releases/download/v12.0/boot.firm
+    size: 279040
+    size_str: 272 KiB
+    url: https://github.com/PabloMK7/Luma3DS_3GX/releases/download/v12.0.1/boot.firm
 github: PabloMK7/Luma3DS_3GX
 image: https://avatars.githubusercontent.com/u/10946643?v=4&size=128
 image_length: 26281
@@ -63,7 +63,7 @@ update_notes: '<h1 dir="auto">About 3GX plugins</h1>
   a menu easily.<br>
 
   An example is available <a href="https://github.com/Nanquitas/Luma3DS-Plugin-sample">here</a>.</p>'
-updated: '2023-04-04T20:52:48Z'
-version: v12.0
-version_title: Luma3DS 3GX Loader v12.0
+updated: '2023-04-12T18:36:36Z'
+version: v12.0.1
+version_title: Luma3DS 3GX Loader v12.0.1
 ---
