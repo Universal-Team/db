@@ -1,5 +1,5 @@
 ---
-author: TurtleP
+author: Serena Postelnek
 avatar: https://avatars.githubusercontent.com/u/6239208?v=4
 categories:
 - game
