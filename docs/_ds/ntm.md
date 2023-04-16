@@ -10,9 +10,9 @@ description: NAND Title Manager for DSi
 download_page: https://github.com/Epicpkmn11/NTM/releases
 downloads:
   NTM.dsi:
-    size: 257024
-    size_str: 251 KiB
-    url: https://github.com/Epicpkmn11/NTM/releases/download/v0.1.7/NTM.dsi
+    size: 242688
+    size_str: 237 KiB
+    url: https://github.com/Epicpkmn11/NTM/releases/download/v0.2.0/NTM.dsi
 github: Epicpkmn11/NTM
 icon: https://db.universal-team.net/assets/images/icons/ntm.png
 image: https://db.universal-team.net/assets/images/icons/ntm.png
@@ -43,39 +43,19 @@ update_notes: '<table role="table">
 
   </table>
 
-  <h3 dir="auto">What''s new?</h3>
+  <p dir="auto">This version fixes a critical bug in the free space calculation that
+  I''m near certain is responsible for both bricks NTM has caused, I feel absolutely
+  awful about missing this. Typo''d and missed <a href="https://github.com/Epicpkmn11/NTM/commit/b56deb2a59193952f17477a8a2ff0ce72f618bda">one
+  "+"</a> causing the app size calculation to be completely broken and somehow didn''t
+  notice in my testing.</p>
 
-  <ul dir="auto">
-
-  <li>Unlaunch is now <strong>required</strong> to use NTM
-
-  <ul dir="auto">
-
-  <li>There have been two bricks because of NTM and I no longer feel comfortable recommending
-  this tool without Unlaunch</li>
-
-  <li>There are also now zero downsides to Unlaunch thanks to TWiLight Menu++''s new
-  launcher patches that keep all the good patches while also keeping the splash screen
-  and menu sounds</li>
-
-  <li>I have pulled all previous releases, due to git history you can still build
-  them if you need but please, for the love of all things good, do not distribute
-  them under any circumstances</li>
-
-  </ul>
-
-  </li>
-
-  </ul>
-
-  <p dir="auto"><strong>NOTE</strong>: This release was hotfixed with commit <a class="commit-link"
-  data-hovercard-type="commit" data-hovercard-url="https://github.com/Epicpkmn11/NTM/commit/7ca8bd1a7c994cd4a8bd30cd40142515f590a2ce/hovercard"
-  href="https://github.com/Epicpkmn11/NTM/commit/7ca8bd1a7c994cd4a8bd30cd40142515f590a2ce"><tt>7ca8bd1</tt></a>
-  to still allow fixing the FAT copy mismatch when Unlaunch is not installed, since
-  that is required to install Unlaunch</p>'
-updated: '2023-03-12T02:31:24Z'
-version: v0.1.7
-version_title: Unlaunch required
+  <p dir="auto">If you have NTM please update immediately and delete any old versions,
+  Unlaunch is still required in this release however if we can go a long while with
+  zero reports of issues I <em>MIGHT</em> re-enable non-Unlaunch support in release
+  builds.</p>'
+updated: '2023-04-16T17:03:54Z'
+version: v0.2.0
+version_title: Hopefully safe
 wiki: https://github.com/Epicpkmn11/NTM/wiki
 ---
 NAND Title Manager, NTM for short, is an application for the Nintendo DSi that allows you to manage titles on your NAND. It can manage titles on both [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/)'s SDNAND and your actual internal memory, typically called SysNAND. **When using in SysNAND mode please use with caution**.
