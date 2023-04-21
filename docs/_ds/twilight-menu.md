@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 33190480
+    size: 33193255
     size_str: 31 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.3/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.4/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 33243049
+    size: 33242358
     size_str: 31 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.3/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.4/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 44118790
+    size: 44119422
     size_str: 42 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.3/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.4/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 44324421
+    size: 44325573
     size_str: 42 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.3/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.4/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -67,7 +67,8 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <ul dir="auto">
 
-  <li>Fixed an overlooked bug which made games not start.
+  <li><strong>Now applies to DS Classic Menu as well:</strong> Fixed an overlooked
+  bug which made games not start.
 
   <ul dir="auto">
 
@@ -79,9 +80,9 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
   </li>
 
   </ul>'
-updated: '2023-04-21T04:36:08Z'
-version: v25.9.3
-version_title: v25.9.3 (hotfix)
+updated: '2023-04-21T05:49:41Z'
+version: v25.9.4
+version_title: 'v25.9.4 (hotfix #2)'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
