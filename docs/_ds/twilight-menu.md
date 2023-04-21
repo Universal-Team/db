@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 33193537
+    size: 33190480
     size_str: 31 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.2/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.3/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 33244630
+    size: 33243049
     size_str: 31 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.2/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.3/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 44122483
+    size: 44118790
     size_str: 42 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.2/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.3/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 44321148
+    size: 44324421
     size_str: 42 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.2/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.3/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -49,10 +49,7 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.71.1">nds-bootstrap
-  v0.71.1</a></p>
-
-  <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
 
   <ul dir="auto">
@@ -66,21 +63,25 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <h3 dir="auto">Bug fixes</h3>
+  <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>Fixed white screen appearing on the top screen, if music is turned off.</li>
+  <li>Fixed an overlooked bug which made games not start.
 
-  <li>Fixed text flickering in TWLMenu++ Settings with Memory Expansion Pak inserted.</li>
+  <ul dir="auto">
 
-  <li>Changed <code class="notranslate">Use nds-bootstrap</code> to <code class="notranslate">Game
-  Loader</code> in the per-game settings menu to reflect the change in TWLMenu++ Settings.</li>
+  <li>For DS(i) games, nds-bootstrap would either display error code -2 or white screens
+  after launching a game.</li>
+
+  </ul>
+
+  </li>
 
   </ul>'
-updated: '2023-04-21T00:26:14Z'
-version: v25.9.2
-version_title: v25.9.2
+updated: '2023-04-21T04:36:08Z'
+version: v25.9.3
+version_title: v25.9.3 (hotfix)
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
