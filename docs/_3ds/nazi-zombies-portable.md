@@ -17,7 +17,6 @@ downloads:
 github: nzp-team/nzportable
 icon: https://raw.githubusercontent.com/nzp-team/glquake/main/icon.png
 image: https://raw.githubusercontent.com/nzp-team/glquake/main/banner.png
-image_length: 66499
 layout: app
 screenshots:
 - description: Gameplay 1
