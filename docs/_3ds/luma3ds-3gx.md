@@ -12,8 +12,8 @@ description: Noob-proof (N)3DS "Custom Firmware" (3GX Branch)
 download_page: https://github.com/PabloMK7/Luma3DS_3GX/releases
 downloads:
   boot.firm:
-    size: 279040
-    size_str: 272 KiB
+    size: 279552
+    size_str: 273 KiB
     url: https://github.com/PabloMK7/Luma3DS_3GX/releases/download/v12.0.1/boot.firm
 github: PabloMK7/Luma3DS_3GX
 image: https://avatars.githubusercontent.com/u/10946643?v=4&size=128
