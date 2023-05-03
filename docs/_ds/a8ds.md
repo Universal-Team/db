@@ -21,7 +21,7 @@ downloads:
 github: wavemotion-dave/XEGS-DS
 icon: https://db.universal-team.net/assets/images/icons/a8ds.png
 image: https://raw.githubusercontent.com/wavemotion-dave/XEGS-DS/main/arm9/gfx/bgTop.png
-image_length: 25244
+image_length: 25474
 layout: app
 qr:
   XEGS-DS.nds: https://db.universal-team.net/assets/images/qr/xegs-ds-nds.png
