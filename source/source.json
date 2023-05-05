@@ -4059,11 +4059,11 @@
 		"image": "https://raw.githubusercontent.com/wavemotion-dave/A5200DS/main/arm9/gfx/bgTop.png"
 	},
 	{
-		"github": "wavemotion-dave/XEGS-DS",
+		"github": "wavemotion-dave/A8DS",
 		"systems": ["DS"],
 		"categories": ["emulator"],
-		"icon": "https://raw.githubusercontent.com/wavemotion-dave/XEGS-DS/main/logo.bmp",
-		"image": "https://raw.githubusercontent.com/wavemotion-dave/XEGS-DS/main/arm9/gfx/bgTop.png"
+		"icon": "https://raw.githubusercontent.com/wavemotion-dave/A8DS/main/logo.bmp",
+		"image": "https://raw.githubusercontent.com/wavemotion-dave/A8DS/main/arm9/gfx/bgTop.png"
 	},
 	{
 		"github": "ihaveamac/faketik",
