@@ -10,29 +10,34 @@ description: A8DS An Atari 8-bit Computer Emulator includes virtually anything t
   Atari 8-bit computers can run.
 download_page: https://github.com/wavemotion-dave/XEGS-DS/releases
 downloads:
-  XEGS-DS.nds:
-    size: 572928
-    size_str: 559 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/2.9/XEGS-DS.nds
-  readme.txt:
-    size: 15133
+  A8DS.nds:
+    size: 595968
+    size_str: 582 KiB
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.0/A8DS.nds
+  readme.md:
+    size: 15149
     size_str: 14 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/2.9/readme.txt
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.0/readme.md
 github: wavemotion-dave/XEGS-DS
 icon: https://db.universal-team.net/assets/images/icons/a8ds.png
 image: https://raw.githubusercontent.com/wavemotion-dave/XEGS-DS/main/arm9/gfx/bgTop.png
 image_length: 36018
 layout: app
 qr:
-  XEGS-DS.nds: https://db.universal-team.net/assets/images/qr/xegs-ds-nds.png
+  A8DS.nds: https://db.universal-team.net/assets/images/qr/a8ds-nds.png
 source: https://github.com/wavemotion-dave/A8DS
 systems:
 - DS
 title: A8DS
-update_notes: <p>Version 2.9 - Reverted to Arm7 SoundLib core after discovering some
-  missing sounds on games that need fast in-scanline sampling (voices in Berzerk,
-  Bosconian and some other melodic sounds that suffered with the new handler).</p>
-updated: '2021-12-12T23:04:53Z'
-version: '2.9'
-version_title: Version 2.9
+update_notes: '<p>V3.0 : 05-May-2023 by wavemotion-dave</p>
+
+  <ul>
+
+  <li>Rebranding to A8DS with new 800XL stylized keyboard and minor cleanups across
+  the board.</li>
+
+  </ul>'
+updated: '2023-05-05T11:15:30Z'
+version: '3.0'
+version_title: Version 3.0
 ---
