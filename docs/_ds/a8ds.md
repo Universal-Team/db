@@ -8,7 +8,7 @@ color_bg: '#6c616b'
 created: '2021-01-31T00:11:41Z'
 description: A8DS An Atari 8-bit Computer Emulator includes virtually anything the
   Atari 8-bit computers can run.
-download_page: https://github.com/wavemotion-dave/XEGS-DS/releases
+download_page: https://github.com/wavemotion-dave/A8DS/releases
 downloads:
   A8DS.nds:
     size: 595968
@@ -18,9 +18,9 @@ downloads:
     size: 15149
     size_str: 14 KiB
     url: https://github.com/wavemotion-dave/A8DS/releases/download/3.0/readme.md
-github: wavemotion-dave/XEGS-DS
+github: wavemotion-dave/A8DS
 icon: https://db.universal-team.net/assets/images/icons/a8ds.png
-image: https://raw.githubusercontent.com/wavemotion-dave/XEGS-DS/main/arm9/gfx/bgTop.png
+image: https://raw.githubusercontent.com/wavemotion-dave/A8DS/main/arm9/gfx/bgTop.png
 image_length: 36018
 layout: app
 qr:
@@ -29,9 +29,9 @@ source: https://github.com/wavemotion-dave/A8DS
 systems:
 - DS
 title: A8DS
-update_notes: '<p>V3.0 : 05-May-2023 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V3.0 : 05-May-2023 by wavemotion-dave</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Rebranding to A8DS with new 800XL stylized keyboard and minor cleanups across
   the board.</li>
