@@ -63,6 +63,6 @@ update_notes: '<ul dir="auto">
   </ul>'
 updated: '2022-03-08T04:56:36Z'
 version: v2.1.0
-version_title: Battery mark for 3DS v2.1
+version_title: Battery mark for 3DS v2.1.0
 website: https://gbatemp.net/threads/release-battery-mark-v2.581951/
 ---
