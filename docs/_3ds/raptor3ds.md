@@ -38,7 +38,9 @@ update_notes: '<p dir="auto">Update to libctru v2.2.0.<br>
 
   Switch over to DBOPL for Audio.<br>
 
-  Up Audio Sample rate slightly.</p>'
+  Up Audio Sample rate slightly.</p>
+
+  <p dir="auto">Edit: Add early Raptor-Xbox Beta.</p>'
 updated: '2023-05-05T18:54:49Z'
 version: 1.0.4
 version_title: DBOPL Audio Update
