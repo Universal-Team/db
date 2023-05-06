@@ -11,10 +11,10 @@ description: Raptor Call Of The Shadows Console Ports from Reversed-engineered s
 download_filter: 3DS
 download_page: https://github.com/RetroGamer02/raptor-consoles/releases
 downloads:
-  Raptor3DS.V1.0.3.zip:
-    size: 4142955
-    size_str: 3 MiB
-    url: https://github.com/RetroGamer02/raptor-consoles/releases/download/1.0.3/Raptor3DS.V1.0.3.zip
+  Raptor3DS.V1.0.4.zip:
+    size: 14333452
+    size_str: 13 MiB
+    url: https://github.com/RetroGamer02/raptor-consoles/releases/download/1.0.4/Raptor3DS.V1.0.4.zip
 github: RetroGamer02/raptor-consoles
 icon: https://raw.githubusercontent.com/RetroGamer02/raptor3ds/master/rapicon.png
 image: https://raw.githubusercontent.com/RetroGamer02/raptor3ds/master/RapBanner.png
@@ -34,22 +34,13 @@ source: https://github.com/RetroGamer02/raptor-consoles
 systems:
 - 3DS
 title: Raptor3DS
-update_notes: '<p dir="auto">Rebased Raptor3DS to the Current Source code by Skynettx.<br>
+update_notes: '<p dir="auto">Update to libctru v2.2.0.<br>
 
-  In the process I redid some things better than I did the first time and fixed a
-  few issues.</p>
+  Switch over to DBOPL for Audio.<br>
 
-  <p dir="auto">Can now skip all parts of the intro.<br>
-
-  Entering shop responds to button press properly.<br>
-
-  Fixed a crash when using right trigger on callsign entry field.</p>
-
-  <p dir="auto">In general code should run better and be more readable.<br>
-
-  Special thanks to Skynettx for their continued work on the Raptor Source code!</p>'
-updated: '2023-03-09T02:35:20Z'
-version: 1.0.3
-version_title: Rebase
+  Up Audio Sample rate slightly.</p>'
+updated: '2023-05-05T18:54:49Z'
+version: 1.0.4
+version_title: DBOPL Audio Update
 ---
 Reversed-engineered source port from Raptor Call Of The Shadows ported to the Nintendo 3DS.
