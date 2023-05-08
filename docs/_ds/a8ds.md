@@ -6,8 +6,8 @@ categories:
 color: '#6c616b'
 color_bg: '#6c616b'
 created: '2021-01-31T00:11:41Z'
-description: A8DS An Atari 8-bit Computer Emulator includes virtually anything the
-  Atari 8-bit computers can run.
+description: A8DS An Atari 8-bit Computer Emulator for the Nintendo DS/DSi and includes
+  virtually anything the Atari 8-bit computers can run.
 download_page: https://github.com/wavemotion-dave/A8DS/releases
 downloads:
   A8DS.nds:
