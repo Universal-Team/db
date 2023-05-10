@@ -49,7 +49,37 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: "{\n  \"message\": \"Server Error\"\n}\n"
+update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+  Menu++:</p>
+
+  <ul dir="auto">
+
+  <li><a href="https://wiki.ds-homebrew.com/twilightmenu/updating-flashcard.html"
+  rel="nofollow">Flashcard</a></li>
+
+  <li><a href="https://wiki.ds-homebrew.com/twilightmenu/updating-dsi.html" rel="nofollow">DSi</a></li>
+
+  <li><a href="https://wiki.ds-homebrew.com/twilightmenu/updating-3ds.html" rel="nofollow">3DS</a></li>
+
+  </ul>
+
+  <h3 dir="auto">Bug fix</h3>
+
+  <ul dir="auto">
+
+  <li><strong>Now applies to DS Classic Menu as well:</strong> Fixed an overlooked
+  bug which made games not start.
+
+  <ul dir="auto">
+
+  <li>For DS(i) games, nds-bootstrap would either display error code -2 or white screens
+  after launching a game.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>'
 updated: '2023-04-21T05:49:41Z'
 version: v25.9.4
 version_title: 'v25.9.4 (hotfix #2)'
