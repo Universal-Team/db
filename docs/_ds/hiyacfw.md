@@ -30,28 +30,7 @@ systems:
 - DS
 title: hiyaCFW
 unistore_exclude: true
-update_notes: '<p>To update, just replace <code class="notranslate">hiya.dsi</code>
-  on the SD root, with the one from the 7z file, in <code class="notranslate">for
-  SDNAND SD card</code>.</p>
-
-  <p>Changes by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a></p>
-
-  <h3>Improvement</h3>
-
-  <ul>
-
-  <li>Improved GIF compatibility.</li>
-
-  </ul>
-
-  <h3>Bug fix</h3>
-
-  <ul>
-
-  <li>Fixed free space under 20MiB causing data management to appear.</li>
-
-  </ul>'
+update_notes: "{\n  \"message\": \"Server Error\"\n}\n"
 updated: '2022-08-26T17:32:17Z'
 version: v1.4.1
 version_title: v1.4.1
