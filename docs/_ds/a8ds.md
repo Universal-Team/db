@@ -14,15 +14,21 @@ downloads:
     size: 585728
     size_str: 572 KiB
     url: https://github.com/wavemotion-dave/A8DS/releases/download/3.1/A8DS.nds
+  Copying:
+    size: 18092
+    size_str: 17 KiB
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.1/Copying
   readme.md:
-    size: 20086
-    size_str: 19 KiB
+    size: 22115
+    size_str: 21 KiB
     url: https://github.com/wavemotion-dave/A8DS/releases/download/3.1/readme.md
 github: wavemotion-dave/A8DS
 icon: https://db.universal-team.net/assets/images/icons/a8ds.png
 image: https://raw.githubusercontent.com/wavemotion-dave/A8DS/main/arm9/gfx/bgTop.png
 image_length: 36018
 layout: app
+license: gpl-2.0
+license_name: GNU General Public License v2.0
 qr:
   A8DS.nds: https://db.universal-team.net/assets/images/qr/a8ds-nds.png
 source: https://github.com/wavemotion-dave/A8DS
