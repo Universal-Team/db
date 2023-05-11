@@ -44,7 +44,38 @@ systems:
 title: DaedalusX64-3DS
 unique_ids:
 - '0xDAED3'
-update_notes: "{\n  \"message\": \"Server Error\"\n}\n"
+update_notes: '<h1 dir="auto">Release v1.0</h1>
+
+  <ul dir="auto">
+
+  <li>Hardware fog rendering</li>
+
+  <li>Dynarec, renderer, and user interface improvements</li>
+
+  </ul>
+
+  <h2 dir="auto">Instructions:</h2>
+
+  <ol dir="auto">
+
+  <li>Download and extract the data.zip to the root of your sd card.</li>
+
+  <li>Place your ROM files in sdmc:/3ds/DaedalusX64/Roms/</li>
+
+  <li>Delete sdmc:/3ds/DaedalusX64/preferences.ini from older versions if present</li>
+
+  </ol>
+
+  <h2 dir="auto">Troubleshooting</h2>
+
+  <ul dir="auto">
+
+  <li>If the emulator freezes everytime you try to launch a game, make sure you are
+  using a recent version of Luma and have dumped your dsp firmware.</li>
+
+  <li>Delete sdmc:/3ds/DaedalusX64/preferences.ini from older versions if present</li>
+
+  </ul>'
 updated: '2022-10-16T21:47:42Z'
 version: v1.0
 version_title: v1.0
