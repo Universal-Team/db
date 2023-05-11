@@ -11,13 +11,13 @@ description: Save data copier between MK7 and CTGP-7
 download_page: https://github.com/CyberYoshi64/CTGP7-SaveTransfer/releases
 downloads:
   CTGP7SaveTransfer.3dsx:
-    size: 744008
-    size_str: 726 KiB
-    url: https://github.com/CyberYoshi64/CTGP7-SaveTransfer/releases/download/v0.4/CTGP7SaveTransfer.3dsx
+    size: 746316
+    size_str: 728 KiB
+    url: https://github.com/CyberYoshi64/CTGP7-SaveTransfer/releases/download/v0.4r1/CTGP7SaveTransfer.3dsx
   CTGP7SaveTransfer.cia:
     size: 1061824
     size_str: 1 MiB
-    url: https://github.com/CyberYoshi64/CTGP7-SaveTransfer/releases/download/v0.4/CTGP7SaveTransfer.cia
+    url: https://github.com/CyberYoshi64/CTGP7-SaveTransfer/releases/download/v0.4r1/CTGP7SaveTransfer.cia
 github: CyberYoshi64/CTGP7-SaveTransfer
 icon: https://raw.githubusercontent.com/CyberYoshi64/CTGP7-SaveTransfer/main/app/icon.png
 image: https://raw.githubusercontent.com/CyberYoshi64/CTGP7-SaveTransfer/main/app/banner.png
@@ -42,14 +42,12 @@ unique_ids:
 - '0x16902'
 update_notes: '<ul dir="auto">
 
-  <li>Ditched error applet to prevent Citra from crashing</li>
-
-  <li>Add safety guard regarding CT ghosts in vanilla MK7 data</li>
+  <li>Fix crashes when dspfirm.cdc is missing</li>
 
   </ul>'
-updated: '2023-01-01T01:06:44Z'
-version: v0.4
-version_title: v0.4
+updated: '2023-05-11T15:45:28Z'
+version: v0.4r1
+version_title: v0.4r1 - Sound Crash Fix
 ---
 This tool allows you to copy your save data between CTGP-7 and Mario Kart 7.
 Supported are Physical and Digital versions of all regions.
