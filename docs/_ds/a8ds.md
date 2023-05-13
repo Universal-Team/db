@@ -19,8 +19,8 @@ downloads:
     size_str: 17 KiB
     url: https://github.com/wavemotion-dave/A8DS/releases/download/3.2/Copying
   readme.md:
-    size: 22907
-    size_str: 22 KiB
+    size: 25301
+    size_str: 24 KiB
     url: https://github.com/wavemotion-dave/A8DS/releases/download/3.2/readme.md
 github: wavemotion-dave/A8DS
 icon: https://db.universal-team.net/assets/images/icons/a8ds.png
