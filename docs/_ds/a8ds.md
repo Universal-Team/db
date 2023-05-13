@@ -11,17 +11,17 @@ description: A8DS An Atari 8-bit Computer Emulator for the Nintendo DS/DSi and i
 download_page: https://github.com/wavemotion-dave/A8DS/releases
 downloads:
   A8DS.nds:
-    size: 585728
-    size_str: 572 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.1/A8DS.nds
+    size: 591360
+    size_str: 577 KiB
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.2/A8DS.nds
   Copying:
     size: 18092
     size_str: 17 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.1/Copying
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.2/Copying
   readme.md:
-    size: 22115
-    size_str: 21 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.1/readme.md
+    size: 22907
+    size_str: 22 KiB
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.2/readme.md
 github: wavemotion-dave/A8DS
 icon: https://db.universal-team.net/assets/images/icons/a8ds.png
 image: https://raw.githubusercontent.com/wavemotion-dave/A8DS/main/arm9/gfx/bgTop.png
@@ -35,28 +35,34 @@ source: https://github.com/wavemotion-dave/A8DS
 systems:
 - DS
 title: A8DS
-update_notes: '<p dir="auto">V3.1 : 08-May-2023 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V3.2 : 13-May-2023 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Added CAR and ROM support for the more popular cartridge types up to 1MB.</li>
+  <li>Enhanced configuration - unfortunately your old config save will be wiped to
+  make way for the new method.</li>
 
-  <li>Added new D-Pad options to support joystick 2 (for games like Wizard of Wor)
-  and diagonals (Q-Bert like games).</li>
+  <li>Global options - use the GEAR icon before a game is loaded and you can save
+  out defaults for newly loaded games.</li>
 
-  <li>Improved keyboard handling so CTRL key is now sticky.</li>
+  <li>Key maps - set any of the DS keys to map into various joystick, console buttons,
+  keyboard keys, etc.</li>
 
-  <li>Improved menu transitions to reduce audio ''pops'' as much as possible.</li>
+  <li>Screenshot capability - press and hold L+R for ~1 second to take a .bmp snapshot
+  (saved to a time-date.bmp file)</li>
 
-  <li>Auto-rename of XEGS-DS.DAT to A8DS.DAT to match new branding.</li>
+  <li>New Smooth Scroll handling so you can set your scale/offset and then map any
+  button to shift vertical/horizontal pixels (set keys to VERTICAL++, HORIZONTAL--,
+  etc). The game will automatically smooth-scroll back into place when you let go
+  of the pixel-shift button.</li>
 
-  <li>Squeezed as much into fast ITCM_CODE as possible with almost no bytes left to
-  spare.</li>
+  <li>Improved cart banking so that it''s as fast as normal memory swaps. This should
+  eliminate slowdown in Cart-based games.</li>
 
-  <li>Other cleanups and minor bug fixes as time allowed.</li>
+  <li>A few bug fixes as time permitted.</li>
 
   </ul>'
-updated: '2023-05-08T11:34:40Z'
-version: '3.1'
-version_title: Version 3.1
+updated: '2023-05-13T10:58:49Z'
+version: '3.2'
+version_title: Version 3.2
 ---
