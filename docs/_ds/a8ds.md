@@ -13,15 +13,15 @@ downloads:
   A8DS.nds:
     size: 591360
     size_str: 577 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.2/A8DS.nds
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.3/A8DS.nds
   Copying:
     size: 18092
     size_str: 17 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.2/Copying
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.3/Copying
   readme.md:
-    size: 25301
-    size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.2/readme.md
+    size: 26344
+    size_str: 25 KiB
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.3/readme.md
 github: wavemotion-dave/A8DS
 icon: https://db.universal-team.net/assets/images/icons/a8ds.png
 image: https://raw.githubusercontent.com/wavemotion-dave/A8DS/main/arm9/gfx/bgTop.png
@@ -35,34 +35,23 @@ source: https://github.com/wavemotion-dave/A8DS
 systems:
 - DS
 title: A8DS
-update_notes: '<p dir="auto">V3.2 : 13-May-2023 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V3.3 : 15-May-2023 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Enhanced configuration - unfortunately your old config save will be wiped to
-  make way for the new method.</li>
+  <li>Switched to CRC32 (from md5sum) to save space and now allow 2500 game settings
+  to be stored.</li>
 
-  <li>Global options - use the GEAR icon before a game is loaded and you can save
-  out defaults for newly loaded games.</li>
+  <li>Added additional cartridge banking schemes so more games run.</li>
 
-  <li>Key maps - set any of the DS keys to map into various joystick, console buttons,
-  keyboard keys, etc.</li>
+  <li>Added ability to change/save a cartridge type in settings.</li>
 
-  <li>Screenshot capability - press and hold L+R for ~1 second to take a .bmp snapshot
-  (saved to a time-date.bmp file)</li>
+  <li>Tweak of VERTICAL+ and VERTICAL- to offset by 16 pixels (was 10).</li>
 
-  <li>New Smooth Scroll handling so you can set your scale/offset and then map any
-  button to shift vertical/horizontal pixels (set keys to VERTICAL++, HORIZONTAL--,
-  etc). The game will automatically smooth-scroll back into place when you let go
-  of the pixel-shift button.</li>
-
-  <li>Improved cart banking so that it''s as fast as normal memory swaps. This should
-  eliminate slowdown in Cart-based games.</li>
-
-  <li>A few bug fixes as time permitted.</li>
+  <li>Reduced memory footprint to allow for better future expansion.</li>
 
   </ul>'
-updated: '2023-05-13T10:58:49Z'
-version: '3.2'
-version_title: Version 3.2
+updated: '2023-05-15T10:41:16Z'
+version: '3.3'
+version_title: Version 3.3
 ---
