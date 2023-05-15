@@ -4207,66 +4207,7 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/LiquidFenrir/CalculaThreeDS/main/icon.png",
 		"icon": "https://raw.githubusercontent.com/LiquidFenrir/CalculaThreeDS/main/icon.png"
-	},
-	{
-		"title": "Linux for 3DS",
-		"description": "Linux for 3DS - Default log in username: root password: toor",
-		"github": "linux-3ds/linux",
-		"systems": ["3DS"],
-		"categories": ["firm"],
-		"image": "https://github.com/linux-3ds.png",
-		"icon": "https://github.com/linux-3ds.png?size=48",
-		"website": "https://github.com/linux-3ds/",
-		"version": "9c6f996",
-		"version_title": "Development build 9c6f996",
-		"scripts": {
-			"zImage": [
-				{
-					"type": "downloadRelease",
-					"repo": "linux-3ds/linux",
-					"file": "zImage",
-					"output": "/linux/zImage",
-					"includePrereleases": true
-				}
-			],
-			"nintendo3ds_ctr.dtb": [
-				{
-					"type": "downloadRelease",
-					"repo": "linux-3ds/linux",
-					"file": "nintendo3ds_ctr.dtb",
-					"output": "/linux/nintendo3ds_ctr.dtb",
-					"includePrereleases": true
-				}
-			],
-			"nintendo3ds_ktr.dtb": [
-				{
-					"type": "downloadRelease",
-					"repo": "linux-3ds/linux",
-					"file": "nintendo3ds_ktr.dtb",
-					"output": "/linux/nintendo3ds_ktr.dtb",
-					"includePrereleases": true
-				}
-			],
-			"arm9linuxfw.bin": [
-				{
-					"type": "downloadRelease",
-					"repo": "linux-3ds/arm9linuxfw",
-					"file": "arm9linuxfw.bin",
-					"output": "/linux/arm9linuxfw.bin",
-					"includePrereleases": true
-				}
-			],
-			"firm_linux_loader.firm": [
-				{
-					"type": "downloadRelease",
-					"repo": "linux-3ds/firm_linux_loader",
-					"file": "firm_linux_loader.firm",
-					"output": "%FIRM%/firm_linux_loader.firm",
-					"includePrereleases": true
-				}
-			]
-		}
-	},
+	}
 	{
 		"github": "DS-Homebrew/SafeNANDManager",
 		"title": "Safe NAND Manager",
