@@ -4207,7 +4207,7 @@
 		"categories": ["utility"],
 		"image": "https://raw.githubusercontent.com/LiquidFenrir/CalculaThreeDS/main/icon.png",
 		"icon": "https://raw.githubusercontent.com/LiquidFenrir/CalculaThreeDS/main/icon.png"
-	}
+	},
 	{
 		"github": "DS-Homebrew/SafeNANDManager",
 		"title": "Safe NAND Manager",
