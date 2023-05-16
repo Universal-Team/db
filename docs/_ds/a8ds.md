@@ -11,8 +11,8 @@ description: A8DS An Atari 8-bit Computer Emulator for the Nintendo DS/DSi and i
 download_page: https://github.com/wavemotion-dave/A8DS/releases
 downloads:
   A8DS.nds:
-    size: 589312
-    size_str: 575 KiB
+    size: 589824
+    size_str: 576 KiB
     url: https://github.com/wavemotion-dave/A8DS/releases/download/3.4/A8DS.nds
   Copying:
     size: 18092
