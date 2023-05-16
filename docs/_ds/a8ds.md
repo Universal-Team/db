@@ -11,17 +11,17 @@ description: A8DS An Atari 8-bit Computer Emulator for the Nintendo DS/DSi and i
 download_page: https://github.com/wavemotion-dave/A8DS/releases
 downloads:
   A8DS.nds:
-    size: 591360
-    size_str: 577 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.3/A8DS.nds
+    size: 589312
+    size_str: 575 KiB
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.4/A8DS.nds
   Copying:
     size: 18092
     size_str: 17 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.3/Copying
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.4/Copying
   readme.md:
-    size: 26344
-    size_str: 25 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.3/readme.md
+    size: 29035
+    size_str: 28 KiB
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.4/readme.md
 github: wavemotion-dave/A8DS
 icon: https://db.universal-team.net/assets/images/icons/a8ds.png
 image: https://raw.githubusercontent.com/wavemotion-dave/A8DS/main/arm9/gfx/bgTop.png
@@ -35,23 +35,22 @@ source: https://github.com/wavemotion-dave/A8DS
 systems:
 - DS
 title: A8DS
-update_notes: '<p dir="auto">V3.3 : 15-May-2023 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V3.4 : 16-May-2023 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Switched to CRC32 (from md5sum) to save space and now allow 2500 game settings
-  to be stored.</li>
+  <li>Default to using ATARI OS if bios files found.</li>
 
-  <li>Added additional cartridge banking schemes so more games run.</li>
+  <li>Altirra OS updated to 3.33 and Altirra BASIC to 1.58</li>
 
-  <li>Added ability to change/save a cartridge type in settings.</li>
+  <li>High Score saving added - save 10 scores per game.</li>
 
-  <li>Tweak of VERTICAL+ and VERTICAL- to offset by 16 pixels (was 10).</li>
+  <li>Improved PAL vs NTSC color palette</li>
 
-  <li>Reduced memory footprint to allow for better future expansion.</li>
+  <li>Several config bugs that necessitated another quick release. Sorry!</li>
 
   </ul>'
-updated: '2023-05-15T10:41:16Z'
-version: '3.3'
-version_title: Version 3.3
+updated: '2023-05-16T17:03:34Z'
+version: '3.4'
+version_title: Version 3.4
 ---
