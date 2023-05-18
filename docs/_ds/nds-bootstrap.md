@@ -76,6 +76,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <li>Some (if not all) Download Play demos now boot again (such as <em>Submarine</em>)!</li>
 
+  <li>Fixed <em>Tropix!</em> not booting.</li>
+
   </ul>'
 updated: '2023-05-18T21:35:29Z'
 version: v0.71.2
