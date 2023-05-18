@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 721181
-    size_str: 704 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.71.1/nds-bootstrap.7z
+    size: 724653
+    size_str: 707 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.71.2/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1733885
+    size: 1734586
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.71.1/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v0.71.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -33,8 +33,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v25.9.2"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v25.9.2</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v25.9.5"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v25.9.5</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -43,31 +43,23 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   <li>Download the <code class="notranslate">.7z</code> file.</li>
 
   <li>Extract the nds-bootstrap <code class="notranslate">.nds</code> and <code class="notranslate">.ver</code>
-  files, to <code class="notranslate">root:/_nds</code>.</li>
+  files, to <code class="notranslate">root:/_nds/</code>.</li>
 
   </ol>
 
-  <p dir="auto">All changes in this version are only for B4DS mode.</p>
-
-  <h3 dir="auto">Bug fix</h3>
+  <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Fixed games not booting if FAT cluster cache size is larger than 0x598 bytes.
+  <li>Added compatibility/support for these games:
 
   <ul dir="auto">
 
-  <li>To make room for the large cache, the game''s heap is shrunken. If Memory Expansion
-  Pak is inserted, or the cache size is 0x598 bytes or less, the heap is untouched.</li>
+  <li>Imagine: Animal Doctor</li>
 
-  <li>To find out if it''s larger than 0x598 bytes, turn on logging, launch the problematic
-  game, and open <code class="notranslate">root:/NDSBTSRP.LOG</code>.</li>
+  <li>Paws &amp; Claws: Pet Resort</li>
 
-  <li>If you''ve used nds-bootstrap on a flashcard known to be stable enough with
-  it, and a game wouldn''t boot, you may have gotten this situation.</li>
-
-  <li>This is a useful fix on DSi/3DS if you''re running your flashcard in DS mode,
-  as there is no Slot-2 available.</li>
+  <li>Paws &amp; Claws: Pet Vet 2</li>
 
   </ul>
 
@@ -75,18 +67,19 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ul>
 
-  <h3 dir="auto">Known bug</h3>
+  <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>If there''s a game not working properly, and the FAT cluster cache size is larger
-  then 0x598 bytes, then either backup the flashcard''s SD contents and re-add them
-  (as a way to defragment the SD), or insert a Memory Expansion Pak.</li>
+  <li>Fixed <em>Pokemon Black &amp; White 1 &amp; 2</em> (and possibly other games)
+  soft-locking while saving data.</li>
+
+  <li>Some (if not all) Download Play demos now boot again (such as <em>Submarine</em>)!</li>
 
   </ul>'
-updated: '2023-04-21T00:15:26Z'
-version: v0.71.1
-version_title: v0.71.1
+updated: '2023-05-18T21:35:29Z'
+version: v0.71.2
+version_title: v0.71.2
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---

@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 33193255
+    size: 33135159
     size_str: 31 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.4/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.5/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 33242358
+    size: 33188084
     size_str: 31 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.4/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.5/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 44119422
+    size: 44069243
     size_str: 42 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.4/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.5/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 44325573
+    size: 44270557
     size_str: 42 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.4/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.5/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -49,7 +49,10 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.71.2">nds-bootstrap
+  v0.71.2</a></p>
+
+  <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
 
   <ul dir="auto">
@@ -63,26 +66,46 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   </ul>
 
-  <h3 dir="auto">Bug fix</h3>
+  <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li><strong>Now applies to DS Classic Menu as well:</strong> Fixed an overlooked
-  bug which made games not start.
+  <li>Added a working AP-fix for <em>The Legend of Zelda: Spirit Tracks</em> (Europe,
+  Rev 1)!
 
   <ul dir="auto">
 
-  <li>For DS(i) games, nds-bootstrap would either display error code -2 or white screens
-  after launching a game.</li>
+  <li>The fix comes from <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/DeadSkullzJr/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>''s
+  cheat database.</li>
 
   </ul>
 
   </li>
 
+  </ul>
+
+  <h3 dir="auto">Improvement</h3>
+
+  <ul dir="auto">
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
+  Updated some DLDI drivers.</li>
+
+  </ul>
+
+  <h3 dir="auto">Bug fix</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed a possible bug where a game wouldn''t boot if it''s placed on the SD root.</li>
+
   </ul>'
-updated: '2023-04-21T05:49:41Z'
-version: v25.9.4
-version_title: 'v25.9.4 (hotfix #2)'
+updated: '2023-05-18T21:52:05Z'
+version: v25.9.5
+version_title: v25.9.5
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
