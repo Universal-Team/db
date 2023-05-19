@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 33135159
+    size: 33502065
     size_str: 31 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.5/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.6/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 33188084
+    size: 33552835
     size_str: 31 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.5/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.6/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 44069243
+    size: 44435875
     size_str: 42 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.5/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.6/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 44270557
+    size: 44643206
     size_str: 42 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.5/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.6/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -49,10 +49,7 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.71.2">nds-bootstrap
-  v0.71.2</a></p>
-
-  <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
 
   <ul dir="auto">
@@ -70,15 +67,29 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Added a working AP-fix for <em>The Legend of Zelda: Spirit Tracks</em> (Europe,
-  Rev 1)!
+  <li>To fully restore the look of the DSi Menu, the default fallback skin for the
+  DSi theme is now the light skin instead of the dark one.
 
   <ul dir="auto">
 
-  <li>The fix comes from <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/DeadSkullzJr/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>''s
-  cheat database.</li>
+  <li>This was done because of some users apparently having bad first impressions
+  with TWLMenu++ on DSi, and in addition, would end up making forwarders for the original
+  DSi Menu (along with optionally installing hiyaCFW, a DSi CFW which is not needed
+  nowadays).</li>
+
+  <li>You can still download the dark skin here: <a href="https://skins.ds-homebrew.com/nintendo-dsi/default-dark"
+  rel="nofollow">https://skins.ds-homebrew.com/nintendo-dsi/default-dark</a>
+
+  <ul dir="auto">
+
+  <li>In the <code class="notranslate">dark.7z</code> file, put the <code class="notranslate">dark</code>
+  folder in <code class="notranslate">sd:/_nds/TWiLightMenu/dsimenu/themes/</code>,
+  then open TWLMenu++ Settings, select <code class="notranslate">Theme</code> (set
+  to <code class="notranslate">Nintendo DSi</code>), press A, then select <code class="notranslate">dark</code>.</li>
+
+  </ul>
+
+  </li>
 
   </ul>
 
@@ -92,7 +103,7 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
-  Updated some DLDI drivers.</li>
+  Updated GMP-Z003 autoboot to flashcard-bootstrap v1.2.3, with an open-source DLDI.</li>
 
   </ul>
 
@@ -100,12 +111,13 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Fixed a possible bug where a game wouldn''t boot if it''s placed on the SD root.</li>
+  <li>Fixed the DS/DSi splash jingle not playing and either no or glitched sound playing
+  in place.</li>
 
   </ul>'
-updated: '2023-05-18T21:52:05Z'
-version: v25.9.5
-version_title: v25.9.5
+updated: '2023-05-19T04:52:20Z'
+version: v25.9.6
+version_title: v25.9.6 (hotfix)
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
