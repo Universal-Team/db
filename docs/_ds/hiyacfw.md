@@ -41,7 +41,7 @@ update_notes: '<p>To update, just replace <code class="notranslate">hiya.dsi</co
 
   <ul>
 
-  <li>Improved GIF compatibility.</li>
+  <li>Improved GIF splash screen compatibility.</li>
 
   </ul>
 
