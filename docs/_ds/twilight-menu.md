@@ -114,6 +114,15 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
   <li>Fixed the DS/DSi splash jingle not playing and either no or glitched sound playing
   in place.</li>
 
+  </ul>
+
+  <h3 dir="auto">Known bug (as of v25.9.5)</h3>
+
+  <ul dir="auto">
+
+  <li>Autobooting does not work on timebombed flashcards, so you''ll need to download
+  v25.9.4, and get the autoboot files from there.</li>
+
   </ul>'
 updated: '2023-05-19T04:52:20Z'
 version: v25.9.6
