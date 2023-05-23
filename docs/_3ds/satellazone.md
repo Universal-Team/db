@@ -36,7 +36,15 @@ source: https://github.com/MegaPika/SatellaZone
 systems:
 - 3DS
 title: SatellaZone
-update_notes: '<h2 dir="auto">High Quality Videos!</h2>
+update_notes: '<h2 dir="auto">USA patch update for 11.17</h2>
+
+  <ul dir="auto">
+
+  <li>(added in 23/5/2023): the attached USA patch is now working in 11.17!</li>
+
+  </ul>
+
+  <h2 dir="auto">High Quality Videos!</h2>
 
   <ul dir="auto">
 
