@@ -15,9 +15,9 @@ description: 'Mario Kart 7 semi-primary exploit for the Nintendo 3DS.
 download_page: https://github.com/PabloMK7/kartdlphax/releases
 downloads:
   plugin.3gx:
-    size: 424153
-    size_str: 414 KiB
-    url: https://github.com/PabloMK7/kartdlphax/releases/download/v1.2/plugin.3gx
+    size: 491202
+    size_str: 479 KiB
+    url: https://github.com/PabloMK7/kartdlphax/releases/download/v1.3/plugin.3gx
 github: PabloMK7/kartdlphax
 image: https://db.universal-team.net/assets/images/images/kartdlphax.png
 image_length: 57059
@@ -30,15 +30,12 @@ systems:
 title: kartdlphax
 update_notes: '<ul dir="auto">
 
-  <li>Added built-in <a href="https://github.com/PabloMK7/3dsropxploitinjector">3DS
-  ROP xPloit Injector</a> otherapp.</li>
-
-  <li>Added menu to select the target 3DS type and which exploit to use.</li>
+  <li>Added support for firmware version 11.17.</li>
 
   </ul>
 
   <p dir="auto">Check <a href="README.md">README</a> for more info.</p>'
-updated: '2022-09-15T23:49:59Z'
-version: v1.2
-version_title: Third Release
+updated: '2023-05-26T16:37:15Z'
+version: v1.3
+version_title: Fourth Release
 ---

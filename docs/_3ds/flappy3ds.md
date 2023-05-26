@@ -16,37 +16,61 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 prerelease:
-  download_page: https://github.com/Komas19-new/flappy3DS/releases/tag/v0.1.6
+  download_page: https://github.com/Komas19-new/flappy3DS/releases/tag/v0.1.7
   downloads:
     flappy.3dsx:
-      size: 202492
-      size_str: 197 KiB
-      url: https://github.com/Komas19-new/flappy3DS/releases/download/v0.1.6/flappy.3dsx
+      size: 188584
+      size_str: 184 KiB
+      url: https://github.com/Komas19-new/flappy3DS/releases/download/v0.1.7/flappy.3dsx
     flappy.cia:
-      size: 205760
-      size_str: 200 KiB
-      url: https://github.com/Komas19-new/flappy3DS/releases/download/v0.1.6/flappy.cia
+      size: 189376
+      size_str: 184 KiB
+      url: https://github.com/Komas19-new/flappy3DS/releases/download/v0.1.7/flappy.cia
   qr:
     flappy.cia: https://db.universal-team.net/assets/images/qr/prerelease/flappy-cia.png
   update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link"
-    href="https://github.com/Komas19-new/flappy3DS/compare/v0.1.5.5...v0.1.6"><tt>v0.1.5.5...v0.1.6</tt></a></p>
+    href="https://github.com/Komas19-new/flappy3DS/compare/v0.1.6...v0.1.7"><tt>v0.1.6...v0.1.7</tt></a></p>
 
-    <p dir="auto">FBI QR Code :<br>
+    <h1 dir="auto">Changes</h1>
 
-    <a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/82937056/206863312-bb573183-96d9-4314-bdff-48eaca8db8b0.png"><img
-    src="https://user-images.githubusercontent.com/82937056/206863312-bb573183-96d9-4314-bdff-48eaca8db8b0.png"
-    alt="qr-code(18)" style="max-width: 100%;"></a></p>'
-  update_notes_md: '**Full Changelog**: https://github.com/Komas19-new/flappy3DS/compare/v0.1.5.5...v0.1.6
+    <ul dir="auto">
+
+    <li>Fixed Deaths counter</li>
+
+    <li>Started implementing AI movement</li>
+
+    <li>Made the game a bit easier by default</li>
+
+    <li>Started implementing a bit more audios, in a audio.bin file</li>
+
+    </ul>
+
+    <h2 dir="auto">FBI QR CODE:</h2>
+
+    <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/82937056/241275752-1ad7c791-6469-4028-a9cc-2a24bf0ee93b.png"><img
+    src="https://user-images.githubusercontent.com/82937056/241275752-1ad7c791-6469-4028-a9cc-2a24bf0ee93b.png"
+    alt="QRCODE" style="max-width: 100%;"></a></p>'
+  update_notes_md: '**Full Changelog**: https://github.com/Komas19-new/flappy3DS/compare/v0.1.6...v0.1.7
 
 
-    FBI QR Code :
+    # Changes
 
-    ![qr-code(18)](https://user-images.githubusercontent.com/82937056/206863312-bb573183-96d9-4314-bdff-48eaca8db8b0.png)
 
-    '
-  updated: '2022-12-10T15:43:45Z'
-  version: v0.1.6
-  version_title: v0.1.6
+    * Fixed Deaths counter
+
+    * Started implementing AI movement
+
+    * Made the game a bit easier by default
+
+    * Started implementing a bit more audios, in a audio.bin file
+
+
+    ## FBI QR CODE:
+
+    ![QRCODE](https://github.com/Komas19-new/flappy3DS/assets/82937056/1ad7c791-6469-4028-a9cc-2a24bf0ee93b)'
+  updated: '2023-05-26T16:38:23Z'
+  version: v0.1.7
+  version_title: v0.1.7
 source: https://github.com/Komas19-new/flappy3DS
 systems:
 - 3DS
@@ -54,14 +78,28 @@ title: Flappy3DS
 unique_ids:
 - '0x1337'
 update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link"
-  href="https://github.com/Komas19-new/flappy3DS/compare/v0.1.5.5...v0.1.6"><tt>v0.1.5.5...v0.1.6</tt></a></p>
+  href="https://github.com/Komas19-new/flappy3DS/compare/v0.1.6...v0.1.7"><tt>v0.1.6...v0.1.7</tt></a></p>
 
-  <p dir="auto">FBI QR Code :<br>
+  <h1 dir="auto">Changes</h1>
 
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/82937056/206863312-bb573183-96d9-4314-bdff-48eaca8db8b0.png"><img
-  src="https://user-images.githubusercontent.com/82937056/206863312-bb573183-96d9-4314-bdff-48eaca8db8b0.png"
-  alt="qr-code(18)" style="max-width: 100%;"></a></p>'
-updated: '2022-12-10T15:43:45Z'
-version: v0.1.6
-version_title: v0.1.6
+  <ul dir="auto">
+
+  <li>Fixed Deaths counter</li>
+
+  <li>Started implementing AI movement</li>
+
+  <li>Made the game a bit easier by default</li>
+
+  <li>Started implementing a bit more audios, in a audio.bin file</li>
+
+  </ul>
+
+  <h2 dir="auto">FBI QR CODE:</h2>
+
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/82937056/241275752-1ad7c791-6469-4028-a9cc-2a24bf0ee93b.png"><img
+  src="https://user-images.githubusercontent.com/82937056/241275752-1ad7c791-6469-4028-a9cc-2a24bf0ee93b.png"
+  alt="QRCODE" style="max-width: 100%;"></a></p>'
+updated: '2023-05-26T16:38:23Z'
+version: v0.1.7
+version_title: v0.1.7
 ---
