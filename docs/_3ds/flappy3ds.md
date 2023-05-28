@@ -55,6 +55,10 @@ prerelease:
     option in options menu, however, you can still press on where it was supposed
     to be to change the setting</li>
 
+    <li>I am aware that the death count does not increase when dying to the ground</li>
+
+    <li>I am aware that if the ground is too high, you die instantly</li>
+
     </ul>
 
     <h2 dir="auto">FBI QR CODE:</h2>
@@ -84,6 +88,10 @@ prerelease:
 
     * I am aware about the ``+`` being gone in each option in options menu, however,
     you can still press on where it was supposed to be to change the setting
+
+    * I am aware that the death count does not increase when dying to the ground
+
+    * I am aware that if the ground is too high, you die instantly
 
 
     ## FBI QR CODE:
@@ -124,6 +132,10 @@ update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-l
   <li>I am aware about the <code class="notranslate">+</code> being gone in each option
   in options menu, however, you can still press on where it was supposed to be to
   change the setting</li>
+
+  <li>I am aware that the death count does not increase when dying to the ground</li>
+
+  <li>I am aware that if the ground is too high, you die instantly</li>
 
   </ul>
 
