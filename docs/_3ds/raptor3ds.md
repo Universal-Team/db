@@ -18,7 +18,7 @@ downloads:
 github: RetroGamer02/raptor-consoles
 icon: https://raw.githubusercontent.com/RetroGamer02/raptor3ds/master/rapicon.png
 image: https://raw.githubusercontent.com/RetroGamer02/raptor3ds/master/RapBanner.png
-image_length: 37938
+image_length: 48397
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
