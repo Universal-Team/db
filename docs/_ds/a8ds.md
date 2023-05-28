@@ -35,16 +35,7 @@ source: https://github.com/wavemotion-dave/A8DS
 systems:
 - DS
 title: A8DS
-update_notes: '<p dir="auto">V3.5 : 22-May-2023 by wavemotion-dave</p>
-
-  <ul dir="auto">
-
-  <li>Added 576K COMPY SHOP RAM type (with separate ANTIC access just like the 128K
-  XE).</li>
-
-  <li>More cleanup and minor bug fixes across the board.</li>
-
-  </ul>'
+update_notes: "{\n  \"message\": \"Server Error\"\n}\n"
 updated: '2023-05-22T10:59:01Z'
 version: '3.5'
 version_title: Version 3.5
