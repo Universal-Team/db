@@ -28,15 +28,27 @@ source: https://github.com/PabloMK7/kartdlphax
 systems:
 - 3DS
 title: kartdlphax
-update_notes: '<p dir="auto">v1.3:</p>
+update_notes: '<ul dir="auto">
+
+  <li>v1.3:
 
   <ul dir="auto">
 
-  <li>Added support for firmware version 11.17.<br>
+  <li>Added support for firmware version 11.17.</li>
 
-  v1.3.1 and v1.3.2:</li>
+  </ul>
+
+  </li>
+
+  <li>v1.3.1 and v1.3.2:
+
+  <ul dir="auto">
 
   <li>Fixed all issues related to firmware version 11.17.</li>
+
+  </ul>
+
+  </li>
 
   </ul>
 
