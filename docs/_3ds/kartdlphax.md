@@ -15,9 +15,9 @@ description: 'Mario Kart 7 semi-primary exploit for the Nintendo 3DS.
 download_page: https://github.com/PabloMK7/kartdlphax/releases
 downloads:
   plugin.3gx:
-    size: 457156
-    size_str: 446 KiB
-    url: https://github.com/PabloMK7/kartdlphax/releases/download/v1.3.1/plugin.3gx
+    size: 487226
+    size_str: 475 KiB
+    url: https://github.com/PabloMK7/kartdlphax/releases/download/v1.3.2/plugin.3gx
 github: PabloMK7/kartdlphax
 image: https://db.universal-team.net/assets/images/images/kartdlphax.png
 image_length: 57059
@@ -28,16 +28,20 @@ source: https://github.com/PabloMK7/kartdlphax
 systems:
 - 3DS
 title: kartdlphax
-update_notes: '<p dir="auto">v1.3:<br>
+update_notes: '<p dir="auto">v1.3:</p>
 
-  - Added support for firmware version 11.17.<br>
+  <ul dir="auto">
 
-  v1.3.1:<br>
+  <li>Added support for firmware version 11.17.<br>
 
-  - Fixed EUR and JPN not working.</p>
+  v1.3.1 and v1.3.2:</li>
+
+  <li>Fixed all issues related to firmware version 11.17.</li>
+
+  </ul>
 
   <p dir="auto">Check <a href="README.md">README</a> for more info.</p>'
-updated: '2023-05-26T16:37:15Z'
-version: v1.3.1
-version_title: Fourth And A Half Release
+updated: '2023-05-29T18:08:46Z'
+version: v1.3.2
+version_title: Fourth Release
 ---
