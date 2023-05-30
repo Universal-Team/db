@@ -40,7 +40,7 @@ prerelease:
     <li>Fixed the <code class="notranslate">+</code> being gone in each option in
     options menu</li>
 
-    <li>Fixed the death count does not increase when dying to the ground</li>
+    <li>Fixed the death count not increasing when dying to the ground</li>
 
     <li>Fixed that if the ground is too high, you die instantly</li>
 
@@ -53,7 +53,7 @@ prerelease:
     <ul dir="auto">
 
     <li>I am aware that some lines glitches out on loading when dying, however, this
-    does not apply to emulators, this bug was saw in an Old 2DS, possibly other too.</li>
+    does not apply to emulators, this bug was seen in an Old 2DS, possibly other too.</li>
 
     </ul>
 
@@ -63,13 +63,7 @@ prerelease:
 
     <li>Citra Nightly 1807</li>
 
-    </ul>
-
-    <h1 dir="auto">Unsupported Emulators</h1>
-
-    <ul dir="auto">
-
-    <li>Citra Nightly 1913 (Very slow)</li>
+    <li>Citra Nightly 1913</li>
 
     </ul>
 
@@ -89,7 +83,7 @@ prerelease:
 
     * Fixed the ``+`` being gone in each option in options menu
 
-    * Fixed the death count does not increase when dying to the ground
+    * Fixed the death count not increasing when dying to the ground
 
     * Fixed that if the ground is too high, you die instantly
 
@@ -100,18 +94,14 @@ prerelease:
 
 
     * I am aware that some lines glitches out on loading when dying, however, this
-    does not apply to emulators, this bug was saw in an Old 2DS, possibly other too.
+    does not apply to emulators, this bug was seen in an Old 2DS, possibly other too.
 
 
     # Supported Emulators
 
     * Citra Nightly 1807
 
-
-    # Unsupported Emulators
-
-    * Citra Nightly 1913 (Very slow)
-
+    * Citra Nightly 1913
 
 
     ## FBI QR CODE:
@@ -138,7 +128,7 @@ update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-l
   <li>Fixed the <code class="notranslate">+</code> being gone in each option in options
   menu</li>
 
-  <li>Fixed the death count does not increase when dying to the ground</li>
+  <li>Fixed the death count not increasing when dying to the ground</li>
 
   <li>Fixed that if the ground is too high, you die instantly</li>
 
@@ -151,7 +141,7 @@ update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-l
   <ul dir="auto">
 
   <li>I am aware that some lines glitches out on loading when dying, however, this
-  does not apply to emulators, this bug was saw in an Old 2DS, possibly other too.</li>
+  does not apply to emulators, this bug was seen in an Old 2DS, possibly other too.</li>
 
   </ul>
 
@@ -161,13 +151,7 @@ update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-l
 
   <li>Citra Nightly 1807</li>
 
-  </ul>
-
-  <h1 dir="auto">Unsupported Emulators</h1>
-
-  <ul dir="auto">
-
-  <li>Citra Nightly 1913 (Very slow)</li>
+  <li>Citra Nightly 1913</li>
 
   </ul>
 
