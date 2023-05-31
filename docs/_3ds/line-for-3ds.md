@@ -34,6 +34,8 @@ icon: https://raw.githubusercontent.com/Core-2-Extreme/Line_for_3DS/master/resou
 image: https://raw.githubusercontent.com/Core-2-Extreme/Line_for_3DS/master/resource/banner.png
 image_length: 1824
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 qr:
   Line_for_3DS_124mb.cia: https://db.universal-team.net/assets/images/qr/line_for_3ds_124mb-cia.png
   Line_for_3DS_178mb.cia: https://db.universal-team.net/assets/images/qr/line_for_3ds_178mb-cia.png
