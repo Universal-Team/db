@@ -54,6 +54,7 @@ update_notes: '<ul dir="auto">
 updated: '2021-11-21T23:56:45Z'
 version: v0.5-3ds
 version_title: v0.5 3DS
+website: https://pacochan.net/software/3d-pinball-space-cadet/
 ---
 # 3D Pinball - Space Cadet for 3DS
 
