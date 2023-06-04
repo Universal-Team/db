@@ -21,7 +21,6 @@ downloads:
 github: Manurocker95/TRekt_3D
 icon: https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/resources/icon.png
 image: https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/resources/banner.png
-image_length: 28447
 layout: app
 qr:
   TRekt_3D.cia: https://db.universal-team.net/assets/images/qr/trekt_3d-cia.png

@@ -16,7 +16,6 @@ downloads:
 github: DomRe/3DS_eBook_Reader
 icon: https://raw.githubusercontent.com/DomRe/3DS_eBook_Reader/master/meta/icon.png
 image: https://raw.githubusercontent.com/DomRe/3DS_eBook_Reader/master/meta/banner.png
-image_length: 18127
 layout: app
 license: mit
 license_name: MIT License
