@@ -21,6 +21,7 @@ downloads:
 github: CyberYoshi64/CTGP7-SaveTransfer
 icon: https://raw.githubusercontent.com/CyberYoshi64/CTGP7-SaveTransfer/main/app/icon.png
 image: https://raw.githubusercontent.com/CyberYoshi64/CTGP7-SaveTransfer/main/app/banner.png
+image_length: 38415
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
