@@ -49,7 +49,10 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.72.0">nds-bootstrap
+  v0.72.0</a></p>
+
+  <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
 
   <ul dir="auto">
@@ -109,8 +112,7 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <ul dir="auto">
 
-  <li>Cheats have been confirmed to work on DSTT-based flashcards (DSONE untested)
-  via nds-bootstrap.</li>
+  <li>Cheats have been confirmed to work on DSTT-based flashcards via nds-bootstrap.</li>
 
   </ul>
 
