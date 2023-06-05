@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 33502065
+    size: 33311776
     size_str: 31 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.6/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.10.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 33552835
+    size: 33366576
     size_str: 31 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.6/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.10.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 44435875
+    size: 44247051
     size_str: 42 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.6/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.10.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 44643206
+    size: 44454908
     size_str: 42 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.9.6/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.10.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -67,29 +67,31 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <ul dir="auto">
 
-  <li>To fully restore the look of the DSi Menu, the default fallback skin for the
-  DSi theme is now the light skin instead of the dark one.
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>:
+  Added AP-fixes for some Pokémon ROM hacks.
 
   <ul dir="auto">
 
-  <li>This was done because of some users apparently having bad first impressions
-  with TWLMenu++ on DSi, and in addition, would end up making forwarders for the original
-  DSi Menu (along with optionally installing hiyaCFW, a DSi CFW which is not needed
-  nowadays).</li>
+  <li>Pokémon: Legacy - Sevii Islands (Demo v1.2)</li>
 
-  <li>You can still download the dark skin here: <a href="https://skins.ds-homebrew.com/nintendo-dsi/default-dark"
-  rel="nofollow">https://skins.ds-homebrew.com/nintendo-dsi/default-dark</a>
+  <li>Pokémon: Blaze Black Version (v3.2)</li>
 
-  <ul dir="auto">
+  <li>Pokémon: Blaze Black Version 2 (v1.2)</li>
 
-  <li>In the <code class="notranslate">dark.7z</code> file, put the <code class="notranslate">dark</code>
-  folder in <code class="notranslate">sd:/_nds/TWiLightMenu/dsimenu/themes/</code>,
-  then open TWLMenu++ Settings, select <code class="notranslate">Theme</code> (set
-  to <code class="notranslate">Nintendo DSi</code>), press A, then select <code class="notranslate">dark</code>.</li>
+  <li>Pokémon: Volt White Version (v3.2)</li>
 
-  </ul>
+  <li>Pokémon: Volt White Version 2 (v1.2)</li>
 
-  </li>
+  <li>Pokémon: Pitch Black Version (v1.3)</li>
+
+  <li>Pokémon: Pure White Version (v1.3)</li>
+
+  <li>Pokémon: Special Adventures Edition (v1.3)</li>
+
+  <li>Pokémon: Yin Black Version 2 (v1.1)</li>
+
+  <li>Pokémon: Yang White Version 2 (v1.1)</li>
 
   </ul>
 
@@ -103,7 +105,16 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
-  Updated GMP-Z003 autoboot to flashcard-bootstrap v1.2.3, with an open-source DLDI.</li>
+  Updated DLDI submodule.
+
+  <ul dir="auto">
+
+  <li>Cheats have been confirmed to work on DSTT-based flashcards (DSONE untested)
+  via nds-bootstrap.</li>
+
+  </ul>
+
+  </li>
 
   </ul>
 
@@ -111,22 +122,14 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <ul dir="auto">
 
-  <li>Fixed the DS/DSi splash jingle not playing and either no or glitched sound playing
-  in place.</li>
-
-  </ul>
-
-  <h3 dir="auto">Known bug (as of v25.9.5)</h3>
-
-  <ul dir="auto">
-
-  <li>Autobooting does not work on timebombed flashcards, so you''ll need to download
-  v25.9.4, and get the autoboot files from there.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
+  Fixed autoboot for timebombed flashcards.</li>
 
   </ul>'
-updated: '2023-05-19T04:52:20Z'
-version: v25.9.6
-version_title: v25.9.6 (hotfix)
+updated: '2023-06-05T21:02:06Z'
+version: v25.10.0
+version_title: v25.10.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
