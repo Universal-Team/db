@@ -3528,8 +3528,9 @@
 		"scripts": {
 			"[twlmenu] usrcheat.dat": [
 				{
-					"type": "downloadFile",
-					"file": "https://github.com/TWLBot/Builds/raw/master/usrcheat.dat.7z",
+					"type": "downloadRelease",
+					"repo": "lifehackerhansol/nds-i-cheat-databases-mirror",
+					"file": "usrcheat.dat.7z",
 					"output": "/usrcheat.dat.7z"
 				},
 				{
