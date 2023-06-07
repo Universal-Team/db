@@ -384,12 +384,13 @@ update_notes: '<ul dir="auto">
   <li>MENU/SOUNDS: Scroll sound fixes. Correctly get list size in xmb.c for playing
   scrolling sound when switching categories, play the scrolling sound when pressing
   cancel in ozone, play the sound when scrolling with ZL and ZR, play the correct
-  sound when scrolling with L- MIYOO: L3/R3 support for Dingux Gamepad controller
-  device.</li>
+  sound when scrolling with L</li>
 
   <li>MENU/WIDGETS: Show square sized widget on volume mute. Volume widget is currently
   fixed size always, and thus showing a lot of empty space when muting, therefore
   shorten the box to icon size only when muting.</li>
+
+  <li>MIYOO: L3/R3 support for Dingux Gamepad controller device.</li>
 
   <li>NETWORKING: Call ssl_socket_close for SSL sockets</li>
 
