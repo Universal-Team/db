@@ -27,4 +27,4 @@ version: '20230606'
 version_title: DeadSkullzJr's NDS(i) Cheat Databases (20230606)
 website: https://gbatemp.net/threads/488711/
 ---
-Please visit https://gbatemp.net/threads/488711/ for other cheat database formats.
+Please visit [the GBAtemp thread](https://gbatemp.net/threads/488711/) for other cheat database formats.
