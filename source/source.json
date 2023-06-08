@@ -3517,19 +3517,19 @@
 		}
 	},
 	{
-		"github": "lifehackerhansol/nds-i-cheat-databases-mirror",
+		"github": "DeadSkullzJr/NDS-i-Cheat-Databases",
 		"title": "NDS(i) Cheat Databases",
 		"author": "DeadSkullzJr",
 		"avatar": "https://avatars.githubusercontent.com/u/26408949?v=4",
 		"systems": ["DS"],
 		"categories": ["extra"],
 		"website": "https://gbatemp.net/threads/488711/",
-		"long_description": "<h3>Which file to do I download?</h3><details><summary><b>Cheat Devices</b></summary>Cheats.xml can be used for:<ul><li>Action Replay DS</li><li>Action Replay DSi</li></ul></details><details><summary><b>Flash Cartridge Kernels</b></summary>Usrcheat.dat can be used for:<ul><li>AceKard 2 Menu</li><li>AKAIO</li><li>DSTT Menu</li><li>EZ-Flash V Menu</li><li>EZ-Flash Vi Menu</li><li>R4i Menu</li><li>SuperCard DSONE EOS</li><li>SuperCard DSTWO EOS</li><li>Wood R4</li><li>Wood RPG</li><li>YSMenu</li></ul>Cheats.dat can be used for:<ul><li>AceKard 2 Menu</li><li>AKAIO</li><li>EDGE Menu</li></ul>Cheat.dat can be used for:<ul><li>AceKard 2 Menu</li><li>AKAIO</li><li>M3 Menu</li><li>R4 Menu</li></ul>EZARCode.dat can be used for:<ul><li>EZ-Flash V Menu (Original)</li></ul>User.evoCheats can be used for:<ul><li>CycloDS Menu</li></ul>Cheat.db can be used for:<ul><li>M3 Sakura</li></ul>Cheat_EN.db can be used for:<ul><li>M3 Sakura</li></ul>SCC cheats can be used for:<ul><li>SuperCard DSONE OS</li></ul>Cheats.xml can be used for:<ul><li>AceKard 2 Menu</li><li>AKAIO</li></ul></details><details><summary><b>Homebrew Software</b></summary>Usrcheat.dat can be used for:<ul><li>Nitro Hax (3DS) (Usrcheat Edition)</li><li>Nitro Hax (DSi) (Usrcheat Edition)</li><li>TWiLight Menu++ (3DS)</li><li>TWiLight Menu++ (DSi)</li></ul>Cheats.xml can be used for:<ul><li>Nitro Hax (3DS)</li><li>Nitro Hax (DSi)</li><li>Nitro Hax (NDS)</li></ul></details><details><summary><b>Emulators</b></summary>Usrcheat.dat can be used for:<ul><li>DeSmuMe</li><li>DraStic</li></ul></details>",
+		"long_description": "Please visit https://gbatemp.net/threads/488711/ for other cheat database formats.",
 		"scripts": {
 			"[twlmenu] usrcheat.dat": [
 				{
 					"type": "downloadRelease",
-					"repo": "lifehackerhansol/nds-i-cheat-databases-mirror",
+					"repo": "DeadSkullzJr/NDS-i-Cheat-Databases",
 					"file": "usrcheat.dat.7z",
 					"output": "/usrcheat.dat.7z"
 				},
