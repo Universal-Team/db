@@ -3530,18 +3530,18 @@
 				{
 					"type": "downloadRelease",
 					"repo": "DeadSkullzJr/NDS-i-Cheat-Databases",
-					"file": "usrcheat.dat.7z",
-					"output": "/usrcheat.dat.7z"
+					"file": "usrcheat.7z",
+					"output": "/usrcheat.7z"
 				},
 				{
 					"type": "extractFile",
-					"file": "/usrcheat.dat.7z",
+					"file": "/usrcheat.7z",
 					"input": "usrcheat.dat",
 					"output": "/_nds/TWiLightMenu/extras/usrcheat.dat"
 				},
 				{
 					"type": "deleteFile",
-					"file": "/usrcheat.dat.7z"
+					"file": "/usrcheat.7z"
 				}
 			]
 		}
