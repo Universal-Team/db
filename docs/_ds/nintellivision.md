@@ -12,17 +12,17 @@ description: Nintellivision - an Intellivision Emulator for the Nintendo DS/DSi.
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 670208
-    size_str: 654 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.0/NINTV-DS.nds
+    size: 678400
+    size_str: 662 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.9/NINTV-DS.nds
   README.md:
-    size: 14081
+    size: 13908
     size_str: 13 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.0/README.md
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.9/README.md
   extras.zip:
     size: 832208
     size_str: 812 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.0/extras.zip
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/3.9/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
@@ -37,15 +37,22 @@ source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V4.0 : 22-Apr-2023 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V3.9 : 05-Mar-2023 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Small optimizations and cleanup across the board - utilizing every bit of the
-  NDS instruction cache to squeeze out another frame or two of performance.</li>
+  <li>Improved ECS keyboard handling so we can handle ''transposed'' scanning of columns/rows
+  (allows demos like Adventure to run).</li>
+
+  <li>Improved banking / page-flipping for faster page switches and more robust. There
+  should be no more small audio ''gaps'' when page-flipping music.</li>
+
+  <li>For the DSi we now support 1024KB (512K Words) of binary ROM which is almost
+  unfathomably large in the world of Intellivision games (130% larger than anything
+  I''m aware of).</li>
 
   </ul>'
-updated: '2023-04-22T12:52:25Z'
-version: '4.0'
-version_title: Version 4.0
+updated: '2023-03-05T13:06:17Z'
+version: '3.9'
+version_title: Version 3.9
 ---
