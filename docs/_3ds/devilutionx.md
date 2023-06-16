@@ -82,19 +82,19 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <li>Added support for the original Xbox</li>
 
-  <li>Added (experimental) support for RG99</li>
-
   <li>Added support for Android TV</li>
 
-  <li>Support demo playback on SDL1 versions</li>
+  <li>Added (experimental) support for RG99</li>
+
+  <li>Provide virtual resolutions for systems with only one native resolution</li>
 
   <li>Android: Support loading data from external storage</li>
 
   <li>Android: Do not speed up game after suspending if playing alone</li>
 
-  <li>Provide virtual resolutions for systems with only one native resolution</li>
-
   <li>Windows: Digitally signed executable</li>
+
+  <li>Support demo playback on SDL1 versions</li>
 
   </ul>
 
@@ -104,39 +104,39 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <li>Option to show item graphics in stores</li>
 
+  <li>More fluid lighting updates when moving</li>
+
   <li>Added map in town</li>
 
   <li>Add widescreen load screens (thanks to <a class="user-mention notranslate" data-hovercard-type="user"
   data-hovercard-url="/users/Chance4us/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/Chance4us">@Chance4us</a>)</li>
 
-  <li>Show cast animation in town</li>
-
-  <li>Various text rendering improvements</li>
-
-  <li>Use decimal separators for gold and XP</li>
-
-  <li>Monsters end their invisibility on death</li>
-
   <li>Durability icon gradually changing to red</li>
-
-  <li>Make the ground color of small rejuvenation potions distinct</li>
-
-  <li>Indicate on which difficulty a hero has defeated Diablo</li>
-
-  <li>Only display resolution height when FitToScreen is enabled</li>
-
-  <li>More fluid lighting updates when moving</li>
-
-  <li>Improve the monster HP bar for some edge cases</li>
 
   <li>Provide sound cue when gold is auto-placed into the open inventory</li>
 
   <li>Color inventory slot based on item quality</li>
 
+  <li>Show cast animation in town</li>
+
+  <li>Monsters end their invisibility on death</li>
+
+  <li>Make the ground color of small rejuvenation potions distinct</li>
+
   <li>Add setting for choosing a different audio resampler</li>
 
   <li>Support for recoloring heroes using trn-files</li>
+
+  <li>Indicate on which difficulty a hero has defeated Diablo</li>
+
+  <li>Use decimal separators for gold and XP</li>
+
+  <li>Improve the monster HP bar for some edge cases</li>
+
+  <li>Only display resolution height when FitToScreen is enabled</li>
+
+  <li>Various text rendering improvements</li>
 
   </ul>
 
@@ -144,21 +144,21 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Adjust the info panel descriptions based on the input device</li>
-
-  <li>Gamepad controls can now be mapped</li>
-
-  <li>New options for keyboard mapping</li>
-
-  <li>gamepad/touch: Improve menu navigation</li>
-
-  <li>gamepad: Autodetect button layout</li>
-
-  <li>Support mouse back button in menus</li>
-
   <li>Do not target monster when casting Heal Other and Resurrect</li>
 
   <li>Improve logic for belt auto-refill</li>
+
+  <li>Adjust the info panel descriptions based on the input device</li>
+
+  <li>keyboard/mouse: Additional mapping options</li>
+
+  <li>keyboard/mouse: Support back button in menus</li>
+
+  <li>gamepad/touch: Improve menu navigation</li>
+
+  <li>gamepad: Controls can now be mapped</li>
+
+  <li>gamepad: Autodetect button layout</li>
 
   </ul>
 
@@ -182,6 +182,8 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <li>Xbox One/Series: Include translations</li>
 
+  <li>Add <code class="notranslate">--lang</code> for specifying the language</li>
+
   </ul>
 
   <h4 dir="auto">Stability / Performance / System</h4>
@@ -190,17 +192,15 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <li>Create submenus for setting groups</li>
 
-  <li>Reduce RAM usage</li>
+  <li>Date based screenshot names</li>
 
   <li>Performance improvement</li>
 
+  <li>Reduce RAM usage</li>
+
   <li>Frame skipping on low end systems</li>
 
-  <li>Add <code class="notranslate">--lang</code> for specifying the language</li>
-
   <li>Setting for picking audio device</li>
-
-  <li>Date based screenshot names</li>
 
   </ul>
 
