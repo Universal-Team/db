@@ -464,6 +464,18 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <li>Typos in subtitles</li>
 
+  </ul>
+
+  <h3 dir="auto">Known issues</h3>
+
+  <ul dir="auto">
+
+  <li>macOS build requires macOS 12+</li>
+
+  <li>Level 4 with Snotspill generates an incompatible layout</li>
+
+  <li>touch: There can be issues with activating scrolls using</li>
+
   </ul>'
 updated: '2023-06-13T19:43:34Z'
 version: 1.5.0
