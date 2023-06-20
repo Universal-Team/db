@@ -11,18 +11,14 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
   on the DSi. New features such as instruction manuals and high score support included!
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
-  LICENSE:
-    size: 1068
-    size_str: 1 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.5/LICENSE
   README.md:
-    size: 33561
-    size_str: 32 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.5/README.md
+    size: 34923
+    size_str: 34 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.6/README.md
   StellaDS.nds:
-    size: 1655808
+    size: 1653248
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.5/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.6/StellaDS.nds
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -36,20 +32,42 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V6.5 : 21-Dec-2022 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V6.6 : 20-Jun-2023 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
-  <li>Polished release - a few more tweaks, a few more optimizations and everything
-  is running as fast science allows on the DS/DSi.</li>
+  <li>Fix for Meltdown prototype so it doesn''t crash.</li>
 
-  <li>Removed "ghost read" and "ghost writes" on the 6502 emulation for a bit more
-  speed.</li>
+  <li>Fix for Pleiades to fix graphical glitches.</li>
 
-  <li>Use of gcc "likely/unlikely" in a few key spots to help the compiler optimize.</li>
+  <li>Fix for Atom Smasher prototype so it doesn''t crash on start (wrong bank scheme
+  detected).</li>
+
+  <li>Fix for E7 banking so it handles 8K, 12K and 16K roms.</li>
+
+  <li>Fix for Flash Gordon to eliminate graphical glitches.</li>
+
+  <li>Fix for Elf Adventure prototype so it runs.</li>
+
+  <li>Fix for Star Gunner so it doesn''t glitch.</li>
+
+  <li>Fix for Warlords graphical glitches.</li>
+
+  <li>Fix for Worm War I graphical glitches.</li>
+
+  <li>Fix for A-Star not starting.</li>
+
+  <li>Fix for Hugo Hunt graphical glitches.</li>
+
+  <li>Improved random() generator for more robust RAM clear / handling on startup
+  and added config to either randomize RAM or clear it at start.</li>
+
+  <li>Added new option to use the ''Compatible'' BUS driver which will handles things
+  like invalid reads and drives unused TIA bits (a few games rely on this - but it
+  does slow down emulation slightly).</li>
 
   </ul>'
-updated: '2022-12-21T14:14:28Z'
-version: '6.5'
-version_title: Version 6.5
+updated: '2023-06-20T11:38:11Z'
+version: '6.6'
+version_title: Version 6.6
 ---
