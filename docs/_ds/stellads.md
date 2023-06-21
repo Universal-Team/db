@@ -12,13 +12,13 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   README.md:
-    size: 34923
+    size: 35303
     size_str: 34 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.6/README.md
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.6b/README.md
   StellaDS.nds:
-    size: 1653248
+    size: 1652736
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.6/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.6b/StellaDS.nds
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -32,7 +32,19 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V6.6 : 20-Jun-2023 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V6.6b : 21-Jun-2023 by Dave Bernazzani (wavemotion)</p>
+
+  <ul dir="auto">
+
+  <li>DSi now defaults to the ''Accurate'' BUS MODE for maximum compatibility.</li>
+
+  <li>Improved data bus handling for undriven pins in Tia::Peek() for improved compatibility.</li>
+
+  <li>A few more tweaks to a few more games to make them as accurate as possible.</li>
+
+  </ul>
+
+  <p dir="auto">V6.6 : 20-Jun-2023 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
@@ -67,7 +79,7 @@ update_notes: '<p dir="auto">V6.6 : 20-Jun-2023 by Dave Bernazzani (wavemotion)<
   does slow down emulation slightly).</li>
 
   </ul>'
-updated: '2023-06-20T11:38:11Z'
-version: '6.6'
-version_title: Version 6.6
+updated: '2023-06-21T10:44:07Z'
+version: 6.6b
+version_title: Version 6.6b
 ---
