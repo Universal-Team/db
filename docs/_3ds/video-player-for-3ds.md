@@ -59,6 +59,9 @@ update_notes: '<h4 dir="auto">Changes</h4>
 
   Problem that h263p video is not played correctly in some resolution has been fixed.</p>
 
+  <h4 dir="auto">On NEW 3(2)DS, it is recommended to use Luma3DSv12.0 or later for
+  better performance.</h4>
+
   <h3 dir="auto"><a href="https://discord.gg/MMsAXvetpR" rel="nofollow">Discord channnel</a></h3>
 
   <h3 dir="auto"><a href="https://gbatemp.net/threads/release-video-player-for-3ds.586094"
