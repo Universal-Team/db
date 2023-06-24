@@ -10,13 +10,13 @@ description: Visualisation of some sorting algorithms on the Nintendo 3DS
 download_page: https://github.com/memeToasty/3ds_sorting/releases
 downloads:
   3ds_sorting.3dsx:
-    size: 286504
-    size_str: 279 KiB
-    url: https://github.com/memeToasty/3ds_sorting/releases/download/v4.0/3ds_sorting.3dsx
+    size: 277872
+    size_str: 271 KiB
+    url: https://github.com/memeToasty/3ds_sorting/releases/download/v5.0/3ds_sorting.3dsx
   3ds_sorting.cia:
-    size: 741824
-    size_str: 724 KiB
-    url: https://github.com/memeToasty/3ds_sorting/releases/download/v4.0/3ds_sorting.cia
+    size: 729536
+    size_str: 712 KiB
+    url: https://github.com/memeToasty/3ds_sorting/releases/download/v5.0/3ds_sorting.cia
 github: memeToasty/3ds_sorting
 icon: https://raw.githubusercontent.com/memeToasty/3ds_sorting/main/meta/icon.png
 image: https://raw.githubusercontent.com/memeToasty/3ds_sorting/main/meta/banner.png
@@ -39,51 +39,41 @@ update_notes: '<h2 dir="auto">What''s Changed</h2>
 
   <ul dir="auto">
 
-  <li>Refactoring by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/memeToasty/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/memeToasty">@memeToasty</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1333591460"
-  data-permission-text="Title is private" data-url="https://github.com/memeToasty/3ds_sorting/issues/3"
-  data-hovercard-type="pull_request" data-hovercard-url="/memeToasty/3ds_sorting/pull/3/hovercard"
-  href="https://github.com/memeToasty/3ds_sorting/pull/3">#3</a></li>
+  <li>two more algos, user improvements by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/JLO64/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/JLO64">@JLO64</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1677071066"
+  data-permission-text="Title is private" data-url="https://github.com/memeToasty/3ds_sorting/issues/8"
+  data-hovercard-type="pull_request" data-hovercard-url="/memeToasty/3ds_sorting/pull/8/hovercard"
+  href="https://github.com/memeToasty/3ds_sorting/pull/8">#8</a></li>
 
-  <li>merge fixes by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/memeToasty/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/memeToasty">@memeToasty</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1340318605"
-  data-permission-text="Title is private" data-url="https://github.com/memeToasty/3ds_sorting/issues/4"
-  data-hovercard-type="pull_request" data-hovercard-url="/memeToasty/3ds_sorting/pull/4/hovercard"
-  href="https://github.com/memeToasty/3ds_sorting/pull/4">#4</a></li>
-
-  <li>add intellisense configuration for vscode by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/memeToasty/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/memeToasty">@memeToasty</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1345565682"
-  data-permission-text="Title is private" data-url="https://github.com/memeToasty/3ds_sorting/issues/5"
-  data-hovercard-type="pull_request" data-hovercard-url="/memeToasty/3ds_sorting/pull/5/hovercard"
-  href="https://github.com/memeToasty/3ds_sorting/pull/5">#5</a></li>
-
-  <li>Added tree view by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/memeToasty/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/memeToasty">@memeToasty</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1361186142"
-  data-permission-text="Title is private" data-url="https://github.com/memeToasty/3ds_sorting/issues/6"
-  data-hovercard-type="pull_request" data-hovercard-url="/memeToasty/3ds_sorting/pull/6/hovercard"
-  href="https://github.com/memeToasty/3ds_sorting/pull/6">#6</a></li>
-
-  <li>Trees by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/memeToasty/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/memeToasty">@memeToasty</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1362420408"
-  data-permission-text="Title is private" data-url="https://github.com/memeToasty/3ds_sorting/issues/7"
-  data-hovercard-type="pull_request" data-hovercard-url="/memeToasty/3ds_sorting/pull/7/hovercard"
-  href="https://github.com/memeToasty/3ds_sorting/pull/7">#7</a></li>
+  <li>added bogo sort by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/JLO64/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/JLO64">@JLO64</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1772352741"
+  data-permission-text="Title is private" data-url="https://github.com/memeToasty/3ds_sorting/issues/9"
+  data-hovercard-type="pull_request" data-hovercard-url="/memeToasty/3ds_sorting/pull/9/hovercard"
+  href="https://github.com/memeToasty/3ds_sorting/pull/9">#9</a></li>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/memeToasty/3ds_sorting/compare/v3.0...v4.0"><tt>v3.0...v4.0</tt></a></p>'
-updated: '2022-09-05T19:53:12Z'
-version: v4.0
-version_title: v4.0
+  <h2 dir="auto">New Contributors</h2>
+
+  <ul dir="auto">
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/JLO64/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/JLO64">@JLO64</a>
+  made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="1677071066" data-permission-text="Title is private" data-url="https://github.com/memeToasty/3ds_sorting/issues/8"
+  data-hovercard-type="pull_request" data-hovercard-url="/memeToasty/3ds_sorting/pull/8/hovercard"
+  href="https://github.com/memeToasty/3ds_sorting/pull/8">#8</a></li>
+
+  </ul>
+
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/memeToasty/3ds_sorting/compare/v4.0...v5.0"><tt>v4.0...v5.0</tt></a></p>'
+updated: '2023-06-24T15:44:37Z'
+version: v5.0
+version_title: v5.0
 ---
 This application serves no purpose other than to show some visualisation of certain sorting algorithms, like one would know from famous YouTube videos.
 
