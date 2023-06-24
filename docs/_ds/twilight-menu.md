@@ -8,23 +8,7 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads:
-  TWiLightMenu-3DS.7z:
-    size: 33311776
-    size_str: 31 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.10.0/TWiLightMenu-3DS.7z
-  TWiLightMenu-DSi.7z:
-    size: 33366576
-    size_str: 31 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.10.0/TWiLightMenu-DSi.7z
-  TWiLightMenu-Flashcard.7z:
-    size: 44247051
-    size_str: 42 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.10.0/TWiLightMenu-Flashcard.7z
-  TWiLightMenu.7z:
-    size: 44454908
-    size_str: 42 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.10.0/TWiLightMenu.7z
+downloads: {}
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -49,8 +33,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.72.0">nds-bootstrap
-  v0.72.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.72.1">nds-bootstrap
+  v0.72.1</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -72,33 +56,58 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>:
-  Added AP-fixes for some Pokémon ROM hacks.
+  Added AP-fixes for
 
   <ul dir="auto">
 
-  <li>Pokémon: Legacy - Sevii Islands (Demo v1.2)</li>
+  <li>Pokémon: Moon Black 2 (Beta v4.2.3)</li>
 
-  <li>Pokémon: Blaze Black Version (v3.2)</li>
-
-  <li>Pokémon: Blaze Black Version 2 (v1.2)</li>
-
-  <li>Pokémon: Volt White Version (v3.2)</li>
-
-  <li>Pokémon: Volt White Version 2 (v1.2)</li>
-
-  <li>Pokémon: Pitch Black Version (v1.3)</li>
-
-  <li>Pokémon: Pure White Version (v1.3)</li>
-
-  <li>Pokémon: Special Adventures Edition (v1.3)</li>
-
-  <li>Pokémon: Yin Black Version 2 (v1.1)</li>
-
-  <li>Pokémon: Yang White Version 2 (v1.1)</li>
+  <li>Pokémon: SoothingSilver Version (v1.3.2)</li>
 
   </ul>
 
   </li>
+
+  <li>Starting points for custom skin music are now supported!
+
+  <ul dir="auto">
+
+  <li>Audio file must be named <code class="notranslate">bgm.start.wav</code>, and
+  goes in the same place as <code class="notranslate">bgm.wav</code>.</li>
+
+  <li>If your custom skin still uses <code class="notranslate">bgm.pcm.raw</code>,
+  it is recommended to switch over to <code class="notranslate">bgm.wav</code>. See
+  <a href="https://wiki.ds-homebrew.com/twilightmenu/custom-dsi-3ds-sfx" rel="nofollow">this
+  page</a> for more information.</li>
+
+  </ul>
+
+  </li>
+
+  <li>The original DSi Menu music has been re-added!
+
+  <ul dir="auto">
+
+  <li>Quality is the same as in prior versions which contained the music.</li>
+
+  </ul>
+
+  </li>
+
+  <li>To celebrate the release of <em>Sonic the Hedgehog</em> on SEGA Genesis/MegaDrive,
+  the TWLMenu++ splash screen now plays a jingle from the game!
+
+  <ul dir="auto">
+
+  <li>For this to take effect, TWiLight Menu++ must be booted on the release date
+  of the game.</li>
+
+  </ul>
+
+  </li>
+
+  <li>To work around a bug, nds-bootstrap is now used to boot Pictochat &amp; DLP,
+  when launched outside of the DS Classic Menu.</li>
 
   </ul>
 
@@ -106,13 +115,13 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
-  Updated DLDI submodule.
+  <li>TWLMenu++ has switched back to non-ADPCM versions of the DSi/3DS/HBL theme music
+  files, in order to improve the quality.
 
   <ul dir="auto">
 
-  <li>Cheats have been confirmed to work on DSTT-based flashcards via nds-bootstrap.</li>
+  <li>This also improves load times when using a specific music option for the first
+  time.</li>
 
   </ul>
 
@@ -124,14 +133,23 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
-  Fixed autoboot for timebombed flashcards.</li>
+  <li>Fixed image viewer not reading image from flashcards.</li>
+
+  <li>Fixed the jingle playing a bit quiet when played in the <em>Style Savvy</em>
+  variant of the TWLMenu++ splash screen.</li>
+
+  </ul>
+
+  <h3 dir="auto">Known bug</h3>
+
+  <ul dir="auto">
+
+  <li>The HBL music start point plays slightly incorrectly.</li>
 
   </ul>'
-updated: '2023-06-05T21:02:06Z'
-version: v25.10.0
-version_title: v25.10.0
+updated: '2023-06-24T04:17:44Z'
+version: v25.11.0
+version_title: v25.11.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
