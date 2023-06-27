@@ -57,10 +57,8 @@ update_notes: '<h1>Super Haxagon 3.4.0</h1>
 
   <p>As for the TI-Nspire build the credits and beatmaps are not currently working.</p>
 
-  <p><g-emoji class="g-emoji" alias="warning" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png">⚠️</g-emoji>
-  Install: Copy <code class="notranslate">haxagon.tns</code> AND <code class="notranslate">levels.haxagon.tns</code>
-  into the <code class="notranslate">ndless</code> folder <g-emoji class="g-emoji"
-  alias="warning" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png">⚠️</g-emoji></p>
+  <p>⚠️ Install: Copy <code class="notranslate">haxagon.tns</code> AND <code class="notranslate">levels.haxagon.tns</code>
+  into the <code class="notranslate">ndless</code> folder ⚠️</p>
 
   <h3>A summary:</h3>
 
