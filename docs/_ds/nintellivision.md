@@ -6,9 +6,9 @@ categories:
 color: '#b4b4d3'
 color_bg: '#6d6d80'
 created: '2021-09-02T21:28:15Z'
-description: Nintellivision - an Intellivision Emulator for the Nintendo DS/DSi. High
-  compatibility, custom overlay support, high score saving, tons of input mapping
-  - all the quality of life improvements you need!
+description: Nintellivision - an Intellivision Emulator for the DS/DSi. High compatibility,
+  custom overlay support, high score saving, tons of input mapping - all the quality
+  of life improvements you need!
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:

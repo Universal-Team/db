@@ -12,21 +12,21 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1366528
+    size: 1368064
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.9/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.0/ColecoDS.nds
   README.md:
-    size: 28903
+    size: 28852
     size_str: 28 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.9/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.0/README.md
   blank.cas:
     size: 1
     size_str: 1 Byte
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.9/blank.cas
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.0/blank.cas
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/7.9/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.0/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -38,17 +38,14 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V7.9: 3-Mar-2023 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V8.0: 28-Jun-2023 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Fixed TMS9918a driver so we show sprites that cut-off near the edge of the top
-  screen.</li>
-
-  <li>Fixed TMS9918a driver so we refresh the borders on text-based games.</li>
+  <li>Minor cleanups only.</li>
 
   </ul>'
-updated: '2023-03-04T13:05:50Z'
-version: '7.9'
-version_title: Version 7.9
+updated: '2023-06-28T15:01:16Z'
+version: '8.0'
+version_title: Version 8.0
 ---
