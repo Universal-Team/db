@@ -39,7 +39,9 @@ update_notes: '<p dir="auto">Updated libctru to v2.2.1 which also fixes build er
 
   Fix Startup Lag for some 3DS''s<br>
 
-  Edit: Added First Switch Build.</p>'
+  Edit: Added First Switch Build.<br>
+
+  Edit2: Added DS RC Build.</p>'
 updated: '2023-06-03T18:27:47Z'
 version: 1.0.5
 version_title: Fix Startup Lag for some 3DS's and First Switch Build
