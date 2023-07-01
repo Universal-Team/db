@@ -11,14 +11,18 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
   on the DSi. New features such as instruction manuals and high score support included!
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
+  LICENSE:
+    size: 1068
+    size_str: 1 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.8/LICENSE
   README.md:
-    size: 35916
-    size_str: 35 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.7/README.md
+    size: 37015
+    size_str: 36 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.8/README.md
   StellaDS.nds:
-    size: 1651200
+    size: 1666048
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.7/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.8/StellaDS.nds
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -32,23 +36,26 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V6.7 : 24-Jun-2023 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V6.8 : 01-Jul-2023 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
-  <li>Fix for Sword of Surtr so it runs correctly.</li>
+  <li>Improved RSYNC so Extra Terrestrials (1984 by Skill Screen Games) works.</li>
 
-  <li>Hold L+R shoulder buttons for ~1 second to take a snapshot of the screen (written
-  to SD card)</li>
+  <li>Improved keypad handling so Magicard and similar keypad/keyboard game work.</li>
 
-  <li>DSi now defaults to the ''Accurate'' BUS MODE for maximum compatibility.</li>
+  <li>Added a few of the ultra-rare games discovered in the last decade to the internal
+  database.</li>
 
-  <li>Improved data bus handling for undriven pins in Tia::Peek() for improved compatibility.</li>
+  <li>Updated internal database to ROMHUNTER v18 for the classic-era games.</li>
 
-  <li>A few more tweaks to a few more games to make them as accurate as possible.</li>
+  <li>Starpath Supercharger (AR) carts now clear RAM by default (prevent lock-ups).</li>
+
+  <li>Added Dual Keypad/Keyboards for the few game that need them (BASIC, Magicard
+  mostly).</li>
 
   </ul>'
-updated: '2023-06-24T12:06:37Z'
-version: '6.7'
-version_title: Version 6.7
+updated: '2023-07-01T10:40:24Z'
+version: '6.8'
+version_title: Version 6.8
 ---
