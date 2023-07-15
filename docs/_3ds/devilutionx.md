@@ -213,15 +213,13 @@ update_notes: '<h3 dir="auto">Features</h3>
   <li>Attack speed not always being accurate for specific combinations of effects
   and actions</li>
 
-  <li>Telekinesis respects the Disable Crippling Shrines setting</li>
-
-  <li>Don''t consume mana when double casting Mana Shield</li>
-
-  <li>Resolve a few bugs and edge cases with the stash</li>
-
   <li>Hellfire: Books from Adria''s shop morphing</li>
 
   <li>Petrified monsters shifting position when hit after loading a save game</li>
+
+  <li>Don''t consume mana when double casting Mana Shield</li>
+
+  <li>Telekinesis respects the Disable Crippling Shrines setting</li>
 
   </ul>
 
@@ -229,7 +227,7 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Items held by cursor lost due to lag indicator</li>
+  <li>Items held by cursor lost due to lag cursor</li>
 
   <li>Items lost due to various desync issues</li>
 
@@ -253,9 +251,9 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <li>Fix gold withdrawal on SDL1 versions</li>
 
-  <li>Translation support on BE systems</li>
-
   <li>macOS/iOS translate system texts</li>
+
+  <li>Translation support on BE systems</li>
 
   </ul>
 
@@ -283,10 +281,10 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>touch: Missing buttons on low end devices</li>
-
   <li>Hero sometimes not willing to drop an item even when there is still room on
   the ground</li>
+
+  <li>touch: Missing buttons on low end devices</li>
 
   </ul>
 
@@ -297,6 +295,8 @@ update_notes: '<h3 dir="auto">Features</h3>
   <li>Allow using the built-in screenshot function during text input</li>
 
   <li>Various crashes</li>
+
+  <li>Resolve a few bugs and edge cases with the stash</li>
 
   <li>A rare freeze when loading hell levels</li>
 
@@ -318,13 +318,9 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <li>The player can spawn in an incorrect location on some levels</li>
 
-  <li>Town portal not always returning to the correct quest level</li>
-
   <li>Missing the extra stats at level 50</li>
 
   <li>Guardian not calculating its damage correctly</li>
-
-  <li>Items lost when triggering a portal while picking them up</li>
 
   <li>Diablo not giving the intended XP on Hell difficulty</li>
 
@@ -332,9 +328,7 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <li>Lightning spell being able to pass through some walls</li>
 
-  <li>Prevent double casting of spells</li>
-
-  <li>Unable to pick Golem spawn location when right-clicking the scroll</li>
+  <li>Double casting of spells</li>
 
   <li>Low quality items on quests after using a town portal</li>
 
@@ -346,21 +340,12 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <li>The Deadly Hunter bow not dealing the correct damage</li>
 
-  <li>Poisoned Water not appearing in the quest log if discovered before talking to
-  Pepin</li>
-
-  <li>Casting spells during level transition will target the old position</li>
-
   <li>Spell remaining unavailable after using a stone shrine until reequipping the
   staff</li>
 
-  <li>Unique monster light being left behind when they are removed</li>
-
   <li>Fast and faster hit recovery stacking</li>
 
-  <li>Camera shaking when loading a save game after Diablo''s death</li>
-
-  <li>Correct calculation for max chages lost with when using the recharge skill</li>
+  <li>Incorrect calculation for max chages lost with when using the recharge skill</li>
 
   <li>Not getting XP after damaging a monster if it dies from a trap</li>
 
@@ -382,37 +367,48 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Add scrollbar to help window</li>
-
-  <li>Show portal animation in town</li>
-
-  <li>Fix inconsistent lighting on quest levels</li>
+  <li>Incorrect Armor Class in Char Panel</li>
 
   <li>Petrified monsters turning to face the attacker</li>
 
-  <li>Display correct Armor Class in Char Panel</li>
+  <li>Petrified monster sliding after having been stone cursed</li>
 
-  <li>Minor rendering bugs in UI panels</li>
-
-  <li>Center 2x2 items that go in 2x3 slots</li>
+  <li>Show portal animation in town</li>
 
   <li>Broken corners on some cathedral levels</li>
+
+  <li>Inconsistent lighting on quest levels</li>
 
   <li>Light smearing when walking in certain directions</li>
 
   <li>Unique monsters light not always following the monster</li>
 
-  <li>Monster sliding after having been stone cursed</li>
+  <li>Unique monster light being left behind when they are removed</li>
+
+  <li>Minor rendering bugs in UI panels</li>
+
+  <li>Center 2x2 items that go in 2x3 slots</li>
 
   <li>Player moonwalking when talking to monsters</li>
 
   <li>Tavern Sign playing the wrong sound when dropped on the floor</li>
+
+  <li>Poisoned Water not appearing in the quest log if discovered before talking to
+  Pepin</li>
+
+  <li>Camera shaking when loading a save game after Diablo''s death</li>
+
+  <li>Add scrollbar to help window</li>
 
   </ul>
 
   <h4 dir="auto">Controls</h4>
 
   <ul dir="auto">
+
+  <li>Unable to pick Golem spawn location when right-clicking the scroll</li>
+
+  <li>Casting spells during level transition will target the old position</li>
 
   <li>Help panel staying open while talking to NPCs</li>
 
@@ -422,9 +418,13 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Minor stability issues</li>
+  <li>Town portal not always returning to the correct quest level</li>
+
+  <li>Items lost when triggering a portal while picking them up</li>
 
   <li>Optic Amulet and Arkaine''s Valor sometimes being misaligned</li>
+
+  <li>Minor stability issues</li>
 
   </ul>
 
@@ -446,8 +446,6 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <li>Desync in Nest when cow quest is enabled</li>
 
-  <li>Gillian saying the grave quest start line multiple times</li>
-
   <li>Being unable to pick up quest items if you didn''t start the game</li>
 
   <li>Quest going out of sync</li>
@@ -457,6 +455,8 @@ update_notes: '<h3 dir="auto">Features</h3>
   <h4 dir="auto">Graphics / Audio</h4>
 
   <ul dir="auto">
+
+  <li>Gillian saying the grave quest start line multiple times</li>
 
   <li>Buggy lighting in Nest and Crypt</li>
 
