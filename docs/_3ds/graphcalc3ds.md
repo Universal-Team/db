@@ -1,5 +1,5 @@
 ---
-author: Sara Sparks
+author: Sparkette
 avatar: https://avatars.githubusercontent.com/u/687313?v=4
 categories:
 - utility
