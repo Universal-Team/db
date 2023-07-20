@@ -12,10 +12,10 @@ created: '2016-02-08T02:26:12Z'
 description: Noob-proof (N)3DS "Custom Firmware"
 download_page: https://github.com/LumaTeam/Luma3DS/releases
 downloads:
-  Luma3DSv12.0.1.zip:
-    size: 404684
-    size_str: 395 KiB
-    url: https://github.com/LumaTeam/Luma3DS/releases/download/v12.0.1/Luma3DSv12.0.1.zip
+  Luma3DSv13.0.zip:
+    size: 419046
+    size_str: 409 KiB
+    url: https://github.com/LumaTeam/Luma3DS/releases/download/v13.0/Luma3DSv13.0.zip
 github: LumaTeam/Luma3DS
 image: https://avatars.githubusercontent.com/u/65085206?v=4&size=128
 image_length: 7260
@@ -28,23 +28,55 @@ systems:
 title: Luma3DS
 update_notes: '<ul dir="auto">
 
-  <li>Hide the "Force routing audio output to headphones" option from bootmenu, and
-  extend it to force-route audio to speakers too</li>
+  <li><strong>Merged <a href="https://github.com/PabloMK7/Luma3DS_3GX">@PabloMK7 and
+  Nanquitas''s fork</a>, adding plugin supports. This allows mods like CTGP-7 to be
+  played</strong>
 
-  <li>Fix handling of negative "brightness" values in screen filters advanced options</li>
+  <ul dir="auto">
 
-  <li>Clarify in bootmenu that the "autoboot homebrew" option is meant to launch the
-  Homebrew Menu</li>
+  <li>NOTE: Due to planned changes (such as kernel reimplementation) older no longer
+  maintained plugins or closed source ones may suddenly stop working at some point
+  in the future. We advise to use open source and/or actively maintained plugins from
+  trusted sources instead</li>
 
-  <li>Always crash when processes unexpectedly fail to load, to help troubleshooting</li>
+  </ul>
 
-  <li>For sysmodules, <code class="notranslate">code.bin</code> and <code class="notranslate">exheader.bin</code>
-  loading are now deprecated. CXI file loading should be used for those (see 12.0
-  release notes), and future release will make CXI loading more seamless</li>
+  </li>
+
+  <li><strong>Added support to replace the default TWL_FIRM (i.e. DS(i) software)
+  convolution-based upscaling filter by the contents of <code class="notranslate">/luma/twl_upscaling_filter.bin</code></strong>
+
+  <ul dir="auto">
+
+  <li>You can find matrix examples <a href="https://github.com/DullPointer/TWPatch_a/blob/master/soos/krnlist_all.h#L192">here</a>
+  and Python code to convert them to the expected format <a href="https://github.com/LumaTeam/Luma3DS/blob/master/arm9/source/patches.c#L774">there</a></li>
+
+  </ul>
+
+  </li>
+
+  <li>Added support to allow Left+Right and Up+Down key combos in TWL_FIRM, although
+  commercial DS(i) games usually prevent these combos on their own too</li>
+
+  <li>Added support for arbitrarily-sized and uncompressed TWL_FIRM and AGB_FIRM,
+  when externally loaded from the <code class="notranslate">/luma</code> folder</li>
+
+  <li>Simplify sysmodule CXI loading and IPS/BPS patching: N3DS bit is now cleared
+  when considering which CXI file to load from <code class="notranslate">/luma/sysmodules</code>.
+  The path for IPS/BPS patches for sysmodules, and sysmodules only, has been moved
+  to <code class="notranslate">/luma/sysmodules/&lt;titleId without N3DS bit&gt;.ips</code>
+  (resp. <code class="notranslate">.bps</code>). This is a breaking change</li>
+
+  <li>Remove the "Use EmuNAND FIRM if booting with R" option and all related logic.
+  This was a leftover of the Gateway era that has no place in 2023</li>
+
+  <li>Fixed a rare bug where the console would boot into 2 white screens</li>
+
+  <li>Other minor changes</li>
 
   </ul>'
-updated: '2023-03-28T20:28:42Z'
-version: v12.0.1
-version_title: v12.0.1
+updated: '2023-07-20T18:13:00Z'
+version: v13.0
+version_title: v13.0
 wiki: https://github.com/LumaTeam/Luma3DS/wiki
 ---
