@@ -29,8 +29,8 @@ title: Luma3DS
 update_notes: '<ul dir="auto">
 
   <li><strong>Merged <a href="https://github.com/PabloMK7/Luma3DS_3GX">@PabloMK7 and
-  Nanquitas''s fork</a>, adding plugin supports. This allows mods like CTGP-7 to be
-  played</strong>
+  @Nanquitas ''s fork</a>, adding plugin support. This allows mods like CTGP-7 to
+  be played</strong>
 
   <ul dir="auto">
 
