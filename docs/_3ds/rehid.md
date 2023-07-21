@@ -8,12 +8,9 @@ color: '#411c38'
 color_bg: '#411c38'
 created: '2020-11-07T12:39:47Z'
 description: HID module rewrite(button remapping and more)
+download_filter: cia
 download_page: https://github.com/hax0kartik/rehid/releases
 downloads:
-  0004013000001D02.cxi:
-    size: 65536
-    size_str: 64 KiB
-    url: https://github.com/hax0kartik/rehid/releases/download/v4.0/0004013000001D02.cxi
   rehidhelper.cia:
     size: 750528
     size_str: 732 KiB
