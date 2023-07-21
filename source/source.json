@@ -3699,12 +3699,6 @@
 		}
 	},
 	{
-		"github": "PabloMK7/Luma3DS_3GX",
-		"title": "Luma3DS (3GX)",
-		"systems": ["3DS"],
-		"categories": ["utility", "firm", "luma3ds"]
-	},
-	{
 		"github": "fincs/new-hbmenu",
 		"systems": ["3DS"],
 		"categories": ["utility"],
@@ -4977,7 +4971,7 @@
 		"categories": ["utility"],
 		"description": "A 3DS game plugin (3GX) to dump the RMC communication between 3DS games and NEX. The traffic is dumped to the SD into pcap files.",
 		"website": "https://pretendo.network/",
-		"long_description": "## Usage\n\n1. Install the [Luma3DS 3GX plugin loader](https://github.com/PabloMK7/Luma3DS_3GX/releases/latest).\n2. Navigate to **luma/plugins** and copy the **.3gx** file as **default.3gx** to load it for all game or place it inside a folder with the game *titleID* you want to use.\n3. Open the Rosalina menu and enable the plugin loader.\n4. Launch the game to dump traffic from. The screen should flash blue and some text will display on the screen. If it says **Not Ready**, it means this game is not compatible. If it says **Ready**, you can go online to dump the traffic.\n\nThe dumps will be placed inside the **HokakuCTR** folder in the SD card root.",
+		"long_description": "## Usage\n\n1. Install the latest [Luma3DS](luma3ds).\n2. Navigate to **luma/plugins** and copy the **.3gx** file as **default.3gx** to load it for all game or place it inside a folder with the game *titleID* you want to use.\n3. Open the Rosalina menu and enable the plugin loader.\n4. Launch the game to dump traffic from. The screen should flash blue and some text will display on the screen. If it says **Not Ready**, it means this game is not compatible. If it says **Ready**, you can go online to dump the traffic.\n\nThe dumps will be placed inside the **HokakuCTR** folder in the SD card root.",
 		"scripts": {
 			"default.3gx": [
 				{
@@ -4985,10 +4979,6 @@
 					"repo": "PretendoNetwork/HokakuCTR",
 					"file": "Hokaku3DS.3gx",
 					"output": "/luma/plugins/default.3gx"
-				},
-				{
-					"type": "promptMessage",
-					"message": "You will need to to install a plugin loader Luma3DS fork,\n\"Luma3DS (3GX)\" and \"Luma with Night/Light\nand Quick-Switchers\" should both work.\n\nAfter installing that and rebooting, open the Rosalina menu\nand enable the plugin loader."
 				}
 			]
 		}
@@ -5043,17 +5033,6 @@
 		"long_description": "Luma3DS es un programa para parchear el software del sistema de las (nuevas) consolas portátiles Nintendo (2) 3DS \"sobre la marcha\", agregando funciones como configuraciones de idioma por juego, capacidades de depuración para desarrolladores y eliminando restricciones impuestas por Nintendo como el bloqueo de la región.\n\nTambién le permite ejecutar contenido no autorizado (\"homebrew\") eliminando los controles de firma. Para usarlo, necesitará una consola capaz de ejecutar software homebrew en el procesador Arm9.\n\nDesde la versión 8.0, Luma3DS tiene su propio menú en el juego, que se puede activar con L + Abajo + Select.",
 		"archive": {
 			"Luma3DS.*_ESP\\.zip": {
-				"boot.firm": ["boot.firm"]
-			}
-		}
-	},
-	{
-		"github": "LopezTutoriales/Luma3DS_3GX_Loader_ESP",
-		"title": "Luma 3DS (3GX) En Español",
-		"systems": ["3DS"],
-		"categories": ["firm", "luma3ds", "translation"],
-		"archive": {
-			"Luma3GX.*_ESP\\.zip": {
 				"boot.firm": ["boot.firm"]
 			}
 		}
@@ -5714,10 +5693,6 @@
 					"repo": "PabloMK7/kartdlphax",
 					"file": "plugin.3gx",
 					"output": "/luma/plugins/0004000000030700/plugin.3gx"
-				},
-				{
-					"type": "promptMessage",
-					"message": "You will need to to install a plugin loader Luma3DS fork,\n\"Luma3DS (3GX)\" and \"Luma with Night/Light\nand Quick-Switchers\" should both work.\n\nAfter installing that and rebooting, open the Rosalina menu\nand enable the plugin loader.\n\nSee https://3ds.hacks.guide/installing-boot9strap-(kartdlphax)\nfor how to use this."
 				}
 			],
 			"[JPN] plugin.3gx": [
@@ -5726,10 +5701,6 @@
 					"repo": "PabloMK7/kartdlphax",
 					"file": "plugin.3gx",
 					"output": "/luma/plugins/0004000000030600/plugin.3gx"
-				},
-				{
-					"type": "promptMessage",
-					"message": "You will need to to install a plugin loader Luma3DS fork,\n\"Luma3DS (3GX)\" and \"Luma with Night/Light\nand Quick-Switchers\" should both work.\n\nAfter installing that and rebooting, open the Rosalina menu\nand enable the plugin loader.\n\nSee https://3ds.hacks.guide/installing-boot9strap-(kartdlphax)\nfor how to use this."
 				}
 			],
 			"[USA] plugin.3gx": [
@@ -5738,10 +5709,6 @@
 					"repo": "PabloMK7/kartdlphax",
 					"file": "plugin.3gx",
 					"output": "/luma/plugins/0004000000030800/plugin.3gx"
-				},
-				{
-					"type": "promptMessage",
-					"message": "You will need to to install a plugin loader Luma3DS fork,\n\"Luma3DS (3GX)\" and \"Luma with Night/Light\nand Quick-Switchers\" should both work.\n\nAfter installing that and rebooting, open the Rosalina menu\nand enable the plugin loader.\n\nSee https://3ds.hacks.guide/installing-boot9strap-(kartdlphax)\nfor how to use this."
 				}
 			]
 		}
