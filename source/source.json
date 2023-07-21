@@ -3719,21 +3719,20 @@
 		"author": "Sono",
 		"avatar": "https://avatars.githubusercontent.com/u/7823099?v=4",
 		"description": "DS(i) mode screen filters and patches",
-		"updated": "2022-06-01T03:12:00Z",
+		"updated": "2023-07-21T00:00:00Z",
 		"created": "2019-07-23T19:16:11Z",
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"unique_ids": [130828],
 		"downloads": {
 			"TWPatch.3dsx": {
-				"url": "https://gbatemp.net/download/twpatch.37400/version/38954/download?file=312135"
+				"url": "https://gbatemp.net/download/twpatch.37400/version/39937/download?file=384259"
 			},
 			"TWPatch.cia": {
-				"url": "https://gbatemp.net/download/twpatch.37400/version/38954/download?file=312134"
+				"url": "https://gbatemp.net/download/twpatch.37400/version/39937/download?file=384260"
 			}
 		},
-		"version": "2022/06/01",
-		"version_title": "New patch: disable CPad",
+		"version": "2023/07/21",
 		"update_notes_md": "Added a patch to disable CPad emulation, for those with broken CPad.",
 		"download_page": "https://gbatemp.net/download/twpatch.37400/",
 		"website": "https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/"
