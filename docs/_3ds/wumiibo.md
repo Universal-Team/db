@@ -1,6 +1,5 @@
 ---
 author: Kartik
-autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/16360444?v=4
 categories:
 - utility
@@ -8,12 +7,9 @@ color: '#44372b'
 color_bg: '#44372b'
 created: '2020-08-20T12:36:12Z'
 description: Amiibo Emulation for 3ds
+download_filter: cia
 download_page: https://github.com/hax0kartik/wumiibo/releases
 downloads:
-  0004013000004002.cxi:
-    size: 60416
-    size_str: 59 KiB
-    url: https://github.com/hax0kartik/wumiibo/releases/download/v4.2/0004013000004002.cxi
   wumiibohelper.cia:
     size: 28677056
     size_str: 27 MiB
