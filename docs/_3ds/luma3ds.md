@@ -12,10 +12,10 @@ created: '2016-02-08T02:26:12Z'
 description: Noob-proof (N)3DS "Custom Firmware"
 download_page: https://github.com/LumaTeam/Luma3DS/releases
 downloads:
-  Luma3DSv13.0.zip:
-    size: 419046
+  Luma3DSv13.0.1.zip:
+    size: 419052
     size_str: 409 KiB
-    url: https://github.com/LumaTeam/Luma3DS/releases/download/v13.0/Luma3DSv13.0.zip
+    url: https://github.com/LumaTeam/Luma3DS/releases/download/v13.0.1/Luma3DSv13.0.1.zip
 github: LumaTeam/Luma3DS
 image: https://avatars.githubusercontent.com/u/65085206?v=4&size=128
 image_length: 7260
@@ -27,6 +27,15 @@ systems:
 - 3DS
 title: Luma3DS
 update_notes: '<ul dir="auto">
+
+  <li>Fix a v13.0 regression where external FIRM module loading (such as TwlBg) was
+  broken</li>
+
+  </ul>
+
+  <p dir="auto"><strong>v13.0 changelog:</strong></p>
+
+  <ul dir="auto">
 
   <li><strong>Merged <a href="https://github.com/PabloMK7/Luma3DS_3GX">@PabloMK7 and
   @Nanquitas ''s fork</a>, adding plugin support. This allows mods like CTGP-7 to
@@ -75,8 +84,8 @@ update_notes: '<ul dir="auto">
   <li>Other minor changes</li>
 
   </ul>'
-updated: '2023-07-20T18:13:00Z'
-version: v13.0
-version_title: v13.0
+updated: '2023-07-21T09:40:52Z'
+version: v13.0.1
+version_title: v13.0.1
 wiki: https://github.com/LumaTeam/Luma3DS/wiki
 ---
