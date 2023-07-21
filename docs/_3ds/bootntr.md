@@ -52,29 +52,8 @@ title: BootNTR
 unique_ids:
 - '0xEB000'
 - '0xEB300'
-update_notes: '<h1 dir="auto">This release is currently broken with official Luma3DS!</h1>
-
-  <p dir="auto">You can temporarily use the <a href="https://github.com/Nanquitas/Luma3DS/releases">Luma3DS
-  3GX Loader build</a> until this issue is addressed!<br>
-
-  <a href="https://github.com/LumaTeam/Luma3DS/blob/master/sysmodules/rosalina/include/csvc.h#L70-L79">The
-  official Luma memory mapping svc</a> doesn''t function properly when mapping single
-  pages from other processes, which causes BootNTR Selector to crash. In order to
-  fix this issue either:</p>
-
-  <ol dir="auto">
-
-  <li>BootNTR Selector code must be adapted to this.</li>
-
-  <li>Luma3DS must support mapping other processes individual memory pages.</li>
-
-  </ol>
-
-  <p dir="auto">While I''ll try to implement solution 1, I''ve decided to make this
-  release as it will take some time to be implemented due to lack of time irl. (I
-  think it''s better that the community has something partially functional than nothing
-  at all.) Once any of the solutions are implemented, I''ll update this release with
-  the updated files, sorry for the inconvenience.</p>
+update_notes: '<h1 dir="auto">Make sure to use Luma3DS v13.0 or newer. Older Luma3DS
+  versions will not work.</h1>
 
   <h1 dir="auto">Changelog</h1>
 
