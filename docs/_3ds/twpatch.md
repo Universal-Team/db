@@ -10,9 +10,9 @@ description: DS(i) mode screen filters and patches
 download_page: https://gbatemp.net/download/twpatch.37400/
 downloads:
   TWPatch.3dsx:
-    url: https://gbatemp.net/download/twpatch.37400/version/38954/download?file=312135
+    url: https://gbatemp.net/download/twpatch.37400/version/39937/download?file=384259
   TWPatch.cia:
-    url: https://gbatemp.net/download/twpatch.37400/version/38954/download?file=312134
+    url: https://gbatemp.net/download/twpatch.37400/version/39937/download?file=384260
 icon: https://db.universal-team.net/assets/images/icons/twpatch.png
 image: https://db.universal-team.net/assets/images/images/twpatch.png
 image_length: 24255
@@ -27,8 +27,7 @@ unique_ids:
 update_notes: '<p>Added a patch to disable CPad emulation, for those with broken CPad.</p>
 
   '
-updated: '2022-06-01T03:12:00Z'
-version: 2022/06/01
-version_title: 'New patch: disable CPad'
+updated: '2023-07-21T00:00:00Z'
+version: 2023/07/21
 website: https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/
 ---

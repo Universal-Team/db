@@ -10,18 +10,20 @@ created: '2020-11-07T12:39:47Z'
 description: HID module rewrite(button remapping and more)
 download_page: https://github.com/hax0kartik/rehid/releases
 downloads:
-  0004013000001D02.zip:
-    size: 51060
-    size_str: 49 KiB
-    url: https://github.com/hax0kartik/rehid/releases/download/v3.0/0004013000001D02.zip
-  rehidhelper.3dsx:
-    size: 1425620
-    size_str: 1 MiB
-    url: https://github.com/hax0kartik/rehid/releases/download/v3.0/rehidhelper.3dsx
+  0004013000001D02.cxi:
+    size: 65536
+    size_str: 64 KiB
+    url: https://github.com/hax0kartik/rehid/releases/download/v4.0/0004013000001D02.cxi
+  rehidhelper.cia:
+    size: 750528
+    size_str: 732 KiB
+    url: https://github.com/hax0kartik/rehid/releases/download/v4.0/rehidhelper.cia
 github: hax0kartik/rehid
 image: https://avatars.githubusercontent.com/u/16360444?v=4&size=128
 image_length: 21350
 layout: app
+qr:
+  rehidhelper.cia: https://db.universal-team.net/assets/images/qr/rehidhelper-cia.png
 screenshots:
 - description: Helper
   url: https://db.universal-team.net/assets/images/screenshots/rehid/helper.png
@@ -29,71 +31,53 @@ source: https://github.com/hax0kartik/rehid
 systems:
 - 3DS
 title: rehid
-update_notes: '<p dir="auto">This is the fourth public release of rehid.<br>
+update_notes: '<p dir="auto">This is the fifth public release of rehid.<br>
 
-  You can update using rehidhelper app.</p>
-
-  <p dir="auto">The following list of changes has been made:-</p>
+  The following changes have been made:</p>
 
   <ul dir="auto">
 
-  <li>
+  <li>Add debugpad support.</li>
 
-  <p dir="auto">You can now use luma''s input redirection with rehid.</p>
+  <li>Fix bugs in CPAD&gt;DPAD and DPAD&gt;CPAD remappings.</li>
 
-  <ul dir="auto">
+  <li>Fix a bug where global remaps would <em>not</em> be applied on the home menu
+  after you close a title.</li>
 
-  <li>With this there is no real disadvantage of using rehid over stock hid!</li>
+  <li>Rehidhelper has been rewritten and should be more stable.</li>
 
-  </ul>
+  <li>Rehidhelper is now available as a CIA and can be installed on the home screen
+  directly.</li>
 
-  </li>
+  <li>Add experimental support for turbofire/autofire. For further details, you can
+  look at <a href="https://gbatemp.net/threads/wip-rehid-button-remapping-for-3ds.585387/post-10079729"
+  rel="nofollow">this</a> post.</li>
 
-  <li>
-
-  <p dir="auto">Fix touch screen bounds.</p>
-
-  <ul dir="auto">
-
-  <li>This was being caused as rehid did not respect touchscreen calibration.</li>
+  <li>Luma v13.0 support has been added by moving to CXI-based patching.</li>
 
   </ul>
 
-  </li>
+  <p dir="auto"><strong>For newcomers, please download and install rehidhelper using
+  FBI and then use rehidhelper to install rehid.</strong></p>
 
-  <li>
+  <p dir="auto"><strong>If you''ve installed rehid previously, please delete the <code
+  class="notranslate">/luma/titles/0004013000001D02</code> and <code class="notranslate">/luma/titles/0004013000003302</code>
+  folder manually and then reinstall rehid using the new rehidhelper.</strong></p>
 
-  <p dir="auto">You can now also do TOUCH&gt;KEY binding.</p>
+  <p dir="auto">You can ask for help either on <a href="https://discord.gg/hyuvmb9"
+  rel="nofollow">my discord server</a> or on the gbatemp <a href="https://gbatemp.net/threads/wip-rehid-button-remapping-for-3ds.585387/"
+  rel="nofollow">thread</a>.</p>
 
-  </li>
+  <p dir="auto">Some premade configs can be found here:-  <a href="https://github.com/Nanashi13/Rehid-configs-files-3DS">https://github.com/Nanashi13/Rehid-configs-files-3DS</a></p>
 
-  <li>
+  <p dir="auto">You can scan the following QR code to install rehidhelper using FBI.<br>
 
-  <p dir="auto">Fix a bug where rehidhelper created folders with wrong titleid.</p>
-
-  </li>
-
-  <li>
-
-  <p dir="auto">For people with broken home menu button, you can now remap your home
-  button to a key combo.</p>
-
-  </li>
-
-  </ul>
-
-  <p dir="auto"><strong>If you''re a newcomer, I personally suggest you install rehid
-  through the rehidhelper.3dsx app, after which you should head to the <a href="https://mikahjc.github.io/3dsRemapBuilder/config"
-  rel="nofollow">site</a>, generate your remappings and then scan the QR with the
-  app.</strong></p>
-
-  <p dir="auto">You can use the gbatemp <a href="https://gbatemp.net/threads/wip-rehid-hid-module-rewrite-for-easy-button-remapping-and-more.585387/"
-  rel="nofollow">thread</a> to ask for support.</p>
-
-  <p dir="auto">Some premade configs can be found here:- <a href="https://github.com/Nanashi13/Rehid-configs-files-3DS">https://github.com/Nanashi13/Rehid-configs-files-3DS</a></p>'
-updated: '2021-06-07T07:03:36Z'
-version: v3.0
-version_title: v3.0 Fourth Release
+  <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/16360444/255073085-762c824a-4f38-47de-bbce-fa35a94e2837.png"><img
+  src="https://user-images.githubusercontent.com/16360444/255073085-762c824a-4f38-47de-bbce-fa35a94e2837.png"
+  alt="image" style="max-width: 100%;"></a></p>'
+updated: '2023-07-21T04:27:05Z'
+version: v4.0
+version_title: v4.0 Fifth Release
 ---
 # Rehid
 
