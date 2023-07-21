@@ -53,7 +53,8 @@ update_notes: '<p dir="auto">This is the fifth public release of rehid.<br>
   look at <a href="https://gbatemp.net/threads/wip-rehid-button-remapping-for-3ds.585387/post-10079729"
   rel="nofollow">this</a> post.</li>
 
-  <li>Luma v13.0 support has been added by moving to CXI-based patching.</li>
+  <li>Luma v13.0 support has been added by moving to CXI-based patching. <strong>This
+  release will only work with luma v13.0 and above</strong></li>
 
   </ul>
 
