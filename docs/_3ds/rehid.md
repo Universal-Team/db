@@ -56,7 +56,8 @@ update_notes: '<p dir="auto">This is the fifth public release of rehid.<br>
   </ul>
 
   <p dir="auto"><strong>For newcomers, please download and install rehidhelper using
-  FBI and then use rehidhelper to install rehid.</strong></p>
+  FBI and then use rehidhelper to install rehid. You DO NOT need to download the 0004013000001D02.cxi
+  file.</strong></p>
 
   <p dir="auto"><strong>If you''ve installed rehid previously, please delete the <code
   class="notranslate">/luma/titles/0004013000001D02</code> and <code class="notranslate">/luma/titles/0004013000003302</code>
