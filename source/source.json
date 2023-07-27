@@ -3392,8 +3392,20 @@
 				{
 					"type": "extractFile",
 					"file": "/TWiLightMenu-3DS.7z",
-					"input": "",
-					"output": "/"
+					"input": "_nds/",
+					"output": "/_nds/"
+				},
+				{
+					"type": "extractFile",
+					"file": "/TWiLightMenu-3DS.7z",
+					"input": "BOOT.NDS",
+					"output": "/BOOT.NDS"
+				},
+				{
+					"type": "extractFile",
+					"file": "/TWiLightMenu-3DS.7z",
+					"input": "TWiLight Menu.cia",
+					"output": "/TWiLight Menu.cia"
 				},
 				{
 					"type": "installCia",
@@ -3402,6 +3414,17 @@
 				{
 					"type": "deleteFile",
 					"file": "/TWiLight Menu.cia"
+				},
+				{
+					"type": "promptMessage",
+					"message": "Extract \"roms\" folder?\n\n(Recommended for new users)",
+					"count": 1
+				},
+				{
+					"type": "extractFile",
+					"file": "/TWiLightMenu-3DS.7z",
+					"input": "roms/",
+					"output": "/roms/"
 				},
 				{
 					"type": "deleteFile",
