@@ -66,9 +66,9 @@ update_notes: '<p dir="auto">Lots of stuff added! First and foremost:</p>
   alt="QR code" data-canonical-src="http://i.imgur.com/Zws5gCI.png" style="max-width:
   100%;"></a></p>
 
-  <p dir="auto">Send ❤️ to <a href="https://github.com/daedreth">daedreth</a> and
-  <a href="https://github.com/astronautlevel2">Alex</a> for their immense work on
-  this while I was in exams week.</p>'
+  <p dir="auto">Send <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">❤️</g-emoji>
+  to <a href="https://github.com/daedreth">daedreth</a> and <a href="https://github.com/astronautlevel2">Alex</a>
+  for their immense work on this while I was in exams week.</p>'
 updated: '2017-06-30T22:45:59Z'
 version: '1.10'
 version_title: 3dfetch v1.10/11 - Major updates
