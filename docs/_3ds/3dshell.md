@@ -74,7 +74,7 @@ update_notes: '<ul dir="auto">
   </ul>
 
   <p dir="auto">If you''d like to support this project, then feel free to <a href="https://www.paypal.me/Joel16IA"
-  rel="nofollow">buy me a cup of <g-emoji class="g-emoji" alias="coffee" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2615.png">☕</g-emoji></a>.</p>'
+  rel="nofollow">buy me a cup of ☕</a>.</p>'
 updated: '2021-03-23T19:28:05Z'
 version: v5.1.0
 version_title: 3DShell v5.1.0
