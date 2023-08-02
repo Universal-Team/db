@@ -9,10 +9,10 @@ created: '2021-01-27T13:49:42Z'
 description: Flipnote Studio Player for Nintendo DS
 download_page: https://github.com/NotImplementedLife/FSPDS/releases
 downloads:
-  FSPDS-V0-2-1.zip:
-    size: 111871
-    size_str: 109 KiB
-    url: https://github.com/NotImplementedLife/FSPDS/releases/download/V0.2.1/FSPDS-V0-2-1.zip
+  FSPDS-V1.0.79212842R.nds:
+    size: 749568
+    size_str: 732 KiB
+    url: https://github.com/NotImplementedLife/FSPDS/releases/download/V1.0/FSPDS-V1.0.79212842R.nds
 github: NotImplementedLife/FSPDS
 icon: https://db.universal-team.net/assets/images/icons/fspds.png
 image: https://db.universal-team.net/assets/images/icons/fspds.png
@@ -20,34 +20,8 @@ image_length: 586
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-prerelease:
-  download_page: https://github.com/NotImplementedLife/FSPDS/releases/tag/V0.3.47244716D
-  downloads:
-    FSPDS-V0.3.47244716D.nds:
-      size: 243712
-      size_str: 238 KiB
-      url: https://github.com/NotImplementedLife/FSPDS/releases/download/V0.3.47244716D/FSPDS-V0.3.47244716D.nds
-  qr:
-    FSPDS-V0.3.47244716D.nds: https://db.universal-team.net/assets/images/qr/prerelease/fspds-v0-3-47244716d-nds.png
-  update_notes: '<ul dir="auto">
-
-    <li>better file management system (still, not perfect)</li>
-
-    <li>added screen saver</li>
-
-    <li>fixed a sound pausing issue that let redundant samples play after the user
-    has switched tabs</li>
-
-    </ul>'
-  update_notes_md: '- better file management system (still, not perfect)
-
-    - added screen saver
-
-    - fixed a sound pausing issue that let redundant samples play after the user has
-    switched tabs'
-  updated: '2022-07-27T17:09:37Z'
-  version: V0.3.47244716D
-  version_title: FSPDS V0.3.47244716D
+qr:
+  FSPDS-V1.0.79212842R.nds: https://db.universal-team.net/assets/images/qr/fspds-v1-0-79212842r-nds.png
 screenshots:
 - description: File list
   url: https://db.universal-team.net/assets/images/screenshots/fspds/file-list.png
@@ -59,18 +33,31 @@ source: https://github.com/NotImplementedLife/FSPDS
 systems:
 - DS
 title: FSPDS
-update_notes: '<p dir="auto">Just some minor console fixes</p>
+update_notes: '<p dir="auto">We''ve made it to 1.0 !</p>
+
+  <p dir="auto">What''s new:</p>
 
   <ul dir="auto">
 
-  <li>Removed debugging artifacts from the player menu</li>
+  <li>recreated the application from scratch</li>
 
-  <li>Updated version label on the bottom side of the border</li>
+  <li>brand new beautiful UI</li>
+
+  <li>considerably improved frame decoding performance</li>
+
+  <li>flipnote paths are preindexed in cache file data for faster access</li>
+
+  <li>flipnotes can be loaded from any location on the SD card</li>
+
+  <li>more stable and useful player bar with previous/next navigation features, auto
+  repeat and shuffling</li>
+
+  <li>can display flipnote author names with Unicode support</li>
 
   </ul>'
-updated: '2022-01-27T19:06:36Z'
-version: V0.2.1
-version_title: FSPDS V0.2.1
+updated: '2023-08-02T15:33:21Z'
+version: V1.0
+version_title: FSPDS V1.0
 website: https://www.gamebrew.org/wiki/FSPDS
 ---
 A DS ROM which allows playing DSi's Flipnote Studio (.ppm) files on a DS Phat/Lite. It features flipnote image and sound player with pause/resume option, and also a file metadata viewer.
