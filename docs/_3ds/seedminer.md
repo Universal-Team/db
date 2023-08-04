@@ -29,7 +29,11 @@ update_notes: '<ul dir="auto">
 
   </ul>
 
-  <p dir="auto">Stealth 22/11/2: Update msed_data to total=1,334,530</p>'
+  <p dir="auto">Stealth 22/11/2: Update msed_data to total=1,334,530<br>
+
+  Stealth 23/8/3: fixed unix permissions, thanks <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/danny8376/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/danny8376">@danny8376</a></p>'
 updated: '2021-12-30T02:15:16Z'
 version: v2.1.6
 version_title: Seeding the BFM Clouds Edition
