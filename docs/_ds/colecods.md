@@ -58,7 +58,10 @@ update_notes: '<p dir="auto">V8.2: 04-Aug-2023 by wavemotion-dave</p>
 
   <li>Other tweaks, fixes and improvements as time permitted.</li>
 
-  </ul>'
+  </ul>
+
+  <p dir="auto">8.2-hotfix to correct keyboard click on ADAM keyboard and fix Memotech
+  MTX keyboard to show BREAK (vs STOP)</p>'
 updated: '2023-08-04T18:27:32Z'
 version: '8.2'
 version_title: Version 8.2
