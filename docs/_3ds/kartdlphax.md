@@ -36,4 +36,5 @@ update_notes: '<ul dir="auto">
 updated: '2023-07-24T23:07:13Z'
 version: v1.3.3
 version_title: Fifth Release
+wiki: https://github.com/PabloMK7/kartdlphax/wiki
 ---
