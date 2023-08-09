@@ -3,8 +3,6 @@ author: DS-Homebrew
 avatar: https://avatars.githubusercontent.com/u/46971470?v=4
 categories:
 - utility
-color: '#464061'
-color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
@@ -27,7 +25,6 @@ downloads:
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v25.11.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
-icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
 image: https://db.universal-team.net/assets/images/images/twilight-menu.png
 image_length: 12520
 layout: app
