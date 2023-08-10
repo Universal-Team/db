@@ -12,21 +12,21 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1355264
+    size: 1375744
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.2/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.3/ColecoDS.nds
   README.md:
-    size: 37410
-    size_str: 36 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.2/README.md
+    size: 38230
+    size_str: 37 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.3/README.md
   blank.cas:
     size: 1
     size_str: 1 Byte
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.2/blank.cas
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.3/blank.cas
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.2/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.3/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -38,33 +38,28 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V8.2: 04-Aug-2023 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V8.3: 10-Aug-2023 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Complete rewrite of the keyboard handler for improved visuals, better emulation
-  and universal handling across all emulated machines.</li>
+  <li>Fix for keyboard handler so that more than one key can be pressed at a time
+  (otherwise you get stutter when moving/shooting in keyboard-mapped games).</li>
 
-  <li>New keyboard graphics for ADAM, MSX (International and Japanese layouts), MTX
-  and a simplified Alpha-Numeric keyboard useful for text adventures.</li>
+  <li>Major overhaul of the Memotech MTX emulation to improve emulation, sound and
+  general stability.</li>
 
-  <li>New global configuration handling - you can disable the showing of the BIOS
-  screen at startup, set your default MSX BIOS, hide emulator text, among other features.</li>
+  <li>New Z80 CTC handler (mainly for Memotech) which provides more accurate sound
+  in Sord M5 and some Einstein games.</li>
 
-  <li>Brighter main font for improved contrast.</li>
+  <li>New Tatung Einstein keyboard graphic and improved keyboard handling.</li>
 
-  <li>New MSX BIOS roms can be optionally installed: Panasonic cf-2700, Yamaha cx5m.rom,
-  Toshiba hx-10.rom, Sony Hit-Bit hb-10.rom, National fs-1300.rom, Casio pv-7.rom</li>
+  <li>New keymap presets for common keyboard games (QAOP, WASD, ZC-Period, etc.) -
+  use the X button to rotate through these when defining keys.</li>
 
   <li>Other tweaks, fixes and improvements as time permitted.</li>
 
-  </ul>
-
-  <p dir="auto">8.2a - hotfix to correct keyboard click on ADAM keyboard and fix Memotech
-  MTX keyboard to show BREAK (vs STOP)<br>
-
-  8.2b - hotfix to set Memotech keyboard country code to 00=English</p>'
-updated: '2023-08-04T18:27:32Z'
-version: '8.2'
-version_title: Version 8.2
+  </ul>'
+updated: '2023-08-10T14:02:55Z'
+version: '8.3'
+version_title: Version 8.3
 ---
