@@ -12,10 +12,10 @@ created: '2016-02-08T02:26:12Z'
 description: Noob-proof (N)3DS "Custom Firmware"
 download_page: https://github.com/LumaTeam/Luma3DS/releases
 downloads:
-  Luma3DSv13.0.1.zip:
-    size: 419052
+  Luma3DSv13.0.2.zip:
+    size: 418836
     size_str: 409 KiB
-    url: https://github.com/LumaTeam/Luma3DS/releases/download/v13.0.1/Luma3DSv13.0.1.zip
+    url: https://github.com/LumaTeam/Luma3DS/releases/download/v13.0.2/Luma3DSv13.0.2.zip
 github: LumaTeam/Luma3DS
 image: https://avatars.githubusercontent.com/u/65085206?v=4&size=128
 image_length: 7260
@@ -28,64 +28,34 @@ systems:
 title: Luma3DS
 update_notes: '<ul dir="auto">
 
-  <li>Fix a v13.0 regression where external FIRM module loading (such as TwlBg) was
-  broken</li>
-
-  </ul>
-
-  <p dir="auto"><strong>v13.0 changelog:</strong></p>
+  <li>Fix older system versions (4.x to 8.x) not booting since Luma3DS v13.0
 
   <ul dir="auto">
 
-  <li><strong>Merged <a href="https://github.com/PabloMK7/Luma3DS_3GX">@PabloMK7 and
-  @Nanquitas ''s fork</a>, adding plugin support. This allows mods like CTGP-7 to
-  be played</strong>
-
-  <ul dir="auto">
-
-  <li>NOTE: Due to planned changes (such as kernel reimplementation) older no longer
-  maintained plugins or closed source ones may suddenly stop working at some point
-  in the future. We advise to use open source and/or actively maintained plugins from
-  trusted sources instead</li>
+  <li>On 4.x, Arm11 custom sysmodules have been disabled. This means no Rosalina and
+  no region-free; if you''re still on these system versions, please just upgrade after
+  having installed Luma3DS.</li>
 
   </ul>
 
   </li>
 
-  <li><strong>Added support to replace the default TWL_FIRM (i.e. DS(i) software)
-  convolution-based upscaling filter by the contents of <code class="notranslate">/luma/twl_upscaling_filter.bin</code></strong>
+  <li>Fix emuNAND support for system version 5.0 (and possibly some other ancient
+  system versions like this one). This was a long-standing issue</li>
 
-  <ul dir="auto">
+  <li>Fix an issue where Arm11 svcBreak exceptions were not displayed as such since
+  Luma3DS v13.0</li>
 
-  <li>You can find matrix examples <a href="https://github.com/DullPointer/TWPatch_a/blob/master/soos/krnlist_all.h#L192">here</a>
-  and Python code to convert them to the expected format <a href="https://github.com/LumaTeam/Luma3DS/blob/master/arm9/source/patches.c#L774">there</a></li>
+  <li>Fix an issue with plugins related to Home Menu notification</li>
 
-  </ul>
+  <li>Properly grant access to all Arm11-accessible IO to 3DSX homebrew</li>
 
-  </li>
-
-  <li>Added support to allow Left+Right and Up+Down key combos in TWL_FIRM, although
-  commercial DS(i) games usually prevent these combos on their own too</li>
-
-  <li>Added support for arbitrarily-sized and uncompressed TWL_FIRM and AGB_FIRM,
-  when externally loaded from the <code class="notranslate">/luma</code> folder</li>
-
-  <li>Simplify sysmodule CXI loading and IPS/BPS patching: N3DS bit is now cleared
-  when considering which CXI file to load from <code class="notranslate">/luma/sysmodules</code>.
-  The path for IPS/BPS patches for sysmodules, and sysmodules only, has been moved
-  to <code class="notranslate">/luma/sysmodules/&lt;titleId without N3DS bit&gt;.ips</code>
-  (resp. <code class="notranslate">.bps</code>). This is a breaking change</li>
-
-  <li>Remove the "Use EmuNAND FIRM if booting with R" option and all related logic.
-  This was a leftover of the Gateway era that has no place in 2023</li>
-
-  <li>Fixed a rare bug where the console would boot into 2 white screens</li>
-
-  <li>Other minor changes</li>
+  <li>Further improvements to overall system stability and other minor adjustments
+  have been made to enhance the user experience</li>
 
   </ul>'
-updated: '2023-07-21T09:40:52Z'
-version: v13.0.1
-version_title: v13.0.1
+updated: '2023-08-12T20:13:42Z'
+version: v13.0.2
+version_title: v13.0.2
 wiki: https://github.com/LumaTeam/Luma3DS/wiki
 ---
