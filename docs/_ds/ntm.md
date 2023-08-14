@@ -33,9 +33,8 @@ update_notes: '<table role="table">
 
   <tr>
 
-  <th align="left"><g-emoji class="g-emoji" alias="exclamation" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2757.png">❗</g-emoji>
-  Please see <a href="https://github.com/Epicpkmn11/NTM/wiki">the wiki</a> for information
-  on how to use NTM.</th>
+  <th align="left">❗ Please see <a href="https://github.com/Epicpkmn11/NTM/wiki">the
+  wiki</a> for information on how to use NTM.</th>
 
   </tr>
 

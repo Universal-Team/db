@@ -11,13 +11,13 @@ download_filter: (\.3dsx|\.cia)
 download_page: https://github.com/Strrationalism/CPyMO/releases
 downloads:
   CPyMO.for.Nintendo.3DS.3dsx:
-    size: 14875872
+    size: 15045848
     size_str: 14 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.1.3/CPyMO.for.Nintendo.3DS.3dsx
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.1.9/CPyMO.for.Nintendo.3DS.3dsx
   CPyMO.for.Nintendo.3DS.cia:
-    size: 11195328
+    size: 11281344
     size_str: 10 MiB
-    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.1.3/CPyMO.for.Nintendo.3DS.cia
+    url: https://github.com/Strrationalism/CPyMO/releases/download/v1.1.9/CPyMO.for.Nintendo.3DS.cia
 github: Strrationalism/CPyMO
 icon: https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/icon.png
 image: https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/banner.png
@@ -33,53 +33,30 @@ systems:
 title: CPyMO
 unique_ids:
 - '0xF3098'
-update_notes: '<h1 dir="auto">平台支持</h1>
+update_notes: '<h1 dir="auto">停更说明</h1>
 
-  <h2 dir="auto">PSP平台支持</h2>
+  <p dir="auto">鉴于本人因工作原因和健康原因，无力继续维护CPyMO，故跳过1.1.4~1.1.8版本，直接发布1.1.9版本，之后到2024年1月19日之前，CPyMO将会只进行Bug修正，并在2024年1月19日发布CPyMO
+  Finale（版本号1.2），此后不再对CPyMO主分支进行维护。</p>
 
-  <ul dir="auto">
+  <h1 dir="auto">注意</h1>
 
-  <li>新增SDL 1.2后端</li>
+  <p dir="auto"><strong>读取1.1.3及以前的存档时，将会出现立绘坐标错误、背景坐标错误、前景动画坐标错误的情况，在后面的场景中恢复正常后重新存档即可解决</strong></p>
 
-  <li>SDL2后端版本提升至第一梯队，并使其支持ffmpeg以支持全部音频功能</li>
+  <p dir="auto"><em>引发这些问题的原因是此版本修改存档数据中坐标的表示方式，使其可以在各个不同分辨率大小的游戏之间通用</em></p>
 
-  <li>SDL2后端版本对话历史数量调到24</li>
-
-  <li>更新图标、启动声音和启动背景图</li>
-
-  <li>修正键位定义</li>
-
-  <li>设置PSP工作在333MHz CPU和167MHz总线下</li>
-
-  <li>已关闭masktrans功能以使其运行流畅</li>
-
-  </ul>
-
-  <h2 dir="auto">PSV平台支持</h2>
+  <h1 dir="auto">废弃</h1>
 
   <ul dir="auto">
 
-  <li>为减少存储卡IO，不再支持自动存档功能</li>
+  <li>移除PSP SDL 1.2后端支持</li>
 
-  <li>在PSV2000日版和Vita3K上正常工作</li>
+  <li>移除GameCube Makefile</li>
 
-  <li>设置了图标和背景图</li>
+  <li>移除WiiU Makefile</li>
 
-  <li>调整键位以使得它和PSP版本一致</li>
+  <li>消除宏</li>
 
-  <li>开启强制居中模式</li>
-
-  <li>开启444MHz CPU/222MHz Bus/222MHz GPU/166MHz GPUXBar模式</li>
-
-  </ul>
-
-  <h2 dir="auto">Wii平台支持</h2>
-
-  <ul dir="auto">
-
-  <li>Wii平台可以实机启动并正常运行</li>
-
-  <li>Wii平台现在打包了元数据和图标</li>
+  <li>移除<code class="notranslate">pymo-convert.ps1</code>和<code class="notranslate">pymo-convert-audio.ps1</code></li>
 
   </ul>
 
@@ -87,101 +64,56 @@ update_notes: '<h1 dir="auto">平台支持</h1>
 
   <ul dir="auto">
 
-  <li>设置界面增加调整值的加减按钮</li>
+  <li>增加乐曲《Song of PyMO》以作为某些平台上的启动音乐使用</li>
 
-  <li>修改文字大小后会立刻反映到设置界面上</li>
+  <li>在PSP平台上使用《Song of PyMO》作为启动音乐</li>
 
-  <li>允许定义<code class="notranslate">DONT_PASS_PATH_TO_FFMPEG</code>以阻止FFmpeg直接使用路径加载文件</li>
+  <li>不同分辨率大小版本的游戏之间存档可以通用</li>
 
-  <li>CG界面将会对过长的CG进行滚动显示</li>
+  <li>Auto模式</li>
 
-  <li>CG界面支持显示CG名称</li>
+  <li>CPyMO ASCII Art现在使用备用缓冲区并关闭光标</li>
 
-  <li>创建CG界面缩略图时将会根据画面比例对图片进行剪裁</li>
+  <li>CPyMO ASCII Art现在可以运行时动态改变终端大小</li>
 
-  <li>支持UWP ARM64</li>
+  <li>使用<code class="notranslate">cpymo-tool strip</code>取代<code class="notranslate">pymo-strip.ps1</code></li>
 
-  <li>支持通过宏<code class="notranslate">DISABLE_AUTOSAVE</code>来关闭自动存档槽位并将其设置为手动存档槽位0</li>
+  <li>使用<code class="notranslate">cpymo-tool convert</code>取代<code class="notranslate">pymo-convert.ps1</code>和<code
+  class="notranslate">pymo-convert-audio.ps1</code></li>
 
-  <li>SDL2默认makefile在设置<code class="notranslate">DISALBE_AUDIO</code>环境变量为1时将会禁止播放声音</li>
-
-  <li>多层UI堆叠</li>
-
-  <li>msgbox允许设置关闭时回调</li>
-
-  <li>SDL1.2后端支持使用SDL_ttf进行字体渲染</li>
-
-  <li>SDL1.2后端支持使用SDL_image进行图片加载</li>
-
-  <li>Switch、PSV支持+键/Start键快速退出</li>
-
-  <li>只有一个游戏时将会直接启动该游戏而不会启动游戏选择器</li>
-
-  <li>现在可以通过定义<code class="notranslate">DISABLE_MASKTRANS</code>宏来禁用masktrans</li>
-
-  <li>尽管不能通过编译，但还是增加了WiiU的Makefile，日后WiiU Homebrew开发工具可用时可立刻使用</li>
+  <li><code class="notranslate">cpymo-tool gen-album-cache</code>现在可以自动搜索<code class="notranslate">#album</code>命令，不再需要手动传入列表名称</li>
 
   </ul>
 
-  <h1 dir="auto">工具</h1>
+  <h1 dir="auto">Bug 修正</h1>
 
   <ul dir="auto">
 
-  <li>修改<code class="notranslate">pymo-convert-audio-to-ogg</code>为<code class="notranslate">pymo-convert-audio</code>使其通用</li>
+  <li>修正了在对话点击后没有刷新屏幕的问题</li>
 
-  <li><code class="notranslate">pymo-convert</code>现在对特殊平台启用强制音频转换以提升音频兼容性</li>
+  <li>修正在定义了<code class="notranslate">GAME_SELECTOR_DIR_2</code>时，只能显示其中一个文件夹的游戏的Bug</li>
 
-  <li><code class="notranslate">pymo-convert</code>现在可以完美支持目标为psp的输出</li>
+  <li>修正在<code class="notranslate">ENABLE_SCREEN_FORCE_CENTERED</code>状态中依然会在SDL2后端下设置逻辑渲染大小的Bug</li>
 
-  </ul>
+  <li>PSV在O3优化下会出现奇怪的行为，因此修改为O2优化级别</li>
 
-  <h1 dir="auto">Bug修正</h1>
+  <li>修正背景效果层与Fade层的绘制顺序存在错误</li>
 
-  <ul dir="auto">
+  <li>修正album界面在显示CG时退出会导致的内存泄漏</li>
 
-  <li>触屏和滚轮操作列表UI时选中项混乱</li>
+  <li>修正在album中单张CG加载异常时产生的未定义行为</li>
 
-  <li>SDL2后端上的强制居中功能现在将会缩放图像到合适大小</li>
+  <li>修正在music和album中找不到列表文件的情况下产生的segmentation fault</li>
 
-  <li>部分平台上SDL2后端文本图像会在另一端冒出来一两像素的问题</li>
+  <li>change命令在加载脚本失败时触发segmentation fault</li>
 
-  <li>修复Switch上不能正确识别<code class="notranslate">pymogames</code>目录的问题</li>
+  <li>mo2pymo中对mo2的<code class="notranslate">GOTO_ENDING</code>命令解释有误</li>
 
-  <li>SDL2后端上播放视频将尽可能利用屏幕空间</li>
+  <li>秋之回忆2不能在结局部分正常跳回主界面的问题</li>
 
-  <li>3DS上视频播放长宽比不正确的问题</li>
+  <li>修复<code class="notranslate">namealign</code>字段不能被正确解释的问题</li>
 
-  <li>视频播放器上存在av_frame未被av_frame_unref而产生泄露</li>
-
-  <li>album界面增加绘制边缘选中提示，并且可以关闭加亮模式，以解决SDL1.2在不支持半透明方块混合的情况下不能正常显示CG界面的问题</li>
-
-  <li>由于O3DS播放视频过于卡顿，已关闭O3DS上的视频播放功能</li>
-
-  <li>播放视频时第一帧产生花屏问题</li>
-
-  <li>修正UI模式下错误的刷新行为</li>
-
-  <li>修正charas不能被即时清理导致skip时内存占用暴涨的问题</li>
-
-  <li>当<code class="notranslate">cpymo_backend_image_load</code>从<code class="notranslate">cpymo_assetloader_load_image_with_mask</code>调用时会产生UB的问题</li>
-
-  <li>恢复支持Windows ARM64</li>
-
-  <li>恢复支持UWP ARM</li>
-
-  <li>cpymo-tool中存在的warning</li>
-
-  <li>修复宏<code class="notranslate">LEAKCHECK</code>失效的bug</li>
-
-  <li>尝试修复cpymo-tool中的内存泄漏问题</li>
-
-  <li>CG鉴赏缩略图生成器内存泄漏Bug修正</li>
-
-  <li>修正stb_truetype下字体后端可能存在的写越界问题</li>
-
-  <li>PSV版本修改了TITLE_ID</li>
-
-  <li>修复Switch版不显示标题的Bug</li>
+  <li><code class="notranslate">cpymo-tool gen-album-ui</code>现在已经不会再覆盖已有的图像文件</li>
 
   </ul>
 
@@ -189,39 +121,64 @@ update_notes: '<h1 dir="auto">平台支持</h1>
 
   <ul dir="auto">
 
-  <li>当滑动List UI时将会隐藏选中项高亮框</li>
+  <li>
 
-  <li>安卓和iOS版本在游戏中退出现在将会退回到游戏选择器而非直接退出</li>
+  <p dir="auto">现在允许对内存分配进行剪裁，当以下情况不能获取足够内存时，将会进行内存剪裁并重试：</p>
 
-  <li>现在BGM音量大小同时也会被作为视频音量大小</li>
+  <ul dir="auto">
 
-  <li>将所有的<code class="notranslate">NDEBUG</code>宏修改为<code class="notranslate">!DEBUG</code>宏</li>
+  <li>加载背景时</li>
 
-  <li>仅在鼠标/触摸不移动时才会触发长按动作</li>
+  <li>加载立绘时</li>
 
-  <li>rmenu中的字体大小现在跟随设置中的字体大小</li>
+  <li>关键字符串无法创建</li>
 
-  <li>延长logo1和logo2的显示时长</li>
+  <li>需要播放BGM时</li>
 
-  <li>game selector翻页尽可能保守</li>
+  <li>使用scroll命令时</li>
 
-  <li>3DS的视频播放器现在采用硬件加速的YUV到RGB转换过程</li>
+  </ul>
 
-  <li>禁用了3DS和PSP版中不必要依赖的编译过程</li>
+  </li>
 
-  <li>3DS版改用64MB内存模式，以避免重启进入大内存模式</li>
+  <li>
 
-  <li>隐藏不必要公开的结构体</li>
+  <p dir="auto">当使用BG_FADE或背景淡化时间为0时，则以低内存的方式加载背景后重试</p>
 
-  <li><code class="notranslate">LOW_FRAME_RATE</code>宏启动的情况下不再允许设置对话速度</li>
+  </li>
 
-  <li>重写<code class="notranslate">cpymo_textbox</code>使其拥有更好的性能</li>
+  <li>
 
-  <li>优化纹理加载失败时3DS后端<code class="notranslate">cpymo_backend_image_create</code>返回的错误信息</li>
+  <p dir="auto">当进入album界面时，将会卸载背景图以降低内存占用</p>
+
+  </li>
+
+  <li>
+
+  <p dir="auto">更好用的文本提取API <code class="notranslate">cpymo_engine_extract_text</code></p>
+
+  </li>
+
+  <li>
+
+  <p dir="auto">现在允许在确定取消对话框中响应取消操作</p>
+
+  </li>
+
+  <li>
+
+  <p dir="auto">改进头文件的导入方式，现在不需要再配置<code class="notranslate">-I</code>选项手动指定各种头文件了</p>
+
+  </li>
+
+  <li>
+
+  <p dir="auto">优化右键菜单背景的缩放比例，使得右键菜单文字一般不会溢出到背景之外</p>
+
+  </li>
 
   </ul>'
-updated: '2022-12-31T15:59:12Z'
-version: v1.1.3
-version_title: CPyMO v1.1.3
-wiki: https://github.com/Strrationalism/CPyMO/wiki
+updated: '2023-08-14T15:24:56Z'
+version: v1.1.9
+version_title: CPyMO Aria v1.1.9
 ---
