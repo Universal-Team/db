@@ -67,7 +67,10 @@ update_notes: '<p dir="auto">V8.4: 15-Aug-2023 by wavemotion-dave</p>
 
   <li>Other tweaks, fixes and improvements as time permitted.</li>
 
-  </ul>'
+  </ul>
+
+  <p dir="auto">Hotfix Version 8.4a with fixes for MSX keyboard corner-keys detection
+  and .col files now auto-detect CV, MSX or SVI</p>'
 updated: '2023-08-15T11:43:39Z'
 version: '8.4'
 version_title: Version 8.4
