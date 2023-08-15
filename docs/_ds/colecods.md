@@ -12,21 +12,21 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1375744
+    size: 1371136
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.3/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.4/ColecoDS.nds
   README.md:
-    size: 38230
-    size_str: 37 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.3/README.md
+    size: 40026
+    size_str: 39 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.4/README.md
   blank.cas:
     size: 1
     size_str: 1 Byte
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.3/blank.cas
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.4/blank.cas
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.3/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.4/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -38,28 +38,37 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V8.3: 10-Aug-2023 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V8.4: 15-Aug-2023 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Fix for keyboard handler so that more than one key can be pressed at a time
-  (otherwise you get stutter when moving/shooting in keyboard-mapped games).</li>
+  <li>Added SVI keyboard graphic and improved SVI keyboard handling.</li>
 
-  <li>Major overhaul of the Memotech MTX emulation to improve emulation, sound and
-  general stability.</li>
+  <li>Added Sega SC-3000 keyboard graphic and improved SC-3000 keyboard handling.</li>
 
-  <li>New Z80 CTC handler (mainly for Memotech) which provides more accurate sound
-  in Sord M5 and some Einstein games.</li>
+  <li>Improved PV-2000 keyboard handling.</li>
 
-  <li>New Tatung Einstein keyboard graphic and improved keyboard handling.</li>
+  <li>Added preliminary keyboard support for Hanimex Pencil II - just enough to run
+  BASIC if you dare.</li>
 
-  <li>New keymap presets for common keyboard games (QAOP, WASD, ZC-Period, etc.) -
-  use the X button to rotate through these when defining keys.</li>
+  <li>Spectravideo SVI-3x8 cartridges supported up to 64K. Load .rom and the emulator
+  will figure it out.</li>
+
+  <li>Fixed bug with VDP re-enable of interrupts (unsure if this affected anything,
+  but it''s corrected anyway).</li>
+
+  <li>Ability to run games at 90% to 130% on a per-game basis (See game configuration).</li>
+
+  <li>Improved mixing of SN+AY sound chips for the few games that utilize both.</li>
+
+  <li>Refactor of keypad graphics and fix for the options overlay so it paints the
+  whole screen without graphical problems (e.g. showing part of the underlying screen).
+  This also frees up precious RAM!</li>
 
   <li>Other tweaks, fixes and improvements as time permitted.</li>
 
   </ul>'
-updated: '2023-08-10T14:02:55Z'
-version: '8.3'
-version_title: Version 8.3
+updated: '2023-08-15T11:43:39Z'
+version: '8.4'
+version_title: Version 8.4
 ---
