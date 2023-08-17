@@ -10,13 +10,13 @@ description: Ikachan for Nintendo DS
 download_page: https://github.com/awkitsune/IkachanDS/releases
 downloads:
   IkachanDS.dsi:
-    size: 1131008
+    size: 1117696
     size_str: 1 MiB
-    url: https://github.com/awkitsune/IkachanDS/releases/download/0.2.0/IkachanDS.dsi
+    url: https://github.com/awkitsune/IkachanDS/releases/download/0.2.1/IkachanDS.dsi
   IkachanDS.nds:
-    size: 1131008
+    size: 1117696
     size_str: 1 MiB
-    url: https://github.com/awkitsune/IkachanDS/releases/download/0.2.0/IkachanDS.nds
+    url: https://github.com/awkitsune/IkachanDS/releases/download/0.2.1/IkachanDS.nds
 github: awkitsune/IkachanDS
 icon: https://db.universal-team.net/assets/images/icons/ikachands.png
 image: https://db.universal-team.net/assets/images/icons/ikachands.png
@@ -34,19 +34,18 @@ source: https://github.com/awkitsune/IkachanDS
 systems:
 - DS
 title: IkachanDS
-update_notes: '<p dir="auto">This is a compatibility release, now the .nds file should
-  be compatible with more flashcards.</p>
-
-  <p dir="auto">The current tested flashcards:</p>
+update_notes: '<p dir="auto">Opening graphics fix:</p>
 
   <ul dir="auto">
 
-  <li>ACE3DS+ with stock Wood</li>
+  <li>now start button name is correct (A instead of Z)</li>
+
+  <li>transparent elements bg and placement fixes</li>
 
   </ul>'
-updated: '2022-10-15T13:36:37Z'
-version: 0.2.0
-version_title: v0.2.0
+updated: '2023-08-17T15:21:01Z'
+version: 0.2.1
+version_title: v0.2.1
 ---
 In this game you can play as a squid named Ikachan, who swims through a cave, meeting and helping other creatures.
 
