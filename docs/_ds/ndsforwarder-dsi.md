@@ -1,5 +1,5 @@
 ---
-author: lifehackerhansol
+author: Han Sol Jin
 avatar: https://avatars.githubusercontent.com/u/37358975?v=4
 categories:
 - utility
