@@ -86,7 +86,7 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/PW5190/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/PW5190">@PW5190</a>:
-  Add Kirby-themed TWLMenu++ splash screen which plays on the day of Kirby''s anniversary!</li>
+  Added Kirby-themed TWLMenu++ splash screen which plays on the day of Kirby''s anniversary!</li>
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>:
@@ -110,8 +110,8 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </li>
 
-  <li>The 3DS theme gets a new update in years! Pictochat, Download Play, and Internet
-  Browser icons have been added!
+  <li>For the first time in years, the 3DS theme gets a new update! Pictochat, Download
+  Play, and Internet Browser icons have been added!
 
   <ul dir="auto">
 
