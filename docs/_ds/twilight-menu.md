@@ -8,23 +8,7 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads:
-  TWiLightMenu-3DS.7z:
-    size: 41161536
-    size_str: 39 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.0.0/TWiLightMenu-3DS.7z
-  TWiLightMenu-DSi.7z:
-    size: 41206821
-    size_str: 39 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.0.0/TWiLightMenu-DSi.7z
-  TWiLightMenu-Flashcard.7z:
-    size: 52127268
-    size_str: 49 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.0.0/TWiLightMenu-Flashcard.7z
-  TWiLightMenu.7z:
-    size: 52333921
-    size_str: 49 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.0.0/TWiLightMenu.7z
+downloads: {}
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -49,8 +33,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.73.0">nds-bootstrap
-  v0.73.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.73.1">nds-bootstrap
+  v0.73.1</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -70,120 +54,37 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Added the following consoles to TWLMenu++ Virtual Console!
+  <li>me, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>,
+  and various: Updated translations!
 
   <ul dir="auto">
 
-  <li>MSX (via ColecoDS)</li>
-
-  <li>Pokémon mini (via PokeMini)</li>
-
-  <li>SEGA SC-3000 (via S8DS &amp; ColecoDS)</li>
+  <li>Czech and Finnish have been added.</li>
 
   </ul>
 
   </li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/PW5190/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/PW5190">@PW5190</a>:
-  Added Kirby-themed TWLMenu++ splash screen which plays on the day of Kirby''s anniversary!</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>:
-  Added AP-fixes for
+  <li>Updating in TWLMenu++ Settings (flashcard required, if using the SD, or vice-versa)
+  is now shown in 3 steps:
 
   <ul dir="auto">
 
-  <li>Pokémon: Refined Gold (v3.2.1)</li>
+  <li>Updating misc srldr files</li>
 
-  <li>Pokémon: Refined Gold Overhaul (v1.4.3)</li>
+  <li>Updating *menu srldr files</li>
 
-  <li>Pokémon: Silver Yellow Version (v1.18)</li>
-
-  <li>Pokémon: Vintage White Version (20230727)</li>
-
-  <li>Pokémon: Yin Black Version (v3.3)</li>
-
-  <li>Pokémon: Yang White Version (v3.3)</li>
+  <li>Updating nds-bootstrap</li>
 
   </ul>
 
   </li>
-
-  <li>For the first time in years, the 3DS theme gets a new update! Pictochat, Download
-  Play, and Internet Browser icons have been added!
-
-  <ul dir="auto">
-
-  <li>You can set either the DS or DSi Browser by selecting the ROM, then press Y
-  button, and scroll down to select <code class="notranslate">Set as Internet Browser</code>.</li>
-
-  <li>Based on a concept by <code class="notranslate">sag4</code> on Discord.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Pictochat &amp; DS Download Play are now booted by nds-bootstrap.
-
-  <ul dir="auto">
-
-  <li>In DSiWarehax, TWLMenu++ will still reboot into Download Play due to locked
-  SCFG.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Unlaunch can now be set as a game loader for old DS homebrew on DSi SD Card.</li>
-
-  <li>GBA &amp; GBC TIDs are now viewable in the per-game settings menu.</li>
-
-  <li>DSL/rom3M build of GBARunner2 is now specifically used for <em>Pokémon: Emerald
-  Version</em> on DS flashcards.</li>
-
-  <li><em>Metroid Fusion</em> &amp; <em>Metroid: Zero Mission</em> will no longer
-  launch if no GBA BIOS is detected.</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/PW5190/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/PW5190">@PW5190</a>:
-  Added ESRB rating infos for multiple DS titles.</li>
-
-  <li>Improved support for custom rvid files for the 3DS theme.
-
-  <ul dir="auto">
-
-  <li>Filesize limit is 7MB</li>
-
-  <li>Any frame rate should work</li>
-
-  <li>Maximum video height is 144px</li>
-
-  </ul>
-
-  </li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed every DS save file being made or expanded at 512KB.</li>
-
-  <li><strong>Also a regression:</strong> To fix a crash, cheats can no longer be
-  used for <em>Animal Crossing: Wild World</em> on DS flashcards.</li>
-
-  <li>Fixed reading GBA booter setting.</li>
-
-  <li>Fixed flickers on the bottom screen outside of R4 and GBC themes.</li>
-
-  <li>Other minor fixes and optimizations.</li>
 
   </ul>'
-updated: '2023-08-23T21:45:07Z'
-version: v26.0.0
-version_title: v26.0.0
+updated: '2023-08-24T05:08:12Z'
+version: v26.0.1
+version_title: v26.0.1 (hotfix)
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
