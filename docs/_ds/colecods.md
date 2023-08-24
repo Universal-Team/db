@@ -12,21 +12,21 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1371136
+    size: 1384448
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.4/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.5/ColecoDS.nds
   README.md:
-    size: 40026
+    size: 40816
     size_str: 39 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.4/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.5/README.md
   blank.cas:
     size: 1
     size_str: 1 Byte
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.4/blank.cas
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.5/blank.cas
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.4/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.5/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -38,42 +38,26 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V8.4: 15-Aug-2023 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V8.5: 20-Aug-2023 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Added SVI keyboard graphic and improved SVI keyboard handling.</li>
+  <li>Added Sord M5 keyboard graphic and improved Sord M5 keyboard handling.</li>
 
-  <li>Added Sega SC-3000 keyboard graphic and improved SC-3000 keyboard handling.</li>
+  <li>Fixed Sord M5 keyboard interrupts so that games like Jumping Jack and Drops
+  play.</li>
 
-  <li>Improved PV-2000 keyboard handling.</li>
+  <li>Added ability to switch Sord M5 BIOS from sordm5.rom to sordm5p.rom when playing
+  PAL games.</li>
 
-  <li>Added preliminary keyboard support for Hanimex Pencil II - just enough to run
-  BASIC if you dare.</li>
+  <li>Added ability to disable the key click when using a game/program that already
+  provides key feedback.</li>
 
-  <li>Spectravideo SVI-3x8 cartridges supported up to 64K. Load .rom and the emulator
-  will figure it out.</li>
+  <li>Added the SMS mapper for the few SG-1000 games that use them (Most notably Loretta
+  no Shouzou: Sherlock Holmes and the SG-1000 port of Prince of Persia).</li>
 
-  <li>Fixed bug with VDP re-enable of interrupts (unsure if this affected anything,
-  but it''s corrected anyway).</li>
-
-  <li>Ability to run games at 90% to 130% on a per-game basis (See game configuration).</li>
-
-  <li>Improved mixing of SN+AY sound chips for the few games that utilize both.</li>
-
-  <li>Refactor of keypad graphics and fix for the options overlay so it paints the
-  whole screen without graphical problems (e.g. showing part of the underlying screen).
-  This also frees up precious RAM!</li>
-
-  <li>Other tweaks, fixes and improvements as time permitted.</li>
-
-  </ul>
-
-  <p dir="auto">Hotfix Version 8.4a with fixes for MSX keyboard corner-keys detection
-  and .col files now auto-detect CV, MSX or SVI<br>
-
-  Hotfix Version 8.4b with hot-spot detection fixes for MTX, SVI and Adam keyboards.</p>'
-updated: '2023-08-15T11:43:39Z'
-version: '8.4'
-version_title: Version 8.4
+  </ul>'
+updated: '2023-08-20T11:33:02Z'
+version: '8.5'
+version_title: Version 8.5
 ---
