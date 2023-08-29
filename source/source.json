@@ -4575,19 +4575,6 @@
 		"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/StackMill/main/3DS/app/banner.png"
 	},
 	{
-		"gbatemp": "35619",
-		"github": "DullPointer/Luma3DS",
-		"title": "Luma with Night/Light and Quick-Switchers",
-		"description": "On-boot, customisable screen filters & other QoL improvements",
-		"systems": ["3DS"],
-		"categories": ["utility", "firm", "luma3ds"],
-		"archive": {
-			".*\\.zip": {
-				"boot.firm": ["boot.firm", "luma/"]
-			}
-		}
-	},
-	{
 		"github": "windows-server-2003/ThirdTube",
 		"systems": ["3DS"],
 		"categories": ["utility"],
