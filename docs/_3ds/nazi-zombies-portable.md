@@ -8,12 +8,6 @@ color_bg: '#1e1015'
 created: '2022-02-08T23:52:38Z'
 description: 'Call of Duty: Zombies demake, powered by various Quake sourceports.'
 download_filter: 3ds
-download_page: https://github.com/nzp-team/nzportable/releases
-downloads:
-  nzportable-3ds.zip:
-    size: 29531376
-    size_str: 28 MiB
-    url: https://github.com/nzp-team/nzportable/releases/download/nightly/nzportable-3ds.zip
 github: nzp-team/nzportable
 icon: https://raw.githubusercontent.com/nzp-team/glquake/main/icon.png
 image: https://raw.githubusercontent.com/nzp-team/glquake/main/banner.png
@@ -34,71 +28,7 @@ source: https://github.com/nzp-team/nzportable
 systems:
 - 3DS
 title: 'Nazi Zombies: Portable'
-update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlies
-  are generated at 3AM EST if changes are made to any component of the project in
-  the past 24 hours. Be sure to check the build date above and compare it to the version
-  displayed on the main menu to verify whether or not you are out of date.<br>
-
-  Changes in the following areas have been made since the last nightly:</p>
-
-  <ul dir="auto">
-
-  <li>
-
-  <p dir="auto">Game Assets</p>
-
-  </li>
-
-  <li>
-
-  <p dir="auto">QuakeC (Game Code)</p>
-
-  </li>
-
-  <li>
-
-  <p dir="auto">dQuakePlus (PSP Engine)</p>
-
-  </li>
-
-  <li>
-
-  <p dir="auto">Quakespasm (PS VITA/Nintendo Switch Engine)</p>
-
-  </li>
-
-  <li>
-
-  <p dir="auto">glQuake (Nintendo 3DS Engine)</p>
-
-  </li>
-
-  </ul>
-
-  <p dir="auto">Installation Instructions:</p>
-
-  <ul dir="auto">
-
-  <li>PC: Extract .ZIP archive into a folder of your choice. Linux users may need
-  to mark as executable with <code class="notranslate">chmod</code></li>
-
-  <li>PSP: Extract the  folder inside the .ZIP archive into <code class="notranslate">PSP/GAME/</code>.</li>
-
-  <li>Nintendo Switch: Extract the  folder inside the .ZIP archive into <code class="notranslate">/switch/</code>
-  and launch with Homebrew Launcher. Requires extra memory, so make sure to open HBLauncher
-  by holding ''R'' over an installed title!</li>
-
-  <li>PS VITA: Extract the .ZIP archive into ux0: and install <code class="notranslate">nzp.vpk</code>.</li>
-
-  <li>Nintendo 3DS: Extract the .ZIP archive into <code class="notranslate">/3ds/</code></li>
-
-  </ul>
-
-  <p dir="auto">You can also play the WebGL version at <a href="https://nzp.gay/"
-  rel="nofollow">https://nzp.gay/</a></p>'
-updated: '2023-08-30T07:17:22Z'
-version: nightly
-version_title: 2.0.0-indev+20230830071623
+updated: '---'
 website: https://discord.gg/6GBGf4N
 ---
 A Work-in-Progress Quake "demake" of the Zombies mode from Call of Duty.
