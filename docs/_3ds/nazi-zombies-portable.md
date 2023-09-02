@@ -43,7 +43,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <ul dir="auto">
 
-  <li>QuakeC (Game Code)</li>
+  <li>Game Assets</li>
+
+  <li>dQuakePlus (PSP Engine)</li>
 
   <li>Quakespasm (PS VITA/Nintendo Switch Engine)</li>
 
@@ -70,9 +72,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <p dir="auto">You can also play the WebGL version at <a href="https://nzp.gay/"
   rel="nofollow">https://nzp.gay/</a></p>'
-updated: '2023-09-01T15:54:01Z'
+updated: '2023-09-02T07:15:49Z'
 version: nightly
-version_title: 2.0.0-indev+20230901155216
+version_title: 2.0.0-indev+20230902071447
 website: https://discord.gg/6GBGf4N
 ---
 A Work-in-Progress Quake "demake" of the Zombies mode from Call of Duty.
