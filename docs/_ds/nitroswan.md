@@ -10,9 +10,9 @@ description: Bandai WonderSwan emulator for Nintendo DS.
 download_page: https://github.com/FluBBaOfWard/NitroSwan/releases
 downloads:
   NitroSwan.zip:
-    size: 158339
-    size_str: 154 KiB
-    url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.6.0/NitroSwan.zip
+    size: 160102
+    size_str: 156 KiB
+    url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.6.2/NitroSwan.zip
 github: FluBBaOfWard/NitroSwan
 icon: https://db.universal-team.net/assets/images/icons/nitroswan.png
 image: https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/logo.png
@@ -24,20 +24,20 @@ systems:
 title: NitroSwan
 update_notes: '<ul dir="auto">
 
-  <li>Added per line emulation of Display Control register.</li>
+  <li>Added SLOT-2 RAM support.</li>
 
-  <li>Added per line emulation of FG Window register.</li>
+  <li>Added IPS patch functionality.</li>
 
-  <li>Added per line emulation of Map Address register.</li>
+  <li>Added power on/off ability.</li>
 
-  <li>Added differences for the 2 cart mappers.</li>
+  <li>Fixed correct frame-rate without "Allow Refresh Change".</li>
 
-  <li>Optimized tile map rendering.</li>
+  <li>Fixed sound mixing.</li>
 
-  <li>Optimized cpu core.</li>
+  <li>Optimized mapper writing.</li>
 
   </ul>'
-updated: '2023-08-05T12:53:32Z'
-version: v0.6.0
-version_title: V0.6.0
+updated: '2023-09-03T13:44:27Z'
+version: v0.6.2
+version_title: V0.6.2
 ---
