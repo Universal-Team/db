@@ -63,6 +63,6 @@ update_notes: '<p dir="auto">LimePlayer3DS is a gui music player for the 3DS wit
 updated: '2021-05-15T07:58:46Z'
 version: v0.0.10
 version_title: Beta 3 - Late pandemic release
-website: https://github.com/Oreo639/LimePlayer3DS/wiki/
+website: https://github.com/oreo639/LimePlayer3DS/wiki/
 wiki: https://github.com/oreo639/LimePlayer3DS/wiki
 ---
