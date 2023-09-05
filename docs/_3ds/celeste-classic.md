@@ -10,8 +10,6 @@ description: Celeste Classic port by MateoThePro, gba port by JeffRuLz, Celeste 
   made by Matt Makes Games
 downloads:
   CelesteClassic_v1_1_homebrew.cia:
-    size: 8905664
-    size_str: 8 MiB
     url: https://github.com/MateoThePro/Celeste-Classic-3DS/raw/main/CelesteClassic_v1_1_homebrew.cia
 github: MateoThePro/Celeste-Classic-3DS
 icon: https://raw.githubusercontent.com/MateoThePro/Celeste-Classic-3DS/main/celeste_classic_3ds_icon.png
