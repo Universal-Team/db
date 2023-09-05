@@ -21,7 +21,6 @@ downloads:
 github: Strrationalism/CPyMO
 icon: https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/icon.png
 image: https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/banner.png
-image_length: 28367
 layout: app
 license: agpl-3.0
 license_name: GNU Affero General Public License v3.0
