@@ -3,6 +3,8 @@ author: Universal-Team
 avatar: https://avatars.githubusercontent.com/u/49733679?v=4
 categories:
 - utility
+color: '#b7b7b7'
+color_bg: '#808080'
 created: '2019-11-03T17:35:42Z'
 description: A universally good TextEditor! :)
 github: Universal-Team/Universal-Edit
