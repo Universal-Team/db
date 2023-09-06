@@ -6,7 +6,8 @@ categories:
 color: '#e38f98'
 color_bg: '#805055'
 created: '2021-10-17T19:00:08Z'
-description: Bandai WonderSwan emulator for Nintendo DS.
+description: Bandai WonderSwan (Color/Crystal) & PocketChallenge V2 emulator for the
+  Nintendo DS(i)/3DS.
 download_page: https://github.com/FluBBaOfWard/NitroSwan/releases
 downloads:
   NitroSwan.zip:
