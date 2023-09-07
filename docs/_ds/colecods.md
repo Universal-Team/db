@@ -12,17 +12,21 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1287680
+    size: 1305600
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.6/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.7/ColecoDS.nds
   README.md:
-    size: 42956
-    size_str: 41 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.6/README.md
+    size: 43835
+    size_str: 42 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.7/README.md
+  blank.cas:
+    size: 1
+    size_str: 1 Byte
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.7/blank.cas
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.6/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.7/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -34,18 +38,18 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V8.6: 31-Aug-2023 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V8.7: 07-Sep-2023 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Added .dsk support for Tatung Einstein games!</li>
+  <li>Added .dsk support for MSX1 games (360K SS or 720K DS only).</li>
 
-  <li>Improved Tatung Einstein keyboard and joystick handling.</li>
+  <li>Improved key debounce so that pressing on the virtual keyboard is much cleaner.</li>
 
-  <li>Minor graphical tweaks and improvements as time allowed.</li>
+  <li>Minor memory optimization to free up some resources.</li>
 
   </ul>'
-updated: '2023-08-31T11:01:00Z'
-version: '8.6'
-version_title: Version 8.6
+updated: '2023-09-07T10:37:32Z'
+version: '8.7'
+version_title: Version 8.7
 ---
