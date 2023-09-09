@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 41722840
+    size: 41816770
     size_str: 39 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.0.1/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.1.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 41774926
+    size: 41866544
     size_str: 39 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.0.1/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.1.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 52695012
+    size: 52783413
     size_str: 50 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.0.1/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.1.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 52898753
+    size: 52990029
     size_str: 50 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.0.1/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.1.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -49,8 +49,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v0.73.1">nds-bootstrap
-  v0.73.1</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.0.0">nds-bootstrap
+  v1.0.0</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -70,37 +70,61 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>me, <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>,
-  and various: Updated translations!
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>:
+  Updated AP-fix for <em>Pokémon: Refined Gold Overhaul</em> to v2.0.</li>
+
+  <li>Box art / Game cover display now supports transparency!
 
   <ul dir="auto">
 
-  <li>Czech and Finnish have been added.</li>
+  <li>Useful for if you want to use game logos in the 3DS theme instead of game covers.</li>
 
   </ul>
 
   </li>
 
-  <li>Updating in TWLMenu++ Settings (flashcard required, if using the SD, or vice-versa)
-  is now shown in 3 steps:
+  <li>Removed broken AP-fix for <em>Golden Sun: Dark Dawn</em>, as nds-bootstrap now
+  properly handles the patching.</li>
+
+  <li>Added ESRB ratings for
 
   <ul dir="auto">
 
-  <li>Updating misc srldr files</li>
+  <li>Asphalt Urban GT</li>
 
-  <li>Updating *menu srldr files</li>
+  <li>Asphalt Urban GT 2</li>
 
-  <li>Updating nds-bootstrap</li>
+  <li>Black Sigil: Blade of the Exiled</li>
 
   </ul>
 
   </li>
+
+  </ul>
+
+  <h3 dir="auto">Improvement</h3>
+
+  <ul dir="auto">
+
+  <li>Various: Updated translations.</li>
+
+  </ul>
+
+  <h3 dir="auto">Bug fixes</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed wrong placement of wireless icon(s) in DS Classic Menu.</li>
+
+  <li>Fixed a long-standing bug where a DSiWare title that doesn''t use save data
+  would get moved to the <code class="notranslate">saves</code> folder when re-opening
+  TWLMenu++.</li>
 
   </ul>'
-updated: '2023-08-24T05:08:12Z'
-version: v26.0.1
-version_title: v26.0.1 (hotfix)
+updated: '2023-09-09T03:58:45Z'
+version: v26.1.0
+version_title: v26.1.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
