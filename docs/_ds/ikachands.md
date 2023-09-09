@@ -3,8 +3,6 @@ author: tilderain / Vladimir Kosickij
 avatar: https://avatars.githubusercontent.com/u/45891293?v=4
 categories:
 - game
-color: '#998080'
-color_bg: '#806b6b'
 created: '2022-10-14T14:45:14Z'
 description: Ikachan for Nintendo DS
 download_page: https://github.com/awkitsune/IkachanDS/releases
@@ -18,9 +16,8 @@ downloads:
     size_str: 1 MiB
     url: https://github.com/awkitsune/IkachanDS/releases/download/0.2.1/IkachanDS.nds
 github: awkitsune/IkachanDS
-icon: https://db.universal-team.net/assets/images/icons/ikachands.png
-image: https://db.universal-team.net/assets/images/icons/ikachands.png
-image_length: 630
+icon: https://raw.githubusercontent.com/awkitsune/IkachanDS/master/icon.bmp
+image: https://raw.githubusercontent.com/awkitsune/IkachanDS/master/icon.bmp
 layout: app
 qr:
   IkachanDS.dsi: https://db.universal-team.net/assets/images/qr/ikachands-dsi.png
