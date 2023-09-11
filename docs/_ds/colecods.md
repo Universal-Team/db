@@ -12,21 +12,21 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1305600
+    size: 1397248
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.7/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.8/ColecoDS.nds
   README.md:
-    size: 43835
-    size_str: 42 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.7/README.md
+    size: 45827
+    size_str: 44 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.8/README.md
   blank.cas:
     size: 1
     size_str: 1 Byte
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.7/blank.cas
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.8/blank.cas
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.7/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/8.8/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -38,18 +38,22 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V8.7: 07-Sep-2023 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V8.8: 11-Sep-2023 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Added .dsk support for MSX1 games (360K SS or 720K DS only).</li>
+  <li>Major cleanup of the Coleco ADAM driver so that most games now load up first
+  try and RESET handling is smooth and consistent.</li>
 
-  <li>Improved key debounce so that pressing on the virtual keyboard is much cleaner.</li>
+  <li>For the ADAM, added toggle between full keyboard and the joystick/joypad so
+  now you don''t have to choose one layout or the other.</li>
 
-  <li>Minor memory optimization to free up some resources.</li>
+  <li>Simplified keyboard handling. Now the user just picks ''Full Keyboard'' and
+  the emulator will figure out the best keyboard overlay to use based on the machine
+  being emulated.</li>
 
   </ul>'
-updated: '2023-09-07T10:37:32Z'
-version: '8.7'
-version_title: Version 8.7
+updated: '2023-09-11T11:03:21Z'
+version: '8.8'
+version_title: Version 8.8
 ---
