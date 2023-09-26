@@ -6077,6 +6077,6 @@
 			"cia.*\\.zip": {
 				"nimbus.cia": ["cias/nimbus.cia", "3ds/juxt-prod.pem", "luma"]
 			}
-		},
+		}
 	}
 ]
