@@ -6069,13 +6069,14 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"unique_ids": [868562],
-		"long_description": "#### Usage\n- Run the Nimbus homebrew and choose to use either a Pretendo or Nintendo account\n\nIf the app doesn't work, try the following steps:\n- Reboot your 3DS while holding SELECT and make sure "Enable loading external FIRMs and modules" and "Enable game patching" are both turned on\n- Ensure that your Luma3DS version is 13.0 or higher",
+		"long_description": "#### Usage\n- Run the Nimbus homebrew and choose to use either a Pretendo or Nintendo account\n\nIf the app doesn't work, try the following steps:\n- Reboot your 3DS while holding SELECT and make sure \"Enable loading external FIRMs and modules\" and \"Enable game patching\" are both turned on\n- Ensure that your Luma3DS version is 13.0 or higher",
 		"archive": {
 			"3dsx.*\\.zip": {
 				"nimbus.3dsx": ["3ds/nimbus.3dsx", "3ds/juxt-prod.pem", "luma"]
 			},
 			"cia.*\\.zip": {
 				"nimbus.cia": ["cias/nimbus.cia", "3ds/juxt-prod.pem", "luma"]
+
 			}
 		}
 	}
