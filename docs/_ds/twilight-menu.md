@@ -82,13 +82,13 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   <li>Copy <code class="notranslate">bootstrap.nds</code> to <code class="notranslate">sd:/_nds/TWiLightMenu/emulators/</code>,
   and rename to <code class="notranslate">GBARunner3.nds</code></li>
 
+  <li>Put <code class="notranslate">bios.bin</code> in <code class="notranslate">sd:/_gba/</code></li>
+
   <li>Launch a GBA game, and report any issues you encounter to <a href="https://github.com/Gericom/GBARunner3/issues">https://github.com/Gericom/GBARunner3/issues</a></li>
 
   </ol>
 
   <ul dir="auto">
-
-  <li>As of this TWLMenu++ release, GBARunner3 currently doesn''t work on DS flashcards.</li>
 
   <li>If you want good compatibility when playing GBA games, please stick to GBARunner2
   for now. Only use GBARunner3 for testing purposes.</li>
