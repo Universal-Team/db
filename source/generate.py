@@ -184,7 +184,7 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 	)
 
 	# Fetch info for GitHub apps and output
-	for app in source:
+	for app, i in enumerate(source):
 		foundExisting = False
 
 		if priorityOnlyMode and not ("priority" in app and app["priority"]):
@@ -276,8 +276,8 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 									if "Content-Length" in head.headers:
 										app["downloads"][name]["size"] = int(head.headers["Content-Length"])
 										app["downloads"][name]["size_str"] = byteCount(app["downloads"][name]["size"])
-
-			if "github" in app:
+			skipApi = ((i % 2) == int((datetime.now().hour % 12) > 5)) or ("priority" in app and app["priority"])
+			if "github" in app and not skipApi:
 				print("GitHub")
 				api = requests.get(f"https://api.github.com/repos/{app['github']}", headers=header if header else None).json()
 				releases = requests.get(f"https://api.github.com/repos/{app['github']}/releases", headers=header if header else None).json()
