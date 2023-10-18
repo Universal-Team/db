@@ -4965,7 +4965,7 @@
 				{
 					"type": "downloadRelease",
 					"repo": "PretendoNetwork/HokakuCTR",
-					"file": "Hokaku3DS.3gx",
+					"file": "HokakuCTR.3gx",
 					"output": "/luma/plugins/default.3gx"
 				}
 			]
