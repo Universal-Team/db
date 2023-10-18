@@ -320,7 +320,7 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 						username = names[username]
 					else:
 						user = requests.get(f"https://api.github.com/users/{username}", headers=header if header else None).json()
-						assert "message" not in release, release["message"]
+						assert "message" not in user, user["message"]
 						names[username] = user["name"] if user["name"] is not None else username
 						username = names[username]
 					app["author"] = username
