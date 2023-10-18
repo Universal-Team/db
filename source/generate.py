@@ -185,10 +185,19 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 
 	# Fetch info for GitHub apps and output
 	for i, app in enumerate(source):
-		foundExisting = False
+		doUpdate = True
 
-		if priorityOnlyMode and not ("priority" in app and app["priority"]):
+		if "priority" not in app:
+			app["priority"] = False
+
+		# Only update alternating halves of the list to save API hits
+		# if ((i % 2) == int((datetime.now().hour % 12) > 5)):
+		# 	doUpdate = app["priority"]
+
+		if (priorityOnlyMode and not app["priority"]) or not doUpdate:
 			temp = list(filter(lambda x: "github" in x and "github" in app and x["github"] == app["github"], oldData))
+			if len(temp) == 0:
+				temp = list(filter(lambda x: "gbatemp" in x and "gbatemp" in app and x["gbatemp"] == app["gbatemp"], oldData))
 			if len(temp) == 0:
 				temp = list(filter(lambda x: "bitbucket" in x and "bitbucket" in app and x["bitbucket"]["repo"] == app["bitbucket"]["repo"], oldData))
 			if len(temp) == 0:
@@ -200,10 +209,14 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 				if "updated" in temp[0]:
 					daysSinceUpdate = (datetime.now(tz=timezone.utc) - parser.parse(temp[0]["updated"])).days
 
-				if daysSinceUpdate > 30:
-					foundExisting = True
+				doUpdate = daysSinceUpdate <= 30
+				if not doUpdate:
 					app = temp[0]
-		if not foundExisting or not (priorityOnlyMode and not ("priority" in app and app["priority"])):
+					app["priority"] = False
+			else:
+				doUpdate = True
+
+		if doUpdate:
 			if "gbatemp" in app:
 				print("GBAtemp Download Center")
 				r = requests.get(f"https://gbatemp.net/download/{app['gbatemp']}/")
@@ -276,11 +289,13 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 									if "Content-Length" in head.headers:
 										app["downloads"][name]["size"] = int(head.headers["Content-Length"])
 										app["downloads"][name]["size_str"] = byteCount(app["downloads"][name]["size"])
-			doApi = ((i % 2) == int((datetime.now().hour % 12) > 5)) or ("priority" in app and app["priority"])
-			if "github" in app and doApi:
+
+			if "github" in app:
 				print("GitHub")
 				api = requests.get(f"https://api.github.com/repos/{app['github']}", headers=header if header else None).json()
+				assert "message" not in api, api["message"]
 				releases = requests.get(f"https://api.github.com/repos/{app['github']}/releases", headers=header if header else None).json()
+				assert "message" not in releases, releases["message"]
 				release = None
 				prerelease = None
 				if len(releases) > 0 and releases[0]["prerelease"]:
@@ -305,6 +320,7 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 						username = names[username]
 					else:
 						user = requests.get(f"https://api.github.com/users/{username}", headers=header if header else None).json()
+						assert "message" not in release, release["message"]
 						names[username] = user["name"] if user["name"] is not None else username
 						username = names[username]
 					app["author"] = username
@@ -588,7 +604,7 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 				app["urls"].append(f"https://db.universal-team.net/{sys.lower()}/{app['slug']}")
 
 		# Make QR
-		if not foundExisting or not (priorityOnlyMode and not ("priority" in app and app["priority"])):
+		if doUpdate:
 			if "downloads" in app:
 				for item in app["downloads"]:
 					if item.endswith(".cia") or item.endswith(".nds") or item.endswith(".dsi"):
@@ -666,6 +682,7 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 		# Website file
 		web = app.copy()
 		web["layout"] = "app"
+		web.pop("priority")
 		# We want unique IDs as hex
 		if "unique_ids" in web:
 			web["unique_ids"] = [f"0x{uid:X}" for uid in web["unique_ids"]]
