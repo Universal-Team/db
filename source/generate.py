@@ -184,7 +184,7 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 	)
 
 	# Fetch info for GitHub apps and output
-	for app, i in enumerate(source):
+	for i, app in enumerate(source):
 		foundExisting = False
 
 		if priorityOnlyMode and not ("priority" in app and app["priority"]):
