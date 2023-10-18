@@ -899,14 +899,6 @@
 		"icon": "https://raw.githubusercontent.com/joel16/3DShell/master/res/ic_launcher_filemanager.png"
 	},
 	{
-		"github": "HIDE810/WiFi-Status-Checker",
-		"systems": ["3DS"],
-		"categories": ["utility"],
-		"unique_ids": [4658],
-		"image": "https://raw.githubusercontent.com/HIDE810/WiFi-Status-Checker/master/resource/banner.png",
-		"icon": "https://raw.githubusercontent.com/HIDE810/WiFi-Status-Checker/master/resource/icon.png"
-	},
-	{
 		"github": "Trinitro21/lpp-3ds",
 		"title": "SmileBASIC File Manager",
 		"systems": ["3DS"],
