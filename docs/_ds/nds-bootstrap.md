@@ -28,7 +28,6 @@ nightly:
   downloads:
     nds-bootstrap.7z:
       url: https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z
-priority: true
 source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
