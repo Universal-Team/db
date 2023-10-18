@@ -10,6 +10,10 @@ description: Burninate the countryside!
 download_filter: 3ds
 download_page: https://github.com/Mips96/Trogdor-Reburninated/releases
 downloads:
+  Trogdor-Reburninated-v2.0-3ds-cia.zip:
+    size: 37603797
+    size_str: 35 MiB
+    url: https://github.com/Mips96/Trogdor-Reburninated/releases/download/v2.0/Trogdor-Reburninated-v2.0-3ds-cia.zip
   Trogdor-Reburninated-v2.0-3ds.zip:
     size: 37224571
     size_str: 35 MiB
@@ -94,12 +98,18 @@ update_notes: '<p dir="auto">The v2.0 update is here!</p>
 
   <p dir="auto">One more thing: The PSP port currently has issues that will be fixed
   at a later date, so the new PSP release is experimental. If you want something more
-  stable for PSP, fall back to v1.1 for now.</p>
+  stable for PSP, fall back to v1.1 for now. (UPDATE: Now runs in PPSSPP; see below)</p>
 
   <p dir="auto">Enjoy!</p>
 
   <p dir="auto"><strong>Hotfix 3/10/23</strong>: Removed unused graphics from downloads
-  (it''s only ~200KB when zipped, but still).</p>'
+  (it''s only ~200KB when zipped, but still).<br>
+
+  <strong>Coldfix 9/22/23</strong>: Added installable CIA for 3DS version.<br>
+
+  <strong>Coldfix 9/22/23 again</strong>: Added second PSP build (psp-experimental-2).
+  Since this only seems to work in PPSSPP and not on a real system, I''m still labeling
+  it as experimental.</p>'
 updated: '2023-03-03T01:15:04Z'
 version: v2.0
 version_title: v2.0

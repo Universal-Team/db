@@ -9,10 +9,10 @@ created: '2017-02-12T20:50:13Z'
 description: 'NTR Launcher - Bring back classic DS boot animation + boot older flashcarts! '
 download_page: https://github.com/ApacheThunder/NTR_Launcher/releases
 downloads:
-  NTR_Launcher_v2_5.zip:
-    size: 282820
-    size_str: 276 KiB
-    url: https://github.com/ApacheThunder/NTR_Launcher/releases/download/2.5/NTR_Launcher_v2_5.zip
+  NTR_Launcher_v2_6.zip:
+    size: 1660856
+    size_str: 1 MiB
+    url: https://github.com/ApacheThunder/NTR_Launcher/releases/download/2.6/NTR_Launcher_v2_6.zip
 github: ApacheThunder/NTR_Launcher
 icon: https://db.universal-team.net/assets/images/icons/ntr-launcher.png
 image: https://db.universal-team.net/assets/images/images/ntr-launcher.png
@@ -26,20 +26,24 @@ systems:
 title: NTR Launcher
 update_notes: '<ul dir="auto">
 
-  <li>Added Legacy mode. This is the previous version of cart loader that doesn''t
-  have TWL mode. Use this mode to boot certain flashcarts that lost compatiblity with
-  2.4 version of NTR_Launcher. Note that only the TWL clock option will work with
-  Legacy mode. The other advanced options do not work with Legacy mode. Legacy mode
-  is skipped automatically if a TWL cart is detected as the previous bootloader doesn''t
-  support TWL carts.</li>
+  <li>Debug Mode setting now actually does something. :P</li>
 
-  <li>3DS CIA file is now found inside the ZIP file instead of as separate asset on
-  Github.</li>
+  <li>R4, M3DS Real, and DSXtreme now boot correctly.</li>
+
+  <li>Many more flashcarts that weren''t working probably work now.</li>
+
+  <li>Legacy Bootloader appears to have no advantage over new one. If reports of no
+  issues with default bootloader with obscure flashcarts, it may be removed from next
+  release pending feedback.</li>
+
+  <li>DSi System Menu/HiyaCFW copy now actually contains NTR_Launcher in the release
+  zip. I had included ntr bootstrap by mistake in the v2.5 release zip. This has been
+  resolved in this new release.</li>
 
   </ul>'
-updated: '2021-03-02T05:07:48Z'
-version: '2.5'
-version_title: 2.5 Release Build
+updated: '2023-09-23T02:37:42Z'
+version: '2.6'
+version_title: 2.6 Release Build
 ---
 A DS Slot-1 Launcher. Original code from NitroHax but with cheat engine/menu stripped out. Useful for launching older DS flashcarts.
 Credits go to Chishm for NitroHax which this source is based from and WinterMute for dslink source/reset code.

@@ -1,5 +1,5 @@
 ---
-author: LeifEricson
+author: GlimmerDev
 autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/13992834?v=4
 categories:
@@ -13,7 +13,7 @@ downloads:
   Orchestrina.zip:
     size: 20274620
     size_str: 19 MiB
-    url: https://github.com/EBLeifEricson/orchestrina/releases/download/v0.5.0-beta/Orchestrina.zip
+    url: https://github.com/GlimmerDev/orchestrina/releases/download/v0.5.0-beta/Orchestrina.zip
 github: EBLeifEricson/orchestrina
 icon: https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/icon.png
 image: https://raw.githubusercontent.com/EBLeifEricson/orchestrina/master/meta/banner2.png
@@ -21,18 +21,18 @@ image_length: 14835
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-source: https://github.com/EBLeifEricson/orchestrina
+source: https://github.com/GlimmerDev/orchestrina
 systems:
 - 3DS
 title: Orchestrina
 unique_ids:
 - '0xF1020'
-update_notes: '<p dir="auto">This release features a major redesign of the Wind Waker
-  baton in order to more closely reflect the game.</p>
+update_notes: '<p>This release features a major redesign of the Wind Waker baton in
+  order to more closely reflect the game.</p>
 
-  <p dir="auto">What''s new:</p>
+  <p>What''s new:</p>
 
-  <ul dir="auto">
+  <ul>
 
   <li>Rhythm meter added for Wind Waker</li>
 

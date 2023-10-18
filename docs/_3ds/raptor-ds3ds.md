@@ -15,10 +15,10 @@ downloads:
     size: 14319750
     size_str: 13 MiB
     url: https://github.com/RetroGamer02/raptor-consoles/releases/download/1.0.5/Raptor3DS.V1.0.5.zip
-  RaptorNDS.V1.0.5.zip:
-    size: 1878273
+  RaptorNDS.V1.0.6.zip:
+    size: 1877924
     size_str: 1 MiB
-    url: https://github.com/RetroGamer02/raptor-consoles/releases/download/1.0.5/RaptorNDS.V1.0.5.zip
+    url: https://github.com/RetroGamer02/raptor-consoles/releases/download/1.0.5/RaptorNDS.V1.0.6.zip
 github: RetroGamer02/raptor-consoles
 icon: https://raw.githubusercontent.com/RetroGamer02/raptor3ds/master/rapicon.png
 image: https://raw.githubusercontent.com/RetroGamer02/raptor3ds/master/RapBanner.png
@@ -42,7 +42,9 @@ update_notes: '<p dir="auto">Updated libctru to v2.2.1 which also fixes build er
 
   Edit: Added First Switch Build.<br>
 
-  Edit2: Added NDS Build.</p>'
+  Edit2: Added NDS Build.<br>
+
+  Edit3: Added Xbox Build.</p>'
 updated: '2023-06-03T18:27:47Z'
 version: 1.0.5
 version_title: Fix Startup Lag for some 3DS's and First Switch Build

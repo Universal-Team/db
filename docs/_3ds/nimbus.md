@@ -8,18 +8,18 @@ color_bg: '#2b2952'
 created: '2022-01-08T01:36:02Z'
 download_page: https://github.com/PretendoNetwork/nimbus/releases
 downloads:
-  3dsx.1.1.0.zip:
-    size: 107609
-    size_str: 105 KiB
-    url: https://github.com/PretendoNetwork/nimbus/releases/download/v1.1.0/3dsx.1.1.0.zip
-  cia.1.1.0.zip:
-    size: 315472
-    size_str: 308 KiB
-    url: https://github.com/PretendoNetwork/nimbus/releases/download/v1.1.0/cia.1.1.0.zip
-  combined.1.1.0.zip:
-    size: 416634
-    size_str: 406 KiB
-    url: https://github.com/PretendoNetwork/nimbus/releases/download/v1.1.0/combined.1.1.0.zip
+  3dsx.1.5.0.zip:
+    size: 392096
+    size_str: 382 KiB
+    url: https://github.com/PretendoNetwork/nimbus/releases/download/v1.5.0/3dsx.1.5.0.zip
+  cia.1.5.0.zip:
+    size: 623419
+    size_str: 608 KiB
+    url: https://github.com/PretendoNetwork/nimbus/releases/download/v1.5.0/cia.1.5.0.zip
+  combined.1.5.0.zip:
+    size: 1008890
+    size_str: 985 KiB
+    url: https://github.com/PretendoNetwork/nimbus/releases/download/v1.5.0/combined.1.5.0.zip
 github: PretendoNetwork/nimbus
 icon: https://db.universal-team.net/assets/images/icons/nimbus.png
 image: https://db.universal-team.net/assets/images/images/nimbus.png
@@ -42,28 +42,37 @@ update_notes: '<h2 dir="auto">What''s Changed</h2>
 
   <ul dir="auto">
 
-  <li>Improve clarity of README usage and building. by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/TraceEntertains/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/TraceEntertains">@TraceEntertains</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1792726075"
-  data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/nimbus/issues/14"
-  data-hovercard-type="pull_request" data-hovercard-url="/PretendoNetwork/nimbus/pull/14/hovercard"
-  href="https://github.com/PretendoNetwork/nimbus/pull/14">#14</a></li>
+  <li>Button controls/enum stuff by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/TraceEntertains/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/TraceEntertains">@TraceEntertains</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1819466759"
+  data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/nimbus/issues/19"
+  data-hovercard-type="pull_request" data-hovercard-url="/PretendoNetwork/nimbus/pull/19/hovercard"
+  href="https://github.com/PretendoNetwork/nimbus/pull/19">#19</a></li>
 
-  <li>Refine/change makefile and change readme for the new luma sysmodule patching
-  commit by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/TraceEntertains/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/TraceEntertains">@TraceEntertains</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1795604036"
-  data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/nimbus/issues/15"
-  data-hovercard-type="pull_request" data-hovercard-url="/PretendoNetwork/nimbus/pull/15/hovercard"
-  href="https://github.com/PretendoNetwork/nimbus/pull/15">#15</a></li>
+  <li>Fix touchscreen button select bug and use FRD instead of ACT for account detection
+  to make it simpler by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/TraceEntertains/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/TraceEntertains">@TraceEntertains</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1822784691"
+  data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/nimbus/issues/20"
+  data-hovercard-type="pull_request" data-hovercard-url="/PretendoNetwork/nimbus/pull/20/hovercard"
+  href="https://github.com/PretendoNetwork/nimbus/pull/20">#20</a></li>
+
+  <li>Nimbus 1.5.0 by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/TraceEntertains/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/TraceEntertains">@TraceEntertains</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1927362316"
+  data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/nimbus/issues/23"
+  data-hovercard-type="pull_request" data-hovercard-url="/PretendoNetwork/nimbus/pull/23/hovercard"
+  href="https://github.com/PretendoNetwork/nimbus/pull/23">#23</a></li>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/PretendoNetwork/nimbus/compare/v1.0.2...v1.1.0"><tt>v1.0.2...v1.1.0</tt></a></p>'
-updated: '2023-07-25T00:22:42Z'
-version: v1.1.0
-version_title: v1.1.0 - Luma 13
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/PretendoNetwork/nimbus/compare/v1.0.3...v1.5.0"><tt>v1.0.3...v1.5.0</tt></a></p>'
+updated: '2023-10-10T20:21:57Z'
+version: v1.5.0
+version_title: v1.5.0
 ---
 #### Usage
 - Run the Nimbus homebrew and choose to use either a Pretendo or Nintendo account
