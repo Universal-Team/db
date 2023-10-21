@@ -9,10 +9,10 @@ created: '2017-02-12T20:50:13Z'
 description: 'NTR Launcher - Bring back classic DS boot animation + boot older flashcarts! '
 download_page: https://github.com/ApacheThunder/NTR_Launcher/releases
 downloads:
-  NTR_Launcher_v2_6.zip:
-    size: 1660856
-    size_str: 1 MiB
-    url: https://github.com/ApacheThunder/NTR_Launcher/releases/download/2.6/NTR_Launcher_v2_6.zip
+  NTR_Launcher.zip:
+    size: 2429924
+    size_str: 2 MiB
+    url: https://github.com/ApacheThunder/NTR_Launcher/releases/download/2.7/NTR_Launcher.zip
 github: ApacheThunder/NTR_Launcher
 icon: https://db.universal-team.net/assets/images/icons/ntr-launcher.png
 image: https://db.universal-team.net/assets/images/images/ntr-launcher.png
@@ -26,24 +26,22 @@ systems:
 title: NTR Launcher
 update_notes: '<ul dir="auto">
 
-  <li>Debug Mode setting now actually does something. :P</li>
+  <li>Overhaul using improved bootloader from NitrohaxTWL.</li>
 
-  <li>R4, M3DS Real, and DSXtreme now boot correctly.</li>
+  <li>Alternate bootloader removed as it appears uneeded.</li>
 
-  <li>Many more flashcarts that weren''t working probably work now.</li>
+  <li>Improved debug output using text instead of colored boxes from<br>
 
-  <li>Legacy Bootloader appears to have no advantage over new one. If reports of no
-  issues with default bootloader with obscure flashcarts, it may be removed from next
-  release pending feedback.</li>
+  NitroHax''s original bootloader design. Debug mode will now show enhanced<br>
 
-  <li>DSi System Menu/HiyaCFW copy now actually contains NTR_Launcher in the release
-  zip. I had included ntr bootstrap by mistake in the v2.5 release zip. This has been
-  resolved in this new release.</li>
+  status readouts of cart load process. Text displayed in red if an error<br>
+
+  occurs (visible even when debug mode is off if error occured)</li>
 
   </ul>'
-updated: '2023-09-23T02:37:42Z'
-version: '2.6'
-version_title: 2.6 Release Build
+updated: '2023-10-21T02:43:58Z'
+version: '2.7'
+version_title: 2.7 Release Build
 ---
 A DS Slot-1 Launcher. Original code from NitroHax but with cheat engine/menu stripped out. Useful for launching older DS flashcarts.
 Credits go to Chishm for NitroHax which this source is based from and WinterMute for dslink source/reset code.
