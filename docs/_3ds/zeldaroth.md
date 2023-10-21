@@ -9,14 +9,10 @@ created: '2016-05-06T23:17:31Z'
 description: Port of Zelda ROTH on 3ds
 download_page: https://github.com/nop90/ZeldaROTH/releases
 downloads:
-  ZeldaROTH_3DSX_v1.0.2.zip:
-    size: 44110456
-    size_str: 42 MiB
-    url: https://github.com/nop90/ZeldaROTH/releases/download/v1.0.2/ZeldaROTH_3DSX_v1.0.2.zip
-  ZeldaROTH_CIA_v1.0.2.zip:
-    size: 45068215
-    size_str: 42 MiB
-    url: https://github.com/nop90/ZeldaROTH/releases/download/v1.0.2/ZeldaROTH_CIA_v1.0.2.zip
+  ZeldaROTH.v1.0.1.zip:
+    size: 89178580
+    size_str: 85 MiB
+    url: https://github.com/nop90/ZeldaROTH/releases/download/v1.0.1/ZeldaROTH.v1.0.1.zip
 github: nop90/ZeldaROTH
 icon: https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/banner.png
@@ -30,12 +26,16 @@ unique_ids:
 - '0x9972'
 update_notes: '<ul dir="auto">
 
-  <li>Corrected SFX frequency</li>
+  <li>Solved a memory leak</li>
 
-  <li>Some small bug fixed</li>
+  <li>Fixed accented letters output and other text problems</li>
+
+  <li>Improved Italian traslation</li>
+
+  <li>Trimmed Forest Temple music</li>
 
   </ul>'
-updated: '2016-06-11T21:08:59Z'
-version: v1.0.2
-version_title: Minor changes
+updated: '2016-06-05T21:07:19Z'
+version: v1.0.1
+version_title: Bugfixes
 ---
