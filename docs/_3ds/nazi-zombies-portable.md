@@ -26,10 +26,12 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/gameplay-2.png
 - description: Gameplay 3
   url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/gameplay-3.png
-- description: Gameplay 4
-  url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/gameplay-4.png
-- description: Loading
-  url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/loading.png
+- description: Loading screen
+  url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/loading-screen.png
+- description: Main menu
+  url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/main-menu.png
+- description: Map selection
+  url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/map-selection.png
 source: https://github.com/nzp-team/nzportable
 systems:
 - 3DS
@@ -77,10 +79,10 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 updated: '2023-10-24T07:17:47Z'
 version: nightly
 version_title: 2.0.0-indev+20231024071638
-website: https://discord.gg/6GBGf4N
+website: https://github.com/nzp-team/nzportable
 ---
-A Work-in-Progress Quake "demake" of the Zombies mode from Call of Duty.
+A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at War.
 
-The game itself is mostly feature-equivalent with Call of Duty: World at War on a generic level. Gameplay components are implemented, with some parity differences, but most World at War maps and their gimmicks are not yet represented. Various small features from Call of Duty: Black Ops are present, but not on as wide of a scale as compared to World at War.
+Feature-equivalent with Call of Duty: World at War on a generic level. Gameplay components are implemented, with minor parity differences. Most World at War maps and their gimmicks are not yet represented. Minor features from Call of Duty: Black Ops are also present.
 
-Oh yeah, we have lots of bugs, too.
+Features "Nacht der Untoten" and many maps created by the Community, bundled in.
