@@ -11,9 +11,9 @@ description: Bandai WonderSwan (Color/Crystal) & Benesse PocketChallenge V2 emul
 download_page: https://github.com/FluBBaOfWard/NitroSwan/releases
 downloads:
   NitroSwan.zip:
-    size: 160390
-    size_str: 156 KiB
-    url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.6.3/NitroSwan.zip
+    size: 161520
+    size_str: 157 KiB
+    url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.6.4/NitroSwan.zip
 github: FluBBaOfWard/NitroSwan
 icon: https://db.universal-team.net/assets/images/icons/nitroswan.png
 image: https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/logo.png
@@ -25,20 +25,20 @@ systems:
 title: NitroSwan
 update_notes: '<ul dir="auto">
 
-  <li>Fixed value of SP when running without boot rom.</li>
+  <li>Added alternate joypad layout.</li>
 
-  <li>Fixed boot rom behavior for PCV2.</li>
+  <li>Fixed unsigned mul on ASWAN.</li>
 
-  <li>Fixed SLOT-2 RAM support for EZ-Flash 3-In-1.</li>
+  <li>Fixed immediate mul.</li>
 
-  <li>Optimized IO port writing.</li>
+  <li>Fixed 32/16 division.</li>
 
-  <li>Optimized some opcodes.</li>
+  <li>Fixed IO register differences between mono/color mode.</li>
 
-  <li>Tweaked EEPROM handling.</li>
+  <li>Optimized 16-bit signed mul.</li>
 
   </ul>'
-updated: '2023-09-24T10:54:57Z'
-version: v0.6.3
-version_title: V0.6.3
+updated: '2023-10-25T13:51:49Z'
+version: v0.6.4
+version_title: V0.6.4
 ---
