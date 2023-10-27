@@ -10,9 +10,9 @@ description: NesDS1.3c
 download_page: https://github.com/DS-Homebrew/NesDS/tree/master/release
 downloads:
   nesDS.7z:
-    size: 189039
+    size: 188684
     size_str: 184 KiB
-    url: https://github.com/DS-Homebrew/NesDS/releases/download/v1.3c%2B/nesDS.7z
+    url: https://github.com/DS-Homebrew/NesDS/releases/download/v1.3d%2B/nesDS.7z
   nesDS.nds:
     size: 463872
     size_str: 453 KiB
@@ -33,7 +33,9 @@ source: https://github.com/DS-Homebrew/NesDS
 systems:
 - DS
 title: nesDS
-update_notes: '<p dir="auto">Installation for TWLMenu++ users:</p>
+update_notes: '<p dir="auto">Cross-post from <a href="https://github.com/nibbles27/nesDS/releases/tag/NesDS1.3d%2B">https://github.com/nibbles27/nesDS/releases/tag/NesDS1.3d%2B</a></p>
+
+  <p dir="auto">Installation for TWLMenu++ users:</p>
 
   <ul dir="auto">
 
@@ -44,47 +46,33 @@ update_notes: '<p dir="auto">Installation for TWLMenu++ users:</p>
 
   <h3 dir="auto">Changelog</h3>
 
-  <ul dir="auto">
+  <p dir="auto">Different from 1.3c:<br>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/nadiaholmquist/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/nadiaholmquist">@nadiaholmquist</a>:
-  The FDS BIOS is now separate from the emulator, due to copyright reasons. To re-add
-  it, place <code class="notranslate">disksys.rom</code> on the SD root.</li>
+  Added Screen selection presets, 14 different Palettes, and Restored Gamma selection
+  (5 levels)<br>
 
-  <li>nibbles27: Added new different palettes to choose from and gamma section as
-  well as screen scale presets.</li>
+  Restored old Debug menu so as to not break Mapper 4 games and others to a crash
+  (like Dragon Warrior 1)<br>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/NightScript370/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/NightScript370">@NightScript370</a>:
-  The key combo to exit the emulator is now L+R+Down+B to be consistent with nds-bootstrap.</li>
+  Restored bad Punch Out hack from PNES-9.98 (Mapper 9/10) - Made not so bad!</p>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ds-sloth/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ds-sloth">@ds-sloth</a>:
-  Changes to save / save loading code (<a href="https://github.com/DS-Homebrew/NesDS/issues/6"
-  data-hovercard-type="issue" data-hovercard-url="/DS-Homebrew/NesDS/issues/6/hovercard">#6</a>)
+  <p dir="auto">Added in support for mappers:<br>
 
-  <ul dir="auto">
+  mapper 42<br>
 
-  <li>unified load from menu and load from argv</li>
+  mapper 119<br>
 
-  <li>create nesDS.ini if it does not exist; allow it to be stored in <code class="notranslate">_nds</code></li>
+  mapper 140<br>
 
-  <li>added internal support code for separate save context</li>
+  mapper 249</p>
 
-  <li>added menu option for saves subdir, polished menu</li>
+  <p dir="auto">Some of these use existing mappers just added in support for them
+  in cart.s and added/modified some mapper files to add support for these!</p>
 
-  </ul>
-
-  </li>
-
-  <li>nibbles27: Fixed some screen presets (All Scaled now properly scales the entire
-  area), added a new lower default scale setting, reworded palette selection like
-  "Wii NES VC"</li>
-
-  <li>Other improvements</li>
-
-  </ul>'
+  <p dir="auto">Also updated to include map 159 for DBZ 2 and 3 translations, please
+  set to 159 for these two titles with iNES Header Editor - <a href="https://www.romhacking.net/utilities/1352/"
+  rel="nofollow">https://www.romhacking.net/utilities/1352/</a></p>'
 updated: '2018-10-19T22:09:05Z'
 version: v1.3c
-version_title: v1.3c+
+version_title: v1.3d+
 ---
