@@ -72,9 +72,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <p dir="auto">You can also play the WebGL version at <a href="https://nzp.gay/"
   rel="nofollow">https://nzp.gay/</a></p>'
-updated: '2023-10-29T22:30:13Z'
+updated: '2023-10-30T07:17:37Z'
 version: nightly
-version_title: 2.0.0-indev+20231029222913
+version_title: 2.0.0-indev+20231030071638
 website: https://github.com/nzp-team/nzportable
 ---
 A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at War.
