@@ -6102,5 +6102,19 @@
 		"description": "Better Call Saul for the Nintendo DS.",
 		"long_description": "Better Call Saul for the Nintendo DS.\n\n### Playing\nTouch the screen to start the game (once you've had enough of the title screen). To play, you need to move the randomly shuffled spliced numbers into the four slots to match Mesa Verde's address&dagger; - 1216 (one after Magna Carta)! Keep sound on for the best experience.\n\n&dagger; *Doesn't Jimmy switch the numbers to 1261 in the show?* → I think if you double check you'll see that 1216 is correct!!!",
 		"icon": "https://raw.githubusercontent.com/WiIIiam278/bcsds/master/icon.bmp"
+	},
+	{
+		"github": "Golem642/CtrRGBPAT2",
+		"title": "CtrRGBPAT2",
+		"systems": ["3DS"],
+		"unique_ids": [866235],
+		"categories": ["utility"],
+		"author": "CPunch & Golem64",
+		"website": "https://github.com/Golem642/CtrRGBPAT2",
+		"description": "LED color and pattern modifier for (n)3DS/2DS. Customize your notifications however you want !",
+		"long_description": "# CtrRGBPAT2\nThis 3DS application allows the LED color to be changed. In order for this to work, Luma CFW (custom firmware) needs to be installed.\nThanks to [CPunch](https://github.com/CPunch/CtrRGBPATTY/) for the original project !\n\n## Features\nCustomize the LED color and pattern for when you receive notifications ! Whether SpotPass, StreetPass, online Friends, or more (Yes, there's more) ! Why keep the default blue when you can have a cool-looking purple for example 😎\nEverything is simple and made so you cannot possibly screw something up (or else you really wanted to)\n\n## Upcoming\n- Save and restore feature\n- Proper UI ?\n\nHope you enjoy ! :)",
+		"image": "https://github.com/Golem642/CtrRGBPAT2/blob/v2.2.1/resources/banner.png",
+		"icon": "https://github.com/Golem642/CtrRGBPAT2/blob/v2.2.1/resources/icon.png",
+		"script_message": "You will need to have 'Game Patching' and 'Loading external FIRMs and modules' enabled in LumaCFW settings (hold select on boot)"
 	}
 ]
