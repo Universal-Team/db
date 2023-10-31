@@ -6108,7 +6108,7 @@
 		"title": "CtrRGBPAT2",
 		"systems": ["3DS"],
 		"unique_ids": [866235],
-		"categories": ["utility", "luma3ds"],
+		"categories": ["utility"],
 		"author": "CPunch & Golem64",
 		"website": "https://github.com/Golem642/CtrRGBPAT2",
 		"description": "LED color and pattern modifier for (n)3DS/2DS. Customize your notifications however you want !",
