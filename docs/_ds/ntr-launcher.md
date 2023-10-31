@@ -10,9 +10,9 @@ description: 'NTR Launcher - Bring back classic DS boot animation + boot older f
 download_page: https://github.com/ApacheThunder/NTR_Launcher/releases
 downloads:
   NTR_Launcher.zip:
-    size: 2429924
+    size: 2430027
     size_str: 2 MiB
-    url: https://github.com/ApacheThunder/NTR_Launcher/releases/download/2.7/NTR_Launcher.zip
+    url: https://github.com/ApacheThunder/NTR_Launcher/releases/download/2.8/NTR_Launcher.zip
 github: ApacheThunder/NTR_Launcher
 icon: https://db.universal-team.net/assets/images/icons/ntr-launcher.png
 image: https://db.universal-team.net/assets/images/images/ntr-launcher.png
@@ -26,22 +26,12 @@ systems:
 title: NTR Launcher
 update_notes: '<ul dir="auto">
 
-  <li>Overhaul using improved bootloader from NitrohaxTWL.</li>
-
-  <li>Alternate bootloader removed as it appears uneeded.</li>
-
-  <li>Improved debug output using text instead of colored boxes from<br>
-
-  NitroHax''s original bootloader design. Debug mode will now show enhanced<br>
-
-  status readouts of cart load process. Text displayed in red if an error<br>
-
-  occurs (visible even when debug mode is off if error occured)</li>
+  <li>Fix text alignment for debug console</li>
 
   </ul>'
-updated: '2023-10-21T02:43:58Z'
-version: '2.7'
-version_title: 2.7 Release Build
+updated: '2023-10-31T04:24:49Z'
+version: '2.8'
+version_title: 2.8 Release Build
 ---
 A DS Slot-1 Launcher. Original code from NitroHax but with cheat engine/menu stripped out. Useful for launching older DS flashcarts.
 Credits go to Chishm for NitroHax which this source is based from and WinterMute for dslink source/reset code.
