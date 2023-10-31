@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 767234
-    size_str: 749 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.0.1/nds-bootstrap.7z
+    size: 763555
+    size_str: 745 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.0.2/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1858761
+    size: 1853636
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.0.1/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.0.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -32,10 +32,7 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v26.1.1"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v26.1.1</a></p>
-
-  <p dir="auto">Instructions:</p>
+update_notes: '<p dir="auto">Instructions:</p>
 
   <ol dir="auto">
 
@@ -46,88 +43,47 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <h3 dir="auto">Improvement</h3>
-
-  <ul dir="auto">
-
-  <li>Slightly improved boot times on DSi/3DS in DSi mode.
-
-  <ul dir="auto">
-
-  <li>NDMA is now used to clear memory.</li>
-
-  </ul>
-
-  </li>
-
-  </ul>
-
   <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>Fixed the Chinese (iQue) &amp; Korean versions of <em>Super Mario 64 DS</em>
-  not booting.</li>
+  <li>When using wireless features, ROM loading on DSi/3DS SD Card is now slowed down
+  once again, in order to prevent errors.</li>
 
-  <li>Implemented ROM and save mirroring.
+  <li>Fixed ROM mirroring for if ROM size is larger than the device size set in the
+  ROM header.
 
   <ul dir="auto">
 
-  <li>Fixes compatibility in some lesser-known DS games, such as <em>My Stop Smoking
-  Coach</em>.</li>
+  <li>Fixes support for some modified ROMs (ex. translations and ROM hacks).</li>
 
   </ul>
 
   </li>
 
-  <li><strong>B4DS:</strong> Fixed games containing overlays crashing with an Expansion
-  Pak inserted.</li>
-
-  <li>Improved region determination for region-free DSiWare titles.
+  <li><strong>B4DS mode:</strong> Cheat engine has been moved to arm7 WRAM for <em>Inazuma
+  Eleven 1 &amp; 2</em>.
 
   <ul dir="auto">
 
-  <li>If TWLCFG or the country setting within isn''t detected, it''ll determine region
-  based on the currently set language.</li>
-
-  <li>Fixes DS WiFi Settings standalone ROM displaying Japanese on flashcards even
-  with a region other than Japan set.</li>
+  <li>Fixes where opening a menu crashes the game with an AP-fix applied.</li>
 
   </ul>
 
   </li>
 
-  <li>Ported RTC fix to B4DS mode.
+  <li>Fixed the European version of <em>Yoshi Touch &amp; Go</em> not booting on DSi/3DS
+  SD Card.</li>
 
-  <ul dir="auto">
-
-  <li>Should hopefully fix the crashes in the Pokemon Gen 4 games, the time changing
-  in <em>Animal Crossing: Wild World</em> and other time-related issues on DS flashcards.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Patched RAM mirror checking in an attempt to make the launched game not use
-  more than 4MB of RAM.
-
-  <ul dir="auto">
-
-  <li>DS mode and DSi mode will set the proper value, the latter of which allows games
-  to use up to 8MB of RAM.</li>
-
-  <li>Does not apply to SDK5 games, as those are already working fine.</li>
-
-  <li>Fixes <em>Jump Super Stars</em> not booting in DS mode.</li>
-
-  </ul>
-
-  </li>
+  <li><strong>B4DS mode:</strong> To prevent bugs, <strong>TW</strong>i<strong>L</strong>ight
+  Menu++ must now be used with <code class="notranslate">EZ_FLASH_RAM</code> turned
+  on in <code class="notranslate">fat:/_nds/TWiLightMenu/settings.ini</code>, in order
+  to use an EZ-Flash Slot-2 cartridge.</li>
 
   </ul>'
-updated: '2023-09-25T23:42:06Z'
-version: v1.0.1
-version_title: v1.0.1
+updated: '2023-10-31T18:44:58Z'
+version: v1.0.2
+version_title: 'v1.0.2: Halloween Release'
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
