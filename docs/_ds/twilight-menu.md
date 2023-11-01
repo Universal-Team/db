@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 41893714
+    size: 41891057
     size_str: 39 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.1.1/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.2.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 41945661
-    size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.1.1/TWiLightMenu-DSi.7z
+    size: 41942203
+    size_str: 39 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.2.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 52863977
+    size: 52859619
     size_str: 50 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.1.1/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.2.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 53067570
+    size: 53063894
     size_str: 50 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.1.1/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.2.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -48,8 +48,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.0.1">nds-bootstrap
-  v1.0.1</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.0.2">nds-bootstrap
+  v1.0.2</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -69,36 +69,22 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Added a new feature where you can test out the upcoming GBARunner3!
+  <li>Added GBA/DS Phat color mode!</li>
 
-  <ol dir="auto">
+  <li>Box art/photo color de-banding is now useable on debug/dev DS consoles.</li>
 
-  <li>To enable it, set <code class="notranslate">GBARUNNER3_TEST</code> to <code
-  class="notranslate">1</code> in <code class="notranslate">sd:/_nds/TWiLightMenu/settings.ini</code></li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/edo9300/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>:
+  Brightness level can now be changed on DS Phat consoles.</li>
 
-  <li>Build from source code here: <a href="https://github.com/Gericom/GBARunner3">https://github.com/Gericom/GBARunner3</a></li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
+  Added autoboot files for the EZ-Flash Vi and r4i.cn carts.</li>
 
-  <li>Copy <code class="notranslate">bootstrap.nds</code> to <code class="notranslate">sd:/_nds/TWiLightMenu/emulators/</code>,
-  and rename to <code class="notranslate">GBARunner3.nds</code></li>
-
-  <li>Put <code class="notranslate">bios.bin</code> in <code class="notranslate">sd:/_gba/</code></li>
-
-  <li>Launch a GBA game, and report any issues you encounter to <a href="https://github.com/Gericom/GBARunner3/issues">https://github.com/Gericom/GBARunner3/issues</a></li>
-
-  </ol>
-
-  <ul dir="auto">
-
-  <li>If you want good compatibility when playing GBA games, please stick to GBARunner2
-  for now. Only use GBARunner3 for testing purposes.</li>
-
-  </ul>
-
-  </li>
-
-  <li>A message will now appear when attempting to launch Pictochat or Download Play
-  in the 3DS theme if their <code class="notranslate">.nds</code> files don''t exist
-  in <code class="notranslate">/_nds/</code>.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/R-YaTian/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/R-YaTian">@R-YaTian</a>:
+  Added some AP and widescreen patches. (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2308"
+  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2308/hovercard">#2308</a>)</li>
 
   </ul>
 
@@ -106,38 +92,22 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Fixed AP-fixes for
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/edo9300/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>:
+  Fixed detection of DS Phat or DS Lite console.</li>
 
-  <ul dir="auto">
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/edo9300/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>:
+  Fixed buffer overflow in slot1launch. (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2310"
+  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2310/hovercard">#2310</a>)</li>
 
-  <li>Alice in Wonderland (Europe, Australia)</li>
-
-  <li>Inazuma Eleven (All regions except Japan) (<a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>)</li>
-
-  <li>Inazuma Eleven 2 (All regions except Japan) (<a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>)</li>
-
-  <li>Tsukibito (RetroGameFan)</li>
-
-  </ul>
-
-  </li>
-
-  <li>Fixed internet browser not launching correctly in 3DS theme when not in the
-  same location as the <code class="notranslate">.nds</code> file of the browser.</li>
-
-  <li>RAM disk setting is now changeable again.</li>
-
-  <li>Launching <em>Mario &amp; Luigi: Partners in Time</em> on DS flashcards will
-  no longer show the "known to not work" message when trying to run it with nds-bootstrap/B4DS.</li>
+  <li><strong>R4/GBC themes:</strong> Fixed file list not scrolling down to selected
+  file, after selecting the <code class="notranslate">Game</code> icon.</li>
 
   </ul>'
-updated: '2023-09-26T00:28:33Z'
-version: v26.1.1
-version_title: v26.1.1
+updated: '2023-10-31T23:57:38Z'
+version: v26.2.0
+version_title: 'v26.2.0: Halloween Release'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---

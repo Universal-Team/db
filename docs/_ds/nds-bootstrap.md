@@ -32,7 +32,10 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Instructions:</p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v26.2.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v26.2.0</a></p>
+
+  <p dir="auto">Instructions:</p>
 
   <ol dir="auto">
 
