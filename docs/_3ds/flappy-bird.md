@@ -10,13 +10,13 @@ description: A Clone of Flappy-Bird for the 3ds.
 download_page: https://github.com/NPI-D7/Flappy-Bird/releases
 downloads:
   Flappy-Bird.3dsx:
-    size: 1737496
+    size: 1733436
     size_str: 1 MiB
-    url: https://github.com/NPI-D7/Flappy-Bird/releases/download/1.4.1/Flappy-Bird.3dsx
+    url: https://github.com/NPI-D7/Flappy-Bird/releases/download/1.4.2/Flappy-Bird.3dsx
   Flappy-Bird.cia:
-    size: 1672128
+    size: 1659840
     size_str: 1 MiB
-    url: https://github.com/NPI-D7/Flappy-Bird/releases/download/1.4.1/Flappy-Bird.cia
+    url: https://github.com/NPI-D7/Flappy-Bird/releases/download/1.4.2/Flappy-Bird.cia
 github: NPI-D7/Flappy-Bird
 icon: https://raw.githubusercontent.com/NPI-D7/Flappy-Bird/screenshots/app/icon.png
 image: https://raw.githubusercontent.com/NPI-D7/Flappy-Bird/master/app/banner.png
@@ -41,15 +41,39 @@ systems:
 title: Flappy-Bird
 unique_ids:
 - '0x64D70'
-update_notes: '<p dir="auto">Use Latest RenderD7 to fix every crash (no one found
-  one)<br>
+update_notes: '<ul dir="auto">
 
-  Fade In / Fade Out<br>
+  <li>Patched RenderD7 0.9.4 (fixes crash)</li>
 
-  Removed Access to Developer Settings</p>'
-updated: '2023-03-24T19:04:25Z'
-version: 1.4.1
-version_title: 1.4.1
+  <li>New Icon by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Zachary-Rude/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Zachary-Rude">@Zachary-Rude</a>
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1973397238"
+  data-permission-text="Title is private" data-url="https://github.com/NPI-D7/Flappy-Bird/issues/3"
+  data-hovercard-type="pull_request" data-hovercard-url="/NPI-D7/Flappy-Bird/pull/3/hovercard"
+  href="https://github.com/NPI-D7/Flappy-Bird/pull/3">#3</a></li>
+
+  <li>Change Homebrew to "Licenced" 3ds logo by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/Zachary-Rude/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Zachary-Rude">@Zachary-Rude</a>
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1932980029"
+  data-permission-text="Title is private" data-url="https://github.com/NPI-D7/Flappy-Bird/issues/2"
+  data-hovercard-type="pull_request" data-hovercard-url="/NPI-D7/Flappy-Bird/pull/2/hovercard"
+  href="https://github.com/NPI-D7/Flappy-Bird/pull/2">#2</a></li>
+
+  <li>New Score Path and Savetype</li>
+
+  <li>Disabled RenderD7 Splash by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/Zachary-Rude/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Zachary-Rude">@Zachary-Rude</a>
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1973397238"
+  data-permission-text="Title is private" data-url="https://github.com/NPI-D7/Flappy-Bird/issues/3"
+  data-hovercard-type="pull_request" data-hovercard-url="/NPI-D7/Flappy-Bird/pull/3/hovercard"
+  href="https://github.com/NPI-D7/Flappy-Bird/pull/3">#3</a></li>
+
+  </ul>'
+updated: '2023-11-02T16:51:43Z'
+version: 1.4.2
+version_title: 1.4.2
 ---
 ### Flappy-Bird 
 [![Discord](https://img.shields.io/discord/961610973066702889?style=for-the-badge)](https://discord.gg/XuX6EN8dyt)
