@@ -6114,7 +6114,7 @@
 		"long_description": "# CtrRGBPAT2\nThis 3DS application allows the LED color to be changed. In order for this to work, Luma CFW (custom firmware) needs to be installed.\nThanks to [CPunch](https://github.com/CPunch/CtrRGBPATTY/) for the original project !\n\n## Features\nCustomize the LED color and pattern for when you receive notifications ! Whether SpotPass, StreetPass, online Friends, or more (Yes, there's more) ! Why keep the default blue when you can have a cool-looking purple for example 😎\n\nEverything is simple and made so you cannot possibly screw something up (or else you really wanted to)\n\n## Upcoming\n- Save and restore feature\n- Proper UI ?\n\nHope you enjoy ! :)",
 		"image": "https://raw.githubusercontent.com/Golem642/CtrRGBPAT2/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/Golem642/CtrRGBPAT2/master/resources/icon.png",
-		"script_message": "You will need to have 'Game Patching' and 'Loading external FIRMs and modules'\nenabled in LumaCFW settings (hold select on boot)"
+		"script_message": "You will need to have \"Game Patching\" and \"Loading external FIRMs and modules\"\nenabled in LumaCFW settings (hold select on boot)"
 	},
 	{
 		"github": "awkitsune/IkuReader",
@@ -6213,6 +6213,38 @@
    					 "file": "sdmc:/luma/sysmodules/0004013000001602.ips"
 				}
 			]
+		}
+	},
+	{
+		"github": "M4nueleZ/Luma3DS_ITA",
+		"title": "Luma 3DS Ed. Italiana",
+		"systems": ["3DS"],
+		"categories": ["firm", "luma3ds", "translation"],
+		"long_description": "Questa è l'edizione italiana di Luma3DS, un noob-proof custom firmware per console della famiglia Nintendo 3DS.",
+		"icon": "https://raw.githubusercontent.com/M4nueleZ/Luma3DS_ITA/master/luma3dslogoita.png",
+		"archive": {
+			"Luma3DS_ITA.*\\.zip": {
+				"boot.firm": ["boot.firm"]
+			}
+		}
+	},
+	{
+		"title": "TaśmanQuest",
+		"systems": ["3DS"],
+		"categories": ["game"],
+		"author": "Nawias",
+		"description": "Join Taśman in his quest to wrap everything in TAŚMAN Sealed duct tape!",
+		"long_description": "In this short, arcade-y game for your Nintendo 3DS explore the famous Lewiatan grocery store of Księżomierz and flex your tape-wrapping skills as the clock is ticking!\n\nYou play as Adam a.k.a. \"Taśman\". You came to the local Lewiatan of Księżomierz to promote your brand - TAŚMAN™ Sealed. But it's Kasia's shift today and she won't allow it! Wrap as many items in your duct tape and get back in Zakre's Seiac before the guards catch you!\n### Credits\nMost of the game assets come from [LimeZu's](https://limezu.itch.io/) packs: Modern Interiors, Modern Exteriors, Modern UI, Serene Village Revamped\n\n\nMIDI files used for soundtrack come from MuseScore:\n\nMenu Music - [Loch Lomond](https://musescore.com/user/24691996/scores/6908959)\n\nAction Music - [Break the Rules](https://musescore.com/user/15821421/scores/6878141)\n\nNintendo 3DS port of LÖVE - [LÖVE Potion](https://github.com/lovebrew/lovepotion) by TurtleP",
+		"image": "http://nawiasdev.eu/tasmanquest/logo.png",
+		"icon": "http://nawiasdev.eu/tasmanquest/icon.png",
+		"created": "01-09-2023T00:00:00Z",
+		"updated": "13-09-2023T00:00:00Z",
+		"version": "1.0.0",
+		"version_title": "Full Release",
+		"downloads": {
+			"TasmanQuest.3dsx": {
+				"url": "http://nawiasdev.eu/tasmanquest/TasmanQuest.3dsx"
+			}
 		}
 	}
 ]
