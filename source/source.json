@@ -6127,7 +6127,7 @@
 	},
 	{
 		"github": "TehFridge/ShutTheCamUp",
-		"title": "ShutTheCamUp",
+		"title": "Shut The Cam Up",
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"description": "Removes the camera shutter and high-pitched beep sound from the Nintendo 3DS (works on all 3ds apps that use the camera)",
