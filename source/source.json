@@ -6197,7 +6197,6 @@
     					"output": "sdmc:/luma/sysmodules/0004013000001602.ips",
     					"includePrereleases": false
 				}
-				
 			],
 			"Remove the patch (Any)": [
 				{
@@ -6246,5 +6245,65 @@
 				"url": "http://nawiasdev.eu/tasmanquest/TasmanQuest.3dsx"
 			}
 		}
+	},
+	{
+		"github": "Alexyo21/the-pirate-launcher",
+		"title": "Pirate launcher",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"description": "If you like pirating games and so on you can’t miss this opportunity.💀❄️",
+		"long_description": "Refurbished build of the pirate launcher, with some new debug feature and up to date to the latest updates from official source, it doesn’t do nothing, only proves you are a pirate💀",
+		"icon": "https://raw.githubusercontent.com/Alexyo21/the-pirate-launcher/master/icon.png",
+		"scripts": {
+			"Install the Pirate Launcher": [
+				{
+    					"type": "promptMessage",
+    					"message": "This will replace the boot.3dsx in the root of\nyour SD card, effectively replacing the Homebrew\nLauncher by the Pirate Launcher upon launching the app.\nContinue ?"
+				},
+				{
+    					"type": "downloadRelease",
+    					"repo": "Alexyo21/the-pirate-launcher",
+    					"file": "boot.3dsx",
+    					"output": "sdmc:/boot.3dsx",
+    					"includePrereleases": false
+				},
+				{
+    					"type": "promptMessage",
+    					"message": "Check the Github for more informations on functionalities\n(Answer yes or no, it doesn't matter i didn't know\nhow to do a normal message)"
+				}
+			],
+			"Restore the classic HB menu": [
+				{
+    					"type": "promptMessage",
+    					"message": "This will replace the boot.3dsx in the root of\nyour SD card to the latest version of\nthe Homebrew Launcher.\nContinue ?"
+				},
+				{
+    					"type": "downloadRelease",
+    					"repo": "devkitPro/3ds-hbmenu",
+    					"file": "boot.3dsx",
+    					"output": "sdmc:/boot.3dsx",
+    					"includePrereleases": false
+				}
+			]
+		}
+	},
+	{
+		"github": "Zachary-Rude/Snake-for-3DS",
+		"title": "Snake for 3DS",
+		"systems": ["3DS"],
+		"categories": ["game"],
+		"unique_ids": [272016],
+		"long_description": "A simple 3DS version of the classic Snake.\n\nYou start moving faster as you get more points.",
+		"image": "https://raw.githubusercontent.com/Zachary-Rude/Snake-for-3DS/master/banner.png",
+		"icon": "https://raw.githubusercontent.com/Zachary-Rude/Snake-for-3DS/master/icon.png"
+	},
+	{
+		"github": "matbo87/snes9x_3ds",
+		"title": "Snes9x for 3DS (updated fork)",
+		"systems": ["3DS"],
+		"categories": ["emulator"],
+		"unique_ids": [14409],
+		"long_description": "fork of [bubble2k's Snes9x for 3DS](https://github.com/bubble2k16/snes9x_3ds), giving you more options to enjoy your SNES game collection.",
+		"icon": "https://raw.githubusercontent.com/matbo87/snes9x_3ds/master/resources/icon.png"
 	}
 ]
