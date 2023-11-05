@@ -6305,5 +6305,98 @@
 		"unique_ids": [14409],
 		"long_description": "fork of [bubble2k's Snes9x for 3DS](https://github.com/bubble2k16/snes9x_3ds), giving you more options to enjoy your SNES game collection.",
 		"icon": "https://raw.githubusercontent.com/matbo87/snes9x_3ds/master/resources/icon.png"
+	},
+	{
+		"github": "matbo87/snes9x_3ds",
+		"title": "Sonic Robo Blast 2",
+		"systems": ["3DS"],
+		"categories": ["game"],
+		"unique_ids": [983106],
+		"long_description": "### THIS IS FOR NEW 3DS ONLY. IT WILL NOT RUN ON OLD 3DS.\n\nChangelog:\n- HUGE performance increase thanks to mipmapping\n- stereoscopic 3D rendering\n- initial CIA support\n- fixed graphics glitch that was caused by uninitialized GPU shadow state registers\n- fixed fog color\n- fixed hole in GFZ2\n- fixed crash when DSP firmware is missing\n- ... other miscellaneous fixes",
+		"icon": "https://raw.githubusercontent.com/matbo87/snes9x_3ds/master/resources/icon.png"
+		"scripts": {
+			"Install as cia": [
+				{
+    					"type": "downloadRelease",
+    					"repo": "errekr/srb2_3ds",
+    					"file": "srb2_3ds.*\\.zip",
+    					"output": "/srb2_3ds.zip",
+    					"includePrereleases": false
+				},
+				{
+					"type": "extractFile",
+					"file": "/srb2_3ds.zip",
+					"input": "srb2_3ds.cia",
+					"output": "/srb2_3ds.cia"
+				},
+				{
+					"type": "installCia",
+					"file": "/srb2_3ds.cia"
+				},
+				{
+   					 "type": "deleteFile",
+   					 "file": "/srb2_3ds.zip"
+				},
+				{
+   					 "type": "deleteFile",
+   					 "file": "/srb2_3ds.cia"
+				}
+			],
+			"Install as 3dsx": [
+				{
+    					"type": "downloadRelease",
+    					"repo": "errekr/srb2_3ds",
+    					"file": "srb2_3ds.*\\.zip",
+    					"output": "/srb2_3ds.zip",
+    					"includePrereleases": false
+				},
+				{
+					"type": "extractFile",
+					"file": "/srb2_3ds.zip",
+					"input": "srb2_3ds.3dsx",
+					"output": "sdmc:/3ds/srb2_3ds.3dsx"
+				},
+				{
+   					 "type": "deleteFile",
+   					 "file": "/srb2_3ds.zip"
+				}
+			],
+			"[REQUIRED ONCE] assets": [
+				{
+					"type": "mkdir",
+					"directory": "sdmc:/3ds/srb2_3ds/"
+				},
+				{
+    					"type": "downloadFile"
+    					"file": "https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-assets.7z",
+    					"output": "sdmc:/3ds/SRB2-v2122-assets.7z"
+				},
+				{
+					"type": "extractFile",
+					"file": "sdmc:/3ds/SRB2-v2122-assets.7z",
+					"input": "",
+					"output": "sdmc:/3ds/srb2_3ds/"
+				},
+				{
+   					 "type": "deleteFile",
+   					 "file": "sdmc:/3ds/SRB2-v2122-assets.7z"
+				},
+				{
+    					"type": "downloadFile"
+    					"file": "https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-optional-assets.7z",
+    					"output": "sdmc:/3ds/SRB2-v2122-optional-assets.7z"
+				},
+				{
+					"type": "extractFile",
+					"file": "sdmc:/3ds/SRB2-v2122-optional-assets.7z",
+					"input": "",
+					"output": "sdmc:/3ds/srb2_3ds/"
+				},
+				{
+   					 "type": "deleteFile",
+   					 "file": "sdmc:/3ds/SRB2-v2122-optional-assets.7z"
+				}
+			]
+		}
 	}
 ]
