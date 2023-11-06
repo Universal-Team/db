@@ -1424,12 +1424,14 @@
 		}
 	},
 	{
-		"github": "Xeddius-Network/snes9x_3ds",
-		"title": "Snes9x (updated fork)",
-		"author": "bubble2k16 / matbo87 / willjow",
+		"github": "matbo87/snes9x_3ds",
+		"title": "Snes9x for 3DS (updated fork)",
+		"author": "bubble2k16 / matbo87 / willjow / Xeddius-Network",
 		"categories": ["emulator"],
 		"systems": ["3DS"],
-		"unique_ids": [14409]
+		"unique_ids": [14409],
+		"long_description": "fork of [bubble2k's Snes9x for 3DS](https://github.com/bubble2k16/snes9x_3ds), giving you more options to enjoy your SNES game collection.",
+		"icon": "https://raw.githubusercontent.com/matbo87/snes9x_3ds/master/resources/icon.png"
 	},
 	{
 		"github": "bubble2k16/emus3ds",
@@ -6298,15 +6300,6 @@
 		"long_description": "A simple 3DS version of the classic Snake.\n\nYou start moving faster as you get more points.",
 		"image": "https://raw.githubusercontent.com/Zachary-Rude/Snake-for-3DS/master/banner.png",
 		"icon": "https://raw.githubusercontent.com/Zachary-Rude/Snake-for-3DS/master/icon.png"
-	},
-	{
-		"github": "matbo87/snes9x_3ds",
-		"title": "Snes9x for 3DS (updated fork)",
-		"systems": ["3DS"],
-		"categories": ["emulator"],
-		"unique_ids": [14409],
-		"long_description": "fork of [bubble2k's Snes9x for 3DS](https://github.com/bubble2k16/snes9x_3ds), giving you more options to enjoy your SNES game collection.",
-		"icon": "https://raw.githubusercontent.com/matbo87/snes9x_3ds/master/resources/icon.png"
 	},
 	{
 		"github": "derrekr/srb2_3ds",
