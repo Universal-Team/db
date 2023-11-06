@@ -6262,7 +6262,7 @@
 			"Install the Pirate Launcher": [
 				{
     					"type": "promptMessage",
-    					"message": "This will replace the boot.3dsx in the root of\nyour SD card, effectively replacing the Homebrew\nLauncher by the Pirate Launcher upon launching the app.\nContinue ?"
+    					"message": "This will replace the boot.3dsx in the root of\nyour SD card, replacing the Homebrew\nLauncher with the Pirate Launcher.\nContinue?"
 				},
 				{
     					"type": "downloadRelease",
