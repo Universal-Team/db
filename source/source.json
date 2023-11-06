@@ -1425,7 +1425,7 @@
 	},
 	{
 		"github": "matbo87/snes9x_3ds",
-		"title": "Snes9x for 3DS (updated fork)",
+		"title": "Snes9x (updated fork)",
 		"author": "bubble2k16 / matbo87 / willjow / Xeddius-Network",
 		"categories": ["emulator"],
 		"systems": ["3DS"],
@@ -6107,7 +6107,6 @@
 	},
 	{
 		"github": "Golem642/CtrRGBPAT2",
-		"title": "CtrRGBPAT2",
 		"systems": ["3DS"],
 		"unique_ids": [866235],
 		"categories": ["utility"],
@@ -6120,7 +6119,6 @@
 	},
 	{
 		"github": "awkitsune/IkuReader",
-		"title": "IkuReader",
 		"systems": ["DS"],
 		"categories": ["utility"],
 		"description": "An ebook reader",
@@ -6138,27 +6136,11 @@
 		"scripts": {
 			"Install the patch (Old 3DS/2DS)": [
 				{
-    					"type": "promptMessage",
-    					"message": "Ready to install the patch ?\n(Old 3DS/2DS)"
-				},
-				{
-					"type": "mkdir",
-					"directory": "sdmc:/luma/titles/"
-				},
-				{
-					"type": "mkdir",
-					"directory": "sdmc:/luma/titles/0004013000001602/"
-				},
-				{
     					"type": "downloadRelease",
     					"repo": "TehFridge/ShutTheCamUp",
     					"file": "old3ds.ips",
     					"output": "sdmc:/luma/titles/0004013000001602/code.ips",
     					"includePrereleases": false
-				},
-				{
-					"type": "mkdir",
-					"directory": "sdmc:/luma/sysmodules/"
 				},
 				{
     					"type": "downloadRelease",
@@ -6170,27 +6152,11 @@
 			],
 			"Install the patch (New 3DS/2DS)": [
 				{
-    					"type": "promptMessage",
-    					"message": "Ready to install the patch ?\n(New 3DS/2DS)"
-				},
-				{
-					"type": "mkdir",
-					"directory": "sdmc:/luma/titles/"
-				},
-				{
-					"type": "mkdir",
-					"directory": "sdmc:/luma/titles/0004013000001602/"
-				},
-				{
     					"type": "downloadRelease",
     					"repo": "TehFridge/ShutTheCamUp",
     					"file": "new3ds.ips",
     					"output": "sdmc:/luma/titles/0004013000001602/code.ips",
     					"includePrereleases": false
-				},
-				{
-					"type": "mkdir",
-					"directory": "sdmc:/luma/sysmodules/"
 				},
 				{
     					"type": "downloadRelease",
@@ -6201,10 +6167,6 @@
 				}
 			],
 			"Remove the patch (Any)": [
-				{
-    					"type": "promptMessage",
-    					"message": "Are you sure you want to remove the patch ?"
-				},
 				{
    					 "type": "deleteFile",
    					 "file": "sdmc:/luma/titles/0004013000001602/code.ips"
@@ -6271,23 +6233,6 @@
     					"output": "sdmc:/boot.3dsx",
     					"includePrereleases": false
 				},
-				{
-    					"type": "promptMessage",
-    					"message": "Check the Github for more informations on functionalities\n(Answer yes or no, it doesn't matter i didn't know\nhow to do a normal message)"
-				}
-			],
-			"Restore the classic HB menu": [
-				{
-    					"type": "promptMessage",
-    					"message": "This will replace the boot.3dsx in the root of\nyour SD card to the latest version of\nthe Homebrew Launcher.\nContinue ?"
-				},
-				{
-    					"type": "downloadRelease",
-    					"repo": "devkitPro/3ds-hbmenu",
-    					"file": "boot.3dsx",
-    					"output": "sdmc:/boot.3dsx",
-    					"includePrereleases": false
-				}
 			]
 		}
 	},
@@ -6396,7 +6341,7 @@
 	},
 	{
 		"github": "The4thPlayer/Pokemon-Purple",
-		"title": "Pokémon Purple",
+		"title": "Pokemon Purple",
 		"author": "FlameTheGamer",
 		"systems": ["3DS"],
 		"categories": ["game"],
