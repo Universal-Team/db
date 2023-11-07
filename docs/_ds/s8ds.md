@@ -10,9 +10,9 @@ description: A Sega 8bit systems emulator for NDS
 download_page: https://github.com/FluBBaOfWard/S8DS/releases
 downloads:
   S8DS.zip:
-    size: 223379
-    size_str: 218 KiB
-    url: https://github.com/FluBBaOfWard/S8DS/releases/download/v1.1.6/S8DS.zip
+    size: 226262
+    size_str: 220 KiB
+    url: https://github.com/FluBBaOfWard/S8DS/releases/download/v1.1.7/S8DS.zip
 github: FluBBaOfWard/S8DS
 icon: https://db.universal-team.net/assets/images/icons/s8ds.png
 image: https://db.universal-team.net/assets/images/icons/s8ds.png
@@ -22,8 +22,30 @@ source: https://github.com/FluBBaOfWard/S8DS
 systems:
 - DS
 title: S8DS
-update_notes: <p dir="auto">Fixed load/save state for Coleco.</p>
-updated: '2021-10-18T17:16:53Z'
-version: v1.1.6
-version_title: V1.1.6
+update_notes: '<ul dir="auto">
+
+  <li>Added support for "Megumi Rescue" on System-E.</li>
+
+  <li>Added support for "Opa Opa unencrypted" on System-E.</li>
+
+  <li>Added support for "Slap Shooter" on System-E.</li>
+
+  <li>Added support for "Super Derby (satellite board)" on SG-AC (not working).</li>
+
+  <li>Added support for "Super Derby II (satellite board)" on SG-AC (not working).</li>
+
+  <li>Added new debug menu.</li>
+
+  <li>Fixed vertical scrolling for BG2 on System-E.</li>
+
+  <li>Fixed envelope handling on the AY38910.</li>
+
+  <li>Fixed pause on older Sega machines (again).</li>
+
+  <li>Better menu traversing.</li>
+
+  </ul>'
+updated: '2023-11-07T18:10:41Z'
+version: v1.1.7
+version_title: V1.1.7
 ---
