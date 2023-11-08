@@ -6,7 +6,7 @@ categories:
 color: '#594648'
 color_bg: '#594648'
 created: '2021-09-05T11:34:00Z'
-description: A Sega 8bit systems emulator for NDS
+description: A Sega 8bit systems emulator for Nintendo DS(i)/3DS
 download_page: https://github.com/FluBBaOfWard/S8DS/releases
 downloads:
   S8DS.zip:
