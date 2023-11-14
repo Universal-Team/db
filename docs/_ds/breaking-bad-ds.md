@@ -12,9 +12,9 @@ description: Breaking Bad, as a Nintendo DS game! Master the art of the cook and
 download_page: https://github.com/WiIIiam278/breaking-bad-ds/releases
 downloads:
   breaking-bad-ds.nds:
-    size: 5259264
+    size: 5283840
     size_str: 5 MiB
-    url: https://github.com/WiIIiam278/breaking-bad-ds/releases/download/1.0.4/breaking-bad-ds.nds
+    url: https://github.com/WiIIiam278/breaking-bad-ds/releases/download/1.0.5/breaking-bad-ds.nds
 github: WiIIiam278/breaking-bad-ds
 icon: https://raw.githubusercontent.com/WiIIiam278/breaking-bad-ds/main/icon.png
 image: https://raw.githubusercontent.com/WiIIiam278/breaking-bad-ds/main/banner-art.png
@@ -50,29 +50,86 @@ update_notes: '<h2 dir="auto">Change notes</h2>
 
   <ul dir="auto">
 
-  <li>The game will now attempt to save current progress and achievement completion.
-  Saving is confirmed to work on both Twilight menu and DeSMuMe. A huge thank you
-  to the amazing <a href="https://github.com/C3RV1/UndertaleNDS/">C3RV1</a> for their
-  help with the new save routine, also being used in their excellent Undertale DS
-  project!
+  <li>Added Custom Cook mode
 
   <ul dir="auto">
 
-  <li>If FAT saving is supported on your flash cart, this will be used to save directly
-  to SD</li>
+  <li>Accessible by holding SELECT + R and tapping "Story Mode" in the Start Game
+  menu</li>
 
-  <li>Otherwise, the game will attempt to save via EEPROM calls.</li>
+  <li>Lets you pick a character, and a starting day and amount of money.</li>
 
-  <li>Please note the latest version of melonDS does not correctly emulate EEPROM
-  calls</li>
+  <li>Options for disabling the timer, dialogue and collision detection.</li>
+
+  <li>Hank''s Minerals cannot be earnt when playing this mode.</li>
 
   </ul>
 
   </li>
 
-  <li>Increased the hitbox size of the pour minigame''s pour/drain switches</li>
+  <li>Added a new camera mode exclusive to "Custom Cook" mode: "POV camera"
+
+  <ul dir="auto">
+
+  <li>The camera uses the perspective of the player character in the lab.</li>
+
+  <li>Use the L/R bumpers in this mode to look left/right.</li>
+
+  <li>The game controls are otherwise the same.</li>
 
   </ul>
+
+  </li>
+
+  <li>Improved and remastered various background graphics
+
+  <ul dir="auto">
+
+  <li>The render used in the "ventilation valve" minigame CG has been redone, and
+  it now resembles the design used in the final lab scene</li>
+
+  <li>The render used in the "mixing" minigame CG has been redone, and it now resembles
+  the design used in the final lab scene</li>
+
+  <li>Added more detail to the background of the "pestle" minigame</li>
+
+  <li>Added more detail to the background of the "pipette" minigame</li>
+
+  </ul>
+
+  </li>
+
+  <li>Improved Saul''s dialogue text in the shop.
+
+  <ul dir="auto">
+
+  <li>Saul''s dialogue will now be revealed letter-by-letter with the correct sound
+  effect</li>
+
+  </ul>
+
+  </li>
+
+  <li>Changed the controls of the "fill" minigame based on user feedback
+
+  <ul dir="auto">
+
+  <li>Releasing the stylus from the touch screen will now deactivate the switch. It
+  is intended that this makes this minigame more intuitive and easy to control</li>
+
+  </ul>
+
+  </li>
+
+  <li>Fixed some broken geometry in the induction pipe of the mixing apparatus causing
+  visible z-fighting</li>
+
+  </ul>
+
+  <h2 dir="auto">Other</h2>
+
+  <p dir="auto">Breaking Bad DS is <a href="https://william278.itch.io/breaking-bad-ds"
+  rel="nofollow">now available on Itch.io</a>.</p>
 
   <h2 dir="auto">Playing</h2>
 
@@ -100,8 +157,8 @@ update_notes: '<h2 dir="auto">Change notes</h2>
   the QR code below in your loader''s menu, if your system supports this. Please make
   sure you use v1.0.3+, or your game may crash on startup!</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/31187453/274098949-0e3a98ed-a46a-4abd-b89c-199608bac962.png"><img
-  src="https://user-images.githubusercontent.com/31187453/274098949-0e3a98ed-a46a-4abd-b89c-199608bac962.png"
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/31187453/282559585-f33eed8a-3ba3-495b-ac27-6e39ff3a977f.png"><img
+  src="https://user-images.githubusercontent.com/31187453/282559585-f33eed8a-3ba3-495b-ac27-6e39ff3a977f.png"
   alt="QR code for installing the game on a DSi/3DS with TwilightMenu" style="max-width:
   100%;"></a></p>
 
@@ -110,9 +167,9 @@ update_notes: '<h2 dir="auto">Change notes</h2>
   <p dir="auto">This <em>won''t work on the Wii U Virtual Console emulator</em>. I''m
   sorry to ruin your dreams. If you run this on a cool setup, take a picture and <a
   href="mailto:will27528+brbads@gmail.com">email me</a>.</p>'
-updated: '2023-10-10T23:57:57Z'
-version: 1.0.4
-version_title: Breaking Bad DS 1.0.4
+updated: '2023-11-13T18:58:48Z'
+version: 1.0.5
+version_title: Breaking Bad DS 1.0.5
 website: https://william278.net/project/breaking-bad-ds
 ---
 *Breaking Bad*, as a Nintendo DS game, complete with 3D graphics and models. Master the art of the cook on your Nintendo DS system and prepare the perfect batch&mdash;lest you meet the wrong end of Gus. Hone your cook in both Singleplayer and Local Multiplayer Vs.
