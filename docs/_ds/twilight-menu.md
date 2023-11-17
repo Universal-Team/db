@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 41891057
+    size: 41752322
     size_str: 39 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.2.0/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.3.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 41942203
+    size: 41792241
     size_str: 39 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.2.0/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.3.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 52859619
+    size: 52799303
     size_str: 50 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.2.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.3.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 53063894
+    size: 53066725
     size_str: 50 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.2.0/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.3.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -48,8 +48,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.0.2">nds-bootstrap
-  v1.0.2</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.0.3">nds-bootstrap
+  v1.0.3</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -69,22 +69,20 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Added GBA/DS Phat color mode!</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>:
+  Updated AP-fix for <em>Pokémon: Refined Gold Overhaul</em>.</li>
 
-  <li>Box art/photo color de-banding is now useable on debug/dev DS consoles.</li>
+  <li>Added DSi build of <a href="https://github.com/wavemotion-dave/A5200DS/releases/tag/3.4a">A5200DS</a>
+  to run Bosconian at full speed!</li>
+
+  <li>Switched to the new version of <a href="https://github.com/DS-Homebrew/NesDS/releases/tag/v1.3d%2B">nesDS</a>!</li>
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/edo9300/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>:
-  Brightness level can now be changed on DS Phat consoles.</li>
+  Updated the DS Classic Menu to function more closely to the DS/DS Lite system menu!</li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
-  Added autoboot files for the EZ-Flash Vi and r4i.cn carts.</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/R-YaTian/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/R-YaTian">@R-YaTian</a>:
-  Added some AP and widescreen patches. (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2308"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2308/hovercard">#2308</a>)</li>
+  <li>Various: Updated translations and add Kazakh language!</li>
 
   </ul>
 
@@ -92,22 +90,26 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/edo9300/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>:
-  Fixed detection of DS Phat or DS Lite console.</li>
+  <li><code class="notranslate">GFX_STATUS</code> register is now cleared before booting
+  homebrew.</li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/edo9300/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>:
-  Fixed buffer overflow in slot1launch. (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2310"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2310/hovercard">#2310</a>)</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Dartz150/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Dartz150">@Dartz150</a>:
+  Added fix for <em>Top Gun: Combat Zones</em> when running in native GBA mode with
+  Slot-2 flashcard.</li>
 
-  <li><strong>R4/GBC themes:</strong> Fixed file list not scrolling down to selected
-  file, after selecting the <code class="notranslate">Game</code> icon.</li>
+  </ul>
+
+  <h3 dir="auto">Known bug</h3>
+
+  <ul dir="auto">
+
+  <li>Some font characters are missing for the Kazakh language to properly display.</li>
 
   </ul>'
-updated: '2023-10-31T23:57:38Z'
-version: v26.2.0
-version_title: 'v26.2.0: Halloween Release'
+updated: '2023-11-17T00:47:56Z'
+version: v26.3.0
+version_title: v26.3.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
