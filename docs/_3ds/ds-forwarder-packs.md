@@ -14,6 +14,10 @@ downloads:
     size: 473415
     size_str: 462 KiB
     url: https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z
+  DS.Game.Forwarder.pack.nds-bootstrap.7z:
+    size: 832468
+    size_str: 812 KiB
+    url: https://github.com/RocketRobz/NTR_Forwarder/releases/download/SD-12/DS.Game.Forwarder.pack.nds-bootstrap.7z
 github: RocketRobz/NTR_Forwarder
 icon: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
 image: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
@@ -24,8 +28,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto"><strong>UPDATE 9/25/2023:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.0.1">nds-bootstrap
-  v1.0.1</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.0.3">nds-bootstrap
+  v1.0.3</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -36,22 +40,45 @@ update_notes: '<p dir="auto"><strong>UPDATE 9/25/2023:</strong> Includes <a href
 
   </ul>
 
-  <p dir="auto">To create forwarders, see this page <a href="https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/"
-  rel="nofollow">here</a>, or <a href="https://gbatemp.net/threads/nds-yet-another-nds-bootstrap-forwarder-more-than-40-forwarders-are-now-possible.606138/"
-  rel="nofollow">this one</a> to make more than 40 forwarders on 3DS consoles, or
-  <a href="https://gbatemp.net/threads/release-ndsforwarder-for-dsi-generate-hiyacfw-forwarders-on-the-dsi-directly.606964/"
-  rel="nofollow">this one</a> to make hiyaCFW forwarders directly on the DSi console.</p>
+  <p dir="auto">To create forwarders, follow one of these methods:</p>
+
+  <ul dir="auto">
+
+  <li><a href="https://gbatemp.net/threads/nds-forwarder-cias-for-your-home-menu.426174/"
+  rel="nofollow">Forwarder3-DS</a></li>
+
+  <li><a href="https://gbatemp.net/threads/nds-yet-another-nds-bootstrap-forwarder-more-than-40-forwarders-are-now-possible.606138/"
+  rel="nofollow">YANBF</a> to make more than 40 forwarders on 3DS consoles</li>
+
+  <li><a href="https://gbatemp.net/threads/release-ndsforwarder-for-dsi-generate-hiyacfw-forwarders-on-the-dsi-directly.606964/"
+  rel="nofollow">NDSForwarder-DSi</a> to make forwarders directly on the DSi console
+  (for hiyaCFW) or your flashcard</li>
+
+  </ul>
+
+  <h3 dir="auto">What''s new?</h3>
+
+  <ul dir="auto">
+
+  <li>Added flashcard compatibility!</li>
+
+  <li>Added check for if the forwarded title requires a Donor ROM.</li>
+
+  <li>Improved homebrew and DSiWare checks.</li>
+
+  <li>Removed the <code class="notranslate">Ex. ROM space is RAM</code> setting.</li>
+
+  </ul>
 
   <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>Fixed "DSi binaries missing" message being shown when <code class="notranslate">Run
-  in</code> is set to <code class="notranslate">DS mode</code> in the per-game settings
-  menu.</li>
+  <li>DSiWare save creation code from NTM is now used. (Pre-made save headers are
+  no longer used.)</li>
 
   </ul>'
-updated: '2022-12-26T20:59:54Z'
-version: SD-11
-version_title: 'GitHub Release #11'
+updated: '2023-11-17T00:08:49Z'
+version: SD-12
+version_title: 'GitHub Release #12'
 ---

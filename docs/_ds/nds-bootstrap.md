@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 763555
-    size_str: 745 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.0.2/nds-bootstrap.7z
+    size: 765253
+    size_str: 747 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.0.3/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1853636
+    size: 1850019
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.0.2/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.0.3/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -32,8 +32,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v26.2.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v26.2.0</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v26.3.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v26.3.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -50,43 +50,22 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>When using wireless features, ROM loading on DSi/3DS SD Card is now slowed down
-  once again, in order to prevent errors.</li>
+  <li><em>Tootuf: Mission Nadia</em> now saves!</li>
 
-  <li>Fixed ROM mirroring for if ROM size is larger than the device size set in the
-  ROM header.
+  <li><em>Style Lab: Jewelry Design</em> now boots in DSi mode.</li>
 
-  <ul dir="auto">
+  <li>Fixed where opening the Records menu after exiting the WFC menu in <em>Tetris
+  DS</em> crashes the game.</li>
 
-  <li>Fixes support for some modified ROMs (ex. translations and ROM hacks).</li>
+  <li><strong>B4DS mode:</strong> Fixed where a DSiWare title which doesn''t require
+  a donor ROM, requires one to boot.</li>
 
-  </ul>
-
-  </li>
-
-  <li><strong>B4DS mode:</strong> Cheat engine has been moved to arm7 WRAM for <em>Inazuma
-  Eleven 1 &amp; 2</em>.
-
-  <ul dir="auto">
-
-  <li>Fixes where opening a menu crashes the game with an AP-fix applied.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Fixed the European version of <em>Yoshi Touch &amp; Go</em> not booting on DSi/3DS
-  SD Card.</li>
-
-  <li><strong>B4DS mode:</strong> To prevent bugs, <strong>TW</strong>i<strong>L</strong>ight
-  Menu++ must now be used with <code class="notranslate">EZ_FLASH_RAM</code> turned
-  on in <code class="notranslate">fat:/_nds/TWiLightMenu/settings.ini</code>, in order
-  to use an EZ-Flash Slot-2 cartridge.</li>
+  <li>Fixed cheats not working in DSiWare titles on 3DS.</li>
 
   </ul>'
-updated: '2023-10-31T18:44:58Z'
-version: v1.0.2
-version_title: 'v1.0.2: Halloween Release'
+updated: '2023-11-16T23:56:39Z'
+version: v1.0.3
+version_title: v1.0.3
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
