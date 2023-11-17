@@ -76,7 +76,16 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   <li>Added DSi build of <a href="https://github.com/wavemotion-dave/A5200DS/releases/tag/3.4a">A5200DS</a>
   to run Bosconian at full speed!</li>
 
-  <li>Switched to the new version of <a href="https://github.com/DS-Homebrew/NesDS/releases/tag/v1.3d%2B">nesDS</a>!</li>
+  <li>Switched to the new version of <a href="https://github.com/DS-Homebrew/NesDS/releases/tag/v1.3d%2B">nesDS</a>!
+
+  <ul dir="auto">
+
+  <li>For nesDS to work, you need to move the <code class="notranslate">.nds</code>
+  file out of the <code class="notranslate">nesDS</code> folder in <code class="notranslate">sd:/_nds/TWiLightMenu/emulators/</code>.</li>
+
+  </ul>
+
+  </li>
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/edo9300/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>:
