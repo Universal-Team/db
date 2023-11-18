@@ -4366,7 +4366,7 @@
 		"github": "MechanicalDragon0687/NDSForwarder",
 		"categories": ["utility"],
 		"systems": ["3DS"],
-		"long_description": "### Installing\n1. Download the [3DS SD card forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z)\n1. Extract the contents of the `for SD card root` folder to the root of your SD card\n1. Download [TWiLight Menu++'s apfix.pck](https://raw.githubusercontent.com/TWLBot/Builds/master/extras/apfix.pck)\n1. Copy `apfix.pck` to `sdmc:/_nds/ntr-forwarder/apfix.pck` on your SD card\n\nWhen installing with Universal-Updater this is done automatically.",
+		"long_description": "### Installing\n1. Download the [3DS SD card forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)\n1. Extract the contents of the `for SD card root` folder to the root of your SD card\n1. Download [TWiLight Menu++'s apfix.pck](https://raw.githubusercontent.com/TWLBot/Builds/master/extras/apfix.pck)\n1. Copy `apfix.pck` to `sdmc:/_nds/ntr-forwarder/apfix.pck` on your SD card\n\nWhen installing with Universal-Updater this is done automatically.",
 		"scripts": {
 			"ndsForwarder.3dsx": [
 				{
@@ -4377,18 +4377,18 @@
 				},
 				{
 					"type": "downloadFile",
-					"file": "https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
-					"output": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z"
+					"file": "https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z",
+					"output": "/DS.Game.Forwarder.pack.nds-bootstrap.7z"
 				},
 				{
 					"type": "extractFile",
-					"file": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"file": "/DS.Game.Forwarder.pack.nds-bootstrap.7z",
 					"input": "for SD Card root/",
 					"output": "/"
 				},
 				{
 					"type": "deleteFile",
-					"file":"/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z"
+					"file":"/DS.Game.Forwarder.pack.nds-bootstrap.7z"
 				},
 				{
 					"type": "downloadFile",
@@ -4612,28 +4612,28 @@
 		"categories": ["utility"],
 		"icon": "https://raw.githubusercontent.com/RocketRobz/NTR_Forwarder/forwarder/SD%20Card/sd/icon.bmp",
 		"downloads": {
-			"DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z": {
+			"DS.Game.Forwarder.pack.nds-bootstrap.7z": {
 				"size": 473415,
 				"size_str": "462 KiB",
-				"url": "https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z"
+				"url": "https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z"
 			}
 		},
 		"scripts": {
 			"SD card forwarder pack": [
 				{
 					"type": "downloadFile",
-					"file": "https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
-					"output": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z"
+					"file": "https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z",
+					"output": "/DS.Game.Forwarder.pack.nds-bootstrap.7z"
 				},
 				{
 					"type": "extractFile",
-					"file": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"file": "/DS.Game.Forwarder.pack.nds-bootstrap.7z",
 					"input": "for SD Card root/",
 					"output": "/"
 				},
 				{
 					"type": "deleteFile",
-					"file":"/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z"
+					"file":"/DS.Game.Forwarder.pack.nds-bootstrap.7z"
 				},
 				{
 					"type": "downloadFile",
@@ -4772,12 +4772,12 @@
 				},
 				{
 					"type": "downloadFile",
-					"file": "https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
-					"output": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z"
+					"file": "https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z",
+					"output": "/DS.Game.Forwarder.pack.nds-bootstrap.7z"
 				},
 				{
 					"type": "extractFile",
-					"file": "/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z",
+					"file": "/DS.Game.Forwarder.pack.nds-bootstrap.7z",
 					"input": "for SD Card root/",
 					"output": "/"
 				},
@@ -4791,7 +4791,7 @@
 				},
 				{
 					"type": "deleteFile",
-					"file":"/DS.Game.Forwarder.pack.DSi.3DS.SD.Card.7z"
+					"file":"/DS.Game.Forwarder.pack.nds-bootstrap.7z"
 				},
 				{
 					"type": "downloadFile",
