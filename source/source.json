@@ -1424,12 +1424,14 @@
 		}
 	},
 	{
-		"github": "Xeddius-Network/snes9x_3ds",
+		"github": "matbo87/snes9x_3ds",
 		"title": "Snes9x (updated fork)",
-		"author": "bubble2k16 / matbo87 / willjow",
+		"author": "bubble2k16 / matbo87 / willjow / Xeddius-Network",
 		"categories": ["emulator"],
 		"systems": ["3DS"],
-		"unique_ids": [14409]
+		"unique_ids": [14409],
+		"long_description": "fork of [bubble2k's Snes9x for 3DS](https://github.com/bubble2k16/snes9x_3ds), giving you more options to enjoy your SNES game collection.",
+		"icon": "https://raw.githubusercontent.com/matbo87/snes9x_3ds/master/resources/icon.png"
 	},
 	{
 		"github": "bubble2k16/emus3ds",
@@ -3703,8 +3705,18 @@
 				{
 					"type": "downloadRelease",
 					"repo": "fincs/new-hbmenu",
-					"file": "boot.3dsx",
-					"output": "/boot.3dsx"
+					"file": "3ds-hbmenu-.*\\.zip",
+					"output": "/3ds-hbmenu.zip"
+				},
+				{
+					"type": "extractFile",
+					"file": "/3ds-hbmenu.zip",
+					"input": "",
+					"output": "/"
+				},
+				{
+   					 "type": "deleteFile",
+   					 "file": "/3ds-hbmenu.zip"
 				}
 			]
 		}
@@ -6105,16 +6117,249 @@
 	},
 	{
 		"github": "Golem642/CtrRGBPAT2",
-		"title": "CtrRGBPAT2",
 		"systems": ["3DS"],
 		"unique_ids": [866235],
 		"categories": ["utility"],
 		"author": "CPunch & Golem64",
-		"website": "https://github.com/Golem642/CtrRGBPAT2",
 		"description": "LED color and pattern modifier for (n)3DS/2DS. Customize your notifications however you want !",
-		"long_description": "# CtrRGBPAT2\nThis 3DS application allows the LED color to be changed. In order for this to work, Luma CFW (custom firmware) needs to be installed.\nThanks to [CPunch](https://github.com/CPunch/CtrRGBPATTY/) for the original project !\n\n## Features\nCustomize the LED color and pattern for when you receive notifications ! Whether SpotPass, StreetPass, online Friends, or more (Yes, there's more) ! Why keep the default blue when you can have a cool-looking purple for example 😎\nEverything is simple and made so you cannot possibly screw something up (or else you really wanted to)\n\n## Upcoming\n- Save and restore feature\n- Proper UI ?\n\nHope you enjoy ! :)",
+		"long_description": "# CtrRGBPAT2\nThis 3DS application allows the LED color to be changed. In order for this to work, Luma CFW (custom firmware) needs to be installed.\nThanks to [CPunch](https://github.com/CPunch/CtrRGBPATTY/) for the original project !\n\n## Features\nCustomize the LED color and pattern for when you receive notifications ! Whether SpotPass, StreetPass, online Friends, or more (Yes, there's more) ! Why keep the default blue when you can have a cool-looking purple for example 😎\n\nEverything is simple and made so you cannot possibly screw something up (or else you really wanted to)\n\n## Upcoming\n- Save and restore feature\n- Proper UI ?\n\nHope you enjoy ! :)",
 		"image": "https://raw.githubusercontent.com/Golem642/CtrRGBPAT2/master/resources/banner.png",
 		"icon": "https://raw.githubusercontent.com/Golem642/CtrRGBPAT2/master/resources/icon.png",
-		"script_message": "You will need to have 'Game Patching' and 'Loading external FIRMs and modules' enabled in LumaCFW settings (hold select on boot)"
-	}
+		"script_message": "You will need to have \"Game Patching\" and \"Loading external FIRMs and modules\"\nenabled in LumaCFW settings (hold select on boot)"
+	},
+	{
+		"github": "awkitsune/IkuReader",
+		"systems": ["DS"],
+		"categories": ["utility"],
+		"description": "An ebook reader",
+		"long_description": "Ebook reader compatible with fb2, epub and txt file formats. Updated original source code to be compatible with DSi, TMFH and HiyaCfw.",
+		"icon": "https://raw.githubusercontent.com/awkitsune/IkuReader/main/data/icon.bmp"
+	},
+	{
+		"github": "TehFridge/ShutTheCamUp",
+		"title": "Shut The Cam Up",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"description": "Removes the camera shutter and high-pitched beep sound from the Nintendo 3DS (works on all 3ds apps that use the camera)",
+		"long_description": "# DISCLAIMER\nI do not condone any misuses of this patch for malicious purposes or whatever.\n\n# Why tho?\nImagine you are playing your 3ds in a cafe or smt, you need to use the camera feature in some game (for example. Face Raiders) and suddenly the shutter sound bursts out of the speakers and people look at you weirdly, we wouldnt want that. \n\nAlso like... phones don't do that sort of thing (well maybe in japan, china cause there the law demands that anything with a camera has to have a shutter sound)\n\nI mostly created this patch cause i like the vibe of vlogging with a 3ds. It has its charm you know.\n\n# How is it possible?!\nThe shutter sound was embedded in some system process, we just discovered it now lol. So i just decided to null the bytes with audio data, and it worked!\n\n# Does it work on both Old and New 3DS?\nYup. there are two seperate patches individually for the new and old model of the console.",
+		"icon": "https://cdn.discordapp.com/attachments/1146918310072549386/1146918328389087312/ikonka2.png",
+		"scripts": {
+			"Install the patch (Old 3DS/2DS)": [
+				{
+    					"type": "downloadRelease",
+    					"repo": "TehFridge/ShutTheCamUp",
+    					"file": "old3ds.ips",
+    					"output": "sdmc:/luma/titles/0004013000001602/code.ips",
+    					"includePrereleases": false
+				},
+				{
+    					"type": "downloadRelease",
+    					"repo": "TehFridge/ShutTheCamUp",
+    					"file": "old3ds.ips",
+    					"output": "sdmc:/luma/sysmodules/0004013000001602.ips",
+    					"includePrereleases": false
+				}
+			],
+			"Install the patch (New 3DS/2DS)": [
+				{
+    					"type": "downloadRelease",
+    					"repo": "TehFridge/ShutTheCamUp",
+    					"file": "new3ds.ips",
+    					"output": "sdmc:/luma/titles/0004013000001602/code.ips",
+    					"includePrereleases": false
+				},
+				{
+    					"type": "downloadRelease",
+    					"repo": "TehFridge/ShutTheCamUp",
+    					"file": "new3ds.ips",
+    					"output": "sdmc:/luma/sysmodules/0004013000001602.ips",
+    					"includePrereleases": false
+				}
+			],
+			"Remove the patch (Any)": [
+				{
+   					 "type": "deleteFile",
+   					 "file": "sdmc:/luma/titles/0004013000001602/code.ips"
+				},
+				{
+   					 "type": "deleteFile",
+   					 "file": "sdmc:/luma/sysmodules/0004013000001602.ips"
+				}
+			]
+		}
+	},
+	{
+		"github": "M4nueleZ/Luma3DS_ITA",
+		"title": "Luma 3DS Ed. Italiana",
+		"systems": ["3DS"],
+		"categories": ["firm", "luma3ds", "translation"],
+		"long_description": "Questa è l'edizione italiana di Luma3DS, un noob-proof custom firmware per console della famiglia Nintendo 3DS.",
+		"icon": "https://raw.githubusercontent.com/M4nueleZ/Luma3DS_ITA/master/luma3dslogoita.png",
+		"archive": {
+			"Luma3DS_ITA.*\\.zip": {
+				"boot.firm": ["boot.firm"]
+			}
+		}
+	},
+	{
+		"title": "TasmanQuest",
+		"systems": ["3DS"],
+		"categories": ["game"],
+		"author": "Nawias",
+		"description": "Join Taśman in his quest to wrap everything in TAŚMAN Sealed duct tape!",
+		"long_description": "In this short, arcade-y game for your Nintendo 3DS explore the famous Lewiatan grocery store of Księżomierz and flex your tape-wrapping skills as the clock is ticking!\n\nYou play as Adam a.k.a. \"Taśman\". You came to the local Lewiatan of Księżomierz to promote your brand - TAŚMAN™ Sealed. But it's Kasia's shift today and she won't allow it! Wrap as many items in your duct tape and get back in Zakre's Seiac before the guards catch you!\n### Credits\nMost of the game assets come from [LimeZu's](https://limezu.itch.io/) packs: Modern Interiors, Modern Exteriors, Modern UI, Serene Village Revamped\n\n\nMIDI files used for soundtrack come from MuseScore:\n\nMenu Music - [Loch Lomond](https://musescore.com/user/24691996/scores/6908959)\n\nAction Music - [Break the Rules](https://musescore.com/user/15821421/scores/6878141)\n\nNintendo 3DS port of LÖVE - [LÖVE Potion](https://github.com/lovebrew/lovepotion) by TurtleP",
+		"website": "https://nawias.itch.io/tasmanquest",
+		"download_page": "https://nawias.itch.io/tasmanquest",
+		"image": "http://nawiasdev.eu/tasmanquest/logo.png",
+		"icon": "http://nawiasdev.eu/tasmanquest/icon.png",
+		"created": "2023-09-01T00:00:00Z",
+		"updated": "2023-09-13T00:00:00Z",
+		"version": "1.0.0",
+		"version_title": "Full Release",
+		"downloads": {
+			"TasmanQuest.3dsx": {
+				"url": "http://nawiasdev.eu/tasmanquest/TasmanQuest.3dsx"
+			}
+		}
+	},
+	{
+		"github": "Alexyo21/the-pirate-launcher",
+		"title": "Pirate Launcher",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"description": "If you like pirating games and so on you can’t miss this opportunity.💀❄️",
+		"long_description": "Refurbished build of the pirate launcher, with some new debug feature and up to date to the latest updates from official source, it doesn’t do nothing, only proves you are a pirate💀",
+		"icon": "https://raw.githubusercontent.com/Alexyo21/the-pirate-launcher/master/icon.png",
+		"scripts": {
+			"Install the Pirate Launcher": [
+				{
+    					"type": "promptMessage",
+    					"message": "This will replace the boot.3dsx in the root of\nyour SD card, replacing the Homebrew\nLauncher with the Pirate Launcher.\nContinue?"
+				},
+				{
+    					"type": "downloadRelease",
+    					"repo": "Alexyo21/the-pirate-launcher",
+    					"file": "boot.3dsx",
+    					"output": "sdmc:/boot.3dsx",
+    					"includePrereleases": false
+				},
+			]
+		}
+	},
+	{
+		"github": "Zachary-Rude/Snake-for-3DS",
+		"title": "Snake for 3DS",
+		"systems": ["3DS"],
+		"categories": ["game"],
+		"unique_ids": [272016],
+		"long_description": "A simple 3DS version of the classic Snake.\n\nYou start moving faster as you get more points.",
+		"image": "https://raw.githubusercontent.com/Zachary-Rude/Snake-for-3DS/master/banner.png",
+		"icon": "https://raw.githubusercontent.com/Zachary-Rude/Snake-for-3DS/master/icon.png"
+	},
+	{
+		"github": "derrekr/srb2_3ds",
+		"title": "Sonic Robo Blast 2",
+		"systems": ["3DS"],
+		"categories": ["game"],
+		"unique_ids": [983106],
+		"long_description": "### THIS IS FOR NEW 3DS ONLY. IT WILL NOT RUN ON OLD 3DS.\n\nChangelog:\n- HUGE performance increase thanks to mipmapping\n- stereoscopic 3D rendering\n- initial CIA support\n- fixed graphics glitch that was caused by uninitialized GPU shadow state registers\n- fixed fog color\n- fixed hole in GFZ2\n- fixed crash when DSP firmware is missing\n- ... other miscellaneous fixes",
+		"icon": "https://raw.githubusercontent.com/matbo87/snes9x_3ds/master/resources/icon.png"
+		"scripts": {
+			"Install as cia": [
+				{
+    					"type": "downloadRelease",
+    					"repo": "errekr/srb2_3ds",
+    					"file": "srb2_3ds.*\\.zip",
+    					"output": "/srb2_3ds.zip",
+    					"includePrereleases": false
+				},
+				{
+					"type": "extractFile",
+					"file": "/srb2_3ds.zip",
+					"input": "srb2_3ds.cia",
+					"output": "/srb2_3ds.cia"
+				},
+				{
+					"type": "installCia",
+					"file": "/srb2_3ds.cia"
+				},
+				{
+   					 "type": "deleteFile",
+   					 "file": "/srb2_3ds.zip"
+				},
+				{
+   					 "type": "deleteFile",
+   					 "file": "/srb2_3ds.cia"
+				}
+			],
+			"Install as 3dsx": [
+				{
+    					"type": "downloadRelease",
+    					"repo": "errekr/srb2_3ds",
+    					"file": "srb2_3ds.*\\.zip",
+    					"output": "/srb2_3ds.zip",
+    					"includePrereleases": false
+				},
+				{
+					"type": "extractFile",
+					"file": "/srb2_3ds.zip",
+					"input": "srb2_3ds.3dsx",
+					"output": "sdmc:/3ds/srb2_3ds.3dsx"
+				},
+				{
+   					 "type": "deleteFile",
+   					 "file": "/srb2_3ds.zip"
+				}
+			],
+			"[REQUIRED ONCE] assets": [
+				{
+					"type": "mkdir",
+					"directory": "sdmc:/3ds/srb2_3ds/"
+				},
+				{
+    					"type": "downloadFile"
+    					"file": "https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-assets.7z",
+    					"output": "sdmc:/3ds/SRB2-v2122-assets.7z"
+				},
+				{
+					"type": "extractFile",
+					"file": "sdmc:/3ds/SRB2-v2122-assets.7z",
+					"input": "",
+					"output": "sdmc:/3ds/srb2_3ds/"
+				},
+				{
+   					 "type": "deleteFile",
+   					 "file": "sdmc:/3ds/SRB2-v2122-assets.7z"
+				},
+				{
+    					"type": "downloadFile"
+    					"file": "https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-optional-assets.7z",
+    					"output": "sdmc:/3ds/SRB2-v2122-optional-assets.7z"
+				},
+				{
+					"type": "extractFile",
+					"file": "sdmc:/3ds/SRB2-v2122-optional-assets.7z",
+					"input": "",
+					"output": "sdmc:/3ds/srb2_3ds/"
+				},
+				{
+   					 "type": "deleteFile",
+   					 "file": "sdmc:/3ds/SRB2-v2122-optional-assets.7z"
+				}
+			]
+		}
+	},
+	{
+		"github": "The4thPlayer/Pokemon-Purple",
+		"title": "Pokemon Purple",
+		"author": "FlameTheGamer",
+		"systems": ["3DS"],
+		"categories": ["game"],
+		"unique_ids": [70306048],
+		"website": "https://gamejolt.com/games/pkmnprpl/817282",
+		"download_page": "https://gamejolt.com/games/pkmnprpl/817282",
+		"description": "A very short Generation 1 style Pokémon Fangame made with GB Studio and New Super Ultimate Injector.",
+		"long_description": "This is a simple Pokémon fan-game created in the style of Generation 1; (The first line of Pokémon games.) using GB Studio and New Super Ultimate Injector.\n\nThere is no special installation required, as it is a .cia",
+		"created": "2023-09-21T00:00:00Z"
+	},
 ]
