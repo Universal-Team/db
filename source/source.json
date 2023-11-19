@@ -3705,8 +3705,18 @@
 				{
 					"type": "downloadRelease",
 					"repo": "fincs/new-hbmenu",
-					"file": "boot.3dsx",
-					"output": "/boot.3dsx"
+					"file": "3ds-hbmenu-.*\\.zip",
+					"output": "/3ds-hbmenu.zip"
+				},
+				{
+					"type": "extractFile",
+					"file": "/3ds-hbmenu.zip",
+					"input": "",
+					"output": "/"
+				},
+				{
+   					 "type": "deleteFile",
+   					 "file": "/3ds-hbmenu.zip"
 				}
 			]
 		}
