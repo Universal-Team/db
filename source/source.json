@@ -6242,7 +6242,7 @@
     					"file": "boot.3dsx",
     					"output": "sdmc:/boot.3dsx",
     					"includePrereleases": false
-				},
+				}
 			]
 		}
 	},
@@ -6263,7 +6263,7 @@
 		"categories": ["game"],
 		"unique_ids": [983106],
 		"long_description": "### THIS IS FOR NEW 3DS ONLY. IT WILL NOT RUN ON OLD 3DS.\n\nChangelog:\n- HUGE performance increase thanks to mipmapping\n- stereoscopic 3D rendering\n- initial CIA support\n- fixed graphics glitch that was caused by uninitialized GPU shadow state registers\n- fixed fog color\n- fixed hole in GFZ2\n- fixed crash when DSP firmware is missing\n- ... other miscellaneous fixes",
-		"icon": "https://raw.githubusercontent.com/matbo87/snes9x_3ds/master/resources/icon.png"
+		"icon": "https://raw.githubusercontent.com/matbo87/snes9x_3ds/master/resources/icon.png",
 		"scripts": {
 			"Install as cia": [
 				{
@@ -6317,7 +6317,7 @@
 					"directory": "sdmc:/3ds/srb2_3ds/"
 				},
 				{
-    					"type": "downloadFile"
+    					"type": "downloadFile",
     					"file": "https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-assets.7z",
     					"output": "sdmc:/3ds/SRB2-v2122-assets.7z"
 				},
@@ -6332,7 +6332,7 @@
    					 "file": "sdmc:/3ds/SRB2-v2122-assets.7z"
 				},
 				{
-    					"type": "downloadFile"
+    					"type": "downloadFile",
     					"file": "https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-optional-assets.7z",
     					"output": "sdmc:/3ds/SRB2-v2122-optional-assets.7z"
 				},
@@ -6361,5 +6361,5 @@
 		"description": "A very short Generation 1 style Pokémon Fangame made with GB Studio and New Super Ultimate Injector.",
 		"long_description": "This is a simple Pokémon fan-game created in the style of Generation 1; (The first line of Pokémon games.) using GB Studio and New Super Ultimate Injector.\n\nThere is no special installation required, as it is a .cia",
 		"created": "2023-09-21T00:00:00Z"
-	},
+	}
 ]
