@@ -38,8 +38,10 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/ctrrgbpat2/pattern-modifier.png
 - description: Testing functionnality
   url: https://db.universal-team.net/assets/images/screenshots/ctrrgbpat2/testing-functionnality.png
-script_message: You will need to have 'Game Patching' and 'Loading external FIRMs
-  and modules' enabled in LumaCFW settings (hold select on boot)
+script_message: 'You will need to have "Game Patching" and "Loading external FIRMs
+  and modules"
+
+  enabled in LumaCFW settings (hold select on boot)'
 source: https://github.com/Golem642/CtrRGBPAT2
 systems:
 - 3DS
@@ -70,7 +72,6 @@ update_notes: '<p dir="auto">Ok so this release mainly include bugfixes so every
 updated: '2023-10-09T18:29:07Z'
 version: v2.2.1
 version_title: V2.2.1
-website: https://github.com/Golem642/CtrRGBPAT2
 ---
 # CtrRGBPAT2
 This 3DS application allows the LED color to be changed. In order for this to work, Luma CFW (custom firmware) needs to be installed.
@@ -78,6 +79,7 @@ Thanks to [CPunch](https://github.com/CPunch/CtrRGBPATTY/) for the original proj
 
 ## Features
 Customize the LED color and pattern for when you receive notifications ! Whether SpotPass, StreetPass, online Friends, or more (Yes, there's more) ! Why keep the default blue when you can have a cool-looking purple for example 😎
+
 Everything is simple and made so you cannot possibly screw something up (or else you really wanted to)
 
 ## Upcoming
