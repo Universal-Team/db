@@ -24,10 +24,7 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.0.3">nds-bootstrap
-  v1.0.3</a></p>
-
-  <p dir="auto">To install or update:</p>
+update_notes: '<p dir="auto">To install or update:</p>
 
   <ul dir="auto">
 
@@ -52,29 +49,23 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <h3 dir="auto">What''s new?</h3>
-
-  <ul dir="auto">
-
-  <li>Added flashcard compatibility!</li>
-
-  <li>Added check for if the forwarded title requires a Donor ROM.</li>
-
-  <li>Improved homebrew and DSiWare checks.</li>
-
-  <li>Removed the <code class="notranslate">Ex. ROM space is RAM</code> setting.</li>
-
-  </ul>
-
   <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>DSiWare save creation code from NTM is now used. (Pre-made save headers are
-  no longer used.)</li>
+  <li>Fixed path of AP-fix not being written with <code class="notranslate">sd:</code>
+  or <code class="notranslate">fat:</code> at the start.
+
+  <ul dir="auto">
+
+  <li>This should fix nds-bootstrap being unable to read the AP-fix.</li>
+
+  </ul>
+
+  </li>
 
   </ul>'
-updated: '2023-11-17T00:08:49Z'
-version: SD-12
-version_title: 'GitHub Release #12'
+updated: '2023-11-30T07:16:16Z'
+version: SD-13
+version_title: 'GitHub Release #13'
 ---
