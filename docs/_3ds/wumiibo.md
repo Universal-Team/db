@@ -41,14 +41,8 @@ update_notes: '<p dir="auto">This is the seventh public release of wumiibo.<br>
   </ul>
 
   <p dir="auto">To install/update WumiiboHelper, you can scan the following QR code
-  with FBI.</p>
-
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/16360444/255079187-2f4b775e-75e0-4a44-8fa6-4efe461ace9b.png"><img
-  src="https://user-images.githubusercontent.com/16360444/255079187-2f4b775e-75e0-4a44-8fa6-4efe461ace9b.png"
-  alt="image" style="max-width: 100%;"></a></p>
-
-  <p dir="auto"><strong>A common usage/installation guide for wumiibo can be found
-  <a href="https://github.com/hax0kartik/wumiibo/wiki/Usage-guide-for-Wumiibo-and-WumiiboHelper">here</a>.</strong></p>
+  with FBI.</p><p dir="auto"><strong>A common usage/installation guide for wumiibo
+  can be found <a href="https://github.com/hax0kartik/wumiibo/wiki/Usage-guide-for-Wumiibo-and-WumiiboHelper">here</a>.</strong></p>
 
   <p dir="auto">For any issues/questions or suggestions you can join <a href="https://discord.gg/hyuvmb9"
   rel="nofollow">this</a> discord server or use the issues/discussion page.</p>'

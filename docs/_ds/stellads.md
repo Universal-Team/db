@@ -11,18 +11,14 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
   on the DSi. New features such as instruction manuals and high score support included!
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
-  LICENSE:
-    size: 1068
-    size_str: 1 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.8/LICENSE
   README.md:
-    size: 37015
+    size: 37275
     size_str: 36 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.8/README.md
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.9/README.md
   StellaDS.nds:
-    size: 1666048
+    size: 1665536
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.8/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.9/StellaDS.nds
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -36,26 +32,20 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V6.8 : 01-Jul-2023 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V6.9 : 06-Dec-2023 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
-  <li>Improved RSYNC so Extra Terrestrials (1984 by Skill Screen Games) works.</li>
+  <li>Improved the ARM Thumb driver and the CDFJ driver to squeeze out two more frames
+  of performance.</li>
 
-  <li>Improved keypad handling so Magicard and similar keypad/keyboard game work.</li>
+  <li>Fixed PAN UP / PAN DOWN handling on the A-button and you can now pan even if
+  another button is pressed (useful for Turbo Arcade).</li>
 
-  <li>Added a few of the ultra-rare games discovered in the last decade to the internal
-  database.</li>
-
-  <li>Updated internal database to ROMHUNTER v18 for the classic-era games.</li>
-
-  <li>Starpath Supercharger (AR) carts now clear RAM by default (prevent lock-ups).</li>
-
-  <li>Added Dual Keypad/Keyboards for the few game that need them (BASIC, Magicard
-  mostly).</li>
+  <li>Minor cleanups as time permitted.</li>
 
   </ul>'
-updated: '2023-07-01T10:40:24Z'
-version: '6.8'
-version_title: Version 6.8
+updated: '2023-12-06T13:09:34Z'
+version: '6.9'
+version_title: Version 6.9
 ---
