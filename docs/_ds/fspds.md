@@ -20,6 +20,24 @@ image_length: 586
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+prerelease:
+  download_page: https://github.com/NotImplementedLife/FSPDS/releases/tag/V1.0.90343508R
+  downloads:
+    FSPDS-V1.0.90343508R.nds:
+      size: 750080
+      size_str: 732 KiB
+      url: https://github.com/NotImplementedLife/FSPDS/releases/download/V1.0.90343508R/FSPDS-V1.0.90343508R.nds
+  qr:
+    FSPDS-V1.0.90343508R.nds: https://db.universal-team.net/assets/images/qr/prerelease/fspds-v1-0-90343508r-nds.png
+  update_notes: <p dir="auto">FSPDS now accepts PPM filenames that not respect the
+    original naming convention, like "my_flipnote.ppm". The filename shouldn't exceed
+    more than 28 characters.</p>
+  update_notes_md: FSPDS now accepts PPM filenames that not respect the original naming
+    convention, like "my_flipnote.ppm". The filename shouldn't exceed more than 28
+    characters.
+  updated: '2023-12-08T13:29:30Z'
+  version: V1.0.90343508R
+  version_title: FSPDS V1.0.90343508R- Minipatch filenames
 qr:
   FSPDS-V1.0.79212842R.nds: https://db.universal-team.net/assets/images/qr/fspds-v1-0-79212842r-nds.png
 screenshots:
