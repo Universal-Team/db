@@ -11,13 +11,13 @@ description: LED color and pattern modifier for (n)3DS/2DS. Customize your notif
 download_page: https://github.com/Golem642/CtrRGBPAT2/releases
 downloads:
   CtrRGBPAT2.3dsx:
-    size: 599872
+    size: 599544
     size_str: 585 KiB
-    url: https://github.com/Golem642/CtrRGBPAT2/releases/download/v2.2.1/CtrRGBPAT2.3dsx
+    url: https://github.com/Golem642/CtrRGBPAT2/releases/download/v2.3/CtrRGBPAT2.3dsx
   CtrRGBPAT2.cia:
     size: 997824
     size_str: 974 KiB
-    url: https://github.com/Golem642/CtrRGBPAT2/releases/download/v2.2.1/CtrRGBPAT2.cia
+    url: https://github.com/Golem642/CtrRGBPAT2/releases/download/v2.3/CtrRGBPAT2.cia
 github: Golem642/CtrRGBPAT2
 icon: https://raw.githubusercontent.com/Golem642/CtrRGBPAT2/master/resources/icon.png
 image: https://raw.githubusercontent.com/Golem642/CtrRGBPAT2/master/resources/banner.png
@@ -48,30 +48,42 @@ systems:
 title: CtrRGBPAT2
 unique_ids:
 - '0xD37BB'
-update_notes: '<p dir="auto">Ok so this release mainly include bugfixes so everything
-  should be working now. If not, refer to the warning in the previous release (V2.2)</p>
+update_notes: '<p dir="auto">Hey ! I''m not dead ! :D</p>
 
-  <p dir="auto">But ! I also included a copy/paste function in the custom editor (it
-  was definitely required)</p>
+  <p dir="auto">Anyway here''s what''s new :</p>
 
-  <p dir="auto">So yeah, little improvement.  Btw i still don''t know what the Unknown
-  LED pattern and the one that resemble the Friend notification are for, so if anyone
-  can help me on the subject open an issue please</p>
+  <ul dir="auto">
 
-  <p dir="auto">And talking about issues, if you ever get stuck on something : look
-  up in the readme if it haven''t been covered already, and if not make an issue about
-  the problem</p>
+  <li>I''m on the Universal updater ! Yipeeeeee !</li>
 
-  <p dir="auto">Anyway, have fun ! :)</p>
+  <li>Fixed crash of force exit of the app (finally, i knew those std::strings were
+  evil)</li>
+
+  <li>Also you can now go back to the HOME menu again if you want</li>
+
+  <li>Fixed a few visual glitches</li>
+
+  <li>The unknown pattern is now known : it triggers when you boot your DS or you
+  exit sleep mode (can make for some cool transitions)</li>
+
+  </ul>
+
+  <p dir="auto">The roadmap also has been updated with some ideas from Semka (thx)</p>
+
+  <p dir="auto">I''m definitely not done with this yet, i still have a few things
+  i want to implement but also i don''t have the time. This is kind of like a fun
+  project so please don''t mind the unfrequent updates, thank you</p>
+
+  <p dir="auto">Have fun ! :)</p>
 
   <p dir="auto">QR code download :<br>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/65229557/273668998-36ef889f-ea78-4b35-b6ea-a78659610b02.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIyMTEwMDksIm5iZiI6MTcwMjIxMDcwOSwicGF0aCI6Ii82NTIyOTU1Ny8yNzM2Njg5OTgtMzZlZjg4OWYtZWE3OC00YjM1LWI2ZWEtYTc4NjU5NjEwYjAyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjEwVDEyMTgyOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI3ZjkzNTQ1YWMwMzIwYTlhMDAzMWYzZDYyODk2ZGExMTFhM2QxOGIwY2Q2ZTI3ZjBhNzcxZjNkOWUwYjJjNWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.XHcBKkQre1xMdEhHTjfpq0YQmQxEi0pymOPXoiNAtG8"><img
-  src="https://private-user-images.githubusercontent.com/65229557/273668998-36ef889f-ea78-4b35-b6ea-a78659610b02.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIyMTEwMDksIm5iZiI6MTcwMjIxMDcwOSwicGF0aCI6Ii82NTIyOTU1Ny8yNzM2Njg5OTgtMzZlZjg4OWYtZWE3OC00YjM1LWI2ZWEtYTc4NjU5NjEwYjAyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjEwVDEyMTgyOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTI3ZjkzNTQ1YWMwMzIwYTlhMDAzMWYzZDYyODk2ZGExMTFhM2QxOGIwY2Q2ZTI3ZjBhNzcxZjNkOWUwYjJjNWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.XHcBKkQre1xMdEhHTjfpq0YQmQxEi0pymOPXoiNAtG8"
+  <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/65229557/289372689-be28d96b-702f-45a0-83a2-055f14eacb5a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIyMzI1NDIsIm5iZiI6MTcwMjIzMjI0MiwicGF0aCI6Ii82NTIyOTU1Ny8yODkzNzI2ODktYmUyOGQ5NmItNzAyZi00NWEwLTgzYTItMDU1ZjE0ZWFjYjVhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjEwVDE4MTcyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTllNzYzNmYyMjFjMzNkMjcwOTA1ZTY5MzBlMzBmODIxMzgwMTUwZmYwZDM4ODYyZmVkYjE5NTQyNWJiMmQxZTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.NT04QN-tfbIXJ3TIdGoeSHvvgdQYJ2YbMLzN1_hFspM"><img
+  src="https://private-user-images.githubusercontent.com/65229557/289372689-be28d96b-702f-45a0-83a2-055f14eacb5a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIyMzI1NDIsIm5iZiI6MTcwMjIzMjI0MiwicGF0aCI6Ii82NTIyOTU1Ny8yODkzNzI2ODktYmUyOGQ5NmItNzAyZi00NWEwLTgzYTItMDU1ZjE0ZWFjYjVhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMTAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjEwVDE4MTcyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTllNzYzNmYyMjFjMzNkMjcwOTA1ZTY5MzBlMzBmODIxMzgwMTUwZmYwZDM4ODYyZmVkYjE5NTQyNWJiMmQxZTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.NT04QN-tfbIXJ3TIdGoeSHvvgdQYJ2YbMLzN1_hFspM"
   alt="image" style="max-width: 100%;"></a></p>'
-updated: '2023-10-09T18:29:07Z'
-version: v2.2.1
-version_title: V2.2.1
+updated: '2023-12-10T16:35:01Z'
+version: v2.3
+version_title: V2.3
 ---
 # CtrRGBPAT2
 This 3DS application allows the LED color to be changed. In order for this to work, Luma CFW (custom firmware) needs to be installed.
