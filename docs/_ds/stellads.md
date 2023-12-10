@@ -11,14 +11,18 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
   on the DSi. New features such as instruction manuals and high score support included!
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
+  LICENSE:
+    size: 1067
+    size_str: 1 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.0/LICENSE
   README.md:
-    size: 37275
-    size_str: 36 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.9/README.md
+    size: 39978
+    size_str: 39 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.0/README.md
   StellaDS.nds:
-    size: 1665536
+    size: 1704448
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/6.9/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.0/StellaDS.nds
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -32,20 +36,19 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V6.9 : 06-Dec-2023 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V7.0 : 10-Dec-2023 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
-  <li>Improved the ARM Thumb driver and the CDFJ driver to squeeze out two more frames
-  of performance.</li>
+  <li>Champ Games Edition! Major overhaul to the CDFJ/+ driver to squeeze out every
+  bit of performance.</li>
 
-  <li>Fixed PAN UP / PAN DOWN handling on the A-button and you can now pan even if
-  another button is pressed (useful for Turbo Arcade).</li>
+  <li>Fix for Genesis gamepad emulation (detection now works).</li>
 
-  <li>Minor cleanups as time permitted.</li>
+  <li>Other minor cleanups and tweaks as time permitted.</li>
 
   </ul>'
-updated: '2023-12-06T13:09:34Z'
-version: '6.9'
-version_title: Version 6.9
+updated: '2023-12-10T12:39:41Z'
+version: '7.0'
+version_title: Version 7.0
 ---
