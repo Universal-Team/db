@@ -115,8 +115,11 @@ update_notes: '<h2 dir="auto">Change notes</h2>
   <p dir="auto">You can also run this on a modded DSi or 3DS with Twilight Menu++
   (other game loaders have not been tested). You can download the game ROM by scanning
   the QR code below in your loader''s menu, if your system supports this. Please make
-  sure you use v1.0.3+, or your game may crash on startup!</p><h3 dir="auto">Unsupported
-  platforms</h3>
+  sure you use v1.0.3+, or your game may crash on startup!</p>
+
+  <p dir="auto"></p>
+
+  <h3 dir="auto">Unsupported platforms</h3>
 
   <p dir="auto">This <em>won''t work on the Wii U Virtual Console emulator</em>. I''m
   sorry to ruin your dreams. If you run this on a cool setup, take a picture and <a
