@@ -363,7 +363,7 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 					if "update_notes" not in app and release["body"] != "" and release["body"] is not None:
 						app["update_notes_md"] = release["body"].replace("\r\n", "\n")
 						app["update_notes"] = requests.post("https://api.github.com/markdown", headers=header if header else None, json={"text": release["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
-						app["update_notes"] = re.sub(r'\n<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https:\/\/private-user-images.githubusercontent\.com.*?<\/p>\n', "", app["update_notes"])
+						app["update_notes"] = re.sub(r'<a target="_blank" rel="noopener noreferrer" href="https:\/\/private-user-images.githubusercontent\.com.*?<\/a>', "", app["update_notes"])
 
 					if "updated" not in app:
 						app["updated"] = release["published_at"]
@@ -411,7 +411,7 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 						if "update_notes" not in app["prerelease"] and prerelease["body"] != "" and prerelease["body"] is not None:
 							app["prerelease"]["update_notes_md"] = prerelease["body"].replace("\r\n", "\n")
 							app["prerelease"]["update_notes"] = requests.post("https://api.github.com/markdown", headers=header if header else None, json={"text": prerelease["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
-							app["prerelease"]["update_notes"] = re.sub(r'\n<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https:\/\/private-user-images.githubusercontent\.com.*?<\/p>\n', "", app["prerelease"]["update_notes"])
+							app["prerelease"]["update_notes"] = re.sub(r'<a target="_blank" rel="noopener noreferrer" href="https:\/\/private-user-images.githubusercontent\.com.*?<\/a>', "", app["prerelease"]["update_notes"])
 
 							if "update_notes" not in app:
 								app["update_notes_md"] = app["prerelease"]["update_notes_md"]
