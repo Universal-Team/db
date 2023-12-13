@@ -26,19 +26,19 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.5-54-gb2a79cb62
+  download_page: https://github.com/angband/angband/releases/tag/4.2.5-59-ga096db8aa
   downloads:
-    Angband-4.2.5-54-gb2a79cb62-3ds.zip:
-      size: 24588651
+    Angband-4.2.5-59-ga096db8aa-3ds.zip:
+      size: 24589664
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.5-54-gb2a79cb62/Angband-4.2.5-54-gb2a79cb62-3ds.zip
-    Angband-4.2.5-54-gb2a79cb62-nds.zip:
-      size: 23332038
+      url: https://github.com/angband/angband/releases/download/4.2.5-59-ga096db8aa/Angband-4.2.5-59-ga096db8aa-3ds.zip
+    Angband-4.2.5-59-ga096db8aa-nds.zip:
+      size: 23332148
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.5-54-gb2a79cb62/Angband-4.2.5-54-gb2a79cb62-nds.zip
-  updated: '2023-12-10T20:43:34Z'
-  version: 4.2.5-54-gb2a79cb62
-  version_title: 4.2.5-54-gb2a79cb62
+      url: https://github.com/angband/angband/releases/download/4.2.5-59-ga096db8aa/Angband-4.2.5-59-ga096db8aa-nds.zip
+  updated: '2023-12-12T21:17:42Z'
+  version: 4.2.5-59-ga096db8aa
+  version_title: 4.2.5-59-ga096db8aa
 source: https://github.com/angband/angband
 systems:
 - 3DS

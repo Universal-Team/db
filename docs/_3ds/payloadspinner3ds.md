@@ -12,7 +12,7 @@ downloads:
   PayloadSpinner3DS.cia:
     size: 387008
     size_str: 377 KiB
-    url: https://github.com/SaturnSH2x2/PayloadSpinner3DS/releases/download/v1.2/PayloadSpinner3DS.cia
+    url: https://github.com/SaturnSH2x2/PayloadSpinner3DS/releases/download/v1.1/PayloadSpinner3DS.cia
 github: SaturnSH2x2/PayloadSpinner3DS
 icon: https://raw.githubusercontent.com/SaturnSH2x2/PayloadSpinner3DS/master/assets/icon.png
 image: https://raw.githubusercontent.com/SaturnSH2x2/PayloadSpinner3DS/master/assets/banner.png
@@ -26,16 +26,19 @@ systems:
 title: PayloadSpinner3DS
 unique_ids:
 - '0x28A9'
-update_notes: '<p dir="auto">This release fixes the app''s tendency to crash when
-  no payloads are detected, as well as manually creating all necessary directories
-  if it finds they aren''t all there.</p>
+update_notes: '<p dir="auto">v1.1.  I just fixed a stupid bug with memory allocation
+  since v1.0.</p>
+
+  <p dir="auto">Don''t think I have more to say, other than to please be careful with
+  this application, as you would any application that moves around important shit
+  on your SD Card.</p>
 
   <p dir="auto">QR:<br>
 
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/18273084/32138523-00699f18-bc02-11e7-993b-7165c17ff9f5.png"><img
-  src="https://user-images.githubusercontent.com/18273084/32138523-00699f18-bc02-11e7-993b-7165c17ff9f5.png"
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/18273084/32130669-b87a070c-bb6a-11e7-8ce3-d0da23fa1af2.png"><img
+  src="https://user-images.githubusercontent.com/18273084/32130669-b87a070c-bb6a-11e7-8ce3-d0da23fa1af2.png"
   alt="qr" style="max-width: 100%;"></a></p>'
-updated: '2017-10-28T21:00:21Z'
-version: v1.2
-version_title: Slight Bug Fix
+updated: '2017-10-28T02:48:55Z'
+version: v1.1
+version_title: Kinda-Initial Release
 ---
