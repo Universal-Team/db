@@ -10,9 +10,13 @@ description: A basic nds-bootstrap forwarder generator for DSi SDNAND.
 download_page: https://github.com/lifehackerhansol/NDSForwarder-DSi/releases
 downloads:
   NDSForwarder.dsi:
-    size: 483328
-    size_str: 472 KiB
-    url: https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/download/v0.2.3/NDSForwarder.dsi
+    size: 623616
+    size_str: 609 KiB
+    url: https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/download/v0.3.0/NDSForwarder.dsi
+  NDSForwarder.nds:
+    size: 602624
+    size_str: 588 KiB
+    url: https://github.com/lifehackerhansol/NDSForwarder-DSi/releases/download/v0.3.0/NDSForwarder.nds
 github: lifehackerhansol/NDSForwarder-DSi
 icon: https://db.universal-team.net/assets/images/icons/ndsforwarder-dsi.png
 image: https://db.universal-team.net/assets/images/icons/ndsforwarder-dsi.png
@@ -27,6 +31,7 @@ nightly:
       url: https://nightly.link/lifehackerhansol/NDSForwarder-DSi/workflows/nightly/master/build.zip
 qr:
   NDSForwarder.dsi: https://db.universal-team.net/assets/images/qr/ndsforwarder-dsi.png
+  NDSForwarder.nds: https://db.universal-team.net/assets/images/qr/ndsforwarder-nds.png
 source: https://github.com/lifehackerhansol/NDSForwarder-DSi
 systems:
 - DS
@@ -36,20 +41,22 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>New icon to finally distinguish from TMFH.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/RocketRobz/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/RocketRobz">@RocketRobz</a>:
+  Added flashcard support.</li>
 
   </ul>
 
-  <h3 dir="auto">Bug fix</h3>
+  <h3 dir="auto">Improvements</h3>
 
   <ul dir="auto">
 
-  <li>Flipped the order of CRC checks so that things are actually fixed.</li>
+  <li>Updated to devkitARM r62.</li>
 
   </ul>'
-updated: '2022-03-14T20:02:02Z'
-version: v0.2.3
-version_title: 'v0.2.3: I flipped something around'
+updated: '2023-11-17T02:39:35Z'
+version: v0.3.0
+version_title: 'v0.3.0: it works in more than one place'
 ---
 # NDSForwarder for hiyaCFW
 A basic nds-bootstrap forwarder generator for DSi SDNAND.
