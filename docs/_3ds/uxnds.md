@@ -9,10 +9,10 @@ created: '2021-05-18T19:23:58Z'
 description: NDS/3DS fork/port of the uxn/Varvara virtual machine
 download_page: https://github.com/asiekierka/uxnds/releases
 downloads:
-  uxnds047.zip:
-    size: 512601
-    size_str: 500 KiB
-    url: https://github.com/asiekierka/uxnds/releases/download/v0.4.7/uxnds047.zip
+  uxnds048.zip:
+    size: 514311
+    size_str: 502 KiB
+    url: https://github.com/asiekierka/uxnds/releases/download/v0.4.8/uxnds048.zip
 github: asiekierka/uxnds
 icon: https://raw.githubusercontent.com/asiekierka/uxnds/main/misc/uxn48.png
 image: https://raw.githubusercontent.com/asiekierka/uxnds/main/misc/uxn48.png
@@ -27,18 +27,17 @@ systems:
 title: uxnds
 update_notes: '<ul dir="auto">
 
-  <li>[NDS] Improvements to file I/O.</li>
+  <li>NDS: Update to BlocksDS 0.11.3.</li>
 
-  <li>[NDS] Optimize 1-bit PPU drawing.</li>
+  <li>NDS: Add support for proper NitroFS filesystems; place "boot.rom" in the root
+  of a NitroFS filesystem.</li>
 
-  <li>[NDS] Update to BlocksDS 0.11.0.</li>
-
-  <li>Implement division by zero and system device changes in the Uxn/Varvara specification.</li>
+  <li>Add support for placing the "uxn" folder alongside the .3dsx/.nds file.</li>
 
   </ul>'
-updated: '2023-11-19T18:40:09Z'
-version: v0.4.7
-version_title: uxnds 0.4.7
+updated: '2023-12-16T07:51:16Z'
+version: v0.4.8
+version_title: uxnds 0.4.8
 website: https://100r.co/site/uxn.html
 wiki: https://wiki.xxiivv.com/site/uxn.html
 ---
