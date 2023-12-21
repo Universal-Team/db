@@ -6295,7 +6295,7 @@
 			"Install as 3dsx": [
 				{
     					"type": "downloadRelease",
-    					"repo": "errekr/srb2_3ds",
+    					"repo": "derrekr/srb2_3ds",
     					"file": "srb2_3ds.*\\.zip",
     					"output": "/srb2_3ds.zip",
     					"includePrereleases": false
