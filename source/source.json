@@ -6263,7 +6263,7 @@
 		"categories": ["game"],
 		"unique_ids": [983106],
 		"long_description": "### THIS IS FOR NEW 3DS ONLY. IT WILL NOT RUN ON OLD 3DS.\n\nChangelog:\n- HUGE performance increase thanks to mipmapping\n- stereoscopic 3D rendering\n- initial CIA support\n- fixed graphics glitch that was caused by uninitialized GPU shadow state registers\n- fixed fog color\n- fixed hole in GFZ2\n- fixed crash when DSP firmware is missing\n- ... other miscellaneous fixes",
-		"icon": "https://raw.githubusercontent.com/matbo87/snes9x_3ds/master/resources/icon.png",
+		"icon": "https://github.com/derrekr/srb2_3ds/raw/master/meta/icon.png",
 		"scripts": {
 			"Install as cia": [
 				{
