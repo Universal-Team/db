@@ -3,8 +3,8 @@ author: derrek
 avatar: https://avatars.githubusercontent.com/u/6377793?v=4
 categories:
 - game
-color: '#635e5e'
-color_bg: '#635e5e'
+color: '#9896d9'
+color_bg: '#595880'
 created: '2018-12-23T16:17:43Z'
 description: Port of Sonic Roboblast 2 to the Nintendo New3DS
 download_page: https://github.com/derrekr/srb2_3ds/releases
@@ -18,9 +18,9 @@ downloads:
     size_str: 2 MiB
     url: https://github.com/derrekr/srb2_3ds/releases/download/v1.1.3/srb2_3dsv1.1.3.zip
 github: derrekr/srb2_3ds
-icon: https://raw.githubusercontent.com/matbo87/snes9x_3ds/master/resources/icon.png
-image: https://raw.githubusercontent.com/matbo87/snes9x_3ds/master/resources/icon.png
-image_length: 3285
+icon: https://github.com/derrekr/srb2_3ds/raw/master/meta/icon.png
+image: https://github.com/derrekr/srb2_3ds/raw/master/meta/icon.png
+image_length: 7028
 layout: app
 source: https://github.com/derrekr/srb2_3ds
 systems:
