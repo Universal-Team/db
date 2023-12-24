@@ -11,14 +11,10 @@ description: Raptor Call Of The Shadows Console Ports from Reversed-engineered s
 download_filter: NDS|3DS
 download_page: https://github.com/RetroGamer02/raptor-consoles/releases
 downloads:
-  Raptor3DS.V1.0.5.zip:
-    size: 14319750
+  Raptor3DS.V1.0.4.zip:
+    size: 14333452
     size_str: 13 MiB
-    url: https://github.com/RetroGamer02/raptor-consoles/releases/download/1.0.5/Raptor3DS.V1.0.5.zip
-  RaptorNDS.V1.0.6.zip:
-    size: 1877924
-    size_str: 1 MiB
-    url: https://github.com/RetroGamer02/raptor-consoles/releases/download/1.0.5/RaptorNDS.V1.0.6.zip
+    url: https://github.com/RetroGamer02/raptor-consoles/releases/download/1.0.4/Raptor3DS.V1.0.4.zip
 github: RetroGamer02/raptor-consoles
 icon: https://raw.githubusercontent.com/RetroGamer02/raptor3ds/master/rapicon.png
 image: https://raw.githubusercontent.com/RetroGamer02/raptor3ds/master/RapBanner.png
@@ -35,18 +31,15 @@ source: https://github.com/RetroGamer02/raptor-consoles
 systems:
 - 3DS
 title: Raptor DS/3DS
-update_notes: '<p dir="auto">Updated libctru to v2.2.1 which also fixes build errors
-  with current devkitARM.<br>
+update_notes: '<p dir="auto">Update to libctru v2.2.0.<br>
 
-  Fix Startup Lag for some 3DS''s<br>
+  Switch over to DBOPL for Audio.<br>
 
-  Edit: Added First Switch Build.<br>
+  Up Audio Sample rate slightly.</p>
 
-  Edit2: Added NDS Build.<br>
-
-  Edit3: Added Xbox Build.</p>'
-updated: '2023-06-03T18:27:47Z'
-version: 1.0.5
-version_title: Fix Startup Lag for some 3DS's and First Switch Build
+  <p dir="auto">Edit: Add early Raptor-Xbox Beta.</p>'
+updated: '2023-05-05T18:54:49Z'
+version: 1.0.4
+version_title: DBOPL Audio Update
 ---
 Reversed-engineered source port from Raptor Call Of The Shadows ported to the Nintendo 3DS.
