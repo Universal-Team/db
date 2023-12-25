@@ -14,15 +14,15 @@ downloads:
   LICENSE:
     size: 1067
     size_str: 1 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.1/LICENSE
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.1b/LICENSE
   README.md:
     size: 40374
     size_str: 39 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.1/README.md
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.1b/README.md
   StellaDS.nds:
-    size: 1712128
+    size: 1724928
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.1/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.1b/StellaDS.nds
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -36,7 +36,7 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V7.1 : 23-Dec-2023 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V7.1b : 25-Dec-2023 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
@@ -47,8 +47,11 @@ update_notes: '<p dir="auto">V7.1 : 23-Dec-2023 by Dave Bernazzani (wavemotion)<
   <li>Minor fixes and tweaks to make all the latest homebrew games look and play their
   best.</li>
 
+  <li>Version 7.1b eeks out another partial frame on the hardest hitting ARM-assisted
+  games.</li>
+
   </ul>'
-updated: '2023-12-23T16:23:11Z'
-version: '7.1'
-version_title: Version 7.1
+updated: '2023-12-25T14:56:28Z'
+version: 7.1b
+version_title: Version 7.1b
 ---
