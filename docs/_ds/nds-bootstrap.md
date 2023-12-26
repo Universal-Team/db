@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 765253
-    size_str: 747 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.0.3/nds-bootstrap.7z
+    size: 769068
+    size_str: 751 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.1.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1850019
+    size: 1878854
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.0.3/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.1.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -32,8 +32,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v26.3.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v26.3.0</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v26.4.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v26.4.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -46,26 +46,33 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
+  <h3 dir="auto">What''s new?</h3>
+
+  <ul dir="auto">
+
+  <li><strong>B4DS mode:</strong> Music now plays in <em>Pop Island: Paperfield</em>
+  &amp; <em>Glory Days: Tactical Defense</em> when played on debug/dev DS consoles.</li>
+
+  </ul>
+
   <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li><em>Tootuf: Mission Nadia</em> now saves!</li>
+  <li>Fixed cloneboot not working in some DSiWare titles.</li>
 
-  <li><em>Style Lab: Jewelry Design</em> now boots in DSi mode.</li>
+  <li>Fixed reading cloneboot flag at invalid ROM end address, which would cause certain
+  ROM hacks to not boot.</li>
 
-  <li>Fixed where opening the Records menu after exiting the WFC menu in <em>Tetris
-  DS</em> crashes the game.</li>
+  <li>Part of RAM used for screenshots is now backed up before taking screenshot.
+  This fixes where a game would crash after taking a screenshot.</li>
 
-  <li><strong>B4DS mode:</strong> Fixed where a DSiWare title which doesn''t require
-  a donor ROM, requires one to boot.</li>
-
-  <li>Fixed cheats not working in DSiWare titles on 3DS.</li>
+  <li>Slot-1 access is now enabled for DS Download Play.</li>
 
   </ul>'
-updated: '2023-11-16T23:56:39Z'
-version: v1.0.3
-version_title: v1.0.3
+updated: '2023-12-26T02:55:52Z'
+version: v1.1.0
+version_title: 'v1.1.0: TWL Christmas release'
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
