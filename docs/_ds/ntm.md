@@ -10,9 +10,9 @@ description: NAND Title Manager for DSi
 download_page: https://github.com/Epicpkmn11/NTM/releases
 downloads:
   NTM.dsi:
-    size: 242688
-    size_str: 237 KiB
-    url: https://github.com/Epicpkmn11/NTM/releases/download/v0.2.0/NTM.dsi
+    size: 243712
+    size_str: 238 KiB
+    url: https://github.com/Epicpkmn11/NTM/releases/download/v0.3.0/NTM.dsi
 github: Epicpkmn11/NTM
 icon: https://db.universal-team.net/assets/images/icons/ntm.png
 image: https://db.universal-team.net/assets/images/icons/ntm.png
@@ -42,19 +42,21 @@ update_notes: '<table role="table">
 
   </table>
 
-  <p dir="auto">This version fixes a critical bug in the free space calculation that
-  I''m near certain is responsible for both bricks NTM has caused, I feel absolutely
-  awful about missing this. Typo''d and missed <a href="https://github.com/Epicpkmn11/NTM/commit/b56deb2a59193952f17477a8a2ff0ce72f618bda">one
-  "+"</a> causing the app size calculation to be completely broken and somehow didn''t
-  notice in my testing.</p>
+  <p dir="auto">This update is mainly thanks to <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/rvtr/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/rvtr">@rvtr</a> for
+  her pull request (<a class="issue-link js-issue-link" data-error-text="Failed to
+  load title" data-id="1977644493" data-permission-text="Title is private" data-url="https://github.com/Epicpkmn11/NTM/issues/3"
+  data-hovercard-type="pull_request" data-hovercard-url="/Epicpkmn11/NTM/pull/3/hovercard"
+  href="https://github.com/Epicpkmn11/NTM/pull/3">#3</a>) adding support for installing
+  dev titles and such. I also removed the Unlaunch requirement as there have been
+  no reports of any issues in the 2/3 of a year since the last release. Please be
+  extra careful around dev titles just in case, but I don''t expect any issues.</p>
 
-  <p dir="auto">If you have NTM please update immediately and delete any old versions,
-  Unlaunch is still required in this release however if we can go a long while with
-  zero reports of issues I <em>MIGHT</em> re-enable non-Unlaunch support in release
-  builds.</p>'
-updated: '2023-04-16T17:03:54Z'
-version: v0.2.0
-version_title: Hopefully safe
+  <p dir="auto">Have a Merry Christmas and Happy Holidays!</p>'
+updated: '2023-12-25T20:25:21Z'
+version: v0.3.0
+version_title: Dev titles and no Unlaunch
 wiki: https://github.com/Epicpkmn11/NTM/wiki
 ---
 NAND Title Manager, NTM for short, is an application for the Nintendo DSi that allows you to manage titles on your NAND. It can manage titles on both [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/)'s SDNAND and your actual internal memory, typically called SysNAND. **When using in SysNAND mode please use with caution**.
