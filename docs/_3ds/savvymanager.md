@@ -12,13 +12,13 @@ description: An editor/save manager for the Girls Mode/Girls Style/Style Savvy/S
 download_page: https://github.com/RocketRobz/SavvyManager/releases
 downloads:
   SavvyManager.3dsx:
-    size: 43084080
+    size: 44013696
     size_str: 41 MiB
-    url: https://github.com/RocketRobz/SavvyManager/releases/download/v3.3.0/SavvyManager.3dsx
+    url: https://github.com/RocketRobz/SavvyManager/releases/download/v3.4.0/SavvyManager.3dsx
   SavvyManager.cia:
-    size: 43480000
-    size_str: 41 MiB
-    url: https://github.com/RocketRobz/SavvyManager/releases/download/v3.3.0/SavvyManager.cia
+    size: 44417984
+    size_str: 42 MiB
+    url: https://github.com/RocketRobz/SavvyManager/releases/download/v3.4.0/SavvyManager.cia
 github: RocketRobz/SavvyManager
 icon: https://raw.githubusercontent.com/RocketRobz/SavvyManager/master/app/icon.png
 image: https://raw.githubusercontent.com/RocketRobz/SavvyManager/master/app/banner.png
@@ -41,44 +41,28 @@ systems:
 title: SavvyManager
 unique_ids:
 - '0x36973'
-update_notes: '<p dir="auto"><strong>UPDATE 9/10/2022:</strong> Fixed bug where custom
-  character importing would either not work (in Citra) or cause a crash (on real hardware).</p>
-
-  <h3 dir="auto">What''s new?</h3>
+update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>All fashion items can now be added to <em>Fashion Forward</em> &amp; <em>Styling
-  Star</em>!
+  <li>Added a WIP feature where you can import characters from Styling Star''s save
+  data into Fashion Forward.</li>
+
+  <li>Character shading can now be changed for Styling Star!</li>
+
+  <li>Added a .ini-only setting to force a specific region for a game.
 
   <ul dir="auto">
 
-  <li>This can be done in the stock menu, after selecting either game.</li>
+  <li>The setting is called <code class="notranslate">REGION</code>, which should
+  be added under <code class="notranslate">[SS1]</code>, <code class="notranslate">[SS2]</code>,
+  <code class="notranslate">[SS3]</code>, or <code class="notranslate">[SS4]</code>
+  depending on which game you play.</li>
 
-  <li>The fashion items can be added to both the wardrobe and shop in <em>Styling
-  Star</em>, but they can only be added to the wardrobe in <em>Fashion Forward</em>.</li>
-
-  </ul>
-
-  </li>
-
-  <li>When importing a character from <em>Fashion Forward</em>''s save data into <em>Styling
-  Star</em>, known removed fashion item(s) will now be substituted with other fashion
-  items looking closely to the removed item(s) as possible.</li>
-
-  </ul>
-
-  <h3 dir="auto">Improvement</h3>
-
-  <ul dir="auto">
-
-  <li>Slightly improved the <em>Fashion Forward</em> -&gt; <em>Styling Star</em> character
-  importing and conversion process for importing from FF''s save data.
-
-  <ul dir="auto">
-
-  <li>This means more contact colors, eyebrows, eyeshadows, blushers, and hairstyles
-  will be properly converted.</li>
+  <li>Numbers for the setting are <code class="notranslate">0</code> for JPN, <code
+  class="notranslate">1</code> for USA, <code class="notranslate">2</code> for EUR,
+  <code class="notranslate">3</code> for AUS, <code class="notranslate">4</code> for
+  CHN, and <code class="notranslate">5</code> for KOR.</li>
 
   </ul>
 
@@ -86,14 +70,20 @@ update_notes: '<p dir="auto"><strong>UPDATE 9/10/2022:</strong> Fixed bug where 
 
   </ul>
 
-  <h3 dir="auto">Bug fix</h3>
+  <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>Citra is now checked in order for it to not show a stretched top screen.</li>
+  <li>Fixed some fashion items not being added to Fashion Forward.</li>
+
+  <li>Fixed Keisha missing from the Fashion Forward character list.</li>
+
+  <li>Fixed detecting met people from G to I in SS3/SS4 twice.</li>
+
+  <li>Correct game logo(s) are now shown for existing save file(s).</li>
 
   </ul>'
-updated: '2022-09-08T21:43:51Z'
-version: v3.3.0
-version_title: v3.3.0
+updated: '2023-12-26T02:22:12Z'
+version: v3.4.0
+version_title: 'v3.4.0: Savvy Christmas release'
 ---
