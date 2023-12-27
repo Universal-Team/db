@@ -11,13 +11,13 @@ description: LED color and pattern modifier for (n)3DS/2DS. Customize your notif
 download_page: https://github.com/Golem642/CtrRGBPAT2/releases
 downloads:
   CtrRGBPAT2.3dsx:
-    size: 599544
+    size: 599872
     size_str: 585 KiB
-    url: https://github.com/Golem642/CtrRGBPAT2/releases/download/v2.3/CtrRGBPAT2.3dsx
+    url: https://github.com/Golem642/CtrRGBPAT2/releases/download/v2.2.1/CtrRGBPAT2.3dsx
   CtrRGBPAT2.cia:
     size: 997824
     size_str: 974 KiB
-    url: https://github.com/Golem642/CtrRGBPAT2/releases/download/v2.3/CtrRGBPAT2.cia
+    url: https://github.com/Golem642/CtrRGBPAT2/releases/download/v2.2.1/CtrRGBPAT2.cia
 github: Golem642/CtrRGBPAT2
 icon: https://raw.githubusercontent.com/Golem642/CtrRGBPAT2/master/resources/icon.png
 image: https://raw.githubusercontent.com/Golem642/CtrRGBPAT2/master/resources/banner.png
@@ -48,40 +48,28 @@ systems:
 title: CtrRGBPAT2
 unique_ids:
 - '0xD37BB'
-update_notes: '<p dir="auto">Hey ! I''m not dead ! :D</p>
+update_notes: '<p dir="auto">Ok so this release mainly include bugfixes so everything
+  should be working now. If not, refer to the warning in the previous release (V2.2)</p>
 
-  <p dir="auto">Anyway here''s what''s new :</p>
+  <p dir="auto">But ! I also included a copy/paste function in the custom editor (it
+  was definitely required)</p>
 
-  <ul dir="auto">
+  <p dir="auto">So yeah, little improvement.  Btw i still don''t know what the Unknown
+  LED pattern and the one that resemble the Friend notification are for, so if anyone
+  can help me on the subject open an issue please</p>
 
-  <li>I''m on the Universal updater ! Yipeeeeee !</li>
+  <p dir="auto">And talking about issues, if you ever get stuck on something : look
+  up in the readme if it haven''t been covered already, and if not make an issue about
+  the problem</p>
 
-  <li>Fixed crash of force exit of the app (finally, i knew those std::strings were
-  evil)</li>
-
-  <li>Also you can now go back to the HOME menu again if you want</li>
-
-  <li>Fixed a few visual glitches</li>
-
-  <li>The unknown pattern is now known : it triggers when you boot your DS or you
-  exit sleep mode (can make for some cool transitions)</li>
-
-  </ul>
-
-  <p dir="auto">The roadmap also has been updated with some ideas from Semka (thx)</p>
-
-  <p dir="auto">I''m definitely not done with this yet, i still have a few things
-  i want to implement but also i don''t have the time. This is kind of like a fun
-  project so please don''t mind the unfrequent updates, thank you</p>
-
-  <p dir="auto">Have fun ! :)</p>
+  <p dir="auto">Anyway, have fun ! :)</p>
 
   <p dir="auto">QR code download :<br>
 
   </p>'
-updated: '2023-12-10T16:35:01Z'
-version: v2.3
-version_title: V2.3
+updated: '2023-10-09T18:29:07Z'
+version: v2.2.1
+version_title: V2.2.1
 ---
 # CtrRGBPAT2
 This 3DS application allows the LED color to be changed. In order for this to work, Luma CFW (custom firmware) needs to be installed.
