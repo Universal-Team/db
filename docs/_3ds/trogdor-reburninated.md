@@ -9,7 +9,15 @@ created: '2021-11-13T05:10:52Z'
 description: Burninate the countryside!
 download_filter: 3ds
 download_page: https://github.com/Mips96/Trogdor-Reburninated/releases
-downloads: {}
+downloads:
+  Trogdor-Reburninated-v2.0-3ds-cia.zip:
+    size: 37603797
+    size_str: 35 MiB
+    url: https://github.com/Mips96/Trogdor-Reburninated/releases/download/v2.0-3DS/Trogdor-Reburninated-v2.0-3ds-cia.zip
+  Trogdor-Reburninated-v2.0-3ds.zip:
+    size: 37224571
+    size_str: 35 MiB
+    url: https://github.com/Mips96/Trogdor-Reburninated/releases/download/v2.0-3DS/Trogdor-Reburninated-v2.0-3ds.zip
 github: Mips96/Trogdor-Reburninated
 icon: https://raw.githubusercontent.com/Mips96/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/logo_icon_android_48.png
 image: https://raw.githubusercontent.com/Mips96/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/background_psp.png
@@ -24,21 +32,11 @@ source: https://github.com/Mips96/Trogdor-Reburninated
 systems:
 - 3DS
 title: 'Trogdor: Reburninated'
-update_notes: '<p dir="auto">This update is Wii-exclusive, as it adds one feature:</p>
-
-  <ul dir="auto">
-
-  <li>Added <strong>Trogba demo</strong> to the main menu; using a Gamecube to GBA
-  link cable, you can now transfer a demo of <a href="https://github.com/jeremyelkayam/trogba">Trogba</a>
-  to play on your GBA, no flashcart required! Big thanks to Jeremy Elkayam for making
-  this demo and managing to cram everything into the GBA''s 256KB of RAM</li>
-
-  </ul>
-
-  <p dir="auto">Enjoy!</p>'
-updated: '2023-11-22T18:45:08Z'
-version: v2.01
-version_title: v2.01
+update_notes: <p dir="auto">Per a request, here is the latest 3DS version as a standalone
+  release. For other systems, check the previous releases.</p>
+updated: '2023-12-28T02:58:43Z'
+version: v2.0-3DS
+version_title: v2.0-3DS
 ---
 An enhanced recreation of the Homestar Runner Flash game, "Trogdor", expanded with new features.
 - New Options menu to customize your game
