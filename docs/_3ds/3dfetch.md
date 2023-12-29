@@ -61,8 +61,8 @@ update_notes: '<p dir="auto">Lots of stuff added! First and foremost:</p>
   <p dir="auto">As always, you can update 3dfetch via the TitleDB option in FBI, or,
   use the QR code below and utilize remote install.</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/454080f3c85e50265dc7c3015cccf92f3785f4e501a01cce68c340bad1438938/687474703a2f2f692e696d6775722e636f6d2f5a7773356743492e706e67"><img
-  src="https://camo.githubusercontent.com/454080f3c85e50265dc7c3015cccf92f3785f4e501a01cce68c340bad1438938/687474703a2f2f692e696d6775722e636f6d2f5a7773356743492e706e67"
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/ca40dd79eeb19684bed56f283a202f13f77967474b193c821881073e9c4d3462/687474703a2f2f692e696d6775722e636f6d2f5a7773356743492e706e67"><img
+  src="https://camo.githubusercontent.com/ca40dd79eeb19684bed56f283a202f13f77967474b193c821881073e9c4d3462/687474703a2f2f692e696d6775722e636f6d2f5a7773356743492e706e67"
   alt="QR code" data-canonical-src="http://i.imgur.com/Zws5gCI.png" style="max-width:
   100%;"></a></p>
 
