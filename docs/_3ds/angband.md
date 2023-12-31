@@ -26,19 +26,19 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.5-69-gf841d717c
+  download_page: https://github.com/angband/angband/releases/tag/4.2.5-74-g24ba21ca7
   downloads:
-    Angband-4.2.5-69-gf841d717c-3ds.zip:
-      size: 24591097
+    Angband-4.2.5-74-g24ba21ca7-3ds.zip:
+      size: 24592031
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.5-69-gf841d717c/Angband-4.2.5-69-gf841d717c-3ds.zip
-    Angband-4.2.5-69-gf841d717c-nds.zip:
-      size: 23333280
+      url: https://github.com/angband/angband/releases/download/4.2.5-74-g24ba21ca7/Angband-4.2.5-74-g24ba21ca7-3ds.zip
+    Angband-4.2.5-74-g24ba21ca7-nds.zip:
+      size: 23333229
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.5-69-gf841d717c/Angband-4.2.5-69-gf841d717c-nds.zip
-  updated: '2023-12-29T20:57:09Z'
-  version: 4.2.5-69-gf841d717c
-  version_title: 4.2.5-69-gf841d717c
+      url: https://github.com/angband/angband/releases/download/4.2.5-74-g24ba21ca7/Angband-4.2.5-74-g24ba21ca7-nds.zip
+  updated: '2023-12-30T20:47:34Z'
+  version: 4.2.5-74-g24ba21ca7
+  version_title: 4.2.5-74-g24ba21ca7
 source: https://github.com/angband/angband
 systems:
 - 3DS
