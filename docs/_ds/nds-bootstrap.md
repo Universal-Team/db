@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 769068
-    size_str: 751 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.1.0/nds-bootstrap.7z
+    size: 768983
+    size_str: 750 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.1.1/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1878854
+    size: 1879708
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.1.0/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.1.1/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -32,8 +32,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v26.4.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v26.4.0</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v26.5.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v26.5.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -50,29 +50,32 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li><strong>B4DS mode:</strong> Music now plays in <em>Pop Island: Paperfield</em>
-  &amp; <em>Glory Days: Tactical Defense</em> when played on debug/dev DS consoles.</li>
+  <li><strong>B4DS mode:</strong> As <em>Flipnote Studio</em> is one of the most requested
+  DSiWare, it now boots on DS Phat &amp; Lite consoles!</li>
 
   </ul>
 
-  <h3 dir="auto">Bug fixes</h3>
+  <h3 dir="auto">Known bug</h3>
 
   <ul dir="auto">
 
-  <li>Fixed cloneboot not working in some DSiWare titles.</li>
+  <li>Unfortunately, due to memory limitations, <em>Flipnote Studio</em> does not
+  work fully in B4DS mode, and only works in a proof-of-concept state.
 
-  <li>Fixed reading cloneboot flag at invalid ROM end address, which would cause certain
-  ROM hacks to not boot.</li>
+  <ul dir="auto">
 
-  <li>Part of RAM used for screenshots is now backed up before taking screenshot.
-  This fixes where a game would crash after taking a screenshot.</li>
+  <li>Only the USA version boots.</li>
 
-  <li>Slot-1 access is now enabled for DS Download Play.</li>
+  <li>Getting past the main menu will cause a crash.</li>
+
+  </ul>
+
+  </li>
 
   </ul>'
-updated: '2023-12-26T02:55:52Z'
-version: v1.1.0
-version_title: 'v1.1.0: TWL Christmas release'
+updated: '2024-01-01T22:59:56Z'
+version: v1.1.1
+version_title: 'v1.1.1: Flipnote on DS Lite? (New Years release)'
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
