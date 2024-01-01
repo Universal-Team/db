@@ -12,21 +12,21 @@ description: Nintellivision - an Intellivision Emulator for the DS/DSi. High com
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 545280
-    size_str: 532 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.4/NINTV-DS.nds
+    size: 546816
+    size_str: 534 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.5/NINTV-DS.nds
   README.md:
-    size: 17698
-    size_str: 17 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.4/README.md
+    size: 18484
+    size_str: 18 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.5/README.md
   extras.zip:
-    size: 3597735
-    size_str: 3 MiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.4/extras.zip
+    size: 8118945
+    size_str: 7 MiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.5/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 34481
+image_length: 34754
 layout: app
 qr:
   NINTV-DS.nds: https://db.universal-team.net/assets/images/qr/nintv-ds-nds.png
@@ -37,26 +37,24 @@ source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V4.4 : 30-Oct-2023 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V4.5 : 01-Jan-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Major overhaul of configuration to provide for better future enhancements. Your
-  old configurations will be wiped in favor of the new defaults.</li>
+  <li>Added new Screenshot handling (press and hold the L+R shoulder buttons for ~1
+  second to take a .bmp snapshot written to the SD card)</li>
 
-  <li>Major cleanup of overlay support - gone are the built-in overlays except for
-  the normal Intellivision controller graphic and the mini-ECS keyboard. All other
-  overlays are stored externally and a library of more than 40 custom overlays for
-  personal use are provided.</li>
+  <li>Added new meta key mapping to un-throttle (Speedup) the emulator. Useful for
+  games where your character is resting and you want the emulator to run the frames
+  as fast as it can.</li>
 
-  <li>Simplified use of custom overlays - if the .ovl file exists (with the same base
-  name as the .ROM or .BIN file), it will automatically be loaded and used (you no
-  longer need to specify that the overlay is ''Custom'').</li>
+  <li>Minor cleanup on the internal database for the latest and greatest homebrew
+  games.</li>
 
-  <li>Other minor cleanups and tweaks as time permitted.</li>
+  <li>Lots of new and improved overlays in the extras.zip pack.</li>
 
   </ul>'
-updated: '2023-10-30T11:31:05Z'
-version: '4.4'
-version_title: Version 4.4
+updated: '2024-01-01T15:49:16Z'
+version: '4.5'
+version_title: Version 4.5
 ---
