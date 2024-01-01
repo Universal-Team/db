@@ -14,15 +14,15 @@ downloads:
   LICENSE:
     size: 1067
     size_str: 1 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.1b/LICENSE
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.2/LICENSE
   README.md:
-    size: 40374
-    size_str: 39 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.1b/README.md
+    size: 41272
+    size_str: 40 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.2/README.md
   StellaDS.nds:
     size: 1724928
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.1b/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.2/StellaDS.nds
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -36,22 +36,18 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V7.1b : 25-Dec-2023 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V7.2 : 01-Jan-2024 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
-  <li>Squeezed out one extra frame of performance on CDFJ/+ games.</li>
+  <li>Updated copyright as we cross into the new year!</li>
 
-  <li>New light frameskip applied to Draconian for a performance boost.</li>
+  <li>Another partial frame of performance on CDFJ/+ games.</li>
 
-  <li>Minor fixes and tweaks to make all the latest homebrew games look and play their
-  best.</li>
-
-  <li>Version 7.1b eeks out another partial frame on the hardest hitting ARM-assisted
-  games.</li>
+  <li>Cleanup this readme file to reflect latest changes in the emulator.</li>
 
   </ul>'
-updated: '2023-12-25T14:56:28Z'
-version: 7.1b
-version_title: Version 7.1b
+updated: '2024-01-01T12:16:10Z'
+version: '7.2'
+version_title: Version 7.2
 ---
