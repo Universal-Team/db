@@ -69,7 +69,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <li>Does not save.</li>
 
-  <li>Getting past the main menu will cause a crash.</li>
+  <li>Getting past the main menu will cause a crash. This means you cannot create
+  any flipnotes.</li>
 
   </ul>
 
