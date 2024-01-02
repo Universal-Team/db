@@ -8,7 +8,23 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads: {}
+downloads:
+  TWiLightMenu-3DS.7z:
+    size: 41764751
+    size_str: 39 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.5.0/TWiLightMenu-3DS.7z
+  TWiLightMenu-DSi.7z:
+    size: 41806955
+    size_str: 39 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.5.0/TWiLightMenu-DSi.7z
+  TWiLightMenu-Flashcard.7z:
+    size: 52815321
+    size_str: 50 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.5.0/TWiLightMenu-Flashcard.7z
+  TWiLightMenu.7z:
+    size: 53083567
+    size_str: 50 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.5.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -55,7 +71,8 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <li>Added AP-fix for Spanish translation of <em>Final Fantasy: The 4 Heroes of Light</em>.</li>
 
-  <li>A message for if FAT takes a while to init on DSi/3DS SD Card</li>
+  <li>After launch, a message for if FAT takes a while to init on DSi/3DS SD Card
+  is now displayed.</li>
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DieGo367/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DieGo367">@DieGo367</a>:
@@ -75,6 +92,14 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DieGo367/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DieGo367">@DieGo367</a>:
   Fixed crash when missing pictochat/dlp/browser and cursor is over a folder.</li>
+
+  </ul>
+
+  <h3 dir="auto">Known bug</h3>
+
+  <ul dir="auto">
+
+  <li>Year text in the Rocket Robz screen still displays 2023 as the last year.</li>
 
   </ul>'
 updated: '2024-01-01T23:06:29Z'

@@ -55,22 +55,27 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ul>
 
-  <h3 dir="auto">Known bug</h3>
+  <h3 dir="auto">Known bugs</h3>
 
   <ul dir="auto">
 
   <li>Unfortunately, due to memory limitations, <em>Flipnote Studio</em> does not
-  work fully in B4DS mode, and only works in a proof-of-concept state.
+  work fully in B4DS mode, and only works in a proof-of-concept state. These bugs
+  will likely not get fixed.
 
   <ul dir="auto">
 
   <li>Only the USA version boots.</li>
+
+  <li>Does not save.</li>
 
   <li>Getting past the main menu will cause a crash.</li>
 
   </ul>
 
   </li>
+
+  <li>Year text in the nds-bootstrap screen still displays 2023 as the last year.</li>
 
   </ul>'
 updated: '2024-01-01T22:59:56Z'
