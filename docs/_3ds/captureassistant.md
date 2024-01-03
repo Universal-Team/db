@@ -12,11 +12,11 @@ downloads:
   CaptureAssistant.cia:
     size: 1606592
     size_str: 1 MiB
-    url: https://github.com/ItsDeidara/CaptureAssistant/releases/download/1.3/CaptureAssistant.cia
-  CaptureAssistantv1.3.zip:
-    size: 1285025
+    url: https://github.com/ItsDeidara/CaptureAssistant/releases/download/1.2/CaptureAssistant.cia
+  CaptureAssistantv1.2.zip:
+    size: 1285022
     size_str: 1 MiB
-    url: https://github.com/ItsDeidara/CaptureAssistant/releases/download/1.3/CaptureAssistantv1.3.zip
+    url: https://github.com/ItsDeidara/CaptureAssistant/releases/download/1.2/CaptureAssistantv1.2.zip
 github: ItsDeidara/CaptureAssistant
 icon: https://raw.githubusercontent.com/ItsDeidara/CaptureAssistant/master/assets/icon.png
 image: https://raw.githubusercontent.com/ItsDeidara/CaptureAssistant/master/assets/banner.png
@@ -37,7 +37,10 @@ update_notes: '<p dir="auto">Extract to the root of your SD card and install Cap
 
   <p dir="auto">Changelog-<br>
 
-  Fixed duplicate Title ID</p>
+  Added text<br>
+
+  Added alternate grids to use rename calibrationalt &amp; calibrationalt2 to "calibration"
+  and "calibration2"</p>
 
   <p dir="auto">Bugs-<br>
 
@@ -46,6 +49,6 @@ update_notes: '<p dir="auto">Extract to the root of your SD card and install Cap
   <p dir="auto">If you would like to add anything too this or would like to request
   anything then please request it in the tool''s GBAtemp thread <a href="http://gbatemp.net/threads/capture-assistant-a-capture-alignment-tool-for-capture-cards-ntr.439356/#post-6631437"
   rel="nofollow">http://gbatemp.net/threads/capture-assistant-a-capture-alignment-tool-for-capture-cards-ntr.439356/#post-6631437</a></p>'
-updated: '2016-08-26T23:13:12Z'
-version: '1.3'
+updated: '2016-08-26T19:17:28Z'
+version: '1.2'
 ---
