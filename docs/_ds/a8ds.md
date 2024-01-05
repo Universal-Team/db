@@ -11,13 +11,17 @@ description: A8DS An Atari 8-bit Computer Emulator for the DS/DSi and includes v
 download_page: https://github.com/wavemotion-dave/A8DS/releases
 downloads:
   A8DS.nds:
-    size: 601600
-    size_str: 587 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.8/A8DS.nds
+    size: 594432
+    size_str: 580 KiB
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.7/A8DS.nds
+  Copying:
+    size: 18092
+    size_str: 17 KiB
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.7/Copying
   readme.md:
-    size: 32186
+    size: 31844
     size_str: 31 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.8/readme.md
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.7/readme.md
 github: wavemotion-dave/A8DS
 icon: https://db.universal-team.net/assets/images/icons/a8ds.png
 image: https://raw.githubusercontent.com/wavemotion-dave/A8DS/main/arm9/gfx/bgTop.png
@@ -31,18 +35,21 @@ source: https://github.com/wavemotion-dave/A8DS
 systems:
 - DS
 title: A8DS
-update_notes: '<p dir="auto">V3.8 : 03-Jan-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V3.7 : 04-June-2023 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Optimization of CPU core for a 3% speedup across the board.</li>
+  <li>Update to Screen Blur to have just 3 settings: NONE, LIGHT and HEAVY. Default
+  is LIGHT.</li>
 
-  <li>New Star Raiders keypad overlay integrated into the emulator.</li>
+  <li>Improvements to memory layout to gain back additional resources.</li>
 
-  <li>Minor tweaks, fixes and cleanup as time permitted.</li>
+  <li>Fix for 576K COMPY RAM so that it properly handles separate ANTIC memory access.</li>
+
+  <li>Minor fixes and cleanup as time permitted.</li>
 
   </ul>'
-updated: '2024-01-03T12:10:08Z'
-version: '3.8'
-version_title: Version 3.8
+updated: '2023-06-04T11:52:54Z'
+version: '3.7'
+version_title: Version 3.7
 ---
