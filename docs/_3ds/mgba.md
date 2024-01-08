@@ -9,10 +9,10 @@ created: '2014-12-09T21:37:23Z'
 description: mGBA Game Boy Advance Emulator
 download_page: https://github.com/mgba-emu/mgba/releases
 downloads:
-  mGBA-0.10.2-3ds.7z:
-    size: 1196353
+  mGBA-0.10.3-3ds.7z:
+    size: 1202584
     size_str: 1 MiB
-    url: https://github.com/mgba-emu/mgba/releases/download/0.10.2/mGBA-0.10.2-3ds.7z
+    url: https://github.com/mgba-emu/mgba/releases/download/0.10.3/mGBA-0.10.3-3ds.7z
 eval_notes_md: true
 github: mgba-emu/mgba
 icon: https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-48.png
@@ -47,23 +47,34 @@ update_notes: '<h3 dir="auto">Emulation fixes:</h3>
 
   <ul dir="auto">
 
-  <li>GBA Audio: Fix improperly deserializing GB audio registers (fixes mgba.io/i/2793)</li>
+  <li>ARM: Remove obsolete force-alignment in <code class="notranslate">bx pc</code>
+  (fixes mgba.io/i/2964)</li>
 
-  <li>GBA Audio: Clear GB audio state when disabled</li>
+  <li>ARM: Fake bpkt instruction should take no cycles (fixes mgba.io/i/2551)</li>
 
-  <li>GBA Memory: Make VRAM access stalls only apply to BG RAM</li>
+  <li>GB Audio: Fix channels 1/2 staying muted if restarted after long silence</li>
 
-  <li>GBA Overrides: Fix saving in PMD:RRT (JP) (fixes mgba.io/i/2862)</li>
+  <li>GB Audio: Fix channel 1 restarting if sweep applies after stop (fixes mgba.io/i/2965)</li>
 
-  <li>GBA SIO: Fix SIOCNT SI pin value after attaching player 2 (fixes mgba.io/i/2805)</li>
+  <li>GB Audio: Fix restarting envelope when writing to register (fixes mgba.io/i/3067)</li>
 
-  <li>GBA SIO: Fix unconnected normal mode SIOCNT SI bit (fixes mgba.io/i/2810)</li>
+  <li>GB Audio: Improve "zombie mode" emulation in CGB mode (fixes mgba.io/i/2029)</li>
 
-  <li>GBA SIO: Normal mode transfers with no clock should not finish (fixes mgba.io/i/2811)</li>
+  <li>GB I/O: Read back proper SVBK value after writing 0 (fixes mgba.io/i/2921)</li>
 
-  <li>GBA Timers: Cascading timers don''t tick when disabled (fixes mgba.io/i/2812)</li>
+  <li>GB SIO: Disabling SIO should cancel pending transfers (fixes mgba.io/i/2537)</li>
 
-  <li>GBA Video: Fix interpolation issues with OpenGL renderer</li>
+  <li>GBA Audio: Fix sample timing drifting when changing sample interval</li>
+
+  <li>GBA Audio: Fix initial channel 3 wave RAM (fixes mgba.io/i/2947)</li>
+
+  <li>GBA Audio: Fix sample position issues when rate changes (fixes mgba.io/i/3006)</li>
+
+  <li>GBA GPIO: Fix tilt scale and orientation (fixes mgba.io/i/2703)</li>
+
+  <li>GBA BIOS: Fix clobbering registers with word-sized CpuSet</li>
+
+  <li>GBA SIO: Fix normal mode SI/SO semantics (fixes mgba.io/i/2925)</li>
 
   </ul>
 
@@ -71,42 +82,19 @@ update_notes: '<h3 dir="auto">Emulation fixes:</h3>
 
   <ul dir="auto">
 
-  <li>Core: Allow sending thread requests to a crashed core (fixes mgba.io/i/2784)</li>
+  <li>GB: Fix applying a patch that changes the cartridge mapper (fixes mgba.io/i/3077)</li>
 
-  <li>FFmpeg: Force lower sample rate for codecs not supporting high rates (fixes
-  mgba.io/i/2869)</li>
+  <li>GBA Savedata: Fix crash when resizing flash save games for RTC data</li>
 
-  <li>Qt: Fix crash when attempting to use OpenGL 2.1 to 3.1 (fixes mgba.io/i/2794)</li>
+  <li>mGUI: Fix cases where an older save state screenshot would be shown (fixes mgba.io/i/2183)</li>
 
-  <li>Qt: Disable sync while running scripts from main thread (fixes mgba.io/i/2738)</li>
+  <li>Qt: Re-enable sync for multiplayer windows that aren''t connected (fixes mgba.io/i/2974)</li>
 
-  <li>Qt: Properly cap number of attached players by platform (fixes mgba.io/i/2807)</li>
+  <li>Qt: Fix mute settings not being loaded on setting screen (fixes mgba.io/i/2990)</li>
 
-  <li>Qt: Disable attempted linking betwen incompatible platforms (fixes mgba.io/i/2702)</li>
+  <li>Qt: Fix screen freezing on macOS after closing save state window (fixes mgba.io/i/2885)</li>
 
-  <li>Qt: Fix modifier key names in shortcut editor (fixes mgba.io/i/2817)</li>
-
-  <li>Qt: Fix a handful of edge cases with graphics viewers (fixes mgba.io/i/2827)</li>
-
-  <li>Qt: Fix full-buffer rewind</li>
-
-  <li>Qt: Fix crash if loading a shader fails</li>
-
-  <li>Qt: Fix black screen when starting with a game (fixes mgba.io/i/2781)</li>
-
-  <li>Qt: Fix OSD on modern macOS (fixes mgba.io/i/2736)</li>
-
-  <li>Qt: Fix checked state of mute menu option at load (fixes mgba.io/i/2701)</li>
-
-  <li>Qt: Remove OpenGL proxy thread and override SwapInterval directly instead</li>
-
-  <li>Scripting: Fix receiving packets for client sockets</li>
-
-  <li>Scripting: Fix empty receive calls returning unknown error on Windows</li>
-
-  <li>Scripting: Return proper callback ID from socket.add</li>
-
-  <li>Vita: Work around broken mktime implementation in Vita SDK (fixes mgba.io/i/2876)</li>
+  <li>Vita: Fix camera setting not appearing (fixes mgba.io/i/3012)</li>
 
   </ul>
 
@@ -114,17 +102,15 @@ update_notes: '<h3 dir="auto">Emulation fixes:</h3>
 
   <ul dir="auto">
 
-  <li>Qt: Include wayland QPA in AppImage (fixes mgba.io/i/2796)</li>
+  <li>mGUI: Persist fast forwarding after closing menu (fixes mgba.io/i/2414)</li>
 
-  <li>Qt: Stop eating boolean action key events (fixes mgba.io/i/2636)</li>
+  <li>Qt: Add exporting of SAV + RTC saves from Save Converter to strip RTC data</li>
 
-  <li>Qt: Automatically change video file extension as appropriate</li>
-
-  <li>Qt: Swap P1 and other player''s save if P1 loaded it first (closes mgba.io/i/2750)</li>
+  <li>VFS: Use anonymousMemoryMap for large 7z allocations (fixes mgba.io/i/3013)</li>
 
   </ul>'
-updated: '2023-04-24T04:39:19Z'
-version: 0.10.2
+updated: '2024-01-08T04:01:37Z'
+version: 0.10.3
 website: https://mgba.io/
 wiki: https://github.com/mgba-emu/mgba/wiki
 ---
