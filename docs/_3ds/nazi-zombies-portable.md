@@ -6,7 +6,8 @@ categories:
 color: '#441616'
 color_bg: '#441616'
 created: '2022-02-08T23:52:38Z'
-description: 'Call of Duty: Zombies demake, powered by various Quake sourceports.'
+description: 'Call of Duty: Zombies demake, powered by various Quake sourceports.
+  https://docs.nzp.gay/'
 download_filter: 3ds
 download_page: https://github.com/nzp-team/nzportable/releases
 downloads:
