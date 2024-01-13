@@ -13,11 +13,15 @@ downloads:
   A8DS.nds:
     size: 601600
     size_str: 587 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.8/A8DS.nds
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.8a/A8DS.nds
+  Copying:
+    size: 18092
+    size_str: 17 KiB
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.8a/Copying
   readme.md:
     size: 32186
     size_str: 31 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.8/readme.md
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.8a/readme.md
 github: wavemotion-dave/A8DS
 icon: https://db.universal-team.net/assets/images/icons/a8ds.png
 image: https://raw.githubusercontent.com/wavemotion-dave/A8DS/main/arm9/gfx/bgTop.png
@@ -31,7 +35,7 @@ source: https://github.com/wavemotion-dave/A8DS
 systems:
 - DS
 title: A8DS
-update_notes: '<p dir="auto">V3.8 : 03-Jan-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V3.8a : 12-Jan-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
@@ -41,8 +45,10 @@ update_notes: '<p dir="auto">V3.8 : 03-Jan-2024 by wavemotion-dave</p>
 
   <li>Minor tweaks, fixes and cleanup as time permitted.</li>
 
+  <li>Version 3.8a optimizes the sound core a bit to improve scratchy sounds.</li>
+
   </ul>'
-updated: '2024-01-03T12:10:08Z'
-version: '3.8'
-version_title: Version 3.8
+updated: '2024-01-12T23:24:13Z'
+version: 3.8a
+version_title: Version 3.8a
 ---
