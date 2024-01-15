@@ -16,7 +16,7 @@ downloads:
     size_str: 539 KiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.6/NINTV-DS.nds
   README.md:
-    size: 19103
+    size: 18935
     size_str: 18 KiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.6/README.md
 github: wavemotion-dave/NINTV-DS
@@ -40,7 +40,7 @@ update_notes: '<p dir="auto">V4.6 : 15-Jan-2024 by wavemotion-dave</p>
   <li>Massive overhaul to the core emulation to reduce memory footprint. The older
   DS-Lite/Phat (with 4MB of memory) can now load all of the newest homebrew games!</li>
 
-  <li>Optmizations in Video, Audio and CPU cores providese 10% speed up across the
+  <li>Optimizations in Video, Audio and CPU cores provides 10% speed up across the
   board.</li>
 
   <li>Improved sound quality for the DSi including a new "BEST" option (not enabled
