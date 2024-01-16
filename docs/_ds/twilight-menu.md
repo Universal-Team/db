@@ -73,7 +73,7 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>This is done in case if the console''s NAND chip no longer functions, and you''re
+  <li>This is done in case if the console''s NAND chip no longer functions and you''re
   starting hiyaCFW via ntrboot.</li>
 
   </ul>
