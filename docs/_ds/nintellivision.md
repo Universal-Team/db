@@ -12,17 +12,17 @@ description: Nintellivision - an Intellivision Emulator for the DS/DSi. High com
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 551936
-    size_str: 539 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.6/NINTV-DS.nds
+    size: 549376
+    size_str: 536 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.7/NINTV-DS.nds
   README.md:
-    size: 18935
-    size_str: 18 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.6/README.md
+    size: 19682
+    size_str: 19 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.7/README.md
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 34975
+image_length: 35199
 layout: app
 qr:
   NINTV-DS.nds: https://db.universal-team.net/assets/images/qr/nintv-ds-nds.png
@@ -33,26 +33,24 @@ source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V4.6 : 15-Jan-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V4.7 : 19-Jan-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Massive overhaul to the core emulation to reduce memory footprint. The older
-  DS-Lite/Phat (with 4MB of memory) can now load all of the newest homebrew games!</li>
+  <li>Major refactor of the audio processor for a big speedup in rendering especially
+  with more than one audio processor (i.e. ECS or Intellivoice)</li>
 
-  <li>Optimizations in Video, Audio and CPU cores provides 10% speed up across the
-  board.</li>
+  <li>Switched from individual pixel output to 16-bit (two pixel) output when dealing
+  with scrolling games (big speedup for games like Tron Solar Sailor, Space Spartans,
+  Sorrow, TNT Cowboy, etc).</li>
 
-  <li>Improved sound quality for the DSi including a new "BEST" option (not enabled
-  by default) that will render the sound as good as I can make it on the handheld.</li>
+  <li>The DSi now defaults to NO frameskip on any game and the ''Best'' sound quality.</li>
 
-  <li>A few small fixes for the CPU core to improve the cycle accuracy.</li>
-
-  <li>With the improved speed, the DSi largely disables frameskip for the best visual
-  experience.</li>
+  <li>The DS-Lite/Phat gets a 15% improvement in sound quality and many of the classic
+  games now run without frameskip.</li>
 
   </ul>'
-updated: '2024-01-15T14:05:15Z'
-version: '4.6'
-version_title: Version 4.6
+updated: '2024-01-19T01:52:55Z'
+version: '4.7'
+version_title: Version 4.7
 ---
