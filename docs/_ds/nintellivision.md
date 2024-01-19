@@ -16,7 +16,7 @@ downloads:
     size_str: 536 KiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.7/NINTV-DS.nds
   README.md:
-    size: 19682
+    size: 19893
     size_str: 19 KiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.7/README.md
 github: wavemotion-dave/NINTV-DS
@@ -44,7 +44,11 @@ update_notes: '<p dir="auto">V4.7 : 19-Jan-2024 by wavemotion-dave</p>
   with scrolling games (big speedup for games like Tron Solar Sailor, Space Spartans,
   Sorrow, TNT Cowboy, etc).</li>
 
-  <li>The DSi now defaults to NO frameskip on any game and the ''Best'' sound quality.</li>
+  <li>The DSi now defaults to NO frameskip on any game and the ''High'' (best) sound
+  quality.</li>
+
+  <li>Aggressive frameskip no longer an option - it''s not needed for any game even
+  on the older DS hardware.</li>
 
   <li>The DS-Lite/Phat gets a 15% improvement in sound quality and many of the classic
   games now run without frameskip.</li>
