@@ -49,6 +49,9 @@ update_notes: '<p dir="auto">V4.7 : 19-Jan-2024 by wavemotion-dave</p>
   <li>The DS-Lite/Phat gets a 15% improvement in sound quality and many of the classic
   games now run without frameskip.</li>
 
+  <li>With the many updates, the config format changed and will be wiped back to defaults
+  - sorry!</li>
+
   </ul>'
 updated: '2024-01-19T01:52:55Z'
 version: '4.7'
