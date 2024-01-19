@@ -16,8 +16,8 @@ downloads:
     size_str: 536 KiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.7/NINTV-DS.nds
   README.md:
-    size: 19893
-    size_str: 19 KiB
+    size: 20925
+    size_str: 20 KiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.7/README.md
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
@@ -52,6 +52,8 @@ update_notes: '<p dir="auto">V4.7 : 19-Jan-2024 by wavemotion-dave</p>
 
   <li>The DS-Lite/Phat gets a 15% improvement in sound quality and many of the classic
   games now run without frameskip.</li>
+
+  <li>Fix for B-17 Bomber so it doesn''t flash the screen when in Pilot/Gun view.</li>
 
   <li>With the many updates, the config format changed and will be wiped back to defaults
   - sorry!</li>
