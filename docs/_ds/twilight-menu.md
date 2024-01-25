@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 41786079
+    size: 41764751
     size_str: 39 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.5.1/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.5.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 41916321
+    size: 41806955
     size_str: 39 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.5.1/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.5.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 52841987
+    size: 52815321
     size_str: 50 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.5.1/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.5.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 53110233
+    size: 53083567
     size_str: 50 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.5.1/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.5.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -48,8 +48,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto"><strong>UPDATE 1/16/2024:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.2.1">nds-bootstrap
-  v1.2.1</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.1.1">nds-bootstrap
+  v1.1.1</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -69,16 +69,14 @@ update_notes: '<p dir="auto"><strong>UPDATE 1/16/2024:</strong> Includes <a href
 
   <ul dir="auto">
 
-  <li>When using hiyaCFW to launch TWLMenu++, Unlaunch will no longer start it.
+  <li>Added AP-fix for Spanish translation of <em>Final Fantasy: The 4 Heroes of Light</em>.</li>
 
-  <ul dir="auto">
+  <li>After launch, a message for if FAT takes a while to init on DSi/3DS SD Card
+  is now displayed.</li>
 
-  <li>This is done in case if the console''s NAND chip no longer functions and you''re
-  starting hiyaCFW via ntrboot.</li>
-
-  </ul>
-
-  </li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DieGo367/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DieGo367">@DieGo367</a>:
+  Added show photo setting.</li>
 
   </ul>
 
@@ -86,14 +84,27 @@ update_notes: '<p dir="auto"><strong>UPDATE 1/16/2024:</strong> Includes <a href
 
   <ul dir="auto">
 
-  <li>Fixed attempting to use nds-bootstrap to run homebrew on flashcards.</li>
+  <li><em>Wario Land 4</em> will no longer launch without a GBA BIOS.</li>
 
-  <li>Updated last year text in the Rocket Robz screen.</li>
+  <li>Attempted to fix the bug where the Unlaunch installer wouldn''t boot using the
+  3DS theme.</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DieGo367/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DieGo367">@DieGo367</a>:
+  Fixed crash when missing pictochat/dlp/browser and cursor is over a folder.</li>
+
+  </ul>
+
+  <h3 dir="auto">Known bug</h3>
+
+  <ul dir="auto">
+
+  <li>Year text in the Rocket Robz screen still displays 2023 as the last year.</li>
 
   </ul>'
-updated: '2024-01-16T06:52:45Z'
-version: v26.5.1
-version_title: v26.5.1
+updated: '2024-01-01T23:06:29Z'
+version: v26.5.0
+version_title: 'v26.5.0: New Years release'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
