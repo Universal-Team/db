@@ -16,7 +16,7 @@ downloads:
     size_str: 535 KiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.8/NINTV-DS.nds
   README.md:
-    size: 23150
+    size: 23221
     size_str: 22 KiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.8/README.md
 github: wavemotion-dave/NINTV-DS
@@ -62,7 +62,7 @@ update_notes: '<p dir="auto">V4.8 : 24-Jan-2024 by wavemotion-dave</p>
   <li>Fix for intellivoice games so there are no more glitches on the updated version
   of Same Game and Robots.</li>
 
-  <li>Fix for ecs games so they don''t inadvertantly write over the last graphics
+  <li>Fix for ecs games so they don''t inadvertently write over the last graphics
   card in memory (causing minor graphics corruption on some games)</li>
 
   <li>Correction of one intellivoice coefficient value (thanks to documentation in
@@ -70,7 +70,10 @@ update_notes: '<p dir="auto">V4.8 : 24-Jan-2024 by wavemotion-dave</p>
 
   <li>Other minor tweaks and cleanup as time permitted.</li>
 
-  </ul>'
+  </ul>
+
+  <p dir="auto">Version 4.8b uploaded 28-Jan-2024 to fix Cheat Database and improve
+  loading of games not in the internal database.</p>'
 updated: '2024-01-24T13:17:11Z'
 version: '4.8'
 version_title: Version 4.8
