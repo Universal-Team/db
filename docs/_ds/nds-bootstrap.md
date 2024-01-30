@@ -61,7 +61,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <li><em>Flipnote Studio</em> now boots properly with Memory Pit.</li>
 
-  <li>Fixed cloneboot not working with DSi-Enhanced ROMs running in DSi mode.</li>
+  <li>Fixed a long-standing bug where cloneboot would not work with DSi-Enhanced ROMs
+  running in DSi mode.</li>
 
   <li>Fixed arm7 binary being cleared for DSi mode when running via DSiWarehax, which
   caused an error to appear when booting.</li>
