@@ -12,11 +12,11 @@ downloads:
   Line_for_3DS.3dsx:
     size: 14170456
     size_str: 13 MiB
-    url: https://github.com/Core-2-Extreme/Line_for_3DS/releases/download/v2.0.0/Line_for_3DS.3dsx
+    url: https://github.com/Core-2-Extreme/Line_for_3DS/releases/download/v2.0.0.1/Line_for_3DS.3dsx
   Line_for_3DS.cia:
     size: 10851264
     size_str: 10 MiB
-    url: https://github.com/Core-2-Extreme/Line_for_3DS/releases/download/v2.0.0/Line_for_3DS.cia
+    url: https://github.com/Core-2-Extreme/Line_for_3DS/releases/download/v2.0.0.1/Line_for_3DS.cia
 github: Core-2-Extreme/Line_for_3DS
 icon: https://raw.githubusercontent.com/Core-2-Extreme/Line_for_3DS/master/resource/icon.png
 image: https://raw.githubusercontent.com/Core-2-Extreme/Line_for_3DS/master/resource/banner.png
@@ -35,7 +35,10 @@ systems:
 title: Line for 3DS
 unique_ids:
 - '0xEC950'
-update_notes: '<ul dir="auto">
+update_notes: '<p dir="auto"><strong>Just fixed deadlink in SETUP.md and no software
+  (source code) changes since v2.0.0.</strong></p>
+
+  <ul dir="auto">
 
   <li>Line
 
@@ -125,9 +128,9 @@ update_notes: '<ul dir="auto">
   <li>LTC : MFYc3CwPuoaxm1eNKHvUd4G4VrzgPcarox</li>
 
   </ul>'
-updated: '2024-01-27T15:03:04Z'
-version: v2.0.0
-version_title: Line for 3DS v2.0.0
+updated: '2024-01-30T13:44:30Z'
+version: v2.0.0.1
+version_title: Line for 3DS v2.0.0.1
 website: https://gbatemp.net/threads/release-guide-line-for-3d.539530/
 ---
 You can use line on your 3DS!
