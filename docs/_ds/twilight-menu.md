@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 41786079
+    size: 41787121
     size_str: 39 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.5.1/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.6.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 41916321
+    size: 41914858
     size_str: 39 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.5.1/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.6.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 52841987
+    size: 52852053
     size_str: 50 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.5.1/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.6.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 53110233
+    size: 53114922
     size_str: 50 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.5.1/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.6.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -48,8 +48,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto"><strong>UPDATE 1/16/2024:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.2.1">nds-bootstrap
-  v1.2.1</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.2.2">nds-bootstrap
+  v1.2.2</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -69,16 +69,12 @@ update_notes: '<p dir="auto"><strong>UPDATE 1/16/2024:</strong> Includes <a href
 
   <ul dir="auto">
 
-  <li>When using hiyaCFW to launch TWLMenu++, Unlaunch will no longer start it.
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
+  Added autoboot support for r4dspro.com flashcards.</li>
 
-  <ul dir="auto">
-
-  <li>This is done in case if the console''s NAND chip no longer functions and you''re
-  starting hiyaCFW via ntrboot.</li>
-
-  </ul>
-
-  </li>
+  <li>Slightly sped up boot times when booting a GBA ROM using the native mode on
+  DS or DS Lite.</li>
 
   </ul>
 
@@ -86,14 +82,15 @@ update_notes: '<p dir="auto"><strong>UPDATE 1/16/2024:</strong> Includes <a href
 
   <ul dir="auto">
 
-  <li>Fixed attempting to use nds-bootstrap to run homebrew on flashcards.</li>
+  <li>Tried again to fix the bug where the Unlaunch installer wouldn''t boot with
+  the 3DS theme.</li>
 
-  <li>Updated last year text in the Rocket Robz screen.</li>
+  <li>Fixed A5200DS not booting on DSi/3DS consoles in DSi mode.</li>
 
   </ul>'
-updated: '2024-01-16T06:52:45Z'
-version: v26.5.1
-version_title: v26.5.1
+updated: '2024-01-30T01:58:27Z'
+version: v26.6.0
+version_title: v26.6.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---

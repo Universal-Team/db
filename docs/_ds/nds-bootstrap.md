@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 785403
-    size_str: 766 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.2.1/nds-bootstrap.7z
+    size: 782221
+    size_str: 763 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.2.2/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1907460
+    size: 1905995
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.2.1/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.2.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -32,7 +32,10 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Instructions:</p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v26.6.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v26.6.0</a></p>
+
+  <p dir="auto">Instructions:</p>
 
   <ol dir="auto">
 
@@ -43,20 +46,32 @@ update_notes: '<p dir="auto">Instructions:</p>
 
   </ol>
 
+  <h3 dir="auto">What''s new?</h3>
+
+  <ul dir="auto">
+
+  <li>To prevent some crashes, card read DMA has been disabled entirely for DSi-Enhanced/DSi-Exclusive
+  games in DSi mode.</li>
+
+  </ul>
+
   <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li><strong>B4DS mode:</strong> Fixed the European version of <em>Shantae: Risky''s
-  Revenge</em> crashing on red screens after boot.</li>
+  <li><em>Flipnote Studio</em> now boots properly with Memory Pit.</li>
 
-  <li>Attempted to fix the bug where the in-game menu sometimes wouldn''t be controllable
-  after opening it.</li>
+  <li>Fixed cloneboot not working with DSi-Enhanced ROMs running in DSi mode.</li>
+
+  <li>Fixed arm7 binary being cleared for DSi mode when running via DSiWarehax, which
+  caused an error to appear when booting.</li>
+
+  <li>Proper language bitmask is now used for Australian region.</li>
 
   </ul>'
-updated: '2024-01-16T22:37:05Z'
-version: v1.2.1
-version_title: v1.2.1 (hotfix)
+updated: '2024-01-30T01:53:05Z'
+version: v1.2.2
+version_title: v1.2.2
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
