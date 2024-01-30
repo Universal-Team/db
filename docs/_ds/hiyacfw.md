@@ -10,9 +10,9 @@ description: World's FIRST Nintendo DSi CFW!
 download_page: https://github.com/RocketRobz/hiyaCFW/releases
 downloads:
   hiyaCFW.7z:
-    size: 236485
-    size_str: 230 KiB
-    url: https://github.com/DS-Homebrew/hiyaCFW/releases/download/v1.4.1/hiyaCFW.7z
+    size: 222231
+    size_str: 217 KiB
+    url: https://github.com/DS-Homebrew/hiyaCFW/releases/download/v1.5.0/hiyaCFW.7z
 github: RocketRobz/hiyaCFW
 icon: https://db.universal-team.net/assets/images/icons/hiyacfw.png
 image: https://raw.githubusercontent.com/RocketRobz/hiyaCFW/unlaunch/logo/logo.png
@@ -30,31 +30,43 @@ systems:
 - DS
 title: hiyaCFW
 unistore_exclude: true
-update_notes: '<p>To update, just replace <code class="notranslate">hiya.dsi</code>
-  on the SD root, with the one from the 7z file, in <code class="notranslate">for
-  SDNAND SD card</code>.</p>
+update_notes: '<p>To update, re-run hiyaCFW Helper.</p>
 
-  <p>Changes by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a></p>
-
-  <h3>Improvement</h3>
+  <h3>What''s new?</h3>
 
   <ul>
 
-  <li>Improved GIF splash screen compatibility.</li>
+  <li>RSA checking for <code class="notranslate">/sys/HWINFO_S.dat</code> has been
+  patched out. This means the region can now be changed (for JPN, USA, EUR, and AUS
+  NANDs), as well as NAND backups from any console now useable!
+
+  <ul>
+
+  <li>If you get <code class="notranslate">Error: 1-2435-8325</code>, the bootloader
+  has not been updated with the new patch. If you have not re-run hiyaCFW Helper,
+  please do so in order for the patch to take effect.</li>
 
   </ul>
 
-  <h3>Bug fix</h3>
+  </li>
+
+  <li>hiyaCFW will no longer function if SD card is write-locked.</li>
+
+  </ul>
+
+  <h3>Known bug</h3>
 
   <ul>
 
-  <li>Fixed free space under 20MiB causing data management to appear.</li>
+  <li>When using ntrboot, modcrypted DSiWare apps are not launchable. Non-modcrypted
+  applications are still launchable, such as homebrew (ex. <strong>TW</strong>i<strong>L</strong>ight
+  Menu++). This may be fixed in the future, either by hiyaCFW or an ntrboot <code
+  class="notranslate">.gcd</code> file.</li>
 
   </ul>'
-updated: '2022-08-26T17:32:17Z'
-version: v1.4.1
-version_title: v1.4.1
+updated: '2024-01-30T01:45:01Z'
+version: v1.5.0
+version_title: v1.5.0
 wiki: https://wiki.ds-homebrew.com/hiyacfw/
 ---
 **Note:** For the initial install, please follow [this guide](https://wiki.ds-homebrew.com/hiyacfw/installing). If you are updating, then simply replace `sd:/hiya.dsi` from the `for SDNAND SD card` in the 7z.
