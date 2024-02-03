@@ -12,21 +12,21 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1397248
+    size: 1437184
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.0/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.1/ColecoDS.nds
   README.md:
-    size: 46497
+    size: 46832
     size_str: 45 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.0/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.1/README.md
   blank.cas:
     size: 1
     size_str: 1 Byte
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.0/blank.cas
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.1/blank.cas
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.0/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.1/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -38,18 +38,19 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V9.0: 21-Oct-2023 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V9.1: 03-Feb-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Fixed loading of SC-3000 Survivors Multi/Megacart roms.</li>
+  <li>Ported the SCC Konami sound driver from FluBBa to make the MSX1 games using
+  that chip sound great.</li>
 
-  <li>Slight optimization to I/O read driver.</li>
+  <li>New overlays for Colecovision Space Shuttle and Utopia.</li>
 
-  <li>Minor cleanup as time permitted.</li>
+  <li>Lots of small tweaks and minor cleanups since the last release.</li>
 
   </ul>'
-updated: '2023-10-21T11:11:25Z'
-version: '9.0'
-version_title: Version 9.0
+updated: '2024-02-03T13:19:52Z'
+version: '9.1'
+version_title: Version 9.1
 ---
