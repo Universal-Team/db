@@ -54,9 +54,11 @@ update_notes: '<p>To update, re-run hiyaCFW Helper.</p>
 
   </ul>
 
-  <h3>Known bug</h3>
+  <h3>Known bugs</h3>
 
   <ul>
+
+  <li>Changing the region on a JPN NAND will cause touch input to not function.</li>
 
   <li>When using ntrboot, modcrypted DSiWare apps are not launchable. Non-modcrypted
   applications are still launchable, such as homebrew (ex. <strong>TW</strong>i<strong>L</strong>ight
