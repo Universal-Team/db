@@ -10,13 +10,13 @@ description: An easy to use app for installing and updating 3DS homebrew
 download_page: https://github.com/Universal-Team/Universal-Updater/releases
 downloads:
   Universal-Updater.3dsx:
-    size: 2647156
+    size: 2595560
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.6/Universal-Updater.3dsx
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.5/Universal-Updater.3dsx
   Universal-Updater.cia:
-    size: 2229184
+    size: 2188224
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.6/Universal-Updater.cia
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.5/Universal-Updater.cia
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/resources/2d-banner.png
@@ -79,69 +79,38 @@ title: Universal-Updater
 unique_ids:
 - '0x43917'
 unistore_exclude: true
-update_notes: '<h3 dir="auto">What''s new?</h3>
-
-  <ul dir="auto">
-
-  <li>Added an indicator for your Wi-Fi strength and if you''re connected</li>
-
-  <li>The download list is now sorted case insensitively such that the <code class="notranslate">[nightly]</code>
-  versions always appear below the normal versions now</li>
-
-  <li>Added an option to automatically update to the latest nightly version of Universal-Updater
-  instead of just stable releases</li>
-
-  <li>Added Ryukuan translation</li>
-
-  <li>Removed the <code class="notranslate">message</code> variable from scripts,
-  allowing for translations and smaller file sizes</li>
-
-  <li>The <code class="notranslate">rmdir</code> action will now fail silently if
-  not <code class="notranslate">required</code> and the folder doesn''t exist, allowing
-  to ensure a folder doesn''t exist without having to ensure it exists first</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed not scrolling in the Get UniStore list
-
-  <ul dir="auto">
-
-  <li>Previously the Wordle DS Mods UniStore was in the list, but it wouldn''t scroll
-  when you moved down to it</li>
-
-  </ul>
-
-  </li>
-
-  <li>Fixed some settings strings not having ellipses when they should</li>
-
-  </ul>
-
-  <h3 dir="auto">Other notes</h3>
-
-  <p dir="auto">Another fairly small update, but there''s been a few worthwhile changes
-  so we figured it was a good time to put out a new release.</p>
-
-  <p dir="auto">Find any bugs we missed, have suggestions, or need help? You can either
-  make an issue or discussion here on GitHub or join our <a href="https://universal-team.net/discord"
-  rel="nofollow">Discord server</a>.</p>
-
-  <p dir="auto">We hope you enjoy the new update!<br>
-
-  ~ Universal-Team</p>
-
-  <hr>
-
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/203196574-24207d3c-557f-4dc9-bd3a-cd14895cc8e3.png"><img
-  src="https://user-images.githubusercontent.com/41608708/203196574-24207d3c-557f-4dc9-bd3a-cd14895cc8e3.png"
-  alt="QR code for Universal-Updater.cia" style="max-width: 100%;"></a></p>'
-updated: '2022-11-22T01:40:23Z'
-version: v3.2.6
-version_title: Wi-Fi strength indicator and other minor improvements
+update_notes: "<h3 dir=\"auto\">What's new?</h3>\n<ul dir=\"auto\">\n<li>\n<p dir=\"\
+  auto\">(<a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"\
+  /users/PabloMK7/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
+  link_type:self\" href=\"https://github.com/PabloMK7\">@PabloMK7</a>) The 3D banner\
+  \ has been improved with animations and shading!</p>\n<details open=\"\" class=\"\
+  details-reset border rounded-2\">\n  <summary class=\"px-3 py-2\">\n    <svg aria-hidden=\"\
+  true\" height=\"16\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" data-view-component=\"\
+  true\" class=\"octicon octicon-device-camera-video\">\n    <path d=\"M16 3.75v8.5a.75.75\
+  \ 0 0 1-1.136.643L11 10.575v.675A1.75 1.75 0 0 1 9.25 13h-7.5A1.75 1.75 0 0 1 0\
+  \ 11.25v-6.5C0 3.784.784 3 1.75 3h7.5c.966 0 1.75.784 1.75 1.75v.675l3.864-2.318A.75.75\
+  \ 0 0 1 16 3.75Zm-6.5 1a.25.25 0 0 0-.25-.25h-7.5a.25.25 0 0 0-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25\
+  \ 0 0 0 .25-.25v-6.5ZM11 8.825l3.5 2.1v-5.85l-3.5 2.1Z\"></path>\n</svg>\n    <span\
+  \ aria-label=\"Video description 2022-03-07.02-37-37.mp4\" class=\"m-1\">2022-03-07.02-37-37.mp4</span>\n\
+  \    <span class=\"dropdown-caret\"></span>\n  </summary>\n\n  <video src=\"https://private-user-images.githubusercontent.com/10946643/156953976-55b54211-67e4-4caa-8dd1-5e525319e189.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDgwMTczMDMsIm5iZiI6MTcwODAxNzAwMywicGF0aCI6Ii8xMDk0NjY0My8xNTY5NTM5NzYtNTViNTQyMTEtNjdlNC00Y2FhLThkZDEtNWU1MjUzMTllMTg5Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjE1VDE3MTAwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWUzOWYxYjVkN2JkNWNlMjQwNjdhYjQyZWU5YTQ4NzY1ZWI1MjNlOWQ4MjU4ZWM3MTYxNjRhOTgxYmY3ZjQ4YjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.2GRJN5ZqBWWQvEwXGclwreCzXrCH_RRpc2qy24Ab5T8\"\
+  \ data-canonical-src=\"https://private-user-images.githubusercontent.com/10946643/156953976-55b54211-67e4-4caa-8dd1-5e525319e189.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDgwMTczMDMsIm5iZiI6MTcwODAxNzAwMywicGF0aCI6Ii8xMDk0NjY0My8xNTY5NTM5NzYtNTViNTQyMTEtNjdlNC00Y2FhLThkZDEtNWU1MjUzMTllMTg5Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMTUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjE1VDE3MTAwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWUzOWYxYjVkN2JkNWNlMjQwNjdhYjQyZWU5YTQ4NzY1ZWI1MjNlOWQ4MjU4ZWM3MTYxNjRhOTgxYmY3ZjQ4YjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.2GRJN5ZqBWWQvEwXGclwreCzXrCH_RRpc2qy24Ab5T8\"\
+  \ controls=\"controls\" muted=\"muted\" class=\"d-block rounded-bottom-2 border-top\
+  \ width-fit\" style=\"max-height:640px; min-height: 200px\">\n\n  </video>\n</details>\n\
+  \n</li>\n</ul>\n<h3 dir=\"auto\">Bug fixes</h3>\n<ul dir=\"auto\">\n<li>Fixed really\
+  \ short release notes not showing</li>\n</ul>\n<h3 dir=\"auto\">Other notes</h3>\n\
+  <p dir=\"auto\">See <a href=\"https://github.com/Universal-Team/Universal-Updater/releases/tag/v3.2.4\"\
+  >v3.2.4</a> for more recent changes, there was just a relatively major new bug in\
+  \ that version and the improved banner so we're putting out another release so soon.</p>\n\
+  <p dir=\"auto\">Find any bugs we missed, have suggestions, or need help? You can\
+  \ either make an issue or discussion here on GitHub or join our <a href=\"https://universal-team.net/discord\"\
+  \ rel=\"nofollow\">Discord server</a>.</p>\n<p dir=\"auto\">We hope you enjoy the\
+  \ new update!<br>\n~ Universal-Team</p>\n<hr>\n<p dir=\"auto\"><a target=\"_blank\"\
+  \ rel=\"noopener noreferrer nofollow\" href=\"https://user-images.githubusercontent.com/41608708/156961045-e2bb0dd5-049a-4fbf-8f59-8e8fd9af0f83.png\"\
+  ><img src=\"https://user-images.githubusercontent.com/41608708/156961045-e2bb0dd5-049a-4fbf-8f59-8e8fd9af0f83.png\"\
+  \ alt=\"QR code for Universal-Updater.cia\" style=\"max-width: 100%;\"></a></p>"
+updated: '2022-03-07T03:01:27Z'
+version: v3.2.5
+version_title: Bug fix and improved 3D banner
 website: https://universal-team.net/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
