@@ -6361,5 +6361,38 @@
 		"description": "A very short Generation 1 style Pokémon Fangame made with GB Studio and New Super Ultimate Injector.",
 		"long_description": "This is a simple Pokémon fan-game created in the style of Generation 1; (The first line of Pokémon games.) using GB Studio and New Super Ultimate Injector.\n\nThere is no special installation required, as it is a .cia",
 		"created": "2023-09-21T00:00:00Z"
+	},
+	{
+		"github": "MisterSheeple/SpotPassDumper9",
+		"systems": ["3DS"],
+		"categories": ["utility", "firm"],
+		"icon": "https://i.ibb.co/jGhtQM3/Spot-Pass-Dumper9-white.png",
+		"image": "https://i.ibb.co/7zVmf7m/Spot-Pass-Dumper9-banner.png",
+		"scripts": {
+			"SpotPassDumper9.firm": [
+				{
+					"type": "downloadRelease",
+					"repo": "MisterSheeple/SpotPassDumper9",
+					"file": "SpotPassDumper9_.*_Luma\\.zip",
+					"output": "/SpotPassDumper9.zip"
+				},
+				{
+					"type": "extractFile",
+					"file": "/SpotPassDumper9.zip",
+					"input": "SpotPassDumper9.firm$",
+					"output": "%FIRM%/SpotPassDumper9.firm"
+				},
+				{
+					"type": "extractFile",
+					"file": "/SpotPassDumper9.zip",
+					"input": "gm9/",
+					"output": "/gm9/"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/SpotPassDumper9.zip"
+				}
+			]
+		}
 	}
 ]
