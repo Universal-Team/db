@@ -4,8 +4,8 @@ avatar: https://avatars.githubusercontent.com/u/27652712?v=4
 categories:
 - utility
 - firm
-color: '#6de2fb'
-color_bg: '#377380'
+color: '#74e4fd'
+color_bg: '#3a7380'
 created: '2024-02-18T21:55:17Z'
 description: A handy little doodad for dumping your 3DS's SpotPass data
 download_page: https://github.com/MisterSheeple/SpotPassDumper9/releases
@@ -19,7 +19,7 @@ downloads:
     size_str: 247 KiB
     url: https://github.com/MisterSheeple/SpotPassDumper9/releases/download/v1.1/SpotPassDumper9_v1.1_MSET9.zip
 github: MisterSheeple/SpotPassDumper9
-icon: https://i.ibb.co/jGhtQM3/Spot-Pass-Dumper9-white.png
+icon: https://raw.githubusercontent.com/MisterSheeple/SpotPassDumper9/master/assets/SpotPassDumper9-icon.png
 image: https://i.ibb.co/7zVmf7m/Spot-Pass-Dumper9-banner.png
 image_length: 31916
 layout: app
