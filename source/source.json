@@ -6367,7 +6367,7 @@
 		"systems": ["3DS"],
 		"categories": ["utility", "firm"],
 		"icon": "https://raw.githubusercontent.com/MisterSheeple/SpotPassDumper9/master/assets/SpotPassDumper9-icon.png",
-		"image": "https://i.ibb.co/7zVmf7m/Spot-Pass-Dumper9-banner.png",
+		"image": "https://raw.githubusercontent.com.com/MisterSheeple/SpotPassDumper9/master/assets/SpotPassDumper9-banner.png",
 		"scripts": {
 			"SpotPassDumper9.firm": [
 				{
