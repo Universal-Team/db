@@ -20,8 +20,8 @@ downloads:
     url: https://github.com/MisterSheeple/SpotPassDumper9/releases/download/v1.1/SpotPassDumper9_v1.1_MSET9.zip
 github: MisterSheeple/SpotPassDumper9
 icon: https://raw.githubusercontent.com/MisterSheeple/SpotPassDumper9/master/assets/SpotPassDumper9-icon.png
-image: https://i.ibb.co/7zVmf7m/Spot-Pass-Dumper9-banner.png
-image_length: 31916
+image: https://raw.githubusercontent.com/MisterSheeple/SpotPassDumper9/master/assets/SpotPassDumper9-banner.png
+image_length: 97147
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
