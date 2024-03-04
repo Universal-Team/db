@@ -6146,34 +6146,34 @@
 		"scripts": {
 			"Install the patch (Old 3DS/2DS)": [
 				{
-    					"type": "downloadRelease",
-    					"repo": "TehFridge/ShutTheCamUp",
-    					"file": "old3ds.ips",
-    					"output": "sdmc:/luma/titles/0004013000001602/code.ips",
-    					"includePrereleases": false
+						"type": "downloadRelease",
+						"repo": "TehFridge/ShutTheCamUp",
+						"file": "old3ds.ips",
+						"output": "sdmc:/luma/titles/0004013000001602/code.ips",
+						"includePrereleases": false
 				},
 				{
-    					"type": "downloadRelease",
-    					"repo": "TehFridge/ShutTheCamUp",
-    					"file": "old3ds.ips",
-    					"output": "sdmc:/luma/sysmodules/0004013000001602.ips",
-    					"includePrereleases": false
+						"type": "downloadRelease",
+						"repo": "TehFridge/ShutTheCamUp",
+						"file": "old3ds.ips",
+						"output": "sdmc:/luma/sysmodules/0004013000001602.ips",
+						"includePrereleases": false
 				}
 			],
 			"Install the patch (New 3DS/2DS)": [
 				{
-    					"type": "downloadRelease",
-    					"repo": "TehFridge/ShutTheCamUp",
-    					"file": "new3ds.ips",
-    					"output": "sdmc:/luma/titles/0004013000001602/code.ips",
-    					"includePrereleases": false
+						"type": "downloadRelease",
+						"repo": "TehFridge/ShutTheCamUp",
+						"file": "new3ds.ips",
+						"output": "sdmc:/luma/titles/0004013000001602/code.ips",
+						"includePrereleases": false
 				},
 				{
-    					"type": "downloadRelease",
-    					"repo": "TehFridge/ShutTheCamUp",
-    					"file": "new3ds.ips",
-    					"output": "sdmc:/luma/sysmodules/0004013000001602.ips",
-    					"includePrereleases": false
+						"type": "downloadRelease",
+						"repo": "TehFridge/ShutTheCamUp",
+						"file": "new3ds.ips",
+						"output": "sdmc:/luma/sysmodules/0004013000001602.ips",
+						"includePrereleases": false
 				}
 			],
 			"Remove the patch (Any)": [
@@ -6223,25 +6223,25 @@
 		}
 	},
 	{
-		"github": "Alexyo21/the-pirate-launcher",
-		"title": "Pirate Launcher",
+		"github": "cooolgamer/the-pirate-launcher",
+		"title": "The Pirate Launcher",
+		"author": "devkitPro, cooolgamer, Fra",
 		"systems": ["3DS"],
 		"categories": ["utility"],
-		"description": "If you like pirating games and so on you can’t miss this opportunity.💀❄️",
-		"long_description": "Refurbished build of the pirate launcher, with some new debug feature and up to date to the latest updates from official source, it doesn’t do nothing, only proves you are a pirate💀",
+		"description": "The Pirate Launcher joke from the Wii, now on 3ds! Also provides debugging features",
 		"icon": "https://raw.githubusercontent.com/Alexyo21/the-pirate-launcher/master/icon.png",
 		"scripts": {
 			"Install the Pirate Launcher": [
 				{
-    					"type": "promptMessage",
-    					"message": "This will replace the boot.3dsx in the root of\nyour SD card, replacing the Homebrew\nLauncher with the Pirate Launcher.\nContinue?"
+						"type": "promptMessage",
+						"message": "This will replace the boot.3dsx in the root of\nyour SD card, replacing the Homebrew\nLauncher with the Pirate Launcher.\nContinue?"
 				},
 				{
-    					"type": "downloadRelease",
-    					"repo": "Alexyo21/the-pirate-launcher",
-    					"file": "boot.3dsx",
-    					"output": "sdmc:/boot.3dsx",
-    					"includePrereleases": false
+						"type": "downloadRelease",
+						"repo": "Alexyo21/the-pirate-launcher",
+						"file": "boot.3dsx",
+						"output": "sdmc:/boot.3dsx",
+						"includePrereleases": false
 				}
 			]
 		}
@@ -6267,11 +6267,11 @@
 		"scripts": {
 			"Install as cia": [
 				{
-    					"type": "downloadRelease",
-    					"repo": "derrekr/srb2_3ds",
-    					"file": "srb2_3ds.*\\.zip",
-    					"output": "/srb2_3ds.zip",
-    					"includePrereleases": false
+						"type": "downloadRelease",
+						"repo": "derrekr/srb2_3ds",
+						"file": "srb2_3ds.*\\.zip",
+						"output": "/srb2_3ds.zip",
+						"includePrereleases": false
 				},
 				{
 					"type": "extractFile",
@@ -6294,11 +6294,11 @@
 			],
 			"Install as 3dsx": [
 				{
-    					"type": "downloadRelease",
-    					"repo": "derrekr/srb2_3ds",
-    					"file": "srb2_3ds.*\\.zip",
-    					"output": "/srb2_3ds.zip",
-    					"includePrereleases": false
+						"type": "downloadRelease",
+						"repo": "derrekr/srb2_3ds",
+						"file": "srb2_3ds.*\\.zip",
+						"output": "/srb2_3ds.zip",
+						"includePrereleases": false
 				},
 				{
 					"type": "extractFile",
@@ -6317,9 +6317,9 @@
 					"directory": "sdmc:/3ds/srb2_3ds/"
 				},
 				{
-    					"type": "downloadFile",
-    					"file": "https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-assets.7z",
-    					"output": "sdmc:/3ds/SRB2-v2122-assets.7z"
+						"type": "downloadFile",
+						"file": "https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-assets.7z",
+						"output": "sdmc:/3ds/SRB2-v2122-assets.7z"
 				},
 				{
 					"type": "extractFile",
@@ -6332,9 +6332,9 @@
    					 "file": "sdmc:/3ds/SRB2-v2122-assets.7z"
 				},
 				{
-    					"type": "downloadFile",
-    					"file": "https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-optional-assets.7z",
-    					"output": "sdmc:/3ds/SRB2-v2122-optional-assets.7z"
+						"type": "downloadFile",
+						"file": "https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-optional-assets.7z",
+						"output": "sdmc:/3ds/SRB2-v2122-optional-assets.7z"
 				},
 				{
 					"type": "extractFile",
