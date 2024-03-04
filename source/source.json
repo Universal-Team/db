@@ -6484,5 +6484,16 @@
 				}
 			]
 		}
+	},
+	{
+		"github": "semaj14/Multi-PokemonFramework",
+		"title": "Multi-Pokémon Framework",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"archive": {
+			"Release.zip": {
+				"luma": ["luma"]
+			}
+		}
 	}
 ]
