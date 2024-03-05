@@ -1,6 +1,6 @@
 ---
-author: MegaPika
-avatar: https://avatars.githubusercontent.com/u/64685509?v=4
+author: Aftendo
+avatar: https://avatars.githubusercontent.com/u/155912716?v=4
 categories:
 - utility
 color: '#4d5b71'
@@ -12,19 +12,19 @@ downloads:
   LocalSatellaZone.zip:
     size: 238212535
     size_str: 227 MiB
-    url: https://github.com/MegaPika/SatellaZone/releases/download/2.1.2/LocalSatellaZone.zip
+    url: https://github.com/Aftendo/SatellaZone/releases/download/2.1.2/LocalSatellaZone.zip
   LocalSatellaZoneHQ.zip:
     size: 441867850
     size_str: 421 MiB
-    url: https://github.com/MegaPika/SatellaZone/releases/download/2.1.2/LocalSatellaZoneHQ.zip
+    url: https://github.com/Aftendo/SatellaZone/releases/download/2.1.2/LocalSatellaZoneHQ.zip
   SatellaZone.zip:
     size: 11659834
     size_str: 11 MiB
-    url: https://github.com/MegaPika/SatellaZone/releases/download/2.1.2/SatellaZone.zip
+    url: https://github.com/Aftendo/SatellaZone/releases/download/2.1.2/SatellaZone.zip
   UsaPatch.zip:
     size: 672
     size_str: 672 Bytes
-    url: https://github.com/MegaPika/SatellaZone/releases/download/2.1.2/UsaPatch.zip
+    url: https://github.com/Aftendo/SatellaZone/releases/download/2.1.2/UsaPatch.zip
 github: MegaPika/SatellaZone
 icon: https://db.universal-team.net/assets/images/icons/satellazone.png
 image: https://db.universal-team.net/assets/images/icons/satellazone.png
@@ -32,30 +32,30 @@ image_length: 6846
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-source: https://github.com/MegaPika/SatellaZone
+source: https://github.com/Aftendo/SatellaZone
 systems:
 - 3DS
 title: SatellaZone
-update_notes: '<h2 dir="auto">USA patch update for 11.17</h2>
+update_notes: '<h2>USA patch update for 11.17</h2>
 
-  <ul dir="auto">
+  <ul>
 
   <li>(added in 23/5/2023): the attached USA patch is now working in 11.17!</li>
 
   </ul>
 
-  <h2 dir="auto">High Quality Videos!</h2>
+  <h2>High Quality Videos!</h2>
 
-  <ul dir="auto">
+  <ul>
 
   <li>Videos are now available in full quality on <code class="notranslate">LocalSatellaZoneHQ</code>
   !</li>
 
   </ul>
 
-  <p dir="auto">You can now choose between</p>
+  <p>You can now choose between</p>
 
-  <ul dir="auto">
+  <ul>
 
   <li><code class="notranslate">LocalSatellaZoneHQ</code> for High Quality Videos.</li>
 
@@ -65,9 +65,9 @@ update_notes: '<h2 dir="auto">USA patch update for 11.17</h2>
 
   </ul>
 
-  <h2 dir="auto">Installation instructions</h2>
+  <h2>Installation instructions</h2>
 
-  <p dir="auto">Everything is written on the Readme: <a href="https://github.com/MegaPika/SatellaZone#readme">https://github.com/MegaPika/SatellaZone#readme</a></p>'
+  <p>Everything is written on the Readme: <a href="https://github.com/MegaPika/SatellaZone#readme">https://github.com/MegaPika/SatellaZone#readme</a></p>'
 updated: '2023-02-18T09:53:13Z'
 version: 2.1.2
 version_title: SatellaZone 2.1.2

@@ -9,10 +9,10 @@ created: '2021-10-15T11:13:15Z'
 description: Wii and 3DS ports of  3D Pinball - Space Cadet
 download_page: https://github.com/MaikelChan/SpaceCadetPinball/releases
 downloads:
-  SpaceCadetPinball-3DS-v0.5.7z:
-    size: 524651
-    size_str: 512 KiB
-    url: https://github.com/MaikelChan/SpaceCadetPinball/releases/download/v0.5-3ds/SpaceCadetPinball-3DS-v0.5.7z
+  SpaceCadetPinball-3DS-v0.6.7z:
+    size: 422160
+    size_str: 412 KiB
+    url: https://github.com/MaikelChan/SpaceCadetPinball/releases/download/v0.6-3ds/SpaceCadetPinball-3DS-v0.6.7z
 github: MaikelChan/SpaceCadetPinball
 icon: https://github.com/MaikelChan/SpaceCadetPinball/raw/3ds/ctr/icon.png
 image: https://github.com/MaikelChan/SpaceCadetPinball/raw/3ds/ctr/banner.png
@@ -32,28 +32,32 @@ systems:
 title: 3D Pinball - Space Cadet
 unique_ids:
 - '0x21A39'
-update_notes: '<ul dir="auto">
+update_notes: '<h2 dir="auto">What''s Changed</h2>
 
-  <li>On New 3DS, enable Vsync, high speed mode.</li>
+  <ul dir="auto">
 
-  <li>Fixed some random crashes when exiting the game and pausing.</li>
+  <li>Replace PC Related text by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/korbosoft/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/korbosoft">@korbosoft</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1141628588"
+  data-permission-text="Title is private" data-url="https://github.com/MaikelChan/SpaceCadetPinball/issues/12"
+  data-hovercard-type="pull_request" data-hovercard-url="/MaikelChan/SpaceCadetPinball/pull/12/hovercard"
+  href="https://github.com/MaikelChan/SpaceCadetPinball/pull/12">#12</a></li>
 
-  <li>Optimizations.</li>
+  <li>Add banner Sound Effect for the 3DS home menu by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/korbosoft/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/korbosoft">@korbosoft</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1241034277"
+  data-permission-text="Title is private" data-url="https://github.com/MaikelChan/SpaceCadetPinball/issues/17"
+  data-hovercard-type="pull_request" data-hovercard-url="/MaikelChan/SpaceCadetPinball/pull/17/hovercard"
+  href="https://github.com/MaikelChan/SpaceCadetPinball/pull/17">#17</a></li>
 
-  <li>Reduced memory usage.</li>
+  </ul>
 
-  <li>Build now can also generate a CIA file (thanks to <a href="https://github.com/MrHuu">MrHuu</a>,
-  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1047670809"
-  data-permission-text="Title is private" data-url="https://github.com/MaikelChan/SpaceCadetPinball/issues/7"
-  data-hovercard-type="pull_request" data-hovercard-url="/MaikelChan/SpaceCadetPinball/pull/7/hovercard"
-  href="https://github.com/MaikelChan/SpaceCadetPinball/pull/7">#7</a>).</li>
-
-  <li>Top screen layout adjustments.</li>
-
-  </ul>'
-updated: '2021-11-21T23:56:45Z'
-version: v0.5-3ds
-version_title: v0.5 3DS
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/MaikelChan/SpaceCadetPinball/compare/v0.5-3ds...v0.6-3ds"><tt>v0.5-3ds...v0.6-3ds</tt></a></p>'
+updated: '2024-02-08T04:33:50Z'
+version: v0.6-3ds
+version_title: v0.6 3DS
 website: https://pacochan.net/software/3d-pinball-space-cadet/
 ---
 # 3D Pinball - Space Cadet for 3DS

@@ -3,8 +3,6 @@ author: RocketRobz
 avatar: https://avatars.githubusercontent.com/u/16110127?v=4
 categories:
 - utility
-color: '#e12b2b'
-color_bg: '#801818'
 created: '2017-02-12T22:18:43Z'
 description: The base forwarder packs for use with Forwarder3-DS and NDSForwarder
   forwarders
@@ -15,9 +13,8 @@ downloads:
     size_str: 462 KiB
     url: https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z
 github: RocketRobz/NTR_Forwarder
-icon: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
-image: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
-image_length: 630
+icon: https://raw.githubusercontent.com/RocketRobz/NTR_Forwarder/forwarder/SD%20Card/sd/icon.bmp
+image: https://raw.githubusercontent.com/RocketRobz/NTR_Forwarder/forwarder/SD%20Card/sd/icon.bmp
 layout: app
 source: https://github.com/RocketRobz/NTR_Forwarder
 systems:

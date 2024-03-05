@@ -3,8 +3,8 @@ author: Pretendo Network
 avatar: https://avatars.githubusercontent.com/u/36684034?v=4
 categories:
 - utility
-color: '#2b2952'
-color_bg: '#2b2952'
+color: '#5e586c'
+color_bg: '#5e586c'
 created: '2022-02-16T15:25:17Z'
 description: A 3DS game plugin (3GX) to dump the RMC communication between 3DS games
   and NEX. The traffic is dumped to the SD into pcap files.
@@ -16,7 +16,7 @@ downloads:
     url: https://github.com/PretendoNetwork/HokakuCTR/releases/download/v1.0.2/HokakuCTR.3gx
 github: PretendoNetwork/HokakuCTR
 image: https://avatars.githubusercontent.com/u/36684034?v=4&size=128
-image_length: 2746
+image_length: 3197
 layout: app
 source: https://github.com/PretendoNetwork/HokakuCTR
 systems:

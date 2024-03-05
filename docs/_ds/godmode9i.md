@@ -12,21 +12,21 @@ description: 'GodMode9i Explorer - A full access file browser for the Nintendo D
 download_page: https://github.com/DS-Homebrew/GodMode9i/releases
 downloads:
   GodMode9i.7z:
-    size: 345769
-    size_str: 337 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.0/GodMode9i.7z
+    size: 348894
+    size_str: 340 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.2/GodMode9i.7z
   GodMode9i.cia:
-    size: 947456
-    size_str: 925 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.0/GodMode9i.cia
+    size: 952576
+    size_str: 930 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.2/GodMode9i.cia
   GodMode9i.dsi:
-    size: 932864
-    size_str: 911 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.0/GodMode9i.dsi
+    size: 937984
+    size_str: 916 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.2/GodMode9i.dsi
   GodMode9i.nds:
-    size: 932864
-    size_str: 911 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.0/GodMode9i.nds
+    size: 937984
+    size_str: 916 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.2/GodMode9i.nds
 github: DS-Homebrew/GodMode9i
 icon: https://db.universal-team.net/assets/images/icons/godmode9i.png
 image: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png
@@ -47,37 +47,16 @@ source: https://github.com/DS-Homebrew/GodMode9i
 systems:
 - DS
 title: GodMode9i
-update_notes: '<p dir="auto">All changes by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/Epicpkmn11/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a></p>
-
-  <h3 dir="auto">What''s new?</h3>
+update_notes: '<h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>Updated to match GodMode9''s new font (<a href="https://github.com/DS-Homebrew/GodMode9i/issues/219"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/GodMode9i/pull/219/hovercard">#219</a>).</li>
-
-  <li>Made GBA RTC dumping optional.</li>
-
-  <li>Made <code class="notranslate">X</code> button clear string in keyboard.</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
-
-  <ul dir="auto">
-
-  <li>Only dump the RSA key on trimmed DS(i) ROMs when it exists. (Thanks <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/bWFpbA/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/bWFpbA">@bWFpbA</a>)</li>
-
-  <li>Fixed dumping EEPROM registers in 32 MB GBA ROMs.</li>
+  <li>Fixed an overlooked bug which caused game dumping to crash.</li>
 
   </ul>'
-updated: '2024-01-01T23:11:05Z'
-version: v3.5.0
-version_title: 'v3.5.0: New Years release'
+updated: '2024-02-28T03:26:57Z'
+version: v3.5.2
+version_title: v3.5.2
 website: https://wiki.ds-homebrew.com/godmode9i/
 wiki: https://wiki.ds-homebrew.com/other/godmode9i
 ---
