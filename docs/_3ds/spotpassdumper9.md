@@ -10,14 +10,14 @@ created: '2024-02-18T21:55:17Z'
 description: A handy little doodad for dumping your 3DS's SpotPass data
 download_page: https://github.com/MisterSheeple/SpotPassDumper9/releases
 downloads:
-  SpotPassDumper9_v1.1_Luma.zip:
-    size: 231757
-    size_str: 226 KiB
-    url: https://github.com/SpotPassArchive/SpotPassDumper9/releases/download/v1.1/SpotPassDumper9_v1.1_Luma.zip
-  SpotPassDumper9_v1.1_MSET9.zip:
-    size: 253903
-    size_str: 247 KiB
-    url: https://github.com/SpotPassArchive/SpotPassDumper9/releases/download/v1.1/SpotPassDumper9_v1.1_MSET9.zip
+  SpotPassDumper9_v1.2_Luma.zip:
+    size: 230824
+    size_str: 225 KiB
+    url: https://github.com/SpotPassArchive/SpotPassDumper9/releases/download/v1.2/SpotPassDumper9_v1.2_Luma.zip
+  SpotPassDumper9_v1.2_MSET9.zip:
+    size: 252807
+    size_str: 246 KiB
+    url: https://github.com/SpotPassArchive/SpotPassDumper9/releases/download/v1.2/SpotPassDumper9_v1.2_MSET9.zip
 github: MisterSheeple/SpotPassDumper9
 icon: https://raw.githubusercontent.com/MisterSheeple/SpotPassDumper9/master/assets/SpotPassDumper9-icon.png
 image: https://raw.githubusercontent.com/MisterSheeple/SpotPassDumper9/master/assets/SpotPassDumper9-banner.png
@@ -31,18 +31,12 @@ systems:
 title: SpotPassDumper9
 update_notes: '<ul>
 
-  <li>Add new splash screen</li>
+  <li>Update error messages</li>
 
-  <li>Move dump location to <code class="notranslate">spotpass_cache</code> folder
-  on SD card.</li>
-
-  <li>Add auto-detection for if partitionA.bin already exists and if so, prompt the
-  user for if they want to overwrite it.</li>
-
-  <li>Update releases to use the latest commit of upstream GM9.</li>
+  <li>Use variable for SpotPass cache folder</li>
 
   </ul>'
-updated: '2024-02-20T19:14:33Z'
-version: v1.1
-version_title: v1.1
+updated: '2024-03-07T21:41:20Z'
+version: v1.2
+version_title: v1.2
 ---
