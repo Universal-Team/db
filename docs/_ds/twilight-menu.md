@@ -8,7 +8,23 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads: {}
+downloads:
+  TWiLightMenu-3DS.7z:
+    size: 41888644
+    size_str: 39 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.7.0/TWiLightMenu-3DS.7z
+  TWiLightMenu-DSi.7z:
+    size: 41950621
+    size_str: 40 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.7.0/TWiLightMenu-DSi.7z
+  TWiLightMenu-Flashcard.7z:
+    size: 52846752
+    size_str: 50 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.7.0/TWiLightMenu-Flashcard.7z
+  TWiLightMenu.7z:
+    size: 53107861
+    size_str: 50 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.7.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -75,7 +91,7 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </li>
 
-  <li>Various: Updated translations and added Galician language!</li>
+  <li>Various: Updated translations and added (untested) Galician language!</li>
 
   <li>SEGA Genesis/Mega Drive ROMs with the <code class="notranslate">.md</code> extension
   are now supported!</li>
