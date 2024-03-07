@@ -12,13 +12,17 @@ description: Nintellivision - an Intellivision Emulator for the DS/DSi. High com
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 548352
-    size_str: 535 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.9/NINTV-DS.nds
+    size: 695296
+    size_str: 679 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.0/NINTV-DS.nds
   README.md:
-    size: 25428
-    size_str: 24 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/4.9/README.md
+    size: 25864
+    size_str: 25 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.0/README.md
+  extras.zip:
+    size: 9160609
+    size_str: 8 MiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.0/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
@@ -33,22 +37,21 @@ source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V4.9 : 01-Feb-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V5.0 : 06-Mar-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Improved cheat database selection - after selecting cheats, just press START
-  to reset and apply cheats directly on the cheat picker screen.</li>
+  <li>New splash screen jingle.</li>
 
-  <li>Improved bankswitching/paged roms so that partially filled banks can be switched
-  (some recent homebrews require this).</li>
+  <li>Boosted audio output by almost 25% so you don''t have to max out your DS volume.</li>
 
-  <li>Updated internal database so more games load and run properly without tweaks.</li>
+  <li>New audio ramp down/up to help soften (and partially eliminate) audio pops/clicks
+  when transitioning in and out of a game to the menus.</li>
 
-  <li>Minor cleanups across the board as time permitted.</li>
+  <li>Minor cleanup and tweaks as time permitted.</li>
 
   </ul>'
-updated: '2024-02-01T12:58:51Z'
-version: '4.9'
-version_title: Version 4.9
+updated: '2024-03-07T11:43:01Z'
+version: '5.0'
+version_title: Version 5.0
 ---
