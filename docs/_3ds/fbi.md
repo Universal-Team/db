@@ -1,29 +1,29 @@
 ---
 author: Steveice10
-avatar: https://avatars.githubusercontent.com/u/1269164?v=4
+avatar: https://avatars.githubusercontent.com/u/37358975?v=4
 categories:
 - utility
 color: '#c0d0ff'
 color_bg: '#606880'
 created: '2015-01-20T04:23:49Z'
-description: Open source title manager for the 3DS.
-download_page: https://github.com/Steveice10/FBI/releases
+description: Open source title manager for the 3DS. (Archive)
+download_page: https://github.com/lifehackerhansol/FBI/releases
 downloads:
   FBI.3dsx:
     size: 1185720
     size_str: 1 MiB
-    url: https://github.com/Steveice10/FBI/releases/download/2.6.1/FBI.3dsx
+    url: https://github.com/lifehackerhansol/FBI/releases/download/2.6.1/FBI.3dsx
   FBI.cia:
     size: 1192896
     size_str: 1 MiB
-    url: https://github.com/Steveice10/FBI/releases/download/2.6.1/FBI.cia
+    url: https://github.com/lifehackerhansol/FBI/releases/download/2.6.1/FBI.cia
   FBI.zip:
     size: 4228271
     size_str: 4 MiB
-    url: https://github.com/Steveice10/FBI/releases/download/2.6.1/FBI.zip
-github: Steveice10/FBI
-icon: https://raw.githubusercontent.com/Steveice10/FBI/master/meta/icon_3ds.png
-image: https://raw.githubusercontent.com/Steveice10/FBI/master/romfs/logo.png
+    url: https://github.com/lifehackerhansol/FBI/releases/download/2.6.1/FBI.zip
+github: lifehackerhansol/FBI
+icon: https://raw.githubusercontent.com/lifehackerhansol/FBI/master/meta/icon_3ds.png
+image: https://raw.githubusercontent.com/lifehackerhansol/FBI/master/romfs/logo.png
 image_length: 573
 layout: app
 license: mit
@@ -37,14 +37,15 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/fbi/qr-scanner.png
 - description: Sd list
   url: https://db.universal-team.net/assets/images/screenshots/fbi/sd-list.png
-source: https://github.com/Steveice10/FBI
+source: https://github.com/lifehackerhansol/FBI
 systems:
 - 3DS
 title: FBI
 unique_ids:
 - '0xF8001'
-update_notes: <p dir="auto">Release 2.6.1</p>
+update_notes: <p dir="auto">This release is a backup of the original FBI repository's
+  2.6.1 release.</p>
 updated: '2021-05-18T05:59:19Z'
 version: 2.6.1
-version_title: 2.6.1
+version_title: Release 2.6.1
 ---
