@@ -15,7 +15,7 @@ downloads:
   Luma3DS_ITAv13.0.2-1.zip:
     size: 420233
     size_str: 410 KiB
-    url: https://github.com/M4nueleZ/Luma3DS_ITA/releases/download/v13.0.2-1/Luma3DS_ITAv13.0.2-1.zip
+    url: https://github.com/M4nueleZ/Luma3DS_ITA/releases/download/v13.0.2/Luma3DS_ITAv13.0.2-1.zip
 github: M4nueleZ/Luma3DS_ITA
 icon: https://raw.githubusercontent.com/M4nueleZ/Luma3DS_ITA/master/luma3dslogoita.png
 image: https://raw.githubusercontent.com/M4nueleZ/Luma3DS_ITA/master/luma3dslogoita.png
@@ -27,7 +27,7 @@ source: https://github.com/M4nueleZ/Luma3DS_ITA
 systems:
 - 3DS
 title: Luma 3DS Ed. Italiana
-update_notes: '<h2 dir="auto">Changelog ITA v13.0.2-1</h2>
+update_notes: '<h2 dir="auto">Changelog ITA v13.0.2</h2>
 
   <p dir="auto">Tradotti i testi principali, errori e Rosalina menu.</p>
 
@@ -55,7 +55,7 @@ update_notes: '<h2 dir="auto">Changelog ITA v13.0.2-1</h2>
   Sono stati apportati ulteriori miglioramenti alla stabilità generale del sistema
   e altri aggiustamenti minori per migliorare l''esperienza dell''utente</p>'
 updated: '2023-09-06T21:53:33Z'
-version: v13.0.2-1
-version_title: v13.0.2-1
+version: v13.0.2
+version_title: v13.0.2
 ---
 Questa è l'edizione italiana di Luma3DS, un noob-proof custom firmware per console della famiglia Nintendo 3DS.
