@@ -36,9 +36,7 @@ unique_ids:
 - '0xF0DEF'
 update_notes: '<ul dir="auto">
 
-  <li>Fix Pokémon Mystery Dungeon: Explorers of Sky (thanks to <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Steveice10/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Steveice10">@Steveice10</a>)</li>
+  <li>Fix Pokémon Mystery Dungeon: Explorers of Sky (thanks to @Steveice10)</li>
 
   </ul>'
 updated: '2016-08-27T19:27:37Z'
