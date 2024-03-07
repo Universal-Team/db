@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 782221
-    size_str: 763 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.2.2/nds-bootstrap.7z
+    size: 785689
+    size_str: 767 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.3.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1905995
+    size: 1912120
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.2.2/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.3.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -32,8 +32,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v26.6.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v26.6.0</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v26.7.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v26.7.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -50,8 +50,33 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>To prevent some crashes, card read DMA has been disabled entirely for DSi-Enhanced/DSi-Exclusive
-  games in DSi mode.</li>
+  <li><strong>B4DS mode:</strong> 10 prototype builds of <em>Shantae: Risky''s Revenge</em>
+  are now supported on DS and DS Lite!
+
+  <ul dir="auto">
+
+  <li>03/06/09 build</li>
+
+  <li>Three 04/15/10 builds</li>
+
+  <li>06/23/10 build</li>
+
+  <li>Two 10/27/10 builds</li>
+
+  <li>Ubisoft Build</li>
+
+  <li>Review Build</li>
+
+  <li>Ubisoft Review Build</li>
+
+  </ul>
+
+  </li>
+
+  <li><code class="notranslate">SCSD</code> string is now checked within the DLDI
+  name for SuperCard MiniSD support as well.</li>
+
+  <li>NDMA is now used to clear RAM before booting DS homebrew.</li>
 
   </ul>
 
@@ -59,20 +84,43 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li><em>Flipnote Studio</em> now boots properly with Memory Pit.</li>
+  <li>Fixed not being able to boot ROMs which place the arm9 binary above offset 0x4000.
 
-  <li>Fixed a long-standing bug where cloneboot would not work with DSi-Enhanced ROMs
-  running in DSi mode.</li>
+  <ul dir="auto">
 
-  <li>Fixed arm7 binary being cleared for DSi mode when running via DSiWarehax, which
-  caused an error to appear when booting.</li>
+  <li>This makes some Chinese-translated ROMs boot again.</li>
 
-  <li>Proper language bitmask is now used for Australian region.</li>
+  </ul>
+
+  </li>
+
+  <li>Fixed support for homebrew which give shared WRAM to arm9.
+
+  <ul dir="auto">
+
+  <li>The fix will not apply to DSiWarehax users.</li>
+
+  </ul>
+
+  </li>
+
+  <li><strong>B4DS mode:</strong> Fixed various bugs related to running from Slot-2
+  flashcards.</li>
+
+  <li>Attempted to fix crashing issues in Japanese Rev A version of <em>Castlevania:
+  Portrait of Ruin</em>.</li>
+
+  <li>Attempted to fix HGSS crashing issues on boot on DSi/3DS by keeping cluster
+  table cache uncompressed.</li>
+
+  <li><strong>B4DS mode:</strong> Fixed <em>Metroid Prime Pinball</em> not booting.</li>
+
+  <li>Fixed <em>Nintendo DS Browser</em> not booting on 3DS consoles.</li>
 
   </ul>'
-updated: '2024-01-30T01:53:05Z'
-version: v1.2.2
-version_title: v1.2.2
+updated: '2024-03-07T03:51:11Z'
+version: v1.3.0
+version_title: v1.3.0
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
