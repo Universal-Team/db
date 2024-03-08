@@ -12,17 +12,17 @@ description: Nintellivision - an Intellivision Emulator for the DS/DSi. High com
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 695296
-    size_str: 679 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.0/NINTV-DS.nds
+    size: 697856
+    size_str: 681 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.0a/NINTV-DS.nds
   README.md:
-    size: 25864
+    size: 26039
     size_str: 25 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.0/README.md
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.0a/README.md
   extras.zip:
     size: 9160609
     size_str: 8 MiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.0/extras.zip
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.0a/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
@@ -37,7 +37,7 @@ source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V5.0 : 06-Mar-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V5.0a : 08-Mar-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
@@ -50,8 +50,10 @@ update_notes: '<p dir="auto">V5.0 : 06-Mar-2024 by wavemotion-dave</p>
 
   <li>Minor cleanup and tweaks as time permitted.</li>
 
+  <li>5.0a with new Gold/Black menu buttons!</li>
+
   </ul>'
-updated: '2024-03-07T11:43:01Z'
-version: '5.0'
-version_title: Version 5.0
+updated: '2024-03-08T12:39:42Z'
+version: 5.0a
+version_title: Version 5.0a
 ---
