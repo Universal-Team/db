@@ -6254,39 +6254,6 @@
 		"created": "2023-09-21T00:00:00Z"
 	},
 	{
-		"github": "MisterSheeple/SpotPassDumper9",
-		"systems": ["3DS"],
-		"categories": ["utility", "firm"],
-		"icon": "https://raw.githubusercontent.com/MisterSheeple/SpotPassDumper9/master/assets/SpotPassDumper9-icon.png",
-		"image": "https://raw.githubusercontent.com/MisterSheeple/SpotPassDumper9/master/assets/SpotPassDumper9-banner.png",
-		"scripts": {
-			"SpotPassDumper9.firm": [
-				{
-					"type": "downloadRelease",
-					"repo": "MisterSheeple/SpotPassDumper9",
-					"file": "SpotPassDumper9_.*_Luma\\.zip",
-					"output": "/SpotPassDumper9.zip"
-				},
-				{
-					"type": "extractFile",
-					"file": "/SpotPassDumper9.zip",
-					"input": "SpotPassDumper9.firm$",
-					"output": "%FIRM%/SpotPassDumper9.firm"
-				},
-				{
-					"type": "extractFile",
-					"file": "/SpotPassDumper9.zip",
-					"input": "gm9/",
-					"output": "/gm9/"
-				},
-				{
-					"type": "deleteFile",
-					"file": "/SpotPassDumper9.zip"
-				}
-			]
-		}
-	},
-	{
 		"github": "skyfloogle/red-viper",
 		"systems": ["3DS"],
 		"categories": ["emulator"],
