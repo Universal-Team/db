@@ -10,13 +10,13 @@ description: A work-in-progress homebrew YouTube client for the 3DS
 download_page: https://github.com/windows-server-2003/ThirdTube/releases
 downloads:
   ThirdTube.3dsx:
-    size: 5768368
+    size: 6052304
     size_str: 5 MiB
-    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.5.3/ThirdTube.3dsx
+    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.5.4/ThirdTube.3dsx
   ThirdTube.cia:
-    size: 4142016
-    size_str: 3 MiB
-    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.5.3/ThirdTube.cia
+    size: 4314048
+    size_str: 4 MiB
+    url: https://github.com/windows-server-2003/ThirdTube/releases/download/v0.5.4/ThirdTube.cia
 github: windows-server-2003/ThirdTube
 icon: https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/icon.png
 image: https://raw.githubusercontent.com/windows-server-2003/ThirdTube/main/resource/banner.png
@@ -39,9 +39,23 @@ systems:
 title: ThirdTube
 unique_ids:
 - '0xBF74D'
-update_notes: <p dir="auto">This is a minor release fixing the broken video playback.</p>
-updated: '2023-03-03T05:41:10Z'
-version: v0.5.3
-version_title: Release v0.5.3
+update_notes: '<p dir="auto">This is a minor fix regarding page loading issues.</p>
+
+  <ul dir="auto">
+
+  <li>Fixed channel page not loading</li>
+
+  <li>Fixed like count not showing up on video page</li>
+
+  <li>Replaced Home with Trending, since YouTube started to require tracking data(and
+  at least one search/video watching with the tracking id) for Home</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Note : the binary has been updated at 2024-03-08 9:16 UTC
+  for a fix. Please download it again if you downloaded the binary before this</strong></p>'
+updated: '2024-03-08T09:05:14Z'
+version: v0.5.4
+version_title: v0.5.4
 website: https://gbatemp.net/threads/release-thirdtube-a-homebrew-youtube-client-for-the-new-3ds.591696/
 ---
