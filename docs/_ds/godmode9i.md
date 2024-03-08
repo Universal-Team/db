@@ -12,21 +12,21 @@ description: 'GodMode9i Explorer - A full access file browser for the Nintendo D
 download_page: https://github.com/DS-Homebrew/GodMode9i/releases
 downloads:
   GodMode9i.7z:
-    size: 348894
-    size_str: 340 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.2/GodMode9i.7z
+    size: 349493
+    size_str: 341 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.3/GodMode9i.7z
   GodMode9i.cia:
-    size: 952576
-    size_str: 930 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.2/GodMode9i.cia
+    size: 953600
+    size_str: 931 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.3/GodMode9i.cia
   GodMode9i.dsi:
-    size: 937984
-    size_str: 916 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.2/GodMode9i.dsi
+    size: 939008
+    size_str: 917 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.3/GodMode9i.dsi
   GodMode9i.nds:
-    size: 937984
-    size_str: 916 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.2/GodMode9i.nds
+    size: 939008
+    size_str: 917 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.3/GodMode9i.nds
 github: DS-Homebrew/GodMode9i
 icon: https://db.universal-team.net/assets/images/icons/godmode9i.png
 image: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png
@@ -51,22 +51,13 @@ update_notes: '<h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>Fixed an overlooked bug which caused game dumping to crash.</li>
-
-  </ul>
-
-  <h3 dir="auto">Known bug</h3>
-
-  <ul dir="auto">
-
-  <li>Booting a <code class="notranslate">.nds</code> file will cause a Guru Meditation
-  Error to appear. To boot <code class="notranslate">.nds</code> files again, please
-  downgrade to v3.5.0.</li>
+  <li>Fixed where booting a <code class="notranslate">.nds</code> file would cause
+  a Guru Meditation Error to appear.</li>
 
   </ul>'
-updated: '2024-02-28T03:26:57Z'
-version: v3.5.2
-version_title: v3.5.2
+updated: '2024-03-08T22:42:34Z'
+version: v3.5.3
+version_title: 'v3.5.3 (hotfix #2)'
 website: https://wiki.ds-homebrew.com/godmode9i/
 wiki: https://wiki.ds-homebrew.com/other/godmode9i
 ---
