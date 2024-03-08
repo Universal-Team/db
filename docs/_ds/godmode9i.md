@@ -53,6 +53,16 @@ update_notes: '<h3 dir="auto">Bug fix</h3>
 
   <li>Fixed an overlooked bug which caused game dumping to crash.</li>
 
+  </ul>
+
+  <h3 dir="auto">Known bug</h3>
+
+  <ul dir="auto">
+
+  <li>Booting a <code class="notranslate">.nds</code> file will cause a Guru Meditation
+  Error to appear. To boot <code class="notranslate">.nds</code> files again, please
+  downgrade to v3.5.0.</li>
+
   </ul>'
 updated: '2024-02-28T03:26:57Z'
 version: v3.5.2

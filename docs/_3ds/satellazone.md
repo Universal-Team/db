@@ -48,7 +48,11 @@ update_notes: '<h1>2.2 is out!</h1>
 
   <li>Check yourself to figure out what!</li>
 
-  </ul>'
+  </ul>
+
+  <h2>Installation instructions</h2>
+
+  <p>Everything is written on the readme: <a href="https://github.com/MegaPika/SatellaZone#readme">https://github.com/MegaPika/SatellaZone#readme</a></p>'
 updated: '2024-03-07T20:13:34Z'
 version: '2.2'
 version_title: Check Steam
