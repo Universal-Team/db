@@ -11,13 +11,13 @@ description: A work-in-progress homebrew YouTube client for new 3DS french trans
 download_page: https://github.com/cooolgamer/ThirdTube-FR/releases
 downloads:
   ThirdTube-FR.3dsx:
-    size: 5775132
+    size: 6065588
     size_str: 5 MiB
-    url: https://github.com/cooolgamer/ThirdTube-FR/releases/download/v0.5.3/ThirdTube-FR.3dsx
+    url: https://github.com/cooolgamer/ThirdTube-FR/releases/download/v0.5.4/ThirdTube-FR.3dsx
   ThirdTube-FR.cia:
-    size: 4146112
-    size_str: 3 MiB
-    url: https://github.com/cooolgamer/ThirdTube-FR/releases/download/v0.5.3/ThirdTube-FR.cia
+    size: 4322240
+    size_str: 4 MiB
+    url: https://github.com/cooolgamer/ThirdTube-FR/releases/download/v0.5.4/ThirdTube-FR.cia
 github: cooolgamer/ThirdTube-FR
 icon: https://github.com/cooolgamer/ThirdTube-FR/raw/main/resource/icon.png
 image: https://github.com/cooolgamer/ThirdTube-FR/raw/main/resource/banner.png
@@ -35,13 +35,12 @@ unique_ids:
 - '0xBF74D'
 update_notes: '<ul dir="auto">
 
-  <li>Basée sur la dernière version (v0.5.3) qui fix certaines vidéos ne fonctionnant
-  pas.</li>
+  <li>Basée sur la dernière version (v0.5.4) qui fix tout les problèmes de connection,</li>
 
   <li>Aucun changement niveau traductions.</li>
 
   </ul>'
-updated: '2023-03-03T14:17:18Z'
-version: v0.5.3
-version_title: bugfix
+updated: '2024-03-09T14:35:34Z'
+version: v0.5.4
+version_title: bug fix (encore)
 ---
