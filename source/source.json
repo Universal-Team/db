@@ -6254,37 +6254,14 @@
 		"created": "2023-09-21T00:00:00Z"
 	},
 	{
-		"github": "MisterSheeple/SpotPassDumper9",
+		"github": "SpotPassArchive/SpotPassDumper11",
+		"author": "ZeroSkill1",
 		"systems": ["3DS"],
-		"categories": ["utility", "firm"],
-		"icon": "https://raw.githubusercontent.com/MisterSheeple/SpotPassDumper9/master/assets/SpotPassDumper9-icon.png",
-		"image": "https://raw.githubusercontent.com/MisterSheeple/SpotPassDumper9/master/assets/SpotPassDumper9-banner.png",
-		"scripts": {
-			"SpotPassDumper9.firm": [
-				{
-					"type": "downloadRelease",
-					"repo": "MisterSheeple/SpotPassDumper9",
-					"file": "SpotPassDumper9_.*_Luma\\.zip",
-					"output": "/SpotPassDumper9.zip"
-				},
-				{
-					"type": "extractFile",
-					"file": "/SpotPassDumper9.zip",
-					"input": "SpotPassDumper9.firm$",
-					"output": "%FIRM%/SpotPassDumper9.firm"
-				},
-				{
-					"type": "extractFile",
-					"file": "/SpotPassDumper9.zip",
-					"input": "gm9/",
-					"output": "/gm9/"
-				},
-				{
-					"type": "deleteFile",
-					"file": "/SpotPassDumper9.zip"
-				}
-			]
-		}
+		"categories": ["utility", "save-tool"],
+		"unique_ids": [381200],
+		"icon": "https://raw.githubusercontent.com/SpotPassArchive/SpotPassDumper11/master/resources/spotpassdumper11-icon.png",
+		"image": "https://raw.githubusercontent.com/SpotPassArchive/SpotPassDumper11/master/resources/spotpassdumper11-banner.png",
+		"long_description": "**SpotPassDumper11** is a userland SpotPass dumping tool for the 3DS/2DS.\nFeatures:\n* Support for dumping SpotPass data\n* Automatically uploads SpotPass data to the SpotPass Archival Project\n* Error handling and verification"
 	},
 	{
 		"github": "skyfloogle/red-viper",
