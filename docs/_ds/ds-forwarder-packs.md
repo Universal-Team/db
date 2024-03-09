@@ -21,8 +21,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto"><strong>UPDATE 1/29/2024:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.2.2">nds-bootstrap
-  v1.2.2</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.3.1">nds-bootstrap
+  v1.3.1</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -49,23 +49,15 @@ update_notes: '<p dir="auto"><strong>UPDATE 1/29/2024:</strong> Includes <a href
 
   </ul>
 
-  <h3 dir="auto">Bug fix</h3>
+  <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Fixed path of AP-fix not being written with <code class="notranslate">sd:</code>
-  or <code class="notranslate">fat:</code> at the start.
-
-  <ul dir="auto">
-
-  <li>This should fix nds-bootstrap being unable to read the AP-fix.</li>
-
-  </ul>
-
-  </li>
+  <li>On DSi/3DS, NDMA is now used to clear RAM before booting a <code class="notranslate">.nds</code>
+  file.</li>
 
   </ul>'
-updated: '2023-11-30T07:16:16Z'
-version: SD-13
-version_title: 'GitHub Release #13'
+updated: '2024-03-08T22:54:51Z'
+version: SD-14
+version_title: 'GitHub Release #14'
 ---

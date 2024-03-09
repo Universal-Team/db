@@ -128,6 +128,10 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <li>Added a setting to hide the Rocket Robz logo.</li>
 
+  <li>As ROMs can be placed anywhere on the SD card (except for folders starting with
+  <code class="notranslate">_</code>), the <code class="notranslate">roms</code> folder
+  has been removed.</li>
+
   </ul>
 
   <h3 dir="auto">Bug fixes</h3>
