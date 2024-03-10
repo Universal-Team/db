@@ -14,19 +14,15 @@ downloads:
   ColecoDS.nds:
     size: 1422848
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.2/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.3/ColecoDS.nds
   README.md:
-    size: 47417
+    size: 47648
     size_str: 46 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.2/README.md
-  blank.cas:
-    size: 1
-    size_str: 1 Byte
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.2/blank.cas
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.3/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.2/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.3/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -38,22 +34,19 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V9.2: 12-Feb-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V9.3: 10-Mar-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Ported the AY sound chip driver from FluBBa to improve MSX1, Einstein and Coleco
-  SGM games.</li>
+  <li>Fixed TMS9918 VDP 5th Sprite Flag handling and slight optmization to the VDP
+  driver.</li>
 
-  <li>Ported most recent SN sound chip driver from FluBBa.</li>
+  <li>Updated to latest SN76496 sound driver from FluBBa.</li>
 
-  <li>Allow more than one keyboard press at a time for the MSX1 so keyboard-mapped
-  keys work properly (i.e. UP and SPACE at the same time)</li>
-
-  <li>Cleanup across the board - save states optimized.</li>
+  <li>Other minor tweaks and cleanup as time permitted.</li>
 
   </ul>'
-updated: '2024-02-12T11:49:08Z'
-version: '9.2'
-version_title: Version 9.2
+updated: '2024-03-10T13:03:31Z'
+version: '9.3'
+version_title: Version 9.3
 ---
