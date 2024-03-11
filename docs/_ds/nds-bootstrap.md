@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 785569
-    size_str: 767 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.3.1/nds-bootstrap.7z
+    size: 787910
+    size_str: 769 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.3.2/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1912023
+    size: 1914013
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.3.1/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.3.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -32,10 +32,7 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v26.7.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v26.7.0</a></p>
-
-  <p dir="auto">Instructions:</p>
+update_notes: '<p dir="auto">Instructions:</p>
 
   <ol dir="auto">
 
@@ -46,17 +43,25 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <h3 dir="auto">What''s new?</h3>
+  <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>Added support for building RAM disks containing Genesis/Mega Drive ROMs with
-  the <code class="notranslate">.md</code> extension.</li>
+  <li>Fixed attempting to force-decompress <em>Chrono Trigger</em>''s arm9 binary,
+  which would cause certain ROM hacks and/or translations to not boot.
+
+  <ul dir="auto">
+
+  <li>Hopefully this doesn''t break other ones which have booted prior to this version!</li>
+
+  </ul>
+
+  </li>
 
   </ul>'
-updated: '2024-03-07T05:40:13Z'
-version: v1.3.1
-version_title: v1.3.1 (hotfix)
+updated: '2024-03-11T21:43:03Z'
+version: v1.3.2
+version_title: v1.3.2
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
