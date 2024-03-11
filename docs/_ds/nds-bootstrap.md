@@ -48,11 +48,11 @@ update_notes: '<p dir="auto">Instructions:</p>
   <ul dir="auto">
 
   <li>Fixed attempting to force-decompress <em>Chrono Trigger</em>''s arm9 binary,
-  which would cause certain ROM hacks and/or translations to not boot.
+  which could cause certain ROM hacks and/or translations to not boot.
 
   <ul dir="auto">
 
-  <li>Hopefully this doesn''t break other ones which have booted prior to this version!</li>
+  <li>(Hopefully this doesn''t break other ones which have booted prior to this version!)</li>
 
   </ul>
 
