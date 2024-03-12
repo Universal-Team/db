@@ -14,15 +14,15 @@ downloads:
   ColecoDS.nds:
     size: 1422848
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.3/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.3a/ColecoDS.nds
   README.md:
-    size: 47648
+    size: 47703
     size_str: 46 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.3/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.3a/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.3/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.3a/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -45,8 +45,10 @@ update_notes: '<p dir="auto">V9.3: 10-Mar-2024 by wavemotion-dave</p>
 
   <li>Other minor tweaks and cleanup as time permitted.</li>
 
+  <li>Version 9.3a with hotfix for SVI game loading fixed.</li>
+
   </ul>'
-updated: '2024-03-10T13:03:31Z'
-version: '9.3'
-version_title: Version 9.3
+updated: '2024-03-12T11:30:21Z'
+version: 9.3a
+version_title: Version 9.3a
 ---
