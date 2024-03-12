@@ -46,7 +46,7 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <ul dir="auto">
 
-  <li>QuakeC (Game Code)</li>
+  <li>Game Assets</li>
 
   </ul>
 
@@ -71,9 +71,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <p dir="auto">You can also play the WebGL version at <a href="https://nzp.gay/"
   rel="nofollow">https://nzp.gay/</a></p>'
-updated: '2024-02-17T07:16:05Z'
+updated: '2024-03-12T07:17:34Z'
 version: nightly
-version_title: 2.0.0-indev+20240217071508
+version_title: 2.0.0-indev+20240312071626
 website: https://github.com/nzp-team/nzportable
 ---
 A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at War.
