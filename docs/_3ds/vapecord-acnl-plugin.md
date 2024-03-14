@@ -10,7 +10,7 @@ description: Animal Crossing NL Vapecord Public Plugin WIP
 download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases
 downloads:
   Vapecord.Public.zip:
-    size: 4484933
+    size: 4309953
     size_str: 4 MiB
     url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v1.9.6/Vapecord.Public.zip
   quickmenu.bin:

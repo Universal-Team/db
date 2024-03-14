@@ -12,10 +12,10 @@ description: Luma3DS Ed. Italiana - Traduzione italiana dell'originale custom fi
   Luma3DS per Nintendo 3DS
 download_page: https://github.com/M4nueleZ/Luma3DS_ITA/releases
 downloads:
-  Luma3DS_ITAv13.0.2-1.zip:
-    size: 420233
+  Luma3DS_ITAv13.0.2.zip:
+    size: 420277
     size_str: 410 KiB
-    url: https://github.com/M4nueleZ/Luma3DS_ITA/releases/download/v13.0.2/Luma3DS_ITAv13.0.2-1.zip
+    url: https://github.com/M4nueleZ/Luma3DS_ITA/releases/download/v13.0.2/Luma3DS_ITAv13.0.2.zip
 github: M4nueleZ/Luma3DS_ITA
 icon: https://raw.githubusercontent.com/M4nueleZ/Luma3DS_ITA/master/luma3dslogoita.png
 image: https://raw.githubusercontent.com/M4nueleZ/Luma3DS_ITA/master/luma3dslogoita.png
