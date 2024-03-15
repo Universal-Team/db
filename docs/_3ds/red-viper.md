@@ -81,6 +81,7 @@ update_notes: '<p dir="auto">This release fixes the random crashes in T&amp;E So
 updated: '2024-03-02T15:52:19Z'
 version: v0.9.1
 version_title: Red Viper v0.9.1
+wiki: https://github.com/skyfloogle/red-viper/wiki
 ---
 A Virtual Boy emulator for the 3DS. All official games are playable at full speed.
 * All officially licensed games are playable at full speed, even on the original 3DS
