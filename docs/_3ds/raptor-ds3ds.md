@@ -16,7 +16,7 @@ downloads:
     size_str: 13 MiB
     url: https://github.com/RetroGamer02/raptor-consoles/releases/download/MultiSys-V1.0.0/RAPTOR-3DS-SDL1-V1.0.5.zip
   RAPTOR-3DS-SDL2-V0.9.0.zip:
-    size: 4774088
+    size: 4774399
     size_str: 4 MiB
     url: https://github.com/RetroGamer02/raptor-consoles/releases/download/MultiSys-V1.0.0/RAPTOR-3DS-SDL2-V0.9.0.zip
   RAPTOR-NDS-V1.0.6.zip:
@@ -51,7 +51,9 @@ update_notes: '<p dir="auto">With the exception of the new SDL2 version of Rapto
 
   Raptor Switch: Visual improvement graphics now scale to use full Switch resolution.<br>
 
-  Raptor Xbox: Only a few small changes mostly audio related.</p>'
+  Raptor Xbox: Only a few small changes mostly audio related.</p>
+
+  <p dir="auto">Edit: Fixed 3DS-SDL2 CIA</p>'
 updated: '2024-03-16T06:06:21Z'
 version: MultiSys-V1.0.0
 version_title: First Raptor MultiSys Base Release
