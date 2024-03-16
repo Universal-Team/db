@@ -11,14 +11,18 @@ description: Raptor Call Of The Shadows Console Ports from Reversed-engineered s
 download_filter: NDS|3DS
 download_page: https://github.com/RetroGamer02/raptor-consoles/releases
 downloads:
-  Raptor3DS.V1.0.5.zip:
+  RAPTOR-3DS-SDL1-V1.0.5.zip:
     size: 14319750
     size_str: 13 MiB
-    url: https://github.com/RetroGamer02/raptor-consoles/releases/download/1.0.5/Raptor3DS.V1.0.5.zip
-  RaptorNDS.V1.0.6.zip:
+    url: https://github.com/RetroGamer02/raptor-consoles/releases/download/MultiSys-V1.0.0/RAPTOR-3DS-SDL1-V1.0.5.zip
+  RAPTOR-3DS-SDL2-V0.9.0.zip:
+    size: 4774088
+    size_str: 4 MiB
+    url: https://github.com/RetroGamer02/raptor-consoles/releases/download/MultiSys-V1.0.0/RAPTOR-3DS-SDL2-V0.9.0.zip
+  RAPTOR-NDS-V1.0.6.zip:
     size: 1877924
     size_str: 1 MiB
-    url: https://github.com/RetroGamer02/raptor-consoles/releases/download/1.0.5/RaptorNDS.V1.0.6.zip
+    url: https://github.com/RetroGamer02/raptor-consoles/releases/download/MultiSys-V1.0.0/RAPTOR-NDS-V1.0.6.zip
 github: RetroGamer02/raptor-consoles
 icon: https://raw.githubusercontent.com/RetroGamer02/raptor3ds/master/rapicon.png
 image: https://raw.githubusercontent.com/RetroGamer02/raptor3ds/master/RapBanner.png
@@ -35,18 +39,21 @@ source: https://github.com/RetroGamer02/raptor-consoles
 systems:
 - 3DS
 title: Raptor DS/3DS
-update_notes: '<p dir="auto">Updated libctru to v2.2.1 which also fixes build errors
-  with current devkitARM.<br>
+update_notes: '<p dir="auto">With the exception of the new SDL2 version of Raptor
+  3DS this is a minor update release.</p>
 
-  Fix Startup Lag for some 3DS''s<br>
+  <p dir="auto">Raptor NDS: No Changes<br>
 
-  Edit: Added First Switch Build.<br>
+  Raptor 3DS-SDL1: No Changes<br>
 
-  Edit2: Added NDS Build.<br>
+  Raptor 3DS-SDL2: First release - Note has no display scaling do to current 3DS-SDL2
+  limitations but overall better.<br>
 
-  Edit3: Added Xbox Build.</p>'
-updated: '2023-06-03T18:27:47Z'
-version: 1.0.5
-version_title: Fix Startup Lag for some 3DS's and First Switch Build
+  Raptor Switch: Visual improvement graphics now scale to use full Switch resolution.<br>
+
+  Raptor Xbox: Only a few small changes mostly audio related.</p>'
+updated: '2024-03-16T06:06:21Z'
+version: MultiSys-V1.0.0
+version_title: First Raptor MultiSys Base Release
 ---
 Reversed-engineered source port from Raptor Call Of The Shadows ported to the Nintendo 3DS.
