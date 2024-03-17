@@ -3,8 +3,6 @@ author: RetroGamer02/Ryan
 avatar: https://avatars.githubusercontent.com/u/70994866?v=4
 categories:
 - game
-color: '#625456'
-color_bg: '#625456'
 created: '2022-09-10T22:26:05Z'
 description: Raptor Call Of The Shadows Console Ports from Reversed-engineered source
   code
@@ -26,7 +24,6 @@ downloads:
 github: RetroGamer02/raptor-consoles
 icon: https://raw.githubusercontent.com/RetroGamer02/raptor3ds/master/rapicon.png
 image: https://raw.githubusercontent.com/RetroGamer02/raptor3ds/master/RapBanner.png
-image_length: 48397
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
