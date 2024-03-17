@@ -1,5 +1,5 @@
 ---
-author: Reece McTiernan
+author: Reece
 avatar: https://avatars.githubusercontent.com/u/18317099?v=4
 categories:
 - utility
