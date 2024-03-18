@@ -14,19 +14,19 @@ downloads:
   ColecoDS.nds:
     size: 1422848
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.4/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.4b/ColecoDS.nds
   README.md:
-    size: 47857
-    size_str: 46 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.4/README.md
+    size: 48568
+    size_str: 47 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.4b/README.md
   blank.cas:
     size: 1
     size_str: 1 Byte
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.4/blank.cas
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.4b/blank.cas
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.4/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.4b/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -38,18 +38,21 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V9.4: 16-Mar-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V9.4b: 18-Mar-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
   <li>Tatung Einstein improvements - more games run more correctly.</li>
 
-  <li>SVI Cassette Load fixes</li>
-
   <li>Other minor tweaks and cleanup as time permitted.</li>
 
+  <li>9.4b - Einstein RAMDISK now unified in /data/ directory (rather than have one
+  for each directory of .dsk files)</li>
+
+  <li>9.4b - Tweaks to the CTC timer engine for Einstein JSW2</li>
+
   </ul>'
-updated: '2024-03-16T15:14:33Z'
-version: '9.4'
-version_title: Version 9.4
+updated: '2024-03-18T11:04:01Z'
+version: 9.4b
+version_title: Version 9.4b
 ---
