@@ -6367,6 +6367,7 @@
 	{
 		"github": "zoeyjodon/moonlight-N3DS",
 		"author": "zoeyjodon",
+		"title": "Moonlight Streaming Client",
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"unique_ids": [13824],
