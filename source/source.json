@@ -3411,17 +3411,6 @@
 					"file": "/TWiLight Menu.cia"
 				},
 				{
-					"type": "promptMessage",
-					"message": "Extract \"roms\" folder?\n\n(Recommended for new users)",
-					"count": 1
-				},
-				{
-					"type": "extractFile",
-					"file": "/TWiLightMenu-3DS.7z",
-					"input": "roms/",
-					"output": "/roms/"
-				},
-				{
 					"type": "deleteFile",
 					"file": "/TWiLightMenu-3DS.7z"
 				}
