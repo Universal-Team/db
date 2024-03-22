@@ -70,7 +70,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </li>
 
-  <li>DPG playback in Moonshell is also working properly!</li>
+  <li>DPG playback in <em>Moonshell</em> is also working properly!</li>
 
   </ul>
 
@@ -99,12 +99,15 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ul>
 
-  <h3 dir="auto">Known bug</h3>
+  <h3 dir="auto">Known bugs</h3>
 
   <ul dir="auto">
 
   <li><em>Moonshell</em> v1.71 may crash later on for some DPG files. It is recommended
   to use v2.10 instead.</li>
+
+  <li><em>Moonshell</em> v2.10 will crash if <code class="notranslate">logbuf.txt</code>
+  exists in the <code class="notranslate">moonshl2</code> folder.</li>
 
   </ul>'
 updated: '2024-03-22T03:27:26Z'
