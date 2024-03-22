@@ -8,23 +8,7 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads:
-  TWiLightMenu-3DS.7z:
-    size: 41888644
-    size_str: 39 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.7.0/TWiLightMenu-3DS.7z
-  TWiLightMenu-DSi.7z:
-    size: 41950621
-    size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.7.0/TWiLightMenu-DSi.7z
-  TWiLightMenu-Flashcard.7z:
-    size: 52846752
-    size_str: 50 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.7.0/TWiLightMenu-Flashcard.7z
-  TWiLightMenu.7z:
-    size: 53107861
-    size_str: 50 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.7.0/TWiLightMenu.7z
+downloads: {}
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -48,8 +32,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.3.1">nds-bootstrap
-  v1.3.1</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.4.0">nds-bootstrap
+  v1.4.0</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -69,68 +53,52 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>:
-  Updated AP-fix for <em>Pokémon: Refined Gold Overhaul</em> (v3.2).</li>
+  <li>Updated AP-fix for <em>Pokémon: Refined Gold Overhaul</em> (v3.2.2).</li>
 
-  <li>Moved color mode tables from NitroFS to <code class="notranslate">sd:/_nds/colorLut/</code>.
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/reddleak/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/reddleak">@reddleak</a>:
+  Improved the DSi theme''s dropdown startup animation to closely resemble the one
+  in the original DSi Menu!</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/reddleak/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/reddleak">@reddleak</a>:
+  Added the ability to set default starting directory by pressing <code class="notranslate">Select</code>
+  + <code class="notranslate">X</code> buttons!</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/reddleak/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/reddleak">@reddleak</a>:
+  Added show empty boxes option.
 
   <ul dir="auto">
 
-  <li>This means custom tables can now be added (ex. redshift), as well as your own
-  homebrew supporting color modes!</li>
-
-  <li>To implement it into your homebrew, see this code for loading the LUT file:
-  <a href="https://github.com/RocketRobz/SuperPhotoStudio/blob/master/nds/arm9/source/gui.cpp#L142">https://github.com/RocketRobz/SuperPhotoStudio/blob/master/nds/arm9/source/gui.cpp#L142</a></li>
-
-  <li>Add something like <code class="notranslate">palette[i] = colorTable[palette[i]];</code>
-  into your palette and/or 16-bit image loading code(s) for the color LUT to take
-  effect.</li>
+  <li>Can be set to hide the empty boxes in the DSi theme.</li>
 
   </ul>
 
   </li>
 
-  <li>Various: Updated translations and added (untested) Galician language!</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
+  Autoboot file for Original R4SDHC is no longer out of date.</li>
 
-  <li>SEGA Genesis/Mega Drive ROMs with the <code class="notranslate">.md</code> extension
-  are now supported!</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/reddleak/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/reddleak">@reddleak</a>:
+  Added delay to scrolling in the Saturn theme.</li>
 
-  <li>Genesis/Mega Drive and SNES ROMs are no longer displayed on flashcards, as the
-  emulators (except for new SNEmulDS versions) which run them do not support arguments.</li>
+  <li>Improved <code class="notranslate">.md</code> file detection for Genesis/MD
+  ROMs.</li>
 
-  <li>If GBARunner3 is set to be used, the BIOS message is now displayed for all GBA
-  games.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/reddleak/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/reddleak">@reddleak</a>:
+  Asterisk is now displayed when a setting has been changed in TWLMenu++ Settings.</li>
 
-  <li>DSiWare titles with <code class="notranslate">NTRJ</code> TID now launch on
-  flashcards, regardless if compatible or not.
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/reddleak/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/reddleak">@reddleak</a>:
+  Confirmation message is now displayed when exiting cheat menu without saving.</li>
 
-  <ul dir="auto">
-
-  <li>Implemented because of some DSiWare prototypes using said TID, as well as some
-  being supported by nds-bootstrap.</li>
-
-  </ul>
-
-  </li>
-
-  <li>On DSi/3DS, NDMA is now used to clear RAM slightly faster when transitioning
-  between TWLMenu++ screen modes, as well as loading <code class="notranslate">.nds</code>
-  files.</li>
-
-  <li><code class="notranslate">SCSD</code> string is now checked within the DLDI
-  name for SuperCard MiniSD support as well.</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DieGo367/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DieGo367">@DieGo367</a>:
-  Changed font palette of disabled buttons in DS Classic Menu. (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2358"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2358/hovercard">#2358</a>)</li>
-
-  <li>Added a setting to hide the Rocket Robz logo.</li>
-
-  <li>As ROMs can be placed anywhere on the SD card (except for folders starting with
-  <code class="notranslate">_</code>), the <code class="notranslate">roms</code> folder
-  has been removed.</li>
+  <li><code class="notranslate">roms</code> folder has been re-added! This is useful
+  for first-time users who may not know where to put ROMs and/or users who want to
+  easily organize their ROMs.</li>
 
   </ul>
 
@@ -138,28 +106,18 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Fixed GBA <em>Fire Emblem</em> games not booting when using the native GBA mode.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/reddleak/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/reddleak">@reddleak</a>:
+  Fix HBL music looping issue.</li>
 
-  <li>Fixed Classic NES Series stuck on white screen when using the native GBA mode.
-
-  <ul dir="auto">
-
-  <li>Only early Famicom Mini games and the iQue collection are known to boot properly.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Fixed <em>Iridion II</em> freeze bug when using the native GBA mode. (Patch
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Dartz150/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Dartz150">@Dartz150</a>)</li>
-
-  <li>Rapid presses now work again in the 3DS theme!</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/reddleak/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/reddleak">@reddleak</a>:
+  Error sound no longer plays when reaching the end of the page in the Saturn theme.</li>
 
   </ul>'
-updated: '2024-03-07T06:09:55Z'
-version: v26.7.0
-version_title: v26.7.0
+updated: '2024-03-22T04:14:13Z'
+version: v26.8.0
+version_title: v26.8.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
