@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 787910
-    size_str: 769 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.3.2/nds-bootstrap.7z
+    size: 790133
+    size_str: 771 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.4.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1914013
+    size: 1919441
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.3.2/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.4.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -32,7 +32,10 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Instructions:</p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v26.8.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v26.8.0</a></p>
+
+  <p dir="auto">Instructions:</p>
 
   <ol dir="auto">
 
@@ -43,25 +46,70 @@ update_notes: '<p dir="auto">Instructions:</p>
 
   </ol>
 
-  <h3 dir="auto">Bug fix</h3>
+  <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Fixed attempting to force-decompress <em>Chrono Trigger</em>''s arm9 binary,
-  which could cause certain ROM hacks and/or translations to not boot.
+  <li>A long awaited and overdue DS homebrew compatibility update has been implemented!
 
   <ul dir="auto">
 
-  <li>(Hopefully this doesn''t break other ones which have booted prior to this version!)</li>
+  <li>Homebrew titles which have not booted in prior versions such as <em>Moonshell</em>
+  v2.10 and <em>Tetris: The Grand Master</em> now boot properly!</li>
+
+  <li>SD read speeds have improved, by using 512KB of DSi WRAM (or for Memory Pit
+  users, 96KB of Main RAM) as a LRU cache!
+
+  <ul dir="auto">
+
+  <li>Before (Moonshell v1.71): 8 seconds</li>
+
+  <li>After (Moonshell v1.71): 2.5 seconds</li>
 
   </ul>
 
   </li>
 
+  <li>DPG playback in Moonshell is also working properly!</li>
+
+  </ul>
+
+  </li>
+
+  <li>To slightly speed-up memcpy operations for LRU cache and pre-loaded ROM reads,
+  tonccpy has been replaced with the memcpy code from BlocksDS!</li>
+
+  </ul>
+
+  <h3 dir="auto">Bug fix</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed where reading both the last and first parts of the save file at the same
+  time would cause a game to crash.
+
+  <ul dir="auto">
+
+  <li>This fixes where <em>Gormiti: The Lords of Nature!</em> would crash on the save
+  initialization screen, if the save file is 64KB.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <h3 dir="auto">Known bug</h3>
+
+  <ul dir="auto">
+
+  <li><em>Moonshell</em> v1.71 may crash later on for some DPG files. It is recommended
+  to use v2.10 instead.</li>
+
   </ul>'
-updated: '2024-03-11T21:43:03Z'
-version: v1.3.2
-version_title: v1.3.2
+updated: '2024-03-22T03:27:26Z'
+version: v1.4.0
+version_title: v1.4.0
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
