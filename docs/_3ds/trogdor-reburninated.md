@@ -25,9 +25,9 @@ systems:
 - 3DS
 title: 'Trogdor: Reburninated'
 update_notes: '<p><strong>NOTE:</strong> This is a maintenance update, exclusive to
-  the Wii version. For the latest release on other systems, see <a href="https://github.com/Mode8fx/Trogdor-Reburninated/releases/tag/v2.1">v2.1</a>.</p>
+  the Wii and Gamecube versions. For the latest release on other systems, see <a href="https://github.com/Mode8fx/Trogdor-Reburninated/releases/tag/v2.1">v2.1</a>.</p>
 
-  <h3>Wii-Specific Changes:</h3>
+  <h3>Wii and Gamecube-Specific Changes:</h3>
 
   <ul>
 
@@ -41,12 +41,22 @@ update_notes: '<p><strong>NOTE:</strong> This is a maintenance update, exclusive
 
   </ul>
 
+  <h3>Gamecube-specific changes</h3>
+
+  <ul>
+
+  <li>Fixed resource loading, meaning <strong>audio now works</strong> and Gamecube
+  is out of beta</li>
+
+  </ul>
+
   <h3>Also...</h3>
 
   <ul>
 
-  <li>A Gamecube port of SDL2 is currently in development. When it has been added
-  to devkitPro, I will apply these same changes to the Gamecube version.</li>
+  <li><del>A Gamecube port of SDL2 is currently in development. When it has been added
+  to devkitPro, I will apply these same changes to the Gamecube version.</del> <strong>EDIT
+  3/24/24</strong>: The Gamecube version has been added to this release.</li>
 
   </ul>
 
