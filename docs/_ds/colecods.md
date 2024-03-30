@@ -12,21 +12,17 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1422848
+    size: 1439232
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.4b/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.5/ColecoDS.nds
   README.md:
-    size: 48568
-    size_str: 47 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.4b/README.md
-  blank.cas:
-    size: 1
-    size_str: 1 Byte
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.4b/blank.cas
+    size: 50844
+    size_str: 49 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.5/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.4b/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.5/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -38,21 +34,45 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V9.4b: 18-Mar-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V9.5: 30-Mar-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Tatung Einstein improvements - more games run more correctly.</li>
+  <li>ADAMnet improvement for disk/tape handling. Improved timing, improved caching
+  and more disk/tape games should load and run correctly.</li>
 
-  <li>Other minor tweaks and cleanup as time permitted.</li>
+  <li>DSI gets a massive 2MB of Expansion RAM (32 banks of 64K). DS-Lite/Phat still
+  has 128K (base 64K plus the standard 64K expansion RAM).</li>
 
-  <li>9.4b - Einstein RAMDISK now unified in /data/ directory (rather than have one
-  for each directory of .dsk files)</li>
+  <li>Adam now properly handles 320K disks and three drive bays are virtually attached
+  (two 320K disk drives and the internal Tape drive at 256K).</li>
 
-  <li>9.4b - Tweaks to the CTC timer engine for Einstein JSW2</li>
+  <li>Adam full keyboard now uses an LED indicator under the CAPS LOCK button to indicate
+  status.</li>
+
+  <li>Adam has improved keyboard graphic with more keys added.</li>
+
+  <li>Adam no longer mirrors RAM as a Colecovision would.</li>
+
+  <li>Adam optimization provided 5% improved emulation speed which should make most
+  everything playable even on the older DS-Lite/Phat.</li>
+
+  <li>Adam supports the 32K expanded ROM and running carts under Adam emulation -
+  name your ROMs as .adm so it loads into the right place in memory.</li>
+
+  <li>Tatung Einstein now has two proper standard 200K disk drives.</li>
+
+  <li>Tatung Einstein full keyboard now uses LED indicators under the SHIFT/CTRL/GRAPH
+  and ALPHA LOCK keys for a visual improvement.</li>
+
+  <li>Tatung Einstein properly handles the backspace key when using the Alpha-Numeric
+  keyboard overlay.</li>
+
+  <li>2000 individual game configurations are supported - save/load states optimized
+  and numerous tweaks under the hood.</li>
 
   </ul>'
-updated: '2024-03-18T11:04:01Z'
-version: 9.4b
-version_title: Version 9.4b
+updated: '2024-03-30T10:59:56Z'
+version: '9.5'
+version_title: Version 9.5
 ---
