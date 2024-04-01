@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 42437395
+    size: 42366309
     size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.8.0/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.9.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 42495895
+    size: 42425369
     size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.8.0/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.9.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 53382146
+    size: 53317843
     size_str: 50 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.8.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.9.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 53638490
+    size: 53579914
     size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.8.0/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.9.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -48,8 +48,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.4.0">nds-bootstrap
-  v1.4.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.4.1">nds-bootstrap
+  v1.4.1</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -69,71 +69,22 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Updated AP-fix for <em>Pokémon: Refined Gold Overhaul</em> (v3.2.2).</li>
+  <li>Added support for the new <code class="notranslate">.ntrb</code> format, made
+  by Skylark and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/rvtr/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/rvtr">@rvtr</a>.
+  This is used for ShaberuSoft applications, discovered by them + <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Kaisaan/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Kaisaan">@Kaisaan</a>
+  in NitroSDK.</li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/reddleak/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/reddleak">@reddleak</a>:
-  Improved the DSi theme''s dropdown startup animation to closely resemble the one
-  in the original DSi Menu!</li>
+  <li>Applied link-time optimization in order to trim out unused code.</li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/reddleak/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/reddleak">@reddleak</a>:
-  Added the ability to set default starting directory by pressing <code class="notranslate">Select</code>
-  + <code class="notranslate">X</code> buttons!</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/reddleak/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/reddleak">@reddleak</a>:
-  Added show empty boxes option.
-
-  <ul dir="auto">
-
-  <li>Can be set to hide the empty boxes in the DSi theme.</li>
-
-  </ul>
-
-  </li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
-  Autoboot file for Original R4SDHC is no longer out of date.</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/reddleak/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/reddleak">@reddleak</a>:
-  Added delay to scrolling in the Saturn theme.</li>
-
-  <li>Improved <code class="notranslate">.md</code> file detection for Genesis/MD
-  ROMs.</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/reddleak/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/reddleak">@reddleak</a>:
-  Asterisk is now displayed when a setting has been changed in TWLMenu++ Settings.</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/reddleak/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/reddleak">@reddleak</a>:
-  Confirmation message is now displayed when exiting cheat menu without saving.</li>
-
-  <li><code class="notranslate">roms</code> folder has been re-added! This is useful
-  for first-time users who may not know where to put ROMs and/or users who want to
-  easily organize their ROMs.</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
-
-  <ul dir="auto">
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/reddleak/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/reddleak">@reddleak</a>:
-  Fix HBL music looping issue.</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/reddleak/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/reddleak">@reddleak</a>:
-  Error sound no longer plays when reaching the end of the page in the Saturn theme.</li>
+  <li>N5 autoboot files have been discovered to work on R4-PLUS flashcards.</li>
 
   </ul>'
-updated: '2024-03-22T04:14:13Z'
-version: v26.8.0
-version_title: v26.8.0
+updated: '2024-04-01T03:47:03Z'
+version: v26.9.0
+version_title: v26.9.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
