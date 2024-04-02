@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 791326
+    size: 791427
     size_str: 772 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.4.1/nds-bootstrap.7z
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.4.2/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1920758
+    size: 1920958
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.4.1/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.4.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -32,10 +32,7 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v26.9.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v26.9.0</a></p>
-
-  <p dir="auto">Instructions:</p>
+update_notes: '<p dir="auto">Instructions:</p>
 
   <ol dir="auto">
 
@@ -50,13 +47,22 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Fixed attempting to decompress already-decompressed arm9 binary for certain
-  ROM hacks, which would cause them to not boot.</li>
+  <li>Fixed an overlooked bug which caused <em>Shepherd''s Crossing 2 DS</em> to open
+  with a red error screen.
+
+  <ul dir="auto">
+
+  <li>If you''re a DS/DS Lite user, the bug would only occur with an Expansion Pak
+  inserted.</li>
+
+  </ul>
+
+  </li>
 
   </ul>'
-updated: '2024-04-01T03:39:24Z'
-version: v1.4.1
-version_title: v1.4.1
+updated: '2024-04-02T22:09:23Z'
+version: v1.4.2
+version_title: v1.4.2
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
