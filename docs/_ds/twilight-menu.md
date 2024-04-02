@@ -69,9 +69,10 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Added support for the new <code class="notranslate">.ntrb</code> format, made
-  by Skylark and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/rvtr/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/rvtr">@rvtr</a>.
+  <li><strong>April Fools Feature:</strong> Added support for the new <code class="notranslate">.ntrb</code>
+  format, made by Skylark and <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/rvtr/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/rvtr">@rvtr</a>.
   This is used for ShaberuSoft applications, discovered by them + <a class="user-mention
   notranslate" data-hovercard-type="user" data-hovercard-url="/users/Kaisaan/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Kaisaan">@Kaisaan</a>
@@ -84,7 +85,7 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   </ul>'
 updated: '2024-04-01T03:47:03Z'
 version: v26.9.0
-version_title: v26.9.0
+version_title: 'v26.9.0: April Fools Release'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
