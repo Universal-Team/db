@@ -11,9 +11,9 @@ description: A 3DS game plugin (3GX) to dump the RMC communication between 3DS g
 download_page: https://github.com/PretendoNetwork/HokakuCTR/releases
 downloads:
   HokakuCTR.3gx:
-    size: 293726
+    size: 293838
     size_str: 286 KiB
-    url: https://github.com/PretendoNetwork/HokakuCTR/releases/download/v1.0.2/HokakuCTR.3gx
+    url: https://github.com/PretendoNetwork/HokakuCTR/releases/download/v1.0.3/HokakuCTR.3gx
 github: PretendoNetwork/HokakuCTR
 image: https://avatars.githubusercontent.com/u/36684034?v=4&size=128
 image_length: 3197
@@ -26,21 +26,14 @@ update_notes: '<h2 dir="auto">What''s Changed</h2>
 
   <ul dir="auto">
 
-  <li>Update 3gx.ld based on latest one in testplugin by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/TraceEntertains/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/TraceEntertains">@TraceEntertains</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1936238983"
-  data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/HokakuCTR/issues/5"
-  data-hovercard-type="pull_request" data-hovercard-url="/PretendoNetwork/HokakuCTR/pull/5/hovercard"
-  href="https://github.com/PretendoNetwork/HokakuCTR/pull/5">#5</a></li>
-
-  <li>Add title ID and metadata version to start of packets by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/jonbarrow/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/jonbarrow">@jonbarrow</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1936340593"
-  data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/HokakuCTR/issues/6"
-  data-hovercard-type="pull_request" data-hovercard-url="/PretendoNetwork/HokakuCTR/pull/6/hovercard"
-  href="https://github.com/PretendoNetwork/HokakuCTR/pull/6">#6</a></li>
+  <li>Fix packet dumping on games with blank process names (Sonic Generations, Style
+  Savvy: Trendsetters, etc.) by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/Nasina7/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Nasina7">@Nasina7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2219451950"
+  data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/HokakuCTR/issues/13"
+  data-hovercard-type="pull_request" data-hovercard-url="/PretendoNetwork/HokakuCTR/pull/13/hovercard"
+  href="https://github.com/PretendoNetwork/HokakuCTR/pull/13">#13</a></li>
 
   </ul>
 
@@ -48,26 +41,19 @@ update_notes: '<h2 dir="auto">What''s Changed</h2>
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/TraceEntertains/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/TraceEntertains">@TraceEntertains</a>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Nasina7/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Nasina7">@Nasina7</a>
   made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="1936238983" data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/HokakuCTR/issues/5"
-  data-hovercard-type="pull_request" data-hovercard-url="/PretendoNetwork/HokakuCTR/pull/5/hovercard"
-  href="https://github.com/PretendoNetwork/HokakuCTR/pull/5">#5</a></li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/jonbarrow/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/jonbarrow">@jonbarrow</a>
-  made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="1936340593" data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/HokakuCTR/issues/6"
-  data-hovercard-type="pull_request" data-hovercard-url="/PretendoNetwork/HokakuCTR/pull/6/hovercard"
-  href="https://github.com/PretendoNetwork/HokakuCTR/pull/6">#6</a></li>
+  to load title" data-id="2219451950" data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/HokakuCTR/issues/13"
+  data-hovercard-type="pull_request" data-hovercard-url="/PretendoNetwork/HokakuCTR/pull/13/hovercard"
+  href="https://github.com/PretendoNetwork/HokakuCTR/pull/13">#13</a></li>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/PretendoNetwork/HokakuCTR/compare/v1.0.1...v1.0.2"><tt>v1.0.1...v1.0.2</tt></a></p>'
-updated: '2023-10-16T22:50:41Z'
-version: v1.0.2
-version_title: v1.0.2
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/PretendoNetwork/HokakuCTR/compare/v1.0.2...v1.0.3"><tt>v1.0.2...v1.0.3</tt></a></p>'
+updated: '2024-04-02T17:28:11Z'
+version: v1.0.3
+version_title: v1.0.3
 website: https://pretendo.network/
 ---
 ## Usage
