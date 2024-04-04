@@ -1,10 +1,10 @@
 ---
-author: rverse Team
+author: rverse
 avatar: https://avatars.githubusercontent.com/u/38678735?v=4
 categories:
 - utility
-color: '#142699'
-color_bg: '#112080'
+color: '#282597'
+color_bg: '#221f80'
 created: '2020-04-18T01:16:12Z'
 description: Miiverse clone framework, for 3DS and Wii U
 download_page: https://github.com/rverseTeam/rverse-Releases/releases
@@ -19,7 +19,7 @@ downloads:
     url: https://github.com/rverseTeam/rverse-Releases/releases/download/v4.0.0/rverse-3ds.zip
 github: rverseTeam/rverse-Releases
 image: https://avatars.githubusercontent.com/u/38678735?v=4&size=128
-image_length: 4504
+image_length: 3828
 layout: app
 source: https://github.com/rverseTeam/rverse2
 systems:
