@@ -29,12 +29,12 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 prerelease:
-  download_page: https://github.com/Alexyo21/CustomLuma3DS/releases/tag/1.1.4-d
+  download_page: https://github.com/Alexyo21/CustomLuma3DS/releases/tag/1.1.5-d
   downloads:
     boot.firm:
       size: 324608
       size_str: 317 KiB
-      url: https://github.com/Alexyo21/CustomLuma3DS/releases/download/1.1.4-d/boot.firm
+      url: https://github.com/Alexyo21/CustomLuma3DS/releases/download/1.1.5-d/boot.firm
   update_notes: '<p dir="auto">same as the other one but useful for debbuging... hopefully
     not so slow...<br>
 
@@ -44,42 +44,7 @@ prerelease:
 
     luma 13.0.2</p>
 
-    <h2 dir="auto">What''s Changed</h2>
-
-    <ul dir="auto">
-
-    <li>Include library for future addon by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/Alexyo21/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/Alexyo21">@Alexyo21</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="1860434783" data-permission-text="Title is private" data-url="https://github.com/Alexyo21/CustomLuma3DS/issues/15"
-    data-hovercard-type="pull_request" data-hovercard-url="/Alexyo21/CustomLuma3DS/pull/15/hovercard"
-    href="https://github.com/Alexyo21/CustomLuma3DS/pull/15">#15</a></li>
-
-    <li>Fixed your crappy readme by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/cooolgamer/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/cooolgamer">@cooolgamer</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="2011185364" data-permission-text="Title is private" data-url="https://github.com/Alexyo21/CustomLuma3DS/issues/24"
-    data-hovercard-type="pull_request" data-hovercard-url="/Alexyo21/CustomLuma3DS/pull/24/hovercard"
-    href="https://github.com/Alexyo21/CustomLuma3DS/pull/24">#24</a></li>
-
-    </ul>
-
-    <h2 dir="auto">New Contributors</h2>
-
-    <ul dir="auto">
-
-    <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/cooolgamer/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cooolgamer">@cooolgamer</a>
-    made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-    to load title" data-id="2011185364" data-permission-text="Title is private" data-url="https://github.com/Alexyo21/CustomLuma3DS/issues/24"
-    data-hovercard-type="pull_request" data-hovercard-url="/Alexyo21/CustomLuma3DS/pull/24/hovercard"
-    href="https://github.com/Alexyo21/CustomLuma3DS/pull/24">#24</a></li>
-
-    </ul>
-
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Alexyo21/CustomLuma3DS/compare/logo...1.1.4-d"><tt>logo...1.1.4-d</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Alexyo21/CustomLuma3DS/compare/1.1.0...1.1.5-d"><tt>1.1.0...1.1.5-d</tt></a></p>'
   update_notes_md: 'same as the other one but useful for debbuging... hopefully not
     so slow...
 
@@ -90,21 +55,9 @@ prerelease:
     luma 13.0.2
 
 
-    ## What''s Changed
-
-    * Include library for future addon by @Alexyo21 in https://github.com/Alexyo21/CustomLuma3DS/pull/15
-
-    * Fixed your crappy readme by @cooolgamer in https://github.com/Alexyo21/CustomLuma3DS/pull/24
-
-
-    ## New Contributors
-
-    * @cooolgamer made their first contribution in https://github.com/Alexyo21/CustomLuma3DS/pull/24
-
-
-    **Full Changelog**: https://github.com/Alexyo21/CustomLuma3DS/compare/logo...1.1.4-d'
+    **Full Changelog**: https://github.com/Alexyo21/CustomLuma3DS/compare/1.1.0...1.1.5-d'
   updated: '2023-07-27T15:51:34Z'
-  version: 1.1.4-d
+  version: 1.1.5-d
   version_title: here a more debugger version
 source: https://github.com/Alexyo21/CustomLuma3DS
 systems:
