@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 791427
-    size_str: 772 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.4.2/nds-bootstrap.7z
+    size: 791765
+    size_str: 773 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.4.3/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1920958
+    size: 1922888
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.4.2/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.4.3/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -32,7 +32,10 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Instructions:</p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.0.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v27.0.0</a></p>
+
+  <p dir="auto">Instructions:</p>
 
   <ol dir="auto">
 
@@ -43,26 +46,43 @@ update_notes: '<p dir="auto">Instructions:</p>
 
   </ol>
 
-  <h3 dir="auto">Bug fix</h3>
+  <h3 dir="auto">What''s new? (B4DS mode)</h3>
 
   <ul dir="auto">
 
-  <li>Fixed an overlooked bug which caused <em>Shepherd''s Crossing 2 DS</em> to open
-  with a red error screen.
+  <li>Audio in <em>Art Style: Aquia</em> now plays on (retail) DS &amp; DS Lite consoles!
 
   <ul dir="auto">
 
-  <li>If you''re a DS/DS Lite user, the bug would only occur with an Expansion Pak
-  inserted.</li>
+  <li>This is achieved by working around a memory limitation, where the game would
+  first allocate memory for the compressed sdat file (1.53MB), and then allocate memory
+  for the decompressed sdat file (1.63MB), which would fail because of there being
+  no memory left for the decompressed data, and as a result would cause the audio
+  to not play. nds-bootstrap instead does the decompression job before boot, by only
+  allocating memory for the decompressed sdat file, and then streaming over the compressed
+  data into the allocated area to form the decompressed data.</li>
 
   </ul>
 
   </li>
 
+  </ul>
+
+  <h3 dir="auto">Bug fixes</h3>
+
+  <ul dir="auto">
+
+  <li>Further improved support for certain ROM hacks with compressed arm9 binaries
+  (ex. <em>Inazuma Eleven Undub</em>, <em>Pokemon BB2/VW2</em>, etc.) in order for
+  them to boot.</li>
+
+  <li><strong>B4DS mode:</strong> Fixed an overlooked bug which caused <em>Shepherd''s
+  Crossing 2 DS</em> to open with a red error screen if an Expansion Pak is inserted.</li>
+
   </ul>'
-updated: '2024-04-02T22:09:23Z'
-version: v1.4.2
-version_title: v1.4.2
+updated: '2024-04-08T23:04:21Z'
+version: v1.4.3
+version_title: v1.4.3
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
