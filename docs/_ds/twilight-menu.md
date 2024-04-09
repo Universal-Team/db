@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 42366309
+    size: 42916060
     size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.9.0/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.0.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 42425369
-    size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.9.0/TWiLightMenu-DSi.7z
+    size: 43008119
+    size_str: 41 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.0.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 53317843
-    size_str: 50 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.9.0/TWiLightMenu-Flashcard.7z
-  TWiLightMenu.7z:
-    size: 53579914
+    size: 53901518
     size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v26.9.0/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.0.0/TWiLightMenu-Flashcard.7z
+  TWiLightMenu.7z:
+    size: 54161687
+    size_str: 51 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.0.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -48,8 +48,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.4.1">nds-bootstrap
-  v1.4.1</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.4.3">nds-bootstrap
+  v1.4.3</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -69,23 +69,55 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li><strong>April Fools Feature:</strong> Added support for the new <code class="notranslate">.ntrb</code>
-  format, made by Skylark and <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/rvtr/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/rvtr">@rvtr</a>.
-  This is used for ShaberuSoft applications, discovered by them + <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Kaisaan/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Kaisaan">@Kaisaan</a>
-  in NitroSDK.</li>
+  <li><strong>DSi-based themes:</strong> Startup time has been decreased by 2 seconds!
 
-  <li>Applied link-time optimization in order to trim out unused code.</li>
+  <ul dir="auto">
 
-  <li>N5 autoboot files have been discovered to work on R4-PLUS flashcards.</li>
+  <li>Console icons are now only loaded when such ROMs are listed.</li>
+
+  </ul>
+
+  </li>
+
+  <li><strong>R4 theme:</strong> Added support for the original <code class="notranslate">.bmp</code>
+  skin files!</li>
+
+  <li>Moved the <code class="notranslate">Game Loader</code> setting from the <code
+  class="notranslate">nds-bootstrap settings</code> page to the <code class="notranslate">Games
+  and Apps settings</code> page.</li>
+
+  <li>File/Directory listings are now logged.</li>
+
+  <li>Like with the rest of our April Fools features, the <code class="notranslate">.ntrb</code>
+  format is now hidden on days except for April 1st!</li>
+
+  </ul>
+
+  <h3 dir="auto">Bug fixes</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed a long-standing bug where TWLMenu++ would crash if single-character files
+  are found. (ex. <code class="notranslate">X.gb</code>)</li>
+
+  <li><strong>3DS theme:</strong> Fixed a returning bug (due to LTO), where the box
+  art would appear behind the rotating cubes.</li>
+
+  <li>Fix GBA <code class="notranslate">bios.bin</code> detection on flashcards.</li>
+
+  <li>Re-compiled the included FastVideoDSPlayer build.</li>
+
+  <li>The libnds sleep mode function is now fully disabled, in order for TWLMenu++
+  to properly boot with <code class="notranslate">SLEEP_MODE = 0</code> set in <code
+  class="notranslate">sd:/_nds/TWiLightMenu/settings.ini</code> and on consoles which
+  trigger sleep mode with the console lid opened.</li>
+
+  <li>Other minor fixes and improvements.</li>
 
   </ul>'
-updated: '2024-04-01T03:47:03Z'
-version: v26.9.0
-version_title: 'v26.9.0: April Fools Release'
+updated: '2024-04-08T23:19:37Z'
+version: v27.0.0
+version_title: v27.0.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---

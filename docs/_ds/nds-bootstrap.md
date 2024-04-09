@@ -10,11 +10,11 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 791765
-    size_str: 773 KiB
+    size: 792714
+    size_str: 774 KiB
     url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.4.3/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1922888
+    size: 1923552
     size_str: 1 MiB
     url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.4.3/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
@@ -80,7 +80,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   Crossing 2 DS</em> to open with a red error screen if an Expansion Pak is inserted.</li>
 
   </ul>'
-updated: '2024-04-08T23:04:21Z'
+updated: '2024-04-08T23:57:27Z'
 version: v1.4.3
 version_title: v1.4.3
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
