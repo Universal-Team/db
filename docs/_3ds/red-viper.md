@@ -10,13 +10,13 @@ description: A Virtual Boy emulator for the 3DS
 download_page: https://github.com/skyfloogle/red-viper/releases
 downloads:
   red-viper.3dsx:
-    size: 408212
-    size_str: 398 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v0.9.2.1/red-viper.3dsx
+    size: 442880
+    size_str: 432 KiB
+    url: https://github.com/skyfloogle/red-viper/releases/download/v0.9.3/red-viper.3dsx
   red-viper.cia:
-    size: 508352
-    size_str: 496 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v0.9.2.1/red-viper.cia
+    size: 529856
+    size_str: 517 KiB
+    url: https://github.com/skyfloogle/red-viper/releases/download/v0.9.3/red-viper.cia
 github: skyfloogle/red-viper
 icon: https://raw.githubusercontent.com/skyfloogle/red-viper/master/icon.png
 image: https://raw.githubusercontent.com/skyfloogle/red-viper/master/resources/banner.png
@@ -39,80 +39,43 @@ systems:
 title: red-viper
 unique_ids:
 - '0xFE7CB'
-update_notes: '<p dir="auto">This patch features fixes for a few critical bugs that
-  snuck into v0.9.2, including the .cia not working on O3DS and the crash screen causing
-  a ghost image when left alone for too long.</p>
-
-  <h2 dir="auto">v0.9.2 changelog</h2>
-
-  <p dir="auto">This release features a new audio engine allowing for <strong>sample
-  playback</strong>, improved support for some homebrew such as <strong>Hyper Fighting</strong>
-  and <strong>Elevated Speed</strong>, and a number of UI improvements, including
-  <strong>button controls</strong>.</p>
-
-  <p dir="auto">Some games may play samples at an incorrect speed. A <a href="https://github.com/skyfloogle/red-viper/wiki/Compatibility-list">compatibility
-  list</a> has been created, listing these and any other lingering issues.</p>
-
-  <p dir="auto">Big thanks to everyone who contributed!</p>
-
-  <h3 dir="auto">Emulation improvements</h3>
+update_notes: '<p dir="auto">This release features much smoother gameplay, partially
+  thanks to running the 3DS displays at 50Hz! Also includes a number of compatibility
+  improvements, especially with homebrew.</p>
 
   <ul dir="auto">
 
-  <li>New audio engine allowing for sample playback</li>
+  <li>Run 3DS displays at 50Hz (thanks to everyone in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="2178306727" data-permission-text="Title
+  is private" data-url="https://github.com/skyfloogle/red-viper/issues/46" data-hovercard-type="issue"
+  data-hovercard-url="/skyfloogle/red-viper/issues/46/hovercard" href="https://github.com/skyfloogle/red-viper/issues/46">#46</a>
+  who knows much more about this than I do!)</li>
 
-  <li>16MB ROMs can now be loaded on o3DS</li>
+  <li>Improve frame pacing by rendering on VBlank</li>
 
-  <li>Fixed music speed in Golf</li>
+  <li>The image is now displayed in full 24-bit colour</li>
 
-  <li>Faster affine layer drawing</li>
+  <li>Various renderer optimizations, significantly improving performance in Elevated
+  Speed</li>
 
-  <li>Various other emulation bugfixes (including <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="2171767732" data-permission-text="Title
-  is private" data-url="https://github.com/skyfloogle/red-viper/issues/41" data-hovercard-type="pull_request"
-  data-hovercard-url="/skyfloogle/red-viper/pull/41/hovercard" href="https://github.com/skyfloogle/red-viper/pull/41">#41</a>
-  and <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2172542176"
-  data-permission-text="Title is private" data-url="https://github.com/skyfloogle/red-viper/issues/43"
-  data-hovercard-type="pull_request" data-hovercard-url="/skyfloogle/red-viper/pull/43/hovercard"
-  href="https://github.com/skyfloogle/red-viper/pull/43">#43</a> by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/pizzarollsroyce/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/pizzarollsroyce">@pizzarollsroyce</a>)</li>
+  <li>Improved audio clarity</li>
 
-  </ul>
+  <li>Fixed issues with various sound effects in Wario Land</li>
 
-  <h3 dir="auto">UI improvements</h3>
+  <li>Fixed compatibility hack for Virtual Lab''s English patch</li>
 
-  <ul dir="auto">
+  <li>Improved performance in Nester''s Funky Bowling</li>
 
-  <li>Button input in GUI (<a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2182379580" data-permission-text="Title is private" data-url="https://github.com/skyfloogle/red-viper/issues/47"
-  data-hovercard-type="pull_request" data-hovercard-url="/skyfloogle/red-viper/pull/47/hovercard"
-  href="https://github.com/skyfloogle/red-viper/pull/47">#47</a> by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/JeffRuLz/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/JeffRuLz">@JeffRuLz</a>)</li>
+  <li>Compatibility fixes for lots of homebrew</li>
 
-  <li>Zip file support</li>
+  <li>Add a confirmation prompt to Reset and Quit menu options</li>
 
-  <li>Improved debug dumps for easier crash reproduction</li>
-
-  <li>Allow mapping face buttons to the triggers on N3DS (<a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="2170765702" data-permission-text="Title
-  is private" data-url="https://github.com/skyfloogle/red-viper/issues/39" data-hovercard-type="pull_request"
-  data-hovercard-url="/skyfloogle/red-viper/pull/39/hovercard" href="https://github.com/skyfloogle/red-viper/pull/39">#39</a>
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/vaguerant/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/vaguerant">@vaguerant</a>)</li>
-
-  <li>Button to turn off the touchscreen backlight (<a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="2182543872" data-permission-text="Title
-  is private" data-url="https://github.com/skyfloogle/red-viper/issues/48" data-hovercard-type="pull_request"
-  data-hovercard-url="/skyfloogle/red-viper/pull/48/hovercard" href="https://github.com/skyfloogle/red-viper/pull/48">#48</a>
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/vaguerant/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/vaguerant">@vaguerant</a>)</li>
+  <li>Game progress is now saved when entering sleep mode</li>
 
   </ul>'
-updated: '2024-03-25T17:19:50Z'
-version: v0.9.2.1
-version_title: v0.9.2.1
+updated: '2024-04-10T18:18:19Z'
+version: v0.9.3
+version_title: v0.9.3
 wiki: https://github.com/skyfloogle/red-viper/wiki
 ---
 A Virtual Boy emulator for the 3DS. All official games are playable at full speed.
