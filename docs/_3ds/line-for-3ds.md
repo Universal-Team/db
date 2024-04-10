@@ -35,7 +35,99 @@ systems:
 title: Line for 3DS
 unique_ids:
 - '0xEC950'
-update_notes: ''
+update_notes: '<p dir="auto"><strong>Just fixed deadlink in SETUP.md and no software
+  (source code) changes since v2.0.0.</strong></p>
+
+  <ul dir="auto">
+
+  <li>Line
+
+  <ul dir="auto">
+
+  <li>Significant changes for internal code, so you need to setup your Google Apps
+  Script again.</li>
+
+  <li><a href="https://github.com/Core-2-Extreme/Line_for_3DS/blob/v2.0.0/SETUP.md">Setup
+  instructions</a> are updated.</li>
+
+  <li>3DS
+
+  <ul dir="auto">
+
+  <li>Chat log wrapping feature has been improved a lot.</li>
+
+  <li>Auto update feature (for chat logs) are removed temporary.</li>
+
+  <li>Clear cache feature (for downloaded files) are removed temporary.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Google Apps Script
+
+  <ul dir="auto">
+
+  <li>Self tests are added so that it is much easier to trouble shoot.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  </li>
+
+  <li>Camera
+
+  <ul dir="auto">
+
+  <li>Supported QR code scan (currently, only for Google Apps Script setup).</li>
+
+  </ul>
+
+  </li>
+
+  <li>Video player
+
+  <ul dir="auto">
+
+  <li>Updated to v1.5.3 (see <a href="https://github.com/Core-2-Extreme/Video_player_for_3DS/blob/v1.5.3#v153">Video
+  player for 3DS patch note</a> for details).</li>
+
+  </ul>
+
+  </li>
+
+  <li>Overall
+
+  <ul dir="auto">
+
+  <li>Application folder has been changed from <code class="notranslate">/Line/</code>
+  to <code class="notranslate">/3ds/Line/</code> (old folder won''t be deleted automatically,
+  but you can delete it if you don''t need it).</li>
+
+  <li>Sub application icon has been added.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <h3 dir="auto"><a href="https://discord.gg/EqK3Kpb" rel="nofollow">Discord channel</a></h3>
+
+  <h3 dir="auto"><a href="https://gbatemp.net/threads/line-for-3ds.539530" rel="nofollow">GBAtemp</a></h3>
+
+  <p dir="auto">This is free software, but I accept donation.</p>
+
+  <ul dir="auto">
+
+  <li>BTC : bc1qmhw7hus4kmfkgvqh5fht3hs3zh74wr0krygknm</li>
+
+  <li>LTC : MFYc3CwPuoaxm1eNKHvUd4G4VrzgPcarox</li>
+
+  </ul>'
 updated: '2024-01-30T13:44:30Z'
 version: v2.0.0.1
 version_title: Line for 3DS v2.0.0.1
