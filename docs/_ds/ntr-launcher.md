@@ -3,8 +3,8 @@ author: Apache Thunder
 avatar: https://avatars.githubusercontent.com/u/11767416?v=4
 categories:
 - utility
-color: '#949593'
-color_bg: '#7f807e'
+color: '#8b8d89'
+color_bg: '#7e807c'
 created: '2017-02-12T20:50:13Z'
 description: 'NTR Launcher - Bring back classic DS boot animation + boot older flashcarts! '
 download_page: https://github.com/ApacheThunder/NTR_Launcher/releases
