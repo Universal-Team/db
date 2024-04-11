@@ -9,7 +9,15 @@ created: '2021-11-13T05:10:52Z'
 description: Burninate the countryside!
 download_filter: 3ds
 download_page: https://github.com/Mips96/Trogdor-Reburninated/releases
-downloads: {}
+downloads:
+  Trogdor-Reburninated-v2.1-3ds-cia.zip:
+    size: 37493478
+    size_str: 35 MiB
+    url: https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.11/Trogdor-Reburninated-v2.1-3ds-cia.zip
+  Trogdor-Reburninated-v2.1-3ds.zip:
+    size: 37084580
+    size_str: 35 MiB
+    url: https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.11/Trogdor-Reburninated-v2.1-3ds.zip
 github: Mips96/Trogdor-Reburninated
 icon: https://raw.githubusercontent.com/Mips96/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/logo_icon_android_48.png
 image: https://raw.githubusercontent.com/Mips96/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/background_psp.png
@@ -60,7 +68,10 @@ update_notes: '<p><strong>NOTE:</strong> This is a maintenance update, exclusive
 
   </ul>
 
-  <p>Enjoy!</p>'
+  <p>Enjoy!</p>
+
+  <p><strong>UPDATE 4/10/24</strong>: Added previous 3DS release to fix Universal-DB
+  link.</p>'
 updated: '2024-03-23T01:55:16Z'
 version: v2.11
 version_title: v2.11
