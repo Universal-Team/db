@@ -12,17 +12,17 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1395200
+    size: 1405440
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.6/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.7/ColecoDS.nds
   README.md:
-    size: 50556
-    size_str: 49 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.6/README.md
+    size: 51361
+    size_str: 50 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.7/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.6/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.7/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -34,18 +34,30 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V9.6: 08-Apr-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V9.7: 16-Apr-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Removed DrZ80 core - the high quality CZ80 core is all that remains.</li>
+  <li>Fixed Colecovision RAM mirrors such that Boulderdash runs properly.</li>
 
-  <li>Complete overhaul of the Adam handlers to clean and refine.</li>
+  <li>The Heist now forces RAM to clear (all zeros) as it is known to be picky about
+  contents of RAM on power up.</li>
 
-  <li>Fix for games like Best of Broderbund (dsk and ddp) now load properly.</li>
+  <li>Fix EEPROM sequential reads so Activision PCB games like Jewel Panic work correctly.</li>
+
+  <li>Added the Wildcard and Print buttons on the virtual ADAM keyboard. All ADAM
+  virtual keys should now be present.</li>
+
+  <li>Added new configuration options to select the Colecovision mode to run in -
+  you can force ADAM emulation, force PCB types, and set EEPROM sizes, etc.</li>
+
+  <li>New global option to force ADAM mode, SGM can be Disabled, and BIOS auto-patch
+  for ''Fast BIOS'' to force the 15 second wait down to 3 seconds.</li>
+
+  <li>Minor cleanup and optimizations to the Adam core.</li>
 
   </ul>'
-updated: '2024-04-08T10:52:20Z'
-version: '9.6'
-version_title: Version 9.6
+updated: '2024-04-16T10:28:58Z'
+version: '9.7'
+version_title: Version 9.7
 ---
