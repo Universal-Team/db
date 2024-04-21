@@ -202,6 +202,8 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 				temp = list(filter(lambda x: "bitbucket" in x and "bitbucket" in app and x["bitbucket"]["repo"] == app["bitbucket"]["repo"], oldData))
 			if len(temp) == 0:
 				temp = list(filter(lambda x: "title" in x and "author" in x and "title" in app and "author" in app and x["title"] == app["title"] and x["author"] == app["author"], oldData))
+			if len(temp) == 0:
+				temp = list(filter(lambda x: "gitlab" in x and "gitlab" in app and x["gitlab"] == app["gitlab"], oldData))
 
 			# Always treat apps that updated in the last 30 days as priority
 			if len(temp) > 0:
@@ -467,6 +469,52 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 						if "updated" not in app:
 							commit = requests.get(fileAPI["commit"]["links"]["self"]["href"]).json()
 							app["updated"] = commit["date"]
+
+			if "gitlab" in app:
+				print("Gitlab")
+				gitlab_id = app["gitlab"].replace('/', '%2F')
+				endpoint = app["gitlab_endpoint"] if "gitlab_endpoint" in app else "https://gitlab.com"
+				repo = requests.get(f"{endpoint}/api/v4/projects/{gitlab_id}").json()
+				releases = requests.get(f"{endpoint}/api/v4/projects/{gitlab_id}/releases?include_html_description=true").json()
+				release = releases[0]
+				if "title" not in app:
+					app["title"] = repo["name"]
+				if "author" not in app:
+					app["author"] = repo["namespace"]["name"]
+				if "description" not in app:
+					app["description"] = repo["description"]
+				if "avatar" not in app:
+					app["avatar"] = repo["avatar_url"]
+				if "source" not in app:
+					app["source"] = repo["web_url"]
+				if "created" not in app:
+					app["created"] = repo["created_at"]
+
+				if release:
+					if "download_page" not in app:
+						app["download_page"] = f"{endpoint}/{app['gitlab']}/-/releases"
+
+					if "version" not in app:
+						app["version"] = release["tag_name"]
+
+					if "version_title" not in app and release["name"] != "" and release["name"] is not None:
+						app["version_title"] = release["name"]
+
+					if "update_notes" not in app and release["description"] != "" and release["description"] is not None:
+						app["update_notes_md"] = release["description"].replace("\r\n", "\n")
+						app["update_notes"] = release["description_html"].replace("\r\n", "\n")
+
+					if "updated" not in app:
+						app["updated"] = release["released_at"]
+
+					if "downloads" not in app:
+						app["downloads"] = {}
+					for asset in release["assets"]["links"]:
+						if not asset["name"] in app["downloads"] and (len(re.findall(app["download_filter"], asset["name"])) > 0 if "download_filter" in app else len(re.findall(DOWNLOAD_BLACKLIST, asset["name"])) == 0):
+							app["downloads"][asset["name"]] = {
+								"url": asset["direct_asset_url"]
+							}
+
 
 			# Process format strings in downloads if needed
 			if "eval_downloads" in app and app["eval_downloads"]:
