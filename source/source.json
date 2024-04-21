@@ -6374,5 +6374,12 @@
 		"icon": "https://raw.githubusercontent.com/zoeyjodon/moonlight-N3DS/n3ds-main/3ds/res/ic_moonlight.png",
 		"image": "https://raw.githubusercontent.com/zoeyjodon/moonlight-N3DS/n3ds-main/3ds/res/banner.png",
 		"long_description": "Moonlight is an open source client for Sunshine and NVIDIA GameStream for the New Nintendo 3DS, forked from Moonlight Embedded. Moonlight allows you to stream your full collection of games and applications from your PC to other devices to play them remotely."
+	},
+	{
+		"gitlab": "Sorunome/3ds-streetpass",
+		"systems": ["3DS"],
+		"categories": ["utility"],
+		"unique_ids": [1009012],
+		"icon": "https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/icon.png"
 	}
 ]
