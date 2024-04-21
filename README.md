@@ -14,6 +14,7 @@ These sites are the preferred places to host your downloads as Universal-DB can 
 
 - [GitHub](https://github.com): Full support
 - [Bitbucket](https://bitbucket.org): Partial support
+- [Gitlab](https://gitlab.com): Partial support
 
 ## Using the data
 As Universal-DB is hosted by GitHub pages we're not able to have a proper API, but you can use `docs/data/full.json` to get all the data we collect from the GitHub API and such all in one place or LightSage's [UDB-API](https://udb-api.lightsage.dev) for an unofficial proper API. If using `full.json`, it can be accessed from https://db.universal-team.net/data/full.json.
