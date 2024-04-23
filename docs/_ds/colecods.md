@@ -12,17 +12,17 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1405440
+    size: 1406976
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.7/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.8/ColecoDS.nds
   README.md:
-    size: 51361
+    size: 52215
     size_str: 50 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.7/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.8/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.7/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.8/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -34,30 +34,26 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V9.7: 16-Apr-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V9.8: 23-Apr-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Fixed Colecovision RAM mirrors such that Boulderdash runs properly.</li>
+  <li>Cleanup of MSX BIOS handling - we now support the Panasonic CF-2700 directly.
+  See MSX BIOS section for details.</li>
 
-  <li>The Heist now forces RAM to clear (all zeros) as it is known to be picky about
-  contents of RAM on power up.</li>
+  <li>MSX status line now shows RAM (based on machine chosen) on the status line (was
+  previously showing ROM size which no other machine in ColecoDS did).</li>
 
-  <li>Fix EEPROM sequential reads so Activision PCB games like Jewel Panic work correctly.</li>
+  <li>MSX Caps Lock now has LED indicator on the virtual keyboard.</li>
 
-  <li>Added the Wildcard and Print buttons on the virtual ADAM keyboard. All ADAM
-  virtual keys should now be present.</li>
+  <li>Added ROM/CAS/DSK size and CRC32 on the main screen after choosing a game.</li>
 
-  <li>Added new configuration options to select the Colecovision mode to run in -
-  you can force ADAM emulation, force PCB types, and set EEPROM sizes, etc.</li>
+  <li>Numerous fixes for Save/Load states especially for the MSX and Einstein.</li>
 
-  <li>New global option to force ADAM mode, SGM can be Disabled, and BIOS auto-patch
-  for ''Fast BIOS'' to force the 15 second wait down to 3 seconds.</li>
-
-  <li>Minor cleanup and optimizations to the Adam core.</li>
+  <li>Improved memory handling to free up some DS resources for future expansion.</li>
 
   </ul>'
-updated: '2024-04-16T10:28:58Z'
-version: '9.7'
-version_title: Version 9.7
+updated: '2024-04-23T11:19:17Z'
+version: '9.8'
+version_title: Version 9.8
 ---
