@@ -104,15 +104,25 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   Cursor now moves smoothly in DS Classic Menu! (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2394"
   data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2394/hovercard">#2394</a>)</li>
 
-  <li>ESRB splash screen (disabled by default) now appears when launching a DS(i)
-  game with the R4 or GBC theme!</li>
-
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/spellboundtriangle/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/spellboundtriangle">@spellboundtriangle</a>:
   Added widescreen support for <em>CTGP Nitro</em> v1.1.0.</li>
 
   <li>When a Guru Mediation Error occurs, the master brightness is now cleared, in
   case if an error occurs with the screens fully white or black.</li>
+
+  <li>Various: Updated translations.</li>
+
+  </ul>
+
+  <h3 dir="auto">Bug fixes</h3>
+
+  <ul dir="auto">
+
+  <li>ESRB splash screen (disabled by default) now appears when launching a DS(i)
+  game with the R4 or GBC theme!</li>
+
+  <li>Fixed game-skipping count when pressing Left/Right in the R4 or GBC theme.</li>
 
   </ul>'
 updated: '2024-04-23T02:11:30Z'
