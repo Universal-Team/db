@@ -65,7 +65,7 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <p dir="auto">As Earth Day is where we keep the earth green, this <strong>TW</strong>i<strong>L</strong>ight
+  <p dir="auto">As Earth Day is where we celebrate a green earth, this <strong>TW</strong>i<strong>L</strong>ight
   Menu++ release aims to also be green, with a clean-looking R4 (and maybe GBC) theme!</p>
 
   <h3 dir="auto">What''s new?</h3>
