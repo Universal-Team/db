@@ -1,6 +1,6 @@
 ---
 author: Steveice10
-avatar: https://avatars.githubusercontent.com/u/37358975?v=4
+avatar: https://avatars.githubusercontent.com/u/38025742?v=4
 categories:
 - utility
 color: '#c0d0ff'
@@ -12,15 +12,15 @@ downloads:
   FBI.3dsx:
     size: 1185720
     size_str: 1 MiB
-    url: https://github.com/lifehackerhansol/FBI/releases/download/2.6.1/FBI.3dsx
+    url: https://github.com/nh-server/FBI/releases/download/2.6.1/FBI.3dsx
   FBI.cia:
     size: 1192896
     size_str: 1 MiB
-    url: https://github.com/lifehackerhansol/FBI/releases/download/2.6.1/FBI.cia
+    url: https://github.com/nh-server/FBI/releases/download/2.6.1/FBI.cia
   FBI.zip:
     size: 4228271
     size_str: 4 MiB
-    url: https://github.com/lifehackerhansol/FBI/releases/download/2.6.1/FBI.zip
+    url: https://github.com/nh-server/FBI/releases/download/2.6.1/FBI.zip
 github: lifehackerhansol/FBI
 icon: https://raw.githubusercontent.com/lifehackerhansol/FBI/master/meta/icon_3ds.png
 image: https://raw.githubusercontent.com/lifehackerhansol/FBI/master/romfs/logo.png
@@ -37,14 +37,13 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/fbi/qr-scanner.png
 - description: Sd list
   url: https://db.universal-team.net/assets/images/screenshots/fbi/sd-list.png
-source: https://github.com/lifehackerhansol/FBI
+source: https://github.com/nh-server/FBI
 systems:
 - 3DS
 title: FBI
 unique_ids:
 - '0xF8001'
-update_notes: <p dir="auto">This release is a backup of the original FBI repository's
-  2.6.1 release.</p>
+update_notes: <p>This release is a backup of the original FBI repository's 2.6.1 release.</p>
 updated: '2021-05-18T05:59:19Z'
 version: 2.6.1
 version_title: Release 2.6.1
