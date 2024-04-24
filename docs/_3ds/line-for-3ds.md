@@ -47,7 +47,7 @@ update_notes: '<p dir="auto"><strong>Just fixed deadlink in SETUP.md and no soft
   <li>Significant changes for internal code, so you need to setup your Google Apps
   Script again.</li>
 
-  <li><a href="https://github.com/Core-2-Extreme/Line_for_3DS/blob/v2.0.0/SETUP.md">Setup
+  <li><a href="https://github.com/Core-2-Extreme/Line_for_3DS/blob/v2.0.0.1/SETUP.md">Setup
   instructions</a> are updated.</li>
 
   <li>3DS
