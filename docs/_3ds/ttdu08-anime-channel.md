@@ -7,7 +7,7 @@ categories:
 color: '#748790'
 color_bg: '#677880'
 created: '2023-11-11T13:29:36Z'
-description: Recréation d'un serveur pour Nintendo Anime Channel
+description: Nintendo Anime Channel revival server
 download_page: https://github.com/ttdu08off/Nintendo-Anime-Channel-Revival/releases
 downloads:
   ttdu08AnimeChannel_patchs_1.1.zip:
