@@ -14,7 +14,7 @@ downloads:
     size_str: 41 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.1/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 43191168
+    size: 43191186
     size_str: 41 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.1/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
@@ -22,7 +22,7 @@ downloads:
     size_str: 51 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.1/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 54348074
+    size: 54348099
     size_str: 51 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.1/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
