@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 42951560
-    size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.0/TWiLightMenu-3DS.7z
-  TWiLightMenu-DSi.7z:
-    size: 43047796
+    size: 43111930
     size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.0/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.1/TWiLightMenu-3DS.7z
+  TWiLightMenu-DSi.7z:
+    size: 43191168
+    size_str: 41 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.1/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 53940106
+    size: 54085332
     size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.1/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 54197640
+    size: 54348074
     size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.0/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.1/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -48,10 +48,7 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.5.0">nds-bootstrap
-  v1.5.0</a></p>
-
-  <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
 
   <ul dir="auto">
@@ -65,35 +62,31 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <p dir="auto">As Earth Day is where we celebrate a green earth, this <strong>TW</strong>i<strong>L</strong>ight
-  Menu++ release aims to also be green, with a clean-looking R4 (and maybe GBC) theme!</p>
-
   <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Top screen of the R4 and GBC themes now uses the same font as the bottom screen!</li>
-
-  <li>Cursor in the R4 and GBC themes, as well as the Settings menu, has been replaced
-  with highlighted text of your favorite color!
+  <li><strong>DSi-based themes:</strong> On DS flashcards, large cheat lists no longer
+  cause a crash. To achieve this:
 
   <ul dir="auto">
 
-  <li>Does not affect the SEGA Saturn-themed settings menu.</li>
+  <li>SFX is now unloaded when opening the cheat menu.</li>
+
+  <li>The complete font is no longer loaded, and instead will load font tiles into
+  an LRU cache.</li>
 
   </ul>
 
   </li>
 
-  <li>Like the original R4 menu, selecting the music icon in the R4 theme now boots
-  Moonshell!
+  <li>Due to the above feature freeing up plenty of RAM space, the DSi-type fonts
+  will now be loaded on all consoles instead of the DS-type fonts.
 
   <ul dir="auto">
 
-  <li>Install your preferred Moonshell version, then place <code class="notranslate">_moonshl.nds</code>
-  on the SD root.</li>
-
-  <li>Moonshell will run with TWL clock speed on DSi or 3DS consoles.</li>
+  <li>If you''re creating a custom font, you now just need <code class="notranslate">large.nftr</code>
+  and/or <code class="notranslate">small.nftr</code>.</li>
 
   </ul>
 
@@ -101,17 +94,8 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mentusfentus/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mentusfentus">@mentusfentus</a>:
-  Cursor now moves smoothly in DS Classic Menu! (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2394"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2394/hovercard">#2394</a>)</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/spellboundtriangle/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/spellboundtriangle">@spellboundtriangle</a>:
-  Added widescreen support for <em>CTGP Nitro</em> v1.1.0.</li>
-
-  <li>When a Guru Mediation Error occurs, the master brightness is now cleared, in
-  case if an error occurs with the screens fully white or black.</li>
-
-  <li>Various: Updated translations.</li>
+  Page switch SFX now pans left and right. (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2396"
+  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2396/hovercard">#2396</a>)</li>
 
   </ul>
 
@@ -119,15 +103,16 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>ESRB splash screen (disabled by default) now appears when launching a DS(i)
-  game with the R4 or GBC theme!</li>
+  <li>Some weird bugs have appeared since v26.9.0 due to enabling LTO. To fix them,
+  LTO has been disabled in areas where the bugs have occurred.</li>
 
-  <li>Fixed game-skipping count when pressing Left/Right in the R4 or GBC theme.</li>
+  <li>Fixed an overlooked bug where the R4 and GBC themes would appear with a blank
+  ROM list if the page number (for DSi-based themes) is not the first.</li>
 
   </ul>'
-updated: '2024-04-23T02:11:30Z'
-version: v27.1.0
-version_title: 'v27.1.0: Earth Day Release'
+updated: '2024-04-26T06:03:09Z'
+version: v27.1.1
+version_title: v27.1.1
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
