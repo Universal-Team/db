@@ -10,19 +10,19 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 43174381
+    size: 43173760
     size_str: 41 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.2/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 43254354
+    size: 43252150
     size_str: 41 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.2/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 54144989
+    size: 54146012
     size_str: 51 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.2/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 54411035
+    size: 54411871
     size_str: 51 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.2/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
@@ -87,7 +87,7 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
   and/or region select screens would appear. (A common bug for first-time users.)</li>
 
   </ul>'
-updated: '2024-04-27T01:13:31Z'
+updated: '2024-04-27T01:49:34Z'
 version: v27.1.2
 version_title: v27.1.2 (hotfix)
 website: https://wiki.ds-homebrew.com/twilightmenu/
