@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 43111930
+    size: 43174381
     size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.1/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.2/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 43191186
+    size: 43254354
     size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.1/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.2/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 54085332
+    size: 54144989
     size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.1/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.2/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 54348099
+    size: 54411035
     size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.1/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.1.2/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -66,53 +66,30 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <ul dir="auto">
 
-  <li><strong>DSi-based themes:</strong> On DS flashcards, large cheat lists no longer
-  cause a crash. To achieve this:
+  <li>MBK settings from the DSi header of homebrew ROMs will now be set. Should fix
+  support for such ROMs that may happen to use differing and/or odd settings.
 
   <ul dir="auto">
 
-  <li>SFX is now unloaded when opening the cheat menu.</li>
-
-  <li>The complete font is no longer loaded, and instead will load font tiles into
-  an LRU cache.</li>
+  <li>Does not apply to DSiWarehax and/or CycloDS iEvolution users.</li>
 
   </ul>
 
   </li>
 
-  <li>Due to the above feature freeing up plenty of RAM space, the DSi-type fonts
-  will now be loaded on all consoles instead of the DS-type fonts.
+  </ul>
+
+  <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>If you''re creating a custom font, you now just need <code class="notranslate">large.nftr</code>
-  and/or <code class="notranslate">small.nftr</code>.</li>
-
-  </ul>
-
-  </li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mentusfentus/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mentusfentus">@mentusfentus</a>:
-  Page switch SFX now pans left and right. (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2396"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2396/hovercard">#2396</a>)</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
-
-  <ul dir="auto">
-
-  <li>Some weird bugs have appeared since v26.9.0 due to enabling LTO. To fix them,
-  LTO has been disabled in areas where the bugs have occurred.</li>
-
-  <li>Fixed an overlooked bug where the R4 and GBC themes would appear with a blank
-  ROM list if the page number (for DSi-based themes) is not the first.</li>
+  <li>Fixed an overlooked bug which caused a white screen crash when the language
+  and/or region select screens would appear. (A common bug for first-time users.)</li>
 
   </ul>'
-updated: '2024-04-26T06:03:09Z'
-version: v27.1.1
-version_title: v27.1.1
+updated: '2024-04-27T01:13:31Z'
+version: v27.1.2
+version_title: v27.1.2 (hotfix)
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
