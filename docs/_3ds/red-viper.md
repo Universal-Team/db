@@ -40,8 +40,8 @@ title: red-viper
 unique_ids:
 - '0xFE7CB'
 update_notes: '<p dir="auto">This release features savestate support, as well as a
-  new splash screen. There are 10 savestate slots, and the savestates are stored in
-  a "red-viper" directory on the root of your SD card.</p>
+  new splash screen. There are 10 savestate slots per game, and the savestates are
+  stored in a "red-viper" directory on the root of your SD card.</p>
 
   <ul dir="auto">
 
