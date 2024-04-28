@@ -10,13 +10,13 @@ description: A Virtual Boy emulator for the 3DS
 download_page: https://github.com/skyfloogle/red-viper/releases
 downloads:
   red-viper.3dsx:
-    size: 442880
-    size_str: 432 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v0.9.3/red-viper.3dsx
+    size: 464924
+    size_str: 454 KiB
+    url: https://github.com/skyfloogle/red-viper/releases/download/v0.9.4/red-viper.3dsx
   red-viper.cia:
-    size: 529856
-    size_str: 517 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v0.9.3/red-viper.cia
+    size: 548800
+    size_str: 535 KiB
+    url: https://github.com/skyfloogle/red-viper/releases/download/v0.9.4/red-viper.cia
 github: skyfloogle/red-viper
 icon: https://raw.githubusercontent.com/skyfloogle/red-viper/master/icon.png
 image: https://raw.githubusercontent.com/skyfloogle/red-viper/master/resources/banner.png
@@ -39,43 +39,31 @@ systems:
 title: red-viper
 unique_ids:
 - '0xFE7CB'
-update_notes: '<p dir="auto">This release features much smoother gameplay, partially
-  thanks to running the 3DS displays at 50Hz! Also includes a number of compatibility
-  improvements, especially with homebrew.</p>
+update_notes: '<p dir="auto">This release features savestate support, as well as a
+  new splash screen. There are 10 savestate slots, and the savestates are stored in
+  a "red-viper" directory on the root of your SD card.</p>
 
   <ul dir="auto">
 
-  <li>Run 3DS displays at 50Hz (thanks to everyone in <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="2178306727" data-permission-text="Title
-  is private" data-url="https://github.com/skyfloogle/red-viper/issues/46" data-hovercard-type="issue"
-  data-hovercard-url="/skyfloogle/red-viper/issues/46/hovercard" href="https://github.com/skyfloogle/red-viper/issues/46">#46</a>
-  who knows much more about this than I do!)</li>
+  <li>Added savestates (<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="2232649440" data-permission-text="Title is private" data-url="https://github.com/skyfloogle/red-viper/issues/59"
+  data-hovercard-type="pull_request" data-hovercard-url="/skyfloogle/red-viper/pull/59/hovercard"
+  href="https://github.com/skyfloogle/red-viper/pull/59">#59</a>)</li>
 
-  <li>Improve frame pacing by rendering on VBlank</li>
+  <li>New splash screen by Morintari</li>
 
-  <li>The image is now displayed in full 24-bit colour</li>
+  <li>Added a fallback interpreter when executing code from RAM to fix Formula V</li>
 
-  <li>Various renderer optimizations, significantly improving performance in Elevated
-  Speed</li>
+  <li>Fixed the reset button on the touchscreen config turning off the touchscreen</li>
 
-  <li>Improved audio clarity</li>
+  <li>Fixed the default file select cursor being offset in folders with subfolders</li>
 
-  <li>Fixed issues with various sound effects in Wario Land</li>
-
-  <li>Fixed compatibility hack for Virtual Lab''s English patch</li>
-
-  <li>Improved performance in Nester''s Funky Bowling</li>
-
-  <li>Compatibility fixes for lots of homebrew</li>
-
-  <li>Add a confirmation prompt to Reset and Quit menu options</li>
-
-  <li>Game progress is now saved when entering sleep mode</li>
+  <li>Added toggle for New 3DS speedup</li>
 
   </ul>'
-updated: '2024-04-10T18:18:19Z'
-version: v0.9.3
-version_title: v0.9.3
+updated: '2024-04-28T18:12:28Z'
+version: v0.9.4
+version_title: v0.9.4
 wiki: https://github.com/skyfloogle/red-viper/wiki
 ---
 A Virtual Boy emulator for the 3DS. All official games are playable at full speed.
