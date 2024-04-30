@@ -9,10 +9,10 @@ created: '2021-05-18T19:23:58Z'
 description: NDS/3DS fork/port of the uxn/Varvara virtual machine
 download_page: https://github.com/asiekierka/uxnds/releases
 downloads:
-  uxnds049.zip:
-    size: 514395
-    size_str: 502 KiB
-    url: https://github.com/asiekierka/uxnds/releases/download/v0.4.9/uxnds049.zip
+  uxnds0410.zip:
+    size: 520811
+    size_str: 508 KiB
+    url: https://github.com/asiekierka/uxnds/releases/download/v0.4.10/uxnds0410.zip
 github: asiekierka/uxnds
 icon: https://raw.githubusercontent.com/asiekierka/uxnds/main/misc/uxn48.png
 image: https://raw.githubusercontent.com/asiekierka/uxnds/main/misc/uxn48.png
@@ -27,13 +27,21 @@ systems:
 title: uxnds
 update_notes: '<ul dir="auto">
 
-  <li><em>Actually</em> add support for placing the "uxn" folder alongside the .3dsx/.nds
-  file.</li>
+  <li>[NDS] Fix drawing sprites with negative coordinates</li>
+
+  <li>[NDS] Update BlocksDS toolchain</li>
+
+  <li>Add support for <code class="notranslate">system/expansion</code> commands <code
+  class="notranslate">0x00</code> and <code class="notranslate">0x02</code></li>
+
+  <li>Update <code class="notranslate">file</code> device implementation</li>
+
+  <li>Update bundled programs</li>
 
   </ul>'
-updated: '2023-12-16T18:49:00Z'
-version: v0.4.9
-version_title: uxnds 0.4.9
+updated: '2024-04-30T16:12:02Z'
+version: v0.4.10
+version_title: uxnds 0.4.10
 website: https://100r.co/site/uxn.html
 wiki: https://wiki.xxiivv.com/site/uxn.html
 ---

@@ -1,5 +1,5 @@
 ---
-author: phijor
+author: Philipp Joram
 autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/10487782?v=4
 categories:
