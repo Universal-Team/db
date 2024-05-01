@@ -10,21 +10,21 @@ description: A Nintendo Zone Revival for the 3DS.
 download_page: https://github.com/MegaPika/SatellaZone/releases
 downloads:
   LocalSatellaZone.zip:
-    size: 237251762
+    size: 237414380
     size_str: 226 MiB
-    url: https://github.com/Aftendo/SatellaZone/releases/download/2.2/LocalSatellaZone.zip
+    url: https://github.com/Aftendo/SatellaZone/releases/download/2.2.1/LocalSatellaZone.zip
   LocalSatellaZoneHQ.zip:
-    size: 440922388
+    size: 441085006
     size_str: 420 MiB
-    url: https://github.com/Aftendo/SatellaZone/releases/download/2.2/LocalSatellaZoneHQ.zip
+    url: https://github.com/Aftendo/SatellaZone/releases/download/2.2.1/LocalSatellaZoneHQ.zip
   SatellaZone.zip:
-    size: 10742598
+    size: 10905216
     size_str: 10 MiB
-    url: https://github.com/Aftendo/SatellaZone/releases/download/2.2/SatellaZone.zip
+    url: https://github.com/Aftendo/SatellaZone/releases/download/2.2.1/SatellaZone.zip
   UsaPatch.zip:
     size: 672
     size_str: 672 Bytes
-    url: https://github.com/Aftendo/SatellaZone/releases/download/2.2/UsaPatch.zip
+    url: https://github.com/Aftendo/SatellaZone/releases/download/2.2.1/UsaPatch.zip
 github: MegaPika/SatellaZone
 icon: https://db.universal-team.net/assets/images/icons/satellazone.png
 image: https://db.universal-team.net/assets/images/icons/satellazone.png
@@ -36,26 +36,21 @@ source: https://github.com/Aftendo/SatellaZone
 systems:
 - 3DS
 title: SatellaZone
-update_notes: '<h1>2.2 is out!</h1>
+update_notes: '<ul>
 
-  <h2>That took a while, a lot changed such as:</h2>
+  <li>Added Pokémon news, you can view them from Macdonald''s zone</li>
 
-  <ul>
+  <li>Added 2 ACNL events pages</li>
 
-  <li>Redesigned pages</li>
-
-  <li>Added new content</li>
-
-  <li>Check yourself to figure out what!</li>
+  <li>Removed discontinued 3DS Community Online Revival event. Thanks to everyone
+  who participated!</li>
 
   </ul>
 
-  <h2>Installation instructions</h2>
-
-  <p>Everything is written on the readme: <a href="https://github.com/MegaPika/SatellaZone#readme">https://github.com/MegaPika/SatellaZone#readme</a></p>'
-updated: '2024-03-07T20:13:34Z'
-version: '2.2'
-version_title: Check Steam
+  <p>Special thanks to DarkChicken for the new content!</p>'
+updated: '2024-05-01T15:19:30Z'
+version: 2.2.1
+version_title: New contents
 website: https://satellazone.neocities.org/
 ---
 SatellaZone is a 3DS Nintendo Zone Revival patch that allows you to access archives from different stores and restaurants such as Best Buy, AT&T, McDonalds, and more!
