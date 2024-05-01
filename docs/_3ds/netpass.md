@@ -27,12 +27,15 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <ul data-sourcepos="1:2-4:42" dir="auto">&#x000A;<li data-sourcepos="1:2-1:79">Automatic
-  collection of anonymous data on yet undiscovered streetpass things</li>&#x000A;<li
-  data-sourcepos="2:2-2:51">Options to delete and download all personal data</li>&#x000A;<li
-  data-sourcepos="3:2-3:49">preparation for switch from macs to unique ids</li>&#x000A;<li
-  data-sourcepos="4:2-4:42">interface to allow messaging the client</li>&#x000A;</ul>
-updated: '2024-05-01T15:08:29.519Z'
+update_notes: <ul data-sourcepos="1:2-4:42" dir="auto">&#x000A;<li data-sourcepos="1:2-1:272">Automatic
+  aggregation on undiscovered streetpass data. This is so that soru can reverse-engineer
+  streetpass bettr. This is not tied to any console at all. The only thing collected
+  are a title_id, the name of the title and the reason why the unkown-detecter got
+  tripped.</li>&#x000A;<li data-sourcepos="2:2-2:51">Options to delete and download
+  all personal data</li>&#x000A;<li data-sourcepos="3:2-3:49">preparation for switch
+  from macs to unique ids</li>&#x000A;<li data-sourcepos="4:2-4:42">interface to allow
+  messaging the client</li>&#x000A;</ul>
+updated: '2024-05-01T15:08:29.000Z'
 version: v0.2.3
 version_title: v0.2.3
 ---
