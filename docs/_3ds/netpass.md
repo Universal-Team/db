@@ -8,13 +8,13 @@ description: A new way to experience StreetPass
 download_page: https://gitlab.com/Sorunome/3ds-streetpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 1091016
+    size: 1092216
     size_str: 1 MiB
-    url: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/63396252cfbe572a220eeec794062b9c16772c63/netpass.3dsx?inline=false
+    url: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/63c83ef8173f4064151a41f7edbc4c4d69715318/netpass.3dsx?inline=false
   netpass.cia:
-    size: 1205184
+    size: 1274816
     size_str: 1 MiB
-    url: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/63396252cfbe572a220eeec794062b9c16772c63/netpass.cia?inline=false
+    url: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/63c83ef8173f4064151a41f7edbc4c4d69715318/netpass.cia?inline=false
 gitlab: Sorunome/3ds-streetpass
 icon: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/icon.png
 image: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/icon.png
@@ -27,9 +27,12 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <p data-sourcepos="1:1-1:63" dir="auto">hopefully fix the random crashes
-  on startup for animal crossing</p>
-updated: '2024-05-01T19:52:42.000Z'
-version: v0.2.4
-version_title: v0.2.4
+update_notes: <ul data-sourcepos="1:2-4:58" dir="auto">&#x000A;<li data-sourcepos="1:2-1:44">Hopefully
+  fix the crashes on DL'ing inbox</li>&#x000A;<li data-sourcepos="2:2-2:50">Nicer
+  server-side autodetect of version upgrade</li>&#x000A;<li data-sourcepos="3:2-3:13">new
+  jingle</li>&#x000A;<li data-sourcepos="4:2-4:58">hopefully fix title names not always
+  being 0-terminated</li>&#x000A;</ul>
+updated: '2024-05-02T14:47:16.234Z'
+version: v0.2.5
+version_title: v0.2.5
 ---
