@@ -12,17 +12,17 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1406976
+    size: 1438720
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.8/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.9/ColecoDS.nds
   README.md:
-    size: 52215
-    size_str: 50 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.8/README.md
+    size: 52568
+    size_str: 51 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.9/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.8/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.9/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -34,26 +34,21 @@ source: https://github.com/wavemotion-dave/ColecoDS
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V9.8: 23-Apr-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V9.9: 02-May-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Cleanup of MSX BIOS handling - we now support the Panasonic CF-2700 directly.
-  See MSX BIOS section for details.</li>
+  <li>Added overlays for Blackjack and War Room. Improved War Games overlay.</li>
 
-  <li>MSX status line now shows RAM (based on machine chosen) on the status line (was
-  previously showing ROM size which no other machine in ColecoDS did).</li>
+  <li>Added KANA lock LED indicator for Japanese MSX keyboard layouts.</li>
 
-  <li>MSX Caps Lock now has LED indicator on the virtual keyboard.</li>
+  <li>Correctly read-back the PPG Port B (needed to make the KANA lock work but is
+  more accurate overall).</li>
 
-  <li>Added ROM/CAS/DSK size and CRC32 on the main screen after choosing a game.</li>
-
-  <li>Numerous fixes for Save/Load states especially for the MSX and Einstein.</li>
-
-  <li>Improved memory handling to free up some DS resources for future expansion.</li>
+  <li>Improvements to various Coleco PCB types for more accurate emulation.</li>
 
   </ul>'
-updated: '2024-04-23T11:19:17Z'
-version: '9.8'
-version_title: Version 9.8
+updated: '2024-05-02T10:50:35Z'
+version: '9.9'
+version_title: Version 9.9
 ---
