@@ -3,8 +3,8 @@ author: FlameTheGamer
 avatar: https://avatars.githubusercontent.com/u/137841349?v=4
 categories:
 - game
-color: '#e54646'
-color_bg: '#802727'
+color: '#aa866c'
+color_bg: '#806551'
 created: '2023-09-21T00:00:00Z'
 description: A very short Generation 1 style Pokémon Fangame made with GB Studio and
   New Super Ultimate Injector.
@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/The4thPlayer/Pokemon-Purple/releases/download/Release/GAME.BOY.RELEASE.gb
 github: The4thPlayer/Pokemon-Purple
 image: https://avatars.githubusercontent.com/u/137841349?v=4&size=128
-image_length: 8854
+image_length: 3506
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
