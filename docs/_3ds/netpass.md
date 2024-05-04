@@ -3,6 +3,8 @@ author: Sorunome
 avatar: https://gitlab.com/uploads/-/system/project/avatar/56839786/icon.png
 categories:
 - utility
+color: '#a6e7ba'
+color_bg: '#5c8067'
 created: '2024-04-14T17:00:40.939Z'
 description: A new way to experience StreetPass
 download_page: https://gitlab.com/Sorunome/3ds-streetpass/-/releases
@@ -18,6 +20,7 @@ downloads:
 gitlab: Sorunome/3ds-streetpass
 icon: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/icon.png
 image: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/icon.png
+image_length: 419284
 layout: app
 qr:
   netpass.cia: https://db.universal-team.net/assets/images/qr/netpass-cia.png
