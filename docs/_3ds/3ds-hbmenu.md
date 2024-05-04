@@ -9,10 +9,10 @@ created: '2017-06-05T00:05:27Z'
 description: 'The 3DS Homebrew Menu (∩ ͡° ͜ʖ ͡°)⊃━☆ﾟ '
 download_page: https://github.com/fincs/new-hbmenu/releases
 downloads:
-  3ds-hbmenu-2.4.2.zip:
-    size: 328856
-    size_str: 321 KiB
-    url: https://github.com/devkitPro/3ds-hbmenu/releases/download/v2.4.2/3ds-hbmenu-2.4.2.zip
+  3ds-hbmenu-v2.4.3.zip:
+    size: 333338
+    size_str: 325 KiB
+    url: https://github.com/devkitPro/3ds-hbmenu/releases/download/v2.4.3/3ds-hbmenu-v2.4.3.zip
 github: fincs/new-hbmenu
 icon: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
 image: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
@@ -24,14 +24,11 @@ systems:
 title: 3ds-hbmenu
 update_notes: '<ul>
 
-  <li>Rebuilt with latest libs</li>
-
-  <li>Set config path to config/3ds-hbmenu</li>
-
-  <li>Bundle with config/ssl/cacert.pem for libcurl</li>
+  <li>Further improvements to overall system stability and other minor adjustments
+  have been made to enhance the user experience.</li>
 
   </ul>'
-updated: '2023-11-06T22:28:46Z'
-version: v2.4.2
-version_title: 3ds hbmenu 2.4.2
+updated: '2024-05-03T19:18:09Z'
+version: v2.4.3
+version_title: 3DS Homebrew Menu v2.4.3
 ---
