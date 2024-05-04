@@ -10,13 +10,13 @@ description: A new way to experience StreetPass
 download_page: https://gitlab.com/Sorunome/3ds-streetpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 1092216
+    size: 1100608
     size_str: 1 MiB
-    url: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/63c83ef8173f4064151a41f7edbc4c4d69715318/netpass.3dsx?inline=false
+    url: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/d51d65a736e679c93354b9c8da0d23646fef3acd/netpass.3dsx?inline=false
   netpass.cia:
-    size: 1274816
+    size: 2036672
     size_str: 1 MiB
-    url: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/63c83ef8173f4064151a41f7edbc4c4d69715318/netpass.cia?inline=false
+    url: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/d51d65a736e679c93354b9c8da0d23646fef3acd/netpass.cia?inline=false
 gitlab: Sorunome/3ds-streetpass
 icon: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/icon.png
 image: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/icon.png
@@ -30,12 +30,11 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <ul data-sourcepos="1:2-4:58" dir="auto">&#x000A;<li data-sourcepos="1:2-1:44">Hopefully
-  fix the crashes on DL'ing inbox</li>&#x000A;<li data-sourcepos="2:2-2:50">Nicer
-  server-side autodetect of version upgrade</li>&#x000A;<li data-sourcepos="3:2-3:13">new
-  jingle</li>&#x000A;<li data-sourcepos="4:2-4:58">hopefully fix title names not always
-  being 0-terminated</li>&#x000A;</ul>
-updated: '2024-05-02T14:47:16.234Z'
-version: v0.2.5
-version_title: v0.2.5
+update_notes: <ul data-sourcepos="1:2-4:18" dir="auto">&#x000A;<li data-sourcepos="1:2-1:20">More
+  translations</li>&#x000A;<li data-sourcepos="2:2-2:17">More locations</li>&#x000A;<li
+  data-sourcepos="3:2-3:43">Can't enter same location twice in a row</li>&#x000A;<li
+  data-sourcepos="4:2-4:18">stability fixes</li>&#x000A;</ul>
+updated: '2024-05-04T21:18:10.411Z'
+version: v0.3.0
+version_title: v0.3.0
 ---
