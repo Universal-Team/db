@@ -4407,7 +4407,7 @@
 				{
 					"type": "downloadRelease",
 					"repo": "ApacheThunder/NTR_Launcher",
-					"file": "NTR_Launcher_.*\\.zip",
+					"file": "NTR_Launcher.zip",
 					"output": "/NTR_Launcher.zip"
 				},
 				{
@@ -4419,8 +4419,8 @@
 				{
 					"type": "extractFile",
 					"file": "/NTR_Launcher.zip",
-					"input": "NDS/NTR_Launcher.ini",
-					"output": "/NDS/NTR_Launcher.ini"
+					"input": "NTR_Launcher/NTR_Launcher.ini",
+					"output": "/NTR_Launcher/NTR_Launcher.ini"
 				},
 				{
 					"type": "installCia",
@@ -4439,7 +4439,7 @@
 				{
 					"type": "downloadRelease",
 					"repo": "ApacheThunder/NTR_Launcher",
-					"file": "NTR_Launcher_.*\\.zip",
+					"file": "NTR_Launcher.zip",
 					"output": "/NTR_Launcher.zip"
 				},
 				{
@@ -4451,8 +4451,8 @@
 				{
 					"type": "extractFile",
 					"file": "/NTR_Launcher.zip",
-					"input": "NDS/NTR_Launcher.ini",
-					"output": "/NDS/NTR_Launcher.ini"
+					"input": "NTR_Launcher/NTR_Launcher.ini",
+					"output": "/NTR_Launcher/NTR_Launcher.ini"
 				},
 				{
 					"type": "deleteFile",
