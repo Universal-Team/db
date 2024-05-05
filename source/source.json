@@ -4419,8 +4419,8 @@
 				{
 					"type": "extractFile",
 					"file": "/NTR_Launcher.zip",
-					"input": "NTR_Launcher/NTR_Launcher.ini",
-					"output": "/NTR_Launcher/NTR_Launcher.ini"
+					"input": "NTR_Launcher",
+					"output": "/NTR_Launcher"
 				},
 				{
 					"type": "installCia",
