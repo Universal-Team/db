@@ -8,7 +8,7 @@ categories:
 color: '#aea591'
 color_bg: '#80796a'
 created: '2021-05-15T18:53:42Z'
-description: '"Firmware personalizado" para (N)3DS a prueba de novatos'
+description: '"Custom Firmware" para Nintendo 3DS'
 download_page: https://github.com/LopezTutoriales/Luma3DS-Spanish/releases
 downloads:
   Luma3DSv13.0.2_ESP.zip:
