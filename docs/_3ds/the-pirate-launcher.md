@@ -10,18 +10,22 @@ description: The Pirate Launcher joke from the Wii, now on 3ds! Also provides de
   features
 download_page: https://github.com/cooolgamer/the-pirate-launcher/releases
 downloads:
+  3ds-hbmenu-v2.4.2-debug-0861821.zip:
+    size: 335311
+    size_str: 327 KiB
+    url: https://github.com/cooolgamer/the-pirate-launcher/releases/download/v2.4.3/3ds-hbmenu-v2.4.2-debug-0861821.zip
   boot.3dsx:
-    size: 385552
+    size: 385772
     size_str: 376 KiB
-    url: https://github.com/cooolgamer/the-pirate-launcher/releases/download/2.4.2-stable/boot.3dsx
+    url: https://github.com/cooolgamer/the-pirate-launcher/releases/download/v2.4.3/boot.3dsx
   config.zip:
-    size: 125733
-    size_str: 122 KiB
-    url: https://github.com/cooolgamer/the-pirate-launcher/releases/download/2.4.2-stable/config.zip
+    size: 129924
+    size_str: 126 KiB
+    url: https://github.com/cooolgamer/the-pirate-launcher/releases/download/v2.4.3/config.zip
   pirate_launcher-release.zip:
-    size: 1124868
+    size: 1131484
     size_str: 1 MiB
-    url: https://github.com/cooolgamer/the-pirate-launcher/releases/download/2.4.2-stable/pirate_launcher-release.zip
+    url: https://github.com/cooolgamer/the-pirate-launcher/releases/download/v2.4.3/pirate_launcher-release.zip
 github: cooolgamer/the-pirate-launcher
 icon: https://raw.githubusercontent.com/Alexyo21/the-pirate-launcher/master/icon.png
 image: https://raw.githubusercontent.com/Alexyo21/the-pirate-launcher/master/icon.png
@@ -31,14 +35,10 @@ source: https://github.com/cooolgamer/the-pirate-launcher
 systems:
 - 3DS
 title: The Pirate Launcher
-update_notes: '<p dir="auto">i added a feature thanks to @selesdream that will make
-  you test homebrew quicker though you a custom fork of luma to complete the enviroment.
-  also added config folder with cert</p>
+update_notes: '<p dir="auto">fetched latest commits and added build ci</p>
 
-  <p dir="auto">it will work even as vanilla one...</p>
-
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/cooolgamer/the-pirate-launcher/compare/2.4.2...2.4.2-stable"><tt>2.4.2...2.4.2-stable</tt></a></p>'
-updated: '2023-11-26T02:15:20Z'
-version: 2.4.2-stable
-version_title: added debug feature to test homebrew quickly
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/cooolgamer/the-pirate-launcher/compare/v2.4.3...v2.4.3"><tt>v2.4.3...v2.4.3</tt></a></p>'
+updated: '2024-05-05T04:42:20Z'
+version: v2.4.3
+version_title: update to  release 2.4.3
 ---
