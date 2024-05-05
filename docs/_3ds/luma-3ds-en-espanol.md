@@ -11,10 +11,10 @@ created: '2021-05-15T18:53:42Z'
 description: '"Custom Firmware" para Nintendo 3DS'
 download_page: https://github.com/LopezTutoriales/Luma3DS-Spanish/releases
 downloads:
-  Luma3DSv13.0.2_ESP.zip:
-    size: 420487
-    size_str: 410 KiB
-    url: https://github.com/LopezTutoriales/Luma3DS-Spanish/releases/download/v13.0.2/Luma3DSv13.0.2_ESP.zip
+  Luma3DSv13.1_ESP.zip:
+    size: 537785
+    size_str: 525 KiB
+    url: https://github.com/LopezTutoriales/Luma3DS-Spanish/releases/download/v13.1/Luma3DSv13.1_ESP.zip
 github: LopezTutoriales/Luma3DS-Spanish
 image: https://avatars.githubusercontent.com/u/5817696?v=4&size=128
 image_length: 26161
@@ -27,39 +27,48 @@ systems:
 title: Luma 3DS En Español
 update_notes: '<ul dir="auto">
 
-  <li>Arreglado arranque de versiones antiguas de sistema (4.X a 8.X) que desde Luma
-  13 no iniciaban
+  <li>Agregada funcion de activar/desactivar control de volumen fisico
 
   <ul dir="auto">
 
-  <li>En 4.X, se han deshabilitado los sysmodules personalizados. Esto quiere decir
-  que no tendrás menú Rosalina ni región free; Si estas en una de estas versiones,
-  por favor actualiza a la última versión de sistema después de instalar Luma3DS.</li>
+  <li>Actualmente, esta opción se encuentra en "Configuración del sistema" en el menú
+  de Rosalina y se guarda automáticamente, mientras se encuentra en el apartado [misc]
+  del archivo config.ini. Esto se debe a que esta opción solo es compatible con NATIVE_FIRM.
+  Esto puede cambiar en el futuro.</li>
 
   </ul>
 
   </li>
 
-  <li>Arreglado soporte de emuNAND para la versión 5.0 de sistema (y posiblemente
-  para otras versiones anteriores como esta). Esto es un error que había desde hace
-  tiempo</li>
+  <li>Agregada la entrada "Iniciar cargador de payloads" encima de "Guardar y salir"
+  en el menú de configuración de Luma</li>
 
-  <li>Arreglado un problema por el cual las excepciones Arm11 de svcBreak no se mostraban
-  desde Luma v13.0</li>
+  <li>Eliminada la opción no utilizada e inútil "Permitir combos Izq+Der / Arr+Aba
+  para DSi"</li>
 
-  <li>Arreglado un problema con los complementos relacionados con la notificaciónn
-  del menú de inicio</li>
+  <li>Ocultada la opción "Usar filtros de mejora personal para DSi"</li>
 
-  <li>Se ha otorgado correctamente acceso a todos los E/S accesibles de Arm11 a los
-  homebrews 3DSX</li>
+  <li>Solucionado un problema por el cual baremetal screeninit generaba dos pantallas
+  blancas o colores incorrectos, generalmente al iniciar payloads de Arm9</li>
 
-  <li>Se han realizado mejoras adicionales en la estabilidad general del sistema y
-  otros ajustes menores para mejorar la experiencia del usuario</li>
+  <li>Rosalina: muestra el SSID en el menú de "Controlar conexión wifi"</li>
 
-  </ul>'
-updated: '2023-08-14T16:42:45Z'
-version: v13.0.2
-version_title: v13.0.2 en Español
+  <li>LayeredFS: mejora de detección del punto de montaje RomFS en la actualización
+  del juego</li>
+
+  <li>Se han realizado más mejoras en la estabilidad general del sistema y otros ajustes
+  menores para mejorar la experiencia del usuario</li>
+
+  </ul>
+
+  <p dir="auto">Además, gracias a <a class="user-mention notranslate" data-hovercard-type="organization"
+  data-hovercard-url="/orgs/devkitPro/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/devkitPro">@devkitPro</a>,
+  esta versión de Luma3DS incluye la versión 2.4.3 del Homebrew Launcher, que a su
+  vez incluye el archivo config/ssl/cacert.pem para usarlo con libcurl.</p>'
+updated: '2024-05-05T15:43:08Z'
+version: v13.1
+version_title: v13.1 en Español
 ---
 Luma3DS es un programa para parchear el software del sistema de las (nuevas) consolas portátiles Nintendo (2) 3DS "sobre la marcha", agregando funciones como configuraciones de idioma por juego, capacidades de depuración para desarrolladores y eliminando restricciones impuestas por Nintendo como el bloqueo de la región.
 
