@@ -117,8 +117,8 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   <li>As the Wood UI theme has been re-written using the R4 theme as the base (as
   a way to work around the SD corruption bug), elements of the R4 theme have been
   left over, such as the message box (used by per-game settings and cheat menus, as
-  well as general messages), and the code which loads the game icons and infos (scrolling
-  speed may vary, as a result).</li>
+  well as general messages), English-only text, and the code which loads the game
+  icons and infos (scrolling speed may vary, as a result).</li>
 
   <li>Pressing START in Wood UI will open DS Classic Menu.</li>
 
