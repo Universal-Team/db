@@ -29,12 +29,12 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 prerelease:
-  download_page: https://github.com/Alexyo21/CustomLuma3DS/releases/tag/1.1.5-d
+  download_page: https://github.com/Alexyo21/CustomLuma3DS/releases/tag/1.1.8-d
   downloads:
     boot.firm:
-      size: 324608
+      size: 325120
       size_str: 317 KiB
-      url: https://github.com/Alexyo21/CustomLuma3DS/releases/download/1.1.5-d/boot.firm
+      url: https://github.com/Alexyo21/CustomLuma3DS/releases/download/1.1.8-d/boot.firm
   update_notes: '<p dir="auto">same as the other one but useful for debbuging... hopefully
     not so slow...<br>
 
@@ -44,7 +44,7 @@ prerelease:
 
     luma 13.0.2</p>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Alexyo21/CustomLuma3DS/compare/1.1.0...1.1.5-d"><tt>1.1.0...1.1.5-d</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Alexyo21/CustomLuma3DS/compare/1.1.0...1.1.8-d"><tt>1.1.0...1.1.8-d</tt></a></p>'
   update_notes_md: 'same as the other one but useful for debbuging... hopefully not
     so slow...
 
@@ -55,10 +55,10 @@ prerelease:
     luma 13.0.2
 
 
-    **Full Changelog**: https://github.com/Alexyo21/CustomLuma3DS/compare/1.1.0...1.1.5-d'
-  updated: '2023-07-27T15:51:34Z'
-  version: 1.1.5-d
-  version_title: here a more debugger version
+    **Full Changelog**: https://github.com/Alexyo21/CustomLuma3DS/compare/1.1.0...1.1.8-d'
+  updated: '2024-05-06T02:06:58Z'
+  version: 1.1.8-d
+  version_title: 'dev build '
 source: https://github.com/Alexyo21/CustomLuma3DS
 systems:
 - 3DS
