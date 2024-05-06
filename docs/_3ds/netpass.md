@@ -10,13 +10,13 @@ description: A new way to experience StreetPass
 download_page: https://gitlab.com/Sorunome/3ds-streetpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 1526228
+    size: 1769580
     size_str: 1 MiB
-    url: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/940e1860d8ee156c30ee3035c161d53936223739/netpass.3dsx?inline=false
+    url: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/3601ee9a1140370dcffc4fd644cf74f81bdc18b7/netpass.3dsx?inline=false
   netpass.cia:
-    size: 1680320
+    size: 1987520
     size_str: 1 MiB
-    url: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/940e1860d8ee156c30ee3035c161d53936223739/netpass.cia?inline=false
+    url: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/3601ee9a1140370dcffc4fd644cf74f81bdc18b7/netpass.cia?inline=false
 gitlab: Sorunome/3ds-streetpass
 icon: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/icon.png
 image: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/icon.png
@@ -30,11 +30,11 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <ul data-sourcepos="1:2-4:52" dir="auto">&#x000A;<li data-sourcepos="1:2-1:22">Add
-  language picker</li>&#x000A;<li data-sourcepos="2:2-2:13">Fix banner</li>&#x000A;<li
-  data-sourcepos="3:2-3:33">Hide NetPass from system usage</li>&#x000A;<li data-sourcepos="4:2-4:52">Fix
-  crash related to default language being wrong</li>&#x000A;</ul>
-updated: '2024-05-05T18:00:56.379Z'
-version: v0.3.2
-version_title: v0.3.2
+update_notes: <ul data-sourcepos="1:1-4:23" dir="auto">&#x000A;<li data-sourcepos="1:1-1:21">Fix
+  Language Picker</li>&#x000A;<li data-sourcepos="2:1-2:39">Fix some languages not
+  scaling nicely</li>&#x000A;<li data-sourcepos="3:1-3:23">Add new banner jingle</li>&#x000A;<li
+  data-sourcepos="4:1-4:23">Add more location art</li>&#x000A;</ul>
+updated: '2024-05-06T16:14:33.723Z'
+version: v0.3.3
+version_title: v0.3.3
 ---
