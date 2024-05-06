@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 794162
-    size_str: 775 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.5.0/nds-bootstrap.7z
+    size: 791408
+    size_str: 772 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.5.1/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1925826
+    size: 1920062
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.5.0/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.5.1/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -32,8 +32,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.1.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v27.1.0</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.2.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v27.2.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -46,28 +46,33 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <h3 dir="auto">What''s new? (B4DS mode)</h3>
+  <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li><em>Nintendo Countdown Calendar</em> now runs on DS &amp; DS Lite without a
-  Memory Expansion Pak!</li>
+  <li>Fixed <em>Power Pro Kun Pocket 12</em> not booting in DSi mode without a donor
+  ROM.
 
-  <li><em>Clash of Elementalists</em> is now supported on DS &amp; DS Lite! Memory
-  Expansion Pak is required.</li>
+  <ul dir="auto">
+
+  <li>In other words, the bug where <em>Power Pro Kun Pocket 12</em> would only boot
+  in DSi mode for DSiWarehax users has been fixed, so users who don''t use DSiWarehax
+  and instead uses Unlaunch or a 3DS console are now able to play it in DSi mode.</li>
 
   </ul>
 
-  <h3 dir="auto">Bug fix</h3>
+  </li>
 
-  <ul dir="auto">
+  <li>Reverted from the ASM memcpy code back to tonccpy, in order to fix bugs where
+  parts of the graphics would not be restored when exiting the in-game menu, as well
+  as the <em>Anno</em> games not properly displaying graphics.</li>
 
-  <li>Fixed homebrew incorrectly detecting a RAM disk if path is empty.</li>
+  <li>Other minor fixes.</li>
 
   </ul>'
-updated: '2024-04-23T00:24:17Z'
-version: v1.5.0
-version_title: 'v1.5.0: Earth Day Release'
+updated: '2024-05-06T07:33:42Z'
+version: v1.5.1
+version_title: v1.5.1
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
