@@ -8,23 +8,7 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads:
-  TWiLightMenu-3DS.7z:
-    size: 43232800
-    size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.2.0/TWiLightMenu-3DS.7z
-  TWiLightMenu-DSi.7z:
-    size: 43274793
-    size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.2.0/TWiLightMenu-DSi.7z
-  TWiLightMenu-Flashcard.7z:
-    size: 54300219
-    size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.2.0/TWiLightMenu-Flashcard.7z
-  TWiLightMenu.7z:
-    size: 54540577
-    size_str: 52 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.2.0/TWiLightMenu.7z
+downloads: {}
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -48,8 +32,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.5.1">nds-bootstrap
-  v1.5.1</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.5.2">nds-bootstrap
+  v1.5.2</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -65,37 +49,35 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <h3 dir="auto">What''s new?</h3>
+  <h3 dir="auto">What''s new? (Wood UI theme)</h3>
 
   <ul dir="auto">
 
-  <li>You''ve asked, we listened, and now after nearly 4 years, the Wood UI theme
-  returns to <strong>TW</strong>i<strong>L</strong>ight Menu++! Thank you for your
-  longtime patience!</li>
+  <li>Brightness icon has been added! Visible and functional on DS Phat, DS Lite,
+  and DSi consoles (the 3rd of which runs in DSi mode).</li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mentusfentus/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mentusfentus">@mentusfentus</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DieGo367/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DieGo367">@DieGo367</a>,
-  and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/edo9300/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>:
-  DS Classic Menu has been improved to closely resemble the original DS/DS Lite menu
-  as possible, with additions such as analog clock, calendar, name display, and more!</li>
-
-  <li>Added a feature to change where DS(i) save files are placed. By default, they
-  are placed in the <code class="notranslate">saves</code> folder in the same location
-  as the ROMs, but can be changed to place them straight in the ROM folder, or in
-  a <code class="notranslate">saves</code> folder within the <code class="notranslate">TWiLightMenu</code>
-  folder (similar to RetroArch).
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/stripes-8/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/stripes-8">@stripes-8</a>:
+  Added better scrolling!
 
   <ul dir="auto">
 
-  <li>Placing the saves in the ROM folder will disable save slots in order to not
-  slow down loading the ROM folder too much.</li>
+  <li>You can now scroll using touch by holding the 1st or 4th selection down (or
+  top/bottom half in list mode).</li>
 
   </ul>
 
   </li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/stripes-8/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/stripes-8">@stripes-8</a>:
+  Directory path is only displayed if directories are shown. (This is what chyyran
+  did before.)</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/stripes-8/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/stripes-8">@stripes-8</a>:
+  Changed list view line height from 11 to 15 to make the file list easier to read.
+  (This is also what chyyran did before.)</li>
 
   </ul>
 
@@ -103,31 +85,24 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Fixed a long-standing bug where the icon palettes would sometimes appear glitched
-  in the R4 theme and DS Classic Menu.</li>
+  <li>Fixed where DSi-based themes would show a Guru Meditation Error screen when
+  running from certain flashcards such as R4i 3DS RTS (r4ids.cn), and/or when exiting
+  from nds-bootstrap.</li>
 
-  <li>Some minor fixes.</li>
+  <li>Some custom fonts are no longer shown glitched on flashcards.</li>
 
-  </ul>
+  <li>Fixed where launching a GBA cartridge in DS Classic Menu causes TWLMenu++ to
+  restart.</li>
 
-  <h3 dir="auto">Known issues</h3>
+  <li>Fixed GBA ROM getting overwritten by save data when launching a GBA ROM in native
+  GBA mode, and if the file extension is uppercase.</li>
 
-  <ul dir="auto">
-
-  <li>As the Wood UI theme has been re-written using the R4 theme as the base (as
-  a way to work around the SD corruption bug), elements of the R4 theme have been
-  left over, such as the message box (used by per-game settings and cheat menus, as
-  well as general messages), English-only text, and the code which loads the game
-  icons and infos (scrolling speed may vary, as a result).</li>
-
-  <li>Pressing START in Wood UI will open DS Classic Menu.</li>
-
-  <li>5px-wide clock colon images will not display properly in Wood UI.</li>
+  <li>Fixed loading flashcard saves stored in SD TWLMenu folder with flashcard kernel.</li>
 
   </ul>'
-updated: '2024-05-06T08:41:55Z'
-version: v27.2.0
-version_title: 'v27.2.0: Return of Wood UI'
+updated: '2024-05-10T06:09:06Z'
+version: v27.2.1
+version_title: v27.2.1
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---

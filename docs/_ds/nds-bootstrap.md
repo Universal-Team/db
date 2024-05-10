@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 791408
+    size: 791198
     size_str: 772 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.5.1/nds-bootstrap.7z
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.5.2/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1920062
+    size: 1920736
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.5.1/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.5.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -32,8 +32,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.2.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v27.2.0</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.2.1"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v27.2.1</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -50,29 +50,18 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Fixed <em>Power Pro Kun Pocket 12</em> not booting in DSi mode without a donor
-  ROM.
+  <li>Fixed crash in <em>Zelda: Phantom Hourglass</em> when attempting to move a statue.</li>
 
-  <ul dir="auto">
-
-  <li>In other words, the bug where <em>Power Pro Kun Pocket 12</em> would only boot
-  in DSi mode for DSiWarehax users has been fixed, so users who don''t use DSiWarehax
-  and instead uses Unlaunch or a 3DS console are now able to play it in DSi mode.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Reverted from the ASM memcpy code back to tonccpy, in order to fix bugs where
-  parts of the graphics would not be restored when exiting the in-game menu, as well
-  as the <em>Anno</em> games not properly displaying graphics.</li>
-
-  <li>Other minor fixes.</li>
+  <li>Added failsafe checks for the files <code class="notranslate">screenshots.tar</code>,
+  <code class="notranslate">ramDump.bin</code>, and <code class="notranslate">apFixOverlays.bin</code>
+  placed in <code class="notranslate">sd:/_nds/nds-bootstrap/</code>. On boot, if
+  one of those files are not created properly, it''ll first delete one before recreating
+  the file. If the file then isn''t created properly, it''ll display an error message.</li>
 
   </ul>'
-updated: '2024-05-06T07:33:42Z'
-version: v1.5.1
-version_title: v1.5.1
+updated: '2024-05-10T05:28:24Z'
+version: v1.5.2
+version_title: v1.5.2
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
