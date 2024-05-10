@@ -1,5 +1,5 @@
 ---
-author: Sorunome
+author: NetPass
 avatar: https://gitlab.com/uploads/-/system/project/avatar/56839786/icon.png
 categories:
 - utility
@@ -24,7 +24,7 @@ image_length: 419284
 layout: app
 qr:
   netpass.cia: https://db.universal-team.net/assets/images/qr/netpass-cia.png
-source: https://gitlab.com/Sorunome/3ds-streetpass
+source: https://gitlab.com/3ds-netpass/netpass
 systems:
 - 3DS
 title: NetPass
