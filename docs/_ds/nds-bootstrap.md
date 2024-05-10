@@ -50,7 +50,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Fixed crash in <em>Zelda: Phantom Hourglass</em> when attempting to move a statue.</li>
+  <li>Fixed long-standing crash in <em>Zelda: Phantom Hourglass</em> when attempting
+  to move a statue.</li>
 
   <li>Added failsafe checks for the files <code class="notranslate">screenshots.tar</code>,
   <code class="notranslate">ramDump.bin</code>, and <code class="notranslate">apFixOverlays.bin</code>

@@ -8,7 +8,23 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads: {}
+downloads:
+  TWiLightMenu-3DS.7z:
+    size: 43225986
+    size_str: 41 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.2.1/TWiLightMenu-3DS.7z
+  TWiLightMenu-DSi.7z:
+    size: 43273330
+    size_str: 41 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.2.1/TWiLightMenu-DSi.7z
+  TWiLightMenu-Flashcard.7z:
+    size: 54291292
+    size_str: 51 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.2.1/TWiLightMenu-Flashcard.7z
+  TWiLightMenu.7z:
+    size: 54533894
+    size_str: 52 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.2.1/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -56,14 +72,17 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   <li>Brightness icon has been added! Visible and functional on DS Phat, DS Lite,
   and DSi consoles (the 3rd of which runs in DSi mode).</li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/stripes-8/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/stripes-8">@stripes-8</a>:
-  Added better scrolling!
+  <li>Added better scrolling!
 
   <ul dir="auto">
 
-  <li>You can now scroll using touch by holding the 1st or 4th selection down (or
-  top/bottom half in list mode).</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/stripes-8/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/stripes-8">@stripes-8</a>:
+  File list scrolls when the selection passes half of the list rather than the very
+  end. As a result, you can now scroll using touch by holding the 1st or 4th selection
+  down (or top/bottom half in list mode).</li>
+
+  <li>Scrolling speed has been improved!</li>
 
   </ul>
 
@@ -98,6 +117,15 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   GBA mode, and if the file extension is uppercase.</li>
 
   <li>Fixed loading flashcard saves stored in SD TWLMenu folder with flashcard kernel.</li>
+
+  </ul>
+
+  <h3 dir="auto">Known bug (Wood UI theme)</h3>
+
+  <ul dir="auto">
+
+  <li>Scrolling through many entries at once (by holding Up/Down or via touch) may
+  sometimes cause a crash. (Not tested in list mode.)</li>
 
   </ul>'
 updated: '2024-05-10T06:09:06Z'
