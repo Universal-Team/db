@@ -12,10 +12,10 @@ created: '2016-02-08T02:26:12Z'
 description: Nintendo 3DS "Custom Firmware"
 download_page: https://github.com/LumaTeam/Luma3DS/releases
 downloads:
-  Luma3DSv13.1.zip:
-    size: 535953
+  Luma3DSv13.1.1.zip:
+    size: 536478
     size_str: 523 KiB
-    url: https://github.com/LumaTeam/Luma3DS/releases/download/v13.1/Luma3DSv13.1.zip
+    url: https://github.com/LumaTeam/Luma3DS/releases/download/v13.1.1/Luma3DSv13.1.1.zip
 github: LumaTeam/Luma3DS
 image: https://avatars.githubusercontent.com/u/65085206?v=4&size=128
 image_length: 7260
@@ -27,6 +27,20 @@ systems:
 - 3DS
 title: Luma3DS
 update_notes: '<ul dir="auto">
+
+  <li>Fix bug where wireless connection option was replacing volume override</li>
+
+  <li>Force wifi menu: handle unconfigured wifi slots correctly</li>
+
+  <li>Minor changes to the plugin loader</li>
+
+  </ul>
+
+  <hr>
+
+  <p dir="auto"><strong>v13.1 changelog:</strong></p>
+
+  <ul dir="auto">
 
   <li>Add volume slider override
 
@@ -69,8 +83,8 @@ update_notes: '<ul dir="auto">
   this release of Luma3DS comes bundled with version 2.4.3 of the <a href="https://github.com/devkitPro/3ds-hbmenu">Homebrew
   Menu</a>, itself bundled with <code class="notranslate">config/ssl/cacert.pem</code>
   for use with libcurl.</p>'
-updated: '2024-05-03T20:09:32Z'
-version: v13.1
-version_title: v13.1
+updated: '2024-05-11T22:07:41Z'
+version: v13.1.1
+version_title: v13.1.1
 wiki: https://github.com/LumaTeam/Luma3DS/wiki
 ---
