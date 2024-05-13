@@ -21,7 +21,7 @@ downloads:
 github: cooolgamer/Anemone3DS-FR
 icon: https://db.universal-team.net/assets/images/icons/anemone3ds-fr.png
 image: https://github.com/cooolgamer/Anemone3DS-FR/raw/master/meta/banner.png
-image_length: 9749
+image_length: 152331
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
