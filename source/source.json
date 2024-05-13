@@ -4979,14 +4979,6 @@
 		"image": "https://github.com/JustSofter/ThirdTube-ES/raw/main/resource/banner.png"
 	},
 	{
-		"github": "cooolgamer/ThirdTube-FR",
-		"systems": ["3DS"],
-		"categories": ["utility", "translation"],
-		"unique_ids": [784205],
-		"icon": "https://github.com/cooolgamer/ThirdTube-FR/raw/main/resource/icon.png",
-		"image": "https://github.com/cooolgamer/ThirdTube-FR/raw/main/resource/banner.png"
-	},
-	{
 		"github": "FreakinSoftMania/ThirdTube-NL",
 		"systems": ["3DS"],
 		"categories": ["utility", "translation"],
