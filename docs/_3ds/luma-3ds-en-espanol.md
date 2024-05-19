@@ -11,10 +11,10 @@ created: '2021-05-15T18:53:42Z'
 description: '"Custom Firmware" para Nintendo 3DS'
 download_page: https://github.com/LopezTutoriales/Luma3DS-Spanish/releases
 downloads:
-  Luma3DSv13.1_ESP.zip:
-    size: 537785
+  Luma3DSv13.1.1_ESP.zip:
+    size: 538114
     size_str: 525 KiB
-    url: https://github.com/LopezTutoriales/Luma3DS-Spanish/releases/download/v13.1/Luma3DSv13.1_ESP.zip
+    url: https://github.com/LopezTutoriales/Luma3DS-Spanish/releases/download/v13.1.1/Luma3DSv13.1.1_ESP.zip
 github: LopezTutoriales/Luma3DS-Spanish
 image: https://avatars.githubusercontent.com/u/5817696?v=4&size=128
 image_length: 26161
@@ -26,6 +26,21 @@ systems:
 - 3DS
 title: Luma 3DS En Español
 update_notes: '<ul dir="auto">
+
+  <li>Corregido error el cual la opción de conexión inalámbrica reemplazaba la anulación
+  del botón físico de volumen</li>
+
+  <li>Forzar conexión wifi: ahora se manejan correctamente las ranuras wifi no configuradas</li>
+
+  <li>Pequeños cambios en el cargador de plugins</li>
+
+  </ul>
+
+  <hr>
+
+  <p dir="auto"><strong>Registro de cambios de v13.1:</strong></p>
+
+  <ul dir="auto">
 
   <li>Agregada funcion de activar/desactivar control de volumen fisico
 
@@ -66,9 +81,9 @@ update_notes: '<ul dir="auto">
   data-octo-dimensions="link_type:self" href="https://github.com/devkitPro">@devkitPro</a>,
   esta versión de Luma3DS incluye la versión 2.4.3 del Homebrew Launcher, que a su
   vez incluye el archivo config/ssl/cacert.pem para usarlo con libcurl.</p>'
-updated: '2024-05-05T15:43:08Z'
-version: v13.1
-version_title: v13.1 en Español
+updated: '2024-05-19T20:29:03Z'
+version: v13.1.1
+version_title: v13.1.1 en Español
 ---
 Luma3DS es un programa para parchear el software del sistema de las (nuevas) consolas portátiles Nintendo (2) 3DS "sobre la marcha", agregando funciones como configuraciones de idioma por juego, capacidades de depuración para desarrolladores y eliminando restricciones impuestas por Nintendo como el bloqueo de la región.
 
