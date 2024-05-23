@@ -9,18 +9,10 @@ created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
-  TWiLightMenu-3DS.7z:
-    size: 44111426
-    size_str: 42 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.1/TWiLightMenu-3DS.7z
   TWiLightMenu-Flashcard.7z:
     size: 54987912
     size_str: 52 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.1/TWiLightMenu-Flashcard.7z
-  TWiLightMenu.7z:
-    size: 55363048
-    size_str: 52 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.1/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -54,7 +46,8 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <li><a href="https://wiki.ds-homebrew.com/twilightmenu/updating-dsi.html" rel="nofollow">DSi</a></li>
 
-  <li><a href="https://wiki.ds-homebrew.com/twilightmenu/updating-3ds.html" rel="nofollow">3DS</a></li>
+  <li><a href="https://wiki.ds-homebrew.com/twilightmenu/updating-3ds.html" rel="nofollow">3DS</a>
+  (Manual method only)</li>
 
   </ul>
 
@@ -64,7 +57,7 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
   <ul dir="auto">
 
   <li>Go to <a href="https://wiki.ds-homebrew.com/twilightmenu" rel="nofollow">https://wiki.ds-homebrew.com/twilightmenu</a>,
-  and follow the uninstall and install guides in order for your console/flashcard.</li>
+  and follow the uninstall and install guides in order, for your console/flashcard.</li>
 
   </ul>
 
@@ -79,6 +72,24 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
   prompt appear again.</li>
 
   <li>A new message will now display when an SD card is not inserted.</li>
+
+  </ul>
+
+  <h3 dir="auto">Downloads</h3>
+
+  <ul dir="auto">
+
+  <li><a href="https://drive.google.com/file/d/1nsuNn7L0jrYw4FIBxXZutvF_wYq8zL5j/view?usp=sharing"
+  rel="nofollow">TWiLightMenu-3DS.7z</a></li>
+
+  <li><a href="https://drive.google.com/file/d/19bWrYvWGj0FfM2DxkHYzsJ0j0Zb8vYob/view?usp=sharing"
+  rel="nofollow">TWiLightMenu-DSi.7z</a></li>
+
+  <li><a href="https://drive.google.com/file/d/1IXyvFcq9Hz2krNqKa-3D3m1W5SwCDQLY/view?usp=sharing"
+  rel="nofollow">TWiLightMenu-Flashcard.7z</a></li>
+
+  <li><a href="https://drive.google.com/file/d/12fLJNGTR5elUkJkE176tIEtUu4pTe1ol/view?usp=sharing"
+  rel="nofollow">TWiLightMenu.7z</a></li>
 
   </ul>'
 updated: '2024-05-23T21:24:01Z'
