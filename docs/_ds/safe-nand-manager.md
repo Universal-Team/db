@@ -10,9 +10,9 @@ description: Dump or restore DSi NAND w/ nocash footer
 download_page: https://github.com/DS-Homebrew/SafeNANDManager/releases
 downloads:
   SafeNANDManager.nds:
-    size: 250880
-    size_str: 245 KiB
-    url: https://github.com/DS-Homebrew/SafeNANDManager/releases/download/v1.1/SafeNANDManager.nds
+    size: 236032
+    size_str: 230 KiB
+    url: https://github.com/DS-Homebrew/SafeNANDManager/releases/download/v1.1.1/SafeNANDManager.nds
 github: DS-Homebrew/SafeNANDManager
 image: https://avatars.githubusercontent.com/u/46971470?v=4&size=128
 image_length: 4456
@@ -26,20 +26,14 @@ systems:
 - DS
 title: Safe NAND Manager
 unistore_exclude: true
-update_notes: '<p dir="auto"><strong>What''s new?</strong></p>
+update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)
-  Added a warning message before starting a NAND restore.</li>
-
-  <li>(@zacchi4k) ConsoleID and CID are now displayed.</li>
-
-  <li>(@zacchi4k) A hiyaCFW warning is now shown, when invalid footer is detected.</li>
+  <li>ConsoleID will now be read from it''s register, if available.</li>
 
   </ul>'
-updated: '2021-01-24T02:42:04Z'
-version: v1.1
-version_title: v1.1
+updated: '2024-05-23T05:45:33Z'
+version: v1.1.1
+version_title: v1.1.1
 ---
