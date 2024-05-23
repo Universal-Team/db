@@ -8,23 +8,7 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads:
-  TWiLightMenu-3DS.7z:
-    size: 43788276
-    size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.0/TWiLightMenu-3DS.7z
-  TWiLightMenu-DSi.7z:
-    size: 43831003
-    size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.0/TWiLightMenu-DSi.7z
-  TWiLightMenu-Flashcard.7z:
-    size: 54823055
-    size_str: 52 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.0/TWiLightMenu-Flashcard.7z
-  TWiLightMenu.7z:
-    size: 55099818
-    size_str: 52 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.0/TWiLightMenu.7z
+downloads: {}
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -62,59 +46,32 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   </ul>
 
+  <p dir="auto">After updating, if TWLMenu++ is stuck on white screens, or keeps showing
+  the TWLMenu++ splash screen, try reinstalling.</p>
+
+  <ul dir="auto">
+
+  <li>Go to <a href="https://wiki.ds-homebrew.com/twilightmenu" rel="nofollow">https://wiki.ds-homebrew.com/twilightmenu</a>,
+  and follow the uninstall and install guides in order for your console/flashcard.</li>
+
+  </ul>
+
   <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Readded the Wood UI theme folder. (<code class="notranslate">sd:/_nds/TWiLightMenu/akmenu/themes/</code>)</li>
+  <li>Some A-Data and Lexar branded SD cards will no longer show the SD prompt.</li>
 
-  <li>Added SD card brand detection, in order to prevent booting TWLMenu++ on bad/fake
-  SD cards.
+  <li>The SD prompt (for bad/fake/untested SD cards) will now only display when first
+  booting TWLMenu++ on DSi. Turning off the DSi and turning it back on will make the
+  prompt appear again.</li>
 
-  <ul dir="auto">
-
-  <li>Please note that the detection system isn''t perfect, as certain bad/fake SD
-  cards are known to reuse CIDs of good SD cards.</li>
-
-  <li>This feature does not work on flashcards, as the DLDI system does not support
-  reading CIDs.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Added a <code class="notranslate">.ini</code>-only setting to swap the DS and
-  DSi splash screens.
-
-  <ul dir="auto">
-
-  <li>Open <code class="notranslate">sd:/_nds/TWiLightMenu/settings.ini</code>, and
-  add <code class="notranslate">OPPOSITE_SPLASH = 1</code> underneath the <code class="notranslate">DSI_SPLASH</code>
-  line. As a result, you''ll see the DSi splash on DS consoles, and the DS splash
-  on DSi and 3DS consoles.</li>
-
-  </ul>
-
-  </li>
-
-  <li>The Unlaunch installer is no longer launchable on the 3DS theme, as with no
-  successful fix attempts, past versions have caused a crash when attempting to launch
-  it.</li>
-
-  <li>The frame rate feature has been removed, as it has served no purpose.</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fix (Wood UI theme)</h3>
-
-  <ul dir="auto">
-
-  <li>Screen position has been fixed when opening the theme.</li>
+  <li>A new message will now display when an SD card is not inserted.</li>
 
   </ul>'
-updated: '2024-05-23T06:29:38Z'
-version: v27.3.0
-version_title: 'v27.3.0: Robz'' Birthday Release'
+updated: '2024-05-23T20:49:49Z'
+version: v27.3.1
+version_title: v27.3.1 (hotfix)
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
