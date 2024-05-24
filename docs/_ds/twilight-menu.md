@@ -74,7 +74,7 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
   <ul dir="auto">
 
   <li>Note that you''ll no longer be able to update TWLMenu++ and nds-bootstrap nightly
-  builds, due to the TWLBot account no longer existing.</li>
+  builds, due to the TWLBot account being made private.</li>
 
   </ul>
 
