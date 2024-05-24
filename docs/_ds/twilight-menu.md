@@ -9,10 +9,22 @@ created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
+  TWiLightMenu-3DS.7z:
+    size: 43282602
+    size_str: 41 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.2/TWiLightMenu-3DS.7z
+  TWiLightMenu-DSi.7z:
+    size: 43327020
+    size_str: 41 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.2/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 54987912
+    size: 54337316
+    size_str: 51 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.2/TWiLightMenu-Flashcard.7z
+  TWiLightMenu.7z:
+    size: 54584200
     size_str: 52 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.1/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.2/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -46,55 +58,32 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <li><a href="https://wiki.ds-homebrew.com/twilightmenu/updating-dsi.html" rel="nofollow">DSi</a></li>
 
-  <li><a href="https://wiki.ds-homebrew.com/twilightmenu/updating-3ds.html" rel="nofollow">3DS</a>
-  (Manual method only)</li>
+  <li><a href="https://wiki.ds-homebrew.com/twilightmenu/updating-3ds.html" rel="nofollow">3DS</a></li>
 
   </ul>
 
-  <p dir="auto">After updating, if TWLMenu++ is stuck on white screens, or keeps showing
-  the TWLMenu++ splash screen, try reinstalling.</p>
+  <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>Go to <a href="https://wiki.ds-homebrew.com/twilightmenu" rel="nofollow">https://wiki.ds-homebrew.com/twilightmenu</a>,
-  and follow the uninstall and install guides in order, for your console/flashcard.</li>
+  <li>Fixed an issue caused by a devkitARM (and libnds?) update, where opening the
+  DS Classic Menu on DS flashcards would cause TWLMenu++ to crash and restart.</li>
+
+  <li><strong>3DS/2DS users:</strong> Updating via Universal-Updater now works again.
+
+  <ul dir="auto">
+
+  <li>Note that you''ll no longer be able to update TWLMenu++ and nds-bootstrap nightly
+  builds, due to the TWLBot account no longer existing.</li>
 
   </ul>
 
-  <h3 dir="auto">What''s new?</h3>
-
-  <ul dir="auto">
-
-  <li>Some A-Data and Lexar branded SD cards will no longer show the SD prompt.</li>
-
-  <li>The SD prompt (for bad/fake/untested SD cards) will now only display when first
-  booting TWLMenu++ on DSi. Turning off the DSi and turning it back on will make the
-  prompt appear again.</li>
-
-  <li>A new message will now display when an SD card is not inserted.</li>
-
-  </ul>
-
-  <h3 dir="auto">Downloads</h3>
-
-  <ul dir="auto">
-
-  <li><a href="https://drive.google.com/file/d/1nsuNn7L0jrYw4FIBxXZutvF_wYq8zL5j/view?usp=sharing"
-  rel="nofollow">TWiLightMenu-3DS.7z</a></li>
-
-  <li><a href="https://drive.google.com/file/d/19bWrYvWGj0FfM2DxkHYzsJ0j0Zb8vYob/view?usp=sharing"
-  rel="nofollow">TWiLightMenu-DSi.7z</a></li>
-
-  <li><a href="https://drive.google.com/file/d/1IXyvFcq9Hz2krNqKa-3D3m1W5SwCDQLY/view?usp=sharing"
-  rel="nofollow">TWiLightMenu-Flashcard.7z</a></li>
-
-  <li><a href="https://drive.google.com/file/d/12fLJNGTR5elUkJkE176tIEtUu4pTe1ol/view?usp=sharing"
-  rel="nofollow">TWiLightMenu.7z</a></li>
+  </li>
 
   </ul>'
-updated: '2024-05-23T21:24:01Z'
-version: v27.3.1
-version_title: v27.3.1 (hotfix)
+updated: '2024-05-24T05:18:50Z'
+version: v27.3.2
+version_title: 'v27.3.2 (hotfix #2)'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
