@@ -12,21 +12,17 @@ description: Nintellivision - an Intellivision Emulator for the DS/DSi. High com
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 697856
+    size: 697344
     size_str: 681 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.0a/NINTV-DS.nds
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.1/NINTV-DS.nds
   README.md:
-    size: 26039
+    size: 26523
     size_str: 25 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.0a/README.md
-  extras.zip:
-    size: 9160609
-    size_str: 8 MiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.0a/extras.zip
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.1/README.md
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 35881
+image_length: 36547
 layout: app
 qr:
   NINTV-DS.nds: https://db.universal-team.net/assets/images/qr/nintv-ds-nds.png
@@ -37,23 +33,22 @@ source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V5.0a : 08-Mar-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V5.1 : 28-May-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>New splash screen jingle.</li>
+  <li>Improved STIC emulation to properly restrict MOBS for both GRAM and GROM to
+  cards 0-63 in FG/BG mode.</li>
 
-  <li>Boosted audio output by almost 25% so you don''t have to max out your DS volume.</li>
+  <li>Separate 2K GRAM build - experimental but functional. Use NINTV-DS-2KGRAM (will
+  coexist with the normal NINTV-DS build)</li>
 
-  <li>New audio ramp down/up to help soften (and partially eliminate) audio pops/clicks
-  when transitioning in and out of a game to the menus.</li>
+  <li>New Gold/Black menu buttons!</li>
 
   <li>Minor cleanup and tweaks as time permitted.</li>
 
-  <li>5.0a with new Gold/Black menu buttons!</li>
-
   </ul>'
-updated: '2024-03-08T12:39:42Z'
-version: 5.0a
-version_title: Version 5.0a
+updated: '2024-05-27T14:20:21Z'
+version: '5.1'
+version_title: Version 5.1
 ---
