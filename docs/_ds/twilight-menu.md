@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 43282602
+    size: 43280036
     size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.2/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.3/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 43327020
+    size: 43326846
     size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.2/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.3/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 54337316
+    size: 54335664
     size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.2/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.3/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 54584200
+    size: 54587518
     size_str: 52 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.2/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.3/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -62,28 +62,26 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   </ul>
 
-  <h3 dir="auto">Bug fixes</h3>
+  <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Fixed an issue caused by a devkitARM (and libnds?) update, where opening the
-  DS Classic Menu on DS flashcards would cause TWLMenu++ to crash and restart.</li>
-
-  <li><strong>3DS/2DS users:</strong> Updating via Universal-Updater now works again.
-
-  <ul dir="auto">
-
-  <li>Note that you''ll no longer be able to update TWLMenu++ and nds-bootstrap nightly
-  builds, due to the TWLBot account being made private.</li>
+  <li>The SD card checking feature has been removed, as it is not possible to perfectly
+  detect a bad SD card via CID.</li>
 
   </ul>
 
-  </li>
+  <h3 dir="auto">Bug fix</h3>
+
+  <ul dir="auto">
+
+  <li>Another attempt to fix the bug where the rotating cubes appear behind the box
+  art in the 3DS theme.</li>
 
   </ul>'
-updated: '2024-05-24T05:18:50Z'
-version: v27.3.2
-version_title: 'v27.3.2 (hotfix #2)'
+updated: '2024-05-28T21:16:23Z'
+version: v27.3.3
+version_title: v27.3.3 (Final hotfix, hopefully)
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
