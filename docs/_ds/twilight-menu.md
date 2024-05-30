@@ -69,15 +69,6 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
   <li>The SD card checking feature has been removed, as it is not possible to perfectly
   detect a bad SD card via CID.</li>
 
-  </ul>
-
-  <h3 dir="auto">Bug fix</h3>
-
-  <ul dir="auto">
-
-  <li>Another attempt to fix the bug where the rotating cubes appear behind the box
-  art in the 3DS theme.</li>
-
   </ul>'
 updated: '2024-05-28T21:16:23Z'
 version: v27.3.3
