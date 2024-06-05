@@ -11,18 +11,14 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
   on the DSi. New features such as instruction manuals and high score support included!
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
-  LICENSE:
-    size: 1067
-    size_str: 1 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.2/LICENSE
   README.md:
-    size: 41272
+    size: 41585
     size_str: 40 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.2/README.md
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.3/README.md
   StellaDS.nds:
-    size: 1724928
+    size: 1728000
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.2/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.3/StellaDS.nds
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -36,18 +32,18 @@ source: https://github.com/wavemotion-dave/StellaDS
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V7.2 : 01-Jan-2024 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V7.3 : 05-Jun-2024 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
-  <li>Updated copyright as we cross into the new year!</li>
+  <li>Added wF8 banking scheme for the new dump of Smurf and Zaxxon.</li>
 
-  <li>Another partial frame of performance on CDFJ/+ games.</li>
+  <li>Added JANE banking scheme for the new Tarzan prototype release.</li>
 
-  <li>Cleanup this readme file to reflect latest changes in the emulator.</li>
+  <li>Added support for Champ Games Tutankham Arcade.</li>
 
   </ul>'
-updated: '2024-01-01T12:16:10Z'
-version: '7.2'
-version_title: Version 7.2
+updated: '2024-06-05T10:39:07Z'
+version: '7.3'
+version_title: Version 7.3
 ---
