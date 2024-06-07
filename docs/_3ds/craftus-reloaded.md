@@ -1,5 +1,5 @@
 ---
-author: RSDuck
+author: Kemal Afzal
 autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/9352526?v=4
 categories:

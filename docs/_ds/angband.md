@@ -26,19 +26,19 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.5-201-g5540d48fb
+  download_page: https://github.com/angband/angband/releases/tag/4.2.5-202-ge1990e077
   downloads:
-    Angband-4.2.5-201-g5540d48fb-3ds.zip:
-      size: 24642054
+    Angband-4.2.5-202-ge1990e077-3ds.zip:
+      size: 24642972
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.5-201-g5540d48fb/Angband-4.2.5-201-g5540d48fb-3ds.zip
-    Angband-4.2.5-201-g5540d48fb-nds.zip:
+      url: https://github.com/angband/angband/releases/download/4.2.5-202-ge1990e077/Angband-4.2.5-202-ge1990e077-3ds.zip
+    Angband-4.2.5-202-ge1990e077-nds.zip:
       size: 23345851
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.5-201-g5540d48fb/Angband-4.2.5-201-g5540d48fb-nds.zip
-  updated: '2024-06-05T21:35:36Z'
-  version: 4.2.5-201-g5540d48fb
-  version_title: 4.2.5-201-g5540d48fb
+      url: https://github.com/angband/angband/releases/download/4.2.5-202-ge1990e077/Angband-4.2.5-202-ge1990e077-nds.zip
+  updated: '2024-06-06T21:14:21Z'
+  version: 4.2.5-202-ge1990e077
+  version_title: 4.2.5-202-ge1990e077
 source: https://github.com/angband/angband
 systems:
 - 3DS
