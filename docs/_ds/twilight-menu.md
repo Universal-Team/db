@@ -8,23 +8,7 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads:
-  TWiLightMenu-3DS.7z:
-    size: 43280036
-    size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.3/TWiLightMenu-3DS.7z
-  TWiLightMenu-DSi.7z:
-    size: 43326846
-    size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.3/TWiLightMenu-DSi.7z
-  TWiLightMenu-Flashcard.7z:
-    size: 54335664
-    size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.3/TWiLightMenu-Flashcard.7z
-  TWiLightMenu.7z:
-    size: 54587518
-    size_str: 52 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.3.3/TWiLightMenu.7z
+downloads: {}
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -66,13 +50,29 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <ul dir="auto">
 
-  <li>The SD card checking feature has been removed, as it is not possible to perfectly
-  detect a bad SD card via CID.</li>
+  <li>v3.2.3 of <em>Pokémon: Refined Gold Overhaul</em> is now AP-patched.</li>
+
+  </ul>
+
+  <h3 dir="auto">Bug fixes</h3>
+
+  <ul dir="auto">
+
+  <li>A confirmed-working fix for where the rotating cubes appear behind box art in
+  the 3DS theme!</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mentusfentus/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mentusfentus">@mentusfentus</a>:
+  <strong>DSi-based themes:</strong> Fixed incorrect icons &amp; bubble text rapidly
+  changing. (<a class="issue-link js-issue-link" data-error-text="Failed to load title"
+  data-id="2336865372" data-permission-text="Title is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/2426"
+  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2426/hovercard"
+  href="https://github.com/DS-Homebrew/TWiLightMenu/pull/2426">#2426</a>)</li>
 
   </ul>'
-updated: '2024-05-28T21:16:23Z'
-version: v27.3.3
-version_title: v27.3.3 (Final hotfix, hopefully)
+updated: '2024-06-07T04:12:12Z'
+version: v27.4.0
+version_title: v27.4.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
