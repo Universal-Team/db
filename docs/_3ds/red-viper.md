@@ -10,13 +10,13 @@ description: A Virtual Boy emulator for the 3DS
 download_page: https://github.com/skyfloogle/red-viper/releases
 downloads:
   red-viper.3dsx:
-    size: 464924
-    size_str: 454 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v0.9.4/red-viper.3dsx
+    size: 522952
+    size_str: 510 KiB
+    url: https://github.com/skyfloogle/red-viper/releases/download/v0.9.5/red-viper.3dsx
   red-viper.cia:
-    size: 548800
-    size_str: 535 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v0.9.4/red-viper.cia
+    size: 582080
+    size_str: 568 KiB
+    url: https://github.com/skyfloogle/red-viper/releases/download/v0.9.5/red-viper.cia
 github: skyfloogle/red-viper
 icon: https://raw.githubusercontent.com/skyfloogle/red-viper/master/icon.png
 image: https://raw.githubusercontent.com/skyfloogle/red-viper/master/resources/banner.png
@@ -39,31 +39,63 @@ systems:
 title: red-viper
 unique_ids:
 - '0xFE7CB'
-update_notes: '<p dir="auto">This release features savestate support, as well as a
-  new splash screen. There are 10 savestate slots per game, and the savestates are
-  stored in a "red-viper" directory on the root of your SD card.</p>
+update_notes: '<p dir="auto">This release features significantly improved input remapping.</p>
+
+  <h2 dir="auto">Control changes</h2>
 
   <ul dir="auto">
 
-  <li>Added savestates (<a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2232649440" data-permission-text="Title is private" data-url="https://github.com/skyfloogle/red-viper/issues/59"
-  data-hovercard-type="pull_request" data-hovercard-url="/skyfloogle/red-viper/pull/59/hovercard"
-  href="https://github.com/skyfloogle/red-viper/pull/59">#59</a>)</li>
+  <li>New "Custom" control scheme (<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="2311648825" data-permission-text="Title is private" data-url="https://github.com/skyfloogle/red-viper/issues/67"
+  data-hovercard-type="pull_request" data-hovercard-url="/skyfloogle/red-viper/pull/67/hovercard"
+  href="https://github.com/skyfloogle/red-viper/pull/67">#67</a>)</li>
 
-  <li>New splash screen by Morintari</li>
+  <li>In the Custom control scheme, any 3DS button can be mapped to any VB button</li>
 
-  <li>Added a fallback interpreter when executing code from RAM to fix Formula V</li>
+  <li>Toggle and Turbo modes are available for each button</li>
 
-  <li>Fixed the reset button on the touchscreen config turning off the touchscreen</li>
+  <li>The previous control menu is still available as "Preset" for its ease of use</li>
 
-  <li>Fixed the default file select cursor being offset in folders with subfolders</li>
+  <li>Added remapping option to 3DS D-Pad in Preset mode (<a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="2279829075" data-permission-text="Title
+  is private" data-url="https://github.com/skyfloogle/red-viper/issues/65" data-hovercard-type="pull_request"
+  data-hovercard-url="/skyfloogle/red-viper/pull/65/hovercard" href="https://github.com/skyfloogle/red-viper/pull/65">#65</a>)</li>
 
-  <li>Added toggle for New 3DS speedup</li>
+  <li>Virtual buttons on the touchscreen can now be set to the face buttons by default</li>
+
+  <li>"Switch" button can now be turned off</li>
+
+  </ul>
+
+  <h2 dir="auto">Other settings changes</h2>
+
+  <ul dir="auto">
+
+  <li>Configurations can now be game-specific, including controls, graphics, etc</li>
+
+  <li>Moved rv_config.ini to a more standard location (sdmc:/config/red-viper)</li>
+
+  <li>The red-viper directory with savestates and per-game configs can be moved by
+  manually editing rv_config.ini</li>
+
+  <li>Added VBLink for homebrew developers, accessible by pressing Y on the main menu
+  (will be supported in future versions of <a href="https://www.vuengine.dev/" rel="nofollow">VUEngine
+  Studio</a>)</li>
+
+  </ul>
+
+  <h2 dir="auto">Other changes</h2>
+
+  <ul dir="auto">
+
+  <li>Improved stability for capture cards</li>
+
+  <li>Fixed occasional bug where the emulator would crash on startup</li>
 
   </ul>'
-updated: '2024-04-28T18:12:28Z'
-version: v0.9.4
-version_title: v0.9.4
+updated: '2024-06-11T19:48:02Z'
+version: v0.9.5
+version_title: v0.9.5
 wiki: https://github.com/skyfloogle/red-viper/wiki
 ---
 A Virtual Boy emulator for the 3DS. All official games are playable at full speed.
