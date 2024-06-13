@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 43282516
+    size: 43281850
     size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.4.0/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.5.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 43325277
+    size: 43327351
     size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.4.0/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.5.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 54339214
+    size: 54337223
     size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.4.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.5.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 54588458
+    size: 54588300
     size_str: 52 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.4.0/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.5.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -66,7 +66,27 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <ul dir="auto">
 
-  <li>v3.2.3 of <em>Pokémon: Refined Gold Overhaul</em> is now AP-patched.</li>
+  <li>You can now have TWLMenu++ autoboot on your 3DS or 2DS console, with a setting
+  called <code class="notranslate">Set Luma Autoboot</code> (in the Misc settings
+  page)!</li>
+
+  <li>Adding GBARunner3 just got easier! You no longer need to add a specific setting
+  to <code class="notranslate">settings.ini</code> (which was <code class="notranslate">GBARUNNER3_TEST
+  = 1</code>), and now only <code class="notranslate">GBARunner3.nds</code> needs
+  to be placed in <code class="notranslate">sd:/_nds/TWiLightMenu/emulators/</code>!</li>
+
+  <li>Genesis and SNES ROMs on flashcards are now visible again!
+
+  <ul dir="auto">
+
+  <li>If the filetype for the ROM(s) is <code class="notranslate">.md</code>, it''ll
+  not be visible until you set the Gen/MD emulator to PicoDriveTWL in TWLMenu++ Settings.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Various: Updated translations.</li>
 
   </ul>
 
@@ -74,21 +94,18 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <ul dir="auto">
 
-  <li>A confirmed-working fix for where the rotating cubes appear behind box art in
-  the 3DS theme!</li>
-
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mentusfentus/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mentusfentus">@mentusfentus</a>:
-  <strong>DSi-based themes:</strong> Fixed incorrect icons &amp; bubble text rapidly
-  changing. (<a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="2336865372" data-permission-text="Title is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/2426"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2426/hovercard"
-  href="https://github.com/DS-Homebrew/TWiLightMenu/pull/2426">#2426</a>)</li>
+  Fixed cursor behavior when sorting by recently played (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2430"
+  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2430/hovercard">#2430</a>)</li>
+
+  <li><strong>Wood theme:</strong> Icon zoom animation has been slowed down by a frame
+  to closely replicate the animation from the original Wood UI menu.</li>
 
   </ul>'
-updated: '2024-06-07T04:12:12Z'
-version: v27.4.0
-version_title: v27.4.0
+updated: '2024-06-13T02:39:42Z'
+version: v27.5.0
+version_title: v27.5.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
