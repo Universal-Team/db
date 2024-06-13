@@ -75,7 +75,7 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
   = 1</code>), and now only <code class="notranslate">GBARunner3.nds</code> needs
   to be placed in <code class="notranslate">sd:/_nds/TWiLightMenu/emulators/</code>!</li>
 
-  <li>Genesis and SNES ROMs on flashcards are now visible again!
+  <li>Genesis and SNES ROMs are now visible on flashcards again!
 
   <ul dir="auto">
 
