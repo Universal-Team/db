@@ -4995,11 +4995,12 @@
 		"unique_ids": [784205]
 	},
 	{
-		"github": "cooolgamer/Anemone3DS-FR",
+		"github": "cooolgamer/Anemone3DS",
+		"title": "Anemone3DS-FR"
 		"systems": ["3DS"],
 		"categories": ["utility", "translation"],
 		"unique_ids": [765920],
-		"image": "https://github.com/cooolgamer/Anemone3DS-FR/raw/master/meta/banner.png"
+		"image": "https://github.com/cooolgamer/Anemone3DS/raw/master/meta/banner.png"
 	},
 	{
 		"github": "cooolgamer/FBI-Reloaded-FR",
