@@ -13,15 +13,15 @@ downloads:
   CustomLuma3DS-releasev1.1.0.zip:
     size: 8457995
     size_str: 8 MiB
-    url: https://github.com/Alexyo21/CustomLuma3DS/releases/download/1.1.0-b/CustomLuma3DS-releasev1.1.0.zip
+    url: https://github.com/Alexyo21/Polari3DS/releases/download/1.1.0-b/CustomLuma3DS-releasev1.1.0.zip
   boot.3dsx:
     size: 385552
     size_str: 376 KiB
-    url: https://github.com/Alexyo21/CustomLuma3DS/releases/download/1.1.0-b/boot.3dsx
+    url: https://github.com/Alexyo21/Polari3DS/releases/download/1.1.0-b/boot.3dsx
   boot.firm:
     size: 303104
     size_str: 296 KiB
-    url: https://github.com/Alexyo21/CustomLuma3DS/releases/download/1.1.0-b/boot.firm
+    url: https://github.com/Alexyo21/Polari3DS/releases/download/1.1.0-b/boot.firm
 github: Alexyo21/CustomLuma3DS
 image: https://avatars.githubusercontent.com/u/96795244?v=4&size=128
 image_length: 5076
@@ -29,14 +29,14 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 prerelease:
-  download_page: https://github.com/Alexyo21/CustomLuma3DS/releases/tag/1.1.8-d
+  download_page: https://github.com/Alexyo21/Polari3DS/releases/tag/1.1.8-d
   downloads:
     boot.firm:
       size: 325120
       size_str: 317 KiB
-      url: https://github.com/Alexyo21/CustomLuma3DS/releases/download/1.1.8-d/boot.firm
-  update_notes: '<p dir="auto">same as the other one but useful for debbuging... hopefully
-    not so slow...<br>
+      url: https://github.com/Alexyo21/Polari3DS/releases/download/1.1.8-d/boot.firm
+  update_notes: '<p>same as the other one but useful for debbuging... hopefully not
+    so slow...<br>
 
     testng paslr loader<br>
 
@@ -44,7 +44,7 @@ prerelease:
 
     luma 13.0.2</p>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Alexyo21/CustomLuma3DS/compare/1.1.0...1.1.8-d"><tt>1.1.0...1.1.8-d</tt></a></p>'
+    <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Alexyo21/Polari3DS/compare/1.1.0...1.1.8-d">Alexyo21/Polari3DS@<tt>1.1.0...1.1.8-d</tt></a></p>'
   update_notes_md: 'same as the other one but useful for debbuging... hopefully not
     so slow...
 
@@ -59,50 +59,50 @@ prerelease:
   updated: '2024-05-06T02:06:58Z'
   version: 1.1.8-d
   version_title: 'dev build '
-source: https://github.com/Alexyo21/CustomLuma3DS
+source: https://github.com/Alexyo21/Polari3DS
 systems:
 - 3DS
-title: CustomLuma3DS
-update_notes: '<p dir="auto">no paslr<br>
+title: Polari3DS
+update_notes: '<p>no paslr<br>
 
   luma 13.0.2</p>
 
-  <h2 dir="auto">What''s Changed</h2>
+  <h2>What''s Changed</h2>
 
-  <ul dir="auto">
+  <ul>
 
   <li>Include library for future addon by <a class="user-mention notranslate" data-hovercard-type="user"
   data-hovercard-url="/users/Alexyo21/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/Alexyo21">@Alexyo21</a>
   in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1860434783"
-  data-permission-text="Title is private" data-url="https://github.com/Alexyo21/CustomLuma3DS/issues/15"
-  data-hovercard-type="pull_request" data-hovercard-url="/Alexyo21/CustomLuma3DS/pull/15/hovercard"
-  href="https://github.com/Alexyo21/CustomLuma3DS/pull/15">#15</a></li>
+  data-permission-text="Title is private" data-url="https://github.com/Alexyo21/Polari3DS/issues/15"
+  data-hovercard-type="pull_request" data-hovercard-url="/Alexyo21/Polari3DS/pull/15/hovercard"
+  href="https://github.com/Alexyo21/Polari3DS/pull/15">Alexyo21/Polari3DS#15</a></li>
 
   <li>Fixed your crappy readme by <a class="user-mention notranslate" data-hovercard-type="user"
   data-hovercard-url="/users/cooolgamer/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/cooolgamer">@cooolgamer</a>
   in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2011185364"
-  data-permission-text="Title is private" data-url="https://github.com/Alexyo21/CustomLuma3DS/issues/24"
-  data-hovercard-type="pull_request" data-hovercard-url="/Alexyo21/CustomLuma3DS/pull/24/hovercard"
-  href="https://github.com/Alexyo21/CustomLuma3DS/pull/24">#24</a></li>
+  data-permission-text="Title is private" data-url="https://github.com/Alexyo21/Polari3DS/issues/24"
+  data-hovercard-type="pull_request" data-hovercard-url="/Alexyo21/Polari3DS/pull/24/hovercard"
+  href="https://github.com/Alexyo21/Polari3DS/pull/24">Alexyo21/Polari3DS#24</a></li>
 
   </ul>
 
-  <h2 dir="auto">New Contributors</h2>
+  <h2>New Contributors</h2>
 
-  <ul dir="auto">
+  <ul>
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/cooolgamer/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cooolgamer">@cooolgamer</a>
   made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2011185364" data-permission-text="Title is private" data-url="https://github.com/Alexyo21/CustomLuma3DS/issues/24"
-  data-hovercard-type="pull_request" data-hovercard-url="/Alexyo21/CustomLuma3DS/pull/24/hovercard"
-  href="https://github.com/Alexyo21/CustomLuma3DS/pull/24">#24</a></li>
+  to load title" data-id="2011185364" data-permission-text="Title is private" data-url="https://github.com/Alexyo21/Polari3DS/issues/24"
+  data-hovercard-type="pull_request" data-hovercard-url="/Alexyo21/Polari3DS/pull/24/hovercard"
+  href="https://github.com/Alexyo21/Polari3DS/pull/24">Alexyo21/Polari3DS#24</a></li>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Alexyo21/CustomLuma3DS/compare/logo...1.1.0-b"><tt>logo...1.1.0-b</tt></a></p>'
+  <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Alexyo21/Polari3DS/compare/logo...1.1.0-b">Alexyo21/Polari3DS@<tt>logo...1.1.0-b</tt></a></p>'
 updated: '2023-07-27T10:49:13Z'
 version: 1.1.0-b
 version_title: here the release  version
