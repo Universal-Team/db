@@ -6320,33 +6320,6 @@
 		"long_description": "after using so much the unofficial luma fork, since was my favourite, i'm trying to bring it back to light in a new light.\nit will replace your current cfw so be careful,\nit has almost the same feature and i'm trying to grant much more hardware control, trying is different, it has a lot of feature you will have to read the page on gbatemp or github, though i'm trying to insert the instruction inside the cfw itself...\nbut a quick resume is twl emunand support, almost all the feature of the unofficial luma fork,(currently porting them), some feature for otp and nandcid, rosalina streaming set coin to max from rosalina, led control, eccc.\nhave fun and keep backups also stopping update on nand firm whever you want... so many others read the wiki on gbatemp for more"
 	},
 	{
-		"github": "ttdu08off/Nintendo-Anime-Channel-Revival",
-		"title": "ttdu08 Anime Channel",
-		"systems": ["3DS"],
-		"categories": ["utility", "game"],
-		"long_description": "A private server for Nintendo Anime Channel,\nThe videos and text are available in English and French.\nOther languages will appear later by 2024.\nThanks to cooolgamer and his code! It is thanks to him that ttdu08 Anime Channel exists.",
-		"scripts": {
-			"[New 3DS] TwlBg.cxi": [
-				{
-					"type": "downloadRelease",
-					"repo": "ttdu08off/Nintendo-Anime-Channel-Revival",
-					"file": "ttdu08_Anime_Channel_Revival.zip",
-					"output": "/ttdu08_Anime_Channel_Revival.zip"
-				},
-				{
-					"type": "extractFile",
-					"file": "/ttdu08_Anime_Channel_Revival.zip",
-					"input": "ttdu08 Anime Channel Revival/luma",
-					"output": "/luma"
-				},
-				{
-					"type": "deleteFile",
-					"file": "/ttdu08_Anime_Channel_Revival.zip"
-				}
-			]
-		}
-	},
-	{
 		"github": "semaj14/Multi-PokemonFramework",
 		"title": "Multi-Pokémon Framework",
 		"systems": ["3DS"],
