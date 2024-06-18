@@ -4698,12 +4698,12 @@
 				},
 				{
 					"type": "downloadFile",
-					"file": "https://raw.githubusercontent.com/TWLBot/Builds/master/extras/apfix.pck",
+					"file": "https://github.com/taserbolt/APFix-and-Widescreen-TWL/raw/main/apfix.pck",
 					"output": "/_nds/ntr-forwarder/apfix.pck"
 				},
 				{
 					"type": "downloadFile",
-					"file": "https://raw.githubusercontent.com/TWLBot/Builds/master/extras/widescreen.pck",
+					"file": "https://github.com/taserbolt/APFix-and-Widescreen-TWL/raw/main/widescreen.pck",
 					"output": "/_nds/ntr-forwarder/widescreen.pck"
 				},
 				{
