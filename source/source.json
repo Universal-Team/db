@@ -4269,7 +4269,7 @@
 		"github": "MechanicalDragon0687/NDSForwarder",
 		"categories": ["utility"],
 		"systems": ["3DS"],
-		"long_description": "### Installing\n1. Download the [3DS SD card forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)\n1. Extract the contents of the `for SD card root` folder to the root of your SD card\n1. Download [TWiLight Menu++'s apfix.pck](ttps://github.com/taserbolt/APFix-and-Widescreen-TWL/raw/main/apfix.pck)\n1. Copy `apfix.pck` to `sdmc:/_nds/ntr-forwarder/apfix.pck` on your SD card\n\nWhen installing with Universal-Updater this is done automatically.",
+		"long_description": "### Installing\n1. Download the [3DS SD card forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)\n1. Extract the contents of the `for SD card root` folder to the root of your SD card\n1. Download [TWiLight Menu++'s apfix.pck](https://github.com/taserbolt/APFix-and-Widescreen-TWL/raw/main/apfix.pck)\n1. Copy `apfix.pck` to `sdmc:/_nds/ntr-forwarder/apfix.pck` on your SD card\n\nWhen installing with Universal-Updater this is done automatically.",
 		"scripts": {
 			"ndsForwarder.3dsx": [
 				{
@@ -4295,12 +4295,12 @@
 				},
 				{
 					"type": "downloadFile",
-					"file": "ttps://github.com/taserbolt/APFix-and-Widescreen-TWL/raw/main/apfix.pck",
+					"file": "https://github.com/taserbolt/APFix-and-Widescreen-TWL/raw/main/apfix.pck",
 					"output": "/_nds/ntr-forwarder/apfix.pck"
 				},
 				{
 					"type": "downloadFile",
-					"file": "ttps://github.com/taserbolt/APFix-and-Widescreen-TWL/raw/main/widescreen.pck",
+					"file": "https://github.com/taserbolt/APFix-and-Widescreen-TWL/raw/main/widescreen.pck",
 					"output": "/_nds/ntr-forwarder/widescreen.pck"
 				}
 			]
@@ -4540,12 +4540,12 @@
 				},
 				{
 					"type": "downloadFile",
-					"file": "ttps://github.com/taserbolt/APFix-and-Widescreen-TWL/raw/main/apfix.pck",
+					"file": "https://github.com/taserbolt/APFix-and-Widescreen-TWL/raw/main/apfix.pck",
 					"output": "/_nds/ntr-forwarder/apfix.pck"
 				},
 				{
 					"type": "downloadFile",
-					"file": "ttps://github.com/taserbolt/APFix-and-Widescreen-TWL/raw/main/widescreen.pck",
+					"file": "https://github.com/taserbolt/APFix-and-Widescreen-TWL/raw/main/widescreen.pck",
 					"output": "/_nds/ntr-forwarder/widescreen.pck"
 				}
 			]
