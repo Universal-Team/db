@@ -91,7 +91,7 @@ version_title: 1.4.6 Use the Force, Luke
 ### Installing
 1. Download the [3DS SD card forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
 1. Extract the contents of the `for SD card root` folder to the root of your SD card
-1. Download [TWiLight Menu++'s apfix.pck](https://raw.githubusercontent.com/TWLBot/Builds/master/extras/apfix.pck)
+1. Download [TWiLight Menu++'s apfix.pck](https://github.com/taserbolt/APFix-and-Widescreen-TWL/raw/main/apfix.pck)
 1. Copy `apfix.pck` to `sdmc:/_nds/ntr-forwarder/apfix.pck` on your SD card
 
 When installing with Universal-Updater this is done automatically.
