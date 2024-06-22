@@ -14,15 +14,15 @@ downloads:
   NINTV-DS.nds:
     size: 697344
     size_str: 681 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.1/NINTV-DS.nds
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.2/NINTV-DS.nds
   README.md:
-    size: 26523
-    size_str: 25 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.1/README.md
+    size: 26805
+    size_str: 26 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.2/README.md
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 36547
+image_length: 36819
 layout: app
 qr:
   NINTV-DS.nds: https://db.universal-team.net/assets/images/qr/nintv-ds-nds.png
@@ -33,22 +33,19 @@ source: https://github.com/wavemotion-dave/NINTV-DS
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V5.1 : 28-May-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V5.2 : 22-Jun-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Improved STIC emulation to properly restrict MOBS for both GRAM and GROM to
-  cards 0-63 in FG/BG mode.</li>
+  <li>Improved MOB collision detection to fix GORF</li>
 
-  <li>Separate 2K GRAM build - experimental but functional. Use NINTV-DS-2KGRAM (will
-  coexist with the normal NINTV-DS build)</li>
+  <li>Improved MOB rendering so that Y coordinates of zero don''t draw (fixes minor
+  glitch in Beauty and the Beast at end of levels)</li>
 
-  <li>New Gold/Black menu buttons!</li>
-
-  <li>Minor cleanup and tweaks as time permitted.</li>
+  <li>Improved JLP detection so we don''t enable it inadvertently.</li>
 
   </ul>'
-updated: '2024-05-27T14:20:21Z'
-version: '5.1'
-version_title: Version 5.1
+updated: '2024-06-22T13:55:25Z'
+version: '5.2'
+version_title: Version 5.2
 ---
