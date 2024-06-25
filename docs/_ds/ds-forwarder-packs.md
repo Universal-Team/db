@@ -21,8 +21,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto"><strong>UPDATE 5/10/2024:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.5.2">nds-bootstrap
-  v1.5.2</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.5.3">nds-bootstrap
+  v1.5.3</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -49,15 +49,14 @@ update_notes: '<p dir="auto"><strong>UPDATE 5/10/2024:</strong> Includes <a href
 
   </ul>
 
-  <h3 dir="auto">What''s new?</h3>
+  <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>On DSi/3DS, NDMA is now used to clear RAM before booting a <code class="notranslate">.nds</code>
-  file.</li>
+  <li>Fixed <code class="notranslate">Bootstrap File</code> per-game setting not used.</li>
 
   </ul>'
-updated: '2024-03-08T22:54:51Z'
-version: SD-14
-version_title: 'GitHub Release #14'
+updated: '2024-06-25T01:07:37Z'
+version: SD-15
+version_title: 'GitHub Release #15'
 ---
