@@ -6313,6 +6313,55 @@
 		}
 	},
 	{
+		"github": "SFC-hacker/MK7-Plugin-Deluxe-3.0.2",
+		"title": "MK7 Plugin DX",
+		"systems": ["3DS"],
+		"categories": ["utility", "save-tool"],
+		"description": "A polished cheat plugin for Mario Kart 7, now without anticheat!",
+		"scripts": {
+			"USA": [
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/SFC-hacker/MK7-Plugin-Deluxe-3.0.2/releases/download/v3.0.2/plugin.3gx",
+					"output": "/luma/plugins/0004000000030800/plugin/3gx"
+				}
+			]
+			"EUR": [
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/SFC-hacker/MK7-Plugin-Deluxe-3.0.2/releases/download/v3.0.2/plugin.3gx",
+					"output": "/luma/plugins/0004000000030700/plugin/3gx"
+				}
+			]
+			"JPN": [
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/SFC-hacker/MK7-Plugin-Deluxe-3.0.2/releases/download/v3.0.2/plugin.3gx",
+					"output": "/luma/plugins/0004000000030600/plugin/3gx"
+				}
+			]
+			"KOR": [
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/SFC-hacker/MK7-Plugin-Deluxe-3.0.2/releases/download/v3.0.2/plugin.3gx",
+					"output": "/luma/plugins/0004000000030A00/plugin/3gx"
+				}
+			]
+			"CHN": [
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/SFC-hacker/MK7-Plugin-Deluxe-3.0.2/releases/download/v3.0.2/plugin.3gx",
+					"output": "/luma/plugins/000400000008B500/plugin/3gx"
+				}
+			]
+			"TWN": [
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/SFC-hacker/MK7-Plugin-Deluxe-3.0.2/releases/download/v3.0.2/plugin.3gx",
+					"output": "/luma/plugins/000400000008B400/plugin/3gx"
+				}
+			]
+	{
 		"github": "Alexyo21/CustomLuma3DS",
 		"systems": ["3DS"],
 		"categories": ["luma3ds", "firm"],
