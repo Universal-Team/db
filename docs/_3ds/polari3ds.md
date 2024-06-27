@@ -29,35 +29,35 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 prerelease:
-  download_page: https://github.com/Alexyo21/Polari3DS/releases/tag/1.1.8-d
+  download_page: https://github.com/Alexyo21/Polari3DS/releases/tag/1.1.9-d
   downloads:
     boot.firm:
-      size: 325120
-      size_str: 317 KiB
-      url: https://github.com/Alexyo21/Polari3DS/releases/download/1.1.8-d/boot.firm
-  update_notes: '<p>same as the other one but useful for debbuging... hopefully not
+      size: 326656
+      size_str: 319 KiB
+      url: https://github.com/Alexyo21/Polari3DS/releases/download/1.1.9-d/boot.firm
+  update_notes: '<p>Same as the other one, but useful for debugging... hopefully not
     so slow...<br>
 
-    testng paslr loader<br>
+    Testing paslr loader<br>
 
     unified build<br>
 
-    luma 13.0.2</p>
+    Luma 13.1.2</p>
 
-    <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Alexyo21/Polari3DS/compare/1.1.0...1.1.8-d">Alexyo21/Polari3DS@<tt>1.1.0...1.1.8-d</tt></a></p>'
-  update_notes_md: 'same as the other one but useful for debbuging... hopefully not
+    <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Alexyo21/Polari3DS/compare/1.1.8-d...1.1.9-d">Alexyo21/Polari3DS@<tt>1.1.8-d...1.1.9-d</tt></a></p>'
+  update_notes_md: 'Same as the other one, but useful for debugging... hopefully not
     so slow...
 
-    testng paslr loader
+    Testing paslr loader
 
     unified build
 
-    luma 13.0.2
+    Luma 13.1.2
 
 
-    **Full Changelog**: https://github.com/Alexyo21/CustomLuma3DS/compare/1.1.0...1.1.8-d'
+    **Full Changelog**: https://github.com/Alexyo21/Polari3DS/compare/1.1.8-d...1.1.9-d'
   updated: '2024-05-06T02:06:58Z'
-  version: 1.1.8-d
+  version: 1.1.9-d
   version_title: 'dev build '
 source: https://github.com/Alexyo21/Polari3DS
 systems:

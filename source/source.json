@@ -4451,8 +4451,8 @@
 				{
 					"type": "extractFile",
 					"file": "/NTR_Launcher.zip",
-					"input": "NTR_Launcher/NTR_Launcher.ini",
-					"output": "/NTR_Launcher/NTR_Launcher.ini"
+					"input": "NTR_Launcher",
+					"output": "/NTR_Launcher"
 				},
 				{
 					"type": "deleteFile",
@@ -6346,6 +6346,8 @@
 		"systems": ["3DS"],
 		"categories": ["utility"],
 		"unique_ids": [1009012],
-		"icon": "https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/icon.png"
+		"icon": "https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/meta/icon.png",
+		"license": "gpl-3.0",
+		"license_name": "GNU General Public License v3.0 or later"
 	}
 ]
