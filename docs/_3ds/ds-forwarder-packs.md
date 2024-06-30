@@ -21,7 +21,10 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.5.3">nds-bootstrap
+update_notes: '<p dir="auto"><strong>NOTE:</strong> If the per-game settings menu
+  appears without holding the Y button, update the forwarder pack again.</p>
+
+  <p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.5.3">nds-bootstrap
   v1.5.3</a></p>
 
   <p dir="auto">To install or update:</p>
