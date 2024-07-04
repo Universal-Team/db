@@ -1,5 +1,5 @@
 ---
-author: hckr
+author: SFC-hacker
 avatar: https://avatars.githubusercontent.com/u/67318218?v=4
 categories:
 - utility
@@ -7,7 +7,7 @@ categories:
 color: '#999899'
 color_bg: '#807f80'
 created: '2024-06-27T17:49:31Z'
-description: A polished cheat plugin for Mario Kart 7, now without anticheat!
+description: A polished cheat plugin for Mario Kart 7, now with anticheat!
 download_page: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases
 downloads:
   Plugin.Pack.zip:
