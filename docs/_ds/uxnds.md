@@ -9,10 +9,10 @@ created: '2021-05-18T19:23:58Z'
 description: NDS/3DS fork/port of the uxn/Varvara virtual machine
 download_page: https://github.com/asiekierka/uxnds/releases
 downloads:
-  uxnds0410.zip:
-    size: 520811
-    size_str: 508 KiB
-    url: https://github.com/asiekierka/uxnds/releases/download/v0.4.10/uxnds0410.zip
+  uxnds050.zip:
+    size: 507139
+    size_str: 495 KiB
+    url: https://github.com/asiekierka/uxnds/releases/download/v0.5.0/uxnds050.zip
 github: asiekierka/uxnds
 icon: https://raw.githubusercontent.com/asiekierka/uxnds/main/misc/uxn48.png
 image: https://raw.githubusercontent.com/asiekierka/uxnds/main/misc/uxn48.png
@@ -27,21 +27,35 @@ systems:
 title: uxnds
 update_notes: '<ul dir="auto">
 
-  <li>[NDS] Fix drawing sprites with negative coordinates</li>
+  <li>Ported the ARM assembly CPU core from <a href="https://git.badd10de.dev/uxngba"
+  rel="nofollow">uxngba</a>.
 
-  <li>[NDS] Update BlocksDS toolchain</li>
+  <ul dir="auto">
 
-  <li>Add support for <code class="notranslate">system/expansion</code> commands <code
-  class="notranslate">0x00</code> and <code class="notranslate">0x02</code></li>
+  <li>Speed benefits of +20-40% can be observed!</li>
 
-  <li>Update <code class="notranslate">file</code> device implementation</li>
+  <li>Some CPU core bugs have also been fixed in the process, as tested with <code
+  class="notranslate">opctest</code>.</li>
 
-  <li>Update bundled programs</li>
+  <li>Relative to the core above, additional minor optimizations have been done for
+  ARMv5/ARMv6 CPUs.</li>
 
-  </ul>'
-updated: '2024-04-30T16:12:02Z'
-version: v0.4.10
-version_title: uxnds 0.4.10
+  </ul>
+
+  </li>
+
+  <li>[NDS] The debug build of uxnds will now prompt before exiting. This allows more
+  convenient execution of CLI applications.</li>
+
+  <li>[NDS] Updated to BlocksDS 1.3.0.</li>
+
+  </ul>
+
+  <p dir="auto">Note that the new CPU core is not guaranteed to be bug-free; feel
+  free to revert to 0.4.10 if you run into any issues.</p>'
+updated: '2024-07-06T17:14:25Z'
+version: v0.5.0
+version_title: uxnds 0.5.0
 website: https://100r.co/site/uxn.html
 wiki: https://wiki.xxiivv.com/site/uxn.html
 ---
