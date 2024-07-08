@@ -9,10 +9,10 @@ created: '2021-05-18T19:23:58Z'
 description: NDS/3DS fork/port of the uxn/Varvara virtual machine
 download_page: https://github.com/asiekierka/uxnds/releases
 downloads:
-  uxnds050.zip:
-    size: 507139
-    size_str: 495 KiB
-    url: https://github.com/asiekierka/uxnds/releases/download/v0.5.0/uxnds050.zip
+  uxnds051.zip:
+    size: 506700
+    size_str: 494 KiB
+    url: https://github.com/asiekierka/uxnds/releases/download/v0.5.1/uxnds051.zip
 github: asiekierka/uxnds
 icon: https://raw.githubusercontent.com/asiekierka/uxnds/main/misc/uxn48.png
 image: https://raw.githubusercontent.com/asiekierka/uxnds/main/misc/uxn48.png
@@ -27,35 +27,12 @@ systems:
 title: uxnds
 update_notes: '<ul dir="auto">
 
-  <li>Ported the ARM assembly CPU core from <a href="https://git.badd10de.dev/uxngba"
-  rel="nofollow">uxngba</a>.
+  <li>[3DS] Fix crash on start.</li>
 
-  <ul dir="auto">
-
-  <li>Speed benefits of +20-40% can be observed!</li>
-
-  <li>Some CPU core bugs have also been fixed in the process, as tested with <code
-  class="notranslate">opctest</code>.</li>
-
-  <li>Relative to the core above, additional minor optimizations have been done for
-  ARMv5/ARMv6 CPUs.</li>
-
-  </ul>
-
-  </li>
-
-  <li>[NDS] The debug build of uxnds will now prompt before exiting. This allows more
-  convenient execution of CLI applications.</li>
-
-  <li>[NDS] Updated to BlocksDS 1.3.0.</li>
-
-  </ul>
-
-  <p dir="auto">Note that the new CPU core is not guaranteed to be bug-free; feel
-  free to revert to 0.4.10 if you run into any issues.</p>'
-updated: '2024-07-06T17:14:25Z'
-version: v0.5.0
-version_title: uxnds 0.5.0
+  </ul>'
+updated: '2024-07-08T16:39:41Z'
+version: v0.5.1
+version_title: uxnds 0.5.1
 website: https://100r.co/site/uxn.html
 wiki: https://wiki.xxiivv.com/site/uxn.html
 ---
