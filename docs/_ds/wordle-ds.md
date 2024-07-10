@@ -91,7 +91,7 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
   The <code class="notranslate">.cia</code> build can be used to install to the 3DS
   HOME Menu. Here''s QRs for FBI and dsidl:</p>
 
-  <table role="table">
+  <markdown-accessiblity-table><table role="table">
 
   <thead>
 
@@ -121,7 +121,7 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   </tbody>
 
-  </table>'
+  </table></markdown-accessiblity-table>'
 updated: '2023-03-15T00:49:50Z'
 version: v3.1.0
 version_title: Answers in the guess list
