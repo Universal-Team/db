@@ -39,7 +39,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ol dir="auto">
 
-  <li>Download the <code class="notranslate">.7z</code> file.</li>
+  <li>Download the <code class="notranslate">.7z</code> or <code class="notranslate">.zip</code>
+  file.</li>
 
   <li>Extract the nds-bootstrap <code class="notranslate">.nds</code> and <code class="notranslate">.ver</code>
   files, to <code class="notranslate">root:/_nds/</code>.</li>
