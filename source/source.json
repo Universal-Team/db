@@ -6411,5 +6411,17 @@
 		"description": "Luma3DS with extra features! Inspired by Dullpointer's version. Check the readme on the github repository for more info.",
 		"long_description": "**Starlight3DS** is a fork of [Luma3DS](https://github.com/LumaTeam/Luma3DS) with the goal of adding more features. This was inspired and took from [DullPointer](https://github.com/DullPointer)'s Luma3DS fork and updated on the latest Luma3DS version.\nThis modified Luma3DS adds many features such as Day/Night mode (lite), shortcuts to toggle certain things like wifi or bottom screen, cut wifi in sleep mode to save battery, QOL improvements and more!\nYou can view the full list of added features in the [Readme of the github repository](https://github.com/cooolgamorg/Starlight3DS?tab=readme-ov-file#changes-with-the-official-build)",
 		"script_message": "This will overwrite your current\nluma3DS installation.\nCTGP-7 will not be playable with this version.\n\nYou can always revert back to the official\nLuma3DS version by downloading it again."
+	},
+	{
+		"github": "PabloMK7/ArticBaseServer",
+		"title": "Artic Base Server",
+		"author": "PabloMK7",
+		"systems": ["3DS"],
+		"unique_ids": [703070],
+		"categories": ["emulator", "utility"],
+		"icon": "https://raw.githubusercontent.com/PabloMK7/ArticBaseServer/main/app/resources/icon.png",
+		"image": "https://raw.githubusercontent.com/PabloMK7/ArticBaseServer/main/app/resources/banner.png",
+		"description": "A tool for broadcasting games from your console to a compatible 3DS emulator.",
+		"long_description": "Allows playing your physical or digital games on an emulator without having to dump them.\n\n- Play games from your console without having to dump them, with purchased updates and DLC.\n- Sync the savedata/extdata of the broadcasted game during the play session.\n- Use the console as the input device by enabling the Artic Controller feature on the emulator.\n- Load shared ext data and NCCH archives from your console.\n- Remove the need to dump keys, as the decryption is done by the console's OS."
 	}
 ]
