@@ -12,7 +12,7 @@ created: '2019-10-26T15:04:41.173265+00:00'
 description: ''
 icon: https://db.universal-team.net/assets/images/icons/toolchaingenericds-multimediaplayer.png
 image: https://db.universal-team.net/assets/images/icons/toolchaingenericds-multimediaplayer.png
-image_length: 0
+image_length: 630
 layout: app
 nightly:
   download_page: https://bitbucket.org/Coto88/toolchaingenericds-multimediaplayer/src/master/release

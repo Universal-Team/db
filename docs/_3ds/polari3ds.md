@@ -29,12 +29,12 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 prerelease:
-  download_page: https://github.com/Alexyo21/Polari3DS/releases/tag/1.1.9-d
+  download_page: https://github.com/Alexyo21/Polari3DS/releases/tag/1.1.1-dev
   downloads:
     boot.firm:
-      size: 326656
-      size_str: 319 KiB
-      url: https://github.com/Alexyo21/Polari3DS/releases/download/1.1.9-d/boot.firm
+      size: 328192
+      size_str: 320 KiB
+      url: https://github.com/Alexyo21/Polari3DS/releases/download/1.1.1-dev/boot.firm
   update_notes: '<p>Same as the other one, but useful for debugging... hopefully not
     so slow...<br>
 
@@ -44,7 +44,7 @@ prerelease:
 
     Luma 13.1.2</p>
 
-    <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Alexyo21/Polari3DS/compare/1.1.8-d...1.1.9-d">Alexyo21/Polari3DS@<tt>1.1.8-d...1.1.9-d</tt></a></p>'
+    <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Alexyo21/Polari3DS/compare/1.1.9-d...1.1.1-dev">Alexyo21/Polari3DS@<tt>1.1.9-d...1.1.1-dev</tt></a></p>'
   update_notes_md: 'Same as the other one, but useful for debugging... hopefully not
     so slow...
 
@@ -55,9 +55,9 @@ prerelease:
     Luma 13.1.2
 
 
-    **Full Changelog**: https://github.com/Alexyo21/Polari3DS/compare/1.1.8-d...1.1.9-d'
+    **Full Changelog**: https://github.com/Alexyo21/Polari3DS/compare/1.1.9-d...1.1.1-dev'
   updated: '2024-05-06T02:06:58Z'
-  version: 1.1.9-d
+  version: 1.1.1-dev
   version_title: 'dev build '
 source: https://github.com/Alexyo21/Polari3DS
 systems:
