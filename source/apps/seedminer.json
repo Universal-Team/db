@@ -1,0 +1,22 @@
+{
+	"github": "zoogie/seedminer",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"image": "https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/icon.png",
+	"unistore_exclude": true,
+	"archive": {
+		"RELEASE.*\\.zip": {
+			"seedstarter.3dsx": [
+				"RELEASE.*/seedstarter.3dsx"
+			],
+			"seedstarter.cia": [
+				"RELEASE.*/seedstarter.cia"
+			]
+		}
+	}
+}

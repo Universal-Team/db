@@ -1,0 +1,12 @@
+{
+	"github": "Epicpkmn11/dsi-camera",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"image": "https://raw.githubusercontent.com/Epicpkmn11/dsi-camera/master/icon.bmp",
+	"icon": "https://raw.githubusercontent.com/Epicpkmn11/dsi-camera/master/icon.bmp",
+	"long_description": "This is just a simple proof of concept/example to show off the DSi's cameras being used in a homebrew app, and an open-source example for initializing the cameras in C/C++. Currently it can show both cameras and save a picture as to `sd:/DCIM/100DSI00/IMG_####.PNG`.\n\n![Example image](https://github.com/Epicpkmn11/dsi-camera/raw/master/resources/example.png)"
+}

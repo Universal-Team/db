@@ -159,9 +159,12 @@ def retroarchUniStore(docsDir: str, tempDir: str) -> None:
 	unistoreRA.save(path.join(docsDir, "unistore", "retroarch.unistore"))
 
 
-def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None:
+def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None:
 	# Load app list json
-	source = json.load(sourceFile)
+	source = []
+	for item in listdir(sourceFolder):
+		with open(path.join(sourceFolder, item)) as f:
+			source.append(json.load(f))
 
 	# Old data json
 	oldData = None
@@ -171,7 +174,7 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 	output = []
 	iconIndex = 0
 	names = {}  # GitHub name cache
-	tempDir = path.join(path.dirname(sourceFile.name), "temp")
+	tempDir = path.join(path.dirname(sourceFolder), "temp")
 	header = {"Authorization": f"token {ghToken}"} if ghToken else None
 	unistore = UniStore(
 		"Universal-DB",
@@ -890,7 +893,7 @@ def main(sourceFile, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None
 
 if __name__ == "__main__":
 	argParser = ArgumentParser(description="Generates the Universal-DB website and UniStores from a JSON")
-	argParser.add_argument("source", metavar="source.json", type=FileType("r"), help="source JSON file")
+	argParser.add_argument("source", metavar="apps", type=str, help="source JSON folder")
 	argParser.add_argument("docs", metavar="../docs", type=str, help="location to output to")
 	argParser.add_argument("--token", "-t", type=str, help="GitHub API token (to get around rate limit")
 	argParser.add_argument("--priority", "-p", action="store_true", help="skips all apps not marked priority/updated within 30 days")

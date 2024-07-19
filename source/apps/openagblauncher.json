@@ -1,0 +1,20 @@
+{
+	"gbatemp": "36828",
+	"categories": [
+		"utility"
+	],
+	"systems": [
+		"3DS"
+	],
+	"archive": {
+		"Open AGB Launcher.zip": {
+			"OpenAGBLauncher.3dsx": [
+				"OpenAGBLauncher.3dsx"
+			],
+			"OpenAGBLauncher.cia": [
+				"OpenAGBLauncher.cia"
+			]
+		}
+	},
+	"title": "OpenAGBLauncher"
+}

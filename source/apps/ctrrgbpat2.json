@@ -1,0 +1,18 @@
+{
+	"github": "Golem642/CtrRGBPAT2",
+	"systems": [
+		"3DS"
+	],
+	"unique_ids": [
+		866235
+	],
+	"categories": [
+		"utility"
+	],
+	"author": "CPunch & Golem64",
+	"description": "LED color and pattern modifier for (n)3DS/2DS. Customize your notifications however you want !",
+	"long_description": "# CtrRGBPAT2\nThis 3DS application allows the LED color to be changed. In order for this to work, Luma CFW (custom firmware) needs to be installed.\nThanks to [CPunch](https://github.com/CPunch/CtrRGBPATTY/) for the original project !\n\n## Features\nCustomize the LED color and pattern for when you receive notifications ! Whether SpotPass, StreetPass, online Friends, or more (Yes, there's more) ! Why keep the default blue when you can have a cool-looking purple for example 😎\n\nEverything is simple and made so you cannot possibly screw something up (or else you really wanted to)\n\n## Upcoming\n- Save and restore feature\n- Proper UI ?\n\nHope you enjoy ! :)",
+	"image": "https://raw.githubusercontent.com/Golem642/CtrRGBPAT2/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/Golem642/CtrRGBPAT2/master/resources/icon.png",
+	"script_message": "You will need to have \"Game Patching\" and \"Loading external FIRMs and modules\"\nenabled in LumaCFW settings (hold select on boot)"
+}

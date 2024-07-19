@@ -1,0 +1,24 @@
+{
+	"github": "nop90/Xrick-3ds",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		39293
+	],
+	"image": "https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/icon.png",
+	"archive": {
+		"Xrick.*\\.zip": {
+			"Xrick.cia": [
+				"Xrick.cia"
+			],
+			"Xrick.3dsx": [
+				"Xrick/Xrick.3dsx"
+			]
+		}
+	}
+}

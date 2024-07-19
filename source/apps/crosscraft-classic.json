@@ -1,0 +1,19 @@
+{
+	"github": "CrossCraft/CrossCraft-Classic",
+	"title": "CrossCraft Classic",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"long_description": "CrossCraft-Classic is a project that implements Minecraft Java Edition: Classic without looking at any of the source code of the original application and without using the original copyrighted assets. All knowledge is figured out with an understanding of in-game mechanics and is approximated to be as close as possible to the original. This project is NOT a clone of Minecraft, it is a fully implemented client.",
+	"archive": {
+		"CrossCraft-3DS\\.zip": {
+			"CrossCraft-Classic.3dsx": [
+				"CrossCraft-Classic.3dsx",
+				"CrossCraft-Classic/"
+			]
+		}
+	}
+}

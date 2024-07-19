@@ -1,0 +1,13 @@
+{
+	"github": "NotTheOnlyRph/MontyHallDS",
+	"title": "Monty Hall DS",
+	"systems": ["DS"],
+	"categories": ["game"],
+	"archive": {
+		"MontyHallDS.zip": {
+			"MontyHallDS.nds": [
+				"MontyHallDS.nds"
+			]
+		}
+	}
+}

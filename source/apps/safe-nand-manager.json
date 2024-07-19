@@ -1,0 +1,11 @@
+{
+	"github": "DS-Homebrew/SafeNANDManager",
+	"title": "Safe NAND Manager",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unistore_exclude": true
+}

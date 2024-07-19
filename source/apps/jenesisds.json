@@ -1,0 +1,26 @@
+{
+	"title": "jEnesisDS",
+	"downloads": {
+		"JEnesisDS0174.zip": {
+			"url": "https://db.universal-team.net/assets/files/JEnesisDS0174.zip"
+		}
+	},
+	"categories": [
+		"emulator"
+	],
+	"version": "v0.7.4",
+	"updated": "2008-07-12T17:41:22Z",
+	"download_page": "https://gamebrew.org/wiki/JEnesisDS",
+	"author": "Lordus",
+	"systems": [
+		"DS"
+	],
+	"description": "A Sega Genesis/MegaDrive emulator for the Nintendo DS",
+	"archive": {
+		"JEnesisDS0174.zip": {
+			"jEnesisDS.nds": [
+				"jEnesisDS.nds"
+			]
+		}
+	}
+}

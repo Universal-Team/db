@@ -1,0 +1,14 @@
+{
+	"github": "joel16/3DShell",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		90624
+	],
+	"image": "https://raw.githubusercontent.com/joel16/3DShell/master/res/banner.png",
+	"icon": "https://raw.githubusercontent.com/joel16/3DShell/master/res/ic_launcher_filemanager.png"
+}

@@ -1,0 +1,21 @@
+{
+	"github": "Trinitro21/lpp-3ds",
+	"title": "SmileBASIC File Manager",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		23539
+	],
+	"icon": "https://raw.githubusercontent.com/Trinitro21/lpp-3ds/sbfm/icon.png",
+	"archive": {
+		"sbfm.zip": {
+			"sbfm.3dsx": [
+				"sbfm.3dsx"
+			]
+		}
+	}
+}

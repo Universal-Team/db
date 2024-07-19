@@ -1,0 +1,10 @@
+{
+	"github": "Sunrase/Pong-Pokemon-3ds",
+	"title": "Pong Pokemon",
+	"systems": ["3DS"],
+	"icon": "https://raw.githubusercontent.com/Sunrase/Pong-Pokemon-3ds/main/icon.png",
+	"image": "https://raw.githubusercontent.com/Sunrase/Pong-Pokemon-3ds/main/banner.png",
+	"categories": ["game"],
+	"unique_ids": [943399],
+	"long_description": "Just a pong game with Pokemon as a main theme.\nThe ball is replaced by a pokeball and the background by a pokemon battle ground.\nThree modes are available :\n\n1 - Player vs Player\n\n2 - Player vs Wall\n\n3 - Player vs AI"
+}

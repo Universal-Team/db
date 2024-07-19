@@ -1,0 +1,12 @@
+{
+	"github": "Jonatan6/Pistol-Pong-DS",
+	"title": "Pistol Pong DS",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/Jonatan6/Pistol-Pong-DS/main/icon.bmp",
+	"long_description": "It's like the classic game pong, but with guns.\n\n## The rules are simple\n* Control your paddle by pressing up and down on the dpad, and fire your gun by pressing right on the dpad.\n* If you get shot or miss the ball, your opponent gains one point.\n* If you manage to shot your opponent of if it misses the ball, you gain one point.\n* And the most important of them all all: **Have fun!**"
+}

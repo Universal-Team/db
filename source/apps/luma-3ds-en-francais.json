@@ -1,0 +1,17 @@
+{
+	"github": "TheRinzler65/Luma3DS-French",
+	"title": "Luma3DS en Français",
+	"systems": ["3DS"],
+	"categories": [
+		"firm",
+		"luma3ds",
+		"translation"
+	],
+	"archive": {
+		"Luma3DS(.*)\\.zip": {
+			"boot.firm": [
+				"Luma3DS{}/boot.firm"
+			]
+		}
+	}
+}

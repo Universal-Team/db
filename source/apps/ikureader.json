@@ -1,0 +1,12 @@
+{
+	"github": "awkitsune/IkuReader",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"description": "An ebook reader",
+	"long_description": "Ebook reader compatible with fb2, epub and txt file formats. Updated original source code to be compatible with DSi, TMFH and HiyaCfw.",
+	"icon": "https://raw.githubusercontent.com/awkitsune/IkuReader/main/data/icon.bmp"
+}

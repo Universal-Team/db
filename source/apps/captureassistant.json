@@ -1,0 +1,75 @@
+{
+	"github": "ItsDeidara/CaptureAssistant",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		26722
+	],
+	"image": "https://raw.githubusercontent.com/ItsDeidara/CaptureAssistant/master/assets/banner.png",
+	"icon": "https://raw.githubusercontent.com/ItsDeidara/CaptureAssistant/master/assets/icon.png",
+	"scripts": {
+		"CaptureAssistant.cia": [
+			{
+				"type": "downloadRelease",
+				"repo": "ItsDeidara/CaptureAssistant",
+				"file": "CaptureAssistant.*\\.zip",
+				"output": "/CaptureAssistant.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/CaptureAssistant.zip",
+				"input": "CaptureAssistant.cia",
+				"output": "/CaptureAssistant.cia"
+			},
+			{
+				"type": "promptMessage",
+				"message": "Use alternate calibration images?",
+				"count": 3
+			},
+			{
+				"type": "extractFile",
+				"file": "/CaptureAssistant.zip",
+				"input": "calibrationalt.png",
+				"output": "/calibration.png"
+			},
+			{
+				"type": "extractFile",
+				"file": "/CaptureAssistant.zip",
+				"input": "calibrationalt2.png",
+				"output": "/calibration2.png"
+			},
+			{
+				"type": "skip",
+				"count": 2
+			},
+			{
+				"type": "extractFile",
+				"file": "/CaptureAssistant.zip",
+				"input": "calibration.png",
+				"output": "/calibration.png"
+			},
+			{
+				"type": "extractFile",
+				"file": "/CaptureAssistant.zip",
+				"input": "calibration2.png",
+				"output": "/calibration2.png"
+			},
+			{
+				"type": "installCia",
+				"file": "/CaptureAssistant.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/CaptureAssistant.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/CaptureAssistant.zip"
+			}
+		]
+	}
+}

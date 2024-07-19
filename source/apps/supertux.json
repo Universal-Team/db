@@ -1,0 +1,25 @@
+{
+	"github": "nop90/Supertux-Milestone1-3ds",
+	"title": "Supertux",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		39298
+	],
+	"image": "https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/nop90/Supertux-Milestone1-3ds/master/resources/icon.png",
+	"archive": {
+		"Supertux.*\\.zip": {
+			"Supertux.cia": [
+				"Supertux.cia"
+			],
+			"Supertux.3dsx": [
+				"Supertux/Supertux.3dsx"
+			]
+		}
+	}
+}

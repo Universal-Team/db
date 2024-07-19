@@ -29,35 +29,28 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 prerelease:
-  download_page: https://github.com/Alexyo21/Polari3DS/releases/tag/1.1.9-d
+  download_page: https://github.com/Alexyo21/Polari3DS/releases/tag/1.1.1-dev_0.1
   downloads:
     boot.firm:
       size: 326656
       size_str: 319 KiB
-      url: https://github.com/Alexyo21/Polari3DS/releases/download/1.1.9-d/boot.firm
-  update_notes: '<p>Same as the other one, but useful for debugging... hopefully not
-    so slow...<br>
+      url: https://github.com/Alexyo21/Polari3DS/releases/download/1.1.1-dev_0.1/boot.firm
+  update_notes: '<p>Same as the other one, but useful for debugging...<br>
 
-    Testing paslr loader<br>
+    it has the most recent commit and compiled with a set of flag useful for testing
+    homebrew, if you need a version with latest commit use this or auto-builds from
+    action or nightly link (they''re the same)<br>
 
-    unified build<br>
+    Based on Luma 13.1.2</p>
 
-    Luma 13.1.2</p>
-
-    <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Alexyo21/Polari3DS/compare/1.1.8-d...1.1.9-d">Alexyo21/Polari3DS@<tt>1.1.8-d...1.1.9-d</tt></a></p>'
-  update_notes_md: 'Same as the other one, but useful for debugging... hopefully not
-    so slow...
-
-    Testing paslr loader
-
-    unified build
-
-    Luma 13.1.2
-
-
-    **Full Changelog**: https://github.com/Alexyo21/Polari3DS/compare/1.1.8-d...1.1.9-d'
+    <p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/Alexyo21/Polari3DS/compare/1.1.1-dev...1.1.1-dev_0.1">Alexyo21/Polari3DS@<tt>1.1.1-dev...1.1.1-dev_0.1</tt></a></p>'
+  update_notes_md: "Same as the other one, but useful for debugging... \nit has the\
+    \ most recent commit and compiled with a set of flag useful for testing homebrew,\
+    \ if you need a version with latest commit use this or auto-builds from action\
+    \ or nightly link (they're the same)\nBased on Luma 13.1.2\n\n**Full Changelog**:\
+    \ https://github.com/Alexyo21/Polari3DS/compare/1.1.1-dev...1.1.1-dev_0.1"
   updated: '2024-05-06T02:06:58Z'
-  version: 1.1.9-d
+  version: 1.1.1-dev_0.1
   version_title: 'dev build '
 source: https://github.com/Alexyo21/Polari3DS
 systems:

@@ -1,0 +1,15 @@
+{
+	"github": "dnasdw/SharedFontTool",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		983041,
+		983042
+	],
+	"image": "https://raw.githubusercontent.com/dnasdw/SharedFontTool/master/meta/banner_3ds.png",
+	"icon": "https://raw.githubusercontent.com/dnasdw/SharedFontTool/master/meta/icon_3ds.png"
+}

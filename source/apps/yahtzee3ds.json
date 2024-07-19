@@ -1,0 +1,14 @@
+{
+	"github": "LiquidFenrir/Yahtzee3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		83763
+	],
+	"image": "https://raw.githubusercontent.com/LiquidFenrir/Yahtzee3DS/master/sprites/banner.png",
+	"icon": "https://raw.githubusercontent.com/LiquidFenrir/Yahtzee3DS/master/icon.png"
+}

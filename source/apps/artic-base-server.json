@@ -1,0 +1,19 @@
+{
+	"github": "PabloMK7/ArticBaseServer",
+	"title": "Artic Base Server",
+	"author": "PabloMK7",
+	"systems": [
+		"3DS"
+	],
+	"unique_ids": [
+		703070
+	],
+	"categories": [
+		"emulator",
+		"utility"
+	],
+	"icon": "https://raw.githubusercontent.com/PabloMK7/ArticBaseServer/main/app/resources/icon.png",
+	"image": "https://raw.githubusercontent.com/PabloMK7/ArticBaseServer/main/app/resources/banner.png",
+	"description": "A tool for broadcasting games from your console to a compatible 3DS emulator.",
+	"long_description": "Allows playing your physical or digital games on an emulator without having to dump them.\n\n- Play games from your console without having to dump them, with purchased updates and DLC.\n- Sync the savedata/extdata of the broadcasted game during the play session.\n- Use the console as the input device by enabling the Artic Controller feature on the emulator.\n- Load shared ext data and NCCH archives from your console.\n- Remove the need to dump keys, as the decryption is done by the console's OS."
+}

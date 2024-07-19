@@ -1,0 +1,14 @@
+{
+	"github": "joel16/FriendMii",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		90214
+	],
+	"image": "https://raw.githubusercontent.com/joel16/FriendMii/master/res/banner.png",
+	"icon": "https://raw.githubusercontent.com/joel16/FriendMii/master/res/ic_launcher_friendmii.png"
+}

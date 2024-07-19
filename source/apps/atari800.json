@@ -1,0 +1,10 @@
+{
+	"github": "asiekierka/atari800-3ds",
+	"title": "Atari800",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"emulator"
+	]
+}

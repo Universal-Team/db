@@ -1,0 +1,36 @@
+{
+	"github": "smealum/portalDS",
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/smealum/portalDS/master/logo.bmp",
+	"systems": [
+		"DS"
+	],
+	"scripts": {
+		"portalDS.nds": [
+			{
+				"type": "downloadRelease",
+				"repo": "smealum/portalDS",
+				"file": "ASDS.*\\.zip",
+				"output": "/ASDS.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/ASDS.zip",
+				"input": "portalDS.nds",
+				"output": "%NDS%/portalDS.nds"
+			},
+			{
+				"type": "extractFile",
+				"file": "/ASDS.zip",
+				"input": "asds/",
+				"output": "%NDS%/asds/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/ASDS.zip"
+			}
+		]
+	}
+}

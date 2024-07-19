@@ -1,0 +1,26 @@
+{
+	"github": "nop90/Biniax2-3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		39288
+	],
+	"image": "https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/icon.png",
+	"archive": {
+		"Biniax2_3DSX.*\\.zip": {
+			"Biniax2.3dsx": [
+				"Biniax2/Biniax2.3dsx"
+			]
+		},
+		"Biniax2_CIA.*\\.zip": {
+			"Biniax2.cia": [
+				"Biniax2.cia"
+			]
+		}
+	}
+}

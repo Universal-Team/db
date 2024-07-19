@@ -1,0 +1,26 @@
+{
+	"github": "SuperSaiyajinStackZ/3DZwei",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		275864
+	],
+	"long_description": "A memory cardgame clone for Nintendo 3DS.",
+	"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/banner.png",
+	"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/3DZwei/master/3ds/app/icon.png",
+	"nightly": {
+		"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/3DZwei",
+		"downloads": {
+			"3DZwei.3dsx": {
+				"url": "https://github.com/Universal-Team/extras/raw/master/builds/3DZwei/3DZwei.3dsx"
+			},
+			"3DZwei.cia": {
+				"url": "https://github.com/Universal-Team/extras/raw/master/builds/3DZwei/3DZwei.cia"
+			}
+		}
+	}
+}

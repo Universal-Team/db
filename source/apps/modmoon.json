@@ -1,0 +1,14 @@
+{
+	"github": "Swiftloke/ModMoon",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		42810
+	],
+	"image": "https://raw.githubusercontent.com/Swiftloke/ModMoon/master/CIA/banner.png",
+	"icon": "https://raw.githubusercontent.com/Swiftloke/ModMoon/master/CIA/icon.png"
+}

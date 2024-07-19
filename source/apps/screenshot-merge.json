@@ -1,0 +1,14 @@
+{
+	"github": "ihaveamac/screenshot-merge",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		985804
+	],
+	"image": "https://raw.githubusercontent.com/ihaveamac/screenshot-merge/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/ihaveamac/screenshot-merge/master/resources/icon.png"
+}

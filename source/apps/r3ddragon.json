@@ -1,0 +1,21 @@
+{
+	"github": "mrdanielps/r3Ddragon",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"unique_ids": [
+		1042379
+	],
+	"image": "https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/icon.png",
+	"archive": {
+		"r3Ddragon.*\\.zip": {
+			"r3Ddragon.cia": [
+				"r3Ddragon.cia"
+			]
+		}
+	}
+}

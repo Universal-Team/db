@@ -30,11 +30,11 @@ Universal-DB is updated automatically every hour / 6 hours (depending on the app
 1. Open a terminal window in the `source` folder of this repository
 1. Run `pip3 -r requirements.txt` to install the needed Python libraries
 1. Run `./generate.py`
-   - You can pass a GitHub API token as the first argument to expand your API rate limit, this is needed with the default `source.json`
+   - You can pass a GitHub API token as the first argument to expand your API rate limit, this is needed with the default apps
    - You can pass `priority` as the second argument to only update apps with `"priority": true`
 
-`source/source.json` is where the base data comes from, all apps should have a `github` (user/repo string), `systems` (string array), `categories` (string array), `image` (url string), and `icon` (url string). If the app isn't on GitHub then you will need to fill out most of the other information too. Some info can be pulled from the Bitbucket API too, but it's a bit more complicated than GitHub, look for examples in the current `source.json`. If `priority` is `true` then the app will be checked hourly by actions instead of every 6 hours, technically everything could be done hourly but due to the amount of apps that rarely update it's done every 6 to reduce spam on GitHub's API.
-All info in `full.json` can override the GitHub API by specifying it in `source.json`, for example if you want an app title to have a space instead of a hyphen.
+The JSON files in `source/apps` is where the base data comes from, all apps should have a `github` (user/repo string), `systems` (string array), `categories` (string array), `image` (url string), and `icon` (url string). If the app isn't on GitHub then you will need to fill out most of the other information too. Some info can be pulled from the Bitbucket API too, but it's a bit more complicated than GitHub, look for examples in the current files. If `priority` is `true` then the app will be checked hourly by actions instead of every 6 hours, technically everything could be done hourly but due to the amount of apps that rarely update it's done every 6 to reduce spam on GitHub's API.
+All info in `full.json` can override the GitHub API by specifying it in a source JSON, for example if you want an app title to have a space instead of a hyphen.
 
 Running `generate.py` will generate the following files:
 - A markdown file for each 3DS app in `docs/_3ds`

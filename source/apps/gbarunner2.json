@@ -1,0 +1,22 @@
+{
+	"github": "Gericom/GBARunner2",
+	"icon": "https://raw.githubusercontent.com/Gericom/GBARunner2/master/icon.bmp",
+	"wiki": "https://wiki.ds-homebrew.com/gbarunner2/",
+	"categories": [
+		"emulator"
+	],
+	"systems": [
+		"DS"
+	],
+	"autogen_scripts": true,
+	"scripts": {
+		"[twlmenu] GBARunner2_arm7dldi_3ds.nds": [
+			{
+				"type": "downloadRelease",
+				"repo": "Gericom/GBARunner2",
+				"file": "GBARunner2_arm7dldi_3ds.nds",
+				"output": "/_nds/GBARunner2_arm7dldi_3ds.nds"
+			}
+		]
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"github": "zoogie/DSP1",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		54673
+	],
+	"image": "https://raw.githubusercontent.com/zoogie/DSP1/master/cia/banner.png",
+	"icon": "https://raw.githubusercontent.com/zoogie/DSP1/master/cia/icon.png"
+}

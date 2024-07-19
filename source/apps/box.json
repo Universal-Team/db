@@ -1,0 +1,10 @@
+{
+	"github": "Garhoogin/Box",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/Garhoogin/Box/main/icon.bmp"
+}

@@ -1,0 +1,12 @@
+{
+	"github": "Epicpkmn11/NitroHax3DS",
+	"title": "NitroHax3DS",
+	"long_description": "This is for use on DSi/3DS from internal SD, if using a flashcard see [NitroHax](nitrohax).\n\nIf using on DSi make sure you have [Unlaunch installed](https://dsi.cfw.guide/installing-unlaunch.html)",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon": "https://raw.githubusercontent.com/Epicpkmn11/NitroHax3DS/master/icon.bmp"
+}

@@ -1,0 +1,21 @@
+{
+	"github": "deltabeard/ctrmus",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		1045452
+	],
+	"image": "https://raw.githubusercontent.com/deltabeard/ctrmus/master/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/deltabeard/ctrmus/master/meta/icon.png",
+	"archive": {
+		"ctrmus.zip": {
+			"ctrmus.3dsx": [
+				"3ds-arm/3ds/ctrmus/ctrmus.3dsx"
+			]
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"bitbucket": {
+		"repo": "Coto88/snemulds",
+		"branch": "master"
+	},
+	"nightly": {
+		"download_page": "https://bitbucket.org/Coto88/snemulds/src/master/release",
+		"downloads": {
+			"arm7dldi-ntr/SNEmulDS.nds": {
+				"url": "https://bitbucket.org/Coto88/snemulds/raw/master/release/arm7dldi-ntr/SNEmulDS.nds"
+			},
+			"arm7dldi-twl/SNEmulDS.srl": {
+				"url": "https://bitbucket.org/Coto88/snemulds/raw/master/release/arm7dldi-twl/SNEmulDS.srl"
+			},
+			"arm7dldi-twl/ToolchainGenericDS-multiboot.srl": {
+				"url": "https://bitbucket.org/Coto88/snemulds/raw/master/release/arm7dldi-twl/ToolchainGenericDS-multiboot.srl"
+			},
+			"arm7dldi-twl/tgds_multiboot_payload_twl.bin": {
+				"url": "https://bitbucket.org/Coto88/snemulds/raw/master/release/arm7dldi-twl/tgds_multiboot_payload_twl.bin"
+			},
+			"snemul.cfg": {
+				"url": "https://bitbucket.org/Coto88/snemulds/raw/master/release/snemul.cfg"
+			}
+		}
+	},
+	"long_description": "Usage:\n- Download and copy all files starting arm7dldi-[ntr/twl] and `snemul.cfg` to the SD root\n   - [NTR] is for DS mode, and [TWL] is for DSi mode\n   - If it prompts for overwrite: Yes to All\n   - Create a `snes` folder in the SD root, and put your games in it\n- SPC Playback: Optionally, create an `spc` folder in the SD root, and put your SPC files in it\n   - You can choose and play an SPC File in the \"SPC Jukebox\" option\n- [NTR]: Now open loader (internal, hbmenu or other), and run `ToolchainGenericDS-multiboot.nds`. Then select `SnemulDS.nds` from the menu, choose ARG (A button) and select the SNES file to run\n- [TWL]: Now open TWiLight Menu++ (you must set it up first, so you can run TWL mode apps), and run `ToolchainGenericDS-multiboot.srl`. Then select `SnemulDS.srl` from the menu, choose ARG (A button) and select the snes file to run",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"icon": "https://bitbucket.org/Coto88/snemulds/raw/c323eb1a7c411390de1ab32daa3640c17dbfa4ff/icon.bmp"
+}

@@ -1,0 +1,42 @@
+{
+	"github": "Fewnity/Counter-Strike-Nintendo-DS",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://github.com/Fewnity/Counter-Strike-Nintendo-DS/raw/main/Counter-Strike-nds/icon.bmp",
+	"scripts": {
+		"counter_strike.nds": [
+			{
+				"type": "downloadRelease",
+				"repo": "Fewnity/Counter-Strike-Nintendo-DS",
+				"file": "Counter\\.Strike\\.DS\\.[\\d.]+\\.zip",
+				"output": "/Counter Strike DS.zip"
+			},
+			{
+				"file": "/Counter Strike DS.zip",
+				"input": "counter_strike.nds",
+				"output": "%NDS%/counter_strike.nds",
+				"type": "extractFile"
+			},
+			{
+				"file": "/Counter Strike DS.zip",
+				"input": "counter_strike_music.raw",
+				"output": "%NDS%/counter_strike_music.raw",
+				"type": "extractFile"
+			},
+			{
+				"file": "/Counter Strike DS.zip",
+				"input": "soundbank.bin",
+				"output": "%NDS%/soundbank.bin",
+				"type": "extractFile"
+			},
+			{
+				"file": "/Counter Strike DS.zip",
+				"type": "deleteFile"
+			}
+		]
+	}
+}

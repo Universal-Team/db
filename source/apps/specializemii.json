@@ -1,0 +1,24 @@
+{
+	"github": "phijor/SpecializeMii",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		998809
+	],
+	"image": "https://raw.githubusercontent.com/phijor/SpecializeMii/master/etc/banner.png",
+	"icon": "https://raw.githubusercontent.com/phijor/SpecializeMii/master/etc/icon.png",
+	"archive": {
+		"SpecializeMii.zip": {
+			"SpecializeMii.3dsx": [
+				"3ds-arm/3ds/SpecializeMii/SpecializeMii.3dsx"
+			],
+			"SpecializeMii.cia": [
+				"3ds-arm/SpecializeMii.cia"
+			]
+		}
+	}
+}

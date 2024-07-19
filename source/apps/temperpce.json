@@ -1,0 +1,61 @@
+{
+	"github": "bubble2k16/temperpce_3ds",
+	"title": "TemperPCE",
+	"description": "This is a port of Exophase's Temper (TurboGrafx/PC-Engine) emulator to the old 3DS and old 2DS.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"unique_ids": [
+		14411
+	],
+	"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/temperpce/assets/icon.png",
+	"scripts": {
+		"temperpce_3ds.cia": [
+			{
+				"type": "downloadRelease",
+				"repo": "bubble2k16/temperpce_3ds",
+				"file": "temperpce_3ds.*\\.zip",
+				"output": "/temperpce_3ds.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/temperpce_3ds.zip",
+				"input": "temperpce_3ds.cia",
+				"output": "/temperpce_3ds.cia"
+			},
+			{
+				"type": "installCia",
+				"file": "/temperpce_3ds.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/temperpce_3ds.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/temperpce_3ds.zip"
+			}
+		],
+		"temperpce_3ds.3dsx": [
+			{
+				"type": "downloadRelease",
+				"repo": "bubble2k16/temperpce_3ds",
+				"file": "temperpce_3ds.*\\.zip",
+				"output": "/temperpce_3ds.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/temperpce_3ds.zip",
+				"input": "temperpce_3ds.3dsx",
+				"output": "%3DSX%/temperpce_3ds.3dsx"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/temperpce_3ds.zip"
+			}
+		]
+	}
+}

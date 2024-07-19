@@ -27,7 +27,7 @@ systems:
 - DS
 title: NTM
 unistore_exclude: true
-update_notes: '<table role="table">
+update_notes: '<markdown-accessiblity-table><table role="table">
 
   <thead>
 
@@ -40,7 +40,7 @@ update_notes: '<table role="table">
 
   </thead>
 
-  </table>
+  </table></markdown-accessiblity-table>
 
   <p dir="auto">This update is mainly thanks to <a class="user-mention notranslate"
   data-hovercard-type="user" data-hovercard-url="/users/rvtr/hovercard" data-octo-click="hovercard-link-click"

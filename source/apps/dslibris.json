@@ -1,0 +1,39 @@
+{
+	"github": "rhaleblian/dslibris",
+	"categories": [
+		"utility"
+	],
+	"systems": [
+		"DS"
+	],
+	"icon": "https://raw.githubusercontent.com/rhaleblian/dslibris/master/gfx/icon.bmp",
+	"scripts": {
+		"dslibris.nds": [
+			{
+				"type": "downloadRelease",
+				"repo": "rhaleblian/dslibris",
+				"file": "dslibris.*\\.zip",
+				"output": "/dslibris.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/dslibris.zip",
+				"input": "",
+				"output": "/"
+			},
+			{
+				"type": "move",
+				"old": "/dslibris.nds",
+				"new": "%NDS%/dslibris.nds"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/INSTALL.txt"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/dslibris.zip"
+			}
+		]
+	}
+}

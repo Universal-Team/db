@@ -1,0 +1,34 @@
+{
+	"github": "SciresM/boot9strap",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unistore_exclude": true,
+	"scripts": {
+		"boot9strap.firm": [
+			{
+				"type": "downloadRelease",
+				"repo": "SciresM/boot9strap",
+				"file": "boot9strap-[\\d.]*\\.zip",
+				"output": "/boot9strap.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/boot9strap.zip",
+				"input": "",
+				"output": "/boot9strap/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/boot9strap.zip"
+			},
+			{
+				"type": "promptMessage",
+				"message": "To install/update, use SafeB9SInstaller.\nSee https://3ds.hacks.guide for usage instructions."
+			}
+		]
+	}
+}

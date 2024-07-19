@@ -1,0 +1,10 @@
+{
+	"github": "Garhoogin/Gravity",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/Garhoogin/Gravity/main/icon.bmp"
+}

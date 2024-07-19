@@ -1,0 +1,21 @@
+{
+	"github": "flarn2006/graphcalc3ds",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		1012099
+	],
+	"image": "https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/banner.png",
+	"icon": "https://raw.githubusercontent.com/flarn2006/GraphCalc3DS/master/icon.png",
+	"archive": {
+		"GraphCalc3DS_3DSX.zip": {
+			"GraphCalc3DS.3dsx": [
+				"GraphCalc3DS.3dsx"
+			]
+		}
+	}
+}

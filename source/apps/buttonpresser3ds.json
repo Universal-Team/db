@@ -1,0 +1,21 @@
+{
+	"github": "trainboy2019/ButtonPresser3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		17968
+	],
+	"image": "https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/resources/Banner.png",
+	"icon": "https://raw.githubusercontent.com/trainboy2019/ButtonPresser3DS/master/icon.png",
+	"archive": {
+		"3ds.zip": {
+			"ButtonPresser3DS.3dsx": [
+				"3ds/ButtonPresser3DS.3dsx"
+			]
+		}
+	}
+}

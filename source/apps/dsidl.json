@@ -1,0 +1,10 @@
+{
+	"github": "Epicpkmn11/dsidl",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon_static": "https://raw.githubusercontent.com/Epicpkmn11/dsidl/master/resources/icon/icon.0.png"
+}

@@ -1,0 +1,72 @@
+{
+	"github": "CollinScripter/Revamped3DS",
+	"title": "Halo Revamped",
+	"author": "TCPixel",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		225771
+	],
+	"icon": "https://raw.githubusercontent.com/CollinScripter/Revamped3DS/master/icon.png",
+	"scripts": {
+		"Revamped.cia": [
+			{
+				"type": "downloadRelease",
+				"repo": "CollinScripter/Revamped3DS",
+				"file": "Revamped.zip",
+				"output": "/Revamped.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Revamped.zip",
+				"input": "Revamped.cia",
+				"output": "/Revamped.cia"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Revamped.zip",
+				"input": "3ds/Revamped",
+				"output": "/3ds/Revamped"
+			},
+			{
+				"type": "installCia",
+				"file": "/Revamped.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/Revamped.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/Revamped.zip"
+			}
+		],
+		"Revamped.3dsx": [
+			{
+				"type": "downloadRelease",
+				"repo": "CollinScripter/Revamped3DS",
+				"file": "Revamped.zip",
+				"output": "/Revamped.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Revamped.zip",
+				"input": "3ds/Revamped",
+				"output": "/3ds/Revamped"
+			},
+			{
+				"type": "move",
+				"old": "/3ds/Revamped/Revamped.3dsx",
+				"new": "%3DSX%/Revamped.3dsx"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/Revamped.zip"
+			}
+		]
+	}
+}

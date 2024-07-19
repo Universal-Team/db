@@ -1,0 +1,10 @@
+{
+	"github": "CarsonKompon/ChatGPT3DS",
+	"categories": [
+		"utility"
+	],
+	"systems": [
+		"3DS"
+	],
+	"long_description": "Make calls to OpenAI's chat completion and image generation API. Requires an [OpenAI API Key](https://platform.openai.com/account/api-keys) with billing set up."
+}

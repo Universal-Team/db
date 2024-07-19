@@ -1,0 +1,24 @@
+{
+	"github": "suloku/pdrpse",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"save-tool"
+	],
+	"unique_ids": [
+		1017951
+	],
+	"icon": "https://raw.githubusercontent.com/suloku/pdrpse/master/icon.png",
+	"archive": {
+		"pdrpse.*\\.zip": {
+			"pdrpse.3dsx": [
+				"3ds/pdrpse/pdrpse.3dsx"
+			],
+			"pdrpse.cia": [
+				"pdrpse.cia"
+			]
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"github": "nop90/Zelda3T",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		39284
+	],
+	"image": "https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/icon.png",
+	"archive": {
+		"Zelda3T_3DSX.*\\.zip": {
+			"Zelda3T.3dsx": [
+				"Zelda3T/Zelda3T.3dsx"
+			]
+		}
+	}
+}

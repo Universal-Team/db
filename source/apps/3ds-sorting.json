@@ -1,0 +1,16 @@
+{
+	"github": "memeToasty/3ds_sorting",
+	"title": "3DS Sorting",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		7676
+	],
+	"icon": "https://raw.githubusercontent.com/memeToasty/3ds_sorting/main/meta/icon.png",
+	"image": "https://raw.githubusercontent.com/memeToasty/3ds_sorting/main/meta/banner.png",
+	"long_description": "This application serves no purpose other than to show some visualisation of certain sorting algorithms, like one would know from famous YouTube videos.\n\nIf you encounter an error, let me know: [Create Issue](https://github.com/memeToasty/3ds_sorting/issues/new)"
+}

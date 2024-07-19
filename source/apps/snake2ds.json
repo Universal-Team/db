@@ -1,0 +1,34 @@
+{
+	"github": "Jacudibu/Snake2DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		4163
+	],
+	"icon": "https://raw.githubusercontent.com/Jacudibu/Snake2DS/master/icon_large.png",
+	"autogen_scripts": true,
+	"scripts": {
+		"Snake2DS.3dsx": [
+			{
+				"type": "downloadRelease",
+				"repo": "Jacudibu/Snake2DS",
+				"file": "Snake2DS-3DSFiles.*\\.zip",
+				"output": "/Snake2DS.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Snake2DS.zip",
+				"input": "Snake2DS/",
+				"output": "%3DSX%/Snake2DS/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/Snake2DS.zip"
+			}
+		]
+	}
+}

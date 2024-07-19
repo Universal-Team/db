@@ -1,0 +1,26 @@
+{
+	"github": "Spaqin/fbwo-3ds",
+	"title": "Falling Blocks Watch Out",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		64101
+	],
+	"description": "Falling Blocks Watch Out, a 3DS homebrew Tetris clone.",
+	"archive": {
+		"fbwo.*\\.zip": {
+			"fbwo.3dsx": [
+				"3ds/fbwo/fbwo.3dsx",
+				"fbwodata/"
+			],
+			"fbwo.cia": [
+				"fbwo.cia",
+				"fbwodata/"
+			]
+		}
+	}
+}

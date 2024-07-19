@@ -1,0 +1,14 @@
+{
+	"github": "SuperSaiyajinStackZ/StackMill",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		275721
+	],
+	"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/StackMill/main/3DS/app/icon.png",
+	"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/StackMill/main/3DS/app/banner.png"
+}

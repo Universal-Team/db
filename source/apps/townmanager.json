@@ -1,0 +1,25 @@
+{
+	"github": "dragos240/TownManager",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"save-tool"
+	],
+	"unique_ids": [
+		72067
+	],
+	"image": "https://raw.githubusercontent.com/dragos240/TownManager/master/res/banner%20icon.png",
+	"icon": "https://raw.githubusercontent.com/dragos240/TownManager/master/icon.png",
+	"archive": {
+		"TownManager.*\\.zip": {
+			"TownManager.3dsx": [
+				"TownManager/TownManager.3dsx"
+			],
+			"TownManager.cia": [
+				"TownManager/TownManager.cia"
+			]
+		}
+	}
+}

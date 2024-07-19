@@ -1,0 +1,70 @@
+{
+	"title": "Colors!",
+	"description": "Colors! is a simplistic painting application combining ease of use and powerful painting tools.",
+	"categories": [
+		"utility"
+	],
+	"downloads": {
+		"Colors110ds.zip": {
+			"url": "https://db.universal-team.net/assets/files/Colors110ds.zip"
+		},
+		"colors_1_10bbeta2.zip": {
+			"url": "https://db.universal-team.net/assets/files/colors_1_10bbeta2.zip"
+		}
+	},
+	"author": "Jens Andersson",
+	"website": "https://www.colorslive.com",
+	"download_page": "https://gamebrew.org/wiki/Colors!",
+	"version": "v1.1b beta2",
+	"updated": "2010-11-16T21:50:12Z",
+	"systems": [
+		"DS"
+	],
+	"scripts": {
+		"[v1.1] Colors.nds": [
+			{
+				"type": "downloadFile",
+				"file": "https://db.universal-team.net/assets/files/Colors110ds.zip",
+				"output": "/Colors110ds.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Colors110ds.zip",
+				"input": "Colors.nds",
+				"output": "%NDS%/Colors.nds"
+			},
+			{
+				"type": "promptMessage",
+				"message": "Extract ColorsMagazine_1.col?",
+				"count": 1
+			},
+			{
+				"type": "extractFile",
+				"file": "/Colors110ds.zip",
+				"input": "ColorsMagazine_1.col",
+				"output": "%NDS%/ColorsMagazine_1.col"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/Colors110ds.zip"
+			}
+		],
+		"[v1.1b beta2] Colors.nds": [
+			{
+				"type": "downloadFile",
+				"file": "https://db.universal-team.net/assets/files/colors_1_10bbeta2.zip",
+				"output": "/colors_1_10bbeta2.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/colors_1_10bbeta2.zip",
+				"input": "Colors.nds",
+				"output": "%NDS%/Colors.nds"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/colors_1_10bbeta2.zip"
+			}
+		]
+	}
+}

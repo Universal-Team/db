@@ -1,0 +1,43 @@
+{
+	"github": "DomRe/3DS_eBook_Reader",
+	"title": "3DS eBook Reader",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		962833
+	],
+	"image": "https://raw.githubusercontent.com/DomRe/3DS_eBook_Reader/master/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/DomRe/3DS_eBook_Reader/master/meta/icon.png",
+	"scripts": {
+		"eBook_Reader.cia": [
+			{
+				"type": "downloadRelease",
+				"repo": "DomRe/3DS_eBook_Reader",
+				"file": "release.*\\.zip",
+				"output": "/release.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/release.zip",
+				"input": "",
+				"output": "/"
+			},
+			{
+				"type": "installCia",
+				"file": "/eBook_Reader.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/eBook_Reader.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/release.zip"
+			}
+		]
+	}
+}

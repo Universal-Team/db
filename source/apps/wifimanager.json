@@ -1,0 +1,14 @@
+{
+	"github": "LiquidFenrir/WifiManager",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		24009
+	],
+	"image": "https://raw.githubusercontent.com/LiquidFenrir/WifiManager/master/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/LiquidFenrir/WifiManager/master/meta/icon.png"
+}

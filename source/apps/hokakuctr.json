@@ -1,0 +1,23 @@
+{
+	"github": "PretendoNetwork/HokakuCTR",
+	"author": "Pretendo Network",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"description": "A 3DS game plugin (3GX) to dump the RMC communication between 3DS games and NEX. The traffic is dumped to the SD into pcap files.",
+	"website": "https://pretendo.network/",
+	"long_description": "## Usage\n\n1. Install the latest [Luma3DS](luma3ds).\n2. Navigate to **luma/plugins** and copy the **.3gx** file as **default.3gx** to load it for all game or place it inside a folder with the game *titleID* you want to use.\n3. Open the Rosalina menu and enable the plugin loader.\n4. Launch the game to dump traffic from. The screen should flash blue and some text will display on the screen. If it says **Not Ready**, it means this game is not compatible. If it says **Ready**, you can go online to dump the traffic.\n\nThe dumps will be placed inside the **HokakuCTR** folder in the SD card root.",
+	"scripts": {
+		"default.3gx": [
+			{
+				"type": "downloadRelease",
+				"repo": "PretendoNetwork/HokakuCTR",
+				"file": "HokakuCTR.3gx",
+				"output": "/luma/plugins/default.3gx"
+			}
+		]
+	}
+}

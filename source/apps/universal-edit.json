@@ -1,0 +1,25 @@
+{
+	"github": "Universal-Team/Universal-Edit",
+	"image": "https://raw.githubusercontent.com/Universal-Team/Universal-Edit/master/3DS/app/banner.png",
+	"icon": "https://raw.githubusercontent.com/Universal-Team/Universal-Edit/master/3DS/app/icon.png",
+	"categories": [
+		"utility"
+	],
+	"systems": [
+		"3DS"
+	],
+	"unique_ids": [
+		276757
+	],
+	"nightly": {
+		"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/Universal-Edit",
+		"downloads": {
+			"Universal-Edit.3dsx": {
+				"url": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Edit/Universal-Edit.3dsx"
+			},
+			"Universal-Edit.cia": {
+				"url": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Edit/Universal-Edit.cia"
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"github": "RocketRobz/SavvyManager",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"save-tool"
+	],
+	"unique_ids": [
+		223603
+	],
+	"image": "https://raw.githubusercontent.com/RocketRobz/SavvyManager/master/app/banner.png",
+	"icon": "https://raw.githubusercontent.com/RocketRobz/SavvyManager/master/app/icon.png"
+}

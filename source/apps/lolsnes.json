@@ -1,0 +1,39 @@
+{
+	"github": "Arisotura/lolSnes",
+	"website": "http://lolsnes.kuribo64.net",
+	"categories": [
+		"emulator"
+	],
+	"download_page": "http://lolsnes.kuribo64.net/download.php",
+	"downloads": {
+		"lolsnes.7z": {
+			"url": "http://lolsnes.kuribo64.net/lolsnes.7z"
+		}
+	},
+	"version": "v1.0",
+	"updated": "2013-08-31T00:23:48Z",
+	"systems": [
+		"DS"
+	],
+	"icon": "https://raw.githubusercontent.com/Arisotura/lolSnes/master/lolsnes.bmp",
+	"nightly": {
+		"download_page": "http://lolsnes.kuribo64.net/download.php",
+		"downloads": {
+			"git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip": {
+				"url": "http://lolsnes.kuribo64.net/gitbuilds/git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip"
+			}
+		}
+	},
+	"archive": {
+		"lolsnes.7z": {
+			"lolSnes.nds": [
+				"lolsnes/lolSnes.nds"
+			]
+		},
+		"git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip": {
+			"lolSnes.nds": [
+				"lolSnes.nds"
+			]
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"github": "PabloMK7/kartdlphax",
+	"description": "Mario Kart 7 semi-primary exploit for the Nintendo 3DS.\n\nNOTE: This is only meant to be used for installing CFW, please do not use unless following a guide.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"exploit"
+	],
+	"scripts": {
+		"[EUR] plugin.3gx": [
+			{
+				"type": "downloadRelease",
+				"repo": "PabloMK7/kartdlphax",
+				"file": "plugin.3gx",
+				"output": "/luma/plugins/0004000000030700/plugin.3gx"
+			}
+		],
+		"[JPN] plugin.3gx": [
+			{
+				"type": "downloadRelease",
+				"repo": "PabloMK7/kartdlphax",
+				"file": "plugin.3gx",
+				"output": "/luma/plugins/0004000000030600/plugin.3gx"
+			}
+		],
+		"[USA] plugin.3gx": [
+			{
+				"type": "downloadRelease",
+				"repo": "PabloMK7/kartdlphax",
+				"file": "plugin.3gx",
+				"output": "/luma/plugins/0004000000030800/plugin.3gx"
+			}
+		]
+	}
+}

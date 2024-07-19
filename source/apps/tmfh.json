@@ -1,0 +1,12 @@
+{
+	"github": "JeffRuLz/TMFH",
+	"categories": [
+		"utility"
+	],
+	"icon": "https://raw.githubusercontent.com/JeffRuLz/TMFH/master/icon.bmp",
+	"systems": [
+		"DS"
+	],
+	"unistore_exclude": true,
+	"long_description": "TMFH is no longer in development, [NTM](/ds/NTM) is a newer fork with additional features."
+}

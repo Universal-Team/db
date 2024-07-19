@@ -1,0 +1,10 @@
+{
+	"github": "edo9300/ndsi-savedumper",
+	"categories": [
+		"utility",
+		"save-tool"
+	],
+	"systems": [
+		"DS"
+	]
+}

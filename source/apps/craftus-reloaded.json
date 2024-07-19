@@ -1,0 +1,15 @@
+{
+	"github": "RSDuck/craftus_reloaded",
+	"title": "Craftus Reloaded",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		1026852
+	],
+	"icon": "https://raw.githubusercontent.com/RSDuck/craftus_reloaded/master/icon/craftusreloaded.png",
+	"autogen_scripts": true
+}

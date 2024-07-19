@@ -1,0 +1,15 @@
+{
+	"github": "SuperSaiyajinStackZ/LeafEdit-Pattern-Editor",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"save-tool"
+	],
+	"unique_ids": [
+		275489
+	],
+	"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/master/app/banner.png",
+	"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor/master/app/icon.png"
+}

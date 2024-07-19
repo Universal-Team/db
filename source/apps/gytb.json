@@ -1,0 +1,42 @@
+{
+	"github": "MechanicalDragon0687/GYTB",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		7643
+	],
+	"image": "https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resources/icon.png",
+	"author": "MrCheeze",
+	"avatar": "https://avatars.githubusercontent.com/u/6541413?v=4",
+	"autogen_scripts": true,
+	"scripts": {
+		"GYTB.3dsx": [
+			{
+				"type": "downloadRelease",
+				"repo": "MechanicalDragon0687/GYTB",
+				"file": "GYTB_hax.zip",
+				"output": "/GYTB_hax.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/GYTB_hax.zip",
+				"input": "",
+				"output": "/"
+			},
+			{
+				"type": "move",
+				"old": "/3ds/GYTB/GYTB.3dsx",
+				"new": "%3DSX%/GYTB.3dsx"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/GYTB_hax.zip"
+			}
+		]
+	}
+}

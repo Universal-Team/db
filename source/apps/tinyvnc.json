@@ -1,0 +1,15 @@
+{
+	"github": "badda71/TinyVNC",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		795699
+	],
+	"website": "https://gbatemp.net/threads/release-tinyvnc-vnc-viewer-for-nintendo-3ds.574242/",
+	"image": "https://raw.githubusercontent.com/badda71/TinyVNC/master/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/badda71/TinyVNC/master/meta/icon.png"
+}

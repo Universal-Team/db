@@ -1,0 +1,24 @@
+{
+	"github": "Nanquitas/BootNTR",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		962560,
+		963328
+	],
+	"icon": "https://raw.githubusercontent.com/Nanquitas/BootNTR/master/resources/icon.png",
+	"archive": {
+		"Home.Menu.Alternate.Banner.zip": {
+			"BootNTRSelector.cia": [
+				"BootNTRSelector.cia"
+			],
+			"BootNTRSelector_Mode3.cia": [
+				"BootNTRSelector_Mode3.cia"
+			]
+		}
+	}
+}

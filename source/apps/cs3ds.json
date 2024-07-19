@@ -1,0 +1,96 @@
+{
+	"github": "machinamentum/CS3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		990125
+	],
+	"icon": "https://raw.githubusercontent.com/machinamentum/CS3DS/master/jge/Projects/cspsp/icon_3ds.png",
+	"scripts": {
+		"[prerelease] cspsp.cia": {
+			"type": "prerelease",
+			"script": [
+				{
+					"type": "downloadRelease",
+					"repo": "machinamentum/CS3DS",
+					"file": "cspsp.zip",
+					"output": "/cspsp.zip",
+					"includePrereleases": true
+				},
+				{
+					"type": "extractFile",
+					"file": "/cspsp.zip",
+					"input": "cspsp/",
+					"output": "/cspsp/"
+				},
+				{
+					"type": "installCia",
+					"file": "/cspsp/cspsp.cia"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/cspsp/cspsp.3dsx"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/cspsp/cspsp.cia"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/cspsp/cspsp.smdh"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/cspsp/README.txt"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/cspsp.zip"
+				}
+			]
+		},
+		"[prerelease] cspsp.3dsx": {
+			"type": "prerelease",
+			"script": [
+				{
+					"type": "downloadRelease",
+					"repo": "machinamentum/CS3DS",
+					"file": "cspsp.zip",
+					"output": "/cspsp.zip",
+					"includePrereleases": true
+				},
+				{
+					"type": "extractFile",
+					"file": "/cspsp.zip",
+					"input": "cspsp/",
+					"output": "/cspsp/"
+				},
+				{
+					"type": "move",
+					"old": "/cspsp/cspsp.3dsx",
+					"new": "%3DSX%/cspsp.3dsx"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/cspsp/cspsp.cia"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/cspsp/cspsp.smdh"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/cspsp/README.txt"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/cspsp.zip"
+				}
+			]
+		}
+	}
+}

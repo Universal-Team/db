@@ -1,0 +1,14 @@
+{
+	"github": "Oreo639/LimePlayer3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		973318
+	],
+	"image": "https://raw.githubusercontent.com/Oreo639/LimePlayer3DS/master/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/Oreo639/LimePlayer3DS/master/meta/icon.png"
+}

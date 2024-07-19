@@ -1,0 +1,128 @@
+{
+	"long_description": "### Installation:\n- TWiLight Menu++: Use either the `GodMode9i.nds` or `GodMode9i.dsi` file, they function identically with TWiLight Menu++\n   - The only difference is that `GodMode9i.dsi` has a Title ID\n- Flashcard: Use the `GodMode9i.nds` file\n- hiyaCFW SDNAND: Install the `GodMode9i.dsi` file with [NTM](/ds/NTM)\n- 3DS HOME Menu: Install the `GodMode9i.cia` file with [FBI](/3ds/fbi)\n\n### Features:\n- Dump GameBoy Advance cartridges on the original Nintendo DS and Nintendo DS Lite consoles.\n- Dump Nintendo DS/DSi cartridges on Nintendo DSi and Nintendo 3DS consoles (if GodMode9i is ran on the console SD card).\n- Copy, move, delete, rename files/folders and create folders.\n- Mount the NitroFS of .nds files.\n- Browse files on supported flashcards when running GM9i from the NAND or SD Card. (`AceKard 2(i)` & `R4 Ultra (r4ultra.com)`)",
+	"github": "DS-Homebrew/GodMode9i",
+	"categories": [
+		"utility",
+		"save-tool"
+	],
+	"systems": [
+		"DS"
+	],
+	"image": "https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png",
+	"icon": "https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/icon.bmp",
+	"wiki": "https://wiki.ds-homebrew.com/other/godmode9i",
+	"nightly": {
+		"download_page": "https://github.com/TWLBot/Builds/blob/master/extras/GodMode9i.7z",
+		"downloads": {
+			"GodMode9i.7z": {
+				"url": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z"
+			}
+		}
+	},
+	"scripts": {
+		"GodMode9i.cia": [
+			{
+				"type": "downloadRelease",
+				"repo": "DS-Homebrew/GodMode9i",
+				"file": "GodMode9i.7z",
+				"output": "/GodMode9i.7z"
+			},
+			{
+				"type": "extractFile",
+				"file": "/GodMode9i.7z",
+				"input": "GodMode9i.nds",
+				"output": "/GodMode9i.nds"
+			},
+			{
+				"type": "extractFile",
+				"file": "/GodMode9i.7z",
+				"input": "GodMode9i.cia",
+				"output": "/GodMode9i.cia"
+			},
+			{
+				"type": "installCia",
+				"file": "/GodMode9i.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/GodMode9i.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/GodMode9i.7z"
+			}
+		],
+		"GodMode9i.nds": [
+			{
+				"type": "downloadRelease",
+				"repo": "DS-Homebrew/GodMode9i",
+				"file": "GodMode9i.7z",
+				"output": "/GodMode9i.7z"
+			},
+			{
+				"type": "extractFile",
+				"file": "/GodMode9i.7z",
+				"input": "GodMode9i.nds",
+				"output": "%NDS%/GodMode9i.nds"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/GodMode9i.7z"
+			}
+		],
+		"[nightly] GodMode9i.cia": {
+			"type": "nightly",
+			"script": [
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z",
+					"output": "/GodMode9i.7z"
+				},
+				{
+					"type": "extractFile",
+					"file": "/GodMode9i.7z",
+					"input": "GodMode9i/GodMode9i.nds",
+					"output": "/GodMode9i.nds"
+				},
+				{
+					"type": "extractFile",
+					"file": "/GodMode9i.7z",
+					"input": "GodMode9i/GodMode9i.cia",
+					"output": "/GodMode9i.cia"
+				},
+				{
+					"type": "installCia",
+					"file": "/GodMode9i.cia"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/GodMode9i.cia"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/GodMode9i.7z"
+				}
+			]
+		},
+		"[nightly] GodMode9i.nds": {
+			"type": "nightly",
+			"script": [
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z",
+					"output": "/GodMode9i.7z"
+				},
+				{
+					"type": "extractFile",
+					"file": "/GodMode9i.7z",
+					"input": "GodMode9i/GodMode9i.nds",
+					"output": "%NDS%/GodMode9i.nds"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/GodMode9i.7z"
+				}
+			]
+		}
+	}
+}

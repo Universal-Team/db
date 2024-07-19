@@ -1,0 +1,14 @@
+{
+	"github": "zoogie/Stuff",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		29011
+	],
+	"image": "https://raw.githubusercontent.com/zoogie/Stuff/master/nds-hb-menu/cia/banner.png",
+	"icon": "https://raw.githubusercontent.com/zoogie/Stuff/master/nds-hb-menu/cia/icon.png"
+}

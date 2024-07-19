@@ -1,0 +1,12 @@
+{
+	"github": "SuperSaiyajinStackZ/LudoNDS",
+	"categories": [
+		"game"
+	],
+	"image": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/LudoNDS/main/Cover_ReadMe.png",
+	"icon": "https://raw.githubusercontent.com/SuperSaiyajinStackZ/LudoNDS/main/icon.bmp",
+	"systems": [
+		"DS"
+	],
+	"long_description": "> The game is playable in Deutsch and English\n\n### Deutsch\n\nLudo klon für den Nintendo DS! Dieses Spiel ist ebenso als [Mensch ärger Dich nicht](https://de.wikipedia.org/wiki/Mensch_ärgere_Dich_nicht) bekannt.\n\n### English\n\nLudo clone for the Nintendo DS! The game is also known as [Mensch ärger Dich nicht (Man, Don't Get Angry)](https://en.wikipedia.org/wiki/Mensch_ärgere_Dich_nicht)."
+}

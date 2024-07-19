@@ -1,0 +1,64 @@
+{
+	"github": "TurtleP/Hax0r",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		54170
+	],
+	"icon": "https://raw.githubusercontent.com/TurtleP/Hax0r/master/graphics/icon.png",
+	"scripts": {
+		"Hax0r.cia": [
+			{
+				"type": "downloadRelease",
+				"repo": "TurtleP/Hax0r",
+				"file": "Hax0r.zip",
+				"output": "/Hax0r.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Hax0r.zip",
+				"input": "",
+				"output": "/3ds/Hax0r/"
+			},
+			{
+				"type": "installCia",
+				"file": "/3ds/Hax0r/Hax0r.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/3ds/Hax0r/Hax0r.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/Hax0r.zip"
+			}
+		],
+		"Hax0r.3dsx": [
+			{
+				"type": "downloadRelease",
+				"repo": "TurtleP/Hax0r",
+				"file": "Hax0r.zip",
+				"output": "/Hax0r.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Hax0r.zip",
+				"input": "",
+				"output": "/3ds/Hax0r/"
+			},
+			{
+				"type": "move",
+				"old": "/3ds/Hax0r/Hax0r.3dsx",
+				"new": "%3DSX%/Hax0r.3dsx"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/Hax0r.zip"
+			}
+		]
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"github": "LukeZGD/DDLC-LOVE",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		56828
+	],
+	"version": "v1.1.8-1",
+	"downloads": {
+		"DDLC-LOVE-3DS.3dsx": {
+			"url": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.8-1/DDLC-LOVE-43cecfd.3dsx",
+			"size": 82643060
+		},
+		"DDLC-LOVE-3DS.cia": {
+			"url": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.8-1/DDLC-LOVE-43cecfd.cia",
+			"size": 83203008
+		}
+	}
+}

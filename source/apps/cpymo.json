@@ -1,0 +1,16 @@
+{
+	"github": "Strrationalism/CPyMO",
+	"author": "Strrationalism Studio",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"unique_ids": [
+		995480
+	],
+	"image": "https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/banner.png",
+	"icon": "https://raw.githubusercontent.com/Strrationalism/CPyMO/main/cpymo-backends/3ds/icon.png",
+	"download_filter": "(\\.3dsx|\\.cia)"
+}

@@ -1,0 +1,112 @@
+{
+	"github": "asiekierka/uxnds",
+	"systems": [
+		"3DS",
+		"DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"long_description": "Unxds is a port of the [Unx virtual machine](https://wiki.xxiivv.com/site/uxn.html) to the 3DS. Uxn is a portable 8-bit virtual computer inspired by [forth-machines](https://en.wikipedia.org/wiki/Forth_(programming_language)), capable of running simple tools and games programmable in its own [assembly language](https://wiki.xxiivv.com/site/uxntal.html).\n\nThis emulator allows you run to your uxn projects on the 3DS, it can also be used for developers who want to learn how to program little 8-bit things.\n\nIt was designed with an implementation-first mindset with a focus on creating portable graphical applications, the distribution of Uxn projects is akin to sharing game roms for any classic console emulator.\n\n### Usage\nBy default, uxnds will run /uxn/boot.rom or /uxn/launcher.rom. It also supports reading files from within /uxn.\n\nOn start, a keyboard is presented on the bottom screen, and the uxn display - on the top screen. Use the L or R buttons to swap them - in this configuration, mouse input is approximated via touchscreen.\n\nYou can use the system button in the lower-left corner to reset the uxn virtual machine.\n\n### Installation\nTwo ports are provided: the 3DS port (compatible with 3DS consoles) and the NDS port (compatible with DS, DSi and 3DS consoles).\n\n#### 3DS port\nThere is one binary provided: uxnds.3dsx.\n\n#### NDS port\nWhen using a real DS, DSi or 3DS console, it is recommended to launch this program via [nds-hb-menu](https://github.com/devkitPro/nds-hb-menu) - though, as it currently doesn't use argc/argv, it doesn't really change much.\n\nThere are three binaries provided:\n- uxnds.nds - faster, but best used only with known-good software,\n- uxnds_debug.nds - slower, but provides debugging information, profiling information and performs CPU stack bounds checks.\n- uxnds_profile.nds - almost as fast as uxnds.nds - with debugging/profiling information, no CPU stack bounds checks.\n",
+	"wiki": "https://wiki.xxiivv.com/site/uxn.html",
+	"website": "https://100r.co/site/uxn.html",
+	"icon": "https://raw.githubusercontent.com/asiekierka/uxnds/main/misc/uxn48.png",
+	"scripts": {
+		"uxnds.3dsx": [
+			{
+				"type": "downloadRelease",
+				"repo": "asiekierka/uxnds",
+				"file": "uxnds\\d+\\.zip",
+				"output": "/uxnds.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/uxnds.zip",
+				"input": "uxnds.3dsx",
+				"output": "%3DSX%/uxnds.3dsx"
+			},
+			{
+				"type": "extractFile",
+				"file": "/uxnds.zip",
+				"input": "uxn",
+				"output": "/uxn"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/uxnds.zip"
+			}
+		],
+		"uxnds.nds": [
+			{
+				"type": "downloadRelease",
+				"repo": "asiekierka/uxnds",
+				"file": "uxnds\\d+\\.zip",
+				"output": "/uxnds.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/uxnds.zip",
+				"input": "uxnds.nds",
+				"output": "%NDS%/uxnds.nds"
+			},
+			{
+				"type": "extractFile",
+				"file": "/uxnds.zip",
+				"input": "uxn",
+				"output": "/uxn"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/uxnds.zip"
+			}
+		],
+		"uxnds_debug.nds": [
+			{
+				"type": "downloadRelease",
+				"repo": "asiekierka/uxnds",
+				"file": "uxnds\\d+\\.zip",
+				"output": "/uxnds.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/uxnds.zip",
+				"input": "uxnds_debug.nds",
+				"output": "%NDS%/uxnds_debug.nds"
+			},
+			{
+				"type": "extractFile",
+				"file": "/uxnds.zip",
+				"input": "uxn",
+				"output": "/uxn"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/uxnds.zip"
+			}
+		],
+		"uxnds_profile.nds": [
+			{
+				"type": "downloadRelease",
+				"repo": "asiekierka/uxnds",
+				"file": "uxnds\\d+\\.zip",
+				"output": "/uxnds.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/uxnds.zip",
+				"input": "uxnds_profile.nds",
+				"output": "%NDS%/uxnds_profile.nds"
+			},
+			{
+				"type": "extractFile",
+				"file": "/uxnds.zip",
+				"input": "uxn",
+				"output": "/uxn"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/uxnds.zip"
+			}
+		]
+	}
+}

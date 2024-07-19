@@ -1,0 +1,296 @@
+{
+	"github": "MegaPika/SatellaZone",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"description": "A Nintendo Zone Revival for the 3DS.",
+	"long_description": "SatellaZone is a 3DS Nintendo Zone Revival patch that allows you to access archives from different stores and restaurants such as Best Buy, AT&T, McDonalds, and more!\n You can access videos using the LocalSatellaZone version.\n You can also be able to access Nintendo Zone without having to launch FBI by downloading the UsaPatch (which is for USA consoles only).\n You can find more informations and tutorials at https://github.com/MegaPika/SatellaZone#readme",
+	"website": "https://satellazone.neocities.org/",
+	"scripts": {
+		"EUR": [
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000022B00/romfs"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "MegaPika/SatellaZone",
+				"file": "SatellaZone.zip",
+				"output": "/SatellaZone.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/SatellaZone.zip",
+				"input": "",
+				"output": "/luma/titles/0004001000022B00/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/SatellaZone.zip"
+			},
+			{
+				"type": "promptMessage",
+				"message": "Ensure \"Enable game patching\" is enabled\nin Luma3DS settings for this to work."
+			}
+		],
+		"USA": [
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000021B00/romfs"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "MegaPika/SatellaZone",
+				"file": "SatellaZone.zip",
+				"output": "/SatellaZone.zip"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "MegaPika/SatellaZone",
+				"file": "UsaPatch.zip",
+				"output": "/UsaPatch.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/SatellaZone.zip",
+				"input": "",
+				"output": "/luma/titles/0004001000021B00/"
+			},
+			{
+				"type": "extractFile",
+				"file": "/UsaPatch.zip",
+				"input": "",
+				"output": "/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/SatellaZone.zip"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/UsaPatch.zip"
+			},
+			{
+				"type": "promptMessage",
+				"message": "Ensure \"Enable game patching\" is enabled\nin Luma3DS settings for this to work."
+			}
+		],
+		"JPN": [
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000020B00/romfs"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "MegaPika/SatellaZone",
+				"file": "SatellaZone.zip",
+				"output": "/SatellaZone.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/SatellaZone.zip",
+				"input": "",
+				"output": "/luma/titles/0004001000020B00/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/SatellaZone.zip"
+			},
+			{
+				"type": "promptMessage",
+				"message": "Ensure \"Enable game patching\" is enabled\nin Luma3DS settings for this to work."
+			}
+		],
+		"[local] EUR": [
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000022B00/romfs"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "MegaPika/SatellaZone",
+				"file": "LocalSatellaZone.zip",
+				"output": "/LocalSatellaZone.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/LocalSatellaZone.zip",
+				"input": "",
+				"output": "/luma/titles/0004001000022B00/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/LocalSatellaZone.zip"
+			},
+			{
+				"type": "promptMessage",
+				"message": "Ensure \"Enable game patching\" is enabled\nin Luma3DS settings for this to work."
+			}
+		],
+		"[local] USA": [
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000021B00/romfs"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "MegaPika/SatellaZone",
+				"file": "LocalSatellaZone.zip",
+				"output": "/LocalSatellaZone.zip"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "MegaPika/SatellaZone",
+				"file": "UsaPatch.zip",
+				"output": "/UsaPatch.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/LocalSatellaZone.zip",
+				"input": "",
+				"output": "/luma/titles/0004001000021B00/"
+			},
+			{
+				"type": "extractFile",
+				"file": "/UsaPatch.zip",
+				"input": "",
+				"output": "/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/LocalSatellaZone.zip"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/UsaPatch.zip"
+			},
+			{
+				"type": "promptMessage",
+				"message": "Ensure \"Enable game patching\" is enabled\nin Luma3DS settings for this to work."
+			}
+		],
+		"[local] JPN": [
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000020B00/romfs"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "MegaPika/SatellaZone",
+				"file": "LocalSatellaZone.zip",
+				"output": "/LocalSatellaZone.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/LocalSatellaZone.zip",
+				"input": "",
+				"output": "/luma/titles/0004001000020B00/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/LocalSatellaZone.zip"
+			},
+			{
+				"type": "promptMessage",
+				"message": "Ensure \"Enable game patching\" is enabled\nin Luma3DS settings for this to work."
+			}
+		],
+		"[local HQ] EUR": [
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000022B00/romfs"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "MegaPika/SatellaZone",
+				"file": "LocalSatellaZoneHQ.zip",
+				"output": "/LocalSatellaZoneHQ.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/LocalSatellaZoneHQ.zip",
+				"input": "",
+				"output": "/luma/titles/0004001000022B00/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/LocalSatellaZoneHQ.zip"
+			},
+			{
+				"type": "promptMessage",
+				"message": "Ensure \"Enable game patching\" is enabled\nin Luma3DS settings for this to work."
+			}
+		],
+		"[local HQ] USA": [
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000021B00/romfs"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "MegaPika/SatellaZone",
+				"file": "LocalSatellaZoneHQ.zip",
+				"output": "/LocalSatellaZoneHQ.zip"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "MegaPika/SatellaZone",
+				"file": "UsaPatch.zip",
+				"output": "/UsaPatch.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/LocalSatellaZoneHQ.zip",
+				"input": "",
+				"output": "/luma/titles/0004001000021B00/"
+			},
+			{
+				"type": "extractFile",
+				"file": "/UsaPatch.zip",
+				"input": "",
+				"output": "/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/LocalSatellaZoneHQ.zip"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/UsaPatch.zip"
+			},
+			{
+				"type": "promptMessage",
+				"message": "Ensure \"Enable game patching\" is enabled\nin Luma3DS settings for this to work."
+			}
+		],
+		"[local HQ] JPN": [
+			{
+				"type": "rmdir",
+				"directory": "/luma/titles/0004001000020B00/romfs"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "MegaPika/SatellaZone",
+				"file": "LocalSatellaZoneHQ.zip",
+				"output": "/LocalSatellaZoneHQ.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/LocalSatellaZoneHQ.zip",
+				"input": "",
+				"output": "/luma/titles/0004001000020B00/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/LocalSatellaZoneHQ.zip"
+			},
+			{
+				"type": "promptMessage",
+				"message": "Ensure \"Enable game patching\" is enabled\nin Luma3DS settings for this to work."
+			}
+		]
+	}
+}

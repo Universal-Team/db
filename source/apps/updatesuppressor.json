@@ -1,0 +1,21 @@
+{
+	"github": "GiantBlargg/UpdateSuppressor",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		128260
+	],
+	"image": "https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/banner.png",
+	"icon": "https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/icon.png",
+	"archive": {
+		"UpdateSuppressor-3dsx.zip": {
+			"UpdateSuppressor.3dsx": [
+				"UpdateSuppressor/UpdateSuppressor.3dsx"
+			]
+		}
+	}
+}

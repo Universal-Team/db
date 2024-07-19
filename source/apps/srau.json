@@ -1,0 +1,22 @@
+{
+	"github": "noirscape/SRAU",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"save-tool"
+	],
+	"unique_ids": [
+		979201
+	],
+	"image": "https://raw.githubusercontent.com/noirscape/SRAU/master/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/noirscape/SRAU/master/meta/icon.png",
+	"archive": {
+		"SRAU.7z": {
+			"SRAU.3dsx": [
+				"SRAU.3dsx"
+			]
+		}
+	}
+}

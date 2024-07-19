@@ -1,0 +1,47 @@
+{
+	"github": "d0k3/SafeB9SInstaller",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"firm"
+	],
+	"icon": "https://raw.githubusercontent.com/d0k3/SafeB9SInstaller/master/resources/BrahmaIcon.png",
+	"scripts": {
+		"SafeB9SInstaller.firm": [
+			{
+				"type": "downloadRelease",
+				"repo": "d0k3/SafeB9SInstaller",
+				"file": "SafeB9SInstaller-.*\\.zip",
+				"output": "/SafeB9SInstaller.zip"
+			},
+			{
+				"file": "/SafeB9SInstaller.zip",
+				"input": "SafeB9SInstaller.firm",
+				"output": "%FIRM%/SafeB9SInstaller.firm",
+				"type": "extractFile"
+			},
+			{
+				"file": "/SafeB9SInstaller.zip",
+				"type": "deleteFile"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "SciresM/boot9strap",
+				"file": "boot9strap-[\\d.]*\\.zip",
+				"output": "/boot9strap.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/boot9strap.zip",
+				"input": "",
+				"output": "/boot9strap/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/boot9strap.zip"
+			}
+		]
+	}
+}

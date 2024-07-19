@@ -1,0 +1,15 @@
+{
+	"github": "mtheall/ftpd",
+	"systems": [
+		"3DS",
+		"DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		782069
+	],
+	"image": "https://raw.githubusercontent.com/mtheall/ftpd/master/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/mtheall/ftpd/master/meta/icon.png"
+}

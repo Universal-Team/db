@@ -1,0 +1,14 @@
+{
+	"github": "SaturnSH2x2/PayloadSpinner3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		10409
+	],
+	"image": "https://raw.githubusercontent.com/SaturnSH2x2/PayloadSpinner3DS/master/assets/banner.png",
+	"icon": "https://raw.githubusercontent.com/SaturnSH2x2/PayloadSpinner3DS/master/assets/icon.png"
+}

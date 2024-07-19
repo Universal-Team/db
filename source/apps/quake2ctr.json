@@ -1,0 +1,13 @@
+{
+	"github": "masterfeizz/Quake2CTR",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		1044773
+	],
+	"script_message": "Note: You will need the \"baseq2\" folder\nfrom the full release of the game in\n\"sdmc:/3ds/quake2\" to play the game."
+}

@@ -1,0 +1,62 @@
+{
+	"github": "DS-Homebrew/nds-bootstrap",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"image": "https://i.imgur.com/BFIu7xX.png",
+	"icon": "https://raw.githubusercontent.com/DS-Homebrew/nds-bootstrap/master/retail/assets/icon.bmp",
+	"long_description": "nds-bootstrap is an open-source application that allows Nintendo DS/DSi ROMs and homebrew to be natively utilised rather than using an emulator. nds-bootstrap works on Nintendo DSi/3DS SD cards through CFW and on Nintendo DS through flashcarts.",
+	"wiki": "https://wiki.ds-homebrew.com/nds-bootstrap/",
+	"priority": true,
+	"nightly": {
+		"download_page": "https://github.com/TWLBot/Builds",
+		"downloads": {
+			"nds-bootstrap.7z": {
+				"url": "https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z"
+			}
+		}
+	},
+	"scripts": {
+		"[nightly] nds-bootstrap": {
+			"type": "nightly",
+			"script": [
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z",
+					"output": "/nds-bootstrap.7z"
+				},
+				{
+					"type": "extractFile",
+					"file": "/nds-bootstrap.7z",
+					"input": "nds-bootstrap/",
+					"output": "/_nds/"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/nds-bootstrap.7z"
+				}
+			]
+		},
+		"nds-bootstrap": [
+			{
+				"type": "downloadRelease",
+				"repo": "DS-Homebrew/nds-bootstrap",
+				"file": "nds-bootstrap.7z",
+				"output": "/nds-bootstrap.7z"
+			},
+			{
+				"type": "extractFile",
+				"file": "/nds-bootstrap.7z",
+				"input": "",
+				"output": "/_nds/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/nds-bootstrap.7z"
+			}
+		]
+	}
+}

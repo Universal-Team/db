@@ -1,0 +1,66 @@
+{
+	"github": "ArcadeJumpers/RenewedSolitude3DS",
+	"title": "Halo Renewed Solitude",
+	"author": "Arcade Jumpers",
+	"systems": ["3DS"],
+	"categories": ["game"],
+	"unique_ids": [225771],
+	"icon": "https://raw.githubusercontent.com/ArcadeJumpers/RenewedSolitude3DS/master/icon.png",
+	"scripts": {
+		"Revamped.cia": [
+			{
+				"type": "downloadRelease",
+				"repo": "ArcadeJumpers/RenewedSolitude3DS",
+				"file": "RenewedSolitude.cia",
+				"output": "/RenewedSolitude.cia"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "ArcadeJumpers/RenewedSolitude3DS",
+				"file": "RenewedSolitude.zip",
+				"output": "/RenewedSolitude.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/RenewedSolitude.zip",
+				"input": "RenewedSolitude",
+				"output": "/3ds/RenewedSolitude"
+			},
+			{
+				"type": "installCia",
+				"file": "/RenewedSolitude.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/RenewedSolitude.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/RenewedSolitude.zip"
+			}
+		],
+		"Revamped.3dsx": [
+			{
+				"type": "downloadRelease",
+				"repo": "ArcadeJumpers/RenewedSolitude3DS",
+				"file": "RenewedSolitude.zip",
+				"output": "/RenewedSolitude.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/RenewedSolitude.zip",
+				"input": "RenewedSolitude",
+				"output": "/3ds/RenewedSolitude"
+			},
+			{
+				"type": "move",
+				"old": "/3ds/RenewedSolitude/RenewedSolitude.3dsx",
+				"new": "%3DSX%/RenewedSolitude.3dsx"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/RenewedSolitude.zip"
+			}
+		]
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"github": "RocketRobz/NTR_Forwarder",
+	"title": "DS Forwarder Packs",
+	"description": "The base forwarder packs for use with Forwarder3-DS and NDSForwarder forwarders",
+	"systems": [
+		"3DS",
+		"DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon": "https://raw.githubusercontent.com/RocketRobz/NTR_Forwarder/forwarder/SD%20Card/sd/icon.bmp",
+	"downloads": {
+		"DS.Game.Forwarder.pack.nds-bootstrap.7z": {
+			"size": 473415,
+			"size_str": "462 KiB",
+			"url": "https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z"
+		}
+	},
+	"scripts": {
+		"SD card forwarder pack": [
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z",
+				"output": "/DS.Game.Forwarder.pack.nds-bootstrap.7z"
+			},
+			{
+				"type": "extractFile",
+				"file": "/DS.Game.Forwarder.pack.nds-bootstrap.7z",
+				"input": "for SD Card root/",
+				"output": "/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/DS.Game.Forwarder.pack.nds-bootstrap.7z"
+			},
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/taserbolt/APFix-and-Widescreen-TWL/raw/main/apfix.pck",
+				"output": "/_nds/ntr-forwarder/apfix.pck"
+			},
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/taserbolt/APFix-and-Widescreen-TWL/raw/main/widescreen.pck",
+				"output": "/_nds/ntr-forwarder/widescreen.pck"
+			}
+		]
+	}
+}

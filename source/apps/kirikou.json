@@ -1,0 +1,12 @@
+{
+	"github": "rayasticot/kirikou",
+	"description": "Explore the city of Bohicon and talk to the villagers ! /!\\ A bit of gore (low-resolution) /!\\",
+	"long_description": "Explore the city of Bohicon and talk to the villagers !\n\n/!\\ A bit of gore (low-resolution) /!\\",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/rayasticot/kirikou/main/icon.bmp"
+}

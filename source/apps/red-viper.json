@@ -1,0 +1,15 @@
+{
+	"github": "skyfloogle/red-viper",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"unique_ids": [
+		1042379
+	],
+	"icon": "https://raw.githubusercontent.com/skyfloogle/red-viper/master/icon.png",
+	"image": "https://raw.githubusercontent.com/skyfloogle/red-viper/master/resources/banner.png",
+	"long_description": "A Virtual Boy emulator for the 3DS. All official games are playable at full speed.\n* All officially licensed games are playable at full speed, even on the original 3DS\n* 3D support\n* Game saves are supported\n* Map either the A/B buttons or the right D-Pad to the face buttons, with the other being on the touch screen\n* New 3DS C-Stick is also supported\n* Configurable face button mapping\n* Configurable color filter"
+}
