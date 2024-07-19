@@ -1,0 +1,7 @@
+{
+	"github": "TheHighTide/GameTipper3DS",
+	"title": "Game Tipper",
+	"systems": ["3DS"],
+	"categories": ["utility"],
+	"long_description": "### About:\n**Game Tipper** is a homebrew application for 3DS systems that allows gamers to get tips for a number of games all in one place on their 3DS. With the application, you can get pointers and tips for games like; Minecraft 3DS Edition, Terraria 3DS Edition, Mario Maker 3DS, and much more.\n\n### What Can Be Added?\nI have created Game Tipper in a way that allows me to add more games and tips extremely easily. If there is a point anything that I want to add, I can add it in less than 5 minutes."
+}
