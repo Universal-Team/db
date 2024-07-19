@@ -1,0 +1,26 @@
+{
+	"github": "CTurt/3DSController",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		987074
+	],
+	"image": "https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/banner.png",
+	"icon": "https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/icon48x48.png",
+	"archive": {
+		"3DSController.*\\.zip": {
+			"3DSController.3dsx": [
+				"3DS/3DSController.3dsx",
+				"3DS/3DSController.ini"
+			],
+			"3DSController.cia": [
+				"3DS/3DSController.cia",
+				"3DS/3DSController.ini"
+			]
+		}
+	}
+}

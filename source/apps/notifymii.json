@@ -1,0 +1,21 @@
+{
+	"github": "Ryuzaki-MrL/NotifyMii",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		973200
+	],
+	"image": "https://raw.githubusercontent.com/Ryuzaki-MrL/NotifyMii/master/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/Ryuzaki-MrL/NotifyMii/master/meta/icon.png",
+	"archive": {
+		"NotifyMii.zip": {
+			"NotifyMii.3dsx": [
+				"3ds/NotifyMii/NotifyMii.3dsx"
+			]
+		}
+	}
+}

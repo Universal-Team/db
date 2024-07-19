@@ -1,0 +1,15 @@
+{
+	"github": "Ordim3n/Smash-Amiibo-Cheat-Tool",
+	"title": "Smash Amiibo Cheat Tool",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		688072
+	],
+	"image": "https://raw.githubusercontent.com/Ordim3n/Smash-Amiibo-Cheat-Tool/master/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/Ordim3n/Smash-Amiibo-Cheat-Tool/master/meta/icon.png"
+}

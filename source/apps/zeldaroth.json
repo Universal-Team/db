@@ -1,0 +1,26 @@
+{
+	"github": "nop90/ZeldaROTH",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		39282
+	],
+	"image": "https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/icon.png",
+	"archive": {
+		"ZeldaROTH_3DSX.*.zip": {
+			"ZeldaROTH.3dsx": [
+				"ZeldaROTH/ZeldaROTH.3dsx"
+			]
+		},
+		"ZeldaROTH_CIA.*.zip": {
+			"ZeldaROTH.cia": [
+				"ZeldaROTH.cia"
+			]
+		}
+	}
+}

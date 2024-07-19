@@ -1,0 +1,14 @@
+{
+	"github": "Core-2-Extreme/Battery_mark_for_3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		967936
+	],
+	"image": "https://raw.githubusercontent.com/Core-2-Extreme/Battery_mark_for_3DS/master/resource/banner.png",
+	"icon": "https://raw.githubusercontent.com/Core-2-Extreme/Battery_mark_for_3DS/master/resource/icon.png"
+}

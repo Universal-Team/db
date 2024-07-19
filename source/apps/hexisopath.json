@@ -1,0 +1,14 @@
+{
+	"github": "LiquidFenrir/HexIsoPath",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		361238
+	],
+	"image": "https://raw.githubusercontent.com/LiquidFenrir/HexIsoPath/master/banner.png",
+	"icon": "https://raw.githubusercontent.com/LiquidFenrir/HexIsoPath/master/icon.png"
+}

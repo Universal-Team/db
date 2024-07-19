@@ -1,0 +1,13 @@
+{
+	"github": "mariohackandglitch/homebrew_launcher_dummy",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		889374
+	],
+	"icon": "https://raw.githubusercontent.com/mariohackandglitch/homebrew_launcher_dummy/master/resources/icon.png"
+}

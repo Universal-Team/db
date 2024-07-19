@@ -1,0 +1,16 @@
+{
+	"github": "Zachary-Rude/Snake-for-3DS",
+	"title": "Snake for 3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		272016
+	],
+	"long_description": "A simple 3DS version of the classic Snake.\n\nYou start moving faster as you get more points.",
+	"image": "https://raw.githubusercontent.com/Zachary-Rude/Snake-for-3DS/master/banner.png",
+	"icon": "https://raw.githubusercontent.com/Zachary-Rude/Snake-for-3DS/master/icon.png"
+}

@@ -1,0 +1,14 @@
+{
+	"github": "hax0kartik/wumiibo",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		57105
+	],
+	"image": "https://raw.githubusercontent.com/hax0kartik/wumiibo/master/wumiibohelper/gfx/icon.png",
+	"download_filter": "cia"
+}

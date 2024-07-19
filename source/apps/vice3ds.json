@@ -1,0 +1,17 @@
+{
+	"github": "badda71/vice3ds",
+	"title": "vice3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"unique_ids": [
+		1045690
+	],
+	"description": "Port of the VICE C64 (x64) emulator to 3DS",
+	"long_description": "Port of the VICE C64 (x64) emulator to 3DS. VICE - the Versatile Commodore Emulator - http://vice-emu.sourceforge.net/\n\nIncluding UI for the 3DS bottom screen, and a lot of new & 3DS-exclusive functionality.",
+	"website": "https://gbatemp.net/threads/release-vice3ds-c64-emulator.534830/",
+	"icon": "https://raw.githubusercontent.com/badda71/vice3ds/master/meta/icon_3ds_C64.png"
+}

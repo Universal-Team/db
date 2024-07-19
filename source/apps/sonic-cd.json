@@ -1,0 +1,18 @@
+{
+	"github": "SaturnSH2x2/Sonic-CD-11-Decompilation",
+	"title": "Sonic CD",
+	"description": "Port of Sonic CD to the 3DS, based on Rubberduckycooly's Sonic CD decompilation",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		12417
+	],
+	"image": "https://raw.githubusercontent.com/SaturnSH2x2/Sonic-CD-11-Decompilation/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/SaturnSH2x2/Sonic-CD-11-Decompilation/master/resources/48x48.png",
+	"long_description": "Port of Sonic CD to the 3DS, based on Rubberduckycooly's Sonic CD decompilation.\n\nIn order to run the game, you need to copy the \"Data.rsdk\" file from the Steam version of Sonic CD to \"/3ds/SonicCD\" on your SD card.",
+	"script_message": "Note: You will need \"Data.rsdk\" from\nthe Steam, Android, or iOS version in\n\"sdmc:/3ds/SonicCD\" to play the game."
+}

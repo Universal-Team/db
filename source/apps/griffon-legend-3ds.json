@@ -1,0 +1,24 @@
+{
+	"github": "nop90/Griffon-Legend-3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		39296
+	],
+	"image": "https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/nop90/Griffon-Legend-3DS/master/resources/icon.png",
+	"archive": {
+		"GriffonLegend.*\\.zip": {
+			"GriffonLegend.cia": [
+				"GriffonLegend.cia"
+			],
+			"GriffonLegend.3dsx": [
+				"GriffonLegend.3dsx"
+			]
+		}
+	}
+}

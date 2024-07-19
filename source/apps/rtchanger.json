@@ -1,0 +1,14 @@
+{
+	"github": "Storm-Eagle20/RTChanger",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		64716
+	],
+	"image": "https://raw.githubusercontent.com/Storm-Eagle20/RTChanger/master/assets/banner.png",
+	"icon": "https://raw.githubusercontent.com/Storm-Eagle20/RTChanger/master/assets/logo.png"
+}

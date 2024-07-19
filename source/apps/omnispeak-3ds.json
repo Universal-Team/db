@@ -1,0 +1,41 @@
+{
+	"github": "RetroGamer02/omnispeak-3ds",
+	"title": "OmniSpeak-3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		202302
+	],
+	"long_description": "OmniSpeak is an open source game engine for playing the MSDOS Commander Keen Galaxy Games 4, 5, and 6.\n\nThe 4th game is shareware and is free to download at the following source. https://davidgow.net/keen/4keen14.zip\n\nThe 5th and 6th games must be bought to legally utilise their .CK files\n\nKeen 4 v1.4 EGA\nKeen 5 v1.4 EGA\nKeen 6 v1.4 EGA\n\nPlace game files in the 3ds/OmniSpeak directory.",
+	"archive": {
+		"OmniSpeak-3ds\\.(.*)\\.zip": {
+			"OmniSpeak-3ds-{}.3dsx": [
+				"OmniSpeak-3ds-{}.3dsx"
+			]
+		}
+	},
+	"autogen_scripts": true,
+	"scripts": {
+		"[shareware] Commander Keen 4": [
+			{
+				"type": "downloadFile",
+				"file": "https://davidgow.net/keen/4keen14.zip",
+				"output": "4keen14.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/4keen14.zip",
+				"input": "",
+				"output": "/3ds/OmniSpeak"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/4keen14.zip"
+			}
+		]
+	}
+}

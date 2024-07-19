@@ -1,0 +1,25 @@
+{
+	"github": "dragos240/Pocket-NLSE",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"save-tool"
+	],
+	"unique_ids": [
+		839214
+	],
+	"image": "https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/res/banner%20icon.png",
+	"icon": "https://raw.githubusercontent.com/dragos240/Pocket-NLSE/master/icon.png",
+	"archive": {
+		"Pocket-NLSE.*\\.zip": {
+			"Pocket-NLSE.3dsx": [
+				"Pocket-NLSE/Pocket-NLSE.3dsx"
+			],
+			"Pocket-NLSE.cia": [
+				"Pocket-NLSE/Pocket-NLSE.cia"
+			]
+		}
+	}
+}

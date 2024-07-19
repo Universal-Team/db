@@ -1,0 +1,40 @@
+{
+	"github": "angband/angband",
+	"title": "Angband",
+	"author": "The Angband team",
+	"source": "https://github.com/angband/angband",
+	"systems": [
+		"3DS",
+		"DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		1045503
+	],
+	"image": "https://github.com/angband.png",
+	"icon": "https://github.com/angband.png?size=48",
+	"long_description": "Angband is a graphical dungeon adventure game that uses textual characters to represent the walls and floors of a dungeon and the inhabitants therein, in the vein of games like NetHack and Rogue. If you need help in-game, press ?.",
+	"license": "gpl-2.0",
+	"license_name": "GNU General Public License v2.0",
+	"download_filter": "-(3ds|nds)\\.zip",
+	"archive": {
+		"Angband-(.*)-3ds\\.zip": {
+			"Angband-{}.3dsx": [
+				"Angband-{}.3dsx",
+				"angband/"
+			],
+			"Angband-{}.cia": [
+				"Angband-{}.cia",
+				"angband/"
+			]
+		},
+		"Angband-(.*)-nds\\.zip": {
+			"Angband-{}.nds": [
+				"Angband-{}.nds",
+				"angband/"
+			]
+		}
+	}
+}

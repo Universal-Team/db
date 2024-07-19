@@ -1,0 +1,25 @@
+{
+	"github": "Ryuzaki-MrL/RomFS-Explorer",
+	"title": "RomFS Explorer",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		662316
+	],
+	"image": "https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS-Explorer/master/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/Ryuzaki-MrL/RomFS-Explorer/master/meta/icon.png",
+	"archive": {
+		"RomFSExplorer.zip": {
+			"RomFSExplorer.3dsx": [
+				"3ds/RomFSExplorer/RomFSExplorer.3dsx"
+			],
+			"RomFSExplorer.cia": [
+				"RomFSExplorer.cia"
+			]
+		}
+	}
+}

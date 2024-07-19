@@ -1,0 +1,77 @@
+{
+	"github": "elhobbs/prboom3ds",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		983090
+	],
+	"image": "https://raw.githubusercontent.com/elhobbs/prboom3ds/master/banner.png",
+	"icon": "https://raw.githubusercontent.com/elhobbs/prboom3ds/master/prboom3ds.png",
+	"scripts": {
+		"[prerelease] prboom3ds.3dsx": {
+			"type": "prerelease",
+			"script": [
+				{
+					"type": "downloadRelease",
+					"repo": "elhobbs/prboom3ds",
+					"file": "prboom3ds.3dsx",
+					"output": "%3DSX%/prboom3ds.3dsx",
+					"includePrereleases": true
+				},
+				{
+					"type": "downloadRelease",
+					"repo": "elhobbs/prboom3ds",
+					"file": "prboom3ds.smdh",
+					"output": "/3ds/prboom3ds/prboom3ds.smdh",
+					"includePrereleases": true
+				},
+				{
+					"type": "downloadRelease",
+					"repo": "elhobbs/prboom3ds",
+					"file": "prboom.wad",
+					"output": "/3ds/prboom3ds/prboom.wad",
+					"includePrereleases": true
+				},
+				{
+					"type": "promptMessage",
+					"message": "You will need to put Doom WAD files in\n\"sdmc:/3ds/prboom3ds/\" to play them."
+				}
+			]
+		},
+		"[prerelease] prboom3ds.cia": {
+			"type": "prerelease",
+			"script": [
+				{
+					"type": "downloadRelease",
+					"repo": "elhobbs/prboom3ds",
+					"file": "prboom3ds.cia",
+					"output": "/prboom3ds.cia",
+					"includePrereleases": true
+				},
+				{
+					"type": "downloadRelease",
+					"repo": "elhobbs/prboom3ds",
+					"file": "prboom.wad",
+					"output": "sdmc:/3ds/prboom3ds/prboom.wad",
+					"includePrereleases": true
+				},
+				{
+					"type": "installCia",
+					"file": "/prboom3ds.cia"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/prboom3ds.cia"
+				},
+				{
+					"type": "promptMessage",
+					"message": "You will need to put Doom WAD files in\n\"sdmc:/3ds/prboom3ds/\" to play them."
+				}
+			]
+		}
+	}
+}

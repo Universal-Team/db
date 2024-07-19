@@ -1,0 +1,25 @@
+{
+	"bitbucket": {
+		"repo": "Coto88/toolchaingenericds-multimediaplayer",
+		"branch": "master"
+	},
+	"nightly": {
+		"download_page": "https://bitbucket.org/Coto88/toolchaingenericds-multimediaplayer/src/master/release",
+		"downloads": {
+			"arm7dldi-ntr/SNEmulDS.nds": {
+				"url": "https://bitbucket.org/Coto88/toolchaingenericds-multimediaplayer/raw/master/release/arm7dldi-ntr/ToolchainGenericDS-multimediaplayer.nds"
+			},
+			"arm7dldi-twl/SNEmulDS.srl": {
+				"url": "https://bitbucket.org/Coto88/toolchaingenericds-multimediaplayer/raw/master/release/arm7dldi-twl/ToolchainGenericDS-multimediaplayer.srl"
+			}
+		}
+	},
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon": "https://bitbucket.org/Coto88/toolchaingenericds-multimediaplayer/raw/master/icon.bmp",
+	"long_description": "TGDS Multimedia Player, supported formats are:\n- IMA-ADPCM (Intel)/WAV/MP3/ (Up to 192K)AAC - M4A - M4B/Ogg/FLAC/NSF/SPC/GBS/+ others working. Streaming mp3, ogg and acc is stripped since itｴs 2019 and the DS does not support HTTPS (TLS1.2+)\n- .TVS video + audio file support: See https://bitbucket.org/Coto88/toolchaingenericds-multimediaplayer/src/master/ToolchainGenericDS-lm-videoplayer/ for compatible multimedia files conversion\n\nButtons:\n- (Start): File Browser -> (A) to play audio file\n- (L): Recent Playlist\n- (R): Random audio file playback\n- (B): Stop audio playback\n- (X): Mandelbrot demo\n- (D-PAD: Down): Volume -\n- (D-PAD: Up): Volume +\n- (Select): this menu"
+}

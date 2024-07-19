@@ -1,0 +1,25 @@
+{
+	"github": "RocketRobz/HoriHD-Gallery",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		295070
+	],
+	"image": "https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/banner.png",
+	"icon": "https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/icon.png",
+	"long_description": "A demonstration of the 800px mode on 3DS consoles. Will not work on O2DS consoles.",
+	"archive": {
+		"HoriHD-Gallery.7z": {
+			"HoriHD-Gallery.3dsx": [
+				"HoriHD-Gallery.3dsx"
+			],
+			"HoriHD-Gallery.cia": [
+				"HoriHD-Gallery.cia"
+			]
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"github": "LumaTeam/Luma3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"firm",
+		"luma3ds"
+	],
+	"autogen_scripts": true,
+	"archive": {
+		"Luma3DS.*.zip": {
+			"boot.firm": [
+				"boot.firm"
+			]
+		}
+	},
+	"scripts": {
+		"[hourly] boot.firm": {
+			"type": "nightly",
+			"script": [
+				{
+					"type": "downloadRelease",
+					"repo": "hax0kartik/luma-hourlies",
+					"file": "boot.firm",
+					"output": "/boot.firm"
+				}
+			]
+		}
+	}
+}

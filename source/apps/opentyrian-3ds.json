@@ -1,0 +1,24 @@
+{
+	"github": "nop90/Opentyrian-3ds",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		39294
+	],
+	"image": "https://raw.githubusercontent.com/nop90/Opentyrian-3ds/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/nop90/Opentyrian-3ds/master/resources/icon.png",
+	"archive": {
+		"Opentyrian.*\\.zip": {
+			"Opentyrian.cia": [
+				"Opentyrian.cia"
+			],
+			"Opentyrian.3dsx": [
+				"Opentyrian/Opentyrian.3dsx"
+			]
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"github": "TricksterGuy/3ds-vgmstream",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		252579
+	],
+	"image": "https://raw.githubusercontent.com/TricksterGuy/3ds-vgmstream/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/TricksterGuy/3ds-vgmstream/master/resources/icon.png",
+	"archive": {
+		"3ds-vgmstream.zip": {
+			"3ds-vgmstream.3dsx": [
+				"3ds/3ds-vgmstream/3ds-vgmstream.3dsx"
+			]
+		}
+	}
+}

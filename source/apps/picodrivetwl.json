@@ -1,0 +1,10 @@
+{
+	"github": "DS-Homebrew/PicoDriveTWL",
+	"categories": [
+		"emulator"
+	],
+	"systems": [
+		"DS"
+	],
+	"icon": "https://raw.githubusercontent.com/DS-Homebrew/PicoDriveTWL/master/genesis-32x32.bmp"
+}

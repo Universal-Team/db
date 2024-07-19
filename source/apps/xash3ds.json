@@ -1,0 +1,45 @@
+{
+	"github": "masterfeizz/Xash3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"long_description": "Xash3D Engine is a custom Gold Source engine rewritten from scratch. Xash3D is compatible with many of the Gold Source games and mods and should be able to run almost any existing singleplayer Half-Life mod without a hitch. The multiplayer part is not yet completed, multiplayer mods should work just fine, but bear in mind that some features may not work at all or work not exactly the way they do in Gold Source Engine.",
+	"icon": "https://raw.githubusercontent.com/masterfeizz/Xash3DS/master/icon.png",
+	"image": "https://raw.githubusercontent.com/masterfeizz/Xash3DS/master/banner.png",
+	"autogen_scripts": true,
+	"scripts": {
+		"[full game] extras.pak": [
+			{
+				"type": "downloadRelease",
+				"repo": "masterfeizz/Xash3DS",
+				"file": "extras.pak",
+				"output": "/xash3d/extras.pak"
+			},
+			{
+				"type": "promptMessage",
+				"message": "You will need to copy the \"valve\" directory from\nyour Half-Life installation to \"sdmc:/xash3d/\".\n\nIf present, delete \"config.cfg\", \"video.cfg\",\nand \"opengl.cfg\" from the value directory."
+			}
+		],
+		"[demo] uplink_data.zip": [
+			{
+				"type": "downloadRelease",
+				"repo": "masterfeizz/Xash3DS",
+				"file": "uplink_data.zip",
+				"output": "/uplink_data.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/uplink_data.zip",
+				"input": "",
+				"output": "/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/uplink_data.zip"
+			}
+		]
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"github": "Core-2-Extreme/Video_player_for_3DS",
+	"title": "Video player for 3DS",
+	"description": "You can play .mp4 file on your 3DS!",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		968192
+	],
+	"image": "https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/banner.png",
+	"icon": "https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/icon.png",
+	"long_description": "You can play .mp4 file on your 3DS!\n\nPerformance\nSoftware decoding\n256x144(144p)@30fps(H.264) on OLD 3DS\n640x360(360p)@24fps(H.264) on NEW 3DS\nHardware decoding (new 3ds only)\n854x480(480p)@40~50fps(H.264) on NEW 3DS",
+	"author": "Core 2 Extreme, dixy52-beep (icon, banner, in app texture)"
+}

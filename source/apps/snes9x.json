@@ -1,0 +1,72 @@
+{
+	"github": "bubble2k16/snes9x_3ds",
+	"title": "Snes9x",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"unique_ids": [
+		14409
+	],
+	"icon": "https://raw.githubusercontent.com/bubble2k16/snes9x_3ds/master/assets/icon.png",
+	"scripts": {
+		"snes9x_3ds.cia": [
+			{
+				"type": "downloadRelease",
+				"repo": "bubble2k16/snes9x_3ds",
+				"file": "snes9x_3ds.*\\.zip",
+				"output": "/snes9x_3ds.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/snes9x_3ds.zip",
+				"input": "snes9x_3ds.cia",
+				"output": "/snes9x_3ds.cia"
+			},
+			{
+				"type": "extractFile",
+				"file": "/snes9x_3ds.zip",
+				"input": "snes9x_3ds_top.png",
+				"output": "/3ds/snes9x_3ds/snes9x_3ds_top.png"
+			},
+			{
+				"type": "installCia",
+				"file": "/snes9x_3ds.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/snes9x_3ds.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/snes9x_3ds.zip"
+			}
+		],
+		"snes9x_3ds.3dsx": [
+			{
+				"type": "downloadRelease",
+				"repo": "bubble2k16/snes9x_3ds",
+				"file": "snes9x_3ds.*\\.zip",
+				"output": "/snes9x_3ds.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/snes9x_3ds.zip",
+				"input": "snes9x_3ds.3dsx",
+				"output": "%3DSX%/snes9x_3ds.3dsx"
+			},
+			{
+				"type": "extractFile",
+				"file": "/snes9x_3ds.zip",
+				"input": "snes9x_3ds_top.png",
+				"output": "/3ds/snes9x_3ds/snes9x_3ds_top.png"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/snes9x_3ds.zip"
+			}
+		]
+	}
+}

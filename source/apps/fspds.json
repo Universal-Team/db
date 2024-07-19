@@ -1,0 +1,18 @@
+{
+	"github": "NotImplementedLife/FSPDS",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon": "https://raw.githubusercontent.com/NotImplementedLife/FSPDS/master/icon.bmp",
+	"long_description": "A DS ROM which allows playing DSi's Flipnote Studio (.ppm) files on a DS Phat/Lite. It features flipnote image and sound player with pause/resume option, and also a file metadata viewer.\n\nPlace the flipnotes you want to play in a `/flipnotes/` folder at the root of your SD card. FSPDS will not detect/play files larger than 1MB. It is also possible the app won't play correctly files with more than 512KB of BGM soundtrack (although I have never met such a file during my tests).",
+	"archive": {
+		"FSPDS-.*\\.zip": {
+			"FSPDS.nds": [
+				"FSPDS.nds"
+			]
+		}
+	}
+}

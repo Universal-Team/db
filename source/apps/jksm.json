@@ -1,0 +1,14 @@
+{
+	"github": "J-D-K/JKSM",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"save-tool"
+	],
+	"unique_ids": [
+		180786
+	],
+	"icon": "https://raw.githubusercontent.com/J-D-K/JKSM/master/icon.png"
+}

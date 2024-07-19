@@ -1,0 +1,14 @@
+{
+	"github": "astronautlevel2/Anemone3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		765920
+	],
+	"image": "https://raw.githubusercontent.com/astronautlevel2/Anemone3DS/master/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/astronautlevel2/Anemone3DS/master/meta/icon.png"
+}

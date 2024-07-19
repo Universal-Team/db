@@ -1,0 +1,36 @@
+{
+	"github": "profi200/open_agb_firm",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"emulator",
+		"firm"
+	],
+	"scripts": {
+		"open_agb_firm.firm": [
+			{
+				"type": "downloadRelease",
+				"repo": "profi200/open_agb_firm",
+				"file": "open_agb_firm.*.7z",
+				"output": "/open_agb_firm.7z"
+			},
+			{
+				"type": "extractFile",
+				"file": "/open_agb_firm.7z",
+				"input": "open_agb_firm.firm",
+				"output": "%FIRM%/open_agb_firm.firm"
+			},
+			{
+				"type": "extractFile",
+				"file": "/open_agb_firm.7z",
+				"input": "3ds/",
+				"output": "/3ds/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/open_agb_firm.7z"
+			}
+		]
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"github": "JeffRuLz/Sonic-1-2-2013-Decompilation",
+	"title": "Sonic 1 / 2",
+	"description": "Port of Sonic 1 and 2 to the 3DS, based on Rubberduckycooly's Sonic 1/2 (2013) decompilation",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		18331,
+		18332
+	],
+	"image": "https://raw.githubusercontent.com/JeffRuLz/Sonic-1-2-2013-Decompilation/main/Sonic1Decomp.3DS/banner/banner.png",
+	"icon": "https://raw.githubusercontent.com/JeffRuLz/Sonic-1-2-2013-Decompilation/main/Sonic1Decomp.3DS/banner/icon.png",
+	"long_description": "Port of Sonic 1 and 2 to the 3DS, based on Rubberduckycooly's Sonic 1/2 (2013) decompilation.\n\nIn order to run the game, you need to get the \"Data.rsdk.xmf\" file from a copy of Sonic 1 or 2 (2013), rename it to \"Data.rsdk\", and copy it to \"/3ds/Sonic1\" or \"/3ds/Sonic2\" respectively on your SD card.\n\nOfficial video guide on how to get the \"Data.rsdk.xmf\" file from each game: <https://www.youtube.com/watch?v=gzIfRW91IxE>",
+	"script_message": "Note: You will need \"Data.rsdk\" from\nthe Steam, Android, or iOS version in\n\"/3ds/Sonic1\" / \"/3ds/Sonic2\" to play the game."
+}

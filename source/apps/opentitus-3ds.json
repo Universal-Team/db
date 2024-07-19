@@ -1,0 +1,202 @@
+{
+	"github": "MrHuu/opentitus-3ds",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		1045312,
+		1045313
+	],
+	"image": "https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_banner.png",
+	"icon": "https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_icon_48x48.png",
+	"downloads": {
+		"OpenTitus_MOKTAR_3DSX_23-12-2018.7z": {
+			"url": "https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_MOKTAR_3DSX_23-12-2018.7z"
+		},
+		"OpenTitus_TITUS_3DSX_23-12-2018.7z": {
+			"url": "https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_TITUS_3DSX_23-12-2018.7z"
+		},
+		"OpenTitus_MOKTAR_CIA_25-12-2018.7z": {
+			"url": "https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_MOKTAR_CIA_25-12-2018.7z"
+		},
+		"OpenTitus_TITUS_CIA_25-12-2018.7z": {
+			"url": "https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_TITUS_CIA_25-12-2018.7z"
+		}
+	},
+	"long_description": "The CIA and 3DSX downloads should be used on new 3DS systems, the LOW_FREQ downloads should be used on old 3DS.\n\nYou will need the original game files in `sdmc:/3ds/OpenTitus/moktar` for the moktar buids and `sdmc:/3ds/OpenTitus/titus` for the titus builds.",
+	"scripts": {
+		"[moktar] OpenTitus.cia": [
+			{
+				"type": "promptMessage",
+				"message": "Are you on a New 3DS/2DS?",
+				"count": 2
+			},
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_MOKTAR_CIA_25-12-2018.7z",
+				"output": "/OpenTitus.7z"
+			},
+			{
+				"type": "skip",
+				"count": 1
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "MrHuu/opentitus-3ds",
+				"file": "OpenTitus_MOKTAR.*\\.7z",
+				"output": "/OpenTitus.7z"
+			},
+			{
+				"type": "extractFile",
+				"file": "/OpenTitus.7z",
+				"input": "OpenTitus/",
+				"output": "/3ds/OpenTitus/"
+			},
+			{
+				"type": "installCia",
+				"file": "/3ds/OpenTitus/OpenTitus.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/3ds/OpenTitus/OpenTitus.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/OpenTitus.7z"
+			},
+			{
+				"type": "promptMessage",
+				"message": "Now you will need to put the original game files in\n\"sd:/3ds/OpenTitus/moktar\" for the game to work."
+			}
+		],
+		"[moktar] OpenTitus.3dsx": [
+			{
+				"type": "promptMessage",
+				"message": "Are you on a New 3DS/2DS?",
+				"count": 2
+			},
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_MOKTAR_3DSX_23-12-2018.7z",
+				"output": "/OpenTitus.7z"
+			},
+			{
+				"type": "skip",
+				"count": 1
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "MrHuu/opentitus-3ds",
+				"file": "OpenTitus_MOKTAR.*\\.7z",
+				"output": "/OpenTitus.7z"
+			},
+			{
+				"type": "extractFile",
+				"file": "/OpenTitus.7z",
+				"input": "OpenTitus/",
+				"output": "/3ds/OpenTitus/"
+			},
+			{
+				"type": "move",
+				"old": "/3ds/OpenTitus/OpenTitus.3dsx",
+				"new": "%3DSX%/OpenTitus.3dsx"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/OpenTitus.7z"
+			},
+			{
+				"type": "promptMessage",
+				"message": "Now you will need to put the original game files in\n\"sd:/3ds/OpenTitus/moktar\" for the game to work."
+			}
+		],
+		"[titus] OpenTitus.cia": [
+			{
+				"type": "promptMessage",
+				"message": "Are you on a New 3DS/2DS?",
+				"count": 2
+			},
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_TITUS_CIA_25-12-2018.7z",
+				"output": "/OpenTitus.7z"
+			},
+			{
+				"type": "skip",
+				"count": 1
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "MrHuu/opentitus-3ds",
+				"file": "OpenTitus_TITUS.*\\.7z",
+				"output": "/OpenTitus.7z"
+			},
+			{
+				"type": "extractFile",
+				"file": "/OpenTitus.7z",
+				"input": "OpenTitus/",
+				"output": "/3ds/OpenTitus/"
+			},
+			{
+				"type": "installCia",
+				"file": "/3ds/OpenTitus/OpenTitus.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/3ds/OpenTitus/OpenTitus.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/OpenTitus.7z"
+			},
+			{
+				"type": "promptMessage",
+				"message": "Now you will need to put the original game files in\n\"sd:/3ds/OpenTitus/titus\" for the game to work."
+			}
+		],
+		"[titus] OpenTitus.3dsx": [
+			{
+				"type": "promptMessage",
+				"message": "Are you on a New 3DS/2DS?",
+				"count": 2
+			},
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_TITUS_3DSX_23-12-2018.7z",
+				"output": "/OpenTitus.7z"
+			},
+			{
+				"type": "skip",
+				"count": 1
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "MrHuu/opentitus-3ds",
+				"file": "OpenTitus_TITUS.*\\.7z",
+				"output": "/OpenTitus.7z"
+			},
+			{
+				"type": "extractFile",
+				"file": "/OpenTitus.7z",
+				"input": "OpenTitus/",
+				"output": "/3ds/OpenTitus/"
+			},
+			{
+				"type": "move",
+				"old": "/3ds/OpenTitus/OpenTitus.3dsx",
+				"new": "%3DSX%/OpenTitus.3dsx"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/OpenTitus.7z"
+			},
+			{
+				"type": "promptMessage",
+				"message": "Now you will need to put the original game files in\n\"sd:/3ds/OpenTitus/titus\" for the game to work."
+			}
+		]
+	}
+}

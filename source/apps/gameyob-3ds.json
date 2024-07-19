@@ -1,0 +1,15 @@
+{
+	"title": "GameYob (3DS)",
+	"author": "Steven Smith",
+	"github": "SombrAbsol/GameYob-3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"unique_ids": [
+		6439
+	],
+	"icon": "https://raw.githubusercontent.com/SombrAbsol/GameYob-3DS/main/resources/icon.png"
+}

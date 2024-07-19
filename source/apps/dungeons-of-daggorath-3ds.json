@@ -1,0 +1,15 @@
+{
+	"github": "pyroticinsanity/3dsdod",
+	"title": "Dungeons of Daggorath 3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		253197
+	],
+	"icon": "https://raw.githubusercontent.com/pyroticinsanity/3dsdod/master/banner/3dsdod-icon.png",
+	"long_description": "A port of the TRS-80 game \"Dungeons of Daggorath.\" The original game is controlled by typing commands on the computer, so they are assigned to the 3DS buttons in this port. You can also make custom commands when you press the L button."
+}

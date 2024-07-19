@@ -1,0 +1,14 @@
+{
+	"github": "aliceinpalth/3dfetch",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		653726
+	],
+	"image": "https://raw.githubusercontent.com/aliceinpalth/3dfetch/master/banner.png",
+	"icon": "https://raw.githubusercontent.com/aliceinpalth/3dfetch/master/icon.png"
+}

@@ -1,0 +1,36 @@
+{
+	"github": "nzp-team/nzportable",
+	"title": "Nazi Zombies: Portable",
+	"author": "NZ:P Team & masterfeizz",
+	"website": "https://github.com/nzp-team/nzportable",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/nzp-team/glquake/main/icon.png",
+	"image": "https://raw.githubusercontent.com/nzp-team/glquake/main/banner.png",
+	"long_description": "A Quake-based \"demake\" of the 'Nazi Zombies' mode from Call of Duty: World at War.\n\nFeature-equivalent with Call of Duty: World at War on a generic level. Gameplay components are implemented, with minor parity differences. Most World at War maps and their gimmicks are not yet represented. Minor features from Call of Duty: Black Ops are also present.\n\nFeatures \"Nacht der Untoten\" and many maps created by the Community, bundled in.",
+	"download_filter": "3ds",
+	"scripts": {
+		"nzportable-3ds.zip": [
+			{
+				"type": "downloadRelease",
+				"repo": "nzp-team/nzportable",
+				"file": "nzportable-3ds\\.zip",
+				"output": "/nzportable-3ds.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/nzportable-3ds.zip",
+				"input": "",
+				"output": "/3ds/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/nzportable-3ds.zip"
+			}
+		]
+	}
+}

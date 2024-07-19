@@ -1,0 +1,24 @@
+{
+	"github": "nop90/OpenSyobon3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		39281
+	],
+	"image": "https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/icon.png",
+	"archive": {
+		"OpenSyobon3DS.*\\.zip": {
+			"OpenSyobon3DS.3dsx": [
+				"3ds/OpenSyobon3DS/OpenSyobon3DS.3dsx"
+			],
+			"OpenSyobon3DS.cia": [
+				"OpenSyobon3DS.cia"
+			]
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"long_description": "3DEins is a Cardgame for Nintendo 3DS. It's basically an UNO clone.\n\nIt currently includes:\n- Multi Player on one console\n- Customizable Cards & Characters\n- Translated to English, French, German, Japanese, Russian, and Spanish\n- Customizable interface colors",
+	"github": "Universal-Team/3DEins",
+	"image": "https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/banner.png",
+	"icon": "https://raw.githubusercontent.com/Universal-Team/3DEins/master/3ds/app/icon.png",
+	"categories": [
+		"game"
+	],
+	"systems": [
+		"3DS"
+	],
+	"unique_ids": [
+		275968
+	],
+	"nightly": {
+		"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/3DEins",
+		"downloads": {
+			"3DEins.3dsx": {
+				"url": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.3dsx"
+			},
+			"3DEins.cia": {
+				"url": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.cia"
+			}
+		}
+	}
+}

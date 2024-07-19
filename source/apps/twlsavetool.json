@@ -1,0 +1,21 @@
+{
+	"github": "TuxSH/TWLSaveTool",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"save-tool"
+	],
+	"unique_ids": [
+		986607
+	],
+	"icon": "https://raw.githubusercontent.com/TuxSH/TWLSaveTool/master/app/IconLarge.png",
+	"archive": {
+		"TWLSaveTool.zip": {
+			"TWLSaveTool.3dsx": [
+				"3ds/TWLSaveTool/TWLSaveTool.3dsx"
+			]
+		}
+	}
+}

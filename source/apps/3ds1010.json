@@ -1,0 +1,25 @@
+{
+	"github": "LiquidFenrir/3ds1010",
+	"description": "Port of 1010! to 3ds homebrew, made in C.\nIt's like Tetris but with infinite time, you lose when you can no longer place any of the pieces you have available.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		250224
+	],
+	"image": "https://raw.githubusercontent.com/LiquidFenrir/3ds1010/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/LiquidFenrir/3ds1010/master/resources/icon.png",
+	"archive": {
+		"3ds1010.zip": {
+			"3ds1010.cia": [
+				"3ds1010.cia"
+			],
+			"3ds1010.3dsx": [
+				"3ds/3ds1010/3ds1010.3dsx"
+			]
+		}
+	}
+}

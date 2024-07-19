@@ -1,0 +1,137 @@
+{
+	"github": "Universal-Team/Relaunch",
+	"image": "https://raw.githubusercontent.com/Universal-Team/Relaunch/master/logo.png",
+	"icon": "https://raw.githubusercontent.com/Universal-Team/Relaunch/master/main/icon.bmp",
+	"categories": [
+		"utility"
+	],
+	"systems": [
+		"DS"
+	],
+	"nightly": {
+		"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/Relaunch",
+		"downloads": {
+			"Relaunch.7z": {
+				"url": "https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z"
+			}
+		}
+	},
+	"scripts": {
+		"Relaunch.cia": [
+			{
+				"type": "downloadRelease",
+				"repo": "Universal-Team/Relaunch",
+				"file": "Relaunch.7z",
+				"output": "/Relaunch.7z"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Relaunch.7z",
+				"input": "Relaunch/Relaunch.cia",
+				"output": "/Relaunch.cia"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Relaunch.7z",
+				"input": "Relaunch/_nds/Relaunch/menu.bin",
+				"output": "/_nds/Relaunch/menu.bin"
+			},
+			{
+				"type": "installCia",
+				"file": "/Relaunch.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/Relaunch.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/Relaunch.7z"
+			}
+		],
+		"Relaunch.nds": [
+			{
+				"type": "downloadRelease",
+				"repo": "Universal-Team/Relaunch",
+				"file": "Relaunch.7z",
+				"output": "/Relaunch.7z"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Relaunch.7z",
+				"input": "Relaunch/Relaunch.nds",
+				"output": "%NDS%/Relaunch.nds"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Relaunch.7z",
+				"input": "Relaunch/_nds/Relaunch/menu.bin",
+				"output": "/_nds/Relaunch/menu.bin"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/Relaunch.7z"
+			}
+		],
+		"[nightly] Relaunch.cia": {
+			"type": "nightly",
+			"script": [
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z",
+					"output": "/Relaunch.7z"
+				},
+				{
+					"type": "extractFile",
+					"file": "/Relaunch.7z",
+					"input": "Relaunch/Relaunch.cia",
+					"output": "/Relaunch.cia"
+				},
+				{
+					"type": "extractFile",
+					"file": "/Relaunch.7z",
+					"input": "Relaunch/_nds/Relaunch/menu.bin",
+					"output": "/_nds/Relaunch/menu.bin"
+				},
+				{
+					"type": "installCia",
+					"file": "/Relaunch.cia"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Relaunch.cia"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Relaunch.7z"
+				}
+			]
+		},
+		"[nightly] Relaunch.nds": {
+			"type": "nightly",
+			"script": [
+				{
+					"type": "downloadFile",
+					"file": "https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z",
+					"output": "/Relaunch.7z"
+				},
+				{
+					"type": "extractFile",
+					"file": "/Relaunch.7z",
+					"input": "Relaunch/Relaunch.nds",
+					"output": "%NDS%/Relaunch.nds"
+				},
+				{
+					"type": "extractFile",
+					"file": "/Relaunch.7z",
+					"input": "Relaunch/_nds/Relaunch/menu.bin",
+					"output": "/_nds/Relaunch/menu.bin"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/Relaunch.7z"
+				}
+			]
+		}
+	}
+}

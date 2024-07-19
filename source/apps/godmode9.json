@@ -1,0 +1,37 @@
+{
+	"github": "d0k3/GodMode9",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"firm"
+	],
+	"image": "https://raw.githubusercontent.com/d0k3/GodMode9/master/resources/logo.png",
+	"scripts": {
+		"GodMode9.firm": [
+			{
+				"type": "downloadRelease",
+				"repo": "d0k3/GodMode9",
+				"file": "GodMode9.*.zip",
+				"output": "/GodMode9.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/GodMode9.zip",
+				"input": "GodMode9.firm$",
+				"output": "%FIRM%/GodMode9.firm"
+			},
+			{
+				"type": "extractFile",
+				"file": "/GodMode9.zip",
+				"input": "gm9/",
+				"output": "/gm9/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/GodMode9.zip"
+			}
+		]
+	}
+}

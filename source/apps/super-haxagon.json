@@ -1,0 +1,14 @@
+{
+	"github": "RedInquisitive/Super-Haxagon",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		39338
+	],
+	"image": "https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/banner.png",
+	"icon": "https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/icon-3ds.png"
+}

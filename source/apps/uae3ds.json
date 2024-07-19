@@ -1,0 +1,18 @@
+{
+	"github": "badda71/uae3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"unique_ids": [
+		300611
+	],
+	"description": "Port of Chui's UAE4ALL Amiga 500 emulator to Nintendo 3DS",
+	"long_description": "Port of Chui's UAE4ALL Amiga 500 emulator (http://chui.dcemu.co.uk/uae4all.html) to Nintendo 3DS",
+	"website": "https://gbatemp.net/threads/release-uae3ds-amiga-500-emulator-for-nintendo-3ds.558577/",
+	"icon": "https://raw.githubusercontent.com/badda71/uae3DS/master/meta/icon.png",
+	"image": "https://raw.githubusercontent.com/badda71/uae3DS/master/meta/banner.png",
+	"script_message": "You will need a \"kick.rom\" file in sdmc:/3ds/uae3DS.\n\nIt must be called \"kick.rom\", be a kickstart 1.3 image,\nand be the 512KB overdumped version."
+}

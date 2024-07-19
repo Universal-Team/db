@@ -1,0 +1,38 @@
+{
+	"github": "masterfeizz/daedalusx64-3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"unique_ids": [
+		896723
+	],
+	"image": "https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/master/Source/SysCTR/Resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/master/Source/SysCTR/Resources/icon.png",
+	"autogen_scripts": true,
+	"scripts": {
+		"3ds.zip": {
+			"size": "12.9 MiB",
+			"script": [
+				{
+					"type": "downloadRelease",
+					"repo": "masterfeizz/DaedalusX64-3DS",
+					"file": "3ds.zip",
+					"output": "/3ds.zip"
+				},
+				{
+					"type": "extractFile",
+					"file": "/3ds.zip",
+					"input": "",
+					"output": "/"
+				},
+				{
+					"type": "deleteFile",
+					"file": "/3ds.zip"
+				}
+			]
+		}
+	}
+}

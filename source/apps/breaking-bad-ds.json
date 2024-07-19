@@ -1,0 +1,31 @@
+{
+	"github": "WiIIiam278/breaking-bad-ds",
+	"title": "Breaking Bad DS",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"game"
+	],
+	"author": "William278",
+	"website": "https://william278.net/project/breaking-bad-ds",
+	"description": "Breaking Bad, as a Nintendo DS game! Master the art of the cook and prepare the perfect batch—lest you meet the wrong end of Gus. Hone your cook in both Singleplayer and Local Multiplayer Vs.",
+	"long_description": "*Breaking Bad*, as a Nintendo DS game, complete with 3D graphics and models. Master the art of the cook on your Nintendo DS system and prepare the perfect batch&mdash;lest you meet the wrong end of Gus. Hone your cook in both Singleplayer and Local Multiplayer Vs.\n\n## Instructions\n### Tutorial (1P)\nThe Tutorial will teach you how to play! Gale will provide instructions on how to complete each Minigame. To access the Tutorial, select it from the Main Menu.\n\n### Story Mode (1P)\nTo start story mode, start the game. Touch to start, then tap \"Start Game → Story Mode.\"\n\nGus has appointed you Head Cook! Meet his ever-increasing demands by cooking against the clock in the Superlab. Each day, you'll be given a Quota you must complete within a set time limit to progress on to the next day. After each day, you'll receive your pay packet based on your performance and efficiency, which you can spend in Saul's shop!\n\nStory mode lasts five days, and there are two possible endings (\"Good\" and \"Bad\"). Good luck!\n\n### Local Multiplayer (2P)\nBreaking Bad for Nintendo DS also supports up to two Nintendo DS systems playing together in a Multiplayer Vs. Battle to see who can complete their batches the quickest. To set this up:\n\n* On the first system, launch the game. Touch to start, then tap \"Start Game → Host.\"\n* On the second system, launch the game, touch to start, then tap \"Start Game → Join.\"\n* Wait for the systems to establish communications.\n* On the Host console, press the A Button to start the game.\n\nThe Host system will play as Walter, while the guest will play as Jesse. The magic that makes it work is thanks to the incredible [Fewnity](https://github.com/Fewnity/Nintendo-DS-Nifi-Template/)'s amazing NiFi scaffold!\n\n### Hank's Minerals\nBy completing certain challenges, you'll find minerals! Hank will appraise minerals you find in the \"Hank's Minerals\" submenu, located in the Extras Menu. There are twelve minerals to find, and you can view how to get them by tapping on each `[?]` icon in the menu.\n\nOnce you've obtained a mineral, it will be displayed in the menu and selecting it will tell you what it is. Minerals marked with \"??????\" are a secret, so no hints there!\n\n### Music Player\nYou can listen to the game music through the Music Player submenu, located in the Extras menu. Use the left and right buttons on the + Control Pad to change the track.",
+	"image": "https://raw.githubusercontent.com/WiIIiam278/breaking-bad-ds/main/banner-art.png",
+	"icon": "https://raw.githubusercontent.com/WiIIiam278/breaking-bad-ds/main/icon.png",
+	"nightly": {
+		"download_page": "https://github.com/WiIIiam278/breaking-bad-ds/actions",
+		"downloads": {
+			"Breaking Bad DS.zip": {
+				"url": "https://nightly.link/WiIIiam278/breaking-bad-ds/workflows/ci/main/Breaking%20Bad%20DS.zip"
+			}
+		}
+	},
+	"archive": {
+		"Breaking Bad DS.zip": {
+			"breaking-bad-ds.nds": [
+				"breaking-bad-ds.nds"
+			]
+		}
+	}
+}

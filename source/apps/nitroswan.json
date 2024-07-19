@@ -1,0 +1,18 @@
+{
+	"github": "FluBBaOfWard/NitroSwan",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"icon": "https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/WSLogo.bmp",
+	"image": "https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/logo.png",
+	"archive": {
+		"NitroSwan.zip": {
+			"NitroSwan.nds": [
+				"NitroSwan.nds"
+			]
+		}
+	}
+}

@@ -1,0 +1,70 @@
+{
+	"github": "masterfeizz/ctrQuake",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		1044771
+	],
+	"icon": "https://raw.githubusercontent.com/masterfeizz/ctrQuake/master/icon.png",
+	"scripts": {
+		"ctrQuake.cia": [
+			{
+				"type": "downloadRelease",
+				"repo": "masterfeizz/ctrQuake",
+				"file": "ctrQuake.zip",
+				"output": "/ctrQuake.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/ctrQuake.zip",
+				"input": "",
+				"output": "/"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "masterfeizz/ctrQuake",
+				"file": "ctrQuake.cia",
+				"output": "/ctrQuake.cia"
+			},
+			{
+				"type": "installCia",
+				"file": "/ctrQuake.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/ctrQuake.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/ctrQuake.zip"
+			}
+		],
+		"ctrQuake.3dsx": [
+			{
+				"type": "downloadRelease",
+				"repo": "masterfeizz/ctrQuake",
+				"file": "ctrQuake.zip",
+				"output": "/ctrQuake.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/ctrQuake.zip",
+				"input": "",
+				"output": "/"
+			},
+			{
+				"type": "move",
+				"old": "/3ds/ctrQuake/ctrQuake.3dsx",
+				"new": "%3DSX%/ctrQuake.3dsx"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/ctrQuake.zip"
+			}
+		]
+	}
+}

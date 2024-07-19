@@ -1,0 +1,28 @@
+{
+	"github": "Gericom/YouTubeDS",
+	"title": "MPEG4 Player",
+	"description": "MPEG4 player for DS and DSi",
+	"categories": [
+		"utility"
+	],
+	"website": "https://gbatemp.net/threads/mpeg4-player-for-ds-and-dsi.544095/",
+	"source": "https://github.com/Gericom/YoutubeDS/tree/mpeg4player",
+	"download_page": "https://gbatemp.net/threads/mpeg4-player-for-ds-and-dsi.544095/page-2#post-9007621",
+	"downloads": {
+		"MPEG4Player.nds.zip": {
+			"url": "https://gbatemp.net/attachments/mpeg4player-nds-zip.203629/"
+		}
+	},
+	"version": "c633295",
+	"systems": [
+		"DS"
+	],
+	"updated": "2020-04-09T16:23:00Z",
+	"archive": {
+		"MPEG4Player.nds.zip": {
+			"MPEG4Player.nds": [
+				"MPEG4Player.nds"
+			]
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"github": "mgba-emu/mgba",
+	"title": "mGBA",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"unique_ids": [
+		6686
+	],
+	"image": "https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-256.png",
+	"icon": "https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-48.png",
+	"eval_notes_md": true,
+	"update_notes_md": "re.sub('^([^ ])', '\\n### \\\\1', re.findall(f\"{app['version']}:[^\\\\n]*\\\\n(.*?)\\\\n\\\\n[0-9]+\\\\.[0-9]+\\\\.[0-9]+:\", requests.get('https://raw.githubusercontent.com/mgba-emu/mgba/master/CHANGES').text, re.DOTALL)[0], flags=re.MULTILINE)",
+	"nightly": {
+		"download_page": "https://mgba.io/downloads.html#development-downloads",
+		"downloads": {
+			"mGBA-build-latest-3ds.7z": {
+				"url": "https://s3.amazonaws.com/mgba/mGBA-build-latest-3ds.7z"
+			}
+		}
+	},
+	"archive": {
+		"mGBA-.*-3ds.7z": {
+			"mgba.cia": [
+				"mGBA-.*-3ds.*/cia/mgba.cia"
+			],
+			"mgba.3dsx": [
+				"mGBA-.*-3ds.*/3dsx/mgba.3dsx"
+			]
+		}
+	}
+}

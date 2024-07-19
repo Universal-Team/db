@@ -1,0 +1,21 @@
+{
+	"github": "Drenn1/GameYob",
+	"website": "https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/",
+	"icon": "https://raw.githubusercontent.com/Drenn1/GameYob/master/platform/ds/icon.bmp",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"archive": {
+		"gameyob.zip": {
+			"gameyob.cia": [
+				"gameyob.cia"
+			],
+			"gameyob.nds": [
+				"gameyob.nds"
+			]
+		}
+	}
+}

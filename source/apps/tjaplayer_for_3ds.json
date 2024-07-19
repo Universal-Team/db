@@ -1,0 +1,14 @@
+{
+	"github": "togetg/TJAPlayer_for_3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		751189
+	],
+	"image": "https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png",
+	"icon": "https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/icon.png"
+}

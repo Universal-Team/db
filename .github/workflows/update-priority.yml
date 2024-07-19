@@ -6,7 +6,7 @@ on:
     - cron: 0 1-5,7-11,13-17,19-23 * * *
   push:
     branches: [ master ]
-    paths: [ source/source.json, source/generate.py, source/requirements.txt, .github/workflows/update-priority.yml ]
+    paths: [ source/apps/*, source/generate.py, source/requirements.txt, .github/workflows/update-priority.yml ]
   workflow_dispatch:
 
 jobs:
@@ -23,7 +23,7 @@ jobs:
     - name: Run generate.py
       run: |
         export PATH=$PATH:/opt/devkitpro/tools/bin
-        python3 source/generate.py source/source.json docs --token ${{ secrets.GITHUB_TOKEN }} --priority
+        python3 source/generate.py source/apps docs --token ${{ secrets.GITHUB_TOKEN }} --priority
 
     - name: Pull origin
       run: git pull origin master --ff-only # Pull origin in case a commit has been done while updating

@@ -1,0 +1,14 @@
+{
+	"github": "NotImplementedLife/d-Elusion",
+	"description": "The lost kitty's saga",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/NotImplementedLife/d-Elusion/master/icon.bmp",
+	"wiki": "https://www.gamebrew.org/wiki/D-Elusion",
+	"website": "https://notimplementedlife.itch.io/d-elusion",
+	"long_description": "A kitten has lost in the strange outside world. Help the poor kitten find the way back to its mother. Guide it through the map using a fish (the only stimulus the kitten responds to). Explore the zone and mark dangerous zones with flags. Use the arrow cursor to remove a misplaced flag."
+}

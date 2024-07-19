@@ -1,0 +1,33 @@
+{
+	"title": "CTGP-7 Downloader",
+	"author": "CTGP-7 Team",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		198412
+	],
+	"description": "CTGP-7 modpack for Mario Kart 7.\nMore info: ctgp-7.github.io",
+	"long_description": "CTGP-7 is a modpack for Mario Kart 7 which includes several custom tracks, characters and music, as well as extra features such as a speedometer, speed modifier, backwards camera, among others. More info in the [CTGP-7 website](https://ctgp-7.github.io/).",
+	"created": "2015-01-01T00:00:00Z",
+	"updated": "2021-03-04T23:37:56Z",
+	"website": "https://ctgp-7.github.io/",
+	"wiki": "http://mk7.tock.eu/index.php?title=CTGP-7",
+	"download_page": "https://gamebanana.com/mods/50221",
+	"avatar": "https://avatars.githubusercontent.com/u/46403089?s=200&v=4",
+	"version": "Latest",
+	"script_message": {
+		"message": "Note: Installing this will overwrite any existing install of\nCTGP-7, only install if you do not already have CTGP-7.",
+		"for": "\\.cia$",
+		"at": "start",
+		"count": 999
+	},
+	"downloads": {
+		"CTGP-7_Downloader.cia": {
+			"url": "https://ctgp7.page.link/cia_downloader"
+		}
+	}
+}

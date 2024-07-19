@@ -1,0 +1,22 @@
+{
+	"github": "Possum/LumaLocaleSwitcher",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		658593
+	],
+	"image": "https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/meta/icon.png",
+	"download_filter": "NIGHTLY",
+	"archive": {
+		"LumaLocaleSwitcher-0.04-NIGHTLY.zip": {
+			"LumaLocaleSwitcher-0.04.3dsx": [
+				"3ds/LumaLocaleSwitcher/LumaLocaleSwitcher-0.04.3dsx"
+			]
+		}
+	}
+}

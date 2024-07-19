@@ -1,0 +1,14 @@
+{
+	"github": "noirscape/dses",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		979202
+	],
+	"image": "https://raw.githubusercontent.com/noirscape/dses/master/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/noirscape/dses/master/meta/icon.png"
+}

@@ -1,0 +1,14 @@
+{
+	"github": "DDews/Snakes",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		590658
+	],
+	"image": "https://raw.githubusercontent.com/DDews/Snakes/master/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/DDews/Snakes/master/meta/icon.png"
+}

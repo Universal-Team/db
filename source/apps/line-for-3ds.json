@@ -1,0 +1,18 @@
+{
+	"github": "Core-2-Extreme/Line_for_3DS",
+	"title": "Line for 3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		969040
+	],
+	"image": "https://raw.githubusercontent.com/Core-2-Extreme/Line_for_3DS/master/resource/banner.png",
+	"icon": "https://raw.githubusercontent.com/Core-2-Extreme/Line_for_3DS/master/resource/icon.png",
+	"long_description": "You can use line on your 3DS!\n* You need to set up your account\n* how to set up : <https://gbatemp.net/threads/v0-2-0-release-guide-line-for-3ds.539530/>",
+	"author": "Core 2 Extreme",
+	"script_message": "Note: You will need to set up your account.\nHow to set up: https://gbatemp.net/threads/539530"
+}

@@ -1,0 +1,31 @@
+{
+	"github": "dimaguy/3ds-httpd",
+	"author": "Thog, SciresM, Dimaguy",
+	"description": "Web Server for the 3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon": "https://raw.githubusercontent.com/dimaguy/3ds-httpd/master/assets/icon.png",
+	"image": "https://raw.githubusercontent.com/dimaguy/3ds-httpd/master/assets/banner.png",
+	"long_description": "# A Web Server for the 3DS\nA flexible httpd server capable of handling sdcard file reads, crypto operations, system requests and raw memory operations.\n\n(Documentation is underway)",
+	"nightly": {
+		"downloads": {
+			"build.zip": {
+				"url": "https://nightly.link/dimaguy/3ds-httpd/workflows/main/master/build.zip"
+			}
+		}
+	},
+	"archive": {
+		"build.zip": {
+			"3ds-httpd.3dsx": [
+				"3ds-httpd.3dsx"
+			],
+			"3ds-httpd.cia": [
+				"3ds-httpd.cia"
+			]
+		}
+	}
+}

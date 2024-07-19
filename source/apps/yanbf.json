@@ -1,0 +1,57 @@
+{
+	"github": "YANBForwarder/YANBF",
+	"long_description": "YANBF is a 3DS-mode nds-bootstrap forwarder, allowing for more than 40 forwarder titles as compared to the older forwarder template.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"scripts": {
+		"YANBF forwarder pack": [
+			{
+				"type": "downloadRelease",
+				"repo": "YANBForwarder/YANBF",
+				"file": "bootstrap.cia",
+				"output": "/bootstrap.cia"
+			},
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z",
+				"output": "/DS.Game.Forwarder.pack.nds-bootstrap.7z"
+			},
+			{
+				"type": "extractFile",
+				"file": "/DS.Game.Forwarder.pack.nds-bootstrap.7z",
+				"input": "for SD Card root/",
+				"output": "/"
+			},
+			{
+				"type": "installCia",
+				"file": "/bootstrap.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/bootstrap.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/DS.Game.Forwarder.pack.nds-bootstrap.7z"
+			},
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/taserbolt/APFix-and-Widescreen-TWL/raw/main/apfix.pck",
+				"output": "/_nds/ntr-forwarder/apfix.pck"
+			},
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/taserbolt/APFix-and-Widescreen-TWL/raw/main/widescreen.pck",
+				"output": "/_nds/ntr-forwarder/widescreen.pck"
+			},
+			{
+				"type": "promptMessage",
+				"message": "You will need to generate the actual forwarders on your computer.\n\nSee the README for more information:\nhttps://github.com/YANBForwarder/YANBF"
+			}
+		]
+	}
+}

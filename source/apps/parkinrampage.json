@@ -1,0 +1,25 @@
+{
+	"github": "DesperateProgrammer/ParkingRampage",
+	"title": "Parkin'Rampage",
+	"author": "Tim 'Mighty Max' Seidel",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"game"
+	],
+	"image": "https://raw.githubusercontent.com/DesperateProgrammer/ParkingRampage/main/gfx/title.png",
+	"icon": "https://raw.githubusercontent.com/DesperateProgrammer/ParkingRampage/main/icon.bmp",
+	"website": "https://mighty-max.itch.io/parkin-rampage",
+	"description": "A classic puzzle game. Your goal is to move all cars out of the way, so the police can leave the parking lot.",
+	"long_description": "Navigate the police out of the jammed parking lot!",
+	"updated": "2021-01-02T20:17:30Z",
+	"download_page": "https://github.com/DesperateProgrammer/ParkingRampage",
+	"version": "02012021",
+	"version_title": "Parkin'Rampage 02012021",
+	"downloads": {
+		"ParkingRampage.nds": {
+			"url": "https://github.com/DesperateProgrammer/ParkingRampage/raw/main/ParkingRampage.nds"
+		}
+	}
+}

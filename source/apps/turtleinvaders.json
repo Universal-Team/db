@@ -1,0 +1,22 @@
+{
+	"github": "TurtleP/TurtleInvaders",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		1006285
+	],
+	"archive": {
+		"TurtleInvaders.zip": {
+			"TurtleInvaders.3dsx": [
+				"TurtleInvaders.3dsx"
+			],
+			"TurtleInvaders.cia": [
+				"TurtleInvaders.cia"
+			]
+		}
+	}
+}

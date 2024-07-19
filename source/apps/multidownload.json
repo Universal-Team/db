@@ -1,0 +1,14 @@
+{
+	"github": "hax0kartik/Multidownload",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		4144
+	],
+	"image": "https://raw.githubusercontent.com/hax0kartik/Multidownload/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/hax0kartik/Multidownload/master/resources/icon.png"
+}

@@ -1,0 +1,25 @@
+{
+	"github": "Universal-Team/3DVier",
+	"image": "https://raw.githubusercontent.com/Universal-Team/3DVier/master/3ds/app/banner.png",
+	"icon": "https://raw.githubusercontent.com/Universal-Team/3DVier/master/3ds/app/icon.png",
+	"categories": [
+		"game"
+	],
+	"systems": [
+		"3DS"
+	],
+	"unique_ids": [
+		275863
+	],
+	"nightly": {
+		"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/3DVier",
+		"downloads": {
+			"3DVier.3dsx": {
+				"url": "https://github.com/Universal-Team/extras/raw/master/builds/3DVier/3DVier.3dsx"
+			},
+			"3DVier.cia": {
+				"url": "https://github.com/Universal-Team/extras/raw/master/builds/3DVier/3DVier.cia"
+			}
+		}
+	}
+}

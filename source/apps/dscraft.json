@@ -1,0 +1,71 @@
+{
+	"title": "DScraft",
+	"github": "smealum/dscraft",
+	"categories": [
+		"game"
+	],
+	"systems": [
+		"DS"
+	],
+	"downloads": {
+		"DScraft_310811.7z": {
+			"url": "https://db.universal-team.net/assets/files/DScraft_310811.7z"
+		},
+		"DScraft_fat_310811.7z": {
+			"url": "https://db.universal-team.net/assets/files/DScraft_fat_310811.7z"
+		}
+	},
+	"download_page": "https://web.archive.org/web/20160818124931/http://smealum.net/dscraft/",
+	"website": "https://web.archive.org/web/20160818124931/http://smealum.net/dscraft/",
+	"image": "https://raw.githubusercontent.com/smealum/dscraft/master/site/dscraft-logo.png",
+	"version": "v310811",
+	"updated": "2011-08-31T20:29:00Z",
+	"scripts": {
+		"DScraft.nds": [
+			{
+				"type": "downloadFile",
+				"file": "https://db.universal-team.net/assets/files/DScraft_310811.7z",
+				"output": "/DScraft_310811.7z"
+			},
+			{
+				"type": "extractFile",
+				"file": "/DScraft_310811.7z",
+				"input": "DScraft.nds",
+				"output": "%NDS%/DScraft.nds"
+			},
+			{
+				"type": "extractFile",
+				"file": "/DScraft_310811.7z",
+				"input": "dscraft/",
+				"output": "%NDS%/dscraft/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/DScraft_310811.7z"
+			}
+		],
+		"DScraft_fat.nds": [
+			{
+				"type": "downloadFile",
+				"file": "https://db.universal-team.net/assets/files/DScraft_fat_310811.7z",
+				"output": "/DScraft_fat_310811.7z"
+			},
+			{
+				"type": "extractFile",
+				"file": "/DScraft_fat_310811.7z",
+				"input": "DScraft_fat.nds",
+				"output": "%NDS%/DScraft_fat.nds"
+			},
+			{
+				"type": "extractFile",
+				"file": "/DScraft_fat_310811.7z",
+				"input": "dscraft",
+				"output": "/dscraft/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/DScraft_fat_310811.7z"
+			}
+		]
+	}
+}

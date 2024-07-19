@@ -1,0 +1,73 @@
+{
+	"github": "bubble2k16/picodrive_3ds",
+	"title": "PicoDrive",
+	"description": "This is a port of notaz's PicoDrive emulator to the old 3DS and old 2DS.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"unique_ids": [
+		14412
+	],
+	"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/picodrive/assets/icon.png",
+	"scripts": {
+		"picodrive_3ds.cia": [
+			{
+				"type": "downloadRelease",
+				"repo": "bubble2k16/picodrive_3ds",
+				"file": "picodrive_3ds.*\\.zip",
+				"output": "/picodrive_3ds.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/picodrive_3ds.zip",
+				"input": "picodrive_3ds.cia",
+				"output": "/picodrive_3ds.cia"
+			},
+			{
+				"type": "extractFile",
+				"file": "/picodrive_3ds.zip",
+				"input": "picodrive_3ds_top.png",
+				"output": "/3ds/picodrive_3ds/picodrive_3ds_top.png"
+			},
+			{
+				"type": "installCia",
+				"file": "/picodrive_3ds.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/picodrive_3ds.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/picodrive_3ds.zip"
+			}
+		],
+		"picodrive_3ds.3dsx": [
+			{
+				"type": "downloadRelease",
+				"repo": "bubble2k16/picodrive_3ds",
+				"file": "picodrive_3ds.*\\.zip",
+				"output": "/picodrive_3ds.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/picodrive_3ds.zip",
+				"input": "picodrive_3ds.3dsx",
+				"output": "%3DSX%/picodrive_3ds.3dsx"
+			},
+			{
+				"type": "extractFile",
+				"file": "/picodrive_3ds.zip",
+				"input": "picodrive_3ds_top.png",
+				"output": "/3ds/picodrive_3ds/picodrive_3ds_top.png"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/picodrive_3ds.zip"
+			}
+		]
+	}
+}

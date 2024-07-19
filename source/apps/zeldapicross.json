@@ -1,0 +1,24 @@
+{
+	"github": "nop90/ZeldaPicross",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		39297
+	],
+	"image": "https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/icon.png",
+	"archive": {
+		"ZeldaPicross.*\\.zip": {
+			"ZeldaPicross.cia": [
+				"ZeldaPicross.cia"
+			],
+			"ZeldaPicross.3dsx": [
+				"ZeldaPicross/ZeldaPicross.3dsx"
+			]
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"github": "wavemotion-dave/A5200DS",
+	"author": "AlekMaul / wavemotion-dave",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"icon": "https://raw.githubusercontent.com/wavemotion-dave/A5200DS/main/logo.bmp",
+	"image": "https://raw.githubusercontent.com/wavemotion-dave/A5200DS/main/arm9/gfx/bgTop.png"
+}

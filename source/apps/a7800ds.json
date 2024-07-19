@@ -1,0 +1,12 @@
+{
+	"github": "wavemotion-dave/A7800DS",
+	"author": "AlekMaul / wavemotion-dave",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"icon": "https://raw.githubusercontent.com/wavemotion-dave/A7800DS/main/logo.bmp",
+	"image": "https://raw.githubusercontent.com/wavemotion-dave/A7800DS/main/arm9/gfx/bgTop.png"
+}

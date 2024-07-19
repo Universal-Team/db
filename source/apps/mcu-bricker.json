@@ -1,0 +1,16 @@
+{
+	"github": "MechanicalDragon0687/MCU_Bricker_tinydb",
+	"title": "MCU Bricker",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		912081
+	],
+	"author": "MarcuzD",
+	"avatar": "https://avatars.githubusercontent.com/u/59751328?v=4",
+	"description": "Makes your LED go rainbow."
+}

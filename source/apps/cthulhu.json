@@ -1,0 +1,11 @@
+{
+	"github": "Ryuzaki-MrL/Cthulhu",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"image": "https://raw.githubusercontent.com/Ryuzaki-MrL/Cthulhu/master/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/Ryuzaki-MrL/Cthulhu/master/meta/icon.png"
+}

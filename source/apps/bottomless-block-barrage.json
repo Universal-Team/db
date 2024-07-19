@@ -1,0 +1,22 @@
+{
+	"github": "TricksterGuy/bottomless-block-barrage",
+	"title": "Bottomless Block Barrage",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		723739
+	],
+	"image": "https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/master/resources/icon.png",
+	"archive": {
+		"bottomless-block-barrage.zip": {
+			"bottomless-block-barrage.3dsx": [
+				"3ds/bottomless-block-barrage/bottomless-block-barrage.3dsx"
+			]
+		}
+	}
+}

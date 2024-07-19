@@ -1,0 +1,11 @@
+{
+	"github": "Jonatan6/Tic-Tac-DS",
+	"long_description": "A very simplistic Tic-Tac-Toe clone for the Nintendo DS.",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/Jonatan6/Tic-Tac-DS/master/icon.bmp"
+}

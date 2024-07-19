@@ -1,0 +1,21 @@
+{
+	"github": "d0k3/CTRXplorer",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		10352
+	],
+	"image": "https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/d0k3/CTRXplorer/master/meta/icon.png",
+	"archive": {
+		"CTRXplorer.*\\.zip": {
+			"CTRXplorer.3dsx": [
+				"3ds/CTRXplorer/CTRXplorer.3dsx"
+			]
+		}
+	}
+}

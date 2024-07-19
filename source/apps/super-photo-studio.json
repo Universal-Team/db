@@ -1,0 +1,17 @@
+{
+	"title": "Super Photo Studio",
+	"github": "RocketRobz/SuperPhotoStudio",
+	"categories": [
+		"game"
+	],
+	"systems": [
+		"3DS",
+		"DS"
+	],
+	"unique_ids": [
+		337156
+	],
+	"long_description": "Super Photo Studio is basically an upgraded version of the Style Savvy series's photo studio feature, with added characters and locations outside of said series. You can also change the character's expressions and poses, though Super Photo Studio does not support changing expressions.",
+	"image": "https://raw.githubusercontent.com/RocketRobz/SuperPhotoStudio/master/3ds/app/banner.png",
+	"icon": "https://raw.githubusercontent.com/RocketRobz/SuperPhotoStudio/master/3ds/app/icon.png"
+}

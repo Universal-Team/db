@@ -1,0 +1,65 @@
+{
+	"github": "ingolemo/drider",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		55325
+	],
+	"image": "https://raw.githubusercontent.com/ingolemo/drider/master/banner.png",
+	"icon": "https://raw.githubusercontent.com/ingolemo/drider/master/icon.png",
+	"scripts": {
+		"drider.cia": [
+			{
+				"type": "downloadRelease",
+				"repo": "ingolemo/drider",
+				"file": "drider.zip",
+				"output": "/drider.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/drider.zip",
+				"input": "",
+				"output": "/"
+			},
+			{
+				"type": "installCia",
+				"file": "/drider.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/drider.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/drider.zip"
+			}
+		],
+		"drider.3dsx": [
+			{
+				"type": "downloadRelease",
+				"repo": "ingolemo/drider",
+				"file": "drider.zip",
+				"output": "/drider.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/drider.zip",
+				"input": "3ds/",
+				"output": "/3ds/"
+			},
+			{
+				"type": "move",
+				"old": "/3ds/drider/drider.3dsx",
+				"new": "%3DSX%/drider.3dsx"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/drider.zip"
+			}
+		]
+	}
+}

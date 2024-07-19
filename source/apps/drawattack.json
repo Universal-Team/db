@@ -1,0 +1,14 @@
+{
+	"github": "Cruel/DrawAttack",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"unique_ids": [
+		30488
+	],
+	"image": "https://raw.githubusercontent.com/Cruel/DrawAttack/master/res/app/banner.png",
+	"icon": "https://raw.githubusercontent.com/Cruel/DrawAttack/master/res/app/icon.png"
+}

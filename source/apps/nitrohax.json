@@ -1,0 +1,21 @@
+{
+	"github": "chishm/nitrohax",
+	"updated": "2018-04-09T13:00:02Z",
+	"long_description": "This is for use on flashcards, if using the internal SD on DSi/3DS see [NitroHax3DS](nitrohax3ds).",
+	"icon": "https://raw.githubusercontent.com/chishm/nitrohax/master/icon.bmp",
+	"systems": [
+		"DS"
+	],
+	"downloads": {
+		"NitroHax.zip": {
+			"url": "https://www.chishm.com/NitroHax/NitroHax.zip"
+		}
+	},
+	"website": "https://www.chishm.com/NitroHax/",
+	"download_page": "https://www.chishm.com/NitroHax/",
+	"categories": [
+		"utility"
+	],
+	"version": "v0.94",
+	"unistore_exclude": true
+}

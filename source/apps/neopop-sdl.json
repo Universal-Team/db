@@ -1,0 +1,21 @@
+{
+	"github": "nop90/Neopop-SDL",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"unique_ids": [
+		39302
+	],
+	"image": "https://raw.githubusercontent.com/nop90/Neopop-SDL/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/nop90/Neopop-SDL/master/resources/icon.png",
+	"archive": {
+		"neopop_3DSX.*\\.zip": {
+			"neopop.3dsx": [
+				"neopop/neopop.3dsx"
+			]
+		}
+	}
+}

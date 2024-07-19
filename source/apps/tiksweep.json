@@ -1,0 +1,21 @@
+{
+	"github": "DanTheMan827/tikSweep",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		43199
+	],
+	"image": "https://raw.githubusercontent.com/DanTheMan827/tikSweep/master/banner.png",
+	"icon": "https://raw.githubusercontent.com/DanTheMan827/tikSweep/master/icon.png",
+	"archive": {
+		"tikSweep.zip": {
+			"tikSweep.3dsx": [
+				"3ds-arm/3ds/tikSweep/tikSweep.3dsx"
+			]
+		}
+	}
+}

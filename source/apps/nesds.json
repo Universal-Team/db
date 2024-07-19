@@ -1,0 +1,35 @@
+{
+	"title": "nesDS",
+	"categories": [
+		"emulator"
+	],
+	"github": "DS-Homebrew/NesDS",
+	"downloads": {
+		"nesDS.nds": {
+			"url": "https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/release/nesDS.nds"
+		}
+	},
+	"download_page": "https://github.com/DS-Homebrew/NesDS/tree/master/release",
+	"author": "huiminghao / Coto",
+	"version": "v1.3c",
+	"updated": "2018-10-19T22:09:05Z",
+	"systems": [
+		"DS"
+	],
+	"icon": "https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/icon.bmp",
+	"nightly": {
+		"download_page": "https://github.com/TWLBot/Builds/blob/master/extras/nesDS.7z",
+		"downloads": {
+			"nesDS.7z": {
+				"url": "https://github.com/TWLBot/Builds/raw/master/extras/nesDS.7z"
+			}
+		}
+	},
+	"archive": {
+		"nesDS.7z": {
+			"nesDS.cia": [
+				"nesDS/nesDS.cia"
+			]
+		}
+	}
+}
