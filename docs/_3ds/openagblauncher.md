@@ -3,20 +3,19 @@ author: Stellar
 avatar: https://gbatemp.net/data/avatars/l/351/351725.jpg
 categories:
 - utility
-color: '#9d8bbd'
-color_bg: '#6a5e80'
+color: '#c9949d'
+color_bg: '#805e64'
 created: '2020-12-01T13:52:50Z'
 download_page: https://gbatemp.net/download/36828/
 downloads:
   Open AGB Launcher.zip:
     url: https://gbatemp.net/download/36828/download
 gbatemp: '36828'
-image: https://db.universal-team.net/assets/images/images/open-agb-launcher.png
-image_length: 8593
+image: https://gbatemp.net/data/avatars/l/351/351725.jpg
 layout: app
 systems:
 - 3DS
-title: Open AGB Launcher
+title: OpenAGBLauncher
 update_notes: 'First of all a HUGE thank you to <a class="link link--internal" href="https://gbatemp.net/members/nutez.439371/">Nutez</a>,
   without whom I probably wouldn''t even have been able to compile <a class="link
   link--external" href="https://github.com/Ordim3n/That-Shortcut-Thingy" rel="nofollow
