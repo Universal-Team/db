@@ -1,6 +1,7 @@
 {
 	"github": "TheRinzler65/Luma3DS-French",
 	"title": "Luma3DS en Français",
+	"icon": "https://raw.githubusercontent.com/TheRinzler65/Luma3DS-French/master/logoluma3dsfr.png",
 	"systems": ["3DS"],
 	"categories": [
 		"firm",
