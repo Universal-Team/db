@@ -5,8 +5,8 @@ categories:
 - firm
 - luma3ds
 - translation
-color: '#9d5968'
-color_bg: '#804854'
+color: '#c1a1b3'
+color_bg: '#806a76'
 created: '2024-05-24T13:06:59Z'
 description: '"Custom Firmware" pour Nintendo 3DS'
 download_page: https://github.com/TheRinzler65/Luma3DS-French/releases
@@ -16,8 +16,9 @@ downloads:
     size_str: 526 KiB
     url: https://github.com/TheRinzler65/Luma3DS-French/releases/download/v13.1.2/Luma3DSv13.1.2_FR.zip
 github: TheRinzler65/Luma3DS-French
-image: https://avatars.githubusercontent.com/u/119778544?v=4&size=128
-image_length: 5333
+icon: https://raw.githubusercontent.com/TheRinzler65/Luma3DS-French/master/logoluma3dsfr.png
+image: https://raw.githubusercontent.com/TheRinzler65/Luma3DS-French/master/logoluma3dsfr.png
+image_length: 2545
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
