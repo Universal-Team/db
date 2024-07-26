@@ -9,10 +9,10 @@ created: '2021-05-18T19:23:58Z'
 description: NDS/3DS fork/port of the uxn/Varvara virtual machine
 download_page: https://github.com/asiekierka/uxnds/releases
 downloads:
-  uxnds051.zip:
-    size: 506700
+  uxnds052.zip:
+    size: 506695
     size_str: 494 KiB
-    url: https://github.com/asiekierka/uxnds/releases/download/v0.5.1/uxnds051.zip
+    url: https://github.com/asiekierka/uxnds/releases/download/v0.5.2/uxnds052.zip
 github: asiekierka/uxnds
 icon: https://raw.githubusercontent.com/asiekierka/uxnds/main/misc/uxn48.png
 image: https://raw.githubusercontent.com/asiekierka/uxnds/main/misc/uxn48.png
@@ -27,12 +27,12 @@ systems:
 title: uxnds
 update_notes: '<ul dir="auto">
 
-  <li>[3DS] Fix crash on start.</li>
+  <li>[NDS] Updated to BlocksDS 1.3.1.</li>
 
   </ul>'
-updated: '2024-07-08T16:39:41Z'
-version: v0.5.1
-version_title: uxnds 0.5.1
+updated: '2024-07-26T18:11:33Z'
+version: v0.5.2
+version_title: uxnds 0.5.2
 website: https://100r.co/site/uxn.html
 wiki: https://wiki.xxiivv.com/site/uxn.html
 ---
