@@ -119,7 +119,7 @@ class StoreEntry:
 							"type": "deleteFile",
 							"file": f"/{item[item.rfind('/') + 1:]}"
 						})
-				elif item == "boot.firm":
+				elif item.endswith("boot.firm"):
 					script.append({
 						"type": "extractFile",
 						"file": f"/{file}",
