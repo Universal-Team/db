@@ -41,14 +41,14 @@ update_notes: '<h2 dir="auto">What''s Changed</h2>
 
   <li>A side effect of the new gamma correction is that the gbaGamma, lcdGamma, brightness
   and contrast settings are disabled for now. They will be reimplemented in the color
-  profile settings later.<br>
-
-  Example of what the gamma curve correction does. The brighter version is roughly
-  how the top LCD shows colors without correction.<br>
-
-  </li>
+  profile settings later.</li>
 
   </ul>
+
+  <p dir="auto">Example of what the gamma curve correction does. The brighter version
+  is roughly how the top LCD shows colors without correction.<br>
+
+  </p>
 
   <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/profi200/open_agb_firm/compare/beta_2024-07-25...beta_2024-07-30"><tt>beta_2024-07-25...beta_2024-07-30</tt></a></p>'
 updated: '2024-07-30T14:51:11Z'
