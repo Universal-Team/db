@@ -41,7 +41,12 @@ update_notes: '<h2 dir="auto">What''s Changed</h2>
 
   <li>A side effect of the new gamma correction is that the gbaGamma, lcdGamma, brightness
   and contrast settings are disabled for now. They will be reimplemented in the color
-  profile settings later.</li>
+  profile settings later.<br>
+
+  Example of what the gamma curve correction does. The brighter version is roughly
+  how the top LCD shows colors without correction.<br>
+
+  </li>
 
   </ul>
 
