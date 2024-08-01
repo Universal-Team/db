@@ -7,7 +7,9 @@ Any app requests must conform with the following rules to be added.
 1. The app should not be focused around NSFW content
    - If it does have NSFW content in it as a minor part, then it should be clearly labeled as such
 1. There must be some description of what the app does, whether in the README or submitted app description
-1. Must have some functionality, not just a testing app
+1. Must have some meaningful functionality; not just a testing app or a utility that works on outdated ideologies
+1. Forks must achieve a different goal/target audience than the base app. Forks of the apps + "more functionality" or translations should be PR'd into the original project's repository.
+    - Chances are, if the project that you're forking doesn't have translations, it's often times not needed.
 
 ### Recommendations
 These are not strict requirements, but are recommended.
