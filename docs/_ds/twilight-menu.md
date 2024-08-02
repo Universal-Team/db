@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 43274939
+    size: 43274247
     size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.5.2/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.5.3/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 43317949
+    size: 43317567
     size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.5.2/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.5.3/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 54345643
+    size: 54341826
     size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.5.2/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.5.3/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 54579008
+    size: 54580075
     size_str: 52 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.5.2/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.5.3/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -48,8 +48,8 @@ source: https://github.com/DS-Homebrew/TWiLightMenu
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.5.4">nds-bootstrap
-  v1.5.4</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.5.5">nds-bootstrap
+  v1.5.5</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -71,19 +71,35 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>:
-  v3.3 of <em>Pokémon: Refined Gold Overhaul</em> is now AP-patched.</li>
+  v2.0 of <em>Pokémon: Silver Yellow Version</em> is now AP-patched.</li>
+
+  <li>Various: Updated translations.</li>
+
+  </ul>
+
+  <h3 dir="auto">Bug fix</h3>
+
+  <ul dir="auto">
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mentusfentus/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mentusfentus">@mentusfentus</a>:
-  <strong>DSi Theme:</strong> Added more dropdown animations! (<a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="2372790116" data-permission-text="Title
-  is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/2434" data-hovercard-type="pull_request"
-  data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2434/hovercard" href="https://github.com/DS-Homebrew/TWiLightMenu/pull/2434">#2434</a>)</li>
+  Further fixed recent sort issues (<a href="https://github.com/DS-Homebrew/TWiLightMenu/issues/2448"
+  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2448/hovercard">#2448</a>)</li>
+
+  </ul>
+
+  <h3 dir="auto">Known bug</h3>
+
+  <ul dir="auto">
+
+  <li>The bug where switching to the Misc page in TWLMenu++ Settings with SCFG access
+  for flashcards has not been fixed. The cause of this is unknown, and may not be
+  fixed anytime soon.</li>
 
   </ul>'
-updated: '2024-07-13T00:19:53Z'
-version: v27.5.2
-version_title: v27.5.2
+updated: '2024-08-02T15:34:56Z'
+version: v27.5.3
+version_title: v27.5.3
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
