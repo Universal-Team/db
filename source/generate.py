@@ -222,6 +222,8 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 				doUpdate = True
 
 		if doUpdate:
+			app["stars"] = 0
+
 			if "gbatemp" in app:
 				print("GBAtemp Download Center")
 				r = requests.get(f"https://gbatemp.net/download/{app['gbatemp']}/")
@@ -354,6 +356,10 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 
 					if "license_name" not in app:
 						app["license_name"] = api["license"]["name"]
+
+				if api["stargazers_count"]:
+					# accumulate incase other apis
+					app["stars"] += api["stargazers_count"]
 
 				if release:
 					if "download_page" not in app:
