@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 800207
-    size_str: 781 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.5.4/nds-bootstrap.7z
+    size: 799375
+    size_str: 780 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.5.5/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1138012
+    size: 1137893
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.5.4/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.5.5/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -32,8 +32,8 @@ source: https://github.com/DS-Homebrew/nds-bootstrap
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.5.2"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v27.5.2</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.5.3"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v27.5.3</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -47,20 +47,17 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <h3 dir="auto">Bug fixes</h3>
+  <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>A few DSiWare titles such as <em>Petit Computer</em> now boot again on SD cards
-  smaller than 32GB!</li>
-
-  <li>Removed <code class="notranslate">nds-bootstrap.7z</code> from inside <code
-  class="notranslate">nds-bootstrap.zip</code>.</li>
+  <li>Fixed an overlooked bug which caused pre-loadable NTR ROMs to not properly load
+  into RAM while in DSi mode.</li>
 
   </ul>'
-updated: '2024-07-13T00:16:40Z'
-version: v1.5.4
-version_title: v1.5.4
+updated: '2024-08-02T14:49:48Z'
+version: v1.5.5
+version_title: v1.5.5
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
