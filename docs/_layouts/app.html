@@ -65,6 +65,10 @@ layout: compress
 												<br>
 												<span class="i18n innerHTML-license">License: </span>{{ page.license_name }}
 											{% endif %}
+											{% if page.stars > 0 %}
+												<br>
+												<span class="i18n innerHTML-stars">Stars: </span>{{ page.stars }}
+											{% endif %}
 											{% if page.unique_ids.size >= 1 %}
 												<br>
 												{% if page.unique_ids.size == 1 %}

@@ -29,7 +29,10 @@ function sort(prop) {
 	for(i = 0; i < cards.length; i++)
 		sorted.push(cards[i]);
 	sorted.sort(function(l, r) {
-		return ((l.dataset[localStorage.sortProp].toLowerCase() < r.dataset[localStorage.sortProp].toLowerCase()) ^ localStorage.sortDirection) ? -1 : 1;
+		if(localStorage.sortProp == "stars") // integers
+			return (((l.dataset[localStorage.sortProp] - r.dataset[localStorage.sortProp]) < 0) ^ localStorage.sortDirection) ? -1 : 1;
+		else // strings
+			return ((l.dataset[localStorage.sortProp].toLowerCase() < r.dataset[localStorage.sortProp].toLowerCase()) ^ localStorage.sortDirection) ? -1 : 1;
 	});
 	const container = document.getElementById("card-container");
 	container.innerHTML = "";

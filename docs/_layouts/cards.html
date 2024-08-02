@@ -33,6 +33,7 @@ layout: compress
 									<button id="sort-author" class="btn btn-outline-secondary i18n innerHTML-author" onclick="sort('author')">Author</button>
 									<button id="sort-description" class="btn btn-outline-secondary i18n innerHTML-description" onclick="sort('description')">Description</button>
 									<button id="sort-updated" class="btn btn-outline-secondary i18n innerHTML-date-updated" onclick="sort('updated')">Date Updated</button>
+									<button id="sort-stars" class="btn btn-outline-secondary i18n innerHTML-date-updated" onclick="sort('stars')">Popularity</button>
 									<button id="sort-direction" class="btn btn-outline-secondary float-end i18n innerHTML-ascending data-ascending-ascending data-descending-descending" onclick="toggleSortDirection()" data-ascending="Ascending" data-descending="Descending">Ascending</button>
 								</div>
 								<div class="input-group mb-3">
@@ -65,7 +66,7 @@ layout: compress
 							{% for app in cards limit: page.limit %}
 								{% if page.category == Nil or app.categories contains page.category %}
 									<div class="col mb-3 {% if page.limit == 4 and forloop.index == 4 %}d-md-none d-xl-block{% endif %}">
-										<div class="card h-100" data-title="{{ app.title | escape}}" data-author="{{ app.author | escape}}" data-description="{{ app.description | escape }}" data-updated="{{ app.updated }}">
+										<div class="card h-100" data-title="{{ app.title | escape}}" data-author="{{ app.author | escape}}" data-description="{{ app.description | escape }}" data-updated="{{ app.updated }}" data-stars="{{ app.stars }}">
 											<a class="flex-grow-1" href="{{ app.url | remove: ".html" }}">
 												{% if app.image %}
 													<div class="card-header card-image-header">
@@ -79,9 +80,12 @@ layout: compress
 												<div class="card-body" dir="ltr">
 													<div>
 														<h4 class="card-title text-center {% if app.author %}mb-0{% endif %}">{{ app.title | escape }}</h4>
-														{% if app.author %}
-															<small class="d-block text-center mb-3">{{ app.author }}</small>
-														{% endif %}
+														<small class="d-block text-center mb-3">
+															{{ app.author }}
+															{% if app.stars > 0 %}
+																– {{ app.stars }} ☆
+															{% endif %}
+														</small>
 														<p class="card-text">{{ app.description | escape }}</p>
 													</div>
 												</div>
