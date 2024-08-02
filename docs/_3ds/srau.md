@@ -28,6 +28,7 @@ license_name: GNU General Public License v3.0
 qr:
   SRAU.cia: https://db.universal-team.net/assets/images/qr/srau-cia.png
 source: https://github.com/noirscape/SRAU
+stars: 19
 systems:
 - 3DS
 title: SRAU

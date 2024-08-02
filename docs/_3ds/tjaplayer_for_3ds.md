@@ -36,6 +36,7 @@ screenshots:
 - description: '5'
   url: https://db.universal-team.net/assets/images/screenshots/tjaplayer_for_3ds/5.png
 source: https://github.com/togetg/TJAPlayer_for_3DS
+stars: 39
 systems:
 - 3DS
 title: TJAPlayer_for_3DS

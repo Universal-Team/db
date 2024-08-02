@@ -27,6 +27,7 @@ license_name: GNU General Public License v3.0 or later
 qr:
   netpass.cia: https://db.universal-team.net/assets/images/qr/netpass-cia.png
 source: https://gitlab.com/3ds-netpass/netpass
+stars: 0
 systems:
 - 3DS
 title: NetPass

@@ -21,6 +21,7 @@ layout: app
 qr:
   PayloadSpinner3DS.cia: https://db.universal-team.net/assets/images/qr/payloadspinner3ds-cia.png
 source: https://github.com/SaturnSH2x2/PayloadSpinner3DS
+stars: 5
 systems:
 - 3DS
 title: PayloadSpinner3DS

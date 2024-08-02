@@ -22,6 +22,7 @@ layout: app
 license: other
 license_name: Other
 source: https://github.com/nop90/Griffon-Legend-3DS
+stars: 9
 systems:
 - 3DS
 title: Griffon-Legend-3DS

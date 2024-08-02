@@ -23,6 +23,7 @@ license_name: MIT License
 qr:
   easyrpg-updater-re-v2.1.1.cia: https://db.universal-team.net/assets/images/qr/easyrpg-updater-re-v2-1-1-cia.png
 source: https://github.com/gnmmarechal/easyrpgdlre
+stars: 0
 systems:
 - 3DS
 title: easyrpgdlre

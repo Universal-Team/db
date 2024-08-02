@@ -42,6 +42,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/MrHuu/opentitus-3ds
+stars: 2
 systems:
 - 3DS
 title: opentitus-3ds

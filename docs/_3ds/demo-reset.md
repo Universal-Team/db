@@ -25,6 +25,7 @@ layout: app
 qr:
   Demo-Reset.cia: https://db.universal-team.net/assets/images/qr/demo-reset-cia.png
 source: https://github.com/NPXTobi/Demo-Reset
+stars: 2
 systems:
 - 3DS
 title: Demo-Reset

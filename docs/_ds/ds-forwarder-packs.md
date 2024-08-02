@@ -17,6 +17,7 @@ icon: https://raw.githubusercontent.com/RocketRobz/NTR_Forwarder/forwarder/SD%20
 image: https://raw.githubusercontent.com/RocketRobz/NTR_Forwarder/forwarder/SD%20Card/sd/icon.bmp
 layout: app
 source: https://github.com/RocketRobz/NTR_Forwarder
+stars: 64
 systems:
 - 3DS
 - DS

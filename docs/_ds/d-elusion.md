@@ -39,6 +39,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/d-elusion/title-screen.png
 source: https://github.com/NotImplementedLife/d-Elusion
+stars: 3
 systems:
 - DS
 title: d-Elusion

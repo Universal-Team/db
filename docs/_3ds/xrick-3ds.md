@@ -19,6 +19,7 @@ image: https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/banner
 image_length: 21816
 layout: app
 source: https://github.com/nop90/Xrick-3ds
+stars: 2
 systems:
 - 3DS
 title: Xrick-3ds

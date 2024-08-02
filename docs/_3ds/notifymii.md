@@ -27,6 +27,7 @@ license_name: GNU General Public License v3.0
 qr:
   NotifyMii.cia: https://db.universal-team.net/assets/images/qr/notifymii-cia.png
 source: https://github.com/Ryuzaki-MrL/NotifyMii
+stars: 17
 systems:
 - 3DS
 title: NotifyMii

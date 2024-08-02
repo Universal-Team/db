@@ -26,6 +26,7 @@ layout: app
 qr:
   TRekt_3D.cia: https://db.universal-team.net/assets/images/qr/trekt_3d-cia.png
 source: https://github.com/Manurocker95/TRekt_3D
+stars: 3
 systems:
 - 3DS
 title: TRekt_3D

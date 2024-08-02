@@ -21,6 +21,7 @@ icon: https://cdn.discordapp.com/attachments/1146918310072549386/114691832838908
 image: https://cdn.discordapp.com/attachments/1146918310072549386/1146918328389087312/ikonka2.png
 layout: app
 source: https://github.com/TehFridge/ShutTheCamUp
+stars: 26
 systems:
 - 3DS
 title: Shut The Cam Up

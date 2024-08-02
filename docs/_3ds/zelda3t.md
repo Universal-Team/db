@@ -25,6 +25,7 @@ layout: app
 qr:
   Zelda3T_v1.0.cia: https://db.universal-team.net/assets/images/qr/zelda3t_v1-0-cia.png
 source: https://github.com/nop90/Zelda3T
+stars: 6
 systems:
 - 3DS
 title: Zelda3T

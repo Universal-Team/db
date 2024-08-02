@@ -27,6 +27,7 @@ qr:
   kirikou.nds: https://db.universal-team.net/assets/images/qr/kirikou-nds.png
   kirikou2.nds: https://db.universal-team.net/assets/images/qr/kirikou2-nds.png
 source: https://github.com/rayasticot/kirikou
+stars: 1
 systems:
 - DS
 title: kirikou

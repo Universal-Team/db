@@ -23,6 +23,7 @@ license_name: BSD 2-Clause "Simplified" License
 qr:
   gravity.nds: https://db.universal-team.net/assets/images/qr/gravity-nds.png
 source: https://github.com/Garhoogin/Gravity
+stars: 6
 systems:
 - DS
 title: Gravity

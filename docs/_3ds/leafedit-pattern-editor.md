@@ -61,6 +61,7 @@ screenshots:
 - description: Tool menu
   url: https://db.universal-team.net/assets/images/screenshots/leafedit-pattern-editor/tool-menu.png
 source: https://github.com/SuperSaiyajinStackZ/LeafEdit-Pattern-Editor
+stars: 2
 systems:
 - 3DS
 title: LeafEdit-Pattern-Editor

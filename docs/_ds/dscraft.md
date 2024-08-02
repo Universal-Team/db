@@ -23,6 +23,7 @@ image: https://raw.githubusercontent.com/smealum/dscraft/master/site/dscraft-log
 image_length: 2429
 layout: app
 source: https://github.com/smealum/dscraft
+stars: 53
 systems:
 - DS
 title: DScraft

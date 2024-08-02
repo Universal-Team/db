@@ -34,6 +34,7 @@ layout: app
 qr:
   ZeldaROTH.cia: https://db.universal-team.net/assets/images/qr/zeldaroth-cia.png
 source: https://github.com/vargaviktor/ZeldaROTH
+stars: 0
 systems:
 - 3DS
 title: ZeldaROTH 1.0.3 beta

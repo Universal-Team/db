@@ -24,6 +24,7 @@ nightly:
   qr:
     Universal-Edit.cia: https://db.universal-team.net/assets/images/qr/nightly/universal-edit-cia.png
 source: https://github.com/Universal-Team/Universal-Edit
+stars: 9
 systems:
 - 3DS
 title: Universal-Edit

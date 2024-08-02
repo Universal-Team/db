@@ -33,6 +33,7 @@ qr:
   SuperPhotoStudio.cia: https://db.universal-team.net/assets/images/qr/superphotostudio-cia.png
   SuperPhotoStudio.nds: https://db.universal-team.net/assets/images/qr/superphotostudio-nds.png
 source: https://github.com/RocketRobz/SuperPhotoStudio
+stars: 22
 systems:
 - 3DS
 - DS

@@ -33,6 +33,7 @@ script_message: 'Note: You will need the "baseq2" folder
 
   "sdmc:/3ds/quake2" to play the game.'
 source: https://github.com/masterfeizz/Quake2CTR
+stars: 48
 systems:
 - 3DS
 title: Quake2CTR

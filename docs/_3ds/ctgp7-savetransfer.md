@@ -35,6 +35,7 @@ screenshots:
 - description: 3 cycle continuation
   url: https://db.universal-team.net/assets/images/screenshots/ctgp7-savetransfer/3-cycle-continuation.png
 source: https://github.com/CyberYoshi64/CTGP7-SaveTransfer
+stars: 5
 systems:
 - 3DS
 title: CTGP7-SaveTransfer

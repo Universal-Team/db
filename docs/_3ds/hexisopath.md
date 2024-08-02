@@ -28,6 +28,7 @@ license_name: MIT License
 qr:
   HexIsoPath.cia: https://db.universal-team.net/assets/images/qr/hexisopath-cia.png
 source: https://github.com/LiquidFenrir/HexIsoPath
+stars: 7
 systems:
 - 3DS
 title: HexIsoPath

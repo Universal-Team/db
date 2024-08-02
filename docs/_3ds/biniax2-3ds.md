@@ -50,6 +50,7 @@ prerelease:
   version: V0.4alpha
   version_title: Bigger font and CIA version
 source: https://github.com/nop90/Biniax2-3DS
+stars: 1
 systems:
 - 3DS
 title: Biniax2-3DS

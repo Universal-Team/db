@@ -28,6 +28,7 @@ license_name: BSD 3-Clause "New" or "Revised" License
 qr:
   OpenBOR.cia: https://db.universal-team.net/assets/images/qr/openbor-cia.png
 source: https://github.com/MrHuu/openbor-3ds
+stars: 13
 systems:
 - 3DS
 title: openbor-3ds

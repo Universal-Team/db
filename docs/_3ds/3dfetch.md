@@ -26,6 +26,7 @@ screenshots:
 - description: Settings
   url: https://db.universal-team.net/assets/images/screenshots/3dfetch/settings.png
 source: https://github.com/aliceinpalth/3dfetch
+stars: 32
 systems:
 - 3DS
 title: 3dfetch

@@ -25,6 +25,7 @@ layout: app
 qr:
   ZeldaOLB_v1.1.cia: https://db.universal-team.net/assets/images/qr/zeldaolb_v1-1-cia.png
 source: https://github.com/nop90/ZeldaOLB
+stars: 8
 systems:
 - 3DS
 title: ZeldaOLB

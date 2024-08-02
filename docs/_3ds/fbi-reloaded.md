@@ -36,6 +36,7 @@ qr:
   FBI-Reloaded_dark.cia: https://db.universal-team.net/assets/images/qr/fbi-reloaded_dark-cia.png
   FBI-Reloaded_light.cia: https://db.universal-team.net/assets/images/qr/fbi-reloaded_light-cia.png
 source: https://github.com/TheRealZora/FBI-Reloaded
+stars: 74
 systems:
 - 3DS
 title: FBI Reloaded

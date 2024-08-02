@@ -13,6 +13,7 @@ downloads:
 gbatemp: '36828'
 image: https://gbatemp.net/data/avatars/l/351/351725.jpg
 layout: app
+stars: 0
 systems:
 - 3DS
 title: OpenAGBLauncher

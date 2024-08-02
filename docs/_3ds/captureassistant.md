@@ -27,6 +27,7 @@ license_name: MIT License
 qr:
   CaptureAssistant.cia: https://db.universal-team.net/assets/images/qr/captureassistant-cia.png
 source: https://github.com/ItsDeidara/CaptureAssistant
+stars: 2
 systems:
 - 3DS
 title: CaptureAssistant

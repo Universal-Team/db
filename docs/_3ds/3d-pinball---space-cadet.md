@@ -27,6 +27,7 @@ script_message: 'Note: You will need the game data files from
 
   an actual copy of 3D pinball or "Full Tilt!".'
 source: https://github.com/MaikelChan/SpaceCadetPinball/tree/3ds
+stars: 98
 systems:
 - 3DS
 title: 3D Pinball - Space Cadet

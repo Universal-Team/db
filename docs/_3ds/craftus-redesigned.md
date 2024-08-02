@@ -32,6 +32,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/craftus-redesigned/title-screen.png
 source: https://github.com/yunes-0840/Craftus-Redesigned
+stars: 15
 systems:
 - 3DS
 title: Craftus Redesigned

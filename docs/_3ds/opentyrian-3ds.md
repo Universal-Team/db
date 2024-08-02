@@ -20,6 +20,7 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 source: https://github.com/nop90/Opentyrian-3ds
+stars: 3
 systems:
 - 3DS
 title: Opentyrian-3ds

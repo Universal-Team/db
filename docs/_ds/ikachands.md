@@ -31,6 +31,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/ikachands/title-screen.png
 source: https://github.com/awkitsune/IkachanDS
+stars: 1
 systems:
 - DS
 title: IkachanDS

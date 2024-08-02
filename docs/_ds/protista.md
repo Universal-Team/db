@@ -28,6 +28,7 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/protista/gameplay-3.png
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/protista/title-screen.png
+stars: 0
 systems:
 - DS
 title: Protista

@@ -21,6 +21,7 @@ layout: app
 license: mit
 license_name: MIT License
 source: https://github.com/NotTheOnlyRph/MontyHallDS
+stars: 1
 systems:
 - DS
 title: Monty Hall DS

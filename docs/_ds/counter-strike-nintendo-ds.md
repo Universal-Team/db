@@ -23,6 +23,7 @@ image: https://db.universal-team.net/assets/images/icons/counter-strike-nintendo
 image_length: 630
 layout: app
 source: https://github.com/Fewnity/Counter-Strike-Nintendo-DS
+stars: 203
 systems:
 - DS
 title: Counter-Strike-Nintendo-DS

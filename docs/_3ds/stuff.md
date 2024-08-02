@@ -21,6 +21,7 @@ layout: app
 qr:
   nds-hb-menu.cia: https://db.universal-team.net/assets/images/qr/nds-hb-menu-cia.png
 source: https://github.com/zoogie/Stuff
+stars: 6
 systems:
 - 3DS
 title: Stuff

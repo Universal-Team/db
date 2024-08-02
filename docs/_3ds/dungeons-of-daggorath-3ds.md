@@ -32,6 +32,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/dungeons-of-daggorath-3ds/title-screen.png
 source: https://github.com/pyroticinsanity/3dsdod
+stars: 15
 systems:
 - 3DS
 title: Dungeons of Daggorath 3DS

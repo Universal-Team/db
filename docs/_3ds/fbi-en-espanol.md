@@ -34,6 +34,7 @@ screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/fbi-en-espanol/main-menu.png
 source: https://github.com/LopezTutoriales/FBI-Spanish
+stars: 13
 systems:
 - 3DS
 title: FBI En Español

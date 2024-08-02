@@ -32,6 +32,7 @@ screenshots:
 - description: Start screen
   url: https://db.universal-team.net/assets/images/screenshots/screenshot-merge/start-screen.png
 source: https://github.com/ihaveamac/screenshot-merge
+stars: 12
 systems:
 - 3DS
 title: screenshot-merge

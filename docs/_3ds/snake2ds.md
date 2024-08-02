@@ -32,6 +32,7 @@ license_name: MIT License
 qr:
   Snake2DS.cia: https://db.universal-team.net/assets/images/qr/snake2ds-cia.png
 source: https://github.com/Jacudibu/Snake2DS
+stars: 2
 systems:
 - 3DS
 title: Snake2DS

@@ -31,6 +31,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/starcruiser7/title-screen.gif
 source: https://github.com/dotMizi/StarCruiser7
+stars: 3
 systems:
 - 3DS
 title: StarCruiser7

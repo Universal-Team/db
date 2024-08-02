@@ -28,6 +28,7 @@ screenshots:
 - description: Completed game
   url: https://db.universal-team.net/assets/images/screenshots/tic-tac-ds/completed-game.png
 source: https://github.com/Jonatan6/Tic-Tac-DS
+stars: 3
 systems:
 - DS
 title: Tic-Tac-DS

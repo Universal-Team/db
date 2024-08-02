@@ -28,6 +28,7 @@ license_name: GNU General Public License v3.0
 qr:
   ThirdTube-ES.cia: https://db.universal-team.net/assets/images/qr/thirdtube-es-cia.png
 source: https://github.com/JustSofter/ThirdTube-ES
+stars: 0
 systems:
 - 3DS
 title: ThirdTube-ES

@@ -20,6 +20,7 @@ icon: https://db.universal-team.net/assets/images/icons/colors.png
 image: https://db.universal-team.net/assets/images/icons/colors.png
 image_length: 282
 layout: app
+stars: 0
 systems:
 - DS
 title: Colors!

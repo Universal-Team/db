@@ -33,6 +33,7 @@ qr:
   NDSForwarder.dsi: https://db.universal-team.net/assets/images/qr/ndsforwarder-dsi.png
   NDSForwarder.nds: https://db.universal-team.net/assets/images/qr/ndsforwarder-nds.png
 source: https://github.com/lifehackerhansol/NDSForwarder-DSi
+stars: 14
 systems:
 - DS
 title: NDSForwarder-DSi

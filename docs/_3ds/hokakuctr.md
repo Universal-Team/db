@@ -19,6 +19,7 @@ image: https://avatars.githubusercontent.com/u/36684034?v=4&size=128
 image_length: 3197
 layout: app
 source: https://github.com/PretendoNetwork/HokakuCTR
+stars: 43
 systems:
 - 3DS
 title: HokakuCTR

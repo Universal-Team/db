@@ -27,6 +27,7 @@ license_name: GNU General Public License v3.0
 qr:
   GraphCalc3DS.cia: https://db.universal-team.net/assets/images/qr/graphcalc3ds-cia.png
 source: https://github.com/flarn2006/GraphCalc3DS
+stars: 27
 systems:
 - 3DS
 title: GraphCalc3DS

@@ -21,6 +21,7 @@ layout: app
 license: mit
 license_name: MIT License
 source: https://github.com/ihaveamac/save-data-copy-tool
+stars: 6
 systems:
 - 3DS
 title: save-data-copy-tool

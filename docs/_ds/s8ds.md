@@ -19,6 +19,7 @@ image: https://db.universal-team.net/assets/images/icons/s8ds.png
 image_length: 630
 layout: app
 source: https://github.com/FluBBaOfWard/S8DS
+stars: 21
 systems:
 - DS
 title: S8DS

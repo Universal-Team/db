@@ -58,6 +58,7 @@ screenshots:
 - description: Splash
   url: https://db.universal-team.net/assets/images/screenshots/stackmill/splash.png
 source: https://github.com/SuperSaiyajinStackZ/StackMill
+stars: 2
 systems:
 - 3DS
 title: StackMill

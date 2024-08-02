@@ -19,6 +19,7 @@ image: https://db.universal-team.net/assets/images/images/hax0r.png
 image_length: 1812
 layout: app
 source: https://github.com/TurtleP/Hax0r
+stars: 10
 systems:
 - 3DS
 title: Hax0r

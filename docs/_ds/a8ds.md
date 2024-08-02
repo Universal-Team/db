@@ -32,6 +32,7 @@ license_name: GNU General Public License v2.0
 qr:
   A8DS.nds: https://db.universal-team.net/assets/images/qr/a8ds-nds.png
 source: https://github.com/wavemotion-dave/A8DS
+stars: 25
 systems:
 - DS
 title: A8DS

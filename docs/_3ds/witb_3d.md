@@ -26,6 +26,7 @@ layout: app
 qr:
   WITB_3D.cia: https://db.universal-team.net/assets/images/qr/witb_3d-cia.png
 source: https://github.com/Manurocker95/WITB_3D
+stars: 2
 systems:
 - 3DS
 title: WITB_3D

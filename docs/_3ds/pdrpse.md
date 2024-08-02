@@ -20,6 +20,7 @@ image: https://db.universal-team.net/assets/images/images/pdrpse.png
 image_length: 11567
 layout: app
 source: https://github.com/suloku/pdrpse
+stars: 6
 systems:
 - 3DS
 title: pdrpse

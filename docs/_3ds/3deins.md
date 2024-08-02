@@ -53,6 +53,7 @@ screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/3deins/main-menu.png
 source: https://github.com/Universal-Team/3DEins
+stars: 18
 systems:
 - 3DS
 title: 3DEins

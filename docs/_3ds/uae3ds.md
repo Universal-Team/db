@@ -31,6 +31,7 @@ script_message: 'You will need a "kick.rom" file in sdmc:/3ds/uae3DS.
 
   and be the 512KB overdumped version.'
 source: https://github.com/badda71/uae3DS
+stars: 44
 systems:
 - 3DS
 title: uae3DS

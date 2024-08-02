@@ -32,6 +32,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/cs3ds/title-screen.png
 source: https://github.com/machinamentum/CS3DS
+stars: 13
 systems:
 - 3DS
 title: CS3DS

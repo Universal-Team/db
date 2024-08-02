@@ -27,6 +27,7 @@ license_name: GNU General Public License v3.0
 qr:
   3DS.RELEASE.cia: https://db.universal-team.net/assets/images/qr/3ds-release-cia.png
 source: https://github.com/The4thPlayer/Pokemon-Purple
+stars: 0
 systems:
 - 3DS
 title: Pokemon Purple

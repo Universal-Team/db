@@ -21,6 +21,7 @@ layout: app
 license: other
 license_name: Other
 source: https://github.com/nop90/POWDER-3DS
+stars: 16
 systems:
 - 3DS
 title: POWDER-3DS

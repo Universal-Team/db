@@ -62,6 +62,7 @@ screenshots:
 - description: Sub menu en
   url: https://db.universal-team.net/assets/images/screenshots/ludonds/sub-menu-en.png
 source: https://github.com/SuperSaiyajinStackZ/LudoNDS
+stars: 2
 systems:
 - DS
 title: LudoNDS

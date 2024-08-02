@@ -35,6 +35,7 @@ script_message:
   message: 'Note: Installing this will overwrite any existing install of
 
     CTGP-7, only install if you do not already have CTGP-7.'
+stars: 0
 systems:
 - 3DS
 title: CTGP-7 Downloader

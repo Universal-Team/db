@@ -24,6 +24,7 @@ nightly:
   qr:
     arm7dldi-ntr/SNEmulDS.nds: https://db.universal-team.net/assets/images/qr/nightly/arm7dldi-ntrsnemulds-nds.png
 source: https://bitbucket.org/Coto88/toolchaingenericds-multimediaplayer
+stars: 0
 systems:
 - DS
 title: ToolchainGenericDS-multimediaplayer

@@ -31,6 +31,7 @@ screenshots:
 - description: Settings
   url: https://db.universal-team.net/assets/images/screenshots/chatgpt3ds/settings.png
 source: https://github.com/CarsonKompon/ChatGPT3DS
+stars: 22
 systems:
 - 3DS
 title: ChatGPT3DS

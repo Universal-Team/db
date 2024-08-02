@@ -32,6 +32,7 @@ image: https://raw.githubusercontent.com/Alexyo21/the-pirate-launcher/master/ico
 image_length: 2130
 layout: app
 source: https://github.com/cooolgamer/the-pirate-launcher
+stars: 3
 systems:
 - 3DS
 title: The Pirate Launcher

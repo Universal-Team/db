@@ -32,6 +32,7 @@ license_name: GNU General Public License v3.0
 qr:
   RTChanger-Version1.0.cia: https://db.universal-team.net/assets/images/qr/rtchanger-version1-0-cia.png
 source: https://github.com/Storm-Eagle20/RTChanger
+stars: 19
 systems:
 - 3DS
 title: RTChanger

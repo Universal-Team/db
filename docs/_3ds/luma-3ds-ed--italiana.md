@@ -24,6 +24,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/M4nueleZ/Luma3DS_ITA
+stars: 4
 systems:
 - 3DS
 title: Luma 3DS Ed. Italiana

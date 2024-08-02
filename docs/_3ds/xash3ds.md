@@ -36,6 +36,7 @@ license_name: GNU General Public License v3.0
 qr:
   Xash3DS.cia: https://db.universal-team.net/assets/images/qr/xash3ds-cia.png
 source: https://github.com/masterfeizz/Xash3DS
+stars: 148
 systems:
 - 3DS
 title: Xash3DS

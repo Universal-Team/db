@@ -33,6 +33,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/antibounce/title-screen.png
 source: https://github.com/TurtleP/Antibounce
+stars: 2
 systems:
 - 3DS
 title: Antibounce

@@ -29,6 +29,7 @@ license_name: GNU General Public License v3.0
 qr:
   ThirdTube-DE.cia: https://db.universal-team.net/assets/images/qr/thirdtube-de-cia.png
 source: https://github.com/ItsFrocat/ThirdTube-DE
+stars: 1
 systems:
 - 3DS
 title: ThirdTube-DE

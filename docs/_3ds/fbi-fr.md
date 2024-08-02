@@ -41,6 +41,7 @@ screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/fbi-fr/main-menu.png
 source: https://github.com/cooolgamer/FBI-Reloaded-FR
+stars: 3
 systems:
 - 3DS
 title: FBI-FR

@@ -19,6 +19,7 @@ image: https://db.universal-team.net/assets/images/images/falling-blocks-watch-o
 image_length: 1112
 layout: app
 source: https://github.com/Spaqin/fbwo-3ds
+stars: 10
 systems:
 - 3DS
 title: Falling Blocks Watch Out

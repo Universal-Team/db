@@ -26,6 +26,7 @@ qr:
   ravimid.cia: https://db.universal-team.net/assets/images/qr/ravimid-cia.png
   ravimid_deluxe.cia: https://db.universal-team.net/assets/images/qr/ravimid_deluxe-cia.png
 source: https://github.com/Hoksy/ravimid
+stars: 2
 systems:
 - 3DS
 title: ravimid

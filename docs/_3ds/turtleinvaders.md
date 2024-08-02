@@ -21,6 +21,7 @@ layout: app
 license: other
 license_name: Other
 source: https://github.com/TurtleP/TurtleInvaders
+stars: 9
 systems:
 - 3DS
 title: TurtleInvaders

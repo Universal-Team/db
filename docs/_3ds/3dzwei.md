@@ -69,6 +69,7 @@ screenshots:
 - description: Ui settings
   url: https://db.universal-team.net/assets/images/screenshots/3dzwei/ui-settings.png
 source: https://github.com/Universal-Team/3DZwei
+stars: 5
 systems:
 - 3DS
 title: 3DZwei

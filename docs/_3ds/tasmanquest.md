@@ -23,6 +23,7 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/tasmanquest/screenshot-2.png
 - description: Screenshot 3
   url: https://db.universal-team.net/assets/images/screenshots/tasmanquest/screenshot-3.png
+stars: 0
 systems:
 - 3DS
 title: TasmanQuest

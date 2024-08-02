@@ -28,6 +28,7 @@ license_name: The Unlicense
 qr:
   SpotPassDumper11.cia: https://db.universal-team.net/assets/images/qr/spotpassdumper11-cia.png
 source: https://github.com/SpotPassArchive/SpotPassDumper11
+stars: 11
 systems:
 - 3DS
 title: SpotPassDumper11

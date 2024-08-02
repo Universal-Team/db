@@ -25,6 +25,7 @@ layout: app
 qr:
   ButtonPresser3DS.cia: https://db.universal-team.net/assets/images/qr/buttonpresser3ds-cia.png
 source: https://github.com/trainboy2019/ButtonPresser3DS
+stars: 2
 systems:
 - 3DS
 title: ButtonPresser3DS

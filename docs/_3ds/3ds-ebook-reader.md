@@ -21,6 +21,7 @@ layout: app
 license: mit
 license_name: MIT License
 source: https://github.com/reworks-org/3DS_eBook_Reader
+stars: 25
 systems:
 - 3DS
 title: 3DS eBook Reader

@@ -26,6 +26,7 @@ screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/ezb9supdater/main-menu.png
 source: https://github.com/PabloMK7/EzB9SUpdater
+stars: 24
 systems:
 - 3DS
 title: EzB9SUpdater

@@ -28,6 +28,7 @@ license_name: GNU General Public License v3.0
 qr:
   Anemone3DSFR.cia: https://db.universal-team.net/assets/images/qr/anemone3dsfr-cia.png
 source: https://github.com/cooolgamer/Anemone3DS
+stars: 1
 systems:
 - 3DS
 title: Anemone3DS-FR

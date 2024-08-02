@@ -30,6 +30,7 @@ screenshots:
 - description: Race 4
   url: https://db.universal-team.net/assets/images/screenshots/cro-mag-rally/race-4.png
 source: https://github.com/fordcars/CroMagRally
+stars: 2
 systems:
 - 3DS
 title: Cro-Mag Rally

@@ -30,6 +30,7 @@ screenshots:
 - description: Tree view
   url: https://db.universal-team.net/assets/images/screenshots/3ds-sorting/tree-view.png
 source: https://github.com/memeToasty/3ds_sorting
+stars: 6
 systems:
 - 3DS
 title: 3DS Sorting

@@ -27,6 +27,7 @@ license_name: MIT License
 qr:
   snake.cia: https://db.universal-team.net/assets/images/qr/snake-cia.png
 source: https://github.com/Zachary-Rude/Snake-for-3DS
+stars: 0
 systems:
 - 3DS
 title: Snake for 3DS

@@ -27,6 +27,7 @@ screenshots:
 - description: Reversed camera
   url: https://db.universal-team.net/assets/images/screenshots/yet-another-mario-kart-clone-3ds/reversed-camera.png
 source: https://github.com/PabloMK7/YAMKC_3DS
+stars: 15
 systems:
 - 3DS
 title: Yet Another Mario Kart Clone 3DS

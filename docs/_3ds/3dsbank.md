@@ -22,6 +22,7 @@ license_name: GNU General Public License v3.0
 qr:
   3DSBank.cia: https://db.universal-team.net/assets/images/qr/3dsbank-cia.png
 source: https://github.com/RocketRobz/3DSBank
+stars: 77
 systems:
 - 3DS
 title: 3DSBank
