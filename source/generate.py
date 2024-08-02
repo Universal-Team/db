@@ -498,6 +498,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 					app["source"] = repo["web_url"]
 				if "created" not in app:
 					app["created"] = repo["created_at"]
+				app["stars"] += repo["star_count"]
 
 				if release:
 					if "download_page" not in app:
