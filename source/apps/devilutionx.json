@@ -11,6 +11,7 @@
 	],
 	"image": "https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/banner.png",
 	"icon": "https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/icon.png",
+	"download_filter": "3ds",
 	"scripts": {
 		"devilutionx-3ds.cia": [
 			{
