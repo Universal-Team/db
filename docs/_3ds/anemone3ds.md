@@ -32,7 +32,7 @@ screenshots:
 - description: Theme list
   url: https://db.universal-team.net/assets/images/screenshots/anemone3ds/theme-list.png
 source: https://github.com/astronautlevel2/Anemone3DS
-stars: 894
+stars: 895
 systems:
 - 3DS
 title: Anemone3DS

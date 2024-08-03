@@ -34,9 +34,14 @@ stars: 4
 systems:
 - 3DS
 title: TWL NAND to SD card redirection
-update_notes: "{\"message\": \"We couldn't respond to your request in time. Sorry\
-  \ about that. Please try resubmitting your request and contact us if the problem\
-  \ persists.\"}\r\n"
+update_notes: '<p dir="auto">testing old version twl patch, with only twl redirection
+  to sd<br>
+
+  old = og 3ds family<br>
+
+  new = new3ds family</p>
+
+  <p dir="auto"><strong>Full Changelog</strong>: <a href="https://github.com/Alexyo21/twl_firm_patcher/commits/1.0-basic">https://github.com/Alexyo21/twl_firm_patcher/commits/1.0-basic</a></p>'
 updated: '2023-09-23T00:21:14Z'
 version: 1.0-basic
 version_title: sd card old release
