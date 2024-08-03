@@ -45,7 +45,7 @@ nightly:
     TWiLightMenu.7z:
       url: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu.7z
 source: https://github.com/DS-Homebrew/TWiLightMenu
-stars: 3170
+stars: 3171
 systems:
 - DS
 title: TWiLight Menu++

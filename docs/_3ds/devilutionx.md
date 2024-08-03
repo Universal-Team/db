@@ -7,6 +7,7 @@ color: '#695d5d'
 color_bg: '#695d5d'
 created: '2018-08-02T17:19:01Z'
 description: Diablo build for modern operating systems
+download_filter: 3ds
 download_page: https://github.com/diasurgical/devilutionX/releases
 downloads:
   devilutionx-3ds.3dsx:
@@ -17,18 +18,6 @@ downloads:
     size: 12682176
     size_str: 12 MiB
     url: https://github.com/diasurgical/devilutionX/releases/download/1.5.2/devilutionx-3ds.cia
-  devilutionx-amiga-m68k.zip:
-    size: 6513177
-    size_str: 6 MiB
-    url: https://github.com/diasurgical/devilutionX/releases/download/1.5.2/devilutionx-amiga-m68k.zip
-  devilutionx-miyoo-mini-miniui.zip:
-    size: 5785514
-    size_str: 5 MiB
-    url: https://github.com/diasurgical/devilutionX/releases/download/1.5.2/devilutionx-miyoo-mini-miniui.zip
-  devilutionx-miyoo-mini-onion-os.zip:
-    size: 5987365
-    size_str: 5 MiB
-    url: https://github.com/diasurgical/devilutionX/releases/download/1.5.2/devilutionx-miyoo-mini-onion-os.zip
 github: diasurgical/devilutionX
 icon: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/icon.png
 image: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/banner.png
