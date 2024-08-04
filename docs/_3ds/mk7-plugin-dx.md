@@ -23,7 +23,7 @@ image: https://avatars.githubusercontent.com/u/67318218?v=4&size=128
 image_length: 4502
 layout: app
 source: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: MK7 Plugin DX
