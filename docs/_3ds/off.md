@@ -6,13 +6,13 @@ categories:
 color: '#8c8c8c'
 color_bg: '#808080'
 created: '2024-06-12T12:16:57Z'
-download_page: https://github.com/leomasonmk/OFF3DS/releases
+download_page: https://github.com/fauxfennec/OFF3DS/releases
 downloads:
   OFF.cia:
     size: 92033984
     size_str: 87 MiB
     url: https://github.com/fauxfennec/OFF3DS/releases/download/v1.0/OFF.cia
-github: leomasonmk/OFF3DS
+github: fauxfennec/OFF3DS
 icon: https://raw.githubusercontent.com/fauxfennec/OFF3DS/main/icon.png
 image: https://raw.githubusercontent.com/fauxfennec/OFF3DS/main/logo.png
 image_length: 94636
@@ -28,7 +28,7 @@ systems:
 title: 'OFF'
 unique_ids:
 - '0xF0F0F'
-update_notes: <p>miaou</p>
+update_notes: <p dir="auto">miaou</p>
 updated: '2024-06-12T12:24:05Z'
 version: v1.0
 version_title: v1.0
