@@ -1,4 +1,7 @@
 ## App Requests
+
+NOTE: Even if your app comply's with our rules, we (Universal-Team members) reserve the right to remove your app from our store for any reason at any time.
+
 ### Rules
 Any app requests must conform to the following rules before they can be added to the database:
 1. Do not include any copyrighted content that you don't have the rights to use (i.e. piracy)
