@@ -33,7 +33,7 @@ script_message: 'This will overwrite your current
 
   Luma3DS version by downloading it again.'
 source: https://github.com/cooolgamorg/Starlight3DS
-stars: 49
+stars: 50
 systems:
 - 3DS
 title: Starlight3DS
