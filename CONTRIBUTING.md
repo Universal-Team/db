@@ -1,20 +1,20 @@
 ## App Requests
 ### Rules
-Any app requests must conform with the following rules to be added.
-1. Do not include any copyrighted content that you don't have the rights to use (piracy)
+Any app requests must conform to the following rules before they can be added to the database:
+1. Do not include any copyrighted content that you don't have the rights to use (i.e. piracy)
+   - This includes apps developed with Unity as "Unity for 3DS" can only be legally acquired by signing an NDA that prevents you from developing homebrew with it
    - Loading copyrighted assets externally from the SD card is fine as long as it's not shipped with the application, whether from the script or in the app itself
-   - This includes apps developed with Unity, as Unity for 3DS can only legally be acquired by signing an NDA that prevents you from developing homebrew
-1. The app should not be focused around NSFW content
-   - If it does have NSFW content in it as a minor part, then it should be clearly labeled as such
-1. There must be some description of what the app does, whether in the README or submitted app description
-1. Must have some meaningful functionality; not just a testing app or a utility that works on outdated ideologies
-1. Forks must achieve a different goal/target audience than the base app. Forks of the apps + "more functionality" or translations should be PR'd into the original project's repository.
-    - Chances are, if the project that you're forking doesn't have translations, it's often times not needed.
+1. There should be no NSFW content
+1. Must have some description of what the app does, whether in the README or in the submitted app description
+1. Must have some meaningful functionality (e.g. not just a testing app or a utility that works on outdated ideas)
+1. Any forks of existing apps must achieve a different goal/target audience than their base app
+    - Ideally, forks that only add "more functionality" or different translations should be Pull Requests into the original project's repository rather than being a separate app.
+    - If the project that you're forking doesn't have translations, chances are it's not needed.
 
 ### Recommendations
-These are not strict requirements, but are recommended.
-1. Make the source code be publically accessible
-1. Use GitHub Releases for app downloads, this makes update tracking and downloads much easier
-   - Bitbucket is also supported, but not as well, and other sites can be added if they have a good API for it
-1. Have a place for public discussion of your app (GitHub Discussions, GBAtemp, Discord server, etc)
+These are not strict requirements, but are strongly recommended:
+1. The source code should be publicly accessible
+1. Use GitHub Releases for app downloads. This makes update tracking and downloads much easier
+   - Bitbucket is also supported but not as well. Other sites can be added if they have a good API for it
+1. Have a place for public discussion of your app (e.g GitHub Discussions, GBAtemp, Discord server, etc)
 1. If a online service component exists, try to make it open source and allow the URL which the apps connects with to be changed, in case the service goes down
