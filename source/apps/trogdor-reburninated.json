@@ -23,7 +23,7 @@
 			{
 				"type": "extractFile",
 				"file": "/Trogdor-Reburninated.zip",
-				"input": "Trogdor-Reburninated-v.*-3ds/3ds/",
+				"input": "Trogdor-Reburninated-3ds/3ds/",
 				"output": "/3ds/"
 			},
 			{
