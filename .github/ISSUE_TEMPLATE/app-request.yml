@@ -4,7 +4,7 @@ labels: ["app request"]
 body:
   - type: markdown
     attributes:
-      value: "**Please ensure your app complies with the [Universal-DB guidelines](https://github.com/Universal-Team/db/blob/da0f7076fa5632294af0c597efe315bcc86acab4/CONTRIBUTING.md#app-requests) before submitting a request.**"
+      value: "**Please ensure your app complies with the [Universal-DB guidelines](https://github.com/Universal-Team/db/blob/master/CONTRIBUTING.md#app-requests) before submitting a request.**"
   - type: input
     attributes:
       label: Title
