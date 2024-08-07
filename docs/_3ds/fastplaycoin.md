@@ -25,7 +25,7 @@ layout: app
 qr:
   FastPlayCoin.cia: https://db.universal-team.net/assets/images/qr/fastplaycoin-cia.png
 source: https://github.com/CorySanin/FastPlayCoin
-stars: 23
+stars: 24
 systems:
 - 3DS
 title: FastPlayCoin
