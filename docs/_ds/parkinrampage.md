@@ -24,7 +24,7 @@ license_name: BSD 3-Clause "New" or "Revised" License
 qr:
   ParkingRampage.nds: https://db.universal-team.net/assets/images/qr/parkingrampage-nds.png
 source: https://github.com/DesperateProgrammer/ParkingRampage
-stars: 4
+stars: 5
 systems:
 - DS
 title: Parkin'Rampage

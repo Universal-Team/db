@@ -25,7 +25,7 @@ layout: app
 qr:
   TinyVNC.cia: https://db.universal-team.net/assets/images/qr/tinyvnc-cia.png
 source: https://github.com/badda71/TinyVNC
-stars: 62
+stars: 63
 systems:
 - 3DS
 title: TinyVNC
