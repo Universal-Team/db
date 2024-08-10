@@ -12,17 +12,17 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1438720
+    size: 1439232
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.9/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.0/ColecoDS.nds
   README.md:
-    size: 52568
+    size: 53065
     size_str: 51 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.9/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.0/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/9.9/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.0/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -35,21 +35,20 @@ stars: 36
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V9.9: 02-May-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V10.0: 10-Aug-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Added overlays for Blackjack and War Room. Improved War Games overlay.</li>
+  <li>Adam Sound Enhancer module support to allow AY sound games to play (mostly MSX
+  ports to the ADAM)</li>
 
-  <li>Added KANA lock LED indicator for Japanese MSX keyboard layouts.</li>
+  <li>Ignore files that start with a ''.'' or ''_'' (mostly to help filter out clear
+  non-game files).</li>
 
-  <li>Correctly read-back the PPG Port B (needed to make the KANA lock work but is
-  more accurate overall).</li>
-
-  <li>Improvements to various Coleco PCB types for more accurate emulation.</li>
+  <li>Minor cleanup, tweaks and a bug fixes.</li>
 
   </ul>'
-updated: '2024-05-02T10:50:35Z'
-version: '9.9'
-version_title: Version 9.9
+updated: '2024-08-10T11:13:49Z'
+version: '10.0'
+version_title: Version 10.0
 ---
