@@ -696,7 +696,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 						data = numpy.array(qr)
 						r, g, b, a = data.T
 						black = (r == 0) & (g == 0) & (b == 0)
-						data[...][black.T] = (0xF6, 0x6A, 0x0A, 0xFF)
+						data[...][black.T] = (0xD2, 0x99, 0x22, 0xFF)
 						qr = Image.fromarray(data)
 						if img:
 							draw = ImageDraw.Draw(qr)
