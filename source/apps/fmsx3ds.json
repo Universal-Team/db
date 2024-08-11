@@ -1,0 +1,17 @@
+{
+	"github": "TomiokaH01/fMSX3DS",
+	"systems": [
+		"3DS"
+	],
+	"unique_ids": [
+		472804
+	],
+	"categories": [
+		"emulator"
+	],
+	"author": "h.tomioka",
+	"description": "fMSX(MSX emulator) port to 3DS. Add many new feature such as MSXTurboR emulation and MSX0 emulation.",
+	"long_description": "fMSX(MSX emulator) port to 3DS. Add new feature such as MSXTurboR emulation and MSX0 emulation.\nAlso, it add various improvements based on recently analize of MSX hardware\ninclude analize in Japan that is unknown in world wide.",
+	"image": "https://private-user-images.githubusercontent.com/168841671/331778903-f7ffcd0d-c1e9-4db4-a4ee-03b29ebc79b5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjM0MTcyNDAsIm5iZiI6MTcyMzQxNjk0MCwicGF0aCI6Ii8xNjg4NDE2NzEvMzMxNzc4OTAzLWY3ZmZjZDBkLWMxZTktNGRiNC1hNGVlLTAzYjI5ZWJjNzliNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwODExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDgxMVQyMjU1NDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03ZjA3MjE1NGNhZTM1NmNjODQyOWI0NTU3ZGZmZjM4YzdiNzQyYzVlYTFjYjYwYzJjMzllZmIxZjIwZDlmN2M0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.hTvWFkt8-Lo3mxlhW7mNxgO6H6uXSIf_B7dfbUojzEc",
+	"icon": "https://raw.githubusercontent.com/TomiokaH01/fMSX3DS/main/icon.png",
+}
