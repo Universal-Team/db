@@ -12,5 +12,5 @@
 	"description": "A web server made in C for the 3DS.",
 	"long_description": "A flexible web server that can handle sd card file reads, crypto operations, system requests and raw memory operations.",
 	"image": "https://raw.githubusercontent.com/WLHQ/3DWEB/main/resources/banner.png",
-	"icon": "https://raw.githubusercontent.com/WLHQ/3DWEB/main/resources/icon.png",
+	"icon": "https://raw.githubusercontent.com/WLHQ/3DWEB/main/resources/icon.png"
 }
