@@ -1,0 +1,30 @@
+{
+	"github": "Golem642/NFCheckRem",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"author": "Golem64",
+	"description": "Patch for Nintendo consoles to remove the read-only check on amiibos and allow for rewritable Ntag215 NFC tags",
+	"long_description": "Patch for Nintendo consoles to remove the read-only check on amiibos and allow for rewritable Ntag215 NFC tags\n# Installation\n- Nintendo 3DS : Ensure you have the latest [Luma3DS](https://github.com/LumaTeam/Luma3DS/) version, then go into the folder corresponding to your console and download the .ips file. \nPut this file into your SD card in the following folder : `/luma/sysmodules/` then ensure you have "Enable loading external FIRMs and modules" and "Enable game patching" enabled in the Luma3DS settings (hold SELECT on boot)\n- Wii U : (not yet implemented)\n- Switch : (not yet implemented)\n### Note for 3DS users\nThe patch will do nothing if wumiibo is enabled, ensure wumiibo is disabled before attempting to scan any Amiibo or NFC tag\n# Why ?\nWhen writing an Amiibo to a blank Ntag215 NFC tag with an app such as [TagMo](https://github.com/HiddenRamblings/TagMo), the tag will become read-only on some parts of the data.\n\nThis data includes the Amiibo game character id, variant, figure type, model number and series.\n\nThis means that if it's read-only, you cannot change the figure stored on the NFC tag, which therefore mean having to buy multiple tags for every Amiibo you want.\n# Can't I just use Wumiibo/re_nfpii ?\nWell yes but sometimes games won't like when you open their menu and give you intense lag until you restart it, making those amiibo emulation apps unusable on those games.\n\nMoreover, this solution will give you the possibility to have physical tags, so you get the original experience with a few more features + you can easily share it with others as long as they have the patch too\n# What does this do ?\nThis modifies the NFC system module to disable the checks that are made on those areas, yes the console checks if the tag is read-only.\n\nBy disabling these checks, this means you can have write-enabled tags and they would still work on consoles with the patch installed\n\nAnd thus, you can reuse your tag forever without being constrained to have it as one specific Amiibo (you still have to rewrite it every time you want to change it)\n# Technical details\nSee the [GitHub repository](https://github.com/Golem642/NFCheckRem)",
+	"icon": "https://raw.githubusercontent.com/Golem642/NFCheckRem/main/NFCheckRem.png",
+	"script_message": "You will need to have \"Game Patching\" and \"Loading external FIRMs and modules\"\nenabled in LumaCFW settings (hold select on boot)",
+  "scripts": {
+		"Old 3DS and Old 2DS": [
+			{
+				"type": "downloadFile",
+				"file": "https://raw.githubusercontent.com/Golem642/NFCheckRem/main/Old%203DS%20and%20Old%202DS/0004013000004002.ips",
+				"output": "sdmc:/luma/sysmodules/0004013000004002.ips"
+			}
+		],
+    "New 3DS and New 2DS": [
+			{
+				"type": "downloadFile",
+				"file": "https://raw.githubusercontent.com/Golem642/NFCheckRem/main/New%203DS%20and%20New%202DS/0004013000004002.ips",
+				"output": "sdmc:/luma/sysmodules/0004013000004002.ips"
+			}
+		]
+	}
+}
