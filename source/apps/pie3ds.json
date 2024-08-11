@@ -1,0 +1,13 @@
+{
+	"github": "amedeo463/pie3ds",
+  "title": "Pie3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"description": "A simple application that calculates Pi",
+	"long_description": "Pie3DS - a simple application that calculates Pi.\n\nWritten in C with VS code\n\nCompiled with devkitPro\n\ndebugged thanks to Docker",
+	"icon": "https://raw.githubusercontent.com/amedeo463/pie3ds/main/icon.png"
+}
