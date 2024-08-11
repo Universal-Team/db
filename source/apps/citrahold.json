@@ -1,0 +1,19 @@
+{
+	"github": "regimensocial/Citrahold-3DS/",
+	"systems": [
+		"3DS"
+	],
+	"unique_ids": [
+		1045502
+	],
+	"categories": [
+		"utility",
+    "save-tool"
+	],
+	"author": "Jamie Adams, regimensocial",
+	"description": "Citrahold allows you to sync saves between Citra and your 3DS",
+	"long_description": "Citrahold provides you with everything you need to easily move game saves from a physical 3DS to a 3DS emulator on your computer (and vice versa).\n\nIt basically allows you to cloud-sync your saves for if you like to play a game across a real 3DS and an emulator.\n\nPlease visit [the website](https://www.citrahold.com/) for much more information! It has everything you need in order to set it up.\n\nCheckpoint (or another competent save manager) and an Internet connection are also required.",
+	"image": "https://raw.githubusercontent.com/regimensocial/Citrahold-3DS/main/assets/banner.png",
+	"icon": "https://raw.githubusercontent.com/regimensocial/Citrahold-3DS/main/assets/icon.png",
+	"script_message": "Please visit https://www.citrahold.com/ to get set-up"
+}
