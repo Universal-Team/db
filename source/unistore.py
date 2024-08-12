@@ -320,7 +320,7 @@ class UniStore:
 
 		# If the file already exists, read it and increment the revision if changed
 		if path.exists(outputPath):
-			with open(outputPath) as oldFile:
+			with open(outputPath, encoding="utf8") as oldFile:
 				oldData = json.load(oldFile)
 				if "storeInfo" in oldData and "revision" in oldData["storeInfo"]:
 					self._unistore["storeInfo"]["revision"] = oldData["storeInfo"]["revision"]
@@ -331,9 +331,9 @@ class UniStore:
 					write = True
 
 		if write:
-			with open(outputPath, "w") as outputFile:
+			with open(outputPath, "w", encoding="utf8") as outputFile:
 				json.dump(self._unistore, outputFile, sort_keys=True, ensure_ascii=False)
 
 			if infoPath:
-				with open(infoPath, "w") as infoFile:
+				with open(infoPath, "w", encoding="utf8") as infoFile:
 					json.dump(self._unistore["storeInfo"], infoFile, sort_keys=True, ensure_ascii=False)
