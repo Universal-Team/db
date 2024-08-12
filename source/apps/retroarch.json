@@ -1,0 +1,110 @@
+{
+	"github": "libretro/RetroArch",
+	"systems": ["3DS"],
+	"categories": ["emulator"],
+	"unique_ids": [764928],
+	"icon": "https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/ctr/assets/default.png",
+	"image": "https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/ctr/assets/libretro_banner.png",
+	"download_page": "f\"https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds\"",
+	"eval_notes_md": true,
+	"update_notes_md": "next(iter(re.findall(f\"# {app['version'][1:]}\\\\n+(.*?)\\\\n+#\", requests.get('https://raw.githubusercontent.com/libretro/RetroArch/master/CHANGES.md').text, re.DOTALL)), '')",
+	"eval_downloads": true,
+	"downloads": {
+		"RetroArch_3dsx.7z": {
+			"url": "f\"https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds/RetroArch_3dsx.7z\"",
+			"size": null
+		},
+		"RetroArch_cia.7z": {
+			"url": "f\"https://buildbot.libretro.com/stable/{app['version'][1:]}/nintendo/3ds/RetroArch_cia.7z\"",
+			"size": null
+		}
+	},
+	"nightly": {
+		"download_page": "https://buildbot.libretro.com/nightly/nintendo/3ds/",
+		"downloads": {
+			"RetroArch_cia.7x": {
+				"url": "https://buildbot.libretro.com/nightly/nintendo/3ds/RetroArch_cia.7z"
+			},
+			"RetroArch_3dsx.7z": {
+				"url": "https://buildbot.libretro.com/nightly/nintendo/3ds/RetroArch_3dsx.7z"
+			}
+		}
+	},
+	"scripts": {
+		"Core info files": [
+			{
+				"type": "downloadFile",
+				"file": "https://buildbot.libretro.com/assets/frontend/info.zip",
+				"output": "/info.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/info.zip",
+				"input": "",
+				"output": "retroarch/media/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/info.zip"
+			}
+		],
+		"bottom_menu.png": [
+			{
+				"type": "downloadFile",
+				"file": "https://raw.githubusercontent.com/libretro/retroarch-assets/master/ctr/bottom_menu.png",
+				"output": "/retroarch/assets/ctr/bottom_menu.png"
+			}
+		],
+		"[optional] Assets": [
+			{
+				"type": "downloadFile",
+				"file": "https://buildbot.libretro.com/assets/frontend/assets.zip",
+				"output": "/assets.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/assets.zip",
+				"input": "",
+				"output": "retroarch/assets/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/assets.zip"
+			}
+		],
+		"[optional] Overlays": [
+			{
+				"type": "downloadFile",
+				"file": "https://buildbot.libretro.com/assets/frontend/overlays.zip",
+				"output": "/overlays.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/overlays.zip",
+				"input": "",
+				"output": "retroarch/overlays/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/overlays.zip"
+			}
+		],
+		"[optional] Database files": [
+			{
+				"type": "downloadFile",
+				"file": "https://buildbot.libretro.com/assets/frontend/database-rdb.zip",
+				"output": "/database-rdb.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/database-rdb.zip",
+				"input": "",
+				"output": "retroarch/database/rdb/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/database-rdb.zip"
+			}
+		]
+	}
+}
