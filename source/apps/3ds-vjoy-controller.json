@@ -1,0 +1,14 @@
+{
+	"github": "StringJan/3ds-vJoy-controller",
+  "title": "3DS vJoy Controller",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"author": "CPunch & Golem64",
+	"description": "Use your 3DS as a vJoy controller for your PC",
+	"long_description": "With this, you can use one or more 3DS consoles as a single, coherent controller on your PC.\n\nUseful if u need a button box or something like that.\n\nVisit the [repo](https://github.com/StringJan/3ds-vJoy-controller) for more info on how to use it.",
+	"script_message": "Please visit https://github.com/StringJan/3ds-vJoy-controller to get started"
+}
