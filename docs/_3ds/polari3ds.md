@@ -53,7 +53,7 @@ prerelease:
   version: 1.1.1-dev_0.6
   version_title: 'dev build '
 source: https://github.com/Alexyo21/Polari3DS
-stars: 23
+stars: 24
 systems:
 - 3DS
 title: Polari3DS
