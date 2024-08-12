@@ -1,0 +1,64 @@
+{
+	"github": "scummvm/scummvm",
+	"systems": ["3DS"],
+	"categories": ["emulator"],
+	"unique_ids": [1045281],
+	"icon": "https://raw.githubusercontent.com/scummvm/scummvm/master/backends/platform/3ds/app/icon.png",
+	"image": "https://raw.githubusercontent.com/scummvm/scummvm/master/backends/platform/3ds/app/banner.png",
+	"download_page": "f\"https://www.scummvm.org/downloads/\"",
+	"eval_downloads": true,
+	"downloads": {
+		"scummvm-3dsx.zip": {
+			"url": "f\"https://downloads.scummvm.org/frs/scummvm/{app['version'][1:]}/scummvm-{app['version'][1:]}-3ds-3dsx.zip\"",
+			"size": null
+		},
+		"scummvm-cia.zip": {
+			"url": "f\"https://downloads.scummvm.org/frs/scummvm/{app['version'][1:]}/scummvm-{app['version'][1:]}-3ds-cia.zip\"",
+			"size": null
+		}
+	},
+	"scripts": {
+		"[nightly] scummvm-3dsx": [
+			{
+				"type": "downloadFile",
+				"file": "https://buildbot.scummvm.org/dailybuilds/master/3ds-master-latest.zip",
+				"output": "/scummvm-3ds-nightly.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/scummvm-3ds-nightly.zip",
+				"input": "3ds-master-.{8}/scummvm.3dsx",
+				"output": "/3ds/scummvm-nightly.3dsx"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/scummvm-3ds-nightly.zip"
+			}
+		],
+		"[nightly] scummvm-cia": [
+			{
+				"type": "downloadFile",
+				"file": "https://buildbot.scummvm.org/dailybuilds/master/3ds-master-latest.zip",
+				"output": "/scummvm-3ds-nightly.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/scummvm-3ds-nightly.zip",
+				"input": "3ds-master-.{8}/scummvm.cia",
+				"output": "/3ds/scummvm-nightly.cia"
+			},
+			{
+				"type": "installCia",
+				"file": "/3ds/scummvm-nightly.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/3ds/scummvm-nightly.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/assets.zip"
+			}
+		]
+	}
+}
