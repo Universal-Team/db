@@ -11,7 +11,7 @@
 	],
 	"author": "TogeToge & MarioGames",
 	"description": "TJAPlayer for 3DS - Music game of the TJA file.",
-	"long_description": "TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。\nThis software is produced under the official authorization of TogeToge.\n\n・太鼓タワーと段位道場の実装\n・一部オプションの追加\n・その他一部の不具合修正\n\n・Implementation of Taiko Tower and Rank Dojo\n・Addition of some options\n・FIXES OF OTHER FAILURE"
+	"long_description": "TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。\nThis software is produced under the official authorization of TogeToge.\n\n・太鼓タワーと段位道場の実装\n・一部オプションの追加\n・その他一部の不具合修正\n\n・Implementation of Taiko Tower and Rank Dojo\n・Addition of some options\n・FIXES OF OTHER FAILURE",
 	"image": "https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png",
 	"icon": "https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png"
 }
