@@ -27,7 +27,7 @@ license_name: GNU General Public License v3.0
 qr:
   ctrmus.cia: https://db.universal-team.net/assets/images/qr/ctrmus-cia.png
 source: https://github.com/deltabeard/ctrmus
-stars: 90
+stars: 91
 systems:
 - 3DS
 title: ctrmus

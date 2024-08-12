@@ -25,7 +25,7 @@ layout: app
 qr:
   snakes.cia: https://db.universal-team.net/assets/images/qr/snakes-cia.png
 source: https://github.com/DDews/Snakes
-stars: 11
+stars: 12
 systems:
 - 3DS
 title: Snakes
