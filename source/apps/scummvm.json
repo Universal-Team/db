@@ -3,6 +3,8 @@
 	"systems": ["3DS"],
 	"categories": ["emulator"],
 	"unique_ids": [1045281],
+	"description": "Point-and-click adventure game engines",
+	"long_description": "ScummVM allows you to play classic graphic point-and-click adventure games, text adventure games, and RPGs, as long as you already have the game data files. ScummVM replaces the executable files shipped with the games, which means you can now play your favorite games on all your favorite devices.\n\nWhile ScummVM was originally designed to run LucasArts’ SCUMM games, over time support has been added for many other games: see the full list [on our wiki](https://wiki.scummvm.org/index.php?title=Category:Supported_Games). Noteworthy titles include Broken Sword, Myst and Blade Runner, although there are countless other hidden gems to explore.",
 	"icon": "https://raw.githubusercontent.com/scummvm/scummvm/master/backends/platform/3ds/app/icon.png",
 	"image": "https://raw.githubusercontent.com/scummvm/scummvm/master/backends/platform/3ds/app/banner.png",
 	"download_page": "f\"https://www.scummvm.org/downloads/\"",
