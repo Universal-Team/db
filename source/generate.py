@@ -163,7 +163,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 	# Load app list json
 	source = []
 	for item in listdir(sourceFolder):
-		with open(path.join(sourceFolder, item)) as f:
+		with open(path.join(sourceFolder, item), encoding="utf8") as f:
 			source.append(json.load(f))
 
 	# Old data json
