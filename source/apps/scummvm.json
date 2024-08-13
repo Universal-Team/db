@@ -1,6 +1,6 @@
 {
 	"github": "scummvm/scummvm",
-	"systems": ["3DS"],
+	"systems": ["3DS", "DS"],
 	"categories": ["emulator"],
 	"unique_ids": [1045281],
 	"description": "Point-and-click adventure game engines",
@@ -16,6 +16,10 @@
 		},
 		"scummvm-cia.zip": {
 			"url": "f\"https://downloads.scummvm.org/frs/scummvm/{app['version'][1:]}/scummvm-{app['version'][1:]}-3ds-cia.zip\"",
+			"size": null
+		},
+		"scummvm-ds.zip": {
+			"url": "f\"https://downloads.scummvm.org/frs/scummvm/{app['version'][1:]}/scummvm-{app['version'][1:]}-ds.zip\"",
 			"size": null
 		}
 	},
@@ -60,6 +64,23 @@
 			{
 				"type": "deleteFile",
 				"file": "/assets.zip"
+			}
+		],
+		"[nightly] scummvm-nds": [
+			{
+				"type": "downloadFile",
+				"file": "https://buildbot.scummvm.org/dailybuilds/master/nds-master-latest.zip",
+				"output": "/scummvm-nds-nightly.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/scummvm-nds-nightly.zip",
+				"input": "nds-master-.{8}/scummvm.ds",
+				"output": "/scummvm-nightly.nds"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/scummvm-nds-nightly.zip"
 			}
 		]
 	}
