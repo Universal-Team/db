@@ -10,14 +10,14 @@ description: Burninate the countryside!
 download_filter: 3ds
 download_page: https://github.com/Mips96/Trogdor-Reburninated/releases
 downloads:
-  Trogdor-Reburninated-v2.2-3ds-cia.zip:
-    size: 37528392
+  Trogdor-Reburninated-v2.21-3ds-cia.zip:
+    size: 37540658
     size_str: 35 MiB
-    url: https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.2/Trogdor-Reburninated-v2.2-3ds-cia.zip
-  Trogdor-Reburninated-v2.2-3ds.zip:
-    size: 37110212
+    url: https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.21/Trogdor-Reburninated-v2.21-3ds-cia.zip
+  Trogdor-Reburninated-v2.21-3ds.zip:
+    size: 37118335
     size_str: 35 MiB
-    url: https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.2/Trogdor-Reburninated-v2.2-3ds.zip
+    url: https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.21/Trogdor-Reburninated-v2.21-3ds.zip
 github: Mips96/Trogdor-Reburninated
 icon: https://raw.githubusercontent.com/Mips96/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/logo_icon_android_48.png
 image: https://raw.githubusercontent.com/Mips96/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/background_psp.png
@@ -33,80 +33,96 @@ stars: 16
 systems:
 - 3DS
 title: 'Trogdor: Reburninated'
-update_notes: '<h3>Before the update notes, an important message:</h3>
+update_notes: '<p><em><a href="https://homestarrunner.com/sbemails/207-too-cool" rel="nofollow">♪
+  Let''s not make a big deal outta this... it''s just a little Trogdor update ♪</a></em></p>
 
-  <p><strong>This is probably the final update!</strong> I could keep adding new features
-  and making minor tweaks forever, but I have to call it some day, and that day is
-  today. I may make another update if a bug needs to be fixed, and I''m not ruling
-  out the possibility of ports to additional systems (those would be added to this
-  release after the fact), but consider <em>Trogdor: Reburninated</em> to be complete!</p>
+  <p>Just fixing a few things that have been bugging me:</p>
 
-  <p>With that out of the way, here''s what''s been added this time. Mostly polish,
-  but also some new features:</p>
-
-  <h3>New Versions:</h3>
+  <h3>Quality of Life Improvements</h3>
 
   <ul>
 
-  <li><strong>Ported to Linux!</strong></li>
+  <li><strong>You can now exit a game by pressing Select</strong> instead of A+Select
+
+  <ul>
+
+  <li>The original combination was intentionally complicated to prevent players from
+  accidentally quitting and losing their progress, but with autosave, that''s no longer
+  necessary</li>
 
   </ul>
 
-  <h3>New Additions:</h3>
+  </li>
+
+  <li><strong>Overlay setting is now saved</strong>, and it has a new menu option
+  in Cosmetic settings
 
   <ul>
 
-  <li>Upgraded Sound Test menu to <strong>Theater menu</strong>. In addition to listening
-  to sounds, you can now watch the game''s cutscenes.</li>
-
-  <li><strong>Added two new overlays</strong>. In addition to Strong Bad''s basement,
-  you can now play Trogdor on your Compy, or from the land of Strong Badia!</li>
+  <li>You can still change it via button input, as well</li>
 
   </ul>
 
-  <h3>Fixes + Polish:</h3>
+  </li>
+
+  <li>Fixed a very small menu bug</li>
+
+  <li>Minor text polish</li>
+
+  <li>[PC] <strong>Fullscreen setting is now saved</strong></li>
+
+  <li>[Wii U] <strong>Resolution increased</strong> from 720p to 1080p
 
   <ul>
 
-  <li>Added <strong>Uncapped FPS</strong> option. This replaces the 90/120/144 FPS
-  options from earlier versions.</li>
+  <li>By extension, this means an additional scaling option has been added</li>
 
-  <li><strong>Added VSync and fixed a frame pacing bug at max FPS</strong>. Earlier
-  versions ran slightly faster than intended depending on the frame rate. This issue
-  should now be fixed when running the game at your screen''s refresh rate (probably
-  60, or just choose Uncapped to be safe), and should be somewhat remedied for frame
-  rates lower than max.</li>
+  </ul>
 
-  <li><strong>Remade+upscaled overlay and menu graphics</strong> from 240p to 480p
-  on supported systems</li>
+  </li>
 
-  <li>Cheats are now allowed in all difficulty presets; however, enabling a cheat
-  disables high scores</li>
+  <li>[Wii] Minor Gamecube controller polish for consistency with Gamecube version</li>
 
-  <li>Cheats are no longer immediately enabled upon unlock</li>
+  </ul>
 
-  <li>Rearranged some menu settings; most notably, Other Settings has been moved up
-  and renamed to Gameplay Settings</li>
+  <h3>Technical Changes</h3>
 
-  <li>Fixed text on main screen remaining small after changing scaling</li>
+  <ul>
 
-  <li>Minor text changes</li>
+  <li>[PC] DLLs are now statically linked so they no longer bloat the game directory;
+  <strong>it''s just an EXE and audio</strong>
 
-  <li>Polish and code cleanup</li>
+  <ul>
 
-  <li>[PC] Key to toggle fullscreen has been changed from <code class="notranslate">ESC
-  or F</code> to <code class="notranslate">ESC, F11, or R3 on controller</code></li>
+  <li>Additionally, the non-Visual Studio Windows makefile actually works now, and
+  there''s a new x86 makefile to go with it</li>
 
-  <li>[WII] Added analog input for Classic Controller</li>
+  <li>If you want to compile it yourself, Visual Studio is still an option</li>
 
-  <li>[3DS] Changed the .cia version''s icon to match the .3dsx version</li>
+  </ul>
+
+  </li>
+
+  <li>[Other] Scaling options are now frozen/unfrozen based on display resolution
+  instead of being hardcoded per-system
+
+  <ul>
+
+  <li>This doesn''t affect current releases, but it does make scaling options one
+  less thing to worry about when porting to other systems</li>
+
+  <li>PC still allows all options regardless of display because of windowed mode</li>
+
+  </ul>
+
+  </li>
 
   </ul>
 
   <p>Enjoy!</p>'
-updated: '2024-04-15T02:44:51Z'
-version: v2.2
-version_title: v2.2
+updated: '2024-08-13T02:23:47Z'
+version: v2.21
+version_title: v2.21
 ---
 An enhanced recreation of the Homestar Runner Flash game, "Trogdor", expanded with new features.
 - New Options menu to customize your game
