@@ -26,19 +26,19 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.5-227-gafbd360ea
+  download_page: https://github.com/angband/angband/releases/tag/4.2.5-230-g998bd180a
   downloads:
-    Angband-4.2.5-227-gafbd360ea-3ds.zip:
-      size: 24645076
+    Angband-4.2.5-230-g998bd180a-3ds.zip:
+      size: 24646929
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.5-227-gafbd360ea/Angband-4.2.5-227-gafbd360ea-3ds.zip
-    Angband-4.2.5-227-gafbd360ea-nds.zip:
-      size: 23346737
+      url: https://github.com/angband/angband/releases/download/4.2.5-230-g998bd180a/Angband-4.2.5-230-g998bd180a-3ds.zip
+    Angband-4.2.5-230-g998bd180a-nds.zip:
+      size: 23346803
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.5-227-gafbd360ea/Angband-4.2.5-227-gafbd360ea-nds.zip
-  updated: '2024-08-09T22:31:29Z'
-  version: 4.2.5-227-gafbd360ea
-  version_title: 4.2.5-227-gafbd360ea
+      url: https://github.com/angband/angband/releases/download/4.2.5-230-g998bd180a/Angband-4.2.5-230-g998bd180a-nds.zip
+  updated: '2024-08-14T20:32:31Z'
+  version: 4.2.5-230-g998bd180a
+  version_title: 4.2.5-230-g998bd180a
 source: https://github.com/angband/angband
 stars: 1283
 systems:
