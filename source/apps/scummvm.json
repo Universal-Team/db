@@ -23,6 +23,17 @@
 			"size": null
 		}
 	},
+	"archive": {
+		"scummvm-.*-3ds-3dsx.zip": [
+			"scummvm.3dsx"
+		],
+		"scummvm-.*-3ds-cia.zip": [
+			"scummvm.cia"
+		],
+		"scummvm-.*-ds.zip": [
+			"scummvm.nds"
+		]
+	},
 	"scripts": {
 		"[nightly] scummvm-3dsx": [
 			{
