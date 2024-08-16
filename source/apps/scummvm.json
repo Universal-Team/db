@@ -23,76 +23,45 @@
 			"size": null
 		}
 	},
-	"archive": {
-		"scummvm-.*-3ds-3dsx.zip": [
-			"scummvm.3dsx"
-		],
-		"scummvm-.*-3ds-cia.zip": [
-			"scummvm.cia"
-		],
-		"scummvm-.*-ds.zip": [
-			"scummvm.nds"
-		]
+	"nightly": {
+		"download_page": "https://buildbot.scummvm.org/dailybuilds/master/",
+		"downloads": {
+			"3ds-master-latest.zip": {
+				"url": "https://buildbot.scummvm.org/dailybuilds/master/3ds-master-latest.zip"
+			},
+			"nds-master-latest.zip": {
+				"url": "https://buildbot.scummvm.org/dailybuilds/master/nds-master-latest.zip"
+			}
+		}
 	},
-	"scripts": {
-		"[nightly] scummvm-3dsx": [
-			{
-				"type": "downloadFile",
-				"file": "https://buildbot.scummvm.org/dailybuilds/master/3ds-master-latest.zip",
-				"output": "/scummvm-3ds-nightly.zip"
-			},
-			{
-				"type": "extractFile",
-				"file": "/scummvm-3ds-nightly.zip",
-				"input": "3ds-master-.{8}/scummvm.3dsx",
-				"output": "/3ds/scummvm-nightly.3dsx"
-			},
-			{
-				"type": "deleteFile",
-				"file": "/scummvm-3ds-nightly.zip"
-			}
-		],
-		"[nightly] scummvm-cia": [
-			{
-				"type": "downloadFile",
-				"file": "https://buildbot.scummvm.org/dailybuilds/master/3ds-master-latest.zip",
-				"output": "/scummvm-3ds-nightly.zip"
-			},
-			{
-				"type": "extractFile",
-				"file": "/scummvm-3ds-nightly.zip",
-				"input": "3ds-master-.{8}/scummvm.cia",
-				"output": "/3ds/scummvm-nightly.cia"
-			},
-			{
-				"type": "installCia",
-				"file": "/3ds/scummvm-nightly.cia"
-			},
-			{
-				"type": "deleteFile",
-				"file": "/3ds/scummvm-nightly.cia"
-			},
-			{
-				"type": "deleteFile",
-				"file": "/assets.zip"
-			}
-		],
-		"[nightly] scummvm-nds": [
-			{
-				"type": "downloadFile",
-				"file": "https://buildbot.scummvm.org/dailybuilds/master/nds-master-latest.zip",
-				"output": "/scummvm-nds-nightly.zip"
-			},
-			{
-				"type": "extractFile",
-				"file": "/scummvm-nds-nightly.zip",
-				"input": "nds-master-.{8}/scummvm.ds",
-				"output": "/scummvm-nightly.nds"
-			},
-			{
-				"type": "deleteFile",
-				"file": "/scummvm-nds-nightly.zip"
-			}
-		]
+	"archive": {
+		"scummvm-.*-3ds-3dsx.zip": {
+			"scummvm.3dsx": [
+				"scummvm.3dsx"
+			]
+		},
+		"scummvm-.*-3ds-cia.zip": {
+			"scummvm.cia": [
+				"scummvm.cia"
+			]
+		},
+		"scummvm-.*-ds.zip": {
+			"scummvm.nds": [
+				"scummvm.nds"
+			]
+		},
+		"3ds-master-latest.zip": {
+			"scummvm.3dsx": [
+				"3ds-master-.{8}/scummvm.3dsx"
+			],
+			"scummvm.cia": [
+				"3ds-master-.{8}/scummvm.cia"
+			]
+		},
+		"nds-master-latest.zip": {
+			"scummvm.nds": [
+				"nds-master-.{8}/scummvm.ds"
+			]
+		}
 	}
 }
