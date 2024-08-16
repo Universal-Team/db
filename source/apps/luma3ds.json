@@ -15,18 +15,5 @@
 				"boot.firm"
 			]
 		}
-	},
-	"scripts": {
-		"[hourly] boot.firm": {
-			"type": "nightly",
-			"script": [
-				{
-					"type": "downloadRelease",
-					"repo": "hax0kartik/luma-hourlies",
-					"file": "boot.firm",
-					"output": "/boot.firm"
-				}
-			]
-		}
 	}
 }
