@@ -52,15 +52,15 @@
 		},
 		"3ds-master-latest.zip": {
 			"scummvm.3dsx": [
-				"3ds-master-.{8}/scummvm.3dsx"
+				"3ds-master-[^/]+/scummvm.3dsx"
 			],
 			"scummvm.cia": [
-				"3ds-master-.{8}/scummvm.cia"
+				"3ds-master-[^/]+/scummvm.cia"
 			]
 		},
 		"nds-master-latest.zip": {
 			"scummvm.nds": [
-				"nds-master-.{8}/scummvm.ds"
+				"nds-master-[^/]+/scummvm.ds"
 			]
 		}
 	}
