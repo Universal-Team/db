@@ -1,0 +1,67 @@
+{
+	"github": "scummvm/scummvm",
+	"systems": ["3DS", "DS"],
+	"categories": ["emulator"],
+	"unique_ids": [1045281],
+	"description": "Point-and-click adventure game engines",
+	"long_description": "ScummVM allows you to play classic graphic point-and-click adventure games, text adventure games, and RPGs, as long as you already have the game data files. ScummVM replaces the executable files shipped with the games, which means you can now play your favorite games on all your favorite devices.\n\nWhile ScummVM was originally designed to run LucasArts’ SCUMM games, over time support has been added for many other games: see the full list [on our wiki](https://wiki.scummvm.org/index.php?title=Category:Supported_Games). Noteworthy titles include Broken Sword, Myst and Blade Runner, although there are countless other hidden gems to explore.",
+	"icon": "https://raw.githubusercontent.com/scummvm/scummvm/master/backends/platform/3ds/app/icon.png",
+	"image": "https://raw.githubusercontent.com/scummvm/scummvm/master/backends/platform/3ds/app/banner.png",
+	"download_page": "f\"https://www.scummvm.org/downloads/\"",
+	"eval_downloads": true,
+	"downloads": {
+		"scummvm-3dsx.zip": {
+			"url": "f\"https://downloads.scummvm.org/frs/scummvm/{app['version'][1:]}/scummvm-{app['version'][1:]}-3ds-3dsx.zip\"",
+			"size": null
+		},
+		"scummvm-cia.zip": {
+			"url": "f\"https://downloads.scummvm.org/frs/scummvm/{app['version'][1:]}/scummvm-{app['version'][1:]}-3ds-cia.zip\"",
+			"size": null
+		},
+		"scummvm-ds.zip": {
+			"url": "f\"https://downloads.scummvm.org/frs/scummvm/{app['version'][1:]}/scummvm-{app['version'][1:]}-ds.zip\"",
+			"size": null
+		}
+	},
+	"nightly": {
+		"download_page": "https://buildbot.scummvm.org/dailybuilds/master/",
+		"downloads": {
+			"3ds-master-latest.zip": {
+				"url": "https://buildbot.scummvm.org/dailybuilds/master/3ds-master-latest.zip"
+			},
+			"nds-master-latest.zip": {
+				"url": "https://buildbot.scummvm.org/dailybuilds/master/nds-master-latest.zip"
+			}
+		}
+	},
+	"archive": {
+		"scummvm-.*-3ds-3dsx.zip": {
+			"scummvm.3dsx": [
+				"scummvm.3dsx"
+			]
+		},
+		"scummvm-.*-3ds-cia.zip": {
+			"scummvm.cia": [
+				"scummvm.cia"
+			]
+		},
+		"scummvm-.*-ds.zip": {
+			"scummvm.nds": [
+				"scummvm.nds"
+			]
+		},
+		"3ds-master-latest.zip": {
+			"scummvm.3dsx": [
+				"3ds-master-.{8}/scummvm.3dsx"
+			],
+			"scummvm.cia": [
+				"3ds-master-.{8}/scummvm.cia"
+			]
+		},
+		"nds-master-latest.zip": {
+			"scummvm.nds": [
+				"nds-master-.{8}/scummvm.ds"
+			]
+		}
+	}
+}

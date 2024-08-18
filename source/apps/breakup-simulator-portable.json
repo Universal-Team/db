@@ -1,0 +1,37 @@
+{
+	"github": "Dangerbites/BreakupSimulator3DS",
+	"title": "Breakup Simulator Portable",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"description": "Port of Super Kawai Breakup Sim for the Nintendo 3DS",
+	"long_description": "In this dating game you need to break up with Cat Grill as soon as possible!! Make decisions to get the emotion meter down before the timer gets to 0!\n\nThis port features more endings and a completely portable Breakup Sim experience!!\n\n-- Credits -- ---------------------------\n\nCAT GRILL by DangerBites\n\nDrawing Cat Grill holds up is by Eran\n\nArt and Music by Dangerbites and Haynster",
+	"image": "https://raw.githubusercontent.com/Dangerbites/BreakupSimulator3DS/main/breakup-banner.png",
+	"icon": "https://raw.githubusercontent.com/Dangerbites/BreakupSimulator3DS/main/breakup-icon.png",
+	"scripts": {
+		"Install game (3dsx)": [
+			{
+				"type": "mkdir",
+				"directory": "sdmc:/3ds/BreakupSimulator/"
+			},
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/Dangerbites/BreakupSimulator3DS/releases/download/Major/BreakupSimulator3DS.zip",
+				"output": "sdmc:/3ds/BreakupSimulator3DS.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "sdmc:/3ds/BreakupSimulator3DS.zip",
+				"input": "",
+				"output": "sdmc:/3ds/BreakupSimulator/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "sdmc:/3ds/BreakupSimulator3DS.zip"
+			}
+		]
+	}
+}
