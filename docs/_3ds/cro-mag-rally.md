@@ -87,7 +87,7 @@ CMR was released in 2000 by Pangea Software as a Mac exclusive, and it was a pac
 
 ## About this port
 
-This is a port of the original OS 9 version of the game. It aims to provide the best way to experience CMR on today’s computers. It is an “enhanced” version insofar as it fixes bugs that may hinder the experience, and it brings in a few new features in keeping with the spirit of the original game.
+This is a port of the original OS 9 version of the game. It aims to provide the best way to experience CMR on today’s computers. It is an "enhanced" version insofar as it fixes bugs that may hinder the experience, and it brings in a few new features in keeping with the spirit of the original game.
 
 ### Legal info
 

@@ -14,8 +14,6 @@ downloads:
     size_str: 184 KiB
     url: https://github.com/DS-Homebrew/NesDS/releases/download/v1.3d%2B/nesDS.7z
   nesDS.nds:
-    size: 463872
-    size_str: 453 KiB
     url: https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/release/nesDS.nds
 github: DS-Homebrew/NesDS
 icon: https://db.universal-team.net/assets/images/icons/nesds.png

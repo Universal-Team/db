@@ -3,6 +3,8 @@ author: TehFridge
 avatar: https://avatars.githubusercontent.com/u/85436576?v=4
 categories:
 - utility
+color: '#5e6575'
+color_bg: '#5e6575'
 created: '2023-08-22T17:07:42Z'
 description: Removes the camera shutter and high-pitched beep sound from the Nintendo
   3DS (works on all 3ds apps that use the camera)
@@ -17,8 +19,8 @@ downloads:
     size_str: 76 Bytes
     url: https://github.com/TehFridge/ShutTheCamUp/releases/download/main/old3ds.ips
 github: TehFridge/ShutTheCamUp
-icon: https://cdn.discordapp.com/attachments/1146918310072549386/1146918328389087312/ikonka2.png
-image: https://cdn.discordapp.com/attachments/1146918310072549386/1146918328389087312/ikonka2.png
+image: https://avatars.githubusercontent.com/u/85436576?v=4&size=128
+image_length: 23828
 layout: app
 source: https://github.com/TehFridge/ShutTheCamUp
 stars: 26

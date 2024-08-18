@@ -6,7 +6,7 @@ categories:
 color: '#4887af'
 color_bg: '#346280'
 created: '2023-05-11T08:48:45Z'
-description: LED color and pattern modifier for (n)3DS/2DS. Customize your notifications
+description: LED color and pattern modifier for 3DS. Customize your notifications
   however you want !
 download_page: https://github.com/Golem642/CtrRGBPAT2/releases
 downloads:
