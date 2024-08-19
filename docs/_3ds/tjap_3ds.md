@@ -26,50 +26,64 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.4.0
   downloads:
     TJAP_3DS.3dsx:
-      size: 684124
-      size_str: 668 KiB
+      size: 694248
+      size_str: 677 KiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.0/TJAP_3DS.3dsx
     TJAP_3DS.cia:
-      size: 1012672
-      size_str: 988 KiB
+      size: 1016768
+      size_str: 992 KiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.0/TJAP_3DS.cia
   qr:
     TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
-  update_notes: '<p dir="auto">〜実装済み〜<br>
+  update_notes: '<p dir="auto">〜実装済み〜</p>
 
-    ・テクスチャ変更が簡単に出来る様に<br>
+    <ul dir="auto">
 
-    (sdmc:/tjafiles/theme/default.t3x の様にテクスチャファイルを入れると変わる)</p>
+    <li>テクスチャ変更が簡単に出来る様に<br>
 
-    <p dir="auto">〜実装予定〜<br>
+    (sdmc:/tjafiles/theme/default.t3x の様にテクスチャファイルを入れると変わる)</li>
 
-    ・スキン関連のオプションの追加<br>
+    <li>SDカードから効果音を読み込める様に<br>
 
-    ・魂ゲージの増減に関する不具合の修正<br>
+    (読み込む際は、「外部効果音」をONにして且つ使われる効果音を全て入れて下さい。)</li>
 
-    ・リザルト画面に王冠(クリア, フルコン)が付き、分かりやすくなる様に<br>
+    <li>魂ゲージの増減に関する不具合の修正</li>
 
-    ・でんでん音符の追加<br>
+    <li>かんぺき、とっくんモードの仮実装</li>
 
-    ・かんぺき、とっくんモードの仮実装</p>'
+    </ul>
+
+    <p dir="auto">〜実装予定〜</p>
+
+    <ul dir="auto">
+
+    <li>スキン関連のオプションの追加</li>
+
+    <li>リザルト画面に王冠(クリア, フルコン)が付き、分かりやすくなる様に</li>
+
+    </ul>'
   update_notes_md: '〜実装済み〜
 
-    ・テクスチャ変更が簡単に出来る様に
+    - テクスチャ変更が簡単に出来る様に
 
     (sdmc:/tjafiles/theme/default.t3x の様にテクスチャファイルを入れると変わる)
+
+    - SDカードから効果音を読み込める様に
+
+    (読み込む際は、「外部効果音」をONにして且つ使われる効果音を全て入れて下さい。)
+
+    - 魂ゲージの増減に関する不具合の修正
+
+    - かんぺき、とっくんモードの仮実装
 
 
     〜実装予定〜
 
-    ・スキン関連のオプションの追加
+    - スキン関連のオプションの追加
 
-    ・魂ゲージの増減に関する不具合の修正
+    - リザルト画面に王冠(クリア, フルコン)が付き、分かりやすくなる様に
 
-    ・リザルト画面に王冠(クリア, フルコン)が付き、分かりやすくなる様に
-
-    ・でんでん音符の追加
-
-    ・かんぺき、とっくんモードの仮実装'
+    '
   updated: '2024-08-15T01:48:56Z'
   version: v1.4.0
   version_title: TJAPlayer for 3DS v1.4.0
