@@ -11,14 +11,18 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
   on the DSi. New features such as instruction manuals and high score support included!
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
+  LICENSE:
+    size: 1067
+    size_str: 1 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.4/LICENSE
   README.md:
-    size: 41585
+    size: 41921
     size_str: 40 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.3/README.md
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.4/README.md
   StellaDS.nds:
-    size: 1728000
+    size: 1728512
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.3/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.4/StellaDS.nds
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -33,18 +37,19 @@ stars: 30
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V7.3 : 05-Jun-2024 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V7.4 : 19-Aug-2024 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
-  <li>Added wF8 banking scheme for the new dump of Smurf and Zaxxon.</li>
+  <li>Adding adding save/restore state handling for all games. Use the new down-arrow
+  icon in the lower left.</li>
 
-  <li>Added JANE banking scheme for the new Tarzan prototype release.</li>
+  <li>Added 03E0 banking for Parker Bros. Brazilian carts.</li>
 
-  <li>Added support for Champ Games Tutankham Arcade.</li>
+  <li>Added 0FA0 banking for Fotomania Brazilian carts.</li>
 
   </ul>'
-updated: '2024-06-05T10:39:07Z'
-version: '7.3'
-version_title: Version 7.3
+updated: '2024-08-19T14:05:32Z'
+version: '7.4'
+version_title: Version 7.4
 ---
