@@ -27,9 +27,21 @@ stars: 2
 systems:
 - 3DS
 title: MK7 Plugin DX
-update_notes: '<p dir="auto">Updated some codes<br>
+update_notes: '<p dir="auto">Intangible Items added<br>
 
-  Added 3 limiters codes</p>'
+  Instant Respawn added<br>
+
+  Extended Blue Shell Limit added<br>
+
+  Extended Green Shell Limit added<br>
+
+  Extended Red Shell Limit added<br>
+
+  Credits added</p>
+
+  <p dir="auto">Drive Out Of Bounds fixed<br>
+
+  Explosive Grand-Prix modified</p>'
 updated: '2024-08-19T15:09:53Z'
 version: v3.0.4
 version_title: Mario Kart 7 Plugin Deluxe v3.0.4
