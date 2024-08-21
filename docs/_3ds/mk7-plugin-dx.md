@@ -11,12 +11,12 @@ description: A polished cheat plugin for Mario Kart 7, now with anticheat!
 download_page: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases
 downloads:
   Plugin.Pack.zip:
-    size: 570902
-    size_str: 557 KiB
+    size: 573365
+    size_str: 559 KiB
     url: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.4/Plugin.Pack.zip
   plugin.3gx:
-    size: 934586
-    size_str: 912 KiB
+    size: 939959
+    size_str: 917 KiB
     url: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.4/plugin.3gx
 github: SFC-hacker/Mario-Kart-7-Plugin-Deluxe
 image: https://avatars.githubusercontent.com/u/67318218?v=4&size=128
@@ -27,7 +27,9 @@ stars: 3
 systems:
 - 3DS
 title: MK7 Plugin DX
-update_notes: '<p dir="auto">Intangible Items added<br>
+update_notes: '<p dir="auto">Anticheat added back for Pretendo Network<br>
+
+  Intangible Items added<br>
 
   Instant Respawn added<br>
 
