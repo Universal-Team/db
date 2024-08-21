@@ -27,7 +27,7 @@ stars: 3
 systems:
 - 3DS
 title: MK7 Plugin DX
-update_notes: '<p dir="auto">Anticheat added back for Pretendo Network<br>
+update_notes: '<p dir="auto">Anticheat* added back for Pretendo Network<br>
 
   Intangible Items added<br>
 
@@ -43,7 +43,57 @@ update_notes: '<p dir="auto">Anticheat added back for Pretendo Network<br>
 
   <p dir="auto">Drive Out Of Bounds fixed<br>
 
-  Explosive Grand-Prix modified</p>'
+  Explosive Grand-Prix modified</p>
+
+  <p dir="auto">*The following codes are affected by a client-side anticheat:</p>
+
+  <ul dir="auto">
+
+  <li>Invincibility</li>
+
+  <li>Star Power</li>
+
+  <li>Star Power Cycler</li>
+
+  <li>Instant Respawn</li>
+
+  <li>Control Bullet Bill</li>
+
+  <li>Instant Acceleration</li>
+
+  <li>Configurable Speed</li>
+
+  <li>Automatic Kart Acceleration</li>
+
+  <li>Freefly</li>
+
+  <li>Touch Screen Kart Teleporter</li>
+
+  <li>Blue Shell Ride</li>
+
+  <li>Item Cycler</li>
+
+  <li>Classic Item Hack</li>
+
+  <li>Single Shell Randomizer</li>
+
+  <li>Configurable Item Box</li>
+
+  <li>Configurable Item</li>
+
+  <li>Cycle Completely Random Item</li>
+
+  <li>Truly Random Items</li>
+
+  <li>Drive During Countdown</li>
+
+  <li>No Countdown</li>
+
+  <li>Drivable 200cc</li>
+
+  <li>Drivable 500cc</li>
+
+  </ul>'
 updated: '2024-08-19T15:09:53Z'
 version: v3.0.4
 version_title: Mario Kart 7 Plugin Deluxe v3.0.4
