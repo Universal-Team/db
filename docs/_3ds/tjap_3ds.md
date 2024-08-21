@@ -26,8 +26,8 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.4.0
   downloads:
     TJAP_3DS.3dsx:
-      size: 694580
-      size_str: 678 KiB
+      size: 695412
+      size_str: 679 KiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.0/TJAP_3DS.3dsx
     TJAP_3DS.cia:
       size: 1016768
@@ -51,6 +51,8 @@ prerelease:
 
     <li>かんぺき、とっくんモードの仮実装</li>
 
+    <li>SCROLLの値を0未満にすると反対から音符が流れる様に</li>
+
     </ul>
 
     <p dir="auto">〜実装予定〜</p>
@@ -58,8 +60,6 @@ prerelease:
     <ul dir="auto">
 
     <li>スキン関連のオプションの追加</li>
-
-    <li>リザルト画面に王冠(クリア, フルコン)が付き、分かりやすくなる様に</li>
 
     </ul>'
   update_notes_md: '〜実装済み〜
@@ -76,14 +76,12 @@ prerelease:
 
     - かんぺき、とっくんモードの仮実装
 
+    - SCROLLの値を0未満にすると反対から音符が流れる様に
+
 
     〜実装予定〜
 
-    - スキン関連のオプションの追加
-
-    - リザルト画面に王冠(クリア, フルコン)が付き、分かりやすくなる様に
-
-    '
+    - スキン関連のオプションの追加'
   updated: '2024-08-15T01:48:56Z'
   version: v1.4.0
   version_title: TJAPlayer for 3DS v1.4.0
