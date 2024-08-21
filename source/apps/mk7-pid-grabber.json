@@ -1,0 +1,35 @@
+{
+	"github": "H4x0rSpooky/mk7-pid-grabber",
+	"author": "H4x0rSpooky",
+	"title": "MK7 PID Grabber",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"description": "A tool to grab the Principal IDs of any Mario Kart 7 player you encounter.",
+	"scripts": {
+		"USA": [
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/download/1.0.0/mk7-pid-grabber.3gx",
+				"output": "/luma/plugins/0004000000030800/mk7-pid-grabber.3gx"
+			}
+		],
+		"EUR": [
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/download/1.0.0/mk7-pid-grabber.3gx",
+				"output": "/luma/plugins/0004000000030700/mk7-pid-grabber.3gx"
+			}
+		],
+		"JPN": [
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/download/1.0.0/mk7-pid-grabber.3gx",
+				"output": "/luma/plugins/0004000000030600/mk7-pid-grabber.3gx"
+			}
+		]
+	}
+}
