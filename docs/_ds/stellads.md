@@ -14,15 +14,15 @@ downloads:
   LICENSE:
     size: 1067
     size_str: 1 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.4/LICENSE
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.5/LICENSE
   README.md:
-    size: 41921
-    size_str: 40 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.4/README.md
+    size: 42306
+    size_str: 41 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.5/README.md
   StellaDS.nds:
-    size: 1728512
+    size: 1730560
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.4/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.5/StellaDS.nds
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -37,19 +37,22 @@ stars: 31
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V7.4 : 19-Aug-2024 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V7.5 : 23-Aug-2024 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
-  <li>Adding adding save/restore state handling for all games. Use the new down-arrow
-  icon in the lower left.</li>
+  <li>Overhaul and refactor of cart/device handling to gain a 3-4% speed boost across
+  the board.</li>
 
-  <li>Added 03E0 banking for Parker Bros. Brazilian carts.</li>
+  <li>Improved memory handling to use a bit less of the precious DS resources.</li>
 
-  <li>Added 0FA0 banking for Fotomania Brazilian carts.</li>
+  <li>Fixed multi-load Starpath Supercharger (AR) carts so they work again (broken
+  for almost a year!)</li>
+
+  <li>Cleanup as time permitted</li>
 
   </ul>'
-updated: '2024-08-19T14:05:32Z'
-version: '7.4'
-version_title: Version 7.4
+updated: '2024-08-23T11:01:23Z'
+version: '7.5'
+version_title: Version 7.5
 ---
