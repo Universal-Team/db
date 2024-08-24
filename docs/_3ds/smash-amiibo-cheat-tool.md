@@ -1,5 +1,5 @@
 ---
-author: Olivia
+author: Olive
 avatar: https://avatars.githubusercontent.com/u/16279160?v=4
 categories:
 - utility
