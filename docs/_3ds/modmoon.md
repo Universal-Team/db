@@ -34,7 +34,7 @@ screenshots:
 - description: Tools menu
   url: https://db.universal-team.net/assets/images/screenshots/modmoon/tools-menu.png
 source: https://github.com/Swiftloke/ModMoon
-stars: 67
+stars: 68
 systems:
 - 3DS
 title: ModMoon
