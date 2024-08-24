@@ -14,15 +14,15 @@ downloads:
   LICENSE:
     size: 1067
     size_str: 1 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.5/LICENSE
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.5a/LICENSE
   README.md:
-    size: 42306
+    size: 42484
     size_str: 41 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.5/README.md
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.5a/README.md
   StellaDS.nds:
-    size: 1730560
+    size: 1731072
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.5/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.5a/StellaDS.nds
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -37,7 +37,17 @@ stars: 31
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V7.5 : 23-Aug-2024 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V7.5a : 24-Aug-2024 by Dave Bernazzani (wavemotion)</p>
+
+  <ul dir="auto">
+
+  <li>Fixed config setting of RAM randomized vs clear.</li>
+
+  <li>Fixed AR (Starpath/Supercharger) games to prevent memory overwrite.</li>
+
+  </ul>
+
+  <p dir="auto">V7.5 : 23-Aug-2024 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
@@ -52,7 +62,7 @@ update_notes: '<p dir="auto">V7.5 : 23-Aug-2024 by Dave Bernazzani (wavemotion)<
   <li>Cleanup as time permitted</li>
 
   </ul>'
-updated: '2024-08-23T11:01:23Z'
-version: '7.5'
-version_title: Version 7.5
+updated: '2024-08-24T11:34:05Z'
+version: 7.5a
+version_title: Version 7.5a
 ---
