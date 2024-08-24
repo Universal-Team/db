@@ -33,9 +33,29 @@ stars: 1163
 systems:
 - DS
 title: nds-bootstrap
-update_notes: "{\"message\": \"We couldn't respond to your request in time. Sorry\
-  \ about that. Please try resubmitting your request and contact us if the problem\
-  \ persists.\"}\r\n"
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.5.3"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v27.5.3</a></p>
+
+  <p dir="auto">Instructions:</p>
+
+  <ol dir="auto">
+
+  <li>Download the <code class="notranslate">.7z</code> or <code class="notranslate">.zip</code>
+  file.</li>
+
+  <li>Extract the nds-bootstrap <code class="notranslate">.nds</code> and <code class="notranslate">.ver</code>
+  files, to <code class="notranslate">root:/_nds/</code>.</li>
+
+  </ol>
+
+  <h3 dir="auto">Bug fix</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed an overlooked bug which caused pre-loadable NTR ROMs to not properly load
+  into RAM while in DSi mode.</li>
+
+  </ul>'
 updated: '2024-08-02T14:49:48Z'
 version: v1.5.5
 version_title: v1.5.5
