@@ -89,8 +89,9 @@ update_notes: '<p><em><a href="https://homestarrunner.com/sbemails/207-too-cool"
 
   <ul>
 
-  <li>[PC] DLLs are now statically linked so they no longer bloat the game directory;
-  <strong>it''s just an EXE and audio</strong>
+  <li>[PC] <del>DLLs are now statically linked so they no longer bloat the game directory;
+  <strong>it''s just an EXE and audio</strong></del> <strong>UPDATE: Reverted as of
+  8/23/24</strong>
 
   <ul>
 
@@ -119,7 +120,11 @@ update_notes: '<p><em><a href="https://homestarrunner.com/sbemails/207-too-cool"
 
   </ul>
 
-  <p>Enjoy!</p>'
+  <p>Enjoy!</p>
+
+  <p><strong>UPDATE 8/23/24</strong>: Reverted statically linked DLLs in Windows releases;
+  not all DLLs were static as I had originally thought, so the game wouldn''t run
+  on some machines.</p>'
 updated: '2024-08-13T02:23:47Z'
 version: v2.21
 version_title: v2.21
