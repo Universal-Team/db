@@ -20,7 +20,7 @@ downloads:
     size_str: 41 KiB
     url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.5a/README.md
   StellaDS.nds:
-    size: 1731072
+    size: 1730560
     size_str: 1 MiB
     url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.5a/StellaDS.nds
 github: wavemotion-dave/StellaDS
