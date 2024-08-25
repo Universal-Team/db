@@ -33,8 +33,8 @@ stars: 1164
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.6.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v27.6.0</a> (releases later)</p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.7.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v27.7.0</a> (releases later)</p>
 
   <p dir="auto">Instructions:</p>
 
