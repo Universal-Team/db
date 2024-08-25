@@ -45,13 +45,13 @@ update_notes: '<p dir="auto">V7.6 : 25-Aug-2024 by Dave Bernazzani (wavemotion)<
 
   <li>Fixed AR (Starpath/Supercharger) games to prevent memory overwrite.</li>
 
-  <li>Big improvement to Starpath Supercharger (AR) cart rendering for 3-6 frames
+  <li>Big improvement to Starpath Supercharger (AR) cart rendering for 3-7 frames
   of improvement.</li>
 
   <li>Numerous comment cleanups and other minor refactors to improve the codebase.</li>
 
   </ul>'
-updated: '2024-08-25T10:59:52Z'
+updated: '2024-08-25T17:06:57Z'
 version: '7.6'
 version_title: Version 7.6
 ---
