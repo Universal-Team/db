@@ -33,7 +33,7 @@ license_name: MIT License
 qr:
   StellaDS.nds: https://db.universal-team.net/assets/images/qr/stellads-nds.png
 source: https://github.com/wavemotion-dave/StellaDS
-stars: 31
+stars: 32
 systems:
 - DS
 title: StellaDS
