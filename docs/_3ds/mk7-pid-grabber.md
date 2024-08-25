@@ -20,7 +20,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/H4x0rSpooky/mk7-pid-grabber
-stars: 6
+stars: 7
 systems:
 - 3DS
 title: MK7 PID Grabber
