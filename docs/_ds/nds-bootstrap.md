@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 799375
-    size_str: 780 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.5.5/nds-bootstrap.7z
+    size: 792037
+    size_str: 773 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.6.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1137893
+    size: 1118722
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.5.5/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.6.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -33,8 +33,8 @@ stars: 1164
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.5.3"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v27.5.3</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.6.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v27.6.0</a> (releases later)</p>
 
   <p dir="auto">Instructions:</p>
 
@@ -48,17 +48,68 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <h3 dir="auto">Bug fix</h3>
+  <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>Fixed an overlooked bug which caused pre-loadable NTR ROMs to not properly load
-  into RAM while in DSi mode.</li>
+  <li>Improved stability of wireless communications by moving SD R/W operations from
+  vBlank &amp; IPC Sync IRQs (of arm7) to main loop (of arm7) (once again, achieved
+  by hooking SWI Halt calls)!
+
+  <ul dir="auto">
+
+  <li>This means little to no random connection dropouts (may vary, depending on the
+  game).</li>
+
+  <li><em>Mario Kart DS</em> will now properly host a single-card multiplayer game.</li>
+
+  <li>No more slowdowns during ROM reads from the SD card with wireless comms.!</li>
+
+  <li>Compared to prior versions which implemented SWI Halt hooking, some optimizations
+  have been made to reduce slowdown from said hooking. No slowdown has been found
+  in known games which had those prior, such as <em>CTGP Nitro</em> (v1.0).</li>
+
+  </ul>
+
+  </li>
+
+  <li>Fixed an overlooked bug (which occurred since v1.1.0) which caused a Data Abort
+  crash when attempting to connect to PBR via <em>Pokemon Diamond</em>, <em>Pearl</em>,
+  or <em>Platinum</em>.
+
+  <ul dir="auto">
+
+  <li>The same disconnection bug will likely persist.</li>
+
+  </ul>
+
+  </li>
+
+  <li><em>Cut the Rope</em> no longer shows black screens for Memory Pit users!</li>
+
+  </ul>
+
+  <h3 dir="auto">Known bugs</h3>
+
+  <p dir="auto">Due to moving SD R/W operations to main loop, the following will occur.</p>
+
+  <ul dir="auto">
+
+  <li>Compared to previous versions, there may be some minor slowdown in certain games
+  (such as Pokemon B/W 2, during the title screen).</li>
+
+  <li>On DSi consoles, <em>Nervous Brickdown</em> &amp; <em>Big Bang Mini</em> will
+  crash on black screens after the company logos. Both will still run on 3DS consoles,
+  as those games are pre-loaded to RAM.</li>
+
+  <li>If you still encounter random connection dropouts, try turning off the <code
+  class="notranslate">Card read DMA</code> setting in either TWLMenu++ or the forwarder
+  per-game settings menus.</li>
 
   </ul>'
-updated: '2024-08-02T14:49:48Z'
-version: v1.5.5
-version_title: v1.5.5
+updated: '2024-08-25T06:22:01Z'
+version: v1.6.0
+version_title: v1.6.0
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
