@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 792037
-    size_str: 773 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.6.0/nds-bootstrap.7z
+    size: 790223
+    size_str: 771 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.6.1/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1118722
+    size: 1118979
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.6.0/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.6.1/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -47,6 +47,16 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   files, to <code class="notranslate">root:/_nds/</code>.</li>
 
   </ol>
+
+  <h3 dir="auto">Bug fix</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed an overlooked bug which caused 512MB ROMs to not load under Memory Pit.</li>
+
+  </ul>
+
+  <h2 dir="auto">v1.6.0 Changelog</h2>
 
   <h3 dir="auto">Bug fixes</h3>
 
@@ -107,9 +117,9 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   per-game settings menus.</li>
 
   </ul>'
-updated: '2024-08-25T06:22:01Z'
-version: v1.6.0
-version_title: v1.6.0
+updated: '2024-08-25T20:55:10Z'
+version: v1.6.1
+version_title: v1.6.1 (hotfix)
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
