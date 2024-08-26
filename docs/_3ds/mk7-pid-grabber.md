@@ -10,7 +10,7 @@ description: A tool to grab the Principal IDs of any Mario Kart 7 player you enc
 download_page: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases
 downloads:
   mk7-pid-grabber.3gx:
-    size: 1143288
+    size: 1143080
     size_str: 1 MiB
     url: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/download/1.0.0/mk7-pid-grabber.3gx
 github: H4x0rSpooky/mk7-pid-grabber
@@ -28,12 +28,12 @@ update_notes: '<h2 dir="auto">Latest changes</h2>
 
   <ul dir="auto">
 
-  <li>Reworked how errors get logged</li>
+  <li>Adjustments to <code class="notranslate">Play As CPU/AI</code><br>
 
-  <li>Added new entry: <code class="notranslate">Play As CPU/AI</code></li>
+  It now no longer uses the enemy AI but the goal state AI</li>
 
   </ul>'
-updated: '2024-08-23T19:46:19Z'
+updated: '2024-08-26T18:25:36Z'
 version: 1.0.0
-version_title: Update (08/23/2024)
+version_title: Update (08/26/2024)
 ---
