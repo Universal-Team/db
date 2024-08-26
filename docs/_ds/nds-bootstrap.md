@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 790223
-    size_str: 771 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.6.1/nds-bootstrap.7z
+    size: 793465
+    size_str: 774 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.6.2/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1118979
+    size: 1119976
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.6.1/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.6.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -34,7 +34,7 @@ systems:
 - DS
 title: nds-bootstrap
 update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.7.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v27.7.0</a> (releases later)</p>
+  Menu++ v27.7.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -47,6 +47,26 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   files, to <code class="notranslate">root:/_nds/</code>.</li>
 
   </ol>
+
+  <h3 dir="auto">What''s new?</h3>
+
+  <ul dir="auto">
+
+  <li>For consoles which improperly trigger sleep mode (with opened lid), sleep mode
+  can now be disabled!</li>
+
+  </ul>
+
+  <h3 dir="auto">Bug fix</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed games which use NAND saves not booting (such as <em>WarioWare: DIY</em>,
+  <em>Jam with the Band</em>, and <em>Face Training</em>).</li>
+
+  </ul>
+
+  <h2 dir="auto">v1.6.1 Changelog</h2>
 
   <h3 dir="auto">Bug fix</h3>
 
@@ -117,9 +137,9 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   per-game settings menus.</li>
 
   </ul>'
-updated: '2024-08-25T20:55:10Z'
-version: v1.6.1
-version_title: v1.6.1 (hotfix)
+updated: '2024-08-26T23:05:56Z'
+version: v1.6.2
+version_title: 'v1.6.2 (hotfix #2)'
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
