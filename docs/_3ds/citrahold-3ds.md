@@ -42,8 +42,8 @@ update_notes: '<p dir="auto">The server wouldn''t connect in older builds, this 
 
   <p dir="auto">You can scan this QR Code in FBI to install it.<br>
 
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/94be30525af27e794f6a236012ffc401bed2480684ebe4e6222bc44233807700/68747470733a2f2f7777772e6369747261686f6c642e636f6d2f696d61676572792f71722e706e673f6e6577"><img
-  src="https://camo.githubusercontent.com/94be30525af27e794f6a236012ffc401bed2480684ebe4e6222bc44233807700/68747470733a2f2f7777772e6369747261686f6c642e636f6d2f696d61676572792f71722e706e673f6e6577"
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/949eb4ab77321164249af8c3bb10336328f24f1070d59348d6a06f7c019390ff/68747470733a2f2f7777772e6369747261686f6c642e636f6d2f696d61676572792f71722e706e673f6e6577"><img
+  src="https://camo.githubusercontent.com/949eb4ab77321164249af8c3bb10336328f24f1070d59348d6a06f7c019390ff/68747470733a2f2f7777772e6369747261686f6c642e636f6d2f696d61676572792f71722e706e673f6e6577"
   alt="Citrahold CIA QR Code" data-canonical-src="https://www.citrahold.com/imagery/qr.png?new"
   style="max-width: 100%;"></a></p>'
 updated: '2024-07-19T17:34:10Z'

@@ -37,7 +37,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/crosscraft-classic/title-screen.png
 source: https://github.com/CrossCraft/CrossCraft-Classic
-stars: 108
+stars: 107
 systems:
 - 3DS
 title: CrossCraft Classic

@@ -76,8 +76,8 @@ update_notes: '<h2 dir="auto">Whats new</h2>
   href="https://github.com/TricksterGuy/bottomless-block-barrage/issues/14">#14</a>.
   Hints for things aren''t intuitive.</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/22c06daafdb602f014f10a6702d7195abe4d211ce24f7881c41dbbc7e00fcec0/68747470733a2f2f692e696d6775722e636f6d2f57654b4b526e352e706e67"><img
-  src="https://camo.githubusercontent.com/22c06daafdb602f014f10a6702d7195abe4d211ce24f7881c41dbbc7e00fcec0/68747470733a2f2f692e696d6775722e636f6d2f57654b4b526e352e706e67"
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/8723bf48b84b7d06e94c0930f6ffabe55931023a8e60f93de5ac9bf8d7c10e20/68747470733a2f2f692e696d6775722e636f6d2f57654b4b526e352e706e67"><img
+  src="https://camo.githubusercontent.com/8723bf48b84b7d06e94c0930f6ffabe55931023a8e60f93de5ac9bf8d7c10e20/68747470733a2f2f692e696d6775722e636f6d2f57654b4b526e352e706e67"
   alt="QR Code" data-canonical-src="https://i.imgur.com/WeKKRn5.png" style="max-width:
   100%;"></a></p>'
 updated: '2017-09-11T08:23:56Z'
