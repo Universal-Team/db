@@ -1,0 +1,22 @@
+{
+    "github": "ClassiCube/ClassiCube",
+    "author": "UnknownShadow200",
+    "systems": ["3DS"],
+    "categories": ["game"],
+    "unique_ids": [332125],
+    "icon": "https://raw.githubusercontent.com/ClassiCube/ClassiCube/master/misc/3ds/icon.png",
+    "image": "https://raw.githubusercontent.com/ClassiCube/ClassiCube/master/misc/3ds/banner.png",
+    "long_description": "**ClassiCube** is a custom Minecraft Classic compatible client written in C from scratch.\n**It is not affiliated with (or supported by) Mojang AB, Minecraft, or Microsoft in any way.**",
+    "nightly": {
+        "download_page": "https://www.classicube.net/download/3ds",
+        "downloads": {
+            "ClassiCube-3ds.3dsx": {
+                "url": "https://cdn.classicube.net/client/latest/ClassiCube-3ds.3dsx",
+        },
+            "ClassiCube-3ds.cia": {
+                "url": "https://cdn.classicube.net/client/latest/ClassiCube-3ds.cia",
+            }
+        }
+    },
+    "website": "https://classicube.net"
+}
