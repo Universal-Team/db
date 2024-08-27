@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 43277054
-    size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.6.0/TWiLightMenu-3DS.7z
+    size: 42642043
+    size_str: 40 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.7.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 43322367
-    size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.6.0/TWiLightMenu-DSi.7z
+    size: 42720611
+    size_str: 40 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.7.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 54346849
+    size: 53740277
     size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.6.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.7.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 54582619
-    size_str: 52 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.6.0/TWiLightMenu.7z
+    size: 53973200
+    size_str: 51 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.7.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -49,7 +49,10 @@ stars: 3200
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.6.2">nds-bootstrap
+  v1.6.2</a></p>
+
+  <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
 
   <ul dir="auto">
@@ -67,51 +70,53 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <ul dir="auto">
 
-  <li>In an effort to reduce CPU/battery usage, the bottom screen drawing code (handled
-  by gl2D) is now only run when animation and/or movement occurs, instead of running
-  every frame.
+  <li>Added closed lid / improper sleep mode detection. When detection succeeds, you''ll
+  be asked if the console''s lid was closed during startup.</li>
+
+  <li><strong>Wood UI theme:</strong> Added small icon listing mode! To use the new
+  mode, press <code class="notranslate">SELECT</code> button while in the theme until
+  the mode activates.</li>
+
+  <li>All folders starting with <code class="notranslate">_</code> are now hidden.</li>
+
+  <li>A border with the set user color is now displayed under the Manual title bar.</li>
+
+  <li>Switching manual pages now fades the screens to white and out.</li>
+
+  <li><strong>DS Classic Menu:</strong> Added blue and purple battery colors for DSi/3DS.
 
   <ul dir="auto">
 
-  <li>If you previously used one of the low frame rate settings before they got removed,
-  this change may possibly save even more battery than those settings (depending on
-  how much/little happens on-screen)!</li>
-
-  <li>To test this at it''s fullest, leave the console running the DSi menu theme
-  with no animated icons on-screen, and find out how long the console runs (after
-  a full charge).</li>
+  <li>Purple color is exclusive to DSi consoles in DSi mode.</li>
 
   </ul>
 
   </li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mentusfentus/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mentusfentus">@mentusfentus</a>:
-  <strong>DS Classic Menu:</strong> Improved clock hands and added outer shadow to
-  the clock &amp; calendar, making the top screen appear even closer to the original
-  DS/DS Lite menu! (<a class="issue-link js-issue-link" data-error-text="Failed to
-  load title" data-id="2449684532" data-permission-text="Title is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/2450"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2450/hovercard"
-  href="https://github.com/DS-Homebrew/TWiLightMenu/pull/2450">#2450</a>)</li>
+  <li>Various: Updated translations.</li>
 
   </ul>
 
-  <h3 dir="auto">Bug fix</h3>
+  <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Lorenzooone/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Lorenzooone">@Lorenzooone</a>:
-  Fixed partial main RAM clear on DS debugger hardware when launching Slot-1. (<a
-  class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2449580269"
-  data-permission-text="Title is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/2449"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2449/hovercard"
-  href="https://github.com/DS-Homebrew/TWiLightMenu/pull/2449">#2449</a>)</li>
+  <li>The <code class="notranslate">Back</code> folder is now always displayed first.</li>
+
+  <li>Fixed icon movement animation not playing when re-arranging an icon.</li>
+
+  <li><strong>DS Classic Menu:</strong> Keep cursor visible when launching a title.</li>
+
+  <li><strong>DSi theme:</strong> Fixed system settings icon shifted left when launching.</li>
+
+  <li>Manual pages no longer display corrupted colors.</li>
+
+  <li>Other minor fixes.</li>
 
   </ul>'
-updated: '2024-08-13T06:48:00Z'
-version: v27.6.0
-version_title: v27.6.0
+updated: '2024-08-26T23:33:49Z'
+version: v27.7.0
+version_title: v27.7.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---

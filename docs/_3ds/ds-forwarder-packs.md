@@ -28,8 +28,8 @@ title: DS Forwarder Packs
 update_notes: '<p dir="auto"><strong>NOTE:</strong> If the per-game settings menu
   appears without holding the Y button, update the forwarder pack again.</p>
 
-  <p dir="auto"><strong>UPDATE 8/25/2024:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.6.1">nds-bootstrap
-  v1.6.1</a></p>
+  <p dir="auto"><strong>UPDATE 8/26/2024:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.6.2">nds-bootstrap
+  v1.6.2</a></p>
 
   <p dir="auto">To install or update:</p>
 
