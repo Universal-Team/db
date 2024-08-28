@@ -26,7 +26,7 @@ prerelease:
   version: v0.1
   version_title: First release
 source: https://github.com/nop90/Supertux-Milestone1-3ds
-stars: 5
+stars: 6
 systems:
 - 3DS
 title: Supertux
