@@ -10,11 +10,11 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 793465
+    size: 793509
     size_str: 774 KiB
     url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.6.2/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1119976
+    size: 1119968
     size_str: 1 MiB
     url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.6.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
@@ -35,6 +35,9 @@ systems:
 title: nds-bootstrap
 update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.7.0"><strong>TW</strong>i<strong>L</strong>ight
   Menu++ v27.7.0</a></p>
+
+  <p dir="auto">Originally released on 8/26/2024, re-released to restore the version
+  number in the in-game menu.</p>
 
   <p dir="auto">Instructions:</p>
 
@@ -137,7 +140,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   per-game settings menus.</li>
 
   </ul>'
-updated: '2024-08-26T23:05:56Z'
+updated: '2024-08-27T23:18:22Z'
 version: v1.6.2
 version_title: 'v1.6.2 (hotfix #2)'
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
