@@ -24,12 +24,12 @@ It would be nice if you credit us if you use our data, just a link to this repo 
 
 ## Running the data collection
 Universal-DB is updated automatically every hour / 6 hours (depending on the app's priority) using GitHub Actions, however if you would like to run the data collection and file generation yourself then you will need to:
-1. Install `tex3ds` using [devkitPro's pacman](https://devkitpro.org/wiki/Getting_Started)
-   - This is needed to generate the t3x files for the Universal-Updater's UniStore
+1. Install `tex3ds` and `grit` using [devkitPro's pacman](https://devkitpro.org/wiki/Getting_Started)
+   - These are needed to generate the t3x files for the Universal-Updater's UniStore
 1. Install a recent version of [Python 3](https://www.python.org)
 1. Open a terminal window in the `source` folder of this repository
-1. Run `pip3 -r requirements.txt` to install the needed Python libraries
-1. Run `./generate.py`
+1. Run `pip3 install -r requirements.txt` to install the needed Python libraries
+1. Run `python3 generate.py`
    - You can pass a GitHub API token as the first argument to expand your API rate limit, this is needed with the default apps
    - You can pass `priority` as the second argument to only update apps with `"priority": true`
 
