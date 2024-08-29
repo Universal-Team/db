@@ -27,7 +27,7 @@ license_name: MIT License
 qr:
   Notepad3DS.cia: https://db.universal-team.net/assets/images/qr/notepad3ds-cia.png
 source: https://github.com/RMcTn/Notepad3DS
-stars: 30
+stars: 31
 systems:
 - 3DS
 title: Notepad3DS
