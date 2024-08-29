@@ -1,6 +1,7 @@
 {
     "github": "ClassiCube/ClassiCube",
     "author": "UnknownShadow200",
+    "website": "https://classicube.net",
     "systems": ["3DS"],
     "categories": ["game"],
     "unique_ids": [332125],
@@ -17,6 +18,5 @@
                 "url": "https://cdn.classicube.net/client/latest/ClassiCube-3ds.cia",
             }
         }
-    },
-    "website": "https://classicube.net"
+    }
 }
