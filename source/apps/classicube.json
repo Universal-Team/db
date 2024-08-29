@@ -12,10 +12,10 @@
         "download_page": "https://www.classicube.net/download/3ds",
         "downloads": {
             "ClassiCube-3ds.3dsx": {
-                "url": "https://cdn.classicube.net/client/latest/ClassiCube-3ds.3dsx",
+                "url": "https://cdn.classicube.net/client/latest/ClassiCube-3ds.3dsx"
             },
             "ClassiCube-3ds.cia": {
-                "url": "https://cdn.classicube.net/client/latest/ClassiCube-3ds.cia",
+                "url": "https://cdn.classicube.net/client/latest/ClassiCube-3ds.cia"
             }
         }
     }
