@@ -3,6 +3,8 @@ author: Sethamphetamine
 avatar: https://avatars.githubusercontent.com/u/88207140?v=4
 categories:
 - game
+color: '#d1d1d1'
+color_bg: '#808080'
 created: '2024-05-11T03:30:11Z'
 description: Dodge and weave!
 downloads:
