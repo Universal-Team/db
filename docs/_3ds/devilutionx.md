@@ -9,15 +9,7 @@ created: '2018-08-02T17:19:01Z'
 description: Diablo build for modern operating systems
 download_filter: 3ds
 download_page: https://github.com/diasurgical/devilutionX/releases
-downloads:
-  devilutionx-3ds.3dsx:
-    size: 13430100
-    size_str: 12 MiB
-    url: https://github.com/diasurgical/devilutionX/releases/download/1.5.2/devilutionx-3ds.3dsx
-  devilutionx-3ds.cia:
-    size: 12682176
-    size_str: 12 MiB
-    url: https://github.com/diasurgical/devilutionX/releases/download/1.5.2/devilutionx-3ds.cia
+downloads: {}
 github: diasurgical/devilutionX
 icon: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/icon.png
 image: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/banner.png
@@ -25,10 +17,8 @@ image_length: 37280
 layout: app
 license: other
 license_name: Other
-qr:
-  devilutionx-3ds.cia: https://db.universal-team.net/assets/images/qr/devilutionx-3ds-cia.png
 source: https://github.com/diasurgical/devilutionX
-stars: 7947
+stars: 7948
 systems:
 - 3DS
 title: devilutionX
@@ -40,7 +30,7 @@ update_notes: '<h3 dir="auto">Bug Fixes</h3>
 
   <ul dir="auto">
 
-  <li>Unable to join game due to invalid player data</li>
+  <li>Resolved validation multiplayer errors.</li>
 
   </ul>
 
@@ -48,15 +38,9 @@ update_notes: '<h3 dir="auto">Bug Fixes</h3>
 
   <ul dir="auto">
 
-  <li>Improve rendering of Chinese/Japanese/Korean texts</li>
+  <li>Added Hungarian translation.</li>
 
-  </ul>
-
-  <h4 dir="auto">Gameplay</h4>
-
-  <ul dir="auto">
-
-  <li>Hellfire items not saving their identified state</li>
+  <li>Added Turkish translation.</li>
 
   </ul>
 
@@ -64,21 +48,42 @@ update_notes: '<h3 dir="auto">Bug Fixes</h3>
 
   <ul dir="auto">
 
-  <li>Stash corrupting when converting a hero between Diablo and Hellfire</li>
+  <li>Fixed issue where a line is repeated in the info panel.</li>
 
-  <li>Amiga: Incorrect rendering of things behind transparent elements</li>
+  <li>Fixed errors when converting Hellfire saved games.</li>
 
-  <li>Android: Game locking up when switching sound output</li>
+  <li>[Miyoo Mini] Update integration.</li>
 
-  <li>Linux: Statically link BZIP2 and libsodium on x86_64</li>
+  <li>[Android] Update integration (now requires Android 5.0).</li>
 
-  <li>Xbox: Game crashing unexpectedly</li>
+  <li>[Android] Improved the data import dialog.</li>
 
-  <li>Xbox: Improve performance</li>
+  <li>[Android] Game now runs full screen on devices with a notch.</li>
+
+  <li>[Windows] Fix non-English TCP error messages.</li>
+
+  </ul>
+
+  <h3 dir="auto">Bugfixes for original Diablo bugs</h3>
+
+  <h4 dir="auto">Gameplay</h4>
+
+  <ul dir="auto">
+
+  <li>Fixed item repairs with multiple gold piles.</li>
+
+  </ul>
+
+  <h4 dir="auto">Known Issues</h4>
+
+  <ul dir="auto">
+
+  <li>Some builds (like Windows) are not ready yet and will be uploaded over the next
+  couple of days</li>
 
   </ul>'
-updated: '2024-02-05T07:46:45Z'
-version: 1.5.2
-version_title: 1.5.2
+updated: '2024-08-31T14:11:50Z'
+version: 1.5.3
+version_title: 1.5.3
 wiki: https://github.com/diasurgical/devilutionX/wiki
 ---
