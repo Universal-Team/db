@@ -26,19 +26,19 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.5-244-g975f84a33
+  download_page: https://github.com/angband/angband/releases/tag/4.2.5-245-g63e21e72a
   downloads:
-    Angband-4.2.5-244-g975f84a33-3ds.zip:
-      size: 24646972
+    Angband-4.2.5-245-g63e21e72a-3ds.zip:
+      size: 24647468
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.5-244-g975f84a33/Angband-4.2.5-244-g975f84a33-3ds.zip
-    Angband-4.2.5-244-g975f84a33-nds.zip:
-      size: 23346749
+      url: https://github.com/angband/angband/releases/download/4.2.5-245-g63e21e72a/Angband-4.2.5-245-g63e21e72a-3ds.zip
+    Angband-4.2.5-245-g63e21e72a-nds.zip:
+      size: 23346808
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.5-244-g975f84a33/Angband-4.2.5-244-g975f84a33-nds.zip
-  updated: '2024-08-29T07:03:10Z'
-  version: 4.2.5-244-g975f84a33
-  version_title: 4.2.5-244-g975f84a33
+      url: https://github.com/angband/angband/releases/download/4.2.5-245-g63e21e72a/Angband-4.2.5-245-g63e21e72a-nds.zip
+  updated: '2024-09-01T01:50:07Z'
+  version: 4.2.5-245-g63e21e72a
+  version_title: 4.2.5-245-g63e21e72a
 source: https://github.com/angband/angband
 stars: 1292
 systems:
