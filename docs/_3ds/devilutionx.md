@@ -18,7 +18,7 @@ layout: app
 license: other
 license_name: Other
 source: https://github.com/diasurgical/devilutionX
-stars: 7950
+stars: 7951
 systems:
 - 3DS
 title: devilutionX
