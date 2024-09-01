@@ -18,7 +18,7 @@ layout: app
 license: other
 license_name: Other
 source: https://github.com/diasurgical/devilutionX
-stars: 7952
+stars: 7953
 systems:
 - 3DS
 title: devilutionX
@@ -78,7 +78,7 @@ update_notes: '<h3 dir="auto">Bug Fixes</h3>
 
   <ul dir="auto">
 
-  <li>Some builds (like Windows) are not ready yet and will be uploaded over the next
+  <li>Some builds (like 3DS) are not ready yet and will be uploaded over the next
   couple of days</li>
 
   </ul>'
