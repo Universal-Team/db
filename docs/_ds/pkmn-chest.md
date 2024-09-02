@@ -73,7 +73,7 @@ screenshots:
 - description: X menu
   url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/x-menu.png
 source: https://github.com/Universal-Team/pkmn-chest
-stars: 219
+stars: 220
 systems:
 - DS
 title: pkmn-chest
