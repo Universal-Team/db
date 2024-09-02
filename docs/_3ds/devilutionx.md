@@ -88,8 +88,8 @@ update_notes: '<h3 dir="auto">Bug Fixes</h3>
 
   <ul dir="auto">
 
-  <li>Some builds (like Vita and Mac) are not ready yet and will be uploaded over
-  the next couple of days</li>
+  <li>Some builds (like Mac) are not ready yet and will be uploaded over the next
+  couple of days</li>
 
   </ul>'
 updated: '2024-08-31T14:11:50Z'
