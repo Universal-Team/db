@@ -9,7 +9,15 @@ created: '2018-08-02T17:19:01Z'
 description: Diablo build for modern operating systems
 download_filter: 3ds
 download_page: https://github.com/diasurgical/devilutionX/releases
-downloads: {}
+downloads:
+  devilutionx-3ds.3dsx:
+    size: 13992404
+    size_str: 13 MiB
+    url: https://github.com/diasurgical/devilutionX/releases/download/1.5.3/devilutionx-3ds.3dsx
+  devilutionx-3ds.cia:
+    size: 13239232
+    size_str: 12 MiB
+    url: https://github.com/diasurgical/devilutionX/releases/download/1.5.3/devilutionx-3ds.cia
 github: diasurgical/devilutionX
 icon: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/icon.png
 image: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/banner.png
@@ -17,6 +25,8 @@ image_length: 37280
 layout: app
 license: other
 license_name: Other
+qr:
+  devilutionx-3ds.cia: https://db.universal-team.net/assets/images/qr/devilutionx-3ds-cia.png
 source: https://github.com/diasurgical/devilutionX
 stars: 7953
 systems:
@@ -78,8 +88,8 @@ update_notes: '<h3 dir="auto">Bug Fixes</h3>
 
   <ul dir="auto">
 
-  <li>Some builds (like 3DS) are not ready yet and will be uploaded over the next
-  couple of days</li>
+  <li>Some builds (like Vita and Mac) are not ready yet and will be uploaded over
+  the next couple of days</li>
 
   </ul>'
 updated: '2024-08-31T14:11:50Z'
