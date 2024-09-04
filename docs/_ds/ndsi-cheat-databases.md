@@ -19,7 +19,7 @@ layout: app
 license: agpl-3.0
 license_name: GNU Affero General Public License v3.0
 source: https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases
-stars: 16
+stars: 17
 systems:
 - DS
 title: NDS(i) Cheat Databases
