@@ -29,7 +29,7 @@ nightly:
     nds-bootstrap.7z:
       url: https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z
 source: https://github.com/DS-Homebrew/nds-bootstrap
-stars: 1165
+stars: 1166
 systems:
 - DS
 title: nds-bootstrap
