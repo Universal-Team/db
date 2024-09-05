@@ -26,7 +26,7 @@ nightly:
     hiyaCFW.7z:
       url: https://github.com/TWLBot/Builds/raw/master/extras/hiyaCFW.7z
 source: https://github.com/DS-Homebrew/hiyaCFW
-stars: 125
+stars: 126
 systems:
 - DS
 title: hiyaCFW
