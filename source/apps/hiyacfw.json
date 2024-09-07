@@ -1,13 +1,13 @@
 {
-	"github": "RocketRobz/hiyaCFW",
+	"github": "DS-Homebrew/hiyaCFW",
 	"systems": [
 		"DS"
 	],
 	"categories": [
 		"utility"
 	],
-	"image": "https://raw.githubusercontent.com/RocketRobz/hiyaCFW/unlaunch/logo/logo.png",
-	"icon": "https://raw.githubusercontent.com/RocketRobz/hiyaCFW/unlaunch/icon.bmp",
+	"image": "https://raw.githubusercontent.com/DS-Homebrew/hiyaCFW/unlaunch/logo/logo.png",
+	"icon": "https://raw.githubusercontent.com/DS-Homebrew/hiyaCFW/unlaunch/icon.bmp",
 	"long_description": "**Note:** For the initial install, please follow [this guide](https://wiki.ds-homebrew.com/hiyacfw/installing). If you are updating, then simply replace `sd:/hiya.dsi` from the `for SDNAND SD card` in the 7z.",
 	"wiki": "https://wiki.ds-homebrew.com/hiyacfw/",
 	"unistore_exclude": true
