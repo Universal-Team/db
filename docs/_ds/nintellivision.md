@@ -12,17 +12,17 @@ description: Nintellivision - an Intellivision Emulator for the DS/DSi. High com
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 697344
-    size_str: 681 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.2/NINTV-DS.nds
+    size: 733696
+    size_str: 716 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.3/NINTV-DS.nds
   README.md:
-    size: 26805
-    size_str: 26 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.2/README.md
+    size: 27770
+    size_str: 27 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.3/README.md
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 36819
+image_length: 37030
 layout: app
 qr:
   NINTV-DS.nds: https://db.universal-team.net/assets/images/qr/nintv-ds-nds.png
@@ -34,19 +34,16 @@ stars: 33
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V5.2 : 22-Jun-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V5.3 : 07-Sep-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Improved MOB collision detection to fix GORF</li>
-
-  <li>Improved MOB rendering so that Y coordinates of zero don''t draw (fixes minor
-  glitch in Beauty and the Beast at end of levels)</li>
-
-  <li>Improved JLP detection so we don''t enable it inadvertently.</li>
+  <li>Integrated 2KGRAM build into the main code. There is now one unified Nintellivision
+  build. Use Configuration to select 2KGRAM (aka Tutorvision mode) for games that
+  support it.</li>
 
   </ul>'
-updated: '2024-06-22T13:55:25Z'
-version: '5.2'
-version_title: Version 5.2
+updated: '2024-09-07T12:37:12Z'
+version: '5.3'
+version_title: Version 5.3
 ---
