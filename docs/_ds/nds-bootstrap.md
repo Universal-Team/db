@@ -23,11 +23,6 @@ image: https://i.imgur.com/BFIu7xX.png
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-nightly:
-  download_page: https://github.com/TWLBot/Builds
-  downloads:
-    nds-bootstrap.7z:
-      url: https://github.com/TWLBot/Builds/raw/master/nds-bootstrap.7z
 source: https://github.com/DS-Homebrew/nds-bootstrap
 stars: 1166
 systems:

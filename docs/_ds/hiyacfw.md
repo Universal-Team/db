@@ -7,33 +7,28 @@ color: '#666666'
 color_bg: '#666666'
 created: '2017-07-24T04:43:30Z'
 description: World's FIRST Nintendo DSi CFW!
-download_page: https://github.com/RocketRobz/hiyaCFW/releases
+download_page: https://github.com/DS-Homebrew/hiyaCFW/releases
 downloads:
   hiyaCFW.7z:
     size: 221761
     size_str: 216 KiB
     url: https://github.com/DS-Homebrew/hiyaCFW/releases/download/v1.5.1/hiyaCFW.7z
-github: RocketRobz/hiyaCFW
+github: DS-Homebrew/hiyaCFW
 icon: https://db.universal-team.net/assets/images/icons/hiyacfw.png
-image: https://raw.githubusercontent.com/RocketRobz/hiyaCFW/unlaunch/logo/logo.png
+image: https://raw.githubusercontent.com/DS-Homebrew/hiyaCFW/unlaunch/logo/logo.png
 image_length: 26522
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-nightly:
-  download_page: https://github.com/TWLBot/Builds/blob/master/extras/hiyaCFW.7z
-  downloads:
-    hiyaCFW.7z:
-      url: https://github.com/TWLBot/Builds/raw/master/extras/hiyaCFW.7z
 source: https://github.com/DS-Homebrew/hiyaCFW
 stars: 126
 systems:
 - DS
 title: hiyaCFW
 unistore_exclude: true
-update_notes: '<p>To update:</p>
+update_notes: '<p dir="auto">To update:</p>
 
-  <ul>
+  <ul dir="auto">
 
   <li>If you''re using v1.5.0, replace <code class="notranslate">hiya.dsi</code> on
   the SD root, with the one from the 7z file, in <code class="notranslate">for SDNAND
@@ -43,13 +38,13 @@ update_notes: '<p>To update:</p>
 
   </ul>
 
-  <h3>Bug fix</h3>
+  <h3 dir="auto">Bug fix</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li>Changing the region on a JPN NAND will no longer cause touch input to not work!
 
-  <ul>
+  <ul dir="auto">
 
   <li>This is achieved by clearing the TWLCFG files, which as a result, will cause
   the system settings to reset.</li>

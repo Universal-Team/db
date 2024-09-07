@@ -33,17 +33,6 @@ image_length: 12520
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-nightly:
-  download_page: https://github.com/TWLBot/Builds
-  downloads:
-    TWiLightMenu-3DS.7z:
-      url: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-3DS.7z
-    TWiLightMenu-DSi.7z:
-      url: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-DSi.7z
-    TWiLightMenu-Flashcard.7z:
-      url: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu-Flashcard.7z
-    TWiLightMenu.7z:
-      url: https://github.com/TWLBot/Builds/raw/master/TWiLightMenu.7z
 source: https://github.com/DS-Homebrew/TWiLightMenu
 stars: 3214
 systems:
