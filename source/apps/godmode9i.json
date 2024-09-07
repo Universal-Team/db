@@ -11,14 +11,6 @@
 	"image": "https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png",
 	"icon": "https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/icon.bmp",
 	"wiki": "https://wiki.ds-homebrew.com/other/godmode9i",
-	"nightly": {
-		"download_page": "https://github.com/TWLBot/Builds/blob/master/extras/GodMode9i.7z",
-		"downloads": {
-			"GodMode9i.7z": {
-				"url": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z"
-			}
-		}
-	},
 	"scripts": {
 		"GodMode9i.cia": [
 			{
@@ -69,60 +61,6 @@
 				"type": "deleteFile",
 				"file": "/GodMode9i.7z"
 			}
-		],
-		"[nightly] GodMode9i.cia": {
-			"type": "nightly",
-			"script": [
-				{
-					"type": "downloadFile",
-					"file": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z",
-					"output": "/GodMode9i.7z"
-				},
-				{
-					"type": "extractFile",
-					"file": "/GodMode9i.7z",
-					"input": "GodMode9i/GodMode9i.nds",
-					"output": "/GodMode9i.nds"
-				},
-				{
-					"type": "extractFile",
-					"file": "/GodMode9i.7z",
-					"input": "GodMode9i/GodMode9i.cia",
-					"output": "/GodMode9i.cia"
-				},
-				{
-					"type": "installCia",
-					"file": "/GodMode9i.cia"
-				},
-				{
-					"type": "deleteFile",
-					"file": "/GodMode9i.cia"
-				},
-				{
-					"type": "deleteFile",
-					"file": "/GodMode9i.7z"
-				}
-			]
-		},
-		"[nightly] GodMode9i.nds": {
-			"type": "nightly",
-			"script": [
-				{
-					"type": "downloadFile",
-					"file": "https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z",
-					"output": "/GodMode9i.7z"
-				},
-				{
-					"type": "extractFile",
-					"file": "/GodMode9i.7z",
-					"input": "GodMode9i/GodMode9i.nds",
-					"output": "%NDS%/GodMode9i.nds"
-				},
-				{
-					"type": "deleteFile",
-					"file": "/GodMode9i.7z"
-				}
-			]
-		}
+		]
 	}
 }

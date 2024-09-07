@@ -17,14 +17,6 @@
 		"DS"
 	],
 	"icon": "https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/icon.bmp",
-	"nightly": {
-		"download_page": "https://github.com/TWLBot/Builds/blob/master/extras/nesDS.7z",
-		"downloads": {
-			"nesDS.7z": {
-				"url": "https://github.com/TWLBot/Builds/raw/master/extras/nesDS.7z"
-			}
-		}
-	},
 	"archive": {
 		"nesDS.7z": {
 			"nesDS.cia": [

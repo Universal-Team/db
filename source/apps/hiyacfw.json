@@ -10,13 +10,5 @@
 	"icon": "https://raw.githubusercontent.com/RocketRobz/hiyaCFW/unlaunch/icon.bmp",
 	"long_description": "**Note:** For the initial install, please follow [this guide](https://wiki.ds-homebrew.com/hiyacfw/installing). If you are updating, then simply replace `sd:/hiya.dsi` from the `for SDNAND SD card` in the 7z.",
 	"wiki": "https://wiki.ds-homebrew.com/hiyacfw/",
-	"unistore_exclude": true,
-	"nightly": {
-		"download_page": "https://github.com/TWLBot/Builds/blob/master/extras/hiyaCFW.7z",
-		"downloads": {
-			"hiyaCFW.7z": {
-				"url": "https://github.com/TWLBot/Builds/raw/master/extras/hiyaCFW.7z"
-			}
-		}
-	}
+	"unistore_exclude": true
 }
