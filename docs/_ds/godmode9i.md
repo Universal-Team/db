@@ -34,11 +34,6 @@ image_length: 44248
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-nightly:
-  download_page: https://github.com/TWLBot/Builds/blob/master/extras/GodMode9i.7z
-  downloads:
-    GodMode9i.7z:
-      url: https://github.com/TWLBot/Builds/raw/master/extras/GodMode9i.7z
 qr:
   GodMode9i.cia: https://db.universal-team.net/assets/images/qr/godmode9i-cia.png
   GodMode9i.dsi: https://db.universal-team.net/assets/images/qr/godmode9i-dsi.png

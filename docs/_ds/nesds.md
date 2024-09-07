@@ -20,11 +20,6 @@ icon: https://db.universal-team.net/assets/images/icons/nesds.png
 image: https://db.universal-team.net/assets/images/images/nesds.png
 image_length: 177
 layout: app
-nightly:
-  download_page: https://github.com/TWLBot/Builds/blob/master/extras/nesDS.7z
-  downloads:
-    nesDS.7z:
-      url: https://github.com/TWLBot/Builds/raw/master/extras/nesDS.7z
 qr:
   nesDS.nds: https://db.universal-team.net/assets/images/qr/nesds-nds.png
 source: https://github.com/DS-Homebrew/NesDS
