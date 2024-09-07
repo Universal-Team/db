@@ -10,7 +10,7 @@ description: A tool to grab the Principal IDs of any Mario Kart 7 player you enc
 download_page: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases
 downloads:
   mk7-pid-grabber.3gx:
-    size: 1154544
+    size: 1157976
     size_str: 1 MiB
     url: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/download/1.0.1/mk7-pid-grabber.3gx
 github: H4x0rSpooky/mk7-pid-grabber
@@ -28,14 +28,12 @@ update_notes: '<h2 dir="auto">Latest changes</h2>
 
   <ul dir="auto">
 
-  <li>Rework of Spectator Mode: allows to be used during live view and in goal state</li>
-
-  <li>(Hopefully) fixed render issues for Spectator Mode</li>
+  <li>Changes to how <code class="notranslate">Spectator Mode</code> works</li>
 
   <li>Improvements to the source code</li>
 
   </ul>'
-updated: '2024-09-06T19:54:00Z'
+updated: '2024-09-07T16:06:40Z'
 version: 1.0.1
-version_title: Update (09/06/2024)
+version_title: Update (09/07/2024)
 ---
