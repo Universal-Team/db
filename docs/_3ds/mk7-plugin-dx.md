@@ -11,7 +11,7 @@ description: A polished cheat plugin for Mario Kart 7, now with anticheat!
 download_page: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases
 downloads:
   Plugin.Pack.zip:
-    size: 575716
+    size: 575714
     size_str: 562 KiB
     url: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.5/Plugin.Pack.zip
   plugin.3gx:
