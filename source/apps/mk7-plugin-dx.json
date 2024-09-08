@@ -14,42 +14,42 @@
 		"USA": [
 			{
 				"type": "downloadFile",
-				"file": "https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.4/plugin.3gx",
+				"file": "https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/latest/download/plugin.3gx",
 				"output": "/luma/plugins/0004000000030800/plugin.3gx"
 			}
 		],
 		"EUR": [
 			{
 				"type": "downloadFile",
-				"file": "https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.4/plugin.3gx",
+				"file": "https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/latest/download/plugin.3gx",
 				"output": "/luma/plugins/0004000000030700/plugin.3gx"
 			}
 		],
 		"JPN": [
 			{
 				"type": "downloadFile",
-				"file": "https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.4/plugin.3gx",
+				"file": "https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/latest/download/plugin.3gx",
 				"output": "/luma/plugins/0004000000030600/plugin.3gx"
 			}
 		],
 		"KOR": [
 			{
 				"type": "downloadFile",
-				"file": "https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.4/plugin.3gx",
+				"file": "https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/latest/download/plugin.3gx",
 				"output": "/luma/plugins/0004000000030A00/plugin.3gx"
 			}
 		],
 		"CHN": [
 			{
 				"type": "downloadFile",
-				"file": "https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.4/plugin.3gx",
+				"file": "https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/latest/download/plugin.3gx",
 				"output": "/luma/plugins/000400000008B500/plugin.3gx"
 			}
 		],
 		"TWN": [
 			{
 				"type": "downloadFile",
-				"file": "https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.4/plugin.3gx",
+				"file": "https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/latest/download/plugin.3gx",
 				"output": "/luma/plugins/000400000008B400/plugin.3gx"
 			}
 		]
