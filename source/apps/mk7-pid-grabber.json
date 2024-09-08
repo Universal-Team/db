@@ -13,23 +13,30 @@
 		"USA": [
 			{
 				"type": "downloadFile",
-				"file": "https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/download/1.0.0/mk7-pid-grabber.3gx",
+				"file": "https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/latest/download/mk7-pid-grabber.3gx",
 				"output": "/luma/plugins/0004000000030800/mk7-pid-grabber.3gx"
 			}
 		],
 		"EUR": [
 			{
 				"type": "downloadFile",
-				"file": "https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/download/1.0.0/mk7-pid-grabber.3gx",
+				"file": "https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/latest/download/mk7-pid-grabber.3gx",
 				"output": "/luma/plugins/0004000000030700/mk7-pid-grabber.3gx"
 			}
 		],
 		"JPN": [
 			{
 				"type": "downloadFile",
-				"file": "https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/download/1.0.0/mk7-pid-grabber.3gx",
+				"file": "https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/latest/download/mk7-pid-grabber.3gx",
 				"output": "/luma/plugins/0004000000030600/mk7-pid-grabber.3gx"
 			}
-		]
+		],
+		"KOR": [
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/latest/download/mk7-pid-grabber.3gx",
+				"output": "/luma/plugins/0004000000030A00/mk7-pid-grabber.3gx"
+			}
+		],
 	}
 }
