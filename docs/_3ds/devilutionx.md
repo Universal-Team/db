@@ -88,7 +88,7 @@ update_notes: '<h3 dir="auto">Bug Fixes</h3>
 
   <ul dir="auto">
 
-  <li>Some builds (like Mac) are not ready yet and will be uploaded over the next
+  <li>Some builds (like Amiga) are not ready yet and will be uploaded over the next
   couple of days</li>
 
   </ul>'
