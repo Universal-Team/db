@@ -9,21 +9,30 @@ created: '2024-07-27T07:58:35Z'
 description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
-  TJAP_3DS.3dsx:
-    size: 695404
-    size_str: 679 KiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.0%28A%29/TJAP_3DS.3dsx
-  TJAP_3DS.cia:
-    size: 1016768
-    size_str: 992 KiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.0%28A%29/TJAP_3DS.cia
+  TJAP_3DS-n3ds.3dsx:
+    size: 719248
+    size_str: 702 KiB
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.1/TJAP_3DS-n3ds.3dsx
+  TJAP_3DS-n3ds.cia:
+    size: 1037248
+    size_str: 1012 KiB
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.1/TJAP_3DS-n3ds.cia
+  TJAP_3DS-o3ds.3dsx:
+    size: 719180
+    size_str: 702 KiB
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.1/TJAP_3DS-o3ds.3dsx
+  TJAP_3DS-o3ds.cia:
+    size: 1037248
+    size_str: 1012 KiB
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.1/TJAP_3DS-o3ds.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
 qr:
-  TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
+  TJAP_3DS-n3ds.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-n3ds-cia.png
+  TJAP_3DS-o3ds.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-o3ds-cia.png
 source: https://github.com/LuMariGames/TJAP_3DS
 stars: 1
 systems:
@@ -35,7 +44,13 @@ update_notes: '<p dir="auto">-更新ログ-</p>
 
   <ul dir="auto">
 
-  <li>リザルト画面に切り替わらない事がある不具合の修正</li>
+  <li>テクスチャファイルの更新 (v1.4.0(A)までに作られた.t3xは動作しません。)</li>
+
+  <li>一部アニメーションの実装</li>
+
+  <li>New3DS/2DS向けに最適化されたバージョンの追加(Old3DSを使用している場合はファイル名にo3dsがあるのをお使い下さい)<br>
+
+  因みにOld2DS非対応です、次のバージョンまで少々お待ちを...</li>
 
   </ul>
 
@@ -43,12 +58,19 @@ update_notes: '<p dir="auto">-更新ログ-</p>
 
   <ul dir="auto">
 
-  <li>Fixed a bug that may not switch to the result screen</li>
+  <li>Texture file update (.t3x made by v1.4.0(A) does not work.)</li>
+
+  <li>Implementation of some animations</li>
+
+  <li>Added a version optimized for New3DS/2DS (If you are using Old3DS, please use
+  o3ds in the file name)<br>
+
+  By the way, Old2DS is not supported, please wait a moment until the next version...</li>
 
   </ul>'
-updated: '2024-08-26T05:21:48Z'
-version: v1.4.0(A)
-version_title: TJAPlayer for 3DS v1.4.0(A)
+updated: '2024-09-10T22:41:16Z'
+version: v1.4.1
+version_title: TJAPlayer for 3DS v1.4.1
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
 This software is produced under the official authorization of TogeToge.
