@@ -12,13 +12,13 @@ description: Nintellivision - an Intellivision Emulator for the DS/DSi. High com
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 733696
-    size_str: 716 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.3/NINTV-DS.nds
+    size: 734208
+    size_str: 717 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.4/NINTV-DS.nds
   README.md:
-    size: 27770
-    size_str: 27 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.3/README.md
+    size: 30648
+    size_str: 29 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.4/README.md
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
@@ -34,16 +34,15 @@ stars: 34
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V5.3 : 07-Sep-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V5.4 : 10-Sep-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Integrated 2KGRAM build into the main code. There is now one unified Nintellivision
-  build. Use Configuration to select 2KGRAM (aka Tutorvision mode) for games that
-  support it.</li>
+  <li>Full Tutorvision Mode supported. See Tutorvision section in this README for
+  details.</li>
 
   </ul>'
-updated: '2024-09-07T12:37:12Z'
-version: '5.3'
-version_title: Version 5.3
+updated: '2024-09-10T11:11:50Z'
+version: '5.4'
+version_title: Version 5.4
 ---
