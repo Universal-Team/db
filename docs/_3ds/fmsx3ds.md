@@ -31,56 +31,9 @@ systems:
 title: fMSX3DS
 unique_ids:
 - '0x736E4'
-update_notes: '<p dir="auto">v1.4<br>
-
-  -Add support for V9990 and its clones(GFX9000 etc).<br>
-
-  You can use it with chose "[Option]" item in the fMSX3DS system menu, and enable
-  the "Use V9990" option item.<br>
-
-  Good news for New3DS user. I tested almost all of homebrew games/apps that use V9990
-  and all of them works full speed at 60fps on New3DS.<br>
-
-  As to Old3DS, it has mixed results depends on homebrew. Some homebrew runs full
-  speed even on Old3DS, but some homebrew runs too slow.</p>
-
-  <p dir="auto">-Fixed konami SCC sound issue with miss detect of SCC and SCC+ in
-  some cae<br>
-
-  (Project Melancholia English translation patched SD Snatcher, TINY SLOT CHECKER
-  etc.).</p>
-
-  <p dir="auto">-Add new option item "Read SCC Plus Wave". Some games/apps requires
-  this option item on to enable SCC sound.<br>
-
-  (GEM(GameBoy emulator for MSXTurboR + V9990) etc).</p>
-
-  <p dir="auto">-Update "emu8950.c" by Mitsutaka Okazaki to latest version.</p>
-
-  <p dir="auto">-Add support fr new firmware(0.07.08) for MSX0.</p>
-
-  <p dir="auto">-Add support for ASCII16 ROM Mapper with 4MB size(9Finger Demo by
-  NOP, MSX in a Row!, MSX-Wings etc).</p>
-
-  <p dir="auto">-Adjust posions of "No Scale" and "Keep Aspect" screen strech Mode.</p>
-
-  <p dir="auto">-Fixed bug that you cann''t assign ":" key to 3DS''s button in keyconfig.</p>
-
-  <p dir="auto">-Add ability to change RAM size of MSX.<br>
-
-  You can do that with choosing "[Option]" item in the fMSX3DS system menu, and change
-  value of "/RAM Size".<br>
-
-  Caution that you must use same RAM size when you load saved state.</p>
-
-  <p dir="auto">-Add ability to overclock R800 CPU for MSXTurboR.<br>
-
-  You can use it with choosing "[OverClockR800(Unsafe)]" item in the fMSX3DS system
-  menu, and select overclock rate.<br>
-
-  Caution that it''s unsafe, and many games go wrong with overclock.</p>
-
-  <p dir="auto">-Add suggestion message to restart when you change printer port.</p>'
+update_notes: "{\"message\": \"We couldn't respond to your request in time. Sorry\
+  \ about that. Please try resubmitting your request and contact us if the problem\
+  \ persists.\"}\r\n"
 updated: '2024-08-13T11:42:19Z'
 version: v1.40
 version_title: v1.40
