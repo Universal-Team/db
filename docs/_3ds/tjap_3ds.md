@@ -25,6 +25,10 @@ downloads:
     size: 1037248
     size_str: 1012 KiB
     url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.1/TJAP_3DS-o3ds.cia
+  skin.zip:
+    size: 224944
+    size_str: 219 KiB
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.1/skin.zip
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -52,6 +56,8 @@ update_notes: '<p dir="auto">-更新ログ-</p>
 
   因みにOld2DS非対応です、次のバージョンまで少々お待ちを...</li>
 
+  <li>アニメーション付きスキンを配布します。</li>
+
   </ul>
 
   <p dir="auto">-Update log-</p>
@@ -66,6 +72,8 @@ update_notes: '<p dir="auto">-更新ログ-</p>
   o3ds in the file name)<br>
 
   By the way, Old2DS is not supported, please wait a moment until the next version...</li>
+
+  <li>We will distribute skins with animations.</li>
 
   </ul>'
 updated: '2024-09-10T22:41:16Z'
