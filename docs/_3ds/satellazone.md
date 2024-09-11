@@ -33,7 +33,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/Aftendo/SatellaZone
-stars: 106
+stars: 107
 systems:
 - 3DS
 title: SatellaZone
