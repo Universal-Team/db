@@ -24,15 +24,6 @@ image_length: 10942
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-nightly:
-  download_page: https://github.com/Universal-Team/extras/tree/master/builds/3DZwei
-  downloads:
-    3DZwei.3dsx:
-      url: https://github.com/Universal-Team/extras/raw/master/builds/3DZwei/3DZwei.3dsx
-    3DZwei.cia:
-      url: https://github.com/Universal-Team/extras/raw/master/builds/3DZwei/3DZwei.cia
-  qr:
-    3DZwei.cia: https://db.universal-team.net/assets/images/qr/nightly/3dzwei-cia.png
 qr:
   3DZwei.cia: https://db.universal-team.net/assets/images/qr/3dzwei-cia.png
 screenshots:

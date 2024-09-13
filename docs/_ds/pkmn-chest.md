@@ -26,16 +26,6 @@ image_length: 381
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-nightly:
-  download_page: https://github.com/Universal-Team/extras/tree/master/builds/pkmn-chest
-  downloads:
-    pkmn-chest.cia:
-      url: https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.cia
-    pkmn-chest.nds:
-      url: https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.nds
-  qr:
-    pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/nightly/pkmn-chest-cia.png
-    pkmn-chest.nds: https://db.universal-team.net/assets/images/qr/nightly/pkmn-chest-nds.png
 qr:
   pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/pkmn-chest-cia.png
   pkmn-chest.nds: https://db.universal-team.net/assets/images/qr/pkmn-chest-nds.png

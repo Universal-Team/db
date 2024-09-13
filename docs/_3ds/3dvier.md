@@ -24,15 +24,6 @@ image_length: 18267
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-nightly:
-  download_page: https://github.com/Universal-Team/extras/tree/master/builds/3DVier
-  downloads:
-    3DVier.3dsx:
-      url: https://github.com/Universal-Team/extras/raw/master/builds/3DVier/3DVier.3dsx
-    3DVier.cia:
-      url: https://github.com/Universal-Team/extras/raw/master/builds/3DVier/3DVier.cia
-  qr:
-    3DVier.cia: https://db.universal-team.net/assets/images/qr/nightly/3dvier-cia.png
 qr:
   3DVier.cia: https://db.universal-team.net/assets/images/qr/3dvier-cia.png
 screenshots:

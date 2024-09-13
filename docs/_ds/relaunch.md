@@ -20,11 +20,6 @@ image_length: 510792
 layout: app
 license: mit
 license_name: MIT License
-nightly:
-  download_page: https://github.com/Universal-Team/extras/tree/master/builds/Relaunch
-  downloads:
-    Relaunch.7z:
-      url: https://github.com/Universal-Team/extras/raw/master/builds/Relaunch/Relaunch.7z
 screenshots:
 - description: Main
   url: https://db.universal-team.net/assets/images/screenshots/relaunch/main.png

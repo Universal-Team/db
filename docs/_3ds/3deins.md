@@ -32,15 +32,6 @@ image_length: 8040
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-nightly:
-  download_page: https://github.com/Universal-Team/extras/tree/master/builds/3DEins
-  downloads:
-    3DEins.3dsx:
-      url: https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.3dsx
-    3DEins.cia:
-      url: https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.cia
-  qr:
-    3DEins.cia: https://db.universal-team.net/assets/images/qr/nightly/3deins-cia.png
 qr:
   3DEins.cia: https://db.universal-team.net/assets/images/qr/3deins-cia.png
   DSEins.nds: https://db.universal-team.net/assets/images/qr/dseins-nds.png

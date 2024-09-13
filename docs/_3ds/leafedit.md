@@ -26,15 +26,6 @@ image_length: 34569
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-nightly:
-  download_page: https://github.com/Universal-Team/extras/tree/master/builds/LeafEdit
-  downloads:
-    LeafEdit.3dsx:
-      url: https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.3dsx
-    LeafEdit.cia:
-      url: https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.cia
-  qr:
-    LeafEdit.cia: https://db.universal-team.net/assets/images/qr/nightly/leafedit-cia.png
 qr:
   LeafEdit.cia: https://db.universal-team.net/assets/images/qr/leafedit-cia.png
 screenshots:
