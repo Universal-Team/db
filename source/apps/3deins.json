@@ -11,16 +11,5 @@
 	],
 	"unique_ids": [
 		275968
-	],
-	"nightly": {
-		"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/3DEins",
-		"downloads": {
-			"3DEins.3dsx": {
-				"url": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.3dsx"
-			},
-			"3DEins.cia": {
-				"url": "https://github.com/Universal-Team/extras/raw/master/builds/3DEins/3DEins.cia"
-			}
-		}
-	}
+	]
 }

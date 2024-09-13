@@ -12,16 +12,5 @@
 	],
 	"unique_ids": [
 		276769
-	],
-	"nightly": {
-		"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/LeafEdit",
-		"downloads": {
-			"LeafEdit.3dsx": {
-				"url": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.3dsx"
-			},
-			"LeafEdit.cia": {
-				"url": "https://github.com/Universal-Team/extras/raw/master/builds/LeafEdit/LeafEdit.cia"
-			}
-		}
-	}
+	]
 }

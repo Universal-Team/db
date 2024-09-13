@@ -9,16 +9,5 @@
 	],
 	"systems": [
 		"DS"
-	],
-	"nightly": {
-		"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/pkmn-chest",
-		"downloads": {
-			"pkmn-chest.nds": {
-				"url": "https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.nds"
-			},
-			"pkmn-chest.cia": {
-				"url": "https://github.com/Universal-Team/extras/raw/master/builds/pkmn-chest/pkmn-chest.cia"
-			}
-		}
-	}
+	]
 }

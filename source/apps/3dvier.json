@@ -10,16 +10,5 @@
 	],
 	"unique_ids": [
 		275863
-	],
-	"nightly": {
-		"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/3DVier",
-		"downloads": {
-			"3DVier.3dsx": {
-				"url": "https://github.com/Universal-Team/extras/raw/master/builds/3DVier/3DVier.3dsx"
-			},
-			"3DVier.cia": {
-				"url": "https://github.com/Universal-Team/extras/raw/master/builds/3DVier/3DVier.cia"
-			}
-		}
-	}
+	]
 }
