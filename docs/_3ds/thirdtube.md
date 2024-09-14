@@ -34,7 +34,7 @@ screenshots:
 - description: Search
   url: https://db.universal-team.net/assets/images/screenshots/thirdtube/search.png
 source: https://github.com/windows-server-2003/ThirdTube
-stars: 210
+stars: 211
 systems:
 - 3DS
 title: ThirdTube
