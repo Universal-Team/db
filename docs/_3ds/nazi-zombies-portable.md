@@ -3,6 +3,8 @@ author: NZ:P Team & masterfeizz
 avatar: https://avatars.githubusercontent.com/u/91418801?v=4
 categories:
 - game
+color: '#441616'
+color_bg: '#441616'
 created: '2022-02-08T23:52:38Z'
 description: 'Call of Duty: Zombies demake, powered by various Quake sourceports.
   https://docs.nzp.gay/'
@@ -14,8 +16,9 @@ downloads:
     size_str: 33 MiB
     url: https://github.com/nzp-team/nzportable/releases/download/nightly/nzportable-3ds.zip
 github: nzp-team/nzportable
-icon: https://raw.githubusercontent.com/nzp-team/glquake/main/icon.png
-image: https://raw.githubusercontent.com/nzp-team/glquake/main/banner.png
+icon: https://raw.githubusercontent.com/nzp-team/vril-engine/main/source/ctr/art/icon.png
+image: https://raw.githubusercontent.com/nzp-team/vril-engine/main/source/ctr/art/banner.png
+image_length: 66499
 layout: app
 screenshots:
 - description: Gameplay 1
