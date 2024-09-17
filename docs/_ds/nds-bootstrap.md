@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 793509
-    size_str: 774 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.6.2/nds-bootstrap.7z
+    size: 811807
+    size_str: 792 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.0.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1119968
+    size: 1167017
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v1.6.2/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.0.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -28,116 +28,75 @@ stars: 1167
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.7.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v27.7.0</a></p>
-
-  <p dir="auto">Originally released on 8/26/2024, re-released to restore the version
-  number in the in-game menu.</p>
-
-  <p dir="auto">Instructions:</p>
-
-  <ol dir="auto">
-
-  <li>Download the <code class="notranslate">.7z</code> or <code class="notranslate">.zip</code>
-  file.</li>
-
-  <li>Extract the nds-bootstrap <code class="notranslate">.nds</code> and <code class="notranslate">.ver</code>
-  files, to <code class="notranslate">root:/_nds/</code>.</li>
-
-  </ol>
-
-  <h3 dir="auto">What''s new?</h3>
-
-  <ul dir="auto">
-
-  <li>For consoles which improperly trigger sleep mode (with opened lid), sleep mode
-  can now be disabled!</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fix</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed games which use NAND saves not booting (such as <em>WarioWare: DIY</em>,
-  <em>Jam with the Band</em>, and <em>Face Training</em>).</li>
-
-  </ul>
-
-  <h2 dir="auto">v1.6.1 Changelog</h2>
-
-  <h3 dir="auto">Bug fix</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed an overlooked bug which caused 512MB ROMs to not load under Memory Pit.</li>
-
-  </ul>
-
-  <h2 dir="auto">v1.6.0 Changelog</h2>
-
-  <h3 dir="auto">Bug fixes</h3>
-
-  <ul dir="auto">
-
-  <li>Improved stability of wireless communications by moving SD R/W operations from
-  vBlank &amp; IPC Sync IRQs (of arm7) to main loop (of arm7) (once again, achieved
-  by hooking SWI Halt calls)!
-
-  <ul dir="auto">
-
-  <li>This means little to no random connection dropouts (may vary, depending on the
-  game).</li>
-
-  <li><em>Mario Kart DS</em> will now properly host a single-card multiplayer game.</li>
-
-  <li>No more slowdowns during ROM reads from the SD card with wireless comms.!</li>
-
-  <li>Compared to prior versions which implemented SWI Halt hooking, some optimizations
-  have been made to reduce slowdown from said hooking. No slowdown has been found
-  in known games which had those prior, such as <em>CTGP Nitro</em> (v1.0).</li>
-
-  </ul>
-
-  </li>
-
-  <li>Fixed an overlooked bug (which occurred since v1.1.0) which caused a Data Abort
-  crash when attempting to connect to PBR via <em>Pokemon Diamond</em>, <em>Pearl</em>,
-  or <em>Platinum</em>.
-
-  <ul dir="auto">
-
-  <li>The same disconnection bug will likely persist.</li>
-
-  </ul>
-
-  </li>
-
-  <li><em>Cut the Rope</em> no longer shows black screens for Memory Pit users!</li>
-
-  </ul>
-
-  <h3 dir="auto">Known bugs</h3>
-
-  <p dir="auto">Due to moving SD R/W operations to main loop, the following will occur.</p>
-
-  <ul dir="auto">
-
-  <li>Compared to previous versions, there may be some minor slowdown in certain games
-  (such as Pokemon B/W 2, during the title screen).</li>
-
-  <li>On DSi consoles, <em>Nervous Brickdown</em> &amp; <em>Big Bang Mini</em> will
-  crash on black screens after the company logos. Both will still run on 3DS consoles,
-  as those games are pre-loaded to RAM.</li>
-
-  <li>If you still encounter random connection dropouts, try turning off the <code
-  class="notranslate">Card read DMA</code> setting in either TWLMenu++ or the forwarder
-  per-game settings menus.</li>
-
-  </ul>'
-updated: '2024-08-27T23:18:22Z'
-version: v1.6.2
-version_title: 'v1.6.2 (hotfix #2)'
+update_notes: "<p align=\"center\" dir=\"auto\">\n   <a target=\"_blank\" rel=\"noopener\
+  \ noreferrer\" href=\"https://github.com/DS-Homebrew/nds-bootstrap/blob/master/images/200th\
+  \ Release/Logo.png\"><img src=\"https://github.com/DS-Homebrew/nds-bootstrap/blob/master/images/200th\
+  \ Release/Logo.png\" style=\"max-width: 100%;\"></a><br>\n</p>\n<p dir=\"auto\"\
+  >Welcome to nds-bootstrap's 200th release!<br>\nIn this new version, you'll find\
+  \ many new improvements for game compatibility! Also, in B4DS mode, some games which\
+  \ have not booted in a long time, now finally boot!</p>\n<p dir=\"auto\">Included\
+  \ in <a href=\"https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.8.0\"\
+  ><strong>TW</strong>i<strong>L</strong>ight Menu++ v27.8.0</a></p>\n<p dir=\"auto\"\
+  >Instructions:</p>\n<ol dir=\"auto\">\n<li>Download the <code class=\"notranslate\"\
+  >.7z</code> or <code class=\"notranslate\">.zip</code> file.</li>\n<li>Extract the\
+  \ nds-bootstrap <code class=\"notranslate\">.nds</code> and <code class=\"notranslate\"\
+  >.ver</code> files, to <code class=\"notranslate\">root:/_nds/</code>.</li>\n</ol>\n\
+  <h3 dir=\"auto\">What's new?</h3>\n<ul dir=\"auto\">\n<li>Remember <em>Foto Showdown</em>?\
+  \ The <em>Pokémon</em> clone where you get new monsters using your DSi or 3DS camera,\
+  \ and use them in battles?<br>\nYou can now play it on your DS Phat or DS Lite console,\
+  \ with one difference!<br>\nThe camera lens will either be substituted with a video\
+  \ (Place the video file in <code class=\"notranslate\">fat:/_nds/nds-bootstrap/dsiCamera/</code>\
+  \ and name it <code class=\"notranslate\">default.bin</code>, must be recorded using\
+  \ dsi-camcorder), or it'll just be covered and you'll see nothing.</li>\n<li>If\
+  \ you use a debug/dev model of the DS, you can now also play <em>System Flaw</em>\
+  \ &amp; <em>System Flaw: Recruit</em>!</li>\n<li>The ROM pre-load settings from\
+  \ the nds-bootstrap-extras repo are now part of nds-bootstrap itself, as they'll\
+  \ help reduce some ROM load issues causing some frame flickers and/or slowdown in\
+  \ certain games, regardless of which frontend you use!</li>\n<li>Card Read DMA patching\
+  \ is now implemented in B4DS mode, making more games such as <em>Army Men: Soldiers\
+  \ of Misfortune</em>, <em>The Magic School Bus: Oceans</em>, and <em>Ultimate Mortal\
+  \ Kombat</em> now work on DS flashcards!</li>\n<li><em>Minna no Mahjong DS</em>,\
+  \ <em>Diddy Kong Racing DS</em>, and <em>Golden Sun: Dark Dawn</em> now work in\
+  \ B4DS mode, as their save functions are now directly patched on arm9.</li>\n<li><em>Mario\
+  \ Hoops 3-on-3</em> now works in B4DS mode, as a missing patch has been added.</li>\n\
+  <li>The Kiosk Demo version of <em>Mario Kart DS</em> now boots on DS and DSi consoles!</li>\n\
+  <li><em>Nintendo DS Guide Server</em> now boots!</li>\n<li>If your DSi console no\
+  \ longer has LEDs powering on (as a result of a bricked BPTWL I2C chip), but can\
+  \ still manage to boot it using ntrboot, patches are now implemented to allow games\
+  \ to work properly!</li>\n<li>Card Read DMA patching has been re-enabled for TWL\
+  \ titles running in DSi mode.</li>\n<li>Improved the ROM pre-loading feature on\
+  \ DSi/3DS, as it now tries to pre-load only the NitroFS data, if the ROM is slightly\
+  \ too big to fit in the console's RAM.\n<ul dir=\"auto\">\n<li>In addition, for\
+  \ full ROM pre-loading, 480KB of DSi WRAM are now allocated for a few more ROMs\
+  \ to be pre-loaded.</li>\n</ul>\n</li>\n<li>The Sound/Mic frequency setting now\
+  \ works in homebrew!</li>\n</ul>\n<h3 dir=\"auto\">Bug fixes</h3>\n<ul dir=\"auto\"\
+  >\n<li>On DSi consoles, in <em>Pokémon Black &amp; White 1&amp;2</em> running in\
+  \ DSi mode, scrolling in the bag menu no longer has slowdown.\n<ul dir=\"auto\"\
+  >\n<li>Hopefully, the random crashes are also gone.</li>\n</ul>\n</li>\n<li>On DSi\
+  \ consoles, the intro of <em>MegaMan Battle Network 5: Double Team DS</em> no longer\
+  \ has slight slowdowns.</li>\n<li>In B4DS mode, the European version of <em>Super\
+  \ Princess Peach</em> now boots!</li>\n<li>On DSi/3DS consoles, flickering in the\
+  \ title screens of <em>Dragon Quest IV</em> &amp; <em>VI</em> have been reduced.</li>\n\
+  <li>On DSi consoles, <em>Nervous Brickdown</em> &amp; <em>Big Bang Mini</em> no\
+  \ longer crash on black screens on startup!</li>\n<li>Fixed bugged music playback\
+  \ in <em>Cooking Mama 2: Dinner with Friends</em> running in DSiWare exploits (such\
+  \ as Memory Pit) and/or in DSi mode.</li>\n<li>In B4DS mode, due to the implementation\
+  \ of Card Read DMA, <em>Call of Duty: Modern Warfare 3</em> no longer crashes during\
+  \ a cutscene.</li>\n<li><em>Nintendo DSi Shop</em> &amp; <em>System Settings</em>\
+  \ no longer crash on white screens.</li>\n<li>Optimized touch screen mode switching\
+  \ code to fix where the sound would no longer play on certain DSi/3DS consoles.</li>\n\
+  <li>Other minor fixes.</li>\n</ul>\n<h3 dir=\"auto\">Known bugs</h3>\n<ul dir=\"\
+  auto\">\n<li>As both <em>Nintendo DSi Shop</em> &amp; <em>System Settings</em> no\
+  \ longer show white screens, they'll instead show the stock DSi error screen. This\
+  \ is due to them being unable to read the version data from TWLNAND, but the fix\
+  \ for this is unknown.</li>\n<li><em>Viva Piñata: Pocket Paradise</em> now also\
+  \ works in B4DS mode, but does not save.</li>\n</ul>\n<p dir=\"auto\">A special\
+  \ wallpaper featuring 5 games that now work in B4DS mode has been made available\
+  \ here!:<br>\n<a href=\"https://github.com/DS-Homebrew/nds-bootstrap/blob/master/images/200th%20Release/Wallpaper.png\"\
+  >https://github.com/DS-Homebrew/nds-bootstrap/blob/master/images/200th%20Release/Wallpaper.png</a></p>"
+updated: '2024-09-17T03:37:56Z'
+version: v2.0.0
+version_title: 'v2.0.0: 200th Release'
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
