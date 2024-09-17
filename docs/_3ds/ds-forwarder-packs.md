@@ -25,11 +25,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto"><strong>NOTE:</strong> If the per-game settings menu
-  appears without holding the Y button, update the forwarder pack again.</p>
-
-  <p dir="auto"><strong>UPDATE 8/26/2024:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v1.6.2">nds-bootstrap
-  v1.6.2</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.0.0">nds-bootstrap''s
+  200th release</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -56,14 +53,18 @@ update_notes: '<p dir="auto"><strong>NOTE:</strong> If the per-game settings men
 
   </ul>
 
-  <h3 dir="auto">Bug fix</h3>
+  <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>Fixed <code class="notranslate">Bootstrap File</code> per-game setting not used.</li>
+  <li>Improved retail/homebrew detection by first checking if it''s a retail title,
+  before assuming it''s homebrew.</li>
+
+  <li>DSi MBK settings are now read and set from the booted <code class="notranslate">.nds</code>
+  file.</li>
 
   </ul>'
-updated: '2024-06-25T01:07:37Z'
-version: SD-15
-version_title: 'GitHub Release #15'
+updated: '2024-09-17T04:15:03Z'
+version: SD-16
+version_title: 'GitHub Release #16'
 ---

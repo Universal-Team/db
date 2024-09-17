@@ -12,21 +12,21 @@ description: 'GodMode9i Explorer - A full access file browser for the Nintendo D
 download_page: https://github.com/DS-Homebrew/GodMode9i/releases
 downloads:
   GodMode9i.7z:
-    size: 352632
-    size_str: 344 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.4/GodMode9i.7z
+    size: 353365
+    size_str: 345 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.6.0/GodMode9i.7z
   GodMode9i.cia:
-    size: 961792
-    size_str: 939 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.4/GodMode9i.cia
+    size: 963840
+    size_str: 941 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.6.0/GodMode9i.cia
   GodMode9i.dsi:
-    size: 947200
-    size_str: 925 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.4/GodMode9i.dsi
+    size: 949248
+    size_str: 927 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.6.0/GodMode9i.dsi
   GodMode9i.nds:
-    size: 947200
-    size_str: 925 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.5.4/GodMode9i.nds
+    size: 949248
+    size_str: 927 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.6.0/GodMode9i.nds
 github: DS-Homebrew/GodMode9i
 icon: https://db.universal-team.net/assets/images/icons/godmode9i.png
 image: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png
@@ -39,7 +39,7 @@ qr:
   GodMode9i.dsi: https://db.universal-team.net/assets/images/qr/godmode9i-dsi.png
   GodMode9i.nds: https://db.universal-team.net/assets/images/qr/godmode9i-nds.png
 source: https://github.com/DS-Homebrew/GodMode9i
-stars: 473
+stars: 474
 systems:
 - DS
 title: GodMode9i
@@ -47,7 +47,9 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>ConsoleID will now be read from it''s register, if available.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/rvtr/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/rvtr">@rvtr</a>:
+  Added support for NAND save "DS Guide" card!</li>
 
   </ul>
 
@@ -55,12 +57,13 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Only detect GBA cart ejection when running from Slot-1.</li>
+  <li>DSi MBK settings are now read and set from the booted <code class="notranslate">.nds</code>
+  file.</li>
 
   </ul>'
-updated: '2024-05-23T05:39:01Z'
-version: v3.5.4
-version_title: v3.5.4
+updated: '2024-09-17T04:11:34Z'
+version: v3.6.0
+version_title: v3.6.0
 website: https://wiki.ds-homebrew.com/godmode9i/
 wiki: https://wiki.ds-homebrew.com/other/godmode9i
 ---
