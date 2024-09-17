@@ -81,18 +81,20 @@ update_notes: "<p align=\"center\" dir=\"auto\">\n   <a target=\"_blank\" rel=\"
   \ longer crash on black screens on startup!</li>\n<li>Fixed bugged music playback\
   \ in <em>Cooking Mama 2: Dinner with Friends</em> running in DSiWare exploits (such\
   \ as Memory Pit) and/or in DSi mode.</li>\n<li>In B4DS mode, due to the implementation\
-  \ of Card Read DMA, <em>Call of Duty: Modern Warfare 3</em> no longer crashes during\
-  \ a cutscene.</li>\n<li><em>Nintendo DSi Shop</em> &amp; <em>System Settings</em>\
-  \ no longer crash on white screens.</li>\n<li>Optimized touch screen mode switching\
-  \ code to fix where the sound would no longer play on certain DSi/3DS consoles.</li>\n\
-  <li>Other minor fixes.</li>\n</ul>\n<h3 dir=\"auto\">Known bugs</h3>\n<ul dir=\"\
-  auto\">\n<li>As both <em>Nintendo DSi Shop</em> &amp; <em>System Settings</em> no\
-  \ longer show white screens, they'll instead show the stock DSi error screen. This\
-  \ is due to them being unable to read the version data from TWLNAND, but the fix\
-  \ for this is unknown.</li>\n<li><em>Viva Piñata: Pocket Paradise</em> now also\
-  \ works in B4DS mode, but does not save.</li>\n</ul>\n<p dir=\"auto\">A special\
-  \ wallpaper featuring 5 games that now work in B4DS mode has been made available\
-  \ here!:<br>\n<a href=\"https://github.com/DS-Homebrew/nds-bootstrap/blob/master/images/200th%20Release/Wallpaper.png\"\
+  \ of Card Read DMA, <em>Tony Hawk's American Sk8land</em> no longer hangs when getting\
+  \ into gameplay.</li>\n<li>In B4DS mode, due to the implementation of Card Read\
+  \ DMA, <em>Call of Duty: Modern Warfare 3</em> no longer crashes during a cutscene.</li>\n\
+  <li><em>Nintendo DSi Shop</em> &amp; <em>System Settings</em> no longer crash on\
+  \ white screens.</li>\n<li>Optimized touch screen mode switching code to fix where\
+  \ the sound would no longer play on certain DSi/3DS consoles.</li>\n<li>Other minor\
+  \ fixes.</li>\n</ul>\n<h3 dir=\"auto\">Known bugs</h3>\n<ul dir=\"auto\">\n<li>As\
+  \ both <em>Nintendo DSi Shop</em> &amp; <em>System Settings</em> no longer show\
+  \ white screens, they'll instead show the stock DSi error screen. This is due to\
+  \ them being unable to read the version data from TWLNAND, but the fix for this\
+  \ is unknown.</li>\n<li><em>Viva Piñata: Pocket Paradise</em> now also works in\
+  \ B4DS mode, but does not save.</li>\n</ul>\n<p dir=\"auto\">A special wallpaper\
+  \ featuring 5 games that now work in B4DS mode has been made available here!:<br>\n\
+  <a href=\"https://github.com/DS-Homebrew/nds-bootstrap/blob/master/images/200th%20Release/Wallpaper.png\"\
   >https://github.com/DS-Homebrew/nds-bootstrap/blob/master/images/200th%20Release/Wallpaper.png</a></p>"
 updated: '2024-09-17T03:37:56Z'
 version: v2.0.0
