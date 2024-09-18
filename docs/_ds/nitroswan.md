@@ -11,9 +11,9 @@ description: Bandai WonderSwan (Color/Crystal) & Benesse PocketChallenge V2 emul
 download_page: https://github.com/FluBBaOfWard/NitroSwan/releases
 downloads:
   NitroSwan.zip:
-    size: 162249
-    size_str: 158 KiB
-    url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.6.5/NitroSwan.zip
+    size: 182574
+    size_str: 178 KiB
+    url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.6.6/NitroSwan.zip
 github: FluBBaOfWard/NitroSwan
 icon: https://db.universal-team.net/assets/images/icons/nitroswan.png
 image: https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/logo.png
@@ -26,22 +26,22 @@ systems:
 title: NitroSwan
 update_notes: '<ul dir="auto">
 
-  <li>Added saving of joypad layout.</li>
+  <li>Added some support for WonderWitch.</li>
 
-  <li>Added extra RAM on 3DS.</li>
+  <li>Added saving of machine setting.</li>
 
-  <li>Fixed cache bug in tile map rendering.</li>
+  <li>Added SwanCrystal border.</li>
 
-  <li>Fixed repeating sound DMA.</li>
+  <li>Fixed LCD icons palette when switching machine.</li>
 
-  <li>Fixed HyperVoice scaling/mode.</li>
+  <li>Fixed some small bugs in the DMA.</li>
 
-  <li>Fixed EEPROM handling a bit.</li>
+  <li>Fixed cpu prefix handling.</li>
 
-  <li>Fixed Quit Emulator when started from TWiLight.</li>
+  <li>Optimized some opcodes.</li>
 
   </ul>'
-updated: '2024-07-24T18:33:00Z'
-version: v0.6.5
-version_title: V0.6.5
+updated: '2024-09-18T16:18:22Z'
+version: v0.6.6
+version_title: V0.6.6
 ---
