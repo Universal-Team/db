@@ -57,6 +57,7 @@ update_notes: '<h2 dir="auto">チェンジログ(日本語)</h2>
 updated: '2024-09-17T06:18:19Z'
 version: v1.4.2
 version_title: TJAPlayer for 3DS v1.4.2
+wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
 This software is produced under the official authorization of TogeToge.
