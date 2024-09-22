@@ -32,7 +32,7 @@ qr:
   DSP1.cia: https://db.universal-team.net/assets/images/qr/dsp1-cia.png
   DSP2.cia: https://db.universal-team.net/assets/images/qr/dsp2-cia.png
 source: https://github.com/zoogie/DSP1
-stars: 222
+stars: 223
 systems:
 - 3DS
 title: DSP1
