@@ -39,7 +39,7 @@ qr:
   GodMode9i.dsi: https://db.universal-team.net/assets/images/qr/godmode9i-dsi.png
   GodMode9i.nds: https://db.universal-team.net/assets/images/qr/godmode9i-nds.png
 source: https://github.com/DS-Homebrew/GodMode9i
-stars: 475
+stars: 476
 systems:
 - DS
 title: GodMode9i
