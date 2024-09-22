@@ -11,14 +11,14 @@ description: A 3DS homebrew that allows you to read, write, and erase save files
   NDS cartridges
 download_page: https://github.com/TuxSH/TWLSaveTool/releases
 downloads:
+  TWLSaveTool.3dsx:
+    size: 176364
+    size_str: 172 KiB
+    url: https://github.com/TuxSH/TWLSaveTool/releases/download/v1.2.1/TWLSaveTool.3dsx
   TWLSaveTool.cia:
-    size: 614848
-    size_str: 600 KiB
-    url: https://github.com/TuxSH/TWLSaveTool/releases/download/v1.2/TWLSaveTool.cia
-  TWLSaveTool.zip:
-    size: 114930
-    size_str: 112 KiB
-    url: https://github.com/TuxSH/TWLSaveTool/releases/download/v1.2/TWLSaveTool.zip
+    size: 566720
+    size_str: 553 KiB
+    url: https://github.com/TuxSH/TWLSaveTool/releases/download/v1.2.1/TWLSaveTool.cia
 github: TuxSH/TWLSaveTool
 icon: https://raw.githubusercontent.com/TuxSH/TWLSaveTool/master/app/IconLarge.png
 image: https://raw.githubusercontent.com/TuxSH/TWLSaveTool/master/app/IconLarge.png
@@ -37,12 +37,23 @@ unique_ids:
 - '0xF0DEF'
 update_notes: '<ul dir="auto">
 
-  <li>Fix Pokémon Mystery Dungeon: Explorers of Sky (thanks to <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Steveice10/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Steveice10">@Steveice10</a>)</li>
+  <li>Rebuild with latest tools:
+
+  <ul dir="auto">
+
+  <li>Fixes build issues with latest tools and greatly reduces binary size</li>
+
+  <li>Fixes 3DSX compatibility with Luma3DS v8.0+ (from 2017!) and homebrew autoboot</li>
+
+  </ul>
+
+  </li>
+
+  <li>Rewrite README. 3DSX build is now the recommended way to run this program, and
+  is now shipped as a single file</li>
 
   </ul>'
-updated: '2016-08-27T19:27:37Z'
-version: v1.2
-version_title: TWLSaveTool v1.2
+updated: '2024-09-22T16:28:37Z'
+version: v1.2.1
+version_title: TWLSaveTool v1.2.1
 ---
