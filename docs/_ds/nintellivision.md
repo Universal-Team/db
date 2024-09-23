@@ -12,17 +12,21 @@ description: Nintellivision - an Intellivision Emulator for the DS/DSi. High com
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 734208
-    size_str: 717 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.4/NINTV-DS.nds
+    size: 715776
+    size_str: 699 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.5/NINTV-DS.nds
   README.md:
-    size: 30648
-    size_str: 29 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.4/README.md
+    size: 31338
+    size_str: 30 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.5/README.md
+  extras.zip:
+    size: 12025956
+    size_str: 11 MiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.5/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 37259
+image_length: 37448
 layout: app
 qr:
   NINTV-DS.nds: https://db.universal-team.net/assets/images/qr/nintv-ds-nds.png
@@ -34,15 +38,15 @@ stars: 34
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V5.4 : 10-Sep-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V5.5 : 23-Sep-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Full Tutorvision Mode supported. See Tutorvision section in this README for
-  details.</li>
+  <li>Improved ECS support with new full-screen ECS Keyboard and ability to switch
+  between keypad controllers, disc and full keyboard.</li>
 
   </ul>'
-updated: '2024-09-10T11:11:50Z'
-version: '5.4'
-version_title: Version 5.4
+updated: '2024-09-23T12:06:18Z'
+version: '5.5'
+version_title: Version 5.5
 ---
