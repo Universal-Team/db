@@ -20,7 +20,7 @@ downloads:
     size_str: 30 KiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.5/README.md
   extras.zip:
-    size: 12088891
+    size: 12130925
     size_str: 11 MiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.5/extras.zip
 github: wavemotion-dave/NINTV-DS
