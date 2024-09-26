@@ -25,8 +25,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.0.0">nds-bootstrap''s
-  200th release</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.0.1">nds-bootstrap
+  v2.0.1</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -53,18 +53,14 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <h3 dir="auto">Bug fixes</h3>
+  <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>Improved retail/homebrew detection by first checking if it''s a retail title,
-  before assuming it''s homebrew.</li>
-
-  <li>DSi MBK settings are now read and set from the booted <code class="notranslate">.nds</code>
-  file.</li>
+  <li>Fixed misdetection of <em>Harvest Moon DS Cute</em> as homebrew.</li>
 
   </ul>'
-updated: '2024-09-17T04:15:03Z'
-version: SD-16
-version_title: 'GitHub Release #16'
+updated: '2024-09-26T22:14:20Z'
+version: SD-17
+version_title: 'GitHub Release #17'
 ---
