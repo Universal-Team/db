@@ -40,7 +40,7 @@ prerelease:
   version: 4.2.5-264-ge1e553e80
   version_title: 4.2.5-264-ge1e553e80
 source: https://github.com/angband/angband
-stars: 1299
+stars: 1300
 systems:
 - 3DS
 - DS

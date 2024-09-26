@@ -26,7 +26,7 @@ nightly:
     git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip:
       url: http://lolsnes.kuribo64.net/gitbuilds/git_b1ddc811030fe2a3ef3e97187f0eeec4a4b3e353.zip
 source: https://github.com/Arisotura/lolSnes
-stars: 65
+stars: 64
 systems:
 - DS
 title: lolSnes
