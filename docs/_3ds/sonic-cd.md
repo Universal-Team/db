@@ -52,7 +52,7 @@ script_message: 'Note: You will need "Data.rsdk" from
 
   "sdmc:/3ds/SonicCD" to play the game.'
 source: https://github.com/SaturnSH2x2/Sonic-CD-11-3DS
-stars: 75
+stars: 74
 systems:
 - 3DS
 title: Sonic CD
