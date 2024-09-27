@@ -34,7 +34,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/DS-Homebrew/TWiLightMenu
-stars: 3227
+stars: 3228
 systems:
 - DS
 title: TWiLight Menu++
@@ -75,7 +75,16 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <li>If a corrupt <code class="notranslate">.nds</code> file has been detected, it''ll
   now show a message saying that either the title and/or SD card is corrupted, and
-  prevent it from launching.</li>
+  prevent it from launching.
+
+  <ul dir="auto">
+
+  <li>Please note the detection system isn''t perfect, and certain corrupt <code class="notranslate">.nds</code>
+  files could still be launched.</li>
+
+  </ul>
+
+  </li>
 
   <li>The original DSi Menu scroll speed has been restored for the DSi theme!</li>
 
