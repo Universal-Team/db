@@ -11,12 +11,12 @@ description: A polished cheat plugin for Mario Kart 7, now with anticheat!
 download_page: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases
 downloads:
   Plugin.Pack.zip:
-    size: 575714
-    size_str: 562 KiB
+    size: 575029
+    size_str: 561 KiB
     url: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.5/Plugin.Pack.zip
   plugin.3gx:
-    size: 951323
-    size_str: 929 KiB
+    size: 949076
+    size_str: 926 KiB
     url: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.5/plugin.3gx
 github: SFC-hacker/Mario-Kart-7-Plugin-Deluxe
 image: https://avatars.githubusercontent.com/u/67318218?v=4&size=128
@@ -34,10 +34,9 @@ update_notes: '<p dir="auto"></p>
 
   <ul dir="auto">
 
-  <li>Cheats are enabled only when the player is in a custom room to avoid cheats
-  in public rooms</li>
+  <li>Cheats enabled only in custom rooms. No cheats allowed in public rooms</li>
 
-  <li>Plays with your friends and other Mario Kart 7 Plugin Deluxe users!</li>
+  <li>Play with your friends and other Mario Kart 7 Plugin Deluxe users!</li>
 
   </ul>'
 updated: '2024-09-08T08:59:05Z'
