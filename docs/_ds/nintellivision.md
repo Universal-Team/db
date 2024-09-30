@@ -14,15 +14,15 @@ downloads:
   NINTV-DS.nds:
     size: 715776
     size_str: 699 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.5/NINTV-DS.nds
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.5a/NINTV-DS.nds
   README.md:
-    size: 31338
+    size: 31387
     size_str: 30 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.5/README.md
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.5a/README.md
   extras.zip:
-    size: 12130925
+    size: 12392845
     size_str: 11 MiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.5/extras.zip
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.5a/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
@@ -45,8 +45,11 @@ update_notes: '<p dir="auto">V5.5 : 23-Sep-2024 by wavemotion-dave</p>
   <li>Improved ECS support with new full-screen ECS Keyboard and ability to switch
   between keypad controllers, disc and full keyboard.</li>
 
+  <li>Hotfix 5.5a to avoid the ECS keyboard or Disc overlay from inadvertently coming
+  up with some custom overlays.</li>
+
   </ul>'
-updated: '2024-09-23T12:06:18Z'
-version: '5.5'
-version_title: Version 5.5
+updated: '2024-09-30T20:44:55Z'
+version: 5.5a
+version_title: Version 5.5a
 ---
