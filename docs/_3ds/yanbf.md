@@ -34,7 +34,7 @@ license_name: GNU General Public License v2.0
 qr:
   bootstrap.cia: https://db.universal-team.net/assets/images/qr/bootstrap-cia.png
 source: https://github.com/YANBForwarder/YANBF
-stars: 159
+stars: 161
 systems:
 - 3DS
 title: YANBF
