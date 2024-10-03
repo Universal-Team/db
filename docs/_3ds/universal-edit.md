@@ -33,7 +33,7 @@ systems:
 title: Universal-Edit
 unique_ids:
 - '0x43915'
-update_notes: <p dir="auto">This is Universal-Edit, a universally good hex editor
+update_notes: <p dir="auto">This is Universal-Edit, a universally good text editor
   for the 3DS console.</p>
 updated: '2024-10-03T03:32:56Z'
 version: v0.1.0
