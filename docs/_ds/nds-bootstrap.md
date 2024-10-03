@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 812383
-    size_str: 793 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.0.1/nds-bootstrap.7z
+    size: 802632
+    size_str: 783 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.0.2/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1167122
+    size: 1146426
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.0.1/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.0.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -28,8 +28,8 @@ stars: 1174
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.9.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v27.9.0</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.10.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v27.10.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -47,35 +47,42 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Removed the preload flag for old DS homebrew, as there are no (known) frontends
-  which use it.</li>
-
-  <li>Old versions of some DSi system apps now boot.</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
+  <li><strong>B4DS mode:</strong> Two DSiWare apps, <em>Animal Crossing Calculator</em>
+  &amp; <em>Mario Calculator</em> now boot on DS and DS Lite consoles!
 
   <ul dir="auto">
 
-  <li>The Singleplayer Nookingtons patch for <em>Animal Crossing: Wild World</em>
-  no longer black screens in B4DS mode!</li>
+  <li>Either a Memory Expansion Pak or a DS Debug/Dev console is required.</li>
 
-  <li>Fixed wrong placement of the sound frequency flag causing old DS homebrew (as
-  well as GBARunner2) to not boot.</li>
+  <li>The European/Australian version of <em>Animal Crossing Calculator</em> only
+  works on a DS Debug/Dev console.</li>
 
-  <li>For proper changing of the DSi/3DS sound frequency, the codec is now written
-  to.</li>
+  </ul>
 
-  <li>Leftover garbage data is now cleared before boot when running from Slot-1 with
-  SCFG access.</li>
+  </li>
 
-  <li>Some minor optimizations.</li>
+  <li>For a tiny speed boost during CPU ROM reads from DSi/3DS SD card, the FAT code
+  has been moved back to ARM9, along with the IPC Sync IRQ on ARM7 doing SD sector
+  reads again.
+
+  <ul dir="auto">
+
+  <li>No new multiplayer issues have been found so far. The same issues that have
+  occurred since the release which has improved WiFi stability will still occur.</li>
+
+  <li>DMA ROM reads and NAND save R/W will still have arm7 run the FAT code while
+  on the main loop.</li>
+
+  </ul>
+
+  </li>
+
+  <li>NitroFS FNT/FAT info will now pre-load into DSi WRAM when available.</li>
 
   </ul>'
-updated: '2024-09-26T22:08:57Z'
-version: v2.0.1
-version_title: v2.0.1
+updated: '2024-10-03T21:56:03Z'
+version: v2.0.2
+version_title: v2.0.2
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
