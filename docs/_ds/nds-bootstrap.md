@@ -67,8 +67,9 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>No new multiplayer issues have been found so far. The same issues that have
-  occurred since the release which has improved WiFi stability will still occur.</li>
+  <li>No new wireless communication issues have been found so far. The same issues
+  that have occurred since the release which has improved wireless stability will
+  still occur.</li>
 
   <li>DMA ROM reads and NAND save R/W will still have arm7 run the FAT code while
   on the main loop.</li>
