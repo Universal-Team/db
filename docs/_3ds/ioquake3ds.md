@@ -42,7 +42,7 @@ qr:
   OpenArena.cia: https://db.universal-team.net/assets/images/qr/openarena-cia.png
   Quake3DS.cia: https://db.universal-team.net/assets/images/qr/quake3ds-cia.png
 source: https://github.com/masterfeizz/ioQuake3DS
-stars: 57
+stars: 58
 systems:
 - 3DS
 title: ioQuake3DS
