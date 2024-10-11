@@ -11,8 +11,6 @@ description: 'A port of the game engine behind the DOS versions of Titus the Fox
 download_page: https://github.com/MrHuu/opentitus-3ds/releases
 downloads:
   OpenTitus_MOKTAR_3DSX_23-12-2018.7z:
-    size: 387496
-    size_str: 378 KiB
     url: https://github.com/MrHuu/opentitus-3ds/releases/download/23-12-2018/OpenTitus_MOKTAR_3DSX_23-12-2018.7z
   OpenTitus_MOKTAR_CIA_25-12-2018.7z:
     size: 759262
