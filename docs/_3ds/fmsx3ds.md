@@ -10,14 +10,14 @@ description: fMSX(MSX emulator) port to 3DS. Add many new feature such as MSXTur
   emulation and MSX0 emulation.
 download_page: https://github.com/TomiokaH01/fMSX3DS/releases
 downloads:
-  fMSX3DS-1.40.zip:
-    size: 3172200
+  fMSX3DS-1.41.zip:
+    size: 3188066
     size_str: 3 MiB
-    url: https://github.com/TomiokaH01/fMSX3DS/releases/download/v1.40/fMSX3DS-1.40.zip
-  fMSX3DS-1.40Source.zip:
-    size: 1202531
+    url: https://github.com/TomiokaH01/fMSX3DS/releases/download/v1.41/fMSX3DS-1.41.zip
+  fMSX3DS-1.41Source.zip:
+    size: 1212403
     size_str: 1 MiB
-    url: https://github.com/TomiokaH01/fMSX3DS/releases/download/v1.40/fMSX3DS-1.40Source.zip
+    url: https://github.com/TomiokaH01/fMSX3DS/releases/download/v1.41/fMSX3DS-1.41Source.zip
 github: TomiokaH01/fMSX3DS
 icon: https://raw.githubusercontent.com/TomiokaH01/fMSX3DS/main/icon.png
 image: https://private-user-images.githubusercontent.com/168841671/331778903-f7ffcd0d-c1e9-4db4-a4ee-03b29ebc79b5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjM0MTcyNDAsIm5iZiI6MTcyMzQxNjk0MCwicGF0aCI6Ii8xNjg4NDE2NzEvMzMxNzc4OTAzLWY3ZmZjZDBkLWMxZTktNGRiNC1hNGVlLTAzYjI5ZWJjNzliNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwODExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDgxMVQyMjU1NDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03ZjA3MjE1NGNhZTM1NmNjODQyOWI0NTU3ZGZmZjM4YzdiNzQyYzVlYTFjYjYwYzJjMzllZmIxZjIwZDlmN2M0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.hTvWFkt8-Lo3mxlhW7mNxgO6H6uXSIf_B7dfbUojzEc
@@ -31,59 +31,72 @@ systems:
 title: fMSX3DS
 unique_ids:
 - '0x736E4'
-update_notes: '<p dir="auto">v1.4<br>
+update_notes: '<p dir="auto">-Add support for Dual Screen for V9990!(Codename INTRUDER,
+  2 Screen Demo by N.I etc).<br>
 
-  -Add support for V9990 and its clones(GFX9000 etc).<br>
+  To use this, select "[V9990 Dual Screen]" item in the fMSX3DS system menu, and select
+  "On".</p>
 
-  You can use it with chose "[Option]" item in the fMSX3DS system menu, and enable
-  the "Use V9990" option item.<br>
+  <p dir="auto">-Update "emu2149.c" by Mitsutaka Okazaki to latest version(v1.42).</p>
 
-  Good news for New3DS user. I tested almost all of homebrew games/apps that use V9990
-  and all of them works full speed at 60fps on New3DS.<br>
+  <p dir="auto">-Add support for LED light analog output for MSX0.<br>
 
-  As to Old3DS, it has mixed results depends on homebrew. Some homebrew runs full
-  speed even on Old3DS, but some homebrew runs too slow.</p>
+  To use this, Choose "[Option]" item in the fMSX3DS system menu, and change option
+  item "/Use MSX0" to "On",<br>
 
-  <p dir="auto">-Fixed konami SCC sound issue with miss detect of SCC and SCC+ in
-  some cae<br>
+  and "/MSX Analog Output" to "LED(3DS PowerLED)".<br>
 
-  (Project Melancholia English translation patched SD Snatcher, TINY SLOT CHECKER
-  etc.).</p>
+  Caution! it use Nintendo3DS''s real LED. Your 3DS is not breakdown while LED blinking.</p>
 
-  <p dir="auto">-Add new option item "Read SCC Plus Wave". Some games/apps requires
-  this option item on to enable SCC sound.<br>
+  <p dir="auto">-Add support for overlay for reference image.<br>
 
-  (GEM(GameBoy emulator for MSXTurboR + V9990) etc).</p>
+  It''s usefull for MSX graphic apps such as Graph Saurus etc. and MSX sprite editor
+  app such as S.S.T etc.<br>
 
-  <p dir="auto">-Update "emu8950.c" by Mitsutaka Okazaki to latest version.</p>
+  To use this,  Choose "<a href="Overlay">Load Reference Image</a>" item in the fMSX3DS
+  system menu, and select reference image file.<br>
 
-  <p dir="auto">-Add support fr new firmware(0.07.08) for MSX0.</p>
+  And choose "[Adjust Reference Image]" item in the fMSX3DS system menu to enter adjust
+  reference image menu.<br>
 
-  <p dir="auto">-Add support for ASCII16 ROM Mapper with 4MB size(9Finger Demo by
-  NOP, MSX in a Row!, MSX-Wings etc).</p>
+  In this menu, you can change reference image''s position, size, and transparent
+  rate with Nintendo3DS''s keys.<br>
 
-  <p dir="auto">-Adjust posions of "No Scale" and "Keep Aspect" screen strech Mode.</p>
+  PAD:adjust position  LR key:change size of reference image  XY key:change transparent
+  rate</p>
 
-  <p dir="auto">-Fixed bug that you cann''t assign ":" key to 3DS''s button in keyconfig.</p>
+  <p dir="auto">-Fixed bug that some disk games does''nt work on MSXTurboR(Breaker(JAST)
+  etc).</p>
 
-  <p dir="auto">-Add ability to change RAM size of MSX.<br>
+  <p dir="auto">-Add support for TC8566AF FDC emulation for MSXTurboR.<br>
 
-  You can do that with choosing "[Option]" item in the fMSX3DS system menu, and change
-  value of "/RAM Size".<br>
+  With this more games/apps become works correct(ksaver.com etc).</p>
 
-  Caution that you must use same RAM size when you load saved state.</p>
+  <p dir="auto">-Fix bug that boot with ctrl key does''nt work on MSXTurboR(Many KOEI
+  game of disk version(Ishin no Arashi , Sangokushi, Sangokushi2 etc) etc).</p>
 
-  <p dir="auto">-Add ability to overclock R800 CPU for MSXTurboR.<br>
+  <p dir="auto">-Improve emulation of MSXTurboR Pause. (Networkers Gift Disk etc).</p>
 
-  You can use it with choosing "[OverClockR800(Unsafe)]" item in the fMSX3DS system
-  menu, and select overclock rate.<br>
+  <p dir="auto">-Fix graphic glitches of Screen mode 10 (Intro of Shin kugyoku den
+  etc).</p>
 
-  Caution that it''s unsafe, and many games go wrong with overclock.</p>
+  <p dir="auto">-Fixed bug that fMSX3DS get''s error when you power off Nintendo 3DS
+  while displaying "[Frequently Used Folder]" system menu.</p>
 
-  <p dir="auto">-Add suggestion message to restart when you change printer port.</p>'
-updated: '2024-08-13T11:42:19Z'
-version: v1.40
-version_title: v1.40
+  <p dir="auto">-Add support for ".der" copy protected disk files made by Disk-Manager.<br>
+
+  <a href="http://www.lexlechz.at/en/software/DiskMgr.html" rel="nofollow">http://www.lexlechz.at/en/software/DiskMgr.html</a></p>
+
+  <p dir="auto">-Add support for ESE-RAM.<br>
+
+  <a href="https://www.msx.org/wiki/ESE-RAM" rel="nofollow">https://www.msx.org/wiki/ESE-RAM</a><br>
+
+  <a href="http://www.hat.hi-ho.ne.jp/tujikawa/ese/eseram.html" rel="nofollow">http://www.hat.hi-ho.ne.jp/tujikawa/ese/eseram.html</a><br>
+
+  you can use it with selecting menu item "[Load Ese RAM 512k ROM]" in the fMSX3DS''s
+  system menu.</p>'
+updated: '2024-10-11T09:24:33Z'
+version: v1.41
 website: https://gbatemp.net/threads/release-fmsx3ds-msx-msx2-msx2-emulator-with-new-feature-for-3ds.637072/
 ---
 fMSX(MSX emulator) port to 3DS. Add new feature such as MSXTurboR emulation and MSX0 emulation.
