@@ -95,7 +95,7 @@ update_notes: '<p dir="auto">-Add support for Dual Screen for V9990!(Codename IN
 
   you can use it with selecting menu item "[Load Ese RAM 512k ROM]" in the fMSX3DS''s
   system menu.</p>'
-updated: '2024-10-11T09:24:33Z'
+updated: '2024-10-11T12:35:55Z'
 version: v1.41
 website: https://gbatemp.net/threads/release-fmsx3ds-msx-msx2-msx2-emulator-with-new-feature-for-3ds.637072/
 ---
