@@ -20,7 +20,7 @@ downloads:
     size_str: 31 KiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7/README.md
   extras.zip:
-    size: 15774702
+    size: 15886607
     size_str: 15 MiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7/extras.zip
 github: wavemotion-dave/NINTV-DS
@@ -53,7 +53,7 @@ update_notes: '<p dir="auto">V5.7 : 12-Oct-2024 by wavemotion-dave</p>
   <li>Numerous new overlays added and updated some older ones.</li>
 
   </ul>'
-updated: '2024-10-12T11:59:48Z'
+updated: '2024-10-12T14:11:15Z'
 version: '5.7'
 version_title: Version 5.7
 ---
