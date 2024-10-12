@@ -31,7 +31,7 @@ license_name: GNU General Public License v3.0
 qr:
   tikSweep.cia: https://db.universal-team.net/assets/images/qr/tiksweep-cia.png
 source: https://github.com/DanTheMan827/tikSweep
-stars: 48
+stars: 49
 systems:
 - 3DS
 title: tikSweep
