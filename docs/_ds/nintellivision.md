@@ -12,21 +12,21 @@ description: Nintellivision - an Intellivision Emulator for the DS/DSi. High com
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 722432
-    size_str: 705 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.6/NINTV-DS.nds
+    size: 723456
+    size_str: 706 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7/NINTV-DS.nds
   README.md:
-    size: 32120
+    size: 32542
     size_str: 31 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.6/README.md
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7/README.md
   extras.zip:
-    size: 14384485
-    size_str: 13 MiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.6/extras.zip
+    size: 15624628
+    size_str: 14 MiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 37733
+image_length: 37934
 layout: app
 qr:
   NINTV-DS.nds: https://db.universal-team.net/assets/images/qr/nintv-ds-nds.png
@@ -38,23 +38,22 @@ stars: 34
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V5.6 : 06-Oct-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V5.7 : 12-Oct-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Massive overhaul to the way overlays are found and loaded. No longer do you
-  need to have the overlays named the same as the game ROM file - the emulator should
-  find the matching overlay 99% of the time (and yes, you can still force the issue
-  by naming the .ovl the same as the base game .int/.bin/.rom file)</li>
+  <li>Fix to allow JLP games to execute out of 16-bit RAM. Fixes Defender of the Crown.</li>
 
-  <li>If the system BIOS files are not found by name, a quick search is done by CRC32
-  to see if the emulator can load it.</li>
+  <li>Fix ECS keyboard emulation to properly read back either port if configured for
+  output (was causing FWDiagnostics to fail).</li>
 
-  <li>These improvements should go a long way to helping people get their Nintellivision
-  system running quickly and with less fuss.</li>
+  <li>Improved UI display of ''JLP FLASH'' so it shows a bit longer (but doesn''t
+  interfere with emulation speed)</li>
+
+  <li>Numerous new overlays added and updated some older ones.</li>
 
   </ul>'
-updated: '2024-10-06T12:44:11Z'
-version: '5.6'
-version_title: Version 5.6
+updated: '2024-10-12T10:52:09Z'
+version: '5.7'
+version_title: Version 5.7
 ---
