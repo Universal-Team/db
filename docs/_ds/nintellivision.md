@@ -12,16 +12,16 @@ description: Nintellivision - an Intellivision Emulator for the DS/DSi. High com
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 723456
-    size_str: 706 KiB
+    size: 723968
+    size_str: 707 KiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7/NINTV-DS.nds
   README.md:
     size: 32542
     size_str: 31 KiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7/README.md
   extras.zip:
-    size: 15624628
-    size_str: 14 MiB
+    size: 15774702
+    size_str: 15 MiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
@@ -53,7 +53,7 @@ update_notes: '<p dir="auto">V5.7 : 12-Oct-2024 by wavemotion-dave</p>
   <li>Numerous new overlays added and updated some older ones.</li>
 
   </ul>'
-updated: '2024-10-12T10:52:09Z'
+updated: '2024-10-12T11:59:48Z'
 version: '5.7'
 version_title: Version 5.7
 ---
