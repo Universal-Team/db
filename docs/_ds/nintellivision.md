@@ -20,7 +20,7 @@ downloads:
     size_str: 31 KiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7/README.md
   extras.zip:
-    size: 15886607
+    size: 16365912
     size_str: 15 MiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7/extras.zip
 github: wavemotion-dave/NINTV-DS
@@ -50,10 +50,10 @@ update_notes: '<p dir="auto">V5.7 : 12-Oct-2024 by wavemotion-dave</p>
   <li>Improved UI display of ''JLP FLASH'' so it shows a bit longer (but doesn''t
   interfere with emulation speed)</li>
 
-  <li>Numerous new overlays added and updated some older ones.</li>
+  <li>Numerous new overlays added and updated some older ones. [154 overlays!!]</li>
 
   </ul>'
-updated: '2024-10-12T14:11:15Z'
+updated: '2024-10-13T12:16:20Z'
 version: '5.7'
 version_title: Version 5.7
 ---
