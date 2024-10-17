@@ -10,7 +10,7 @@ description: A tool to grab the Principal IDs of any Mario Kart 7 player you enc
 download_page: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases
 downloads:
   mk7-pid-grabber.3gx:
-    size: 1189156
+    size: 1184476
     size_str: 1 MiB
     url: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/download/1.0.1/mk7-pid-grabber.3gx
 github: H4x0rSpooky/mk7-pid-grabber
@@ -24,21 +24,12 @@ stars: 8
 systems:
 - 3DS
 title: MK7 PID Grabber
-update_notes: '<h2 dir="auto">Latest changes</h2>
+update_notes: '<ul dir="auto">
 
-  <ul dir="auto">
-
-  <li>Made it so the <code class="notranslate">Game Session</code> entry opens when
-  you try to open the menu during live view/race/battle</li>
-
-  <li>Added <code class="notranslate">Backwards Camera</code></li>
-
-  <li>Fixed <code class="notranslate">Backwards Camera</code> not working during glider/underwater</li>
-
-  <li>Improvements to the source code</li>
+  <li>Removed <code class="notranslate">Opponent List</code> due to false report risk</li>
 
   </ul>'
-updated: '2024-10-03T15:40:04Z'
+updated: '2024-10-17T09:24:42Z'
 version: 1.0.1
-version_title: 10/03/2024
+version_title: 10/17/2024
 ---
