@@ -71,4 +71,5 @@ update_notes: '<ul dir="auto">
 updated: '2021-06-12T19:39:34Z'
 version: v3.1.0
 version_title: ftpd pro v3.1.0
+wiki: https://github.com/mtheall/ftpd/wiki
 ---
