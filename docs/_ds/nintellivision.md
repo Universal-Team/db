@@ -12,17 +12,17 @@ description: Nintellivision - an Intellivision Emulator for the DS/DSi. High com
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 723968
-    size_str: 707 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7/NINTV-DS.nds
+    size: 724992
+    size_str: 708 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7a/NINTV-DS.nds
   README.md:
-    size: 32542
+    size: 32495
     size_str: 31 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7/README.md
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7a/README.md
   extras.zip:
-    size: 16365912
-    size_str: 15 MiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7/extras.zip
+    size: 17726001
+    size_str: 16 MiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7a/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
@@ -38,7 +38,7 @@ stars: 37
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V5.7 : 12-Oct-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V5.7a : 19-Oct-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
@@ -50,10 +50,13 @@ update_notes: '<p dir="auto">V5.7 : 12-Oct-2024 by wavemotion-dave</p>
   <li>Improved UI display of ''JLP FLASH'' so it shows a bit longer (but doesn''t
   interfere with emulation speed)</li>
 
-  <li>Numerous new overlays added and updated some older ones. [154 overlays!!]</li>
+  <li>Numerous new overlays added and updated some older ones.</li>
+
+  <li>Version 5.7a has a small fix for game loading/selection and we''re now at almost
+  170 overlays!</li>
 
   </ul>'
-updated: '2024-10-13T12:16:20Z'
-version: '5.7'
-version_title: Version 5.7
+updated: '2024-10-19T11:52:00Z'
+version: 5.7a
+version_title: Version 5.7a
 ---
