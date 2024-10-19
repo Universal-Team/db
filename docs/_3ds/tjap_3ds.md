@@ -25,7 +25,7 @@ layout: app
 qr:
   TJAP_3DS-1.4.3B.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-1-4-3b-cia.png
 source: https://github.com/LuMariGames/TJAP_3DS
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: TJAP_3DS
