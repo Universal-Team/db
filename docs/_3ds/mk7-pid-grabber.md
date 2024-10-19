@@ -10,7 +10,7 @@ description: A tool to grab the Principal IDs of any Mario Kart 7 player you enc
 download_page: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases
 downloads:
   mk7-pid-grabber.3gx:
-    size: 1184476
+    size: 1184452
     size_str: 1 MiB
     url: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/download/1.0.1/mk7-pid-grabber.3gx
 github: H4x0rSpooky/mk7-pid-grabber
