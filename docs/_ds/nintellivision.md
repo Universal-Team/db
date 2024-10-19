@@ -20,7 +20,7 @@ downloads:
     size_str: 31 KiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7a/README.md
   extras.zip:
-    size: 18022714
+    size: 18415487
     size_str: 17 MiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7a/extras.zip
 github: wavemotion-dave/NINTV-DS
@@ -53,10 +53,10 @@ update_notes: '<p dir="auto">V5.7a : 19-Oct-2024 by wavemotion-dave</p>
   <li>Numerous new overlays added and updated some older ones.</li>
 
   <li>Minor fix for game selection being in the correct starting directory and now
-  up to 170 overlays!</li>
+  up to 175 overlays!</li>
 
   </ul>'
-updated: '2024-10-19T14:17:08Z'
+updated: '2024-10-19T22:00:42Z'
 version: 5.7a
 version_title: Version 5.7a
 ---
