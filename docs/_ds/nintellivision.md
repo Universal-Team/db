@@ -12,21 +12,21 @@ description: Nintellivision - an Intellivision Emulator for the DS/DSi. High com
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 724992
+    size: 725504
     size_str: 708 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7a/NINTV-DS.nds
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.8/NINTV-DS.nds
   README.md:
-    size: 32495
-    size_str: 31 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7a/README.md
+    size: 32814
+    size_str: 32 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.8/README.md
   extras.zip:
-    size: 18360851
+    size: 18515464
     size_str: 17 MiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.7a/extras.zip
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.8/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 37934
+image_length: 38171
 layout: app
 qr:
   NINTV-DS.nds: https://db.universal-team.net/assets/images/qr/nintv-ds-nds.png
@@ -38,25 +38,20 @@ stars: 37
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V5.7a : 19-Oct-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V5.8 : 20-Oct-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Fix to allow JLP games to execute out of 16-bit RAM. Fixes Defender of the Crown.</li>
+  <li>Fix for game selection to revert to the proper directory (the last one you were
+  in to select games).</li>
 
-  <li>Fix ECS keyboard emulation to properly read back either port if configured for
-  output (was causing FWDiagnostics to fail).</li>
+  <li>Fix for MOB collisions to not render for off-screen pixels which fixes the various
+  Baseball Games (couldn''t pick up ball in outfield).</li>
 
-  <li>Improved UI display of ''JLP FLASH'' so it shows a bit longer (but doesn''t
-  interfere with emulation speed)</li>
-
-  <li>Numerous new overlays added and updated some older ones.</li>
-
-  <li>5.7a : Minor fix for game selection being in the correct starting directory
-  and now up to 175 overlays!</li>
+  <li>Many new and improved overlays. Total of 180 overlays!</li>
 
   </ul>'
-updated: '2024-10-20T00:48:23Z'
-version: 5.7a
-version_title: Version 5.7a
+updated: '2024-10-20T12:25:41Z'
+version: '5.8'
+version_title: Version 5.8
 ---
