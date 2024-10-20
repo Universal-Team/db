@@ -38,9 +38,7 @@ stars: 37
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V5.8 : 20-Oct-2024 by wavemotion-dave</p>
-
-  <ul dir="auto">
+update_notes: '<ul dir="auto">
 
   <li>Fix for game selection to revert to the proper directory (the last one you were
   in to select games).</li>
@@ -48,10 +46,10 @@ update_notes: '<p dir="auto">V5.8 : 20-Oct-2024 by wavemotion-dave</p>
   <li>Fix for MOB collisions to not render for off-screen pixels which fixes the various
   Baseball Games (couldn''t pick up ball in outfield).</li>
 
-  <li>Many new and improved overlays. Total of 180 overlays!</li>
+  <li>Many new and improved overlays. Almost 180 overlays in the extras.zip pack!</li>
 
   </ul>'
-updated: '2024-10-20T20:09:04Z'
+updated: '2024-10-20T21:06:29Z'
 version: '5.8'
 version_title: Version 5.8
 ---
