@@ -10,13 +10,13 @@ description: A VNC viewer for Nintendo 3DS
 download_page: https://github.com/badda71/TinyVNC/releases
 downloads:
   TinyVNC.3dsx:
-    size: 1749256
+    size: 1937112
     size_str: 1 MiB
-    url: https://github.com/badda71/TinyVNC/releases/download/2.0/TinyVNC.3dsx
+    url: https://github.com/badda71/TinyVNC/releases/download/2.0.1/TinyVNC.3dsx
   TinyVNC.cia:
-    size: 1713088
+    size: 1827776
     size_str: 1 MiB
-    url: https://github.com/badda71/TinyVNC/releases/download/2.0/TinyVNC.cia
+    url: https://github.com/badda71/TinyVNC/releases/download/2.0.1/TinyVNC.cia
 github: badda71/TinyVNC
 icon: https://raw.githubusercontent.com/badda71/TinyVNC/master/meta/icon.png
 image: https://raw.githubusercontent.com/badda71/TinyVNC/master/meta/banner.png
@@ -148,11 +148,9 @@ update_notes: '<p dir="auto">This is version 2.0 of TinyVNC, the VNC-viewer for 
 
   <p dir="auto">Scan QR-code below with FBI<br>
 
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/11392517/173825133-5823f96b-e7fd-4218-9871-41116c53b264.png"><img
-  src="https://user-images.githubusercontent.com/11392517/173825133-5823f96b-e7fd-4218-9871-41116c53b264.png"
-  alt="grafik" style="max-width: 100%;"></a></p>'
+  </p>'
 updated: '2022-06-07T15:19:51Z'
-version: '2.0'
+version: 2.0.1
 version_title: TinyVNC 2.0
 website: https://gbatemp.net/threads/release-tinyvnc-vnc-viewer-for-nintendo-3ds.574242/
 ---
