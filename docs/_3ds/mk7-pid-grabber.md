@@ -38,10 +38,12 @@ update_notes: '<h2 dir="auto">Changes</h2>
 
   <li>Pushed the CTRPluginFramework to version 0.8.0</li>
 
+  <li>Adjusted the README file for the changes</li>
+
   <li>This project is now closed source</li>
 
   </ul>'
-updated: '2024-10-25T13:17:44Z'
+updated: '2024-10-25T14:09:36Z'
 version: 1.0.0
 version_title: 10/25/2024
 ---
