@@ -25,7 +25,7 @@ layout: app
 qr:
   RandomTitlePicker.cia: https://db.universal-team.net/assets/images/qr/randomtitlepicker-cia.png
 source: https://github.com/einso/3ds-randomtitlepicker
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: Random Title Picker
