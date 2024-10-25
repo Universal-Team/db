@@ -10,32 +10,38 @@ description: A tool to grab the Principal IDs of any Mario Kart 7 player you enc
 download_page: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases
 downloads:
   mk7-pid-grabber.3gx:
-    size: 1186448
+    size: 1188920
     size_str: 1 MiB
-    url: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/download/1.0.1/mk7-pid-grabber.3gx
+    url: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/download/1.0.0/mk7-pid-grabber.3gx
 github: H4x0rSpooky/mk7-pid-grabber
 image: https://avatars.githubusercontent.com/u/60476091?v=4&size=128
 image_length: 3758
 layout: app
-license: gpl-3.0
-license_name: GNU General Public License v3.0
 source: https://github.com/H4x0rSpooky/mk7-pid-grabber
 stars: 8
 systems:
 - 3DS
 title: MK7 PID Grabber
-update_notes: '<h2 dir="auto">Changelog</h2>
+update_notes: '<h2 dir="auto">Changes</h2>
 
   <ul dir="auto">
 
-  <li>Attempted fix for settings not saving properly</li>
+  <li>Updated <code class="notranslate">Session Logger</code> to log sessions with
+  timestamp under <code class="notranslate">sd:\luma\plugins\&lt;tid&gt;\mk7-pid-grabber\sessions\</code></li>
 
-  <li>Added the FC into the Session Logger</li>
+  <li>Added the Friend Code to the <code class="notranslate">Session Logger</code>
+  dumps to have all info like <code class="notranslate">Game Session</code></li>
 
-  <li>Updated CTRPF to 0.8.0</li>
+  <li>Went back to plugin version 1.0.0 due to it being the base setup of the project</li>
+
+  <li>Added an attempted fix to save settings properly now</li>
+
+  <li>Pushed the CTRPluginFramework to version 0.8.0</li>
+
+  <li>This project is now closed source</li>
 
   </ul>'
-updated: '2024-10-24T18:43:31Z'
-version: 1.0.1
-version_title: 10/24/2024
+updated: '2024-10-25T13:17:44Z'
+version: 1.0.0
+version_title: 10/25/2024
 ---
