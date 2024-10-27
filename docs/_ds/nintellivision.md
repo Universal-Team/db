@@ -12,21 +12,21 @@ description: Nintellivision - an Intellivision Emulator for the DS/DSi. High com
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 725504
-    size_str: 708 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.8/NINTV-DS.nds
+    size: 727552
+    size_str: 710 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.9/NINTV-DS.nds
   README.md:
-    size: 32814
+    size: 32948
     size_str: 32 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.8/README.md
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.9/README.md
   extras.zip:
-    size: 18515495
-    size_str: 17 MiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.8/extras.zip
+    size: 22175156
+    size_str: 21 MiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.9/extras.zip
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 38171
+image_length: 38406
 layout: app
 qr:
   NINTV-DS.nds: https://db.universal-team.net/assets/images/qr/nintv-ds-nds.png
@@ -38,20 +38,15 @@ stars: 37
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V5.8 : 20-Oct-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V5.9 : 27-Oct-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Fix for game selection to revert to the proper directory (the last one you were
-  in to select games).</li>
-
-  <li>Fix for MOB collisions to not render for off-screen pixels which fixes the various
-  Baseball Games (couldn''t pick up ball in outfield).</li>
-
-  <li>Many new and improved overlays. Almost 180 overlays in the extras.zip pack!</li>
+  <li>Version 5.9 with a large number of new custom overlays (see readme.md and the
+  extras.zip pack)</li>
 
   </ul>'
-updated: '2024-10-20T21:30:21Z'
-version: '5.8'
-version_title: Version 5.8
+updated: '2024-10-27T11:03:41Z'
+version: '5.9'
+version_title: Version 5.9
 ---
