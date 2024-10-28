@@ -7,12 +7,6 @@ color: '#8c99a7'
 color_bg: '#6b7580'
 created: '2024-10-25T14:34:36Z'
 description: A tool to grab the Principal IDs of any Mario Kart 7 player you encounter.
-download_page: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases
-downloads:
-  mk7-pid-grabber.3gx:
-    size: 1195776
-    size_str: 1 MiB
-    url: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/download/1.0.0/mk7-pid-grabber.3gx
 github: H4x0rSpooky/mk7-pid-grabber
 image: https://avatars.githubusercontent.com/u/60476091?v=4&size=128
 image_length: 3758
@@ -22,49 +16,5 @@ stars: 1
 systems:
 - 3DS
 title: MK7 PID Grabber
-update_notes: '<h2 dir="auto">Latest Changes</h2>
-
-  <h3 dir="auto">Session Logger</h3>
-
-  <ul dir="auto">
-
-  <li>Now logs all sessions</li>
-
-  <li>Now logs friend code</li>
-
-  <li>Added file viewer</li>
-
-  </ul>
-
-  <h3 dir="auto">Settings</h3>
-
-  <ul dir="auto">
-
-  <li>Fix for saving changes (untested)</li>
-
-  </ul>
-
-  <h3 dir="auto">Essential</h3>
-
-  <ul dir="auto">
-
-  <li>Changed back to v1.0.0</li>
-
-  <li>Updated glaze to latest</li>
-
-  <li>Updated CTRPF to latest</li>
-
-  <li>Changed <a href="https://github.com/H4x0rSpooky/mk7-pid-grabber/blob/main/README.md">README</a></li>
-
-  <li>Changed to closed source</li>
-
-  </ul>
-
-  <h2 dir="auto"></h2>
-
-  <p dir="auto"><a href="https://github.com/H4x0rSpooky/mk7-pid-grabber/blob/main/README.md">More
-  information about this project</a></p>'
-updated: '2024-10-25T14:37:30Z'
-version: 1.0.0
-version_title: 10/25/2024
+updated: '---'
 ---
