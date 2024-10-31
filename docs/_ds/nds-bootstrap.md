@@ -53,7 +53,10 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   <ul dir="auto">
 
   <li>This basically means that old flashcards such as the N-Card will now work with
-  nds-bootstrap!</li>
+  nds-bootstrap! (Thanks to <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/ApacheThunder/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/ApacheThunder">@ApacheThunder</a>
+  for testing!)</li>
 
   <li>libnds32 (by <a class="user-mention notranslate" data-hovercard-type="user"
   data-hovercard-url="/users/lifehackerhansol/hovercard" data-octo-click="hovercard-link-click"
@@ -124,7 +127,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ul>
 
-  <h3 dir="auto">Known bug</h3>
+  <h3 dir="auto">Known bugs</h3>
 
   <ul dir="auto">
 
@@ -132,6 +135,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   few other old flashcards). If you are playing a DSiWare title on DS or DS Lite,
   make sure to set <em>Lufia: Curse of the Sinistrals</em> as a donor ROM in order
   to reduce crashing.</li>
+
+  <li>32KB DLDI drivers are not supported outside of B4DS mode.</li>
 
   </ul>'
 updated: '2024-10-31T06:56:37Z'
