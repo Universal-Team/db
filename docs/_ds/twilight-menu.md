@@ -96,6 +96,8 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </li>
 
+  <li>SNEmulDS now reads ROMs from <code class="notranslate">fat:/roms/snes/</code>!</li>
+
   </ul>
 
   <h3 dir="auto">Bug fixes</h3>
