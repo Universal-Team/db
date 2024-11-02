@@ -10,10 +10,14 @@ created: '2024-06-27T17:49:31Z'
 description: A polished cheat plugin for Mario Kart 7, now with anticheat!
 download_page: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases
 downloads:
+  Plugin.Pack.zip:
+    size: 581576
+    size_str: 567 KiB
+    url: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.6/Plugin.Pack.zip
   plugin.3gx:
-    size: 936755
-    size_str: 914 KiB
-    url: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.5/plugin.3gx
+    size: 934890
+    size_str: 912 KiB
+    url: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.6/plugin.3gx
 github: SFC-hacker/Mario-Kart-7-Plugin-Deluxe
 image: https://avatars.githubusercontent.com/u/67318218?v=4&size=128
 image_length: 4502
@@ -23,21 +27,36 @@ stars: 4
 systems:
 - 3DS
 title: MK7 Plugin DX
-update_notes: '<p dir="auto"></p>
+update_notes: '<p dir="auto">Mario Kart 7 Plugin Deluxe v3.0.6</p>
 
   <ul dir="auto">
 
   <li>
 
-  <p dir="auto">As of today no way has been found to correctly flag whether the user
-  is in a public room or a custom room. Hence this updates only removes the faulty
-  system. (See the issue section)</p>
+  <p dir="auto">Drive Out Of Bounds code has been fixed</p>
 
   </li>
 
   <li>
 
-  <p dir="auto">This update changed the Private Rooms Network system a bit.</p>
+  <p dir="auto">Private Rooms Network issue with the Room key displaying in race too
+  has been fixed</p>
+
+  </li>
+
+  <li>
+
+  <p dir="auto">Updated codes description</p>
+
+  </li>
+
+  <li>
+
+  <p dir="auto">Known issues:<br>
+
+  Private Rooms Network code can sometimes not apply the room hence the user sees
+  "Room: 0" whereas he selected a Room. If if happens, just disable the code, then
+  go back in the plugin, enable the code and choose a room again</p>
 
   </li>
 
@@ -59,7 +78,7 @@ update_notes: '<p dir="auto"></p>
   </ul>
 
   </div>'
-updated: '2024-10-07T16:24:42Z'
-version: v3.0.5
-version_title: Mario Kart 7 Plugin Deluxe v3.0.5
+updated: '2024-11-02T16:20:47Z'
+version: v3.0.6
+version_title: Mario Kart 7 Plugin Deluxe v3.0.6
 ---
