@@ -11,11 +11,11 @@ description: A polished cheat plugin for Mario Kart 7, now with anticheat!
 download_page: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases
 downloads:
   Plugin.Pack.zip:
-    size: 581576
+    size: 581499
     size_str: 567 KiB
     url: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.6/Plugin.Pack.zip
   plugin.3gx:
-    size: 934890
+    size: 934761
     size_str: 912 KiB
     url: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.6/plugin.3gx
 github: SFC-hacker/Mario-Kart-7-Plugin-Deluxe
