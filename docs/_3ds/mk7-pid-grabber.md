@@ -10,7 +10,7 @@ description: A tool to grab the Principal IDs of any Mario Kart 7 player you enc
 download_page: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases
 downloads:
   mk7-pid-grabber.3gx:
-    size: 1208488
+    size: 1199080
     size_str: 1 MiB
     url: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/download/1.0.0/mk7-pid-grabber.3gx
 github: H4x0rSpooky/mk7-pid-grabber
@@ -28,6 +28,9 @@ update_notes: '<h2 dir="auto">Latest Changes</h2>
 
   <li>Resolved an issue where the session log file viewer would crash if there was
   no log found</li>
+
+  <li>Fixed dumps being corrupted due to the json format (also updated to a newer
+  lib)</li>
 
   </ul>
 
