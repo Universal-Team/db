@@ -40,7 +40,7 @@ prerelease:
   version: 4.2.5-306-ga368e6dd9
   version_title: 4.2.5-306-ga368e6dd9
 source: https://github.com/angband/angband
-stars: 1311
+stars: 1312
 systems:
 - 3DS
 - DS
