@@ -12,17 +12,17 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1441280
+    size: 1441792
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.1/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.2/ColecoDS.nds
   README.md:
-    size: 53557
+    size: 53899
     size_str: 52 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.1/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.2/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.1/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.2/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -35,22 +35,18 @@ stars: 37
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V10.1: 03-Sep-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V10.2: 05-Nov-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Fix for the ADC decimal-mode instruction in the 6502 core for the CreatiVision.
-  This fixes a number of problems including hex-digits showing on scores for some
-  games.</li>
+  <li>Fix for SGM enable/disable that renders The Castle and Castle Excellent playable.</li>
 
-  <li>Tweaks and optimizations for the CreatiVision driver. Added most of the common/stable
-  ''undocumented'' opcodes.</li>
+  <li>Auto-disable SGM for Cavern Fighter to render it playable.</li>
 
-  <li>Improved emulation accuracy for the ADAM with memory now initialized to alternating
-  0x00 (even bytes) and 0xFF (odd bytes) per AdamEM and experiments from Shawn Merrick.</li>
+  <li>Three year anniversary of the Phoenix Edition - Happy Birthday ColecoDS!</li>
 
   </ul>'
-updated: '2024-09-03T10:45:11Z'
-version: '10.1'
-version_title: Version 10.1
+updated: '2024-11-04T18:28:26Z'
+version: '10.2'
+version_title: Version 10.2
 ---
