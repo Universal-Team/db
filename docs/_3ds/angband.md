@@ -26,19 +26,19 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.5-310-gccc6bc340
+  download_page: https://github.com/angband/angband/releases/tag/4.2.5-312-g00091cfe4
   downloads:
-    Angband-4.2.5-310-gccc6bc340-3ds.zip:
-      size: 24651255
+    Angband-4.2.5-312-g00091cfe4-3ds.zip:
+      size: 24651494
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.5-310-gccc6bc340/Angband-4.2.5-310-gccc6bc340-3ds.zip
-    Angband-4.2.5-310-gccc6bc340-nds.zip:
+      url: https://github.com/angband/angband/releases/download/4.2.5-312-g00091cfe4/Angband-4.2.5-312-g00091cfe4-3ds.zip
+    Angband-4.2.5-312-g00091cfe4-nds.zip:
       size: 23346855
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.5-310-gccc6bc340/Angband-4.2.5-310-gccc6bc340-nds.zip
-  updated: '2024-11-07T17:47:20Z'
-  version: 4.2.5-310-gccc6bc340
-  version_title: 4.2.5-310-gccc6bc340
+      url: https://github.com/angband/angband/releases/download/4.2.5-312-g00091cfe4/Angband-4.2.5-312-g00091cfe4-nds.zip
+  updated: '2024-11-07T20:20:22Z'
+  version: 4.2.5-312-g00091cfe4
+  version_title: 4.2.5-312-g00091cfe4
 source: https://github.com/angband/angband
 stars: 1314
 systems:
