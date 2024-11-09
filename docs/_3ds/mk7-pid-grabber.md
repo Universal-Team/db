@@ -10,7 +10,7 @@ description: A tool to grab the Principal IDs of any Mario Kart 7 player you enc
 download_page: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases
 downloads:
   mk7-pid-grabber.3gx:
-    size: 1199080
+    size: 1208488
     size_str: 1 MiB
     url: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/download/1.0.0/mk7-pid-grabber.3gx
 github: H4x0rSpooky/mk7-pid-grabber
@@ -18,21 +18,15 @@ image: https://avatars.githubusercontent.com/u/60476091?v=4&size=128
 image_length: 3758
 layout: app
 source: https://github.com/H4x0rSpooky/mk7-pid-grabber
-stars: 1
+stars: 0
 systems:
 - 3DS
 title: MK7 PID Grabber
-update_notes: '<h2 dir="auto">Latest Changes</h2>
+update_notes: '<h2 dir="auto">End of the project, for now at least</h2>
 
-  <ul dir="auto">
-
-  <li>Resolved an issue where the session log file viewer would crash if there was
-  no log found</li>
-
-  <li>Fixed dumps being corrupted due to the json format (also updated to a newer
-  lib)</li>
-
-  </ul>
+  <p dir="auto">You can download the latest provided version of the plugin here and
+  through <a href="https://universal-team.net/projects/universal-updater" rel="nofollow">Universal
+  Updater</a></p>
 
   <h2 dir="auto"></h2>
 
@@ -40,5 +34,5 @@ update_notes: '<h2 dir="auto">Latest Changes</h2>
   information about this project</a></p>'
 updated: '2024-10-29T20:54:53Z'
 version: 1.0.0
-version_title: 11/02/2024
+version_title: 11/09/2024
 ---
