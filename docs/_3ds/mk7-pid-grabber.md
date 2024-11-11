@@ -18,7 +18,7 @@ image: https://avatars.githubusercontent.com/u/60476091?v=4&size=128
 image_length: 3758
 layout: app
 source: https://github.com/H4x0rSpooky/mk7-pid-grabber
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: MK7 PID Grabber
