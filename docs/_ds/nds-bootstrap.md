@@ -24,7 +24,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/DS-Homebrew/nds-bootstrap
-stars: 1191
+stars: 1192
 systems:
 - DS
 title: nds-bootstrap
