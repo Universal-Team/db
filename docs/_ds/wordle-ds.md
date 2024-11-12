@@ -10,17 +10,17 @@ description: A clone of Wordle for the Nintendo DS(i)
 download_page: https://github.com/Epicpkmn11/WordleDS/releases
 downloads:
   WordleDS.cia:
-    size: 1264832
-    size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.1.0/WordleDS.cia
+    size: 967872
+    size_str: 945 KiB
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.2.0/WordleDS.cia
   WordleDS.dsi:
-    size: 1250240
-    size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.1.0/WordleDS.dsi
+    size: 953280
+    size_str: 930 KiB
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.2.0/WordleDS.dsi
   WordleDS.nds:
-    size: 1250240
-    size_str: 1 MiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.1.0/WordleDS.nds
+    size: 953280
+    size_str: 930 KiB
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.2.0/WordleDS.nds
 github: Epicpkmn11/WordleDS
 icon: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
 icon_static: https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/resources/icon/icon.0.png
@@ -51,15 +51,15 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Allows the custom order to specify answers in the incorrect guesses list, since
-  that''s a thing now (Wordle 646)
+  <li>On DSi and 3DS Wordle DS now supports modern Wi-Fi networks for updating the
+  word list!!
 
   <ul dir="auto">
 
-  <li>The one major assumption I make, that the answers will still come from the old
-  list, and they break it</li>
-
-  <li>Please don''t add new words at least</li>
+  <li>All thanks to <a class="user-mention notranslate" data-hovercard-type="organization"
+  data-hovercard-url="/orgs/devkitPro/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/devkitPro">@devkitPro</a>
+  for libnds v2.0.0 and with it dswifi v2</li>
 
   </ul>
 
@@ -67,21 +67,21 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   </ul>
 
-  <h3 dir="auto">Bug fixes</h3>
-
-  <ul dir="auto">
-
-  <li>Fixes settings showing one higher than is actually downloaded</li>
-
-  </ul>
-
   <h3 dir="auto">Changes</h3>
 
   <ul dir="auto">
 
-  <li>Updates the included word list through April 9th</li>
+  <li>Updates the included word list through December 8th, 2024</li>
 
   </ul>
+
+  <h3 dir="auto">Notes</h3>
+
+  <p dir="auto">I improved the HTTP handling of large requests so it should be stable
+  now, as such I''ve updated the server to no longer limit to 100 words at a time
+  on updates. (only need to update once on download now!) As such, old versions will
+  now usually fail on full word list updates, though simple maintenance updates will
+  probably still go through without issue.</p>
 
   <hr>
 
@@ -110,22 +110,18 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <tr>
 
-  <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/225175663-76a1c7ba-e013-468b-9895-d3a196378bce.png"><img
-  src="https://user-images.githubusercontent.com/41608708/225175663-76a1c7ba-e013-468b-9895-d3a196378bce.png"
-  alt="QR for WordleDS.cia" style="max-width: 100%;"></a></td>
+  <td></td>
 
-  <td><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/225175666-7ea92569-c1e7-4a4f-b943-1714f2bb8c2a.png"><img
-  src="https://user-images.githubusercontent.com/41608708/225175666-7ea92569-c1e7-4a4f-b943-1714f2bb8c2a.png"
-  alt="QR for WordleDS.dsi" style="max-width: 100%;"></a></td>
+  <td></td>
 
   </tr>
 
   </tbody>
 
   </table></markdown-accessiblity-table>'
-updated: '2023-03-15T00:49:50Z'
-version: v3.1.0
-version_title: Answers in the guess list
+updated: '2024-11-12T16:03:53Z'
+version: v3.2.0
+version_title: DSi Wi-Fi!
 website: https://wordle.xn--rck9c.xn--tckwe
 wiki: https://github.com/Epicpkmn11/WordleDS/wiki
 ---
