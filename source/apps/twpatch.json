@@ -24,7 +24,7 @@
 	},
 	"version": "2024/10/17",
 	"version_title": "Minor QoL update",
-	"update_notes_md": "- Remove anti-DPAD patch being enabled by default, due to popular demand\n- Reworded the jumpscare "compression takes forever" text, now instead it displays zen sayings. I'm genuinely sorry for how long it took me to make this important change.\n- Minor edge case fixes\n- Minor bugfixes\n- Minor text changes\n- OMG GBA MODE SCALE FILTER PREVIEW IS NO LONGER DISPLAYING COMPLETE GARBAGE, WHAT KIND OF ALTERNATIVE UNIVERSE IS THIS",
+	"update_notes_md": "- Remove anti-DPAD patch being enabled by default, due to popular demand\n- Reworded the jumpscare \"compression takes forever\" text, now instead it displays zen sayings. I'm genuinely sorry for how long it took me to make this important change.\n- Minor edge case fixes\n- Minor bugfixes\n- Minor text changes\n- OMG GBA MODE SCALE FILTER PREVIEW IS NO LONGER DISPLAYING COMPLETE GARBAGE, WHAT KIND OF ALTERNATIVE UNIVERSE IS THIS",
 	"download_page": "https://gbatemp.net/download/twpatch.37400/",
 	"website": "https://gbatemp.net/threads/twpatcher-ds-i-mode-screen-filters-and-patches.542694/"
 }
