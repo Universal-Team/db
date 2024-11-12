@@ -10,25 +10,17 @@ description: FTP Server for 3DS/Switch
 download_page: https://github.com/mtheall/ftpd/releases
 downloads:
   ftpd-classic.3dsx:
-    size: 317552
-    size_str: 310 KiB
-    url: https://github.com/mtheall/ftpd/releases/download/v3.1.0/ftpd-classic.3dsx
-  ftpd-classic.cia:
-    size: 617920
-    size_str: 603 KiB
-    url: https://github.com/mtheall/ftpd/releases/download/v3.1.0/ftpd-classic.cia
+    size: 312884
+    size_str: 305 KiB
+    url: https://github.com/mtheall/ftpd/releases/download/v3.2.0/ftpd-classic.3dsx
   ftpd.3dsx:
-    size: 554640
-    size_str: 541 KiB
-    url: https://github.com/mtheall/ftpd/releases/download/v3.1.0/ftpd.3dsx
-  ftpd.cia:
-    size: 803776
-    size_str: 784 KiB
-    url: https://github.com/mtheall/ftpd/releases/download/v3.1.0/ftpd.cia
+    size: 1408632
+    size_str: 1 MiB
+    url: https://github.com/mtheall/ftpd/releases/download/v3.2.0/ftpd.3dsx
   ftpd.nds:
-    size: 379392
-    size_str: 370 KiB
-    url: https://github.com/mtheall/ftpd/releases/download/v3.1.0/ftpd.nds
+    size: 431104
+    size_str: 421 KiB
+    url: https://github.com/mtheall/ftpd/releases/download/v3.2.0/ftpd.nds
 github: mtheall/ftpd
 icon: https://raw.githubusercontent.com/mtheall/ftpd/master/meta/icon.png
 image: https://raw.githubusercontent.com/mtheall/ftpd/master/meta/banner.png
@@ -37,8 +29,6 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  ftpd-classic.cia: https://db.universal-team.net/assets/images/qr/ftpd-classic-cia.png
-  ftpd.cia: https://db.universal-team.net/assets/images/qr/ftpd-cia.png
   ftpd.nds: https://db.universal-team.net/assets/images/qr/ftpd-nds.png
 screenshots:
 - description: Classic
@@ -50,7 +40,7 @@ screenshots:
 - description: Transferring
   url: https://db.universal-team.net/assets/images/screenshots/ftpd/transferring.png
 source: https://github.com/mtheall/ftpd
-stars: 1387
+stars: 1388
 systems:
 - 3DS
 - DS
@@ -59,17 +49,34 @@ unique_ids:
 - '0xBEEF5'
 update_notes: '<ul dir="auto">
 
-  <li>Access Point mode on Switch</li>
+  <li>DSi wifi support with update to libnds-2.0.0</li>
 
-  <li>Reset button for configuration</li>
+  <li>mDNS support</li>
 
-  <li>Update to Dear ImGui 1.83</li>
+  <li>glob support</li>
+
+  <li>ImGui stereoscopic effect on 3DS</li>
+
+  <li>Removed CIA build for 3DS
+
+  <ul dir="auto">
+
+  <li>DO NOT ASK ME TO SUPPORT CIA</li>
+
+  </ul>
+
+  </li>
+
+  <li>Build with CMake</li>
+
+  <li>Update to <a href="https://github.com/ocornut/imgui/releases/tag/v1.91.4">Dear
+  ImGui v1.91.4</a></li>
 
   <li>General system stability improvements to enhance the user’s experience</li>
 
   </ul>'
-updated: '2021-06-12T19:39:34Z'
-version: v3.1.0
-version_title: ftpd pro v3.1.0
+updated: '2024-11-12T01:09:03Z'
+version: v3.2.0
+version_title: ftpd pro v3.2.0
 wiki: https://github.com/mtheall/ftpd/wiki
 ---

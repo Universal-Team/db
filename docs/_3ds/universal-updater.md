@@ -10,13 +10,13 @@ description: An easy to use app for installing and updating 3DS homebrew
 download_page: https://github.com/Universal-Team/Universal-Updater/releases
 downloads:
   Universal-Updater.3dsx:
-    size: 2647156
+    size: 2756728
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.6/Universal-Updater.3dsx
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.7/Universal-Updater.3dsx
   Universal-Updater.cia:
-    size: 2229184
+    size: 2286528
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.6/Universal-Updater.cia
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.7/Universal-Updater.cia
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/resources/2d-banner.png
@@ -80,52 +80,19 @@ title: Universal-Updater
 unique_ids:
 - '0x43917'
 unistore_exclude: true
-update_notes: '<h3 dir="auto">What''s new?</h3>
+update_notes: '<h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>Added an indicator for your Wi-Fi strength and if you''re connected</li>
-
-  <li>The download list is now sorted case insensitively such that the <code class="notranslate">[nightly]</code>
-  versions always appear below the normal versions now</li>
-
-  <li>Added an option to automatically update to the latest nightly version of Universal-Updater
-  instead of just stable releases</li>
-
-  <li>Added Ryukuan translation</li>
-
-  <li>Removed the <code class="notranslate">message</code> variable from scripts,
-  allowing for translations and smaller file sizes</li>
-
-  <li>The <code class="notranslate">rmdir</code> action will now fail silently if
-  not <code class="notranslate">required</code> and the folder doesn''t exist, allowing
-  to ensure a folder doesn''t exist without having to ensure it exists first</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed not scrolling in the Get UniStore list
-
-  <ul dir="auto">
-
-  <li>Previously the Wordle DS Mods UniStore was in the list, but it wouldn''t scroll
-  when you moved down to it</li>
-
-  </ul>
-
-  </li>
-
-  <li>Fixed some settings strings not having ellipses when they should</li>
+  <li>Fixed crash when installing a CIA without a title database being generated beforehand.</li>
 
   </ul>
 
   <h3 dir="auto">Other notes</h3>
 
-  <p dir="auto">Another fairly small update, but there''s been a few worthwhile changes
-  so we figured it was a good time to put out a new release.</p>
+  <p dir="auto">It''s been 2 years. Not much needed changing in the code since, but
+  the one bug fix was important enough to make another release, while also integrating
+  upstream toolchain changes.</p>
 
   <p dir="auto">Find any bugs we missed, have suggestions, or need help? You can either
   make an issue or discussion here on GitHub or join our <a href="https://universal-team.net/discord"
@@ -133,16 +100,10 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <p dir="auto">We hope you enjoy the new update!<br>
 
-  ~ Universal-Team</p>
-
-  <hr>
-
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/41608708/203196574-24207d3c-557f-4dc9-bd3a-cd14895cc8e3.png"><img
-  src="https://user-images.githubusercontent.com/41608708/203196574-24207d3c-557f-4dc9-bd3a-cd14895cc8e3.png"
-  alt="QR code for Universal-Updater.cia" style="max-width: 100%;"></a></p>'
-updated: '2022-11-22T01:40:23Z'
-version: v3.2.6
-version_title: Wi-Fi strength indicator and other minor improvements
+  ~ Universal-Team</p>'
+updated: '2024-11-12T11:55:06Z'
+version: v3.2.7
+version_title: What if we started with 3dsx?
 website: https://universal-team.net/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
