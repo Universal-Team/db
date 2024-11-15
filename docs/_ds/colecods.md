@@ -12,17 +12,17 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1441792
+    size: 1443328
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.2/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.3/ColecoDS.nds
   README.md:
-    size: 53899
+    size: 53995
     size_str: 52 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.2/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.3/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.2/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.3/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -35,18 +35,17 @@ stars: 38
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V10.2: 05-Nov-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V10.3: 15-Nov-2024 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Fix for SGM enable/disable that renders The Castle and Castle Excellent playable.</li>
+  <li>Added support for the 31-in-1 and 63-in-1 multicarts.</li>
 
-  <li>Auto-disable SGM for Cavern Fighter to render it playable.</li>
-
-  <li>Three year anniversary of the Phoenix Edition - Happy Birthday ColecoDS!</li>
+  <li>Added support for ''Wave Direct'' sound driver to render digitized speech in
+  games such as Sewer Sam, Squish-Em, Wizard of Wor, etc.</li>
 
   </ul>'
-updated: '2024-11-04T18:28:26Z'
-version: '10.2'
-version_title: Version 10.2
+updated: '2024-11-15T12:01:48Z'
+version: '10.3'
+version_title: Version 10.3
 ---
