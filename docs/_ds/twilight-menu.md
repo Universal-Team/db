@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 42810893
+    size: 42813006
     size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.11.1/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 42853115
+    size: 42866764
     size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.11.1/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 53941445
+    size: 53953194
     size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.11.1/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 54169986
+    size: 54184757
     size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.11.1/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -38,7 +38,10 @@ stars: 3301
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.2.0">nds-bootstrap
+  v2.2.0</a></p>
+
+  <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
 
   <ul dir="auto">
@@ -52,37 +55,56 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   </ul>
 
-  <h3 dir="auto">Bug fixes</h3>
+  <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Fixed the support of 32KB DLDI drivers causing some homebrew apps (ex. dumpTool,
-  Safe NAND Manager, GodMode9<strong>i</strong>, emulators, etc.) to not work correctly
-  and/or not exit back to TWLMenu++.
+  <li>The N-Card is now supported by the <code class="notranslate">Slot-1 microSD
+  access</code> feature!</li>
+
+  <li>Added workaround to make homebrew only supporting up to 16KB DLDI drivers, now
+  working with 32KB DLDI drivers!
 
   <ul dir="auto">
 
-  <li>N-Card''s DLDI driver is now compressed in the bootstub RAM space.</li>
+  <li>Has not been tested with homebrew built with libnds v2.</li>
 
   </ul>
 
   </li>
 
-  <li>Fixed bootstub not being preserved when booting a homebrew app in DS mode (switched
-  from DSi mode) from flashcards.</li>
+  <li><strong>DSi theme:</strong> Launching a game will now immediately play the launch
+  animation like in the original DSi Menu!
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
+  <ul dir="auto">
+
+  <li>Achieved by running the DSi binaries check and AP-fix check after the banner
+  text appearing or changed.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Added build of <em>FastVideoDSPlayer</em> which supports 32KB DLDI drivers.</li>
+
+  <li>Added ESRB rating screens for <em>Honeycomb Beat</em> &amp; <em>Puppy Palace</em>.</li>
+
+  </ul>
+
+  <h3 dir="auto">Bug fix</h3>
+
+  <ul dir="auto">
+
+  <li>Me and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
-  Autobooting is now supported for DSTT and it''s clones with a non-SDHC microSD card
-  inserted!</li>
-
-  <li><strong>Wood UI theme:</strong> Fixed crash when pressing D-Pad Right with 2
-  files/folders or less on-screen.</li>
+  Fixed DLDI drivers built with THUMB (along with drivers decompressed from LZ77)
+  causing TWLMenu++ to not get past <code class="notranslate">main.srldr</code> (DS(i)
+  and/or TWLMenu++ splash screens).</li>
 
   </ul>'
-updated: '2024-11-02T06:08:34Z'
-version: v27.11.1
-version_title: v27.11.1
+updated: '2024-11-15T22:40:04Z'
+version: v27.12.0
+version_title: v27.12.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---

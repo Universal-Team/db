@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 859332
-    size_str: 839 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.1.0/nds-bootstrap.7z
-  nds-bootstrap.zip:
-    size: 1331462
+    size: 1132229
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.1.0/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.2.0/nds-bootstrap.7z
+  nds-bootstrap.zip:
+    size: 1733536
+    size_str: 1 MiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.2.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -28,8 +28,8 @@ stars: 1192
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.11.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v27.11.0</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.12.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v27.12.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -47,57 +47,35 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li><strong>B4DS mode:</strong> Re-added support for 16KB DLDI drivers, and for
-  the first time ever, 32KB DLDI drivers are now supported!
+  <li>AP-fixes are now included instead of having to rely on an external AP-fix from
+  TWLMenu++!
 
   <ul dir="auto">
 
-  <li>This basically means that old flashcards such as the N-Card will now work with
-  nds-bootstrap! (Thanks to <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/ApacheThunder/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ApacheThunder">@ApacheThunder</a>
-  for testing!)</li>
-
-  <li>libnds32 (by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/lifehackerhansol/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>)
-  is used along with shrinking the game''s heap (starting with SDK 2.1) in order to
-  achieve this. (See "<strong>Known bug</strong>".)</li>
+  <li>User-provided AP-fixes are now read from <code class="notranslate">sd:/_nds/nds-bootstrap/apFix/</code>.</li>
 
   </ul>
 
   </li>
 
-  <li>Some games will now have ROM data pre-loaded after boot instead of before boot,
-  speeding up boot times for such games.</li>
-
-  <li><strong>B4DS mode:</strong> Two ROMs will now have some data pre-loaded into
-  the Memory Expansion Pak before boot (<em>Base 10</em> &amp; <em>Sonic Rush Adventure</em>)
-  in order to reduce screen flickering and slightly improve speed!</li>
-
-  <li><strong>B4DS mode:</strong> In an attempt to reduce crashing in the following
-  DSiWare titles, the DLDI driver has been moved to ITCM to make as much of the console''s
-  4MB of RAM available as possible.
+  <li>32KB DLDI drivers (such as for N-Card) are now useable outside of B4DS mode!
 
   <ul dir="auto">
 
-  <li>AiRace: Tunnel (limited up to 16KB DLDI drivers)</li>
+  <li>DSi-Enhanced/Exclusive/Ware games do not work in DSi mode (yet) (same applies
+  to 16KB drivers). To play some DSiWare games, you''ll need to activate B4DS mode.</li>
 
-  <li>Need for Speed: Nitro-X (limited up to 16KB DLDI drivers)</li>
+  </ul>
 
-  <li>Orion''s Odyssey</li>
+  </li>
 
-  <li>Phantasy Star 0 Mini</li>
+  <li><strong>B4DS mode:</strong> To avoid having to shrink the heap for <em>Sonic
+  Classic Collection</em> (as well as heap shrink causing issues for that game), the
+  DLDI driver has been moved to ITCM.
 
-  <li>Picture Perfect: Pocket Stylist</li>
+  <ul dir="auto">
 
-  <li>Tales to Enjoy!: Little Red Riding Hood</li>
-
-  <li>Tales to Enjoy!: Puss in Boots</li>
-
-  <li>Tales to Enjoy!: The Three Little Pigs</li>
-
-  <li>Tales to Enjoy!: The Ugly Duckling</li>
+  <li>This applies for &lt;= 16KB DLDI drivers.</li>
 
   </ul>
 
@@ -109,39 +87,30 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Added ROM pre-load settings for <em>MegaMan Battle Network 5: Double Team DS</em>
-  (Undub) on DSi consoles to reduce slowdown in the opening intro.</li>
+  <li>Fixed <em>Puppy Palace</em> not booting without resetting the game!</li>
 
-  <li><strong>B4DS mode:</strong> Fixed a long-standing bug (since v0.73.0) which
-  caused SDK5.5 DSiWare titles containing cloneboot (ex. <em>Box Pusher</em>) to not
-  boot.</li>
+  <li>Fixed a bug which caused pre-loading 28MB DSi-Enhanced ROMs (ex. <em>Bejeweled
+  Twist</em>) into RAM on 3DS consoles in DS mode causing a crash.</li>
 
-  <li>Fixed an overlooked bug which caused <em>KORG DS-10+ Synthesizer</em> to not
-  boot in DSi mode on DSi consoles.</li>
+  <li><strong>B4DS mode:</strong> Fixed <em>Koukou Eitango: Kiho 400 Go Master</em>
+  not booting.</li>
 
-  <li><strong>B4DS mode:</strong> Fixed VS mode in <em>Base 10</em> causing a crash.</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
-  Minor improvements.</li>
-
-  </ul>
-
-  <h3 dir="auto">Known bugs</h3>
+  <li><strong>B4DS mode:</strong> Data/instruction cache is now flushed after each
+  card read for <em>Pokemon HGSS</em>.
 
   <ul dir="auto">
 
-  <li>Some games may not boot with 16KB or 32KB DLDI drivers (used by N-Card or a
-  few other old flashcards). If you are playing a DSiWare title on DS or DS Lite,
-  make sure to set <em>Lufia: Curse of the Sinistrals</em> as a donor ROM in order
-  to reduce crashing.</li>
+  <li>Since it''s been tried before (iirc), it may or may not fix the random crashes
+  in those games.</li>
 
-  <li>32KB DLDI drivers are not supported outside of B4DS mode.</li>
+  </ul>
+
+  </li>
 
   </ul>'
-updated: '2024-10-31T06:56:37Z'
-version: v2.1.0
-version_title: 'v2.1.0: Halloween Release'
+updated: '2024-11-15T22:17:11Z'
+version: v2.2.0
+version_title: v2.2.0
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
