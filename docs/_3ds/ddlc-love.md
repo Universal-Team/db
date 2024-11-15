@@ -16,10 +16,6 @@ downloads:
   DDLC-LOVE-3DS.cia:
     size: 83203008
     url: https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.8-1/DDLC-LOVE-43cecfd.cia
-  DDLC-LOVE-Vita-v1.2.2-to-v1.2.3.zip:
-    size: 30976
-    size_str: 30 KiB
-    url: https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.2.3/DDLC-LOVE-Vita-v1.2.2-to-v1.2.3.zip
 github: LukeZGD/DDLC-LOVE
 icon: https://db.universal-team.net/assets/images/icons/ddlc-love.png
 image: https://db.universal-team.net/assets/images/images/ddlc-love.png
@@ -46,7 +42,7 @@ update_notes: '<p dir="auto"><strong>v1.2.3 Release:</strong></p>
   <ul dir="auto">
 
   <li>This release is for the PS Vita, PSP, and LÖVE versions. For other systems,
-  go to <a href="https://github.com/LukeZGD/DDLC-LOVE/releases/tag/v1.1.9">v1.1.9</a></li>
+  <a href="https://github.com/LukeZGD/DDLC-LOVE/releases/tag/v1.1.9">go to v1.1.9</a></li>
 
   </ul>
 
@@ -57,16 +53,6 @@ update_notes: '<p dir="auto"><strong>v1.2.3 Release:</strong></p>
   <li>Update script-ch30.lua</li>
 
   <li>Add back PSP support</li>
-
-  </ul>
-
-  <p dir="auto"><strong>Post-release update:</strong></p>
-
-  <ul dir="auto">
-
-  <li>Added update pack for Vita users that already have v1.2.2 installed. To update
-  from v1.2.2 to v1.2.3, extract the <code class="notranslate">.zip</code> to the
-  root of <code class="notranslate">ux0:</code> and confirm to overwrite files.</li>
 
   </ul>
 
