@@ -44,8 +44,10 @@ update_notes: '<p dir="auto">V10.3: 15-Nov-2024 by wavemotion-dave</p>
   <li>Added support for ''Wave Direct'' sound driver to render digitized speech in
   games such as Sewer Sam, Squish-Em, Wizard of Wor, etc.</li>
 
+  <li>Hotfix to disable vsync on q-bert to improve stage clear visual effects</li>
+
   </ul>'
-updated: '2024-11-15T12:01:48Z'
+updated: '2024-11-16T22:27:38Z'
 version: '10.3'
 version_title: Version 10.3
 ---
