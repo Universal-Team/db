@@ -40,7 +40,7 @@ prerelease:
   version: 4.2.5-317-g51cff7818
   version_title: 4.2.5-317-g51cff7818
 source: https://github.com/angband/angband
-stars: 1319
+stars: 1318
 systems:
 - 3DS
 - DS
