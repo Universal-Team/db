@@ -12,21 +12,21 @@ description: 'GodMode9i Explorer - A full access file browser for the Nintendo D
 download_page: https://github.com/DS-Homebrew/GodMode9i/releases
 downloads:
   GodMode9i.7z:
-    size: 353365
-    size_str: 345 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.6.0/GodMode9i.7z
+    size: 364458
+    size_str: 355 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.7.0/GodMode9i.7z
   GodMode9i.cia:
-    size: 963840
-    size_str: 941 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.6.0/GodMode9i.cia
+    size: 987904
+    size_str: 964 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.7.0/GodMode9i.cia
   GodMode9i.dsi:
-    size: 949248
-    size_str: 927 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.6.0/GodMode9i.dsi
+    size: 973312
+    size_str: 950 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.7.0/GodMode9i.dsi
   GodMode9i.nds:
-    size: 949248
-    size_str: 927 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.6.0/GodMode9i.nds
+    size: 973312
+    size_str: 950 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.7.0/GodMode9i.nds
 github: DS-Homebrew/GodMode9i
 icon: https://db.universal-team.net/assets/images/icons/godmode9i.png
 image: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png
@@ -47,23 +47,30 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/rvtr/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/rvtr">@rvtr</a>:
-  Added support for NAND save "DS Guide" card!</li>
+  <li>Expanded DLDI driver space to 32KB by using libnds32 (by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>)!</li>
 
-  </ul>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ApacheThunder/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ApacheThunder">@ApacheThunder</a>:
+  Added support for mounting the N-Card and original R4 DLDI drivers when launched
+  from DSi/3DS NAND or SD card!</li>
 
-  <h3 dir="auto">Bug fix</h3>
+  <li>Added workaround to make homebrew only supporting up to 16KB DLDI drivers, now
+  working with 32KB DLDI drivers!
 
   <ul dir="auto">
 
-  <li>DSi MBK settings are now read and set from the booted <code class="notranslate">.nds</code>
-  file.</li>
+  <li>Has not been tested with homebrew built with libnds v2.</li>
+
+  </ul>
+
+  </li>
 
   </ul>'
-updated: '2024-09-17T04:11:34Z'
-version: v3.6.0
-version_title: v3.6.0
+updated: '2024-11-15T22:52:50Z'
+version: v3.7.0
+version_title: v3.7.0
 website: https://wiki.ds-homebrew.com/godmode9i/
 wiki: https://wiki.ds-homebrew.com/other/godmode9i
 ---
