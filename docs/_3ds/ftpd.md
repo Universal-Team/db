@@ -10,17 +10,25 @@ description: FTP Server for 3DS/Switch
 download_page: https://github.com/mtheall/ftpd/releases
 downloads:
   ftpd-classic.3dsx:
-    size: 312884
+    size: 312840
     size_str: 305 KiB
-    url: https://github.com/mtheall/ftpd/releases/download/v3.2.0/ftpd-classic.3dsx
+    url: https://github.com/mtheall/ftpd/releases/download/v3.2.1/ftpd-classic.3dsx
+  ftpd-classic.cia:
+    size: 612288
+    size_str: 597 KiB
+    url: https://github.com/mtheall/ftpd/releases/download/v3.2.1/ftpd-classic.cia
   ftpd.3dsx:
-    size: 1408632
+    size: 1408252
     size_str: 1 MiB
-    url: https://github.com/mtheall/ftpd/releases/download/v3.2.0/ftpd.3dsx
+    url: https://github.com/mtheall/ftpd/releases/download/v3.2.1/ftpd.3dsx
+  ftpd.cia:
+    size: 1344448
+    size_str: 1 MiB
+    url: https://github.com/mtheall/ftpd/releases/download/v3.2.1/ftpd.cia
   ftpd.nds:
     size: 431104
     size_str: 421 KiB
-    url: https://github.com/mtheall/ftpd/releases/download/v3.2.0/ftpd.nds
+    url: https://github.com/mtheall/ftpd/releases/download/v3.2.1/ftpd.nds
 github: mtheall/ftpd
 icon: https://raw.githubusercontent.com/mtheall/ftpd/master/meta/icon.png
 image: https://raw.githubusercontent.com/mtheall/ftpd/master/meta/banner.png
@@ -29,6 +37,8 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
+  ftpd-classic.cia: https://db.universal-team.net/assets/images/qr/ftpd-classic-cia.png
+  ftpd.cia: https://db.universal-team.net/assets/images/qr/ftpd-cia.png
   ftpd.nds: https://db.universal-team.net/assets/images/qr/ftpd-nds.png
 screenshots:
 - description: Classic
@@ -49,34 +59,16 @@ unique_ids:
 - '0xBEEF5'
 update_notes: '<ul dir="auto">
 
-  <li>DSi wifi support with update to libnds-2.0.0</li>
+  <li>Center 3DS window selector on top screen</li>
 
-  <li>mDNS support</li>
-
-  <li>glob support</li>
-
-  <li>ImGui stereoscopic effect on 3DS</li>
-
-  <li>Removed CIA build for 3DS
-
-  <ul dir="auto">
-
-  <li>DO NOT ASK ME TO SUPPORT CIA</li>
-
-  </ul>
-
-  </li>
-
-  <li>Build with CMake</li>
-
-  <li>Update to <a href="https://github.com/ocornut/imgui/releases/tag/v1.91.4">Dear
-  ImGui v1.91.4</a></li>
+  <li>Update to <a href="https://github.com/ocornut/imgui/releases/tag/v1.91.5">Dear
+  ImGui v1.91.5</a></li>
 
   <li>General system stability improvements to enhance the user’s experience</li>
 
   </ul>'
-updated: '2024-11-12T01:09:03Z'
-version: v3.2.0
-version_title: ftpd pro v3.2.0
+updated: '2024-11-17T07:29:51Z'
+version: v3.2.1
+version_title: ftpd pro v3.2.1
 wiki: https://github.com/mtheall/ftpd/wiki
 ---
