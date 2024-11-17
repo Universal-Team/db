@@ -1,5 +1,5 @@
 ---
-author: Jonatan Schneevoigt
+author: Jonatan
 avatar: https://avatars.githubusercontent.com/u/66566027?v=4
 categories:
 - game
