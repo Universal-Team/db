@@ -8,7 +8,15 @@ color_bg: '#585758'
 created: '2016-09-11T19:50:26Z'
 description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
-downloads: {}
+downloads:
+  nds-bootstrap.7z:
+    size: 1117653
+    size_str: 1 MiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.2.1/nds-bootstrap.7z
+  nds-bootstrap.zip:
+    size: 1671046
+    size_str: 1 MiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.2.1/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
