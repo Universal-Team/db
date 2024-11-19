@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 42813006
+    size: 42779266
     size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.0/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.1/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 42866764
+    size: 42844642
     size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.0/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.1/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 53953194
+    size: 53927254
     size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.1/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 54184757
+    size: 54149072
     size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.0/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.1/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -38,8 +38,8 @@ stars: 3305
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.2.0">nds-bootstrap
-  v2.2.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.2.1">nds-bootstrap
+  v2.2.1</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -59,52 +59,27 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>The N-Card is now supported by the <code class="notranslate">Slot-1 microSD
-  access</code> feature!</li>
-
-  <li>Added workaround to make homebrew only supporting up to 16KB DLDI drivers, now
-  working with 32KB DLDI drivers!
-
-  <ul dir="auto">
-
-  <li>Has not been tested with homebrew built with libnds v2.</li>
+  <li>The GBC and GBA icons have been replaced to be made consistent with the other
+  console icons in the TWLMenu++ splash screen.</li>
 
   </ul>
 
-  </li>
-
-  <li><strong>DSi theme:</strong> Launching a game will now immediately play the launch
-  animation like in the original DSi Menu!
+  <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>Achieved by running the DSi binaries check and AP-fix check after the banner
-  text appearing or changed.</li>
+  <li><strong>DSi-based themes:</strong> Fixed attempting to check for DSi binaries
+  and/or AP fix on empty selection, which caused a crash and restart.</li>
 
-  </ul>
+  <li>Fixed wrong save size being created for <em>Winx Club: Secret Diary 2009</em>,
+  which caused a save corruption message when attempting to run.</li>
 
-  </li>
-
-  <li>Added build of <em>FastVideoDSPlayer</em> which supports 32KB DLDI drivers.</li>
-
-  <li>Added ESRB rating screens for <em>Honeycomb Beat</em> &amp; <em>Puppy Palace</em>.</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fix</h3>
-
-  <ul dir="auto">
-
-  <li>Me and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
-  Fixed DLDI drivers built with THUMB (along with drivers decompressed from LZ77)
-  causing TWLMenu++ to not get past <code class="notranslate">main.srldr</code> (DS(i)
-  and/or TWLMenu++ splash screens).</li>
+  <li>Fixed the GBC icons sometimes appearing corrupted in the TWLMenu++ splash screen.</li>
 
   </ul>'
-updated: '2024-11-15T22:40:04Z'
-version: v27.12.0
-version_title: v27.12.0
+updated: '2024-11-19T00:50:33Z'
+version: v27.12.1
+version_title: v27.12.1
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---

@@ -25,8 +25,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.2.0">nds-bootstrap
-  v2.2.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.2.1">nds-bootstrap
+  v2.2.1</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -53,15 +53,15 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <h3 dir="auto">What''s new?</h3>
+  <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>Removed extracting an AP-fix from <code class="notranslate">apfix.pck</code>,
-  as nds-bootstrap now reads it instead.</li>
+  <li>Fixed wrong save size being created for <em>Winx Club: Secret Diary 2009</em>,
+  which caused a save corruption message when attempting to run.</li>
 
   </ul>'
-updated: '2024-11-15T22:24:52Z'
-version: SD-18
-version_title: 'GitHub Release #18'
+updated: '2024-11-19T00:58:01Z'
+version: SD-19
+version_title: 'GitHub Release #19'
 ---
