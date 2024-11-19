@@ -74,7 +74,7 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   <li>Fixed wrong save size being created for <em>Winx Club: Secret Diary 2009</em>,
   which caused a save corruption message when attempting to run.</li>
 
-  <li>Fixed the GBC icons sometimes appearing corrupted in the TWLMenu++ splash screen.</li>
+  <li>Fixed the GBC icon sometimes appearing corrupted in the TWLMenu++ splash screen.</li>
 
   </ul>'
 updated: '2024-11-19T00:50:33Z'

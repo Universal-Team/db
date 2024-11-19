@@ -98,8 +98,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   <li>Fixes music not playing in <em>SaGa 3</em>, the <em>Dragon Quest</em> games,
   <em>Style Savvy</em>, and other games which have sdat files pre-loaded.</li>
 
-  <li>Also fixes T-posed characters in <em>Phantasy Star 0</em>, and crashing in <em>Final
-  Fantasy III</em>.</li>
+  <li>Also fixes T-posed characters in <em>Phantasy Star 0</em> on 3DS, and crashing
+  after starting <em>Final Fantasy III</em>.</li>
 
   </ul>
 
