@@ -20,7 +20,7 @@ layout: app
 license: mit
 license_name: MIT License
 source: https://github.com/ihaveamac/faketik
-stars: 92
+stars: 93
 systems:
 - 3DS
 title: faketik
