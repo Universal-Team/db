@@ -14,15 +14,15 @@ downloads:
   LICENSE:
     size: 1067
     size_str: 1 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.6/LICENSE
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.7/LICENSE
   README.md:
-    size: 42745
-    size_str: 41 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.6/README.md
+    size: 43066
+    size_str: 42 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.7/README.md
   StellaDS.nds:
-    size: 1731072
+    size: 1731584
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.6/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.7/StellaDS.nds
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -37,21 +37,17 @@ stars: 33
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V7.6 : 25-Aug-2024 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V7.7 : 24-Nov-2024 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
-  <li>Fixed config setting of RAM randomized vs clear.</li>
+  <li>Improved ''Wave Direct'' sound to help with digitized speech effects of Quadrun,
+  Berzerk VE, Open Sesame, Pitfall II, etc.</li>
 
-  <li>Fixed AR (Starpath/Supercharger) games to prevent memory overwrite.</li>
-
-  <li>Big improvement to Starpath Supercharger (AR) cart rendering for 3-7 frames
-  of improvement.</li>
-
-  <li>Numerous comment cleanups and other minor refactors to improve the codebase.</li>
+  <li>Tweaked handling of the new Champ Games - Tuthankham.</li>
 
   </ul>'
-updated: '2024-08-25T17:06:57Z'
-version: '7.6'
-version_title: Version 7.6
+updated: '2024-11-25T14:01:20Z'
+version: '7.7'
+version_title: Version 7.7
 ---
