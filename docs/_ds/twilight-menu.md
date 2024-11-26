@@ -8,7 +8,23 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads: {}
+downloads:
+  TWiLightMenu-3DS.7z:
+    size: 42778337
+    size_str: 40 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.2/TWiLightMenu-3DS.7z
+  TWiLightMenu-DSi.7z:
+    size: 42841816
+    size_str: 40 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.2/TWiLightMenu-DSi.7z
+  TWiLightMenu-Flashcard.7z:
+    size: 53924282
+    size_str: 51 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.2/TWiLightMenu-Flashcard.7z
+  TWiLightMenu.7z:
+    size: 54151384
+    size_str: 51 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.2/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -43,14 +59,15 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Re-added autoboot support for EZ-Flash Parallel!
+  <li>Now useable once again on the EZ-Flash Parallel with re-added autoboot support!
 
   <ul dir="auto">
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>
   has fixed the bug which caused writes to corrupt the microSD card, by increasing
-  latency between writes. As a result, writes are now a bit slow.</li>
+  latency between writes. As a result, writes are now a bit slow, but nds-bootstrap
+  will now save games properly!</li>
 
   </ul>
 

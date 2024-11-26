@@ -25,8 +25,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.2.1">nds-bootstrap
-  v2.2.1</a></p>
+update_notes: '<p dir="auto"><strong>UPDATE 11/26/2024:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.2.2">nds-bootstrap
+  v2.2.2</a></p>
 
   <p dir="auto">To install or update:</p>
 
