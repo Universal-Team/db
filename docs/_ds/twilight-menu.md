@@ -8,23 +8,7 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads:
-  TWiLightMenu-3DS.7z:
-    size: 42779266
-    size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.1/TWiLightMenu-3DS.7z
-  TWiLightMenu-DSi.7z:
-    size: 42844642
-    size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.1/TWiLightMenu-DSi.7z
-  TWiLightMenu-Flashcard.7z:
-    size: 53927254
-    size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.1/TWiLightMenu-Flashcard.7z
-  TWiLightMenu.7z:
-    size: 54149072
-    size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.1/TWiLightMenu.7z
+downloads: {}
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -34,12 +18,12 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/DS-Homebrew/TWiLightMenu
-stars: 3309
+stars: 3310
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.2.1">nds-bootstrap
-  v2.2.1</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.2.2">nds-bootstrap
+  v2.2.2</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -59,27 +43,35 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>The GBC and GBA icons have been replaced to be made consistent with the other
-  console icons in the TWLMenu++ splash screen.</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
+  <li>Re-added autoboot support for EZ-Flash Parallel!
 
   <ul dir="auto">
 
-  <li><strong>DSi-based themes:</strong> Fixed attempting to check for DSi binaries
-  and/or AP fix on empty selection, which caused a crash and restart.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>
+  has fixed the bug which caused writes to corrupt the microSD card, by increasing
+  latency between writes. As a result, writes are now a bit slow.</li>
 
-  <li>Fixed wrong save size being created for <em>Winx Club: Secret Diary 2009</em>,
-  which caused a save corruption message when attempting to run.</li>
+  </ul>
 
-  <li>Fixed the GBC icon sometimes appearing corrupted in the TWLMenu++ splash screen.</li>
+  </li>
+
+  </ul>
+
+  <h3 dir="auto">Bug fix</h3>
+
+  <ul dir="auto">
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/edo9300/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>:
+  Fixed an overlooked bug which caused the bottom selection to appear grayed out in
+  the DS Classic Menu when running from Slot-2 flashcards (depending on what is inserted
+  and/or which FW is flashed).</li>
 
   </ul>'
-updated: '2024-11-19T00:50:33Z'
-version: v27.12.1
-version_title: v27.12.1
+updated: '2024-11-26T08:17:07Z'
+version: v27.12.2
+version_title: v27.12.2
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
