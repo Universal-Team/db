@@ -46,6 +46,9 @@ update_notes: '<p dir="auto">V7.7 : 24-Nov-2024 by Dave Bernazzani (wavemotion)<
 
   <li>Tweaked handling of the new Champ Games - Tuthankham.</li>
 
+  <li>Version 7.7a - hotfix to support DrVsDalek hack with voice support and improved
+  voice timing to eliminate gaps.</li>
+
   </ul>'
 updated: '2024-11-25T14:01:20Z'
 version: '7.7'
