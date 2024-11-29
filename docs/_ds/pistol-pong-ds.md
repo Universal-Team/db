@@ -28,7 +28,7 @@ screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/pistol-pong-ds/main-menu.png
 source: https://github.com/Jonatan6/Pistol-Pong-DS
-stars: 11
+stars: 10
 systems:
 - DS
 title: Pistol Pong DS
