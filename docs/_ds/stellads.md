@@ -16,7 +16,7 @@ downloads:
     size_str: 1 KiB
     url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.8/LICENSE
   README.md:
-    size: 43812
+    size: 43929
     size_str: 42 KiB
     url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.8/README.md
   StellaDS.nds:
@@ -53,15 +53,18 @@ update_notes: '<p dir="auto">V7.8 : 30-Nov-2024 by Dave Bernazzani (wavemotion)<
   <li>Improved Meltdown emulation - added hack for NUSIZ0/1 to improve screen rendering.
   Not perfect but closer...</li>
 
-  <li>Fixed Pole Position lap counter so it shows correctly.</li>
+  <li>Fixed Pole Position lap counter so it shows correctly and other minor graphical
+  fixes (HMOVE timing)</li>
 
-  <li>Fixed Grand Prix graphical glitch on rocks/scenery (Player Reset timing).</li>
+  <li>Fixed Grand Prix graphical glitch on rocks/scenery (HMOVE timing).</li>
+
+  <li>Fixed Moon Patrol graphical glitch on right side of screen (HMOVE timing)</li>
 
   <li>Apply RSYNC improved TIA handling across the board (was only being applied to
   select games).</li>
 
   </ul>'
-updated: '2024-11-30T11:22:01Z'
+updated: '2024-11-30T12:51:13Z'
 version: '7.8'
 version_title: Version 7.8
 ---
