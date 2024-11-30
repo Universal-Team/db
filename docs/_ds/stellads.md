@@ -14,15 +14,15 @@ downloads:
   LICENSE:
     size: 1067
     size_str: 1 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.7/LICENSE
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.8/LICENSE
   README.md:
-    size: 43066
+    size: 43812
     size_str: 42 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.7/README.md
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.8/README.md
   StellaDS.nds:
-    size: 1731584
+    size: 1733120
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.7/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/7.8/StellaDS.nds
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -37,20 +37,31 @@ stars: 34
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">V7.7 : 24-Nov-2024 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">V7.8 : 30-Nov-2024 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
-  <li>Improved ''Wave Direct'' sound to help with digitized speech effects of Quadrun,
-  Berzerk VE, Open Sesame, Pitfall II, etc.</li>
+  <li>Further tweaks to the improved ''Wave Direct'' to prevent audio gaps.</li>
 
-  <li>Tweaked handling of the new Champ Games - Tuthankham.</li>
+  <li>First pass at allowing ''Wave Direct'' for DS-Phat/Lite (only for simple games
+  like Quadrun, Berzerk VE and Open Sesame).</li>
 
-  <li>Version 7.7a - hotfix to support DrVsDalek hack with voice support and improved
-  voice timing to eliminate gaps.</li>
+  <li>Tweaks to the DPC audio driver for improved Pitfall II music.</li>
+
+  <li>Added support for some of the Voice Enhanced Berzerk hacks such as DrVsDaleks.</li>
+
+  <li>Improved Meltdown emulation - added hack for NUSIZ0/1 to improve screen rendering.
+  Not perfect but closer...</li>
+
+  <li>Fixed Pole Position lap counter so it shows correctly.</li>
+
+  <li>Fixed Grand Prix graphical glitch on rocks/scenery (Player Reset timing).</li>
+
+  <li>Apply RSYNC improved TIA handling across the board (was only being applied to
+  select games).</li>
 
   </ul>'
-updated: '2024-11-25T14:01:20Z'
-version: '7.7'
-version_title: Version 7.7
+updated: '2024-11-30T11:22:01Z'
+version: '7.8'
+version_title: Version 7.8
 ---
