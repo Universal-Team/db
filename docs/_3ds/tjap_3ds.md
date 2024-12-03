@@ -22,6 +22,39 @@ icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
+prerelease:
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.4.4
+  downloads:
+    TJAP_3DS.3dsx:
+      size: 710968
+      size_str: 694 KiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.4/TJAP_3DS.3dsx
+    TJAP_3DS.cia:
+      size: 1024960
+      size_str: 1000 KiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.4/TJAP_3DS.cia
+  qr:
+    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
+  update_notes: '<h2 dir="auto">チェンジログ</h2>
+
+    <ul dir="auto">
+
+    <li>双打譜面の試験的対応</li>
+
+    </ul>
+
+    <h2 dir="auto">Change log</h2>
+
+    <ul dir="auto">
+
+    <li>Experimental response to the double sheet music</li>
+
+    </ul>'
+  update_notes_md: "## チェンジログ\n - 双打譜面の試験的対応\n\n## Change log\n- Experimental response\
+    \ to the double sheet music"
+  updated: '2024-12-03T07:01:29Z'
+  version: v1.4.4
+  version_title: TJAPlayer for 3DS v1.4.4
 qr:
   TJAP_3DS-1.4.3C.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-1-4-3c-cia.png
 source: https://github.com/LuMariGames/TJAP_3DS
