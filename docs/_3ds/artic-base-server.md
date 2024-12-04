@@ -26,7 +26,7 @@ layout: app
 qr:
   ArticBase.cia: https://db.universal-team.net/assets/images/qr/articbase-cia.png
 source: https://github.com/PabloMK7/ArticBaseServer
-stars: 405
+stars: 406
 systems:
 - 3DS
 title: Artic Base Server
