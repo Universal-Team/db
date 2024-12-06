@@ -37,14 +37,14 @@ update_notes: <p data-sourcepos="1:1-1:36" dir="auto">Beta StreetPass-Relay (SPR
   <a data-sourcepos="4:8-4:44" href="https://pretendo.network/" rel="nofollow noreferrer
   noopener" target="_blank">Pretendo</a>&#x000A;</li>&#x000A;<li data-sourcepos="5:1-5:76">In
   luma, enable both "game patching" and "loading external firms/modules"</li>&#x000A;<li
-  data-sourcepos="6:1-6:113">In NetPass settings, click on "Copy patches". If you
+  data-sourcepos="6:1-6:114">In NetPass settings, click on "Write patches". If you
   run luma from nand, copy over the created patches to nand</li>&#x000A;<li data-sourcepos="7:1-8:0">In
   NetPass settings, click on "Clear spr cache". This <em data-sourcepos="7:58-7:63">will</em>
   reboot your console</li>&#x000A;</ol>&#x000A;<p data-sourcepos="9:1-9:30" dir="auto">To
   deactivate SPR, you need to</p>&#x000A;<ol data-sourcepos="10:1-11:50" dir="auto">&#x000A;<li
   data-sourcepos="10:1-10:33">Delete the created patch files</li>&#x000A;<li data-sourcepos="11:1-11:50">In
   NetPass settings, click on "Clear spr cache"</li>&#x000A;</ol>
-updated: '2024-12-06T20:12:50.949Z'
+updated: '2024-12-06T20:12:50.000Z'
 version: v0.6.0
 version_title: v0.6.0
 ---
