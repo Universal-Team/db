@@ -9,54 +9,21 @@ created: '2024-07-27T07:58:35Z'
 description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
-  TJAP_3DS-1.4.3C.3dsx:
-    size: 701604
-    size_str: 685 KiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.3%28C%29/TJAP_3DS-1.4.3C.3dsx
-  TJAP_3DS-1.4.3C.cia:
+  TJAP_3DS.3dsx:
+    size: 707100
+    size_str: 690 KiB
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.4/TJAP_3DS.3dsx
+  TJAP_3DS.cia:
     size: 1020864
     size_str: 996 KiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.3%28C%29/TJAP_3DS-1.4.3C.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.4/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
-prerelease:
-  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.4.4
-  downloads:
-    TJAP_3DS.3dsx:
-      size: 707268
-      size_str: 690 KiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.4/TJAP_3DS.3dsx
-    TJAP_3DS.cia:
-      size: 1020864
-      size_str: 996 KiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.4/TJAP_3DS.cia
-  qr:
-    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
-  update_notes: '<h2 dir="auto">チェンジログ</h2>
-
-    <ul dir="auto">
-
-    <li>双打譜面の試験的対応</li>
-
-    </ul>
-
-    <h2 dir="auto">Change log</h2>
-
-    <ul dir="auto">
-
-    <li>Experimental response to the double sheet music</li>
-
-    </ul>'
-  update_notes_md: "## チェンジログ\n - 双打譜面の試験的対応\n\n## Change log\n- Experimental response\
-    \ to the double sheet music"
-  updated: '2024-12-03T07:01:29Z'
-  version: v1.4.4
-  version_title: TJAPlayer for 3DS v1.4.4
 qr:
-  TJAP_3DS-1.4.3C.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-1-4-3c-cia.png
+  TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 source: https://github.com/LuMariGames/TJAP_3DS
 stars: 2
 systems:
@@ -68,24 +35,28 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>風船音符の位置がおかしくなるのを修正</li>
+  <li>双打譜面の試験的対応</li>
 
-  <li>その他軽度な不具合の修正</li>
+  <li>一部動作の軽量化</li>
+
+  <li>曲自体の速さを変えれるようにしました。</li>
 
   </ul>
 
-  <h2 dir="auto">Changelog</h2>
+  <h2 dir="auto">Change log</h2>
 
   <ul dir="auto">
 
-  <li>Fixed balloon note positioning issue</li>
+  <li>Experimental response to the double sheet music</li>
 
-  <li>Fixed other minor bugs</li>
+  <li>Streamlining some operations</li>
+
+  <li>BPM can now be determined by multiplier</li>
 
   </ul>'
-updated: '2024-11-27T22:55:03Z'
-version: v1.4.3(C)
-version_title: TJAPlayer for 3DS v1.4.3(C)
+updated: '2024-12-03T07:01:29Z'
+version: v1.4.4
+version_title: TJAPlayer for 3DS v1.4.4
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
