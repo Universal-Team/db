@@ -9,10 +9,10 @@ created: '2014-12-09T21:37:23Z'
 description: mGBA Game Boy Advance Emulator
 download_page: https://github.com/mgba-emu/mgba/releases
 downloads:
-  mGBA-0.10.3-3ds.7z:
-    size: 1202584
+  mGBA-0.10.4-3ds.7z:
+    size: 1211751
     size_str: 1 MiB
-    url: https://github.com/mgba-emu/mgba/releases/download/0.10.3/mGBA-0.10.3-3ds.7z
+    url: https://github.com/mgba-emu/mgba/releases/download/0.10.4/mGBA-0.10.4-3ds.7z
 eval_notes_md: true
 github: mgba-emu/mgba
 icon: https://raw.githubusercontent.com/mgba-emu/mgba/master/res/mgba-48.png
@@ -38,7 +38,7 @@ screenshots:
 - description: Scale stretch
   url: https://db.universal-team.net/assets/images/screenshots/mgba/scale-stretch.png
 source: https://github.com/mgba-emu/mgba
-stars: 5762
+stars: 5764
 systems:
 - 3DS
 title: mGBA
@@ -48,34 +48,19 @@ update_notes: '<h3 dir="auto">Emulation fixes:</h3>
 
   <ul dir="auto">
 
-  <li>ARM: Remove obsolete force-alignment in <code class="notranslate">bx pc</code>
-  (fixes mgba.io/i/2964)</li>
+  <li>GB Audio: Fix audio envelope timing resetting too often (fixes mgba.io/i/3164)</li>
 
-  <li>ARM: Fake bpkt instruction should take no cycles (fixes mgba.io/i/2551)</li>
+  <li>GB I/O: Fix STAT writing IRQ trigger conditions (fixes mgba.io/i/2501)</li>
 
-  <li>GB Audio: Fix channels 1/2 staying muted if restarted after long silence</li>
+  <li>GBA GPIO: Fix gyro read-out start (fixes mgba.io/i/3141)</li>
 
-  <li>GB Audio: Fix channel 1 restarting if sweep applies after stop (fixes mgba.io/i/2965)</li>
+  <li>GBA I/O: Fix HALTCNT access behavior (fixes mgba.io/i/2309)</li>
 
-  <li>GB Audio: Fix restarting envelope when writing to register (fixes mgba.io/i/3067)</li>
+  <li>GBA I/O: Fix audio register 8-bit write behavior (fixes mgba.io/i/3086)</li>
 
-  <li>GB Audio: Improve "zombie mode" emulation in CGB mode (fixes mgba.io/i/2029)</li>
+  <li>GBA Serialize: Properly restore GPIO register state (fixes mgba.io/i/3294)</li>
 
-  <li>GB I/O: Read back proper SVBK value after writing 0 (fixes mgba.io/i/2921)</li>
-
-  <li>GB SIO: Disabling SIO should cancel pending transfers (fixes mgba.io/i/2537)</li>
-
-  <li>GBA Audio: Fix sample timing drifting when changing sample interval</li>
-
-  <li>GBA Audio: Fix initial channel 3 wave RAM (fixes mgba.io/i/2947)</li>
-
-  <li>GBA Audio: Fix sample position issues when rate changes (fixes mgba.io/i/3006)</li>
-
-  <li>GBA GPIO: Fix tilt scale and orientation (fixes mgba.io/i/2703)</li>
-
-  <li>GBA BIOS: Fix clobbering registers with word-sized CpuSet</li>
-
-  <li>GBA SIO: Fix normal mode SI/SO semantics (fixes mgba.io/i/2925)</li>
+  <li>GBA SIO: Fix MULTI mode SIOCNT bit 7 writes on secondary GBAs (fixes mgba.io/i/3110)</li>
 
   </ul>
 
@@ -83,19 +68,35 @@ update_notes: '<h3 dir="auto">Emulation fixes:</h3>
 
   <ul dir="auto">
 
-  <li>GB: Fix applying a patch that changes the cartridge mapper (fixes mgba.io/i/3077)</li>
+  <li>Core: Fix patch autoloading leaking the file handle</li>
 
-  <li>GBA Savedata: Fix crash when resizing flash save games for RTC data</li>
+  <li>GB: Fix uninitialized save data when loading undersized temporary saves</li>
 
-  <li>mGUI: Fix cases where an older save state screenshot would be shown (fixes mgba.io/i/2183)</li>
+  <li>GB, GBA Core: Fix memory leak if reloading debug symbols</li>
 
-  <li>Qt: Re-enable sync for multiplayer windows that aren''t connected (fixes mgba.io/i/2974)</li>
+  <li>GB Serialize: Prevent loading invalid states where LY &gt;= 144 in modes other
+  than 1</li>
 
-  <li>Qt: Fix mute settings not being loaded on setting screen (fixes mgba.io/i/2990)</li>
+  <li>GBA Audio: Fix crash if audio FIFOs and timers get out of sync</li>
 
-  <li>Qt: Fix screen freezing on macOS after closing save state window (fixes mgba.io/i/2885)</li>
+  <li>GBA Audio: Fix crash in audio subsampling if timing lockstep breaks</li>
 
-  <li>Vita: Fix camera setting not appearing (fixes mgba.io/i/3012)</li>
+  <li>GBA Core: Fix loading symbols from ELF files if the file doesn''t end with .elf</li>
+
+  <li>GBA Memory: Let raw access read high MMIO addresses</li>
+
+  <li>Qt: Fix crash when applying changes to GB I/O registers in I/O view</li>
+
+  <li>Qt: Fix LCDC background priority/enable bit being mis-mapped in I/O view</li>
+
+  <li>Qt: Fix saving named states breaking when screenshot states disabled (fixes
+  mgba.io/i/3320)</li>
+
+  <li>Qt: Fix potential crash on Wayland with OpenGL (fixes mgba.io/i/3276)</li>
+
+  <li>Qt: Fix installer updates if a version number is in the filename (fixes mgba.io/i/3109)</li>
+
+  <li>Updater: Fix updating appimage across filesystems</li>
 
   </ul>
 
@@ -103,15 +104,15 @@ update_notes: '<h3 dir="auto">Emulation fixes:</h3>
 
   <ul dir="auto">
 
-  <li>mGUI: Persist fast forwarding after closing menu (fixes mgba.io/i/2414)</li>
+  <li>Qt: Make window corners square on Windows 11 (fixes mgba.io/i/3285)</li>
 
-  <li>Qt: Add exporting of SAV + RTC saves from Save Converter to strip RTC data</li>
+  <li>Switch: Add bilinear filtering option (closes mgba.io/i/3111)</li>
 
-  <li>VFS: Use anonymousMemoryMap for large 7z allocations (fixes mgba.io/i/3013)</li>
+  <li>Vita: Add imc0 and xmc0 mount point support</li>
 
   </ul>'
-updated: '2024-01-08T04:01:37Z'
-version: 0.10.3
+updated: '2024-12-08T05:18:53Z'
+version: 0.10.4
 website: https://mgba.io/
 wiki: https://github.com/mgba-emu/mgba/wiki
 ---
