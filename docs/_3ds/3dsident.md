@@ -10,13 +10,13 @@ description: PSPident clone for 3DS
 download_page: https://github.com/joel16/3DSident/releases
 downloads:
   3DSident.3dsx:
-    size: 260416
+    size: 260936
     size_str: 254 KiB
-    url: https://github.com/joel16/3DSident/releases/download/0.9.1/3DSident.3dsx
+    url: https://github.com/joel16/3DSident/releases/download/0.9.2/3DSident.3dsx
   3DSident.cia:
     size: 603072
     size_str: 588 KiB
-    url: https://github.com/joel16/3DSident/releases/download/0.9.1/3DSident.cia
+    url: https://github.com/joel16/3DSident/releases/download/0.9.2/3DSident.cia
 github: joel16/3DSident
 icon: https://raw.githubusercontent.com/joel16/3DSident/master/console/res/icon.png
 image: https://raw.githubusercontent.com/joel16/3DSident/master/console/res/banner.png
@@ -47,16 +47,13 @@ update_notes: '<p dir="auto">3DSident has been re-written in C++ which makes use
 
   <ul dir="auto">
 
-  <li>Fixed app metadata and reintroduced .cia builds.</li>
+  <li>Fixed a discrepancy with check digits when a serial number contains more than
+  two letters.</li>
 
-  <li>Button tester can now check for home button inputs.</li>
-
-  <li>Fixed NAND local friend code seed in the system category.</li>
-
-  <li>Display PMIC and battery vendor code under the battery category.</li>
+  <li>Display manufacturing date under the miscellaneous category.</li>
 
   </ul>'
-updated: '2024-11-22T11:45:13Z'
-version: 0.9.1
-version_title: 3DSident v0.9.1
+updated: '2024-12-08T16:49:40Z'
+version: 0.9.2
+version_title: 3DSident v0.9.2
 ---
