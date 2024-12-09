@@ -29,6 +29,7 @@ body:
       options:
         - Game
         - Emulator
+        - App
         - Utility
         - Save Tool
         - FIRM

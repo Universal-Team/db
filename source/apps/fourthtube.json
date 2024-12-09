@@ -1,0 +1,14 @@
+{
+	"github": "erievs/FourthTube",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"unique_ids": [
+		784205
+	],
+	"icon": "https://raw.githubusercontent.com/erievs/FourthTube/main/resource/icon.png",
+	"image": "https://raw.githubusercontent.com/erievs/FourthTube/main/resource/banner.png"
+}
