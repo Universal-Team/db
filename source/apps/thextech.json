@@ -1,0 +1,57 @@
+{
+	"github": "TheXTech/TheXTech",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"image": "https://raw.githubusercontent.com/TheXTech/TheXTech/main/resources/wiiu/wuhb-splash.png",
+	"icon": "https://raw.githubusercontent.com/TheXTech/TheXTech/main/resources/icon/thextech_48.png",
+	"long_description": "This is a direct continuation of the SMBX 1.3 engine. Originally it was written in VB6 for Windows, and later, it got ported/rewritten into C++ and became a cross-platform engine. It completely reproduces the old SMBX 1.3 engine (aside from its Editor), includes many of its logical bugs (critical bugs that lead the game to crash or freeze got fixed), and also adds a lot of new updates and features.",
+	"archive": {
+		"thextech-3ds-.*\\.zip": {
+			"thextech.3dsx": [
+				"thextech-3ds/thextech.3dsx"
+			]
+		}
+	},
+	"download_filter": "3ds",
+	"autogen_scripts": true,
+	"scripts": {
+		"[assets] Adventures of Demo": [
+			{
+				"type": "downloadFile",
+				"file": "https://builds.wohlsoft.ru/3ds/assets-aod-3ds.zip",
+				"output": "/assets-aod-3ds.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/assets-aod-3ds.zip",
+				"input": "assets-aod-3ds.zip.romfs",
+				"output": "/3ds/thextech/assets.romfs"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/assets-aod-3ds.zip"
+			}
+		],
+		"[assets] Super Mario Bros. X": [
+			{
+				"type": "downloadFile",
+				"file": "https://builds.wohlsoft.ru/3ds/assets-smbx13-3ds.zip",
+				"output": "/assets-smbx13-3ds.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/assets-smbx13-3ds.zip",
+				"input": "assets-smbx13-3ds.zip.romfs",
+				"output": "/3ds/thextech/assets.romfs"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/assets-smbx13-3ds.zip"
+			}
+		]
+	}
+}
