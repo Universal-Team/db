@@ -2,7 +2,7 @@
 author: ingolemo
 avatar: https://avatars.githubusercontent.com/u/616859?v=4
 categories:
-- utility
+- app
 color: '#e5b8b8'
 color_bg: '#806666'
 created: '2016-04-29T11:51:59Z'

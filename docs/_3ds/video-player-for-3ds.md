@@ -2,7 +2,7 @@
 author: Core 2 Extreme, dixy52-beep (icon, banner, in app texture)
 avatar: https://avatars.githubusercontent.com/u/45873899?v=4
 categories:
-- utility
+- app
 color: '#4ca5f1'
 color_bg: '#285780'
 created: '2021-04-02T02:28:20Z'

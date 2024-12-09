@@ -2,7 +2,7 @@
 author: Sparkette
 avatar: https://avatars.githubusercontent.com/u/687313?v=4
 categories:
-- utility
+- app
 color: '#becdda'
 color_bg: '#6f7880'
 created: '2015-10-04T00:18:09Z'

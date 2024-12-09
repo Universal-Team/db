@@ -2,7 +2,7 @@
 author: Carson Kompon
 avatar: https://avatars.githubusercontent.com/u/5159369?v=4
 categories:
-- utility
+- app
 color: '#97c0b5'
 color_bg: '#648078'
 created: '2023-03-15T02:46:52Z'

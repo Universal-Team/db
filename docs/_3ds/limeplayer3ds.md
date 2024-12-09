@@ -2,7 +2,7 @@
 author: oreo639
 avatar: https://avatars.githubusercontent.com/u/31916379?v=4
 categories:
-- utility
+- app
 color: '#4d5351'
 color_bg: '#4d5351'
 created: '2018-12-17T04:06:39Z'

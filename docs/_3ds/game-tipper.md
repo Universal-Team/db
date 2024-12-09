@@ -2,7 +2,7 @@
 author: xXHighTideXx
 avatar: https://avatars.githubusercontent.com/u/84487860?v=4
 categories:
-- utility
+- app
 color: '#0094f5'
 color_bg: '#004d80'
 created: '2024-06-26T18:23:49Z'

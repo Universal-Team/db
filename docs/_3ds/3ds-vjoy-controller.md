@@ -2,7 +2,7 @@
 author: memeToasty, StringJan
 avatar: https://avatars.githubusercontent.com/u/76664723?v=4
 categories:
-- utility
+- app
 color: '#41393a'
 color_bg: '#41393a'
 created: '2024-03-18T17:04:11Z'

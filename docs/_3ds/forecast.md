@@ -2,7 +2,7 @@
 author: Nat Osaka
 avatar: https://avatars.githubusercontent.com/u/16436651?v=4
 categories:
-- utility
+- app
 color: '#a2a3a4'
 color_bg: '#7e7f80'
 created: '2017-07-18T12:56:44Z'

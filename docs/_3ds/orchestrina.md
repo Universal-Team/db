@@ -3,7 +3,7 @@ author: GlimmerDev
 autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/13992834?v=4
 categories:
-- utility
+- game
 color: '#b7b7cf'
 color_bg: '#717180'
 created: '2016-07-09T04:21:45Z'

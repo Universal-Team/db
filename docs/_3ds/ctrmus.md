@@ -2,7 +2,7 @@
 author: Mahyar Koshkouei
 avatar: https://avatars.githubusercontent.com/u/3747104?v=4
 categories:
-- utility
+- app
 color: '#f7f6f7'
 color_bg: '#807f80'
 created: '2016-10-23T18:40:55Z'

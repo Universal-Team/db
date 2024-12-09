@@ -2,7 +2,7 @@
 author: Core 2 Extreme
 avatar: https://avatars.githubusercontent.com/u/45873899?v=4
 categories:
-- utility
+- app
 color: '#86de86'
 color_bg: '#4d804d'
 created: '2019-05-30T14:38:37Z'

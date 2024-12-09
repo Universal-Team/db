@@ -2,7 +2,7 @@
 author: semaj14
 avatar: https://avatars.githubusercontent.com/u/81500902?v=4
 categories:
-- utility
+- app
 color: '#e3d5a2'
 color_bg: '#80785b'
 created: '2021-08-02T18:20:47Z'

@@ -3,6 +3,8 @@ author: JS Deck
 avatar: https://avatars.githubusercontent.com/u/1617680?v=4
 categories:
 - utility
+color: '#dddbed'
+color_bg: '#777680'
 created: '2022-02-23T00:48:16Z'
 description: An upgraded version of NTR with better streaming capabilities.
 download_page: https://github.com/xzn/ntr-hr/releases
@@ -16,8 +18,8 @@ downloads:
     size_str: 148 KiB
     url: https://github.com/xzn/ntr-hr/releases/download/v3.6-modded-20240619/NTR-HR.zip
 github: xzn/ntr-hr
-icon: https://raw.githubusercontent.com/xzn/ntr-hr/master/resources/icon.png
-image: https://raw.githubusercontent.com/xzn/ntr-hr/master/resources/icon.png
+image: https://avatars.githubusercontent.com/u/1617680?v=4&size=128
+image_length: 1529
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0

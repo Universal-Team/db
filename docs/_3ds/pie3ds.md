@@ -2,7 +2,7 @@
 author: amedeo463
 avatar: https://avatars.githubusercontent.com/u/87472837?v=4
 categories:
-- utility
+- app
 color: '#1b6d71'
 color_bg: '#1b6d71'
 created: '2024-05-04T18:59:21Z'
