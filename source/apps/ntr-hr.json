@@ -1,0 +1,15 @@
+{
+	"github": "xzn/ntr-hr",
+	"title": "NTR-HR",
+	"description": "An upgraded version of NTR with better streaming capabilities.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		962560
+	],
+	"icon": "https://raw.githubusercontent.com/xzn/ntr-hr/master/resources/icon.png"
+}
