@@ -13,11 +13,16 @@
         "key": "3"
       },
       {
+        "title": "Apps",
+        "page_title": "3DS - Applications",
+        "url": "/3ds/category/app",
+        "i18n": "cat-app"
+      },
+      {
         "title": "Emulators",
         "page_title": "3DS - Emulators & Hypervisors",
         "url": "/3ds/category/emulator",
         "i18n": "cat-emulator"
-        
       },
       {
         "title": "FIRMs",
