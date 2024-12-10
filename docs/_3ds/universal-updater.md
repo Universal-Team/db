@@ -99,7 +99,11 @@ update_notes: '<h3 dir="auto">Improvements</h3>
 
   <p dir="auto">We hope you enjoy the new update!<br>
 
-  ~ Universal-Team</p>'
+  ~ Universal-Team</p>
+
+  <hr>
+
+  <p dir="auto"></p>'
 updated: '2024-12-10T17:49:46Z'
 version: v3.2.8
 version_title: Translation updates
