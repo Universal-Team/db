@@ -10,13 +10,13 @@ description: An easy to use app for installing and updating 3DS homebrew
 download_page: https://github.com/Universal-Team/Universal-Updater/releases
 downloads:
   Universal-Updater.3dsx:
-    size: 2756728
+    size: 2765284
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.7/Universal-Updater.3dsx
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.8/Universal-Updater.3dsx
   Universal-Updater.cia:
-    size: 2286528
+    size: 2298816
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.7/Universal-Updater.cia
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.8/Universal-Updater.cia
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/resources/2d-banner.png
@@ -73,26 +73,25 @@ screenshots:
 - description: Store selection
   url: https://db.universal-team.net/assets/images/screenshots/universal-updater/store-selection.png
 source: https://github.com/Universal-Team/Universal-Updater
-stars: 908
+stars: 909
 systems:
 - 3DS
 title: Universal-Updater
 unique_ids:
 - '0x43917'
 unistore_exclude: true
-update_notes: '<h3 dir="auto">Bug fixes</h3>
+update_notes: '<h3 dir="auto">Improvements</h3>
 
   <ul dir="auto">
 
-  <li>Fixed crash when installing a CIA without a title database being generated beforehand.</li>
+  <li>Updated translations</li>
 
   </ul>
 
   <h3 dir="auto">Other notes</h3>
 
-  <p dir="auto">It''s been 2 years. Not much needed changing in the code since, but
-  the one bug fix was important enough to make another release, while also integrating
-  upstream toolchain changes.</p>
+  <p dir="auto">That''s it. We had over two years of translations, and it''s time
+  to show the efforts of the translators to everyone :)</p>
 
   <p dir="auto">Find any bugs we missed, have suggestions, or need help? You can either
   make an issue or discussion here on GitHub or join our <a href="https://universal-team.net/discord"
@@ -101,9 +100,9 @@ update_notes: '<h3 dir="auto">Bug fixes</h3>
   <p dir="auto">We hope you enjoy the new update!<br>
 
   ~ Universal-Team</p>'
-updated: '2024-11-12T11:55:06Z'
-version: v3.2.7
-version_title: What if we started with 3dsx?
+updated: '2024-12-10T17:49:46Z'
+version: v3.2.8
+version_title: Translation updates
 website: https://universal-team.net/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
