@@ -22,7 +22,7 @@ license_name: GNU General Public License v3.0
 qr:
   OFF.cia: https://db.universal-team.net/assets/images/qr/off-cia.png
 source: https://github.com/fauxfennec/OFF3DS
-stars: 4
+stars: 5
 systems:
 - 3DS
 title: 'OFF'
