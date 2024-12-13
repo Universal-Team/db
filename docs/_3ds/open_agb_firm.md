@@ -51,6 +51,11 @@ update_notes: '<h2 dir="auto">What''s Changed</h2>
 
   </p>
 
+  <p dir="auto">This release uses an old config format so please refer to this version
+  of the README for instruction on how to configure it.<br>
+
+  <a href="https://github.com/profi200/open_agb_firm/blob/877f7c61d078e6d2fa76aabdbf2ba229f9bb5928/README.md">https://github.com/profi200/open_agb_firm/blob/877f7c61d078e6d2fa76aabdbf2ba229f9bb5928/README.md</a></p>
+
   <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/profi200/open_agb_firm/compare/beta_2024-07-25...beta_2024-07-30"><tt>beta_2024-07-25...beta_2024-07-30</tt></a></p>'
 updated: '2024-07-30T14:51:11Z'
 version: beta_2024-07-30
