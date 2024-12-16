@@ -22,7 +22,7 @@ image: https://avatars.githubusercontent.com/u/38678735?v=4&size=128
 image_length: 3828
 layout: app
 source: https://github.com/rverseTeam/rverse2
-stars: 37
+stars: 36
 systems:
 - 3DS
 title: rverse
