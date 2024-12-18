@@ -10,13 +10,13 @@ description: A Virtual Boy emulator for the 3DS
 download_page: https://github.com/skyfloogle/red-viper/releases
 downloads:
   red-viper.3dsx:
-    size: 520180
-    size_str: 507 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v0.9.6/red-viper.3dsx
+    size: 544064
+    size_str: 531 KiB
+    url: https://github.com/skyfloogle/red-viper/releases/download/v0.9.7/red-viper.3dsx
   red-viper.cia:
-    size: 581568
-    size_str: 567 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v0.9.6/red-viper.cia
+    size: 599488
+    size_str: 585 KiB
+    url: https://github.com/skyfloogle/red-viper/releases/download/v0.9.7/red-viper.cia
 github: skyfloogle/red-viper
 icon: https://raw.githubusercontent.com/skyfloogle/red-viper/master/icon.png
 image: https://raw.githubusercontent.com/skyfloogle/red-viper/master/resources/banner.png
@@ -40,23 +40,55 @@ systems:
 title: red-viper
 unique_ids:
 - '0xFE7CB'
-update_notes: '<p dir="auto">This patch adds an antiflicker mode and an input display.</p>
+update_notes: '<p dir="auto">This patch introduces anaglyph mode, render time emulation,
+  and numerous bugfixes.<br>
+
+  Render time emulation means that some in-game sequences run at the same speed they
+  did on a real Virtual Boy, which no previous emulator has emulated accurately. This
+  includes the Jack Bros. level transitions being as choppy as they originally were,
+  so a toggle has been added to revert to the old behaviour. For more information,
+  check out <a href="https://skyfloogle.github.io/vip-timing" rel="nofollow">my write-up</a>.</p>
 
   <ul dir="auto">
 
-  <li>Added antiflicker option to mitigate image retention issues, particularly on
-  IPS models</li>
+  <li>Added anaglyph mode, with configurable colours for each eye
 
-  <li>Added an input display (buttons light up in red if turbo is enabled and blue
-  if toggle is enabled)</li>
+  <ul dir="auto">
 
-  <li>Fixed a critical bug where the emulator crashes when starting a game if the
-  home directory doesn''t exist</li>
+  <li>2DS users can configure a depth offset in anaglyph mode, as they have no depth
+  slider</li>
+
+  </ul>
+
+  </li>
+
+  <li>Add render time emulation, including a toggle to turn it off</li>
+
+  <li>Fix audio bug in Colony intro in Galactic Pinball</li>
+
+  <li>Fix various issues in the Game Boy emulator</li>
+
+  <li>Fix Red Alarm wireframe graphics drawing on top of UI</li>
+
+  <li>Add a hack for Jack Bros. to make the intro chime play at roughly the correct
+  speed</li>
+
+  <li>Apply game fixes based on game ID rather than checksum, for better compatibility
+  with ROM hacks</li>
+
+  <li>Increased frameskip aggressiveness to improve performance in Elevated Speed</li>
+
+  <li>Update software framebuffer more conservatively to improve performance in Waterworld
+  and 3-D Tetris</li>
+
+  <li>Adjusted gamma correction for improved visibility</li>
+
+  <li>Fix D-Pad ABXY mirroring having an incorrect right input</li>
 
   </ul>'
-updated: '2024-06-16T15:01:30Z'
-version: v0.9.6
-version_title: v0.9.6
+updated: '2024-12-17T21:08:00Z'
+version: v0.9.7
+version_title: v0.9.7
 wiki: https://github.com/skyfloogle/red-viper/wiki
 ---
 A Virtual Boy emulator for the 3DS. All official games are playable at full speed.
