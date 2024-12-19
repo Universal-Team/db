@@ -1,6 +1,6 @@
 ---
 author: TogeToge & MarioGames
-avatar: https://avatars.githubusercontent.com/u/176740851?v=4
+avatar: https://private-avatars.githubusercontent.com/u/176740851?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MDQ0NDAsIm5iZiI6MTczNDYwMzI0MCwicGF0aCI6Ii91LzE3Njc0MDg1MSJ9.IGsbgkpo9pqgygdSowFau0gLewWay-hqxj_XOFOKzkE&v=4
 categories:
 - game
 color: '#9e4d4d'

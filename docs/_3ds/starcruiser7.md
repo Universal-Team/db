@@ -1,6 +1,6 @@
 ---
 author: dotMizi
-avatar: https://avatars.githubusercontent.com/u/114505954?v=4
+avatar: https://private-avatars.githubusercontent.com/u/114505954?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MDQyNjAsIm5iZiI6MTczNDYwMzA2MCwicGF0aCI6Ii91LzExNDUwNTk1NCJ9.Momvkttl9tydfkQzvb0BigMJ3LmA5ZWanxMEPNQ7D40&v=4
 categories:
 - game
 color: '#4c4c4c'
