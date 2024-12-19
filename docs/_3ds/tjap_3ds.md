@@ -1,6 +1,6 @@
 ---
 author: TogeToge & MarioGames
-avatar: https://private-avatars.githubusercontent.com/u/176740851?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NDY3NDAsIm5iZiI6MTczNDY0NTU0MCwicGF0aCI6Ii91LzE3Njc0MDg1MSJ9.qVpYp6mk8lp0bnvFzngh-n43kWOFb49rKrwQKOVaQs8&v=4
+avatar: https://private-avatars.githubusercontent.com/u/176740851?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTAzNDAsIm5iZiI6MTczNDY0OTE0MCwicGF0aCI6Ii91LzE3Njc0MDg1MSJ9.DcAHHFqgrKmIhR1lrMnClQ3KgfwLzWhXlp6UygFf9V0&v=4
 categories:
 - game
 color: '#9e4d4d'
@@ -10,8 +10,8 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 711520
-    size_str: 694 KiB
+    size: 711688
+    size_str: 695 KiB
     url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.5/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 1024960
@@ -41,7 +41,13 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <li>双打譜面の試験的対応</li>
 
+  <li>譜面分岐の条件に「大音符を叩いた数」を追加しました。(ドン(大)とカッ(大)が対象です)</li>
+
   </ul>
+
+  <pre class="notranslate"><code class="notranslate">#BRANCHSTART d, X, Y
+
+  </code></pre>
 
   <h2 dir="auto">Change log</h2>
 
@@ -53,7 +59,14 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <li>Experimental response to the double sheet music</li>
 
-  </ul>'
+  <li>Added "number of times big notes were hit" to the conditions for music score
+  branching. (This applies to DON and KA)</li>
+
+  </ul>
+
+  <pre class="notranslate"><code class="notranslate">#BRANCHSTART d, X, Y
+
+  </code></pre>'
 updated: '2024-12-17T08:32:50Z'
 version: v1.4.5
 version_title: TJAPlayer for 3DS v1.4.5
