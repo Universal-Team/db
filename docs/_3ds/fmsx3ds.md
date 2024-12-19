@@ -1,6 +1,6 @@
 ---
 author: h.tomioka
-avatar: https://private-avatars.githubusercontent.com/u/168841671?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTg3MjAsIm5iZiI6MTczNDYxNzUyMCwicGF0aCI6Ii91LzE2ODg0MTY3MSJ9.1ppo2Bsdp3j-QGkBaEE-bizKeHVqiMhgfQHrUaTup9s&v=4
+avatar: https://private-avatars.githubusercontent.com/u/168841671?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MjIzMjAsIm5iZiI6MTczNDYyMTEyMCwicGF0aCI6Ii91LzE2ODg0MTY3MSJ9.HtXzCjMWhtMr4D60FpYHQCxYXev7xQWCB36Ut60-sJ8&v=4
 categories:
 - emulator
 color: '#2a3f9c'
@@ -49,7 +49,7 @@ update_notes: '<p dir="auto"><br>
 
   You can use it with choosing "/[Start Debugger]" item in the fMSX3DS system menu.<br>
 
-  Then press A button to step in, B button to debugger menu.</p>
+  Then press A button to step over, B button to debugger menu.</p>
 
   <p dir="auto">-Fied bug that SCC sounds missing in MANBOW2.</p>
 
@@ -81,7 +81,7 @@ update_notes: '<p dir="auto"><br>
   <p dir="auto">-Small speed up with latest version of devkitpro.</p>
 
   <p dir="auto">-Fix Compile Error with latest version of devkitpro.</p>'
-updated: '2024-12-19T09:22:53Z'
+updated: '2024-12-19T14:22:28Z'
 version: v1.42
 version_title: v1.42
 website: https://gbatemp.net/threads/release-fmsx3ds-msx-msx2-msx2-emulator-with-new-feature-for-3ds.637072/
