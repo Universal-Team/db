@@ -1,6 +1,6 @@
 ---
 author: mGBA
-avatar: https://private-avatars.githubusercontent.com/u/10085927?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzYxMjAsIm5iZiI6MTczNDYzNDkyMCwicGF0aCI6Ii91LzEwMDg1OTI3In0.3lViYOOFDXxK5j5kLQ4tGuDbtKKg9xn4MVG_CcQpaLs&v=4
+avatar: https://private-avatars.githubusercontent.com/u/10085927?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2Mzk3MjAsIm5iZiI6MTczNDYzODUyMCwicGF0aCI6Ii91LzEwMDg1OTI3In0.LCRA6IJRYzkAdz4MzBWTccn_gs4OSXlhIL_-e45QhyE&v=4
 categories:
 - emulator
 color: '#503a7e'
@@ -38,7 +38,7 @@ screenshots:
 - description: Scale stretch
   url: https://db.universal-team.net/assets/images/screenshots/mgba/scale-stretch.png
 source: https://github.com/mgba-emu/mgba
-stars: 5790
+stars: 5791
 systems:
 - 3DS
 title: mGBA

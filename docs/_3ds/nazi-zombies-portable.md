@@ -1,6 +1,6 @@
 ---
 author: NZ:P Team & masterfeizz
-avatar: https://private-avatars.githubusercontent.com/u/91418801?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzU3NjAsIm5iZiI6MTczNDYzNDU2MCwicGF0aCI6Ii91LzkxNDE4ODAxIn0.QQ7noQKQaGcQvOMTn0XiAln4EEP8vwUkQVnvBz6Qbwc&v=4
+avatar: https://private-avatars.githubusercontent.com/u/91418801?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NDAyNjAsIm5iZiI6MTczNDYzOTA2MCwicGF0aCI6Ii91LzkxNDE4ODAxIn0.qKMy2rRdbRKxuPhx0ufUpTBdo1YhYUtflsUdDIxe1-M&v=4
 categories:
 - game
 color: '#441616'
