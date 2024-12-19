@@ -1,6 +1,6 @@
 ---
 author: Universal-Team
-avatar: https://private-avatars.githubusercontent.com/u/49733679?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NDAzODAsIm5iZiI6MTczNDYzOTE4MCwicGF0aCI6Ii91LzQ5NzMzNjc5In0.C_agAIitl-eGwA1YCTk3xUaDJIZmKaxELDnZdPLhzBM&v=4
+avatar: https://private-avatars.githubusercontent.com/u/49733679?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NDMwODAsIm5iZiI6MTczNDY0MTg4MCwicGF0aCI6Ii91LzQ5NzMzNjc5In0.mjPZmrjUxM8MWFVzwsuJJK6BNOXQmSgR4al0tIsmaW8&v=4
 categories:
 - utility
 color: '#0b497b'

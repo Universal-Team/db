@@ -1,6 +1,6 @@
 ---
 author: Floogle
-avatar: https://private-avatars.githubusercontent.com/u/18466542?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2Mzk5NjAsIm5iZiI6MTczNDYzODc2MCwicGF0aCI6Ii91LzE4NDY2NTQyIn0.5NgayahLokq3YP1EITXrvMGIKlfzjW9RWqxDhEGJLJU&v=4
+avatar: https://private-avatars.githubusercontent.com/u/18466542?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NDM1NjAsIm5iZiI6MTczNDY0MjM2MCwicGF0aCI6Ii91LzE4NDY2NTQyIn0.ed6UMdIeP0yUzH5q6smIYCWZ08TQaAgPHYfl5x6WO6I&v=4
 categories:
 - emulator
 color: '#d3d2d2'
@@ -34,7 +34,7 @@ screenshots:
 - description: Warioland
   url: https://db.universal-team.net/assets/images/screenshots/red-viper/warioland.png
 source: https://github.com/skyfloogle/red-viper
-stars: 807
+stars: 809
 systems:
 - 3DS
 title: red-viper
