@@ -1,6 +1,6 @@
 ---
 author: NZ:P Team & masterfeizz
-avatar: https://private-avatars.githubusercontent.com/u/91418801?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMwNjAsIm5iZiI6MTczNDYzMTg2MCwicGF0aCI6Ii91LzkxNDE4ODAxIn0.EkfjIo2XsJLN3HR7PJ63bHjn-p68YjNcoaSVL69Ezcg&v=4
+avatar: https://private-avatars.githubusercontent.com/u/91418801?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzU3NjAsIm5iZiI6MTczNDYzNDU2MCwicGF0aCI6Ii91LzkxNDE4ODAxIn0.QQ7noQKQaGcQvOMTn0XiAln4EEP8vwUkQVnvBz6Qbwc&v=4
 categories:
 - game
 color: '#441616'
@@ -34,7 +34,7 @@ screenshots:
 - description: Map selection
   url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/map-selection.png
 source: https://github.com/nzp-team/nzportable
-stars: 478
+stars: 479
 systems:
 - 3DS
 title: 'Nazi Zombies: Portable'
