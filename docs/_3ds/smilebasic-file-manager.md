@@ -1,6 +1,6 @@
 ---
 author: Trinitro21
-avatar: https://private-avatars.githubusercontent.com/u/16406884?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE5NDAsIm5iZiI6MTczNDYxMDc0MCwicGF0aCI6Ii91LzE2NDA2ODg0In0.CKgSdbIsCGGaJ_3O1vgFqVYMh5HGnefrM8eekulRykI&v=4
+avatar: https://private-avatars.githubusercontent.com/u/16406884?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzI2NDAsIm5iZiI6MTczNDYzMTQ0MCwicGF0aCI6Ii91LzE2NDA2ODg0In0.oXqL5CgQJzQJ5-PxkU9Doea-k-egJCuZnHRkH5yNplM&v=4
 categories:
 - utility
 color: '#82846c'

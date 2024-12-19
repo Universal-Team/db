@@ -1,6 +1,6 @@
 ---
 author: AJ Walter
-avatar: https://private-avatars.githubusercontent.com/u/6108605?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTEzNDAsIm5iZiI6MTczNDYxMDE0MCwicGF0aCI6Ii91LzYxMDg2MDUifQ.7BClFUOPc9k6hORdHQp-2yM4ZnfWT08tF3Z8owm_NI0&v=4
+avatar: https://private-avatars.githubusercontent.com/u/6108605?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzI5NDAsIm5iZiI6MTczNDYzMTc0MCwicGF0aCI6Ii91LzYxMDg2MDUifQ.CI-0_UG29Fxkth6U1XXPPqi1zkb2nDqpTF2FNC1Omqc&v=4
 categories:
 - game
 color: '#6d190a'

@@ -1,7 +1,7 @@
 ---
 author: Felipe Izzo
 autogen_scripts: true
-avatar: https://private-avatars.githubusercontent.com/u/15205297?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIxODAsIm5iZiI6MTczNDYxMDk4MCwicGF0aCI6Ii91LzE1MjA1Mjk3In0.eT0Ie1A0b2miD1QI1CJcOlQqevQTbP5DjgLqxv-lqyo&v=4
+avatar: https://private-avatars.githubusercontent.com/u/15205297?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzI4ODAsIm5iZiI6MTczNDYzMTY4MCwicGF0aCI6Ii91LzE1MjA1Mjk3In0.SDXjKpb6F4b0EA_lg6KC5q6Qz4GfuyTvAsIvn3PINdM&v=4
 categories:
 - game
 color: '#b46800'

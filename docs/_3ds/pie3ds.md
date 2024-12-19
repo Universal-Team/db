@@ -1,6 +1,6 @@
 ---
 author: amedeo463
-avatar: https://private-avatars.githubusercontent.com/u/87472837?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE1ODAsIm5iZiI6MTczNDYxMDM4MCwicGF0aCI6Ii91Lzg3NDcyODM3In0.uQHgg8n8fmjCyS6fettvK0EAOcDXGSpaU-BEtYBNfHU&v=4
+avatar: https://private-avatars.githubusercontent.com/u/87472837?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMxODAsIm5iZiI6MTczNDYzMTk4MCwicGF0aCI6Ii91Lzg3NDcyODM3In0.3d2LpIiQoGjhdBanEHcc6lBXErgMPEeW4zLLUxeHFGI&v=4
 categories:
 - app
 color: '#1b6d71'

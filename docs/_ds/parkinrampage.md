@@ -1,6 +1,6 @@
 ---
 author: Tim 'Mighty Max' Seidel
-avatar: https://private-avatars.githubusercontent.com/u/16925975?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE4ODAsIm5iZiI6MTczNDYxMDY4MCwicGF0aCI6Ii91LzE2OTI1OTc1In0.1vOqTkeYm8LcoN2lGZq-4ZaJelr4SR8Ff-2kFjj9y4s&v=4
+avatar: https://private-avatars.githubusercontent.com/u/16925975?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzM0ODAsIm5iZiI6MTczNDYzMjI4MCwicGF0aCI6Ii91LzE2OTI1OTc1In0.tseh6XPFOV5u251oFHSRxH4ociDVHJa3fFfZO0D1TXk&v=4
 categories:
 - game
 color: '#6e7882'

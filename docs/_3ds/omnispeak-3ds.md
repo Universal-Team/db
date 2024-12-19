@@ -1,7 +1,7 @@
 ---
 author: Devin
 autogen_scripts: true
-avatar: https://private-avatars.githubusercontent.com/u/70994866?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIyNDAsIm5iZiI6MTczNDYxMTA0MCwicGF0aCI6Ii91LzcwOTk0ODY2In0.BjOseutZnlrMRmaMg2ZYfhz20GDGf3rDR8BFDnRrwqI&v=4
+avatar: https://private-avatars.githubusercontent.com/u/70994866?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzI5NDAsIm5iZiI6MTczNDYzMTc0MCwicGF0aCI6Ii91LzcwOTk0ODY2In0.8w9XwWINyd4jQgKElOLwWwZBu0I38-rKb-lmz8At7Es&v=4
 categories:
 - game
 color: '#525a57'

@@ -1,6 +1,6 @@
 ---
 author: Ike Rolader
-avatar: https://private-avatars.githubusercontent.com/u/10735668?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIxMjAsIm5iZiI6MTczNDYxMDkyMCwicGF0aCI6Ii91LzEwNzM1NjY4In0.B3heTdhQ7LIiH1gyqP3DdmpbFrO2fBGYaJwTUg-0yGE&v=4
+avatar: https://private-avatars.githubusercontent.com/u/10735668?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzI4MjAsIm5iZiI6MTczNDYzMTYyMCwicGF0aCI6Ii91LzEwNzM1NjY4In0.7FpMQLTcZ27p1Wcz5PKUhzdn2K8DxslznbwknOfvBxw&v=4
 categories:
 - game
 color: '#872217'

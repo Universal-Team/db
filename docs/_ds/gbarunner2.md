@@ -1,7 +1,7 @@
 ---
 author: Gericom
 autogen_scripts: true
-avatar: https://private-avatars.githubusercontent.com/u/5251038?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE4ODAsIm5iZiI6MTczNDYxMDY4MCwicGF0aCI6Ii91LzUyNTEwMzgifQ.3kTRWbsERn9OvW2j4ecReNTdyKLp7uG1mQBqU9UI8rY&v=4
+avatar: https://private-avatars.githubusercontent.com/u/5251038?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzM0ODAsIm5iZiI6MTczNDYzMjI4MCwicGF0aCI6Ii91LzUyNTEwMzgifQ.WrGJTun-MWRSrDwOHrZIn8kELmfCAFS27owcWvUFES4&v=4
 categories:
 - emulator
 color: '#48405c'

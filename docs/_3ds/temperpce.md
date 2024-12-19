@@ -1,6 +1,6 @@
 ---
 author: bubble2k16
-avatar: https://private-avatars.githubusercontent.com/u/20153229?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIwNjAsIm5iZiI6MTczNDYxMDg2MCwicGF0aCI6Ii91LzIwMTUzMjI5In0.-JJg-SoDxrXPcH2jRdXQivmuuHX7MSfXT463ip9lVLY&v=4
+avatar: https://private-avatars.githubusercontent.com/u/20153229?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzM2NjAsIm5iZiI6MTczNDYzMjQ2MCwicGF0aCI6Ii91LzIwMTUzMjI5In0.5WCr_xCUmJHsJ2Buhsz18x3byUYnTzvE_axUJ3N7r5g&v=4
 categories:
 - emulator
 color: '#559cce'

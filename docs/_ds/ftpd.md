@@ -1,6 +1,6 @@
 ---
 author: mtheall
-avatar: https://private-avatars.githubusercontent.com/u/896483?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIwMDAsIm5iZiI6MTczNDYxMDgwMCwicGF0aCI6Ii91Lzg5NjQ4MyJ9.etlpwdWAhGxBoYSlr-4oyoqxZYpH5cFnG1YuNarc4Rs&v=4
+avatar: https://private-avatars.githubusercontent.com/u/896483?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzI3MDAsIm5iZiI6MTczNDYzMTUwMCwicGF0aCI6Ii91Lzg5NjQ4MyJ9.rYatCUaFpe7m9D-Sxvz6qfv2MELPztAiwQqcCbBCXr8&v=4
 categories:
 - utility
 color: '#001900'
@@ -50,7 +50,7 @@ screenshots:
 - description: Transferring
   url: https://db.universal-team.net/assets/images/screenshots/ftpd/transferring.png
 source: https://github.com/mtheall/ftpd
-stars: 1405
+stars: 1406
 systems:
 - 3DS
 - DS

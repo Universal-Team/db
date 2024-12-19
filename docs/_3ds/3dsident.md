@@ -1,6 +1,6 @@
 ---
 author: Joel
-avatar: https://private-avatars.githubusercontent.com/u/6271991?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2Mjg5MjAsIm5iZiI6MTczNDYyNzcyMCwicGF0aCI6Ii91LzYyNzE5OTEifQ.TY-LEsX9Y66yuEvu60VGUbhx79vf9EcUWYFHm4cKaQs&v=4
+avatar: https://private-avatars.githubusercontent.com/u/6271991?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzI1MjAsIm5iZiI6MTczNDYzMTMyMCwicGF0aCI6Ii91LzYyNzE5OTEifQ.iZpehMX90s_J3wcAp5PlUb8BGIDJkTrlolfa753gPxg&v=4
 categories:
 - utility
 color: '#597066'
@@ -32,7 +32,7 @@ screenshots:
 - description: Storage
   url: https://db.universal-team.net/assets/images/screenshots/3dsident/storage.png
 source: https://github.com/joel16/3DSident
-stars: 296
+stars: 297
 systems:
 - 3DS
 title: 3DSident

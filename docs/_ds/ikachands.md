@@ -1,6 +1,6 @@
 ---
 author: tilderain / Vladimir Kosickij
-avatar: https://private-avatars.githubusercontent.com/u/45891293?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIxODAsIm5iZiI6MTczNDYxMDk4MCwicGF0aCI6Ii91LzQ1ODkxMjkzIn0.AS0oeWSiJxaZa4X0sohEpZTKaXH-6tEWP1Bn0De3KLs&v=4
+avatar: https://private-avatars.githubusercontent.com/u/45891293?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzI4ODAsIm5iZiI6MTczNDYzMTY4MCwicGF0aCI6Ii91LzQ1ODkxMjkzIn0.nEN2icEgNZbFixCZPRnDAf6Ig_zTycGPazXkLcZCz44&v=4
 categories:
 - game
 color: '#998080'

@@ -1,6 +1,6 @@
 ---
 author: Stewmath
-avatar: https://private-avatars.githubusercontent.com/u/3671681?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE0NjAsIm5iZiI6MTczNDYxMDI2MCwicGF0aCI6Ii91LzM2NzE2ODEifQ.Aayx7anGmdXP-xnUp7Tmcn58x4MG4NOQ8pVNb1ZtPXA&v=4
+avatar: https://private-avatars.githubusercontent.com/u/3671681?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMwNjAsIm5iZiI6MTczNDYzMTg2MCwicGF0aCI6Ii91LzM2NzE2ODEifQ.hrTza_SC7TmsBBq_h_FWzOy28lwwf9JQG5SVs39orNM&v=4
 categories:
 - emulator
 color: '#836f25'

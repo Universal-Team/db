@@ -1,7 +1,7 @@
 ---
 author: TheXTech Developers
 autogen_scripts: true
-avatar: https://private-avatars.githubusercontent.com/u/160427994?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE1MjAsIm5iZiI6MTczNDYxMDMyMCwicGF0aCI6Ii91LzE2MDQyNzk5NCJ9.a-U8nTAvsttnP1Y1fjG2b76wXY0lMw-LG1-23RPOQ10&v=4
+avatar: https://private-avatars.githubusercontent.com/u/160427994?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMxMjAsIm5iZiI6MTczNDYzMTkyMCwicGF0aCI6Ii91LzE2MDQyNzk5NCJ9.i2wAVjmjaMYXJUkk--CvAX_IYM1DXQrCEIkmA8l4YD8&v=4
 categories:
 - game
 color: '#5f6dc0'

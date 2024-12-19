@@ -1,6 +1,6 @@
 ---
 author: FlameTheGamer
-avatar: https://private-avatars.githubusercontent.com/u/137841349?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE1ODAsIm5iZiI6MTczNDYxMDM4MCwicGF0aCI6Ii91LzEzNzg0MTM0OSJ9.EKTHGaHQVRY7vuN0ApyOhzO85QxMOBNuyxlIeXZx-hI&v=4
+avatar: https://private-avatars.githubusercontent.com/u/137841349?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMxODAsIm5iZiI6MTczNDYzMTk4MCwicGF0aCI6Ii91LzEzNzg0MTM0OSJ9.hEsIT_kD3-DdBkNCb6fLx65D72utzzxpS-QwpT8hZak&v=4
 categories:
 - game
 color: '#8e7d4f'
@@ -19,7 +19,7 @@ downloads:
     size_str: 128 KiB
     url: https://github.com/The4thPlayer/Pokemon-Purple/releases/download/Release/GAME.BOY.RELEASE.gb
 github: The4thPlayer/Pokemon-Purple
-image: https://private-avatars.githubusercontent.com/u/137841349?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE1ODAsIm5iZiI6MTczNDYxMDM4MCwicGF0aCI6Ii91LzEzNzg0MTM0OSJ9.EKTHGaHQVRY7vuN0ApyOhzO85QxMOBNuyxlIeXZx-hI&v=4&size=128
+image: https://private-avatars.githubusercontent.com/u/137841349?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMxODAsIm5iZiI6MTczNDYzMTk4MCwicGF0aCI6Ii91LzEzNzg0MTM0OSJ9.hEsIT_kD3-DdBkNCb6fLx65D72utzzxpS-QwpT8hZak&v=4&size=128
 image_length: 3695
 layout: app
 license: gpl-3.0

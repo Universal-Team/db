@@ -1,6 +1,6 @@
 ---
 author: Core 2 Extreme, dixy52-beep (icon, banner, in app texture)
-avatar: https://private-avatars.githubusercontent.com/u/45873899?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE0MDAsIm5iZiI6MTczNDYxMDIwMCwicGF0aCI6Ii91LzQ1ODczODk5In0.l1dlUlpndFvei6SHyXYAXBO2-BWTYP4cCSqZVsjz3xw&v=4
+avatar: https://private-avatars.githubusercontent.com/u/45873899?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMwMDAsIm5iZiI6MTczNDYzMTgwMCwicGF0aCI6Ii91LzQ1ODczODk5In0.6Y67mFVm-zzWpoTVPJRu94-Lbo6xlJ3PgOZvsf8fkBQ&v=4
 categories:
 - app
 color: '#4ca5f1'

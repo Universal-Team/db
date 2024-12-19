@@ -1,6 +1,6 @@
 ---
 author: SciresM
-avatar: https://private-avatars.githubusercontent.com/u/8676005?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE0MDAsIm5iZiI6MTczNDYxMDIwMCwicGF0aCI6Ii91Lzg2NzYwMDUifQ.UAXTDoTokTD4z8k41YlfMQ5oeAMORYS46f5UE7vMDMs&v=4
+avatar: https://private-avatars.githubusercontent.com/u/8676005?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMwMDAsIm5iZiI6MTczNDYzMTgwMCwicGF0aCI6Ii91Lzg2NzYwMDUifQ.4QV8OHU-T7g52PyLqL7V3vWeoOq99VLYpNFy_FyCm4U&v=4
 categories:
 - utility
 color: '#dae3ec'
@@ -26,7 +26,7 @@ downloads:
     size_str: 10 KiB
     url: https://github.com/SciresM/boot9strap/releases/download/1.4/boot9strap-1.4.zip
 github: SciresM/boot9strap
-image: https://private-avatars.githubusercontent.com/u/8676005?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE0MDAsIm5iZiI6MTczNDYxMDIwMCwicGF0aCI6Ii91Lzg2NzYwMDUifQ.UAXTDoTokTD4z8k41YlfMQ5oeAMORYS46f5UE7vMDMs&v=4&size=128
+image: https://private-avatars.githubusercontent.com/u/8676005?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMwMDAsIm5iZiI6MTczNDYzMTgwMCwicGF0aCI6Ii91Lzg2NzYwMDUifQ.4QV8OHU-T7g52PyLqL7V3vWeoOq99VLYpNFy_FyCm4U&v=4&size=128
 image_length: 2857
 layout: app
 license: gpl-3.0
