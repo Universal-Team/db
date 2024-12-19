@@ -1,6 +1,6 @@
 ---
 author: fauxfennec
-avatar: https://avatars.githubusercontent.com/u/141457878?v=4
+avatar: https://private-avatars.githubusercontent.com/u/141457878?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE4ODAsIm5iZiI6MTczNDYxMDY4MCwicGF0aCI6Ii91LzE0MTQ1Nzg3OCJ9.R6I7BQAZ05S55cnWQSHtSZBdqTJ0ilFuY0FpgqQu-yo&v=4
 categories:
 - game
 color: '#8c8c8c'

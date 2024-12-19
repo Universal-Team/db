@@ -1,6 +1,6 @@
 ---
 author: Giantblargg
-avatar: https://avatars.githubusercontent.com/u/1700581?v=4
+avatar: https://private-avatars.githubusercontent.com/u/1700581?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIzMDAsIm5iZiI6MTczNDYxMTEwMCwicGF0aCI6Ii91LzE3MDA1ODEifQ.hYyQ_vqoE4X32N_0nLtXMFVIMrpoMpjmUUPCbyrRSMI&v=4
 categories:
 - utility
 color: '#ffc9ac'

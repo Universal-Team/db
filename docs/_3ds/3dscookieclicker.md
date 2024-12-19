@@ -1,6 +1,6 @@
 ---
 author: Creckeryop
-avatar: https://avatars.githubusercontent.com/u/25725992?v=4
+avatar: https://private-avatars.githubusercontent.com/u/25725992?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE3MDAsIm5iZiI6MTczNDYxMDUwMCwicGF0aCI6Ii91LzI1NzI1OTkyIn0.aqayW0zJ6JTSe6DpRu6rtSdXP0oa3Bg4_ICnlWaotk0&v=4
 categories:
 - game
 color: '#546f7d'

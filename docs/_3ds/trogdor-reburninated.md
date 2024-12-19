@@ -1,6 +1,6 @@
 ---
 author: Mode8fx
-avatar: https://avatars.githubusercontent.com/u/57763469?v=4
+avatar: https://private-avatars.githubusercontent.com/u/57763469?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE1ODAsIm5iZiI6MTczNDYxMDM4MCwicGF0aCI6Ii91LzU3NzYzNDY5In0.Y1q9QNTbmmF_l2aZGNsr0NzXBHJREvMsvizZsvbFibY&v=4
 categories:
 - game
 color: '#0a6c24'

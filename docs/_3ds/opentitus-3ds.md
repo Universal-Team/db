@@ -1,6 +1,6 @@
 ---
 author: MrHuu
-avatar: https://avatars.githubusercontent.com/u/561623?v=4
+avatar: https://private-avatars.githubusercontent.com/u/561623?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE1MjAsIm5iZiI6MTczNDYxMDMyMCwicGF0aCI6Ii91LzU2MTYyMyJ9.o6BaaUdlOjNed5rOVbfT2p2tzHGKMl4GMQW9ZGQMbfA&v=4
 categories:
 - game
 color: '#683a2b'

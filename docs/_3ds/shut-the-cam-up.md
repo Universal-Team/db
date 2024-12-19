@@ -1,6 +1,6 @@
 ---
 author: TehFridge
-avatar: https://avatars.githubusercontent.com/u/85436576?v=4
+avatar: https://private-avatars.githubusercontent.com/u/85436576?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE4ODAsIm5iZiI6MTczNDYxMDY4MCwicGF0aCI6Ii91Lzg1NDM2NTc2In0.TGEn_fsJR2haMIg_XgDhkSrDN3qIjNTPwMsZpPan1ZA&v=4
 categories:
 - utility
 color: '#b19bc7'
@@ -19,7 +19,7 @@ downloads:
     size_str: 76 Bytes
     url: https://github.com/TehFridge/ShutTheCamUp/releases/download/main/old3ds.ips
 github: TehFridge/ShutTheCamUp
-image: https://avatars.githubusercontent.com/u/85436576?v=4&size=128
+image: https://private-avatars.githubusercontent.com/u/85436576?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE4ODAsIm5iZiI6MTczNDYxMDY4MCwicGF0aCI6Ii91Lzg1NDM2NTc2In0.TGEn_fsJR2haMIg_XgDhkSrDN3qIjNTPwMsZpPan1ZA&v=4&size=128
 image_length: 33969
 layout: app
 source: https://github.com/TehFridge/ShutTheCamUp

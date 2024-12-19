@@ -1,6 +1,6 @@
 ---
 author: Arcade Jumpers
-avatar: https://avatars.githubusercontent.com/u/120754662?v=4
+avatar: https://private-avatars.githubusercontent.com/u/120754662?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE1MjAsIm5iZiI6MTczNDYxMDMyMCwicGF0aCI6Ii91LzEyMDc1NDY2MiJ9.yr28mkCGacFygFWxBqls7rkdWX9nd8dLsX0CPY6I7Ew&v=4
 categories:
 - game
 color: '#528cac'

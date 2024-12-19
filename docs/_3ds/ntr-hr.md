@@ -1,6 +1,6 @@
 ---
 author: JS Deck
-avatar: https://avatars.githubusercontent.com/u/1617680?v=4
+avatar: https://private-avatars.githubusercontent.com/u/1617680?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIyNDAsIm5iZiI6MTczNDYxMTA0MCwicGF0aCI6Ii91LzE2MTc2ODAifQ.IN9WWXa-YRx1BkNEEm_IPTrDb9ysRO_VOBuDc2pJWIY&v=4
 categories:
 - utility
 color: '#dddbed'
@@ -18,7 +18,7 @@ downloads:
     size_str: 148 KiB
     url: https://github.com/xzn/ntr-hr/releases/download/v3.6-modded-20240619/NTR-HR.zip
 github: xzn/ntr-hr
-image: https://avatars.githubusercontent.com/u/1617680?v=4&size=128
+image: https://private-avatars.githubusercontent.com/u/1617680?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIyNDAsIm5iZiI6MTczNDYxMTA0MCwicGF0aCI6Ii91LzE2MTc2ODAifQ.IN9WWXa-YRx1BkNEEm_IPTrDb9ysRO_VOBuDc2pJWIY&v=4&size=128
 image_length: 1529
 layout: app
 license: gpl-2.0

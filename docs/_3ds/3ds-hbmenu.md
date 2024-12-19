@@ -1,6 +1,6 @@
 ---
 author: devkitPro
-avatar: https://avatars.githubusercontent.com/u/7538897?v=4
+avatar: https://private-avatars.githubusercontent.com/u/7538897?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE2NDAsIm5iZiI6MTczNDYxMDQ0MCwicGF0aCI6Ii91Lzc1Mzg4OTcifQ.p7euXVnX9dzU1kuP2BWs1FPiYkWNY-2HhoHuYirD75o&v=4
 categories:
 - utility
 color: '#4bbbf5'

@@ -1,7 +1,7 @@
 ---
 author: Stefan
 autogen_scripts: true
-avatar: https://avatars.githubusercontent.com/u/9059719?v=4
+avatar: https://private-avatars.githubusercontent.com/u/9059719?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE0MDAsIm5iZiI6MTczNDYxMDIwMCwicGF0aCI6Ii91LzkwNTk3MTkifQ.jRFBDBv9jNWZmisGYbazpBE4FUsA7QF2txGsn6B94d0&v=4
 categories:
 - game
 color: '#d6d6d6'

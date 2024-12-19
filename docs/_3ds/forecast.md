@@ -1,6 +1,6 @@
 ---
 author: Nat Osaka
-avatar: https://avatars.githubusercontent.com/u/16436651?v=4
+avatar: https://private-avatars.githubusercontent.com/u/16436651?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIyNDAsIm5iZiI6MTczNDYxMTA0MCwicGF0aCI6Ii91LzE2NDM2NjUxIn0.pu8mJo7-PAFNJ2-DbAqMzmNvl4xPAGI-GrUbdmobWLU&v=4
 categories:
 - app
 color: '#a2a3a4'

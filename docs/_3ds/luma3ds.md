@@ -1,7 +1,7 @@
 ---
 author: LumaTeam
 autogen_scripts: true
-avatar: https://avatars.githubusercontent.com/u/65085206?v=4
+avatar: https://private-avatars.githubusercontent.com/u/65085206?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE0MDAsIm5iZiI6MTczNDYxMDIwMCwicGF0aCI6Ii91LzY1MDg1MjA2In0.vFhtFIh1AdTIrkhS2J3ahSsyzjvHgcdWtrEuezkESwg&v=4
 categories:
 - utility
 - firm
@@ -17,13 +17,13 @@ downloads:
     size_str: 534 KiB
     url: https://github.com/LumaTeam/Luma3DS/releases/download/v13.2.1/Luma3DSv13.2.1.zip
 github: LumaTeam/Luma3DS
-image: https://avatars.githubusercontent.com/u/65085206?v=4&size=128
+image: https://private-avatars.githubusercontent.com/u/65085206?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE0MDAsIm5iZiI6MTczNDYxMDIwMCwicGF0aCI6Ii91LzY1MDg1MjA2In0.vFhtFIh1AdTIrkhS2J3ahSsyzjvHgcdWtrEuezkESwg&v=4&size=128
 image_length: 7260
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/LumaTeam/Luma3DS
-stars: 5366
+stars: 5367
 systems:
 - 3DS
 title: Luma3DS

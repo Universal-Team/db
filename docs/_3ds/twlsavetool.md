@@ -1,6 +1,6 @@
 ---
 author: TuxSH
-avatar: https://avatars.githubusercontent.com/u/1922548?v=4
+avatar: https://private-avatars.githubusercontent.com/u/1922548?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE3MDAsIm5iZiI6MTczNDYxMDUwMCwicGF0aCI6Ii91LzE5MjI1NDgifQ.HkymRpwHtc5paHoSW9gfOCzhKkMWPVhRqg8vVL8bwlw&v=4
 categories:
 - utility
 - save-tool

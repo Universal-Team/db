@@ -1,6 +1,6 @@
 ---
 author: Erie Valley Software
-avatar: https://avatars.githubusercontent.com/u/65189871?v=4
+avatar: https://private-avatars.githubusercontent.com/u/65189871?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTEzNDAsIm5iZiI6MTczNDYxMDE0MCwicGF0aCI6Ii91LzY1MTg5ODcxIn0.4i0UL04CMxFGfAo0rwNknKsm3zeCHnaNp_twfbk1Gis&v=4
 categories:
 - app
 color: '#46664c'

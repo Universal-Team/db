@@ -1,6 +1,6 @@
 ---
 author: CyberYoshi64
-avatar: https://avatars.githubusercontent.com/u/35138367?v=4
+avatar: https://private-avatars.githubusercontent.com/u/35138367?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE4ODAsIm5iZiI6MTczNDYxMDY4MCwicGF0aCI6Ii91LzM1MTM4MzY3In0.05lWzlqKCPZppb_w7fVHubEF23wjKXx5E4Uq0ilMLqQ&v=4
 categories:
 - utility
 - save-tool

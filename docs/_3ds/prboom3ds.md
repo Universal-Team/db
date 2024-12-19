@@ -1,6 +1,6 @@
 ---
 author: elhobbs
-avatar: https://avatars.githubusercontent.com/u/8599176?v=4
+avatar: https://private-avatars.githubusercontent.com/u/8599176?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIyNDAsIm5iZiI6MTczNDYxMTA0MCwicGF0aCI6Ii91Lzg1OTkxNzYifQ.uPOQcwwSfTikr6mXNO1HXdYB_RPgGU5eMm1yIo7xHIQ&v=4
 categories:
 - game
 color: '#6d5127'

@@ -1,6 +1,6 @@
 ---
 author: pyroticinsanity
-avatar: https://avatars.githubusercontent.com/u/1209016?v=4
+avatar: https://private-avatars.githubusercontent.com/u/1209016?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE0MDAsIm5iZiI6MTczNDYxMDIwMCwicGF0aCI6Ii91LzEyMDkwMTYifQ.dgYik_oDCZIT66nMWggNemH5zZdtmUhnvYUjByDm-C0&v=4
 categories:
 - game
 color: '#2d2d2d'

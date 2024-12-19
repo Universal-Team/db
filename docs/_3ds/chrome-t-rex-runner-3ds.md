@@ -1,6 +1,6 @@
 ---
 author: Leon Schimmel
-avatar: https://avatars.githubusercontent.com/u/95288041?v=4
+avatar: https://private-avatars.githubusercontent.com/u/95288041?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE1MjAsIm5iZiI6MTczNDYxMDMyMCwicGF0aCI6Ii91Lzk1Mjg4MDQxIn0.ctku0moL_Z1NbfGAhe8IjFcIJw9oDxDMN1bPwb4Kdg0&v=4
 categories:
 - game
 color: '#888888'

@@ -1,6 +1,6 @@
 ---
 author: zoogie
-avatar: https://avatars.githubusercontent.com/u/28328903?v=4
+avatar: https://private-avatars.githubusercontent.com/u/28328903?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIxODAsIm5iZiI6MTczNDYxMDk4MCwicGF0aCI6Ii91LzI4MzI4OTAzIn0.Fd28tNfBrlMH45Xt2FzOUWqoK1vU512pz0fDM01YWAk&v=4
 categories:
 - utility
 color: '#343f89'

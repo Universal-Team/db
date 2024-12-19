@@ -1,6 +1,6 @@
 ---
 author: Storm-Eagle20
-avatar: https://avatars.githubusercontent.com/u/26261465?v=4
+avatar: https://private-avatars.githubusercontent.com/u/26261465?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIyNDAsIm5iZiI6MTczNDYxMTA0MCwicGF0aCI6Ii91LzI2MjYxNDY1In0.mfbPS8LkoUSTOhmg8EQtItbrMdntynm5-5mmTt4r3bU&v=4
 categories:
 - utility
 color: '#351125'

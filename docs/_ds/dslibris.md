@@ -1,6 +1,6 @@
 ---
 author: Ray Haleblian
-avatar: https://avatars.githubusercontent.com/u/94912?v=4
+avatar: https://private-avatars.githubusercontent.com/u/94912?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE4MjAsIm5iZiI6MTczNDYxMDYyMCwicGF0aCI6Ii91Lzk0OTEyIn0.3XiQM2IhiXwP2Hi5pJjGwSKX3xNOST37xK-VlLXGUw4&v=4
 categories:
 - utility
 color: '#dedede'

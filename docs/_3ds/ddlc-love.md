@@ -1,6 +1,6 @@
 ---
 author: LukeeGD
-avatar: https://avatars.githubusercontent.com/u/26163116?v=4
+avatar: https://private-avatars.githubusercontent.com/u/26163116?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTEzNDAsIm5iZiI6MTczNDYxMDE0MCwicGF0aCI6Ii91LzI2MTYzMTE2In0.4wvJU0m1UabukZFw8tUA4AsTaF7Ew6-bNeCUcM77NM0&v=4
 categories:
 - game
 color: '#dcd7e8'

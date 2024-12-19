@@ -1,6 +1,6 @@
 ---
 author: profi200
-avatar: https://avatars.githubusercontent.com/u/7831477?v=4
+avatar: https://private-avatars.githubusercontent.com/u/7831477?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIwNjAsIm5iZiI6MTczNDYxMDg2MCwicGF0aCI6Ii91Lzc4MzE0NzcifQ.PnZ6E5pUADTsATsDyg511oWZUrd2I0UCw7JfKnIXc_M&v=4
 categories:
 - emulator
 - firm
@@ -16,7 +16,7 @@ downloads:
     size_str: 138 KiB
     url: https://github.com/profi200/open_agb_firm/releases/download/beta_2024-07-30/open_agb_firm_beta_20240730.7z
 github: profi200/open_agb_firm
-image: https://avatars.githubusercontent.com/u/7831477?v=4&size=128
+image: https://private-avatars.githubusercontent.com/u/7831477?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIwNjAsIm5iZiI6MTczNDYxMDg2MCwicGF0aCI6Ii91Lzc4MzE0NzcifQ.PnZ6E5pUADTsATsDyg511oWZUrd2I0UCw7JfKnIXc_M&v=4&size=128
 image_length: 1560
 layout: app
 license: gpl-3.0

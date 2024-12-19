@@ -1,6 +1,6 @@
 ---
 author: Sun Daowen
-avatar: https://avatars.githubusercontent.com/u/2081018?v=4
+avatar: https://private-avatars.githubusercontent.com/u/2081018?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIzMDAsIm5iZiI6MTczNDYxMTEwMCwicGF0aCI6Ii91LzIwODEwMTgifQ.ykG49ds-Gn20Unah_51CFMWZJI8qXb2qQx8X6JZP16A&v=4
 categories:
 - utility
 color: '#e06c24'

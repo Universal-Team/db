@@ -1,6 +1,6 @@
 ---
 author: Swiftloke
-avatar: https://avatars.githubusercontent.com/u/22382655?v=4
+avatar: https://private-avatars.githubusercontent.com/u/22382655?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIwMDAsIm5iZiI6MTczNDYxMDgwMCwicGF0aCI6Ii91LzIyMzgyNjU1In0.Z0mIkMKyQoOv6K5lrxDaL3OrhXExA6FaEbqOHnrQegE&v=4
 categories:
 - utility
 color: '#496373'

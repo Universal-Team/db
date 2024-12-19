@@ -1,6 +1,6 @@
 ---
 author: rayasticot
-avatar: https://avatars.githubusercontent.com/u/88832503?v=4
+avatar: https://private-avatars.githubusercontent.com/u/88832503?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE4MjAsIm5iZiI6MTczNDYxMDYyMCwicGF0aCI6Ii91Lzg4ODMyNTAzIn0.QM2Vq3bMrzDd8wyp-ncurEZiybm5_Uwy2oh056jwkIc&v=4
 categories:
 - game
 color: '#4a2110'

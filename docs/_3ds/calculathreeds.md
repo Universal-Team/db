@@ -1,6 +1,6 @@
 ---
 author: Théo B.
-avatar: https://avatars.githubusercontent.com/u/16072534?v=4
+avatar: https://private-avatars.githubusercontent.com/u/16072534?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE4MjAsIm5iZiI6MTczNDYxMDYyMCwicGF0aCI6Ii91LzE2MDcyNTM0In0.o12mbK0XKMMPeHkOsGdHmmSp736RzVj2RP6a5Nh3Qt8&v=4
 categories:
 - app
 color: '#c0c0d4'

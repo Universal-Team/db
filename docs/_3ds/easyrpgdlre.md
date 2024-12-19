@@ -1,6 +1,6 @@
 ---
 author: Mário Alexandre Lopes Liberato
-avatar: https://avatars.githubusercontent.com/u/11259227?v=4
+avatar: https://private-avatars.githubusercontent.com/u/11259227?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIwNjAsIm5iZiI6MTczNDYxMDg2MCwicGF0aCI6Ii91LzExMjU5MjI3In0.iNoxgkIKcos7LCjUS1gWhA8zS6Hnky_MXDdV1Hf77z4&v=4
 categories:
 - utility
 color: '#a3b290'

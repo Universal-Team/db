@@ -1,6 +1,6 @@
 ---
 author: Spaqin
-avatar: https://avatars.githubusercontent.com/u/1278433?v=4
+avatar: https://private-avatars.githubusercontent.com/u/1278433?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTI0MjAsIm5iZiI6MTczNDYxMTIyMCwicGF0aCI6Ii91LzEyNzg0MzMifQ.dWJslQe_HRDUW_uURgl-5OaABxgnHOJ0fF1MyCfl7X0&v=4
 categories:
 - game
 color: '#a09585'

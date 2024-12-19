@@ -1,6 +1,6 @@
 ---
 author: diasurgical
-avatar: https://avatars.githubusercontent.com/u/40645014?v=4
+avatar: https://private-avatars.githubusercontent.com/u/40645014?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE3NjAsIm5iZiI6MTczNDYxMDU2MCwicGF0aCI6Ii91LzQwNjQ1MDE0In0.mOSsADbsuVwqtTeYYDKhalfPQuPbiI1IMyNyZTq8cLc&v=4
 categories:
 - game
 color: '#695d5d'

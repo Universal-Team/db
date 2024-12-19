@@ -1,6 +1,6 @@
 ---
 author: Tobias
-avatar: https://avatars.githubusercontent.com/u/31214870?v=4
+avatar: https://private-avatars.githubusercontent.com/u/31214870?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE0NjAsIm5iZiI6MTczNDYxMDI2MCwicGF0aCI6Ii91LzMxMjE0ODcwIn0.qI1G0wMOyU5daWyRAyMyumxgSHP1IsDzrGbbK-rEu1Y&v=4
 categories:
 - game
 color: '#a39f9f'

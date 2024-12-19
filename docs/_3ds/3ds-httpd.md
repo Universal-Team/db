@@ -1,6 +1,6 @@
 ---
 author: Thog, SciresM, Dimaguy
-avatar: https://avatars.githubusercontent.com/u/7207103?v=4
+avatar: https://private-avatars.githubusercontent.com/u/7207103?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE0NjAsIm5iZiI6MTczNDYxMDI2MCwicGF0aCI6Ii91LzcyMDcxMDMifQ.SFK_rTyUu7w2C9hs7qeduWUUAtdCZoXVZ3LzbRkjFOM&v=4
 categories:
 - utility
 color: '#bfd9e3'

@@ -1,6 +1,6 @@
 ---
 author: Aftendo
-avatar: https://avatars.githubusercontent.com/u/155912716?v=4
+avatar: https://private-avatars.githubusercontent.com/u/155912716?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIxODAsIm5iZiI6MTczNDYxMDk4MCwicGF0aCI6Ii91LzE1NTkxMjcxNiJ9.EpNHupChJhkZnPt72bWWsE_TciDGzKDQwltX3REgI8c&v=4
 categories:
 - utility
 color: '#4d5b71'
@@ -33,7 +33,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/Aftendo/SatellaZone
-stars: 111
+stars: 112
 systems:
 - 3DS
 title: SatellaZone

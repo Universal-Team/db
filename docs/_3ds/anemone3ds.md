@@ -1,6 +1,6 @@
 ---
 author: Alex Taber
-avatar: https://avatars.githubusercontent.com/u/7305572?v=4
+avatar: https://private-avatars.githubusercontent.com/u/7305572?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE3NjAsIm5iZiI6MTczNDYxMDU2MCwicGF0aCI6Ii91LzczMDU1NzIifQ.2sJTp0RBEoZK_Rtmf5XnbtLLc3hjZEb-oyxl-4sKQvc&v=4
 categories:
 - utility
 color: '#5a9cc8'

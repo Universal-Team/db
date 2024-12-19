@@ -1,6 +1,6 @@
 ---
 author: xXHighTideXx
-avatar: https://avatars.githubusercontent.com/u/84487860?v=4
+avatar: https://private-avatars.githubusercontent.com/u/84487860?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE0NjAsIm5iZiI6MTczNDYxMDI2MCwicGF0aCI6Ii91Lzg0NDg3ODYwIn0.tV8YVwb_pTZpFobj2OgXioMluf7-uayF8beaR6ZE9MU&v=4
 categories:
 - app
 color: '#0094f5'

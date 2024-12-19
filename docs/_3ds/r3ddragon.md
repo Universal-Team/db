@@ -1,6 +1,6 @@
 ---
 author: danielps
-avatar: https://avatars.githubusercontent.com/u/9087084?v=4
+avatar: https://private-avatars.githubusercontent.com/u/9087084?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTE4MjAsIm5iZiI6MTczNDYxMDYyMCwicGF0aCI6Ii91LzkwODcwODQifQ.Zp7p2v8YQnL3ah79qwBqTMmxZAh9ay9qzw23k_iWpRE&v=4
 categories:
 - emulator
 color: '#d3d2d2'

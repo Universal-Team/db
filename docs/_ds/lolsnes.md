@@ -1,6 +1,6 @@
 ---
 author: Arisotura
-avatar: https://avatars.githubusercontent.com/u/1311867?v=4
+avatar: https://private-avatars.githubusercontent.com/u/1311867?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIxODAsIm5iZiI6MTczNDYxMDk4MCwicGF0aCI6Ii91LzEzMTE4NjcifQ.IlObqCp4W8qNr4REhFUhxSqKCJF5BDhbdW1BWkqio3E&v=4
 categories:
 - emulator
 color: '#7c9187'

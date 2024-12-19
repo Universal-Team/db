@@ -1,6 +1,6 @@
 ---
 author: Adrian Siekierka
-avatar: https://avatars.githubusercontent.com/u/113514?v=4
+avatar: https://private-avatars.githubusercontent.com/u/113514?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTIwNjAsIm5iZiI6MTczNDYxMDg2MCwicGF0aCI6Ii91LzExMzUxNCJ9.lR8qG2FBVbNj12PzeaDpKr4xW1m1GVgcoxt-gyem0Tc&v=4
 categories:
 - emulator
 color: '#6de0c1'
