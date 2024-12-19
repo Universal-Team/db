@@ -1,6 +1,6 @@
 ---
 author: H4x0rSpooky
-avatar: https://private-avatars.githubusercontent.com/u/60476091?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MjUzODAsIm5iZiI6MTczNDYyNDE4MCwicGF0aCI6Ii91LzYwNDc2MDkxIn0.DoOF0eirx4rKNdO8YBcero2v-f8CTeZQm-Qk3SOla4s&v=4
+avatar: https://private-avatars.githubusercontent.com/u/60476091?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2Mjg5ODAsIm5iZiI6MTczNDYyNzc4MCwicGF0aCI6Ii91LzYwNDc2MDkxIn0.JrW2Qo72oiLt2KjUoG6gr9VkO5WBW05ln3PQ7pPJe94&v=4
 categories:
 - utility
 color: '#8c99a7'
@@ -14,7 +14,7 @@ downloads:
     size_str: 1 MiB
     url: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/download/1.0.0/mk7-pid-grabber.3gx
 github: H4x0rSpooky/mk7-pid-grabber
-image: https://private-avatars.githubusercontent.com/u/60476091?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MjUzODAsIm5iZiI6MTczNDYyNDE4MCwicGF0aCI6Ii91LzYwNDc2MDkxIn0.DoOF0eirx4rKNdO8YBcero2v-f8CTeZQm-Qk3SOla4s&v=4&size=128
+image: https://private-avatars.githubusercontent.com/u/60476091?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2Mjg5ODAsIm5iZiI6MTczNDYyNzc4MCwicGF0aCI6Ii91LzYwNDc2MDkxIn0.JrW2Qo72oiLt2KjUoG6gr9VkO5WBW05ln3PQ7pPJe94&v=4&size=128
 image_length: 3758
 layout: app
 source: https://github.com/H4x0rSpooky/mk7-pid-grabber
