@@ -1,6 +1,6 @@
 ---
 author: h.tomioka
-avatar: https://private-avatars.githubusercontent.com/u/168841671?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTUxMjAsIm5iZiI6MTczNDYxMzkyMCwicGF0aCI6Ii91LzE2ODg0MTY3MSJ9.RghzVF9VOm3hwokYMwmw9que3KXStryQ-6YQh1Nji6k&v=4
+avatar: https://private-avatars.githubusercontent.com/u/168841671?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MTg3MjAsIm5iZiI6MTczNDYxNzUyMCwicGF0aCI6Ii91LzE2ODg0MTY3MSJ9.1ppo2Bsdp3j-QGkBaEE-bizKeHVqiMhgfQHrUaTup9s&v=4
 categories:
 - emulator
 color: '#2a3f9c'
@@ -15,7 +15,7 @@ downloads:
     size_str: 3 MiB
     url: https://github.com/TomiokaH01/fMSX3DS/releases/download/v1.42/fMSX3DS-1.42.zip
   fMSX3DS-1.42Source.zip:
-    size: 1330711
+    size: 1330812
     size_str: 1 MiB
     url: https://github.com/TomiokaH01/fMSX3DS/releases/download/v1.42/fMSX3DS-1.42Source.zip
 github: TomiokaH01/fMSX3DS
