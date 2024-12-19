@@ -1,6 +1,6 @@
 ---
 author: mGBA
-avatar: https://private-avatars.githubusercontent.com/u/10085927?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MjE3MjAsIm5iZiI6MTczNDYyMDUyMCwicGF0aCI6Ii91LzEwMDg1OTI3In0.D2q-pPPRaz802mKjX-VHrgHxrvS6C5zXeRb1421K53M&v=4
+avatar: https://private-avatars.githubusercontent.com/u/10085927?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MjUzMjAsIm5iZiI6MTczNDYyNDEyMCwicGF0aCI6Ii91LzEwMDg1OTI3In0.v3J6NhMojdBpHm35Zgd-K-l95UFP8X6GxZ1jIHWTXkk&v=4
 categories:
 - emulator
 color: '#503a7e'

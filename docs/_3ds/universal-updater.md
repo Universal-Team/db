@@ -1,6 +1,6 @@
 ---
 author: Universal-Team
-avatar: https://private-avatars.githubusercontent.com/u/49733679?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MjIzODAsIm5iZiI6MTczNDYyMTE4MCwicGF0aCI6Ii91LzQ5NzMzNjc5In0.N9DiFgNgKVfP4Sgg2c3rCjhMdvMXFNRwLbI0SxofwJk&v=4
+avatar: https://private-avatars.githubusercontent.com/u/49733679?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MjU5ODAsIm5iZiI6MTczNDYyNDc4MCwicGF0aCI6Ii91LzQ5NzMzNjc5In0.QT7SFVuJtnwXGd2iMpss7HxSRr0NBpAim4kAzQIOUfY&v=4
 categories:
 - utility
 color: '#0b497b'
@@ -73,7 +73,7 @@ screenshots:
 - description: Store selection
   url: https://db.universal-team.net/assets/images/screenshots/universal-updater/store-selection.png
 source: https://github.com/Universal-Team/Universal-Updater
-stars: 912
+stars: 913
 systems:
 - 3DS
 title: Universal-Updater
