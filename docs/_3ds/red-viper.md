@@ -1,6 +1,6 @@
 ---
 author: Floogle
-avatar: https://private-avatars.githubusercontent.com/u/18466542?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2Nzk1NjAsIm5iZiI6MTczNDY3ODM2MCwicGF0aCI6Ii91LzE4NDY2NTQyIn0.-T_84zewa7xcbbJkBwxwgqJgStSpNnx9jSVwQw84C3k&v=4
+avatar: https://private-avatars.githubusercontent.com/u/18466542?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2ODMxNjAsIm5iZiI6MTczNDY4MTk2MCwicGF0aCI6Ii91LzE4NDY2NTQyIn0.JV0U-zTtTEvWWMBY-jSK_aEpFNN_UPyR8uiew-T7zwA&v=4
 categories:
 - emulator
 color: '#d3d2d2'

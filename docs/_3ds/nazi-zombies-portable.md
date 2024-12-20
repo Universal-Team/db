@@ -1,6 +1,6 @@
 ---
 author: NZ:P Team & masterfeizz
-avatar: https://private-avatars.githubusercontent.com/u/91418801?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2Nzk4NjAsIm5iZiI6MTczNDY3ODY2MCwicGF0aCI6Ii91LzkxNDE4ODAxIn0.ncfhEkqnudsZ45nhofe3r3f46Ffxu-Q_XZ7JQub7z4o&v=4
+avatar: https://private-avatars.githubusercontent.com/u/91418801?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2ODM0NjAsIm5iZiI6MTczNDY4MjI2MCwicGF0aCI6Ii91LzkxNDE4ODAxIn0.aLPkqkEi2n7UJQolBL9lx7TRG5RD8uoxUBXrrFe8ZKE&v=4
 categories:
 - game
 color: '#441616'
@@ -34,7 +34,7 @@ screenshots:
 - description: Map selection
   url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/map-selection.png
 source: https://github.com/nzp-team/nzportable
-stars: 479
+stars: 480
 systems:
 - 3DS
 title: 'Nazi Zombies: Portable'
@@ -72,9 +72,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <p dir="auto">You can also play the WebGL version at <a href="https://nzp.gay/"
   rel="nofollow">https://nzp.gay/</a></p>'
-updated: '2024-12-15T07:22:48Z'
+updated: '2024-12-20T07:22:00Z'
 version: nightly
-version_title: 2.0.0-indev+20241215072156
+version_title: 2.0.0-indev+20241220072109
 website: https://github.com/nzp-team/nzportable
 ---
 A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at War.
