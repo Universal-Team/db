@@ -1,6 +1,6 @@
 ---
 author: h.tomioka
-avatar: https://private-avatars.githubusercontent.com/u/168841671?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NjE5MjAsIm5iZiI6MTczNDY2MDcyMCwicGF0aCI6Ii91LzE2ODg0MTY3MSJ9.U3DREyCYogaQ1pOG-NNnGT-zUYjeM3N8qNfCRqEneR4&v=4
+avatar: https://private-avatars.githubusercontent.com/u/168841671?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NjU1MjAsIm5iZiI6MTczNDY2NDMyMCwicGF0aCI6Ii91LzE2ODg0MTY3MSJ9.hoXdLLgJ999KAOFS0FxQ7Y7r_GA-9ZD8czgFbizqbx4&v=4
 categories:
 - emulator
 color: '#2a3f9c'
