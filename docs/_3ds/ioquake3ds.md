@@ -1,6 +1,6 @@
 ---
 author: Felipe Izzo
-avatar: https://private-avatars.githubusercontent.com/u/15205297?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzI4ODAsIm5iZiI6MTczNDYzMTY4MCwicGF0aCI6Ii91LzE1MjA1Mjk3In0.SDXjKpb6F4b0EA_lg6KC5q6Qz4GfuyTvAsIvn3PINdM&v=4
+avatar: https://private-avatars.githubusercontent.com/u/15205297?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcxODAsIm5iZiI6MTczNDY1NTk4MCwicGF0aCI6Ii91LzE1MjA1Mjk3In0.Pxq0P6U8xfO4ek3S5y782M3UUMSo59PkPcX1PuWcUhc&v=4
 categories:
 - game
 color: '#abd9db'
@@ -33,7 +33,7 @@ downloads:
     size_str: 68 MiB
     url: https://github.com/masterfeizz/ioQuake3DS/releases/download/v1.2.0/quake3_data.zip
 github: masterfeizz/ioQuake3DS
-image: https://private-avatars.githubusercontent.com/u/15205297?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzI4ODAsIm5iZiI6MTczNDYzMTY4MCwicGF0aCI6Ii91LzE1MjA1Mjk3In0.SDXjKpb6F4b0EA_lg6KC5q6Qz4GfuyTvAsIvn3PINdM&v=4&size=128
+image: https://private-avatars.githubusercontent.com/u/15205297?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcxODAsIm5iZiI6MTczNDY1NTk4MCwicGF0aCI6Ii91LzE1MjA1Mjk3In0.Pxq0P6U8xfO4ek3S5y782M3UUMSo59PkPcX1PuWcUhc&v=4&size=128
 image_length: 1569
 layout: app
 license: gpl-2.0

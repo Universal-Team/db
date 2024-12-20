@@ -1,6 +1,6 @@
 ---
 author: Mode8fx
-avatar: https://private-avatars.githubusercontent.com/u/57763469?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMxODAsIm5iZiI6MTczNDYzMTk4MCwicGF0aCI6Ii91LzU3NzYzNDY5In0.fyZE5m3NHATn9udVGVsAfngZAyoLFy-l0VkMl83tlUo&v=4
+avatar: https://private-avatars.githubusercontent.com/u/57763469?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTc0ODAsIm5iZiI6MTczNDY1NjI4MCwicGF0aCI6Ii91LzU3NzYzNDY5In0.l_PD6TlZUJRA740LmTeSaG98gUiFTNk43gjV6bmzVFM&v=4
 categories:
 - game
 color: '#0a6c24'

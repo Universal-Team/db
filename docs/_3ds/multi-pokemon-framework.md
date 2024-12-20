@@ -1,6 +1,6 @@
 ---
 author: semaj14
-avatar: https://private-avatars.githubusercontent.com/u/81500902?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMxODAsIm5iZiI6MTczNDYzMTk4MCwicGF0aCI6Ii91LzgxNTAwOTAyIn0.clMN_VWspAmV0zK1TXfHZ4jkgkxG47-AkDLWeScu9Ec&v=4
+avatar: https://private-avatars.githubusercontent.com/u/81500902?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY1ODAsIm5iZiI6MTczNDY1NTM4MCwicGF0aCI6Ii91LzgxNTAwOTAyIn0.H0fsOCSvIwsZ-xjNl-BCWDGHepT6jk5U2M4L86i26h0&v=4
 categories:
 - app
 color: '#e3d5a2'
@@ -15,7 +15,7 @@ downloads:
     size_str: 4 MiB
     url: https://github.com/semaj14/Multi-PokemonFramework/releases/download/v1.0.4/Release.zip
 github: semaj14/Multi-PokemonFramework
-image: https://private-avatars.githubusercontent.com/u/81500902?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMxODAsIm5iZiI6MTczNDYzMTk4MCwicGF0aCI6Ii91LzgxNTAwOTAyIn0.clMN_VWspAmV0zK1TXfHZ4jkgkxG47-AkDLWeScu9Ec&v=4&size=128
+image: https://private-avatars.githubusercontent.com/u/81500902?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY1ODAsIm5iZiI6MTczNDY1NTM4MCwicGF0aCI6Ii91LzgxNTAwOTAyIn0.H0fsOCSvIwsZ-xjNl-BCWDGHepT6jk5U2M4L86i26h0&v=4&size=128
 image_length: 1566
 layout: app
 license: gpl-3.0

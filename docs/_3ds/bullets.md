@@ -1,6 +1,6 @@
 ---
 author: Sethamphetamine
-avatar: https://private-avatars.githubusercontent.com/u/88207140?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzI5NDAsIm5iZiI6MTczNDYzMTc0MCwicGF0aCI6Ii91Lzg4MjA3MTQwIn0.L07rqEsf7Uy1hnEnq1S02CXSOWw2UPFW_Ddz-Arygw8&v=4
+avatar: https://private-avatars.githubusercontent.com/u/88207140?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcyNDAsIm5iZiI6MTczNDY1NjA0MCwicGF0aCI6Ii91Lzg4MjA3MTQwIn0.pez9jdj4JLJ2sLpjD6hQM0N-DDaALWS6CWNYAVBMuG4&v=4
 categories:
 - game
 created: '2024-05-11T03:30:11Z'

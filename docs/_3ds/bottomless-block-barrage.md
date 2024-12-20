@@ -1,6 +1,6 @@
 ---
 author: Brandon
-avatar: https://private-avatars.githubusercontent.com/u/824564?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzI2NDAsIm5iZiI6MTczNDYzMTQ0MCwicGF0aCI6Ii91LzgyNDU2NCJ9.8MAMOtT2su04Wua_4nsI4yRcsZL5D-emKhQXSmwYp14&v=4
+avatar: https://private-avatars.githubusercontent.com/u/824564?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY5NDAsIm5iZiI6MTczNDY1NTc0MCwicGF0aCI6Ii91LzgyNDU2NCJ9.PZ5tLU8UdFnYymCw50Uh9oWrUceJY1j9cuuYI2QMUHk&v=4
 categories:
 - game
 color: '#8b8c8b'

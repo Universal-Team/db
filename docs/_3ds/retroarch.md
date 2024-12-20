@@ -1,6 +1,6 @@
 ---
 author: Libretro
-avatar: https://private-avatars.githubusercontent.com/u/1812827?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMzMDAsIm5iZiI6MTczNDYzMjEwMCwicGF0aCI6Ii91LzE4MTI4MjcifQ.ily121-YzuR7MA7vuMseNjK5fD6uUPJvj-XRRmuRXa8&v=4
+avatar: https://private-avatars.githubusercontent.com/u/1812827?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY3MDAsIm5iZiI6MTczNDY1NTUwMCwicGF0aCI6Ii91LzE4MTI4MjcifQ.c7je-QbVmrwWFhLgQMfiaCkyWrjJANoqR0gRbqLVRLI&v=4
 categories:
 - emulator
 color: '#484848'
@@ -33,7 +33,7 @@ nightly:
     RetroArch_cia.7x:
       url: https://buildbot.libretro.com/nightly/nintendo/3ds/RetroArch_cia.7z
 source: https://github.com/libretro/RetroArch
-stars: 10453
+stars: 10455
 systems:
 - 3DS
 title: RetroArch

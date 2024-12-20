@@ -1,6 +1,6 @@
 ---
 author: d0k3
-avatar: https://private-avatars.githubusercontent.com/u/12467483?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMwNjAsIm5iZiI6MTczNDYzMTg2MCwicGF0aCI6Ii91LzEyNDY3NDgzIn0.TNcjY6JSuTo3LTE1gf585rn0YcaBtAW7WfOyJ5XXazA&v=4
+avatar: https://private-avatars.githubusercontent.com/u/12467483?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY0NjAsIm5iZiI6MTczNDY1NTI2MCwicGF0aCI6Ii91LzEyNDY3NDgzIn0.ie7gJ0yDiHx3jq5ZT2jIeU61kuXQGH-s2w62akMXwA8&v=4
 categories:
 - utility
 - firm
@@ -22,7 +22,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/d0k3/GodMode9
-stars: 2175
+stars: 2176
 systems:
 - 3DS
 title: GodMode9

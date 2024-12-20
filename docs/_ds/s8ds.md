@@ -1,6 +1,6 @@
 ---
 author: Fredrik Ahlström
-avatar: https://private-avatars.githubusercontent.com/u/2324920?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzM3MjAsIm5iZiI6MTczNDYzMjUyMCwicGF0aCI6Ii91LzIzMjQ5MjAifQ.pTjtGOyGyDxUIJtFPpfip9zRd68t100kvqXXKD1j6io&v=4
+avatar: https://private-avatars.githubusercontent.com/u/2324920?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcxMjAsIm5iZiI6MTczNDY1NTkyMCwicGF0aCI6Ii91LzIzMjQ5MjAifQ.wz5vDNFMisZnCVL4js3eS7E1pICKzTreFZDXDMEltnw&v=4
 categories:
 - emulator
 color: '#594648'

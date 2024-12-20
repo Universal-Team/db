@@ -1,6 +1,6 @@
 ---
 author: Nat Osaka
-avatar: https://private-avatars.githubusercontent.com/u/16436651?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzI5NDAsIm5iZiI6MTczNDYzMTc0MCwicGF0aCI6Ii91LzE2NDM2NjUxIn0.QsAQ8PGeZFSYm4njk_dPxjGbYoVLS2aPCZ_dCx3zFAg&v=4
+avatar: https://private-avatars.githubusercontent.com/u/16436651?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcyNDAsIm5iZiI6MTczNDY1NjA0MCwicGF0aCI6Ii91LzE2NDM2NjUxIn0.Q3Xb9hSAXct4sLc453hk_Xli9AEKNRAU5Y1zN0qaLno&v=4
 categories:
 - app
 color: '#a2a3a4'

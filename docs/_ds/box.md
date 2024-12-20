@@ -1,6 +1,6 @@
 ---
 author: Garhoogin
-avatar: https://private-avatars.githubusercontent.com/u/22681618?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMzNjAsIm5iZiI6MTczNDYzMjE2MCwicGF0aCI6Ii91LzIyNjgxNjE4In0.eaVZQ0zBKBj0glmauxYur_NJHeB73-M--08wG5mbrFQ&v=4
+avatar: https://private-avatars.githubusercontent.com/u/22681618?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY3NjAsIm5iZiI6MTczNDY1NTU2MCwicGF0aCI6Ii91LzIyNjgxNjE4In0.aLICWQMld32lpLW2MiM-y-RJwtoVWCPQ26omgkoRDZQ&v=4
 categories:
 - game
 color: '#5b473d'

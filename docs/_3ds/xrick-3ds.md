@@ -1,6 +1,6 @@
 ---
 author: nop90
-avatar: https://private-avatars.githubusercontent.com/u/6418965?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzI4MjAsIm5iZiI6MTczNDYzMTYyMCwicGF0aCI6Ii91LzY0MTg5NjUifQ.VaOhSF9kKLCdi2XCbvpZjp9VdsSYf539B1uN1Z6E0L4&v=4
+avatar: https://private-avatars.githubusercontent.com/u/6418965?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcxMjAsIm5iZiI6MTczNDY1NTkyMCwicGF0aCI6Ii91LzY0MTg5NjUifQ.6XLdFTixtu7ovVvaaTK8x_8Pi84o1TuQgCC5Iv-AqW8&v=4
 categories:
 - game
 color: '#764d2f'

@@ -1,7 +1,7 @@
 ---
 author: LumaTeam
 autogen_scripts: true
-avatar: https://private-avatars.githubusercontent.com/u/65085206?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMwMDAsIm5iZiI6MTczNDYzMTgwMCwicGF0aCI6Ii91LzY1MDg1MjA2In0.Uu9wrLmPEg8wcug7Mi45arXkKgeDvXiD0Pcb6LyFSBI&v=4
+avatar: https://private-avatars.githubusercontent.com/u/65085206?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY0MDAsIm5iZiI6MTczNDY1NTIwMCwicGF0aCI6Ii91LzY1MDg1MjA2In0.wWzkhnZrZeOBcCdmBBXvF2i3PKW1uNIBxjRVAkUrRvI&v=4
 categories:
 - utility
 - firm
@@ -17,7 +17,7 @@ downloads:
     size_str: 534 KiB
     url: https://github.com/LumaTeam/Luma3DS/releases/download/v13.2.1/Luma3DSv13.2.1.zip
 github: LumaTeam/Luma3DS
-image: https://private-avatars.githubusercontent.com/u/65085206?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMwMDAsIm5iZiI6MTczNDYzMTgwMCwicGF0aCI6Ii91LzY1MDg1MjA2In0.Uu9wrLmPEg8wcug7Mi45arXkKgeDvXiD0Pcb6LyFSBI&v=4&size=128
+image: https://private-avatars.githubusercontent.com/u/65085206?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY0MDAsIm5iZiI6MTczNDY1NTIwMCwicGF0aCI6Ii91LzY1MDg1MjA2In0.wWzkhnZrZeOBcCdmBBXvF2i3PKW1uNIBxjRVAkUrRvI&v=4&size=128
 image_length: 7260
 layout: app
 license: gpl-3.0

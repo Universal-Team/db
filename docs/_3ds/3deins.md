@@ -1,6 +1,6 @@
 ---
 author: Universal-Team
-avatar: https://private-avatars.githubusercontent.com/u/49733679?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMxODAsIm5iZiI6MTczNDYzMTk4MCwicGF0aCI6Ii91LzQ5NzMzNjc5In0.k-ul8Xpky7P20_tDKS-lu4lfGbmRvThAQR--WbkRcBg&v=4
+avatar: https://private-avatars.githubusercontent.com/u/49733679?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTc0ODAsIm5iZiI6MTczNDY1NjI4MCwicGF0aCI6Ii91LzQ5NzMzNjc5In0.-yDVZGKApaF65WzAzNUDByJbJ3ghyHCWwqguD6W0clM&v=4
 categories:
 - game
 color: '#b89c52'

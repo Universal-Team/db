@@ -1,6 +1,6 @@
 ---
 author: Zachary-Rude
-avatar: https://private-avatars.githubusercontent.com/u/84681078?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMzMDAsIm5iZiI6MTczNDYzMjEwMCwicGF0aCI6Ii91Lzg0NjgxMDc4In0.rIA50vYa0qdVz9G4D2F1JIVThUZWg5e-0n3ke1Nro8w&v=4
+avatar: https://private-avatars.githubusercontent.com/u/84681078?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTc2MDAsIm5iZiI6MTczNDY1NjQwMCwicGF0aCI6Ii91Lzg0NjgxMDc4In0.YwjH6aaCq68JqB68v_fP0742_6hRhDppPe1fhVlZIkw&v=4
 categories:
 - game
 color: '#20de00'

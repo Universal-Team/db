@@ -1,6 +1,6 @@
 ---
 author: JeffRuLz
-avatar: https://private-avatars.githubusercontent.com/u/14222721?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMxODAsIm5iZiI6MTczNDYzMTk4MCwicGF0aCI6Ii91LzE0MjIyNzIxIn0.P-BW2YzwbSbbuZXGOwr22wViBp0uf-zqwsJWsk2WGMM&v=4
+avatar: https://private-avatars.githubusercontent.com/u/14222721?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY1ODAsIm5iZiI6MTczNDY1NTM4MCwicGF0aCI6Ii91LzE0MjIyNzIxIn0.w7lUNkZR_0JG5c54cyd71MJVFBJ52EMplLocyawWVQw&v=4
 categories:
 - game
 color: '#8b948e'

@@ -1,7 +1,7 @@
 ---
 author: Kartik
 autogen_scripts: true
-avatar: https://private-avatars.githubusercontent.com/u/16360444?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzM2MDAsIm5iZiI6MTczNDYzMjQwMCwicGF0aCI6Ii91LzE2MzYwNDQ0In0.dbbMcUiB1nHkUVfhX_Q1JRky9NmCjeQNeWV7y6BiWSs&v=4
+avatar: https://private-avatars.githubusercontent.com/u/16360444?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcwMDAsIm5iZiI6MTczNDY1NTgwMCwicGF0aCI6Ii91LzE2MzYwNDQ0In0.zB55tonC7O_DM9xcBkU6uVDOAw4cdyJvCkjUknWjIeY&v=4
 categories:
 - utility
 color: '#411c38'
@@ -16,7 +16,7 @@ downloads:
     size_str: 732 KiB
     url: https://github.com/hax0kartik/rehid/releases/download/v4.0/rehidhelper.cia
 github: hax0kartik/rehid
-image: https://private-avatars.githubusercontent.com/u/16360444?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzM2MDAsIm5iZiI6MTczNDYzMjQwMCwicGF0aCI6Ii91LzE2MzYwNDQ0In0.dbbMcUiB1nHkUVfhX_Q1JRky9NmCjeQNeWV7y6BiWSs&v=4&size=128
+image: https://private-avatars.githubusercontent.com/u/16360444?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcwMDAsIm5iZiI6MTczNDY1NTgwMCwicGF0aCI6Ii91LzE2MzYwNDQ0In0.zB55tonC7O_DM9xcBkU6uVDOAw4cdyJvCkjUknWjIeY&v=4&size=128
 image_length: 21350
 layout: app
 qr:

@@ -1,6 +1,6 @@
 ---
 author: UnknownShadow200
-avatar: https://private-avatars.githubusercontent.com/u/51250960?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzI3NjAsIm5iZiI6MTczNDYzMTU2MCwicGF0aCI6Ii91LzUxMjUwOTYwIn0.BU1NXGQtjFfD2v9yfNp_L03z5LoVO0IFdU2wXBWIbPk&v=4
+avatar: https://private-avatars.githubusercontent.com/u/51250960?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcwNjAsIm5iZiI6MTczNDY1NTg2MCwicGF0aCI6Ii91LzUxMjUwOTYwIn0.S-ETrbtAfQjaxx841ch6mAS5kElxZfvxvqMHs9A3wTY&v=4
 categories:
 - game
 color: '#c5c5c5'
@@ -27,7 +27,7 @@ nightly:
   qr:
     ClassiCube-3ds.cia: https://db.universal-team.net/assets/images/qr/nightly/classicube-3ds-cia.png
 source: https://github.com/ClassiCube/ClassiCube
-stars: 1515
+stars: 1517
 systems:
 - 3DS
 title: ClassiCube

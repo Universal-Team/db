@@ -1,6 +1,6 @@
 ---
 author: profi200
-avatar: https://private-avatars.githubusercontent.com/u/7831477?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzI3NjAsIm5iZiI6MTczNDYzMTU2MCwicGF0aCI6Ii91Lzc4MzE0NzcifQ.aRtaoQdFdLU0dliBh2GFhNPP2B_ImsykxN86ot9K5G0&v=4
+avatar: https://private-avatars.githubusercontent.com/u/7831477?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcwNjAsIm5iZiI6MTczNDY1NTg2MCwicGF0aCI6Ii91Lzc4MzE0NzcifQ.I4mS3d6keN57llXp5_9lOlMlXvde-3_3_vBzCsWKzUc&v=4
 categories:
 - emulator
 - firm
@@ -16,13 +16,13 @@ downloads:
     size_str: 138 KiB
     url: https://github.com/profi200/open_agb_firm/releases/download/beta_2024-07-30/open_agb_firm_beta_20240730.7z
 github: profi200/open_agb_firm
-image: https://private-avatars.githubusercontent.com/u/7831477?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzI3NjAsIm5iZiI6MTczNDYzMTU2MCwicGF0aCI6Ii91Lzc4MzE0NzcifQ.aRtaoQdFdLU0dliBh2GFhNPP2B_ImsykxN86ot9K5G0&v=4&size=128
+image: https://private-avatars.githubusercontent.com/u/7831477?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcwNjAsIm5iZiI6MTczNDY1NTg2MCwicGF0aCI6Ii91Lzc4MzE0NzcifQ.I4mS3d6keN57llXp5_9lOlMlXvde-3_3_vBzCsWKzUc&v=4&size=128
 image_length: 1560
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/profi200/open_agb_firm
-stars: 978
+stars: 979
 systems:
 - 3DS
 title: open_agb_firm

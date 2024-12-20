@@ -1,6 +1,6 @@
 ---
 author: The Angband team
-avatar: https://private-avatars.githubusercontent.com/u/458884?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMzNjAsIm5iZiI6MTczNDYzMjE2MCwicGF0aCI6Ii91LzQ1ODg4NCJ9.0kU1O_cKt9bemD21P515Ip9hBaUidF4dmm1i34GGViE&v=4
+avatar: https://private-avatars.githubusercontent.com/u/458884?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY3NjAsIm5iZiI6MTczNDY1NTU2MCwicGF0aCI6Ii91LzQ1ODg4NCJ9.VBISH7Hm8m-M1rr8_CYvJtVrSNByes25v9o6wayFxLA&v=4
 categories:
 - game
 color: '#858585'

@@ -1,6 +1,6 @@
 ---
 author: Komas19
-avatar: https://private-avatars.githubusercontent.com/u/82937056?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMwNjAsIm5iZiI6MTczNDYzMTg2MCwicGF0aCI6Ii91LzgyOTM3MDU2In0.hWaM0lPewDX7nIgJb-pEWBSbN3KKkjAF0n4yR1hCn7E&v=4
+avatar: https://private-avatars.githubusercontent.com/u/82937056?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTczNjAsIm5iZiI6MTczNDY1NjE2MCwicGF0aCI6Ii91LzgyOTM3MDU2In0.dMnzP6JnSuohSK41axZ2oGO_u0xde1AHdTxhRfSictg&v=4
 categories:
 - game
 color: '#e28e8f'

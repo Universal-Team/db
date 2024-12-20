@@ -1,6 +1,6 @@
 ---
 author: PabloMK7
-avatar: https://private-avatars.githubusercontent.com/u/10946643?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzI3NjAsIm5iZiI6MTczNDYzMTU2MCwicGF0aCI6Ii91LzEwOTQ2NjQzIn0.cRymk9Tiw8Xe69f9xSgqJhVsyaob85_QnBKY4H3HwZ0&v=4
+avatar: https://private-avatars.githubusercontent.com/u/10946643?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcwNjAsIm5iZiI6MTczNDY1NTg2MCwicGF0aCI6Ii91LzEwOTQ2NjQzIn0.OVy0M-z1ziJ1nQsI9S_SvRXsiJur8BAO6a24tesToCo&v=4
 categories:
 - game
 color: '#557662'

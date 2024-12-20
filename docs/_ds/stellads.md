@@ -1,6 +1,6 @@
 ---
 author: AlekMaul / wavemotion-dave
-avatar: https://private-avatars.githubusercontent.com/u/75039837?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTA4ODAsIm5iZiI6MTczNDY0OTY4MCwicGF0aCI6Ii91Lzc1MDM5ODM3In0.oa94uxxLDADHvDrg3j1ZSVruLINq6i7i377x1PNuGgQ&v=4
+avatar: https://private-avatars.githubusercontent.com/u/75039837?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcxODAsIm5iZiI6MTczNDY1NTk4MCwicGF0aCI6Ii91Lzc1MDM5ODM3In0.w3SdPoYL-oDuGAyfD9e0R1BKUNtVaCZwfCRbbtZU75Q&v=4
 categories:
 - emulator
 color: '#969188'

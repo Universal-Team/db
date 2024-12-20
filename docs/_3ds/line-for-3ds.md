@@ -1,6 +1,6 @@
 ---
 author: Core 2 Extreme
-avatar: https://private-avatars.githubusercontent.com/u/45873899?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMwMDAsIm5iZiI6MTczNDYzMTgwMCwicGF0aCI6Ii91LzQ1ODczODk5In0.6Y67mFVm-zzWpoTVPJRu94-Lbo6xlJ3PgOZvsf8fkBQ&v=4
+avatar: https://private-avatars.githubusercontent.com/u/45873899?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTczMDAsIm5iZiI6MTczNDY1NjEwMCwicGF0aCI6Ii91LzQ1ODczODk5In0.v35QBItnASraoG3GblStX5ZkVwG94SJdSJcnNUyNpu4&v=4
 categories:
 - app
 color: '#86de86'

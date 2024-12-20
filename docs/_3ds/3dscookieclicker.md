@@ -1,6 +1,6 @@
 ---
 author: Creckeryop
-avatar: https://private-avatars.githubusercontent.com/u/25725992?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMzMDAsIm5iZiI6MTczNDYzMjEwMCwicGF0aCI6Ii91LzI1NzI1OTkyIn0.PhIu_t1aLNRcWInL0BNlt9q44Q4JaoB4zAWoksoYF0U&v=4
+avatar: https://private-avatars.githubusercontent.com/u/25725992?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY3MDAsIm5iZiI6MTczNDY1NTUwMCwicGF0aCI6Ii91LzI1NzI1OTkyIn0.C0i73l80SPkb500XYbA-CI1Pjn5cf3nj9f_gHsYfJ4w&v=4
 categories:
 - game
 color: '#546f7d'

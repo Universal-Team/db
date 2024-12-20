@@ -1,6 +1,6 @@
 ---
 author: Cross Craft Team
-avatar: https://private-avatars.githubusercontent.com/u/75173998?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMxMjAsIm5iZiI6MTczNDYzMTkyMCwicGF0aCI6Ii91Lzc1MTczOTk4In0.D1MocmQZXPYiQcvks68LWUnwOn2tR83Jm6sdx4Y6Xzw&v=4
+avatar: https://private-avatars.githubusercontent.com/u/75173998?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTc0MjAsIm5iZiI6MTczNDY1NjIyMCwicGF0aCI6Ii91Lzc1MTczOTk4In0.VC4e2pYPoGivhzqCxWUBQmAqnTeHJFN8PeSDiFU6Giw&v=4
 categories:
 - game
 color: '#7d766a'

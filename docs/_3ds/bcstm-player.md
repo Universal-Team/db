@@ -1,6 +1,6 @@
 ---
 author: NPI-D7
-avatar: https://private-avatars.githubusercontent.com/u/71648010?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzM0MjAsIm5iZiI6MTczNDYzMjIyMCwicGF0aCI6Ii91LzcxNjQ4MDEwIn0.PVyW4DiyvQDYLAv83MK3-EsKacwL3JlV47FyscutzI8&v=4
+avatar: https://private-avatars.githubusercontent.com/u/71648010?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY4MjAsIm5iZiI6MTczNDY1NTYyMCwicGF0aCI6Ii91LzcxNjQ4MDEwIn0.1BOzVurL0AZL_9l90L2ZPACMohiAexV1K9-SiKhdRIU&v=4
 categories:
 - app
 color: '#a1a0c9'

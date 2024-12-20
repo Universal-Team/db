@@ -1,6 +1,6 @@
 ---
 author: smea
-avatar: https://private-avatars.githubusercontent.com/u/6338016?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzM2NjAsIm5iZiI6MTczNDYzMjQ2MCwicGF0aCI6Ii91LzYzMzgwMTYifQ.0vzgpxNit1g8NEq1beyCxHB5a3n_Ad2cWhXX8JLvBBg&v=4
+avatar: https://private-avatars.githubusercontent.com/u/6338016?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcwNjAsIm5iZiI6MTczNDY1NTg2MCwicGF0aCI6Ii91LzYzMzgwMTYifQ.DPEP4lbO3N233yJSdtj5GQH-4ugvon-TS-Yxl1muCd4&v=4
 categories:
 - game
 color: '#4b5327'

@@ -1,6 +1,6 @@
 ---
 author: Fewnity
-avatar: https://private-avatars.githubusercontent.com/u/39272935?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMyNDAsIm5iZiI6MTczNDYzMjA0MCwicGF0aCI6Ii91LzM5MjcyOTM1In0.bW5KlU8nCa53lgKXpy-Ojdayt6nkjrZ86WcfPRweO5c&v=4
+avatar: https://private-avatars.githubusercontent.com/u/39272935?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTc1NDAsIm5iZiI6MTczNDY1NjM0MCwicGF0aCI6Ii91LzM5MjcyOTM1In0.seMCnWEac0O0bAPiBq3g74nZV4JSrYwPtq5MnxICEhI&v=4
 categories:
 - game
 color: '#9d9d9d'

@@ -1,6 +1,6 @@
 ---
 author: MrHuu
-avatar: https://private-avatars.githubusercontent.com/u/561623?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzMxMjAsIm5iZiI6MTczNDYzMTkyMCwicGF0aCI6Ii91LzU2MTYyMyJ9.3pTUw6z6DQ3iO1tec0Jl5jj1E2mz5dlT9Zxbbjqxj64&v=4
+avatar: https://private-avatars.githubusercontent.com/u/561623?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTc0MjAsIm5iZiI6MTczNDY1NjIyMCwicGF0aCI6Ii91LzU2MTYyMyJ9.VmUoH-BKINHPcYuMDCIq-1wxNMi8RmEckc38qgnbWpM&v=4
 categories:
 - game
 color: '#b3a764'

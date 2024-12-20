@@ -1,6 +1,6 @@
 ---
 author: Mário Alexandre Lopes Liberato
-avatar: https://private-avatars.githubusercontent.com/u/11259227?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2MzI3NjAsIm5iZiI6MTczNDYzMTU2MCwicGF0aCI6Ii91LzExMjU5MjI3In0.snnFyum5tGOIvtJOST0Fr9jDhGmkxGDeWGcTfXkZVQY&v=4
+avatar: https://private-avatars.githubusercontent.com/u/11259227?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcwNjAsIm5iZiI6MTczNDY1NTg2MCwicGF0aCI6Ii91LzExMjU5MjI3In0.XWSyQT829WCEijgmA4qX2e1gkA4l5auhYI1p91sX_O0&v=4
 categories:
 - utility
 color: '#a3b290'
