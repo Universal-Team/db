@@ -1,6 +1,6 @@
 ---
 author: Daniel LeWarne
-avatar: https://private-avatars.githubusercontent.com/u/153100?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzU3MjAsIm5iZiI6MTczNDY3NDUyMCwicGF0aCI6Ii91LzE1MzEwMCJ9.n7XJQ9P2PKgLWIQhdDrlNLG-Y26W0SpiKsAGGdYyePs&v=4
+avatar: https://avatars.githubusercontent.com/u/153100?v=4
 categories:
 - utility
 color: '#8b9990'

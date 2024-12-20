@@ -1,6 +1,6 @@
 ---
 author: Mahyar Koshkouei
-avatar: https://private-avatars.githubusercontent.com/u/3747104?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYzODAsIm5iZiI6MTczNDY3NTE4MCwicGF0aCI6Ii91LzM3NDcxMDQifQ.H-U4iRojOvA0h-KNwS513ksSzLlKyYSjpngFlpNzgDM&v=4
+avatar: https://avatars.githubusercontent.com/u/3747104?v=4
 categories:
 - app
 color: '#f7f6f7'

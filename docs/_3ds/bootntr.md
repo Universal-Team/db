@@ -1,6 +1,6 @@
 ---
 author: Nanquitas
-avatar: https://private-avatars.githubusercontent.com/u/13298129?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYwODAsIm5iZiI6MTczNDY3NDg4MCwicGF0aCI6Ii91LzEzMjk4MTI5In0.rEYQsZL8BmpXHuV38zc7rRQxu-itVWsV-E_ryNDAPHs&v=4
+avatar: https://avatars.githubusercontent.com/u/13298129?v=4
 categories:
 - utility
 color: '#7c626d'

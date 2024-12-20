@@ -1,7 +1,7 @@
 ---
 author: Philipp Joram
 autogen_scripts: true
-avatar: https://private-avatars.githubusercontent.com/u/10487782?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY3NDAsIm5iZiI6MTczNDY3NTU0MCwicGF0aCI6Ii91LzEwNDg3NzgyIn0.WcyjFTHnlgYFOg3GP2JBXlfEwliNelX_suCCKaZl2wQ&v=4
+avatar: https://avatars.githubusercontent.com/u/10487782?v=4
 categories:
 - utility
 color: '#a8a8a8'

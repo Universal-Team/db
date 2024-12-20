@@ -1,6 +1,6 @@
 ---
 author: Aftendo
-avatar: https://private-avatars.githubusercontent.com/u/155912716?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYwODAsIm5iZiI6MTczNDY3NDg4MCwicGF0aCI6Ii91LzE1NTkxMjcxNiJ9.QLyOC3LQvq0pE1s9kPPnYk2uJVgC8ihxFtRZZZjELA4&v=4
+avatar: https://avatars.githubusercontent.com/u/155912716?v=4
 categories:
 - utility
 color: '#4d5b71'

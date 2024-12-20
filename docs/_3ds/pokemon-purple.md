@@ -1,6 +1,6 @@
 ---
 author: FlameTheGamer
-avatar: https://private-avatars.githubusercontent.com/u/137841349?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYzODAsIm5iZiI6MTczNDY3NTE4MCwicGF0aCI6Ii91LzEzNzg0MTM0OSJ9.jJmb8OPiSXlt0eQbF8m-jmbjGoX3ne4BYJHF8Y1qeKM&v=4
+avatar: https://avatars.githubusercontent.com/u/137841349?v=4
 categories:
 - game
 color: '#8e7d4f'
@@ -19,7 +19,7 @@ downloads:
     size_str: 128 KiB
     url: https://github.com/The4thPlayer/Pokemon-Purple/releases/download/Release/GAME.BOY.RELEASE.gb
 github: The4thPlayer/Pokemon-Purple
-image: https://private-avatars.githubusercontent.com/u/137841349?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYzODAsIm5iZiI6MTczNDY3NTE4MCwicGF0aCI6Ii91LzEzNzg0MTM0OSJ9.jJmb8OPiSXlt0eQbF8m-jmbjGoX3ne4BYJHF8Y1qeKM&v=4&size=128
+image: https://avatars.githubusercontent.com/u/137841349?v=4&size=128
 image_length: 3695
 layout: app
 license: gpl-3.0

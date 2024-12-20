@@ -1,6 +1,6 @@
 ---
 author: Gericom
-avatar: https://private-avatars.githubusercontent.com/u/5251038?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY2ODAsIm5iZiI6MTczNDY3NTQ4MCwicGF0aCI6Ii91LzUyNTEwMzgifQ.xn0opGJV1yQXozCk2g6ljBHufp8M7D0Zb0AUPpwuaU0&v=4
+avatar: https://avatars.githubusercontent.com/u/5251038?v=4
 categories:
 - utility
 color: '#7e694a'
@@ -12,7 +12,7 @@ downloads:
   MPEG4Player.nds.zip:
     url: https://gbatemp.net/attachments/mpeg4player-nds-zip.203629/
 github: Gericom/YouTubeDS
-image: https://private-avatars.githubusercontent.com/u/5251038?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY2ODAsIm5iZiI6MTczNDY3NTQ4MCwicGF0aCI6Ii91LzUyNTEwMzgifQ.xn0opGJV1yQXozCk2g6ljBHufp8M7D0Zb0AUPpwuaU0&v=4&size=128
+image: https://avatars.githubusercontent.com/u/5251038?v=4&size=128
 image_length: 43557
 layout: app
 source: https://github.com/Gericom/YoutubeDS/tree/mpeg4player

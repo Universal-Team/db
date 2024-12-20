@@ -1,6 +1,6 @@
 ---
 author: nop90
-avatar: https://private-avatars.githubusercontent.com/u/6418965?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYwMjAsIm5iZiI6MTczNDY3NDgyMCwicGF0aCI6Ii91LzY0MTg5NjUifQ.fHMBLBLKPOgn-NGpRv-7yTBBx1lzyi68YJnPHC9LWXg&v=4
+avatar: https://avatars.githubusercontent.com/u/6418965?v=4
 categories:
 - game
 color: '#d1babe'

@@ -1,6 +1,6 @@
 ---
 author: RedShyGuy
-avatar: https://private-avatars.githubusercontent.com/u/43783060?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYwMjAsIm5iZiI6MTczNDY3NDgyMCwicGF0aCI6Ii91LzQzNzgzMDYwIn0.0EoweKee8ZEWSUTZcxRUrEwoa9wgQQCcv0iaiPgH60k&v=4
+avatar: https://avatars.githubusercontent.com/u/43783060?v=4
 categories:
 - utility
 color: '#9e7b69'

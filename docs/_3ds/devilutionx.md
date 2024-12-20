@@ -1,6 +1,6 @@
 ---
 author: diasurgical
-avatar: https://private-avatars.githubusercontent.com/u/40645014?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY1NjAsIm5iZiI6MTczNDY3NTM2MCwicGF0aCI6Ii91LzQwNjQ1MDE0In0.SMsgeIIBr5-5O7uIAm-UVyG-0u4Y1H3xtHDEXpQ8PiA&v=4
+avatar: https://avatars.githubusercontent.com/u/40645014?v=4
 categories:
 - game
 color: '#695d5d'
@@ -28,7 +28,7 @@ license_name: Other
 qr:
   devilutionx-3ds.cia: https://db.universal-team.net/assets/images/qr/devilutionx-3ds-cia.png
 source: https://github.com/diasurgical/devilutionX
-stars: 8159
+stars: 8160
 systems:
 - 3DS
 title: devilutionX

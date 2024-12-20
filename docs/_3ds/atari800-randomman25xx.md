@@ -1,6 +1,6 @@
 ---
 author: Captain_Jerkass96
-avatar: https://private-avatars.githubusercontent.com/u/13063346?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzU5MDAsIm5iZiI6MTczNDY3NDcwMCwicGF0aCI6Ii91LzEzMDYzMzQ2In0.qyamG8lmfOIiD1fPgY9J_6h0XX2nWaU0WvmD6uCBjIs&v=4
+avatar: https://avatars.githubusercontent.com/u/13063346?v=4
 categories:
 - emulator
 color: '#4d4458'

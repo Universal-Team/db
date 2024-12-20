@@ -1,6 +1,6 @@
 ---
 author: rverse
-avatar: https://private-avatars.githubusercontent.com/u/38678735?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzU5NjAsIm5iZiI6MTczNDY3NDc2MCwicGF0aCI6Ii91LzM4Njc4NzM1In0.fhcKYa-KZN8BCBBnL9zr26rcQrDInsIEjqHMzA70cCM&v=4
+avatar: https://avatars.githubusercontent.com/u/38678735?v=4
 categories:
 - utility
 color: '#282597'
@@ -18,7 +18,7 @@ downloads:
     size_str: 6 KiB
     url: https://github.com/rverseTeam/rverse-Releases/releases/download/v4.0.0/rverse-3ds.zip
 github: rverseTeam/rverse-Releases
-image: https://private-avatars.githubusercontent.com/u/38678735?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzU5NjAsIm5iZiI6MTczNDY3NDc2MCwicGF0aCI6Ii91LzM4Njc4NzM1In0.fhcKYa-KZN8BCBBnL9zr26rcQrDInsIEjqHMzA70cCM&v=4&size=128
+image: https://avatars.githubusercontent.com/u/38678735?v=4&size=128
 image_length: 3828
 layout: app
 source: https://github.com/rverseTeam/rverse2

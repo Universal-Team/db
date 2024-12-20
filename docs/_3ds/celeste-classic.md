@@ -1,6 +1,6 @@
 ---
 author: MateoThePro, JeffRuLz, Matt Makes Games
-avatar: https://private-avatars.githubusercontent.com/u/50515160?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYwMjAsIm5iZiI6MTczNDY3NDgyMCwicGF0aCI6Ii91LzUwNTE1MTYwIn0.cKRvc1NdoiEDXdoAeBd93B_P42w5mVSUkzoCs82FokM&v=4
+avatar: https://avatars.githubusercontent.com/u/50515160?v=4
 categories:
 - game
 color: '#050506'

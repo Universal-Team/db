@@ -1,6 +1,6 @@
 ---
 author: Cory Sanin
-avatar: https://private-avatars.githubusercontent.com/u/2897351?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYyMDAsIm5iZiI6MTczNDY3NTAwMCwicGF0aCI6Ii91LzI4OTczNTEifQ.SaUlxFJ8eT-ZljvmZEO7hQtnLpX-uGtXwzatV2QYkvo&v=4
+avatar: https://avatars.githubusercontent.com/u/2897351?v=4
 categories:
 - utility
 color: '#7e9a6e'

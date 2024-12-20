@@ -1,6 +1,6 @@
 ---
 author: semaj14
-avatar: https://private-avatars.githubusercontent.com/u/81500902?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYzODAsIm5iZiI6MTczNDY3NTE4MCwicGF0aCI6Ii91LzgxNTAwOTAyIn0.h8Lx7_MQ5jZBtO0pZSSPpWQs1QHsLIIRiWvXvmVa3hw&v=4
+avatar: https://avatars.githubusercontent.com/u/81500902?v=4
 categories:
 - app
 color: '#e3d5a2'
@@ -15,7 +15,7 @@ downloads:
     size_str: 4 MiB
     url: https://github.com/semaj14/Multi-PokemonFramework/releases/download/v1.0.4/Release.zip
 github: semaj14/Multi-PokemonFramework
-image: https://private-avatars.githubusercontent.com/u/81500902?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYzODAsIm5iZiI6MTczNDY3NTE4MCwicGF0aCI6Ii91LzgxNTAwOTAyIn0.h8Lx7_MQ5jZBtO0pZSSPpWQs1QHsLIIRiWvXvmVa3hw&v=4&size=128
+image: https://avatars.githubusercontent.com/u/81500902?v=4&size=128
 image_length: 1566
 layout: app
 license: gpl-3.0

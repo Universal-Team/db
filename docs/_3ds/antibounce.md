@@ -1,7 +1,7 @@
 ---
 author: Serena Postelnek
 autogen_scripts: true
-avatar: https://private-avatars.githubusercontent.com/u/6239208?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY1NjAsIm5iZiI6MTczNDY3NTM2MCwicGF0aCI6Ii91LzYyMzkyMDgifQ.Woo986YiYIrCgZMe4Kk9pelp2KVvJjHMnCtRmHYpuJc&v=4
+avatar: https://avatars.githubusercontent.com/u/6239208?v=4
 categories:
 - game
 color: '#22a608'

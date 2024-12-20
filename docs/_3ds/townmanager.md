@@ -1,6 +1,6 @@
 ---
 author: Nat Osaka
-avatar: https://private-avatars.githubusercontent.com/u/704081?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY4NjAsIm5iZiI6MTczNDY3NTY2MCwicGF0aCI6Ii91LzcwNDA4MSJ9.SaOAu9LuGDwb6szzjjhptAqTYNwzPVa5RqhI85YJSSk&v=4
+avatar: https://avatars.githubusercontent.com/u/704081?v=4
 categories:
 - utility
 - save-tool

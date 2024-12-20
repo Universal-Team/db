@@ -1,6 +1,6 @@
 ---
 author: d0k3
-avatar: https://private-avatars.githubusercontent.com/u/12467483?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYyNjAsIm5iZiI6MTczNDY3NTA2MCwicGF0aCI6Ii91LzEyNDY3NDgzIn0.fA2Zi3pebsQcNWQZlENsneu_2-vxTWQInsAZ305UlR0&v=4
+avatar: https://avatars.githubusercontent.com/u/12467483?v=4
 categories:
 - utility
 color: '#b49e8d'

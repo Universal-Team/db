@@ -1,6 +1,6 @@
 ---
 author: noirscape
-avatar: https://private-avatars.githubusercontent.com/u/13433513?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY4NjAsIm5iZiI6MTczNDY3NTY2MCwicGF0aCI6Ii91LzEzNDMzNTEzIn0.8vBAfiZwb0ODg0EzicSeDCCIwBQl4fJdhM3z28wYdwM&v=4
+avatar: https://avatars.githubusercontent.com/u/13433513?v=4
 categories:
 - utility
 color: '#f1f1f1'

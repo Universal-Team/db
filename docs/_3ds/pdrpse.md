@@ -1,6 +1,6 @@
 ---
 author: suloku
-avatar: https://private-avatars.githubusercontent.com/u/10310955?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzU5MDAsIm5iZiI6MTczNDY3NDcwMCwicGF0aCI6Ii91LzEwMzEwOTU1In0.IHWJ86R9x5Oo2zcbr_16OW9ABZ6_ceJ2bqptStOp4wE&v=4
+avatar: https://avatars.githubusercontent.com/u/10310955?v=4
 categories:
 - utility
 - save-tool

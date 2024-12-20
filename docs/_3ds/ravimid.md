@@ -1,6 +1,6 @@
 ---
 author: Hoksy
-avatar: https://private-avatars.githubusercontent.com/u/5952243?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY1MDAsIm5iZiI6MTczNDY3NTMwMCwicGF0aCI6Ii91LzU5NTIyNDMifQ.tiVYttQITvWAivmqtOidYtk-YRZUiRyLMMe9io0T3vw&v=4
+avatar: https://avatars.githubusercontent.com/u/5952243?v=4
 categories:
 - game
 color: '#7b5da7'

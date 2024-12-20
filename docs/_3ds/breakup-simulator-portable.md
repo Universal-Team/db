@@ -1,6 +1,6 @@
 ---
 author: Dangerbites
-avatar: https://private-avatars.githubusercontent.com/u/119724559?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYwMjAsIm5iZiI6MTczNDY3NDgyMCwicGF0aCI6Ii91LzExOTcyNDU1OSJ9.3m7jllm1mgL2V_kGydlezixm2jiMdpnGSzxrHBkWmTE&v=4
+avatar: https://avatars.githubusercontent.com/u/119724559?v=4
 categories:
 - game
 color: '#d2b8ca'

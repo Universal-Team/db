@@ -1,6 +1,6 @@
 ---
 author: Olive
-avatar: https://private-avatars.githubusercontent.com/u/16279160?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYzODAsIm5iZiI6MTczNDY3NTE4MCwicGF0aCI6Ii91LzE2Mjc5MTYwIn0.bA-IXf0MWFWE3OcMLhf9ZbcZ2MwmRzJ6n279xE6hk7w&v=4
+avatar: https://avatars.githubusercontent.com/u/16279160?v=4
 categories:
 - utility
 color: '#dddcda'

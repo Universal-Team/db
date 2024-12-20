@@ -1,6 +1,6 @@
 ---
 author: Sethamphetamine
-avatar: https://private-avatars.githubusercontent.com/u/88207140?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYxNDAsIm5iZiI6MTczNDY3NDk0MCwicGF0aCI6Ii91Lzg4MjA3MTQwIn0.HlaJMJAQJ7HzNmeiHkbsJojBlxlFb5i10h8yqrDbDkA&v=4
+avatar: https://avatars.githubusercontent.com/u/88207140?v=4
 categories:
 - game
 created: '2024-05-11T03:30:11Z'

@@ -1,6 +1,6 @@
 ---
 author: nop90
-avatar: https://private-avatars.githubusercontent.com/u/6418965?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY5MjAsIm5iZiI6MTczNDY3NTcyMCwicGF0aCI6Ii91LzY0MTg5NjUifQ.KeIQ1A7NVelWys-Q9aoRFEVVEF08OhNALwd3Far1HVc&v=4
+avatar: https://avatars.githubusercontent.com/u/6418965?v=4
 categories:
 - game
 color: '#cac590'

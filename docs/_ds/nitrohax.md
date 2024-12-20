@@ -1,6 +1,6 @@
 ---
 author: Michael Chisholm
-avatar: https://private-avatars.githubusercontent.com/u/18148723?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYwODAsIm5iZiI6MTczNDY3NDg4MCwicGF0aCI6Ii91LzE4MTQ4NzIzIn0.pbYz-Gz-F9r0qCoIbi2_VdziTJ51-R-FVnqPWzcEc-U&v=4
+avatar: https://avatars.githubusercontent.com/u/18148723?v=4
 categories:
 - utility
 color: '#750000'

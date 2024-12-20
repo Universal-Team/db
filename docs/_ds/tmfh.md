@@ -1,6 +1,6 @@
 ---
 author: JeffRuLz
-avatar: https://private-avatars.githubusercontent.com/u/14222721?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYzODAsIm5iZiI6MTczNDY3NTE4MCwicGF0aCI6Ii91LzE0MjIyNzIxIn0.i4zmBfL6iIMqVq024sdJMUFuC2zXZbFTeiyzXbYzvMc&v=4
+avatar: https://avatars.githubusercontent.com/u/14222721?v=4
 categories:
 - utility
 color: '#61ceff'

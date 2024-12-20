@@ -1,6 +1,6 @@
 ---
 author: Joel
-avatar: https://private-avatars.githubusercontent.com/u/6271991?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY2MjAsIm5iZiI6MTczNDY3NTQyMCwicGF0aCI6Ii91LzYyNzE5OTEifQ.n_YeJoCvm5VNWJ6AzUFdo5txevVmJ6c0UWVQY7CYCCM&v=4
+avatar: https://avatars.githubusercontent.com/u/6271991?v=4
 categories:
 - utility
 color: '#cccfd0'

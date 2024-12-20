@@ -1,6 +1,6 @@
 ---
 author: Philipp Joram
-avatar: https://private-avatars.githubusercontent.com/u/10487782?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzU4NDAsIm5iZiI6MTczNDY3NDY0MCwicGF0aCI6Ii91LzEwNDg3NzgyIn0.PDEKfaEPnbb9wscWM2dUlApjeBk13P10T0LYNRF6KXs&v=4
+avatar: https://avatars.githubusercontent.com/u/10487782?v=4
 categories:
 - utility
 color: '#a59123'

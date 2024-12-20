@@ -1,6 +1,6 @@
 ---
 author: mtheall
-avatar: https://private-avatars.githubusercontent.com/u/896483?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY4MDAsIm5iZiI6MTczNDY3NTYwMCwicGF0aCI6Ii91Lzg5NjQ4MyJ9.TpC9HLjS8mVK6657IyESihkfdQAmYy7PJ6cFofqeVRk&v=4
+avatar: https://avatars.githubusercontent.com/u/896483?v=4
 categories:
 - utility
 color: '#001900'

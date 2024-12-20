@@ -1,6 +1,6 @@
 ---
 author: YANBForwarder
-avatar: https://private-avatars.githubusercontent.com/u/103953989?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYzODAsIm5iZiI6MTczNDY3NTE4MCwicGF0aCI6Ii91LzEwMzk1Mzk4OSJ9.Vot5NFt6tPZ3Z6CBPE6rJZ4Bktqz7VO995pufR7u9JU&v=4
+avatar: https://avatars.githubusercontent.com/u/103953989?v=4
 categories:
 - utility
 color: '#e9cdd1'
@@ -26,7 +26,7 @@ downloads:
     size_str: 201 KiB
     url: https://github.com/YANBForwarder/YANBF/releases/download/v1.6.3/bootstrap.cia
 github: YANBForwarder/YANBF
-image: https://private-avatars.githubusercontent.com/u/103953989?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYzODAsIm5iZiI6MTczNDY3NTE4MCwicGF0aCI6Ii91LzEwMzk1Mzk4OSJ9.Vot5NFt6tPZ3Z6CBPE6rJZ4Bktqz7VO995pufR7u9JU&v=4&size=128
+image: https://avatars.githubusercontent.com/u/103953989?v=4&size=128
 image_length: 1561
 layout: app
 license: gpl-2.0

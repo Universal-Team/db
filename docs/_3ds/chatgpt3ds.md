@@ -1,6 +1,6 @@
 ---
 author: Carson Kompon
-avatar: https://private-avatars.githubusercontent.com/u/5159369?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYxNDAsIm5iZiI6MTczNDY3NDk0MCwicGF0aCI6Ii91LzUxNTkzNjkifQ.NcZrKcQFArQDtm6Unu_OvZB5EmGzltSV8iov8e6y8Ho&v=4
+avatar: https://avatars.githubusercontent.com/u/5159369?v=4
 categories:
 - app
 color: '#97c0b5'

@@ -1,6 +1,6 @@
 ---
 author: Sparkette
-avatar: https://private-avatars.githubusercontent.com/u/687313?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY0NDAsIm5iZiI6MTczNDY3NTI0MCwicGF0aCI6Ii91LzY4NzMxMyJ9.n_rP1aoq5n0VFoaDt36Zelxm5fdTnpReTr9xOa3Hc0M&v=4
+avatar: https://avatars.githubusercontent.com/u/687313?v=4
 categories:
 - app
 color: '#becdda'

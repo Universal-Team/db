@@ -1,6 +1,6 @@
 ---
 author: StackZ
-avatar: https://private-avatars.githubusercontent.com/u/47382115?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY1MDAsIm5iZiI6MTczNDY3NTMwMCwicGF0aCI6Ii91LzQ3MzgyMTE1In0.DnD_fzLn9BBVuHywLNr8aGWt6CjYXpi3aa1UapOBlIU&v=4
+avatar: https://avatars.githubusercontent.com/u/47382115?v=4
 categories:
 - app
 color: '#90337d'

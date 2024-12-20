@@ -1,6 +1,6 @@
 ---
 author: KahnerC
-avatar: https://private-avatars.githubusercontent.com/u/160319898?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYwODAsIm5iZiI6MTczNDY3NDg4MCwicGF0aCI6Ii91LzE2MDMxOTg5OCJ9.u_lW6dV9YkmGXZQ6XkxRdswkv2mlz1JTDOLvvZgEP64&v=4
+avatar: https://avatars.githubusercontent.com/u/160319898?v=4
 categories:
 - game
 color: '#4b433a'

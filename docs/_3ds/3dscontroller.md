@@ -1,6 +1,6 @@
 ---
 author: CTurt
-avatar: https://private-avatars.githubusercontent.com/u/6132330?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY4MDAsIm5iZiI6MTczNDY3NTYwMCwicGF0aCI6Ii91LzYxMzIzMzAifQ.EFjMANPMw6h72ruNMpx9Bc1S1v4dymRbIbZ5gUc5ZNc&v=4
+avatar: https://avatars.githubusercontent.com/u/6132330?v=4
 categories:
 - utility
 color: '#939393'

@@ -1,6 +1,6 @@
 ---
 author: William278
-avatar: https://private-avatars.githubusercontent.com/u/31187453?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY4MDAsIm5iZiI6MTczNDY3NTYwMCwicGF0aCI6Ii91LzMxMTg3NDUzIn0.hoHuUtx7IYQ9KHxYkT2lxCDpJs19w5TdDb2MNbpRUcY&v=4
+avatar: https://avatars.githubusercontent.com/u/31187453?v=4
 categories:
 - game
 color: '#483326'

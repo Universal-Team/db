@@ -1,6 +1,6 @@
 ---
 author: N•I•L
-avatar: https://private-avatars.githubusercontent.com/u/70803115?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzU4NDAsIm5iZiI6MTczNDY3NDY0MCwicGF0aCI6Ii91LzcwODAzMTE1In0.GxJaGWdHBvCtls4HFJh3diFW_JSuP2qFIJgAmJO7WCg&v=4
+avatar: https://avatars.githubusercontent.com/u/70803115?v=4
 categories:
 - game
 color: '#897b7b'

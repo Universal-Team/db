@@ -1,6 +1,6 @@
 ---
 author: MechanicalDragon
-avatar: https://private-avatars.githubusercontent.com/u/43786828?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYzMjAsIm5iZiI6MTczNDY3NTEyMCwicGF0aCI6Ii91LzQzNzg2ODI4In0.UT6dSdC9HCuQxpv-G2EXug7HIO29WGY4pIih6Eqh3NI&v=4
+avatar: https://avatars.githubusercontent.com/u/43786828?v=4
 categories:
 - utility
 color: '#82c1d7'
@@ -14,7 +14,7 @@ downloads:
     size_str: 530 KiB
     url: https://github.com/MechanicalDragon0687/3DS-ParentalUnlock/releases/download/1.0.1/ParentalUnlock.3dsx
 github: MechanicalDragon0687/3DS-ParentalUnlock
-image: https://private-avatars.githubusercontent.com/u/43786828?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYzMjAsIm5iZiI6MTczNDY3NTEyMCwicGF0aCI6Ii91LzQzNzg2ODI4In0.UT6dSdC9HCuQxpv-G2EXug7HIO29WGY4pIih6Eqh3NI&v=4&size=128
+image: https://avatars.githubusercontent.com/u/43786828?v=4&size=128
 image_length: 10211
 layout: app
 source: https://github.com/MechanicalDragon0687/3DS-ParentalUnlock

@@ -1,6 +1,6 @@
 ---
 author: Pretendo Network
-avatar: https://private-avatars.githubusercontent.com/u/36684034?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY1NjAsIm5iZiI6MTczNDY3NTM2MCwicGF0aCI6Ii91LzM2Njg0MDM0In0.tI1TyreXwVu1jmWYkfVwlwi4PSDJm4eV0y8YzjSH08w&v=4
+avatar: https://avatars.githubusercontent.com/u/36684034?v=4
 categories:
 - utility
 color: '#2b2952'

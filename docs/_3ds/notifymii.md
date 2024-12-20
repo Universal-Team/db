@@ -1,6 +1,6 @@
 ---
 author: Lázaro Vieira
-avatar: https://private-avatars.githubusercontent.com/u/13871621?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzU4NDAsIm5iZiI6MTczNDY3NDY0MCwicGF0aCI6Ii91LzEzODcxNjIxIn0.e2QIGgTO2r4A_Cnq1E5m6kz6XoJiLu30sja0gaJ2CPA&v=4
+avatar: https://avatars.githubusercontent.com/u/13871621?v=4
 categories:
 - utility
 color: '#7abd9c'

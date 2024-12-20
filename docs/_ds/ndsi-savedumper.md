@@ -1,6 +1,6 @@
 ---
 author: Edoardo Lolletti
-avatar: https://private-avatars.githubusercontent.com/u/18705342?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYwODAsIm5iZiI6MTczNDY3NDg4MCwicGF0aCI6Ii91LzE4NzA1MzQyIn0.GpLwidhj24FZR-t6The5Q3Mv4q33PlYeO3pBo2s7nEc&v=4
+avatar: https://avatars.githubusercontent.com/u/18705342?v=4
 categories:
 - utility
 - save-tool
@@ -15,7 +15,7 @@ downloads:
     size_str: 493 KiB
     url: https://github.com/edo9300/ndsi-savedumper/releases/download/1.2/savedumper.nds
 github: edo9300/ndsi-savedumper
-image: https://private-avatars.githubusercontent.com/u/18705342?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYwODAsIm5iZiI6MTczNDY3NDg4MCwicGF0aCI6Ii91LzE4NzA1MzQyIn0.GpLwidhj24FZR-t6The5Q3Mv4q33PlYeO3pBo2s7nEc&v=4&size=128
+image: https://avatars.githubusercontent.com/u/18705342?v=4&size=128
 image_length: 1574
 layout: app
 license: gpl-3.0

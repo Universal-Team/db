@@ -1,6 +1,6 @@
 ---
 author: The Angband team
-avatar: https://private-avatars.githubusercontent.com/u/458884?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY1NjAsIm5iZiI6MTczNDY3NTM2MCwicGF0aCI6Ii91LzQ1ODg4NCJ9.2IGLv3T83RlQlt9UZ7qwKQd9Ca3R3xd_iJAUTAYCZNI&v=4
+avatar: https://avatars.githubusercontent.com/u/458884?v=4
 categories:
 - game
 color: '#858585'
@@ -26,15 +26,15 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.5-329-ge2dbbece9
+  download_page: https://github.com/angband/angband/releases/tag/4.2.5-331-gbcfa7f691
   downloads:
-    Angband-4.2.5-329-ge2dbbece9-3ds.zip:
-      size: 24652910
+    Angband-4.2.5-331-gbcfa7f691-3ds.zip:
+      size: 24653121
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.5-329-ge2dbbece9/Angband-4.2.5-329-ge2dbbece9-3ds.zip
-  updated: '2024-11-29T21:49:46Z'
-  version: 4.2.5-329-ge2dbbece9
-  version_title: 4.2.5-329-ge2dbbece9
+      url: https://github.com/angband/angband/releases/download/4.2.5-331-gbcfa7f691/Angband-4.2.5-331-gbcfa7f691-3ds.zip
+  updated: '2024-12-20T09:10:29Z'
+  version: 4.2.5-331-gbcfa7f691
+  version_title: 4.2.5-331-gbcfa7f691
 source: https://github.com/angband/angband
 stars: 1333
 systems:

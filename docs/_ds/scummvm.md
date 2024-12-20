@@ -1,6 +1,6 @@
 ---
 author: ScummVM
-avatar: https://private-avatars.githubusercontent.com/u/365181?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY1NjAsIm5iZiI6MTczNDY3NTM2MCwicGF0aCI6Ii91LzM2NTE4MSJ9.CeCvrMmc4hWk5sQvEcOP7C2puOeDvDvxEwioNIuKuC8&v=4
+avatar: https://avatars.githubusercontent.com/u/365181?v=4
 categories:
 - emulator
 color: '#507f20'

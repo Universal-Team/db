@@ -1,6 +1,6 @@
 ---
 author: Théo B.
-avatar: https://private-avatars.githubusercontent.com/u/16072534?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY2MjAsIm5iZiI6MTczNDY3NTQyMCwicGF0aCI6Ii91LzE2MDcyNTM0In0.dCRRManSNTiiAudHGkhW4PRWvfhe63ceMZbbLTaM9tM&v=4
+avatar: https://avatars.githubusercontent.com/u/16072534?v=4
 categories:
 - game
 color: '#2a3c07'
