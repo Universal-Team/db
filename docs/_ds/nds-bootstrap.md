@@ -1,6 +1,6 @@
 ---
 author: DS-Homebrew
-avatar: https://private-avatars.githubusercontent.com/u/46971470?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2ODM3NjAsIm5iZiI6MTczNDY4MjU2MCwicGF0aCI6Ii91LzQ2OTcxNDcwIn0.0sdtXiEbal0zePqYqdUI98oIsEk-kvIP6Q4HH-gcELQ&v=4
+avatar: https://avatars.githubusercontent.com/u/46971470?v=4
 categories:
 - emulator
 color: '#585758'
