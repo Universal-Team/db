@@ -1,7 +1,7 @@
 ---
 author: Kemal Afzal
 autogen_scripts: true
-avatar: https://private-avatars.githubusercontent.com/u/9352526?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY3NjAsIm5iZiI6MTczNDY1NTU2MCwicGF0aCI6Ii91LzkzNTI1MjYifQ.TgzXl8JGskzkXmjCXh_dw9F0iYqXmSe-2NMgVgetFzQ&v=4
+avatar: https://private-avatars.githubusercontent.com/u/9352526?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY1NjAsIm5iZiI6MTczNDY3NTM2MCwicGF0aCI6Ii91LzkzNTI1MjYifQ.gs3ANI0j3Npr8ZgYoCl3rrphvQLxVvSIs6m6tybf5iI&v=4
 categories:
 - game
 color: '#4e4f39'

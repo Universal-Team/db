@@ -1,6 +1,6 @@
 ---
 author: RSDuck and GamesSanti
-avatar: https://private-avatars.githubusercontent.com/u/68710005?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY5NDAsIm5iZiI6MTczNDY1NTc0MCwicGF0aCI6Ii91LzY4NzEwMDA1In0.bQhAzqjY5yOvw1mjHq8_lyMBfMwYLov3A_Ao0QUbje8&v=4
+avatar: https://private-avatars.githubusercontent.com/u/68710005?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzU4NDAsIm5iZiI6MTczNDY3NDY0MCwicGF0aCI6Ii91LzY4NzEwMDA1In0.ClKvOgvCNuLxKPbgqfTmqlSN-Ld11BTxXZ7GGvrqG1I&v=4
 categories:
 - game
 color: '#7a6040'

@@ -1,6 +1,6 @@
 ---
 author: Viktor Varga
-avatar: https://private-avatars.githubusercontent.com/u/12373906?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTc0MjAsIm5iZiI6MTczNDY1NjIyMCwicGF0aCI6Ii91LzEyMzczOTA2In0.1YP7-oc-LmLvGTG2BVvWdPoAnFm2qPX_3q1f7ox2WLI&v=4
+avatar: https://private-avatars.githubusercontent.com/u/12373906?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYzMjAsIm5iZiI6MTczNDY3NTEyMCwicGF0aCI6Ii91LzEyMzczOTA2In0.zEWowiqpKomV7YVWRCl390pGkZimfHIJnYSSxkQrPLU&v=4
 categories:
 - game
 color: '#ceb1a5'

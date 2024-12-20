@@ -1,6 +1,6 @@
 ---
 author: TCPixel
-avatar: https://private-avatars.githubusercontent.com/u/5771065?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcxODAsIm5iZiI6MTczNDY1NTk4MCwicGF0aCI6Ii91LzU3NzEwNjUifQ.Qz1ZpNdezNk0yVt5_oSw2YKze-u5KpAistv0d_TakDs&v=4
+avatar: https://private-avatars.githubusercontent.com/u/5771065?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYwODAsIm5iZiI6MTczNDY3NDg4MCwicGF0aCI6Ii91LzU3NzEwNjUifQ.H9P92z4LOCUlyne3gahAUowAqP3eVzOJIL6DrcvVHUE&v=4
 categories:
 - game
 color: '#696a6b'

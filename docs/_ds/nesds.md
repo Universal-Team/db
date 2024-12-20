@@ -1,6 +1,6 @@
 ---
 author: huiminghao / Coto
-avatar: https://private-avatars.githubusercontent.com/u/46971470?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY3NjAsIm5iZiI6MTczNDY1NTU2MCwicGF0aCI6Ii91LzQ2OTcxNDcwIn0.ywd6Ms9Ig8L2XalSItgKli8HFtUilMoN0fj5cCL_6Pk&v=4
+avatar: https://private-avatars.githubusercontent.com/u/46971470?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY1NjAsIm5iZiI6MTczNDY3NTM2MCwicGF0aCI6Ii91LzQ2OTcxNDcwIn0.u8IdkUfYkmJYfCOLhg0szypGjZXpWJVzepg4XNLi3DM&v=4
 categories:
 - emulator
 color: '#ae7d50'

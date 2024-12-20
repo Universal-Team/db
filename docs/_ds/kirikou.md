@@ -1,6 +1,6 @@
 ---
 author: rayasticot
-avatar: https://private-avatars.githubusercontent.com/u/88832503?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY4MjAsIm5iZiI6MTczNDY1NTYyMCwicGF0aCI6Ii91Lzg4ODMyNTAzIn0.s4NqFZbP0imuaj091F8h5FYMgdOwXHcLADP4fXNZ3qI&v=4
+avatar: https://private-avatars.githubusercontent.com/u/88832503?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY2MjAsIm5iZiI6MTczNDY3NTQyMCwicGF0aCI6Ii91Lzg4ODMyNTAzIn0.5Yq6JxD8TJSF0CkuJn0qsbpAEa-Shk3e648bKq1l6nE&v=4
 categories:
 - game
 color: '#4a2110'

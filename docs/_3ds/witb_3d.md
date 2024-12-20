@@ -1,7 +1,7 @@
 ---
 author: Manuel Rodríguez Matesanz
 autogen_scripts: true
-avatar: https://private-avatars.githubusercontent.com/u/17181899?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcxODAsIm5iZiI6MTczNDY1NTk4MCwicGF0aCI6Ii91LzE3MTgxODk5In0.ZFwtqZ5spqhhzYOMwCgAh7ZM4jpDoikXbUMy3-jaGY4&v=4
+avatar: https://private-avatars.githubusercontent.com/u/17181899?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYwODAsIm5iZiI6MTczNDY3NDg4MCwicGF0aCI6Ii91LzE3MTgxODk5In0.4KY37ASC56Z6An4oxmZqrh50JJhXzqtik6NjFfQb4Iw&v=4
 categories:
 - game
 color: '#e98f7d'

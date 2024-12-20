@@ -1,6 +1,6 @@
 ---
 author: Omegadrien
-avatar: https://private-avatars.githubusercontent.com/u/22015200?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcxODAsIm5iZiI6MTczNDY1NTk4MCwicGF0aCI6Ii91LzIyMDE1MjAwIn0.m6o4ZZEd-h2XNPThunRA05QM2452TnONd-e0Bq_sQKQ&v=4
+avatar: https://private-avatars.githubusercontent.com/u/22015200?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYwODAsIm5iZiI6MTczNDY3NDg4MCwicGF0aCI6Ii91LzIyMDE1MjAwIn0.I4SAvfdEtbN_uAl6jTGL5EdtwNvGx4vcra_DufcVcHM&v=4
 categories:
 - game
 color: '#c8cacf'

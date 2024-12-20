@@ -1,6 +1,6 @@
 ---
 author: Pk11
-avatar: https://private-avatars.githubusercontent.com/u/41608708?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcwMDAsIm5iZiI6MTczNDY1NTgwMCwicGF0aCI6Ii91LzQxNjA4NzA4In0.Dzn0OyEy5thwmLWgm8bZo2IANC5srnMxGR_OF3gR50s&v=4
+avatar: https://private-avatars.githubusercontent.com/u/41608708?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY4MDAsIm5iZiI6MTczNDY3NTYwMCwicGF0aCI6Ii91LzQxNjA4NzA4In0.22MHcumM44k5f1mRy3uKdkq6ymvvuIBDf-pbUCX_M5U&v=4
 categories:
 - game
 color: '#9cc898'

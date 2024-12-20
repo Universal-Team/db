@@ -1,6 +1,6 @@
 ---
 author: Steven Smith
-avatar: https://private-avatars.githubusercontent.com/u/74314538?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY5NDAsIm5iZiI6MTczNDY1NTc0MCwicGF0aCI6Ii91Lzc0MzE0NTM4In0.iJvX8GVoyKk-5DSfpcpGvh2ZCkbNy2GSiprTBR1_wag&v=4
+avatar: https://private-avatars.githubusercontent.com/u/74314538?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY3NDAsIm5iZiI6MTczNDY3NTU0MCwicGF0aCI6Ii91Lzc0MzE0NTM4In0.FT9u0j82FN7DH6xm5aTdtaCfYG1OswfCvIJC5kxePtY&v=4
 categories:
 - emulator
 color: '#9e8e57'

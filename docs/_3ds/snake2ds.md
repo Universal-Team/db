@@ -1,7 +1,7 @@
 ---
 author: Stefan
 autogen_scripts: true
-avatar: https://private-avatars.githubusercontent.com/u/9059719?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY0MDAsIm5iZiI6MTczNDY1NTIwMCwicGF0aCI6Ii91LzkwNTk3MTkifQ.Nxo9eqDvDvdqwuEWYaLyUY9y_D4RzuAcvTDhPSeDC28&v=4
+avatar: https://private-avatars.githubusercontent.com/u/9059719?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYyMDAsIm5iZiI6MTczNDY3NTAwMCwicGF0aCI6Ii91LzkwNTk3MTkifQ.cWLj9xqWYRZRpV3SUK4CiYmY2rkY1CzfqberejFJ3vU&v=4
 categories:
 - game
 color: '#d6d6d6'

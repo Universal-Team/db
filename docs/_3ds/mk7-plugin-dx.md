@@ -1,6 +1,6 @@
 ---
 author: SFC-hacker
-avatar: https://private-avatars.githubusercontent.com/u/67318218?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcxODAsIm5iZiI6MTczNDY1NTk4MCwicGF0aCI6Ii91LzY3MzE4MjE4In0.It44ctoEm5tpXl2FY7mF-d1tpNUNbP3ArlXrrwFhKyM&v=4
+avatar: https://private-avatars.githubusercontent.com/u/67318218?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYwODAsIm5iZiI6MTczNDY3NDg4MCwicGF0aCI6Ii91LzY3MzE4MjE4In0.I4DwDL1Tn4gpiGGXGcXtJurP7GQfqoMqk55lXXjCo_A&v=4
 categories:
 - utility
 - save-tool
@@ -19,7 +19,7 @@ downloads:
     size_str: 912 KiB
     url: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.6/plugin.3gx
 github: SFC-hacker/Mario-Kart-7-Plugin-Deluxe
-image: https://private-avatars.githubusercontent.com/u/67318218?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcxODAsIm5iZiI6MTczNDY1NTk4MCwicGF0aCI6Ii91LzY3MzE4MjE4In0.It44ctoEm5tpXl2FY7mF-d1tpNUNbP3ArlXrrwFhKyM&v=4&size=128
+image: https://private-avatars.githubusercontent.com/u/67318218?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYwODAsIm5iZiI6MTczNDY3NDg4MCwicGF0aCI6Ii91LzY3MzE4MjE4In0.I4DwDL1Tn4gpiGGXGcXtJurP7GQfqoMqk55lXXjCo_A&v=4&size=128
 image_length: 4502
 layout: app
 source: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe

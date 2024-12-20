@@ -1,6 +1,6 @@
 ---
 author: ihaveahax
-avatar: https://private-avatars.githubusercontent.com/u/590576?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY3MDAsIm5iZiI6MTczNDY1NTUwMCwicGF0aCI6Ii91LzU5MDU3NiJ9.lUlrXzK_bE8ZfMYErmxQtBE2F0JXNB8OGbNd33kpAcc&v=4
+avatar: https://private-avatars.githubusercontent.com/u/590576?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY1MDAsIm5iZiI6MTczNDY3NTMwMCwicGF0aCI6Ii91LzU5MDU3NiJ9.nglts-sSG27xG_df0nhXkQscQJbc1XnKsRCP58PK4Y8&v=4
 categories:
 - utility
 color: '#626183'
@@ -14,7 +14,7 @@ downloads:
     size_str: 191 KiB
     url: https://github.com/ihaveamac/faketik/releases/download/v1.1.2/faketik.3dsx
 github: ihaveamac/faketik
-image: https://private-avatars.githubusercontent.com/u/590576?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY3MDAsIm5iZiI6MTczNDY1NTUwMCwicGF0aCI6Ii91LzU5MDU3NiJ9.lUlrXzK_bE8ZfMYErmxQtBE2F0JXNB8OGbNd33kpAcc&v=4&size=128
+image: https://private-avatars.githubusercontent.com/u/590576?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY1MDAsIm5iZiI6MTczNDY3NTMwMCwicGF0aCI6Ii91LzU5MDU3NiJ9.nglts-sSG27xG_df0nhXkQscQJbc1XnKsRCP58PK4Y8&v=4&size=128
 image_length: 20990
 layout: app
 license: mit

@@ -1,6 +1,6 @@
 ---
 author: PabloMK7
-avatar: https://private-avatars.githubusercontent.com/u/10946643?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcwNjAsIm5iZiI6MTczNDY1NTg2MCwicGF0aCI6Ii91LzEwOTQ2NjQzIn0.OVy0M-z1ziJ1nQsI9S_SvRXsiJur8BAO6a24tesToCo&v=4
+avatar: https://private-avatars.githubusercontent.com/u/10946643?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzU5NjAsIm5iZiI6MTczNDY3NDc2MCwicGF0aCI6Ii91LzEwOTQ2NjQzIn0.eFPCKvmtG0R4Uutc1J_mcVWb5VBtTCRfH-7DHWoI5-E&v=4
 categories:
 - emulator
 - utility
@@ -26,7 +26,7 @@ layout: app
 qr:
   ArticBase.cia: https://db.universal-team.net/assets/images/qr/articbase-cia.png
 source: https://github.com/PabloMK7/ArticBaseServer
-stars: 415
+stars: 416
 systems:
 - 3DS
 title: Artic Base Server

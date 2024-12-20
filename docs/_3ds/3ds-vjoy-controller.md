@@ -1,6 +1,6 @@
 ---
 author: memeToasty, StringJan
-avatar: https://private-avatars.githubusercontent.com/u/76664723?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcwMDAsIm5iZiI6MTczNDY1NTgwMCwicGF0aCI6Ii91Lzc2NjY0NzIzIn0.k_qEMkNHPwJ4_aPnVUZZZ4_tDjaSmeJMdNaMcFaGLBw&v=4
+avatar: https://private-avatars.githubusercontent.com/u/76664723?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzU5MDAsIm5iZiI6MTczNDY3NDcwMCwicGF0aCI6Ii91Lzc2NjY0NzIzIn0.uKHDn76zBhcMPZxofaw2_dLQoymfQfuxOPWcNiQmHak&v=4
 categories:
 - app
 color: '#41393a'
@@ -14,7 +14,7 @@ downloads:
     size_str: 188 KiB
     url: https://github.com/StringJan/3ds-vJoy-controller/releases/download/v1.1/vJoyController.3dsx
 github: StringJan/3ds-vJoy-controller
-image: https://private-avatars.githubusercontent.com/u/76664723?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcwMDAsIm5iZiI6MTczNDY1NTgwMCwicGF0aCI6Ii91Lzc2NjY0NzIzIn0.k_qEMkNHPwJ4_aPnVUZZZ4_tDjaSmeJMdNaMcFaGLBw&v=4&size=128
+image: https://private-avatars.githubusercontent.com/u/76664723?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzU5MDAsIm5iZiI6MTczNDY3NDcwMCwicGF0aCI6Ii91Lzc2NjY0NzIzIn0.uKHDn76zBhcMPZxofaw2_dLQoymfQfuxOPWcNiQmHak&v=4&size=128
 image_length: 32802
 layout: app
 script_message: Please visit https://github.com/StringJan/3ds-vJoy-controller to get

@@ -1,7 +1,7 @@
 ---
 author: Felipe Izzo
 autogen_scripts: true
-avatar: https://private-avatars.githubusercontent.com/u/15205297?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcxODAsIm5iZiI6MTczNDY1NTk4MCwicGF0aCI6Ii91LzE1MjA1Mjk3In0.Pxq0P6U8xfO4ek3S5y782M3UUMSo59PkPcX1PuWcUhc&v=4
+avatar: https://private-avatars.githubusercontent.com/u/15205297?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYwODAsIm5iZiI6MTczNDY3NDg4MCwicGF0aCI6Ii91LzE1MjA1Mjk3In0.aAFIugZ68St2WhUnMRjPYdEIfHv1OJgax8n7HfUu0Kw&v=4
 categories:
 - emulator
 color: '#5d7255'

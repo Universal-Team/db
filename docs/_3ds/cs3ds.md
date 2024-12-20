@@ -1,6 +1,6 @@
 ---
 author: Josh Huelsman
-avatar: https://private-avatars.githubusercontent.com/u/1700799?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcxMjAsIm5iZiI6MTczNDY1NTkyMCwicGF0aCI6Ii91LzE3MDA3OTkifQ.gsB6Kt5X61LhdrBHPxdoUyizu7gYyzpO0k3-nBO1tw8&v=4
+avatar: https://private-avatars.githubusercontent.com/u/1700799?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzYwMjAsIm5iZiI6MTczNDY3NDgyMCwicGF0aCI6Ii91LzE3MDA3OTkifQ.fqAUjJ0w3quuOyzbyFoUErUCo15zkDrrQydnjdVxy5g&v=4
 categories:
 - game
 color: '#333c49'

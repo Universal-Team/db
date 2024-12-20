@@ -1,6 +1,6 @@
 ---
 author: danielps
-avatar: https://private-avatars.githubusercontent.com/u/9087084?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY4MjAsIm5iZiI6MTczNDY1NTYyMCwicGF0aCI6Ii91LzkwODcwODQifQ.Nc08OWB3iWueh-IMLO1Hb8glsuJrgN6E4SwQy6400LQ&v=4
+avatar: https://private-avatars.githubusercontent.com/u/9087084?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY2MjAsIm5iZiI6MTczNDY3NTQyMCwicGF0aCI6Ii91LzkwODcwODQifQ.YpwNbn0mtf2F4YaWMbUO-duLfXEZ4sOokF92wsPn70c&v=4
 categories:
 - emulator
 color: '#d3d2d2'

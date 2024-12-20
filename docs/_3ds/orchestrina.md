@@ -1,7 +1,7 @@
 ---
 author: GlimmerDev
 autogen_scripts: true
-avatar: https://private-avatars.githubusercontent.com/u/13992834?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcwMDAsIm5iZiI6MTczNDY1NTgwMCwicGF0aCI6Ii91LzEzOTkyODM0In0.0thkjao2b_ZatK_2OffNYPT90bVK9cEhVxw49036z04&v=4
+avatar: https://private-avatars.githubusercontent.com/u/13992834?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzU5MDAsIm5iZiI6MTczNDY3NDcwMCwicGF0aCI6Ii91LzEzOTkyODM0In0.Uq8XJmK6hVIoup-tqFHHeKxEUJ5RjOgurQRtrLSAxqw&v=4
 categories:
 - game
 color: '#b7b7cf'

@@ -1,6 +1,6 @@
 ---
 author: NPI-D7
-avatar: https://private-avatars.githubusercontent.com/u/71648010?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY4MjAsIm5iZiI6MTczNDY1NTYyMCwicGF0aCI6Ii91LzcxNjQ4MDEwIn0.1BOzVurL0AZL_9l90L2ZPACMohiAexV1K9-SiKhdRIU&v=4
+avatar: https://private-avatars.githubusercontent.com/u/71648010?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY2MjAsIm5iZiI6MTczNDY3NTQyMCwicGF0aCI6Ii91LzcxNjQ4MDEwIn0.szyDlabIyc74kJjp5IKTf0IMYCYvMmGDPqm4N6TABBI&v=4
 categories:
 - game
 color: '#6eb16f'

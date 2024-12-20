@@ -1,6 +1,6 @@
 ---
 author: Sunrase
-avatar: https://private-avatars.githubusercontent.com/u/101834111?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY2NDAsIm5iZiI6MTczNDY1NTQ0MCwicGF0aCI6Ii91LzEwMTgzNDExMSJ9.f22kNv-wTARmyEn_CCIituQB2-oDfHCMrNsB9ha-DyQ&v=4
+avatar: https://private-avatars.githubusercontent.com/u/101834111?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY0NDAsIm5iZiI6MTczNDY3NTI0MCwicGF0aCI6Ii91LzEwMTgzNDExMSJ9.eAGK3El1wBdDG9_EjCrLiuIOGKvEJ8m8mpsaL7MEcoA&v=4
 categories:
 - game
 color: '#b69d85'

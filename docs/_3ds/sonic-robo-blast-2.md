@@ -1,6 +1,6 @@
 ---
 author: derrek
-avatar: https://private-avatars.githubusercontent.com/u/6377793?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTcwNjAsIm5iZiI6MTczNDY1NTg2MCwicGF0aCI6Ii91LzYzNzc3OTMifQ.Iw5PvoQtnepVhntxjZHvkaGWLECmivOHXDyya3dCMSw&v=4
+avatar: https://private-avatars.githubusercontent.com/u/6377793?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY4NjAsIm5iZiI6MTczNDY3NTY2MCwicGF0aCI6Ii91LzYzNzc3OTMifQ.QaMvlwlE_jB5lOJ_41xt_-Gsz6J8Ml8NWMX85YUtHhc&v=4
 categories:
 - game
 color: '#9896d9'

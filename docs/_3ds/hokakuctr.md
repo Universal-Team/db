@@ -1,6 +1,6 @@
 ---
 author: Pretendo Network
-avatar: https://private-avatars.githubusercontent.com/u/36684034?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY3NjAsIm5iZiI6MTczNDY1NTU2MCwicGF0aCI6Ii91LzM2Njg0MDM0In0.DNRINgeWaTS5bjagk34cRJ6gtuFFvPsiv5_UNhDLYx8&v=4
+avatar: https://private-avatars.githubusercontent.com/u/36684034?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY1NjAsIm5iZiI6MTczNDY3NTM2MCwicGF0aCI6Ii91LzM2Njg0MDM0In0.tI1TyreXwVu1jmWYkfVwlwi4PSDJm4eV0y8YzjSH08w&v=4
 categories:
 - utility
 color: '#5e586c'
@@ -15,7 +15,7 @@ downloads:
     size_str: 286 KiB
     url: https://github.com/PretendoNetwork/HokakuCTR/releases/download/v1.0.3/HokakuCTR.3gx
 github: PretendoNetwork/HokakuCTR
-image: https://private-avatars.githubusercontent.com/u/36684034?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTY3NjAsIm5iZiI6MTczNDY1NTU2MCwicGF0aCI6Ii91LzM2Njg0MDM0In0.DNRINgeWaTS5bjagk34cRJ6gtuFFvPsiv5_UNhDLYx8&v=4&size=128
+image: https://private-avatars.githubusercontent.com/u/36684034?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY1NjAsIm5iZiI6MTczNDY3NTM2MCwicGF0aCI6Ii91LzM2Njg0MDM0In0.tI1TyreXwVu1jmWYkfVwlwi4PSDJm4eV0y8YzjSH08w&v=4&size=128
 image_length: 3197
 layout: app
 source: https://github.com/PretendoNetwork/HokakuCTR

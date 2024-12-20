@@ -1,6 +1,6 @@
 ---
 author: bubble2k16 / matbo87 / willjow / Xeddius-Network
-avatar: https://private-avatars.githubusercontent.com/u/4026393?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NTc2MDAsIm5iZiI6MTczNDY1NjQwMCwicGF0aCI6Ii91LzQwMjYzOTMifQ.6CyvNc1tMV8XVO89I9MVNDerQZvucLL1CU-Pqs1pa6c&v=4
+avatar: https://private-avatars.githubusercontent.com/u/4026393?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NzY1MDAsIm5iZiI6MTczNDY3NTMwMCwicGF0aCI6Ii91LzQwMjYzOTMifQ.5ghQGpdxesPwYOrTB_EQvZh50AtfWuCwdiVxGGg7wi0&v=4
 categories:
 - emulator
 color: '#635e5e'
