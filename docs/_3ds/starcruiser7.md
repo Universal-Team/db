@@ -1,6 +1,6 @@
 ---
 author: dotMizi
-avatar: https://private-avatars.githubusercontent.com/u/114505954?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NjU0NjAsIm5iZiI6MTczNDY2NDI2MCwicGF0aCI6Ii91LzExNDUwNTk1NCJ9.IYJWkMkceQT7440Eu4BIh_ifE72u-xCkHPhMpjDst7A&v=4
+avatar: https://private-avatars.githubusercontent.com/u/114505954?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MzQ2NjkwNjAsIm5iZiI6MTczNDY2Nzg2MCwicGF0aCI6Ii91LzExNDUwNTk1NCJ9.YLfXmTw57rJrECJwML5c4xj-c9AIh9wEStlf_0NnCbg&v=4
 categories:
 - game
 color: '#4c4c4c'
