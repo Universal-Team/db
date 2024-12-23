@@ -11,13 +11,13 @@ download_page: https://www.scummvm.org/downloads/
 downloads:
   scummvm-3dsx.zip:
     size: null
-    url: https://downloads.scummvm.org/frs/scummvm/2.8.1/scummvm-2.8.1-3ds-3dsx.zip
+    url: https://downloads.scummvm.org/frs/scummvm/2.9.0/scummvm-2.9.0-3ds-3dsx.zip
   scummvm-cia.zip:
     size: null
-    url: https://downloads.scummvm.org/frs/scummvm/2.8.1/scummvm-2.8.1-3ds-cia.zip
+    url: https://downloads.scummvm.org/frs/scummvm/2.9.0/scummvm-2.9.0-3ds-cia.zip
   scummvm-ds.zip:
     size: null
-    url: https://downloads.scummvm.org/frs/scummvm/2.8.1/scummvm-2.8.1-ds.zip
+    url: https://downloads.scummvm.org/frs/scummvm/2.9.0/scummvm-2.9.0-ds.zip
 eval_downloads: true
 github: scummvm/scummvm
 icon: https://raw.githubusercontent.com/scummvm/scummvm/master/backends/platform/3ds/app/icon.png
@@ -41,215 +41,732 @@ systems:
 title: scummvm
 unique_ids:
 - '0xFF321'
-update_notes: '<p dir="auto">The ScummVM Team is proud to announce the first release
-  of 2024 - Oh MMy!</p>
+update_notes: '<p dir="auto">Almost one year after the last major release, and just
+  in time for Christmas, ScummVM 2.9.0 - "Close Encounters of the 2.9th Kind" has
+  landed. Amongst its gifts, you will find 15 newly supported games and a new supported
+  platform.</p>
 
-  <h3 dir="auto">General:</h3>
+  <h2 dir="auto">New games:</h2>
+
+  <ul dir="auto">
+
+  <li>Added support for Orion Burger.</li>
+
+  <li>Added support for Total Eclipse and Total Eclipse 2.</li>
+
+  <li>Added support for Thimbleweed Park.</li>
+
+  <li>Added support for The Space Bar.</li>
+
+  <li>Added support for Moonbase Commander.</li>
+
+  <li>Added support for Backyard Basketball.</li>
+
+  <li>Added support for Unrest.</li>
+
+  <li>Added support for Rise of the Dragon.</li>
+
+  <li>Added support for Castle Master.</li>
+
+  <li>Added support for Wait for it! Issue 3. Song for a Hare.</li>
+
+  <li>Added support for Mask Show.</li>
+
+  <li>Added support for Marvellous Mice Adventures: Meeting Sea Rat.</li>
+
+  <li>Added support for The Adventures of the Good Soldier Schweik.</li>
+
+  <li>Added support for Marvellous Mice Adventures: Sea Rat''s Birthday.</li>
+
+  </ul>
+
+  <h2 dir="auto">New platforms:</h2>
+
+  <ul dir="auto">
+
+  <li>Added SailfishOS port.</li>
+
+  </ul>
+
+  <h2 dir="auto">General:</h2>
 
   <ul dir="auto">
 
   <li>Fixed GLSL version parsing on some OpenGL ES2 platforms.</li>
 
-  <li>Don''t try to use shaders on old OpenGL implementations.</li>
+  <li>The "Aspect ratio correction" option within the Global Options section<br>
+
+  is now active by default.</li>
+
+  <li>There is now a checkbox for the --copy-protection command-line option.</li>
+
+  <li>Reduced memory usage on platforms with dynamic detection plugins.</li>
+
+  <li>Improved GUI usability on small screens.</li>
+
+  <li>Added optional dependency for libopenmpt for sound.</li>
+
+  <li>Added optional dependency for libmpcdec (musepack) for sound.</li>
 
   </ul>
 
-  <h3 dir="auto">AGI:</h3>
+  <h2 dir="auto">ADL:</h2>
 
   <ul dir="auto">
 
-  <li>Fixed Space Quest 1 version 1.0X freezing in the skimmer.</li>
+  <li>Added Apple II checkerboard cursor as a visual option.</li>
 
-  <li>Fixed Mixed-Up Mother Goose message boxes during nursery rhymes.</li>
+  <li>Removed broken strings in Time Zone.</li>
 
-  <li>Fixed Mixed-Up Mother Goose graphics in Amiga version.</li>
+  <li>Fixed picking up all items via "GET ALL" from a scene.</li>
 
-  <li>Fixed Gold Rush clock time at Fast and Fastest speeds.</li>
-
-  <li>Fixed Atari ST version of Manhunter 1 not starting.</li>
-
-  <li>Fixed Tandy CoCo3 version of Leisure Suit Larry 1 not starting.</li>
-
-  <li>Fixed Tandy CoCo3 unofficial ports not starting.</li>
-
-  <li>Fixed Amiga menus in Space Quest 1, Manhunter 1, and Manhunter 2.</li>
-
-  <li>Fixed Graham facing away from the king in King''s Quest 1.</li>
-
-  <li>Fixed Alexander getting stuck on the stairs in King''s Quest 3.</li>
-
-  <li>Fixed Larry being able to shoplift in Leisure Suit Larry 1.</li>
-
-  <li>Fixed ducks not jumping at the start of Donald Duck''s Playground.</li>
-
-  <li>Fixed instant death in fan game "Phil''s Quest: The Search for Tolbaga".</li>
-
-  <li>Fixed buttons freezing in fan game "DG: The AGIMouse Adventure".</li>
-
-  <li>Fixed unrecognized words in fan game "V - The Graphical Adventure".</li>
-
-  <li>Added detection for Macintosh version of Mixed-Up Mother Goose.</li>
+  <li>Fixed restoring the state of unvisited rooms.</li>
 
   </ul>
 
-  <h3 dir="auto">AGS:</h3>
+  <h2 dir="auto">AGI:</h2>
 
   <ul dir="auto">
 
-  <li>Updated detection tables.</li>
+  <li>Apple II games are now detected. Although not supported yet, most can be started.</li>
 
-  <li>Simplified character import from Sierra games for QfG2 AGDI.</li>
+  <li>Fixed duration of timed text boxes. They were shown only half as long as<br>
 
-  <li>Fixed graphical glitch affecting Unavowed and Heroine''s Quest.</li>
+  they should be, making e.g. the King''s Quest III intro hard to read.</li>
 
-  <li>Fixed partial outlines for some letters in Kathy Rain.</li>
+  <li>The predictive input dialog popup when clicking on the prompt line or in an
+  input field<br>
 
-  <li>Fixed crash in Alum.</li>
+  is now an optional game setting, disabled by default.</li>
 
-  <li>Added stub to prevent crash at the beginning of Falcon City.</li>
+  <li>Fixed Black Cauldron witches not disappearing at end of game.</li>
+
+  <li>Fixed King''s Quest III mice event not occurring after listening to fish.</li>
+
+  <li>Fixed Mixed-Up Mother Goose crash after nursery rhyme on certain platforms.</li>
+
+  <li>Fixed Gold Rush game clock in Apple IIgs version.</li>
+
+  <li>Fixed Donald Duck''s Playground audio bugs in PC booter version.</li>
+
+  <li>Improved detection for PC booter games.</li>
+
+  <li>Added support for sound in CoCo3 games.</li>
+
+  <li>Fixed many bugs in Winnie The Pooh In The Hundred Acre Wood, including<br>
+
+  Tigger never appearing and Eeyore not accepting his balloon.</li>
 
   </ul>
 
-  <h3 dir="auto">Broken Sword 2:</h3>
+  <h2 dir="auto">AGOS:</h2>
 
   <ul dir="auto">
 
-  <li>Fixed crash when quitting the game while it was paused.</li>
+  <li>Added keymapper support.</li>
+
+  <li>Fixed timer handling in savegames, addressing issues such as crashing in<br>
+
+  Waxworks Egypt Level 3 and Power Points not regenerating in Elvira 2.</li>
 
   </ul>
 
-  <h3 dir="auto">MM:</h3>
+  <h2 dir="auto">AGS:</h2>
 
   <ul dir="auto">
 
-  <li>Enabled engine, allowing MM1 and Xeen to be compiled.</li>
+  <li>Syncronized with upstream AGS 3.6.1.30.</li>
+
+  <li>Added commandline --language option to specify the game language overriding
+  the GUI.</li>
+
+  <li>Fixed glitchy staircase in old Maniac Mansion Mania episodes, caused by<br>
+
+  imperfect pathfinding.</li>
+
+  <li>Fixed savescreen not accepting keyboard input in a few games (e.g. An English
+  Haunting).</li>
+
+  <li>Fixed colorless texts in games using the SpriteFont plugin (e.g. Detective Gallo).</li>
+
+  <li>Updated .mod playback and fixed looping not working in rare occasions.</li>
+
+  <li>Fixed misbehaving legacy upscaler in old games.</li>
+
+  <li>Fixed rare incorrect tinting when using AVX2 optimizations.</li>
+
+  <li>Added a few checks for unsupported videos to prevent crashes.</li>
+
+  <li>Multiple updates to the detection tables.</li>
+
+  </ul>
+
+  <h2 dir="auto">Asylum:</h2>
+
+  <ul dir="auto">
+
+  <li>Implemented moving with the arrow keys.</li>
+
+  </ul>
+
+  <h2 dir="auto">BBVS:</h2>
+
+  <ul dir="auto">
+
+  <li>Added keymapper support.</li>
+
+  </ul>
+
+  <h2 dir="auto">Bladerunner:</h2>
+
+  <ul dir="auto">
+
+  <li>Fixed a soft-lock case for Izo at Hawker''s Circle.</li>
+
+  <li>The "Designers cut" setting can be set in advance and persist for a new game.</li>
+
+  <li>Improved, reliable application of custom random seeds.</li>
+
+  </ul>
+
+  <h2 dir="auto">Chewy:</h2>
+
+  <ul dir="auto">
+
+  <li>Fixed cyber crown state before Surimy attack.</li>
+
+  <li>Fixed changing hotspot subtexts.</li>
+
+  <li>Fixed keyboard handling in the inventory screen.</li>
+
+  <li>Fixed unlocked cutscenes in cinema screen.</li>
+
+  <li>Fixed music in harbor during the second visit.</li>
+
+  <li>Fixed movement of Chewy''s boat during the boat race.</li>
+
+  <li>Fixed room placement of Nichelle after Kong attack.</li>
+
+  </ul>
+
+  <h2 dir="auto">Cine:</h2>
+
+  <ul dir="auto">
+
+  <li>Added keymapper support.</li>
+
+  </ul>
+
+  <h2 dir="auto">Composer:</h2>
+
+  <ul dir="auto">
+
+  <li>Added keymapper support.</li>
+
+  </ul>
+
+  <h2 dir="auto">Cruise:</h2>
+
+  <ul dir="auto">
+
+  <li>Added support for Russian fan-translation.</li>
+
+  <li>Added keymapper support.</li>
+
+  </ul>
+
+  <h2 dir="auto">Draci:</h2>
+
+  <ul dir="auto">
+
+  <li>Added keymapper support.</li>
+
+  </ul>
+
+  <h2 dir="auto">Dreamweb:</h2>
+
+  <ul dir="auto">
+
+  <li>Fixed crash when changing scenes, while holding some non-essential game<br>
+
+  items.</li>
+
+  </ul>
+
+  <h2 dir="auto">EFH:</h2>
+
+  <ul dir="auto">
+
+  <li>Fixed various crashes when exiting in the middle of an interaction.</li>
+
+  </ul>
+
+  <h2 dir="auto">Freescape:</h2>
+
+  <ul dir="auto">
+
+  <li>Added support for Atari/Amiga releases of Dark Side.</li>
+
+  <li>Added "authentic graphics" mode.</li>
+
+  <li>Fixed several glitches in the different render modes.</li>
+
+  <li>Improved keymapper support coverage.</li>
+
+  <li>Correctly implement aspect ratio correction following dosbox implementation.</li>
+
+  </ul>
+
+  <h2 dir="auto">GLK/ADVSYS:</h2>
+
+  <ul dir="auto">
+
+  <li>Fixed parsing for input commands.</li>
+
+  </ul>
+
+  <h2 dir="auto">Gob:</h2>
+
+  <ul dir="auto">
+
+  <li>Fixed Blount becoming inactive in the Gob3 brain level.</li>
+
+  <li>Fixed flickering cursor during some videos in Gob3 and Lost in Time.</li>
+
+  </ul>
+
+  <h2 dir="auto">Groovie:</h2>
+
+  <ul dir="auto">
+
+  <li>Added keymapper support.</li>
+
+  </ul>
+
+  <h2 dir="auto">Hopkins:</h2>
+
+  <ul dir="auto">
+
+  <li>Added keymapper support.</li>
+
+  </ul>
+
+  <h2 dir="auto">Hugo:</h2>
+
+  <ul dir="auto">
+
+  <li>Added keymapper support.</li>
+
+  </ul>
+
+  <h2 dir="auto">Hypno:</h2>
+
+  <ul dir="auto">
+
+  <li>Fixed lagging cursor on some platforms.</li>
+
+  </ul>
+
+  <h2 dir="auto">Illusions:</h2>
+
+  <ul dir="auto">
+
+  <li>Added keymapper support.</li>
+
+  </ul>
+
+  <h2 dir="auto">Kyra:</h2>
+
+  <ul dir="auto">
+
+  <li>(EOB) Added a "Faithful AD&amp;D rules" checkbox, to enable improvements and<br>
+
+  fixes to original Eye of the Beholder I and II game code.</li>
+
+  <li>(EOB) Fixed an issue where multi-class characters might gain incorrect HP<br>
+
+  due to round-off errors.</li>
+
+  <li>(EOB) Corrected projectile weapon damage (as per AD&amp;D 2nd Edition rules).</li>
+
+  <li>(EOB) Elves get +1 to hit with swords and bows (according to the official<br>
+
+  game manual).</li>
+
+  <li>Fixed NPCs Ileria (female) and Beohram (paladin) in Eye of the Beholder I.</li>
+
+  <li>(EOB) Fixed a few small bugs.</li>
+
+  </ul>
+
+  <h2 dir="auto">Lure:</h2>
+
+  <ul dir="auto">
+
+  <li>Added keymapper support.</li>
+
+  </ul>
+
+  <h2 dir="auto">M4:</h2>
+
+  <ul dir="auto">
+
+  <li>Fixed restoring conversation state.</li>
+
+  </ul>
+
+  <h2 dir="auto">MADE:</h2>
+
+  <ul dir="auto">
+
+  <li>Added keymapper support.</li>
+
+  </ul>
+
+  <h2 dir="auto">MADS:</h2>
+
+  <ul dir="auto">
+
+  <li>Added keymapper support.</li>
+
+  </ul>
+
+  <h2 dir="auto">MM:</h2>
+
+  <ul dir="auto">
 
   <li>Added MT32/LAPC-1 support for Xeen engine.</li>
 
   <li>Fixed Xeen regression which caused some sound effects to stop abruptly.</li>
 
+  <li>Fixed spell SP/gem requirements in MM1 enhanced mode, and actually remove<br>
+
+  spell points &amp; gems when spells are cast.</li>
+
   </ul>
 
-  <h3 dir="auto">mTropolis:</h3>
+  <h2 dir="auto">NANCY:</h2>
 
   <ul dir="auto">
 
-  <li>Fixed crash in Muppet Treasure Island on some platforms.</li>
+  <li>Fixed a startup crash and some broken puzzles in The Vampire Diaries.</li>
 
-  <li>Fixed jewel puzzle in Muppet Treasure Island not being randomized.</li>
+  <li>Fixed a crash when trying to play the Russian versions of early Nancy Drew games.</li>
 
   </ul>
 
-  <h3 dir="auto">NANCY:</h3>
+  <h2 dir="auto">NGI:</h2>
 
   <ul dir="auto">
 
-  <li>Fixed the telephone hints in Secrets Can Kill.</li>
-
-  <li>Fixed the crashing and drawing issues on ARM machines when playing<br>
-
-  Message in a Haunted Mansion''s maze minigame.</li>
-
-  <li>Fixed the ''M'' keyboard key not working in Message in a Haunted Mansion.</li>
-
-  <li>Allowed general keymaps to be shown in the engine Keymaps menu.</li>
-
-  <li>Virtual keyboard now correctly triggers on/off wherever text input is needed.</li>
+  <li>Added support for Lithuanian version of fullpipe.</li>
 
   </ul>
 
-  <h3 dir="auto">SCUMM:</h3>
+  <h2 dir="auto">PINK:</h2>
 
   <ul dir="auto">
 
-  <li>Fix screen corruption (and sometimes even crashes) in Mac Loom and<br>
-
-  Indiana Jones and the Last Crusade, most noticeably when using menu<br>
-
-  shortcut keys.</li>
-
-  <li>Fix enabling/disabling of Open and Save in Mac Indiana Jones and the Last<br>
-
-  Crusade.</li>
+  <li>Fixed crash after the girl turns into a mermaid.</li>
 
   </ul>
 
-  <h3 dir="auto">TWINE:</h3>
+  <h2 dir="auto">SAGA:</h2>
 
   <ul dir="auto">
 
-  <li>Fix ladder climbing regression.</li>
+  <li>Added keymapper support.</li>
 
-  <li>Fix scenery zoom issue.</li>
+  <li>Prevent reaching an unwinnable state when not performing key actions in<br>
 
-  <li>Fix animation glitches after using the holomap.</li>
+  Nimdok''s chapter in IHNM.</li>
 
   </ul>
 
-  <h3 dir="auto">Ultima:</h3>
+  <h2 dir="auto">SCI:</h2>
 
   <ul dir="auto">
 
-  <li>Fix Ultima VIII hidden minimap blocking keyring use.</li>
+  <li>Added CGA (4 colors and black/white) and Hercules render modes for most<br>
 
-  <li>Fix Ultima VIII page breaks in books.</li>
+  SCI 0 DOS games. Also added an EGA dithering mode and a VGA gray scale<br>
 
-  <li>Fix Ultima VIII text centering for plaques.</li>
+  mode for many SCI 1 DOS games, a 16 colors mode for KQ6 Windows and<br>
 
-  <li>Fix Ultima VIII crash on dragging items to screen edge.</li>
+  8 colors modes for all PC-98 games.</li>
 
-  <li>Fix Ultima VIII unexpected jumping on left click.</li>
+  <li>Added Gabriel Knight 1 CD speech repair by AllTinker.<br>
 
-  <li>Fix Ultima VIII camera during cutscenes for Shrine of the Ancient Ones.</li>
+  Fixes the majority of pops and clicks in the DPCM8 speech audio.</li>
 
-  <li>Fix Ultima VIII invalid placement of items within containers.</li>
+  <li>Improved PCjr audio.</li>
 
-  <li>Fix Ultima VIII never-ending lava sounds.</li>
+  <li>Improved KQ6 CD settings. The DOS platform now defaults to DOS behavior.</li>
+
+  <li>Better support for Mac KQ6.</li>
+
+  <li>Implemented KQ5 FM Towns save/restore UI.</li>
+
+  <li>Numerous script fixes to different games.</li>
+
+  <li>Fixed SCI1.1 picture scaling inaccuracies.</li>
+
+  <li>Fixed fallback detection for unknown fan games.</li>
+
+  <li>Added support for Spanish SQ3.</li>
+
+  <li>Added support for Russian Camelot, Laura Bow, PQ2.</li>
+
+  <li>Added support for Russian fan-translation of QFG3.</li>
 
   </ul>
 
-  <h3 dir="auto">V-Cruise:</h3>
+  <h2 dir="auto">SCUMM:</h2>
 
   <ul dir="auto">
 
-  <li>Fixed crash in Reah: Face the Unknown and Schizm: Mysterious Journey<br>
+  <li>Added map generator from Moonbase Console for Moonbase Commander.</li>
 
-  when music is muted.</li>
+  <li>Improved graphics support for Macintosh MI1, MI2 and Fate of Atlantis.</li>
+
+  <li>Improved audio support for Macintosh Loom, Last Crusade, and MI1.</li>
 
   </ul>
 
-  <h3 dir="auto">Android port:</h3>
+  <h2 dir="auto">Sherlock:</h2>
 
   <ul dir="auto">
 
-  <li>Fixed crash in built-in help with German language.</li>
+  <li>Added support for Russian translation of Rose Tattoo.</li>
 
   </ul>
 
-  <h3 dir="auto">Atari port:</h3>
+  <h2 dir="auto">Stark:</h2>
 
   <ul dir="auto">
 
-  <li>Fixed crash when exiting ScummVM.</li>
-
-  <li>Fixed BBVS (and possibly others) gameplay by using more precise math model.</li>
+  <li>Added keymapper support.</li>
 
   </ul>
 
-  <h3 dir="auto">macOS port:</h3>
+  <h2 dir="auto">Sword1:</h2>
 
   <ul dir="auto">
 
-  <li>Fixed a problem where some Mac games would not load resources correctly.</li>
+  <li>Added a "Windows audio engine" mode available within the ScummVM game<br>
 
-  <li>Updated application icon to conform with modern standards.</li>
+  options, in which we simulate the DirectSound audio drivers powering the<br>
+
+  Windows 95 executable.<br>
+
+  This makes the game use softer (logarithmic) audio curves, but removes<br>
+
+  fade-in and fade-out for sound effects, fade-in for music, and automatic<br>
+
+  music volume attenuation for when speech is playing. By default the setting<br>
+
+  is off, since the game was developed with DOS and AIL sound drivers in mind,<br>
+
+  and it is also not available for Macintosh and PSX versions.</li>
+
+  <li>Added keymapper support.</li>
+
+  <li>Improved support on big-endian systems.</li>
+
+  <li>Added more game variants.</li>
+
+  <li>Restored the ability to choose language of subtitles on PC versions.</li>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/scummvm/scummvm/compare/v2.8.0...v2.8.1"><tt>v2.8.0...v2.8.1</tt></a></p>'
-updated: '2024-03-31T19:25:25Z'
-version: v2.8.1
-version_title: 'ScummVM 2.8.1: "Oh MMy!"'
+  <h2 dir="auto">Sword25:</h2>
+
+  <ul dir="auto">
+
+  <li>Fixed looping scene background sounds.</li>
+
+  <li>Fixed actor lighting when walking.</li>
+
+  </ul>
+
+  <h2 dir="auto">Teenagent:</h2>
+
+  <ul dir="auto">
+
+  <li>Added support for Polish floppy version.</li>
+
+  </ul>
+
+  <h2 dir="auto">Tinsel:</h2>
+
+  <ul dir="auto">
+
+  <li>Added keymapper support.</li>
+
+  </ul>
+
+  <h2 dir="auto">Titanic:</h2>
+
+  <ul dir="auto">
+
+  <li>Fixed crash if the word ''that'' was used in a conversation.</li>
+
+  </ul>
+
+  <h2 dir="auto">Tony:</h2>
+
+  <ul dir="auto">
+
+  <li>Fix crash with rapid cursor switching.</li>
+
+  </ul>
+
+  <h2 dir="auto">TsAGE:</h2>
+
+  <ul dir="auto">
+
+  <li>Added keymapper support.</li>
+
+  <li>Added support for Russian CD fan-translation for Ringworld.</li>
+
+  <li>Added support for Russian CD fan-translation for Blue Force.</li>
+
+  </ul>
+
+  <h2 dir="auto">Toon:</h2>
+
+  <ul dir="auto">
+
+  <li>Added keymapper support.</li>
+
+  </ul>
+
+  <h2 dir="auto">Touche:</h2>
+
+  <ul dir="auto">
+
+  <li>Added keymapper support.</li>
+
+  </ul>
+
+  <h2 dir="auto">Trecision:</h2>
+
+  <ul dir="auto">
+
+  <li>Added keymapper support.</li>
+
+  </ul>
+
+  <h2 dir="auto">Tucker:</h2>
+
+  <ul dir="auto">
+
+  <li>Added keymapper support.</li>
+
+  <li>Fixed being unable to enter the Lower Hall in 2nd Chapter.</li>
+
+  </ul>
+
+  <h2 dir="auto">TwinE:</h2>
+
+  <ul dir="auto">
+
+  <li>Several collision related fixes.</li>
+
+  </ul>
+
+  <h2 dir="auto">Ultima:</h2>
+
+  <ul dir="auto">
+
+  <li>Fix pathfinding not detecting some doors in Ultima VI.</li>
+
+  <li>Alter Ultima VIII default gamepad bindings.</li>
+
+  <li>Improved Ultima VIII keybind player movement.</li>
+
+  <li>Alter Ultima VIII target gump to no longer pause game.</li>
+
+  <li>Alter Ultima VIII minimap to use game palette.</li>
+
+  <li>Fixed Ultima VIII item splitting &amp; merging on game map.</li>
+
+  <li>Fixed Ultima VIII animation, audio, and scene transition issues.</li>
+
+  </ul>
+
+  <h2 dir="auto">Voyeur:</h2>
+
+  <ul dir="auto">
+
+  <li>Added Interplay logo animation.</li>
+
+  </ul>
+
+  <h2 dir="auto">ZVision:</h2>
+
+  <ul dir="auto">
+
+  <li>Improved support of RTL languages.</li>
+
+  </ul>
+
+  <h2 dir="auto">Android port:</h2>
+
+  <ul dir="auto">
+
+  <li>Add support for Android 15.</li>
+
+  <li>Add game shortcuts support on Android home screen either from a long press<br>
+
+  on the ScummVM icon or from the launcher widgets selector.</li>
+
+  <li>Rework the gamepad input mode with an improved UI. Add more virtual buttons.</li>
+
+  <li>Scale UI according to display density.</li>
+
+  <li>Various stability fixes.</li>
+
+  </ul>
+
+  <h2 dir="auto">macOS port:</h2>
+
+  <ul dir="auto">
+
+  <li>Autoupdates now use Sparkle 2.x.</li>
+
+  <li>Changed default savegame path to use the Application Support folder.</li>
+
+  </ul>
+
+  <h2 dir="auto">3DS port:</h2>
+
+  <ul dir="auto">
+
+  <li>Integrated the port-specific options dialog with the main GUI.</li>
+
+  <li>Increased available memory on the Old 3DS.</li>
+
+  <li>Fixed crashes in new 3DS models due to different memory handling.</li>
+
+  </ul>
+
+  <h2 dir="auto">iOS/iPadOS port:</h2>
+
+  <ul dir="auto">
+
+  <li>Add Apple Pencil support.</li>
+
+  <li>Add app icons for “Dark” and “Tinted” modes.</li>
+
+  <li>Various stability fixes.</li>
+
+  </ul>
+
+  <p dir="auto">Full Changelog: <a class="commit-link" href="https://github.com/scummvm/scummvm/compare/v2.8.1...v2.9.0"><tt>v2.8.1...v2.9.0</tt></a></p>'
+updated: '2024-12-22T20:40:59Z'
+version: v2.9.0
+version_title: 'ScummVM 2.9.0: "Close Encounters of the 2.9th Kind"'
 website: https://www.scummvm.org
 ---
 ScummVM allows you to play classic graphic point-and-click adventure games, text adventure games, and RPGs, as long as you already have the game data files. ScummVM replaces the executable files shipped with the games, which means you can now play your favorite games on all your favorite devices.
