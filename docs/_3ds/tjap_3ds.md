@@ -22,6 +22,45 @@ icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
+prerelease:
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.4.5O
+  downloads:
+    TJAP_3DS.3dsx:
+      size: 1168444
+      size_str: 1 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.5O/TJAP_3DS.3dsx
+    TJAP_3DS.cia:
+      size: 1487808
+      size_str: 1 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.5O/TJAP_3DS.cia
+  qr:
+    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
+  update_notes: '<h2 dir="auto">日本語</h2>
+
+    <p dir="auto">コンボボイスを入手したのでテスト。<br>
+
+    (OpenTaikoの本家風スキンから使わせて貰いました。)</p>
+
+    <h2 dir="auto">English</h2>
+
+    <p dir="auto">I got a Combo Voice, so I tested it.<br>
+
+    (I used it from OpenTaiko Official style skin.)</p>'
+  update_notes_md: '## 日本語
+
+    コンボボイスを入手したのでテスト。
+
+    (OpenTaikoの本家風スキンから使わせて貰いました。)
+
+
+    ## English
+
+    I got a Combo Voice, so I tested it.
+
+    (I used it from OpenTaiko Official style skin.)'
+  updated: '2024-12-23T23:29:03Z'
+  version: v1.4.5O
+  version_title: pre-release[1] - ComboVoice TEST
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 source: https://github.com/LuMariGames/TJAP_3DS
