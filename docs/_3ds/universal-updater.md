@@ -73,7 +73,7 @@ screenshots:
 - description: Store selection
   url: https://db.universal-team.net/assets/images/screenshots/universal-updater/store-selection.png
 source: https://github.com/Universal-Team/Universal-Updater
-stars: 919
+stars: 920
 systems:
 - 3DS
 title: Universal-Updater
