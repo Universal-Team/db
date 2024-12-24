@@ -11,13 +11,13 @@ description: Citrahold allows you to sync saves between Citra and your 3DS
 download_page: https://github.com/regimensocial/Citrahold-3DS/releases
 downloads:
   Citrahold-3DS.3dsx:
-    size: 1709460
+    size: 1710864
     size_str: 1 MiB
-    url: https://github.com/regimensocial/Citrahold-3DS/releases/download/v1.1.1/Citrahold-3DS.3dsx
+    url: https://github.com/regimensocial/Citrahold-3DS/releases/download/v1.1.2/Citrahold-3DS.3dsx
   Citrahold-3DS.cia:
     size: 1119168
     size_str: 1 MiB
-    url: https://github.com/regimensocial/Citrahold-3DS/releases/download/v1.1.1/Citrahold-3DS.cia
+    url: https://github.com/regimensocial/Citrahold-3DS/releases/download/v1.1.2/Citrahold-3DS.cia
 github: regimensocial/Citrahold-3DS
 icon: https://raw.githubusercontent.com/regimensocial/Citrahold-3DS/main/assets/icon.png
 image: https://raw.githubusercontent.com/regimensocial/Citrahold-3DS/main/assets/banner.png
@@ -35,10 +35,15 @@ systems:
 title: Citrahold-3DS
 unique_ids:
 - '0xFF3FE'
-update_notes: '<p dir="auto">The server wouldn''t connect in older builds, this is
-  now fixed.<br>
+update_notes: '<p dir="auto">If you had a lot of games in your Citrahold directory,
+  the menu would be really long and hard to scroll. I''ve changed the way it''s displayed
+  so that it''s a little nicer to use.</p>
 
-  Thank you for your patience!</p>
+  <p dir="auto">It also now reattempts to connect to the server if it immediately
+  fails. Connection failure is common if you boot Citrahold 3DS immediately after
+  starting up the 3DS. Reconnecting usually fixes it.</p>
+
+  <p dir="auto">Happy Holidays!</p>
 
   <p dir="auto">You can scan this QR Code in FBI to install it.<br>
 
@@ -46,9 +51,9 @@ update_notes: '<p dir="auto">The server wouldn''t connect in older builds, this 
   src="https://camo.githubusercontent.com/949eb4ab77321164249af8c3bb10336328f24f1070d59348d6a06f7c019390ff/68747470733a2f2f7777772e6369747261686f6c642e636f6d2f696d61676572792f71722e706e673f6e6577"
   alt="Citrahold CIA QR Code" data-canonical-src="https://www.citrahold.com/imagery/qr.png?new"
   style="max-width: 100%;"></a></p>'
-updated: '2024-07-19T17:34:10Z'
-version: v1.1.1
-version_title: Citrahold 3DS v1.1.1
+updated: '2024-12-24T03:06:39Z'
+version: v1.1.2
+version_title: Citrahold 3DS v1.1.2
 website: https://www.citrahold.com/
 ---
 Citrahold provides you with everything you need to easily move game saves from a physical 3DS to a 3DS emulator on your computer (and vice versa).
