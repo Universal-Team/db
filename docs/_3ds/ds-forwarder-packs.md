@@ -25,8 +25,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto"><strong>UPDATE 11/26/2024:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.2.2">nds-bootstrap
-  v2.2.2</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.3.0">nds-bootstrap
+  v2.3.0</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -53,15 +53,40 @@ update_notes: '<p dir="auto"><strong>UPDATE 11/26/2024:</strong> Includes <a hre
 
   </ul>
 
+  <h3 dir="auto">What''s new?</h3>
+
+  <ul dir="auto">
+
+  <li>Added a <code class="notranslate">.ini</code>-only setting to change the save
+  location of ROMs. Open <code class="notranslate">sd:/_nds/ntr_forwarder.ini</code>,
+  and add one of these lines under <code class="notranslate">[NTR-FORWARDER]</code>:
+
+  <ul dir="auto">
+
+  <li><code class="notranslate">SAVE_LOCATION = 0</code> to put saves in the <code
+  class="notranslate">saves</code> folder in the same place as the <code class="notranslate">.nds</code>
+  file</li>
+
+  <li><code class="notranslate">SAVE_LOCATION = 1</code> to put saves in the exact
+  same place as the <code class="notranslate">.nds</code> file.</li>
+
+  <li><code class="notranslate">SAVE_LOCATION = 2</code> to put saves in <code class="notranslate">sd:/_nds/TWiLightMenu/saves/</code>.
+  Will fallback to <code class="notranslate">0</code> if TWLMenu++ is not installed.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
   <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>Fixed wrong save size being created for <em>Winx Club: Secret Diary 2009</em>,
-  which caused a save corruption message when attempting to run.</li>
+  <li>Fixed DSiWare titles not working with the save number feature.</li>
 
   </ul>'
-updated: '2024-11-19T00:58:01Z'
-version: SD-19
-version_title: 'GitHub Release #19'
+updated: '2024-12-25T08:59:26Z'
+version: SD-20
+version_title: 'GitHub Release #20'
 ---
