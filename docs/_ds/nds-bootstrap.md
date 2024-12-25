@@ -55,10 +55,10 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   data-hovercard-url="/users/Gericom/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/Gericom">@Gericom</a>)</li>
 
-  <li>For improved DSiWare compatibility flashcards, they will now run with the SDMMC
-  mode redirected to DLDI R/W code, if the SDMMC register is enabled on ARM7, and
-  if the flashcard is running in (full) DSi mode. (Patch code by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Gericom/hovercard"
+  <li>For improved DSiWare compatibility flashcards (outside of B4DS mode), they will
+  now run with the SDMMC mode redirected to DLDI R/W code, if the SDMMC register is
+  enabled on ARM7, and if the flashcard is running in (full) DSi mode. (Patch code
+  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Gericom/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Gericom">@Gericom</a>)
 
   <ul dir="auto">
