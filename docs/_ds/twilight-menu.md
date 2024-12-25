@@ -8,23 +8,7 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads:
-  TWiLightMenu-3DS.7z:
-    size: 42778337
-    size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.2/TWiLightMenu-3DS.7z
-  TWiLightMenu-DSi.7z:
-    size: 42841816
-    size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.2/TWiLightMenu-DSi.7z
-  TWiLightMenu-Flashcard.7z:
-    size: 53924282
-    size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.2/TWiLightMenu-Flashcard.7z
-  TWiLightMenu.7z:
-    size: 54151384
-    size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.2/TWiLightMenu.7z
+downloads: {}
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -38,8 +22,8 @@ stars: 3331
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.2.2">nds-bootstrap
-  v2.2.2</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.3.0">nds-bootstrap
+  v2.3.0</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -55,40 +39,44 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <h3 dir="auto">What''s new?</h3>
+  <p dir="auto">Merry TWL Christmas!</p>
+
+  <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>Now useable once again on the EZ-Flash Parallel with re-added autoboot support!
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mentusfentus/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mentusfentus">@mentusfentus</a>:
+  3DS Theme: Fixed crashing when launching apps from top bar without hovering on an
+  icon.</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/edo9300/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>:
+  Fixed issues when running on SuperCard Rumble flashcarts.</li>
+
+  </ul>
+
+  <h3 dir="auto">Regression</h3>
 
   <ul dir="auto">
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>
-  has fixed the bug which caused writes to corrupt the microSD card, by increasing
-  latency between writes. As a result, writes are now a bit slow, but nds-bootstrap
-  will now save games properly!</li>
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
+  Disabled autoboot support for the EZ-Flash Vi.
+
+  <ul dir="auto">
+
+  <li>A user reported that the currently provided DLDI cannot perform writes to the
+  SD card. Disable the autoboot until a fix is found.</li>
 
   </ul>
 
   </li>
 
-  </ul>
-
-  <h3 dir="auto">Bug fix</h3>
-
-  <ul dir="auto">
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/edo9300/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>:
-  Fixed an overlooked bug which caused the bottom selection to appear grayed out in
-  the DS Classic Menu when running from Slot-2 flashcards (depending on what is inserted
-  and/or which FW is flashed).</li>
-
   </ul>'
-updated: '2024-11-26T08:17:07Z'
-version: v27.12.2
-version_title: v27.12.2
+updated: '2024-12-25T09:07:42Z'
+version: v27.12.3
+version_title: 'v27.12.3: TWL Christmas Release 🎄'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---

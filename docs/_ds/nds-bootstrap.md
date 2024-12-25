@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 1117140
+    size: 1110524
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.2.2/nds-bootstrap.7z
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.3.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1667132
+    size: 1664358
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.2.2/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.3.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -28,8 +28,8 @@ stars: 1195
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.12.2"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v27.12.2</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.12.3"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v27.12.3</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -43,35 +43,88 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <h3 dir="auto">Bug fixes</h3>
+  <p dir="auto">Merry TWL Christmas!<br>
+
+  Here are some presents to unwrap for this release! 🎁</p>
 
   <ul dir="auto">
 
-  <li>Attempted to fix occasional crashing in Gen 5 Pokemon games running in DSi mode
-  on DSi consoles.
+  <li>Support for <em>Pokémon</em> Wii connection has been completely fixed! Any Gen
+  4 game will now connect with <em>Pokémon Battle Revolution</em> and/or <em>My Pokémon
+  Ranch</em>! (Patch code by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/Gericom/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Gericom">@Gericom</a>)</li>
+
+  <li>For improved DSiWare compatibility flashcards, they will now run with the SDMMC
+  mode redirected to DLDI R/W code, if the SDMMC register is enabled on ARM7, and
+  if the flashcard is running in (full) DSi mode. (Patch code by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Gericom/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Gericom">@Gericom</a>)
 
   <ul dir="auto">
 
-  <li>Achieved by shrinking the heap by 2.5MB instead of 512KB, which increases LRU
-  cache space as a result.</li>
+  <li>As a result, all NAND file reads are redirected to the flashcard.</li>
+
+  <li>If you''re using TWLMenu++, DSiWare is copied to a temp location on DSi/3DS
+  SD card by default, and saves will not work if the save location is set to the TWLMenu++
+  folder while running from DSi/3DS SD card.</li>
 
   </ul>
 
   </li>
 
-  <li>Fixed <em>Rockman EXE: Operate Shooting Star</em> crashing on 3DS consoles when
-  opening Star Colosseum.</li>
+  <li>Expanded the pre-loadable ROM size limit to use 128KB more of the main RAM,
+  32KB more of the DSi WRAM (making 512KB used), and now, the shared RAM (freed up
+  from ARM7 by how the DSi WRAM is mapped)!
 
-  <li><em>Iron Man 2</em> now boots again on DSi/3DS SD Card by fixing an overlooked
-  bug which has occurred since v1.6.0.</li>
+  <ul dir="auto">
 
-  <li>Fixed an overlooked bug which caused card read DMA to not work (and as a result,
-  possible crashing) for pre-loadable DSi-Exclusive ROMs on 3DS consoles.</li>
+  <li>Total limit is now 12.4MB for DSi consoles, and 28.4MB for 3DS consoles!</li>
+
+  </ul>
+
+  </li>
+
+  <li>Reverted back from SWI Halt/main loop hooking to IPC Sync hooking for when reading
+  ROM from DSi/3DS SD card.
+
+  <ul dir="auto">
+
+  <li>No issues with wireless communications have been noticed so far in <em>Mario
+  Kart DS</em> &amp; <em>Metroid Prime Hunters</em> during single-card play. Same
+  issues from prior versions may still occur.</li>
+
+  <li>Should fix occasional freezing in <em>Pokémon B&amp;W 1&amp;2</em>.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Fixed AP-fix for <em>Rockman EXE: OSS</em> English translation not applying.
+
+  <ul dir="auto">
+
+  <li>Requires the ROM to be opened and saved with the latest TinkeDSi nightly build.</li>
+
+  <li>Fixes Star Colosseum causing a crash when opening.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Fixed <em>Tetris Party Deluxe</em> not booting on 3DS consoles.</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/edo9300/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>:
+  Fixed issues when running on SuperCard Rumble flashcarts.</li>
+
+  <li>Removed some duplicate cardEngine9i binaries to reduce nds-bootstrap''s file
+  size.</li>
 
   </ul>'
-updated: '2024-11-26T07:45:21Z'
-version: v2.2.2
-version_title: v2.2.2
+updated: '2024-12-25T08:49:21Z'
+version: v2.3.0
+version_title: 'v2.3.0: TWL Christmas Release 🎄'
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
