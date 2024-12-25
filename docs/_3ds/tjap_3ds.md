@@ -26,7 +26,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.4.5O
   downloads:
     TJAP_3DS.3dsx:
-      size: 1168444
+      size: 1168420
       size_str: 1 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.5O/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -37,30 +37,30 @@ prerelease:
     TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
   update_notes: '<h2 dir="auto">日本語</h2>
 
-    <p dir="auto">コンボボイスを入手したのでテスト。<br>
+    <p dir="auto">暇なのでHBSCROLLの実験中。<br>
 
-    (OpenTaikoの本家風スキンから使わせて貰いました。)</p>
+    通常にプレイする場合はRelease版でお願いします。</p>
 
     <h2 dir="auto">English</h2>
 
-    <p dir="auto">I got a Combo Voice, so I tested it.<br>
+    <p dir="auto">I''m bored so I''m experimenting with HBSCROLL.<br>
 
-    (I used it from OpenTaiko Official style skin.)</p>'
+    If you want to play normally, please use the release version.</p>'
   update_notes_md: '## 日本語
 
-    コンボボイスを入手したのでテスト。
+    暇なのでHBSCROLLの実験中。
 
-    (OpenTaikoの本家風スキンから使わせて貰いました。)
+    通常にプレイする場合はRelease版でお願いします。
 
 
     ## English
 
-    I got a Combo Voice, so I tested it.
+    I''m bored so I''m experimenting with HBSCROLL.
 
-    (I used it from OpenTaiko Official style skin.)'
+    If you want to play normally, please use the release version.'
   updated: '2024-12-23T23:29:03Z'
   version: v1.4.5O
-  version_title: pre-release[1] - ComboVoice TEST
+  version_title: pre-release[2] - HBSCROLL TEST
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 source: https://github.com/LuMariGames/TJAP_3DS
