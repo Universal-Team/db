@@ -26,7 +26,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.4.5O
   downloads:
     TJAP_3DS.3dsx:
-      size: 1168420
+      size: 1168440
       size_str: 1 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.5O/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -37,30 +37,30 @@ prerelease:
     TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
   update_notes: '<h2 dir="auto">日本語</h2>
 
-    <p dir="auto">暇なのでHBSCROLLの実験中。<br>
+    <p dir="auto">コンボボイス等の実験中。<br>
 
     通常にプレイする場合はRelease版でお願いします。</p>
 
     <h2 dir="auto">English</h2>
 
-    <p dir="auto">I''m bored so I''m experimenting with HBSCROLL.<br>
+    <p dir="auto">Currently experimenting with combo voices, etc.<br>
 
     If you want to play normally, please use the release version.</p>'
   update_notes_md: '## 日本語
 
-    暇なのでHBSCROLLの実験中。
+    コンボボイス等の実験中。
 
     通常にプレイする場合はRelease版でお願いします。
 
 
     ## English
 
-    I''m bored so I''m experimenting with HBSCROLL.
+    Currently experimenting with combo voices, etc.
 
     If you want to play normally, please use the release version.'
   updated: '2024-12-23T23:29:03Z'
   version: v1.4.5O
-  version_title: pre-release[2] - HBSCROLL TEST
+  version_title: pre-release[2] - IROIRO TEST
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 source: https://github.com/LuMariGames/TJAP_3DS
