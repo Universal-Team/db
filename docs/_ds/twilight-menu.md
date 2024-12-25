@@ -10,19 +10,19 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 42727155
+    size: 42727458
     size_str: 40 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.3/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 42790005
+    size: 42790308
     size_str: 40 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.3/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 53871800
+    size: 53872530
     size_str: 51 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.3/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 54097722
+    size: 54097500
     size_str: 51 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.3/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
@@ -39,7 +39,7 @@ systems:
 - DS
 title: TWiLight Menu++
 update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.3.0">nds-bootstrap
-  v2.3.0</a></p>
+  v2.3.0</a>-<a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.3.1">v2.3.1</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
