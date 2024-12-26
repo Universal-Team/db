@@ -1,0 +1,40 @@
+name: Upload source files to Crowdin
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - 'docs/_data/i18n/en-US.json'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          submodules: recursive
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Install dependencies
+        run: |
+          cd docs
+          bundle install
+
+      - name: Build test
+        run: |
+          cd docs
+          bundle exec jekyll build
+
+      - name: Push to Crowdin
+        uses: crowdin/github-action@v2
+        with:
+          upload_sources: true
+        env:
+          CROWDIN_TOKEN: ${{ secrets.CROWDIN_TOKEN }}
