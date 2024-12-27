@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 1110435
+    size: 1106396
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.3.2/nds-bootstrap.7z
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.3.3/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1666607
+    size: 1666468
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.3.2/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.3.3/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -47,13 +47,13 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Fixed another overlooked bug which caused SDK5 titles (such as <em>SaGa 3</em>)
-  to crash later on when running from DSi/3DS SD Card.</li>
+  <li>Fixed instability of the bug fix from prior hotfix, which would cause SDK5 (non-DSi-Enhanced)
+  games to crash later on when running in DSi mode.</li>
 
   </ul>'
-updated: '2024-12-27T03:42:44Z'
-version: v2.3.2
-version_title: 'v2.3.2 (Hotfix #2)'
+updated: '2024-12-27T09:50:56Z'
+version: v2.3.3
+version_title: 'v2.3.3 (Hotfix #3)'
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
