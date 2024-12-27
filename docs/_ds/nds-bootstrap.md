@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 1111069
+    size: 1110435
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.3.1/nds-bootstrap.7z
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.3.2/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1667486
+    size: 1666607
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.3.1/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.3.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -47,13 +47,13 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Fixed an overlooked bug which caused DSiWare titles to not boot (and would only
-  work in B4DS mode).</li>
+  <li>Fixed another overlooked bug which caused SDK5 titles (such as <em>SaGa 3</em>)
+  to crash later on when running from DSi/3DS SD Card.</li>
 
   </ul>'
-updated: '2024-12-25T19:33:09Z'
-version: v2.3.1
-version_title: 'v2.3.1: TWL Christmas Hotfix'
+updated: '2024-12-27T03:42:44Z'
+version: v2.3.2
+version_title: 'v2.3.2 (Hotfix #2)'
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
