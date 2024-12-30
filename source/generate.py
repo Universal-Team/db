@@ -175,7 +175,16 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 	iconIndex = 0
 	names = {}  # GitHub name cache
 	tempDir = path.join(path.dirname(sourceFolder), "temp")
-	header = {"Authorization": f"token {ghToken}"} if ghToken else None
+
+	# Create headers and a session for github specific requests
+	github_headers = {"Accept": "application/vnd.github+json",
+					  "X-GitHub-Api-Version": "2022-11-28"}
+	if ghToken:
+		github_headers["Authorization"] = f"Bearer {ghToken}"
+
+	gh_req = requests.Session()
+	gh_req.headers.update(github_headers)
+
 	unistore = UniStore(
 		"Universal-DB",
 		"Universal-Team",
@@ -293,9 +302,9 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 
 			if "github" in app:
 				print("GitHub --", app["github"])
-				api = requests.get(f"https://api.github.com/repos/{app['github']}", headers=header if header else None).json()
+				api = gh_req.get(f"https://api.github.com/repos/{app['github']}").json()
 				assert "message" not in api, app["github"] + " API Error: " + api["message"]
-				releases = requests.get(f"https://api.github.com/repos/{app['github']}/releases", headers=header if header else None).json()
+				releases = gh_req.get(f"https://api.github.com/repos/{app['github']}/releases").json()
 				assert "message" not in releases, app["github"] + " API Error: " + releases["message"]
 				release = None
 				prerelease = None
@@ -308,7 +317,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 
 				# If no actual release found on page 1, try /latest
 				if not release:
-					release = requests.get(f"https://api.github.com/repos/{app['github']}/releases/latest", headers=header if header else None).json()
+					release = gh_req.get(f"https://api.github.com/repos/{app['github']}/releases/latest").json()
 					if "message" in release and release["message"] == "Not Found":
 						release = None
 
@@ -320,7 +329,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 					if username in names:
 						username = names[username]
 					else:
-						user = requests.get(f"https://api.github.com/users/{username}", headers=header if header else None).json()
+						user = gh_req.get(f"https://api.github.com/users/{username}").json()
 						assert "message" not in user, app["github"] + " API Error: " + user["message"]
 						names[username] = user["name"] if user["name"] is not None else username
 						username = names[username]
@@ -341,7 +350,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 				if "website" not in app and api["homepage"] != "" and api["homepage"] is not None:
 					app["website"] = api["homepage"]
 
-				if "wiki" not in app and api["has_wiki"] and requests.get(f"https://raw.githubusercontent.com/wiki/{app['github']}/Home.md").status_code != 404:
+				if "wiki" not in app and api["has_wiki"] and gh_req.get(f"https://raw.githubusercontent.com/wiki/{app['github']}/Home.md").status_code != 404:
 					app["wiki"] = f"{api['html_url']}/wiki"
 
 				if api["license"]:
@@ -367,7 +376,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 
 					if "update_notes" not in app and release["body"] != "" and release["body"] is not None:
 						app["update_notes_md"] = release["body"].replace("\r\n", "\n")
-						app["update_notes"] = requests.post("https://api.github.com/markdown", headers=header if header else None, json={"text": release["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
+						app["update_notes"] = gh_req.post("https://api.github.com/markdown", json={"text": release["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
 						app["update_notes"] = re.sub(r'<a target="_blank" rel="noopener noreferrer" href="https:\/\/private-user-images.githubusercontent\.com.*?<\/a>', "", app["update_notes"])
 
 					if "updated" not in app:
@@ -415,7 +424,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 
 						if "update_notes" not in app["prerelease"] and prerelease["body"] != "" and prerelease["body"] is not None:
 							app["prerelease"]["update_notes_md"] = prerelease["body"].replace("\r\n", "\n")
-							app["prerelease"]["update_notes"] = requests.post("https://api.github.com/markdown", headers=header if header else None, json={"text": prerelease["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
+							app["prerelease"]["update_notes"] = gh_req.post("https://api.github.com/markdown", json={"text": prerelease["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
 							app["prerelease"]["update_notes"] = re.sub(r'<a target="_blank" rel="noopener noreferrer" href="https:\/\/private-user-images.githubusercontent\.com.*?<\/a>', "", app["prerelease"]["update_notes"])
 
 							if "update_notes" not in app:
@@ -538,7 +547,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 				if "update_notes_md" in app:
 					app["update_notes_md"] = eval(app["update_notes_md"])
 					if "update_notes" not in app:
-						app["update_notes"] = requests.post("https://api.github.com/markdown", headers=header if header else None, json={"text": app["update_notes_md"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
+						app["update_notes"] = gh_req.post("https://api.github.com/markdown", json={"text": app["update_notes_md"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
 
 			# If no markdown notes, generate from HTML
 			if "update_notes_md" not in app and "update_notes" in app:
@@ -564,7 +573,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 
 			# Format update notes with GitHub's API
 			if "update_notes_md" in app and "update_notes" not in app:
-				app["update_notes"] = requests.post("https://api.github.com/markdown", headers=header if header else None, json={"text": app["update_notes_md"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
+				app["update_notes"] = gh_req.post("https://api.github.com/markdown", json={"text": app["update_notes_md"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
 
 			# Get missing download sizes
 			if "downloads" in app:
