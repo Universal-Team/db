@@ -5,6 +5,9 @@ body:
   - type: markdown
     attributes:
       value: "**Please ensure your app complies with the [Universal-DB guidelines](https://github.com/Universal-Team/db/blob/master/CONTRIBUTING.md#app-requests) before submitting a request.**"
+  - type: markdown
+    attributes:
+      value: "Know how to use git? Consider submitting a pull request instead. See [the wiki](https://github.com/Universal-Team/db/wiki/App-Template) for more information. (this is a hobby project, as simple as it is we don't have time to sit down and review everything all the time. Pull requests will be reviewed much faster)"
   - type: input
     attributes:
       label: Title
