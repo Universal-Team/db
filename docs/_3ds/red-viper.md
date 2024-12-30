@@ -89,6 +89,7 @@ update_notes: '<p dir="auto">This patch introduces anaglyph mode, render time em
 updated: '2024-12-17T21:08:00Z'
 version: v0.9.7
 version_title: v0.9.7
+wiki: https://github.com/skyfloogle/red-viper/wiki
 ---
 A Virtual Boy emulator for the 3DS. All official games are playable at full speed.
 * All officially licensed games are playable at full speed, even on the original 3DS
