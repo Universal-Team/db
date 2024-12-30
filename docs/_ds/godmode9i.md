@@ -39,7 +39,7 @@ qr:
   GodMode9i.dsi: https://db.universal-team.net/assets/images/qr/godmode9i-dsi.png
   GodMode9i.nds: https://db.universal-team.net/assets/images/qr/godmode9i-nds.png
 source: https://github.com/DS-Homebrew/GodMode9i
-stars: 511
+stars: 512
 systems:
 - DS
 title: GodMode9i
@@ -78,8 +78,8 @@ wiki: https://wiki.ds-homebrew.com/other/godmode9i
 - TWiLight Menu++: Use either the `GodMode9i.nds` or `GodMode9i.dsi` file, they function identically with TWiLight Menu++
    - The only difference is that `GodMode9i.dsi` has a Title ID
 - Flashcard: Use the `GodMode9i.nds` file
-- hiyaCFW SDNAND: Install the `GodMode9i.dsi` file with [NTM](/ds/NTM)
-- 3DS HOME Menu: Install the `GodMode9i.cia` file with [FBI](/3ds/fbi)
+- hiyaCFW SDNAND: Install the `GodMode9i.dsi` file with [NTM](/ds/ntm)
+- 3DS HOME Menu: Install the `GodMode9i.cia` file with [FBI](/3ds/fbi-nh)
 
 ### Features:
 - Dump GameBoy Advance cartridges on the original Nintendo DS and Nintendo DS Lite consoles.

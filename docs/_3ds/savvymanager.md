@@ -36,7 +36,7 @@ screenshots:
 - description: Import character
   url: https://db.universal-team.net/assets/images/screenshots/savvymanager/import-character.png
 source: https://github.com/RocketRobz/SavvyManager
-stars: 29
+stars: 30
 systems:
 - 3DS
 title: SavvyManager

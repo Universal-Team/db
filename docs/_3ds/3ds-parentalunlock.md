@@ -18,7 +18,7 @@ image: https://avatars.githubusercontent.com/u/43786828?v=4&size=128
 image_length: 10211
 layout: app
 source: https://github.com/MechanicalDragon0687/3DS-ParentalUnlock
-stars: 5
+stars: 6
 systems:
 - 3DS
 title: 3DS-ParentalUnlock
