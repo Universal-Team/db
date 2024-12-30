@@ -188,16 +188,10 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 
 	# Fetch info for GitHub apps and output
 	for i, app in enumerate(source):
-		doUpdate = True
-
-		if "priority" not in app:
-			app["priority"] = False
-
 		# Only update alternating halves of the list to save API hits
-		# if ((i % 2) == int((datetime.now().hour % 12) > 5)):
-		# 	doUpdate = app["priority"]
+		# doUpdate = ((i % 2) == int((datetime.now().hour % 12) > 5))
 
-		if (priorityOnlyMode and not app["priority"]) or not doUpdate:
+		if priorityOnlyMode or not doUpdate:
 			temp = list(filter(lambda x: "github" in x and "github" in app and x["github"] == app["github"], oldData))
 			if len(temp) == 0:
 				temp = list(filter(lambda x: "gbatemp" in x and "gbatemp" in app and x["gbatemp"] == app["gbatemp"], oldData))
@@ -217,7 +211,6 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 				doUpdate = daysSinceUpdate <= 30
 				if not doUpdate:
 					app = temp[0]
-					app["priority"] = False
 			else:
 				doUpdate = True
 
@@ -656,16 +649,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 
 					iconIndex += 1
 
-		if "title" in app:
-			app["slug"] = webName(app["title"])
-			print(app["slug"])
-
-			app["urls"] = []
-			for sys in app["systems"]:
-				app["urls"].append(f"https://db.universal-team.net/{sys.lower()}/{app['slug']}")
-
-		# Make QR
-		if doUpdate:
+			# Make QR
 			if "downloads" in app:
 				for item in app["downloads"]:
 					if item.endswith(".cia") or item.endswith(".nds") or item.endswith(".dsi"):
@@ -737,13 +721,20 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 							app["nightly"]["qr"] = {}
 						app["nightly"]["qr"][item] = f"https://db.universal-team.net/assets/images/qr/nightly/{webName(item)}.png"
 
+		if "title" in app:
+			app["slug"] = webName(app["title"])
+			print(app["slug"])
+
+			app["urls"] = []
+			for sys in app["systems"]:
+				app["urls"].append(f"https://db.universal-team.net/{sys.lower()}/{app['slug']}")
+
 		# Add to output json
 		output.append(app)
 
 		# Website file
 		web = app.copy()
 		web["layout"] = "app"
-		web.pop("priority")
 		# We want unique IDs as hex
 		if "unique_ids" in web:
 			web["unique_ids"] = [f"0x{uid:X}" for uid in web["unique_ids"]]
