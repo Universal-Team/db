@@ -188,6 +188,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 
 	# Fetch info for GitHub apps and output
 	for i, app in enumerate(source):
+		doUpdate = True
 		# Only update alternating halves of the list to save API hits
 		# doUpdate = ((i % 2) == int((datetime.now().hour % 12) > 5))
 
@@ -291,11 +292,11 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 										app["downloads"][name]["size_str"] = byteCount(app["downloads"][name]["size"])
 
 			if "github" in app:
-				print("GitHub")
+				print("GitHub --", app["github"])
 				api = requests.get(f"https://api.github.com/repos/{app['github']}", headers=header if header else None).json()
-				assert "message" not in api, api["message"]
+				assert "message" not in api, app["github"] + " API Error: " + api["message"]
 				releases = requests.get(f"https://api.github.com/repos/{app['github']}/releases", headers=header if header else None).json()
-				assert "message" not in releases, releases["message"]
+				assert "message" not in releases, app["github"] + " API Error: " + releases["message"]
 				release = None
 				prerelease = None
 				if len(releases) > 0 and releases[0]["prerelease"]:
@@ -320,7 +321,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 						username = names[username]
 					else:
 						user = requests.get(f"https://api.github.com/users/{username}", headers=header if header else None).json()
-						assert "message" not in user, user["message"]
+						assert "message" not in user, app["github"] + " API Error: " + user["message"]
 						names[username] = user["name"] if user["name"] is not None else username
 						username = names[username]
 					app["author"] = username
@@ -429,7 +430,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 						app.pop("prerelease")
 
 			if "bitbucket" in app:
-				print("Bitbucket")
+				print("Bitbucket --", app["bitbucket"]["repo"])
 				api = requests.get(f"https://api.bitbucket.org/2.0/repositories/{app['bitbucket']['repo']}").json()
 
 				if "title" not in app:
@@ -473,7 +474,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 							app["updated"] = commit["date"]
 
 			if "gitlab" in app:
-				print("Gitlab")
+				print("Gitlab --", app["gitlab"])
 				gitlab_id = app["gitlab"].replace('/', '%2F')
 				endpoint = app["gitlab_endpoint"] if "gitlab_endpoint" in app else "https://gitlab.com"
 				repo = requests.get(f"{endpoint}/api/v4/projects/{gitlab_id}").json()
