@@ -108,7 +108,6 @@ updated: '2024-12-10T17:49:46Z'
 version: v3.2.8
 version_title: Translation updates
 website: https://universal-team.net/projects/universal-updater.html
-wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
 Universal-Updater is a homebrew application for the Nintendo 3DS with the intention to make downloading other homebrew simple and easy. No need to manually copy files or go through installation processes, as it does that all for you.
 

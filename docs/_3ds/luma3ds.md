@@ -60,5 +60,4 @@ update_notes: '<ul dir="auto">
 updated: '2024-12-30T13:41:42Z'
 version: v13.3
 version_title: v13.3
-wiki: https://github.com/LumaTeam/Luma3DS/wiki
 ---
