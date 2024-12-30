@@ -1,5 +1,5 @@
 ---
-author: Steveice10
+author: Steveice10 & Nintendo Homebrew
 avatar: https://avatars.githubusercontent.com/u/38025742?v=4
 categories:
 - utility
@@ -7,7 +7,7 @@ color: '#c0d0ff'
 color_bg: '#606880'
 created: '2015-01-20T04:23:49Z'
 description: Open source title manager for the 3DS. (Archive)
-download_page: https://github.com/lifehackerhansol/FBI/releases
+download_page: https://github.com/nh-server/FBI-NH/releases
 downloads:
   FBI.3dsx:
     size: 1185720
@@ -21,9 +21,9 @@ downloads:
     size: 4228271
     size_str: 4 MiB
     url: https://github.com/nh-server/FBI-NH/releases/download/2.6.1/FBI.zip
-github: lifehackerhansol/FBI
-icon: https://raw.githubusercontent.com/lifehackerhansol/FBI/master/meta/icon_3ds.png
-image: https://raw.githubusercontent.com/lifehackerhansol/FBI/master/romfs/logo.png
+github: nh-server/FBI-NH
+icon: https://raw.githubusercontent.com/nh-server/FBI-NH/master/meta/icon_3ds.png
+image: https://raw.githubusercontent.com/nh-server/FBI-NH/master/romfs/logo.png
 image_length: 573
 layout: app
 license: mit
@@ -37,7 +37,8 @@ systems:
 title: FBI-NH
 unique_ids:
 - '0xF8001'
-update_notes: <p>This release is a backup of the original FBI repository's 2.6.1 release.</p>
+update_notes: <p dir="auto">This release is a backup of the original FBI repository's
+  2.6.1 release.</p>
 updated: '2021-05-18T05:59:19Z'
 version: 2.6.1
 version_title: Release 2.6.1
