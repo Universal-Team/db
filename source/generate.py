@@ -350,8 +350,10 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 				if "website" not in app and api["homepage"] != "" and api["homepage"] is not None:
 					app["website"] = api["homepage"]
 
-				if "wiki" not in app and api["has_wiki"] and gh_req.get(f"https://raw.githubusercontent.com/wiki/{app['github']}/Home.md").status_code != 404:
-					app["wiki"] = f"{api['html_url']}/wiki"
+				if "wiki" not in app and api["has_wiki"]:
+					_req = requests.get(f"https://raw.githubusercontent.com/wiki/{app['github']}/Home.md")
+					if _req.status_code != 404:
+						app["wiki"] = f"{api['html_url']}/wiki"
 
 				if api["license"]:
 					if "license" not in app:
