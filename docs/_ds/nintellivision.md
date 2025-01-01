@@ -12,21 +12,17 @@ description: Nintellivision - an Intellivision Emulator for the DS/DSi. High com
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 727552
-    size_str: 710 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.9/NINTV-DS.nds
+    size: 733184
+    size_str: 716 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.0/NINTV-DS.nds
   README.md:
-    size: 33714
-    size_str: 32 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.9/README.md
-  extras.zip:
-    size: 22176384
-    size_str: 21 MiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/5.9/extras.zip
+    size: 34078
+    size_str: 33 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.0/README.md
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 38406
+image_length: 38602
 layout: app
 qr:
   NINTV-DS.nds: https://db.universal-team.net/assets/images/qr/nintv-ds-nds.png
@@ -38,15 +34,23 @@ stars: 37
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V5.9 : 27-Oct-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V6.0 : 01-Jan-2025 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Version 5.9 with a large number of new custom overlays (see readme.md and the
-  extras.zip pack)</li>
+  <li>Multi-overlays now supported for games like Mr. BASIC Meets Bits ''n Bytes,
+  Inty BASIC Showcase collections, etc.</li>
+
+  <li>Left/Right overlays now supported for games like Chess, Lode Runner or World
+  Series Baseball.</li>
+
+  <li>Ability to pick a different overlay for the game being played (use MENU and
+  then ''PICK OVERLAY'').</li>
+
+  <li>A batch of new overlays to finally get the original 125 done!</li>
 
   </ul>'
-updated: '2024-10-27T11:03:41Z'
-version: '5.9'
-version_title: Version 5.9
+updated: '2025-01-01T13:38:13Z'
+version: '6.0'
+version_title: Version 6.0
 ---
