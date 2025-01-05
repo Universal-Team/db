@@ -288,7 +288,7 @@ update_notes: '<ul dir="auto">
   <li>WINDOWS: Hide directories starting with $ from file browser</li>
 
   </ul>'
-updated: '2025-01-02T20:55:48Z'
+updated: '2025-01-05T06:59:52Z'
 version: v1.20.0
 version_title: v1.20.0
 website: http://www.libretro.com
