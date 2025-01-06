@@ -1,0 +1,32 @@
+{
+	"long_description": "Beat-making audio sequencer and DJ-tool\n\n- Load your own wav-file sounds\n- Combined drum-pad and tracker interface\n- Clip-launching matrix\n- Euclidean mode for generative sequencing\n- Crossfading between two independent sequencer decks\n- 12 tracks per deck and 4 global buses\n",
+	"github": "gearmo3ds/noisecommander3dsdemo",
+	"image": "https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/banner.png",
+	"icon": "https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/icon.png",
+	"website": "https://www.patreon.com/NoiseCommander3DS",
+	"categories": [
+		"app"
+	],
+	"systems": [
+		"3DS"
+	],
+	"scripts": {
+		"Song Files": [
+			{
+				"type": "downloadFile",
+				"file": "https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/songs/w1_achemar.nsm",
+				"output": "/nc/tracks/w1_achemar.nsm"
+			},
+			{
+				"type": "downloadFile",
+				"file": "https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/songs/w3_Al_Dhanab.nsm",
+				"output": "/nc/tracks/w3_Al_Dhanab.nsm"
+			},
+			{
+				"type": "downloadFile",
+				"file": "https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/songs/w3_Al_Gieba.nsm",
+				"output": "/nc/tracks/w3_Al_Gieba.nsm"
+			},
+		]
+        }
+}
