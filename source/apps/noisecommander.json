@@ -26,7 +26,7 @@
 				"type": "downloadFile",
 				"file": "https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/songs/w3_Al_Gieba.nsm",
 				"output": "/nc/tracks/w3_Al_Gieba.nsm"
-			},
+			}
 		]
-        }
+	}
 }
