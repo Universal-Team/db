@@ -24,7 +24,7 @@ source: https://github.com/gearmo3ds/noisecommander3dsdemo
 stars: 0
 systems:
 - 3DS
-title: noisecommander3dsdemo
+title: Noise Commander 3DS (Demo)
 update_notes: '<h2 dir="auto">0.0.10</h2>
 
   <h3 dir="auto">Added</h3>
