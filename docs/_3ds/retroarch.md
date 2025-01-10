@@ -136,7 +136,7 @@ update_notes: '<ul dir="auto">
 
   <li>INPUT/WAYLAND: Simulate lightgun input for cores</li>
 
-  <li>INPUT/WAYLAND: Support for cursor-shape-v1 and content-type-v1 protocol</li>
+  <li>INPUT/WAYLAND: Support for cursor-shape-v1 protocol</li>
 
   <li>INPUT/X11: Enable mouse buttons 4 and 5</li>
 
@@ -274,6 +274,8 @@ update_notes: '<ul dir="auto">
   <li>VIDEO/VULKAN: Prefer IMMEDIATE mode without vsync</li>
 
   <li>VIDEO/X11: Support inhibit of Xss screensaver</li>
+
+  <li>VIDEO/WAYLAND: Support for content-type-v1 protocol</li>
 
   <li>VITA: Enable analog L2/R2 triggers when a DS3 controller is used with PS Vita</li>
 
