@@ -1,5 +1,6 @@
 ---
 author: gearmo3ds
+autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/156527942?v=4
 categories:
 - app
