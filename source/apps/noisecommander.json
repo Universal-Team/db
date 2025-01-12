@@ -5,6 +5,7 @@
 	"image": "https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/banner.png",
 	"icon": "https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/icon.png",
 	"website": "https://www.patreon.com/NoiseCommander3DS",
+	"autogen_scripts": true,
 	"categories": [
 		"app"
 	],
