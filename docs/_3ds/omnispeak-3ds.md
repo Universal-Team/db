@@ -31,7 +31,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/omnispeak-3ds/title-screen.png
 source: https://github.com/RetroGamer02/omnispeak-3ds
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: OmniSpeak-3DS

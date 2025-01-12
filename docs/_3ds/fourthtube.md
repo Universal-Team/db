@@ -11,13 +11,13 @@ description: Another work-in-progress fork of the homebrew YouTube client for th
 download_page: https://github.com/erievs/FourthTube/releases
 downloads:
   FourthTube.3dsx:
-    size: 6127544
+    size: 6124432
     size_str: 5 MiB
-    url: https://github.com/erievs/FourthTube/releases/download/b28/FourthTube.3dsx
+    url: https://github.com/erievs/FourthTube/releases/download/b29/FourthTube.3dsx
   FourthTube.cia:
-    size: 4371392
+    size: 4547520
     size_str: 4 MiB
-    url: https://github.com/erievs/FourthTube/releases/download/b28/FourthTube.cia
+    url: https://github.com/erievs/FourthTube/releases/download/b29/FourthTube.cia
 github: erievs/FourthTube
 icon: https://raw.githubusercontent.com/erievs/FourthTube/main/resource/icon.png
 image: https://raw.githubusercontent.com/erievs/FourthTube/main/resource/banner.png
@@ -28,14 +28,26 @@ license_name: GNU General Public License v3.0
 qr:
   FourthTube.cia: https://db.universal-team.net/assets/images/qr/fourthtube-cia.png
 source: https://github.com/erievs/FourthTube
-stars: 74
+stars: 73
 systems:
 - 3DS
 title: FourthTube
 unique_ids:
 - '0xBF74D'
-update_notes: <p dir="auto">Changed banner to 3D (thank <a href="https://github.com/2b-zipper">2b-zipper</a>!)</p>
-updated: '2024-11-02T00:00:56Z'
-version: b28
-version_title: Beta - 28
+update_notes: '<p dir="auto">Changelog</p>
+
+  <p dir="auto"><strong>Smu1zel:</strong></p>
+
+  <p dir="auto">Smu1zel added multiple languages [also thanks to ItsFrocat for German)],
+  removed old ThirdTube references, rebuilt FFMPEG (I think it''s also newer), removed
+  old dcrypter code that is no longer used, added French, removed flash (because it
+  can cause seizures),  more fixes and stuff I missed check commit history for a full
+  list.</p>
+
+  <p dir="auto"><strong>2b-zipper</strong></p>
+
+  <p dir="auto">Added sounds, fixed saving quality, new banner sound.</p>'
+updated: '2025-01-12T17:01:51Z'
+version: b29
+version_title: Beta - 29
 ---
