@@ -11,21 +11,17 @@ description: A8DS An Atari 8-bit Computer Emulator for the DS/DSi and includes v
 download_page: https://github.com/wavemotion-dave/A8DS/releases
 downloads:
   A8DS.nds:
-    size: 601600
-    size_str: 587 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.8a/A8DS.nds
-  Copying:
-    size: 18092
-    size_str: 17 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.8a/Copying
+    size: 602112
+    size_str: 588 KiB
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.9/A8DS.nds
   readme.md:
-    size: 32186
+    size: 32644
     size_str: 31 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.8a/readme.md
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/3.9/readme.md
 github: wavemotion-dave/A8DS
 icon: https://db.universal-team.net/assets/images/icons/a8ds.png
 image: https://raw.githubusercontent.com/wavemotion-dave/A8DS/main/arm9/gfx/bgTop.png
-image_length: 36018
+image_length: 35186
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
@@ -36,20 +32,21 @@ stars: 25
 systems:
 - DS
 title: A8DS
-update_notes: '<p dir="auto">V3.8a : 12-Jan-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V3.9 : 13-Jan-2025 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Optimization of CPU core for a 3% speedup across the board.</li>
+  <li>Altirra OS updated to 3.41 (Altirra BASIC still at 1.58)</li>
 
-  <li>New Star Raiders keypad overlay integrated into the emulator.</li>
+  <li>Touch-up on the keyboard graphics to make the smaller font bolder / more readable
+  on DS screen</li>
 
-  <li>Minor tweaks, fixes and cleanup as time permitted.</li>
+  <li>Fixed one Acid800 test - we now comply with the JMP indirect bug on the 6502.</li>
 
-  <li>Version 3.8a optimizes the sound core a bit to improve scratchy sounds.</li>
+  <li>PIA emulation improvements to match latest Atari800 core.</li>
 
   </ul>'
-updated: '2024-01-12T23:24:13Z'
-version: 3.8a
-version_title: Version 3.8a
+updated: '2025-01-13T15:12:23Z'
+version: '3.9'
+version_title: Version 3.9
 ---
