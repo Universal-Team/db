@@ -25,7 +25,7 @@ layout: app
 license: other
 license_name: Other
 source: https://github.com/TomiokaH01/fMSX3DS
-stars: 7
+stars: 8
 systems:
 - 3DS
 title: fMSX3DS
