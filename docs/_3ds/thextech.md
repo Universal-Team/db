@@ -31,6 +31,10 @@ image_length: 121515
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+nightly:
+  downloads:
+    thextech-3ds-main.zip:
+      url: https://builds.wohlsoft.ru/3ds/thextech-3ds-main.zip
 prerelease:
   download_page: https://github.com/TheXTech/TheXTech/releases/tag/v1.3.7-beta
   downloads:
@@ -525,7 +529,7 @@ screenshots:
 - description: Smbx title
   url: https://db.universal-team.net/assets/images/screenshots/thextech/smbx-title.png
 source: https://github.com/TheXTech/TheXTech
-stars: 301
+stars: 302
 systems:
 - 3DS
 title: TheXTech
