@@ -26,15 +26,15 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.5-335-gfa9a74ea2
+  download_page: https://github.com/angband/angband/releases/tag/4.2.5-336-gee6969ded
   downloads:
-    Angband-4.2.5-335-gfa9a74ea2-3ds.zip:
-      size: 24652886
+    Angband-4.2.5-336-gee6969ded-3ds.zip:
+      size: 24652984
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.5-335-gfa9a74ea2/Angband-4.2.5-335-gfa9a74ea2-3ds.zip
-  updated: '2025-01-15T06:11:05Z'
-  version: 4.2.5-335-gfa9a74ea2
-  version_title: 4.2.5-335-gfa9a74ea2
+      url: https://github.com/angband/angband/releases/download/4.2.5-336-gee6969ded/Angband-4.2.5-336-gee6969ded-3ds.zip
+  updated: '2025-01-16T20:21:22Z'
+  version: 4.2.5-336-gee6969ded
+  version_title: 4.2.5-336-gee6969ded
 source: https://github.com/angband/angband
 stars: 1345
 systems:
