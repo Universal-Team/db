@@ -15,7 +15,7 @@
 				"url": "https://builds.wohlsoft.ru/3ds/thextech-3ds-main.zip"
 			}
 		}
-	}
+	},
 	"archive": {
 		"thextech-3ds-.*\\.zip": {
 			"thextech.3dsx": [
