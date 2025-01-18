@@ -26,7 +26,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.4.5O
   downloads:
     TJAP_3DS.3dsx:
-      size: 710672
+      size: 710656
       size_str: 694 KiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.5O/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -37,7 +37,7 @@ prerelease:
     TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
   update_notes: '<h2 dir="auto">日本語</h2>
 
-    <p dir="auto">コンボボイス等の実験中。<br>
+    <p dir="auto">色々実験中。<br>
 
     通常にプレイする場合はRelease版でお願いします。</p>
 
@@ -48,7 +48,7 @@ prerelease:
     If you want to play normally, please use the release version.</p>'
   update_notes_md: '## 日本語
 
-    コンボボイス等の実験中。
+    色々実験中。
 
     通常にプレイする場合はRelease版でお願いします。
 
