@@ -10,13 +10,13 @@ description: A new way to experience StreetPass
 download_page: https://gitlab.com/Sorunome/3ds-streetpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 2007148
+    size: 2009904
     size_str: 1 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/19cc63166964292beb2c269a1177da36b7ab84e1/netpass.3dsx?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/4644b46bcac9eafc8e9c55ce2d50523f3509f7a8/netpass.3dsx?inline=false
   netpass.cia:
     size: 2245568
     size_str: 2 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/19cc63166964292beb2c269a1177da36b7ab84e1/netpass.cia?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/4644b46bcac9eafc8e9c55ce2d50523f3509f7a8/netpass.cia?inline=false
 gitlab: Sorunome/3ds-streetpass
 icon: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/meta/icon.png
@@ -33,8 +33,13 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <p data-sourcepos="1:1-1:32" dir="auto">Fix sending fc-ident for sprelay</p>
-updated: '2024-12-07T03:28:34.209Z'
-version: v0.6.1
-version_title: v0.6.1
+update_notes: '<ul data-sourcepos="1:2-4:0" dir="auto">&#x000A;<li data-sourcepos="1:2-1:29">Fix
+  reporting being broken</li>&#x000A;<li data-sourcepos="2:2-2:52">Make reporting
+  for messages received via SPR work</li>&#x000A;<li data-sourcepos="3:2-4:0">Switch
+  to new way to download passes: This should fix all phantom pass bugs!</li>&#x000A;</ul>&#x000A;<p
+  data-sourcepos="5:1-5:66" dir="auto">IMPORTANT: If you are using spr, you have to
+  re-apply the patches!</p>'
+updated: '2025-01-17T22:00:59.339Z'
+version: v0.7.0
+version_title: v0.7.0
 ---
