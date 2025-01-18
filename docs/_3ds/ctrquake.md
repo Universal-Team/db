@@ -25,7 +25,7 @@ layout: app
 qr:
   ctrQuake.cia: https://db.universal-team.net/assets/images/qr/ctrquake-cia.png
 source: https://github.com/masterfeizz/ctrQuake
-stars: 99
+stars: 100
 systems:
 - 3DS
 title: ctrQuake
