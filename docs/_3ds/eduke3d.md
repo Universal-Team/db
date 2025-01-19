@@ -52,7 +52,7 @@ prerelease:
   version: v1.0-beta
   version_title: Beta release (fixed)
 source: https://github.com/masterfeizz/EDuke3D
-stars: 54
+stars: 55
 systems:
 - 3DS
 title: EDuke3D
