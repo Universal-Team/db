@@ -36,7 +36,7 @@ prerelease:
   version: 4.2.5-338-gdec118a25
   version_title: 4.2.5-338-gdec118a25
 source: https://github.com/angband/angband
-stars: 1346
+stars: 1345
 systems:
 - 3DS
 - DS
