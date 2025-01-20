@@ -26,7 +26,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.4.5O
   downloads:
     TJAP_3DS.3dsx:
-      size: 709840
+      size: 709940
       size_str: 693 KiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.5O/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -45,19 +45,29 @@ prerelease:
 
     <p dir="auto">Currently experimenting with combo voices, etc.<br>
 
-    If you want to play normally, please use the release version.</p>'
-  update_notes_md: '## 日本語
+    If you want to play normally, please use the release version.</p>
 
-    色々実験中。
+    <h2 dir="auto">チェンジログ</h2>
 
-    通常にプレイする場合はRelease版でお願いします。
+    <ul class="contains-task-list">
 
+    <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"
+    checked=""> SONGVOLによる音量調節の実装</li>
 
-    ## English
+    <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox">
+    音符の位置がブレるのを修正</li>
 
-    Currently experimenting with combo voices, etc.
+    <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox">
+    コンボボイスの実装</li>
 
-    If you want to play normally, please use the release version.'
+    <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox">
+    プレイ中に曲と譜面がズレる可能性のあった不具合の修正</li>
+
+    </ul>'
+  update_notes_md: "## 日本語\n色々実験中。\n通常にプレイする場合はRelease版でお願いします。\n\n## English\nCurrently\
+    \ experimenting with combo voices, etc.\nIf you want to play normally, please\
+    \ use the release version.\n\n## チェンジログ\n - [x] SONGVOLによる音量調節の実装\n - [ ] 音符の位置がブレるのを修正\n\
+    \ - [ ] コンボボイスの実装\n - [ ] プレイ中に曲と譜面がズレる可能性のあった不具合の修正"
   updated: '2024-12-23T23:29:03Z'
   version: v1.4.5O
   version_title: pre-release[2] - IROIRO TEST
