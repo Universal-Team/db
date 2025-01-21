@@ -26,7 +26,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.4.5O
   downloads:
     TJAP_3DS.3dsx:
-      size: 686916
+      size: 686932
       size_str: 670 KiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.5O/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -57,9 +57,6 @@ prerelease:
     <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox">
     音符の位置がブレるのを修正</li>
 
-    <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"
-    checked=""> 垂直同期をオンオフ出来る様に仕様変更</li>
-
     <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox">
     プレイ中に曲と譜面がズレる可能性のあった不具合の修正</li>
 
@@ -67,7 +64,7 @@ prerelease:
   update_notes_md: "## 日本語\n色々実験中。\n通常にプレイする場合はRelease版でお願いします。\n\n## English\nCurrently\
     \ experimenting with combo voices, etc.\nIf you want to play normally, please\
     \ use the release version.\n\n## チェンジログ\n - [x] SONGVOLによる音量調節の実装\n - [ ] 音符の位置がブレるのを修正\n\
-    \ - [x] 垂直同期をオンオフ出来る様に仕様変更\n - [ ] プレイ中に曲と譜面がズレる可能性のあった不具合の修正"
+    \ - [ ] プレイ中に曲と譜面がズレる可能性のあった不具合の修正"
   updated: '2024-12-23T23:29:03Z'
   version: v1.4.5O
   version_title: pre-release[2] - IROIRO TEST
