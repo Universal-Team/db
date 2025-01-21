@@ -11,13 +11,13 @@ description: Another work-in-progress fork of the homebrew YouTube client for th
 download_page: https://github.com/erievs/FourthTube/releases
 downloads:
   FourthTube.3dsx:
-    size: 6124432
+    size: 6129116
     size_str: 5 MiB
-    url: https://github.com/erievs/FourthTube/releases/download/b29/FourthTube.3dsx
+    url: https://github.com/erievs/FourthTube/releases/download/b30/FourthTube.3dsx
   FourthTube.cia:
     size: 4547520
     size_str: 4 MiB
-    url: https://github.com/erievs/FourthTube/releases/download/b29/FourthTube.cia
+    url: https://github.com/erievs/FourthTube/releases/download/b30/FourthTube.cia
 github: erievs/FourthTube
 icon: https://raw.githubusercontent.com/erievs/FourthTube/main/resource/icon.png
 image: https://raw.githubusercontent.com/erievs/FourthTube/main/resource/banner.png
@@ -34,20 +34,22 @@ systems:
 title: FourthTube
 unique_ids:
 - '0xBF74D'
-update_notes: '<p dir="auto">Changelog</p>
+update_notes: '<p dir="auto"><strong>Changelog</strong></p>
 
-  <p dir="auto"><strong>Smu1zel:</strong></p>
+  <p dir="auto"><strong>2ipper</strong></p>
 
-  <p dir="auto">Smu1zel added multiple languages [also thanks to ItsFrocat for German)],
-  removed old ThirdTube references, rebuilt FFMPEG (I think it''s also newer), removed
-  old dcrypter code that is no longer used, added French, removed flash (because it
-  can cause seizures),  more fixes and stuff I missed check commit history for a full
-  list.</p>
+  <ul dir="auto">
 
-  <p dir="auto"><strong>2b-zipper</strong></p>
+  <li>Added option to switch app data (iOS, Android VR) to Settings -&gt; Advanced</li>
 
-  <p dir="auto">Added sounds, fixed saving quality, new banner sound.</p>'
-updated: '2025-01-12T17:01:51Z'
-version: b29
-version_title: Beta - 29
+  <li>Update iOS client</li>
+
+  <li>Added visitor data (YouTube requests) (Comment From Me ErieVS: I have no idea
+  why I didn''t think about doing this to begin with, I used it with MangoTube, guess
+  I just forgot, anwyas huge thanks to 2ipper for this fix!)</li>
+
+  </ul>'
+updated: '2025-01-21T15:14:44Z'
+version: b30
+version_title: Beta - 30
 ---
