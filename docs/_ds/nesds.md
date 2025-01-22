@@ -23,7 +23,7 @@ layout: app
 qr:
   nesDS.nds: https://db.universal-team.net/assets/images/qr/nesds-nds.png
 source: https://github.com/DS-Homebrew/NesDS
-stars: 35
+stars: 36
 systems:
 - DS
 title: nesDS
