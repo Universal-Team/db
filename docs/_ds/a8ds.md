@@ -11,21 +11,21 @@ description: A8DS An Atari 8-bit Computer Emulator for the DS/DSi and includes v
 download_page: https://github.com/wavemotion-dave/A8DS/releases
 downloads:
   A8DS.nds:
-    size: 903168
-    size_str: 882 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/4.0/A8DS.nds
+    size: 913408
+    size_str: 892 KiB
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/4.1/A8DS.nds
   A8DSi.nds:
-    size: 912896
-    size_str: 891 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/4.0/A8DSi.nds
+    size: 923136
+    size_str: 901 KiB
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/4.1/A8DSi.nds
   Copying:
     size: 18092
     size_str: 17 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/4.0/Copying
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/4.1/Copying
   readme.md:
-    size: 33908
-    size_str: 33 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/4.0/readme.md
+    size: 34979
+    size_str: 34 KiB
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/4.1/readme.md
 github: wavemotion-dave/A8DS
 icon: https://db.universal-team.net/assets/images/icons/a8ds.png
 image: https://raw.githubusercontent.com/wavemotion-dave/A8DS/main/arm9/gfx/bgTop.png
@@ -41,37 +41,27 @@ stars: 26
 systems:
 - DS
 title: A8DS
-update_notes: '<p dir="auto">V4.0 : 20-Jan-2025 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V4.1 : 25-Jan-2025 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Major overhaul to add "Cycle Exact" Antic and GTIA which fixes many glitches
-  and artifacts.</li>
+  <li>Refactor the OS Enable/Disable on XL/XE emulation to avoid moving large blocks
+  of memory. Speeds up many games that swap the OS in/out.</li>
 
-  <li>There are now two builds... one for the older DS-Phat/Lite and one for the DSi
-  (or XL/LL) which brings in a higher level of compatibility with the "Cycle Exact"
-  timing.</li>
+  <li>Improved SIO/Disk handling - sound effects reduced in volume and now configurable
+  (default is OFF).</li>
 
-  <li>Improved keyboard overlays - added alphanumeric keyboard with text-adventure
-  macros.</li>
+  <li>Improved cart/disk loading and all disks are left mounted when RESET is pressed
+  allowing you to load up a system the way you want.</li>
 
-  <li>Improved memory handling - using more memory but in an efficient way for the
-  new features.</li>
+  <li>A dozen new .CAR cartridge types supported including DCART (Bubble Bobble homebrew).</li>
 
-  <li>Improved sound handling - new SIO sounds, new opening jingle.</li>
+  <li>Tweak to the TWL++ icon for A8DS to make it look a bit more classic.</li>
 
-  <li>Improved CPU handling to fix one more Acid800 test (25 pass now).</li>
-
-  <li>Fixed keyboard handling so games like Scorch will register keypresses (broken
-  as of V3.0).</li>
-
-  <li>Added some of the more obscure missing .CAR cartridge types.</li>
-
-  <li>So much changed under the hood that old config files will be wiped and old save
-  states will not work. Sorry!</li>
+  <li>Many small cleanups and improvements and a few bug fixes as well.</li>
 
   </ul>'
-updated: '2025-01-20T17:11:58Z'
-version: '4.0'
-version_title: Version 4.0
+updated: '2025-01-25T11:57:54Z'
+version: '4.1'
+version_title: Version 4.1
 ---
