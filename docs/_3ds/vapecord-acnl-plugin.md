@@ -129,7 +129,7 @@ prerelease:
   version: v1.9.6-beta.1
   version_title: ACNL Vapecord Public Plugin [v.1.9.6] (BETA)
 source: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin
-stars: 129
+stars: 128
 systems:
 - 3DS
 title: Vapecord-ACNL-Plugin
