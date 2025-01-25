@@ -22,52 +22,6 @@ icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
-prerelease:
-  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.4.5O
-  downloads:
-    TJAP_3DS.3dsx:
-      size: 686440
-      size_str: 670 KiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.5O/TJAP_3DS.3dsx
-    TJAP_3DS.cia:
-      size: 1004480
-      size_str: 980 KiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.5O/TJAP_3DS.cia
-  qr:
-    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
-  update_notes: '<h2 dir="auto">日本語</h2>
-
-    <p dir="auto">色々実験中。<br>
-
-    通常にプレイする場合はRelease版でお願いします。</p>
-
-    <h2 dir="auto">English</h2>
-
-    <p dir="auto">Currently experimenting with combo voices, etc.<br>
-
-    If you want to play normally, please use the release version.</p>
-
-    <h2 dir="auto">チェンジログ</h2>
-
-    <ul class="contains-task-list">
-
-    <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"
-    checked=""> SONGVOLによる音量調節の実装</li>
-
-    <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox">
-    音符の位置がブレるのを修正</li>
-
-    <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox">
-    プレイ中に曲と譜面がズレる可能性のあった不具合の修正</li>
-
-    </ul>'
-  update_notes_md: "## 日本語\n色々実験中。\n通常にプレイする場合はRelease版でお願いします。\n\n## English\nCurrently\
-    \ experimenting with combo voices, etc.\nIf you want to play normally, please\
-    \ use the release version.\n\n## チェンジログ\n - [x] SONGVOLによる音量調節の実装\n - [ ] 音符の位置がブレるのを修正\n\
-    \ - [ ] プレイ中に曲と譜面がズレる可能性のあった不具合の修正"
-  updated: '2024-12-23T23:29:03Z'
-  version: v1.4.5O
-  version_title: pre-release[2] - IROIRO TEST
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 source: https://github.com/LuMariGames/TJAP_3DS
