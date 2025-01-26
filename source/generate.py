@@ -312,6 +312,13 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 					prerelease = releases[0]
 				for r in releases:
 					if not (r["prerelease"] or r["draft"]):
+						# check for usable assets
+						for asset in r["assets"]:
+							if (len(re.findall(app["download_filter"], asset["name"])) > 0 if "download_filter" in app else len(re.findall(DOWNLOAD_BLACKLIST, asset["name"])) == 0):
+								break
+						# didn't break (find a usable asset)? skip this release.
+						else:
+							continue
 						release = r
 						break
 
