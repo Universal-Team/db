@@ -29,14 +29,14 @@
 		"[assets] Adventures of Demo": [
 			{
 				"type": "downloadFile",
-				"file": "https://builds.wohlsoft.ru/3ds/assets-aod-3ds.zip",
+				"file": "https://wohlsoft.ru/projects/TheXTech/_downloads/assets/thextech-adventure-of-demo-assets-full-3ds.zip",
 				"output": "/assets-aod-3ds.zip"
 			},
 			{
 				"type": "extractFile",
 				"file": "/assets-aod-3ds.zip",
-				"input": "assets-aod-3ds.zip.romfs",
-				"output": "/3ds/thextech/assets.romfs"
+				"input": "thextech-adventure-of-demo-assets-full-3ds.romfs",
+				"output": "/3ds/thextech/assets-aod.romfs"
 			},
 			{
 				"type": "deleteFile",
@@ -46,14 +46,14 @@
 		"[assets] Super Mario Bros. X": [
 			{
 				"type": "downloadFile",
-				"file": "https://builds.wohlsoft.ru/3ds/assets-smbx13-3ds.zip",
+				"file": "https://wohlsoft.ru/projects/TheXTech/_downloads/assets/thextech-smbx13-assets-full-3ds.zip",
 				"output": "/assets-smbx13-3ds.zip"
 			},
 			{
 				"type": "extractFile",
 				"file": "/assets-smbx13-3ds.zip",
-				"input": "assets-smbx13-3ds.zip.romfs",
-				"output": "/3ds/thextech/assets.romfs"
+				"input": "thextech-smbx13-assets-full-3ds.romfs",
+				"output": "/3ds/thextech/assets-smbx.romfs"
 			},
 			{
 				"type": "deleteFile",
