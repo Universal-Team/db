@@ -35,9 +35,11 @@ systems:
 title: Omega
 unique_ids:
 - '0x69420'
-updated: '2022-12-29T00:17:52Z'
-version: O2.0.4-E15
-version_title: O2.0.4-E15
+update_notes: '<p dir="auto"><code class="notranslate">NOTE</code>: The 3DS, Web and
+  Android files are still on Omega 1.22.1.</p>'
+updated: '2021-11-11T21:24:35Z'
+version: O1.23.0-E15
+version_title: O1.23.0-E15
 website: https://getomega.dev
 wiki: https://github.com/Omega-Numworks/Omega/wiki
 ---
