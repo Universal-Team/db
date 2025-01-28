@@ -26,7 +26,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.4.6
   downloads:
     TJAP_3DS.3dsx:
-      size: 685800
+      size: 686012
       size_str: 669 KiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.6/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -43,6 +43,8 @@ prerelease:
 
     <li>譜面と楽曲がズレる際の幅が減少しました(完全に無くすのは難しい...)</li>
 
+    <li>音符のブレを無くしました。</li>
+
     </ul>
 
     <h2 dir="auto">Change log</h2>
@@ -55,11 +57,14 @@ prerelease:
     <li>The width when the score and the song shift have decreased (it is difficult
     to get rid of it completely...)</li>
 
+    <li>The misalignment of musical notes has been fixed.</li>
+
     </ul>'
   update_notes_md: "## チェンジログ\n - tjaファイル内に「SONGVOL:」を記述する事で楽曲の音量調整が可能に\n - 譜面と楽曲がズレる際の幅が減少しました(完全に無くすのは難しい...)\n\
-    \n## Change log\n- It is possible to adjust the volume of the song by writing\
-    \ \"SONGVOL:\" in the tja file\n- The width when the score and the song shift\
-    \ have decreased (it is difficult to get rid of it completely...)"
+    \ - 音符のブレを無くしました。\n\n## Change log\n- It is possible to adjust the volume of the\
+    \ song by writing \"SONGVOL:\" in the tja file\n- The width when the score and\
+    \ the song shift have decreased (it is difficult to get rid of it completely...)\n\
+    - The misalignment of musical notes has been fixed."
   updated: '2025-01-25T01:09:40Z'
   version: v1.4.6
   version_title: TJAPlayer for 3DS v1.4.6
