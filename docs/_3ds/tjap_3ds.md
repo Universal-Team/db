@@ -10,7 +10,7 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 686180
+    size: 686140
     size_str: 670 KiB
     url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.6/TJAP_3DS.3dsx
   TJAP_3DS.cia:
@@ -41,8 +41,6 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <li>音符のブレを無くしました。</li>
 
-  <li>不具合で連打の描画が変になってます。直せる方居ましたらforkして下さると助かります...</li>
-
   </ul>
 
   <h2 dir="auto">Change log</h2>
@@ -56,9 +54,6 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
   to get rid of it completely...)</li>
 
   <li>The misalignment of musical notes has been fixed.</li>
-
-  <li>There is a bug that is causing the drawing of Roll notes to be strange. If anyone
-  can fix it, please fork it.</li>
 
   </ul>'
 updated: '2025-01-25T01:09:40Z'
