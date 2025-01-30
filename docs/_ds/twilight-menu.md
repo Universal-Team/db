@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 42722627
+    size: 42967335
     size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.3/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.4/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 42785468
-    size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.3/TWiLightMenu-DSi.7z
+    size: 43006671
+    size_str: 41 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.4/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 53867220
+    size: 54088043
     size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.3/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.4/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 54092888
+    size: 54316023
     size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.3/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.4/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -38,8 +38,8 @@ stars: 3360
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto"><strong>UPDATE 12/27/2024:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.3.3">nds-bootstrap
-  v2.3.3</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.4.0">nds-bootstrap
+  v2.4.0</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -55,44 +55,39 @@ update_notes: '<p dir="auto"><strong>UPDATE 12/27/2024:</strong> Includes <a hre
 
   </ul>
 
-  <p dir="auto">Merry TWL Christmas!</p>
-
-  <h3 dir="auto">Bug fixes</h3>
+  <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mentusfentus/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mentusfentus">@mentusfentus</a>:
-  3DS Theme: Fixed crashing when launching apps from top bar without hovering on an
-  icon.</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/edo9300/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>:
-  Fixed issues when running on SuperCard Rumble flashcarts.</li>
-
-  </ul>
-
-  <h3 dir="auto">Regression</h3>
+  <li>Added support for nested skin folders (ex. <code class="notranslate">../themes/Dark/Dark/</code>
+  instead of <code class="notranslate">../themes/Dark/</code>).
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
-  Disabled autoboot support for the EZ-Flash Vi.
-
-  <ul dir="auto">
-
-  <li>A user reported that the currently provided DLDI cannot perform writes to the
-  SD card. Disable the autoboot until a fix is found.</li>
+  <li>Though not recommended to have the skin folder(s) nested, this feature was mainly
+  added as a noob-proof measure for skin installation.</li>
 
   </ul>
 
   </li>
 
+  <li>Various: Updated translations.</li>
+
+  </ul>
+
+  <h3 dir="auto">Bug fixes</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed unsaved per-game settings reloading when opening cheat menu.</li>
+
+  <li><strong>DSi-based themes:</strong> Fixed progress bar length sometimes going
+  past the progress icon.</li>
+
   </ul>'
-updated: '2024-12-25T09:07:42Z'
-version: v27.12.3
-version_title: 'v27.12.3: TWL Christmas Release 🎄'
+updated: '2025-01-30T09:49:10Z'
+version: v27.12.4
+version_title: 'v27.12.4: (Late) New Year''s Release'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
