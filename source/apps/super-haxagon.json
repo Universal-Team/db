@@ -1,5 +1,5 @@
 {
-	"github": "RedInquisitive/Super-Haxagon",
+	"github": "RedTopper/Super-Haxagon",
 	"systems": [
 		"3DS"
 	],
@@ -9,6 +9,6 @@
 	"unique_ids": [
 		39338
 	],
-	"image": "https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/banner.png",
-	"icon": "https://raw.githubusercontent.com/RedInquisitive/Super-Haxagon/master/media/icon-3ds.png"
+	"image": "https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/banner.png",
+	"icon": "https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/icon-3ds.png"
 }
