@@ -26,12 +26,12 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.4.6A
   downloads:
     TJAP_3DS.3dsx:
-      size: 709988
-      size_str: 693 KiB
+      size: 692060
+      size_str: 675 KiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.6A/TJAP_3DS.3dsx
     TJAP_3DS.cia:
-      size: 1016768
-      size_str: 992 KiB
+      size: 1004480
+      size_str: 980 KiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.6A/TJAP_3DS.cia
   qr:
     TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
@@ -39,26 +39,19 @@ prerelease:
 
     <ul dir="auto">
 
-    <li>曲のビットレート(音質)が64kbps以上の場合、タイミングがズレるのを修正</li>
-
     <li>OLD3DSでプレイすると演奏中fpsが低下する不具合の修正中</li>
 
     </ul>
 
-    <h2 dir="auto">changelog</h2>
+    <h2 dir="auto">change log</h2>
 
     <ul dir="auto">
-
-    <li>If the bitrate (sound quality) of the song is 64kbps or higher, the timing
-    is shifting.</li>
 
     <li>Fixing a bug that reduces fps during playing when playing on OLD3DS.</li>
 
     </ul>'
-  update_notes_md: "## チェンジログ\n - 曲のビットレート(音質)が64kbps以上の場合、タイミングがズレるのを修正\n - OLD3DSでプレイすると演奏中fpsが低下する不具合の修正中\n\
-    \n## changelog\n - If the bitrate (sound quality) of the song is 64kbps or higher,\
-    \ the timing is shifting.\n - Fixing a bug that reduces fps during playing when\
-    \ playing on OLD3DS."
+  update_notes_md: "## チェンジログ\n - OLD3DSでプレイすると演奏中fpsが低下する不具合の修正中\n\n## change log\n\
+    \ - Fixing a bug that reduces fps during playing when playing on OLD3DS."
   updated: '2025-01-31T23:51:00Z'
   version: v1.4.6A
   version_title: TJAPlayer for 3DS v1.4.6(A)
