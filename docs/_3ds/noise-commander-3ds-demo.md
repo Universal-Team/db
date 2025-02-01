@@ -7,7 +7,7 @@ categories:
 color: '#856d28'
 color_bg: '#806826'
 created: '2025-01-06T19:04:39Z'
-description: Beat-making audio sequencer and DJ-tool for the 3DS
+description: Beat-making audio sequencer and DJ-tool for the Nintendo 3DS
 download_page: https://github.com/gearmo3ds/noisecommander3dsdemo/releases
 downloads:
   noisecmdr-v0_0_11-demo.cia:
