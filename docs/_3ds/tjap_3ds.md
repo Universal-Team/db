@@ -22,6 +22,41 @@ icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
+prerelease:
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.4.6A
+  downloads:
+    TJAP_3DS.3dsx:
+      size: 705948
+      size_str: 689 KiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.6A/TJAP_3DS.3dsx
+    TJAP_3DS.cia:
+      size: 1016768
+      size_str: 992 KiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.6A/TJAP_3DS.cia
+  qr:
+    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
+  update_notes: '<h2 dir="auto">チェンジログ</h2>
+
+    <ul dir="auto">
+
+    <li>曲のビットレート(音質)が64kbps以上の場合、タイミングがズレるのを修正中</li>
+
+    </ul>
+
+    <h2 dir="auto">changelog</h2>
+
+    <ul dir="auto">
+
+    <li>If the bitrate (sound quality) of the song is 60kbps or higher, the timing
+    is shifting.</li>
+
+    </ul>'
+  update_notes_md: "## チェンジログ\n - 曲のビットレート(音質)が64kbps以上の場合、タイミングがズレるのを修正中\n\n## changelog\n\
+    \ - If the bitrate (sound quality) of the song is 60kbps or higher, the timing\
+    \ is shifting."
+  updated: '2025-01-31T23:51:00Z'
+  version: v1.4.6A
+  version_title: TJAPlayer for 3DS v1.4.6(A)
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 source: https://github.com/LuMariGames/TJAP_3DS
