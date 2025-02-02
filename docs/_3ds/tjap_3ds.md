@@ -10,12 +10,12 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 691980
-    size_str: 675 KiB
+    size: 692768
+    size_str: 676 KiB
     url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.6A/TJAP_3DS.3dsx
   TJAP_3DS.cia:
-    size: 1004480
-    size_str: 980 KiB
+    size: 1008576
+    size_str: 984 KiB
     url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.6A/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
