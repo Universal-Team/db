@@ -10,7 +10,7 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 692920
+    size: 692976
     size_str: 676 KiB
     url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.4.6B/TJAP_3DS.3dsx
   TJAP_3DS.cia:
@@ -39,6 +39,8 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <li>譜面分岐が実行されない不具合の修正 (2025/02/04追記)</li>
 
+  <li>特定の譜面にて譜面分岐が正常に実行されない不具合の修正 (2025/02/05追記)</li>
+
   </ul>
 
   <h2 dir="auto">change log</h2>
@@ -48,6 +50,9 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
   <li>Fixed a bug that caused fps to drop when playing on OLD3DS.</li>
 
   <li>Fixed a bug where music sheet branching was not executed. (Added 2025/02/04)</li>
+
+  <li>Fixed a bug that caused the score branching not to be executed properly on a
+  specific score (Added 2025/02/05)</li>
 
   </ul>'
 updated: '2025-01-31T23:51:00Z'
