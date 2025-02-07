@@ -27,7 +27,7 @@ license_name: GNU General Public License v3.0
 qr:
   FourthTube.cia: https://db.universal-team.net/assets/images/qr/fourthtube-cia.png
 source: https://github.com/erievs/FourthTube
-stars: 83
+stars: 84
 systems:
 - 3DS
 title: FourthTube
