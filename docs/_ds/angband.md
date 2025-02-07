@@ -36,7 +36,7 @@ prerelease:
   version: 4.2.5-346-g84f142cff
   version_title: 4.2.5-346-g84f142cff
 source: https://github.com/angband/angband
-stars: 1350
+stars: 1351
 systems:
 - 3DS
 - DS
