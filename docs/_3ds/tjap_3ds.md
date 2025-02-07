@@ -22,6 +22,30 @@ icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
+prerelease:
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.5.0
+  downloads:
+    TJAP_3DS.3dsx:
+      size: 690384
+      size_str: 674 KiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.0/TJAP_3DS.3dsx
+    TJAP_3DS.cia:
+      size: 1004480
+      size_str: 980 KiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.0/TJAP_3DS.cia
+  qr:
+    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
+  update_notes: '<h2 dir="auto">チェンジログ</h2>
+
+    <ul dir="auto">
+
+    <li>踊り子のテスト中</li>
+
+    </ul>'
+  update_notes_md: "## チェンジログ\n - 踊り子のテスト中"
+  updated: '2025-02-07T05:08:59Z'
+  version: v1.5.0
+  version_title: TJAPlayer for 3DS v1.5.0
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 source: https://github.com/LuMariGames/TJAP_3DS
