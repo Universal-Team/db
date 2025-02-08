@@ -10,13 +10,13 @@ description: A new way to experience StreetPass
 download_page: https://gitlab.com/Sorunome/3ds-streetpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 2030096
+    size: 2030276
     size_str: 1 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/5bb67c5bce14140413e7c2394f0f5db0aa667572/netpass.3dsx?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/b9d423f48430bf13d4b78c60f6a1e7d1c164ae5c/netpass.3dsx?inline=false
   netpass.cia:
     size: 2257856
     size_str: 2 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/5bb67c5bce14140413e7c2394f0f5db0aa667572/netpass.cia?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/b9d423f48430bf13d4b78c60f6a1e7d1c164ae5c/netpass.cia?inline=false
 gitlab: Sorunome/3ds-streetpass
 icon: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/meta/icon.png
@@ -33,11 +33,9 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <ul data-sourcepos="1:2-4:46" dir="auto">&#x000A;<li data-sourcepos="1:2-1:37">Fix
-  Back Alley giving white screen</li>&#x000A;<li data-sourcepos="2:2-2:30">Cache title
-  names in memory</li>&#x000A;<li data-sourcepos="3:2-3:29">Added better report screen</li>&#x000A;<li
-  data-sourcepos="4:2-4:46">Hopefully fix SPR patches crashing for some</li>&#x000A;</ul>
-updated: '2025-02-08T13:36:38.528Z'
-version: v0.8.0
-version_title: v0.8.0
+update_notes: '<p data-sourcepos="1:1-1:70" dir="auto">Hotfix: Prevent crashing on
+  adding streetpass mii plaza to the reports</p>'
+updated: '2025-02-08T19:00:15.228Z'
+version: v0.8.1
+version_title: v0.8.1
 ---
