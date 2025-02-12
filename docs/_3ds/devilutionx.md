@@ -13,11 +13,11 @@ downloads:
   devilutionx-3ds.3dsx:
     size: 14267092
     size_str: 13 MiB
-    url: https://github.com/diasurgical/devilutionX/releases/download/1.5.4/devilutionx-3ds.3dsx
+    url: https://github.com/diasurgical/DevilutionX/releases/download/1.5.4/devilutionx-3ds.3dsx
   devilutionx-3ds.cia:
     size: 13505472
     size_str: 12 MiB
-    url: https://github.com/diasurgical/devilutionX/releases/download/1.5.4/devilutionx-3ds.cia
+    url: https://github.com/diasurgical/DevilutionX/releases/download/1.5.4/devilutionx-3ds.cia
 github: diasurgical/devilutionX
 icon: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/icon.png
 image: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/banner.png
@@ -27,11 +27,11 @@ license: other
 license_name: Other
 qr:
   devilutionx-3ds.cia: https://db.universal-team.net/assets/images/qr/devilutionx-3ds-cia.png
-source: https://github.com/diasurgical/devilutionX
+source: https://github.com/diasurgical/DevilutionX
 stars: 8376
 systems:
 - 3DS
-title: devilutionX
+title: DevilutionX
 unique_ids:
 - '0x3F395'
 update_notes: '<h3 dir="auto">Features</h3>
@@ -186,5 +186,5 @@ update_notes: '<h3 dir="auto">Features</h3>
 updated: '2025-02-08T20:47:40Z'
 version: 1.5.4
 version_title: 1.5.4
-wiki: https://github.com/diasurgical/devilutionX/wiki
+wiki: https://github.com/diasurgical/DevilutionX/wiki
 ---
