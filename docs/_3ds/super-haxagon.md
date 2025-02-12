@@ -10,29 +10,29 @@ description: A Super Hexagon Clone
 download_page: https://github.com/RedTopper/Super-Haxagon/releases
 downloads:
   SuperHaxagon-Linux.tar.gz:
-    size: 18467192
+    size: 18449275
     size_str: 17 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.5.0/SuperHaxagon-Linux.tar.gz
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.6.0/SuperHaxagon-Linux.tar.gz
   SuperHaxagon-Windows.zip:
-    size: 18997126
+    size: 18986803
     size_str: 18 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.5.0/SuperHaxagon-Windows.zip
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.6.0/SuperHaxagon-Windows.zip
   SuperHaxagon.3dsx:
-    size: 20169868
+    size: 20168296
     size_str: 19 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.5.0/SuperHaxagon.3dsx
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.6.0/SuperHaxagon.3dsx
   SuperHaxagon.cia:
     size: 20583360
     size_str: 19 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.5.0/SuperHaxagon.cia
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.6.0/SuperHaxagon.cia
   SuperHaxagon.tns:
-    size: 1088704
+    size: 1080692
     size_str: 1 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.5.0/SuperHaxagon.tns
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.6.0/SuperHaxagon.tns
   net.awalter.SuperHaxagon.flatpak:
-    size: 19726008
+    size: 19739752
     size_str: 18 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.5.0/net.awalter.SuperHaxagon.flatpak
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.6.0/net.awalter.SuperHaxagon.flatpak
 github: RedTopper/Super-Haxagon
 icon: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/icon-3ds.png
 image: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/banner.png
@@ -60,28 +60,21 @@ systems:
 title: Super-Haxagon
 unique_ids:
 - '0x99AA'
-update_notes: '<p dir="auto">It''s been a while!</p>
+update_notes: '<p dir="auto">This new release updates the internal driver system to
+  be easier to implement new platforms.</p>
 
-  <p dir="auto">With this release, I revamped the entire build system. There are no
-  new features for this release (other than a version number on the main menu), but
-  there are bugfixes that have never had a proper build in years.</p>
+  <p dir="auto">Additionally, some bugs have been fixed:</p>
 
-  <p dir="auto">Picking up this project again to solve some of the age-old issues
-  has been difficult because I haven''t had a usable build system that could build
-  all platforms. For this update, all supported platforms are now compiled through
-  CMake, and the old Makefiles/buildtools has been dropped completely.</p>
+  <ul dir="auto">
 
-  <p dir="auto">Additionally, I created Containerfiles for building the 3DS, Switch,
-  TI-Nspire, and Linux platforms. This should hopefully make it easier to make modifications
-  ensuring I can still build all supported platforms going into the future.</p>
+  <li>3DS: Fixed a bug when the music looped, the beatmap would become offset from
+  the actual audio</li>
 
-  <p dir="auto">I hope the addition of Containerfiles and the unification of all platforms
-  to CMake makes it easier for other contributors to set up a sane build environment.
-  If you have issues with these build systems, please open an issue or PR.</p>
+  <li>All: Fixed a bug where resetting on the Credits before the animation started
+  would cause the music to play</li>
 
-  <p dir="auto"><em>Note: The levels are now built-into the TI-Nspire binary, SuperHaxagon.tns.
-  You no longer need <code class="notranslate">levels.haxagon</code> to be present</em></p>'
-updated: '2025-01-30T03:57:01Z'
-version: 3.5.0
-version_title: SuperHaxagon v3.5.0
+  </ul>'
+updated: '2025-02-12T08:05:18Z'
+version: 3.6.0
+version_title: SuperHaxagon v3.6.0
 ---
