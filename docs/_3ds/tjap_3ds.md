@@ -26,8 +26,8 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.5.0
   downloads:
     TJAP_3DS.3dsx:
-      size: 688772
-      size_str: 672 KiB
+      size: 689444
+      size_str: 673 KiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.0/TJAP_3DS.3dsx
     TJAP_3DS.cia:
       size: 1004480
@@ -41,8 +41,10 @@ prerelease:
 
     <li>踊り子のテスト中</li>
 
+    <li>ロード中に演奏できる様に(※曲は流れません)</li>
+
     </ul>'
-  update_notes_md: "## チェンジログ\n - 踊り子のテスト中"
+  update_notes_md: "## チェンジログ\n - 踊り子のテスト中\n - ロード中に演奏できる様に(※曲は流れません)"
   updated: '2025-02-07T05:08:59Z'
   version: v1.5.0
   version_title: TJAPlayer for 3DS v1.5.0
