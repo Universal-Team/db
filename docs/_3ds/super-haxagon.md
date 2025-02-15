@@ -9,30 +9,14 @@ created: '2016-06-11T03:45:12Z'
 description: A Super Hexagon Clone
 download_page: https://github.com/RedTopper/Super-Haxagon/releases
 downloads:
-  SuperHaxagon-Linux.tar.gz:
-    size: 18449275
-    size_str: 17 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.6.0/SuperHaxagon-Linux.tar.gz
-  SuperHaxagon-Windows.zip:
-    size: 18986803
-    size_str: 18 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.6.0/SuperHaxagon-Windows.zip
   SuperHaxagon.3dsx:
-    size: 20168296
+    size: 20167860
     size_str: 19 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.6.0/SuperHaxagon.3dsx
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.6.1/SuperHaxagon.3dsx
   SuperHaxagon.cia:
     size: 20583360
     size_str: 19 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.6.0/SuperHaxagon.cia
-  SuperHaxagon.tns:
-    size: 1080692
-    size_str: 1 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.6.0/SuperHaxagon.tns
-  net.awalter.SuperHaxagon.flatpak:
-    size: 19739752
-    size_str: 18 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.6.0/net.awalter.SuperHaxagon.flatpak
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.6.1/SuperHaxagon.cia
 github: RedTopper/Super-Haxagon
 icon: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/icon-3ds.png
 image: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/banner.png
@@ -60,21 +44,13 @@ systems:
 title: Super-Haxagon
 unique_ids:
 - '0x99AA'
-update_notes: '<p dir="auto">This new release updates the internal driver system to
-  be easier to implement new platforms.</p>
-
-  <p dir="auto">Additionally, some bugs have been fixed:</p>
-
-  <ul dir="auto">
-
-  <li>3DS: Fixed a bug when the music looped, the beatmap would become offset from
-  the actual audio</li>
-
-  <li>All: Fixed a bug where resetting on the Credits before the animation started
-  would cause the music to play</li>
-
-  </ul>'
-updated: '2025-02-12T08:05:18Z'
-version: 3.6.0
-version_title: SuperHaxagon v3.6.0
+update_notes: '<p dir="auto">This release fixes a bug found in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="2851360922" data-permission-text="Title
+  is private" data-url="https://github.com/RedTopper/Super-Haxagon/issues/30" data-hovercard-type="issue"
+  data-hovercard-url="/RedTopper/Super-Haxagon/issues/30/hovercard" href="https://github.com/RedTopper/Super-Haxagon/issues/30">#30</a>.
+  Only the 3DS platform has changed. For any other supported platforms, please download
+  v3.6.0 below, or use this link: <a href="https://github.com/RedTopper/Super-Haxagon/releases/tag/3.6.0">https://github.com/RedTopper/Super-Haxagon/releases/tag/3.6.0</a></p>'
+updated: '2025-02-15T21:57:50Z'
+version: 3.6.1
+version_title: SuperHaxagon v3.6.1
 ---
