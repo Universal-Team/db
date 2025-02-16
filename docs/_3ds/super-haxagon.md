@@ -9,14 +9,30 @@ created: '2016-06-11T03:45:12Z'
 description: A Super Hexagon Clone
 download_page: https://github.com/RedTopper/Super-Haxagon/releases
 downloads:
+  SuperHaxagon-Linux.tar.gz:
+    size: 18462931
+    size_str: 17 MiB
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.7.0/SuperHaxagon-Linux.tar.gz
+  SuperHaxagon-Windows.zip:
+    size: 18991515
+    size_str: 18 MiB
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.7.0/SuperHaxagon-Windows.zip
   SuperHaxagon.3dsx:
-    size: 20167860
+    size: 20183296
     size_str: 19 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.6.1/SuperHaxagon.3dsx
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.7.0/SuperHaxagon.3dsx
   SuperHaxagon.cia:
-    size: 20583360
+    size: 20591552
     size_str: 19 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.6.1/SuperHaxagon.cia
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.7.0/SuperHaxagon.cia
+  SuperHaxagon.tns:
+    size: 1088648
+    size_str: 1 MiB
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.7.0/SuperHaxagon.tns
+  net.awalter.SuperHaxagon.flatpak:
+    size: 19871040
+    size_str: 18 MiB
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.7.0/net.awalter.SuperHaxagon.flatpak
 github: RedTopper/Super-Haxagon
 icon: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/icon-3ds.png
 image: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/banner.png
@@ -44,13 +60,52 @@ systems:
 title: Super-Haxagon
 unique_ids:
 - '0x99AA'
-update_notes: '<p dir="auto">This release fixes a bug found in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="2851360922" data-permission-text="Title
-  is private" data-url="https://github.com/RedTopper/Super-Haxagon/issues/30" data-hovercard-type="issue"
-  data-hovercard-url="/RedTopper/Super-Haxagon/issues/30/hovercard" href="https://github.com/RedTopper/Super-Haxagon/issues/30">#30</a>.
-  Only the 3DS platform has changed. For any other supported platforms, please download
-  v3.6.0 below, or use this link: <a href="https://github.com/RedTopper/Super-Haxagon/releases/tag/3.6.0">https://github.com/RedTopper/Super-Haxagon/releases/tag/3.6.0</a></p>'
-updated: '2025-02-15T21:57:50Z'
-version: 3.6.1
-version_title: SuperHaxagon v3.6.1
+update_notes: '<p dir="auto">This release completes what I wanted to do for a long
+  time - use linear algebra for all the transforms in the game! This allows for some
+  fun things like panning the camera around and doing tilt properly. It also simplifies
+  the game logic (in a crazy kind of way) so that the core logic doesn''t have to
+  worry about rotations.</p>
+
+  <p dir="auto">I tried implementing this a few years ago but ran into roadblocks,
+  then abandoned the idea altogether. Since I''m active in this codebase again, I
+  figured I''d give it a second shot!</p>
+
+  <p dir="auto">Also, despite using the additional math for the matrix transformations,
+  the Nspire release still runs great!</p>
+
+  <p dir="auto">New features for this release:</p>
+
+  <ul dir="auto">
+
+  <li>all: New title menu before the level select</li>
+
+  <li>all: Camera pans and color transitions between most states</li>
+
+  <li>switch: You can now use "X" to rotate right, like the 3ds</li>
+
+  </ul>
+
+  <p dir="auto">Under the hood features:</p>
+
+  <ul dir="auto">
+
+  <li>all: Drivers cleaned up to officially use "Pimpl"</li>
+
+  <li>all: Drivers no longer make excessive pointer de-references and instead direct
+  calls to the Impl itself</li>
+
+  <li>all: Drivers now have "Surface" classes that contain core rendering logic, split
+  out from Platform</li>
+
+  <li>all: Game uses new SurfaceGame class, which implements software matrix transforms</li>
+
+  <li>all: Code cleanup, where applicable</li>
+
+  </ul>
+
+  <p dir="auto">Note: This was a large refactor. Please report any bugs found with
+  this new release. Thanks!</p>'
+updated: '2025-02-16T06:48:21Z'
+version: 3.7.0
+version_title: SuperHaxagon v3.7.0
 ---
