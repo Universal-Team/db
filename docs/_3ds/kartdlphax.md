@@ -25,7 +25,7 @@ layout: app
 license: unlicense
 license_name: The Unlicense
 source: https://github.com/PabloMK7/kartdlphax
-stars: 71
+stars: 72
 systems:
 - 3DS
 title: kartdlphax
