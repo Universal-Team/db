@@ -26,7 +26,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.5.0
   downloads:
     TJAP_3DS.3dsx:
-      size: 689292
+      size: 689360
       size_str: 673 KiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.0/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -39,12 +39,24 @@ prerelease:
 
     <ul dir="auto">
 
-    <li>踊り子のテスト中</li>
+    <li>上画面下部に出る踊り子の実装</li>
 
     <li>ロード中に演奏できる様に(※曲は流れません)</li>
 
+    </ul>
+
+    <h2 dir="auto">Changelog</h2>
+
+    <ul dir="auto">
+
+    <li>Implementation of a dancer that appears at the bottom of the upper screen.</li>
+
+    <li>You can play music while it loads. (※music will not play)</li>
+
     </ul>'
-  update_notes_md: "## チェンジログ\n - 踊り子のテスト中\n - ロード中に演奏できる様に(※曲は流れません)"
+  update_notes_md: "## チェンジログ\n - 上画面下部に出る踊り子の実装\n - ロード中に演奏できる様に(※曲は流れません)\n\n##\
+    \ Changelog\n - Implementation of a dancer that appears at the bottom of the upper\
+    \ screen.\n - You can play music while it loads. (※music will not play)"
   updated: '2025-02-07T05:08:59Z'
   version: v1.5.0
   version_title: TJAPlayer for 3DS v1.5.0
