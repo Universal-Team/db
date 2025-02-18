@@ -14,7 +14,9 @@ downloads:
     size_str: 1 MiB
     url: https://gitlab.com/3ds-netpass/netpass/-/raw/release_builds/netpass.3dsx?ref_type=heads&inline=false
   netpass.cia:
-    url: https://gitlab.com/3ds-netpass/netpass/-/blob/release_builds/netpass.cia?ref_type=heads
+    size: 2257856
+    size_str: 2 MiB
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/release_builds/netpass.cia?ref_type=heads&inline=false
 gitlab: Sorunome/3ds-streetpass
 icon: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/meta/icon.png
@@ -34,7 +36,7 @@ unique_ids:
 update_notes: <p data-sourcepos="1:1-1:64" dir="auto">Add patch to upload/download
   all titles, e.g. Letterbox/Swapnote</p>&#x000A;<p data-sourcepos="3:1-3:54" dir="auto">Be
   sure to re-write patches and re-start your console!</p>
-updated: '2025-02-17T17:24:28.777Z'
+updated: '2025-02-17T17:24:28.000Z'
 version: v0.8.2
 version_title: v0.8.2
 ---
