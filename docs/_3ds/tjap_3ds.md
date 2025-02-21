@@ -26,12 +26,12 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.5.0
   downloads:
     TJAP_3DS.3dsx:
-      size: 689544
-      size_str: 673 KiB
+      size: 1443416
+      size_str: 1 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.0/TJAP_3DS.3dsx
     TJAP_3DS.cia:
-      size: 1004480
-      size_str: 980 KiB
+      size: 1766336
+      size_str: 1 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.0/TJAP_3DS.cia
   qr:
     TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
@@ -43,16 +43,9 @@ prerelease:
 
     <li>ロード中に演奏できる様に(※曲は流れません)</li>
 
-    <li><code class="notranslate">#SUDDEN</code>のテスト中、↓の書き方で実行出来ます。</li>
+    <li>コンボボイスの実装</li>
 
     </ul>
-
-    <pre lang="tja" class="notranslate"><code class="notranslate">#SUDDEN (Draw Seconds)
-    (NULL)
-
-    12212210,//叩くDraw Seconds秒前に表示する
-
-    </code></pre>
 
     <h2 dir="auto">Changelog</h2>
 
@@ -62,11 +55,13 @@ prerelease:
 
     <li>You can play music while it loads. (※music will not play)</li>
 
+    <li>Addition of ComboVoice</li>
+
     </ul>'
-  update_notes_md: "## チェンジログ\n - 上画面下部に出る踊り子の実装\n - ロード中に演奏できる様に(※曲は流れません)\n - `#SUDDEN`のテスト中、↓の書き方で実行出来ます。\n\
-    ```tja\n#SUDDEN (Draw Seconds) (NULL)\n12212210,//叩くDraw Seconds秒前に表示する\n```\n\
+  update_notes_md: "## チェンジログ\n - 上画面下部に出る踊り子の実装\n - ロード中に演奏できる様に(※曲は流れません)\n - コンボボイスの実装\n\
     ## Changelog\n - Implementation of a dancer that appears at the bottom of the\
-    \ upper screen.\n - You can play music while it loads. (※music will not play)"
+    \ upper screen.\n - You can play music while it loads. (※music will not play)\n\
+    \ - Addition of ComboVoice"
   updated: '2025-02-07T05:08:59Z'
   version: v1.5.0
   version_title: TJAPlayer for 3DS v1.5.0
