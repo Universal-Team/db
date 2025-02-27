@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 42975726
-    size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.5/TWiLightMenu-3DS.7z
-  TWiLightMenu-DSi.7z:
-    size: 43014931
+    size: 43236645
     size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.5/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.6/TWiLightMenu-3DS.7z
+  TWiLightMenu-DSi.7z:
+    size: 43273371
+    size_str: 41 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.6/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 54102831
+    size: 54313401
     size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.5/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.6/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 54333806
-    size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.5/TWiLightMenu.7z
+    size: 54531297
+    size_str: 52 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.6/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -38,10 +38,7 @@ stars: 3398
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.4.1">nds-bootstrap
-  v2.4.1</a></p>
-
-  <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
 
   <ul dir="auto">
@@ -59,33 +56,48 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>When starting last-run ROM (or skipping it, if set to autoboot) by holding <code
-  class="notranslate">B</code> button before the ROM listing appears, the screen will
-  now briefly flash black.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/PW5190/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/PW5190">@PW5190</a>:
+  A new TWLMenu++ splash screen theme has been added for Pokémon Day!</li>
 
-  <li>Various: Updated translations.</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
+  <li>When running from flashcards (which use Wood/BL2CK kernel) on DSi or 3DS consoles
+  with unlocked SCFG, the <code class="notranslate">Kernel</code> game loader setting
+  has been disabled, due to seemingly many games not loading with that setting.
 
   <ul dir="auto">
 
-  <li>Fixed black screen/lines sometimes appearing on the top screen before the DS(i)
-  splash plays.</li>
+  <li>It is still useable when launching the flashcard normally (from system menu
+  or with <code class="notranslate">SCFG access for Slot-1</code> disabled).</li>
 
-  <li>Re-added 32KB DLDI support for flashcards.</li>
+  </ul>
 
-  <li>nds-bootstrap is no longer used to boot Pictochat and/or DLP on flashcards outside
-  of DS Classic Menu.</li>
+  </li>
 
-  <li>VRAM bank C is now cleared when booting a <code class="notranslate">.nds</code>
-  file. This should fix garbled graphics after launching certain homebrew titles.</li>
+  </ul>
+
+  <h3 dir="auto">Bug fix</h3>
+
+  <ul dir="auto">
+
+  <li>(Untested) Fixed a long-standing bug where autobooting TWLMenu++ would not work
+  on original R4SDHC flashcards.
+
+  <ul dir="auto">
+
+  <li>flashcard-bootstrap is now used to boot TWLMenu++ on those flashcards.</li>
+
+  <li>If you are using an original R4SDHC flashcard, install the new autoboot files
+  by following the autoboot steps in the flashcard install guide: <a href="https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard#autobooting-twilight-menu"
+  rel="nofollow">https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard#autobooting-twilight-menu</a></li>
+
+  </ul>
+
+  </li>
 
   </ul>'
-updated: '2025-02-26T02:01:27Z'
-version: v27.12.5
-version_title: 'v27.12.5: Day 25 (2/25) in 2025 Release'
+updated: '2025-02-27T10:28:12Z'
+version: v27.12.6
+version_title: 'v27.12.6: Pokémon Day Release'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
