@@ -12,7 +12,7 @@ downloads:
   MontyHallDS.zip:
     size: 183860
     size_str: 179 KiB
-    url: https://github.com/NotTheOnlyRph/MontyHallDS/releases/download/v1.0/MontyHallDS.zip
+    url: https://github.com/Rph-nsmb/MontyHallDS/releases/download/v1.0/MontyHallDS.zip
 github: NotTheOnlyRph/MontyHallDS
 icon: https://db.universal-team.net/assets/images/icons/monty-hall-ds.png
 image: https://db.universal-team.net/assets/images/icons/monty-hall-ds.png
@@ -20,18 +20,20 @@ image_length: 223
 layout: app
 license: mit
 license_name: MIT License
-source: https://github.com/NotTheOnlyRph/MontyHallDS
+source: https://github.com/Rph-nsmb/MontyHallDS
 stars: 1
 systems:
 - DS
 title: Monty Hall DS
-update_notes: '<h1 dir="auto">Welcome to The Monty Hall Problem for Nintendo DS!</h1>
+update_notes: '<h1>Welcome to The Monty Hall Problem for Nintendo DS!</h1>
 
-  <p dir="auto"></p>
+  <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/NotTheOnlyRph/MontyHallDS/assets/169435186/1f779308-acab-4449-a58d-d8ab46d0040f"><img
+  src="https://github.com/NotTheOnlyRph/MontyHallDS/assets/169435186/1f779308-acab-4449-a58d-d8ab46d0040f"
+  alt="TitlescreenTop" style="max-width: 100%;"></a></p>
 
-  <h2 dir="auto">Changelog</h2>
+  <h2>Changelog</h2>
 
-  <ul dir="auto">
+  <ul>
 
   <li>Added touchscreen support!</li>
 
@@ -39,19 +41,19 @@ update_notes: '<h1 dir="auto">Welcome to The Monty Hall Problem for Nintendo DS!
 
   </ul>
 
-  <h2 dir="auto">Description</h2>
+  <h2>Description</h2>
 
-  <p dir="auto">This game is based on the well-known problem of Monty Hall and has
-  two modes: one for playing the game and another one for simulating around 2000 games
-  of Monty Hall.</p>
+  <p>This game is based on the well-known problem of Monty Hall and has two modes:
+  one for playing the game and another one for simulating around 2000 games of Monty
+  Hall.</p>
 
-  <p dir="auto">This game was built in one month using libnds and nflib. Feel free
-  to edit (see <em>readme.txt</em> for details).</p>
+  <p>This game was built in one month using libnds and nflib. Feel free to edit (see
+  <em>readme.txt</em> for details).</p>
 
-  <p dir="auto"><strong><em>The instructions for playing can be found in</em> readme.txt.</strong></p>
+  <p><strong><em>The instructions for playing can be found in</em> readme.txt.</strong></p>
 
-  <p dir="auto"><em>The current version supports buttons and touchscreen, but has
-  no sound effects. This will be updated soon.</em></p>'
+  <p><em>The current version supports buttons and touchscreen, but has no sound effects.
+  This will be updated soon.</em></p>'
 updated: '2024-06-12T07:05:13Z'
 version: v1.0
 version_title: 'v 1.0: Touchscreen''s revenge'
