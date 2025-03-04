@@ -36,7 +36,7 @@ prerelease:
   version: 4.2.5-353-gaaffd042a
   version_title: 4.2.5-353-gaaffd042a
 source: https://github.com/angband/angband
-stars: 1358
+stars: 1359
 systems:
 - 3DS
 - DS
