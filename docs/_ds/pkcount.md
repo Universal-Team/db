@@ -7,20 +7,6 @@ color: '#90337d'
 color_bg: '#802d6f'
 created: '2019-12-02T01:37:45Z'
 description: A Pokemon Shiny Encounter Tool.
-download_page: https://github.com/SuperSaiyajinStackZ/PKCount/releases
-downloads:
-  PKCount.3dsx:
-    size: 767504
-    size_str: 749 KiB
-    url: https://github.com/SuperSaiyajinStackZ/PKCount/releases/download/v0.0.2/PKCount.3dsx
-  PKCount.cia:
-    size: 582592
-    size_str: 568 KiB
-    url: https://github.com/SuperSaiyajinStackZ/PKCount/releases/download/v0.0.2/PKCount.cia
-  PKCount.nds:
-    size: 719872
-    size_str: 703 KiB
-    url: https://github.com/SuperSaiyajinStackZ/PKCount/releases/download/v0.0.2/PKCount.nds
 github: SuperSaiyajinStackZ/PKCount
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/PKCount/master/3DS/app/icon.png
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/PKCount/master/3DS/app/banner.png
@@ -28,9 +14,6 @@ image_length: 9935
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-qr:
-  PKCount.cia: https://db.universal-team.net/assets/images/qr/pkcount-cia.png
-  PKCount.nds: https://db.universal-team.net/assets/images/qr/pkcount-nds.png
 screenshots:
 - description: Encounter screen
   url: https://db.universal-team.net/assets/images/screenshots/pkcount/encounter-screen.png
@@ -50,19 +33,5 @@ systems:
 title: PKCount
 unique_ids:
 - '0x43300'
-update_notes: '<p dir="auto">What''s new?</p>
-
-  <ul dir="auto">
-
-  <li>A NDS Version has been developed! (Yeah, you can use it on DS(i) now as well!)</li>
-
-  <li>[3DS] Add Music Playback (put a <code class="notranslate">music.wav</code> to
-  <code class="notranslate">sdmc:/3ds/PKCount/</code>)</li>
-
-  </ul>
-
-  <p dir="auto">Just try it out! :P  ~ StackZ.</p>'
-updated: '2019-12-27T20:44:30Z'
-version: v0.0.2
-version_title: The second Release of PKCount!
+updated: '---'
 ---
