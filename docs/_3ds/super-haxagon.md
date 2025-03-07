@@ -10,41 +10,41 @@ description: A Super Hexagon Clone
 download_page: https://github.com/RedTopper/Super-Haxagon/releases
 downloads:
   SuperHaxagon-Linux-x86-SDL2-no-romfs.zip:
-    size: 113656
-    size_str: 110 KiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.2/SuperHaxagon-Linux-x86-SDL2-no-romfs.zip
+    size: 113744
+    size_str: 111 KiB
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.3/SuperHaxagon-Linux-x86-SDL2-no-romfs.zip
   SuperHaxagon-Linux-x86-SFML-no-romfs.zip:
-    size: 545084
+    size: 545467
     size_str: 532 KiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.2/SuperHaxagon-Linux-x86-SFML-no-romfs.zip
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.3/SuperHaxagon-Linux-x86-SFML-no-romfs.zip
   SuperHaxagon-PortMaster-arm64-autoinstall.zip:
-    size: 20781529
+    size: 20781752
     size_str: 19 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.2/SuperHaxagon-PortMaster-arm64-autoinstall.zip
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.3/SuperHaxagon-PortMaster-arm64-autoinstall.zip
   SuperHaxagon-Windows-x86-no-romfs.zip:
-    size: 1195055
+    size: 1196459
     size_str: 1 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.2/SuperHaxagon-Windows-x86-no-romfs.zip
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.3/SuperHaxagon-Windows-x86-no-romfs.zip
   SuperHaxagon.3dsx:
-    size: 23053932
+    size: 23054624
     size_str: 21 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.2/SuperHaxagon.3dsx
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.3/SuperHaxagon.3dsx
   SuperHaxagon.cia:
     size: 23479232
     size_str: 22 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.2/SuperHaxagon.cia
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.3/SuperHaxagon.cia
   SuperHaxagon.tns:
-    size: 1109140
+    size: 1108876
     size_str: 1 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.2/SuperHaxagon.tns
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.3/SuperHaxagon.tns
   net.awalter.SuperHaxagon.flatpak:
-    size: 22770720
+    size: 22782584
     size_str: 21 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.2/net.awalter.SuperHaxagon.flatpak
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.3/net.awalter.SuperHaxagon.flatpak
   romfs.zip:
     size: 20504826
     size_str: 19 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.2/romfs.zip
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.8.3/romfs.zip
 github: RedTopper/Super-Haxagon
 icon: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/icon-3ds.png
 image: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/banner.png
@@ -72,54 +72,47 @@ systems:
 title: Super-Haxagon
 unique_ids:
 - '0x99AA'
-update_notes: "<h1 dir=\"auto\">Retro Handheld Edition</h1>\n<p dir=\"auto\">This\
-  \ is the first public release of the Miyoo Mini and Portmaster ports of SuperHaxagon!\
-  \ This completes the long standing issue <a class=\"issue-link js-issue-link\" data-error-text=\"\
-  Failed to load title\" data-id=\"1275780680\" data-permission-text=\"Title is private\"\
-  \ data-url=\"https://github.com/RedTopper/Super-Haxagon/issues/23\" data-hovercard-type=\"\
-  issue\" data-hovercard-url=\"/RedTopper/Super-Haxagon/issues/23/hovercard\" href=\"\
-  https://github.com/RedTopper/Super-Haxagon/issues/23\">#23</a></p>\n<p dir=\"auto\"\
-  >New features for this release:</p>\n<ul dir=\"auto\">\n<li>portmaster: new platform!\n\
-  <ul dir=\"auto\">\n<li>Please use the \"autoinstall\" folder to install the zip\
-  \ manually from this repo. It is \"Ready to Run\" and contains all assets, including\
-  \ the romfs folder.</li>\n<li>For muOS: <code class=\"notranslate\">/mnt/mmc/MUOS/PortMaster/autoinstall/</code></li>\n\
-  <li>For Knulli: <code class=\"notranslate\">/media/SHARE/system/.local/share/PortMaster/autoinstall/</code></li>\n\
-  <li>For other CFWs, see the Portmaster documentation for your platform.</li>\n</ul>\n\
-  </li>\n<li>miyoo mini: new platform!\n<ul dir=\"auto\">\n<li>Tested only on OnionOS</li>\n\
-  <li>Install by placing SuperHaxagon folder into <code class=\"notranslate\">/mnt/SDCARD/App/</code>,\
-  \ then place <code class=\"notranslate\">romfs</code> folder in <code class=\"notranslate\"\
-  >/mnt/SDCARD/App/SuperHaxagon/romfs/</code></li>\n<li>Pixelation filter applied\
-  \ to look extra retro (and totally not because I have to do software rasterization\
-  \ and rendering at full resolution would be too taxing for the CPU!)</li>\n</ul>\n\
-  </li>\n<li>3ds: fixed a bug that prevented the proper loading of stereo .WAV files</li>\n\
-  <li>all: Replaced SFX with ones created by <a class=\"user-mention notranslate\"\
-  \ data-hovercard-type=\"user\" data-hovercard-url=\"/users/TwistBit/hovercard\"\
-  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
-  \ href=\"https://github.com/TwistBit\">@TwistBit</a>! Thanks! (Fixes <a class=\"\
-  issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2873547844\"\
-  \ data-permission-text=\"Title is private\" data-url=\"https://github.com/RedTopper/Super-Haxagon/issues/32\"\
-  \ data-hovercard-type=\"issue\" data-hovercard-url=\"/RedTopper/Super-Haxagon/issues/32/hovercard\"\
-  \ href=\"https://github.com/RedTopper/Super-Haxagon/issues/32\">#32</a>)</li>\n\
-  <li>all: Pumped up the level beats (Fixes <a class=\"issue-link js-issue-link\"\
-  \ data-error-text=\"Failed to load title\" data-id=\"2858940203\" data-permission-text=\"\
-  Title is private\" data-url=\"https://github.com/RedTopper/Super-Haxagon/issues/31\"\
-  \ data-hovercard-type=\"issue\" data-hovercard-url=\"/RedTopper/Super-Haxagon/issues/31/hovercard\"\
-  \ href=\"https://github.com/RedTopper/Super-Haxagon/issues/31\">#31</a>)</li>\n\
-  <li>all: Controls are shown on the title screen by pressing \"back\"</li>\n<li>all:\
-  \ Main menu has new \"tilt\" effects while selecting levels</li>\n<li>all: New main\
-  \ menu music (I got tired of Werq)</li>\n<li>all: Tilt effects for levels 2-4</li>\n\
-  <li>all: Zoom effects for levels 2-4</li>\n<li>all: Platform now shown on the top\
-  \ of the title screen</li>\n</ul>\n<h2 dir=\"auto\">Installation</h2>\n<p dir=\"\
-  auto\">The installation process has changed on some platforms! .zip files labeled\
-  \ <code class=\"notranslate\">no-romfs.zip</code> will NOT INCLUDE the romfs folder.\
-  \ Download <code class=\"notranslate\">romfs.zip</code> and place it where the <code\
-  \ class=\"notranslate\">PLACE_ROMFS_FOLDER_HERE.txt</code> is.</p>\n<h4 dir=\"auto\"\
-  >Example</h4>\n<pre class=\"notranslate\"><code class=\"notranslate\">└── SuperHaxagon\n\
-  \    ├── ...\n    ├── PLACE_ROMFS_FOLDER_HERE.txt\n    └── SuperHaxagon\n</code></pre>\n\
-  <h4 dir=\"auto\">Becomes</h4>\n<pre class=\"notranslate\"><code class=\"notranslate\"\
-  >└── SuperHaxagon\n    ├── ...\n    ├── romfs\n    │   ├── ...\n    │   └── levels.haxagon\n\
-  \    └── SuperHaxagon\n</code></pre>"
-updated: '2025-03-05T07:27:09Z'
-version: 3.8.2
-version_title: SuperHaxagon v3.8.2
+update_notes: '<p dir="auto">This is a small release to close some issues.</p>
+
+  <h2 dir="auto">Changelog</h2>
+
+  <p dir="auto">New features:</p>
+
+  <ul dir="auto">
+
+  <li>3ds, switch: For platforms that embed music into the ROM, you can add custom
+  title music by placing a <code class="notranslate">title.ogg</code> next to your
+  scores.db file. <a class="issue-link js-issue-link" data-error-text="Failed to load
+  title" data-id="2897789311" data-permission-text="Title is private" data-url="https://github.com/RedTopper/Super-Haxagon/issues/35"
+  data-hovercard-type="issue" data-hovercard-url="/RedTopper/Super-Haxagon/issues/35/hovercard"
+  href="https://github.com/RedTopper/Super-Haxagon/issues/35">#35</a></li>
+
+  <li>miyoo: This release uses the Ports folder instead of the Apps folder on OnionOS
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2899353490"
+  data-permission-text="Title is private" data-url="https://github.com/RedTopper/Super-Haxagon/issues/39"
+  data-hovercard-type="issue" data-hovercard-url="/RedTopper/Super-Haxagon/issues/39/hovercard"
+  href="https://github.com/RedTopper/Super-Haxagon/issues/39">#39</a></li>
+
+  </ul>
+
+  <p dir="auto">Fixes:</p>
+
+  <ul dir="auto">
+
+  <li>all: Pressing right no longer has priority over pressing left. Instead, the
+  last direction to be pressed "wins". This makes switching directions faster easier.
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2897952906"
+  data-permission-text="Title is private" data-url="https://github.com/RedTopper/Super-Haxagon/issues/36"
+  data-hovercard-type="issue" data-hovercard-url="/RedTopper/Super-Haxagon/issues/36/hovercard"
+  href="https://github.com/RedTopper/Super-Haxagon/issues/36">#36</a></li>
+
+  </ul>
+
+  <h2 dir="auto">Install</h2>
+
+  <p dir="auto">Please see the new <a href="https://github.com/RedTopper/Super-Haxagon/blob/master/INSTALL.md">INSTALL.md</a>
+  to install SuperHaxagon for your platform.</p>'
+updated: '2025-03-07T03:21:31Z'
+version: 3.8.3
+version_title: SuperHaxagon v3.8.3
 ---
