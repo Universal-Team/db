@@ -25,6 +25,16 @@ image_length: 3366
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
+prerelease:
+  download_page: https://github.com/angband/angband/releases/tag/4.2.5-353-gaaffd042a
+  downloads:
+    Angband-4.2.5-353-gaaffd042a-3ds.zip:
+      size: 24653939
+      size_str: 23 MiB
+      url: https://github.com/angband/angband/releases/download/4.2.5-353-gaaffd042a/Angband-4.2.5-353-gaaffd042a-3ds.zip
+  updated: '2025-02-25T19:56:29Z'
+  version: 4.2.5-353-gaaffd042a
+  version_title: 4.2.5-353-gaaffd042a
 source: https://github.com/angband/angband
 stars: 1360
 systems:
