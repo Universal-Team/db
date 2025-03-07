@@ -100,9 +100,9 @@ update_notes: '<p dir="auto">This is a small release to close some issues.</p>
   <ul dir="auto">
 
   <li>all: Pressing right no longer has priority over pressing left. Instead, the
-  last direction to be pressed "wins". This makes switching directions faster easier.
-  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2897952906"
-  data-permission-text="Title is private" data-url="https://github.com/RedTopper/Super-Haxagon/issues/36"
+  last direction to be pressed "wins". This makes switching directions faster and
+  easier. <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+  data-id="2897952906" data-permission-text="Title is private" data-url="https://github.com/RedTopper/Super-Haxagon/issues/36"
   data-hovercard-type="issue" data-hovercard-url="/RedTopper/Super-Haxagon/issues/36/hovercard"
   href="https://github.com/RedTopper/Super-Haxagon/issues/36">#36</a></li>
 
