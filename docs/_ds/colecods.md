@@ -12,17 +12,17 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1443328
+    size: 1485824
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.3/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.4/ColecoDS.nds
   README.md:
-    size: 53995
-    size_str: 52 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.3/README.md
+    size: 54502
+    size_str: 53 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.4/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.3/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.4/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -35,19 +35,24 @@ stars: 39
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V10.3: 15-Nov-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V10.4: 10-Mar-2025 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Added support for the 31-in-1 and 63-in-1 multicarts.</li>
+  <li>DSi now supports cart ROMs up to 4MB (4096K). Only a few MSX tech demos / games
+  get anywhere near this.</li>
 
-  <li>Added support for ''Wave Direct'' sound driver to render digitized speech in
-  games such as Sewer Sam, Squish-Em, Wizard of Wor, etc.</li>
+  <li>New super-simplified Colecovision CPU driver that is used for most of the well-behaved
+  Colecovision games to render them full speed on the older DS-Lite/Phat.</li>
 
-  <li>Hotfix to disable vsync on q-bert to improve stage clear visual effects</li>
+  <li>Improved emulation speed of the 6502 core to render all Creativision games at
+  full speed on older DS-Lite/Phat.</li>
+
+  <li>Corrected a few cycle timings and generally improved accuracy of the Z80 CPU
+  driver.</li>
 
   </ul>'
-updated: '2024-11-16T22:27:38Z'
-version: '10.3'
-version_title: Version 10.3
+updated: '2025-03-10T11:13:59Z'
+version: '10.4'
+version_title: Version 10.4
 ---
