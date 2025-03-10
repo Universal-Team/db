@@ -12,10 +12,10 @@ created: '2016-02-08T02:26:12Z'
 description: Nintendo 3DS "Custom Firmware"
 download_page: https://github.com/LumaTeam/Luma3DS/releases
 downloads:
-  Luma3DSv13.3.1.zip:
-    size: 548907
+  Luma3DSv13.3.2.zip:
+    size: 548945
     size_str: 536 KiB
-    url: https://github.com/LumaTeam/Luma3DS/releases/download/v13.3.1/Luma3DSv13.3.1.zip
+    url: https://github.com/LumaTeam/Luma3DS/releases/download/v13.3.2/Luma3DSv13.3.2.zip
 github: LumaTeam/Luma3DS
 image: https://avatars.githubusercontent.com/u/65085206?v=4&size=128
 image_length: 7260
@@ -29,14 +29,12 @@ systems:
 title: Luma3DS
 update_notes: '<ul dir="auto">
 
-  <li>Automatic backups of essential files, executed each time a new release of Luma3DS
-  is run on a console, now put backups in <code class="notranslate">/luma/backups/&lt;8-hex-digit
-  DeviceId&gt;</code> instead of <code class="notranslate">/luma/backups/</code> to
-  account for users swapping SD cards between devices</li>
+  <li>Fix regression introduced by latest commit/release, where essential file backup
+  wasn''t done if <code class="notranslate">/luma/backups</code> folder didn''t exist</li>
 
   </ul>'
-updated: '2025-03-04T23:30:23Z'
-version: v13.3.1
-version_title: v13.3.1
+updated: '2025-03-10T21:17:09Z'
+version: v13.3.2
+version_title: v13.3.2
 wiki: https://github.com/LumaTeam/Luma3DS/wiki
 ---
