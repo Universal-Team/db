@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 43236645
+    size: 43277325
     size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.6/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.13.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 43273371
+    size: 43319640
     size_str: 41 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.6/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.13.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 54313401
+    size: 54357214
     size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.6/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.13.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 54531297
+    size: 54580083
     size_str: 52 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.6/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.13.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -38,7 +38,10 @@ stars: 3408
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.4.2">nds-bootstrap
+  v2.4.2</a></p>
+
+  <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
 
   <ul dir="auto">
@@ -56,22 +59,42 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/PW5190/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/PW5190">@PW5190</a>:
-  A new TWLMenu++ splash screen theme has been added for Pokémon Day!</li>
-
-  <li>When running from flashcards (which use Wood/BL2CK kernel) on DSi or 3DS consoles
-  with unlocked SCFG, the <code class="notranslate">Kernel</code> game loader setting
-  has been disabled, due to seemingly many games not loading with that setting.
+  <li>Themes are now renamed to UIs (User Interfaces), because while themes/skins
+  would change the look of TWLMenu++, UIs also change functionality. In addition,
+  custom skins are now officially referred to as custom themes once again (and many
+  users have been calling them that anyways, lol).
 
   <ul dir="auto">
 
-  <li>It is still useable when launching the flashcard normally (from system menu
-  or with <code class="notranslate">SCFG access for Slot-1</code> disabled).</li>
+  <li>Custom themes is now a separate setting from the UI setting to be more noob-friendly.</li>
 
   </ul>
 
   </li>
+
+  <li>Added a filename display setting for the Nintendo DSi, SEGA Saturn, and HBL
+  UIs! You can set it to either display above the banner text, or replace the banner
+  text.
+
+  <ul dir="auto">
+
+  <li>The setting will not work when running in macro mode, and/or if the custom theme
+  used does not use a large font size for banner text.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Due to new R4 flashcard discoveries being made for autobooting TWLMenu++, a
+  new readme file has been added to the <code class="notranslate">Autoboot</code>
+  folder for flashcard users, and long autoboot folder names have been shortened.</li>
+
+  <li>Various: Updated translations.</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/PW5190/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/PW5190">@PW5190</a>:
+  Add ESRB ratings for <em>Deca Sports DS</em>, <em>Gardening Mama</em>, <em>WALL-E</em>,
+  and <em>Wonder Pets! Save the Animals!</em></li>
 
   </ul>
 
@@ -79,25 +102,13 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <ul dir="auto">
 
-  <li>(Untested) Fixed a long-standing bug where autobooting TWLMenu++ would not work
-  on original R4SDHC flashcards.
-
-  <ul dir="auto">
-
-  <li>flashcard-bootstrap is now used to boot TWLMenu++ on those flashcards.</li>
-
-  <li>If you are using an original R4SDHC flashcard, install the new autoboot files
-  by following the autoboot steps in the flashcard install guide: <a href="https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard#autobooting-twilight-menu"
-  rel="nofollow">https://wiki.ds-homebrew.com/twilightmenu/installing-flashcard#autobooting-twilight-menu</a></li>
-
-  </ul>
-
-  </li>
+  <li>Fixed trying to read custom icons from DSi/3DS SD when detected, regardless
+  of where TWLMenu++ is run from.</li>
 
   </ul>'
-updated: '2025-02-27T10:28:12Z'
-version: v27.12.6
-version_title: 'v27.12.6: Pokémon Day Release'
+updated: '2025-03-11T08:59:03Z'
+version: v27.13.0
+version_title: v27.13.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
