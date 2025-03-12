@@ -33,9 +33,8 @@ systems:
 title: Yahtzee3DS
 unique_ids:
 - '0x14733'
-update_notes: "{\"message\": \"We couldn't respond to your request in time. Sorry\
-  \ about that. Please try resubmitting your request and contact us if the problem\
-  \ persists.\"}\r\n"
+update_notes: <p dir="auto">Rolling 3 times would make the combinations button disappear
+  and prevent the game from continuing, thanks CecilFF4 for noticing</p>
 updated: '2018-06-27T16:13:08Z'
 version: v1.0.1
 version_title: Breaking bugs fixed
