@@ -47,7 +47,7 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Correction of the kaku that occurs during the performance.</li>
+  <li>Correction of The notes are awkward that occurs during play.</li>
 
   </ul>
 
