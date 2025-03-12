@@ -24,17 +24,22 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/xzn/ntr-hr/releases/tag/v0.3.1.1
+  download_page: https://github.com/xzn/ntr-hr/releases/tag/v0.3.1.2
   downloads:
     BootNTRSelector-PabloMK7-Banner.cia:
       size: 1672128
       size_str: 1 MiB
-      url: https://github.com/xzn/ntr-hr/releases/download/v0.3.1.1/BootNTRSelector-PabloMK7-Banner.cia
+      url: https://github.com/xzn/ntr-hr/releases/download/v0.3.1.2/BootNTRSelector-PabloMK7-Banner.cia
   qr:
     BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/prerelease/bootntrselector-pablomk7-banner-cia.png
   update_notes: '<p dir="auto">Change:</p>
 
-    <p dir="auto">Slightly more consistent quality adjustment for delta encoding.</p>
+    <p dir="auto">Increased bandwidth allowance when using delta encoding, increases
+    quality slightly but reduces frame time stability. Can lower quality setting to
+    offset this in order to have better frame time.</p>
+
+    <p dir="auto">Delta encode quality auto-adjust now respond more rapidly when bandwidth
+    limit is lowered.</p>
 
     <p dir="auto">Source code:</p>
 
@@ -42,16 +47,22 @@ prerelease:
   update_notes_md: 'Change:
 
 
-    Slightly more consistent quality adjustment for delta encoding.
+    Increased bandwidth allowance when using delta encoding, increases quality slightly
+    but reduces frame time stability. Can lower quality setting to offset this in
+    order to have better frame time.
+
+
+    Delta encode quality auto-adjust now respond more rapidly when bandwidth limit
+    is lowered.
 
 
     Source code:
 
 
     https://github.com/xzn/ntr-hr/tree/prog_delta'
-  updated: '2025-03-10T16:37:10Z'
-  version: v0.3.1.1
-  version_title: 0.3.1.1
+  updated: '2025-03-11T19:29:48Z'
+  version: v0.3.1.2
+  version_title: 0.3.1.2
 qr:
   BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-pablomk7-banner-cia.png
 source: https://github.com/xzn/ntr-hr
