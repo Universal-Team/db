@@ -12,6 +12,8 @@ download_filter: (\.3dsx|\.cia)
 download_page: https://github.com/Omega-Numworks/Omega/releases
 downloads:
   simulator.3dsx:
+    size: 1849488
+    size_str: 1 MiB
     url: https://github.com/Omega-Numworks/Omega/releases/download/O1.22.1-E15/simulator.3dsx
   simulator.cia:
     size: 1124800
@@ -27,7 +29,7 @@ license_name: Other
 qr:
   simulator.cia: https://db.universal-team.net/assets/images/qr/simulator-cia.png
 source: https://github.com/Omega-Numworks/Omega
-stars: 331
+stars: 332
 systems:
 - 3DS
 title: Omega
