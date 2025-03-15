@@ -16,7 +16,7 @@ downloads:
     size_str: 1 MiB
     url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.5/ColecoDS.nds
   README.md:
-    size: 55018
+    size: 54987
     size_str: 53 KiB
     url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.5/README.md
   cbios.txt:
@@ -54,7 +54,7 @@ update_notes: '<p dir="auto">V10.5: 14-Mar-2025 by wavemotion-dave</p>
   <li>Other minor cleanups as time permitted.</li>
 
   </ul>'
-updated: '2025-03-14T16:15:24Z'
+updated: '2025-03-15T11:43:58Z'
 version: '10.5'
 version_title: Version 10.5
 ---
