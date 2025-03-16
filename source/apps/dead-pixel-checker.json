@@ -4,5 +4,5 @@
 	"systems": ["3DS"],
 	"categories": ["utility"],
 	"icon": "https://raw.githubusercontent.com/classyham/3DS_DeadPixelChecker/refs/heads/main/icon.png",
-	"long_description": "Cycles through colours to check for dead (sub)pixels",
+	"long_description": "Cycles through colours to check for dead (sub)pixels"
 }
