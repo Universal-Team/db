@@ -72,6 +72,7 @@ update_notes: '<p dir="auto">Dies behebt ein paar Fehler und ein neuer Startbild
 updated: '2020-10-07T20:51:16Z'
 version: v0.2.0
 version_title: Zweiter / Second 3DElf Release!
+wiki: https://github.com/SuperSaiyajinStackZ/3DElf/wiki
 ---
 > The game is playable in Deutsch and English
 

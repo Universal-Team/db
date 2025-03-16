@@ -3,8 +3,6 @@ author: h.tomioka
 avatar: https://avatars.githubusercontent.com/u/168841671?v=4
 categories:
 - emulator
-color: '#2a3f9c'
-color_bg: '#223380'
 created: '2024-05-10T09:04:13Z'
 description: fMSX(MSX emulator) port to 3DS. Add many new feature such as MSXTurboR
   emulation and MSX0 emulation.
