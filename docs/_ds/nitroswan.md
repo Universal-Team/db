@@ -11,9 +11,9 @@ description: Bandai WonderSwan (Color/Crystal) & Benesse PocketChallenge V2 emul
 download_page: https://github.com/FluBBaOfWard/NitroSwan/releases
 downloads:
   NitroSwan.zip:
-    size: 182532
-    size_str: 178 KiB
-    url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.6.7/NitroSwan.zip
+    size: 184216
+    size_str: 179 KiB
+    url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.7.0/NitroSwan.zip
 github: FluBBaOfWard/NitroSwan
 icon: https://db.universal-team.net/assets/images/icons/nitroswan.png
 image: https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/logo.png
@@ -26,16 +26,28 @@ systems:
 title: NitroSwan
 update_notes: '<ul dir="auto">
 
-  <li>Added separate file path for WonderWitch.</li>
+  <li>Added support for uploading any file to WonderWitch.</li>
 
-  <li>Fixed ch2 sample playing.</li>
+  <li>Added new menu graphics.</li>
 
-  <li>Fixed ch3 sweep frequency.</li>
+  <li>Fixed sound output control (0x91) register.</li>
 
-  <li>Fixed some edge cases for EEPROM.</li>
+  <li>Fixed latched icons (0x1A) register.</li>
+
+  <li>Fixed LCD sleep (0x14) register.</li>
+
+  <li>Fixed power off (0x62/0xAC) registers.</li>
+
+  <li>Fixed mov to stack segment register.</li>
+
+  <li>Fixed Trap flag handling in EI.</li>
+
+  <li>Fixed AM/PM behaviour of RTC.</li>
+
+  <li>Optimized sound rendering.</li>
 
   </ul>'
-updated: '2025-02-18T20:42:29Z'
-version: v0.6.7
-version_title: V0.6.7
+updated: '2025-03-16T12:23:37Z'
+version: v0.7.0
+version_title: V 0.7.0
 ---
