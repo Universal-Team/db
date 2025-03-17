@@ -10,13 +10,13 @@ description: PSPident clone for 3DS
 download_page: https://github.com/joel16/3DSident/releases
 downloads:
   3DSident.3dsx:
-    size: 260936
-    size_str: 254 KiB
-    url: https://github.com/joel16/3DSident/releases/download/0.9.2/3DSident.3dsx
+    size: 261188
+    size_str: 255 KiB
+    url: https://github.com/joel16/3DSident/releases/download/0.9.3/3DSident.3dsx
   3DSident.cia:
     size: 603072
     size_str: 588 KiB
-    url: https://github.com/joel16/3DSident/releases/download/0.9.2/3DSident.cia
+    url: https://github.com/joel16/3DSident/releases/download/0.9.3/3DSident.cia
 github: joel16/3DSident
 icon: https://raw.githubusercontent.com/joel16/3DSident/master/console/res/icon.png
 image: https://raw.githubusercontent.com/joel16/3DSident/master/console/res/banner.png
@@ -32,7 +32,7 @@ screenshots:
 - description: Storage
   url: https://db.universal-team.net/assets/images/screenshots/3dsident/storage.png
 source: https://github.com/joel16/3DSident
-stars: 304
+stars: 314
 systems:
 - 3DS
 title: 3DSident
@@ -47,13 +47,36 @@ update_notes: '<p dir="auto">3DSident has been re-written in C++ which makes use
 
   <ul dir="auto">
 
-  <li>Fixed a discrepancy with check digits when a serial number contains more than
-  two letters.</li>
+  <li>Fixed NNID info displaying the following infomration incorrectly:
 
-  <li>Display manufacturing date under the miscellaneous category.</li>
+  <ul dir="auto">
+
+  <li>Persistent ID</li>
+
+  <li>Transferable ID Base</li>
+
+  <li>Principal ID</li>
+
+  </ul>
+
+  </li>
+
+  <li>NNID info now displays the following information:
+
+  <ul dir="auto">
+
+  <li>Account ID</li>
+
+  <li>Account status (whether the server account was deleted or is active)</li>
+
+  <li>Country tied to the NNID account</li>
+
+  </ul>
+
+  </li>
 
   </ul>'
-updated: '2024-12-08T16:49:40Z'
-version: 0.9.2
-version_title: 3DSident v0.9.2
+updated: '2025-02-19T16:56:10Z'
+version: 0.9.3
+version_title: 3DSident v0.9.3
 ---

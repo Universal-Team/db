@@ -12,17 +12,17 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1443328
+    size: 1483264
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.3/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.5/ColecoDS.nds
   README.md:
-    size: 53995
-    size_str: 52 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.3/README.md
+    size: 54987
+    size_str: 53 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.5/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.3/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.5/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -31,23 +31,30 @@ layout: app
 qr:
   ColecoDS.nds: https://db.universal-team.net/assets/images/qr/colecods-nds.png
 source: https://github.com/wavemotion-dave/ColecoDS
-stars: 40
+stars: 39
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V10.3: 15-Nov-2024 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V10.5: 14-Mar-2025 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Added support for the 31-in-1 and 63-in-1 multicarts.</li>
+  <li>Update to the Z80 core to improve emulation accuracy. This emulator now passes
+  the ZEXALL test suite.</li>
 
-  <li>Added support for ''Wave Direct'' sound driver to render digitized speech in
-  games such as Sewer Sam, Squish-Em, Wizard of Wor, etc.</li>
+  <li>Added proper M1 wait states for the Colecovision, ADAM and MSX emulation for
+  improved CPU handling.</li>
 
-  <li>Hotfix to disable vsync on q-bert to improve stage clear visual effects</li>
+  <li>A few optimized Z80 lookup-tables brings in some additional speed for both the
+  DSi and DS-Lite/Phat.</li>
+
+  <li>Improved file loading so that it''s more robust - ensuring a higher level of
+  consistency in loading large files into memory.</li>
+
+  <li>Other minor cleanups as time permitted.</li>
 
   </ul>'
-updated: '2024-11-16T22:27:38Z'
-version: '10.3'
-version_title: Version 10.3
+updated: '2025-03-15T21:20:55Z'
+version: '10.5'
+version_title: Version 10.5
 ---

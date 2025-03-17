@@ -20,13 +20,13 @@ image: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
 image_length: 630
 layout: app
 source: https://github.com/RocketRobz/NTR_Forwarder
-stars: 76
+stars: 78
 systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto"><strong>UPDATE 12/27/2024:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.3.3">nds-bootstrap
-  v2.3.3</a></p>
+update_notes: '<p dir="auto"><strong>UPDATE 3/11/2025:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.4.2">nds-bootstrap
+  v2.4.2</a></p>
 
   <p dir="auto">To install or update:</p>
 

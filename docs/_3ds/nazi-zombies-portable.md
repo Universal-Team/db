@@ -12,7 +12,7 @@ download_filter: 3ds
 download_page: https://github.com/nzp-team/nzportable/releases
 downloads:
   nzportable-3ds.zip:
-    size: 35279754
+    size: 35322115
     size_str: 33 MiB
     url: https://github.com/nzp-team/nzportable/releases/download/nightly/nzportable-3ds.zip
 github: nzp-team/nzportable
@@ -34,7 +34,7 @@ screenshots:
 - description: Map selection
   url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/map-selection.png
 source: https://github.com/nzp-team/nzportable
-stars: 500
+stars: 525
 systems:
 - 3DS
 title: 'Nazi Zombies: Portable'
@@ -48,6 +48,8 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
   <ul dir="auto">
 
   <li>Game Assets</li>
+
+  <li>Vril (PSP/3DS Engine)</li>
 
   </ul>
 
@@ -72,9 +74,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <p dir="auto">You can also play the WebGL version at <a href="https://nzp.gay/"
   rel="nofollow">https://nzp.gay/</a></p>'
-updated: '2025-01-25T07:20:25Z'
+updated: '2025-03-16T07:21:16Z'
 version: nightly
-version_title: 2.0.0-indev+20250125071935
+version_title: 2.0.0-indev+20250316072024
 website: https://github.com/nzp-team/nzportable
 ---
 A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at War.

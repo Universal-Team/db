@@ -29,21 +29,25 @@ qr:
   Citrahold-3DS.cia: https://db.universal-team.net/assets/images/qr/citrahold-3ds-cia.png
 script_message: Please visit https://www.citrahold.com/ to get set-up
 source: https://github.com/regimensocial/Citrahold-3DS
-stars: 22
+stars: 28
 systems:
 - 3DS
 title: Citrahold-3DS
 unique_ids:
 - '0xFF3FE'
-update_notes: '<p dir="auto">If you had a lot of games in your Citrahold directory,
-  the menu would be really long and hard to scroll. I''ve changed the way it''s displayed
-  so that it''s a little nicer to use.</p>
+update_notes: '<h1 dir="auto">PLEASE READ -&gt; SET YOUR TIME ZONE CORRECTLY IN ROSALINA
+  MENU IF THE SERVER WILL NOT CONNECT! THANK YOU</h1>
+
+  <p dir="auto">If you had a lot of games in your Citrahold directory, the menu would
+  be really long and hard to scroll. I''ve changed the way it''s displayed so that
+  it''s a little nicer to use.</p>
 
   <p dir="auto">It also now reattempts to connect to the server if it immediately
   fails. Connection failure is common if you boot Citrahold 3DS immediately after
   starting up the 3DS. Reconnecting usually fixes it.</p>
 
-  <p dir="auto">Happy Holidays!</p>
+  <p dir="auto">SET YOUR TIME ZONE CORRECTLY IN ROSALINA MENU IF THE SERVER WILL NOT
+  CONNECT! THANK YOU</p>
 
   <p dir="auto">You can scan this QR Code in FBI to install it.<br>
 

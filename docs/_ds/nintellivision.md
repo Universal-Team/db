@@ -12,17 +12,17 @@ description: Nintellivision - an Intellivision Emulator for the DS/DSi. High com
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 733184
-    size_str: 716 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.0/NINTV-DS.nds
+    size: 758784
+    size_str: 741 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.1/NINTV-DS.nds
   README.md:
-    size: 34078
-    size_str: 33 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.0/README.md
+    size: 35205
+    size_str: 34 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.1/README.md
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 38602
+image_length: 38834
 layout: app
 qr:
   NINTV-DS.nds: https://db.universal-team.net/assets/images/qr/nintv-ds-nds.png
@@ -34,23 +34,14 @@ stars: 38
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V6.0 : 01-Jan-2025 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V6.1 : 04-Mar-2025 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Multi-overlays now supported for games like Mr. BASIC Meets Bits ''n Bytes,
-  Inty BASIC Showcase collections, etc.</li>
-
-  <li>Left/Right overlays now supported for games like Chess, Lode Runner or World
-  Series Baseball.</li>
-
-  <li>Ability to pick a different overlay for the game being played (use MENU and
-  then ''PICK OVERLAY'').</li>
-
-  <li>A batch of new overlays to finally get the original 125 done!</li>
+  <li>Updated for newest custom overlays for latest homebrews.</li>
 
   </ul>'
-updated: '2025-01-01T13:38:13Z'
-version: '6.0'
-version_title: Version 6.0
+updated: '2025-03-04T12:30:21Z'
+version: '6.1'
+version_title: Version 6.1
 ---

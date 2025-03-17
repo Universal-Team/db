@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 42722627
-    size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.3/TWiLightMenu-3DS.7z
+    size: 43277325
+    size_str: 41 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.13.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 42785468
-    size_str: 40 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.3/TWiLightMenu-DSi.7z
+    size: 43319640
+    size_str: 41 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.13.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 53867220
+    size: 54357214
     size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.3/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.13.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 54092888
-    size_str: 51 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.12.3/TWiLightMenu.7z
+    size: 54580083
+    size_str: 52 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.13.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -34,12 +34,12 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/DS-Homebrew/TWiLightMenu
-stars: 3358
+stars: 3418
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto"><strong>UPDATE 12/27/2024:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.3.3">nds-bootstrap
-  v2.3.3</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.4.2">nds-bootstrap
+  v2.4.2</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -55,44 +55,60 @@ update_notes: '<p dir="auto"><strong>UPDATE 12/27/2024:</strong> Includes <a hre
 
   </ul>
 
-  <p dir="auto">Merry TWL Christmas!</p>
-
-  <h3 dir="auto">Bug fixes</h3>
+  <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mentusfentus/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mentusfentus">@mentusfentus</a>:
-  3DS Theme: Fixed crashing when launching apps from top bar without hovering on an
-  icon.</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/edo9300/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>:
-  Fixed issues when running on SuperCard Rumble flashcarts.</li>
-
-  </ul>
-
-  <h3 dir="auto">Regression</h3>
+  <li>Themes are now renamed to UIs (User Interfaces), because while themes/skins
+  would change the look of TWLMenu++, UIs also change functionality. In addition,
+  custom skins are now officially referred to as custom themes once again (and many
+  users have been calling them that anyways, lol).
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
-  Disabled autoboot support for the EZ-Flash Vi.
-
-  <ul dir="auto">
-
-  <li>A user reported that the currently provided DLDI cannot perform writes to the
-  SD card. Disable the autoboot until a fix is found.</li>
+  <li>Custom themes is now a separate setting from the UI setting to be more noob-friendly.</li>
 
   </ul>
 
   </li>
 
+  <li>Added a filename display setting for the Nintendo DSi, SEGA Saturn, and HBL
+  UIs! You can set it to either display above the banner text, or replace the banner
+  text.
+
+  <ul dir="auto">
+
+  <li>The setting will not work when running in macro mode, and/or if the custom theme
+  used does not use a large font size for banner text.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Due to new R4 flashcard discoveries being made for autobooting TWLMenu++, a
+  new readme file has been added to the <code class="notranslate">Autoboot</code>
+  folder for flashcard users, and long autoboot folder names have been shortened.</li>
+
+  <li>Various: Updated translations.</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/PW5190/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/PW5190">@PW5190</a>:
+  Add ESRB ratings for <em>Deca Sports DS</em>, <em>Gardening Mama</em>, <em>WALL-E</em>,
+  and <em>Wonder Pets! Save the Animals!</em></li>
+
+  </ul>
+
+  <h3 dir="auto">Bug fix</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed trying to read custom icons from DSi/3DS SD when detected, regardless
+  of where TWLMenu++ is run from.</li>
+
   </ul>'
-updated: '2024-12-25T09:07:42Z'
-version: v27.12.3
-version_title: 'v27.12.3: TWL Christmas Release 🎄'
+updated: '2025-03-11T08:59:03Z'
+version: v27.13.0
+version_title: v27.13.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---

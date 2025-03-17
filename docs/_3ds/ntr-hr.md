@@ -24,49 +24,49 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/xzn/ntr-hr/releases/tag/v0.3.0.1
+  download_page: https://github.com/xzn/ntr-hr/releases/tag/v0.3.1.2
   downloads:
     BootNTRSelector-PabloMK7-Banner.cia:
-      size: 1631168
+      size: 1672128
       size_str: 1 MiB
-      url: https://github.com/xzn/ntr-hr/releases/download/v0.3.0.1/BootNTRSelector-PabloMK7-Banner.cia
-    NTR-HR.zip:
-      size: 150340
-      size_str: 146 KiB
-      url: https://github.com/xzn/ntr-hr/releases/download/v0.3.0.1/NTR-HR.zip
+      url: https://github.com/xzn/ntr-hr/releases/download/v0.3.1.2/BootNTRSelector-PabloMK7-Banner.cia
   qr:
     BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/prerelease/bootntrselector-pablomk7-banner-cia.png
-  update_notes: '<p dir="auto">Changes:</p>
+  update_notes: '<p dir="auto">Change:</p>
 
-    <p dir="auto">Fix a long standing bug where skip duplicate frames would not work
-    if top and bottom screen have different buffer formats on the 3DS.</p>
+    <p dir="auto">Increased bandwidth allowance when using delta encoding, increases
+    quality slightly but reduces frame time stability. Can lower quality setting to
+    offset this in order to have better frame time.</p>
 
-    <p dir="auto">Reliable Stream init packets are now sent less frequently.</p>
+    <p dir="auto">Delta encode quality auto-adjust now respond more rapidly when bandwidth
+    limit is lowered.</p>
 
-    <p dir="auto">Source:</p>
+    <p dir="auto">Source code:</p>
 
-    <p dir="auto"><a href="https://github.com/xzn/ntr-hr/tree/rs0_test1">https://github.com/xzn/ntr-hr/tree/rs0_test1</a></p>'
-  update_notes_md: 'Changes:
-
-
-    Fix a long standing bug where skip duplicate frames would not work if top and
-    bottom screen have different buffer formats on the 3DS.
+    <p dir="auto"><a href="https://github.com/xzn/ntr-hr/tree/prog_delta">https://github.com/xzn/ntr-hr/tree/prog_delta</a></p>'
+  update_notes_md: 'Change:
 
 
-    Reliable Stream init packets are now sent less frequently.
+    Increased bandwidth allowance when using delta encoding, increases quality slightly
+    but reduces frame time stability. Can lower quality setting to offset this in
+    order to have better frame time.
 
 
-    Source:
+    Delta encode quality auto-adjust now respond more rapidly when bandwidth limit
+    is lowered.
 
 
-    https://github.com/xzn/ntr-hr/tree/rs0_test1'
-  updated: '2024-09-16T06:38:39Z'
-  version: v0.3.0.1
-  version_title: 0.3.0.1
+    Source code:
+
+
+    https://github.com/xzn/ntr-hr/tree/prog_delta'
+  updated: '2025-03-11T19:29:48Z'
+  version: v0.3.1.2
+  version_title: 0.3.1.2
 qr:
   BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-pablomk7-banner-cia.png
 source: https://github.com/xzn/ntr-hr
-stars: 109
+stars: 116
 systems:
 - 3DS
 title: NTR-HR

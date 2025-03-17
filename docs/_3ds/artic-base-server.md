@@ -1,6 +1,6 @@
 ---
 author: PabloMK7
-avatar: https://avatars.githubusercontent.com/u/10946643?v=4
+avatar: https://avatars.githubusercontent.com/u/188636407?v=4
 categories:
 - emulator
 - utility
@@ -13,11 +13,11 @@ downloads:
   ArticBase.3dsx:
     size: 460612
     size_str: 449 KiB
-    url: https://github.com/PabloMK7/ArticBaseServer/releases/download/v1.2.0/ArticBase.3dsx
+    url: https://github.com/azahar-emu/ArticBaseServer/releases/download/v1.2.0/ArticBase.3dsx
   ArticBase.cia:
     size: 372160
     size_str: 363 KiB
-    url: https://github.com/PabloMK7/ArticBaseServer/releases/download/v1.2.0/ArticBase.cia
+    url: https://github.com/azahar-emu/ArticBaseServer/releases/download/v1.2.0/ArticBase.cia
 github: PabloMK7/ArticBaseServer
 icon: https://raw.githubusercontent.com/PabloMK7/ArticBaseServer/main/app/resources/icon.png
 image: https://raw.githubusercontent.com/PabloMK7/ArticBaseServer/main/app/resources/banner.png
@@ -25,23 +25,23 @@ image_length: 34819
 layout: app
 qr:
   ArticBase.cia: https://db.universal-team.net/assets/images/qr/articbase-cia.png
-source: https://github.com/PabloMK7/ArticBaseServer
-stars: 425
+source: https://github.com/azahar-emu/ArticBaseServer
+stars: 459
 systems:
 - 3DS
 title: Artic Base Server
 unique_ids:
 - '0xABA5E'
-update_notes: '<ul dir="auto">
+update_notes: '<ul>
 
   <li>Added Artic Controller support, which allows using the console as the input
   device if the feature is enabled on the emulator.
 
-  <ul dir="auto">
+  <ul>
 
   <li>The following inputs are supported:
 
-  <ul dir="auto">
+  <ul>
 
   <li>Buttons &amp; circle pad</li>
 
@@ -57,7 +57,7 @@ update_notes: '<ul dir="auto">
 
   <li>The following inputs are not supported:
 
-  <ul dir="auto">
+  <ul>
 
   <li>Circle pad pro (on New 3DS, this is emulated with the extra buttons)</li>
 

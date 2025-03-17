@@ -11,21 +11,21 @@ description: A8DS An Atari 8-bit Computer Emulator for the DS/DSi and includes v
 download_page: https://github.com/wavemotion-dave/A8DS/releases
 downloads:
   A8DS.nds:
-    size: 913408
-    size_str: 892 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/4.1/A8DS.nds
+    size: 921600
+    size_str: 900 KiB
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/4.2/A8DS.nds
   A8DSi.nds:
-    size: 923136
-    size_str: 901 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/4.1/A8DSi.nds
+    size: 931328
+    size_str: 909 KiB
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/4.2/A8DSi.nds
   Copying:
     size: 18092
     size_str: 17 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/4.1/Copying
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/4.2/Copying
   readme.md:
-    size: 34979
+    size: 35803
     size_str: 34 KiB
-    url: https://github.com/wavemotion-dave/A8DS/releases/download/4.1/readme.md
+    url: https://github.com/wavemotion-dave/A8DS/releases/download/4.2/readme.md
 github: wavemotion-dave/A8DS
 icon: https://db.universal-team.net/assets/images/icons/a8ds.png
 image: https://raw.githubusercontent.com/wavemotion-dave/A8DS/main/arm9/gfx/bgTop.png
@@ -37,31 +37,36 @@ qr:
   A8DS.nds: https://db.universal-team.net/assets/images/qr/a8ds-nds.png
   A8DSi.nds: https://db.universal-team.net/assets/images/qr/a8dsi-nds.png
 source: https://github.com/wavemotion-dave/A8DS
-stars: 26
+stars: 27
 systems:
 - DS
 title: A8DS
-update_notes: '<p dir="auto">V4.1 : 25-Jan-2025 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V4.2  : 01-Feb-2025 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Refactor the OS Enable/Disable on XL/XE emulation to avoid moving large blocks
-  of memory. Speeds up many games that swap the OS in/out.</li>
+  <li>Fixed Turbo 128K cart type so it doesn''t inadvertently disable the cartridge
+  port.</li>
 
-  <li>Improved SIO/Disk handling - sound effects reduced in volume and now configurable
-  (default is OFF).</li>
+  <li>Added Right-Side cart support for Atari800 (fixing a few A800 emulation issues
+  as well).</li>
 
-  <li>Improved cart/disk loading and all disks are left mounted when RESET is pressed
-  allowing you to load up a system the way you want.</li>
+  <li>Added Atari 5200 cart support for carts of 128K or less (rename your 5200 carts
+  to ".a52" for easy loading)</li>
 
-  <li>A dozen new .CAR cartridge types supported including DCART (Bubble Bobble homebrew).</li>
+  <li>Added new key maps for SHIFT and CONTROL to NDS keys.</li>
 
-  <li>Tweak to the TWL++ icon for A8DS to make it look a bit more classic.</li>
+  <li>Massive simplification of the configuration handling for machine type.</li>
 
-  <li>Many small cleanups and improvements and a few bug fixes as well.</li>
+  <li>New NTSC and PAL color palettes from the awesome Trebor Pro Pack.</li>
+
+  <li>New Caps Lock LED added to all virtual keyboards.</li>
+
+  <li>Added new cart types for SIC+ (1MB), Corina (1MB+EE and 512K+512K+EE), Telelink
+  II and MIO_8, XE Multicart and more...</li>
 
   </ul>'
-updated: '2025-01-25T11:57:54Z'
-version: '4.1'
-version_title: Version 4.1
+updated: '2025-02-01T12:30:53Z'
+version: '4.2'
+version_title: Version 4.2
 ---
