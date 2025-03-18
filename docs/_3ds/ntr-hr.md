@@ -24,22 +24,20 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/xzn/ntr-hr/releases/tag/v0.3.1.2
+  download_page: https://github.com/xzn/ntr-hr/releases/tag/v0.3.1.3
   downloads:
     BootNTRSelector-PabloMK7-Banner.cia:
-      size: 1672128
+      size: 1680320
       size_str: 1 MiB
-      url: https://github.com/xzn/ntr-hr/releases/download/v0.3.1.2/BootNTRSelector-PabloMK7-Banner.cia
+      url: https://github.com/xzn/ntr-hr/releases/download/v0.3.1.3/BootNTRSelector-PabloMK7-Banner.cia
   qr:
     BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/prerelease/bootntrselector-pablomk7-banner-cia.png
   update_notes: '<p dir="auto">Change:</p>
 
-    <p dir="auto">Increased bandwidth allowance when using delta encoding, increases
-    quality slightly but reduces frame time stability. Can lower quality setting to
-    offset this in order to have better frame time.</p>
+    <p dir="auto">When NFC patch is applied, automatically disables Reliable Stream
+    for compatibility.<br>
 
-    <p dir="auto">Delta encode quality auto-adjust now respond more rapidly when bandwidth
-    limit is lowered.</p>
+    Simplifies quality auto-adjust for delta encode mode.</p>
 
     <p dir="auto">Source code:</p>
 
@@ -47,22 +45,18 @@ prerelease:
   update_notes_md: 'Change:
 
 
-    Increased bandwidth allowance when using delta encoding, increases quality slightly
-    but reduces frame time stability. Can lower quality setting to offset this in
-    order to have better frame time.
+    When NFC patch is applied, automatically disables Reliable Stream for compatibility.
 
-
-    Delta encode quality auto-adjust now respond more rapidly when bandwidth limit
-    is lowered.
+    Simplifies quality auto-adjust for delta encode mode.
 
 
     Source code:
 
 
     https://github.com/xzn/ntr-hr/tree/prog_delta'
-  updated: '2025-03-11T19:29:48Z'
-  version: v0.3.1.2
-  version_title: 0.3.1.2
+  updated: '2025-03-17T21:40:00Z'
+  version: v0.3.1.3
+  version_title: 0.3.1.3
 qr:
   BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-pablomk7-banner-cia.png
 source: https://github.com/xzn/ntr-hr
