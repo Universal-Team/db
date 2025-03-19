@@ -10,7 +10,7 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 1455172
+    size: 1456328
     size_str: 1 MiB
     url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.1/TJAP_3DS.3dsx
   TJAP_3DS.cia:
@@ -35,11 +35,9 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>演奏中に発生するカクつきの微修正<br>
+  <li>演奏中に発生するカクつきの微修正</li>
 
-  最適化によりOFFSETがかなりズレているので各自合わせて下さい。<br>
-
-  目安は-0.05前後です。</li>
+  <li>一部譜面の開始位置が正しくないのを修正</li>
 
   </ul>
 
@@ -52,6 +50,8 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
   <ul dir="auto">
 
   <li>Correction of The notes are awkward that occurs during play.</li>
+
+  <li>Fixed some charts starting at the wrong position</li>
 
   </ul>
 
