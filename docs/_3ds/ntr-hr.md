@@ -24,18 +24,21 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/xzn/ntr-hr/releases/tag/v0.3.1.6
+  download_page: https://github.com/xzn/ntr-hr/releases/tag/v0.3.1.7
   downloads:
     BootNTRSelector-PabloMK7-Banner.cia:
       size: 1676224
       size_str: 1 MiB
-      url: https://github.com/xzn/ntr-hr/releases/download/v0.3.1.6/BootNTRSelector-PabloMK7-Banner.cia
+      url: https://github.com/xzn/ntr-hr/releases/download/v0.3.1.7/BootNTRSelector-PabloMK7-Banner.cia
   qr:
     BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/prerelease/bootntrselector-pablomk7-banner-cia.png
   update_notes: '<p dir="auto">Change:</p>
 
-    <p dir="auto"><em>Fix another regression</em> switching games while remote play
-    is active would result in black screen in video feed.</p>
+    <p dir="auto">Fix switching games while remote play is active would sometimes
+    hang if Overlay Statistics was used. <em>(Hmm I think this is the last bug like
+    this one..)</em></p>
+
+    <p dir="auto">Reduce flicker when entering/exiting the NTR menu.</p>
 
     <p dir="auto">Source code:</p>
 
@@ -43,17 +46,20 @@ prerelease:
   update_notes_md: 'Change:
 
 
-    *Fix another regression* switching games while remote play is active would result
-    in black screen in video feed.
+    Fix switching games while remote play is active would sometimes hang if Overlay
+    Statistics was used. *(Hmm I think this is the last bug like this one..)*
+
+
+    Reduce flicker when entering/exiting the NTR menu.
 
 
     Source code:
 
 
     https://github.com/xzn/ntr-hr/tree/prog_delta'
-  updated: '2025-03-19T23:35:42Z'
-  version: v0.3.1.6
-  version_title: 0.3.1.6
+  updated: '2025-03-20T03:07:44Z'
+  version: v0.3.1.7
+  version_title: 0.3.1.7
 qr:
   BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-pablomk7-banner-cia.png
 source: https://github.com/xzn/ntr-hr
