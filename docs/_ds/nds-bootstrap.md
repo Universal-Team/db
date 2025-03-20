@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 1027431
+    size: 1027171
     size_str: 1003 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.4.2/nds-bootstrap.7z
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.4.3/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1492626
+    size: 1492677
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.4.2/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.4.3/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -28,10 +28,7 @@ stars: 1224
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.13.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v27.13.0</a></p>
-
-  <p dir="auto">Instructions:</p>
+update_notes: '<p dir="auto">Instructions:</p>
 
   <ol dir="auto">
 
@@ -47,22 +44,12 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Added AP-fix for <em>Pokémon: Refined Gold Overhaul</em> (v4.0.4)!
-
-  <ul dir="auto">
-
-  <li>For the fix to take effect, you''ll need to apply the fixed ROM hack patch (from
-  the <a href="https://github.com/DS-Homebrew/nds-bootstrap-extras">nds-bootstrap-extras</a>
-  repo) to the clean unhacked ROM.</li>
-
-  </ul>
-
-  </li>
+  <li>Fixed AP-fix for <em>Pokémon: Refined Gold Coarse</em> (v4.0.4)!</li>
 
   </ul>'
-updated: '2025-03-11T07:21:33Z'
-version: v2.4.2
-version_title: v2.4.2
+updated: '2025-03-20T22:42:52Z'
+version: v2.4.3
+version_title: v2.4.3 (hotfix)
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
