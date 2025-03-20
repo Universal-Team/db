@@ -24,20 +24,18 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/xzn/ntr-hr/releases/tag/v0.3.1.3
+  download_page: https://github.com/xzn/ntr-hr/releases/tag/v0.3.1.6
   downloads:
     BootNTRSelector-PabloMK7-Banner.cia:
-      size: 1680320
+      size: 1676224
       size_str: 1 MiB
-      url: https://github.com/xzn/ntr-hr/releases/download/v0.3.1.3/BootNTRSelector-PabloMK7-Banner.cia
+      url: https://github.com/xzn/ntr-hr/releases/download/v0.3.1.6/BootNTRSelector-PabloMK7-Banner.cia
   qr:
     BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/prerelease/bootntrselector-pablomk7-banner-cia.png
   update_notes: '<p dir="auto">Change:</p>
 
-    <p dir="auto">When NFC patch is applied, automatically disables Reliable Stream
-    for compatibility.<br>
-
-    Simplifies quality auto-adjust for delta encode mode.</p>
+    <p dir="auto"><em>Fix another regression</em> switching games while remote play
+    is active would result in black screen in video feed.</p>
 
     <p dir="auto">Source code:</p>
 
@@ -45,18 +43,17 @@ prerelease:
   update_notes_md: 'Change:
 
 
-    When NFC patch is applied, automatically disables Reliable Stream for compatibility.
-
-    Simplifies quality auto-adjust for delta encode mode.
+    *Fix another regression* switching games while remote play is active would result
+    in black screen in video feed.
 
 
     Source code:
 
 
     https://github.com/xzn/ntr-hr/tree/prog_delta'
-  updated: '2025-03-17T21:40:00Z'
-  version: v0.3.1.3
-  version_title: 0.3.1.3
+  updated: '2025-03-19T23:35:42Z'
+  version: v0.3.1.6
+  version_title: 0.3.1.6
 qr:
   BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-pablomk7-banner-cia.png
 source: https://github.com/xzn/ntr-hr
