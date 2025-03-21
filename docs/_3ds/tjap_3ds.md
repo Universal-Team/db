@@ -10,7 +10,7 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 1456328
+    size: 1457232
     size_str: 1 MiB
     url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.1/TJAP_3DS.3dsx
   TJAP_3DS.cia:
@@ -39,11 +39,11 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <li>一部譜面の開始位置が正しくないのを修正</li>
 
+  <li>譜面分岐が正常に発生しないのを修正</li>
+
   </ul>
 
-  <p dir="auto">多分これが最後のアップデートになります。約8ヶ月間ありがとうございました。<br>
-
-  今後はTouch Keysの開発を進めて行きます。</p>
+  <p dir="auto">多分これが最後のアップデートになります。約8ヶ月間ありがとうございました。</p>
 
   <h2 dir="auto">Change log</h2>
 
@@ -51,13 +51,13 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <li>Correction of The notes are awkward that occurs during play.</li>
 
-  <li>Fixed some charts starting at the wrong position</li>
+  <li>Fixed some charts starting at the wrong position.</li>
+
+  <li>Fixed chart branching not working properly.</li>
 
   </ul>
 
-  <p dir="auto">This will probably be the last update. Thank you for about 8 months.<br>
-
-  From now on, we will continue to develop Touch Keys.</p>'
+  <p dir="auto">This will probably be the last update. Thank you for about 8 months.</p>'
 updated: '2025-03-07T00:08:59Z'
 version: v1.5.1
 version_title: 【Last Update】TJAPlayer for 3DS v1.5.1
