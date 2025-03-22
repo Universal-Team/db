@@ -32,7 +32,7 @@ screenshots:
 - description: Gameplay 4
   url: https://db.universal-team.net/assets/images/screenshots/super-haxagon/gameplay-4.png
 source: https://github.com/RedTopper/Super-Haxagon
-stars: 133
+stars: 134
 systems:
 - 3DS
 title: Super-Haxagon
