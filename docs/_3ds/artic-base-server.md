@@ -23,6 +23,8 @@ icon: https://raw.githubusercontent.com/PabloMK7/ArticBaseServer/main/app/resour
 image: https://raw.githubusercontent.com/PabloMK7/ArticBaseServer/main/app/resources/banner.png
 image_length: 34819
 layout: app
+license: mit
+license_name: MIT License
 qr:
   ArticBase.cia: https://db.universal-team.net/assets/images/qr/articbase-cia.png
 source: https://github.com/azahar-emu/ArticBaseServer
