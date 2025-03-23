@@ -1,0 +1,10 @@
+{
+	"github": "lxfly2000/VConV",
+	"title": "VConV",
+	"systems": ["3DS"],
+	"categories": ["app"],
+	"unique_ids": [72327],
+	"image": "https://raw.githubusercontent.com/lxfly2000/VConV/master/vconv3ds/buildcia/banner.png",
+	"icon": "https://raw.githubusercontent.com/lxfly2000/VConV/master/vconv3ds/icon.png",
+	"long_description": "3DS Virtual Controller for ViGEm"
+}
