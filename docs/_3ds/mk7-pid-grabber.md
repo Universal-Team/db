@@ -10,7 +10,7 @@ description: A tool to grab the Principal IDs of any Mario Kart 7 player you enc
 download_page: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases
 downloads:
   mk7-pid-grabber.3gx:
-    size: 1207872
+    size: 1211048
     size_str: 1 MiB
     url: https://github.com/H4x0rSpooky/mk7-pid-grabber/releases/download/1.0.0/mk7-pid-grabber.3gx
 github: H4x0rSpooky/mk7-pid-grabber
@@ -26,15 +26,18 @@ update_notes: '<h2 dir="auto">Latest Changes</h2>
 
   <ul dir="auto">
 
-  <li>Added Live View session logging to the <code class="notranslate">Session Logger</code>
-  (this breaks previously made session logs, delete them)</li>
+  <li>Fixed under the hood issues with the plugin</li>
 
-  <li>Added back <code class="notranslate">Opponent List</code> (PIDs are not spoof
-  tolerant here, be cautious)</li>
+  <li>Added a lot of community adjustments</li>
 
-  <li>Removed beta feature (blocking home menu inside the menu) due to issues (12/01/24)</li>
+  <li>Added a disclaimer to <code class="notranslate">Opponent List</code></li>
 
   </ul>
+
+  <h2 dir="auto"></h2>
+
+  <p dir="auto"><a href="https://github.com/H4x0rSpooky/mk7-pid-grabber/blob/main/README.md">More
+  information about this project</a></p>
 
   <div class="markdown-alert markdown-alert-important" dir="auto"><p class="markdown-alert-title"
   dir="auto"><svg class="octicon octicon-report mr-2" viewBox="0 0 16 16" version="1.1"
@@ -43,18 +46,12 @@ update_notes: '<h2 dir="auto">Latest Changes</h2>
   1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75
   0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25
   0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0
-  1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Important</p><p dir="auto">I might pick this
-  project up again, this sorely depends on the community. However this time make sure
-  to report bugs or to make suggestions (preferably in the Discord) to keep this project
-  alive. Please respect the work put into this.</p>
+  1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Important</p><p dir="auto">This update breaks
+  previously created session log files because of the community add-ons, you should
+  delete them.</p>
 
-  </div>
-
-  <h2 dir="auto"></h2>
-
-  <p dir="auto"><a href="https://github.com/H4x0rSpooky/mk7-pid-grabber/blob/main/README.md">More
-  information about this project</a></p>'
-updated: '2024-11-30T17:22:47Z'
+  </div>'
+updated: '2025-03-22T21:52:42Z'
 version: 1.0.0
-version_title: 12/01/2024
+version_title: 03/22/2025
 ---

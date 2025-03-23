@@ -46,7 +46,7 @@ screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/bootntr/main-menu.png
 source: https://github.com/Nanquitas/BootNTR
-stars: 682
+stars: 683
 systems:
 - 3DS
 title: BootNTR
