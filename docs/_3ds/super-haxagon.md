@@ -18,8 +18,8 @@ icon: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/ico
 image: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/banner.png
 image_length: 114192
 layout: app
-license: mit
-license_name: MIT License
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 screenshots:
 - description: Gameplay 1
   url: https://db.universal-team.net/assets/images/screenshots/super-haxagon/gameplay-1.png
