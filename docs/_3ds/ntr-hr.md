@@ -24,21 +24,19 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/xzn/ntr-hr/releases/tag/v0.3.2.0
+  download_page: https://github.com/xzn/ntr-hr/releases/tag/v0.3.2.1
   downloads:
     BootNTRSelector-PabloMK7-Banner.cia:
       size: 1676224
       size_str: 1 MiB
-      url: https://github.com/xzn/ntr-hr/releases/download/v0.3.2.0/BootNTRSelector-PabloMK7-Banner.cia
+      url: https://github.com/xzn/ntr-hr/releases/download/v0.3.2.1/BootNTRSelector-PabloMK7-Banner.cia
   qr:
     BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/prerelease/bootntrselector-pablomk7-banner-cia.png
   update_notes: '<p dir="auto">Change:</p>
 
-    <p dir="auto">Last adjustment to delta encode (hopefully). Seems to work as well
-    as the other options in the worst case and better otherwise from what I''ve been
-    testing.</p>
+    <p dir="auto">Fix quality would flicker when using delta encode.</p>
 
-    <p dir="auto">Misc fix for overlay stats (last time really).</p>
+    <p dir="auto">Increased minimum bandwidth for congestion control.</p>
 
     <p dir="auto">Source code:</p>
 
@@ -46,24 +44,23 @@ prerelease:
   update_notes_md: 'Change:
 
 
-    Last adjustment to delta encode (hopefully). Seems to work as well as the other
-    options in the worst case and better otherwise from what I''ve been testing.
+    Fix quality would flicker when using delta encode.
 
 
-    Misc fix for overlay stats (last time really).
+    Increased minimum bandwidth for congestion control.
 
 
     Source code:
 
 
     https://github.com/xzn/ntr-hr/tree/prog_delta'
-  updated: '2025-03-21T00:58:09Z'
-  version: v0.3.2.0
-  version_title: 0.3.2.0
+  updated: '2025-03-24T06:12:21Z'
+  version: v0.3.2.1
+  version_title: 0.3.2.1
 qr:
   BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-pablomk7-banner-cia.png
 source: https://github.com/xzn/ntr-hr
-stars: 117
+stars: 118
 systems:
 - 3DS
 title: NTR-HR
