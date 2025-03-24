@@ -37,5 +37,6 @@ unique_ids:
 update_notes: <p dir="auto">新增CIA构建版本</p>
 updated: '2025-03-22T02:48:00Z'
 version: Build-4
+website: https://db.universal-team.net/3ds/vconv
 ---
 3DS Virtual Controller for ViGEm
