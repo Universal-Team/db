@@ -24,19 +24,19 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/xzn/ntr-hr/releases/tag/v0.3.2.1
+  download_page: https://github.com/xzn/ntr-hr/releases/tag/v0.3.2.2
   downloads:
     BootNTRSelector-PabloMK7-Banner.cia:
       size: 1676224
       size_str: 1 MiB
-      url: https://github.com/xzn/ntr-hr/releases/download/v0.3.2.1/BootNTRSelector-PabloMK7-Banner.cia
+      url: https://github.com/xzn/ntr-hr/releases/download/v0.3.2.2/BootNTRSelector-PabloMK7-Banner.cia
   qr:
     BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/prerelease/bootntrselector-pablomk7-banner-cia.png
   update_notes: '<p dir="auto">Change:</p>
 
-    <p dir="auto">Fix quality would flicker when using delta encode.</p>
-
-    <p dir="auto">Increased minimum bandwidth for congestion control.</p>
+    <p dir="auto">Fix wrong frame rate target calculation for delta encode quality
+    auto-adjust. (Frame rate for one screen would be unexpectedly low when the other
+    screen is not changing.)</p>
 
     <p dir="auto">Source code:</p>
 
@@ -44,19 +44,18 @@ prerelease:
   update_notes_md: 'Change:
 
 
-    Fix quality would flicker when using delta encode.
-
-
-    Increased minimum bandwidth for congestion control.
+    Fix wrong frame rate target calculation for delta encode quality auto-adjust.
+    (Frame rate for one screen would be unexpectedly low when the other screen is
+    not changing.)
 
 
     Source code:
 
 
     https://github.com/xzn/ntr-hr/tree/prog_delta'
-  updated: '2025-03-24T06:12:21Z'
-  version: v0.3.2.1
-  version_title: 0.3.2.1
+  updated: '2025-03-24T18:40:38Z'
+  version: v0.3.2.2
+  version_title: 0.3.2.2
 qr:
   BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-pablomk7-banner-cia.png
 source: https://github.com/xzn/ntr-hr
