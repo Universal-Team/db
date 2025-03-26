@@ -4,6 +4,8 @@ autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/10487782?v=4
 categories:
 - utility
+color: '#a8a8a8'
+color_bg: '#808080'
 created: '2016-05-09T16:49:33Z'
 description: Use your 3DS as a gamepad on linux
 download_page: https://github.com/phijor/ctroller/releases
