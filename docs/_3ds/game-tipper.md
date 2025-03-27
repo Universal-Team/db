@@ -20,7 +20,7 @@ image: https://db.universal-team.net/assets/images/icons/game-tipper.png
 image_length: 413
 layout: app
 source: https://github.com/TheHighTide/GameTipper3DS
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: Game Tipper
