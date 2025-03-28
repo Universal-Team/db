@@ -21,6 +21,7 @@ downloads:
 github: Golem642/CtrRGBPAT2
 icon: https://raw.githubusercontent.com/Golem642/CtrRGBPAT2/master/resources/icon.png
 image: https://raw.githubusercontent.com/Golem642/CtrRGBPAT2/master/resources/banner.png
+image_length: 12658
 layout: app
 license: mit
 license_name: MIT License
