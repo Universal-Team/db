@@ -9,10 +9,10 @@ created: '2021-05-18T19:23:58Z'
 description: NDS/3DS fork/port of the uxn/Varvara virtual machine
 download_page: https://github.com/asiekierka/uxnds/releases
 downloads:
-  uxnds052.zip:
-    size: 506695
-    size_str: 494 KiB
-    url: https://github.com/asiekierka/uxnds/releases/download/v0.5.2/uxnds052.zip
+  uxnds053.zip:
+    size: 521512
+    size_str: 509 KiB
+    url: https://github.com/asiekierka/uxnds/releases/download/v0.5.3/uxnds053.zip
 github: asiekierka/uxnds
 icon: https://raw.githubusercontent.com/asiekierka/uxnds/main/misc/uxn48.png
 image: https://raw.githubusercontent.com/asiekierka/uxnds/main/misc/uxn48.png
@@ -28,12 +28,19 @@ systems:
 title: uxnds
 update_notes: '<ul dir="auto">
 
-  <li>[NDS] Updated to BlocksDS 1.3.1.</li>
+  <li>[3DS] Update libctru to 2.4.1.</li>
+
+  <li>[NDS] Update BlocksDS to 1.9.0.</li>
+
+  <li>Synchronize <code class="notranslate">file</code> peripheral implementation
+  with upstream.</li>
+
+  <li>Update bundled Uxn applications.</li>
 
   </ul>'
-updated: '2024-07-26T18:11:33Z'
-version: v0.5.2
-version_title: uxnds 0.5.2
+updated: '2025-03-30T12:09:54Z'
+version: v0.5.3
+version_title: uxnds 0.5.3
 website: https://100r.co/site/uxn.html
 wiki: https://wiki.xxiivv.com/site/uxn.html
 ---
