@@ -822,7 +822,8 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 				notes,
 				app["license"] if "license" in app else "",
 				app["wiki"] if "wiki" in app else "",
-				app["icon_index"] if "icon_index" in app else -1
+				app["icon_index"] if "icon_index" in app else -1,
+				app["color_bg"] if "color_bg" in app else app["color"] if "color" in app else "",
 			)
 
 			# Change "DS" to "NDS" so it can be searched for
