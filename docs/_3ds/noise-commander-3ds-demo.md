@@ -10,38 +10,70 @@ created: '2025-01-06T19:04:39Z'
 description: Beat-making audio sequencer and DJ-tool for the Nintendo 3DS
 download_page: https://github.com/gearmo3ds/noisecommander3dsdemo/releases
 downloads:
-  noisecmdr-v0_0_11-demo.cia:
-    size: 2393024
+  noisecmdr-v0_0_12-demo.cia:
+    size: 2261952
     size_str: 2 MiB
-    url: https://github.com/gearmo3ds/noisecommander3dsdemo/releases/download/0.0.11/noisecmdr-v0_0_11-demo.cia
+    url: https://github.com/gearmo3ds/noisecommander3dsdemo/releases/download/0.0.12/noisecmdr-v0_0_12-demo.cia
 github: gearmo3ds/noisecommander3dsdemo
 icon: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/icon.png
 image: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/banner.png
 image_length: 40664
 layout: app
 qr:
-  noisecmdr-v0_0_11-demo.cia: https://db.universal-team.net/assets/images/qr/noisecmdr-v0_0_11-demo-cia.png
+  noisecmdr-v0_0_12-demo.cia: https://db.universal-team.net/assets/images/qr/noisecmdr-v0_0_12-demo-cia.png
 source: https://github.com/gearmo3ds/noisecommander3dsdemo
 stars: 0
 systems:
 - 3DS
 title: Noise Commander 3DS (Demo)
-update_notes: '<h2 dir="auto">0.0.11</h2>
+update_notes: '<h2 dir="auto">0.0.12</h2>
 
   <h3 dir="auto">Added</h3>
 
   <ul dir="auto">
 
-  <li>Current octave is displayed in right-side status column</li>
+  <li>HTTP upload feature (button): User can drag a file into a served web-page to
+  transfer it to the 3DS console
 
-  <li>B + Y inserts a hard note off value (in contrast A + B changes the note length
-  to current row)</li>
+  <ul dir="auto">
 
-  <li>"Tune to C" button in instrument view - simple zero-crossing method, sometimes
-  off by one note - not perfect</li>
+  <li>zip-files are automatically extracted to /nc/samples after uploading</li>
 
-  <li>Pop-up dialog for downloading demo-samples appears at startup if the samples
-  directory is empty</li>
+  <li>Uploading via Firefox seems much slower than via Chrome</li>
+
+  </ul>
+
+  </li>
+
+  <li>Tracker + pads/piano screen combo, selectable by tapping D-PAD right twice</li>
+
+  <li>Bus FX screen can be access by tapping D-PAD left twice</li>
+
+  <li>New "Instrs" (palette ) mode - allows assigning instrument numbers to pads and
+  record them to the current lane
+
+  <ul dir="auto">
+
+  <li>Different numbers can be assigned by holding the pad and pressing left/right
+  on D-PAD</li>
+
+  <li>Pressing Up on the D-PAD while holding a pad will start a drag session. A copy/swap/clone
+  menu appears when dropping.</li>
+
+  <li>Pressing D-Down while holding a pad will show a menu for overriding certain
+  values:
+
+  <ul dir="auto">
+
+  <li>Pitch, Volume, Slice-number, sample-number and lane number</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  </li>
 
   </ul>
 
@@ -49,17 +81,9 @@ update_notes: '<h2 dir="auto">0.0.11</h2>
 
   <ul dir="auto">
 
-  <li>Changed initial reverb default value from 10 to 0</li>
+  <li>Ther user can no longer insert notes into phrase number zero</li>
 
-  <li>Matrix view displays phrase numbers in hex now and coarse edits offsets by 16</li>
-
-  <li>Renamed "Pattern Settings" screen to "Mono to Stereo Settings" and remove redundant
-  controls</li>
-
-  <li>Hid obsolete Grid-Editor view and replaced "Assign" button with "Randomize all
-  samples" button</li>
-
-  <li>Double tapping A shortcut for row-launching in clip-matrix view</li>
+  <li>Allow sliding touch on piano to trigger different notes (needed to re-tap before)</li>
 
   </ul>
 
@@ -67,26 +91,12 @@ update_notes: '<h2 dir="auto">0.0.11</h2>
 
   <ul dir="auto">
 
-  <li>Shifting single note row with A+DPAD UP/DOWN does not work without selection
-  sometimes</li>
-
-  <li>Row lengths don''t update when inserting or removing row in matrix view</li>
-
-  <li>Bus-numbers display range started at zero, now starts a one</li>
-
-  <li>Notes are still played when erasing notes with L + Pad</li>
-
-  <li>Clearing a pattern un-assigns samples from instruments</li>
-
-  <li>Avoid handing reserved sample, pattern or instrument with zero index to the
-  user (adjusted related functions in code)</li>
-
-  <li>Wrong tempo value shown in tempo-dialog</li>
+  <li>Muting via B+Pad does not stop sample like PAD + Dpad-UP does</li>
 
   </ul>'
-updated: '2025-02-01T11:09:49Z'
-version: 0.0.11
-version_title: 0.0.11
+updated: '2025-03-30T18:45:59Z'
+version: 0.0.12
+version_title: Added browser-upload feature
 website: https://www.patreon.com/NoiseCommander3DS
 ---
 Beat-making audio sequencer and DJ-tool
