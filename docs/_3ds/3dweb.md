@@ -27,7 +27,7 @@ license_name: MIT License
 qr:
   3DWEB.cia: https://db.universal-team.net/assets/images/qr/3dweb-cia.png
 source: https://github.com/WLHQ/3DWEB
-stars: 6
+stars: 7
 systems:
 - 3DS
 title: 3DWEB

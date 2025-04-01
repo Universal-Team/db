@@ -26,8 +26,11 @@ systems:
 - DS
 title: hiyaCFW
 unistore_exclude: true
-update_notes: '<p dir="auto">To update, run <a href="https://github.com/R-YaTian/TWLMagician/releases">TWLMagician</a>,
-  which will fix the free space bug.</p>
+update_notes: '<p dir="auto"><del>To update, run <a href="https://github.com/R-YaTian/TWLMagician/releases">TWLMagician</a>,
+  which will fix the free space bug.</del><br>
+
+  TWLMagician is no longer available, making this hiyaCFW version unusable on SD cards
+  larger than 2GB.</p>
 
   <p dir="auto">All changes by <a class="user-mention notranslate" data-hovercard-type="user"
   data-hovercard-url="/users/R-YaTian/hovercard" data-octo-click="hovercard-link-click"
