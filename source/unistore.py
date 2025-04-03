@@ -34,6 +34,8 @@ class StoreEntry:
 		(optional) URL to the entry's wiki
 	iconIndex
 		(optional) The entry's icon's index in the spritesheet
+	color
+		(optional) Accent color for the entry (in the format `#RRGGBB`)
 	"""
 
 	@staticmethod
@@ -42,7 +44,7 @@ class StoreEntry:
 
 		return "".join([c for c in string if ord(c) < 0xFFFF]).strip()
 
-	def __init__(self, title: str, author: str, description: str, version: str, lastUpdated: str = "", categories: list = [], consoles: list = [], screenshots: list = [], releaseNotes: str = "", license: str = "", wiki: str = "", iconIndex: int = -1):
+	def __init__(self, title: str, author: str, description: str, version: str, lastUpdated: str = "", categories: list = [], consoles: list = [], screenshots: list = [], releaseNotes: str = "", license: str = "", wiki: str = "", iconIndex: int = -1, color: str = ""):
 		self._entry = {
 			"info": {
 				"title": self._bmpOnly(title),
@@ -59,6 +61,8 @@ class StoreEntry:
 				"icon_index": iconIndex,
 			}
 		}
+		if color:
+			self._entry["info"]["color"] = color
 
 	def addScript(self, scriptName: str, script: list):
 		"""Adds the given script"""
