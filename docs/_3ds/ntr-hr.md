@@ -67,7 +67,7 @@ prerelease:
 qr:
   BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-pablomk7-banner-cia.png
 source: https://github.com/xzn/ntr-hr
-stars: 122
+stars: 123
 systems:
 - 3DS
 title: NTR-HR
