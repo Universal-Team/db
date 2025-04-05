@@ -31,7 +31,7 @@ screenshots:
 - description: Paint3ds
   url: https://db.universal-team.net/assets/images/screenshots/paint3ds/paint3ds.png
 source: https://github.com/BlyZeDev/Paint3DS
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: Paint3DS
