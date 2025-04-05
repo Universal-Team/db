@@ -20,7 +20,7 @@ image: https://db.universal-team.net/assets/images/images/temperpce.png
 image_length: 3236
 layout: app
 source: https://github.com/bubble2k16/temperpce_3ds
-stars: 34
+stars: 35
 systems:
 - 3DS
 title: TemperPCE
