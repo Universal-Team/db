@@ -40,7 +40,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/ddlc-love/title-screen.png
 source: https://github.com/LukeZGD/DDLC-LOVE
-stars: 274
+stars: 276
 systems:
 - 3DS
 title: DDLC-LOVE
