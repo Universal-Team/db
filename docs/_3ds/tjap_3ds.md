@@ -10,11 +10,11 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 1480124
+    size: 1074048
     size_str: 1 MiB
     url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.2/TJAP_3DS.3dsx
   TJAP_3DS.cia:
-    size: 1799104
+    size: 1393600
     size_str: 1 MiB
     url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.2/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
@@ -41,7 +41,7 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <li>譜面分岐が正常に発生しないのを修正</li>
 
-  <li>メカドンのコンボボイスを3DS3の物に変更</li>
+  <li>コンボボイスを3DS3の物に変更</li>
 
   <li>譜面分岐の条件に「コンボ数」を追加しました</li>
 
@@ -64,7 +64,7 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <li>Fixed chart branching not working properly.</li>
 
-  <li>Mechadon combo voice has been changed to that of 3DS3 (Dokodon! Mystery Adventure).</li>
+  <li>combo voice has been changed to that of 3DS3 (Dokodon! Mystery Adventure).</li>
 
   <li>"Combo count" has been added to the conditions for branching charts.</li>
 
