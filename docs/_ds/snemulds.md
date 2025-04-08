@@ -1,6 +1,6 @@
 ---
 author: Coto
-avatar: https://bytebucket.org/ravatar/%7B6924cb68-5d67-444a-a361-7bc4ea44b126%7D?ts=default
+avatar: https://bytebucket.org/ravatar/%7B40a07eb7-8cea-409a-aec2-036e9f20fcd5%7D?ts=default
 bitbucket:
   branch: master
   repo: Coto88/snemulds
@@ -8,7 +8,7 @@ categories:
 - emulator
 color: '#848383'
 color_bg: '#807f7f'
-created: '2022-10-12T21:37:56.185871+00:00'
+created: '2025-04-08T14:53:40.898934+00:00'
 description: SnemulDS 0.6 [Revival]
 icon: https://db.universal-team.net/assets/images/icons/snemulds.png
 image: https://db.universal-team.net/assets/images/images/snemulds.png
