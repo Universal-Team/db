@@ -24,22 +24,17 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/xzn/ntr-hr/releases/tag/v0.3.3.0
+  download_page: https://github.com/xzn/ntr-hr/releases/tag/v0.3.3.1
   downloads:
     BootNTRSelector-PabloMK7-Banner.cia:
       size: 1684416
       size_str: 1 MiB
-      url: https://github.com/xzn/ntr-hr/releases/download/v0.3.3.0/BootNTRSelector-PabloMK7-Banner.cia
+      url: https://github.com/xzn/ntr-hr/releases/download/v0.3.3.1/BootNTRSelector-PabloMK7-Banner.cia
   qr:
     BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/prerelease/bootntrselector-pablomk7-banner-cia.png
   update_notes: '<p dir="auto">Change:</p>
 
-    <p dir="auto">Add CPU clock and cache options to the NTR-HR menu.</p>
-
-    <p dir="auto">Fix encoded images would contain error and fail to be decoded under
-    certain options combinations.</p>
-
-    <p dir="auto">Slightly improved delta encode.</p>
+    <p dir="auto">Small optimizations.</p>
 
     <p dir="auto">Source code:</p>
 
@@ -47,23 +42,16 @@ prerelease:
   update_notes_md: 'Change:
 
 
-    Add CPU clock and cache options to the NTR-HR menu.
-
-
-    Fix encoded images would contain error and fail to be decoded under certain options
-    combinations.
-
-
-    Slightly improved delta encode.
+    Small optimizations.
 
 
     Source code:
 
 
     https://github.com/xzn/ntr-hr/tree/prog_delta'
-  updated: '2025-03-29T22:38:57Z'
-  version: v0.3.3.0
-  version_title: 0.3.3.0
+  updated: '2025-04-09T13:10:43Z'
+  version: v0.3.3.1
+  version_title: 0.3.3.1
 qr:
   BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-pablomk7-banner-cia.png
 source: https://github.com/xzn/ntr-hr
