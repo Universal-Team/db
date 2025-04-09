@@ -25,8 +25,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto"><strong>UPDATE 3/11/2025:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.4.2">nds-bootstrap
-  v2.4.2</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.4.4">nds-bootstrap
+  v2.4.4</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -53,40 +53,18 @@ update_notes: '<p dir="auto"><strong>UPDATE 3/11/2025:</strong> Includes <a href
 
   </ul>
 
-  <h3 dir="auto">What''s new?</h3>
+  <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>Added a <code class="notranslate">.ini</code>-only setting to change the save
-  location of ROMs. Open <code class="notranslate">sd:/_nds/ntr_forwarder.ini</code>,
-  and add one of these lines under <code class="notranslate">[NTR-FORWARDER]</code>:
+  <li>Tried to fix the per-game settings menu not opening for some users when holding
+  the <code class="notranslate">Y</code> button.</li>
 
-  <ul dir="auto">
-
-  <li><code class="notranslate">SAVE_LOCATION = 0</code> to put saves in the <code
-  class="notranslate">saves</code> folder in the same place as the <code class="notranslate">.nds</code>
-  file</li>
-
-  <li><code class="notranslate">SAVE_LOCATION = 1</code> to put saves in the exact
-  same place as the <code class="notranslate">.nds</code> file.</li>
-
-  <li><code class="notranslate">SAVE_LOCATION = 2</code> to put saves in <code class="notranslate">sd:/_nds/TWiLightMenu/saves/</code>.
-  Will fallback to <code class="notranslate">0</code> if TWLMenu++ is not installed.</li>
-
-  </ul>
-
-  </li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fix</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed DSiWare titles not working with the save number feature.</li>
+  <li>Tried to fix the SD card not initing and displaying the <code class="notranslate">fatInitDefault
+  failed!</code> message appearing sometimes.</li>
 
   </ul>'
-updated: '2024-12-25T08:59:26Z'
-version: SD-20
-version_title: 'GitHub Release #20'
+updated: '2025-04-09T01:35:06Z'
+version: SD-21
+version_title: 'GitHub Release #21'
 ---

@@ -34,4 +34,5 @@ update_notes: '<p dir="auto">Gravity Game for DS</p>
 updated: '2021-10-31T06:17:43Z'
 version: v1.0.0.0
 version_title: Gravity 1.0.0.0
+wiki: https://github.com/Garhoogin/Gravity/wiki
 ---

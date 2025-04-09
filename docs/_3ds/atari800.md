@@ -46,4 +46,5 @@ updated: '2024-01-20T07:15:34Z'
 version: port-3ds/v0.3.10
 version_title: atari800-3ds 0.3.10
 website: https://atari800.github.io/
+wiki: https://github.com/asiekierka/atari800-3ds/wiki
 ---

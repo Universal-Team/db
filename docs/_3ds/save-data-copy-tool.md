@@ -32,4 +32,5 @@ update_notes: '<p dir="auto">This is the initial release.</p>
 updated: '2022-03-24T10:30:04Z'
 version: v0.1.0
 version_title: v0.1.0
+wiki: https://github.com/ihaveamac/save-data-copy-tool/wiki
 ---

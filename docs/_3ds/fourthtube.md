@@ -83,4 +83,5 @@ update_notes: '<p dir="auto">I''m usually not the one responsible for pushing re
 updated: '2025-02-03T01:45:26Z'
 version: b31
 version_title: Beta - 31
+wiki: https://github.com/erievs/FourthTube/wiki
 ---
