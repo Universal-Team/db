@@ -11,13 +11,13 @@ description: Another work-in-progress fork of the homebrew YouTube client for th
 download_page: https://github.com/erievs/FourthTube/releases
 downloads:
   FourthTube.3dsx:
-    size: 6146512
+    size: 6154008
     size_str: 5 MiB
-    url: https://github.com/erievs/FourthTube/releases/download/b31/FourthTube.3dsx
+    url: https://github.com/erievs/FourthTube/releases/download/b32/FourthTube.3dsx
   FourthTube.cia:
-    size: 4559808
+    size: 4572096
     size_str: 4 MiB
-    url: https://github.com/erievs/FourthTube/releases/download/b31/FourthTube.cia
+    url: https://github.com/erievs/FourthTube/releases/download/b32/FourthTube.cia
 github: erievs/FourthTube
 icon: https://raw.githubusercontent.com/erievs/FourthTube/main/resource/icon.png
 image: https://raw.githubusercontent.com/erievs/FourthTube/main/resource/banner.png
@@ -27,15 +27,15 @@ license_name: GNU General Public License v3.0
 qr:
   FourthTube.cia: https://db.universal-team.net/assets/images/qr/fourthtube-cia.png
 source: https://github.com/erievs/FourthTube
-stars: 101
+stars: 102
 systems:
 - 3DS
 title: FourthTube
 unique_ids:
 - '0xBF74D'
-update_notes: '<p dir="auto">I''m usually not the one responsible for pushing releases
-  out, but YouTube decided to change things yet again, so we had to rush out a new
-  release.</p>
+update_notes: '<p dir="auto">This is a stopgap release to address concerns with the
+  inactivity of this project, along with getting the QR code and the .cia in our repo
+  synced up.</p>
 
   <p dir="auto"><strong>Changelog</strong></p>
 
@@ -43,18 +43,17 @@ update_notes: '<p dir="auto">I''m usually not the one responsible for pushing re
 
   <ul dir="auto">
 
-  <li>Rewrote community posts workaround to take advantage of Google''s parameters
-  (images load much faster and take up less memory, at the cost of a small drop in
-  quality)</li>
+  <li>Added an Italian translation (with help from Dxni)</li>
 
-  <li>Added code to wait up to 20 seconds for the 3DS to connect to Wi-Fi at launch
-  (avoids some race conditions)</li>
+  <li>Updated stb_image</li>
 
-  <li>Added visionOS app/spoof data</li>
+  <li>Fixed some annoying spelling errors in the English translation</li>
 
-  <li>Upgraded nghttp2 to version 1.64.0</li>
+  <li>Lowered the minimum speed limit for videos to 0.25 (to match YouTube)</li>
 
-  <li>Some more QoL internal improvements to enhance the developer''s experience™️</li>
+  <li>Improved the German translation (with help from Dragontwo14)</li>
+
+  <li>Refactored time unit handling in the New tab</li>
 
   </ul>
 
@@ -62,25 +61,17 @@ update_notes: '<p dir="auto">I''m usually not the one responsible for pushing re
 
   <ul dir="auto">
 
-  <li>Added code to fetch visitorData from YouTube''s servers directly (fixes the
-  infamous gray Play button again)</li>
+  <li>Fixed up the changelog feature</li>
 
-  <li>Added the ability to see the latest changelog in the Update tab</li>
+  <li>Fixed occasional performance issues when streaming &gt;240p on clients other
+  than iOS</li>
 
-  <li>Fixed subscriber count in the Subscribed tab</li>
+  <li>Fixed the banner spin</li>
 
-  <li>Search fixes</li>
-
-  </ul>
-
-  <p dir="auto"><strong>cooolgamer</strong></p>
-
-  <ul dir="auto">
-
-  <li>Created a custom boot screen</li>
+  <li>Other misc fixes</li>
 
   </ul>'
-updated: '2025-02-03T01:45:26Z'
-version: b31
-version_title: Beta - 31
+updated: '2025-04-11T22:27:05Z'
+version: b32
+version_title: Beta - 32
 ---
