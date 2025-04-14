@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 1027140
+    size: 1027325
     size_str: 1003 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.4.4/nds-bootstrap.7z
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.4.5/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1493087
+    size: 1492952
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.4.4/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.4.5/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -46,32 +46,27 @@ update_notes: '<p dir="auto">Instructions:</p>
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DeadSkullzJr/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DeadSkullzJr">@DeadSkullzJr</a>:
-  Added AP-fix for <em>Pokémon: SoothingSilver Version</em> v1.4.1.</li>
+  Added AP-fix for <em>Pokémon: SoothingSilver Version</em> v1.4.2.</li>
 
-  <li>Added AP-fix for <em>Pokémon Blanco</em> (Español Latino translation).
+  <li>Added AP-fix for <em>Pokémon: Refined Gold Coarse/Overhaul</em> v4.1.1.
 
   <ul dir="auto">
 
   <li>Patch required from <a href="https://github.com/DS-Homebrew/nds-bootstrap-extras">nds-bootstrap-extras</a>,
-  and must be applied to a clean non-translated ROM.</li>
+  and must be applied to the unhacked ROM. (<strong>NOTE:</strong> The patch file
+  marked with <code class="notranslate">[b]</code> is for ROMs dumped using old tools.)</li>
 
   </ul>
 
   </li>
 
-  </ul>
-
-  <h3 dir="auto">Bug fix</h3>
-
-  <ul dir="auto">
-
-  <li><strong>DSi:</strong> Fixed <em>Plants vs. Zombies</em> (DS version) crashing
-  with a data abort error when trying to use DS Download Play.</li>
+  <li>The AP-fix for <em>Grand Theft Auto: Chinatown Wars</em> is now applied to any
+  ROM of said game, regardless if clean or modified.</li>
 
   </ul>'
-updated: '2025-04-09T01:16:06Z'
-version: v2.4.4
-version_title: v2.4.4
+updated: '2025-04-14T20:10:31Z'
+version: v2.4.5
+version_title: v2.4.5
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
