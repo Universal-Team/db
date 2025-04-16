@@ -20,7 +20,6 @@ downloads:
 github: Fewnity/Counter-Strike-Nintendo-DS
 icon: https://db.universal-team.net/assets/images/icons/counter-strike-nintendo-ds.png
 image: https://db.universal-team.net/assets/images/icons/counter-strike-nintendo-ds.png
-image_length: 630
 layout: app
 source: https://github.com/Fewnity/Counter-Strike-Nintendo-DS
 stars: 223
