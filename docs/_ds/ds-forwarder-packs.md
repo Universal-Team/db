@@ -25,7 +25,7 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto"><strong>UPDATE 4/14/2025:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.4.5">nds-bootstrap
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.4.5">nds-bootstrap
   v2.4.5</a></p>
 
   <p dir="auto">To install or update:</p>
@@ -55,16 +55,18 @@ update_notes: '<p dir="auto"><strong>UPDATE 4/14/2025:</strong> Includes <a href
 
   <h3 dir="auto">Bug fixes</h3>
 
+  <p dir="auto">These bugs are now finally fixed after plenty of testing this time!</p>
+
   <ul dir="auto">
 
-  <li>Tried to fix the per-game settings menu not opening for some users when holding
-  the <code class="notranslate">Y</code> button.</li>
+  <li>Fixed the per-game settings menu not opening for some users when holding the
+  <code class="notranslate">Y</code> button.</li>
 
-  <li>Tried to fix the SD card not initing and displaying the <code class="notranslate">fatInitDefault
+  <li>Fixed the SD card not initing and displaying the <code class="notranslate">fatInitDefault
   failed!</code> message appearing sometimes.</li>
 
   </ul>'
-updated: '2025-04-09T01:35:06Z'
-version: SD-21
-version_title: 'GitHub Release #21'
+updated: '2025-04-17T15:39:13Z'
+version: SD-22
+version_title: 'GitHub Release #22'
 ---
