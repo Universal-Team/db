@@ -1,0 +1,14 @@
+{
+	"github": "BernardoGiordano/Checkpoint",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		774143
+	],
+	"image": "https://raw.githubusercontent.com/BernardoGiordano/Checkpoint/master/3ds/assets/banner.png",
+	"icon": "https://raw.githubusercontent.com/BernardoGiordano/Checkpoint/master/3ds/assets/icon.png"
+}
