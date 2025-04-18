@@ -9,10 +9,30 @@ created: '2016-06-11T03:45:12Z'
 description: A Super Hexagon Clone
 download_page: https://github.com/RedTopper/Super-Haxagon/releases
 downloads:
-  lib.tar.gz:
-    size: 12124511
-    size_str: 11 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/miyoo-libs/lib.tar.gz
+  SuperHaxagon-LinuxSFML-arm64-no-romfs.zip:
+    size: 567903
+    size_str: 554 KiB
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.0/SuperHaxagon-LinuxSFML-arm64-no-romfs.zip
+  SuperHaxagon-Nspire-armel.zip:
+    size: 467673
+    size_str: 456 KiB
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.0/SuperHaxagon-Nspire-armel.zip
+  SuperHaxagon-PortMaster-arm64.zip:
+    size: 20792304
+    size_str: 19 MiB
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.0/SuperHaxagon-PortMaster-arm64.zip
+  SuperHaxagon-Switch-arm64.zip:
+    size: 24403483
+    size_str: 23 MiB
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.0/SuperHaxagon-Switch-arm64.zip
+  SuperHaxagon-macOS-arm64.app.tar.zip:
+    size: 23731892
+    size_str: 22 MiB
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.0/SuperHaxagon-macOS-arm64.app.tar.zip
+  romfs.zip:
+    size: 20492653
+    size_str: 19 MiB
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.0/romfs.zip
 github: RedTopper/Super-Haxagon
 icon: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/icon-3ds.png
 image: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/banner.png
@@ -32,17 +52,136 @@ screenshots:
 - description: Gameplay 4
   url: https://db.universal-team.net/assets/images/screenshots/super-haxagon/gameplay-4.png
 source: https://github.com/RedTopper/Super-Haxagon
-stars: 135
+stars: 136
 systems:
 - 3DS
 title: Super-Haxagon
 unique_ids:
 - '0x99AA'
-update_notes: <p dir="auto">This release simply hosts the lib.tar.gz binary blob that's
-  used to build the Miyoo Mini version, which gets fetched automatically in the Containerfile.
-  This avoids the need to download the Miyoo libs if you are not building for that
-  platform.</p>
-updated: '2025-03-15T14:21:17Z'
-version: miyoo-libs
-version_title: Miyoo Mini Libs
+update_notes: '<h1 dir="auto">GitHub Actions Edition</h1>
+
+  <p dir="auto">GitHub Actions is now the primary way to build and release SuperHaxagon!</p>
+
+  <p dir="auto">(This may break automated releases! Sorry about that!)</p>
+
+  <p dir="auto">This release finishes out the last few non-major features. As such,
+  this is likely the last non-patch release in the 3.x.x series.</p>
+
+  <h2 dir="auto">Changelog</h2>
+
+  <p dir="auto">New features:</p>
+
+  <ul dir="auto">
+
+  <li>macos: new platform!
+
+  <ul dir="auto">
+
+  <li>GitHub Actions will now build a macOS (M1) bundle automatically for new PRs
+  going forward!</li>
+
+  <li>Intel-based macOS devices should still build, but there is no automated builds
+  at this time.</li>
+
+  <li>Thanks <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/adc-ax/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/adc-ax">@adc-ax</a>
+  for helping out with macOS bugs!</li>
+
+  <li>(macOS support was previously added by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/mathieudel/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/mathieudel">@mathieudel</a>,
+  but unfortunately I did not maintain it.)</li>
+
+  </ul>
+
+  </li>
+
+  <li>steamdeck: new platform!
+
+  <ul dir="auto">
+
+  <li>The SDL2 flatpak build will auto-detect SteamDeck and enter fullscreen.</li>
+
+  <li>Switched to SDL2 for controller support in flatpak.</li>
+
+  <li>Tested on hardware!</li>
+
+  <li>(Technically you could install the flatpak on SteamDeck, but the experience
+  wasn''t very good.)</li>
+
+  </ul>
+
+  </li>
+
+  <li>all: License change to GPLv3 (or later) for the core game.
+
+  <ul dir="auto">
+
+  <li>Drivers are dual licensed under GPLv3-or-later OR MIT.</li>
+
+  <li>All downloads now include a copy of the license AND licenses for all dependencies.</li>
+
+  </ul>
+
+  </li>
+
+  <li>all: Levels no longer speed up during "level ups"
+
+  <ul dir="auto">
+
+  <li>Instead, one big speedup happens at 60 seconds.</li>
+
+  <li>Thanks <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/zaphod77/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/zaphod77">@zaphod77</a>
+  (Fixes <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+  data-id="2889932849" data-permission-text="Title is private" data-url="https://github.com/RedTopper/Super-Haxagon/issues/34"
+  data-hovercard-type="issue" data-hovercard-url="/RedTopper/Super-Haxagon/issues/34/hovercard"
+  href="https://github.com/RedTopper/Super-Haxagon/issues/34">#34</a>)</li>
+
+  </ul>
+
+  </li>
+
+  <li>all: LAST Major driver refactor, ALL platform specific files are now located
+  in <code class="notranslate">driver</code></li>
+
+  <li>all: All platforms now build with GitHub actions!</li>
+
+  </ul>
+
+  <h2 dir="auto">Install</h2>
+
+  <p dir="auto">Please see the <a href="https://github.com/RedTopper/Super-Haxagon/blob/master/INSTALL.md">INSTALL.md</a>
+  to install SuperHaxagon for your platform.</p>
+
+  <h2 dir="auto">Tested Platforms</h2>
+
+  <ul dir="auto">
+
+  <li>3DS (Lime3DS 2119.1)</li>
+
+  <li>3DS (Physical o3DSXL 11.15.0-47U)</li>
+
+  <li>LinuxSDL2 (Fedora 41)</li>
+
+  <li>LinuxSFML (Fedora 41)</li>
+
+  <li>MiyooMini Plus (OnionOS 4.3.1-1)</li>
+
+  <li>TI Nspire (4.5.3.14)</li>
+
+  <li>PortMaster (Knulli 2024/12/04)</li>
+
+  <li>Switch (Physical 11.0.1)</li>
+
+  <li>Switch (Yuzu 1734)</li>
+
+  <li>SteamDeck (SteamOS 3.6.24)</li>
+
+  <li>Windows 11 (QEMU VM)</li>
+
+  </ul>'
+updated: '2025-04-18T03:32:37Z'
+version: 3.9.0
+version_title: SuperHaxagon v3.9.0
 ---
