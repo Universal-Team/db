@@ -9,6 +9,19 @@
 	"unique_ids": [
 		39338
 	],
+	"long_description": "SuperHaxagon, like the original game Super Hexagon by Terry Cavanagh, has only one goal. Survive as long as possible by avoiding the falling walls in a trippy, spinny frenzy!",
 	"image": "https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/banner.png",
-	"icon": "https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/icon-3ds.png"
+	"icon": "https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/icon-3ds.png",
+	"archive": {
+		"SuperHaxagon-3DS-armhf.3dsx.zip": {
+			"SuperHaxagon.3dsx": [
+				"SuperHaxagon.3dsx"
+			]
+		},
+		"SuperHaxagon-3DS-armhf.cia.zip": {
+			"SuperHaxagon.cia": [
+				"SuperHaxagon.cia"
+			]
+		}
+	}
 }
