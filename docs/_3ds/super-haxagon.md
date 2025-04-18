@@ -185,3 +185,4 @@ updated: '2025-04-18T03:32:37Z'
 version: 3.9.0
 version_title: SuperHaxagon v3.9.0
 ---
+SuperHaxagon, like the original game Super Hexagon by Terry Cavanagh, has only one goal. Survive as long as possible by avoiding the falling walls in a trippy, spinny frenzy!
