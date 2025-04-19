@@ -1,0 +1,5 @@
+FROM ruby:3.3
+
+WORKDIR /app/docs
+COPY /docs/Gemfile* .
+RUN gem install bundler jekyll && bundle install

@@ -1,0 +1,35 @@
+# How to use this file:
+
+# Step 1: Token
+#   If you plan on compiling the full database, you'll need a GH access token
+#   Copy the .env.example to .env and fill out TOKEN= with your own.
+#   (You can alternatively delete the .json files that are not yours in source/apps)
+# Step 2: Generate the DB
+#   Run `docker compose up --build db
+# Step 3: Run the server
+#   Run `docker compose up --build server
+
+services:
+  db:
+    build:
+      dockerfile: docker/Dockerfile
+      context: ../
+    image: docker.io/universalteam/db
+    container_name: universal-db
+    hostname: universal-db
+    command: python3 source/generate.py source/apps docs --priority
+    environment:
+      TOKEN: ${TOKEN}
+    volumes:
+      - ../:/app:z
+  server:
+    build:
+      dockerfile: docker/Dockerfile.server
+      context: ../
+    container_name: server
+    hostname: server
+    command: bundle exec jekyll serve --host 0.0.0.0
+    volumes:
+      - ../:/app:z
+    ports:
+      - "4000:4000"
