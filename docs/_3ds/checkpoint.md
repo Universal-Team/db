@@ -10,13 +10,13 @@ description: Fast and simple homebrew save manager for 3DS and Switch.
 download_page: https://github.com/BernardoGiordano/Checkpoint/releases
 downloads:
   Checkpoint.3dsx:
-    size: 1444356
+    size: 1444892
     size_str: 1 MiB
-    url: https://github.com/BernardoGiordano/Checkpoint/releases/download/v3.9.0/Checkpoint.3dsx
+    url: https://github.com/BernardoGiordano/Checkpoint/releases/download/v3.10.0/Checkpoint.3dsx
   Checkpoint.cia:
-    size: 1024960
-    size_str: 1000 KiB
-    url: https://github.com/BernardoGiordano/Checkpoint/releases/download/v3.9.0/Checkpoint.cia
+    size: 1020864
+    size_str: 996 KiB
+    url: https://github.com/BernardoGiordano/Checkpoint/releases/download/v3.10.0/Checkpoint.cia
 github: BernardoGiordano/Checkpoint
 icon: https://raw.githubusercontent.com/BernardoGiordano/Checkpoint/master/3ds/assets/icon.png
 image: https://raw.githubusercontent.com/BernardoGiordano/Checkpoint/master/3ds/assets/banner.png
@@ -33,63 +33,32 @@ systems:
 title: Checkpoint
 unique_ids:
 - '0xBCFFF'
-update_notes: '<p dir="auto">This release mostly  contains changes and patches related
-  to the infamous 3.8.x startup crash issue affecting the 3DS version of the software.
-  General improvements have been added to the Switch version as well.</p>
+update_notes: '<p dir="auto">This release focuses on adding performance improvements
+  to the 3DS version of the software.</p>
 
   <h2 dir="auto">What''s new</h2>
 
   <ul dir="auto">
 
-  <li><strong>Fixed: the startup crash issue affecting all version since 3.8.0 has
-  been identified and patched.</strong>
+  <li><strong>Fixed: startup time has been drastically improved: ~50% speedup on uncached
+  boot, ~90% speedup on cached boot.</strong>
 
   <ul dir="auto">
 
-  <li>Huge shoutout to achinech on Discord who volunteered to debug the issue on their
-  console.</li>
+  <li>This has been achieved by profiling the application boot process, and realizing
+  that title cache persistence on the SD card took majority of the loading time. Now
+  this operation is lazily done in a separate thread. It''s funny to realize that
+  a badly implemented optimization can become a bottleneck of its own, so take my
+  mistake as a lesson.</li>
 
-  <li>If you still encounter startup crash issues, please notify the team immediately
-  on <a href="https://discord.gg/bGKEyfY" rel="nofollow">Discord</a> and on GitHub
-  issues.</li>
-
-  </ul>
-
-  </li>
-
-  <li><strong>Fixed: cartridge scanning has been refactored to be way more efficient.</strong>
+  <li>Here''s the improvements I had on my console (improvements may vary since they
+  depend on how many games you have on your console):
 
   <ul dir="auto">
 
-  <li>Previously, the software used to poll the cartridge synchronously for every
-  frame of the UI thread. Cartridge scanning is now happening on a separate thread
-  which only runs twice per second.</li>
+  <li>Uncached startup went down from 9.8s to 5.7s</li>
 
-  </ul>
-
-  </li>
-
-  <li>Added: a more advanced threading framework ported from PKSM.</li>
-
-  <li>Added: networking support and an integrated HTTP server. This is currently used
-  to provide real-time online access to the application logs, but this code will be
-  useful for future features like self-updating.</li>
-
-  <li>Added: more robust logging ported from PKSM. Logs are stored in the <code class="notranslate">/3ds/Checkpoint/logs</code>
-  folder and are split by date.
-
-  <ul dir="auto">
-
-  <li>Logs are also accessible at runtime through the integrated HTTP server at the
-  following addresses:
-
-  <ul dir="auto">
-
-  <li><code class="notranslate">http://3ds-ip-address:8000/logs/memory</code> for
-  the logs of Checkpoint''s current run</li>
-
-  <li><code class="notranslate">http://3ds-ip-address:8000/logs/file</code> for all
-  the logs for the current date</li>
+  <li>Cached startup went down from 5.7s to 0.6s</li>
 
   </ul>
 
@@ -99,28 +68,21 @@ update_notes: '<p dir="auto">This release mostly  contains changes and patches r
 
   </li>
 
-  <li>Added: compiler optimizations are back. This includes link-time optimization
-  and an upgrade from <code class="notranslate">O2</code> to <code class="notranslate">O3</code>
-  compared to v.3.7.4.</li>
+  <li><strong>Added: due to requests from multiple users, Checkpoint can now be updated
+  from Universal Updater.</strong></li>
 
-  <li>Fixed: better configuration file handling ported from PKSM.</li>
+  <li>Fixed: cartridge loading now runs immediately rather than waiting for the title
+  cache to be persisted on the SD card.</li>
 
-  <li>Fixed: better thread synchronization between UI thread and title loading thread.</li>
+  <li>Fixed: properly quit the application gracefully when an handled exception occurs.</li>
 
-  <li>Fixed: wrap the entire program into try-catch blocks to prevent crashes caused
-  by other unhandled exceptions in the future.</li>
+  <li>Fixed: initial code refactoring.</li>
 
-  <li>Fixed: few graphics improvements.</li>
-
-  <li>Fixed: readme has been updated with latest screenshots.</li>
+  <li>Removed: some redundant logs in the title loader.</li>
 
   <li>General system stability improvements to enhance the user''s experience.</li>
 
   </ul>
-
-  <p dir="auto">The source code has started to become a little bit messy, but this
-  patch needed to be released as soon as possible. Future improvements to the software
-  will surely focus on code and program cleanup and performance improvements.</p>
 
   <p dir="auto">Thank you for your patience and support.</p>
 
@@ -134,8 +96,8 @@ update_notes: '<p dir="auto">This release mostly  contains changes and patches r
 
   <p dir="auto"><a href="https://discord.gg/bGKEyfY" rel="nofollow"><img src="https://camo.githubusercontent.com/4fd6621149dd39281a0da7c2c9d80ad1408edca0c82a0153a1d7df9ea37c7e11/68747470733a2f2f646973636f72646170702e636f6d2f6170692f6775696c64732f3237383232323833343633333830313732382f7769646765742e706e673f7374796c653d62616e6e6572332674696d652d"
   alt="Discord" data-canonical-src="https://discordapp.com/api/guilds/278222834633801728/widget.png?style=banner3&amp;time-"
-  style="max-width: 100%;"></a>](<a href="https://github.com/BernardoGiordano/Checkpoint/releases/download/v3.9.0/Checkpoint.cia">https://github.com/BernardoGiordano/Checkpoint/releases/download/v3.9.0/Checkpoint.cia</a>)</p>'
-updated: '2025-04-13T16:10:29Z'
-version: v3.9.0
-version_title: Checkpoint 3.9.0
+  style="max-width: 100%;"></a></p>'
+updated: '2025-04-19T08:50:26Z'
+version: v3.10.0
+version_title: Checkpoint 3.10.0
 ---
