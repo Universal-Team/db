@@ -117,5 +117,6 @@ update_notes: '<p dir="auto">新增“关闭屏幕背光”选项<br>
   </ul>'
 updated: '2025-04-11T06:27:31Z'
 version: Build-6
+website: https://www.bilibili.com/video/BV18qoXYmER1
 ---
 3DS Virtual Controller for ViGEm
