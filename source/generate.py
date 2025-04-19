@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import json
+import os
 import numpy
 import qrcode
 import re
@@ -913,7 +914,7 @@ if __name__ == "__main__":
 	argParser = ArgumentParser(description="Generates the Universal-DB website and UniStores from a JSON")
 	argParser.add_argument("source", metavar="apps", type=str, help="source JSON folder")
 	argParser.add_argument("docs", metavar="../docs", type=str, help="location to output to")
-	argParser.add_argument("--token", "-t", type=str, help="GitHub API token (to get around rate limit")
+	argParser.add_argument("--token", "-t", type=str, help="GitHub API token (to get around rate limit", default=os.environ.get('TOKEN'))
 	argParser.add_argument("--priority", "-p", action="store_true", help="skips all apps not marked priority/updated within 30 days")
 
 	args = argParser.parse_args()
