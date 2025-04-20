@@ -24,7 +24,7 @@
 		}
 	},
 	"archive": {
-		"Apotris-(.*-)?3(ds|DS)(-.*)?\\.zip": {
+		"Apotris-(.*)?3(ds|DS)(-.*)?\\.zip": {
 			"Apotris.3dsx + assets": [
 				"3ds/Apotris/assets/",
 				"3ds/Apotris/license/",
