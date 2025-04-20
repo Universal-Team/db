@@ -7,132 +7,17 @@ color_bg: '#7d2999'
 created: '2022-04-16T00:02:43Z'
 description: A free and multiplatform block stacking game
 download_page: https://akouzoukos.com/apotris/downloads
+downloads:
+  Apotris-v4.1.03DS.zip:
+    size: 4655795
+    size_str: 4 MiB
+    url: https://apotrisstorage.blob.core.windows.net/binaries/Apotris-v4.1.03DS.zip
 icon: https://db.universal-team.net/assets/images/icons/apotris.png
 image: https://db.universal-team.net/assets/images/images/apotris.png
 image_length: 2552
 layout: app
 license: AGPL-3.0-only
 license_name: GNU Affero General Public License v3.0 only
-prerelease:
-  download_page: https://akouzoukos.com/apotris/downloads
-  downloads:
-    Apotris-3DS-main-5e8b4b4.zip:
-      url: https://apotrisstorage.blob.core.windows.net/binaries/2025-04-05-5e8b4b4/Apotris-3DS-main-5e8b4b4.zip
-  update_notes: '<div class="markdown-heading"><h2 class="heading-element">v4.1.0RC
-    (2025-04-05)</h2><a id="user-content-v410rc-2025-04-05" class="anchor" aria-label="Permalink:
-    v4.1.0RC (2025-04-05)" href="#v410rc-2025-04-05"><span aria-hidden="true" class="octicon
-    octicon-link"></span></a></div>
-
-    <ul>
-
-    <li>New Port:
-
-    <ul>
-
-    <li>Nintendo 3DS (by Alvin Wong)</li>
-
-    </ul>
-
-    </li>
-
-    <li>Added the Color Editor:
-
-    <ul>
-
-    <li>Lets you create and manage up to 3 custom color palettes.</li>
-
-    </ul>
-
-    </li>
-
-    <li>Added HSV value editing capability to the Gradient Editor.</li>
-
-    <li>Added the ability to skip the current music track from the pause menu.</li>
-
-    <li>Added a timeout (3 minutes) to the demo mode.</li>
-
-    <li>Disabled rumble during demo mode and replays.</li>
-
-    <li>Re-added the option to darken the ghost piece.</li>
-
-    <li>Fixed Classic Mode DAS wallcharge being overridden by NRS charge.</li>
-
-    <li>Fixed Classic Mode high scores saving based on frames instead of score.</li>
-
-    <li>Fixed ARS T-piece wall kicks.</li>
-
-    <li>Fixed issues with replay playback during Master/Death mode credit rolls.</li>
-
-    <li>Fixed stat accumulation occurring after high score saving.</li>
-
-    <li>Fixed graphics option randomizer (some options were never chosen).</li>
-
-    <li>Fixed bone skin sometimes not being removed after a Death mode game ended.</li>
-
-    <li>Fixed incorrect grade names displayed in Death mode results.</li>
-
-    <li>Fixed enable rumble notification text glitching.</li>
-
-    <li>Fixed potential crash if the music track list was empty.</li>
-
-    <li>Fixed gradient editor rendering issues.</li>
-
-    <li>Fixed demo mode games from counting towards total games started statistic.</li>
-
-    <li>Removed F11 fullscreen keybind (now handled by options).</li>
-
-    <li>(Windows / Linux / Portmaster) Added <em>Shader Support</em>
-
-    </li>
-
-    <li>(PC / Web) Added <em>Controller Support</em>
-
-    </li>
-
-    <li>(PC / PortMaster / Switch) Added <em>Rumble Support</em>
-
-    </li>
-
-    <li>(PC) Added an option for persistent fullscreen mode in Video Settings.</li>
-
-    <li>(PC) Fixed the "Save Replays" option in Training Mode not working correctly</li>
-
-    <li>(GBA) Improved Multiplayer stability</li>
-
-    <li>(GBA) Added detection for more flash save chip types.</li>
-
-    <li>(Switch) Added custom music track support</li>
-
-    <li>(Portmaster) Resolved various crashes and issues on specific Portmaster hardware</li>
-
-    </ul>
-
-    '
-  update_notes_md: "## v4.1.0RC (2025-04-05)\n\n- New Port:\n  - Nintendo 3DS (by\
-    \ Alvin Wong)\n- Added the Color Editor:\n  - Lets you create and manage up to\
-    \ 3 custom color palettes.\n- Added HSV value editing capability to the Gradient\
-    \ Editor.\n- Added the ability to skip the current music track from the pause\
-    \ menu.\n- Added a timeout (3 minutes) to the demo mode.\n- Disabled rumble during\
-    \ demo mode and replays.\n- Re-added the option to darken the ghost piece.\n-\
-    \ Fixed Classic Mode DAS wallcharge being overridden by NRS charge.\n- Fixed Classic\
-    \ Mode high scores saving based on frames instead of score.\n- Fixed ARS T-piece\
-    \ wall kicks.\n- Fixed issues with replay playback during Master/Death mode credit\
-    \ rolls.\n- Fixed stat accumulation occurring after high score saving.\n- Fixed\
-    \ graphics option randomizer (some options were never chosen).\n- Fixed bone skin\
-    \ sometimes not being removed after a Death mode game ended.\n- Fixed incorrect\
-    \ grade names displayed in Death mode results.\n- Fixed enable rumble notification\
-    \ text glitching.\n- Fixed potential crash if the music track list was empty.\n\
-    - Fixed gradient editor rendering issues.\n- Fixed demo mode games from counting\
-    \ towards total games started statistic.\n- Removed F11 fullscreen keybind (now\
-    \ handled by options).\n- (Windows / Linux / Portmaster) Added *Shader Support*\n\
-    - (PC / Web) Added *Controller Support*\n- (PC / PortMaster / Switch) Added *Rumble\
-    \ Support*\n- (PC) Added an option for persistent fullscreen mode in Video Settings.\n\
-    - (PC) Fixed the \"Save Replays\" option in Training Mode not working correctly\n\
-    - (GBA) Improved Multiplayer stability\n- (GBA) Added detection for more flash\
-    \ save chip types.\n- (Switch) Added custom music track support\n- (Portmaster)\
-    \ Resolved various crashes and issues on specific Portmaster hardware"
-  updated: '2025-04-05T12:04:00Z'
-  version: v4.1.0RC
 screenshots:
 - description: 01 block stacking gameplay
   url: https://db.universal-team.net/assets/images/screenshots/apotris/01-block-stacking-gameplay.png
@@ -155,10 +40,9 @@ systems:
 title: Apotris
 unique_ids:
 - '0xA9715'
-update_notes: '<div class="markdown-heading"><h2 class="heading-element">v4.1.0RC
-  (2025-04-05)</h2><a id="user-content-v410rc-2025-04-05" class="anchor" aria-label="Permalink:
-  v4.1.0RC (2025-04-05)" href="#v410rc-2025-04-05"><span aria-hidden="true" class="octicon
-  octicon-link"></span></a></div>
+update_notes: '<div class="markdown-heading"><h2 class="heading-element">v4.1.0</h2><a
+  id="user-content-v410" class="anchor" aria-label="Permalink: v4.1.0" href="#v410"><span
+  aria-hidden="true" class="octicon octicon-link"></span></a></div>
 
   <ul>
 
@@ -191,6 +75,9 @@ update_notes: '<div class="markdown-heading"><h2 class="heading-element">v4.1.0R
   <li>Disabled rumble during demo mode and replays.</li>
 
   <li>Re-added the option to darken the ghost piece.</li>
+
+  <li>Greatly improved random number generation to prevent cases where the numbers
+  generated weren''t very random (by Luigi)</li>
 
   <li>Fixed Classic Mode DAS wallcharge being overridden by NRS charge.</li>
 
@@ -245,8 +132,8 @@ update_notes: '<div class="markdown-heading"><h2 class="heading-element">v4.1.0R
   </ul>
 
   '
-updated: '2025-04-05T12:04:00Z'
-version: v4.1.0RC
+updated: '2025-04-19T17:31:10.551Z'
+version: v4.1.0
 website: https://akouzoukos.com/apotris
 wiki: https://github.com/akouzoukos/apotris/wiki
 ---
