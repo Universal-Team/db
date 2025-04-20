@@ -30,7 +30,7 @@ jobs:
 
     - name: Push changes
       run: |
-        git config user.email "flamekat54@aol.com"
+        git config user.email "twlbot@flashcarts.net"
         git config user.name "TWLBot"
 
         echo "machine github.com" > "$HOME/.netrc"
