@@ -136,7 +136,7 @@ update_notes: '<h1 dir="auto">GitHub Actions Edition</h1>
 
   <h2 dir="auto">Install</h2>
 
-  <p dir="auto">Please see the <a href="https://github.com/RedTopper/Super-Haxagon/blob/master/INSTALL.md">INSTALL.md</a>
+  <p dir="auto">Please see the <a href="https://github.com/RedTopper/Super-Haxagon/blob/master/README.md">README.md</a>
   to install SuperHaxagon for your platform.</p>
 
   <h2 dir="auto">Tested Platforms</h2>
