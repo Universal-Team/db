@@ -7,32 +7,17 @@ color: '#6d190a'
 color_bg: '#6d190a'
 created: '2016-06-11T03:45:12Z'
 description: A Super Hexagon Clone
+download_filter: SuperHaxagon-3DS-armhf\.(3dsx|cia)\.zip
 download_page: https://github.com/RedTopper/Super-Haxagon/releases
 downloads:
-  SuperHaxagon-LinuxSFML-arm64-no-romfs.zip:
-    size: 567903
-    size_str: 554 KiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.0/SuperHaxagon-LinuxSFML-arm64-no-romfs.zip
-  SuperHaxagon-Nspire-armel.zip:
-    size: 467673
-    size_str: 456 KiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.0/SuperHaxagon-Nspire-armel.zip
-  SuperHaxagon-PortMaster-arm64.zip:
-    size: 20792304
+  SuperHaxagon-3DS-armhf.3dsx.zip:
+    size: 20933359
     size_str: 19 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.0/SuperHaxagon-PortMaster-arm64.zip
-  SuperHaxagon-Switch-arm64.zip:
-    size: 24403483
-    size_str: 23 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.0/SuperHaxagon-Switch-arm64.zip
-  SuperHaxagon-macOS-arm64.app.tar.zip:
-    size: 23731892
-    size_str: 22 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.0/SuperHaxagon-macOS-arm64.app.tar.zip
-  romfs.zip:
-    size: 20492653
-    size_str: 19 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.0/romfs.zip
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.0/SuperHaxagon-3DS-armhf.3dsx.zip
+  SuperHaxagon-3DS-armhf.cia.zip:
+    size: 21667974
+    size_str: 20 MiB
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.0/SuperHaxagon-3DS-armhf.cia.zip
 github: RedTopper/Super-Haxagon
 icon: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/icon-3ds.png
 image: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/banner.png
