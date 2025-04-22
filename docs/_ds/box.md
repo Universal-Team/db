@@ -23,7 +23,7 @@ license_name: BSD 2-Clause "Simplified" License
 qr:
   box.nds: https://db.universal-team.net/assets/images/qr/box-nds.png
 source: https://github.com/Garhoogin/Box
-stars: 4
+stars: 5
 systems:
 - DS
 title: Box
