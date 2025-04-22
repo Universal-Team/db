@@ -27,12 +27,9 @@ stars: 5655
 systems:
 - 3DS
 title: Luma3DS
-update_notes: '<ul dir="auto">
-
-  <li>Fix regression introduced by latest commit/release, where essential file backup
-  wasn''t done if <code class="notranslate">/luma/backups</code> folder didn''t exist</li>
-
-  </ul>'
+update_notes: "{\"message\": \"We couldn't respond to your request in time. Sorry\
+  \ about that. Please try resubmitting your request and contact us if the problem\
+  \ persists.\"}\r\n"
 updated: '2025-03-10T21:17:09Z'
 version: v13.3.2
 version_title: v13.3.2
