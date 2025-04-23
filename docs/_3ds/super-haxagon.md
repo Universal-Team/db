@@ -11,13 +11,13 @@ download_filter: SuperHaxagon-3DS-armhf\.(3dsx|cia)\.zip
 download_page: https://github.com/RedTopper/Super-Haxagon/releases
 downloads:
   SuperHaxagon-3DS-armhf.3dsx.zip:
-    size: 20933359
+    size: 20934515
     size_str: 19 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.0/SuperHaxagon-3DS-armhf.3dsx.zip
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.1/SuperHaxagon-3DS-armhf.3dsx.zip
   SuperHaxagon-3DS-armhf.cia.zip:
-    size: 21667974
+    size: 21669131
     size_str: 20 MiB
-    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.0/SuperHaxagon-3DS-armhf.cia.zip
+    url: https://github.com/RedTopper/Super-Haxagon/releases/download/3.9.1/SuperHaxagon-3DS-armhf.cia.zip
 github: RedTopper/Super-Haxagon
 icon: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/icon-3ds.png
 image: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/banner.png
@@ -43,131 +43,49 @@ systems:
 title: Super-Haxagon
 unique_ids:
 - '0x99AA'
-update_notes: '<h1 dir="auto">GitHub Actions Edition</h1>
+update_notes: '<h1 dir="auto">Documentation Update</h1>
 
-  <p dir="auto">GitHub Actions is now the primary way to build and release SuperHaxagon!</p>
-
-  <p dir="auto">(This may break automated releases! Sorry about that!)</p>
-
-  <p dir="auto">This release finishes out the last few non-major features. As such,
-  this is likely the last non-patch release in the 3.x.x series.</p>
+  <p dir="auto">This version is almost exactly the same as 3.9.0, except the downloads
+  include two new files, outlined below. If you already have v3.9.0 and have installed
+  it properly, there isn''t much need to update. (And if you don''t know what version
+  you have, you should probably update!)</p>
 
   <h2 dir="auto">Changelog</h2>
 
-  <p dir="auto">New features:</p>
-
   <ul dir="auto">
 
-  <li>macos: new platform!
+  <li>nspire: There are now at least two buttons to perform all basic actions, in
+  case one of your keys is sticky.</li>
 
-  <ul dir="auto">
+  <li>sdl2 and sfml: Drivers and downloads have been renamed to better show what back-end
+  the driver is using.</li>
 
-  <li>GitHub Actions will now build a macOS (M1) bundle automatically for new PRs
-  going forward!</li>
+  <li>all: Downloads now have a <code class="notranslate">README.md</code> that gives
+  offline instructions on how to set up your platform, as well as a link back to this
+  repo.</li>
 
-  <li>Intel-based macOS devices should still build, but there is no automated builds
-  at this time.</li>
-
-  <li>Thanks <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/adc-ax/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/adc-ax">@adc-ax</a>
-  for helping out with macOS bugs!</li>
-
-  <li>(macOS support was previously added by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/mathieudel/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/mathieudel">@mathieudel</a>,
-  but unfortunately I did not maintain it.)</li>
-
-  </ul>
-
-  </li>
-
-  <li>steamdeck: new platform!
-
-  <ul dir="auto">
-
-  <li>The SDL2 flatpak build will auto-detect SteamDeck and enter fullscreen.</li>
-
-  <li>Switched to SDL2 for controller support in flatpak.</li>
-
-  <li>Tested on hardware!</li>
-
-  <li>(Technically you could install the flatpak on SteamDeck, but the experience
-  wasn''t very good.)</li>
-
-  </ul>
-
-  </li>
-
-  <li>all: License change to GPLv3 (or later) for the core game.
-
-  <ul dir="auto">
-
-  <li>Drivers are dual licensed under GPLv3-or-later OR MIT.</li>
-
-  <li>All downloads now include a copy of the license AND licenses for all dependencies.</li>
-
-  </ul>
-
-  </li>
-
-  <li>all: Levels no longer speed up during "level ups"
-
-  <ul dir="auto">
-
-  <li>Instead, one big speedup happens at 60 seconds.</li>
-
-  <li>Thanks <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/zaphod77/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/zaphod77">@zaphod77</a>
-  (Fixes <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="2889932849" data-permission-text="Title is private" data-url="https://github.com/RedTopper/Super-Haxagon/issues/34"
-  data-hovercard-type="issue" data-hovercard-url="/RedTopper/Super-Haxagon/issues/34/hovercard"
-  href="https://github.com/RedTopper/Super-Haxagon/issues/34">#34</a>)</li>
-
-  </ul>
-
-  </li>
-
-  <li>all: LAST Major driver refactor, ALL platform specific files are now located
-  in <code class="notranslate">driver</code></li>
-
-  <li>all: All platforms now build with GitHub actions!</li>
+  <li>all: Downloads now have a <code class="notranslate">vX.X.X.txt</code> file that
+  includes some metadata for the release, like which commit hash the download came
+  from, version information, how it was built, and the time it was built.</li>
 
   </ul>
 
   <h2 dir="auto">Install</h2>
 
   <p dir="auto">Please see the <a href="https://github.com/RedTopper/Super-Haxagon/blob/master/README.md">README.md</a>
-  to install SuperHaxagon for your platform.</p>
+  to install SuperHaxagon for your platform, or the <em>new</em> <code class="notranslate">README.md</code>
+  within the .zip file itself!</p>
 
-  <h2 dir="auto">Tested Platforms</h2>
+  <h2 dir="auto">Stores</h2>
 
-  <ul dir="auto">
+  <p dir="auto">PortMaster: <a href="https://portmaster.games/detail.html?name=superhaxagon"
+  rel="nofollow">https://portmaster.games/detail.html?name=superhaxagon</a><br>
 
-  <li>3DS (Lime3DS 2119.1)</li>
+  Universal DB (3DS): <a href="https://db.universal-team.net/3ds/super-haxagon" rel="nofollow">https://db.universal-team.net/3ds/super-haxagon</a><br>
 
-  <li>3DS (Physical o3DSXL 11.15.0-47U)</li>
-
-  <li>LinuxSDL2 (Fedora 41)</li>
-
-  <li>LinuxSFML (Fedora 41)</li>
-
-  <li>MiyooMini Plus (OnionOS 4.3.1-1)</li>
-
-  <li>TI Nspire (4.5.3.14)</li>
-
-  <li>PortMaster (Knulli 2024/12/04)</li>
-
-  <li>Switch (Physical 11.0.1)</li>
-
-  <li>Switch (Yuzu 1734)</li>
-
-  <li>SteamDeck (SteamOS 3.6.24)</li>
-
-  <li>Windows 11 (QEMU VM)</li>
-
-  </ul>'
-updated: '2025-04-18T03:32:37Z'
-version: 3.9.0
-version_title: SuperHaxagon v3.9.0
+  fortheusers (Switch): <a href="https://hb-app.store/switch/Super-Haxagon" rel="nofollow">https://hb-app.store/switch/Super-Haxagon</a></p>'
+updated: '2025-04-23T00:23:28Z'
+version: 3.9.1
+version_title: SuperHaxagon v3.9.1
 ---
 SuperHaxagon, like the original game Super Hexagon by Terry Cavanagh, has only one goal. Survive as long as possible by avoiding the falling walls in a trippy, spinny frenzy!
