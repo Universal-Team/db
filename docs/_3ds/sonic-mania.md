@@ -18,6 +18,8 @@ icon: https://raw.githubusercontent.com/SaturnSH2x2/RSDKv5-Decompilation/3ds-mai
 image: https://raw.githubusercontent.com/SaturnSH2x2/RSDKv5-Decompilation/3ds-main/3ds/banner.png
 image_length: 61351
 layout: app
+license: other
+license_name: Other
 qr:
   SonicMania.cia: https://db.universal-team.net/assets/images/qr/sonicmania-cia.png
 screenshots:
