@@ -36,7 +36,7 @@ prerelease:
   version: 4.2.5-382-gfc404f0dc
   version_title: 4.2.5-382-gfc404f0dc
 source: https://github.com/angband/angband
-stars: 1381
+stars: 1380
 systems:
 - 3DS
 - DS
