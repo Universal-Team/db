@@ -34,7 +34,7 @@ screenshots:
 - description: Kekatsu ds 3
   url: https://db.universal-team.net/assets/images/screenshots/kekatsu/kekatsu-ds-3.png
 source: https://github.com/cavv-dev/Kekatsu-DS
-stars: 11
+stars: 12
 systems:
 - DS
 title: Kekatsu
