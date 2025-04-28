@@ -11,13 +11,13 @@ description: LED color and pattern modifier for 3DS. Customize your notification
 download_page: https://github.com/Golem642/CtrRGBPAT2/releases
 downloads:
   CtrRGBPAT2.3dsx:
-    size: 618036
-    size_str: 603 KiB
-    url: https://github.com/Golem642/CtrRGBPAT2/releases/download/v2.4/CtrRGBPAT2.3dsx
+    size: 628880
+    size_str: 614 KiB
+    url: https://github.com/Golem642/CtrRGBPAT2/releases/download/v2.5/CtrRGBPAT2.3dsx
   CtrRGBPAT2.cia:
     size: 1014208
     size_str: 990 KiB
-    url: https://github.com/Golem642/CtrRGBPAT2/releases/download/v2.4/CtrRGBPAT2.cia
+    url: https://github.com/Golem642/CtrRGBPAT2/releases/download/v2.5/CtrRGBPAT2.cia
 github: Golem642/CtrRGBPAT2
 icon: https://raw.githubusercontent.com/Golem642/CtrRGBPAT2/master/resources/icon.png
 image: https://raw.githubusercontent.com/Golem642/CtrRGBPAT2/master/resources/banner.png
@@ -49,44 +49,71 @@ systems:
 title: CtrRGBPAT2
 unique_ids:
 - '0xD37BB'
-update_notes: '<p dir="auto">Hi.<br>
+update_notes: '<p dir="auto">Hello again</p>
 
-  It''s been a while</p>
+  <p dir="auto">I''m back for another release with quite the exciting changes. Most
+  notably...</p>
 
-  <p dir="auto">Anyway here''s what''s new :</p>
+  <h2 dir="auto">Low battery pattern editing</h2>
+
+  <p dir="auto">That''s right, you can now make this annoying blinking light less
+  of a pain with this new release. I know some of you had been waiting for it for
+  a long time so here it finally is. Do note that there is currently no way to change
+  the color of the LED as it does not function the same way as a classic animation.</p>
+
+  <p dir="auto">For the rest, here''s a full list of the changes :</p>
 
   <ul dir="auto">
 
-  <li>Added preset loading</li>
+  <li>Reworked the menus a bit (again)</li>
 
-  <li>Added per pattern mode selection (sleeping or awake)</li>
+  <li>Pattern editor now also shows separate R G and B values that you can edit</li>
 
-  <li>Overall new menu layout</li>
+  <li>Added loading menus for default animations and currently installed animations</li>
 
-  <li>Preparing for the next updates (low battery pattern and file loading)</li>
+  <li>Added previews in a few places (pattern editor, low battery, and some loading
+  menus)</li>
+
+  <li>Added joystick/CPAD support</li>
+
+  <li>Added direction holding support (you can now move faster in the menus)</li>
+
+  <li>Added better B key handling (go back one menu at a time instead of directly
+  to the main menu)</li>
+
+  <li>Fixed the colors not showing on the display (pull request have been sent to
+  <a href="https://github.com/devkitPro/libctru/pull/570" data-hovercard-type="pull_request"
+  data-hovercard-url="/devkitPro/libctru/pull/570/hovercard">devkitPro/libctru</a>)</li>
+
+  <li>Fixed the preview holding a color if the last one was set (<a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="2069165368" data-permission-text="Title
+  is private" data-url="https://github.com/Golem642/CtrRGBPAT2/issues/1" data-hovercard-type="issue"
+  data-hovercard-url="/Golem642/CtrRGBPAT2/issues/1/hovercard" href="https://github.com/Golem642/CtrRGBPAT2/issues/1">#1</a>,
+  do any action to stop the preview)</li>
+
+  <li>Fixed the building process a bit. No more errors</li>
 
   </ul>
 
-  <p dir="auto">There are some regression with colors not correctly displayed on the
-  text, this comes from a devkitpro update and i''ve sent a bug report for it</p>
+  <p dir="auto">Note that if you try to build the file manually, the result might
+  be different as i have used my own version of libctru which includes the lastest
+  version with <a href="https://github.com/devkitPro/libctru/pull/570" data-hovercard-type="pull_request"
+  data-hovercard-url="/devkitPro/libctru/pull/570/hovercard">devkitPro/libctru#570</a>
+  and <a href="https://github.com/devkitPro/libctru/pull/561" data-hovercard-type="pull_request"
+  data-hovercard-url="/devkitPro/libctru/pull/561/hovercard">devkitPro/libctru#561</a>
+  applied.</p>
 
-  <p dir="auto">Again, sorry for being this late but hey look i didn''t abandon this
-  i told you.<br>
+  <p dir="auto">I hope you enjoy this release, the next one will probably add pattern
+  loading from a file.</p>
 
-  The next updates should hopefully cover the low battery pattern (which i have, i
-  just need to make a good menu/conversion for it) and the pattern loader from a file.</p>
-
-  <p dir="auto">If you find any bug or anything, please make an issue or tag me on
-  discord about it</p>
-
-  <p dir="auto">Have fun :)</p>
+  <p dir="auto">Have fun ! :)</p>
 
   <p dir="auto">QR code download :<br>
 
   </p>'
-updated: '2025-03-12T23:06:46Z'
-version: v2.4
-version_title: V2.4
+updated: '2025-04-27T15:28:52Z'
+version: v2.5
+version_title: V2.5
 website: https://db.universal-team.net/3ds/ctrrgbpat2
 ---
 # CtrRGBPAT2
