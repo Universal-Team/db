@@ -115,7 +115,6 @@ updated: '2025-04-27T15:28:52Z'
 version: v2.5
 version_title: V2.5
 website: https://db.universal-team.net/3ds/ctrrgbpat2
-wiki: https://github.com/Golem642/CtrRGBPAT2/wiki
 ---
 # CtrRGBPAT2
 This 3DS application allows the LED color to be changed. In order for this to work, Luma CFW (custom firmware) needs to be installed.
