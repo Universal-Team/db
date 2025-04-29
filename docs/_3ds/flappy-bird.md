@@ -3,8 +3,6 @@ author: NPI-D7
 avatar: https://avatars.githubusercontent.com/u/71648010?v=4
 categories:
 - game
-color: '#6eb16f'
-color_bg: '#4f8050'
 created: '2022-04-07T14:05:08Z'
 description: A Clone of Flappy-Bird for the 3ds.
 download_page: https://github.com/NPI-D7/Flappy-Bird/releases
@@ -75,6 +73,7 @@ update_notes: '<ul dir="auto">
 updated: '2023-11-02T16:51:43Z'
 version: 1.4.2
 version_title: 1.4.2
+wiki: https://github.com/NPI-D7/Flappy-Bird/wiki
 ---
 ### Flappy-Bird 
 [![Discord](https://img.shields.io/discord/961610973066702889?style=for-the-badge)](https://discord.gg/XuX6EN8dyt)

@@ -60,4 +60,5 @@ update_notes: '<h1 dir="auto">Changelog:</h1>
 updated: '2022-10-30T23:17:39Z'
 version: v1.0
 version_title: v1.0
+wiki: https://github.com/masterfeizz/Quake2CTR/wiki
 ---
