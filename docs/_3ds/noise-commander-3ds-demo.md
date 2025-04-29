@@ -132,7 +132,6 @@ updated: '2025-04-10T10:55:56Z'
 version: 0.0.13
 version_title: Effects per deck, start/stop button, playlists and browser upgrades
 website: https://www.patreon.com/NoiseCommander3DS
-wiki: https://github.com/gearmo3ds/noisecommander3dsdemo/wiki
 ---
 Beat-making audio sequencer and DJ-tool
 
