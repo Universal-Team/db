@@ -3,8 +3,6 @@ author: zoogie
 avatar: https://avatars.githubusercontent.com/u/28328903?v=4
 categories:
 - utility
-color: '#121212'
-color_bg: '#121212'
 created: '2018-01-21T07:02:04Z'
 description: 34.2c3 POC
 download_page: https://github.com/zoogie/seedminer/releases
@@ -16,7 +14,6 @@ downloads:
 github: zoogie/seedminer
 icon: https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/icon.png
 image: https://raw.githubusercontent.com/zoogie/seedminer/master/seedstarter/resources/banner.png
-image_length: 4023
 layout: app
 license: mit
 license_name: MIT License

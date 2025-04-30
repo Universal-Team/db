@@ -32,6 +32,7 @@ update_notes: '<h2 dir="auto">Initial release</h2>
 updated: '2024-05-04T19:03:35Z'
 version: release
 version_title: '1.0'
+wiki: https://github.com/amedeo463/pie3ds/wiki
 ---
 Pie3DS - a simple application that calculates Pi.
 

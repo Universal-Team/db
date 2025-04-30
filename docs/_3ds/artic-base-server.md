@@ -21,6 +21,7 @@ downloads:
 github: PabloMK7/ArticBaseServer
 icon: https://raw.githubusercontent.com/PabloMK7/ArticBaseServer/main/app/resources/icon.png
 image: https://raw.githubusercontent.com/PabloMK7/ArticBaseServer/main/app/resources/banner.png
+image_length: 34819
 layout: app
 license: mit
 license_name: MIT License

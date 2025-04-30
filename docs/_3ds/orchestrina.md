@@ -4,8 +4,6 @@ autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/13992834?v=4
 categories:
 - game
-color: '#b7b7cf'
-color_bg: '#717180'
 created: '2016-07-09T04:21:45Z'
 description: A homebrew Legend of Zelda instrument player
 download_page: https://github.com/EBLeifEricson/orchestrina/releases
@@ -48,5 +46,4 @@ update_notes: '<p>This release features a major redesign of the Wind Waker baton
 updated: '2017-03-30T01:49:01Z'
 version: v0.5.0-beta
 version_title: Orchestrina - Beta Release 5
-wiki: https://github.com/GlimmerDev/orchestrina/wiki
 ---

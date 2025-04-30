@@ -74,5 +74,4 @@ update_notes: '<p dir="auto">This is a stopgap release to address concerns with 
 updated: '2025-04-11T22:27:05Z'
 version: b32
 version_title: Beta - 32
-wiki: https://github.com/erievs/FourthTube/wiki
 ---

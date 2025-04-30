@@ -57,5 +57,4 @@ update_notes: '<ul dir="auto">
 updated: '2018-02-18T01:09:31Z'
 version: v1.40
 version_title: 3DS Recovery Tool v1.4
-wiki: https://github.com/joel16/3DS-Recovery-Tool/wiki
 ---
