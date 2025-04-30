@@ -11,6 +11,7 @@ download_page: https://github.com/nop90/ZeldaPicross/releases
 github: nop90/ZeldaPicross
 icon: https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/banner.png
+image_length: 6202
 layout: app
 prerelease:
   download_page: https://github.com/nop90/ZeldaPicross/releases/tag/v1%2C0RC

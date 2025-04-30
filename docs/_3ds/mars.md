@@ -3,6 +3,8 @@ author: Bot Studio
 avatar: https://avatars.githubusercontent.com/u/114881271?v=4
 categories:
 - game
+color: '#907c73'
+color_bg: '#806e66'
 created: '2024-01-04T17:25:16Z'
 description: Mars3DS, a lost retro shooter ;)
 download_page: https://github.com/BotRandomness/Mars3DS/releases
@@ -75,7 +77,6 @@ update_notes: '<p dir="auto">Mars3DS, a retro style shooter 3DS homebrew, writte
 updated: '2024-01-05T01:51:12Z'
 version: v1.0.0
 version_title: Mars3DS v1.0.0 🚀
-wiki: https://github.com/BotRandomness/Mars3DS/wiki
 ---
 # Mars3DS!
 _A lost retro shooter ;)_

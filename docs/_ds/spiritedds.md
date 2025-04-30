@@ -3,6 +3,8 @@ author: KahnerC
 avatar: https://avatars.githubusercontent.com/u/160319898?v=4
 categories:
 - game
+color: '#4b433a'
+color_bg: '#4b433a'
 created: '2024-02-17T10:44:15Z'
 description: An uninspired card game for the Nintendo DS.
 download_page: https://github.com/KahnerC/SpiritedDS/releases

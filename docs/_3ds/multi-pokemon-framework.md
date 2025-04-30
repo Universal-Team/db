@@ -41,5 +41,4 @@ update_notes: '<p dir="auto"><em>August 11, 2023</em></p>
 updated: '2023-08-12T02:09:39Z'
 version: v1.0.4
 version_title: v1.0.4
-wiki: https://github.com/semaj14/Multi-PokemonFramework/wiki
 ---

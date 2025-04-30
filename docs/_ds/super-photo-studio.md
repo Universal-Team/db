@@ -3,6 +3,8 @@ author: RocketRobz
 avatar: https://avatars.githubusercontent.com/u/16110127?v=4
 categories:
 - game
+color: '#7e3c7c'
+color_bg: '#7e3c7c'
 created: '2020-07-04T20:54:52Z'
 description: Take pictures of your favorite all-star video game characters, in glorious
   Horizon HD (800px mode)!
