@@ -32,7 +32,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/pong-pokemon/title-screen.png
 source: https://github.com/Sunrase/Pong-Pokemon-3ds
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: Pong Pokemon
