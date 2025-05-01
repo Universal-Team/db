@@ -182,7 +182,7 @@ prerelease:
   version: v2.2.0
   version_title: GodMode9 v2.2.0 Ninth Anniversary Release
 source: https://github.com/d0k3/GodMode9
-stars: 2265
+stars: 2266
 systems:
 - 3DS
 title: GodMode9
