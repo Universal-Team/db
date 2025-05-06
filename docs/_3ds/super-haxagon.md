@@ -21,6 +21,7 @@ downloads:
 github: RedTopper/Super-Haxagon
 icon: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/icon-3ds.png
 image: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/banner.png
+image_length: 114192
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
