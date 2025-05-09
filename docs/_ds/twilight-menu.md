@@ -59,9 +59,9 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>The autoboot file for Stargate 3DS flashcards has been added from akmenu-next
-  (by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/coderkei/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/coderkei">@coderkei</a>).</li>
+  <li>The autoboot file for Stargate 3DS flashcards has been added from nds-miniboot
+  (by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/asiekierka/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/asiekierka">@asiekierka</a>).</li>
 
   <li>Turning off the <code class="notranslate">Filename Display</code> setting will
   now hide filetypes/file extensions for banner-less titles.</li>
