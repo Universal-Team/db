@@ -25,15 +25,16 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.4.5">nds-bootstrap
-  v2.4.5</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.4.6">nds-bootstrap
+  v2.4.6</a></p>
 
   <p dir="auto">To install or update:</p>
 
   <ul dir="auto">
 
-  <li>In the 7z file, extract what''s in <code class="notranslate">for SD card root</code>
-  to the root of the SD card.</li>
+  <li>In the 7z file, open the <code class="notranslate">for SD card root</code> folder,
+  then drag the <code class="notranslate">_nds</code> folder to the root of the SD
+  card.</li>
 
   </ul>
 
@@ -53,20 +54,16 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <h3 dir="auto">Bug fixes</h3>
-
-  <p dir="auto">These bugs are now finally fixed after plenty of testing this time!</p>
+  <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>Fixed the per-game settings menu not opening for some users when holding the
-  <code class="notranslate">Y</code> button.</li>
-
-  <li>Fixed the SD card not initing and displaying the <code class="notranslate">fatInitDefault
-  failed!</code> message appearing sometimes.</li>
+  <li>Fixed retail ROMs containing a cracktro or extra splash (as well as the 3-in-1
+  Pokepatched Gen 4 ROMs) being detected as homebrew, in order to fix the white screen
+  crash. Such ROMs may be hacked and/or translated.</li>
 
   </ul>'
-updated: '2025-04-17T15:39:13Z'
-version: SD-22
-version_title: 'GitHub Release #22'
+updated: '2025-05-09T01:32:07Z'
+version: SD-23
+version_title: 'GitHub Release #23'
 ---
