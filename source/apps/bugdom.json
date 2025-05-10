@@ -1,0 +1,9 @@
+{
+	"github": "fordcars/Bugdom",
+	"title": "Bugdom",
+	"systems": ["3DS"],
+	"image": "https://raw.githubusercontent.com/fordcars/Bugdom/refs/heads/3ds-new-port/docs/3ds/lawn_top_screen.png",
+	"icon": "https://raw.githubusercontent.com/fordcars/Bugdom/refs/heads/3ds-new-port/packaging/Bugdom128.png",
+	"categories": ["game"],
+	"long_description": "This is a port of Pangea Software’s 3D adventure game **Bugdom** to the Nintendo 3DS, based off Jorio's amazing port.\n\n## About this game\n\nBugdom is a 1999 Macintosh game by Pangea Software. You play as Rollie McFly, a pill bug on a quest to save ladybugs from King Thorax’s iron grip on the Bugdom. There will be water to cross, bugs to ride, and plenty of enemy forces to defeat, but once the Fire Ants and King Thorax have been defeated, you will become the new ruler of the Bugdom and peace will be restored.\n\n## Nintendo 3DS Controls\n* Circle-Pad/D-Pad: walk/roll\n* A: jump/boost\n* B: morph\n* X: buddy bug\n* Y: kick\n* L-Shoulder: look left\n* R-Shoulder: look right\n* Start: pause\n\n## License\n\nBugdom is being re-released here (https://github.com/jorio/bugdom) under the [CC BY-NC-SA 4.0](LICENSE.md) license with permission from Pangea Software, Inc.\n\nBugdom® is a registered trademark of Pangea Software, Inc."
+}
