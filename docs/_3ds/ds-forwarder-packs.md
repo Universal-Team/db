@@ -17,6 +17,7 @@ downloads:
 github: RocketRobz/NTR_Forwarder
 icon: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
 image: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
+image_length: 630
 layout: app
 source: https://github.com/RocketRobz/NTR_Forwarder
 stars: 87
@@ -65,5 +66,4 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 updated: '2025-05-09T01:32:07Z'
 version: SD-23
 version_title: 'GitHub Release #23'
-wiki: https://github.com/RocketRobz/NTR_Forwarder/wiki
 ---
