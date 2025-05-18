@@ -3,6 +3,8 @@ author: Libretro
 avatar: https://avatars.githubusercontent.com/u/1812827?v=4
 categories:
 - emulator
+color: '#484848'
+color_bg: '#484848'
 created: '2010-05-27T14:47:40Z'
 description: Cross-platform, sophisticated frontend for the libretro API. Licensed
   GPLv3.

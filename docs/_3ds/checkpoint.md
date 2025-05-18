@@ -3,6 +3,8 @@ author: Bernardo Giordano
 avatar: https://avatars.githubusercontent.com/u/17624378?v=4
 categories:
 - utility
+color: '#40576f'
+color_bg: '#40576f'
 created: '2017-09-06T17:20:55Z'
 description: Fast and simple homebrew save manager for 3DS and Switch.
 download_page: https://github.com/BernardoGiordano/Checkpoint/releases
