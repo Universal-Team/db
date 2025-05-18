@@ -66,5 +66,4 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 updated: '2025-05-09T01:32:07Z'
 version: SD-23
 version_title: 'GitHub Release #23'
-wiki: https://github.com/RocketRobz/NTR_Forwarder/wiki
 ---
