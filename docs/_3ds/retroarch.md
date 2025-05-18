@@ -21,7 +21,6 @@ eval_notes_md: true
 github: libretro/RetroArch
 icon: https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/ctr/assets/default.png
 image: https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/ctr/assets/libretro_banner.png
-image_length: 3154
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
@@ -33,7 +32,7 @@ nightly:
     RetroArch_cia.7x:
       url: https://buildbot.libretro.com/nightly/nintendo/3ds/RetroArch_cia.7z
 source: https://github.com/libretro/RetroArch
-stars: 11346
+stars: 11347
 systems:
 - 3DS
 title: RetroArch
