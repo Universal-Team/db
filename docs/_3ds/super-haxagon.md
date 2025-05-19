@@ -3,8 +3,6 @@ author: AJ Walter
 avatar: https://avatars.githubusercontent.com/u/6108605?v=4
 categories:
 - game
-color: '#6d190a'
-color_bg: '#6d190a'
 created: '2016-06-11T03:45:12Z'
 description: A Super Hexagon Clone
 download_filter: SuperHaxagon-3DS-armhf\.(3dsx|cia)\.zip
@@ -21,7 +19,6 @@ downloads:
 github: RedTopper/Super-Haxagon
 icon: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/icon-3ds.png
 image: https://raw.githubusercontent.com/RedTopper/Super-Haxagon/master/media/banner.png
-image_length: 114192
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
