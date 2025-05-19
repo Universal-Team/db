@@ -3,8 +3,6 @@ author: DS-Homebrew
 avatar: https://avatars.githubusercontent.com/u/46971470?v=4
 categories:
 - emulator
-color: '#585758'
-color_bg: '#585758'
 created: '2016-09-11T19:50:26Z'
 description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
@@ -18,7 +16,7 @@ downloads:
     size_str: 1 MiB
     url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.4.6/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
-icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
+icon: https://raw.githubusercontent.com/DS-Homebrew/nds-bootstrap/master/retail/assets/icon.bmp
 image: https://i.imgur.com/BFIu7xX.png
 layout: app
 license: gpl-3.0
