@@ -3,6 +3,8 @@ author: CPunch & Golem64
 avatar: https://avatars.githubusercontent.com/u/65229557?v=4
 categories:
 - utility
+color: '#4887af'
+color_bg: '#346280'
 created: '2023-05-11T08:48:45Z'
 description: LED color and pattern modifier for 3DS. Customize your notifications
   however you want !
@@ -19,6 +21,7 @@ downloads:
 github: Golem642/CtrRGBPAT2
 icon: https://raw.githubusercontent.com/Golem642/CtrRGBPAT2/master/resources/icon.png
 image: https://raw.githubusercontent.com/Golem642/CtrRGBPAT2/master/resources/banner.png
+image_length: 12658
 layout: app
 license: mit
 license_name: MIT License
