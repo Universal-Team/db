@@ -3,6 +3,8 @@ author: Pk11
 avatar: https://avatars.githubusercontent.com/u/41608708?v=4
 categories:
 - utility
+color: '#81de8e'
+color_bg: '#4a8052'
 created: '2022-01-09T06:28:39Z'
 description: NAND Title Manager for DSi
 download_page: https://github.com/Epicpkmn11/NTM/releases
@@ -12,8 +14,9 @@ downloads:
     size_str: 238 KiB
     url: https://github.com/Epicpkmn11/NTM/releases/download/v0.3.0/NTM.dsi
 github: Epicpkmn11/NTM
-icon: https://raw.githubusercontent.com/Epicpkmn11/NTM/master/icon.bmp
-image: https://raw.githubusercontent.com/Epicpkmn11/NTM/master/icon.bmp
+icon: https://db.universal-team.net/assets/images/icons/ntm.png
+image: https://db.universal-team.net/assets/images/icons/ntm.png
+image_length: 586
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

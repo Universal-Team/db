@@ -3,6 +3,8 @@ author: Core 2 Extreme, dixy52-beep (icon, banner, in app texture)
 avatar: https://avatars.githubusercontent.com/u/45873899?v=4
 categories:
 - app
+color: '#4ca5f1'
+color_bg: '#285780'
 created: '2021-04-02T02:28:20Z'
 description: You can play .mp4 file on your 3DS!
 download_page: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases
@@ -18,6 +20,7 @@ downloads:
 github: Core-2-Extreme/Video_player_for_3DS
 icon: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/banner.png
+image_length: 12768
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
