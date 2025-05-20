@@ -192,7 +192,6 @@ updated: '2025-05-16T17:00:49Z'
 version: 0.0.14
 version_title: I'm the Ed Wood of audio devs
 website: https://www.patreon.com/NoiseCommander3DS
-wiki: https://github.com/gearmo3ds/noisecommander3dsdemo/wiki
 ---
 Beat-making audio sequencer and DJ-tool
 
