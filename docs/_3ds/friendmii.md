@@ -3,8 +3,6 @@ author: Joel
 avatar: https://avatars.githubusercontent.com/u/6271991?v=4
 categories:
 - utility
-color: '#9d9d9d'
-color_bg: '#808080'
 created: '2017-09-02T02:06:20Z'
 description: An experimental open source friends app for the Nintendo 3DS.
 download_page: https://github.com/joel16/FriendMii/releases
@@ -20,7 +18,6 @@ downloads:
 github: joel16/FriendMii
 icon: https://raw.githubusercontent.com/joel16/FriendMii/master/res/ic_launcher_friendmii.png
 image: https://raw.githubusercontent.com/joel16/FriendMii/master/res/banner.png
-image_length: 4215
 layout: app
 license: mit
 license_name: MIT License
@@ -65,4 +62,5 @@ update_notes: '<p dir="auto">This is more of a proof of concept, open source fri
 updated: '2018-07-29T17:18:00Z'
 version: v1.00
 version_title: FriendMii Initial Release v1.0.0
+wiki: https://github.com/joel16/FriendMii/wiki
 ---

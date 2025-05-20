@@ -9,10 +9,14 @@ created: '2022-08-16T22:06:31Z'
 description: Sonic Mania (n3DS only)
 download_page: https://github.com/SaturnSH2x2/RSDKv5-Decompilation/releases
 downloads:
-  SonicMania.cia:
-    size: 2457536
+  SonicMania.3dsx:
+    size: 3015400
     size_str: 2 MiB
-    url: https://github.com/SaturnSH2x2/RSDKv5-Decompilation/releases/download/1.0/SonicMania.cia
+    url: https://github.com/SaturnSH2x2/RSDKv5-Decompilation/releases/download/v1.1.0/SonicMania.3dsx
+  SonicMania.cia:
+    size: 2268096
+    size_str: 2 MiB
+    url: https://github.com/SaturnSH2x2/RSDKv5-Decompilation/releases/download/v1.1.0/SonicMania.cia
 github: SaturnSH2x2/RSDKv5-Decompilation
 icon: https://raw.githubusercontent.com/SaturnSH2x2/RSDKv5-Decompilation/3ds-main/3ds/48x48.png
 image: https://raw.githubusercontent.com/SaturnSH2x2/RSDKv5-Decompilation/3ds-main/3ds/banner.png
@@ -37,41 +41,57 @@ script_message: 'Note: You will need "Data.rsdk" from
 
   "/3ds/SonicMania" to play the game.'
 source: https://github.com/SaturnSH2x2/RSDKv5-Decompilation
-stars: 91
+stars: 94
 systems:
 - 3DS
 title: Sonic Mania
 unique_ids:
 - '0x308200'
-update_notes: '<p dir="auto">Initial release. Extract your Data Folder or .rsdk to
-  /3ds/SonicMania. Some things to keep in mind:</p>
+update_notes: '<p dir="auto">It''s been a while.</p>
+
+  <p dir="auto">Changes since the last release:</p>
 
   <ul dir="auto">
 
-  <li>New 3DS only at the moment. Old 3DS support is planned for future releases,
-  however.</li>
+  <li>Game now runs on engine version v5U, however, without v3/v4 Legacy support.
+  This engine version is referred to as v5C internally.</li>
 
-  <li>Load times are pretty bad, mainly due to the 3DS''s slow read speeds. This will
-  be addressed in a future release.</li>
+  <li>Dev menu now displays extra information regarding memory usage, as well as if
+  the game is running on a N3DS.</li>
 
-  <li>Menu strings are corrupted when running the game in Data Folder mode, however,
-  everything else runs fine.</li>
+  <li>Audio thread now runs on core 1, with support for asynchronous file loading,
+  alleviating microloads during gameplay and resulting in speedup in certain sections
+  (start of Studiopolis Act 2, parts of Flying Battery Act 1). Additionally, the game
+  no longer suffers from delayed audio.</li>
 
-  <li>Plus DLC not included. The decomp has no way of verifying whether you''ve actually
-  purchased the DLC, and thus, you must compile the port yourself to access it.</li>
+  <li>Engine now supports loading assets from an external RomFS file.</li>
 
-  <li>CRT filters are not and likely will never be supported by the port. It''s still
-  referenced in the video options menu, but changing it has no effect.</li>
+  <li>Loading times improved significantly while using the Data file. Thanks to <a
+  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/davidgfnet/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/davidgfnet">@davidgfnet</a>
+  for using setvbuf on Data file accesses. Additionally, all static object files and
+  sprite bin files are cached. Loading times are ~30-40 seconds on initial boot, and
+  ~5-10 seconds on stage load, however, YMMV.</li>
+
+  <li>Port now incorporates more or less the latest version of both the RSDKv5 decomp
+  and Mania decomp (thanks <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/Mefiresu/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Mefiresu">@Mefiresu</a>
+  and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/c08oprkiua/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/c08oprkiua">@c08oprkiua</a>).</li>
+
+  <li>Game now <em>boots</em> on O3DS. However, don''t expect full-speed frame rates.
+  (thanks <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/smb123w64gb/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/smb123w64gb">@smb123w64gb</a>)
+  A Citro2D/3D backend is still planned to get performance up to speed.</li>
 
   </ul>
 
-  <p dir="auto">QR:</p>
-
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/18273084/190030405-13ba7354-02b4-40c4-bedb-77acb9df5e62.png"><img
-  src="https://user-images.githubusercontent.com/18273084/190030405-13ba7354-02b4-40c4-bedb-77acb9df5e62.png"
-  alt="smania" style="max-width: 100%;"></a></p>'
-updated: '2022-09-12T21:52:44Z'
-version: '1.0'
-version_title: v1.0 (sorry for taking so long on this)
+  <p dir="auto">Installation process is the same as before. Copy the <code class="notranslate">Data.rsdk</code>
+  or extracted <code class="notranslate">Data</code> folder to <code class="notranslate">/3ds/SonicMania</code>
+  on your 3DS''s SD Card.</p>'
+updated: '2025-05-08T00:17:23Z'
+version: v1.1.0
+version_title: v1.1.0
 website: https://gbatemp.net/threads/release-sonic-mania-3ds-port.618771/
 ---

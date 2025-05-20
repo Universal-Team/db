@@ -3,8 +3,6 @@ author: PabloMK7
 avatar: https://avatars.githubusercontent.com/u/10946643?v=4
 categories:
 - utility
-color: '#4bbbf5'
-color_bg: '#276180'
 created: '2018-07-26T21:22:25Z'
 description: Homebrew Launcher Loader - Dummy App
 download_page: https://github.com/mariohackandglitch/homebrew_launcher_dummy/releases
@@ -21,7 +19,7 @@ layout: app
 qr:
   Homebrew_Launcher.cia: https://db.universal-team.net/assets/images/qr/homebrew_launcher-cia.png
 source: https://github.com/PabloMK7/homebrew_launcher_dummy
-stars: 322
+stars: 327
 systems:
 - 3DS
 title: homebrew_launcher_dummy

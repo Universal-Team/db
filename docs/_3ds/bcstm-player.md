@@ -46,4 +46,5 @@ update_notes: '<p dir="auto">Fixed the 3dsx problem!<br>
 updated: '2023-01-17T14:15:17Z'
 version: v1.5.0
 version_title: v1.5.0
+wiki: https://github.com/NPI-D7/BCSTM-Player/wiki
 ---

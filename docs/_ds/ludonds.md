@@ -16,7 +16,6 @@ downloads:
 github: SuperSaiyajinStackZ/LudoNDS
 icon: https://db.universal-team.net/assets/images/icons/ludonds.png
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/LudoNDS/main/Cover_ReadMe.png
-image_length: 65046
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

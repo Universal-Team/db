@@ -3,8 +3,6 @@ author: Dangerbites
 avatar: https://avatars.githubusercontent.com/u/119724559?v=4
 categories:
 - game
-color: '#d2b8ca'
-color_bg: '#80707b'
 created: '2024-02-17T08:44:30Z'
 description: Port of Super Kawai Breakup Sim for the Nintendo 3DS
 download_page: https://github.com/Dangerbites/BreakupSimulator3DS/releases
@@ -42,6 +40,7 @@ update_notes: '<p dir="auto">First release of the game to github lmao</p>
 updated: '2024-02-17T09:20:35Z'
 version: Major
 version_title: Breakup Sim Portable v1.0
+wiki: https://github.com/Dangerbites/BreakupSimulator3DS/wiki
 ---
 In this dating game you need to break up with Cat Grill as soon as possible!! Make decisions to get the emotion meter down before the timer gets to 0!
 

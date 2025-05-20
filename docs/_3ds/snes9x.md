@@ -19,7 +19,7 @@ image: https://db.universal-team.net/assets/images/images/snes9x.png
 image_length: 5476
 layout: app
 source: https://github.com/bubble2k16/snes9x_3ds
-stars: 466
+stars: 467
 systems:
 - 3DS
 title: Snes9x
@@ -42,4 +42,5 @@ update_notes: '<ul dir="auto">
 updated: '2018-03-24T01:43:21Z'
 version: v1.30
 version_title: v1.30
+wiki: https://github.com/bubble2k16/snes9x_3ds/wiki
 ---

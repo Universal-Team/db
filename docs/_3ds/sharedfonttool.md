@@ -36,7 +36,7 @@ qr:
   SFontT.cia: https://db.universal-team.net/assets/images/qr/sfontt-cia.png
   SFontT80.cia: https://db.universal-team.net/assets/images/qr/sfontt80-cia.png
 source: https://github.com/dnasdw/SharedFontTool
-stars: 216
+stars: 217
 systems:
 - 3DS
 title: SharedFontTool
@@ -51,4 +51,5 @@ update_notes: '<p dir="auto">Fix START exit bug</p>
 updated: '2018-08-13T06:45:19Z'
 version: v3.1
 version_title: SharedFontTool v3.1
+wiki: https://github.com/dnasdw/SharedFontTool/wiki
 ---

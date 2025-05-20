@@ -20,7 +20,6 @@ downloads:
 github: joel16/3DSident
 icon: https://raw.githubusercontent.com/joel16/3DSident/master/console/res/icon.png
 image: https://raw.githubusercontent.com/joel16/3DSident/master/console/res/banner.png
-image_length: 21034
 layout: app
 license: zlib
 license_name: zlib License
@@ -32,7 +31,7 @@ screenshots:
 - description: Storage
   url: https://db.universal-team.net/assets/images/screenshots/3dsident/storage.png
 source: https://github.com/joel16/3DSident
-stars: 324
+stars: 327
 systems:
 - 3DS
 title: 3DSident

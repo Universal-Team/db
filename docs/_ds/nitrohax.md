@@ -3,8 +3,6 @@ author: Michael Chisholm
 avatar: https://avatars.githubusercontent.com/u/18148723?v=4
 categories:
 - utility
-color: '#750000'
-color_bg: '#750000'
 created: '2016-03-29T18:19:07Z'
 description: NitroHax cheat tool for Nintendo DS
 download_page: https://www.chishm.com/NitroHax/
@@ -14,7 +12,7 @@ downloads:
     size_str: 184 KiB
     url: https://www.chishm.com/NitroHax/NitroHax.zip
 github: chishm/nitrohax
-icon: https://db.universal-team.net/assets/images/icons/nitrohax.png
+icon: https://raw.githubusercontent.com/chishm/nitrohax/master/icon.bmp
 image: https://db.universal-team.net/assets/images/images/nitrohax.png
 image_length: 241
 layout: app
@@ -29,5 +27,6 @@ unistore_exclude: true
 updated: '2018-04-09T13:00:02Z'
 version: v0.94
 website: https://www.chishm.com/NitroHax/
+wiki: https://github.com/chishm/nitrohax/wiki
 ---
 This is for use on flashcards, if using the internal SD on DSi/3DS see [NitroHax3DS](nitrohax3ds).

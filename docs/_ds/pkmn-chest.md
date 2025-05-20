@@ -4,8 +4,6 @@ avatar: https://avatars.githubusercontent.com/u/49733679?v=4
 categories:
 - utility
 - save-tool
-color: '#964644'
-color_bg: '#803c3a'
 created: '2019-06-08T01:46:43Z'
 description: A Pokémon Bank for the 3rd through 5th generation Pokémon games for the
   Nintendo DS(i).
@@ -22,7 +20,6 @@ downloads:
 github: Universal-Team/pkmn-chest
 icon: https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/resources/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/pkmn-chest/master/resources/icon.png
-image_length: 381
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

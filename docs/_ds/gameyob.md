@@ -21,7 +21,7 @@ layout: app
 license: mit
 license_name: MIT License
 source: https://github.com/Stewmath/GameYob
-stars: 283
+stars: 284
 systems:
 - DS
 title: GameYob

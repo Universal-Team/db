@@ -154,5 +154,6 @@ updated: '2020-06-23T15:01:36Z'
 version: '1.0'
 version_title: uae3DS v1.0 Pancit
 website: https://gbatemp.net/threads/release-uae3ds-amiga-500-emulator-for-nintendo-3ds.558577/
+wiki: https://github.com/badda71/uae3DS/wiki
 ---
 Port of Chui's UAE4ALL Amiga 500 emulator (http://chui.dcemu.co.uk/uae4all.html) to Nintendo 3DS

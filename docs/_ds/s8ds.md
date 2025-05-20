@@ -16,7 +16,6 @@ downloads:
 github: FluBBaOfWard/S8DS
 icon: https://db.universal-team.net/assets/images/icons/s8ds.png
 image: https://db.universal-team.net/assets/images/icons/s8ds.png
-image_length: 630
 layout: app
 source: https://github.com/FluBBaOfWard/S8DS
 stars: 22
@@ -49,4 +48,5 @@ update_notes: '<ul dir="auto">
 updated: '2023-11-07T18:10:41Z'
 version: v1.1.7
 version_title: V1.1.7
+wiki: https://github.com/FluBBaOfWard/S8DS/wiki
 ---

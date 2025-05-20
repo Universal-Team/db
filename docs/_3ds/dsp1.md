@@ -24,7 +24,6 @@ downloads:
 github: zoogie/DSP1
 icon: https://raw.githubusercontent.com/zoogie/DSP1/master/cia/icon.png
 image: https://raw.githubusercontent.com/zoogie/DSP1/master/cia/banner.png
-image_length: 89291
 layout: app
 license: mit
 license_name: MIT License

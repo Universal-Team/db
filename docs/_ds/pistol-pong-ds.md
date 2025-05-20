@@ -63,6 +63,7 @@ update_notes: '<h2 dir="auto">The first release of Pistol Pong DS is here!</h2>
 updated: '2021-03-16T16:44:50Z'
 version: v1.0
 version_title: First release
+wiki: https://github.com/Jonatan6/Pistol-Pong-DS/wiki
 ---
 It's like the classic game pong, but with guns.
 

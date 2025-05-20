@@ -20,7 +20,6 @@ downloads:
 github: SuperSaiyajinStackZ/StackMill
 icon: https://raw.githubusercontent.com/SuperSaiyajinStackZ/StackMill/main/3DS/app/icon.png
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/StackMill/main/3DS/app/banner.png
-image_length: 6061
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
@@ -93,4 +92,5 @@ update_notes: '<p dir="auto">Yeah, i already said v0.4.0 was the latest, but ehh
 updated: '2022-01-24T21:23:43Z'
 version: v0.5.0
 version_title: The final final release of StackMill!
+wiki: https://github.com/SuperSaiyajinStackZ/StackMill/wiki
 ---

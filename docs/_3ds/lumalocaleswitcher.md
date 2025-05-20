@@ -21,14 +21,13 @@ downloads:
 github: Possum/LumaLocaleSwitcher
 icon: https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/meta/icon.png
 image: https://raw.githubusercontent.com/Possum/LumaLocaleSwitcher/master/meta/banner.png
-image_length: 39325
 layout: app
 license: mit
 license_name: MIT License
 qr:
   LumaLocaleSwitcher-0.04-NIGHTLY.cia: https://db.universal-team.net/assets/images/qr/lumalocaleswitcher-0-04-nightly-cia.png
 source: https://github.com/Possum/LumaLocaleSwitcher
-stars: 133
+stars: 134
 systems:
 - 3DS
 title: LumaLocaleSwitcher

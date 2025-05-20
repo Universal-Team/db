@@ -21,7 +21,7 @@ layout: app
 license: mit
 license_name: MIT License
 source: https://github.com/LiquidFenrir/CalculaThreeDS
-stars: 18
+stars: 19
 systems:
 - 3DS
 title: CalculaThreeDS

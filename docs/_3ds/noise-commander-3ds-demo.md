@@ -10,76 +10,99 @@ created: '2025-01-06T19:04:39Z'
 description: Beat-making audio sequencer and DJ-tool for the Nintendo 3DS
 download_page: https://github.com/gearmo3ds/noisecommander3dsdemo/releases
 downloads:
-  noisecmdr-v0_0_13-demo.cia:
-    size: 2294720
+  noisecmdr-v0_0_14-demo.cia:
+    size: 2495424
     size_str: 2 MiB
-    url: https://github.com/gearmo3ds/noisecommander3dsdemo/releases/download/0.0.13/noisecmdr-v0_0_13-demo.cia
+    url: https://github.com/gearmo3ds/noisecommander3dsdemo/releases/download/0.0.14/noisecmdr-v0_0_14-demo.cia
 github: gearmo3ds/noisecommander3dsdemo
 icon: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/icon.png
 image: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/banner.png
 image_length: 40664
 layout: app
 qr:
-  noisecmdr-v0_0_13-demo.cia: https://db.universal-team.net/assets/images/qr/noisecmdr-v0_0_13-demo-cia.png
+  noisecmdr-v0_0_14-demo.cia: https://db.universal-team.net/assets/images/qr/noisecmdr-v0_0_14-demo-cia.png
 source: https://github.com/gearmo3ds/noisecommander3dsdemo
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: Noise Commander 3DS (Demo)
-update_notes: '<h2 dir="auto">0.0.13</h2>
+update_notes: '<h2 dir="auto">0.0.14</h2>
 
   <h3 dir="auto">Added</h3>
 
   <ul dir="auto">
 
-  <li>Ability to start/stop playback by pressing the START button (play current row
-  when in clipmatrix view)</li>
+  <li>New Bus- and Master lanes in tracker- and clipmatrix view for automating effects
+  and volumes</li>
 
-  <li>Doubled Master- and bus-effects so each deck has their own - uses more CPU</li>
-
-  <li>Decks can be disabled in DJ-Mixer view to allow reducing CPU usage temporarily</li>
-
-  <li>Decks are initially disabled until the user starts playack</li>
-
-  <li>Rudimentary playlist functionality in twin-file browser
+  <li>Fade-commands for lane/bus-volume and bus-filter for long fades can be accessed
+  with B + D-UP/D-DOWN
 
   <ul dir="auto">
 
-  <li>Press X and choose "New Playlist" in menu</li>
+  <li>Available commands (upper case letter): fade (I)n, fade (O)ut,  set (T)arget,  slide
+  (U)p,  slide (D)own,  (S)top</li>
 
-  <li>With an *.nsm file highlighted, press X again and choose either "Copy" or "Add
-  to Playlist"</li>
+  <li>The time-unit is amount of steps, so larger values result in longer fades and
+  vice versa</li>
 
-  <li>Hold A + C-Pad Up/Down to re-order items inside the playlist</li>
-
-  <li>Press Select to cycle the panel-view-types: FILES -&gt; PLAYLIST -&gt; SAMPLES
-  (not implemented yet)</li>
-
-  <li>Press A to load a song to the current deck as usual</li>
-
-  <li>Press B to exit back to files mode and show the "/nc/playlists" directory</li>
-
-  <li>The current playlist selection is persists, remembered during next app launch</li>
+  <li>Only available on the lane-volume, bus-volume and bus-filter-cutoff columns
+  (more to come)</li>
 
   </ul>
 
   </li>
 
-  <li>Browser: Visual scroll-bars appear in long lists to indicate paging is possible
-  (press L/R to page)</li>
+  <li>Filter type option in Bus view: State Variable Filter LP/BP/HP and Biquad LP/BP/HP</li>
 
-  <li>Browser: Pressing Y toggles deck selection</li>
+  <li>Preliminary Filter-Cutoff Sine-LFO per bus with amount and rate setting</li>
 
-  <li>Browser: new functions: Dulicate, Rename, Create directory, Jump to opposite
-  dir</li>
+  <li>CIA files can now be installed from the file browser (press A when selected)</li>
 
-  <li>Browser: The operations above support multi-selection but currently directories
-  cannot be deleted or copied</li>
+  <li>Extremely simple waveform-view with truncating function (removes everything
+  before or after the cursor)</li>
 
-  <li>Browser: Multiple rows can be selected by holding X and moving the circle-pad
-  up/down</li>
+  <li>Factotum: Looper with pitch-shifting and time-stretching as a master effect.
+  Work in progress.</li>
 
-  <li>Header shows current deck''s'' loaded file name now</li>
+  <li>Parameter-columns can now be dynamically shown or hidden via B + D-LEFT (opens
+  a menu)</li>
+
+  <li>Pitch sliding (portamento): When a note has no instrument value, it will slide
+  to the new note</li>
+
+  <li>Pitch envelope (WIP) in third page of instrument-view</li>
+
+  <li>The time can be set via the PSlide instrument attribute and automated via the
+  new "GL" tracker-column</li>
+
+  <li>Added cross-fade button, produces seamless loop by fading the first half into
+  the second</li>
+
+  <li>Tracker: An entire row can now be deleted by holding B and pressing A twice
+  when the note e column is active</li>
+
+  <li>Log-widget (open with Select + DDOWN)</li>
+
+  <li>Rotary stepped-mode (toggle w. DLEFT while holding) - snaps to coarse parameter
+  values</li>
+
+  <li>Euclidean / Tracker screen-combo to allow selecting tracks quickly (press D-Right
+  three times to show)</li>
+
+  <li>B + DPAD-Left allows to choose which columns are displayed per individual lane</li>
+
+  <li>Clip-lengths in clip-launch-matrix view are now shown as hex values</li>
+
+  <li>Decimal value is shown in status-line when user changes hex-values</li>
+
+  <li>"Insert Note Stops" (to first call if doesn''t hold a note'') option in tracker
+  menu - to stop notes of previous pattern</li>
+
+  <li>"Apply mutes" option in clipmatrix-menu: Assigns clip zero to all muted lanes
+  and unmutes the</li>
+
+  <li>"Double/Halve content length" options to clipmatrix- and tracker menus</li>
 
   </ul>
 
@@ -87,36 +110,43 @@ update_notes: '<h2 dir="auto">0.0.13</h2>
 
   <ul dir="auto">
 
-  <li>Doubled Master- and bus-effects so each deck has their own - uses more CPU</li>
+  <li>Volume levels change! A square-law curve is now applied to make fades perceived
+  more evenly for humans</li>
 
-  <li>Toggling display in clipmatrix has been re-assigned to the L button</li>
+  <li>File browser: Directories can now be recursively copied or deleted</li>
 
-  <li>The right-hand status column now shows the currently playing row of track 1</li>
+  <li>Tracker: Follow is disabled when transport is stopped to avoid confusion (user
+  could not move cursor)</li>
 
-  <li>Audio init error now shows instructions on dumping DSP firmware to fix it</li>
+  <li>Tracker: Follow is now initially disabled (enable by pressing A)</li>
 
-  <li>Browser: Switching side with circle-pad left/right now</li>
+  <li>Tracker: Can now edit multiple values in selection mode</li>
 
-  <li>Browser: Cursor now stays in position when paging with L/R fore more comfort</li>
+  <li>Tracker: Value-insertion waits for button B release, to avoid unwanted insertions
+  (less confusing)</li>
 
-  <li>Browser: Pressing A when a .lst (playlist) file is selected opens it (switching
-  to PLAYLIST panel type)</li>
+  <li>Tracker: Releasing B on empty cell inserts previous value except if user moved
+  to a different column, then it''s the ''default value</li>
 
-  <li>Browser: Copying large files is now slightly faster</li>
+  <li>Tracker: Pressing B + A now deletes the selected values as you would expect</li>
 
-  <li>Browser: Shows warning when attempting to load song into deck which it playing
-  and audible (crossfader not off)</li>
+  <li>Tracker: Moving left when on the left most lane+column the cursor no longer
+  wraps to the right-most column</li>
 
-  </ul>
+  <li>Tracker: Horizontal scrolling changed internally</li>
 
-  <h3 dir="auto">Removed</h3>
+  <li>ClipMatrix: B + A clears selection or current cell like in tracker</li>
 
-  <ul dir="auto">
+  <li>ClipMatrix: Replaced "Duplicate uniquely" with "Duplicate slots unique" and
+  "Duplicate instr unique"</li>
 
-  <li>Opening a project or creating a project no longer auto-plays the deck (must
-  press Start now)</li>
+  <li>Tracker/ClipMatrix: No longer pasting at cursor x-position if clipboard is from
+  entire row but at 0 instead</li>
 
-  <li>Start button no longer cycles pages in instrument view, use B+Circle pad instead.</li>
+  <li>Drum pad selection reflects tracker-lane selection changes (and vice versa as
+  before)</li>
+
+  <li>Bus-number is displayed at top-right in drum pads</li>
 
   </ul>
 
@@ -124,14 +154,45 @@ update_notes: '<h2 dir="auto">0.0.13</h2>
 
   <ul dir="auto">
 
-  <li>DJMixer view: Both "Deck Gain" sliders affect only the selected deck instead
-  of respective side</li>
+  <li>Send effects on bus 4 have no effect</li>
+
+  <li>A loop end-point at the last frame produces a click because the interpolation
+  reaches out of range
+
+  <ul dir="auto">
+
+  <li>It means that single cycle samples can now be used, useful for chip-tunes</li>
+
+  </ul>
+
+  </li>
+
+  <li>Moving a selection upwards would cause a freeze when moved beyond the first
+  row</li>
+
+  <li>Flickering playhead in tracker-view during playback</li>
+
+  <li>Cannot insert value with B + C-Left (only C-Right worked)</li>
+
+  <li>Visual glitch in selection drawing where the cell before the value had differnt
+  color</li>
+
+  <li>Entering and exiting the Rosalina menu freezes the console, due to framebuffer
+  grab? (Still wonky but no more freezing)</li>
+
+  <li>Interpolating in row-selection mode freezes the app, now does nothing instead
+  (supports only column mode)</li>
+
+  <li>Trig condition: x out of x triggers every time</li>
+
+  <li>Http data leaks into file uploads via curl and corrupts them</li>
 
   </ul>'
-updated: '2025-04-10T10:55:56Z'
-version: 0.0.13
-version_title: Effects per deck, start/stop button, playlists and browser upgrades
+updated: '2025-05-16T17:00:49Z'
+version: 0.0.14
+version_title: I'm the Ed Wood of audio devs
 website: https://www.patreon.com/NoiseCommander3DS
+wiki: https://github.com/gearmo3ds/noisecommander3dsdemo/wiki
 ---
 Beat-making audio sequencer and DJ-tool
 

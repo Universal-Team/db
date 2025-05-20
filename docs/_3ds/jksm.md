@@ -17,7 +17,7 @@ downloads:
     size_str: 612 KiB
     url: https://github.com/J-D-K/JKSM/releases/download/05.08.2020/JKSM.cia
 github: J-D-K/JKSM
-icon: https://raw.githubusercontent.com/J-D-K/JKSM/master/icon.png
+icon: https://raw.githubusercontent.com/J-D-K/JKSM/master/JKSM/icon.png
 image: https://db.universal-team.net/assets/images/images/jksm.png
 image_length: 954
 layout: app
@@ -35,7 +35,7 @@ screenshots:
 - description: Title save file mode
   url: https://db.universal-team.net/assets/images/screenshots/jksm/title-save-file-mode.png
 source: https://github.com/J-D-K/JKSM
-stars: 370
+stars: 371
 systems:
 - 3DS
 title: JKSM

@@ -3,8 +3,6 @@ author: Core 2 Extreme
 avatar: https://avatars.githubusercontent.com/u/45873899?v=4
 categories:
 - app
-color: '#86de86'
-color_bg: '#4d804d'
 created: '2019-05-30T14:38:37Z'
 description: Line for 3DS
 download_page: https://github.com/Core-2-Extreme/Line_for_3DS/releases
@@ -30,7 +28,7 @@ script_message: 'Note: You will need to set up your account.
 
   How to set up: https://gbatemp.net/threads/539530'
 source: https://github.com/Core-2-Extreme/Line_for_3DS
-stars: 38
+stars: 39
 systems:
 - 3DS
 title: Line for 3DS

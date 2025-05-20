@@ -3,8 +3,6 @@ author: Théo B.
 avatar: https://avatars.githubusercontent.com/u/16072534?v=4
 categories:
 - utility
-color: '#0064ad'
-color_bg: '#004a80'
 created: '2017-04-27T20:00:17Z'
 description: attempt at a wifi slots saving/restore/edit on 3ds
 download_page: https://github.com/LiquidFenrir/WifiManager/releases
@@ -47,4 +45,5 @@ update_notes: '<p dir="auto">Fixes a bug introduced in the last release, sorry! 
 updated: '2018-01-15T23:19:27Z'
 version: v1.1.2
 version_title: Bugfixes and Instruction
+wiki: https://github.com/LiquidFenrir/WifiManager/wiki
 ---
