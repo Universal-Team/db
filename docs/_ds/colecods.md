@@ -26,6 +26,7 @@ downloads:
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
+image_length: 15870
 layout: app
 qr:
   ColecoDS.nds: https://db.universal-team.net/assets/images/qr/colecods-nds.png
@@ -56,5 +57,4 @@ update_notes: '<p dir="auto">V10.5: 14-Mar-2025 by wavemotion-dave</p>
 updated: '2025-03-15T21:20:55Z'
 version: '10.5'
 version_title: Version 10.5
-wiki: https://github.com/wavemotion-dave/ColecoDS/wiki
 ---

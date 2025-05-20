@@ -13,7 +13,6 @@ downloads: {}
 github: ClassiCube/ClassiCube
 icon: https://raw.githubusercontent.com/ClassiCube/ClassiCube/master/misc/3ds/icon.png
 image: https://raw.githubusercontent.com/ClassiCube/ClassiCube/master/misc/3ds/banner.png
-image_length: 10600
 layout: app
 license: other
 license_name: Other

@@ -77,6 +77,7 @@ update_notes: '<p dir="auto">Mars3DS, a retro style shooter 3DS homebrew, writte
 updated: '2024-01-05T01:51:12Z'
 version: v1.0.0
 version_title: Mars3DS v1.0.0 🚀
+wiki: https://github.com/BotRandomness/Mars3DS/wiki
 ---
 # Mars3DS!
 _A lost retro shooter ;)_

@@ -33,7 +33,6 @@ update_notes: '<p dir="auto">Yea here are the patches.<br>
 updated: '2023-08-22T17:19:59Z'
 version: main
 version_title: Initial release lol.
-wiki: https://github.com/TehFridge/ShutTheCamUp/wiki
 ---
 # DISCLAIMER
 I do not condone any misuses of this patch for malicious purposes or whatever.

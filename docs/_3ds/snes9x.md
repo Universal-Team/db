@@ -42,5 +42,4 @@ update_notes: '<ul dir="auto">
 updated: '2018-03-24T01:43:21Z'
 version: v1.30
 version_title: v1.30
-wiki: https://github.com/bubble2k16/snes9x_3ds/wiki
 ---

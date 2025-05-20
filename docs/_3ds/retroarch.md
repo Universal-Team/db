@@ -21,7 +21,6 @@ eval_notes_md: true
 github: libretro/RetroArch
 icon: https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/ctr/assets/default.png
 image: https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/ctr/assets/libretro_banner.png
-image_length: 3154
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

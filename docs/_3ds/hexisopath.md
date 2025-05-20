@@ -3,6 +3,8 @@ author: Théo B.
 avatar: https://avatars.githubusercontent.com/u/16072534?v=4
 categories:
 - game
+color: '#40c62f'
+color_bg: '#29801e'
 created: '2017-08-19T07:52:05Z'
 description: A 3DS port of the Hexagonal Iso-Path board game by youtuber pocket83
   !
@@ -19,6 +21,7 @@ downloads:
 github: LiquidFenrir/HexIsoPath
 icon: https://raw.githubusercontent.com/LiquidFenrir/HexIsoPath/master/icon.png
 image: https://raw.githubusercontent.com/LiquidFenrir/HexIsoPath/master/banner.png
+image_length: 6762
 layout: app
 license: mit
 license_name: MIT License
@@ -39,5 +42,4 @@ update_notes: '<p dir="auto">HexIsoPath now has local multiplayer, you dont need
 updated: '2018-01-02T15:26:49Z'
 version: v1.1.0
 version_title: Multiplayer and instructions!
-wiki: https://github.com/LiquidFenrir/HexIsoPath/wiki
 ---

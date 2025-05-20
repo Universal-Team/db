@@ -51,5 +51,4 @@ update_notes: '<p dir="auto">Fix START exit bug</p>
 updated: '2018-08-13T06:45:19Z'
 version: v3.1
 version_title: SharedFontTool v3.1
-wiki: https://github.com/dnasdw/SharedFontTool/wiki
 ---

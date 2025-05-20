@@ -3,6 +3,8 @@ author: Carl Hewett
 avatar: https://avatars.githubusercontent.com/u/4166251?v=4
 categories:
 - game
+color: '#50837f'
+color_bg: '#4e807c'
 created: '2022-12-23T03:45:08Z'
 description: 🐛 Pangea Software's Bugdom for modern systems
 download_page: https://github.com/fordcars/Bugdom/releases

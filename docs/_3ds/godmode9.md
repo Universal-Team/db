@@ -17,6 +17,7 @@ downloads:
     url: https://github.com/d0k3/GodMode9/releases/download/v2.1.1/GodMode9-v2.1.1-20220322194259.zip
 github: d0k3/GodMode9
 image: https://raw.githubusercontent.com/d0k3/GodMode9/master/resources/logo.png
+image_length: 9316
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
@@ -181,7 +182,7 @@ prerelease:
   version: v2.2.0
   version_title: GodMode9 v2.2.0 Ninth Anniversary Release
 source: https://github.com/d0k3/GodMode9
-stars: 2278
+stars: 2279
 systems:
 - 3DS
 title: GodMode9

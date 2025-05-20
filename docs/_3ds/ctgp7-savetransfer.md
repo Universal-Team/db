@@ -4,6 +4,8 @@ avatar: https://avatars.githubusercontent.com/u/35138367?v=4
 categories:
 - utility
 - save-tool
+color: '#633f3e'
+color_bg: '#633f3e'
 created: '2022-07-26T21:35:24Z'
 description: Save data copier between MK7 and CTGP-7
 download_page: https://github.com/CyberYoshi64/CTGP7-SaveTransfer/releases

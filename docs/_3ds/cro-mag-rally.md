@@ -3,6 +3,8 @@ author: Carl Hewett
 avatar: https://avatars.githubusercontent.com/u/4166251?v=4
 categories:
 - game
+color: '#615851'
+color_bg: '#615851'
 created: '2022-07-01T18:05:30Z'
 description: The wildest racing game since man invented the wheel!
 download_page: https://github.com/fordcars/CroMagRally/releases

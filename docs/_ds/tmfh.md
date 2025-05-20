@@ -39,6 +39,5 @@ update_notes: '<h3 dir="auto">IMPORTAINT: <a href="https://github.com/Epicpkmn11
 updated: '2019-06-27T01:36:05Z'
 version: v0.7.0
 version_title: 0.7.0
-wiki: https://github.com/JeffRuLz/TMFH/wiki
 ---
 TMFH is no longer in development, [NTM](/ds/NTM) is a newer fork with additional features.

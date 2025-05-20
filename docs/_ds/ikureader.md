@@ -24,6 +24,7 @@ downloads:
 github: awkitsune/IkuReader
 icon: https://db.universal-team.net/assets/images/icons/ikureader.png
 image: https://db.universal-team.net/assets/images/icons/ikureader.png
+image_length: 630
 layout: app
 license: mit
 license_name: MIT License
@@ -48,6 +49,5 @@ update_notes: '<p dir="auto">Fix for fonts chooser and now errors are more convi
 updated: '2023-08-22T16:03:52Z'
 version: 6.5_modern
 version_title: 'v6.5 with all bugs fixed '
-wiki: https://github.com/awkitsune/IkuReader/wiki
 ---
 Ebook reader compatible with fb2, epub and txt file formats. Updated original source code to be compatible with DSi, TMFH and HiyaCfw.
