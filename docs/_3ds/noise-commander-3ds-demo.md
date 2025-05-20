@@ -17,7 +17,6 @@ downloads:
 github: gearmo3ds/noisecommander3dsdemo
 icon: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/icon.png
 image: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/banner.png
-image_length: 40664
 layout: app
 qr:
   noisecmdr-v0_0_14-demo.cia: https://db.universal-team.net/assets/images/qr/noisecmdr-v0_0_14-demo-cia.png

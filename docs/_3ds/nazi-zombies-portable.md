@@ -76,6 +76,7 @@ updated: '2025-05-13T07:26:52Z'
 version: nightly
 version_title: 2.0.0-indev+20250513072554
 website: https://github.com/nzp-team/nzportable
+wiki: https://github.com/nzp-team/nzportable/wiki
 ---
 A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at War.
 
