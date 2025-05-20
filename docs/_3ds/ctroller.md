@@ -4,8 +4,6 @@ autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/10487782?v=4
 categories:
 - utility
-color: '#a8a8a8'
-color_bg: '#808080'
 created: '2016-05-09T16:49:33Z'
 description: Use your 3DS as a gamepad on linux
 download_page: https://github.com/phijor/ctroller/releases
@@ -78,4 +76,5 @@ update_notes: '<h1 dir="auto">Features</h1>
 updated: '2016-06-15T19:03:12Z'
 version: 0.4.0
 version_title: '0.4.0: Virtual device rework and gyroscope support'
+wiki: https://github.com/phijor/ctroller/wiki
 ---

@@ -30,7 +30,6 @@ downloads:
 github: DS-Homebrew/GodMode9i
 icon: https://db.universal-team.net/assets/images/icons/godmode9i.png
 image: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png
-image_length: 44248
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
@@ -39,7 +38,7 @@ qr:
   GodMode9i.dsi: https://db.universal-team.net/assets/images/qr/godmode9i-dsi.png
   GodMode9i.nds: https://db.universal-team.net/assets/images/qr/godmode9i-nds.png
 source: https://github.com/DS-Homebrew/GodMode9i
-stars: 536
+stars: 537
 systems:
 - DS
 title: GodMode9i

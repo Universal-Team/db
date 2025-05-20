@@ -15,7 +15,6 @@ downloads:
 github: fauxfennec/OFF3DS
 icon: https://raw.githubusercontent.com/fauxfennec/OFF3DS/main/icon.png
 image: https://raw.githubusercontent.com/fauxfennec/OFF3DS/main/logo.png
-image_length: 94636
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

@@ -76,7 +76,6 @@ update_notes: '<p dir="auto">This is the fifth public release of rehid.<br>
 updated: '2023-07-21T04:27:05Z'
 version: v4.0
 version_title: v4.0 Fifth Release
-wiki: https://github.com/hax0kartik/rehid/wiki
 ---
 # Rehid
 

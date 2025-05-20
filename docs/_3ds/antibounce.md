@@ -21,7 +21,6 @@ downloads:
 github: TurtleP/Antibounce
 icon: https://raw.githubusercontent.com/TurtleP/Antibounce/master/graphics/icon.png
 image: https://raw.githubusercontent.com/TurtleP/Antibounce/master/graphics/title.png
-image_length: 1031
 layout: app
 qr:
   Antibounce.cia: https://db.universal-team.net/assets/images/qr/antibounce-cia.png

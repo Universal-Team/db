@@ -45,6 +45,5 @@ update_notes: '<h2 dir="auto">Changelog:</h2>
 updated: '2023-03-17T23:58:17Z'
 version: v1.1.1
 version_title: 1.1.1 - Added estimated cost display
-wiki: https://github.com/CarsonKompon/ChatGPT3DS/wiki
 ---
 Make calls to OpenAI's chat completion and image generation API. Requires an [OpenAI API Key](https://platform.openai.com/account/api-keys) with billing set up.

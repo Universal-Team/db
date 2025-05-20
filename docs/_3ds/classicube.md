@@ -13,6 +13,7 @@ downloads: {}
 github: ClassiCube/ClassiCube
 icon: https://raw.githubusercontent.com/ClassiCube/ClassiCube/master/misc/3ds/icon.png
 image: https://raw.githubusercontent.com/ClassiCube/ClassiCube/master/misc/3ds/banner.png
+image_length: 10600
 layout: app
 license: other
 license_name: Other
@@ -26,7 +27,7 @@ nightly:
   qr:
     ClassiCube-3ds.cia: https://db.universal-team.net/assets/images/qr/nightly/classicube-3ds-cia.png
 source: https://github.com/ClassiCube/ClassiCube
-stars: 1665
+stars: 1666
 systems:
 - 3DS
 title: ClassiCube

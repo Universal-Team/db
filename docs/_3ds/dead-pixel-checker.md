@@ -38,5 +38,6 @@ update_notes: '<p dir="auto">The initial release.</p>
 updated: '2025-03-11T18:59:50Z'
 version: '1.0'
 version_title: 1.0.0
+wiki: https://github.com/classyham/3DS_DeadPixelChecker/wiki
 ---
 Cycles through colours to check for dead (sub)pixels

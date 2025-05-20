@@ -17,6 +17,7 @@ downloads:
 github: DesperateProgrammer/ParkingRampage
 icon: https://db.universal-team.net/assets/images/icons/parkinrampage.png
 image: https://raw.githubusercontent.com/DesperateProgrammer/ParkingRampage/main/gfx/title.png
+image_length: 23442
 layout: app
 license: bsd-3-clause
 license_name: BSD 3-Clause "New" or "Revised" License
@@ -31,6 +32,5 @@ updated: '2021-01-02T20:17:30Z'
 version: '02012021'
 version_title: Parkin'Rampage 02012021
 website: https://mighty-max.itch.io/parkin-rampage
-wiki: https://github.com/DesperateProgrammer/ParkingRampage/wiki
 ---
 Navigate the police out of the jammed parking lot!

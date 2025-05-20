@@ -28,6 +28,7 @@ downloads:
 github: SaturnSH2x2/Sonic-CD-11-Decompilation
 icon: https://raw.githubusercontent.com/SaturnSH2x2/Sonic-CD-11-Decompilation/master/resources/48x48.png
 image: https://raw.githubusercontent.com/SaturnSH2x2/Sonic-CD-11-Decompilation/master/resources/banner.png
+image_length: 66191
 layout: app
 license: other
 license_name: Other
@@ -67,7 +68,6 @@ update_notes: '<h2>Changelog</h2>
 updated: '2021-08-20T02:51:47Z'
 version: v1.32
 version_title: Mobile RSDK Hotfix
-wiki: https://github.com/SaturnSH2x2/Sonic-CD-11-3DS/wiki
 ---
 Port of Sonic CD to the 3DS, based on Rubberduckycooly's Sonic CD decompilation.
 
