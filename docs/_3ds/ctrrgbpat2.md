@@ -3,6 +3,8 @@ author: CPunch & Golem64
 avatar: https://avatars.githubusercontent.com/u/65229557?v=4
 categories:
 - utility
+color: '#4887af'
+color_bg: '#346280'
 created: '2023-05-11T08:48:45Z'
 description: LED color and pattern modifier for 3DS. Customize your notifications
   however you want !
