@@ -10,21 +10,21 @@ description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
   TWiLightMenu-3DS.7z:
-    size: 45474611
+    size: 45545531
     size_str: 43 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.13.3/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.14.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 45359095
+    size: 45428376
     size_str: 43 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.13.3/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.14.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 56404566
+    size: 56470540
     size_str: 53 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.13.3/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.14.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 56624647
+    size: 56697499
     size_str: 54 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.13.3/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.14.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -38,8 +38,8 @@ stars: 3502
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.4.6">nds-bootstrap
-  v2.4.6</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.5.0">nds-bootstrap
+  v2.5.0</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -59,17 +59,57 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>The autoboot file for Stargate 3DS flashcards has been added from nds-miniboot
-  (by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/asiekierka/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/asiekierka">@asiekierka</a>).</li>
+  <li>The <code class="notranslate">Color Mode</code> setting has been renamed to
+  <code class="notranslate">Screen Filter</code>.</li>
 
-  <li>Turning off the <code class="notranslate">Filename Display</code> setting will
-  now hide filetypes/file extensions for banner-less titles.</li>
+  <li>More screen filters have been added (to <code class="notranslate">sd:/_nds/colorLut/</code>)!
 
-  <li>The <code class="notranslate">Filename Display</code> setting is now visible
-  in macro mode, but shown as <code class="notranslate">Filename as banner text</code>.</li>
+  <ul dir="auto">
 
-  <li>Various: Updated translations.</li>
+  <li>Inverted</li>
+
+  <li>[10000K] Aquarium</li>
+
+  <li>[7500K] Overcast Sky</li>
+
+  <li>[5500K] Daylight</li>
+
+  <li>[4200K] Fluorescent</li>
+
+  <li>[3400K] Halogen</li>
+
+  <li>[2700K] Incandescent</li>
+
+  <li>[2300K] Warm Incandescent</li>
+
+  <li>[1900K] Candle</li>
+
+  <li>[1200K] Ember</li>
+
+  <li>(The <code class="notranslate">AGB-001</code> filter has been removed, as it''s
+  more of a color correction LUT.)</li>
+
+  <li>(Replaced the <code class="notranslate">Grayscale</code> filter, as it''s no
+  longer the filter from PicoDriveDS/TWL.)</li>
+
+  </ul>
+
+  </li>
+
+  <li>With nds-bootstrap adding support for DS Phat colors (on DSi/3DS consoles),
+  the <code class="notranslate">DS Phat Colors</code> setting is now displayed in
+  the per-game settings menu!
+
+  <ul dir="auto">
+
+  <li>Not displayed for Memory Pit users.</li>
+
+  </ul>
+
+  </li>
+
+  <li><strong>R4 and Wood UIs:</strong> As an attempt to improve scrolling speeds,
+  an LRU cache for headers &amp; banner icons has been added!</li>
 
   </ul>
 
@@ -77,21 +117,15 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li><strong>DSi-based UIs:</strong> Fixed long cheat descriptions overlapping the
-  <code class="notranslate">Back</code> text. Long descriptions will now hide the
-  game icon and <code class="notranslate">Cheats</code> text.</li>
+  <li><strong>Wood UI:</strong> Fixed a bug where game titles would display over folders.</li>
 
-  <li>Fixed retail ROMs containing a cracktro or extra splash (as well as the 3-in-1
-  Pokepatched Gen 4 ROMs) being detected as homebrew, in order to fix the white screen
-  crash. Such ROMs may be hacked and/or translated.</li>
-
-  <li>The <code class="notranslate">System Volume Information</code> folder is now
-  hidden, in case if it has appeared for certain users.</li>
+  <li><strong>Wood UI:</strong> Fixed the game title listings not being cleared before
+  displaying the AP message.</li>
 
   </ul>'
-updated: '2025-05-09T01:27:51Z'
-version: v27.13.3
-version_title: v27.13.3
+updated: '2025-05-24T03:09:26Z'
+version: v27.14.0
+version_title: v27.14.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
