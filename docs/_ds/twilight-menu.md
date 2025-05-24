@@ -122,6 +122,16 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   <li><strong>Wood UI:</strong> Fixed the game title listings not being cleared before
   displaying the AP message.</li>
 
+  </ul>
+
+  <h3 dir="auto">Known bug</h3>
+
+  <ul dir="auto">
+
+  <li>When using the warm screen filters (starting at 4200K or lower), white fades
+  will be converted into black fades, as it is not possible to change master brightness
+  colors.</li>
+
   </ul>'
 updated: '2025-05-24T03:09:26Z'
 version: v27.14.0

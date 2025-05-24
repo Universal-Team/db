@@ -59,7 +59,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   </li>
 
   <li><strong>DSi/3DS:</strong> DS Phat colors can now be displayed! Some early DS
-  games will benefit from this feature.
+  games may benefit from this feature.
 
   <ul dir="auto">
 
@@ -149,6 +149,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <li>Plenty of the problematic games have been blacklisted from using the color LUT
   system, but some other games may still have those issues.</li>
+
+  <li>The system is also incompatible with homebrew titles.</li>
 
   </ul>
 
