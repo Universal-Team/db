@@ -25,8 +25,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.4.6">nds-bootstrap
-  v2.4.6</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.5.0">nds-bootstrap
+  v2.5.0</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -54,16 +54,18 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
-  <h3 dir="auto">Bug fix</h3>
+  <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Fixed retail ROMs containing a cracktro or extra splash (as well as the 3-in-1
-  Pokepatched Gen 4 ROMs) being detected as homebrew, in order to fix the white screen
-  crash. Such ROMs may be hacked and/or translated.</li>
+  <li>Added <code class="notranslate">DS Phat Colors</code> per-game setting for DSi/3DS
+  users.</li>
+
+  <li>Removed <code class="notranslate">Card Read DMA</code> per-game setting for
+  flashcard users.</li>
 
   </ul>'
-updated: '2025-05-09T01:32:07Z'
-version: SD-23
-version_title: 'GitHub Release #23'
+updated: '2025-05-24T04:16:42Z'
+version: SD-24
+version_title: 'GitHub Release #24'
 ---
