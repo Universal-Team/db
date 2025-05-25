@@ -21,7 +21,7 @@ layout: app
 license: mit
 license_name: MIT License
 source: https://github.com/zoogie/seedminer
-stars: 102
+stars: 101
 systems:
 - 3DS
 title: seedminer
