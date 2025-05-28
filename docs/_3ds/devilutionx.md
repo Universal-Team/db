@@ -21,6 +21,7 @@ downloads:
 github: diasurgical/devilutionX
 icon: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/icon.png
 image: https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/banner.png
+image_length: 37280
 layout: app
 license: other
 license_name: Other
