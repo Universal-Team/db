@@ -36,7 +36,7 @@ prerelease:
   version: 4.2.5-389-g1b3978f8d
   version_title: 4.2.5-389-g1b3978f8d
 source: https://github.com/angband/angband
-stars: 1388
+stars: 1389
 systems:
 - 3DS
 - DS
