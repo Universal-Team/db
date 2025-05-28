@@ -17,7 +17,6 @@ downloads:
 github: MechanicalDragon0687/TWLFix-CFW
 icon: https://raw.githubusercontent.com/MechanicalDragon0687/TWLFix-CFW/master/icon.png
 image: https://raw.githubusercontent.com/MechanicalDragon0687/TWLFix-CFW/master/icon.png
-image_length: 614
 layout: app
 license: mit
 license_name: MIT License

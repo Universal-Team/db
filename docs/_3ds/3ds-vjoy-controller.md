@@ -29,6 +29,7 @@ update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-l
 updated: '2024-05-04T11:14:06Z'
 version: v1.1
 version_title: Probably final release😭
+wiki: https://github.com/StringJan/3ds-vJoy-controller/wiki
 ---
 With this, you can use one or more 3DS consoles as a single, coherent controller on your PC.
 

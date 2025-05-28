@@ -16,7 +16,6 @@ downloads:
 github: nop90/Xrick-3ds
 icon: https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/banner.png
-image_length: 21816
 layout: app
 source: https://github.com/nop90/Xrick-3ds
 stars: 2

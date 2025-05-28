@@ -3,8 +3,6 @@ author: Tobias
 avatar: https://avatars.githubusercontent.com/u/31214870?v=4
 categories:
 - game
-color: '#a39f9f'
-color_bg: '#807c7c'
 created: '2022-07-23T18:26:29Z'
 description: Visualisation of some sorting algorithms on the Nintendo 3DS
 download_page: https://github.com/memeToasty/3ds_sorting/releases
