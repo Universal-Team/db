@@ -3,6 +3,8 @@ author: SaturnSH2x2
 avatar: https://avatars.githubusercontent.com/u/18273084?v=4
 categories:
 - game
+color: '#989e7f'
+color_bg: '#7b8066'
 created: '2022-08-16T22:06:31Z'
 description: Sonic Mania (n3DS only)
 download_page: https://github.com/SaturnSH2x2/RSDKv5-Decompilation/releases
