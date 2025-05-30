@@ -3,8 +3,6 @@ author: Garhoogin
 avatar: https://avatars.githubusercontent.com/u/22681618?v=4
 categories:
 - game
-color: '#5b473d'
-color_bg: '#5b473d'
 created: '2021-08-16T03:31:52Z'
 description: Close The Box but made terribly on the DS
 download_page: https://github.com/Garhoogin/Box/releases
@@ -14,7 +12,7 @@ downloads:
     size_str: 435 KiB
     url: https://github.com/Garhoogin/Box/releases/download/v1.0.0.0/box.nds
 github: Garhoogin/Box
-icon: https://db.universal-team.net/assets/images/icons/box.png
+icon: https://raw.githubusercontent.com/Garhoogin/Box/main/icon.bmp
 image: https://db.universal-team.net/assets/images/images/box.png
 image_length: 405
 layout: app

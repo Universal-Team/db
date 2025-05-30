@@ -75,6 +75,7 @@ update_notes: '<ul>
 updated: '2024-07-16T21:01:32Z'
 version: v1.2.0
 version_title: The Fourth Release
+wiki: https://github.com/azahar-emu/ArticBaseServer/wiki
 ---
 Allows playing your physical or digital games on an emulator without having to dump them.
 

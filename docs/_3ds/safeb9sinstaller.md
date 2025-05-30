@@ -4,8 +4,6 @@ avatar: https://avatars.githubusercontent.com/u/12467483?v=4
 categories:
 - utility
 - firm
-color: '#9fa1a7'
-color_bg: '#797b80'
 created: '2017-01-31T11:21:46Z'
 description: Safe, simple, user-friendly installer for sighaxed FIRMs
 download_page: https://github.com/d0k3/SafeB9SInstaller/releases

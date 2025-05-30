@@ -21,7 +21,6 @@ downloads:
 github: BlyZeYT/Paint3DS
 icon: https://raw.githubusercontent.com/BlyZeYT/Paint3DS/refs/heads/master/assets/icon.png
 image: https://raw.githubusercontent.com/BlyZeYT/Paint3DS/refs/heads/master/assets/banner.png
-image_length: 16518
 layout: app
 license: mit
 license_name: MIT License

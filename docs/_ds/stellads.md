@@ -22,7 +22,6 @@ downloads:
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
-image_length: 10279
 layout: app
 license: other
 license_name: Other
