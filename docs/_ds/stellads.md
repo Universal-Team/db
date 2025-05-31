@@ -29,7 +29,7 @@ license_name: Other
 qr:
   StellaDS.nds: https://db.universal-team.net/assets/images/qr/stellads-nds.png
 source: https://github.com/wavemotion-dave/StellaDS
-stars: 38
+stars: 39
 systems:
 - DS
 title: StellaDS
