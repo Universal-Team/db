@@ -36,7 +36,7 @@ prerelease:
   version: 4.2.5-395-ge45cc1e7d
   version_title: 4.2.5-395-ge45cc1e7d
 source: https://github.com/angband/angband
-stars: 1391
+stars: 1392
 systems:
 - 3DS
 - DS
