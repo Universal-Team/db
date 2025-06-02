@@ -10,14 +10,14 @@ created: '2024-06-27T17:49:31Z'
 description: A polished cheat plugin for Mario Kart 7, now with anticheat!
 download_page: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases
 downloads:
-  Plugin.Pack.zip:
-    size: 598408
-    size_str: 584 KiB
-    url: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.6/Plugin.Pack.zip
   plugin.3gx:
     size: 935243
     size_str: 913 KiB
     url: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.6/plugin.3gx
+  plugin.pack.zip:
+    size: 586261
+    size_str: 572 KiB
+    url: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.6/plugin.pack.zip
 github: SFC-hacker/Mario-Kart-7-Plugin-Deluxe
 image: https://avatars.githubusercontent.com/u/67318218?v=4&size=128
 image_length: 4502
@@ -41,8 +41,8 @@ update_notes: '<p dir="auto">Mario Kart 7 Plugin Deluxe v3.0.6</p>
   0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304
   0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6
   15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg>Tip</p><p
-  dir="auto">This plugin is compatible with Luma v13.3 (latest boot.firm in the Plugin
-  Pack)</p>
+  dir="auto">This plugin is compatible with Luma v13.3.2 (latest boot.firm in the
+  plugin pack)</p>
 
   </div>
 
