@@ -3,8 +3,6 @@ author: Brandon
 avatar: https://avatars.githubusercontent.com/u/824564?v=4
 categories:
 - game
-color: '#8b8c8b'
-color_bg: '#7f807f'
 created: '2016-03-04T08:01:22Z'
 description: Panel de Pon (Tetris Attack) clone for the 3ds.
 download_page: https://github.com/TricksterGuy/bottomless-block-barrage/releases
@@ -20,7 +18,6 @@ downloads:
 github: TricksterGuy/bottomless-block-barrage
 icon: https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/master/resources/icon.png
 image: https://raw.githubusercontent.com/TricksterGuy/bottomless-block-barrage/master/resources/banner.png
-image_length: 42720
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

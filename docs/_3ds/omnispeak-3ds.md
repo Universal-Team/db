@@ -42,6 +42,7 @@ updated: '2023-06-29T02:50:17Z'
 version: 3ds-V1.0.0
 version_title: Release build
 website: https://davidgow.net/keen/omnispeak.html
+wiki: https://github.com/RetroGamer02/omnispeak-3ds/wiki
 ---
 OmniSpeak is an open source game engine for playing the MSDOS Commander Keen Galaxy Games 4, 5, and 6.
 

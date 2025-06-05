@@ -20,7 +20,6 @@ downloads:
 github: Zachary-Rude/Snake-for-3DS
 icon: https://raw.githubusercontent.com/Zachary-Rude/Snake-for-3DS/master/icon.png
 image: https://raw.githubusercontent.com/Zachary-Rude/Snake-for-3DS/master/banner.png
-image_length: 2179
 layout: app
 license: mit
 license_name: MIT License

@@ -20,7 +20,6 @@ downloads:
 github: SaturnSH2x2/RSDKv5-Decompilation
 icon: https://raw.githubusercontent.com/SaturnSH2x2/RSDKv5-Decompilation/3ds-main/3ds/48x48.png
 image: https://raw.githubusercontent.com/SaturnSH2x2/RSDKv5-Decompilation/3ds-main/3ds/banner.png
-image_length: 61351
 layout: app
 license: other
 license_name: Other
@@ -94,4 +93,5 @@ updated: '2025-05-08T00:17:23Z'
 version: v1.1.0
 version_title: v1.1.0
 website: https://gbatemp.net/threads/release-sonic-mania-3ds-port.618771/
+wiki: https://github.com/SaturnSH2x2/RSDKv5-Decompilation/wiki
 ---

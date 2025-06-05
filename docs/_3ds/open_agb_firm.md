@@ -73,4 +73,5 @@ update_notes: '<h2 dir="auto">What''s Changed</h2>
 updated: '2024-12-24T13:26:59Z'
 version: beta_2024-12-24
 version_title: open_agb_firm beta build 2024-12-24
+wiki: https://github.com/profi200/open_agb_firm/wiki
 ---

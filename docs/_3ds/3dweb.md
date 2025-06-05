@@ -20,7 +20,6 @@ downloads:
 github: WLHQ/3DWEB
 icon: https://raw.githubusercontent.com/WLHQ/3DWEB/main/resources/icon.png
 image: https://raw.githubusercontent.com/WLHQ/3DWEB/main/resources/banner.png
-image_length: 12457
 layout: app
 license: mit
 license_name: MIT License

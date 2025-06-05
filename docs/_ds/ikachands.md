@@ -20,7 +20,6 @@ downloads:
 github: awkitsune/IkachanDS
 icon: https://db.universal-team.net/assets/images/icons/ikachands.png
 image: https://db.universal-team.net/assets/images/icons/ikachands.png
-image_length: 630
 layout: app
 qr:
   IkachanDS.dsi: https://db.universal-team.net/assets/images/qr/ikachands-dsi.png

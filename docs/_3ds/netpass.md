@@ -10,13 +10,13 @@ description: A new way to experience StreetPass
 download_page: https://gitlab.com/Sorunome/3ds-streetpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 3937924
+    size: 4076012
     size_str: 3 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/ed41ecdc752996bf75993ab639c59d6c0ad7512c/netpass.3dsx?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/7da55c416290b999724b86f1cf14d8d73242e1bc/netpass.3dsx?inline=false
   netpass.cia:
-    size: 4117440
+    size: 4178880
     size_str: 3 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/ed41ecdc752996bf75993ab639c59d6c0ad7512c/netpass.cia?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/7da55c416290b999724b86f1cf14d8d73242e1bc/netpass.cia?inline=false
 gitlab: Sorunome/3ds-streetpass
 icon: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/meta/icon.png
@@ -33,12 +33,12 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <ul data-sourcepos="1:2-4:37" dir="auto">&#x000A;<li data-sourcepos="1:2-1:40">Check
-  for firmware version on startup</li>&#x000A;<li data-sourcepos="2:2-2:31">Add option
-  to remove patches</li>&#x000A;<li data-sourcepos="3:2-3:42">Add option to turn off
-  background music</li>&#x000A;<li data-sourcepos="4:2-4:37">Fix back alley not saving
-  properly</li>&#x000A;</ul>
-updated: '2025-04-17T17:10:58.247Z'
-version: v1.0.1
-version_title: v1.0.1
+update_notes: <ul data-sourcepos="1:2-5:33" dir="auto">&#x000A;<li data-sourcepos="1:2-1:75">Fix
+  version detection being broken for people using luma locale switcher</li>&#x000A;<li
+  data-sourcepos="2:2-2:23">Better error display</li>&#x000A;<li data-sourcepos="3:2-3:31">Preparations
+  for new feature</li>&#x000A;<li data-sourcepos="4:2-4:22">Various small fixes</li>&#x000A;<li
+  data-sourcepos="5:2-5:33">Gray out last location visited</li>&#x000A;</ul>
+updated: '2025-06-04T19:14:17.348Z'
+version: v1.0.2
+version_title: v1.0.2
 ---

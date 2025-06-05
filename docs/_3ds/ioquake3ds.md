@@ -83,4 +83,5 @@ update_notes: '<h1 dir="auto">Instructions for Quake 3:</h1>
 updated: '2022-10-30T23:15:15Z'
 version: v1.2.0
 version_title: 3DS port v1.2.0
+wiki: https://github.com/masterfeizz/ioQuake3DS/wiki
 ---
