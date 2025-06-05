@@ -3,6 +3,8 @@ author: Floogle
 avatar: https://avatars.githubusercontent.com/u/18466542?v=4
 categories:
 - emulator
+color: '#d3d2d2'
+color_bg: '#807f7f'
 created: '2023-06-18T19:13:04Z'
 description: A Virtual Boy emulator for the 3DS
 download_page: https://github.com/skyfloogle/red-viper/releases
@@ -18,6 +20,7 @@ downloads:
 github: skyfloogle/red-viper
 icon: https://raw.githubusercontent.com/skyfloogle/red-viper/master/icon.png
 image: https://raw.githubusercontent.com/skyfloogle/red-viper/master/resources/banner.png
+image_length: 6527
 layout: app
 qr:
   red-viper.cia: https://db.universal-team.net/assets/images/qr/red-viper-cia.png

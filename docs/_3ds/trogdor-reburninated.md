@@ -21,6 +21,7 @@ downloads:
 github: Mips96/Trogdor-Reburninated
 icon: https://raw.githubusercontent.com/Mips96/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/logo_icon_android_48.png
 image: https://raw.githubusercontent.com/Mips96/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/background_psp.png
+image_length: 14597
 layout: app
 license: mit
 license_name: MIT License

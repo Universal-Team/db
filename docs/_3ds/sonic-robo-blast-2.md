@@ -53,7 +53,6 @@ update_notes: '<p dir="auto">Changelog:</p>
 updated: '2019-01-22T18:01:13Z'
 version: v1.1.3
 version_title: SRB2 3DS v1.1.3
-wiki: https://github.com/derrekr/srb2_3ds/wiki
 ---
 ### THIS IS FOR NEW 3DS ONLY. IT WILL NOT RUN ON OLD 3DS.
 

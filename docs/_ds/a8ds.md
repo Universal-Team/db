@@ -3,6 +3,8 @@ author: wavemotion-dave
 avatar: https://avatars.githubusercontent.com/u/75039837?v=4
 categories:
 - emulator
+color: '#645962'
+color_bg: '#645962'
 created: '2021-01-31T00:11:41Z'
 description: A8DS An Atari 8-bit Computer Emulator for the DS/DSi and includes virtually
   anything the Atari 8-bit computers can run.
@@ -25,7 +27,7 @@ downloads:
     size_str: 34 KiB
     url: https://github.com/wavemotion-dave/A8DS/releases/download/4.2/readme.md
 github: wavemotion-dave/A8DS
-icon: https://raw.githubusercontent.com/wavemotion-dave/A8DS/main/logo.bmp
+icon: https://db.universal-team.net/assets/images/icons/a8ds.png
 image: https://raw.githubusercontent.com/wavemotion-dave/A8DS/main/arm9/gfx/bgTop.png
 image_length: 35186
 layout: app

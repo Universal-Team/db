@@ -3,6 +3,8 @@ author: Leon Schimmel
 avatar: https://avatars.githubusercontent.com/u/95288041?v=4
 categories:
 - app
+color: '#959a91'
+color_bg: '#7b8078'
 created: '2024-09-08T04:15:39Z'
 description: A little application that allows you to paint some cool stuff on your
   3DS

@@ -108,6 +108,5 @@ update_notes: '<p dir="auto">This release will be the last major release of Cros
 updated: '2022-12-01T18:22:19Z'
 version: v1.3
 version_title: '[v1.3] End of the Line'
-wiki: https://github.com/CrossCraft/CrossCraft-Classic/wiki
 ---
 CrossCraft-Classic is a project that implements Minecraft Java Edition: Classic without looking at any of the source code of the original application and without using the original copyrighted assets. All knowledge is figured out with an understanding of in-game mechanics and is approximated to be as close as possible to the original. This project is NOT a clone of Minecraft, it is a fully implemented client.

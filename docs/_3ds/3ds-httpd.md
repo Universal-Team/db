@@ -11,6 +11,7 @@ download_page: https://github.com/dimaguy/3ds-httpd/releases
 github: dimaguy/3ds-httpd
 icon: https://raw.githubusercontent.com/dimaguy/3ds-httpd/master/assets/icon.png
 image: https://raw.githubusercontent.com/dimaguy/3ds-httpd/master/assets/banner.png
+image_length: 1857
 layout: app
 license: mit
 license_name: MIT License

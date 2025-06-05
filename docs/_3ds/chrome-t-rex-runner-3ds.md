@@ -59,5 +59,4 @@ updated: '2024-10-23T18:11:26Z'
 version: v1.2.0
 version_title: v1.2.0
 website: https://gbatemp.net/threads/release-chrome-t-rex-game-clone.661573
-wiki: https://github.com/BlyZeDev/T-Rex-Game-3DS/wiki
 ---

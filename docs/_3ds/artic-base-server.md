@@ -21,6 +21,7 @@ downloads:
 github: PabloMK7/ArticBaseServer
 icon: https://raw.githubusercontent.com/PabloMK7/ArticBaseServer/main/app/resources/icon.png
 image: https://raw.githubusercontent.com/PabloMK7/ArticBaseServer/main/app/resources/banner.png
+image_length: 34819
 layout: app
 license: mit
 license_name: MIT License
@@ -74,7 +75,6 @@ update_notes: '<ul>
 updated: '2024-07-16T21:01:32Z'
 version: v1.2.0
 version_title: The Fourth Release
-wiki: https://github.com/azahar-emu/ArticBaseServer/wiki
 ---
 Allows playing your physical or digital games on an emulator without having to dump them.
 
