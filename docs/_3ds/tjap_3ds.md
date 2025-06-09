@@ -12,11 +12,11 @@ downloads:
   TJAP_3DS.3dsx:
     size: 8627160
     size_str: 8 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.4/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.4A/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 9225152
     size_str: 8 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.4/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.4A/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -35,9 +35,7 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>曲のはやさを1.2以上にした際に曲が途切れるのを軽減</li>
-
-  <li>4条件の対応(個別は出来ない...)</li>
+  <li>段位道場で魂ゲージの条件があると不合格になる不具合の修正</li>
 
   </ul>
 
@@ -45,15 +43,12 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Reduced song interruptions when the song speed is set to 1.2 or higherojo soul
-  gauge condition</li>
-
-  <li>4 conditions supported (cannot be done individually...)</li>
+  <li>Fixed an issue where playing Dani-Dojo would fail if there were soul gauge conditions.</li>
 
   </ul>'
-updated: '2025-06-09T00:01:51Z'
-version: v1.5.4
-version_title: TJAPlayer for 3DS v1.5.4
+updated: '2025-06-09T22:14:54Z'
+version: v1.5.4A
+version_title: TJAPlayer for 3DS v1.5.4(A)
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
