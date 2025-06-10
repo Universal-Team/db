@@ -1,33 +1,23 @@
 ---
-author: Coto
-avatar: https://bytebucket.org/ravatar/%7B4867f16f-c30a-4199-975d-7ee612e62658%7D?ts=default
-bitbucket:
-  branch: master
-  repo: Coto88/toolchaingenericds-multimediaplayer
+author: cotodevel
+avatar: https://avatars.githubusercontent.com/u/12502589?v=4
 categories:
 - utility
 color: '#54544d'
 color_bg: '#54544d'
-created: '2019-10-26T15:04:41.173265+00:00'
-description: ''
+created: '2025-06-05T22:01:00Z'
+github: cotodevel/toolchaingenericds-multimediaplayer
 icon: https://db.universal-team.net/assets/images/icons/toolchaingenericds-multimediaplayer.png
 image: https://db.universal-team.net/assets/images/icons/toolchaingenericds-multimediaplayer.png
-image_length: 0
+image_length: 630
 layout: app
-nightly:
-  download_page: https://bitbucket.org/Coto88/toolchaingenericds-multimediaplayer/src/master/release
-  downloads:
-    arm7dldi-ntr/SNEmulDS.nds:
-      url: https://bitbucket.org/Coto88/toolchaingenericds-multimediaplayer/raw/master/release/arm7dldi-ntr/ToolchainGenericDS-multimediaplayer.nds
-    arm7dldi-twl/SNEmulDS.srl:
-      url: https://bitbucket.org/Coto88/toolchaingenericds-multimediaplayer/raw/master/release/arm7dldi-twl/ToolchainGenericDS-multimediaplayer.srl
-  qr:
-    arm7dldi-ntr/SNEmulDS.nds: https://db.universal-team.net/assets/images/qr/nightly/arm7dldi-ntrsnemulds-nds.png
-source: https://bitbucket.org/Coto88/toolchaingenericds-multimediaplayer
+license: other
+license_name: Other
+source: https://github.com/cotodevel/toolchaingenericds-multimediaplayer
 stars: 0
 systems:
 - DS
-title: ToolchainGenericDS-multimediaplayer
+title: toolchaingenericds-multimediaplayer
 updated: '---'
 ---
 TGDS Multimedia Player, supported formats are:
