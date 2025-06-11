@@ -21,7 +21,7 @@ layout: app
 license: mit
 license_name: MIT License
 source: https://github.com/asiekierka/uxnds
-stars: 156
+stars: 157
 systems:
 - 3DS
 - DS
