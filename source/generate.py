@@ -632,6 +632,7 @@ def main(sourceFolder, ghToken: str, priorityOnlyMode: bool, webhook_url: str) -
 				if webhook:
 					title = app['title'] if "title" in app else fp
 					create_error_report(trace, title, webhook)
+				continue
 
 			# Process format strings in downloads if needed
 			if "eval_downloads" in app and app["eval_downloads"]:
