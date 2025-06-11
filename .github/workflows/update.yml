@@ -18,9 +18,12 @@ jobs:
       run: rm -rf docs/_3ds/* docs/_ds/* docs/assets/images/qr/*.png docs/assets/images/qr/nightly/*.png docs/assets/images/qr/prerelease/*.png
 
     - name: Run generate.py
+      env:
+        TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
       run: |
         export PATH=$PATH:/opt/devkitpro/tools/bin
-        python3 source/generate.py source/apps docs --token ${{ secrets.GITHUB_TOKEN }}
+        python3 source/generate.py source/apps docs
 
     - name: Pull origin
       run: git pull origin master --ff-only # Pull origin in case a commit has been done while updating
