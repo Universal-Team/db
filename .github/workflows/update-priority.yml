@@ -28,8 +28,11 @@ jobs:
         export PATH=$PATH:/opt/devkitpro/tools/bin
         python3 source/generate.py source/apps docs --priority
 
+      # Pull origin in case a commit has been done while updating
     - name: Pull origin
-      run: git pull origin master --ff-only # Pull origin in case a commit has been done while updating
+      run: |
+        git config --global --add safe.directory /__w/db/db
+        git pull origin master --ff-only
 
     - name: Push changes
       run: |
