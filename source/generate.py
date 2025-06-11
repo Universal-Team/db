@@ -33,7 +33,7 @@ from unidecode import unidecode
 from unistore import StoreEntry, UniStore
 
 DOWNLOAD_BLACKLIST = r"(\.3ds$|\.apk|\.appimage|\.dmg|\.exe|\.ipa|\.love|\.nro|\.opk|\.pkg|\.smdh|\.vpk|\.xz|armhf|elf|linux|macos|osx|PS3|PSP|switch|ubuntu|vita|wii|win|x86_64|xbox)"
-DOCS_DIR = "../docs"
+DOCS_DIR = None
 
 
 def webName(name: str) -> str:
@@ -533,7 +533,7 @@ def create_error_report(e, app_name, webhook: discord.SyncWebhook):
 	webhook.send(embeds=[embed])
 
 
-def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool, webhook_url: str) -> None:
+def main(sourceFolder, ghToken: str, priorityOnlyMode: bool, webhook_url: str) -> None:
 	# Load app list json
 	source: List[Tuple[str, Dict[str, Any]]] = []
 	for item in listdir(sourceFolder):
@@ -543,7 +543,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool, webho
 
 	# Old data json
 	oldData = None
-	with open(path.join(docsDir, "data", "full.json"), "r", encoding="utf8") as file:
+	with open(path.join(DOCS_DIR, "data", "full.json"), "r", encoding="utf8") as file:
 		oldData = json.load(file)
 
 	output = []
@@ -663,10 +663,10 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool, webho
 					app[item] = requote_uri(app[item])
 
 			# Check for screenshots
-			if path.exists(path.join(docsDir, "assets", "images", "screenshots", webName(app["title"]))):
+			if path.exists(path.join(DOCS_DIR, "assets", "images", "screenshots", webName(app["title"]))):
 				if "screenshots" not in app:
 					app["screenshots"] = []
-				dirlist = listdir(path.join(docsDir, "assets", "images", "screenshots", webName(app["title"])))
+				dirlist = listdir(path.join(DOCS_DIR, "assets", "images", "screenshots", webName(app["title"])))
 				dirlist.sort()
 				for screenshot in dirlist:
 					if screenshot[-3:] in ["png", "gif", "jpg", "peg", "iff", "bmp"]:
@@ -684,7 +684,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool, webho
 				for download in app["downloads"]:
 					if "size" not in app["downloads"][download]:
 						if app["downloads"][download]["url"][:30] == "https://db.universal-team.net/":
-							app["downloads"][download]["size"] = path.getsize(path.join(docsDir, app['downloads'][download]['url'][30:]))
+							app["downloads"][download]["size"] = path.getsize(path.join(DOCS_DIR, app['downloads'][download]['url'][30:]))
 							app["downloads"][download]["size_str"] = byteCount(app["downloads"][download]["size"])
 						else:
 							r = requests.head(app["downloads"][download]["url"], allow_redirects=True)
@@ -694,10 +694,10 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool, webho
 
 			# Check for local icon / image
 			for ext in (".png", ".gif"):
-				if "icon" not in app and path.exists(path.join(docsDir, "assets", "images", "icons", webName(app['title']) + ext)):
+				if "icon" not in app and path.exists(path.join(DOCS_DIR, "assets", "images", "icons", webName(app['title']) + ext)):
 					app["icon"] = f"https://db.universal-team.net/assets/images/icons/{webName(app['title'])}{ext}"
 
-			if "image" not in app and path.exists(path.join(docsDir, "assets", "images", "images", f"{webName(app['title'])}.png")):
+			if "image" not in app and path.exists(path.join(DOCS_DIR, "assets", "images", "images", f"{webName(app['title'])}.png")):
 				app["image"] = f"https://db.universal-team.net/assets/images/images/{webName(app['title'])}.png"
 			elif "image" not in app and "icon" in app:
 				app["image"] = app["icon"]
@@ -709,7 +709,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool, webho
 			# Get image size
 			if "image_length" not in app and "image" in app:
 				if app["image"][:30] == "https://db.universal-team.net/":
-					app["image_length"] = path.getsize(path.join(docsDir, app["image"][30:]))
+					app["image_length"] = path.getsize(path.join(DOCS_DIR, app["image"][30:]))
 				else:
 					r = requests.head(app["image"], allow_redirects=True)
 					if r.status_code == 200 and "Content-Length" in r.headers:
@@ -726,7 +726,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool, webho
 				url = app["icon_static"] if "icon_static" in app else (app["icon"] if "icon" in app else app["image"] if "image" in app else "")
 				file = None
 				if url[:30] == "https://db.universal-team.net/":
-					file = open(path.join(docsDir, url[30:]), "rb")
+					file = open(path.join(DOCS_DIR, url[30:]), "rb")
 				else:
 					r = requests.get(url)
 					if r.status_code == 200:
@@ -752,10 +752,10 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool, webho
 							app["color_bg"] = "#%02x%02x%02x" % (*[round(x * 255) for x in hsv_to_rgb(*hsv)],)
 
 					if "icon" in app and app["icon"].endswith(".bmp"):
-						copyfile(path.join(tempDir, "48", f"{iconIndex}.png"), path.join(docsDir, "assets", "images", "icons", f"{webName(app['title'])}.png"))
+						copyfile(path.join(tempDir, "48", f"{iconIndex}.png"), path.join(DOCS_DIR, "assets", "images", "icons", f"{webName(app['title'])}.png"))
 						app["icon"] = f"https://db.universal-team.net/assets/images/icons/{webName(app['title'])}.png"
 					elif "icon_static" not in app and "icon" in app and app["icon"].endswith(".gif"):
-						copyfile(path.join(tempDir, "48", f"{iconIndex}.png"), path.join(docsDir, "assets", "images", "icons", f"{webName(app['title'])}.png"))
+						copyfile(path.join(tempDir, "48", f"{iconIndex}.png"), path.join(DOCS_DIR, "assets", "images", "icons", f"{webName(app['title'])}.png"))
 						app["icon_static"] = f"https://db.universal-team.net/assets/images/icons/{webName(app['title'])}.png"
 
 					if "image" in app and app["image"].endswith(".bmp"):
@@ -782,7 +782,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool, webho
 									draw.text(((qr.width - img.width) // 2 - 2, (qr.height - img.height) // 2 + img.height), app["version"][:(img.width + 4) // 6], (0, 0, 0))
 								else:
 									draw.text(((qr.width - img.width) // 2, (qr.height - img.height) // 2 + img.height), app["version"][:img.width // 6], (0, 0, 0))
-						qr.save(path.join(docsDir, "assets", "images", "qr", f"{webName(item)}.png"))
+						qr.save(path.join(DOCS_DIR, "assets", "images", "qr", f"{webName(item)}.png"))
 						if "qr" not in app:
 							app["qr"] = {}
 						app["qr"][item] = f"https://db.universal-team.net/assets/images/qr/{webName(item)}.png"
@@ -807,7 +807,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool, webho
 								draw.text(((qr.width - img.width) // 2, (qr.height - img.height) // 2 - 10), "DSi", (246, 106, 10))
 							if "version" in app["prerelease"]:
 								draw.text(((qr.width - img.width) // 2, (qr.height - img.height) // 2 + img.height), app["prerelease"]["version"][:img.width // 6], (246, 106, 10))
-						qr.save(path.join(docsDir, "assets", "images", "qr", "prerelease", f"{webName(item)}.png"))
+						qr.save(path.join(DOCS_DIR, "assets", "images", "qr", "prerelease", f"{webName(item)}.png"))
 						if "qr" not in app["prerelease"]:
 							app["prerelease"]["qr"] = {}
 						app["prerelease"]["qr"][item] = f"https://db.universal-team.net/assets/images/qr/prerelease/{webName(item)}.png"
@@ -830,7 +830,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool, webho
 								draw.text(((qr.width - img.width) // 2 + 6, (qr.height - img.height) // 2 - 10), "DS", (0, 0, 192))
 							else:
 								draw.text(((qr.width - img.width) // 2, (qr.height - img.height) // 2 - 10), "DSi", (0, 0, 192))
-						qr.save(path.join(docsDir, "assets", "images", "qr", "nightly", f"{webName(item)}.png"))
+						qr.save(path.join(DOCS_DIR, "assets", "images", "qr", "nightly", f"{webName(item)}.png"))
 						if "qr" not in app["nightly"]:
 							app["nightly"]["qr"] = {}
 						app["nightly"]["qr"][item] = f"https://db.universal-team.net/assets/images/qr/nightly/{webName(item)}.png"
@@ -955,7 +955,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool, webho
 
 	if not priorityOnlyMode:
 		# Make tdx
-		with open(path.join(docsDir, "unistore", "universal-db.tdx"), "wb") as tdx:
+		with open(path.join(DOCS_DIR, "unistore", "universal-db.tdx"), "wb") as tdx:
 			img2tdx(("-gb -gB8 -gzl", *[f"{i}.png" for i in range(iconIndex)]), tdx, imgPath=path.join(tempDir, "32"))
 
 		# Make t3x
@@ -963,13 +963,13 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool, webho
 			file.write("--atlas -f rgba -z auto\n\n")
 			for i in range(iconIndex):
 				file.write(f"{i}.png\n")
-		system(f"tex3ds -i {path.join(tempDir, '48', 'icons.t3s')} -o {path.join(docsDir, 'unistore', 'universal-db.t3x')}")
+		system(f"tex3ds -i {path.join(tempDir, '48', 'icons.t3s')} -o {path.join(DOCS_DIR, 'unistore', 'universal-db.t3x')}")
 
 	# Write UniStore and metadata
-	unistore.save(path.join(docsDir, "unistore", "universal-db.unistore"), path.join(docsDir, "unistore", "universal-db-info.json"))
+	unistore.save(path.join(DOCS_DIR, "unistore", "universal-db.unistore"), path.join(DOCS_DIR, "unistore", "universal-db-info.json"))
 
 	# Write output file
-	with open(path.join(docsDir, "data", "full.json"), "w", encoding="utf8") as file:
+	with open(path.join(DOCS_DIR, "data", "full.json"), "w", encoding="utf8") as file:
 		json.dump(output, file, sort_keys=True, ensure_ascii=False)
 
 
@@ -982,9 +982,10 @@ if __name__ == "__main__":
 	argParser.add_argument("--error_webhook", "-er", type=str, help="Notifies a Discord channel if an exception occurred during the script", default=os.environ.get('WEBHOOK_URL'))
 
 	args = argParser.parse_args()
+	DOCS_DIR = args.docs
 
 	try:
-		main(args.source, args.docs, args.token, args.priority, args.error_webhook)
+		main(args.source, args.token, args.priority, args.error_webhook)
 	except Exception as e:
 		trace = create_traceback(e)
 		print(trace)
