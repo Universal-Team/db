@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+from __future__ import annotations
+
+from typing import Dict, Any, List, Tuple
 
 import json
 import os
@@ -7,6 +10,9 @@ import qrcode
 import re
 import requests
 import yaml
+import contextlib
+import discord
+import traceback
 
 from argparse import ArgumentParser, FileType
 from bs4 import BeautifulSoup
@@ -27,6 +33,7 @@ from unidecode import unidecode
 from unistore import StoreEntry, UniStore
 
 DOWNLOAD_BLACKLIST = r"(\.3ds$|\.apk|\.appimage|\.dmg|\.exe|\.ipa|\.love|\.nro|\.opk|\.pkg|\.smdh|\.vpk|\.xz|armhf|elf|linux|macos|osx|PS3|PSP|switch|ubuntu|vita|wii|win|x86_64|xbox)"
+DOCS_DIR = "../docs"
 
 
 def webName(name: str) -> str:
@@ -89,7 +96,15 @@ def saveIcon(img: Image, tempDir: str, index: int, ds: bool) -> Tuple[PngImageFi
 	return img, f"#{color[0]:02x}{color[1]:02x}{color[2]:02x}"
 
 
-def retroarchUniStore(docsDir: str, tempDir: str) -> None:
+def create_traceback(exc):
+	etype = type(exc)
+	trace = exc.__traceback__
+
+	return ''.join(traceback.format_exception(etype, exc, trace))
+
+
+
+def retroarchUniStore(tempDir: str) -> None:
 	"""Generates the RetroArch Cores UniStore"""
 
 	print("Generating RetroArch UniStore")
@@ -155,17 +170,376 @@ def retroarchUniStore(docsDir: str, tempDir: str) -> None:
 		file.write("--atlas -f rgba -z auto\n\n")
 		for i in range(iconIndexRA):
 			file.write(f"{i}.png\n")
-	system(f"tex3ds -i {path.join(tempDir, 'ra', '48', 'icons.t3s')} -o {path.join(docsDir, 'unistore', 'retroarch.t3x')}")
+	system(f"tex3ds -i {path.join(tempDir, 'ra', '48', 'icons.t3s')} -o {path.join(DOCS_DIR, 'unistore', 'retroarch.t3x')}")
 
-	unistoreRA.save(path.join(docsDir, "unistore", "retroarch.unistore"))
+	unistoreRA.save(path.join(DOCS_DIR, "unistore", "retroarch.unistore"))
 
 
-def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> None:
+def handle_gbatemp_app(r, app: Dict[str, Any]):
+	soup = BeautifulSoup(r.text, "html.parser")
+
+	if "title" not in app:
+		app["title"] = soup.find(class_="p-title").h1.find(text=True).strip()
+
+	if "author" not in app:
+		app["author"] = soup.find(class_="username").text.strip()
+
+	# if "description" not in app:
+	# 	app["description"] = soup.find(class_="tagLine").text.strip()
+
+	if "long_description" not in app:
+		app["long_description"] = soup.find(class_="bbWrapper").decode_contents().strip()
+
+	if "avatar" not in app:
+		userId = soup.find(class_="username")["data-user-id"].strip()
+		app["avatar"] = f"https://gbatemp.net/data/avatars/l/{userId[:3]}/{userId}.jpg"
+
+	if "image" not in app:
+		img = soup.find(class_="avatar").img
+		if img:
+			app["image"] = "https://gbatemp.net" + img["src"].strip()
+
+	if "created" not in app:
+		app["created"] = soup.find(class_="u-dt")["datetime"].replace("+0000", "Z")
+
+	if "download_page" not in app:
+		app["download_page"] = f"https://gbatemp.net/download/{app['gbatemp']}/"
+
+	if "version" not in app:
+		app["version"] = soup.find(class_="p-title").h1.span.text.strip()
+
+	if "version_title" not in app:
+		verTitle = soup.select("div.block > div > ol.block-body > li:first-of-type > h3 > a")
+		if verTitle:
+			app["version_title"] = verTitle[0].text.strip()
+
+	if "updated" not in app:
+		app["updated"] = soup.findAll(class_="u-dt")[2]["datetime"].replace("+0000", "Z")
+
+	if "update_notes" not in app or "update_notes_md" not in app:
+		if "update_notes" not in app:
+			notesSoup = BeautifulSoup(requests.get(f"https://gbatemp.net/download/{app['gbatemp']}/updates").text, "html.parser")
+			app["update_notes"] = notesSoup.find(class_="bbWrapper").decode_contents().strip()
+
+		if "update_notes_md" not in app:
+			app["update_notes_md"] = markdownify(app["update_notes"], bullets="-")
+
+	if "downloads" not in app:
+		app["downloads"] = {}
+
+	head = requests.head(f"https://gbatemp.net/download/{app['gbatemp']}/download")
+	if head.status_code == 200:
+		if "Content-Disposition" in head.headers:
+			name = re.findall('filename="(.*)"', head.headers["Content-Disposition"])
+			if len(name) > 0:
+				name = name[0]
+				if name not in app["downloads"]:
+					app["downloads"][name] = {
+						"url": head.url,
+					}
+
+					if "Content-Length" in head.headers:
+						app["downloads"][name]["size"] = int(head.headers["Content-Length"])
+						app["downloads"][name]["size_str"] = byteCount(app["downloads"][name]["size"])
+	return app
+
+
+def handle_github_app(request: requests.Session, app: Dict[str, Any], names_cache):
+	api = request.get(f"https://api.github.com/repos/{app['github']}").json()
+	assert "message" not in api, app["github"] + " API Error: " + api["message"]
+	releases = request.get(f"https://api.github.com/repos/{app['github']}/releases").json()
+	assert "message" not in releases, app["github"] + " API Error: " + releases["message"]
+	release = None
+	prerelease = None
+	if len(releases) > 0 and releases[0]["prerelease"]:
+		prerelease = releases[0]
+	for r in releases:
+		if not (r["prerelease"] or r["draft"]):
+			# check for usable assets
+			for asset in r["assets"]:
+				if (len(re.findall(app["download_filter"], asset["name"])) > 0 if "download_filter" in app else len(re.findall(DOWNLOAD_BLACKLIST, asset["name"])) == 0):
+					break
+					# didn't break (find a usable asset)? skip this release.
+				else:
+					continue
+			release = r
+			break
+
+	# If no actual release found on page 1, try /latest
+	if not release:
+		release = request.get(f"https://api.github.com/repos/{app['github']}/releases/latest").json()
+		if "message" in release and release["message"] == "Not Found":
+			release = None
+
+	if "title" not in app:
+		app["title"] = api["name"]
+
+	if "author" not in app:
+		username = api["owner"]["login"]
+		if username in names_cache:
+			username = names_cache[username]
+		else:
+			user = request.get(f"https://api.github.com/users/{username}").json()
+			assert "message" not in user, app["github"] + " API Error: " + user["message"]
+			names_cache[username] = user["name"] if user["name"] is not None else username
+			username = names_cache[username]
+		app["author"] = username
+
+	if "description" not in app and api["description"] != "" and api["description"] is not None:
+		app["description"] = api["description"]
+
+	if "avatar" not in app:
+		app["avatar"] = api["owner"]["avatar_url"]
+
+	if "source" not in app:
+		app["source"] = api["html_url"]
+
+	if "created" not in app:
+		app["created"] = api["created_at"]
+
+	if "website" not in app and api["homepage"] != "" and api["homepage"] is not None:
+		app["website"] = api["homepage"]
+
+	if "wiki" not in app and api["has_wiki"]:
+		_req = requests.get(f"https://raw.githubusercontent.com/wiki/{app['github']}/Home.md")
+		if _req.status_code != 404:
+			app["wiki"] = f"{api['html_url']}/wiki"
+
+	if api["license"]:
+		if "license" not in app:
+			app["license"] = api["license"]["key"]
+
+		if "license_name" not in app:
+			app["license_name"] = api["license"]["name"]
+
+	if api["stargazers_count"]:
+		# accumulate incase other apis
+		app["stars"] += api["stargazers_count"]
+
+	if release:
+		if "download_page" not in app:
+			app["download_page"] = f"https://github.com/{app['github']}/releases"
+
+		if "version" not in app:
+			app["version"] = release["tag_name"]
+
+		if "version_title" not in app and release["name"] != "" and release["name"] is not None:
+			app["version_title"] = release["name"]
+
+		if "update_notes" not in app and release["body"] != "" and release["body"] is not None:
+			app["update_notes_md"] = release["body"].replace("\r\n", "\n")
+			app["update_notes"] = request.post("https://api.github.com/markdown", json={"text": release["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
+			app["update_notes"] = re.sub(r'<a target="_blank" rel="noopener noreferrer" href="https:\/\/private-user-images.githubusercontent\.com.*?<\/a>', "", app["update_notes"])
+
+		if "updated" not in app:
+			app["updated"] = release["published_at"]
+
+		if "downloads" not in app:
+			app["downloads"] = {}
+		for asset in release["assets"]:
+			if not asset["name"] in app["downloads"] and (len(re.findall(app["download_filter"], asset["name"])) > 0 if "download_filter" in app else len(re.findall(DOWNLOAD_BLACKLIST, asset["name"])) == 0):
+				app["downloads"][asset["name"]] = {
+					"url": asset["browser_download_url"],
+					"size": asset["size"],
+					"size_str": byteCount(asset["size"])
+				}
+
+	if prerelease:
+		if "prerelease" not in app:
+			app["prerelease"] = {}
+
+		if "downloads" not in app["prerelease"]:
+			app["prerelease"]["downloads"] = {}
+		for asset in prerelease["assets"]:
+			if not asset["name"] in app["prerelease"]["downloads"] and (len(re.findall(app["download_filter"], asset["name"])) > 0 if "download_filter" in app else len(re.findall(DOWNLOAD_BLACKLIST, asset["name"])) == 0):
+				app["prerelease"]["downloads"][asset["name"]] = {
+					"url": asset["browser_download_url"],
+					"size": asset["size"],
+					"size_str": byteCount(asset["size"])
+				}
+
+		if len(app["prerelease"]["downloads"]) > 0:
+			if "download_page" not in app:
+				app["download_page"] = f"https://github.com/{app['github']}/releases"
+			if "download_page" not in app["prerelease"]:
+				app["prerelease"]["download_page"] = prerelease["html_url"]
+
+			if "version_title" not in app and "version" not in app and prerelease["name"] != "" and prerelease["name"] is not None:
+				app["version_title"] = prerelease["name"]
+			if "version_title" not in app["prerelease"] and prerelease["name"] != "" and prerelease["name"] is not None:
+				app["prerelease"]["version_title"] = prerelease["name"]
+
+			if "version" not in app:
+				app["version"] = prerelease["tag_name"]
+			if "version" not in app["prerelease"]:
+				app["prerelease"]["version"] = prerelease["tag_name"]
+
+			if "update_notes" not in app["prerelease"] and prerelease["body"] != "" and prerelease["body"] is not None:
+				app["prerelease"]["update_notes_md"] = prerelease["body"].replace("\r\n", "\n")
+				app["prerelease"]["update_notes"] = request.post("https://api.github.com/markdown", json={"text": prerelease["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
+				app["prerelease"]["update_notes"] = re.sub(r'<a target="_blank" rel="noopener noreferrer" href="https:\/\/private-user-images.githubusercontent\.com.*?<\/a>', "", app["prerelease"]["update_notes"])
+
+				if "update_notes" not in app:
+					app["update_notes_md"] = app["prerelease"]["update_notes_md"]
+					app["update_notes"] = app["prerelease"]["update_notes"]
+
+			if "updated" not in app:
+				app["updated"] = prerelease["published_at"]
+			if "updated" not in app["prerelease"]:
+				app["prerelease"]["updated"] = prerelease["published_at"]
+		else:
+			app.pop("prerelease")
+
+	return app
+
+
+def handle_bitbucket_app(app: Dict[str, Any]):
+	api = requests.get(f"https://api.bitbucket.org/2.0/repositories/{app['bitbucket']['repo']}").json()
+
+	if "title" not in app:
+		app["title"] = api["name"]
+
+	if "author" not in app:
+		app["author"] = api["owner"]["display_name"]
+
+	if "description" not in app:
+		app["description"] = api["description"].replace("\r\n", "\n")
+
+	if "avatar" not in app:
+		app["avatar"] = api["links"]["avatar"]["href"]
+
+	if "source" not in app:
+		app["source"] = api["links"]["html"]["href"]
+
+	if "created" not in app:
+		app["created"] = api["created_on"]
+
+	if "files" in app["bitbucket"]:
+		if "downloads" not in app:
+			app["downloads"] = {}
+		for download in app["bitbucket"]["files"]:
+			fileAPI = requests.get(f"https://api.bitbucket.org/2.0/repositories/{app['bitbucket']['repo']}/src/{(app['bitbucket']['branch'] if 'branch' in app['bitbucket'] else 'master')}/{download.replace(' ', '%20')}?format=meta").json()
+			if download not in app["downloads"]:
+				app["downloads"][download[download.rfind("/") + 1:]] = {
+					"url": fileAPI["links"]["self"]["href"],
+					"size": fileAPI["size"],
+					"size_str": byteCount(fileAPI["size"])
+				}
+
+			if "download_page" not in app:
+				app["download_page"] = f"https://bitbucket.org/{app['bitbucket']['repo']}/src/{(app['bitbucket']['branch'] if 'branch' in app['bitbucket'] else 'master')}/{download}"
+
+			if "version" not in app:
+				app["version"] = fileAPI["commit"]["hash"][:7]
+
+			if "updated" not in app:
+				commit = requests.get(fileAPI["commit"]["links"]["self"]["href"]).json()
+				app["updated"] = commit["date"]
+	
+	return app
+
+
+def handle_gitlab_app(app: Dict[str, Any]):
+	gitlab_id = app["gitlab"].replace('/', '%2F')
+	endpoint = app.get("gitlab_endpoint", "https://gitlab.com")
+	repo = requests.get(f"{endpoint}/api/v4/projects/{gitlab_id}").json()
+	releases = requests.get(f"{endpoint}/api/v4/projects/{gitlab_id}/releases?include_html_description=true").json()
+	release = releases[0]
+	if "title" not in app:
+		app["title"] = repo["name"]
+	if "author" not in app:
+		app["author"] = repo["namespace"]["name"]
+	if "description" not in app:
+		app["description"] = repo["description"]
+	if "avatar" not in app:
+		app["avatar"] = repo["avatar_url"]
+	if "source" not in app:
+		app["source"] = repo["web_url"]
+	if "created" not in app:
+		app["created"] = repo["created_at"]
+	app["stars"] += repo["star_count"]
+
+	if release:
+		if "download_page" not in app:
+			app["download_page"] = f"{endpoint}/{app['gitlab']}/-/releases"
+
+		if "version" not in app:
+			app["version"] = release["tag_name"]
+
+		if "version_title" not in app and release["name"] != "" and release["name"] is not None:
+			app["version_title"] = release["name"]
+
+		if "update_notes" not in app and release["description"] != "" and release["description"] is not None:
+			app["update_notes_md"] = release["description"].replace("\r\n", "\n")
+			app["update_notes"] = release["description_html"].replace("\r\n", "\n")
+
+		if "updated" not in app:
+			app["updated"] = release["released_at"]
+
+		if "downloads" not in app:
+			app["downloads"] = {}
+		for asset in release["assets"]["links"]:
+			if not asset["name"] in app["downloads"] and (len(re.findall(app["download_filter"], asset["name"])) > 0 if "download_filter" in app else len(re.findall(DOWNLOAD_BLACKLIST, asset["name"])) == 0):
+				app["downloads"][asset["name"]] = {
+					"url": asset["direct_asset_url"]
+				}
+
+	return app
+
+
+def create_web_file(app: Dict[str, Any]):
+	web = app.copy()
+	web["layout"] = "app"
+	# We want unique IDs as hex
+	if "unique_ids" in web:
+		web["unique_ids"] = [f"0x{uid:X}" for uid in web["unique_ids"]]
+	# long description is put as the content
+	if "long_description" in web:
+		web.pop("long_description")
+	# Remove large things that aren't needed
+	if "update_notes_md" in web:
+		web.pop("update_notes_md")
+	if "scripts" in web:
+		web.pop("scripts")
+	if "archive" in web:
+		web.pop("archive")
+	if "slug" in web:
+		web.pop("slug")
+	if "urls" in web:
+		web.pop("urls")
+	if "icon_index" in web:
+		web.pop("icon_index")
+	# Add defaults where absolutely needed
+	if "systems" not in web:
+		web["systems"] = ["3DS"]  # default to 3DS
+	if "updated" not in web:
+		web["updated"] = "---"
+	for sys in web["systems"]:
+		if "title" in web:
+			with open(path.join(DOCS_DIR, f"_{webName(sys)}", f"{webName(web['title'])}.md"), "w", encoding="utf8") as file:
+				file.write(f"---\n{yaml.dump(web, sort_keys=True, allow_unicode=True)}---\n")
+				if "long_description" in app:
+					file.write(app["long_description"])
+	
+	return web
+
+
+def create_error_report(e, app_name, webhook: discord.SyncWebhook):
+	embed = discord.Embed(title="Universal-DB Exception Occurred")
+	embed.description = f"```py\n{e}```"
+	if app_name:
+		embed.add_field(name="App Name", value=app_name)
+
+	webhook.send(embeds=[embed])
+
+
+def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool, webhook_url: str) -> None:
 	# Load app list json
-	source = []
+	source: List[Tuple[str, Dict[str, Any]]] = []
 	for item in listdir(sourceFolder):
-		with open(path.join(sourceFolder, item), encoding="utf8") as f:
-			source.append(json.load(f))
+		fp = path.join(sourceFolder, item)
+		with open(fp, encoding="utf8") as f:
+			source.append((fp, json.load(f)))
 
 	# Old data json
 	oldData = None
@@ -174,7 +548,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 
 	output = []
 	iconIndex = 0
-	names = {}  # GitHub name cache
+	gh_name_cache = {}  # GitHub name cache
 	tempDir = path.join(path.dirname(sourceFolder), "temp")
 
 	# Create headers and a session for github specific requests
@@ -197,7 +571,8 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 	)
 
 	# Fetch info for GitHub apps and output
-	for i, app in enumerate(source):
+	for i, _app in enumerate(source):
+		fp, app = _app
 		doUpdate = True
 		# Only update alternating halves of the list to save API hits
 		# doUpdate = ((i % 2) == int((datetime.now().hour % 12) > 5))
@@ -225,319 +600,38 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 			else:
 				doUpdate = True
 
+		webhook = discord.SyncWebhook.from_url(webhook_url) if webhook_url else None
+
 		if doUpdate:
 			app["stars"] = 0
 
-			if "gbatemp" in app:
-				print("GBAtemp Download Center")
-				r = requests.get(f"https://gbatemp.net/download/{app['gbatemp']}/")
-				if r.status_code != 200:
-					print(f"Error {r.status_code:d}, using old data!")
-					app = list(filter(lambda x: "gbatemp" in x and x["gbatemp"] == app["gbatemp"], oldData))[0]
-				else:
-					soup = BeautifulSoup(r.text, "html.parser")
-
-					if "title" not in app:
-						app["title"] = soup.find(class_="p-title").h1.find(text=True).strip()
-
-					if "author" not in app:
-						app["author"] = soup.find(class_="username").text.strip()
-
-					# if "description" not in app:
-					# 	app["description"] = soup.find(class_="tagLine").text.strip()
-
-					if "long_description" not in app:
-						app["long_description"] = soup.find(class_="bbWrapper").decode_contents().strip()
-
-					if "avatar" not in app:
-						userId = soup.find(class_="username")["data-user-id"].strip()
-						app["avatar"] = f"https://gbatemp.net/data/avatars/l/{userId[:3]}/{userId}.jpg"
-
-					if "image" not in app:
-						img = soup.find(class_="avatar").img
-						if img:
-							app["image"] = "https://gbatemp.net" + img["src"].strip()
-
-					if "created" not in app:
-						app["created"] = soup.find(class_="u-dt")["datetime"].replace("+0000", "Z")
-
-					if "download_page" not in app:
-						app["download_page"] = f"https://gbatemp.net/download/{app['gbatemp']}/"
-
-					if "version" not in app:
-						app["version"] = soup.find(class_="p-title").h1.span.text.strip()
-
-					if "version_title" not in app:
-						verTitle = soup.select("div.block > div > ol.block-body > li:first-of-type > h3 > a")
-						if verTitle:
-							app["version_title"] = verTitle[0].text.strip()
-
-					if "updated" not in app:
-						app["updated"] = soup.findAll(class_="u-dt")[2]["datetime"].replace("+0000", "Z")
-
-					if "update_notes" not in app or "update_notes_md" not in app:
-						if "update_notes" not in app:
-							notesSoup = BeautifulSoup(requests.get(f"https://gbatemp.net/download/{app['gbatemp']}/updates").text, "html.parser")
-							app["update_notes"] = notesSoup.find(class_="bbWrapper").decode_contents().strip()
-
-						if "update_notes_md" not in app:
-							app["update_notes_md"] = markdownify(app["update_notes"], bullets="-")
-
-					if "downloads" not in app:
-						app["downloads"] = {}
-
-					head = requests.head(f"https://gbatemp.net/download/{app['gbatemp']}/download")
-					if head.status_code == 200:
-						if "Content-Disposition" in head.headers:
-							name = re.findall('filename="(.*)"', head.headers["Content-Disposition"])
-							if len(name) > 0:
-								name = name[0]
-								if name not in app["downloads"]:
-									app["downloads"][name] = {
-										"url": head.url,
-									}
-
-									if "Content-Length" in head.headers:
-										app["downloads"][name]["size"] = int(head.headers["Content-Length"])
-										app["downloads"][name]["size_str"] = byteCount(app["downloads"][name]["size"])
-
-			if "github" in app:
-				print("GitHub --", app["github"])
-				api = gh_req.get(f"https://api.github.com/repos/{app['github']}").json()
-				assert "message" not in api, app["github"] + " API Error: " + api["message"]
-				releases = gh_req.get(f"https://api.github.com/repos/{app['github']}/releases").json()
-				assert "message" not in releases, app["github"] + " API Error: " + releases["message"]
-				release = None
-				prerelease = None
-				if len(releases) > 0 and releases[0]["prerelease"]:
-					prerelease = releases[0]
-				for r in releases:
-					if not (r["prerelease"] or r["draft"]):
-						# check for usable assets
-						for asset in r["assets"]:
-							if (len(re.findall(app["download_filter"], asset["name"])) > 0 if "download_filter" in app else len(re.findall(DOWNLOAD_BLACKLIST, asset["name"])) == 0):
-								break
-						# didn't break (find a usable asset)? skip this release.
-						else:
-							continue
-						release = r
-						break
-
-				# If no actual release found on page 1, try /latest
-				if not release:
-					release = gh_req.get(f"https://api.github.com/repos/{app['github']}/releases/latest").json()
-					if "message" in release and release["message"] == "Not Found":
-						release = None
-
-				if "title" not in app:
-					app["title"] = api["name"]
-
-				if "author" not in app:
-					username = api["owner"]["login"]
-					if username in names:
-						username = names[username]
+			try:
+				if "gbatemp" in app:
+					print("GBAtemp Download Center")
+					r = requests.get(f"https://gbatemp.net/download/{app['gbatemp']}/")
+					if r.status_code != 200:
+						print(f"Error {r.status_code:d}, using old data!")
+						app = list(filter(lambda x: "gbatemp" in x and x["gbatemp"] == app["gbatemp"], oldData))[0]
 					else:
-						user = gh_req.get(f"https://api.github.com/users/{username}").json()
-						assert "message" not in user, app["github"] + " API Error: " + user["message"]
-						names[username] = user["name"] if user["name"] is not None else username
-						username = names[username]
-					app["author"] = username
+						app = handle_gbatemp_app(r, app)
 
-				if "description" not in app and api["description"] != "" and api["description"] is not None:
-					app["description"] = api["description"]
+				if "github" in app:
+					print("GitHub --", app["github"])
+					app = handle_github_app(gh_req, app, gh_name_cache)
 
-				if "avatar" not in app:
-					app["avatar"] = api["owner"]["avatar_url"]
+				if "bitbucket" in app:
+					print("Bitbucket --", app["bitbucket"]["repo"])
+					app = handle_bitbucket_app(app)
 
-				if "source" not in app:
-					app["source"] = api["html_url"]
-
-				if "created" not in app:
-					app["created"] = api["created_at"]
-
-				if "website" not in app and api["homepage"] != "" and api["homepage"] is not None:
-					app["website"] = api["homepage"]
-
-				if "wiki" not in app and api["has_wiki"]:
-					_req = requests.get(f"https://raw.githubusercontent.com/wiki/{app['github']}/Home.md")
-					if _req.status_code != 404:
-						app["wiki"] = f"{api['html_url']}/wiki"
-
-				if api["license"]:
-					if "license" not in app:
-						app["license"] = api["license"]["key"]
-
-					if "license_name" not in app:
-						app["license_name"] = api["license"]["name"]
-
-				if api["stargazers_count"]:
-					# accumulate incase other apis
-					app["stars"] += api["stargazers_count"]
-
-				if release:
-					if "download_page" not in app:
-						app["download_page"] = f"https://github.com/{app['github']}/releases"
-
-					if "version" not in app:
-						app["version"] = release["tag_name"]
-
-					if "version_title" not in app and release["name"] != "" and release["name"] is not None:
-						app["version_title"] = release["name"]
-
-					if "update_notes" not in app and release["body"] != "" and release["body"] is not None:
-						app["update_notes_md"] = release["body"].replace("\r\n", "\n")
-						app["update_notes"] = gh_req.post("https://api.github.com/markdown", json={"text": release["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
-						app["update_notes"] = re.sub(r'<a target="_blank" rel="noopener noreferrer" href="https:\/\/private-user-images.githubusercontent\.com.*?<\/a>', "", app["update_notes"])
-
-					if "updated" not in app:
-						app["updated"] = release["published_at"]
-
-					if "downloads" not in app:
-						app["downloads"] = {}
-					for asset in release["assets"]:
-						if not asset["name"] in app["downloads"] and (len(re.findall(app["download_filter"], asset["name"])) > 0 if "download_filter" in app else len(re.findall(DOWNLOAD_BLACKLIST, asset["name"])) == 0):
-							app["downloads"][asset["name"]] = {
-								"url": asset["browser_download_url"],
-								"size": asset["size"],
-								"size_str": byteCount(asset["size"])
-							}
-
-				if prerelease:
-					if "prerelease" not in app:
-						app["prerelease"] = {}
-
-					if "downloads" not in app["prerelease"]:
-						app["prerelease"]["downloads"] = {}
-					for asset in prerelease["assets"]:
-						if not asset["name"] in app["prerelease"]["downloads"] and (len(re.findall(app["download_filter"], asset["name"])) > 0 if "download_filter" in app else len(re.findall(DOWNLOAD_BLACKLIST, asset["name"])) == 0):
-							app["prerelease"]["downloads"][asset["name"]] = {
-								"url": asset["browser_download_url"],
-								"size": asset["size"],
-								"size_str": byteCount(asset["size"])
-							}
-
-					if len(app["prerelease"]["downloads"]) > 0:
-						if "download_page" not in app:
-							app["download_page"] = f"https://github.com/{app['github']}/releases"
-						if "download_page" not in app["prerelease"]:
-							app["prerelease"]["download_page"] = prerelease["html_url"]
-
-						if "version_title" not in app and "version" not in app and prerelease["name"] != "" and prerelease["name"] is not None:
-							app["version_title"] = prerelease["name"]
-						if "version_title" not in app["prerelease"] and prerelease["name"] != "" and prerelease["name"] is not None:
-							app["prerelease"]["version_title"] = prerelease["name"]
-
-						if "version" not in app:
-							app["version"] = prerelease["tag_name"]
-						if "version" not in app["prerelease"]:
-							app["prerelease"]["version"] = prerelease["tag_name"]
-
-						if "update_notes" not in app["prerelease"] and prerelease["body"] != "" and prerelease["body"] is not None:
-							app["prerelease"]["update_notes_md"] = prerelease["body"].replace("\r\n", "\n")
-							app["prerelease"]["update_notes"] = gh_req.post("https://api.github.com/markdown", json={"text": prerelease["body"], "mode": "gfm" if "github" in app else "markdown", "context": app["github"] if "github" in app else None}).text
-							app["prerelease"]["update_notes"] = re.sub(r'<a target="_blank" rel="noopener noreferrer" href="https:\/\/private-user-images.githubusercontent\.com.*?<\/a>', "", app["prerelease"]["update_notes"])
-
-							if "update_notes" not in app:
-								app["update_notes_md"] = app["prerelease"]["update_notes_md"]
-								app["update_notes"] = app["prerelease"]["update_notes"]
-
-						if "updated" not in app:
-							app["updated"] = prerelease["published_at"]
-						if "updated" not in app["prerelease"]:
-							app["prerelease"]["updated"] = prerelease["published_at"]
-					else:
-						app.pop("prerelease")
-
-			if "bitbucket" in app:
-				print("Bitbucket --", app["bitbucket"]["repo"])
-				api = requests.get(f"https://api.bitbucket.org/2.0/repositories/{app['bitbucket']['repo']}").json()
-
-				if "title" not in app:
-					app["title"] = api["name"]
-
-				if "author" not in app:
-					app["author"] = api["owner"]["display_name"]
-
-				if "description" not in app:
-					app["description"] = api["description"].replace("\r\n", "\n")
-
-				if "avatar" not in app:
-					app["avatar"] = api["links"]["avatar"]["href"]
-
-				if "source" not in app:
-					app["source"] = api["links"]["html"]["href"]
-
-				if "created" not in app:
-					app["created"] = api["created_on"]
-
-				if "files" in app["bitbucket"]:
-					if "downloads" not in app:
-						app["downloads"] = {}
-					for download in app["bitbucket"]["files"]:
-						fileAPI = requests.get(f"https://api.bitbucket.org/2.0/repositories/{app['bitbucket']['repo']}/src/{(app['bitbucket']['branch'] if 'branch' in app['bitbucket'] else 'master')}/{download.replace(' ', '%20')}?format=meta").json()
-						if download not in app["downloads"]:
-							app["downloads"][download[download.rfind("/") + 1:]] = {
-								"url": fileAPI["links"]["self"]["href"],
-								"size": fileAPI["size"],
-								"size_str": byteCount(fileAPI["size"])
-							}
-
-						if "download_page" not in app:
-							app["download_page"] = f"https://bitbucket.org/{app['bitbucket']['repo']}/src/{(app['bitbucket']['branch'] if 'branch' in app['bitbucket'] else 'master')}/{download}"
-
-						if "version" not in app:
-							app["version"] = fileAPI["commit"]["hash"][:7]
-
-						if "updated" not in app:
-							commit = requests.get(fileAPI["commit"]["links"]["self"]["href"]).json()
-							app["updated"] = commit["date"]
-
-			if "gitlab" in app:
-				print("Gitlab --", app["gitlab"])
-				gitlab_id = app["gitlab"].replace('/', '%2F')
-				endpoint = app["gitlab_endpoint"] if "gitlab_endpoint" in app else "https://gitlab.com"
-				repo = requests.get(f"{endpoint}/api/v4/projects/{gitlab_id}").json()
-				releases = requests.get(f"{endpoint}/api/v4/projects/{gitlab_id}/releases?include_html_description=true").json()
-				release = releases[0]
-				if "title" not in app:
-					app["title"] = repo["name"]
-				if "author" not in app:
-					app["author"] = repo["namespace"]["name"]
-				if "description" not in app:
-					app["description"] = repo["description"]
-				if "avatar" not in app:
-					app["avatar"] = repo["avatar_url"]
-				if "source" not in app:
-					app["source"] = repo["web_url"]
-				if "created" not in app:
-					app["created"] = repo["created_at"]
-				app["stars"] += repo["star_count"]
-
-				if release:
-					if "download_page" not in app:
-						app["download_page"] = f"{endpoint}/{app['gitlab']}/-/releases"
-
-					if "version" not in app:
-						app["version"] = release["tag_name"]
-
-					if "version_title" not in app and release["name"] != "" and release["name"] is not None:
-						app["version_title"] = release["name"]
-
-					if "update_notes" not in app and release["description"] != "" and release["description"] is not None:
-						app["update_notes_md"] = release["description"].replace("\r\n", "\n")
-						app["update_notes"] = release["description_html"].replace("\r\n", "\n")
-
-					if "updated" not in app:
-						app["updated"] = release["released_at"]
-
-					if "downloads" not in app:
-						app["downloads"] = {}
-					for asset in release["assets"]["links"]:
-						if not asset["name"] in app["downloads"] and (len(re.findall(app["download_filter"], asset["name"])) > 0 if "download_filter" in app else len(re.findall(DOWNLOAD_BLACKLIST, asset["name"])) == 0):
-							app["downloads"][asset["name"]] = {
-								"url": asset["direct_asset_url"]
-							}
-
+				if "gitlab" in app:
+					print("Gitlab --", app["gitlab"])
+					app = handle_gitlab_app(app)
+			except Exception as e:
+				trace = create_traceback(e)
+				print(trace)
+				if webhook:
+					title = app['title'] if "title" in app else fp
+					create_error_report(trace, title, webhook)
 
 			# Process format strings in downloads if needed
 			if "eval_downloads" in app and app["eval_downloads"]:
@@ -752,39 +846,8 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 		# Add to output json
 		output.append(app)
 
-		# Website file
-		web = app.copy()
-		web["layout"] = "app"
-		# We want unique IDs as hex
-		if "unique_ids" in web:
-			web["unique_ids"] = [f"0x{uid:X}" for uid in web["unique_ids"]]
-		# long description is put as the content
-		if "long_description" in web:
-			web.pop("long_description")
-		# Remove large things that aren't needed
-		if "update_notes_md" in web:
-			web.pop("update_notes_md")
-		if "scripts" in web:
-			web.pop("scripts")
-		if "archive" in web:
-			web.pop("archive")
-		if "slug" in web:
-			web.pop("slug")
-		if "urls" in web:
-			web.pop("urls")
-		if "icon_index" in web:
-			web.pop("icon_index")
-		# Add defaults where absolutely needed
-		if "systems" not in web:
-			web["systems"] = ["3DS"]  # default to 3DS
-		if "updated" not in web:
-			web["updated"] = "---"
-		for sys in web["systems"]:
-			if "title" in web:
-				with open(path.join(docsDir, f"_{webName(sys)}", f"{webName(web['title'])}.md"), "w", encoding="utf8") as file:
-					file.write(f"---\n{yaml.dump(web, sort_keys=True, allow_unicode=True)}---\n")
-					if "long_description" in app:
-						file.write(app["long_description"])
+		# Create the website file
+		create_web_file(app)
 
 		if "unistore_exclude" not in app or not app["unistore_exclude"]:
 			# Move links to end to be more readable in U-U
@@ -884,7 +947,7 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 			if app["title"] == "RetroArch":
 				entry._entry["info"]["description"] += "\n\nCores must be downloaded from their separate UniStore, which can be added in settings."
 				if not priorityOnlyMode:
-					retroarchUniStore(docsDir, tempDir)
+					retroarchUniStore(tempDir)
 
 			unistore.append(entry)
 
@@ -913,10 +976,18 @@ def main(sourceFolder, docsDir: str, ghToken: str, priorityOnlyMode: bool) -> No
 if __name__ == "__main__":
 	argParser = ArgumentParser(description="Generates the Universal-DB website and UniStores from a JSON")
 	argParser.add_argument("source", metavar="apps", type=str, help="source JSON folder")
-	argParser.add_argument("docs", metavar="../docs", type=str, help="location to output to")
+	argParser.add_argument("docs", metavar=DOCS_DIR, type=str, help="location to output to")
 	argParser.add_argument("--token", "-t", type=str, help="GitHub API token (to get around rate limit", default=os.environ.get('TOKEN'))
 	argParser.add_argument("--priority", "-p", action="store_true", help="skips all apps not marked priority/updated within 30 days")
+	argParser.add_argument("--error_webhook", "-er", type=str, help="Notifies a Discord channel if an exception occurred during the script", default=os.environ.get('WEBHOOK_URL'))
 
 	args = argParser.parse_args()
 
-	main(args.source, args.docs, args.token, args.priority)
+	try:
+		main(args.source, args.docs, args.token, args.priority, args.error_webhook)
+	except Exception as e:
+		trace = create_traceback(e)
+		print(trace)
+		if args.error_webhook:
+			webhook = discord.SyncWebhook.from_url(args.error_webhook)
+			create_error_report(trace, None, webhook)
