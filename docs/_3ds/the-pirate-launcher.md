@@ -10,22 +10,18 @@ description: The Pirate Launcher joke from the Wii, now on 3ds! Also provides de
   features
 download_page: https://github.com/cooolgamer/the-pirate-launcher/releases
 downloads:
-  3ds-hbmenu-v2.4.2-debug-0861821.zip:
-    size: 335311
-    size_str: 327 KiB
-    url: https://github.com/cooolgamer/the-pirate-launcher/releases/download/v2.4.3/3ds-hbmenu-v2.4.2-debug-0861821.zip
-  boot.3dsx:
-    size: 385772
-    size_str: 376 KiB
-    url: https://github.com/cooolgamer/the-pirate-launcher/releases/download/v2.4.3/boot.3dsx
-  config.zip:
-    size: 129924
-    size_str: 126 KiB
-    url: https://github.com/cooolgamer/the-pirate-launcher/releases/download/v2.4.3/config.zip
-  pirate_launcher-release.zip:
-    size: 1131484
+  3ds-hbmenu-v2.4.3-b.zip:
+    size: 333712
+    size_str: 325 KiB
+    url: https://github.com/cooolgamer/the-pirate-launcher/releases/download/v2.4.3-c/3ds-hbmenu-v2.4.3-b.zip
+  The-pirate-launcher-release.zip:
+    size: 1126432
     size_str: 1 MiB
-    url: https://github.com/cooolgamer/the-pirate-launcher/releases/download/v2.4.3/pirate_launcher-release.zip
+    url: https://github.com/cooolgamer/the-pirate-launcher/releases/download/v2.4.3-c/The-pirate-launcher-release.zip
+  boot.3dsx:
+    size: 392268
+    size_str: 383 KiB
+    url: https://github.com/cooolgamer/the-pirate-launcher/releases/download/v2.4.3-c/boot.3dsx
 github: cooolgamer/the-pirate-launcher
 icon: https://raw.githubusercontent.com/Alexyo21/the-pirate-launcher/master/icon.png
 image: https://raw.githubusercontent.com/Alexyo21/the-pirate-launcher/master/icon.png
@@ -36,10 +32,9 @@ stars: 8
 systems:
 - 3DS
 title: The Pirate Launcher
-update_notes: '<p dir="auto">fetched latest commits and added build ci</p>
-
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/cooolgamer/the-pirate-launcher/compare/v2.4.3...v2.4.3"><tt>v2.4.3...v2.4.3</tt></a></p>'
-updated: '2024-05-05T04:42:20Z'
-version: v2.4.3
-version_title: update to  release 2.4.3
+update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link"
+  href="https://github.com/cooolgamer/the-pirate-launcher/compare/v2.4.3...v2.4.3-c"><tt>v2.4.3...v2.4.3-c</tt></a></p>'
+updated: '2025-06-11T01:32:57Z'
+version: v2.4.3-c
+version_title: Test new flags
 ---

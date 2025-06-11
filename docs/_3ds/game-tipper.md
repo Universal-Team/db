@@ -10,10 +10,10 @@ description: A 3DS application that will give you tips for your gaming journey o
   your 3DS system.
 download_page: https://github.com/TheHighTide/GameTipper3DS/releases
 downloads:
-  HTGameTipper.3dsx:
-    size: 132144
-    size_str: 129 KiB
-    url: https://github.com/TheHighTide/GameTipper3DS/releases/download/0.2.0/HTGameTipper.3dsx
+  HTGameTipper3DS.3dsx:
+    size: 137624
+    size_str: 134 KiB
+    url: https://github.com/TheHighTide/GameTipper3DS/releases/download/0.3.0/HTGameTipper3DS.3dsx
 github: TheHighTide/GameTipper3DS
 icon: https://db.universal-team.net/assets/images/icons/game-tipper.png
 image: https://db.universal-team.net/assets/images/icons/game-tipper.png
@@ -24,30 +24,24 @@ stars: 2
 systems:
 - 3DS
 title: Game Tipper
-update_notes: '<h1 dir="auto">Version 0.1.0</h1>
+update_notes: '<h1 dir="auto">Version 0.3.0</h1>
 
   <h3 dir="auto">Added:</h3>
 
   <ul dir="auto">
 
-  <li>Tips for Animal Crossing New Leaf</li>
+  <li>12 new Minecraft tips</li>
 
-  <li>Tips for Animal Crossing Happy Home Designer</li>
+  <li>1 new Super Mario Maker 3DS tip</li>
 
-  <li>10 new tips for Terraria</li>
+  <li>1 new Animal Crossing HHD tip</li>
 
-  <li>2 new tips for Minecraft</li>
-
-  <li>2 new tip for Super Mario 3D Land</li>
-
-  <li>1 new tip for Super Mario Maker</li>
-
-  <li>New changelog screen to the main menu</li>
+  <li>Added a new secret that can appear in tips sometimes</li>
 
   </ul>'
-updated: '2025-03-26T17:27:36Z'
-version: 0.2.0
-version_title: Version 0.2.0
+updated: '2025-06-10T03:52:44Z'
+version: 0.3.0
+version_title: Version 0.3.0
 ---
 ### About:
 **Game Tipper** is a homebrew application for 3DS systems that allows gamers to get tips for a number of games all in one place on their 3DS. With the application, you can get pointers and tips for games like; Minecraft 3DS Edition, Terraria 3DS Edition, Mario Maker 3DS, and much more.
