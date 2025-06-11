@@ -9,12 +9,18 @@ color_bg: '#806826'
 created: '2025-01-06T19:04:39Z'
 description: Beat-making audio sequencer and DJ-tool for the Nintendo 3DS
 download_page: https://github.com/gearmo3ds/noisecommander3dsdemo/releases
-downloads: {}
+downloads:
+  noisecmdr-v0_0_15-demo.cia:
+    size: 2515904
+    size_str: 2 MiB
+    url: https://github.com/gearmo3ds/noisecommander3dsdemo/releases/download/0.0.15/noisecmdr-v0_0_15-demo.cia
 github: gearmo3ds/noisecommander3dsdemo
 icon: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/icon.png
 image: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/banner.png
 image_length: 40664
 layout: app
+qr:
+  noisecmdr-v0_0_15-demo.cia: https://db.universal-team.net/assets/images/qr/noisecmdr-v0_0_15-demo-cia.png
 source: https://github.com/gearmo3ds/noisecommander3dsdemo
 stars: 1
 systems:
