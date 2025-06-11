@@ -15,7 +15,7 @@ jobs:
     container: universalteam/db
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v3
 
     - name: Delete old pages
       run: rm -rf docs/_3ds/* docs/_ds/*
