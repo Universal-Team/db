@@ -12,21 +12,21 @@ description: 'GodMode9i Explorer - A full access file browser for the Nintendo D
 download_page: https://github.com/DS-Homebrew/GodMode9i/releases
 downloads:
   GodMode9i.7z:
-    size: 364458
-    size_str: 355 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.7.0/GodMode9i.7z
+    size: 367719
+    size_str: 359 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.8.0/GodMode9i.7z
   GodMode9i.cia:
-    size: 987904
-    size_str: 964 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.7.0/GodMode9i.cia
+    size: 998144
+    size_str: 974 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.8.0/GodMode9i.cia
   GodMode9i.dsi:
-    size: 973312
-    size_str: 950 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.7.0/GodMode9i.dsi
+    size: 983552
+    size_str: 960 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.8.0/GodMode9i.dsi
   GodMode9i.nds:
-    size: 973312
-    size_str: 950 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.7.0/GodMode9i.nds
+    size: 983552
+    size_str: 960 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.8.0/GodMode9i.nds
 github: DS-Homebrew/GodMode9i
 icon: https://db.universal-team.net/assets/images/icons/godmode9i.png
 image: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png
@@ -47,30 +47,31 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Expanded DLDI driver space to 32KB by using libnds32 (by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>)!</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ApacheThunder/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ApacheThunder">@ApacheThunder</a>:
-  Added support for mounting the N-Card and original R4 DLDI drivers when launched
-  from DSi/3DS NAND or SD card!</li>
-
-  <li>Added workaround to make homebrew only supporting up to 16KB DLDI drivers, now
-  working with 32KB DLDI drivers!
+  <li>Expanded RAM drive on DSi &amp; 3DS consoles to use all 768KB of DSi WRAM +
+  32KB of shared WRAM!
 
   <ul dir="auto">
 
-  <li>Has not been tested with homebrew built with libnds v2.</li>
+  <li>The expanded space will not be used if Memory Pit is used to start GM9<strong>i</strong>.</li>
 
   </ul>
 
   </li>
 
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ellieplayswow/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ellieplayswow">@ellieplayswow</a>:
+  Added error message if SD card space is full when dumping.</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/edo9300/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>:
+  Added back the option to remount the flashcard''s SD when running from Slot-2 flashcards.</li>
+
+  <li>Various: Updated translations.</li>
+
   </ul>'
-updated: '2024-11-15T22:52:50Z'
-version: v3.7.0
-version_title: v3.7.0
+updated: '2025-06-15T03:01:30Z'
+version: v3.8.0
+version_title: v3.8.0
 website: https://wiki.ds-homebrew.com/godmode9i/
 wiki: https://wiki.ds-homebrew.com/other/godmode9i
 ---
