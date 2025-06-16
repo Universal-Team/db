@@ -14,7 +14,7 @@ layout: app
 license: other
 license_name: Other
 source: https://github.com/cotodevel/toolchaingenericds-multimediaplayer
-stars: 0
+stars: 1
 systems:
 - DS
 title: toolchaingenericds-multimediaplayer

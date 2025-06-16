@@ -12,11 +12,11 @@ downloads:
   BCSTM-Player.3dsx:
     size: 5236168
     size_str: 4 MiB
-    url: https://github.com/NPI-D7/BCSTM-Player/releases/download/v1.5.0/BCSTM-Player.3dsx
+    url: https://github.com/npid7/BCSTM-Player/releases/download/v1.5.0/BCSTM-Player.3dsx
   BCSTM-Player.cia:
     size: 5329856
     size_str: 5 MiB
-    url: https://github.com/NPI-D7/BCSTM-Player/releases/download/v1.5.0/BCSTM-Player.cia
+    url: https://github.com/npid7/BCSTM-Player/releases/download/v1.5.0/BCSTM-Player.cia
 github: NPI-D7/BCSTM-Player
 icon: https://raw.githubusercontent.com/NPI-D7/BCSTM-Player/main/app/icon.png
 image: https://raw.githubusercontent.com/NPI-D7/BCSTM-Player/main/app/banner.png
@@ -31,18 +31,18 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/bcstm-player/credits.png
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/bcstm-player/main-menu.png
-source: https://github.com/NPI-D7/BCSTM-Player
+source: https://github.com/npid7/BCSTM-Player
 stars: 1
 systems:
 - 3DS
 title: BCSTM-Player
 unique_ids:
 - '0x78933'
-update_notes: '<p dir="auto">Fixed the 3dsx problem!<br>
+update_notes: '<p>Fixed the 3dsx problem!<br>
 
   Some UI fixes!</p>
 
-  <p dir="auto">Last Update of the 1. series... working on 2.0.0 now</p>'
+  <p>Last Update of the 1. series... working on 2.0.0 now</p>'
 updated: '2023-01-17T14:15:17Z'
 version: v1.5.0
 version_title: v1.5.0
