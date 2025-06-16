@@ -1,5 +1,5 @@
 {
-	"github": "NPI-D7/BCSTM-Player",
+	"github": "npid7/BCSTM-Player",
 	"categories": [
 		"app"
 	],
@@ -9,6 +9,6 @@
 	"unique_ids": [
 		493875
 	],
-	"icon": "https://raw.githubusercontent.com/NPI-D7/BCSTM-Player/main/app/icon.png",
-	"image": "https://raw.githubusercontent.com/NPI-D7/BCSTM-Player/main/app/banner.png"
+	"icon": "https://raw.githubusercontent.com/npid7/BCSTM-Player/main/app/icon.png",
+	"image": "https://raw.githubusercontent.com/npid7/BCSTM-Player/main/app/banner.png"
 }
