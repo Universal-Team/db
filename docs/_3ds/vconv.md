@@ -10,13 +10,13 @@ description: 3DS Virtual Controller for ViGEm
 download_page: https://github.com/lxfly2000/VConV/releases
 downloads:
   vconv.cia:
-    size: 1676224
+    size: 1708992
     size_str: 1 MiB
-    url: https://github.com/lxfly2000/VConV/releases/download/Build-6/vconv.cia
+    url: https://github.com/lxfly2000/VConV/releases/download/Build-7/vconv.cia
   vconv3ds.3dsx:
-    size: 1235380
+    size: 1264940
     size_str: 1 MiB
-    url: https://github.com/lxfly2000/VConV/releases/download/Build-6/vconv3ds.3dsx
+    url: https://github.com/lxfly2000/VConV/releases/download/Build-7/vconv3ds.3dsx
 github: lxfly2000/VConV
 icon: https://raw.githubusercontent.com/lxfly2000/VConV/master/vconv3ds/icon.png
 image: https://raw.githubusercontent.com/lxfly2000/VConV/master/vconv3ds/buildcia/banner.png
@@ -34,9 +34,7 @@ systems:
 title: VConV
 unique_ids:
 - '0x11A87'
-update_notes: '<p dir="auto">新增“关闭屏幕背光”选项<br>
-
-  修复Home菜单Bug</p>
+update_notes: '<p dir="auto">添加控制器界面显示</p>
 
   <div class="markdown-alert markdown-alert-warning" dir="auto"><p class="markdown-alert-title"
   dir="auto"><svg class="octicon octicon-alert mr-2" viewBox="0 0 16 16" version="1.1"
@@ -106,9 +104,9 @@ update_notes: '<p dir="auto">新增“关闭屏幕背光”选项<br>
 
   <ul dir="auto">
 
-  <li>vconv.cia: <code class="notranslate">1A75AEBB7F94FD5584FB2450868CD15171DC955B21FD330A84BB4867A5E43678</code></li>
+  <li>vconv.cia: <code class="notranslate">2895C1EA1534F8C6EF9AD790EEB528411F057ED9D5CC7B6948BC287092D599C8</code></li>
 
-  <li>vconv3ds.3dsx: <code class="notranslate">B27B66B6D87E62C7E6D3AFA8E0EB1D849BBDDBB26CE2EEA74E1E256A8D302025</code></li>
+  <li>vconv3ds.3dsx: <code class="notranslate">D1C485695DABBA6E9F2D0DC6B4748AD5A5D748C2DF7C1368B15A216B7DDF0A59</code></li>
 
   <li>vconvwin.exe: <code class="notranslate">30D8964A8A6F0F3ED2CA3D3E864865C085F67FF8865D2C9EB6E96B0D00629B98</code></li>
 
@@ -116,7 +114,7 @@ update_notes: '<p dir="auto">新增“关闭屏幕背光”选项<br>
 
   </ul>'
 updated: '2025-04-11T06:27:31Z'
-version: Build-6
+version: Build-7
 website: https://www.bilibili.com/video/BV18qoXYmER1
 ---
 3DS Virtual Controller for ViGEm

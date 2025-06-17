@@ -61,8 +61,8 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   </li>
 
-  <li><em>Hori-HD</em> has been renamed to <em>Horizon HD</em> (named after Nintendo
-  Switch''s Horizon OS)!</li>
+  <li><em>Hori-HD</em> has been renamed to <em>Horizon HD</em> (named after both Nintendo
+  3DS &amp; Switch''s Horizon OS)!</li>
 
   </ul>
 
