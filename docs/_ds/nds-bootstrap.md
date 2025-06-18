@@ -132,7 +132,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <li><strong>DSi/3DS:</strong> Fixed DSi mode not working on flashcards.</li>
 
-  <li>Yet another attempt to fix the in-game menu not opening on Ace3DS+ flashcards
+  <li>Yet another attempt to fix the in-game menu not opening on Ace3DS+ flashcards,
   by clearing the WiFi IRQ register on arm7 before boot.
 
   <ul dir="auto">

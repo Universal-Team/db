@@ -73,9 +73,13 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <li>In order to reduce bloat, the non-default DSi/3DS UI music + HBL music, emulators
   (considered as TWLMenu++ Virtual Console) and multimedia features (image viewing
-  and video playing) have now been split into three separate add-ons.
+  and video playing) have now been split into three separate add-ons, and are no longer
+  bundled by default.
 
   <ul dir="auto">
+
+  <li>To restore these features, follow the steps for <a href="https://wiki.ds-homebrew.com/twilightmenu/installing-addons"
+  rel="nofollow">installing add-ons</a>.</li>
 
   <li>GBARunner2 (to be replaced with GBARunner3 in the future) will remain bundled
   for playing GBA games as an essential feature.</li>
