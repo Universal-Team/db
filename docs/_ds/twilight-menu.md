@@ -9,22 +9,34 @@ created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
+  AddOn-ExtraUIMusic.7z:
+    size: 8420943
+    size_str: 8 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.0/AddOn-ExtraUIMusic.7z
+  AddOn-Multimedia.7z:
+    size: 2383856
+    size_str: 2 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.0/AddOn-Multimedia.7z
+  AddOn-VirtualConsole.7z:
+    size: 3619674
+    size_str: 3 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.0/AddOn-VirtualConsole.7z
   TWiLightMenu-3DS.7z:
-    size: 45545531
-    size_str: 43 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.14.0/TWiLightMenu-3DS.7z
+    size: 28950314
+    size_str: 27 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 45428376
-    size_str: 43 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.14.0/TWiLightMenu-DSi.7z
+    size: 29003402
+    size_str: 27 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 56470540
-    size_str: 53 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.14.0/TWiLightMenu-Flashcard.7z
+    size: 40028513
+    size_str: 38 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 56697499
-    size_str: 54 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.14.0/TWiLightMenu.7z
+    size: 51352864
+    size_str: 48 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -38,8 +50,8 @@ stars: 3530
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.5.0">nds-bootstrap
-  v2.5.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.6.0">nds-bootstrap
+  v2.6.0</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -59,57 +71,52 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>The <code class="notranslate">Color Mode</code> setting has been renamed to
-  <code class="notranslate">Screen Filter</code>.</li>
-
-  <li>More screen filters have been added (to <code class="notranslate">sd:/_nds/colorLut/</code>)!
+  <li>In order to reduce bloat, the non-default DSi/3DS UI music + HBL music, emulators
+  (considered as TWLMenu++ Virtual Console) and multimedia features (image viewing
+  and video playing) have now been split into three separate add-ons.
 
   <ul dir="auto">
 
-  <li>Inverted</li>
-
-  <li>[10000K] Aquarium</li>
-
-  <li>[7500K] Overcast Sky</li>
-
-  <li>[5500K] Daylight</li>
-
-  <li>[4200K] Fluorescent</li>
-
-  <li>[3400K] Halogen</li>
-
-  <li>[2700K] Incandescent</li>
-
-  <li>[2300K] Warm Incandescent</li>
-
-  <li>[1900K] Candle</li>
-
-  <li>[1200K] Ember</li>
-
-  <li>(The <code class="notranslate">AGB-001</code> filter has been removed, as it''s
-  more of a color correction LUT.)</li>
-
-  <li>(Replaced the <code class="notranslate">Grayscale</code> filter, as it''s no
-  longer the filter from PicoDriveDS/TWL.)</li>
+  <li>GBARunner2 (to be replaced with GBARunner3 in the future) will remain bundled
+  for playing GBA games as an essential feature.</li>
 
   </ul>
 
   </li>
 
-  <li>With nds-bootstrap adding support for DS Phat colors (on DSi/3DS consoles),
-  the <code class="notranslate">DS Phat Colors</code> setting is now displayed in
-  the per-game settings menu!
+  <li><code class="notranslate">dsiware</code> folder has been renamed to <code class="notranslate">dsi</code>
+  in order to be a folder for any DSi ROM (both from game cards and as DSiWare).</li>
 
-  <ul dir="auto">
+  <li><strong>DSi/3DS:</strong> When launching a DS(i) game via nds-bootstrap with
+  screen filter and/or DS Phat colors enabled, TWL clock speed will now be used by
+  default in order to speed up the filter processing (mainly for Actimagine/Mobiclip
+  videos), unless the game is blacklisted from using TWL clock speed.</li>
 
-  <li>Not displayed for Memory Pit users.</li>
+  <li>tuna-viDS now supports screen filters!</li>
 
-  </ul>
+  <li>Both AmEDS and CrocoDS (outdated Amstrad CPC emulators) have been replaced with
+  <a href="https://github.com/wavemotion-dave/SugarDS">SugarDS</a> (by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/wavemotion-dave/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/wavemotion-dave">@wavemotion-dave</a>)!</li>
 
-  </li>
+  <li>Slightly increased the volume of the DS &amp; DSi splash sounds to closely match
+  their original volumes.</li>
 
-  <li><strong>R4 and Wood UIs:</strong> As an attempt to improve scrolling speeds,
-  an LRU cache for headers &amp; banner icons has been added!</li>
+  <li>The DS tap sound in the DS &amp; DSi splash screens has been replaced with the
+  DSi version.</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mentusfentus/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mentusfentus">@mentusfentus</a>:
+  <strong>DS Classic Menu:</strong> Calendar and top-bar datetime are now drawn using
+  monospaced characters. (<a href="https://github.com/DS-Homebrew/TWiLightMenu/pull/2534"
+  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2534/hovercard">What
+  this means</a>)</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mentusfentus/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mentusfentus">@mentusfentus</a>:
+  <strong>DS Classic Menu:</strong> Calendar weekdays are now translatable!</li>
+
+  <li>Various: Updated translations.</li>
 
   </ul>
 
@@ -117,25 +124,24 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li><strong>Wood UI:</strong> Fixed a bug where game titles would display over folders.</li>
+  <li><strong>DSi-based UIs:</strong> The checks for DSi binaries and AP-patch now
+  reset when swiping icons or dragging scroll bar.</li>
 
-  <li><strong>Wood UI:</strong> Fixed the game title listings not being cleared before
-  displaying the AP message.</li>
+  <li><strong>R4 and Wood UIs:</strong> Fixed the per-game settings menu not appearing
+  for ROMs with a custom banner.</li>
 
-  </ul>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mentusfentus/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mentusfentus">@mentusfentus</a>:
+  <strong>DS Classic Menu:</strong> Fixed black background when using Saturn &amp;
+  HBL UIs.</li>
 
-  <h3 dir="auto">Known bug</h3>
-
-  <ul dir="auto">
-
-  <li>When using the warm screen filters (starting at 4200K or lower), white fades
-  will be converted into black fades, as it is not possible to change master brightness
-  colors.</li>
+  <li><strong>DS:</strong> Fixed white screen crash on SuperCard CF flashcards (not
+  to be confused with SuperCard MiniSD).</li>
 
   </ul>'
-updated: '2025-05-24T03:09:26Z'
-version: v27.14.0
-version_title: v27.14.0
+updated: '2025-06-18T07:02:10Z'
+version: v27.15.0
+version_title: v27.15.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
