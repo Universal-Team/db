@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 1058716
+    size: 1066869
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.5.0/nds-bootstrap.7z
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.6.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1533760
+    size: 1536400
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.5.0/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.6.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -28,8 +28,8 @@ stars: 1263
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.14.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v27.14.0</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.15.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v27.15.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -47,84 +47,54 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li><strong>DSi/3DS:</strong> Added support for color LUTs/screen filters (located
-  in <code class="notranslate">sd:/_nds/colorLut/</code>)!
+  <li><strong>3DS:</strong> Updated ROM pre-load settings for <em>WarioWare: D.I.Y.</em>
+  (Europe) to pre-load all data used for the currently set language.</li>
+
+  <li><strong>DSi/3DS:</strong> Added ROM pre-load settings (automatically activated)
+  for more games for improved ROM reading:
 
   <ul dir="auto">
 
-  <li>Not compatible with the Memory Pit exploit.</li>
+  <li>Dragon Quest IV: Chapters of the Chosen (USA) (English Party Chat v1.2)</li>
+
+  <li>Elite Forces: Unit 77 (DSi)</li>
+
+  <li>Nanostray (DSi)</li>
+
+  <li>Nanostray 2 (DSi)</li>
+
+  <li>Stitch Jam</li>
+
+  <li>Motto! Stitch! DS: Rhythm de Rakugaki Daisakusen</li>
 
   </ul>
 
   </li>
 
-  <li><strong>DSi/3DS:</strong> DS Phat colors can now be displayed! Some early DS
-  games may benefit from this feature.
+  <li><strong>DSi/3DS:</strong> Screen filter and/or DS Phat colors are now applied
+  to Actimagine/Mobiclip videos!
 
   <ul dir="auto">
 
-  <li>Also not compatible with the Memory Pit exploit, due to it using the color LUT
-  applying system.</li>
-
-  <li>If you''re using <strong>TW</strong>i<strong>L</strong>ight Menu++ and/or forwarders,
-  it can be set per-game.</li>
+  <li>When running with NTR clock speed, video resolution will be reduced in half
+  to reduce slowdown.</li>
 
   </ul>
 
   </li>
 
-  <li><strong>B4DS:</strong> 6 more DSiWare titles can now be played on DS Phat &amp;
-  DS Lite consoles! (474 -&gt; 480 DSiWare titles now supported!)
+  <li>When starting a game for the first time with this version, the ESRB splash screen
+  (if enabled) on the top screen is now displayed at the same time as the "Please
+  wait..." message on the bottom screen.</li>
+
+  <li>For some ESRB-rated online games which don''t display the online notice (ex.
+  <em>Pokemon Black &amp; White 1 &amp; 2</em>), it can now be displayed on the bottom
+  screen (replacing the "Please wait..." message on first boot) below the ESRB splash
+  screen.
 
   <ul dir="auto">
 
-  <li>Cake Ninja: XMAS
-
-  <ul dir="auto">
-
-  <li>Previously only worked on debug/dev consoles.</li>
-
-  <li>Audio is disabled on regular/retail consoles due to memory limitations.</li>
-
-  </ul>
-
-  </li>
-
-  <li>California Super Sports
-
-  <ul dir="auto">
-
-  <li>Crashes on regular/retail consoles when selecting either Dodgeball or Rollerblade.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Crazy Cheebo: Puzzle Party</li>
-
-  <li>Curling Super Championship</li>
-
-  <li>Electroplankton: Lumiloop
-
-  <ul dir="auto">
-
-  <li>Previously only worked on debug/dev consoles.</li>
-
-  <li>Title intro music has been reduced from Stereo to Mono on regular/retail consoles
-  due to memory limitations.</li>
-
-  <li>An SDK5 VRAM-WiFi Donor ROM (ex. <em>Lufia: Curse of the Sinistrals</em>) is
-  required to run this title on regular/retail consoles.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Ice Hockey Slovakia 2011
-
-  <ul dir="auto">
-
-  <li>Sound effects are disabled on regular/retail consoles due to memory limitations.</li>
+  <li>Online notice flags are stored on TWLMenu++''s side (along with the rating descriptors).</li>
 
   </ul>
 
@@ -132,34 +102,78 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ul>
 
-  </li>
-
-  </ul>
-
-  <h3 dir="auto">Known bug</h3>
+  <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>The color LUT applying system (also activated by enabling DS Phat colors) will
-  not work properly with some games, due to 3D color blending, briefly showing the
-  original colors for a frame, and/or bitmap graphics displaying. It can also cause
-  certain games to crash and/or not boot.
+  <li><strong>DSi:</strong> Due to the pre-load setting addition, <em>Nanostray 2</em>
+  no longer crashes when going into gameplay!</li>
+
+  <li>Fixed a (somewhat) long-standing issue where <em>Professor Layton and the Curious
+  Village</em> would not reset correctly from nds-bootstrap''s in-game menu, instead
+  showing video cutscenes or the puzzle mode.</li>
+
+  <li><strong>DSi/3DS:</strong> <em>Bomberman</em> no longer crashes on opening an
+  area when using a screen filter and/or DS Phat colors.</li>
+
+  <li><strong>DSi/3DS:</strong> Fixed card read DMA not being properly patched for
+  <em>My Healthy Cooking Coach</em> and possibly some other early DSi-Enhanced games.
 
   <ul dir="auto">
 
-  <li>Plenty of the problematic games have been blacklisted from using the color LUT
-  system, but some other games may still have those issues.</li>
-
-  <li>The system is also incompatible with homebrew titles.</li>
+  <li>The title would crash after boot without the fix.</li>
 
   </ul>
 
   </li>
+
+  <li><strong>DSi/3DS:</strong> Fixed games which use SDK 2.1 or later not booting
+  from flashcards (without B4DS mode).</li>
+
+  <li><strong>DSi/3DS:</strong> Fixed DSi mode not working on flashcards.</li>
+
+  <li>Yet another attempt to fix the in-game menu not opening on Ace3DS+ flashcards
+  by clearing the WiFi IRQ register on arm7 before boot.
+
+  <ul dir="auto">
+
+  <li>Implemented after a user has found out that the in-game menu opens on <em>Shantae:
+  Risky''s Revenge</em> due to the WiFi IRQ register not being checked.</li>
+
+  </ul>
+
+  </li>
+
+  <li><strong>DSi/3DS:</strong> Fixed rebooting after dumping RAM.</li>
+
+  <li><strong>DS:</strong> Fixed SuperCard CF support (not to be confused with SuperCard
+  MiniSD).</li>
+
+  </ul>
+
+  <h3 dir="auto">Known bugs</h3>
+
+  <ul dir="auto">
+
+  <li>Screen filter and/or DS Phat colors are not applied to all games containing
+  Mobiclip videos, as the code which plays the videos may be stored in the overlays
+  instead of the main ARM9 code.
+
+  <ul dir="auto">
+
+  <li>Some games where the code is stored in the overlays are supported manually.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Despite the pre-load setting addition, <em>Stitch Jam</em> still randomly soft-locks.
+  The cause of the soft-locks is unknown.</li>
 
   </ul>'
-updated: '2025-05-24T02:57:05Z'
-version: v2.5.0
-version_title: v2.5.0
+updated: '2025-06-18T05:23:42Z'
+version: v2.6.0
+version_title: v2.6.0
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
