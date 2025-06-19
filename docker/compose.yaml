@@ -17,7 +17,7 @@ services:
     image: docker.io/universalteam/db
     container_name: universal-db
     hostname: universal-db
-    command: python3 source/generate.py source/apps docs --priority
+    command: python3 source/generate.py all --priority
     environment:
       TOKEN: ${TOKEN}
       WEBHOOK_URL: ${WEBHOOK_URL}
