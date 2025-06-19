@@ -26,7 +26,7 @@ jobs:
         WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
       run: |
         export PATH=$PATH:/opt/devkitpro/tools/bin
-        python3 source/generate.py source/apps docs --priority
+        python3 source/generate.py all --priority
 
       # Pull origin in case a commit has been done while updating
     - name: Pull origin
