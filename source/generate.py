@@ -33,7 +33,8 @@ from utils import (format_to_web_name, format_traceback, get_matching_app,
 DOWNLOAD_BLACKLIST = r"(\.3ds$|\.apk|\.appimage|\.dmg|\.exe|\.ipa|\.love|\.nro|\.opk|\.pkg|\.smdh|\.vpk|\.xz|armhf|elf|linux|macos|osx|PS3|PSP|switch|ubuntu|vita|wii|win|x86_64|xbox)"
 DOCS_DIR: Optional[pathlib.Path] = None
 PRIORITY_MODE = True
-TEMP_DIR = pathlib.Path("./temp")
+SCRIPT_DIR = pathlib.Path(__file__).parent.resolve()
+TEMP_DIR = SCRIPT_DIR / "temp"
 
 
 def saveIcon(img: ImageFile, index: int, ds: bool, *, location: Optional[str] = None) -> Tuple[PngImageFile, str]:
@@ -969,7 +970,7 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 	if not PRIORITY_MODE:
 		# Make tdx
 		with open(DOCS_DIR.joinpath("unistore", "universal-db.tdx"), "wb") as tdx:
-			img2tdx(("-gb -gB8 -gzl", *[f"{i}.png" for i in range(iconIndex)]), tdx, imgPath=TEMP_DIR.joinpath("32"))
+			img2tdx(("-gb -gB8 -gzl", *[f"{i}.png" for i in range(iconIndex)]), tdx, imgPath=str(TEMP_DIR.joinpath("32")))
 
 		# Make t3x
 		with TEMP_DIR.joinpath("48", "icons.t3s").open("w", encoding="utf8") as file:
@@ -999,7 +1000,7 @@ def check_for_docs_dir(path: str) -> pathlib.Path:
 @click.group()
 def main_entry_group():
 	# Prematurely make the temp directories, just in case.
-	pth = pathlib.Path("temp/")
+	pth = TEMP_DIR
 	if pth.exists() is False:
 		pth.mkdir()
 
@@ -1010,8 +1011,6 @@ def main_entry_group():
 
 	click.help_option()
 
-
-SCRIPT_DIR = pathlib.Path(__file__).parent.resolve()
 
 @main_entry_group.command(name="all")
 @click.argument("source", default=str(SCRIPT_DIR / ("apps")), type=click.Path(exists=True, file_okay=False)) #  help="The folder to find apps in")
