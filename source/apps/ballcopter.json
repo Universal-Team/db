@@ -7,5 +7,5 @@
 	"description": "Like Flappy Bird, but in GLORIOUS 3D"
 	"long_description": "This is a simple Flappy Bird clone made for the 3DS family of systems using LÖVE Potion. Tap the bottom screen to navigate Ballcopter through the walls and aim for a high score!\n---------------------------------\nTIPS:\n- Only Ballcopter's body has collision.\n- O3DS and N3DS users can use the 3D Slider to add depth.",
 	"author": "!mp!sh",
-	"title": "Ballcopter!",
+	"title": "Ballcopter!"
 }
