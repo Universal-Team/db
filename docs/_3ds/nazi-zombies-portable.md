@@ -12,7 +12,7 @@ download_filter: 3ds
 download_page: https://github.com/nzp-team/nzportable/releases
 downloads:
   nzportable-3ds.zip:
-    size: 34962607
+    size: 34999824
     size_str: 33 MiB
     url: https://github.com/nzp-team/nzportable/releases/download/nightly/nzportable-3ds.zip
 github: nzp-team/nzportable
@@ -34,7 +34,7 @@ screenshots:
 - description: Map selection
   url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/map-selection.png
 source: https://github.com/nzp-team/nzportable
-stars: 565
+stars: 566
 systems:
 - 3DS
 title: 'Nazi Zombies: Portable'
@@ -49,7 +49,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <li>Game Assets</li>
 
-  <li>Vril (PSP/3DS Engine)</li>
+  <li>QuakeC (Game Code)</li>
+
+  <li>Vril (PSP/3DS/NSPIRE Engine)</li>
 
   </ul>
 
@@ -68,15 +70,17 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <li>PS VITA: Extract the .ZIP archive into ux0: and install <code class="notranslate">nzp.vpk</code>.</li>
 
-  <li>Nintendo 3DS: Extract the .ZIP archive into <code class="notranslate">/3ds/</code></li>
+  <li>Nintendo 3DS: Extract the .ZIP archive into <code class="notranslate">/3ds/</code>*
+  TI NSPIRE: Extract the .ZIP archive and sync contents to <code class="notranslate">My
+  Documents</code>.</li>
 
   </ul>
 
   <p dir="auto">You can also play the WebGL version at <a href="https://nzp.gay/"
   rel="nofollow">https://nzp.gay/</a></p>'
-updated: '2025-06-17T07:26:44Z'
+updated: '2025-06-20T07:26:15Z'
 version: nightly
-version_title: 2.0.0-indev+20250617072549
+version_title: 2.0.0-indev+20250620072522
 website: https://github.com/nzp-team/nzportable
 ---
 A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at War.
