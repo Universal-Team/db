@@ -1,7 +1,10 @@
+from __future__ import annotations
+
 import json
 import re
+from typing import Optional
 
-from os import path
+import pathlib
 
 
 class StoreEntry:
@@ -317,14 +320,14 @@ class UniStore:
 
 		self._unistore["storeContent"].append(entry._entry)
 
-	def save(self, outputPath: str, infoPath: str = None) -> None:
+	def save(self, output: pathlib.Path, infoPath: Optional[pathlib.Path] = None) -> None:
 		"""Increments the revision and saves to a file if changed"""
 
 		write = True
 
 		# If the file already exists, read it and increment the revision if changed
-		if path.exists(outputPath):
-			with open(outputPath, encoding="utf8") as oldFile:
+		if output.exists():
+			with output.open(encoding="utf8") as oldFile:
 				oldData = json.load(oldFile)
 				if "storeInfo" in oldData and "revision" in oldData["storeInfo"]:
 					self._unistore["storeInfo"]["revision"] = oldData["storeInfo"]["revision"]
@@ -335,9 +338,9 @@ class UniStore:
 					write = True
 
 		if write:
-			with open(outputPath, "w", encoding="utf8") as outputFile:
+			with output.open("w", encoding="utf8") as outputFile:
 				json.dump(self._unistore, outputFile, sort_keys=True, ensure_ascii=False)
 
 			if infoPath:
-				with open(infoPath, "w", encoding="utf8") as infoFile:
+				with output.open("w", encoding="utf8") as infoFile:
 					json.dump(self._unistore["storeInfo"], infoFile, sort_keys=True, ensure_ascii=False)
