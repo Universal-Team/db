@@ -518,13 +518,15 @@ def create_error_report(e, app_name, webhook: discord.SyncWebhook):
 
 def fetch_app_data(app: Dict[str, Any], github_session: GitHubAPI, old_data):
 	if "gbatemp" in app:
-		click.echo("GBAtemp Download Center")
-		r = requests.get(f"https://gbatemp.net/download/{app['gbatemp']}/")
-		if r.status_code != 200:
-			click.secho(f"Error {r.status_code:d}, using old data!", fg="yellow")
-			app = list(filter(lambda x: "gbatemp" in x and x["gbatemp"] == app["gbatemp"], old_data))[0]
-		else:
-			app = handle_gbatemp_app(r, app)
+		app = get_matching_app(app, old_data)
+		# GBATemp is deprecated.
+		# click.echo("GBAtemp Download Center")
+		# r = requests.get(f"https://gbatemp.net/download/{app['gbatemp']}/")
+		# if r.status_code != 200:
+		#	click.secho(f"Error {r.status_code:d}, using old data!", fg="yellow")
+		#	app = list(filter(lambda x: "gbatemp" in x and x["gbatemp"] == app["gbatemp"], old_data))[0]
+		# else:
+		#	app = handle_gbatemp_app(r, app)
 
 	if "github" in app:
 		click.echo(f'GitHub -- {app["github"]}')
