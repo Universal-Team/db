@@ -11,17 +11,17 @@ description: The Pirate Launcher joke from the Wii, now on 3ds! Also provides de
 download_page: https://github.com/cooolgamer/the-pirate-launcher/releases
 downloads:
   3ds-hbmenu-v2.4.3-b.zip:
-    size: 333712
-    size_str: 325 KiB
+    size: 325159
+    size_str: 317 KiB
     url: https://github.com/cooolgamer/the-pirate-launcher/releases/download/v2.4.3-c/3ds-hbmenu-v2.4.3-b.zip
-  The-pirate-launcher-release.zip:
-    size: 1126432
-    size_str: 1 MiB
-    url: https://github.com/cooolgamer/the-pirate-launcher/releases/download/v2.4.3-c/The-pirate-launcher-release.zip
   boot.3dsx:
     size: 392268
     size_str: 383 KiB
     url: https://github.com/cooolgamer/the-pirate-launcher/releases/download/v2.4.3-c/boot.3dsx
+  the-pirate-launcher-release.zip:
+    size: 1126311
+    size_str: 1 MiB
+    url: https://github.com/cooolgamer/the-pirate-launcher/releases/download/v2.4.3-c/the-pirate-launcher-release.zip
 github: cooolgamer/the-pirate-launcher
 icon: https://raw.githubusercontent.com/Alexyo21/the-pirate-launcher/master/icon.png
 image: https://raw.githubusercontent.com/Alexyo21/the-pirate-launcher/master/icon.png
