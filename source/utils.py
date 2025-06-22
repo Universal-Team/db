@@ -26,16 +26,16 @@ def was_recently_updated(app: Dict[str, Any]) -> bool:
 
 def get_matching_app(app: Dict[str, Any], old_data):
 	keys = [
-	    ("github", lambda x: x.get("github") == app.get("github")),
-	    ("gbatemp", lambda x: x.get("gbatemp") == app.get("gbatemp")),
-	    ("bitbucket", lambda x: x.get("bitbucket", {}).get("repo") == app.get("bitbucket", {}).get("repo")),
-	    ("title_author", lambda x: x.get("title") == app.get("title") and x.get("author") == app.get("author")),
-	    ("gitlab", lambda x: x.get("gitlab") == app.get("gitlab"))
+		("github", lambda x: "github" in x and "github" in app and x["github"] == app["github"]),
+		("gbatemp", lambda x: "gbatemp" in x and "gbatemp" in app and x["gbatemp"] == app["gbatemp"]),
+		("bitbucket", lambda x: "bitbucket" in x and "bitbucket" in app and x["bitbucket"]["repo"] == app["bitbucket"]["repo"]),
+		("gitlab", lambda x: "gitlab" in x and "gitlab" in app and x["gitlab"] == app["gitlab"]),
+		("manual", lambda x: "title" in x and "author" in x and "title" in app and "author" in app and x["title"] == app["title"] and x["author"] == app["author"])
 	]
+	for key, func in keys:
+		if match := list(filter(func, old_data)):
+			return match[0]
 
-	for _, match_func in keys:
-		if matches := list(filter(match_func, old_data)):
-			return matches[0]
 	return None
 
 
