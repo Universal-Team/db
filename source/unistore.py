@@ -322,7 +322,6 @@ class UniStore:
 
 	def save(self, output: pathlib.Path, infoPath: Optional[pathlib.Path] = None) -> None:
 		"""Increments the revision and saves to a file if changed"""
-
 		write = True
 
 		# If the file already exists, read it and increment the revision if changed
@@ -342,5 +341,5 @@ class UniStore:
 				json.dump(self._unistore, outputFile, sort_keys=True, ensure_ascii=False)
 
 			if infoPath:
-				with output.open("w", encoding="utf8") as infoFile:
+				with infoPath.open("w", encoding="utf8") as infoFile:
 					json.dump(self._unistore["storeInfo"], infoFile, sort_keys=True, ensure_ascii=False)
