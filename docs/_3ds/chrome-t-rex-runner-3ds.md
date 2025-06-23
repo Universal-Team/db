@@ -30,7 +30,7 @@ screenshots:
 - description: Gameplay
   url: https://db.universal-team.net/assets/images/screenshots/chrome-t-rex-runner-3ds/gameplay.png
 source: https://github.com/BlyZeDev/T-Rex-Game-3DS
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: Chrome T-Rex Runner 3DS
