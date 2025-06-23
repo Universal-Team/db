@@ -10,14 +10,14 @@ description: Burninate the countryside!
 download_filter: 3ds
 download_page: https://github.com/Mips96/Trogdor-Reburninated/releases
 downloads:
-  Trogdor-Reburninated-v2.21-3ds-cia.zip:
-    size: 37540658
-    size_str: 35 MiB
-    url: https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.21/Trogdor-Reburninated-v2.21-3ds-cia.zip
-  Trogdor-Reburninated-v2.21-3ds.zip:
-    size: 37118335
-    size_str: 35 MiB
-    url: https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.21/Trogdor-Reburninated-v2.21-3ds.zip
+  Trogdor-Reburninated-v2.3-3ds-cia.zip:
+    size: 7761311
+    size_str: 7 MiB
+    url: https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.3/Trogdor-Reburninated-v2.3-3ds-cia.zip
+  Trogdor-Reburninated-v2.3-3ds.zip:
+    size: 7369139
+    size_str: 7 MiB
+    url: https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.3/Trogdor-Reburninated-v2.3-3ds.zip
 github: Mips96/Trogdor-Reburninated
 icon: https://raw.githubusercontent.com/Mips96/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/logo_icon_android_48.png
 image: https://raw.githubusercontent.com/Mips96/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/background_psp.png
@@ -33,101 +33,85 @@ stars: 19
 systems:
 - 3DS
 title: 'Trogdor: Reburninated'
-update_notes: '<p><em><a href="https://homestarrunner.com/sbemails/207-too-cool" rel="nofollow">♪
-  Let''s not make a big deal outta this... it''s just a little Trogdor update ♪</a></em></p>
+update_notes: '<p><a href="https://www.youtube.com/watch?v=2z7kVH9xePM" rel="nofollow">♪
+  Let''s go back to a Flash game! Come on, come on, come on, come on... ♪</a></p>
 
-  <p>Just fixing a few things that have been bugging me:</p>
+  <p>Mostly some much-needed fixes, but also...</p>
 
-  <h3>Quality of Life Improvements</h3>
-
-  <ul>
-
-  <li><strong>You can now exit a game by pressing Select</strong> instead of A+Select
+  <h3>New Port:</h3>
 
   <ul>
 
-  <li>The original combination was intentionally complicated to prevent players from
-  accidentally quitting and losing their progress, but with autosave, that''s no longer
-  necessary</li>
+  <li><strong>Added Android port!</strong> No on-screen touch controls, you''re gonna
+  need a controller/keyboard.</li>
 
   </ul>
 
-  </li>
-
-  <li><strong>Overlay setting is now saved</strong>, and it has a new menu option
-  in Cosmetic settings
+  <h3>Changes:</h3>
 
   <ul>
 
-  <li>You can still change it via button input, as well</li>
+  <li><strong>Enhanced controller support!</strong> Input is now read from all connected
+  controllers, and you can freely connect/disconnect controllers as desired.</li>
+
+  <li><strong>Replaced some Stinkoman Flash music</strong> with CD quality versions
+  from the <em>Homestar Runner Original Soundtrack</em> plus remastered tracks by
+  <a href="https://www.youtube.com/@CoolGuyTunes" rel="nofollow">CoolGuyBug</a>.</li>
+
+  <li><strong>Improved looping</strong> in some audio tracks.</li>
+
+  <li>[Linux] Set <strong>Native resolution</strong> as default.</li>
+
+  <li>[Linux] Assets/save data can now be read from the <strong>same directory</strong>
+  as the executable.</li>
 
   </ul>
 
-  </li>
-
-  <li>Fixed a very small menu bug</li>
-
-  <li>Minor text polish</li>
-
-  <li>[PC] <strong>Fullscreen setting is now saved</strong></li>
-
-  <li>[Wii U] <strong>Resolution increased</strong> from 720p to 1080p
+  <h3>Bug Fixes:</h3>
 
   <ul>
 
-  <li>By extension, this means an additional scaling option has been added</li>
+  <li><strong>Fixed collision issue</strong> that caused the player to sometimes get
+  stuck directly above a cottage.</li>
+
+  <li>[3DS] <strong>Fixed screen tearing/glitchy top screen</strong>.</li>
+
+  <li>[3DS] <strong>Restored screen scaling options</strong>.</li>
+
+  <li>[3DS] <strong>Restored transparency</strong> on pause screen.</li>
+
+  <li>[Gamecube] <strong>Fixed asset path</strong>, so audio and saving now work as
+  intended.</li>
+
+  <li>[Windows+Linux] <strong>Fixed assets not being read</strong> when you run the
+  game from a directory other than the one containing the executable.</li>
+
+  <li>Other assorted minor bug fixes and polish.</li>
 
   </ul>
 
-  </li>
-
-  <li>[Wii] Minor Gamecube controller polish for consistency with Gamecube version</li>
-
-  </ul>
-
-  <h3>Technical Changes</h3>
+  <h3>Optimizations:</h3>
 
   <ul>
 
-  <li>[PC] <del>DLLs are now statically linked so they no longer bloat the game directory;
-  <strong>it''s just an EXE and audio</strong></del> <strong>UPDATE: Reverted as of
-  8/23/24</strong>
+  <li><strong>Reduced file size, RAM usage, and load times</strong> by optimizing
+  graphics and music.</li>
 
-  <ul>
+  <li>Slightly <strong>optimized graphics rendering</strong>.</li>
 
-  <li>Additionally, the non-Visual Studio Windows makefile actually works now, and
-  there''s a new x86 makefile to go with it</li>
+  <li>[3DS] <strong>Significantly reduced file size</strong> by switching to optimized
+  OGG audio.</li>
 
-  <li>If you want to compile it yourself, Visual Studio is still an option</li>
-
-  </ul>
-
-  </li>
-
-  <li>[Other] Scaling options are now frozen/unfrozen based on display resolution
-  instead of being hardcoded per-system
-
-  <ul>
-
-  <li>This doesn''t affect current releases, but it does make scaling options one
-  less thing to worry about when porting to other systems</li>
-
-  <li>PC still allows all options regardless of display because of windowed mode</li>
+  <li>[Windows] The game is now compiled with MSYS instead of Visual Studio, and DLLs
+  are now statically linked to the executable. That means <strong>the entire game
+  is now a single EXE</strong> (minus audio).</li>
 
   </ul>
 
-  </li>
-
-  </ul>
-
-  <p>Enjoy!</p>
-
-  <p><strong>UPDATE 8/23/24</strong>: Reverted statically linked DLLs in Windows releases;
-  not all DLLs were static as I had originally thought, so the game wouldn''t run
-  on some machines.</p>'
-updated: '2024-08-13T02:23:47Z'
-version: v2.21
-version_title: v2.21
+  <p>Enjoy!</p>'
+updated: '2025-06-23T04:15:06Z'
+version: v2.3
+version_title: v2.3
 ---
 An enhanced recreation of the Homestar Runner Flash game, "Trogdor", expanded with new features.
 - New Options menu to customize your game
