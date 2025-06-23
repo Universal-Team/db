@@ -37,7 +37,8 @@ SCRIPT_DIR = pathlib.Path(__file__).parent.resolve()
 TEMP_DIR = SCRIPT_DIR / "temp"
 
 
-def saveIcon(img: ImageFile, index: int, ds: bool, *, location: Optional[str] = None) -> Tuple[PngImageFile, str]:
+def saveIcon(img: Image.Image, index: int, ds: bool,
+			 *, location: Optional[str] = None) -> Tuple[Image.Image, str]:
 	location = location or str(TEMP_DIR)
 	loc_path = pathlib.Path(location)
 	if not loc_path.exists():
@@ -70,7 +71,7 @@ def saveIcon(img: ImageFile, index: int, ds: bool, *, location: Optional[str] = 
 		data[...][transparent.T] = (0xFF, 0, 0xFF, 0xFF)
 		imgDS = Image.fromarray(data)
 		imgDS = imgDS.quantize()
-		thirty_two = loc_path / "48"
+		thirty_two = loc_path / "32"
 		if not thirty_two.exists():
 			thirty_two.mkdir(parents=True, exist_ok=True)
 		imgDS.save((thirty_two / f"{index}.png"))
@@ -972,7 +973,7 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 	if not PRIORITY_MODE:
 		# Make tdx
 		with open(DOCS_DIR.joinpath("unistore", "universal-db.tdx"), "wb") as tdx:
-			img2tdx(("-gb -gB8 -gzl", *[f"{i}.png" for i in range(iconIndex)]), tdx, imgPath=str(TEMP_DIR.joinpath("32")))
+			img2tdx(("-gb -gB8 -gzl", *[f"{i}.png" for i in range(iconIndex)]), tdx, imgPath=str(TEMP_DIR / "32"))
 
 		# Make t3x
 		with TEMP_DIR.joinpath("48", "icons.t3s").open("w", encoding="utf8") as file:
