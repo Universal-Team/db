@@ -8,7 +8,35 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads: {}
+downloads:
+  AddOn-ExtraUIMusic.7z:
+    size: 8420942
+    size_str: 8 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/AddOn-ExtraUIMusic.7z
+  AddOn-Multimedia.7z:
+    size: 689783
+    size_str: 673 KiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/AddOn-Multimedia.7z
+  AddOn-VirtualConsole.7z:
+    size: 3744779
+    size_str: 3 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/AddOn-VirtualConsole.7z
+  TWiLightMenu-3DS.7z:
+    size: 28972962
+    size_str: 27 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/TWiLightMenu-3DS.7z
+  TWiLightMenu-DSi.7z:
+    size: 29026911
+    size_str: 27 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/TWiLightMenu-DSi.7z
+  TWiLightMenu-Flashcard.7z:
+    size: 40048836
+    size_str: 38 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/TWiLightMenu-Flashcard.7z
+  TWiLightMenu.7z:
+    size: 49653807
+    size_str: 47 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -73,7 +101,7 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </li>
 
-  <li>Added a Sonic-themed TWLMenu++ splash for Sonic''s anniversary!
+  <li>Added a Sonic-themed TWLMenu++ splash for Sonic the Hedgehog''s anniversary!
 
   <ul dir="auto">
 
