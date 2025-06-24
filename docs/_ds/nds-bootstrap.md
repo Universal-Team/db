@@ -43,12 +43,14 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
+  <p dir="auto">Below changes only apply to DSi &amp; 3DS users.</p>
+
   <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li><strong>DSi/3DS:</strong> Added ROM pre-load settings (automatically activated)
-  for more games for improved ROM reading:
+  <li>Added ROM pre-load settings (automatically activated) for more games for improved
+  ROM reading:
 
   <ul dir="auto">
 
@@ -86,8 +88,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li><strong>DSi/3DS:</strong> Fixed crashing with a communication error when selecting
-  anything after connecting to <em>My Pokemon Ranch</em> on Wii.
+  <li>Fixed crashing with a communication error when selecting anything after connecting
+  to <em>My Pokemon Ranch</em> on Wii.
 
   <ul dir="auto">
 
@@ -99,9 +101,9 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </li>
 
-  <li><strong>DSi/3DS:</strong> Fixed a bug which lasted since v1.0.0, where the "Wanted!"
-  feature in <em>Assassin''s Creed II: Discovery</em> would crash with both screens
-  nearly white, and no DSi/3DS camera image on the top screen.</li>
+  <li>Fixed a bug which lasted since v1.0.0, where the "Wanted!" feature in <em>Assassin''s
+  Creed II: Discovery</em> would crash with both screens nearly white, and no DSi/3DS
+  camera image on the top screen.</li>
 
   </ul>'
 updated: '2025-06-23T18:26:42Z'

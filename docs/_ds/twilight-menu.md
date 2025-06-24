@@ -8,35 +8,7 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads:
-  AddOn-ExtraUIMusic.7z:
-    size: 8420943
-    size_str: 8 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.0/AddOn-ExtraUIMusic.7z
-  AddOn-Multimedia.7z:
-    size: 2383856
-    size_str: 2 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.0/AddOn-Multimedia.7z
-  AddOn-VirtualConsole.7z:
-    size: 3619674
-    size_str: 3 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.0/AddOn-VirtualConsole.7z
-  TWiLightMenu-3DS.7z:
-    size: 28950314
-    size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.0/TWiLightMenu-3DS.7z
-  TWiLightMenu-DSi.7z:
-    size: 29003402
-    size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.0/TWiLightMenu-DSi.7z
-  TWiLightMenu-Flashcard.7z:
-    size: 40028513
-    size_str: 38 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.0/TWiLightMenu-Flashcard.7z
-  TWiLightMenu.7z:
-    size: 51352864
-    size_str: 48 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.0/TWiLightMenu.7z
+downloads: {}
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -50,8 +22,8 @@ stars: 3540
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.6.0">nds-bootstrap
-  v2.6.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.6.1">nds-bootstrap
+  v2.6.1</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -71,56 +43,49 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>In order to reduce bloat, the non-default DSi/3DS UI music + HBL music, emulators
-  (considered as TWLMenu++ Virtual Console) and multimedia features (image viewing
-  and video playing) have now been split into three separate add-ons, and are no longer
-  bundled by default.
+  <li>The image viewer now displays images/photos in the RGB565 color format for improved
+  green color display!
 
   <ul dir="auto">
 
-  <li>To restore these features, follow the steps for <a href="https://wiki.ds-homebrew.com/twilightmenu/installing-addons"
-  rel="nofollow">installing add-ons</a>.</li>
-
-  <li>GBARunner2 (to be replaced with GBARunner3 in the future) will remain bundled
-  for playing GBA games as an essential feature.</li>
+  <li>For the images to display without issues, the music is now sequenced instead
+  of streamed.</li>
 
   </ul>
 
   </li>
 
-  <li><code class="notranslate">dsiware</code> folder has been renamed to <code class="notranslate">dsi</code>
-  in order to be a folder for any DSi ROM (both from game cards and as DSiWare).</li>
+  <li>The DS(i) splash or custom splash, along with the manual and custom banner icons,
+  will also be displayed in the RGB565 color format!</li>
 
-  <li><strong>DSi/3DS:</strong> When launching a DS(i) game via nds-bootstrap with
-  screen filter and/or DS Phat colors enabled, TWL clock speed will now be used by
-  default in order to speed up the filter processing (mainly for Actimagine/Mobiclip
-  videos), unless the game is blacklisted from using TWL clock speed.</li>
+  <li>Pressing <code class="notranslate">A</code> in the image viewer will now switch
+  the dithering method used for displaying 32/24-bit color <code class="notranslate">.bmp</code>
+  images or all <code class="notranslate">.png</code> images.
 
-  <li>tuna-viDS now supports screen filters!</li>
+  <ul dir="auto">
 
-  <li>Both AmEDS and CrocoDS (outdated Amstrad CPC emulators) have been replaced with
-  <a href="https://github.com/wavemotion-dave/SugarDS">SugarDS</a> (by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/wavemotion-dave/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/wavemotion-dave">@wavemotion-dave</a>)!</li>
+  <li>Temporal dithering (used every time when opening an image) basically works around
+  color banding by switching dark/bright pixels in rapid succession.</li>
 
-  <li>Slightly increased the volume of the DS &amp; DSi splash sounds to closely match
-  their original volumes.</li>
+  <li>Normal dithering pauses the pixel-switching, revealing a grid-like pattern.</li>
 
-  <li>The DS tap sound in the DS &amp; DSi splash screens has been replaced with the
-  DSi version.</li>
+  </ul>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mentusfentus/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mentusfentus">@mentusfentus</a>:
-  <strong>DS Classic Menu:</strong> Calendar and top-bar datetime are now drawn using
-  monospaced characters. (<a href="https://github.com/DS-Homebrew/TWiLightMenu/pull/2534"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2534/hovercard">What
-  this means</a>)</li>
+  </li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mentusfentus/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mentusfentus">@mentusfentus</a>:
-  <strong>DS Classic Menu:</strong> Calendar weekdays are now translatable!</li>
+  <li>Added a Sonic-themed TWLMenu++ splash for Sonic''s anniversary!
 
-  <li>Various: Updated translations.</li>
+  <ul dir="auto">
+
+  <li>The splash jingle has been added since past versions.</li>
+
+  </ul>
+
+  </li>
+
+  <li>If the Virtual Console add-on is not installed, the TWLMenu++ splash screen
+  will now show icons of three GBA models above the logo, and three DS models below
+  the logo.</li>
 
   </ul>
 
@@ -128,24 +93,22 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li><strong>DSi-based UIs:</strong> The checks for DSi binaries and AP-patch now
-  reset when swiping icons or dragging scroll bar.</li>
-
-  <li><strong>R4 and Wood UIs:</strong> Fixed the per-game settings menu not appearing
-  for ROMs with a custom banner.</li>
+  <li>Fixed dark color crushing for some images due to temporal dithering (aka color
+  de-banding).</li>
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mentusfentus/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mentusfentus">@mentusfentus</a>:
-  <strong>DS Classic Menu:</strong> Fixed black background when using Saturn &amp;
-  HBL UIs.</li>
+  <strong>DS Classic Menu:</strong> Fixed top bar date text not displaying correctly
+  in German.</li>
 
-  <li><strong>DS:</strong> Fixed white screen crash on SuperCard CF flashcards (not
-  to be confused with SuperCard MiniSD).</li>
+  <li>If a photo in <code class="notranslate">sd:/_nds/TWiLightMenu/dsimenu/photos/</code>
+  is found to have transparency/alpha, it''ll now be applied with the black color
+  instead of not using transparency/alpha at all (which could reveal hidden graphics).</li>
 
   </ul>'
-updated: '2025-06-18T07:02:10Z'
-version: v27.15.0
-version_title: v27.15.0
+updated: '2025-06-24T06:51:41Z'
+version: v27.15.1
+version_title: v27.15.1
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
