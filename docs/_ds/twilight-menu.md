@@ -14,27 +14,27 @@ downloads:
     size_str: 8 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/AddOn-ExtraUIMusic.7z
   AddOn-Multimedia.7z:
-    size: 689783
+    size: 689776
     size_str: 673 KiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/AddOn-Multimedia.7z
   AddOn-VirtualConsole.7z:
-    size: 3744779
+    size: 3744770
     size_str: 3 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/AddOn-VirtualConsole.7z
   TWiLightMenu-3DS.7z:
-    size: 28972962
+    size: 28972333
     size_str: 27 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 29026911
+    size: 29025658
     size_str: 27 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 40048836
+    size: 40049770
     size_str: 38 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 49653807
+    size: 49654431
     size_str: 47 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
@@ -50,8 +50,11 @@ stars: 3540
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.6.1">nds-bootstrap
-  v2.6.1</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.6.2">nds-bootstrap
+  v2.6.2</a><br>
+
+  Re-released to fix a bug where <code class="notranslate">v25.15.1</code> is displayed
+  before the proper version number in TWLMenu++ Settings.</p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -134,7 +137,7 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   instead of not using transparency/alpha at all (which could reveal hidden graphics).</li>
 
   </ul>'
-updated: '2025-06-24T06:51:41Z'
+updated: '2025-06-24T10:05:36Z'
 version: v27.15.1
 version_title: v27.15.1
 website: https://wiki.ds-homebrew.com/twilightmenu/

@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 1069228
+    size: 1069256
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.6.1/nds-bootstrap.7z
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.6.2/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1538309
+    size: 1538388
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.6.1/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.6.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -42,6 +42,19 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   files, to <code class="notranslate">root:/_nds/</code>.</li>
 
   </ol>
+
+  <p dir="auto">Below change only applies to DSi &amp; 3DS users.</p>
+
+  <h3 dir="auto">Bug fix</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed an overlooked bug where DSi-Enhanced ROMs would not boot in DSi mode without
+  a DSi-Exclusive/DSiWare ROM set as a donor ROM.</li>
+
+  </ul>
+
+  <h2 dir="auto">v2.6.1 Changelog</h2>
 
   <p dir="auto">Below changes only apply to DSi &amp; 3DS users.</p>
 
@@ -106,9 +119,9 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   camera image on the top screen.</li>
 
   </ul>'
-updated: '2025-06-23T18:26:42Z'
-version: v2.6.1
-version_title: v2.6.1
+updated: '2025-06-24T10:00:18Z'
+version: v2.6.2
+version_title: v2.6.2 (hotfix)
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
