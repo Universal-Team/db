@@ -36,7 +36,7 @@ def get_matching_app(app: Dict[str, Any], old_data):
 		if match := list(filter(func, old_data)):
 			return match[0]
 
-	return None
+	return app
 
 
 def format_to_web_name(name: str) -> str:
