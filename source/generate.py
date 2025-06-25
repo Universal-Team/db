@@ -517,17 +517,20 @@ def create_error_report(e, app_name, webhook: discord.SyncWebhook):
 	webhook.send(embeds=[embed])
 
 
-def fetch_app_data(app: Dict[str, Any], github_session: GitHubAPI, old_data):
+def fetch_app_data(app: Dict[str, Any], github_session: GitHubAPI):
+	# GBATemp is deprecated.
+	# if "gbatemp" in app:
+	# click.echo("GBAtemp Download Center")
+	# r = requests.get(f"https://gbatemp.net/download/{app['gbatemp']}/")
+	# if r.status_code != 200:
+	#	click.secho(f"Error {r.status_code:d}, using old data!", fg="yellow")
+	#	app = list(filter(lambda x: "gbatemp" in x and x["gbatemp"] == app["gbatemp"], old_data))[0]
+	# else:
+	#	app = handle_gbatemp_app(r, app)
 	if "gbatemp" in app:
-		app = get_matching_app(app, old_data)
-		# GBATemp is deprecated.
-		# click.echo("GBAtemp Download Center")
-		# r = requests.get(f"https://gbatemp.net/download/{app['gbatemp']}/")
-		# if r.status_code != 200:
-		#	click.secho(f"Error {r.status_code:d}, using old data!", fg="yellow")
-		#	app = list(filter(lambda x: "gbatemp" in x and x["gbatemp"] == app["gbatemp"], old_data))[0]
-		# else:
-		#	app = handle_gbatemp_app(r, app)
+		# We don't need to match because we don't pull anything and we'll return prematurely
+		click.secho(f'{app["title"] if "title" in app else ""}: Using old data for GBATemp', fg='yellow')
+		return app
 
 	if "github" in app:
 		click.echo(f'GitHub -- {app["github"]}')
@@ -540,7 +543,7 @@ def fetch_app_data(app: Dict[str, Any], github_session: GitHubAPI, old_data):
 	if "gitlab" in app:
 		click.echo(f'GitLab -- {app["gitlab"]}')
 		app = handle_gitlab_app(app)
-	
+
 	return app
 
 
@@ -551,7 +554,7 @@ def process_app_entry(app: Dict[str, Any], fp: str, icon_idx: int, github_api: G
 	oldData = old_data
 
 	try:
-		app = fetch_app_data(app, github_api, old_data)
+		app = fetch_app_data(app, github_api)
 	except Exception as e:
 		trace = format_traceback(e)
 		if webhook:
