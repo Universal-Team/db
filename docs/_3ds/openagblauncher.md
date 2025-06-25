@@ -14,6 +14,49 @@ layout: app
 systems:
 - 3DS
 title: OpenAGBLauncher
+update_notes: '<p>First of all a HUGE thank you to <a href="https://gbatemp.net/members/nutez.439371/"
+  rel="nofollow">Nutez</a>, without whom I probably wouldn''t even have been able
+  to compile <a href="https://github.com/Ordim3n/That-Shortcut-Thingy">That-Shortcut-Thingy</a>.
+  Special thanks to derrek, profi200, d0k3 for their amazing work on <a href="https://github.com/profi200/open_agb_firm">OPEN_AGB_FIRM</a>
+  and Ordim3n for his payload shortcut.</p>
+
+  <p>Usage:</p>
+
+  <ul>
+
+  <li>
+
+  <p>Follow <a href="https://gbatemp.net/threads/open_agb_firm-discussion-thread.570844/#post-9149895"
+  rel="nofollow">this guide</a>.</p>
+
+  </li>
+
+  <li>
+
+  <p>Set FastBoot3DS or GodMode9 as your Firm0, B9S won''t do.</p>
+
+  </li>
+
+  <li>
+
+  <p>If using FastBoot3DS, enable FCRAM boot.</p>
+
+  </li>
+
+  <li>
+
+  <p>Download <a href="https://github.com/profi200/open_agb_firm/releases/latest">the
+  latest open_agb_firm</a>, rename it to <em>"GBA.firm"</em>, and place it in the
+  root of your SD card.</p>
+
+  </li>
+
+  </ul>
+
+  <p>If there''s no <em>"GBA.firm"</em>, it also looks for <em>"open_agb_firm.firm"</em>
+  under <em>"/luma/payloads/".</em></p>
+
+  '
 updated: '2020-12-01T13:52:50Z'
 version: '2.0'
 ---
