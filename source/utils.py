@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import traceback
 from datetime import datetime, timezone
-from typing import Any, Dict
+from typing import Any, Dict, Union, List
 
 from dateutil import parser
 from unidecode import unidecode
@@ -24,7 +24,8 @@ def was_recently_updated(app: Dict[str, Any]) -> bool:
 	return days_since <= 30
 
 
-def get_matching_app(app: Dict[str, Any], old_data):
+def get_matching_app(app: Dict[str, Any], old_data: List[Dict[str, Any]]) -> Union[Dict[str, Any], None]:
+	"""Returns an app from old_data if exists, else None"""
 	keys = [
 		("github", lambda x: "github" in x and "github" in app and x["github"] == app["github"]),
 		("gbatemp", lambda x: "gbatemp" in x and "gbatemp" in app and x["gbatemp"] == app["gbatemp"]),
@@ -36,7 +37,7 @@ def get_matching_app(app: Dict[str, Any], old_data):
 		if match := list(filter(func, old_data)):
 			return match[0]
 
-	return app
+	return None
 
 
 def format_to_web_name(name: str) -> str:
