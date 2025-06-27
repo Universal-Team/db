@@ -108,6 +108,15 @@ update_notes: '<p><a href="https://www.youtube.com/watch?v=2z7kVH9xePM" rel="nof
 
   </ul>
 
+  <h4>Known Bugs:</h4>
+
+  <ul>
+
+  <li>[Gamecube] Audio and saving only work properly on an SD Gecko or SD2SP2; optical
+  drive emulators such as FlippyDrive are not supported.</li>
+
+  </ul>
+
   <p>Enjoy!</p>'
 updated: '2025-06-23T04:15:06Z'
 version: v2.3
