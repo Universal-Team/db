@@ -19,7 +19,7 @@ image: https://db.universal-team.net/assets/images/images/dslibris.png
 image_length: 213
 layout: app
 source: https://github.com/rhaleblian/dslibris
-stars: 99
+stars: 100
 systems:
 - DS
 title: dslibris
