@@ -19,7 +19,7 @@ image: https://raw.githubusercontent.com/amedeo463/pie3ds/main/icon.png
 image_length: 390
 layout: app
 source: https://github.com/amedeo463/pie3ds
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: Pie3DS
