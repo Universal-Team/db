@@ -12,11 +12,11 @@ downloads:
   TRexGame.3dsx:
     size: 1295336
     size_str: 1 MiB
-    url: https://github.com/BlyZeDev/T-Rex-Game-3DS/releases/download/v1.2.0/TRexGame.3dsx
+    url: https://github.com/BlyZeDev/T-Rex-Game-3DS/releases/download/v1.3.0/TRexGame.3dsx
   TRexGame.cia:
-    size: 1360832
+    size: 1459136
     size_str: 1 MiB
-    url: https://github.com/BlyZeDev/T-Rex-Game-3DS/releases/download/v1.2.0/TRexGame.cia
+    url: https://github.com/BlyZeDev/T-Rex-Game-3DS/releases/download/v1.3.0/TRexGame.cia
 github: BlyZeDev/T-Rex-Game-3DS
 icon: https://raw.githubusercontent.com/BlyZeDev/T-Rex-Game-3DS/master/assets/icon.png
 image: https://raw.githubusercontent.com/BlyZeDev/T-Rex-Game-3DS/master/assets/banner.png
@@ -41,22 +41,19 @@ update_notes: '<p dir="auto">The Google Chrome T-Rex game recreated to run nativ
 
   <ul dir="auto">
 
-  <li>Highscore is now saved in sd/config/APP_TITLE/highscore.dat instead of sd/3ds/APP_TITLE/highscore.dat</li>
-
-  <li>Existing highscore is automatically migrated to the new location and the old
-  location folder is deleted</li>
-
-  <li>Enabled wide mode usage for all models except Old2DS (sorry guys)</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/MillKeny/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/MillKeny">@MillKeny</a>
+  reported and fixed the startup sound issue.</li>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/BlyZeDev/T-Rex-Game-3DS/compare/v1.1.0...v1.2.0"><tt>v1.1.0...v1.2.0</tt></a></p>
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/BlyZeDev/T-Rex-Game-3DS/compare/v1.2.0...v1.3.0"><tt>v1.2.0...v1.3.0</tt></a></p>
 
   <h3 dir="auto">FBI Remote Download QR-Code</h3>
 
   '
-updated: '2024-10-23T18:11:26Z'
-version: v1.2.0
-version_title: v1.2.0
+updated: '2025-06-28T18:43:13Z'
+version: v1.3.0
+version_title: v1.3.0
 website: https://gbatemp.net/threads/release-chrome-t-rex-game-clone.661573
 ---
