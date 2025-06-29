@@ -28,7 +28,7 @@ license_name: Other
 qr:
   devilutionx-3ds.cia: https://db.universal-team.net/assets/images/qr/devilutionx-3ds-cia.png
 source: https://github.com/diasurgical/DevilutionX
-stars: 8755
+stars: 8756
 systems:
 - 3DS
 title: DevilutionX
