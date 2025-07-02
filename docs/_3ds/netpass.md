@@ -7,7 +7,7 @@ color: '#87d6c8'
 color_bg: '#508077'
 created: '2024-04-14T17:00:40.939Z'
 description: A new way to experience StreetPass
-download_page: https://gitlab.com/Sorunome/3ds-streetpass/-/releases
+download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
     size: 4076012
@@ -17,9 +17,9 @@ downloads:
     size: 4178880
     size_str: 3 MiB
     url: https://gitlab.com/3ds-netpass/netpass/-/raw/7da55c416290b999724b86f1cf14d8d73242e1bc/netpass.cia?inline=false
-gitlab: Sorunome/3ds-streetpass
-icon: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/meta/icon.png
-image: https://gitlab.com/Sorunome/3ds-streetpass/-/raw/main/meta/icon.png
+gitlab: 3ds-netpass/netpass
+icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
+image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image_length: 2983
 layout: app
 license: gpl-3.0
