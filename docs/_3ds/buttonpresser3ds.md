@@ -3,8 +3,6 @@ author: Ike Rolader
 avatar: https://avatars.githubusercontent.com/u/10735668?v=4
 categories:
 - game
-color: '#872217'
-color_bg: '#802016'
 created: '2017-06-18T17:05:01Z'
 description: Is this good?
 download_page: https://github.com/trainboy2019/ButtonPresser3DS/releases

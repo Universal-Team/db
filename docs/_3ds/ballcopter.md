@@ -28,7 +28,7 @@ screenshots:
 - description: Screenshot3
   url: https://db.universal-team.net/assets/images/screenshots/ballcopter/screenshot3.png
 source: https://github.com/impi5h/Ballcopter3DS
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: Ballcopter!
