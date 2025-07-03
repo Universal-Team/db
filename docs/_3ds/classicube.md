@@ -27,7 +27,7 @@ nightly:
   qr:
     ClassiCube-3ds.cia: https://db.universal-team.net/assets/images/qr/nightly/classicube-3ds-cia.png
 source: https://github.com/ClassiCube/ClassiCube
-stars: 1682
+stars: 1683
 systems:
 - 3DS
 title: ClassiCube
