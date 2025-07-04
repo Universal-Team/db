@@ -9,34 +9,38 @@ created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
 downloads:
+  AddOn-BetterDSiMenuMusic.7z:
+    size: 22208058
+    size_str: 21 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/AddOn-BetterDSiMenuMusic.7z
   AddOn-ExtraUIMusic.7z:
     size: 8420942
     size_str: 8 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/AddOn-ExtraUIMusic.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/AddOn-ExtraUIMusic.7z
   AddOn-Multimedia.7z:
-    size: 689776
+    size: 690036
     size_str: 673 KiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/AddOn-Multimedia.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/AddOn-Multimedia.7z
   AddOn-VirtualConsole.7z:
-    size: 3744770
+    size: 3744752
     size_str: 3 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/AddOn-VirtualConsole.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/AddOn-VirtualConsole.7z
   TWiLightMenu-3DS.7z:
-    size: 28972333
+    size: 28971450
     size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 29025658
+    size: 29053573
     size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 40049770
+    size: 40048624
     size_str: 38 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 49654431
-    size_str: 47 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.15.1/TWiLightMenu.7z
+    size: 71841333
+    size_str: 68 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -50,11 +54,8 @@ stars: 3548
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.6.2">nds-bootstrap
-  v2.6.2</a><br>
-
-  Re-released to fix a bug where <code class="notranslate">v25.15.1</code> is displayed
-  before the proper version number in TWLMenu++ Settings.</p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.7.0">nds-bootstrap
+  v2.7.0</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -74,72 +75,54 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>The image viewer now displays images/photos in the RGB565 color format for improved
-  green color display!
+  <li>Added a better version of the DSi Menu music, with better quality and lasting
+  up to 8 minutes and 39 seconds to ensure no parts have been left out! In order to
+  keep the filesize of TWLMenu++ down, the better music has been made available as
+  an add-on.
 
   <ul dir="auto">
 
-  <li>For the images to display without issues, the music is now sequenced instead
-  of streamed.</li>
+  <li>Required space on the SD card: <code class="notranslate">32MB</code></li>
 
   </ul>
 
   </li>
 
-  <li>The DS(i) splash or custom splash, along with the manual and custom banner icons,
-  will also be displayed in the RGB565 color format!</li>
-
-  <li>Pressing <code class="notranslate">A</code> in the image viewer will now switch
-  the dithering method used for displaying 32/24-bit color <code class="notranslate">.bmp</code>
-  images or all <code class="notranslate">.png</code> images.
+  <li>To improve visual accuracy of the DSi Menu UI look, the original user color
+  palettes with white edges has been added.
 
   <ul dir="auto">
 
-  <li>Temporal dithering (used every time when opening an image) basically works around
-  color banding by switching dark/bright pixels in rapid succession.</li>
-
-  <li>Normal dithering pauses the pixel-switching, revealing a grid-like pattern.</li>
+  <li>For this change to not affect past custom themes, support for a new theme <code
+  class="notranslate">.ini</code> setting called <code class="notranslate">UsernameEdgeAlpha</code>
+  has been added, and is disabled by default.</li>
 
   </ul>
 
   </li>
 
-  <li>Added a Sonic-themed TWLMenu++ splash for Sonic the Hedgehog''s anniversary!
+  <li>If the emulators and multimedia applications are left over from your previous
+  TWLMenu++ installation(s) from before the add-on feature was implemented, the <code
+  class="notranslate">Virtual Console</code> and <code class="notranslate">Multimedia</code>
+  add-on flags will be created in order to continue using those applications without
+  the need to manually install the add-ons!
 
   <ul dir="auto">
 
-  <li>The splash jingle has been added since past versions.</li>
+  <li>For speed reasons, only nesDS and the TWLMenu++ image viewer are detected.</li>
 
   </ul>
 
   </li>
 
-  <li>If the Virtual Console add-on is not installed, the TWLMenu++ splash screen
-  will now show icons of three GBA models above the logo, and three DS models below
-  the logo.</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed dark color crushing for some images due to temporal dithering (aka color
-  de-banding).</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mentusfentus/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mentusfentus">@mentusfentus</a>:
-  <strong>DS Classic Menu:</strong> Fixed top bar date text not displaying correctly
-  in German.</li>
-
-  <li>If a photo in <code class="notranslate">sd:/_nds/TWiLightMenu/dsimenu/photos/</code>
-  is found to have transparency/alpha, it''ll now be applied with the black color
-  instead of not using transparency/alpha at all (which could reveal hidden graphics).</li>
+  <li><strong>DSi-based UIs:</strong> Before loading the current directory listing,
+  the <code class="notranslate">Now Loading...</code> screen is now displayed when
+  loading the UI music &amp; sound data.</li>
 
   </ul>'
-updated: '2025-06-24T10:05:36Z'
-version: v27.15.1
-version_title: v27.15.1
+updated: '2025-07-04T06:26:25Z'
+version: v27.16.0
+version_title: 'v27.16.0: 4th of July Release'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---

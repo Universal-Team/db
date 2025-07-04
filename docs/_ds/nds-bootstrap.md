@@ -50,7 +50,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Wokann/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Wokann">@Wokann</a>:
   Added an option to disable save relocation, so that games still save within their
-  original game cards. Useful for trying to run game translations, but still wanting
+  original game cards. Useful for trying to run game translations, but still want
   to using the original game card for save data.</li>
 
   </ul>
