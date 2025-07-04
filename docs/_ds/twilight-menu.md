@@ -119,6 +119,8 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   the <code class="notranslate">Now Loading...</code> screen is now displayed when
   loading the UI music &amp; sound data.</li>
 
+  <li>Various: Updated translations.</li>
+
   </ul>'
 updated: '2025-07-04T06:26:25Z'
 version: v27.16.0
