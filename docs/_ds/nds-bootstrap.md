@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 1065058
+    size: 1065544
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.7.0/nds-bootstrap.7z
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.7.1/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1543822
+    size: 1543948
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.7.0/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.7.1/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -42,6 +42,27 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   files, to <code class="notranslate">root:/_nds/</code>.</li>
 
   </ol>
+
+  <h3 dir="auto">Bug fix</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed an overlooked bug which caused some games to either not boot or show a
+  save corrupted message on DSi/3DS consoles.
+
+  <ul dir="auto">
+
+  <li>If this bug has caused your save data to be erased, make sure you have backups
+  ready. If you have not tried v2.7.0, please update to this version immediately just
+  in case.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <h2 dir="auto">v2.7.0 Changelog</h2>
 
   <h3 dir="auto">What''s new?</h3>
 
@@ -86,9 +107,9 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   as well, which can cause the connection to drop, depending on the game.</li>
 
   </ul>'
-updated: '2025-07-04T06:10:09Z'
-version: v2.7.0
-version_title: 'v2.7.0: 4th of July Release'
+updated: '2025-07-04T09:23:21Z'
+version: v2.7.1
+version_title: v2.7.1 (hotfix)
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---

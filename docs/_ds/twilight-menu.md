@@ -18,27 +18,27 @@ downloads:
     size_str: 8 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/AddOn-ExtraUIMusic.7z
   AddOn-Multimedia.7z:
-    size: 690036
+    size: 690037
     size_str: 673 KiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/AddOn-Multimedia.7z
   AddOn-VirtualConsole.7z:
-    size: 3744752
+    size: 3744774
     size_str: 3 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/AddOn-VirtualConsole.7z
   TWiLightMenu-3DS.7z:
-    size: 28971450
+    size: 28971780
     size_str: 27 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 29053573
+    size: 29054049
     size_str: 27 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 40048624
+    size: 40048975
     size_str: 38 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 71841333
+    size: 71841773
     size_str: 68 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
@@ -54,8 +54,8 @@ stars: 3548
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.7.0">nds-bootstrap
-  v2.7.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.7.1">nds-bootstrap
+  v2.7.1</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
