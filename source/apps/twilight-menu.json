@@ -60,6 +60,24 @@
 				"file": "/TWiLightMenu-3DS.7z"
 			}
 		],
+		"(Add-on) Better DSi Menu Music": [
+			{
+				"type": "downloadRelease",
+				"repo": "DS-Homebrew/TWiLightMenu",
+				"file": "AddOn-BetterDSiMenuMusic.7z",
+				"output": "/AddOn-BetterDSiMenuMusic.7z"
+			},
+			{
+				"type": "extractFile",
+				"file": "/AddOn-BetterDSiMenuMusic.7z",
+				"input": "_nds/",
+				"output": "/_nds/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/AddOn-BetterDSiMenuMusic.7z"
+			}
+		],
 		"(Add-on) Extra UI Music": [
 			{
 				"type": "downloadRelease",
