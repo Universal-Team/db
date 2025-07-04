@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 1069256
+    size: 1065058
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.6.2/nds-bootstrap.7z
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.7.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1538388
+    size: 1543822
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.6.2/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.7.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -28,8 +28,8 @@ stars: 1266
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.15.1"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v27.15.1</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.16.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v27.16.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -43,57 +43,15 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <p dir="auto">Below change only applies to DSi &amp; 3DS users.</p>
-
-  <h3 dir="auto">Bug fix</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed an overlooked bug where DSi-Enhanced ROMs would not boot in DSi mode without
-  a DSi-Exclusive/DSiWare ROM set as a donor ROM.</li>
-
-  </ul>
-
-  <h2 dir="auto">v2.6.1 Changelog</h2>
-
-  <p dir="auto">Below changes only apply to DSi &amp; 3DS users.</p>
-
   <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Added ROM pre-load settings (automatically activated) for more games for improved
-  ROM reading:
-
-  <ul dir="auto">
-
-  <li>Dragon Ball: Origins (Sound data)</li>
-
-  <li>Dragon Ball: Origins 2 (Sound data)</li>
-
-  <li>Dragon Ball Z: Supersonic Warriors 2 (Character sprites and sound data, the
-  latter for 3DS)</li>
-
-  <li><strong>3DS:</strong> Kamen Rider: Dragon Knight (Everything except sound data)</li>
-
-  </ul>
-
-  </li>
-
-  <li>A DSi-Exclusive/DSiWare ROM can now be used as a donor ROM in order to increase
-  the cluster cache from 6KB (0x17B0) to 12KB (0x3000) when running a DSi-Enhanced
-  game in DSi mode. This can be useful if nds-bootstrap shows <code class="notranslate">An
-  error has occurred.</code> due to ROM cluster fragmentation, and you don''t feel
-  like reformatting the SD card to de-fragment the ROM.
-
-  <ul dir="auto">
-
-  <li>If you are using a DSi, then TWLMenu++ has already set a donor ROM automatically
-  after booting for the first time.</li>
-
-  </ul>
-
-  </li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Wokann/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Wokann">@Wokann</a>:
+  Added an option to disable save relocation, so that games still save within their
+  original game cards. Useful for trying to run game translations, but still wanting
+  to using the original game card for save data.</li>
 
   </ul>
 
@@ -101,27 +59,36 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Fixed crashing with a communication error when selecting anything after connecting
-  to <em>My Pokemon Ranch</em> on Wii.
+  <li><strong>B4DS:</strong> Successfully fixed the in-game menu not opening on Ace3DS+
+  flashcards and its clones! (Yup, it''s fixed for real this time!)
 
   <ul dir="auto">
 
-  <li>The crash was caused by not reading the sound data due to the pre-loaded ROM
-  data map getting cleared after selecting the <code class="notranslate">Connect to
-  Wii</code> option in the Gen 4 Pokemon games.</li>
+  <li>The fix has not been applied to DSi/3DS users outside of B4DS mode, as it is
+  unknown if the same bug occurs outside of B4DS mode.</li>
 
   </ul>
 
   </li>
 
-  <li>Fixed a bug which lasted since v1.0.0, where the "Wanted!" feature in <em>Assassin''s
-  Creed II: Discovery</em> would crash with both screens nearly white, and no DSi/3DS
-  camera image on the top screen.</li>
+  <li><strong>DSi/3DS:</strong> Fixed an overlooked bug which caused color LUT/screen
+  filter to not apply for DSi-Enhanced/Exclusive games in DSi mode.</li>
+
+  </ul>
+
+  <h3 dir="auto">Known bug</h3>
+
+  <ul dir="auto">
+
+  <li><strong>B4DS:</strong> In order for the in-game menu to now open on Ace3DS+
+  flashcards and its clones, it no longer checks for active wireless communications.
+  As a result, the in-game menu can now be opened during active wireless communications
+  as well, which can cause the connection to drop, depending on the game.</li>
 
   </ul>'
-updated: '2025-06-24T10:00:18Z'
-version: v2.6.2
-version_title: v2.6.2 (hotfix)
+updated: '2025-07-04T06:10:09Z'
+version: v2.7.0
+version_title: 'v2.7.0: 4th of July Release'
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
