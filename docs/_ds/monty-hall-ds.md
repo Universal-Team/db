@@ -29,7 +29,7 @@ update_notes: '<h1>Welcome to The Monty Hall Problem for Nintendo DS!</h1>
 
   <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/4ff9ec50-e5f0-400a-9575-db173d4b23ba"><img
   src="https://github.com/user-attachments/assets/4ff9ec50-e5f0-400a-9575-db173d4b23ba"
-  alt="Game''s title screen" style="max-width: 100%;"></a></p>
+  alt="Game''s title screen" style="max-width: 100%; height: auto;"></a></p>
 
   <h2>Changelog</h2>
 

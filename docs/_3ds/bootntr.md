@@ -94,13 +94,13 @@ update_notes: '<h1 dir="auto">Make sure to use Luma3DS v13.0 or newer. Older Lum
 
   <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/10946643/56131741-96b2c500-5f88-11e9-9af7-a81825505f5b.png"><img
   src="https://user-images.githubusercontent.com/10946643/56131741-96b2c500-5f88-11e9-9af7-a81825505f5b.png"
-  alt="image" style="max-width: 100%;"></a></p>
+  alt="image" style="max-width: 100%; height: auto;"></a></p>
 
   <h3 dir="auto">Alternate Banner (FONZD)</h3>
 
   <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/10946643/56131768-afbb7600-5f88-11e9-8585-6ceb930424cc.png"><img
   src="https://user-images.githubusercontent.com/10946643/56131768-afbb7600-5f88-11e9-8585-6ceb930424cc.png"
-  alt="image" style="max-width: 100%;"></a></p>'
+  alt="image" style="max-width: 100%; height: auto;"></a></p>'
 updated: '2022-08-30T10:45:54Z'
 version: v2.13.7
 version_title: v2.13.7

@@ -35,7 +35,7 @@ update_notes: '<p dir="auto">This release fixes the app''s tendency to crash whe
 
   <a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/18273084/32138523-00699f18-bc02-11e7-993b-7165c17ff9f5.png"><img
   src="https://user-images.githubusercontent.com/18273084/32138523-00699f18-bc02-11e7-993b-7165c17ff9f5.png"
-  alt="qr" style="max-width: 100%;"></a></p>'
+  alt="qr" style="max-width: 100%; height: auto;"></a></p>'
 updated: '2017-10-28T21:00:21Z'
 version: v1.2
 version_title: Slight Bug Fix

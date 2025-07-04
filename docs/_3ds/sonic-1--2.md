@@ -139,11 +139,11 @@ update_notes: '<h1 dir="auto"><a href="https://github.com/JeffRuLz/Sonic-1-2-201
 
   <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/14222721/194726393-d59587cf-1530-46f5-850c-ef33c3a882ff.png"><img
   src="https://user-images.githubusercontent.com/14222721/194726393-d59587cf-1530-46f5-850c-ef33c3a882ff.png"
-  alt="sonic1qr" style="max-width: 100%;"></a></p>
+  alt="sonic1qr" style="max-width: 100%; height: auto;"></a></p>
 
   <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/14222721/194726395-24f5fa12-421f-4dc2-82bc-7e4d81c5281b.png"><img
   src="https://user-images.githubusercontent.com/14222721/194726395-24f5fa12-421f-4dc2-82bc-7e4d81c5281b.png"
-  alt="sonic2qr" style="max-width: 100%;"></a></p>'
+  alt="sonic2qr" style="max-width: 100%; height: auto;"></a></p>'
 updated: '2022-10-08T20:05:50Z'
 version: v1.3.0
 version_title: New 3DS v1.3.0
