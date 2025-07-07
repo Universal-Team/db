@@ -67,7 +67,7 @@ update_notes: '<h2 dir="auto">What''s new</h2>
 
   <p dir="auto"><a href="https://discord.gg/bGKEyfY" rel="nofollow"><img src="https://camo.githubusercontent.com/4fd6621149dd39281a0da7c2c9d80ad1408edca0c82a0153a1d7df9ea37c7e11/68747470733a2f2f646973636f72646170702e636f6d2f6170692f6775696c64732f3237383232323833343633333830313732382f7769646765742e706e673f7374796c653d62616e6e6572332674696d652d"
   alt="Discord" data-canonical-src="https://discordapp.com/api/guilds/278222834633801728/widget.png?style=banner3&amp;time-"
-  style="max-width: 100%; height: auto;"></a></p>'
+  style="max-width: 100%;"></a></p>'
 updated: '2025-06-22T11:30:26Z'
 version: v3.10.1
 version_title: Checkpoint 3.10.1
