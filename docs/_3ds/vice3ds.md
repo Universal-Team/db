@@ -61,7 +61,7 @@ update_notes: '<p dir="auto">Micro release 2.4.2. This release fixes the downloa
 
   <a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/11392517/218280012-60704442-0764-4117-ba4f-89828809bb60.png"><img
   src="https://user-images.githubusercontent.com/11392517/218280012-60704442-0764-4117-ba4f-89828809bb60.png"
-  alt="grafik" style="max-width: 100%; height: auto;"></a></p>'
+  alt="grafik" style="max-width: 100%;"></a></p>'
 updated: '2023-02-11T20:33:51Z'
 version: 2.4.2
 version_title: vice3DS v2.4.2 Senbei

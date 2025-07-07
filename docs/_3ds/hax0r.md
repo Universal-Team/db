@@ -33,8 +33,7 @@ update_notes: '<p dir="auto">Welp I messed up after Love Potion updated.</p>
 
   <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/e8ab53c9898639558dfed6201dabd3028309ee3fbcdb9964c17cf0ee77d936d9/687474703a2f2f74696e7975726c2e636f6d2f4861783072434941"><img
   src="https://camo.githubusercontent.com/e8ab53c9898639558dfed6201dabd3028309ee3fbcdb9964c17cf0ee77d936d9/687474703a2f2f74696e7975726c2e636f6d2f4861783072434941"
-  alt="" data-canonical-src="http://tinyurl.com/Hax0rCIA" style="max-width: 100%;
-  height: auto;"></a></p>'
+  alt="" data-canonical-src="http://tinyurl.com/Hax0rCIA" style="max-width: 100%;"></a></p>'
 updated: '2016-07-07T19:36:27Z'
 version: v1.2
 version_title: Bugfixes 'n Stuff

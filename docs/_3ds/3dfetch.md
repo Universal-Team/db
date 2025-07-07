@@ -65,7 +65,7 @@ update_notes: '<p dir="auto">Lots of stuff added! First and foremost:</p>
   <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/d71b6aa3507828ce08b271d1410338f67af62a1c4f85d46800bf3fac5bc558b1/687474703a2f2f692e696d6775722e636f6d2f5a7773356743492e706e67"><img
   src="https://camo.githubusercontent.com/d71b6aa3507828ce08b271d1410338f67af62a1c4f85d46800bf3fac5bc558b1/687474703a2f2f692e696d6775722e636f6d2f5a7773356743492e706e67"
   alt="QR code" data-canonical-src="http://i.imgur.com/Zws5gCI.png" style="max-width:
-  100%; height: auto;"></a></p>
+  100%;"></a></p>
 
   <p dir="auto">Send ❤️ to <a href="https://github.com/daedreth">daedreth</a> and
   <a href="https://github.com/astronautlevel2">Alex</a> for their immense work on

@@ -45,7 +45,7 @@ update_notes: '<p dir="auto">Attached are a CIA and 3DSX file depending on what 
 
   <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/1209016/83885547-bd3f3c80-a703-11ea-8d7d-e2f769a6e872.png"><img
   src="https://user-images.githubusercontent.com/1209016/83885547-bd3f3c80-a703-11ea-8d7d-e2f769a6e872.png"
-  alt="image" style="max-width: 100%; height: auto;"></a></p>
+  alt="image" style="max-width: 100%;"></a></p>
 
   <h1 dir="auto">Change Log</h1>
 

@@ -34,7 +34,7 @@ unique_ids:
 update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow"
   href="https://user-images.githubusercontent.com/6418965/30785430-de03a4ba-a166-11e7-8ee4-c1a70f39968c.jpg"><img
   src="https://user-images.githubusercontent.com/6418965/30785430-de03a4ba-a166-11e7-8ee4-c1a70f39968c.jpg"
-  alt="zelda3t_v1 0 cia" style="max-width: 100%; height: auto;"></a></p>
+  alt="zelda3t_v1 0 cia" style="max-width: 100%;"></a></p>
 
   <p dir="auto">(QR code to dovnload and install the cia file with FBI)</p>'
 updated: '2017-09-24T18:25:47Z'

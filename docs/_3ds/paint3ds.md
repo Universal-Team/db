@@ -45,7 +45,7 @@ update_notes: '<p>First and probably last version.<br>
 
   <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/bc7bbae8-79e0-4c58-8e09-18d30312590d"><img
   align="left" width="300" height="300" src="https://github.com/user-attachments/assets/bc7bbae8-79e0-4c58-8e09-18d30312590d"
-  style="max-width: 100%; height: auto;"></a></p>'
+  style="max-width: 100%;"></a></p>'
 updated: '2024-09-20T18:52:39Z'
 version: v1.0.0
 version_title: Paint3DS v1.0.0
