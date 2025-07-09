@@ -63,8 +63,8 @@ update_notes: '<p dir="auto">To update:</p>
 
   <ul dir="auto">
 
-  <li>Fixed a bug where the DSi Shop and the 3DS Transfer Tool would display an error
-  after changing the region in the hiyaCFW config menu.
+  <li>Fixed a bug where the DSi Shop and the 3DS Transfer Tool would still display
+  an error after changing the region back to the original in the hiyaCFW config menu.
 
   <ul dir="auto">
 
