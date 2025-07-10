@@ -186,5 +186,4 @@ update_notes: '<h3 dir="auto">Features</h3>
 updated: '2025-02-08T20:47:40Z'
 version: 1.5.4
 version_title: 1.5.4
-wiki: https://github.com/diasurgical/DevilutionX/wiki
 ---
