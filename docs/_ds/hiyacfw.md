@@ -10,9 +10,9 @@ description: World's FIRST Nintendo DSi CFW!
 download_page: https://github.com/DS-Homebrew/hiyaCFW/releases
 downloads:
   hiyaCFW.7z:
-    size: 225233
-    size_str: 219 KiB
-    url: https://github.com/DS-Homebrew/hiyaCFW/releases/download/v1.6.1/hiyaCFW.7z
+    size: 225404
+    size_str: 220 KiB
+    url: https://github.com/DS-Homebrew/hiyaCFW/releases/download/v1.6.2/hiyaCFW.7z
 github: DS-Homebrew/hiyaCFW
 icon: https://db.universal-team.net/assets/images/icons/hiyacfw.png
 image: https://raw.githubusercontent.com/DS-Homebrew/hiyaCFW/unlaunch/logo/logo.png
@@ -30,59 +30,39 @@ update_notes: '<p dir="auto">To update:</p>
 
   <ul dir="auto">
 
-  <li>If you''re using v1.6.0, replace <code class="notranslate">hiya.dsi</code> on
-  the SD root, with the one from the 7z file, in <code class="notranslate">for SDNAND
-  SD card</code>.</li>
+  <li>If you''re using v1.6.0 or later, replace <code class="notranslate">hiya.dsi</code>
+  on the SD root, with the one from the 7z file, in <code class="notranslate">for
+  SDNAND SD card</code>.</li>
 
   <li>If you''re using v1.5.1 or prior, (re-)run <a href="https://gitlab.com/R-YaTian/twlmagician/-/releases"
   rel="nofollow">TWLMagician</a>, which will fix the free space bug.</li>
 
   </ul>
 
-  <h3 dir="auto">What''s new?</h3>
+  <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>RGB565 <code class="notranslate">.bmp</code> splash screen images will now display
-  properly!
+  <li>Requested by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/R-YaTian/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/R-YaTian">@R-YaTian</a>:
+  System Settings are now reset when region-changing from Japanese (if the NAND dump
+  is from a console of said region) in order to fix touch inputs not working.
 
   <ul dir="auto">
 
-  <li>If the opposite splash screen image is in <code class="notranslate">.gif</code>
-  format, the <code class="notranslate">.bmp</code> splash will be displayed in RGB555
-  mode to prevent flickering when displaying the <code class="notranslate">.gif</code>
-  splash.</li>
+  <li>If touch inputs are still not working after updating, change the region back
+  to Japanese, save, and then change the region again to the one you''re wanting to
+  use.</li>
 
   </ul>
 
   </li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed a bug where the DSi Shop and the 3DS Transfer Tool would still display
-  an error after changing the region back to the original in the hiyaCFW config menu.
-
-  <ul dir="auto">
-
-  <li>For the fix to take effect, change the region to a different one, save, and
-  change the region back to the one you normally use.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Fixed where either the regular hiyaCFW splash, or a splash screen consisting
-  of only one or two <code class="notranslate">.bmp</code> files, is not displayed
-  at all if the splash screen setting is enabled.</li>
 
   </ul>'
-updated: '2025-07-04T07:04:29Z'
-version: v1.6.1
-version_title: 'v1.6.1: 4th of July Release'
+updated: '2025-07-12T00:10:59Z'
+version: v1.6.2
+version_title: v1.6.2
 wiki: https://wiki.ds-homebrew.com/hiyacfw/
 ---
 **Note:** For the initial install, please follow [this guide](https://wiki.ds-homebrew.com/hiyacfw/installing). If you are updating, then simply replace `sd:/hiya.dsi` from the `for SDNAND SD card` in the 7z.
