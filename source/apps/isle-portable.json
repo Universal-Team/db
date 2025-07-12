@@ -1,0 +1,11 @@
+{
+	"github": "isledecomp/isle-portable",
+	"title": "LEGO Island",
+	"systems": ["3DS"],
+	"categories": ["game"],
+	"unique_ids": [487038],
+	"image": "https://raw.githubusercontent.com/isledecomp/isle-portable/main/ISLE/res/3ds/banner.png",
+	"icon": "https://raw.githubusercontent.com/isledecomp/isle-portable/main/ISLE/res/3ds/icon.png",
+	"description": "Lego Island for the 3DS",
+	"script_message": "Note: You will need the game data files from\nan existing copy of LEGO Island.\nSee the isle-portable GitHub page for\nmore information."
+}
