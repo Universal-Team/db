@@ -12,11 +12,11 @@ downloads:
   vconv.cia:
     size: 1708992
     size_str: 1 MiB
-    url: https://github.com/lxfly2000/VConV/releases/download/Build-9/vconv.cia
+    url: https://github.com/lxfly2000/VConV/releases/download/Build-10/vconv.cia
   vconv3ds.3dsx:
-    size: 1268384
+    size: 1268400
     size_str: 1 MiB
-    url: https://github.com/lxfly2000/VConV/releases/download/Build-9/vconv3ds.3dsx
+    url: https://github.com/lxfly2000/VConV/releases/download/Build-10/vconv3ds.3dsx
 github: lxfly2000/VConV
 icon: https://raw.githubusercontent.com/lxfly2000/VConV/master/vconv3ds/icon.png
 image: https://raw.githubusercontent.com/lxfly2000/VConV/master/vconv3ds/buildcia/banner.png
@@ -28,13 +28,15 @@ screenshots:
 - description: Preview
   url: https://db.universal-team.net/assets/images/screenshots/vconv/preview.png
 source: https://github.com/lxfly2000/VConV
-stars: 5
+stars: 6
 systems:
 - 3DS
 title: VConV
 unique_ids:
 - '0x11A87'
-update_notes: '<p dir="auto">添加附加按钮</p>
+update_notes: '<p dir="auto">添加附加按钮<br>
+
+  不发送keycode为0的命令</p>
 
   <div class="markdown-alert markdown-alert-warning" dir="auto"><p class="markdown-alert-title"
   dir="auto"><svg class="octicon octicon-alert mr-2" viewBox="0 0 16 16" version="1.1"
@@ -104,17 +106,17 @@ update_notes: '<p dir="auto">添加附加按钮</p>
 
   <ul dir="auto">
 
-  <li>vconv.cia: <code class="notranslate">58b2af6d31af9844988c6dbfb1cc64906e31b066b236b6b7972a7bb721d5ea3f</code></li>
+  <li>vconv.cia: <code class="notranslate">69BFAA5D0A613D17F8AE3162E2E71D529EF519B7191BF974A159099850651197</code></li>
 
-  <li>vconv3ds.3dsx: <code class="notranslate">9623874a645bc4efd305aa7b69af176d8d384b30733f689af64c0d92e1205452</code></li>
+  <li>vconv3ds.3dsx: <code class="notranslate">9A569699AB6C47047627E4D076814BB1525760450BE1572388F22DE8A4C54288</code></li>
 
   <li>vconvwin.exe: <code class="notranslate">30D8964A8A6F0F3ED2CA3D3E864865C085F67FF8865D2C9EB6E96B0D00629B98</code></li>
 
   <li>vconvwin64.exe: <code class="notranslate">D844A8C6092B7C30F7AF36C0E77490B390E6E70E0F9844D52F6BABC27AA24931</code></li>
 
   </ul>'
-updated: '2025-07-12T12:38:22Z'
-version: Build-9
+updated: '2025-07-13T01:44:31Z'
+version: Build-10
 website: https://www.bilibili.com/video/BV18qoXYmER1
 ---
 3DS Virtual Controller for ViGEm
