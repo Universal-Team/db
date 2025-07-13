@@ -70,7 +70,7 @@ script_message: 'Note: You will need the game data files from
 
   more information.'
 source: https://github.com/isledecomp/isle-portable
-stars: 806
+stars: 807
 systems:
 - 3DS
 title: LEGO Island
