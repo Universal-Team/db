@@ -34,8 +34,8 @@ update_notes: '<p dir="auto">To update:</p>
   on the SD root, with the one from the 7z file, in <code class="notranslate">for
   SDNAND SD card</code>.</li>
 
-  <li>If you''re using v1.5.1 or prior, (re-)run <a href="https://gitlab.com/R-YaTian/twlmagician/-/releases"
-  rel="nofollow">TWLMagician</a>, which will fix the free space bug.</li>
+  <li>If you''re using v1.5.1 or prior, (re-)run <a href="https://github.com/R-YaTian/TWLMagician/releases">TWLMagician</a>,
+  which will fix the free space bug.</li>
 
   </ul>
 
