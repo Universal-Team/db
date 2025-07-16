@@ -21,7 +21,7 @@ layout: app
 qr:
   CookieClicker.cia: https://db.universal-team.net/assets/images/qr/cookieclicker-cia.png
 source: https://github.com/Creckeryop/3dsCookieClicker
-stars: 25
+stars: 26
 systems:
 - 3DS
 title: 3dsCookieClicker
