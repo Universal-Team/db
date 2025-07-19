@@ -1,11 +1,11 @@
 {
 	"github": "NateXS/Scratch-3DS",
 	"systems": ["3DS"],
-	"categories": ["game"],
+	"categories": ["emulator","utility"],
 	"image": "https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/gfx/logo.png",
 	"icon": "https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/gfx/icon.png",
 	"description": "Play Scratch games on your 3DS!"
-	"long_description": "A custom Scratch runtime that allows you to run any Scratch 3 project on your 3DS!",
+	"long_description": "A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!",
 	"author": "NateXS",
 	"title": "Scratch 3DS",
-}
+} 
