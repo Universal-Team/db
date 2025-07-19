@@ -20,7 +20,8 @@ downloads:
     url: https://github.com/erievs/FourthTube/releases/download/b32/FourthTube.cia
 github: erievs/FourthTube
 icon: https://raw.githubusercontent.com/erievs/FourthTube/main/resource/icon.png
-image: https://raw.githubusercontent.com/erievs/FourthTube/main/resource/banner.png
+image: https://raw.githubusercontent.com/erievs/FourthTube/main/resource/banner_legacy.png
+image_length: 12327
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
