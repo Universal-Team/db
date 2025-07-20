@@ -45,7 +45,7 @@
 			},
 			{
 				"type": "extractFile",
-				"file": "/snes9x_3ds.zip",
+				"file": "/SuDokuL.zip",
 				"input": "SuDokuL-3ds/3ds/SuDokuL/SuDokuL.3dsx",
 				"output": "%3DSX%/SuDokuL.3dsx"
 			},
