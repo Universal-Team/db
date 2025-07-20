@@ -8,7 +8,7 @@
 	"unique_ids": [258443],
 	"image": "https://github.com/Mode8fx/blockamok/blob/main/release-resources/banner_3ds.png",
 	"icon": "https://github.com/Mode8fx/blockamok/blob/main/release-resources/logo_icon_48.png",
-	"long_description": "A 3D arcade survival game. You accidentally fly your spaceship into a wormhole. To your shock, you find yourself in an alternate dimension filled with blocks. The throttle on your spaceship is broken and keeps increasing the speed. How far can you make it?\n\nNew 3DS is recommended; performance is poor on O3DS.",
+	"long_description": "Fly through a 3D world of never-ending blocks and survive for as long as you can! Includes customization options for gameplay and visuals, along with five music tracks.\n\nNew 3DS is recommended; performance is poor on O3DS.",
 	"scripts": {
 		"BlockamokRemix.3dsx": [
 			{
