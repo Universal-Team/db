@@ -36,6 +36,38 @@
 				"type": "deleteFile",
 				"file": "/Trogdor-Reburninated.zip"
 			}
+		],
+		"Trogdor-Reburninated.cia": [
+			{
+				"type": "downloadRelease",
+				"repo": "Mode8fx/Trogdor-Reburninated",
+				"file": "Trogdor-Reburninated-v.*-3ds-cia\\.zip",
+				"output": "/Trogdor-Reburninated.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Trogdor-Reburninated.zip",
+				"input": "Trogdor-Reburninated-3ds-cia/3ds/",
+				"output": "/3ds/"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Trogdor-Reburninated.zip",
+				"input": "Trogdor-Reburninated-3ds-cia/cias/Trogdor-Reburninated.cia",
+				"output": "/Trogdor-Reburninated.cia"
+			},
+			{
+				"type": "installCia",
+				"file": "/Trogdor-Reburninated.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/Trogdor-Reburninated.cia"
+			}
+			{
+				"type": "deleteFile",
+				"file": "/Trogdor-Reburninated.zip"
+			}
 		]
 	}
 }
