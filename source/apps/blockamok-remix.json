@@ -9,4 +9,24 @@
 	"image": "https://github.com/Mode8fx/blockamok/blob/main/release-resources/banner_3ds.png",
 	"icon": "https://github.com/Mode8fx/blockamok/blob/main/release-resources/logo_icon_48.png",
 	"long_description": "A 3D arcade survival game. You accidentally fly your spaceship into a wormhole. To your shock, you find yourself in an alternate dimension filled with blocks. The throttle on your spaceship is broken and keeps increasing the speed. How far can you make it?\n\nNew 3DS is recommended; performance is poor on O3DS.",
+	"scripts": {
+		"BlockamokRemix.3dsx": [
+			{
+				"type": "downloadRelease",
+				"repo": "Mode8fx/BlockamokRemix",
+				"file": "BlockamokRemix-v.*-3ds\\.zip",
+				"output": "/BlockamokRemix.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/BlockamokRemix.zip",
+				"input": "3ds/BlockamokRemix/BlockamokRemix.3dsx",
+				"output": "%3DSX%/BlockamokRemix.3dsx"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/BlockamokRemix.zip"
+			}
+		]
+	}
 }
