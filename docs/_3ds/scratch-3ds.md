@@ -11,9 +11,9 @@ description: Play Scratch games on your 3DS!
 download_page: https://github.com/NateXS/Scratch-3DS/releases
 downloads:
   Scratch.3dsx:
-    size: 1246564
+    size: 1245076
     size_str: 1 MiB
-    url: https://github.com/NateXS/Scratch-3DS/releases/download/0.6/Scratch.3dsx
+    url: https://github.com/NateXS/Scratch-3DS/releases/download/0.7/Scratch.3dsx
 github: NateXS/Scratch-3DS
 icon: https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/gfx/icon.png
 image: https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/gfx/logo.png
@@ -33,42 +33,48 @@ stars: 191
 systems:
 - 3DS
 title: Scratch 3DS
-update_notes: '<p dir="auto">Was down in the bug fixing mines all day....</p>
+update_notes: '<p dir="auto">Scratch 3DS is now on <a href="https://db.universal-team.net/3ds/scratch-3ds"
+  rel="nofollow"> <strong>Universal Updater</strong></a>!</p>
+
+  <h2 dir="auto"><strong>Parity Changes</strong></h2>
+
+  <ul dir="auto">
+
+  <li>Costume Blocks with numeric values as input now sets the correct costume</li>
+
+  <li>Non-centered sprites now correctly* detect collision</li>
+
+  </ul>
 
   <h2 dir="auto"><strong>Runtime Changes</strong></h2>
 
   <ul dir="auto">
 
-  <li>Fixed loading images sometimes causing crashes</li>
+  <li>Fixed a crash caused by ''Repeat Until'' block</li>
 
-  <li>Flipped sprites now render in the correct position*</li>
+  <li>Fixed being unable to close the app while in the Main Menu</li>
 
-  <li>The collision of sprites is now correctly detected when scaled</li>
-
-  <li>The collision box no longer rotates when rotation mode is "don''t rotate"</li>
-
-  <li>If VRAM usage is too high, new images will wait to load instead of going over
-  the VRAM limit and crashing</li>
-
-  <li>fixed crash caused by ''repeat until'' block</li>
+  <li>Fixed advanced settings not working if setting ''disable fencing'' ''infinite
+  clones'' etc</li>
 
   </ul>
 
-  <h2 dir="auto"><strong>Known Issues</strong></h2>
+  <p dir="auto"><strong>Known issues</strong></p>
 
   <ul dir="auto">
 
-  <li>some flipped sprites still wont render in the right position</li>
+  <li>*non-centered sprites still do not correctly detect collision if dual-screen
+  mode is enabled</li>
 
-  <li>Image loading for some reason is still having issues sometimes 😭</li>
+  <li>Some blocks causing unintended bahaviour, I''m currently investigating which
+  ones</li>
 
-  <li>Some people last Beta reported the main menu crashing their system, but I couldn''t
-  reproduce it for myself. I did a slight optimization this Beta with text rendering,
-  but I don''t know if that fixes the crashes or not.</li>
+  <li>Some images may fail to load and render as a black square if your project has
+  many images</li>
 
   </ul>'
-updated: '2025-07-20T10:21:48Z'
-version: '0.6'
-version_title: Beta Build 6
+updated: '2025-07-21T14:08:14Z'
+version: '0.7'
+version_title: Beta Build 7
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!
