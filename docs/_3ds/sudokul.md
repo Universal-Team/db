@@ -41,10 +41,10 @@ layout: app
 license: mit
 license_name: MIT License
 screenshots:
-- description: Screenshot_1
-  url: https://db.universal-team.net/assets/images/screenshots/sudokul/screenshot_1.png
-- description: Screenshot_2
-  url: https://db.universal-team.net/assets/images/screenshots/sudokul/screenshot_2.png
+- description: Gameplay bottom
+  url: https://db.universal-team.net/assets/images/screenshots/sudokul/gameplay-bottom.png
+- description: Gameplay top
+  url: https://db.universal-team.net/assets/images/screenshots/sudokul/gameplay-top.png
 source: https://github.com/Mode8fx/SuDokuL
 stars: 17
 systems:

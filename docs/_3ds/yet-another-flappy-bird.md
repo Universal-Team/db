@@ -26,6 +26,13 @@ license: mit
 license_name: MIT License
 qr:
   flappy.cia: https://db.universal-team.net/assets/images/qr/flappy-cia.png
+screenshots:
+- description: Game over
+  url: https://db.universal-team.net/assets/images/screenshots/yet-another-flappy-bird/game-over.png
+- description: Gameplay
+  url: https://db.universal-team.net/assets/images/screenshots/yet-another-flappy-bird/gameplay.png
+- description: Title
+  url: https://db.universal-team.net/assets/images/screenshots/yet-another-flappy-bird/title.png
 source: https://github.com/MillKeny/flappy
 stars: 3
 systems:

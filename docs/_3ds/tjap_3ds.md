@@ -24,6 +24,11 @@ image_length: 17026
 layout: app
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
+screenshots:
+- description: Gameplay 1
+  url: https://db.universal-team.net/assets/images/screenshots/tjap_3ds/gameplay-1.png
+- description: Gameplay 2
+  url: https://db.universal-team.net/assets/images/screenshots/tjap_3ds/gameplay-2.png
 source: https://github.com/LuMariGames/TJAP_3DS
 stars: 5
 systems:
