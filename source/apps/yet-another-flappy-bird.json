@@ -1,0 +1,10 @@
+{
+	"github": "MillKeny/flappy",
+	"title": "Yet Another Flappy Bird",
+	"systems": ["3DS"],
+	"categories": ["game"],
+	"unique_ids": [463275],
+	"image": "https://github.com/MillKeny/flappy/raw/main/assets/banner.png",
+	"icon": "https://github.com/MillKeny/flappy/raw/main/assets/icon.png",
+	"long_description": "Yet another \"Flappy Bird\" mobile game homebrew recreation for Nintendo 3DS (old/new)\n**But with Vertical Orientation**.\n\nAnd also some gameplay features different from the original game.\n\n## Game\n\n*   **Tap bottom screen** or **press D-PAD or B** to flap between the pipes.\n*   Game's speed is increasing for each score point.\n*   For every 25 points you will earn a new medal - **bronze, silver, gold and platina** for 99 score.\n*   Your best score is save in game and stored at path: SD:/config/millkeny/flappy.dat. You also can clear your save data from in-game menu.\n\n## Special Thanks\n\n*   [devkitPro](https://github.com/devkitPro) - For all tools, libraries, docs and etc.\n*   [BlyZeDev](https://github.com/BlyZeDev) - For SD filesystem logic from his [T-Rex-Game-3DS](https://github.com/BlyZeDev/T-Rex-Game-3DS).\n*   Dong Nguyen, .GEARS - for this legendary game and original assets."
+}
