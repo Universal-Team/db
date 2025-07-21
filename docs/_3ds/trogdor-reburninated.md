@@ -8,7 +8,7 @@ color_bg: '#0a6c24'
 created: '2021-11-13T05:10:52Z'
 description: Burninate the countryside!
 download_filter: 3ds
-download_page: https://github.com/Mips96/Trogdor-Reburninated/releases
+download_page: https://github.com/Mode8fx/Trogdor-Reburninated/releases
 downloads:
   Trogdor-Reburninated-v2.3-3ds-cia.zip:
     size: 7761311
@@ -18,9 +18,9 @@ downloads:
     size: 7369139
     size_str: 7 MiB
     url: https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.3/Trogdor-Reburninated-v2.3-3ds.zip
-github: Mips96/Trogdor-Reburninated
-icon: https://raw.githubusercontent.com/Mips96/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/logo_icon_android_48.png
-image: https://raw.githubusercontent.com/Mips96/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/background_psp.png
+github: Mode8fx/Trogdor-Reburninated
+icon: https://raw.githubusercontent.com/Mode8fx/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/logo_icon_android_48.png
+image: https://raw.githubusercontent.com/Mode8fx/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/background_psp.png
 image_length: 14597
 layout: app
 license: mit
@@ -33,23 +33,24 @@ stars: 21
 systems:
 - 3DS
 title: 'Trogdor: Reburninated'
-update_notes: '<p><a href="https://www.youtube.com/watch?v=2z7kVH9xePM" rel="nofollow">♪
-  Let''s go back to a Flash game! Come on, come on, come on, come on... ♪</a></p>
+update_notes: '<p dir="auto"><a href="https://www.youtube.com/watch?v=2z7kVH9xePM"
+  rel="nofollow">♪ Let''s go back to a Flash game! Come on, come on, come on, come
+  on... ♪</a></p>
 
-  <p>Mostly some much-needed fixes, but also...</p>
+  <p dir="auto">Mostly some much-needed fixes, but also...</p>
 
-  <h3>New Port:</h3>
+  <h3 dir="auto">New Port:</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li><strong>Added Android port!</strong> No on-screen touch controls, you''re gonna
   need a controller/keyboard.</li>
 
   </ul>
 
-  <h3>Changes:</h3>
+  <h3 dir="auto">Changes:</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li><strong>Enhanced controller support!</strong> Input is now read from all connected
   controllers, and you can freely connect/disconnect controllers as desired.</li>
@@ -67,9 +68,9 @@ update_notes: '<p><a href="https://www.youtube.com/watch?v=2z7kVH9xePM" rel="nof
 
   </ul>
 
-  <h3>Bug Fixes:</h3>
+  <h3 dir="auto">Bug Fixes:</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li><strong>Fixed collision issue</strong> that caused the player to sometimes get
   stuck directly above a cottage.</li>
@@ -90,9 +91,9 @@ update_notes: '<p><a href="https://www.youtube.com/watch?v=2z7kVH9xePM" rel="nof
 
   </ul>
 
-  <h3>Optimizations:</h3>
+  <h3 dir="auto">Optimizations:</h3>
 
-  <ul>
+  <ul dir="auto">
 
   <li><strong>Reduced file size, RAM usage, and load times</strong> by optimizing
   graphics and music.</li>
@@ -108,16 +109,16 @@ update_notes: '<p><a href="https://www.youtube.com/watch?v=2z7kVH9xePM" rel="nof
 
   </ul>
 
-  <h4>Known Bugs:</h4>
+  <h4 dir="auto">Known Bugs:</h4>
 
-  <ul>
+  <ul dir="auto">
 
   <li>[Gamecube] Audio and saving only work properly on an SD Gecko or SD2SP2; optical
   drive emulators such as FlippyDrive are not supported.</li>
 
   </ul>
 
-  <p>Enjoy!</p>'
+  <p dir="auto">Enjoy!</p>'
 updated: '2025-06-23T04:15:06Z'
 version: v2.3
 version_title: v2.3
