@@ -72,12 +72,6 @@ body:
         Screenshots of the app to show on the website and in Universal-Updater. Ideally they should be both screens with no separation and nothing extra around them, just 400×480 (for 3DS) or 256×384 (for DS).
 
         Animated GIFs can be shown on the website, but not in Universal-Updater.
-  - type: markdown
-    attributes:
-      value: |
-        **If you've provided a GitHub repository, then only fill out the rest if you want different information than your GitHub repository has.**
-
-        It can all be automatically gathered through the GitHub API.
   - type: input
     attributes:
       label: Website link
