@@ -10,13 +10,13 @@ description: A Virtual Boy emulator for the 3DS
 download_page: https://github.com/skyfloogle/red-viper/releases
 downloads:
   red-viper.3dsx:
-    size: 554736
-    size_str: 541 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v0.9.8/red-viper.3dsx
+    size: 605336
+    size_str: 591 KiB
+    url: https://github.com/skyfloogle/red-viper/releases/download/v1.0.0/red-viper.3dsx
   red-viper.cia:
-    size: 604608
-    size_str: 590 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v0.9.8/red-viper.cia
+    size: 652224
+    size_str: 636 KiB
+    url: https://github.com/skyfloogle/red-viper/releases/download/v1.0.0/red-viper.cia
 github: skyfloogle/red-viper
 icon: https://raw.githubusercontent.com/skyfloogle/red-viper/master/icon.png
 image: https://raw.githubusercontent.com/skyfloogle/red-viper/master/resources/banner.png
@@ -40,44 +40,52 @@ systems:
 title: red-viper
 unique_ids:
 - '0xFE7CB'
-update_notes: '<p dir="auto">This patch includes a number of accuracy improvements,
-  primarily related to timing (plus a few game-specific hacks where hardware research
-  is insufficient). With these improvements in tow, Red Viper is currently the most
-  accurate emulator for Virtual Boy games on any system, even disregarding the whole
-  3D thing.</p>
+update_notes: '<p dir="auto">30 years ago today, the Virtual Boy released in Japan.
+  What better time to release a big Red Viper update?</p>
 
   <ul dir="auto">
 
-  <li>Improved timer emulation to fix sample playback in Galactic Pinball and Teleroboxer</li>
+  <li>New "Multicolor" mode, allowing for more versatile color remapping</li>
 
-  <li>Added memory access time emulation, which fixes numerous games
+  <li>Circle Pad Pro support</li>
 
-  <ul dir="auto">
+  <li>Software renderer to reduce visual glitches, enabled in Golf</li>
 
-  <li>Fixes sample playback in Virtual Bowling and Niko-Chan Battle, along with improved
-  timer emulation</li>
+  <li>Double buffering to hide garbage frames and improve frametime accuracy, enabled
+  in Red Alarm and Bound High</li>
 
-  <li>Improves emulation performance in 3D Tetris</li>
+  <li>Numerous performance improvements</li>
 
-  <li>Correctly emulated game speed in Golf</li>
+  <li>In particular, interrupt checking was moved from a polling-based system to predicting
+  exactly when the next interrupt will trigger, improving performance particularly
+  in the Space Invaders intro</li>
 
-  <li>Fixes Blox 2 intro cutting off early</li>
+  <li>A ROM can be bundled with a Red Viper CIA, to create what is commonly called
+  a "forwarder"</li>
+
+  <li>An error code is now shown when loading a ROM fails</li>
+
+  <li>Fix "Discard" not correctly restoring settings for New 3DS Speedup</li>
+
+  <li>Fix occasional graphical glitches on touch screen when toggling Home Menu</li>
 
   </ul>
 
-  </li>
+  <p dir="auto">When I originally released Red Viper, I chose to release it as v0.9.0,
+  to indicate that while there were still some compatibility issues, it was most of
+  the way there. I decided that I would bump the version to v1.0.0 once all officially
+  released games fully ran at playable speeds, with no major glitches or slowdown.
+  The optimizations introduced in this update bring the Space Invaders intro up to
+  full speed and fixes rendering bugs and audio stutters in Golf. These were the last
+  big things (and I didn''t like how close it was getting to being v0.9.10), so I''m
+  happy calling this v1.0.0.<br>
 
-  <li>Fixed graphical glitches and fixed intro chime in Waterworld</li>
-
-  <li>Improved audio emulation to fix some homebrew, including the Blox games and
-  the Formula V demo</li>
-
-  <li>Allow loading savestates from older versions</li>
-
-  </ul>'
-updated: '2025-03-09T20:11:42Z'
-version: v0.9.8
-version_title: v0.9.8
+  This new version number does not mean that I am done updating this emulator - some
+  homebrew is not yet fully compatible, and there are additional features I would
+  still like to implement. Stay tuned 😉</p>'
+updated: '2025-07-21T16:59:29Z'
+version: v1.0.0
+version_title: v1.0.0
 wiki: https://github.com/skyfloogle/red-viper/wiki
 ---
 A Virtual Boy emulator for the 3DS. All official games are playable at full speed.
