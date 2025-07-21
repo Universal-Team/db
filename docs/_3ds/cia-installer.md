@@ -26,6 +26,17 @@ license: mit
 license_name: MIT License
 qr:
   CIA-Installer.cia: https://db.universal-team.net/assets/images/qr/cia-installer-cia.png
+screenshots:
+- description: Error message
+  url: https://db.universal-team.net/assets/images/screenshots/cia-installer/error-message.png
+- description: File list
+  url: https://db.universal-team.net/assets/images/screenshots/cia-installer/file-list.png
+- description: Install menu
+  url: https://db.universal-team.net/assets/images/screenshots/cia-installer/install-menu.png
+- description: Install success
+  url: https://db.universal-team.net/assets/images/screenshots/cia-installer/install-success.png
+- description: Installing
+  url: https://db.universal-team.net/assets/images/screenshots/cia-installer/installing.png
 source: https://github.com/Zachary-Rude/CIA-Installer
 stars: 1
 systems:

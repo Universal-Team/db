@@ -30,6 +30,19 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 qr:
   PrBoom-Plus.cia: https://db.universal-team.net/assets/images/qr/prboom-plus-cia.png
+screenshots:
+- description: Gameplay 1
+  url: https://db.universal-team.net/assets/images/screenshots/prboom/gameplay-1.png
+- description: Gameplay 2
+  url: https://db.universal-team.net/assets/images/screenshots/prboom/gameplay-2.png
+- description: Gameplay 3
+  url: https://db.universal-team.net/assets/images/screenshots/prboom/gameplay-3.png
+- description: Gameplay 4
+  url: https://db.universal-team.net/assets/images/screenshots/prboom/gameplay-4.png
+- description: Gameplay 5
+  url: https://db.universal-team.net/assets/images/screenshots/prboom/gameplay-5.png
+- description: Title
+  url: https://db.universal-team.net/assets/images/screenshots/prboom/title.png
 source: https://github.com/Voxel9/PrBoom-Plus-3DS
 stars: 34
 systems:

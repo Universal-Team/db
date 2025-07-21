@@ -24,6 +24,11 @@ image_length: 5697
 layout: app
 qr:
   3DSoundboard.cia: https://db.universal-team.net/assets/images/qr/3dsoundboard-cia.png
+screenshots:
+- description: Menu 1
+  url: https://db.universal-team.net/assets/images/screenshots/3dsoundboard/menu-1.png
+- description: Menu 2
+  url: https://db.universal-team.net/assets/images/screenshots/3dsoundboard/menu-2.png
 source: https://github.com/Sunrase/3DSoundboard
 stars: 1
 systems:

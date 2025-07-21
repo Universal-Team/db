@@ -19,6 +19,11 @@ image_length: 37171
 layout: app
 license: apache-2.0
 license_name: Apache License 2.0
+screenshots:
+- description: Gameplay
+  url: https://db.universal-team.net/assets/images/screenshots/wordle-terminal-3ds/gameplay.png
+- description: Results
+  url: https://db.universal-team.net/assets/images/screenshots/wordle-terminal-3ds/results.png
 source: https://github.com/TheHighTide/WordleTerminal3DS
 stars: 0
 systems:
