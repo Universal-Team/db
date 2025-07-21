@@ -1,0 +1,7 @@
+{
+	"github": "TheHighTide/WordleTerminal3DS",
+	"title": "Wordle Terminal 3DS",
+	"systems": ["3DS"],
+	"categories": ["game"],
+	"long_description": "# Wordle Terminal 3DS\n### What is it?\nWordle Terminal 3DS is a basic bare-bones port of Wordle for the 3DS.\n\nFor those of you who don't know, _\"Wordle is a web-based word game created and developed by the Welsh software engineer Josh Wardle. In the game, players have six attempts to guess a five-letter word, receiving feedback through colored tiles that indicate correct letters and their placement. A single puzzle is released daily, with all players attempting to solve the same word. It was inspired by word games like Jotto and the game show Lingo.\"_ - Wikipedia"
+}
