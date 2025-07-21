@@ -6,8 +6,8 @@
 	"systems": ["3DS"],
 	"categories": ["game"],
 	"unique_ids": [932162],
-	"image": "https://github.com/Mode8fx/SuDokuL/blob/main/SuDokuLVS2019/3ds/banner_3ds.png",
-	"icon": "https://github.com/Mode8fx/SuDokuL/blob/main/SuDokuLVS2019/3ds/logo_icon_3ds_48.png",
+	"image": "https://github.com/Mode8fx/SuDokuL/raw/main/SuDokuLVS2019/3ds/banner_3ds.png",
+	"icon": "https://github.com/Mode8fx/SuDokuL/raw/main/SuDokuLVS2019/3ds/logo_icon_3ds_48.png",
 	"long_description": "A Sudoku game made with SDL2. Features 4 difficulty levels, 8 scrolling backgrounds, 8 MOD format songs, those mini numbers to help you keep track of harder puzzles, and optional auto-fill and erase-mistake cheats.",
 	"scripts": {
 		"SuDokuL.cia": [
