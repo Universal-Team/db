@@ -1,0 +1,10 @@
+{
+	"github": "Tekito-256/level256-installer",
+	"title": "Level256 Installer",
+	"website": "https://level256.mods.jp/",
+	"systems": ["3DS"],
+	"categories": ["game"],
+	"unique_ids": [153090],
+	"image": "https://raw.githubusercontent.com/Tekito-256/level256-installer/refs/heads/main/assets/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/Tekito-256/level256-installer/refs/heads/main/assets/meta/icon.png"
+}
