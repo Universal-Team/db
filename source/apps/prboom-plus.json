@@ -1,0 +1,10 @@
+{
+	"github": "Voxel9/PrBoom-Plus-3DS",
+	"title": "PrBoom+",
+	"systems": ["3DS"],
+	"categories": ["game"],
+	"unique_ids": [371131],
+	"image": "https://raw.githubusercontent.com/Voxel9/PrBoom-Plus-3DS/refs/heads/3ds/build/3ds/res/banner.png",
+	"icon": "https://raw.githubusercontent.com/Voxel9/PrBoom-Plus-3DS/refs/heads/3ds/build/3ds/res/icon.png",
+	"long_description": "Hi all. After much arduous work, I'm thrilled to finally share a brand new port of PrBoom+ to the 3DS!\n\nThis is more or less a straight port of PrBoom+ 2.6.66, with some extra added enhancements exclusive to the system.\nJust about everything you'd expect desktop PrBoom+ to do, this port should also be able to do.\nThe only things it can't do are a few unsupported renderer features (which have been stripped out anyway) and networking features.\nIn addition, all video modes apart from 8-bit are supported. By default, the GPU-accelerated OpenGL mode is enabled, though the other software-rendering modes are also available should you wish to fall back on them (so far, all modes produce roughly similar performance, with OpenGL being moderately faster)\n\nFeatures:\n-PrBoom+ 2.6.66\n-Features both GPU-accelerated OpenGL mode, and software-renderer modes\n-Great performance on New 3DS, decent-ish performance on Old 3DS\n-Good quality stereoscopic 3D (OpenGL mode only)\n-Interchangeable touchscreen mouse and keyboard\n(with touchscreen mouse, you can drag to look around, tap the screen to fire, and double-tap and hold to keep firing - ideal for Old 3DS)"
+}
