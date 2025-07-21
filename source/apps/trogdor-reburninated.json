@@ -63,7 +63,7 @@
 			{
 				"type": "deleteFile",
 				"file": "/Trogdor-Reburninated.cia"
-			}
+			},
 			{
 				"type": "deleteFile",
 				"file": "/Trogdor-Reburninated.zip"
