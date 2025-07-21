@@ -15,15 +15,15 @@ body:
   - type: input
     attributes:
       label: Title
-      description: The name of the app. (Default: Repository name)
+      description: "The name of the app. (Default: Repository name)"
   - type: input
     attributes:
       label: Author
-      description: The app developer's name(s) (Default: Your GitHub *name*, note that this can be different than your username)
+      description: "The app developer's name(s) (Default: Your GitHub *name*, note that this can be different than your username)"
   - type: input
     attributes:
       label: Short description
-      description: Will be shown on the app cards and in Universal-Updater. (Default: Repository description)
+      description: "Will be shown on the app cards and in Universal-Updater. (Default: Repository description)"
   - type: dropdown
     attributes:
       label: System(s)
