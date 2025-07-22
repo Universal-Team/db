@@ -11,9 +11,9 @@ description: Play Scratch games on your 3DS!
 download_page: https://github.com/NateXS/Scratch-3DS/releases
 downloads:
   Scratch.3dsx:
-    size: 1245076
+    size: 1257320
     size_str: 1 MiB
-    url: https://github.com/NateXS/Scratch-3DS/releases/download/0.7/Scratch.3dsx
+    url: https://github.com/NateXS/Scratch-3DS/releases/download/0.8/Scratch.3dsx
 github: NateXS/Scratch-3DS
 icon: https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/gfx/icon.png
 image: https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/gfx/logo.png
@@ -29,52 +29,68 @@ screenshots:
 - description: Screenshot3
   url: https://db.universal-team.net/assets/images/screenshots/scratch-3ds/screenshot3.png
 source: https://github.com/NateXS/Scratch-3DS
-stars: 200
+stars: 201
 systems:
 - 3DS
 title: Scratch 3DS
-update_notes: '<p dir="auto">Scratch 3DS is now on <a href="https://db.universal-team.net/3ds/scratch-3ds"
-  rel="nofollow"> <strong>Universal Updater</strong></a>!</p>
-
-  <h2 dir="auto"><strong>Parity Changes</strong></h2>
+update_notes: '<h2 dir="auto"><strong>New</strong></h2>
 
   <ul dir="auto">
 
-  <li>Costume Blocks with numeric values as input now sets the correct costume</li>
+  <li>Wii U Port!</li>
 
-  <li>Non-centered sprites now correctly* detect collision</li>
+  <li>
+
+  <ul dir="auto">
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gradylink/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gradylink">@gradylink</a>
+  was epic enough to port the runtime to Wii U!</li>
 
   </ul>
 
-  <h2 dir="auto"><strong>Runtime Changes</strong></h2>
+  </li>
+
+  <li>
 
   <ul dir="auto">
 
-  <li>Fixed a crash caused by ''Repeat Until'' block</li>
-
-  <li>Fixed being unable to close the app while in the Main Menu</li>
-
-  <li>Fixed advanced settings not working if setting ''disable fencing'' ''infinite
-  clones'' etc</li>
+  <li>Features basically everything the 3DS port currently does!</li>
 
   </ul>
 
-  <p dir="auto"><strong>Known issues</strong></p>
+  </li>
+
+  </ul>
+
+  <p dir="auto"><strong>Runtime Changes</strong></p>
 
   <ul dir="auto">
 
-  <li>*non-centered sprites still do not correctly detect collision if dual-screen
-  mode is enabled</li>
+  <li>[3DS] Fixed long names in the Main Menu being cut off</li>
 
-  <li>Some blocks causing unintended bahaviour, I''m currently investigating which
-  ones</li>
+  <li>Fixed ''if'' Blocks with time-based blocks inside not working properly</li>
 
-  <li>Some images may fail to load and render as a black square if your project has
-  many images</li>
+  <li>Fixed some blocks returning "0" when they should have returned nothing</li>
 
-  </ul>'
-updated: '2025-07-21T14:08:14Z'
-version: '0.7'
-version_title: Beta Build 7
+  <li>Fixed some sprites not rendering in the correct position</li>
+
+  <li>Fixed "Pick Random" block not working as intended sometimes</li>
+
+  <li>Fixed certain costumes not being set correctly</li>
+
+  <li>Fixed sometimes not having any "advanced settings" get enabled</li>
+
+  <li>Fixed size not getting set if sprite has never been rendered yet</li>
+
+  <li>"Wait" block now waits for at least 1 frame, matching Scratch''s behaviour</li>
+
+  </ul>
+
+  <p dir="auto">Note: Development will be slower for the next few days as I will be
+  out of town after this!</p>'
+updated: '2025-07-22T11:08:20Z'
+version: '0.8'
+version_title: Beta Build 8
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!
