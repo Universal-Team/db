@@ -37,36 +37,31 @@ stars: 340
 systems:
 - 3DS
 title: TheXTech
-update_notes: '<p dir="auto">This is a small hotfix release for the Windows to address
-  serious graphical issues happens on Intel Iris Xe (<a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="2666816824" data-permission-text="Title
-  is private" data-url="https://github.com/TheXTech/TheXTech/issues/859" data-hovercard-type="issue"
-  data-hovercard-url="/TheXTech/TheXTech/issues/859/hovercard" href="https://github.com/TheXTech/TheXTech/issues/859">#859</a>,
-  this problem doesn''t gets reproduced on Linux, it happens on Windows exclusively)
-  and black screen problem when running this under VirtualBox VM with OpenGL enabled.</p>
+update_notes: '<p dir="auto">This is another hotfix of the 1.3.7.1, but now for the
+  homebrew Nintendo Switch version of the game: it was found that game is unable to
+  start at all, it fails to initialise the OpenGL renderer. But this update resolves
+  this problem and game starts just normally. The OpenGL backend has been switched
+  from Desktop OpenGL API to the OpenGL ES 2+ since newer firmware removes the desktop
+  OpenGL support.</p>
 
-  <p dir="auto">This post contains Windows only builds, for other platforms, you can
-  download packages <a href="https://github.com/TheXTech/TheXTech/releases/tag/v1.3.7.1">at
-  the main post here</a>.</p>
+  <p dir="auto">This post contains Nintendo Switch only build, for other platforms,
+  you can download packages <a href="https://github.com/TheXTech/TheXTech/releases/tag/v1.3.7.1">at
+  the main post here</a>. Also, all the binaries had been updated at the main post
+  to prevent users downloading faulty builds without knowlege of that.</p>
 
   <h2 dir="auto">Changelog:</h2>
 
   <ul dir="auto">
 
-  <li>Added workaround for the texture corruption problem on Windows 10+ with the
-  Intel Iris Xe GPU: the depth buffer will be completely disabled here to avoid glitches
-  (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Wohlstand/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Wohlstand">@Wohlstand</a>)</li>
-
-  <li>Implemented the proper initialisation of the OpenGL on VirtualBox''s SVGA3D
-  driver (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Wohlstand/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Wohlstand">@Wohlstand</a>)</li>
+  <li>Fixed the startup crash on OpenGL render initialization, now the OpenGL ES 2+
+  is used instead (<a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/Wohlstand/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Wohlstand">@Wohlstand</a>)</li>
 
   </ul>'
-updated: '2025-07-20T22:51:02Z'
-version: v1.3.7.1-1
-version_title: 'TheXTech v1.3.7.1-hotfix: A Hotfix for Intel Iris Xe on Windows and
-  VirtualBox'
+updated: '2025-07-22T19:33:54Z'
+version: v1.3.7.1-2
+version_title: 'TheXTech v1.3.7.1-hotfix2: Startup crash fix for Nintendo Switch'
 website: https://wohlsoft.ru/projects/TheXTech/
 wiki: https://github.com/TheXTech/TheXTech/wiki
 ---
