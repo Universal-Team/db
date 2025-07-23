@@ -11,13 +11,13 @@ description: Another work-in-progress fork of the homebrew YouTube client for th
 download_page: https://github.com/erievs/FourthTube/releases
 downloads:
   FourthTube.3dsx:
-    size: 6154008
+    size: 6206092
     size_str: 5 MiB
-    url: https://github.com/erievs/FourthTube/releases/download/b32/FourthTube.3dsx
+    url: https://github.com/erievs/FourthTube/releases/download/b33/FourthTube.3dsx
   FourthTube.cia:
-    size: 4572096
+    size: 4604864
     size_str: 4 MiB
-    url: https://github.com/erievs/FourthTube/releases/download/b32/FourthTube.cia
+    url: https://github.com/erievs/FourthTube/releases/download/b33/FourthTube.cia
 github: erievs/FourthTube
 icon: https://raw.githubusercontent.com/erievs/FourthTube/main/resource/icon.png
 image: https://raw.githubusercontent.com/erievs/FourthTube/main/resource/banner.png
@@ -33,27 +33,37 @@ systems:
 title: FourthTube
 unique_ids:
 - '0xBF74D'
-update_notes: '<p dir="auto">This is a stopgap release to address concerns with the
-  inactivity of this project, along with getting the QR code and the .cia in our repo
-  synced up.</p>
+update_notes: '<p dir="auto">A lot.</p>
 
-  <p dir="auto"><strong>Changelog</strong></p>
+  <h1 dir="auto"><strong>Changelog</strong></h1>
 
   <p dir="auto"><strong>Smu1zel</strong></p>
 
   <ul dir="auto">
 
-  <li>Added an Italian translation (with help from Dxni)</li>
+  <li>Better error screen.</li>
 
-  <li>Updated stb_image</li>
+  <li>Formatted the entire codebase with clang-format.</li>
 
-  <li>Fixed some annoying spelling errors in the English translation</li>
+  <li>Added an option to hide the pointer (the red box when you tap the screen).</li>
 
-  <li>Lowered the minimum speed limit for videos to 0.25 (to match YouTube)</li>
+  <li>FourthTube now uses a better color scheme, instead of using a dull blue nearly
+  everywhere.</li>
 
-  <li>Improved the German translation (with help from Dragontwo14)</li>
+  <li>New banner for when a video isn''t playing. Criticism is welcome.</li>
 
-  <li>Refactored time unit handling in the New tab</li>
+  <li>Old ThirdTube config files now retain the scroll speed threshold value set when
+  used in FourthTube.</li>
+
+  <li>Dropped the unused unicodetochar library.</li>
+
+  <li>Changed some font sizes.</li>
+
+  <li>Deleted some obsolete files.</li>
+
+  <li>Changed libctru library path to his. Updated it.</li>
+
+  <li>Some other general improvements to enhance the user''s experience (TM)</li>
 
   </ul>
 
@@ -61,17 +71,63 @@ update_notes: '<p dir="auto">This is a stopgap release to address concerns with 
 
   <ul dir="auto">
 
-  <li>Fixed up the changelog feature</li>
+  <li>Fixed the community tab.</li>
 
-  <li>Fixed occasional performance issues when streaming &gt;240p on clients other
-  than iOS</li>
+  <li>Added timestamps. Tapping them in the description or comments will jump you
+  to that timestamp automatically.</li>
 
-  <li>Fixed the banner spin</li>
+  <li>Added Live tab.</li>
 
-  <li>Other misc fixes</li>
+  <li>Added Shorts tab.</li>
 
-  </ul>'
-updated: '2025-04-11T22:27:05Z'
-version: b32
-version_title: Beta - 32
+  <li>Changed the color of the Reload button.</li>
+
+  <li>Removed useless randomVisitorData function.</li>
+
+  <li>Translated the "Hide pointer" string into Japanese.</li>
+
+  <li>Added better resolution detection logic.</li>
+
+  <li>Fixed a bug where a video would end a few seconds early.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Dragontwo14</strong></p>
+
+  <ul dir="auto">
+
+  <li>Made some fixes to the German translation.</li>
+
+  <li>Translated the "Hide pointer" string into German.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>cooolgamer</strong></p>
+
+  <ul dir="auto">
+
+  <li>Translated the "Hide pointer" string into French.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Dxni</strong></p>
+
+  <ul dir="auto">
+
+  <li>Translated the "Hide pointer" string into Italian.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Misino</strong></p>
+
+  <ul dir="auto">
+
+  <li>Added a Spanish translation (will be implemented in the future).</li>
+
+  </ul>
+
+  <h3 dir="auto">Thanks to all of you!</h3>'
+updated: '2025-07-23T12:35:58Z'
+version: b33
+version_title: Beta - 33
 ---
