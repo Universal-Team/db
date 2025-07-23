@@ -8,35 +8,35 @@ description: Lego Island for the 3DS
 download_page: https://github.com/isledecomp/isle-portable/releases
 downloads:
   isle-0.1-Emscripten-emscripten.tar.gz:
-    size: 755390
+    size: 755389
     size_str: 737 KiB
     url: https://github.com/isledecomp/isle-portable/releases/download/continuous/isle-0.1-Emscripten-emscripten.tar.gz
   isle-0.1-Linux-x64.tar.gz:
-    size: 3484061
+    size: 3484077
     size_str: 3 MiB
     url: https://github.com/isledecomp/isle-portable/releases/download/continuous/isle-0.1-Linux-x64.tar.gz
   isle-0.1-Windows-arm64.zip:
-    size: 1478828
+    size: 1478827
     size_str: 1 MiB
     url: https://github.com/isledecomp/isle-portable/releases/download/continuous/isle-0.1-Windows-arm64.zip
   isle-0.1-Windows-x64.tar.gz:
-    size: 15939365
+    size: 15939358
     size_str: 15 MiB
     url: https://github.com/isledecomp/isle-portable/releases/download/continuous/isle-0.1-Windows-x64.tar.gz
   isle-0.1-Windows-x64.zip:
-    size: 20271909
+    size: 20271907
     size_str: 19 MiB
     url: https://github.com/isledecomp/isle-portable/releases/download/continuous/isle-0.1-Windows-x64.zip
   isle-0.1-Windows-x86.tar.gz:
-    size: 3443269
+    size: 3443270
     size_str: 3 MiB
     url: https://github.com/isledecomp/isle-portable/releases/download/continuous/isle-0.1-Windows-x86.tar.gz
   isle-0.1-Windows-x86.zip:
-    size: 1340790
+    size: 1340791
     size_str: 1 MiB
     url: https://github.com/isledecomp/isle-portable/releases/download/continuous/isle-0.1-Windows-x86.zip
   isle-0.1-Xbox_One_Series_XS-x64.zip:
-    size: 2284225
+    size: 2282834
     size_str: 2 MiB
     url: https://github.com/isledecomp/isle-portable/releases/download/continuous/isle-0.1-Xbox_One_Series_XS-x64.zip
   isle.3dsx:
@@ -48,7 +48,7 @@ downloads:
     size_str: 1 MiB
     url: https://github.com/isledecomp/isle-portable/releases/download/continuous/isle.cia
   org.legoisland.Isle.aarch64.flatpak:
-    size: 1640136
+    size: 1638528
     size_str: 1 MiB
     url: https://github.com/isledecomp/isle-portable/releases/download/continuous/org.legoisland.Isle.aarch64.flatpak
 github: isledecomp/isle-portable
@@ -73,8 +73,8 @@ systems:
 title: LEGO Island
 unique_ids:
 - '0x76E7E'
-update_notes: '<p dir="auto">GitHub Actions build log: <a href="https://github.com/isledecomp/isle-portable/actions/runs/16480997316">https://github.com/isledecomp/isle-portable/actions/runs/16480997316</a></p>'
-updated: '2025-07-23T20:39:49Z'
+update_notes: '<p dir="auto">GitHub Actions build log: <a href="https://github.com/isledecomp/isle-portable/actions/runs/16483100080">https://github.com/isledecomp/isle-portable/actions/runs/16483100080</a></p>'
+updated: '2025-07-23T22:34:22Z'
 version: continuous
 version_title: Continuous build
 ---
