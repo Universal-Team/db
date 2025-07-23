@@ -11,9 +11,9 @@ description: Play Scratch games on your 3DS!
 download_page: https://github.com/NateXS/Scratch-3DS/releases
 downloads:
   Scratch.3dsx:
-    size: 1257788
+    size: 1259520
     size_str: 1 MiB
-    url: https://github.com/NateXS/Scratch-3DS/releases/download/0.9/Scratch.3dsx
+    url: https://github.com/NateXS/Scratch-3DS/releases/download/0.10/Scratch.3dsx
 github: NateXS/Scratch-3DS
 icon: https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/gfx/icon.png
 image: https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/gfx/logo.png
@@ -33,21 +33,24 @@ stars: 211
 systems:
 - 3DS
 title: Scratch 3DS
-update_notes: '<p dir="auto">emergency patch 😁</p>
+update_notes: '<h2 dir="auto"><strong>Bug Fixes</strong></h2>
 
   <ul dir="auto">
 
-  <li>Fix "wait" block not working</li>
+  <li>Costumes now prioritize names over index</li>
 
-  <li>Added black bars to the sides of the screen if the aspect ratio of the project
-  and screen don''t match</li>
+  <li>Fixed empty costume inputs causing the app to close</li>
 
-  <li>see <a href="https://github.com/NateXS/Scratch-3DS/releases/tag/0.8">Beta 8</a>
-  for other features and fixes</li>
+  <li>Fixed "Key Pressed" block with other blocks as input causing crashes</li>
+
+  <li>[Wii U] Fix freeze when going to home menu and back in game</li>
+
+  <li>Fix weird behavior when multiple custom blocks have the same argument variable
+  names</li>
 
   </ul>'
-updated: '2025-07-22T12:11:50Z'
-version: '0.9'
-version_title: Beta Build 9 (Quick fix)
+updated: '2025-07-23T12:00:47Z'
+version: '0.10'
+version_title: Beta Build 10
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!
