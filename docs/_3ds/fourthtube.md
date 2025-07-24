@@ -127,7 +127,7 @@ update_notes: '<p dir="auto">A lot.</p>
 
   </ul>
 
-  <h3 dir="auto">Thanks to all of you!</h3>'
+  <h3 dir="auto">Thank you all!</h3>'
 updated: '2025-07-23T12:35:58Z'
 version: b33
 version_title: Beta - 33
