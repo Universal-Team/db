@@ -29,7 +29,7 @@ screenshots:
 - description: Screenshot3
   url: https://db.universal-team.net/assets/images/screenshots/scratch-3ds/screenshot3.png
 source: https://github.com/NateXS/Scratch-3DS
-stars: 214
+stars: 215
 systems:
 - 3DS
 title: Scratch 3DS
