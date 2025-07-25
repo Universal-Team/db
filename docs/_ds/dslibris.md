@@ -37,7 +37,7 @@ prerelease:
 
     </ul>
 
-    <p dir="auto">Installation remains the same: Download and unzip the zip file here,
+    <p dir="auto">Installation remains the same: Download the zip file, unzip it,
     patch <code class="notranslate">dslibris.nds</code> if you need, and copy <code
     class="notranslate">dslibris.nds</code>, <code class="notranslate">Book</code>
     and <code class="notranslate">Font</code> to your root folder.</p>
@@ -121,7 +121,7 @@ prerelease:
     * Bold italic text is now rendered as bold italic
 
 
-    Installation remains the same: Download and unzip the zip file here, patch `dslibris.nds`
+    Installation remains the same: Download the zip file, unzip it, patch `dslibris.nds`
     if you need, and copy `dslibris.nds`, `Book` and `Font` to your root folder.
 
 
