@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9171820
+    size: 9172032
     size_str: 8 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.4C/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.4D/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 9778112
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.4C/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.4D/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -40,9 +40,7 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>一部動作の高速化</li>
-
-  <li>譜面分岐がある譜面で<code class="notranslate">#BRANCHEND</code>を使用しないと終了されない不具合の修正</li>
+  <li>段位道場の条件で以上の処理の一部が誤っていたのを修正</li>
 
   </ul>
 
@@ -50,15 +48,12 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Speeding up some operations</li>
-
-  <li>Fixed a bug that prevented the game from ending unless <code class="notranslate">#BRANCHEND</code>
-  was used on a score with a branching score</li>
+  <li>Fixed some of the above processing errors in the dan-i dojo conditions.</li>
 
   </ul>'
-updated: '2025-07-15T07:33:48Z'
-version: v1.5.4C
-version_title: TJAPlayer for 3DS v1.5.4(C)
+updated: '2025-07-25T10:35:51Z'
+version: v1.5.4D
+version_title: TJAPlayer for 3DS v1.5.4(D)
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
