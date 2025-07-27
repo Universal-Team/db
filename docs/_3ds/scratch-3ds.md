@@ -11,9 +11,9 @@ description: Play Scratch games on your 3DS!
 download_page: https://github.com/NateXS/Scratch-3DS/releases
 downloads:
   Scratch.3dsx:
-    size: 1265860
+    size: 1941688
     size_str: 1 MiB
-    url: https://github.com/NateXS/Scratch-3DS/releases/download/0.11/Scratch.3dsx
+    url: https://github.com/NateXS/Scratch-3DS/releases/download/0.12/Scratch.3dsx
 github: NateXS/Scratch-3DS
 icon: https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/gfx/icon.png
 image: https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/gfx/logo.png
@@ -33,17 +33,17 @@ stars: 228
 systems:
 - 3DS
 title: Scratch 3DS
-update_notes: '<h2 dir="auto"><strong>New Features</strong></h2>
+update_notes: '<p dir="auto"><strong>New Features</strong></p>
 
   <ul dir="auto">
 
-  <li>[Wii U] Audio Support!</li>
+  <li>[3DS] Audio Support!</li>
 
   <li>
 
   <ul dir="auto">
 
-  <li>Supports mp3, wav, and ogg currently</li>
+  <li>"Sound effect" (volume, pitch) blocks still not implemented yet</li>
 
   </ul>
 
@@ -53,28 +53,7 @@ update_notes: '<h2 dir="auto"><strong>New Features</strong></h2>
 
   <ul dir="auto">
 
-  <li>"Start sound" "Play Sound Until Done" and "Stop all Sounds" implemented</li>
-
-  </ul>
-
-  </li>
-
-  <li>
-
-  <ul dir="auto">
-
-  <li>"Sound effects" (volume, pitch) not yet implemented</li>
-
-  </ul>
-
-  </li>
-
-  <li>
-
-  <ul dir="auto">
-
-  <li>3DS audio support <em>was</em> going to be this beta, but there''s still a couple
-  of things to fix there unfortunately.</li>
+  <li>See README for more limitations</li>
 
   </ul>
 
@@ -82,36 +61,31 @@ update_notes: '<h2 dir="auto"><strong>New Features</strong></h2>
 
   </ul>
 
-  <h2 dir="auto"><strong>Runtime Changes</strong></h2>
+  <p dir="auto"><strong>Runtime Changes</strong></p>
 
   <ul dir="auto">
 
-  <li>[3DS] Fixed crashing when sometimes loading an image for the first time</li>
+  <li>Fixed repeat blocks behaving weirdly if run from a broadcast block</li>
 
-  <li>
+  <li>Fixed "If on edge, bounce" block not taking into account the scale of the sprite</li>
 
-  <ul dir="auto">
+  <li>Fix collision sometimes not working</li>
 
-  <li>this fix <em>could</em> also fix the Main Menu crashing, but again I didn''t
-  have that issue in the first place and can''t test if this is true.</li>
+  <li>[3DS] Fix project names sometimes not rendering in Main Menu</li>
 
-  </ul>
+  <li>[3DS] Fix projects not being able to go above 30 FPS</li>
 
-  </li>
+  <li>[3DS] You now need 3DS versions of SDL2 and SDL2_mixer to compile</li>
 
-  <li>[3DS] Doubled the amount of time an image can go unused before being freed</li>
+  <li>[Wii U] Sound loading now runs in the background and doesn''t freeze the game</li>
 
-  <li>[3DS] Fixed rotation and scaling inconsistencies (via <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="3260732219" data-permission-text="Title
-  is private" data-url="https://github.com/NateXS/Scratch-3DS/issues/137" data-hovercard-type="pull_request"
-  data-hovercard-url="/NateXS/Scratch-3DS/pull/137/hovercard" href="https://github.com/NateXS/Scratch-3DS/pull/137">#137</a>
-  )</li>
+  <li>[Wii U] Images now work on unzipped projects</li>
 
-  <li>[Wii U] Added support for ''ghost'' effect block</li>
+  <li>[Wii U] Fixed screen tearing</li>
 
   </ul>'
-updated: '2025-07-25T12:56:02Z'
-version: '0.11'
-version_title: Beta Build 11
+updated: '2025-07-27T18:42:04Z'
+version: '0.12'
+version_title: Beta Build 12
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!
