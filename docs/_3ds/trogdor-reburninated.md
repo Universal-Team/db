@@ -46,6 +46,10 @@ update_notes: '<p dir="auto"><a href="https://www.youtube.com/watch?v=2z7kVH9xeP
   <li><strong>Added Android port!</strong> No on-screen touch controls, you''re gonna
   need a controller/keyboard.</li>
 
+  <li><em>UPDATE 7/26/25</em>: <strong>Added FunKey port!</strong> Burninate from
+  your keychain! Also compatible with other devices that run FunKey OS such as the
+  RG Nano.</li>
+
   </ul>
 
   <h3 dir="auto">Changes:</h3>
