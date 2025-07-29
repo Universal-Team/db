@@ -3,8 +3,6 @@ author: Jonatan
 avatar: https://avatars.githubusercontent.com/u/66566027?v=4
 categories:
 - game
-color: '#645750'
-color_bg: '#645750'
 created: '2021-03-03T13:33:23Z'
 description: It's like the classic game pong, but with guns.
 download_page: https://github.com/Jonatan6/Pistol-Pong-DS/releases
@@ -14,7 +12,7 @@ downloads:
     size_str: 186 KiB
     url: https://github.com/Jonatan6/Pistol-Pong-DS/releases/download/v1.0/Pistol-Pong-DS.nds
 github: Jonatan6/Pistol-Pong-DS
-icon: https://db.universal-team.net/assets/images/icons/pistol-pong-ds.png
+icon: https://raw.githubusercontent.com/Jonatan6/Pistol-Pong-DS/main/icon.bmp
 image: https://db.universal-team.net/assets/images/images/pistol-pong-ds.png
 image_length: 2201
 layout: app

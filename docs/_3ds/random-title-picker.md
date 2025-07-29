@@ -38,4 +38,5 @@ update_notes: '<p dir="auto">First published build,</p>
 updated: '2023-11-03T17:42:27Z'
 version: '0.2'
 version_title: '0.2'
+wiki: https://github.com/einso/3ds-randomtitlepicker/wiki
 ---
