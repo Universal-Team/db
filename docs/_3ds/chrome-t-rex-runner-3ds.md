@@ -3,8 +3,6 @@ author: Leon Schimmel
 avatar: https://avatars.githubusercontent.com/u/95288041?v=4
 categories:
 - game
-color: '#888888'
-color_bg: '#808080'
 created: '2024-09-23T19:13:37Z'
 description: Google Chrome T-Rex game clone that runs natively on the Nintendo 3DS
 download_page: https://github.com/BlyZeDev/T-Rex-Game-3DS/releases
@@ -20,7 +18,6 @@ downloads:
 github: BlyZeDev/T-Rex-Game-3DS
 icon: https://raw.githubusercontent.com/BlyZeDev/T-Rex-Game-3DS/master/assets/icon.png
 image: https://raw.githubusercontent.com/BlyZeDev/T-Rex-Game-3DS/master/assets/banner.png
-image_length: 11199
 layout: app
 license: mit
 license_name: MIT License
