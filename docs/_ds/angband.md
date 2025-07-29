@@ -21,6 +21,7 @@ downloads:
 github: angband/angband
 icon: https://github.com/angband.png?size=48
 image: https://github.com/angband.png
+image_length: 3366
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
