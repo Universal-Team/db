@@ -9,14 +9,18 @@ created: '2016-10-23T18:40:55Z'
 description: 3DS Music Player
 download_page: https://github.com/deltabeard/ctrmus/releases
 downloads:
+  ctrmus-all.zip:
+    size: 4629159
+    size_str: 4 MiB
+    url: https://github.com/deltabeard/ctrmus/releases/download/v0.5.0/ctrmus-all.zip
+  ctrmus.3dsx:
+    size: 1418136
+    size_str: 1 MiB
+    url: https://github.com/deltabeard/ctrmus/releases/download/v0.5.0/ctrmus.3dsx
   ctrmus.cia:
-    size: 1036224
-    size_str: 1011 KiB
-    url: https://github.com/deltabeard/ctrmus/releases/download/0.4.12/ctrmus.cia
-  ctrmus.zip:
-    size: 3047167
-    size_str: 2 MiB
-    url: https://github.com/deltabeard/ctrmus/releases/download/0.4.12/ctrmus.zip
+    size: 1424832
+    size_str: 1 MiB
+    url: https://github.com/deltabeard/ctrmus/releases/download/v0.5.0/ctrmus.cia
 github: deltabeard/ctrmus
 icon: https://raw.githubusercontent.com/deltabeard/ctrmus/master/meta/icon.png
 image: https://raw.githubusercontent.com/deltabeard/ctrmus/master/meta/banner.png
@@ -35,20 +39,37 @@ unique_ids:
 - '0xFF3CC'
 update_notes: '<ul dir="auto">
 
-  <li>Add OGG Vorbis file support.</li>
+  <li><strong>Add autoplay support</strong> <a class="commit-link" data-hovercard-type="commit"
+  data-hovercard-url="https://github.com/deltabeard/ctrmus/commit/0f053a84bebe18d3aaf09f75490e262f5fa801df/hovercard"
+  href="https://github.com/deltabeard/ctrmus/commit/0f053a84bebe18d3aaf09f75490e262f5fa801df"><tt>0f053a8</tt></a>
+  This is switched on by default. <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/nycki93/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/nycki93">@nycki93</a></li>
 
-  <li>Update Opus and mpg123 libraries to their latest version.</li>
+  <li>Use ZL and ZR to change track, even whilst the 3DS is closed <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/nycki93/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/nycki93">@nycki93</a></li>
+
+  <li>Display detailed instructions on dumping DSP firmware if it hasn''t been found
+  <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/deltabeard/ctrmus/commit/2ff0853ad4a559284d0006ed0c900b0f55be3cf5/hovercard"
+  href="https://github.com/deltabeard/ctrmus/commit/2ff0853ad4a559284d0006ed0c900b0f55be3cf5"><tt>2ff0853</tt></a></li>
+
+  <li>Display current play time and maximum length of track <a class="commit-link"
+  data-hovercard-type="commit" data-hovercard-url="https://github.com/deltabeard/ctrmus/commit/cdf49f8dcf6ad00adaa559aabb2e0dcb1539df01/hovercard"
+  href="https://github.com/deltabeard/ctrmus/commit/cdf49f8dcf6ad00adaa559aabb2e0dcb1539df01"><tt>cdf49f8</tt></a></li>
+
+  <li>Use dr_wav for wav file decoding rather than the previous basic implementation
+  <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/deltabeard/ctrmus/commit/ca583a548782c77597665eff3df1375c48481f00/hovercard"
+  href="https://github.com/deltabeard/ctrmus/commit/ca583a548782c77597665eff3df1375c48481f00"><tt>ca583a5</tt></a></li>
+
+  <li>Updated all libraries: libctru (2.6.2), dr_flac (0.13.0), mpg123 (1.32.3), libopus
+  (1.3), opusfile (0.11), lobogg(1.3.4), libvorbisidec (1.2.1), libsidplay (1.36.60).</li>
 
   <li>Further improvements to overall system stability and other minor adjustments
   have been made to enhance the user experience.</li>
 
-  </ul>
-
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/7b6175f90473c54ac11bd234f6141d02154d8ecb3b4d188d485ee64238715b8e/68747470733a2f2f7a78696e672e6f72672f772f63686172743f6368743d7172266368733d323330783233302663686c643d4c2663686f653d5554462d382663686c3d68747470732533412532462532466769746875622e636f6d25324664656c746162656172642532466374726d757325324672656c6561736573253246646f776e6c6f6164253246302e342e31322532466374726d75732e636961"><img
-  src="https://camo.githubusercontent.com/7b6175f90473c54ac11bd234f6141d02154d8ecb3b4d188d485ee64238715b8e/68747470733a2f2f7a78696e672e6f72672f772f63686172743f6368743d7172266368733d323330783233302663686c643d4c2663686f653d5554462d382663686c3d68747470732533412532462532466769746875622e636f6d25324664656c746162656172642532466374726d757325324672656c6561736573253246646f776e6c6f6164253246302e342e31322532466374726d75732e636961"
-  alt="QR" data-canonical-src="https://zxing.org/w/chart?cht=qr&amp;chs=230x230&amp;chld=L&amp;choe=UTF-8&amp;chl=https%3A%2F%2Fgithub.com%2Fdeltabeard%2Fctrmus%2Freleases%2Fdownload%2F0.4.12%2Fctrmus.cia"
-  style="max-width: 100%;"></a></p>'
-updated: '2017-07-08T18:35:46Z'
-version: 0.4.12
-version_title: '0.4.12: Vorbis Support'
+  </ul>'
+updated: '2025-07-29T16:47:06Z'
+version: v0.5.0
+version_title: '0.5.0: Autoplay'
 ---
