@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9172032
+    size: 9171756
     size_str: 8 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.4D/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.5/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 9778112
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.4D/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.5/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -35,7 +35,7 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>段位道場の条件で以上の処理の一部が誤っていたのを修正</li>
+  <li>ソフトを閉じる際にクラッシュする不具合の修正</li>
 
   </ul>
 
@@ -43,12 +43,12 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Fixed some of the above processing errors in the dan-i dojo conditions.</li>
+  <li>Fixed a crash when closing the software</li>
 
   </ul>'
-updated: '2025-07-25T10:35:51Z'
-version: v1.5.4D
-version_title: TJAPlayer for 3DS v1.5.4(D)
+updated: '2025-07-29T06:37:04Z'
+version: v1.5.5
+version_title: TJAPlayer for 3DS v1.5.5
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
