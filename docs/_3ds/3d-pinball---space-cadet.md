@@ -16,7 +16,6 @@ downloads:
 github: MaikelChan/SpaceCadetPinball
 icon: https://github.com/MaikelChan/SpaceCadetPinball/raw/3ds/ctr/icon.png
 image: https://github.com/MaikelChan/SpaceCadetPinball/raw/3ds/ctr/banner.png
-image_length: 17484
 layout: app
 license: mit
 license_name: MIT License

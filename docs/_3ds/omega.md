@@ -16,8 +16,6 @@ downloads:
     size_str: 1 MiB
     url: https://github.com/Omega-Numworks/Omega/releases/download/O1.22.1-E15/simulator.3dsx
   simulator.cia:
-    size: 1124800
-    size_str: 1 MiB
     url: https://github.com/Omega-Numworks/Omega/releases/download/O1.22.1-E15/simulator.cia
 github: Omega-Numworks/Omega
 icon: https://raw.githubusercontent.com/Omega-Numworks/Omega/omega-master/ion/src/simulator/3ds/assets/logo.png

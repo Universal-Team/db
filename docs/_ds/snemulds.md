@@ -3,11 +3,9 @@ author: cotodevel
 avatar: https://avatars.githubusercontent.com/u/12502589?v=4
 categories:
 - emulator
-color: '#848383'
-color_bg: '#807f7f'
 created: '2025-06-05T04:39:38Z'
 github: cotodevel/snemulds
-icon: https://db.universal-team.net/assets/images/icons/snemulds.png
+icon: https://github.com/cotodevel/snemulds/raw/refs/heads/master/icon.bmp
 image: https://db.universal-team.net/assets/images/images/snemulds.png
 image_length: 342
 layout: app
