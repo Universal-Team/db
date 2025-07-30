@@ -11,9 +11,9 @@ description: Play Scratch games on your 3DS!
 download_page: https://github.com/NateXS/Scratch-3DS/releases
 downloads:
   Scratch.3dsx:
-    size: 2044048
+    size: 2073268
     size_str: 1 MiB
-    url: https://github.com/NateXS/Scratch-3DS/releases/download/0.13/Scratch.3dsx
+    url: https://github.com/NateXS/Scratch-3DS/releases/download/0.14/Scratch.3dsx
 github: NateXS/Scratch-3DS
 icon: https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/gfx/icon.png
 image: https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/gfx/logo.png
@@ -37,58 +37,48 @@ update_notes: '<h2 dir="auto"><strong>New Features</strong></h2>
 
   <ul dir="auto">
 
-  <li>[Wii U] Main Menu and file picker!</li>
+  <li>"Show variable" and "Hide variable" blocks added!</li>
+
+  <li>Variables can now show on screen!</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Runtime Changes</strong></p>
+
+  <ul dir="auto">
+
+  <li>Fix broadcast blocks not working correctly sometimes</li>
+
+  <li>Fix <code class="notranslate">Stop "this script"</code> and <code class="notranslate">Stop
+  "other scripts in this sprite"</code> blocks not working correctly sometimes</li>
+
+  <li>Fix invalid sounds crashing the app</li>
+
+  <li>[Wii U] Unselected projects in Main Menu are now black instead of red</li>
+
+  <li>[3DS] if compiling an unzipped project, more images can now be loaded without
+  failing</li>
+
+  <li>[3DS] You no longer crash/get kicked to the homebrew menu while loading images
+  initially</li>
 
   <li>
 
   <ul dir="auto">
 
-  <li>You no longer have to name your project "project.sb3", and can have as many
-  projects as you want!</li>
+  <li>If your project has many images, some will not load and render as a black square.
+  A fix for this is in the works.</li>
 
   </ul>
 
   </li>
 
-  <li>
-
-  <ul dir="auto">
-
-  <li>You still need to put all your projects in <code class="notranslate">sdcard:/wiiu/scratch-wiiu/</code>.</li>
-
-  </ul>
-
-  </li>
-
-  </ul>
-
-  <h2 dir="auto"><strong>Runtime Changes</strong></h2>
-
-  <ul dir="auto">
-
-  <li>[3DS] Loading sounds now run in the background and no longer freezes the game!</li>
-
-  <li>
-
-  <ul dir="auto">
-
-  <li>Known issue: loading a sound while other sounds are playing will mute all sounds
-  until the sound is done loading.</li>
-
-  </ul>
-
-  </li>
-
-  <li>[3DS] Fixed crash if an image failed to load</li>
-
-  <li>"Set Volume to", "Change Volume by", and "Volume" blocks added</li>
-
-  <li>Fixed <code class="notranslate">Play Sound until done</code> block not working
-  correctly if played in the Stage</li>
+  <li>[3DS] when compiling, you now have the option to disable the loading screen
+  visuals. Run <code class="notranslate">make ENABLE_BUBBLES=0</code> when compiling.</li>
 
   </ul>'
-updated: '2025-07-28T13:26:39Z'
-version: '0.13'
-version_title: Beta Build 13
+updated: '2025-07-30T17:12:51Z'
+version: '0.14'
+version_title: Beta Build 14
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!
