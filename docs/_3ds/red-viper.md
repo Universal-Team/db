@@ -10,13 +10,13 @@ description: A Virtual Boy emulator for the 3DS
 download_page: https://github.com/skyfloogle/red-viper/releases
 downloads:
   red-viper.3dsx:
-    size: 617444
-    size_str: 602 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v1.0.1/red-viper.3dsx
+    size: 617572
+    size_str: 603 KiB
+    url: https://github.com/skyfloogle/red-viper/releases/download/v1.0.2/red-viper.3dsx
   red-viper.cia:
     size: 660416
     size_str: 644 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v1.0.1/red-viper.cia
+    url: https://github.com/skyfloogle/red-viper/releases/download/v1.0.2/red-viper.cia
 github: skyfloogle/red-viper
 icon: https://raw.githubusercontent.com/skyfloogle/red-viper/master/icon.png
 image: https://raw.githubusercontent.com/skyfloogle/red-viper/master/resources/banner.png
@@ -40,39 +40,12 @@ systems:
 title: red-viper
 unique_ids:
 - '0xFE7CB'
-update_notes: '<p dir="auto">This patch improves the UX for multicolor mode, allowing
-  people to more easily share their palettes with others, and fixes some bugs that
-  snuck into the v1.0.0 release.</p>
-
-  <ul dir="auto">
-
-  <li>Multicolor changes:
-
-  <ul dir="auto">
-
-  <li>Up to 4 palette slots are available, configurable per game</li>
-
-  <li>Color entries and brightness scale can now entered directly using hex color
-  values</li>
-
-  <li>These same raw color and brightness values are visible within the emulator</li>
-
-  <li>Boost maximum brightness scaling factor from 2x to 4x</li>
-
-  </ul>
-
-  </li>
-
-  <li>Fix random crashes during screen transitions in Golf</li>
-
-  <li>Fix bug where toggling anaglyph mode while in-game caused games to speed up</li>
-
-  <li>Ensure Circle Pad Pro applet runs at 60Hz</li>
-
-  </ul>'
-updated: '2025-07-29T17:45:51Z'
-version: v1.0.1
-version_title: v1.0.1
+update_notes: <p dir="auto">This patch addresses an issue introduced in v1.0.1 where
+  accessing the multicolor shade selector screen too many times in one session would
+  crash the emulator.</p>
+updated: '2025-07-31T19:26:03Z'
+version: v1.0.2
+version_title: v1.0.2
 wiki: https://github.com/skyfloogle/red-viper/wiki
 ---
 A Virtual Boy emulator for the 3DS. All official games are playable at full speed.
