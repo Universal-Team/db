@@ -28,7 +28,7 @@ license_name: GNU Affero General Public License v3.0
 qr:
   CPyMO.for.Nintendo.3DS.cia: https://db.universal-team.net/assets/images/qr/cpymo-for-nintendo-3ds-cia.png
 source: https://github.com/Strrationalism/CPyMO
-stars: 140
+stars: 141
 systems:
 - 3DS
 title: CPyMO
