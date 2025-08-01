@@ -908,6 +908,7 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 				app["wiki"] if "wiki" in app else "",
 				app["icon_index"] if "icon_index" in app else -1,
 				app["color_bg"] if "color_bg" in app else app["color"] if "color" in app else "",
+				app["stars"] if "stars" in app else 0
 			)
 
 			# Change "DS" to "NDS" so it can be searched for
