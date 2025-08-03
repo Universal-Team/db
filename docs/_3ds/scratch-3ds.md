@@ -11,9 +11,9 @@ description: Play Scratch games on your 3DS!
 download_page: https://github.com/NateXS/Scratch-3DS/releases
 downloads:
   Scratch.3dsx:
-    size: 2073268
-    size_str: 1 MiB
-    url: https://github.com/NateXS/Scratch-3DS/releases/download/0.14/Scratch.3dsx
+    size: 2141404
+    size_str: 2 MiB
+    url: https://github.com/NateXS/Scratch-3DS/releases/download/0.15/Scratch.3dsx
 github: NateXS/Scratch-3DS
 icon: https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/gfx/icon.png
 image: https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/gfx/logo.png
@@ -35,50 +35,58 @@ systems:
 title: Scratch 3DS
 update_notes: '<h2 dir="auto"><strong>New Features</strong></h2>
 
+  <p dir="auto"><em><strong>Vector Image Support</strong></em></p>
+
   <ul dir="auto">
 
-  <li>"Show variable" and "Hide variable" blocks added!</li>
-
-  <li>Variables can now show on screen!</li>
+  <li>You no longer have to convert your vector images to bitmap!</li>
 
   </ul>
 
-  <p dir="auto"><strong>Runtime Changes</strong></p>
+  <p dir="auto"><em><strong>[3DS] Mouse Mode</strong></em></p>
 
   <ul dir="auto">
 
-  <li>Fix broadcast blocks not working correctly sometimes</li>
+  <li>Mouse mode has been removed and replaced with Trackpad-like behavior on the
+  bottom screen!</li>
 
-  <li>Fix <code class="notranslate">Stop "this script"</code> and <code class="notranslate">Stop
-  "other scripts in this sprite"</code> blocks not working correctly sometimes</li>
+  <li>Glide your finger/stylus on the bottom screen to move the mouse, and quickly
+  tap to click</li>
 
-  <li>Fix invalid sounds crashing the app</li>
+  <li>The old "holding L and using the D-pad" has been removed</li>
 
-  <li>[Wii U] Unselected projects in Main Menu are now black instead of red</li>
-
-  <li>[3DS] if compiling an unzipped project, more images can now be loaded without
-  failing</li>
-
-  <li>[3DS] You no longer crash/get kicked to the homebrew menu while loading images
-  initially</li>
-
-  <li>
-
-  <ul dir="auto">
-
-  <li>If your project has many images, some will not load and render as a black square.
-  A fix for this is in the works.</li>
+  <li>If your scratch project uses the bottom screen, trackpad mode is disabled and
+  replaced with normal touchscreen behavior</li>
 
   </ul>
 
-  </li>
+  <h2 dir="auto"><strong>Runtime Changes</strong></h2>
 
-  <li>[3DS] when compiling, you now have the option to disable the loading screen
-  visuals. Run <code class="notranslate">make ENABLE_BUBBLES=0</code> when compiling.</li>
+  <ul dir="auto">
+
+  <li>Fixed "If" blocks continuing if it should''ve been stopped by a <code class="notranslate">Stop
+  ''this script''</code> block</li>
+
+  <li>Fixed "List" blocks not working correctly if set to <code class="notranslate">For
+  this sprite only</code></li>
+
+  <li>[3DS] fix Main Menu error text being cut off</li>
+
+  <li>[Wii U] Mouse position is now calculated accurately</li>
+
+  </ul>
+
+  <h2 dir="auto"><strong>Known Issues</strong></h2>
+
+  <ul dir="auto">
+
+  <li>[3DS] Some vector images may appear bigger than they should</li>
+
+  <li>If a vector image contains text, the text will not render</li>
 
   </ul>'
-updated: '2025-07-30T17:12:51Z'
-version: '0.14'
-version_title: Beta Build 14
+updated: '2025-08-03T12:37:32Z'
+version: '0.15'
+version_title: Beta Build 15
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!
