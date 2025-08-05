@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9172052
+    size: 9172284
     size_str: 8 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.5/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.6/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 9782208
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.5/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.5.6/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -40,7 +40,7 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>ソフトを閉じる際にクラッシュする不具合の修正</li>
+  <li>一部の演出の追加と修正</li>
 
   </ul>
 
@@ -48,12 +48,12 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Fixed a crash when closing the software</li>
+  <li>Some production additions and corrections.</li>
 
   </ul>'
-updated: '2025-07-29T06:37:04Z'
-version: v1.5.5
-version_title: TJAPlayer for 3DS v1.5.5
+updated: '2025-08-05T09:47:44Z'
+version: v1.5.6
+version_title: TJAPlayer for 3DS v1.5.6
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
