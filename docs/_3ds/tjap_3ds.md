@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9173528
+    size: 9173912
     size_str: 8 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.6.0/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.6.1/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 9782208
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.6.0/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.6.1/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -40,11 +40,9 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>実験的機能として、「曲名検索」機能を追加しました。<br>
+  <li>楽曲検索に関するGUIの追加</li>
 
-  遊びたい曲が見つからない時にお使い下さい。</li>
-
-  <li>一部表記の変更</li>
+  <li>日本語以外で楽曲検索をすると一部表記が正しく翻訳されていなかったのを修正</li>
 
   </ul>
 
@@ -52,16 +50,15 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>We have added a "song title search" feature as an experimental feature.<br>
+  <li>Added a GUI for song searches.</li>
 
-  Use this when you can''t find the song you want to play.</li>
-
-  <li>Some notations changed in Japanese.</li>
+  <li>Fixed an issue where some text was not translated correctly when searching for
+  songs in languages other than Japanese.</li>
 
   </ul>'
-updated: '2025-08-06T10:02:54Z'
-version: v1.6.0
-version_title: TJAPlayer for 3DS v1.6.0
+updated: '2025-08-07T02:58:06Z'
+version: v1.6.1
+version_title: TJAPlayer for 3DS v1.6.1
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
