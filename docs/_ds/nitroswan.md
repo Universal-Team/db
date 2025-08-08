@@ -10,10 +10,10 @@ description: Bandai WonderSwan (Color/Crystal) & Benesse PocketChallenge V2 emul
   for the Nintendo DS(i)/3DS.
 download_page: https://github.com/FluBBaOfWard/NitroSwan/releases
 downloads:
-  NitroSwan0_7_2.zip:
-    size: 185557
+  NitroSwan0_7_4.zip:
+    size: 185769
     size_str: 181 KiB
-    url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.7.2/NitroSwan0_7_2.zip
+    url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.7.4/NitroSwan0_7_4.zip
 github: FluBBaOfWard/NitroSwan
 icon: https://db.universal-team.net/assets/images/icons/nitroswan.png
 image: https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/logo.png
@@ -26,24 +26,16 @@ systems:
 title: NitroSwan
 update_notes: '<ul dir="auto">
 
-  <li>Added support for Karnak mapper chip (PCV2).</li>
+  <li>Fixed reading of channel 3 frequency.</li>
 
-  <li>Added XModem support for BootFriend.</li>
+  <li>Fixed ADPCM decoding for the Karnak chip.</li>
 
-  <li>Fixed serial port read.</li>
+  <li>Fixed use of Karnak mapper chip on WS/WSC.</li>
 
-  <li>Fixed IO registers startup values.</li>
-
-  <li>Fixed IO registers writable bits.</li>
-
-  <li>Fixed a glitch on the small dot icon.</li>
-
-  <li>Fixed Branch Far &amp; Call Far.</li>
-
-  <li>Optimized some opcodes.</li>
+  <li>Fixed parsing of header on small ROMs.</li>
 
   </ul>'
-updated: '2025-05-26T17:58:16Z'
-version: v0.7.2
-version_title: V0.7.2
+updated: '2025-08-08T09:15:20Z'
+version: v0.7.4
+version_title: V0.7.4
 ---
