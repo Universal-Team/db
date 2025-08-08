@@ -1,0 +1,13 @@
+{
+	"title": "Pomegranate",
+	"description": "a silly music player!",
+	"long_description": "pomegranate is a silly GUI music player and organizer. it supports most audio file formats, has bumper controls for when the shell is closed, can organize your music library into artists and albums, can display album art, and has a very cute sheep for a mascot.",
+	"author": "sheepy",
+	"github": "sheepy0125/pomegranate",
+	"website": "https://git.sr.ht/~sheepy/pomegranate",
+	"systems": ["3DS"],
+	"categories": ["app"],
+	"unique_ids": [780970],
+	"image": "https://raw.githubusercontent.com/sheepy0125/pomegranate/main/app/banner.png",
+	"icon": "https://raw.githubusercontent.com/sheepy0125/pomegranate/main/app/icon.png",
+} 
