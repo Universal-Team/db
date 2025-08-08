@@ -1,0 +1,8 @@
+{
+    "github": "vinegar77/hrt-3ds",
+    "title": "hrt3DS",
+    "systems": ["3DS"],
+    "categories": ["game"],
+    "icon": "https://raw.githubusercontent.com/vinegar77/hrt-3ds/main/resources/icon.png",
+    "long_description": "Horse Race Tests on 3DS! O3DS/O2DS models may experience audio lag"
+}
