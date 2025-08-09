@@ -35,7 +35,7 @@ license_name: MIT License
 qr:
   BlockamokRemix-v1.1-3ds.cia: https://db.universal-team.net/assets/images/qr/blockamokremix-v1-1-3ds-cia.png
 source: https://github.com/Mode8fx/blockamok
-stars: 9
+stars: 10
 systems:
 - 3DS
 title: Blockamok Remix
