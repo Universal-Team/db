@@ -3,5 +3,5 @@
 	"systems": ["DS"],
 	"categories": ["utility"],
 	"icon": "https://raw.githubusercontent.com/korbosoft/ds-micpassthrough/main/icon.png",
-	"long_description": "Pass a Nintendo DS microphone to your PC",
+	"long_description": "Pass a Nintendo DS microphone to your PC"
 }
