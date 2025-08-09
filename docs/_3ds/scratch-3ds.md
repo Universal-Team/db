@@ -11,9 +11,13 @@ description: Play Scratch games on your 3DS!
 download_page: https://github.com/NateXS/Scratch-3DS/releases
 downloads:
   Scratch.3dsx:
-    size: 2141404
+    size: 2963500
     size_str: 2 MiB
-    url: https://github.com/NateXS/Scratch-3DS/releases/download/0.15/Scratch.3dsx
+    url: https://github.com/NateXS/Scratch-3DS/releases/download/0.16/Scratch.3dsx
+  scratch-gamecube.zip:
+    size: 2394790
+    size_str: 2 MiB
+    url: https://github.com/NateXS/Scratch-3DS/releases/download/0.16/scratch-gamecube.zip
 github: NateXS/Scratch-3DS
 icon: https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/gfx/icon.png
 image: https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/gfx/logo.png
@@ -33,60 +37,62 @@ stars: 253
 systems:
 - 3DS
 title: Scratch 3DS
-update_notes: '<h2 dir="auto"><strong>New Features</strong></h2>
+update_notes: '<h2 dir="auto">New Features</h2>
 
-  <p dir="auto"><em><strong>Vector Image Support</strong></em></p>
+  <p dir="auto"><strong>Wii and Gamecube port!</strong></p>
 
   <ul dir="auto">
 
-  <li>You no longer have to convert your vector images to bitmap!</li>
+  <li>The runtime has been ported to 2 new consoles!</li>
+
+  <li>More information in the README!</li>
 
   </ul>
 
-  <p dir="auto"><em><strong>[3DS] Mouse Mode</strong></em></p>
+  <p dir="auto"><strong>[3DS and Wii U] Cloud Variable support!</strong></p>
 
   <ul dir="auto">
 
-  <li>Mouse mode has been removed and replaced with Trackpad-like behavior on the
-  bottom screen!</li>
+  <li>Cloud Variables now sync over the network with anyone also playing the same
+  game!</li>
 
-  <li>Glide your finger/stylus on the bottom screen to move the mouse, and quickly
-  tap to click</li>
+  <li>Syncs across both Wii U and 3DS</li>
 
-  <li>The old "holding L and using the D-pad" has been removed</li>
+  <li><strong>Note:</strong> does NOT sync with people playing on the Scratch website
+  or Turbowarp.</li>
 
-  <li>If your scratch project uses the bottom screen, trackpad mode is disabled and
-  replaced with normal touchscreen behavior</li>
+  <li>Via pull request (<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="3264824143" data-permission-text="Title is private" data-url="https://github.com/NateXS/Scratch-3DS/issues/145"
+  data-hovercard-type="pull_request" data-hovercard-url="/NateXS/Scratch-3DS/pull/145/hovercard"
+  href="https://github.com/NateXS/Scratch-3DS/pull/145">#145</a>)</li>
 
   </ul>
 
-  <h2 dir="auto"><strong>Runtime Changes</strong></h2>
+  <h2 dir="auto">Runtime Changes</h2>
 
   <ul dir="auto">
 
-  <li>Fixed "If" blocks continuing if it should''ve been stopped by a <code class="notranslate">Stop
-  ''this script''</code> block</li>
+  <li><code class="notranslate">Broadcast</code> blocks now have more consistent behavior</li>
 
-  <li>Fixed "List" blocks not working correctly if set to <code class="notranslate">For
-  this sprite only</code></li>
+  <li>Disabling <code class="notranslate">Fencing</code> in advanced settings now
+  disables size limitations</li>
 
-  <li>[3DS] fix Main Menu error text being cut off</li>
+  <li>Variables set to <code class="notranslate">True</code> or <code class="notranslate">False</code>
+  no longer gets set to <code class="notranslate">1</code> or <code class="notranslate">0</code></li>
 
-  <li>[Wii U] Mouse position is now calculated accurately</li>
+  <li>Images in any project now only load whenever it''s needed, instead of loading
+  every image in memory while loading the project</li>
 
-  </ul>
+  <li>[Wii U] Main Menu with no projects should now work correctly</li>
 
-  <h2 dir="auto"><strong>Known Issues</strong></h2>
+  <li>[Wii U] Unzipped projects now load images and sounds correctly</li>
 
-  <ul dir="auto">
-
-  <li>[3DS] Some vector images may appear bigger than they should</li>
-
-  <li>If a vector image contains text, the text will not render</li>
+  <li>[3DS] when compiling, the final executable will now be in <code class="notranslate">build/3ds/</code>
+  instead of the root directory.</li>
 
   </ul>'
-updated: '2025-08-03T12:37:32Z'
-version: '0.15'
-version_title: Beta Build 15
+updated: '2025-08-09T22:52:13Z'
+version: '0.16'
+version_title: Beta Build 16
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!

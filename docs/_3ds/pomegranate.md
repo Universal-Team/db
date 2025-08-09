@@ -10,9 +10,9 @@ description: a silly music player!
 download_page: https://github.com/sheepy0125/pomegranate/releases
 downloads:
   pomegranate.cia:
-    size: 3322816
+    size: 3347392
     size_str: 3 MiB
-    url: https://github.com/sheepy0125/pomegranate/releases/download/v1.1.1/pomegranate.cia
+    url: https://github.com/sheepy0125/pomegranate/releases/download/v1.1.2/pomegranate.cia
 github: sheepy0125/pomegranate
 icon: https://raw.githubusercontent.com/sheepy0125/pomegranate/main/app/icon.png
 image: https://raw.githubusercontent.com/sheepy0125/pomegranate/main/app/banner.png
@@ -38,18 +38,12 @@ update_notes: '<p dir="auto">Changelog:</p>
 
   <ul dir="auto">
 
-  <li>Fixed console freezing on power button press and home menu</li>
+  <li>Faster indexing on a separate thread</li>
 
-  </ul>
-
-
-  <br><br>
-
-  <p dir="auto">For more info, see <a href="https://git.sr.ht/~sheepy/pomegranate"
-  rel="nofollow">https://git.sr.ht/~sheepy/pomegranate</a></p>'
-updated: '2025-08-09T18:48:48Z'
-version: v1.1.1
-version_title: v1.1.1
+  </ul>'
+updated: '2025-08-09T22:48:25Z'
+version: v1.1.2
+version_title: v1.1.2
 website: https://git.sr.ht/~sheepy/pomegranate
 ---
 pomegranate is a silly GUI music player and organizer. it supports most audio file formats, has bumper controls for when the shell is closed, can organize your music library into artists and albums, can display album art, and has a very cute sheep for a mascot.
