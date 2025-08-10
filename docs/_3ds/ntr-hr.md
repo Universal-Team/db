@@ -10,9 +10,9 @@ description: An upgraded version of NTR with better streaming capabilities.
 download_page: https://github.com/xzn/ntr-hr/releases
 downloads:
   BootNTRSelector-PabloMK7-Banner.cia:
-    size: 1680320
+    size: 1688512
     size_str: 1 MiB
-    url: https://github.com/xzn/ntr-hr/releases/download/v0.3.5.0/BootNTRSelector-PabloMK7-Banner.cia
+    url: https://github.com/xzn/ntr-hr/releases/download/v0.3.5.1/BootNTRSelector-PabloMK7-Banner.cia
 github: xzn/ntr-hr
 image: https://avatars.githubusercontent.com/u/1617680?v=4&size=128
 image_length: 1529
@@ -30,12 +30,12 @@ unique_ids:
 - '0xEB000'
 update_notes: '<p dir="auto">Change:</p>
 
-  <p dir="auto">Removed some ineffective code.</p>
+  <p dir="auto">Minor cleanup.</p>
 
   <p dir="auto">Source code:</p>
 
-  <p dir="auto"><a href="https://github.com/xzn/ntr-hr/tree/prog_delta">https://github.com/xzn/ntr-hr/tree/prog_delta</a></p>'
-updated: '2025-08-05T07:13:05Z'
-version: v0.3.5.0
-version_title: 0.3.5.0
+  <p dir="auto"><a href="https://github.com/xzn/ntr-hr/tree/refactor1">https://github.com/xzn/ntr-hr/tree/refactor1</a></p>'
+updated: '2025-08-10T00:56:48Z'
+version: v0.3.5.1
+version_title: 0.3.5.1
 ---
