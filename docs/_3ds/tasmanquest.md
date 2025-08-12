@@ -2,19 +2,14 @@
 author: Nawias
 categories:
 - game
-color: '#b99660'
-color_bg: '#806742'
 created: '2023-09-01T00:00:00Z'
 description: Join Taśman in his quest to wrap everything in TAŚMAN Sealed duct tape!
 download_page: https://nawias.itch.io/tasmanquest
 downloads:
   TasmanQuest.3dsx:
-    size: 10399904
-    size_str: 9 MiB
     url: http://nawiasdev.eu/tasmanquest/TasmanQuest.3dsx
 icon: http://nawiasdev.eu/tasmanquest/icon.png
 image: http://nawiasdev.eu/tasmanquest/logo.png
-image_length: 13925
 layout: app
 screenshots:
 - description: Screenshot 1
