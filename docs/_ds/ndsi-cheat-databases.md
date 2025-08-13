@@ -9,9 +9,9 @@ created: '2023-06-08T01:32:48Z'
 download_page: https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases/releases
 downloads:
   usrcheat.7z:
-    size: 1342791
+    size: 1349973
     size_str: 1 MiB
-    url: https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases/releases/download/20231225/usrcheat.7z
+    url: https://github.com/DeadSkullzJr/NDS-i-Cheat-Databases/releases/download/20250812/usrcheat.7z
 github: DeadSkullzJr/NDS-i-Cheat-Databases
 image: https://db.universal-team.net/assets/images/images/ndsi-cheat-databases.png
 image_length: 7190
@@ -23,9 +23,9 @@ stars: 43
 systems:
 - DS
 title: NDS(i) Cheat Databases
-updated: '2023-06-08T01:39:06Z'
-version: '20231225'
-version_title: DeadSkullzJr's NDS(i) Cheat Databases (20231225)
+updated: '2025-08-13T02:52:47Z'
+version: '20250812'
+version_title: DeadSkullzJr's NDS(i) Cheat Database (20250812)
 website: https://gbatemp.net/threads/488711/
 ---
 Please visit [the GBAtemp thread](https://gbatemp.net/threads/488711/) for other cheat database formats.
