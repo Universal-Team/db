@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9448912
+    size: 9450836
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.0/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.1/TJAP_3DS.3dsx
   TJAP_3DS.cia:
-    size: 10052544
+    size: 10056640
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.0/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.1/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -40,9 +40,7 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li><code class="notranslate">SCOREMODE:3</code>でニジイロver.の配点になる仕様を追加</li>
-
-  <li>mp3での楽曲再生に対応</li>
+  <li>mp3での楽曲再生が正常に動作しない可能性があったのを修正</li>
 
   </ul>
 
@@ -50,15 +48,12 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Added a feature that assigns points to the Nijiro version when <code class="notranslate">SCOREMODE:3</code>is
-  selected.</li>
-
-  <li>Supports MP3 playback.</li>
+  <li>Fixed an issue where mp3 music playback may not work properly.</li>
 
   </ul>'
-updated: '2025-08-13T07:17:23Z'
-version: v1.7.0
-version_title: TJAPlayer for 3DS v1.7.0
+updated: '2025-08-14T11:25:21Z'
+version: v1.7.1
+version_title: TJAPlayer for 3DS v1.7.1
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
