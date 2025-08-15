@@ -13,15 +13,15 @@ downloads:
   Scratch.3dsx:
     size: 2963500
     size_str: 2 MiB
-    url: https://github.com/NateXS/Scratch-3DS/releases/download/0.16/Scratch.3dsx
+    url: https://github.com/NateXS/Scratch-Everywhere/releases/download/0.16/Scratch.3dsx
   scratch-gamecube.zip:
     size: 2394790
     size_str: 2 MiB
-    url: https://github.com/NateXS/Scratch-3DS/releases/download/0.16/scratch-gamecube.zip
+    url: https://github.com/NateXS/Scratch-Everywhere/releases/download/0.16/scratch-gamecube.zip
 github: NateXS/Scratch-3DS
 icon: https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/gfx/icon.png
 image: https://raw.githubusercontent.com/NateXS/Scratch-3DS/refs/heads/main/gfx/logo.png
-image_length: 15313
+image_length: 39081
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
@@ -32,16 +32,16 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/scratch-3ds/screenshot2.png
 - description: Screenshot3
   url: https://db.universal-team.net/assets/images/screenshots/scratch-3ds/screenshot3.png
-source: https://github.com/NateXS/Scratch-3DS
-stars: 264
+source: https://github.com/NateXS/Scratch-Everywhere
+stars: 265
 systems:
 - 3DS
 title: Scratch 3DS
-update_notes: '<h2 dir="auto">New Features</h2>
+update_notes: '<h2>New Features</h2>
 
-  <p dir="auto"><strong>Wii and Gamecube port!</strong></p>
+  <p><strong>Wii and Gamecube port!</strong></p>
 
-  <ul dir="auto">
+  <ul>
 
   <li>The runtime has been ported to 2 new consoles!</li>
 
@@ -49,9 +49,9 @@ update_notes: '<h2 dir="auto">New Features</h2>
 
   </ul>
 
-  <p dir="auto"><strong>[3DS and Wii U] Cloud Variable support!</strong></p>
+  <p><strong>[3DS and Wii U] Cloud Variable support!</strong></p>
 
-  <ul dir="auto">
+  <ul>
 
   <li>Cloud Variables now sync over the network with anyone also playing the same
   game!</li>
@@ -61,16 +61,13 @@ update_notes: '<h2 dir="auto">New Features</h2>
   <li><strong>Note:</strong> does NOT sync with people playing on the Scratch website
   or Turbowarp.</li>
 
-  <li>Via pull request (<a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="3264824143" data-permission-text="Title is private" data-url="https://github.com/NateXS/Scratch-3DS/issues/145"
-  data-hovercard-type="pull_request" data-hovercard-url="/NateXS/Scratch-3DS/pull/145/hovercard"
-  href="https://github.com/NateXS/Scratch-3DS/pull/145">#145</a>)</li>
+  <li>Via pull request (#145)</li>
 
   </ul>
 
-  <h2 dir="auto">Runtime Changes</h2>
+  <h2>Runtime Changes</h2>
 
-  <ul dir="auto">
+  <ul>
 
   <li><code class="notranslate">Broadcast</code> blocks now have more consistent behavior</li>
 
