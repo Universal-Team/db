@@ -10,13 +10,13 @@ description: A Virtual Boy emulator for the 3DS
 download_page: https://github.com/skyfloogle/red-viper/releases
 downloads:
   red-viper.3dsx:
-    size: 617572
-    size_str: 603 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v1.0.2/red-viper.3dsx
+    size: 623972
+    size_str: 609 KiB
+    url: https://github.com/skyfloogle/red-viper/releases/download/v1.1.0/red-viper.3dsx
   red-viper.cia:
-    size: 660416
-    size_str: 644 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v1.0.2/red-viper.cia
+    size: 664512
+    size_str: 648 KiB
+    url: https://github.com/skyfloogle/red-viper/releases/download/v1.1.0/red-viper.cia
 github: skyfloogle/red-viper
 icon: https://raw.githubusercontent.com/skyfloogle/red-viper/master/icon.png
 image: https://raw.githubusercontent.com/skyfloogle/red-viper/master/resources/banner.png
@@ -40,12 +40,44 @@ systems:
 title: red-viper
 unique_ids:
 - '0xFE7CB'
-update_notes: <p dir="auto">This patch addresses an issue introduced in v1.0.1 where
-  accessing the multicolor shade selector screen too many times in one session would
-  crash the emulator.</p>
-updated: '2025-07-31T19:26:03Z'
-version: v1.0.2
-version_title: v1.0.2
+update_notes: '<p dir="auto">This release improves the software renderer and enables
+  it for Test Chamber on New 3DS. This fixes the issue where black walls may appear
+  transparent.<br>
+
+  The old 3DS is not fast enough to run a software renderer, so it is not enabled
+  there. There is an alternative solution that could work on the o3DS, but it is not
+  yet clear whether this solution is viable. See <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="3323924534" data-permission-text="Title
+  is private" data-url="https://github.com/skyfloogle/red-viper/issues/88" data-hovercard-type="issue"
+  data-hovercard-url="/skyfloogle/red-viper/issues/88/hovercard" href="https://github.com/skyfloogle/red-viper/issues/88">#88</a>
+  for more information.</p>
+
+  <ul dir="auto">
+
+  <li>Improve software renderer and enabled it for Test Chamber on New 3DS, fixing
+  see-through black walls</li>
+
+  <li>Fixed XB instruction not saving when register is in-memory, resulting in crashes
+  in the comet shooting minigame in Galactic Pinball''s Colony stage (<a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="3303941971" data-permission-text="Title
+  is private" data-url="https://github.com/skyfloogle/red-viper/issues/87" data-hovercard-type="issue"
+  data-hovercard-url="/skyfloogle/red-viper/issues/87/hovercard" href="https://github.com/skyfloogle/red-viper/issues/87">#87</a>)</li>
+
+  <li>Numerous improvements to interpreter
+
+  <ul dir="auto">
+
+  <li>These changes do not affect any existing games, but do make it easier to test
+  the emulator in alternate environments</li>
+
+  </ul>
+
+  </li>
+
+  </ul>'
+updated: '2025-08-15T00:05:03Z'
+version: v1.1.0
+version_title: v1.1.0
 wiki: https://github.com/skyfloogle/red-viper/wiki
 ---
 A Virtual Boy emulator for the 3DS. All official games are playable at full speed.
