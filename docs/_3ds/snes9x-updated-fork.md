@@ -10,13 +10,13 @@ description: SNES9x Port for 3DS / 2DS
 download_page: https://github.com/matbo87/snes9x_3ds/releases
 downloads:
   snes9x_3ds.3dsx:
-    size: 2215196
+    size: 2212828
     size_str: 2 MiB
-    url: https://github.com/matbo87/snes9x_3ds/releases/download/v1.51.1/snes9x_3ds.3dsx
+    url: https://github.com/matbo87/snes9x_3ds/releases/download/v1.52/snes9x_3ds.3dsx
   snes9x_3ds.cia:
-    size: 2155456
+    size: 2163648
     size_str: 2 MiB
-    url: https://github.com/matbo87/snes9x_3ds/releases/download/v1.51.1/snes9x_3ds.cia
+    url: https://github.com/matbo87/snes9x_3ds/releases/download/v1.52/snes9x_3ds.cia
 github: matbo87/snes9x_3ds
 icon: https://raw.githubusercontent.com/matbo87/snes9x_3ds/master/resources/icon.png
 image: https://raw.githubusercontent.com/matbo87/snes9x_3ds/master/resources/icon.png
@@ -33,21 +33,19 @@ unique_ids:
 - '0x3849'
 update_notes: '<ul dir="auto">
 
-  <li>Fix crash on Old 3DS and Old 2DS, when user opens menu after game has loaded</li>
+  <li>Improved thread safety to prevent crashes from concurrent ROM list access</li>
+
+  <li>Enhanced shutdown stability by fixing resource cleanup issues</li>
+
+  <li>Added display options</li>
 
   </ul>
 
   <p dir="auto">For more information, see <a href="https://github.com/matbo87/snes9x_3ds/blob/master/CHANGELOG.md">Changelog</a></p>
 
-  <p dir="auto">New 3DS and New 2DS users can skip this version. Nothing has changed
-  for them.</p>
-
-  <p dir="auto"><em>Install snes9x_3ds.cia via FBI -&gt; Remote Install -&gt; Scan
-  QR Code</em></p>
-
-  <p dir="auto"></p>'
-updated: '2023-10-20T16:15:23Z'
-version: v1.51.1
-version_title: v1.51.1
+  '
+updated: '2025-08-15T08:42:42Z'
+version: v1.52
+version_title: v1.52
 ---
 fork of [bubble2k's Snes9x for 3DS](https://github.com/bubble2k16/snes9x_3ds), giving you more options to enjoy your SNES game collection.
