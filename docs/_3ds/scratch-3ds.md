@@ -179,6 +179,8 @@ update_notes: '<h2>New Features</h2>
 
   <li>Fixed images sometimes not being able to load</li>
 
+  <li>[Quick Edit 16 Aug 2025] Fixed meta.xml showing the wrong date</li>
+
   </ul>
 
   <h2>Wii U Changes</h2>
