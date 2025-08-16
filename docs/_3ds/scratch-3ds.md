@@ -130,6 +130,16 @@ update_notes: '<h2>New Features</h2>
 
   <li>Custom blocks with no definition now works as intended</li>
 
+  <li>
+
+  <ul>
+
+  <li>Logging blocks created by Scratch Addons Debugging Addon can now be used.</li>
+
+  </ul>
+
+  </li>
+
   <li>The runtime can now be compiled with <code class="notranslate">ENABLE_AUDIO=0</code>.</li>
 
   <li>
