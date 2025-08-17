@@ -10,7 +10,7 @@ description: a silly music player!
 download_page: https://github.com/sheepy0125/pomegranate/releases
 downloads:
   pomegranate.cia:
-    size: 3986368
+    size: 4002752
     size_str: 3 MiB
     url: https://github.com/sheepy0125/pomegranate/releases/download/v1.1.3/pomegranate.cia
 github: sheepy0125/pomegranate
