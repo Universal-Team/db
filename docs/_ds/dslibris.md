@@ -41,7 +41,7 @@ prerelease:
   version: v1.6.0
   version_title: 1.6.0
 source: https://github.com/rhaleblian/dslibris
-stars: 110
+stars: 111
 systems:
 - DS
 title: dslibris
