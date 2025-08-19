@@ -10,13 +10,13 @@ description: A new way to experience StreetPass
 download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 4076012
+    size: 4094484
     size_str: 3 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/7da55c416290b999724b86f1cf14d8d73242e1bc/netpass.3dsx?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/eaadb55c694ecef0466e43ff7e4201f7b365f744/netpass.3dsx?inline=false
   netpass.cia:
-    size: 4178880
+    size: 4187072
     size_str: 3 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/7da55c416290b999724b86f1cf14d8d73242e1bc/netpass.cia?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/eaadb55c694ecef0466e43ff7e4201f7b365f744/netpass.cia?inline=false
 gitlab: 3ds-netpass/netpass
 icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
@@ -33,12 +33,12 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <ul data-sourcepos="1:2-5:33" dir="auto">&#x000A;<li data-sourcepos="1:2-1:75">Fix
-  version detection being broken for people using luma locale switcher</li>&#x000A;<li
-  data-sourcepos="2:2-2:23">Better error display</li>&#x000A;<li data-sourcepos="3:2-3:31">Preparations
-  for new feature</li>&#x000A;<li data-sourcepos="4:2-4:22">Various small fixes</li>&#x000A;<li
-  data-sourcepos="5:2-5:33">Gray out last location visited</li>&#x000A;</ul>
-updated: '2025-06-04T19:14:17.348Z'
-version: v1.0.2
-version_title: v1.0.2
+update_notes: <ul data-sourcepos="1:2-5:27" dir="auto">&#x000A;<li data-sourcepos="1:2-1:16">many
+  bugfixes</li>&#x000A;<li data-sourcepos="2:2-2:26">nicer UI around updates</li>&#x000A;<li
+  data-sourcepos="3:2-3:67">allow for banned people to download / delete their personal
+  data</li>&#x000A;<li data-sourcepos="4:2-4:35">better error popups and handling</li>&#x000A;<li
+  data-sourcepos="5:2-5:27">fixing of various errors</li>&#x000A;</ul>
+updated: '2025-08-19T09:22:49.851Z'
+version: v1.0.3
+version_title: v1.0.3
 ---
