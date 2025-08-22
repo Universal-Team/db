@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9450836
+    size: 9454676
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.1/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.2/TJAP_3DS.3dsx
   TJAP_3DS.cia:
-    size: 10056640
+    size: 10060736
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.1/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.2/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -40,7 +40,29 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>mp3での楽曲再生が正常に動作しない可能性があったのを修正</li>
+  <li>mp3での楽曲再生のパフォーマンスの改善</li>
+
+  <li><code class="notranslate">#LYRIC </code>で譜面再生中に上画面下部に歌詞を表示出来るようにしました。</li>
+
+  </ul>
+
+  <pre class="notranslate"><code class="notranslate">#START
+
+  1111,
+
+  #LYRIC (表示したい文字列を記入)
+
+  1111,
+
+  #END
+
+  </code></pre>
+
+  <ul dir="auto">
+
+  <li>楽曲検索でサブタイトルも検索出来るようにしました。<br>
+
+  <code class="notranslate">--(アーティスト名や作品名等)</code>と入力するとそれに沿った譜面だけを表示します。</li>
 
   </ul>
 
@@ -48,12 +70,36 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Fixed an issue where mp3 music playback may not work properly.</li>
+  <li>Improved performance for MP3 music playback</li>
+
+  <li><code class="notranslate">#LYRIC</code> now displays lyrics at the bottom of
+  the upper screen while music is playing.</li>
+
+  </ul>
+
+  <pre class="notranslate"><code class="notranslate">#START
+
+  1111,
+
+  #LYRIC (Enter the text you want to display)
+
+  1111,
+
+  #END
+
+  </code></pre>
+
+  <ul dir="auto">
+
+  <li>Subtitles can now be searched for in song searches.<br>
+
+  Enter <code class="notranslate">--(artist name, title, etc.)</code> to display only
+  tja that match that.</li>
 
   </ul>'
-updated: '2025-08-14T11:25:21Z'
-version: v1.7.1
-version_title: TJAPlayer for 3DS v1.7.1
+updated: '2025-08-22T02:18:00Z'
+version: v1.7.2
+version_title: TJAPlayer for 3DS v1.7.2
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
