@@ -127,6 +127,15 @@ update_notes: '<h2>Scratch Parity</h2>
 
   </li>
 
+  </ul>
+
+  <h2>Wii Changes</h2>
+
+  <ul>
+
+  <li>[EDIT quick fix] fixed projects searching in SD card root instead of searching
+  in <code class="notranslate">apps/scratch-wii</code></li>
+
   </ul>'
 updated: '2025-08-22T12:48:02Z'
 version: '0.19'
