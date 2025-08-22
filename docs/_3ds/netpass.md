@@ -14,7 +14,9 @@ downloads:
     size_str: 3 MiB
     url: https://gitlab.com/3ds-netpass/netpass/-/raw/9d4514a6fb470e28af07d46dad8866a914ccc563/netpass.3dsx?inline=false
   netpass.cia:
-    url: https://gitlab.com/3ds-netpass/netpass/-/blob/9d4514a6fb470e28af07d46dad8866a914ccc563/netpass.cia
+    size: 4187072
+    size_str: 3 MiB
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/9d4514a6fb470e28af07d46dad8866a914ccc563/netpass.cia?inline=false
 gitlab: 3ds-netpass/netpass
 icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
@@ -25,7 +27,7 @@ license_name: GNU General Public License v3.0 or later
 qr:
   netpass.cia: https://db.universal-team.net/assets/images/qr/netpass-cia.png
 source: https://gitlab.com/3ds-netpass/netpass
-stars: 58
+stars: 59
 systems:
 - 3DS
 title: NetPass
