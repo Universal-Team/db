@@ -22,6 +22,48 @@ icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
+prerelease:
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.7.3
+  downloads:
+    TJAP_3DS.cia:
+      size: 10064832
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.3/TJAP_3DS.cia
+  qr:
+    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
+  update_notes: '<h2 dir="auto">チェンジログ</h2>
+
+    <ul dir="auto">
+
+    <li>譜面を途中から再生出来る様にしました。<br>
+
+    ポーズ中に(十字キー左)を押して１小節戻り、(十字キー右)を押して１小節進みます。<br>
+
+    「最初からやりなおす」を選択後に適応されます。</li>
+
+    </ul>
+
+    <h2 dir="auto">Changelog</h2>
+
+    <ul dir="auto">
+
+    <li>You can now resume a score from the middle.<br>
+
+    While paused, press  (left directional pad) to go back one measure,<br>
+
+    and  (right directional pad) to go forward one measure.<br>
+
+    This setting is applied after selecting "Retry."</li>
+
+    </ul>'
+  update_notes_md: "## チェンジログ\n - 譜面を途中から再生出来る様にしました。\nポーズ中に(十字キー左)を押して１小節戻り、(十字キー右)を押して１小節進みます。\n\
+    「最初からやりなおす」を選択後に適応されます。\n\n## Changelog\n - You can now resume a score from the\
+    \ middle.\nWhile paused, press  (left directional pad) to go back one measure,\n\
+    and  (right directional pad) to go forward one measure.\nThis setting is applied\
+    \ after selecting \"Retry.\""
+  updated: '2025-08-23T04:55:19Z'
+  version: v1.7.3
+  version_title: TJAPlayer for 3DS v1.7.3
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
