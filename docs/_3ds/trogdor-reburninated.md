@@ -10,14 +10,14 @@ description: Burninate the countryside!
 download_filter: 3ds
 download_page: https://github.com/Mode8fx/Trogdor-Reburninated/releases
 downloads:
-  Trogdor-Reburninated-v2.3-3ds-cia.zip:
-    size: 7761311
+  Trogdor-Reburninated-v2.31-3ds-cia.zip:
+    size: 7759237
     size_str: 7 MiB
-    url: https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.3/Trogdor-Reburninated-v2.3-3ds-cia.zip
-  Trogdor-Reburninated-v2.3-3ds.zip:
-    size: 7369139
+    url: https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.31/Trogdor-Reburninated-v2.31-3ds-cia.zip
+  Trogdor-Reburninated-v2.31-3ds.zip:
+    size: 7364657
     size_str: 7 MiB
-    url: https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.3/Trogdor-Reburninated-v2.3-3ds.zip
+    url: https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.31/Trogdor-Reburninated-v2.31-3ds.zip
 github: Mode8fx/Trogdor-Reburninated
 icon: https://raw.githubusercontent.com/Mode8fx/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/logo_icon_android_48.png
 image: https://raw.githubusercontent.com/Mode8fx/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/background_psp.png
@@ -33,99 +33,46 @@ stars: 21
 systems:
 - 3DS
 title: 'Trogdor: Reburninated'
-update_notes: '<p dir="auto"><a href="https://www.youtube.com/watch?v=2z7kVH9xePM"
-  rel="nofollow">♪ Let''s go back to a Flash game! Come on, come on, come on, come
-  on... ♪</a></p>
+update_notes: '<p dir="auto"><a href="https://homestarrunner.com/sbemails/197-your-edge"
+  rel="nofollow">♪ Another freakin'' update, another freakin'' update log ♪</a></p>
 
-  <p dir="auto">Mostly some much-needed fixes, but also...</p>
+  <p dir="auto">Just some things I forgot to fix in the last update.</p>
 
-  <h3 dir="auto">New Port:</h3>
+  <h3 dir="auto">Changes</h3>
 
   <ul dir="auto">
 
-  <li><strong>Added Android port!</strong> No on-screen touch controls, you''re gonna
-  need a controller/keyboard.</li>
+  <li>Music now plays at a lower volume during late level transitions.</li>
 
-  <li><em>UPDATE 7/26/25</em>: <strong>Added FunKey port!</strong> Burninate from
-  your keychain! Also compatible with other devices that run FunKey OS such as the
-  RG Nano.</li>
+  <li>[PC] You can now input cheats using original keyboard keys (e.g. the Konami
+  code now supports using the A and B keys like the Flash version).</li>
 
   </ul>
 
-  <h3 dir="auto">Changes:</h3>
+  <h3 dir="auto">Bug Fixes</h3>
 
   <ul dir="auto">
 
-  <li><strong>Enhanced controller support!</strong> Input is now read from all connected
-  controllers, and you can freely connect/disconnect controllers as desired.</li>
+  <li>Fixed Level Beaten animation being wobbly.</li>
 
-  <li><strong>Replaced some Stinkoman Flash music</strong> with CD quality versions
-  from the <em>Homestar Runner Original Soundtrack</em> plus remastered tracks by
-  <a href="https://www.youtube.com/@CoolGuyTunes" rel="nofollow">CoolGuyBug</a>.</li>
+  <li>Improved Level Beaten animation on low-res displays.</li>
 
-  <li><strong>Improved looping</strong> in some audio tracks.</li>
+  <li>[3DS, FunKey] Fixed the player spawning slightly inside a cottage on one level
+  layout.</li>
 
-  <li>[Linux] Set <strong>Native resolution</strong> as default.</li>
+  <li>[FunKey] Shifted HUD slightly to the left to prevent cutoff.</li>
 
-  <li>[Linux] Assets/save data can now be read from the <strong>same directory</strong>
-  as the executable.</li>
+  <li>[PC] Fixed a couple minor bugs involving mid-game window scaling.</li>
 
-  </ul>
-
-  <h3 dir="auto">Bug Fixes:</h3>
-
-  <ul dir="auto">
-
-  <li><strong>Fixed collision issue</strong> that caused the player to sometimes get
-  stuck directly above a cottage.</li>
-
-  <li>[3DS] <strong>Fixed screen tearing/glitchy top screen</strong>.</li>
-
-  <li>[3DS] <strong>Restored screen scaling options</strong>.</li>
-
-  <li>[3DS] <strong>Restored transparency</strong> on pause screen.</li>
-
-  <li>[Gamecube] <strong>Fixed asset path</strong>, so audio and saving now work as
-  intended.</li>
-
-  <li>[Windows+Linux] <strong>Fixed assets not being read</strong> when you run the
-  game from a directory other than the one containing the executable.</li>
-
-  <li>Other assorted minor bug fixes and polish.</li>
-
-  </ul>
-
-  <h3 dir="auto">Optimizations:</h3>
-
-  <ul dir="auto">
-
-  <li><strong>Reduced file size, RAM usage, and load times</strong> by optimizing
-  graphics and music.</li>
-
-  <li>Slightly <strong>optimized graphics rendering</strong>.</li>
-
-  <li>[3DS] <strong>Significantly reduced file size</strong> by switching to optimized
-  OGG audio.</li>
-
-  <li>[Windows] The game is now compiled with MSYS instead of Visual Studio, and DLLs
-  are now statically linked to the executable. That means <strong>the entire game
-  is now a single EXE</strong> (minus audio).</li>
-
-  </ul>
-
-  <h4 dir="auto">Known Bugs:</h4>
-
-  <ul dir="auto">
-
-  <li>[Gamecube] Audio and saving only work properly on an SD Gecko or SD2SP2; optical
-  drive emulators such as FlippyDrive are not supported.</li>
+  <li>[Wii U (Aroma)] Moved WHUB file to the correct location so the RPX won''t appear
+  alongside it in the Home Menu.</li>
 
   </ul>
 
   <p dir="auto">Enjoy!</p>'
-updated: '2025-06-23T04:15:06Z'
-version: v2.3
-version_title: v2.3
+updated: '2025-08-23T18:03:24Z'
+version: v2.31
+version_title: v2.31
 ---
 An enhanced recreation of the Homestar Runner Flash game, "Trogdor", expanded with new features.
 - New Options menu to customize your game
