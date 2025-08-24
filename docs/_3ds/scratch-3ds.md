@@ -4,8 +4,8 @@ avatar: https://avatars.githubusercontent.com/u/149607394?v=4
 categories:
 - emulator
 - utility
-color: '#b2a2a3'
-color_bg: '#807475'
+color: '#c291a9'
+color_bg: '#805f6f'
 created: '2025-05-01T16:11:42Z'
 description: Play Scratch games on your 3DS!
 download_page: https://github.com/NateXS/Scratch-3DS/releases
