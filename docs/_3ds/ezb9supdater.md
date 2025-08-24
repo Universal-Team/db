@@ -10,8 +10,8 @@ description: Easy Boot9Strap Updater for the 3DS
 download_page: https://github.com/PabloMK7/EzB9SUpdater/releases
 downloads:
   EzB9SUpdater.cia:
-    size: 869312
-    size_str: 848 KiB
+    size: 926656
+    size_str: 904 KiB
     url: https://github.com/PabloMK7/EzB9SUpdater/releases/download/v1.0.1/EzB9SUpdater.cia
 github: PabloMK7/EzB9SUpdater
 icon: https://raw.githubusercontent.com/PabloMK7/EzB9SUpdater/main/resources/icon.png
