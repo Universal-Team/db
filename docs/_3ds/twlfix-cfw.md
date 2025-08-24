@@ -22,7 +22,7 @@ layout: app
 license: mit
 license_name: MIT License
 source: https://github.com/MechanicalDragon0687/TWLFix-CFW
-stars: 65
+stars: 66
 systems:
 - 3DS
 title: TWLFix-CFW
