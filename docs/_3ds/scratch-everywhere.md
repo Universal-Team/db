@@ -11,9 +11,9 @@ description: Play Scratch games on your 3DS!
 download_page: https://github.com/NateXS/Scratch-Everywhere/releases
 downloads:
   Scratch.3dsx:
-    size: 3278464
+    size: 3375920
     size_str: 3 MiB
-    url: https://github.com/NateXS/Scratch-Everywhere/releases/download/0.19/Scratch.3dsx
+    url: https://github.com/NateXS/Scratch-Everywhere/releases/download/0.20/Scratch.3dsx
 github: NateXS/Scratch-Everywhere
 icon: https://raw.githubusercontent.com/NateXS/Scratch-Everywhere/refs/heads/main/gfx/icon.png
 image: https://raw.githubusercontent.com/NateXS/Scratch-Everywhere/refs/heads/main/gfx/logo.png
@@ -26,30 +26,42 @@ stars: 278
 systems:
 - 3DS
 title: Scratch Everywhere!
-update_notes: '<h2 dir="auto">Scratch Parity</h2>
+update_notes: '<h2 dir="auto">New Features</h2>
 
   <ul dir="auto">
 
-  <li>Added support for hidden <code class="notranslate">While</code> block</li>
+  <li>PS Vita port!</li>
 
-  <li>Support <code class="notranslate">last</code>, <code class="notranslate">all</code>,
-  and <code class="notranslate">random</code> as list indexes</li>
+  <li>
 
-  <li>Support <code class="notranslate">Infinity</code> and <code class="notranslate">-Infinity</code></li>
+  <ul dir="auto">
 
-  <li>The default distance in the <code class="notranslate">distance to</code> block
-  is now 10000</li>
+  <li>Via pull request (<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="3340908677" data-permission-text="Title is private" data-url="https://github.com/NateXS/Scratch-Everywhere/issues/274"
+  data-hovercard-type="pull_request" data-hovercard-url="/NateXS/Scratch-Everywhere/pull/274/hovercard"
+  href="https://github.com/NateXS/Scratch-Everywhere/pull/274">#274</a>)</li>
 
-  <li>The <code class="notranslate">mod</code> block now works like Scratch does</li>
+  </ul>
 
-  <li>Support scientific notation</li>
+  </li>
 
-  <li>Support octal, hex, and binary numbers</li>
+  </ul>
 
-  <li>Support string comparisons</li>
+  <h2 dir="auto">Scratch Parity</h2>
 
-  <li><code class="notranslate">List</code> block items no longer get separated by
-  a space if all items are one character long</li>
+  <ul dir="auto">
+
+  <li>Added <code class="notranslate">When this sprite clicked</code> block</li>
+
+  <li>Added <code class="notranslate">When backdrop switched to</code> block</li>
+
+  <li>Added <code class="notranslate">Show list</code> and <code class="notranslate">Hide
+  List</code> blocks (Via <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="3351320556" data-permission-text="Title is private" data-url="https://github.com/NateXS/Scratch-Everywhere/issues/295"
+  data-hovercard-type="pull_request" data-hovercard-url="/NateXS/Scratch-Everywhere/pull/295/hovercard"
+  href="https://github.com/NateXS/Scratch-Everywhere/pull/295">#295</a>)</li>
+
+  <li>Added support for dragging sprites</li>
 
   </ul>
 
@@ -57,68 +69,15 @@ update_notes: '<h2 dir="auto">Scratch Parity</h2>
 
   <ul dir="auto">
 
-  <li>Fixed crash when custom block arguments are used outside of the custom block
-  definition</li>
+  <li>Added support for more clones when <code class="notranslate">Infinite Clones</code>
+  is enabled in TurboWarp or other Scratch Mods</li>
 
-  <li>Fixed layering working incorrectly</li>
+  <li>Mouse position is now more consistent</li>
 
-  </ul>
+  <li>Fixed collision on vector images being half the size it should be</li>
 
-  <h2 dir="auto">3DS Changes</h2>
-
-  <ul dir="auto">
-
-  <li>Stereoscopic 3D support!</li>
-
-  <li>
-
-  <ul dir="auto">
-
-  <li>Uses Scratch''s layering system to determine 3D depth</li>
-
-  </ul>
-
-  </li>
-
-  <li>
-
-  <ul dir="auto">
-
-  <li>NOTE: using 3D may result in worse performance. I''m working to fix this.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Fixed unzipped projects crashing after some time</li>
-
-  </ul>
-
-  <h2 dir="auto">Wii U / Switch Changes</h2>
-
-  <ul dir="auto">
-
-  <li>Added stick click support!</li>
-
-  <li>
-
-  <ul dir="auto">
-
-  <li>Left stick click is <code class="notranslate">c</code></li>
-
-  </ul>
-
-  </li>
-
-  <li>
-
-  <ul dir="auto">
-
-  <li>Right stick click is <code class="notranslate">v</code></li>
-
-  </ul>
-
-  </li>
+  <li>Fixed <code class="notranslate">Move __ steps</code> block not fencing the sprite
+  correctly</li>
 
   </ul>
 
@@ -126,12 +85,19 @@ update_notes: '<h2 dir="auto">Scratch Parity</h2>
 
   <ul dir="auto">
 
-  <li>[EDIT quick fix] fixed projects searching in SD card root instead of searching
-  in <code class="notranslate">apps/scratch-wii</code></li>
+  <li>Fixed projects not searching in the right location in the SD card</li>
+
+  </ul>
+
+  <h2 dir="auto">3DS Changes</h2>
+
+  <ul dir="auto">
+
+  <li>Changed icon</li>
 
   </ul>'
-updated: '2025-08-22T12:48:02Z'
-version: '0.19'
-version_title: Beta Build 19
+updated: '2025-08-25T14:16:45Z'
+version: '0.20'
+version_title: Beta Build 20
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!
