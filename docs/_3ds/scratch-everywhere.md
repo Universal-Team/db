@@ -22,7 +22,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/NateXS/Scratch-Everywhere
-stars: 274
+stars: 275
 systems:
 - 3DS
 title: Scratch Everywhere!
