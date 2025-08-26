@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9460360
+    size: 9460872
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.3/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.4/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 10064832
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.3/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.4/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -40,11 +40,9 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>譜面を途中から再生出来る様にしました。<br>
+  <li>譜面の開始位置をずらす際に風船音符があるとクラッシュする不具合の修正</li>
 
-  ポーズ中に(十字キー左)を押して１小節戻り、(十字キー右)を押して１小節進みます。<br>
-
-  「最初からやりなおす」を選択後に適応されます。</li>
+  <li>譜面の開始位置をずらす際にBPM変化があると曲と譜面のタイミングが一致しない不具合の改善</li>
 
   </ul>
 
@@ -52,18 +50,16 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>You can now resume a score from the middle.<br>
+  <li>Fixed a bug that caused the game to crash if there were balloon notes when shifting
+  the start position of a score.</li>
 
-  While paused, press  (left directional pad) to go back one measure,<br>
-
-  and  (right directional pad) to go forward one measure.<br>
-
-  This setting is applied after selecting "Retry."</li>
+  <li>Fixed a bug that caused the timing of the song and score to not match if the
+  BPM changed when shifting the start position of a score.</li>
 
   </ul>'
-updated: '2025-08-23T04:55:19Z'
-version: v1.7.3
-version_title: TJAPlayer for 3DS v1.7.3
+updated: '2025-08-26T01:27:00Z'
+version: v1.7.4
+version_title: TJAPlayer for 3DS v1.7.4
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
