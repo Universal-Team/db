@@ -24,7 +24,7 @@ script_message: 'Note: You will need "FILE0002.GLB", "FILE0003.GLB",
 
   the sdmc:/3ds/Raptor folder to play the game.'
 source: https://github.com/RetroGamer02/raptor-consoles
-stars: 21
+stars: 22
 systems:
 - DS
 - 3DS
