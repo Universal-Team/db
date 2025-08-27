@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9460872
+    size: 9460864
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.4/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.4A/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 10064832
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.4/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.4A/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -40,9 +40,7 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>譜面の開始位置をずらす際に風船音符があるとクラッシュする不具合の修正</li>
-
-  <li>譜面の開始位置をずらす際にBPM変化があると曲と譜面のタイミングが一致しない不具合の改善</li>
+  <li>楽曲検索に関する不具合の修正</li>
 
   </ul>
 
@@ -50,16 +48,12 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Fixed a bug that caused the game to crash if there were balloon notes when shifting
-  the start position of a score.</li>
-
-  <li>Fixed a bug that caused the timing of the song and score to not match if the
-  BPM changed when shifting the start position of a score.</li>
+  <li>Fixed a bug related to song search.</li>
 
   </ul>'
-updated: '2025-08-26T01:27:00Z'
-version: v1.7.4
-version_title: TJAPlayer for 3DS v1.7.4
+updated: '2025-08-27T01:36:29Z'
+version: v1.7.4A
+version_title: TJAPlayer for 3DS v1.7.4(A)
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
