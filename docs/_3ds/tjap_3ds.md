@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9460864
+    size: 9460844
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.4A/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.4B/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 10064832
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.4A/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.4B/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -40,7 +40,7 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>楽曲検索に関する不具合の修正</li>
+  <li>開始位置をずらす際に譜面の最大小節数を表示する様に仕様変更</li>
 
   </ul>
 
@@ -48,12 +48,13 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Fixed a bug related to song search.</li>
+  <li>The specifications have been changed so that the maximum number of bars in the
+  score is displayed when shifting the starting position.</li>
 
   </ul>'
-updated: '2025-08-27T01:36:29Z'
-version: v1.7.4A
-version_title: TJAPlayer for 3DS v1.7.4(A)
+updated: '2025-08-28T01:18:53Z'
+version: v1.7.4B
+version_title: TJAPlayer for 3DS v1.7.4(B)
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
