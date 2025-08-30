@@ -16,7 +16,7 @@ downloads:
     size_str: 1 MiB
     url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.6/ColecoDS.nds
   README.md:
-    size: 55796
+    size: 55719
     size_str: 54 KiB
     url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.6/README.md
   cbios.txt:
@@ -48,7 +48,7 @@ update_notes: '<p dir="auto">V10.6: 30-Aug-2025 by wavemotion-dave</p>
   <li>Reduced the max ADAM RAM extended memory to 1MB for compatibility reasons.</li>
 
   </ul>'
-updated: '2025-08-30T11:26:43Z'
+updated: '2025-08-30T18:56:56Z'
 version: '10.6'
 version_title: Version 10.6
 ---
