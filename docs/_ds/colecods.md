@@ -12,17 +12,17 @@ description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. P
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:
-    size: 1483264
+    size: 1463808
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.5/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.6/ColecoDS.nds
   README.md:
-    size: 54987
-    size_str: 53 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.5/README.md
+    size: 55796
+    size_str: 54 KiB
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.6/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.5/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.6/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -35,26 +35,20 @@ stars: 49
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V10.5: 14-Mar-2025 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V10.6: 30-Aug-2025 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Update to the Z80 core to improve emulation accuracy. This emulator now passes
-  the ZEXALL test suite.</li>
+  <li>Minor cleanup and refactor - added 6502 debugger.</li>
 
-  <li>Added proper M1 wait states for the Colecovision, ADAM and MSX emulation for
-  improved CPU handling.</li>
+  <li>Tweaks to MSX beeper.</li>
 
-  <li>A few optimized Z80 lookup-tables brings in some additional speed for both the
-  DSi and DS-Lite/Phat.</li>
+  <li>Updated README.md after Z80 and 6502 compatibility tests run.</li>
 
-  <li>Improved file loading so that it''s more robust - ensuring a higher level of
-  consistency in loading large files into memory.</li>
-
-  <li>Other minor cleanups as time permitted.</li>
+  <li>Reduced the max ADAM RAM extended memory to 1MB for compatibility reasons.</li>
 
   </ul>'
-updated: '2025-03-15T21:20:55Z'
-version: '10.5'
-version_title: Version 10.5
+updated: '2025-08-30T11:26:43Z'
+version: '10.6'
+version_title: Version 10.6
 ---

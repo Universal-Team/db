@@ -12,35 +12,35 @@ downloads:
   AddOn-BetterDSiMenuMusic.7z:
     size: 22208058
     size_str: 21 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/AddOn-BetterDSiMenuMusic.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.0/AddOn-BetterDSiMenuMusic.7z
   AddOn-ExtraUIMusic.7z:
     size: 8420942
     size_str: 8 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/AddOn-ExtraUIMusic.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.0/AddOn-ExtraUIMusic.7z
   AddOn-Multimedia.7z:
-    size: 690031
-    size_str: 673 KiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/AddOn-Multimedia.7z
+    size: 809466
+    size_str: 790 KiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.0/AddOn-Multimedia.7z
   AddOn-VirtualConsole.7z:
-    size: 3744758
+    size: 3744676
     size_str: 3 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/AddOn-VirtualConsole.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.0/AddOn-VirtualConsole.7z
   TWiLightMenu-3DS.7z:
-    size: 28971689
-    size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/TWiLightMenu-3DS.7z
+    size: 29614961
+    size_str: 28 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 29051396
-    size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/TWiLightMenu-DSi.7z
+    size: 29664483
+    size_str: 28 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 40049399
+    size: 40568622
     size_str: 38 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 71842534
-    size_str: 68 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.16.0/TWiLightMenu.7z
+    size: 72447117
+    size_str: 69 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -54,8 +54,8 @@ stars: 3626
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto"><strong>UPDATE 7/11/2025:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.7.2">nds-bootstrap
-  v2.7.2</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.8.0">nds-bootstrap
+  v2.8.0</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -75,56 +75,69 @@ update_notes: '<p dir="auto"><strong>UPDATE 7/11/2025:</strong> Includes <a href
 
   <ul dir="auto">
 
-  <li>Added a better version of the DSi Menu music, with better quality and lasting
-  up to 8 minutes and 39 seconds to ensure no parts have been left out! In order to
-  keep the filesize of TWLMenu++ down, the better music has been made available as
-  an add-on.
+  <li><strong>DSi:</strong> Added support for booting via ntrboot (<code class="notranslate">ntrboot.nds</code>
+  is now included)!</li>
+
+  <li><a href="https://github.com/RocketRobz/RocketVideoPlayer">Rocket Video Player</a>
+  is now bundled within the Multimedia add-on!</li>
+
+  <li>R4xMP flashcards use the Ace3DS+ autoboot files and the R4iLS flashcard loader
+  files.</li>
+
+  <li>To add clarification, the <code class="notranslate">Screen Filter</code> setting
+  has been renamed to <code class="notranslate">Screen Color Filter</code>.</li>
+
+  <li>DS(i) splash screen easter eggs can now be disabled in order to keep a stock
+  booting experience regardless of the date.</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/korbosoft/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/korbosoft">@korbosoft</a>:
+  For the Virtual Boy easter egg version of the TWLMenu++ splash screen, the jingle
+  now plays as if it were coming from a Virtual Boy console!</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/R-YaTian/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/R-YaTian">@R-YaTian</a>:
+  Widescreen patches are now applied to some modified ROMs.</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/PW5190/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/PW5190">@PW5190</a>:
+  Added ESRB rating for these games:
 
   <ul dir="auto">
 
-  <li>Required space on the SD card: <code class="notranslate">32MB</code></li>
+  <li>Chibi-Robo! Park Patrol</li>
+
+  <li>Disgaea DS</li>
+
+  <li>The Simpsons Game</li>
+
+  <li>WarioWare: D.I.Y. (Online notice included)</li>
 
   </ul>
 
   </li>
 
-  <li>To improve visual accuracy of the DSi Menu UI look, the original user color
-  palettes with white edges has been added.
+  <li>Me &amp; <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
+  Updated the description for the Save Relocation setting.</li>
 
-  <ul dir="auto">
-
-  <li>For this change to not affect past custom themes, support for a new theme <code
-  class="notranslate">.ini</code> setting called <code class="notranslate">UsernameEdgeAlpha</code>
-  has been added, and is disabled by default.</li>
-
-  </ul>
-
-  </li>
-
-  <li>If the emulators and multimedia applications are left over from your previous
-  TWLMenu++ installation(s) from before the add-on feature was implemented, the <code
-  class="notranslate">Virtual Console</code> and <code class="notranslate">Multimedia</code>
-  add-on flags will be created in order to continue using those applications without
-  the need to manually install the add-ons!
-
-  <ul dir="auto">
-
-  <li>For speed reasons, only nesDS and the TWLMenu++ image viewer are detected.</li>
-
-  </ul>
-
-  </li>
-
-  <li><strong>DSi-based UIs:</strong> Before loading the current directory listing,
-  the <code class="notranslate">Now Loading...</code> screen is now displayed when
-  loading the UI music &amp; sound data.</li>
+  <li>Which DSi/3DS UI music is now written in the log (if enabled).</li>
 
   <li>Various: Updated translations.</li>
 
+  </ul>
+
+  <h3 dir="auto">Bug fix</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed a long-standing bug which caused save data to be created with the wrong
+  size for some games (ex. European version of <em>WarioWare: D.I.Y.</em>).</li>
+
   </ul>'
-updated: '2025-07-04T06:26:25Z'
-version: v27.16.0
-version_title: 'v27.16.0: 4th of July Release'
+updated: '2025-08-30T07:06:22Z'
+version: v27.17.0
+version_title: v27.17.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
