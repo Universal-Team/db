@@ -12,35 +12,35 @@ downloads:
   AddOn-BetterDSiMenuMusic.7z:
     size: 22208058
     size_str: 21 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.1/AddOn-BetterDSiMenuMusic.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.2/AddOn-BetterDSiMenuMusic.7z
   AddOn-ExtraUIMusic.7z:
     size: 8420943
     size_str: 8 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.1/AddOn-ExtraUIMusic.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.2/AddOn-ExtraUIMusic.7z
   AddOn-Multimedia.7z:
-    size: 809466
+    size: 809455
     size_str: 790 KiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.1/AddOn-Multimedia.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.2/AddOn-Multimedia.7z
   AddOn-VirtualConsole.7z:
-    size: 3739186
+    size: 3739165
     size_str: 3 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.1/AddOn-VirtualConsole.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.2/AddOn-VirtualConsole.7z
   TWiLightMenu-3DS.7z:
-    size: 29610653
+    size: 29611843
     size_str: 28 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.1/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.2/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 29665826
+    size: 29666578
     size_str: 28 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.1/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.2/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 40568167
+    size: 40567990
     size_str: 38 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.1/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.2/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 72446027
+    size: 72434940
     size_str: 69 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.1/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.2/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -54,8 +54,8 @@ stars: 3626
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.8.1">nds-bootstrap
-  v2.8.1</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.8.2">nds-bootstrap
+  v2.8.2</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -71,18 +71,24 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
+  <h3 dir="auto">What''s new?</h3>
+
+  <ul dir="auto">
+
+  <li>If logging is enabled, AP-fix searches are now logged.</li>
+
+  </ul>
+
   <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>Fixed an overlooked bug which caused TWLMenu++ to not boot with a DSi exploit
-  such as Memory Pit, along with Slot-1 microSD access (when running from DSi/3DS
-  SD Card) not working.</li>
+  <li>Improved AP-fix detection to match v2.8.2 of nds-bootstrap.</li>
 
   </ul>'
-updated: '2025-08-30T17:39:42Z'
-version: v27.17.1
-version_title: v27.17.1 (hotfix)
+updated: '2025-08-31T04:36:32Z'
+version: v27.17.2
+version_title: 'v27.17.2 (hotfix #2)'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---

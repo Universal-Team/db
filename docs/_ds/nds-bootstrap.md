@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 1068834
+    size: 1068481
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.8.1/nds-bootstrap.7z
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.8.2/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1545752
+    size: 1545722
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.8.1/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.8.2/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -28,8 +28,8 @@ stars: 1290
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.17.1"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v27.17.1</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.17.2"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v27.17.2</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -47,13 +47,15 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Fixed the AP-fix for <em>Tomodachi Collection</em> to work with the Italian
-  Translation (Beta 2, as of this release).</li>
+  <li>Fixed a long-standing and formerly hidden bug (discovered from improving the
+  AP-patching system) where some AP-fixes would fail to be detected. This fixes <em>Pokemon
+  HeartGold</em> crashing when either loading save data or during gameplay (unknown
+  if the fix works with ROM hacks).</li>
 
   </ul>'
-updated: '2025-08-30T17:34:48Z'
-version: v2.8.1
-version_title: v2.8.1 (hotfix)
+updated: '2025-08-31T04:29:52Z'
+version: v2.8.2
+version_title: 'v2.8.2 (hotfix #2)'
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
