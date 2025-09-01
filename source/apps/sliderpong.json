@@ -1,0 +1,11 @@
+{
+	"github": "CacahueteSansSel/SliderPong",
+    "title": "SliderPong",
+    "author": "CacahueteDev",
+	"systems": ["3DS"],
+	"categories": ["game"],
+	"unique_ids": [38948],
+	"image": "https://raw.githubusercontent.com/CacahueteSansSel/SliderPong/refs/heads/main/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/CacahueteSansSel/SliderPong/refs/heads/main/resources/icon.png",
+	"long_description": "A Pong game with the volume and 3D sliders as controls, for the New 3DS !"
+}
