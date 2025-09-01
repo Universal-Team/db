@@ -10,65 +10,47 @@ created: '2025-01-06T19:04:39Z'
 description: Beat-making audio sequencer and DJ-tool for the Nintendo 3DS
 download_page: https://github.com/gearmo3ds/noisecommander3dsdemo/releases
 downloads:
-  noisecmdr-v0_1_1-demo.cia:
+  noisecmdr-v0_1_2-demo.cia:
     size: 3232704
     size_str: 3 MiB
-    url: https://github.com/gearmo3ds/noisecommander3dsdemo/releases/download/0.1.1/noisecmdr-v0_1_1-demo.cia
+    url: https://github.com/gearmo3ds/noisecommander3dsdemo/releases/download/0.12/noisecmdr-v0_1_2-demo.cia
 github: gearmo3ds/noisecommander3dsdemo
 icon: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/icon.png
 image: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/banner.png
 image_length: 40664
 layout: app
 qr:
-  noisecmdr-v0_1_1-demo.cia: https://db.universal-team.net/assets/images/qr/noisecmdr-v0_1_1-demo-cia.png
+  noisecmdr-v0_1_2-demo.cia: https://db.universal-team.net/assets/images/qr/noisecmdr-v0_1_2-demo-cia.png
 source: https://github.com/gearmo3ds/noisecommander3dsdemo
 stars: 1
 systems:
 - 3DS
 title: Noise Commander 3DS (Demo)
-update_notes: '<h2 dir="auto">0.1.1</h2>
+update_notes: '<h3 dir="auto">Fixed</h3>
+
+  <ul dir="auto">
+
+  <li>Note-events on buses may cancel other note-lanes. Such insertion is no longer
+  possible.</li>
+
+  </ul>
 
   <h3 dir="auto">Added</h3>
 
   <ul dir="auto">
 
-  <li>Option "Zip-Upload creates named folder" in general settings</li>
+  <li>Pressing SELECT in drum pad screen toggles "Loop Row" setting</li>
 
-  <li>"SampleReduce" column in tracker master section for automation (set 0 to disable)</li>
+  <li>"Tracker Row Increment" option in general settings: Advances the cursor by x
+  rows after note insertion</li>
 
-  <li>"Reduce" toggle button in FX view (bottom right) acts as disable override</li>
-
-  </ul>
-
-  <h3 dir="auto">Changed</h3>
-
-  <ul dir="auto">
-
-  <li>Retrig-column no longer requires a note, values of 0 and 1 retrigger the current
-  sample</li>
-
-  <li>Renamed "Instrs" to "Palette" in drumpad pie-menu</li>
-
-  </ul>
-
-  <h3 dir="auto">Fixed</h3>
-
-  <ul dir="auto">
-
-  <li>Sample loop setting has no effect</li>
-
-  </ul>
-
-  <h3 dir="auto">Removed</h3>
-
-  <ul dir="auto">
-
-  <li>Hid pitch envelope in page3 of instrument settings temporarily until improved</li>
+  <li>"Tracker Grid Snap" option in general settings: The cursor stays on grid when
+  moving up or down</li>
 
   </ul>'
-updated: '2025-08-24T18:44:57Z'
-version: 0.1.1
-version_title: Fix sample looping, retrig, added sample-reduce column
+updated: '2025-09-01T04:26:24Z'
+version: '0.12'
+version_title: Note cancel hotfix and grid-navigation features
 website: https://www.patreon.com/NoiseCommander3DS
 ---
 Beat-making audio sequencer and DJ-tool
