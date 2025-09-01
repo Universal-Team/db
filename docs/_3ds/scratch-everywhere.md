@@ -17,10 +17,9 @@ downloads:
 github: NateXS/Scratch-Everywhere
 icon: https://raw.githubusercontent.com/NateXS/Scratch-Everywhere/refs/heads/main/gfx/icon.png
 image: https://raw.githubusercontent.com/NateXS/Scratch-Everywhere/refs/heads/main/gfx/logo.png
-image_length: 39081
 layout: app
-license: gpl-3.0
-license_name: GNU General Public License v3.0
+license: lgpl-3.0
+license_name: GNU Lesser General Public License v3.0
 source: https://github.com/NateXS/Scratch-Everywhere
 stars: 283
 systems:
