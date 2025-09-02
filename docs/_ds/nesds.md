@@ -24,7 +24,7 @@ qr:
   nesDS.cia: https://db.universal-team.net/assets/images/qr/nesds-cia.png
   nesDS.nds: https://db.universal-team.net/assets/images/qr/nesds-nds.png
 source: https://github.com/DS-Homebrew/NesDS
-stars: 43
+stars: 44
 systems:
 - DS
 title: nesDS
