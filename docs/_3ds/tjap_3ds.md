@@ -26,11 +26,11 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.8.0
   downloads:
     TJAP_3DS.3dsx:
-      size: 9461964
+      size: 9461700
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.0/TJAP_3DS.3dsx
     TJAP_3DS.cia:
-      size: 10068928
+      size: 10064832
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.0/TJAP_3DS.cia
   qr:
@@ -42,6 +42,8 @@ prerelease:
     <li>全譜面のロード中にSELECTボタンを押すと選曲画面に移る様にしました。</li>
 
     <li>開始位置をずらす際に最大小節数を超えた値に出来ないようにしました。</li>
+
+    <li>mp3での楽曲再生の安定性向上</li>
 
     </ul>
 
@@ -55,11 +57,14 @@ prerelease:
     <li>When shifting the start position, it is now no longer possible to exceed the
     maximum number of measures.</li>
 
+    <li>Improved stability of mp3 music playback</li>
+
     </ul>'
   update_notes_md: "## チェンジログ\n - 全譜面のロード中にSELECTボタンを押すと選曲画面に移る様にしました。\n - 開始位置をずらす際に最大小節数を超えた値に出来ないようにしました。\n\
-    \n## Changelog\n - Pressing the SELECT button while all scores are loading will\
-    \ now take you to the song selection screen.\n- When shifting the start position,\
-    \ it is now no longer possible to exceed the maximum number of measures."
+    \ - mp3での楽曲再生の安定性向上\n\n## Changelog\n - Pressing the SELECT button while all scores\
+    \ are loading will now take you to the song selection screen.\n- When shifting\
+    \ the start position, it is now no longer possible to exceed the maximum number\
+    \ of measures.\n- Improved stability of mp3 music playback"
   updated: '2025-08-30T08:25:51Z'
   version: v1.8.0
   version_title: TJAPlayer for 3DS v1.8.0
