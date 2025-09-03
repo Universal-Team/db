@@ -1,9 +1,9 @@
 {
-	"github": "NateXS/Scratch-Everywhere",
+	"github": "ScratchEverywhere/Scratch-Everywhere",
 	"systems": ["3DS"],
 	"categories": ["emulator","utility"],
-	"image": "https://raw.githubusercontent.com/NateXS/Scratch-Everywhere/refs/heads/main/gfx/logo.png",
-	"icon": "https://raw.githubusercontent.com/NateXS/Scratch-Everywhere/refs/heads/main/gfx/icon.png",
+	"image": "https://raw.githubusercontent.com/ScratchEverywhere/Scratch-Everywhere/refs/heads/main/gfx/logo.png",
+	"icon": "https://raw.githubusercontent.com/ScratchEverywhere/Scratch-Everywhere/refs/heads/main/gfx/icon.png",
 	"description": "Play Scratch games on your 3DS!",
 	"long_description": "A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!",
 	"author": "NateXS",
