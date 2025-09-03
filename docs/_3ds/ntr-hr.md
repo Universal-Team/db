@@ -35,8 +35,11 @@ unique_ids:
 - '0xEB000'
 update_notes: '<p dir="auto">Change:</p>
 
-  <p dir="auto">Lifted restriction for Old 3DS. You can now try to stream on Old 3DS
-  at very low frame rate.</p>
+  <p dir="auto">Lifted restriction for Old 3DS. You can now try to stream from Old
+  3DS at very low frame rate.<br>
+
+  (Apparently extended memory games won''t work due to memory requirement. Not sure
+  why I included mode3 version for this..)</p>
 
   <p dir="auto">Slight improvement to delta encoding.</p>
 
