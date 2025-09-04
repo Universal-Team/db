@@ -9,6 +9,10 @@ created: '2025-07-30T12:35:13Z'
 description: a silly music player!
 download_page: https://github.com/sheepy0125/pomegranate/releases
 downloads:
+  pomegranate.3dsx:
+    size: 5421060
+    size_str: 5 MiB
+    url: https://github.com/sheepy0125/pomegranate/releases/download/v1.1.4/pomegranate.3dsx
   pomegranate.cia:
     size: 3998656
     size_str: 3 MiB
