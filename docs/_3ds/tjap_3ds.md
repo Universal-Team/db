@@ -10,70 +10,18 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9460844
+    size: 9461728
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.4B/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.0/TJAP_3DS.3dsx
   TJAP_3DS.cia:
-    size: 10064832
+    size: 9753536
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.7.4B/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.0/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
-prerelease:
-  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.8.0
-  downloads:
-    TJAP_3DS.3dsx:
-      size: 9461688
-      size_str: 9 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.0/TJAP_3DS.3dsx
-    TJAP_3DS.cia:
-      size: 10064832
-      size_str: 9 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.0/TJAP_3DS.cia
-  qr:
-    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
-  update_notes: '<h2 dir="auto">チェンジログ</h2>
-
-    <ul dir="auto">
-
-    <li>全譜面のロード中にSELECTボタンを押すと選曲画面に移る様にしました。</li>
-
-    <li>開始位置をずらす際に最大小節数を超えた値に出来ないようにしました。</li>
-
-    <li>mp3での楽曲再生の安定性向上</li>
-
-    <li><code class="notranslate">SCOREMODE:3</code>(ニジイロ配点)の一部計算を修正</li>
-
-    </ul>
-
-    <h2 dir="auto">Changelog</h2>
-
-    <ul dir="auto">
-
-    <li>Pressing the SELECT button while all scores are loading will now take you
-    to the song selection screen.</li>
-
-    <li>When shifting the start position, it is now no longer possible to exceed the
-    maximum number of measures.</li>
-
-    <li>Improved stability of mp3 music playback.</li>
-
-    <li>Fixed some calculations for <code class="notranslate">SCOREMODE:3</code> (Nijiiro
-    scoring)</li>
-
-    </ul>'
-  update_notes_md: "## チェンジログ\n - 全譜面のロード中にSELECTボタンを押すと選曲画面に移る様にしました。\n - 開始位置をずらす際に最大小節数を超えた値に出来ないようにしました。\n\
-    \ - mp3での楽曲再生の安定性向上\n - `SCOREMODE:3`(ニジイロ配点)の一部計算を修正\n\n## Changelog\n - Pressing\
-    \ the SELECT button while all scores are loading will now take you to the song\
-    \ selection screen.\n- When shifting the start position, it is now no longer possible\
-    \ to exceed the maximum number of measures.\n- Improved stability of mp3 music\
-    \ playback.\n- Fixed some calculations for `SCOREMODE:3` (Nijiiro scoring)"
-  updated: '2025-08-30T08:25:51Z'
-  version: v1.8.0
-  version_title: TJAPlayer for 3DS v1.8.0
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
@@ -92,7 +40,13 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>開始位置をずらす際に譜面の最大小節数を表示する様に仕様変更</li>
+  <li>全譜面のロード中にSELECTボタンを押すと選曲画面に移る様にしました。</li>
+
+  <li>開始位置をずらす際に最大小節数を超えた値に出来ないようにしました。</li>
+
+  <li>mp3での楽曲再生の安定性向上</li>
+
+  <li><code class="notranslate">SCOREMODE:3</code>(ニジイロ配点)の一部計算を修正</li>
 
   </ul>
 
@@ -100,13 +54,21 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>The specifications have been changed so that the maximum number of bars in the
-  score is displayed when shifting the starting position.</li>
+  <li>Pressing the SELECT button while all scores are loading will now take you to
+  the song selection screen.</li>
+
+  <li>When shifting the start position, it is now no longer possible to exceed the
+  maximum number of measures.</li>
+
+  <li>Improved stability of mp3 music playback.</li>
+
+  <li>Fixed some calculations for <code class="notranslate">SCOREMODE:3</code> (Nijiiro
+  scoring)</li>
 
   </ul>'
-updated: '2025-08-28T01:18:53Z'
-version: v1.7.4B
-version_title: TJAPlayer for 3DS v1.7.4(B)
+updated: '2025-08-30T08:25:51Z'
+version: v1.8.0
+version_title: TJAPlayer for 3DS v1.8.0
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。

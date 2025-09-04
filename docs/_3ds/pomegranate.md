@@ -40,7 +40,7 @@ unique_ids:
 - '0xBEAAA'
 update_notes: '<ul dir="auto">
 
-  <li>Bumper controls for next song (triple tap L) and previous song (triple tap R)</li>
+  <li>Bumper controls for next song (triple tap R) and previous song (triple tap L)</li>
 
   <li>Fix regression of crashing on certain songs with large sample buffers</li>
 
