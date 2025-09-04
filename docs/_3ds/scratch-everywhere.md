@@ -27,7 +27,7 @@ license_name: GNU Lesser General Public License v3.0
 qr:
   scratch-3ds.cia: https://db.universal-team.net/assets/images/qr/scratch-3ds-cia.png
 source: https://github.com/ScratchEverywhere/Scratch-Everywhere
-stars: 284
+stars: 285
 systems:
 - 3DS
 title: Scratch Everywhere!
