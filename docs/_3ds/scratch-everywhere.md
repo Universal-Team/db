@@ -13,11 +13,11 @@ downloads:
   scratch-3ds.3dsx:
     size: 7062804
     size_str: 6 MiB
-    url: https://github.com/ScratchEverywhere/Scratch-Everywhere/releases/download/0.21/scratch-3ds.3dsx
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.21/scratch-3ds.3dsx
   scratch-3ds.cia:
     size: 6120384
     size_str: 5 MiB
-    url: https://github.com/ScratchEverywhere/Scratch-Everywhere/releases/download/0.21/scratch-3ds.cia
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.21/scratch-3ds.cia
 github: NateXS/Scratch-Everywhere
 icon: https://raw.githubusercontent.com/NateXS/Scratch-Everywhere/refs/heads/main/gfx/icon.png
 image: https://raw.githubusercontent.com/NateXS/Scratch-Everywhere/refs/heads/main/gfx/logo.png
@@ -26,7 +26,7 @@ license: lgpl-3.0
 license_name: GNU Lesser General Public License v3.0
 qr:
   scratch-3ds.cia: https://db.universal-team.net/assets/images/qr/scratch-3ds-cia.png
-source: https://github.com/ScratchEverywhere/Scratch-Everywhere
+source: https://github.com/ScratchEverywhere/ScratchEverywhere
 stars: 286
 systems:
 - 3DS
