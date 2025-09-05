@@ -16,7 +16,7 @@ downloads:
     size_str: 1 MiB
     url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.8/ColecoDS.nds
   README.md:
-    size: 56333
+    size: 56395
     size_str: 55 KiB
     url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.8/README.md
   cbios.txt:
@@ -43,7 +43,7 @@ update_notes: '<p dir="auto">V10.8: 04-Sep-2025 by wavemotion-dave</p>
   so they load properly.</li>
 
   </ul>'
-updated: '2025-09-04T11:37:00Z'
+updated: '2025-09-05T10:55:31Z'
 version: '10.8'
 version_title: Version 10.8
 ---
