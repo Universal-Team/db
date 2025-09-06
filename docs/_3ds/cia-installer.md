@@ -2,7 +2,8 @@
 author: Zachary-Rude
 avatar: https://avatars.githubusercontent.com/u/84681078?v=4
 categories:
-- game
+- app
+- utility
 color: '#ffffff'
 color_bg: '#808080'
 created: '2025-06-07T18:17:19Z'
