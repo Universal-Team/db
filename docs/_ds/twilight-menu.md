@@ -8,7 +8,39 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads: {}
+downloads:
+  AddOn-BetterDSiMenuMusic.7z:
+    size: 22208058
+    size_str: 21 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.3/AddOn-BetterDSiMenuMusic.7z
+  AddOn-ExtraUIMusic.7z:
+    size: 8420942
+    size_str: 8 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.3/AddOn-ExtraUIMusic.7z
+  AddOn-Multimedia.7z:
+    size: 809465
+    size_str: 790 KiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.3/AddOn-Multimedia.7z
+  AddOn-VirtualConsole.7z:
+    size: 3740486
+    size_str: 3 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.3/AddOn-VirtualConsole.7z
+  TWiLightMenu-3DS.7z:
+    size: 29615521
+    size_str: 28 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.3/TWiLightMenu-3DS.7z
+  TWiLightMenu-DSi.7z:
+    size: 29656751
+    size_str: 28 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.3/TWiLightMenu-DSi.7z
+  TWiLightMenu-Flashcard.7z:
+    size: 40572234
+    size_str: 38 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.3/TWiLightMenu-Flashcard.7z
+  TWiLightMenu.7z:
+    size: 72453477
+    size_str: 69 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.3/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -18,7 +50,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/DS-Homebrew/TWiLightMenu
-stars: 3644
+stars: 3643
 systems:
 - DS
 title: TWiLight Menu++

@@ -24,7 +24,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/DS-Homebrew/nds-bootstrap
-stars: 1295
+stars: 1294
 systems:
 - DS
 title: nds-bootstrap
@@ -56,6 +56,10 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   <li>Chrono Trigger</li>
 
   <li>FabStyle</li>
+
+  <li>Inazuma Eleven (non-Japanese versions)</li>
+
+  <li>Inazuma Eleven 2: Blizzard &amp; Firestorm (non-Japanese versions)</li>
 
   <li>Inazuma Eleven 3: Sekai e no Chousen!! The Ogre</li>
 
