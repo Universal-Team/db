@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 1068481
+    size: 1070617
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.8.2/nds-bootstrap.7z
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.8.3/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1545722
+    size: 1547658
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.8.2/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.8.3/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -28,8 +28,8 @@ stars: 1295
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.17.2"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v27.17.2</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.17.3"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v27.17.3</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -43,19 +43,44 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <h3 dir="auto">Bug fix</h3>
+  <h3 dir="auto">What''s new? / Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>Fixed a long-standing and formerly hidden bug (discovered from improving the
-  AP-patching system) where some AP-fixes would fail to be detected. This fixes <em>Pokemon
-  HeartGold</em> crashing when either loading save data or during gameplay (unknown
-  if the fix works with ROM hacks).</li>
+  <li>The following games will no longer need to be manually AP-patched first before
+  applying a ROM hack and/or randomizer patch, and will also no longer crash on white
+  screens on boot:
+
+  <ul dir="auto">
+
+  <li>Chrono Trigger</li>
+
+  <li>FabStyle</li>
+
+  <li>Inazuma Eleven 3: Sekai e no Chousen!! The Ogre</li>
+
+  <li>Pokémon: HeartGold &amp; SoulSilver Version</li>
+
+  <li>Radiant Historia</li>
+
+  <li>SaGa 2: Hihou Densetsu: Goddess of Destiny</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <h3 dir="auto">What''s new?</h3>
+
+  <ul dir="auto">
+
+  <li>Various: Updated in-game menu translations.</li>
 
   </ul>'
-updated: '2025-08-31T04:29:52Z'
-version: v2.8.2
-version_title: 'v2.8.2 (hotfix #2)'
+updated: '2025-09-09T06:13:47Z'
+version: v2.8.3
+version_title: v2.8.3
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---

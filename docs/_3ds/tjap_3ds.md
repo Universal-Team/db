@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9463176
+    size: 9470796
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.0A/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.0B/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 9753536
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.0A/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.0B/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -38,27 +38,38 @@ unique_ids:
 - '0xB7655'
 update_notes: '<h2 dir="auto">チェンジログ</h2>
 
+  <p dir="auto"><a class="issue-link js-issue-link" data-error-text="Failed to load
+  title" data-id="3390845719" data-permission-text="Title is private" data-url="https://github.com/LuMariGames/TJAP_3DS/issues/3"
+  data-hovercard-type="issue" data-hovercard-url="/LuMariGames/TJAP_3DS/issues/3/hovercard"
+  href="https://github.com/LuMariGames/TJAP_3DS/issues/3">#3</a> より頂いた以下の不具合を修正</p>
+
   <ul dir="auto">
 
-  <li>魂ゲージの描画順を正しくしました。</li>
+  <li>ポーズせずにソフトを終了するとクラッシュする不具合の修正</li>
 
-  <li>元のゲームに合わせて1600コンボ以降もコンボボイスを再生する様に仕様変更</li>
+  <li>ポーズをせずにホームメニューに戻り、ゲームを再開するとタイミングがズレるのを修正</li>
 
   </ul>
 
   <h2 dir="auto">Changelog</h2>
 
+  <p dir="auto">The following bugs reported in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="3390845719" data-permission-text="Title
+  is private" data-url="https://github.com/LuMariGames/TJAP_3DS/issues/3" data-hovercard-type="issue"
+  data-hovercard-url="/LuMariGames/TJAP_3DS/issues/3/hovercard" href="https://github.com/LuMariGames/TJAP_3DS/issues/3">#3</a>
+  have been fixed.</p>
+
   <ul dir="auto">
 
-  <li>The Soul Gauge drawing order has been corrected.</li>
+  <li>Fixed a bug that caused the game to crash when closing without pausing.</li>
 
-  <li>Changed specifications so that combo voices continue to play after 1600 combos,
-  to match the original game.</li>
+  <li>Fixed the timing being off when returning to the home menu without pausing and
+  then resuming the game.</li>
 
   </ul>'
-updated: '2025-09-06T05:54:58Z'
-version: v1.8.0A
-version_title: TJAPlayer for 3DS v1.8.0(A)
+updated: '2025-09-09T06:06:11Z'
+version: v1.8.0B
+version_title: TJAPlayer for 3DS v1.8.0(B)
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
