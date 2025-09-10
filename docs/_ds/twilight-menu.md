@@ -89,7 +89,7 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/EricKotato/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/EricKotato">@EricKotato</a>:
   Weekday text in the calendar of the DS Classic Menu is now displayed properly when
-  using the Korean language. (<a class="issue-link js-issue-link" data-error-text="Failed
+  using the Russian language. (<a class="issue-link js-issue-link" data-error-text="Failed
   to load title" data-id="3388335492" data-permission-text="Title is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/2567"
   data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2567/hovercard"
   href="https://github.com/DS-Homebrew/TWiLightMenu/pull/2567">#2567</a>)</li>
