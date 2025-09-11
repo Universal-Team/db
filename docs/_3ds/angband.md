@@ -26,7 +26,7 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 source: https://github.com/angband/angband
-stars: 1427
+stars: 1428
 systems:
 - 3DS
 - DS
