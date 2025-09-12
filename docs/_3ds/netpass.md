@@ -10,13 +10,13 @@ description: A new way to experience StreetPass
 download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 4094340
-    size_str: 3 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/9d4514a6fb470e28af07d46dad8866a914ccc563/netpass.3dsx?inline=false
+    size: 4890524
+    size_str: 4 MiB
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/fcb822d0b17ceaccf1c970c6f0cbead5da6f4f4a/netpass.3dsx?inline=false
   netpass.cia:
-    size: 4187072
-    size_str: 3 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/9d4514a6fb470e28af07d46dad8866a914ccc563/netpass.cia?inline=false
+    size: 4973504
+    size_str: 4 MiB
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/fcb822d0b17ceaccf1c970c6f0cbead5da6f4f4a/netpass.cia?inline=false
 gitlab: 3ds-netpass/netpass
 icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
@@ -33,10 +33,12 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <ul data-sourcepos="1:2-2:30" dir="auto">&#x000A;<li data-sourcepos="1:2-1:52">Fix
-  initial wifi check breaking things completely</li>&#x000A;<li data-sourcepos="2:2-2:30">Other
-  small potential fixes</li>&#x000A;</ul>
-updated: '2025-08-19T19:00:47.000Z'
-version: v1.0.4
-version_title: v1.0.4
+update_notes: <ul data-sourcepos="1:2-5:37" dir="auto">&#x000A;<li data-sourcepos="1:2-1:22">Add
+  event locations</li>&#x000A;<li data-sourcepos="2:2-2:51">Add ability to dynamically
+  load location artwork</li>&#x000A;<li data-sourcepos="3:2-3:26">Add music to the
+  arcade</li>&#x000A;<li data-sourcepos="4:2-4:22">Various error fixes</li>&#x000A;<li
+  data-sourcepos="5:2-5:37">Better the error display even more</li>&#x000A;</ul>
+updated: '2025-09-12T10:42:56.000Z'
+version: v1.1.0
+version_title: v1.1.0
 ---
