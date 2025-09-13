@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9470700
+    size: 9470972
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.0B/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.0C/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 9753536
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.0B/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.0C/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -38,38 +38,28 @@ unique_ids:
 - '0xB7655'
 update_notes: '<h2 dir="auto">チェンジログ</h2>
 
-  <p dir="auto"><a class="issue-link js-issue-link" data-error-text="Failed to load
-  title" data-id="3390845719" data-permission-text="Title is private" data-url="https://github.com/LuMariGames/TJAP_3DS/issues/3"
-  data-hovercard-type="issue" data-hovercard-url="/LuMariGames/TJAP_3DS/issues/3/hovercard"
-  href="https://github.com/LuMariGames/TJAP_3DS/issues/3">#3</a> より頂いた以下の不具合を修正</p>
-
   <ul dir="auto">
 
-  <li>ポーズせずにソフトを終了するとクラッシュする不具合の修正</li>
+  <li>十字キーの左右どちらかを長押しすると開始位置を早く変えれるようにしました。</li>
 
-  <li>ポーズをせずにホームメニューに戻り、ゲームを再開するとタイミングがズレるのを修正</li>
+  <li>開始位置を変える際に一定時間を超えると譜面と曲のタイミングに差が生じる不具合の修正</li>
 
   </ul>
 
   <h2 dir="auto">Changelog</h2>
 
-  <p dir="auto">The following bugs reported in <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="3390845719" data-permission-text="Title
-  is private" data-url="https://github.com/LuMariGames/TJAP_3DS/issues/3" data-hovercard-type="issue"
-  data-hovercard-url="/LuMariGames/TJAP_3DS/issues/3/hovercard" href="https://github.com/LuMariGames/TJAP_3DS/issues/3">#3</a>
-  have been fixed.</p>
-
   <ul dir="auto">
 
-  <li>Fixed a bug that caused the game to crash when closing without pausing.</li>
+  <li>You can now change the start position more quickly by holding down either the
+  left or right side of the D-pad.</li>
 
-  <li>Fixed the timing being off when returning to the home menu without pausing and
-  then resuming the game.</li>
+  <li>Fixed an issue where the timing of Charts and Music would differ if a certain
+  amount of time was exceeded when changing the start position.</li>
 
   </ul>'
-updated: '2025-09-09T06:06:11Z'
-version: v1.8.0B
-version_title: TJAPlayer for 3DS v1.8.0(B)
+updated: '2025-09-13T00:45:59Z'
+version: v1.8.0C
+version_title: TJAPlayer for 3DS v1.8.0(C)
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
