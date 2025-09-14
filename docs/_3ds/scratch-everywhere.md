@@ -11,13 +11,13 @@ description: Play Scratch games on your 3DS!
 download_page: https://github.com/ScratchEverywhere/ScratchEverywhere/releases
 downloads:
   scratch-3ds.3dsx:
-    size: 6887732
-    size_str: 6 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.22/scratch-3ds.3dsx
+    size: 8332840
+    size_str: 7 MiB
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.23/scratch-3ds.3dsx
   scratch-3ds.cia:
-    size: 6013888
-    size_str: 5 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.22/scratch-3ds.cia
+    size: 7459776
+    size_str: 7 MiB
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.23/scratch-3ds.cia
 github: ScratchEverywhere/ScratchEverywhere
 icon: https://raw.githubusercontent.com/ScratchEverywhere/ScratchEverywhere/refs/heads/main/gfx/icon.png
 image: https://raw.githubusercontent.com/ScratchEverywhere/ScratchEverywhere/refs/heads/main/gfx/logo.png
@@ -35,16 +35,75 @@ update_notes: '<h2 dir="auto">New Features</h2>
 
   <ul dir="auto">
 
-  <li><code class="notranslate">Brightness</code> costume effect added!</li>
+  <li>
 
-  <li>Logs now get saved to a log file
+  <p dir="auto"><strong>Scratch Everywhere! Custom Blocks!</strong></p>
 
   <ul dir="auto">
 
-  <li>Log file is located in the same spot your scratch projects are placed</li>
+  <li>This actually isn''t a new feature, but we never talked about them at all so
+  I''ll talk about it here :)</li>
 
-  <li><strong>[3DS]</strong> Logs are only saved when holding <code class="notranslate">Select</code>
-  while launching the app</li>
+  <li>Similar to TurboWarp''s <code class="notranslate">is compiled?</code> and <code
+  class="notranslate">is TurboWarp?</code> blocks, We''ve made a few new blocks that
+  Scratch Everywhere! can understand!</li>
+
+  <li>You can still upload your projects to the Scratch website when using these new
+  blocks!</li>
+
+  <li><code class="notranslate">is Scratch Everywhere!?</code> block returns <code
+  class="notranslate">true</code> if your project is running on Scratch Everywhere,
+  and returns <code class="notranslate">0</code> otherwise.</li>
+
+  <li><code class="notranslate">is New 3DS</code> block returns <code class="notranslate">true</code>
+  if your project is being played on a New 3DS, returns <code class="notranslate">false</code>
+  otherwise.</li>
+
+  <li><code class="notranslate">Scratch Everywhere! platform</code> returns the platform
+  your game is being played on (<code class="notranslate">3DS</code>,<code class="notranslate">Wii</code>,etc).</li>
+
+  <li>A project containing these blocks can be downloaded <a href="https://scratchbox.grady.link/api/project/K26OtTN2WDJ9/download"
+  rel="nofollow">here</a>!</li>
+
+  </ul>
+
+  </li>
+
+  <li>
+
+  <p dir="auto"><strong>Unpack project option in project settings!</strong></p>
+
+  <ul dir="auto">
+
+  <li>Instead of the normal way the runtime works by putting the entire scratch project
+  in memory, unpacking a project eliminates this by only loading things when it needs
+  to!</li>
+
+  <li>Unpacked projects are great for large projects, and projects with a ton of images!</li>
+
+  <li>Depending on the speed of your SD card, unpacked projects can run way faster
+  than normal projects!</li>
+
+  <li>Unpacked projects will have a lightning symbol next to it, and will appear towards
+  the bottom of the project menu.</li>
+
+  </ul>
+
+  </li>
+
+  <li>
+
+  <p dir="auto"><strong>Bottom Screen option in project settings!</strong></p>
+
+  <ul dir="auto">
+
+  <li>For 3DS, you can enable any project to be played on the bottom screen instead
+  of the top screen!</li>
+
+  <li>Great for projects where the touchscreen plays a key factor in gameplay!</li>
+
+  <li>This also means Scratch Everywhere! can be used with a broken top screen! (I
+  know at least 1 person will be happy about this)</li>
 
   </ul>
 
@@ -52,23 +111,27 @@ update_notes: '<h2 dir="auto">New Features</h2>
 
   </ul>
 
-  <h2 dir="auto">Runtime Fixes</h2>
+  <h2 dir="auto">Runtime Changes</h2>
 
   <ul dir="auto">
 
-  <li>Fixed <code class="notranslate">When this sprite clicked</code> being ran for
-  every sprite instead of only the sprite that''s clicked</li>
+  <li>If you have a project in your Scratch Everywhere! folder named <code class="notranslate">project.sb3</code>,
+  the project will now automatically run when opening the app.</li>
 
-  <li>Fixed <code class="notranslate">When this sprite clicked</code> being able to
-  click multiple sprites in one click</li>
+  <li>Changed D-Pad controls in Main Menu
 
-  <li>Fixed a few crashes that could happen related to audio</li>
+  <ul dir="auto">
 
-  <li>Fixed backdrop rendering</li>
+  <li><strong>NOTE:</strong> If you''re using a Wii Remote, this means you now have
+  to use the remote sideways to navigate the Main Menu.</li>
 
-  <li>Added some new Main Menu splash text</li>
+  </ul>
 
-  <li>A bunch of code refactoring under the hood</li>
+  </li>
+
+  <li>Added more splash text to the Main Menu</li>
+
+  <li>Fixed a ton of memory leaks under the hood</li>
 
   </ul>
 
@@ -76,11 +139,20 @@ update_notes: '<h2 dir="auto">New Features</h2>
 
   <ul dir="auto">
 
-  <li>Fixed bottom screen not rendering correctly</li>
+  <li>Fixed buttons in the Main Menu sometimes not loading correctly</li>
+
+  </ul>
+
+  <h2 dir="auto">Switch Changes</h2>
+
+  <ul dir="auto">
+
+  <li>Changed resolution to the handheld''s native 1280 x 720, instead of being a
+  weird stretched resolution</li>
 
   </ul>'
-updated: '2025-09-07T12:28:23Z'
-version: '0.22'
-version_title: Beta Build 22
+updated: '2025-09-14T14:44:05Z'
+version: '0.23'
+version_title: Beta Build 23
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!
