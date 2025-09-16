@@ -34,7 +34,7 @@ screenshots:
 - description: Warioland
   url: https://db.universal-team.net/assets/images/screenshots/red-viper/warioland.png
 source: https://github.com/skyfloogle/red-viper
-stars: 919
+stars: 920
 systems:
 - 3DS
 title: red-viper
