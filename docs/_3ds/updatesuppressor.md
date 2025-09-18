@@ -25,7 +25,7 @@ layout: app
 qr:
   UpdateSuppressor.cia: https://db.universal-team.net/assets/images/qr/updatesuppressor-cia.png
 source: https://github.com/GiantBlargg/UpdateSuppressor
-stars: 12
+stars: 13
 systems:
 - 3DS
 title: UpdateSuppressor
