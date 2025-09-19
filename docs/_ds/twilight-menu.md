@@ -12,35 +12,35 @@ downloads:
   AddOn-BetterDSiMenuMusic.7z:
     size: 22208058
     size_str: 21 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.3/AddOn-BetterDSiMenuMusic.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.4/AddOn-BetterDSiMenuMusic.7z
   AddOn-ExtraUIMusic.7z:
-    size: 8420942
+    size: 8420943
     size_str: 8 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.3/AddOn-ExtraUIMusic.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.4/AddOn-ExtraUIMusic.7z
   AddOn-Multimedia.7z:
-    size: 809465
+    size: 809131
     size_str: 790 KiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.3/AddOn-Multimedia.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.4/AddOn-Multimedia.7z
   AddOn-VirtualConsole.7z:
-    size: 3740486
+    size: 3745673
     size_str: 3 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.3/AddOn-VirtualConsole.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.4/AddOn-VirtualConsole.7z
   TWiLightMenu-3DS.7z:
-    size: 29615521
+    size: 29617574
     size_str: 28 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.3/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.4/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 29656751
+    size: 29672590
     size_str: 28 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.3/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.4/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 40572234
+    size: 40572722
     size_str: 38 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.3/TWiLightMenu-Flashcard.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.4/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 72453477
+    size: 72455070
     size_str: 69 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.3/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.4/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -54,10 +54,7 @@ stars: 3651
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.8.3">nds-bootstrap
-  v2.8.3</a></p>
-
-  <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
 
   <ul dir="auto">
@@ -75,9 +72,6 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Original R4i3D flashcards (with no year displayed on the label) uses the <code
-  class="notranslate">R4i Upgrade Revolution</code> autoboot folder.</li>
-
   <li>Various: Updated translations.</li>
 
   </ul>
@@ -86,25 +80,27 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/EricKotato/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/EricKotato">@EricKotato</a>:
-  Weekday text in the calendar of the DS Classic Menu is now displayed properly when
-  using the Russian language. (<a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="3388335492" data-permission-text="Title is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/2567"
-  data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2567/hovercard"
-  href="https://github.com/DS-Homebrew/TWiLightMenu/pull/2567">#2567</a>)</li>
+  <li>Fixed an overlooked bug which caused detection of blank translated strings to
+  crash in both first-boot and settings screens. Blank strings will now fallback to
+  the default untranslated strings.
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/AntonioND/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/AntonioND">@AntonioND</a>:
-  Fixed MPU region before checking size of DSi RAM. (<a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="3396158996" data-permission-text="Title
-  is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/2570" data-hovercard-type="pull_request"
-  data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2570/hovercard" href="https://github.com/DS-Homebrew/TWiLightMenu/pull/2570">#2570</a>)</li>
+  <ul dir="auto">
+
+  <li>In other words, trying to open TWLMenu++ Settings when using the French language
+  or selecting a language on first boot will no longer show a Guru Meditation Error!</li>
+
+  </ul>
+
+  </li>
+
+  <li>If the <code class="notranslate">Games and Apps settings</code> page contains
+  no settings (due to using DSiWarehax exploits and no <em>Virtual Console</em> add-on
+  installed), the page will now be skipped entirely instead of showing a blank page.</li>
 
   </ul>'
-updated: '2025-09-09T06:22:24Z'
-version: v27.17.3
-version_title: v27.17.3
+updated: '2025-09-19T09:18:47Z'
+version: v27.17.4
+version_title: v27.17.4 (hotfix)
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
