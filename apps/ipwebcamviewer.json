@@ -1,0 +1,24 @@
+{
+  "version": 3,
+  "storeInfo": {
+    "name": "IP-Cam Viewer",
+    "file": "ipcamviewer.json",
+    "sheet": "ipcamviewer.smdh",
+    "bg_index": "null",
+    "bg_sheet": "null",
+    "authors": ["Alti"],
+    "categories": ["Utility"],
+    "consoles": ["3ds"]
+  },
+  "storeContent": [
+    {
+      "version": "1.0.0",
+      "title": "IP-Cam Viewer",
+      "description": "A proof-of-concept 3DS homebrew app to view IP camera streams.",
+      "url": "https://github.com/MC-Gaming-59o/Homebrew-3DS-IP-Webcam-Viewer/releases/download/v0.1beta/ipwebcv.3dsx",
+      "icon": "https://github.com/MC-Gaming-59o/Homebrew-3DS-IP-Webcam-Viewer/releases/download/v0.1beta/icon.jpg",
+      "promptMessage": "Press A to install IP-Cam Viewer.",
+      "exit": true
+    }
+  ]
+}
