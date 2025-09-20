@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9465696
+    size: 9465748
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.0C/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.1/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 9749440
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.0C/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.1/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -40,9 +40,9 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>十字キーの左右どちらかを長押しすると開始位置を早く変えれるようにしました。</li>
+  <li><code class="notranslate">#GOGOSTART</code>等の命令のタイミングが一致していなかったのを修正</li>
 
-  <li>開始位置を変える際に一定時間を超えると譜面と曲のタイミングに差が生じる不具合の修正</li>
+  <li>譜面の長さに応じて配点が正しく計算出来なくなる不具合の修正</li>
 
   </ul>
 
@@ -50,16 +50,15 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>You can now change the start position more quickly by holding down either the
-  left or right side of the D-pad.</li>
+  <li>Fixed inconsistent timing for commands such as <code class="notranslate">#GOGOSTART</code>.</li>
 
-  <li>Fixed an issue where the timing of Charts and Music would differ if a certain
-  amount of time was exceeded when changing the start position.</li>
+  <li>Fixed a bug that caused points to be calculated incorrectly depending on the
+  length of charts.</li>
 
   </ul>'
-updated: '2025-09-13T00:45:59Z'
-version: v1.8.0C
-version_title: TJAPlayer for 3DS v1.8.0(C)
+updated: '2025-09-20T05:14:02Z'
+version: v1.8.1
+version_title: TJAPlayer for 3DS v1.8.1
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
