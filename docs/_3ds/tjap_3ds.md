@@ -22,6 +22,64 @@ icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
+prerelease:
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.8.2
+  downloads:
+    TJAP_3DS.3dsx:
+      size: 9466968
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.2/TJAP_3DS.3dsx
+    TJAP_3DS.cia:
+      size: 9753536
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.2/TJAP_3DS.cia
+  qr:
+    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
+  update_notes: '<h2 dir="auto">チェンジログ</h2>
+
+    <ul dir="auto">
+
+    <li>爆弾音符の実装<br>
+
+    <code class="notranslate">C</code>という文字を譜面の中に記述すると爆弾音符が出現します。<br>
+
+    正確に叩いても判定文字は現れませんが不可判定になり、無視する事で対処出来ます。</li>
+
+    </ul>
+
+    <h2 dir="auto">Changelog</h2>
+
+    <ul dir="auto">
+
+    <li>Bomb Note Implementation<br>
+
+    Writing the letter <code class="notranslate">C</code> in a Chart will cause a
+    bomb note to appear.<br>
+
+    Even if you hit it correctly, the Judgment Text won''t appear, but it will still
+    be judged as a BAD note, which you can ignore.</li>
+
+    </ul>'
+  update_notes_md: '## チェンジログ
+
+    - 爆弾音符の実装
+
+    `C`という文字を譜面の中に記述すると爆弾音符が出現します。
+
+    正確に叩いても判定文字は現れませんが不可判定になり、無視する事で対処出来ます。
+
+
+    ## Changelog
+
+    - Bomb Note Implementation
+
+    Writing the letter `C` in a Chart will cause a bomb note to appear.
+
+    Even if you hit it correctly, the Judgment Text won''t appear, but it will still
+    be judged as a BAD note, which you can ignore.'
+  updated: '2025-09-22T04:43:17Z'
+  version: v1.8.2
+  version_title: TJAPlayer for 3DS v1.8.2
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
