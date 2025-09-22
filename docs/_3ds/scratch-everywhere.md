@@ -11,13 +11,13 @@ description: Play Scratch games on your 3DS!
 download_page: https://github.com/ScratchEverywhere/ScratchEverywhere/releases
 downloads:
   scratch-3ds.3dsx:
-    size: 8332840
-    size_str: 7 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.23/scratch-3ds.3dsx
+    size: 8455184
+    size_str: 8 MiB
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.24/scratch-3ds.3dsx
   scratch-3ds.cia:
-    size: 7459776
+    size: 7521216
     size_str: 7 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.23/scratch-3ds.cia
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.24/scratch-3ds.cia
 github: ScratchEverywhere/ScratchEverywhere
 icon: https://raw.githubusercontent.com/ScratchEverywhere/ScratchEverywhere/refs/heads/main/gfx/icon.png
 image: https://raw.githubusercontent.com/ScratchEverywhere/ScratchEverywhere/refs/heads/main/gfx/logo.png
@@ -35,75 +35,15 @@ update_notes: '<h2 dir="auto">New Features</h2>
 
   <ul dir="auto">
 
-  <li>
-
-  <p dir="auto"><strong>Scratch Everywhere! Custom Blocks!</strong></p>
+  <li>Add support for changing your username in the main menu settings
 
   <ul dir="auto">
 
-  <li>This actually isn''t a new feature, but we never talked about them at all so
-  I''ll talk about it here :)</li>
+  <li>If disabled, the <code class="notranslate">username</code> block will return
+  your console''s nickname</li>
 
-  <li>Similar to TurboWarp''s <code class="notranslate">is compiled?</code> and <code
-  class="notranslate">is TurboWarp?</code> blocks, We''ve made a few new blocks that
-  Scratch Everywhere! can understand!</li>
-
-  <li>You can still upload your projects to the Scratch website when using these new
-  blocks!</li>
-
-  <li><code class="notranslate">is Scratch Everywhere!?</code> block returns <code
-  class="notranslate">true</code> if your project is running on Scratch Everywhere,
-  and returns <code class="notranslate">0</code> otherwise.</li>
-
-  <li><code class="notranslate">is New 3DS</code> block returns <code class="notranslate">true</code>
-  if your project is being played on a New 3DS, returns <code class="notranslate">false</code>
-  otherwise.</li>
-
-  <li><code class="notranslate">Scratch Everywhere! platform</code> returns the platform
-  your game is being played on (<code class="notranslate">3DS</code>,<code class="notranslate">Wii</code>,etc).</li>
-
-  <li>A project containing these blocks can be downloaded <a href="https://scratchbox.grady.link/api/project/K26OtTN2WDJ9/download"
-  rel="nofollow">here</a>!</li>
-
-  </ul>
-
-  </li>
-
-  <li>
-
-  <p dir="auto"><strong>Unpack project option in project settings!</strong></p>
-
-  <ul dir="auto">
-
-  <li>Instead of the normal way the runtime works by putting the entire scratch project
-  in memory, unpacking a project eliminates this by only loading things when it needs
-  to!</li>
-
-  <li>Unpacked projects are great for large projects, and projects with a ton of images!</li>
-
-  <li>Depending on the speed of your SD card, unpacked projects can run way faster
-  than normal projects!</li>
-
-  <li>Unpacked projects will have a lightning symbol next to it, and will appear towards
-  the bottom of the project menu.</li>
-
-  </ul>
-
-  </li>
-
-  <li>
-
-  <p dir="auto"><strong>Bottom Screen option in project settings!</strong></p>
-
-  <ul dir="auto">
-
-  <li>For 3DS, you can enable any project to be played on the bottom screen instead
-  of the top screen!</li>
-
-  <li>Great for projects where the touchscreen plays a key factor in gameplay!</li>
-
-  <li>This also means Scratch Everywhere! can be used with a broken top screen! (I
-  know at least 1 person will be happy about this)</li>
+  <li>If enabled, you can choose a custom username and the <code class="notranslate">username</code>
+  block will return that instead</li>
 
   </ul>
 
@@ -115,23 +55,24 @@ update_notes: '<h2 dir="auto">New Features</h2>
 
   <ul dir="auto">
 
-  <li>If you have a project in your Scratch Everywhere! folder named <code class="notranslate">project.sb3</code>,
-  the project will now automatically run when opening the app.</li>
+  <li>The <code class="notranslate">touching</code> block now works correctly with
+  vector images</li>
 
-  <li>Changed D-Pad controls in Main Menu
+  <li>Fixed sound effects getting cut off if a new one gets played</li>
 
-  <ul dir="auto">
+  <li>Sound effects now get unloaded from memory after a few seconds of it not playing</li>
 
-  <li><strong>NOTE:</strong> If you''re using a Wii Remote, this means you now have
-  to use the remote sideways to navigate the Main Menu.</li>
+  <li>Sound effects with low volume now play correctly</li>
 
-  </ul>
+  <li>Sound blocks now work correctly if the input is another block</li>
 
-  </li>
+  <li>The main menu buttons has been replaced with new SVG versions</li>
 
-  <li>Added more splash text to the Main Menu</li>
+  <li>The main menu GUI now scales depending on screen resolution</li>
 
-  <li>Fixed a ton of memory leaks under the hood</li>
+  <li>Added project loading screen to SDL2 platforms</li>
+
+  <li>Reverted <code class="notranslate">project.sb3</code> auto opening at startup</li>
 
   </ul>
 
@@ -139,20 +80,19 @@ update_notes: '<h2 dir="auto">New Features</h2>
 
   <ul dir="auto">
 
-  <li>Fixed buttons in the Main Menu sometimes not loading correctly</li>
+  <li>Fixed a bug causing some vector images to appear bigger than it should</li>
 
   </ul>
 
-  <h2 dir="auto">Switch Changes</h2>
+  <h2 dir="auto">Wii Changes</h2>
 
   <ul dir="auto">
 
-  <li>Changed resolution to the handheld''s native 1280 x 720, instead of being a
-  weird stretched resolution</li>
+  <li>The <code class="notranslate">username</code> block now returns the Wii''s nickname</li>
 
   </ul>'
-updated: '2025-09-14T14:44:05Z'
-version: '0.23'
-version_title: Beta Build 23
+updated: '2025-09-22T17:04:39Z'
+version: '0.24'
+version_title: Beta Build 24
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!
