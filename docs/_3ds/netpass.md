@@ -10,13 +10,13 @@ description: A new way to experience StreetPass
 download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 6174580
-    size_str: 5 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/d5abbb64dc2e507548635d88146f31d9a7e139d9/netpass.3dsx?inline=false
+    size: 6516520
+    size_str: 6 MiB
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/023232eb605aaa99823fd518b64d972aa43b35cd/netpass.3dsx?inline=false
   netpass.cia:
-    size: 6263744
-    size_str: 5 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/d5abbb64dc2e507548635d88146f31d9a7e139d9/netpass.cia?inline=false
+    size: 6607808
+    size_str: 6 MiB
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/023232eb605aaa99823fd518b64d972aa43b35cd/netpass.cia?inline=false
 gitlab: 3ds-netpass/netpass
 icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
@@ -33,16 +33,12 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <ul data-sourcepos="1:2-8:43" dir="auto">&#x000A;<li data-sourcepos="1:2-1:35">fix
-  corrupted report list thingy</li>&#x000A;<li data-sourcepos="2:2-2:43">fix music
-  stuttering during pass imports</li>&#x000A;<li data-sourcepos="3:2-3:69">add music
-  to beach, cat cafe and back alley (thank you batteries!)</li>&#x000A;<li data-sourcepos="4:2-4:43">add
-  art to back alley (thank you Lyril!)</li>&#x000A;<li data-sourcepos="5:2-5:46">hopefully
-  fix the cecd wrong state warnings</li>&#x000A;<li data-sourcepos="6:2-6:43">make
-  netpass self-update on new releases</li>&#x000A;<li data-sourcepos="7:2-7:42">fix
-  issue if dsp firm wasn't dumped yet</li>&#x000A;<li data-sourcepos="8:2-8:43">show
-  only artwork on holding down L or R</li>&#x000A;</ul>
-updated: '2025-09-19T08:56:33.264Z'
-version: v1.1.1
-version_title: v1.1.1
+update_notes: <ul data-sourcepos="1:2-4:39" dir="auto">&#x000A;<li data-sourcepos="1:2-1:18">update
+  graphics</li>&#x000A;<li data-sourcepos="2:2-2:21">add settings music</li>&#x000A;<li
+  data-sourcepos="3:2-3:64">add ability to override artwork with custom images on
+  sd card</li>&#x000A;<li data-sourcepos="4:2-4:39">make report list loading more
+  robust</li>&#x000A;</ul>
+updated: '2025-09-23T08:39:53.554Z'
+version: v1.2.0
+version_title: v1.2.0
 ---
