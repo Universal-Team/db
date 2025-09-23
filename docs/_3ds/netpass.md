@@ -33,12 +33,9 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <ul data-sourcepos="1:2-4:39" dir="auto">&#x000A;<li data-sourcepos="1:2-1:18">update
-  graphics</li>&#x000A;<li data-sourcepos="2:2-2:21">add settings music</li>&#x000A;<li
-  data-sourcepos="3:2-3:64">add ability to override artwork with custom images on
-  sd card</li>&#x000A;<li data-sourcepos="4:2-4:39">make report list loading more
-  robust</li>&#x000A;</ul>
-updated: '2025-09-23T08:39:53.554Z'
-version: v1.2.0
-version_title: v1.2.0
+update_notes: '<p data-sourcepos="1:1-1:87" dir="auto">Hotfix: prevent 3ds from crashing
+  on loading anything except the train station and home</p>'
+updated: '2025-09-23T09:50:47.775Z'
+version: v1.2.1
+version_title: v1.2.1
 ---
