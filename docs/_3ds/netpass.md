@@ -10,13 +10,13 @@ description: A new way to experience StreetPass
 download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 6516520
+    size: 6516500
     size_str: 6 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/023232eb605aaa99823fd518b64d972aa43b35cd/netpass.3dsx?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/5f87aac22c28d66022b75c696e71c587816444c6/netpass.3dsx?inline=false
   netpass.cia:
     size: 6607808
     size_str: 6 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/023232eb605aaa99823fd518b64d972aa43b35cd/netpass.cia?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/5f87aac22c28d66022b75c696e71c587816444c6/netpass.cia?inline=false
 gitlab: 3ds-netpass/netpass
 icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
@@ -35,7 +35,7 @@ unique_ids:
 - '0xF6574'
 update_notes: '<p data-sourcepos="1:1-1:87" dir="auto">Hotfix: prevent 3ds from crashing
   on loading anything except the train station and home</p>'
-updated: '2025-09-23T09:50:47.775Z'
+updated: '2025-09-23T09:50:47.000Z'
 version: v1.2.1
 version_title: v1.2.1
 ---
