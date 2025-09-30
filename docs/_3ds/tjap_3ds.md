@@ -10,11 +10,11 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9486688
+    size: 9474260
     size_str: 9 MiB
     url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.4/TJAP_3DS.3dsx
   TJAP_3DS.cia:
-    size: 9761728
+    size: 9753536
     size_str: 9 MiB
     url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.4/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
@@ -42,11 +42,6 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <li>ボタン演奏に関する操作性の向上</li>
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3459915715"
-  data-permission-text="Title is private" data-url="https://github.com/LuMariGames/TJAP_3DS/issues/4"
-  data-hovercard-type="issue" data-hovercard-url="/LuMariGames/TJAP_3DS/issues/4/hovercard"
-  href="https://github.com/LuMariGames/TJAP_3DS/issues/4">#4</a> 風船音符があるとクラッシュする可能性のあった不具合の修正</li>
-
   </ul>
 
   <h2 dir="auto">Changelog</h2>
@@ -54,8 +49,6 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
   <ul dir="auto">
 
   <li>Improved operability for button play.</li>
-
-  <li>Fixed a bug that could cause a crash when Balloon Notes were present.</li>
 
   </ul>'
 updated: '2025-09-30T08:25:40Z'

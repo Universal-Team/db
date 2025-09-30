@@ -10,10 +10,10 @@ created: '2023-05-10T00:52:36Z'
 description: An open-source re-implementation of "Commander Keen in Goodbye Galaxy"
 download_page: https://github.com/RetroGamer02/omnispeak-3ds/releases
 downloads:
-  OmniSpeak-3ds.V1.0.0.zip:
-    size: 1080322
-    size_str: 1 MiB
-    url: https://github.com/RetroGamer02/omnispeak-3ds/releases/download/3ds-V1.0.0/OmniSpeak-3ds.V1.0.0.zip
+  OmniSpeak-3ds.V1.0.2.zip:
+    size: 6506045
+    size_str: 6 MiB
+    url: https://github.com/RetroGamer02/omnispeak-3ds/releases/download/3ds-V1.0.2/OmniSpeak-3ds.V1.0.2.zip
 github: RetroGamer02/omnispeak-3ds
 icon: https://db.universal-team.net/assets/images/icons/omnispeak-3ds.png
 image: https://db.universal-team.net/assets/images/images/omnispeak-3ds.png
@@ -31,16 +31,24 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/omnispeak-3ds/title-screen.png
 source: https://github.com/RetroGamer02/omnispeak-3ds
-stars: 3
+stars: 4
 systems:
 - 3DS
 title: OmniSpeak-3DS
 unique_ids:
 - '0x3163E'
-update_notes: <p dir="auto">Fixed Dpad not working and did some fine tuning.</p>
-updated: '2023-06-29T02:50:17Z'
-version: 3ds-V1.0.0
-version_title: Release build
+update_notes: '<p dir="auto">I have remade the port with the current upstream source
+  code so there is countless bug fixes.<br>
+
+  The best new feature is limited mod support.<br>
+
+  I have bundled keen 4 and the pre converted mod Keen7 so there is no need to download
+  the files for them yourself.</p>
+
+  <p dir="auto">I hope you all enjoy!</p>'
+updated: '2025-09-30T10:17:37Z'
+version: 3ds-V1.0.2
+version_title: OmniSpeak 1.2 Preview for 3DS
 website: https://davidgow.net/keen/omnispeak.html
 ---
 OmniSpeak is an open source game engine for playing the MSDOS Commander Keen Galaxy Games 4, 5, and 6.
