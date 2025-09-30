@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9474356
+    size: 9486688
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.3/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.4/TJAP_3DS.3dsx
   TJAP_3DS.cia:
-    size: 9753536
+    size: 9761728
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.3/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.4/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -40,7 +40,12 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>特定のオプションを付けた状態で楽曲を選んだ後にフリーズする可能性があった不具合の修正</li>
+  <li>ボタン演奏に関する操作性の向上</li>
+
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3459915715"
+  data-permission-text="Title is private" data-url="https://github.com/LuMariGames/TJAP_3DS/issues/4"
+  data-hovercard-type="issue" data-hovercard-url="/LuMariGames/TJAP_3DS/issues/4/hovercard"
+  href="https://github.com/LuMariGames/TJAP_3DS/issues/4">#4</a> 風船音符があるとクラッシュする可能性のあった不具合の修正</li>
 
   </ul>
 
@@ -48,13 +53,14 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Fixed a bug that could cause the app to freeze after selecting a song with certain
-  options enabled.</li>
+  <li>Improved operability for button play.</li>
+
+  <li>Fixed a bug that could cause a crash when Balloon Notes were present.</li>
 
   </ul>'
-updated: '2025-09-27T03:59:29Z'
-version: v1.8.3
-version_title: TJAPlayer for 3DS v1.8.3
+updated: '2025-09-30T08:25:40Z'
+version: v1.8.4
+version_title: TJAPlayer for 3DS v1.8.4
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
