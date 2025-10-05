@@ -10,94 +10,30 @@ created: '2025-01-06T19:04:39Z'
 description: Beat-making audio sequencer and DJ-tool for the Nintendo 3DS
 download_page: https://github.com/gearmo3ds/noisecommander3dsdemo/releases
 downloads:
-  noisecmdr-v0_1_3-demo.cia:
-    size: 3240896
+  noisecmdr-v0_1_4-demo.cia:
+    size: 3244992
     size_str: 3 MiB
-    url: https://github.com/gearmo3ds/noisecommander3dsdemo/releases/download/0.1.3/noisecmdr-v0_1_3-demo.cia
+    url: https://github.com/gearmo3ds/noisecommander3dsdemo/releases/download/0.1.4/noisecmdr-v0_1_4-demo.cia
 github: gearmo3ds/noisecommander3dsdemo
 icon: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/icon.png
 image: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/banner.png
 image_length: 40664
 layout: app
 qr:
-  noisecmdr-v0_1_3-demo.cia: https://db.universal-team.net/assets/images/qr/noisecmdr-v0_1_3-demo-cia.png
+  noisecmdr-v0_1_4-demo.cia: https://db.universal-team.net/assets/images/qr/noisecmdr-v0_1_4-demo-cia.png
 source: https://github.com/gearmo3ds/noisecommander3dsdemo
 stars: 1
 systems:
 - 3DS
 title: Noise Commander 3DS (Demo)
-update_notes: '<h1 dir="auto">0.1.3</h1>
-
-  <h3 dir="auto">Added</h3>
-
-  <ul dir="auto">
-
-  <li>Ability to connect and synchronize multiple 3DS consoles via local "multiplayer"
-  Wifi (UDS)
-
-  <ul dir="auto">
-
-  <li>Starting or re-starting playback on the host will also restart playback on the
-  connected clients</li>
-
-  <li>The switches are in the General Settings (press down and tap the "General" tab)</li>
-
-  <li>Note that normal Wifi-features (Browser-upload) is not possible while UDS is
-  active</li>
-
-  </ul>
-
-  </li>
-
-  <li>"Neutral Preview" setting in preferences causes browser to play samples at original
-  rate (default: on)</li>
-
-  <li>New Piano Buttons:
-
-  <ul dir="auto">
-
-  <li>"Gated" toggles whether lifting stops the note and sets the instrument playmode</li>
-
-  <li>"Slide" allows pressing keys by sliding the stylus, else it needs to be lifted</li>
-
-  <li>"Off" is a shortcut for stopping current sound and recording/inserting an note-off</li>
-
-  </ul>
-
-  </li>
-
-  <li>Columns for fold distortion enable, width and gain</li>
-
-  <li>Tempo Dialog: left/right buttons nudge playhead by one step to adjust phase
-  with external audio (e.g. other 3DS)</li>
-
-  <li>REC toggle in Bus-FX view</li>
-
-  <li>New Tracker/Bus-FX screen combo (press right three times) for inserting slider-automation
-  visually</li>
-
-  </ul>
+update_notes: '<h1 dir="auto">0.1.4</h1>
 
   <h3 dir="auto">Changed</h3>
 
   <ul dir="auto">
 
-  <li>Retrig-column uses slice-positions now (i.e. works in combination)</li>
-
-  <li>Repeat mode in drum-view now uses last slice-position. Nice in combination with
-  linear slice trigs</li>
-
-  <li>Enabling Right-channel-click-track disables stereo-widening effect</li>
-
-  <li>Piano key background color now changes while pressed</li>
-
-  <li>Fold-width (distortion) range now allows better articulation</li>
-
-  <li>Brought pitch envelope back and added columns for animation</li>
-
-  <li>Motion recording ability for most sliders in Bus-FX screen</li>
-
-  <li>"Mono to stereo" settings are now preserved</li>
+  <li>Renamed "Gated" to "Hold" in piano and de-coupled the setting from drum pads.
+  Hold is off per default.</li>
 
   </ul>
 
@@ -105,16 +41,29 @@ update_notes: '<h1 dir="auto">0.1.3</h1>
 
   <ul dir="auto">
 
-  <li>Shifting notes with A+Up intermittently not working</li>
+  <li>Creating empty clip assigns instrument 255 (Can now insert new row number without
+  losing instrument)</li>
 
-  <li>Playback position is no longer shown in Waveform-view after pressing A</li>
+  <li>Pad-view does not refresh instr labels when new row plays</li>
 
-  <li>Memory-alignment crash when resampling (only happened with -O3 i.e. in release)</li>
+  <li>Capturing loop to song in Factotum looper always copies only one bar when set
+  to two</li>
+
+  <li>Set fade default value to 16 in Factotum looper to avoid pops at boundary</li>
+
+  <li>Pitch envelope amount not applied when selecting instrument</li>
+
+  <li>Tapping "Sub-Tab" button (2nd from left at bottom in drum-pad view) does not
+  toggle to previous sub-tab</li>
+
+  <li>Stopping of transport not transmitted when connected via UDS</li>
+
+  <li>Current slice-number not stored in song-file and lost at reload</li>
 
   </ul>'
-updated: '2025-09-21T12:56:23Z'
-version: 0.1.3
-version_title: Lots of small stuff
+updated: '2025-10-05T15:08:11Z'
+version: 0.1.4
+version_title: Bug fixes
 website: https://www.patreon.com/NoiseCommander3DS
 ---
 Beat-making audio sequencer and DJ-tool
