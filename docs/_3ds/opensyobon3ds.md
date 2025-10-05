@@ -19,7 +19,7 @@ image: https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/ba
 image_length: 24314
 layout: app
 source: https://github.com/nop90/OpenSyobon3DS
-stars: 11
+stars: 10
 systems:
 - 3DS
 title: OpenSyobon3DS

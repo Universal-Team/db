@@ -34,7 +34,7 @@ nightly:
     nds-master-latest.zip:
       url: https://buildbot.scummvm.org/dailybuilds/master/nds-master-latest.zip
 source: https://github.com/scummvm/scummvm
-stars: 2537
+stars: 2538
 systems:
 - 3DS
 - DS
