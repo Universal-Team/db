@@ -22,6 +22,45 @@ icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
+prerelease:
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v1.8.5
+  downloads:
+    TJAP_3DS.3dsx:
+      size: 9493008
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.5/TJAP_3DS.3dsx
+    TJAP_3DS.cia:
+      size: 9761728
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.5/TJAP_3DS.cia
+  qr:
+    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
+  update_notes: '<h2 dir="auto">チェンジログ</h2>
+
+    <ul dir="auto">
+
+    <li>ノーツの下に文字を表示する様に仕様変更</li>
+
+    </ul>
+
+    <h2 dir="auto">Changelog</h2>
+
+    <ul dir="auto">
+
+    <li>Change the specification to display characters under notes.</li>
+
+    </ul>'
+  update_notes_md: '## チェンジログ
+
+    - ノーツの下に文字を表示する様に仕様変更
+
+
+    ## Changelog
+
+    - Change the specification to display characters under notes.'
+  updated: '2025-10-06T23:42:33Z'
+  version: v1.8.5
+  version_title: TJAPlayer for 3DS v1.8.5
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
