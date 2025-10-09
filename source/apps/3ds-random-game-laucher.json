@@ -1,0 +1,9 @@
+{
+  "github": "selloa/3DS-Random-Game-Launcher",
+  "systems": ["3DS"],
+  "categories": ["utility"],
+  "unique_ids": [0],
+  "image": "https://raw.githubusercontent.com/selloa/3DS-Random-Game-Launcher/main/meta/banner.png",
+  "icon": "https://raw.githubusercontent.com/selloa/3DS-Random-Game-Launcher/main/icon.png",
+  "long_description": "Can't decide what to play? Let your 3DS pick for you! This utility scans your SD card, filters out system junk, and launches a random game from your library. Perfect for indecisive gamers who want to discover forgotten titles.\n\n**Features:**\n- Scans all installed games on your SD card\n- Filters out system applications and junk\n- Random game selection with reroll option\n- Homebrew mode toggle (X button)\n- Simple controls: A to launch, Y to reroll, START to exit\n- Database of 4,135+ 3DS game titles with proper names\n\n**Controls:**\n- `A` - Launch the selected title\n- `Y` - Reroll for something else  \n- `X` - Toggle homebrew mode\n- `START` - Exit\n\nBuilt with libctru and includes a comprehensive title database sourced from 3dsdb community data."
+}
