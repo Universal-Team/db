@@ -1,8 +1,0 @@
-{
-	"github": "VirtuallyExisting/hbchat",
-	"systems": ["3DS"],
-	"categories": ["app"],
-	"image": "https://raw.githubusercontent.com/VirtuallyExisting/hbchat/main/meta/banner.png",
-	"icon": "https://raw.githubusercontent.com/VirtuallyExisting/hbchat/main/meta/icon.png",
-	"long_description": "A chatting app for 3DS."
-}
