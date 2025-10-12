@@ -3,8 +3,8 @@ author: VirtuallyExisting
 avatar: https://avatars.githubusercontent.com/u/218819764?v=4
 categories:
 - app
-color: '#99d0e9'
-color_bg: '#547280'
+color: '#5bb0f3'
+color_bg: '#305c80'
 created: '2025-10-03T20:45:03Z'
 description: Chatting application for 3DS (and Wii coming soon)
 download_page: https://github.com/VirtuallyExisting/hbchat/releases
@@ -16,7 +16,7 @@ downloads:
 github: VirtuallyExisting/hbchat
 icon: https://raw.githubusercontent.com/VirtuallyExisting/hbchat/main/meta/icon.png
 image: https://raw.githubusercontent.com/VirtuallyExisting/hbchat/main/meta/banner.png
-image_length: 1658
+image_length: 32960
 layout: app
 source: https://github.com/VirtuallyExisting/hbchat
 stars: 7
