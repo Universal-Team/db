@@ -36,3 +36,9 @@ $light-placeholder: #999;
 @import "base";
 
 /// CSS Overrides
+.card-title {
+	color: $header-color;
+}
+.card-text {
+	color: $main-color;
+}
