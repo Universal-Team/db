@@ -7,5 +7,7 @@
 *.jekyll-cache
 *.jekyll-metadata
 *Gemfile.lock
+*/vendor/bundle
+*.bundle
 
 *temp/
