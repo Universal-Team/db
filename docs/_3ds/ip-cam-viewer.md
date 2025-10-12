@@ -11,10 +11,6 @@ description: IP-Cam Viewer for 3DS/2DS. Streams live video from Android devices 
   and LSD/Mushroom mode. Recommended resolution 320x240.
 download_page: https://github.com/MC-Gaming-59o/Homebrew-3DS-IP-Webcam-Viewer/releases
 downloads:
-  icon.jpg:
-    size: 1357
-    size_str: 1 KiB
-    url: https://github.com/MC-Gaming-59o/Homebrew-3DS-IP-Webcam-Viewer/releases/download/v0.1beta/icon.jpg
   ipwebcv.3dsx:
     size: 224696
     size_str: 219 KiB
