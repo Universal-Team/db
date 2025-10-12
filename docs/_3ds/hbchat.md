@@ -19,7 +19,7 @@ image: https://raw.githubusercontent.com/VirtuallyExisting/hbchat/main/meta/bann
 image_length: 32960
 layout: app
 source: https://github.com/VirtuallyExisting/hbchat
-stars: 7
+stars: 8
 systems:
 - 3DS
 title: hbchat
