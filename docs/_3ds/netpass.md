@@ -10,13 +10,13 @@ description: A new way to experience StreetPass
 download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 6521996
+    size: 6521956
     size_str: 6 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/0230204863e2f8c8b70ed7dd8a5736c9eee8911c/netpass.3dsx?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/a5195291bbbb352e35c7a6a4cd6be31e10ba8597/netpass.3dsx?inline=false
   netpass.cia:
     size: 6611904
     size_str: 6 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/0230204863e2f8c8b70ed7dd8a5736c9eee8911c/netpass.cia?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/a5195291bbbb352e35c7a6a4cd6be31e10ba8597/netpass.cia?inline=false
 gitlab: 3ds-netpass/netpass
 icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
@@ -38,7 +38,7 @@ update_notes: <p data-sourcepos="1:1-1:51" dir="auto">Fix random crashes, especi
   caused by the GPU CMD buffer running out of space. Since the text rendering for
   outline text is really inefficient this started appearing with 1.2.0, but now it
   is fixed.</p>
-updated: '2025-10-13T11:41:25.565Z'
+updated: '2025-10-13T11:41:25.000Z'
 version: v1.2.2
 version_title: v1.2.2
 ---
