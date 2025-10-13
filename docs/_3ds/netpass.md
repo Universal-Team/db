@@ -10,13 +10,13 @@ description: A new way to experience StreetPass
 download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 6516500
+    size: 6521996
     size_str: 6 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/5f87aac22c28d66022b75c696e71c587816444c6/netpass.3dsx?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/0230204863e2f8c8b70ed7dd8a5736c9eee8911c/netpass.3dsx?inline=false
   netpass.cia:
-    size: 6607808
+    size: 6611904
     size_str: 6 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/5f87aac22c28d66022b75c696e71c587816444c6/netpass.cia?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/0230204863e2f8c8b70ed7dd8a5736c9eee8911c/netpass.cia?inline=false
 gitlab: 3ds-netpass/netpass
 icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
@@ -33,9 +33,12 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: '<p data-sourcepos="1:1-1:87" dir="auto">Hotfix: prevent 3ds from crashing
-  on loading anything except the train station and home</p>'
-updated: '2025-09-23T09:50:47.000Z'
-version: v1.2.1
-version_title: v1.2.1
+update_notes: <p data-sourcepos="1:1-1:51" dir="auto">Fix random crashes, especially
+  with the back alley.</p>&#x000A;<p data-sourcepos="3:1-3:181" dir="auto">These were
+  caused by the GPU CMD buffer running out of space. Since the text rendering for
+  outline text is really inefficient this started appearing with 1.2.0, but now it
+  is fixed.</p>
+updated: '2025-10-13T11:41:25.565Z'
+version: v1.2.2
+version_title: v1.2.2
 ---
