@@ -34,7 +34,7 @@ screenshots:
 - description: Title
   url: https://db.universal-team.net/assets/images/screenshots/yet-another-flappy-bird/title.png
 source: https://github.com/MillKeny/flappy
-stars: 4
+stars: 5
 systems:
 - 3DS
 title: Yet Another Flappy Bird
