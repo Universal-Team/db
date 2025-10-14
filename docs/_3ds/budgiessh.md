@@ -18,7 +18,7 @@ layout: app
 license: apache-2.0
 license_name: Apache License 2.0
 source: https://github.com/Maxbrick/budgieSSH
-stars: 4
+stars: 5
 systems:
 - 3DS
 title: budgieSSH
