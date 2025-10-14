@@ -36,7 +36,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/flappy-bird/title-screen.png
 source: https://github.com/npid7/Flappy-Bird
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: Flappy-Bird
