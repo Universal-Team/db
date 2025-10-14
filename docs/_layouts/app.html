@@ -216,11 +216,11 @@ layout: compress
 										<div class="col-12">
 											<h2 class="i18n innerHTML-screenshots">Screenshots</h2>
 											<div id="screenshotCarousel" class="carousel carousel-dark-when-light slide mb-3" data-bs-ride="carousel">
-												<ol class="carousel-indicators">
+												<div class="carousel-indicators">
 													{% for ss in page.screenshots %}
-														<li data-bs-target="#screenshotCarousel" data-bs-slide-to="{{ forloop.index0 }}" class="{% if forloop.first %}active{% endif %}"></li>
+														<button type="button" data-bs-target="#screenshotCarousel" data-bs-slide-to="{{ forloop.index0 }}" class="{% if forloop.first %}active{% endif %}"></button>
 													{% endfor %}
-												</ol>
+												</div>
 												<div class="carousel-inner">
 													{% for ss in page.screenshots %}
 														<div class="carousel-item mt-2 mb-2 {% if forloop.first %}active{% endif %}">
