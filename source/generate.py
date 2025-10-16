@@ -440,7 +440,10 @@ def handle_gitlab_app(app: Dict[str, Any]):
 
 		if "update_notes" not in app and release["description"] != "" and release["description"] is not None:
 			app["update_notes_md"] = release["description"].replace("\r\n", "\n")
-			app["update_notes"] = release["description_html"].replace("\r\n", "\n")
+			if "description_html" in release:
+				app["update_notes"] = release["description_html"].replace("\r\n", "\n")
+			else:
+				app["update_notes"] = release["description"].replace("\r\n", "\n")
 
 		if "updated" not in app:
 			app["updated"] = release["released_at"]
