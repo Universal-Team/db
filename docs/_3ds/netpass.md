@@ -20,6 +20,7 @@ downloads:
 gitlab: 3ds-netpass/netpass
 icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
+image_length: 2983
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0 or later
