@@ -138,7 +138,7 @@ prerelease:
 qr:
   ctrmus.cia: https://db.universal-team.net/assets/images/qr/ctrmus-cia.png
 source: https://github.com/deltabeard/ctrmus
-stars: 117
+stars: 118
 systems:
 - 3DS
 title: ctrmus
