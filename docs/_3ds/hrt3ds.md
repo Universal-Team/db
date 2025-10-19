@@ -19,8 +19,8 @@ downloads:
     url: https://github.com/vinegar77/hrt-3ds/releases/download/v1.1.1/hrt3ds.cia
 github: vinegar77/hrt-3ds
 icon: https://raw.githubusercontent.com/vinegar77/hrt-3ds/main/resources/icon.png
-image: https://raw.githubusercontent.com/vinegar77/hrt-3ds/main/resources/icon.png
-image_length: 2149
+image: https://raw.githubusercontent.com/vinegar77/hrt-3ds/main/resources/hrtbanner.png
+image_length: 57119
 layout: app
 license: mit
 license_name: MIT License
@@ -31,6 +31,8 @@ stars: 1
 systems:
 - 3DS
 title: hrt3DS
+unique_ids:
+- '0xFF80'
 update_notes: '<p dir="auto">A minor audio patch to fix issues detailed in <a class="issue-link
   js-issue-link" data-error-text="Failed to load title" data-id="3527991540" data-permission-text="Title
   is private" data-url="https://github.com/vinegar77/hrt-3ds/issues/1" data-hovercard-type="issue"
@@ -70,4 +72,4 @@ updated: '2025-10-18T06:16:10Z'
 version: v1.1.1
 version_title: hrt3ds v1.1.1 (Minor Audio Patch)
 ---
-Horse Race Tests on 3DS! O3DS/O2DS models may experience audio lag
+Horse Race Tests on 3DS! The authentic HRT experience (o3DS/o2DS models may experience slowdown with many horses at once.)
