@@ -18,10 +18,6 @@ downloads:
     size: 7836608
     size_str: 7 MiB
     url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.26/scratch-3ds.cia
-  scratch-gamecube.dol:
-    size: 7651872
-    size_str: 7 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.26/scratch-gamecube.dol
 github: ScratchEverywhere/ScratchEverywhere
 icon: https://raw.githubusercontent.com/ScratchEverywhere/ScratchEverywhere/refs/heads/main/gfx/icon.png
 image: https://raw.githubusercontent.com/ScratchEverywhere/ScratchEverywhere/refs/heads/main/gfx/logo.png
