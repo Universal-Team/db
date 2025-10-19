@@ -30,7 +30,7 @@ from unistore import StoreEntry, UniStore
 from utils import (format_to_web_name, format_traceback, get_matching_app,
                    to_friendly_bytes, was_recently_updated)
 
-DOWNLOAD_BLACKLIST = r"(\.3ds$|\.apk|\.appimage|\.dmg|\.exe|\.ipa|\.love|\.nro|\.opk|\.pkg|\.smdh|\.vpk|\.xz|armhf|elf|linux|macos|osx|PS3|PSP|switch|ubuntu|vita|wii|win|x86_64|xbox)"
+DOWNLOAD_BLACKLIST = r"(\.3ds$|\.apk|\.appimage|\.dmg|\.dol|\.exe|\.ipa|\.love|\.nro|\.opk|\.pkg|\.smdh|\.vpk|\.xz|armhf|elf|linux|macos|osx|PS3|PSP|switch|ubuntu|vita|wii|win|x86_64|xbox)"
 DOCS_DIR: Optional[pathlib.Path] = None
 PRIORITY_MODE = True
 SCRIPT_DIR = pathlib.Path(__file__).parent.resolve()
