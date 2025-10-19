@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 1070617
+    size: 1075481
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.8.3/nds-bootstrap.7z
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.9.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1547658
+    size: 1551463
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.8.3/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.9.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -28,8 +28,8 @@ stars: 1301
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.17.3"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v27.17.3</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.18.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v27.18.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -43,48 +43,107 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <h3 dir="auto">What''s new? / Bug fix</h3>
+  <h3 dir="auto">Changelog</h3>
 
   <ul dir="auto">
 
-  <li>The following games will no longer need to be manually AP-patched first before
-  applying a ROM hack and/or randomizer patch, and will also no longer crash on white
-  screens on boot:
+  <li>Most games which contain STRM files contained in <code class="notranslate">.sdat</code>
+  files and/or Mobiclip will now have those STRM and/or video files be read asynchronously
+  to reduce/remove frame drops.</li>
+
+  <li>For many of the SD-related fixes to apply to flashcard users (such as properly
+  working card read DMA), the LRU cache system is now used when running games from
+  flashcards.
 
   <ul dir="auto">
 
-  <li>Chrono Trigger</li>
+  <li>The ROM read LED settings now work on flashcards as a result.</li>
 
-  <li>FabStyle</li>
+  <li>This can work around crashes for certain flashcards.</li>
 
-  <li>Inazuma Eleven (non-Japanese versions)</li>
+  <li>Does not apply to <em>Pokemon Black &amp; White 1 &amp; 2</em> due to the SWI
+  Halt function not being hooked for flashcard reads, along with DLDI drivers not
+  having asynchronous DMA reads.</li>
 
-  <li>Inazuma Eleven 2: Blizzard &amp; Firestorm (non-Japanese versions)</li>
-
-  <li>Inazuma Eleven 3: Sekai e no Chousen!! The Ogre</li>
-
-  <li>Pokémon: HeartGold &amp; SoulSilver Version</li>
-
-  <li>Radiant Historia</li>
-
-  <li>SaGa 2: Hihou Densetsu: Goddess of Destiny</li>
+  <li>Due to memory limitations, this does not affect users who are running nds-bootstrap''s
+  B4DS mode.</li>
 
   </ul>
 
   </li>
 
-  </ul>
-
-  <h3 dir="auto">What''s new?</h3>
+  <li>If the SD card the game is running from uses 32KB cluster size or more, the
+  cluster size of the LRU cache will be increased from 16KB to 32KB, loading a bit
+  more data each time a card read occurs.
 
   <ul dir="auto">
+
+  <li>This is known to fix some crashes in <em>Pokemon Ranger: Guardian Signs</em>.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Fixed NAND save R/W under 512 bytes not working correctly by loading the last
+  read data into the LRU cache.
+
+  <ul dir="auto">
+
+  <li>Due to memory limitations, this does not affect users who are running nds-bootstrap''s
+  B4DS mode.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Fixed a possible crash which could occur when trying to connect to Wii in <em>Pokemon
+  HeartGold &amp; SoulSilver</em>.</li>
+
+  <li>The following games will no longer need to be manually AP-patched first before
+  applying a ROM hack:
+
+  <ul dir="auto">
+
+  <li>MegaMan Zero Collection</li>
+
+  <li>Phantasy Star 0</li>
+
+  <li>Solatorobo: Red the Hunter</li>
+
+  <li>Style Savvy</li>
+
+  </ul>
+
+  </li>
+
+  <li>Fixed AP-fix for <em>Phantasy Star 0</em> (Japan).</li>
+
+  <li>Most of the black flickering no longer occurs in the Transformers games developed
+  by Vicarious Visions.</li>
+
+  <li>If the DSi Sound app is set as a donor ROM for DSi-Enhanced games and save relocation
+  is disabled, the donor ROM will be rejected.</li>
+
+  <li>Fixed <em>Pokemon Black &amp; White 1 &amp; 2</em> not booting if a THUMB ROM
+  (such as the standalone DS WiFi Settings ROM) is used as a DSi donor ROM.</li>
+
+  <li>Fixed card read DMA not being patched properly for a few games (such as <em>Planet
+  Puzzle League</em>).</li>
+
+  <li>Attempted to fix possible issues occurring in homebrew titles by reverting the
+  LRU cache transfer method from <code class="notranslate">__aeabi_memcpy</code> to
+  <code class="notranslate">tonccpy</code>.</li>
+
+  <li><em>Yu-Gi-Oh!: Nightmare Troubadour</em> and all <em>Yu-Gi-Oh! World Championship</em>
+  games are now blacklisted from using screen color filters and/or the DS Phat color
+  setting due to slowdown in some areas and darkening issues from palette cycling.</li>
 
   <li>Various: Updated in-game menu translations.</li>
 
   </ul>'
-updated: '2025-09-09T06:13:47Z'
-version: v2.8.3
-version_title: v2.8.3
+updated: '2025-10-19T00:20:46Z'
+version: v2.9.0
+version_title: v2.9.0
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---

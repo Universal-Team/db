@@ -16,7 +16,7 @@ image: https://avatars.githubusercontent.com/u/5251038?v=4&size=128
 image_length: 43557
 layout: app
 source: https://github.com/Gericom/YoutubeDS/tree/mpeg4player
-stars: 69
+stars: 70
 systems:
 - DS
 title: MPEG4 Player

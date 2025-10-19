@@ -12,35 +12,35 @@ downloads:
   AddOn-BetterDSiMenuMusic.7z:
     size: 22208058
     size_str: 21 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.4/AddOn-BetterDSiMenuMusic.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.18.0/AddOn-BetterDSiMenuMusic.7z
   AddOn-ExtraUIMusic.7z:
-    size: 8420943
+    size: 8420942
     size_str: 8 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.4/AddOn-ExtraUIMusic.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.18.0/AddOn-ExtraUIMusic.7z
   AddOn-Multimedia.7z:
-    size: 809131
+    size: 809031
     size_str: 790 KiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.4/AddOn-Multimedia.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.18.0/AddOn-Multimedia.7z
   AddOn-VirtualConsole.7z:
-    size: 3745673
+    size: 3745687
     size_str: 3 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.4/AddOn-VirtualConsole.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.18.0/AddOn-VirtualConsole.7z
   TWiLightMenu-3DS.7z:
-    size: 29617574
+    size: 29532079
     size_str: 28 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.4/TWiLightMenu-3DS.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.18.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 29672590
+    size: 29556659
     size_str: 28 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.4/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.18.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 40572722
-    size_str: 38 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.4/TWiLightMenu-Flashcard.7z
+    size: 40921411
+    size_str: 39 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.18.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 72455070
+    size: 72477126
     size_str: 69 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.17.4/TWiLightMenu.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.18.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -50,11 +50,14 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/DS-Homebrew/TWiLightMenu
-stars: 3676
+stars: 3675
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.9.0">nds-bootstrap
+  v2.9.0</a></p>
+
+  <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
 
   <ul dir="auto">
@@ -72,35 +75,38 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 
   <ul dir="auto">
 
+  <li>Added autoboot files for <code class="notranslate">R4i SDHC Brand New V2.0</code>
+  flashcards!</li>
+
+  <li>Suggested by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/Sanrax/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Sanrax">@Sanrax</a>:
+  R4TF cards now use YSMenu as the flashcard loader instead of Wood!</li>
+
+  <li>A DSi donor ROM (Standalone DS WiFi Settings) is now automatically set on 3DS
+  in order for nds-bootstrap to work around the small FAT cluster cache size limitation
+  for DSi-Enhanced games. (Unknown if this works on Chinese and Korean consoles.)</li>
+
+  <li>Added widescreen support for <em>Yu-Gi-Oh!: Nightmare Troubadour</em> (USA).
+  (Code by deisuke1234)</li>
+
   <li>Various: Updated translations.</li>
 
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed an overlooked bug which caused detection of blank translated strings to
-  crash in both first-boot and settings screens. Blank strings will now fallback to
-  the default untranslated strings.
-
-  <ul dir="auto">
-
-  <li>In other words, trying to open TWLMenu++ Settings when using the French language
-  or selecting a language on first boot will no longer show a Guru Meditation Error!</li>
+  <li>New Rocket Robz logo.</li>
 
   </ul>
 
-  </li>
+  <h3 dir="auto">Bug fix</h3>
 
-  <li>If the <code class="notranslate">Games and Apps settings</code> page contains
-  no settings (due to using DSiWarehax exploits and no <em>Virtual Console</em> add-on
-  installed), the page will now be skipped entirely instead of showing a blank page.</li>
+  <ul dir="auto">
+
+  <li>The <code class="notranslate">B4DS mode</code> setting is now displayed if Slot-1
+  is running with SCFG access enabled and if SD access is disabled.</li>
 
   </ul>'
-updated: '2025-09-19T09:18:47Z'
-version: v27.17.4
-version_title: v27.17.4 (hotfix)
+updated: '2025-10-19T00:42:27Z'
+version: v27.18.0
+version_title: v27.18.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
