@@ -33,9 +33,13 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <p data-sourcepos="1:1-1:77" dir="auto">Fix accidentally leaving code
-  in that always triggered the new version screen</p>&#x000A;<p data-sourcepos="5:1-5:5"
-  dir="auto"><em data-sourcepos="5:1-5:5">yay</em></p>
+update_notes: 'Fix accidentally leaving code in that always triggered the new version
+  screen
+
+
+
+
+  *yay*'
 updated: '2025-10-15T10:19:26.000Z'
 version: v1.2.4
 version_title: v.1.2.4
