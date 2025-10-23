@@ -10,13 +10,13 @@ description: Horse Race Tests 3DS Recreation
 download_page: https://github.com/vinegar77/hrt-3ds/releases
 downloads:
   hrt3ds.3dsx:
-    size: 24958930
-    size_str: 23 MiB
-    url: https://github.com/vinegar77/hrt-3ds/releases/download/v1.1.1/hrt3ds.3dsx
-  hrt3ds.cia:
-    size: 23983040
+    size: 24082390
     size_str: 22 MiB
-    url: https://github.com/vinegar77/hrt-3ds/releases/download/v1.1.1/hrt3ds.cia
+    url: https://github.com/vinegar77/hrt-3ds/releases/download/v1.1.2/hrt3ds.3dsx
+  hrt3ds.cia:
+    size: 23450560
+    size_str: 22 MiB
+    url: https://github.com/vinegar77/hrt-3ds/releases/download/v1.1.2/hrt3ds.cia
 github: vinegar77/hrt-3ds
 icon: https://raw.githubusercontent.com/vinegar77/hrt-3ds/main/resources/icon.png
 image: https://raw.githubusercontent.com/vinegar77/hrt-3ds/main/resources/hrtbanner.png
@@ -33,43 +33,29 @@ systems:
 title: hrt3DS
 unique_ids:
 - '0xFF80'
-update_notes: '<p dir="auto">A minor audio patch to fix issues detailed in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3527991540" data-permission-text="Title
-  is private" data-url="https://github.com/vinegar77/hrt-3ds/issues/1" data-hovercard-type="issue"
-  data-hovercard-url="/vinegar77/hrt-3ds/issues/1/hovercard" href="https://github.com/vinegar77/hrt-3ds/issues/1">#1</a>:</p>
+update_notes: '<h2 dir="auto">hrt3DS 1.1.2</h2>
 
   <ul dir="auto">
 
-  <li>Fixed a bug where toggling audio on and off during a race led to a crash.</li>
-
-  <li>Added an option to run a custom race without music
+  <li>Updated internal engine to latest version
 
   <ul dir="auto">
 
-  <li>Win Songs will still play at the end of the race.</li>
+  <li>Load times are faster on all 3DS models, especially with CIA build</li>
+
+  <li>Improved framerate/reduced audio lag on o3DS models during races</li>
 
   </ul>
 
   </li>
 
-  <li>Adjusted BGM audio type to greatly reduce audio stutter on Old3DS.
+  <li>Slight updates to collision thread to reduce table iterations</li>
 
-  <ul dir="auto">
-
-  <li>BGM with the default number of horses (6) may occasionally still stutter slightly,
-  but is closer to performace pre-1.1.0 update.</li>
-
-  <li>More complex maps like map 3 have worse performance than others.</li>
-
-  <li>Further improvements may come in a future version.</li>
-
-  </ul>
-
-  </li>
+  <li>Updated music toggle to resume rather than restart the bgm</li>
 
   </ul>'
-updated: '2025-10-18T06:16:10Z'
-version: v1.1.1
-version_title: hrt3ds v1.1.1 (Minor Audio Patch)
+updated: '2025-10-23T06:17:27Z'
+version: v1.1.2
+version_title: hrt3ds v1.1.2 (o3DS Improvement Patch)
 ---
 Horse Race Tests on 3DS! The authentic HRT experience (o3DS/o2DS models may experience slowdown with many horses at once.)
