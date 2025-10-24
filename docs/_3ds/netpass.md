@@ -10,13 +10,13 @@ description: A new way to experience StreetPass
 download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 6522616
+    size: 6523416
     size_str: 6 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/cd58a23c0df2dc6e4ed74922e8f045dd6ac8adb7/netpass.3dsx?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/63004a0e05699f6603a0a3051fddb7e663298a66/netpass.3dsx?inline=false
   netpass.cia:
     size: 6611904
     size_str: 6 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/cd58a23c0df2dc6e4ed74922e8f045dd6ac8adb7/netpass.cia?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/63004a0e05699f6603a0a3051fddb7e663298a66/netpass.cia?inline=false
 gitlab: 3ds-netpass/netpass
 icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
@@ -33,14 +33,8 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: 'Fix accidentally leaving code in that always triggered the new version
-  screen
-
-
-
-
-  *yay*'
-updated: '2025-10-15T10:19:26.000Z'
-version: v1.2.4
-version_title: v.1.2.4
+update_notes: Fix the qr code scanner crashing the app
+updated: '2025-10-24T14:27:27.310Z'
+version: v1.2.5
+version_title: v1.2.5
 ---
