@@ -93,21 +93,21 @@ class StoreEntry:
 					script.append({
 						"type": "extractFile",
 						"file": f"/{file}",
-						"input": f"{item}",
+						"input": f"^{item}",
 						"output": f"%3DSX%/{item[item.rfind('/') + 1:]}"
 					})
 				elif item[item.rfind(".") + 1:].lower() in ["nds", "dsi"]:
 					script.append({
 						"type": "extractFile",
 						"file": f"/{file}",
-						"input": f"{item}",
+						"input": f"^{item}",
 						"output": f"%NDS%/{item[item.rfind('/') + 1:]}"
 					})
 				elif item[item.rfind(".") + 1:].lower() == "cia":
 					script.append({
 						"type": "extractFile",
 						"file": f"/{file}",
-						"input": f"{item}",
+						"input": f"^{item}",
 						"output": f"/{item[item.rfind('/') + 1:]}"
 					})
 
@@ -131,21 +131,21 @@ class StoreEntry:
 					script.append({
 						"type": "extractFile",
 						"file": f"/{file}",
-						"input": f"{item}",
+						"input": f"^{item}",
 						"output": f"/{item[item.rfind('/') + 1:]}"
 					})
 				elif item[item.rfind(".") + 1:].lower() == "firm":
 					script.append({
 						"type": "extractFile",
 						"file": f"/{file}",
-						"input": f"{item}",
+						"input": f"^{item}",
 						"output": f"%FIRM%/{item[item.rfind('/') + 1:]}"
 					})
 				else:
 					script.append({
 						"type": "extractFile",
 						"file": f"/{file}",
-						"input": f"{item}",
+						"input": f"^{item}",
 						"output": f"/{item}"
 					})
 
