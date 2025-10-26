@@ -21,7 +21,7 @@ layout: app
 qr:
   RGB.cia: https://db.universal-team.net/assets/images/qr/rgb-cia.png
 source: https://github.com/MechanicalDragon0687/MCU_Bricker_tinydb
-stars: 8
+stars: 9
 systems:
 - 3DS
 title: MCU Bricker
