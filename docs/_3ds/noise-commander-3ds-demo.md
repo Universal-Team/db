@@ -10,30 +10,36 @@ created: '2025-01-06T19:04:39Z'
 description: Beat-making audio sequencer and DJ-tool for the Nintendo 3DS
 download_page: https://github.com/gearmo3ds/noisecommander3dsdemo/releases
 downloads:
-  noisecmdr-v0_1_4-demo.cia:
+  noisecmdr-v0_1_5-demo.cia:
     size: 3244992
     size_str: 3 MiB
-    url: https://github.com/gearmo3ds/noisecommander3dsdemo/releases/download/0.1.4/noisecmdr-v0_1_4-demo.cia
+    url: https://github.com/gearmo3ds/noisecommander3dsdemo/releases/download/0.1.5/noisecmdr-v0_1_5-demo.cia
 github: gearmo3ds/noisecommander3dsdemo
 icon: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/icon.png
 image: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/banner.png
 image_length: 40664
 layout: app
 qr:
-  noisecmdr-v0_1_4-demo.cia: https://db.universal-team.net/assets/images/qr/noisecmdr-v0_1_4-demo-cia.png
+  noisecmdr-v0_1_5-demo.cia: https://db.universal-team.net/assets/images/qr/noisecmdr-v0_1_5-demo-cia.png
 source: https://github.com/gearmo3ds/noisecommander3dsdemo
 stars: 1
 systems:
 - 3DS
 title: Noise Commander 3DS (Demo)
-update_notes: '<h1 dir="auto">0.1.4</h1>
+update_notes: '<h3 dir="auto">Added</h3>
+
+  <ul dir="auto">
+
+  <li>"StdyClck" setting in tempo-dialog: Keeps clock running and causes START to
+  wait for next bar to start playing</li>
+
+  </ul>
 
   <h3 dir="auto">Changed</h3>
 
   <ul dir="auto">
 
-  <li>Renamed "Gated" to "Hold" in piano and de-coupled the setting from drum pads.
-  Hold is off per default.</li>
+  <li>Wav recording now creates a new file instead of appending to the previous</li>
 
   </ul>
 
@@ -41,29 +47,31 @@ update_notes: '<h1 dir="auto">0.1.4</h1>
 
   <ul dir="auto">
 
-  <li>Creating empty clip assigns instrument 255 (Can now insert new row number without
-  losing instrument)</li>
+  <li>Value in master volume column may lead to incorrect instrument look-up and stopping
+  of a sustained looping note</li>
 
-  <li>Pad-view does not refresh instr labels when new row plays</li>
+  <li>Octave +/- buttons skipping a value making it impossible to play the -1 octave</li>
 
-  <li>Capturing loop to song in Factotum looper always copies only one bar when set
-  to two</li>
+  <li>App force quits when pressing upload button and wifi is disabled
 
-  <li>Set fade default value to 16 in Factotum looper to avoid pops at boundary</li>
+  <ul dir="auto">
 
-  <li>Pitch envelope amount not applied when selecting instrument</li>
+  <li>Now a message suggests to enable Wifi</li>
 
-  <li>Tapping "Sub-Tab" button (2nd from left at bottom in drum-pad view) does not
-  toggle to previous sub-tab</li>
+  <li>Networking is re-initialized and does not fail after wifi is switched multiple
+  times</li>
 
-  <li>Stopping of transport not transmitted when connected via UDS</li>
+  <li>If you start the function too quickly after enableding wifi you''ll see errors,
+  just start it again</li>
 
-  <li>Current slice-number not stored in song-file and lost at reload</li>
+  </ul>
+
+  </li>
 
   </ul>'
-updated: '2025-10-05T15:08:11Z'
-version: 0.1.4
-version_title: Bug fixes
+updated: '2025-10-26T19:14:34Z'
+version: 0.1.5
+version_title: More fixes
 website: https://www.patreon.com/NoiseCommander3DS
 ---
 Beat-making audio sequencer and DJ-tool
