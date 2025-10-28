@@ -117,6 +117,18 @@ update_notes: '<h2 dir="auto">THE GREAT PORTENING</h2>
 
   </ul>
 
+  <div class="markdown-alert markdown-alert-warning" dir="auto"><p class="markdown-alert-title"
+  dir="auto"><svg class="octicon octicon-alert mr-2" viewBox="0 0 16 16" version="1.1"
+  width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234
+  3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25
+  0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53
+  3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0
+  1 2 0Z"></path></svg>Warning</p><p dir="auto">The PS4 package on this GitHub release
+  is broken. Please download beta 27 from <a href="https://pkg-zone.com/details/NTXS10053"
+  rel="nofollow">pkg-zone</a> instead.</p>
+
+  </div>
+
   <h2 dir="auto">Runtime Changes</h2>
 
   <ul dir="auto">
@@ -192,6 +204,20 @@ update_notes: '<h2 dir="auto">THE GREAT PORTENING</h2>
   audio</li>
 
   </ul>
+
+  <div class="markdown-alert markdown-alert-warning" dir="auto"><p class="markdown-alert-title"
+  dir="auto"><svg class="octicon octicon-alert mr-2" viewBox="0 0 16 16" version="1.1"
+  width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234
+  3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25
+  0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53
+  3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0
+  1 2 0Z"></path></svg>Warning</p><p dir="auto">The Vita package on this GitHub release
+  was accidentally compiled without audio support.<br>
+
+  Please download beta 27 from <a href="https://files.catbox.moe/qdto2k.vpk" rel="nofollow">here</a>
+  instead.</p>
+
+  </div>
 
   <h2 dir="auto">Switch Changes</h2>
 
