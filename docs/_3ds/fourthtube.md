@@ -11,13 +11,13 @@ description: Another work-in-progress fork of the homebrew YouTube client for th
 download_page: https://github.com/erievs/FourthTube/releases
 downloads:
   FourthTube.3dsx:
-    size: 6206092
+    size: 6221708
     size_str: 5 MiB
-    url: https://github.com/erievs/FourthTube/releases/download/b33/FourthTube.3dsx
+    url: https://github.com/erievs/FourthTube/releases/download/b34/FourthTube.3dsx
   FourthTube.cia:
-    size: 4604864
+    size: 4608960
     size_str: 4 MiB
-    url: https://github.com/erievs/FourthTube/releases/download/b33/FourthTube.cia
+    url: https://github.com/erievs/FourthTube/releases/download/b34/FourthTube.cia
 github: erievs/FourthTube
 icon: https://raw.githubusercontent.com/erievs/FourthTube/main/resource/icon.png
 image: https://raw.githubusercontent.com/erievs/FourthTube/main/resource/banner_legacy.png
@@ -34,7 +34,8 @@ systems:
 title: FourthTube
 unique_ids:
 - '0xBF74D'
-update_notes: '<p dir="auto">A lot.</p>
+update_notes: '<p dir="auto">This release doesn''t have as much, but it should fix
+  video playback for most users.</p>
 
   <h1 dir="auto"><strong>Changelog</strong></h1>
 
@@ -42,93 +43,21 @@ update_notes: '<p dir="auto">A lot.</p>
 
   <ul dir="auto">
 
-  <li>Better error screen.</li>
+  <li>The screen timeout feature now only turns off the bottom screen. This means
+  you no longer have to set it to Never to make the app usable.</li>
 
-  <li>Formatted the entire codebase with clang-format.</li>
-
-  <li>Added an option to hide the pointer (the red box when you tap the screen).</li>
-
-  <li>FourthTube now uses a better color scheme, instead of using a dull blue nearly
-  everywhere.</li>
-
-  <li>New banner for when a video isn''t playing. Criticism is welcome.</li>
-
-  <li>Old ThirdTube config files now retain the scroll speed threshold value set when
-  used in FourthTube.</li>
-
-  <li>Dropped the unused unicodetochar library.</li>
-
-  <li>Changed some font sizes.</li>
-
-  <li>Deleted some obsolete files.</li>
-
-  <li>Changed libctru library path to his. Updated it.</li>
-
-  <li>Some other general improvements to enhance the user''s experience (TM)</li>
+  <li>The iOS client has been removed in favor of Android (with some iOS parameters
+  since that works for some reason). This works with all videos that the iOS client
+  originally supported. visionOS should no longer be preferred due to YouTube blocking
+  Kids videos on it as of September or so. If you used it as a workaround in 33, please
+  switch back. This may also fix video playback in certain regions, but I don''t know
+  for certain.</li>
 
   </ul>
 
-  <p dir="auto"><strong>2ipper</strong></p>
-
-  <ul dir="auto">
-
-  <li>Fixed the community tab.</li>
-
-  <li>Added timestamps. Tapping them in the description or comments will jump you
-  to that timestamp automatically.</li>
-
-  <li>Added Live tab.</li>
-
-  <li>Added Shorts tab.</li>
-
-  <li>Changed the color of the Reload button.</li>
-
-  <li>Removed useless randomVisitorData function.</li>
-
-  <li>Translated the "Hide pointer" string into Japanese.</li>
-
-  <li>Added better resolution detection logic.</li>
-
-  <li>Fixed a bug where a video would end a few seconds early.</li>
-
-  </ul>
-
-  <p dir="auto"><strong>Dragontwo14</strong></p>
-
-  <ul dir="auto">
-
-  <li>Made some fixes to the German translation.</li>
-
-  <li>Translated the "Hide pointer" string into German.</li>
-
-  </ul>
-
-  <p dir="auto"><strong>cooolgamer</strong></p>
-
-  <ul dir="auto">
-
-  <li>Translated the "Hide pointer" string into French.</li>
-
-  </ul>
-
-  <p dir="auto"><strong>Dxni</strong></p>
-
-  <ul dir="auto">
-
-  <li>Translated the "Hide pointer" string into Italian.</li>
-
-  </ul>
-
-  <p dir="auto"><strong>Misino</strong></p>
-
-  <ul dir="auto">
-
-  <li>Added a Spanish translation (will be implemented in the future).</li>
-
-  </ul>
-
-  <h3 dir="auto">Thank you all!</h3>'
-updated: '2025-07-23T12:35:58Z'
-version: b33
-version_title: Beta - 33
+  <h3 dir="auto">This also marks the first anniversary of FourthTube. Thank you all
+  for using it!</h3>'
+updated: '2025-10-28T03:37:11Z'
+version: b34
+version_title: Beta - 34
 ---
