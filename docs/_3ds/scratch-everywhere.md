@@ -11,13 +11,17 @@ description: Play Scratch games on your 3DS!
 download_page: https://github.com/ScratchEverywhere/ScratchEverywhere/releases
 downloads:
   scratch-3ds.3dsx:
-    size: 8898056
-    size_str: 8 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.26/scratch-3ds.3dsx
+    size: 10263424
+    size_str: 9 MiB
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.27/scratch-3ds.3dsx
   scratch-3ds.cia:
-    size: 7836608
-    size_str: 7 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.26/scratch-3ds.cia
+    size: 9208768
+    size_str: 8 MiB
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.27/scratch-3ds.cia
+  scratch-ds.nds:
+    size: 4712448
+    size_str: 4 MiB
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.27/scratch-ds.nds
 github: ScratchEverywhere/ScratchEverywhere
 icon: https://raw.githubusercontent.com/ScratchEverywhere/ScratchEverywhere/refs/heads/main/gfx/icon.png
 image: https://raw.githubusercontent.com/ScratchEverywhere/ScratchEverywhere/refs/heads/main/gfx/logo.png
@@ -26,102 +30,90 @@ license: lgpl-3.0
 license_name: GNU Lesser General Public License v3.0
 qr:
   scratch-3ds.cia: https://db.universal-team.net/assets/images/qr/scratch-3ds-cia.png
+  scratch-ds.nds: https://db.universal-team.net/assets/images/qr/scratch-ds-nds.png
 source: https://github.com/ScratchEverywhere/ScratchEverywhere
 stars: 392
 systems:
 - 3DS
 title: Scratch Everywhere!
-update_notes: '<h2 dir="auto">3DS Changes</h2>
+update_notes: '<h2 dir="auto">THE GREAT PORTENING</h2>
+
+  <h3 dir="auto">DS Port!</h3>
 
   <ul dir="auto">
 
-  <li>Migrated from SDL2 to SDL3 for audio
+  <li>They thought it was impossible... but impossible is my middle name.</li>
+
+  <li>It''s recommended that you read the README for the limitations of this port!</li>
+
+  <li>You will likely come across many crashes, so please open up a GitHub issue if
+  you experience them!</li>
+
+  <li><strong>KNOWN ISSUES</strong>
 
   <ul dir="auto">
 
-  <li>Overall audio performance will be better with this change!</li>
+  <li>Unpacking projects and changing controls crash the system</li>
 
-  <li>Every sound is now a streamed sound, meaning you no longer have to put certain
-  sounds in the stage!</li>
+  <li>Cloud variables will not be supported</li>
+
+  <li>RAM is very limited, so try to keep projects small</li>
+
+  <li>A bunch of Audio limitations, see README for details</li>
 
   </ul>
 
   </li>
 
-  <li>Refactored images to use 2x less RAM!</li>
+  <li>Via pull request <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="3473073714" data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/362"
+  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/362/hovercard"
+  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/362">#362</a>!</li>
 
-  <li>Unused images will now stay in memory for longer before being freed
+  </ul>
+
+  <h3 dir="auto">Web Port!</h3>
 
   <ul dir="auto">
 
-  <li>Changed from 4 seconds to 21 seconds</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gradylink/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gradylink">@gradylink</a>
+  has ported the Runtime to WebAssembly!</li>
+
+  <li>With this, <a href="https://scratchbox.grady.link" rel="nofollow">ScratchBox</a>
+  is also updated to use SE!</li>
+
+  <li>Via pull request <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="3416173751" data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/334"
+  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/334/hovercard"
+  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/334">#334</a>!</li>
+
+  </ul>
+
+  <h3 dir="auto">PS4 Port!</h3>
+
+  <ul dir="auto">
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/PwLDev/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/PwLDev">@PwLDev</a>
+  has spent over 3 months porting SE! to the PS4!</li>
+
+  <li>Now all 3.5 modded PS4 users can enjoy Scratch games on the big screen!</li>
+
+  <li><strong>KNOWN ISSUES</strong>
+
+  <ul dir="auto">
+
+  <li>Cloud variables is not currently supported</li>
 
   </ul>
 
   </li>
 
-  <li>Audio now works when using <code class="notranslate">.cia</code></li>
-
-  </ul>
-
-  <h2 dir="auto">GameCube Changes</h2>
-
-  <p dir="auto"><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Extrems/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Extrems">@Extrems</a>
-  has done a ton of work to the GameCube port recently!</p>
-
-  <ul dir="auto">
-
-  <li>Migrated to libogc2</li>
-
-  <li>Fixed not being able to find projects in Main Menu
-
-  <ul dir="auto">
-
-  <li>This means the GameCube build can finally come back to releases!</li>
-
-  </ul>
-
-  </li>
-
-  <li>Fixed GameCube controller inputs getting stuck</li>
-
-  <li>Fixed system time getting reset to January 1st, 2000</li>
-
-  <li>Fixed progressive scan mode being forcibly enabled when using component video</li>
-
-  <li>General GameCube code cleanup</li>
-
-  <li>All via pull request <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="3528029154" data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/411"
-  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/411/hovercard"
-  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/411">#411</a>!</li>
-
-  </ul>
-
-  <h2 dir="auto">Switch Changes</h2>
-
-  <ul dir="auto">
-
-  <li>Fixed audio not working</li>
-
-  <li>Fixed Dockerfile builds crashing
-
-  <ul dir="auto">
-
-  <li>This should also fix the crashing that was present in Beta 25.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Fixed resolution not getting changed correctly</li>
-
-  <li>Swapped ABXY buttons from Xbox layout to Nintendo layout</li>
-
-  <li>Added correct error text for no projects in Main Menu</li>
-
-  <li>Fixed icon not showing up</li>
+  <li>Via pull request <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="3343278859" data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/278"
+  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/278/hovercard"
+  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/278">#278</a>!</li>
 
   </ul>
 
@@ -129,61 +121,87 @@ update_notes: '<h2 dir="auto">3DS Changes</h2>
 
   <ul dir="auto">
 
-  <li>Lists now have a maximum length of <code class="notranslate">200,000</code>
-  items</li>
+  <li>Optimized Sprite rendering performance</li>
 
-  <li>the <code class="notranslate">equals</code> block is now case-insensitive, matching
-  Scratch behavior</li>
+  <li>Fixed huge memory leak with <code class="notranslate">If else</code> block</li>
 
-  <li><code class="notranslate">Stop "other scripts in this sprite"</code> block now
-  stops playing sounds in the sprite</li>
+  <li>Fixed Main Menu and audio memory leaks</li>
 
-  <li>Sounds are now in memory longer before getting freed
+  <li><code class="notranslate">Switch costume to</code> blocks with a number as an
+  input now chooses the correct costume</li>
+
+  <li>Fixed positioning of Monitors (Visible Variables)</li>
+
+  <li>Changed the look of Monitors look a bit more like Scratch</li>
+
+  <li>Added support for more Monitor types</li>
+
+  <li>Added <code class="notranslate">Scratch Everywhere! controller</code> custom
+  block
 
   <ul dir="auto">
 
-  <li>Changed from 8 seconds to 21 seconds</li>
+  <li>Returns the current controller being used</li>
 
   </ul>
 
   </li>
 
-  <li>Sound loading is no longer threaded
-
-  <ul dir="auto">
-
-  <li>This means that every time a new sound is loading, the game will freeze for
-  a bit, until the sound is loaded.</li>
-
-  <li>There are pros and cons to this, but ultimately this change makes audio more
-  stable.</li>
+  <li><strong>[SDL2 Platforms]</strong> Fixed scaling of Pen stamped Sprites</li>
 
   </ul>
 
-  </li>
+  <h2 dir="auto">3DS Changes</h2>
 
-  <li><strong>[SDL2]</strong> Sounds in the stage can now be stopped by <code class="notranslate">Stop
-  all sounds</code> block</li>
+  <ul dir="auto">
 
-  <li>The <code class="notranslate">Stop all sounds</code> block now stops every playing
-  sound, not just sounds in the sprite</li>
+  <li>Fixed rendering with the <code class="notranslate">Pen</code> extension</li>
 
-  <li>Fixed collision on off-center costumes</li>
+  <li>The <code class="notranslate">Pen</code> extension can now be used in dual screen
+  mode</li>
 
-  <li>Fixed sprites with off-center costumes being rendered in the wrong position</li>
+  <li>The mouse can no longer go off screen</li>
 
-  <li>Images now stay loaded in memory when stamping with Pen</li>
+  <li>Fixed compilation error when <code class="notranslate">ENABLE_AUDIO</code> is
+  off</li>
 
-  <li>Custom controls will now only try to load with projects from the Main Menu</li>
+  </ul>
 
-  <li>Main Menu buttons can now be clicked with touchscreen devices</li>
+  <h2 dir="auto">Wii Changes</h2>
 
-  <li>Renamed <code class="notranslate">Running flag block</code> text in loading
-  screen to <code class="notranslate">Finishing up!</code></li>
+  <ul dir="auto">
+
+  <li>Fixed projects being at an unplayable Framerate</li>
+
+  </ul>
+
+  <h2 dir="auto">Wii U Changes</h2>
+
+  <ul dir="auto">
+
+  <li>The <code class="notranslate">Stop "All"</code> block now correctly takes you
+  back to the Main Menu</li>
+
+  </ul>
+
+  <h2 dir="auto">Vita Changes</h2>
+
+  <ul dir="auto">
+
+  <li>Sounds from the stage now play as <code class="notranslate">Streamed</code>
+  audio</li>
+
+  </ul>
+
+  <h2 dir="auto">Switch Changes</h2>
+
+  <ul dir="auto">
+
+  <li>Fixed keyboard menu not closing when closing the software keyboard</li>
 
   </ul>'
-updated: '2025-10-19T12:25:05Z'
-version: '0.26'
-version_title: Beta Build 26
+updated: '2025-10-28T02:43:06Z'
+version: '0.27'
+version_title: Beta Build 27
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!
