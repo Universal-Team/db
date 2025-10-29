@@ -124,8 +124,10 @@ update_notes: '<h2 dir="auto">THE GREAT PORTENING</h2>
   0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53
   3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0
   1 2 0Z"></path></svg>Warning</p><p dir="auto">The PS4 package on this GitHub release
-  is broken. Please download beta 27 from <a href="https://pkg-zone.com/details/NTXS10053"
-  rel="nofollow">pkg-zone</a> instead.</p>
+  is broken.<br>
+
+  Please download beta 27 from <a href="https://pkg-zone.com/details/NTXS10053" rel="nofollow">pkg-zone</a>
+  instead.</p>
 
   </div>
 
