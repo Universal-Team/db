@@ -1,0 +1,11 @@
+{
+	"gitlab": "sorunome/cectool",
+	"systems": ["3DS"],
+	"categories": ["utility"],
+	"unique_ids": [1009013],
+	"image": "https://gitlab.com/sorunome/cectool/-/raw/main/meta/banner.png",
+	"icon": "https://gitlab.com/sorunome/cectool/-/raw/main/meta/icon.png",
+	"license": "gpl-3.0",
+	"license_name": "GNU General Public License v3.0 or later",
+	"long_description": "CEC Tool is a utility to help you debug your CEC/StreetPass data."
+}
