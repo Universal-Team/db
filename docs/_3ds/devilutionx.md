@@ -142,10 +142,6 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <li>macOS Intel x86 not build yet</li>
 
-  <li>Windows i386 not build yet</li>
-
-  <li>Windows x86_64 not build yet</li>
-
   </ul>'
 updated: '2025-10-30T17:00:17Z'
 version: 1.5.5
