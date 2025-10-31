@@ -130,6 +130,22 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <li>Fix incorrect CLX rendering</li>
 
+  </ul>
+
+  <h3 dir="auto">Known issues</h3>
+
+  <ul dir="auto">
+
+  <li>Linux aarch64 not build yet</li>
+
+  <li>macOS 10.4 Tiger ppc not build yet</li>
+
+  <li>macOS Intel x86 not build yet</li>
+
+  <li>Windows i386 not build yet</li>
+
+  <li>Windows x86_64 not build yet</li>
+
   </ul>'
 updated: '2025-10-30T17:00:17Z'
 version: 1.5.5
