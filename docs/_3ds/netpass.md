@@ -6,7 +6,7 @@ categories:
 color: '#87d6c8'
 color_bg: '#508077'
 created: '2024-04-14T17:00:40.939Z'
-description: A new way to experience StreetPass
+description: NetPass allows you to get StreetPasses over the iternet
 download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
@@ -37,4 +37,8 @@ update_notes: Fix the qr code scanner crashing the app
 updated: '2025-10-24T14:27:27.310Z'
 version: v1.2.5
 version_title: v1.2.5
+website: https://netpass.cafe
 ---
+#NetPass: StreetPass in the modern world
+
+NetPass allows you to get StreetPasses via the internet. You do that by joining virtual locations, where, upon entering, the server will randomly match you with other people. After 10 hours you automatically leave the location and can pick a new one.
