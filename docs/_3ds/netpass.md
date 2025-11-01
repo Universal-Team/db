@@ -33,8 +33,7 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <p data-sourcepos="1:1-1:40" dir="auto">Fix the qr code scanner crashing
-  the app</p>
+update_notes: Fix the qr code scanner crashing the app
 updated: '2025-10-24T14:27:27.310Z'
 version: v1.2.5
 version_title: v1.2.5
