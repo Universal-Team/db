@@ -8,7 +8,39 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads: {}
+downloads:
+  AddOn-BetterDSiMenuMusic.7z:
+    size: 22208058
+    size_str: 21 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.18.1/AddOn-BetterDSiMenuMusic.7z
+  AddOn-ExtraUIMusic.7z:
+    size: 8420942
+    size_str: 8 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.18.1/AddOn-ExtraUIMusic.7z
+  AddOn-Multimedia.7z:
+    size: 809041
+    size_str: 790 KiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.18.1/AddOn-Multimedia.7z
+  AddOn-VirtualConsole.7z:
+    size: 3745696
+    size_str: 3 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.18.1/AddOn-VirtualConsole.7z
+  TWiLightMenu-3DS.7z:
+    size: 29524815
+    size_str: 28 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.18.1/TWiLightMenu-3DS.7z
+  TWiLightMenu-DSi.7z:
+    size: 29549530
+    size_str: 28 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.18.1/TWiLightMenu-DSi.7z
+  TWiLightMenu-Flashcard.7z:
+    size: 40901316
+    size_str: 39 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.18.1/TWiLightMenu-Flashcard.7z
+  TWiLightMenu.7z:
+    size: 72481873
+    size_str: 69 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.18.1/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -43,8 +75,9 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>The Rocket Robz logo introduced in v27.18.0 has been reverted due to later personal
-  preference, along with the new logo not being (as) memorable as the old one.
+  <li>The Rocket Robz logo introduced in v27.18.0 has been reverted due to me personally
+  missing the old logo, along with the new logo not being (as) memorable as the old
+  one.
 
   <ul dir="auto">
 
@@ -77,6 +110,8 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   to load title" data-id="3534812982" data-permission-text="Title is private" data-url="https://github.com/DS-Homebrew/TWiLightMenu/issues/2579"
   data-hovercard-type="pull_request" data-hovercard-url="/DS-Homebrew/TWiLightMenu/pull/2579/hovercard"
   href="https://github.com/DS-Homebrew/TWiLightMenu/pull/2579">#2579</a>)</li>
+
+  <li>Various: Updated translations.</li>
 
   </ul>'
 updated: '2025-11-01T19:04:45Z'
