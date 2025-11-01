@@ -600,7 +600,7 @@ def process_app_entry(app: Dict[str, Any], fp: str, icon_idx: int, github_api: G
 
 	# Ensure URLs don't have spaces
 	for item in ["avatar", "download_page", "icon", "image", "source", "website", "wiki"]:
-		if item in app:
+		if item in app and app[item] is not None:
 			app[item] = requote_uri(app[item])
 
 	# Format update notes with GitHub's API
