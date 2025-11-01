@@ -550,6 +550,12 @@ def fetch_app_data(app: Dict[str, Any], github_session: GitHubAPI):
 	return app
 
 
+class FetchAppDataError(Exception):
+	def __init__(self, inner: Exception):
+		super().__init__("Failed to fetch app data")
+		self.inner = inner
+
+
 def process_app_entry(app: Dict[str, Any], fp: str, icon_idx: int, github_api: GitHubAPI, old_data,
 					  *, webhook=None) -> Optional[Tuple[Dict[str, Any], int]]:
 	iconIndex = icon_idx
@@ -565,7 +571,7 @@ def process_app_entry(app: Dict[str, Any], fp: str, icon_idx: int, github_api: G
 			create_error_report(trace, title, webhook)
 
 		click.secho(trace, fg="red")
-		raise e
+		raise FetchAppDataError(e)
 
 	# Process format strings in downloads if needed
 	if "eval_downloads" in app and app["eval_downloads"]:
@@ -855,7 +861,15 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 		if doUpdate:
 			try:
 				app, iconIndex = process_app_entry(app, fp, iconIndex, github, oldData, webhook=webhook)
-			except Exception:
+			except FetchAppDataError:
+				continue
+			except Exception as e:
+				trace = format_traceback(e)
+				if webhook:
+					title = app['title'] if "title" in app else fp
+					create_error_report(trace, title, webhook)
+
+				click.secho(trace, fg="red")
 				continue
 
 		if "title" in app:
