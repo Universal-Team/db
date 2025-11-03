@@ -6,7 +6,7 @@
 	"systems": ["3DS"],
 	"categories": ["utility"],
 	"unique_ids": [771177],
-	"image": "https://raw.githubusercontent.com/cylin577/Better-NFCReader/main/resources/banner.png",
-	"icon": "https://raw.githubusercontent.com/cylin577/Better-NFCReader/main/resources/icon.png",
+	"image": "https://raw.githubusercontent.com/cylin577/Better-NFCReader/master/resources/banner.png",
+	"icon": "https://raw.githubusercontent.com/cylin577/Better-NFCReader/master/resources/icon.png",
 	"long_description": "This is a really cool app based on MrJPGames' NFCReader, I updated it to citro2d and make it possible to scan 0x7 tags."
 }
