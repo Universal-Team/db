@@ -20,6 +20,7 @@ downloads:
 github: Core-2-Extreme/Video_player_for_3DS
 icon: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/banner.png
+image_length: 12768
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
