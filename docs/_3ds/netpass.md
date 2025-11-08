@@ -33,8 +33,10 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: " - various small stability fixes\n - preperation for bottom screen\
-  \ UI\n - logging with target settings\n - make self-updater have a progress bar"
+update_notes: <ul data-sourcepos="1:2-4:40" dir="auto">&#x000A;<li data-sourcepos="1:2-1:32">various
+  small stability fixes</li>&#x000A;<li data-sourcepos="2:2-2:35">preperation for
+  bottom screen UI</li>&#x000A;<li data-sourcepos="3:2-3:31">logging with target settings</li>&#x000A;<li
+  data-sourcepos="4:2-4:40">make self-updater have a progress bar</li>&#x000A;</ul>
 updated: '2025-11-05T18:09:30.853Z'
 version: v1.2.6
 version_title: v1.2.6
