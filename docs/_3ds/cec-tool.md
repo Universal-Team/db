@@ -27,7 +27,7 @@ license_name: GNU General Public License v3.0 or later
 qr:
   cec-tool.cia: https://db.universal-team.net/assets/images/qr/cec-tool-cia.png
 source: https://gitlab.com/sorunome/cectool
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: CEC Tool
