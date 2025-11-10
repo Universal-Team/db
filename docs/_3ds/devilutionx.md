@@ -138,8 +138,6 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <li>Linux aarch64 not build yet</li>
 
-  <li>macOS 10.4 Tiger ppc not build yet</li>
-
   <li>macOS Intel x86 not build yet</li>
 
   </ul>'
