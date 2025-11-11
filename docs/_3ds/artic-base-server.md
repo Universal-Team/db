@@ -28,7 +28,7 @@ license_name: MIT License
 qr:
   ArticBase.cia: https://db.universal-team.net/assets/images/qr/articbase-cia.png
 source: https://github.com/azahar-emu/ArticBaseServer
-stars: 554
+stars: 555
 systems:
 - 3DS
 title: Artic Base Server
