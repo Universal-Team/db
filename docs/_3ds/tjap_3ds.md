@@ -12,11 +12,11 @@ downloads:
   TJAP_3DS.3dsx:
     size: 9474276
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.4/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.4A/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 9753536
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.4/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.4A/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -40,7 +40,7 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>ボタン演奏に関する操作性の向上</li>
+  <li>軽度の不具合修正</li>
 
   </ul>
 
@@ -48,12 +48,12 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Improved operability for button play.</li>
+  <li>Minor bug fixes.</li>
 
   </ul>'
-updated: '2025-09-30T08:25:40Z'
-version: v1.8.4
-version_title: TJAPlayer for 3DS v1.8.4
+updated: '2025-11-12T10:21:09Z'
+version: v1.8.4A
+version_title: TJAPlayer for 3DS v1.8.4(A)
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
