@@ -10,7 +10,7 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9474276
+    size: 9474268
     size_str: 9 MiB
     url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v1.8.4A/TJAP_3DS.3dsx
   TJAP_3DS.cia:
@@ -40,7 +40,19 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>軽度の不具合修正</li>
+  <li>
+
+  <p dir="auto">軽度の不具合修正</p>
+
+  </li>
+
+  <li>
+
+  <p dir="auto">追記<br>
+
+  譜面分岐後の風船の打数が本来のと異なる可能性がある不具合の修正</p>
+
+  </li>
 
   </ul>
 
@@ -48,7 +60,20 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Minor bug fixes.</li>
+  <li>
+
+  <p dir="auto">Minor bug fixes.</p>
+
+  </li>
+
+  <li>
+
+  <p dir="auto">Addendum<br>
+
+  Fixed an issue where the number of balloon hits after a branching chart could differ
+  from the intended number.</p>
+
+  </li>
 
   </ul>'
 updated: '2025-11-12T10:21:09Z'
