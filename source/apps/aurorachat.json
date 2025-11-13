@@ -2,6 +2,7 @@
 	"github": "mii-man/aurorachat",
 	"systems": ["3DS"],
 	"categories": ["app"],
+	"unique_ids": ["965677"]
 	"image": "https://raw.githubusercontent.com/mii-man/aurorachat/main/meta/banner.png",
 	"icon": "https://raw.githubusercontent.com/mii-man/aurorachat/main/meta/icon.png",
 	"long_description": "A chat app for 3DS similar to hbchat, but with better security",
