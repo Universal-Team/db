@@ -70,8 +70,8 @@ update_notes: '<h1 align="center" dir="auto">Bandolero 3DS <g-emoji class="g-emo
 
   <div align="center" dir="auto">
 
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/f238210758aaea3483d0cb16926cf9715882ea431d4afbe3742b734e598c2afd/68747470733a2f2f692e696d6775722e636f6d2f4e416b4d6865612e706e67"><img
-  src="https://camo.githubusercontent.com/f238210758aaea3483d0cb16926cf9715882ea431d4afbe3742b734e598c2afd/68747470733a2f2f692e696d6775722e636f6d2f4e416b4d6865612e706e67"
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/736924c4ef73699b72bad7237adb0cebadbe1be1413deb5ec1a20e9d634b089b/68747470733a2f2f692e696d6775722e636f6d2f4e416b4d6865612e706e67"><img
+  src="https://camo.githubusercontent.com/736924c4ef73699b72bad7237adb0cebadbe1be1413deb5ec1a20e9d634b089b/68747470733a2f2f692e696d6775722e636f6d2f4e416b4d6865612e706e67"
   data-canonical-src="https://i.imgur.com/NAkMhea.png" style="max-width: 100%;"></a></div>'
 updated: '2025-05-18T15:34:19Z'
 version: 1.5RU

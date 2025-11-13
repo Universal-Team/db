@@ -51,8 +51,8 @@ update_notes: '<h1 dir="auto">PLEASE READ -&gt; SET YOUR TIME ZONE CORRECTLY IN 
 
   <p dir="auto">You can scan this QR Code in FBI to install it.<br>
 
-  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/949eb4ab77321164249af8c3bb10336328f24f1070d59348d6a06f7c019390ff/68747470733a2f2f7777772e6369747261686f6c642e636f6d2f696d61676572792f71722e706e673f6e6577"><img
-  src="https://camo.githubusercontent.com/949eb4ab77321164249af8c3bb10336328f24f1070d59348d6a06f7c019390ff/68747470733a2f2f7777772e6369747261686f6c642e636f6d2f696d61676572792f71722e706e673f6e6577"
+  <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/7d963adecd2ad3690f67f44c3405443afb5d07fef6d3ab94c3bc8db1e76debef/68747470733a2f2f7777772e6369747261686f6c642e636f6d2f696d61676572792f71722e706e673f6e6577"><img
+  src="https://camo.githubusercontent.com/7d963adecd2ad3690f67f44c3405443afb5d07fef6d3ab94c3bc8db1e76debef/68747470733a2f2f7777772e6369747261686f6c642e636f6d2f696d61676572792f71722e706e673f6e6577"
   alt="Citrahold CIA QR Code" data-canonical-src="https://www.citrahold.com/imagery/qr.png?new"
   style="max-width: 100%;"></a></p>'
 updated: '2024-12-24T03:06:39Z'

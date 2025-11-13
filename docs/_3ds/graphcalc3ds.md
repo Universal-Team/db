@@ -42,8 +42,8 @@ update_notes: '<p dir="auto">Small release to fix a bug in version 1.5. The bug 
 
   <p dir="auto">QR code for CIA:</p>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/e56c4e84f56274bc4560ecc5e51272f4b5804121dda4d81c2c36e4840c5bd0d7/687474703a2f2f692e696d6775722e636f6d2f717a7535444c332e706e67"><img
-  src="https://camo.githubusercontent.com/e56c4e84f56274bc4560ecc5e51272f4b5804121dda4d81c2c36e4840c5bd0d7/687474703a2f2f692e696d6775722e636f6d2f717a7535444c332e706e67"
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/4db3883270e3fff571f77e24fb8e54fccf50772a46908d671d6bedfef4095884/687474703a2f2f692e696d6775722e636f6d2f717a7535444c332e706e67"><img
+  src="https://camo.githubusercontent.com/4db3883270e3fff571f77e24fb8e54fccf50772a46908d671d6bedfef4095884/687474703a2f2f692e696d6775722e636f6d2f717a7535444c332e706e67"
   alt="https://github.com/flarn2006/GraphCalc3DS/releases/download/v1.5.1/GraphCalc3DS.cia"
   data-canonical-src="http://i.imgur.com/qzu5DL3.png" style="max-width: 100%;"></a></p>'
 updated: '2016-12-03T21:05:23Z'
