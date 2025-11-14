@@ -136,8 +136,6 @@ update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Linux aarch64 not build yet</li>
-
   <li>macOS Intel x86 not build yet</li>
 
   </ul>'
