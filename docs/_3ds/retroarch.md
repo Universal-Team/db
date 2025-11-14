@@ -33,7 +33,7 @@ nightly:
     RetroArch_cia.7x:
       url: https://buildbot.libretro.com/nightly/nintendo/3ds/RetroArch_cia.7z
 source: https://github.com/libretro/RetroArch
-stars: 12143
+stars: 12144
 systems:
 - 3DS
 title: RetroArch
@@ -50,6 +50,8 @@ update_notes: '<ul dir="auto">
   to mount most directories1 from internal storage, the SD card, other removable storage
   devices and any document providers provided by other Android apps on the current
   device.</li>
+
+  <li>3DS: Add 800px mode for New 3DS models</li>
 
   <li>APPLE: Include sameduck, gearcoleco, geargrafx cores in App Store builds</li>
 
@@ -174,6 +176,8 @@ update_notes: '<ul dir="auto">
   <li>IOS/MACOS: Fix display server resolution and refresh rates</li>
 
   <li>IOS/TVOS: Use native keyboard</li>
+
+  <li>JPEG: Fix clamping bug in JPEG decode</li>
 
   <li>LIBRETRO: Deprecate intfstream_open_writable_memory</li>
 
