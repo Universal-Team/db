@@ -33,7 +33,7 @@ nightly:
     RetroArch_cia.7x:
       url: https://buildbot.libretro.com/nightly/nintendo/3ds/RetroArch_cia.7z
 source: https://github.com/libretro/RetroArch
-stars: 12144
+stars: 12145
 systems:
 - 3DS
 title: RetroArch
@@ -327,7 +327,7 @@ update_notes: '<ul dir="auto">
   <li>WEBOS: Fix GLES 3/3.1/3.2 option, enable 64-bit option</li>
 
   </ul>'
-updated: '2025-11-12T21:49:34Z'
+updated: '2025-11-14T16:23:45Z'
 version: v1.22.0
 version_title: v1.22.0
 website: http://www.libretro.com
