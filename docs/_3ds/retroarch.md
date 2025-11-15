@@ -8,14 +8,14 @@ color_bg: '#484848'
 created: '2010-05-27T14:47:40Z'
 description: Cross-platform, sophisticated frontend for the libretro API. Licensed
   GPLv3.
-download_page: https://buildbot.libretro.com/stable/1.22.0/nintendo/3ds
+download_page: https://buildbot.libretro.com/stable/1.22.1/nintendo/3ds
 downloads:
   RetroArch_3dsx.7z:
     size: null
-    url: https://buildbot.libretro.com/stable/1.22.0/nintendo/3ds/RetroArch_3dsx.7z
+    url: https://buildbot.libretro.com/stable/1.22.1/nintendo/3ds/RetroArch_3dsx.7z
   RetroArch_cia.7z:
     size: null
-    url: https://buildbot.libretro.com/stable/1.22.0/nintendo/3ds/RetroArch_cia.7z
+    url: https://buildbot.libretro.com/stable/1.22.1/nintendo/3ds/RetroArch_cia.7z
 eval_downloads: true
 eval_notes_md: true
 github: libretro/RetroArch
@@ -327,9 +327,9 @@ update_notes: '<ul dir="auto">
   <li>WEBOS: Fix GLES 3/3.1/3.2 option, enable 64-bit option</li>
 
   </ul>'
-updated: '2025-11-14T16:23:45Z'
-version: v1.22.0
-version_title: v1.22.0
+updated: '2025-11-15T00:57:29Z'
+version: v1.22.1
+version_title: v1.22.1
 website: http://www.libretro.com
 wiki: https://github.com/libretro/RetroArch/wiki
 ---
