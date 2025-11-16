@@ -27,6 +27,8 @@ icon: https://raw.githubusercontent.com/selloa/3DS-Random-Game-Launcher/main/ico
 image: https://raw.githubusercontent.com/selloa/3DS-Random-Game-Launcher/main/meta/banner.png
 image_length: 98675
 layout: app
+license: mit
+license_name: MIT License
 qr:
   3DS-Random-Game-Launcher-v18.cia: https://db.universal-team.net/assets/images/qr/3ds-random-game-launcher-v18-cia.png
 source: https://github.com/selloa/3DS-Random-Game-Launcher
