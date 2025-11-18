@@ -40,7 +40,7 @@ qr:
   scratch-3ds.cia: https://db.universal-team.net/assets/images/qr/scratch-3ds-cia.png
   scratch-ds.nds: https://db.universal-team.net/assets/images/qr/scratch-ds-nds.png
 source: https://github.com/ScratchEverywhere/ScratchEverywhere
-stars: 406
+stars: 407
 systems:
 - 3DS
 title: Scratch Everywhere!
