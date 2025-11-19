@@ -8,6 +8,7 @@ color: '#c291a9'
 color_bg: '#805f6f'
 created: '2025-05-01T16:11:42Z'
 description: Play Scratch games on your 3DS!
+download_filter: (\.3dsx|\.cia|\.nds)
 download_page: https://github.com/ScratchEverywhere/ScratchEverywhere/releases
 downloads:
   scratch-3ds.3dsx:
@@ -22,14 +23,6 @@ downloads:
     size: 4523008
     size_str: 4 MiB
     url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.29/scratch-ds.nds
-  scratch-macOS:
-    size: 14375423
-    size_str: 13 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.29/scratch-macOS
-  scratch-psp.zip:
-    size: 7571327
-    size_str: 7 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.29/scratch-psp.zip
 github: ScratchEverywhere/ScratchEverywhere
 icon: https://raw.githubusercontent.com/ScratchEverywhere/ScratchEverywhere/refs/heads/main/gfx/icon.png
 image: https://raw.githubusercontent.com/ScratchEverywhere/ScratchEverywhere/refs/heads/main/gfx/logo.png
