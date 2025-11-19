@@ -50,7 +50,7 @@ screenshots:
 - description: Transferring
   url: https://db.universal-team.net/assets/images/screenshots/ftpd/transferring.png
 source: https://github.com/mtheall/ftpd
-stars: 1554
+stars: 1555
 systems:
 - 3DS
 - DS
@@ -66,7 +66,9 @@ update_notes: '<ul dir="auto">
 
   <li>General system stability improvements to enhance the user’s experience</li>
 
-  </ul>'
+  </ul>
+
+  <p dir="auto">Rebuild nro for switch 21.0.0 update</p>'
 updated: '2024-11-17T07:29:51Z'
 version: v3.2.1
 version_title: ftpd pro v3.2.1
