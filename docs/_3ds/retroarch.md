@@ -40,7 +40,7 @@ title: RetroArch
 unique_ids:
 - '0xBAC00'
 update_notes: ''
-updated: '2025-11-17T13:23:57Z'
+updated: '2025-11-20T03:12:17Z'
 version: v1.22.2
 version_title: v1.22.2
 website: http://www.libretro.com
