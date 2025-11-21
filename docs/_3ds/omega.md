@@ -29,7 +29,7 @@ license_name: Other
 qr:
   simulator.cia: https://db.universal-team.net/assets/images/qr/simulator-cia.png
 source: https://github.com/Omega-Numworks/Omega
-stars: 345
+stars: 346
 systems:
 - 3DS
 title: Omega
