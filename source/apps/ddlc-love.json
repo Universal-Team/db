@@ -9,14 +9,14 @@
 	"unique_ids": [
 		56828
 	],
-	"version": "v1.1.8-1",
+	"version": "v1.1.9",
 	"downloads": {
-		"DDLC-LOVE-3DS.3dsx": {
-			"url": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.8-1/DDLC-LOVE-43cecfd.3dsx",
+		"DDLC-3DS.zip": {
+			"url": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-3DS.zip",
 			"size": 82643060
 		},
-		"DDLC-LOVE-3DS.cia": {
-			"url": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.8-1/DDLC-LOVE-43cecfd.cia",
+		"DDLC-3DS.cia": {
+			"url": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-3DS.cia",
 			"size": 83203008
 		}
 	}
