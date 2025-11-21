@@ -3,6 +3,8 @@ author: Tristán Álvarez
 avatar: https://avatars.githubusercontent.com/u/76444200?v=4
 categories:
 - utility
+color: '#71abaa'
+color_bg: '#54807f'
 created: '2025-03-16T17:58:10Z'
 description: Editor de texto para 3Ds
 download_page: https://github.com/Tristanabs/bandolero3ds/releases

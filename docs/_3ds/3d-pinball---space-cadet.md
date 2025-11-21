@@ -3,6 +3,8 @@ author: MaikelChan
 avatar: https://avatars.githubusercontent.com/u/7031754?v=4
 categories:
 - game
+color: '#77819a'
+color_bg: '#636b80'
 created: '2021-10-15T11:13:15Z'
 description: Wii and 3DS ports of  3D Pinball - Space Cadet
 download_page: https://github.com/MaikelChan/SpaceCadetPinball/releases
