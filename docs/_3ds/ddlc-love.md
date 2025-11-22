@@ -10,12 +10,12 @@ description: An unofficial Doki Doki Literature Club port to Lua for the PS Vita
   other game consoles
 download_page: https://github.com/LukeZGD/DDLC-LOVE/releases
 downloads:
-  DDLC-LOVE-3DS.3dsx:
-    size: 82643060
-    url: https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.8-1/DDLC-LOVE-43cecfd.3dsx
-  DDLC-LOVE-3DS.cia:
+  DDLC-3DS.cia:
     size: 83203008
-    url: https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.8-1/DDLC-LOVE-43cecfd.cia
+    url: https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-3DS.cia
+  DDLC-3DS.zip:
+    size: 82643060
+    url: https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-3DS.zip
 github: LukeZGD/DDLC-LOVE
 icon: https://db.universal-team.net/assets/images/icons/ddlc-love.png
 image: https://db.universal-team.net/assets/images/images/ddlc-love.png
@@ -24,7 +24,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
-  DDLC-LOVE-3DS.cia: https://db.universal-team.net/assets/images/qr/ddlc-love-3ds-cia.png
+  DDLC-3DS.cia: https://db.universal-team.net/assets/images/qr/ddlc-3ds-cia.png
 screenshots:
 - description: Gameplay
   url: https://db.universal-team.net/assets/images/screenshots/ddlc-love/gameplay.png
@@ -72,6 +72,6 @@ update_notes: '<p dir="auto"><strong>v1.2.3 Release:</strong></p>
 
   </ul>'
 updated: '2021-09-16T07:03:42Z'
-version: v1.1.8-1
+version: v1.1.9
 version_title: v1.2.3
 ---
