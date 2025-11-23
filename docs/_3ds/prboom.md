@@ -44,7 +44,7 @@ screenshots:
 - description: Title
   url: https://db.universal-team.net/assets/images/screenshots/prboom/title.png
 source: https://github.com/Voxel9/PrBoom-Plus-3DS
-stars: 38
+stars: 39
 systems:
 - 3DS
 title: PrBoom+
