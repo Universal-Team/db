@@ -32,7 +32,9 @@ systems:
 title: Better-NFCReader
 unique_ids:
 - '0xBC469'
-update_notes: <p dir="auto">I don't remember what changed, go read the diffs.</p>
+update_notes: '<p dir="auto">I don''t remember what changed, go read the diffs.</p>
+
+  <p dir="auto">Let''s goooo! We''re on Universal Updater!!!</p>'
 updated: '2025-11-08T09:34:49Z'
 version: v2.3.0
 version_title: v2.3.0
