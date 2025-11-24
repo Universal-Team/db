@@ -8,29 +8,5 @@
 	"image": "https://github.com/isledecomp/isle-portable/raw/packaging/3ds/banner.png",
 	"icon": "https://github.com/isledecomp/isle-portable/raw/packaging/3ds/banner.png",
 	"github": "isledecomp/isle-portable",
-	"script_message": "An existing copy of LEGO Island is required to use this project.\nSee the instructions on the isle-portable wiki.",
-	"scripts": {
-		"isle.cia": [
-			{
-				"type": "downloadRelease",
-				"repo": "isledecomp/isle-portable",
-      },
-			{
-				"type": "installCia",
-				"file": "/isle.cia"
-			},
-			{
-				"type": "deleteFile",
-				"file": "/isle.cia"
-			}
-		],
-    "isle.3dsx": [
-			{
-				"type": "downloadRelease",
-				"repo": "isledecomp/isle-portable",
-				"file": "isle.3dsx",
-				"output": "sdmc:/3ds/isle.3dsx"
-			}
-		]
-	}
+	"script_message": "An existing copy of LEGO Island is required to use this project.\nSee the instructions on the isle-portable wiki."
 }
