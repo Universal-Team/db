@@ -33,7 +33,8 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: Fix bad http call which lead to a crash
+update_notes: <p data-sourcepos="1:1-1:39" dir="auto">Fix bad http call which lead
+  to a crash</p>
 updated: '2025-11-09T15:09:06.000Z'
 version: v1.2.7
 version_title: v1.2.7
