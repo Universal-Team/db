@@ -4,8 +4,8 @@ author: cylin577
 avatar: https://avatars.githubusercontent.com/u/78150792?v=4
 categories:
 - utility
-color: '#008ac1'
-color_bg: '#005b80'
+color: '#1f60b7'
+color_bg: '#164380'
 created: '2025-10-30T11:23:29Z'
 description: Read 0x7 NFC/RFID tags!
 download_page: https://github.com/cylin577/Better-NFCReader/releases
