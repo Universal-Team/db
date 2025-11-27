@@ -76,8 +76,8 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   <ul dir="auto">
 
   <li>The flashcard version of <code class="notranslate">BOOT.NDS</code> now has a
-  DSi extended header applied in order for TWLMenu++ to boot properly on the newly
-  released DSpico flashcard!
+  DSi extended header applied in order for both TWLMenu++ and nds-bootstrap to boot
+  properly on the newly released DSpico flashcard!
 
   <ul dir="auto">
 
@@ -92,8 +92,8 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   <li>Fixed <em>Battle/Combat of Giants: Mutant Insects</em> being detected as homebrew,
   and will now launch properly as a result.</li>
 
-  <li><strong>DSi-based UIs:</strong> Reduced delay of launching DSiWare titles on
-  DS flashcards.</li>
+  <li><strong>DSi-based UIs:</strong> Reduced delay before the launch effect plays
+  when launching DSiWare titles on DS flashcards.</li>
 
   <li>v3 of the Rocket Video format is now supported for the <code class="notranslate">3dsRotatingCubes.rvid</code>
   file used for 3DS UI themes!</li>
