@@ -103,6 +103,11 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   of the Sinistrals</em>) required. If you have neither, then a debug DS console will
   work.</li>
 
+  <li>Requires <code class="notranslate">TWLFontTable.dat</code> (dumped from a non-Chinese
+  &amp; non-Korean DSi or 3DS console) placed in <code class="notranslate">fat:/_nds/nds-bootstrap/</code>.</li>
+
+  <li>Does not save.</li>
+
   </ul>
 
   </li>
