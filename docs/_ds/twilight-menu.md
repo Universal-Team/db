@@ -55,7 +55,10 @@ systems:
 - DS
 title: TWiLight Menu++
 update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.10.0">nds-bootstrap
-  v2.10.0</a></p>
+  v2.10.0</a>, which is out of date.<br>
+
+  Please update it to <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.10.1">v2.10.1</a>
+  after installing this TWLMenu++ version.</p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
