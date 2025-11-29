@@ -13,11 +13,11 @@ downloads:
   Trogdor-Reburninated-v2.31-3ds-cia.zip:
     size: 7759237
     size_str: 7 MiB
-    url: https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.31/Trogdor-Reburninated-v2.31-3ds-cia.zip
+    url: https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.32/Trogdor-Reburninated-v2.31-3ds-cia.zip
   Trogdor-Reburninated-v2.31-3ds.zip:
     size: 7364657
     size_str: 7 MiB
-    url: https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.31/Trogdor-Reburninated-v2.31-3ds.zip
+    url: https://github.com/Mode8fx/Trogdor-Reburninated/releases/download/v2.32/Trogdor-Reburninated-v2.31-3ds.zip
 github: Mode8fx/Trogdor-Reburninated
 icon: https://raw.githubusercontent.com/Mode8fx/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/logo_icon_android_48.png
 image: https://raw.githubusercontent.com/Mode8fx/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/background_psp.png
@@ -33,46 +33,18 @@ stars: 23
 systems:
 - 3DS
 title: 'Trogdor: Reburninated'
-update_notes: '<p dir="auto"><a href="https://homestarrunner.com/sbemails/197-your-edge"
-  rel="nofollow">♪ Another freakin'' update, another freakin'' update log ♪</a></p>
+update_notes: '<ul dir="auto">
 
-  <p dir="auto">Just some things I forgot to fix in the last update.</p>
-
-  <h3 dir="auto">Changes</h3>
-
-  <ul dir="auto">
-
-  <li>Music now plays at a lower volume during late level transitions.</li>
-
-  <li>[PC] You can now input cheats using original keyboard keys (e.g. the Konami
-  code now supports using the A and B keys like the Flash version).</li>
+  <li>[Switch] Recompiled with latest libnx to address compatibility issues caused
+  by 21.0.0 firmware update.</li>
 
   </ul>
 
-  <h3 dir="auto">Bug Fixes</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed Level Beaten animation being wobbly.</li>
-
-  <li>Improved Level Beaten animation on low-res displays.</li>
-
-  <li>[3DS, FunKey] Fixed the player spawning slightly inside a cottage on one level
-  layout.</li>
-
-  <li>[FunKey] Shifted HUD slightly to the left to prevent cutoff.</li>
-
-  <li>[PC] Fixed a couple minor bugs involving mid-game window scaling.</li>
-
-  <li>[Wii U (Aroma)] Moved WHUB file to the correct location so the RPX won''t appear
-  alongside it in the Home Menu.</li>
-
-  </ul>
-
-  <p dir="auto">Enjoy!</p>'
-updated: '2025-08-23T18:03:24Z'
-version: v2.31
-version_title: v2.31
+  <p dir="auto">This update only fixes a technical issue in the Switch version; other
+  systems do not need to update. Enjoy!</p>'
+updated: '2025-11-29T04:53:43Z'
+version: v2.32
+version_title: v2.32
 ---
 An enhanced recreation of the Homestar Runner Flash game, "Trogdor", expanded with new features.
 - New Options menu to customize your game
