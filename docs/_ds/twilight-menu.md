@@ -26,20 +26,20 @@ downloads:
     size_str: 3 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.19.0/AddOn-VirtualConsole.7z
   TWiLightMenu-3DS.7z:
-    size: 29534766
-    size_str: 28 MiB
+    size: 29125292
+    size_str: 27 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.19.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 29559924
-    size_str: 28 MiB
+    size: 29150388
+    size_str: 27 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.19.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 41030405
-    size_str: 39 MiB
+    size: 39147099
+    size_str: 37 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.19.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 72525800
-    size_str: 69 MiB
+    size: 70651504
+    size_str: 67 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.19.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
@@ -54,11 +54,8 @@ stars: 3722
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.10.0">nds-bootstrap
-  v2.10.0</a>, which is out of date.<br>
-
-  Please update it to <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.10.1">v2.10.1</a>
-  after installing this TWLMenu++ version.</p>
+update_notes: '<p dir="auto"><strong>UPDATE 11/30/2025:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.10.1">nds-bootstrap
+  v2.10.1</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
