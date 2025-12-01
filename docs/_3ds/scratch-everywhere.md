@@ -12,17 +12,17 @@ download_filter: (\.3dsx|\.cia|\.nds)
 download_page: https://github.com/ScratchEverywhere/ScratchEverywhere/releases
 downloads:
   scratch-3ds.3dsx:
-    size: 10081024
+    size: 10003692
     size_str: 9 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.29/scratch-3ds.3dsx
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.30/scratch-3ds.3dsx
   scratch-3ds.cia:
-    size: 9020352
+    size: 8942528
     size_str: 8 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.29/scratch-3ds.cia
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.30/scratch-3ds.cia
   scratch-ds.nds:
-    size: 4523008
+    size: 4444160
     size_str: 4 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.29/scratch-ds.nds
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.30/scratch-ds.nds
 github: ScratchEverywhere/ScratchEverywhere
 icon: https://raw.githubusercontent.com/ScratchEverywhere/ScratchEverywhere/refs/heads/main/gfx/icon.png
 image: https://raw.githubusercontent.com/ScratchEverywhere/ScratchEverywhere/refs/heads/main/gfx/logo.png
@@ -39,26 +39,85 @@ systems:
 title: Scratch Everywhere!
 update_notes: '<h2 dir="auto">New Features</h2>
 
+  <h3 dir="auto"><strong>WebOS port!</strong></h3>
+
   <ul dir="auto">
 
-  <li>PSP Port!</li>
+  <li><strong>It''s!! TV!! Time!!!!</strong></li>
+
+  <li>Scratch Everywhere! has been ported to WebOS, meaning any TV running this OS
+  can now play Scratch games!</li>
+
+  <li>Bluetooth controllers, wired controllers, and even the TV Remote can be used
+  as input!</li>
+
+  <li>From <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Dogo6647/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Dogo6647">@Dogo6647</a>
+  (PR <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3652579915"
+  data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/471"
+  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/471/hovercard"
+  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/471">#471</a>)</li>
 
   </ul>
 
-  <h2 dir="auto">Switch Changes</h2>
+  <h3 dir="auto"><strong>[Wii U, 3DS]</strong> <code class="notranslate">Text to Speech</code>
+  extension support!</h3>
 
   <ul dir="auto">
 
-  <li>Upgraded to the latest <code class="notranslate">libnx</code> version, meaning
-  SE! is now supported on Firmware <code class="notranslate">21.0.0</code>.</li>
+  <li>Works by using Scratch''s Text-To-Speech API to send speech data to the device</li>
+
+  <li>From <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Br0tcraft/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Br0tcraft">@Br0tcraft</a>
+  (PR <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3675095819"
+  data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/480"
+  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/480/hovercard"
+  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/480">#480</a>)</li>
 
   </ul>
 
-  <h2 dir="auto">3DS Changes</h2>
+  <h3 dir="auto"><code class="notranslate">Makey Makey</code> extension support!</h3>
 
   <ul dir="auto">
 
-  <li>Fixed app not closing when closed from the Main Menu</li>
+  <li>From <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/poipole807/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/poipole807">@poipole807</a>
+  (PR <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3676377465"
+  data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/482"
+  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/482/hovercard"
+  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/482">#482</a>)</li>
+
+  </ul>
+
+  <h3 dir="auto"><strong>[PC]</strong> SDL3 support!</h3>
+
+  <ul dir="auto">
+
+  <li>Due to an issue, only Linux will be using SDL3 for this release. Windows and
+  MacOS will continue to use SDL2 for a little while as we figure out a fix.</li>
+
+  <li>From <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gradylink/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gradylink">@gradylink</a>
+  (PR <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3588888847"
+  data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/439"
+  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/439/hovercard"
+  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/439">#439</a>)</li>
+
+  </ul>
+
+  <h3 dir="auto">SDL1 support!</h3>
+
+  <ul dir="auto">
+
+  <li>This will enable us to port Scratch Everywhere! to platforms where SDL2 and
+  3 aren''t available!</li>
+
+  <li>From <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/leap0x7b/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/leap0x7b">@leap0x7b</a>
+  (PR <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3658238971"
+  data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/475"
+  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/475/hovercard"
+  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/475">#475</a>)</li>
 
   </ul>
 
@@ -66,58 +125,103 @@ update_notes: '<h2 dir="auto">New Features</h2>
 
   <ul dir="auto">
 
-  <li>The Main Menu is feeling a bit jolly...</li>
-
-  <li>Changed <code class="notranslate">Arialn</code> font to <code class="notranslate">Liberation
-  Sans Narrow</code> font</li>
-
-  </ul>
-
-  <h2 dir="auto">Parity Changes</h2>
+  <li>Added festive music to the Main Menu! (Tunes as always from <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Dogo6647/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Dogo6647">@Dogo6647</a>)
 
   <ul dir="auto">
 
-  <li>Added instant block execution
-
-  <ul dir="auto">
-
-  <li>In Scratch, if nothing on screen happens, all blocks run as if <code class="notranslate">Run
-  Without Screen Refresh</code> was on. SE! now handles this behavior.</li>
+  <li>This change also has the added benefit of reducing the load times of the Main
+  Menu</li>
 
   </ul>
 
   </li>
 
-  <li>Sprites now correctly run their blocks in layer order</li>
+  <li>Refactored input under the hood to be a bit more consistent</li>
 
-  <li>The <code class="notranslate">direction</code> blocks are now correctly clamped
-  and rounded</li>
+  <li>Fixed Pen stamping not working if the Sprite is hidden</li>
 
-  <li>The <code class="notranslate">Change Variable by x</code> block now works correctly
-  when putting in letters as input</li>
+  <li>Pen stamping now accounts for Sprite''s size</li>
 
-  <li>Fixed some blocks not running without screen refresh when they should</li>
+  <li>Improve Runtime performance when accessing the Stage Sprite</li>
 
-  <li>The <code class="notranslate">Pick random</code> block now correctly works with
-  non-decimal numbers</li>
+  <li><code class="notranslate">Change Costume</code> blocks with numbers as input
+  now prioritize the costume name over the costume number</li>
 
-  <li><code class="notranslate">NaN</code> is now correctly handled as a number when
-  put in block inputs</li>
+  <li>Fixed <code class="notranslate">When this backdrop switches to</code> block
+  not working correctly</li>
 
-  <li>Booleans now work as they would in Scratch</li>
+  <li>The Runtime now properly cleans up images when running out of RAM</li>
 
-  <li>Uppercase letters in hex colors now work correctly</li>
+  <li>Fixed Sprite sorting when cloning</li>
 
-  <li>SE! now handles Scratch''s rare <code class="notranslate">null</code> input
-  bug correctly</li>
+  <li>Fixed even more audio issues when a project is unzipped</li>
 
-  <li>Fixed <code class="notranslate">Broadcast and wait</code> block''s weird behavior
-  from a clone who''s ready to be deleted</li>
+  <li>Fixed crashes related to parsing numbers</li>
+
+  <li>Fixed crash when sometimes trying to load the position of a comment</li>
+
+  <li>Fixed <code class="notranslate">+Infinity</code> not working correctly</li>
+
+  <li>Allow for hacked dropdown inputs</li>
+
+  <li>Added <code class="notranslate">Core Example</code> Extension</li>
+
+  <li>Implement Scratch''s weird spacing rules with <code class="notranslate">List</code>
+  reporter blocks (PR <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="3642491677" data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/467"
+  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/467/hovercard"
+  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/467">#467</a>)</li>
+
+  <li>Fixed whitespace comparison (PR <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="3635627168" data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/464"
+  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/464/hovercard"
+  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/464">#464</a>)</li>
+
+  <li>Fixed the order in which blocks run</li>
+
+  </ul>
+
+  <h2 dir="auto">3DS Changes</h2>
+
+  <ul dir="auto">
+
+  <li>Increased command buffer size
+
+  <ul dir="auto">
+
+  <li>This basically means you can have more Sprites on screen at once without having
+  it crash!</li>
+
+  </ul>
+
+  </li>
+
+  <li>Increased performance a bit by messing with VSync settings</li>
+
+  <li>Fixed crash when trying to render an image that fails to load</li>
+
+  </ul>
+
+  <h2 dir="auto">Wii / GameCube Changes</h2>
+
+  <ul dir="auto">
+
+  <li>Added <code class="notranslate">Streamed</code> Sound Support!</li>
+
+  </ul>
+
+  <h2 dir="auto">PSP Changes</h2>
+
+  <ul dir="auto">
+
+  <li>Fixed <code class="notranslate">RomFS</code> projects not working</li>
 
   </ul>'
-updated: '2025-11-17T12:36:06Z'
-version: '0.29'
-version_title: Beta Build 29
+updated: '2025-12-01T02:30:17Z'
+version: '0.30'
+version_title: Beta Build 30
 website: https://scratcheverywhere.github.io/ScratchEverywhere/
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!
