@@ -47,12 +47,6 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <ul dir="auto">
 
-  <li>Game Assets</li>
-
-  <li>QuakeC (Game Code)</li>
-
-  <li>Vril (PSP/3DS/NSPIRE Engine)</li>
-
   <li>Quakespasm (PS VITA/Nintendo Switch Engine)</li>
 
   </ul>
@@ -82,9 +76,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <p dir="auto">You can also play the WebGL version at <a href="https://nzp.gay/"
   rel="nofollow">https://nzp.gay/</a></p>'
-updated: '2025-11-26T07:27:05Z'
+updated: '2025-12-02T07:29:33Z'
 version: nightly
-version_title: 2.0.0-indev+20251126072600
+version_title: 2.0.0-indev+20251202072827
 website: https://github.com/nzp-team/nzportable
 ---
 A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at War.
