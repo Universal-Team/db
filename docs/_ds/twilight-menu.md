@@ -26,19 +26,19 @@ downloads:
     size_str: 3 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.19.0/AddOn-VirtualConsole.7z
   TWiLightMenu-3DS.7z:
-    size: 29125292
+    size: 28968002
     size_str: 27 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.19.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
-    size: 29150388
+    size: 28988778
     size_str: 27 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.19.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 39147099
+    size: 39060932
     size_str: 37 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.19.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 70651504
+    size: 70478679
     size_str: 67 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.19.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
