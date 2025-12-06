@@ -3,7 +3,6 @@
 	"title": "Kekatsu",
 	"systems": ["DS"],
 	"categories": ["utility"],
-    "image": "https://raw.githubusercontent.com/cavv-dev/Kekatsu-DS/refs/heads/main/icon.bmp",
-	"icon": "https://raw.githubusercontent.com/cavv-dev/Kekatsu-DS/refs/heads/main/icon.bmp",
+	"icon": "https://github.com/cavv-dev/Kekatsu-DS/raw/main/icon.png",
 	"long_description": "*Kekatsu* is a straightforward content downloader for DS and DSi consoles.\nThe main feature of this app is the use of content databases to download apps and games on the fly for any platform.\n### Key features\n- Standalone\n- Multi-platform content\n- Custom databases\n- Color scheme customization\n- Localization support\n\nAn already available database to use with Kekatsu is [UDB-Kekatsu-DS](https://github.com/cavv-dev/UDB-Kekatsu-DS), which is an updated selection of DS and DSi apps from [Universal-DB](https://db.universal-team.net/).\nCheck out the [Databases setup](https://github.com/cavv-dev/Kekatsu-DS?tab=readme-ov-file#databases-setup) section for info on how to set it up."
 }
