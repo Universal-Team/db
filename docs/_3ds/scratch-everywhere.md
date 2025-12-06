@@ -24,8 +24,9 @@ downloads:
     size_str: 4 MiB
     url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.30.1/scratch-ds.nds
 github: ScratchEverywhere/ScratchEverywhere
-icon: https://raw.githubusercontent.com/ScratchEverywhere/ScratchEverywhere/refs/heads/main/gfx/icon.png
-image: https://raw.githubusercontent.com/ScratchEverywhere/ScratchEverywhere/refs/heads/main/gfx/logo.png
+icon: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/icon.png
+image: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/3ds/banner.png
+image_length: 24069
 layout: app
 license: lgpl-3.0
 license_name: GNU Lesser General Public License v3.0
