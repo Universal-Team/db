@@ -3,6 +3,8 @@ author: Cavv
 avatar: https://avatars.githubusercontent.com/u/65863280?v=4
 categories:
 - utility
+color: '#4a4a85'
+color_bg: '#474780'
 created: '2025-03-13T02:12:55Z'
 description: Easy-to-use content downloader for Nintendo DS(i) consoles
 download_page: https://github.com/cavv-dev/Kekatsu-DS/releases
@@ -16,8 +18,9 @@ downloads:
     size_str: 6 Bytes
     url: https://github.com/cavv-dev/Kekatsu-DS/releases/download/v1.2.0/version.txt
 github: cavv-dev/Kekatsu-DS
-icon: https://raw.githubusercontent.com/cavv-dev/Kekatsu-DS/refs/heads/main/icon.bmp
-image: https://raw.githubusercontent.com/cavv-dev/Kekatsu-DS/refs/heads/main/icon.bmp
+icon: https://github.com/cavv-dev/Kekatsu-DS/raw/main/icon.png
+image: https://github.com/cavv-dev/Kekatsu-DS/raw/main/icon.png
+image_length: 265
 layout: app
 license: mit
 license_name: MIT License
