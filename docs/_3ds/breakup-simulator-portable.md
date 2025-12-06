@@ -24,7 +24,7 @@ screenshots:
 - description: Screenshot
   url: https://db.universal-team.net/assets/images/screenshots/breakup-simulator-portable/screenshot.png
 source: https://github.com/Dangerbites/BreakupSimulator3DS
-stars: 3
+stars: 4
 systems:
 - 3DS
 title: Breakup Simulator Portable
