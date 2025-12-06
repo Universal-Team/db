@@ -41,7 +41,7 @@
 				"type": "extractFile",
 				"file": "/info.zip",
 				"input": "",
-				"output": "retroarch/media/"
+				"output": "/retroarch/media/"
 			},
 			{
 				"type": "deleteFile",
@@ -65,7 +65,7 @@
 				"type": "extractFile",
 				"file": "/assets.zip",
 				"input": "",
-				"output": "retroarch/assets/"
+				"output": "/retroarch/assets/"
 			},
 			{
 				"type": "deleteFile",
@@ -82,7 +82,7 @@
 				"type": "extractFile",
 				"file": "/overlays.zip",
 				"input": "",
-				"output": "retroarch/overlays/"
+				"output": "/retroarch/overlays/"
 			},
 			{
 				"type": "deleteFile",
@@ -99,7 +99,7 @@
 				"type": "extractFile",
 				"file": "/database-rdb.zip",
 				"input": "",
-				"output": "retroarch/database/rdb/"
+				"output": "/retroarch/database/rdb/"
 			},
 			{
 				"type": "deleteFile",
