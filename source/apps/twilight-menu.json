@@ -60,7 +60,7 @@
 				"file": "/TWiLightMenu-3DS.7z"
 			}
 		],
-		"(Add-on) Better DSi Menu Music": [
+		"[Add-on] Better DSi Menu Music": [
 			{
 				"type": "downloadRelease",
 				"repo": "DS-Homebrew/TWiLightMenu",
@@ -78,7 +78,7 @@
 				"file": "/AddOn-BetterDSiMenuMusic.7z"
 			}
 		],
-		"(Add-on) Extra UI Music": [
+		"[Add-on] Extra UI Music": [
 			{
 				"type": "downloadRelease",
 				"repo": "DS-Homebrew/TWiLightMenu",
@@ -96,7 +96,7 @@
 				"file": "/AddOn-ExtraUIMusic.7z"
 			}
 		],
-		"(Add-on) Multimedia": [
+		"[Add-on] Multimedia": [
 			{
 				"type": "downloadRelease",
 				"repo": "DS-Homebrew/TWiLightMenu",
@@ -136,7 +136,7 @@
 				"file": "/AddOn-Multimedia.7z"
 			}
 		],
-		"(Add-on) Virtual Console": [
+		"[Add-on] Virtual Console": [
 			{
 				"type": "downloadRelease",
 				"repo": "DS-Homebrew/TWiLightMenu",
