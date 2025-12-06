@@ -5,8 +5,8 @@
 	"systems": ["3DS"],
 	"categories": ["game"],
 	"unique_ids": [487038],
-	"image": "https://github.com/isledecomp/isle-portable/raw/packaging/3ds/banner.png",
-	"icon": "https://github.com/isledecomp/isle-portable/raw/packaging/3ds/banner.png",
+	"image": "https://github.com/isledecomp/isle-portable/raw/master/packaging/3ds/banner.png",
+	"icon": "https://github.com/isledecomp/isle-portable/raw/master/packaging/3ds/icon.png",
 	"download_filter": "(\\.3dsx|\\.cia)",
 	"script_message": "An existing copy of LEGO Island is required to use this project.\nSee the instructions on the isle-portable wiki."
 }
