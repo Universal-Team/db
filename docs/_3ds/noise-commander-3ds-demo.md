@@ -10,48 +10,54 @@ created: '2025-01-06T19:04:39Z'
 description: Beat-making audio sequencer and DJ-tool for the Nintendo 3DS
 download_page: https://github.com/gearmo3ds/noisecommander3dsdemo/releases
 downloads:
-  noisecmdr-v0_1_6-demo.cia:
-    size: 3253184
+  noisecmdr-v0_1_7-demo.cia:
+    size: 3265472
     size_str: 3 MiB
-    url: https://github.com/gearmo3ds/noisecommander3dsdemo/releases/download/0.1.6/noisecmdr-v0_1_6-demo.cia
+    url: https://github.com/gearmo3ds/noisecommander3dsdemo/releases/download/0.1.7/noisecmdr-v0_1_7-demo.cia
 github: gearmo3ds/noisecommander3dsdemo
 icon: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/icon.png
 image: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/banner.png
 image_length: 40664
 layout: app
 qr:
-  noisecmdr-v0_1_6-demo.cia: https://db.universal-team.net/assets/images/qr/noisecmdr-v0_1_6-demo-cia.png
+  noisecmdr-v0_1_7-demo.cia: https://db.universal-team.net/assets/images/qr/noisecmdr-v0_1_7-demo-cia.png
 source: https://github.com/gearmo3ds/noisecommander3dsdemo
 stars: 1
 systems:
 - 3DS
 title: Noise Commander 3DS (Demo)
-update_notes: '<h1 dir="auto">0.1.6</h1>
-
-  <h3 dir="auto">Added</h3>
+update_notes: '<h3 dir="auto">Added</h3>
 
   <ul dir="auto">
 
-  <li>Ability to set arbitary loop in/out points in waveform-view (press L/R respectively)</li>
+  <li>Column-header bus-color-coding in tracker-view and clipmatrix-view</li>
 
-  <li>"Linked Playback" option in Settings: Both decks start/stop at once when enabled</li>
+  <li>User may alter 16-color-palette by adding a "/nc/colors.cfg" file with one RGB
+  value pair per line:<br>
 
-  <li>"Keep Tempo" option in song loading dialog</li>
+  (example:) 0 50 128</li>
 
-  <li>"Stylus Margin" setting for calibrating the selection range in the waveform
-  view<br>
+  <li>The colors.cfg file can be created by pressing the "Sv Clr File" button in the
+  general settings</li>
 
-  This is to avoid unselectable areas at the horizontal screen borders</li>
+  <li>Can now edit instruments in browser (delete, rename, duplicate)</li>
 
-  <li>Sample list in browser can now copy samples from/to other deck or file system
-  or delete samples<br>
+  <li>"Auto Sync Selection" setting in browser: Selects instrument/sample when pressing
+  a pad</li>
 
-  (Use the Select button to show the sample-list and the Y button to cycle the deck)</li>
+  <li>"Auto Assign" setting in browser: Assigns the selected sample to current instrument<br>
 
-  <li>Can rename samples in sample list</li>
+  or the selected instrument to the current pad while browsing.</li>
 
-  <li>Can audition/preview deck-samples in sample list (press B to audition, toggle
-  auto-preview in options)</li>
+  <li>Press X when in either the samples- or instrument-list to show the toggleable
+  settings</li>
+
+  <li>"Randomize values" function in tracker-menu: mutates existing values by given
+  percentage</li>
+
+  <li>Pressing X in splash-screen shows recent files</li>
+
+  <li>"Duplicate Repeatedly" function in tracker-menu</li>
 
   </ul>
 
@@ -59,10 +65,15 @@ update_notes: '<h1 dir="auto">0.1.6</h1>
 
   <ul dir="auto">
 
-  <li>Now reading loop-points from smpl chunk in wav-header (tested with renoise)</li>
+  <li>Wav-header loop points are now applied to instrument every time a sample-number
+  is assigned</li>
 
-  <li>When a value is selected in the instrument-column, pressing B selects or "picks"
-  that instrument</li>
+  <li>Unique random names are assigned to microphone/looper recorded samlpes</li>
+
+  <li>The browser settings "Preview", "Sync Selection" and "Auto Assign" are now persistent</li>
+
+  <li>The last selection mode is now remembered ("cursor"/"row") in tracker/matrix
+  view</li>
 
   </ul>
 
@@ -70,14 +81,22 @@ update_notes: '<h1 dir="auto">0.1.6</h1>
 
   <ul dir="auto">
 
-  <li>Waveform-view: Cannot select last sample with the cursor</li>
+  <li>Bus/master automation has no effect while a track is soloed</li>
 
-  <li>Waveform-view: No panning possible at maximum zoom level</li>
+  <li>Crash when truncating sample in waveform view</li>
+
+  </ul>
+
+  <h3 dir="auto">Removed</h3>
+
+  <ul dir="auto">
+
+  <li>"Insert Note Stops" function from tracker-menu (seemed broken, needs investigating)</li>
 
   </ul>'
-updated: '2025-12-02T18:32:26Z'
-version: 0.1.6
-version_title: Loop points, sample browser, linked deck playback
+updated: '2025-12-07T10:12:49Z'
+version: 0.1.7
+version_title: New browser features
 website: https://www.patreon.com/NoiseCommander3DS
 ---
 Beat-making audio sequencer and DJ-tool
