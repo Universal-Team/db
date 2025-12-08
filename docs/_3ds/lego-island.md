@@ -31,7 +31,7 @@ script_message: 'An existing copy of LEGO Island is required to use this project
 
   See the instructions on the isle-portable wiki.'
 source: https://github.com/isledecomp/isle-portable
-stars: 911
+stars: 912
 systems:
 - 3DS
 title: LEGO Island
