@@ -33,7 +33,7 @@ nightly:
     RetroArch_cia.7x:
       url: https://buildbot.libretro.com/nightly/nintendo/3ds/RetroArch_cia.7z
 source: https://github.com/libretro/RetroArch
-stars: 12289
+stars: 12290
 systems:
 - 3DS
 title: RetroArch
