@@ -10,9 +10,9 @@ description: NAND Title Manager for DSi
 download_page: https://github.com/Epicpkmn11/NTM/releases
 downloads:
   NTM.dsi:
-    size: 343040
-    size_str: 335 KiB
-    url: https://github.com/Epicpkmn11/NTM/releases/download/v0.4.0/NTM.dsi
+    size: 291328
+    size_str: 284 KiB
+    url: https://github.com/Epicpkmn11/NTM/releases/download/v0.4.2/NTM.dsi
 github: Epicpkmn11/NTM
 icon: https://db.universal-team.net/assets/images/icons/ntm.png
 image: https://db.universal-team.net/assets/images/icons/ntm.png
@@ -41,28 +41,18 @@ update_notes: '<div class="markdown-alert markdown-alert-important" dir="auto"><
 
   </div>
 
-  <h2 dir="auto">What''s new?</h2>
+  <p dir="auto">Thanks to <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/R-YaTian/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/R-YaTian">@R-YaTian</a>
+  for fixing the bug in my Makefile from the last update</p>
 
-  <ul dir="auto">
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/LexNastin/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/LexNastin">@LexNastin</a>
-  Disabling Data Management is now supported (<a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="2456867060" data-permission-text="Title
-  is private" data-url="https://github.com/Epicpkmn11/NTM/issues/6" data-hovercard-type="pull_request"
-  data-hovercard-url="/Epicpkmn11/NTM/pull/6/hovercard" href="https://github.com/Epicpkmn11/NTM/pull/6">#6</a>)</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Doronimmo/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Doronimmo">@Doronimmo</a>
-  Added checks for Unlaunch installed using the new safe installer (<a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3440474394" data-permission-text="Title
-  is private" data-url="https://github.com/Epicpkmn11/NTM/issues/7" data-hovercard-type="pull_request"
-  data-hovercard-url="/Epicpkmn11/NTM/pull/7/hovercard" href="https://github.com/Epicpkmn11/NTM/pull/7">#7</a>)</li>
-
-  </ul>'
-updated: '2025-10-30T07:23:39Z'
-version: v0.4.0
-version_title: Support for the safe Unlaunch installer
+  <p dir="auto">(v0.4.1 was skipped cause I tried out GitHub''s new immutable releases
+  and unfortunately they''re incompatible with automatic builds from Actions, at least
+  the way I have it set up. Unfortunate, I was hoping for the proof of trust that
+  every build step was public and I couldn''t change it)</p>'
+updated: '2025-12-08T03:19:23Z'
+version: v0.4.2
+version_title: Icon fix
 wiki: https://github.com/Epicpkmn11/NTM/wiki
 ---
 NAND Title Manager, NTM for short, is an application for the Nintendo DSi that allows you to manage titles on your NAND. It can manage titles on both [hiyaCFW](https://wiki.ds-homebrew.com/hiyacfw/)'s SDNAND and your actual internal memory, typically called SysNAND. **When using in SysNAND mode please use with caution**.
