@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<div>
+	<label for="git">Git Provider:</label>
+	<select name="git" id="git" onchange="setGit(event.target.value)">
+		<option value="none">None</option>
+		<option disabled>---</option>
+		<option value="github" selected>GitHub</option>
+		<option value="gitlab">GitLab</option>
+		<option value="bitbucket">BitBucket</option>
+	</select>
+</div>
+<div id="gitData"></div>
+<div>
+	<input type="button" value="Fetch" onclick="fetchInfo()">
+</div>
+<br>
+<div id="appData"></div>
+
+<script>
+	const GITHUB_API = "https://api.github.com";
+
+	let types = {
+		string: "",
+		image: "",
+		array: [],
+		bool: false,
+		scripts: {},
+		archive: {}
+	};
+
+	let appInfo = {};
+	let appSchema = {
+		// Required items
+		github: {type: "string", hidden: true},
+		systems: {type: "array", required: true, values: ["3ds", "ds"]},
+		categories: {type: "array", required: true, values: ["game", "emulator", "app", "utility", "save-tool", "firm", "luma3DS"]},
+		unique_ids: {type: "array"},
+		image: {type: "image"},
+		icon: {type: "image", required: true},
+		long_description: {type: "string"},
+		// GitHub probable
+		title: {type: "string", required: true},
+		author: {type: "string", required: true},
+		avatar: {type: "image"},
+		description: {type: "string", required: true},
+		website: {type: "string"},
+		download_filter: {type: "string"},
+		// Rare
+		autogen_scripts: {type: "bool", default: true},
+		script_message: {type: "string"},
+		scripts: {type: "scripts"},
+		archive: {type: "archive"}
+	};
+
+	let githubMapping = {
+		repos: {
+			github: "full_name",
+			avatar: "owner/avatar_url",
+			title: "name",
+			description: "description",
+			website: "html_url"
+		},
+		users: {
+			author: "name"
+		}
+	};
+
+	let git = {
+		provider: null,
+		repo: null,
+	};
+
+	function error(errorMessage) {
+		alert(errorMessage);
+	}
+
+	function setGit(provider) {
+		git.provider = provider;
+
+		let gitDiv = document.getElementById("gitData");
+		gitDiv.innerHTML = "";
+
+		if(git.provider != "none") {
+			let label = document.createElement("label");
+			label.for = "repo";
+			label.innerText = "Repository: ";
+
+			let input = document.createElement("input");
+			input.name = "repo";
+			input.id = "repo";
+
+			gitDiv.appendChild(label);
+			gitDiv.appendChild(input);
+		}
+	}
+
+	async function fetchGitHub(repo) {
+		console.log(repo);
+
+		let reposJson = await (await fetch(`${GITHUB_API}/repos/${repo}`)).json();
+		for(let key in githubMapping.repos) {
+			let item = githubMapping.repos[key];
+			if(item.includes("/")) {
+				let split = item.split("/");
+				appSchema[key].default = reposJson[split[0]][split[1]];
+			} else {
+				appSchema[key].default = reposJson[item];
+			}
+		}
+
+		let usersJson = await (await fetch(`${GITHUB_API}/users/${reposJson.owner.login}`)).json();
+		for(let key in githubMapping.users) {
+			let item = githubMapping.users[key];
+			if(item.includes("/")) {
+				let split = item.split("/");
+				appSchema[key].default = usersJson[split[0]][split[1]];
+			} else {
+				appSchema[key].default = usersJson[item];
+			}
+		}
+
+		fillInfo();
+	}
+
+
+	function fetchInfo() {
+		git.repo = document.getElementById("repo").value;
+
+		if(!git.repo)
+			return error("Repository not set!");
+
+		switch(git.provider) {
+			case "none":
+				fillInfo();
+				return;
+			case "github":
+				fetchGitHub(git.repo);
+				return;
+
+			case "gitlab":
+				fetchGitLab(git.repo);
+				return;
+
+			case "bitbucket":
+				fetchBitBucket(git.repo);
+				return
+		}
+	}
+
+	function fillInfo() {
+		let div = document.getElementById("appData");
+		div.innerHTML = "";
+
+		for(let key in appSchema) {
+			let item = appSchema[key];
+
+			appInfo[key] = item.default ?? types[item.type];
+
+			if(item.hidden)
+				continue;
+
+			let label = document.createElement("label");
+			label.for = key;
+			label.innerText = item.title ?? key;
+
+			let input = document.createElement("input");
+			input.name = key;
+			input.id = key
+			input.type = item.type == "bool" ? "checkbox" : "text";
+			input.value = appInfo[key];
+			input.required = item.required;
+			input.addEventListener("change", event => {
+				let id = event.target.id;
+				appInfo[id] = event.target.value;
+
+				let reset = document.getElementById(id + "-reset");
+				if(reset) {
+					reset.disabled = appInfo[id] == appSchema[id].default;
+				}
+			});
+
+			div.appendChild(label);
+			div.appendChild(input);
+
+			if (appSchema[key].default) {
+				let reset = document.createElement("input");
+				reset.type = "button";
+				reset.value = "Reset";
+				reset.for = key;
+				reset.id = key + "-reset";
+				reset.disabled = true;
+				reset.addEventListener("click", event => {
+					let id = event.target.for;
+					document.getElementById(id).value = appSchema[id].default;
+					event.target.disabled = true;
+				});
+
+				div.appendChild(reset);
+			}
+
+			div.appendChild(document.createElement("br"));
+		}
+
+		let download = document.createElement("input");
+		download.type = "button";
+		download.value = "Export";
+		download.addEventListener("click", exportJson);
+		div.appendChild(download);
+	}
+
+	function exportJson() {
+		let appExport = structuredClone(appInfo);
+
+		for(let key in appExport) {
+			let schema = appSchema[key];
+			let item = appExport[key];
+			let blank = true;
+			switch(schema.type) {
+				case "string":
+				case "image":
+					blank = item == "";
+					break;
+				case "array":
+					blank = item.length == 0;
+					break;
+				case "bool":
+					blank = false;
+					break;
+				case "scripts":
+				case "archive":
+					// TODO
+				default:
+					break;
+			}
+
+			if(schema.required && blank)
+				return error(`Error: Reuired item ${key} is unset!`);
+
+			if(!schema.hidden && (appExport[key] == appSchema[key].default || blank))
+				delete appExport[key];
+		}
+
+		let dataString = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(appExport, null, "\t"));
+
+		let a = document.createElement("a");
+		a.href = dataString;
+		a.download = appInfo.title + ".json";
+		a.click()
+	}
+
+	setGit(document.getElementById("git").value);
+</script>
