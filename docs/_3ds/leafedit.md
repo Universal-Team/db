@@ -102,7 +102,7 @@ screenshots:
 - description: Villager viewer
   url: https://db.universal-team.net/assets/images/screenshots/leafedit/villager-viewer.png
 source: https://github.com/Universal-Team/LeafEdit
-stars: 77
+stars: 78
 systems:
 - 3DS
 title: LeafEdit
