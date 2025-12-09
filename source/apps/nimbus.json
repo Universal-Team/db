@@ -15,15 +15,13 @@
 		"3dsx.*\\.zip": {
 			"nimbus.3dsx": [
 				"3ds/nimbus.3dsx",
-				"3ds/juxt-prod.pem",
-				"luma"
+				"3ds"
 			]
 		},
 		"cia.*\\.zip": {
 			"nimbus.cia": [
 				"cias/nimbus.cia",
-				"3ds/juxt-prod.pem",
-				"luma"
+				"3ds"
 			]
 		}
 	}
