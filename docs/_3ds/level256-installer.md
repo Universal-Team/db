@@ -20,7 +20,7 @@ layout: app
 qr:
   level256-installer.cia: https://db.universal-team.net/assets/images/qr/level256-installer-cia.png
 source: https://github.com/Tekito-256/level256-installer
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: Level256 Installer
