@@ -113,7 +113,7 @@ img {
 	opacity: 0.8;
 }
 .btn-check:checked + .btn-secondary {
-	background-color: color.adjust($secondary, $lightness: -5%)!important;
+	background-color: $secondary-active!important;
 }
 .btn-outline-primary {
 	color: $primary;
