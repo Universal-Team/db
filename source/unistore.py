@@ -47,7 +47,7 @@ class StoreEntry:
 
 		return "".join([c for c in string if ord(c) < 0xFFFF]).strip()
 
-	def __init__(self, title: str, author: str, description: str, version: str, lastUpdated: str = "", categories: list = [], consoles: list = [], screenshots: list = [], releaseNotes: str = "", license: str = "", wiki: str = "", iconIndex: int = -1, color: str = "", stars: int = 0):
+	def __init__(self, title: str, author: str, description: str, version: str, lastUpdated: str = "", categories: list = [], consoles: list = [], screenshots: list = [], releaseNotes: str = "", license: str = "", wiki: str = "", iconIndex: int = -1, color: str = "", stars: int = 0, preinstallMessage: str = ""):
 		self._entry = {
 			"info": {
 				"title": self._bmpOnly(title),
@@ -62,7 +62,8 @@ class StoreEntry:
 				"license": self._bmpOnly(license),
 				"wiki": wiki,
 				"icon_index": iconIndex,
-				"stars": stars
+				"stars": stars,
+				"preinstall_message": self._bmpOnly(preinstallMessage)
 			}
 		}
 		if color:
