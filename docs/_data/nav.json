@@ -104,6 +104,6 @@
     ]
   }, {
     "title": "Submit app request",
-    "url": "https://github.com/Universal-Team/db/issues/new?assignees=&labels=app+request&template=app-request-github.yml"
+    "url": "/app-request"
   }
 ]

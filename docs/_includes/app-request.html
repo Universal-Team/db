@@ -1,0 +1,20 @@
+<div id="errorDiv"></div>
+
+<div class="input-group">
+	<label class="input-group-text" for="git">Git Provider</label>
+	<select class="form-control" name="git" id="git" onchange="setGit(event.target.value)">
+		<option value="none">None</option>
+		<option disabled>---</option>
+		<option value="github" selected>GitHub</option>
+		<option value="gitlab">GitLab</option>
+		<option value="bitbucket" disabled>BitBucket</option>
+	</select>
+</div>
+<div id="gitData" class="input-group"></div>
+<div>
+	<input class="btn btn-primary" type="button" value="Fetch" onclick="fetchInfo()">
+</div>
+<br>
+<div id="appData" class="mb-3"></div>
+
+<script src="/assets/js/app-request.js"></script>
