@@ -1,4 +1,4 @@
-name: App request (GitHub)
+name: App request
 description: Request an app on GitHub be added to Universal-DB
 labels: ["app request"]
 body:
