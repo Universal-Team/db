@@ -1,3 +1,4 @@
+const ISSUE_URL = "https://github.com/Universal-Team/db/issues/new?template=app-request.yml&title=";
 const GITHUB_API = "https://api.github.com";
 const GITLAB_BASE = "https://gitlab.com";
 const GITLAB_API = `${GITLAB_BASE}/api/v4`;
@@ -168,6 +169,10 @@ function createInput(item, key) {
 			if(reset) {
 				reset.disabled = appInfo[id] == appSchema[id].default;
 			}
+
+			if(id == "title") {
+				document.getElementById("submit-btn").href = ISSUE_URL + encodeURIComponent(appInfo.title);
+			}
 		});
 
 		return [input];
@@ -285,6 +290,13 @@ function fillInfo() {
 	download.value = "Export";
 	download.addEventListener("click", exportJson);
 	div.appendChild(download);
+
+	let submit = document.createElement("a");
+	submit.id = "submit-btn";
+	submit.classList.add("btn", "btn-secondary", "ms-2");
+	submit.innerText = "Submit";
+	submit.href = ISSUE_URL + encodeURIComponent(appInfo.title);
+	div.appendChild(submit);
 }
 
 async function exportJson() {
