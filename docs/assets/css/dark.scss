@@ -13,6 +13,9 @@ $code-color: #ddd;
 $a-color: #58a6ff;
 $small-color: #999;
 $carousel-caption-bg: #333b;
+$secondary: #3f3f3f;
+$secondary-border: #292929;
+
 
 // Cards
 $card-background: #444;
@@ -29,6 +32,7 @@ $dropdown-item-bg-hover: rgba(0, 0, 0, 0.3);
 $primary: {{ page.color | default: site.color }};
 $dark: #f8f9fa;
 $light: #3f3f3f;
+$very-light: #222;
 $light-border: #292929;
 $light-placeholder: #999;
 
