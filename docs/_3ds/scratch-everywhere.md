@@ -26,6 +26,7 @@ downloads:
 github: ScratchEverywhere/ScratchEverywhere
 icon: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/icon.png
 image: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/3ds/banner.png
+image_length: 24069
 layout: app
 license: lgpl-3.0
 license_name: GNU Lesser General Public License v3.0

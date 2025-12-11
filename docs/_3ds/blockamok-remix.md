@@ -3,6 +3,8 @@ author: Mode8fx
 avatar: https://avatars.githubusercontent.com/u/57763469?v=4
 categories:
 - game
+color: '#49ef8e'
+color_bg: '#27804c'
 created: '2024-03-25T23:03:58Z'
 description: Dodge the incoming blocks!
 download_page: https://github.com/Mode8fx/blockamok/releases
@@ -26,6 +28,7 @@ downloads:
 github: Mode8fx/blockamok
 icon: https://github.com/Mode8fx/blockamok/raw/main/release-resources/logo_icon_48.png
 image: https://github.com/Mode8fx/blockamok/raw/main/release-resources/banner_3ds.png
+image_length: 72113
 layout: app
 license: mit
 license_name: MIT License

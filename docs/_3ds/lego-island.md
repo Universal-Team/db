@@ -21,6 +21,7 @@ downloads:
 github: isledecomp/isle-portable
 icon: https://github.com/isledecomp/isle-portable/raw/master/packaging/3ds/icon.png
 image: https://github.com/isledecomp/isle-portable/raw/master/packaging/3ds/banner.png
+image_length: 18083
 layout: app
 license: lgpl-3.0
 license_name: GNU Lesser General Public License v3.0
