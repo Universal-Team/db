@@ -13,6 +13,7 @@ download_page: https://github.com/2b-zipper/Nexus3DS/releases
 github: 2b-zipper/Nexus3DS
 icon: https://github.com/2b-zipper/Nexus3DS/raw/master/img/logo_icon.png
 image: https://github.com/2b-zipper/Nexus3DS/raw/master/img/logo_1.png
+image_length: 102768
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
