@@ -3,8 +3,6 @@ author: isledecomp
 avatar: https://avatars.githubusercontent.com/u/93691320?v=4
 categories:
 - game
-color: '#868649'
-color_bg: '#808045'
 created: '2024-05-16T23:08:15Z'
 description: A portable version of LEGO Island (1997)
 download_filter: (\.3dsx|\.cia)
