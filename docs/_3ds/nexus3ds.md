@@ -5,8 +5,6 @@ categories:
 - utility
 - firm
 - luma3ds
-color: '#56a659'
-color_bg: '#428044'
 created: '2024-11-24T02:02:43Z'
 description: Luma3DS fork with enhanced features!
 download_page: https://github.com/2b-zipper/Nexus3DS/releases
