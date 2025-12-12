@@ -1080,6 +1080,10 @@ def app_test(apps: TextIO, github_token: Optional[str], docs: str):
 	global DOCS_DIR
 	DOCS_DIR = docs_path
 
+	if len(apps) < 1:
+		click.echo("Please specifiy at least one app")
+		exit(1)
+
 	for app in apps:
 		content = json.loads(app.read())
 
