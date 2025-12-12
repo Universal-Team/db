@@ -10,9 +10,9 @@ description: Animal Crossing NL Vapecord Public Plugin WIP
 download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases
 downloads:
   Vapecord.Public.zip:
-    size: 4228958
+    size: 4238426
     size_str: 4 MiB
-    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v2.0.1/Vapecord.Public.zip
+    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v2.0.2/Vapecord.Public.zip
 github: RedShyGuy/Vapecord-ACNL-Plugin
 image: https://avatars.githubusercontent.com/u/43783060?v=4&size=128
 image_length: 4199
@@ -24,24 +24,30 @@ stars: 149
 systems:
 - 3DS
 title: Vapecord-ACNL-Plugin
-update_notes: '<h1 dir="auto">Hotfix 1 for Version 2 of Vapecord!</h1>
+update_notes: '<h1 dir="auto">Hotfix 2 for Version 2 of Vapecord!</h1>
 
-  <h2 dir="auto">This is the first hotfix for the new version, fixing any Day 1 Bugs
-  encountered by all of you.</h2>
+  <h2 dir="auto">Next Hotfix fixing a few new bugs but also bugs that were in Vapecord
+  for ages.</h2>
 
   <h2 dir="auto">Bug fixes:</h2>
 
   <ul dir="auto">
 
-  <li>Player Select crashing</li>
+  <li>Save Menu Changer freezing player at some occasions</li>
 
-  <li>Move Furniture freezing</li>
+  <li>Light Switch breaking in rooms where it is not usable</li>
 
-  <li>Move Furniture making villagers disappear in their own House</li>
+  <li>Looking at Invalid Badges crashes the game</li>
 
-  <li>Seed Items not appearing in inventory when picked up</li>
+  <li>Hovering over Seed Items doesn''t show their custom names</li>
 
-  <li>Removed Custom Seed Item Icons (Present Icons)</li>
+  <li>Player Selector not working</li>
+
+  <li>Item Names for the Japanese and Korean Games don''t display</li>
+
+  <li>Item Name Searcher only allowing correct casing of word</li>
+
+  <li>Amiibo Spoofer and any NPC Selection not working</li>
 
   </ul>
 
@@ -53,8 +59,8 @@ update_notes: '<h1 dir="auto">Hotfix 1 for Version 2 of Vapecord!</h1>
 
   If you encounter any bugs feel free to report them on the official <a href="https://discord.gg/QwqdBpKWf3"
   rel="nofollow">Vapecord Discord Server</a>.</p>'
-updated: '2025-12-11T14:08:52Z'
-version: v2.0.1
-version_title: ACNL Vapecord Public Plugin [v.2.0.1]
+updated: '2025-12-12T15:23:02Z'
+version: v2.0.2
+version_title: ACNL Vapecord Public Plugin [v.2.0.2]
 wiki: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/wiki
 ---
