@@ -35,7 +35,7 @@ jobs:
         fi
 
     - name: Comment results
-      if: ${{ hashFile('results.txt') != '' }}
+      if: ${{ hashFiles('results.txt') != '' }}
       uses: thollander/actions-comment-pull-request@v3
       with:
         file-path: results.txt
