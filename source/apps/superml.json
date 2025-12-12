@@ -1,0 +1,16 @@
+{
+	"github": "CharlesAverill/SuperML",
+	"gitlab": "",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"app"
+	],
+	"image": "https://raw.githubusercontent.com/CharlesAverill/SuperML/refs/heads/main/resources/banner/banner.png",
+	"icon": "https://raw.githubusercontent.com/CharlesAverill/SuperML/refs/heads/main/resources/icon.png",
+	"unique_ids": [
+		260525
+	],
+	"long_description": "An interpreter and text editor for a subset of the [Caml Programming Language](https://en.wikipedia.org/wiki/Caml) for the Nintendo 3DS.\n\nGreat thanks to\n- [Notepad3DS](https://github.com/MaeveMcT/Notepad3DS) as a jumping-off point for the text editor segment of this project.\n- [min-caml](https://esumii.github.io/min-caml/index-e.html) as a minimal Caml implementation I've based mine on\n\n## Progress\n\n### Application Features\n\n### Language Features\n\n- Parser bulit with Flex+Bison\n- Hindley-Milner Type Inference (slightly janky)\n- Rudimentary builtin functions for input and output\n\n### Application Features\n\n- Text editing\n- Development interpreter target for host system\n- Load/Save on SD Card"
+}
