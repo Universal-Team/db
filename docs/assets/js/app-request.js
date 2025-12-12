@@ -329,9 +329,13 @@ async function exportJson() {
 			return error(`Error: Required item '${schema.label ?? key}' is unset!`);
 
 		if(schema.type == "image" && !blank) {
-			let res = await fetch(item, {method: "HEAD"});
-			if(res.status != 200)
-				return error(`Error ${res.status}: Image '${schema.label ?? key}' is not a valid link!`);
+			try {
+				let res = await fetch(item, {method: "HEAD"});
+				if(res.status != 200)
+					return error(`Error ${res.status}: Image '${schema.label ?? key}' is not a valid link!`);
+			} catch {
+				return error("Error: Failed to fetch image, make sure you're using raw.githubusercontent.com");
+			}
 
 			let contentType = res.headers.get("Content-Type");
 			if(contentType.split("/")[0] != "image")
