@@ -96,6 +96,10 @@ function error(errorMessage) {
 }
 
 function getSlug(str) {
+	// strip accents
+	str = str.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+
+	// to lowercase and turn all non-latin letters/numbers to -
 	return str.toLowerCase().replace(/[^\w-_]/g, "-");
 }
 
