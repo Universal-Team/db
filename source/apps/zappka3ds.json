@@ -1,0 +1,15 @@
+{
+	"github": "TehFridge/Zappka3DS",
+	"title": "Żappka3DS",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"app"
+	],
+	"icon": "https://raw.githubusercontent.com/TehFridge/Zappka3DS/refs/heads/main/meta/icon.png",
+	"unique_ids": [
+		968960
+	],
+	"long_description": "## Get your Żappsy™ straight with Żappka3DS!"
+}
