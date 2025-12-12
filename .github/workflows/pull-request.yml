@@ -8,7 +8,7 @@ jobs:
     container: universalteam/db
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v6
 
     - name: Run generate.py
       env:
