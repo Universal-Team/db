@@ -30,7 +30,7 @@ jobs:
           if [ $? -eq 0 ]; then
             echo yes
             echo '```' >> results.txt
-            cat results.txt | grep -o 'https://.*\.png'
+            cat results.txt | grep -o 'https://.*\.png' >> results.txt
             echo '</details>' >> results.txt
           else
             echo no
