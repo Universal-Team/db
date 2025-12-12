@@ -376,7 +376,7 @@ async function exportJson() {
 			}
 		}
 
-		if(!schema.hidden && (appExport[key] == appSchema[key].default || blank))
+		if(blank || (!schema.hidden && appExport[key] == appSchema[key].default))
 			delete appExport[key];
 	}
 
