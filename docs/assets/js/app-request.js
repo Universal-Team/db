@@ -65,7 +65,7 @@ let apiMappings = {
 			website: "html_url"
 		},
 		user: {
-			author: "name"
+			author: "name?login"
 		}
 	},
 	gitlab: {
@@ -129,8 +129,15 @@ async function fetchApi(url, mappings) {
 
 	let json = await res.json();
 	for(let key in mappings) {
-		let temp = json;
-		mappings[key].split("/").forEach(r => temp = temp[r]);
+		let temp;
+		let maps = mappings[key].split("?");
+		for(let map of maps) {
+			temp = json;
+			map.split("/").forEach(r => temp = temp[r]);
+			if(temp)
+				break;
+		}
+
 		appSchema[key].default = temp;
 	}
 
