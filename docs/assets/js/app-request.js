@@ -33,7 +33,19 @@ let appSchema = {
 	image: {label: "Banner Image", type: "image"},
 	icon: {label: "Icon", type: "image", required: true},
 	// Common
-	unique_ids: {label: "CIA Unique ID(s)", type: "array"},
+	unique_ids: {label: "CIA Unique ID(s)", type: "array", validate: str => {
+		let items = str.split(",").map(r => r.trim());
+		let output = [];
+		for(let item of items) {
+			if(/^(0x)?\d+$/.test(item)) {
+				let val = parseInt(item);
+				if(val <= 0xFFFFF && val >= 0)
+					output.push(val);
+			}
+		}
+
+		return {status: !!output.length, value: output};
+	}},
 	long_description: {label: "Long Description (Markdown)", type: "textarea"},
 	download_filter: {label: "Download Filter (regex)", type: "string"},
 	// Rare
@@ -158,12 +170,21 @@ function createInput(item, key) {
 		input.required = item.required;
 		input.addEventListener("change", event => {
 			clearError();
-
+			
 			let id = event.target.id;
-			appInfo[id] = event.target.value;
+			if(appSchema[id].validate) {
+				let res = item.validate(event.target.value);
+				console.log(res)
+				if(res.status) {
+					appInfo[id] = res.value;
+					event.target.value = item.type == "array" ? res.value.join(", ") : res.value;
+				}
+			} else {
+				appInfo[id] = event.target.value;
 
-			if(item.type == "array")
-				appInfo[id] = appInfo[id].split(",").map(r => r.trim());
+				if(item.type == "array")
+					appInfo[id] = appInfo[id].split(",").map(r => r.trim());
+			}
 
 			let reset = document.getElementById(id + "-reset");
 			if(reset) {
@@ -187,7 +208,16 @@ function createInput(item, key) {
 			clearError();
 
 			let id = event.target.id;
-			appInfo[id] = event.target.checked;
+			if(appSchema[id].validate) {
+				let res = appSchema[id].validate(event.target.checked);
+				console.log(res)
+				if(res.status) {
+					appInfo[id] = res.value;
+					event.target.checked = res.value;
+				}
+			} else {
+				appInfo[id] = event.target.checked;
+			}
 
 			let reset = document.getElementById(id + "-reset");
 			if(reset) {
@@ -333,13 +363,13 @@ async function exportJson() {
 				let res = await fetch(item, {method: "HEAD"});
 				if(res.status != 200)
 					return error(`Error ${res.status}: Image '${schema.label ?? key}' is not a valid link!`);
+
+				let contentType = res.headers.get("Content-Type");
+				if(contentType.split("/")[0] != "image")
+					return error(`Error: Image '${schema.label ?? key}' is not an image! (Content Type: ${contentType})`);
 			} catch {
 				return error("Error: Failed to fetch image, make sure you're using raw.githubusercontent.com");
 			}
-
-			let contentType = res.headers.get("Content-Type");
-			if(contentType.split("/")[0] != "image")
-				return error(`Error: Image '${schema.label ?? key}' is not an image! (Content Type: ${contentType})`);
 		}
 
 		if(!schema.hidden && (appExport[key] == appSchema[key].default || blank))
