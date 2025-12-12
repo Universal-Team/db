@@ -37,7 +37,7 @@ let appSchema = {
 		let items = str.split(",").map(r => r.trim());
 		let output = [];
 		for(let item of items) {
-			if(/^(0x)?\d+$/.test(item)) {
+			if(/^(\d+|0x[\da-fA-F]+)$/.test(item)) {
 				let val = parseInt(item);
 				if(val <= 0xFFFFF && val >= 0)
 					output.push(val);
