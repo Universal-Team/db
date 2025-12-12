@@ -19,10 +19,14 @@ jobs:
       env:
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        UPDATED_APPS=$(git diff --name-only HEAD~1 | grep source/apps)
-        source/generate.py app-test $UPDATED_APPS > results.txt
+        UPDATED_APPS=$(git diff --name-only HEAD | grep source/apps)
+
+        echo '```json' > results.txt
+        source/generate.py app-test $UPDATED_APPS >> results.txt
+        echo '```' >> results.txt
 
     - name: Comment results
       uses: thollander/actions-comment-pull-request@v3
+      if: ${{ hashFiles('results.txt') != '5e6816451987b29bba2a2dbafcb9b5bd5b808cd82661df3f7e79c89ed3c8110c' }}
       with:
         file-path: results.txt
