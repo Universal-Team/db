@@ -19,20 +19,25 @@ jobs:
       env:
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        UPDATED_APPS=$(git diff --name-only HEAD | grep source/apps || true)
+        UPDATED_APPS=$(git diff --name-only HEAD~1 | grep source/apps || true)
 
+        echo $UPDATED_APPS
         if [ -n "$UPDATED_APPS" ]; then
           echo '<details><summary>Test Results</summary>' > results.txt
           echo '' >> results.txt
           echo '```json' >> results.txt
           source/generate.py app-test $UPDATED_APPS >> results.txt
           if [ $? -eq 0 ]; then
+            echo yes
             echo '```' >> results.txt
             echo '</details>' >> results.txt
           else
+            echo no
             rm results.txt
           fi
         fi
+
+        cat results.txt
 
     - name: Comment results
       if: ${{ hashFiles('results.txt') != '' }}

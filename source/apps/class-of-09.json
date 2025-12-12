@@ -1,0 +1,18 @@
+{
+	"github": "Bilbard/classof3ds",
+	"title": "Class of '09",
+	"description": "3DS port of the visual novel Class of '09",
+	"author": "the gabe",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"game"
+	],
+	"image": "https://raw.githubusercontent.com/Bilbard/classof3ds/refs/heads/master/3ds/widebanner.png",
+	"icon": "https://raw.githubusercontent.com/Bilbard/classof3ds/refs/heads/master/3ds/icon.png",
+	"unique_ids": [
+		1026373
+	],
+	"long_description": "A demake/port of the visual novel \"Class of '09\" to the 3DS. \n\nMore than feature complete, you miss nothing playing this version over the PC version."
+}
