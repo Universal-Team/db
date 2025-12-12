@@ -1,0 +1,17 @@
+{
+	"github": "coolguy1842/SaveSync",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [
+		303074
+	],
+	"image": "https://raw.githubusercontent.com/coolguy1842/SaveSync/master/assets/banner.png",
+	"icon": "https://raw.githubusercontent.com/coolguy1842/SaveSync/master/assets/icon.png",
+	"license": "gpl-3.0",
+	"license_name": "GNU General Public License v3.0 or later",
+	"description": "Allows you to copy saves from one 3DS or emulator to another easily"
+}
