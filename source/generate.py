@@ -1073,7 +1073,7 @@ def gen_retroarch(docs):
 @click.argument("apps", type=click.File(mode="r"), nargs=-1)
 @click.option("--github-token", help="A GitHub API token", envvar="TOKEN")
 @click.option("--docs", default=str(SCRIPT_DIR.parent / "docs"), type=click.Path(file_okay=False))
-def app_test_command(apps: TextIO, github_token: Optional[str], docs: str):
+def app_test(apps: TextIO, github_token: Optional[str], docs: str):
 	"""Tests individual apps if it is fetchable and workable with for UDB"""
 	api = GitHubAPI(token=github_token)
 	docs_path = check_for_docs_dir(docs)

@@ -18,10 +18,7 @@ jobs:
     - name: Run generate.py
       env:
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
       run: |
-        export PATH=$PATH:/opt/devkitpro/tools/bin
-        
         UPDATED_APPS=$(git diff --name-only HEAD~1 | grep source/apps)
         source/generate.py app-test $UPDATED_APPS > results.txt
 
