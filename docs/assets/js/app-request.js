@@ -94,6 +94,10 @@ function error(errorMessage) {
 	errorDiv.scrollIntoView();
 }
 
+function getSlug(str) {
+	return str.toLowerCase().replace(/[^\w-_]/g, "-");
+}
+
 function setGit(provider) {
 	git.provider = provider;
 
@@ -380,7 +384,7 @@ async function exportJson() {
 
 	let a = document.createElement("a");
 	a.href = dataString;
-	a.download = appInfo.title + ".json";
+	a.download = getSlug(appInfo.title).replace(/-+/g, "-").replace(/^-|-$/g, "") + ".json";
 	a.click()
 }
 
