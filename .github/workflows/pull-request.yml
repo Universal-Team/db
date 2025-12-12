@@ -22,9 +22,15 @@ jobs:
       run: |
         UPDATED_APPS=$(git diff --name-only HEAD | grep source/apps)
 
-        echo '```json' > results.txt
-        source/generate.py app-test $UPDATED_APPS >> results.txt
-        echo '```' >> results.txt
+        if [ -n "$UPDATED_APPS" ]; then
+          echo '```json' > results.txt
+          source/generate.py app-test $UPDATED_APPS >> results.txt
+          if [ $? -eq 0 ]; then
+            echo '```' >> results.txt
+          else
+            rm results.txt
+          fi
+        fi
 
     - name: Comment results
       uses: thollander/actions-comment-pull-request@v3
