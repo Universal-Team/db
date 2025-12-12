@@ -1,6 +1,4 @@
-name: Update priority sources
-
-# Run hourly except when the real update runs
+name: Pull request check
 on:
   pull_request:
 
