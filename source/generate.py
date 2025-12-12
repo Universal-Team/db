@@ -1070,27 +1070,26 @@ def gen_retroarch(docs):
 
 
 @main_entry_group.command()
-@click.argument("app", type=click.File(mode="r"))
+@click.argument("apps", type=click.File(mode="r"), nargs=-1)
 @click.option("--github-token", help="A GitHub API token", envvar="TOKEN")
-def app_test_command(app: TextIO, github_token: Optional[str]):
-	"""Tests a singular app if it is fetchable and workable with for UDB"""
+@click.option("--docs", default=str(SCRIPT_DIR.parent / "docs"), type=click.Path(file_okay=False))
+def app_test_command(apps: TextIO, github_token: Optional[str], docs: str):
+	"""Tests individual apps if it is fetchable and workable with for UDB"""
 	api = GitHubAPI(token=github_token)
-	content = json.loads(app.read())
-	path = pathlib.Path("../docs")
-	exists = path.exists()
-	if not exists:
-		click.secho("Unable to find the docs directory, proceeding...", fg='yellow')
-	else:
-		global DOCS_DIR
-		DOCS_DIR = path
+	docs_path = check_for_docs_dir(docs)
+	global DOCS_DIR
+	DOCS_DIR = docs_path
 
-	entry = process_app_entry(content, app.name, 0, api, {})
-	if not entry:
-		click.echo("Unable to process the app!")
-		exit(1)
-		return
+	for app in apps:
+		content = json.loads(app.read())
 
-	click.echo(json.dumps(entry[0], indent=4))
+		entry = process_app_entry(content, app.name, 0, api, {})
+		if not entry:
+			click.echo("Unable to process the app!")
+			exit(1)
+			return
+
+		click.echo(json.dumps(entry[0], indent=4))
 
 if __name__ == "__main__":
 	main_entry_group()
