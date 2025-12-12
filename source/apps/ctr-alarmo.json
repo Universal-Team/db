@@ -1,0 +1,16 @@
+{
+	"github": "FelixHomebrew/CtrAlarmo",
+	"title": "CTR Alarmo",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"app"
+	],
+	"image": "https://raw.githubusercontent.com/FelixHomebrew/CtrAlarmo/refs/heads/main/exefs/banner.png",
+	"icon": "https://raw.githubusercontent.com/FelixHomebrew/CtrAlarmo/refs/heads/main/exefs/icon_48.png",
+	"unique_ids": [
+		805402
+	],
+	"long_description": "\nA simple, configurable alarm clock app for the Nintendo 3DS.\n\n## Features\n* Regular audible beep\n* Power/Wireless/News LEDs blink support\n* 2 ring modes (Static \\& Progressive)\n* Rings for 10 minutes, then sleeps 5 minutes before ringing again\n* Adjustable screens brightness\n* Sleep mode persistence (no sound/LEDs only)\n\nNew features would may be added in the future.\n\n## Usage\nAlarm time can be set from Settings: Press `SELECT` (hotkeys are listed on bottom screen) then look for \"Redefine alarm\".\nAdjust other settings depending on your preferences."
+}
