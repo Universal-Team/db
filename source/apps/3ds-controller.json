@@ -1,0 +1,10 @@
+{
+	"github": "icicle1133/3ds-Controller",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon": "https://raw.githubusercontent.com/icicle1133/3ds-Controller/refs/heads/main/icon.png"
+}
