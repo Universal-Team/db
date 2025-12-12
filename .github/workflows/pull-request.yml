@@ -1,7 +1,6 @@
 name: Pull request check
 on:
   pull_request:
-    paths: [source/apps/*]
 
 jobs:
   run:
@@ -20,7 +19,7 @@ jobs:
       env:
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        UPDATED_APPS=$(git diff --name-only HEAD | grep source/apps)
+        UPDATED_APPS=$(git diff --name-only HEAD | grep source/apps || true)
 
         if [ -n "$UPDATED_APPS" ]; then
           echo '```json' > results.txt
