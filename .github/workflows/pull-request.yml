@@ -11,6 +11,10 @@ jobs:
       with:
         fetch-depth: 2
 
+    - name: Prepare environment
+      run: |
+        pip3 install --break-system-packages -r source/requirements.txt
+
     - name: Run generate.py
       env:
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
