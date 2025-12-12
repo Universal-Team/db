@@ -27,6 +27,7 @@ let appSchema = {
 	author: {label: "Author's Name", type: "string", required: true},
 	avatar: {label: "Author's Avatar", type: "image"},
 	website: {label: "App's Website", type: "string"},
+	wiki: {label: "App's Wiki", type: "string"},
 	// Required
 	systems: {label: "Native Systems", type: "multiselect", required: true, values: ["3ds", "ds"], labels: ["3DS", "DS"]},
 	categories: {label: "Categories", type: "multiselect", required: true, values: ["game", "emulator", "app", "utility", "save-tool", "firm", "luma3DS"], labels: ["Game", "Emulator", "App", "Utility", "Save Tool", "FIRM", "Luma3DS"]},
