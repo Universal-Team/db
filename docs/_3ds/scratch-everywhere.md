@@ -4,8 +4,6 @@ avatar: https://avatars.githubusercontent.com/u/230057427?v=4
 categories:
 - emulator
 - utility
-color: '#c291a9'
-color_bg: '#805f6f'
 created: '2025-05-01T16:11:42Z'
 description: Play Scratch games on your 3DS!
 download_filter: (\.3dsx|\.cia|\.nds)
@@ -26,7 +24,6 @@ downloads:
 github: ScratchEverywhere/ScratchEverywhere
 icon: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/icon.png
 image: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/3ds/banner.png
-image_length: 24069
 layout: app
 license: lgpl-3.0
 license_name: GNU Lesser General Public License v3.0
