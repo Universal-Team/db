@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 1078273
-    size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.10.1/nds-bootstrap.7z
+    size: 827388
+    size_str: 807 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.11.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1564471
+    size: 1193859
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.10.1/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.11.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -28,7 +28,10 @@ stars: 1321
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Instructions:</p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.20.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v27.20.0</a></p>
+
+  <p dir="auto">Instructions:</p>
 
   <ol dir="auto">
 
@@ -40,21 +43,69 @@ update_notes: '<p dir="auto">Instructions:</p>
 
   </ol>
 
+  <h3 dir="auto">What''s new?</h3>
+
+  <ul dir="auto">
+
+  <li>Provided by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/taxicat1/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/taxicat1">@taxicat1</a>
+  / Mow: New updated AP-fixes for the following games to ensure proper compatibility
+  with both DS flashcards and ROM hacks!
+
+  <ul dir="auto">
+
+  <li>Inazuma Eleven 3: The Ogre (AP-fix is now a <code class="notranslate">.ips</code>
+  file again.)</li>
+
+  <li>Mario vs. Donkey Kong: Mini-Land Mayhem!</li>
+
+  <li>MegaMan Zero Collection (AP-fix is now a <code class="notranslate">.ips</code>
+  file again.)</li>
+
+  <li>Pokemon HeartGold &amp; SoulSilver</li>
+
+  <li>Pokemon Black &amp; White</li>
+
+  <li>Rabbids Go Home (Reduced file size of <code class="notranslate">.ips</code>
+  files, nds-bootstrap <code class="notranslate">.nds</code> file size has been reduced
+  by around 512KB!)</li>
+
+  <li>Radiant Historia (AP-fix is now a <code class="notranslate">.ips</code> file
+  again.)</li>
+
+  <li>SaGa 2: Hihou Densetsu: Goddess of Destiny (AP-fix is now a <code class="notranslate">.ips</code>
+  file again.)</li>
+
+  <li>SaGa 3: Jikuu no Hasha: Shadow or Light</li>
+
+  <li>Solatorobo: Red the Hunter (Japan) (AP-fix is now a <code class="notranslate">.ips</code>
+  file again.)</li>
+
+  <li>Style Savvy (AP-fix is now a <code class="notranslate">.ips</code> file again.)</li>
+
+  <li>Super Kaseki Horider (Japan version of <em>Fossil Fighters Champions</em>) (No
+  patch was included prior to this release.)</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
   <h3 dir="auto">Bug fixes</h3>
 
   <ul dir="auto">
 
-  <li>Fixed a bug which was overlooked due to local testing, where B4DS mode (or running
-  on DS flashcards) refused to work at all, and would only crash on white screens
-  (with no nds-bootstrap and/or ESRB screen appearing).</li>
+  <li>The SD IRQ stat register is now cleared before NAND mount in order for forwarders
+  for DSi-Enhanced games on DSi &amp; 3DS to (hopefully) work again.</li>
 
-  <li>Fixed disabling screen swap via hotkey (not the in-game menu one) not registering
-  on ARM9.</li>
+  <li><em>Need for Speed: ProStreet</em> no longer works with the screen color filter
+  and/or DS Phat color features in order for the game to run past the title screen.</li>
 
   </ul>'
-updated: '2025-11-28T07:36:57Z'
-version: v2.10.1
-version_title: v2.10.1 (hotfix)
+updated: '2025-12-13T00:54:57Z'
+version: v2.11.0
+version_title: v2.11.0
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
