@@ -21,6 +21,7 @@ downloads:
 github: isledecomp/isle-portable
 icon: https://github.com/isledecomp/isle-portable/raw/master/packaging/3ds/icon.png
 image: https://github.com/isledecomp/isle-portable/raw/master/packaging/3ds/banner.png
+image_length: 18083
 layout: app
 license: lgpl-3.0
 license_name: GNU Lesser General Public License v3.0
@@ -30,7 +31,7 @@ script_message: 'An existing copy of LEGO Island is required to use this project
 
   See the instructions on the isle-portable wiki.'
 source: https://github.com/isledecomp/isle-portable
-stars: 919
+stars: 920
 systems:
 - 3DS
 title: LEGO Island

@@ -3,6 +3,8 @@ author: Mode8fx
 avatar: https://avatars.githubusercontent.com/u/57763469?v=4
 categories:
 - game
+color: '#e65333'
+color_bg: '#802e1c'
 created: '2021-09-27T23:23:10Z'
 description: Sudoku made with SDL2
 download_page: https://github.com/Mode8fx/SuDokuL/releases
@@ -34,6 +36,7 @@ downloads:
 github: Mode8fx/SuDokuL
 icon: https://github.com/Mode8fx/SuDokuL/raw/main/SuDokuLVS2019/3ds/logo_icon_3ds_48.png
 image: https://github.com/Mode8fx/SuDokuL/raw/main/SuDokuLVS2019/3ds/banner_3ds.png
+image_length: 11596
 layout: app
 license: mit
 license_name: MIT License
