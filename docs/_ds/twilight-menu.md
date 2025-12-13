@@ -12,35 +12,35 @@ downloads:
   AddOn-BetterDSiMenuMusic.7z:
     size: 22208058
     size_str: 21 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.19.0/AddOn-BetterDSiMenuMusic.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.20.0/AddOn-BetterDSiMenuMusic.7z
   AddOn-ExtraUIMusic.7z:
     size: 8420942
     size_str: 8 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.19.0/AddOn-ExtraUIMusic.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.20.0/AddOn-ExtraUIMusic.7z
   AddOn-Multimedia.7z:
-    size: 809041
+    size: 809129
     size_str: 790 KiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.19.0/AddOn-Multimedia.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.20.0/AddOn-Multimedia.7z
   AddOn-VirtualConsole.7z:
-    size: 3751211
+    size: 3752956
     size_str: 3 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.19.0/AddOn-VirtualConsole.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.20.0/AddOn-VirtualConsole.7z
   TWiLightMenu-3DS.7z:
-    size: 29465013
-    size_str: 28 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.19.0/TWiLightMenu-3DS.7z
-  TWiLightMenu-DSi.7z:
-    size: 28988778
+    size: 29266262
     size_str: 27 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.19.0/TWiLightMenu-DSi.7z
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.20.0/TWiLightMenu-3DS.7z
+  TWiLightMenu-DSi.7z:
+    size: 29348328
+    size_str: 27 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.20.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 39060932
-    size_str: 37 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.19.0/TWiLightMenu-Flashcard.7z
+    size: 40799186
+    size_str: 38 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.20.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 70478679
-    size_str: 67 MiB
-    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.19.0/TWiLightMenu.7z
+    size: 72288103
+    size_str: 68 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.20.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -54,8 +54,8 @@ stars: 3732
 systems:
 - DS
 title: TWiLight Menu++
-update_notes: '<p dir="auto"><strong>UPDATE 11/30/2025:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.10.1">nds-bootstrap
-  v2.10.1</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.11.0">nds-bootstrap
+  v2.11.0</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
@@ -75,34 +75,38 @@ update_notes: '<p dir="auto"><strong>UPDATE 11/30/2025:</strong> Includes <a hre
 
   <ul dir="auto">
 
-  <li>The flashcard version of <code class="notranslate">BOOT.NDS</code> now has a
-  DSi extended header applied in order for both TWLMenu++ and nds-bootstrap to boot
-  properly on the newly released DSpico flashcard!
+  <li><strong>Flashcard users:</strong> A third game loader option has been added!
+  Pico Loader can now be used for fast boot times of DS games, along with improved
+  compatibility over nds-bootstrap''s B4DS mode (with a few incompatible games)!
 
   <ul dir="auto">
 
-  <li>The <code class="notranslate">BOOT.NDS</code> file without the DSi header has
-  been renamed to <code class="notranslate">BOOT_ALT.NDS</code>, and is still used
-  as a base for the flashcard autoboot files to ensure they still work properly.</li>
+  <li>Pico Loader can be downloaded <a href="https://github.com/LNH-team/pico-loader/releases">here</a>.
+  Make sure to download the correct one for your flashcard, and place the <code class="notranslate">.bin</code>
+  files in the <code class="notranslate">_pico</code> folder on the flashcard''s SD
+  root.</li>
+
+  <li>Due to the <code class="notranslate">Game Loader</code> setting getting a new
+  name within <code class="notranslate">settings.ini</code> (<code class="notranslate">FC_GAME_LOADER</code>
+  instead of <code class="notranslate">USE_BOOTSTRAP</code>), the default setting
+  (<code class="notranslate">nds-bootstrap</code>) will be re-set after updating to
+  this version.</li>
 
   </ul>
 
   </li>
 
-  <li>Fixed <em>Battle/Combat of Giants: Mutant Insects</em> being detected as homebrew,
-  and will now launch properly as a result.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Lorenzooone/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Lorenzooone">@Lorenzooone</a>:
+  DSi-Enhanced/Exclusive game cards will now run in DSi mode on DSi &amp; 3DS consoles!
 
-  <li><strong>DSi-based UIs:</strong> Reduced delay before the launch effect plays
-  when launching DSiWare titles on DS flashcards.</li>
+  <ul dir="auto">
 
-  <li>v3 of the Rocket Video format is now supported for the <code class="notranslate">3dsRotatingCubes.rvid</code>
-  file used for 3DS UI themes!</li>
+  <li>If cheats (such as widescreen) are detected, the game will run in DS mode instead.</li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/PW5190/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/PW5190">@PW5190</a>:
-  Added ESRB rating for <em>True Swing Golf</em>.</li>
+  </ul>
 
-  <li>Various: Updated translations.</li>
+  </li>
 
   </ul>
 
@@ -110,16 +114,26 @@ update_notes: '<p dir="auto"><strong>UPDATE 11/30/2025:</strong> Includes <a hre
 
   <ul dir="auto">
 
-  <li>Attempted to fix games from flashcards not launching in widescreen and instead
-  rebooting TWLMenu++. (May not apply to DSpico.)</li>
+  <li>Ported from melonDS, the save types for <em>Puzzler World USA</em> &amp; <em>Legacy
+  of Ys: Books I &amp; II</em> have been fixed!</li>
 
-  <li>Fixed where an error message would appear in NO$GBA (with TWLMenu++ setup on
-  the SD card image file) after starting <code class="notranslate">BOOT.NDS</code>.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Lorenzooone/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Lorenzooone">@Lorenzooone</a>:
+  Fixed some bugs when reading DS(i) game cards and/or flashcards.</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
+  Dictionary size of 16MB is now set within the 3DS-specific 7z file in order for
+  Universal-Updater to properly update TWLMenu++ to this and future versions.</li>
+
+  <li><strong>DSi-based UIs:</strong> Fixed positioning of the <code class="notranslate">Press
+  B to return.</code> text in the <code class="notranslate">Start failed. Error ?</code>
+  screen.</li>
 
   </ul>'
-updated: '2025-11-27T07:08:11Z'
-version: v27.19.0
-version_title: 'v27.19.0: Thanksgiving Release'
+updated: '2025-12-13T01:14:34Z'
+version: v27.20.0
+version_title: v27.20.0
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
