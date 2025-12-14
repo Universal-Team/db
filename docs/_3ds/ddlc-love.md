@@ -1,5 +1,6 @@
 ---
 author: LukeeGD
+autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/26163116?v=4
 categories:
 - game
