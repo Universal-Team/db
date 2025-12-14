@@ -1,0 +1,17 @@
+{
+	"github": "Buggem/3ds-donut",
+	"title": "3DS Donut",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"app"
+	],
+	"image": "https://raw.githubusercontent.com/Buggem/3ds-donut/refs/heads/main/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/Buggem/3ds-donut/refs/heads/main/meta/icon.png",
+	"unique_ids": [
+		956602
+	],
+	"long_description": "Donut.c is tired of the Wii, but don't worry guys, IT'S BACK ON THE 3DS!\n\nFeatures:\n  - open source AND unlicensed\n  - funky music (directly copied from the original Wii port)\n  - splash screen (adapted from the original Wii port)\n  - ability to fast forward, stop, rewind, modify the speed, and reset the animation (doesn't effect the music for listener)\n  - a headerfile with constants you can fine-tune as you please\n  - both PC and 3DS support for testing purposes\n  - both CIAs and 3DSXs availible as install options\n  - donut",
+	"download_filter": "\\.3dsx|cia"
+}
