@@ -19,5 +19,31 @@
 			"url": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-3DS.cia",
 			"size": 83203008
 		}
+	},
+	"autogen_scripts": true,
+	"scripts": {
+		"DDLC-3DS.3dsx": [
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/LukeZGD/DDLC-LOVE/releases/download/v1.1.9/DDLC-3DS.zip",
+				"output": "/DDLC-3DS.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/DDLC-3DS.zip",
+				"input": "^DDLC-3DS.3dsx",
+				"output": "%3DSX%/DDLC-3DS.3dsx"
+			},
+			{
+				"type": "extractFile",
+				"file": "/DDLC-3DS.zip",
+				"input": "^game",
+				"output": "/3ds/DDLC-3DS/game"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/DDLC-3DS.zip"
+			}
+		]
 	}
 }
