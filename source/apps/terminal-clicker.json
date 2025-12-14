@@ -1,0 +1,12 @@
+{
+	"github": "PyJulian/termiclicker3ds",
+	"title": "Terminal Clicker",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/PyJulian/termiclicker3ds/refs/heads/main/TerminalClicker/icon.png",
+	"long_description": "Terminal Clicker is a simple clicker game made for the terminal interface.\nOne of my first real \"games\" which I'm actually rlly proud of.\n\nSo what you do is click to get cash, buy upgrades.\nEach upgrade can be bought 999 times each, buying every upgrade will result in you winning this game, Hooray!!\nAdded a progress counter too for a more easy visualization of your progress.\n\n_Use cheatcode \"83\" to get into the developer tools if you wish too, but there is not much to find there._\n\n\n**Good Luck!**"
+}
