@@ -1,0 +1,11 @@
+{
+	"github": "TheCoolesttOne/3DS-Button-Test",
+	"title": "3DS Button Tester",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon": "https://raw.githubusercontent.com/TheCoolesttOne/3DS-Button-Test/refs/heads/main/icon.png"
+}
