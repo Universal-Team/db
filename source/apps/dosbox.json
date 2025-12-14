@@ -1,0 +1,12 @@
+{
+	"github": "MrHuu/dosbox-3ds",
+	"title": "DOSBox",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"emulator"
+	],
+	"image": "https://raw.githubusercontent.com/MrHuu/dosbox-3ds/refs/heads/3DS/ctr/banner.png",
+	"icon": "https://raw.githubusercontent.com/MrHuu/dosbox-3ds/refs/heads/3DS/ctr/icon.png"
+}
