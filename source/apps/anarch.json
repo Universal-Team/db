@@ -1,0 +1,14 @@
+{
+	"github": "blitzdoughnuts/AnarchDEVKIT",
+	"title": "Anarch",
+	"description": "A suckless FPS game developed by Miloslav Ciz, ported to the 3DS by me using devkitpro.",
+	"author": "drummyfish, blitzdoughnuts",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"game"
+	],
+	"image": "https://raw.githubusercontent.com/blitzdoughnuts/AnarchDEVKIT/refs/heads/master/3DS/banner/banner.png",
+	"icon": "https://raw.githubusercontent.com/blitzdoughnuts/AnarchDEVKIT/refs/heads/master/3DS/icon.png"
+}
