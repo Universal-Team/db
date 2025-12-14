@@ -1,0 +1,15 @@
+{
+	"github": "Milk-Cool/Notebook3DS",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"app"
+	],
+	"image": "https://raw.githubusercontent.com/Milk-Cool/Notebook3DS/refs/tags/release-1.0.0/res/banner.png",
+	"icon": "https://raw.githubusercontent.com/Milk-Cool/Notebook3DS/refs/tags/release-1.0.0/res/icon.png",
+	"unique_ids": [
+		969216
+	],
+	"long_description": "This is a simple note taking/drawing app. Made it for myself to take notes during classes, but thought someone might find it useful too.\nSupported features:\n\n- Thickness (text size for text)\n- Tools\n- - Free drawing\n- - Straight line\n- - Filled rect\n- - Hollow rect\n- - Text\n- Colors\n- Saving/loading\n- Undo/redo\n- Multiple pages, topics, folders"
+}
