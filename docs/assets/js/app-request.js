@@ -154,6 +154,16 @@ async function fetchInfo() {
 	clearError();
 	if(git.provider != "none") {
 		git.repo = document.getElementById("repo").value;
+		let value = git.repo.match(/(?:https:\/\/(github|gitlab).com\/)?([\w._-]+\/[\w._-]+)/);
+		if(git.repo != value[2]) {
+			git.repo = value[2];
+			document.getElementById("repo").value = git.repo;
+
+			if(value[1]) {
+				git.provider = value[1];
+				document.getElementById("git").value = git.provider;
+			}
+		}
 
 		if(!git.repo)
 			return error("Repository not set!");
