@@ -11,6 +11,7 @@
 	],
 	"image": "https://raw.githubusercontent.com/elhobbs/prboom3ds/master/banner.png",
 	"icon": "https://raw.githubusercontent.com/elhobbs/prboom3ds/master/prboom3ds.png",
+	"script_message": "You will need to put Doom WAD files in\n\"sdmc:/3ds/prboom3ds/\" to play them.",
 	"scripts": {
 		"[prerelease] prboom3ds.3dsx": {
 			"type": "prerelease",

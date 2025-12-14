@@ -10,6 +10,7 @@
 	"icon": "https://raw.githubusercontent.com/masterfeizz/Xash3DS/master/icon.png",
 	"image": "https://raw.githubusercontent.com/masterfeizz/Xash3DS/master/banner.png",
 	"autogen_scripts": true,
+	"script_message": "You will need to copy the \"valve\" directory from\nyour Half-Life installation to \"sdmc:/xash3d/\".\n\nIf present, delete \"config.cfg\", \"video.cfg\",\nand \"opengl.cfg\" from the value directory.",
 	"scripts": {
 		"[full game] extras.pak": [
 			{
