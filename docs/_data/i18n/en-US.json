@@ -65,6 +65,7 @@
 	"downloads": "Downloads",
 	"download-name": "Download ${name}",
 	"update-notes": "Update notes",
+	"popularity": "Popularity",
 	"prereleases": "Prereleases",
 	"nightlies": "Nightlies",
 	"nightly-desc": "Commit/beta builds, potentially unstable but have the latest updates",
