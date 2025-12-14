@@ -32,6 +32,7 @@
 			{
 				"type": "promptMessage",
 				"message": "Are you on a New 3DS/2DS?",
+				"name": "n3ds",
 				"count": 2
 			},
 			{
@@ -76,6 +77,7 @@
 			{
 				"type": "promptMessage",
 				"message": "Are you on a New 3DS/2DS?",
+				"name": "n3ds",
 				"count": 2
 			},
 			{
@@ -117,6 +119,7 @@
 			{
 				"type": "promptMessage",
 				"message": "Are you on a New 3DS/2DS?",
+				"name": "n3ds",
 				"count": 2
 			},
 			{
@@ -161,6 +164,7 @@
 			{
 				"type": "promptMessage",
 				"message": "Are you on a New 3DS/2DS?",
+				"name": "n3ds",
 				"count": 2
 			},
 			{

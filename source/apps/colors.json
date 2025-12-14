@@ -36,6 +36,7 @@
 			{
 				"type": "promptMessage",
 				"message": "Extract ColorsMagazine_1.col?",
+				"name": "magazine",
 				"count": 1
 			},
 			{

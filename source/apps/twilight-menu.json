@@ -47,6 +47,7 @@
 			{
 				"type": "promptMessage",
 				"message": "Extract \"roms\" folder?\n\n(Recommended for new users)",
+				"name": "roms",
 				"count": 1
 			},
 			{
@@ -112,6 +113,7 @@
 			{
 				"type": "promptMessage",
 				"message": "Extract \"photos\" folder?\n\n(Recommended for new users)",
+				"name": "photos",
 				"count": 1
 			},
 			{
@@ -123,6 +125,7 @@
 			{
 				"type": "promptMessage",
 				"message": "Extract \"videos\" folder?\n\n(Recommended for new users)",
+				"name": "videos",
 				"count": 1
 			},
 			{
@@ -152,6 +155,7 @@
 			{
 				"type": "promptMessage",
 				"message": "Extract \"roms\" folder?\n\n(Recommended for new users)",
+				"name": "roms-vc",
 				"count": 1
 			},
 			{

@@ -28,6 +28,7 @@
 			{
 				"type": "promptMessage",
 				"message": "Use alternate calibration images?",
+				"name": "alternate-images",
 				"count": 3
 			},
 			{
