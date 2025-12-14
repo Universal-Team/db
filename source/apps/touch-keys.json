@@ -1,0 +1,16 @@
+{
+	"github": "LuMariGames/Touch-Keys",
+	"title": "Touch Keys",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"game"
+	],
+	"image": "https://raw.githubusercontent.com/LuMariGames/Touch-Keys/refs/heads/main/resource/banner.png",
+	"icon": "https://raw.githubusercontent.com/LuMariGames/Touch-Keys/refs/heads/main/resource/icon.png",
+	"unique_ids": [
+		21579
+	],
+	"long_description": "下画面をタップ！タップ！とにかくタップ！超絶体力4鍵音ゲー！\nタップだけしたいゴリラ必見！あなたの3DSでもっとタップしよう！"
+}
