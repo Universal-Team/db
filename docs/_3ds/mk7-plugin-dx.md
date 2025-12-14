@@ -22,6 +22,11 @@ github: SFC-hacker/Mario-Kart-7-Plugin-Deluxe
 image: https://avatars.githubusercontent.com/u/67318218?v=4&size=128
 image_length: 4502
 layout: app
+script_message: 'Warning: If you are caught cheating
+
+  in a public room you will be banned from
+
+  every Pretendo Network service.'
 source: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe
 stars: 5
 systems:
