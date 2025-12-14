@@ -1,0 +1,11 @@
+{
+	"github": "DefeatOf13/RollTheDice-3DS",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"game",
+		"app"
+	],
+	"icon": "https://raw.githubusercontent.com/DefeatOf13/RollTheDice-3DS/refs/heads/main/icon.png"
+}
