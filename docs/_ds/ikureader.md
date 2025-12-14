@@ -32,7 +32,7 @@ qr:
   IkuReader.dsi: https://db.universal-team.net/assets/images/qr/ikureader-dsi.png
   IkuReader.nds: https://db.universal-team.net/assets/images/qr/ikureader-nds.png
 source: https://github.com/awkitsune/IkuReader
-stars: 8
+stars: 9
 systems:
 - DS
 title: IkuReader

@@ -12,13 +12,13 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   README.md:
-    size: 46597
-    size_str: 45 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.0/README.md
+    size: 47362
+    size_str: 46 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.1/README.md
   StellaDS.nds:
-    size: 1771008
+    size: 1716224
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.0/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.1/StellaDS.nds
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -29,22 +29,30 @@ license_name: Other
 qr:
   StellaDS.nds: https://db.universal-team.net/assets/images/qr/stellads-nds.png
 source: https://github.com/wavemotion-dave/StellaDS
-stars: 44
+stars: 46
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">8.0 : 09-Dec-2024 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">8.1 : 14-Dec-2025 by Dave Bernazzani (wavemotion)</p>
 
   <ul dir="auto">
 
-  <li>Added music fetchers for more complete Chetiry (CTY) emulation. Save state works
-  with CTY. Use the 60K Chetiry rom for music.</li>
+  <li>Added new Favorites system so you can LIKE/LOVE any game - press SELECT on the
+  Game ROM loading screen.</li>
 
-  <li>Fixed holding RESET (DS Start button) and SELECT (DS Select Button) when loading
-  a game. This allows you to do things like the Double-Shot trick in Space Invaders.</li>
+  <li>TIA optimizations for another frame of improved performance.</li>
+
+  <li>CPU optimizations for another frame of improved performance.</li>
+
+  <li>Thumbulator optimizations for the LDR3 instruction to help some CDFJ games.</li>
+
+  <li>Most VBLANK and HBLANK optimizations now removed in favor of improved accuracy
+  (improved performance allows us to ditch most of this).</li>
+
+  <li>Refactor memory to buy back almost 250K of DS RAM for future expansion.</li>
 
   </ul>'
-updated: '2024-12-09T12:11:30Z'
-version: '8.0'
-version_title: Version 8.0
+updated: '2025-12-14T14:16:39Z'
+version: '8.1'
+version_title: Version 8.1
 ---

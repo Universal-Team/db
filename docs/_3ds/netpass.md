@@ -27,14 +27,13 @@ license_name: GNU General Public License v3.0 or later
 qr:
   netpass.cia: https://db.universal-team.net/assets/images/qr/netpass-cia.png
 source: https://gitlab.com/3ds-netpass/netpass
-stars: 64
+stars: 65
 systems:
 - 3DS
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <p data-sourcepos="1:1-1:39" dir="auto">Fix bad http call which lead
-  to a crash</p>
+update_notes: Fix bad http call which lead to a crash
 updated: '2025-11-09T15:09:06.000Z'
 version: v1.2.7
 version_title: v1.2.7
