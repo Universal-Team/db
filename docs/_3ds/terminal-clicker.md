@@ -1,0 +1,37 @@
+---
+author: Sophie
+avatar: https://avatars.githubusercontent.com/u/181731403?v=4
+categories:
+- game
+color: '#282828'
+color_bg: '#282828'
+created: '2025-01-30T15:43:53Z'
+description: Terminal Interface Clicker for the 3ds
+github: PyJulian/termiclicker3ds
+icon: https://raw.githubusercontent.com/PyJulian/termiclicker3ds/refs/heads/main/TerminalClicker/icon.png
+image: https://raw.githubusercontent.com/PyJulian/termiclicker3ds/refs/heads/main/TerminalClicker/icon.png
+image_length: 545
+layout: app
+license: mit
+license_name: MIT License
+screenshots:
+- description: Gameplay
+  url: https://db.universal-team.net/assets/images/screenshots/terminal-clicker/gameplay.png
+source: https://github.com/PyJulian/termiclicker3ds
+stars: 0
+systems:
+- 3ds
+title: Terminal Clicker
+updated: '---'
+---
+Terminal Clicker is a simple clicker game made for the terminal interface.
+One of my first real "games" which I'm actually rlly proud of.
+
+So what you do is click to get cash, buy upgrades.
+Each upgrade can be bought 999 times each, buying every upgrade will result in you winning this game, Hooray!!
+Added a progress counter too for a more easy visualization of your progress.
+
+_Use cheatcode "83" to get into the developer tools if you wish too, but there is not much to find there._
+
+
+**Good Luck!**
