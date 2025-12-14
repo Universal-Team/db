@@ -28,8 +28,8 @@
 			{
 				"type": "extractFile",
 				"file": "/uxnds.zip",
-				"input": "uxn",
-				"output": "/uxn"
+				"input": "uxn/",
+				"output": "/uxn/"
 			},
 			{
 				"type": "deleteFile",
@@ -52,8 +52,8 @@
 			{
 				"type": "extractFile",
 				"file": "/uxnds.zip",
-				"input": "uxn",
-				"output": "/uxn"
+				"input": "uxn/",
+				"output": "/uxn/"
 			},
 			{
 				"type": "deleteFile",
@@ -76,8 +76,8 @@
 			{
 				"type": "extractFile",
 				"file": "/uxnds.zip",
-				"input": "uxn",
-				"output": "/uxn"
+				"input": "uxn/",
+				"output": "/uxn/"
 			},
 			{
 				"type": "deleteFile",
@@ -100,8 +100,8 @@
 			{
 				"type": "extractFile",
 				"file": "/uxnds.zip",
-				"input": "uxn",
-				"output": "/uxn"
+				"input": "uxn/",
+				"output": "/uxn/"
 			},
 			{
 				"type": "deleteFile",
