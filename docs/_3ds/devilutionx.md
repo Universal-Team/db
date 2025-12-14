@@ -27,6 +27,20 @@ license: other
 license_name: Other
 qr:
   devilutionx-3ds.cia: https://db.universal-team.net/assets/images/qr/devilutionx-3ds-cia.png
+script_message: 'You need the game files from your CD/GOG in
+
+  "sdmc:/3ds/devilutionx/" to play the game.
+
+
+  Diablo: "diabdat.mpq"
+
+
+  Diablo - Hellfire: "hellfire.mpq", "hfmonk.mpq",
+
+  "hfmusic.mpq", and "hfvoice.mpq"
+
+
+  Diablo Spawn (shareware): "spawn.mpq"'
 source: https://github.com/diasurgical/DevilutionX
 stars: 9172
 systems:

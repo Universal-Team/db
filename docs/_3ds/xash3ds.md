@@ -35,8 +35,16 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 qr:
   Xash3DS.cia: https://db.universal-team.net/assets/images/qr/xash3ds-cia.png
+script_message: 'You will need to copy the "valve" directory from
+
+  your Half-Life installation to "sdmc:/xash3d/".
+
+
+  If present, delete "config.cfg", "video.cfg",
+
+  and "opengl.cfg" from the value directory.'
 source: https://github.com/masterfeizz/Xash3DS
-stars: 164
+stars: 165
 systems:
 - 3DS
 title: Xash3DS

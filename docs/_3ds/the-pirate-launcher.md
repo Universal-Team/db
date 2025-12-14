@@ -27,6 +27,13 @@ icon: https://raw.githubusercontent.com/Alexyo21/the-pirate-launcher/master/icon
 image: https://raw.githubusercontent.com/Alexyo21/the-pirate-launcher/master/icon.png
 image_length: 2130
 layout: app
+script_message: 'This will replace the boot.3dsx in the root of
+
+  your SD card, replacing the Homebrew
+
+  Launcher with the Pirate Launcher.
+
+  Continue?'
 source: https://github.com/cooolgamer/the-pirate-launcher
 stars: 15
 systems:

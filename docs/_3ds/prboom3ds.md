@@ -48,6 +48,9 @@ prerelease:
   updated: '2019-12-21T23:47:05Z'
   version: v0.7-alpha
   version_title: v0.7-alpha
+script_message: 'You will need to put Doom WAD files in
+
+  "sdmc:/3ds/prboom3ds/" to play them.'
 source: https://github.com/elhobbs/prboom3ds
 stars: 108
 systems:
