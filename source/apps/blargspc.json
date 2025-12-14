@@ -1,0 +1,17 @@
+{
+	"github": "DiscostewSM/blargSpc",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"app"
+	],
+	"long_description": "BlargSPC is a homebrew SPC player that is capable to play SNES SPC-dumped files on the 3DS. It is based on the SPC/DSP cores og blargSNES.\n\n### FAQ\n\nQ. This can play SPC files of games that currently have no audio in blargSNES. Does that mean a fix for blargSNES is coming soon?\n\nUnfortunately, no, not because of this anyways. The reason why blargSNES has trouble with some audio in games is because of communication/sync problems (among other things) between the main CPU and SPC cores.\n\nSPC files you may find online were dumped by other emulators that don't have this problem. But, at least this shows that the audio can process/play once this issue with blargSNES is resolved.\n\nQ. Wait, I can play SPC files of games with enhancement chips in them. Does that mean...\n\nNo, it does not. The SPC/DSP cores are completely independant from the rest of the system with the exception of a couple of lines to the main CPU used for SPC uploading/downloading.",
+	"archive": {
+		"blargSpc.zip": {
+			"blargSpc.3dsx": [
+				"blargSpc.3dsx"
+			]
+		}
+	}
+}
