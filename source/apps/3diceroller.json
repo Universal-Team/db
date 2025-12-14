@@ -1,0 +1,11 @@
+{
+	"github": "t0xid/3DiceRoller",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"app"
+	],
+	"icon": "https://raw.githubusercontent.com/t0xid/3DiceRoller/refs/heads/main/icon.png",
+	"long_description": "a 2d dice roller for the 3ds. includes the ability to roll up to 13 dice types in one rolling, sound effects, advantage and disadvantage."
+}
