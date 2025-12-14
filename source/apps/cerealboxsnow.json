@@ -1,0 +1,13 @@
+{
+	"github": "tallHouse64/CerealBoxSnow",
+	"description": "A pixel art style snow simulator. Fire, rain, \"birds\" and fireflies can also be simulated. Made with drws-lib. (There's a PC version).",
+	"systems": [
+		"ds"
+	],
+	"categories": [
+		"app"
+	],
+	"icon": "https://raw.githubusercontent.com/tallHouse64/CerealBoxSnow/0754a741579cb8ab276df2faa0316160519e3482/CerealBoxSnowLogo.png",
+	"long_description": "A snow pixel art style simulator.\n\nFeatures:\n- You can push or pull particles around with the mouse.\n- Also you can control the number of particles.\n\nSimulations:\n- Snow\n- Fire\n- Rain\n- \"Birds\"\n- Fireflies\n\nMade with drws-lib.",
+	"download_filter": "nds"
+}
