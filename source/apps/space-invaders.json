@@ -1,0 +1,11 @@
+{
+	"github": "ConstantinZpher/Space-Invaders-3DS",
+	"title": "Space Invaders",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/ConstantinZpher/Space-Invaders-3DS/refs/heads/master/icon.png"
+}
