@@ -1,0 +1,14 @@
+{
+	"github": "Menshion01/CSTimer-3DS",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"app"
+	],
+	"image": "https://raw.githubusercontent.com/Menshion01/CSTimer-3DS/refs/heads/main/icon/banner.png",
+	"icon": "https://raw.githubusercontent.com/Menshion01/CSTimer-3DS/refs/heads/main/icon/icon.png",
+	"unique_ids": [
+		1026654
+	]
+}
