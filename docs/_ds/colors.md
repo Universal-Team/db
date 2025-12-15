@@ -19,6 +19,8 @@ downloads:
 icon: https://db.universal-team.net/assets/images/icons/colors.png
 image: https://db.universal-team.net/assets/images/icons/colors.png
 image_length: 282
+installed_files:
+- '%NDS%/Colors.nds'
 layout: app
 stars: 0
 systems:

@@ -17,6 +17,8 @@ downloads:
 github: PretendoNetwork/HokakuCTR
 image: https://avatars.githubusercontent.com/u/36684034?v=4&size=128
 image_length: 3197
+installed_files:
+- /luma/plugins/default.3gx
 layout: app
 source: https://github.com/PretendoNetwork/HokakuCTR
 stars: 43

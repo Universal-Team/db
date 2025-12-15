@@ -17,6 +17,11 @@ github: asiekierka/uxnds
 icon: https://raw.githubusercontent.com/asiekierka/uxnds/main/misc/uxn48.png
 image: https://raw.githubusercontent.com/asiekierka/uxnds/main/misc/uxn48.png
 image_length: 224
+installed_files:
+- '%3DSX%/uxnds.3dsx'
+- '%NDS%/uxnds.nds'
+- '%NDS%/uxnds_debug.nds'
+- '%NDS%/uxnds_profile.nds'
 layout: app
 license: mit
 license_name: MIT License

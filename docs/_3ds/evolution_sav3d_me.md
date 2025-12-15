@@ -22,6 +22,8 @@ github: Manurocker95/Evolution_Sav3D_Me
 icon: https://raw.githubusercontent.com/Manurocker95/Evolution_Sav3D_Me/Evolution_Sav3D_Me/icon.png
 image: https://db.universal-team.net/assets/images/images/evolution_sav3d_me.png
 image_length: 4888
+installed_files:
+- '%3DSX%/Evolution_Sav3D_Me.3dsx'
 layout: app
 qr:
   Evolution_Sav3D_Me.cia: https://db.universal-team.net/assets/images/qr/evolution_sav3d_me-cia.png

@@ -12,6 +12,8 @@ github: elhobbs/prboom3ds
 icon: https://raw.githubusercontent.com/elhobbs/prboom3ds/master/prboom3ds.png
 image: https://raw.githubusercontent.com/elhobbs/prboom3ds/master/banner.png
 image_length: 61311
+installed_files:
+- '%3DSX%/prboom3ds.3dsx'
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0

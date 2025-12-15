@@ -38,6 +38,8 @@ github: MrHuu/opentitus-3ds
 icon: https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_icon_48x48.png
 image: https://raw.githubusercontent.com/MrHuu/opentitus-3ds/3DS/3ds/Titus_banner.png
 image_length: 24903
+installed_files:
+- '%3DSX%/OpenTitus.3dsx'
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

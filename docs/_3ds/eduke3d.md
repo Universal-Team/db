@@ -12,6 +12,8 @@ github: masterfeizz/EDuke3D
 icon: https://raw.githubusercontent.com/masterfeizz/EDuke3D/master/icon.png
 image: https://db.universal-team.net/assets/images/images/eduke3d.png
 image_length: 9124
+installed_files:
+- '%3DSX%/eduke3d.3dsx'
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0

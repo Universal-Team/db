@@ -21,6 +21,13 @@ downloads:
 github: SFC-hacker/Mario-Kart-7-Plugin-Deluxe
 image: https://avatars.githubusercontent.com/u/67318218?v=4&size=128
 image_length: 4502
+installed_files:
+- /luma/plugins/0004000000030800/plugin.3gx
+- /luma/plugins/0004000000030700/plugin.3gx
+- /luma/plugins/0004000000030600/plugin.3gx
+- /luma/plugins/0004000000030A00/plugin.3gx
+- /luma/plugins/000400000008B500/plugin.3gx
+- /luma/plugins/000400000008B400/plugin.3gx
 layout: app
 script_message: 'Warning: If you are caught cheating
 

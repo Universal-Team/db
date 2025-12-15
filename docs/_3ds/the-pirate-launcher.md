@@ -26,6 +26,8 @@ github: cooolgamer/the-pirate-launcher
 icon: https://raw.githubusercontent.com/Alexyo21/the-pirate-launcher/master/icon.png
 image: https://raw.githubusercontent.com/Alexyo21/the-pirate-launcher/master/icon.png
 image_length: 2130
+installed_files:
+- /boot.3dsx
 layout: app
 script_message: 'This will replace the boot.3dsx in the root of
 

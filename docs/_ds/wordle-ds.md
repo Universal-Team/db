@@ -26,6 +26,9 @@ icon: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
 icon_static: https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/resources/icon/icon.0.png
 image: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
 image_length: 3957
+installed_files:
+- '%NDS%/WordleDS.dsi'
+- '%NDS%/WordleDS.nds'
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

@@ -30,6 +30,8 @@ github: Gericom/GBARunner2
 icon: https://db.universal-team.net/assets/images/icons/gbarunner2.png
 image: https://db.universal-team.net/assets/images/images/gbarunner2.png
 image_length: 324
+installed_files:
+- /_nds/GBARunner2_arm7dldi_3ds.nds
 layout: app
 qr:
   GBARunner2_arm7dldi_3ds.nds: https://db.universal-team.net/assets/images/qr/gbarunner2_arm7dldi_3ds-nds.png

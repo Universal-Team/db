@@ -21,6 +21,10 @@ downloads:
 github: PabloMK7/kartdlphax
 image: https://db.universal-team.net/assets/images/images/kartdlphax.png
 image_length: 57059
+installed_files:
+- /luma/plugins/0004000000030700/plugin.3gx
+- /luma/plugins/0004000000030600/plugin.3gx
+- /luma/plugins/0004000000030800/plugin.3gx
 layout: app
 license: unlicense
 license_name: The Unlicense

@@ -21,6 +21,8 @@ github: LukeZGD/DDLC-LOVE
 icon: https://db.universal-team.net/assets/images/icons/ddlc-love.png
 image: https://db.universal-team.net/assets/images/images/ddlc-love.png
 image_length: 4459
+installed_files:
+- '%3DSX%/DDLC-3DS.3dsx'
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

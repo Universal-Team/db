@@ -35,6 +35,9 @@ downloads:
 github: masterfeizz/ioQuake3DS
 image: https://avatars.githubusercontent.com/u/15205297?v=4&size=128
 image_length: 1569
+installed_files:
+- '%3DSX%/OpenArena.3dsx'
+- '%3DSX%/Quake3DS.3dsx'
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0

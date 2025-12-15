@@ -16,6 +16,8 @@ downloads:
 github: MechanicalDragon0687/NDSForwarder
 image: https://avatars.githubusercontent.com/u/43786828?v=4&size=128
 image_length: 10211
+installed_files:
+- '%3DSX%/ndsForwarder.3dsx'
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

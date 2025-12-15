@@ -29,6 +29,10 @@ github: MegaPika/SatellaZone
 icon: https://db.universal-team.net/assets/images/icons/satellazone.png
 image: https://db.universal-team.net/assets/images/icons/satellazone.png
 image_length: 6846
+installed_files:
+- /luma/titles/0004001000022B00/
+- /luma/titles/0004001000021B00/
+- /luma/titles/0004001000020B00/
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
