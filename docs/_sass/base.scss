@@ -126,6 +126,9 @@ img {
 .text-primary {
 	background-color: $primary!important;
 }
+input.input-group-text:hover {
+	background-color: $secondary-active;
+}
 
 // Override the secondary text color
 .btn-outline-secondary {

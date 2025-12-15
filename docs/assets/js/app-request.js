@@ -26,15 +26,17 @@ let appSchema = {
 	description: {label: "Description", type: "string", required: true},
 	author: {label: "Author's Name", type: "string", required: true},
 	avatar: {label: "Author's Avatar", type: "image"},
-	website: {label: "App's Website", type: "string"},
-	wiki: {label: "App's Wiki", type: "string"},
 	// Required
 	systems: {label: "Native Systems", type: "multiselect", required: true, values: ["3ds", "ds"], labels: ["3DS", "DS"]},
 	categories: {label: "Categories", type: "multiselect", required: true, values: ["game", "emulator", "app", "utility", "save-tool", "firm", "luma3DS"], labels: ["Game", "Emulator", "App", "Utility", "Save Tool", "FIRM", "Luma3DS"]},
-	image: {label: "Banner Image", type: "image"},
-	icon: {label: "Icon", type: "image", required: true},
+	icon: {label: "Icon", help: "Preferably 48x48 or 32x32. The icon is not technically necessary, avatar will be used as a fallback, but I didn't want people to skip it. Copy the avatar URL if you don't have an icon.", type: "image", required: true},
+	image: {label: "Banner Image", help: "Preferably a 3DS banner (256x128). Displayed on the Universal-DB website.", type: "image"},
 	// Common
-	unique_ids: {label: "CIA Unique ID(s)", type: "array", validate: str => {
+	unique_ids: {
+		label: "CIA Unique ID(s)",
+		help: 'The "UniqueId" in an RSF file. If you do not have a 3DS CIA build then skip this. Comma separated for multiple.',
+		type: "array", 
+		validate: str => {
 		let items = str.split(",").map(r => r.trim());
 		let output = [];
 		for(let item of items) {
@@ -47,11 +49,13 @@ let appSchema = {
 
 		return {status: !!output.length, value: output};
 	}},
-	long_description: {label: "Long Description (Markdown)", type: "textarea"},
-	download_filter: {label: "Download Filter (regex)", type: "string"},
+	long_description: {label: "Long Description (Markdown)", help: "This is displayed on the Unviersal-DB website.", type: "textarea"},
+	website: {label: "App's Website", type: "string"},
+	wiki: {label: "App's Wiki", help: "If left blank this will be autofilled with the GitHub Wiki, I just haven't implemented the check for that into this form.", type: "string"},
+	download_filter: {label: "Download Filter (regex)", help: "File whitelist in case your app has files not caught by the blacklist. Most common of cross-platform apps.", type: "string"},
 	// Rare
 	autogen_scripts: {label: "Auto-generate Scripts", type: "bool", default: true},
-	script_message: {label: "Pre-install message", type: "string"},
+	script_message: {label: "Pre-install message", help: "The confirmation message to display in Universal-Updater before installing. Leave blank for most apps.", type: "string"},
 };
 
 let apiMappings = {
@@ -313,6 +317,15 @@ function fillInfo() {
 			label.innerText += "*";
 		inputGroup.appendChild(label);
 
+		if(item.help) {
+			let help = document.createElement("input");
+			help.type = "button";
+			help.classList.add("input-group-text");
+			help.value = "(?)";
+			help.addEventListener("click", () => { alert(item.help); });
+			inputGroup.appendChild(help);
+		}
+
 		createInput(item, key).forEach(r => inputGroup.appendChild(r));
 		
 		if (appSchema[key].default) {
@@ -401,6 +414,9 @@ async function exportJson() {
 		if(blank || (!schema.hidden && appExport[key] == appSchema[key].default))
 			delete appExport[key];
 	}
+
+	if(appExport.icon == appInfo.avatar)
+		delete appExport.icon;
 
 	let dataString = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(appExport, null, "\t"));
 
