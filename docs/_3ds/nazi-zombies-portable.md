@@ -19,6 +19,8 @@ github: nzp-team/nzportable
 icon: https://raw.githubusercontent.com/nzp-team/vril-engine/main/source/platform/ctr/art/icon.png
 image: https://raw.githubusercontent.com/nzp-team/vril-engine/main/source/platform/ctr/art/banner.png
 image_length: 66499
+installed_files:
+- '%3DSX%/nzportable.3dsx'
 layout: app
 screenshots:
 - description: Gameplay 1

@@ -20,6 +20,8 @@ downloads:
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
+installed_files:
+- /_nds/nds-bootstrap-release.nds
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
