@@ -12,6 +12,7 @@
 		14410
 	],
 	"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/virtuanes/assets/icon.png",
+	"installed_files": ["%3DSX%/virtuanes_3ds.3dsx"],
 	"scripts": {
 		"virtuanes_3ds.cia": [
 			{

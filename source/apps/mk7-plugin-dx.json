@@ -11,6 +11,14 @@
 	],
 	"description": "A polished cheat plugin for Mario Kart 7, now with anticheat!",
 	"script_message": "Warning: If you are caught cheating\nin a public room you will be banned from\nevery Pretendo Network service.",
+	"installed_files": [
+		"/luma/plugins/0004000000030800/plugin.3gx",
+		"/luma/plugins/0004000000030700/plugin.3gx",
+		"/luma/plugins/0004000000030600/plugin.3gx",
+		"/luma/plugins/0004000000030A00/plugin.3gx",
+		"/luma/plugins/000400000008B500/plugin.3gx",
+		"/luma/plugins/000400000008B400/plugin.3gx"
+	],
 	"scripts": {
 		"USA": [
 			{

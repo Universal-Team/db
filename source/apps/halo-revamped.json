@@ -12,6 +12,7 @@
 		225771
 	],
 	"icon": "https://raw.githubusercontent.com/CollinScripter/Revamped3DS/master/icon.png",
+	"installed_files": ["%3DSX%/Revamped.3dsx"],
 	"scripts": {
 		"Revamped.cia": [
 			{

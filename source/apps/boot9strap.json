@@ -7,6 +7,7 @@
 		"utility"
 	],
 	"unistore_exclude": true,
+	"installed_files": ["/boot9strap/boot9strap.firm"],
 	"scripts": {
 		"boot9strap.firm": [
 			{

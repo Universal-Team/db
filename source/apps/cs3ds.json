@@ -10,6 +10,7 @@
 		990125
 	],
 	"icon": "https://raw.githubusercontent.com/machinamentum/CS3DS/master/jge/Projects/cspsp/icon_3ds.png",
+	"installed_files": ["%3DSX%/cspsp.3dsx"],
 	"scripts": {
 		"[prerelease] cspsp.cia": {
 			"type": "prerelease",

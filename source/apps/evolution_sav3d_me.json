@@ -11,6 +11,7 @@
 	],
 	"icon": "https://raw.githubusercontent.com/Manurocker95/Evolution_Sav3D_Me/Evolution_Sav3D_Me/icon.png",
 	"autogen_scripts": true,
+	"installed_files": ["%3DSX%/Evolution_Sav3D_Me.3dsx"],
 	"scripts": {
 		"Evolution_Sav3D_Me.3dsx": [
 			{

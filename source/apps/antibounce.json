@@ -20,6 +20,7 @@
 		}
 	},
 	"autogen_scripts": true,
+	"installed_files": ["%3DSX%/Antibounce.3dsx"],
 	"scripts": {
 		"Antibounce.3dsx": [
 			{

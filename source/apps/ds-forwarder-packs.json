@@ -17,6 +17,7 @@
 			"url": "https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z"
 		}
 	},
+	"installed_files": ["/_nds/ntr-forwarder/sdcard.nds"],
 	"scripts": {
 		"SD card forwarder pack": [
 			{

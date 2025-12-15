@@ -11,6 +11,7 @@
 		14409
 	],
 	"icon": "https://raw.githubusercontent.com/bubble2k16/snes9x_3ds/master/assets/icon.png",
+	"installed_files": ["%3DSX%/snes9x_3ds.3dsx"],
 	"scripts": {
 		"snes9x_3ds.cia": [
 			{

@@ -6,6 +6,7 @@
 	"categories": ["game"],
 	"unique_ids": [225771],
 	"icon": "https://raw.githubusercontent.com/ArcadeJumpers/RenewedSolitude3DS/master/icon.png",
+	"installed_files": ["%3DSX%/RenewedSolitude.3dsx"],
 	"scripts": {
 		"Revamped.cia": [
 			{

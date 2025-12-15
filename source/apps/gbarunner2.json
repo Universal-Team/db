@@ -9,6 +9,7 @@
 		"DS"
 	],
 	"autogen_scripts": true,
+	"installed_files": ["/_nds/GBARunner2_arm7dldi_3ds.nds"],
 	"scripts": {
 		"[twlmenu] GBARunner2_arm7dldi_3ds.nds": [
 			{

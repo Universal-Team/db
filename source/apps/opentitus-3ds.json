@@ -28,6 +28,7 @@
 	},
 	"script_message": "Now you will need to put the original game files in\n\"sd:/3ds/OpenTitus/moktar\" for the game to work.",
 	"long_description": "The CIA and 3DSX downloads should be used on new 3DS systems, the LOW_FREQ downloads should be used on old 3DS.\n\nYou will need the original game files in `sdmc:/3ds/OpenTitus/moktar` for the moktar buids and `sdmc:/3ds/OpenTitus/titus` for the titus builds.",
+	"installed_files": ["%3DSX%/OpenTitus.3dsx"],
 	"scripts": {
 		"[moktar] OpenTitus.cia": [
 			{

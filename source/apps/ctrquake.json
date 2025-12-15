@@ -10,6 +10,7 @@
 		1044771
 	],
 	"icon": "https://raw.githubusercontent.com/masterfeizz/ctrQuake/master/icon.png",
+	"installed_files": ["%3DSX%/ctrQuake.3dsx"],
 	"scripts": {
 		"ctrQuake.cia": [
 			{

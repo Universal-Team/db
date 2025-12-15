@@ -8,6 +8,7 @@
 		"utility",
 		"exploit"
 	],
+	"installed_files": ["/luma/plugins/0004000000030700/plugin.3gx", "/luma/plugins/0004000000030600/plugin.3gx", "/luma/plugins/0004000000030800/plugin.3gx"],
 	"scripts": {
 		"[EUR] plugin.3gx": [
 			{

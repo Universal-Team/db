@@ -7,6 +7,7 @@
 		"game"
 	],
 	"icon": "https://github.com/Fewnity/Counter-Strike-Nintendo-DS/raw/main/Counter-Strike-nds/icon.bmp",
+	"installed_files": ["%NDS%/counter_strike.nds"],
 	"scripts": {
 		"counter_strike.nds": [
 			{

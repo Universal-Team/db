@@ -7,6 +7,7 @@
 		"utility"
 	],
 	"icon": "https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png",
+	"installed_files": ["/boot.3dsx"],
 	"scripts": {
 		"boot.3dsx": [
 			{

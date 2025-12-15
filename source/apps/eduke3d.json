@@ -10,6 +10,7 @@
 		1044772
 	],
 	"icon": "https://raw.githubusercontent.com/masterfeizz/EDuke3D/master/icon.png",
+	"installed_files": ["%3DSX%/eduke3d.3dsx"],
 	"scripts": {
 		"[prerelease] EDuke3D.cia": {
 			"type": "prerelease",

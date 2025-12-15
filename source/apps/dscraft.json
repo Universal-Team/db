@@ -20,6 +20,7 @@
 	"image": "https://raw.githubusercontent.com/smealum/dscraft/master/site/dscraft-logo.png",
 	"version": "v310811",
 	"updated": "2011-08-31T20:29:00Z",
+	"installed_files": ["%NDS%/DScraft.nds", "%NDS%/DScraft_fat.nds"],
 	"scripts": {
 		"DScraft.nds": [
 			{

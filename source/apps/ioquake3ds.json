@@ -9,6 +9,7 @@
 	"unique_ids": [
 		1044773
 	],
+	"installed_files": ["%3DSX%/OpenArena.3dsx", "%3DSX%/Quake3DS.3dsx"],
 	"scripts": {
 		"OpenArena.3dsx": [
 			{

@@ -11,6 +11,7 @@
 	"long_description": "In this dating game you need to break up with Cat Grill as soon as possible!! Make decisions to get the emotion meter down before the timer gets to 0!\n\nThis port features more endings and a completely portable Breakup Sim experience!!\n\n-- Credits -- ---------------------------\n\nCAT GRILL by DangerBites\n\nDrawing Cat Grill holds up is by Eran\n\nArt and Music by Dangerbites and Haynster",
 	"image": "https://raw.githubusercontent.com/Dangerbites/BreakupSimulator3DS/main/breakup-banner.png",
 	"icon": "https://raw.githubusercontent.com/Dangerbites/BreakupSimulator3DS/main/breakup-icon.png",
+	"installed_files": ["%3DSX%/BreakupSimulator.3dsx"],
 	"scripts": {
 		"Install game (3dsx)": [
 			{
@@ -27,6 +28,11 @@
 				"file": "sdmc:/3ds/BreakupSimulator3DS.zip",
 				"input": "",
 				"output": "sdmc:/3ds/BreakupSimulator/"
+			},
+			{
+				"type": "move",
+				"old": "/3ds/BreakupSimulator/lovepotion.3dsx",
+				"new": "%3DSX%/BreakupSimulator.3dsx"
 			},
 			{
 				"type": "deleteFile",

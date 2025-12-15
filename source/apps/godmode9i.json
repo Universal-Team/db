@@ -11,6 +11,7 @@
 	"image": "https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png",
 	"icon": "https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/icon.bmp",
 	"wiki": "https://wiki.ds-homebrew.com/other/godmode9i",
+	"installed_files": ["%NDS%/GodMode9i.nds"],
 	"scripts": {
 		"GodMode9i.cia": [
 			{

@@ -12,8 +12,9 @@
 	],
 	"long_description": "### THIS IS FOR NEW 3DS ONLY. IT WILL NOT RUN ON OLD 3DS.\n\nChangelog:\n- HUGE performance increase thanks to mipmapping\n- stereoscopic 3D rendering\n- initial CIA support\n- fixed graphics glitch that was caused by uninitialized GPU shadow state registers\n- fixed fog color\n- fixed hole in GFZ2\n- fixed crash when DSP firmware is missing\n- ... other miscellaneous fixes",
 	"icon": "https://github.com/derrekr/srb2_3ds/raw/master/meta/icon.png",
+	"installed_files": ["%3DSX%/srb2_3ds.3dsx"],
 	"scripts": {
-		"Install as cia": [
+		"srb2_3ds.cia": [
 			{
 				"type": "downloadRelease",
 				"repo": "derrekr/srb2_3ds",
@@ -40,7 +41,7 @@
 				"file": "/srb2_3ds.cia"
 			}
 		],
-		"Install as 3dsx": [
+		"srb2_3ds.3dsx": [
 			{
 				"type": "downloadRelease",
 				"repo": "derrekr/srb2_3ds",
@@ -52,7 +53,7 @@
 				"type": "extractFile",
 				"file": "/srb2_3ds.zip",
 				"input": "srb2_3ds.3dsx",
-				"output": "sdmc:/3ds/srb2_3ds.3dsx"
+				"output": "%3DSX%/srb2_3ds.3dsx"
 			},
 			{
 				"type": "deleteFile",

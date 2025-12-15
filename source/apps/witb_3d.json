@@ -12,6 +12,7 @@
 	"image": "https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/resources/banner.png",
 	"icon": "https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/icon.png",
 	"autogen_scripts": true,
+	"installed_files": ["%3DSX%/WITB_3D.3dsx"],
 	"scripts": {
 		"WITB_3D.3dsx": [
 			{

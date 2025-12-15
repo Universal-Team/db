@@ -7,6 +7,7 @@
 		"emulator",
 		"firm"
 	],
+	"installed_files": ["%FIRM%/open_agb_firm.firm"],
 	"scripts": {
 		"open_agb_firm.firm": [
 			{

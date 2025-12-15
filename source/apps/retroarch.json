@@ -30,6 +30,7 @@
 			}
 		}
 	},
+	"installed_files": ["/retroarch/assets/ctr/bottom_menu.png"],
 	"scripts": {
 		"Core info files": [
 			{

@@ -10,6 +10,7 @@
 		54170
 	],
 	"icon": "https://raw.githubusercontent.com/TurtleP/Hax0r/master/graphics/icon.png",
+	"installed_files": ["%3DSX%/Hax0r.3dsx"],
 	"scripts": {
 		"Hax0r.cia": [
 			{

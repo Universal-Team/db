@@ -12,6 +12,7 @@
 		14411
 	],
 	"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/temperpce/assets/icon.png",
+	"installed_files": ["%3DSX%/temperpce_3ds.3dsx"],
 	"scripts": {
 		"temperpce_3ds.cia": [
 			{

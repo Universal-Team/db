@@ -12,6 +12,7 @@
 	"image": "https://raw.githubusercontent.com/phijor/ctroller/master/3DS/resources/banner.png",
 	"icon": "https://raw.githubusercontent.com/phijor/ctroller/master/3DS/resources/icon.png",
 	"autogen_scripts": true,
+	"installed_files": ["%3DSX%/ctroller.3dsx"],
 	"scripts": {
 		"ctroller.3dsx": [
 			{

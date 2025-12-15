@@ -39,6 +39,14 @@ class StoreEntry:
 		(optional) The entry's icon's index in the spritesheet
 	color
 		(optional) Accent color for the entry (in the format `#RRGGBB`)
+	stars
+		(optional) Stars for the entry
+	preinstallMessage
+		(optional) Pre-install message for the entry
+	titleIds
+		(optional) Title ID(s) of the app
+	installedFiles
+		(optional) The files that indicate the app is installed
 	"""
 
 	@staticmethod
@@ -47,7 +55,7 @@ class StoreEntry:
 
 		return "".join([c for c in string if ord(c) < 0xFFFF]).strip()
 
-	def __init__(self, title: str, author: str, description: str, version: str, lastUpdated: str = "", categories: list = [], consoles: list = [], screenshots: list = [], releaseNotes: str = "", license: str = "", wiki: str = "", iconIndex: int = -1, color: str = "", stars: int = 0, preinstallMessage: str = ""):
+	def __init__(self, title: str, author: str, description: str, version: str, lastUpdated: str = "", categories: list = [], consoles: list = [], screenshots: list = [], releaseNotes: str = "", license: str = "", wiki: str = "", iconIndex: int = -1, color: str = "", stars: int = 0, preinstallMessage: str = "", titleIds: list = [], installedFiles: list = []):
 		self._entry = {
 			"info": {
 				"title": self._bmpOnly(title),
@@ -63,7 +71,9 @@ class StoreEntry:
 				"wiki": wiki,
 				"icon_index": iconIndex,
 				"stars": stars,
-				"preinstall_message": self._bmpOnly(preinstallMessage)
+				"preinstall_message": self._bmpOnly(preinstallMessage),
+				"title_ids": titleIds,
+				"installed_files": installedFiles
 			}
 		}
 		if color:
@@ -91,19 +101,23 @@ class StoreEntry:
 
 			for item in archive:
 				if item[item.rfind(".") + 1:].lower() == "3dsx":
+					output = f"%3DSX%/{item[item.rfind('/') + 1:]}"
 					script.append({
 						"type": "extractFile",
 						"file": f"/{file}",
 						"input": f"^{item}",
-						"output": f"%3DSX%/{item[item.rfind('/') + 1:]}"
+						"output": output
 					})
+					self._entry["info"]["installed_files"].append(output)
 				elif item[item.rfind(".") + 1:].lower() in ["nds", "dsi"]:
+					output = f"%NDS%/{item[item.rfind('/') + 1:]}"
 					script.append({
 						"type": "extractFile",
 						"file": f"/{file}",
 						"input": f"^{item}",
-						"output": f"%NDS%/{item[item.rfind('/') + 1:]}"
+						"output": output
 					})
+					self._entry["info"]["installed_files"].append(output)
 				elif item[item.rfind(".") + 1:].lower() == "cia":
 					script.append({
 						"type": "extractFile",
@@ -129,19 +143,23 @@ class StoreEntry:
 							"file": f"/{item[item.rfind('/') + 1:]}"
 						})
 				elif item.endswith("boot.firm"):
+					output = f"/{item[item.rfind('/') + 1:]}"
 					script.append({
 						"type": "extractFile",
 						"file": f"/{file}",
 						"input": f"^{item}",
-						"output": f"/{item[item.rfind('/') + 1:]}"
+						"output": output
 					})
+					self._entry["info"]["installed_files"].append(output)
 				elif item[item.rfind(".") + 1:].lower() == "firm":
+					output = f"%FIRM%/{item[item.rfind('/') + 1:]}"
 					script.append({
 						"type": "extractFile",
 						"file": f"/{file}",
 						"input": f"^{item}",
-						"output": f"%FIRM%/{item[item.rfind('/') + 1:]}"
+						"output": output
 					})
+					self._entry["info"]["installed_files"].append(output)
 				else:
 					script.append({
 						"type": "extractFile",
@@ -156,21 +174,25 @@ class StoreEntry:
 			})
 		else:
 			if file[file.rfind(".") + 1:].lower() == "3dsx":
+				output = f"%3DSX%/{file}"
 				script = [
 					{
 						"type": "downloadFile",
 						"file": url,
-						"output": f"%3DSX%/{file}"
+						"output": output
 					}
 				]
+				self._entry["info"]["installed_files"].append(output)
 			elif file[file.rfind(".") + 1:].lower() in ["nds", "dsi"]:
+				output = f"%NDS%/{file}"
 				script = [
 					{
 						"type": "downloadFile",
 						"file": url,
-						"output": f"%NDS%/{file}"
+						"output": output
 					}
 				]
+				self._entry["info"]["installed_files"].append(output)
 			elif file[file.rfind(".") + 1:].lower() == "cia":
 				script = [
 					{
@@ -188,21 +210,25 @@ class StoreEntry:
 					}
 				]
 			elif file == "boot.firm":
+				output = f"/{file}"
 				script = [
 					{
 						"type": "downloadFile",
 						"file": url,
-						"output": f"/{file}"
+						"output": output
 					}
 				]
+				self._entry["info"]["installed_files"].append(output)
 			elif file[file.rfind(".") + 1:].lower() == "firm":
+				output = f"%FIRM%/{file}"
 				script = [
 					{
 						"type": "downloadFile",
 						"file": url,
-						"output": f"%FIRM%/{file}"
+						"output": output
 					}
 				]
+				self._entry["info"]["installed_files"].append(output)
 			elif file[file.rfind(".") + 1:].lower() in ["zip", "7z", "rar"]:
 				script = [
 					{

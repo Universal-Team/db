@@ -12,6 +12,7 @@
 	"image": "https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/resources/banner.png",
 	"icon": "https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/resources/icon.png",
 	"autogen_scripts": true,
+	"installed_files": ["%3DSX%/TRekt_3D.3dsx"],
 	"scripts": {
 		"TRekt.3dsx": [
 			{

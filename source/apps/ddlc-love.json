@@ -21,6 +21,7 @@
 		}
 	},
 	"autogen_scripts": true,
+	"installed_files": ["%3DSX%/DDLC-3DS.3dsx"],
 	"scripts": {
 		"DDLC-3DS.3dsx": [
 			{

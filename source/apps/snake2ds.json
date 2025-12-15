@@ -11,6 +11,7 @@
 	],
 	"icon": "https://raw.githubusercontent.com/Jacudibu/Snake2DS/master/icon_large.png",
 	"autogen_scripts": true,
+	"installed_files": ["%3DSX%/Snake2DS/"],
 	"scripts": {
 		"Snake2DS.3dsx": [
 			{

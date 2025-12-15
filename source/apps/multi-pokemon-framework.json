@@ -1,48 +1,49 @@
 {
-  "github": "semaj14/Multi-PokemonFramework",
-  "title": "Multi-Pokémon Framework",
-  "systems": [
-    "3DS"
-  ],
-  "categories": [
-    "app"
-  ],
-  "scripts": {
-    "For Original Version": [
-      {
-        "type": "downloadRelease",
-        "repo": "semaj14/Multi-PokemonFramework",
-        "file": "Release.zip",
-        "output": "/Release.zip"
-      },
-      {
-        "type": "extractFile",
-        "file": "/Release.zip",
-        "input": "luma",
-        "output": "luma"
-      },
-      {
-        "type": "deleteFile",
-        "file": "/Release.zip"
-      }
-    ],
-    "For Updated Version": [
-      {
-        "type": "downloadRelease",
-        "repo": "MattiaTheBest115/Multi-PokemonFramework-ITA",
-        "file": "luma.zip",
-        "output": "/luma.zip"
-      },
-      {
-        "type": "extractFile",
-        "file": "/luma.zip",
-        "input": "luma",
-        "output": "luma"
-      },
-      {
-        "type": "deleteFile",
-        "file": "/luma.zip"
-      }
-    ]
-  }
+	"github": "semaj14/Multi-PokemonFramework",
+	"title": "Multi-Pokémon Framework",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"installed_files": ["/luma/plugins/00040000001B5000/Multi-PokemonFramework.3gx"],
+	"scripts": {
+		"For Original Version": [
+			{
+				"type": "downloadRelease",
+				"repo": "semaj14/Multi-PokemonFramework",
+				"file": "Release.zip",
+				"output": "/Release.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Release.zip",
+				"input": "luma",
+				"output": "luma"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/Release.zip"
+			}
+		],
+		"For Updated Version": [
+			{
+				"type": "downloadRelease",
+				"repo": "MattiaTheBest115/Multi-PokemonFramework-ITA",
+				"file": "luma.zip",
+				"output": "/luma.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/luma.zip",
+				"input": "luma",
+				"output": "luma"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/luma.zip"
+			}
+		]
+	}
 }

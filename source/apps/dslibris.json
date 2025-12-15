@@ -7,6 +7,7 @@
 		"DS"
 	],
 	"icon": "https://raw.githubusercontent.com/rhaleblian/dslibris/master/gfx/icon.bmp",
+	"installed_files": ["%NDS%/dslibris.nds"],
 	"scripts": {
 		"dslibris.nds": [
 			{

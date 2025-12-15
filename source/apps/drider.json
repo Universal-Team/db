@@ -11,6 +11,7 @@
 	],
 	"image": "https://raw.githubusercontent.com/ingolemo/drider/master/banner.png",
 	"icon": "https://raw.githubusercontent.com/ingolemo/drider/master/icon.png",
+	"installed_files": ["%3DSX%/drider.3dsx"],
 	"scripts": {
 		"drider.cia": [
 			{

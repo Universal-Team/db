@@ -14,6 +14,7 @@
 	"author": "MrCheeze",
 	"avatar": "https://avatars.githubusercontent.com/u/6541413?v=4",
 	"autogen_scripts": true,
+	"installed_files": ["%3DSX%/GYTB.3dsx"],
 	"scripts": {
 		"GYTB.3dsx": [
 			{

@@ -12,6 +12,7 @@
 		14412
 	],
 	"icon": "https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/picodrive/assets/icon.png",
+	"installed_files": ["%3DSX%/picodrive_3ds.3dsx"],
 	"scripts": {
 		"picodrive_3ds.cia": [
 			{
