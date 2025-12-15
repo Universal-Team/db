@@ -1,0 +1,11 @@
+{
+	"github": "ashbit06/RanGen-3DS",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/ashbit06/RanGen-3DS/refs/heads/master/icon.png",
+	"long_description": "# RanGen 3DS\n\nthis is a port of my [rangen ce](https://github.com/ashbit06/RanGen_CE) game for the ti-84 plus ce graphing calculator\n\n## how to play\n\n- dpad to move/jump\n- start to exit\n- left shoulder button to regenerate the map\n- right shoulder button to reset your position\n- x to pause and show extended player debug info\n  - use L/ZL/ZR/R + up/down on the dpad to adjust player movement values\n  - y to reset player movement values"
+}
