@@ -21,7 +21,7 @@ installed_files:
 - /boot.3dsx
 layout: app
 source: https://github.com/devkitPro/3ds-hbmenu
-stars: 797
+stars: 798
 systems:
 - 3DS
 title: 3ds-hbmenu
