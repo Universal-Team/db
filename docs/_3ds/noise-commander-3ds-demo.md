@@ -26,6 +26,8 @@ stars: 1
 systems:
 - 3DS
 title: Noise Commander 3DS (Demo)
+unique_ids:
+- '0xBEE96'
 update_notes: '<h3 dir="auto">Added</h3>
 
   <ul dir="auto">

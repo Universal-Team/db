@@ -31,8 +31,6 @@ github: DS-Homebrew/GodMode9i
 icon: https://db.universal-team.net/assets/images/icons/godmode9i.png
 image: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png
 image_length: 44248
-installed_files:
-- '%NDS%/GodMode9i.nds'
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

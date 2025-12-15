@@ -18,8 +18,6 @@ downloads:
 github: profi200/open_agb_firm
 image: https://avatars.githubusercontent.com/u/7831477?v=4&size=128
 image_length: 1560
-installed_files:
-- '%FIRM%/open_agb_firm.firm'
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

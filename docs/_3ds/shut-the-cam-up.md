@@ -21,9 +21,6 @@ downloads:
 github: TehFridge/ShutTheCamUp
 image: https://avatars.githubusercontent.com/u/85436576?v=4&size=128
 image_length: 33969
-installed_files:
-- sdmc:/luma/titles/0004013000001602/code.ips
-- sdmc:/luma/sysmodules/0004013000001602.ips
 layout: app
 source: https://github.com/TehFridge/ShutTheCamUp
 stars: 43

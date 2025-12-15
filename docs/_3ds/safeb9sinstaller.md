@@ -18,8 +18,6 @@ github: d0k3/SafeB9SInstaller
 icon: https://raw.githubusercontent.com/d0k3/SafeB9SInstaller/master/resources/BrahmaIcon.png
 image: https://db.universal-team.net/assets/images/images/safeb9sinstaller.png
 image_length: 10252
-installed_files:
-- '%FIRM%/SafeB9SInstaller.firm'
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

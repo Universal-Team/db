@@ -17,8 +17,6 @@ github: TurtleP/Hax0r
 icon: https://raw.githubusercontent.com/TurtleP/Hax0r/master/graphics/icon.png
 image: https://db.universal-team.net/assets/images/images/hax0r.png
 image_length: 1812
-installed_files:
-- '%3DSX%/Hax0r.3dsx'
 layout: app
 source: https://github.com/TurtleP/Hax0r
 stars: 10

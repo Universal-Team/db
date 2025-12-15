@@ -17,8 +17,6 @@ github: ingolemo/drider
 icon: https://raw.githubusercontent.com/ingolemo/drider/master/icon.png
 image: https://raw.githubusercontent.com/ingolemo/drider/master/banner.png
 image_length: 22607
-installed_files:
-- '%3DSX%/drider.3dsx'
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

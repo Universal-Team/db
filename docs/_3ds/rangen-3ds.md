@@ -43,6 +43,8 @@ stars: 0
 systems:
 - 3ds
 title: RanGen-3DS
+unique_ids:
+- '0x44444'
 update_notes: '<p dir="auto">initial release</p>
 
   <p dir="auto">i will be working on adding text to the main display next, displaying

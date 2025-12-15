@@ -17,8 +17,6 @@ github: smealum/portalDS
 icon: https://db.universal-team.net/assets/images/icons/portalds.png
 image: https://db.universal-team.net/assets/images/images/portalds.png
 image_length: 473
-installed_files:
-- '%NDS%/portalDS.nds'
 layout: app
 source: https://github.com/smealum/portalDS
 stars: 227

@@ -17,8 +17,6 @@ github: Dangerbites/BreakupSimulator3DS
 icon: https://raw.githubusercontent.com/Dangerbites/BreakupSimulator3DS/main/breakup-icon.png
 image: https://raw.githubusercontent.com/Dangerbites/BreakupSimulator3DS/main/breakup-banner.png
 image_length: 58937
-installed_files:
-- '%3DSX%/BreakupSimulator.3dsx'
 layout: app
 license: mit
 license_name: MIT License

@@ -28,8 +28,6 @@ downloads:
 github: SciresM/boot9strap
 image: https://avatars.githubusercontent.com/u/8676005?v=4&size=128
 image_length: 2857
-installed_files:
-- /boot9strap/boot9strap.firm
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

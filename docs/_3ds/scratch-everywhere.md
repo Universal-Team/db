@@ -38,6 +38,8 @@ stars: 417
 systems:
 - 3DS
 title: Scratch Everywhere!
+unique_ids:
+- '0x2143'
 update_notes: '<p dir="auto"><strong>This is an emergency release for yesterday''s
   Beta 30, fixing a critical bug in the Main Menu.</strong></p>
 

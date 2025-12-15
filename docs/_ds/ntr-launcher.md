@@ -17,8 +17,6 @@ github: ApacheThunder/NTR_Launcher
 icon: https://db.universal-team.net/assets/images/icons/ntr-launcher.png
 image: https://db.universal-team.net/assets/images/images/ntr-launcher.png
 image_length: 314
-installed_files:
-- '%NDS%/NTR_Launcher.nds'
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

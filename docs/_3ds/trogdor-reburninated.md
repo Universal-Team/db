@@ -22,8 +22,6 @@ github: Mode8fx/Trogdor-Reburninated
 icon: https://raw.githubusercontent.com/Mode8fx/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/logo_icon_android_48.png
 image: https://raw.githubusercontent.com/Mode8fx/Trogdor-Reburninated/main/Trogdor-Reburninated/release-resources/background_psp.png
 image_length: 14597
-installed_files:
-- '%3DSX%/Trogdor-Reburninated.3dsx'
 layout: app
 license: mit
 license_name: MIT License
@@ -35,6 +33,8 @@ stars: 25
 systems:
 - 3DS
 title: 'Trogdor: Reburninated'
+unique_ids:
+- '0xCB52C'
 update_notes: '<ul dir="auto">
 
   <li>[Switch] Recompiled with latest libnx to address compatibility issues caused

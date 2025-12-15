@@ -21,9 +21,6 @@ github: smealum/dscraft
 icon: https://db.universal-team.net/assets/images/icons/dscraft.png
 image: https://raw.githubusercontent.com/smealum/dscraft/master/site/dscraft-logo.png
 image_length: 2429
-installed_files:
-- '%NDS%/DScraft.nds'
-- '%NDS%/DScraft_fat.nds'
 layout: app
 source: https://github.com/smealum/dscraft
 stars: 59

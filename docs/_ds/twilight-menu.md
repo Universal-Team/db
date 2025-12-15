@@ -46,8 +46,6 @@ icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/T
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
 image: https://db.universal-team.net/assets/images/images/twilight-menu.png
 image_length: 12520
-installed_files:
-- /_nds/TWiLightMenu/main.srldr
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

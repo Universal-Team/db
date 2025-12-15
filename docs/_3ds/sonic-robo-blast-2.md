@@ -21,8 +21,6 @@ github: derrekr/srb2_3ds
 icon: https://github.com/derrekr/srb2_3ds/raw/master/meta/icon.png
 image: https://github.com/derrekr/srb2_3ds/raw/master/meta/icon.png
 image_length: 7028
-installed_files:
-- '%3DSX%/srb2_3ds.3dsx'
 layout: app
 source: https://github.com/derrekr/srb2_3ds
 stars: 53

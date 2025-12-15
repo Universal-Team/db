@@ -21,8 +21,6 @@ github: ArcadeJumpers/RenewedSolitude3DS
 icon: https://raw.githubusercontent.com/ArcadeJumpers/RenewedSolitude3DS/master/icon.png
 image: https://raw.githubusercontent.com/ArcadeJumpers/RenewedSolitude3DS/master/icon.png
 image_length: 5116
-installed_files:
-- '%3DSX%/RenewedSolitude.3dsx'
 layout: app
 qr:
   RenewedSolitude.cia: https://db.universal-team.net/assets/images/qr/renewedsolitude-cia.png
