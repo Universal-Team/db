@@ -8,6 +8,7 @@
 	"icon": "https://raw.githubusercontent.com/RetroGamer02/raptor-consoles/multi-sys/rsrc/raptor3ds.png",
 	"long_description": "Reversed-engineered source port from Raptor Call Of The Shadows ported to the Nintendo DS and 3DS.",
 	"download_filter": "NDS|3DS",
+	"unique_ids": [202403],
 	"archive": {
 		"RAPTOR-3DS(.*)\\.zip": {
 			"RAPTOR-3DS{}.3dsx": [

@@ -8,5 +8,6 @@
 	"long_description": "A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!",
 	"author": "NateXS",
 	"title": "Scratch Everywhere!",
+	"unique_ids": [8515],
 	"download_filter": "(\\.3dsx|\\.cia|\\.nds)"
 } 

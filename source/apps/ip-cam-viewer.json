@@ -1,7 +1,8 @@
 {
 	"github": "MC-Gaming-59o/Homebrew-3DS-IP-Webcam-Viewer",
-  "title": "IP-Cam Viewer",
+	"title": "IP-Cam Viewer",
 	"systems": ["3DS"],
 	"categories": ["utility"],
+	"unique_ids": [1045503],
 	"icon": "https://raw.githubusercontent.com/MC-Gaming-59o/Homebrew-3DS-IP-Webcam-Viewer/main/icon.png"
 }
