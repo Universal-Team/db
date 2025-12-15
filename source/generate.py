@@ -573,6 +573,12 @@ def process_app_entry(app: Dict[str, Any], fp: str, icon_idx: int, github_api: G
 		click.secho(trace, fg="red")
 		raise FetchAppDataError(e)
 
+	# Do not update stars in priority mode
+	if PRIORITY_MODE:
+		old = next((item for item in oldData if item["title"] == app["title"]))
+		if PRIORITY_MODE:
+			app["stars"] = old["stars"]
+
 	# Process format strings in downloads if needed
 	if "eval_downloads" in app and app["eval_downloads"]:
 		if "download_page" in app and type(app["download_page"]) == str:
