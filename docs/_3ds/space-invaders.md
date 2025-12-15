@@ -1,5 +1,5 @@
 ---
-author: ConstantinZpher
+author: Constantin Păun
 avatar: https://avatars.githubusercontent.com/u/64806451?v=4
 categories:
 - game
