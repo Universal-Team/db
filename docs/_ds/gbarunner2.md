@@ -32,6 +32,10 @@ image: https://db.universal-team.net/assets/images/images/gbarunner2.png
 image_length: 324
 installed_files:
 - /_nds/GBARunner2_arm7dldi_3ds.nds
+- '%NDS%/GBARunner2_arm7dldi_3ds.nds'
+- '%NDS%/GBARunner2_arm7dldi_ds.nds'
+- '%NDS%/GBARunner2_arm7dldi_dsi.nds'
+- '%NDS%/GBARunner2_arm9dldi_ds.nds'
 layout: app
 qr:
   GBARunner2_arm7dldi_3ds.nds: https://db.universal-team.net/assets/images/qr/gbarunner2_arm7dldi_3ds-nds.png
