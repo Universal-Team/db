@@ -481,6 +481,8 @@ def create_web_file(app: Dict[str, Any]):
 		web.pop("urls")
 	if "icon_index" in web:
 		web.pop("icon_index")
+	if "installed_files" in web:
+		web.pop("installed_files")
 	# Add defaults where absolutely needed
 	if "systems" not in web:
 		web["systems"] = ["3DS"]  # default to 3DS
