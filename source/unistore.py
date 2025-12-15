@@ -73,11 +73,15 @@ class StoreEntry:
 				"stars": stars,
 				"preinstall_message": self._bmpOnly(preinstallMessage),
 				"title_ids": titleIds,
-				"installed_files": installedFiles
+				"installed_files": installedFiles.copy()
 			}
 		}
 		if color:
 			self._entry["info"]["color"] = color
+
+	def addInstalledFile(self, file):
+		if file not in self._entry["info"]["installed_files"]:
+			self._entry["info"]["installed_files"].append(file)
 
 	def addScript(self, scriptName: str, script: list):
 		"""Adds the given script"""
@@ -108,7 +112,7 @@ class StoreEntry:
 						"input": f"^{item}",
 						"output": output
 					})
-					self._entry["info"]["installed_files"].append(output)
+					self.addInstalledFile(output)
 				elif item[item.rfind(".") + 1:].lower() in ["nds", "dsi"]:
 					output = f"%NDS%/{item[item.rfind('/') + 1:]}"
 					script.append({
@@ -117,7 +121,7 @@ class StoreEntry:
 						"input": f"^{item}",
 						"output": output
 					})
-					self._entry["info"]["installed_files"].append(output)
+					self.addInstalledFile(output)
 				elif item[item.rfind(".") + 1:].lower() == "cia":
 					script.append({
 						"type": "extractFile",
@@ -150,7 +154,7 @@ class StoreEntry:
 						"input": f"^{item}",
 						"output": output
 					})
-					self._entry["info"]["installed_files"].append(output)
+					self.addInstalledFile(output)
 				elif item[item.rfind(".") + 1:].lower() == "firm":
 					output = f"%FIRM%/{item[item.rfind('/') + 1:]}"
 					script.append({
@@ -159,7 +163,7 @@ class StoreEntry:
 						"input": f"^{item}",
 						"output": output
 					})
-					self._entry["info"]["installed_files"].append(output)
+					self.addInstalledFile(output)
 				else:
 					script.append({
 						"type": "extractFile",
@@ -182,7 +186,7 @@ class StoreEntry:
 						"output": output
 					}
 				]
-				self._entry["info"]["installed_files"].append(output)
+				self.addInstalledFile(output)
 			elif file[file.rfind(".") + 1:].lower() in ["nds", "dsi"]:
 				output = f"%NDS%/{file}"
 				script = [
@@ -192,7 +196,7 @@ class StoreEntry:
 						"output": output
 					}
 				]
-				self._entry["info"]["installed_files"].append(output)
+				self.addInstalledFile(output)
 			elif file[file.rfind(".") + 1:].lower() == "cia":
 				script = [
 					{
@@ -218,7 +222,7 @@ class StoreEntry:
 						"output": output
 					}
 				]
-				self._entry["info"]["installed_files"].append(output)
+				self.addInstalledFile(output)
 			elif file[file.rfind(".") + 1:].lower() == "firm":
 				output = f"%FIRM%/{file}"
 				script = [
@@ -228,7 +232,7 @@ class StoreEntry:
 						"output": output
 					}
 				]
-				self._entry["info"]["installed_files"].append(output)
+				self.addInstalledFile(output)
 			elif file[file.rfind(".") + 1:].lower() in ["zip", "7z", "rar"]:
 				script = [
 					{
