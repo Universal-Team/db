@@ -1,0 +1,13 @@
+{
+	"github": "gamestabled/OoT3D_Randomizer",
+	"description": "An item randomizer for The Legend of Zelda: Ocarina of Time 3D",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon": "https://raw.githubusercontent.com/gamestabled/OoT3D_Randomizer/refs/heads/main/icon.png",
+	"image": "https://raw.githubusercontent.com/gamestabled/OoT3D_Randomizer/refs/heads/main/banner.png",
+	"download_filter": "\\.(3dsx|cia)$"
+}
