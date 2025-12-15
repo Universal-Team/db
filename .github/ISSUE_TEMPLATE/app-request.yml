@@ -14,7 +14,7 @@ body:
   - type: textarea
     attributes:
       label: Submission form
-      description: Upload your JSON file here.
+      description: Upload your JSON file here. You can also upload screenshots here.
   - type: checkboxes
     attributes:
       label: Developer permission
