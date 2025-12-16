@@ -1,0 +1,16 @@
+{
+	"github": "AllisterMKW/3DScreen",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"app",
+		"utility"
+	],
+	"icon": "https://raw.githubusercontent.com/AllisterMKW/3DScreen/refs/heads/main/icon.png",
+	"image": "https://raw.githubusercontent.com/AllisterMKW/3DScreen/refs/heads/main/Resources/banner.png",
+	"unique_ids": [
+		983057
+	],
+	"long_description": "Changes the top screen color display between red (press B), green (press X), and/or blue (press A)."
+}
