@@ -1,5 +1,5 @@
 ---
-author: Allister
+author: AllisterMKW
 avatar: https://avatars.githubusercontent.com/u/216767408?v=4
 categories:
 - app
