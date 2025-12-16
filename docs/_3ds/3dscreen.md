@@ -14,11 +14,11 @@ downloads:
   3DScreen.3dsx:
     size: 80056
     size_str: 78 KiB
-    url: https://github.com/AllisterMKW/3DScreen/releases/download/3DSX%2BCIA_V2/3DScreen.3dsx
+    url: https://github.com/AllisterMKW/3DScreen/releases/download/3.0/3DScreen.3dsx
   3DScreen.cia:
     size: 160192
     size_str: 156 KiB
-    url: https://github.com/AllisterMKW/3DScreen/releases/download/3DSX%2BCIA_V2/3DScreen.cia
+    url: https://github.com/AllisterMKW/3DScreen/releases/download/3.0/3DScreen.cia
 github: AllisterMKW/3DScreen
 icon: https://raw.githubusercontent.com/AllisterMKW/3DScreen/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/AllisterMKW/3DScreen/refs/heads/main/Resources/banner.png
@@ -33,9 +33,10 @@ systems:
 title: 3DScreen
 unique_ids:
 - '0xF0011'
-update_notes: <p dir="auto">Fixed the description of the 3DSX.</p>
-updated: '2025-12-16T01:09:14Z'
-version: 3DSX+CIA_V2
-version_title: Updated Release
+update_notes: <p dir="auto">Simply put, I fixed the description of the CIA when the
+  software is suspended and the description of the 3DSX.</p>
+updated: '2025-12-16T12:24:43Z'
+version: '3.0'
+version_title: Fixed CIA and 3DSX
 ---
 Changes the top screen color display between red (press B), green (press X), and/or blue (press A).
