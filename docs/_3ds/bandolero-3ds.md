@@ -3,8 +3,8 @@ author: Tristán Álvarez
 avatar: https://avatars.githubusercontent.com/u/76444200?v=4
 categories:
 - utility
-color: '#71abaa'
-color_bg: '#54807f'
+color: '#660139'
+color_bg: '#660139'
 created: '2025-03-16T17:58:10Z'
 description: Editor de texto para 3Ds
 download_page: https://github.com/Tristanabs/bandolero3ds/releases
@@ -18,9 +18,9 @@ downloads:
     size_str: 532 KiB
     url: https://github.com/Tristanabs/bandolero3ds/releases/download/1.5RU/Bandolero.3Ds.v1.5.RED.UPDATE.cia
 github: Tristanabs/bandolero3ds
-icon: https://github.com/MillKeny/flappy/raw/main/assets/icon.png
-image: https://github.com/MillKeny/flappy/raw/main/assets/banner.png
-image_length: 7078
+icon: https://raw.githubusercontent.com/Tristanabs/bandolero3ds/refs/heads/main/icon.png
+image: https://raw.githubusercontent.com/Tristanabs/bandolero3ds/refs/heads/main/icon.png
+image_length: 2536
 layout: app
 license: mit
 license_name: MIT License

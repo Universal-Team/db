@@ -37,6 +37,8 @@ systems:
 - DS
 - 3DS
 title: Raptor DS/3DS
+unique_ids:
+- '0x316A3'
 update_notes: <p dir="auto">All have had a bug fixed relating to loading SETUP.INI
   under certain conditions.</p>
 updated: '2025-09-16T22:51:25Z'

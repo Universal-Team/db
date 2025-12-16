@@ -35,6 +35,8 @@ stars: 1
 systems:
 - 3ds
 title: 3ds-Controller
+unique_ids:
+- '0xA1B2C'
 update_notes: '<p dir="auto">Skipped 4 versions bc i forgot to upload them</p>
 
   <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/icicle1133/3ds-Controller/compare/v0.0.1...v0.0.5"><tt>v0.0.1...v0.0.5</tt></a></p>

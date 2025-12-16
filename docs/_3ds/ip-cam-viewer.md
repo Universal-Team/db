@@ -33,6 +33,8 @@ stars: 0
 systems:
 - 3DS
 title: IP-Cam Viewer
+unique_ids:
+- '0xFF3FF'
 update_notes: '<p dir="auto">IP-Cam Viewer for 3DS/2DS. Streams live video from Android
   devices with IP Webcam or IP Webcam Pro. Beta release, Proof-of-Concept. Recommended
   resolution 320x240. Known flash bug and LSD/Mushroom mode included. UPDATE: CIA
