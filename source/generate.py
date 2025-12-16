@@ -577,8 +577,8 @@ def process_app_entry(app: Dict[str, Any], fp: str, icon_idx: int, github_api: G
 
 	# Do not update stars in priority mode
 	if PRIORITY_MODE:
-		old = next((item for item in oldData if item["title"] == app["title"]))
-		if PRIORITY_MODE:
+		old = next((item for item in oldData if item["title"] == app["title"]), None)
+		if old:
 			app["stars"] = old["stars"]
 
 	# Process format strings in downloads if needed
