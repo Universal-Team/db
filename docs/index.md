@@ -17,5 +17,8 @@ Most information on this site is automatically gathered from the information on 
 This is also the default UniStore for [Universal-Updater](/3ds/universal-updater), so if you'd like to browse and install apps from Universal-DB directly on your 3DS you should give it a try.
 {:.i18n .innerHTML-home-3}
 
+On the Nintendo DSi there are two options for downloading apps from Universal-DB. [dsidl](/ds/dsidl) can use the QR codes on the site or [Kekatsu](/ds/kekatsu) which functions fully on device. If you have not used Kekatsu before, place this <a href="/assets/files/databases.txt" download="databases.txt">databases.txt</a> in `sd:/Kekatsu/`.
+{:.i18n .innerHTML-home-4}
+
 #### Last updated:
 {:.i18n .innerHTML-last-updated-apps}
