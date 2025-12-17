@@ -1,0 +1,12 @@
+{
+	"github": "AzizBgBoss/TerrariaDS",
+	"systems": [
+		"ds"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/AzizBgBoss/TerrariaDS/refs/heads/main/media/icon.png",
+	"image": "https://raw.githubusercontent.com/AzizBgBoss/TerrariaDS/refs/heads/main/media/logo.png",
+	"long_description": "A terraria remake (not port) for the Nintendo DS made by AzizBgBoss, started on the 26th of July 2025.\n\nI'm a 17 y/o that's obsessed with programming, I'm also into Terraria! I love the freedom you get in the game and the endless possibilities it has to offer. Another thing I love is the Nintendo DS, it's a great console and I wondered if I can fuse the 3 thing I love together, so I programmed Terraria into the DS! TerrariaDS!\n\nThis project is a work in progress and is not affiliated with the original Terraria game. It aims to replicate the core mechanics and gameplay of Terraria on the Nintendo DS. It aims at least to somewhat replicate the 3DS version of Terraria, but with some features from the PC version, and some sacrifices to fit the DS hardware limitations.\n\nI'm trying as hard as possible to stay loyal to the original game design, but there are some limitations due to the DS hardware and the fact that this is a remake, not a port.\nAlso please note: For now, I'm prioritizing functionality over content. I'm trying to perfect the core mechanics of the game before adding the Terraria content (Items, tiles, structures...), because without functionality, you wouldn't truly enjoy the content."
+}
