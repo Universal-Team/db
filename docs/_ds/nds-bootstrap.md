@@ -96,8 +96,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>The SD IRQ stat register is now cleared before NAND mount in order for forwarders
-  for DSi-Enhanced games on DSi &amp; 3DS to (hopefully) work again.</li>
+  <li><del>The SD IRQ stat register is now cleared before NAND mount in order for
+  forwarders for DSi-Enhanced games on DSi &amp; 3DS to (hopefully) work again.</del></li>
 
   <li><em>Need for Speed: ProStreet</em> no longer works with the screen color filter
   and/or DS Phat color features in order for the game to run past the title screen.</li>
