@@ -1,0 +1,13 @@
+{
+	"github": "Aeplet/3DSDI",
+	"systems": [
+		"3ds"
+	],
+	"categories": [
+		"utility",
+		"app"
+	],
+	"icon": "https://raw.githubusercontent.com/Aeplet/3DSDI/refs/heads/main/icon.png",
+	"image": "https://raw.githubusercontent.com/Aeplet/3DSDI/refs/heads/main/banner.png",
+	"long_description": "Get SD Card information! Specifically, the following information is listed:\nManufacturer Name (if known)\nManufacturer ID\nOEM ID\nProduct Name\nProduct Revision\nProduct Serial Number\nManufacturing Date"
+}
