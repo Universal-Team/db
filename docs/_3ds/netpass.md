@@ -10,13 +10,13 @@ description: NetPass allows you to get StreetPasses over the iternet
 download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 6566032
+    size: 6566964
     size_str: 6 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/fc3d7e0c00827f5ec18a830f89d10c4e36fcfc9a/netpass.3dsx?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/fcef1697b7bd4346948aaa469d96a596c2f30d66/netpass.3dsx?inline=false
   netpass.cia:
     size: 6652864
     size_str: 6 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/fc3d7e0c00827f5ec18a830f89d10c4e36fcfc9a/netpass.cia?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/fcef1697b7bd4346948aaa469d96a596c2f30d66/netpass.cia?inline=false
 gitlab: 3ds-netpass/netpass
 icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
@@ -33,10 +33,10 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: Fix bad http call which lead to a crash
-updated: '2025-11-09T15:09:06.000Z'
-version: v1.2.7
-version_title: v1.2.7
+update_notes: Fix some issues with the back alley not producing results
+updated: '2025-12-18T16:42:45.707Z'
+version: v1.2.8
+version_title: v1.2.8
 website: https://netpass.cafe
 ---
 #NetPass: StreetPass in the modern world

@@ -36,7 +36,7 @@ script_message: 'Ensure "Enable game patching" is enabled
 
   in Luma3DS settings for this to work.'
 source: https://github.com/Aftendo/SatellaZone
-stars: 139
+stars: 140
 systems:
 - 3DS
 title: SatellaZone
