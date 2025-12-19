@@ -19,7 +19,7 @@ screenshots:
 - description: Gameplay
   url: https://db.universal-team.net/assets/images/screenshots/anarch/gameplay.png
 source: https://github.com/blitzdoughnuts/AnarchDEVKIT
-stars: 1
+stars: 2
 systems:
 - 3ds
 title: Anarch
