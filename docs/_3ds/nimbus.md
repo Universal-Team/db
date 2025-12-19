@@ -8,18 +8,18 @@ color_bg: '#2b2952'
 created: '2022-01-08T01:36:02Z'
 download_page: https://github.com/PretendoNetwork/nimbus/releases
 downloads:
-  3dsx.2.0.1.zip:
-    size: 725099
+  3dsx.2.0.2.zip:
+    size: 725428
     size_str: 708 KiB
-    url: https://github.com/PretendoNetwork/nimbus/releases/download/v2.0.1/3dsx.2.0.1.zip
-  cia.2.0.1.zip:
-    size: 958735
+    url: https://github.com/PretendoNetwork/nimbus/releases/download/v2.0.2/3dsx.2.0.2.zip
+  cia.2.0.2.zip:
+    size: 959075
     size_str: 936 KiB
-    url: https://github.com/PretendoNetwork/nimbus/releases/download/v2.0.1/cia.2.0.1.zip
-  combined.2.0.1.zip:
-    size: 1377761
+    url: https://github.com/PretendoNetwork/nimbus/releases/download/v2.0.2/cia.2.0.2.zip
+  combined.2.0.2.zip:
+    size: 1378105
     size_str: 1 MiB
-    url: https://github.com/PretendoNetwork/nimbus/releases/download/v2.0.1/combined.2.0.1.zip
+    url: https://github.com/PretendoNetwork/nimbus/releases/download/v2.0.2/combined.2.0.2.zip
 github: PretendoNetwork/nimbus
 icon: https://db.universal-team.net/assets/images/icons/nimbus.png
 image: https://db.universal-team.net/assets/images/images/nimbus.png
@@ -43,19 +43,17 @@ update_notes: '<h2 dir="auto">What''s Changed</h2>
 
   <ul dir="auto">
 
-  <li>fix: Create <code class="notranslate">/luma</code> directory when updating if
-  it doesn''t exist by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/OpenSauce04/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/OpenSauce04">@OpenSauce04</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3712921011"
-  data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/nimbus/issues/71"
-  data-hovercard-type="pull_request" data-hovercard-url="/PretendoNetwork/nimbus/pull/71/hovercard"
-  href="https://github.com/PretendoNetwork/nimbus/pull/71">#71</a>
+  <li>chore: Bump version to 2.0.2 by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/DaniElectra/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/DaniElectra">@DaniElectra</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3747422884"
+  data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/nimbus/issues/75"
+  data-hovercard-type="pull_request" data-hovercard-url="/PretendoNetwork/nimbus/pull/75/hovercard"
+  href="https://github.com/PretendoNetwork/nimbus/pull/75">#75</a>
 
   <ul dir="auto">
 
-  <li>Fixes Azahar support since the <code class="notranslate">/luma</code> folder
-  might not exist there.</li>
+  <li>2.0.1 didn''t have a version increase, so release new version with the increase.</li>
 
   </ul>
 
@@ -63,23 +61,10 @@ update_notes: '<h2 dir="auto">What''s Changed</h2>
 
   </ul>
 
-  <h2 dir="auto">New Contributors</h2>
-
-  <ul dir="auto">
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/OpenSauce04/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/OpenSauce04">@OpenSauce04</a>
-  made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="3712921011" data-permission-text="Title is private" data-url="https://github.com/PretendoNetwork/nimbus/issues/71"
-  data-hovercard-type="pull_request" data-hovercard-url="/PretendoNetwork/nimbus/pull/71/hovercard"
-  href="https://github.com/PretendoNetwork/nimbus/pull/71">#71</a></li>
-
-  </ul>
-
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/PretendoNetwork/nimbus/compare/v2.0.0...v2.0.1"><tt>v2.0.0...v2.0.1</tt></a></p>'
-updated: '2025-12-13T22:26:30Z'
-version: v2.0.1
-version_title: v2.0.1
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/PretendoNetwork/nimbus/compare/v2.0.1...v2.0.2"><tt>v2.0.1...v2.0.2</tt></a></p>'
+updated: '2025-12-19T12:56:28Z'
+version: v2.0.2
+version_title: v2.0.2
 ---
 #### Usage
 - Run the Nimbus homebrew and choose to use either a Pretendo or Nintendo account
