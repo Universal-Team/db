@@ -10,9 +10,9 @@ description: A terraria remake (not port) for the Nintendo DS made by AzizBgBoss
 download_page: https://github.com/AzizBgBoss/TerrariaDS/releases
 downloads:
   TerrariaDS.nds:
-    size: 3469312
-    size_str: 3 MiB
-    url: https://github.com/AzizBgBoss/TerrariaDS/releases/download/0.0alpha/TerrariaDS.nds
+    size: 6295552
+    size_str: 6 MiB
+    url: https://github.com/AzizBgBoss/TerrariaDS/releases/download/0.1/TerrariaDS.nds
 github: AzizBgBoss/TerrariaDS
 icon: https://raw.githubusercontent.com/AzizBgBoss/TerrariaDS/refs/heads/main/media/icon.png
 image: https://raw.githubusercontent.com/AzizBgBoss/TerrariaDS/refs/heads/main/media/logo.png
@@ -27,11 +27,58 @@ stars: 15
 systems:
 - ds
 title: TerrariaDS
-update_notes: <p dir="auto">First release, a demo for you all to get the idea. Please
-  don't forget to patch this with your appropriate DLDI patch if you're using a flashcart.</p>
-updated: '2025-08-06T14:56:05Z'
-version: 0.0alpha
-version_title: TerrariaDS Demo 0.0alpha
+update_notes: '<h1 dir="auto">New Update! TerrariaDS version 0.1</h1>
+
+  <ul dir="auto">
+
+  <li>Sorry for the very late update, got busy with school.</li>
+
+  <li>The game is slowly shaping up to feel more like Terraria on the DS.</li>
+
+  <li>Also thanks for 1k downloads of TerrariaDS 0.0a.</li>
+
+  </ul>
+
+  <h2 dir="auto">New Features and Improvements</h2>
+
+  <ul dir="auto">
+
+  <li><strong>Multiple Map Support:</strong> You can now save and load up to 10 different
+  maps.</li>
+
+  <li><strong>Special Tiles:</strong> Interaction-enabled tiles added. Doors are functional,
+  more special tiles to come.</li>
+
+  <li><strong>Player Health:</strong> Basic health system implemented.</li>
+
+  <li><strong>Consumables:</strong> You can now eat mushrooms.</li>
+
+  <li><strong>Menus:</strong> Pause and debug menus added (functional, but simple).</li>
+
+  <li><strong>Entities:</strong> Green Slimes added as the first enemies (secret entities
+  also in the debug menu).</li>
+
+  <li><strong>Combat Mechanics:</strong> Player can damage entities by direct contact
+  with a weapon.</li>
+
+  <li><strong>Ores:</strong> Copper and Tin ores added to the world.</li>
+
+  <li><strong>Day/Night Cycle:</strong> Rear background darkens at night, enemies
+  now spawn during nighttime.</li>
+
+  <li><strong>Sound Effects:</strong> Added some sound effects for actions and events.</li>
+
+  <li><strong>Better visuals:</strong> New intro splashes, slight fixes.</li>
+
+  <li><strong>Splash text:</strong> Random splash texts in the title.</li>
+
+  <li><strong>Hotbar:</strong> Now can only use the last 8 items when the inventory
+  is not open.</li>
+
+  </ul>'
+updated: '2025-12-19T18:23:33Z'
+version: '0.1'
+version_title: TerrariaDS v0.1
 ---
 A terraria remake (not port) for the Nintendo DS made by AzizBgBoss, started on the 26th of July 2025.
 
