@@ -9,8 +9,6 @@
 	"author": "Sethamphetamine",
 	"description": "Dodge and weave!",
 	"long_description": "Bullets is a very simple and lightweight game for the nintendo 3ds. i made bullets to challenge myself to make a game with no game engine. Dpad to controll player. Start to exit (takes a couple seconds)",
-	"image": "https://camo.githubusercontent.com/68de0e6a18922b185a7489a6ed36a208872696c5804b8c7cb5fdde92995f558f/68747470733a2f2f692e6962622e636f2f5a5754706471442f4e65772d50726f6a6563742d312e706e67",
-	"icon": "https://camo.githubusercontent.com/8f6228a1f9c611793017c9adb582554afbe56164dab594bc9c15e4d22b0fc374/68747470733a2f2f692e6962622e636f2f5968585270504e2f4e65772d50726f6a6563742d322e706e67",
 	"downloads": {
 		"Bullets.3dsx": {
 			"url": "https://raw.githubusercontent.com/1Setherson1/Bullets/main/Bullets/Bullets.3dsx"
