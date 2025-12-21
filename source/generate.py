@@ -35,6 +35,7 @@ DOCS_DIR: Optional[pathlib.Path] = None
 PRIORITY_MODE = True
 SCRIPT_DIR = pathlib.Path(__file__).parent.resolve()
 TEMP_DIR = SCRIPT_DIR / "temp"
+BG_IMAGE = None
 
 
 def saveIcon(img: Image.Image, index: int, ds: bool,
@@ -834,7 +835,7 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 		oldData = json.load(file)
 
 	output = []
-	iconIndex = 0
+	iconIndex = 1 if BG_IMAGE else 0
 	github = GitHubAPI(token=ghToken)
 
 	unistore = UniStore(
@@ -844,7 +845,8 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 		"https://db.universal-team.net/unistore/universal-db.unistore",
 		[f"https://db.universal-team.net/unistore/universal-db-{x}.t3x" for x in range(len(source) // ICONS_PER_SHEET + 1)],
 		"https://db.universal-team.net/unistore/universal-db.tdx",
-		"https://db.universal-team.net/unistore/universal-db-info.json"
+		"https://db.universal-team.net/unistore/universal-db-info.json",
+		bool(BG_IMAGE)
 	)
 
 	# Fetch info for GitHub apps and output
@@ -1015,6 +1017,10 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 		for sheet in range(sheetCount):
 			with TEMP_DIR.joinpath("48", f"icons{sheet}.t3s").open("w", encoding="utf8") as file:
 				file.write("--atlas -f rgba -z auto\n\n")
+
+				if sheet == 0 and BG_IMAGE:
+					file.write(BG_IMAGE + "\n")
+
 				for i in range(sheet * ICONS_PER_SHEET, min((sheet + 1) * ICONS_PER_SHEET, iconIndex)):
 					file.write(f"{i}.png\n")
 			infile = str(TEMP_DIR.joinpath("48", f"icons{sheet}.t3s"))
@@ -1057,21 +1063,28 @@ def main_entry_group():
 @main_entry_group.command(name="all")
 @click.argument("source", default=str(SCRIPT_DIR / ("apps")), type=click.Path(exists=True, file_okay=False)) #  help="The folder to find apps in")
 @click.argument("docs", default=str(SCRIPT_DIR.parent / "docs"), type=click.Path(file_okay=False)) #  help="The location to output documentation to")
-@click.option("--github-token", help="A GitHub API token", envvar="TOKEN")
+@click.option("--background", "-b", type=click.Path(exists=True, resolve_path=True), help="Background image for UU")
+@click.option("--github-token", "-t", help="A GitHub API token", envvar="TOKEN")
 @click.option("--priority", "-p", is_flag=True, default=False, help="Skips apps that are not updated within the last 30 days")
 @click.option("--error-webhook", "-er", type=str, envvar="WEBHOOK_URL", default=None)
-def all_command(source: str, docs: str, github_token, priority: bool, error_webhook: str):
+def all_command(source: str, docs: str, background: str, github_token: str, priority: bool, error_webhook: str):
 	"""Processes every app in a given directory"""
 	docs_path = check_for_docs_dir(docs)
 	global DOCS_DIR
 	DOCS_DIR = docs_path
 	source_path = pathlib.Path(source)
 
+	global BG_IMAGE
+	BG_IMAGE = background
+
 	global PRIORITY_MODE
 	PRIORITY_MODE = priority
 
 	click.secho("Found the source directory and docs directory", fg='green')
-	click.echo(f"Source: {source_path.resolve()}\nDocs: {docs_path.resolve()}\nPriority Mode: {PRIORITY_MODE}")
+	click.echo(f"Source: {source_path.resolve()}")
+	click.echo(f"Docs: {docs_path.resolve()}")
+	click.echo(f"Background image: {BG_IMAGE}")
+	click.echo(f"Priority Mode: {PRIORITY_MODE}")
 	process_from_folder(source_path, github_token, error_webhook)
 
 
