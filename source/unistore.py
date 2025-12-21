@@ -6,6 +6,8 @@ from typing import Optional
 
 import pathlib
 
+ICONS_PER_SHEET = 400
+
 
 class StoreEntry:
 	"""
@@ -69,7 +71,8 @@ class StoreEntry:
 				"releasenotes": self._bmpOnly(releaseNotes),
 				"license": self._bmpOnly(license),
 				"wiki": wiki,
-				"icon_index": iconIndex,
+				"icon_index": iconIndex % ICONS_PER_SHEET,
+				"sheet_index": iconIndex // ICONS_PER_SHEET,
 				"stars": stars,
 				"preinstall_message": self._bmpOnly(preinstallMessage),
 				"title_ids": titleIds,
@@ -328,7 +331,7 @@ class UniStore:
 
 	"""
 
-	def __init__(self, title: str, author: str, description: str, url: str, sheetURL: str = "", dsSheetURL: str = "", infoURL: str = "", file: str = None, sheet: str = None, dsSheet: str = None) -> None:
+	def __init__(self, title: str, author: str, description: str, url: str, sheetURLs: list[str] = "", dsSheetURL: str = "", infoURL: str = "", file: str = None) -> None:
 		self._unistore = {
 			"storeInfo": {
 				"title": title,
@@ -336,10 +339,10 @@ class UniStore:
 				"description": description,
 				"url": url,
 				"file": file if file else url[url.rfind("/") + 1:],
-				"sheetURL": sheetURL,
-				"sheet": sheet if sheet else sheetURL[sheetURL.rfind("/") + 1:],
+				"sheetURL": sheetURLs,
+				"sheet": [url[url.rfind("/") + 1:] for url in sheetURLs],
 				"dsSheetURL": dsSheetURL,
-				"dsSheet": dsSheet if dsSheet else dsSheetURL[dsSheetURL.rfind("/") + 1:],
+				"dsSheet": dsSheetURL[dsSheetURL.rfind("/") + 1:],
 				"infoURL": infoURL,
 				"version": 3,
 				"revision": 0
