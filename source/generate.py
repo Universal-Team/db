@@ -1017,7 +1017,9 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 				file.write("--atlas -f rgba -z auto\n\n")
 				for i in range(sheet * ICONS_PER_SHEET, min((sheet + 1) * ICONS_PER_SHEET, iconIndex)):
 					file.write(f"{i}.png\n")
-			system(f"tex3ds -i {str(TEMP_DIR.joinpath("48", f"icons{sheet}.t3s"))} -o {str(DOCS_DIR.joinpath('unistore', f'universal-db-{sheet}.t3x'))}")
+			infile = str(TEMP_DIR.joinpath("48", f"icons{sheet}.t3s"))
+			outfile = str(DOCS_DIR.joinpath("unistore", f"universal-db-{sheet}.t3x"))
+			system(f"tex3ds -i {infile} -o {outfile}")
 
 	# Write UniStore and metadata
 	unistore.save(DOCS_DIR.joinpath("unistore", "universal-db.unistore"), DOCS_DIR.joinpath("unistore", "universal-db-info.json"))
