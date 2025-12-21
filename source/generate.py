@@ -26,7 +26,7 @@ from PIL.PngImagePlugin import PngImageFile
 from requests.utils import requote_uri
 
 from img2tdx import img2tdx
-from unistore import StoreEntry, UniStore
+from unistore import StoreEntry, UniStore, ICONS_PER_SHEET
 from utils import (format_to_web_name, format_traceback, get_matching_app,
                    to_friendly_bytes, was_recently_updated)
 
@@ -92,7 +92,7 @@ def retroarchUniStore() -> None:
 		"Libretro",
 		"RetroArch cores",
 		"https://db.universal-team.net/unistore/retroarch.unistore",
-		"https://db.universal-team.net/unistore/retroarch.t3x"
+		["https://db.universal-team.net/unistore/retroarch.t3x"]
 	)
 
 	iconIndexRA = -1
@@ -842,7 +842,7 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 		"Universal-Team",
 		"Universal-DB - An online database of 3DS and DS homebrew",
 		"https://db.universal-team.net/unistore/universal-db.unistore",
-		"https://db.universal-team.net/unistore/universal-db.t3x",
+		[f"https://db.universal-team.net/unistore/universal-db-{x}.t3x" for x in range(len(source) // ICONS_PER_SHEET + 1)],
 		"https://db.universal-team.net/unistore/universal-db.tdx",
 		"https://db.universal-team.net/unistore/universal-db-info.json"
 	)
@@ -1007,12 +1007,17 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 		with open(DOCS_DIR.joinpath("unistore", "universal-db.tdx"), "wb") as tdx:
 			img2tdx(("-gb -gB8 -gzl", *[f"{i}.png" for i in range(iconIndex)]), tdx, imgPath=str(TEMP_DIR / "32"))
 
-		# Make t3x
-		with TEMP_DIR.joinpath("48", "icons.t3s").open("w", encoding="utf8") as file:
-			file.write("--atlas -f rgba -z auto\n\n")
-			for i in range(iconIndex):
-				file.write(f"{i}.png\n")
-		system(f"tex3ds -i {str(TEMP_DIR.joinpath('48', 'icons.t3s'))} -o {str(DOCS_DIR.joinpath('unistore', 'universal-db.t3x'))}")
+		# Make t3x(s)
+		# They can actually fit a bit more than 400 icons,
+		# but there's not a huge size cost to not 100% filling them
+		# and this is safer
+		sheetCount = iconIndex // ICONS_PER_SHEET + 1
+		for sheet in range(sheetCount):
+			with TEMP_DIR.joinpath("48", f"icons{sheet}.t3s").open("w", encoding="utf8") as file:
+				file.write("--atlas -f rgba -z auto\n\n")
+				for i in range(sheet * ICONS_PER_SHEET, min((sheet + 1) * ICONS_PER_SHEET, iconIndex)):
+					file.write(f"{i}.png\n")
+			system(f"tex3ds -i {str(TEMP_DIR.joinpath("48", f"icons{sheet}.t3s"))} -o {str(DOCS_DIR.joinpath('unistore', f'universal-db-{sheet}.t3x'))}")
 
 	# Write UniStore and metadata
 	unistore.save(DOCS_DIR.joinpath("unistore", "universal-db.unistore"), DOCS_DIR.joinpath("unistore", "universal-db-info.json"))
