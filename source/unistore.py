@@ -71,7 +71,7 @@ class StoreEntry:
 				"releasenotes": self._bmpOnly(releaseNotes),
 				"license": self._bmpOnly(license),
 				"wiki": wiki,
-				"icon_index": iconIndex % ICONS_PER_SHEET,
+				"icon_index": iconIndex if iconIndex < 0 else iconIndex % ICONS_PER_SHEET,
 				"sheet_index": iconIndex // ICONS_PER_SHEET,
 				"stars": stars,
 				"preinstall_message": self._bmpOnly(preinstallMessage),
