@@ -6,7 +6,7 @@ categories:
 color: '#ae7d50'
 color_bg: '#805c3b'
 created: '2022-12-15T03:44:14Z'
-description: NesDS2.0.1
+description: NesDS 2.0.1
 download_page: https://github.com/DS-Homebrew/NesDS/tree/master/release
 downloads:
   nesDS.cia:
