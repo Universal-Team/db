@@ -320,30 +320,25 @@ class UniStore:
 		(optional) URL to download the DS spritesheet from
 	infoURL
 		(optional) URL to storeInfo-only UniStore for quicker update checking
-	file
-		(optional) Filename to store as, defaults to based on url
-	sheet
-		(optional) Filename to store 3DS spritesheet as, defaults to based on sheetURL
-	dsSheet
-		(optional) Filename ot store DS spritesheet as, defaults to based on dsSheetURL
-	revision
-		(optional) The previous revision of the UniStore, defaults to 0, incremented on save
-
+	bgImage
+		(optional) If there is a background image
 	"""
 
-	def __init__(self, title: str, author: str, description: str, url: str, sheetURLs: list[str] = "", dsSheetURL: str = "", infoURL: str = "", file: str = None) -> None:
+	def __init__(self, title: str, author: str, description: str, url: str, sheetURLs: list[str] = "", dsSheetURL: str = "", infoURL: str = "", bgImage: bool = False) -> None:
 		self._unistore = {
 			"storeInfo": {
 				"title": title,
 				"author": author,
 				"description": description,
 				"url": url,
-				"file": file if file else url[url.rfind("/") + 1:],
+				"file": url[url.rfind("/") + 1:],
 				"sheetURL": sheetURLs,
 				"sheet": [url[url.rfind("/") + 1:] for url in sheetURLs],
 				"dsSheetURL": dsSheetURL,
 				"dsSheet": dsSheetURL[dsSheetURL.rfind("/") + 1:],
 				"infoURL": infoURL,
+				"bg_index": 0 if bgImage else -1,
+				"bg_sheet": 0 if bgImage else -1,
 				"version": 3,
 				"revision": 0
 			},
