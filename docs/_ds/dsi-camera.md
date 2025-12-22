@@ -31,7 +31,7 @@ screenshots:
 - description: Taking a picture
   url: https://db.universal-team.net/assets/images/screenshots/dsi-camera/taking-a-picture.png
 source: https://github.com/Epicpkmn11/dsi-camera
-stars: 49
+stars: 50
 systems:
 - DS
 title: dsi-camera
