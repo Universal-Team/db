@@ -23,7 +23,19 @@ jobs:
         WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
       run: |
         export PATH=$PATH:/opt/devkitpro/tools/bin
-        python3 source/generate.py all
+
+        # Check for background images
+        BG_DIR=source/bg
+        COUNT=$(ls $BG_DIR | wc -l)
+        if [ $COUNT -ne 0 ]; then
+          SELECTED=$(( $(date +%j) / 3 % $COUNT + 1 ))
+          BG="$BG_DIR/$(ls $BG_DIR | head -n$SELECTED | tail -n1)"
+
+          python3 source/generate.py all --background "$BG"
+        else
+          python3 source/generate.py all
+        fi
+
 
       # Pull origin in case a commit has been done while updating
     - name: Pull origin
