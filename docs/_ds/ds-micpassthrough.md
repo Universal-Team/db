@@ -23,7 +23,7 @@ license_name: GNU General Public License v3.0
 qr:
   ds-micpassthrough.nds: https://db.universal-team.net/assets/images/qr/ds-micpassthrough-nds.png
 source: https://github.com/korbosoft/ds-micpassthrough
-stars: 10
+stars: 11
 systems:
 - DS
 title: ds-micpassthrough
