@@ -1007,7 +1007,7 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 	if not PRIORITY_MODE:
 		# Make tdx
 		with open(DOCS_DIR.joinpath("unistore", "universal-db.tdx"), "wb") as tdx:
-			img2tdx(("-gb -gB8 -gzl", *[f"{i}.png" for i in range(iconIndex)]), tdx, imgPath=str(TEMP_DIR / "32"))
+			img2tdx(("-gb -gB8 -gzl", *[f"{i}.png" for i in range(1 if BG_IMAGE else 0, iconIndex)]), tdx, imgPath=str(TEMP_DIR / "32"))
 
 		# Make t3x(s)
 		# They can actually fit a bit more than 400 icons,
