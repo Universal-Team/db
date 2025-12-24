@@ -280,7 +280,9 @@ update_notes: '<blockquote>
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/devkitPro">@devkitPro</a>:
   Updated libarchive to v3.7.4</li>
 
-  </ul>'
+  </ul>
+
+  '
 updated: '2025-12-24T10:52:32Z'
 version: v3.3.2
 version_title: UX, UI, UU, and You! - Hotfix 2
