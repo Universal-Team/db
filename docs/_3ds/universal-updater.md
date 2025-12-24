@@ -10,13 +10,13 @@ description: An easy to use app for installing and updating 3DS homebrew
 download_page: https://github.com/Universal-Team/Universal-Updater/releases
 downloads:
   Universal-Updater.3dsx:
-    size: 2765284
+    size: 2957680
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.8/Universal-Updater.3dsx
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.3.0/Universal-Updater.3dsx
   Universal-Updater.cia:
-    size: 2298816
+    size: 2429888
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.2.8/Universal-Updater.cia
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.3.0/Universal-Updater.cia
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/resources/2d-banner.png
@@ -80,33 +80,202 @@ title: Universal-Updater
 unique_ids:
 - '0x43917'
 unistore_exclude: true
-update_notes: '<h3 dir="auto">Improvements</h3>
+update_notes: '<p dir="auto">It''s been just over a year since the last update and
+  this one''s turned out to actually be a pretty big one! To be honest I think I intended
+  to get this release out like two or three times earlier in the year, but now it''s
+  a holiday present! :p</p>
+
+  <p dir="auto">Also, I finally got around to processing all the app requests to Universal-DB!!
+  I''m really sorry it took so long, but I put some time into a new <a href="https://db.universal-team.net/app-request"
+  rel="nofollow">webpage form</a> that made the process much easier. I''ll try to
+  keep up now.</p>
+
+  <p dir="auto">As always huge thank you to everyone helping make Univeral-Updater
+  accessible around the world with translations too!</p>
+
+  <h3 dir="auto">Big changes!</h3>
 
   <ul dir="auto">
 
-  <li>Updated translations</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/alvinhochun/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/alvinhochun">@alvinhochun</a>
+  and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
+  Added a new menu that lets you open app wikis in the 3DS browser or on your phone
+  with a QR code (the 3DS browser is on its last legs afterall...)</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/alvinhochun/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/alvinhochun">@alvinhochun</a>:
+  Several areas of the app are now colored to the accent color of the selected app
+  to give some more life to the UI
+
+  <ul dir="auto">
+
+  <li>Can be disabled in GUI settings</li>
 
   </ul>
 
-  <h3 dir="auto">Other notes</h3>
+  </li>
 
-  <p dir="auto">That''s it. We had over two years of translations, and it''s time
-  to show the efforts of the translators to everyone :)</p>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/CatotheCat11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/CatotheCat11">@CatotheCat11</a>:
+  Redesigned release notes menu on the bottom screen with touch and smooth scrolling</li>
 
-  <p dir="auto">Find any bugs we missed, have suggestions, or need help? You can either
-  make an issue or discussion here on GitHub or join our <a href="https://universal-team.net/discord"
-  rel="nofollow">Discord server</a>.</p>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
+  Sorting by popularity, aka GitHub stars
 
-  <p dir="auto">We hope you enjoy the new update!<br>
+  <ul dir="auto">
 
-  ~ Universal-Team</p>
+  <li>This has been accessible on the website for a while now and is finally added
+  to U-U too, accessible from the sort menu</li>
 
-  <hr>
+  <li>GitHub stars do have the side effect that cross platform apps are ''a bit''
+  overrated by the system, but it''s still a good way to find most of the iconic 3DS
+  homebrew nice and easy</li>
 
-  <p dir="auto"></p>'
-updated: '2024-12-10T17:49:46Z'
-version: v3.2.8
-version_title: Translation updates
+  </ul>
+
+  </li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
+  Messages about apps needing data files are now shown <em>before</em> adding to queue,
+  so your queue won''t get stuck on a bit of info text</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
+  Technically not a Universal-Updater change, but Universal-DB now has background
+  images!
+
+  <ul dir="auto">
+
+  <li>The current plan is to do fun little contests over on <a href="https://github.com/Universal-Team/db/discussions">its
+  GitHub</a>, go check it out!</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <h3 dir="auto">UI and UX improvements</h3>
+
+  <ul dir="auto">
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/CatotheCat11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/CatotheCat11">@CatotheCat11</a>:
+  Smooth scrolling!</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/CatotheCat11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/CatotheCat11">@CatotheCat11</a>:
+  An extra, cut off, row of apps is shown at the edge of the screen to imply it can
+  scroll</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/CatotheCat11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/CatotheCat11">@CatotheCat11</a>:
+  Smooth rotation on the queue icon, previously it was just eight static frames ^^"</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
+  A scrollbar is now shown on the app list, indicating how many apps are in the store
+  and where you''re scrolled to</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Kris123454/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Kris123454">@Kris123454</a>:
+  Dark theme!</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
+  Light theme and various color shifted themes</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
+  Last updated dates are now pretty formatted (ie. "3 days ago (2025/12/22)")</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
+  Marks are now shown with an app''s title, to make them more useful</li>
+
+  </ul>
+
+  <h3 dir="auto">Functionality</h3>
+
+  <ul dir="auto">
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/alvinhochun/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/alvinhochun">@alvinhochun</a>:
+  Download cancellation is checked more regularly, no more getting stuck in a large
+  download when your internet slows to a crawl</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/alvinhochun/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/alvinhochun">@alvinhochun</a>:
+  A loading screen is now shown while loading up the UniStore menu so it doesn''t
+  look like the console just froze</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/alvinhochun/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/alvinhochun">@alvinhochun</a>:
+  Updates to Universal-Updater can now be skipped, while we recommend you always use
+  the latest version it can be useful if a buggy nightly is pushed or you''re in a
+  hurry</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
+  Various prompts can now have your selection saved to always choose automatically</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
+  The themes menu in GUI settings now fetches themes <a href="https://github.com/Universal-Team/Universal-Updater/blob/master/resources/Themes.json">from
+  the repo</a> making themes much more accessible!</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
+  Automatic switching between ascending and descending sorting depending on which
+  makes more sense for the selected sort method</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
+  Sorting mode is now saved between reboots</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
+  Fixed directory settings not being able to load the root directory, and also made
+  directory listing way faster!</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
+  Several bugs fixed with regards to downloading UniStores and the UniStore menu</li>
+
+  </ul>
+
+  <h3 dir="auto">Behind the scenes</h3>
+
+  <ul dir="auto">
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gradylink/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gradylink">@gradylink</a>:
+  Added the Scratchbox UniStore to the recommended list</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lifehackerhansol/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lifehackerhansol">@lifehackerhansol</a>:
+  Translations are now updated to the source code automatically</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sorunome/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sorunome">@Sorunome</a>:
+  Universal-Updater will no longer be shown as your last played game in StreetPass</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>:
+  Fixed nightly builds missing the version number in credits</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/devkitPro/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/devkitPro">@devkitPro</a>:
+  Updated libarchive to v3.7.4</li>
+
+  </ul>'
+updated: '2025-12-24T07:42:24Z'
+version: v3.3.0
+version_title: UX, UI, UU, and You!
 website: https://universal-team.net/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
