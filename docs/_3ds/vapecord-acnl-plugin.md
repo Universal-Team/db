@@ -66,7 +66,16 @@ update_notes: '<h1 dir="auto">Merry Christmas, here a new version!</h1>
 
   <li>Fast Isabelle breaking Fast Game Speed &amp; Fast Game Text</li>
 
-  </ul>'
+  </ul>
+
+  <h2 dir="auto">Thank you all for using this plugin!</h2>
+
+  <h2 dir="auto">How to use:</h2>
+
+  <p dir="auto">You can find a guide about the installation <a href="https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/wiki/How-to-install">here</a>.<br>
+
+  If you encounter any bugs feel free to report them on the official <a href="https://discord.gg/QwqdBpKWf3"
+  rel="nofollow">Vapecord Discord Server</a>.</p>'
 updated: '2025-12-24T20:52:17Z'
 version: v2.1.0
 version_title: ACNL Vapecord Public Plugin [v.2.1.0]
