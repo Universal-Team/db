@@ -80,12 +80,10 @@ title: Universal-Updater
 unique_ids:
 - '0x43917'
 unistore_exclude: true
-update_notes: '<p dir="auto">UX, UI, UU, and You!</p>
-
-  <p dir="auto">It''s been just over a year since the last update and this one''s
-  turned out to actually be a pretty big one! To be honest I think I intended to get
-  this release out like two or three times earlier in the year, but now it''s a holiday
-  present! :p</p>
+update_notes: '<p dir="auto">It''s been just over a year since the last update and
+  this one''s turned out to actually be a pretty big one! To be honest I think I intended
+  to get this release out like two or three times earlier in the year, but now it''s
+  a holiday present! :p</p>
 
   <p dir="auto">Also, I finally got around to processing all the app requests to Universal-DB!!
   I''m really sorry it took so long, but I put some time into a new <a href="https://db.universal-team.net/app-request"
@@ -274,7 +272,9 @@ update_notes: '<p dir="auto">UX, UI, UU, and You!</p>
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/devkitPro">@devkitPro</a>:
   Updated libarchive to v3.7.4</li>
 
-  </ul>'
+  </ul>
+
+  '
 updated: '2025-12-24T08:39:14Z'
 version: v3.3.1
 version_title: UX, UI, UU, and You!
