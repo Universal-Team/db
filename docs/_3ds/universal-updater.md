@@ -10,13 +10,13 @@ description: An easy to use app for installing and updating 3DS homebrew
 download_page: https://github.com/Universal-Team/Universal-Updater/releases
 downloads:
   Universal-Updater.3dsx:
-    size: 2957680
+    size: 2958332
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.3.0/Universal-Updater.3dsx
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.3.1/Universal-Updater.3dsx
   Universal-Updater.cia:
     size: 2429888
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.3.0/Universal-Updater.cia
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.3.1/Universal-Updater.cia
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/resources/2d-banner.png
@@ -80,10 +80,12 @@ title: Universal-Updater
 unique_ids:
 - '0x43917'
 unistore_exclude: true
-update_notes: '<p dir="auto">It''s been just over a year since the last update and
-  this one''s turned out to actually be a pretty big one! To be honest I think I intended
-  to get this release out like two or three times earlier in the year, but now it''s
-  a holiday present! :p</p>
+update_notes: '<p dir="auto">UX, UI, UU, and You!</p>
+
+  <p dir="auto">It''s been just over a year since the last update and this one''s
+  turned out to actually be a pretty big one! To be honest I think I intended to get
+  this release out like two or three times earlier in the year, but now it''s a holiday
+  present! :p</p>
 
   <p dir="auto">Also, I finally got around to processing all the app requests to Universal-DB!!
   I''m really sorry it took so long, but I put some time into a new <a href="https://db.universal-team.net/app-request"
@@ -273,8 +275,8 @@ update_notes: '<p dir="auto">It''s been just over a year since the last update a
   Updated libarchive to v3.7.4</li>
 
   </ul>'
-updated: '2025-12-24T07:42:24Z'
-version: v3.3.0
+updated: '2025-12-24T08:39:14Z'
+version: v3.3.1
 version_title: UX, UI, UU, and You!
 website: https://universal-team.net/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
