@@ -73,7 +73,7 @@ update_notes: '<h3 dir="auto">🎁 What''s new? 🎁</h3>
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>
   &amp; <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Lorenzooone/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Lorenzooone">@Lorenzooone</a>:
-  TWLNAND contents can now be read from 3DS consoles!\</li>
+  TWLNAND contents can now be read from 3DS consoles!</li>
 
   <li>Various: Updated translations.</li>
 
