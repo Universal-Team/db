@@ -12,11 +12,11 @@ downloads:
   nesDS.cia:
     size: 472320
     size_str: 461 KiB
-    url: https://github.com/DS-Homebrew/NesDS/releases/download/v2.0.1/nesDS.cia
+    url: https://github.com/DS-Homebrew/NesDS/releases/download/v2.1/nesDS.cia
   nesDS.dsi:
     size: 457728
     size_str: 447 KiB
-    url: https://github.com/DS-Homebrew/NesDS/releases/download/v2.0.1/nesDS.dsi
+    url: https://github.com/DS-Homebrew/NesDS/releases/download/v2.1/nesDS.dsi
   nesDS.nds:
     url: https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/release/nesDS.nds
 github: DS-Homebrew/NesDS
@@ -44,21 +44,32 @@ update_notes: '<p dir="auto">Installation for TWLMenu++ users:</p>
 
   </ol>
 
-  <h3 dir="auto">Changelog</h3>
+  <p dir="auto">All changes by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/FluBBaOfWard/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/FluBBaOfWard">@FluBBaOfWard</a></p>
+
+  <h3 dir="auto">🎁 Changelog 🎁</h3>
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Deletecat/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Deletecat">@Deletecat</a>:
-  Added separate <code class="notranslate">.dsi</code> build, making the <code class="notranslate">.nds</code>
-  build bootable on flashcards!</li>
+  <li>Fixed FDS support.</li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/p2js/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/p2js">@p2js</a>:
-  Config files will now load even when started from TWLMenu++.</li>
+  <li>Updated cpu core (Fixed undocumented NOPs, SHA, SHS, SHX &amp; SHY).</li>
+
+  <li>Added APU frame (IRQ) emulation.</li>
+
+  <li>Fixed mapper 30 a bit, started to break out MMC1 code.</li>
+
+  <li>Fixed mapper 9.</li>
+
+  <li>Fixed spr collision for 16px high sprites.</li>
+
+  <li>Refactored Sprite 0 collision and VBlank IRQ.</li>
+
+  <li>Fixed more with DMC flags/IRQ.</li>
 
   </ul>'
 updated: '2018-10-19T22:09:05Z'
 version: v1.3c
-version_title: v2.0.1
+version_title: 'v2.1: TWL Christmas Release 🎄'
 ---

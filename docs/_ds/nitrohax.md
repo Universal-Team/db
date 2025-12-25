@@ -21,7 +21,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/chishm/nitrohax
-stars: 49
+stars: 50
 systems:
 - DS
 title: nitrohax

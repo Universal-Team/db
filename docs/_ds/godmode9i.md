@@ -12,21 +12,21 @@ description: 'GodMode9i Explorer - A full access file browser for the Nintendo D
 download_page: https://github.com/DS-Homebrew/GodMode9i/releases
 downloads:
   GodMode9i.7z:
-    size: 367719
-    size_str: 359 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.8.0/GodMode9i.7z
+    size: 372620
+    size_str: 363 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.9.0/GodMode9i.7z
   GodMode9i.cia:
-    size: 998144
-    size_str: 974 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.8.0/GodMode9i.cia
+    size: 1008896
+    size_str: 985 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.9.0/GodMode9i.cia
   GodMode9i.dsi:
-    size: 983552
-    size_str: 960 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.8.0/GodMode9i.dsi
+    size: 994304
+    size_str: 971 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.9.0/GodMode9i.dsi
   GodMode9i.nds:
-    size: 983552
-    size_str: 960 KiB
-    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.8.0/GodMode9i.nds
+    size: 994304
+    size_str: 971 KiB
+    url: https://github.com/DS-Homebrew/GodMode9i/releases/download/v3.9.0/GodMode9i.nds
 github: DS-Homebrew/GodMode9i
 icon: https://db.universal-team.net/assets/images/icons/godmode9i.png
 image: https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png
@@ -43,35 +43,65 @@ stars: 589
 systems:
 - DS
 title: GodMode9i
-update_notes: '<h3 dir="auto">What''s new?</h3>
+update_notes: '<h3 dir="auto">🎁 What''s new? 🎁</h3>
 
   <ul dir="auto">
 
-  <li>Expanded RAM drive on DSi &amp; 3DS consoles to use all 768KB of DSi WRAM +
-  32KB of shared WRAM!
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ApacheThunder/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ApacheThunder">@ApacheThunder</a>:
+  Added support for mounting these flashcards without the need to launch them first:
 
   <ul dir="auto">
 
-  <li>The expanded space will not be used if Memory Pit is used to start GM9<strong>i</strong>.</li>
+  <li>CycloDS Evolution</li>
+
+  <li>DSpico</li>
+
+  <li>DSTT</li>
+
+  <li>Demon/DSTTi clones</li>
+
+  <li>EZ Flash Parellel</li>
+
+  <li>Games n'' Music</li>
 
   </ul>
 
   </li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ellieplayswow/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ellieplayswow">@ellieplayswow</a>:
-  Added error message if SD card space is full when dumping.</li>
-
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/edo9300/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>:
-  Added back the option to remount the flashcard''s SD when running from Slot-2 flashcards.</li>
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>
+  &amp; <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Lorenzooone/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Lorenzooone">@Lorenzooone</a>:
+  TWLNAND contents can now be read from 3DS consoles!\</li>
 
   <li>Various: Updated translations.</li>
 
+  </ul>
+
+  <h3 dir="auto">🎁 Bug fixes 🎁</h3>
+
+  <ul dir="auto">
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Lorenzooone/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Lorenzooone">@Lorenzooone</a>:
+  Fix NAND mounting on dev 3DS consoles.</li>
+
+  <li>Fixed libfat to properly read and write files above 2GB.</li>
+
+  </ul>
+
+  <h3 dir="auto">Known bug</h3>
+
+  <ul dir="auto">
+
+  <li>When booting a <code class="notranslate">.nds</code> file without launching
+  the above flashcards first, they''ll be stuck on white screens.</li>
+
   </ul>'
-updated: '2025-06-15T03:01:30Z'
-version: v3.8.0
-version_title: v3.8.0
+updated: '2025-12-25T10:39:19Z'
+version: v3.9.0
+version_title: 'v3.9.0: TWL Christmas Release 🎄'
 website: https://wiki.ds-homebrew.com/godmode9i/
 wiki: https://wiki.ds-homebrew.com/other/godmode9i
 ---

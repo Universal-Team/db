@@ -18,15 +18,15 @@ downloads:
     size_str: 8 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.21.0/AddOn-ExtraUIMusic.7z
   AddOn-Multimedia.7z:
-    size: 806050
+    size: 806225
     size_str: 787 KiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.21.0/AddOn-Multimedia.7z
   AddOn-VirtualConsole.7z:
-    size: 3739976
+    size: 3739973
     size_str: 3 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.21.0/AddOn-VirtualConsole.7z
   TWiLightMenu-3DS.7z:
-    size: 29266173
+    size: 29267108
     size_str: 27 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.21.0/TWiLightMenu-3DS.7z
   TWiLightMenu-DSi.7z:
@@ -34,11 +34,11 @@ downloads:
     size_str: 27 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.21.0/TWiLightMenu-DSi.7z
   TWiLightMenu-Flashcard.7z:
-    size: 40727042
+    size: 40727041
     size_str: 38 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.21.0/TWiLightMenu-Flashcard.7z
   TWiLightMenu.7z:
-    size: 72286694
+    size: 72287218
     size_str: 68 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.21.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
@@ -50,7 +50,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/DS-Homebrew/TWiLightMenu
-stars: 3745
+stars: 3746
 systems:
 - DS
 title: TWiLight Menu++
@@ -82,11 +82,15 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li><strong>Multimedia add-on update:</strong> The image viewer now plays animated
-  GIF files.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/edo9300/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/edo9300">@edo9300</a>:
+  Improved the Games n'' Music DLDI driver.</li>
 
   <li>Swapped names of the flashcard <code class="notranslate">boot.nds</code> and
   <code class="notranslate">boot_alt.nds</code> files.</li>
+
+  <li><strong>Multimedia add-on update:</strong> The image viewer now plays animated
+  GIF files.</li>
 
   <li>Added detection of SuperCard SD Slot-2 flashcards for use as RAM expansion if
   SuperFW is installed.</li>
@@ -152,7 +156,7 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   a frame could be misrendered on 3DS consoles.</li>
 
   </ul>'
-updated: '2025-12-25T11:04:39Z'
+updated: '2025-12-25T12:04:04Z'
 version: v27.21.0
 version_title: 'v27.21.0: TWL Christmas Release 🎄'
 website: https://wiki.ds-homebrew.com/twilightmenu/

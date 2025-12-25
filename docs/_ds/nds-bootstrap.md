@@ -52,9 +52,29 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Absolute Chess (Does not save)</li>
+  <li>Absolute Chess
 
-  <li>Absolute Reversi (Does not save)</li>
+  <ul dir="auto">
+
+  <li>Selecting a character in free play mode causes a crash.</li>
+
+  <li>Does not save.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Absolute Reversi
+
+  <ul dir="auto">
+
+  <li>Selecting a character in free play mode causes a crash.</li>
+
+  <li>Does not save.</li>
+
+  </ul>
+
+  </li>
 
   <li>Don''t Cross the Line</li>
 
