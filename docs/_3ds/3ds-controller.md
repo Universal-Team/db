@@ -31,7 +31,7 @@ screenshots:
 - description: Main
   url: https://db.universal-team.net/assets/images/screenshots/3ds-controller/main.png
 source: https://github.com/icicle1133/3ds-Controller
-stars: 2
+stars: 3
 systems:
 - 3ds
 title: 3ds-Controller
