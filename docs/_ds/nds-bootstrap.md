@@ -95,8 +95,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   AP-fix directly patches the ROM overlays. This provides a slight boot speed improvement
   if the AP-fix does not directly patch the overlays.</li>
 
-  <li>Added detection of SuperCard SD Slot-2 flashcards for use as RAM expansion,
-  if SuperFW is installed.</li>
+  <li>Added detection of SuperCard SD Slot-2 flashcards for use as RAM expansion if
+  SuperFW is installed.</li>
 
   </ul>
 
