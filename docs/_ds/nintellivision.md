@@ -16,7 +16,7 @@ downloads:
     size_str: 769 KiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.2/NINTV-DS.nds
   README.md:
-    size: 35872
+    size: 35929
     size_str: 35 KiB
     url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.2/README.md
 github: wavemotion-dave/NINTV-DS
@@ -34,28 +34,49 @@ stars: 50
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">V6.2 on 23-Dec-2025 by wavemotion-dave</p>
+update_notes: '<p dir="auto">Version 6.2 : 26-Dec-2025 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>New 60Hz True-Sync technology to match DS LCD refresh with emulated frame output
-  to provide for a largely tear-free display.</li>
+  <li>All known games run at full speed, full framerate and with the best sound quality
+  on a DSi or above (the DSi has 2X the CPU and 4X the memory of the normal DS handhelds).</li>
 
-  <li>New ''Favorites'' system to mark any game file as ''Like'' (yellow heart) or
-  ''Love'' (red heart) - press SELECT on ROM select screen.</li>
+  <li>Almost every game runs at full speed on the older DS-LITE and DS-PHAT hardware
+  with a slight reduction in sound quality.</li>
 
-  <li>CP1610 and related Video optimization to provide almost 5% speed-bost to help
-  with older DS hardware emulation.</li>
+  <li>Custom Overlay Support. See the ''extras'' folder for details.</li>
 
-  <li>Slide-n-Glide now available in D-PAD options on a per-game basis. Makes climbing
-  ladders a bit easier in some games.</li>
+  <li>Manual/Instruction Support. See the ''extras'' folder for an example.</li>
 
-  <li>Refactored highscore code to free up 64K of RAM for future use.</li>
+  <li>Save Sate support (3 save slots per game).</li>
 
-  <li>Updated for newest custom overlays for latest homebrews.</li>
+  <li>High Scores for up to 10 scores per game with various sorting options.</li>
+
+  <li>Cheat / Hack support using NINTV-DS.cht (see ''extras'' folder and place in
+  /data directory)</li>
+
+  <li>Numerous button / controller mapping options. Dual-Controller support (run and
+  shoot at the same time).</li>
+
+  <li>JLP support for accelerated functions (multiply/divide), extra RAM and flash
+  memory. If not auto-detected, when loading a game use the X button to load with
+  options.</li>
+
+  <li>ECS support for ECS games including sound-enhanced games like Space Patrol.
+  If not auto-detected, when loading a game use the X button to load with options.</li>
+
+  <li>ECS keyboard and Intellivision Music Synthesizer are emulated with built-in
+  overlays to mimic their behavior.</li>
+
+  <li>Tutorvision mode is supported which brings in the WBEXEC (REX) revised executive
+  ROM as well as extra GRAM and main 16-bit RAM memory.</li>
+
+  <li>Extra 2K GRAM (aka half-Tutorvision mode) is supported on a per-game basis.
+  Select 2K GRAM in the second page of Configuration for any game (reload game for
+  it to take effect).</li>
 
   </ul>'
-updated: '2025-12-23T16:11:45Z'
+updated: '2025-12-26T14:08:06Z'
 version: '6.2'
 version_title: Version 6.2
 ---
