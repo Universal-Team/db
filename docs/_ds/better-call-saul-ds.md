@@ -28,7 +28,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/better-call-saul-ds/title-screen.png
 source: https://github.com/WiIIiam278/BCSDS
-stars: 32
+stars: 33
 systems:
 - DS
 title: Better Call Saul DS

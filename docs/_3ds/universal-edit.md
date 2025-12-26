@@ -27,7 +27,7 @@ license_name: GNU General Public License v3.0
 qr:
   Universal-Edit.cia: https://db.universal-team.net/assets/images/qr/universal-edit-cia.png
 source: https://github.com/Universal-Team/Universal-Edit
-stars: 12
+stars: 13
 systems:
 - 3DS
 title: Universal-Edit
