@@ -85,7 +85,7 @@ update_notes: '<h3 dir="auto">🎁 What''s new? 🎁</h3>
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Lorenzooone/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Lorenzooone">@Lorenzooone</a>:
-  Fix NAND mounting on dev 3DS consoles.</li>
+  Fixed NAND mounting on dev 3DS consoles.</li>
 
   <li>Fixed libfat to properly read and write files above 2GB.</li>
 
