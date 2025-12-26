@@ -27,7 +27,7 @@ license_name: GNU General Public License v3.0
 qr:
   Checkpoint.cia: https://db.universal-team.net/assets/images/qr/checkpoint-cia.png
 source: https://github.com/BernardoGiordano/Checkpoint
-stars: 2841
+stars: 2842
 systems:
 - 3DS
 title: Checkpoint
