@@ -23,7 +23,7 @@ image: https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/banner
 image_length: 7049
 layout: app
 source: https://github.com/nop90/ZeldaROTH
-stars: 30
+stars: 31
 systems:
 - 3DS
 title: ZeldaROTH
