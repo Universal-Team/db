@@ -18,10 +18,6 @@
 				"repo": "masterfeizz/Xash3DS",
 				"file": "extras.pak",
 				"output": "/xash3d/extras.pak"
-			},
-			{
-				"type": "promptMessage",
-				"message": "You will need to copy the \"valve\" directory from\nyour Half-Life installation to \"sdmc:/xash3d/\".\n\nIf present, delete \"config.cfg\", \"video.cfg\",\nand \"opengl.cfg\" from the value directory."
 			}
 		],
 		"[demo] uplink_data.zip": [

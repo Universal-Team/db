@@ -26,7 +26,7 @@
 			"url": "https://github.com/MrHuu/opentitus-3ds/releases/download/25-12-2028/OpenTitus_TITUS_CIA_25-12-2018.7z"
 		}
 	},
-	"script_message": "Now you will need to put the original game files in\n\"sd:/3ds/OpenTitus/moktar\" for the game to work.",
+	"script_message": "You will need to put the original game files in\n\"sd:/3ds/OpenTitus/moktar\" for the game to work.",
 	"long_description": "The CIA and 3DSX downloads should be used on new 3DS systems, the LOW_FREQ downloads should be used on old 3DS.\n\nYou will need the original game files in `sdmc:/3ds/OpenTitus/moktar` for the moktar buids and `sdmc:/3ds/OpenTitus/titus` for the titus builds.",
 	"installed_files": ["%3DSX%/OpenTitus.3dsx"],
 	"scripts": {
@@ -69,10 +69,6 @@
 			{
 				"type": "deleteFile",
 				"file": "/OpenTitus.7z"
-			},
-			{
-				"type": "promptMessage",
-				"message": "Now you will need to put the original game files in\n\"sd:/3ds/OpenTitus/moktar\" for the game to work."
 			}
 		],
 		"[moktar] OpenTitus.3dsx": [
@@ -111,10 +107,6 @@
 			{
 				"type": "deleteFile",
 				"file": "/OpenTitus.7z"
-			},
-			{
-				"type": "promptMessage",
-				"message": "Now you will need to put the original game files in\n\"sd:/3ds/OpenTitus/moktar\" for the game to work."
 			}
 		],
 		"[titus] OpenTitus.cia": [
@@ -156,10 +148,6 @@
 			{
 				"type": "deleteFile",
 				"file": "/OpenTitus.7z"
-			},
-			{
-				"type": "promptMessage",
-				"message": "Now you will need to put the original game files in\n\"sd:/3ds/OpenTitus/titus\" for the game to work."
 			}
 		],
 		"[titus] OpenTitus.3dsx": [
@@ -198,10 +186,6 @@
 			{
 				"type": "deleteFile",
 				"file": "/OpenTitus.7z"
-			},
-			{
-				"type": "promptMessage",
-				"message": "Now you will need to put the original game files in\n\"sd:/3ds/OpenTitus/titus\" for the game to work."
 			}
 		]
 	}

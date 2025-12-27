@@ -91,7 +91,7 @@ class StoreEntry:
 
 		self._entry[scriptName] = script
 
-	def addDownloadScript(self, scriptName: str, file: str, url: str, message: str = None, archive: tuple = None, size: str = None, releaseType: str = None, retroarch: bool = False) -> None:
+	def addDownloadScript(self, scriptName: str, file: str, url: str, archive: tuple = None, size: str = None, releaseType: str = None, retroarch: bool = False) -> None:
 		"""Generates a script to download the given file"""
 
 		if releaseType not in (None, "nightly", "prerelease"):
@@ -262,23 +262,6 @@ class StoreEntry:
 						"output": f"/{file}"
 					}
 				]
-
-		if message:
-			if type(message) == str:
-				script.append({
-					"type": "promptMessage",
-					"message": message
-				})
-			elif type(message) == dict and len(re.findall(message["for"], file)) > 0:
-				msg = {
-					"type": "promptMessage",
-					"message": message["message"],
-					"count": message["count"] if "count" in message else 0
-				}
-				if message["at"] == "end":
-					script.append(msg)
-				else:
-					script.insert(0, msg)
 
 		if releaseType:
 			script = {

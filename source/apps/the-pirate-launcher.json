@@ -10,14 +10,10 @@
 	],
 	"description": "The Pirate Launcher joke from the Wii, now on 3ds! Also provides debugging features",
 	"icon": "https://raw.githubusercontent.com/Alexyo21/the-pirate-launcher/master/icon.png",
-	"script_message": "This will replace the boot.3dsx in the root of\nyour SD card, replacing the Homebrew\nLauncher with the Pirate Launcher.\nContinue?",
+	"script_message": "This will replace the boot.3dsx in the root of\nyour SD card, replacing the Homebrew\nLauncher with the Pirate Launcher.",
 	"installed_files": ["/boot.3dsx"],
 	"scripts": {
 		"boot.3dsx": [
-			{
-				"type": "promptMessage",
-				"message": "This will replace the boot.3dsx in the root of\nyour SD card, replacing the Homebrew\nLauncher with the Pirate Launcher.\nContinue?"
-			},
 			{
 				"type": "downloadRelease",
 				"repo": "Alexyo21/the-pirate-launcher",

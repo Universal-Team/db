@@ -37,10 +37,6 @@
 					"file": "prboom.wad",
 					"output": "/3ds/prboom3ds/prboom.wad",
 					"includePrereleases": true
-				},
-				{
-					"type": "promptMessage",
-					"message": "You will need to put Doom WAD files in\n\"sdmc:/3ds/prboom3ds/\" to play them."
 				}
 			]
 		},
@@ -68,10 +64,6 @@
 				{
 					"type": "deleteFile",
 					"file": "/prboom3ds.cia"
-				},
-				{
-					"type": "promptMessage",
-					"message": "You will need to put Doom WAD files in\n\"sdmc:/3ds/prboom3ds/\" to play them."
 				}
 			]
 		}

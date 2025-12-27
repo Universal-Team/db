@@ -936,7 +936,7 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 				app["icon_index"] if "icon_index" in app else -1,
 				app["color_bg"] if "color_bg" in app else app["color"] if "color" in app else "",
 				app["stars"] if "stars" in app else 0,
-				app["script_message"] if "script_message" in app and type(app["script_message"]) == str else "",
+				app["script_message"] if "script_message" in app else "",
 				app["unique_ids"] if "unique_ids" in app else [],
 				app["installed_files"] if "installed_files" in app else []
 			)
@@ -963,9 +963,8 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 								items = {file: None}
 
 							for item in items:
-								scriptMessage = app["script_message"] if "script_message" in app else None
 								sizeStr = to_friendly_bytes(app["downloads"][file]["size"]) if "size" in app["downloads"][file] else None
-								entry.addDownloadScript(item, file, app["downloads"][file]["url"], scriptMessage, items[item], sizeStr)
+								entry.addDownloadScript(item, file, app["downloads"][file]["url"], items[item], sizeStr)
 
 				if "prerelease" in app:
 					for file in app["prerelease"]["downloads"]:
@@ -977,9 +976,8 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 								items = {file: None}
 
 							for item in items:
-								scriptMessage = app["script_message"] if "script_message" in app else None
 								sizeStr = to_friendly_bytes(app["prerelease"]["downloads"][file]["size"]) if "size" in app["prerelease"]["downloads"][file] else None
-								entry.addDownloadScript(item, file, app["prerelease"]["downloads"][file]["url"], scriptMessage, items[item], sizeStr, "prerelease")
+								entry.addDownloadScript(item, file, app["prerelease"]["downloads"][file]["url"], items[item], sizeStr, "prerelease")
 
 				if "nightly" in app:
 					for file in app["nightly"]["downloads"]:
@@ -991,9 +989,8 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 								items = {file: None}
 
 							for item in items:
-								scriptMessage = app["script_message"] if "script_message" in app else None
 								sizeStr = to_friendly_bytes(app["nightly"]["downloads"][file]["size"]) if "size" in app["nightly"]["downloads"][file] else None
-								entry.addDownloadScript(item, file, app["nightly"]["downloads"][file]["url"], scriptMessage, items[item], sizeStr, "nightly")
+								entry.addDownloadScript(item, file, app["nightly"]["downloads"][file]["url"], items[item], sizeStr, "nightly")
 
 			if app["title"] == "RetroArch":
 				entry._entry["info"]["description"] += "\n\nCores must be downloaded from their separate UniStore, which can be added in settings."

@@ -19,12 +19,7 @@
 	"download_page": "https://gamebanana.com/mods/50221",
 	"avatar": "https://avatars.githubusercontent.com/u/46403089?s=200&v=4",
 	"version": "Latest",
-	"script_message": {
-		"message": "Note: Installing this will overwrite any existing install of\nCTGP-7, only install if you do not already have CTGP-7.",
-		"for": "\\.cia$",
-		"at": "start",
-		"count": 999
-	},
+	"script_message": "Note: Installing this will overwrite any existing install of\nCTGP-7, only install if you do not already have CTGP-7.",
 	"downloads": {
 		"CTGP-7_Downloader.cia": {
 			"url": "https://imaginye.ddns.net:7777/l/cia_downloader"

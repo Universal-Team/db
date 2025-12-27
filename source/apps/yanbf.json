@@ -48,10 +48,6 @@
 				"type": "downloadFile",
 				"file": "https://github.com/taserbolt/APFix-and-Widescreen-TWL/raw/main/widescreen.pck",
 				"output": "/_nds/ntr-forwarder/widescreen.pck"
-			},
-			{
-				"type": "promptMessage",
-				"message": "You will need to generate the actual forwarders on your computer.\n\nSee the README for more information:\nhttps://github.com/YANBForwarder/YANBF"
 			}
 		]
 	}
