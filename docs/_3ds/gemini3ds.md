@@ -24,7 +24,7 @@ screenshots:
 source: https://github.com/stefanoborra20/Gemini3DS
 stars: 0
 systems:
-- 3ds
+- 3DS
 title: Gemini3DS
 update_notes: '<h2 dir="auto">✨ Features</h2>
 

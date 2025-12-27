@@ -29,7 +29,7 @@ qr:
 source: https://github.com/AllisterMKW/3DScreen
 stars: 0
 systems:
-- 3ds
+- 3DS
 title: 3DScreen
 unique_ids:
 - '0xF0011'

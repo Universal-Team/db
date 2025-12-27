@@ -41,7 +41,7 @@ prerelease:
 source: https://github.com/ashbit06/RanGen-3DS
 stars: 0
 systems:
-- 3ds
+- 3DS
 title: RanGen-3DS
 unique_ids:
 - '0x44444'

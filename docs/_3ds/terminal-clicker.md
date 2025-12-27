@@ -26,7 +26,7 @@ screenshots:
 source: https://github.com/PyJulian/termiclicker3ds
 stars: 0
 systems:
-- 3ds
+- 3DS
 title: Terminal Clicker
 update_notes: <p dir="auto">First main release of this game for universal</p>
 updated: '2025-12-14T14:34:26Z'

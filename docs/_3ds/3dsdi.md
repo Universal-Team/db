@@ -24,7 +24,7 @@ license_name: MIT License
 source: https://github.com/Aeplet/3DSDI
 stars: 1
 systems:
-- 3ds
+- 3DS
 title: 3DSDI
 update_notes: '<p dir="auto">Not much is to be seen yet. Potentially expect an update
   soon.</p>

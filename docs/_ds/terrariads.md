@@ -25,7 +25,7 @@ qr:
 source: https://github.com/AzizBgBoss/TerrariaDS
 stars: 18
 systems:
-- ds
+- DS
 title: TerrariaDS
 update_notes: '<h1 dir="auto">New Update! TerrariaDS version 0.1</h1>
 

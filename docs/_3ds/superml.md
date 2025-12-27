@@ -45,7 +45,7 @@ screenshots:
 source: https://github.com/CharlesAverill/SuperML
 stars: 6
 systems:
-- 3ds
+- 3DS
 title: SuperML
 unique_ids:
 - '0x3F9AD'
