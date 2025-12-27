@@ -21,7 +21,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/ApacheThunder/NTR_Launcher
-stars: 74
+stars: 75
 systems:
 - DS
 title: NTR Launcher
