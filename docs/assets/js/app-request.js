@@ -27,7 +27,7 @@ let appSchema = {
 	author: {label: "Author's Name", type: "string", required: true},
 	avatar: {label: "Author's Avatar", type: "image"},
 	// Required
-	systems: {label: "Native Systems", type: "multiselect", required: true, values: ["3ds", "ds"], labels: ["3DS", "DS"]},
+	systems: {label: "Native Systems", type: "multiselect", required: true, values: ["3DS", "DS"], labels: ["3DS", "DS"]},
 	categories: {label: "Categories", type: "multiselect", required: true, values: ["game", "emulator", "app", "utility", "save-tool", "firm", "luma3DS"], labels: ["Game", "Emulator", "App", "Utility", "Save Tool", "FIRM", "Luma3DS"]},
 	icon: {label: "Icon", help: "Preferably 48x48 or 32x32. The icon is not technically necessary, avatar will be used as a fallback, but I didn't want people to skip it. Copy the avatar URL if you don't have an icon.", type: "image", required: true},
 	image: {label: "Banner Image", help: "Preferably a 3DS banner (256x128). Displayed on the Universal-DB website.", type: "image"},

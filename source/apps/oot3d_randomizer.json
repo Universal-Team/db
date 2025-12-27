@@ -2,7 +2,7 @@
 	"github": "gamestabled/OoT3D_Randomizer",
 	"description": "An item randomizer for The Legend of Zelda: Ocarina of Time 3D",
 	"systems": [
-		"3ds"
+		"3DS"
 	],
 	"categories": [
 		"utility"

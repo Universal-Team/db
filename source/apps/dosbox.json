@@ -2,7 +2,7 @@
 	"github": "MrHuu/dosbox-3ds",
 	"title": "DOSBox",
 	"systems": [
-		"3ds"
+		"3DS"
 	],
 	"categories": [
 		"emulator"

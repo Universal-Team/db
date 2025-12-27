@@ -2,7 +2,7 @@
 	"github": "ArmstrongThomas/Doodle",
 	"description": "Doodle is a simple drawing application designed for the Nintendo 3DS platform. It allows users to create and manipulate graphical content using various brush sizes and colors with other people on a shared canvas!",
 	"systems": [
-		"3ds"
+		"3DS"
 	],
 	"categories": [
 		"game"

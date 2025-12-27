@@ -2,7 +2,7 @@
 	"github": "tallHouse64/CerealBoxSnow",
 	"description": "A pixel art style snow simulator. Fire, rain, \"birds\" and fireflies can also be simulated. Made with drws-lib. (There's a PC version).",
 	"systems": [
-		"ds"
+		"DS"
 	],
 	"categories": [
 		"app"

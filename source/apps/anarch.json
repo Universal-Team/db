@@ -4,7 +4,7 @@
 	"description": "A suckless FPS game developed by Miloslav Ciz, ported to the 3DS by me using devkitpro.",
 	"author": "drummyfish, blitzdoughnuts",
 	"systems": [
-		"3ds"
+		"3DS"
 	],
 	"categories": [
 		"game"

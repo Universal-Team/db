@@ -1,7 +1,7 @@
 {
 	"github": "icicle1133/3ds-Controller",
 	"systems": [
-		"3ds"
+		"3DS"
 	],
 	"categories": [
 		"utility"

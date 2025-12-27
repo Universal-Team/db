@@ -130,7 +130,7 @@ def retroarchUniStore() -> None:
 			shorten(info["description"], 200, placeholder="...") if "description" in info else "",
 			info["display_version"] if "display_version" in info else "nightly",
 			categories=info["categories"].split("|") if "categories" in info else ["emulator"],
-			consoles=["3ds"],
+			consoles=["3DS"],
 			releaseNotes=notes,
 			license=info["license"] if "license" in info else "",
 			iconIndex=iconIndexRA if img.status_code == 200 else -1
