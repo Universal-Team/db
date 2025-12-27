@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 826979
-    size_str: 807 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.12.0/nds-bootstrap.7z
+    size: 827939
+    size_str: 808 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.12.1/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1193939
+    size: 1192725
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.12.0/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.12.1/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -43,126 +43,27 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <h3 dir="auto">🎁 What''s new? (B4DS mode) 🎁</h3>
+  <h3 dir="auto">What''s new? (B4DS users)</h3>
 
   <ul dir="auto">
 
-  <li>4 more DSiWare titles are now playable on DS &amp; DS Lite consoles! (<strong>Total:</strong>
-  491 -&gt; 495)
-
-  <ul dir="auto">
-
-  <li>Absolute Chess
-
-  <ul dir="auto">
-
-  <li>Selecting a character in free play mode causes a crash.</li>
-
-  <li>Does not save.</li>
+  <li>Some optimization is done to the DSiWare patching code to slightly reduce bootloader
+  size.</li>
 
   </ul>
 
-  </li>
-
-  <li>Absolute Reversi
+  <h3 dir="auto">Bug fix (B4DS users)</h3>
 
   <ul dir="auto">
 
-  <li>Selecting a character in free play mode causes a crash.</li>
-
-  <li>Does not save.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Don''t Cross the Line</li>
-
-  <li>Panewa!</li>
-
-  </ul>
-
-  </li>
-
-  <li>The USA and European versions of <em>Treasure Hunter X</em> (aka <em>Fall in
-  the Dark</em> in Japan) is now supported.
-
-  <ul dir="auto">
-
-  <li>Saving is still not implemented for this game.</li>
-
-  </ul>
-
-  </li>
-
-  <li><em>Neko no Iru Tangram: Neko to Iyashi no Silhouette Puzzle</em> is now playable
-  on DS &amp; DS Lite debug consoles!
-
-  <ul dir="auto">
-
-  <li>This means it will not run on a regular console, as the game requires more than
-  4MB of RAM to run.</li>
-
-  <li>Music does not play.</li>
-
-  <li>Seems to not save data.</li>
-
-  </ul>
-
-  </li>
-
-  <li><code class="notranslate">apFixOverlays.bin</code> is now only written if the
-  AP-fix directly patches the ROM overlays. This provides a slight boot speed improvement
-  if the AP-fix does not directly patch the overlays.</li>
-
-  <li>Added detection of SuperCard SD Slot-2 flashcards for use as RAM expansion if
-  SuperFW is installed.</li>
-
-  </ul>
-
-  <h3 dir="auto">🎁 Bug fixes 🎁</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed a long-standing bug where both <em>Bleach: Dark Souls</em> &amp; <em>Madagascar</em>
-  would fail to save data.
-
-  <ul dir="auto">
-
-  <li>If <em>Bleach: Dark Souls</em> still shows the message where save data is corrupted,
-  try deleting the <code class="notranslate">.sav</code> file for the game, then try
-  again.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Fixed an overlooked bug which caused the AP-fix for <em>Style Savvy</em>/<em>Style
-  Boutique</em> to show a red error screen on boot.</li>
-
-  <li>ARM9-only AP-fixes now apply to any ROM where the ARM9 binary offset is higher
-  than offset <code class="notranslate">0x4000</code>.
-
-  <ul dir="auto">
-
-  <li>Fixes crashing in <em>Pokemon SoulSilver Deluxe</em>.</li>
-
-  </ul>
-
-  </li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/taxicat1/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/taxicat1">@taxicat1</a>:
-  Added a proper fix for the <em>Puppy Palace</em> boot issue without the need for
-  nds-bootstrap-specific workarounds.</li>
-
-  <li>VCOUNT register is no longer cleared before boot. Fixes a possible bug where
-  a frame could be misrendered on 3DS consoles.</li>
+  <li>Fixed an overlooked bug which caused both some DSi-Enhanced games (such as <em>Pokemon
+  Black &amp; White 1&amp;2</em>) and DSiWare titles (which support opening the help
+  screen) to not boot.</li>
 
   </ul>'
-updated: '2025-12-25T08:58:04Z'
-version: v2.12.0
-version_title: 'v2.12.0: TWL Christmas Release 🎄'
+updated: '2025-12-27T06:32:15Z'
+version: v2.12.1
+version_title: v2.12.1 (hotfix)
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
