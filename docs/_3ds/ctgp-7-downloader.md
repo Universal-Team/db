@@ -26,13 +26,9 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/ctgp-7-downloader/extra-features-menu.png
 - description: Title & cup selection
   url: https://db.universal-team.net/assets/images/screenshots/ctgp-7-downloader/title-&-cup-selection.png
-script_message:
-  at: start
-  count: 999
-  for: \.cia$
-  message: 'Note: Installing this will overwrite any existing install of
+script_message: 'Note: Installing this will overwrite any existing install of
 
-    CTGP-7, only install if you do not already have CTGP-7.'
+  CTGP-7, only install if you do not already have CTGP-7.'
 stars: 0
 systems:
 - 3DS

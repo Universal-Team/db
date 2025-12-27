@@ -31,9 +31,7 @@ script_message: 'This will replace the boot.3dsx in the root of
 
   your SD card, replacing the Homebrew
 
-  Launcher with the Pirate Launcher.
-
-  Continue?'
+  Launcher with the Pirate Launcher.'
 source: https://github.com/cooolgamer/the-pirate-launcher
 stars: 15
 systems:
