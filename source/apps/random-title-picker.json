@@ -3,7 +3,7 @@
 	"title": "Random Title Picker",
 	"systems": ["3DS"],
 	"icon": "https://raw.githubusercontent.com/einso/3ds-randomtitlepicker/main/icon.png",
-	"categories": ["utitlity"],
+	"categories": ["utility"],
 	"archive": {
 		"release.zip": {
 			"3ds-randomtitlepicker.3dsx": [
