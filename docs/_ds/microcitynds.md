@@ -23,7 +23,7 @@ qr:
 source: https://github.com/AzizBgBoss/MicroCityNDS
 stars: 0
 systems:
-- ds
+- DS
 title: MicroCityNDS
 updated: '2025-08-18T19:04:41Z'
 version: v1.0

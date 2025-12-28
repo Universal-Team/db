@@ -34,7 +34,7 @@ screenshots:
 source: https://github.com/TehFridge/Zappka3DS
 stars: 112
 systems:
-- 3ds
+- 3DS
 title: Żappka3DS
 unique_ids:
 - '0xEC900'

@@ -21,7 +21,7 @@ screenshots:
 source: https://github.com/blitzdoughnuts/AnarchDEVKIT
 stars: 2
 systems:
-- 3ds
+- 3DS
 title: Anarch
 updated: '---'
 ---

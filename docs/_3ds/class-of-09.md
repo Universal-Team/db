@@ -36,7 +36,7 @@ screenshots:
 source: https://github.com/Bilbard/classof3ds
 stars: 4
 systems:
-- 3ds
+- 3DS
 title: Class of '09
 unique_ids:
 - '0xFA945'

@@ -31,7 +31,7 @@ screenshots:
 source: https://github.com/Buggem/3ds-donut
 stars: 0
 systems:
-- 3ds
+- 3DS
 title: 3DS Donut
 unique_ids:
 - '0xE98BA'

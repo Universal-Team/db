@@ -26,7 +26,7 @@ screenshots:
 source: https://github.com/Jermurder/BartBash3ds
 stars: 1
 systems:
-- 3ds
+- 3DS
 title: Bart Bash
 update_notes: <p dir="auto">the file you are supposed to open on the 3ds to play the
   game</p>

@@ -36,7 +36,7 @@ screenshots:
 source: https://github.com/t0xid/3DiceRoller
 stars: 2
 systems:
-- 3ds
+- 3DS
 title: 3DiceRoller
 update_notes: '<ul dir="auto">
 

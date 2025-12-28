@@ -111,7 +111,7 @@ qr:
 source: https://github.com/gamestabled/OoT3D_Randomizer
 stars: 219
 systems:
-- 3ds
+- 3DS
 title: OoT3D_Randomizer
 update_notes: '<p dir="auto">This release is long overdue and is mostly being generated
   so that people stop thinking that the previous release from 2.5 years ago is the

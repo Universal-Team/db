@@ -34,7 +34,7 @@ screenshots:
 source: https://github.com/Milk-Cool/Notebook3DS
 stars: 1
 systems:
-- 3ds
+- 3DS
 title: Notebook3DS
 unique_ids:
 - '0xECA00'

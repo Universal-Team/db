@@ -27,7 +27,7 @@ qr:
 source: https://github.com/MrHuu/dosbox-3ds
 stars: 51
 systems:
-- 3ds
+- 3DS
 title: DOSBox
 update_notes: '<h2 dir="auto">Changes</h2>
 

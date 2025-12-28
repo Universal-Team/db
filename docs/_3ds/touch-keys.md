@@ -32,7 +32,7 @@ screenshots:
 source: https://github.com/LuMariGames/Touch-Keys
 stars: 2
 systems:
-- 3ds
+- 3DS
 title: Touch Keys
 unique_ids:
 - '0x544B'

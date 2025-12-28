@@ -21,7 +21,7 @@ layout: app
 source: https://github.com/ConstantinZpher/Space-Invaders-3DS
 stars: 0
 systems:
-- 3ds
+- 3DS
 title: Space Invaders
 update_notes: '<p dir="auto">Contains the first ever release of this game</p>
 

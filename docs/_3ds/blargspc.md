@@ -23,7 +23,7 @@ screenshots:
 source: https://github.com/DiscostewSM/blargSpc
 stars: 3
 systems:
-- 3ds
+- 3DS
 title: blargSpc
 update_notes: <p dir="auto">Play SNES SPC-dumped files on your 3DS</p>
 updated: '2016-02-25T20:42:30Z'

@@ -36,7 +36,7 @@ screenshots:
 source: https://github.com/tallHouse64/CerealBoxSnow
 stars: 0
 systems:
-- ds
+- DS
 title: CerealBoxSnow
 update_notes: '<h2 dir="auto">1.2.0 Release</h2>
 

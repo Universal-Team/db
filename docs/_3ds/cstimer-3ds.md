@@ -32,7 +32,7 @@ screenshots:
 source: https://github.com/Menshion01/CSTimer-3DS
 stars: 0
 systems:
-- 3ds
+- 3DS
 title: CSTimer-3DS
 unique_ids:
 - '0xFAA5E'

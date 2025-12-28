@@ -33,7 +33,7 @@ screenshots:
 source: https://github.com/icicle1133/3ds-Controller
 stars: 4
 systems:
-- 3ds
+- 3DS
 title: 3ds-Controller
 unique_ids:
 - '0xA1B2C'

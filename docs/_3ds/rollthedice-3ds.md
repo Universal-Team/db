@@ -23,7 +23,7 @@ layout: app
 source: https://github.com/DefeatOf13/RollTheDice-3DS
 stars: 1
 systems:
-- 3ds
+- 3DS
 title: RollTheDice-3DS
 update_notes: <p dir="auto">I previously forgot to add the app name, app author and
   description to the makefile, i even updated the app name from roll-the-dice to RollTheDice-3DS</p>

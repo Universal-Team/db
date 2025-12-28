@@ -22,7 +22,7 @@ layout: app
 source: https://github.com/fthomys/3ds-playcoin-tool
 stars: 0
 systems:
-- 3ds
+- 3DS
 title: 3DSx Play Coin Setter Mod
 update_notes: <p dir="auto">Fixes manual coin changing</p>
 updated: '2025-03-12T12:06:51Z'

@@ -27,7 +27,7 @@ screenshots:
 source: https://github.com/ArmstrongThomas/Doodle
 stars: 5
 systems:
-- 3ds
+- 3DS
 title: Doodle
 update_notes: '<h1 dir="auto">Please Update to v1.0.1!</h1>
 

@@ -28,7 +28,7 @@ qr:
 source: https://github.com/TheCoolesttOne/3DS-Button-Test
 stars: 0
 systems:
-- 3ds
+- 3DS
 title: 3DS Button Tester
 update_notes: <p dir="auto">this is the first release. (I know the 3dsx and cia have
   different names)</p>

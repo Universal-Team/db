@@ -26,7 +26,7 @@ downloads:
 github: ScratchEverywhere/ScratchEverywhere
 icon: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/icon.png
 image: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/3ds/banner.png
-image_length: 24069
+image_length: 22206
 layout: app
 license: lgpl-3.0
 license_name: GNU Lesser General Public License v3.0
@@ -34,7 +34,7 @@ qr:
   scratch-3ds.cia: https://db.universal-team.net/assets/images/qr/scratch-3ds-cia.png
   scratch-ds.nds: https://db.universal-team.net/assets/images/qr/scratch-ds-nds.png
 source: https://github.com/ScratchEverywhere/ScratchEverywhere
-stars: 423
+stars: 424
 systems:
 - 3DS
 title: Scratch Everywhere!

@@ -32,7 +32,7 @@ screenshots:
 source: https://github.com/FelixHomebrew/CtrAlarmo
 stars: 0
 systems:
-- 3ds
+- 3DS
 title: CTR Alarmo
 unique_ids:
 - '0xC4A1A'
