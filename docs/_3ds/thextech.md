@@ -52,8 +52,8 @@ update_notes: "<p dir=\"auto\">This is a minor hotfix for the 1.3.7.2 release th
   \ 1.75.784 1.75 1.75v.675l3.864-2.318A.75.75 0 0 1 16 3.75Zm-6.5 1a.25.25 0 0 0-.25-.25h-7.5a.25.25\
   \ 0 0 0-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-6.5ZM11 8.825l3.5\
   \ 2.1v-5.85l-3.5 2.1Z\"></path>\n</svg>\n    <span class=\"m-1\">file_3433.mp4</span>\n\
-  \    <span class=\"dropdown-caret\"></span>\n  </summary>\n\n  <video src=\"https://private-user-images.githubusercontent.com/6751442/530536183-fc8dd73f-6d64-4c27-a6ca-d6ba11d57b86.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjY5MTcyMzEsIm5iZiI6MTc2NjkxNjkzMSwicGF0aCI6Ii82NzUxNDQyLzUzMDUzNjE4My1mYzhkZDczZi02ZDY0LTRjMjctYTZjYS1kNmJhMTFkNTdiODYubXA0P1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MTIyOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTEyMjhUMTAxNTMxWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9M2YzYjQwZDgyZGY3M2YwNTgzOTU4ZWRhMjBkN2FmYjlhZWJlYjBlNjcxZDNkNjgxMGVjNWU3NjJmOWM0YjM0ZiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.zUTjInFmz39Qg8WcX8K5I64owe7Aw2v0p2c7-I_91kk\"\
-  \ data-canonical-src=\"https://private-user-images.githubusercontent.com/6751442/530536183-fc8dd73f-6d64-4c27-a6ca-d6ba11d57b86.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjY5MTcyMzEsIm5iZiI6MTc2NjkxNjkzMSwicGF0aCI6Ii82NzUxNDQyLzUzMDUzNjE4My1mYzhkZDczZi02ZDY0LTRjMjctYTZjYS1kNmJhMTFkNTdiODYubXA0P1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MTIyOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTEyMjhUMTAxNTMxWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9M2YzYjQwZDgyZGY3M2YwNTgzOTU4ZWRhMjBkN2FmYjlhZWJlYjBlNjcxZDNkNjgxMGVjNWU3NjJmOWM0YjM0ZiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.zUTjInFmz39Qg8WcX8K5I64owe7Aw2v0p2c7-I_91kk\"\
+  \    <span class=\"dropdown-caret\"></span>\n  </summary>\n\n  <video src=\"https://private-user-images.githubusercontent.com/6751442/530536183-fc8dd73f-6d64-4c27-a6ca-d6ba11d57b86.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjY5MjA2OTAsIm5iZiI6MTc2NjkyMDM5MCwicGF0aCI6Ii82NzUxNDQyLzUzMDUzNjE4My1mYzhkZDczZi02ZDY0LTRjMjctYTZjYS1kNmJhMTFkNTdiODYubXA0P1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MTIyOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTEyMjhUMTExMzEwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NmUxMzdkYThlNTAwZmViZTY3YjdmY2E2ODJlNTg0MjYzMGRjODE2Njg4NDAyNGU2NWVhN2Y5MDFkMWRjMjFjZiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.KPoFjfTRx1O8OV_iBm5ze12eQu5u6TAwxbErgNrY7fk\"\
+  \ data-canonical-src=\"https://private-user-images.githubusercontent.com/6751442/530536183-fc8dd73f-6d64-4c27-a6ca-d6ba11d57b86.mp4?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjY5MjA2OTAsIm5iZiI6MTc2NjkyMDM5MCwicGF0aCI6Ii82NzUxNDQyLzUzMDUzNjE4My1mYzhkZDczZi02ZDY0LTRjMjctYTZjYS1kNmJhMTFkNTdiODYubXA0P1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MTIyOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTEyMjhUMTExMzEwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NmUxMzdkYThlNTAwZmViZTY3YjdmY2E2ODJlNTg0MjYzMGRjODE2Njg4NDAyNGU2NWVhN2Y5MDFkMWRjMjFjZiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.KPoFjfTRx1O8OV_iBm5ze12eQu5u6TAwxbErgNrY7fk\"\
   \ controls=\"controls\" muted=\"muted\" class=\"d-block rounded-bottom-2 border-top\
   \ width-fit\" style=\"max-height:640px; min-height: 200px\">\n\n  </video>\n</details>\n\
   \n<p dir=\"auto\">The resampling from the lower sample rate to higher might cause\
@@ -63,12 +63,12 @@ update_notes: "<p dir=\"auto\">This is a minor hotfix for the 1.3.7.2 release th
   \ download packages <a href=\"https://github.com/TheXTech/TheXTech/releases/tag/v1.3.7.2\"\
   >at the main post here</a>. Also, all the binaries had been updated at the main\
   \ post to prevent users downloading faulty builds without knowlege of that.</p>\n\
-  <h1 dir=\"auto\">Changelog</h1>\n<p dir=\"auto\">-Fixed an incorrect resampling\
+  <h1 dir=\"auto\">Changelog</h1>\n<ul dir=\"auto\">\n<li>Fixed an incorrect resampling\
   \ logic at the MixerX audio library that caused accelerated tempo of music on 3DS,\
   \ Wii, and PSVita (<a class=\"user-mention notranslate\" data-hovercard-type=\"\
   user\" data-hovercard-url=\"/users/Wohlstand/hovercard\" data-octo-click=\"hovercard-link-click\"\
   \ data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Wohlstand\"\
-  >@Wohlstand</a>)</p>"
+  >@Wohlstand</a>)</li>\n</ul>"
 updated: '2025-12-28T10:08:55Z'
 version: v1.3.7.2-1
 version_title: 'TheXTech v1.3.7.2-hotfix1: Fixed distorted sound playback on 3DS,
