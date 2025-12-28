@@ -4,7 +4,6 @@ avatar: https://avatars.githubusercontent.com/u/119087427?v=4
 categories:
 - utility
 - firm
-- luma3ds
 color: '#56a659'
 color_bg: '#428044'
 created: '2024-11-24T02:02:43Z'

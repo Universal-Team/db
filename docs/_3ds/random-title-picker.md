@@ -2,7 +2,7 @@
 author: einso
 avatar: https://avatars.githubusercontent.com/u/45353902?v=4
 categories:
-- utitlity
+- utility
 color: '#454e48'
 color_bg: '#454e48'
 created: '2023-11-03T17:31:10Z'
