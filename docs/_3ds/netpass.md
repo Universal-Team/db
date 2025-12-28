@@ -33,7 +33,8 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: Fix some issues with the back alley not producing results
+update_notes: <p data-sourcepos="1:1-1:57" dir="auto">Fix some issues with the back
+  alley not producing results</p>
 updated: '2025-12-18T16:42:45.707Z'
 version: v1.2.8
 version_title: v1.2.8
