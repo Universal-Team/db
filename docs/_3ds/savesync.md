@@ -12,11 +12,11 @@ downloads:
   SaveSync.3dsx:
     size: 2073340
     size_str: 1 MiB
-    url: https://github.com/coolguy1842/SaveSync/releases/download/v1.0.1/SaveSync.3dsx
+    url: https://github.com/coolguy1842/SaveSync/releases/download/v1.1.0/SaveSync.3dsx
   SaveSync.cia:
     size: 1302976
     size_str: 1 MiB
-    url: https://github.com/coolguy1842/SaveSync/releases/download/v1.0.1/SaveSync.cia
+    url: https://github.com/coolguy1842/SaveSync/releases/download/v1.1.0/SaveSync.cia
 github: coolguy1842/SaveSync
 icon: https://raw.githubusercontent.com/coolguy1842/SaveSync/master/assets/icon.png
 image: https://raw.githubusercontent.com/coolguy1842/SaveSync/master/assets/banner.png
@@ -33,9 +33,16 @@ systems:
 title: SaveSync
 unique_ids:
 - '0x49FE2'
-update_notes: <p dir="auto">Fixed deadlock during load that I didn't catch, as I had
-  it initialized already.</p>
-updated: '2025-12-18T01:48:49Z'
-version: v1.0.1
-version_title: v1.0.1
+update_notes: '<p dir="auto">Added a manifest file<br>
+
+  Added a scoped service wrapper<br>
+
+  Added a CondVar wrapper<br>
+
+  Added game card loading and watching<br>
+
+  Removed C++ flags from C to remove extra warnings</p>'
+updated: '2025-12-28T02:18:39Z'
+version: v1.1.0
+version_title: v1.1.0
 ---
