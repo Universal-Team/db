@@ -294,8 +294,8 @@ update_notes: '<blockquote>
 
   </ul>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/41608708/529990087-a616389d-abf6-489c-8d6b-9f27b93f834c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjcwMjE3MjEsIm5iZiI6MTc2NzAyMTQyMSwicGF0aCI6Ii80MTYwODcwOC81Mjk5OTAwODctYTYxNjM4OWQtYWJmNi00ODljLThkNmItOWYyN2I5M2Y4MzRjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjI5VDE1MTcwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE1MjcyNjZkODc3NjE0YTFmMzgwNGJlYTUxMzg0MDQ2NjJhYmRhNzU4ZjkwMDAwMDBmZWRiODFiZWJmNzIzNjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.CiWQC7Kc04-LtzFoEqQoAutV5ILqhgEHIu848N27DYQ"><img
-  width="245" height="245" alt="universal-updater-cia" src="https://private-user-images.githubusercontent.com/41608708/529990087-a616389d-abf6-489c-8d6b-9f27b93f834c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjcwMjE3MjEsIm5iZiI6MTc2NzAyMTQyMSwicGF0aCI6Ii80MTYwODcwOC81Mjk5OTAwODctYTYxNjM4OWQtYWJmNi00ODljLThkNmItOWYyN2I5M2Y4MzRjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjI5VDE1MTcwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE1MjcyNjZkODc3NjE0YTFmMzgwNGJlYTUxMzg0MDQ2NjJhYmRhNzU4ZjkwMDAwMDBmZWRiODFiZWJmNzIzNjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.CiWQC7Kc04-LtzFoEqQoAutV5ILqhgEHIu848N27DYQ"
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/a616389d-abf6-489c-8d6b-9f27b93f834c"><img
+  width="245" height="245" alt="universal-updater-cia" src="https://github.com/user-attachments/assets/a616389d-abf6-489c-8d6b-9f27b93f834c"
   style="max-width: 100%; height: auto; max-height: 245px;"></a>'
 updated: '2025-12-24T10:52:32Z'
 version: v3.3.2
