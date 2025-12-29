@@ -47,6 +47,8 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
+  <li>DMA is now used to do large parts of RAM clears.</li>
+
   <li>Some optimization is done to the DSiWare patching code to slightly reduce bootloader
   size.</li>
 
