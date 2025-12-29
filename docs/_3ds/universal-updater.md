@@ -33,6 +33,27 @@ nightly:
       url: https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/nightly/universal-updater-cia.png
+prerelease:
+  download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
+  downloads:
+    Universal-Updater.3dsx:
+      size: 3180640
+      size_str: 3 MiB
+      url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
+    Universal-Updater.cia:
+      size: 2655168
+      size_str: 2 MiB
+      url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
+  qr:
+    Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/prerelease/universal-updater-cia.png
+  update_notes: <p dir="auto">Pk11 - Exclude tag 'git' from describe</p>
+  update_notes_md: 'Pk11 - Exclude tag ''git'' from describe
+
+
+    '
+  updated: '2025-12-29T10:51:18Z'
+  version: git
+  version_title: Continuous Build - 9760199
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
