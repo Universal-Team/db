@@ -12,16 +12,5 @@
 		276759
 	],
 	"github": "Universal-Team/Universal-Updater",
-	"unistore_exclude": true,
-	"nightly": {
-		"download_page": "https://github.com/Universal-Team/extras/tree/master/builds/Universal-Updater",
-		"downloads": {
-			"Universal-Updater.3dsx": {
-				"url": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.3dsx"
-			},
-			"Universal-Updater.cia": {
-				"url": "https://github.com/Universal-Team/extras/raw/master/builds/Universal-Updater/Universal-Updater.cia"
-			}
-		}
-	}
+	"unistore_exclude": true
 }
