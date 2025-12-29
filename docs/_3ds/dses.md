@@ -37,7 +37,9 @@ systems:
 title: dses
 unique_ids:
 - '0xEF102'
-update_notes: '<p dir="auto"></p>
+update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/867acc92-7349-4a5f-8908-d2c16fa1c90a"><img
+  src="https://github.com/user-attachments/assets/867acc92-7349-4a5f-8908-d2c16fa1c90a"
+  alt="QR code" data-animated-image="" style="max-width: 100%;"></a></p>
 
   <p dir="auto">Code changes:</p>
 

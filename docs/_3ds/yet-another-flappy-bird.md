@@ -76,7 +76,9 @@ update_notes: '<h1 dir="auto"><strong>Release. v1.1</strong></h1>
 
   <p dir="auto">FBI Remote Download:<br>
 
-  </p>'
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/d3a07df4-a19f-4fa2-be96-e3608e5f3e09"><img
+  src="https://github.com/user-attachments/assets/d3a07df4-a19f-4fa2-be96-e3608e5f3e09"
+  alt="QR" style="max-width: 100%;"></a></p>'
 updated: '2025-06-29T15:10:21Z'
 version: v1.1
 version_title: v1.1

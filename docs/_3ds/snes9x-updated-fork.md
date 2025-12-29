@@ -43,7 +43,9 @@ update_notes: '<ul dir="auto">
 
   <p dir="auto">For more information, see <a href="https://github.com/matbo87/snes9x_3ds/blob/master/CHANGELOG.md">Changelog</a></p>
 
-  '
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/0443bd44-c6ce-4815-84b2-f675b55a4f4f"><img
+  width="180" height="180" alt="qr code v1.52" src="https://github.com/user-attachments/assets/0443bd44-c6ce-4815-84b2-f675b55a4f4f"
+  style="max-width: 100%; height: auto; max-height: 180px;"></a>'
 updated: '2025-08-15T08:42:42Z'
 version: v1.52
 version_title: v1.52

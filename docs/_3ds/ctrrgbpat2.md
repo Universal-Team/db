@@ -110,7 +110,9 @@ update_notes: '<p dir="auto">Hello again</p>
 
   <p dir="auto">QR code download :<br>
 
-  </p>'
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/8fdb95f3-dcbc-4d34-af05-c4018373587b"><img
+  src="https://github.com/user-attachments/assets/8fdb95f3-dcbc-4d34-af05-c4018373587b"
+  alt="image" style="max-width: 100%;"></a></p>'
 updated: '2025-04-27T15:28:52Z'
 version: v2.5
 version_title: V2.5

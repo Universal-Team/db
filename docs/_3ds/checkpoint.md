@@ -66,6 +66,9 @@ update_notes: '<p dir="auto">I intended to add more value to this release by try
 
   <hr>
 
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/8d43383f-c4c8-4d3c-b5ff-05e82e03c1d9"><img
+  width="300" height="300" alt="frame(10)" src="https://github.com/user-attachments/assets/8d43383f-c4c8-4d3c-b5ff-05e82e03c1d9"
+  style="max-width: 100%; height: auto; max-height: 300px;"></a>
 
   <hr>
 

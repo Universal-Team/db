@@ -58,7 +58,9 @@ update_notes: '<p dir="auto">This is the first release of the PrBoom+ 3DS port.<
 
   <h3 dir="auto">FBI QR code (for remote install)</h3>
 
-  <p dir="auto"></p>'
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/96e09b2a-7111-4051-a3f5-9d616bf088f6"><img
+  src="https://github.com/user-attachments/assets/96e09b2a-7111-4051-a3f5-9d616bf088f6"
+  alt="PrBoom-Plus-3DS-QR" style="max-width: 100%;"></a></p>'
 updated: '2023-07-10T14:40:04Z'
 version: v1.0.0
 version_title: v1.0.0

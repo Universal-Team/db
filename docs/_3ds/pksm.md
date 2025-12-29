@@ -45,7 +45,9 @@ update_notes: '<h2 dir="auto">What''s new</h2>
 
   <hr>
 
-  <p dir="auto"></p>
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/949dff51-0d0d-4a36-9fa9-2ae415bda887"><img
+  src="https://github.com/user-attachments/assets/949dff51-0d0d-4a36-9fa9-2ae415bda887"
+  alt="qr" style="max-width: 100%;"></a></p>
 
   <hr>
 

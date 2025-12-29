@@ -31,7 +31,9 @@ systems:
 title: fMSX3DS
 unique_ids:
 - '0x736E4'
-update_notes: '<p dir="auto"><br>
+update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/30c514e3-7b1a-4a90-bc21-ff8f90a0018f"><img
+  src="https://github.com/user-attachments/assets/30c514e3-7b1a-4a90-bc21-ff8f90a0018f"
+  alt="ranma006" style="max-width: 100%;"></a><br>
 
   v1.42<br>
 

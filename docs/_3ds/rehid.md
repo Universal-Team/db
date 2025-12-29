@@ -72,7 +72,9 @@ update_notes: '<p dir="auto">This is the fifth public release of rehid.<br>
 
   <p dir="auto">You can scan the following QR code to install rehidhelper using FBI.<br>
 
-  </p>'
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/762c824a-4f38-47de-bbce-fa35a94e2837"><img
+  src="https://github.com/user-attachments/assets/762c824a-4f38-47de-bbce-fa35a94e2837"
+  alt="image" style="max-width: 100%;"></a></p>'
 updated: '2023-07-21T04:27:05Z'
 version: v4.0
 version_title: v4.0 Fifth Release

@@ -28,7 +28,9 @@ unique_ids:
 - '0x25602'
 update_notes: '<p dir="auto">CIA QR Code<br>
 
-  </p>'
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/09f284cd-5d42-4c60-a303-e694dbc7525f"><img
+  src="https://github.com/user-attachments/assets/09f284cd-5d42-4c60-a303-e694dbc7525f"
+  alt="qrcode" style="max-width: 100%;"></a></p>'
 updated: '2025-03-14T14:03:21Z'
 version: v1.0.0
 version_title: First Release

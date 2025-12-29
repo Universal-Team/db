@@ -10,17 +10,17 @@ created: '2025-01-06T19:04:39Z'
 description: Beat-making audio sequencer and DJ-tool for the Nintendo 3DS
 download_page: https://github.com/gearmo3ds/noisecommander3dsdemo/releases
 downloads:
-  noisecmdr-v0_1_8-demo.cia:
+  noisecmdr-v0_1_9-demo.cia:
     size: 3269568
     size_str: 3 MiB
-    url: https://github.com/gearmo3ds/noisecommander3dsdemo/releases/download/0.1.8/noisecmdr-v0_1_8-demo.cia
+    url: https://github.com/gearmo3ds/noisecommander3dsdemo/releases/download/0.1.9/noisecmdr-v0_1_9-demo.cia
 github: gearmo3ds/noisecommander3dsdemo
 icon: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/icon.png
 image: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/banner.png
 image_length: 40664
 layout: app
 qr:
-  noisecmdr-v0_1_8-demo.cia: https://db.universal-team.net/assets/images/qr/noisecmdr-v0_1_8-demo-cia.png
+  noisecmdr-v0_1_9-demo.cia: https://db.universal-team.net/assets/images/qr/noisecmdr-v0_1_9-demo-cia.png
 source: https://github.com/gearmo3ds/noisecommander3dsdemo
 stars: 1
 systems:
@@ -32,18 +32,50 @@ update_notes: '<h3 dir="auto">Fixed</h3>
 
   <ul dir="auto">
 
-  <li>Buses are not re-initialized when creating a new project</li>
+  <li>Freeze when creating a new project (ouch!)</li>
 
-  <li>X-Fade misbehaves when sample is 8Bit</li>
+  <li>Some lane-settings are not reset when creating a new project (bus-nr, midi-channel,
+  chance, ducktrigger)</li>
 
-  <li>Truncating in waveform-view does not free sample memory</li>
+  </ul>
 
-  <li>Maximum slice-number is now 15 instead of 16</li>
+  <h3 dir="auto">Changed</h3>
+
+  <ul dir="auto">
+
+  <li>Added warning about possible file corruption when saved with temp-build to splash-screen
+  and save function</li>
+
+  <li>Attempting to load song saved with newer version now shows error dialog and
+  aborts</li>
+
+  <li>Temp-build is now tagged in file header</li>
+
+  <li>Added missing patreon credits</li>
+
+  </ul>
+
+  <h3 dir="auto">Added</h3>
+
+  <ul dir="auto">
+
+  <li>Clipmatrix-hotkey: Y + C-Pad for paging up/down by 16 steps or jump to top/bottom
+  (as in tracker)</li>
+
+  <li>Color-highlighting for current row in clip-matrix view</li>
+
+  </ul>
+
+  <h3 dir="auto">Removed</h3>
+
+  <ul dir="auto">
+
+  <li>"Row"-selection mode in tracker was confusing, it is now disabled</li>
 
   </ul>'
-updated: '2025-12-21T16:29:51Z'
-version: 0.1.8
-version_title: Bug-fixes
+updated: '2025-12-29T18:09:29Z'
+version: 0.1.9
+version_title: Fix freeze when creating new project
 website: https://www.patreon.com/NoiseCommander3DS
 ---
 Beat-making audio sequencer and DJ-tool

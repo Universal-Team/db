@@ -56,7 +56,9 @@ update_notes: '<p dir="auto">A minor hotfix for v3.0.0 of Anemone3DS</p>
 
   <h2 dir="auto">QR Code</h2>
 
-  <p dir="auto"></p>'
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/78c1bdc4-357f-45d4-9c30-cacf15eb0e3d"><img
+  src="https://github.com/user-attachments/assets/78c1bdc4-357f-45d4-9c30-cacf15eb0e3d"
+  alt="frame(1)" style="max-width: 100%;"></a></p>'
 updated: '2024-06-18T00:21:50Z'
 version: v3.0.1
 version_title: Anemone3DS - v3.0.1 Hotfix

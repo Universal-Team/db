@@ -50,7 +50,9 @@ update_notes: '<h1 dir="auto">Zmiany:</h1>
 
   <h2 dir="auto">QR''ka do pobrania</h2>
 
-  <p dir="auto"></p>'
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/a639e0df-bb25-4c0c-b778-9970f1ff2066"><img
+  src="https://github.com/user-attachments/assets/a639e0df-bb25-4c0c-b778-9970f1ff2066"
+  alt="image" style="max-width: 100%;"></a></p>'
 updated: '2025-07-02T22:02:04Z'
 version: v2.0.4
 version_title: Żappka3DS 2.0.4

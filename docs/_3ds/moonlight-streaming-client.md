@@ -51,7 +51,9 @@ update_notes: '<h2 dir="auto">Changelog</h2>
 
   <h2 dir="auto">CIA Download</h2>
 
-  <p dir="auto"></p>'
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/609c8bb0-b286-4c94-9338-3c74e91db506"><img
+  src="https://github.com/user-attachments/assets/609c8bb0-b286-4c94-9338-3c74e91db506"
+  alt="frame" style="max-width: 100%;"></a></p>'
 updated: '2025-04-14T22:45:05Z'
 version: v2.1.0
 version_title: Moonlight 3DS v2.1.0

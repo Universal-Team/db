@@ -110,9 +110,13 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <tr>
 
-  <td></td>
+  <td><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/154e8b54-5ae9-46af-a1b5-b8d55598d095"><img
+  src="https://github.com/user-attachments/assets/154e8b54-5ae9-46af-a1b5-b8d55598d095"
+  alt="QR for WordleDS.cia" style="max-width: 100%;"></a></td>
 
-  <td></td>
+  <td><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/cd118c22-ea8b-44e9-8840-5165afe53e96"><img
+  src="https://github.com/user-attachments/assets/cd118c22-ea8b-44e9-8840-5165afe53e96"
+  alt="QR for WordleDS.dsi" style="max-width: 100%;"></a></td>
 
   </tr>
 

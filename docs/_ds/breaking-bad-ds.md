@@ -118,7 +118,10 @@ update_notes: '<h2 dir="auto">Change notes</h2>
   the QR code below in your loader''s menu, if your system supports this. Please make
   sure you use v1.0.3+, or your game may crash on startup!</p>
 
-  <p dir="auto"></p>
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/43c4d7e2-0813-4d9c-b284-22e655e8f4f1"><img
+  src="https://github.com/user-attachments/assets/43c4d7e2-0813-4d9c-b284-22e655e8f4f1"
+  alt="QR code for installing the game on a DSi/3DS with TwilightMenu" style="max-width:
+  100%;"></a></p>
 
   <h3 dir="auto">Unsupported platforms</h3>
 
