@@ -37,7 +37,7 @@ prerelease:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 3180640
+      size: 3180288
       size_str: 3 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
@@ -46,14 +46,14 @@ prerelease:
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/prerelease/universal-updater-cia.png
-  update_notes: <p dir="auto">Pk11 - Exclude tag 'git' from describe</p>
-  update_notes_md: 'Pk11 - Exclude tag ''git'' from describe
+  update_notes: <p dir="auto">Pk11 - Fix not deleting tag</p>
+  update_notes_md: 'Pk11 - Fix not deleting tag
 
 
     '
-  updated: '2025-12-29T10:51:18Z'
+  updated: '2025-12-29T14:18:38Z'
   version: git
-  version_title: Continuous Build - 9760199
+  version_title: Continuous Build - 2188fd9
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
@@ -303,7 +303,9 @@ update_notes: '<blockquote>
 
   </ul>
 
-  '
+  <a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/41608708/529990087-a616389d-abf6-489c-8d6b-9f27b93f834c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjcwMTk2ODcsIm5iZiI6MTc2NzAxOTM4NywicGF0aCI6Ii80MTYwODcwOC81Mjk5OTAwODctYTYxNjM4OWQtYWJmNi00ODljLThkNmItOWYyN2I5M2Y4MzRjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjI5VDE0NDMwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU0ZjAzYzYzMDg2N2E2ZDg3N2FlZGUwMTI4YmZiZTQxNjFkOGNjNmU0MTVjZTFhNzNiZDVhYjcwOGViNjA5ZDImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qnsrfKaXpXK3yB897sSZDEhlZuEvbEoiD_kziVSmXac"><img
+  width="245" height="245" alt="universal-updater-cia" src="https://private-user-images.githubusercontent.com/41608708/529990087-a616389d-abf6-489c-8d6b-9f27b93f834c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjcwMTk2ODcsIm5iZiI6MTc2NzAxOTM4NywicGF0aCI6Ii80MTYwODcwOC81Mjk5OTAwODctYTYxNjM4OWQtYWJmNi00ODljLThkNmItOWYyN2I5M2Y4MzRjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjI5VDE0NDMwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU0ZjAzYzYzMDg2N2E2ZDg3N2FlZGUwMTI4YmZiZTQxNjFkOGNjNmU0MTVjZTFhNzNiZDVhYjcwOGViNjA5ZDImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qnsrfKaXpXK3yB897sSZDEhlZuEvbEoiD_kziVSmXac"
+  style="max-width: 100%; height: auto; max-height: 245px;"></a>'
 updated: '2025-12-24T10:52:32Z'
 version: v3.3.2
 version_title: UX, UI, UU, and You! - Hotfix 2
