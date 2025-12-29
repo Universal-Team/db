@@ -298,7 +298,7 @@ def handle_github_app(github: GitHubAPI, app: Dict[str, Any]):
 		if "update_notes" not in app and release["body"] != "" and release["body"] is not None:
 			app["update_notes_md"] = release["body"].replace("\r\n", "\n")
 			app["update_notes"] = github.format_markdown(release["body"], mode="gfm", context=app["github"])
-			app["update_notes"] = re.sub(r'<a target="_blank" rel="noopener noreferrer" href="https:\/\/private-user-images.githubusercontent\.com.*?<\/a>', "", app["update_notes"])
+			app["update_notes"] = re.sub(r'https:\/\/private-user-images.githubusercontent.com\/\d+\/\d+-([\da-f\-]{36}).mp4\?[^"]*', r'https://github.com/user-attachments/assets/\1', app["update_notes"])
 
 		if "updated" not in app:
 			app["updated"] = release["published_at"]
