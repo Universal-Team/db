@@ -12,17 +12,17 @@ description: Nintellivision - an Intellivision Emulator for the DS/DSi. High com
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 787968
-    size_str: 769 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.2/NINTV-DS.nds
+    size: 788480
+    size_str: 770 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.2a/NINTV-DS.nds
   README.md:
-    size: 35929
+    size: 35874
     size_str: 35 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.2/README.md
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.2a/README.md
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 39983
+image_length: 40299
 layout: app
 qr:
   NINTV-DS.nds: https://db.universal-team.net/assets/images/qr/nintv-ds-nds.png
@@ -34,7 +34,16 @@ stars: 50
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">Version 6.2 : 26-Dec-2025 by wavemotion-dave</p>
+update_notes: '<p dir="auto">Version 6.2a : 29-Dec-2025 by wavemotion-dave</p>
+
+  <ul dir="auto">
+
+  <li>Fix for horizontal scroll bug that caused a bit of blurring when moving left/right
+  in some games. Fixes Ninja Odyssey health bar. Improved backtab latched handling.</li>
+
+  </ul>
+
+  <p dir="auto">Version 6.2 : 26-Dec-2025 by wavemotion-dave</p>
 
   <ul dir="auto">
 
@@ -76,7 +85,7 @@ update_notes: '<p dir="auto">Version 6.2 : 26-Dec-2025 by wavemotion-dave</p>
   it to take effect).</li>
 
   </ul>'
-updated: '2025-12-26T14:08:06Z'
-version: '6.2'
-version_title: Version 6.2
+updated: '2025-12-29T11:36:59Z'
+version: 6.2a
+version_title: Version 6.2a
 ---

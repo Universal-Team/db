@@ -26,6 +26,27 @@ image_length: 34569
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+prerelease:
+  download_page: https://github.com/Universal-Team/LeafEdit/releases/tag/git
+  downloads:
+    LeafEdit.3dsx:
+      size: 2911060
+      size_str: 2 MiB
+      url: https://github.com/Universal-Team/LeafEdit/releases/download/git/LeafEdit.3dsx
+    LeafEdit.cia:
+      size: 2393024
+      size_str: 2 MiB
+      url: https://github.com/Universal-Team/LeafEdit/releases/download/git/LeafEdit.cia
+  qr:
+    LeafEdit.cia: https://db.universal-team.net/assets/images/qr/prerelease/leafedit-cia.png
+  update_notes: <p dir="auto">Pk11 - Update to new nightly method</p>
+  update_notes_md: 'Pk11 - Update to new nightly method
+
+
+    '
+  updated: '2025-12-29T11:26:10Z'
+  version: git
+  version_title: Continuous Build - 4ffbec4
 qr:
   LeafEdit.cia: https://db.universal-team.net/assets/images/qr/leafedit-cia.png
 screenshots:

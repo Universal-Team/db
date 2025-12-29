@@ -20,6 +20,21 @@ image_length: 510792
 layout: app
 license: mit
 license_name: MIT License
+prerelease:
+  download_page: https://github.com/Universal-Team/Relaunch/releases/tag/git
+  downloads:
+    Relaunch.7z:
+      size: 140805
+      size_str: 137 KiB
+      url: https://github.com/Universal-Team/Relaunch/releases/download/git/Relaunch.7z
+  update_notes: <p dir="auto">Pk11 - Update for new nightly method, pin to devkitpro/devkitarm:20241104</p>
+  update_notes_md: 'Pk11 - Update for new nightly method, pin to devkitpro/devkitarm:20241104
+
+
+    '
+  updated: '2025-12-29T11:33:54Z'
+  version: git
+  version_title: Continuous Build - 65f1308
 screenshots:
 - description: Main
   url: https://db.universal-team.net/assets/images/screenshots/relaunch/main.png

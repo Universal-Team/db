@@ -24,6 +24,27 @@ image_length: 18267
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+prerelease:
+  download_page: https://github.com/Universal-Team/3DVier/releases/tag/git
+  downloads:
+    3DVier.3dsx:
+      size: 700672
+      size_str: 684 KiB
+      url: https://github.com/Universal-Team/3DVier/releases/download/git/3DVier.3dsx
+    3DVier.cia:
+      size: 672704
+      size_str: 656 KiB
+      url: https://github.com/Universal-Team/3DVier/releases/download/git/3DVier.cia
+  qr:
+    3DVier.cia: https://db.universal-team.net/assets/images/qr/prerelease/3dvier-cia.png
+  update_notes: <p dir="auto">Pk11 - Disable NDS builds</p>
+  update_notes_md: 'Pk11 - Disable NDS builds
+
+
+    '
+  updated: '2025-12-29T10:59:07Z'
+  version: git
+  version_title: Continuous Build - 2aa1f32
 qr:
   3DVier.cia: https://db.universal-team.net/assets/images/qr/3dvier-cia.png
 screenshots:

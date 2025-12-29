@@ -32,6 +32,27 @@ image_length: 8040
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+prerelease:
+  download_page: https://github.com/Universal-Team/3DEins/releases/tag/git
+  downloads:
+    3DEins.3dsx:
+      size: 1512184
+      size_str: 1 MiB
+      url: https://github.com/Universal-Team/3DEins/releases/download/git/3DEins.3dsx
+    3DEins.cia:
+      size: 1221568
+      size_str: 1 MiB
+      url: https://github.com/Universal-Team/3DEins/releases/download/git/3DEins.cia
+  qr:
+    3DEins.cia: https://db.universal-team.net/assets/images/qr/prerelease/3deins-cia.png
+  update_notes: <p dir="auto">Pk11 - Disable NDS builds</p>
+  update_notes_md: 'Pk11 - Disable NDS builds
+
+
+    '
+  updated: '2025-12-29T11:00:40Z'
+  version: git
+  version_title: Continuous Build - d104e8b
 qr:
   3DEins.cia: https://db.universal-team.net/assets/images/qr/3deins-cia.png
   DSEins.nds: https://db.universal-team.net/assets/images/qr/dseins-nds.png

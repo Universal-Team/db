@@ -24,6 +24,27 @@ image_length: 10942
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+prerelease:
+  download_page: https://github.com/Universal-Team/3DZwei/releases/tag/git
+  downloads:
+    3DZwei.3dsx:
+      size: 858936
+      size_str: 838 KiB
+      url: https://github.com/Universal-Team/3DZwei/releases/download/git/3DZwei.3dsx
+    3DZwei.cia:
+      size: 762816
+      size_str: 744 KiB
+      url: https://github.com/Universal-Team/3DZwei/releases/download/git/3DZwei.cia
+  qr:
+    3DZwei.cia: https://db.universal-team.net/assets/images/qr/prerelease/3dzwei-cia.png
+  update_notes: <p>Pk11 - Fix build failure</p>
+  update_notes_md: 'Pk11 - Fix build failure
+
+
+    '
+  updated: '2025-12-29T11:14:51Z'
+  version: git
+  version_title: Continuous Build - 20a5b1f
 qr:
   3DZwei.cia: https://db.universal-team.net/assets/images/qr/3dzwei-cia.png
 screenshots:

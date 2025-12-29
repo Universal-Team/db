@@ -24,6 +24,27 @@ image_length: 3609
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+prerelease:
+  download_page: https://github.com/Universal-Team/Universal-Edit/releases/tag/git
+  downloads:
+    Universal-Edit.3dsx:
+      size: 1039752
+      size_str: 1015 KiB
+      url: https://github.com/Universal-Team/Universal-Edit/releases/download/git/Universal-Edit.3dsx
+    Universal-Edit.cia:
+      size: 1061824
+      size_str: 1 MiB
+      url: https://github.com/Universal-Team/Universal-Edit/releases/download/git/Universal-Edit.cia
+  qr:
+    Universal-Edit.cia: https://db.universal-team.net/assets/images/qr/prerelease/universal-edit-cia.png
+  update_notes: <p dir="auto">Pk11 - Update to new nightly method</p>
+  update_notes_md: 'Pk11 - Update to new nightly method
+
+
+    '
+  updated: '2025-12-29T11:44:44Z'
+  version: git
+  version_title: Continuous Build - 53df1c7
 qr:
   Universal-Edit.cia: https://db.universal-team.net/assets/images/qr/universal-edit-cia.png
 source: https://github.com/Universal-Team/Universal-Edit
