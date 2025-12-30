@@ -23,7 +23,7 @@ let appSchema = {
 	github: {type: "string", hidden: true},
 	gitlab: {type: "string", hidden: true},
 	title: {label: "App Title", type: "string", required: true},
-	description: {label: "Description", type: "string", required: true},
+	description: {label: "Description", type: "string", maxLength: 256, required: true},
 	author: {label: "Author's Name", type: "string", required: true},
 	avatar: {label: "Author's Avatar", type: "image"},
 	// Required
@@ -198,6 +198,8 @@ function createInput(item, key) {
 		input.type = "text";
 		input.value = appInfo[key];
 		input.required = item.required;
+		if(item.maxLength)
+			input.maxLength = item.maxLength;
 		input.addEventListener("change", event => {
 			clearError();
 			

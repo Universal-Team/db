@@ -1,6 +1,7 @@
 {
 	"github": "wavemotion-dave/ColecoDS",
 	"author": "AlekMaul / wavemotion-dave",
+	"description": "An Emulator for the DS/DSi with support for Colecovision, ADAM, MSX1, Sord-M5, Memotech MTX, Spectravision SVI, Hanimex Pencil II, Tatung Einstein, SG-1000/SC-3000, PV-1000, PV-2000 and the Creativision.",
 	"systems": [
 		"DS"
 	],
