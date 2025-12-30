@@ -6,10 +6,9 @@ categories:
 color: '#4e4f47'
 color_bg: '#4e4f47'
 created: '2021-11-09T21:09:48Z'
-description: ColecoDS - An Emulator for the DS/DSi. Original port by Alekmaul. Phoenix-Edition
-  by Wavemotion with support for Colecovision, ADAM, MSX1, Sord-M5, Memotech MTX,
-  Spectravision SVI, Hanimex Pencil II, Tatung Einstein, SG-1000/SC-3000, PV-1000,
-  PV-2000 and the Creativision.
+description: An Emulator for the DS/DSi with support for Colecovision, ADAM, MSX1,
+  Sord-M5, Memotech MTX, Spectravision SVI, Hanimex Pencil II, Tatung Einstein, SG-1000/SC-3000,
+  PV-1000, PV-2000 and the Creativision.
 download_page: https://github.com/wavemotion-dave/ColecoDS/releases
 downloads:
   ColecoDS.nds:

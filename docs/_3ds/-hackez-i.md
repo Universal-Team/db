@@ -6,11 +6,10 @@ categories:
 color: '#a4684f'
 color_bg: '#80513d'
 created: '2025-11-15T16:20:25Z'
-description: Kite, a beginner in the game The World, is playing with his real-life
-  friend known in-game as Orca when they are attacked by an unidentified monster chasing
-  Aura, a secretive girl. Afterwards, Orca, who died from the monsters attack, enters
-  a coma in the real world. Unable to understand the reason for Orcas coma, Kite joins
-  two new characters to find Aura and bring his friend back.
+description: Kite, a beginner in 'The World', is playing with his real-life friend
+  Orca when they are attacked by a monster chasing a secretive girl, Aura. Orca's
+  death from the monster's attack puts him in a coma and now Kite must find Aura and
+  bring his friend back!
 download_page: https://github.com/CrackedPixel/hackezi-3ds/releases
 downloads:
   hackezi.3dsx:
