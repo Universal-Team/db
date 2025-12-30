@@ -38,7 +38,7 @@ systems:
 - DS
 title: Angband
 unique_ids:
-- '0xFF3FF'
+- '0x616E6'
 update_notes: '<p dir="auto">This version includes changes to device activation, many
   corrections and improvements to the borg automatic player, and several bug fixes.  Changes
   affecting gameplay are:</p>
