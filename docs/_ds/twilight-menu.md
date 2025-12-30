@@ -18,7 +18,7 @@ downloads:
     size_str: 8 MiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.21.0/AddOn-ExtraUIMusic.7z
   AddOn-Multimedia.7z:
-    size: 806225
+    size: 806068
     size_str: 787 KiB
     url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.21.0/AddOn-Multimedia.7z
   AddOn-VirtualConsole.7z:
@@ -55,7 +55,10 @@ systems:
 - DS
 title: TWiLight Menu++
 update_notes: '<p dir="auto"><strong>UPDATE 12/26/2025:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.12.1">nds-bootstrap
-  v2.12.1</a></p>
+  v2.12.1</a><br>
+
+  <strong>UPDATE 12/30/2025:</strong> Updated Multimedia add-on to include <a href="https://github.com/RocketRobz/RocketVideoPlayer/releases/tag/v2.1.1">Rocket
+  Video Player v2.1.1</a></p>
 
   <p dir="auto">Check here on how to update <strong>TW</strong>i<strong>L</strong>ight
   Menu++:</p>
