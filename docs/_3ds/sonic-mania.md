@@ -41,7 +41,7 @@ script_message: 'Note: You will need "Data.rsdk" from
 
   "/3ds/SonicMania" to play the game.'
 source: https://github.com/SaturnSH2x2/RSDKv5-Decompilation
-stars: 100
+stars: 99
 systems:
 - 3DS
 title: Sonic Mania
