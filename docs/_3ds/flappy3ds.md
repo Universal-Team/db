@@ -109,7 +109,7 @@ prerelease:
   version: v0.1.9
   version_title: v0.1.9
 source: https://github.com/Komas19-new/flappy3DS
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: Flappy3DS

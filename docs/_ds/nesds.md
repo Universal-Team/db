@@ -29,7 +29,7 @@ qr:
   nesDS.dsi: https://db.universal-team.net/assets/images/qr/nesds-dsi.png
   nesDS.nds: https://db.universal-team.net/assets/images/qr/nesds-nds.png
 source: https://github.com/DS-Homebrew/NesDS
-stars: 53
+stars: 54
 systems:
 - DS
 title: nesDS
