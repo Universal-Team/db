@@ -7,5 +7,6 @@
 		"game"
 	],
 	"icon": "https://raw.githubusercontent.com/chalenged/custom-yacht-3ds/refs/heads/main/yachticon.png",
+	"image": "https://raw.githubusercontent.com/chalenged/custom-yacht-3ds/refs/heads/main/screenshot1.png",
 	"long_description": "A customizable yacht dice game for the 3ds using lovepotion!\nYou can create your own dice sets and scoresheets with a yaml file, place it in the same directory as the game for PC, and in `sdmc:/3ds/custom-yacht-3ds`. See the [default.yaml](https://github.com/chalenged/custom-yacht-3ds/blob/main/default.yaml) file for an example with comments."
 }
