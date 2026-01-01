@@ -81,7 +81,7 @@ update_notes: '<p dir="auto"><strong>Changes</strong> <br>
 
   AV desync on more than 2ch audio has been fixed.</p>
 
-  <p dir="auto"><strong>About high ram cia</strong> <br>
+  <p dir="auto"><strong>About high RAM cia</strong> <br>
 
   <code class="notranslate">..._high_ram.cia</code> can use more RAM than normal <code
   class="notranslate">.cia</code> and <code class="notranslate">.3dsx</code>, this
