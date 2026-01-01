@@ -78,6 +78,7 @@
 	"home-1": "Тут ви можете знайти регулярно оновлені списки домашніх ігор для 3DS та DS, щоб переконатися, що ви отримуєте найновіші версії своїх улюблених програм. Натисніть на посилання в навігаційній панелі вгорі, щоб отримати повний список, або перегляньте деякі з останніх оновлень на цій сторінці!",
 	"home-2": "Більшість інформації на цьому сайті автоматично збирається з інформації в репозиторіях програм на GitHub, однак якщо ви помітили будь-яку невірну інформацію, будь ласка, повідомте про це як <a href=\"https://github.com/Universal-Team/db/issues/new\"> проблему на GitHub</a> або на нашому <a href=\"https://universal-team.net/discord\">сервері Discord</a>. Дякуємо!",
 	"home-3": "Також, це UniStore за замовчуванням для <a href=\"/3ds/universal-updater\">Universal-Updater</a>, тож якщо ви хочете переглядати та встановлювати програми з Universal-DB безпосередньо на 3DS, вам варто спробувати цей додаток.",
+	"home-4": "On the Nintendo DSi there are two options for downloading apps from Universal-DB. [dsidl](/ds/dsidl) can use the QR codes on the site or [Kekatsu](/ds/kekatsu) which functions fully on device. If you have not used Kekatsu before, place this <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> in `sd:/Kekatsu/`.",
 	"last-updated-apps": "Найновіше оновлені додатки: ",
 	"error-404": "Помилка! 404!",
 	"return-to-home": "Повернутися на <a href=\"/\">домашню сторінку</a> або <span class=\"a\" onclick=\"window.history.back()\">повернутися</span> на попередню сторінку."

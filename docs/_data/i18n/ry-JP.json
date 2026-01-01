@@ -78,6 +78,7 @@
 	"home-1": "くまうぅてー、3DSとぅDSぬ自作ソフトぬリスト見ーちきーるくとぅがなやびーん。最新ぬバージョン取得そーるくとぅ確認すんでぃ定期的に更新さりやびーん。上部ぬナビゲーションバーぬリンククリックしーねー、完全なリスト表示さりやびーん、あらんでぃくぬページぬ下部んかい最新ぬ更新確認しくぃみそーれー！",
 	"home-2": "くぬサイトぬふとぅんどぅぬ情報ー、アプリぬGitHubリポジトリぬ情報から自動的に収集さりやびーん。やしが、ぬーがたがたる情報んかい気づちゃるばーや、<a href=\"https://github.com/Universal-Team/db/issues/new\">GitHub Issue</a>とぅしてぃあらんでぃ<a href=\"https://universal-team.net/discord\">Discordサーバー</a>んかい報告しくぃみそーれー。にふぇーどー！",
 	"home-3": "くれー、<a href=\"/3ds/universal-updater\">Universal-Updater</a>ぬデフォルトぬUniStoreやいびーん。3DSんかい直接にUniversal-DBからアプリ参照しインストールしーぶさるばーや、じふぃう試しくぃみそーれー。",
+	"home-4": "On the Nintendo DSi there are two options for downloading apps from Universal-DB. [dsidl](/ds/dsidl) can use the QR codes on the site or [Kekatsu](/ds/kekatsu) which functions fully on device. If you have not used Kekatsu before, place this <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> in `sd:/Kekatsu/`.",
 	"last-updated-apps": "最新ぬ更新: ",
 	"error-404": "エラー！404！",
 	"return-to-home": "<a href=\"/\">ホームページ</a>あらんでぃ<span class=\"a\" onclick=\"window.history.back()\">前ぬページ</span>んかいむどぅてぃくぃみそーれー。"

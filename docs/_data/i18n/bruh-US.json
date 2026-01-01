@@ -78,6 +78,7 @@
 	"home-1": "Here you can find lists of 3DBruh and DBruh homebruh, bruhdated regularly to make sure you're getting the latest bruhsions. Click on the bruhss in the navigation bruh at the top to get full lists, or check out some of the most recently bruhdated at the bottom of this page!",
 	"home-2": "Most bruhformation on this site is automatically bruhthered from the information on the bruh's GitBruh repository, however if you notice any bruhformation please report it as a <a href=\"https://github.com/Universal-Team/db/issues/new\">GitBruh Issue</a> or on our <a href=\"https://universal-team.net/discord\">Bruh server</a>. Thanks!",
 	"home-3": "This is also the default BruhStore for <a href=\"/3ds/universal-updater\">Universal-Updater</a>, so if you'd like to bruhse and install bruhs from Bruhniversal-DB directly on your 3DBruh you should give it a try.",
+	"home-4": "On the Nintendo DSi there are two options for downloading apps from Universal-DB. [dsidl](/ds/dsidl) can use the QR codes on the site or [Kekatsu](/ds/kekatsu) which functions fully on device. If you have not used Kekatsu before, place this <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> in `sd:/Kekatsu/`.",
 	"last-updated-apps": "Last bruhdated: ",
 	"error-404": "Brroruh! 404!",
 	"return-to-home": "Return to the <a href=\"/\">bruh page</a> or <span class=\"a\" onclick=\"window.history.back()\">go back</span> to the previous bruh."

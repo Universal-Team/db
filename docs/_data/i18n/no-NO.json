@@ -78,6 +78,7 @@
 	"home-1": "Her kan du finne lister over 3DS og DS homebrew, oppdatert regelmessig for å sikre at du får de nyeste versjonene. Klikk på lenkene i navigasjonslinjen øverst for å få fullstendige lister, eller sjekk ut noen av de sist oppdaterte på bunnen av denne siden!",
 	"home-2": "Det meste av informasjonen på dette nettstedet blir automatisk samlet inn fra informasjonen i appens GitHub-depot, men hvis du oppdager feil informasjon, vennligst rapporter den som en <a href=\"https://github.com/Universal-Team/db/issues/new\">GitHub-saksrapport</a> eller på vår <a href=\"https://universal-team.net/discord\">Discord-server</a>. Takk!",
 	"home-3": "Dette er også standard UniStore for <a href=\"/3ds/universal-updater\">Universal-Updater</a>, så hvis du vil bla gjennom og installere apper fra Universal-DB direkte på 3DS-en din, så bør du gi den et forsøk.",
+	"home-4": "On the Nintendo DSi there are two options for downloading apps from Universal-DB. [dsidl](/ds/dsidl) can use the QR codes on the site or [Kekatsu](/ds/kekatsu) which functions fully on device. If you have not used Kekatsu before, place this <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> in `sd:/Kekatsu/`.",
 	"last-updated-apps": "Nyligst oppdatert: ",
 	"error-404": "Feil! 404!",
 	"return-to-home": "Gå tilbake til <a href=\"/\">hjemmesiden</a> eller <span class=\"a\" onclick=\"window.history.back()\">gå tilbake</span> til forrige side."

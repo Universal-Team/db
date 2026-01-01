@@ -78,6 +78,7 @@
 	"home-1": "在这里您可以找到3DS和DS的自制程序列表，并定期更新以确保您获得最新版本。 点击顶部导航栏中的链接获取完整列表。 或查看此页面底部最近更新的部分！",
 	"home-2": "此站点上的大多数信息都是自动从应用程序的 GitHub 仓库的信息中收集的。 然而，如果您注意到任何不正确的信息，请将其报告为 <a href=\"https://github.com/Universal-Team/db/issues/new\">GitHub Issue</a> 或我们 <a href=\"https://universal-team.net/discord\">Discord服务器</a>。 谢谢！",
 	"home-3": "这也是 <a href=\"/3ds/universal-updater\">Universal-Updater</a>的默认UniStore， 因此您也可以直接在3DS上通过自制程序访问Universal-DB。",
+	"home-4": "On the Nintendo DSi there are two options for downloading apps from Universal-DB. [dsidl](/ds/dsidl) can use the QR codes on the site or [Kekatsu](/ds/kekatsu) which functions fully on device. If you have not used Kekatsu before, place this <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> in `sd:/Kekatsu/`.",
 	"last-updated-apps": "最后更新时间: ",
 	"error-404": "错误404",
 	"return-to-home": "返回 <a href=\"/\">主页</a> 或 <span class=\"a\" onclick=\"window.history.back()\">回到</span> 上一页。"
