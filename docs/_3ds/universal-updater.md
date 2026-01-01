@@ -24,36 +24,6 @@ image_length: 24475
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-prerelease:
-  download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
-  downloads:
-    Universal-Updater.3dsx:
-      size: 3180292
-      size_str: 3 MiB
-      url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
-    Universal-Updater.cia:
-      size: 2655168
-      size_str: 2 MiB
-      url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
-  qr:
-    Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/prerelease/universal-updater-cia.png
-  update_notes: '<p dir="auto">Pk11 - what if I remove the target</p>
-
-    <p dir="auto">don''t worry I''ll squash all these once I fix it</p>
-
-    <p dir="auto">Edit: GitHub Actions broke and my commit messages tend to get less
-    sensible the longer that goes on cause I''m forced to test everything with a real
-    commit to the repo :p</p>
-
-    <p dir="auto">The actual change here is the string for "Use git builds" in settings</p>'
-  update_notes_md: "Pk11 - what if I remove the target\n\ndon't worry I'll squash\
-    \ all these once I fix it\n\nEdit: GitHub Actions broke and my commit messages\
-    \ tend to get less sensible the longer that goes on cause I'm forced to test everything\
-    \ with a real commit to the repo :p \n\nThe actual change here is the string for\
-    \ \"Use git builds\" in settings"
-  updated: '2025-12-31T19:54:16Z'
-  version: git
-  version_title: Continuous Build - 48f2b99
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
