@@ -12,17 +12,17 @@ description: Nintellivision - an Intellivision Emulator for the DS/DSi. High com
 download_page: https://github.com/wavemotion-dave/NINTV-DS/releases
 downloads:
   NINTV-DS.nds:
-    size: 788480
-    size_str: 770 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.2a/NINTV-DS.nds
+    size: 790016
+    size_str: 771 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.3/NINTV-DS.nds
   README.md:
-    size: 35874
-    size_str: 35 KiB
-    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.2a/README.md
+    size: 36905
+    size_str: 36 KiB
+    url: https://github.com/wavemotion-dave/NINTV-DS/releases/download/6.3/README.md
 github: wavemotion-dave/NINTV-DS
 icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
-image_length: 40549
+image_length: 40671
 layout: app
 qr:
   NINTV-DS.nds: https://db.universal-team.net/assets/images/qr/nintv-ds-nds.png
@@ -34,58 +34,30 @@ stars: 50
 systems:
 - DS
 title: Nintellivision
-update_notes: '<p dir="auto">Version 6.2a : 29-Dec-2025 by wavemotion-dave</p>
+update_notes: '<p dir="auto">V6.3 : 01-Jan-2026 by wavemotion-dave</p>
 
   <ul dir="auto">
 
   <li>Fix for horizontal scroll bug that caused a bit of blurring when moving left/right
-  in some games. Fixes Ninja Odyssey health bar. Improved backtab latched handling.</li>
+  in some games. Fixes Ninja Odyssey health bar.</li>
 
-  </ul>
+  <li>Improved backtab latched handling - the DSi and above now utilizes backtab latching
+  by default for improved emulation accuracy.</li>
 
-  <p dir="auto">Version 6.2 : 26-Dec-2025 by wavemotion-dave</p>
+  <li>Fixed mapping DS keys to DISC UP/DOWN such that you can move left/right and
+  press the DS button to JUMP (previously it would ignore the left/right if you pressed
+  a DS button that mapped to DISC UP/DOWN).</li>
 
-  <ul dir="auto">
+  <li>Refactored memory to free up another 160K of memory for future use.</li>
 
-  <li>All known games run at full speed, full framerate and with the best sound quality
-  on a DSi or above (the DSi has 2X the CPU and 4X the memory of the normal DS handhelds).</li>
+  <li>Improved PSG handling to move the structs into ARM fast memory for a slight
+  boost in performance.</li>
 
-  <li>Almost every game runs at full speed on the older DS-LITE and DS-PHAT hardware
-  with a slight reduction in sound quality.</li>
-
-  <li>Custom Overlay Support. See the ''extras'' folder for details.</li>
-
-  <li>Manual/Instruction Support. See the ''extras'' folder for an example.</li>
-
-  <li>Save Sate support (3 save slots per game).</li>
-
-  <li>High Scores for up to 10 scores per game with various sorting options.</li>
-
-  <li>Cheat / Hack support using NINTV-DS.cht (see ''extras'' folder and place in
-  /data directory)</li>
-
-  <li>Numerous button / controller mapping options. Dual-Controller support (run and
-  shoot at the same time).</li>
-
-  <li>JLP support for accelerated functions (multiply/divide), extra RAM and flash
-  memory. If not auto-detected, when loading a game use the X button to load with
-  options.</li>
-
-  <li>ECS support for ECS games including sound-enhanced games like Space Patrol.
-  If not auto-detected, when loading a game use the X button to load with options.</li>
-
-  <li>ECS keyboard and Intellivision Music Synthesizer are emulated with built-in
-  overlays to mimic their behavior.</li>
-
-  <li>Tutorvision mode is supported which brings in the WBEXEC (REX) revised executive
-  ROM as well as extra GRAM and main 16-bit RAM memory.</li>
-
-  <li>Extra 2K GRAM (aka half-Tutorvision mode) is supported on a per-game basis.
-  Select 2K GRAM in the second page of Configuration for any game (reload game for
-  it to take effect).</li>
+  <li>Lots of minor database cleanup under the hood so more games and homebrews work
+  properly without additional configuration needed.</li>
 
   </ul>'
-updated: '2025-12-29T13:37:44Z'
-version: 6.2a
-version_title: Version 6.2a
+updated: '2026-01-01T12:21:57Z'
+version: '6.3'
+version_title: Version 6.3
 ---
