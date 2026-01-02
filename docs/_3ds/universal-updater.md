@@ -28,7 +28,7 @@ prerelease:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 3187508
+      size: 3188244
       size_str: 3 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
@@ -37,11 +37,24 @@ prerelease:
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/prerelease/universal-updater-cia.png
-  update_notes: <p dir="auto">TWLBot - Automatic translation import</p>
-  update_notes_md: TWLBot - Automatic translation import
-  updated: '2026-01-01T22:40:54Z'
+  update_notes: '<p dir="auto">Pk11 - Fix sleep mode</p>
+
+    <p dir="auto">Previously we blocked sleep mode while in UU (not good for battery)
+    and it was for basically no reason because the network still switched over to
+    StreetPass do downloads failed anyways Now sleep is only blocked while the queue
+    is running and StreetPass is also blocked so if you close your 3DS with a queue
+    running it''ll finish up the queue, then go to sleep</p>'
+  update_notes_md: 'Pk11 - Fix sleep mode
+
+
+    Previously we blocked sleep mode while in UU (not good for battery) and it was
+    for basically no reason because the network still switched over to StreetPass
+    do downloads failed anyways Now sleep is only blocked while the queue is running
+    and StreetPass is also blocked so if you close your 3DS with a queue running it''ll
+    finish up the queue, then go to sleep'
+  updated: '2026-01-02T09:12:18Z'
   version: git
-  version_title: Continuous Build - e4814bc
+  version_title: Continuous Build - fba76fe
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
