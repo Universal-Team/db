@@ -32,7 +32,7 @@ prerelease:
   version: 4.2.6-19-g87338c0e4
   version_title: 4.2.6-19-g87338c0e4
 source: https://github.com/angband/angband
-stars: 1460
+stars: 1461
 systems:
 - 3DS
 - DS

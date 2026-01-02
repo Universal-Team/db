@@ -8,8 +8,16 @@ color_bg: '#808080'
 created: '2014-12-17T03:42:16Z'
 description: Custom Minecraft Classic / ClassiCube client written in C  from scratch
   (formerly ClassicalSharp in C#)
-download_page: https://github.com/ClassiCube/ClassiCube/releases
-downloads: {}
+download_page: https://www.classicube.net/download/3ds
+downloads:
+  ClassiCube-3ds.3dsx:
+    size: 775732
+    size_str: 757 KiB
+    url: https://cdn.classicube.net/client/latest/ClassiCube-3ds.3dsx
+  ClassiCube-3ds.cia:
+    size: 628160
+    size_str: 613 KiB
+    url: https://cdn.classicube.net/client/latest/ClassiCube-3ds.cia
 github: ClassiCube/ClassiCube
 icon: https://raw.githubusercontent.com/ClassiCube/ClassiCube/master/misc/3ds/icon.png
 image: https://raw.githubusercontent.com/ClassiCube/ClassiCube/master/misc/3ds/banner.png
@@ -17,15 +25,8 @@ image_length: 10600
 layout: app
 license: other
 license_name: Other
-nightly:
-  download_page: https://www.classicube.net/download/3ds
-  downloads:
-    ClassiCube-3ds.3dsx:
-      url: https://cdn.classicube.net/client/latest/ClassiCube-3ds.3dsx
-    ClassiCube-3ds.cia:
-      url: https://cdn.classicube.net/client/latest/ClassiCube-3ds.cia
-  qr:
-    ClassiCube-3ds.cia: https://db.universal-team.net/assets/images/qr/nightly/classicube-3ds-cia.png
+qr:
+  ClassiCube-3ds.cia: https://db.universal-team.net/assets/images/qr/classicube-3ds-cia.png
 source: https://github.com/ClassiCube/ClassiCube
 stars: 1846
 systems:
