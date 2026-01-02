@@ -24,6 +24,30 @@ image_length: 24475
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+prerelease:
+  download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
+  downloads:
+    Universal-Updater.3dsx:
+      size: 3188268
+      size_str: 3 MiB
+      url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
+    Universal-Updater.cia:
+      size: 2663360
+      size_str: 2 MiB
+      url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
+  qr:
+    Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/prerelease/universal-updater-cia.png
+  update_notes: '<p dir="auto">Pk11 - Change "nightly" warning to "git" warning</p>
+
+    <p dir="auto">I''m going to follow this nomenclature change through to Universal-DB
+    as well</p>'
+  update_notes_md: 'Pk11 - Change "nightly" warning to "git" warning
+
+
+    I''m going to follow this nomenclature change through to Universal-DB as well'
+  updated: '2026-01-02T10:17:41Z'
+  version: git
+  version_title: Continuous Build - bd20bd6
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
