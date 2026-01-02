@@ -30,7 +30,7 @@ screenshots:
 - description: Gameplay 2
   url: https://db.universal-team.net/assets/images/screenshots/tjap_3ds/gameplay-2.png
 source: https://github.com/LuMariGames/TJAP_3DS
-stars: 9
+stars: 10
 systems:
 - 3DS
 title: TJAP_3DS
