@@ -37,17 +37,13 @@ prerelease:
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/prerelease/universal-updater-cia.png
-  update_notes: '<p dir="auto">Pk11 - Change "nightly" warning to "git" warning</p>
-
-    <p dir="auto">I''m going to follow this nomenclature change through to Universal-DB
-    as well</p>'
-  update_notes_md: 'Pk11 - Change "nightly" warning to "git" warning
-
-
-    I''m going to follow this nomenclature change through to Universal-DB as well'
-  updated: '2026-01-02T10:17:41Z'
+  update_notes: <p dir="auto">Pk11 - Hopefully fix some releases being published as
+    drafts for some reason</p>
+  update_notes_md: Pk11 - Hopefully fix some releases being published as drafts for
+    some reason
+  updated: '2026-01-02T10:28:07Z'
   version: git
-  version_title: Continuous Build - bd20bd6
+  version_title: Continuous Build - 4da51d0
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
