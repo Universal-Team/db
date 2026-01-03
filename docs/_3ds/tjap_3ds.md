@@ -10,7 +10,7 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9584664
+    size: 9584872
     size_str: 9 MiB
     url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.0.0/TJAP_3DS.3dsx
   TJAP_3DS.cia:
@@ -70,15 +70,17 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <li>
 
-  <p dir="auto">不具合の修正<br>
+  <p dir="auto">不具合の修正 (2026/01/03追記)<br>
 
-  一部ノーツで同時押しするとリザルトがおかしくなる不具合の修正</p>
+  ・一部ノーツで同時押しするとリザルトがおかしくなる不具合の修正<br>
+
+  ・譜面分岐がある譜面をするとリザルト画面に表示されるスコアが本来より少なく表示される不具合の修正</p>
 
   </li>
 
   </ul>
 
-  <p dir="auto">これで今年最後のアップデートになります。良いお年を。</p>
+  <p dir="auto">2026年最初のアップデートをどうぞお楽しみ下さい。</p>
 
   <h2 dir="auto">Changelog</h2>
 
@@ -88,18 +90,18 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <p dir="auto">Added features related to Kusudama Notes and Den-Den Notes.<br>
 
-  　・Kusudama Notes are special notes that appear on Nintendo 3DS and later.<br>
+  ・Kusudama Notes are special notes that appear on Nintendo 3DS and later.<br>
 
-  　　The score you receive changes depending on when you pop the Kusudama.<br>
+  　The score you receive changes depending on when you pop the Kusudama.<br>
 
-  　　(However, this only applies to Charts with <code class="notranslate">SCOREMODE:1</code>
+  　(However, this only applies to Charts with <code class="notranslate">SCOREMODE:1</code>
   or <code class="notranslate">SCOREMODE:2</code>.)<br>
 
-  　　The way to play them is the same as with balloon notes. Just hit the "don" (point).<br>
+  　The way to play them is the same as with balloon notes. Just hit the "don" (point).<br>
 
-  　・The den-den note is a special note that appears in the DS series.<br>
+  ・The den-den note is a special note that appears in the DS series.<br>
 
-  　　When playing it, you need to alternate between hitting "don" and "ka."</p>
+  　When playing it, you need to alternate between hitting "don" and "ka."</p>
 
   </li>
 
@@ -114,15 +116,18 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <li>
 
-  <p dir="auto">Bug fixes<br>
+  <p dir="auto">Bug fixes (Added 2026/01/03)<br>
 
-  Fixed a bug that caused the results to go awry when pressing certain notes simultaneously.</p>
+  ・Fixed a bug that caused the results to go awry when pressing certain notes simultaneously.<br>
+
+  ・Fixed an issue where the score displayed on the results screen was lower than it
+  should have been when playing a score with branching notes.</p>
 
   </li>
 
   </ul>
 
-  <p dir="auto">This will be the last update of the year. Have a happy new year.</p>'
+  <p dir="auto">We hope you enjoy the first update of 2026.</p>'
 updated: '2025-12-29T09:02:21Z'
 version: v2.0.0
 version_title: TJAPlayer for 3DS v2.0.0
