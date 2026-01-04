@@ -22,7 +22,7 @@ license_name: MIT License
 qr:
   SafeNANDManager.nds: https://db.universal-team.net/assets/images/qr/safenandmanager-nds.png
 source: https://github.com/DS-Homebrew/SafeNANDManager
-stars: 48
+stars: 47
 systems:
 - DS
 title: Safe NAND Manager
