@@ -36,7 +36,7 @@ screenshots:
 - description: Title
   url: https://db.universal-team.net/assets/images/screenshots/bottomless-block-barrage/title.png
 source: https://github.com/TricksterGuy/bottomless-block-barrage
-stars: 20
+stars: 19
 systems:
 - 3DS
 title: Bottomless Block Barrage
