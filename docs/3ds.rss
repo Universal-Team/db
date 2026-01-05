@@ -21,11 +21,13 @@ layout: compress
 				{% endif %}
 				<link>{{ app.url | absolute_url | remove: ".html" | replace: "http://", "https://" | escape }}</link>
 				<description>
-					&lt;h1&gt;{{ app.version }}{% if app.version_title and app.version_title != app.version %} - {{ app.version_title }}{% endif %}&lt;/h1&gt;
-					{% if app.update_notes %}
-						&lt;hr /&gt;
-						{{ app.update_notes | escape }}
+					{% if app.version_title and app.version_title != app.version %}
+						&lt;h1&gt;{{ app.version_title }}&lt;/h1&gt;
+						{% if app.update_notes %}
+							&lt;hr /&gt;
+						{% endif %}
 					{% endif %}
+					{{ app.update_notes | escape }}
 				</description>
 				<author>{{ app.author }}</author>
 				<pubDate>{{ app.updated | date_to_rfc822 }}</pubDate>
