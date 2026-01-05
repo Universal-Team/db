@@ -25,7 +25,7 @@ screenshots:
 - description: Helper
   url: https://db.universal-team.net/assets/images/screenshots/rehid/helper.png
 source: https://github.com/hax0kartik/rehid
-stars: 129
+stars: 130
 systems:
 - 3DS
 title: rehid
