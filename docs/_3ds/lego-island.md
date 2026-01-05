@@ -37,8 +37,8 @@ systems:
 title: LEGO Island
 unique_ids:
 - '0x76E7E'
-update_notes: '<p dir="auto">GitHub Actions build log: <a href="https://github.com/isledecomp/isle-portable/actions/runs/20696578710">https://github.com/isledecomp/isle-portable/actions/runs/20696578710</a></p>'
-updated: '2026-01-04T17:41:53Z'
+update_notes: '<p dir="auto">GitHub Actions build log: <a href="https://github.com/isledecomp/isle-portable/actions/runs/20700822019">https://github.com/isledecomp/isle-portable/actions/runs/20700822019</a></p>'
+updated: '2026-01-04T23:46:21Z'
 version: continuous
 version_title: Continuous build
 wiki: https://github.com/isledecomp/isle-portable/wiki
