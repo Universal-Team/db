@@ -12,17 +12,17 @@ download_filter: (\.3dsx|\.cia|\.nds)
 download_page: https://github.com/ScratchEverywhere/ScratchEverywhere/releases
 downloads:
   scratch-3ds.3dsx:
-    size: 10029636
-    size_str: 9 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.31/scratch-3ds.3dsx
+    size: 12527172
+    size_str: 11 MiB
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.32/scratch-3ds.3dsx
   scratch-3ds.cia:
-    size: 8958912
-    size_str: 8 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.31/scratch-3ds.cia
+    size: 11453376
+    size_str: 10 MiB
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.32/scratch-3ds.cia
   scratch-ds.nds:
-    size: 4465664
-    size_str: 4 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.31/scratch-ds.nds
+    size: 6924288
+    size_str: 6 MiB
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.32/scratch-ds.nds
 github: ScratchEverywhere/ScratchEverywhere
 icon: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/icon.png
 image: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/3ds/banner.png
@@ -40,44 +40,82 @@ systems:
 title: Scratch Everywhere!
 unique_ids:
 - '0x2143'
-update_notes: '<p dir="auto"><strong>The final Beta of the year! Happy holidays!</strong></p>
+update_notes: '<h2 dir="auto">Menu Changes</h2>
+
+  <ul dir="auto">
+
+  <li>Added a Project pause menu
+
+  <ul dir="auto">
+
+  <li>Accessed by holding <code class="notranslate">Start</code> for 3 seconds while
+  in a project (1 on keyboard)</li>
+
+  <li>Currently has the ability to exit a project, re-run a project, and toggle Turbo
+  Mode</li>
+
+  <li>This feature is not accessible in RomFS projects</li>
+
+  </ul>
+
+  </li>
+
+  <li>Updated logo (Via <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="3765023984" data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/514"
+  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/514/hovercard"
+  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/514">#514</a>)</li>
+
+  <li>Added the ability to change the path that projects will be found in</li>
+
+  <li>Menu music can now be turned off in menu settings</li>
+
+  <li>Added new menu splash text, some that could even use your username!</li>
+
+  <li>Fixed menu splash text position being off at higher resolutions</li>
+
+  </ul>
 
   <h2 dir="auto">Runtime Changes</h2>
 
   <ul dir="auto">
 
-  <li>Updated the main menu UI to support touch scrolling</li>
+  <li>We did a whooole lot of code refactoring under the hood
 
-  <li>Fixed Project Unpacking not working</li>
+  <ul dir="auto">
 
-  <li>Fixed Custom Controls menu not working</li>
+  <li>This may introduce new bugs we aren''t aware of yet, so be sure to open an issue
+  if you find one!</li>
 
-  <li>Added new splash text</li>
+  </ul>
 
-  <li>Improved the appearance of on screen variables and lists (Via <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3688958979" data-permission-text="Title
-  is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/489"
-  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/489/hovercard"
-  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/489">#489</a>
-  and <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3727158820"
-  data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/499"
-  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/499/hovercard"
-  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/499">#499</a>,
-  thanks <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/leap0x7b/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/leap0x7b">@leap0x7b</a>
-  !)</li>
+  </li>
 
-  <li><code class="notranslate">Touching</code> blocks now have more consistent collision
-  (still box collision, just more accurate)</li>
+  <li>OpenGL Port! (Via <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="3764398964" data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/512"
+  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/512/hovercard"
+  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/512">#512</a>)</li>
 
-  <li>Fixed <code class="notranslate">Stop "This Script"</code> block sometimes not
-  working</li>
+  <li>The <code class="notranslate">Open Project</code> custom block can now open
+  projects inside of the RomFS (Via <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="3760928009" data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/508"
+  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/508/hovercard"
+  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/508">#508</a>)
 
-  <li>Fixed offset when dragging Sprites</li>
+  <ul dir="auto">
 
-  <li>Fixed some <code class="notranslate">Sound</code> block issues</li>
+  <li><a href="https://scratchbox.dev/project/twStEkSKjQaH" rel="nofollow">Info about
+  the <code class="notranslate">Open Project</code> block for those unaware</a></li>
 
-  <li>Fixed Sprites sometimes being in the wrong position for one frame</li>
+  </ul>
+
+  </li>
+
+  <li>The <code class="notranslate">Text To Speech</code> block will no longer run
+  if it fails to download the audio track</li>
+
+  <li>Fixed cloud variables not working if changing more than 1 variable at a time</li>
+
+  <li>Fixed the position of Sprites being off sometimes</li>
 
   </ul>
 
@@ -85,37 +123,37 @@ update_notes: '<p dir="auto"><strong>The final Beta of the year! Happy holidays!
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Geotale/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Geotale">@Geotale</a>
-  dropped a huge lootbox showing a bunch of parity issues with SE! (<a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3726615338" data-permission-text="Title
-  is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/498"
-  data-hovercard-type="issue" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/issues/498/hovercard"
-  href="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/498">#498</a>),
-  and we''ve been working to fix them all! The changes won''t be listed here since
-  it''s many small technical changes, but I recommend you look at the issue if you''re
-  a hardcore Scratcher.</li>
+  <li>Fixed the order in which <code class="notranslate">When I start as clone</code>
+  blocks run</li>
 
-  <li>Sprites can no longer touch itself with the <code class="notranslate">Touching</code>
-  block</li>
+  <li>Fixed <code class="notranslate">Next Backdrop</code> block not working</li>
 
-  <li>The <code class="notranslate">Stage</code> Sprite can no longer be cloned</li>
+  <li>You can no longer click on a Sprite that has a <code class="notranslate">ghost</code>
+  effect of 100</li>
 
-  <li>Scratch 2.0 <code class="notranslate">Pen</code> blocks have been implemented</li>
+  <li>The <code class="notranslate">For Each</code> block now has better parity</li>
 
-  <li>Fixed <code class="notranslate">Broadcast</code> and <code class="notranslate">Effect</code>
-  blocks not working in Scratch 2 projects migrated to Scratch 3 (Via <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3725102151" data-permission-text="Title
-  is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/494"
-  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/494/hovercard"
-  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/494">#494</a>
-  and <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3725457048"
-  data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/496"
-  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/496/hovercard"
-  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/496">#496</a>,
-  thanks <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/kalomaze/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/kalomaze">@kalomaze</a>
-  !)</li>
+  <li>The <code class="notranslate">When Key Pressed</code> block is no longer tied
+  to the FPS</li>
+
+  <li>Turbo Mode now works like Scratch</li>
+
+  <li>The <code class="notranslate">Broadcast and Wait</code> block now works like
+  Scratch</li>
+
+  <li>Fixed the run order of repeating blocks</li>
+
+  <li>Fixed repeat loops not working if ran for over 10.6 years</li>
+
+  <li>Added more accurate <code class="notranslate">double</code> to <code class="notranslate">string</code>
+  conversion (Via (<a class="issue-link js-issue-link" data-error-text="Failed to
+  load title" data-id="3772050288" data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/520"
+  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/520/hovercard"
+  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/520">#520</a>)</li>
+
+  <li>Variables can no longer be an <code class="notranslate">int</code></li>
+
+  <li>Fixed some custom blocks not working</li>
 
   </ul>
 
@@ -123,9 +161,19 @@ update_notes: '<p dir="auto"><strong>The final Beta of the year! Happy holidays!
 
   <ul dir="auto">
 
-  <li>Fixed Sprite flipping sometimes not working</li>
+  <li>Collision in Dual-Screen mode is now correct</li>
 
-  <li>Fixed Pen rendering on dual screen and bottom screen modes</li>
+  <li>Mouse position in Dual-Screen mode is now correct</li>
+
+  </ul>
+
+  <h2 dir="auto">PC Changes</h2>
+
+  <ul dir="auto">
+
+  <li>The <code class="notranslate">username</code> block can now get your PC''s username</li>
+
+  <li>Settings are now stored in your OS''s respective configuration folder.</li>
 
   </ul>
 
@@ -133,52 +181,32 @@ update_notes: '<p dir="auto"><strong>The final Beta of the year! Happy holidays!
 
   <ul dir="auto">
 
-  <li>Fixed Sprites not rendering in the correct position</li>
+  <li>Added new menu music</li>
 
   </ul>
 
-  <h2 dir="auto">Switch Changes</h2>
-
-  <ul dir="auto">
-
-  <li>Updated icon to be less blurry</li>
-
-  </ul>
-
-  <h2 dir="auto">webOS Changes</h2>
-
-  <ul dir="auto">
-
-  <li>The webOS port is currently in review to be added to the webOS Homebrew store!</li>
-
-  </ul>
-
-  <h2 dir="auto">PS4 Changes</h2>
-
-  <ul dir="auto">
-
-  <li>Disabled the loading screen temporarily due to a crashing issue</li>
-
-  </ul>
-
-  <p dir="auto"><strong>ty everyone who contributed to this beta:</strong> <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Dogo6647/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Dogo6647">@Dogo6647</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gradylink/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gradylink">@gradylink</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/PwLDev/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/PwLDev">@PwLDev</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/leap0x7b/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/leap0x7b">@leap0x7b</a>,
+  <p dir="auto">This beta was brought to you by: <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/Dogo6647/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Dogo6647">@Dogo6647</a>,
   <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/poipole807/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/poipole807">@poipole807</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/kalomaze/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/kalomaze">@kalomaze</a>,
-  and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/NateXS/hovercard"
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Br0tcraft/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Br0tcraft">@Br0tcraft</a>,
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/leap0x7b/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/leap0x7b">@leap0x7b</a>,
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gradylink/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gradylink">@gradylink</a>,
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/roccopm/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/roccopm">@roccopm</a>,
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DevelopCMD/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DevelopCMD">@DevelopCMD</a>,
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Starlii10/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Starlii10">@Starlii10</a>,
+  aaaaand <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/NateXS/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/NateXS">@NateXS</a></p>'
-updated: '2025-12-21T16:07:08Z'
-version: '0.31'
-version_title: Beta Build 31
+updated: '2026-01-05T01:19:39Z'
+version: '0.32'
+version_title: Beta Build 32
 website: https://scratcheverywhere.github.io/ScratchEverywhere/
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!
