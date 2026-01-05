@@ -79,6 +79,7 @@
 	"home-2": "Most information on this site is automatically gathered from the information on the app's GitHub repository, however if you notice any incorrect information please report it as a <a href=\"https://github.com/Universal-Team/db/issues/new\">GitHub Issue</a> or on our <a href=\"https://universal-team.net/discord\">Discord server</a>. Thanks!",
 	"home-3": "This is also the default UniStore for <a href=\"/3ds/universal-updater\">Universal-Updater</a>, so if you'd like to browse and install apps from Universal-DB directly on your 3DS you should give it a try.",
 	"home-4": "On the Nintendo DSi there are two options for downloading apps from Universal-DB. [dsidl](/ds/dsidl) can use the QR codes on the site or [Kekatsu](/ds/kekatsu) which functions fully on device. If you have not used Kekatsu before, place this <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> in `sd:/Kekatsu/`.",
+	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our [Discord server](https://universal-team.net/discord)'s #universal-db-updates and to our [Bluesky](https://bsky.app/profile/universal-team.net)!",
 	"last-updated-apps": "Last updated: ",
 	"error-404": "Error! 404!",
 	"return-to-home": "Return to the <a href=\"/\">home page</a> or <span class=\"a\" onclick=\"window.history.back()\">go back</span> to the previous page."
