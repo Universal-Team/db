@@ -11,6 +11,7 @@
 	],
 	"image": "https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/master/Source/SysCTR/Resources/banner.png",
 	"icon": "https://raw.githubusercontent.com/masterfeizz/DaedalusX64-3DS/master/Source/SysCTR/Resources/icon.png",
+	"script_message": "Note: You will need to put at least one ROM in:\nsdmc:/3ds/DaedalusX64/Roms/\n\nNot having any ROMs will make it load a glitched menu.",
 	"autogen_scripts": true,
 	"scripts": {
 		"3ds.zip": {
