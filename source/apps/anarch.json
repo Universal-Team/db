@@ -10,5 +10,20 @@
 		"game"
 	],
 	"image": "https://raw.githubusercontent.com/blitzdoughnuts/AnarchDEVKIT/refs/heads/master/3DS/banner/banner.png",
-	"icon": "https://raw.githubusercontent.com/blitzdoughnuts/AnarchDEVKIT/refs/heads/master/3DS/icon.png"
+	"icon": "https://raw.githubusercontent.com/blitzdoughnuts/AnarchDEVKIT/refs/heads/master/3DS/icon.png",
+	"downloads": {
+		"3DS_1.0.zip": {
+			"url": "https://github.com/blitzdoughnuts/AnarchDEVKIT/raw/refs/heads/master/bin/3DS_1.0.zip"
+		}
+	},
+	"archive": {
+		"3DS_1.0.zip": {
+			"ANARCH.3dsx": [
+				"ANARCH.3dsx"
+			],
+			"ANARCH_QS.3dsx": [
+				"ANARCH_QS.3dsx"
+			]
+		}
+	}
 }
