@@ -20,7 +20,7 @@ image: https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/logo.png
 image_length: 38554
 layout: app
 source: https://github.com/FluBBaOfWard/NitroSwan
-stars: 61
+stars: 62
 systems:
 - DS
 title: NitroSwan
