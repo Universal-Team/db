@@ -201,6 +201,15 @@ layout: compress
 										</div>
 									</div>
 								{% endif%}
+								{% if page.script_message %}
+									<div class="row mt-3">
+										<div class="col-12">
+											<div dir="ltr" class="alert alert-warning">
+												{{ page.script_message }}
+											</div>
+										</div>
+									</div>
+								{% endif %}
 								{% if content.size > 1 %}
 									<div class="row mt-3">
 										<div class="col-12">
