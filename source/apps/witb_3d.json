@@ -10,34 +10,5 @@
 		1027116
 	],
 	"image": "https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/resources/banner.png",
-	"icon": "https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/icon.png",
-	"autogen_scripts": true,
-	"installed_files": ["%3DSX%/WITB_3D.3dsx"],
-	"scripts": {
-		"WITB_3D.3dsx": [
-			{
-				"type": "promptMessage",
-				"message": "UU is unable to extract this at the moment..."
-			},
-			{
-				"type": "exit"
-			},
-			{
-				"type": "downloadRelease",
-				"repo": "Manurocker95/WITB_3D",
-				"file": "WITB_3D.rar",
-				"output": "/WITB_3D.rar"
-			},
-			{
-				"type": "extractFile",
-				"file": "/WITB_3D.rar",
-				"input": "WITB_3D.3dsx",
-				"output": "%3DSX%/WITB_3D.3dsx"
-			},
-			{
-				"type": "deleteFile",
-				"file": "/WITB_3D.rar"
-			}
-		]
-	}
+	"icon": "https://raw.githubusercontent.com/Manurocker95/WITB_3D/master/WITB_3D/icon.png"
 }

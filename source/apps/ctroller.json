@@ -10,49 +10,5 @@
 		998748
 	],
 	"image": "https://raw.githubusercontent.com/phijor/ctroller/master/3DS/resources/banner.png",
-	"icon": "https://raw.githubusercontent.com/phijor/ctroller/master/3DS/resources/icon.png",
-	"autogen_scripts": true,
-	"installed_files": ["%3DSX%/ctroller.3dsx"],
-	"scripts": {
-		"ctroller.3dsx": [
-			{
-				"type": "promptMessage",
-				"message": "UU is unable to extract this at the moment..."
-			},
-			{
-				"type": "exit"
-			},
-			{
-				"type": "downloadRelease",
-				"repo": "phijor/ctroller",
-				"file": "ctroller.*.tar.gz",
-				"output": "/ctroller.tar.gz",
-				"message": "Downloading ctroller.tar.gz..."
-			},
-			{
-				"type": "extractFile",
-				"file": "/ctroller.tar.gz",
-				"input": "ctroller.tar",
-				"output": "/ctroller.tar",
-				"message": "Extracting ctroller.tar..."
-			},
-			{
-				"type": "extractFile",
-				"file": "/ctroller.tar",
-				"input": "ctroller.3dsx",
-				"output": "%3DSX%/ctroller.3dsx",
-				"message": "Extracting ctroller.3dsx..."
-			},
-			{
-				"type": "deleteFile",
-				"file": "/ctroller.tar.gz",
-				"message": "Deleting ctroller.tar.gz..."
-			},
-			{
-				"type": "deleteFile",
-				"file": "/ctroller.tar",
-				"message": "Deleting ctroller.tar..."
-			}
-		]
-	}
+	"icon": "https://raw.githubusercontent.com/phijor/ctroller/master/3DS/resources/icon.png"
 }

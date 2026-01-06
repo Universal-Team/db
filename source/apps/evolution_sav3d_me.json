@@ -9,34 +9,5 @@
 	"unique_ids": [
 		1027100
 	],
-	"icon": "https://raw.githubusercontent.com/Manurocker95/Evolution_Sav3D_Me/Evolution_Sav3D_Me/icon.png",
-	"autogen_scripts": true,
-	"installed_files": ["%3DSX%/Evolution_Sav3D_Me.3dsx"],
-	"scripts": {
-		"Evolution_Sav3D_Me.3dsx": [
-			{
-				"type": "promptMessage",
-				"message": "UU is unable to extract this at the moment..."
-			},
-			{
-				"type": "exit"
-			},
-			{
-				"type": "downloadRelease",
-				"repo": "Manurocker95/Evolution_Sav3D_Me",
-				"file": "Evolution_Sav3D_Me.rar",
-				"output": "/Evolution_Sav3D_Me.rar"
-			},
-			{
-				"type": "extractFile",
-				"file": "/Evolution_Sav3D_Me.rar",
-				"input": "Evolution_Sav3D_Me.3dsx",
-				"output": "%3DSX%/Evolution_Sav3D_Me.3dsx"
-			},
-			{
-				"type": "deleteFile",
-				"file": "/Evolution_Sav3D_Me.rar"
-			}
-		]
-	}
+	"icon": "https://raw.githubusercontent.com/Manurocker95/Evolution_Sav3D_Me/Evolution_Sav3D_Me/icon.png"
 }

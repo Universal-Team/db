@@ -10,34 +10,5 @@
 		1027148
 	],
 	"image": "https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/resources/banner.png",
-	"icon": "https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/resources/icon.png",
-	"autogen_scripts": true,
-	"installed_files": ["%3DSX%/TRekt_3D.3dsx"],
-	"scripts": {
-		"TRekt.3dsx": [
-			{
-				"type": "promptMessage",
-				"message": "UU is unable to extract this at the moment..."
-			},
-			{
-				"type": "exit"
-			},
-			{
-				"type": "downloadRelease",
-				"repo": "Manurocker95/TRekt_3D",
-				"file": "TRekt_3D.rar",
-				"output": "/TRekt_3D.rar"
-			},
-			{
-				"type": "extractFile",
-				"file": "/TRekt_3D.rar",
-				"input": "TRekt_3D.3dsx",
-				"output": "%3DSX%/TRekt_3D.3dsx"
-			},
-			{
-				"type": "deleteFile",
-				"file": "/TRekt_3D.rar"
-			}
-		]
-	}
+	"icon": "https://raw.githubusercontent.com/Manurocker95/TRekt_3D/master/TRekt_3D/resources/icon.png"
 }
