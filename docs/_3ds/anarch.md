@@ -8,6 +8,11 @@ color_bg: '#5a5064'
 created: '2025-03-09T23:02:59Z'
 description: A suckless FPS game developed by Miloslav Ciz, ported to the 3DS by me
   using devkitpro.
+downloads:
+  3DS_1.0.zip:
+    size: 218362
+    size_str: 213 KiB
+    url: https://github.com/blitzdoughnuts/AnarchDEVKIT/raw/refs/heads/master/bin/3DS_1.0.zip
 github: blitzdoughnuts/AnarchDEVKIT
 icon: https://raw.githubusercontent.com/blitzdoughnuts/AnarchDEVKIT/refs/heads/master/3DS/icon.png
 image: https://raw.githubusercontent.com/blitzdoughnuts/AnarchDEVKIT/refs/heads/master/3DS/banner/banner.png
