@@ -18,19 +18,19 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-19-g87338c0e4
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-28-g4153ff6a6
   downloads:
-    Angband-4.2.6-19-g87338c0e4-3ds.zip:
-      size: 24667063
+    Angband-4.2.6-28-g4153ff6a6-3ds.zip:
+      size: 24669036
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-19-g87338c0e4/Angband-4.2.6-19-g87338c0e4-3ds.zip
-    Angband-4.2.6-19-g87338c0e4-nds.zip:
-      size: 23319335
+      url: https://github.com/angband/angband/releases/download/4.2.6-28-g4153ff6a6/Angband-4.2.6-28-g4153ff6a6-3ds.zip
+    Angband-4.2.6-28-g4153ff6a6-nds.zip:
+      size: 23319743
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-19-g87338c0e4/Angband-4.2.6-19-g87338c0e4-nds.zip
-  updated: '2025-12-30T15:50:46Z'
-  version: 4.2.6-19-g87338c0e4
-  version_title: 4.2.6-19-g87338c0e4
+      url: https://github.com/angband/angband/releases/download/4.2.6-28-g4153ff6a6/Angband-4.2.6-28-g4153ff6a6-nds.zip
+  updated: '2026-01-06T14:04:15Z'
+  version: 4.2.6-28-g4153ff6a6
+  version_title: 4.2.6-28-g4153ff6a6
 source: https://github.com/angband/angband
 stars: 1463
 systems:
