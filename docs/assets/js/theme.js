@@ -4,10 +4,19 @@ function loadTheme() {
 	if(today.getMonth() == 3 && today.getDate() == 1) {
 		themeCSS.href = "/assets/css/83-percent.css";
 	} else {
-		if(!localStorage.theme || localStorage.theme == "default")
+		if(!localStorage.theme || localStorage.theme == "default") {
 			themeCSS.href = "/assets/css/style.css";
-		else
+			window.addEventListener("prefersColorScheme", event => console.log(event));
+			var darkMatch = window.matchMedia("(prefers-color-scheme: dark)");
+			darkMatch.addEventListener("change", match => {
+				document.documentElement.dataset.bsTheme = match.matches ? "dark" : "light";
+			})
+
+			document.documentElement.dataset.bsTheme = darkMatch.matches ? "dark" : "light";
+		} else {			
 			themeCSS.href = "/assets/css/" + localStorage.theme + ".css";
+			document.documentElement.dataset.bsTheme = localStorage.theme == "dark" ? "dark" : "light";
+		}
 	}
 }
 

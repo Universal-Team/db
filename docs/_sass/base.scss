@@ -149,6 +149,10 @@ input.input-group-text:hover {
 	border-color: $code-bg;
 }
 
+.alert p:last-child {
+	margin-bottom: 0;
+}
+
 // Override the dark text too
 .text-dark {
 	color: $dark!important;
