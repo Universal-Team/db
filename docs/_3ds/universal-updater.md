@@ -28,7 +28,7 @@ prerelease:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 3188972
+      size: 3189552
       size_str: 3 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
@@ -37,18 +37,12 @@ prerelease:
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/prerelease/universal-updater-cia.png
-  update_notes: '<p dir="auto">Pk11 - PromptMsg: Add auto-wrapping and scrolling</p>
-
-    <p dir="auto">Most visible in DevilutionX. Also copied some improvements over
-    to the self-update menu.</p>'
-  update_notes_md: 'Pk11 - PromptMsg: Add auto-wrapping and scrolling
-
-
-    Most visible in DevilutionX. Also copied some improvements over to the self-update
-    menu.'
-  updated: '2026-01-06T06:57:51Z'
+  update_notes: <p dir="auto">Pk11 - Add warning on connection time out to disable
+    custom DNS</p>
+  update_notes_md: Pk11 - Add warning on connection time out to disable custom DNS
+  updated: '2026-01-06T21:43:58Z'
   version: git
-  version_title: Continuous Build - 3a87048
+  version_title: Continuous Build - 033776f
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
