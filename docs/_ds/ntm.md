@@ -23,7 +23,7 @@ license_name: GNU General Public License v3.0
 qr:
   NTM.dsi: https://db.universal-team.net/assets/images/qr/ntm-dsi.png
 source: https://github.com/Epicpkmn11/NTM
-stars: 74
+stars: 75
 systems:
 - DS
 title: NTM
