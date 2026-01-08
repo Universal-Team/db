@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9584872
+    size: 9720272
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.0.0/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.0.0A/TJAP_3DS.3dsx
   TJAP_3DS.cia:
-    size: 9868224
+    size: 9921472
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.0.0/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.0.0A/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -40,97 +40,35 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>
+  <li>特定の操作をした際に風船の打数が合わなくなる可能性がある不具合の修正</li>
 
-  <p dir="auto">くす玉音符とでんでん音符に関する要素の追加<br>
+  <li>「編集モード」に"CONV"を追加しました。<br>
 
-  ・くす玉音符は3DS以降に登場する特殊音符で、<br>
+  「編集モード」を"CONV"にセットして曲名等が文字化けしている譜面を選択すると、<br>
 
-  　　くす玉を割るタイミングで貰える点数が変わります。<br>
-
-  　　(但し<code class="notranslate">SCOREMODE:1</code>または<code class="notranslate">SCOREMODE:2</code>が記述された譜面のみ)<br>
-
-  　　叩き方は風船音符と変わりありません。ただドンを叩くだけです。<br>
-
-  ・でんでん音符はDSシリーズに登場する特殊音符で、<br>
-
-  　　叩く際は、ドンとカッを交互に叩く必要があります。</p>
-
-  </li>
-
-  <li>
-
-  <p dir="auto">効果音の追加<br>
-
-  このバージョンを起動する際に一部の設定をONにしている場合、<br>
-
-  <code class="notranslate">sdmc:/tjafiles/theme/dendenbreak.ogg</code>を追加する必要があります。</p>
-
-  </li>
-
-  <li>
-
-  <p dir="auto">不具合の修正 (2026/01/03追記)<br>
-
-  ・一部ノーツで同時押しするとリザルトがおかしくなる不具合の修正<br>
-
-  ・譜面分岐がある譜面をするとリザルト画面に表示されるスコアが本来より少なく表示される不具合の修正</p>
-
-  </li>
+  文字化けが解除されます。文字化けしていない譜面に対して使うと譜面が壊れますのでご注意を。</li>
 
   </ul>
-
-  <p dir="auto">2026年最初のアップデートをどうぞお楽しみ下さい。</p>
 
   <h2 dir="auto">Changelog</h2>
 
   <ul dir="auto">
 
-  <li>
+  <li>Fixed an issue that could cause the balloon hit count to be incorrect when performing
+  certain operations.</li>
 
-  <p dir="auto">Added features related to Kusudama Notes and Den-Den Notes.<br>
+  <li>Added "CONV" to "Editor Mode."<br>
 
-  ・Kusudama Notes are special notes that appear on Nintendo 3DS and later.<br>
+  Setting "Editor Mode" to "CONV" and selecting a song with garbled song titles will
+  resolve the garbled text.<br>
 
-  　The score you receive changes depending on when you pop the Kusudama.<br>
+  Please note that if you use this on a fumen that is not garbled, the fumen will
+  be corrupted.</li>
 
-  　(However, this only applies to Charts with <code class="notranslate">SCOREMODE:1</code>
-  or <code class="notranslate">SCOREMODE:2</code>.)<br>
-
-  　The way to play them is the same as with balloon notes. Just hit the "don" (point).<br>
-
-  ・The den-den note is a special note that appears in the DS series.<br>
-
-  　When playing it, you need to alternate between hitting "don" and "ka."</p>
-
-  </li>
-
-  <li>
-
-  <p dir="auto">Adding sound effects<br>
-
-  If you have some settings turned on when starting this version, you will need to
-  add <code class="notranslate">sdmc:/tjafiles/theme/dendenbreak.ogg</code>.</p>
-
-  </li>
-
-  <li>
-
-  <p dir="auto">Bug fixes (Added 2026/01/03)<br>
-
-  ・Fixed a bug that caused the results to go awry when pressing certain notes simultaneously.<br>
-
-  ・Fixed an issue where the score displayed on the results screen was lower than it
-  should have been when playing a score with branching notes.</p>
-
-  </li>
-
-  </ul>
-
-  <p dir="auto">We hope you enjoy the first update of 2026.</p>'
-updated: '2025-12-29T09:02:21Z'
-version: v2.0.0
-version_title: TJAPlayer for 3DS v2.0.0
+  </ul>'
+updated: '2026-01-08T21:54:27Z'
+version: v2.0.0A
+version_title: TJAPlayer for 3DS v2.0.0(A)
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
