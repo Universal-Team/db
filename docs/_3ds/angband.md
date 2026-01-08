@@ -32,7 +32,7 @@ prerelease:
   version: 4.2.6-28-g4153ff6a6
   version_title: 4.2.6-28-g4153ff6a6
 source: https://github.com/angband/angband
-stars: 1463
+stars: 1464
 systems:
 - 3DS
 - DS

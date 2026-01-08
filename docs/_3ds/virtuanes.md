@@ -19,7 +19,7 @@ image: https://db.universal-team.net/assets/images/images/virtuanes.png
 image_length: 2631
 layout: app
 source: https://github.com/bubble2k16/emus3ds
-stars: 260
+stars: 261
 systems:
 - 3DS
 title: VirtuaNES
