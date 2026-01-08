@@ -31,7 +31,7 @@ jobs:
         BG_DIR=source/bg
         COUNT=$(ls $BG_DIR | wc -l)
         if [ $COUNT -ne 0 ]; then
-          SELECTED=$(( $(date +%j) / 3 % $COUNT + 1 ))
+          SELECTED=$(( $(date +%-j) / 3 % $COUNT + 1 ))
           BG="$BG_DIR/$(ls $BG_DIR | head -n$SELECTED | tail -n1)"
 
           python3 source/generate.py all --priority --background "$BG"
