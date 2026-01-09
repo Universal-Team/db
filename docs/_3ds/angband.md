@@ -28,6 +28,117 @@ prerelease:
       size: 23319743
       size_str: 22 MiB
       url: https://github.com/angband/angband/releases/download/4.2.6-28-g4153ff6a6/Angband-4.2.6-28-g4153ff6a6-nds.zip
+  update_notes: '<h2 dir="auto">What''s Changed</h2>
+
+    <ul dir="auto">
+
+    <li>Update release checklist for lessons learned from 4.2.6 by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="3736810431" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6448"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6448/hovercard"
+    href="https://github.com/angband/angband/pull/6448">#6448</a></li>
+
+    <li>SDL: rework quitting while the game is not at a command prompt by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="3762148947" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6470"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6470/hovercard"
+    href="https://github.com/angband/angband/pull/6470">#6470</a></li>
+
+    <li>workflows: avoid hardwiring name of default branch in docs.yaml by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="3762648509" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6471"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6471/hovercard"
+    href="https://github.com/angband/angband/pull/6471">#6471</a></li>
+
+    <li>SDL: dispay first line from buildid''s copyright in the About dialog by <a
+    class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="3765646025" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6472"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6472/hovercard"
+    href="https://github.com/angband/angband/pull/6472">#6472</a></li>
+
+    <li>sdl2: except for main.h, include the non-SDL2 headers in alphabetical order
+    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="3765653616" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6473"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6473/hovercard"
+    href="https://github.com/angband/angband/pull/6473">#6473</a></li>
+
+    <li>Cast char arguments to toupper() and tolower() to unsigned char by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="3768054057" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6474"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6474/hovercard"
+    href="https://github.com/angband/angband/pull/6474">#6474</a></li>
+
+    <li>Add column in monster knowledge menu to indicate if fully known by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="3770427239" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6476"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6476/hovercard"
+    href="https://github.com/angband/angband/pull/6476">#6476</a></li>
+
+    <li>Equipabble comparison: fix quick filter when all item sources included by
+    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="3770884534" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6477"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6477/hovercard"
+    href="https://github.com/angband/angband/pull/6477">#6477</a></li>
+
+    <li>Change introduction to the description of an item''s effect by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="3771576062" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6478"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6478/hovercard"
+    href="https://github.com/angband/angband/pull/6478">#6478</a></li>
+
+    </ul>
+
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-19-g87338c0e4...4.2.6-28-g4153ff6a6"><tt>4.2.6-19-g87338c0e4...4.2.6-28-g4153ff6a6</tt></a></p>'
+  update_notes_md: '## What''s Changed
+
+    * Update release checklist for lessons learned from 4.2.6 by @backwardsEric in
+    https://github.com/angband/angband/pull/6448
+
+    * SDL: rework quitting while the game is not at a command prompt by @backwardsEric
+    in https://github.com/angband/angband/pull/6470
+
+    * workflows: avoid hardwiring name of default branch in docs.yaml by @backwardsEric
+    in https://github.com/angband/angband/pull/6471
+
+    * SDL: dispay first line from buildid''s copyright in the About dialog by @backwardsEric
+    in https://github.com/angband/angband/pull/6472
+
+    * sdl2: except for main.h, include the non-SDL2 headers in alphabetical order
+    by @backwardsEric in https://github.com/angband/angband/pull/6473
+
+    * Cast char arguments to toupper() and tolower() to unsigned char by @backwardsEric
+    in https://github.com/angband/angband/pull/6474
+
+    * Add column in monster knowledge menu to indicate if fully known by @backwardsEric
+    in https://github.com/angband/angband/pull/6476
+
+    * Equipabble comparison: fix quick filter when all item sources included by @backwardsEric
+    in https://github.com/angband/angband/pull/6477
+
+    * Change introduction to the description of an item''s effect by @backwardsEric
+    in https://github.com/angband/angband/pull/6478
+
+
+
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-19-g87338c0e4...4.2.6-28-g4153ff6a6'
   updated: '2026-01-06T14:04:15Z'
   version: 4.2.6-28-g4153ff6a6
   version_title: 4.2.6-28-g4153ff6a6
