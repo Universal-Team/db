@@ -43,7 +43,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/breaking-bad-ds/title-screen.png
 source: https://github.com/WiIIiam278/breaking-bad-ds
-stars: 181
+stars: 178
 systems:
 - DS
 title: Breaking Bad DS
