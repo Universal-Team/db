@@ -10,13 +10,13 @@ description: 3DS port of the visual novel Class of '09
 download_page: https://github.com/Bilbard/classof3ds/releases
 downloads:
   classof3ds.3dsx:
-    size: 158977484
+    size: 158984804
     size_str: 151 MiB
-    url: https://github.com/Bilbard/classof3ds/releases/download/v1.0/classof3ds.3dsx
+    url: https://github.com/Bilbard/classof3ds/releases/download/v1.0.1/classof3ds.3dsx
   classof3ds.cia:
-    size: 158254080
+    size: 158258176
     size_str: 150 MiB
-    url: https://github.com/Bilbard/classof3ds/releases/download/v1.0/classof3ds.cia
+    url: https://github.com/Bilbard/classof3ds/releases/download/v1.0.1/classof3ds.cia
 github: Bilbard/classof3ds
 icon: https://raw.githubusercontent.com/Bilbard/classof3ds/refs/heads/master/3ds/icon.png
 image: https://raw.githubusercontent.com/Bilbard/classof3ds/refs/heads/master/3ds/widebanner.png
@@ -40,18 +40,20 @@ systems:
 title: Class of '09
 unique_ids:
 - '0xFA945'
-update_notes: '<h3 dir="auto">v1.0</h3>
+update_notes: '<h3 dir="auto">v1.0.1</h3>
 
-  <p dir="auto">I made a bunch of bug changes in September, but I didn''t compile
-  a list of changes and I have forgotten. The one bug I know I fixed for certain is
-  the facing direction visual bug. The .cia has a new better banner, still not 3D
-  however.</p>
+  <ul dir="auto">
 
-  <p dir="auto">In order to try submitting this game to the Universal-DB, builds seem
-  to have to be hosted on Github, so (at least for now) they are.</p>'
-updated: '2025-11-26T00:52:35Z'
-version: v1.0
-version_title: v1.0
+  <li>Now checks at boot whether or not dspfirm.cdc exists and alerts the player if
+  it doesn''t</li>
+
+  <li>An attempt was made to fix the rare video playback crash (I can''t figure out
+  how to reproduce the crash consistently yet)</li>
+
+  </ul>'
+updated: '2026-01-09T21:08:24Z'
+version: v1.0.1
+version_title: v1.0.1
 ---
 A demake/port of the visual novel "Class of '09" to the 3DS. 
 
