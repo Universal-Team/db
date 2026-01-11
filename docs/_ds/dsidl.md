@@ -49,7 +49,7 @@ screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/dsidl/main-menu.png
 source: https://github.com/Epicpkmn11/dsidl
-stars: 24
+stars: 25
 systems:
 - DS
 title: dsidl
