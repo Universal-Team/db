@@ -99,9 +99,25 @@ update_notes: '<h2 dir="auto">Runtime Changes</h2>
 
   <ul dir="auto">
 
-  <li>Updated to SDL3</li>
+  <li>Updated to SDL3
 
-  <li>New Icon</li>
+  <ul dir="auto">
+
+  <li>NOTE: Intel macs are still using SDL2.</li>
+
+  </ul>
+
+  </li>
+
+  <li><del>New Icon</del>
+
+  <ul dir="auto">
+
+  <li>Due to an issue, there is no longer an icon.</li>
+
+  </ul>
+
+  </li>
 
   </ul>'
 updated: '2026-01-11T15:42:30Z'
