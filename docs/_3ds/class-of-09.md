@@ -12,11 +12,11 @@ downloads:
   classof3ds.3dsx:
     size: 158984804
     size_str: 151 MiB
-    url: https://github.com/Bilbard/classof3ds/releases/download/v1.0.1/classof3ds.3dsx
+    url: https://github.com/Bilbard/classof3ds/releases/download/v1.0.2/classof3ds.3dsx
   classof3ds.cia:
     size: 158258176
     size_str: 150 MiB
-    url: https://github.com/Bilbard/classof3ds/releases/download/v1.0.1/classof3ds.cia
+    url: https://github.com/Bilbard/classof3ds/releases/download/v1.0.2/classof3ds.cia
 github: Bilbard/classof3ds
 icon: https://raw.githubusercontent.com/Bilbard/classof3ds/refs/heads/master/3ds/icon.png
 image: https://raw.githubusercontent.com/Bilbard/classof3ds/refs/heads/master/3ds/widebanner.png
@@ -40,20 +40,16 @@ systems:
 title: Class of '09
 unique_ids:
 - '0xFA945'
-update_notes: '<h3 dir="auto">v1.0.1</h3>
+update_notes: '<h3 dir="auto">v1.0.2</h3>
 
   <ul dir="auto">
 
-  <li>Now checks at boot whether or not dspfirm.cdc exists and alerts the player if
-  it doesn''t</li>
-
-  <li>An attempt was made to fix the rare video playback crash (I can''t figure out
-  how to reproduce the crash consistently yet)</li>
+  <li>Removed remaining unnecessary components</li>
 
   </ul>'
-updated: '2026-01-09T21:08:24Z'
-version: v1.0.1
-version_title: v1.0.1
+updated: '2026-01-10T23:42:28Z'
+version: v1.0.2
+version_title: v1.0.2
 ---
 A demake/port of the visual novel "Class of '09" to the 3DS. 
 

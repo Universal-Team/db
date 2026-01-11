@@ -21,7 +21,7 @@ layout: app
 qr:
   Homebrew_Launcher.cia: https://db.universal-team.net/assets/images/qr/homebrew_launcher-cia.png
 source: https://github.com/PabloMK7/homebrew_launcher_dummy
-stars: 346
+stars: 347
 systems:
 - 3DS
 title: homebrew_launcher_dummy
