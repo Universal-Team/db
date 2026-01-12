@@ -33,7 +33,7 @@ script_message: 'This will replace the boot.3dsx in the root of
 
   Launcher with the Pirate Launcher.'
 source: https://github.com/cooolgamer/the-pirate-launcher
-stars: 15
+stars: 14
 systems:
 - 3DS
 title: The Pirate Launcher

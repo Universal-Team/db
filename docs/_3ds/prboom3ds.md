@@ -52,7 +52,7 @@ script_message: 'You will need to put Doom WAD files in
 
   "sdmc:/3ds/prboom3ds/" to play them.'
 source: https://github.com/elhobbs/prboom3ds
-stars: 109
+stars: 110
 systems:
 - 3DS
 title: prboom3ds
