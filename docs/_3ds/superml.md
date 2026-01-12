@@ -11,21 +11,21 @@ description: An interpreter and text editor for a subset of the Caml Programming
 download_page: https://github.com/CharlesAverill/SuperML/releases
 downloads:
   SuperML.3dsx:
-    size: 996452
+    size: 997164
     size_str: 973 KiB
-    url: https://github.com/CharlesAverill/SuperML/releases/download/build-46/SuperML.3dsx
+    url: https://github.com/CharlesAverill/SuperML/releases/download/build-49/SuperML.3dsx
   SuperML.cia:
     size: 1205184
     size_str: 1 MiB
-    url: https://github.com/CharlesAverill/SuperML/releases/download/build-46/SuperML.cia
+    url: https://github.com/CharlesAverill/SuperML/releases/download/build-49/SuperML.cia
   SuperML_3DSX_QR.png:
+    size: 550
+    size_str: 550 Bytes
+    url: https://github.com/CharlesAverill/SuperML/releases/download/build-49/SuperML_3DSX_QR.png
+  SuperML_CIA_QR.png:
     size: 548
     size_str: 548 Bytes
-    url: https://github.com/CharlesAverill/SuperML/releases/download/build-46/SuperML_3DSX_QR.png
-  SuperML_CIA_QR.png:
-    size: 549
-    size_str: 549 Bytes
-    url: https://github.com/CharlesAverill/SuperML/releases/download/build-46/SuperML_CIA_QR.png
+    url: https://github.com/CharlesAverill/SuperML/releases/download/build-49/SuperML_CIA_QR.png
 github: CharlesAverill/SuperML
 icon: https://raw.githubusercontent.com/CharlesAverill/SuperML/refs/heads/main/resources/icon.png
 image: https://raw.githubusercontent.com/CharlesAverill/SuperML/refs/heads/main/resources/banner/banner.png
@@ -49,32 +49,32 @@ systems:
 title: SuperML
 unique_ids:
 - '0x3F9AD'
-update_notes: '<h2 dir="auto">SuperML build-46</h2>
+update_notes: '<h2 dir="auto">SuperML build-49</h2>
 
   <h3 dir="auto">CIA</h3>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/CharlesAverill/SuperML/releases/download/build-46/SuperML_CIA_QR.png"><img
-  src="https://github.com/CharlesAverill/SuperML/releases/download/build-46/SuperML_CIA_QR.png"
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/CharlesAverill/SuperML/releases/download/build-49/SuperML_CIA_QR.png"><img
+  src="https://github.com/CharlesAverill/SuperML/releases/download/build-49/SuperML_CIA_QR.png"
   alt="CIA QR" style="max-width: 100%;"></a></p>
 
   <h3 dir="auto">3DSX</h3>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/CharlesAverill/SuperML/releases/download/build-46/SuperML_3DSX_QR.png"><img
-  src="https://github.com/CharlesAverill/SuperML/releases/download/build-46/SuperML_3DSX_QR.png"
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/CharlesAverill/SuperML/releases/download/build-49/SuperML_3DSX_QR.png"><img
+  src="https://github.com/CharlesAverill/SuperML/releases/download/build-49/SuperML_3DSX_QR.png"
   alt="3DSX QR" style="max-width: 100%;"></a></p>
 
   <h3 dir="auto">Download</h3>
 
   <ul dir="auto">
 
-  <li><strong>CIA:</strong>  <a href="https://github.com/CharlesAverill/SuperML/releases/download/build-46/SuperML.cia">SuperML.cia</a></li>
+  <li><strong>CIA:</strong>  <a href="https://github.com/CharlesAverill/SuperML/releases/download/build-49/SuperML.cia">SuperML.cia</a></li>
 
-  <li><strong>3DSX:</strong> <a href="https://github.com/CharlesAverill/SuperML/releases/download/build-46/SuperML.3dsx">SuperML.3dsx</a></li>
+  <li><strong>3DSX:</strong> <a href="https://github.com/CharlesAverill/SuperML/releases/download/build-49/SuperML.3dsx">SuperML.3dsx</a></li>
 
   </ul>'
-updated: '2025-11-27T08:09:46Z'
-version: build-46
-version_title: SuperML build b6e761276769df7b85bedc8b439da151e327ea3d
+updated: '2026-01-12T03:46:16Z'
+version: build-49
+version_title: SuperML build d42b0028d387d0a4ec7695feeb33fc6cf5eb1ea4
 ---
 An interpreter and text editor for a subset of the [Caml Programming Language](https://en.wikipedia.org/wiki/Caml) for the Nintendo 3DS.
 
