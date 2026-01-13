@@ -6,7 +6,7 @@ categories:
 color: '#87d6c8'
 color_bg: '#508077'
 created: '2024-04-14T17:00:40.939Z'
-description: NetPass allows you to get StreetPasses over the iternet
+description: NetPass allows you to get StreetPasses over the internet
 download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
