@@ -10,17 +10,17 @@ description: A clone of Wordle for the Nintendo DS(i)
 download_page: https://github.com/Epicpkmn11/WordleDS/releases
 downloads:
   WordleDS.cia:
-    size: 967872
-    size_str: 945 KiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.2.0/WordleDS.cia
+    size: 972992
+    size_str: 950 KiB
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.2.1/WordleDS.cia
   WordleDS.dsi:
-    size: 953280
-    size_str: 930 KiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.2.0/WordleDS.dsi
+    size: 958400
+    size_str: 935 KiB
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.2.1/WordleDS.dsi
   WordleDS.nds:
-    size: 953280
-    size_str: 930 KiB
-    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.2.0/WordleDS.nds
+    size: 958400
+    size_str: 935 KiB
+    url: https://github.com/Epicpkmn11/WordleDS/releases/download/v3.2.1/WordleDS.nds
 github: Epicpkmn11/WordleDS
 icon: https://db.universal-team.net/assets/images/icons/wordle-ds.gif
 icon_static: https://raw.githubusercontent.com/Epicpkmn11/WordleDS/master/resources/icon/icon.0.png
@@ -47,41 +47,9 @@ stars: 65
 systems:
 - DS
 title: Wordle DS
-update_notes: '<h3 dir="auto">What''s new?</h3>
-
-  <ul dir="auto">
-
-  <li>On DSi and 3DS Wordle DS now supports modern Wi-Fi networks for updating the
-  word list!!
-
-  <ul dir="auto">
-
-  <li>All thanks to <a class="user-mention notranslate" data-hovercard-type="organization"
-  data-hovercard-url="/orgs/devkitPro/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/devkitPro">@devkitPro</a>
-  for libnds v2.0.0 and with it dswifi v2</li>
-
-  </ul>
-
-  </li>
-
-  </ul>
-
-  <h3 dir="auto">Changes</h3>
-
-  <ul dir="auto">
-
-  <li>Updates the included word list through December 8th, 2024</li>
-
-  </ul>
-
-  <h3 dir="auto">Notes</h3>
-
-  <p dir="auto">I improved the HTTP handling of large requests so it should be stable
-  now, as such I''ve updated the server to no longer limit to 100 words at a time
-  on updates. (only need to update once on download now!) As such, old versions will
-  now usually fail on full word list updates, though simple maintenance updates will
-  probably still go through without issue.</p>
+update_notes: '<p dir="auto">I''m not sure how I never noticed and fixed this in over
+  a year, but v3.2.0 has a bug from an outdated GitHub Actions script that makes it
+  unable to play some mods because the version number is missing. That is now fixed!</p>
 
   <hr>
 
@@ -110,12 +78,12 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
 
   <tr>
 
-  <td><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/154e8b54-5ae9-46af-a1b5-b8d55598d095"><img
-  src="https://github.com/user-attachments/assets/154e8b54-5ae9-46af-a1b5-b8d55598d095"
+  <td><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/ceb6b966-24eb-4bc2-848e-3c968834aae6"><img
+  src="https://github.com/user-attachments/assets/ceb6b966-24eb-4bc2-848e-3c968834aae6"
   alt="QR for WordleDS.cia" style="max-width: 100%;"></a></td>
 
-  <td><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/cd118c22-ea8b-44e9-8840-5165afe53e96"><img
-  src="https://github.com/user-attachments/assets/cd118c22-ea8b-44e9-8840-5165afe53e96"
+  <td><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/5c572ff8-84a6-4cf5-bbb7-55c4226340d6"><img
+  src="https://github.com/user-attachments/assets/5c572ff8-84a6-4cf5-bbb7-55c4226340d6"
   alt="QR for WordleDS.dsi" style="max-width: 100%;"></a></td>
 
   </tr>
@@ -123,9 +91,9 @@ update_notes: '<h3 dir="auto">What''s new?</h3>
   </tbody>
 
   </table></markdown-accessiblity-table>'
-updated: '2024-11-12T16:03:53Z'
-version: v3.2.0
-version_title: DSi Wi-Fi!
+updated: '2026-01-13T18:11:59Z'
+version: v3.2.1
+version_title: Mod fix
 website: https://wordle.xn--rck9c.xn--tckwe
 wiki: https://github.com/Epicpkmn11/WordleDS/wiki
 ---

@@ -26,7 +26,7 @@ image_length: 381
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-prerelease:
+nightly:
   download_page: https://github.com/Universal-Team/pkmn-chest/releases/tag/git
   downloads:
     pkmn-chest.cia:
@@ -42,9 +42,9 @@ prerelease:
       size_str: 7 MiB
       url: https://github.com/Universal-Team/pkmn-chest/releases/download/git/pkmn-chest.nds
   qr:
-    pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/prerelease/pkmn-chest-cia.png
-    pkmn-chest.dsi: https://db.universal-team.net/assets/images/qr/prerelease/pkmn-chest-dsi.png
-    pkmn-chest.nds: https://db.universal-team.net/assets/images/qr/prerelease/pkmn-chest-nds.png
+    pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/git/pkmn-chest-cia.png
+    pkmn-chest.dsi: https://db.universal-team.net/assets/images/qr/git/pkmn-chest-dsi.png
+    pkmn-chest.nds: https://db.universal-team.net/assets/images/qr/git/pkmn-chest-nds.png
   update_notes: <p dir="auto">Pk11 - Forgot to fix the makefile</p>
   update_notes_md: 'Pk11 - Forgot to fix the makefile
 
