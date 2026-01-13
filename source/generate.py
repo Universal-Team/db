@@ -357,6 +357,10 @@ def handle_github_app(github: GitHubAPI, app: Dict[str, Any]):
 				app["updated"] = prerelease["published_at"]
 			if "updated" not in app["prerelease"]:
 				app["prerelease"]["updated"] = prerelease["published_at"]
+
+			if not "nightly" in app and re.match(r"^[a-zA-Z]+$", app["prerelease"]["version"]):
+				app["nightly"] = app["prerelease"]
+				app.pop("prerelease")
 		else:
 			app.pop("prerelease")
 
@@ -781,10 +785,10 @@ def process_app_entry(app: Dict[str, Any], fp: str, icon_idx: int, github_api: G
 						draw.text(((qr.width - img.width) // 2 + 6, (qr.height - img.height) // 2 - 10), "DS", (0, 0, 192))
 					else:
 						draw.text(((qr.width - img.width) // 2, (qr.height - img.height) // 2 - 10), "DSi", (0, 0, 192))
-				qr.save(DOCS_DIR.joinpath("assets", "images", "qr", "nightly", f"{format_to_web_name(item)}.png"))
+				qr.save(DOCS_DIR.joinpath("assets", "images", "qr", "git", f"{format_to_web_name(item)}.png"))
 				if "qr" not in app["nightly"]:
 					app["nightly"]["qr"] = {}
-				app["nightly"]["qr"][item] = f"https://db.universal-team.net/assets/images/qr/nightly/{format_to_web_name(item)}.png"
+				app["nightly"]["qr"][item] = f"https://db.universal-team.net/assets/images/qr/git/{format_to_web_name(item)}.png"
 	
 	return app, iconIndex
 
