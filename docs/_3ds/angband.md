@@ -18,130 +18,115 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-28-g4153ff6a6
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-36-g67b2f6e8d
   downloads:
-    Angband-4.2.6-28-g4153ff6a6-3ds.zip:
-      size: 24669036
+    Angband-4.2.6-36-g67b2f6e8d-3ds.zip:
+      size: 24669078
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-28-g4153ff6a6/Angband-4.2.6-28-g4153ff6a6-3ds.zip
-    Angband-4.2.6-28-g4153ff6a6-nds.zip:
-      size: 23319743
+      url: https://github.com/angband/angband/releases/download/4.2.6-36-g67b2f6e8d/Angband-4.2.6-36-g67b2f6e8d-3ds.zip
+    Angband-4.2.6-36-g67b2f6e8d-nds.zip:
+      size: 23330299
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-28-g4153ff6a6/Angband-4.2.6-28-g4153ff6a6-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-36-g67b2f6e8d/Angband-4.2.6-36-g67b2f6e8d-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>Update release checklist for lessons learned from 4.2.6 by <a class="user-mention
+    <li>Add cmd_get_point(); use it for the debugging commands by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3736810431" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6448"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6448/hovercard"
-    href="https://github.com/angband/angband/pull/6448">#6448</a></li>
+    data-id="3772936118" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6481"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6481/hovercard"
+    href="https://github.com/angband/angband/pull/6481">#6481</a></li>
 
-    <li>SDL: rework quitting while the game is not at a command prompt by <a class="user-mention
+    <li>In object descriptions, end "Affects your ..." lines with a period by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3762148947" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6470"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6470/hovercard"
-    href="https://github.com/angband/angband/pull/6470">#6470</a></li>
+    data-id="3772948164" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6482"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6482/hovercard"
+    href="https://github.com/angband/angband/pull/6482">#6482</a></li>
 
-    <li>workflows: avoid hardwiring name of default branch in docs.yaml by <a class="user-mention
+    <li>Update player-facing copyright dates for the new year by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3762648509" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6471"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6471/hovercard"
-    href="https://github.com/angband/angband/pull/6471">#6471</a></li>
+    data-id="3774994993" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6483"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6483/hovercard"
+    href="https://github.com/angband/angband/pull/6483">#6483</a></li>
 
-    <li>SDL: dispay first line from buildid''s copyright in the About dialog by <a
-    class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    <li>docs: update reference to the current maintainer by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3765646025" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6472"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6472/hovercard"
-    href="https://github.com/angband/angband/pull/6472">#6472</a></li>
+    data-id="3775004053" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6484"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6484/hovercard"
+    href="https://github.com/angband/angband/pull/6484">#6484</a></li>
 
-    <li>sdl2: except for main.h, include the non-SDL2 headers in alphabetical order
+    <li>x11: use WM_DELETE_WINDOW protocol by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="3775352774" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6485"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6485/hovercard"
+    href="https://github.com/angband/angband/pull/6485">#6485</a></li>
+
+    <li>Nintendo DS: use the value of PROGNAME for NAME with the blocksds toolchain
     by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3765653616" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6473"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6473/hovercard"
-    href="https://github.com/angband/angband/pull/6473">#6473</a></li>
+    data-id="3775359336" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6486"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6486/hovercard"
+    href="https://github.com/angband/angband/pull/6486">#6486</a></li>
 
-    <li>Cast char arguments to toupper() and tolower() to unsigned char by <a class="user-mention
+    <li>macOS: use the strategy from SDL/SDL2 for handling exits by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3768054057" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6474"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6474/hovercard"
-    href="https://github.com/angband/angband/pull/6474">#6474</a></li>
+    data-id="3775387483" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6487"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6487/hovercard"
+    href="https://github.com/angband/angband/pull/6487">#6487</a></li>
 
-    <li>Add column in monster knowledge menu to indicate if fully known by <a class="user-mention
+    <li>docs: correct typos in GCC package name for Cygwin by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3770427239" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6476"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6476/hovercard"
-    href="https://github.com/angband/angband/pull/6476">#6476</a></li>
-
-    <li>Equipabble comparison: fix quick filter when all item sources included by
-    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3770884534" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6477"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6477/hovercard"
-    href="https://github.com/angband/angband/pull/6477">#6477</a></li>
-
-    <li>Change introduction to the description of an item''s effect by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3771576062" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6478"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6478/hovercard"
-    href="https://github.com/angband/angband/pull/6478">#6478</a></li>
+    data-id="3776466189" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6488"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6488/hovercard"
+    href="https://github.com/angband/angband/pull/6488">#6488</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-19-g87338c0e4...4.2.6-28-g4153ff6a6"><tt>4.2.6-19-g87338c0e4...4.2.6-28-g4153ff6a6</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-28-g4153ff6a6...4.2.6-36-g67b2f6e8d"><tt>4.2.6-28-g4153ff6a6...4.2.6-36-g67b2f6e8d</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * Update release checklist for lessons learned from 4.2.6 by @backwardsEric in
-    https://github.com/angband/angband/pull/6448
+    * Add cmd_get_point(); use it for the debugging commands by @backwardsEric in
+    https://github.com/angband/angband/pull/6481
 
-    * SDL: rework quitting while the game is not at a command prompt by @backwardsEric
-    in https://github.com/angband/angband/pull/6470
+    * In object descriptions, end "Affects your ..." lines with a period by @backwardsEric
+    in https://github.com/angband/angband/pull/6482
 
-    * workflows: avoid hardwiring name of default branch in docs.yaml by @backwardsEric
-    in https://github.com/angband/angband/pull/6471
+    * Update player-facing copyright dates for the new year by @backwardsEric in https://github.com/angband/angband/pull/6483
 
-    * SDL: dispay first line from buildid''s copyright in the About dialog by @backwardsEric
-    in https://github.com/angband/angband/pull/6472
+    * docs: update reference to the current maintainer by @backwardsEric in https://github.com/angband/angband/pull/6484
 
-    * sdl2: except for main.h, include the non-SDL2 headers in alphabetical order
-    by @backwardsEric in https://github.com/angband/angband/pull/6473
+    * x11: use WM_DELETE_WINDOW protocol by @backwardsEric in https://github.com/angband/angband/pull/6485
 
-    * Cast char arguments to toupper() and tolower() to unsigned char by @backwardsEric
-    in https://github.com/angband/angband/pull/6474
+    * Nintendo DS: use the value of PROGNAME for NAME with the blocksds toolchain
+    by @backwardsEric in https://github.com/angband/angband/pull/6486
 
-    * Add column in monster knowledge menu to indicate if fully known by @backwardsEric
-    in https://github.com/angband/angband/pull/6476
+    * macOS: use the strategy from SDL/SDL2 for handling exits by @backwardsEric in
+    https://github.com/angband/angband/pull/6487
 
-    * Equipabble comparison: fix quick filter when all item sources included by @backwardsEric
-    in https://github.com/angband/angband/pull/6477
-
-    * Change introduction to the description of an item''s effect by @backwardsEric
-    in https://github.com/angband/angband/pull/6478
+    * docs: correct typos in GCC package name for Cygwin by @backwardsEric in https://github.com/angband/angband/pull/6488
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-19-g87338c0e4...4.2.6-28-g4153ff6a6'
-  updated: '2026-01-06T14:04:15Z'
-  version: 4.2.6-28-g4153ff6a6
-  version_title: 4.2.6-28-g4153ff6a6
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-28-g4153ff6a6...4.2.6-36-g67b2f6e8d'
+  updated: '2026-01-13T13:24:59Z'
+  version: 4.2.6-36-g67b2f6e8d
+  version_title: 4.2.6-36-g67b2f6e8d
 source: https://github.com/angband/angband
 stars: 1465
 systems:
