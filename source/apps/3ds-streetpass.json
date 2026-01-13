@@ -13,6 +13,6 @@
 	"license": "gpl-3.0",
 	"license_name": "GNU General Public License v3.0 or later",
 	"website": "https://netpass.cafe",
-	"description": "NetPass allows you to get StreetPasses over the iternet",
+	"description": "NetPass allows you to get StreetPasses over the internet",
 	"long_description": "#NetPass: StreetPass in the modern world\n\nNetPass allows you to get StreetPasses via the internet. You do that by joining virtual locations, where, upon entering, the server will randomly match you with other people. After 10 hours you automatically leave the location and can pick a new one."
 }
