@@ -24,7 +24,7 @@ prerelease:
   version: v1,0RC
   version_title: CIA Build
 source: https://github.com/nop90/ZeldaPicross
-stars: 12
+stars: 13
 systems:
 - 3DS
 title: ZeldaPicross
