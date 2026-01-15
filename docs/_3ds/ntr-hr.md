@@ -10,13 +10,13 @@ description: An upgraded version of NTR with better streaming capabilities.
 download_page: https://github.com/xzn/ntr-hr/releases
 downloads:
   BootNTRSelector-Mode3-PabloMK7-Banner.cia:
-    size: 1913792
+    size: 1938368
     size_str: 1 MiB
-    url: https://github.com/xzn/ntr-hr/releases/download/v0.3.5.5/BootNTRSelector-Mode3-PabloMK7-Banner.cia
+    url: https://github.com/xzn/ntr-hr/releases/download/v0.3.6.0/BootNTRSelector-Mode3-PabloMK7-Banner.cia
   BootNTRSelector-PabloMK7-Banner.cia:
-    size: 1913792
+    size: 1938368
     size_str: 1 MiB
-    url: https://github.com/xzn/ntr-hr/releases/download/v0.3.5.5/BootNTRSelector-PabloMK7-Banner.cia
+    url: https://github.com/xzn/ntr-hr/releases/download/v0.3.6.0/BootNTRSelector-PabloMK7-Banner.cia
 github: xzn/ntr-hr
 image: https://avatars.githubusercontent.com/u/1617680?v=4&size=128
 image_length: 1529
@@ -33,31 +33,15 @@ systems:
 title: NTR-HR
 unique_ids:
 - '0xEB000'
-update_notes: '<p dir="auto">Change:</p>
+update_notes: '<p dir="auto">Mode3:</p>
 
-  <p dir="auto">Fixed flickering when starting remote play.</p>
+  <p dir="auto">Further reduced memory usage. Now all downsample options are available
+  in Mode3.</p>
 
-  <p dir="auto">Mode3:<br>
+  <p dir="auto">General:</p>
 
-  Reduced memory usage:</p>
-
-  <ul dir="auto">
-
-  <li>Game plugins are disabled.</li>
-
-  <li>Downsample (even/odd) is force enabled.</li>
-
-  </ul>
-
-  <p dir="auto">Note:<br>
-
-  Some Mode3 games may still not work with remote play due to memory constraints.
-  Frame rate will be low regardless, around 7 FPS on Old 3DS.</p>
-
-  <p dir="auto">Source code:</p>
-
-  <p dir="auto"><a href="https://github.com/xzn/ntr-hr/tree/refactor1">https://github.com/xzn/ntr-hr/tree/refactor1</a></p>'
-updated: '2025-09-04T21:30:58Z'
-version: v0.3.5.5
-version_title: 0.3.5.5
+  <p dir="auto">Minor fixes and text clarification.</p>'
+updated: '2026-01-15T08:03:02Z'
+version: v0.3.6.0
+version_title: 0.3.6.0
 ---
