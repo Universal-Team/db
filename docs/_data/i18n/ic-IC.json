@@ -12,6 +12,7 @@
 	"light": "crwdns22864:0crwdne22864:0",
 	"83-percent": "crwdns30346:0crwdne30346:0",
 	"rss": "crwdns22866:0crwdne22866:0",
+	"bluesky": "crwdns46278:0crwdne46278:0",
 	"discord": "crwdns22868:0crwdne22868:0",
 	"close": "crwdns22870:0crwdne22870:0",
 	"home": "crwdns22872:0crwdne22872:0",
@@ -78,7 +79,8 @@
 	"home-1": "crwdns22960:0crwdne22960:0",
 	"home-2": "crwdns22962:0crwdne22962:0",
 	"home-3": "crwdns22964:0crwdne22964:0",
-	"home-4": "crwdns46220:0/ds/dsidlcrwdnd46220:0/ds/kekatsucrwdne46220:0",
+	"home-4": "crwdns46280:0crwdne46280:0",
+	"home-5": "crwdns46276:0https://universal-team.net/discordcrwdnd46276:0https://bsky.app/profile/universal-team.netcrwdne46276:0",
 	"last-updated-apps": "crwdns22966:0crwdne22966:0",
 	"error-404": "crwdns30058:0crwdne30058:0",
 	"return-to-home": "crwdns30060:0crwdne30060:0"

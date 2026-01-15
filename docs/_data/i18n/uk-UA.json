@@ -12,6 +12,7 @@
 	"light": "Світла",
 	"83-percent": "На 83% красивіше ніж ніколи",
 	"rss": "RSS стрічка",
+	"bluesky": "Bluesky account",
 	"discord": "Сервер Discord",
 	"close": "Закрити",
 	"home": "Головна",
@@ -78,7 +79,8 @@
 	"home-1": "Тут ви можете знайти регулярно оновлені списки домашніх ігор для 3DS та DS, щоб переконатися, що ви отримуєте найновіші версії своїх улюблених програм. Натисніть на посилання в навігаційній панелі вгорі, щоб отримати повний список, або перегляньте деякі з останніх оновлень на цій сторінці!",
 	"home-2": "Більшість інформації на цьому сайті автоматично збирається з інформації в репозиторіях програм на GitHub, однак якщо ви помітили будь-яку невірну інформацію, будь ласка, повідомте про це як <a href=\"https://github.com/Universal-Team/db/issues/new\"> проблему на GitHub</a> або на нашому <a href=\"https://universal-team.net/discord\">сервері Discord</a>. Дякуємо!",
 	"home-3": "Також, це UniStore за замовчуванням для <a href=\"/3ds/universal-updater\">Universal-Updater</a>, тож якщо ви хочете переглядати та встановлювати програми з Universal-DB безпосередньо на 3DS, вам варто спробувати цей додаток.",
-	"home-4": "On the Nintendo DSi there are two options for downloading apps from Universal-DB. [dsidl](/ds/dsidl) can use the QR codes on the site or [Kekatsu](/ds/kekatsu) which functions fully on device. If you have not used Kekatsu before, place this <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> in `sd:/Kekatsu/`.",
+	"home-4": "On the Nintendo DSi there are two options for downloading apps from Universal-DB. <a href=\"/ds/dsidl\">dsidl</a> can use the QR codes on the site or <a href=\"/ds/kekatsu\">Kekatsu</a> which functions fully on device. If you have not used Kekatsu before, place this <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> in <code>sd:/Kekatsu/</code>.",
+	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our [Discord server](https://universal-team.net/discord)'s #universal-db-updates and to our [Bluesky](https://bsky.app/profile/universal-team.net)!",
 	"last-updated-apps": "Найновіше оновлені додатки: ",
 	"error-404": "Помилка! 404!",
 	"return-to-home": "Повернутися на <a href=\"/\">домашню сторінку</a> або <span class=\"a\" onclick=\"window.history.back()\">повернутися</span> на попередню сторінку."

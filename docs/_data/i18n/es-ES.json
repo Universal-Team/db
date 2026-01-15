@@ -12,6 +12,7 @@
 	"light": "Claro",
 	"83-percent": "83% más bonito",
 	"rss": "Feed RSS",
+	"bluesky": "Bluesky account",
 	"discord": "Servidor de Discord",
 	"close": "Cerrar",
 	"home": "Inicio",
@@ -78,7 +79,8 @@
 	"home-1": "Aquí puedes encontrar una lista de aplicaciones homebrew para 3DS y DS, regularmente actualizados para asegurarte de que obtienes las últimas versiones. ¡Haz clic en los enlaces de la barra de navegación en la parte superior para obtener la lista completa, o revisa las últimas actualizaciones al fondo de esta página!",
 	"home-2": "La mayor parte de la información en este sitio se recopila automáticamente del repositorio de la aplicación GitHub, sin embargo, si notas alguna información incorrecta, por favor repórtalo como un <a href=\"https://github.com/Universal-Team/db/issues/new\">problema en la página de GitHub</a> o en nuestro <a href=\"https://universal-team.net/discord\">servidor de Discord</a>. ¡Gracias!",
 	"home-3": "Esto también es el UniStore por defecto de <a href=\"/3ds/universal-updater\">Universal-Updater</a>, así que si quieres buscar e instalar aplicaciones de Universal-DB directamente en tu 3DS deberías darle una oportunidad.",
-	"home-4": "On the Nintendo DSi there are two options for downloading apps from Universal-DB. [dsidl](/ds/dsidl) can use the QR codes on the site or [Kekatsu](/ds/kekatsu) which functions fully on device. If you have not used Kekatsu before, place this <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> in `sd:/Kekatsu/`.",
+	"home-4": "On the Nintendo DSi there are two options for downloading apps from Universal-DB. <a href=\"/ds/dsidl\">dsidl</a> can use the QR codes on the site or <a href=\"/ds/kekatsu\">Kekatsu</a> which functions fully on device. If you have not used Kekatsu before, place this <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> in <code>sd:/Kekatsu/</code>.",
+	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our [Discord server](https://universal-team.net/discord)'s #universal-db-updates and to our [Bluesky](https://bsky.app/profile/universal-team.net)!",
 	"last-updated-apps": "Actualizado por última vez: ",
 	"error-404": "¡Error! ¡404!",
 	"return-to-home": "Volver a la <a href=\"/\">página de inicio</a> o <span class=\"a\" onclick=\"window.history.back()\">ir atrás</span> a la página previa."

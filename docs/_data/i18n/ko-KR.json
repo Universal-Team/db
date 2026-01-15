@@ -12,6 +12,7 @@
 	"light": "라이트",
 	"83-percent": "83% 더 아름답게",
 	"rss": "RSS 피드",
+	"bluesky": "Bluesky account",
 	"discord": "디스코드 서버",
 	"close": "닫기",
 	"home": "홈",
@@ -78,7 +79,8 @@
 	"home-1": "여기에서 최신 버전을 받을 수 있도록 정기적으로 업데이트되는 3DS 및 DS 홈브류 목록을 찾을 수 있습니다. 전체 목록을 보려면 상단의 탐색 바에 있는 링크를 클릭하거나 이 페이지 하단에서 가장 최근에 업데이트된 일부를 확인하십시오.",
 	"home-2": "이 사이트의 대부분의 정보는 앱의 GitHub 저장소에서 자동으로 수집됩니다. 그러나 잘못된 정보를 발견하면 <a href=\"https://github.com/Universal-Team/db/issues/new\">GitHub Issue</a> 나 우리 <a href=\"https://universal-team.net/discord\">디스코드 서버</a>에 신고해 주세요. 감사합니다!",
 	"home-3": "이것은 <a href=\"/3ds/universal-updater\">Universal-Updater</a>용 기본 UniStore이기도 하므로 Universal-DB의 앱을 찾아보고 3DS에서 직접 설치하려면 사용해 보길 권합니다.",
-	"home-4": "On the Nintendo DSi there are two options for downloading apps from Universal-DB. [dsidl](/ds/dsidl) can use the QR codes on the site or [Kekatsu](/ds/kekatsu) which functions fully on device. If you have not used Kekatsu before, place this <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> in `sd:/Kekatsu/`.",
+	"home-4": "On the Nintendo DSi there are two options for downloading apps from Universal-DB. <a href=\"/ds/dsidl\">dsidl</a> can use the QR codes on the site or <a href=\"/ds/kekatsu\">Kekatsu</a> which functions fully on device. If you have not used Kekatsu before, place this <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> in <code>sd:/Kekatsu/</code>.",
+	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our [Discord server](https://universal-team.net/discord)'s #universal-db-updates and to our [Bluesky](https://bsky.app/profile/universal-team.net)!",
 	"last-updated-apps": "마지막 업데이트: ",
 	"error-404": "오류! 404!",
 	"return-to-home": "<a href=\"/\">홈페이지</a> 또는 <span class=\"a\" onclick=\"window.history.back()\">이전 페이지</span>로 돌아가세요."
