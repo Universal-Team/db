@@ -109,7 +109,7 @@ prerelease:
 qr:
   OoT3D_Randomizer.cia: https://db.universal-team.net/assets/images/qr/oot3d_randomizer-cia.png
 source: https://github.com/gamestabled/OoT3D_Randomizer
-stars: 220
+stars: 221
 systems:
 - 3DS
 title: OoT3D_Randomizer
