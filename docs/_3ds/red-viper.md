@@ -10,13 +10,13 @@ description: A Virtual Boy emulator for the 3DS
 download_page: https://github.com/skyfloogle/red-viper/releases
 downloads:
   red-viper.3dsx:
-    size: 670096
+    size: 670168
     size_str: 654 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v1.2.2/red-viper.3dsx
+    url: https://github.com/skyfloogle/red-viper/releases/download/v1.2.3/red-viper.3dsx
   red-viper.cia:
     size: 693184
     size_str: 676 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v1.2.2/red-viper.cia
+    url: https://github.com/skyfloogle/red-viper/releases/download/v1.2.3/red-viper.cia
 github: skyfloogle/red-viper
 icon: https://raw.githubusercontent.com/skyfloogle/red-viper/master/icon.png
 image: https://raw.githubusercontent.com/skyfloogle/red-viper/master/resources/banner.png
@@ -34,13 +34,21 @@ screenshots:
 - description: Warioland
   url: https://db.universal-team.net/assets/images/screenshots/red-viper/warioland.png
 source: https://github.com/skyfloogle/red-viper
-stars: 960
+stars: 961
 systems:
 - 3DS
 title: red-viper
 unique_ids:
 - '0xFE7CB'
 update_notes: '<ul dir="auto">
+
+  <li>Fixed a potential performance regression introduced in v1.2.2</li>
+
+  </ul>
+
+  <p dir="auto">v1.2.2 changelog in case you missed it:</p>
+
+  <ul dir="auto">
 
   <li>Fixed a bug where in homebrew that doesn''t use tile worlds, the screen may
   be completely black</li>
@@ -50,9 +58,9 @@ update_notes: '<ul dir="auto">
   <li>Detect a few additional busywait patterns</li>
 
   </ul>'
-updated: '2026-01-18T14:43:51Z'
-version: v1.2.2
-version_title: v1.2.2
+updated: '2026-01-18T17:27:13Z'
+version: v1.2.3
+version_title: v1.2.3
 wiki: https://github.com/skyfloogle/red-viper/wiki
 ---
 A Virtual Boy emulator for the 3DS. All official games are playable at full speed.
