@@ -23,7 +23,7 @@ license_name: GNU General Public License v3.0
 qr:
   wumiibohelper.cia: https://db.universal-team.net/assets/images/qr/wumiibohelper-cia.png
 source: https://github.com/hax0kartik/wumiibo
-stars: 477
+stars: 478
 systems:
 - 3DS
 title: wumiibo
