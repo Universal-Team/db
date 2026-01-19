@@ -22,6 +22,117 @@ icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
+prerelease:
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.1.0
+  downloads:
+    TJAP_3DS.3dsx:
+      size: 9724412
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.1.0/TJAP_3DS.3dsx
+    TJAP_3DS.cia:
+      size: 9925568
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.1.0/TJAP_3DS.cia
+  qr:
+    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
+  update_notes: '<h2 dir="auto">チェンジログ</h2>
+
+    <ul dir="auto">
+
+    <li>ダミーノーツの実装<br>
+
+    <code class="notranslate">#DUMMYSTART</code>を<code class="notranslate">#BARLINEON</code>の様に使うと叩いてもスルーされるノーツが出ます。<br>
+
+    有効化されてる間はスコアの計算や判定等もされません。<br>
+
+    無効化する際は<code class="notranslate">#DUMMYEND</code>を使用して下さい。</li>
+
+    <li>譜面終了時の処理を一部変更</li>
+
+    <li>連打速度を更に早く...？<br>
+
+    オプション変数が変わった影響の為申し訳無いですが、連打速度の再設定をお願いします！</li>
+
+    </ul>
+
+    <h2 dir="auto">changelog</h2>
+
+    <ul dir="auto">
+
+    <li>Implementation of Dummy Notes</li>
+
+    </ul>
+
+    <p dir="auto">If you use <code class="notranslate">#DUMMYSTART</code> like <code
+    class="notranslate">#BARLINEON</code>, you will get notes that will be passed
+    even if you hit it.</p>
+
+    <p dir="auto">While it is activated, the score will not be calculated or judged.</p>
+
+    <p dir="auto">Please use <code class="notranslate">#DUMMYEND</code> to disable
+    it.</p>
+
+    <ul dir="auto">
+
+    <li>
+
+    <p dir="auto">Partial change in the processing at the end of the score</p>
+
+    </li>
+
+    <li>
+
+    <p dir="auto">Make the consecutive RollSpeed even faster...?</p>
+
+    </li>
+
+    </ul>
+
+    <p dir="auto">I''m sorry for the change in the option variable, but please reset
+    the consecutive RollSpeed!</p>'
+  update_notes_md: '## チェンジログ
+
+    - ダミーノーツの実装
+
+    `#DUMMYSTART`を`#BARLINEON`の様に使うと叩いてもスルーされるノーツが出ます。
+
+    有効化されてる間はスコアの計算や判定等もされません。
+
+    無効化する際は`#DUMMYEND`を使用して下さい。
+
+    - 譜面終了時の処理を一部変更
+
+    - 連打速度を更に早く...？
+
+    オプション変数が変わった影響の為申し訳無いですが、連打速度の再設定をお願いします！
+
+
+    ## changelog
+
+    - Implementation of Dummy Notes
+
+
+    If you use `#DUMMYSTART` like `#BARLINEON`, you will get notes that will be passed
+    even if you hit it.
+
+
+    While it is activated, the score will not be calculated or judged.
+
+
+    Please use `#DUMMYEND` to disable it.
+
+
+    - Partial change in the processing at the end of the score
+
+
+    - Make the consecutive RollSpeed even faster...?
+
+
+    I''m sorry for the change in the option variable, but please reset the consecutive
+    RollSpeed!'
+  updated: '2026-01-19T06:15:58Z'
+  version: v2.1.0
+  version_title: TJAPlayer for 3DS v2.1.0
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
