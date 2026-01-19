@@ -59,4 +59,5 @@ bundle exec jekyll serve
 
 # Credits
 - [Pk11](https://github.com/Epicpkmn11): Most website design and data collection code
+- [TrianguloY](https://github.com/TrianguloY): Many of the background images, one per month
 - [devkitPro](https://github.com/devkitPro): tex3ds
