@@ -29,6 +29,30 @@ image_length: 3957
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+nightly:
+  download_page: https://github.com/Epicpkmn11/WordleDS/releases/tag/dev
+  downloads:
+    WordleDS.cia:
+      size: 972992
+      size_str: 950 KiB
+      url: https://github.com/Epicpkmn11/WordleDS/releases/download/dev/WordleDS.cia
+    WordleDS.dsi:
+      size: 958400
+      size_str: 935 KiB
+      url: https://github.com/Epicpkmn11/WordleDS/releases/download/dev/WordleDS.dsi
+    WordleDS.nds:
+      size: 958400
+      size_str: 935 KiB
+      url: https://github.com/Epicpkmn11/WordleDS/releases/download/dev/WordleDS.nds
+  qr:
+    WordleDS.cia: https://db.universal-team.net/assets/images/qr/git/wordleds-cia.png
+    WordleDS.dsi: https://db.universal-team.net/assets/images/qr/git/wordleds-dsi.png
+    WordleDS.nds: https://db.universal-team.net/assets/images/qr/git/wordleds-nds.png
+  update_notes: <p dir="auto">Pk11 - Fix words.cpp having missing words</p>
+  update_notes_md: Pk11 - Fix words.cpp having missing words
+  updated: '2026-01-19T02:44:51Z'
+  version: dev
+  version_title: Continuous Build - a62d2c0
 qr:
   WordleDS.cia: https://db.universal-team.net/assets/images/qr/wordleds-cia.png
   WordleDS.dsi: https://db.universal-team.net/assets/images/qr/wordleds-dsi.png
