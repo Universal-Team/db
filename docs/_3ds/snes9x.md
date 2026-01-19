@@ -19,7 +19,7 @@ image: https://db.universal-team.net/assets/images/images/snes9x.png
 image_length: 5476
 layout: app
 source: https://github.com/bubble2k16/snes9x_3ds
-stars: 473
+stars: 474
 systems:
 - 3DS
 title: Snes9x

@@ -10,10 +10,10 @@ description: Bandai WonderSwan (Color/Crystal) & Benesse PocketChallenge V2 emul
   for the Nintendo DS(i)/3DS.
 download_page: https://github.com/FluBBaOfWard/NitroSwan/releases
 downloads:
-  NitroSwan0_7_5.zip:
-    size: 185796
+  NitroSwan.zip:
+    size: 185776
     size_str: 181 KiB
-    url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.7.5/NitroSwan0_7_5.zip
+    url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.7.6/NitroSwan.zip
 github: FluBBaOfWard/NitroSwan
 icon: https://db.universal-team.net/assets/images/icons/nitroswan.png
 image: https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/logo.png
@@ -24,8 +24,14 @@ stars: 62
 systems:
 - DS
 title: NitroSwan
-update_notes: <p dir="auto">Fixed reading of ch3 frequency for real.</p>
-updated: '2025-08-08T14:38:59Z'
-version: v0.7.5
-version_title: V0.7.5
+update_notes: '<ul dir="auto">
+
+  <li>Fixed register 0x14 initialisation in built-in BIOS.</li>
+
+  <li>Optimised sound mixer a tiny bit.</li>
+
+  </ul>'
+updated: '2026-01-18T19:35:40Z'
+version: v0.7.6
+version_title: V0.7.6
 ---
