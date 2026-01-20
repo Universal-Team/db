@@ -1,0 +1,29 @@
+{
+	"github": "SNBeast/qtmStub",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon": "https://raw.githubusercontent.com/SNBeast/qtmStub/refs/heads/main/icon.png",
+	"long_description": "# qtmStub\n\nA patch to bypass qtm error 0xf9605002 for cases where servicing the camera hardware is not feasible.\n\n## Effects\n\nIf qtm was broken without this patch applied, it will still be broken with this patch applied, and so Super-Stable 3D will not work. From my case, the 3D projection with this patch applied will behave as if Super-Stable 3D is turned off. Additionally, your cameras are unlikely to work and software which attempts to use them will likely crash or hang.\n\n## Installation\n\nMade for the latest version of qtm, v3072. That comes with a system firmware of at least 11.5.0-38, released July 10<sup>th</sup>, 2017.\n\nIf you believe your firmware may be too out of date, you can run System Update in Safe Mode by holding `L + R + Up + A` on boot. Safe Mode does not load qtm, so it can work without this patch.\n\n### Luma3DS v13 or newer\n\n1. Download `0004013000004202.ips` from the latest release.\n1. Copy `0004013000004202.ips` into `SD:/luma/sysmodules/`, creating folders as necessary. Ensure that its filename is preserved.\n1. Enable the Luma setting `Enable loading external FIRMs and modules`, such as by using the menu accessed by holding Select on boot.\n\n### Older Luma3DS versions\n\n1. Download `0004013000004202.ips` from the latest release.\n1. Rename `0004013000004202.ips` to `code.ips`.\n1. Copy `code.ips` into `SD:/luma/titles/0004013000004202/`, creating folders as necessary.\n1. Enable *both* of the Luma settings `Enable loading external FIRMs and modules` and `Enable game patching`.",
+	"scripts": {
+		"0004013000004202.ips": [
+			{
+				"type": "mkdir",
+				"directory": "sdmc:/luma/titles/0004013000004202/"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "SNBeast/qtmStub",
+				"file": "0004013000004202.ips",
+				"output": "sdmc:/luma/titles/0004013000004202/code.ips"
+			},
+			{
+				"type": "promptMessage",
+				"message": "To use the patch, you must enable both of the Luma3DS settings \"Enable loading external FIRMs and modules\" and \"Enable game patching\". (Yes/No is irrelevant.)"
+			}
+		]
+	}
+}
