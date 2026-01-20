@@ -89,7 +89,7 @@ screenshots:
 - description: Rosalina menu
   url: https://db.universal-team.net/assets/images/screenshots/nexus3ds/rosalina-menu.png
 source: https://github.com/2b-zipper/Nexus3DS
-stars: 38
+stars: 39
 systems:
 - 3DS
 title: Nexus3DS
