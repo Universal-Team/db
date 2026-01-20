@@ -11,18 +11,15 @@
 	"scripts": {
 		"0004013000004202.ips": [
 			{
-				"type": "mkdir",
-				"directory": "sdmc:/luma/titles/0004013000004202/"
+				"type": "promptMessage",
+				"message": "This patch requires at least v13 of Luma3DS with\n\"Enable loading external FIRMs and modules\" enabled.\nDo you want to continue installation?",
+				"count": 1
 			},
 			{
 				"type": "downloadRelease",
 				"repo": "SNBeast/qtmStub",
 				"file": "0004013000004202.ips",
-				"output": "sdmc:/luma/titles/0004013000004202/code.ips"
-			},
-			{
-				"type": "promptMessage",
-				"message": "To use the patch, you must enable both of the Luma3DS settings \"Enable loading external FIRMs and modules\" and \"Enable game patching\". (Yes/No is irrelevant.)"
+				"output": "sdmc:/luma/sysmodules/0004013000004202.ips"
 			}
 		]
 	}
