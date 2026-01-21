@@ -31,8 +31,8 @@ title: nds-bootstrap
 update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.22.0"><strong>TW</strong>i<strong>L</strong>ight
   Menu++ v27.22.0</a><br>
 
-  Re-released to fix <code class="notranslate">Quit Game</code> opening the system
-  menu instead of Unlaunch/TWLMenu++/<code class="notranslate">boot.nds</code>.</p>
+  <strong>DSi/3DS:</strong> Re-released to fix <code class="notranslate">Quit Game</code>
+  opening the system menu instead of Unlaunch/TWLMenu++/<code class="notranslate">boot.nds</code>.</p>
 
   <p dir="auto">Instructions:</p>
 
