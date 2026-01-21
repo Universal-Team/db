@@ -77,4 +77,5 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 updated: '2026-01-21T02:00:02Z'
 version: SD-26
 version_title: 'GitHub Release #26'
+wiki: https://github.com/RocketRobz/NTR_Forwarder/wiki
 ---
