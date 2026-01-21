@@ -18,115 +18,63 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-36-g67b2f6e8d
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-39-g0310a1259
   downloads:
-    Angband-4.2.6-36-g67b2f6e8d-3ds.zip:
-      size: 24669078
+    Angband-4.2.6-39-g0310a1259-3ds.zip:
+      size: 24669753
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-36-g67b2f6e8d/Angband-4.2.6-36-g67b2f6e8d-3ds.zip
-    Angband-4.2.6-36-g67b2f6e8d-nds.zip:
+      url: https://github.com/angband/angband/releases/download/4.2.6-39-g0310a1259/Angband-4.2.6-39-g0310a1259-3ds.zip
+    Angband-4.2.6-39-g0310a1259-nds.zip:
       size: 23330299
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-36-g67b2f6e8d/Angband-4.2.6-36-g67b2f6e8d-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-39-g0310a1259/Angband-4.2.6-39-g0310a1259-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>Add cmd_get_point(); use it for the debugging commands by <a class="user-mention
+    <li>borg: updating commands to allow selection of target by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="3825664853" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6495"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6495/hovercard"
+    href="https://github.com/angband/angband/pull/6495">#6495</a></li>
+
+    <li>workflows: use ID and code as for a release in Nintendo workflow by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3772936118" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6481"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6481/hovercard"
-    href="https://github.com/angband/angband/pull/6481">#6481</a></li>
+    data-id="3800427348" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6489"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6489/hovercard"
+    href="https://github.com/angband/angband/pull/6489">#6489</a></li>
 
-    <li>In object descriptions, end "Affects your ..." lines with a period by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    <li>SDL2: guard code for event tracing with "ifdef SDLPUI_TRACE_EVENTS" by <a
+    class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3772948164" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6482"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6482/hovercard"
-    href="https://github.com/angband/angband/pull/6482">#6482</a></li>
-
-    <li>Update player-facing copyright dates for the new year by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3774994993" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6483"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6483/hovercard"
-    href="https://github.com/angband/angband/pull/6483">#6483</a></li>
-
-    <li>docs: update reference to the current maintainer by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3775004053" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6484"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6484/hovercard"
-    href="https://github.com/angband/angband/pull/6484">#6484</a></li>
-
-    <li>x11: use WM_DELETE_WINDOW protocol by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3775352774" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6485"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6485/hovercard"
-    href="https://github.com/angband/angband/pull/6485">#6485</a></li>
-
-    <li>Nintendo DS: use the value of PROGNAME for NAME with the blocksds toolchain
-    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3775359336" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6486"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6486/hovercard"
-    href="https://github.com/angband/angband/pull/6486">#6486</a></li>
-
-    <li>macOS: use the strategy from SDL/SDL2 for handling exits by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3775387483" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6487"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6487/hovercard"
-    href="https://github.com/angband/angband/pull/6487">#6487</a></li>
-
-    <li>docs: correct typos in GCC package name for Cygwin by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3776466189" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6488"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6488/hovercard"
-    href="https://github.com/angband/angband/pull/6488">#6488</a></li>
+    data-id="3801955362" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6490"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6490/hovercard"
+    href="https://github.com/angband/angband/pull/6490">#6490</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-28-g4153ff6a6...4.2.6-36-g67b2f6e8d"><tt>4.2.6-28-g4153ff6a6...4.2.6-36-g67b2f6e8d</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-36-g67b2f6e8d...4.2.6-39-g0310a1259"><tt>4.2.6-36-g67b2f6e8d...4.2.6-39-g0310a1259</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * Add cmd_get_point(); use it for the debugging commands by @backwardsEric in
-    https://github.com/angband/angband/pull/6481
+    * borg: updating commands to allow selection of target by @agoodman00 in https://github.com/angband/angband/pull/6495
 
-    * In object descriptions, end "Affects your ..." lines with a period by @backwardsEric
-    in https://github.com/angband/angband/pull/6482
+    * workflows: use ID and code as for a release in Nintendo workflow by @backwardsEric
+    in https://github.com/angband/angband/pull/6489
 
-    * Update player-facing copyright dates for the new year by @backwardsEric in https://github.com/angband/angband/pull/6483
-
-    * docs: update reference to the current maintainer by @backwardsEric in https://github.com/angband/angband/pull/6484
-
-    * x11: use WM_DELETE_WINDOW protocol by @backwardsEric in https://github.com/angband/angband/pull/6485
-
-    * Nintendo DS: use the value of PROGNAME for NAME with the blocksds toolchain
-    by @backwardsEric in https://github.com/angband/angband/pull/6486
-
-    * macOS: use the strategy from SDL/SDL2 for handling exits by @backwardsEric in
-    https://github.com/angband/angband/pull/6487
-
-    * docs: correct typos in GCC package name for Cygwin by @backwardsEric in https://github.com/angband/angband/pull/6488
+    * SDL2: guard code for event tracing with "ifdef SDLPUI_TRACE_EVENTS" by @backwardsEric
+    in https://github.com/angband/angband/pull/6490
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-28-g4153ff6a6...4.2.6-36-g67b2f6e8d'
-  updated: '2026-01-13T13:24:59Z'
-  version: 4.2.6-36-g67b2f6e8d
-  version_title: 4.2.6-36-g67b2f6e8d
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-36-g67b2f6e8d...4.2.6-39-g0310a1259'
+  updated: '2026-01-21T00:01:53Z'
+  version: 4.2.6-39-g0310a1259
+  version_title: 4.2.6-39-g0310a1259
 source: https://github.com/angband/angband
 stars: 1470
 systems:

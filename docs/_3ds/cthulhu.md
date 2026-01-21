@@ -21,7 +21,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/Ryuzaki-MrL/Cthulhu
-stars: 127
+stars: 128
 systems:
 - 3DS
 title: Cthulhu
