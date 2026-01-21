@@ -7,7 +7,7 @@ categories:
 color: '#56a659'
 color_bg: '#428044'
 created: '2024-11-24T02:02:43Z'
-description: Luma3DS fork with enhanced features!
+description: Luma3DS fork with experimental features!
 download_page: https://github.com/2b-zipper/Nexus3DS/releases
 github: 2b-zipper/Nexus3DS
 icon: https://github.com/2b-zipper/Nexus3DS/raw/master/img/logo_icon.png
@@ -88,8 +88,14 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/nexus3ds/config-menu.png
 - description: Rosalina menu
   url: https://db.universal-team.net/assets/images/screenshots/nexus3ds/rosalina-menu.png
+script_message: 'This is a fork of Luma3DS. Using alternate forks of Luma3DS can cause
+  system instability and other unexpected issues.
+
+
+  If you experience any issues please reinstall the normal "Luma3DS" before anything
+  else.'
 source: https://github.com/2b-zipper/Nexus3DS
-stars: 42
+stars: 44
 systems:
 - 3DS
 title: Nexus3DS
