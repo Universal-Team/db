@@ -1,7 +1,7 @@
 {
 	"github": "2b-zipper/Nexus3DS",
 	"title": "Nexus3DS",
-	"description": "Luma3DS fork with enhanced features!",
+	"description": "Luma3DS fork with experimental features!",
 	"long_description": "Please refer to the README on the github repo for more info: https://github.com/2b-zipper/Nexus3DS/blob/master/README.md",
 	"author": "2b-zipper, cooolgamer, Rep, LumaTeam",
 	"website": "https://discord.gg/StUs5bsw2S",
@@ -13,5 +13,6 @@
 		"firm"
 	],
 	"image": "https://github.com/2b-zipper/Nexus3DS/raw/master/img/logo_1.png",
-	"icon": "https://github.com/2b-zipper/Nexus3DS/raw/master/img/logo_icon.png"
+	"icon": "https://github.com/2b-zipper/Nexus3DS/raw/master/img/logo_icon.png",
+	"script_message": "This is a fork of Luma3DS. Using alternate forks of Luma3DS can cause system instability and other unexpected issues.\n\nIf you experience any issues please reinstall the normal \"Luma3DS\" before anything else."
 }
