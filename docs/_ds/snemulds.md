@@ -14,7 +14,7 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 source: https://github.com/cotodevel/snemulds
-stars: 4
+stars: 5
 systems:
 - DS
 title: snemulds

@@ -30,7 +30,7 @@ script_message: 'Note: You will need to set up your account.
 
   How to set up: https://gbatemp.net/threads/539530'
 source: https://github.com/Core-2-Extreme/Line_for_3DS
-stars: 41
+stars: 42
 systems:
 - 3DS
 title: Line for 3DS
