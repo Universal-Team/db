@@ -26,11 +26,11 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.1.0
   downloads:
     TJAP_3DS.3dsx:
-      size: 9725296
+      size: 9730208
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.1.0/TJAP_3DS.3dsx
     TJAP_3DS.cia:
-      size: 9925568
+      size: 9929664
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.1.0/TJAP_3DS.cia
   qr:
@@ -59,37 +59,23 @@ prerelease:
 
     <ul dir="auto">
 
-    <li>Implementation of Dummy Notes</li>
+    <li>Implementation of Dummy Notes<br>
 
-    </ul>
+    If you use <code class="notranslate">#DUMMYSTART</code> like <code class="notranslate">#BARLINEON</code>,
+    you will get notes that will be passed even if you hit it.<br>
 
-    <p dir="auto">If you use <code class="notranslate">#DUMMYSTART</code> like <code
-    class="notranslate">#BARLINEON</code>, you will get notes that will be passed
-    even if you hit it.</p>
+    While it is activated, the score will not be calculated or judged.<br>
 
-    <p dir="auto">While it is activated, the score will not be calculated or judged.</p>
+    Please use <code class="notranslate">#DUMMYEND</code> to disable it.</li>
 
-    <p dir="auto">Please use <code class="notranslate">#DUMMYEND</code> to disable
-    it.</p>
+    <li>Partial change in the processing at the end of the score</li>
 
-    <ul dir="auto">
+    <li>Make the consecutive RollSpeed even faster...?<br>
 
-    <li>
+    I''m sorry for the change in the option variable, but please reset the consecutive
+    RollSpeed!</li>
 
-    <p dir="auto">Partial change in the processing at the end of the score</p>
-
-    </li>
-
-    <li>
-
-    <p dir="auto">Make the consecutive RollSpeed even faster...?</p>
-
-    </li>
-
-    </ul>
-
-    <p dir="auto">I''m sorry for the change in the option variable, but please reset
-    the consecutive RollSpeed!</p>'
+    </ul>'
   update_notes_md: '## チェンジログ
 
     - ダミーノーツの実装
@@ -111,22 +97,16 @@ prerelease:
 
     - Implementation of Dummy Notes
 
-
     If you use `#DUMMYSTART` like `#BARLINEON`, you will get notes that will be passed
     even if you hit it.
 
-
     While it is activated, the score will not be calculated or judged.
-
 
     Please use `#DUMMYEND` to disable it.
 
-
     - Partial change in the processing at the end of the score
 
-
     - Make the consecutive RollSpeed even faster...?
-
 
     I''m sorry for the change in the option variable, but please reset the consecutive
     RollSpeed!'
