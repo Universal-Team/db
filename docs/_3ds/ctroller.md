@@ -27,7 +27,7 @@ license_name: GNU General Public License v3.0
 qr:
   ctroller.cia: https://db.universal-team.net/assets/images/qr/ctroller-cia.png
 source: https://github.com/phijor/ctroller
-stars: 42
+stars: 43
 systems:
 - 3DS
 title: ctroller

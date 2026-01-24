@@ -27,7 +27,7 @@ license_name: MIT License
 qr:
   3DS_Recovery_Tool.cia: https://db.universal-team.net/assets/images/qr/3ds_recovery_tool-cia.png
 source: https://github.com/joel16/3DS-Recovery-Tool
-stars: 27
+stars: 28
 systems:
 - 3DS
 title: 3DS-Recovery-Tool
