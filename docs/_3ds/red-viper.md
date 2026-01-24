@@ -10,13 +10,13 @@ description: A Virtual Boy emulator for the 3DS
 download_page: https://github.com/skyfloogle/red-viper/releases
 downloads:
   red-viper.3dsx:
-    size: 670168
+    size: 669940
     size_str: 654 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v1.2.3/red-viper.3dsx
+    url: https://github.com/skyfloogle/red-viper/releases/download/v1.2.4/red-viper.3dsx
   red-viper.cia:
-    size: 693184
-    size_str: 676 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v1.2.3/red-viper.cia
+    size: 697280
+    size_str: 680 KiB
+    url: https://github.com/skyfloogle/red-viper/releases/download/v1.2.4/red-viper.cia
 github: skyfloogle/red-viper
 icon: https://raw.githubusercontent.com/skyfloogle/red-viper/master/icon.png
 image: https://raw.githubusercontent.com/skyfloogle/red-viper/master/resources/banner.png
@@ -42,25 +42,15 @@ unique_ids:
 - '0xFE7CB'
 update_notes: '<ul dir="auto">
 
-  <li>Fixed a potential performance regression introduced in v1.2.2</li>
+  <li>Fixed a bug where toggling anaglyph mode in-game causes a crash with the top
+  screen slowly fading to black</li>
 
-  </ul>
-
-  <p dir="auto">v1.2.2 changelog in case you missed it:</p>
-
-  <ul dir="auto">
-
-  <li>Fixed a bug where in homebrew that doesn''t use tile worlds, the screen may
-  be completely black</li>
-
-  <li>Fixed crashes when closing the emulator during and when exiting multiplayer</li>
-
-  <li>Detect a few additional busywait patterns</li>
+  <li>Avoid recalculating column table every frame</li>
 
   </ul>'
-updated: '2026-01-18T17:27:13Z'
-version: v1.2.3
-version_title: v1.2.3
+updated: '2026-01-24T20:19:17Z'
+version: v1.2.4
+version_title: v1.2.4
 wiki: https://github.com/skyfloogle/red-viper/wiki
 ---
 A Virtual Boy emulator for the 3DS. All official games are playable at full speed.
