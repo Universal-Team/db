@@ -1,0 +1,13 @@
+{
+	"github": "AzizBgBoss/derailed",
+	"title": "Derailed!",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/AzizBgBoss/derailed/refs/heads/main/media/icon.png",
+	"image": "https://raw.githubusercontent.com/AzizBgBoss/derailed/refs/heads/main/media/banner.png",
+	"long_description": "# Derailed!\nA game inspired by Unrailed! for the DS by AzizBgBoss, about keeping a train running."
+}
