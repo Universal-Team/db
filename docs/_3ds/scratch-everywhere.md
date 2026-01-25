@@ -12,17 +12,17 @@ download_filter: (\.3dsx|\.cia|\.nds)
 download_page: https://github.com/ScratchEverywhere/ScratchEverywhere/releases
 downloads:
   scratch-3ds.3dsx:
-    size: 8723432
-    size_str: 8 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.33/scratch-3ds.3dsx
-  scratch-3ds.cia:
-    size: 7615424
+    size: 8016376
     size_str: 7 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.33/scratch-3ds.cia
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.34/scratch-3ds.3dsx
+  scratch-3ds.cia:
+    size: 6894528
+    size_str: 6 MiB
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.34/scratch-3ds.cia
   scratch-ds.nds:
-    size: 5445632
+    size: 5462016
     size_str: 5 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.33/scratch-ds.nds
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.34/scratch-ds.nds
 github: ScratchEverywhere/ScratchEverywhere
 icon: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/icon.png
 image: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/3ds/banner.png
@@ -40,89 +40,85 @@ systems:
 title: Scratch Everywhere!
 unique_ids:
 - '0x2143'
-update_notes: '<h2 dir="auto">Runtime Changes</h2>
+update_notes: '<h2 dir="auto">Menu Changes</h2>
 
   <ul dir="auto">
 
-  <li>Fixed a bug causing the app not to launch on Windows, Wii U, NDS, and PS4</li>
+  <li>The main menu is no longer jolly....</li>
 
-  <li>Added support for <code class="notranslate">Pitch</code> and <code class="notranslate">Pan
-  left-right</code> audio effects
+  </ul>
+
+  <h2 dir="auto">Parity Changes</h2>
 
   <ul dir="auto">
 
-  <li>These effects are currently only available on SDL3 devices (3DS, Linux, Mac)</li>
+  <li>Implemented all <code class="notranslate">Say</code> and <code class="notranslate">Think</code>
+  blocks!
+
+  <ul dir="auto">
+
+  <li>Via PR <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+  data-id="3825997050" data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/538"
+  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/538/hovercard"
+  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/538">#538</a>!
+  Thanks <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/roccopm/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/roccopm">@roccopm</a>!</li>
 
   </ul>
 
   </li>
 
-  <li>Fixed monitors, collision, and mouse being in the wrong position</li>
+  <li>Implemented <code class="notranslate">Switch Backdrop to x And Wait</code> block</li>
 
-  <li>Fixed mouse position being set to the top left of the screen on touch screen
-  devices</li>
+  <li>Fixed position of monitors (visible variables) when using a custom Project resolution</li>
 
-  <li>Re-Added mouse mode to devices with no touch screen or mouse support (PS4, PSP,
-  GameCube)</li>
+  <li>Sprite fencing should now be a bit more accurate</li>
 
-  </ul>
+  <li>Fixed some Sprite layering issues</li>
 
-  <h2 dir="auto">Menu Changes</h2>
+  <li>Fixed <code class="notranslate">Delete This Clone</code> block sometimes not
+  working</li>
 
-  <ul dir="auto">
+  <li>Fixed Broadcast blocks not working in some projects</li>
 
-  <li>Removed NDS menu music from non-NDS platforms
-
-  <ul dir="auto">
-
-  <li>This means SE! will have a smaller file size!</li>
+  <li>Fixed number overflow issues</li>
 
   </ul>
 
-  </li>
-
-  <li>Splash text is no longer the default <code class="notranslate">Everywhere!</code>
-  on some devices</li>
-
-  </ul>
-
-  <h2 dir="auto">3DS / NDS Changes</h2>
+  <h2 dir="auto">Runtime Changes</h2>
 
   <ul dir="auto">
 
-  <li>The trackpad mouse behavior on top screen projects has been removed, and replaced
-  with normal touch screen behavior</li>
+  <li>Fixed collision on non-rotated Sprites</li>
 
   </ul>
 
-  <h2 dir="auto">MacOS Changes</h2>
+  <h2 dir="auto">3DS Changes</h2>
 
   <ul dir="auto">
 
-  <li>Updated to SDL3
-
-  <ul dir="auto">
-
-  <li>NOTE: Intel macs are still using SDL2.</li>
+  <li>Monitors are now supported in Dual-Screen mode</li>
 
   </ul>
 
-  </li>
+  <h2 dir="auto">Credits</h2>
 
-  <li><del>New Icon</del>
-
-  <ul dir="auto">
-
-  <li>Due to an issue, there is no longer an icon.</li>
-
-  </ul>
-
-  </li>
-
-  </ul>'
-updated: '2026-01-11T15:42:30Z'
-version: '0.33'
-version_title: Beta Build 33
+  <p dir="auto">This beta was brought to you by: <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/roccopm/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/roccopm">@roccopm</a>,
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/poipole807/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/poipole807">@poipole807</a>,
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/PwLDev/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/PwLDev">@PwLDev</a>,
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Dogo6647/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Dogo6647">@Dogo6647</a>,
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gradylink/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gradylink">@gradylink</a>
+  and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/NateXS/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/NateXS">@NateXS</a></p>'
+updated: '2026-01-25T14:57:55Z'
+version: '0.34'
+version_title: Beta Build 34
 website: https://scratcheverywhere.github.io/ScratchEverywhere/
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!
