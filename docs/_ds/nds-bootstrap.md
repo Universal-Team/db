@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 835216
-    size_str: 815 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.13.0/nds-bootstrap.7z
+    size: 832224
+    size_str: 812 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.13.1/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1202918
+    size: 1203424
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.13.0/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.13.1/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -28,11 +28,8 @@ stars: 1336
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.22.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v27.22.0</a><br>
-
-  <strong>DSi/3DS:</strong> Re-released to fix <code class="notranslate">Quit Game</code>
-  opening the system menu instead of Unlaunch/TWLMenu++/<code class="notranslate">boot.nds</code>.</p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.22.1"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v27.22.1</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -50,65 +47,25 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Buttons can now be remapped to other buttons (ex. pressing <code class="notranslate">SELECT</code>
-  can instead function as the <code class="notranslate">L</code> button)!</li>
-
-  <li>The DS(i) screen refresh rate can now be changed in the in-game menu, and will
-  affect game speed!
-
-  <ul dir="auto">
-
-  <li>Can be set to as low as 29.9 Hz for slow speed, or as high as 74.9 Hz for fast
-  speed.</li>
-
-  <li>Why isn''t this called <code class="notranslate">Game Speed</code> then? Because
-  the setting works differently in certain games (ex. <em>MegaMan Star Force 2 &amp;
-  3</em> run slower if it''s either less than or more than 59.9 Hz).</li>
-
-  <li>Does not affect B4DS mode (on DS flashcards) and DSi-Enhanced/Exclusive games
-  running in DSi mode.</li>
+  <li>When quitting the game via the in-game menu, a <code class="notranslate">.nds</code>
+  path set as <code class="notranslate">QUIT_PATH</code> in <code class="notranslate">nds-bootstrap.ini</code>
+  will now be read instead of <code class="notranslate">/boot.nds</code> or <code
+  class="notranslate">/_nds/TWiLightMenu/main.srldr</code> in order to support more
+  nds-bootstrap frontends (such as akmenu-next).</li>
 
   </ul>
 
-  </li>
-
-  <li>Added descriptions for the options in the in-game menu.</li>
-
-  <li>A confirmation message will now appear after selecting either <code class="notranslate">Reset
-  Game</code> or <code class="notranslate">Quit Game</code> in the in-game menu.</li>
-
-  <li>Reduced cheat data size limit from 32KB to 16KB.</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fixes</h3>
+  <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>Fixed slowdown issues in <em>Sonic Rush</em> by not hooking SWI Halt.</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/taxicat1/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/taxicat1">@taxicat1</a>:
-  Fixed AP-fixes for <em>Puppy Palace</em> (Europe &amp; Japan) and <em>Inazuma Eleven
-  3: The Ogre</em>.</li>
-
-  <li>Patched sleep mode to work for EZ-Flash Parallel flashcards.</li>
-
-  </ul>
-
-  <h3 dir="auto">Known bugs</h3>
-
-  <ul dir="auto">
-
-  <li>Button remapping does not affect the DS WiFi Settings menu.</li>
-
-  <li>Due to a hardware limitation, setting the refresh rate higher than 59.9 Hz will
-  cause the 3D engine to not function.</li>
+  <li>Button remaps now persist when soft-resetting into another SRL (ex. when connecting
+  to Wii in Pokemon Gen 4).</li>
 
   </ul>'
-updated: '2026-01-21T06:30:36Z'
-version: v2.13.0
-version_title: v2.13.0
+updated: '2026-01-25T01:25:15Z'
+version: v2.13.1
+version_title: v2.13.1
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---

@@ -25,8 +25,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.13.0">nds-bootstrap
-  v2.13.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.13.1">nds-bootstrap
+  v2.13.1</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -58,23 +58,20 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>The Nintendo DS(i) splash screen is now turned off by default.</li>
-
-  <li>Added a button remap menu in the per-game settings menu.</li>
+  <li><strong>DSi:</strong> <code class="notranslate">sd:/hiya.dsi</code> is now set
+  as the <code class="notranslate">QUIT_PATH</code> setting in <code class="notranslate">nds-bootstrap.ini</code>
+  if hiyaCFW is installed.</li>
 
   </ul>
 
-  <h3 dir="auto">Bug fixes</h3>
+  <h3 dir="auto">Bug fix</h3>
 
   <ul dir="auto">
 
-  <li>Tried another fix for the the per-game settings menu not opening sometimes if
-  the DSi splash is turned off. Encountered no issues during testing.</li>
-
-  <li>Fixed saves for some games not being created at the proper size.</li>
+  <li><strong>3DS:</strong> Fixed widescreen cheats not applying for some games.</li>
 
   </ul>'
-updated: '2026-01-21T02:00:02Z'
-version: SD-26
-version_title: 'GitHub Release #26'
+updated: '2026-01-25T01:31:26Z'
+version: SD-27
+version_title: 'GitHub Release #27'
 ---
