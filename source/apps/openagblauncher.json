@@ -3,8 +3,6 @@
 	"title": "OpenAGBLauncher",
 	"author": "Stellar",
 	"long_description": "First of all a HUGE thank you to <a class=\"link link--internal\" href=\"https://gbatemp.net/members/nutez.439371/\">Nutez</a>, without whom I probably wouldn't even have been able to compile <a class=\"link link--external\" href=\"https://github.com/Ordim3n/That-Shortcut-Thingy\" rel=\"nofollow ugc noopener\" target=\"_blank\">That-Shortcut-Thingy</a>. Special thanks to derrek, profi200, d0k3 for their amazing work on <a class=\"link link--external\" href=\"https://github.com/profi200/open_agb_firm\" rel=\"nofollow ugc noopener\" target=\"_blank\">OPEN_AGB_FIRM</a> and Ordim3n for his payload shortcut.<br/>\n<br/>\n<u>Usage:</u><br/>\n<ul>\n<li data-xf-list-type=\"ul\">Follow <a class=\"link link--internal\" href=\"https://gbatemp.net/threads/open_agb_firm-discussion-thread.570844/#post-9149895\">this guide</a>.<br/>\n</li>\n<li data-xf-list-type=\"ul\">Set FastBoot3DS or GodMode9 as your Firm0, B9S won't do.</li>\n<li data-xf-list-type=\"ul\">If using FastBoot3DS, enable FCRAM boot.</li>\n<li data-xf-list-type=\"ul\">Download <a class=\"link link--external\" href=\"https://github.com/profi200/open_agb_firm/releases/latest\" rel=\"nofollow ugc noopener\" target=\"_blank\">the latest open_agb_firm</a>, rename it to <i>\"GBA.firm\"</i>, and place it in the root of your SD card.</li>\n</ul>If there's no <i>\"GBA.firm\"</i>, it also looks for <i>\"open_agb_firm.firm\"</i> under <i>\"/luma/payloads/\".</i>",
-	"avatar": "https://gbatemp.net/data/avatars/l/351/351725.jpg",
-	"image": "https://gbatemp.net/data/avatars/l/351/351725.jpg",
 	"systems": [
 		"3DS"
 	],
