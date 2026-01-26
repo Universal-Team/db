@@ -1,15 +1,17 @@
 ---
 author: Stellar
-avatar: https://gbatemp.net/data/avatars/l/351/351725.jpg
 categories:
 - utility
+color: '#9d8bbd'
+color_bg: '#6a5e80'
 created: '2020-12-01T13:52:50Z'
 download_page: https://gbatemp.net/download/36828/
 downloads:
   Open AGB Launcher.zip:
     url: https://gbatemp.net/download/36828/download
 gbatemp: '36828'
-image: https://gbatemp.net/data/avatars/l/351/351725.jpg
+image: https://db.universal-team.net/assets/images/images/openagblauncher.png
+image_length: 8593
 layout: app
 stars: 0
 systems:
