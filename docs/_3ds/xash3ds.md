@@ -44,7 +44,7 @@ script_message: 'You will need to copy the "valve" directory from
 
   and "opengl.cfg" from the value directory.'
 source: https://github.com/masterfeizz/Xash3DS
-stars: 167
+stars: 169
 systems:
 - 3DS
 title: Xash3DS
