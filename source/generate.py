@@ -832,6 +832,7 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 	for item in sourceFolder.iterdir():
 		with item.open(encoding="utf8") as f:
 			source.append((str(item), json.load(f)))
+	source.sort(key=lambda x: [x[1][key] for key in ["github", "gitlab", "title"] if key in x[1]][0])
 
 	# Old data json
 	oldData = None
