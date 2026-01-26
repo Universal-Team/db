@@ -1021,13 +1021,13 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 				file.write("--atlas -f rgba -z auto\n\n")
 
 				if sheet == 0 and BG_IMAGE:
-					file.write(BG_IMAGE + "\n")
+					file.write(f'"{BG_IMAGE}"\n')
 
 
 				start = max(sheet * ICONS_PER_SHEET, 1 if BG_IMAGE else 0)
 				end = min((sheet + 1) * ICONS_PER_SHEET, iconIndex)
 				for i in range(start, end):
-					file.write(f"{i}.png\n")
+					file.write(f'"{i}.png"\n')
 			infile = str(TEMP_DIR.joinpath("48", f"icons{sheet}.t3s"))
 			outfile = str(DOCS_DIR.joinpath("unistore", f"universal-db-{sheet}.t3x"))
 			system(f"tex3ds -i {infile} -o {outfile}")
