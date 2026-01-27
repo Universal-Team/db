@@ -20,7 +20,7 @@ layout: app
 license: apache-2.0
 license_name: Apache License 2.0
 source: https://github.com/TheHighTide/CubeAdventures
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: Cube Adventures

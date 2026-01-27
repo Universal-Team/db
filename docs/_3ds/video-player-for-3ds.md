@@ -12,15 +12,15 @@ downloads:
   Video_player_for_3DS.3dsx:
     size: 14394964
     size_str: 13 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/1.6.0/Video_player_for_3DS.3dsx
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.6.0/Video_player_for_3DS.3dsx
   Video_player_for_3DS.cia:
     size: 11146176
     size_str: 10 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/1.6.0/Video_player_for_3DS.cia
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.6.0/Video_player_for_3DS.cia
   Video_player_for_3DS_high_ram.cia:
     size: 11146176
     size_str: 10 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/1.6.0/Video_player_for_3DS_high_ram.cia
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.6.0/Video_player_for_3DS_high_ram.cia
 github: Core-2-Extreme/Video_player_for_3DS
 icon: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/banner.png
@@ -106,7 +106,7 @@ update_notes: '<p dir="auto"><strong>Changes</strong> <br>
 
   </ul>'
 updated: '2026-01-01T12:12:07Z'
-version: 1.6.0
+version: v1.6.0
 version_title: Video player for 3DS v1.6.0
 website: https://gbatemp.net/threads/release-video-player-for-3ds.586094
 ---
