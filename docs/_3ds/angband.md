@@ -18,65 +18,86 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-39-g0310a1259
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-44-g6ded57739
   downloads:
-    Angband-4.2.6-39-g0310a1259-3ds.zip:
-      size: 24669753
+    Angband-4.2.6-44-g6ded57739-3ds.zip:
+      size: 24669581
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-39-g0310a1259/Angband-4.2.6-39-g0310a1259-3ds.zip
-    Angband-4.2.6-39-g0310a1259-nds.zip:
-      size: 23330299
+      url: https://github.com/angband/angband/releases/download/4.2.6-44-g6ded57739/Angband-4.2.6-44-g6ded57739-3ds.zip
+    Angband-4.2.6-44-g6ded57739-nds.zip:
+      size: 23330153
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-39-g0310a1259/Angband-4.2.6-39-g0310a1259-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-44-g6ded57739/Angband-4.2.6-44-g6ded57739-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>borg: updating commands to allow selection of target by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
+    <li>refactor(input): modernize ui_event initialization by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/klaasvanaarsen/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/klaasvanaarsen">@klaasvanaarsen</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3825664853" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6495"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6495/hovercard"
-    href="https://github.com/angband/angband/pull/6495">#6495</a></li>
+    data-id="3830038161" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6497"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6497/hovercard"
+    href="https://github.com/angband/angband/pull/6497">#6497</a></li>
 
-    <li>workflows: use ID and code as for a release in Nintendo workflow by <a class="user-mention
+    <li>x11: improve error message when X11 font cannot be loaded by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/klaasvanaarsen/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/klaasvanaarsen">@klaasvanaarsen</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="3831187448" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6500"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6500/hovercard"
+    href="https://github.com/angband/angband/pull/6500">#6500</a></li>
+
+    <li>Move debugging keylog display from cmd-wizard.c to ui-wizard.c by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3800427348" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6489"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6489/hovercard"
-    href="https://github.com/angband/angband/pull/6489">#6489</a></li>
+    data-id="3809519411" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6491"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6491/hovercard"
+    href="https://github.com/angband/angband/pull/6491">#6491</a></li>
 
-    <li>SDL2: guard code for event tracing with "ifdef SDLPUI_TRACE_EVENTS" by <a
-    class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    <li>Update screenshots for 4.2.6 and new forum address by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3801955362" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6490"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6490/hovercard"
-    href="https://github.com/angband/angband/pull/6490">#6490</a></li>
+    data-id="3825517899" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6494"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6494/hovercard"
+    href="https://github.com/angband/angband/pull/6494">#6494</a></li>
+
+    <li>SDL: recognize other file name extensions for bitmapped fonts by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="3825968369" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6496"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6496/hovercard"
+    href="https://github.com/angband/angband/pull/6496">#6496</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-36-g67b2f6e8d...4.2.6-39-g0310a1259"><tt>4.2.6-36-g67b2f6e8d...4.2.6-39-g0310a1259</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-39-g0310a1259...4.2.6-44-g6ded57739"><tt>4.2.6-39-g0310a1259...4.2.6-44-g6ded57739</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * borg: updating commands to allow selection of target by @agoodman00 in https://github.com/angband/angband/pull/6495
+    * refactor(input): modernize ui_event initialization by @klaasvanaarsen in https://github.com/angband/angband/pull/6497
 
-    * workflows: use ID and code as for a release in Nintendo workflow by @backwardsEric
-    in https://github.com/angband/angband/pull/6489
+    * x11: improve error message when X11 font cannot be loaded by @klaasvanaarsen
+    in https://github.com/angband/angband/pull/6500
 
-    * SDL2: guard code for event tracing with "ifdef SDLPUI_TRACE_EVENTS" by @backwardsEric
-    in https://github.com/angband/angband/pull/6490
+    * Move debugging keylog display from cmd-wizard.c to ui-wizard.c by @backwardsEric
+    in https://github.com/angband/angband/pull/6491
+
+    * Update screenshots for 4.2.6 and new forum address by @backwardsEric in https://github.com/angband/angband/pull/6494
+
+    * SDL: recognize other file name extensions for bitmapped fonts by @backwardsEric
+    in https://github.com/angband/angband/pull/6496
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-36-g67b2f6e8d...4.2.6-39-g0310a1259'
-  updated: '2026-01-21T00:01:53Z'
-  version: 4.2.6-39-g0310a1259
-  version_title: 4.2.6-39-g0310a1259
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-39-g0310a1259...4.2.6-44-g6ded57739'
+  updated: '2026-01-27T16:11:12Z'
+  version: 4.2.6-44-g6ded57739
+  version_title: 4.2.6-44-g6ded57739
 source: https://github.com/angband/angband
-stars: 1473
+stars: 1472
 systems:
 - 3DS
 - DS
