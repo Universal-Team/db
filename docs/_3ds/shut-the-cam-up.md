@@ -23,7 +23,7 @@ image: https://avatars.githubusercontent.com/u/85436576?v=4&size=128
 image_length: 33969
 layout: app
 source: https://github.com/TehFridge/ShutTheCamUp
-stars: 48
+stars: 49
 systems:
 - 3DS
 title: Shut The Cam Up

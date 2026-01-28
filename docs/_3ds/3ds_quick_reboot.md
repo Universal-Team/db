@@ -21,7 +21,7 @@ layout: app
 license: mit
 license_name: MIT License
 source: https://github.com/Asellus/3DS_Quick_Reboot
-stars: 10
+stars: 11
 systems:
 - 3DS
 title: 3DS_Quick_Reboot
