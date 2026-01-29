@@ -59,7 +59,7 @@
 	"unique-ids": "Unique IDs: ",
 	"version": "Version: ",
 	"show-qr-for": "Show QR Code for ${name}",
-	"scan-qr-fbi": "Scan this QR code using <a href=\"/3ds/fbi\">FBI</a> on your 3DS to install.",
+	"scan-qr-fbi": "Scan this QR code using <a href=\"/3ds/fbi-nh\">FBI</a> on your 3DS to install.",
 	"scan-qr-dsidl": "Scan this QR code using <a href=\"/ds/dsidl\">dsidl</a> on your DSi to install.",
 	"back": "&lt; Back",
 	"website": "Website",
