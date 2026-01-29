@@ -14,30 +14,28 @@ image: https://raw.githubusercontent.com/ashbit06/RanGen-3DS/refs/heads/master/i
 image_length: 1480
 layout: app
 prerelease:
-  download_page: https://github.com/ashbit06/RanGen-3DS/releases/tag/v0.1-alpha
+  download_page: https://github.com/ashbit06/RanGen-3DS/releases/tag/v0.1.1-alpha
   downloads:
     RanGen_3DS.3dsx:
-      size: 160012
+      size: 159988
       size_str: 156 KiB
-      url: https://github.com/ashbit06/RanGen-3DS/releases/download/v0.1-alpha/RanGen_3DS.3dsx
+      url: https://github.com/ashbit06/RanGen-3DS/releases/download/v0.1.1-alpha/RanGen_3DS.3dsx
     RanGen_3DS.cia:
       size: 357312
       size_str: 348 KiB
-      url: https://github.com/ashbit06/RanGen-3DS/releases/download/v0.1-alpha/RanGen_3DS.cia
+      url: https://github.com/ashbit06/RanGen-3DS/releases/download/v0.1.1-alpha/RanGen_3DS.cia
   qr:
     RanGen_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/rangen_3ds-cia.png
-  update_notes: '<p dir="auto">initial release</p>
+  update_notes: '<ul dir="auto">
 
-    <p dir="auto">i will be working on adding text to the main display next, displaying
-    the level information and stuff</p>'
-  update_notes_md: 'initial release
+    <li>fixed a bug where the player would get stuck when a new level is generated</li>
 
-
-    i will be working on adding text to the main display next, displaying the level
-    information and stuff'
-  updated: '2025-12-15T16:28:05Z'
-  version: v0.1-alpha
-  version_title: 0.1 alpha
+    </ul>'
+  update_notes_md: '- fixed a bug where the player would get stuck when a new level
+    is generated'
+  updated: '2026-01-29T06:49:50Z'
+  version: v0.1.1-alpha
+  version_title: v0.1.1 alpha
 source: https://github.com/ashbit06/RanGen-3DS
 stars: 0
 systems:
@@ -45,13 +43,14 @@ systems:
 title: RanGen-3DS
 unique_ids:
 - '0x44444'
-update_notes: '<p dir="auto">initial release</p>
+update_notes: '<ul dir="auto">
 
-  <p dir="auto">i will be working on adding text to the main display next, displaying
-  the level information and stuff</p>'
-updated: '2025-12-15T16:28:05Z'
-version: v0.1-alpha
-version_title: 0.1 alpha
+  <li>fixed a bug where the player would get stuck when a new level is generated</li>
+
+  </ul>'
+updated: '2026-01-29T06:49:50Z'
+version: v0.1.1-alpha
+version_title: v0.1.1 alpha
 ---
 # RanGen 3DS
 
