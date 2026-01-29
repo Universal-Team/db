@@ -10,13 +10,13 @@ description: An upgraded version of NTR with better streaming capabilities.
 download_page: https://github.com/xzn/ntr-hr/releases
 downloads:
   BootNTRSelector-Mode3-PabloMK7-Banner.cia:
-    size: 1938368
+    size: 1958848
     size_str: 1 MiB
-    url: https://github.com/xzn/ntr-hr/releases/download/v0.3.6.0/BootNTRSelector-Mode3-PabloMK7-Banner.cia
+    url: https://github.com/xzn/ntr-hr/releases/download/v0.3.7.0/BootNTRSelector-Mode3-PabloMK7-Banner.cia
   BootNTRSelector-PabloMK7-Banner.cia:
-    size: 1938368
+    size: 1958848
     size_str: 1 MiB
-    url: https://github.com/xzn/ntr-hr/releases/download/v0.3.6.0/BootNTRSelector-PabloMK7-Banner.cia
+    url: https://github.com/xzn/ntr-hr/releases/download/v0.3.7.0/BootNTRSelector-PabloMK7-Banner.cia
 github: xzn/ntr-hr
 image: https://avatars.githubusercontent.com/u/1617680?v=4&size=128
 image_length: 1529
@@ -33,15 +33,14 @@ systems:
 title: NTR-HR
 unique_ids:
 - '0xEB000'
-update_notes: '<p dir="auto">Mode3:</p>
+update_notes: '<p dir="auto">Added lossless mode (need latest <a href="https://github.com/xzn/ntrviewer-hr/releases">NTRViewer-HR</a>).</p>
 
-  <p dir="auto">Further reduced memory usage. Now all downsample options are available
-  in Mode3.</p>
+  <p dir="auto">Tweaks to JPEG delta mode.</p>
 
-  <p dir="auto">General:</p>
+  <p dir="auto">Fixed an old regression with multi core job allocation.</p>
 
-  <p dir="auto">Minor fixes and text clarification.</p>'
-updated: '2026-01-15T08:03:02Z'
-version: v0.3.6.0
-version_title: 0.3.6.0
+  <p dir="auto">Other misc bug fixes.</p>'
+updated: '2026-01-29T19:18:18Z'
+version: v0.3.7.0
+version_title: 0.3.7.0
 ---
