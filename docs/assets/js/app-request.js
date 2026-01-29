@@ -266,7 +266,7 @@ function createInput(item, key) {
 
 		for(let i in item.values) {
 			let option = item.values[i];
-			let labelText = item.labels?.[i] ?? option;
+			let labelText = item.labels ? item.labels[i] : option;
 
 			let label = document.createElement("label");
 			label.classList.add("btn", "btn-secondary", "flex-fill");
@@ -303,7 +303,7 @@ function fillInfo() {
 	for(let key in appSchema) {
 		let item = appSchema[key];
 
-		appInfo[key] = item.default ?? new types[item.type];
+		appInfo[key] = item.default ? item.default : new types[item.type];
 
 		if(item.hidden)
 			continue;
@@ -314,7 +314,7 @@ function fillInfo() {
 		let label = document.createElement("label");
 		label.classList.add("input-group-text");
 		label.htmlFor = key;
-		label.innerText = item.label ?? key;
+		label.innerText = item.label ? item.label : key;
 		if(item.required)
 			label.innerText += "*";
 		inputGroup.appendChild(label);
@@ -373,7 +373,8 @@ function fillInfo() {
 async function exportJson() {
 	clearError();
 
-	let appExport = structuredClone(appInfo);
+	let clone = typeof structuredClone !== "undefined" ? structuredClone : obj => JSON.parse(JSON.stringify(obj));
+	let appExport = clone(appInfo);
 
 	for(let key in appExport) {
 		let schema = appSchema[key];
@@ -397,18 +398,18 @@ async function exportJson() {
 		}
 
 		if(schema.required && blank)
-			return error(`Error: Required item '${schema.label ?? key}' is unset!`);
+			return error(`Error: Required item '${schema.label ? schema.label : key}' is unset!`);
 
 		if(schema.type == "image" && !blank) {
 			try {
 				let res = await fetch(item, {method: "HEAD"});
 				if(res.status != 200)
-					return error(`Error ${res.status}: Image '${schema.label ?? key}' is not a valid link!`);
+					return error(`Error ${res.status}: Image '${schema.label ? schema.label : key}' is not a valid link!`);
 
 				let contentType = res.headers.get("Content-Type");
 				if(contentType.split("/")[0] != "image")
-					return error(`Error: Image '${schema.label ?? key}' is not an image! (Content Type: ${contentType})`);
-			} catch {
+					return error(`Error: Image '${schema.label ? schema.label : key}' is not an image! (Content Type: ${contentType})`);
+			} catch(err) {
 				return error("Error: Failed to fetch image, make sure you're using raw.githubusercontent.com");
 			}
 		}
