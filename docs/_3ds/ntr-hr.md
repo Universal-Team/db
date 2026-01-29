@@ -33,7 +33,7 @@ systems:
 title: NTR-HR
 unique_ids:
 - '0xEB000'
-update_notes: '<p dir="auto">Added lossless mode (need latest <a href="https://github.com/xzn/ntrviewer-hr/releases">NTRViewer-HR</a>).</p>
+update_notes: '<p dir="auto">Added optional lossless mode (need latest <a href="https://github.com/xzn/ntrviewer-hr/releases">NTRViewer-HR</a>).</p>
 
   <p dir="auto">Tweaks to JPEG delta mode.</p>
 
