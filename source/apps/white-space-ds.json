@@ -1,0 +1,12 @@
+{
+	"github": "cavv-dev/WHITE-SPACE-DS",
+	"title": "WHITE SPACE DS",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/cavv-dev/WHITE-SPACE-DS/refs/heads/main/icon.bmp",
+	"long_description": "WHITE SPACE DS is a fan game for Nintendo DS inspired by OMORI. It's a personal simulation of the WHITE SPACE: a calm, empty room where you can spend time with a few interactive objects while a gentle melody loops in the background.\n\nMore info on [itch.io](https://cavvdev.itch.io/whitespaceds)."
+}
