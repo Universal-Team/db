@@ -24,6 +24,29 @@ image_length: 24475
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+nightly:
+  download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
+  downloads:
+    Universal-Updater.3dsx:
+      size: 3195488
+      size_str: 3 MiB
+      url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
+    Universal-Updater.cia:
+      size: 2667456
+      size_str: 2 MiB
+      url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
+  qr:
+    Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
+  update_notes: '<p dir="auto">Hunter Xuman - Update UniStores.json</p>
+
+    <p dir="auto">Added Paper Mario Sticker Store to list of recommended stores</p>'
+  update_notes_md: 'Hunter Xuman - Update UniStores.json
+
+
+    Added Paper Mario Sticker Store to list of recommended stores'
+  updated: '2026-01-30T02:02:59Z'
+  version: git
+  version_title: Continuous Build - ef686af
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
