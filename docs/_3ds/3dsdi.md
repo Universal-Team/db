@@ -22,7 +22,7 @@ layout: app
 license: mit
 license_name: MIT License
 source: https://github.com/Aeplet/3DSDI
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: 3DSDI
