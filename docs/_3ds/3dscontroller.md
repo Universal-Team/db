@@ -18,7 +18,7 @@ image: https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/bann
 image_length: 4254
 layout: app
 source: https://github.com/CTurt/3DSController
-stars: 228
+stars: 229
 systems:
 - 3DS
 title: 3DSController
