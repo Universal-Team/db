@@ -23,7 +23,7 @@ license_name: Other
 qr:
   derailed.nds: https://db.universal-team.net/assets/images/qr/derailed-nds.png
 source: https://github.com/AzizBgBoss/derailed
-stars: 3
+stars: 4
 systems:
 - DS
 title: Derailed!
