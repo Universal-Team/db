@@ -100,10 +100,14 @@ update_notes: '<div class="markdown-alert markdown-alert-warning" dir="auto"><p 
   3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25
   0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53
   3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0
-  1 2 0Z"></path></svg>Warning</p><p dir="auto"><strong>IMPORTANT: GitHub has been
-  unreliable for some users lately. There is a chance this update will fail. If it
-  does please try again in a few hours. You may need to manually install using FBI
-  if it manages to delete the old version.</strong></p>
+  1 2 0Z"></path></svg>Warning</p><p dir="auto"><strong>This update has been crashing
+  for some users who just modded their console.</strong><br>
+
+  If this is your first time opening Universal-Updater after modding your console,
+  skip this update. After you''ve used it once it sounds like it should be safe to
+  update.<br>
+
+  I will look into this shortly.</p>
 
   </div>
 
