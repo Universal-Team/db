@@ -204,7 +204,7 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
 
   </ul>
 
-  <p dir="auto">## EFH:</p>
+  <h2 dir="auto">EFH:</h2>
 
   <ul dir="auto">
 
@@ -391,7 +391,7 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
 
   </ul>
 
-  <p dir="auto">## Petka:</p>
+  <h2 dir="auto">Petka:</h2>
 
   <ul dir="auto">
 
