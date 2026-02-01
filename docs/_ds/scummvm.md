@@ -204,7 +204,7 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
 
   </ul>
 
-  <p dir="auto">EFH:</p>
+  <p dir="auto">## EFH:</p>
 
   <ul dir="auto">
 
@@ -269,6 +269,8 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
   <ul dir="auto">
 
   <li>Added keymapper support.</li>
+
+  <li>Added support for third party subtitles.</li>
 
   </ul>
 
@@ -389,7 +391,7 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
 
   </ul>
 
-  <p dir="auto">Petka:</p>
+  <p dir="auto">## Petka:</p>
 
   <ul dir="auto">
 
