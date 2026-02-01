@@ -59,7 +59,7 @@
 	"unique-ids": "唯一 ID： ",
 	"version": "版本： ",
 	"show-qr-for": "顯示 ${name} 的二維碼",
-	"scan-qr-fbi": "在您的 3DS 上使用 <a href=\"/3ds/fbi\">FBI</a> 掃描此二維碼進行安裝。",
+	"scan-qr-fbi": "Scan this QR code using <a href=\"/3ds/fbi-nh\">FBI</a> on your 3DS to install.",
 	"scan-qr-dsidl": "使用您的 DSi 上的 <a href=\"/ds/dsidl\">dsidl</a> 掃描此二維碼進行安裝。",
 	"back": "&lt; 後退",
 	"website": "網站",
@@ -80,7 +80,7 @@
 	"home-2": "本網站上的大部分信息都是從應用程序的 GitHub 存儲庫中自動收集的，但是如果您發現任何不正確的信息，請將其報告為 <a href=\"https://github.com/Universal-Team/db/issues/ new\">GitHub 問題</a> 或我們的 <a href=\"https://universal-team.net/discord\">Discord 服務器</a>。 謝謝！",
 	"home-3": "這也是 <a href=\"/3ds/universal-updater\">Universal-Updater</a> 的默認 UniStore，因此如果您想直接在 3DS 上瀏覽和安裝 Universal-DB 中的應用程序，您應該提供 試一試。",
 	"home-4": "On the Nintendo DSi there are two options for downloading apps from Universal-DB. <a href=\"/ds/dsidl\">dsidl</a> can use the QR codes on the site or <a href=\"/ds/kekatsu\">Kekatsu</a> which functions fully on device. If you have not used Kekatsu before, place this <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> in <code>sd:/Kekatsu/</code>.",
-	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our [Discord server](https://universal-team.net/discord)'s #universal-db-updates and to our [Bluesky](https://bsky.app/profile/universal-team.net)!",
+	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our <a href=\"https://universal-team.net/discord\">Discord server</a>'s #universal-db-updates and to our <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky</a>!",
 	"last-updated-apps": "最近更新時間： ",
 	"error-404": "錯誤！ 404！",
 	"return-to-home": "返回<a href=\"/\">主頁</a>或<span class=\"a\" onclick=\"window.history.back()\">返回</span>到上一頁。"

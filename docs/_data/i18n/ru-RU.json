@@ -59,7 +59,7 @@
 	"unique-ids": "Уникальные ID: ",
 	"version": "Версия: ",
 	"show-qr-for": "Показать QR-код для ${name}",
-	"scan-qr-fbi": "Отсканируйте этот QR-код с помощью <a href=\"/3ds/fbi\">FBI</a> на вашей 3DS для установки.",
+	"scan-qr-fbi": "Scan this QR code using <a href=\"/3ds/fbi-nh\">FBI</a> on your 3DS to install.",
 	"scan-qr-dsidl": "Отсканируйте этот QR-код с помощью <a href=\"/ds/dsidl\">dsidl</a> на вашем DSi для установки.",
 	"back": "&lt; Назад",
 	"website": "Вебсайт",
@@ -80,7 +80,7 @@
 	"home-2": "Большая часть информации на этом сайте автоматически собрана из информации на GitHub-репозитории приложения, однако если вы заметили какую-либо неверную информацию, пожалуйста, сообщите об этом как о проблеме <a href=\"https://github.com/Universal-Team/db/issues/new\">Проблема с GitHub</a> или на нашем <a href=\"https://universal-team.net/discord\">Discord-сервере</a>. Спасибо!",
 	"home-3": "Это тоже по умолчанию UniStore для <a href=\"/3ds/universal-updater\">Universal-Updater</a>, поэтому если вы хотите просматривать и устанавливать приложения из Universal-DB прямо на вашей 3DS, вам стоит попробовать.",
 	"home-4": "On the Nintendo DSi there are two options for downloading apps from Universal-DB. <a href=\"/ds/dsidl\">dsidl</a> can use the QR codes on the site or <a href=\"/ds/kekatsu\">Kekatsu</a> which functions fully on device. If you have not used Kekatsu before, place this <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> in <code>sd:/Kekatsu/</code>.",
-	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our [Discord server](https://universal-team.net/discord)'s #universal-db-updates and to our [Bluesky](https://bsky.app/profile/universal-team.net)!",
+	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our <a href=\"https://universal-team.net/discord\">Discord server</a>'s #universal-db-updates and to our <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky</a>!",
 	"last-updated-apps": "Последнее обновление: ",
 	"error-404": "Ошибка! 404!",
 	"return-to-home": "Откройте <a href=\"/\">главную страницу</a> или <span class=\"a\" onclick=\"window.history.back()\">вернитесь</span> на предыдущую страницу."

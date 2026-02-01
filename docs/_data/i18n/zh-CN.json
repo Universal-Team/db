@@ -59,7 +59,7 @@
 	"unique-ids": "识别 ID 码： ",
 	"version": "版本: ",
 	"show-qr-for": "显示 ${name} 的二维码",
-	"scan-qr-fbi": "在3DS上使用<a href=\"/3ds/fbi\">FBI</a>扫描二维码来安装。",
+	"scan-qr-fbi": "Scan this QR code using <a href=\"/3ds/fbi-nh\">FBI</a> on your 3DS to install.",
 	"scan-qr-dsidl": "在DSi上使用<a href=\"/ds/dsidl\">dsidl</a>扫描二维码来安装。",
 	"back": "&lt; 返回",
 	"website": "网站",
@@ -80,7 +80,7 @@
 	"home-2": "此站点上的大多数信息都是自动从应用程序的 GitHub 仓库的信息中收集的。 然而，如果您注意到任何不正确的信息，请将其报告为 <a href=\"https://github.com/Universal-Team/db/issues/new\">GitHub Issue</a> 或我们 <a href=\"https://universal-team.net/discord\">Discord服务器</a>。 谢谢！",
 	"home-3": "这也是 <a href=\"/3ds/universal-updater\">Universal-Updater</a>的默认UniStore， 因此您也可以直接在3DS上通过自制程序访问Universal-DB。",
 	"home-4": "On the Nintendo DSi there are two options for downloading apps from Universal-DB. <a href=\"/ds/dsidl\">dsidl</a> can use the QR codes on the site or <a href=\"/ds/kekatsu\">Kekatsu</a> which functions fully on device. If you have not used Kekatsu before, place this <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> in <code>sd:/Kekatsu/</code>.",
-	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our [Discord server](https://universal-team.net/discord)'s #universal-db-updates and to our [Bluesky](https://bsky.app/profile/universal-team.net)!",
+	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our <a href=\"https://universal-team.net/discord\">Discord server</a>'s #universal-db-updates and to our <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky</a>!",
 	"last-updated-apps": "最后更新时间: ",
 	"error-404": "错误404",
 	"return-to-home": "返回 <a href=\"/\">主页</a> 或 <span class=\"a\" onclick=\"window.history.back()\">回到</span> 上一页。"

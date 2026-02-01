@@ -59,7 +59,7 @@
 	"unique-ids": "crwdns32146:0crwdne32146:0",
 	"version": "crwdns22928:0crwdne22928:0",
 	"show-qr-for": "crwdns22930:0${name}crwdne22930:0",
-	"scan-qr-fbi": "crwdns31448:0crwdne31448:0",
+	"scan-qr-fbi": "crwdns46500:0crwdne46500:0",
 	"scan-qr-dsidl": "crwdns31450:0crwdne31450:0",
 	"back": "crwdns22996:0crwdne22996:0",
 	"website": "crwdns22934:0crwdne22934:0",
@@ -80,7 +80,7 @@
 	"home-2": "crwdns22962:0crwdne22962:0",
 	"home-3": "crwdns22964:0crwdne22964:0",
 	"home-4": "crwdns46280:0crwdne46280:0",
-	"home-5": "crwdns46276:0https://universal-team.net/discordcrwdnd46276:0https://bsky.app/profile/universal-team.netcrwdne46276:0",
+	"home-5": "crwdns46498:0crwdne46498:0",
 	"last-updated-apps": "crwdns22966:0crwdne22966:0",
 	"error-404": "crwdns30058:0crwdne30058:0",
 	"return-to-home": "crwdns30060:0crwdne30060:0"

@@ -59,7 +59,7 @@
 	"unique-ids": "Eindeutige IDs: ",
 	"version": "Version: ",
 	"show-qr-for": "QR-Code für ${name} anzeigen",
-	"scan-qr-fbi": "Scanne zum Installieren diesen QR-Code mit <a href=\"/3ds/fbi\">FBI</a> auf deinem 3DS.",
+	"scan-qr-fbi": "Scanne zum Installieren diesen QR-Code mit <a href=\"/3ds/fbi-nh\">FBI</a> auf deinem 3DS.",
 	"scan-qr-dsidl": "Scanne zum Installieren diesen QR-Code mit <a href=\"/ds/dsidl\">dsidl</a> auf deinem DSi.",
 	"back": "&lt; Zurück",
 	"website": "Website",
@@ -80,7 +80,7 @@
 	"home-2": "Ein Großteil der hier aufgelisteten Informationen stammen aus dem GitHub-Repository der jeweiligen App. Sollten dir trotzdem Fehler auffallen, erstelle ein <a href=\"https://github.com/Universal-Team/db/issues/new\">GitHub Issue</a> oder melde sie auf unserem <a href=\"https://universal-team.net/discord\">Discord-Server</a>. Vielen Dank!",
 	"home-3": "Das hier ist gleichzeitig auch der standardmäßige UniStore für <a href=\"/3ds/universal-updater\">Universal-Updater</a>. Falls du Apps von Universal-DB direkt auf deinem 3DS durchsuchen und installieren möchtest, probiere es doch einfach mal aus.",
 	"home-4": "Für den Nintendo DSi gibt es zwei Möglichkeiten, Apps von Universal-DB herunterzuladen. <a href=\"/ds/dsidl\">dsidl</a> kann die QR-Codes auf der Website verwenden oder <a href=\"/ds/kekatsu\">Kekatsu</a>, das vollständig auf dem Gerät funktioniert. Wenn Kekatsu vorher noch nicht verwendet wurde, muss <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> in <code>sd:/Kekatsu/</code> abgelegt werden.",
-	"home-5": "Möchtest du über neue Updates zu Homebrew informiert werden? Wir haben einen RSS-Feed auf dieser Seite. Kopiere einfach die URL dieser Seite in deinen bevorzugten RSS-Reader. Der RSS-Feed wird auch auf unserem [Discord-Server](https://universal-team.net/discord) in #universal-db-updates und auf unserem [Bluesky-Konto](https://bsky.app/profile/universal-team.net) veröffentlicht!",
+	"home-5": "Möchtest du über neue Updates zu Homebrew informiert werden? Wir haben einen RSS-Feed auf dieser Seite. Kopiere einfach die URL dieser Seite in deinen bevorzugten RSS-Reader. Der RSS-Feed wird auch auf unserem <a href=\"https://universal-team.net/discord\">Discord-Server</a> in #universal-db-updates und auf unserem <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky-Konto</a> veröffentlicht!",
 	"last-updated-apps": "Zuletzt aktualisiert: ",
 	"error-404": "Fehler 404!",
 	"return-to-home": "Zurück zur <a href=\"/\">Startseite</a> oder zurück zur <span class=\"a\" onclick=\"window.history.back()\">vorherigen Seite</span>."

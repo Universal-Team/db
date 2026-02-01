@@ -59,7 +59,7 @@
 	"unique-ids": "IDs uniques : ",
 	"version": "Version : ",
 	"show-qr-for": "Afficher le code QR pour ${name}",
-	"scan-qr-fbi": "Scannez ce code QR en utilisant <a href=\"/3ds/fbi\">FBI</a> sur votre 3DS pour l'installer.",
+	"scan-qr-fbi": "Scan this QR code using <a href=\"/3ds/fbi-nh\">FBI</a> on your 3DS to install.",
 	"scan-qr-dsidl": "Scannez ce code QR en utilisant <a href=\"/ds/dsidl\">dsidl</a> sur votre DSi pour l'installer.",
 	"back": "&lt; Retour",
 	"website": "Site Web",
@@ -80,7 +80,7 @@
 	"home-2": "La plupart des informations sur ce site sont automatiquement recueillies à partir des informations sur le dépôt GitHub de l'application, cependant si vous remarquez des informations incorrectes, veuillez le signaler en tant que <a href=\"https://github.com/Universal-Team/db/issues/new\">problème GitHub</a> ou sur notre <a href=\"https://universal-team.net/discord\">serveur Discord</a>. Merci !",
 	"home-3": "Il s'agit également de l'UniStore par défaut pour <a href=\"/3ds/universal-updater\">Universal-Updater</a>, donc si vous souhaitez parcourir et installer des applications depuis Universal-DB directement sur votre 3DS, vous devriez l'essayer.",
 	"home-4": "On the Nintendo DSi there are two options for downloading apps from Universal-DB. <a href=\"/ds/dsidl\">dsidl</a> can use the QR codes on the site or <a href=\"/ds/kekatsu\">Kekatsu</a> which functions fully on device. If you have not used Kekatsu before, place this <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> in <code>sd:/Kekatsu/</code>.",
-	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our [Discord server](https://universal-team.net/discord)'s #universal-db-updates and to our [Bluesky](https://bsky.app/profile/universal-team.net)!",
+	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our <a href=\"https://universal-team.net/discord\">Discord server</a>'s #universal-db-updates and to our <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky</a>!",
 	"last-updated-apps": "Dernières mises à jour : ",
 	"error-404": "Erreur ! 404 !",
 	"return-to-home": "Retourner à la <a href=\"/\">page d'accueil</a> ou <span class=\"a\" onclick=\"window.history.back()\">revenir</span> à la page précédente."

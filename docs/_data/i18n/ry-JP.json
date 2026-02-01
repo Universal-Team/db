@@ -59,7 +59,7 @@
 	"unique-ids": "識別ID: ",
 	"version": "バージョン: ",
 	"show-qr-for": "${name}ぬQRコード表示",
-	"scan-qr-fbi": "3DSぬ<a href=\"/3ds/fbi\">FBI</a>ちかてぃ、くぬQRコードスキャンしインストールしくぃみそーれー。",
+	"scan-qr-fbi": "Scan this QR code using <a href=\"/3ds/fbi-nh\">FBI</a> on your 3DS to install.",
 	"scan-qr-dsidl": "DSiぬ<a href=\"/ds/dsidl\">dsidl</a>ちかてぃ、くぬQRコードスキャンしインストールしくぃみそーれー。",
 	"back": "&lt; むどぅいん",
 	"website": "Webサイト",
@@ -80,7 +80,7 @@
 	"home-2": "くぬサイトぬふとぅんどぅぬ情報ー、アプリぬGitHubリポジトリぬ情報から自動的に収集さりやびーん。やしが、ぬーがたがたる情報んかい気づちゃるばーや、<a href=\"https://github.com/Universal-Team/db/issues/new\">GitHub Issue</a>とぅしてぃあらんでぃ<a href=\"https://universal-team.net/discord\">Discordサーバー</a>んかい報告しくぃみそーれー。にふぇーどー！",
 	"home-3": "くれー、<a href=\"/3ds/universal-updater\">Universal-Updater</a>ぬデフォルトぬUniStoreやいびーん。3DSんかい直接にUniversal-DBからアプリ参照しインストールしーぶさるばーや、じふぃう試しくぃみそーれー。",
 	"home-4": "On the Nintendo DSi there are two options for downloading apps from Universal-DB. <a href=\"/ds/dsidl\">dsidl</a> can use the QR codes on the site or <a href=\"/ds/kekatsu\">Kekatsu</a> which functions fully on device. If you have not used Kekatsu before, place this <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> in <code>sd:/Kekatsu/</code>.",
-	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our [Discord server](https://universal-team.net/discord)'s #universal-db-updates and to our [Bluesky](https://bsky.app/profile/universal-team.net)!",
+	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our <a href=\"https://universal-team.net/discord\">Discord server</a>'s #universal-db-updates and to our <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky</a>!",
 	"last-updated-apps": "最新ぬ更新: ",
 	"error-404": "エラー！404！",
 	"return-to-home": "<a href=\"/\">ホームページ</a>あらんでぃ<span class=\"a\" onclick=\"window.history.back()\">前ぬページ</span>んかいむどぅてぃくぃみそーれー。"

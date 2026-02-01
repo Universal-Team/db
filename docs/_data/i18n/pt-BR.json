@@ -59,7 +59,7 @@
 	"unique-ids": "IDs únicos: ",
 	"version": "Versão: ",
 	"show-qr-for": "Mostrar QR Code para ${name}",
-	"scan-qr-fbi": "Escaneie este código QR usando <a href=\"/3ds/fbi\">FBI</a> no seu 3DS para instalar.",
+	"scan-qr-fbi": "Scan this QR code using <a href=\"/3ds/fbi-nh\">FBI</a> on your 3DS to install.",
 	"scan-qr-dsidl": "Escaneie este código QR usando <a href=\"/ds/dsidl\">dsidl</a> no seu DSi para instalar.",
 	"back": "&lt; Voltar",
 	"website": "Site",
@@ -80,7 +80,7 @@
 	"home-2": "A maioria das informações neste site é coletada automaticamente no repositório do aplicativo GitHub de informações, entrentanto, se você notar qualquer informação incorreta, reporte-a como um <a href=\"https://github.com/Universal-Team/db/issues/new\">GitHub Issue</a> ou no nosso servidor <a href=\"https://universal-team.net/discord\">do Discord</a>. Obrigado!",
 	"home-3": "Isto também é o padrão UniStore para <a href=\"/3ds/universal-updater\">Universal-Updater</a>, portanto, caso deseja procurar e instalar aplicativos do Universal-DB diretamente no seu 3DS você pode.",
 	"home-4": "On the Nintendo DSi there are two options for downloading apps from Universal-DB. <a href=\"/ds/dsidl\">dsidl</a> can use the QR codes on the site or <a href=\"/ds/kekatsu\">Kekatsu</a> which functions fully on device. If you have not used Kekatsu before, place this <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> in <code>sd:/Kekatsu/</code>.",
-	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our [Discord server](https://universal-team.net/discord)'s #universal-db-updates and to our [Bluesky](https://bsky.app/profile/universal-team.net)!",
+	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our <a href=\"https://universal-team.net/discord\">Discord server</a>'s #universal-db-updates and to our <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky</a>!",
 	"last-updated-apps": "Última atualização: ",
 	"error-404": "Erro! 404!",
 	"return-to-home": "Retorne à <a href=\"/\">página inicial</a> ou <span class=\"a\" onclick=\"window.history.back()\">volte</span> para a página anterior."

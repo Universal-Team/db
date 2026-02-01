@@ -59,7 +59,7 @@
 	"unique-ids": "Özgün kimlik: ",
 	"version": "Sürüm: ",
 	"show-qr-for": "${name} için QR kodunu göster",
-	"scan-qr-fbi": "3DS'ine yüklemek için <a href=\"/3ds/fbi\">FBI</a> üzerinden bu QR kodu tara.",
+	"scan-qr-fbi": "Scan this QR code using <a href=\"/3ds/fbi-nh\">FBI</a> on your 3DS to install.",
 	"scan-qr-dsidl": "DSi'ına yüklemek için <a href=\"/ds/dsidl\">dsidl</a> üzerinden bu QR kodu tara.",
 	"back": "&lt; Geri",
 	"website": "Websitesi",
@@ -80,7 +80,7 @@
 	"home-2": "Bu sitedeki bilgilerin çoğu, uygulamanın GitHub deposundaki bilgilerden otomatik olarak çekilir, ancak herhangi bir yanlış bilgi fark ederseniz lütfen bunu bir <a href=\"https://github.com/Universal-Team/db/issues/new\">GitHub Sorunu</a> olarak ya da <a href=\"https://universal-team.net/discord\">Discord sunucusuna</a> bildir. Teşekkürler!",
 	"home-3": "Burası ayrıca <a href=\"/3ds/universal-updater\">Universal-Updater</a> için varsayılan UniStore'dur, bu nedenle Universal-DB'den uygulamalara göz atmak ve doğrudan 3DS'nize yüklemek istiyorsan, bir göz atabilirsin.",
 	"home-4": "Nintendo DSi'de Universal-DB'den uygulama indirmek için iki seçenek vardır. <a href=\"/ds/dsidl\">dsidl</a> sitedeki QR kodlarını veya cihaz üzerinde tam olarak çalışan <a href=\"/ds/kekatsu\">Kekatsu</a> 'yu kullanabilir. Eğer daha önce Kekatsu kullanmadıysanız, bu <a href=\"/assets/files/databases.txt\" download=\"databases.txt\">databases.txt</a> <code>dosyasını sd:/Kekatsu/</code> dosyasına yerleştirin.",
-	"home-5": "Homebrew'daki yeni güncellemelerden haberdar olmak ister misiniz? Bu sitede bir RSS beslememiz var, sadece bu sayfanın URL'sini favori RSS okuyucunuza kopyalayın. RSS beslemesi ayrıca [Discord server](https://universal-team.net/discord)'ın #universal-db-updates ve [Bluesky](https://bsky.app/profile/universal-team.net)'ye de gönderilir!",
+	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our <a href=\"https://universal-team.net/discord\">Discord server</a>'s #universal-db-updates and to our <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky</a>!",
 	"last-updated-apps": "Son güncelleme: ",
 	"error-404": "Hata! 404!",
 	"return-to-home": "<a href=\"/\">Ana Sayfaya</a> dön ya da önceki sayfaya <span class=\"a\" onclick=\"window.history.back()\">geri dön</span>."

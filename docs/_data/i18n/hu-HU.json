@@ -59,7 +59,7 @@
 	"unique-ids": "Egyedi azonosítók: ",
 	"version": "Verzió: ",
 	"show-qr-for": "${name} QR kódjának megjelenítése",
-	"scan-qr-fbi": "Olvasd be ezt a QR kódot az <a href=\"/3ds/fbi\">FBI</a> használatával a 3DS-eden a telepítéshez.",
+	"scan-qr-fbi": "Olvasd be ezt a QR kódot az <a href=\"/3ds/fbi-nh\">FBI</a> használatával a 3DS-eden a telepítéshez.",
 	"scan-qr-dsidl": "Olvasd be ezt a QR kódot az <a href=\"/ds/dsidl\">dsidl</a> használatával a DSi-eden a telepítéshez.",
 	"back": "&lt; Vissza",
 	"website": "Weboldal",
@@ -80,7 +80,7 @@
 	"home-2": "A legtöbb információ ezen az oldalon automatikusan összegyűjtött az app GitHub repository-jából, azonban ha hibás információt látsz, kérjük jelezd egy <a href=\"https://github.com/Universal-Team/db/issues/new\">GitHub Issue-ként</a> vagy a <a href=\"https://universal-team.net/discord\">Discord szerverünkön</a>. Kösz!",
 	"home-3": "Ez egyébként az alapértelmezett UniStore-ja az <a href=\"/3ds/universal-updater\">Universal-Updater</a>-nek, így ha az Universal-DB-t közvetlenül a 3DS-eden böngésznéd és telepítenéd az appokat, akkor érdemes egy próbát tenned vele.",
 	"home-4": "A Nintendo DSi-n két lehetőség van az alkalmazások letöltésére az Universal-DB-ről. A <a href=\"/ds/dsidl\">dsidl</a> segítségével az oldalon található QR-kódokat használhatod, vagy a <a href=\"/ds/kekatsu\">Kekatsu</a>-t, ami teljes mértékben az eszközön működik. Ha még nem használtad a Kekatsu-t, helyezd el ezt a <a href=\"/ds/dsidl\">databases.txt fájlt</a> az <code>sd:/Kekatsu/</code> könyvtárba.",
-	"home-5": "Szeretnél értesítést kapni a homebrew új frissítéseiről? Van egy RSS feedünk az oldalon, csak másold be az oldal URL-jét a kedvenc RSS olvasódba. Az RSS hírcsatornát a [Discord szerverünkre](https://universal-team.net/discord) #universal-db-updates és a [Bluesky](https://bsky.app/profile/universal-team.net) fiókunkba szindikáljuk!",
+	"home-5": "Szeretnél értesítést kapni a homebrew új frissítéseiről? Van egy RSS feedünk az oldalon, csak másold be az oldal URL-jét a kedvenc RSS olvasódba. Az RSS hírcsatornát a <a href=\"https://universal-team.net/discord\">Discord szerverünkre</a>]az #universal-db-updates és a <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky</a> fiókunkba szindikáljuk!",
 	"last-updated-apps": "Utolsó frissítés: ",
 	"error-404": "Hiba! 404!",
 	"return-to-home": "Visszatérés a <a href=\"/\">kezdőlapra</a> vagy <span class=\"a\" onclick=\"window.history.back()\">menj vissza</span> az előző oldalra."
