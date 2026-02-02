@@ -26,7 +26,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.1.0
   downloads:
     TJAP_3DS.3dsx:
-      size: 9730208
+      size: 9728148
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.1.0/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -49,10 +49,6 @@ prerelease:
 
     <li>譜面終了時の処理を一部変更</li>
 
-    <li>連打速度を更に早く...？<br>
-
-    オプション変数が変わった影響の為申し訳無いですが、連打速度の再設定をお願いします！</li>
-
     </ul>
 
     <h2 dir="auto">changelog</h2>
@@ -70,11 +66,6 @@ prerelease:
 
     <li>Partial change in the processing at the end of the score</li>
 
-    <li>Make the consecutive RollSpeed even faster...?<br>
-
-    I''m sorry for the change in the option variable, but please reset the consecutive
-    RollSpeed!</li>
-
     </ul>'
   update_notes_md: '## チェンジログ
 
@@ -88,10 +79,6 @@ prerelease:
 
     - 譜面終了時の処理を一部変更
 
-    - 連打速度を更に早く...？
-
-    オプション変数が変わった影響の為申し訳無いですが、連打速度の再設定をお願いします！
-
 
     ## changelog
 
@@ -104,12 +91,7 @@ prerelease:
 
     Please use `#DUMMYEND` to disable it.
 
-    - Partial change in the processing at the end of the score
-
-    - Make the consecutive RollSpeed even faster...?
-
-    I''m sorry for the change in the option variable, but please reset the consecutive
-    RollSpeed!'
+    - Partial change in the processing at the end of the score'
   updated: '2026-01-19T06:15:58Z'
   version: v2.1.0
   version_title: TJAPlayer for 3DS v2.1.0
