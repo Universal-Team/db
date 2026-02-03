@@ -28,7 +28,7 @@ jobs:
         export PATH=$PATH:/opt/devkitpro/tools/bin
 
         # Check for background images
-        BG_DIR=source/bg
+        BG_DIR=source/bg/$(date +%m)
         COUNT=$(ls $BG_DIR | wc -l)
         if [ $COUNT -ne 0 ]; then
           SELECTED=$(( $(date +%-j) / 3 % $COUNT + 1 ))
