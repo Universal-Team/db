@@ -10,13 +10,13 @@ description: An easy to use app for installing and updating 3DS homebrew
 download_page: https://github.com/Universal-Team/Universal-Updater/releases
 downloads:
   Universal-Updater.3dsx:
-    size: 3195464
+    size: 3196984
     size_str: 3 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.3.3/Universal-Updater.3dsx
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.3.4/Universal-Updater.3dsx
   Universal-Updater.cia:
     size: 2667456
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.3.3/Universal-Updater.cia
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.3.4/Universal-Updater.cia
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/resources/2d-banner.png
@@ -24,29 +24,6 @@ image_length: 24475
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-nightly:
-  download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
-  downloads:
-    Universal-Updater.3dsx:
-      size: 3195488
-      size_str: 3 MiB
-      url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
-    Universal-Updater.cia:
-      size: 2667456
-      size_str: 2 MiB
-      url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
-  qr:
-    Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: '<p dir="auto">Hunter Xuman - Update UniStores.json</p>
-
-    <p dir="auto">Added Paper Mario Sticker Store to list of recommended stores</p>'
-  update_notes_md: 'Hunter Xuman - Update UniStores.json
-
-
-    Added Paper Mario Sticker Store to list of recommended stores'
-  updated: '2026-01-30T02:02:59Z'
-  version: git
-  version_title: Continuous Build - ef686af
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
@@ -94,24 +71,7 @@ title: Universal-Updater
 unique_ids:
 - '0x43917'
 unistore_exclude: true
-update_notes: '<div class="markdown-alert markdown-alert-warning" dir="auto"><p class="markdown-alert-title"
-  dir="auto"><svg class="octicon octicon-alert mr-2" viewBox="0 0 16 16" version="1.1"
-  width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234
-  3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25
-  0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53
-  3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0
-  1 2 0Z"></path></svg>Warning</p><p dir="auto"><strong>This update has been crashing
-  for some users who just modded their console.</strong><br>
-
-  If this is your first time opening Universal-Updater after modding your console,
-  skip this update. After you''ve used it once it sounds like it should be safe to
-  update.<br>
-
-  I will look into this shortly.</p>
-
-  </div>
-
-  <div class="markdown-alert markdown-alert-tip" dir="auto"><p class="markdown-alert-title"
+update_notes: '<div class="markdown-alert markdown-alert-tip" dir="auto"><p class="markdown-alert-title"
   dir="auto"><svg class="octicon octicon-light-bulb mr-2" viewBox="0 0 16 16" version="1.1"
   width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75
   0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621
@@ -127,104 +87,16 @@ update_notes: '<div class="markdown-alert markdown-alert-warning" dir="auto"><p 
 
   </div>
 
-  <p dir="auto">A much smaller release than the last one, but with some nice changes
-  nonetheless.</p>
+  <p dir="auto">Not a particularly interesting release this one, but it fixes the
+  crashes some new users were getting when Universal-Updater tried to display its
+  changelog on first load up if Universal-DB hadn''t downloaded successfully.</p>
 
-  <h2 dir="auto">New features</h2>
-
-  <ul dir="auto">
-
-  <li>Much improved search menu
-
-  <ul dir="auto">
-
-  <li>I had always intended to make the search menu have buttons or dropdowns or the
-  like for the Categories and Consoles values, well it took a hot minute but now it''s
-  here!</li>
-
-  <li>You can also search on descriptions now, by default searches now search both
-  title or description, but you can disable either of them</li>
-
-  </ul>
-
-  </li>
-
-  <li>(<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Sorunome/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Sorunome">@Sorunome</a>)  SSL
-  validity is now actually checked and respected
-
-  <ul dir="auto">
-
-  <li>Previously while we fully supported SSL for encryption, we had certificate validation
-  disabled leaving MITM attacks possible</li>
-
-  <li>Minor downside is that web requests will now properly fail if your date is set
-  significantly off, but this is easy to fix from Luma3DS''s Rosalina menu</li>
-
-  </ul>
-
-  </li>
-
-  <li>Several menus that previously required using the buttons to scroll are now fully
-  controllable on the touch screen by scrolling on tapping the first or last item
-  in the list</li>
-
-  <li>Prompt messages now automatically wrap text and support scrolling!</li>
-
-  <li>Added a warning on start if the connection times out that you probably have
-  an incompatible custom DNS</li>
-
-  <li>Replaced our old practice of uploading commit builds to a dedicated repository
-  with uploading them to a ''git'' release on this repo
-
-  <ul dir="auto">
-
-  <li>This makes them easier to find and fixes some buggy behaviour when using the
-  git build auto-update feature in app</li>
-
-  <li>We have also changed the nomenclature from ''nightly builds'' to ''git builds''
-  as it better reflects the technical reality</li>
-
-  </ul>
-
-  </li>
-
-  </ul>
-
-  <h2 dir="auto">Bug fixes</h2>
-
-  <ul dir="auto">
-
-  <li>Fixed sleep mode!
-
-  <ul dir="auto">
-
-  <li>Universal-Updater used to block sleep mode despite it not actually keeping an
-  internet connection so battery was wasted for no reason; now sleep is only blocked
-  while the queue is running and downloads actually work! (your console will finish
-  all downloads and installs then go to sleep)</li>
-
-  </ul>
-
-  </li>
-
-  <li>Fixed visual regression in v3.3.0 that made the install confirmation unhelpfully
-  always ask if you''re sure you want to install the first entry rather than the selected
-  one</li>
-
-  <li>Made it so the install confirmation prompt is never skipped for nightlies and
-  pre-releases</li>
-
-  </ul>
-
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/a4a25072-6b94-4e12-824d-fbd4ee228782"><img
-  width="245" height="245" alt="universal-updater-cia" src="https://github.com/user-attachments/assets/a4a25072-6b94-4e12-824d-fbd4ee228782"
-  style="max-width: 100%; height: auto; max-height: 245px;"></a>'
-updated: '2026-01-29T06:04:37Z'
-version: v3.3.3
-version_title: Something good this year
+  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/2397d2e0-7b82-4a91-8cde-264c94fbdc34"><img
+  src="https://github.com/user-attachments/assets/2397d2e0-7b82-4a91-8cde-264c94fbdc34"
+  alt="QR Code for the GitHub Release" style="max-width: 100%;"></a></p>'
+updated: '2026-02-03T12:56:46Z'
+version: v3.3.4
+version_title: Crashing be gone
 website: https://universal-team.net/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
