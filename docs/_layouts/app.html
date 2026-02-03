@@ -120,7 +120,12 @@ layout: compress
 											<small>
 												<span class="i18n innerHTML-version">Version: </span>{% if page.download_page %}<a href="{{ page.download_page }}">{% endif %}{{ page.version }}{% if page.download_page %}</a>{% endif %}
 												{% if page.update_notes %}
-													<button class="btn btn-outline-secondary btn-sm i18n innerHTML-update-notes" data-bs-toggle="modal" data-bs-target="#modal" data-name="{% if page.version_title %}{{ page.version_title }}{% else %}{{ page.version }}{% endif %}" data-content="{{ page.update_notes | escape }}">Update notes</button>
+													{% assign notes_formatted = page.update_notes | replace: "markdown-alert", "alert" %}
+													{% assign notes_formatted = notes_formatted | replace: "alert-tip", "alert-success" %}
+													{% assign notes_formatted = notes_formatted | replace: "alert-note", "alert-info" %}
+													{% assign notes_formatted = notes_formatted | replace: "alert-important", "alert-primary" %}
+													{% assign notes_formatted = notes_formatted | replace: "alert-caution", "alert-danger" %}
+													<button class="btn btn-outline-secondary btn-sm i18n innerHTML-update-notes" data-bs-toggle="modal" data-bs-target="#modal" data-name="{% if page.version_title %}{{ page.version_title }}{% else %}{{ page.version }}{% endif %}" data-content="{{ notes_formatted | escape }}">Update notes</button>
 												{% elsif page.version_title %}
 												- {{ page.version_title }}
 												{% endif %}
