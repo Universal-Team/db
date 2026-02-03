@@ -91,6 +91,11 @@ update_notes: '<div class="markdown-alert markdown-alert-tip" dir="auto"><p clas
   crashes some new users were getting when Universal-Updater tried to display its
   changelog on first load up if Universal-DB hadn''t downloaded successfully.</p>
 
+  <p dir="auto">Also, we recently added a new UniStore to the recommended list. Check
+  out the mods in the Paper Mario Sticker Store! (Thanks <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/Hunter-Xuman/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Hunter-Xuman">@Hunter-Xuman</a>!)</p>
+
   <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/2397d2e0-7b82-4a91-8cde-264c94fbdc34"><img
   src="https://github.com/user-attachments/assets/2397d2e0-7b82-4a91-8cde-264c94fbdc34"
   alt="QR Code for the GitHub Release" style="max-width: 100%;"></a></p>'
