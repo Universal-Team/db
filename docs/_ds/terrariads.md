@@ -23,7 +23,7 @@ license_name: Other
 qr:
   TerrariaDS.nds: https://db.universal-team.net/assets/images/qr/terrariads-nds.png
 source: https://github.com/AzizBgBoss/TerrariaDS
-stars: 22
+stars: 23
 systems:
 - DS
 title: TerrariaDS
