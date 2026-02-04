@@ -10,13 +10,13 @@ description: NetPass allows you to get StreetPasses over the internet
 download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 6566964
-    size_str: 6 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/fcef1697b7bd4346948aaa469d96a596c2f30d66/netpass.3dsx?inline=false
+    size: 7780040
+    size_str: 7 MiB
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/c6f7e17aa02e64f493dd9dc9ab6d009916ccabc8/netpass.3dsx?inline=false
   netpass.cia:
-    size: 6652864
-    size_str: 6 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/fcef1697b7bd4346948aaa469d96a596c2f30d66/netpass.cia?inline=false
+    size: 7873472
+    size_str: 7 MiB
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/c6f7e17aa02e64f493dd9dc9ab6d009916ccabc8/netpass.cia?inline=false
 gitlab: 3ds-netpass/netpass
 icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
@@ -33,11 +33,13 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <p data-sourcepos="1:1-1:57" dir="auto">Fix some issues with the back
-  alley not producing results</p>
-updated: '2025-12-18T16:42:45.707Z'
-version: v1.2.8
-version_title: v1.2.8
+update_notes: " - add qr code and event location music\n - explicitly send LFCS\n\
+  \ - Fix potential crashes on exit\n - make purchasing passes from the back alley\
+  \ faster\n - Add spinner / busy indicator on bottom screen (Thanks @Silentium)\n\
+  \ - Fetch passes until none are possible to be fetched anymore (Thanks @Silentium)\n"
+updated: '2026-02-04T13:20:51.886Z'
+version: v1.2.9
+version_title: v1.2.9
 website: https://netpass.cafe
 ---
 #NetPass: StreetPass in the modern world
