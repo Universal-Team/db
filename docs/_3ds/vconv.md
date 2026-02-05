@@ -6,7 +6,8 @@ categories:
 color: '#7b8288'
 color_bg: '#737a80'
 created: '2025-03-18T06:48:34Z'
-description: Simulate Xbox controller inputs using your 3DS. (Support Windows 10/11)
+description: Simulate Xbox controller inputs using your 3DS. Support Windows 10/11.
+  (The development is over. Feel free to fork!)
 download_page: https://github.com/lxfly2000/VConV/releases
 downloads:
   vconv.cia:
