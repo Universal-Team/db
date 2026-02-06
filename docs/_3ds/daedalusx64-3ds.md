@@ -45,7 +45,7 @@ script_message: 'Note: You will need to put at least one ROM in:
 
   Not having any ROMs will make it load a glitched menu.'
 source: https://github.com/masterfeizz/DaedalusX64-3DS
-stars: 377
+stars: 378
 systems:
 - 3DS
 title: DaedalusX64-3DS

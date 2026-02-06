@@ -11,13 +11,13 @@ description: Another work-in-progress fork of the homebrew YouTube client for th
 download_page: https://github.com/erievs/FourthTube/releases
 downloads:
   FourthTube.3dsx:
-    size: 6221708
-    size_str: 5 MiB
-    url: https://github.com/erievs/FourthTube/releases/download/b34/FourthTube.3dsx
+    size: 6386288
+    size_str: 6 MiB
+    url: https://github.com/erievs/FourthTube/releases/download/b34.1/FourthTube.3dsx
   FourthTube.cia:
-    size: 4608960
+    size: 4707264
     size_str: 4 MiB
-    url: https://github.com/erievs/FourthTube/releases/download/b34/FourthTube.cia
+    url: https://github.com/erievs/FourthTube/releases/download/b34.1/FourthTube.cia
 github: erievs/FourthTube
 icon: https://raw.githubusercontent.com/erievs/FourthTube/main/resource/icon.png
 image: https://raw.githubusercontent.com/erievs/FourthTube/main/resource/banner_legacy.png
@@ -34,30 +34,35 @@ systems:
 title: FourthTube
 unique_ids:
 - '0xBF74D'
-update_notes: '<p dir="auto">This release doesn''t have as much, but it should fix
-  video playback for most users.</p>
+update_notes: '<p dir="auto"><del>"This release doesn''t have as much, quick and crappy
+  interim release."</del></p>
 
-  <h1 dir="auto"><strong>Changelog</strong></h1>
+  <p dir="auto">"This update contrary to the previous statement, addeds quite a bit.
+  I (erievs) was not aware that the changes were in the main repo already. If i would
+  have known I''d named this Beta 35. <strong>Big shoutout to 2ipper who added quite
+  a lot to this release</strong>.</p>
 
-  <p dir="auto"><strong>Smu1zel</strong></p>
+  <p dir="auto"><strong>TO PEOPLE WHO ARE UPDATING PLEASE SWITCH TO ANDROID VR IN
+  THE ADVANCE TAB IN SETTINGS YOUR SETTINGS WON''T BE AUTO UPDATED, ANDROID VR WILL
+  ONLY BE DEFAULT IF YOU DIDN''T HAVE ANY SAVE DATA</strong></p>
+
+  <p dir="auto"><strong>### Changelog</strong><br>
+
+  <strong>erievs &amp; Smu1zel (helped me build the release) &amp;&amp; 2ipper (a
+  lot)</strong></p>
 
   <ul dir="auto">
 
-  <li>The screen timeout feature now only turns off the bottom screen. This means
-  you no longer have to set it to Never to make the app usable.</li>
+  <li>Add the current version to the update header in settings updater.</li>
 
-  <li>The iOS client has been removed in favor of Android (with some iOS parameters
-  since that works for some reason). This works with all videos that the iOS client
-  originally supported. visionOS should no longer be preferred due to YouTube blocking
-  Kids videos on it as of September or so. If you used it as a workaround in 33, please
-  switch back. This may also fix video playback in certain regions, but I don''t know
-  for certain.</li>
+  <li>Switched the default agent from Android to Android VR, so videos will play again,
+  do note VR does NOT support YouTube kids content. A better solution is being worked
+  on, this is a stopgap update really.</li>
 
-  </ul>
+  <li>A lot more, I''ll update as I learn more, oops.</li>
 
-  <h3 dir="auto">This also marks the first anniversary of FourthTube. Thank you all
-  for using it!</h3>'
-updated: '2025-10-28T03:37:11Z'
-version: b34
-version_title: Beta - 34
+  </ul>'
+updated: '2026-02-06T02:00:50Z'
+version: b34.1
+version_title: Beta - 34.1
 ---

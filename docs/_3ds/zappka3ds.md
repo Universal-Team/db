@@ -10,13 +10,13 @@ description: Get your Żappsy™ straight with Żappka3DS
 download_page: https://github.com/TehFridge/Zappka3DS/releases
 downloads:
   Zappka3DS.3dsx:
-    size: 19575652
+    size: 19575076
     size_str: 18 MiB
-    url: https://github.com/TehFridge/Zappka3DS/releases/download/v2.0.4/Zappka3DS.3dsx
+    url: https://github.com/TehFridge/Zappka3DS/releases/download/v2.0.41/Zappka3DS.3dsx
   Zappka3DS.cia:
     size: 19973056
     size_str: 19 MiB
-    url: https://github.com/TehFridge/Zappka3DS/releases/download/v2.0.4/Zappka3DS.cia
+    url: https://github.com/TehFridge/Zappka3DS/releases/download/v2.0.41/Zappka3DS.cia
 github: TehFridge/Zappka3DS
 icon: https://raw.githubusercontent.com/TehFridge/Zappka3DS/refs/heads/main/meta/icon.png
 image: https://raw.githubusercontent.com/TehFridge/Zappka3DS/refs/heads/main/meta/icon.png
@@ -38,23 +38,13 @@ systems:
 title: Żappka3DS
 unique_ids:
 - '0xEC900'
-update_notes: '<h1 dir="auto">Zmiany:</h1>
+update_notes: '<p dir="auto">elo naprawiłem logowanie i kupony.<br>
 
-  <ul dir="auto">
+  jest 4 w nocy chce spać</p>
 
-  <li>Całkowity rework parsera kuponów</li>
-
-  <li>Częściowo podrasowana autoryzacja</li>
-
-  </ul>
-
-  <h2 dir="auto">QR''ka do pobrania</h2>
-
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/a639e0df-bb25-4c0c-b778-9970f1ff2066"><img
-  src="https://github.com/user-attachments/assets/a639e0df-bb25-4c0c-b778-9970f1ff2066"
-  alt="image" style="max-width: 100%;"></a></p>'
-updated: '2025-07-02T22:02:04Z'
-version: v2.0.4
-version_title: Żappka3DS 2.0.4
+  <p dir="auto">(wywalcie plik data.json z /3ds i zalogujcie sie na nowo)</p>'
+updated: '2026-02-06T03:20:25Z'
+version: v2.0.41
+version_title: Żappka3DS 2.0.41 (update tymczasowy)
 ---
 ## Get your Żappsy™ straight with Żappka3DS!
