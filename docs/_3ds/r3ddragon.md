@@ -19,7 +19,7 @@ image: https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/resources/b
 image_length: 5927
 layout: app
 source: https://github.com/mrdanielps/r3Ddragon
-stars: 129
+stars: 130
 systems:
 - 3DS
 title: r3Ddragon
