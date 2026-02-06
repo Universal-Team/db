@@ -32,7 +32,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/zappka3ds/title-screen.png
 source: https://github.com/TehFridge/Zappka3DS
-stars: 116
+stars: 122
 systems:
 - 3DS
 title: Żappka3DS
