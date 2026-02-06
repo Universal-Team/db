@@ -26,7 +26,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.1.0
   downloads:
     TJAP_3DS.3dsx:
-      size: 9728148
+      size: 9729492
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.1.0/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -49,6 +49,8 @@ prerelease:
 
     <li>譜面終了時の処理を一部変更</li>
 
+    <li>コンボアニメーションの追加</li>
+
     </ul>
 
     <h2 dir="auto">changelog</h2>
@@ -66,6 +68,8 @@ prerelease:
 
     <li>Partial change in the processing at the end of the score</li>
 
+    <li>Adding combo animations</li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
@@ -79,6 +83,8 @@ prerelease:
 
     - 譜面終了時の処理を一部変更
 
+    - コンボアニメーションの追加
+
 
     ## changelog
 
@@ -91,7 +97,9 @@ prerelease:
 
     Please use `#DUMMYEND` to disable it.
 
-    - Partial change in the processing at the end of the score'
+    - Partial change in the processing at the end of the score
+
+    - Adding combo animations'
   updated: '2026-01-19T06:15:58Z'
   version: v2.1.0
   version_title: TJAPlayer for 3DS v2.1.0

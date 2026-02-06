@@ -28,7 +28,7 @@ license_name: Other
 qr:
   ClassiCube-3ds.cia: https://db.universal-team.net/assets/images/qr/classicube-3ds-cia.png
 source: https://github.com/ClassiCube/ClassiCube
-stars: 1875
+stars: 1876
 systems:
 - 3DS
 title: ClassiCube
