@@ -25,7 +25,7 @@ layout: app
 qr:
   vice3DS-C64.cia: https://db.universal-team.net/assets/images/qr/vice3ds-c64-cia.png
 source: https://github.com/badda71/vice3ds
-stars: 63
+stars: 64
 systems:
 - 3DS
 title: vice3DS
