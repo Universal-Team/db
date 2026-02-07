@@ -29,7 +29,7 @@ screenshots:
 - description: Gameplay
   url: https://db.universal-team.net/assets/images/screenshots/trogdor-reburninated/gameplay.png
 source: https://github.com/Mode8fx/Trogdor-Reburninated
-stars: 26
+stars: 27
 systems:
 - 3DS
 title: 'Trogdor: Reburninated'
