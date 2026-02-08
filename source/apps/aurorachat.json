@@ -1,0 +1,11 @@
+
+{
+	"github": "mii-man/aurorachat",
+	"author": "mii-man, Virtualle, and others",
+	"systems": ["3DS"],
+	"categories": ["app"],
+  	"unique_ids": [765906],
+	"image": "https://raw.githubusercontent.com/mii-man/aurorachat/main/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/mii-man/aurorachat/main/meta/icon.png",
+	"long_description": "A safer chatting app for the Nintendo 3DS line of systems."
+}
