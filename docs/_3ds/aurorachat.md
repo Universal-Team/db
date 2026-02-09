@@ -11,13 +11,13 @@ description: aurorachat is a chat app inspired by hbchat. it is used with the ni
 download_page: https://github.com/mii-man/aurorachat/releases
 downloads:
   aurorachat.3dsx:
-    size: 215068
+    size: 215708
     size_str: 210 KiB
-    url: https://github.com/mii-man/aurorachat/releases/download/v0.0.4.1/aurorachat.3dsx
+    url: https://github.com/mii-man/aurorachat/releases/download/v0.0.4.2/aurorachat.3dsx
   aurorachat.cia:
     size: 521152
     size_str: 508 KiB
-    url: https://github.com/mii-man/aurorachat/releases/download/v0.0.4.1/aurorachat.cia
+    url: https://github.com/mii-man/aurorachat/releases/download/v0.0.4.2/aurorachat.cia
 github: mii-man/aurorachat
 icon: https://raw.githubusercontent.com/mii-man/aurorachat/main/meta/icon.png
 image: https://raw.githubusercontent.com/mii-man/aurorachat/main/meta/banner.png
@@ -34,21 +34,23 @@ systems:
 title: aurorachat
 unique_ids:
 - '0xBAFD2'
-update_notes: '<p dir="auto">Closes <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="3913104410" data-permission-text="Title is private" data-url="https://github.com/mii-man/aurorachat/issues/49"
-  data-hovercard-type="issue" data-hovercard-url="/mii-man/aurorachat/issues/49/hovercard"
-  href="https://github.com/mii-man/aurorachat/issues/49">#49</a> by finally finding
-  the problem that caused the API to be non-functional.</p>
+update_notes: '<p dir="auto">I''m tired, anywho!</p>
 
   <h3 dir="auto">Changelog:</h3>
 
   <ul dir="auto">
 
-  <li>Fixed API</li>
+  <li>Added dark mode</li>
 
-  </ul>'
-updated: '2026-02-08T20:11:03Z'
-version: v0.0.4.1
-version_title: 'v0.0.4.1: Back In Buisness'
+  <li>Fixed line breaks</li>
+
+  <li>Unknown</li>
+
+  </ul>
+
+  <p dir="auto">Goodnight.</p>'
+updated: '2026-02-09T00:18:23Z'
+version: v0.0.4.2
+version_title: 'v0.0.4.2: Fixes, fixes...'
 ---
 A safer chatting app for the Nintendo 3DS line of systems.
