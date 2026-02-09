@@ -28,7 +28,7 @@ license_name: MIT License
 qr:
   aurorachat.cia: https://db.universal-team.net/assets/images/qr/aurorachat-cia.png
 source: https://github.com/mii-man/aurorachat
-stars: 7
+stars: 8
 systems:
 - 3DS
 title: aurorachat
