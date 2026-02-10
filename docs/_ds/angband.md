@@ -18,121 +18,74 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-53-g6bf9d6f43
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-57-g8e22bb81c
   downloads:
-    Angband-4.2.6-53-g6bf9d6f43-3ds.zip:
-      size: 24669760
+    Angband-4.2.6-57-g8e22bb81c-3ds.zip:
+      size: 24669672
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-53-g6bf9d6f43/Angband-4.2.6-53-g6bf9d6f43-3ds.zip
-    Angband-4.2.6-53-g6bf9d6f43-nds.zip:
+      url: https://github.com/angband/angband/releases/download/4.2.6-57-g8e22bb81c/Angband-4.2.6-57-g8e22bb81c-3ds.zip
+    Angband-4.2.6-57-g8e22bb81c-nds.zip:
       size: 23330146
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-53-g6bf9d6f43/Angband-4.2.6-53-g6bf9d6f43-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-57-g8e22bb81c/Angband-4.2.6-57-g8e22bb81c-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>borg: rewrote some borg commands by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
-    in <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/angband/angband/commit/53d406bf08de2cd839aeb5d2fd6aeb83c82768bf/hovercard"
-    href="https://github.com/angband/angband/commit/53d406bf08de2cd839aeb5d2fd6aeb83c82768bf"><tt>53d406b</tt></a></li>
-
-    <li>Match Term_key_push()''s prototype to Term_keypress()''s by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    <li>ci: replace autotools builds with CMake in release.yaml by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/klaasvanaarsen/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/klaasvanaarsen">@klaasvanaarsen</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3810129541" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6492"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6492/hovercard"
-    href="https://github.com/angband/angband/pull/6492">#6492</a></li>
+    data-id="3863072015" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6509"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6509/hovercard"
+    href="https://github.com/angband/angband/pull/6509">#6509</a></li>
 
-    <li>SDL2: correct dialog placements by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/backwardsEric/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3836614647" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6501"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6501/hovercard"
-    href="https://github.com/angband/angband/pull/6501">#6501</a></li>
-
-    <li>SDL2: correct cast when changing label of menu entry by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3838993851" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6502"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6502/hovercard"
-    href="https://github.com/angband/angband/pull/6502">#6502</a></li>
-
-    <li>SDL2: add missing behavior in sdlpui_popup_dialog() by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3838998269" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6503"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6503/hovercard"
-    href="https://github.com/angband/angband/pull/6503">#6503</a></li>
-
-    <li>macOS: put call to setTerm() last in the terminal initialization hook by <a
+    <li>X11: avoid using uninitialized data after memory allocation failure by <a
     class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3845833428" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6505"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6505/hovercard"
-    href="https://github.com/angband/angband/pull/6505">#6505</a></li>
+    data-id="3887363477" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6513"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6513/hovercard"
+    href="https://github.com/angband/angband/pull/6513">#6513</a></li>
 
-    <li>ci: add DOSBox runtime smoke test by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/klaasvanaarsen/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/klaasvanaarsen">@klaasvanaarsen</a>
+    <li>X11: free class and size hints immediately after sending them to the server
+    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3849665496" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6506"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6506/hovercard"
-    href="https://github.com/angband/angband/pull/6506">#6506</a></li>
+    data-id="3887468303" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6514"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6514/hovercard"
+    href="https://github.com/angband/angband/pull/6514">#6514</a></li>
 
-    <li>ci: add CMake + Ninja macOS curses build by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/klaasvanaarsen/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/klaasvanaarsen">@klaasvanaarsen</a>
+    <li>borg: fix waiting for a monster to approach by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3862097716" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6507"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6507/hovercard"
-    href="https://github.com/angband/angband/pull/6507">#6507</a></li>
-
-    <li>ci: add CMake statsbuild job by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/klaasvanaarsen/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/klaasvanaarsen">@klaasvanaarsen</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3862188802" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6508"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6508/hovercard"
-    href="https://github.com/angband/angband/pull/6508">#6508</a></li>
+    data-id="3902932066" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6516"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6516/hovercard"
+    href="https://github.com/angband/angband/pull/6516">#6516</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-44-g6ded57739...4.2.6-53-g6bf9d6f43"><tt>4.2.6-44-g6ded57739...4.2.6-53-g6bf9d6f43</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-53-g6bf9d6f43...4.2.6-57-g8e22bb81c"><tt>4.2.6-53-g6bf9d6f43...4.2.6-57-g8e22bb81c</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * borg: rewrote some borg commands by @agoodman00 in https://github.com/angband/angband/commit/53d406bf08de2cd839aeb5d2fd6aeb83c82768bf
+    * ci: replace autotools builds with CMake in release.yaml by @klaasvanaarsen in
+    https://github.com/angband/angband/pull/6509
 
-    * Match Term_key_push()''s prototype to Term_keypress()''s by @backwardsEric in
-    https://github.com/angband/angband/pull/6492
+    * X11: avoid using uninitialized data after memory allocation failure by @backwardsEric
+    in https://github.com/angband/angband/pull/6513
 
-    * SDL2: correct dialog placements by @backwardsEric in https://github.com/angband/angband/pull/6501
+    * X11: free class and size hints immediately after sending them to the server
+    by @backwardsEric in https://github.com/angband/angband/pull/6514
 
-    * SDL2: correct cast when changing label of menu entry by @backwardsEric in https://github.com/angband/angband/pull/6502
-
-    * SDL2: add missing behavior in sdlpui_popup_dialog() by @backwardsEric in https://github.com/angband/angband/pull/6503
-
-    * macOS: put call to setTerm() last in the terminal initialization hook by @backwardsEric
-    in https://github.com/angband/angband/pull/6505
-
-    * ci: add DOSBox runtime smoke test by @klaasvanaarsen in https://github.com/angband/angband/pull/6506
-
-    * ci: add CMake + Ninja macOS curses build by @klaasvanaarsen in https://github.com/angband/angband/pull/6507
-
-    * ci: add CMake statsbuild job by @klaasvanaarsen in https://github.com/angband/angband/pull/6508
+    * borg: fix waiting for a monster to approach by @agoodman00 in https://github.com/angband/angband/pull/6516
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-44-g6ded57739...4.2.6-53-g6bf9d6f43'
-  updated: '2026-02-03T16:32:21Z'
-  version: 4.2.6-53-g6bf9d6f43
-  version_title: 4.2.6-53-g6bf9d6f43
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-53-g6bf9d6f43...4.2.6-57-g8e22bb81c'
+  updated: '2026-02-10T15:02:12Z'
+  version: 4.2.6-57-g8e22bb81c
+  version_title: 4.2.6-57-g8e22bb81c
 source: https://github.com/angband/angband
 stars: 1477
 systems:

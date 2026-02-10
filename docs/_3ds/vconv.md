@@ -29,7 +29,7 @@ screenshots:
 - description: Preview
   url: https://db.universal-team.net/assets/images/screenshots/vconv/preview.png
 source: https://github.com/lxfly2000/VConV
-stars: 11
+stars: 12
 systems:
 - 3DS
 title: VConV

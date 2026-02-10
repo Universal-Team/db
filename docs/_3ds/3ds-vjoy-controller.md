@@ -20,7 +20,7 @@ layout: app
 script_message: Please visit https://github.com/StringJan/3ds-vJoy-controller to get
   started
 source: https://github.com/StringJan/3ds-vJoy-controller
-stars: 6
+stars: 7
 systems:
 - 3DS
 title: 3DS vJoy Controller

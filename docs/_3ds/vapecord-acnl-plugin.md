@@ -10,9 +10,9 @@ description: Animal Crossing NL Vapecord Public Plugin WIP
 download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases
 downloads:
   Vapecord.Public.zip:
-    size: 4343600
+    size: 4349615
     size_str: 4 MiB
-    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v2.1.0/Vapecord.Public.zip
+    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v3.0.0/Vapecord.Public.zip
 github: RedShyGuy/Vapecord-ACNL-Plugin
 image: https://avatars.githubusercontent.com/u/43783060?v=4&size=128
 image_length: 4199
@@ -24,47 +24,85 @@ stars: 154
 systems:
 - 3DS
 title: Vapecord-ACNL-Plugin
-update_notes: '<h1 dir="auto">Merry Christmas, here a new version!</h1>
+update_notes: '<h1 dir="auto">New Big Version!</h1>
 
   <h2 dir="auto">New Features:</h2>
 
-  <h3 dir="auto">House Editor!</h3>
+  <h3 dir="auto">Insect Spawner (&amp; Despawner)</h3>
 
-  <p dir="auto">The House Editor allows you to upgrade your house/rooms instantly,
-  no need to skip a day or save and quit the game!<br>
+  <p dir="auto">The insect spawner allows you to spawn any insect anywhere! It also
+  allows you to despawn every insect on the map instantly.</p>
 
-  It will simulate the house upgrade script from the game to keep the save state correct.
-  This means that when you upgrade the house to a specific size, you will for example
-  unlock Lyle in Nooks Homes just like you would when you upgrade it normally through
-  the game.</p>
+  <h3 dir="auto">Insects don''t flee</h3>
 
-  <p dir="auto">You can also edit the exterior of your house!<br>
+  <p dir="auto">This cheat disables insects from fleeing when going too close to them
+  or missing with the net.</p>
 
-  No need to input or memorize any ID''s, every exterior option is listed with its
-  name (for example: fairy-tale door)!<br>
+  <h3 dir="auto">Freeze Grass State</h3>
 
-  The names will be in the language of your game!</p>
+  <p dir="auto">This cheat locks your current grass state in town, skipping days won''t
+  change your grass state at all. Make sure to have it enabled when the game saves.</p>
 
-  <h3 dir="auto">Fast Player Select Improvements!</h3>
+  <h3 dir="auto">Items don''t disappear</h3>
 
-  <p dir="auto">The Fast Player Select cheat now also spams the A Button to skip over
-  the dialog from Isabelle even faster!<br>
+  <p dir="auto">This cheat will stop items from disappearing if they are on invalid
+  positions like at doors, on buildings, etc. Make sure to have it enabled when the
+  game saves.</p>
 
-  It will also block any inputs by the user while its spamming the A Button to ensure
-  the user doesn''t delete their town accidentally.</p>
-
-  <h2 dir="auto">Bug Fixes:</h2>
+  <h2 dir="auto">Other Minor Features</h2>
 
   <ul dir="auto">
 
-  <li>Fixed not being able to pickup flowers/stones/trees/weed after closing the 3ds
-  lid</li>
+  <li>Menu Folder Color Editor is back</li>
 
-  <li>Touch warp crashing when digging something up</li>
+  <li>Reworked OSD Notifiers to also work with foreign symbols (like japanese)</li>
 
-  <li>Light Switch &amp; Secret Storage not showing up on the island</li>
+  </ul>
 
-  <li>Fast Isabelle breaking Fast Game Speed &amp; Fast Game Text</li>
+  <h2 dir="auto">Bug Fixes</h2>
+
+  <ul dir="auto">
+
+  <li>Fixed Catalog To Pockets not working in Camping Grounds RV Ordering &amp; Happy
+  Home Showcase Ordering</li>
+
+  <li>Fixed Bypass Checksums activating too late</li>
+
+  <li>Fixed NPC issues when playing online</li>
+
+  <li>Fixed PWP Unlocker issues</li>
+
+  <li>Fixed NPC Selector doesn''t close dev osd sometimes</li>
+
+  <li>Changed default hotkeys for take tpc pic so images won''t be greyscale anymore</li>
+
+  <li>Made RV Campers Invalid for Building Placer as they corrupt the game</li>
+
+  <li>Fixed Design Stands and Face Cutout Standees properly displaying their respective
+  Designs when placing or moving them with the Building Mod</li>
+
+  <li>Fixed broken cheats in KOR WA</li>
+
+  <li>Fixed Game Crashing when Census Menu is disabled while it is selected and then
+  reopening the TPC Menu</li>
+
+  </ul>
+
+  <h2 dir="auto">Minor Changes</h2>
+
+  <ul dir="auto">
+
+  <li>Custom Buttons are now actually custom (Don''t replace existing ones)</li>
+
+  <li>Removed Unused Hotkey of Catalog To Pockets</li>
+
+  <li>Edit Every Pattern now gives feedback when finished stealing designs</li>
+
+  <li>Improved Map Editor Hotkeys</li>
+
+  <li>Reworked Language System for smaller plugin size</li>
+
+  <li>Added version check to language system to not load old language files</li>
 
   </ul>
 
@@ -76,8 +114,8 @@ update_notes: '<h1 dir="auto">Merry Christmas, here a new version!</h1>
 
   If you encounter any bugs feel free to report them on the official <a href="https://discord.gg/QwqdBpKWf3"
   rel="nofollow">Vapecord Discord Server</a>.</p>'
-updated: '2025-12-24T20:52:17Z'
-version: v2.1.0
-version_title: ACNL Vapecord Public Plugin [v.2.1.0]
+updated: '2026-02-10T14:24:19Z'
+version: v3.0.0
+version_title: ACNL Vapecord Public Plugin [v.3.0.0]
 wiki: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/wiki
 ---

@@ -27,7 +27,7 @@ license_name: MIT License
 qr:
   Bandolero.3Ds.v1.5.RED.UPDATE.cia: https://db.universal-team.net/assets/images/qr/bandolero-3ds-v1-5-red-update-cia.png
 source: https://github.com/Tristanabs/bandolero3ds
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: Bandolero 3DS
