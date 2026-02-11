@@ -34,7 +34,9 @@ systems:
 title: aurorachat
 unique_ids:
 - '0xBAFD2'
-update_notes: '<p dir="auto">I''m tired, anywho!</p>
+update_notes: '<p dir="auto">And yet, there''s still more to fix.</p>
+
+  <p dir="auto">I''m tired, anywho!</p>
 
   <h3 dir="auto">Changelog:</h3>
 
