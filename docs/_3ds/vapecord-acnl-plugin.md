@@ -20,7 +20,7 @@ layout: app
 license: mit
 license_name: MIT License
 source: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin
-stars: 154
+stars: 155
 systems:
 - 3DS
 title: Vapecord-ACNL-Plugin

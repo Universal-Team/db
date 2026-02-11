@@ -32,7 +32,7 @@ screenshots:
 - description: Playing
   url: https://db.universal-team.net/assets/images/screenshots/pomegranate/playing.png
 source: https://github.com/sheepy0125/pomegranate
-stars: 19
+stars: 20
 systems:
 - 3DS
 title: Pomegranate
