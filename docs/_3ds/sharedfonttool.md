@@ -36,7 +36,7 @@ qr:
   SFontT.cia: https://db.universal-team.net/assets/images/qr/sfontt-cia.png
   SFontT80.cia: https://db.universal-team.net/assets/images/qr/sfontt80-cia.png
 source: https://github.com/dnasdw/SharedFontTool
-stars: 229
+stars: 230
 systems:
 - 3DS
 title: SharedFontTool
