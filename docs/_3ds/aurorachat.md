@@ -54,5 +54,6 @@ update_notes: '<p dir="auto">And yet, there''s still more to fix.</p>
 updated: '2026-02-09T00:18:23Z'
 version: v0.0.4.2
 version_title: 'v0.0.4.2: Fixes, fixes...'
+wiki: https://github.com/mii-man/aurorachat/wiki
 ---
 A safer chatting app for the Nintendo 3DS line of systems.
