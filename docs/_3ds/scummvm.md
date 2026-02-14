@@ -2130,10 +2130,8 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
   data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6499/hovercard"
   href="https://github.com/scummvm/scummvm/pull/6499">#6499</a></li>
 
-  <li>VIDEO: Correctly handle raw Elementary Stream MPEG Videos by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Malharbdv/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Malharbdv">@Malharbdv</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2939183012"
+  <li>VIDEO: Correctly handle raw Elementary Stream MPEG Videos by @Malharbdv in <a
+  class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2939183012"
   data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6496"
   data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6496/hovercard"
   href="https://github.com/scummvm/scummvm/pull/6496">#6496</a></li>
@@ -2491,26 +2489,20 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
   data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6558/hovercard"
   href="https://github.com/scummvm/scummvm/pull/6558">#6558</a></li>
 
-  <li>VIDEO: QTVR: Add quality, warpMode and swing transition by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Malharbdv/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Malharbdv">@Malharbdv</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2980107028"
+  <li>VIDEO: QTVR: Add quality, warpMode and swing transition by @Malharbdv in <a
+  class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2980107028"
   data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6548"
   data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6548/hovercard"
   href="https://github.com/scummvm/scummvm/pull/6548">#6548</a></li>
 
-  <li>DIRECTOR: XTRA: Set origin for the QTVR decoder in QTVR Xtra by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Malharbdv/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Malharbdv">@Malharbdv</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3009257119"
+  <li>DIRECTOR: XTRA: Set origin for the QTVR decoder in QTVR Xtra by @Malharbdv in
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3009257119"
   data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6564"
   data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6564/hovercard"
   href="https://github.com/scummvm/scummvm/pull/6564">#6564</a></li>
 
-  <li>DIRECTOR: Disable Movie Events while Alert is being shown by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Malharbdv/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Malharbdv">@Malharbdv</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3021141428"
+  <li>DIRECTOR: Disable Movie Events while Alert is being shown by @Malharbdv in <a
+  class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3021141428"
   data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6571"
   data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6571/hovercard"
   href="https://github.com/scummvm/scummvm/pull/6571">#6571</a></li>
@@ -2622,13 +2614,10 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
   data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6577/hovercard"
   href="https://github.com/scummvm/scummvm/pull/6577">#6577</a></li>
 
-  <li>VIDEO: QTVR: Remove bug in QTVR while changing nodes by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Malharbdv/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Malharbdv">@Malharbdv</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3033976891"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6584"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6584/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6584">#6584</a></li>
+  <li>VIDEO: QTVR: Remove bug in QTVR while changing nodes by @Malharbdv in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="3033976891" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/6584" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/6584/hovercard" href="https://github.com/scummvm/scummvm/pull/6584">#6584</a></li>
 
   <li>SCUMM: Add some bounds-checking to o5_stringOps() (bug #15884) by <a class="user-mention
   notranslate" data-hovercard-type="user" data-hovercard-url="/users/eriktorbjorn/hovercard"
@@ -3336,21 +3325,15 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
   data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6690/hovercard"
   href="https://github.com/scummvm/scummvm/pull/6690">#6690</a></li>
 
-  <li>VIDEO: QTVR: Disabling warp mode 1 and minor changes by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Malharbdv/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Malharbdv">@Malharbdv</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3124292368"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6695"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6695/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6695">#6695</a></li>
+  <li>VIDEO: QTVR: Disabling warp mode 1 and minor changes by @Malharbdv in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="3124292368" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/6695" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/6695/hovercard" href="https://github.com/scummvm/scummvm/pull/6695">#6695</a></li>
 
-  <li>VIDEO: QTVR: Fix hard coded maximum zoom value by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/Malharbdv/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Malharbdv">@Malharbdv</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3124115534"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6694"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6694/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6694">#6694</a></li>
+  <li>VIDEO: QTVR: Fix hard coded maximum zoom value by @Malharbdv in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="3124115534" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/6694" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/6694/hovercard" href="https://github.com/scummvm/scummvm/pull/6694">#6694</a></li>
 
   <li>ULTIMA: Split up the UltimaEngine class by <a class="user-mention notranslate"
   data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
@@ -3848,21 +3831,15 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
   data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6747/hovercard"
   href="https://github.com/scummvm/scummvm/pull/6747">#6747</a></li>
 
-  <li>DIRECTOR: Start saving Director movies  by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/Malharbdv/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Malharbdv">@Malharbdv</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3168786101"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6769"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6769/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6769">#6769</a></li>
+  <li>DIRECTOR: Start saving Director movies  by @Malharbdv in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="3168786101" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/6769" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/6769/hovercard" href="https://github.com/scummvm/scummvm/pull/6769">#6769</a></li>
 
-  <li>DIRECTOR: Remove unnecessary chunk.h file by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/Malharbdv/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Malharbdv">@Malharbdv</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3180332852"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6776"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6776/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6776">#6776</a></li>
+  <li>DIRECTOR: Remove unnecessary chunk.h file by @Malharbdv in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="3180332852" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/6776" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/6776/hovercard" href="https://github.com/scummvm/scummvm/pull/6776">#6776</a></li>
 
   <li>BUILD: enable ARM NEON on PSP2 by @Aztorius in <a class="issue-link js-issue-link"
   data-error-text="Failed to load title" data-id="3184027315" data-permission-text="Title
@@ -3905,13 +3882,10 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
   data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6771/hovercard"
   href="https://github.com/scummvm/scummvm/pull/6771">#6771</a></li>
 
-  <li>DIRECTOR: Fix Palette Duplication by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/Malharbdv/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Malharbdv">@Malharbdv</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3193291179"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6788"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6788/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6788">#6788</a></li>
+  <li>DIRECTOR: Fix Palette Duplication by @Malharbdv in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="3193291179" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/6788" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/6788/hovercard" href="https://github.com/scummvm/scummvm/pull/6788">#6788</a></li>
 
   <li>DIRECTOR: Fixes for Cracking the Conspiracy by <a class="user-mention notranslate"
   data-hovercard-type="user" data-hovercard-url="/users/moralrecordings/hovercard"
@@ -3977,10 +3951,8 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
   data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6760/hovercard"
   href="https://github.com/scummvm/scummvm/pull/6760">#6760</a></li>
 
-  <li>DIRECTOR: Save Cast Config and cast member info (''CASt'') by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Malharbdv/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Malharbdv">@Malharbdv</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3192103726"
+  <li>DIRECTOR: Save Cast Config and cast member info (''CASt'') by @Malharbdv in
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3192103726"
   data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6787"
   data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6787/hovercard"
   href="https://github.com/scummvm/scummvm/pull/6787">#6787</a></li>
