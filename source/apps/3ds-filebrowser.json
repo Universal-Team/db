@@ -1,0 +1,14 @@
+{
+	"github": "ZIXT233/3DS-FileBrowser",
+	"description": "A HTTP file manager for Nintendo 3DS.",
+	"author": "ZIXT233",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"icon": "https://raw.githubusercontent.com/ZIXT233/3DS-FileBrowser/master/meta/icon.png",
+	"image": "https://raw.githubusercontent.com/ZIXT233/3DS-FileBrowser/master/meta/banner.png",
+	"long_description": "A HTTP file manager for Nintendo 3DS. Run the app on your 3DS, connect from a phone or PC on the same Wi‑Fi, and browse, upload, download, and manage files on the SD card via a web interface."
+}
