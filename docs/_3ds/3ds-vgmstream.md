@@ -27,7 +27,7 @@ license_name: GNU General Public License v3.0
 qr:
   3ds-vgmstream.cia: https://db.universal-team.net/assets/images/qr/3ds-vgmstream-cia.png
 source: https://github.com/TricksterGuy/3ds-vgmstream
-stars: 17
+stars: 18
 systems:
 - 3DS
 title: 3ds-vgmstream

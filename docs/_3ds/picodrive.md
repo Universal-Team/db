@@ -19,7 +19,7 @@ image: https://db.universal-team.net/assets/images/images/picodrive.png
 image_length: 3153
 layout: app
 source: https://github.com/bubble2k16/picodrive_3ds
-stars: 80
+stars: 81
 systems:
 - 3DS
 title: PicoDrive
