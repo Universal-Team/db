@@ -37,7 +37,7 @@ qr:
   GBARunner2_arm7dldi_dsi.nds: https://db.universal-team.net/assets/images/qr/gbarunner2_arm7dldi_dsi-nds.png
   GBARunner2_arm9dldi_ds.nds: https://db.universal-team.net/assets/images/qr/gbarunner2_arm9dldi_ds-nds.png
 source: https://github.com/Gericom/GBARunner2
-stars: 886
+stars: 887
 systems:
 - DS
 title: GBARunner2
