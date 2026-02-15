@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 832224
-    size_str: 812 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.13.1/nds-bootstrap.7z
+    size: 833710
+    size_str: 814 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.14.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1203424
+    size: 1206748
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.13.1/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.14.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -28,8 +28,8 @@ stars: 1342
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.22.1"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v27.22.1</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.22.2"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v27.22.2</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -43,29 +43,100 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   </ol>
 
-  <h3 dir="auto">What''s new?</h3>
+  <p dir="auto"><strong>B4DS</strong> = nds-bootstrap on DS flashcards</p>
+
+  <h3 dir="auto">💝 What''s new? 💝</h3>
 
   <ul dir="auto">
 
-  <li>When quitting the game via the in-game menu, a <code class="notranslate">.nds</code>
-  path set as <code class="notranslate">QUIT_PATH</code> in <code class="notranslate">nds-bootstrap.ini</code>
-  will now be read instead of <code class="notranslate">/boot.nds</code> or <code
-  class="notranslate">/_nds/TWiLightMenu/main.srldr</code> in order to support more
-  nds-bootstrap frontends (such as akmenu-next).</li>
+  <li><strong>B4DS:</strong> <em>The Legend of Zelda: Four Swords: Anniversary Edition</em>
+  no longer requires a Memory Expansion Pak to run!
+
+  <ul dir="auto">
+
+  <li>Main and map data are no longer fully pre-loaded. (They are still pre-loaded
+  to the Memory Expansion Pak if inserted.)</li>
+
+  <li>Audio is disabled in order for data to fit within the 4MB of RAM. Insert the
+  Memory Expansion Pak to re-enable audio.</li>
 
   </ul>
 
-  <h3 dir="auto">Bug fix</h3>
+  </li>
+
+  <li><strong>B4DS:</strong> Four DSiWare titles which used to only boot on debug
+  DS consoles, now boot on regular DS consoles as well! (<strong>Total:</strong> 495
+  -&gt; 499)
 
   <ul dir="auto">
 
-  <li>Button remaps now persist when soft-resetting into another SRL (ex. when connecting
-  to Wii in Pokemon Gen 4).</li>
+  <li>Dragon Quest Wars (Memory Expansion Pak required)</li>
+
+  <li>Oscar''s World Tour</li>
+
+  <li>Puzzler World XL (Requires a VRAM-WiFi Donor ROM such as <em>Lufia: Curse of
+  the Sinistrals</em>)</li>
+
+  <li>Trajectile / Reflect Missile
+
+  <ul dir="auto">
+
+  <li>Achieved by making use of unused RAM space (1MB+25KB) left in by the overlay
+  code.</li>
+
+  <li>Audio does not play due to RAM limitation.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  </li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/taxicat1/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/taxicat1">@taxicat1</a>:
+  Added AP-fix for <em>Imagine: Resort Owner</em>/<em>Dream Resort</em>.</li>
+
+  <li>Various: Updated in-game menu translations.</li>
+
+  </ul>
+
+  <h3 dir="auto">💝 Bug fixes (B4DS) 💝</h3>
+
+  <ul dir="auto">
+
+  <li>Hovering over Realm of Memories in <em>Zelda: Four Swords</em> no longer causes
+  a crash!</li>
+
+  <li>Fixed where <em>Everyday Soccer</em> / <em>ARC Style: Soccer</em> would show
+  a Data Abort error with a Memory Expansion Pak inserted.</li>
+
+  <li>Selecting the DS Download Play option in <em>Everyday Soccer</em> / <em>ARC
+  Style: Soccer</em> no longer causes a crash!</li>
+
+  <li>Fixed a bug which caused a Data Abort error to appear for <em>Tony Hawk''s Downhill
+  Jam</em>.</li>
+
+  <li>Card read DMA patch is now enabled for <em>Tales of Innocence</em> as an attempt
+  to fix the game not booting.</li>
+
+  </ul>
+
+  <h3 dir="auto">Known bugs (B4DS)</h3>
+
+  <ul dir="auto">
+
+  <li>Stages within Realm of Memories does not play music in <em>Zelda: Four Swords</em>
+  due to RAM limitation.</li>
+
+  <li><em>Dragon Quest Wars</em> is known to crash at Training Lv. 4 and/or after
+  a Survival battle.</li>
 
   </ul>'
-updated: '2026-01-25T01:25:15Z'
-version: v2.13.1
-version_title: v2.13.1
+updated: '2026-02-15T03:46:52Z'
+version: v2.14.0
+version_title: 'v2.14.0: I ❤️ DS⁽ⁱ⁾Ware'
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
