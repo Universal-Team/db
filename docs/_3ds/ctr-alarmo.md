@@ -24,6 +24,39 @@ image_length: 6751
 layout: app
 license: mit
 license_name: MIT License
+prerelease:
+  download_page: https://github.com/FelixHomebrew/CtrAlarmo/releases/tag/1.0.2-b1
+  downloads:
+    CtrAlarm.3dsx:
+      size: 1261740
+      size_str: 1 MiB
+      url: https://github.com/FelixHomebrew/CtrAlarmo/releases/download/1.0.2-b1/CtrAlarm.3dsx
+  update_notes: '<p dir="auto">Experimental update of v1.0.1. Prebuilt binaries should
+    have been released about 5 months ago...</p>
+
+    <h2 dir="auto">What''s new</h2>
+
+    <h3 dir="auto">New features</h3>
+
+    <ul dir="auto">
+
+    <li>Partial custom sleep mode integration / Now allows beep sound while lid is
+    closed.<br>
+
+    <strong>This only turns screens off and reduce Power/Wireless LEDs brightness,
+    power consumption is nearly the same as awake mode.</strong></li>
+
+    </ul>
+
+    <h3 dir="auto"></h3>'
+  update_notes_md: "Experimental update of v1.0.1. Prebuilt binaries should have been\
+    \ released about 5 months ago...\n\n## What's new\n### New features\n- Partial\
+    \ custom sleep mode integration / Now allows beep sound while lid is closed.\n\
+    \  **This only turns screens off and reduce Power/Wireless LEDs brightness, power\
+    \ consumption is nearly the same as awake mode.**\n###"
+  updated: '2026-02-15T16:02:28Z'
+  version: 1.0.2-b1
+  version_title: v 1.0.2-b1
 qr:
   CtrAlarmo.cia: https://db.universal-team.net/assets/images/qr/ctralarmo-cia.png
 screenshots:
