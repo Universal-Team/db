@@ -26,7 +26,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.1.0
   downloads:
     TJAP_3DS.3dsx:
-      size: 9728192
+      size: 9728068
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.1.0/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -47,6 +47,8 @@ prerelease:
 
     無効化する際は<code class="notranslate">#DUMMYEND</code>を使用して下さい。</li>
 
+    <li><code class="notranslate">#JPOSSCROLL Travel_time(float) position(int) direction(int)</code>の仮実装</li>
+
     <li>譜面終了時の処理を一部変更</li>
 
     <li>コンボアニメーションの追加</li>
@@ -66,6 +68,9 @@ prerelease:
 
     Please use <code class="notranslate">#DUMMYEND</code> to disable it.</li>
 
+    <li>Temporary implementation of <code class="notranslate">#JPOSSCROLL Travel_time(float)
+    position(int) direction(int)</code></li>
+
     <li>Partial change in the processing at the end of the score</li>
 
     <li>Adding combo animations</li>
@@ -80,6 +85,8 @@ prerelease:
     有効化されてる間はスコアの計算や判定等もされません。
 
     無効化する際は`#DUMMYEND`を使用して下さい。
+
+    - `#JPOSSCROLL Travel_time(float) position(int) direction(int)`の仮実装
 
     - 譜面終了時の処理を一部変更
 
@@ -96,6 +103,8 @@ prerelease:
     While it is activated, the score will not be calculated or judged.
 
     Please use `#DUMMYEND` to disable it.
+
+    - Temporary implementation of `#JPOSSCROLL Travel_time(float) position(int) direction(int)`
 
     - Partial change in the processing at the end of the score
 
