@@ -18,74 +18,90 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-57-g8e22bb81c
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-61-gd7f93de80
   downloads:
-    Angband-4.2.6-57-g8e22bb81c-3ds.zip:
-      size: 24669672
+    Angband-4.2.6-61-gd7f93de80-3ds.zip:
+      size: 24670617
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-57-g8e22bb81c/Angband-4.2.6-57-g8e22bb81c-3ds.zip
-    Angband-4.2.6-57-g8e22bb81c-nds.zip:
-      size: 23330146
+      url: https://github.com/angband/angband/releases/download/4.2.6-61-gd7f93de80/Angband-4.2.6-61-gd7f93de80-3ds.zip
+    Angband-4.2.6-61-gd7f93de80-nds.zip:
+      size: 23330930
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-57-g8e22bb81c/Angband-4.2.6-57-g8e22bb81c-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-61-gd7f93de80/Angband-4.2.6-61-gd7f93de80-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>ci: replace autotools builds with CMake in release.yaml by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/klaasvanaarsen/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/klaasvanaarsen">@klaasvanaarsen</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3863072015" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6509"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6509/hovercard"
-    href="https://github.com/angband/angband/pull/6509">#6509</a></li>
-
-    <li>X11: avoid using uninitialized data after memory allocation failure by <a
+    <li>Expand the comments in the data files about ''M'' in dice expressions by <a
     class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3887363477" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6513"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6513/hovercard"
-    href="https://github.com/angband/angband/pull/6513">#6513</a></li>
+    data-id="3923324878" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6519"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6519/hovercard"
+    href="https://github.com/angband/angband/pull/6519">#6519</a></li>
 
-    <li>X11: free class and size hints immediately after sending them to the server
+    <li>Correct specific effect handlers'' comments about the use of context-&gt;value
     by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3887468303" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6514"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6514/hovercard"
-    href="https://github.com/angband/angband/pull/6514">#6514</a></li>
+    data-id="3923506851" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6520"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6520/hovercard"
+    href="https://github.com/angband/angband/pull/6520">#6520</a></li>
 
-    <li>borg: fix waiting for a monster to approach by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
+    <li>SDL2: replace bool with SDL_bool in the sdlpui layer by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3902932066" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6516"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6516/hovercard"
-    href="https://github.com/angband/angband/pull/6516">#6516</a></li>
+    data-id="3928379160" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6522"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6522/hovercard"
+    href="https://github.com/angband/angband/pull/6522">#6522</a></li>
+
+    <li>Use PY_MAX_LEVEL for exp display instead of hardcoded 50 by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/tikhont/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/tikhont">@tikhont</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="3931374298" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6523"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6523/hovercard"
+    href="https://github.com/angband/angband/pull/6523">#6523</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-53-g6bf9d6f43...4.2.6-57-g8e22bb81c"><tt>4.2.6-53-g6bf9d6f43...4.2.6-57-g8e22bb81c</tt></a></p>'
+    <h2 dir="auto">New Contributors</h2>
+
+    <ul dir="auto">
+
+    <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/tikhont/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/tikhont">@tikhont</a>
+    made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
+    to load title" data-id="3931374298" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6523"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6523/hovercard"
+    href="https://github.com/angband/angband/pull/6523">#6523</a></li>
+
+    </ul>
+
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-57-g8e22bb81c...4.2.6-61-gd7f93de80"><tt>4.2.6-57-g8e22bb81c...4.2.6-61-gd7f93de80</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * ci: replace autotools builds with CMake in release.yaml by @klaasvanaarsen in
-    https://github.com/angband/angband/pull/6509
+    * Expand the comments in the data files about ''M'' in dice expressions by @backwardsEric
+    in https://github.com/angband/angband/pull/6519
 
-    * X11: avoid using uninitialized data after memory allocation failure by @backwardsEric
-    in https://github.com/angband/angband/pull/6513
+    * Correct specific effect handlers'' comments about the use of context->value
+    by @backwardsEric in https://github.com/angband/angband/pull/6520
 
-    * X11: free class and size hints immediately after sending them to the server
-    by @backwardsEric in https://github.com/angband/angband/pull/6514
+    * SDL2: replace bool with SDL_bool in the sdlpui layer by @backwardsEric in https://github.com/angband/angband/pull/6522
 
-    * borg: fix waiting for a monster to approach by @agoodman00 in https://github.com/angband/angband/pull/6516
-
+    * Use PY_MAX_LEVEL for exp display instead of hardcoded 50 by @tikhont in https://github.com/angband/angband/pull/6523
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-53-g6bf9d6f43...4.2.6-57-g8e22bb81c'
-  updated: '2026-02-10T15:02:12Z'
-  version: 4.2.6-57-g8e22bb81c
-  version_title: 4.2.6-57-g8e22bb81c
+    ## New Contributors
+
+    * @tikhont made their first contribution in https://github.com/angband/angband/pull/6523
+
+
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-57-g8e22bb81c...4.2.6-61-gd7f93de80'
+  updated: '2026-02-17T13:22:14Z'
+  version: 4.2.6-61-gd7f93de80
+  version_title: 4.2.6-61-gd7f93de80
 source: https://github.com/angband/angband
 stars: 1482
 systems:

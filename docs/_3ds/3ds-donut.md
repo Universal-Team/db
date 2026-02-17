@@ -29,7 +29,7 @@ screenshots:
 - description: Donut
   url: https://db.universal-team.net/assets/images/screenshots/3ds-donut/donut.png
 source: https://github.com/Buggem/3ds-donut
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: 3DS Donut
