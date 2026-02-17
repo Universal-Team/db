@@ -10,13 +10,13 @@ description: A silly alarm clock app for the Nintendo 3DS
 download_page: https://github.com/FelixHomebrew/CtrAlarmo/releases
 downloads:
   CtrAlarmo.3dsx:
-    size: 1260632
+    size: 1263176
     size_str: 1 MiB
-    url: https://github.com/FelixHomebrew/CtrAlarmo/releases/download/1.0.1/CtrAlarmo.3dsx
+    url: https://github.com/FelixHomebrew/CtrAlarmo/releases/download/1.1.0/CtrAlarmo.3dsx
   CtrAlarmo.cia:
     size: 1307584
     size_str: 1 MiB
-    url: https://github.com/FelixHomebrew/CtrAlarmo/releases/download/1.0.1/CtrAlarmo.cia
+    url: https://github.com/FelixHomebrew/CtrAlarmo/releases/download/1.1.0/CtrAlarmo.cia
 github: FelixHomebrew/CtrAlarmo
 icon: https://raw.githubusercontent.com/FelixHomebrew/CtrAlarmo/refs/heads/main/exefs/icon_48.png
 image: https://raw.githubusercontent.com/FelixHomebrew/CtrAlarmo/refs/heads/main/exefs/banner.png
@@ -24,43 +24,6 @@ image_length: 6751
 layout: app
 license: mit
 license_name: MIT License
-prerelease:
-  download_page: https://github.com/FelixHomebrew/CtrAlarmo/releases/tag/1.0.2-b1
-  downloads:
-    CtrAlarm.3dsx:
-      size: 1261740
-      size_str: 1 MiB
-      url: https://github.com/FelixHomebrew/CtrAlarmo/releases/download/1.0.2-b1/CtrAlarm.3dsx
-    CtrAlarm.cia:
-      size: 1307584
-      size_str: 1 MiB
-      url: https://github.com/FelixHomebrew/CtrAlarmo/releases/download/1.0.2-b1/CtrAlarm.cia
-  qr:
-    CtrAlarm.cia: https://db.universal-team.net/assets/images/qr/prerelease/ctralarm-cia.png
-  update_notes: '<p dir="auto">Experimental update of v1.0.1. Prebuilt binaries should
-    have been released about 5 months ago...</p>
-
-    <h2 dir="auto">What''s new</h2>
-
-    <h3 dir="auto">New features</h3>
-
-    <ul dir="auto">
-
-    <li>Partial custom sleep mode integration / Now allows beep sound while lid is
-    closed.<br>
-
-    <strong>This only turns screens off and reduce Power/Wireless LEDs brightness,
-    power consumption is nearly the same as awake mode.</strong></li>
-
-    </ul>'
-  update_notes_md: "Experimental update of v1.0.1. Prebuilt binaries should have been\
-    \ released about 5 months ago...\n\n## What's new\n### New features\n- Partial\
-    \ custom sleep mode integration / Now allows beep sound while lid is closed.\n\
-    \  **This only turns screens off and reduce Power/Wireless LEDs brightness, power\
-    \ consumption is nearly the same as awake mode.**"
-  updated: '2026-02-15T16:02:28Z'
-  version: 1.0.2-b1
-  version_title: v 1.0.2-b1
 qr:
   CtrAlarmo.cia: https://db.universal-team.net/assets/images/qr/ctralarmo-cia.png
 screenshots:
@@ -73,17 +36,38 @@ systems:
 title: CTR Alarmo
 unique_ids:
 - '0xC4A1A'
-update_notes: '<h2 dir="auto">Quick fix</h2>
+update_notes: '<h2 dir="auto">What''s new?</h2>
 
   <ul dir="auto">
 
-  <li>Fixed an uncaught ARM 11 exception which occured when shutting alarm off while
-  bottom text drawing</li>
+  <li>Now disables forced JACK redirection in app, allowing beep alarm to be played
+  while sleep mode</li>
+
+  <li>Allow streetpass state in sleep mode</li>
+
+  </ul>
+
+  <h2 dir="auto">Changes</h2>
+
+  <ul dir="auto">
+
+  <li>Disabled HOME menu button, read comment at <a href="https://github.com/FelixHomebrew/CtrAlarmo/blob/1.1.0/source/main.c#L39">main.c:39</a>
+  to know more</li>
+
+  </ul>
+
+  <h2 dir="auto">Fixes</h2>
+
+  <ul dir="auto">
+
+  <li>Exception occured sometimes on alarm shut with Power/Wireless LEDs blink enabled</li>
+
+  <li>Exception occured often on shut beep melody, due to a misuse of waveBuf</li>
 
   </ul>'
-updated: '2025-09-29T13:07:50Z'
-version: 1.0.1
-version_title: v 1.0.1
+updated: '2026-02-17T03:16:07Z'
+version: 1.1.0
+version_title: v 1.1.0
 ---
 
 A simple, configurable alarm clock app for the Nintendo 3DS.

@@ -26,7 +26,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.1.0
   downloads:
     TJAP_3DS.3dsx:
-      size: 9728392
+      size: 9728900
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.1.0/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -47,11 +47,14 @@ prerelease:
 
     無効化する際は<code class="notranslate">#DUMMYEND</code>を使用して下さい。</li>
 
-    <li><code class="notranslate">#JPOSSCROLL Travel_time(float) position(int) direction(int)</code>の仮実装</li>
+    <li><code class="notranslate">#JPOSSCROLL (Travel_time(float)) (position(int))
+    (direction(int))</code>の仮実装</li>
 
     <li>譜面終了時の処理を一部変更</li>
 
     <li>コンボアニメーションの追加</li>
+
+    <li>一部テキストの視認性向上</li>
 
     </ul>
 
@@ -75,6 +78,8 @@ prerelease:
 
     <li>Adding combo animations</li>
 
+    <li>Improved visibility of some texts</li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
@@ -86,11 +91,13 @@ prerelease:
 
     無効化する際は`#DUMMYEND`を使用して下さい。
 
-    - `#JPOSSCROLL Travel_time(float) position(int) direction(int)`の仮実装
+    - `#JPOSSCROLL (Travel_time(float)) (position(int)) (direction(int))`の仮実装
 
     - 譜面終了時の処理を一部変更
 
     - コンボアニメーションの追加
+
+    - 一部テキストの視認性向上
 
 
     ## changelog
@@ -108,7 +115,9 @@ prerelease:
 
     - Partial change in the processing at the end of the score
 
-    - Adding combo animations'
+    - Adding combo animations
+
+    - Improved visibility of some texts'
   updated: '2026-01-19T06:15:58Z'
   version: v2.1.0
   version_title: TJAPlayer for 3DS v2.1.0
