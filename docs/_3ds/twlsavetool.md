@@ -29,7 +29,7 @@ license_name: GNU General Public License v2.0
 qr:
   TWLSaveTool.cia: https://db.universal-team.net/assets/images/qr/twlsavetool-cia.png
 source: https://github.com/TuxSH/TWLSaveTool
-stars: 190
+stars: 191
 systems:
 - 3DS
 title: TWLSaveTool
