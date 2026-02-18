@@ -25,7 +25,7 @@ layout: app
 qr:
   dosbox-3ds.cia: https://db.universal-team.net/assets/images/qr/dosbox-3ds-cia.png
 source: https://github.com/MrHuu/dosbox-3ds
-stars: 51
+stars: 50
 systems:
 - 3DS
 title: DOSBox

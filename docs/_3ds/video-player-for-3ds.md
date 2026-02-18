@@ -10,17 +10,17 @@ description: You can play .mp4 file on your 3DS!
 download_page: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases
 downloads:
   Video_player_for_3DS.3dsx:
-    size: 14394964
+    size: 14408416
     size_str: 13 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.6.0/Video_player_for_3DS.3dsx
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.6.1/Video_player_for_3DS.3dsx
   Video_player_for_3DS.cia:
-    size: 11146176
+    size: 11154368
     size_str: 10 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.6.0/Video_player_for_3DS.cia
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.6.1/Video_player_for_3DS.cia
   Video_player_for_3DS_high_ram.cia:
-    size: 11146176
+    size: 11154368
     size_str: 10 MiB
-    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.6.0/Video_player_for_3DS_high_ram.cia
+    url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/v1.6.1/Video_player_for_3DS_high_ram.cia
 github: Core-2-Extreme/Video_player_for_3DS
 icon: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/resource/banner.png
@@ -43,43 +43,27 @@ unique_ids:
 - '0xEC600'
 update_notes: '<p dir="auto"><strong>Changes</strong> <br>
 
-  VP9 and flac have been supported (<a href="https://github.com/Core-2-Extreme/Video_player_for_3DS/issues/64"
-  data-hovercard-type="issue" data-hovercard-url="/Core-2-Extreme/Video_player_for_3DS/issues/64/hovercard">#64</a>).
-  <br>
+  Number of decoding threads are selectable now. <br>
 
-  DVDSub (VobSub) has been supported (<a href="https://github.com/Core-2-Extreme/Video_player_for_3DS/issues/58"
-  data-hovercard-type="issue" data-hovercard-url="/Core-2-Extreme/Video_player_for_3DS/issues/58/hovercard">#58</a>).
-  <br>
+  Full-screen transition period has been changed from 5 seconds to 3 seconds. <br>
 
-  AV desync management has been re-implemented. <br>
+  Progress message (<code class="notranslate">xx.yy%</code>) has been added to <code
+  class="notranslate">seeking</code> and <code class="notranslate">processing video</code>
+  messages. <br>
 
-  New sound banner has been added for <code class="notranslate">.cia</code> (<a href="https://github.com/Core-2-Extreme/Video_player_for_3DS/issues/82"
-  data-hovercard-type="pull_request" data-hovercard-url="/Core-2-Extreme/Video_player_for_3DS/pull/82/hovercard">#82</a>)
-  (by UrbanVersis32). <br>
-
-  Theora has been supported (<a href="https://github.com/Core-2-Extreme/Video_player_for_3DS/issues/83"
-  data-hovercard-type="pull_request" data-hovercard-url="/Core-2-Extreme/Video_player_for_3DS/pull/83/hovercard">#83</a>)
-  (by RetroGamer02). <br>
-
-  German translation has been added (<a href="https://github.com/Core-2-Extreme/Video_player_for_3DS/issues/85"
-  data-hovercard-type="pull_request" data-hovercard-url="/Core-2-Extreme/Video_player_for_3DS/pull/85/hovercard">#85</a>)
-  (by 0n1cOn3).<br>
-
-  High RAM build (only for <code class="notranslate">.cia</code>) has been added for
-  release (see release page for detail).</p>
+  3D slider bar no longer moves video.</p>
 
   <p dir="auto"><strong>Fixed bugs</strong> <br>
 
-  Many minor bugs that may cause crash have been fixed. <br>
+  Race condition that may cause model detection to fail and disable use of HW decoder
+  has been fixed. <br>
 
-  Random crash on hardware decorder has been fixed (<a href="https://github.com/Core-2-Extreme/Video_player_for_3DS/issues/69"
-  data-hovercard-type="issue" data-hovercard-url="/Core-2-Extreme/Video_player_for_3DS/issues/69/hovercard">#69</a>).
-  <br>
+  Seek issue on audio only file and 3D videos have been fixed. <br>
 
-  Auto-playing video after coming back from Nintendo''s home menu and keyboard even
-  it was previously paused has been fixed. <br>
+  Many issues on code that may cause problems on 3D videos have been fixed. <br>
 
-  AV desync on more than 2ch audio has been fixed.</p>
+  Unable to play 3D videos if HW decoder is enabled has been fixed (by disabling HW
+  decoder on 3D videos).</p>
 
   <p dir="auto"><strong>About high RAM cia</strong> <br>
 
@@ -105,9 +89,9 @@ update_notes: '<p dir="auto"><strong>Changes</strong> <br>
   <li>LTC : MKTD3U2vCMi7S7Jb1EQ2FiS4AdHC23PxJh</li>
 
   </ul>'
-updated: '2026-01-01T12:12:07Z'
-version: v1.6.0
-version_title: Video player for 3DS v1.6.0
+updated: '2026-02-18T12:19:59Z'
+version: v1.6.1
+version_title: Video player for 3DS v1.6.1
 website: https://gbatemp.net/threads/release-video-player-for-3ds.586094
 ---
 You can play .mp4 file on your 3DS!
