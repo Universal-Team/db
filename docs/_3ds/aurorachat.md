@@ -21,6 +21,7 @@ downloads:
 github: mii-man/aurorachat
 icon: https://raw.githubusercontent.com/mii-man/aurorachat/main/meta/icon.png
 image: https://raw.githubusercontent.com/mii-man/aurorachat/main/meta/banner.png
+image_length: 28629
 layout: app
 license: mit
 license_name: MIT License
