@@ -528,7 +528,7 @@ update_notes: '<p dir="auto">All:</p>
   <li>Improved: Unified build that supports both NDS and DSi wifi hardware (thanks
   BlocksDS)</li>
 
-  <li>Improved: Use paletted textures</li>
+  <li>Improved: Use paletted textures (thanks rmn20 for the idea)</li>
 
   <li>Improved: Slightly increase performance (thanks rmn20)</li>
 

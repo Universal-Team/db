@@ -30,7 +30,7 @@ script_message: 'You need "grom.bin", "exec.bin",
 
   and optionally "ivoice.bin" in the folder with your ROM files.'
 source: https://github.com/wavemotion-dave/NINTV-DS
-stars: 50
+stars: 51
 systems:
 - DS
 title: Nintellivision
