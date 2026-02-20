@@ -31,7 +31,7 @@ license_name: GNU General Public License v3.0
 qr:
   DSES.cia: https://db.universal-team.net/assets/images/qr/dses-cia.png
 source: https://github.com/noirscape/dses
-stars: 63
+stars: 64
 systems:
 - 3DS
 title: dses

@@ -27,7 +27,7 @@ license_name: GNU General Public License v3.0
 qr:
   moonlight.cia: https://db.universal-team.net/assets/images/qr/moonlight-cia.png
 source: https://github.com/zoeyjodon/moonlight-N3DS
-stars: 244
+stars: 245
 systems:
 - 3DS
 title: Moonlight Streaming Client
