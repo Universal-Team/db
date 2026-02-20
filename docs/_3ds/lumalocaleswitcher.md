@@ -1,5 +1,5 @@
 ---
-author: Daniel LeWarne
+author: Daniel Anthony LeWarne
 avatar: https://avatars.githubusercontent.com/u/153100?v=4
 categories:
 - utility
