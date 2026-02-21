@@ -11,13 +11,13 @@ description: aurorachat is a chat app inspired by hbchat. it is used with the ni
 download_page: https://github.com/mii-man/aurorachat/releases
 downloads:
   aurorachat.3dsx:
-    size: 215708
-    size_str: 210 KiB
-    url: https://github.com/mii-man/aurorachat/releases/download/v0.0.4.2/aurorachat.3dsx
+    size: 762676
+    size_str: 744 KiB
+    url: https://github.com/mii-man/aurorachat/releases/download/v0.4.3/aurorachat.3dsx
   aurorachat.cia:
-    size: 521152
-    size_str: 508 KiB
-    url: https://github.com/mii-man/aurorachat/releases/download/v0.0.4.2/aurorachat.cia
+    size: 1082304
+    size_str: 1 MiB
+    url: https://github.com/mii-man/aurorachat/releases/download/v0.4.3/aurorachat.cia
 github: mii-man/aurorachat
 icon: https://raw.githubusercontent.com/mii-man/aurorachat/main/meta/icon.png
 image: https://raw.githubusercontent.com/mii-man/aurorachat/main/meta/banner.png
@@ -34,26 +34,20 @@ systems:
 title: aurorachat
 unique_ids:
 - '0xBAFD2'
-update_notes: '<p dir="auto">And yet, there''s still more to fix.</p>
-
-  <p dir="auto">I''m tired, anywho!</p>
-
-  <h3 dir="auto">Changelog:</h3>
+update_notes: '<h1 dir="auto">Short release notes because uhiuahrioughiu</h1>
 
   <ul dir="auto">
 
-  <li>Added dark mode</li>
+  <li>wii client made</li>
 
-  <li>Fixed line breaks</li>
+  <li>new cool themes</li>
 
-  <li>Unknown</li>
+  <li>broke everything temporarily</li>
 
-  </ul>
-
-  <p dir="auto">Goodnight.</p>'
-updated: '2026-02-09T00:18:23Z'
-version: v0.0.4.2
-version_title: 'v0.0.4.2: Fixes, fixes...'
+  </ul>'
+updated: '2026-02-21T02:59:22Z'
+version: v0.4.3
+version_title: 'v0.4.3: It''s All Broken'
 wiki: https://github.com/mii-man/aurorachat/wiki
 ---
 A safer chatting app for the Nintendo 3DS line of systems.
