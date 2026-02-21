@@ -1,0 +1,15 @@
+{
+	"github": "2b-zipper/TriCord",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"icon": "https://raw.githubusercontent.com/2b-zipper/TriCord/refs/heads/main/resources/icon.png",
+	"image": "https://raw.githubusercontent.com/2b-zipper/TriCord/refs/heads/main/resources/banner.png",
+	"unique_ids": [
+		875533
+	],
+	"long_description": "Please see below for details: https://github.com/2b-zipper/TriCord/blob/main/README.md"
+}
