@@ -43,7 +43,7 @@ script_message: 'Note: You will need "Data.rsdk" from
 
   "sdmc:/3ds/SonicCD" to play the game.'
 source: https://github.com/Voxel9/Sonic-CD-11-3DS-Redux
-stars: 29
+stars: 28
 systems:
 - 3DS
 title: Sonic CD
