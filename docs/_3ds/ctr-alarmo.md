@@ -68,6 +68,7 @@ update_notes: '<h2 dir="auto">What''s new?</h2>
 updated: '2026-02-17T03:16:07Z'
 version: 1.1.0
 version_title: v 1.1.0
+website: https://db.universal-team.net/3ds/ctr-alarmo
 ---
 
 A simple, configurable alarm clock app for the Nintendo 3DS.
