@@ -19,14 +19,14 @@
 			{
 				"type": "extractFile",
 				"file": "/open_agb_firm.7z",
-				"input": "open_agb_firm.firm",
+				"input": "^open_agb_firm.firm",
 				"output": "%FIRM%/open_agb_firm.firm"
 			},
 			{
 				"type": "extractFile",
 				"file": "/open_agb_firm.7z",
-				"input": "3ds/",
-				"output": "/3ds/"
+				"input": "^3ds",
+				"output": "/3ds"
 			},
 			{
 				"type": "deleteFile",
