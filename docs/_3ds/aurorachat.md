@@ -6,8 +6,7 @@ categories:
 color: '#2d8d97'
 color_bg: '#267780'
 created: '2025-10-12T03:42:15Z'
-description: aurorachat is a chat app inspired by hbchat. it is used with the nintendo
-  3ds family of systems. you need cfw for it to work too btw
+description: Real Time Chatting for the 3DS, Wii and Wii U
 download_page: https://github.com/mii-man/aurorachat/releases
 downloads:
   aurorachat.3dsx:
