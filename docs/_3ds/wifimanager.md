@@ -28,7 +28,7 @@ license_name: MIT License
 qr:
   WifiManager.cia: https://db.universal-team.net/assets/images/qr/wifimanager-cia.png
 source: https://github.com/Zakary2841/WifiManager
-stars: 44
+stars: 0
 systems:
 - 3DS
 title: WifiManager
