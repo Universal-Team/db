@@ -1,5 +1,6 @@
 {
-	"github": "LiquidFenrir/WifiManager",
+	"github": "Zakary2841/WifiManager",
+	"description": "WifiManager is a simple 3ds homebrew meant to help you backup and restore your console's WiFi slots.",
 	"systems": [
 		"3DS"
 	],
@@ -9,6 +10,7 @@
 	"unique_ids": [
 		24009
 	],
-	"image": "https://raw.githubusercontent.com/LiquidFenrir/WifiManager/master/meta/banner.png",
-	"icon": "https://raw.githubusercontent.com/LiquidFenrir/WifiManager/master/meta/icon.png"
+	"image": "https://raw.githubusercontent.com/Zakary2841/WifiManager/refs/heads/master/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/Zakary2841/WifiManager/refs/heads/master/meta/icon.png",
+	"long_description": "WifiManager is a simple 3ds homebrew meant to help you backup and restore your console's WiFi slots.\nIt could prove useful if you travel a lot and need to connect to new wifi networks all the time, or if only 3 slots is really too few for you."
 }
