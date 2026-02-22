@@ -35,6 +35,8 @@ unique_ids:
 - '0xBAFD2'
 update_notes: '<h1 dir="auto">Short release notes because uhiuahrioughiu</h1>
 
+  <p dir="auto">And yet, I broke everything</p>
+
   <ul dir="auto">
 
   <li>wii client made</li>
