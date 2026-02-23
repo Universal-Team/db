@@ -26,7 +26,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.1.1
   downloads:
     TJAP_3DS.3dsx:
-      size: 9785844
+      size: 9785916
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.1.1/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -39,6 +39,8 @@ prerelease:
 
     <ul dir="auto">
 
+    <li>段位道場モードの新条件「最大コンボ数」の実装</li>
+
     <li>一部の不具合修正と仕様変更</li>
 
     </ul>
@@ -47,15 +49,21 @@ prerelease:
 
     <ul dir="auto">
 
+    <li>Implemented new condition "MAX Combo" in Dan-i Dojo mode</li>
+
     <li>Some bug fixes and specification changes</li>
 
     </ul>'
   update_notes_md: '## チェンジログ
 
+    - 段位道場モードの新条件「最大コンボ数」の実装
+
     - 一部の不具合修正と仕様変更
 
 
     ## Changelog
+
+    - Implemented new condition "MAX Combo" in Dan-i Dojo mode
 
     - Some bug fixes and specification changes'
   updated: '2026-02-22T21:50:44Z'
