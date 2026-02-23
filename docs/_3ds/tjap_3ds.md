@@ -22,6 +22,45 @@ icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
+prerelease:
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.1.1
+  downloads:
+    TJAP_3DS.3dsx:
+      size: 9785844
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.1.1/TJAP_3DS.3dsx
+    TJAP_3DS.cia:
+      size: 9970624
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.1.1/TJAP_3DS.cia
+  qr:
+    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
+  update_notes: '<h2 dir="auto">チェンジログ</h2>
+
+    <ul dir="auto">
+
+    <li>一部の不具合修正と仕様変更</li>
+
+    </ul>
+
+    <h2 dir="auto">Changelog</h2>
+
+    <ul dir="auto">
+
+    <li>Some bug fixes and specification changes</li>
+
+    </ul>'
+  update_notes_md: '## チェンジログ
+
+    - 一部の不具合修正と仕様変更
+
+
+    ## Changelog
+
+    - Some bug fixes and specification changes'
+  updated: '2026-02-22T21:50:44Z'
+  version: v2.1.1
+  version_title: TJAPlayer for 3DS v2.1.1
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:

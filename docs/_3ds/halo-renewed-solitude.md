@@ -25,7 +25,7 @@ layout: app
 qr:
   RenewedSolitude.cia: https://db.universal-team.net/assets/images/qr/renewedsolitude-cia.png
 source: https://github.com/ArcadeJumpers/RenewedSolitude3DS
-stars: 17
+stars: 18
 systems:
 - 3DS
 title: Halo Renewed Solitude

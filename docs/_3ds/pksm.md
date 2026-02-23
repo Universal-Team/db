@@ -27,7 +27,7 @@ license_name: GNU General Public License v3.0
 qr:
   PKSM.cia: https://db.universal-team.net/assets/images/qr/pksm-cia.png
 source: https://github.com/FlagBrew/PKSM
-stars: 2078
+stars: 2079
 systems:
 - 3DS
 title: PKSM

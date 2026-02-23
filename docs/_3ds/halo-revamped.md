@@ -19,7 +19,7 @@ image: https://db.universal-team.net/assets/images/images/halo-revamped.png
 image_length: 30077
 layout: app
 source: https://github.com/CollinScripter/Revamped3DS
-stars: 23
+stars: 24
 systems:
 - 3DS
 title: Halo Revamped
