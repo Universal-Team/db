@@ -32,7 +32,7 @@ license_name: MIT License
 qr:
   GameYob.cia: https://db.universal-team.net/assets/images/qr/gameyob-cia.png
 source: https://github.com/SombrAbsol/GameYob-3DS
-stars: 5
+stars: 6
 systems:
 - 3DS
 title: GameYob (3DS)
