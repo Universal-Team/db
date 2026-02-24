@@ -45,14 +45,14 @@ nightly:
     pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/git/pkmn-chest-cia.png
     pkmn-chest.dsi: https://db.universal-team.net/assets/images/qr/git/pkmn-chest-dsi.png
     pkmn-chest.nds: https://db.universal-team.net/assets/images/qr/git/pkmn-chest-nds.png
-  update_notes: <p dir="auto">Pk11 - Forgot to fix the makefile</p>
-  update_notes_md: 'Pk11 - Forgot to fix the makefile
+  update_notes: <p dir="auto">RocketRobz - Minor fix</p>
+  update_notes_md: 'RocketRobz - Minor fix
 
 
     '
-  updated: '2025-12-29T12:49:43Z'
+  updated: '2026-02-24T03:27:21Z'
   version: git
-  version_title: Continuous Build - 0810486
+  version_title: Continuous Build - ef334e8
 qr:
   pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/pkmn-chest-cia.png
   pkmn-chest.nds: https://db.universal-team.net/assets/images/qr/pkmn-chest-nds.png
