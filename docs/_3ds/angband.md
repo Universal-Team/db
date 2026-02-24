@@ -18,92 +18,62 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-61-gd7f93de80
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-64-gf3e6fdd7c
   downloads:
-    Angband-4.2.6-61-gd7f93de80-3ds.zip:
-      size: 24670617
+    Angband-4.2.6-64-gf3e6fdd7c-3ds.zip:
+      size: 24671589
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-61-gd7f93de80/Angband-4.2.6-61-gd7f93de80-3ds.zip
-    Angband-4.2.6-61-gd7f93de80-nds.zip:
-      size: 23330930
+      url: https://github.com/angband/angband/releases/download/4.2.6-64-gf3e6fdd7c/Angband-4.2.6-64-gf3e6fdd7c-3ds.zip
+    Angband-4.2.6-64-gf3e6fdd7c-nds.zip:
+      size: 23331257
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-61-gd7f93de80/Angband-4.2.6-61-gd7f93de80-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-64-gf3e6fdd7c/Angband-4.2.6-64-gf3e6fdd7c-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>Expand the comments in the data files about ''M'' in dice expressions by <a
-    class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3923324878" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6519"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6519/hovercard"
-    href="https://github.com/angband/angband/pull/6519">#6519</a></li>
+    <li>borg: update the docs to match new commands by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
+    in <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/angband/angband/commit/30195731ba26137f1ba57843b0280ec9e122b930/hovercard"
+    href="https://github.com/angband/angband/commit/30195731ba26137f1ba57843b0280ec9e122b930"><tt>3019573</tt></a></li>
 
-    <li>Correct specific effect handlers'' comments about the use of context-&gt;value
+    <li>SDL2:  add comments about how the pui layer interacts with the SDL_Renderer
     by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3923506851" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6520"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6520/hovercard"
-    href="https://github.com/angband/angband/pull/6520">#6520</a></li>
+    data-id="3932261048" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6524"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6524/hovercard"
+    href="https://github.com/angband/angband/pull/6524">#6524</a></li>
 
-    <li>SDL2: replace bool with SDL_bool in the sdlpui layer by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    <li>workflows: remove release-flags jobs by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3928379160" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6522"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6522/hovercard"
-    href="https://github.com/angband/angband/pull/6522">#6522</a></li>
-
-    <li>Use PY_MAX_LEVEL for exp display instead of hardcoded 50 by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/tikhont/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/tikhont">@tikhont</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3931374298" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6523"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6523/hovercard"
-    href="https://github.com/angband/angband/pull/6523">#6523</a></li>
+    data-id="3955209506" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6525"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6525/hovercard"
+    href="https://github.com/angband/angband/pull/6525">#6525</a></li>
 
     </ul>
 
-    <h2 dir="auto">New Contributors</h2>
-
-    <ul dir="auto">
-
-    <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/tikhont/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/tikhont">@tikhont</a>
-    made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-    to load title" data-id="3931374298" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6523"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6523/hovercard"
-    href="https://github.com/angband/angband/pull/6523">#6523</a></li>
-
-    </ul>
-
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-57-g8e22bb81c...4.2.6-61-gd7f93de80"><tt>4.2.6-57-g8e22bb81c...4.2.6-61-gd7f93de80</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-61-gd7f93de80...4.2.6-64-gf3e6fdd7c"><tt>4.2.6-61-gd7f93de80...4.2.6-64-gf3e6fdd7c</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * Expand the comments in the data files about ''M'' in dice expressions by @backwardsEric
-    in https://github.com/angband/angband/pull/6519
+    *  borg: update the docs to match new commands by @agoodman00 in https://github.com/angband/angband/commit/30195731ba26137f1ba57843b0280ec9e122b930
 
-    * Correct specific effect handlers'' comments about the use of context->value
-    by @backwardsEric in https://github.com/angband/angband/pull/6520
+    * SDL2:  add comments about how the pui layer interacts with the SDL_Renderer
+    by @backwardsEric in https://github.com/angband/angband/pull/6524
 
-    * SDL2: replace bool with SDL_bool in the sdlpui layer by @backwardsEric in https://github.com/angband/angband/pull/6522
-
-    * Use PY_MAX_LEVEL for exp display instead of hardcoded 50 by @tikhont in https://github.com/angband/angband/pull/6523
+    * workflows: remove release-flags jobs by @backwardsEric in https://github.com/angband/angband/pull/6525
 
 
-    ## New Contributors
 
-    * @tikhont made their first contribution in https://github.com/angband/angband/pull/6523
-
-
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-57-g8e22bb81c...4.2.6-61-gd7f93de80'
-  updated: '2026-02-17T13:22:14Z'
-  version: 4.2.6-61-gd7f93de80
-  version_title: 4.2.6-61-gd7f93de80
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-61-gd7f93de80...4.2.6-64-gf3e6fdd7c'
+  updated: '2026-02-24T14:07:18Z'
+  version: 4.2.6-64-gf3e6fdd7c
+  version_title: 4.2.6-64-gf3e6fdd7c
 source: https://github.com/angband/angband
-stars: 1485
+stars: 1486
 systems:
 - 3DS
 - DS
