@@ -31,7 +31,7 @@ license_name: MIT License
 qr:
   FBI.cia: https://db.universal-team.net/assets/images/qr/fbi-cia.png
 source: https://github.com/nh-server/FBI-NH
-stars: 206
+stars: 208
 systems:
 - 3DS
 title: FBI-NH
