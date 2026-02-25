@@ -19,7 +19,7 @@ image: https://db.universal-team.net/assets/images/images/portalds.png
 image_length: 473
 layout: app
 source: https://github.com/smealum/portalDS
-stars: 232
+stars: 233
 systems:
 - DS
 title: portalDS
