@@ -26,16 +26,16 @@ layout: app
 license: other
 license_name: Other
 prerelease:
-  download_page: https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-127b0a
+  download_page: https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-3d274a
   downloads:
     OoT3D_Randomizer.3dsx:
-      size: 5973724
+      size: 5979504
       size_str: 5 MiB
-      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-127b0a/OoT3D_Randomizer.3dsx
+      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-3d274a/OoT3D_Randomizer.3dsx
     OoT3D_Randomizer.cia:
-      size: 4338624
+      size: 4346816
       size_str: 4 MiB
-      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-127b0a/OoT3D_Randomizer.cia
+      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-3d274a/OoT3D_Randomizer.cia
   qr:
     OoT3D_Randomizer.cia: https://db.universal-team.net/assets/images/qr/prerelease/oot3d_randomizer-cia.png
   update_notes: '<p dir="auto">Please note that these are DEVELOPMENT builds and may
@@ -49,46 +49,56 @@ prerelease:
 
     CIA QR Code:<br>
 
-    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-127b0a/cia.png"><img
-    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-127b0a/cia.png"
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-3d274a/cia.png"><img
+    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-3d274a/cia.png"
     alt="CIA Download" style="max-width: 100%;"></a><br>
 
     3DSX QR Code:<br>
 
-    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-127b0a/3dsx.png"><img
-    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-127b0a/3dsx.png"
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-3d274a/3dsx.png"><img
+    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-3d274a/3dsx.png"
     alt="CIA Download" style="max-width: 100%;"></a></p>
 
-    <p dir="auto">Changes Since <a href="https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-a4af5e">Nightly-a4af5e</a>
+    <p dir="auto">Changes Since <a href="https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-127b0a">Nightly-127b0a</a>
     🛠:</p>
 
     <ul dir="auto">
 
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/127b0ab0c87353ab15cf97fdda915b8e27c230a2">127b0ab0</a>
-    - Epic/rupee sanity (<a class="issue-link js-issue-link" data-error-text="Failed
-    to load title" data-id="3850573939" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/793"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/793/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/793">#793</a>)</li>
+    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/3d274a9d140e5a803f2b69072c9b343be5ab1fff">3d274a9d</a>
+    - Prevent randomized Iron Knuckles from respawning in cleared rooms (<a class="issue-link
+    js-issue-link" data-error-text="Failed to load title" data-id="3980585123" data-permission-text="Title
+    is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/798"
+    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/798/hovercard"
+    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/798">#798</a>)</li>
 
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/c12a02503dbf1e859906276b63d09d9594867c97">c12a0250</a>
-    - Change ExtInf to a struct (<a class="issue-link js-issue-link" data-error-text="Failed
-    to load title" data-id="3797009910" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/792"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/792/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/792">#792</a>)</li>
+    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/a5eab0c07a03af31e74d91a217e24467b449a739">a5eab0c0</a>
+    - Add playthrough stats to Zelda''s final dialog (<a class="issue-link js-issue-link"
+    data-error-text="Failed to load title" data-id="3970311755" data-permission-text="Title
+    is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/796"
+    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/796/hovercard"
+    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/796">#796</a>)</li>
+
+    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/20b5e87717fe084704a2bdace21abb18eda27a88">20b5e877</a>
+    - Add bonk damage setting (<a class="issue-link js-issue-link" data-error-text="Failed
+    to load title" data-id="3972234762" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/797"
+    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/797/hovercard"
+    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/797">#797</a>)</li>
 
     </ul>'
   update_notes_md: "Please note that these are DEVELOPMENT builds and may not be entirely\
     \ stable.\nWhen reporting issues, please mention the six character commit listed\
     \ in the randomizer menu.\nYou can use the FBI homebrew application to install\
-    \ the randomizer using either of these QR codes.\nCIA QR Code:\n![CIA Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-127b0a/cia.png)\n\
-    3DSX QR Code:\n![CIA Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-127b0a/3dsx.png)\n\
-    \nChanges Since [Nightly-a4af5e](https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-a4af5e)\
-    \ \U0001F6E0:  \n- [127b0ab0](http://github.com/gamestabled/OoT3D_Randomizer/commit/127b0ab0c87353ab15cf97fdda915b8e27c230a2)\
-    \ - Epic/rupee sanity (#793)\n- [c12a0250](http://github.com/gamestabled/OoT3D_Randomizer/commit/c12a02503dbf1e859906276b63d09d9594867c97)\
-    \ - Change ExtInf to a struct (#792)"
-  updated: '2026-01-31T21:21:35Z'
-  version: Nightly-127b0a
-  version_title: Nightly-127b0a
+    \ the randomizer using either of these QR codes.\nCIA QR Code:\n![CIA Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-3d274a/cia.png)\n\
+    3DSX QR Code:\n![CIA Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-3d274a/3dsx.png)\n\
+    \nChanges Since [Nightly-127b0a](https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-127b0a)\
+    \ \U0001F6E0:  \n- [3d274a9d](http://github.com/gamestabled/OoT3D_Randomizer/commit/3d274a9d140e5a803f2b69072c9b343be5ab1fff)\
+    \ - Prevent randomized Iron Knuckles from respawning in cleared rooms (#798)\n\
+    - [a5eab0c0](http://github.com/gamestabled/OoT3D_Randomizer/commit/a5eab0c07a03af31e74d91a217e24467b449a739)\
+    \ - Add playthrough stats to Zelda's final dialog (#796)\n- [20b5e877](http://github.com/gamestabled/OoT3D_Randomizer/commit/20b5e87717fe084704a2bdace21abb18eda27a88)\
+    \ - Add bonk damage setting (#797)"
+  updated: '2026-02-24T21:04:58Z'
+  version: Nightly-3d274a
+  version_title: Nightly-3d274a
 qr:
   OoT3D_Randomizer.cia: https://db.universal-team.net/assets/images/qr/oot3d_randomizer-cia.png
 source: https://github.com/gamestabled/OoT3D_Randomizer
