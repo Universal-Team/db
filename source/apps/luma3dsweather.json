@@ -1,0 +1,11 @@
+{
+	"github": "Dzhmelyk135/Luma3DSWeather",
+	"description": "A working weather app for all Nintendo 3DS family consoles. Works even with smaller and less known cities.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon": "https://raw.githubusercontent.com/Dzhmelyk135/Luma3DSWeather/main/icon.png"
+}
