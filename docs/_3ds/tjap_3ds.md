@@ -26,7 +26,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.1.1
   downloads:
     TJAP_3DS.3dsx:
-      size: 9785916
+      size: 9786056
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.1.1/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -41,6 +41,8 @@ prerelease:
 
     <li>段位道場モードの新条件「最大コンボ数」の実装</li>
 
+    <li>HOMEボタンを押した際に自動でポーズ画面にする機能の追加</li>
+
     <li>一部の不具合修正と仕様変更</li>
 
     </ul>
@@ -51,6 +53,9 @@ prerelease:
 
     <li>Implemented new condition "MAX Combo" in Dan-i Dojo mode</li>
 
+    <li>Added a function that automatically pauses the screen when the HOME button
+    is pressed</li>
+
     <li>Some bug fixes and specification changes</li>
 
     </ul>'
@@ -58,12 +63,17 @@ prerelease:
 
     - 段位道場モードの新条件「最大コンボ数」の実装
 
+    - HOMEボタンを押した際に自動でポーズ画面にする機能の追加
+
     - 一部の不具合修正と仕様変更
 
 
     ## Changelog
 
     - Implemented new condition "MAX Combo" in Dan-i Dojo mode
+
+    - Added a function that automatically pauses the screen when the HOME button is
+    pressed
 
     - Some bug fixes and specification changes'
   updated: '2026-02-22T21:50:44Z'
