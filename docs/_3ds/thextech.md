@@ -45,7 +45,7 @@ update_notes: "<p dir=\"auto\">This is a minor hotfix for the 1.3.7.2 release th
   \ resolves an unexpected problem that occurs exclusively on 3DS, and might occur\
   \ on Wii, and PSVita:</p>\n<p dir=\"auto\">(Watch this video with a sound)</p>\n\
   <details open=\"\" class=\"details-reset border rounded-2\">\n  <summary class=\"\
-  px-3 py-2\">\n    <svg aria-hidden=\"true\" height=\"16\" viewBox=\"0 0 16 16\"\
+  tmp-px-3 py-2\">\n    <svg aria-hidden=\"true\" height=\"16\" viewBox=\"0 0 16 16\"\
   \ version=\"1.1\" width=\"16\" data-view-component=\"true\" class=\"octicon octicon-device-camera-video\"\
   >\n    <path d=\"M16 3.75v8.5a.75.75 0 0 1-1.136.643L11 10.575v.675A1.75 1.75 0\
   \ 0 1 9.25 13h-7.5A1.75 1.75 0 0 1 0 11.25v-6.5C0 3.784.784 3 1.75 3h7.5c.966 0\
