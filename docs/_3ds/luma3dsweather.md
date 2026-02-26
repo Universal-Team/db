@@ -13,11 +13,11 @@ downloads:
   3ds-weather.3dsx:
     size: 219380
     size_str: 214 KiB
-    url: https://github.com/Dzhmelyk135/Luma3DSWeather/releases/download/latest/3ds-weather.3dsx
+    url: https://github.com/Dzhmelyk135/Luma3DSWeather/releases/download/1.1/3ds-weather.3dsx
   UNCOMPILED.zip:
     size: 539731
     size_str: 527 KiB
-    url: https://github.com/Dzhmelyk135/Luma3DSWeather/releases/download/latest/UNCOMPILED.zip
+    url: https://github.com/Dzhmelyk135/Luma3DSWeather/releases/download/1.1/UNCOMPILED.zip
 github: Dzhmelyk135/Luma3DSWeather
 icon: https://raw.githubusercontent.com/Dzhmelyk135/Luma3DSWeather/main/icon.png
 image: https://raw.githubusercontent.com/Dzhmelyk135/Luma3DSWeather/main/icon.png
@@ -32,6 +32,6 @@ systems:
 title: Luma3DSWeather
 update_notes: <p dir="auto">Fixed error in displaying the "hour per hour" data</p>
 updated: '2026-02-25T20:20:28Z'
-version: latest
+version: '1.1'
 version_title: '1.1'
 ---
