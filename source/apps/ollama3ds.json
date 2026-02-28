@@ -1,0 +1,11 @@
+{
+	"github": "Dzhmelyk135/Ollama3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"download_filter": "3dsx",
+	"icon": "https://raw.githubusercontent.com/Dzhmelyk135/Ollama3DS/main/icon.png"
+}
