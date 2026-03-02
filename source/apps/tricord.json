@@ -1,0 +1,16 @@
+{
+	"github": "2b-zipper/TriCord",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"icon": "https://raw.githubusercontent.com/2b-zipper/TriCord/refs/heads/main/resources/icon.png",
+	"image": "https://raw.githubusercontent.com/2b-zipper/TriCord/refs/heads/main/resources/banner.png",
+	"unique_ids": [
+		875533
+	],
+	"long_description": "Please see below for details: https://github.com/2b-zipper/TriCord/blob/main/README.md",
+	"script_message": "This project is developed for educational purposes only. This is an unofficial Discord client and is not affiliated with or endorsed by Discord Inc. Software is provided \"as is\", and you use it at your own risk. The developers assume no responsibility for any damages, data loss, or Discord ToS violations resulting from the use of this software."
+}
