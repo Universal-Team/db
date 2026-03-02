@@ -23,7 +23,7 @@ license_name: GNU General Public License v3.0
 qr:
   savedumper.nds: https://db.universal-team.net/assets/images/qr/savedumper-nds.png
 source: https://github.com/edo9300/ndsi-savedumper
-stars: 43
+stars: 42
 systems:
 - DS
 title: ndsi-savedumper
