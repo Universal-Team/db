@@ -26,7 +26,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.1.1A
   downloads:
     TJAP_3DS.3dsx:
-      size: 9786444
+      size: 9786612
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.1.1A/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -41,6 +41,8 @@ prerelease:
 
     <li>風船音符の終了が正しく処理されない不具合の改善</li>
 
+    <li><code class="notranslate">#GOGOSTART</code>や<code class="notranslate">#GOGOEND</code>でフリーズする可能性のある不具合</li>
+
     </ul>
 
     <h2 dir="auto">Changelog</h2>
@@ -50,16 +52,23 @@ prerelease:
     <li>Improvement of the problem that the end of the balloon note is not processed
     correctly</li>
 
+    <li>A bug that may cause the app to freeze at <code class="notranslate">#GOGOSTART</code>
+    or <code class="notranslate">#GOGOEND</code></li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
     - 風船音符の終了が正しく処理されない不具合の改善
 
+    - `#GOGOSTART`や`#GOGOEND`でフリーズする可能性のある不具合
+
 
     ## Changelog
 
     - Improvement of the problem that the end of the balloon note is not processed
-    correctly'
+    correctly
+
+    - A bug that may cause the app to freeze at `#GOGOSTART` or `#GOGOEND`'
   updated: '2026-03-02T03:04:53Z'
   version: v2.1.1A
   version_title: TJAPlayer for 3DS v2.1.1(A)
