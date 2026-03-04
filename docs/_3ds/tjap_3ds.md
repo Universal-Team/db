@@ -41,7 +41,7 @@ prerelease:
 
     <li>風船音符の終了が正しく処理されない不具合の改善</li>
 
-    <li><code class="notranslate">#GOGOSTART</code>や<code class="notranslate">#GOGOEND</code>でフリーズする可能性のある不具合</li>
+    <li><code class="notranslate">#GOGOSTART</code>や<code class="notranslate">#GOGOEND</code>でフリーズする可能性のある不具合を修正</li>
 
     </ul>
 
@@ -52,15 +52,15 @@ prerelease:
     <li>Improvement of the problem that the end of the balloon note is not processed
     correctly</li>
 
-    <li>A bug that may cause the app to freeze at <code class="notranslate">#GOGOSTART</code>
-    or <code class="notranslate">#GOGOEND</code></li>
+    <li>Fixed a bug that could cause the game to freeze when using <code class="notranslate">#GOGOSTART</code>
+    or <code class="notranslate">#GOGOEND</code>.</li>
 
     </ul>'
   update_notes_md: '## チェンジログ
 
     - 風船音符の終了が正しく処理されない不具合の改善
 
-    - `#GOGOSTART`や`#GOGOEND`でフリーズする可能性のある不具合
+    - `#GOGOSTART`や`#GOGOEND`でフリーズする可能性のある不具合を修正
 
 
     ## Changelog
@@ -68,7 +68,7 @@ prerelease:
     - Improvement of the problem that the end of the balloon note is not processed
     correctly
 
-    - A bug that may cause the app to freeze at `#GOGOSTART` or `#GOGOEND`'
+    - Fixed a bug that could cause the game to freeze when using `#GOGOSTART` or `#GOGOEND`.'
   updated: '2026-03-02T03:04:53Z'
   version: v2.1.1A
   version_title: TJAPlayer for 3DS v2.1.1(A)
