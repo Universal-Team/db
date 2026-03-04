@@ -43,6 +43,8 @@ prerelease:
 
     <li><code class="notranslate">#GOGOSTART</code>や<code class="notranslate">#GOGOEND</code>でフリーズする可能性のある不具合を修正</li>
 
+    <li>文字コード変換時に「～」が正しく変換されていなかったのを修正</li>
+
     </ul>
 
     <h2 dir="auto">Changelog</h2>
@@ -55,6 +57,8 @@ prerelease:
     <li>Fixed a bug that could cause the game to freeze when using <code class="notranslate">#GOGOSTART</code>
     or <code class="notranslate">#GOGOEND</code>.</li>
 
+    <li>Fixed "～" not being converted correctly when converting character codes.</li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
@@ -62,13 +66,17 @@ prerelease:
 
     - `#GOGOSTART`や`#GOGOEND`でフリーズする可能性のある不具合を修正
 
+    - 文字コード変換時に「～」が正しく変換されていなかったのを修正
+
 
     ## Changelog
 
     - Improvement of the problem that the end of the balloon note is not processed
     correctly
 
-    - Fixed a bug that could cause the game to freeze when using `#GOGOSTART` or `#GOGOEND`.'
+    - Fixed a bug that could cause the game to freeze when using `#GOGOSTART` or `#GOGOEND`.
+
+    - Fixed "～" not being converted correctly when converting character codes.'
   updated: '2026-03-02T03:04:53Z'
   version: v2.1.1A
   version_title: TJAPlayer for 3DS v2.1.1(A)
