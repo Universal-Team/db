@@ -33,13 +33,10 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <ul data-sourcepos="1:2-6:81" dir="auto">&#x000A;<li data-sourcepos="1:2-1:39">add
-  qr code and event location music</li>&#x000A;<li data-sourcepos="2:2-2:23">explicitly
-  send LFCS</li>&#x000A;<li data-sourcepos="3:2-3:32">Fix potential crashes on exit</li>&#x000A;<li
-  data-sourcepos="4:2-4:52">make purchasing passes from the back alley faster</li>&#x000A;<li
-  data-sourcepos="5:2-5:68">Add spinner / busy indicator on bottom screen (Thanks
-  @Silentium)</li>&#x000A;<li data-sourcepos="6:2-6:81">Fetch passes until none are
-  possible to be fetched anymore (Thanks @Silentium)</li>&#x000A;</ul>
+update_notes: " - add qr code and event location music\n - explicitly send LFCS\n\
+  \ - Fix potential crashes on exit\n - make purchasing passes from the back alley\
+  \ faster\n - Add spinner / busy indicator on bottom screen (Thanks @Silentium)\n\
+  \ - Fetch passes until none are possible to be fetched anymore (Thanks @Silentium)\n"
 updated: '2026-02-04T13:20:51.886Z'
 version: v1.2.9
 version_title: v1.2.9
