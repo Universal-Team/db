@@ -73,7 +73,7 @@ prerelease:
   version: 4.2.6-64-gf3e6fdd7c
   version_title: 4.2.6-64-gf3e6fdd7c
 source: https://github.com/angband/angband
-stars: 1496
+stars: 1497
 systems:
 - 3DS
 - DS
