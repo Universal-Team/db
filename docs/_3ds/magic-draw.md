@@ -10,13 +10,13 @@ description: Super powerful drawing app for 3DS
 download_page: https://github.com/natsuneco/magic-draw/releases
 downloads:
   magic-draw.3dsx:
-    size: 531416
-    size_str: 518 KiB
-    url: https://github.com/natsuneco/magic-draw/releases/download/v1.2.0/magic-draw.3dsx
+    size: 548920
+    size_str: 536 KiB
+    url: https://github.com/natsuneco/magic-draw/releases/download/v2.0.0/magic-draw.3dsx
   magic-draw.cia:
-    size: 615360
-    size_str: 600 KiB
-    url: https://github.com/natsuneco/magic-draw/releases/download/v1.2.0/magic-draw.cia
+    size: 627648
+    size_str: 612 KiB
+    url: https://github.com/natsuneco/magic-draw/releases/download/v2.0.0/magic-draw.cia
 github: natsuneco/magic-draw
 icon: https://raw.githubusercontent.com/natsuneco/magic-draw/refs/heads/main/meta/icon.png
 image: https://raw.githubusercontent.com/natsuneco/magic-draw/refs/heads/main/meta/banner.png
@@ -43,20 +43,13 @@ unique_ids:
 - '0xCF024'
 update_notes: '<h2 dir="auto">What''s Changed</h2>
 
-  <ul dir="auto">
+  <p dir="auto">The problem of extremely slow Save, Load, and Preview has been fixed!<br>
 
-  <li>Add smear brush by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/natsuneco/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/natsuneco">@natsuneco</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4033530091"
-  data-permission-text="Title is private" data-url="https://github.com/natsuneco/magic-draw/issues/14"
-  data-hovercard-type="pull_request" data-hovercard-url="/natsuneco/magic-draw/pull/14/hovercard"
-  href="https://github.com/natsuneco/magic-draw/pull/14">#14</a></li>
+  Saving a 1024x1024 canvas, which used to take several minutes, has been reduced
+  to a few second🏎</p>
 
-  </ul>
-
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/natsuneco/magic-draw/compare/v1.1.0...v1.2.0"><tt>v1.1.0...v1.2.0</tt></a></p>'
-updated: '2026-03-06T10:50:39Z'
-version: v1.2.0
-version_title: v1.2.0
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/natsuneco/magic-draw/compare/v1.2.0...v2.0.0"><tt>v1.2.0...v2.0.0</tt></a></p>'
+updated: '2026-03-06T16:50:06Z'
+version: v2.0.0
+version_title: v2.0.0
 ---
