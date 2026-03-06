@@ -8,7 +8,15 @@ color_bg: '#686c80'
 created: '2026-02-13T02:06:57Z'
 description: Super powerful drawing app for 3DS
 download_page: https://github.com/natsuneco/magic-draw/releases
-downloads: {}
+downloads:
+  magic-draw.3dsx:
+    size: 531416
+    size_str: 518 KiB
+    url: https://github.com/natsuneco/magic-draw/releases/download/v1.2.0/magic-draw.3dsx
+  magic-draw.cia:
+    size: 615360
+    size_str: 600 KiB
+    url: https://github.com/natsuneco/magic-draw/releases/download/v1.2.0/magic-draw.cia
 github: natsuneco/magic-draw
 icon: https://raw.githubusercontent.com/natsuneco/magic-draw/refs/heads/main/meta/icon.png
 image: https://raw.githubusercontent.com/natsuneco/magic-draw/refs/heads/main/meta/banner.png
@@ -16,6 +24,8 @@ image_length: 20069
 layout: app
 license: mit
 license_name: MIT License
+qr:
+  magic-draw.cia: https://db.universal-team.net/assets/images/qr/magic-draw-cia.png
 screenshots:
 - description: Color palette
   url: https://db.universal-team.net/assets/images/screenshots/magic-draw/color-palette.png
