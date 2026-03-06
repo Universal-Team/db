@@ -26,11 +26,11 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.1.1A
   downloads:
     TJAP_3DS.3dsx:
-      size: 9786612
+      size: 9783488
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.1.1A/TJAP_3DS.3dsx
     TJAP_3DS.cia:
-      size: 9970624
+      size: 9966528
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.1.1A/TJAP_3DS.cia
   qr:
@@ -44,6 +44,12 @@ prerelease:
     <li><code class="notranslate">#GOGOSTART</code>や<code class="notranslate">#GOGOEND</code>でフリーズする可能性のある不具合を修正</li>
 
     <li>文字コード変換時に「～」が正しく変換されていなかったのを修正</li>
+
+    <li>でんでん音符の出現文字を''D''から''P''に変更しました。</li>
+
+    <li>代わりに''D''は時限爆弾音符が登場します。<br>
+
+    時限爆弾音符は、連打の終点が来るまでに指定した打数ドンを叩かないと不可判定になります。</li>
 
     </ul>
 
@@ -59,6 +65,13 @@ prerelease:
 
     <li>Fixed "～" not being converted correctly when converting character codes.</li>
 
+    <li>The letter that appears for denden notes has been changed from ''D'' to ''P''.</li>
+
+    <li>Instead of ''D'', a Time Bomb note will appear.<br>
+
+    The Time Bomb note will be considered impossible if the specified number of don
+    strokes are not hit before the end of the Roll.</li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
@@ -68,6 +81,12 @@ prerelease:
 
     - 文字コード変換時に「～」が正しく変換されていなかったのを修正
 
+    - でんでん音符の出現文字を''D''から''P''に変更しました。
+
+    - 代わりに''D''は時限爆弾音符が登場します。
+
+    時限爆弾音符は、連打の終点が来るまでに指定した打数ドンを叩かないと不可判定になります。
+
 
     ## Changelog
 
@@ -76,7 +95,14 @@ prerelease:
 
     - Fixed a bug that could cause the game to freeze when using `#GOGOSTART` or `#GOGOEND`.
 
-    - Fixed "～" not being converted correctly when converting character codes.'
+    - Fixed "～" not being converted correctly when converting character codes.
+
+    - The letter that appears for denden notes has been changed from ''D'' to ''P''.
+
+    - Instead of ''D'', a Time Bomb note will appear.
+
+    The Time Bomb note will be considered impossible if the specified number of don
+    strokes are not hit before the end of the Roll.'
   updated: '2026-03-02T03:04:53Z'
   version: v2.1.1A
   version_title: TJAPlayer for 3DS v2.1.1(A)
