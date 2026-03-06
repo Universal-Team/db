@@ -11,7 +11,7 @@
 	"archive": {
 		"Luma3DS.*.zip": {
 			"boot.firm": [
-				"boot.firm"
+				"boot.firm", "config"
 			]
 		}
 	}
