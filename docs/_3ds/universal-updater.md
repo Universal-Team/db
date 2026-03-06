@@ -28,20 +28,22 @@ nightly:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 3187096
-      size_str: 3 MiB
+      size: 2963400
+      size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
-      size: 2667456
+      size: 2438080
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: <p dir="auto">Pk11 - Update for libctru v2.7.0</p>
-  update_notes_md: Pk11 - Update for libctru v2.7.0
-  updated: '2026-03-06T06:06:22Z'
+  update_notes: <p dir="auto">Pk11 - Use SSL CA cert bundle from SD card, offer to
+    download it or disable SSL verification on failure</p>
+  update_notes_md: Pk11 - Use SSL CA cert bundle from SD card, offer to download it
+    or disable SSL verification on failure
+  updated: '2026-03-06T07:05:27Z'
   version: git
-  version_title: Continuous Build - 25fb701
+  version_title: Continuous Build - c5e62d6
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
