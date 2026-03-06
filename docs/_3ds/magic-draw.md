@@ -10,13 +10,13 @@ description: Super powerful drawing app for 3DS
 download_page: https://github.com/natsuneco/magic-draw/releases
 downloads:
   magic-draw.3dsx:
-    size: 548920
+    size: 549196
     size_str: 536 KiB
-    url: https://github.com/natsuneco/magic-draw/releases/download/v2.0.0/magic-draw.3dsx
+    url: https://github.com/natsuneco/magic-draw/releases/download/v2.0.1/magic-draw.3dsx
   magic-draw.cia:
     size: 627648
     size_str: 612 KiB
-    url: https://github.com/natsuneco/magic-draw/releases/download/v2.0.0/magic-draw.cia
+    url: https://github.com/natsuneco/magic-draw/releases/download/v2.0.1/magic-draw.cia
 github: natsuneco/magic-draw
 icon: https://raw.githubusercontent.com/natsuneco/magic-draw/refs/heads/main/meta/icon.png
 image: https://raw.githubusercontent.com/natsuneco/magic-draw/refs/heads/main/meta/banner.png
@@ -35,7 +35,7 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/magic-draw/title-menu.png
 script_message: 'Note: It may not work on the old3DS at this time.'
 source: https://github.com/natsuneco/magic-draw
-stars: 2
+stars: 4
 systems:
 - 3DS
 title: Magic Draw
@@ -43,13 +43,10 @@ unique_ids:
 - '0xCF024'
 update_notes: '<h2 dir="auto">What''s Changed</h2>
 
-  <p dir="auto">The problem of extremely slow Save, Load, and Preview has been fixed!<br>
+  <p dir="auto">Fixed an issue that could cause file corruption.</p>
 
-  Saving a 1024x1024 canvas, which used to take several minutes, has been reduced
-  to a few second🏎</p>
-
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/natsuneco/magic-draw/compare/v1.2.0...v2.0.0"><tt>v1.2.0...v2.0.0</tt></a></p>'
-updated: '2026-03-06T16:50:06Z'
-version: v2.0.0
-version_title: v2.0.0
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/natsuneco/magic-draw/compare/v2.0.0...v2.0.1"><tt>v2.0.0...v2.0.1</tt></a></p>'
+updated: '2026-03-06T17:37:17Z'
+version: v2.0.1
+version_title: v2.0.1
 ---

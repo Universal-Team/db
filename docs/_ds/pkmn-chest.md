@@ -30,40 +30,39 @@ nightly:
   download_page: https://github.com/Universal-Team/pkmn-chest/releases/tag/git
   downloads:
     pkmn-chest.cia:
-      size: 7378176
-      size_str: 7 MiB
+      size: 6844672
+      size_str: 6 MiB
       url: https://github.com/Universal-Team/pkmn-chest/releases/download/git/pkmn-chest.cia
     pkmn-chest.dsi:
-      size: 7363584
-      size_str: 7 MiB
+      size: 6830080
+      size_str: 6 MiB
       url: https://github.com/Universal-Team/pkmn-chest/releases/download/git/pkmn-chest.dsi
     pkmn-chest.nds:
-      size: 7363584
-      size_str: 7 MiB
+      size: 6830080
+      size_str: 6 MiB
       url: https://github.com/Universal-Team/pkmn-chest/releases/download/git/pkmn-chest.nds
   qr:
     pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/git/pkmn-chest-cia.png
     pkmn-chest.dsi: https://db.universal-team.net/assets/images/qr/git/pkmn-chest-dsi.png
     pkmn-chest.nds: https://db.universal-team.net/assets/images/qr/git/pkmn-chest-nds.png
-  update_notes: '<p dir="auto">Edoardo Lolletti - fix out of memory read/writes that
-    silently worked on old toolchains (<a class="issue-link js-issue-link" data-error-text="Failed
-    to load title" data-id="4012778167" data-permission-text="Title is private" data-url="https://github.com/Universal-Team/pkmn-chest/issues/99"
-    data-hovercard-type="pull_request" data-hovercard-url="/Universal-Team/pkmn-chest/pull/99/hovercard"
-    href="https://github.com/Universal-Team/pkmn-chest/pull/99">#99</a>)</p>
+  update_notes: '<p dir="auto">Edoardo Lolletti - Port to blocksds (<a class="issue-link
+    js-issue-link" data-error-text="Failed to load title" data-id="4035432617" data-permission-text="Title
+    is private" data-url="https://github.com/Universal-Team/pkmn-chest/issues/100"
+    data-hovercard-type="pull_request" data-hovercard-url="/Universal-Team/pkmn-chest/pull/100/hovercard"
+    href="https://github.com/Universal-Team/pkmn-chest/pull/100">#100</a>)</p>
 
     <ul dir="auto">
 
-    <li>fix out of memory read/writes that silently worked on old toolchains</li>
+    <li>port to blocksds</li>
 
     </ul>'
-  update_notes_md: 'Edoardo Lolletti - fix out of memory read/writes that silently
-    worked on old toolchains (#99)
+  update_notes_md: 'Edoardo Lolletti - Port to blocksds (#100)
 
 
-    * fix out of memory read/writes that silently worked on old toolchains'
-  updated: '2026-03-02T20:41:12Z'
+    * port to blocksds'
+  updated: '2026-03-06T18:22:40Z'
   version: git
-  version_title: Continuous Build - 001fdda
+  version_title: Continuous Build - d0b6d4d
 qr:
   pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/pkmn-chest-cia.png
   pkmn-chest.nds: https://db.universal-team.net/assets/images/qr/pkmn-chest-nds.png
@@ -101,7 +100,7 @@ screenshots:
 - description: X menu
   url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/x-menu.png
 source: https://github.com/Universal-Team/pkmn-chest
-stars: 258
+stars: 259
 systems:
 - DS
 title: pkmn-chest
