@@ -12,17 +12,17 @@ download_filter: (\.3dsx|\.cia|\.nds)
 download_page: https://github.com/ScratchEverywhere/ScratchEverywhere/releases
 downloads:
   scratch-3ds.3dsx:
-    size: 8024640
+    size: 8026984
     size_str: 7 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.35/scratch-3ds.3dsx
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.36/scratch-3ds.3dsx
   scratch-3ds.cia:
     size: 6902720
     size_str: 6 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.35/scratch-3ds.cia
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.36/scratch-3ds.cia
   scratch-ds.nds:
-    size: 5468160
+    size: 5478400
     size_str: 5 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.35/scratch-ds.nds
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.36/scratch-ds.nds
 github: ScratchEverywhere/ScratchEverywhere
 icon: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/icon.png
 image: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/3ds/banner.png
@@ -44,21 +44,20 @@ update_notes: '<h2 dir="auto">Runtime Changes</h2>
 
   <ul dir="auto">
 
-  <li>Fix crash when loading audio in unpacked projects</li>
+  <li>Refactored a bunch of image code under the hood
 
-  <li>Fix custom blocks still running after deleting the sprite</li>
+  <ul dir="auto">
 
-  <li>Added support for TurboWarp''s 0 FPS option</li>
+  <li>This also has the side effect of fixing some Sprite position and brightness
+  effect issues</li>
 
-  <li>Fix controls not being set sometimes</li>
+  </ul>
 
-  <li>Pen is now cleared when exiting a project</li>
+  </li>
 
-  <li>Fix high DPI displays being scaled weirdly (via <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="3882683246" data-permission-text="Title
-  is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/552"
-  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/552/hovercard"
-  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/552">#552</a>)</li>
+  <li>The <code class="notranslate">touching __</code> block has been optimized</li>
+
+  <li>Fixed default controls getting set even when custom controls are set</li>
 
   </ul>
 
@@ -66,44 +65,17 @@ update_notes: '<h2 dir="auto">Runtime Changes</h2>
 
   <ul dir="auto">
 
-  <li>Added <code class="notranslate">is online?</code> block
+  <li>Support <code class="notranslate">undefined</code> as a value</li>
 
-  <ul dir="auto">
+  <li>Add support for <code class="notranslate">motion_xscroll</code>, <code class="notranslate">motion_yscroll</code>,
+  and <code class="notranslate">sensing_userid</code> blocks</li>
 
-  <li>Please note that this block isn''t correctly implemented, as it will only return
-  true if your build supports cloud variables.</li>
+  <li>Variable monitors can now only display numbers at up to 6 decimal places</li>
 
-  </ul>
-
-  </li>
-
-  <li>Added support for the <code class="notranslate">slider</code> Monitor type</li>
-
-  <li>Added pages to <code class="notranslate">list</code> Monitors</li>
-
-  <li>The <code class="notranslate">Stop All</code> block no longer takes you to the
-  main menu
-
-  <ul dir="auto">
-
-  <li>To get to the main menu, you can pause the Project by holding <code class="notranslate">start</code>
-  for 3 seconds.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Changed Sprite layering to be closer to Scratch</li>
-
-  <li>Fixed some parity issues with <code class="notranslate">Backdrop</code> blocks</li>
-
-  <li>The <code class="notranslate">mod</code> block can now return <code class="notranslate">NaN</code></li>
-
-  <li>The <code class="notranslate">x contains x</code> block is now case-insensitive</li>
-
-  <li><code class="notranslate">Sound</code> blocks now yield for 1 tick</li>
-
-  <li>The <code class="notranslate">Size</code> reporter block now has its value rounded</li>
+  <li>All via PR (<a class="issue-link js-issue-link" data-error-text="Failed to load
+  title" data-id="3972578263" data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/563"
+  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/563/hovercard"
+  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/563">#563</a>)</li>
 
   </ul>
 
@@ -111,14 +83,34 @@ update_notes: '<h2 dir="auto">Runtime Changes</h2>
 
   <ul dir="auto">
 
-  <li>Fix bottom screen being white in Dual-Screen mode</li>
+  <li>Fixed position/fencing issues on custom resolution projects</li>
 
-  <li>Fix text position being a bit too far down</li>
+  <li>Fixed memory leak when freeing audio</li>
+
+  <li>Fixed Audio cracking and slowdown issues on Old 3DS (Via an <a href="https://github.com/libsdl-org/SDL/pull/15060"
+  data-hovercard-type="pull_request" data-hovercard-url="/libsdl-org/SDL/pull/15060/hovercard">SDL
+  PR</a>)</li>
+
+  </ul>
+
+  <h2 dir="auto">webOS Changes</h2>
+
+  <ul dir="auto">
+
+  <li>Fixed project path being incorrect</li>
+
+  </ul>
+
+  <h2 dir="auto">PSP Changes</h2>
+
+  <ul dir="auto">
+
+  <li>Disabled VSync</li>
 
   </ul>'
-updated: '2026-02-08T14:06:56Z'
-version: '0.35'
-version_title: Beta Build 35
+updated: '2026-02-22T15:07:48Z'
+version: '0.36'
+version_title: Beta Build 36
 website: https://scratcheverywhere.github.io/ScratchEverywhere/
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!
