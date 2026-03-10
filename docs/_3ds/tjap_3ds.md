@@ -26,7 +26,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.1.1A
   downloads:
     TJAP_3DS.3dsx:
-      size: 9788516
+      size: 9788352
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.1.1A/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -51,6 +51,8 @@ prerelease:
 
     時限爆弾音符は、連打の終点が来るまでに指定した打数ドンを叩かないと不可判定になります。</li>
 
+    <li>一部演出の追加</li>
+
     </ul>
 
     <h2 dir="auto">Changelog</h2>
@@ -72,6 +74,8 @@ prerelease:
     The Time Bomb note will be considered impossible if the specified number of don
     strokes are not hit before the end of the Roll.</li>
 
+    <li>Addition of some productions</li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
@@ -86,6 +90,8 @@ prerelease:
     - 代わりに''D''は時限爆弾音符が登場します。
 
     時限爆弾音符は、連打の終点が来るまでに指定した打数ドンを叩かないと不可判定になります。
+
+    - 一部演出の追加
 
 
     ## Changelog
@@ -102,7 +108,9 @@ prerelease:
     - Instead of ''D'', a Time Bomb note will appear.
 
     The Time Bomb note will be considered impossible if the specified number of don
-    strokes are not hit before the end of the Roll.'
+    strokes are not hit before the end of the Roll.
+
+    - Addition of some productions'
   updated: '2026-03-02T03:04:53Z'
   version: v2.1.1A
   version_title: TJAPlayer for 3DS v2.1.1(A)
