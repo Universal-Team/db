@@ -18,60 +18,94 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-64-gf3e6fdd7c
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-70-gbd15a52b0
   downloads:
-    Angband-4.2.6-64-gf3e6fdd7c-3ds.zip:
-      size: 24671589
+    Angband-4.2.6-70-gbd15a52b0-3ds.zip:
+      size: 24671417
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-64-gf3e6fdd7c/Angband-4.2.6-64-gf3e6fdd7c-3ds.zip
-    Angband-4.2.6-64-gf3e6fdd7c-nds.zip:
-      size: 23331257
+      url: https://github.com/angband/angband/releases/download/4.2.6-70-gbd15a52b0/Angband-4.2.6-70-gbd15a52b0-3ds.zip
+    Angband-4.2.6-70-gbd15a52b0-nds.zip:
+      size: 23331454
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-64-gf3e6fdd7c/Angband-4.2.6-64-gf3e6fdd7c-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-70-gbd15a52b0/Angband-4.2.6-70-gbd15a52b0-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>borg: update the docs to match new commands by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
-    in <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/angband/angband/commit/30195731ba26137f1ba57843b0280ec9e122b930/hovercard"
-    href="https://github.com/angband/angband/commit/30195731ba26137f1ba57843b0280ec9e122b930"><tt>3019573</tt></a></li>
+    <li>SDL2: correct tab order for menu shortcuts dialog by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="3997788419" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6527"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6527/hovercard"
+    href="https://github.com/angband/angband/pull/6527">#6527</a></li>
 
-    <li>SDL2:  add comments about how the pui layer interacts with the SDL_Renderer
+    <li>Allow the TELEPORT and RECHARGE effects to use the number of dice and sides
     by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3932261048" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6524"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6524/hovercard"
-    href="https://github.com/angband/angband/pull/6524">#6524</a></li>
+    data-id="4012770224" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6528"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6528/hovercard"
+    href="https://github.com/angband/angband/pull/6528">#6528</a></li>
 
-    <li>workflows: remove release-flags jobs by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    <li>Correct some typos in comments by <a class="user-mention notranslate" data-hovercard-type="user"
+    data-hovercard-url="/users/backwardsEric/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4012787107" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6529"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6529/hovercard"
+    href="https://github.com/angband/angband/pull/6529">#6529</a></li>
+
+    <li>Fix documentation typo by <a class="user-mention notranslate" data-hovercard-type="user"
+    data-hovercard-url="/users/fruviad/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/fruviad">@fruviad</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4019223772" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6530"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6530/hovercard"
+    href="https://github.com/angband/angband/pull/6530">#6530</a></li>
+
+    <li>SDL2: add hooks in sdlpui_control to facilitate tracing by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3955209506" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6525"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6525/hovercard"
-    href="https://github.com/angband/angband/pull/6525">#6525</a></li>
+    data-id="4022405471" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6531"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6531/hovercard"
+    href="https://github.com/angband/angband/pull/6531">#6531</a></li>
+
+    <li>Correct typo in comment:  it is the WELL1024a algorithm in use in z-rand by
+    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4035771230" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6532"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6532/hovercard"
+    href="https://github.com/angband/angband/pull/6532">#6532</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-61-gd7f93de80...4.2.6-64-gf3e6fdd7c"><tt>4.2.6-61-gd7f93de80...4.2.6-64-gf3e6fdd7c</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-64-gf3e6fdd7c...4.2.6-70-gbd15a52b0"><tt>4.2.6-64-gf3e6fdd7c...4.2.6-70-gbd15a52b0</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    *  borg: update the docs to match new commands by @agoodman00 in https://github.com/angband/angband/commit/30195731ba26137f1ba57843b0280ec9e122b930
+    * SDL2: correct tab order for menu shortcuts dialog by @backwardsEric in https://github.com/angband/angband/pull/6527
 
-    * SDL2:  add comments about how the pui layer interacts with the SDL_Renderer
-    by @backwardsEric in https://github.com/angband/angband/pull/6524
+    * Allow the TELEPORT and RECHARGE effects to use the number of dice and sides
+    by @backwardsEric in https://github.com/angband/angband/pull/6528
 
-    * workflows: remove release-flags jobs by @backwardsEric in https://github.com/angband/angband/pull/6525
+    * Correct some typos in comments by @backwardsEric in https://github.com/angband/angband/pull/6529
+
+    * Fix documentation typo by @fruviad in https://github.com/angband/angband/pull/6530
+
+    * SDL2: add hooks in sdlpui_control to facilitate tracing by @backwardsEric in
+    https://github.com/angband/angband/pull/6531
+
+    * Correct typo in comment:  it is the WELL1024a algorithm in use in z-rand by
+    @backwardsEric in https://github.com/angband/angband/pull/6532
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-61-gd7f93de80...4.2.6-64-gf3e6fdd7c'
-  updated: '2026-02-24T14:07:18Z'
-  version: 4.2.6-64-gf3e6fdd7c
-  version_title: 4.2.6-64-gf3e6fdd7c
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-64-gf3e6fdd7c...4.2.6-70-gbd15a52b0'
+  updated: '2026-03-10T18:23:54Z'
+  version: 4.2.6-70-gbd15a52b0
+  version_title: 4.2.6-70-gbd15a52b0
 source: https://github.com/angband/angband
 stars: 1496
 systems:

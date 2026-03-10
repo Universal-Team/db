@@ -10,13 +10,13 @@ description: NetPass allows you to get StreetPasses over the internet
 download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 7780040
+    size: 7787248
     size_str: 7 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/c6f7e17aa02e64f493dd9dc9ab6d009916ccabc8/netpass.3dsx?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/c2d48d86ed6c867b46337d21be0d0c609cb94163/netpass.3dsx?inline=false
   netpass.cia:
-    size: 7873472
+    size: 7877568
     size_str: 7 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/c6f7e17aa02e64f493dd9dc9ab6d009916ccabc8/netpass.cia?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/c2d48d86ed6c867b46337d21be0d0c609cb94163/netpass.cia?inline=false
 gitlab: 3ds-netpass/netpass
 icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
@@ -33,13 +33,13 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: " - add qr code and event location music\n - explicitly send LFCS\n\
-  \ - Fix potential crashes on exit\n - make purchasing passes from the back alley\
-  \ faster\n - Add spinner / busy indicator on bottom screen (Thanks @Silentium)\n\
-  \ - Fetch passes until none are possible to be fetched anymore (Thanks @Silentium)\n"
-updated: '2026-02-04T13:20:51.886Z'
-version: v1.2.9
-version_title: v1.2.9
+update_notes: " - SpotPass support\n - ImageShare support\n - Add failed auth check\n\
+  \ - Add nid-password and verify with a TOTP token\n - Store mac to nand and use\
+  \ that one\n - Respect the 3DS proxy settings and use those\n - Remove stutter of\
+  \ music"
+updated: '2026-03-10T17:26:05.701Z'
+version: v2.0.0
+version_title: v2.0.0
 website: https://netpass.cafe
 ---
 #NetPass: StreetPass in the modern world
