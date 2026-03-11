@@ -10,8 +10,6 @@ description: NetPass allows you to get StreetPasses over the internet
 download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 7787248
-    size_str: 7 MiB
     url: https://gitlab.com/3ds-netpass/netpass/-/raw/c2d48d86ed6c867b46337d21be0d0c609cb94163/netpass.3dsx?inline=false
   netpass.cia:
     size: 7877568
