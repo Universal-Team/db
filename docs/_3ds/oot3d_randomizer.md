@@ -48,14 +48,14 @@ update_notes: '<p dir="auto">4.0.1 Changes:</p>
 
   CIA QR Code:<br>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-6fdb5b/cia.png"><img
-  src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-6fdb5b/cia.png"
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/v4.0.1/cia.png"><img
+  src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/v4.0.1/cia.png"
   alt="CIA Download" style="max-width: 100%;"></a><br>
 
   3DSX QR Code:<br>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-6fdb5b/3dsx.png"><img
-  src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-6fdb5b/3dsx.png"
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/v4.0.1/3dsx.png"><img
+  src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/v4.0.1/3dsx.png"
   alt="CIA Download" style="max-width: 100%;"></a></p>'
 updated: '2026-03-13T18:29:46Z'
 version: v4.0.1

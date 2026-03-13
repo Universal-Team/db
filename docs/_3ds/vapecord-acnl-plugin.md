@@ -10,9 +10,9 @@ description: Animal Crossing NL Vapecord Public Plugin WIP
 download_page: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases
 downloads:
   Vapecord.Public.zip:
-    size: 4377631
+    size: 4465796
     size_str: 4 MiB
-    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v3.1.0/Vapecord.Public.zip
+    url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v3.2.0/Vapecord.Public.zip
 github: RedShyGuy/Vapecord-ACNL-Plugin
 image: https://avatars.githubusercontent.com/u/43783060?v=4&size=128
 image_length: 4199
@@ -26,42 +26,51 @@ systems:
 title: Vapecord-ACNL-Plugin
 update_notes: '<h1 dir="auto">New Version out now!</h1>
 
-  <h2 dir="auto">New Features:</h2>
+  <p dir="auto">This new version doesn''t have a lot of new features, but it does
+  improve the user experience a ton. Also fixed many bugs.</p>
 
-  <h3 dir="auto">Chat Translation</h3>
-
-  <p dir="auto">This allows you to auto translate chat messages to the desired language.
-  It can also translate your own messages in to a desired language. Huge thanks to
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Pienco/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Pienco">@Pienco</a>
-  for this cheat.</p>
-
-  <h3 dir="auto">Fish Thrower at other Players &amp; Give other Players fish</h3>
-
-  <p dir="auto">This allows you to throw fish at other players and also give other
-  players fish into their hands.<br>
-
-  Huge thanks to <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Pienco/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Pienco">@Pienco</a>
-  for this cheat.</p>
-
-  <h3 dir="auto">Items Don''t Disappear Upgrade</h3>
-
-  <p dir="auto">This cheat now also keeps trees, bushes and all other seed items from
-  disappearing if placed on invalid positions.<br>
-
-  Saplings also won''t ever wilt now, this means palm trees can be planted everywhere,
-  same goes to cedar trees for example.</p>
-
-  <h2 dir="auto">Other Minor Features</h2>
+  <h2 dir="auto">Changes</h2>
 
   <ul dir="auto">
 
-  <li>Saved Active Cheats will from now on not shift anymore if updating to a new
-  plugin version</li>
+  <li>Option Entries (The cheats with the cog symbol) now save the selected option
+  when exiting the plugin (also auto enables them)</li>
 
-  <li>Improved Anti Animation to also block facial changes like eye color change or
-  hair color change (thanks to Gokiro)</li>
+  <li>Added a more intuitive OK Button to CTRPF qwerty and numeric keyboards (Important!,
+  if you don''t like this change, you can revert it in the Tool Settings of the plugin!).
+  This feature also reworks the enter button on qwerty keyboards to actually set a
+  new line.</li>
+
+  <li>Rewrote many cheat names, cheat descriptions, etc. to be more intuitive, understandable
+  and give a better experience. This might confuse some users, just dig through the
+  plugin and learn how the cheats are now named. Those new strings are less confusing,
+  and more user friendly.</li>
+
+  <li>Added many new prompts and notifications to cheats to make it more clear on
+  what is happening. For example, prompts to tell you that certain actions might delete
+  items in your inventory, or override your outfit</li>
+
+  <li>Item Spawner (previously Text to Item) now doesn''t replace the first item in
+  your inventory but spawns it in a free slot</li>
+
+  <li>Reworked the flow of a lot of cheats to make them easier to use</li>
+
+  <li>Replaced the Keyboard Symbol on the bottom screen of cog cheats to also be a
+  cog, making it more easy to understand what the button does</li>
+
+  <li>Moved a few cheats to different folders to have them themed properly</li>
+
+  <li>Reworked the rendering of text in message boxes, keyboards and such to properly
+  break a word into a new line, instead of splitting the word in half</li>
+
+  <li>Search Items by Name now lets you scroll through the results instead of saying
+  too many results</li>
+
+  <li>Added new Coordinate Control Cheat that uses the C-Stick on the New3DS (Obviously
+  only available for people using the New3DS/New2DS) (Thanks to <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/FoofooTheGuy/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/FoofooTheGuy">@FoofooTheGuy</a>
+  for creating this)</li>
 
   </ul>
 
@@ -69,35 +78,22 @@ update_notes: '<h1 dir="auto">New Version out now!</h1>
 
   <ul dir="auto">
 
-  <li>Catalog To Pocket fixed</li>
+  <li>Fixed Freeze Grass State being broken in USA WA Version (Visually breaking player
+  houses)</li>
 
-  <li>Custom Buttons Pay Debt fixed</li>
+  <li>Fixed Grass Editor crashing when using</li>
 
-  <li>Fixed broken \n in the language files</li>
+  <li>Fixed Entries/Folders turning white when adding them to favorites</li>
 
-  <li>Changing the language while playing won''t show the wrong language folder name
-  anymore if clicked on the info of a cheat</li>
+  <li>Fixed Inventory Pop-up Buttons (previously named Custom Inventory Buttons) freezing
+  the game</li>
 
-  </ul>
+  <li>Fixed Inventory Pop-up Buttons (previously named Custom Inventory Buttons) not
+  showing the Quit Button</li>
 
-  <h2 dir="auto">Minor Changes</h2>
+  <li>Fixed Camera Mod not turning off properly when turning the cheat off</li>
 
-  <ul dir="auto">
-
-  <li>Fast Mode now doesn''t use hotkeys anymore</li>
-
-  <li>Renamed CTRPFData.bin to CTRPFVapecordData.bin (for future compability)</li>
-
-  <li>OSD Notify now only shows 12 messages at once to not overflow, also now shows
-  the newest message on the bottom</li>
-
-  <li>Moved Keyboard Extender, Custom Keyboard Symbols and More Than 3 Numbers to
-  Chat Codes Folder</li>
-
-  <li>The Project Source Code now has a more modern directory structure</li>
-
-  <li>The plugin now uses a custom <a href="https://gitlab.com/RedShyGuy/ctr-plugin-framework-for-vapecord"
-  rel="nofollow">LibCTRPF</a></li>
+  <li>Fixed Favorites and Hotkeys not properly migrating in a new plugin version</li>
 
   </ul>
 
@@ -109,8 +105,8 @@ update_notes: '<h1 dir="auto">New Version out now!</h1>
 
   If you encounter any bugs feel free to report them on the official <a href="https://discord.gg/QwqdBpKWf3"
   rel="nofollow">Vapecord Discord Server</a>.</p>'
-updated: '2026-03-05T14:34:22Z'
-version: v3.1.0
-version_title: ACNL Vapecord Public Plugin [v.3.1.0]
+updated: '2026-03-13T19:19:33Z'
+version: v3.2.0
+version_title: ACNL Vapecord Public Plugin [v.3.2.0]
 wiki: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/wiki
 ---
