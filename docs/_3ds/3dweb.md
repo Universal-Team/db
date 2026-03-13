@@ -25,90 +25,29 @@ layout: app
 license: mit
 license_name: MIT License
 prerelease:
-  download_page: https://github.com/WLHQ/3DWEB/releases/tag/v1.0.2b
+  download_page: https://github.com/WLHQ/3DWEB/releases/tag/v1.0.2.1b
   downloads:
-    3DWEB.3dsx:
-      size: 221448
-      size_str: 216 KiB
-      url: https://github.com/WLHQ/3DWEB/releases/download/v1.0.2b/3DWEB.3dsx
-    3DWEB.cia:
-      size: 705984
+    3DWEB-1.0.2.1b.3dsx:
+      size: 222376
+      size_str: 217 KiB
+      url: https://github.com/WLHQ/3DWEB/releases/download/v1.0.2.1b/3DWEB-1.0.2.1b.3dsx
+    3DWEB-1.0.2.1b.cia:
+      size: 706496
       size_str: 689 KiB
-      url: https://github.com/WLHQ/3DWEB/releases/download/v1.0.2b/3DWEB.cia
+      url: https://github.com/WLHQ/3DWEB/releases/download/v1.0.2.1b/3DWEB-1.0.2.1b.cia
   qr:
-    3DWEB.cia: https://db.universal-team.net/assets/images/qr/prerelease/3dweb-cia.png
-  update_notes: '<h2 dir="auto">What''s Changed</h2>
+    3DWEB-1.0.2.1b.cia: https://db.universal-team.net/assets/images/qr/prerelease/3dweb-1-0-2-1b-cia.png
+  update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link"
+    href="https://github.com/WLHQ/3DWEB/compare/v1.0.1...v1.0.2.1b"><tt>v1.0.1...v1.0.2.1b</tt></a></p>
 
-    <ul dir="auto">
-
-    <li>Update Preparation for Upstream by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/WLHQ/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/WLHQ">@WLHQ</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3934407565" data-permission-text="Title is private" data-url="https://github.com/WLHQ/3DWEB/issues/2"
-    data-hovercard-type="pull_request" data-hovercard-url="/WLHQ/3DWEB/pull/2/hovercard"
-    href="https://github.com/WLHQ/3DWEB/pull/2">#2</a></li>
-
-    <li>Experimental Update by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/WLHQ/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/WLHQ">@WLHQ</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="3942816223" data-permission-text="Title is private" data-url="https://github.com/WLHQ/3DWEB/issues/3"
-    data-hovercard-type="pull_request" data-hovercard-url="/WLHQ/3DWEB/pull/3/hovercard"
-    href="https://github.com/WLHQ/3DWEB/pull/3">#3</a></li>
-
-    <li>3DWEB Experimental Update by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/WLHQ/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/WLHQ">@WLHQ</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4020548282" data-permission-text="Title is private" data-url="https://github.com/WLHQ/3DWEB/issues/4"
-    data-hovercard-type="pull_request" data-hovercard-url="/WLHQ/3DWEB/pull/4/hovercard"
-    href="https://github.com/WLHQ/3DWEB/pull/4">#4</a></li>
-
-    <li>Sync to Experimental by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/WLHQ/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/WLHQ">@WLHQ</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4031409921" data-permission-text="Title is private" data-url="https://github.com/WLHQ/3DWEB/issues/5"
-    data-hovercard-type="pull_request" data-hovercard-url="/WLHQ/3DWEB/pull/5/hovercard"
-    href="https://github.com/WLHQ/3DWEB/pull/5">#5</a></li>
-
-    </ul>
-
-    <h2 dir="auto">New Contributors</h2>
-
-    <ul dir="auto">
-
-    <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/WLHQ/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/WLHQ">@WLHQ</a>
-    made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-    to load title" data-id="3934407565" data-permission-text="Title is private" data-url="https://github.com/WLHQ/3DWEB/issues/2"
-    data-hovercard-type="pull_request" data-hovercard-url="/WLHQ/3DWEB/pull/2/hovercard"
-    href="https://github.com/WLHQ/3DWEB/pull/2">#2</a></li>
-
-    </ul>
-
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/WLHQ/3DWEB/compare/v1.0.1...v1.0.2b"><tt>v1.0.1...v1.0.2b</tt></a></p>'
-  update_notes_md: '## What''s Changed
-
-    * Update Preparation for Upstream by @WLHQ in https://github.com/WLHQ/3DWEB/pull/2
-
-    * Experimental Update by @WLHQ in https://github.com/WLHQ/3DWEB/pull/3
-
-    * 3DWEB Experimental Update by @WLHQ in https://github.com/WLHQ/3DWEB/pull/4
-
-    * Sync to Experimental by @WLHQ in https://github.com/WLHQ/3DWEB/pull/5
+    <p dir="auto">Bug fixes, performance improvements &amp; MIME types support.</p>'
+  update_notes_md: '**Full Changelog**: https://github.com/WLHQ/3DWEB/compare/v1.0.1...v1.0.2.1b
 
 
-    ## New Contributors
-
-    * @WLHQ made their first contribution in https://github.com/WLHQ/3DWEB/pull/2
-
-
-    **Full Changelog**: https://github.com/WLHQ/3DWEB/compare/v1.0.1...v1.0.2b'
-  updated: '2026-03-06T01:32:43Z'
-  version: v1.0.2b
-  version_title: v1.0.2b
+    Bug fixes, performance improvements & MIME types support.'
+  updated: '2026-03-13T00:20:05Z'
+  version: v1.0.2.1b
+  version_title: v1.0.2.1b
 qr:
   3DWEB.cia: https://db.universal-team.net/assets/images/qr/3dweb-cia.png
 source: https://github.com/WLHQ/3DWEB
