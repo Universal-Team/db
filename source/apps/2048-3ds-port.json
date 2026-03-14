@@ -1,0 +1,13 @@
+{
+	"github": "0rientd/2048-port-3ds",
+	"title": "2048 - 3DS Port",
+	"description": "This is a 3DS version of the game 2048, originally created for Linux.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/0rientd/2048-port-3ds/main/2048-3ds-port-icon.png",
+	"long_description": "This project is an unofficial Nintendo 3DS port of the excellent 2048.c implementation by Maurits van der Schee.\nThe original game is a minimalist implementation of the popular 2048 puzzle for Linux terminals, and now you can play it on your 3DS console!\n\n✨ Features\n    🎯 Faithful gameplay to the original\n    💾 Score system\n    🎮 Native 3DS controls\n    ⚡ Optimized performance\n    📱 Interface adapted for 3DS screens\n"
+}
