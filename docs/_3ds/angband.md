@@ -107,7 +107,7 @@ prerelease:
   version: 4.2.6-70-gbd15a52b0
   version_title: 4.2.6-70-gbd15a52b0
 source: https://github.com/angband/angband
-stars: 1496
+stars: 1498
 systems:
 - 3DS
 - DS

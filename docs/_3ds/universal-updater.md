@@ -28,22 +28,20 @@ nightly:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 2963400
+      size: 2977448
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
-      size: 2438080
+      size: 2454464
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: <p dir="auto">Pk11 - Use SSL CA cert bundle from SD card, offer to
-    download it or disable SSL verification on failure</p>
-  update_notes_md: Pk11 - Use SSL CA cert bundle from SD card, offer to download it
-    or disable SSL verification on failure
-  updated: '2026-03-06T07:05:27Z'
+  update_notes: <p dir="auto">TWLBot - Automatic translation import</p>
+  update_notes_md: TWLBot - Automatic translation import
+  updated: '2026-03-15T02:01:41Z'
   version: git
-  version_title: Continuous Build - c5e62d6
+  version_title: Continuous Build - 0e977c2
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
@@ -84,7 +82,7 @@ screenshots:
 - description: Store selection
   url: https://db.universal-team.net/assets/images/screenshots/universal-updater/store-selection.png
 source: https://github.com/Universal-Team/Universal-Updater
-stars: 1159
+stars: 1161
 systems:
 - 3DS
 title: Universal-Updater
