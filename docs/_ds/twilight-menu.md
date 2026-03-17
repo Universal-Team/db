@@ -8,7 +8,39 @@ color_bg: '#464061'
 created: '2017-05-06T05:28:36Z'
 description: DSi Menu replacement for DS/DSi/3DS/2DS
 download_page: https://github.com/DS-Homebrew/TWiLightMenu/releases
-downloads: {}
+downloads:
+  AddOn-BetterDSiMenuMusic.7z:
+    size: 22208058
+    size_str: 21 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.23.0/AddOn-BetterDSiMenuMusic.7z
+  AddOn-ExtraUIMusic.7z:
+    size: 8420942
+    size_str: 8 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.23.0/AddOn-ExtraUIMusic.7z
+  AddOn-Multimedia.7z:
+    size: 806008
+    size_str: 787 KiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.23.0/AddOn-Multimedia.7z
+  AddOn-VirtualConsole.7z:
+    size: 3741320
+    size_str: 3 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.23.0/AddOn-VirtualConsole.7z
+  TWiLightMenu-3DS.7z:
+    size: 29260861
+    size_str: 27 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.23.0/TWiLightMenu-3DS.7z
+  TWiLightMenu-DSi.7z:
+    size: 29285853
+    size_str: 27 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.23.0/TWiLightMenu-DSi.7z
+  TWiLightMenu-Flashcard.7z:
+    size: 40799431
+    size_str: 38 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.23.0/TWiLightMenu-Flashcard.7z
+  TWiLightMenu.7z:
+    size: 72205607
+    size_str: 68 MiB
+    url: https://github.com/DS-Homebrew/TWiLightMenu/releases/download/v27.23.0/TWiLightMenu.7z
 github: DS-Homebrew/TWiLightMenu
 icon: https://raw.githubusercontent.com/DS-Homebrew/TWiLightMenu/master/booter/Twilight%2B%2B-animated%20icon-fix.gif
 icon_static: https://db.universal-team.net/assets/images/icons/twilight-menu.png
@@ -39,12 +71,21 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   </ul>
 
+  <h3 dir="auto">Add-on update</h3>
+
+  <ul dir="auto">
+
+  <li><strong>Virtual Console:</strong> Updated NitroGrafx.</li>
+
+  </ul>
+
   <h3 dir="auto">What''s new?</h3>
 
   <ul dir="auto">
 
-  <li>Added support for reading <code class="notranslate">banner.sav</code> files
-  (named as <code class="notranslate">romname.bnr</code>) from the current save path.</li>
+  <li>Added support for reading DSiWare <code class="notranslate">banner.sav</code>
+  files (named as <code class="notranslate">romname.bnr</code>) from the current save
+  path.</li>
 
   <li>Moved <code class="notranslate">snemul.cfg</code> to the Virtual Console add-on.</li>
 
