@@ -30,39 +30,29 @@ nightly:
   download_page: https://github.com/Universal-Team/pkmn-chest/releases/tag/git
   downloads:
     pkmn-chest.cia:
-      size: 6844672
+      size: 6843648
       size_str: 6 MiB
       url: https://github.com/Universal-Team/pkmn-chest/releases/download/git/pkmn-chest.cia
     pkmn-chest.dsi:
-      size: 6830080
+      size: 6829056
       size_str: 6 MiB
       url: https://github.com/Universal-Team/pkmn-chest/releases/download/git/pkmn-chest.dsi
     pkmn-chest.nds:
-      size: 6830080
+      size: 6829056
       size_str: 6 MiB
       url: https://github.com/Universal-Team/pkmn-chest/releases/download/git/pkmn-chest.nds
   qr:
     pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/git/pkmn-chest-cia.png
     pkmn-chest.dsi: https://db.universal-team.net/assets/images/qr/git/pkmn-chest-dsi.png
     pkmn-chest.nds: https://db.universal-team.net/assets/images/qr/git/pkmn-chest-nds.png
-  update_notes: '<p dir="auto">Edoardo Lolletti - Port to blocksds (<a class="issue-link
-    js-issue-link" data-error-text="Failed to load title" data-id="4035432617" data-permission-text="Title
-    is private" data-url="https://github.com/Universal-Team/pkmn-chest/issues/100"
-    data-hovercard-type="pull_request" data-hovercard-url="/Universal-Team/pkmn-chest/pull/100/hovercard"
-    href="https://github.com/Universal-Team/pkmn-chest/pull/100">#100</a>)</p>
-
-    <ul dir="auto">
-
-    <li>port to blocksds</li>
-
-    </ul>'
-  update_notes_md: 'Edoardo Lolletti - Port to blocksds (#100)
+  update_notes: <p dir="auto">Edoardo Lolletti - fix another oob access</p>
+  update_notes_md: 'Edoardo Lolletti - fix another oob access
 
 
-    * port to blocksds'
-  updated: '2026-03-06T18:22:40Z'
+    '
+  updated: '2026-03-17T18:52:56Z'
   version: git
-  version_title: Continuous Build - d0b6d4d
+  version_title: Continuous Build - a847bb6
 qr:
   pkmn-chest.cia: https://db.universal-team.net/assets/images/qr/pkmn-chest-cia.png
   pkmn-chest.nds: https://db.universal-team.net/assets/images/qr/pkmn-chest-nds.png
