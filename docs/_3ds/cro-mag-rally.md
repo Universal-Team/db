@@ -12,7 +12,7 @@ downloads:
   CroMagRally.3dsx:
     size: 95645400
     size_str: 91 MiB
-    url: https://github.com/fordcars/CroMagRally/releases/download/3ds-v1.1.0/CroMagRally.3dsx
+    url: https://github.com/carrotcreamsoup/CroMagRally/releases/download/3ds-v1.1.0/CroMagRally.3dsx
 github: fordcars/CroMagRally
 icon: https://raw.githubusercontent.com/fordcars/CroMagRally/3ds-support/packaging/io.jor.cromagrally-alternateicon.png
 image: https://raw.githubusercontent.com/fordcars/CroMagRally/3ds-support/docs/3ds_race.png
@@ -29,15 +29,14 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/cro-mag-rally/race-3.png
 - description: Race 4
   url: https://db.universal-team.net/assets/images/screenshots/cro-mag-rally/race-4.png
-source: https://github.com/fordcars/CroMagRally
+source: https://github.com/carrotcreamsoup/CroMagRally
 stars: 5
 systems:
 - 3DS
 title: Cro-Mag Rally
-update_notes: '<p dir="auto">This update brings many improvements over the initial
-  release, mostly:</p>
+update_notes: '<p>This update brings many improvements over the initial release, mostly:</p>
 
-  <ul dir="auto">
+  <ul>
 
   <li>Performance improvements</li>
 
@@ -51,9 +50,9 @@ update_notes: '<p dir="auto">This update brings many improvements over the initi
 
   </ul>
 
-  <h3 dir="auto">Note:</h3>
+  <h3>Note:</h3>
 
-  <p dir="auto">DSP firmware must be present at <code class="notranslate">sdmc:/3ds/dspfirm.cdc</code>.
+  <p>DSP firmware must be present at <code class="notranslate">sdmc:/3ds/dspfirm.cdc</code>.
   This can be obtained by using <a href="https://github.com/LumaTeam/Luma3DS">Luma3DS</a>
   - select "Miscellaneous options..." in the Rosalina menu then "Dump DSP firmware"
   from there. If running on an emulator, you can simply copy an empty file named <code

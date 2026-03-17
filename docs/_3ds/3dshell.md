@@ -29,7 +29,7 @@ screenshots:
 - description: Settings
   url: https://db.universal-team.net/assets/images/screenshots/3dshell/settings.png
 source: https://github.com/joel16/3DShell
-stars: 338
+stars: 339
 systems:
 - 3DS
 title: 3DShell

@@ -12,7 +12,7 @@ downloads:
   Bugdom.3dsx:
     size: 37538584
     size_str: 35 MiB
-    url: https://github.com/fordcars/Bugdom/releases/download/v1.0.0/Bugdom.3dsx
+    url: https://github.com/carrotcreamsoup/Bugdom/releases/download/v1.0.0/Bugdom.3dsx
 github: fordcars/Bugdom
 icon: https://raw.githubusercontent.com/fordcars/Bugdom/refs/heads/3ds-new-port/packaging/Bugdom128.png
 image: https://raw.githubusercontent.com/fordcars/Bugdom/refs/heads/3ds-new-port/docs/3ds/lawn_top_screen.png
@@ -29,30 +29,30 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/bugdom/game-3.png
 - description: Game 4
   url: https://db.universal-team.net/assets/images/screenshots/bugdom/game-4.png
-source: https://github.com/fordcars/Bugdom
+source: https://github.com/carrotcreamsoup/Bugdom
 stars: 3
 systems:
 - 3DS
 title: Bugdom
-update_notes: '<p dir="auto">This is the inital release of Bugdom 3DS!</p>
+update_notes: '<p>This is the inital release of Bugdom 3DS!</p>
 
-  <h2 dir="auto">Installation</h2>
+  <h2>Installation</h2>
 
-  <p dir="auto">Simply download the 3dsx file and place on your SD card in the <code
-  class="notranslate">3ds</code> directory.</p>
+  <p>Simply download the 3dsx file and place on your SD card in the <code class="notranslate">3ds</code>
+  directory.</p>
 
-  <h3 dir="auto">Note:</h3>
+  <h3>Note:</h3>
 
-  <p dir="auto">DSP firmware must be present at <code class="notranslate">sdmc:/3ds/dspfirm.cdc</code>.
+  <p>DSP firmware must be present at <code class="notranslate">sdmc:/3ds/dspfirm.cdc</code>.
   This can be obtained with <a href="https://github.com/LumaTeam/Luma3DS">Luma3DS</a>—simply
   select "Miscellaneous options..." in the Rosalina menu, then "Dump DSP firmware"
   from there. If running on an emulator, you can simply copy an empty file named <code
   class="notranslate">dspfirm.cdc</code> to a folder named <code class="notranslate">3ds</code>
   on your virtual SD card.</p>
 
-  <h2 dir="auto">Known issues:</h2>
+  <h2>Known issues:</h2>
 
-  <ul dir="auto">
+  <ul>
 
   <li>Long loading times</li>
 
