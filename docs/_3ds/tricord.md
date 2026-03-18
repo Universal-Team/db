@@ -41,7 +41,7 @@ script_message: This project is developed for educational purposes only. This is
   no responsibility for any damages, data loss, or Discord ToS violations resulting
   from the use of this software.
 source: https://github.com/2b-zipper/TriCord
-stars: 60
+stars: 61
 systems:
 - 3DS
 title: TriCord

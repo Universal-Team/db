@@ -28,7 +28,7 @@ script_message: 'Warning: If you are caught cheating
 
   every Pretendo Network service.'
 source: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe
-stars: 5
+stars: 6
 systems:
 - 3DS
 title: MK7 Plugin DX
