@@ -25,8 +25,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto"><strong>UPDATE 2/14/2026:</strong> Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.14.0">nds-bootstrap
-  v2.14.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.15.0">nds-bootstrap
+  v2.15.0</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -58,20 +58,14 @@ update_notes: '<p dir="auto"><strong>UPDATE 2/14/2026:</strong> Includes <a href
 
   <ul dir="auto">
 
-  <li><strong>DSi:</strong> <code class="notranslate">sd:/hiya.dsi</code> is now set
-  as the <code class="notranslate">QUIT_PATH</code> setting in <code class="notranslate">nds-bootstrap.ini</code>
-  if hiyaCFW is installed.</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug fix</h3>
-
-  <ul dir="auto">
-
-  <li><strong>3DS:</strong> Fixed widescreen cheats not applying for some games.</li>
+  <li>Added support for reading DSiWare <code class="notranslate">banner.sav</code>
+  files (named as <code class="notranslate">romname.bnr</code>) from the current save
+  path. Though the <code class="notranslate">banner.sav</code> icon will not display
+  on forwarders, this feature was implemented for compatibility with the DSiWare titles
+  which support writing to <code class="notranslate">banner.sav</code>.</li>
 
   </ul>'
-updated: '2026-01-25T01:31:26Z'
-version: SD-27
-version_title: 'GitHub Release #27'
+updated: '2026-03-17T22:34:22Z'
+version: SD-28
+version_title: 'GitHub Release #28'
 ---
