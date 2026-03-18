@@ -153,7 +153,7 @@ prerelease:
 qr:
   Checkpoint.cia: https://db.universal-team.net/assets/images/qr/checkpoint-cia.png
 source: https://github.com/BernardoGiordano/Checkpoint
-stars: 2900
+stars: 2901
 systems:
 - 3DS
 title: Checkpoint

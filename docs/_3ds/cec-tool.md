@@ -33,7 +33,7 @@ systems:
 title: CEC Tool
 unique_ids:
 - '0xF6575'
-update_notes: <p data-sourcepos="1:1-1:15" dir="auto">Initial release</p>
+update_notes: Initial release
 updated: '2025-10-31T17:25:40.460Z'
 version: v0.1.0
 version_title: v0.1.0
