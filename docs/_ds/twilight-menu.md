@@ -124,7 +124,7 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
   </ul>'
 updated: '2026-03-17T22:25:53Z'
 version: v27.23.0
-version_title: v27.23.0
+version_title: 'v27.23.0: St. Patrick''s Day ☘️ Release'
 website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---

@@ -168,7 +168,7 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
   </ul>'
 updated: '2026-03-17T22:03:17Z'
 version: v2.15.0
-version_title: v2.15.0
+version_title: 'v2.15.0: St. Patrick''s Day ☘️ Release'
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
