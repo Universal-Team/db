@@ -116,7 +116,10 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li>Due to memory limitations, audio will not play.</li>
+  <li>Previously only booted on debug DS consoles.</li>
+
+  <li>Due to memory limitations, audio will not play (but will still play on debug
+  consoles).</li>
 
   <li>For sound effects to play, you''ll need to insert the Memory Expansion Pak.</li>
 
