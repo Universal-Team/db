@@ -25,6 +25,71 @@ image_length: 92320
 layout: app
 license: other
 license_name: Other
+prerelease:
+  download_page: https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-fa3659
+  downloads:
+    OoT3D_Randomizer.3dsx:
+      size: 6046472
+      size_str: 5 MiB
+      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-fa3659/OoT3D_Randomizer.3dsx
+    OoT3D_Randomizer.cia:
+      size: 4375488
+      size_str: 4 MiB
+      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-fa3659/OoT3D_Randomizer.cia
+  qr:
+    OoT3D_Randomizer.cia: https://db.universal-team.net/assets/images/qr/prerelease/oot3d_randomizer-cia.png
+  update_notes: '<p dir="auto">Please note that these are DEVELOPMENT builds and may
+    not be entirely stable.<br>
+
+    When reporting issues, please mention the six character commit listed in the randomizer
+    menu.<br>
+
+    You can use the FBI homebrew application to install the randomizer using either
+    of these QR codes.<br>
+
+    CIA QR Code:<br>
+
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-fa3659/cia.png"><img
+    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-fa3659/cia.png"
+    alt="CIA Download" style="max-width: 100%;"></a><br>
+
+    3DSX QR Code:<br>
+
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-fa3659/3dsx.png"><img
+    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-fa3659/3dsx.png"
+    alt="CIA Download" style="max-width: 100%;"></a></p>
+
+    <p dir="auto">Changes Since <a href="https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-ffbac7">Nightly-ffbac7</a>
+    🛠:</p>
+
+    <ul dir="auto">
+
+    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/fa3659d2cf269cfd12ba48b9a9448050258cb838">fa3659d2</a>
+    - Update Multiplayer Full Sync (<a class="issue-link js-issue-link" data-error-text="Failed
+    to load title" data-id="4091768017" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/805"
+    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/805/hovercard"
+    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/805">#805</a>)</li>
+
+    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/41c41033200a459cf02ac76b896e43b885c248ca">41c41033</a>
+    - Update and separate French localizations (<a class="issue-link js-issue-link"
+    data-error-text="Failed to load title" data-id="4075705332" data-permission-text="Title
+    is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/804"
+    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/804/hovercard"
+    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/804">#804</a>)</li>
+
+    </ul>'
+  update_notes_md: "Please note that these are DEVELOPMENT builds and may not be entirely\
+    \ stable.\nWhen reporting issues, please mention the six character commit listed\
+    \ in the randomizer menu.\nYou can use the FBI homebrew application to install\
+    \ the randomizer using either of these QR codes.\nCIA QR Code:\n![CIA Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-fa3659/cia.png)\n\
+    3DSX QR Code:\n![CIA Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-fa3659/3dsx.png)\n\
+    \nChanges Since [Nightly-ffbac7](https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-ffbac7)\
+    \ \U0001F6E0:  \n- [fa3659d2](http://github.com/gamestabled/OoT3D_Randomizer/commit/fa3659d2cf269cfd12ba48b9a9448050258cb838)\
+    \ - Update Multiplayer Full Sync (#805)\n- [41c41033](http://github.com/gamestabled/OoT3D_Randomizer/commit/41c41033200a459cf02ac76b896e43b885c248ca)\
+    \ - Update and separate French localizations (#804)"
+  updated: '2026-03-19T20:02:21Z'
+  version: Nightly-fa3659
+  version_title: Nightly-fa3659
 qr:
   OoT3D_Randomizer.cia: https://db.universal-team.net/assets/images/qr/oot3d_randomizer-cia.png
 source: https://github.com/gamestabled/OoT3D_Randomizer
