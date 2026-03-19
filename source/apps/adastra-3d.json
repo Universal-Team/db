@@ -1,0 +1,16 @@
+{
+	"github": "KrisTheDog/ADASTRA3D-for-3ds",
+	"title": "Adastra 3D",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/KrisTheDog/ADASTRA3D-for-3ds/refs/heads/main/incon.png",
+	"image": "https://raw.githubusercontent.com/KrisTheDog/ADASTRA3D-for-3ds/refs/heads/main/banner.png",
+	"script_message": "This app is only compatible with \"New\" Nintendo 3DS models.",
+	"unique_ids": [
+		106968
+	]
+}
