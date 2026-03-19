@@ -10,9 +10,9 @@ description: This is a 3DS version of the game 2048, originally created for Linu
 download_page: https://github.com/0rientd/2048-port-3ds/releases
 downloads:
   2048-port-3ds.3dsx:
-    size: 129376
-    size_str: 126 KiB
-    url: https://github.com/0rientd/2048-port-3ds/releases/download/v1.0.1/2048-port-3ds.3dsx
+    size: 136500
+    size_str: 133 KiB
+    url: https://github.com/0rientd/2048-port-3ds/releases/download/v1.1.1/2048-port-3ds.3dsx
 github: 0rientd/2048-port-3ds
 icon: https://raw.githubusercontent.com/0rientd/2048-port-3ds/main/2048-3ds-port-icon.png
 image: https://raw.githubusercontent.com/0rientd/2048-port-3ds/main/2048-3ds-port-icon.png
@@ -25,12 +25,35 @@ stars: 1
 systems:
 - 3DS
 title: 2048 - 3DS Port
-update_notes: '<p dir="auto">A simple update to add icon to the port</p>
+update_notes: '<p dir="auto">Codebase was refactored and was introduced Leaderboards
+  for record your points!</p>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/0rientd/2048-port-3ds/compare/v1.0.0...v1.0.1"><tt>v1.0.0...v1.0.1</tt></a></p>'
-updated: '2026-03-12T14:06:39Z'
-version: v1.0.1
-version_title: Added the icon to the homebrew port
+  <h2 dir="auto">What''s Changed</h2>
+
+  <ul dir="auto">
+
+  <li>Implement 2048 game for Nintendo 3DS with UI and leaderboard by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/0rientd/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/0rientd">@0rientd</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4104321331"
+  data-permission-text="Title is private" data-url="https://github.com/0rientd/2048-port-3ds/issues/2"
+  data-hovercard-type="pull_request" data-hovercard-url="/0rientd/2048-port-3ds/pull/2/hovercard"
+  href="https://github.com/0rientd/2048-port-3ds/pull/2">#2</a></li>
+
+  <li>Update game version to 1.1.1 and adjust README badges by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/0rientd/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/0rientd">@0rientd</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4104352852"
+  data-permission-text="Title is private" data-url="https://github.com/0rientd/2048-port-3ds/issues/3"
+  data-hovercard-type="pull_request" data-hovercard-url="/0rientd/2048-port-3ds/pull/3/hovercard"
+  href="https://github.com/0rientd/2048-port-3ds/pull/3">#3</a></li>
+
+  </ul>
+
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/0rientd/2048-port-3ds/compare/v1.0.1...v1.1.1"><tt>v1.0.1...v1.1.1</tt></a></p>'
+updated: '2026-03-19T21:43:32Z'
+version: v1.1.1
+version_title: Introduces Leaderboard
 ---
 This project is an unofficial Nintendo 3DS port of the excellent 2048.c implementation by Maurits van der Schee.
 The original game is a minimalist implementation of the popular 2048 puzzle for Linux terminals, and now you can play it on your 3DS console!
