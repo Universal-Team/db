@@ -25,7 +25,7 @@ screenshots:
 - description: Canvas
   url: https://db.universal-team.net/assets/images/screenshots/doodle/canvas.png
 source: https://github.com/ArmstrongThomas/Doodle
-stars: 5
+stars: 6
 systems:
 - 3DS
 title: Doodle
