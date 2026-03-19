@@ -10,13 +10,13 @@ description: Discord client for Nintendo 3DS
 download_page: https://github.com/2b-zipper/TriCord/releases
 downloads:
   TriCord.3dsx:
-    size: 7224288
-    size_str: 6 MiB
-    url: https://github.com/2b-zipper/TriCord/releases/download/v0.3.5/TriCord.3dsx
+    size: 7775284
+    size_str: 7 MiB
+    url: https://github.com/2b-zipper/TriCord/releases/download/v0.4.0/TriCord.3dsx
   TriCord.cia:
-    size: 6771648
+    size: 7291840
     size_str: 6 MiB
-    url: https://github.com/2b-zipper/TriCord/releases/download/v0.3.5/TriCord.cia
+    url: https://github.com/2b-zipper/TriCord/releases/download/v0.4.0/TriCord.cia
 github: 2b-zipper/TriCord
 icon: https://raw.githubusercontent.com/2b-zipper/TriCord/refs/heads/main/resources/icon.png
 image: https://raw.githubusercontent.com/2b-zipper/TriCord/refs/heads/main/resources/banner.png
@@ -49,17 +49,62 @@ unique_ids:
 - '0xD5C0D'
 update_notes: '<ul dir="auto">
 
-  <li>Added German translation by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/MorrisTheGamer/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/MorrisTheGamer">@MorrisTheGamer</a></li>
+  <li>Added Portuguese (Brazil) translation by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/wiretoscreen/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/wiretoscreen">@wiretoscreen</a></li>
 
-  <li>Fixed SSL validation errors</li>
+  <li>Added Polish translation by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/ReisuErx/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/ReisuErx">@ReisuErx</a></li>
+
+  <li>Added an emoji picker. You can now react to messages with emoji (custom emoji
+  are not supported)</li>
+
+  <li>Fixed an issue where authentication failures (e.g. after a password change)
+  would cause the app to retry indefinitely</li>
+
+  <li>Added options to toggle user avatars and server icons. Disabling these can improve
+  performance, especially on Old 3DS</li>
+
+  <li>Fixed an issue where reply handling could get stuck</li>
+
+  <li>Improved custom theme support. See the <a href="https://github.com/2b-zipper/TriCord/blob/main/THEME_FORMAT.md">Theme
+  Format Specification</a> for details</li>
+
+  <li>Fixed an issue where loading would never complete when logging in with an account
+  that has no servers</li>
+
+  <li>Fixed and improved group DM handling</li>
+
+  <li>Added the ability to log in using a token. See <a href="https://github.com/2b-zipper/TriCord#login-methods">Login
+  Methods</a> for details</li>
+
+  <li>Enabled symbol input on the login screen keyboard</li>
+
+  <li>Added access to the Settings screen from the initial login screen</li>
+
+  <li>Added warning message to the bottom of the loading screen</li>
+
+  <li>Added hidden Developer Options (see the <a href="https://github.com/2b-zipper/TriCord#i-cannot-log-in-with-the-error-failed-to-exchange-ticket-or-login-failed-login-failed-0">FAQ</a>
+  for how to reveal them). Please note that bug reports and support requests regarding
+  settings within Developer Options will not be accepted
+
+  <ul dir="auto">
+
+  <li>Added an SSL Verification toggle within Developer Options. This may help bypass
+  certain login errors, but lowers security — use at your own risk</li>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/2b-zipper/TriCord/compare/v0.3.4...v0.3.5"><tt>v0.3.4...v0.3.5</tt></a></p>'
-updated: '2026-03-05T13:41:35Z'
-version: v0.3.5
-version_title: v0.3.5
+  </li>
+
+  <li>Other UI improvements</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/2b-zipper/TriCord/compare/v0.3.5...v0.4.0"><tt>v0.3.5...v0.4.0</tt></a></p>'
+updated: '2026-03-19T16:10:26Z'
+version: v0.4.0
+version_title: v0.4.0
 ---
 Please see below for details: https://github.com/2b-zipper/TriCord/blob/main/README.md
