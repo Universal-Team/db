@@ -71,7 +71,7 @@ prerelease:
   version: 4.2.6-73-g1e585edfd
   version_title: 4.2.6-73-g1e585edfd
 source: https://github.com/angband/angband
-stars: 1494
+stars: 1495
 systems:
 - 3DS
 - DS
