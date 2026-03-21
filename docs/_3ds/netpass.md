@@ -27,16 +27,19 @@ license_name: GNU General Public License v3.0 or later
 qr:
   netpass.cia: https://db.universal-team.net/assets/images/qr/netpass-cia.png
 source: https://gitlab.com/3ds-netpass/netpass
-stars: 68
+stars: 69
 systems:
 - 3DS
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: " - SpotPass support\n - ImageShare support\n - Add failed auth check\n\
-  \ - Add nid-password and verify with a TOTP token\n - Store mac to nand and use\
-  \ that one\n - Respect the 3DS proxy settings and use those\n - Remove stutter of\
-  \ music"
+update_notes: <ul data-sourcepos="1:2-7:26" dir="auto">&#x000A;<li data-sourcepos="1:2-1:19">SpotPass
+  support</li>&#x000A;<li data-sourcepos="2:2-2:21">ImageShare support</li>&#x000A;<li
+  data-sourcepos="3:2-3:24">Add failed auth check</li>&#x000A;<li data-sourcepos="4:2-4:48">Add
+  nid-password and verify with a TOTP token</li>&#x000A;<li data-sourcepos="5:2-5:37">Store
+  mac to nand and use that one</li>&#x000A;<li data-sourcepos="6:2-6:47">Respect the
+  3DS proxy settings and use those</li>&#x000A;<li data-sourcepos="7:2-7:26">Remove
+  stutter of music</li>&#x000A;</ul>
 updated: '2026-03-10T17:26:05.701Z'
 version: v2.0.0
 version_title: v2.0.0
