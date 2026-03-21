@@ -22,7 +22,7 @@ qr:
   Adastra3D.cia: https://db.universal-team.net/assets/images/qr/adastra3d-cia.png
 script_message: This app is only compatible with "New" Nintendo 3DS models.
 source: https://github.com/KrisTheDog/ADASTRA3D-for-3ds
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: Adastra 3D
