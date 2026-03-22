@@ -10,13 +10,13 @@ description: SNES9x Port for 3DS / 2DS
 download_page: https://github.com/matbo87/snes9x_3ds/releases
 downloads:
   snes9x_3ds.3dsx:
-    size: 2212828
+    size: 2405472
     size_str: 2 MiB
-    url: https://github.com/matbo87/snes9x_3ds/releases/download/v1.52/snes9x_3ds.3dsx
+    url: https://github.com/matbo87/snes9x_3ds/releases/download/v1.60/snes9x_3ds.3dsx
   snes9x_3ds.cia:
-    size: 2163648
+    size: 2347968
     size_str: 2 MiB
-    url: https://github.com/matbo87/snes9x_3ds/releases/download/v1.52/snes9x_3ds.cia
+    url: https://github.com/matbo87/snes9x_3ds/releases/download/v1.60/snes9x_3ds.cia
 github: matbo87/snes9x_3ds
 icon: https://raw.githubusercontent.com/matbo87/snes9x_3ds/master/resources/icon.png
 image: https://raw.githubusercontent.com/matbo87/snes9x_3ds/master/resources/icon.png
@@ -33,23 +33,65 @@ systems:
 title: Snes9x (updated fork)
 unique_ids:
 - '0x3849'
-update_notes: '<ul dir="auto">
+update_notes: '<h2 dir="auto">Major release with deep rendering and architecture changes.</h2>
 
-  <li>Improved thread safety to prevent crashes from concurrent ROM list access</li>
+  <ul dir="auto">
 
-  <li>Enhanced shutdown stability by fixing resource cleanup issues</li>
+  <li>Migrated rendering from legacy GPU code to <code class="notranslate">citro3d</code>.</li>
 
-  <li>Added display options</li>
+  <li>Fewer draw calls via batched rendering and XOR-based packed render-state diffing.</li>
+
+  <li>SNES-accurate refresh-rate matching: when gameplay starts/resumes, 3DS LCD timing
+  is set to the game''s native SNES rate (NTSC ~60.1 Hz / PAL 50 Hz).</li>
+
+  <li>Thumbnail system rewritten: on-demand loading from cache files (faster and more
+  reliable).</li>
+
+  <li>Asset pipeline improved: 16-bit RGB565 backgrounds; decode path using a shared
+  file scratch buffer and aligned shared stream buffer to reduce heap churn/fragmentation.</li>
+
+  <li>Large code-quality pass and strict warning cleanup across frontend + core.</li>
 
   </ul>
 
-  <p dir="auto">For more information, see <a href="https://github.com/matbo87/snes9x_3ds/blob/master/CHANGELOG.md">Changelog</a></p>
+  <h3 dir="auto">Breaking changes (config/assets)</h3>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/0443bd44-c6ce-4815-84b2-f675b55a4f4f"><img
-  width="180" height="180" alt="qr code v1.52" src="https://github.com/user-attachments/assets/0443bd44-c6ce-4815-84b2-f675b55a4f4f"
+  <ul dir="auto">
+
+  <li><code class="notranslate">settings.cfg</code> may not migrate cleanly in all
+  cases; if so, defaults will be used.</li>
+
+  <li>Legacy thumbnail image folders can be deleted; only the <code class="notranslate">*.cache</code>
+  files are used now (<code class="notranslate">boxart.cache</code>, <code class="notranslate">gameplay.cache</code>,
+  <code class="notranslate">title.cache</code>).</li>
+
+  <li>Background paths changed:
+
+  <ul dir="auto">
+
+  <li><code class="notranslate">snes9x_3ds/borders</code> -&gt; <code class="notranslate">snes9x_3ds/backgrounds/game_screen</code></li>
+
+  <li><code class="notranslate">snes9x_3ds/covers</code> -&gt; <code class="notranslate">snes9x_3ds/backgrounds/second_screen</code></li>
+
+  </ul>
+
+  </li>
+
+  <li>See <a href="https://github.com/matbo87/snes9x_3ds-assets?tab=readme-ov-file">snes9x_3ds-assets
+  README</a> for full setup details and folder layout.</li>
+
+  </ul>
+
+  <p dir="auto">For more information, see <a href="https://github.com/matbo87/snes9x_3ds/blob/master/CHANGELOG.md">Changelog</a>.</p>
+
+  <p dir="auto"><em>Install snes9x_3ds.cia via FBI -&gt; Remote Install -&gt; Scan
+  QR Code</em></p>
+
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/1248945e-cf8a-46a6-b17a-a6cdc7f17c73"><img
+  width="180" height="180" alt="qr-v1 60" src="https://github.com/user-attachments/assets/1248945e-cf8a-46a6-b17a-a6cdc7f17c73"
   style="max-width: 100%; height: auto; max-height: 180px;"></a>'
-updated: '2025-08-15T08:42:42Z'
-version: v1.52
-version_title: v1.52
+updated: '2026-03-22T12:46:51Z'
+version: v1.60
+version_title: v1.60
 ---
 fork of [bubble2k's Snes9x for 3DS](https://github.com/bubble2k16/snes9x_3ds), giving you more options to enjoy your SNES game collection.
