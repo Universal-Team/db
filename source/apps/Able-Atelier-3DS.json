@@ -1,0 +1,14 @@
+{
+	"github": "Ghaztly97/Able-Atelier-3DS",
+	"title": "Able Atelier 3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"save"
+	],
+	"icon": "https://raw.githubusercontent.com/Ghaztly97/Able-Atelier-3DS/main/assets/images/AAIcon.png",
+	"image": "https://raw.githubusercontent.com/Ghaztly97/Able-Atelier-3DS/main/assets/images/AABanner.png",
+	"long_description": "Able Atelier is a tool to edit patterns made in Animal Crossing: New Leaf!\nCoded in Lua using **LÖVE Potion** (LÖVE2D for 3DS)\nThis works **ONLY** for Welcome Amiibo saves!!!"
+}
