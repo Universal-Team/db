@@ -1,0 +1,19 @@
+{
+	"github": "PeamoNetwork/peamo-nimbus",
+	"title": "Peamo-Nimbus",
+	"description": "Connect to Peamo Network services",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon": "https://raw.githubusercontent.com/PeamoNetwork/peamo-nimbus/main/app/meta/banner.png",
+	"image": "https://raw.githubusercontent.com/PeamoNetwork/peamo-nimbus/main/app/meta/icon.png",
+	"unique_ids": [
+		1023099
+	],
+	"long_description": "Peamo Network aims to build custom servers for the Wii U and 3DS family of consoles.\nPeamo-Nimbus is a fork of Nimbus which allows to connect to Peamo Network.\n\nWebsite: https://peamo-network.ixchats.com/",
+	"wiki": "https://peamo-network.ixchats.com/docs/index.html",
+	"script_message": "If you have any bugs or issues, chat in our Discord server. The invite is on our website: https://peamo-network.ixchats.com/"
+}
