@@ -12,9 +12,9 @@ description: 'A pattern editor for Animal Crossing: New Leaf that runs natively 
 download_page: https://github.com/Ghaztly97/Able-Atelier-3DS/releases
 downloads:
   AbleAtelier.3dsx:
-    size: 3507220
+    size: 3508280
     size_str: 3 MiB
-    url: https://github.com/Ghaztly97/Able-Atelier-3DS/releases/download/v1.0.1/AbleAtelier.3dsx
+    url: https://github.com/Ghaztly97/Able-Atelier-3DS/releases/download/v1.0.2/AbleAtelier.3dsx
 github: Ghaztly97/Able-Atelier-3DS
 icon: https://raw.githubusercontent.com/Ghaztly97/Able-Atelier-3DS/main/assets/images/AAIcon.png
 image: https://raw.githubusercontent.com/Ghaztly97/Able-Atelier-3DS/main/assets/images/AABanner.png
@@ -25,22 +25,13 @@ stars: 1
 systems:
 - 3DS
 title: Able Atelier 3DS
-update_notes: '<p dir="auto">Changed a few things, namely:</p>
+update_notes: '<p dir="auto">Simple update.</p>
 
-  <ul dir="auto">
-
-  <li>New Settings Menu. Will populate with more things later.</li>
-
-  <li>Double clicking transformation (Rotate, Scale, Pan) buttons on the D-Pad now
-  resets the transformation</li>
-
-  <li>Keep your SD card clean with automatic deletion of old backup files (only the
-  5 most recent will be saved from deletion if the setting is enabled)</li>
-
-  </ul>'
-updated: '2026-03-07T21:25:49Z'
-version: v1.0.1
-version_title: Able Atelier v1.0.1
+  <p dir="auto">Can now change the name of the creator of a pattern and the name of
+  the pattern while editing by clicking the purple gear.</p>'
+updated: '2026-03-23T02:15:16Z'
+version: v1.0.2
+version_title: Able Atelier 1.0.2
 ---
 Able Atelier is a tool to edit patterns made in Animal Crossing: New Leaf!
 Coded in Lua using **LÖVE Potion** (LÖVE2D for 3DS)
