@@ -1,0 +1,70 @@
+{
+	"github": "RigleGit/3dslibris",
+	"author": "Rigle",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"icon": "https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/icon-32x32.png",
+	"image": "https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/banner.png",
+	"scripts": {
+		"3dslibris.3dsx": [
+			{
+				"type": "downloadRelease",
+				"repo": "RigleGit/3dslibris",
+				"file": "3dslibris.3dsx",
+				"output": "%3DSX%/3dslibris.3dsx"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "RigleGit/3dslibris",
+				"file": "3dslibris-sdmc.zip",
+				"output": "/3dslibris-sdmc.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/3dslibris-sdmc.zip",
+				"input": "3ds",
+				"output": "/3ds"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/3dslibris-sdmc.zip"
+			}
+		],
+		"3dslibris.cia": [
+			{
+				"type": "downloadRelease",
+				"repo": "RigleGit/3dslibris",
+				"file": "3dslibris.cia",
+				"output": "/3dslibris.cia"
+			},
+			{
+				"type": "installCia",
+				"file": "/3dslibris.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/3dslibris.cia"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "RigleGit/3dslibris",
+				"file": "3dslibris-sdmc.zip",
+				"output": "/3dslibris-sdmc.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/3dslibris-sdmc.zip",
+				"input": "3ds",
+				"output": "/3ds"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/3dslibris-sdmc.zip"
+			}
+		]
+	}
+}
