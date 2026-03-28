@@ -10,9 +10,9 @@ description: Retro-styled Gemini client for the Nintendo 3DS.
 download_page: https://github.com/stefanoborra20/Gemini3DS/releases
 downloads:
   Gemini3DS.3dsx:
-    size: 1533936
+    size: 1537344
     size_str: 1 MiB
-    url: https://github.com/stefanoborra20/Gemini3DS/releases/download/v1.0/Gemini3DS.3dsx
+    url: https://github.com/stefanoborra20/Gemini3DS/releases/download/v2.0/Gemini3DS.3dsx
 github: stefanoborra20/Gemini3DS
 icon: https://raw.githubusercontent.com/stefanoborra20/Gemini3DS/main/icon.png
 image: https://raw.githubusercontent.com/stefanoborra20/Gemini3DS/main/icon.png
@@ -26,15 +26,15 @@ stars: 0
 systems:
 - 3DS
 title: Gemini3DS
-update_notes: '<h2 dir="auto">✨ Features</h2>
+update_notes: '<h2 dir="auto">🆕 What''s new</h2>
 
   <ul dir="auto">
 
-  <li>Text requests</li>
+  <li><strong>Audio Input Support</strong>🎙️: Send voice prompts directly to Gemini
+  using the 3DS internal microphone.</li>
 
-  <li>Settings for: model, temperature and max tokens</li>
-
-  <li>In-app API key management</li>
+  <li><strong>Request Validation</strong>: Added logic to handle audio requests (prevents
+  crashes from clips that are too short or silent).</li>
 
   </ul>
 
@@ -48,7 +48,7 @@ update_notes: '<h2 dir="auto">✨ Features</h2>
   card.<br>
 
   3. Launch via the Homebrew Launcher.</p>'
-updated: '2025-12-16T23:39:40Z'
-version: v1.0
-version_title: v1.0
+updated: '2026-03-28T14:50:36Z'
+version: v2.0
+version_title: v2.0 - Audio requests
 ---
