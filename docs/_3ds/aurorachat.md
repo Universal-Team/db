@@ -25,19 +25,33 @@ layout: app
 license: mit
 license_name: MIT License
 prerelease:
-  download_page: https://github.com/Unitendo/aurorachat/releases/tag/v0.5.0
+  download_page: https://github.com/Unitendo/aurorachat/releases/tag/v0.5.0-pre1
   downloads:
     aurorachat.3dsx:
       size: 1185924
       size_str: 1 MiB
-      url: https://github.com/Unitendo/aurorachat/releases/download/v0.5.0/aurorachat.3dsx
+      url: https://github.com/Unitendo/aurorachat/releases/download/v0.5.0-pre1/aurorachat.3dsx
     aurorachat.cia:
       size: 1430464
       size_str: 1 MiB
-      url: https://github.com/Unitendo/aurorachat/releases/download/v0.5.0/aurorachat.cia
+      url: https://github.com/Unitendo/aurorachat/releases/download/v0.5.0-pre1/aurorachat.cia
   qr:
     aurorachat.cia: https://db.universal-team.net/assets/images/qr/prerelease/aurorachat-cia.png
-  update_notes: '<h1 dir="auto">Changelog</h1>
+  update_notes: '<div class="markdown-alert markdown-alert-warning" dir="auto"><p
+    class="markdown-alert-title" dir="auto"><svg class="octicon octicon-alert mr-2"
+    viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path
+    d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082
+    15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25
+    0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75
+    0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p><p dir="auto">This
+    is a pre-release, it most likely contains many, many bugs.<br>
+
+    Version 5 has already been noted to be the buggiest version of aurorachat ever
+    released.</p>
+
+    </div>
+
+    <h1 dir="auto">Changelog</h1>
 
     <ul dir="auto">
 
@@ -55,7 +69,15 @@ prerelease:
     <li>Much, much more that I forgot</li>
 
     </ul>'
-  update_notes_md: '# Changelog
+  update_notes_md: '> [!WARNING]
+
+    > This is a pre-release, it most likely contains many, many bugs.
+
+    > Version 5 has already been noted to be the buggiest version of aurorachat ever
+    released.
+
+
+    # Changelog
 
     - Added drawings
 
@@ -72,8 +94,8 @@ prerelease:
 
     '
   updated: '2026-03-28T00:06:40Z'
-  version: v0.5.0
-  version_title: 'v0.5.0: Functionally Fabulous'
+  version: v0.5.0-pre1
+  version_title: 'v0.5.0: Functionally Fabulous PRE-RELEASE 1'
 qr:
   aurorachat-3ds.cia: https://db.universal-team.net/assets/images/qr/aurorachat-3ds-cia.png
 source: https://github.com/Unitendo/aurorachat
