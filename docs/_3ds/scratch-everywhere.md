@@ -12,17 +12,17 @@ download_filter: (\.3dsx|\.cia|\.nds)
 download_page: https://github.com/ScratchEverywhere/ScratchEverywhere/releases
 downloads:
   scratch-3ds.3dsx:
-    size: 9188444
+    size: 9173988
     size_str: 8 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.38/scratch-3ds.3dsx
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.38.1/scratch-3ds.3dsx
   scratch-3ds.cia:
-    size: 7885760
+    size: 7873472
     size_str: 7 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.38/scratch-3ds.cia
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.38.1/scratch-3ds.cia
   scratch-ds.nds:
-    size: 4319232
+    size: 4324352
     size_str: 4 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.38/scratch-ds.nds
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.38.1/scratch-ds.nds
 github: ScratchEverywhere/ScratchEverywhere
 icon: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/icon.png
 image: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/3ds/banner.png
@@ -40,107 +40,63 @@ systems:
 title: Scratch Everywhere!
 unique_ids:
 - '0x2143'
-update_notes: '<h2 dir="auto">Parity Changes</h2>
-
-  <ul dir="auto">
-
-  <li>Accurate Sprite collision! (Via pull request <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="4098573061" data-permission-text="Title
-  is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/586"
-  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/586/hovercard"
-  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/586">#586</a>)
-
-  <ul dir="auto">
-
-  <li>When using the <code class="notranslate">Touching ___</code> block, collision
-  now uses accurate bit-masks instead of rotated rectangles!</li>
-
-  <li>On 3DS and Wii, these bit-masks are 2 times lower in resolution. On NDS, PSP
-  and GameCube, they are 3 times lower. This is to save performance.</li>
-
-  <li>Do note that this update does NOT add support for color touching blocks.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Add support for <code class="notranslate">When Stage Clicked</code> block</li>
-
-  <li>Make base conversions work with doubles</li>
-
-  </ul>
+update_notes: '<p dir="auto"><strong>This is an emergency release, mainly to fix Wii
+  U not working.</strong></p>
 
   <h2 dir="auto">Runtime Changes</h2>
 
   <ul dir="auto">
 
-  <li>Finished migrating all platforms to CMake!
+  <li>Added <code class="notranslate">Collision Mode</code> Project setting
 
   <ul dir="auto">
 
-  <li>This makes it easier for us to add new platforms and features later down the
-  road</li>
+  <li>Setting it to <code class="notranslate">Accurate</code> gives you the new collision
+  introduced in Beta 38.</li>
+
+  <li>Setting it to <code class="notranslate">Fast</code> makes the <code class="notranslate">touching
+  __</code> block use (non-rotated!) rectangles for collision.</li>
+
+  <li>It is set to <code class="notranslate">Accurate</code> by default on all platforms
+  except for NDS.</li>
 
   </ul>
 
   </li>
 
-  <li>Only load SVG fonts when needed instead of at the start of the app</li>
+  <li>Changed Sprite fencing a bit</li>
 
-  <li>General code refactoring under the hood</li>
+  <li>Fixed Username when using cloud variables</li>
 
   </ul>
 
-  <h2 dir="auto">Menu Changes</h2>
+  <h2 dir="auto">Wii U Changes</h2>
 
   <ul dir="auto">
 
-  <li>The <code class="notranslate">Bottom Screen</code> project option no longer
-  shows up on platforms that don''t have it</li>
-
-  <li>Pressing <code class="notranslate">L</code> and <code class="notranslate">R</code>
-  takes you up and down pages</li>
-
-  <li>Project now stays selected when going from Project Settings menu</li>
-
-  <li>Mouse no longer keeps priority when using a controller/keyboard to navigate
-  the menu</li>
+  <li>Fixed controls not working</li>
 
   </ul>
 
-  <h2 dir="auto">Windows Changes</h2>
+  <h2 dir="auto">3DS + NDS Changes</h2>
 
   <ul dir="auto">
 
-  <li>Add support for <code class="notranslate">Text To Speech</code> Extension</li>
+  <li>Fixed memory leak when using <code class="notranslate">Accurate</code> collision
+  mode</li>
 
   </ul>
 
-  <h2 dir="auto">3DS Changes</h2>
+  <h2 dir="auto">PC Changes</h2>
 
   <ul dir="auto">
 
-  <li><code class="notranslate">Say</code> and <code class="notranslate">Think</code>
-  blocks now work correctly in dual screen mode</li>
+  <li>Fix thread memory leak</li>
 
-  </ul>
-
-  <h2 dir="auto">Authors</h2>
-
-  <p dir="auto">This beta was brought to you by: <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/gradylink/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/gradylink">@gradylink</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/NishiOwO/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/NishiOwO">@NishiOwO</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/poipole807/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/poipole807">@poipole807</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Dogo6647/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Dogo6647">@Dogo6647</a>
-  and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/NateXS/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/NateXS">@NateXS</a></p>'
-updated: '2026-03-24T13:15:05Z'
-version: '0.38'
-version_title: Beta Build 38
+  </ul>'
+updated: '2026-03-29T12:43:30Z'
+version: 0.38.1
+version_title: Beta Build 38.1
 website: https://scratcheverywhere.github.io/ScratchEverywhere/
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!
