@@ -10,7 +10,7 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9791528
+    size: 9791536
     size_str: 9 MiB
     url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.0/TJAP_3DS.3dsx
   TJAP_3DS.cia:
@@ -58,6 +58,10 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <li>一部演出の追加</li>
 
+  <li>本体をスリープモードに移行しない様にしました。(2026/03/30追記)<br>
+
+  これにより、イヤホン等を挿した状態でAUTOで聴く事が可能になります。</li>
+
   </ul>
 
   <h2 dir="auto">Changelog</h2>
@@ -84,6 +88,11 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <li>The maximum number of lines in a musical score has been increased from 8192
   to 16384.</li>
+
+  <li>The device will no longer enter sleep mode. (Added 2026/03/30)<br>
+
+  This makes it possible to listen in AUTO mode even with earphones or other devices
+  plugged in.</li>
 
   <li>Addition of some productions</li>
 
