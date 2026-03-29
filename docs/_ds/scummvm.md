@@ -11,13 +11,13 @@ download_page: https://www.scummvm.org/downloads/
 downloads:
   scummvm-3dsx.zip:
     size: null
-    url: https://downloads.scummvm.org/frs/scummvm/2026.1.0/scummvm-2026.1.0-3ds-3dsx.zip
+    url: https://downloads.scummvm.org/frs/scummvm/2026.2.0/scummvm-2026.2.0-3ds-3dsx.zip
   scummvm-cia.zip:
     size: null
-    url: https://downloads.scummvm.org/frs/scummvm/2026.1.0/scummvm-2026.1.0-3ds-cia.zip
+    url: https://downloads.scummvm.org/frs/scummvm/2026.2.0/scummvm-2026.2.0-3ds-cia.zip
   scummvm-ds.zip:
     size: null
-    url: https://downloads.scummvm.org/frs/scummvm/2026.1.0/scummvm-2026.1.0-ds.zip
+    url: https://downloads.scummvm.org/frs/scummvm/2026.2.0/scummvm-2026.2.0-ds.zip
 eval_downloads: true
 github: scummvm/scummvm
 icon: https://raw.githubusercontent.com/scummvm/scummvm/master/backends/platform/3ds/app/icon.png
@@ -41,19 +41,37 @@ systems:
 title: scummvm
 unique_ids:
 - '0xFF321'
-update_notes: '<p dir="auto">Another year has gone by, therefore we are releasing
-  a new ScummVM version. As you may notice right away, we are changing our version
-  numbering schema, but that’s not all! We are also planning on more frequent releases!,
-  which you can read about on <a href="https://www.patreon.com/posts/new-milestone-in-149535385"
-  rel="nofollow">sev’s blog</a>.</p>
+update_notes: '<p dir="auto">Three months have passed since the last release, and
+  here we are again, with our new release approach. We are both worried and excited,
+  but hope that in the current reality of the absence of pre-release testing, with
+  more frequent releases, we will be able to deliver critical fixes faster.</p>
 
-  <p dir="auto">This could be the biggest release we have made so far in terms of
-  the added features and engines. If I count correctly, we have added 12 new engines
-  to our compatibility page. Not games, engines. In terms of games, it is challenging
-  to count, since two of the engines, SLUDGE and WAGE are authoring tools, but if
-  you count games in our detection tables, that adds up to at least 194 titles!</p>
+  <p dir="auto">Let''s talk about the release scope. Three months have passed, but
+  the amount of new features is <em>very</em> noticeable.</p>
 
-  <p dir="auto">And there is so much more...</p>
+  <h2 dir="auto">Newly Supported Games:</h2>
+
+  <ul dir="auto">
+
+  <li><em>Necronomicon: The Dawning of Darkness</em></li>
+
+  <li><em>Crime Patrol</em></li>
+
+  <li><em>Crime Patrol 2: Drug Wars</em></li>
+
+  <li><em>The Last Bounty Hunter</em></li>
+
+  <li><em>Mad Dog McCree</em></li>
+
+  <li><em>Mad Dog II: The Lost Gold</em></li>
+
+  <li><em>Space Pirates</em></li>
+
+  <li><em>Who Shot Johnny Rock?</em></li>
+
+  </ul>
+
+  <p dir="auto">And - as usual - there are a couple of "one more things"!</p>
 
   <h1 dir="auto">Changelog</h1>
 
@@ -61,162 +79,101 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
 
   <ul dir="auto">
 
-  <li>Added support for Dark Seed.</li>
+  <li>Added support for Necronomicon: The Dawning of Darkness.</li>
 
-  <li>Added support for God of Thunder.</li>
+  <li>Added ALG engine for DOS versions of American Laser Games:<br>
 
-  <li>Added support for The Adventures of Willy Beamish.</li>
+  Crime Patrol, Crime Patrol 2: Drug Wars, The Last Bounty Hunter,<br>
 
-  <li>Added support for Heart of China.</li>
+  Mad Dog McCree, Mad Dog II: The Lost Gold, Space Pirates<br>
 
-  <li>Added support for Nancy Drew: Secret of the Scarlet Hand.</li>
-
-  <li>Added support for Nancy Drew: Ghost Dogs of Moon Lake.</li>
-
-  <li>Added support for Ripley''s Believe It or Not!: The Riddle of Master Lu.</li>
-
-  <li>Added support for Little Longnose.</li>
-
-  <li>Added support for Pilot Brothers 3: Back Side of the Earth.</li>
-
-  <li>Added support for Pilot Brothers 3D. The Case of Garden Pests.</li>
-
-  <li>Added support for Pilot Brothers 3D-2. Kennel Club Secrets.</li>
-
-  <li>Added support for Features of National Fishing.</li>
-
-  <li>Added support for Mom Don''t Worry.</li>
-
-  <li>Added support for Dog-n-cat: In the Footsteps of Unprecedented Beasts.</li>
-
-  <li>Added support for Dog-n-cat: Island of Dr Ratiarty.</li>
-
-  <li>Added support for Out of this World (Another World).</li>
-
-  <li>Added support for SLUDGE-based games, such as Out of Order, The Secret of Tremendous
-  Corporation, Robin''s Rescue and others, 12 titles so far.</li>
-
-  <li>Added support for Adibou 2: Nature &amp; Sciences.</li>
-
-  <li>Added support for WAGE-based game. More than 160 titles so far.</li>
-
-  <li>Added support for Penumbra: Overture.</li>
-
-  <li>Added support for Tex Murphy: Martian Memorandum</li>
-
-  <li>Added support for Mort&amp;Phil: A Movie Adventure (Special Edition).</li>
-
-  <li>Added support for Trick or Treat.</li>
-
-  <li>Added support for Hodj ''n'' Podj.</li>
+  and Who Shot Johnny Rock?</li>
 
   </ul>
 
-  <h2 dir="auto">Access:</h2>
+  <h2 dir="auto">General:</h2>
 
   <ul dir="auto">
 
-  <li>Added keymapper support.</li>
+  <li>Improved PC-Speaker emulation.</li>
 
-  <li>Fixed foodstep sounds.</li>
+  <li>Implemented multiselect in the GUI launcher games list.</li>
+
+  <li>Updated ImGui library to 1.92.6-docker.</li>
+
+  <li>Fixed Smart Search in the Icons Grid view in the launcher.</li>
+
+  <li>Simulate MT-32 display for on-screen messages.</li>
+
+  <li>Added possibility to load GUI translations from the local <code class="notranslate">po/</code>
+  directory. Useful for translators since it does not require regeneration of the
+  translations.dat file.</li>
+
+  <li>Significantly reduced compilation time and memory usage when building the TinyGL
+  component.</li>
+
+  <li>Added Help button to the main interface and improved the dialog speed.</li>
+
+  <li>Added possibility to run unpacked GUI themes.</li>
 
   </ul>
 
-  <h2 dir="auto">ADL:</h2>
+  <h2 dir="auto">AGOS:</h2>
 
   <ul dir="auto">
 
-  <li>Added Text-to-Speech support.</li>
+  <li>Added music support for the Atari ST releases of Elvira 1 and 2.</li>
+
+  <li>Improved support of the Acorn releases of Simon the Sorcerer. Original cursor
+  is now implemented, along with support of the Desktop Tracker format used for music.</li>
+
+  <li>Improved font rendering accuracy for DOS Personal Nightmare and the Amiga Elvira
+  1 demo.</li>
+
+  <li>Implemented original cursors for the Amiga release of Personal Nightmare.</li>
+
+  <li>Fixed Personal Nightmare ''Wait'' command being far too quick on modern systems.</li>
+
+  <li>Fixed inventory icon colors in the Amiga and Atari ST releases of Personal Nightmare.</li>
+
+  <li>Fixed Simon''s sprite having no color in the Acorn floppy demo of Simon the
+  Sorcerer 1.</li>
 
   </ul>
 
-  <h2 dir="auto">AGI:</h2>
+  <h2 dir="auto">Alcachofa:</h2>
 
   <ul dir="auto">
 
-  <li>Added Text-to-Speech support.</li>
+  <li>Added support for earlier Spanish CD variant of Mortadelo y Filemón: Una Aventura
+  de Cine - Edición Especial.</li>
 
-  <li>Added support for SQ2 French translation.</li>
-
-  <li>Added support for KQ1, KQ2, KQ3 Hebrew translations.</li>
-
-  <li>Fixed Mickey''s Space Adventure sound on PS3, Wii, and other big-endian ports.</li>
+  <li>Added support for Russian variant of Mort &amp; Phil: A Movie Adventure (Секретные
+  агенты: Киномонстры атакуют).</li>
 
   </ul>
 
-  <h2 dir="auto">AGS:</h2>
+  <h2 dir="auto">Bagel:</h2>
 
   <ul dir="auto">
 
-  <li>Updated detection tables.</li>
+  <li>Fixed Enter/Escape keys in The Guessing Game guess dialog.</li>
 
-  </ul>
+  <li>Fixed using Enter key to close info dialogs.</li>
 
-  <h2 dir="auto">Buried:</h2>
+  <li>Fixed shell animations in Mankala minigame.</li>
 
-  <ul dir="auto">
+  <li>Fixed incorrect evolution logic in Game of Life.</li>
 
-  <li>Added keymapper support.</li>
+  <li>Hopeful fix for occasional crash entering boardgame stores.</li>
 
-  </ul>
+  <li>Fixed crash when hiding boardgame turn start spinner.</li>
 
-  <h2 dir="auto">CinE:</h2>
+  <li>Fixed Poker minigame bet icons rendering over game over dialog.</li>
 
-  <ul dir="auto">
+  <li>Made in-progress speech stop when closing a minigame exit dialog.</li>
 
-  <li>Added Text-to-Speech support.</li>
-
-  </ul>
-
-  <h2 dir="auto">Cruise:</h2>
-
-  <ul dir="auto">
-
-  <li>Added Text-to-Speech support.</li>
-
-  </ul>
-
-  <h2 dir="auto">Cryomni3D:</h2>
-
-  <ul dir="auto">
-
-  <li>Added support for Chinese DOS/Win95 Versailles CD version.</li>
-
-  </ul>
-
-  <h2 dir="auto">Draci:</h2>
-
-  <ul dir="auto">
-
-  <li>Added Text-to-Speech support.</li>
-
-  </ul>
-
-  <h2 dir="auto">Drascula:</h2>
-
-  <ul dir="auto">
-
-  <li>Fixed displaying accented characters.</li>
-
-  <li>Added Text-to-Speech support.</li>
-
-  <li>Added keymapper support.</li>
-
-  </ul>
-
-  <h2 dir="auto">EFH:</h2>
-
-  <ul dir="auto">
-
-  <li>Fixed giving and dropping unequippable items.</li>
-
-  <li>Fixed being unable to replace 3rd party member.</li>
-
-  <li>Fixed quitting in status menu.</li>
-
-  <li>Added Text-to-Speech support.</li>
-
-  <li>Added keymapper support.</li>
+  <li>Fixed using Enter key after typing savegame name to save it.</li>
 
   </ul>
 
@@ -224,12 +181,23 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
 
   <ul dir="auto">
 
-  <li>Added roll rotation to Driller and Dark Side.</li>
+  <li>Added sound emulation for Driller, Dark Side, Total Eclipse and<br>
 
-  <li>Added full TinyGL support for all the games.</li>
+  Castle Master on CPC, C64 and Amiga.</li>
 
-  <li>Fixed several small details across all the games including missing graphics
-  and sounds.</li>
+  <li>Added music support for Total Eclipse on Atari ST.</li>
+
+  <li>Added WASD movement option with shift for run.</li>
+
+  <li>Improved touchscreen controls and alternative input mappings for mobile devices.</li>
+
+  <li>Added a debugger with position and area commands.</li>
+
+  <li>Implemented compressed data loading for Driller on Atari ST.</li>
+
+  <li>Fixed rendering artifacts and culling issues.</li>
+
+  <li>Fixed various UI element positions and score rendering across multiple releases.</li>
 
   </ul>
 
@@ -237,88 +205,20 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
 
   <ul dir="auto">
 
-  <li>Added Text-to-Speech support.</li>
+  <li>Optimized the number of screen blits, making Gobliiins and Ween noticeably more
+  responsive on weaker platforms. Other Gob games are also positively affected.</li>
 
   </ul>
 
-  <h2 dir="auto">Grim:</h2>
+  <h2 dir="auto">M4:</h2>
 
   <ul dir="auto">
 
-  <li>Added support for the fantranslated Polish version of Grim Fandango.</li>
+  <li>Added music support in Ripley.</li>
 
-  </ul>
+  <li>Fixed numerous bugs in Ripley.</li>
 
-  <h2 dir="auto">Hugo:</h2>
-
-  <ul dir="auto">
-
-  <li>Added Text-to-Speech support.</li>
-
-  <li>Fixed unrecognized commands, missing points, and graphics glitches in the DOS
-  version of Hugo 2.</li>
-
-  <li>Fixed clicking to walk.</li>
-
-  <li>Fixed closing the top menu.</li>
-
-  </ul>
-
-  <h2 dir="auto">Hypno:</h2>
-
-  <ul dir="auto">
-
-  <li>Added keymapper support.</li>
-
-  <li>Added support for third party subtitles.</li>
-
-  </ul>
-
-  <h2 dir="auto">Illusions:</h2>
-
-  <ul dir="auto">
-
-  <li>Fixed a crash when triggering the game menu early in the game.</li>
-
-  </ul>
-
-  <h2 dir="auto">Kyra:</h2>
-
-  <ul dir="auto">
-
-  <li>Reduced CPU usage in the LoL main menu.</li>
-
-  <li>Reduced CPU usage in EoB 1 and 2.</li>
-
-  <li>Introduced new launcher checkbox in Eye of the Beholder 1 and 2, to enable smarter
-  replacing of thrown weapons from inventory.</li>
-
-  <li>In Eye of the Beholder 1, Ileria and Beohram NPC data fix is now behind a separate
-  feature flag and launcher checkbox.</li>
-
-  </ul>
-
-  <h2 dir="auto">Lab:</h2>
-
-  <ul dir="auto">
-
-  <li>Added keymapper support.</li>
-
-  </ul>
-
-  <h2 dir="auto">Lure:</h2>
-
-  <ul dir="auto">
-
-  <li>Added Russian version support to lure.dat.</li>
-
-  </ul>
-
-  <h2 dir="auto">MADE:</h2>
-
-  <ul dir="auto">
-
-  <li>Added Text-to-Speech support.</li>
+  <li>Fixed some bugs in Orion Burger.</li>
 
   </ul>
 
@@ -326,149 +226,41 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
 
   <ul dir="auto">
 
-  <li>Fixed protection from elements spell.</li>
+  <li>Fixed M&amp;M1 memory corruption on exit.</li>
 
-  <li>Added Text-to-Speech support.</li>
+  <li>Fixed M&amp;M1 display issues/corruption getting items from treasure chests.</li>
 
-  <li>Fixed errors with M&amp;M1 monster advancement in combat.</li>
-
-  <li>Fixed doors color in M&amp;M1 enhanced mode.</li>
-
-  <li>Fixed rendering of M&amp;M1 enhanced main menu circles.</li>
+  <li>Fixed M&amp;M1 showing incorrect name for attacking monsters in combat.</li>
 
   </ul>
 
-  <h2 dir="auto">Mohawk:</h2>
+  <h2 dir="auto">MYST3:</h2>
 
   <ul dir="auto">
 
-  <li>Fixed popping noise in speech in some game releases (bug in the original).</li>
+  <li>Restored ambient sounds for harmonic frequencies puzzle in Amateria.</li>
+
+  <li>Fixed resetting animations for turntable puzzle in Amateria.</li>
+
+  <li>Fixed synchronization of videos that play consecutively.</li>
+
+  <li>Fixed skipping frames in some looping videos.</li>
+
+  <li>Fixed frame-triggered ambient sounds in scripted movies.</li>
+
+  <li>Various tweaks for displaying subtitles and inventory in widescreen mod.</li>
+
+  <li>Fixed scaling issues for subtitles, draggable items, inventory bar and<br>
+
+  main menu in widescreen mod.</li>
 
   </ul>
 
-  <h2 dir="auto">NANCY:</h2>
+  <h2 dir="auto">QdEngine:</h2>
 
   <ul dir="auto">
 
-  <li>Added support for ScummVM''s save/load screens.</li>
-
-  <li>Fixed a crash while reading files from the Zip disk in Secret of the Scarlet
-  Hand.</li>
-
-  </ul>
-
-  <h2 dir="auto">Neverhood:</h2>
-
-  <ul dir="auto">
-
-  <li>Added keymapper support.</li>
-
-  </ul>
-
-  <h2 dir="auto">NGI:</h2>
-
-  <ul dir="auto">
-
-  <li>Added keymapper support.</li>
-
-  <li>Fixed a crash when trying to open the game main menu several times in a row.</li>
-
-  </ul>
-
-  <h2 dir="auto">Nuvie:</h2>
-
-  <ul dir="auto">
-
-  <li>Added "Transfer a Character" feature to main menu.</li>
-
-  </ul>
-
-  <h2 dir="auto">Parallaction:</h2>
-
-  <ul dir="auto">
-
-  <li>Added Text-to-Speech support.</li>
-
-  </ul>
-
-  <h2 dir="auto">Petka:</h2>
-
-  <ul dir="auto">
-
-  <li>Added keymapper support.</li>
-
-  </ul>
-
-  <h2 dir="auto">Pink:</h2>
-
-  <ul dir="auto">
-
-  <li>Added keymapper support.</li>
-
-  </ul>
-
-  <h2 dir="auto">Prince:</h2>
-
-  <ul dir="auto">
-
-  <li>Added Text-to-Speech support.</li>
-
-  <li>Added keymapper support.</li>
-
-  </ul>
-
-  <h2 dir="auto">Private:</h2>
-
-  <ul dir="auto">
-
-  <li>Added several important missing graphics and gameplay sounds, the engine is
-  now considered to be at feature parity with the original game.</li>
-
-  <li>Fixed inaccessible places, missing interactions or conversations.</li>
-
-  <li>Added option to highlight decision areas for improved visibility.</li>
-
-  <li>Added support for third party subtitles.</li>
-
-  <li>Added missing features and fixed crashes in the desktop screen.</li>
-
-  <li>Fixed various graphics and cursor glitches.</li>
-
-  <li>Added keymapper support.</li>
-
-  </ul>
-
-  <h2 dir="auto">Queen:</h2>
-
-  <ul dir="auto">
-
-  <li>Added keymapper support.</li>
-
-  </ul>
-
-  <h2 dir="auto">SCI:</h2>
-
-  <ul dir="auto">
-
-  <li>Fixed PHANT1 losing save files. (ScummVM 2.9.0 bug)</li>
-
-  <li>Fixed QFG4 v1.1/German lockup when entering cave at end of game.</li>
-
-  <li>Fixed PQ2 PC-98 Japanese text not displaying on certain screens.</li>
-
-  <li>Fixed KQ1 Amiga crash when incorrectly guessing gnome''s name.</li>
-
-  <li>Fixed LONGBOW Amiga crash when going to abbey.</li>
-
-  <li>Fixed SQ4 Amiga taking three minutes to display title screen.</li>
-
-  <li>Fixed PQ2 phone when dialing wrong numbers.</li>
-
-  <li>Fixed script bugs in ECO1, LSL6, PEPPER.</li>
-
-  <li>Added support for SLATER Macintosh.</li>
-
-  <li>Virtual keyboard now correctly triggers on/off wherever text input is needed.</li>
+  <li>Fixed pathfinding bugs on Windows optimized (release) build.</li>
 
   </ul>
 
@@ -476,43 +268,15 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
 
   <ul dir="auto">
 
-  <li>Added support for the classic SE variants of MI1, MI2, DOTT and FT.</li>
+  <li>Added support for original splash screens in Maniac Mansion NES (when playing
+  from PRG files).</li>
 
-  <li>Added support for the remastered speech and sound effects in the remastered
-  version of Day of the Tentacle.</li>
+  <li>Added support for the playback feature of the non-interactive demos of Monkey
+  Island 1, Monkey Island 2, and Fate of Atlantis.</li>
 
-  <li>Added speech support in the SE versions of MI1 and MI2.</li>
+  <li>Implemented original cursor for the Apple II release of Maniac Mansion.</li>
 
-  <li>Improved graphics support for Macintosh DOTT, Sam &amp; Max, The Dig, Full Throttle,
-  and the PowerPC version of Fate of Atlantis.</li>
-
-  <li>Added an option to render Sega CD MI1 with the "Shadow Mode" palette which was
-  originally used for that release. (It''s unclear whether that much darker rendering
-  was used on purpose, or unintentionally.)</li>
-
-  <li>Added Text-to-Speech support.</li>
-
-  <li>Added support for Catalan fan translations of Maniac Mansion, Indy3, Monkey1
-  and Indy4.</li>
-
-  <li>Fixed game detection for the Macintosh version of MI1 from the first LucasArts
-  Mac CD Game Pack. Previously you had to make sure to only copy the data fork, not
-  the (empty) resource fork.</li>
-
-  <li>Fixed various crashes when loading some old/special saves.</li>
-
-  <li>Fixed a bug with background layers, which could cause some small glitches in
-  The Dig.</li>
-
-  <li>Fixed an edge case when decoding SMUSH videos. This would cause some gray artifacts/pixels
-  to appear in the ending video of The Dig.</li>
-
-  <li>Fixed minor visual issues in Backyard Baseball (1997) and Pajama Sam 3.</li>
-
-  <li>Fixed missing graphical effects in Spy Fox in Cheese Chase.</li>
-
-  <li>Fixed Spy Fox in Cheese Chase always preferring custom levels over the built-in
-  ones.</li>
+  <li>Fixed Maniac Mansion NES logo scroll getting stuck during the intro.</li>
 
   </ul>
 
@@ -520,24 +284,19 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
 
   <ul dir="auto">
 
-  <li>Added keymapper support.</li>
+  <li>Fixed occasional crash when using inventory items in Rose Tattoo.</li>
+
+  <li>Fixed crash when using keyboard keys while playing darts in Rose Tattoo.</li>
+
+  <li>Fixed score board layout and logic for dart games in Rose Tattoo.</li>
 
   </ul>
 
-  <h2 dir="auto">Stark:</h2>
+  <h2 dir="auto">SLUDGE:</h2>
 
   <ul dir="auto">
 
-  <li>The OpenGL renderer now works on older GPUs not supporting non-power-of-two
-  textures.</li>
-
-  </ul>
-
-  <h2 dir="auto">Supernova:</h2>
-
-  <ul dir="auto">
-
-  <li>Added keymapper support.</li>
+  <li>Fixed crash at start of Nathan''s Second Chance game.</li>
 
   </ul>
 
@@ -545,18 +304,16 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
 
   <ul dir="auto">
 
-  <li>Fixed harsh noise being played instead of the intended audio on PS3, Wii, and
-  other big-endian ports.</li>
-
-  <li>Fixed some engine leaks that could lead to crashes in some situations.</li>
+  <li>Fixed music from the original Broken Sword 1 release being played at a wrong
+  sample rate on PS3, Wii and OSXPPC.</li>
 
   </ul>
 
-  <h2 dir="auto">Sword25:</h2>
+  <h2 dir="auto">Sword2:</h2>
 
   <ul dir="auto">
 
-  <li>Added keymapper support.</li>
+  <li>Fixed crash with some DXA movies, such as the ones played in the intro.</li>
 
   </ul>
 
@@ -564,128 +321,51 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
 
   <ul dir="auto">
 
-  <li>Added language support for Polish, Czech and Russian versions. New teenagent.dat
-  file is generated.</li>
-
-  <li>Added keymapper support.</li>
-
-  <li>Added Text-to-Speech support.</li>
-
-  <li>Added support for Polish CD version with voice-over.</li>
+  <li>Fixed ''could not locate language block'' error when starting the Polish and
+  Russian versions.</li>
 
   </ul>
 
-  <h2 dir="auto">Tetraedge:</h2>
+  <h2 dir="auto">Tinsel:</h2>
 
   <ul dir="auto">
 
-  <li>Added keymapper support.</li>
+  <li>Implemented proper palette mapping for the PSX versions of Discworld 1. Before
+  this, the screen wasn''t turning black when using the blindfold in Act 3.</li>
+
+  <li>Made it possible to skip the entire introduction (by pressing Escape) in all
+  Discworld 1 versions.</li>
+
+  <li>Fixed Amazon speech accidentally stopped by the Starfish flicking a coin, in
+  Act 2 of all Discworld 1 releases having this original script bug.</li>
+
+  <li>Fixed "calculate odds" button not always erased from the screen when asking
+  the guard for probabilities, in Act 3 of early Discworld 1 releases (original script
+  bug).</li>
+
+  <li>Fixed crash when trying to interact with (invisible) City Guards in Act 4 of
+  Discworld 1, due to an original script oversight in early releases.</li>
+
+  <li>Fixed dragon appearing too early in town square in Act 4 of Discworld 1 (original
+  script bug in early releases).</li>
+
+  <li>Fixed conversation window not closing when being done talking with the barman
+  in Discworld 1 L-Space (original script bug in early releases).</li>
 
   </ul>
 
-  <h2 dir="auto">Titanic:</h2>
+  <h2 dir="auto">WAGE:</h2>
 
   <ul dir="auto">
 
-  <li>Added keymapper support.</li>
+  <li>Implemented combat system.</li>
 
-  </ul>
+  <li>Numerous visual fixes.</li>
 
-  <h2 dir="auto">Toltecs:</h2>
+  <li>Implemented mouse scrolling of text window.</li>
 
-  <ul dir="auto">
-
-  <li>Added keymapper support.</li>
-
-  </ul>
-
-  <h2 dir="auto">Toon:</h2>
-
-  <ul dir="auto">
-
-  <li>Adjusted the speed of the Gift-O-Matic machine sequence, so that it better matches
-  the way it behaved on original hardware.</li>
-
-  </ul>
-
-  <h2 dir="auto">Touche:</h2>
-
-  <ul dir="auto">
-
-  <li>Fixed a crash when quitting the game while some speech was about to be played.</li>
-
-  </ul>
-
-  <h2 dir="auto">TwinE:</h2>
-
-  <ul dir="auto">
-
-  <li>Activated original bug fixes (FunFrock''s HQ door and safe bugs).</li>
-
-  </ul>
-
-  <h2 dir="auto">V-Cruise:</h2>
-
-  <ul dir="auto">
-
-  <li>Fixed text rendering in Chinese and Japanese localizations.</li>
-
-  <li>Added support for Japanese DVD version of Schizm: Mysterious Journey.</li>
-
-  </ul>
-
-  <h2 dir="auto">Voyeur:</h2>
-
-  <ul dir="auto">
-
-  <li>Added keymapper support.</li>
-
-  </ul>
-
-  <h2 dir="auto">Wintermute:</h2>
-
-  <ul dir="auto">
-
-  <li>3D renderer enabled by default for 2D games.</li>
-
-  <li>Added Text-to-Speech support.</li>
-
-  <li>Added support for several fan translations.</li>
-
-  </ul>
-
-  <h2 dir="auto">Desktop ports:</h2>
-
-  <ul dir="auto">
-
-  <li>Allow the user to disable manual resizing of the ScummVM window (using Ctrl+R).</li>
-
-  <li>Add support for building with SDL3 (although SDL2 is still used by default).</li>
-
-  <li>Add support for scaling shaders within 3D engines.</li>
-
-  <li>Remove last remnants from the ResidualVM merge: the codebase is now fully unified.</li>
-
-  </ul>
-
-  <h2 dir="auto">Android port:</h2>
-
-  <ul dir="auto">
-
-  <li>Support Android 16.</li>
-
-  <li>Add support for scaling shaders within 3D engines.</li>
-
-  <li>Add support for antialiasing with 3D engines.</li>
-
-  <li>Remove last remnants from the ResidualVM merge: the codebase is now fully unified.</li>
-
-  <li>Take screen forbidden zones into account.</li>
-
-  <li>Use Android networking code instead of libcurl: system HTTPS certificates are
-  now used.</li>
-
-  <li>Long-press on back button with latest Android versions is fixed.</li>
+  <li>Implemented way to show startup screen and play startup sound for games what
+  have those files. There will be new items in the About menu.</li>
 
   </ul>
 
@@ -693,26 +373,18 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
 
   <ul dir="auto">
 
-  <li>Unified paths for FreeMiNT and TOS in scummvm.cfg (better delete the old config
-  file).</li>
-
-  <li>Added translation for longer than 8+3 .dat filenames.</li>
-
-  <li>Fixed slow rendering of Eco Quest''s intro.</li>
-
-  <li>Fixed cursor rendering of Phantasmagoria, KQ7 and other SCI32 games.</li>
-
-  <li>Increased stack size to 256k to avoid stack overflow in some engines (e.g. Supernova).</li>
-
-  <li>Fixed launching games from command line.</li>
+  <li>Included out-of-tree m68k code optimizations for the SCUMM engine and audio
+  mixing to gather user feedback.</li>
 
   </ul>
 
-  <h2 dir="auto">DS port:</h2>
+  <h2 dir="auto">macOS port:</h2>
 
   <ul dir="auto">
 
-  <li>Migrate to latest devkitPRO SDK.</li>
+  <li>Added support for the newer Text-to-Speech API of macOS 10.14+.</li>
+
+  <li>Restored Help menu and Copy from clipboard features for macOS 10.4-10.5.</li>
 
   </ul>
 
@@ -720,21 +392,10 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
 
   <ul dir="auto">
 
-  <li>Add support for scaling shaders within 3D engines.</li>
+  <li>Added support for Text-to-Speech.</li>
 
-  <li>Add support for antialiasing with 3D engines.</li>
-
-  <li>Remove last remnants from the ResidualVM merge: the codebase is now fully unified.</li>
-
-  <li>Take screen forbidden zones into account.</li>
-
-  </ul>
-
-  <h2 dir="auto">PS3 port:</h2>
-
-  <ul dir="auto">
-
-  <li>Fixed crashes for games using a screen shaking effect.</li>
+  <li>Ported the CoreMIDI macOS feature to the iOS/tvOS ports, allowing the use of
+  external MIDI devices for output.</li>
 
   </ul>
 
@@ -744,3288 +405,2185 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
 
   <ul dir="auto">
 
-  <li>SCI: fix kernel sub function mapping for certain builds by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/athrxx/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/athrxx">@athrxx</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2740767855"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6315"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6315/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6315">#6315</a></li>
+  <li>EMI: Show subtitles of judges during Marco''s dive by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/chkr-private/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/chkr-private">@chkr-private</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3572102231"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6994"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6994/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/6994">#6994</a></li>
 
-  <li>TSAGE: Split engine into multiple subengines by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2740689562"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6314"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6314/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6314">#6314</a></li>
+  <li>GRIM: EMI: Don''t enable lighting when drawing shadows by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/chkr-private/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/chkr-private">@chkr-private</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3572729549"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6995"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6995/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/6995">#6995</a></li>
 
-  <li>SCUMM: HE: Fix alloc-dealloc mismatch in ResExtractor by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/tunnelsociety/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/tunnelsociety">@tunnelsociety</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2743209088"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6320"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6320/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6320">#6320</a></li>
+  <li>KYRA: (EOB) - Better thrown weapon reloading by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/vrza/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/vrza">@vrza</a> in
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3617707762"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7028"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7028/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7028">#7028</a></li>
 
-  <li>GOB: magicstones detection cleanup by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/BJNFNE/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2742722378"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6318"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6318/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6318">#6318</a></li>
-
-  <li>SCI: (KQ6WinCD) - fix hires drawing glitches by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/athrxx/hovercard" data-octo-click="hovercard-link-click"
+  <li>SCI: (PQ2/PC98) - fix bug no. 16329 by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/athrxx/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/athrxx">@athrxx</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2742807620"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6319"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6319/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6319">#6319</a></li>
-
-  <li>JANITORIAL: Fix revesed and desiged typos in head.cpp by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2745915258"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6321"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6321/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6321">#6321</a></li>
-
-  <li>GRAPHICS: Apply aspect ratio correction to 16 color VGA 640x350 video… by <a
-  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/yuv422/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/yuv422">@yuv422</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2739458280"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6311"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6311/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6311">#6311</a></li>
-
-  <li>AGI: Fix PREAGI pictures by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2748593967"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6322"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6322/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6322">#6322</a></li>
-
-  <li>GRAPHICS: Handle seek-only case in TTFLibrary readCallback by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/tunnelsociety/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/tunnelsociety">@tunnelsociety</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2749337449"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6324"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6324/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6324">#6324</a></li>
-
-  <li>SCUMM: Add support for the classic SE variants of MI1, MI2, DOTT and FT by <a
-  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/bluegr/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/bluegr">@bluegr</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2740520012"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6313"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6313/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6313">#6313</a></li>
-
-  <li>SCI: (SQ4/CD/Windows) - make use of windows gfx drivers by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/athrxx/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/athrxx">@athrxx</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2751572777"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6325"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6325/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6325">#6325</a></li>
-
-  <li>PSP: Fix PNG loading and improve it by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2754201798"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6327"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6327/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6327">#6327</a></li>
-
-  <li>GOB: add russian adibou3 variant to detection by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/BJNFNE/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2755916529"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6330"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6330/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6330">#6330</a></li>
-
-  <li>Bump jinja2 from 3.1.4 to 3.1.5 in /doc/docportal by <a class="user-mention
-  notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a>[bot]
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2756535660"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6332"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6332/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6332">#6332</a></li>
-
-  <li>GOB: add russian variant of Adiboudchou by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/BJNFNE/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2756545292"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6333"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6333/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6333">#6333</a></li>
-
-  <li>ULTIMA: NUVIE Keymap Fixes by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/malignantmanor/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/malignantmanor">@malignantmanor</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2755259538"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6329"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6329/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6329">#6329</a></li>
-
-  <li>SCI: cleanup and reorganize gfx drivers by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/athrxx/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/athrxx">@athrxx</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2754738973"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6328"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6328/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6328">#6328</a></li>
-
-  <li>Disable load button in Launcher when no savegame is available for the selected
-  game by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/criezy/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/criezy">@criezy</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2756255670"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6331"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6331/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6331">#6331</a></li>
-
-  <li>GUI: Improve console selection by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/tunnelsociety/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/tunnelsociety">@tunnelsociety</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2741412790"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6317"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6317/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6317">#6317</a></li>
-
-  <li>GRAPHICS: OPENGL: Enable more features with OpenGL ES 3 by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2707739683"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6275"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6275/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6275">#6275</a></li>
-
-  <li>CONFIGURE: Added possibility to define engine components by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/sev-/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/sev-">@sev-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2710037271"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6280"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6280/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6280">#6280</a></li>
-
-  <li>JANITORIAL: Fix typos in general files by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758826517"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6337"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6337/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6337">#6337</a></li>
-
-  <li>JANITORIAL: Fix AGS engine typos by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/raziel-/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758829443"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6338"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6338/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6338">#6338</a></li>
-
-  <li>JANITORIAL: Fix everytime typo in bladerunner engine by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758830448"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6339"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6339/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6339">#6339</a></li>
-
-  <li>JANITORIAL: Fix sargent typos in darkseed.cpp by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758832460"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6340"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6340/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6340">#6340</a></li>
-
-  <li>JANITORIAL: Fix afterwords and cant typos in Glk engine by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758834140"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6341"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6341/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6341">#6341</a></li>
-
-  <li>JANITORIAL: Fix applcation typo in gob engine by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758835245"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6342"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6342/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6342">#6342</a></li>
-
-  <li>JANITORIAL: Fix degress typo in hdb engine by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758839149"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6344"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6344/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6344">#6344</a></li>
-
-  <li>JANITORIAL: Fix degress and cant typos in icb engine by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758840969"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6345"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6345/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6345">#6345</a></li>
-
-  <li>JANITORIAL: Fix runing typo in hypno engine by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758842614"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6346"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6346/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6346">#6346</a></li>
-
-  <li>JANITORIAL: Fix proccessing typo in immortal engine by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758843389"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6347"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6347/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6347">#6347</a></li>
-
-  <li>JANITORIAL: Fix substract typos in myst3 engine by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758847649"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6350"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6350/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6350">#6350</a></li>
-
-  <li>JANITORIAL: Fix substract typos in twine engine by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758862095"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6359"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6359/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6359">#6359</a></li>
-
-  <li>JANITORIAL: Fix ocassional typo in m4 engine by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758846745"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6349"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6349/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6349">#6349</a></li>
-
-  <li>JANITORIAL: Fix auxillaries and explictly typos in lure engine by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758844876"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6348"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6348/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6348">#6348</a></li>
-
-  <li>JANITORIAL: Fix a bunch of typos in saga2 engine by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758852411"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6352"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6352/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6352">#6352</a></li>
-
-  <li>JANITORIAL: Fix a bunch of typos in the scumm engine by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758856189"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6353"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6353/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6353">#6353</a></li>
-
-  <li>JANITORIAL: Fix portugese typo in sword1 engine by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758860000"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6356"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6356/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6356">#6356</a></li>
-
-  <li>JANITORIAL: Fix pratice typo in sci engine by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758857378"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6354"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6354/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6354">#6354</a></li>
-
-  <li>JANITORIAL: Fix analagous typo in startrek engine by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758859298"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6355"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6355/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6355">#6355</a></li>
-
-  <li>JANITORIAL: Fix extremly typo in titanic engine by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758861378"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6358"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6358/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6358">#6358</a></li>
-
-  <li>JANITORIAL: Fix convertion typo in qdengine by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758848314"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6351"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6351/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6351">#6351</a></li>
-
-  <li>JANITORIAL: Fix cant typos in teenagent engine by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758860759"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6357"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6357/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6357">#6357</a></li>
-
-  <li>JANITORIAL: Fix managment typo in watchmaker engine by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758868010"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6361"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6361/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6361">#6361</a></li>
-
-  <li>JANITORIAL: Fix a bunch of typos in ultima engine by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758866789"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6360"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6360/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6360">#6360</a></li>
-
-  <li>Palette color distance definitions by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/OMGPizzaGuy/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/OMGPizzaGuy">@OMGPizzaGuy</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2759056979"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6362"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6362/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6362">#6362</a></li>
-
-  <li>JANITORIAL: Add FIXMEs for typos in hadesch engine by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758837924"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6343"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6343/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6343">#6343</a></li>
-
-  <li>CREATE_PROJECT: Add components based features dynamically by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2759928873"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6363"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6363/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6363">#6363</a></li>
-
-  <li>ULTIMA: NUVIE: Fix show_spell_description by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/malignantmanor/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/malignantmanor">@malignantmanor</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2758655689"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6336"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6336/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6336">#6336</a></li>
-
-  <li>GOB: add versionnumbers to GOB2 and GOB3 entries by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/BJNFNE/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2760058654"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6364"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6364/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6364">#6364</a></li>
-
-  <li>gitignore: Ignore <strong>pycache</strong> by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/einstein95/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/einstein95">@einstein95</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2760273136"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6367"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6367/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6367">#6367</a></li>
-
-  <li>DIRECTOR: Add CD detection patch for Pink Gear Collection by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/einstein95/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/einstein95">@einstein95</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2760271394"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6366"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6366/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6366">#6366</a></li>
-
-  <li>AUDIO: Fix Fluidsynth soundfont path check on iOS by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/criezy/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/criezy">@criezy</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2760071794"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6365"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6365/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6365">#6365</a></li>
-
-  <li>SCUMM: Allow using the Amiga palette again for Loom/Monkey1/Passport EGA by
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2740815915"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6316"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6316/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6316">#6316</a></li>
-
-  <li>GOB: Detection improvements for Gobliins entries by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/BJNFNE/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2761195254"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6371"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6371/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6371">#6371</a></li>
-
-  <li>COMMON: Remove undefined behaviours from RNC decoder by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2761136048"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6369"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6369/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6369">#6369</a></li>
-
-  <li>BACKENDS: MACOS: Don''t instantiate touch bar on old MacOS versions by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2756598143"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6334"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6334/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6334">#6334</a></li>
-
-  <li>IOS7: Various fixes by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/larsamannen/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/larsamannen">@larsamannen</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2761055129"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6368"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6368/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6368">#6368</a></li>
-
-  <li>GOB: add missing filesize to GOB2 and GOB3 variants by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/BJNFNE/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2761839187"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6373"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6373/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6373">#6373</a></li>
-
-  <li>SCUMM: Fix build with UBSan and SCUMM engine disabled by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2761660776"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6372"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6372/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6372">#6372</a></li>
-
-  <li>AUDIO: MT32: Force MT32 rebuild after configure is run by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2761168459"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6370"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6370/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6370">#6370</a></li>
-
-  <li>GRAPHICS: Remove overrideColor from ManagedSurface::transBlitFrom by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2762243234"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6375"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6375/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6375">#6375</a></li>
-
-  <li>SCUMM: Fix DOTT Remastered offsets by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/BLooperZ/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/BLooperZ">@BLooperZ</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2763734262"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6378"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6378/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6378">#6378</a></li>
-
-  <li>SCUMM: mixer_he: Add check sample buffer size for fade in by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/VladDoc/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/VladDoc">@VladDoc</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2762310209"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6376"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6376/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6376">#6376</a></li>
-
-  <li>SCUMM: Implement Macintosh GUI for the remaining SCUMM games by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/eriktorbjorn/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/eriktorbjorn">@eriktorbjorn</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2753000773"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6326"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6326/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6326">#6326</a></li>
-
-  <li>GRAPHICS: Add ColorQuantizer class by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/eriktorbjorn/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/eriktorbjorn">@eriktorbjorn</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2765097459"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6379"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6379/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6379">#6379</a></li>
-
-  <li>BUILD: Fix build on mingw with libcurl by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/orgads/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2765862882"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6380"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6380/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6380">#6380</a></li>
-
-  <li>DIRECTOR: Add detection for fpgapirates full game, add movutil name to get it
-  past titlescreen by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/einstein95/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/einstein95">@einstein95</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2767352840"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6381"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6381/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6381">#6381</a></li>
-
-  <li>MOHAWK: LB: Fix crash in the v3 sampler during the Green Eggs and Ham section
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2768902909"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6384"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6384/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6384">#6384</a></li>
-
-  <li>MOHAWK: LB: Add a separate debug channel for LBCode by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2769003276"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6386"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6386/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6386">#6386</a></li>
-
-  <li>AGI: Refactor <code class="notranslate">PictureMgr</code>, support early KQ1
-  pics, fix Troll fill by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2769141963"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6388"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6388/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6388">#6388</a></li>
-
-  <li>GRAPHICS: Add simplified mask blitting routines to ManagedSurface by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2769290605"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6390"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6390/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6390">#6390</a></li>
-
-  <li>GRAPHICS: Convert the primitives code to use classes by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2762042287"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6374"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6374/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6374">#6374</a></li>
-
-  <li>GRAPHICS: Make use of simpleBlitFrom for PM5544 rendering by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2769284494"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6389"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6389/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6389">#6389</a></li>
-
-  <li>GRAPHICS: Fix potential bug in drawThickLine2 by <a class="user-mention notranslate"
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3608797865"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7022"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7022/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7022">#7022</a></li>
+
+  <li>TESTBED: Add shader compatibility tests and remove incompatible shaders from
+  Emscripten build by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/chkuendig/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/chkuendig">@chkuendig</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3566592379"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6990"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6990/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/6990">#6990</a></li>
+
+  <li>ULTIMA: Reduce sharing of container classes by <a class="user-mention notranslate"
   data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2769423475"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6393"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6393/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6393">#6393</a></li>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3597042819"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7014"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7014/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7014">#7014</a></li>
 
-  <li>MEDIASTATION: Make use of simpleBlitFrom by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2769443911"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6394"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6394/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6394">#6394</a></li>
+  <li>Add webOS to Makefile and fix engines.awk PATH by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/cscd98/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/cscd98">@cscd98</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3608718421"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7021"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7021/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7021">#7021</a></li>
 
-  <li>IMAGE: Don''t declare GIFDecoder when GIF support is not built by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2775120883"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6397"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6397/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6397">#6397</a></li>
-
-  <li>DIRECTOR: Migrate to the new Primitives class by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2771098672"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6396"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6396/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6396">#6396</a></li>
-
-  <li>ASYLUM: Fix crash for game menu by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/antoniou79/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/antoniou79">@antoniou79</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2768971904"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6385"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6385/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6385">#6385</a></li>
-
-  <li>GRAPHICS: Remove masks from ManagedSurface::transBlitFrom by <a class="user-mention
+  <li>NUVIE: Remove dependency on Shared::EventsManager by <a class="user-mention
   notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2763231297"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6377"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6377/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6377">#6377</a></li>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3597487443"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7016"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7016/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7016">#7016</a></li>
 
-  <li>CREATE_PROJECT: Add support for meta-components by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2768788641"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6382"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6382/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6382">#6382</a></li>
-
-  <li>GRAPHICS: MACGUI: Make it possible to disable menus by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/eriktorbjorn/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/eriktorbjorn">@eriktorbjorn</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2771090546"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6395"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6395/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6395">#6395</a></li>
-
-  <li>GOB: improve magicstones detection by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/BJNFNE/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2780588587"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6400"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6400/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6400">#6400</a></li>
-
-  <li>TETRAEDGE: Support Android and Switch versions by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/phcoder/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/phcoder">@phcoder</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1715726195"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/5021"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/5021/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/5021">#5021</a></li>
-
-  <li>GOT: God of Thunder engine by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/dreammaster/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/dreammaster">@dreammaster</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2769096511"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6387"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6387/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6387">#6387</a></li>
-
-  <li>BACKENDS: ANDROID: Fix memchr calls by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2782577698"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6402"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6402/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6402">#6402</a></li>
-
-  <li>NEVERHOOD: Fix "puzzle solved" sound sometimes being played twice in the H room
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Player701/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Player701">@Player701</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2783782893"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6403"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6403/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6403">#6403</a></li>
-
-  <li>FREESCAPE: Refactor TinyGL''s clear method by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/cmd05/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/cmd05">@cmd05</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2790632417"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6404"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6404/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6404">#6404</a></li>
-
-  <li>AGI: KQ1-Early loaders and detection by <a class="user-mention notranslate"
+  <li>PRIVATE: Fix drug bag inventory item by <a class="user-mention notranslate"
   data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2803020587"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6407"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6407/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6407">#6407</a></li>
-
-  <li>AGS: Implement SoundClipWaveBase::set_speed by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/l0ud/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/l0ud">@l0ud</a> in
-  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2805703783"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6410"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6410/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6410">#6410</a></li>
-
-  <li>SCUMM: Add option for gamma correction (for the Macintosh games) by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/eriktorbjorn/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/eriktorbjorn">@eriktorbjorn</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2800867618"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6405"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6405/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6405">#6405</a></li>
-
-  <li>VCRUISE: Make use of simpleBlitFrom and maskBlitFrom by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2769421402"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6392"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6392/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6392">#6392</a></li>
-
-  <li>DIRECTOR: Don''t allocate big objects in stack in SpaceMgr by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2805162534"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6409"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6409/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6409">#6409</a></li>
-
-  <li>GRAPHICS: Remove deprecated uses of primitives by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2781966088"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6401"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6401/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6401">#6401</a></li>
-
-  <li>CONFIGURE: Warn if the stack frames are too large by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2809241602"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6411"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6411/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6411">#6411</a></li>
-
-  <li>DIRECTOR: Fix UBsan and ASan warnings by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2805077837"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6408"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6408/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6408">#6408</a></li>
-
-  <li>IMAGE: Fix TGA color map loading by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2811205466"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6413"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6413/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6413">#6413</a></li>
-
-  <li>ENGINES: Use LiberationSans instead of FreeSans as a fallback by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2728380859"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6304"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6304/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6304">#6304</a></li>
-
-  <li>NGI: Don''t reopen the NGIArchive when reading a content by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2811519091"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6414"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6414/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6414">#6414</a></li>
-
-  <li>ANDROID: Various improvements around SAF (and more) by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2769404751"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6391"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6391/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6391">#6391</a></li>
-
-  <li>TETRAEDGE: Don''t declare OpenGL with shaders as supported by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2811677908"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6415"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6415/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6415">#6415</a></li>
-
-  <li>FREESCAPE: Keep cursor in the middle of the view area when switching to shoot
-  mode by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/NigeNigeNige/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/NigeNigeNige">@NigeNigeNige</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2801873705"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6406"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6406/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6406">#6406</a></li>
-
-  <li>AUDIO: Mark more AdLib symbols as const by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2694817765"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6266"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6266/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6266">#6266</a></li>
-
-  <li>MOHAWK: Add demos from MacFormat 18 coverdisc by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/einstein95/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/einstein95">@einstein95</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2817697970"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6416"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6416/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6416">#6416</a></li>
-
-  <li>ENGINES: Use LiberationSans with ImGui instead of FreeSans by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2817985695"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6417"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6417/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6417">#6417</a></li>
-
-  <li>CONFIGURE: Don''t use the Gold linker on i386/ppc (unless using --enable-gold)
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2713684462"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6285"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6285/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6285">#6285</a></li>
-
-  <li>ENGINES: Use LiberationSans for subtitles instead of FreeSans by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2818015597"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6418"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6418/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6418">#6418</a></li>
-
-  <li>DIRECTOR: Fixes for D5 support by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/moralrecordings/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/moralrecordings">@moralrecordings</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2825139088"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6420"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6420/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6420">#6420</a></li>
-
-  <li>DIRECTOR: Fixes for D5 support by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/moralrecordings/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/moralrecordings">@moralrecordings</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2837736932"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6424"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6424/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6424">#6424</a></li>
-
-  <li>VIDEO: QTVR: Fix hotspot inverse projection by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/elasota/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/elasota">@elasota</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2843932162"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6427"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6427/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6427">#6427</a></li>
-
-  <li>MEDIASTATION: Fix lionking 2.0GB copy-paste mistake by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/einstein95/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/einstein95">@einstein95</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2841764929"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6426"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6426/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6426">#6426</a></li>
-
-  <li>VIDEO: QTVR: Fix backwards hotspot X reverse projection and revert debug code
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/elasota/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/elasota">@elasota</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2844038098"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6428"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6428/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6428">#6428</a></li>
-
-  <li>Add support to select shader from the command line by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/naatje80/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/naatje80">@naatje80</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2845784714"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6429"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6429/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6429">#6429</a></li>
-
-  <li>HADESCH: Add pirated Mac version to detection by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/einstein95/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/einstein95">@einstein95</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2850334513"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6433"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6433/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6433">#6433</a></li>
-
-  <li>CI: Update Ubuntu runner from 20.04 to 22.04 by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2849077394"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6430"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6430/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6430">#6430</a></li>
-
-  <li>AGS: Add detection for Old Skies OSDemo v1.0 and its controller plugin name
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/einstein95/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/einstein95">@einstein95</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2852316024"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6435"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6435/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6435">#6435</a></li>
-
-  <li>M4: RIDDLE: Add detection for 2 more demos and Italian release, fix typo by
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/einstein95/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/einstein95">@einstein95</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2850312769"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6432"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6432/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6432">#6432</a></li>
-
-  <li>3DS: Fix improper memory freeing (Sprite.vertices) by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/BallM4788/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/BallM4788">@BallM4788</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2852043137"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6434"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6434/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6434">#6434</a></li>
-
-  <li>CONFIGURE: Make --disable-gold the default, now that Binutils deprecated it
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2849332035"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6431"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6431/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6431">#6431</a></li>
-
-  <li>FREESCAPE: Implement skybox for opengl with shaders by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/cmd05/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cmd05">@cmd05</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2855958978"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6440"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6440/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6440">#6440</a></li>
-
-  <li>DIRECTOR: Fixes for D5 by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/moralrecordings/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/moralrecordings">@moralrecordings</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2855530460"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6437"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6437/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6437">#6437</a></li>
-
-  <li>I18N: Miscellaneous fixes by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2730418714"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6305"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6305/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6305">#6305</a></li>
-
-  <li>JANITORIAL: Fix typo by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/tunnelsociety/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/tunnelsociety">@tunnelsociety</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2855717198"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6438"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6438/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6438">#6438</a></li>
-
-  <li>BACKENDS: Add SDL3 backend + update imgui by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/scemino/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/scemino">@scemino</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2739979867"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6312"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6312/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6312">#6312</a></li>
-
-  <li>CRYO: Add detection for Lost Eden PC-9821 version by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/einstein95/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/einstein95">@einstein95</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2861825629"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6444"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6444/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6444">#6444</a></li>
-
-  <li>DISTS: Add Bash tab completions script for ScummVM by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/eriktorbjorn/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/eriktorbjorn">@eriktorbjorn</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2820064065"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6419"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6419/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6419">#6419</a></li>
-
-  <li>COMMON: Remove plural of debugChannels by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2872444720"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6452"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6452/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6452">#6452</a></li>
-
-  <li>BACKENDS: SDL: Let the user prevent resizing of the window by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2870641248"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6449"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6449/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6449">#6449</a></li>
-
-  <li>GOT: Fix the starting armor for area &gt; 1 by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/nniro/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/nniro">@nniro</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2870552137"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6448"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6448/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6448">#6448</a></li>
-
-  <li>GOT: Add eyeballs mode for chapter 2 shovel maze by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/nniro/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/nniro">@nniro</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2871245692"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6451"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6451/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6451">#6451</a></li>
-
-  <li>AGS: Avoid stack frame size warning in AGS3::unload_game by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2870830474"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6450"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6450/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6450">#6450</a></li>
-
-  <li>DISTS: IOS7: icons—fix white corners’ artifacting by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/stevenjamescox/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/stevenjamescox">@stevenjamescox</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2873407031"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6453"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6453/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6453">#6453</a></li>
-
-  <li>TEST: Fix base64 test on big-endian by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2856189531"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6441"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6441/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6441">#6441</a></li>
-
-  <li>SCUMM: "Fix" the bright graphics in the Sega CD version of MI1 by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/eriktorbjorn/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/eriktorbjorn">@eriktorbjorn</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2867089143"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6446"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6446/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6446">#6446</a></li>
-
-  <li>GRAPHICS: Use constexpr for palette constants by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/OMGPizzaGuy/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/OMGPizzaGuy">@OMGPizzaGuy</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2880218561"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6456"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6456/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6456">#6456</a></li>
-
-  <li>FREESCAPE: Fix some UI Issues in Dark-Side by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/akramhany/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/akramhany">@akramhany</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2879344514"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6455"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6455/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6455">#6455</a></li>
-
-  <li>IMAGE: Replace palette byte arrays with Palette class by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/OMGPizzaGuy/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/OMGPizzaGuy">@OMGPizzaGuy</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2870228289"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6447"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6447/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6447">#6447</a></li>
-
-  <li>TESTBED: Add test suite for image decoders by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/OMGPizzaGuy/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/OMGPizzaGuy">@OMGPizzaGuy</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2873895536"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6454"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6454/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6454">#6454</a></li>
-
-  <li>DIRECTOR: Fixes for D5 by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/moralrecordings/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/moralrecordings">@moralrecordings</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2885280187"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6457"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6457/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6457">#6457</a></li>
-
-  <li>IMAGE: Fix 24bpp PCX image decoding. by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/OMGPizzaGuy/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/OMGPizzaGuy">@OMGPizzaGuy</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2885879648"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6458"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6458/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6458">#6458</a></li>
-
-  <li>SWORD1/SWORD2: Detect availability of RGB colour support at runtime by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2723513402"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6297"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6297/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6297">#6297</a></li>
-
-  <li>TESTBED: Miscellaneous improvements to the video player by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2889864271"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6462"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6462/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6462">#6462</a></li>
-
-  <li>CONFIGURE: Make SVQ1 and QDM2 optional components by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2889856710"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6461"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6461/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6461">#6461</a></li>
-
-  <li>COMMON: Add emplace and rvalue insert to Common::List by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2889843317"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6460"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6460/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6460">#6460</a></li>
-
-  <li>SCUMM: MACGUI: Disable Maniac Mansion Mac GUI while paused by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/eriktorbjorn/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/eriktorbjorn">@eriktorbjorn</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2826492325"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6422"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6422/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6422">#6422</a></li>
-
-  <li>GRAPHICS: Removed deprecated ManagedSurface constructors by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2889831945"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6459"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6459/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6459">#6459</a></li>
-
-  <li>SWORD25: Fix keyboard input by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/rinevard/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/rinevard">@rinevard</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2892789793"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6465"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6465/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6465">#6465</a></li>
-
-  <li>IMAGE: Use palette class in Cinepak decoder. by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/OMGPizzaGuy/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/OMGPizzaGuy">@OMGPizzaGuy</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2896196625"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6466"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6466/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6466">#6466</a></li>
-
-  <li>FREESCAPE: Fix Flying-Mode Related Issues by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/akramhany/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/akramhany">@akramhany</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2892314366"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6463"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6463/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6463">#6463</a></li>
-
-  <li>Bump jinja2 from 3.1.5 to 3.1.6 in /doc/docportal by <a class="user-mention
-  notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a>[bot]
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2898558048"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6467"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6467/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6467">#6467</a></li>
-
-  <li>SWORD25: Add internal debugger launch flag by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/rinevard/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/rinevard">@rinevard</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2898877003"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6468"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6468/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6468">#6468</a></li>
-
-  <li>IMAGE: Use palette class in more codecs by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/OMGPizzaGuy/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/OMGPizzaGuy">@OMGPizzaGuy</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2899180042"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6469"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6469/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6469">#6469</a></li>
-
-  <li>SCUMM: LOOM: Fix Hetchel flying with two heads in some EGA releases (Enhancement)
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2900528200"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6470"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6470/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6470">#6470</a></li>
-
-  <li>AGS: fix DynamicSprite.Flip() to use CreateTransparentBitmap by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/mausimus/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mausimus">@mausimus</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2905282366"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6472"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6472/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6472">#6472</a></li>
-
-  <li>VIDEO: Use palette class in video decoders by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/OMGPizzaGuy/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/OMGPizzaGuy">@OMGPizzaGuy</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2905002224"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6471"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6471/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6471">#6471</a></li>
-
-  <li>QDENGINE: Fix pathfinding slowdown problem by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2906452599"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6476"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6476/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6476">#6476</a></li>
-
-  <li>SWORD25: Fix display order of deathscreen by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/rinevard/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/rinevard">@rinevard</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2905899627"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6474"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6474/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6474">#6474</a></li>
-
-  <li>VIDEO: Use palette class in video decoders (Part 2) by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/OMGPizzaGuy/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/OMGPizzaGuy">@OMGPizzaGuy</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2906022002"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6475"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6475/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6475">#6475</a></li>
-
-  <li>DIRECTOR: Fix MSVC warnings by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/bluegr/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/bluegr">@bluegr</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2892405715"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6464"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6464/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6464">#6464</a></li>
-
-  <li>GRAPHICS: MACGUI: Fix color palette used in nine-patch bitmap for disabling
-  border by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/cmd05/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cmd05">@cmd05</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2910778205"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6479"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6479/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6479">#6479</a></li>
-
-  <li>WAGE: Fix "New" and "Revert" option bugs by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/WinterSun23/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/WinterSun23">@WinterSun23</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2855335288"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6436"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6436/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6436">#6436</a></li>
-
-  <li>TESTBED: Allow video test to handle more decoders by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/OMGPizzaGuy/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/OMGPizzaGuy">@OMGPizzaGuy</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2905657135"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6473"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6473/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6473">#6473</a></li>
-
-  <li>FREESCAPE: Fix sound-related issues by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/akramhany/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/akramhany">@akramhany</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2910521182"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6478"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6478/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6478">#6478</a></li>
-
-  <li>PRIVATE: Take cursor images from Windows executable by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ellm135/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ellm135">@ellm135</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2913236255"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6481"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6481/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6481">#6481</a></li>
-
-  <li>GOB: mark bargon entry as EN_GRB by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/BJNFNE/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2925625037"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6486"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6486/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6486">#6486</a></li>
-
-  <li>DIRECTOR: Implement text line height by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/rinevard/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/rinevard">@rinevard</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2912436813"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6480"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6480/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6480">#6480</a></li>
-
-  <li>DIRECTOR: DEBUGGER: Generate unique table ids to prevent warnings. by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/harsh-kulkarni-05/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/harsh-kulkarni-05">@harsh-kulkarni-05</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2927303868"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6487"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6487/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6487">#6487</a></li>
-
-  <li>QDENGINE: LITTLE LONGNOSE: Fix missing walking animation and direction change
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2922472924"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6482"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6482/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6482">#6482</a></li>
-
-  <li>CHAMBER: Fix cga_Blit to support HGA screen rendering by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Nasir-Bilal/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Nasir-Bilal">@Nasir-Bilal</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2935654938"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6493"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6493/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6493">#6493</a></li>
-
-  <li>QDENGINE: Fix path optimization algorithm by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2933122361"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6490"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6490/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6490">#6490</a></li>
-
-  <li>DGDS: Correct spelling in minigame by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/Kawa-oneechan/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Kawa-oneechan">@Kawa-oneechan</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2939297838"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6497"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6497/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6497">#6497</a></li>
-
-  <li>HYPNO: fix infinite video playback during missile sequence in wetlands by <a
-  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/aunnoman1/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/aunnoman1">@aunnoman1</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2935823895"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6494"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6494/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6494">#6494</a></li>
-
-  <li>FREESCAPE: add cubemap shaders to configuration lists by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/cmd05/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cmd05">@cmd05</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2940293103"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6499"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6499/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6499">#6499</a></li>
-
-  <li>VIDEO: Correctly handle raw Elementary Stream MPEG Videos by @Malharbdv in <a
-  class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2939183012"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6496"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6496/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6496">#6496</a></li>
-
-  <li>MACVENTURE: Fix save file loading by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/cmd05/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/cmd05">@cmd05</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2940952428"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6502"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6502/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6502">#6502</a></li>
-
-  <li>WAGE: Fix crash due to outdated sound queue timestamps by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/aunnoman1/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/aunnoman1">@aunnoman1</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2941441086"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6504"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6504/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6504">#6504</a></li>
-
-  <li>WAGE: Fix missing text and extra newlines by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/aunnoman1/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/aunnoman1">@aunnoman1</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2940946334"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6501"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6501/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6501">#6501</a></li>
-
-  <li>DIRECTOR: Fixes for D5 by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/moralrecordings/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/moralrecordings">@moralrecordings</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2939939309"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6498"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6498/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6498">#6498</a></li>
-
-  <li>TINYGL: Fix TGL_TRIANGLE_FAN rendering by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/jpres27/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/jpres27">@jpres27</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2944945590"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6509"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6509/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6509">#6509</a></li>
-
-  <li>BACKENDS: FS: Use stat() fallback for all unexpected dirent d_type values by
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2941657571"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6505"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6505/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6505">#6505</a></li>
-
-  <li>GRIM: Add French Mac EMI detection entry by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2949970589"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6512"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6512/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6512">#6512</a></li>
-
-  <li>ALL: Use C++ 11 range-based for loops by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/bluegr/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/bluegr">@bluegr</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2944735447"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6508"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6508/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6508">#6508</a></li>
-
-  <li>PRIVATE: Track game events in diary by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/ellm135/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ellm135">@ellm135</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2941132989"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6503"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6503/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6503">#6503</a></li>
-
-  <li>I18N: Fixes for Swedish language by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/bluegr/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/bluegr">@bluegr</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2929823259"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6488"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6488/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6488">#6488</a></li>
-
-  <li>DIRECTOR: add Bidule series to detection by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2944094183"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6507"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6507/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6507">#6507</a></li>
-
-  <li>FREESCAPE: Fix for #15486 TINYGL: triangles always override zbuffer from lines
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/For-Chance/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/For-Chance">@For-Chance</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2962572980"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6527"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6527/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6527">#6527</a></li>
-
-  <li>TOLTECS: Add keymapper support by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/aunnoman1/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/aunnoman1">@aunnoman1</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2958560562"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6522"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6522/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6522">#6522</a></li>
-
-  <li>Czech translation for Kyrandia 1, 2, and 3. by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/mbreskovec/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/mbreskovec">@mbreskovec</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2954556484"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6519"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6519/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6519">#6519</a></li>
-
-  <li>QDENGINE: Draw background before playing video by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2963460268"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6529"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6529/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6529">#6529</a></li>
-
-  <li>CHAMBER: HGA Text Rendering Fixes by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/Nasir-Bilal/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Nasir-Bilal">@Nasir-Bilal</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2958625220"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6523"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6523/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6523">#6523</a></li>
-
-  <li>GOB: add version number to playtoons2 german variant by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/BJNFNE/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2972226621"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6536"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6536/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6536">#6536</a></li>
-
-  <li>PLAYGROUND3D: Make various improvements by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/BallM4788/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/BallM4788">@BallM4788</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2971004514"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6534"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6534/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6534">#6534</a></li>
-
-  <li>STARK: Support Hebrew fan translation by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/BLooperZ/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/BLooperZ">@BLooperZ</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2966634444"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6532"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6532/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6532">#6532</a></li>
-
-  <li>HPL1: Add a new detection entry for Penumbra: Overture by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/For-Chance/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/For-Chance">@For-Chance</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2974843313"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6541"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6541/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6541">#6541</a></li>
-
-  <li>SCUMM: Add enhancement for missing message when entering ship''s hold by <a
-  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/eriktorbjorn/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/eriktorbjorn">@eriktorbjorn</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2974798763"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6540"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6540/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6540">#6540</a></li>
-
-  <li>GUI: Implement GlobalOptionsDialog dumping in dumpAllDialogs by @TusharGautam29
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2951857837"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6514"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6514/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6514">#6514</a></li>
-
-  <li>COMMON: Fix DCL IMPLODE name by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2981420643"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6551"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6551/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6551">#6551</a></li>
-
-  <li>SCI: Merge and cleanup LZW decompressors by <a class="user-mention notranslate"
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3628729490"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7031"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7031/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7031">#7031</a></li>
+
+  <li>PRIVATE: Play phone calls in correct order by <a class="user-mention notranslate"
   data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2981415864"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6550"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6550/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6550">#6550</a></li>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3628796845"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7032"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7032/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7032">#7032</a></li>
 
-  <li>ALG: Initial version of American Laser Games engine by @dckone in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="2940301023" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6500" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6500/hovercard" href="https://github.com/scummvm/scummvm/pull/6500">#6500</a></li>
+  <li>PRIVATE: Fix Police Station by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3629299851"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7033"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7033/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7033">#7033</a></li>
 
-  <li>IMAGE: Get palette class by reference on image decoders by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/OMGPizzaGuy/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/OMGPizzaGuy">@OMGPizzaGuy</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2971279105"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6535"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6535/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6535">#6535</a></li>
-
-  <li>JANITORIAL: Add missing references to const function parameters by @mikrosk
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2974870096"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6542"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6542/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6542">#6542</a></li>
-
-  <li>SCUMM: Add workaround for missing smoke in MI1 VGA floppy lava maze by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/eriktorbjorn/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/eriktorbjorn">@eriktorbjorn</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2991218514"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6553"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6553/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6553">#6553</a></li>
-
-  <li>3DS: Fix top screen not fully rendering in some cases by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/BallM4788/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/BallM4788">@BallM4788</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2975214885"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6544"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6544/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6544">#6544</a></li>
-
-  <li>QDENGINE: Various fixes around older game versions  by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2953494114"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6517"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6517/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6517">#6517</a></li>
-
-  <li>BACKENDS: MACOS: Fix various small warnings in macosx-audiocd.cpp by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2907266766"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6477"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6477/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6477">#6477</a></li>
-
-  <li>MTROPOLIS: Three new titles for detection (bug #15316) by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2964675739"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6531"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6531/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6531">#6531</a></li>
-
-  <li>QDENGINE: Add support for rgba8888 pixel format by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2988374759"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6552"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6552/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6552">#6552</a></li>
-
-  <li>ANDROID: Add a backup/restore feature by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2840221281"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6425"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6425/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6425">#6425</a></li>
-
-  <li>QDENGINE: Fix Wswitch and Wcast-qual warnings by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3004554260"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6560"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6560/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6560">#6560</a></li>
-
-  <li>DIRECTOR: Fixes for Derrat Sorcerum by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/moralrecordings/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/moralrecordings">@moralrecordings</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2991844697"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6555"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6555/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6555">#6555</a></li>
-
-  <li>AGS: Fix volume modifier not being respected by @leny100 in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="2991445687" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6554" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6554/hovercard" href="https://github.com/scummvm/scummvm/pull/6554">#6554</a></li>
-
-  <li>SKY: Support Hebrew fan translation by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/BLooperZ/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/BLooperZ">@BLooperZ</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3007105082"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6562"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6562/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6562">#6562</a></li>
-
-  <li>SCUMM: Add workaround for MI1 Sega CD clobbering bit variables by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/eriktorbjorn/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/eriktorbjorn">@eriktorbjorn</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3000293599"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6557"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6557/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6557">#6557</a></li>
-
-  <li>DOCS: Fix some typos and style by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/tunnelsociety/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/tunnelsociety">@tunnelsociety</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3015668877"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6568"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6568/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6568">#6568</a></li>
-
-  <li>MACGUI: Null pointer and empty chunks tests in mactext , change cursor restoration
-  in getmaxwidth. by @dasbidyendu in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2973794952" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6538"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6538/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6538">#6538</a></li>
-
-  <li>GRAPHICS: Fix TTF font caching by @leny100 in <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="3005002161" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6561" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6561/hovercard" href="https://github.com/scummvm/scummvm/pull/6561">#6561</a></li>
-
-  <li>QDENGINE: Fix sound related issues by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/ormanbai123/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3014848426"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6567"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6567/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6567">#6567</a></li>
-
-  <li>CREATE_PROJECT: Use /diagnostics:caret for clearer MSVC warnings by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3017959066"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6569"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6569/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6569">#6569</a></li>
-
-  <li>BUILD: Use -Werror=return-type (and MSVC equivalent) by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3019913217"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6570"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6570/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6570">#6570</a></li>
-
-  <li>CREATE_PROJECT: Fix include order for cmake projects by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/orgads/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3000672649"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6558"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6558/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6558">#6558</a></li>
-
-  <li>VIDEO: QTVR: Add quality, warpMode and swing transition by @Malharbdv in <a
-  class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2980107028"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6548"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6548/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6548">#6548</a></li>
-
-  <li>DIRECTOR: XTRA: Set origin for the QTVR decoder in QTVR Xtra by @Malharbdv in
-  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3009257119"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6564"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6564/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6564">#6564</a></li>
-
-  <li>DIRECTOR: Disable Movie Events while Alert is being shown by @Malharbdv in <a
-  class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3021141428"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6571"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6571/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6571">#6571</a></li>
-
-  <li>ENGINES: Add detection table dumping for Glk and Scumm by @ShivangNagta in <a
-  class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2958733232"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6524"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6524/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6524">#6524</a></li>
-
-  <li>COMMON: Improve Gentee Installer loader to support Schizm Japanese version by
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/elasota/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/elasota">@elasota</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3021449510"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6572"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6572/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6572">#6572</a></li>
-
-  <li>SCUMM: Mitigate errors when resuming CD audio after loading a savegame by <a
-  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/eriktorbjorn/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/eriktorbjorn">@eriktorbjorn</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3021576594"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6573"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6573/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6573">#6573</a></li>
-
-  <li>GUI: Fix integrity dialog freeze/update issue by @ShivangNagta in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="2932168316" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6489" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6489/hovercard" href="https://github.com/scummvm/scummvm/pull/6489">#6489</a></li>
-
-  <li>GRAPHICS: Add palette constructor for ownership of data by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/OMGPizzaGuy/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/OMGPizzaGuy">@OMGPizzaGuy</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2959221282"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6525"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6525/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6525">#6525</a></li>
-
-  <li>BACKENDS: OPENGL: Fix CLUT shader lookup by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3003239413"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6559"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6559/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6559">#6559</a></li>
-
-  <li>SCI: Fix King''s Quest IV demo crash by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/eriktorbjorn/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/eriktorbjorn">@eriktorbjorn</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3023731269"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6578"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6578/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6578">#6578</a></li>
-
-  <li>SCUMM: MONKEY1: Make the Jolly Roger enhancement work on the floppy VGA release
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3023207193"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6576"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6576/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6576">#6576</a></li>
-
-  <li>TINYGL: Implement scissor test by <a class="user-mention notranslate" data-hovercard-type="user"
+  <li>HYPNO: Fix various memory leaks by <a class="user-mention notranslate" data-hovercard-type="user"
   data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3023199421"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6575"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6575/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6575">#6575</a></li>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3628614209"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7030"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7030/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7030">#7030</a></li>
 
-  <li>AUDIO: Remove rate parameter for Mod/XM/S3M and Universal Tracker streams by
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3025221743"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6581"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6581/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6581">#6581</a></li>
-
-  <li>IMAGE: Improved support for QuickTime dithering by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3025087199"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6580"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6580/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6580">#6580</a></li>
-
-  <li>ENGINES: Deduplicate escapeString and fix unused-function warnings by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/orgads/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3031484351"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6583"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6583/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6583">#6583</a></li>
-
-  <li>BUILD: Support both $_host-peldd and peldd for mingw builds by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3022063406"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6574"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6574/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6574">#6574</a></li>
-
-  <li>SCUMM: Fix encoding of some message dialogs with <code class="notranslate">original_gui=false</code>
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3023238724"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6577"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6577/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6577">#6577</a></li>
-
-  <li>VIDEO: QTVR: Remove bug in QTVR while changing nodes by @Malharbdv in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3033976891" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6584" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6584/hovercard" href="https://github.com/scummvm/scummvm/pull/6584">#6584</a></li>
-
-  <li>SCUMM: Add some bounds-checking to o5_stringOps() (bug #15884) by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/eriktorbjorn/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/eriktorbjorn">@eriktorbjorn</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3035199593"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6586"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6586/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6586">#6586</a></li>
-
-  <li>ANDROID: Extract doc outside of the assets folder by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3036868168"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6588"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6588/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6588">#6588</a></li>
-
-  <li>ANDROID: Trigger an abort on error by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3036879917"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6589"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6589/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6589">#6589</a></li>
-
-  <li>BACKENDS: OPENGL: Don''t use HW CLUT8 lookup on low precision devices by <a
-  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3035781432"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6587"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6587/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6587">#6587</a></li>
-
-  <li>OPENGL: Use helper functions for endian-specific pixel formats by <a class="user-mention
+  <li>GRAPHICS: Add generic alpha blitting routines and use them with NGI by <a class="user-mention
   notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3037585883"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6590"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6590/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6590">#6590</a></li>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3515837953"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6973"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6973/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/6973">#6973</a></li>
 
-  <li>JANITORIAL: Fix some release build warnings by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/orgads/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3037622466"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6592"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6592/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6592">#6592</a></li>
+  <li>TINYGL: Clamp viewport coordinates to INT_MAX and INT_MIN to avoid overflow/underflow
+  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/neuromancer/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/neuromancer">@neuromancer</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3633226341"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7035"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7035/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7035">#7035</a></li>
 
-  <li>FREESCAPE: Support running with any pixel format with TinyGL by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3038188057"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6597"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6597/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6597">#6597</a></li>
+  <li>PRIVATE: Wait for police bust audio to complete by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3639915835"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7036"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7036/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7036">#7036</a></li>
 
-  <li>AWE: Another World engine by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/dreammaster/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/dreammaster">@dreammaster</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2998381527"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6556"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6556/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6556">#6556</a></li>
-
-  <li>CREATE_PROJECT: Set RELEASE_BUILD also for cmake by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/orgads/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3037607952"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6591"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6591/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6591">#6591</a></li>
-
-  <li>CI: Save vcpkg cache even on build failure by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/orgads/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3034147128"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6585"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6585/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6585">#6585</a></li>
-
-  <li>IMAGE: Fix dithering 8bpp images when the container owns the palette by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3037910878"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6594"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6594/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6594">#6594</a></li>
-
-  <li>DIRECTOR: Ensure that GUI options are displayed for games that use them by <a
-  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3038140016"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6596"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6596/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6596">#6596</a></li>
-
-  <li>AWE: Silence clang warnings by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/einstein95/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/einstein95">@einstein95</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3040734685"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6598"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6598/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6598">#6598</a></li>
-
-  <li>GOB: add new german variant of English Fever by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/BJNFNE/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3049521994"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6600"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6600/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6600">#6600</a></li>
-
-  <li>DIRECTOR: Fixes for Derrat Sorcerum by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/moralrecordings/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/moralrecordings">@moralrecordings</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3037850619"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6593"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6593/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6593">#6593</a></li>
-
-  <li>TWP: FREESCAPE: Fix non-compliant GLSL by @chkuendig in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3049847344" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6602" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6602/hovercard" href="https://github.com/scummvm/scummvm/pull/6602">#6602</a></li>
-
-  <li>QDENGINE: Add 32bpp support to more drawing methods  by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3054424320"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6606"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6606/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6606">#6606</a></li>
-
-  <li>GLK: do not clear screen when adding scrollback buffer + GLK: LEVEL9: add MSX
-  entries, v1 and unknown variant support by @balyuf in <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="3055149403" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6609" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6609/hovercard" href="https://github.com/scummvm/scummvm/pull/6609">#6609</a></li>
-
-  <li>DRASCULA: Fix displaying accented characters by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/criezy/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/criezy">@criezy</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3061591415"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6612"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6612/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6612">#6612</a></li>
-
-  <li>GRIM: Mark lua_error as noreturn by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/orgads/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3063500385"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6615"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6615/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6615">#6615</a></li>
-
-  <li>GRIM: Fix unused variable warning by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/orgads/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3063685332"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6618"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6618/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6618">#6618</a></li>
-
-  <li>GRIM: Suppress compiler warning on release build by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/orgads/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3063666941"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6617"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6617/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6617">#6617</a></li>
-
-  <li>DRASCULA: Add text-to-speech (TTS) by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/ellm135/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ellm135">@ellm135</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2959532750"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6526"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6526/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6526">#6526</a></li>
-
-  <li>BASE: Fix MetaEngine leak in runGame by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/tunnelsociety/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/tunnelsociety">@tunnelsociety</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3064294975"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6619"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6619/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6619">#6619</a></li>
-
-  <li>TSAGE: More accurate surface scaling and fixes for Blue Force by <a class="user-mention
+  <li>TETRAEDGE: Increase drawCallMemorySize for TinyGl renderer by <a class="user-mention
   notranslate" data-hovercard-type="user" data-hovercard-url="/users/antoniou79/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/antoniou79">@antoniou79</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3060795962"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6611"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6611/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6611">#6611</a></li>
-
-  <li>SCI: Suppress GCC warnings on release builds by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/orgads/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3063654039"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6616"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6616/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6616">#6616</a></li>
-
-  <li>GOB: Adibou 2 / Sciences support by @sdelamarre in <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="3007230837" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6563" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6563/hovercard" href="https://github.com/scummvm/scummvm/pull/6563">#6563</a></li>
-
-  <li>AUDIO: Fix compiler warning on release build by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/orgads/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3063487199"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6614"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6614/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6614">#6614</a></li>
-
-  <li>SCUMM: Fix bad use of strncpy by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/orgads/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3067908919"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6622"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6622/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6622">#6622</a></li>
-
-  <li>GOB: fix o7_openTranslationDB typo by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/BJNFNE/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3070998390"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6628"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6628/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6628">#6628</a></li>
-
-  <li>JANITORIAL: Silence Compiler Warnings by @chkuendig in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3052940324" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6604" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6604/hovercard" href="https://github.com/scummvm/scummvm/pull/6604">#6604</a></li>
-
-  <li>SCUMM: INDY3: Backport FM-TOWNS lightning effect from Japanese release by <a
-  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3071167365"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6629"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6629/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6629">#6629</a></li>
-
-  <li>SCUMM: Fix out-of-bounds charset error with some v0.13.x saves (Trac#15931)
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3070269330"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6626"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6626/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6626">#6626</a></li>
-
-  <li>GRIM: Fix failed assertion on font rendering with TinyGL by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/orgads/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3071450869"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6631"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6631/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6631">#6631</a></li>
-
-  <li>GRIM: LUA: Avoid unnecessary calls for empty string concatenation by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/orgads/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3067974131"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6625"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6625/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6625">#6625</a></li>
-
-  <li>CLOUD: Simplify Setup Wizard by @chkuendig in <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="3052806557" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6603" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6603/hovercard" href="https://github.com/scummvm/scummvm/pull/6603">#6603</a></li>
-
-  <li>DIRECTOR: Add Italian version of Masters of the Elements to detection table
-  by @lotharsm in <a class="issue-link js-issue-link" data-error-text="Failed to load
-  title" data-id="3071443501" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6630"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6630/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6630">#6630</a></li>
-
-  <li>GOB: Code comment improvements by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/BJNFNE/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3071613657"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6633"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6633/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6633">#6633</a></li>
-
-  <li>CONFIGURE: Remove needless condition for GCC version by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/orgads/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3071474424"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6632"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6632/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6632">#6632</a></li>
-
-  <li>TSAGE: BLUEFORCE: Fix submitting password text by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/antoniou79/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/antoniou79">@antoniou79</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3062986976"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6613"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6613/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6613">#6613</a></li>
-
-  <li>NANCY: ScummVM save/load menus and Nancy 8 fixes by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/bluegr/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/bluegr">@bluegr</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3049443874"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6599"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6599/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6599">#6599</a></li>
-
-  <li>COMMON: Fix Unicode support in JSON by @chkuendig in <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="3049825246" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6601" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6601/hovercard" href="https://github.com/scummvm/scummvm/pull/6601">#6601</a></li>
-
-  <li>GOB: Detection improvements by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/BJNFNE/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3072037600"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6635"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6635/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6635">#6635</a></li>
-
-  <li>GOB: Fix SaveLoad_v7 initialization by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/orgads/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3067968035"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6624"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6624/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6624">#6624</a></li>
-
-  <li>NANCY: Don''t change cursor over Help''s Done button by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/tunnelsociety/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/tunnelsociety">@tunnelsociety</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3074663256"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6641"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6641/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6641">#6641</a></li>
-
-  <li>GRAPHICS: Fix memory leaks in image archive by @leny100 in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3071655226" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6634" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6634/hovercard" href="https://github.com/scummvm/scummvm/pull/6634">#6634</a></li>
-
-  <li>EMSCRIPTEN: TTS: Add TTS based on Web Speech API by @chkuendig in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3072095418" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6636" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6636/hovercard" href="https://github.com/scummvm/scummvm/pull/6636">#6636</a></li>
-
-  <li>BUILD: Suppress stringop-overflow and stringop-truncation GCC warnings by <a
-  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/orgads/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3072577272"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6637"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6637/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6637">#6637</a></li>
-
-  <li>BACKENDS: ATARI: Introduce AtariFilesystemNode  by @mikrosk in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3067214701" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6621" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6621/hovercard" href="https://github.com/scummvm/scummvm/pull/6621">#6621</a></li>
-
-  <li>SCUMM: Initial work on the PowerPC version of Fate of Atlantis by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/eriktorbjorn/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/eriktorbjorn">@eriktorbjorn</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3067946222"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6623"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6623/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6623">#6623</a></li>
-
-  <li>TESTBED: Small Improvements &amp; Bugfixes by @chkuendig in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3053103676" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6605" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6605/hovercard" href="https://github.com/scummvm/scummvm/pull/6605">#6605</a></li>
-
-  <li>NANCY: Fix reset sound in SafeDialPuzzle  by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/tunnelsociety/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/tunnelsociety">@tunnelsociety</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3089646977"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6654"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6654/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6654">#6654</a></li>
-
-  <li>QDENGINE: Add support for adv minigames by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3084056545"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6647"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6647/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6647">#6647</a></li>
-
-  <li>QDENGINE: More fixes for older game versions by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3090123027"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6655"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6655/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6655">#6655</a></li>
-
-  <li>DIRECTOR: Add detection for The Official Guide to The Daedalus Encounter companion
-  disc by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/einstein95/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/einstein95">@einstein95</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3081038868"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6645"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6645/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6645">#6645</a></li>
-
-  <li>SCUMM: Add small helpers for shorter/safer/clearer enhancement checks by <a
-  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3088488714"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6650"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6650/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6650">#6650</a></li>
-
-  <li>DIRECTOR: Swedish edutainment games; Krakel ABC game and the Fem Myror demo
-  from Hemglass by @BreakinBenny in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="3088915164" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6652"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6652/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6652">#6652</a></li>
-
-  <li>QDENGINE: Print more event types in human-readable form in XML scripts by <a
-  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3095436254"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6657"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6657/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6657">#6657</a></li>
-
-  <li>SCI: Improve reg_t initialization sequence by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/orgads/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3072581607"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6638"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6638/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6638">#6638</a></li>
-
-  <li>GRIM: Use concrete types to avoid GCC warning by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/orgads/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3064883076"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6620"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6620/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6620">#6620</a></li>
-
-  <li>GRAPHICS: Disable filtering when scaling image to its original size by @leny100
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3089500579"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6653"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6653/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6653">#6653</a></li>
-
-  <li>GUI: Take out all the trash (fix memory leak) by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/tunnelsociety/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/tunnelsociety">@tunnelsociety</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3099081592"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6659"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6659/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6659">#6659</a></li>
-
-  <li>QDENGINE: Fixes for Triangles minigame by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3100157231"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6660"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6660/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6660">#6660</a></li>
-
-  <li>MACGUI: Fix clicking on links in helpmenu by @leny100 in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3100824329" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6664" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6664/hovercard" href="https://github.com/scummvm/scummvm/pull/6664">#6664</a></li>
-
-  <li>QDENGINE: Bug fixes and small improvements by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3103598617"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6668"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6668/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6668">#6668</a></li>
-
-  <li>JANITORIAL: Fix MSVC macro redefinition warnings by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3100619622"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6663"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6663/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6663">#6663</a></li>
-
-  <li>COMMON: Add error description for kMetaEnginePluginNotFound by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/tunnelsociety/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/tunnelsociety">@tunnelsociety</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3101803868"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6665"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6665/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6665">#6665</a></li>
-
-  <li>STARK: Check for GL_MIRRORED_REPEAT before using it by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3100550473"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6662"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6662/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6662">#6662</a></li>
-
-  <li>GOB: use correct directories for ADI4 save files by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/BJNFNE/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3105238648"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6672"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6672/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6672">#6672</a></li>
-
-  <li>SCUMM: Fix MI1 storekeeper line being skipped (original script error) by <a
-  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3057785334"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6610"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6610/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6610">#6610</a></li>
-
-  <li>BACKENDS: Merge 3D graphics managers with the 2D ones by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3088639217"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6651"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6651/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6651">#6651</a></li>
-
-  <li>CREATE_PROJECT: Disable NDEBUG for cmake by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/orgads/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3102935722"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6667"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6667/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6667">#6667</a></li>
-
-  <li>BACKENDS: OPENGL: Fix getScreenFormat while running in 3D by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3107046896"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6675"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6675/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6675">#6675</a></li>
-
-  <li>ENGINES: Replace glColor3*/glColorPointer calls with OpenGL ES compatible calls
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3100536678"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6661"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6661/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6661">#6661</a></li>
-
-  <li>SCI: Fix GCC warning by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/orgads/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/orgads">@orgads</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3107036377"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6674"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6674/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6674">#6674</a></li>
-
-  <li>SHERLOCK: Use initGraphicsAny for 3DO screen resolutions by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3104036754"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6671"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6671/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6671">#6671</a></li>
-
-  <li>WINTERMUTE: Use common code for writing BMP files by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3107329624"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6676"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6676/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6676">#6676</a></li>
-
-  <li>WINTERMUTE: Reduce the number of surface copies when taking screenshots by <a
-  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3107618569"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6677"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6677/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6677">#6677</a></li>
-
-  <li>WINTERMUTE: Avoid unneeded pixel format conversion for fadeToColor() by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3107628636"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6678"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6678/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6678">#6678</a></li>
-
-  <li>ULTIMA4: Replace Std::deque with Common::List by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3110674731"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6683"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6683/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6683">#6683</a></li>
-
-  <li>AUDIO: Fix order of Macintosh music types by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3110258712"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6682"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6682/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6682">#6682</a></li>
-
-  <li>BASE: Show error description when game fails to run by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/tunnelsociety/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/tunnelsociety">@tunnelsociety</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3101804379"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6666"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6666/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6666">#6666</a></li>
-
-  <li>OPENGL: Add support for more pixel formats by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3098698223"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6658"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6658/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6658">#6658</a></li>
-
-  <li>QDENGINE: Improve performance for tiled animations by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3109584689"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6680"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6680/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6680">#6680</a></li>
-
-  <li>DIRECTOR: Fixes for transitions and sprite updates by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/moralrecordings/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/moralrecordings">@moralrecordings</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3086404886"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6648"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6648/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6648">#6648</a></li>
-
-  <li>GUI: Remove RTL hack by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3107813716"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6679"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6679/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6679">#6679</a></li>
-
-  <li>ULTIMA4: Replace Shared::File with Common::File by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3114259396"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6686"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6686/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6686">#6686</a></li>
-
-  <li>TEENAGENT: Add text-to-speech (TTS) by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/ellm135/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ellm135">@ellm135</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3013941147"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6566"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6566/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6566">#6566</a></li>
-
-  <li>ULTIMA1: Embed the logo and flags bitmaps in the executable by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3114263470"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6687"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6687/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6687">#6687</a></li>
-
-  <li>ULTIMA: Split up the Debugger classes by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3114228243"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6685"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6685/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6685">#6685</a></li>
-
-  <li>DS: Support returning errors when switching to unsupported resolutions by <a
-  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3104030326"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6670"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6670/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6670">#6670</a></li>
-
-  <li>DIRECTOR: use for "ein" uppercase for TKKG comments by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/BJNFNE/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3120221867"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6689"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6689/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6689">#6689</a></li>
-
-  <li>GOB: add comments for kScriptSourceFile files in demoplayer.cpp by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/BJNFNE/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3120374455"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6690"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6690/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6690">#6690</a></li>
-
-  <li>VIDEO: QTVR: Disabling warp mode 1 and minor changes by @Malharbdv in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3124292368" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6695" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6695/hovercard" href="https://github.com/scummvm/scummvm/pull/6695">#6695</a></li>
-
-  <li>VIDEO: QTVR: Fix hard coded maximum zoom value by @Malharbdv in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3124115534" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6694" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6694/hovercard" href="https://github.com/scummvm/scummvm/pull/6694">#6694</a></li>
-
-  <li>ULTIMA: Split up the UltimaEngine class by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3122086327"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6692"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6692/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6692">#6692</a></li>
-
-  <li>VIDEO: Fix audio lag and delayed playback start in MPEG videos by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3024960160"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6579"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6579/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6579">#6579</a></li>
-
-  <li>MADE: Split up the music player class to support other platforms by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3109806836"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6681"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6681/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6681">#6681</a></li>
-
-  <li>BACKENDS: OPENGL: Fix rendering issues in 3D games when antialiasing is enabled
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3130880395"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6702"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6702/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6702">#6702</a></li>
-
-  <li>XEEN: Fix protection from elements spell by @leny100 in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3131584551" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6703" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6703/hovercard" href="https://github.com/scummvm/scummvm/pull/6703">#6703</a></li>
-
-  <li>GUI: Fixes and cleanup when removing games by <a class="user-mention notranslate"
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3630515335"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7034"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7034/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7034">#7034</a></li>
+
+  <li>PRIVATE: Show cursor for safe digits by <a class="user-mention notranslate"
   data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3130489934"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6701"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6701/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6701">#6701</a></li>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3640214408"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7037"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7037/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7037">#7037</a></li>
 
-  <li>VIDEO: MPEGPS: Handle packets with invalid pts when offsetting by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3133224434"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6707"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6707/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6707">#6707</a></li>
+  <li>PRIVATE: Fix wall safe initialization, transparency by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3640658086"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7038"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7038/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7038">#7038</a></li>
 
-  <li>DOCS, CI: Update build instructions using v4 libs  by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/larsamannen/hovercard"
+  <li>PRIVATE: Fix PhoneClip variable decrementing by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3641347757"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7039"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7039/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7039">#7039</a></li>
+
+  <li>IOS7: Do not enable USE_OPENGL_GAME in iOS and tvOS when using create_project  by
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/larsamannen/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/larsamannen">@larsamannen</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3136407025"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6708"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6708/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6708">#6708</a></li>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3597682271"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7017"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7017/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7017">#7017</a></li>
 
-  <li>Fix several issues with the GroupedListWidget by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/criezy/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/criezy">@criezy</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3131641201"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6704"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6704/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6704">#6704</a></li>
+  <li>TOON: Load subtitles by base file name by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/BLooperZ/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/BLooperZ">@BLooperZ</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3649459761"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7044"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7044/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7044">#7044</a></li>
 
-  <li>WINTERMUTE: Reduce direct access to surface pixel buffers by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3125556483"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6696"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6696/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6696">#6696</a></li>
+  <li>COMMON: Make <code class="notranslate">RBTree::erase</code> return a valid iterator
+  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Botje/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Botje">@Botje</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3652089484"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7046"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7046/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7046">#7046</a></li>
 
-  <li>AWE: Add detection entry for Amiga version by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/eriktorbjorn/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/eriktorbjorn">@eriktorbjorn</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3141448376"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6712"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6712/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6712">#6712</a></li>
+  <li>PRIVATE: Implement LoseInventory() by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3645461354"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7043"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7043/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7043">#7043</a></li>
 
-  <li>AUDIO: Remove obsolete note-to-track mapping and fix mTropolis usage of it by
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/elasota/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/elasota">@elasota</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3142133735"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6713"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6713/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6713">#6713</a></li>
+  <li>PRIVATE: Implement Take/Leave sounds by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3645099677"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7042"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7042/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7042">#7042</a></li>
 
-  <li>ULTIMA8: Add imgui debug tools with item stats window by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/OMGPizzaGuy/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/OMGPizzaGuy">@OMGPizzaGuy</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3132098496"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6705"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6705/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6705">#6705</a></li>
+  <li>EMI: Don''t overwrite global actor alpha when drawing sprites by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/chkr-private/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/chkr-private">@chkr-private</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3652945888"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7047"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7047/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7047">#7047</a></li>
 
-  <li>WINTERMUTE: Remove unused blank surface by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3143985938"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6714"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6714/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6714">#6714</a></li>
+  <li>GROOVIE: Avoid crash in Clandestiny finale video by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/antoniou79/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/antoniou79">@antoniou79</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3652952374"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7048"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7048/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7048">#7048</a></li>
 
-  <li>AGS: Update detection for The Crimson Diamond by @Deledrius in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3146064255" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6719" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6719/hovercard" href="https://github.com/scummvm/scummvm/pull/6719">#6719</a></li>
+  <li>GRIM: Handle SayLine Lua call with nil parameter by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/chkr-private/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/chkr-private">@chkr-private</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3655089111"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7050"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7050/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7050">#7050</a></li>
 
-  <li>WINTERMUTE: Replace drawLine() with fillRect() for drawing indicators by <a
-  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3146392203"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6721"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6721/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6721">#6721</a></li>
+  <li>PRIVATE: Finish implementing PoliceBust and BustMovie by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3655124933"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7051"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7051/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7051">#7051</a></li>
 
-  <li>SLUDGE: Support extended saves by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/ormanbai123/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3118945904"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6688"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6688/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6688">#6688</a></li>
+  <li>PRIVATE: Fix addMemory crash when helping Mavis by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3655308616"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7052"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7052/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7052">#7052</a></li>
 
-  <li>BACKENDS: Fix screen rotation by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
+  <li>PRIVATE: Clear diary page exits by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3655822244"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7056"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7056/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7056">#7056</a></li>
+
+  <li>PRIVATE: Dossier navigation details by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3656471293"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7057"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7057/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7057">#7057</a></li>
+
+  <li>PRIVATE: Add mapping for Japanese Windows cursors by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3656591522"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7058"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7058/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7058">#7058</a></li>
+
+  <li>PRIVATE: New save format, versioning by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3659669746"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7060"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7060/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7060">#7060</a></li>
+
+  <li>NEWS: Update PRIVATE news by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3655420451"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7053"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7053/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7053">#7053</a></li>
+
+  <li>PS3: Disable windowed and iconify features by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3128213498"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6699"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6699/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6699">#6699</a></li>
-
-  <li>GRAPHICS: Add variants of Font::drawChar that preserve the alpha channel by
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3146272208"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6720"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6720/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6720">#6720</a></li>
-
-  <li>SLUDGE: Add keymapper support by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/aunnoman1/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/aunnoman1">@aunnoman1</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3122113398"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6693"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6693/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6693">#6693</a></li>
-
-  <li>SLUDGE: Add an initial Debugger implementation for dumping resources by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3148032497"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6726"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6726/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6726">#6726</a></li>
-
-  <li>SLUDGE: Support MP3 sound files by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3148033928"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6727"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6727/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6727">#6727</a></li>
-
-  <li>WINTERMUTE: Set pixels matching the colour key to black in the the 2D renderer
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3147885826"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6724"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6724/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6724">#6724</a></li>
-
-  <li>CREATE_PROJECT: Add SDL3 backend by @SupSuper in <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="3127251999" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6698" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6698/hovercard" href="https://github.com/scummvm/scummvm/pull/6698">#6698</a></li>
-
-  <li>DIRECTOR: Fixes for D5 by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/moralrecordings/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/moralrecordings">@moralrecordings</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3141151780"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6711"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6711/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6711">#6711</a></li>
-
-  <li>WINTERMUTE: Fix shader compilation with OpenGL ES 2 by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3150672825"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6729"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6729/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6729">#6729</a></li>
-
-  <li>WINTERMUTE: File loading improvements by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3150472536"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6728"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6728/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6728">#6728</a></li>
-
-  <li>LASTEXPRESS: Rewrite and finish the engine by @AndywinXp in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3144795534" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6716" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6716/hovercard" href="https://github.com/scummvm/scummvm/pull/6716">#6716</a></li>
-
-  <li>WINTERMUTE: Move alpha mask handling into the renderer classes by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3148005297"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6725"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6725/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6725">#6725</a></li>
-
-  <li>OPENGL: Fix copy/paste error with ABGR1555 pixel format by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3157840181"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6738"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6738/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6738">#6738</a></li>
-
-  <li>WINTERMUTE: Support invalidating surfaces with the 2D renderer by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3154191877"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6731"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6731/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6731">#6731</a></li>
-
-  <li>MADE: Rename Manhole TeraDrive version to DOS/V by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/einstein95/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/einstein95">@einstein95</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3158271721"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6740"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6740/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6740">#6740</a></li>
-
-  <li>Bump urllib3 from 2.4.0 to 2.5.0 in /doc/docportal by <a class="user-mention
-  notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a>[bot]
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3159040135"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6743"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6743/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6743">#6743</a></li>
-
-  <li>GRAPHICS: Add helper functions for creating endian-independent formats by <a
-  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3158249021"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6739"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6739/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6739">#6739</a></li>
-
-  <li>LASTEXPRESS: Add InstallShield archive reader by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/eriktorbjorn/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/eriktorbjorn">@eriktorbjorn</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3160900744"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6746"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6746/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6746">#6746</a></li>
-
-  <li>GRAPHICS: Add ManagedSurface::blendBlitFrom to match other functions by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3125785345"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6697"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6697/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6697">#6697</a></li>
-
-  <li>WAGE: Add text-to-speech (TTS) by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/ellm135/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ellm135">@ellm135</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3103863277"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6669"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6669/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6669">#6669</a></li>
-
-  <li>SUPERNOVA: Add keymapper support by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/aunnoman1/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/aunnoman1">@aunnoman1</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3138278737"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6709"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6709/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6709">#6709</a></li>
-
-  <li>VOYEUR: Add keymapper support by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/aunnoman1/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/aunnoman1">@aunnoman1</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3144689125"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6715"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6715/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6715">#6715</a></li>
-
-  <li>ULTIMA: Reduce differences with common String and Array classes by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3111693456"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6684"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6684/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6684">#6684</a></li>
-
-  <li>TEENAGENT: Fix Russian TTS encoding by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/ellm135/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ellm135">@ellm135</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3147007540"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6722"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6722/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6722">#6722</a></li>
-
-  <li>CRUISE: Add text-to-speech (TTS) by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/ellm135/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ellm135">@ellm135</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3138424117"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6710"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6710/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6710">#6710</a></li>
-
-  <li>ENGINES: Set boolean uniforms using integer calls for AmigaOS 4 by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3151229530"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6730"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6730/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6730">#6730</a></li>
-
-  <li>AWE: Implement playSfxMusic by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/scemino/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/scemino">@scemino</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3154759068"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6733"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6733/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6733">#6733</a></li>
-
-  <li>AGI: Fix "choppy" sound on PCjr on fast notes by @SinusPi in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3156076326" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6736" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6736/hovercard" href="https://github.com/scummvm/scummvm/pull/6736">#6736</a></li>
-
-  <li>BLADERUNNER: Simplify pixel format selection by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3154949471"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6734"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6734/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6734">#6734</a></li>
-
-  <li>AWE: Use RGB555 for 3DO graphics by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3154986898"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6735"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6735/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6735">#6735</a></li>
-
-  <li>CRAB: Support additional pixel formats by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3161025335"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6749"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6749/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6749">#6749</a></li>
-
-  <li>COMMON: Remove always-true asserts on base string by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/OMGPizzaGuy/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/OMGPizzaGuy">@OMGPizzaGuy</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3161816692"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6753"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6753/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6753">#6753</a></li>
-
-  <li>WINTERMUTE: Use setOutputPixelFormat when loading JPEG images by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3164067001"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6755"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6755/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6755">#6755</a></li>
-
-  <li>SLUDGE: Add four other versions of cubert to detection table by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3164328045"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6756"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6756/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6756">#6756</a></li>
-
-  <li>ULTIMA8: Replace quick mover keys with a toggle to override normal directional
-  movement by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/OMGPizzaGuy/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/OMGPizzaGuy">@OMGPizzaGuy</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3164446685"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6758"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6758/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6758">#6758</a></li>
-
-  <li>WINTERMUTE: Combine detecting alpha transparency with applying the colour key
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3165282001"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6762"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6762/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6762">#6762</a></li>
-
-  <li>DEVTOOLS: dumper_companion - Numerous fixes and cleanups by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/einstein95/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/einstein95">@einstein95</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3144956216"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6717"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6717/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6717">#6717</a></li>
-
-  <li>WAGE: Various bug fixes and detection for more games by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3164328851"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6757"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6757/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6757">#6757</a></li>
-
-  <li>CRUISE: Fix TTS encoding, empty text queuing, and logo speech by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ellm135/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ellm135">@ellm135</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3161731255"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6752"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6752/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6752">#6752</a></li>
-
-  <li>GRAPHICS: Add a ManagedSurface function for filling surfaces with blending by
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3161435285"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6751"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6751/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6751">#6751</a></li>
-
-  <li>PSP2: Remove psp2shell dependency by @Aztorius in <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="3165328729" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6763" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6763/hovercard" href="https://github.com/scummvm/scummvm/pull/6763">#6763</a></li>
-
-  <li>GRAPHICS: Use fixed point arithmetic in scaleBlit by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3165409898"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6765"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6765/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6765">#6765</a></li>
-
-  <li>TITANIC: Add keymapper support by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/aunnoman1/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/aunnoman1">@aunnoman1</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3160885499"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6745"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6745/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6745">#6745</a></li>
-
-  <li>CI: Fix libmpeg2 vcpkg source by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/bluegr/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/bluegr">@bluegr</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3165900124"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6767"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6767/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6767">#6767</a></li>
-
-  <li>AGI: add --pcjr-noise option to set shift register by @SinusPi in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3162264821" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6754" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6754/hovercard" href="https://github.com/scummvm/scummvm/pull/6754">#6754</a></li>
-
-  <li>COMMON: set EVENT_MAX for EventType to force size by @Aztorius in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3166067588" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6768" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6768/hovercard" href="https://github.com/scummvm/scummvm/pull/6768">#6768</a></li>
-
-  <li>I18N: Normalize keymapper action descriptions by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/aunnoman1/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/aunnoman1">@aunnoman1</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3164469655"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6759"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6759/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6759">#6759</a></li>
-
-  <li>DIRECTOR: Fixes for D5 by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/moralrecordings/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/moralrecordings">@moralrecordings</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3160944994"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6747"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6747/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6747">#6747</a></li>
-
-  <li>DIRECTOR: Start saving Director movies  by @Malharbdv in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3168786101" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6769" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6769/hovercard" href="https://github.com/scummvm/scummvm/pull/6769">#6769</a></li>
-
-  <li>DIRECTOR: Remove unnecessary chunk.h file by @Malharbdv in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3180332852" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6776" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6776/hovercard" href="https://github.com/scummvm/scummvm/pull/6776">#6776</a></li>
-
-  <li>BUILD: enable ARM NEON on PSP2 by @Aztorius in <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="3184027315" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6781" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6781/hovercard" href="https://github.com/scummvm/scummvm/pull/6781">#6781</a></li>
-
-  <li>ENGINES: Make more use of endian-safe pixel formats by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3160965167"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6748"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6748/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6748">#6748</a></li>
-
-  <li>BLADERUNNER: Wait with framelimiter in OuttakePlayer::play() by @Aztorius in
-  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3147675872"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6723"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6723/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6723">#6723</a></li>
-
-  <li>NGI: Add keymapper support by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/aunnoman1/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/aunnoman1">@aunnoman1</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3183319883"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6780"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6780/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6780">#6780</a></li>
-
-  <li>FREESCAPE: Reduce pixel format conversion when loading images by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3160065285"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6744"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6744/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6744">#6744</a></li>
-
-  <li>AWE: Add Italian strings for Amiga version, updates to detection table by @tag2015
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3172486683"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6771"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6771/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6771">#6771</a></li>
-
-  <li>DIRECTOR: Fix Palette Duplication by @Malharbdv in <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="3193291179" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6788" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6788/hovercard" href="https://github.com/scummvm/scummvm/pull/6788">#6788</a></li>
-
-  <li>DIRECTOR: Fixes for Cracking the Conspiracy by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/moralrecordings/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/moralrecordings">@moralrecordings</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3179863366"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6774"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6774/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6774">#6774</a></li>
-
-  <li>TESTBED: Fix broken tests and non-interactive mode by @chkuendig in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3193910141" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6789" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6789/hovercard" href="https://github.com/scummvm/scummvm/pull/6789">#6789</a></li>
-
-  <li>AWE: Enable EGA/VGA renderer selection for DOS version by @tag2015 in <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="3192028008" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6786" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6786/hovercard" href="https://github.com/scummvm/scummvm/pull/6786">#6786</a></li>
-
-  <li>DEVTOOLS: CREATE_LURE: Support generation of Russian lure.dat by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3165347383"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6764"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6764/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6764">#6764</a></li>
-
-  <li>GRAPHICS: Support scaling 24bpp surfaces by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3197027540"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6792"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6792/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6792">#6792</a></li>
-
-  <li>AGS: Fix displaying thumbnails in the ScummVM GUI by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3189979040"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6784"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6784/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6784">#6784</a></li>
-
-  <li>GUI: Support CLUT8 surfaces in graphical widgets by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3196249629"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6791"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6791/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6791">#6791</a></li>
-
-  <li>BACKENDS: OPENGL3D: Fix builds with USE_FORCED_GLES and without USE_GLAD by
-  @chkuendig in <a class="issue-link js-issue-link" data-error-text="Failed to load
-  title" data-id="3193916313" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6790"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6790/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6790">#6790</a></li>
-
-  <li>GRAPHICS: Add fast paths for converting between 32-bit pixel formats by <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3164517705"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6760"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6760/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6760">#6760</a></li>
-
-  <li>DIRECTOR: Save Cast Config and cast member info (''CASt'') by @Malharbdv in
-  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3192103726"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6787"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6787/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6787">#6787</a></li>
-
-  <li>IOS7: Don''t override DefaultSaveFileManager::removeSavefile by <a class="user-mention
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3657444728"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7059"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7059/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7059">#7059</a></li>
+
+  <li>VIDEO: Don''t hardcode expected channels in PSX decoder by <a class="user-mention
   notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3185306668"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6782"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6782/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6782">#6782</a></li>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3655636408"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7054"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7054/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7054">#7054</a></li>
 
-  <li>WAGE: Add more titles to detection table by <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3213297513"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6800"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6800/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6800">#6800</a></li>
+  <li>DIRECTOR: Last minute fixes by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/moralrecordings/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/moralrecordings">@moralrecordings</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3643388725"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7040"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7040/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7040">#7040</a></li>
 
-  <li>QDENGINE: Add support for punycode by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/ormanbai123/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3216636088"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6802"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6802/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6802">#6802</a></li>
+  <li>JANITORIAL: add pre-commit configuration file by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/whoozle/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/whoozle">@whoozle</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3578571076"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7000"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7000/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7000">#7000</a></li>
 
-  <li>TETRAEDGE: Add keymapper support by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/aunnoman1/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/aunnoman1">@aunnoman1</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3161395962"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6750"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6750/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6750">#6750</a></li>
+  <li>NGI: Fix use-after-free (Trac#16268) by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3655775651"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7055"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7055/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7055">#7055</a></li>
 
-  <li>ADL: Add text-to-speech (TTS) by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/ellm135/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ellm135">@ellm135</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3190476345"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6785"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6785/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6785">#6785</a></li>
+  <li>DIRECTOR: add new detection entries for: by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/Lariaa/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Lariaa">@Lariaa</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3484940775"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6962"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6962/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/6962">#6962</a></li>
 
-  <li>TEENAGENT: Add language support for Polish, Czech and Russian versions by <a
-  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ormanbai123/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ormanbai123">@ormanbai123</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3206944749"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6798"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6798/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6798">#6798</a></li>
+  <li>GRIM: LUA: Fix lua_error() ''noreturn'' warning on some platforms by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3676611767"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7062"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7062/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7062">#7062</a></li>
 
-  <li>GOB: sync entry of German translation of Croustibat by <a class="user-mention
+  <li>PRIVATE: Misc code cleanup by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3678583493"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7066"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7066/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7066">#7066</a></li>
+
+  <li>AGI: Fix RTL display for wrapped strings by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/sam-mfb/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sam-mfb">@sam-mfb</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3674393551"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7061"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7061/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7061">#7061</a></li>
+
+  <li>PRIVATE: Update PhoneClip implementation by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3696861101"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7071"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7071/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7071">#7071</a></li>
+
+  <li>GOB: add french ADI5 addon to detection by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/BJNFNE/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3701351105"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7074"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7074/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7074">#7074</a></li>
+
+  <li>Bump urllib3 from 2.5.0 to 2.6.0 in /doc/docportal by <a class="user-mention
+  notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a>[bot]
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3701021479"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7073"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7073/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7073">#7073</a></li>
+
+  <li>COMMON: Add Canadian French language by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/sdelamarre/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sdelamarre">@sdelamarre</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3692261115"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7070"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7070/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7070">#7070</a></li>
+
+  <li>STARK: Add support for OpenGL without NPOT by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3677754855"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7064"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7064/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7064">#7064</a></li>
+
+  <li>MM: MM1: Fix crashes when monsters advance during combat by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Lili1228/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Lili1228">@Lili1228</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3677146363"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7063"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7063/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7063">#7063</a></li>
+
+  <li>AGI: Add game detection entry for SQ2 Hebrew localization by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/sam-mfb/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/sam-mfb">@sam-mfb</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3702178559"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7076"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7076/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7076">#7076</a></li>
+
+  <li>SCI: Reduce stack usage in Console::cmdShowInstruments() by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3707848828"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7079"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7079/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7079">#7079</a></li>
+
+  <li>PRIVATE: Fully implement AMRadioClip and PoliceClip by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3703948329"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7078"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7078/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7078">#7078</a></li>
+
+  <li>PRIVATE: Fix exit area on epilogue screens by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3711840405"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7080"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7080/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7080">#7080</a></li>
+
+  <li>PRIVATE: Enable pausing when police bust is enabled by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3713013494"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7082"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7082/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7082">#7082</a></li>
+
+  <li>PRIVATE: Resume background music after pausing by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3714119323"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7083"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7083/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7083">#7083</a></li>
+
+  <li>AGI: Detect WORDS.TOK.EXTENDED, Remove GF_EXTCHAR by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3720935557"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7084"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7084/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7084">#7084</a></li>
+
+  <li>AGI: funmade hebrew translation KQ3 by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/SegMash/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/SegMash">@SegMash</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3726435659"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7086"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7086/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7086">#7086</a></li>
+
+  <li>JANITORIAL: resolve signed/unsigned conflicts by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3692141368"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7069"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7069/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7069">#7069</a></li>
+
+  <li>IOS7: Disable bounces of the ScrollView containing the toolbar by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/larsamannen/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/larsamannen">@larsamannen</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3735151379"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7089"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7089/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7089">#7089</a></li>
+
+  <li>CREATE_PROJECT: Do not set SCUMMVM_NEON for all iOS/tvOS targets by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/larsamannen/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/larsamannen">@larsamannen</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3712738457"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7081"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7081/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7081">#7081</a></li>
+
+  <li>PRIVATE: Sound fixes by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3728199893"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7088"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7088/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7088">#7088</a></li>
+
+  <li>JANITORIAL: TOT: resolve signed/unsigned conflicts by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3749834727"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7094"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7094/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7094">#7094</a></li>
+
+  <li>SCI: [RFC] Add Behind the Developer''s Shield as a separate "game" by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/eriktorbjorn/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/eriktorbjorn">@eriktorbjorn</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3749739432"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7093"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7093/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7093">#7093</a></li>
+
+  <li>HUGO: Fix HUGO2 DOS parser by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3754931211"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7098"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7098/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7098">#7098</a></li>
+
+  <li>HUGO: Fix HUGO2 parrot priority by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3764143981"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7100"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7100/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7100">#7100</a></li>
+
+  <li>GOB: add french Adibou1 CD variant by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/BJNFNE/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3765496689"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7104"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7104/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7104">#7104</a></li>
+
+  <li>SHERLOCK: SCALPEL: Add missing JOY_A mappings for controller support by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/zafos/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/zafos">@zafos</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3767121876"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7106"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7106/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7106">#7106</a></li>
+
+  <li>GOB: add filesize version number langcode to GOB games by <a class="user-mention
   notranslate" data-hovercard-type="user" data-hovercard-url="/users/BJNFNE/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3165894695"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6766"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6766/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6766">#6766</a></li>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3772231427"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7109"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7109/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7109">#7109</a></li>
 
-  <li>GRAPHICS: Set hwFormat as first supported format in surfacesdl by @Aztorius
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3180244962"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6775"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6775/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6775">#6775</a></li>
+  <li>M4: Add subtitles for Orion Burger and Riddle of Master Lu by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/bluegr/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/bluegr">@bluegr</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3740854722"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7090"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7090/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7090">#7090</a></li>
 
-  <li>TEENAGENT: Add keymapper support by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/aunnoman1/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/aunnoman1">@aunnoman1</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3173373961"
-  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6772"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6772/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6772">#6772</a></li>
+  <li>HUGO: Fix direction handling by retaining keycodes. by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/OMGPizzaGuy/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/OMGPizzaGuy">@OMGPizzaGuy</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3765041988"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7102"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7102/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7102">#7102</a></li>
+
+  <li>SCUMM: Fix HENetworkGameOptionsDialog layout not being defined by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3775013019"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7112"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7112/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7112">#7112</a></li>
+
+  <li>JANITORIAL: Fix "orignal" typo in comment by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3776483329"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7114"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7114/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7114">#7114</a></li>
+
+  <li>JANITORIAL: Fix "cant" typo in comment by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3776485511"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7116"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7116/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7116">#7116</a></li>
+
+  <li>libretro: specify location of engines.awk by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/cscd98/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/cscd98">@cscd98</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3703921999"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7077"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7077/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7077">#7077</a></li>
+
+  <li>GRAPHICS: MACGUI: Fix Beam cursor gets stuck after editing editable widget by
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/SandhuAmy35/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/SandhuAmy35">@SandhuAmy35</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3777343501"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7118"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7118/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7118">#7118</a></li>
+
+  <li>JANITORIAL: Fix spelling of ''Writing'' in comments by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/raziel-/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3776481858"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7113"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7113/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7113">#7113</a></li>
+
+  <li>JANITORIAL: Fix some mispellings by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/raziel-/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/raziel-">@raziel-</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3776488071"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7117"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7117/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7117">#7117</a></li>
+
+  <li>HUGO: Implement DOS displayFrame() by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3768243955"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7108"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7108/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7108">#7108</a></li>
+
+  <li>GRAPHICS: MACGUI: Fix: Adjust scroll position for editable MacText using kConHPadding
+  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Al-HassanIbrahim/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Al-HassanIbrahim">@Al-HassanIbrahim</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3565881217"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6987"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6987/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/6987">#6987</a></li>
+
+  <li>WAGE: Fix Commands menu not resetting on scene change (bug #16294) by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Al-HassanIbrahim/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Al-HassanIbrahim">@Al-HassanIbrahim</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3650616651"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7045"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7045/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7045">#7045</a></li>
+
+  <li>GUI: Translate the default OK button in message boxes by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3778452911"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7122"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7122/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7122">#7122</a></li>
+
+  <li>JANITORIAL: Small build fixes in graphics and emscripten port by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Mataniko/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Mataniko">@Mataniko</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3778757876"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7124"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7124/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7124">#7124</a></li>
+
+  <li>GUI: Restore Hindi font overrides by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3778585010"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7123"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7123/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7123">#7123</a></li>
+
+  <li>DEVTOOLS: added script that executes event recorder tests for configured demos
+  and record files by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/mgerhardy/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/mgerhardy">@mgerhardy</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3777353202"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7119"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7119/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7119">#7119</a></li>
+
+  <li>WINTERMUTE: sotv1/sotv2 improvements by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/darioscarpa/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/darioscarpa">@darioscarpa</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3780045999"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7125"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7125/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7125">#7125</a></li>
+
+  <li>CREATE_PROJECT: add support for SLNX files by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3781177286"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7127"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7127/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7127">#7127</a></li>
+
+  <li>PRIVATE: fix #16423 subtitles are restored. by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/dhruv0154/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/dhruv0154">@dhruv0154</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3765936408"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7105"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7105/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7105">#7105</a></li>
+
+  <li>GUI: Enable multi-selection and multi-removal in list and grid view by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/mohitbankar/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mohitbankar">@mohitbankar</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3751490295"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7096"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7096/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7096">#7096</a></li>
+
+  <li>DEVTOOLS: Add LLDB pretty-printers by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/Botje/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Botje">@Botje</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3748469788"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7091"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7091/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7091">#7091</a></li>
+
+  <li>GUI: Add missing filter matcher to grid widget by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/jaskaran-singh-77/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/jaskaran-singh-77">@jaskaran-singh-77</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3788975243"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7132"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7132/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7132">#7132</a></li>
+
+  <li>BLADERUNNER: Avoid overflow errors with VQA files by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3778437773"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7121"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7121/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7121">#7121</a></li>
+
+  <li>DIRECTOR: add Greveholm 3 to detection by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3780614582"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7126"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7126/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7126">#7126</a></li>
+
+  <li>AGDS: Add detection for the demo version of Black Mirror by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3785678649"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7131"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7131/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7131">#7131</a></li>
+
+  <li>Bump urllib3 from 2.6.0 to 2.6.3 in /doc/docportal by <a class="user-mention
+  notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a>[bot]
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3791527409"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7133"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7133/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7133">#7133</a></li>
+
+  <li>HUGO: Implement DOS user interface by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3799079641"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7136"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7136/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7136">#7136</a></li>
+
+  <li>DIRECTOR: Fixes for Welcome to the Future by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/moralrecordings/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/moralrecordings">@moralrecordings</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3795216054"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7134"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7134/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7134">#7134</a></li>
+
+  <li>WINTERMUTE: fix sotv1 package paths by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/darioscarpa/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/darioscarpa">@darioscarpa</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3825020694"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7142"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7142/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7142">#7142</a></li>
+
+  <li>WINTERMUTE: fix subtitles not shown on video by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/darioscarpa/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/darioscarpa">@darioscarpa</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3825071196"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7143"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7143/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7143">#7143</a></li>
+
+  <li>GOB: add new detection entries by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/BJNFNE/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3825616121"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7147"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7147/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7147">#7147</a></li>
+
+  <li>GOB: use FR_CAN for French Canadian Adibou2 variant by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/BJNFNE/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3825671201"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7148"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7148/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7148">#7148</a></li>
+
+  <li>ULTIMA: NUVIE: rework detection of the known SE Versions by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Henne/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Henne">@Henne</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3825973190"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7150"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7150/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7150">#7150</a></li>
+
+  <li>AGI: Add detection for SQ1 Hebrew version by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/sam-mfb/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sam-mfb">@sam-mfb</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3825371610"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7145"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7145/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7145">#7145</a></li>
+
+  <li>VIDEO: fix TheoraDecoder handling of dup frames by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/darioscarpa/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/darioscarpa">@darioscarpa</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3825093760"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7144"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7144/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7144">#7144</a></li>
+
+  <li>3DS: Fix versioning scheme by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3826666496"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7151"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7151/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7151">#7151</a></li>
+
+  <li>DC: Fix version scheme by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/lephilousophe/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3826719439"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7152"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7152/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7152">#7152</a></li>
+
+  <li>ULTIMA: NUVIE: detect all versions of MD V1.4 correctly by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Henne/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Henne">@Henne</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3827021391"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7153"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7153/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7153">#7153</a></li>
+
+  <li>GRAPHICS: MACGUI: Fix scrolling behaviors, dialog layouts, and some other bugs.
+  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dhruv0154/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dhruv0154">@dhruv0154</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3765114476"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7103"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7103/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7103">#7103</a></li>
+
+  <li>CREATE_PROJECT: Cmake multi-config and /opt/homebrew by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Botje/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Botje">@Botje</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3804529962"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7139"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7139/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7139">#7139</a></li>
+
+  <li>AUDIO: Reduce the volume for the PC Speaker emulator by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3831326670"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7155"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7155/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7155">#7155</a></li>
+
+  <li>WAGE: Fixed some bugs in step by step design debugger. by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/dhruv0154/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dhruv0154">@dhruv0154</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3838296016"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7157"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7157/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7157">#7157</a></li>
+
+  <li>Janitorial: Fixed typo ''teh'' in hpl1 comments by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/TejeshwarDivekar/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/TejeshwarDivekar">@TejeshwarDivekar</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3841111111"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7158"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7158/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7158">#7158</a></li>
+
+  <li>BAKCEND: SDL3: Swap language and country in locale formatting by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/BeWorld2018/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/BeWorld2018">@BeWorld2018</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3842823997"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7160"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7160/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7160">#7160</a></li>
+
+  <li>ANDROID: Updates to the build system and some cleanups by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3827129926"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7154"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7154/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7154">#7154</a></li>
+
+  <li>NDS: Make some parts of ScummVM go to the secondary ROM by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3751114726"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7095"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7095/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7095">#7095</a></li>
+
+  <li>GUI: Restrict max width of scaled pictures in Help by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/gulraiznoorbari/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gulraiznoorbari">@gulraiznoorbari</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3856712663"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7169"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7169/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7169">#7169</a></li>
+
+  <li>BACKENDS: MACOS: Various small fixes/improvements for Tiger/Leopard by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3837654726"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7156"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7156/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7156">#7156</a></li>
+
+  <li>Configure: Update MorphOS part by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/BeWorld2018/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/BeWorld2018">@BeWorld2018</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3843258926"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7161"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7161/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7161">#7161</a></li>
+
+  <li>SCI32: Remove GK2 fan subtitle suggestion by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3853951096"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7167"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7167/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7167">#7167</a></li>
+
+  <li>GRAPHICS: MACGUI: fix active window while scrolling by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/dhruv0154/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dhruv0154">@dhruv0154</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3863603524"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7172"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7172/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7172">#7172</a></li>
+
+  <li>SAGA: IHNM: Add detection for french fan translation by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/DarkCenobyte/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DarkCenobyte">@DarkCenobyte</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3853799682"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7166"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7166/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7166">#7166</a></li>
+
+  <li>GUI: Multi-Selection and List Widget Improvements by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/mohitbankar/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mohitbankar">@mohitbankar</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3852888971"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7165"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7165/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7165">#7165</a></li>
+
+  <li>WINTERMUTE: fix culling in Setup2D by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/darioscarpa/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/darioscarpa">@darioscarpa</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3879404742"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7179"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7179/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7179">#7179</a></li>
+
+  <li>PRIVATE: Fix subtitle restoration in main menu and prevent SFX interruption
+  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dhruv0154/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dhruv0154">@dhruv0154</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3816196916"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7140"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7140/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7140">#7140</a></li>
+
+  <li>AGOS: Implement font squeezing routine for DOS Personal Nightmare and the Amiga
+  Elvira 1 demo by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/robertmegone/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/robertmegone">@robertmegone</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3866666618"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7174"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7174/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7174">#7174</a></li>
+
+  <li>WAGE: fix #16293. by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/dhruv0154/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/dhruv0154">@dhruv0154</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3878509647"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7178"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7178/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7178">#7178</a></li>
+
+  <li>GUI: Properly restore last selected game in launchers by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/mohitbankar/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mohitbankar">@mohitbankar</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3881619386"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7181"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7181/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7181">#7181</a></li>
+
+  <li>VIDEO: Fix seeking to a keyframe in BINK videos by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/antoniou79/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/antoniou79">@antoniou79</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3880443475"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7180"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7180/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7180">#7180</a></li>
+
+  <li>DIRECTOR: Add language to quality table message by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/einstein95/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/einstein95">@einstein95</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3873420835"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7176"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7176/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7176">#7176</a></li>
+
+  <li>IMAGE: Make more codecs into optional components by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3783188454"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7130"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7130/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7130">#7130</a></li>
+
+  <li>AUDIO: Make the SID emulator a subclass of Audio::Chip by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="2459716555"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6039"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6039/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/6039">#6039</a></li>
+
+  <li>TTS: MACOS, IOS: Implement Text to Speech using AVSpeechSynthesizer  by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/criezy/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/criezy">@criezy</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3862730267"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7171"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7171/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7171">#7171</a></li>
+
+  <li>SCI: Adding Hebrew translation for KQ4 by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/SegMash/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/SegMash">@SegMash</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3887659354"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7184"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7184/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7184">#7184</a></li>
+
+  <li>GUI: Lists clear and cls in the gui console debugger''s instructions by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lwcorp/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lwcorp">@lwcorp</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3887615186"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7183"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7183/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7183">#7183</a></li>
+
+  <li>IMAGE: Improve support for writing image files with palettes by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3783115426"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7129"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7129/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7129">#7129</a></li>
+
+  <li>JANITORIAL: SCUMM: HE: do not cast away constness by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3897745914"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7188"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7188/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7188">#7188</a></li>
+
+  <li>JANITORIAL: AGS: add missing override keyword by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3897853313"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7189"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7189/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7189">#7189</a></li>
+
+  <li>JANITORIAL: ULTIMA: make some constants constexpr by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3898264287"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7192"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7192/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7192">#7192</a></li>
+
+  <li>JANITORIAL: LAB: remove redundant parentheses by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3898885626"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7193"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7193/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7193">#7193</a></li>
+
+  <li>JANITORIAL: ALCACHOFA: add missing overrides by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3898256554"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7191"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7191/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7191">#7191</a></li>
+
+  <li>FREESCAPE: Implement missing Driller sounds for ZX Spectrum and Amstrad CPC
+  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/neuromancer/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/neuromancer">@neuromancer</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3677775111"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7065"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7065/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7065">#7065</a></li>
+
+  <li>JANITORIAL: WAGE: resolve signed/unsigned mismatches by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3897423784"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7187"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7187/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7187">#7187</a></li>
+
+  <li>PRINCE: Do not show subtiles if they are disabled from GUI by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/antoniou79/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/antoniou79">@antoniou79</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3902965329"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7194"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7194/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7194">#7194</a></li>
+
+  <li>JANITORIAL: DEVTOOLS: remove unused loop variables by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3909830847"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7199"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7199/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7199">#7199</a></li>
+
+  <li>NEVERHOOD: Fix radio music playing when radio is not enabled by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Player701/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Player701">@Player701</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3907272609"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7197"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7197/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7197">#7197</a></li>
+
+  <li>ALCACHOFA: fix "conatins" typo in graphics.cpp by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/BJNFNE/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3910202462"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7202"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7202/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7202">#7202</a></li>
+
+  <li>ULTIMA: Replace Std::string, Std::vector and Std::list with common equivalents
+  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3908505049"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7198"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7198/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7198">#7198</a></li>
+
+  <li>SHERLOCK: TATTOO: Fix bug <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="3596822771" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7012"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7012/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7012">#7012</a> volume controls for
+  MIDI music by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Miguel-Herrero/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Miguel-Herrero">@Miguel-Herrero</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3801198614"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7138"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7138/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7138">#7138</a></li>
+
+  <li>3DS: Use official button names from 3DS manual by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/einstein95/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/einstein95">@einstein95</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3904173945"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7195"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7195/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7195">#7195</a></li>
+
+  <li>JANITORIAL: CREATE_PROJECT: disable MD5 deprecation warning by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3909834417"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7200"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7200/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7200">#7200</a></li>
+
+  <li>SCUMM: MI2 DOS NI demo - Minor script patch to prevent crash at startup by following
+  the correct script path. by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/robertmegone/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/robertmegone">@robertmegone</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3876866324"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7177"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7177/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7177">#7177</a></li>
+
+  <li>3DS: Fix d-pad direction case by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/einstein95/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/einstein95">@einstein95</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3912393250"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7205"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7205/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7205">#7205</a></li>
+
+  <li>FREESCAPE: add a debugger. by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/dhruv0154/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/dhruv0154">@dhruv0154</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3911138792"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7203"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7203/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7203">#7203</a></li>
+
+  <li>GUI: Adding Help button to GMM and Browser dialog by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/sev-/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/sev-">@sev-</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3858226547"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7170"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7170/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7170">#7170</a></li>
+
+  <li>COMMON: make Common::Pair constexpr by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/meekee7/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3898247963"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7190"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7190/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7190">#7190</a></li>
+
+  <li>JANITORIAL: DEVTOOLS: replace sprintf with snprintf by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3909841044"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7201"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7201/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7201">#7201</a></li>
+
+  <li>BAGEL: MFC: Move MFC into graphics/ by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/dreammaster/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/dreammaster">@dreammaster</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3889843954"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7186"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7186/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7186">#7186</a></li>
+
+  <li>SCUMM: MMNES - Add support for playback of title screens. by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/robertmegone/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/robertmegone">@robertmegone</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3915775783"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7206"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7206/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7206">#7206</a></li>
+
+  <li>BLADERUNNER: Drop ''long double'' usage by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3921351383"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7210"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7210/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7210">#7210</a></li>
+
+  <li>DIRECTOR: add MacJapanese pre-6 equality table by @mistydemeo in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="3923167168" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7212" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7212/hovercard" href="https://github.com/scummvm/scummvm/pull/7212">#7212</a></li>
+
+  <li>CREATE_PROJECT: use C++11-style for each loops instead of iterators by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3923687744"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7213"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7213/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7213">#7213</a></li>
+
+  <li>DREAMCAST: Automatically launch when single game detected by @mark-temporary
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3917277626"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7208"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7208/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7208">#7208</a></li>
+
+  <li>JANITORIAL: NUVIE: resolve global constructor by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3925376010"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7214"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7214/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7214">#7214</a></li>
+
+  <li>COMMON: Move file search in current working directory to backends by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/lephilousophe/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lephilousophe">@lephilousophe</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3881755306"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7182"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7182/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7182">#7182</a></li>
+
+  <li>BACKENDS: SDL: Set getImGuiTexture filtering to nearest by @sronsse in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="3919270173" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7209" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7209/hovercard" href="https://github.com/scummvm/scummvm/pull/7209">#7209</a></li>
+
+  <li>GUI: Add scrollable removal confirmation dialog by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/mohitbankar/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/mohitbankar">@mohitbankar</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3917103660"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7207"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7207/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7207">#7207</a></li>
+
+  <li>GRAPHICS: FONTS: Add allowCharClipping parameter by @AndywinXp in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="3872630205" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7175" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7175/hovercard" href="https://github.com/scummvm/scummvm/pull/7175">#7175</a></li>
+
+  <li>GUI: Fix the List scrolling with up/down keys by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/mohitbankar/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/mohitbankar">@mohitbankar</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3930974299"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7216"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7216/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7216">#7216</a></li>
+
+  <li>JANITORIAL: M4: add missing constructors to Buffer struct by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3930783510"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7215"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7215/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7215">#7215</a></li>
+
+  <li>JANITORIAL: M4: restore default initializers to Buffer struct by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3932301882"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7217"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7217/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7217">#7217</a></li>
+
+  <li>DIRECTOR: Fixes for Incarnatia by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/moralrecordings/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/moralrecordings">@moralrecordings</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3933625534"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7219"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7219/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7219">#7219</a></li>
+
+  <li>SCUMM: Introduce ScummEditor by @sronsse in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="3933527627" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7218" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7218/hovercard" href="https://github.com/scummvm/scummvm/pull/7218">#7218</a></li>
+
+  <li>GUI: Fix Arrow key navigation in Grouped List by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/mohitbankar/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/mohitbankar">@mohitbankar</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3935121241"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7220"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7220/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7220">#7220</a></li>
+
+  <li>GUI: Fix arrow key navigation with collapsed groups in List by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/mohitbankar/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mohitbankar">@mohitbankar</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3938366773"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7223"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7223/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7223">#7223</a></li>
+
+  <li>SCUMM: Add getEncByte helper method by @sronsse in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="3938144349" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7222" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7222/hovercard" href="https://github.com/scummvm/scummvm/pull/7222">#7222</a></li>
+
+  <li>SCUMM: MM NES - Workaround to fix intro logo scroll hang with 256px viewport
+  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/robertmegone/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/robertmegone">@robertmegone</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3935331224"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7221"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7221/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7221">#7221</a></li>
+
+  <li>FREESCAPE: Fix DOS/CGA rendering and palettes for Total Eclipse by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/SandhuAmy35/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/SandhuAmy35">@SandhuAmy35</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3941000041"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7225"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7225/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7225">#7225</a></li>
+
+  <li>Move and update the ImGui MemoryEditor component by @sronsse in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="3942548403" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7229" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7229/hovercard" href="https://github.com/scummvm/scummvm/pull/7229">#7229</a></li>
+
+  <li>FREESCAPE: remove temp file from freescape engine by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/BJNFNE/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3944035263"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7230"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7230/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7230">#7230</a></li>
+
+  <li>DEVTOOLS: PYCDLIB: Allow None encoding in <em>get</em>*_entry functions, add
+  encoding fallback in walk by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/einstein95/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/einstein95">@einstein95</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3912388279"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7204"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7204/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7204">#7204</a></li>
+
+  <li>JANITORIAL: ULTIMA: use ARRAYSIZE macro by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3944861300"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7232"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7232/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7232">#7232</a></li>
+
+  <li>JANITORIAL: HPL1: use ARRAYSIZE macro by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3944866496"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7233"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7233/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7233">#7233</a></li>
+
+  <li>JANITORIAL: GRIM: use ARRAYSIZE macro by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3944869183"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7234"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7234/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7234">#7234</a></li>
+
+  <li>JANITORIAL: ENGINES: use ARRAYSIZE macro by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3944873334"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7235"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7235/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7235">#7235</a></li>
+
+  <li>JANITORIAL: DEVTOOLS: use common ARRAYSIZE macro definition by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3944877093"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7236"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7236/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7236">#7236</a></li>
+
+  <li>JANITORIAL: use common ARRAYSIZE macro by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3944881742"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7237"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7237/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7237">#7237</a></li>
+
+  <li>AGS: Update beyondowlsgard entry by @menschel in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="3944720807" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7231" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7231/hovercard" href="https://github.com/scummvm/scummvm/pull/7231">#7231</a></li>
+
+  <li>Fix JSON library IntegerNumber handling by @sronsse in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="3944923570" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7239" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7239/hovercard" href="https://github.com/scummvm/scummvm/pull/7239">#7239</a></li>
+
+  <li>AGOS: Simon 1 Acorn - Implement Acorn cursor for Simon 1 by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/robertmegone/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/robertmegone">@robertmegone</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3953526651"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7245"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7245/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7245">#7245</a></li>
+
+  <li>SCUMM: EDITOR: Introduce settings by @sronsse in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="3951036507" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7244" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7244/hovercard" href="https://github.com/scummvm/scummvm/pull/7244">#7244</a></li>
+
+  <li>BASE: Fix --md5 warning about Mac resources when used on a non-Mac file by @elasota
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3949141460"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7242"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7242/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7242">#7242</a></li>
+
+  <li>SCUMM: MM Apple II - Use the original Apple II cursor like we do for the other
+  platforms. by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/robertmegone/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/robertmegone">@robertmegone</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3957216987"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7247"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7247/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7247">#7247</a></li>
+
+  <li>SCUMM: MI2 NI DOS Demo - Add support for original demo.rec playback file by
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/robertmegone/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/robertmegone">@robertmegone</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3950302306"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7243"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7243/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7243">#7243</a></li>
+
+  <li>GRIM: Delete Set pool objects <em>after</em> deleting Actor pool objects by
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwatteau/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwatteau">@dwatteau</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3948864035"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7241"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7241/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7241">#7241</a></li>
+
+  <li>FREESCAPE: Fix minor UI color palette for DOS/EGA Total Eclipse. by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/SandhuAmy35/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/SandhuAmy35">@SandhuAmy35</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3971698523"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7250"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7250/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7250">#7250</a></li>
+
+  <li>AGOS: Simon1 - Support for the Desktop Tracker(DskT) format compressed mods
+  used for music by Simon 1 for Acorn Archimedes. by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/robertmegone/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/robertmegone">@robertmegone</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3941636151"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7227"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7227/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7227">#7227</a></li>
+
+  <li>GOB: improve detection entries comments by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/BJNFNE/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3971802090"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7251"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7251/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7251">#7251</a></li>
+
+  <li>Fix starting Teenagent Polish and Russian versions by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/criezy/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/criezy">@criezy</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3965867017"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7249"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7249/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7249">#7249</a></li>
+
+  <li>GUI: Enable rich syntax search in Grid View by @phyulwin in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="3956456999" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7246" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7246/hovercard" href="https://github.com/scummvm/scummvm/pull/7246">#7246</a></li>
+
+  <li>BACKENDS: avoid Windows ARRAYSIZE definition by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3944911453"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7238"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7238/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7238">#7238</a></li>
+
+  <li>SCUMM: Introduce Resource class to ScummEditor by @sronsse in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="3979283366" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7257" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7257/hovercard" href="https://github.com/scummvm/scummvm/pull/7257">#7257</a></li>
+
+  <li>COMMON, WIN32: Printing support improvements by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/sdelamarre/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sdelamarre">@sdelamarre</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3986371361"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7259"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7259/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7259">#7259</a></li>
+
+  <li>FREESCAPE: Fix DOS Castle Master lightning effect by @AndreiRV1 in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="3972340176" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7252" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7252/hovercard" href="https://github.com/scummvm/scummvm/pull/7252">#7252</a></li>
+
+  <li>NANCY: Fix off-by-one error in TableIndexSetValueHS correctness check by @flipkick
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3991903620"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7260"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7260/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7260">#7260</a></li>
+
+  <li>AGI: Migrate Apple II and CoCo3 sound code to Audio::PCSpeaker by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ccawley2011/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ccawley2011">@ccawley2011</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3978417365"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7255"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7255/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7255">#7255</a></li>
+
+  <li>AGOS: Simon1 Acorn Floppy Demo - Fix for Simon appearing black in the Acorn
+  Floppy Demo. by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/robertmegone/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/robertmegone">@robertmegone</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3992409871"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7263"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7263/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7263">#7263</a></li>
+
+  <li>NANCY: Fix TurningPuzzle animation speed scaling with frame count by @flipkick
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3993598321"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7264"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7264/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7264">#7264</a></li>
+
+  <li>AGOS: Simon1 - More accurate Acorn cursor. by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/robertmegone/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/robertmegone">@robertmegone</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3975635007"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7254"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7254/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7254">#7254</a></li>
+
+  <li>CHAMBER: Refactor splash screen for Hercules by @11-andy-11 in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="3997613958" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7267" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7267/hovercard" href="https://github.com/scummvm/scummvm/pull/7267">#7267</a></li>
+
+  <li>Feature/new debugger gui by @ramyak-sharma in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="3995528601" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7265" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7265/hovercard" href="https://github.com/scummvm/scummvm/pull/7265">#7265</a></li>
+
+  <li>GRAPHICS: Move Hercules palettes to global graphics manager by @11-andy-11 in
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4001403092"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7270"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7270/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7270">#7270</a></li>
+
+  <li>DIRECTOR: Fixes for Journeyman Project by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/moralrecordings/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/moralrecordings">@moralrecordings</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4001713605"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7272"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7272/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7272">#7272</a></li>
+
+  <li>Introduce Explorer window to ScummEditor by @sronsse in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="3992067172" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7262" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7262/hovercard" href="https://github.com/scummvm/scummvm/pull/7262">#7262</a></li>
+
+  <li>DIRECTOR: DT: Add scrolling and labels by @ramyak-sharma in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4004904387" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7273" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7273/hovercard" href="https://github.com/scummvm/scummvm/pull/7273">#7273</a></li>
+
+  <li>AUDIO: MT32: Simulate original MT-32 green LCD display in OSD by @artemnutbov
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3986264574"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7258"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7258/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7258">#7258</a></li>
+
+  <li>ALG Engine: ready for testing by @dckone in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="3999482839" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7269" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7269/hovercard" href="https://github.com/scummvm/scummvm/pull/7269">#7269</a></li>
+
+  <li>FREESCAPE: Depth rendering based on the original implementation by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/neuromancer/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/neuromancer">@neuromancer</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3655067904"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7049"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7049/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7049">#7049</a></li>
+
+  <li>IOS7: Integrate CoreMIDI into the iOS &amp; tvOS backends by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/larsamannen/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/larsamannen">@larsamannen</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3997428391"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7266"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7266/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7266">#7266</a></li>
+
+  <li>COMMON: I18N: Load <code class="notranslate">.po</code> files near <code class="notranslate">translations.dat</code>
+  by @sh3boly in <a class="issue-link js-issue-link" data-error-text="Failed to load
+  title" data-id="3991975543" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7261"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7261/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7261">#7261</a></li>
+
+  <li>Make buildbots happy again by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/larsamannen/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/larsamannen">@larsamannen</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4007627432"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7274"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7274/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7274">#7274</a></li>
+
+  <li>BASE: Do not register COREMIDI plugin for tvOS by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/larsamannen/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/larsamannen">@larsamannen</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4007760145"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7275"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7275/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7275">#7275</a></li>
+
+  <li>ALG: fix static code analysis issues, add credits.pl, add extended saves support
+  by @dckone in <a class="issue-link js-issue-link" data-error-text="Failed to load
+  title" data-id="4009149582" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7278"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7278/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7278">#7278</a></li>
+
+  <li>NANCY: Fix TurningPuzzle solve animation timing by @flipkick in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4008821798" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7277" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7277/hovercard" href="https://github.com/scummvm/scummvm/pull/7277">#7277</a></li>
+
+  <li>ALG: bugfix for unregisterScriptFunctions by @dckone in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4011663830" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7281" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7281/hovercard" href="https://github.com/scummvm/scummvm/pull/7281">#7281</a></li>
+
+  <li>AGOS: Simon1 Acorn - Fix playback of mods for the full version of Simon 1 Acorn
+  Floppy. by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/robertmegone/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/robertmegone">@robertmegone</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4011726651"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7282"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7282/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7282">#7282</a></li>
+
+  <li>TINSEL: Discworld 1 Script Patches by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4009249935"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7279"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7279/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7279">#7279</a></li>
+
+  <li>ALG: add remaining missing initializers. CID 1609033, CID 1609028 by @dckone
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4019483634"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7283"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7283/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7283">#7283</a></li>
+
+  <li>WAGE: Support custom File menu by @1SHAMAY1 in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4022236476" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7285" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7285/hovercard" href="https://github.com/scummvm/scummvm/pull/7285">#7285</a></li>
+
+  <li>GUI: Fix lag and Implement Anti-aliasing in Rich Text by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/mohitbankar/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mohitbankar">@mohitbankar</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4021576727"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7284"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7284/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7284">#7284</a></li>
+
+  <li>BACKENDS: OPENGL: Unpanic warning by @orgads in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4023898462" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7286" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7286/hovercard" href="https://github.com/scummvm/scummvm/pull/7286">#7286</a></li>
+
+  <li>DIRECTOR: DT: Implement Cast Details by @avnishkirnalli in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4027699157" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7288" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7288/hovercard" href="https://github.com/scummvm/scummvm/pull/7288">#7288</a></li>
+
+  <li>GIT: Add vcpkg_installed to .gitignore by @Krish2882005 in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4029810831" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7290" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7290/hovercard" href="https://github.com/scummvm/scummvm/pull/7290">#7290</a></li>
+
+  <li>DIRECTOR: DT: Add Light theme and refactor themes by @Krish2882005 in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4029739302" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7289" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7289/hovercard" href="https://github.com/scummvm/scummvm/pull/7289">#7289</a></li>
+
+  <li>KYRA: EOB: fix compass after spellbook abort by @btb in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4025210534" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7287" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7287/hovercard" href="https://github.com/scummvm/scummvm/pull/7287">#7287</a></li>
+
+  <li>DIRECTOR: DT: Score: Add Center button, QOL changes by @ramyak-sharma in <a
+  class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4031259579"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7291"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7291/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7291">#7291</a></li>
+
+  <li>PHOENIXVR: Fix some leaks by @tunnelsociety in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4032007353" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7292" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7292/hovercard" href="https://github.com/scummvm/scummvm/pull/7292">#7292</a></li>
+
+  <li>GUI: Fix leak of cached RichText surface by @tunnelsociety in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4032065275" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7293" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7293/hovercard" href="https://github.com/scummvm/scummvm/pull/7293">#7293</a></li>
+
+  <li>FREESCAPE: Fix minor UI fixes in Darkside CGA and global palettes for… by <a
+  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/SandhuAmy35/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/SandhuAmy35">@SandhuAmy35</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4038248396"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7296"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7296/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7296">#7296</a></li>
+
+  <li>QDENGINE: Fix Broken Pathfinding in Pilot Brothers 3D by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/mohitbankar/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mohitbankar">@mohitbankar</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4039218806"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7297"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7297/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7297">#7297</a></li>
+
+  <li>TINSEL: Add support for PSX .LFI/.LFD archive files by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4040291683"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7298"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7298/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7298">#7298</a></li>
+
+  <li>AGOS: Elvira 1/2 Atari ST - Music support. by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/robertmegone/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/robertmegone">@robertmegone</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4038156654"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7295"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7295/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7295">#7295</a></li>
+
+  <li>DIRECTOR: DT: Debugger UI QoL updates and ImGui crash fix by @Krish2882005 in
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4041924053"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7299"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7299/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7299">#7299</a></li>
+
+  <li>SCUMM: Unify AkosRenderer and ClassicCostumeRenderer RLE code by @mikrosk in
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3011928649"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6565"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6565/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/6565">#6565</a></li>
+
+  <li>SCUMM: MI1 SEGA CD - Add the option to use the original ''wait'' cursor on the
+  pause menu by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/robertmegone/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/robertmegone">@robertmegone</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4007861204"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7276"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7276/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7276">#7276</a></li>
+
+  <li>TINSEL: Fix DW1 Act 4 dragon appearing before finale by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4047651872"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7300"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7300/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7300">#7300</a></li>
+
+  <li>AUDIO: fix vorbis seek callback return value by @flipkick in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4048611105" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7302" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7302/hovercard" href="https://github.com/scummvm/scummvm/pull/7302">#7302</a></li>
+
+  <li>WAGE: add ability to display Startup Image and play Startup Sound by @roby405
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4051534171"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7303"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7303/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7303">#7303</a></li>
+
+  <li>TINSEL: Fix multibyte strings by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4053601893"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7304"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7304/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7304">#7304</a></li>
+
+  <li>GUI: Refactor PopUpDialog::findItem by @tunnelsociety in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4061334230" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7310" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7310/hovercard" href="https://github.com/scummvm/scummvm/pull/7310">#7310</a></li>
+
+  <li>DIRECTOR: DT: Add variable watch logging and script search by @ramyak-sharma
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4058271110"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7306"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7306/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7306">#7306</a></li>
+
+  <li>CHAMBER: Implement Hercule scaling by @11-andy-11 in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4033995625" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7294" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7294/hovercard" href="https://github.com/scummvm/scummvm/pull/7294">#7294</a></li>
+
+  <li>NANCY: Fix RippedLetterPuzzle crash after save by @flipkick in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4061588316" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7311" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7311/hovercard" href="https://github.com/scummvm/scummvm/pull/7311">#7311</a></li>
+
+  <li>WAGE: Fix character encoding in Apple menu game name by @1SHAMAY1 in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4064797764" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7312" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7312/hovercard" href="https://github.com/scummvm/scummvm/pull/7312">#7312</a></li>
+
+  <li>DEVTOOLS: PYCDLIB: Explicitly pass encoding only when it is not None by @npjg
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4073282564"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7314"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7314/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7314">#7314</a></li>
+
+  <li>NANCY: Fix HIS Vorbis rewind-to-zero by @flipkick in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4060489375" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7309" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7309/hovercard" href="https://github.com/scummvm/scummvm/pull/7309">#7309</a></li>
+
+  <li>NANCY: Fix RaycastPuzzle typo. PVS-Studio V501 by @tunnelsociety in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4077321175" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7316" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7316/hovercard" href="https://github.com/scummvm/scummvm/pull/7316">#7316</a></li>
+
+  <li>NANCY: Fix PianoPuzzle multi-key edge case by @tunnelsociety in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4077618017" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7317" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7317/hovercard" href="https://github.com/scummvm/scummvm/pull/7317">#7317</a></li>
+
+  <li>SCUMM: Remove broken ARM costume renderer by @mikrosk in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4075434422" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7315" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7315/hovercard" href="https://github.com/scummvm/scummvm/pull/7315">#7315</a></li>
+
+  <li>MTROPOLIS: resolve key mapping mismatch for ARROWDOWN and DEL by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4078735579"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7320"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7320/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7320">#7320</a></li>
+
+  <li>JANITORIAL: resolve signed/unsigned conflicts by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/meekee7/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/meekee7">@meekee7</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4078938716"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7321"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7321/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7321">#7321</a></li>
+
+  <li>TINSEL: New DW1 introduction skip technique by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4078661423"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7319"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7319/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7319">#7319</a></li>
+
+  <li>DIRECTOR: Fixes for D6 by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/moralrecordings/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/moralrecordings">@moralrecordings</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4068368931"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7313"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7313/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7313">#7313</a></li>
+
+  <li>GUI: Update print preview on dialog resize by @tunnelsociety in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4079841232" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7323" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7323/hovercard" href="https://github.com/scummvm/scummvm/pull/7323">#7323</a></li>
+
+  <li>SCUMM: HE: Avoid Wiz left shift of negative value by @tunnelsociety in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4079057327" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7322" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7322/hovercard" href="https://github.com/scummvm/scummvm/pull/7322">#7322</a></li>
+
+  <li>SCUMM: Implement UI and functionality for loading original playback files for
+  FoA, MI1 and MI2. by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/robertmegone/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/robertmegone">@robertmegone</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4058447368"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7307"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7307/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7307">#7307</a></li>
+
+  <li>SLUDGE: Fix data file encoding and restore CP1252 validation by @AzzurraSuffia
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4091648512"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7328"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7328/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7328">#7328</a></li>
+
+  <li>GUI: Improve rendering time of cloud and keyboard tabs in help dialog by @StoneVerve
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4078052126"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7318"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7318/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7318">#7318</a></li>
+
+  <li>GUI: Parse unpacked themes by @sh3boly in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4059805493" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7308" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7308/hovercard" href="https://github.com/scummvm/scummvm/pull/7308">#7308</a></li>
+
+  <li>WAYNESWORLD: Add detection object by @flipkick in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4102432762" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7337" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7337/hovercard" href="https://github.com/scummvm/scummvm/pull/7337">#7337</a></li>
+
+  <li>TINSEL: Fix DW1 Sega Saturn graphics by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4102322968"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7336"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7336/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7336">#7336</a></li>
+
+  <li>SCI: Add detection for the Hebrew fanmade translation of KQ5 by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/SegMash/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/SegMash">@SegMash</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4093450543"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7329"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7329/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7329">#7329</a></li>
+
+  <li>SHERLOCK: Fall back to AdLib for General MIDI in Serrated Scalpel by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/eriktorbjorn/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/eriktorbjorn">@eriktorbjorn</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4097696633"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7332"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7332/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7332">#7332</a></li>
+
+  <li>DIRECTOR: Fixes for Journeyman Project by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/moralrecordings/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/moralrecordings">@moralrecordings</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4103350558"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7339"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7339/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7339">#7339</a></li>
+
+  <li>AGOS: Personal Nightmare - Fix palette for Amiga and Atari ST inventory icons
+  and fix the ''ROOM'' button. by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/robertmegone/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/robertmegone">@robertmegone</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4095763738"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7331"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7331/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7331">#7331</a></li>
+
+  <li>AGOS: Personal Nightmare - wait command fixes by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/robertmegone/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/robertmegone">@robertmegone</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4098213503"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7333"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7333/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7333">#7333</a></li>
+
+  <li>AGOS: Personal Nightmare Amiga - Add Amiga specific info and hand cursors by
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/robertmegone/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/robertmegone">@robertmegone</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4104173073"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7340"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7340/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7340">#7340</a></li>
+
+  <li>BUILD: Drop clang -Wno-sign-compare by @tunnelsociety in <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4098584917" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7334" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7334/hovercard" href="https://github.com/scummvm/scummvm/pull/7334">#7334</a></li>
+
+  <li>TINSEL: Fix DW1 PSX palette mapping, image clipping by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4113910842"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7343"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7343/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7343">#7343</a></li>
+
+  <li>WAYNESWORLD: Add WAYNESWORLD engine (which is accidentally already in Master)
+  by @Strangerke in <a class="issue-link js-issue-link" data-error-text="Failed to
+  load title" data-id="4103341054" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7338"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7338/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7338">#7338</a></li>
+
+  <li>DIRECTOR: Add detection and xlibs for The Legend of Lotus Spring by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/einstein95/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/einstein95">@einstein95</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4085495956"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7325"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7325/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7325">#7325</a></li>
+
+  <li>GOB: Performance optimisations by @mikrosk in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4106946321" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7341" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7341/hovercard" href="https://github.com/scummvm/scummvm/pull/7341">#7341</a></li>
+
+  <li>GUI: RemovalConfirmationDialog improvements before release by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4123263010"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7350"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7350/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7350">#7350</a></li>
+
+  <li>GUI: Fix ListWidget SHIFT+UP multi-selection by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/sluicebox/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/sluicebox">@sluicebox</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4131970950"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7357"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7357/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7357">#7357</a></li>
+
+  <li>SLUDGE: Fix missing text and dynamic graphics during hardScroll by @AzzurraSuffia
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4134403603"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7358"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7358/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7358">#7358</a></li>
+
+  <li>DRASCULA: Fix for original walk/talk bug <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="1231955887" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/3871" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/3871/hovercard" href="https://github.com/scummvm/scummvm/pull/3871">#3871</a>
+  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/robertmegone/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/robertmegone">@robertmegone</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4136091719"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7361"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7361/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7361">#7361</a></li>
+
+  <li>AGOS: Further fixes for PN ''wait'' command by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/robertmegone/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/robertmegone">@robertmegone</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4130409296"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7354"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7354/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7354">#7354</a></li>
+
+  <li>IOS7: Make tvOS run again by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/larsamannen/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/larsamannen">@larsamannen</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4116069119"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7345"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7345/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7345">#7345</a></li>
+
+  <li>KYRA: Add Korean fan translation support for Hand of Fate by @colus001 in <a
+  class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4100296167"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7335"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7335/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7335">#7335</a></li>
+
+  <li>Bump requests from 2.32.5 to 2.33.0 in /doc/docportal by <a class="user-mention
+  notranslate" data-hovercard-type="organization" data-hovercard-url="/orgs/dependabot/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dependabot">@dependabot</a>[bot]
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4145777413"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7369"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7369/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7369">#7369</a></li>
+
+  <li>GUI: Fix mouse dragging issue with scrollbar in help menu by @moetez00 in <a
+  class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4130917953"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7356"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7356/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7356">#7356</a></li>
+
+  <li>LAUNCHER: Remove temporary game ID when detection fails. by @moetez00 in <a
+  class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4136324536"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7363"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7363/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7363">#7363</a></li>
+
+  <li>IOS7: Fix airplay mirroring to external displays by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/larsamannen/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/larsamannen">@larsamannen</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4141567536"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7366"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7366/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7366">#7366</a></li>
+
+  <li>NEWS: add latest GOB changes to NEUES.md by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/BJNFNE/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/BJNFNE">@BJNFNE</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4158299720"
+  data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7373"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7373/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7373">#7373</a></li>
 
   </ul>
 
@@ -4033,166 +2591,188 @@ update_notes: '<p dir="auto">Another year has gone by, therefore we are releasin
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/malignantmanor/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/malignantmanor">@malignantmanor</a>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/cscd98/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cscd98">@cscd98</a>
   made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2755259538" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6329"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6329/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6329">#6329</a></li>
+  to load title" data-id="3608718421" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7021"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7021/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7021">#7021</a></li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/VladDoc/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/VladDoc">@VladDoc</a>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/whoozle/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/whoozle">@whoozle</a>
   made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2762310209" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6376"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6376/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6376">#6376</a></li>
+  to load title" data-id="3578571076" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7000"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7000/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7000">#7000</a></li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Player701/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Player701">@Player701</a>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/sam-mfb/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/sam-mfb">@sam-mfb</a>
   made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2783782893" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6403"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6403/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6403">#6403</a></li>
+  to load title" data-id="3674393551" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7061"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7061/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7061">#7061</a></li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/cmd05/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cmd05">@cmd05</a>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Lili1228/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Lili1228">@Lili1228</a>
   made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2790632417" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6404"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6404/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6404">#6404</a></li>
+  to load title" data-id="3677146363" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7063"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7063/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7063">#7063</a></li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/l0ud/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/l0ud">@l0ud</a>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/zafos/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/zafos">@zafos</a>
   made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2805703783" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6410"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6410/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6410">#6410</a></li>
+  to load title" data-id="3767121876" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7106"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7106/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7106">#7106</a></li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/NigeNigeNige/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/NigeNigeNige">@NigeNigeNige</a>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/SandhuAmy35/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/SandhuAmy35">@SandhuAmy35</a>
   made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2801873705" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6406"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6406/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6406">#6406</a></li>
+  to load title" data-id="3777343501" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7118"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7118/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7118">#7118</a></li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/naatje80/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/naatje80">@naatje80</a>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dhruv0154/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dhruv0154">@dhruv0154</a>
   made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2845784714" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6429"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6429/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6429">#6429</a></li>
+  to load title" data-id="3765936408" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7105"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7105/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7105">#7105</a></li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/nniro/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/nniro">@nniro</a>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mohitbankar/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mohitbankar">@mohitbankar</a>
   made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2870552137" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6448"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6448/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6448">#6448</a></li>
+  to load title" data-id="3751490295" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7096"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7096/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7096">#7096</a></li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/stevenjamescox/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/stevenjamescox">@stevenjamescox</a>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/jaskaran-singh-77/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/jaskaran-singh-77">@jaskaran-singh-77</a>
   made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2873407031" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6453"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6453/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6453">#6453</a></li>
+  to load title" data-id="3788975243" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7132"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7132/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7132">#7132</a></li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/akramhany/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/akramhany">@akramhany</a>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/TejeshwarDivekar/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/TejeshwarDivekar">@TejeshwarDivekar</a>
   made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2879344514" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6455"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6455/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6455">#6455</a></li>
+  to load title" data-id="3841111111" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7158"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7158/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7158">#7158</a></li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/rinevard/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/rinevard">@rinevard</a>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gulraiznoorbari/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gulraiznoorbari">@gulraiznoorbari</a>
   made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2892789793" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6465"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6465/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6465">#6465</a></li>
+  to load title" data-id="3856712663" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7169"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7169/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7169">#7169</a></li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/WinterSun23/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/WinterSun23">@WinterSun23</a>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DarkCenobyte/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DarkCenobyte">@DarkCenobyte</a>
   made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2855335288" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6436"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6436/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6436">#6436</a></li>
+  to load title" data-id="3853799682" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7166"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7166/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7166">#7166</a></li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/harsh-kulkarni-05/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/harsh-kulkarni-05">@harsh-kulkarni-05</a>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Miguel-Herrero/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Miguel-Herrero">@Miguel-Herrero</a>
   made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2927303868" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6487"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6487/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6487">#6487</a></li>
+  to load title" data-id="3801198614" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7138"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7138/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7138">#7138</a></li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Nasir-Bilal/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Nasir-Bilal">@Nasir-Bilal</a>
-  made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2935654938" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6493"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6493/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6493">#6493</a></li>
+  <li>@mark-temporary made their first contribution in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="3917277626" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7208" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7208/hovercard" href="https://github.com/scummvm/scummvm/pull/7208">#7208</a></li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/jpres27/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/jpres27">@jpres27</a>
-  made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2944945590" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6509"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6509/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6509">#6509</a></li>
+  <li>@menschel made their first contribution in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="3944720807" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7231" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7231/hovercard" href="https://github.com/scummvm/scummvm/pull/7231">#7231</a></li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/For-Chance/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/For-Chance">@For-Chance</a>
-  made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2962572980" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6527"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6527/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6527">#6527</a></li>
+  <li>@phyulwin made their first contribution in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="3956456999" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7246" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7246/hovercard" href="https://github.com/scummvm/scummvm/pull/7246">#7246</a></li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/mbreskovec/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/mbreskovec">@mbreskovec</a>
-  made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="2954556484" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/6519"
-  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/6519/hovercard"
-  href="https://github.com/scummvm/scummvm/pull/6519">#6519</a></li>
+  <li>@AndreiRV1 made their first contribution in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="3972340176" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7252" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7252/hovercard" href="https://github.com/scummvm/scummvm/pull/7252">#7252</a></li>
 
-  <li>@TusharGautam29 made their first contribution in <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="2951857837" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6514" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6514/hovercard" href="https://github.com/scummvm/scummvm/pull/6514">#6514</a></li>
+  <li>@flipkick made their first contribution in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="3991903620" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7260" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7260/hovercard" href="https://github.com/scummvm/scummvm/pull/7260">#7260</a></li>
 
-  <li>@dckone made their first contribution in <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="2940301023" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6500" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6500/hovercard" href="https://github.com/scummvm/scummvm/pull/6500">#6500</a></li>
+  <li>@11-andy-11 made their first contribution in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="3997613958" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7267" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7267/hovercard" href="https://github.com/scummvm/scummvm/pull/7267">#7267</a></li>
 
-  <li>@dasbidyendu made their first contribution in <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="2973794952" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6538" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6538/hovercard" href="https://github.com/scummvm/scummvm/pull/6538">#6538</a></li>
+  <li>@ramyak-sharma made their first contribution in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="3995528601" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7265" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7265/hovercard" href="https://github.com/scummvm/scummvm/pull/7265">#7265</a></li>
 
-  <li>@ShivangNagta made their first contribution in <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="2958733232" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6524" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6524/hovercard" href="https://github.com/scummvm/scummvm/pull/6524">#6524</a></li>
+  <li>@artemnutbov made their first contribution in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="3986264574" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7258" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7258/hovercard" href="https://github.com/scummvm/scummvm/pull/7258">#7258</a></li>
 
-  <li>@balyuf made their first contribution in <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="3055149403" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6609" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6609/hovercard" href="https://github.com/scummvm/scummvm/pull/6609">#6609</a></li>
+  <li>@sh3boly made their first contribution in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="3991975543" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7261" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7261/hovercard" href="https://github.com/scummvm/scummvm/pull/7261">#7261</a></li>
 
-  <li>@BreakinBenny made their first contribution in <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="3088915164" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6652" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6652/hovercard" href="https://github.com/scummvm/scummvm/pull/6652">#6652</a></li>
+  <li>@1SHAMAY1 made their first contribution in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4022236476" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7285" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7285/hovercard" href="https://github.com/scummvm/scummvm/pull/7285">#7285</a></li>
 
-  <li>@SinusPi made their first contribution in <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="3156076326" data-permission-text="Title
-  is private" data-url="https://github.com/scummvm/scummvm/issues/6736" data-hovercard-type="pull_request"
-  data-hovercard-url="/scummvm/scummvm/pull/6736/hovercard" href="https://github.com/scummvm/scummvm/pull/6736">#6736</a></li>
+  <li>@avnishkirnalli made their first contribution in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4027699157" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7288" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7288/hovercard" href="https://github.com/scummvm/scummvm/pull/7288">#7288</a></li>
+
+  <li>@btb made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="4025210534" data-permission-text="Title is private" data-url="https://github.com/scummvm/scummvm/issues/7287"
+  data-hovercard-type="pull_request" data-hovercard-url="/scummvm/scummvm/pull/7287/hovercard"
+  href="https://github.com/scummvm/scummvm/pull/7287">#7287</a></li>
+
+  <li>@roby405 made their first contribution in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4051534171" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7303" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7303/hovercard" href="https://github.com/scummvm/scummvm/pull/7303">#7303</a></li>
+
+  <li>@AzzurraSuffia made their first contribution in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4091648512" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7328" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7328/hovercard" href="https://github.com/scummvm/scummvm/pull/7328">#7328</a></li>
+
+  <li>@StoneVerve made their first contribution in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4078052126" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7318" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7318/hovercard" href="https://github.com/scummvm/scummvm/pull/7318">#7318</a></li>
+
+  <li>@colus001 made their first contribution in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4100296167" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7335" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7335/hovercard" href="https://github.com/scummvm/scummvm/pull/7335">#7335</a></li>
+
+  <li>@moetez00 made their first contribution in <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4130917953" data-permission-text="Title
+  is private" data-url="https://github.com/scummvm/scummvm/issues/7356" data-hovercard-type="pull_request"
+  data-hovercard-url="/scummvm/scummvm/pull/7356/hovercard" href="https://github.com/scummvm/scummvm/pull/7356">#7356</a></li>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/scummvm/scummvm/compare/v2.9.1...v2026.1.0"><tt>v2.9.1...v2026.1.0</tt></a></p>'
-updated: '2026-01-31T18:38:54Z'
-version: v2026.1.0
-version_title: 'ScummVM 2026.1.0: "Like a version"'
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/scummvm/scummvm/compare/v2026.1.0...v2026.2.0"><tt>v2026.1.0...v2026.2.0</tt></a></p>'
+updated: '2026-03-28T21:27:36Z'
+version: v2026.2.0
+version_title: 'ScummVM 2026.2.0: "Railmonicon"'
 website: https://www.scummvm.org
 ---
 ScummVM allows you to play classic graphic point-and-click adventure games, text adventure games, and RPGs, as long as you already have the game data files. ScummVM replaces the executable files shipped with the games, which means you can now play your favorite games on all your favorite devices.
