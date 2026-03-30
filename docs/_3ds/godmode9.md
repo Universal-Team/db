@@ -11,10 +11,10 @@ description: 'GodMode9 Explorer - A full access file browser for the Nintendo 3D
   console :godmode:'
 download_page: https://github.com/d0k3/GodMode9/releases
 downloads:
-  GodMode9-v2.2.1-20251024082253.zip:
-    size: 3362618
+  GodMode9-v2.2.2-20260329220448.zip:
+    size: 3493357
     size_str: 3 MiB
-    url: https://github.com/d0k3/GodMode9/releases/download/v2.2.1/GodMode9-v2.2.1-20251024082253.zip
+    url: https://github.com/d0k3/GodMode9/releases/download/v2.2.2/GodMode9-v2.2.2-20260329220448.zip
 github: d0k3/GodMode9
 image: https://raw.githubusercontent.com/d0k3/GodMode9/master/resources/logo.png
 image_length: 9316
@@ -26,131 +26,147 @@ stars: 2479
 systems:
 - 3DS
 title: GodMode9
-update_notes: '<p dir="auto"><em>Didn''t we already have a Ninth Anniversary Release</em>?
-  That''s what you''d be asking if you closely followed the GodMode9 repo and noticed
-  the prerelease that came out on the proper anniversary day (March 22nd) this year.
-  Most users, however, are still using the now three-year-old GodMode9 v2.1.1 and
-  didn''t have their ninth anniversary update yet. This release aims to bring the
-  new goodies to a wider audience. It fixes bugs, and it even brings two small new
-  features with it.</p>
+update_notes: '<p dir="auto"><em>Is it really ten years already?</em> On March 22nd,
+  2016, a simple ARM9-based file browser was first released to the public. Back then,
+  it was little more than a nerdy tool for curious users wanting to explore the inner
+  workings of their 3DS. Much has happened since, and GodMode9 has evolved into the
+  Swiss army knife you know and (hopefully) love today.</p>
 
-  <p dir="auto">Here''s what was new with v2.2.0:</p>
+  <p dir="auto">Here''s what''s new in 2.2.2:</p>
 
   <ul dir="auto">
 
-  <li>[new] Translation support, thanks to <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/Epicpkmn11/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a></li>
+  <li>[new] Text editor replaces the text viewer (<a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/nevumx/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/nevumx">@nevumx</a>)</li>
 
-  <li>[new] Lua scripting support, thanks to <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/ihaveamac/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ihaveamac">@ihaveamac</a></li>
+  <li>[new] Ability to write to <code class="notranslate">nvram.mem</code> (<a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Wolfvak/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Wolfvak">@Wolfvak</a>)</li>
 
-  <li>[improved?] A shiny new anniversary splash logo</li>
+  <li>[new] Implemented Lua io <code class="notranslate">file:lines</code> function
+  (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ihaveamac/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ihaveamac">@ihaveamac</a>)</li>
 
-  <li>[fixed] Numerous bug fixes and small improvements</li>
+  <li>[new] I2C device read/write support from Lua (<a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/rosaage/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/rosaage">@rosaage</a>)</li>
 
-  </ul>
+  <li>[improved] Lua updated to 5.4.8 (<a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/MisterSheeple/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/MisterSheeple">@MisterSheeple</a>)</li>
 
-  <p dir="auto">And here''s what''s new in v2.2.1:</p>
+  <li>[improved] Added gyro model detection to Lua and System Info (<a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/rosaage/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/rosaage">@rosaage</a>)</li>
 
-  <ul dir="auto">
+  <li>[improved] Proper dumping of ID2 when dumping carts (<a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/AriA99/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/AriA99">@AriA99</a>)
+  (<a href="https://github.com/d0k3/GodMode9/pull/862#issuecomment-3240213122" data-hovercard-type="pull_request"
+  data-hovercard-url="/d0k3/GodMode9/pull/862/hovercard">explanation</a>)</li>
 
-  <li>[new] Optional signature checking when verifying NCSD &amp; NCCH</li>
-
-  <li>[new] Ability to restore original encryption in NCSD &amp; NCCH</li>
-
-  <li>[new] Lua support for optional signature checking, thanks to <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ihaveamac/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ihaveamac">@ihaveamac</a></li>
-
-  <li>[improved] Updated translations and fonts, thanks to <a class="user-mention
+  <li>[fixed] Proper handling for the locale of file sizes in scripts (<a class="user-mention
   notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a></li>
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>)</li>
 
-  <li>[fixed] Numerous bug fixes and small improvements</li>
+  <li>[fixed] <code class="notranslate">io.open</code> read mode ("r") works properly
+  (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ihaveamac/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ihaveamac">@ihaveamac</a>)</li>
+
+  <li>[fixed] <code class="notranslate">file:read</code> returns <code class="notranslate">nil</code>
+  at end of file instead of an empty string (<a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/ihaveamac/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/ihaveamac">@ihaveamac</a>)</li>
 
   </ul>
 
-  <p dir="auto">For this release, I also suggest you read the <a href="https://github.com/d0k3/GodMode9/releases/tag/v2.2.0">GodMode9
-  v2.2.0 release notes</a>. As for the two new features: Keep in mind that signature
-  checking verification will always fail for modified dumps, which would be the case
-  for Azahar-supported CCI as well (we''ll get to that).  Restoring the original encryption
-  (via the <code class="notranslate">Encrypt file (...)</code> submenu entry) will
-  effectively fix signatures, but this feature has limits and won''t repair completely
-  borked files.</p>
+  <p dir="auto"><code class="notranslate">file:read</code> now matches stock Lua io
+  behavior. This improves compatibility with existing Lua modules, but it is technically
+  a breaking change and may require script updates if they relied on the previous
+  behavior. Please make sure to update your scripts if needed.</p>
 
-  <p dir="auto"><strong>Why doesn''t GodMode9 dump .CCI files?</strong><br>
+  <p dir="auto"><strong>Trivia corner: GodMode9 origins</strong><br>
 
-  You may want to dump your game carts in a CCI format compatible with <a href="https://github.com/azahar-emu/azahar">Azahar</a>,
-  and you may have noticed GodMode9 only offers 3DS files. Spoiler alert: <em>3DS
-  is the exact same format as CCI</em>. The only thing you need to pay attention to
-  is that Azahar expects decrypted files. So, use the <code class="notranslate">Decrypt
-  file (...)</code> submenu entry to let GodMode9 handle the heavy lifting. And don''t
-  forget to rename your dumped files, as Azahar will only accept files with <code
-  class="notranslate">.CCI</code> extension. You''re a GodMode9-wielding power user,
-  you can do that, right?</p>
+  <a href="https://github.com/d0k3/Decrypt9WIP">Decrypt9WIP</a> is the technical predecessor
+  of GodMode9. It started as a fork of <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/archshift/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/archshift">@archshift</a>’s
+  <a href="https://github.com/archshift/Decrypt9">Decrypt9</a>, which had its first
+  commit on February 1st, 2015. My first contribution to the fork came on June 23rd,
+  2015. Decrypt9WIP was a menu-based toolkit focused on ARM9-based decryption of gamecart
+  dumps — essentially the foundation of many tasks you use GodMode9 for today. Over
+  time, Decrypt9WIP fully superseded Decrypt9.<br>
 
-  <p dir="auto"><strong>How do I update GodMode9?</strong><br>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/48e2db9e-b415-407e-b132-62889865aba3"><img
+  width="400" height="240" alt="snap005" src="https://github.com/user-attachments/assets/48e2db9e-b415-407e-b132-62889865aba3"
+  style="max-width: 100%; height: auto; max-height: 240px;"></a><a target="_blank"
+  rel="noopener noreferrer" href="https://github.com/user-attachments/assets/fdeb6e2c-3d3a-4ba8-8e7c-0011c37004c6"><img
+  width="400" height="240" alt="snap006" src="https://github.com/user-attachments/assets/fdeb6e2c-3d3a-4ba8-8e7c-0011c37004c6"
+  style="max-width: 100%; height: auto; max-height: 240px;"></a></p>
 
-  Updating is actually very simple: Just replace <code class="notranslate">GodMode9.firm</code>
-  on your SD card with the file from the release ZIP. If you want scripts and translations,
-  you should also copy the full <code class="notranslate">./gm9</code> folder from
-  inside the archive to the same folder on your SD card. While you''re at it, why
-  not also grab <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ihaveamac/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ihaveamac">@ihaveamac</a>’s
-  <code class="notranslate">HelloScript.lua</code> from the <code class="notranslate">samples</code>
-  folder and tinker around with it?</p>
+  <p dir="auto"><a href="https://github.com/d0k3/CTRXplorer">CTRXplorer</a> is the
+  conceptual predecessor of GodMode9, first released on June 7th, 2015. It is a simple,
+  userland-based file browser (installable via CIA) with a design concept that will
+  likely feel familiar to GodMode9 users today.<br>
+
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/dd0f5f26-8e12-4d44-b768-6758a01dd15e"><img
+  width="400" height="480" alt="h4CJ6SE" src="https://github.com/user-attachments/assets/dd0f5f26-8e12-4d44-b768-6758a01dd15e"
+  style="max-width: 100%; height: auto; max-height: 480px;"></a><a target="_blank"
+  rel="noopener noreferrer" href="https://github.com/user-attachments/assets/5b2afd83-bd04-4da9-88d8-b37654e63510"><img
+  width="400" height="480" alt="wWe72jf" src="https://github.com/user-attachments/assets/5b2afd83-bd04-4da9-88d8-b37654e63510"
+  style="max-width: 100%; height: auto; max-height: 480px;"></a></p>
+
+  <p dir="auto"><strong>How to update GodMode9</strong><br>
+
+  Updating is simple: replace <code class="notranslate">GodMode9.firm</code> on your
+  SD card with the file from the release ZIP. If you want scripts and translations,
+  copy the full <code class="notranslate">./gm9</code> folder from inside the archive
+  to the same location on your SD card.</p>
 
   <p dir="auto"><strong>Special thanks</strong><br>
 
-  And here''s to the part that always gives me the biggest headache. Because, with
-  a project running as long as GodMode9 and having as many contributors as it does,
-  mentioning and crediting everyone — developers, bug reporters, feature suggesters,
-  people who offer advice or web hosting—is an impossible task. Just know that I’m
-  thankful to everyone who has supported the project over the years.</p>
+  Writing this part is always tricky — not because I’m ungrateful, quite the opposite.
+  GodMode9 has been running for 10 years, and the true number of contributors is hard
+  to capture. GitHub lists <a href="https://github.com/d0k3/GodMode9/graphs/contributors">58
+  contributors</a>, but many others have helped with advice, documentation, hosting,
+  testing, bug reports, and more. Every contribution is valuable and helped make GodMode9
+  what it is today.</p>
 
-  <p dir="auto">For this release, special thanks go out to:</p>
+  <p dir="auto">For this anniversary release, special thanks go out to:</p>
 
   <ul dir="auto">
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Wolfvak/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Wolfvak">@Wolfvak</a>,
-  for being a main dev at my side for almost the entire lifetime of GodMode9</li>
-
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ihaveamac/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ihaveamac">@ihaveamac</a>,
-  for adding Lua support and greatly expanding scripting capabilities, also for giving
-  me the original idea for encryption restoration</li>
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ihaveamac">@ihaveamac</a>
+  — for ongoing work on Lua and countless other contributions</li>
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Epicpkmn11/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Epicpkmn11">@Epicpkmn11</a>
-  and all translation contributors, who have been working for years to make GodMode9
-  available in multiple languages</li>
+  — for keeping GodMode9 available in multiple languages</li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/luigoalma/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/luigoalma">@luigoalma</a>,
-  for improving things for devkit users by finally fixing an AES key-related bug</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/nevumx/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/nevumx">@nevumx</a>
+  — for contributing this release’s killer feature and for their patience</li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ZeroSkill1/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ZeroSkill1">@ZeroSkill1</a>,
-  for helping me a great deal understanding signature checking</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Wolfvak/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Wolfvak">@Wolfvak</a>
+  — as a core dev at my side for almost the entire lifetime of GodMode9</li>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/MisterSheeple/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/MisterSheeple">@MisterSheeple</a>,
-  for helping me out with some testing</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/al3x10m/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/al3x10m">@al3x10m</a>
+  — <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/al3x10m/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/al3x10m">@al3x10m</a>
+  — for supporting the project from the beginning and helping me with many other things
+  along the way</li>
 
-  <li>The fine folks on the <a href="https://discord.gg/BRcbvtFxX4" rel="nofollow">GodMode9
-  Discord</a></li>
-
-  <li>All <a href="https://www.3dbrew.org/wiki/Main_Page" rel="nofollow">3dbrew.org</a>
-  contributors</li>
-
-  <li>Martin Korth for <a href="https://problemkaputt.de/gbatek.htm" rel="nofollow">GBATEK</a></li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/archshift/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/archshift">@archshift</a>
+  — for laying the foundation of GodMode9</li>
 
   </ul>'
-updated: '2025-10-24T09:29:03Z'
-version: v2.2.1
-version_title: GodMode9 v2.2.1 Ninth Anniversary Release
+updated: '2026-03-29T20:07:32Z'
+version: v2.2.2
+version_title: GodMode9 v2.2.2 Tenth Anniversary Release
 wiki: https://github.com/d0k3/GodMode9/wiki
 ---

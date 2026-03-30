@@ -23,7 +23,7 @@ layout: app
 license: mit
 license_name: MIT License
 source: https://github.com/Dzhmelyk135/Ollama3DS
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: Ollama3DS
