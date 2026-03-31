@@ -6,7 +6,7 @@ categories:
 color: '#bfa387'
 color_bg: '#806d5a'
 created: '2026-03-12T11:06:40Z'
-description: An ebook reader for Nintendo 3DS
+description: An ebook and manga reader for Nintendo 3DS
 download_page: https://github.com/RigleGit/3dslibris/releases
 downloads:
   3dslibris-debug.3dsx:
@@ -60,13 +60,50 @@ update_notes: '<h2 dir="auto">3dslibris 2.0.0</h2>
 
   <ul dir="auto">
 
-  <li>Adds MuPDF-backed <code class="notranslate">PDF</code> reading with zoomed top-screen
-  viewing, full-page preview on the bottom screen, outline navigation when available,
-  and touch-controlled viewport movement.</li>
+  <li><strong>PDF, CBZ, and XPS reading</strong> — open PDF documents, comic books
+  (CBZ), and XPS files with zoom, full-page preview on the bottom screen, and outline
+  navigation when available.</li>
 
-  <li>Extends that fixed-layout stack to <code class="notranslate">CBZ</code> and
-  <code class="notranslate">XPS</code>, reusing the same rendering core and viewer
-  workflow instead of maintaining separate one-off readers.</li>
+  <li><strong>Progressive page loading</strong> — you see a preview of the page immediately,
+  then it refines to full quality in the background. No more waiting for a page to
+  fully render before you can interact.</li>
+
+  <li><strong>Faster on New 3DS</strong> — page rendering for PDF and CBZ runs on
+  a separate processor core, keeping the UI responsive. Old 3DS still works with automatic
+  fallback.</li>
+
+  <li><strong>MOBI books open without freezing the UI</strong> on New 3DS thanks to
+  asynchronous processing — you can start reading while the rest of the book finishes
+  loading in the background.</li>
+
+  <li><strong>Library covers now work for every format</strong> — EPUB, FB2, MOBI,
+  PDF, and CBZ all show actual page thumbnails instead of placeholders.</li>
+
+  <li><strong>All 1.1.x improvements included</strong> — inline images in MOBI and
+  EPUB, faster image-heavy books, better text rendering, and more accurate MOBI table
+  of contents.</li>
+
+  <li><strong>No more manual SD card setup for <code class="notranslate">.cia</code>
+  installs</strong> — fonts and UI resources are built in.</li>
+
+  <li><strong>More stable startup</strong> — problematic MOBI files no longer cause
+  crashes, and the app stays on a clear error screen instead of flickering between
+  states when something goes wrong.</li>
+
+  </ul>
+
+  <h3 dir="auto">Extended details</h3>
+
+  <p dir="auto"><strong>Fixed-layout stack (PDF / CBZ / XPS)</strong></p>
+
+  <ul dir="auto">
+
+  <li>Adds MuPDF-backed PDF reading with zoomed top-screen viewing, full-page preview
+  on the bottom screen, outline navigation when available, and touch-controlled viewport
+  movement.</li>
+
+  <li>Extends that fixed-layout stack to CBZ and XPS, reusing the same rendering core
+  and viewer workflow instead of maintaining separate one-off readers.</li>
 
   <li>Introduces a progressive fixed-layout rendering pipeline: preview first, interactive
   cache next, then full-page refinement in the background instead of a single blocking
@@ -83,9 +120,8 @@ update_notes: '<h2 dir="auto">3dslibris 2.0.0</h2>
   accelerating cache reuse, and deferring expensive prefetch work until page turns
   or idle periods.</li>
 
-  <li>Fixed-layout reader controls are now documented consistently for <code class="notranslate">PDF</code>,
-  <code class="notranslate">CBZ</code>, and <code class="notranslate">XPS</code>:
-  <code class="notranslate">A/B</code> zoom, <code class="notranslate">Left/Right</code>
+  <li>Fixed-layout reader controls are now documented consistently for PDF, CBZ, and
+  XPS: <code class="notranslate">A/B</code> zoom, <code class="notranslate">Left/Right</code>
   turn pages, <code class="notranslate">Up/Down</code> jump outline entries when available,
   touch moves the viewport, and <code class="notranslate">START/SELECT</code> return
   to the library or open settings.</li>
@@ -93,10 +129,11 @@ update_notes: '<h2 dir="auto">3dslibris 2.0.0</h2>
   <li>Tightens PDF-enabled release documentation and licensing notes for MuPDF-based
   builds, including corresponding-source guidance for public release packaging.</li>
 
-  <li>The <code class="notranslate">.cia</code> now bundles the default runtime fonts
-  and UI resources through <code class="notranslate">romfs</code>, so a plain CIA
-  install can boot without manually extracting <code class="notranslate">3dslibris-sdmc.zip</code>
-  first.</li>
+  </ul>
+
+  <p dir="auto"><strong>MOBI &amp; deferred open</strong></p>
+
+  <ul dir="auto">
 
   <li>MOBI opening on New 3DS now uses asynchronous reflow, which removes the old
   long blocking open path from the UI while keeping Old 3DS on the synchronous fallback.</li>
@@ -112,26 +149,31 @@ update_notes: '<h2 dir="auto">3dslibris 2.0.0</h2>
   per-line file reopen overhead, and deferred MOBI finalize work no longer floods
   debug output while background pagination runs.</li>
 
+  </ul>
+
+  <p dir="auto"><strong>Library covers &amp; browser</strong></p>
+
+  <ul dir="auto">
+
   <li>Library cover generation is now a first-class runtime feature rather than a
   best-effort side effect: visible-page thumbs are cached and reused, the selected
   book gets warmup priority after short idle, and generated covers now work across
-  <code class="notranslate">EPUB</code>, <code class="notranslate">FB2</code>, <code
-  class="notranslate">MOBI</code>, <code class="notranslate">PDF</code>, and <code
-  class="notranslate">CBZ</code>.</li>
+  EPUB, FB2, MOBI, PDF, and CBZ.</li>
 
-  <li><code class="notranslate">PDF</code> and <code class="notranslate">CBZ</code>
-  library thumbs now come from the first page, which makes the fixed-layout formats
-  feel integrated with the rest of the library instead of showing generic placeholders.</li>
+  <li>PDF and CBZ library thumbs now come from the first page, which makes the fixed-layout
+  formats feel integrated with the rest of the library instead of showing generic
+  placeholders.</li>
 
   <li>Browser and fixed-layout drawing now track dirty regions more precisely and
   reuse cached physical framebuffers, which cuts redraw cost and fixes the regression
   where valid freshly generated cover thumbs could exist in RAM and cache but still
   fail to appear on screen.</li>
 
-  <li>Startup and fatal boot flow are more robust: opening problematic MOBI files
-  no longer triggers the worker-side crash that appeared during the async reflow work,
-  and the no-books boot path now stays in a single stable fatal screen instead of
-  oscillating between states.</li>
+  </ul>
+
+  <p dir="auto"><strong>Text &amp; layout</strong></p>
+
+  <ul dir="auto">
 
   <li>EPUB and FB2 now share better text-layout instrumentation and a combined break/measure
   helper in the common layout layer, improving visibility into shaping and line-break
