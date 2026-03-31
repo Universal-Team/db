@@ -10,28 +10,32 @@ description: An ebook reader for Nintendo 3DS
 download_page: https://github.com/RigleGit/3dslibris/releases
 downloads:
   3dslibris-debug.3dsx:
-    size: 1391164
-    size_str: 1 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v1.0.3/3dslibris-debug.3dsx
+    size: 33894092
+    size_str: 32 MiB
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.0.0/3dslibris-debug.3dsx
   3dslibris-sdmc.zip:
-    size: 3151101
-    size_str: 3 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v1.0.3/3dslibris-sdmc.zip
+    size: 27498563
+    size_str: 26 MiB
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.0.0/3dslibris-sdmc.zip
+  3dslibris-source.tar.gz:
+    size: 100639651
+    size_str: 95 MiB
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.0.0/3dslibris-source.tar.gz
   3dslibris.3dsx:
-    size: 1385100
-    size_str: 1 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v1.0.3/3dslibris.3dsx
+    size: 33881340
+    size_str: 32 MiB
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.0.0/3dslibris.3dsx
   3dslibris.cia:
-    size: 1060288
-    size_str: 1 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v1.0.3/3dslibris.cia
+    size: 27627456
+    size_str: 26 MiB
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.0.0/3dslibris.cia
 github: RigleGit/3dslibris
 icon: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/icon-32x32.png
 image: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/banner.png
 image_length: 48063
 layout: app
-license: gpl-2.0
-license_name: GNU General Public License v2.0
+license: other
+license_name: Other
 qr:
   3dslibris.cia: https://db.universal-team.net/assets/images/qr/3dslibris-cia.png
 screenshots:
@@ -44,65 +48,103 @@ stars: 42
 systems:
 - 3DS
 title: 3dslibris
-update_notes: '<h2 dir="auto">3dslibris 1.0.3</h2>
+update_notes: '<h2 dir="auto">3dslibris 2.0.0</h2>
 
-  <p dir="auto">This release fixes the direction of horizontal controls in the settings
-  UI and defers book relayout until the book is reopened. It also restores working
-  <code class="notranslate">.cia</code> packaging for hardware and Azahar.</p>
+  <p dir="auto">This release rolls up the full reader evolution since the 1.1.0 line
+  into a broader fixed-layout and reflow upgrade. The headline change is that 3dslibris
+  is no longer just a reflowable-book reader: it now has a MuPDF-backed fixed-layout
+  stack for PDF-class documents while also substantially improving MOBI, EPUB, FB2,
+  packaging, and runtime stability.</p>
 
   <h3 dir="auto">Highlights</h3>
 
   <ul dir="auto">
 
-  <li>Pressing right on settings rows such as font size and paragraph spacing now
-  increases the value.</li>
+  <li>Adds MuPDF-backed <code class="notranslate">PDF</code> reading with zoomed top-screen
+  viewing, full-page preview on the bottom screen, outline navigation when available,
+  and touch-controlled viewport movement.</li>
 
-  <li>Pressing left now decreases the value, matching the on-screen arrows and touch
-  layout.</li>
+  <li>Extends that fixed-layout stack to <code class="notranslate">CBZ</code> and
+  <code class="notranslate">XPS</code>, reusing the same rendering core and viewer
+  workflow instead of maintaining separate one-off readers.</li>
 
-  <li>Horizontal navigation inside the settings list is aligned with the same left/right
-  direction.</li>
+  <li>Introduces a progressive fixed-layout rendering pipeline: preview first, interactive
+  cache next, then full-page refinement in the background instead of a single blocking
+  render.</li>
 
-  <li>The main browser splash now shows the app version centered at the bottom of
-  the left screen.</li>
+  <li>Adds progressive strip rendering for zoomed fixed-layout pages, with strips
+  composited on screen as they complete.</li>
 
-  <li>Changing font size, paragraph spacing, orientation, or reading fonts no longer
-  tries to repaginate the book inside the settings menu.</li>
+  <li>Uses a dedicated fixed-layout worker thread on the New Nintendo 3DS extra core
+  when available, while keeping an automatic synchronous fallback path for Old 3DS
+  hardware.</li>
 
-  <li>When layout-related settings change, the app shows a warning and applies the
-  new layout after reopening the current book.</li>
+  <li>Improves fixed-layout cache behavior by stabilizing preview viewport updates,
+  accelerating cache reuse, and deferring expensive prefetch work until page turns
+  or idle periods.</li>
 
-  <li>MOBI parsing is more resilient against empty or corrupt files and now shows
-  a readable error instead of a raw numeric failure.</li>
+  <li>Fixed-layout reader controls are now documented consistently for <code class="notranslate">PDF</code>,
+  <code class="notranslate">CBZ</code>, and <code class="notranslate">XPS</code>:
+  <code class="notranslate">A/B</code> zoom, <code class="notranslate">Left/Right</code>
+  turn pages, <code class="notranslate">Up/Down</code> jump outline entries when available,
+  touch moves the viewport, and <code class="notranslate">START/SELECT</code> return
+  to the library or open settings.</li>
 
-  <li>MOBI books now have an optional per-book <code class="notranslate">line wrap
-  fix</code> for badly converted files that hard-wrap normal prose into many short
-  blocks.</li>
+  <li>Tightens PDF-enabled release documentation and licensing notes for MuPDF-based
+  builds, including corresponding-source guidance for public release packaging.</li>
 
-  <li>The <code class="notranslate">.cia</code> packaging flow was rebuilt around
-  the same <code class="notranslate">makerom</code>/<code class="notranslate">bannertool</code>
-  process used by Universal-Updater.</li>
+  <li>The <code class="notranslate">.cia</code> now bundles the default runtime fonts
+  and UI resources through <code class="notranslate">romfs</code>, so a plain CIA
+  install can boot without manually extracting <code class="notranslate">3dslibris-sdmc.zip</code>
+  first.</li>
 
-  <li>Previous <code class="notranslate">1.0.3</code> test <code class="notranslate">.cia</code>
-  builds could install but fail to boot because the packaged exheader ended up with
-  an invalid main-thread priority.</li>
+  <li>MOBI opening on New 3DS now uses asynchronous reflow, which removes the old
+  long blocking open path from the UI while keeping Old 3DS on the synchronous fallback.</li>
 
-  <li>The generated <code class="notranslate">.cia</code> now boots correctly on original
-  hardware and in Azahar.</li>
+  <li>Large MOBI books now complete deferred TOC work much faster by reusing structured
+  TOC data and avoiding redundant metadata rebuilds.</li>
 
-  </ul>
+  <li>MOBI parsing and deferred reflow were reworked so large books spend less time
+  in the slow path during open, with finer-grained timings available in debug builds.</li>
 
-  <h3 dir="auto">Known bug</h3>
+  <li>The deferred-open path is now much cleaner on real hardware: EPUB page-cache
+  writes are pushed out of the async-open critical path, buffered status logging avoids
+  per-line file reopen overhead, and deferred MOBI finalize work no longer floods
+  debug output while background pagination runs.</li>
 
-  <ul dir="auto">
+  <li>Library cover generation is now a first-class runtime feature rather than a
+  best-effort side effect: visible-page thumbs are cached and reused, the selected
+  book gets warmup priority after short idle, and generated covers now work across
+  <code class="notranslate">EPUB</code>, <code class="notranslate">FB2</code>, <code
+  class="notranslate">MOBI</code>, <code class="notranslate">PDF</code>, and <code
+  class="notranslate">CBZ</code>.</li>
 
-  <li>When a book is reopened after a layout change, or after toggling the per-book
-  MOBI <code class="notranslate">line wrap fix</code>, reading position and existing
-  bookmarks are remapped approximately and may land a few pages away from their original
-  location.</li>
+  <li><code class="notranslate">PDF</code> and <code class="notranslate">CBZ</code>
+  library thumbs now come from the first page, which makes the fixed-layout formats
+  feel integrated with the rest of the library instead of showing generic placeholders.</li>
 
-  <li>Some malformed MOBI files still contain source encoding or OCR artifacts that
-  cannot be repaired fully by the reader.</li>
+  <li>Browser and fixed-layout drawing now track dirty regions more precisely and
+  reuse cached physical framebuffers, which cuts redraw cost and fixes the regression
+  where valid freshly generated cover thumbs could exist in RAM and cache but still
+  fail to appear on screen.</li>
+
+  <li>Startup and fatal boot flow are more robust: opening problematic MOBI files
+  no longer triggers the worker-side crash that appeared during the async reflow work,
+  and the no-books boot path now stays in a single stable fatal screen instead of
+  oscillating between states.</li>
+
+  <li>EPUB and FB2 now share better text-layout instrumentation and a combined break/measure
+  helper in the common layout layer, improving visibility into shaping and line-break
+  cost in real books.</li>
+
+  <li>The text engine improvements introduced around the 1.1.0 line remain part of
+  this release: stronger Unicode-aware text runs, better line breaking, safer text-size
+  clamping, and more resilient page-buffer handling continue to benefit EPUB, FB2,
+  and other reflowable formats.</li>
+
+  <li>MOBI support also keeps the 1.1.x improvements to inline images, safer cover
+  extraction, more correct record decoding, and the legacy plain-text wrapping behavior
+  that works better on real books.</li>
 
   </ul>
 
@@ -119,7 +161,7 @@ update_notes: '<h2 dir="auto">3dslibris 1.0.3</h2>
   <li><code class="notranslate">3dslibris-sdmc.zip</code></li>
 
   </ul>'
-updated: '2026-03-14T13:57:05Z'
-version: v1.0.3
-version_title: v1.0.3
+updated: '2026-03-31T18:04:54Z'
+version: v2.0.0
+version_title: v2.0.0
 ---
