@@ -22,6 +22,48 @@ icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
+prerelease:
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.2.1
+  downloads:
+    TJAP_3DS.3dsx:
+      size: 9791756
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.1/TJAP_3DS.3dsx
+    TJAP_3DS.cia:
+      size: 9970624
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.1/TJAP_3DS.cia
+  qr:
+    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
+  update_notes: '<h2 dir="auto">チェンジログ</h2>
+
+    <ul dir="auto">
+
+    <li><code class="notranslate">#JPOSSCROLL (Travel_time(float)) (position(int))
+    (direction(int))</code>の実装が完了しました。</li>
+
+    </ul>
+
+    <h2 dir="auto">Changelog</h2>
+
+    <ul dir="auto">
+
+    <li>The implementation of <code class="notranslate">#JPOSSCROLL (Travel_time(float))
+    (position(int)) (direction(int))</code> is complete.</li>
+
+    </ul>'
+  update_notes_md: '## チェンジログ
+
+    - `#JPOSSCROLL (Travel_time(float)) (position(int)) (direction(int))`の実装が完了しました。
+
+
+    ## Changelog
+
+    - The implementation of `#JPOSSCROLL (Travel_time(float)) (position(int)) (direction(int))`
+    is complete.'
+  updated: '2026-03-30T07:04:57Z'
+  version: v2.2.1
+  version_title: TJAPlayer for 3DS v2.2.1
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
