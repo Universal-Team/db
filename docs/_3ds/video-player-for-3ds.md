@@ -28,6 +28,104 @@ image_length: 12768
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+prerelease:
+  download_page: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/tag/20260401/v1.6.2641
+  downloads:
+    Video_player_for_3DS.3dsx:
+      size: 26900984
+      size_str: 25 MiB
+      url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/20260401/v1.6.2641/Video_player_for_3DS.3dsx
+    Video_player_for_3DS.cia:
+      size: 23741376
+      size_str: 22 MiB
+      url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/20260401/v1.6.2641/Video_player_for_3DS.cia
+    Video_player_for_3DS_high_ram.cia:
+      size: 23741376
+      size_str: 22 MiB
+      url: https://github.com/Core-2-Extreme/Video_player_for_3DS/releases/download/20260401/v1.6.2641/Video_player_for_3DS_high_ram.cia
+  qr:
+    Video_player_for_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/video_player_for_3ds-cia.png
+    Video_player_for_3DS_high_ram.cia: https://db.universal-team.net/assets/images/qr/prerelease/video_player_for_3ds_high_ram-cia.png
+  update_notes: '<p dir="auto"><strong>Changes</strong> <br>
+
+    Added mandatory education.</p>
+
+    <p dir="auto"><strong>Known issues</strong> <br>
+
+    Font rendering is broken until you finish the education (you can start education
+    program by clicking video player icon (<a target="_blank" rel="noopener noreferrer
+    nofollow" href="https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/screenshots/video_player_icon.png"><img
+    src="https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/screenshots/video_player_icon.png"
+    width="25" height="25" style="max-width: 100%; height: auto; max-height: 25px;"></a>)).<br>
+
+    It''s not possible to watch other videos until you finish the education.<br>
+
+    It''s not possible to pause education once it starts.</p>
+
+    <p dir="auto"><strong>About high RAM cia</strong> <br>
+
+    <code class="notranslate">..._high_ram.cia</code> can use more RAM than normal
+    <code class="notranslate">.cia</code> and <code class="notranslate">.3dsx</code>,
+    this can reduce chance of getting <code class="notranslate">out of (linear) memory</code>
+    errors. <br>
+
+    When you open/close it your 3DS will reboot so it may take a while to open/close
+    the app, and you can''t use the Internet browser while you are using it.</p>
+
+    <h3 dir="auto"><a href="https://discord.gg/MMsAXvetpR" rel="nofollow">Discord
+    channnel</a></h3>
+
+    <h3 dir="auto"><a href="https://gbatemp.net/threads/release-video-player-for-3ds.586094"
+    rel="nofollow">GBAtemp thread</a></h3>
+
+    <p dir="auto">This is free software, but I accept donation.</p>
+
+    <ul dir="auto">
+
+    <li>BTC : bc1qch33qdce5hwxte0pm8pn0a6qqnartg2ujklhhc</li>
+
+    <li>LTC : MKTD3U2vCMi7S7Jb1EQ2FiS4AdHC23PxJh</li>
+
+    </ul>'
+  update_notes_md: '**Changes** \
+
+    Added mandatory education.
+
+
+    **Known issues** \
+
+    Font rendering is broken until you finish the education (you can start education
+    program by clicking video player icon (<img src="https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/screenshots/video_player_icon.png"
+    width="25" height="25">)).
+
+    It''s not possible to watch other videos until you finish the education.
+
+    It''s not possible to pause education once it starts.
+
+
+
+    **About high RAM cia** \
+
+    `..._high_ram.cia` can use more RAM than normal `.cia` and `.3dsx`, this can reduce
+    chance of getting `out of (linear) memory` errors. \
+
+    When you open/close it your 3DS will reboot so it may take a while to open/close
+    the app, and you can''t use the Internet browser while you are using it.
+
+
+    ### [Discord channnel](https://discord.gg/MMsAXvetpR)
+
+    ### [GBAtemp thread](https://gbatemp.net/threads/release-video-player-for-3ds.586094)
+
+
+    This is free software, but I accept donation.
+
+    * BTC : bc1qch33qdce5hwxte0pm8pn0a6qqnartg2ujklhhc
+
+    * LTC : MKTD3U2vCMi7S7Jb1EQ2FiS4AdHC23PxJh'
+  updated: '2026-04-01T13:45:55Z'
+  version: 20260401/v1.6.2641
+  version_title: Video player for 3DS 20260401/v1.6.2641
 qr:
   Video_player_for_3DS.cia: https://db.universal-team.net/assets/images/qr/video_player_for_3ds-cia.png
   Video_player_for_3DS_high_ram.cia: https://db.universal-team.net/assets/images/qr/video_player_for_3ds_high_ram-cia.png
