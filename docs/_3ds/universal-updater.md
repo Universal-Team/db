@@ -28,7 +28,7 @@ nightly:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 2977448
+      size: 2977040
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
@@ -39,9 +39,9 @@ nightly:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
   update_notes: <p dir="auto">TWLBot - Automatic translation import</p>
   update_notes_md: TWLBot - Automatic translation import
-  updated: '2026-03-15T02:01:41Z'
+  updated: '2026-04-01T02:10:36Z'
   version: git
-  version_title: Continuous Build - 0e977c2
+  version_title: Continuous Build - 03e3469
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
