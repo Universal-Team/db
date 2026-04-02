@@ -99,7 +99,7 @@ prerelease:
 qr:
   aurorachat-3ds.cia: https://db.universal-team.net/assets/images/qr/aurorachat-3ds-cia.png
 source: https://github.com/Unitendo/aurorachat
-stars: 9
+stars: 10
 systems:
 - 3DS
 title: aurorachat
