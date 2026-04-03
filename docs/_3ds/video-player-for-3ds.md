@@ -46,7 +46,9 @@ prerelease:
   qr:
     Video_player_for_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/video_player_for_3ds-cia.png
     Video_player_for_3DS_high_ram.cia: https://db.universal-team.net/assets/images/qr/prerelease/video_player_for_3ds_high_ram-cia.png
-  update_notes: '<p dir="auto"><strong>Changes</strong> <br>
+  update_notes: '<h1 dir="auto">Edit: ☢This is April fools release☢</h1>
+
+    <p dir="auto"><strong>Changes</strong> <br>
 
     Added mandatory education.</p>
 
@@ -87,7 +89,10 @@ prerelease:
     <li>LTC : MKTD3U2vCMi7S7Jb1EQ2FiS4AdHC23PxJh</li>
 
     </ul>'
-  update_notes_md: '**Changes** \
+  update_notes_md: '# Edit: ☢This is April fools release☢
+
+
+    **Changes** \
 
     Added mandatory education.
 
