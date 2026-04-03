@@ -59,6 +59,8 @@ update_notes: '<h1 dir="auto">v2.0.1</h1>
 
   <li>Added shit from a butt</li>
 
+  <li>Fixed problems after closing game</li>
+
   </ul>'
 updated: '2026-04-03T10:00:35Z'
 version: v2.0.1
