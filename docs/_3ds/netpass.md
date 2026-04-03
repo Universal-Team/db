@@ -33,9 +33,8 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <ul data-sourcepos="1:2-2:96" dir="auto">&#x000A;<li data-sourcepos="1:2-1:36">store
-  nid_password on the sd card</li>&#x000A;<li data-sourcepos="2:2-2:96">make sure
-  font scaling for chineese (simplified + traditional) and korean fonts work properly</li>&#x000A;</ul>
+update_notes: " - store nid_password on the sd card\n - make sure font scaling for\
+  \ chineese (simplified + traditional) and korean fonts work properly"
 updated: '2026-03-31T05:01:07.157Z'
 version: v2.0.1
 version_title: v2.0.1
