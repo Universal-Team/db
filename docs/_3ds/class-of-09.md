@@ -10,7 +10,7 @@ description: 3DS port of the visual novel Class of '09
 download_page: https://github.com/Bilbard/classof3ds/releases
 downloads:
   classof3ds.3dsx:
-    size: 186355320
+    size: 186355336
     size_str: 177 MiB
     url: https://github.com/Bilbard/classof3ds/releases/download/v2.0.1/classof3ds.3dsx
   classof3ds.cia:
@@ -18,7 +18,7 @@ downloads:
     size_str: 177 MiB
     url: https://github.com/Bilbard/classof3ds/releases/download/v2.0.1/classof3ds.cia
   classof3dsru.3dsx:
-    size: 238080836
+    size: 238080852
     size_str: 227 MiB
     url: https://github.com/Bilbard/classof3ds/releases/download/v2.0.1/classof3dsru.3dsx
   classof3dsru.cia:
