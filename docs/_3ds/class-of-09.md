@@ -10,21 +10,21 @@ description: 3DS port of the visual novel Class of '09
 download_page: https://github.com/Bilbard/classof3ds/releases
 downloads:
   classof3ds.3dsx:
-    size: 186355336
+    size: 186355424
     size_str: 177 MiB
-    url: https://github.com/Bilbard/classof3ds/releases/download/v2.0.1/classof3ds.3dsx
+    url: https://github.com/Bilbard/classof3ds/releases/download/v2.0.2/classof3ds.3dsx
   classof3ds.cia:
     size: 185869312
     size_str: 177 MiB
-    url: https://github.com/Bilbard/classof3ds/releases/download/v2.0.1/classof3ds.cia
+    url: https://github.com/Bilbard/classof3ds/releases/download/v2.0.2/classof3ds.cia
   classof3dsru.3dsx:
-    size: 238080852
+    size: 238080956
     size_str: 227 MiB
-    url: https://github.com/Bilbard/classof3ds/releases/download/v2.0.1/classof3dsru.3dsx
+    url: https://github.com/Bilbard/classof3ds/releases/download/v2.0.2/classof3dsru.3dsx
   classof3dsru.cia:
     size: 237122560
     size_str: 226 MiB
-    url: https://github.com/Bilbard/classof3ds/releases/download/v2.0.1/classof3dsru.cia
+    url: https://github.com/Bilbard/classof3ds/releases/download/v2.0.2/classof3dsru.cia
 github: Bilbard/classof3ds
 icon: https://raw.githubusercontent.com/Bilbard/classof3ds/refs/heads/master/3ds/icon.png
 image: https://raw.githubusercontent.com/Bilbard/classof3ds/refs/heads/master/3ds/widebanner.png
@@ -49,22 +49,20 @@ systems:
 title: Class of '09
 unique_ids:
 - '0xFA945'
-update_notes: '<h1 dir="auto">v2.0.1</h1>
+update_notes: '<h1 dir="auto">v2.0.2</h1>
+
+  <p dir="auto">This is a minor update exclusive to the second game. The first game
+  is provided again for convenience and for Universal-DB.</p>
 
   <ul dir="auto">
 
-  <li>(Second game) A couple of scenes didn''t fade in/out correctly, they now do</li>
-
-  <li>(Second game) Other script tweaks</li>
-
-  <li>Added shit from a butt</li>
-
-  <li>Fixed problems after closing game</li>
+  <li>(Second game) Fixed rehab scene where Kelly possesses Jecka and walks the wrong
+  way</li>
 
   </ul>'
-updated: '2026-04-03T10:00:35Z'
-version: v2.0.1
-version_title: v2.0.1
+updated: '2026-04-04T10:51:36Z'
+version: v2.0.2
+version_title: v2.0.2
 ---
 A demake/port of the visual novel "Class of '09" to the 3DS. 
 
