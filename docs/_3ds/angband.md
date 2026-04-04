@@ -117,7 +117,7 @@ prerelease:
   version: 4.2.6-85-g97268df5b
   version_title: 4.2.6-85-g97268df5b
 source: https://github.com/angband/angband
-stars: 1496
+stars: 1497
 systems:
 - 3DS
 - DS
