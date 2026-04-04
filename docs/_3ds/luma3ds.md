@@ -22,7 +22,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/LumaTeam/Luma3DS
-stars: 6317
+stars: 6322
 systems:
 - 3DS
 title: Luma3DS
@@ -31,7 +31,15 @@ update_notes: '<p dir="auto">Small release this time, mostly shipping external c
   <ul dir="auto">
 
   <li>Remove the Year 2050 limit in System Settings date picker (rest of system handles
-  2000-2099 just fine)</li>
+  2000-30 Dec. 2099 just fine)
+
+  <ul dir="auto">
+
+  <li>HOME menu may crash when setting date to 31 Dec. 2099</li>
+
+  </ul>
+
+  </li>
 
   <li>plugin_loader: make plugin reply timeout configurable</li>
 
