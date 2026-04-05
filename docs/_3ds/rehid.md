@@ -12,9 +12,9 @@ download_filter: cia
 download_page: https://github.com/hax0kartik/rehid/releases
 downloads:
   rehidhelper.cia:
-    size: 750528
-    size_str: 732 KiB
-    url: https://github.com/hax0kartik/rehid/releases/download/v4.0/rehidhelper.cia
+    size: 803776
+    size_str: 784 KiB
+    url: https://github.com/hax0kartik/rehid/releases/download/v5.0/rehidhelper.cia
 github: hax0kartik/rehid
 image: https://avatars.githubusercontent.com/u/16360444?v=4&size=128
 image_length: 21350
@@ -29,55 +29,63 @@ stars: 138
 systems:
 - 3DS
 title: rehid
-update_notes: '<p dir="auto">This is the fifth public release of rehid.<br>
+update_notes: '<p dir="auto">This is the sixth public release of rehid.<br>
 
   The following changes have been made:</p>
 
   <ul dir="auto">
 
-  <li>Add debugpad support.</li>
+  <li>Fix a bug due to which ZL/ZR wouldn''t respond after sleep.</li>
 
-  <li>Fix bugs in CPAD&gt;DPAD and DPAD&gt;CPAD remappings.</li>
+  <li>Fix a bug in turbofire due to which remapping weren''t applied correctly.</li>
 
-  <li>Fix a bug where global remaps would <em>not</em> be applied on the home menu
-  after you close a title.</li>
+  <li>Fix bugs in title selection screen due to which mappings were generated for
+  the wrong tid. (Sorry!)</li>
 
-  <li>Rehidhelper has been rewritten and should be more stable.</li>
-
-  <li>Rehidhelper is now available as a CIA and can be installed on the home screen
-  directly.</li>
-
-  <li>Add experimental support for turbofire/autofire. For further details, you can
-  look at <a href="https://gbatemp.net/threads/wip-rehid-button-remapping-for-3ds.585387/post-10079729"
-  rel="nofollow">this</a> post.</li>
-
-  <li>Luma v13.0 support has been added by moving to CXI-based patching. <strong>This
-  release will only work with luma v13.0 and above</strong></li>
+  <li>Other minor improvements.</li>
 
   </ul>
+
+  <p dir="auto">One of the major features that have been worked for this release is
+  <strong>Circle Pad Pro support on O3DS</strong>. <strong>This means you can now
+  enjoy your Circle Pad Pro even with games which do not support it!</strong> However,
+  this is <strong>highly experimental</strong>, and as such not included with the
+  main release. <strong>Bugs and Crashes are to be expected</strong> and should be
+  reported here on github or on my discord server: <a href="https://discord.gg/hyuvmb9"
+  rel="nofollow">https://discord.gg/hyuvmb9</a>.</p>
+
+  <p dir="auto">Folks interested in this feature can download <code class="notranslate">0004013000001D02_experimental.cxi</code>,
+  rename it to <code class="notranslate">0004013000001D02.cxi</code>, and put it in
+  <code class="notranslate">/luma/sysmodules</code> folder. Don''t forget to enable
+  <code class="notranslate">Load external firms and modules</code> from luma config
+  menu!</p>
+
+  <p dir="auto">I would like to thank <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/rosaage/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/rosaage">@rosaage</a>,
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/EthanMac1915/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/EthanMac1915">@EthanMac1915</a>,
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Mayonaka-7/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Mayonaka-7">@Mayonaka-7</a>
+  and @tittilvero who have spent countless hours helping me test the cpp feature.</p>
 
   <p dir="auto"><strong>For newcomers, please download and install rehidhelper using
   FBI and then use rehidhelper to install rehid. You DO NOT need to download the 0004013000001D02.cxi
   file.</strong></p>
 
-  <p dir="auto"><strong>If you''ve installed rehid previously, please delete the <code
-  class="notranslate">/luma/titles/0004013000001D02</code> and <code class="notranslate">/luma/titles/0004013000003302</code>
-  folder manually and then reinstall rehid using the new rehidhelper.</strong></p>
+  <p dir="auto">Some premade configs can be found here:- <a href="https://github.com/Nanashi13/Rehid-configs-files-3DS">https://github.com/Nanashi13/Rehid-configs-files-3DS</a></p>
 
-  <p dir="auto">You can ask for help either on <a href="https://discord.gg/hyuvmb9"
-  rel="nofollow">my discord server</a> or on the gbatemp <a href="https://gbatemp.net/threads/wip-rehid-button-remapping-for-3ds.585387/"
-  rel="nofollow">thread</a>.</p>
-
-  <p dir="auto">Some premade configs can be found here:-  <a href="https://github.com/Nanashi13/Rehid-configs-files-3DS">https://github.com/Nanashi13/Rehid-configs-files-3DS</a></p>
+  <p dir="auto">As always, feel free to join the discord server mentioned above if
+  you need help.</p>
 
   <p dir="auto">You can scan the following QR code to install rehidhelper using FBI.<br>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/762c824a-4f38-47de-bbce-fa35a94e2837"><img
-  src="https://github.com/user-attachments/assets/762c824a-4f38-47de-bbce-fa35a94e2837"
-  alt="image" style="max-width: 100%;"></a></p>'
-updated: '2023-07-21T04:27:05Z'
-version: v4.0
-version_title: v4.0 Fifth Release
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/962ce0e9-08cd-4890-b1ef-4ebdc2ef0c7c"><img
+  width="200" height="200" alt="qrcode" src="https://github.com/user-attachments/assets/962ce0e9-08cd-4890-b1ef-4ebdc2ef0c7c"
+  style="max-width: 100%; height: auto; max-height: 200px;"></a></p>'
+updated: '2026-04-05T15:10:32Z'
+version: v5.0
+version_title: v5.0 Sixth Release
 ---
 # Rehid
 
