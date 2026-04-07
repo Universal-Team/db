@@ -14,15 +14,15 @@ downloads:
   ColecoDS.nds:
     size: 1480192
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.9/ColecoDS.nds
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.9a/ColecoDS.nds
   README.md:
     size: 57923
     size_str: 56 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.9/README.md
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.9a/README.md
   cbios.txt:
     size: 2265
     size_str: 2 KiB
-    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.9/cbios.txt
+    url: https://github.com/wavemotion-dave/ColecoDS/releases/download/10.9a/cbios.txt
 github: wavemotion-dave/ColecoDS
 icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
@@ -35,29 +35,10 @@ stars: 59
 systems:
 - DS
 title: ColecoDS
-update_notes: '<p dir="auto">V10.9: 12-Sep-2025 by wavemotion-dave</p>
-
-  <ul dir="auto">
-
-  <li>Added SLIDE-N-GLIDE joystick handling for improved cornering in maze/ladder
-  games.</li>
-
-  <li>Added ''DEFINE KEYS'' to the DS Mini-Menu so you can change keys in-game.</li>
-
-  <li>New Adam memory configurations to cover 64K up to 1MB</li>
-
-  <li>Added compression of save/load states for improved SD utilization.</li>
-
-  <li>Added compression of config file for improved SD utilization and increased number
-  of available config slots (2300)</li>
-
-  <li>Improved high score file handling so we don''t waste as much memory and increased
-  the number of available HS slots to 1500.</li>
-
-  <li>Lots of minor cleanup and improvements under the hood as time permitted.</li>
-
-  </ul>'
-updated: '2025-09-12T10:55:49Z'
-version: '10.9'
-version_title: Version 10.9
+update_notes: <p dir="auto">Version 10.9a - hotfix for loading 64K carts so that the
+  cached memory is correctly loaded before the initial bankswitch (a few 64K games
+  would not load correctly before this patch).</p>
+updated: '2026-04-07T10:52:41Z'
+version: 10.9a
+version_title: Version 10.9a
 ---

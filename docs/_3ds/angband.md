@@ -18,104 +18,19 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-85-g97268df5b
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-87-g7341240f4
   downloads:
-    Angband-4.2.6-85-g97268df5b-3ds.zip:
-      size: 24671406
+    Angband-4.2.6-87-g7341240f4-3ds.zip:
+      size: 24671220
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-85-g97268df5b/Angband-4.2.6-85-g97268df5b-3ds.zip
-    Angband-4.2.6-85-g97268df5b-nds.zip:
+      url: https://github.com/angband/angband/releases/download/4.2.6-87-g7341240f4/Angband-4.2.6-87-g7341240f4-3ds.zip
+    Angband-4.2.6-87-g7341240f4-nds.zip:
       size: 23331043
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-85-g97268df5b/Angband-4.2.6-85-g97268df5b-nds.zip
-  update_notes: '<h2 dir="auto">What''s Changed</h2>
-
-    <ul dir="auto">
-
-    <li>Remove out-of-date comment about numeric SVALs in tile preference files by
-    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4128726182" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6551"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6551/hovercard"
-    href="https://github.com/angband/angband/pull/6551">#6551</a></li>
-
-    <li>Adam Bolt''s tiles:  add new assignments for existing, unused tiles by <a
-    class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4109642633" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6548"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6548/hovercard"
-    href="https://github.com/angband/angband/pull/6548">#6548</a></li>
-
-    <li>SDL2: in details dialog, split version line in two by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4129796786" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6552"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6552/hovercard"
-    href="https://github.com/angband/angband/pull/6552">#6552</a></li>
-
-    <li>Correct edges of the Diagonal 1 interesting room by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4137834552" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6553"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6553/hovercard"
-    href="https://github.com/angband/angband/pull/6553">#6553</a></li>
-
-    <li>Correct doors line for Comb right room template by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4138056601" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6554"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6554/hovercard"
-    href="https://github.com/angband/angband/pull/6554">#6554</a></li>
-
-    <li>stats frontend:  avoid crash during cleanup by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4138982938" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6556"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6556/hovercard"
-    href="https://github.com/angband/angband/pull/6556">#6556</a></li>
-
-    <li>stats frontend: add options to set player''s class and race by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4139152893" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6557"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6557/hovercard"
-    href="https://github.com/angband/angband/pull/6557">#6557</a></li>
-
-    </ul>
-
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-78-g4ce58ed04...4.2.6-85-g97268df5b"><tt>4.2.6-78-g4ce58ed04...4.2.6-85-g97268df5b</tt></a></p>'
-  update_notes_md: '## What''s Changed
-
-    * Remove out-of-date comment about numeric SVALs in tile preference files by @backwardsEric
-    in https://github.com/angband/angband/pull/6551
-
-    * Adam Bolt''s tiles:  add new assignments for existing, unused tiles by @backwardsEric
-    in https://github.com/angband/angband/pull/6548
-
-    * SDL2: in details dialog, split version line in two by @backwardsEric in https://github.com/angband/angband/pull/6552
-
-    * Correct edges of the Diagonal 1 interesting room by @backwardsEric in https://github.com/angband/angband/pull/6553
-
-    * Correct doors line for Comb right room template by @backwardsEric in https://github.com/angband/angband/pull/6554
-
-    * stats frontend:  avoid crash during cleanup by @backwardsEric in https://github.com/angband/angband/pull/6556
-
-    * stats frontend: add options to set player''s class and race by @backwardsEric
-    in https://github.com/angband/angband/pull/6557
-
-
-
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-78-g4ce58ed04...4.2.6-85-g97268df5b'
-  updated: '2026-03-31T12:24:48Z'
-  version: 4.2.6-85-g97268df5b
-  version_title: 4.2.6-85-g97268df5b
+      url: https://github.com/angband/angband/releases/download/4.2.6-87-g7341240f4/Angband-4.2.6-87-g7341240f4-nds.zip
+  updated: '2026-04-07T13:04:59Z'
+  version: 4.2.6-87-g7341240f4
+  version_title: 4.2.6-87-g7341240f4
 source: https://github.com/angband/angband
 stars: 1498
 systems:
