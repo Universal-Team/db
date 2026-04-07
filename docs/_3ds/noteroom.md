@@ -10,13 +10,13 @@ description: Drawing and text Chat Rooms.
 download_page: https://github.com/SprtnDio/NoteRoom/releases
 downloads:
   NoteRoom.3dsx:
-    size: 254136
-    size_str: 248 KiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v1.0.0/NoteRoom.3dsx
+    size: 253656
+    size_str: 247 KiB
+    url: https://github.com/SprtnDio/NoteRoom/releases/download/v1.0.1/NoteRoom.3dsx
   NoteRoom.cia:
-    size: 928704
-    size_str: 906 KiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v1.0.0/NoteRoom.cia
+    size: 927680
+    size_str: 905 KiB
+    url: https://github.com/SprtnDio/NoteRoom/releases/download/v1.0.1/NoteRoom.cia
 github: SprtnDio/NoteRoom
 icon: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/icon.png
 image: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/images/NoteRoom_05.04.26_04.21.54.546.png
@@ -31,7 +31,7 @@ stars: 0
 systems:
 - 3DS
 title: NoteRoom
-update_notes: '<h1 dir="auto">🌐 NoteRoom v1.0.0 - The Global Drawing Messenger</h1>
+update_notes: '<h1 dir="auto">🌐 NoteRoom v1.0.1 - The Global Drawing Messenger</h1>
 
   <p dir="auto">Welcome to the first official release of <strong>NoteRoom</strong>!</p>
 
@@ -155,8 +155,7 @@ update_notes: '<h1 dir="auto">🌐 NoteRoom v1.0.0 - The Global Drawing Messenge
 
   <p dir="auto"><strong>Have fun, be respectful, and enjoy the revival of handheld
   chatting! 🖍️🌐</strong></p>'
-updated: '2026-04-05T02:12:17Z'
-version: v1.0.0
-version_title: NoteRoom v1.0.0
+updated: '2026-04-07T06:12:32Z'
+version: v1.0.1
 ---
 NoteRoom is a real-time online drawing and text Chatroom messenger for the Nintendo 2/3DS, inspired by a well known chatroom. Connect globally across themed, dynamic lobbies, share hand-drawn doodles, and view live user counts.

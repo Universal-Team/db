@@ -20,7 +20,6 @@ downloads:
 github: MillKeny/flappy
 icon: https://github.com/MillKeny/flappy/raw/main/assets/icon.png
 image: https://github.com/MillKeny/flappy/raw/main/assets/banner.png
-image_length: 7078
 layout: app
 license: mit
 license_name: MIT License
