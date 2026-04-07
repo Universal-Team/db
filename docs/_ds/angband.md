@@ -28,6 +28,39 @@ prerelease:
       size: 23331043
       size_str: 22 MiB
       url: https://github.com/angband/angband/releases/download/4.2.6-87-g7341240f4/Angband-4.2.6-87-g7341240f4-nds.zip
+  update_notes: '<h2 dir="auto">What''s Changed</h2>
+
+    <ul dir="auto">
+
+    <li>Fix minor edge asymmetry between Zag left and Zag right room templates by
+    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4155266493" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6561"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6561/hovercard"
+    href="https://github.com/angband/angband/pull/6561">#6561</a></li>
+
+    <li>Borg manual restart fix by <a class="user-mention notranslate" data-hovercard-type="user"
+    data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4156045477" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6562"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6562/hovercard"
+    href="https://github.com/angband/angband/pull/6562">#6562</a></li>
+
+    </ul>
+
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-85-g97268df5b...4.2.6-87-g7341240f4"><tt>4.2.6-85-g97268df5b...4.2.6-87-g7341240f4</tt></a></p>'
+  update_notes_md: '## What''s Changed
+
+    * Fix minor edge asymmetry between Zag left and Zag right room templates by @backwardsEric
+    in https://github.com/angband/angband/pull/6561
+
+    * Borg manual restart fix by @agoodman00 in https://github.com/angband/angband/pull/6562
+
+
+
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-85-g97268df5b...4.2.6-87-g7341240f4'
   updated: '2026-04-07T13:04:59Z'
   version: 4.2.6-87-g7341240f4
   version_title: 4.2.6-87-g7341240f4
