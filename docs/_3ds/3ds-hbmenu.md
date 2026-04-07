@@ -19,7 +19,7 @@ image: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
 image_length: 21865
 layout: app
 source: https://github.com/devkitPro/3ds-hbmenu
-stars: 835
+stars: 836
 systems:
 - 3DS
 title: 3ds-hbmenu
