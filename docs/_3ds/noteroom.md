@@ -31,7 +31,8 @@ stars: 0
 systems:
 - 3DS
 title: NoteRoom
-update_notes: '<h1 dir="auto">🌐 NoteRoom v1.0.1 - The Global Drawing Messenger</h1>
+update_notes: '<h1 dir="auto">🌐 NoteRoom v1.0.1 (new Time synchronization) - The Global
+  Drawing Messenger</h1>
 
   <p dir="auto">Welcome to the first official release of <strong>NoteRoom</strong>!</p>
 
