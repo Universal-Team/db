@@ -30,7 +30,7 @@ screenshots:
 - description: Timer
   url: https://db.universal-team.net/assets/images/screenshots/cstimer-3ds/timer.png
 source: https://github.com/Menshion01/CSTimer-3DS
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: CSTimer-3DS
