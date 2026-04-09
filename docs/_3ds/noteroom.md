@@ -8,15 +8,7 @@ color_bg: '#444637'
 created: '2026-03-13T00:19:39Z'
 description: Drawing and text Chat Rooms.
 download_page: https://github.com/SprtnDio/NoteRoom/releases
-downloads:
-  NoteRoom.3dsx:
-    size: 259668
-    size_str: 253 KiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v1.0.2/NoteRoom.3dsx
-  NoteRoom.cia:
-    size: 932288
-    size_str: 910 KiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v1.0.2/NoteRoom.cia
+downloads: {}
 github: SprtnDio/NoteRoom
 icon: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/icon.png
 image: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/images/NoteRoom_05.04.26_04.21.54.546.png
@@ -24,8 +16,6 @@ image_length: 12806
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-qr:
-  NoteRoom.cia: https://db.universal-team.net/assets/images/qr/noteroom-cia.png
 source: https://github.com/SprtnDio/NoteRoom
 stars: 1
 systems:
