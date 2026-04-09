@@ -18,7 +18,7 @@ downloads:
     size_str: 31 MiB
     url: https://github.com/RigleGit/3dslibris/releases/download/v2.1.0/3dslibris-sdmc.zip
   3dslibris-source.tar.gz:
-    size: 66519727
+    size: 66529220
     size_str: 63 MiB
     url: https://github.com/RigleGit/3dslibris/releases/download/v2.1.0/3dslibris-source.tar.gz
   3dslibris.3dsx:
