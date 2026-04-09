@@ -65,7 +65,7 @@ prerelease:
   version: 4.2.6-87-g7341240f4
   version_title: 4.2.6-87-g7341240f4
 source: https://github.com/angband/angband
-stars: 1498
+stars: 1499
 systems:
 - 3DS
 - DS
