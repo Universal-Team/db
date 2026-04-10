@@ -10,9 +10,9 @@ description: port of NikoDevVR's Adastra 3D for new 3DS
 download_page: https://github.com/KrisTheDog/ADASTRA3D-for-3ds/releases
 downloads:
   Adastra3D.cia:
-    size: 53588928
-    size_str: 51 MiB
-    url: https://github.com/KrisTheDog/ADASTRA3D-for-3ds/releases/download/1.0/Adastra3D.cia
+    size: 45478848
+    size_str: 43 MiB
+    url: https://github.com/KrisTheDog/ADASTRA3D-for-3ds/releases/download/2.0/Adastra3D.cia
 github: KrisTheDog/ADASTRA3D-for-3ds
 icon: https://raw.githubusercontent.com/KrisTheDog/ADASTRA3D-for-3ds/refs/heads/main/incon.png
 image: https://raw.githubusercontent.com/KrisTheDog/ADASTRA3D-for-3ds/refs/heads/main/banner.png
@@ -28,8 +28,18 @@ systems:
 title: Adastra 3D
 unique_ids:
 - '0x1A1D8'
-update_notes: <p dir="auto">for new 3DS only</p>
-updated: '2026-03-01T17:42:16Z'
-version: '1.0'
+update_notes: '<p dir="auto">-added old 3ds support (tested on real hardware and emulator)<br>
+
+  -banished 90% of plant leaves which caused HUGE LAG<br>
+
+  -reduced all texture sizes (so it dosent crash on old 3DS but shouldn''t be noticiable)<br>
+
+  -added additional camera controlls with DPAD<br>
+
+  -now there is version display at bottom right of bottom screen<br>
+
+  ^-^</p>'
+updated: '2026-04-09T21:19:15Z'
+version: '2.0'
 version_title: CIA
 ---
