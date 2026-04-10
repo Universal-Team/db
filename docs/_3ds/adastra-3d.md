@@ -12,7 +12,7 @@ downloads:
   Adastra3D.cia:
     size: 53588928
     size_str: 51 MiB
-    url: https://github.com/KrisTheDog/ADASTRA3D-for-3ds/releases/download/main/Adastra3D.cia
+    url: https://github.com/KrisTheDog/ADASTRA3D-for-3ds/releases/download/1.0/Adastra3D.cia
 github: KrisTheDog/ADASTRA3D-for-3ds
 icon: https://raw.githubusercontent.com/KrisTheDog/ADASTRA3D-for-3ds/refs/heads/main/incon.png
 image: https://raw.githubusercontent.com/KrisTheDog/ADASTRA3D-for-3ds/refs/heads/main/banner.png
@@ -30,6 +30,6 @@ unique_ids:
 - '0x1A1D8'
 update_notes: <p dir="auto">for new 3DS only</p>
 updated: '2026-03-01T17:42:16Z'
-version: main
+version: '1.0'
 version_title: CIA
 ---
