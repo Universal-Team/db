@@ -10,25 +10,25 @@ description: An ebook and manga reader for Nintendo 3DS
 download_page: https://github.com/RigleGit/3dslibris/releases
 downloads:
   3dslibris-debug.3dsx:
-    size: 39121736
+    size: 39122112
     size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.1.1/3dslibris-debug.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.1.2/3dslibris-debug.3dsx
   3dslibris-sdmc.zip:
-    size: 32745232
+    size: 32745218
     size_str: 31 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.1.1/3dslibris-sdmc.zip
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.1.2/3dslibris-sdmc.zip
   3dslibris-source.tar.gz:
-    size: 66526475
+    size: 66524014
     size_str: 63 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.1.1/3dslibris-source.tar.gz
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.1.2/3dslibris-source.tar.gz
   3dslibris.3dsx:
-    size: 39099496
+    size: 39099872
     size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.1.1/3dslibris.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.1.2/3dslibris.3dsx
   3dslibris.cia:
     size: 39330752
     size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.1.1/3dslibris.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.1.2/3dslibris.cia
 github: RigleGit/3dslibris
 icon: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/icon-32x32.png
 image: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/banner.png
@@ -48,21 +48,27 @@ stars: 73
 systems:
 - 3DS
 title: 3dslibris
-update_notes: '<h2 dir="auto">3dslibris 2.1.1</h2>
+update_notes: '<h2 dir="auto">3dslibris 2.1.2</h2>
 
-  <p dir="auto">Patch release restoring page-turn performance to pre-2.1.0 levels.</p>
+  <p dir="auto">Patch release fixing cover-load gaps in the library browser and a
+  use-after-free crash on exit.</p>
 
   <h3 dir="auto">Fix</h3>
 
   <ul dir="auto">
 
-  <li><strong>Page-turn speed restored</strong>: page rendering was ~10× slower than
-  2.0.4 due to a glyph cache regression introduced alongside the CJK/RTL fallback
-  font support in 2.1.0. The glyph cache was effectively bypassed on every character
-  because the ghost-glyph detection path called <code class="notranslate">FT_Load_Char</code>
-  unconditionally, even when the glyph was already cached. This is fixed by checking
-  the cache first and restricting the ghost-glyph check to the Arabic Presentation
-  Forms block (U+FE70–U+FEFF) where it is actually needed.</li>
+  <li><strong>Cover-load gaps fixed</strong>: all visible books now have their covers
+  queued for extraction on each warmup tick, not just the selected one. The retry
+  counter is no longer incremented on metadata-index failures (only on actual cover-extraction
+  failures), so transient index misses no longer permanently blacklist a book''s cover.
+  The attempt limit was raised from 2 to 3 to give marginal cases one extra pass.</li>
+
+  <li><strong>Use-after-free crash on exit fixed</strong>: the <code class="notranslate">App</code>
+  destructor now deletes <code class="notranslate">Book</code> objects before releasing
+  <code class="notranslate">Prefs</code> and the touchscreen handle (<code class="notranslate">ts</code>).
+  Previously, <code class="notranslate">Book</code> destructors ran after <code class="notranslate">Prefs</code>/<code
+  class="notranslate">ts</code> were freed, producing a Luma3DS fault dump with FAR=0xE7E7996B.
+  A <code class="notranslate">Button*</code> leak in the destructor is also plugged.</li>
 
   </ul>
 
@@ -81,7 +87,7 @@ update_notes: '<h2 dir="auto">3dslibris 2.1.1</h2>
   <li><code class="notranslate">3dslibris-source.tar.gz</code></li>
 
   </ul>'
-updated: '2026-04-10T07:38:52Z'
-version: v2.1.1
-version_title: v2.1.1
+updated: '2026-04-10T14:58:55Z'
+version: v2.1.2
+version_title: v2.1.2
 ---
