@@ -29,9 +29,12 @@ stars: 141
 systems:
 - 3DS
 title: rehid
-update_notes: '<p dir="auto">This is the sixth public release of rehid.<br>
+update_notes: '<p dir="auto">This is the sixth public release of rehid.</p>
 
-  The following changes have been made:</p>
+  <p dir="auto"><strong>E: A hotfix has been made which fixes Zl/ZR behaviour on n3ds.
+  Please update!</strong></p>
+
+  <p dir="auto">The following changes have been made:</p>
 
   <ul dir="auto">
 
@@ -80,8 +83,8 @@ update_notes: '<p dir="auto">This is the sixth public release of rehid.<br>
 
   <p dir="auto">You can scan the following QR code to install rehidhelper using FBI.<br>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/962ce0e9-08cd-4890-b1ef-4ebdc2ef0c7c"><img
-  width="200" height="200" alt="qrcode" src="https://github.com/user-attachments/assets/962ce0e9-08cd-4890-b1ef-4ebdc2ef0c7c"
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/fb1ab101-127b-4a67-9d74-3d20ea6f4c0f"><img
+  width="200" height="200" alt="qrcode (1)" src="https://github.com/user-attachments/assets/fb1ab101-127b-4a67-9d74-3d20ea6f4c0f"
   style="max-width: 100%; height: auto; max-height: 200px;"></a></p>'
 updated: '2026-04-05T15:10:32Z'
 version: v5.0
