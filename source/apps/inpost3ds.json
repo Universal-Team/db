@@ -1,0 +1,14 @@
+{
+	"github": "TehFridge/InPost3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"icon": "https://raw.githubusercontent.com/TehFridge/InPost3DS/refs/heads/main/meta/icon.png",
+	"image": "https://raw.githubusercontent.com/TehFridge/InPost3DS/refs/heads/main/gfx/logo_inpost.png",
+	"unique_ids": [
+		233559
+	]
+}
