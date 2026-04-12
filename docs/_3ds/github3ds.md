@@ -12,13 +12,13 @@ description: Search for github repositorys, download files, star repositorys and
 download_page: https://gitlab.com/MorrisTheGamer/GitHub3DS/-/releases
 downloads:
   GitHub3DS.3dsx:
-    size: 994556
+    size: 994804
     size_str: 971 KiB
-    url: https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/latest/github3ds.3dsx
+    url: https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/1.0/github3ds.3dsx
   GitHub3DS.cia:
-    size: 935872
-    size_str: 913 KiB
-    url: https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/latest/github3ds.cia?ref_type=heads
+    size: 1019328
+    size_str: 995 KiB
+    url: https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/1.0/GitHub3DS.cia
 gitlab: MorrisTheGamer/GitHub3DS
 icon: https://raw.githubusercontent.com/Thorsten-sys/anothercoolpresentation/main/icon.png
 image: https://raw.githubusercontent.com/Thorsten-sys/anothercoolpresentation/main/banner.png
