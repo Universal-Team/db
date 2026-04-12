@@ -12,13 +12,13 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   README.md:
-    size: 47362
+    size: 47717
     size_str: 46 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.1/README.md
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.2/README.md
   StellaDS.nds:
-    size: 1716224
+    size: 1716736
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.1/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.2/StellaDS.nds
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -33,26 +33,17 @@ stars: 49
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">8.1 : 14-Dec-2025 by Dave Bernazzani (wavemotion)</p>
+update_notes: '<p dir="auto">8.2 : 12-Apr-2026 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Added new Favorites system so you can LIKE/LOVE any game - press SELECT on the
-  Game ROM loading screen.</li>
+  <li>New NTSC (60Hz) and PAL (50Hz) ''True-Sync'' to reduce tearing and other video
+  artifacts from screen rendering on the DS/DSi.</li>
 
-  <li>TIA optimizations for another frame of improved performance.</li>
-
-  <li>CPU optimizations for another frame of improved performance.</li>
-
-  <li>Thumbulator optimizations for the LDR3 instruction to help some CDFJ games.</li>
-
-  <li>Most VBLANK and HBLANK optimizations now removed in favor of improved accuracy
-  (improved performance allows us to ditch most of this).</li>
-
-  <li>Refactor memory to buy back almost 250K of DS RAM for future expansion.</li>
+  <li>Improved accuracy on SB (SuperBanking) carts.</li>
 
   </ul>'
-updated: '2025-12-14T14:16:39Z'
-version: '8.1'
-version_title: Version 8.1
+updated: '2026-04-12T12:13:22Z'
+version: '8.2'
+version_title: Version 8.2
 ---
