@@ -21,7 +21,7 @@ layout: app
 license: other
 license_name: Other
 source: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin
-stars: 161
+stars: 162
 systems:
 - 3DS
 title: Vapecord-ACNL-Plugin

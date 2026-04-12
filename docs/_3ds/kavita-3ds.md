@@ -11,13 +11,13 @@ download_filter: ''
 download_page: https://github.com/ellio86/kavita-3ds/releases
 downloads:
   kavita-3ds.3dsx:
-    size: 673656
-    size_str: 657 KiB
-    url: https://github.com/ellio86/kavita-3ds/releases/download/0.3.1/kavita-3ds.3dsx
+    size: 678912
+    size_str: 663 KiB
+    url: https://github.com/ellio86/kavita-3ds/releases/download/0.4/kavita-3ds.3dsx
   kavita-3ds.cia:
     size: 517056
     size_str: 504 KiB
-    url: https://github.com/ellio86/kavita-3ds/releases/download/0.3.1/kavita-3ds.cia
+    url: https://github.com/ellio86/kavita-3ds/releases/download/0.4/kavita-3ds.cia
 github: ellio86/kavita-3ds
 icon: https://raw.githubusercontent.com/ellio86/kavita-3ds/main/icon.png
 image: https://raw.githubusercontent.com/ellio86/kavita-3ds/main/banner.png
@@ -32,22 +32,33 @@ systems:
 title: kavita-3ds
 unique_ids:
 - '0xF8C31'
-update_notes: '<p dir="auto">Install CIA Via FBI or run .3dsx through the Homebrew
-  Launcher.</p>
+update_notes: '<h2 dir="auto">Kavita 3DS v0.4</h2>
+
+  <p dir="auto">Now on Universal Updater!</p>
+
+  <p dir="auto">Install via Universal Updater. Alternatively, install CIA Via FBI
+  or run .3dsx through the Homebrew Launcher.</p>
 
   <p dir="auto">Point at your Kavita instance and provide your credentials and you
   should be able to access your library. EPUBs, CBR/CBZ and PDFs are supported currently.</p>
 
-  <p dir="auto">Change Log:</p>
+  <h2 dir="auto">v0.4 Change Log</h2>
+
+  <h3 dir="auto">Bug Fixes</h3>
 
   <ul dir="auto">
 
-  <li>Fixed banner image</li>
+  <li>Fixed issue where having more than 100 books in a library caused the library
+  to infinitely loop the first 100 books.</li>
 
-  </ul>'
-updated: '2026-04-05T16:43:52Z'
-version: 0.3.1
-version_title: 0.3.1
+  <li>Slightly improved load times</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/ellio86/kavita-3ds/compare/0.3.1...0.4"><tt>0.3.1...0.4</tt></a></p>'
+updated: '2026-04-12T18:00:03Z'
+version: '0.4'
+version_title: v0.4
 ---
 # Kavita 3DS
 
