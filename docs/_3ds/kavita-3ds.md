@@ -7,13 +7,24 @@ color: '#92cfbd'
 color_bg: '#5a8074'
 created: '2026-04-05T01:13:14Z'
 description: A 3DS Client for any Kavita Library Manager Instance!
+download_filter: ''
 download_page: https://github.com/ellio86/kavita-3ds/releases
-downloads: {}
+downloads:
+  kavita-3ds.3dsx:
+    size: 673656
+    size_str: 657 KiB
+    url: https://github.com/ellio86/kavita-3ds/releases/download/0.3.1/kavita-3ds.3dsx
+  kavita-3ds.cia:
+    size: 517056
+    size_str: 504 KiB
+    url: https://github.com/ellio86/kavita-3ds/releases/download/0.3.1/kavita-3ds.cia
 github: ellio86/kavita-3ds
 icon: https://raw.githubusercontent.com/ellio86/kavita-3ds/main/icon.png
 image: https://raw.githubusercontent.com/ellio86/kavita-3ds/main/banner.png
 image_length: 8092
 layout: app
+qr:
+  kavita-3ds.cia: https://db.universal-team.net/assets/images/qr/kavita-3ds-cia.png
 source: https://github.com/ellio86/kavita-3ds
 stars: 0
 systems:
