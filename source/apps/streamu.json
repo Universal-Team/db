@@ -1,0 +1,15 @@
+{
+	"github": "imissuuuu/StreaMu",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"icon": "https://raw.githubusercontent.com/imissuuuu/StreaMu/main/assets/icon_48.png",
+	"image": "https://raw.githubusercontent.com/imissuuuu/StreaMu/main/assets/banner_256.png",
+	"unique_ids": [
+		1045457
+	],
+	"long_description": "StreaMu is a homebrew music player for Nintendo 3DS that lets you search and stream YouTube\n  audio directly on your device.\n\n  A lightweight companion proxy server runs on your PC and handles YouTube data fetching and\n  audio transcoding via yt-dlp and FFmpeg.\n\n  ### Features\n  - YouTube music search and streaming\n  - Playlist management with favorites\n  - Thumbnail display on the top screen\n  - Customizable themes and accent colors\n  - Dual-screen UI with touch support\n\n  ### Requirements\n  - Nintendo 3DS with custom firmware (Luma3DS)\n  - A PC running the companion proxy server (Python 3.10+, FFmpeg)\n\n  ### Setup\n  1. Start the proxy server on your PC (`server/start_server.bat` on Windows)\n  2. Launch StreaMu on your 3DS and enter your PC's IP address\n  3. Search for music with the Y button and enjoy"
+}
