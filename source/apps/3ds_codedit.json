@@ -1,0 +1,17 @@
+{
+	"github": "dcuevasa/3DS_CodEdit",
+	"description": "3DS CodEdit is a code-first editor and project workspace for Nintendo 3DS. It combines a lightweight multi-tab text editor, project Git workflow, file manager tools, and a monochrome draw mode for quick PBM assets.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"app"
+	],
+	"icon": "https://raw.githubusercontent.com/dcuevasa/3DS_CodEdit/refs/heads/next/res/ic_launcher_filemanager.png",
+	"image": "https://raw.githubusercontent.com/dcuevasa/3DS_CodEdit/refs/heads/next/res/banner.png",
+	"unique_ids": [
+		253153
+	],
+	"long_description": "# 3DS CodEdit\n\n3DS CodEdit is a code-first editor and project workspace for Nintendo 3DS.\nIt combines a lightweight multi-tab text editor, project Git workflow, file manager tools, and a monochrome draw mode for quick PBM assets.\n\n## What It Focuses On\n\n### 1. Code editing on-device\n- Multi-tab text editor (up to 4 open documents).\n- Create, open, edit, save, and save-as files directly on SD.\n- Line-based editing with cursor movement, line numbers, and visible cursor position (Ln/Col).\n- Fast editing actions from buttons and top menu:\n\t- edit current line with OSK,\n\t- insert newline,\n\t- close/switch tabs,\n\t- find next text match,\n\t- undo/redo support.\n- Sidebar workflow for project files: open files/folders, create new file/folder, go to parent directory.\n\n### 2. Integrated Git + GitHub workflow\n- Local Git actions:\n\t- init repository,\n\t- add all,\n\t- commit staged changes,\n\t- staged file counter and branch display.\n- GitHub actions:\n\t- probe remote,\n\t- clone to current path,\n\t- fetch,\n\t- pull (fast-forward),\n\t- push,\n\t- personal access token storage.\n- `.gitignore` support in add-all and push file scanning.\n- Multi-repository safety improvements:\n\t- repository-local remote/branch state is preferred,\n\t- `Root*` warning when operating from a subfolder,\n\t- double-confirm guard for root-scope actions.\n\n### 3. Draw mode for pixel assets (`.pbm`)\n- Built-in black/white canvas editor (stylus pen + eraser).\n- Create new drawings from editor sidebar (`DRAW`).\n- Open existing `.pbm` files from Explorer or editor sidebar.\n- Save as PBM (`P4`) and return to Git workflow for commit/push.\n\n## File and System Features\n\n- Explorer with storage usage bar, icons, and multi-select.\n- File operations: create, rename, delete, copy, move, and batch operations.\n- Archive extraction support (`.zip`, `.rar`, `.7z`, `.lzma`).\n- Image viewer with zoom/pan and image properties.\n- Search and quick jump to a path.\n- Optional CTRNAND browsing/copying in developer options.\n- Sorting modes: alphabetical (asc/desc) and size (largest/smallest).\n- Dark theme, updater, and persistent config (`last_dir`, sort mode, Git defaults, token).\n\n## Quick Navigation Notes\n\n- Home icon toggles between Explorer and editor.\n- In Explorer, `SELECT` also returns to editor.\n- In editor, `SELECT` opens/closes the top menu (`File`, `Edit`, `Search`, `View`, `Project`).\n- `Project` opens the Git panel."
+}
