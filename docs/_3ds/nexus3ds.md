@@ -71,7 +71,7 @@ script_message: 'This is a fork of Luma3DS. Using alternate forks of Luma3DS can
   If you experience any issues please reinstall the normal "Luma3DS" before anything
   else.'
 source: https://github.com/2b-zipper/Nexus3DS
-stars: 65
+stars: 66
 systems:
 - 3DS
 title: Nexus3DS
