@@ -33,7 +33,6 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/magic-draw/layer-menu.png
 - description: Title menu
   url: https://db.universal-team.net/assets/images/screenshots/magic-draw/title-menu.png
-script_message: 'Note: It may not work on the old3DS at this time.'
 source: https://github.com/natsuneco/magic-draw
 stars: 9
 systems:
