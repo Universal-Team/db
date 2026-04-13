@@ -28,7 +28,7 @@ layout: app
 qr:
   3DS_CodEdit.cia: https://db.universal-team.net/assets/images/qr/3ds_codedit-cia.png
 source: https://github.com/dcuevasa/3DS_CodEdit
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: 3DS_CodEdit
