@@ -10,13 +10,13 @@ description: Drawing and text Chat Rooms.
 download_page: https://github.com/SprtnDio/NoteRoom/releases
 downloads:
   NoteRoom.3dsx:
-    size: 259668
-    size_str: 253 KiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v1.0.2/NoteRoom.3dsx
+    size: 262016
+    size_str: 255 KiB
+    url: https://github.com/SprtnDio/NoteRoom/releases/download/v1.0.3/NoteRoom.3dsx
   NoteRoom.cia:
-    size: 932288
-    size_str: 910 KiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v1.0.2/NoteRoom.cia
+    size: 933312
+    size_str: 911 KiB
+    url: https://github.com/SprtnDio/NoteRoom/releases/download/v1.0.3/NoteRoom.cia
 github: SprtnDio/NoteRoom
 icon: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/icon.png
 image: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/images/NoteRoom_05.04.26_04.21.54.546.png
@@ -31,24 +31,11 @@ stars: 1
 systems:
 - 3DS
 title: NoteRoom
-update_notes: '<p dir="auto">NoteRoom v1.0.2</p>
+update_notes: '<p dir="auto">New server address: Updated connection endpoint.<br>
 
-  <p dir="auto">New<br>
-
-  Save &amp; Load Drawings – 12 local slots with preview (SAVE/LOAD buttons)</p>
-
-  <p dir="auto">Colored Status Messages – Server messages support [#RRGGBB] color
-  tags</p>
-
-  <p dir="auto">Server Time Synchronization – More reliable than NTP</p>
-
-  <p dir="auto">Targeted Admin Announcements – Send messages to specific lobbies only</p>
-
-  <p dir="auto">Fixed<br>
-
-  Minor chat toolbar display issues</p>'
-updated: '2026-04-09T15:06:46Z'
-version: v1.0.2
-version_title: NoteRoom v1.0.2
+  Ban evade patched: Banned users can no longer rejoin.</p>'
+updated: '2026-04-13T04:00:48Z'
+version: v1.0.3
+version_title: NoteRoom v1.0.3
 ---
 NoteRoom is a real-time online drawing and text Chatroom messenger for the Nintendo 2/3DS, inspired by a well known chatroom. Connect globally across themed, dynamic lobbies, share hand-drawn doodles, and view live user counts.
