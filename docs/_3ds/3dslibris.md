@@ -10,29 +10,29 @@ description: An ebook and manga reader for Nintendo 3DS
 download_page: https://github.com/RigleGit/3dslibris/releases
 downloads:
   3dslibris-debug.3dsx:
-    size: 39167944
+    size: 39175000
     size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.2.1/3dslibris-debug.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.3.0/3dslibris-debug.3dsx
   3dslibris-debug.cia:
-    size: 39396288
+    size: 39412672
     size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.2.1/3dslibris-debug.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.3.0/3dslibris-debug.cia
   3dslibris-sdmc.zip:
-    size: 32767568
+    size: 32767694
     size_str: 31 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.2.1/3dslibris-sdmc.zip
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.3.0/3dslibris-sdmc.zip
   3dslibris-source.tar.gz:
-    size: 66548015
+    size: 66551850
     size_str: 63 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.2.1/3dslibris-source.tar.gz
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.3.0/3dslibris-source.tar.gz
   3dslibris.3dsx:
-    size: 39140176
+    size: 39147388
     size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.2.1/3dslibris.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.3.0/3dslibris.3dsx
   3dslibris.cia:
-    size: 39371712
+    size: 39384000
     size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.2.1/3dslibris.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.3.0/3dslibris.cia
 github: RigleGit/3dslibris
 icon: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/icon-32x32.png
 image: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/banner.png
@@ -53,34 +53,27 @@ stars: 83
 systems:
 - 3DS
 title: 3dslibris
-update_notes: '<h2 dir="auto">3dslibris 2.2.1</h2>
+update_notes: '<h2 dir="auto">3dslibris 2.3.0</h2>
 
-  <p dir="auto">This release builds on <code class="notranslate">v2.2.0</code> with
-  a faster library browsing option and a cleaner debug-install workflow.</p>
+  <p dir="auto">This release improves the reading menu structure and makes long-book
+  navigation much faster with a dedicated in-book page jump control.</p>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/a13cde9f-8f62-4dde-a208-04bf062fb04a"><img
-  width="600" alt="imagen" src="https://github.com/user-attachments/assets/a13cde9f-8f62-4dde-a208-04bf062fb04a"
-  style="max-width: 100%;"></a>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/50d7e27f-3db4-46a6-8d5a-027708a4e72b"><img
+  width="609" height="502" alt="imagen" src="https://github.com/user-attachments/assets/50d7e27f-3db4-46a6-8d5a-027708a4e72b"
+  style="max-width: 100%; height: auto; max-height: 502px;"></a>
 
   <h3 dir="auto">Highlights</h3>
 
   <ul dir="auto">
 
-  <li><strong>Optional library list view</strong>: settings now let you switch the
-  browser between the existing cover gallery and a DSLibris-style list view that loads
-  only titles, starts faster, and is easier to navigate on large libraries.</li>
+  <li><strong><code class="notranslate">GENERAL</code> and <code class="notranslate">BOOK</code>
+  settings are now separated cleanly</strong>: global preferences stay in the library
+  settings menu, while book-specific actions appear only when you open settings during
+  reading.</li>
 
-  <li><strong>List view is fully integrated</strong>: the new mode is saved in the
-  XML preferences, works even with no book currently open, supports vertical navigation,
-  and keeps the existing browser flow intact.</li>
-
-  <li><strong>Long titles are handled better in the list</strong>: list rows now use
-  the dedicated presentation path introduced for this feature, with clearer rendering
-  and spacing for long display names.</li>
-
-  <li><strong>Debug and release CIA builds can coexist</strong>: <code class="notranslate">3dslibris-debug.cia</code>
-  now uses its own Title ID/Product Code so it installs separately instead of overwriting
-  the release build.</li>
+  <li><strong>New <code class="notranslate">go to page</code> slider popup</strong>:
+  books now expose a dedicated page-jump control from <code class="notranslate">BOOK</code>
+  settings, with visible page number feedback and both touch and button-based adjustment.</li>
 
   </ul>
 
@@ -88,16 +81,25 @@ update_notes: '<h2 dir="auto">3dslibris 2.2.1</h2>
 
   <ul dir="auto">
 
-  <li><strong>Browser presentation is split cleanly by mode</strong>: grid and list
-  rendering now live in separate presentation files while <code class="notranslate">app_browser.cpp</code>
-  remains the coordinator for shared navigation and actions.</li>
+  <li><strong>The in-book settings menu is more coherent</strong>: global options
+  such as <code class="notranslate">clock format</code>, <code class="notranslate">color
+  mode</code>, and <code class="notranslate">library view</code> no longer appear
+  mixed into the per-book menu.</li>
 
-  <li><strong>Preformatted host wrapping stays correct</strong>: the host-side regression
-  fix for hard wrapping in preformatted text is included in this release train.</li>
+  <li><strong><code class="notranslate">go to page</code> is tuned for 3DS controls</strong>:
+  touch chooses the page directly, <code class="notranslate">Left/Right</code> moves
+  by one page, <code class="notranslate">Up/Down</code> and <code class="notranslate">L/R</code>
+  move in larger jumps, <code class="notranslate">A</code> confirms, and <code class="notranslate">B</code>
+  / <code class="notranslate">Select</code> / <code class="notranslate">Start</code>
+  cancel.</li>
 
-  <li><strong>Release automation still publishes the full artifact set</strong>: the
-  release workflow continues to generate and attach both CIA variants, both 3DSX variants,
-  the SD package, and the source tarball.</li>
+  <li><strong>Left-handed orientation remains supported</strong>: the new slider and
+  the updated settings separation continue to use the existing orientation-aware input
+  mapping.</li>
+
+  <li><strong>Recent EPUB compatibility fixes remain included</strong>: cosmetic hidden
+  pagebreak spans are ignored, and CSS list marker suppression such as <code class="notranslate">list-style-type:
+  none</code> is still honored.</li>
 
   </ul>
 
@@ -118,7 +120,7 @@ update_notes: '<h2 dir="auto">3dslibris 2.2.1</h2>
   <li><code class="notranslate">3dslibris-source.tar.gz</code></li>
 
   </ul>'
-updated: '2026-04-15T12:52:13Z'
-version: v2.2.1
-version_title: v2.2.1
+updated: '2026-04-15T19:16:32Z'
+version: v2.3.0
+version_title: v2.3.0
 ---
