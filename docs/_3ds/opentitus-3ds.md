@@ -45,7 +45,7 @@ script_message: 'You will need to put the original game files in
 
   "sd:/3ds/OpenTitus/moktar" for the game to work.'
 source: https://github.com/MrHuu/opentitus-3ds
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: opentitus-3ds
