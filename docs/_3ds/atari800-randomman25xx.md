@@ -27,7 +27,7 @@ license_name: GNU General Public License v2.0
 qr:
   atari800-3ds.cia: https://db.universal-team.net/assets/images/qr/atari800-3ds-cia.png
 source: https://github.com/RandomMan25XX/atari800-3ds
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: Atari800 (RandomMan25XX)
