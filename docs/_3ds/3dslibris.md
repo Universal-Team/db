@@ -60,7 +60,8 @@ update_notes: '<h2 dir="auto">3dslibris 2.3.0</h2>
 
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/50d7e27f-3db4-46a6-8d5a-027708a4e72b"><img
   width="609" height="502" alt="imagen" src="https://github.com/user-attachments/assets/50d7e27f-3db4-46a6-8d5a-027708a4e72b"
-  style="max-width: 100%; height: auto; max-height: 502px;"></a>
+  style="max-width: 100%; height: auto; max-height: 502px;; aspect-ratio: 609 / 502;
+  background-color: var(--bgColor-muted); border-radius: 6px; display: block" class="js-gh-image-fallback"></a>
 
   <h3 dir="auto">Highlights</h3>
 

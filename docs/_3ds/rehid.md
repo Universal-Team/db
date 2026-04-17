@@ -85,7 +85,8 @@ update_notes: '<p dir="auto">This is the sixth public release of rehid.</p>
 
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/fb1ab101-127b-4a67-9d74-3d20ea6f4c0f"><img
   width="200" height="200" alt="qrcode (1)" src="https://github.com/user-attachments/assets/fb1ab101-127b-4a67-9d74-3d20ea6f4c0f"
-  style="max-width: 100%; height: auto; max-height: 200px;"></a></p>'
+  style="max-width: 100%; height: auto; max-height: 200px;; aspect-ratio: 200 / 200;
+  background-color: var(--bgColor-muted); border-radius: 6px; display: block" class="js-gh-image-fallback"></a></p>'
 updated: '2026-04-05T15:10:32Z'
 version: v5.0
 version_title: v5.0 Sixth Release
