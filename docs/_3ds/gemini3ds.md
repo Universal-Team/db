@@ -22,7 +22,7 @@ screenshots:
 - description: Main screen
   url: https://db.universal-team.net/assets/images/screenshots/gemini3ds/main-screen.png
 source: https://github.com/stefanoborra20/Gemini3DS
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: Gemini3DS

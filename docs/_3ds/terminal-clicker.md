@@ -24,7 +24,7 @@ screenshots:
 - description: Gameplay
   url: https://db.universal-team.net/assets/images/screenshots/terminal-clicker/gameplay.png
 source: https://github.com/PyJulian/termiclicker3ds
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: Terminal Clicker
