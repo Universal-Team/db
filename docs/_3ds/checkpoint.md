@@ -200,7 +200,8 @@ update_notes: '<h2 dir="auto">What''s new</h2>
 
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/56727b63-fe5a-4aa2-abd3-45575f7d5ce4"><img
   width="222" height="224" alt="Schermata del 2026-02-24 22-17-20" src="https://github.com/user-attachments/assets/56727b63-fe5a-4aa2-abd3-45575f7d5ce4"
-  style="max-width: 100%; height: auto; max-height: 224px;"></a>
+  style="max-width: 100%; height: auto; max-height: 224px;; aspect-ratio: 222 / 224;
+  background-color: var(--bgColor-muted); border-radius: 6px; display: block" class="js-gh-image-fallback"></a>
 
   <hr>
 

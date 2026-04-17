@@ -58,8 +58,9 @@ prerelease:
     program by clicking video player icon (<a target="_blank" rel="noopener noreferrer
     nofollow" href="https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/screenshots/video_player_icon.png"><img
     src="https://raw.githubusercontent.com/Core-2-Extreme/Video_player_for_3DS/main/screenshots/video_player_icon.png"
-    width="25" height="25" style="max-width: 100%; height: 25px; max-height: 25px;;
-    background-color: var(--bgColor-muted); border-radius: 6px; display: block" class="js-gh-image-fallback"></a>)).<br>
+    width="25" height="25" style="max-width: 100%; height: auto; max-height: 25px;;
+    aspect-ratio: 25 / 25; background-color: var(--bgColor-muted); border-radius:
+    6px; display: block" class="js-gh-image-fallback"></a>)).<br>
 
     It''s not possible to watch other videos until you finish the education.<br>
 

@@ -56,7 +56,8 @@ update_notes: '<ul dir="auto">
 
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/c1bb7050-faba-4eb5-ba65-7d6cdf45d52f"><img
   width="300" height="300" alt="frame" src="https://github.com/user-attachments/assets/c1bb7050-faba-4eb5-ba65-7d6cdf45d52f"
-  style="max-width: 100%; height: auto; max-height: 300px;"></a></p>
+  style="max-width: 100%; height: auto; max-height: 300px;; aspect-ratio: 300 / 300;
+  background-color: var(--bgColor-muted); border-radius: 6px; display: block" class="js-gh-image-fallback"></a></p>
 
   <p dir="auto"><strong>Full Changelog</strong>: <a href="https://github.com/Zakary2841/WifiManager/commits/v1.2">https://github.com/Zakary2841/WifiManager/commits/v1.2</a></p>'
 updated: '2026-01-26T02:52:49Z'
