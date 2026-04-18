@@ -10,13 +10,13 @@ description: NetPass allows you to get StreetPasses over the internet
 download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 7792556
+    size: 7811848
     size_str: 7 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/f96538a22e30229075d9c81fb0b7f1d6361eeffa/netpass.3dsx?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/bafaff436f2148d7e2a1a5e3542617317fc10de6/netpass.3dsx?inline=false
   netpass.cia:
-    size: 7881664
+    size: 7889856
     size_str: 7 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/f96538a22e30229075d9c81fb0b7f1d6361eeffa/netpass.cia?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/bafaff436f2148d7e2a1a5e3542617317fc10de6/netpass.cia?inline=false
 gitlab: 3ds-netpass/netpass
 icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
@@ -33,11 +33,12 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: " - store nid_password on the sd card\n - make sure font scaling for\
-  \ chineese (simplified + traditional) and korean fonts work properly"
-updated: '2026-03-31T05:01:07.157Z'
-version: v2.0.1
-version_title: v2.0.1
+update_notes: " - Fix error popup (Thanks @blaadeeee)\n - Add scam warning\n - Add\
+  \ important popup about backing up nid_pwd\n - Add time setter for if your system\
+  \ time is off"
+updated: '2026-04-18T14:14:25.315Z'
+version: v2.0.2
+version_title: v2.0.2
 website: https://netpass.cafe
 ---
 #NetPass: StreetPass in the modern world
