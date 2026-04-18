@@ -10,9 +10,9 @@ description: Terminal Interface Clicker for the 3ds
 download_page: https://github.com/PyJulian/termiclicker3ds/releases
 downloads:
   TerminalClicker.3dsx:
-    size: 189328
-    size_str: 184 KiB
-    url: https://github.com/PyJulian/termiclicker3ds/releases/download/fsrelease/TerminalClicker.3dsx
+    size: 189488
+    size_str: 185 KiB
+    url: https://github.com/PyJulian/termiclicker3ds/releases/download/v1.1-fsrelease/TerminalClicker.3dsx
 github: PyJulian/termiclicker3ds
 icon: https://raw.githubusercontent.com/PyJulian/termiclicker3ds/refs/heads/main/TerminalClicker/icon.png
 image: https://raw.githubusercontent.com/PyJulian/termiclicker3ds/refs/heads/main/TerminalClicker/icon.png
@@ -28,10 +28,11 @@ stars: 1
 systems:
 - 3DS
 title: Terminal Clicker
-update_notes: <p dir="auto">First main release of this game for universal</p>
-updated: '2025-12-14T14:34:26Z'
-version: fsrelease
-version_title: Terminal Clicker 3ds
+update_notes: <p dir="auto">Removes the screen flicker every frame so it becomes pretty
+  much playable</p>
+updated: '2026-04-17T19:10:35Z'
+version: v1.1-fsrelease
+version_title: PATCH 1 - Terminal Clicker 3ds
 ---
 Terminal Clicker is a simple clicker game made for the terminal interface.
 One of my first real "games" which I'm actually rlly proud of.

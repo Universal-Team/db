@@ -33,7 +33,7 @@ screenshots:
 - description: Pretendo
   url: https://db.universal-team.net/assets/images/screenshots/nimbus/pretendo.png
 source: https://github.com/PretendoNetwork/nimbus
-stars: 238
+stars: 239
 systems:
 - 3DS
 title: Nimbus
