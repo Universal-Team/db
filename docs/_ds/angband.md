@@ -131,7 +131,7 @@ prerelease:
   version: 4.2.6-98-g27e4ce3d7
   version_title: 4.2.6-98-g27e4ce3d7
 source: https://github.com/angband/angband
-stars: 1501
+stars: 1502
 systems:
 - 3DS
 - DS
