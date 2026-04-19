@@ -29,7 +29,7 @@ qr:
 script_message: 'If you have any bugs or issues, chat in our Discord server. The invite
   is on our website: https://peamo-network.ixchats.com/'
 source: https://github.com/PeamoNetwork/peamo-nimbus
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: Peamo-Nimbus

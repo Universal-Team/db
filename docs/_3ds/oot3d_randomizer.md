@@ -168,15 +168,17 @@ update_notes: '<p dir="auto">This is a patch release that backports various bug-
 
   CIA QR Code:<br>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/v4.0.1/cia.png"><img
-  src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/v4.0.1/cia.png"
-  alt="CIA Download" style="max-width: 100%;"></a><br>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/9468fe21-aab6-4f49-b796-ec7122b8d000"><img
+  width="225" height="225" alt="cia" src="https://github.com/user-attachments/assets/9468fe21-aab6-4f49-b796-ec7122b8d000"
+  style="max-width: 100%; height: auto; max-height: 225px;; aspect-ratio: 225 / 225;
+  background-color: var(--bgColor-muted); border-radius: 6px; display: block" class="js-gh-image-fallback"></a><br>
 
   3DSX QR Code:<br>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/v4.0.1/3dsx.png"><img
-  src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/v4.0.1/3dsx.png"
-  alt="CIA Download" style="max-width: 100%;"></a></p>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/79aa99c2-ba98-410d-93f0-40267a7f50cb"><img
+  width="225" height="225" alt="3dsx" src="https://github.com/user-attachments/assets/79aa99c2-ba98-410d-93f0-40267a7f50cb"
+  style="max-width: 100%; height: auto; max-height: 225px;; aspect-ratio: 225 / 225;
+  background-color: var(--bgColor-muted); border-radius: 6px; display: block" class="js-gh-image-fallback"></a></p>
 
   <p dir="auto">Changes Since <a href="https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/v4.0">v4.0</a>
   🛠:</p>
