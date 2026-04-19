@@ -21,7 +21,7 @@ layout: app
 license: mit
 license_name: MIT License
 source: https://github.com/0rientd/2048-port-3ds
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: 2048 - 3DS Port
