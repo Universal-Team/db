@@ -26,16 +26,16 @@ layout: app
 license: other
 license_name: Other
 prerelease:
-  download_page: https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-e2b83c
+  download_page: https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-d5fa60
   downloads:
     OoT3D_Randomizer.3dsx:
-      size: 6032096
+      size: 6033420
       size_str: 5 MiB
-      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-e2b83c/OoT3D_Randomizer.3dsx
+      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d5fa60/OoT3D_Randomizer.3dsx
     OoT3D_Randomizer.cia:
       size: 4363200
       size_str: 4 MiB
-      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-e2b83c/OoT3D_Randomizer.cia
+      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d5fa60/OoT3D_Randomizer.cia
   qr:
     OoT3D_Randomizer.cia: https://db.universal-team.net/assets/images/qr/prerelease/oot3d_randomizer-cia.png
   update_notes: '<p dir="auto">Please note that these are DEVELOPMENT builds and may
@@ -49,59 +49,33 @@ prerelease:
 
     CIA QR Code:<br>
 
-    <br>
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d5fa60/cia.png"><img
+    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d5fa60/cia.png"
+    alt="CIA Download" style="max-width: 100%;"></a><br>
 
     3DSX QR Code:<br>
 
-    </p>
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d5fa60/3dsx.png"><img
+    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d5fa60/3dsx.png"
+    alt="3DSX Download" style="max-width: 100%;"></a></p>
 
-    <p dir="auto">Changes Since <a href="https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-fa3659">Nightly-fa3659</a>
+    <p dir="auto">Changes Since <a href="https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-e2b83c">Nightly-e2b83c</a>
     🛠:</p>
 
     <ul dir="auto">
 
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/e2b83ce363c68327184ec8fdb71c60f93445e41e">e2b83ce3</a>
-    - Add fanfare overrides (<a class="issue-link js-issue-link" data-error-text="Failed
-    to load title" data-id="4249700887" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/813"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/813/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/813">#813</a>)</li>
+    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/d5fa60499c4dbee4a748ade0358b4d65f62c9034">d5fa6049</a>
+    - Fix QR code URLs (<a class="issue-link js-issue-link" data-error-text="Failed
+    to load title" data-id="4288896798" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/816"
+    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/816/hovercard"
+    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/816">#816</a>)</li>
 
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/3070fe8ca4a5d19ecac8c806406ca68311b8581d">3070fe8c</a>
-    - Center version string (<a class="issue-link js-issue-link" data-error-text="Failed
-    to load title" data-id="4256482961" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/814"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/814/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/814">#814</a>)</li>
-
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/9589d4844189092ac16314007a6fddb17c2448fd">9589d484</a>
-    - Improve GitHub Actions (<a class="issue-link js-issue-link" data-error-text="Failed
-    to load title" data-id="4241500354" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/812"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/812/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/812">#812</a>)</li>
-
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/5a3076d7b991e06279cc9324b362b05b76002ceb">5a3076d7</a>
-    - Update version string management (<a class="issue-link js-issue-link" data-error-text="Failed
-    to load title" data-id="4227585579" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/811"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/811/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/811">#811</a>)</li>
-
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/45e7590fc06e0e6cda826fde4801d0b4e94e92ec">45e7590f</a>
-    - Move shared declarations into dedicated headers (<a class="issue-link js-issue-link"
-    data-error-text="Failed to load title" data-id="4227271828" data-permission-text="Title
-    is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/810"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/810/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/810">#810</a>)</li>
-
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/6a7f35471c2bc41030ba0ef6dbef956e52786034">6a7f3547</a>
-    - Improve address management (<a class="issue-link js-issue-link" data-error-text="Failed
-    to load title" data-id="4189906381" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/808"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/808/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/808">#808</a>)</li>
-
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/8533c5e79d247e6514c47a832daf509ee5d3bd50">8533c5e7</a>
-    - Normalize EOL (<a class="issue-link js-issue-link" data-error-text="Failed to
-    load title" data-id="4104046702" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/806"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/806/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/806">#806</a>)</li>
+    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/2f96bda7d8df48ae01bebdafdff4a678bb5d4a18">2f96bda7</a>
+    - Add cosmetic option for Ganon/dorf''s blood colour (<a class="issue-link js-issue-link"
+    data-error-text="Failed to load title" data-id="4285521461" data-permission-text="Title
+    is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/815"
+    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/815/hovercard"
+    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/815">#815</a>)</li>
 
     </ul>'
   update_notes_md: 'Please note that these are DEVELOPMENT builds and may not be entirely
@@ -115,41 +89,24 @@ prerelease:
 
     CIA QR Code:
 
-    <img width="225" height="225" alt="cia" src="https://github.com/user-attachments/assets/db3baca2-7525-44a0-a57b-d8ca946b601c"
-    />
+    ![CIA Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d5fa60/cia.png)
 
     3DSX QR Code:
 
-    <img width="225" height="225" alt="3dsx" src="https://github.com/user-attachments/assets/ea4d9c1b-7620-4cf2-8dd6-e2f26c862948"
-    />
+    ![3DSX Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-d5fa60/3dsx.png)
 
 
-    Changes Since [Nightly-fa3659](https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-fa3659)
+    Changes Since [Nightly-e2b83c](https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-e2b83c)
     🛠:
 
-    - [e2b83ce3](http://github.com/gamestabled/OoT3D_Randomizer/commit/e2b83ce363c68327184ec8fdb71c60f93445e41e)
-    - Add fanfare overrides (#813)
+    - [d5fa6049](http://github.com/gamestabled/OoT3D_Randomizer/commit/d5fa60499c4dbee4a748ade0358b4d65f62c9034)
+    - Fix QR code URLs (#816)
 
-    - [3070fe8c](http://github.com/gamestabled/OoT3D_Randomizer/commit/3070fe8ca4a5d19ecac8c806406ca68311b8581d)
-    - Center version string (#814)
-
-    - [9589d484](http://github.com/gamestabled/OoT3D_Randomizer/commit/9589d4844189092ac16314007a6fddb17c2448fd)
-    - Improve GitHub Actions (#812)
-
-    - [5a3076d7](http://github.com/gamestabled/OoT3D_Randomizer/commit/5a3076d7b991e06279cc9324b362b05b76002ceb)
-    - Update version string management (#811)
-
-    - [45e7590f](http://github.com/gamestabled/OoT3D_Randomizer/commit/45e7590fc06e0e6cda826fde4801d0b4e94e92ec)
-    - Move shared declarations into dedicated headers (#810)
-
-    - [6a7f3547](http://github.com/gamestabled/OoT3D_Randomizer/commit/6a7f35471c2bc41030ba0ef6dbef956e52786034)
-    - Improve address management (#808)
-
-    - [8533c5e7](http://github.com/gamestabled/OoT3D_Randomizer/commit/8533c5e79d247e6514c47a832daf509ee5d3bd50)
-    - Normalize EOL (#806)'
-  updated: '2026-04-17T19:22:34Z'
-  version: Nightly-e2b83c
-  version_title: Nightly-e2b83c
+    - [2f96bda7](http://github.com/gamestabled/OoT3D_Randomizer/commit/2f96bda7d8df48ae01bebdafdff4a678bb5d4a18)
+    - Add cosmetic option for Ganon/dorf''s blood colour (#815)'
+  updated: '2026-04-19T20:21:35Z'
+  version: Nightly-d5fa60
+  version_title: Nightly-d5fa60
 qr:
   OoT3D_Randomizer.cia: https://db.universal-team.net/assets/images/qr/oot3d_randomizer-cia.png
 source: https://github.com/gamestabled/OoT3D_Randomizer
