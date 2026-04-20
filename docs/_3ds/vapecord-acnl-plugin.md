@@ -3,8 +3,8 @@ author: RedShyGuy
 avatar: https://avatars.githubusercontent.com/u/43783060?v=4
 categories:
 - utility
-color: '#763f6b'
-color_bg: '#763f6b'
+color: '#793e6a'
+color_bg: '#793e6a'
 created: '2019-08-22T07:15:13Z'
 description: An Animal Crossing New Leaf Modding Menu Overlay to use while playing
   the game.
@@ -16,7 +16,7 @@ downloads:
     url: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/releases/download/v3.3.1/Vapecord.Public.zip
 github: RedShyGuy/Vapecord-ACNL-Plugin
 image: https://avatars.githubusercontent.com/u/43783060?v=4&size=128
-image_length: 3754
+image_length: 12131
 layout: app
 license: other
 license_name: Other
