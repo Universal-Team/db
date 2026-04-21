@@ -18,118 +18,127 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-98-g27e4ce3d7
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-107-g64d78d7f6
   downloads:
-    Angband-4.2.6-98-g27e4ce3d7-3ds.zip:
-      size: 24670658
+    Angband-4.2.6-107-g64d78d7f6-3ds.zip:
+      size: 24671167
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-98-g27e4ce3d7/Angband-4.2.6-98-g27e4ce3d7-3ds.zip
-    Angband-4.2.6-98-g27e4ce3d7-nds.zip:
-      size: 23329054
+      url: https://github.com/angband/angband/releases/download/4.2.6-107-g64d78d7f6/Angband-4.2.6-107-g64d78d7f6-3ds.zip
+    Angband-4.2.6-107-g64d78d7f6-nds.zip:
+      size: 23329122
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-98-g27e4ce3d7/Angband-4.2.6-98-g27e4ce3d7-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-107-g64d78d7f6/Angband-4.2.6-107-g64d78d7f6-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>Add EVT_DISCONNECT by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/backwardsEric/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4161819550" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6563"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6563/hovercard"
-    href="https://github.com/angband/angband/pull/6563">#6563</a></li>
-
-    <li>cmake: correct detection of clang support for "-fprofile-arcs -ftest-coverage"
+    <li>In the classic level generation, reject the level if it has less than 2 rooms
     by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4191151095" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6565"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6565/hovercard"
-    href="https://github.com/angband/angband/pull/6565">#6565</a></li>
+    data-id="4229053435" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6581"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6581/hovercard"
+    href="https://github.com/angband/angband/pull/6581">#6581</a></li>
 
-    <li>Borg command strcpy warn by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4195590375" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6567"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6567/hovercard"
-    href="https://github.com/angband/angband/pull/6567">#6567</a></li>
-
-    <li>SDL2: refactor to avoid pointer comparisons as identity checks in the pui
-    layer by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4201976732" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6568"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6568/hovercard"
-    href="https://github.com/angband/angband/pull/6568">#6568</a></li>
-
-    <li>Correct some typos in comments by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/backwardsEric/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4205729705" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6574"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6574/hovercard"
-    href="https://github.com/angband/angband/pull/6574">#6574</a></li>
-
-    <li>Borg twitchy digging by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4212857965" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6575"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6575/hovercard"
-    href="https://github.com/angband/angband/pull/6575">#6575</a></li>
-
-    <li>Better tolerate missing brand names in init_rune() by <a class="user-mention
+    <li>workflows: replace softprops/action-gh-release with gh CLI by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4212912009" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6576"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6576/hovercard"
-    href="https://github.com/angband/angband/pull/6576">#6576</a></li>
+    data-id="4233228215" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6583"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6583/hovercard"
+    href="https://github.com/angband/angband/pull/6583">#6583</a></li>
 
-    <li>Do not necessarily stop at first parsing error from a data or pref file by
-    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    <li>Use sigaction() when available by <a class="user-mention notranslate" data-hovercard-type="user"
+    data-hovercard-url="/users/backwardsEric/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4264633977" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6588"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6588/hovercard"
+    href="https://github.com/angband/angband/pull/6588">#6588</a></li>
+
+    <li>Borg refuel lantern out of bounds by <a class="user-mention notranslate" data-hovercard-type="user"
+    data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4265067970" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6589"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6589/hovercard"
+    href="https://github.com/angband/angband/pull/6589">#6589</a></li>
+
+    <li>Windows: avoid warning about buffer length with snprintf() by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4213228668" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6577"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6577/hovercard"
-    href="https://github.com/angband/angband/pull/6577">#6577</a></li>
+    data-id="4269276751" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6590"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6590/hovercard"
+    href="https://github.com/angband/angband/pull/6590">#6590</a></li>
 
-    <li>Keep one from sets of room templates that are identical after reversing axes
+    <li>Reduce msbuild''s warnings about mismatched const qualifiers by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4270896244" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6591"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6591/hovercard"
+    href="https://github.com/angband/angband/pull/6591">#6591</a></li>
+
+    <li>SDL2: use get_caption hook in more places by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4271505218" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6592"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6592/hovercard"
+    href="https://github.com/angband/angband/pull/6592">#6592</a></li>
+
+    <li>SDL2: add missing checks for memory allocation failures by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4271641829" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6593"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6593/hovercard"
+    href="https://github.com/angband/angband/pull/6593">#6593</a></li>
+
+    <li>configure: do not suggest --with-no-install when building Windows front end
     by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4226654701" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6580"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6580/hovercard"
-    href="https://github.com/angband/angband/pull/6580">#6580</a></li>
-
-    <li>borg: change to look at prefixes and fix naming checks by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
-    in <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/angband/angband/commit/27e4ce3d749e7010ea044b4d56c2bb755d60d088/hovercard"
-    href="https://github.com/angband/angband/commit/27e4ce3d749e7010ea044b4d56c2bb755d60d088"><tt>27e4ce3</tt></a></li>
+    data-id="4272260645" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6594"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6594/hovercard"
+    href="https://github.com/angband/angband/pull/6594">#6594</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-87-g7341240f4...4.2.6-98-g27e4ce3d7"><tt>4.2.6-87-g7341240f4...4.2.6-98-g27e4ce3d7</tt></a></p>'
-  update_notes_md: "## What's Changed\n* Add EVT_DISCONNECT by @backwardsEric in https://github.com/angband/angband/pull/6563\n\
-    * cmake: correct detection of clang support for \"-fprofile-arcs -ftest-coverage\"\
-    \ by @backwardsEric in https://github.com/angband/angband/pull/6565\n* Borg command\
-    \ strcpy warn by @agoodman00 in https://github.com/angband/angband/pull/6567\n\
-    * SDL2: refactor to avoid pointer comparisons as identity checks in the pui layer\
-    \ by @backwardsEric in https://github.com/angband/angband/pull/6568\n* Correct\
-    \ some typos in comments by @backwardsEric in https://github.com/angband/angband/pull/6574\n\
-    * Borg twitchy digging by @agoodman00 in https://github.com/angband/angband/pull/6575\n\
-    * Better tolerate missing brand names in init_rune() by @backwardsEric in https://github.com/angband/angband/pull/6576\n\
-    * Do not necessarily stop at first parsing error from a data or pref file by @backwardsEric\
-    \ in https://github.com/angband/angband/pull/6577\n* Keep one from sets of room\
-    \ templates that are identical after reversing axes by @backwardsEric in https://github.com/angband/angband/pull/6580\n\
-    * borg: change to look at prefixes and fix naming checks by @agoodman00 in https://github.com/angband/angband/commit/27e4ce3d749e7010ea044b4d56c2bb755d60d088\
-    \ \n\n\n**Full Changelog**: https://github.com/angband/angband/compare/4.2.6-87-g7341240f4...4.2.6-98-g27e4ce3d7"
-  updated: '2026-04-14T11:37:59Z'
-  version: 4.2.6-98-g27e4ce3d7
-  version_title: 4.2.6-98-g27e4ce3d7
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-98-g27e4ce3d7...4.2.6-107-g64d78d7f6"><tt>4.2.6-98-g27e4ce3d7...4.2.6-107-g64d78d7f6</tt></a></p>'
+  update_notes_md: '## What''s Changed
+
+    * In the classic level generation, reject the level if it has less than 2 rooms
+    by @backwardsEric in https://github.com/angband/angband/pull/6581
+
+    * workflows: replace softprops/action-gh-release with gh CLI by @backwardsEric
+    in https://github.com/angband/angband/pull/6583
+
+    * Use sigaction() when available by @backwardsEric in https://github.com/angband/angband/pull/6588
+
+    * Borg refuel lantern out of bounds by @agoodman00 in https://github.com/angband/angband/pull/6589
+
+    * Windows: avoid warning about buffer length with snprintf() by @backwardsEric
+    in https://github.com/angband/angband/pull/6590
+
+    * Reduce msbuild''s warnings about mismatched const qualifiers by @backwardsEric
+    in https://github.com/angband/angband/pull/6591
+
+    * SDL2: use get_caption hook in more places by @backwardsEric in https://github.com/angband/angband/pull/6592
+
+    * SDL2: add missing checks for memory allocation failures by @backwardsEric in
+    https://github.com/angband/angband/pull/6593
+
+    * configure: do not suggest --with-no-install when building Windows front end
+    by @backwardsEric in https://github.com/angband/angband/pull/6594
+
+
+
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-98-g27e4ce3d7...4.2.6-107-g64d78d7f6'
+  updated: '2026-04-21T11:25:38Z'
+  version: 4.2.6-107-g64d78d7f6
+  version_title: 4.2.6-107-g64d78d7f6
 source: https://github.com/angband/angband
 stars: 1502
 systems:
