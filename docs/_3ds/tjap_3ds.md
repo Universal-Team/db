@@ -26,7 +26,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.2.1
   downloads:
     TJAP_3DS.3dsx:
-      size: 9791756
+      size: 9792204
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.1/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -42,6 +42,10 @@ prerelease:
     <li><code class="notranslate">#JPOSSCROLL (Travel_time(float)) (position(int))
     (direction(int))</code>の実装が完了しました。</li>
 
+    <li>ノーツ描画時の高速化</li>
+
+    <li>譜面分岐のタイミングがズレる可能性がある不具合の修正</li>
+
     </ul>
 
     <h2 dir="auto">Changelog</h2>
@@ -51,16 +55,28 @@ prerelease:
     <li>The implementation of <code class="notranslate">#JPOSSCROLL (Travel_time(float))
     (position(int)) (direction(int))</code> is complete.</li>
 
+    <li>Speeding up when drawing notes</li>
+
+    <li>Fixing a bug that may misset the timing of the score branch</li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
     - `#JPOSSCROLL (Travel_time(float)) (position(int)) (direction(int))`の実装が完了しました。
 
+    - ノーツ描画時の高速化
+
+    - 譜面分岐のタイミングがズレる可能性がある不具合の修正
+
 
     ## Changelog
 
     - The implementation of `#JPOSSCROLL (Travel_time(float)) (position(int)) (direction(int))`
-    is complete.'
+    is complete.
+
+    - Speeding up when drawing notes
+
+    - Fixing a bug that may misset the timing of the score branch'
   updated: '2026-03-30T07:04:57Z'
   version: v2.2.1
   version_title: TJAPlayer for 3DS v2.2.1
