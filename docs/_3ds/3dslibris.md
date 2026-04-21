@@ -10,29 +10,29 @@ description: An ebook and manga reader for Nintendo 3DS
 download_page: https://github.com/RigleGit/3dslibris/releases
 downloads:
   3dslibris-debug.3dsx:
-    size: 38960560
+    size: 38991720
     size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.3.2/3dslibris-debug.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.4.0/3dslibris-debug.3dsx
   3dslibris-debug.cia:
-    size: 39195584
+    size: 39224256
     size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.3.2/3dslibris-debug.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.4.0/3dslibris-debug.cia
   3dslibris-sdmc.zip:
-    size: 32712163
+    size: 32759720
     size_str: 31 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.3.2/3dslibris-sdmc.zip
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.4.0/3dslibris-sdmc.zip
   3dslibris-source.tar.gz:
-    size: 66614967
-    size_str: 63 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.3.2/3dslibris-source.tar.gz
+    size: 67915077
+    size_str: 64 MiB
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.4.0/3dslibris-source.tar.gz
   3dslibris.3dsx:
-    size: 39017180
+    size: 39056572
     size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.3.2/3dslibris.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.4.0/3dslibris.3dsx
   3dslibris.cia:
-    size: 39248832
+    size: 39285696
     size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.3.2/3dslibris.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.4.0/3dslibris.cia
 github: RigleGit/3dslibris
 icon: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/icon-32x32.png
 image: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/banner.png
@@ -53,103 +53,71 @@ stars: 91
 systems:
 - 3DS
 title: 3dslibris
-update_notes: '<h2 dir="auto">3dslibris 2.3.2</h2>
-
-  <p dir="auto"><strong>Quality-of-life patch on top of the <code class="notranslate">v2.3.1</code>
-  stable conservative base.</strong> No workers have been re-enabled; all background
-  processing remains on the main thread. This release restores MOBI features that
-  were silently disabled in <code class="notranslate">v2.3.1</code>, fixes a cover-loading
-  gap in the browser, and improves EPUB cover decoding for large and SVG covers.</p>
-
-  <h3 dir="auto">Highlights</h3>
-
-  <ul dir="auto">
-
-  <li><strong>MOBI structured TOC restored</strong>: the <code class="notranslate">html_to_text</code>
-  position map is now built during safe-extractor parsing. Structured TOC entries
-  (e.g. "CHAPTER 1", "PART TWO") are resolved to accurate page numbers instead of
-  falling back to linear estimation.</li>
-
-  <li><strong>MOBI inline images restored</strong>: images embedded in MOBI HTML (<code
-  class="notranslate">&lt;img recindex=...&gt;</code>) are now registered and rendered
-  in the reading view. Previously the safe extractor wired up no callbacks and all
-  inline images were silently dropped.</li>
-
-  <li><strong>MOBI page cache re-enabled</strong>: the second open of a large MOBI
-  (e.g. <em>A Promised Land</em>, 1365 pages) now loads from cache in ~3.7 s instead
-  of re-parsing for ~9 s.</li>
-
-  <li><strong>Browser grid covers load on view toggle</strong>: switching from list
-  to grid view now immediately loads covers for the visible page. Previously the grid
-  showed empty slots until the next navigation event.</li>
-
-  <li><strong>EPUB large PNG covers decode via libpng</strong>: covers larger than
-  4 MB decoded no longer go through <code class="notranslate">stb_image</code>''s
-  full RGB decode. A direct libpng thumbnail path scales to <code class="notranslate">85×115</code>
-  while keeping peak memory low.</li>
-
-  <li><strong>EPUB SVG covers rendered via MuPDF</strong>: SVG cover images are rasterized
-  at thumbnail size using the MuPDF fitz renderer instead of being skipped or incorrectly
-  decoded.</li>
-
-  </ul>
-
-  <h3 dir="auto">Fixes and behavior changes</h3>
-
-  <ul dir="auto">
-
-  <li><code class="notranslate">mobi_safe_markup_extract::ExtractToText</code> now
-  accepts and populates an <code class="notranslate">html_to_text_map</code> parameter,
-  sampled at the same intervals as the main extractor. <code class="notranslate">mobi_toc_finalize_policy::ShouldApplyStructuredToc</code>
-  gates on whether the map is usable.</li>
-
-  <li><code class="notranslate">mobi_book_hooks::ExtractMobiMarkupToText</code> wires
-  up <code class="notranslate">InlineImageCallbacks</code> (via <code class="notranslate">book-&gt;RegisterInlineImage</code>)
-  and passes the map pointer through to the extractor.</li>
-
-  <li><code class="notranslate">ToggleBrowserViewSetting</code> in <code class="notranslate">app_prefs.cpp</code>
-  now calls <code class="notranslate">LoadVisibleBrowserCoverCaches()</code> after
-  marking the browser dirty, so the first grid page is populated immediately.</li>
-
-  <li><code class="notranslate">App::LoadVisibleBrowserCoverCaches()</code> moved
-  to the public section of <code class="notranslate">App</code> so it can be called
-  from settings code.</li>
-
-  <li><code class="notranslate">epub_cover::Extract</code> tries a libpng thumbnail
-  path for large PNG covers before falling back to <code class="notranslate">stb_image</code>.
-  On failure the stb_image path is still attempted.</li>
-
-  <li><code class="notranslate">epub_cover::Extract</code> renders SVG covers via
-  a new <code class="notranslate">RenderSvgCoverThumbnail</code> function using <code
-  class="notranslate">fz_open_document_with_buffer</code> / <code class="notranslate">fz_run_page</code>
-  at thumbnail scale, converting the resulting pixmap to RGB565.</li>
-
-  </ul>
-
-  <h3 dir="auto">What comes next</h3>
-
-  <p dir="auto">Workers will be re-enabled one at a time as each is confirmed stable
-  on hardware: reflow worker (EPUB/FB2/MOBI), then CBZ interactive preload, then PDF
-  strip worker, then browser warmup.</p>
-
-  <h3 dir="auto">Included assets</h3>
-
-  <ul dir="auto">
-
-  <li><code class="notranslate">3dslibris.cia</code></li>
-
-  <li><code class="notranslate">3dslibris-debug.cia</code></li>
-
-  <li><code class="notranslate">3dslibris.3dsx</code></li>
-
-  <li><code class="notranslate">3dslibris-debug.3dsx</code></li>
-
-  <li><code class="notranslate">3dslibris-sdmc.zip</code></li>
-
-  <li><code class="notranslate">3dslibris-source.tar.gz</code></li>
-
-  </ul>'
-updated: '2026-04-20T19:42:40Z'
-version: v2.3.2
-version_title: v2.3.2
+update_notes: "<h2 dir=\"auto\">3dslibris 2.4.0</h2>\n<p dir=\"auto\"><strong>UI and\
+  \ navigation overhaul.</strong> This release delivers a six-color theme system,\
+  \ improved menus throughout, dark/light splash screen variants, gradient backgrounds\
+  \ in the reader, EPUB chapter detection fixes, and browser warmup re-enabled for\
+  \ faster cover loading.</p>\n<p dir=\"auto\"><strong>UPDATE YOUR <code class=\"\
+  notranslate\">3dslibris-sdmc.zip</code> TO HAVE THE NEWEST SPLASHES</strong>.</p>\n\
+  <markdown-accessiblity-table><table role=\"table\">\n  <tbody><tr>\n    <td width=\"\
+  50%\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/user-attachments/assets/6de341bf-7811-4e70-be73-6e0aa4ca62ac\"\
+  ><img width=\"640\" height=\"531\" alt=\"3dslibris_darksepia\" src=\"https://github.com/user-attachments/assets/6de341bf-7811-4e70-be73-6e0aa4ca62ac\"\
+  \ style=\"max-width: 100%; height: auto; max-height: 531px;; aspect-ratio: 640 /\
+  \ 531; background-color: var(--bgColor-muted); border-radius: 6px; display: block\"\
+  \ class=\"js-gh-image-fallback\"></a></td>\n    <td width=\"50%\"> <a target=\"\
+  _blank\" rel=\"noopener noreferrer\" href=\"https://github.com/user-attachments/assets/9874a40f-47d7-4c07-9f35-a90dd63edc9c\"\
+  ><img width=\"640\" height=\"531\" alt=\"3dslibris_light\" src=\"https://github.com/user-attachments/assets/9874a40f-47d7-4c07-9f35-a90dd63edc9c\"\
+  \ style=\"max-width: 100%; height: auto; max-height: 531px;; aspect-ratio: 640 /\
+  \ 531; background-color: var(--bgColor-muted); border-radius: 6px; display: block\"\
+  \ class=\"js-gh-image-fallback\"></a></td>\n  </tr>\n</tbody></table></markdown-accessiblity-table>\n\
+  <h3 dir=\"auto\">Highlights</h3>\n<ul dir=\"auto\">\n<li><strong>Six-color theme\
+  \ system</strong>: the app now supports six palette-based color themes (light, sepia,\
+  \ dark, and three more), each controlling text, background, UI chrome, and cover\
+  \ overlays consistently across all views.</li>\n<li><strong>Dark/light splash screen\
+  \ variants</strong>: the startup splash now uses a dark or light version that matches\
+  \ the active color mode, replacing the single legacy <code class=\"notranslate\"\
+  >splash.jpg</code> with theme-aware <code class=\"notranslate\">3DSLibris_dark_small.jpg</code>\
+  \ / <code class=\"notranslate\">3DSLibris_light_small.jpg</code>.</li>\n<li><strong>Cycle\
+  \ themes with X in the browser</strong>: press <code class=\"notranslate\">X</code>\
+  \ in the library view to cycle through color modes without opening the settings\
+  \ menu.</li>\n<li><strong>Gradient backgrounds in reader mode</strong>: the top\
+  \ and bottom strips of the reading view now use a smooth gradient instead of a flat\
+  \ color.</li>\n<li><strong>Improved bookmark menu</strong>: entries now show a preview\
+  \ of the page text alongside the bookmark position, making it easier to identify\
+  \ saved positions at a glance.</li>\n<li><strong>Improved chapter menu</strong>:\
+  \ chapter titles wrap to up to three lines so long titles are no longer truncated.</li>\n\
+  <li><strong>Dynamic row heights in PagedListMenu</strong>: the shared paged-list\
+  \ component now sizes rows dynamically per page so entries always fit the available\
+  \ screen space.</li>\n<li><strong>Long font filenames wrap in FontMenu</strong>:\
+  \ font file paths too long for a single line now wrap cleanly instead of being clipped.</li>\n\
+  <li><strong>Browser warmup re-enabled</strong>: cover extraction now runs incrementally\
+  \ on idle frames (3 ms budget), so covers populate without stalling the UI. Extraction\
+  \ is deferred to idle time and never runs during menu transitions.</li>\n</ul>\n\
+  <h3 dir=\"auto\">Fixes and behavior changes</h3>\n<ul dir=\"auto\">\n<li><code class=\"\
+  notranslate\">TryLoadCoverCache</code> no longer runs synchronous cover extraction\
+  \ when browser warmup is active — extraction is now deferred to idle <code class=\"\
+  notranslate\">ProcessJobs</code> calls. This prevents the freeze-on-toggle regression\
+  \ seen with warmup enabled.</li>\n<li><code class=\"notranslate\">Button::SetLabel3</code>\
+  \ / <code class=\"notranslate\">GetX</code> / <code class=\"notranslate\">GetY</code>\
+  \ added to support three-line button labels in menus.</li>\n<li><code class=\"notranslate\"\
+  >PagedListMenu</code> row height is now computed per-page rather than fixed, accommodating\
+  \ variable-length entries.</li>\n<li>EPUB NAV spine ordering fixed: chapter detection\
+  \ now correctly follows the <code class=\"notranslate\">&lt;spine&gt;</code> order\
+  \ from the OPF manifest rather than assuming document order. Test fixtures added\
+  \ for this path.</li>\n<li>Marquee background color in the browser grid now correctly\
+  \ tracks the active dark theme background instead of always using the light color.</li>\n\
+  <li><code class=\"notranslate\">debug_runtime::BrowserWarmupDisabled()</code> returns\
+  \ <code class=\"notranslate\">false</code> — warmup is active by default in release\
+  \ builds.</li>\n</ul>\n<h3 dir=\"auto\">What comes next</h3>\n<p dir=\"auto\">Remaining\
+  \ workers to re-enable one at a time as each is confirmed stable on hardware: MOBI\
+  \ deferred finalize, then EPUB/FB2/MOBI reflow worker, then CBZ interactive preload,\
+  \ then PDF strip worker.</p>\n<h3 dir=\"auto\">Included assets</h3>\n<ul dir=\"\
+  auto\">\n<li><code class=\"notranslate\">3dslibris.cia</code></li>\n<li><code class=\"\
+  notranslate\">3dslibris-debug.cia</code></li>\n<li><code class=\"notranslate\">3dslibris.3dsx</code></li>\n\
+  <li><code class=\"notranslate\">3dslibris-debug.3dsx</code></li>\n<li><code class=\"\
+  notranslate\">3dslibris-sdmc.zip</code></li>\n<li><code class=\"notranslate\">3dslibris-source.tar.gz</code></li>\n\
+  </ul>"
+updated: '2026-04-21T18:02:53Z'
+version: v2.4.0
+version_title: v2.4.0
 ---
