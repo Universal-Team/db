@@ -140,7 +140,7 @@ prerelease:
   version: 4.2.6-107-g64d78d7f6
   version_title: 4.2.6-107-g64d78d7f6
 source: https://github.com/angband/angband
-stars: 1502
+stars: 1503
 systems:
 - 3DS
 - DS
