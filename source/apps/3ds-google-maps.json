@@ -1,0 +1,15 @@
+{
+	"github": "Oldhimaster1/3ds-Google-Maps",
+	"title": "3ds Google Maps",
+	"description": "Interactive OpenStreetMap and satellite map viewer with GPS tracking, offline tile caching, place search, and route planning.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon": "https://drive.google.com/u/0/drive-viewer/AKGpihYHoNKdJqhq32ElZsGgNB6q9JCLGZc8ftGceQvKO-GyE6SmubC_Pe3X1Xn2tI2kO838HnQtbaujU9pypqvJYZv79NyKIjERE44=s2560?auditContext=forDisplay",
+	"image": "https://drive.google.com/u/0/drive-viewer/AKGpihbzG2AeljGsXYtu7N5HiXvZ2VZrdyhGJz6wJqRKTVZHRjp5Jlri6rW-b_clxMkFBHZeXZ7UCu5NKDLZ7_ztt0F90PSBFwwz1BQ=s2560?auditContext=forDisplay",
+	"long_description": "Interactive map viewer for Nintendo 3DS. Browse OpenStreetMap street tiles and Esri satellite imagery, track your GPS location through your phone, search for places, plan routes, and save favorites.\n\n**Features:**\n- Pan and zoom maps on both screens (touch, D-pad, Circle Pad, L/R)\n- Three tile sources: OpenStreetMap, Esri Satellite, Esri Street Map\n- Offline tile caching — download regions on your PC and transfer as a single .tilepack file\n- GPS tracking via phone browser (3DS runs an HTTPS server, phone sends coordinates)\n- Place search, route planning, reverse geocoding, favorites\n- Night mode, tile prefetching, SD card tile cache\n\n**Offline caching (new in v2.0):**\nUse the included Python tool to bulk-download tiles for any region. Transfers as one file instead of thousands of PNGs. Works completely without WiFi.\n\n**GPS phone bridge:**\nThe 3DS starts a TLS server and shows a QR code. Scan it with your phone, allow location access, and your position streams to the 3DS in real time. On iPhone, use Chrome instead of Safari.\n\nRequires WiFi for live tile downloads and GPS. Offline tilepacks work without any network.",
+	"download_filter": "\\.3dsx$"
+}
