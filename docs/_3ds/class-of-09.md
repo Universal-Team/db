@@ -43,7 +43,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/class-of-09/title-screen.png
 source: https://github.com/Bilbard/classof3ds
-stars: 13
+stars: 12
 systems:
 - 3DS
 title: Class of '09
