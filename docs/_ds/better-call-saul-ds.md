@@ -16,6 +16,7 @@ downloads:
 github: WiIIiam278/bcsds
 icon: https://db.universal-team.net/assets/images/icons/better-call-saul-ds.png
 image: https://db.universal-team.net/assets/images/icons/better-call-saul-ds.png
+image_length: 630
 layout: app
 license: apache-2.0
 license_name: Apache License 2.0
