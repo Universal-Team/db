@@ -132,7 +132,8 @@ update_notes: '<h2 dir="auto">3dslibris 2.5.0</h2>
 
   <li><strong>Gallery covers clipped correctly</strong>: cover thumbnails in gallery
   view are clipped to the rounded frame, preventing image pixels from bleeding outside
-  the card border.</li>
+  the card border. See <a href="https://github.com/RigleGit/3dslibris/issues/59" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/59/hovercard">#59</a>.</li>
 
   <li><strong>PDF shouldn''t crash on HOME button</strong>: <code class="notranslate">ParseMuPdfFile</code>
   is now split into three independently cancellable steps (<code class="notranslate">fz_open_document</code>,
@@ -195,7 +196,8 @@ update_notes: '<h2 dir="auto">3dslibris 2.5.0</h2>
 
   <li><strong>No-cover gallery placeholder cleaned up</strong>: generated placeholders
   now keep the frame visible, use tighter centered metadata text, and inherit the
-  active theme fill color.</li>
+  active theme fill color. See <a href="https://github.com/RigleGit/3dslibris/issues/59"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/59/hovercard">#59</a>.</li>
 
   </ul>
 

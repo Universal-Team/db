@@ -20,6 +20,8 @@ icon: https://raw.githubusercontent.com/Oldhimaster1/3ds-Google-Maps/refs/heads/
 image: https://raw.githubusercontent.com/Oldhimaster1/3ds-Google-Maps/refs/heads/main/banner.png
 image_length: 42667
 layout: app
+license: mit
+license_name: MIT License
 source: https://github.com/Oldhimaster1/3ds-Google-Maps
 stars: 2
 systems:
