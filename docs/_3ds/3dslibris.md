@@ -10,29 +10,29 @@ description: An ebook and manga reader for Nintendo 3DS
 download_page: https://github.com/RigleGit/3dslibris/releases
 downloads:
   3dslibris-debug.3dsx:
-    size: 39034920
+    size: 39041924
     size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.4.2/3dslibris-debug.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.5.0/3dslibris-debug.3dsx
   3dslibris-debug.cia:
-    size: 39265216
+    size: 39277504
     size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.4.2/3dslibris-debug.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.5.0/3dslibris-debug.cia
   3dslibris-sdmc.zip:
-    size: 32794763
-    size_str: 31 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.4.2/3dslibris-sdmc.zip
+    size: 5020623
+    size_str: 4 MiB
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.5.0/3dslibris-sdmc.zip
   3dslibris-source.tar.gz:
-    size: 67924801
+    size: 67942432
     size_str: 64 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.4.2/3dslibris-source.tar.gz
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.5.0/3dslibris-source.tar.gz
   3dslibris.3dsx:
-    size: 39122132
+    size: 39122520
     size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.4.2/3dslibris.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.5.0/3dslibris.3dsx
   3dslibris.cia:
-    size: 39351232
+    size: 39355328
     size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.4.2/3dslibris.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.5.0/3dslibris.cia
 github: RigleGit/3dslibris
 icon: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/icon-32x32.png
 image: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/banner.png
@@ -53,48 +53,159 @@ stars: 96
 systems:
 - 3DS
 title: 3dslibris
-update_notes: '<h2 dir="auto">3dslibris 2.4.2</h2>
+update_notes: '<h2 dir="auto">3dslibris 2.5.0</h2>
 
-  <p dir="auto">Stability and crash-fix release.</p>
+  <p dir="auto">Performance, stability, and new formatting support.</p>
+
+  <h3 dir="auto">New</h3>
+
+  <ul dir="auto">
+
+  <li><strong>Text alignment support</strong>: <code class="notranslate">text-align:
+  center</code> and <code class="notranslate">text-align: right</code> are now honoured
+  in EPUB reflow. Each paragraph emits an alignment token that <code class="notranslate">Page::Draw</code>
+  uses to compute per-line offset, so wrapped lines stay correctly aligned across
+  the whole paragraph. See <a href="https://github.com/RigleGit/3dslibris/issues/47"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/47/hovercard">#47</a>.</li>
+
+  <li><strong>README revamped</strong>: the README has been reorganized to better
+  highlight the features of the project.</li>
+
+  </ul>
+
+  <h3 dir="auto">Performance</h3>
+
+  <ul dir="auto">
+
+  <li><strong>EPUB CSS scanning (~1 sec less loading time)</strong>: only the <code
+  class="notranslate">&lt;head&gt;</code> section of each XHTML spine document is
+  scanned for stylesheet links, reducing zip I/O on large books.</li>
+
+  <li><strong>Reused zip handle (~20% less loading time)</strong>: a single <code
+  class="notranslate">unzFile</code> handle is recycled across all spine CSS scans
+  instead of opening/closing per document.</li>
+
+  <li><strong>Plain text pagination</strong>: eliminated per-line heap allocation;
+  uses data/size pointer streaming.</li>
+
+  <li><strong>Text shaping pipeline</strong>: reuses static scratch buffers (<code
+  class="notranslate">text_run</code>, <code class="notranslate">normalized</code>,
+  <code class="notranslate">breaks</code>) instead of re-allocating on every shaped
+  run.</li>
+
+  <li><strong>Release build overhead removed</strong>: guarded <code class="notranslate">osGetTime</code>
+  calls and unnecessary allocations with <code class="notranslate">DSLIBRIS_DEBUG</code>
+  only.</li>
+
+  <li><strong>Text renderer diagnostics budget raised</strong>: increased the debug
+  blit page diagnostics budget from 12 to 48 entries, making short debug captures
+  less likely to miss relevant draw calls.</li>
+
+  <li><strong>Faster first-time EPUB covers (x3 speed increase)</strong>: large JPEG
+  covers now try a MuPDF subsampled thumbnail decode before falling back to full-image
+  <code class="notranslate">stb_image</code> decoding, reducing old3DS work for oversized
+  cover art.</li>
+
+  <li><strong>Quieter blit diagnostics</strong>: debug logs now skip steady idle blit
+  frames where no dirty region or framebuffer copy occurred.</li>
+
+  <li><strong>Safer PDF cover preparation</strong>: PDF cover warmup now runs with
+  shared complexity guards on both old3DS and new3DS, skipping pathological pages
+  earlier instead of risking OOM during first-time cover extraction.</li>
+
+  </ul>
 
   <h3 dir="auto">Fixes</h3>
 
   <ul dir="auto">
 
-  <li><strong>FontManager null dereference crash</strong>: <code class="notranslate">GetFace()</code>
-  used <code class="notranslate">std::map::operator[]</code>, which silently inserted
-  a <code class="notranslate">NULL</code> <code class="notranslate">FT_Face</code>
-  for missing style keys. Callers then dereferenced <code class="notranslate">face-&gt;size</code>,
-  causing a data abort at offset <code class="notranslate">0x58</code> from <code
-  class="notranslate">NULL</code>. <code class="notranslate">GetFace()</code> now
-  uses <code class="notranslate">find()</code> and returns <code class="notranslate">NULL</code>
-  for missing keys; all callers (<code class="notranslate">GetHeight()</code>, <code
-  class="notranslate">GetGlyphIndex()</code>, both <code class="notranslate">GetFontName()</code>
-  overloads) guard against <code class="notranslate">NULL</code> before dereferencing.</li>
+  <li><strong>Browser return and suspend handling stabilized</strong>: returning from
+  the reader to the library now explicitly resumes browser jobs, handles applet suspend/resume
+  through the app controllers, and avoids tearing down in-flight async opens during
+  HOME suspension. See <a href="https://github.com/RigleGit/3dslibris/issues/62" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/62/hovercard">#62</a>.</li>
 
-  <li><strong>Division by zero in browser marquee</strong>: the background color averaging
-  loop in <code class="notranslate">BrowserGridView</code> divided by <code class="notranslate">vis_w
-  * sh</code> without checking for zero-dimension covers, leading to a divide-by-zero
-  when a book had no valid thumbnail. Guarded with <code class="notranslate">if (bg_pixels
-  &gt; 0)</code>.</li>
+  <li><strong>Open cancel polling is worker-safe</strong>: cancellation polling no
+  longer touches HID/APT state from worker threads; background open paths now use
+  an atomic cancellation flag while the main thread remains responsible for system
+  event polling.</li>
 
-  <li><strong>Degenerate layout when font height is zero</strong>: if <code class="notranslate">GetHeight()</code>
-  returned <code class="notranslate">0</code> (for example, when no valid face was
-  loaded), button and line heights collapsed to <code class="notranslate">0</code>
-  and produced unreadable or non-interactive menus. Added a <code class="notranslate">line_height</code>
-  floor of <code class="notranslate">10</code> pixels in <code class="notranslate">font.cpp</code>
-  and <code class="notranslate">paged_list_menu.cpp</code>.</li>
+  <li><strong>Gallery covers clipped correctly</strong>: cover thumbnails in gallery
+  view are clipped to the rounded frame, preventing image pixels from bleeding outside
+  the card border.</li>
 
-  <li><strong>Out-of-bounds touch in empty list menus</strong>: <code class="notranslate">PagedListMenu::HandleTouchInput()</code>
-  accessed <code class="notranslate">buttons[0]</code> without checking whether the
-  vector was empty, causing an out-of-bounds read on menus with no entries. Added
-  an early <code class="notranslate">return</code> when <code class="notranslate">buttons.empty()</code>.</li>
+  <li><strong>PDF shouldn''t crash on HOME button</strong>: <code class="notranslate">ParseMuPdfFile</code>
+  is now split into three independently cancellable steps (<code class="notranslate">fz_open_document</code>,
+  <code class="notranslate">fz_count_pages</code>, <code class="notranslate">fz_load_outline</code>),
+  each separated by an APT yield point via <code class="notranslate">open_cancel_poll::Poll</code>.
+  Pressing HOME during PDF loading is now handled cleanly instead of causing a console
+  restart. See <a href="https://github.com/RigleGit/3dslibris/issues/58" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/58/hovercard">#58</a>.</li>
 
-  <li><strong>Infinite loop in text wrapping</strong>: <code class="notranslate">WrapTextToLines()</code>
-  could spin forever when <code class="notranslate">Utf8BytesForDisplayChars()</code>
-  returned <code class="notranslate">0</code> (for example, on a zero-width or unrecognised
-  code point). Forced a minimum advance of <code class="notranslate">1</code> byte
-  so the loop always makes progress.</li>
+  <li><strong>Worker join timeouts bounded</strong>: <code class="notranslate">LightEvent_Wait</code>
+  in <code class="notranslate">CancelMuPdfIncrementalRenderState</code> replaced with
+  a 100 ms polling loop; <code class="notranslate">ShutdownMuPdfWorker</code> and
+  <code class="notranslate">ShutdownCbzWorker</code> now use a 500 ms join timeout
+  instead of <code class="notranslate">U64_MAX</code>, preventing either path from
+  blocking HOME acknowledgment indefinitely. See <a href="https://github.com/RigleGit/3dslibris/issues/58"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/58/hovercard">#58</a>.</li>
+
+  <li><strong>Bookmarks button icon updated</strong>: refreshed the bookmarks button
+  artwork. See <a href="https://github.com/RigleGit/3dslibris/issues/60" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/60/hovercard">#60</a>.</li>
+
+  <li><strong>Large EPUB page limit raised</strong>: <code class="notranslate">kMaxPagesInMemory</code>
+  raised from 5 000 → 25 000 and cache guard to 50 000, fixing books that stopped
+  loading halfway through. See <a href="https://github.com/RigleGit/3dslibris/issues/54"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/54/hovercard">#54</a>
+  and <a href="https://github.com/RigleGit/3dslibris/issues/37" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/37/hovercard">#37</a>.</li>
+
+  <li><strong>HR overflow tracking</strong>: parser and renderer now agree on <code
+  class="notranslate">pen.y</code> after <code class="notranslate">&lt;hr&gt;</code>
+  rules, preventing <code class="notranslate">&lt;hr/&gt; &lt;p&gt;Text&lt;/p&gt;</code>
+  from overlapping text. See <a href="https://github.com/RigleGit/3dslibris/issues/37"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/37/hovercard">#37</a>.</li>
+
+  <li><strong>PagedListMenu overflow</strong>: pagination indices changed from <code
+  class="notranslate">u8</code> to <code class="notranslate">u16</code> so menus with
+  more than 255 entries no longer wrap and corrupt the page list.</li>
+
+  <li><strong>MOBI synchronous-only open</strong>: removed the deferred-finalize path
+  that could leave the reader in an inconsistent state on large MOBI files.</li>
+
+  <li><strong>Startup font path cleanup</strong>: removed hardcoded RomFS font paths;
+  all runtime asset discovery now goes through <code class="notranslate">paths::kRomfsFontDir</code>.</li>
+
+  <li><strong>Reflow open gate simplified</strong>: removed stale <code class="notranslate">ForceSynchronousBookOpen</code>
+  flag and <code class="notranslate">deferred_pumped</code> references; <code class="notranslate">ShouldUseAsyncReflowOpen</code>
+  is now a single-parameter function.</li>
+
+  <li><strong>Permanent cover failures stop retrying</strong>: browser warmup now
+  stops requeueing covers after non-recoverable failures, avoiding repeated work on
+  unsupported files.</li>
+
+  <li><strong>Gallery redraws after visible cover jobs</strong>: finishing a cover
+  job for a visible gallery item now forces a browser redraw, preventing stale tiles
+  after first-time cover extraction.</li>
+
+  <li><strong>Raw SVG gallery covers are skipped cleanly</strong>: EPUBs whose detected
+  cover is a raw SVG now fall back to the no-cover placeholder instead of going through
+  an unsupported decode path.</li>
+
+  <li><strong>No-cover gallery placeholder cleaned up</strong>: generated placeholders
+  now keep the frame visible, use tighter centered metadata text, and inherit the
+  active theme fill color.</li>
+
+  </ul>
+
+  <h3 dir="auto">Packaging</h3>
+
+  <ul dir="auto">
+
+  <li><strong>SDMC zip trimmed</strong>: <code class="notranslate">3dslibris-sdmc.zip</code>
+  now contains only SD card runtime files. The <code class="notranslate">.3dsx</code>
+  builds remain separate release assets instead of being duplicated inside the zip.</li>
 
   </ul>
 
@@ -107,31 +218,37 @@ update_notes: '<h2 dir="auto">3dslibris 2.4.2</h2>
 
   <ul dir="auto">
 
-  <li><strong>Reading Milestones:</strong> Huge thanks to <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/runarcn/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/runarcn">@runarcn</a>
-  at <a href="https://runarcn.no" rel="nofollow">runarcn.no</a> for the lovely write-up!
-  Knowing that the app helped you finish two books in two weeks is the best motivation.</li>
+  <li><strong>Text alignment</strong>: Thanks to <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/EmbersFlying/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/EmbersFlying">@EmbersFlying</a>
+  for opening <a href="https://github.com/RigleGit/3dslibris/issues/47" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/47/hovercard">#47</a> and pushing
+  for <code class="notranslate">text-align: center</code> and <code class="notranslate">text-align:
+  right</code> support in EPUB reflow.</li>
 
-  <li><strong>Issues &amp; Feedback:</strong> Thanks to everyone opening issues and
-  suggesting features. In v2.4.2, reports from <a class="user-mention notranslate"
+  <li><strong>Large book reports</strong>: Thanks to <a class="user-mention notranslate"
   data-hovercard-type="user" data-hovercard-url="/users/Davetheword/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/Davetheword">@Davetheword</a>
-  and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/runarcn/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/runarcn">@runarcn</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4305833981"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/55"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/55/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/55">#55</a> made it possible
-  to track down these problems. I also want to give a special thanks to <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/EmbersFlying/hovercard"
+  and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/EmbersFlying/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/EmbersFlying">@EmbersFlying</a>
-  and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lunapanshiel/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lunapanshiel">@lunapanshiel</a>,
-  who have helped a lot by reporting and investigating issues since the beginning.</li>
+  for reporting <a href="https://github.com/RigleGit/3dslibris/issues/54" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/54/hovercard">#54</a> and <a href="https://github.com/RigleGit/3dslibris/issues/37"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/37/hovercard">#37</a>:
+  those issues led to raising the page limit to 25.000 and fixing the <code class="notranslate">&lt;hr&gt;</code>
+  overflow overlap bug.</li>
+
+  <li><strong>Bug triaging</strong>: Thanks to <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/runarcn/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/runarcn">@runarcn</a>,
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/EmbersFlying/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/EmbersFlying">@EmbersFlying</a>,
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lunapanshiel/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lunapanshiel">@lunapanshiel</a>
+  and @TrevorArenival07 for testing and reporting multiple issues that were fixed
+  (or at least tried) in this release.</li>
 
   <li><strong>Fueling the Code:</strong> A special thank you to my <strong>Ko-fi supporters</strong>.
-  Your donations help keep the project going — and keep me caffeinated.</li>
+  Your donations help keep the project going and keep me caffeinated!</li>
 
   </ul>
 
@@ -150,12 +267,13 @@ update_notes: '<h2 dir="auto">3dslibris 2.4.2</h2>
 
   <li><code class="notranslate">3dslibris-debug.3dsx</code></li>
 
-  <li><code class="notranslate">3dslibris-sdmc.zip</code></li>
+  <li><code class="notranslate">3dslibris-sdmc.zip</code> (runtime files only; pair
+  it with the <code class="notranslate">.3dsx</code> asset for Homebrew Launcher installs)</li>
 
   <li><code class="notranslate">3dslibris-source.tar.gz</code></li>
 
   </ul>'
-updated: '2026-04-22T13:30:15Z'
-version: v2.4.2
-version_title: v2.4.2
+updated: '2026-04-24T14:47:35Z'
+version: v2.5.0
+version_title: v2.5.0
 ---
