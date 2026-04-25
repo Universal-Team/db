@@ -27,7 +27,7 @@ license_name: Other
 qr:
   snes9x_3ds.cia: https://db.universal-team.net/assets/images/qr/snes9x_3ds-cia.png
 source: https://github.com/matbo87/snes9x_3ds
-stars: 56
+stars: 58
 systems:
 - 3DS
 title: Snes9x (updated fork)
