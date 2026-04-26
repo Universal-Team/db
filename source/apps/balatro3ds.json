@@ -1,0 +1,13 @@
+{
+	"github": "idkhan/Balatro3DS",
+	"author": "Gazpacho",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/resources/textures/1x/icon.png",
+	"image": "https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/banner.png",
+	"long_description": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos, now on the 3DS.\n\nThis is a fan-made remake of Balatro. This project is in no way affiliated with LocalThunk, the creator of Balatro. All art and sound effects are originally from the game, only adapted to run on the 3DS hardware. If you want to support the creator or get the full Balatro experience, please buy the game."
+}
