@@ -1,0 +1,12 @@
+{
+	"github": "mockmodular/topos_3ds-video-player",
+	"description": " topos — True SBS 3D (and normal 2D) Video Player for 3DS | RGB888, MVD Hardware Decode, Smooth & Clean ",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"icon": "https://raw.githubusercontent.com/mockmodular/topos_3ds-video-player/main/resource/icon.png",
+	"download_filter": "(3dsx|cia)"
+}
