@@ -10,13 +10,13 @@ description: Fast and simple homebrew save manager for 3DS and Switch.
 download_page: https://github.com/BernardoGiordano/Checkpoint/releases
 downloads:
   Checkpoint.3dsx:
-    size: 1491192
+    size: 1494780
     size_str: 1 MiB
-    url: https://github.com/BernardoGiordano/Checkpoint/releases/download/v3.11.0/Checkpoint.3dsx
+    url: https://github.com/BernardoGiordano/Checkpoint/releases/download/v3.12.0/Checkpoint.3dsx
   Checkpoint.cia:
     size: 1049536
     size_str: 1 MiB
-    url: https://github.com/BernardoGiordano/Checkpoint/releases/download/v3.11.0/Checkpoint.cia
+    url: https://github.com/BernardoGiordano/Checkpoint/releases/download/v3.12.0/Checkpoint.cia
 github: BernardoGiordano/Checkpoint
 icon: https://raw.githubusercontent.com/BernardoGiordano/Checkpoint/master/3ds/assets/icon.png
 image: https://raw.githubusercontent.com/BernardoGiordano/Checkpoint/master/3ds/assets/banner.png
@@ -24,132 +24,6 @@ image_length: 5618
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-prerelease:
-  download_page: https://github.com/BernardoGiordano/Checkpoint/releases/tag/v3.12.0
-  downloads:
-    Checkpoint.3dsx:
-      size: 1494780
-      size_str: 1 MiB
-      url: https://github.com/BernardoGiordano/Checkpoint/releases/download/v3.12.0/Checkpoint.3dsx
-    Checkpoint.cia:
-      size: 1049536
-      size_str: 1 MiB
-      url: https://github.com/BernardoGiordano/Checkpoint/releases/download/v3.12.0/Checkpoint.cia
-  qr:
-    Checkpoint.cia: https://db.universal-team.net/assets/images/qr/prerelease/checkpoint-cia.png
-  update_notes: '<p dir="auto">This release adds support for previously unsupported
-    save types on the Switch. I didn''t have any need to support them at the time
-    because I didn''t play any of these kind of games. After all these years, I still
-    don''t play them, but I felt it was time to properly support them into Checkpoint.</p>
-
-    <p dir="auto"><strong>Important notice:</strong> I wasn''t able to test backup
-    and/or restore these new save types first-hand. Use the new features carefully
-    and <em>please</em> report back! That''s why this new version is currently in
-    pre-release.</p>
-
-    <h2 dir="auto">What''s new</h2>
-
-    <ul dir="auto">
-
-    <li>Added: <strong>support BCAT saves</strong> on the Switch version of the app.</li>
-
-    <li>Added: <strong>support device saves</strong> on the Switch version of the
-    app.</li>
-
-    <li>Added: <strong>support system saves</strong> on the Switch version of the
-    app.
-
-    <ul dir="auto">
-
-    <li>The UI of the app has been slightly upgraded to account for these new save
-    types.</li>
-
-    </ul>
-
-    </li>
-
-    <li>Added: per-file progress bar.
-
-    <ul dir="auto">
-
-    <li>The UI will now display two progress bars, one for the overall save progress
-    and one for each file in the save archive.</li>
-
-    </ul>
-
-    </li>
-
-    <li>Fixed: occasional crash when loading NAND saves on the 3DS version of the
-    app.</li>
-
-    <li>Fixed: Checkpoint should not freeze anymore when performing backup or restore
-    operations.</li>
-
-    <li>Fixed: support asian system fonts in the Switch version of the app.
-
-    <ul dir="auto">
-
-    <li>This solves an issue where special characters were not rendered in the UI.</li>
-
-    </ul>
-
-    </li>
-
-    <li>Fixed: add not-empty validation for backup names.</li>
-
-    <li>Fixed: file paths could contain multiple <code class="notranslate">/</code>
-    characters one after the other, causing folder deletion issues.</li>
-
-    <li>Fixed: undefined behaviour when trying to close directories that were not
-    opened.</li>
-
-    <li>Fixed: undefined behaviour could occur when reading a file''s size.</li>
-
-    <li>Fixed: log directory read errors.</li>
-
-    <li>General system stability improvements to enhance the user''s experience.</li>
-
-    </ul>
-
-    <p dir="auto">If you wish to contribute, pull requests are highly appreciated.</p>
-
-    <hr>
-
-
-    <hr>
-
-    <p dir="auto"><a href="https://discord.gg/bGKEyfY" rel="nofollow"><img src="https://camo.githubusercontent.com/4072fe46d2eb0f8f41a49c5795b2b971f9402f61fe2438cf9f2cded9d2af6915/68747470733a2f2f646973636f72646170702e636f6d2f6170692f6775696c64732f3237383232323833343633333830313732382f7769646765742e706e673f7374796c653d62616e6e6572332674696d652d"
-    alt="Discord" data-canonical-src="https://discordapp.com/api/guilds/278222834633801728/widget.png?style=banner3&amp;time-"
-    style="max-width: 100%;"></a></p>'
-  update_notes_md: "This release adds support for previously unsupported save types\
-    \ on the Switch. I didn't have any need to support them at the time because I\
-    \ didn't play any of these kind of games. After all these years, I still don't\
-    \ play them, but I felt it was time to properly support them into Checkpoint.\n\
-    \n**Important notice:** I wasn't able to test backup and/or restore these new\
-    \ save types first-hand. Use the new features carefully and *please* report back!\
-    \ That's why this new version is currently in pre-release.\n\n## What's new\n\n\
-    - Added: **support BCAT saves** on the Switch version of the app.\n- Added: **support\
-    \ device saves** on the Switch version of the app.\n- Added: **support system\
-    \ saves** on the Switch version of the app.\n  - The UI of the app has been slightly\
-    \ upgraded to account for these new save types. \n- Added: per-file progress bar.\n\
-    \  - The UI will now display two progress bars, one for the overall save progress\
-    \ and one for each file in the save archive.\n- Fixed: occasional crash when loading\
-    \ NAND saves on the 3DS version of the app. \n- Fixed: Checkpoint should not freeze\
-    \ anymore when performing backup or restore operations.\n- Fixed: support asian\
-    \ system fonts in the Switch version of the app.\n  - This solves an issue where\
-    \ special characters were not rendered in the UI.  \n- Fixed: add not-empty validation\
-    \ for backup names.\n- Fixed: file paths could contain multiple `/` characters\
-    \ one after the other, causing folder deletion issues.\n- Fixed: undefined behaviour\
-    \ when trying to close directories that were not opened.\n- Fixed: undefined behaviour\
-    \ could occur when reading a file's size.\n- Fixed: log directory read errors.\n\
-    - General system stability improvements to enhance the user's experience.\n\n\
-    If you wish to contribute, pull requests are highly appreciated.\n\n---\n\n<img\
-    \ width=\"218\" height=\"217\" alt=\"Screenshot From 2026-03-12 20-58-51\" src=\"\
-    https://github.com/user-attachments/assets/79d23fc1-e0f4-4171-aaf9-30a219a64006\"\
-    \ />\n\n---\n\n[![Discord](https://discordapp.com/api/guilds/278222834633801728/widget.png?style=banner3&time-)](https://discord.gg/bGKEyfY)\n"
-  updated: '2026-03-12T19:56:00Z'
-  version: v3.12.0
-  version_title: Checkpoint 3.12.0
 qr:
   Checkpoint.cia: https://db.universal-team.net/assets/images/qr/checkpoint-cia.png
 source: https://github.com/BernardoGiordano/Checkpoint
@@ -159,36 +33,73 @@ systems:
 title: Checkpoint
 unique_ids:
 - '0xBCFFF'
-update_notes: '<h2 dir="auto">What''s new</h2>
+update_notes: '<p dir="auto">This release adds support for previously unsupported
+  save types on the Switch. I didn''t have any need to support them at the time because
+  I didn''t play any of these kind of games. After all these years, I still don''t
+  play them, but I felt it was time to properly support them into Checkpoint.</p>
+
+  <p dir="auto"><strong>Important notice:</strong> I wasn''t able to test backup and/or
+  restore these new save types first-hand. Use the new features carefully and <em>please</em>
+  report back! That''s why this new version is currently in pre-release.</p>
+
+  <p dir="auto"><em><strong>2026-04-26 update</strong></em>: I haven''t heard about
+  any regression or issue feedbacks, so I''m changing the status of this version from
+  pre-release to release.</p>
+
+  <h2 dir="auto">What''s new</h2>
 
   <ul dir="auto">
 
-  <li>Added: backup and restore modal UI has been greatly improved with a proper progress
-  bar.</li>
+  <li>Added: <strong>support BCAT saves</strong> on the Switch version of the app.</li>
 
-  <li>Fixed: an issue with title cache persistence preventing new title installations
-  from being recognized from Checkpoint.</li>
+  <li>Added: <strong>support device saves</strong> on the Switch version of the app.</li>
 
-  <li>Fixed: occasional crashes when moving the buttons too fast on the 3DS version
-  of the app.</li>
+  <li>Added: <strong>support system saves</strong> on the Switch version of the app.
 
-  <li>Fixed: an issue with the app freezing when holding B to refresh the title cache.</li>
+  <ul dir="auto">
 
-  <li>Fixed: crash when no titles available on the Switch version of the app.</li>
+  <li>The UI of the app has been slightly upgraded to account for these new save types.</li>
 
-  <li>Fixed: occasional crash when quitting the Switch version of the app.</li>
+  </ul>
 
-  <li>Fixed: name and icon of the selected account not updating on certain conditions.</li>
+  </li>
 
-  <li>Fixed: various memory leaks here and there when disposing the application on
-  quit.</li>
+  <li>Added: per-file progress bar.
 
-  <li>Fixed: properly print strings with percent characters in the logfile.</li>
+  <ul dir="auto">
 
-  <li>Fixed: compiled with latest version of the needed dependencies.</li>
+  <li>The UI will now display two progress bars, one for the overall save progress
+  and one for each file in the save archive.</li>
 
-  <li>Added: cheat database updated to latest <a href="https://github.com/FlagBrew/Sharkive">Sharkive</a>
-  release.</li>
+  </ul>
+
+  </li>
+
+  <li>Fixed: occasional crash when loading NAND saves on the 3DS version of the app.</li>
+
+  <li>Fixed: Checkpoint should not freeze anymore when performing backup or restore
+  operations.</li>
+
+  <li>Fixed: support asian system fonts in the Switch version of the app.
+
+  <ul dir="auto">
+
+  <li>This solves an issue where special characters were not rendered in the UI.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Fixed: add not-empty validation for backup names.</li>
+
+  <li>Fixed: file paths could contain multiple <code class="notranslate">/</code>
+  characters one after the other, causing folder deletion issues.</li>
+
+  <li>Fixed: undefined behaviour when trying to close directories that were not opened.</li>
+
+  <li>Fixed: undefined behaviour could occur when reading a file''s size.</li>
+
+  <li>Fixed: log directory read errors.</li>
 
   <li>General system stability improvements to enhance the user''s experience.</li>
 
@@ -198,9 +109,9 @@ update_notes: '<h2 dir="auto">What''s new</h2>
 
   <hr>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/56727b63-fe5a-4aa2-abd3-45575f7d5ce4"><img
-  width="222" height="224" alt="Schermata del 2026-02-24 22-17-20" src="https://github.com/user-attachments/assets/56727b63-fe5a-4aa2-abd3-45575f7d5ce4"
-  style="max-width: 100%; height: auto; max-height: 224px;; aspect-ratio: 222 / 224;
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/79d23fc1-e0f4-4171-aaf9-30a219a64006"><img
+  width="218" height="217" alt="Screenshot From 2026-03-12 20-58-51" src="https://github.com/user-attachments/assets/79d23fc1-e0f4-4171-aaf9-30a219a64006"
+  style="max-width: 100%; height: auto; max-height: 217px;; aspect-ratio: 218 / 217;
   background-color: var(--bgColor-muted); border-radius: 6px; display: block" class="js-gh-image-fallback"></a>
 
   <hr>
@@ -208,7 +119,7 @@ update_notes: '<h2 dir="auto">What''s new</h2>
   <p dir="auto"><a href="https://discord.gg/bGKEyfY" rel="nofollow"><img src="https://camo.githubusercontent.com/4072fe46d2eb0f8f41a49c5795b2b971f9402f61fe2438cf9f2cded9d2af6915/68747470733a2f2f646973636f72646170702e636f6d2f6170692f6775696c64732f3237383232323833343633333830313732382f7769646765742e706e673f7374796c653d62616e6e6572332674696d652d"
   alt="Discord" data-canonical-src="https://discordapp.com/api/guilds/278222834633801728/widget.png?style=banner3&amp;time-"
   style="max-width: 100%;"></a></p>'
-updated: '2026-02-24T21:16:09Z'
-version: v3.11.0
-version_title: Checkpoint 3.11.0
+updated: '2026-03-12T19:56:00Z'
+version: v3.12.0
+version_title: Checkpoint 3.12.0
 ---

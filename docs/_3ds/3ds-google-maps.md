@@ -23,7 +23,7 @@ layout: app
 license: mit
 license_name: MIT License
 source: https://github.com/Oldhimaster1/3ds-Google-Maps
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: 3ds Google Maps
