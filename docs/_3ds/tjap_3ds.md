@@ -26,11 +26,11 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.2.1
   downloads:
     TJAP_3DS.3dsx:
-      size: 9792204
+      size: 9794176
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.1/TJAP_3DS.3dsx
     TJAP_3DS.cia:
-      size: 9970624
+      size: 9974720
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.1/TJAP_3DS.cia
   qr:
@@ -46,6 +46,8 @@ prerelease:
 
     <li>譜面分岐のタイミングがズレる可能性がある不具合の修正</li>
 
+    <li>0コンボの譜面が再生出来ない可能性のあった不具合の修正</li>
+
     </ul>
 
     <h2 dir="auto">Changelog</h2>
@@ -59,6 +61,8 @@ prerelease:
 
     <li>Fixing a bug that may misset the timing of the score branch</li>
 
+    <li>Fixed a bug that could prevent the playback of songs with 0 combos.</li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
@@ -68,6 +72,8 @@ prerelease:
 
     - 譜面分岐のタイミングがズレる可能性がある不具合の修正
 
+    - 0コンボの譜面が再生出来ない可能性のあった不具合の修正
+
 
     ## Changelog
 
@@ -76,7 +82,9 @@ prerelease:
 
     - Speeding up when drawing notes
 
-    - Fixing a bug that may misset the timing of the score branch'
+    - Fixing a bug that may misset the timing of the score branch
+
+    - Fixed a bug that could prevent the playback of songs with 0 combos.'
   updated: '2026-03-30T07:04:57Z'
   version: v2.2.1
   version_title: TJAPlayer for 3DS v2.2.1
