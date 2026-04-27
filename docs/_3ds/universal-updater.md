@@ -24,24 +24,6 @@ image_length: 24475
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-nightly:
-  download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
-  downloads:
-    Universal-Updater.3dsx:
-      size: 2977028
-      size_str: 2 MiB
-      url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
-    Universal-Updater.cia:
-      size: 2454464
-      size_str: 2 MiB
-      url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
-  qr:
-    Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: <p dir="auto">TWLBot - Automatic translation import</p>
-  update_notes_md: TWLBot - Automatic translation import
-  updated: '2026-04-15T02:06:04Z'
-  version: git
-  version_title: Continuous Build - d04c0ee
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:

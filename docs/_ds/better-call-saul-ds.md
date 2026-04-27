@@ -7,12 +7,6 @@ color: '#3c363d'
 color_bg: '#3c363d'
 created: '2022-08-03T15:01:48Z'
 description: Better Call Saul for the Nintendo DS.
-download_page: https://github.com/WiIIiam278/bcsds/releases
-downloads:
-  bcsds.nds:
-    size: 844800
-    size_str: 825 KiB
-    url: https://github.com/WiIIiam278/BCSDS/releases/download/1.0/bcsds.nds
 github: WiIIiam278/bcsds
 icon: https://db.universal-team.net/assets/images/icons/better-call-saul-ds.png
 image: https://db.universal-team.net/assets/images/icons/better-call-saul-ds.png
@@ -20,8 +14,6 @@ image_length: 630
 layout: app
 license: apache-2.0
 license_name: Apache License 2.0
-qr:
-  bcsds.nds: https://db.universal-team.net/assets/images/qr/bcsds-nds.png
 screenshots:
 - description: Gameplay
   url: https://db.universal-team.net/assets/images/screenshots/better-call-saul-ds/gameplay.png
@@ -32,13 +24,7 @@ stars: 32
 systems:
 - DS
 title: Better Call Saul DS
-update_notes: '<p dir="auto">Initial release.</p>
-
-  <p dir="auto">Recommended emulator is MelonDS with DLDI  enabled in Emulation Settings
-  --&gt; Homebrew.</p>'
-updated: '2022-08-03T15:03:05Z'
-version: '1.0'
-version_title: BCSDS v1.0
+updated: '---'
 website: https://william278.net/project/better-call-saul-ds
 ---
 Better Call Saul for the Nintendo DS.

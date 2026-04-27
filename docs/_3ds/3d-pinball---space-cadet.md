@@ -9,10 +9,10 @@ created: '2021-10-15T11:13:15Z'
 description: Wii and 3DS ports of  3D Pinball - Space Cadet
 download_page: https://github.com/MaikelChan/SpaceCadetPinball/releases
 downloads:
-  SpaceCadetPinball-3DS-v0.6.7z:
-    size: 422160
-    size_str: 412 KiB
-    url: https://github.com/MaikelChan/SpaceCadetPinball/releases/download/v0.6-3ds/SpaceCadetPinball-3DS-v0.6.7z
+  SpaceCadetPinball-Wii-v0.3.7z:
+    size: 649949
+    size_str: 634 KiB
+    url: https://github.com/MaikelChan/SpaceCadetPinball/releases/download/v0.3-wii/SpaceCadetPinball-Wii-v0.3.7z
 github: MaikelChan/SpaceCadetPinball
 icon: https://github.com/MaikelChan/SpaceCadetPinball/raw/3ds/ctr/icon.png
 image: https://github.com/MaikelChan/SpaceCadetPinball/raw/3ds/ctr/banner.png
@@ -37,28 +37,25 @@ update_notes: '<h2 dir="auto">What''s Changed</h2>
 
   <ul dir="auto">
 
-  <li>Replace PC Related text by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/korbosoft/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/korbosoft">@korbosoft</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1141628588"
-  data-permission-text="Title is private" data-url="https://github.com/MaikelChan/SpaceCadetPinball/issues/12"
-  data-hovercard-type="pull_request" data-hovercard-url="/MaikelChan/SpaceCadetPinball/pull/12/hovercard"
-  href="https://github.com/MaikelChan/SpaceCadetPinball/pull/12">#12</a></li>
+  <li>Fixed endianness issues that would break Full Tilt compatibility. Now the Space
+  Cadet table from Full Tilt can be played.</li>
 
-  <li>Add banner Sound Effect for the 3DS home menu by <a class="user-mention notranslate"
+  <li>Make text a bit more fitting for the wii by <a class="user-mention notranslate"
   data-hovercard-type="user" data-hovercard-url="/users/korbosoft/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/korbosoft">@korbosoft</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1241034277"
-  data-permission-text="Title is private" data-url="https://github.com/MaikelChan/SpaceCadetPinball/issues/17"
-  data-hovercard-type="pull_request" data-hovercard-url="/MaikelChan/SpaceCadetPinball/pull/17/hovercard"
-  href="https://github.com/MaikelChan/SpaceCadetPinball/pull/17">#17</a></li>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="1147429900"
+  data-permission-text="Title is private" data-url="https://github.com/MaikelChan/SpaceCadetPinball/issues/13"
+  data-hovercard-type="pull_request" data-hovercard-url="/MaikelChan/SpaceCadetPinball/pull/13/hovercard"
+  href="https://github.com/MaikelChan/SpaceCadetPinball/pull/13">#13</a></li>
+
+  <li>Print some errors on screen to better indicate possible failures.</li>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/MaikelChan/SpaceCadetPinball/compare/v0.5-3ds...v0.6-3ds"><tt>v0.5-3ds...v0.6-3ds</tt></a></p>'
-updated: '2024-02-08T04:33:50Z'
-version: v0.6-3ds
-version_title: v0.6 3DS
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/MaikelChan/SpaceCadetPinball/compare/v0.2-wii...v0.3-wii"><tt>v0.2-wii...v0.3-wii</tt></a></p>'
+updated: '2024-02-08T17:54:03Z'
+version: v0.3-wii
+version_title: v0.3 Wii
 website: https://pacochan.net/software/3d-pinball-space-cadet/
 ---
 # 3D Pinball - Space Cadet for 3DS

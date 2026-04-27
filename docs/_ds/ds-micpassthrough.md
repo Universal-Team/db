@@ -7,12 +7,6 @@ color: '#b54eb5'
 color_bg: '#803780'
 created: '2025-02-10T01:47:37Z'
 description: Pass a Nintendo DS microphone to your PC
-download_page: https://github.com/korbosoft/ds-micpassthrough/releases
-downloads:
-  ds-micpassthrough.nds:
-    size: 179200
-    size_str: 175 KiB
-    url: https://github.com/korbosoft/ds-micpassthrough/releases/download/v2.1.0/ds-micpassthrough.nds
 github: korbosoft/ds-micpassthrough
 icon: https://raw.githubusercontent.com/korbosoft/ds-micpassthrough/main/icon.png
 image: https://raw.githubusercontent.com/korbosoft/ds-micpassthrough/main/icon.png
@@ -20,39 +14,11 @@ image_length: 394
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-prerelease:
-  download_page: https://github.com/korbosoft/ds-micpassthrough/releases/tag/v3.0.0
-  downloads:
-    ds-micpassthrough.nds:
-      size: 89600
-      size_str: 87 KiB
-      url: https://github.com/korbosoft/ds-micpassthrough/releases/download/v3.0.0/ds-micpassthrough.nds
-  qr:
-    ds-micpassthrough.nds: https://db.universal-team.net/assets/images/qr/prerelease/ds-micpassthrough-nds.png
-  update_notes: '<p dir="auto">oh hi blocks ds</p>
-
-    <p dir="auto">everythings now a modified version of the blocksds mic example instead
-    of the devkitpro mic example</p>'
-  update_notes_md: 'oh hi blocks ds
-
-
-    everythings now a modified version of the blocksds mic example instead of the
-    devkitpro mic example
-
-    '
-  updated: '2025-11-09T01:24:42Z'
-  version: v3.0.0
-  version_title: v3.0.0
-qr:
-  ds-micpassthrough.nds: https://db.universal-team.net/assets/images/qr/ds-micpassthrough-nds.png
 source: https://github.com/korbosoft/ds-micpassthrough
 stars: 13
 systems:
 - DS
 title: ds-micpassthrough
-update_notes: <p dir="auto">new icon</p>
-updated: '2025-08-02T04:49:14Z'
-version: v2.1.0
-version_title: v2.1.0
+updated: '---'
 ---
 Pass a Nintendo DS microphone to your PC
