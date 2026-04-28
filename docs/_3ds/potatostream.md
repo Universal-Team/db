@@ -27,7 +27,7 @@ license_name: GNU General Public License v3.0
 qr:
   streampotato.cia: https://db.universal-team.net/assets/images/qr/streampotato-cia.png
 source: https://github.com/PainDe0Mie/PotatoStream
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: PotatoStream

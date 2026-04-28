@@ -18,127 +18,138 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-107-g64d78d7f6
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-117-gf1f841fe7
   downloads:
-    Angband-4.2.6-107-g64d78d7f6-3ds.zip:
-      size: 24671167
+    Angband-4.2.6-117-gf1f841fe7-3ds.zip:
+      size: 24671230
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-107-g64d78d7f6/Angband-4.2.6-107-g64d78d7f6-3ds.zip
-    Angband-4.2.6-107-g64d78d7f6-nds.zip:
-      size: 23329122
+      url: https://github.com/angband/angband/releases/download/4.2.6-117-gf1f841fe7/Angband-4.2.6-117-gf1f841fe7-3ds.zip
+    Angband-4.2.6-117-gf1f841fe7-nds.zip:
+      size: 23328934
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-107-g64d78d7f6/Angband-4.2.6-107-g64d78d7f6-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-117-gf1f841fe7/Angband-4.2.6-117-gf1f841fe7-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>In the classic level generation, reject the level if it has less than 2 rooms
-    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4229053435" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6581"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6581/hovercard"
-    href="https://github.com/angband/angband/pull/6581">#6581</a></li>
-
-    <li>workflows: replace softprops/action-gh-release with gh CLI by <a class="user-mention
+    <li>Plug leak of monster''s shape name if it specifies a monster base by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4233228215" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6583"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6583/hovercard"
-    href="https://github.com/angband/angband/pull/6583">#6583</a></li>
+    data-id="4276108663" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6595"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6595/hovercard"
+    href="https://github.com/angband/angband/pull/6595">#6595</a></li>
 
-    <li>Use sigaction() when available by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/backwardsEric/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4264633977" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6588"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6588/hovercard"
-    href="https://github.com/angband/angband/pull/6588">#6588</a></li>
-
-    <li>Borg refuel lantern out of bounds by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4265067970" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6589"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6589/hovercard"
-    href="https://github.com/angband/angband/pull/6589">#6589</a></li>
-
-    <li>Windows: avoid warning about buffer length with snprintf() by <a class="user-mention
+    <li>Be more specific about the hitpoints drained by Vampire Strike by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4269276751" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6590"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6590/hovercard"
-    href="https://github.com/angband/angband/pull/6590">#6590</a></li>
+    data-id="4285535924" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6596"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6596/hovercard"
+    href="https://github.com/angband/angband/pull/6596">#6596</a></li>
 
-    <li>Reduce msbuild''s warnings about mismatched const qualifiers by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4270896244" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6591"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6591/hovercard"
-    href="https://github.com/angband/angband/pull/6591">#6591</a></li>
-
-    <li>SDL2: use get_caption hook in more places by <a class="user-mention notranslate"
+    <li>Correct out-of-date comment in Makefile.std by <a class="user-mention notranslate"
     data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4271505218" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6592"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6592/hovercard"
-    href="https://github.com/angband/angband/pull/6592">#6592</a></li>
+    data-id="4288139969" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6597"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6597/hovercard"
+    href="https://github.com/angband/angband/pull/6597">#6597</a></li>
 
-    <li>SDL2: add missing checks for memory allocation failures by <a class="user-mention
+    <li>cmake: fix SUPPORT_STATS_BACKEND=ON by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4289006606" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6598"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6598/hovercard"
+    href="https://github.com/angband/angband/pull/6598">#6598</a></li>
+
+    <li>cmake:  macro arguments can not be used as variables with if() by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4271641829" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6593"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6593/hovercard"
-    href="https://github.com/angband/angband/pull/6593">#6593</a></li>
+    data-id="4291212402" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6601"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6601/hovercard"
+    href="https://github.com/angband/angband/pull/6601">#6601</a></li>
 
-    <li>configure: do not suggest --with-no-install when building Windows front end
+    <li>docs:  rearrange compiling instructions by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4292305786" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6602"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6602/hovercard"
+    href="https://github.com/angband/angband/pull/6602">#6602</a></li>
+
+    <li>workflows: hw.activecpu better choice than hw.ncpu for macOS parallel builds
     by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4272260645" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6594"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6594/hovercard"
-    href="https://github.com/angband/angband/pull/6594">#6594</a></li>
+    data-id="4292503565" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6603"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6603/hovercard"
+    href="https://github.com/angband/angband/pull/6603">#6603</a></li>
+
+    <li>cmake: fix copy of generated user manual to the self-contained game by <a
+    class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4292607731" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6604"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6604/hovercard"
+    href="https://github.com/angband/angband/pull/6604">#6604</a></li>
+
+    <li>Add check_break() to help keep the game responsive during long calculations
+    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4298743450" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6607"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6607/hovercard"
+    href="https://github.com/angband/angband/pull/6607">#6607</a></li>
+
+    <li>Expeditiously shut down in response to SIGPWR and SIGDANGER by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4309232351" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6610"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6610/hovercard"
+    href="https://github.com/angband/angband/pull/6610">#6610</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-98-g27e4ce3d7...4.2.6-107-g64d78d7f6"><tt>4.2.6-98-g27e4ce3d7...4.2.6-107-g64d78d7f6</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-107-g64d78d7f6...4.2.6-117-gf1f841fe7"><tt>4.2.6-107-g64d78d7f6...4.2.6-117-gf1f841fe7</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * In the classic level generation, reject the level if it has less than 2 rooms
-    by @backwardsEric in https://github.com/angband/angband/pull/6581
+    * Plug leak of monster''s shape name if it specifies a monster base by @backwardsEric
+    in https://github.com/angband/angband/pull/6595
 
-    * workflows: replace softprops/action-gh-release with gh CLI by @backwardsEric
-    in https://github.com/angband/angband/pull/6583
+    * Be more specific about the hitpoints drained by Vampire Strike by @backwardsEric
+    in https://github.com/angband/angband/pull/6596
 
-    * Use sigaction() when available by @backwardsEric in https://github.com/angband/angband/pull/6588
+    * Correct out-of-date comment in Makefile.std by @backwardsEric in https://github.com/angband/angband/pull/6597
 
-    * Borg refuel lantern out of bounds by @agoodman00 in https://github.com/angband/angband/pull/6589
+    * cmake: fix SUPPORT_STATS_BACKEND=ON by @backwardsEric in https://github.com/angband/angband/pull/6598
 
-    * Windows: avoid warning about buffer length with snprintf() by @backwardsEric
-    in https://github.com/angband/angband/pull/6590
+    * cmake:  macro arguments can not be used as variables with if() by @backwardsEric
+    in https://github.com/angband/angband/pull/6601
 
-    * Reduce msbuild''s warnings about mismatched const qualifiers by @backwardsEric
-    in https://github.com/angband/angband/pull/6591
+    * docs:  rearrange compiling instructions by @backwardsEric in https://github.com/angband/angband/pull/6602
 
-    * SDL2: use get_caption hook in more places by @backwardsEric in https://github.com/angband/angband/pull/6592
+    * workflows: hw.activecpu better choice than hw.ncpu for macOS parallel builds
+    by @backwardsEric in https://github.com/angband/angband/pull/6603
 
-    * SDL2: add missing checks for memory allocation failures by @backwardsEric in
-    https://github.com/angband/angband/pull/6593
+    * cmake: fix copy of generated user manual to the self-contained game by @backwardsEric
+    in https://github.com/angband/angband/pull/6604
 
-    * configure: do not suggest --with-no-install when building Windows front end
-    by @backwardsEric in https://github.com/angband/angband/pull/6594
+    * Add check_break() to help keep the game responsive during long calculations
+    by @backwardsEric in https://github.com/angband/angband/pull/6607
+
+    * Expeditiously shut down in response to SIGPWR and SIGDANGER by @backwardsEric
+    in https://github.com/angband/angband/pull/6610
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-98-g27e4ce3d7...4.2.6-107-g64d78d7f6'
-  updated: '2026-04-21T11:25:38Z'
-  version: 4.2.6-107-g64d78d7f6
-  version_title: 4.2.6-107-g64d78d7f6
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-107-g64d78d7f6...4.2.6-117-gf1f841fe7'
+  updated: '2026-04-28T13:06:31Z'
+  version: 4.2.6-117-gf1f841fe7
+  version_title: 4.2.6-117-gf1f841fe7
 source: https://github.com/angband/angband
 stars: 1503
 systems:
