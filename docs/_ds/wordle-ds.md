@@ -29,6 +29,37 @@ image_length: 3957
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+nightly:
+  download_page: https://github.com/Epicpkmn11/WordleDS/releases/tag/dev
+  downloads:
+    WordleDS.cia:
+      size: 972992
+      size_str: 950 KiB
+      url: https://github.com/Epicpkmn11/WordleDS/releases/download/dev/WordleDS.cia
+    WordleDS.dsi:
+      size: 958400
+      size_str: 935 KiB
+      url: https://github.com/Epicpkmn11/WordleDS/releases/download/dev/WordleDS.dsi
+    WordleDS.nds:
+      size: 958400
+      size_str: 935 KiB
+      url: https://github.com/Epicpkmn11/WordleDS/releases/download/dev/WordleDS.nds
+  qr:
+    WordleDS.cia: https://db.universal-team.net/assets/images/qr/git/wordleds-cia.png
+    WordleDS.dsi: https://db.universal-team.net/assets/images/qr/git/wordleds-dsi.png
+    WordleDS.nds: https://db.universal-team.net/assets/images/qr/git/wordleds-nds.png
+  update_notes: '<p dir="auto">Pk11 - Download word list to RAM if no SD</p>
+
+    <p dir="auto">Fixes melonDS (with DLDI off) and other environments with Wi-Fi
+    but no SD when the words aren''t preloaded</p>'
+  update_notes_md: 'Pk11 - Download word list to RAM if no SD
+
+
+    Fixes melonDS (with DLDI off) and other environments with Wi-Fi but no SD when
+    the words aren''t preloaded'
+  updated: '2026-01-29T07:55:42Z'
+  version: dev
+  version_title: Continuous Build - 6fd6e63
 qr:
   WordleDS.cia: https://db.universal-team.net/assets/images/qr/wordleds-cia.png
   WordleDS.dsi: https://db.universal-team.net/assets/images/qr/wordleds-dsi.png

@@ -7,6 +7,12 @@ color: '#463c35'
 color_bg: '#463c35'
 created: '2016-02-25T20:40:34Z'
 description: Play SNES SPC-dumped files on your 3DS
+download_page: https://github.com/DiscostewSM/blargSpc/releases
+downloads:
+  blargSpc.zip:
+    size: 101793
+    size_str: 99 KiB
+    url: https://github.com/DiscostewSM/blargSpc/releases/download/v0.1/blargSpc.zip
 github: DiscostewSM/blargSpc
 image: https://avatars.githubusercontent.com/u/10163038?v=4&size=128
 image_length: 29061
@@ -19,7 +25,10 @@ stars: 3
 systems:
 - 3DS
 title: blargSpc
-updated: '---'
+update_notes: <p dir="auto">Play SNES SPC-dumped files on your 3DS</p>
+updated: '2016-02-25T20:42:30Z'
+version: v0.1
+version_title: blargSpc
 ---
 BlargSPC is a homebrew SPC player that is capable to play SNES SPC-dumped files on the 3DS. It is based on the SPC/DSP cores og blargSNES.
 

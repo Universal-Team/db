@@ -7,6 +7,12 @@ color: '#716a67'
 color_bg: '#716a67'
 created: '2021-01-11T10:52:27Z'
 description: Ein Ludo klon für den Nintendo DS(i).
+download_page: https://github.com/SuperSaiyajinStackZ/LudoNDS/releases
+downloads:
+  LudoNDS.nds:
+    size: 977920
+    size_str: 955 KiB
+    url: https://github.com/SuperSaiyajinStackZ/LudoNDS/releases/download/v0.1.0/LudoNDS.nds
 github: SuperSaiyajinStackZ/LudoNDS
 icon: https://db.universal-team.net/assets/images/icons/ludonds.png
 image: https://raw.githubusercontent.com/SuperSaiyajinStackZ/LudoNDS/main/Cover_ReadMe.png
@@ -14,6 +20,8 @@ image_length: 65046
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+qr:
+  LudoNDS.nds: https://db.universal-team.net/assets/images/qr/ludonds-nds.png
 screenshots:
 - description: Credits de
   url: https://db.universal-team.net/assets/images/screenshots/ludonds/credits-de.png
@@ -58,7 +66,48 @@ stars: 2
 systems:
 - DS
 title: LudoNDS
-updated: '---'
+update_notes: '<p dir="auto">This is LudoNDS v0.1.0, which is already fully playable
+  and in my opinion already the full version.</p>
+
+  <h2 dir="auto">What has been added?</h2>
+
+  <ul dir="auto">
+
+  <li>
+
+  <p dir="auto">Fully Playable gameplay.</p>
+
+  </li>
+
+  <li>
+
+  <p dir="auto">Gamedata compatibility with <a href="https://github.com/SuperSaiyajinStackZ/Ludo3DS/releases/v0.4.0">Ludo3DS</a>
+  v0.4.0 and <a href="https://supersaiyajinstackz.github.io/LudoJS" rel="nofollow">LudoJS</a>
+  v0.3.0.</p>
+
+  </li>
+
+  <li>
+
+  <p dir="auto">Playable in English and German.</p>
+
+  </li>
+
+  <li>
+
+  <p dir="auto">Pretty much identical UI as <a href="https://github.com/SuperSaiyajinStackZ/Ludo3DS">Ludo3DS</a>
+  with some slight changes.</p>
+
+  </li>
+
+  </ul>
+
+  <p dir="auto">If you would like to see Screenshots, take a look inside the <a href="https://github.com/SuperSaiyajinStackZ/LudoNDS/blob/main/README.md">ReadMe</a>.</p>
+
+  <p dir="auto">Have fun with v0.1.0 of LudoNDS! ~SuperSaiyajinStackZ</p>'
+updated: '2021-01-24T23:00:05Z'
+version: v0.1.0
+version_title: StackDay Release!
 ---
 > The game is playable in Deutsch and English
 

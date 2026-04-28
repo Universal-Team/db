@@ -7,11 +7,24 @@ color: '#897b7b'
 color_bg: '#807272'
 created: '2021-10-13T05:33:14Z'
 description: The lost kitty's saga
+download_page: https://github.com/NotImplementedLife/d-Elusion/releases
+downloads:
+  d-Elusion-no-sound.nds:
+    size: 583680
+    size_str: 570 KiB
+    url: https://github.com/NotImplementedLife/d-Elusion/releases/download/0.3/d-Elusion-no-sound.nds
+  d-Elusion.nds:
+    size: 1780736
+    size_str: 1 MiB
+    url: https://github.com/NotImplementedLife/d-Elusion/releases/download/0.3/d-Elusion.nds
 github: NotImplementedLife/d-Elusion
 icon: https://db.universal-team.net/assets/images/icons/d-elusion.png
 image: https://db.universal-team.net/assets/images/icons/d-elusion.png
 image_length: 630
 layout: app
+qr:
+  d-Elusion-no-sound.nds: https://db.universal-team.net/assets/images/qr/d-elusion-no-sound-nds.png
+  d-Elusion.nds: https://db.universal-team.net/assets/images/qr/d-elusion-nds.png
 screenshots:
 - description: Gameplay 1
   url: https://db.universal-team.net/assets/images/screenshots/d-elusion/gameplay-1.png
@@ -30,7 +43,16 @@ stars: 4
 systems:
 - DS
 title: d-Elusion
-updated: '---'
+update_notes: '<p dir="auto">What''s new</p>
+
+  <ul dir="auto">
+
+  <li>allow access to all levels when save mode is disabled</li>
+
+  </ul>'
+updated: '2022-01-15T10:45:25Z'
+version: '0.3'
+version_title: d-Elusion v0.3
 website: https://notimplementedlife.itch.io/d-elusion
 wiki: https://www.gamebrew.org/wiki/D-Elusion
 ---

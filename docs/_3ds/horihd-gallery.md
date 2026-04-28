@@ -7,6 +7,12 @@ color: '#5f5f5f'
 color_bg: '#5f5f5f'
 created: '2017-08-04T22:17:54Z'
 description: A demonstration of the 800px mode on 3DS consoles.
+download_page: https://github.com/RocketRobz/HoriHD-Gallery/releases
+downloads:
+  HoriHD-Gallery.7z:
+    size: 36652357
+    size_str: 34 MiB
+    url: https://github.com/RocketRobz/HoriHD-Gallery/releases/download/v1.0.2/HoriHD-Gallery.7z
 github: RocketRobz/HoriHD-Gallery
 icon: https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/icon.png
 image: https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/banner.png
@@ -24,6 +30,24 @@ systems:
 title: HoriHD-Gallery
 unique_ids:
 - '0x4809E'
-updated: '---'
+update_notes: '<p dir="auto"><strong>What''s new?</strong></p>
+
+  <ul dir="auto">
+
+  <li>Added toggling between 400px and 800px modes, by pressing SELECT.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Improvement</strong></p>
+
+  <ul dir="auto">
+
+  <li>Added linear filtering in 400px mode (and O2DS consoles), so images don''t look
+  jagged.</li>
+
+  </ul>'
+updated: '2020-06-21T01:28:09Z'
+version: v1.0.2
+version_title: 400/800px release
 ---
 A demonstration of the 800px mode on 3DS consoles. Will not work on O2DS consoles.

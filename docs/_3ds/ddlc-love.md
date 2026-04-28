@@ -9,6 +9,7 @@ color_bg: '#797680'
 created: '2018-04-17T16:27:05Z'
 description: An unofficial Doki Doki Literature Club port to Lua for the PS Vita and
   other game consoles
+download_page: https://github.com/LukeZGD/DDLC-LOVE/releases
 downloads:
   DDLC-3DS.cia:
     size: 83203008
@@ -37,6 +38,41 @@ systems:
 title: DDLC-LOVE
 unique_ids:
 - '0xDDFC'
-updated: '---'
+update_notes: '<p dir="auto"><strong>v1.2.3 Release:</strong></p>
+
+  <ul dir="auto">
+
+  <li>This release is for the PS Vita, PSP, and LÖVE versions. For other systems,
+  <a href="https://github.com/LukeZGD/DDLC-LOVE/releases/tag/v1.1.9">go to v1.1.9</a></li>
+
+  </ul>
+
+  <p dir="auto"><strong>v1.2.3 Changes:</strong></p>
+
+  <ul dir="auto">
+
+  <li>Update script-ch30.lua</li>
+
+  <li>Add back PSP support</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Notes:</strong></p>
+
+  <ul dir="auto">
+
+  <li>Final release. With better ways to play DDLC on Switch and Vita platforms, DDLC-LOVE
+  is no longer needed, and it will not be updated anymore.</li>
+
+  <li>For the PS Vita, I recommend using <a href="https://github.com/SonicMastr/Doki-Doki-Literature-Club-Vita">Doki-Doki-Literature-Club-Vita</a>
+  instead of DDLC-LOVE for the full desktop version (in Ren''Py) with support for
+  mods.</li>
+
+  <li>For the Switch, support Team Salvato and buy DDLC Plus! The original DDLC (in
+  Ren''Py) can also be run with Switchroot Ubuntu or Android with support for mods.</li>
+
+  </ul>'
+updated: '2021-09-16T07:03:42Z'
 version: v1.1.9
+version_title: v1.2.3
 ---
