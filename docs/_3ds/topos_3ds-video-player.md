@@ -11,14 +11,10 @@ description: ' topos — True SBS 3D (and normal 2D) Video Player for 3DS | RGB8
 download_filter: (3dsx|cia)
 download_page: https://github.com/mockmodular/topos_3ds-video-player/releases
 downloads:
-  topos.3dsx:
-    size: 13115228
-    size_str: 12 MiB
-    url: https://github.com/mockmodular/topos_3ds-video-player/releases/download/v0.12.0/topos.3dsx
   topos.cia:
-    size: 9991104
+    size: 9995200
     size_str: 9 MiB
-    url: https://github.com/mockmodular/topos_3ds-video-player/releases/download/v0.12.0/topos.cia
+    url: https://github.com/mockmodular/topos_3ds-video-player/releases/download/0.12.2/topos.cia
 github: mockmodular/topos_3ds-video-player
 icon: https://raw.githubusercontent.com/mockmodular/topos_3ds-video-player/main/resource/icon.png
 image: https://raw.githubusercontent.com/mockmodular/topos_3ds-video-player/main/resource/icon.png
@@ -33,7 +29,7 @@ stars: 6
 systems:
 - 3DS
 title: topos_3ds-video-player
-updated: '2026-04-13T04:58:30Z'
-version: v0.12.0
-version_title: topos_v0.12
+updated: '2026-04-29T16:39:34Z'
+version: 0.12.2
+version_title: 0.12.2
 ---
