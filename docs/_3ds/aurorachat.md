@@ -10,13 +10,13 @@ description: ' Real Time Chatting for the 3DS, Wii, Wii U, and Web'
 download_page: https://github.com/Unitendo/aurorachat/releases
 downloads:
   aurorachat.3dsx:
-    size: 1252740
+    size: 1252792
     size_str: 1 MiB
-    url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.0/aurorachat.3dsx
+    url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.01/aurorachat.3dsx
   aurorachat.cia:
     size: 1762240
     size_str: 1 MiB
-    url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.0/aurorachat.cia
+    url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.01/aurorachat.cia
 github: Unitendo/aurorachat
 icon: https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/icon.png
 image: https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/banner.png
@@ -37,34 +37,16 @@ update_notes: '<h2 dir="auto">Changelog</h2>
 
   <ul dir="auto">
 
-  <li>Rewrote backend and frontend from scratch</li>
+  <li>Make chat history reset when it gets long enough (fixes buffer overflow)</li>
 
-  <li>Switched from SQL to JSON (Man I hate SQL)</li>
+  <li>Ignore null packets (fixes crash that could happen AT ANY TIME and often did)</li>
 
-  <li>Made a sick new GUI</li>
+  <li>Do not put a cast on that one array which turns it into JUST a pointer which
+  creates a memory access violation making the 3DS have a seizure and die</li>
 
-  <li>Fixed numerous other bugs</li>
-
-  </ul>
-
-  <p dir="auto">Screenshots:<br>
-
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/d39f21e8-05f1-4989-8cff-13590dc6e353"><img
-  width="705" height="850" alt="Startup" src="https://github.com/user-attachments/assets/d39f21e8-05f1-4989-8cff-13590dc6e353"
-  style="max-width: 100%; height: auto; max-height: 850px;; aspect-ratio: 705 / 850;
-  background-color: var(--bgColor-muted); border-radius: 6px; display: block" class="js-gh-image-fallback"></a><br>
-
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/838f8d44-2d63-4e89-ab5b-31ddd8bd7cd3"><img
-  width="706" height="850" alt="Account Management" src="https://github.com/user-attachments/assets/838f8d44-2d63-4e89-ab5b-31ddd8bd7cd3"
-  style="max-width: 100%; height: auto; max-height: 850px;; aspect-ratio: 706 / 850;
-  background-color: var(--bgColor-muted); border-radius: 6px; display: block" class="js-gh-image-fallback"></a><br>
-
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/a054a369-8d86-41c1-8be4-23575d19d22f"><img
-  width="709" height="854" alt="Chatting" src="https://github.com/user-attachments/assets/a054a369-8d86-41c1-8be4-23575d19d22f"
-  style="max-width: 100%; height: auto; max-height: 854px;; aspect-ratio: 709 / 854;
-  background-color: var(--bgColor-muted); border-radius: 6px; display: block" class="js-gh-image-fallback"></a></p>'
-updated: '2026-04-29T01:21:08Z'
-version: v0.6.0
-version_title: 'v0.6.0: Brand New Beginnings'
+  </ul>'
+updated: '2026-04-30T01:38:21Z'
+version: v0.6.01
+version_title: 'v0.6.01: Few Fixes'
 ---
 A safer chatting app for the Nintendo 3DS line of systems.
