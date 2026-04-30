@@ -31,7 +31,7 @@ layout: app
 qr:
   ColecoDS.nds: https://db.universal-team.net/assets/images/qr/colecods-nds.png
 source: https://github.com/wavemotion-dave/ColecoDS
-stars: 60
+stars: 61
 systems:
 - DS
 title: ColecoDS
