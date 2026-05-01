@@ -10,29 +10,29 @@ description: An ebook and manga reader for Nintendo 3DS
 download_page: https://github.com/RigleGit/3dslibris/releases
 downloads:
   3dslibris-debug.3dsx:
-    size: 39074264
+    size: 39107068
     size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.0/3dslibris-debug.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.1/3dslibris-debug.3dsx
   3dslibris-debug.cia:
-    size: 39306176
+    size: 39343040
     size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.0/3dslibris-debug.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.1/3dslibris-debug.cia
   3dslibris-sdmc.zip:
     size: 5020623
     size_str: 4 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.0/3dslibris-sdmc.zip
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.1/3dslibris-sdmc.zip
   3dslibris-source.tar.gz:
-    size: 67981241
+    size: 68012962
     size_str: 64 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.0/3dslibris-source.tar.gz
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.1/3dslibris-source.tar.gz
   3dslibris.3dsx:
-    size: 39171284
+    size: 39215780
     size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.0/3dslibris.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.1/3dslibris.3dsx
   3dslibris.cia:
-    size: 39404480
+    size: 39453632
     size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.0/3dslibris.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.1/3dslibris.cia
 github: RigleGit/3dslibris
 icon: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/icon-32x32.png
 image: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/banner.png
@@ -53,168 +53,176 @@ stars: 101
 systems:
 - 3DS
 title: 3dslibris
-update_notes: "<h2 dir=\"auto\">3dslibris 2.6.0</h2>\n<p dir=\"auto\">Navigation improvements\
-  \ and a fast metadata cache.</p>\n<markdown-accessiblity-table><table role=\"table\"\
-  >\n  <tbody><tr>\n<td width=\"33%\"><a target=\"_blank\" rel=\"noopener noreferrer\"\
-  \ href=\"https://github.com/user-attachments/assets/7255a111-9be2-4978-a116-48a2e0b2beef\"\
-  ><img width=\"664\" height=\"553\" alt=\"imagen\" src=\"https://github.com/user-attachments/assets/7255a111-9be2-4978-a116-48a2e0b2beef\"\
-  \ style=\"max-width: 100%; height: auto; max-height: 553px;; aspect-ratio: 664 /\
-  \ 553; background-color: var(--bgColor-muted); border-radius: 6px; display: block\"\
-  \ class=\"js-gh-image-fallback\"></a> </td>\n<td width=\"33%\"><a target=\"_blank\"\
-  \ rel=\"noopener noreferrer\" href=\"https://github.com/user-attachments/assets/9c430418-e116-4dfd-94c8-3088cc2ed80c\"\
-  ><img width=\"664\" height=\"553\" alt=\"imagen\" src=\"https://github.com/user-attachments/assets/9c430418-e116-4dfd-94c8-3088cc2ed80c\"\
-  \ style=\"max-width: 100%; height: auto; max-height: 553px;; aspect-ratio: 664 /\
-  \ 553; background-color: var(--bgColor-muted); border-radius: 6px; display: block\"\
-  \ class=\"js-gh-image-fallback\"></a></td>\n<td width=\"33%\">\n<a target=\"_blank\"\
-  \ rel=\"noopener noreferrer\" href=\"https://github.com/user-attachments/assets/b8c4a8f5-ae48-4e6d-b7a5-b5f33f6b3c61\"\
-  ><img width=\"664\" height=\"553\" alt=\"imagen\" src=\"https://github.com/user-attachments/assets/b8c4a8f5-ae48-4e6d-b7a5-b5f33f6b3c61\"\
-  \ style=\"max-width: 100%; height: auto; max-height: 553px;; aspect-ratio: 664 /\
-  \ 553; background-color: var(--bgColor-muted); border-radius: 6px; display: block\"\
-  \ class=\"js-gh-image-fallback\"></a>\n</td>\n  </tr>\n</tbody></table></markdown-accessiblity-table>\n\
-  <h3 dir=\"auto\">New</h3>\n<ul dir=\"auto\">\n<li><strong>ZL/ZR page flip (New 3DS\
-  \ only)</strong>: ZL advances to the next page (same as R), ZR goes back (same as\
-  \ L). Orientation-aware: the mapping flips automatically when the display is rotated.\
-  \ See <a href=\"https://github.com/RigleGit/3dslibris/issues/63\" data-hovercard-type=\"\
-  issue\" data-hovercard-url=\"/RigleGit/3dslibris/issues/63/hovercard\">#63</a>.</li>\n\
-  <li><strong>D-pad wraps to next/previous page at list boundaries</strong>: in list\
-  \ view, pressing Down on the last item jumps to the next page; pressing Up on the\
-  \ first item jumps to the previous page. In gallery view the same applies column-wise\
-  \ — pressing Right from the right column advances a page, Left from the left column\
-  \ goes back. See <a href=\"https://github.com/RigleGit/3dslibris/issues/64\" data-hovercard-type=\"\
-  issue\" data-hovercard-url=\"/RigleGit/3dslibris/issues/64/hovercard\">#64</a>.</li>\n\
-  <li><strong>Separated Circle Pad and D-pad controls</strong>: reader, browser, and\
-  \ paged menus now use explicit mappings instead of the mixed libctru directional\
-  \ aliases, so Circle Pad and physical D-pad can behave differently where needed.\
-  \ For example, the reader now uses the Circle Pad for smooth panning in fixed-layout\
-  \ formats, while the D-pad retains the original page-turning behaviour. It also\
-  \ supports the New 3DS stick. See <a href=\"https://github.com/RigleGit/3dslibris/issues/57\"\
-  \ data-hovercard-type=\"issue\" data-hovercard-url=\"/RigleGit/3dslibris/issues/57/hovercard\"\
-  >#57</a>.</li>\n<li><strong>Inline internal link navigation</strong>: hold <code\
-  \ class=\"notranslate\">Y</code> on a page with inline links to enter link focus\
-  \ mode, move with the D-pad, and press <code class=\"notranslate\">A</code> to follow\
-  \ the selected link. See <a href=\"https://github.com/RigleGit/3dslibris/issues/27\"\
-  \ data-hovercard-type=\"issue\" data-hovercard-url=\"/RigleGit/3dslibris/issues/27/hovercard\"\
-  >#27</a>.</li>\n<li><strong>Alternative SD data path support</strong>: runtime data\
-  \ can now also be loaded from <code class=\"notranslate\">sdmc:/config/3dslibris</code>\
-  \ in addition to the legacy <code class=\"notranslate\">sdmc:/3ds/3dslibris</code>\
-  \ layout. See <a href=\"https://github.com/RigleGit/3dslibris/issues/6\" data-hovercard-type=\"\
-  issue\" data-hovercard-url=\"/RigleGit/3dslibris/issues/6/hovercard\">#6</a>.</li>\n\
-  <li><strong>Visual feedback</strong>: added \"saving cache...\" status screens during\
-  \ the page cache write phase for EPUB and MOBI, paired with \"loading...\" and the\
-  \ progress indicator during the open phase.</li>\n<li><strong>Reset to defaults</strong>:\
-  \ the <code class=\"notranslate\">GENERAL</code> settings screen now has a <strong>reset\
-  \ settings</strong> option (on page 2, navigate with L/R or the <strong>next</strong>\
-  \ footer button) that restores font size, paragraph spacing, orientation, color\
-  \ mode, clock format, and library view to their factory defaults.</li>\n<li><strong>Clear\
-  \ all caches</strong>: the <code class=\"notranslate\">GENERAL</code> settings screen\
-  \ now has a <strong>clear cache</strong> option (page 2) that deletes all epub,\
-  \ mobi, cover, and metadata disk caches so everything is rebuilt fresh on the next\
-  \ open.</li>\n</ul>\n<h3 dir=\"auto\">Performance</h3>\n<ul dir=\"auto\">\n<li><strong>Metadata\
-  \ disk cache (~60–80× faster per book)</strong>: title, author, and cover path are\
-  \ now written to a small binary cache file (<code class=\"notranslate\">cache/meta/*.bmc</code>)\
-  \ the first time a book is indexed. On subsequent launches the cache is read in\
-  \ ~1–2 ms per book instead of the previous 115–163 ms required to parse the source\
-  \ file. The cache key is derived from the file path, size, and mtime, so stale entries\
-  \ are ignored automatically when the source file changes.</li>\n<li><strong>Library\
-  \ opens fully populated (~300 ms for a 147-book library on warm cache)</strong>:\
-  \ metadata for all books is now pre-loaded from the disk cache during the \"Preparing\
-  \ library...\" phase, before the browser opens. This also means the initial title\
-  \ sort uses real book titles instead of empty strings. On a cold cache, the failed\
-  \ lookups return in under 1 ms each and the behaviour is unchanged.</li>\n<li><strong>Faster\
-  \ first EPUB opens</strong>: first-time EPUB pagination no longer writes the page\
-  \ cache during the spine parse, and common LTR text now uses a lighter shaping path\
-  \ while keeping the full BIDI/Arabic path for RTL content.</li>\n<li><strong>MOBI\
-  \ page cache saves immediately at first open with visual feedback</strong>: MOBI\
-  \ page cache saving no longer blocks at 100% during parsing. The write happens right\
-  \ after parsing completes.</li>\n<li><strong>Page cache saves are really faster\
-  \ for large books</strong>: the SD card write buffer for EPUB and MOBI page caches\
-  \ was increased from 32 KB to 256 KB, reducing the number of physical write operations\
-  \ per save. For a 9,919-page EPUB the cold-cache save time dropped <strong>from\
-  \ ~7 minutes to under 10 seconds (~45× faster)</strong>.</li>\n<li><strong>EPUB\
-  \ cache-hit opens are significantly faster</strong>: the read buffer for EPUB page\
-  \ cache loads was mismatched at 32 KB while writes used 256 KB, causing up to 8×\
-  \ more SD card round trips on every cache-hit open. Both paths now use the same\
-  \ 256 KB buffer.</li>\n<li><strong>EPUB TOC resolution is faster on large books</strong>:\
-  \ the internal href and basename lookup tables used during TOC resolution now use\
-  \ <strong>hash maps instead of sorted trees</strong>, reducing per-entry lookup\
-  \ cost <strong>from O(log N) to O(1)</strong>.</li>\n<li><strong>Bookmark insert\
-  \ no longer sorts the full list</strong>: toggling a bookmark on a page now inserts\
-  \ at the correct sorted position directly (binary search + single insert) instead\
-  \ of appending then sorting the entire bookmark list.</li>\n<li><strong>MOBI text\
-  \ cleanup uses less peak memory</strong>: the mojibake repair pass now moves the\
-  \ text into its safety backup rather than copying it, eliminating one full allocation\
-  \ of the text buffer (~2–3 MB for a large MOBI) at the peak of the cleanup phase.</li>\n\
-  </ul>\n<h3 dir=\"auto\">Fixes</h3>\n<ul dir=\"auto\">\n<li><strong>Homebrew shutdown\
-  \ is now deterministic again</strong>: <code class=\"notranslate\">.3dsx</code>\
-  \ exits now finish app cleanup before terminating through the homebrew-safe path,\
-  \ avoiding the invalid APT shutdown sequence that could still trigger a crash or\
-  \ undefined exit behaviour after the fixes for HOME-time loading. See <a href=\"\
-  https://github.com/RigleGit/3dslibris/issues/58\" data-hovercard-type=\"issue\"\
-  \ data-hovercard-url=\"/RigleGit/3dslibris/issues/58/hovercard\">#58</a>.</li>\n\
-  <li><strong>Async opening progress stays main-thread safe</strong>: the async open\
-  \ state is now installed before the worker is submitted, preventing worker-side\
-  \ progress callbacks from falling back to direct splash rendering.</li>\n<li><strong>Reader\
-  \ images no longer slip under the bottom HUD</strong>: full-page covers and other\
-  \ large inline images now stop at the start of the status bar area, which also avoids\
-  \ some lower-edge content being clipped. See <a href=\"https://github.com/RigleGit/3dslibris/issues/59\"\
-  \ data-hovercard-type=\"issue\" data-hovercard-url=\"/RigleGit/3dslibris/issues/59/hovercard\"\
-  >#59</a>.</li>\n<li><strong>Text alignment is now consistent across EPUB documents</strong>:\
-  \ fixed three independent bugs that caused unreliable text centering and right-alignment\
-  \ — alignment declared via a CSS class was silently ignored; the first line of a\
-  \ paragraph continuing onto a new page lost its alignment and reverted to left;\
-  \ and line-width calculations for center/right positioning were thrown off by inline\
-  \ style tokens (bold/italic toggles, headings, <code class=\"notranslate\">&lt;small&gt;</code>),\
-  \ causing text to appear at the wrong horizontal offset. See <a href=\"https://github.com/RigleGit/3dslibris/issues/66\"\
-  \ data-hovercard-type=\"issue\" data-hovercard-url=\"/RigleGit/3dslibris/issues/66/hovercard\"\
-  >#66</a>.</li>\n<li><strong>EPUB headings now honor CSS font sizes and wrap correctly</strong>:\
-  \ <code class=\"notranslate\">h1</code>-<code class=\"notranslate\">h6</code> now\
-  \ respect heading-specific <code class=\"notranslate\">font-size</code> styling\
-  \ from inline CSS and stylesheet classes, including relative units, and large headings\
-  \ paginate without corrupting line breaks or leaking their size/bold styling into\
-  \ the following paragraph. The same EPUB CSS class map path now also applies <code\
-  \ class=\"notranslate\">vertical-align: super/sub</code> rules declared in stylesheet\
-  \ classes, so superscript and subscript styling no longer depends on inline markup\
-  \ alone. See <a href=\"https://github.com/RigleGit/3dslibris/issues/46\" data-hovercard-type=\"\
-  issue\" data-hovercard-url=\"/RigleGit/3dslibris/issues/46/hovercard\">#46</a>.</li>\n\
-  <li><strong>EPUB lists now respect CSS marker suppression on <code class=\"notranslate\"\
-  >&lt;li&gt;</code> items</strong>: list bullets/ordinals are now correctly hidden\
-  \ when <code class=\"notranslate\">list-style-type: none</code> is declared through\
-  \ stylesheet classes on the list item itself, instead of only through inherited\
-  \ parent-list context. See <a href=\"https://github.com/RigleGit/3dslibris/issues/48\"\
-  \ data-hovercard-type=\"issue\" data-hovercard-url=\"/RigleGit/3dslibris/issues/48/hovercard\"\
-  >#48</a>.</li>\n</ul>\n<h3 dir=\"auto\">Packaging</h3>\n<ul dir=\"auto\">\n<li><strong>SD\
-  \ data compatibility</strong>: installs that keep data under <code class=\"notranslate\"\
-  >sdmc:/config/3dslibris</code> are now supported alongside the existing <code class=\"\
-  notranslate\">sdmc:/3ds/3dslibris</code> layout. See <a href=\"https://github.com/RigleGit/3dslibris/issues/6\"\
-  \ data-hovercard-type=\"issue\" data-hovercard-url=\"/RigleGit/3dslibris/issues/6/hovercard\"\
-  >#6</a>.</li>\n</ul>\n<hr>\n<h2 dir=\"auto\">❤️ Community Shoutouts</h2>\n<p dir=\"\
-  auto\">3dslibris wouldn't be the same without your support! This version is dedicated\
-  \ to:</p>\n<ul dir=\"auto\">\n<li><strong>Fueling the Code:</strong> A special thank\
-  \ you to my <strong>Ko-fi supporters</strong>. Your donations help keep the project\
-  \ going and keep me caffeinated!</li>\n<li><strong>Enhancement Ideas:</strong> Thanks\
-  \ to <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"\
-  /users/Kr0Key/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"\
-  link_type:self\" href=\"https://github.com/Kr0Key\">@Kr0Key</a>, <a class=\"user-mention\
-  \ notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/Narwher/hovercard\"\
-  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
-  \ href=\"https://github.com/Narwher\">@Narwher</a>,  <a class=\"user-mention notranslate\"\
-  \ data-hovercard-type=\"user\" data-hovercard-url=\"/users/EmbersFlying/hovercard\"\
-  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
-  \ href=\"https://github.com/EmbersFlying\">@EmbersFlying</a> and <a class=\"user-mention\
-  \ notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/The0zymandias/hovercard\"\
-  \ data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\"\
-  \ href=\"https://github.com/The0zymandias\">@The0zymandias</a> for their suggestions\
-  \ and feedback that helped shape this release.</li>\n</ul>\n<p dir=\"auto\"><em>Want\
-  \ to support the project? Consider leaving a ⭐ on GitHub or <a href=\"https://ko-fi.com/rigle\"\
-  \ rel=\"nofollow\">buying me a coffee</a>!</em></p>\n<h3 dir=\"auto\">Included assets</h3>\n\
-  <ul dir=\"auto\">\n<li><code class=\"notranslate\">3dslibris.cia</code></li>\n<li><code\
-  \ class=\"notranslate\">3dslibris-debug.cia</code></li>\n<li><code class=\"notranslate\"\
-  >3dslibris.3dsx</code></li>\n<li><code class=\"notranslate\">3dslibris-debug.3dsx</code></li>\n\
-  <li><code class=\"notranslate\">3dslibris-sdmc.zip</code> (runtime files only; pair\
-  \ it with the <code class=\"notranslate\">.3dsx</code> asset for Homebrew Launcher\
-  \ installs)</li>\n<li><code class=\"notranslate\">3dslibris-source.tar.gz</code></li>\n\
+update_notes: "<h2 dir=\"auto\">3dslibris 2.6.1</h2>\n<p dir=\"auto\">Accessibility,\
+  \ inline-link, CSS improvements, stability fixes, and CBZ chapter index support.</p>\n\
+  <markdown-accessiblity-table><table role=\"table\">\n  <tbody><tr>\n<td width=\"\
+  50%\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/user-attachments/assets/051a6fd1-b443-449e-8b30-61e9ad2f08cc\"\
+  ><img width=\"660\" height=\"551\" alt=\"Image1\" src=\"https://github.com/user-attachments/assets/051a6fd1-b443-449e-8b30-61e9ad2f08cc\"\
+  \ style=\"max-width: 100%; height: auto; max-height: 551px;; aspect-ratio: 660 /\
+  \ 551; background-color: var(--bgColor-muted); border-radius: 6px; display: block\"\
+  \ class=\"js-gh-image-fallback\"></a></td>\n<td width=\"50%\"><a target=\"_blank\"\
+  \ rel=\"noopener noreferrer\" href=\"https://github.com/user-attachments/assets/9f1b6e6b-9b4b-4f43-bcc8-99ad36d80d03\"\
+  ><img width=\"660\" height=\"551\" alt=\"Image2\" src=\"https://github.com/user-attachments/assets/9f1b6e6b-9b4b-4f43-bcc8-99ad36d80d03\"\
+  \ style=\"max-width: 100%; height: auto; max-height: 551px;; aspect-ratio: 660 /\
+  \ 551; background-color: var(--bgColor-muted); border-radius: 6px; display: block\"\
+  \ class=\"js-gh-image-fallback\"></a></td>\n  </tr>\n<tr>\n<td width=\"50%\"><a\
+  \ target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/user-attachments/assets/cad89fbb-b401-44e1-9116-07bd7d119338\"\
+  ><img width=\"660\" height=\"551\" alt=\"Image4\" src=\"https://github.com/user-attachments/assets/cad89fbb-b401-44e1-9116-07bd7d119338\"\
+  \ style=\"max-width: 100%; height: auto; max-height: 551px;; aspect-ratio: 660 /\
+  \ 551; background-color: var(--bgColor-muted); border-radius: 6px; display: block\"\
+  \ class=\"js-gh-image-fallback\"></a></td>\n<td width=\"50%\"><a target=\"_blank\"\
+  \ rel=\"noopener noreferrer\" href=\"https://github.com/user-attachments/assets/60eebdfc-bce6-41e4-8715-248ba566681d\"\
+  ><img width=\"660\" height=\"551\" alt=\"Imag3\" src=\"https://github.com/user-attachments/assets/60eebdfc-bce6-41e4-8715-248ba566681d\"\
+  \ style=\"max-width: 100%; height: auto; max-height: 551px;; aspect-ratio: 660 /\
+  \ 551; background-color: var(--bgColor-muted); border-radius: 6px; display: block\"\
+  \ class=\"js-gh-image-fallback\"></a></td>\n</tr>\n</tbody></table></markdown-accessiblity-table>\n\
+  <h3 dir=\"auto\">New</h3>\n<ul dir=\"auto\">\n<li><strong>CBZ <code class=\"notranslate\"\
+  >ComicInfo.xml</code> chapter index</strong>: <code class=\"notranslate\">.cbz</code>\
+  \ files that include a <code class=\"notranslate\">ComicInfo.xml</code> file (as\
+  \ embedded by tools such as ComicTagger) now expose a table of contents. Pages with\
+  \ a <code class=\"notranslate\">Bookmark</code> attribute in the <code class=\"\
+  notranslate\">&lt;Pages&gt;</code> section appear as named chapters in the index\
+  \ menu. Files without <code class=\"notranslate\">ComicInfo.xml</code> or without\
+  \ bookmarks are unaffected. See <a href=\"https://github.com/RigleGit/3dslibris/issues/67\"\
+  \ data-hovercard-type=\"issue\" data-hovercard-url=\"/RigleGit/3dslibris/issues/67/hovercard\"\
+  >#67</a>.</li>\n</ul>\n<h3 dir=\"auto\">Community</h3>\n<ul dir=\"auto\">\n<li><strong>GitHub\
+  \ Discussions is now open</strong>: questions, bug triage, ideas, and development\
+  \ discussion have a dedicated space at <a href=\"https://github.com/RigleGit/3dslibris/discussions\"\
+  >github.com/RigleGit/3dslibris/discussions</a>. The bug triage category includes\
+  \ a structured form that collects version, console model, format, and reproduction\
+  \ steps to make debugging easier.</li>\n</ul>\n<h3 dir=\"auto\">Fixes &amp; Improvements</h3>\n\
+  <ul dir=\"auto\">\n<li><strong>Inline links are visible while reading</strong>:\
+  \ internal EPUB links are now rendered in blue at all times, using a dark blue on\
+  \ light themes and a light blue on dark themes. See <a href=\"https://github.com/RigleGit/3dslibris/issues/69\"\
+  \ data-hovercard-type=\"issue\" data-hovercard-url=\"/RigleGit/3dslibris/issues/69/hovercard\"\
+  >#69</a>.</li>\n<li><strong>Link Mode can move across pages</strong>: while holding\
+  \ <code class=\"notranslate\">Y</code> to use Link Mode, <code class=\"notranslate\"\
+  >D-Pad Right</code> now moves to the next inline link and <code class=\"notranslate\"\
+  >D-Pad Left</code> moves to the previous inline link, continuing onto nearby pages\
+  \ when needed. <code class=\"notranslate\">D-Pad Up/Down</code> still keep the existing\
+  \ spatial navigation within the current page. See <a href=\"https://github.com/RigleGit/3dslibris/issues/69\"\
+  \ data-hovercard-type=\"issue\" data-hovercard-url=\"/RigleGit/3dslibris/issues/69/hovercard\"\
+  >#69</a>.</li>\n<li><strong>EPUB raster images no longer turn into <code class=\"\
+  notranslate\">[illustration]</code> after cache rebuilds</strong>. See <a href=\"\
+  https://github.com/RigleGit/3dslibris/issues/70\" data-hovercard-type=\"issue\"\
+  \ data-hovercard-url=\"/RigleGit/3dslibris/issues/70/hovercard\">#70</a>.</li>\n\
+  <li><strong>EPUB centered block text is aligned correctly again</strong>: <code\
+  \ class=\"notranslate\">text-align</code> on block containers such as <code class=\"\
+  notranslate\">body</code>, <code class=\"notranslate\">div</code>, <code class=\"\
+  notranslate\">section</code>, and <code class=\"notranslate\">display:block</code>\
+  \ elements is now applied to the text inside them and inherited by child paragraphs/headings\
+  \ unless they override it. See <a href=\"https://github.com/RigleGit/3dslibris/issues/71\"\
+  \ data-hovercard-type=\"issue\" data-hovercard-url=\"/RigleGit/3dslibris/issues/71/hovercard\"\
+  >#71</a>.</li>\n<li><strong>EPUB ornament images now render at their intended size</strong>:\
+  \ inline images with an explicit <code class=\"notranslate\">width=\"X%\"</code>\
+  \ attribute or a CSS <code class=\"notranslate\">width: X%</code> style are now\
+  \ capped to that fraction of the text area rather than stretching to full width.\
+  \ Ornaments such as decorative separators, stars, and bars that are authored at\
+  \ a small percentage of the line width now appear at that size instead of occupying\
+  \ the entire screen. See <a href=\"https://github.com/RigleGit/3dslibris/issues/74\"\
+  \ data-hovercard-type=\"issue\" data-hovercard-url=\"/RigleGit/3dslibris/issues/74/hovercard\"\
+  >#74</a>.</li>\n<li><strong>CSS <code class=\"notranslate\">page-break-before: always</code>\
+  \ is now respected</strong>: block elements with <code class=\"notranslate\">page-break-before:\
+  \ always</code> (or the CSS3 equivalent <code class=\"notranslate\">break-before:\
+  \ page</code>) in their inline <code class=\"notranslate\">style=</code> attribute\
+  \ or stylesheet class now force content onto a new page, as intended by EPUB authors.\
+  \ <code class=\"notranslate\">page-break-after: always</code> is also supported.\
+  \ See <a href=\"https://github.com/RigleGit/3dslibris/issues/72\" data-hovercard-type=\"\
+  issue\" data-hovercard-url=\"/RigleGit/3dslibris/issues/72/hovercard\">#72</a>.</li>\n\
+  <li><strong>CSS <code class=\"notranslate\">page-break-inside: avoid</code> is now\
+  \ respected</strong>: blocks marked with <code class=\"notranslate\">page-break-inside:\
+  \ avoid</code> (or <code class=\"notranslate\">break-inside: avoid</code>) are kept\
+  \ together and will not be split across two pages.</li>\n<li><strong>More CSS properties\
+  \ are now applied from stylesheets</strong>: EPUB stylesheets can now control <code\
+  \ class=\"notranslate\">text-decoration: none</code> (suppress underline on an element),\
+  \ <code class=\"notranslate\">font-weight: normal/lighter/100–500</code> (reset\
+  \ inherited bold), <code class=\"notranslate\">font-style: normal</code> (reset\
+  \ inherited italic), <code class=\"notranslate\">font-size</code> with <code class=\"\
+  notranslate\">pt</code> units and absolute keywords (<code class=\"notranslate\"\
+  >xx-small</code> through <code class=\"notranslate\">xx-large</code>), and <code\
+  \ class=\"notranslate\">margin-top</code>/<code class=\"notranslate\">margin-bottom</code>\
+  \ with <code class=\"notranslate\">em</code>, <code class=\"notranslate\">rem</code>,\
+  \ and <code class=\"notranslate\">pt</code> units. Both inline <code class=\"notranslate\"\
+  >style=</code> attributes and class rules are recognised.</li>\n<li><strong>CSS\
+  \ horizontal margins are now applied</strong>: <code class=\"notranslate\">margin-left</code>\
+  \ and <code class=\"notranslate\">margin-right</code> on EPUB block elements now\
+  \ affect both wrapping width and visible line starts, including stylesheet classes,\
+  \ percentages, shorthand margins, and negative values.</li>\n<li><strong>CSS <code\
+  \ class=\"notranslate\">text-indent</code> and <code class=\"notranslate\">text-transform</code>\
+  \ are now applied</strong>: <code class=\"notranslate\">text-indent</code> controls\
+  \ the first-line paragraph indent; a CSS value overrides the default indent, and\
+  \ a negative or zero value suppresses it entirely. <code class=\"notranslate\">text-transform:\
+  \ uppercase</code>, <code class=\"notranslate\">lowercase</code>, and <code class=\"\
+  notranslate\">capitalize</code> transform text casing at parse time, and transformed\
+  \ inline spans are measured before line wrapping so they no longer overflow or get\
+  \ clipped. See <a href=\"https://github.com/RigleGit/3dslibris/issues/73\" data-hovercard-type=\"\
+  issue\" data-hovercard-url=\"/RigleGit/3dslibris/issues/73/hovercard\">#73</a>.</li>\n\
+  <li><strong>CSS <code class=\"notranslate\">text-align: start</code> and <code class=\"\
+  notranslate\">text-align: end</code> are now supported</strong>.</li>\n<li><strong>CSS\
+  \ <code class=\"notranslate\">white-space</code> modes are now respected</strong>:\
+  \ <code class=\"notranslate\">pre</code>, <code class=\"notranslate\">pre-wrap</code>,\
+  \ <code class=\"notranslate\">pre-line</code>, and <code class=\"notranslate\">nowrap</code>\
+  \ control whitespace and line-break preservation in EPUB content, so code blocks\
+  \ and preformatted passages render as the author intended. On the 3DS screen, <code\
+  \ class=\"notranslate\">nowrap</code> still wraps when needed after collapsing spaces\
+  \ so long lines remain readable.</li>\n<li><strong>CSS <code class=\"notranslate\"\
+  >float</code> and <code class=\"notranslate\">clear</code> are now applied to images</strong>:\
+  \ <code class=\"notranslate\">float: left</code> pins an image to the left margin\
+  \ and <code class=\"notranslate\">float: right</code> pins it to the right margin.\
+  \ <code class=\"notranslate\">clear: both</code>, <code class=\"notranslate\">clear:\
+  \ left</code>, and <code class=\"notranslate\">clear: right</code> force a line\
+  \ break before the clearing element. <strong>Text wrapping around floated images\
+  \ is not yet supported</strong>; the image occupies its own band and following content\
+  \ begins below it. Parser and renderer now share the same floated-image layout override,\
+  \ so small floated ornaments no longer render inline after pagination treated them\
+  \ as block bands.</li>\n<li><strong>Nested EPUB lists are visually indented</strong>:\
+  \ second- and third-level ordered or unordered lists now shift their markers and\
+  \ wrapped lines inward, making nested bullets, alphabetic lists, and roman-numeral\
+  \ sublists distinguishable on screen.</li>\n<li><strong>Inline <code class=\"notranslate\"\
+  >font-size</code> and <code class=\"notranslate\">&lt;small&gt;</code>/<code class=\"\
+  notranslate\">&lt;big&gt;</code> tags are now rendered</strong>: any element with\
+  \ a CSS <code class=\"notranslate\">font-size</code>, via inline <code class=\"\
+  notranslate\">style=</code> or a stylesheet class, renders text at the specified\
+  \ size. The <code class=\"notranslate\">&lt;small&gt;</code> tag applies the <code\
+  \ class=\"notranslate\">smaller</code> scale factor (~83% of the current size) and\
+  \ <code class=\"notranslate\">&lt;big&gt;</code> applies <code class=\"notranslate\"\
+  >larger</code> (~120%). All units are supported: <code class=\"notranslate\">px</code>,\
+  \ <code class=\"notranslate\">em</code>, <code class=\"notranslate\">rem</code>,\
+  \ <code class=\"notranslate\">pt</code>, <code class=\"notranslate\">%</code>, <code\
+  \ class=\"notranslate\">smaller</code>, <code class=\"notranslate\">larger</code>,\
+  \ and the absolute keywords <code class=\"notranslate\">xx-small</code> through\
+  \ <code class=\"notranslate\">xx-large</code>. The size is restored correctly when\
+  \ the element closes, and page breaks mid-element are handled. See <a href=\"https://github.com/RigleGit/3dslibris/issues/75\"\
+  \ data-hovercard-type=\"issue\" data-hovercard-url=\"/RigleGit/3dslibris/issues/75/hovercard\"\
+  >#75</a>.</li>\n<li><strong>HOME Menu no longer crashes after returning to the library\
+  \ (I hope)</strong>: pressing HOME or powering off after leaving a book no longer\
+  \ crashes the HOME Menu process. Three issues were fixed. See <a href=\"https://github.com/RigleGit/3dslibris/issues/68\"\
+  \ data-hovercard-type=\"issue\" data-hovercard-url=\"/RigleGit/3dslibris/issues/68/hovercard\"\
+  >#68</a>.\n<ul dir=\"auto\">\n<li>Preferences were being written to the SD card\
+  \ inside an APT hook callback, blocking the HOME Menu's acknowledgment window;</li>\n\
+  <li>the PDF and CBZ background-render workers could free memory still in use by\
+  \ a render thread (use-after-free);</li>\n<li>and switching from a PDF/CBZ book\
+  \ to the library now cancels any in-progress background render before the browser\
+  \ starts new work.</li>\n</ul>\n</li>\n</ul>\n<hr>\n<h2 dir=\"auto\">❤️ Community\
+  \ Shoutouts</h2>\n<p dir=\"auto\">3dslibris wouldn't be the same without your support!\
+  \ This version is dedicated to:</p>\n<ul dir=\"auto\">\n<li>\n<p dir=\"auto\"><strong>Bug\
+  \ triaging</strong>: Thanks to <a class=\"user-mention notranslate\" data-hovercard-type=\"\
+  user\" data-hovercard-url=\"/users/EmbersFlying/hovercard\" data-octo-click=\"hovercard-link-click\"\
+  \ data-octo-dimensions=\"link_type:self\" href=\"https://github.com/EmbersFlying\"\
+  >@EmbersFlying</a> for testing and reporting multiple issues that were fixed (or\
+  \ at least tried) in this release.</p>\n</li>\n<li>\n<p dir=\"auto\"><strong>Fueling\
+  \ the Code:</strong> A special thank you to my <strong>Ko-fi supporters</strong>.\
+  \ Your donations help keep the project going and keep me caffeinated!</p>\n</li>\n\
+  </ul>\n<p dir=\"auto\"><em>Want to support the project? Consider leaving a ⭐ on\
+  \ GitHub or <a href=\"https://ko-fi.com/rigle\" rel=\"nofollow\">buying me a coffee</a>!</em></p>\n\
+  <h3 dir=\"auto\">Included assets</h3>\n<ul dir=\"auto\">\n<li><code class=\"notranslate\"\
+  >3dslibris.cia</code></li>\n<li><code class=\"notranslate\">3dslibris-debug.cia</code></li>\n\
+  <li><code class=\"notranslate\">3dslibris.3dsx</code></li>\n<li><code class=\"notranslate\"\
+  >3dslibris-debug.3dsx</code></li>\n<li><code class=\"notranslate\">3dslibris-sdmc.zip</code>\
+  \ (runtime files only; pair it with the <code class=\"notranslate\">.3dsx</code>\
+  \ asset for Homebrew Launcher installs)</li>\n<li><code class=\"notranslate\">3dslibris-source.tar.gz</code></li>\n\
   </ul>"
-updated: '2026-04-28T08:36:06Z'
-version: v2.6.0
-version_title: v2.6.0
+updated: '2026-05-01T11:59:11Z'
+version: v2.6.1
+version_title: v2.6.1
 ---
