@@ -10,13 +10,13 @@ description: ' Real Time Chatting for the 3DS, Wii, Wii U, and Web'
 download_page: https://github.com/Unitendo/aurorachat/releases
 downloads:
   aurorachat.3dsx:
-    size: 1252792
+    size: 1253240
     size_str: 1 MiB
-    url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.01/aurorachat.3dsx
+    url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.02/aurorachat.3dsx
   aurorachat.cia:
     size: 1762240
     size_str: 1 MiB
-    url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.01/aurorachat.cia
+    url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.02/aurorachat.cia
 github: Unitendo/aurorachat
 icon: https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/icon.png
 image: https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/banner.png
@@ -37,16 +37,17 @@ update_notes: '<h2 dir="auto">Changelog</h2>
 
   <ul dir="auto">
 
-  <li>Make chat history reset when it gets long enough (fixes buffer overflow)</li>
+  <li>Fixed an issue where messages would not be sent</li>
 
-  <li>Ignore null packets (fixes crash that could happen AT ANY TIME and often did)</li>
+  <li>Fixed an issue where the server being busy would result in the client crashing</li>
 
-  <li>Do not put a cast on that one array which turns it into JUST a pointer which
-  creates a memory access violation making the 3DS have a seizure and die</li>
+  <li>Fixed an issue where a message that was missing a field could crash any system</li>
+
+  <li>Server-side fixes</li>
 
   </ul>'
-updated: '2026-04-30T01:38:21Z'
-version: v0.6.01
-version_title: 'v0.6.01: Few Fixes'
+updated: '2026-05-01T16:56:27Z'
+version: v0.6.02
+version_title: 'v0.6.02: A Quick Patch'
 ---
 A safer chatting app for the Nintendo 3DS line of systems.
