@@ -10,7 +10,7 @@ description: ' Real Time Chatting for the 3DS, Wii, Wii U, and Web'
 download_page: https://github.com/Unitendo/aurorachat/releases
 downloads:
   aurorachat.3dsx:
-    size: 1253240
+    size: 1252772
     size_str: 1 MiB
     url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.02/aurorachat.3dsx
   aurorachat.cia:
