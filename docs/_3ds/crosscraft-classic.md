@@ -1,5 +1,5 @@
 ---
-author: Cross Craft Team
+author: CrossCraft
 avatar: https://avatars.githubusercontent.com/u/75173998?v=4
 categories:
 - game
