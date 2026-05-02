@@ -12,9 +12,9 @@ download_filter: (3dsx|cia)
 download_page: https://github.com/mockmodular/topos_3ds-video-player/releases
 downloads:
   topos.cia:
-    size: 9978816
+    size: 9974720
     size_str: 9 MiB
-    url: https://github.com/mockmodular/topos_3ds-video-player/releases/download/0.12.3/topos.cia
+    url: https://github.com/mockmodular/topos_3ds-video-player/releases/download/0.12.3.1/topos.cia
 github: mockmodular/topos_3ds-video-player
 icon: https://raw.githubusercontent.com/mockmodular/topos_3ds-video-player/main/resource/icon.png
 image: https://raw.githubusercontent.com/mockmodular/topos_3ds-video-player/main/resource/icon.png
@@ -29,6 +29,7 @@ stars: 8
 systems:
 - 3DS
 title: topos_3ds-video-player
-updated: '2026-05-02T01:01:43Z'
-version: 0.12.3
+updated: '2026-05-02T09:47:52Z'
+version: 0.12.3.1
+version_title: 0.12.3.1
 ---
