@@ -28,7 +28,11 @@ prerelease:
       size: 23328934
       size_str: 22 MiB
       url: https://github.com/angband/angband/releases/download/4.2.6-117-gf1f841fe7/Angband-4.2.6-117-gf1f841fe7-nds.zip
-  update_notes: '<h2 dir="auto">What''s Changed</h2>
+  update_notes: '<p dir="auto">Because of a bug in the check_break() changes, this
+    release will hang if there is input queued while it is the monsters'' turn to
+    act or when generating a new level.  Use one of the other prereleases instead.</p>
+
+    <h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
@@ -115,7 +119,12 @@ prerelease:
     </ul>
 
     <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-107-g64d78d7f6...4.2.6-117-gf1f841fe7"><tt>4.2.6-107-g64d78d7f6...4.2.6-117-gf1f841fe7</tt></a></p>'
-  update_notes_md: '## What''s Changed
+  update_notes_md: 'Because of a bug in the check_break() changes, this release will
+    hang if there is input queued while it is the monsters'' turn to act or when generating
+    a new level.  Use one of the other prereleases instead.
+
+
+    ## What''s Changed
 
     * Plug leak of monster''s shape name if it specifies a monster base by @backwardsEric
     in https://github.com/angband/angband/pull/6595
