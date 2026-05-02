@@ -25,7 +25,7 @@ license_name: GNU General Public License v3.0
 qr:
   topos.cia: https://db.universal-team.net/assets/images/qr/topos-cia.png
 source: https://github.com/mockmodular/topos_3ds-video-player
-stars: 7
+stars: 8
 systems:
 - 3DS
 title: topos_3ds-video-player
