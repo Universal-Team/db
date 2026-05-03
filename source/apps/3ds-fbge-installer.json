@@ -1,0 +1,15 @@
+{
+	"github": "AtexBg/fbge-installer",
+	"title": "3DS-FBGE Installer",
+	"description": "A simple tool to install the 3DS-FBGE program on the 3DS (Linux package partially included)",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon": "https://raw.githubusercontent.com/AtexBg/fbge-installer/refs/heads/main/icon.png",
+	"image": "https://raw.githubusercontent.com/AtexBg/fbge-installer/refs/heads/main/pictures/banner_upscaled.png",
+	"long_description": "A simple tool which helps to install and use the 3DS-FBGE (3ds-FrameBufferGraphicalEnvironnement) binaries on the 3DS and inclues the needed files from the Linux3DS package. ",
+	"script_message": "Don't forget to read the \"Help\" section upon launching the program"
+}
