@@ -33,13 +33,19 @@ stars: 1
 systems:
 - 3DS
 title: 3DS-FBGE Installer
-update_notes: '<blockquote>
+update_notes: '<p dir="auto">The 3ds-fbge program (short for 3ds-FrameBufferGraphicalEnvironnement)
+  is a custom desktop/GUI meant to be used with the 3DS running Linux. This app will
+  install and setup everything needed for the program to work and will give details
+  about the usage in the "help" menu.<br>
 
-  <p dir="auto">Note: This is not the 0.6.0 version of <strong>THE INSTALLER</strong>,
-  it''s just that the 0.6.0 version <strong>OF 3DS-FBGE ITSELF</strong> is embed inside
-  the installer, tho it will be updated alongside the main project if needed</p>
+  (btw the program will shows errors after booting everything about a missing <code
+  class="notranslate">img.ext4</code> file, it''s totally normal and doesn''t affect
+  how the DE works)</p>
 
-  </blockquote>'
+  <p dir="auto">First version of the app, but has 3ds-fbge version 0.6.0 embed inside.</p>
+
+  <p dir="auto">Go read <a href="https://github.com/AtexBg/3ds-fbge">https://github.com/AtexBg/3ds-fbge</a>
+  for more details</p>'
 updated: '2026-05-01T16:06:09Z'
 version: 0.6.0
 version_title: 0.6.0
