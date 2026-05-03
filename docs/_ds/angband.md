@@ -160,7 +160,7 @@ prerelease:
   version: 4.2.6-117-gf1f841fe7
   version_title: 4.2.6-117-gf1f841fe7
 source: https://github.com/angband/angband
-stars: 1504
+stars: 1505
 systems:
 - 3DS
 - DS
