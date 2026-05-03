@@ -1,0 +1,15 @@
+{
+	"github": "Sunrase/AudioSwitcher3ds",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon": "https://raw.githubusercontent.com/Sunrase/AudioSwitcher3ds/refs/heads/main/icon.png",
+	"image": "https://raw.githubusercontent.com/Sunrase/AudioSwitcher3ds/refs/heads/main/banner.png",
+	"unique_ids": [
+		44312
+	],
+	"long_description": "Enable and disable audio output trough audio port using luma3ds 'hidden' options. Useful if you have a bluetooth mod without a switch button."
+}
