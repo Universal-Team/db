@@ -18,147 +18,62 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-117-gf1f841fe7
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-120-gcebb5ffc9
   downloads:
-    Angband-4.2.6-117-gf1f841fe7-3ds.zip:
-      size: 24671230
+    Angband-4.2.6-120-gcebb5ffc9-3ds.zip:
+      size: 24671288
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-117-gf1f841fe7/Angband-4.2.6-117-gf1f841fe7-3ds.zip
-    Angband-4.2.6-117-gf1f841fe7-nds.zip:
-      size: 23328934
+      url: https://github.com/angband/angband/releases/download/4.2.6-120-gcebb5ffc9/Angband-4.2.6-120-gcebb5ffc9-3ds.zip
+    Angband-4.2.6-120-gcebb5ffc9-nds.zip:
+      size: 23328936
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-117-gf1f841fe7/Angband-4.2.6-117-gf1f841fe7-nds.zip
-  update_notes: '<p dir="auto">Because of a bug in the check_break() changes, this
-    release will hang if there is input queued while it is the monsters'' turn to
-    act or when generating a new level.  Use one of the other prereleases instead.</p>
-
-    <h2 dir="auto">What''s Changed</h2>
+      url: https://github.com/angband/angband/releases/download/4.2.6-120-gcebb5ffc9/Angband-4.2.6-120-gcebb5ffc9-nds.zip
+  update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>Plug leak of monster''s shape name if it specifies a monster base by <a class="user-mention
+    <li>SDL2: check for allocation failures from SDL_strdup() by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4276108663" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6595"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6595/hovercard"
-    href="https://github.com/angband/angband/pull/6595">#6595</a></li>
+    data-id="4323041113" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6611"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6611/hovercard"
+    href="https://github.com/angband/angband/pull/6611">#6611</a></li>
 
-    <li>Be more specific about the hitpoints drained by Vampire Strike by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4285535924" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6596"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6596/hovercard"
-    href="https://github.com/angband/angband/pull/6596">#6596</a></li>
-
-    <li>Correct out-of-date comment in Makefile.std by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4288139969" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6597"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6597/hovercard"
-    href="https://github.com/angband/angband/pull/6597">#6597</a></li>
-
-    <li>cmake: fix SUPPORT_STATS_BACKEND=ON by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4289006606" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6598"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6598/hovercard"
-    href="https://github.com/angband/angband/pull/6598">#6598</a></li>
-
-    <li>cmake:  macro arguments can not be used as variables with if() by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4291212402" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6601"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6601/hovercard"
-    href="https://github.com/angband/angband/pull/6601">#6601</a></li>
-
-    <li>docs:  rearrange compiling instructions by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4292305786" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6602"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6602/hovercard"
-    href="https://github.com/angband/angband/pull/6602">#6602</a></li>
-
-    <li>workflows: hw.activecpu better choice than hw.ncpu for macOS parallel builds
-    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4292503565" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6603"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6603/hovercard"
-    href="https://github.com/angband/angband/pull/6603">#6603</a></li>
-
-    <li>cmake: fix copy of generated user manual to the self-contained game by <a
+    <li>workflows: exercise cmake''s SUPPORT_STATS_BACKEND with Linux x11 job by <a
     class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4292607731" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6604"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6604/hovercard"
-    href="https://github.com/angband/angband/pull/6604">#6604</a></li>
+    data-id="4343554137" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6613"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6613/hovercard"
+    href="https://github.com/angband/angband/pull/6613">#6613</a></li>
 
-    <li>Add check_break() to help keep the game responsive during long calculations
-    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    <li>Avoid infinite loop in textui_check_break() by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4298743450" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6607"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6607/hovercard"
-    href="https://github.com/angband/angband/pull/6607">#6607</a></li>
-
-    <li>Expeditiously shut down in response to SIGPWR and SIGDANGER by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4309232351" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6610"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6610/hovercard"
-    href="https://github.com/angband/angband/pull/6610">#6610</a></li>
+    data-id="4350655347" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6614"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6614/hovercard"
+    href="https://github.com/angband/angband/pull/6614">#6614</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-107-g64d78d7f6...4.2.6-117-gf1f841fe7"><tt>4.2.6-107-g64d78d7f6...4.2.6-117-gf1f841fe7</tt></a></p>'
-  update_notes_md: 'Because of a bug in the check_break() changes, this release will
-    hang if there is input queued while it is the monsters'' turn to act or when generating
-    a new level.  Use one of the other prereleases instead.
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-117-gf1f841fe7...4.2.6-120-gcebb5ffc9"><tt>4.2.6-117-gf1f841fe7...4.2.6-120-gcebb5ffc9</tt></a></p>'
+  update_notes_md: '## What''s Changed
 
+    * SDL2: check for allocation failures from SDL_strdup() by @backwardsEric in https://github.com/angband/angband/pull/6611
 
-    ## What''s Changed
+    * workflows: exercise cmake''s SUPPORT_STATS_BACKEND with Linux x11 job by @backwardsEric
+    in https://github.com/angband/angband/pull/6613
 
-    * Plug leak of monster''s shape name if it specifies a monster base by @backwardsEric
-    in https://github.com/angband/angband/pull/6595
-
-    * Be more specific about the hitpoints drained by Vampire Strike by @backwardsEric
-    in https://github.com/angband/angband/pull/6596
-
-    * Correct out-of-date comment in Makefile.std by @backwardsEric in https://github.com/angband/angband/pull/6597
-
-    * cmake: fix SUPPORT_STATS_BACKEND=ON by @backwardsEric in https://github.com/angband/angband/pull/6598
-
-    * cmake:  macro arguments can not be used as variables with if() by @backwardsEric
-    in https://github.com/angband/angband/pull/6601
-
-    * docs:  rearrange compiling instructions by @backwardsEric in https://github.com/angband/angband/pull/6602
-
-    * workflows: hw.activecpu better choice than hw.ncpu for macOS parallel builds
-    by @backwardsEric in https://github.com/angband/angband/pull/6603
-
-    * cmake: fix copy of generated user manual to the self-contained game by @backwardsEric
-    in https://github.com/angband/angband/pull/6604
-
-    * Add check_break() to help keep the game responsive during long calculations
-    by @backwardsEric in https://github.com/angband/angband/pull/6607
-
-    * Expeditiously shut down in response to SIGPWR and SIGDANGER by @backwardsEric
-    in https://github.com/angband/angband/pull/6610
+    * Avoid infinite loop in textui_check_break() by @backwardsEric in https://github.com/angband/angband/pull/6614
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-107-g64d78d7f6...4.2.6-117-gf1f841fe7'
-  updated: '2026-04-28T13:06:31Z'
-  version: 4.2.6-117-gf1f841fe7
-  version_title: 4.2.6-117-gf1f841fe7
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-117-gf1f841fe7...4.2.6-120-gcebb5ffc9'
+  updated: '2026-05-05T12:01:04Z'
+  version: 4.2.6-120-gcebb5ffc9
+  version_title: 4.2.6-120-gcebb5ffc9
 source: https://github.com/angband/angband
 stars: 1504
 systems:
