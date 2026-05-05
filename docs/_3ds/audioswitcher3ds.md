@@ -27,7 +27,7 @@ layout: app
 qr:
   AudioSwitcher.cia: https://db.universal-team.net/assets/images/qr/audioswitcher-cia.png
 source: https://github.com/Sunrase/AudioSwitcher3ds
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: AudioSwitcher3ds

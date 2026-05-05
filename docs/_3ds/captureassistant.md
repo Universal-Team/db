@@ -1,5 +1,5 @@
 ---
-author: ItsDeidara
+author: StonedModder
 avatar: https://avatars.githubusercontent.com/u/16449821?v=4
 categories:
 - utility
@@ -12,11 +12,11 @@ downloads:
   CaptureAssistant.cia:
     size: 1606592
     size_str: 1 MiB
-    url: https://github.com/ItsDeidara/CaptureAssistant/releases/download/1.3/CaptureAssistant.cia
+    url: https://github.com/StonedModder/CaptureAssistant/releases/download/1.3/CaptureAssistant.cia
   CaptureAssistantv1.3.zip:
     size: 1285025
     size_str: 1 MiB
-    url: https://github.com/ItsDeidara/CaptureAssistant/releases/download/1.3/CaptureAssistantv1.3.zip
+    url: https://github.com/StonedModder/CaptureAssistant/releases/download/1.3/CaptureAssistantv1.3.zip
 github: ItsDeidara/CaptureAssistant
 icon: https://raw.githubusercontent.com/ItsDeidara/CaptureAssistant/master/assets/icon.png
 image: https://raw.githubusercontent.com/ItsDeidara/CaptureAssistant/master/assets/banner.png
@@ -26,26 +26,26 @@ license: mit
 license_name: MIT License
 qr:
   CaptureAssistant.cia: https://db.universal-team.net/assets/images/qr/captureassistant-cia.png
-source: https://github.com/ItsDeidara/CaptureAssistant
+source: https://github.com/StonedModder/CaptureAssistant
 stars: 2
 systems:
 - 3DS
 title: CaptureAssistant
 unique_ids:
 - '0x6862'
-update_notes: '<p dir="auto">Extract to the root of your SD card and install CaptureAssistant
+update_notes: '<p>Extract to the root of your SD card and install CaptureAssistant
   with FBI</p>
 
-  <p dir="auto">Changelog-<br>
+  <p>Changelog-<br>
 
   Fixed duplicate Title ID</p>
 
-  <p dir="auto">Bugs-<br>
+  <p>Bugs-<br>
 
   calibrationalt''s are slightly too large</p>
 
-  <p dir="auto">If you would like to add anything too this or would like to request
-  anything then please request it in the tool''s GBAtemp thread <a href="http://gbatemp.net/threads/capture-assistant-a-capture-alignment-tool-for-capture-cards-ntr.439356/#post-6631437"
+  <p>If you would like to add anything too this or would like to request anything
+  then please request it in the tool''s GBAtemp thread <a href="http://gbatemp.net/threads/capture-assistant-a-capture-alignment-tool-for-capture-cards-ntr.439356/#post-6631437"
   rel="nofollow">http://gbatemp.net/threads/capture-assistant-a-capture-alignment-tool-for-capture-cards-ntr.439356/#post-6631437</a></p>'
 updated: '2016-08-26T23:13:12Z'
 version: '1.3'
