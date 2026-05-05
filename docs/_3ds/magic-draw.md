@@ -34,7 +34,7 @@ screenshots:
 - description: Title menu
   url: https://db.universal-team.net/assets/images/screenshots/magic-draw/title-menu.png
 source: https://github.com/natsuneco/magic-draw
-stars: 9
+stars: 10
 systems:
 - 3DS
 title: Magic Draw
