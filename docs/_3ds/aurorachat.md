@@ -10,13 +10,13 @@ description: ' Real Time Chatting for the 3DS, Wii, Wii U, and Web'
 download_page: https://github.com/Unitendo/aurorachat/releases
 downloads:
   aurorachat.3dsx:
-    size: 1252772
+    size: 1253500
     size_str: 1 MiB
-    url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.02/aurorachat.3dsx
+    url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.03/aurorachat.3dsx
   aurorachat.cia:
     size: 1762240
     size_str: 1 MiB
-    url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.02/aurorachat.cia
+    url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.03/aurorachat.cia
 github: Unitendo/aurorachat
 icon: https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/icon.png
 image: https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/banner.png
@@ -33,21 +33,25 @@ systems:
 title: aurorachat
 unique_ids:
 - '0xBAFD2'
-update_notes: '<h2 dir="auto">Changelog</h2>
+update_notes: '<h2 dir="auto">Changelog:</h2>
 
   <ul dir="auto">
 
-  <li>Fixed an issue where messages would not be sent</li>
+  <li>Fixed crash that happens when someone messages in ANY ROOM before the rooms
+  have loaded (interesting bug to say the least...)</li>
 
-  <li>Fixed an issue where the server being busy would result in the client crashing</li>
+  <li>Fixed messages not sending when server is busy/connection is stale (weird bug,
+  but its fixed and I ain''t touching it again)</li>
 
-  <li>Fixed an issue where a message that was missing a field could crash any system</li>
+  <li>Fixed login crash (Probably)</li>
 
-  <li>Server-side fixes</li>
+  <li>Improvements</li>
 
-  </ul>'
-updated: '2026-05-01T16:56:27Z'
-version: v0.6.02
-version_title: 'v0.6.02: A Quick Patch'
+  </ul>
+
+  <p dir="auto">Hopefully the last release before v0.6.1</p>'
+updated: '2026-05-05T20:02:30Z'
+version: v0.6.03
+version_title: 'v0.6.03: Wait What Do You Mean It Crashes On Boot Sometimes'
 ---
 A safer chatting app for the Nintendo 3DS line of systems.
