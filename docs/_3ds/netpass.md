@@ -33,13 +33,9 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <ul data-sourcepos="1:2-4:49" dir="auto">&#x000A;<li data-sourcepos="1:2-1:38">Fix
-  error popup (Thanks <a href="/blaadeeee" title="blaadeeee" class="gfm gfm-project_member
-  js-user-link" data-user="36362207" data-original="@blaadeeee" data-container="body"
-  data-placement="top" data-reference-type="user">@blaadeeee</a>)</li>&#x000A;<li
-  data-sourcepos="2:2-2:19">Add scam warning</li>&#x000A;<li data-sourcepos="3:2-3:47">Add
-  important popup about backing up nid_pwd</li>&#x000A;<li data-sourcepos="4:2-4:49">Add
-  time setter for if your system time is off</li>&#x000A;</ul>
+update_notes: " - Fix error popup (Thanks @blaadeeee)\n - Add scam warning\n - Add\
+  \ important popup about backing up nid_pwd\n - Add time setter for if your system\
+  \ time is off"
 updated: '2026-04-18T14:14:25.315Z'
 version: v2.0.2
 version_title: v2.0.2
