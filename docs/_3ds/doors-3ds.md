@@ -16,173 +16,159 @@ image: https://raw.githubusercontent.com/carmander152/Doors-3DS/main/banner.png
 image_length: 38377
 layout: app
 prerelease:
-  download_page: https://github.com/carmander152/Doors-3DS/releases/tag/Beta-v0.7.3
+  download_page: https://github.com/carmander152/Doors-3DS/releases/tag/Beta-v0.8.0
   downloads:
     Doors_3DS.3dsx:
-      size: 9877048
-      size_str: 9 MiB
-      url: https://github.com/carmander152/Doors-3DS/releases/download/Beta-v0.7.3/Doors_3DS.3dsx
+      size: 11375816
+      size_str: 10 MiB
+      url: https://github.com/carmander152/Doors-3DS/releases/download/Beta-v0.8.0/Doors_3DS.3dsx
     Doors_3DS.cia:
-      size: 10470336
-      size_str: 9 MiB
-      url: https://github.com/carmander152/Doors-3DS/releases/download/Beta-v0.7.3/Doors_3DS.cia
+      size: 11953088
+      size_str: 11 MiB
+      url: https://github.com/carmander152/Doors-3DS/releases/download/Beta-v0.8.0/Doors_3DS.cia
   qr:
     Doors_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/doors_3ds-cia.png
-  update_notes: '<p dir="auto">Quite a lot has changed in this update so bare with
-    me here,<br>
+  update_notes: '<p dir="auto">Its been a bit over a month since my last release and
+    there have been a few major changes and many minor ones so I wanted to give another
+    release before I continue working on Figure, as he will take awhile.<br>
 
-    I''ve added the following things:</p>
+    Changes are as follows:</p>
 
     <ul dir="auto">
 
-    <li>Old 3DS Support has been added through touchscreen camera controls (has not
-    been tested on real hardware as I only have a New 3DS)</li>
+    <li>Added side rooms</li>
 
-    <li>The Elevator along with the Elevator Jam song</li>
+    <li>Beds no longer spawn in the main hallway, only in the side rooms</li>
 
-    <li>Rush and Eyes who lights rooms up purple</li>
+    <li>You can hide from Rush behind the Side room doors</li>
 
-    <li>Dark rooms with increased chance of Screech spawning</li>
+    <li>Chests have a small chance to spawn in side rooms as well</li>
 
-    <li>Occasional Locked Doors</li>
+    <li>Added money, though it doesn''t do anything yet</li>
 
-    <li>Drawers</li>
+    <li>Added a lot more sound effects, including but not limited to: Wardrobe actions,
+    drawer sounds, and death noise</li>
 
-    <li>Keys, which can spawn in drawers and sometimes on beds</li>
+    <li>Made the camera feel nicer, added the tilt from the original game as well
+    as a slight footstep camera bobbing, and these feel harsher while running from
+    Seek</li>
 
-    <li>A health system</li>
+    <li>Added a zoomed out field of view to make the seek chase feel more frantic</li>
 
-    <li>Band-aids, which occasionally spawn in drawers and heal 10 HP</li>
+    <li>Added textures to the walls, ceilings, Screech, Eyes, and Rush</li>
 
-    <li>Screech was nerfed</li>
+    <li>Lots of bug fixes and quality of life improvements</li>
 
-    <li>Seek, along with his music, chase sequence, and cutscene along with the seek
-    eyes spawning as you get closer to his room</li>
-
-    <li>Dupe was polished</li>
-
-    <li>Many sounds were added including door opening sounds and the entity sounds,
-    I will add more soon</li>
-
-    <li>Added a .cia build, complete with a banner, icon, and jingle</li>
+    <li>Began adding Figure, but he doesn''t do much yet</li>
 
     </ul>
 
-    <p dir="auto">And I believe that''s all for now, I want to add textures soon but
-    have to learn how first, stay tuned! :)</p>
+    <p dir="auto">I had to drop the game to 30 fps since the textures took up a lot
+    of ram, it runs great on New 3ds but I haven''t tested on the Old models<br>
+
+    I''ve also just created a Doors 3ds Discord! If you have any suggestions, find
+    any bugs, or just want to chat feel free to join!<br>
+
+    Discord Invite Link: <a href="https://discord.gg/h5JVJbSyu8" rel="nofollow">https://discord.gg/h5JVJbSyu8</a></p>
+
+    '
+  update_notes_md: 'Its been a bit over a month since my last release and there have
+    been a few major changes and many minor ones so I wanted to give another release
+    before I continue working on Figure, as he will take awhile.
+
+    Changes are as follows:
 
 
-    <p dir="auto">P.S. As this is a beta, do expect bugs, but feel free to tell me
-    if you find any<br>
+    - Added side rooms
 
-    If you press Y+R in the lobby it teleports you to the Seek chase</p>'
-  update_notes_md: 'Quite a lot has changed in this update so bare with me here,
+    - Beds no longer spawn in the main hallway, only in the side rooms
 
-    I''ve added the following things:
+    - You can hide from Rush behind the Side room doors
 
+    - Chests have a small chance to spawn in side rooms as well
 
-    - Old 3DS Support has been added through touchscreen camera controls (has not
-    been tested on real hardware as I only have a New 3DS)
+    - Added money, though it doesn''t do anything yet
 
-    - The Elevator along with the Elevator Jam song
+    - Added a lot more sound effects, including but not limited to: Wardrobe actions,
+    drawer sounds, and death noise
 
-    - Rush and Eyes who lights rooms up purple
+    - Made the camera feel nicer, added the tilt from the original game as well as
+    a slight footstep camera bobbing, and these feel harsher while running from Seek
 
-    - Dark rooms with increased chance of Screech spawning
+    - Added a zoomed out field of view to make the seek chase feel more frantic
 
-    - Occasional Locked Doors
+    - Added textures to the walls, ceilings, Screech, Eyes, and Rush
 
-    - Drawers
+    - Lots of bug fixes and quality of life improvements
 
-    - Keys, which can spawn in drawers and sometimes on beds
-
-    - A health system
-
-    - Band-aids, which occasionally spawn in drawers and heal 10 HP
-
-    - Screech was nerfed
-
-    - Seek, along with his music, chase sequence, and cutscene along with the seek
-    eyes spawning as you get closer to his room
-
-    - Dupe was polished
-
-    - Many sounds were added including door opening sounds and the entity sounds,
-    I will add more soon
-
-    - Added a .cia build, complete with a banner, icon, and jingle
+    - Began adding Figure, but he doesn''t do much yet
 
 
-    And I believe that''s all for now, I want to add textures soon but have to learn
-    how first, stay tuned! :)
+    I had to drop the game to 30 fps since the textures took up a lot of ram, it runs
+    great on New 3ds but I haven''t tested on the Old models
 
+    I''ve also just created a Doors 3ds Discord! If you have any suggestions, find
+    any bugs, or just want to chat feel free to join!
 
-    <img width="432" height="528" alt="Doors 3DS Homescreen" src="https://github.com/user-attachments/assets/4cb10ea1-2d96-4454-b379-6341ec851c6c"
-    />
+    Discord Invite Link: https://discord.gg/h5JVJbSyu8
 
 
 
-    P.S. As this is a beta, do expect bugs, but feel free to tell me if you find any
-
-    If you press Y+R in the lobby it teleports you to the Seek chase'
-  updated: '2026-03-19T06:04:56Z'
-  version: Beta-v0.7.3
-  version_title: Doors 3DS Beta v0.7.3
+    <img width="270" height="270" alt="image" src="https://github.com/user-attachments/assets/ccbea73e-67ba-4a1f-982f-cfcff2d1027a"
+    />'
+  updated: '2026-05-06T23:17:48Z'
+  version: Beta-v0.8.0
+  version_title: Doors 3DS Beta v0.8.0
 source: https://github.com/carmander152/Doors-3DS
-stars: 5
+stars: 6
 systems:
 - 3DS
 title: Doors-3DS
-update_notes: '<p dir="auto">Quite a lot has changed in this update so bare with me
-  here,<br>
+update_notes: '<p dir="auto">Its been a bit over a month since my last release and
+  there have been a few major changes and many minor ones so I wanted to give another
+  release before I continue working on Figure, as he will take awhile.<br>
 
-  I''ve added the following things:</p>
+  Changes are as follows:</p>
 
   <ul dir="auto">
 
-  <li>Old 3DS Support has been added through touchscreen camera controls (has not
-  been tested on real hardware as I only have a New 3DS)</li>
+  <li>Added side rooms</li>
 
-  <li>The Elevator along with the Elevator Jam song</li>
+  <li>Beds no longer spawn in the main hallway, only in the side rooms</li>
 
-  <li>Rush and Eyes who lights rooms up purple</li>
+  <li>You can hide from Rush behind the Side room doors</li>
 
-  <li>Dark rooms with increased chance of Screech spawning</li>
+  <li>Chests have a small chance to spawn in side rooms as well</li>
 
-  <li>Occasional Locked Doors</li>
+  <li>Added money, though it doesn''t do anything yet</li>
 
-  <li>Drawers</li>
+  <li>Added a lot more sound effects, including but not limited to: Wardrobe actions,
+  drawer sounds, and death noise</li>
 
-  <li>Keys, which can spawn in drawers and sometimes on beds</li>
+  <li>Made the camera feel nicer, added the tilt from the original game as well as
+  a slight footstep camera bobbing, and these feel harsher while running from Seek</li>
 
-  <li>A health system</li>
+  <li>Added a zoomed out field of view to make the seek chase feel more frantic</li>
 
-  <li>Band-aids, which occasionally spawn in drawers and heal 10 HP</li>
+  <li>Added textures to the walls, ceilings, Screech, Eyes, and Rush</li>
 
-  <li>Screech was nerfed</li>
+  <li>Lots of bug fixes and quality of life improvements</li>
 
-  <li>Seek, along with his music, chase sequence, and cutscene along with the seek
-  eyes spawning as you get closer to his room</li>
-
-  <li>Dupe was polished</li>
-
-  <li>Many sounds were added including door opening sounds and the entity sounds,
-  I will add more soon</li>
-
-  <li>Added a .cia build, complete with a banner, icon, and jingle</li>
+  <li>Began adding Figure, but he doesn''t do much yet</li>
 
   </ul>
 
-  <p dir="auto">And I believe that''s all for now, I want to add textures soon but
-  have to learn how first, stay tuned! :)</p>
+  <p dir="auto">I had to drop the game to 30 fps since the textures took up a lot
+  of ram, it runs great on New 3ds but I haven''t tested on the Old models<br>
 
+  I''ve also just created a Doors 3ds Discord! If you have any suggestions, find any
+  bugs, or just want to chat feel free to join!<br>
 
-  <p dir="auto">P.S. As this is a beta, do expect bugs, but feel free to tell me if
-  you find any<br>
+  Discord Invite Link: <a href="https://discord.gg/h5JVJbSyu8" rel="nofollow">https://discord.gg/h5JVJbSyu8</a></p>
 
-  If you press Y+R in the lobby it teleports you to the Seek chase</p>'
-updated: '2026-03-19T06:04:56Z'
-version: Beta-v0.7.3
-version_title: Doors 3DS Beta v0.7.3
+  '
+updated: '2026-05-06T23:17:48Z'
+version: Beta-v0.8.0
+version_title: Doors 3DS Beta v0.8.0
 ---
 This is a fan demake of the Roblox horror game Doors which was originally made by LSplash. This is being built completely from the ground up as obviously, there is no translation from Luau (Roblox code) to C++ (3DS code)

@@ -186,12 +186,12 @@ update_notes: '<p dir="auto">After almost 3 years, it''s time for a new big upda
   </ul>
 
   <div class="markdown-alert markdown-alert-warning" dir="auto"><p class="markdown-alert-title"
-  dir="auto"><svg class="octicon octicon-alert mr-2" viewBox="0 0 16 16" version="1.1"
-  width="16" height="16" aria-hidden="true"><path d="M6.457 1.047c.659-1.234 2.427-1.234
-  3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25
-  0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53
-  3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0
-  1 2 0Z"></path></svg>Warning</p>
+  dir="auto"><svg data-component="Octicon" class="octicon octicon-alert mr-2" viewBox="0
+  0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M6.457
+  1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75
+  1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25
+  0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1
+  1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Warning</p>
 
   <h2 dir="auto">Known Bugs</h2>
 
@@ -222,15 +222,15 @@ update_notes: '<p dir="auto">After almost 3 years, it''s time for a new big upda
   </ul>
 
   <div class="markdown-alert markdown-alert-important" dir="auto"><p class="markdown-alert-title"
-  dir="auto"><svg class="octicon octicon-report mr-2" viewBox="0 0 16 16" version="1.1"
-  width="16" height="16" aria-hidden="true"><path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216
-  0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0
-  1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75
-  0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25
-  0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0
-  1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Important</p><p dir="auto">And finally it is
-  time to mention <strong><a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/cheuble/hovercard" data-octo-click="hovercard-link-click"
+  dir="auto"><svg data-component="Octicon" class="octicon octicon-report mr-2" viewBox="0
+  0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 1.75C0
+  .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573
+  2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25
+  0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749
+  0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75
+  0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg>Important</p><p
+  dir="auto">And finally it is time to mention <strong><a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/cheuble/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/cheuble">@cheuble</a></strong>,
   the creator of the <a href="https://github.com/cheuble/BCSTM-Player">Original BCSTM-Player</a>
   which took advantage of <del>Freeshops</del> <strong>BCSTM Playing Code</strong>.
