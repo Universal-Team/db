@@ -184,7 +184,7 @@ prerelease:
   version: v0.1.0
   version_title: Tunez3DS v0.1.0 - Initial Release
 source: https://github.com/veylo-3DS/Tunez-3DS
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: Tunez3DS
