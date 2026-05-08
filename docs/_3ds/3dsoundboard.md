@@ -30,7 +30,7 @@ screenshots:
 - description: Menu 2
   url: https://db.universal-team.net/assets/images/screenshots/3dsoundboard/menu-2.png
 source: https://github.com/Sunrase/3DSoundboard
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: 3DSoundboard
