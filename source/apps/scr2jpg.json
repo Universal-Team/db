@@ -1,0 +1,13 @@
+{
+	"github": "Adrix12team/SCR2JPG",
+	"description": "Luma3DS screenshot to 3DS camera JPG converter",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon": "https://raw.githubusercontent.com/Adrix12team/SCR2JPG/f6e179321510332394264fe3fd6e77d259f693cd/icon.svg",
+	"long_description": "3DS homebrew application that converts screenshots made by Luma3DS (Rosalina Menu) into JPEGs that are viewable from the Nintendo 3DS Camera.",
+	"script_message": "Screenshots pop up as if they were regular photos taken on the 1st of January, 2001. If your screenshots don't appear in the camera app, check the README from the GitHub (github.com/Adrix12team/SCR2JPG)."
+}
