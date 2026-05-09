@@ -3,15 +3,15 @@ author: veylo3DS :3
 avatar: https://avatars.githubusercontent.com/u/278255537?v=4
 categories:
 - utility
-color: '#281e30'
-color_bg: '#281e30'
+color: '#555566'
+color_bg: '#555566'
 created: '2026-05-03T15:30:14Z'
 description: Homebrew MP3 player for the 3DS with album art and ID3 tag support.
 download_page: https://github.com/veylo-3DS/Tunez-3DS/releases
 github: veylo-3DS/Tunez-3DS
 icon: https://raw.githubusercontent.com/veylo-3DS/Tunez-3DS/main/icon.png
 image: https://raw.githubusercontent.com/veylo-3DS/Tunez-3DS/main/banner.png
-image_length: 4500
+image_length: 1433
 layout: app
 prerelease:
   download_page: https://github.com/veylo-3DS/Tunez-3DS/releases/tag/v0.1.0
