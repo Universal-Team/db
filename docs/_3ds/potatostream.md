@@ -10,17 +10,17 @@ description: Gamestream client for old 2ds/3DS
 download_page: https://github.com/PainDe0Mie/PotatoStream/releases
 downloads:
   streampotato.3dsx:
-    size: 7590064
+    size: 7624708
     size_str: 7 MiB
-    url: https://github.com/PainDe0Mie/PotatoStream/releases/download/potatostream-v1/streampotato.3dsx
+    url: https://github.com/PainDe0Mie/PotatoStream/releases/download/v1.1.0/streampotato.3dsx
   streampotato.cia:
-    size: 4351936
+    size: 4373440
     size_str: 4 MiB
-    url: https://github.com/PainDe0Mie/PotatoStream/releases/download/potatostream-v1/streampotato.cia
+    url: https://github.com/PainDe0Mie/PotatoStream/releases/download/v1.1.0/streampotato.cia
 github: PainDe0Mie/PotatoStream
 icon: https://raw.githubusercontent.com/PainDe0Mie/PotatoStream/n3ds-main/3ds/res/ic_streampotato.png
 image: https://raw.githubusercontent.com/PainDe0Mie/PotatoStream/n3ds-main/3ds/res/banner.png
-image_length: 11164
+image_length: 11016
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
@@ -50,18 +50,35 @@ update_notes: '<h1 dir="auto">PotatoStream</h1>
 
   </blockquote>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/638755f4-deb1-4535-98da-36d30f4848d9"><img
-  width="512" height="256" alt="banner" src="https://github.com/user-attachments/assets/638755f4-deb1-4535-98da-36d30f4848d9"
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/a810c0b0-3cf6-4a24-bcb4-12221882a18e"><img
+  width="512" height="256" alt="banner" src="https://github.com/user-attachments/assets/a810c0b0-3cf6-4a24-bcb4-12221882a18e"
   style="max-width: 100%; height: auto; max-height: 256px;; aspect-ratio: 512 / 256;
   background-color: var(--bgColor-muted); border-radius: 6px; display: block" class="js-gh-image-fallback"></a>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/f7ed3e43-556a-4117-a09a-c540048f57d3"><img
-  width="272" height="270" alt="image" src="https://github.com/user-attachments/assets/f7ed3e43-556a-4117-a09a-c540048f57d3"
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/145308d6-a33a-4d8a-93e4-1c8276015f4f"><img
+  width="272" height="270" alt="qrcode" src="https://github.com/user-attachments/assets/145308d6-a33a-4d8a-93e4-1c8276015f4f"
   style="max-width: 100%; height: auto; max-height: 270px;; aspect-ratio: 272 / 270;
-  background-color: var(--bgColor-muted); border-radius: 6px; display: block" class="js-gh-image-fallback"></a>'
-updated: '2026-04-18T14:52:25Z'
-version: potatostream-v1
-version_title: PotatoStream Release v1
+  background-color: var(--bgColor-muted); border-radius: 6px; display: block" class="js-gh-image-fallback"></a>
+
+  <h2 dir="auto">What''s new in v1.1.0?</h2>
+
+  <ul dir="auto">
+
+  <li>Improved Sunshine pairing and HTTP stability.</li>
+
+  <li>Persisted confirmed pairs to avoid repairing the same host every time.</li>
+
+  <li>Added v1.1 stream profiles and experimental stereoscopic 3D.</li>
+
+  <li>Reduced framebuffer glitches and gated 3D rendering behind the experimental
+  option.</li>
+
+  <li>Improved host flow, stream options, and menu UX.</li>
+
+  </ul>'
+updated: '2026-05-09T04:09:14Z'
+version: v1.1.0
+version_title: PotatoStream v1.1.0
 website: https://github.com/moonlight-stream/moonlight-embedded/wiki
 ---
 PotatoStream is a Moonlight game streaming client for all 3DS and 2DS models, with a focus on Old 3DS/2DS compatibility. Auto-detects hardware at startup and activates "Potato" mode on older models with smart frame skipping, Y2RU hardware pipeline and an optimized stream profile (400x240@24fps). (New 3DS keeps the standard MVD hardware decoder) Compatible with Sunshine and NVIDIA GameStream.
