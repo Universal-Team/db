@@ -10,13 +10,13 @@ description: Homebrew MP3 player for the 3DS with album art and ID3 tag support.
 download_page: https://github.com/veylo-3DS/Tunez-3DS/releases
 downloads:
   Tunez3DS.3dsx:
-    size: 882812
+    size: 882872
     size_str: 862 KiB
-    url: https://github.com/veylo-3DS/Tunez-3DS/releases/download/v2.1.0/Tunez3DS.3dsx
+    url: https://github.com/veylo-3DS/Tunez-3DS/releases/download/v2.2.0/Tunez3DS.3dsx
   Tunez3DS.cia:
     size: 1168320
     size_str: 1 MiB
-    url: https://github.com/veylo-3DS/Tunez-3DS/releases/download/v2.1.0/Tunez3DS.cia
+    url: https://github.com/veylo-3DS/Tunez-3DS/releases/download/v2.2.0/Tunez3DS.cia
 github: veylo-3DS/Tunez-3DS
 icon: https://raw.githubusercontent.com/veylo-3DS/Tunez-3DS/main/icon.png
 image: https://raw.githubusercontent.com/veylo-3DS/Tunez-3DS/main/banner.png
@@ -29,10 +29,9 @@ stars: 1
 systems:
 - 3DS
 title: Tunez3DS
-update_notes: <p dir="auto">Introduces Custom Themes with 6 unique palettes selectable
-  in the Settings menu.</p>
-updated: '2026-05-09T19:47:33Z'
-version: v2.1.0
-version_title: v2.1.0
+update_notes: <p dir="auto">Added new Everforest system-inspired theme.</p>
+updated: '2026-05-09T20:02:23Z'
+version: v2.2.0
+version_title: v2.2.0
 wiki: https://github.com/veylo-3DS/Tunez-3DS/wiki
 ---
