@@ -12,17 +12,17 @@ download_filter: (\.3dsx|\.cia|\.nds)
 download_page: https://github.com/ScratchEverywhere/ScratchEverywhere/releases
 downloads:
   scratch-3ds.3dsx:
-    size: 8865508
-    size_str: 8 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.40/scratch-3ds.3dsx
+    size: 9587168
+    size_str: 9 MiB
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/1.0-rc1/scratch-3ds.3dsx
   scratch-3ds.cia:
-    size: 7660480
-    size_str: 7 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.40/scratch-3ds.cia
+    size: 8434624
+    size_str: 8 MiB
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/1.0-rc1/scratch-3ds.cia
   scratch-ds.nds:
-    size: 4385792
+    size: 5109760
     size_str: 4 MiB
-    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/0.40/scratch-ds.nds
+    url: https://github.com/ScratchEverywhere/ScratchEverywhere/releases/download/1.0-rc1/scratch-ds.nds
 github: ScratchEverywhere/ScratchEverywhere
 icon: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/icon.png
 image: https://github.com/ScratchEverywhere/ScratchEverywhere/raw/refs/heads/main/gfx/3ds/banner.png
@@ -40,38 +40,104 @@ systems:
 title: Scratch Everywhere!
 unique_ids:
 - '0x2143'
-update_notes: '<h2 dir="auto">Runtime Changes</h2>
+update_notes: '<p dir="auto"><strong>A Release Candidate? In this economy? More likely
+  than you think!</strong></p>
+
+  <h2 dir="auto">Menu Changes</h2>
 
   <ul dir="auto">
 
-  <li>Added support for Native Extensions (Via PR <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="4189677636" data-permission-text="Title
-  is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/598"
-  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/598/hovercard"
-  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/598">#598</a>)
+  <li>The Menu has been given new music and colors for SE!''s one year anniversary
+  (May 2)!
 
   <ul dir="auto">
 
-  <li>Native Extensions allow you to run custom extensions via dynamic C++ libraries</li>
-
-  <li>Currently only supports Linux and macOS, with Windows support coming later</li>
-
-  <li>We''re still a ways away from implementing a Lua-based custom extension system
-  that will support more platforms</li>
-
-  <li>Native Extensions can be found at this repo: <a href="https://github.com/ScratchEverywhere/native-extensions">https://github.com/ScratchEverywhere/native-extensions</a></li>
+  <li>Menu music is, as always, made by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/Dogo6647/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Dogo6647">@Dogo6647</a></li>
 
   </ul>
 
   </li>
 
-  <li>Added an interactive CLI inspector for real time debugging (Via PR <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="4289065329" data-permission-text="Title
-  is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/624"
-  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/624/hovercard"
-  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/624">#624</a>)</li>
+  <li>Translation Support!
 
-  <li>Fix audio speeding up in some situations</li>
+  <ul dir="auto">
+
+  <li>In the Settings menu, there will be a new option to change the main menu language!</li>
+
+  <li>We currently support <code class="notranslate">English (US)</code>, <code class="notranslate">Español
+  (Latam)</code>, <code class="notranslate">Español (España)</code>, <code class="notranslate">한국어</code>,
+  <code class="notranslate">日本語</code>, <code class="notranslate">Português (Portugal)</code>,
+  <code class="notranslate">Português (Brasil)</code>, <code class="notranslate">Русский
+  (Россия)</code> and <code class="notranslate">Deutsch (Deutschland)</code>.</li>
+
+  <li>It''s thanks to the many translators (listed below) that this is possible!</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <h2 dir="auto">Runtime Changes</h2>
+
+  <ul dir="auto">
+
+  <li>Libretro port! (Via PR <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="4370088031" data-permission-text="Title is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/635"
+  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/635/hovercard"
+  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/635">#635</a>)</li>
+
+  <li><strong>[SDL2 / SDL3 Platforms]</strong> Completely re-written Accurate Pen
+  to be much faster in performance!
+
+  <ul dir="auto">
+
+  <li>Because of this, Accurate Pen is now the default on these platforms.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Added DECtalk support for the Text To Speech Extension (Via PR <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4381840598" data-permission-text="Title
+  is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/648"
+  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/648/hovercard"
+  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/648">#648</a>)
+
+  <ul dir="auto">
+
+  <li>DECtalk is a completely offline Text-To-Speech library!</li>
+
+  <li>You can change whether to use DECtalk or Scratch''s tts system in Main Menu
+  settings</li>
+
+  <li>Do note that only certain platforms will have this option in the release build,
+  but any platform can have this option enabled when compiling from source.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Fixed Transparent SVG images looking gray</li>
+
+  <li>Audio should sound a bit better</li>
+
+  <li><code class="notranslate">Set size</code> and <code class="notranslate">Change
+  Size</code> blocks now work correctly if the costume image hasn''t been loaded yet</li>
+
+  <li>Added constant folding while parsing projects</li>
+
+  <li>Add better support for Solaris/illumos and Haiku (Via PR <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4411993806" data-permission-text="Title
+  is private" data-url="https://github.com/ScratchEverywhere/ScratchEverywhere/issues/663"
+  data-hovercard-type="pull_request" data-hovercard-url="/ScratchEverywhere/ScratchEverywhere/pull/663/hovercard"
+  href="https://github.com/ScratchEverywhere/ScratchEverywhere/pull/663">#663</a>)</li>
+
+  <li>Fixed a ton of memory leaks</li>
+
+  <li>Remove Monitor caching due to a bug</li>
 
   </ul>
 
@@ -79,45 +145,97 @@ update_notes: '<h2 dir="auto">Runtime Changes</h2>
 
   <ul dir="auto">
 
-  <li>Made fencing even more accurate</li>
+  <li>Fixed Crashes when using recursive broadcasts and Custom blocks</li>
 
-  <li>Stage Sprite can no longer use the <code class="notranslate">hide</code> block</li>
+  <li>Fixed parity issues when doing math with hexadecimal numbers</li>
 
-  <li>Fixed <code class="notranslate">When key Pressed</code> block being able to
-  get recalled before it''s finished</li>
+  <li>Fixed parity issues when doing math with <code class="notranslate">-0</code></li>
 
-  <li>Fixed <code class="notranslate">Makeymakey</code> blocks being called without
-  pressing any buttons</li>
+  <li>Revert ability to get special characters with <code class="notranslate">letter
+  x of x</code> block, due to many bugs caused when introducing it</li>
 
-  <li>Fixed <code class="notranslate">Letter # of x</code> block not being able to
-  return special characters</li>
+  <li>Fixed Glide blocks being weird when using clones</li>
+
+  <li>Fixed some issues when getting variables</li>
 
   </ul>
 
-  <h2 dir="auto">Menu Changes</h2>
+  <h2 dir="auto">3DS Changes</h2>
 
   <ul dir="auto">
 
-  <li>New <code class="notranslate">op op op :itchytongue:</code> splash text</li>
+  <li>Fixed crash when sometimes using <code class="notranslate">Erase All</code>
+  Pen block</li>
 
   </ul>
 
-  <h2 dir="auto">Authors</h2>
+  <h2 dir="auto">Contributors</h2>
 
-  <p dir="auto">This beta was brought to you by: <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/Starlii10/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Starlii10">@Starlii10</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Br0tcraft/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Br0tcraft">@Br0tcraft</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gradylink/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gradylink">@gradylink</a>,
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/rttyg46305Unj/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/rttyg46305Unj">@rttyg46305Unj</a>,
-  and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/NateXS/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/NateXS">@NateXS</a></p>'
-updated: '2026-04-26T21:01:25Z'
-version: '0.40'
-version_title: Beta Build 40
+  <ul dir="auto">
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Starlii10/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Starlii10">@Starlii10</a></li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Dogo6647/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Dogo6647">@Dogo6647</a></li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gradylink/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gradylink">@gradylink</a></li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/NishiOwO/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/NishiOwO">@NishiOwO</a></li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/samuelvenable/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/samuelvenable">@samuelvenable</a></li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Xeltalliv/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Xeltalliv">@Xeltalliv</a></li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/poipole807/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/poipole807">@poipole807</a></li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/NateXS/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/NateXS">@NateXS</a></li>
+
+  </ul>
+
+  <h2 dir="auto">Translators</h2>
+
+  <ul dir="auto">
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/PwLDev/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/PwLDev">@PwLDev</a></li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/francthe3dsnerd/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/francthe3dsnerd">@francthe3dsnerd</a></li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/vernacular7/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/vernacular7">@vernacular7</a></li>
+
+  <li>@Luarpri</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/NishiOwO/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/NishiOwO">@NishiOwO</a></li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/skibidisonicthehedgehog-glitch/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/skibidisonicthehedgehog-glitch">@skibidisonicthehedgehog-glitch</a></li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/MicroChelik123/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/MicroChelik123">@MicroChelik123</a></li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Dogo6647/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Dogo6647">@Dogo6647</a></li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/SplaatSites/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/SplaatSites">@SplaatSites</a></li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Br0tcraft/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Br0tcraft">@Br0tcraft</a></li>
+
+  </ul>'
+updated: '2026-05-10T22:33:24Z'
+version: 1.0-rc1
+version_title: 1.0 Release Candidate 1
 website: https://scratcheverywhere.github.io
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!
