@@ -118,6 +118,6 @@ update_notes: '<h2 dir="auto">Runtime Changes</h2>
 updated: '2026-04-26T21:01:25Z'
 version: '0.40'
 version_title: Beta Build 40
-website: https://scratcheverywhere.github.io/ScratchEverywhere/
+website: https://scratcheverywhere.github.io
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!
