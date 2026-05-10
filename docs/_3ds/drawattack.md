@@ -27,7 +27,7 @@ license_name: MIT License
 qr:
   DrawAttack.cia: https://db.universal-team.net/assets/images/qr/drawattack-cia.png
 source: https://github.com/Cruel/DrawAttack
-stars: 11
+stars: 12
 systems:
 - 3DS
 title: DrawAttack
