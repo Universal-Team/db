@@ -212,7 +212,8 @@ update_notes: '<p dir="auto"><strong>A Release Candidate? In this economy? More 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/vernacular7/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/vernacular7">@vernacular7</a></li>
 
-  <li>@Luarpri</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Luapree/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Luapree">@Luapree</a></li>
 
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/NishiOwO/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/NishiOwO">@NishiOwO</a></li>
