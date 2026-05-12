@@ -51,7 +51,7 @@ update_notes: '<h2 dir="auto">Changelog</h2>
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/61c8d0d1-9a5e-4289-8b90-1a46908aafe3"><img
   width="300" height="300" alt="qr-code" src="https://github.com/user-attachments/assets/61c8d0d1-9a5e-4289-8b90-1a46908aafe3"
   style="max-width: 100%; height: auto; max-height: 300px;; aspect-ratio: 300 / 300;
-  background-color: var(--bgColor-muted); border-radius: 6px; display: block" class="js-gh-image-fallback"></a>'
+  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>'
 updated: '2026-03-18T15:38:29Z'
 version: v3.0.1
 version_title: Moonlight 3DS v3.0.1

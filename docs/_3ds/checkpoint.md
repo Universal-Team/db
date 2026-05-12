@@ -112,7 +112,7 @@ update_notes: '<p dir="auto">This release adds support for previously unsupporte
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/79d23fc1-e0f4-4171-aaf9-30a219a64006"><img
   width="218" height="217" alt="Screenshot From 2026-03-12 20-58-51" src="https://github.com/user-attachments/assets/79d23fc1-e0f4-4171-aaf9-30a219a64006"
   style="max-width: 100%; height: auto; max-height: 217px;; aspect-ratio: 218 / 217;
-  background-color: var(--bgColor-muted); border-radius: 6px; display: block" class="js-gh-image-fallback"></a>
+  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
 
   <hr>
 

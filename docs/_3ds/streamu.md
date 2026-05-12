@@ -10,18 +10,18 @@ description: ' A homebrew music player for Nintendo 3DS that streams YouTube aud
   via a companion PC proxy   server.'
 download_page: https://github.com/imissuuuu/StreaMu/releases
 downloads:
-  StreaMu-server.zip:
-    size: 8312
-    size_str: 8 KiB
-    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.3.0/StreaMu-server.zip
+  StreaMu-Server.zip:
+    size: 22791422
+    size_str: 21 MiB
+    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.4.0/StreaMu-Server.zip
   streamu.3dsx:
     size: 1734760
     size_str: 1 MiB
-    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.3.0/streamu.3dsx
+    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.4.0/streamu.3dsx
   streamu.cia:
     size: 1354688
     size_str: 1 MiB
-    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.3.0/streamu.cia
+    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.4.0/streamu.cia
 github: imissuuuu/StreaMu
 icon: https://raw.githubusercontent.com/imissuuuu/StreaMu/main/assets/icon_48.png
 image: https://raw.githubusercontent.com/imissuuuu/StreaMu/main/assets/banner_256.png
@@ -38,85 +38,98 @@ systems:
 title: StreaMu
 unique_ids:
 - '0xFF3D1'
-update_notes: '<h2 dir="auto">v1.3.0</h2>
+update_notes: '<h2 dir="auto">What''s New</h2>
 
-  <h3 dir="auto">Features</h3>
+  <h3 dir="auto">Standalone Server EXE</h3>
 
   <ul dir="auto">
 
-  <li>Split L/R button action into <strong>Skip Back</strong> and <strong>Skip Fwd</strong>
-  — each independently assignable in Settings</li>
+  <li><strong><code class="notranslate">StreaMu-Server.zip</code></strong> — extract
+  and run. No Python required.</li>
 
-  <li>Search keyboard hint text updated to "Search music..."</li>
+  <li>Automatically downloads FFmpeg and yt-dlp on first launch.</li>
 
   </ul>
 
-  <h3 dir="auto">Bug Fixes</h3>
+  <h3 dir="auto">Improved Documentation</h3>
 
   <ul dir="auto">
 
-  <li>Fix seek bar not pausing when using L/R Play/Pause action</li>
+  <li>Added Quick Start guide for easy setup</li>
 
-  <li>Fix <code class="notranslate">mp3d</code> uninitialized in MP3Player constructor</li>
+  <li>Added Troubleshooting section (connection timeout, firewall, FFmpeg)</li>
+
+  <li>Documented playlist workflow, custom wallpaper, and all settings</li>
+
+  <li>Bilingual (English / Japanese)</li>
 
   </ul>
 
-  <h3 dir="auto">Performance</h3>
+  <h2 dir="auto">Download</h2>
 
-  <ul dir="auto">
+  <markdown-accessiblity-table><table role="table">
 
-  <li>Faster startup: removed 1.1s of artificial sleep delays</li>
+  <thead>
 
-  <li>Startup loading screen now appears before wallpaper decode (no more black screen
-  on launch)</li>
+  <tr>
 
-  </ul>
+  <th>File</th>
 
-  <h3 dir="auto">Improvements</h3>
+  <th>Description</th>
 
-  <ul dir="auto">
+  </tr>
 
-  <li>Track rename feature in Track Options popup (playlist context only)</li>
+  </thead>
 
-  <li>Separated search results from playlist tracks — no more overwriting each other</li>
+  <tbody>
 
-  <li>SearchScreen redesigned to match PlayingScreen layout (PlayBar + seek + hamburger)</li>
+  <tr>
 
-  <li>Network: reduced streaming latency, pipe-based stream generator, Keep-Alive
-  support</li>
+  <td><code class="notranslate">streamu.cia</code></td>
 
-  <li>Fixed DASH fMP4 seek via manual segment fetch + init segment pre-send</li>
+  <td>Install via FBI (HOME Menu)</td>
 
-  </ul>
+  </tr>
 
-  <hr>
+  <tr>
 
-  <h2 dir="auto">v1.2.0</h2>
+  <td><code class="notranslate">streamu.3dsx</code></td>
 
-  <h3 dir="auto">Features</h3>
+  <td>Homebrew Launcher</td>
 
-  <ul dir="auto">
+  </tr>
 
-  <li>Thumbnail display on PlayingScreen top screen (async download, center crop)</li>
+  <tr>
 
-  <li>Thumbnail routed through proxy server (no direct ytimg.com access)</li>
+  <td><code class="notranslate">StreaMu-Server.zip</code></td>
 
-  <li>Delayed thumbnail fetch by 3s to prioritize audio buffering</li>
+  <td>Proxy server (Windows, no dependencies)</td>
 
-  <li>Hide view count when playing from playlist</li>
+  </tr>
 
-  </ul>
+  </tbody>
 
-  <h3 dir="auto">Bug Fixes</h3>
+  </table></markdown-accessiblity-table>
 
-  <ul dir="auto">
+  <h2 dir="auto">Setup</h2>
 
-  <li>Fix crash on START exit when thumbnail is loaded</li>
+  <ol dir="auto">
 
-  </ul>'
-updated: '2026-04-06T17:01:19Z'
-version: v1.3.0
-version_title: v1.3.0
+  <li>Install <code class="notranslate">streamu.cia</code> on your 3DS</li>
+
+  <li>Extract <code class="notranslate">StreaMu-Server.zip</code> and run the EXE
+  inside</li>
+
+  <li>Enter the IP shown on the server dashboard</li>
+
+  <li>Press Y to search and play music</li>
+
+  </ol>
+
+  <p dir="auto">For Mac/Linux or manual setup, see the <a href="../../blob/main/README.md">README</a>.</p>'
+updated: '2026-05-12T05:18:29Z'
+version: v1.4.0
+version_title: v1.4.0
 ---
 StreaMu is a homebrew music player for Nintendo 3DS that lets you search and stream YouTube
   audio directly on your device.
