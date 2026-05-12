@@ -1,0 +1,16 @@
+{
+	"github": "lartodor/Nintendo-3DS-SpeedMaze",
+	"description": "A maze speedrunning game with built in timers.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/lartodor/Nintendo-3DS-SpeedMaze/V1.1/icon.png",
+	"image": "https://raw.githubusercontent.com/lartodor/Nintendo-3DS-SpeedMaze/V1.1/banner.png",
+	"unique_ids": [
+		1024291
+	],
+	"long_description": "A speedrunning game where the player has to get through 10 different mazes. The game has a built in timer system. The game is highly customizable."
+}
