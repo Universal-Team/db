@@ -77,7 +77,7 @@ update_notes: '<h3 dir="auto">Bug Fixes</h3>
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/def9888e-44c1-4fce-b555-a2033aaed9a5"><img
   width="180" height="180" alt="v1.60.2" src="https://github.com/user-attachments/assets/def9888e-44c1-4fce-b555-a2033aaed9a5"
   style="max-width: 100%; height: auto; max-height: 180px;; aspect-ratio: 180 / 180;
-  background-color: var(--bgColor-muted); border-radius: 6px; display: block" class="js-gh-image-fallback"></a>'
+  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>'
 updated: '2026-04-21T08:06:39Z'
 version: v1.60.2
 version_title: v1.60.2

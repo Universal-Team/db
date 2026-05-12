@@ -53,12 +53,12 @@ update_notes: '<h1 dir="auto">PotatoStream</h1>
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/a810c0b0-3cf6-4a24-bcb4-12221882a18e"><img
   width="512" height="256" alt="banner" src="https://github.com/user-attachments/assets/a810c0b0-3cf6-4a24-bcb4-12221882a18e"
   style="max-width: 100%; height: auto; max-height: 256px;; aspect-ratio: 512 / 256;
-  background-color: var(--bgColor-muted); border-radius: 6px; display: block" class="js-gh-image-fallback"></a>
+  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
 
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/145308d6-a33a-4d8a-93e4-1c8276015f4f"><img
   width="272" height="270" alt="qrcode" src="https://github.com/user-attachments/assets/145308d6-a33a-4d8a-93e4-1c8276015f4f"
   style="max-width: 100%; height: auto; max-height: 270px;; aspect-ratio: 272 / 270;
-  background-color: var(--bgColor-muted); border-radius: 6px; display: block" class="js-gh-image-fallback"></a>
+  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
 
   <h2 dir="auto">What''s new in v1.1.0?</h2>
 
