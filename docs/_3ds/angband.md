@@ -18,62 +18,94 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-120-gcebb5ffc9
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-126-g7b2c87010
   downloads:
-    Angband-4.2.6-120-gcebb5ffc9-3ds.zip:
-      size: 24671288
+    Angband-4.2.6-126-g7b2c87010-3ds.zip:
+      size: 24672405
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-120-gcebb5ffc9/Angband-4.2.6-120-gcebb5ffc9-3ds.zip
-    Angband-4.2.6-120-gcebb5ffc9-nds.zip:
-      size: 23328936
+      url: https://github.com/angband/angband/releases/download/4.2.6-126-g7b2c87010/Angband-4.2.6-126-g7b2c87010-3ds.zip
+    Angband-4.2.6-126-g7b2c87010-nds.zip:
+      size: 23329472
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-120-gcebb5ffc9/Angband-4.2.6-120-gcebb5ffc9-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-126-g7b2c87010/Angband-4.2.6-126-g7b2c87010-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>SDL2: check for allocation failures from SDL_strdup() by <a class="user-mention
+    <li>Rework SIGTSTP handling by <a class="user-mention notranslate" data-hovercard-type="user"
+    data-hovercard-url="/users/backwardsEric/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4352790006" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6616"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6616/hovercard"
+    href="https://github.com/angband/angband/pull/6616">#6616</a></li>
+
+    <li>Only set character_saved to true once new save file is in place by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4323041113" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6611"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6611/hovercard"
-    href="https://github.com/angband/angband/pull/6611">#6611</a></li>
+    data-id="4366426551" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6621"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6621/hovercard"
+    href="https://github.com/angband/angband/pull/6621">#6621</a></li>
 
-    <li>workflows: exercise cmake''s SUPPORT_STATS_BACKEND with Linux x11 job by <a
-    class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    <li>cmake: clean up other contents of game subdirectory by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4343554137" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6613"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6613/hovercard"
-    href="https://github.com/angband/angband/pull/6613">#6613</a></li>
+    data-id="4367079271" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6622"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6622/hovercard"
+    href="https://github.com/angband/angband/pull/6622">#6622</a></li>
 
-    <li>Avoid infinite loop in textui_check_break() by <a class="user-mention notranslate"
+    <li>docs: for better theme, run pip via python by <a class="user-mention notranslate"
     data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4350655347" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6614"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6614/hovercard"
-    href="https://github.com/angband/angband/pull/6614">#6614</a></li>
+    data-id="4376491710" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6623"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6623/hovercard"
+    href="https://github.com/angband/angband/pull/6623">#6623</a></li>
+
+    <li>Avoid comparison warnings with gcc 14 on Linux for aarch64 by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4385308399" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6625"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6625/hovercard"
+    href="https://github.com/angband/angband/pull/6625">#6625</a></li>
+
+    <li>Include the Windows DLLs in source archives; exclude .readthedocs.yaml by
+    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4387120756" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6626"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6626/hovercard"
+    href="https://github.com/angband/angband/pull/6626">#6626</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-117-gf1f841fe7...4.2.6-120-gcebb5ffc9"><tt>4.2.6-117-gf1f841fe7...4.2.6-120-gcebb5ffc9</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-120-gcebb5ffc9...4.2.6-126-g7b2c87010"><tt>4.2.6-120-gcebb5ffc9...4.2.6-126-g7b2c87010</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * SDL2: check for allocation failures from SDL_strdup() by @backwardsEric in https://github.com/angband/angband/pull/6611
+    * Rework SIGTSTP handling by @backwardsEric in https://github.com/angband/angband/pull/6616
 
-    * workflows: exercise cmake''s SUPPORT_STATS_BACKEND with Linux x11 job by @backwardsEric
-    in https://github.com/angband/angband/pull/6613
+    * Only set character_saved to true once new save file is in place by @backwardsEric
+    in https://github.com/angband/angband/pull/6621
 
-    * Avoid infinite loop in textui_check_break() by @backwardsEric in https://github.com/angband/angband/pull/6614
+    * cmake: clean up other contents of game subdirectory by @backwardsEric in https://github.com/angband/angband/pull/6622
+
+    * docs: for better theme, run pip via python by @backwardsEric in https://github.com/angband/angband/pull/6623
+
+    * Avoid comparison warnings with gcc 14 on Linux for aarch64 by @backwardsEric
+    in https://github.com/angband/angband/pull/6625
+
+    * Include the Windows DLLs in source archives; exclude .readthedocs.yaml by @backwardsEric
+    in https://github.com/angband/angband/pull/6626
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-117-gf1f841fe7...4.2.6-120-gcebb5ffc9'
-  updated: '2026-05-05T12:01:04Z'
-  version: 4.2.6-120-gcebb5ffc9
-  version_title: 4.2.6-120-gcebb5ffc9
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-120-gcebb5ffc9...4.2.6-126-g7b2c87010'
+  updated: '2026-05-12T12:01:52Z'
+  version: 4.2.6-126-g7b2c87010
+  version_title: 4.2.6-126-g7b2c87010
 source: https://github.com/angband/angband
 stars: 1503
 systems:
