@@ -1,0 +1,29 @@
+{
+  "storeInfo": {
+    "title": "lartodor's Homebrew",
+    "author": "lartodor",
+    "description": "My first 3DS game",
+    "revision": 1
+  },
+  "apps": [
+    {
+      "title": "SpeedMaze",
+      "author": "lartodor",
+      "description": "A simple and fun fast-paced maze speedrunning game.",
+      "category": ["Game"],
+      "version": "1.1.0",
+      "assets": [
+        {
+          "type": "3dsx",
+          "url": "https://github.com/lartodor/Nintendo-3DS-SpeedMaze/releases/download/V1.1.0/speedmaze.3dsx",
+          "filename": "speedmaze.3dsx"
+        },
+        {
+          "type": "cia",
+          "url": "https://github.com/lartodor/Nintendo-3DS-SpeedMaze/releases/download/V1.1.0/speedmaze.cia",
+          "filename": "speedmaze.cia"
+        }
+      ]
+    }
+  ]
+}
