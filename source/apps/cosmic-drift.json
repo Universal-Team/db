@@ -1,0 +1,17 @@
+{
+	"github": "lartodor/CosmicDrift-for-the-Nintendo-3DS",
+	"title": "Cosmic Drift",
+	"description": "Arcade-style drifting space shooter for Nintendo 3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/lartodor/CosmicDrift-for-the-Nintendo-3DS/main/icon.png",
+	"image": "https://raw.githubusercontent.com/lartodor/CosmicDrift-for-the-Nintendo-3DS/main/banner.png",
+	"unique_ids": [
+		1015808
+	],
+	"long_description": "Arcade-style drifting space shooter for Nintendo 3DS. The player fights waves of enemy space creatures while dodging rocks and collecting powerups."
+}
