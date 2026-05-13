@@ -27,7 +27,7 @@ license_name: GNU General Public License v3.0
 qr:
   NoteRoom.cia: https://db.universal-team.net/assets/images/qr/noteroom-cia.png
 source: https://github.com/SprtnDio/NoteRoom
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: NoteRoom
