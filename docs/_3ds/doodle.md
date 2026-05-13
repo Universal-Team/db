@@ -17,7 +17,7 @@ downloads:
     url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.0.1/Doodle.3dsx
 github: ArmstrongThomas/Doodle
 image: https://avatars.githubusercontent.com/u/12937683?v=4&size=128
-image_length: 3415
+image_length: 3404
 layout: app
 screenshots:
 - description: Brush select

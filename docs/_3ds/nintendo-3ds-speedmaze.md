@@ -12,20 +12,26 @@ downloads:
   speedmaze.3dsx:
     size: 151772
     size_str: 148 KiB
-    url: https://github.com/lartodor/Nintendo-3DS-SpeedMaze/releases/download/MazeGame/speedmaze.3dsx
+    url: https://github.com/lartodor/Nintendo-3DS-SpeedMaze/releases/download/V1.1.0/speedmaze.3dsx
+  speedmaze.cia:
+    size: 501696
+    size_str: 489 KiB
+    url: https://github.com/lartodor/Nintendo-3DS-SpeedMaze/releases/download/V1.1.0/speedmaze.cia
   speedmaze.unistore:
-    size: 574
-    size_str: 574 Bytes
-    url: https://github.com/lartodor/Nintendo-3DS-SpeedMaze/releases/download/MazeGame/speedmaze.unistore
+    size: 775
+    size_str: 775 Bytes
+    url: https://github.com/lartodor/Nintendo-3DS-SpeedMaze/releases/download/V1.1.0/speedmaze.unistore
   speedmaze.zip:
-    size: 678530
-    size_str: 662 KiB
-    url: https://github.com/lartodor/Nintendo-3DS-SpeedMaze/releases/download/MazeGame/speedmaze.zip
+    size: 753177
+    size_str: 735 KiB
+    url: https://github.com/lartodor/Nintendo-3DS-SpeedMaze/releases/download/V1.1.0/speedmaze.zip
 github: lartodor/Nintendo-3DS-SpeedMaze
 icon: https://raw.githubusercontent.com/lartodor/Nintendo-3DS-SpeedMaze/V1.1/icon.png
 image: https://raw.githubusercontent.com/lartodor/Nintendo-3DS-SpeedMaze/V1.1/banner.png
 image_length: 71395
 layout: app
+qr:
+  speedmaze.cia: https://db.universal-team.net/assets/images/qr/speedmaze-cia.png
 source: https://github.com/lartodor/Nintendo-3DS-SpeedMaze
 stars: 0
 systems:
@@ -33,27 +39,47 @@ systems:
 title: Nintendo-3DS-SpeedMaze
 unique_ids:
 - '0xFA123'
-update_notes: '<p dir="auto">I added way better customizability, level specific timers,
-  personal best score for full runs and levels, and a trail for the player to see
-  where they''ve been.</p>
+update_notes: '<h2 dir="auto">What''s Changed</h2>
 
-  <p dir="auto">SOON TO COME:<br>
+  <ul dir="auto">
 
-  -global leaderboards<br>
+  <li>V1.1 of my homebrew game "SpeedMaze" by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/lartodor/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/lartodor">@lartodor</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4415900409"
+  data-permission-text="Title is private" data-url="https://github.com/lartodor/Nintendo-3DS-SpeedMaze/issues/1"
+  data-hovercard-type="pull_request" data-hovercard-url="/lartodor/Nintendo-3DS-SpeedMaze/pull/1/hovercard"
+  href="https://github.com/lartodor/Nintendo-3DS-SpeedMaze/pull/1">#1</a></li>
 
-  -better overall look<br>
+  <li>Merge pull request <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="4415900409" data-permission-text="Title is private" data-url="https://github.com/lartodor/Nintendo-3DS-SpeedMaze/issues/1"
+  data-hovercard-type="pull_request" data-hovercard-url="/lartodor/Nintendo-3DS-SpeedMaze/pull/1/hovercard"
+  href="https://github.com/lartodor/Nintendo-3DS-SpeedMaze/pull/1">#1</a> from lartodor/V1.1
+  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lartodor/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lartodor">@lartodor</a>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4415922855"
+  data-permission-text="Title is private" data-url="https://github.com/lartodor/Nintendo-3DS-SpeedMaze/issues/2"
+  data-hovercard-type="pull_request" data-hovercard-url="/lartodor/Nintendo-3DS-SpeedMaze/pull/2/hovercard"
+  href="https://github.com/lartodor/Nintendo-3DS-SpeedMaze/pull/2">#2</a></li>
 
-  -custom UI<br>
+  </ul>
 
-  -custom characters<br>
+  <h2 dir="auto">New Contributors</h2>
 
-  -availabilty on platforms such as Universal Updater</p>
+  <ul dir="auto">
 
-  <p dir="auto">PLease let me know if you have any ideas or find any bugs in the game.</p>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/lartodor/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/lartodor">@lartodor</a>
+  made their first contribution in <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="4415900409" data-permission-text="Title is private" data-url="https://github.com/lartodor/Nintendo-3DS-SpeedMaze/issues/1"
+  data-hovercard-type="pull_request" data-hovercard-url="/lartodor/Nintendo-3DS-SpeedMaze/pull/1/hovercard"
+  href="https://github.com/lartodor/Nintendo-3DS-SpeedMaze/pull/1">#1</a></li>
 
-  <p dir="auto">Enjoy!! :)</p>'
-updated: '2026-05-09T17:10:15Z'
-version: MazeGame
-version_title: 3DS maze speedrunning game (SpeedMaze) V1.1
+  </ul>
+
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/lartodor/Nintendo-3DS-SpeedMaze/compare/MazeGame...V1.1.0"><tt>MazeGame...V1.1.0</tt></a></p>'
+updated: '2026-05-13T19:05:21Z'
+version: V1.1.0
+version_title: V1.1.0
 ---
 A speedrunning game where the player has to get through 10 different mazes. The game has a built in timer system. The game is highly customizable.
