@@ -29,8 +29,10 @@ stars: 3
 systems:
 - 3DS
 title: Tunez3DS
-update_notes: '<h3 dir="auto">Fixes\n- <strong>Touch Interaction</strong>: Verified
-  and finalized the fix for touch-to-open/play actions to ensure reliable responsiveness.</h3>'
+update_notes: '<h3 dir="auto">Fixes-</h3>
+
+  <p dir="auto"><strong>Touch Interaction</strong>: Verified and finalized the fix
+  for touch-to-open/play actions to ensure reliable responsiveness.</p>'
 updated: '2026-05-10T20:11:57Z'
 version: v3.1.7
 version_title: Tunez3DS v3.1.7
