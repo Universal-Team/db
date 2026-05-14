@@ -48,7 +48,7 @@ screenshots:
 - description: Player 2
   url: https://db.universal-team.net/assets/images/screenshots/fspds/player-2.png
 source: https://github.com/NotImplementedLife/FSPDS
-stars: 38
+stars: 39
 systems:
 - DS
 title: FSPDS
