@@ -20,7 +20,7 @@ image: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
 image_length: 630
 layout: app
 source: https://github.com/RocketRobz/NTR_Forwarder
-stars: 110
+stars: 111
 systems:
 - 3DS
 - DS
