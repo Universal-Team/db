@@ -10,13 +10,13 @@ description: Drawing and text Chat Rooms.
 download_page: https://github.com/SprtnDio/NoteRoom/releases
 downloads:
   NoteRoom.3dsx:
-    size: 556840
-    size_str: 543 KiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v2.1.0/NoteRoom.3dsx
+    size: 559496
+    size_str: 546 KiB
+    url: https://github.com/SprtnDio/NoteRoom/releases/download/v2.2.0/NoteRoom.3dsx
   NoteRoom.cia:
-    size: 1117120
+    size: 1118656
     size_str: 1 MiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v2.1.0/NoteRoom.cia
+    url: https://github.com/SprtnDio/NoteRoom/releases/download/v2.2.0/NoteRoom.cia
 github: SprtnDio/NoteRoom
 icon: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/icon.png
 image: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/images/NoteRoom_05.04.26_04.21.54.546.png
@@ -31,72 +31,73 @@ stars: 3
 systems:
 - 3DS
 title: NoteRoom
-update_notes: '<h1 dir="auto">Patch Notes (v2.0 → v2.1)</h1>
+update_notes: '<h1 dir="auto">📝 NoteRoom v2.2 - Update Patch Notes</h1>
 
-  <h2 dir="auto">⚡ Performance &amp; Stability</h2>
+  <p dir="auto">Welcome to the NoteRoom v2.2 update! This release brings highly requested
+  customization features, massive UI improvements, and critical stability fixes to
+  ensure a smoother drawing and chatting experience.</p>
 
-  <ul dir="auto">
-
-  <li><strong>Cleaner thread shutdown</strong> – Network thread now waits indefinitely
-  on exit, eliminating a potential crash when closing the app.</li>
-
-  <li><strong>More robust TLS handshake</strong> – Increased timeout and improved
-  retry logic for low‑bandwidth connections.</li>
-
-  <li><strong>Optimised room list handling</strong> – No more unnecessary server requests
-  for the new support category, reducing network chatter.</li>
-
-  <li><strong>Memory safety</strong> – Additional bounds checking when loading legacy
-  save files prevents ARM11 crashes.</li>
-
-  </ul>
-
-  <h2 dir="auto">🛡️ Stability Fixes</h2>
+  <h3 dir="auto">✨ New Features &amp; Customization</h3>
 
   <ul dir="auto">
 
-  <li>Fixed a bug where the room selection could jump unexpectedly after a server
-  refresh.</li>
+  <li><strong>Colored Chat Messages:</strong> Your text messages will now automatically
+  match the color you currently have equipped for the drawing pen! Stand out in the
+  chat with your favorite color.</li>
 
-  <li>Banned users no longer get stuck in an infinite auth loop – they can still access
-  the dedicated support channel.</li>
+  <li><strong>Rainbow Name Effect:</strong> Selecting the Rainbow color (the far-right
+  option on the color wheel) now applies a beautiful, dynamic, letter-by-letter rainbow
+  gradient to your username in the chat and on the main menu.</li>
 
-  <li>Your own messages and drawings now appear in chat history (no more “disappearing”
-  self‑text).</li>
+  <li><strong>Revamped Rainbow Icon:</strong> The Rainbow color option in the Main
+  Menu color wheel has been completely redesigned. Instead of a solid cyan circle,
+  it now features an awesome concentric rainbow ring design to clearly indicate its
+  function.</li>
 
   </ul>
 
-  <h2 dir="auto">✨ What’s New</h2>
+  <h3 dir="auto">🖼️ UI &amp; Readability Improvements</h3>
 
   <ul dir="auto">
 
-  <li><strong>Support Tickets</strong> category (8th lobby) for bug reports and unban
-  requests.<br>
+  <li><strong>Wider Text Bubbles:</strong> Text messages now fully utilize the width
+  of the chat bubbles. The text wrapping limit was heavily increased (from 35 to 48
+  characters per line), making conversations much easier to read and removing awkward
+  empty spaces.</li>
 
-  Drawing is disabled here; only text messages allowed.</li>
+  <li><strong>Support Room Layout:</strong> Cleaned up the description for the "Support
+  Tickets" room in the sub-menu. The text is now neatly broken into two perfectly
+  centered lines ("Contact Admins" / "Report &amp; Unban Requests").</li>
 
-  <li>Admins can set a ban duration (minutes or permanent).</li>
+  <li><strong>Updated In-App Help:</strong> The <em>Help &amp; Controls</em> section
+  has been added to explain the features.</li>
 
   </ul>
 
-  <h2 dir="auto">🎨 UI Polish</h2>
+  <h3 dir="auto">⚙️ Engine, Performance &amp; Stability</h3>
 
   <ul dir="auto">
 
-  <li>Light theme contrast slightly improved.</li>
+  <li><strong>Save/Load Preview Optimization:</strong> Fixed severe graphical rendering
+  glitches that occurred in the Save/Load menu. Thumbnail previews of highly complex
+  drawings are now processed much more efficiently, preventing the app from exceeding
+  the 3DS GPU object limits and causing screen corruption when browsing your saved
+  artwork.</li>
 
-  <li>Active pen/eraser buttons now show a subtle border.</li>
+  <li><strong>Memory Optimization (RAM):</strong> Reduced the maximum number of loaded
+  chat messages per room from 30 to 15. This significantly reduces the app''s overall
+  RAM usage, preventing random out-of-memory crashes and lag spikes when users post
+  highly detailed drawings in quick succession.</li>
 
-  </ul>
+  <li><strong>Critical App Exit Crash Fix:</strong> Fixed a major bug that caused
+  the 3DS to freeze if you closed the application while the network thread was still
+  actively trying to connect. The engine now utilizes a strict timeout to force the
+  main thread to wait until all socket connections are safely and completely terminated
+  before shutting down.</li>
 
-  <blockquote>
-
-  <p dir="auto"><strong>Compatibility</strong> – v2.1 fully reads old savefiles from
-  v2.0 and automatically upgrades them.</p>
-
-  </blockquote>'
-updated: '2026-05-11T01:28:21Z'
-version: v2.1.0
-version_title: NoteRoom v2.1
+  </ul>'
+updated: '2026-05-15T04:54:19Z'
+version: v2.2.0
+version_title: NoteRoom v2.2
 ---
 NoteRoom is a real-time online drawing and text Chatroom messenger for the Nintendo 2/3DS, inspired by a well known chatroom. Connect globally across themed, dynamic lobbies, share hand-drawn doodles, and view live user counts.
