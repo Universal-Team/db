@@ -10,92 +10,18 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9791536
+    size: 9838420
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.0/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.1/TJAP_3DS.3dsx
   TJAP_3DS.cia:
-    size: 9970624
+    size: 10015680
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.0/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.1/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
-prerelease:
-  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.2.1
-  downloads:
-    TJAP_3DS.3dsx:
-      size: 9794740
-      size_str: 9 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.1/TJAP_3DS.3dsx
-    TJAP_3DS.cia:
-      size: 9974720
-      size_str: 9 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.1/TJAP_3DS.cia
-  qr:
-    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
-  update_notes: '<h2 dir="auto">チェンジログ</h2>
-
-    <ul dir="auto">
-
-    <li><code class="notranslate">#JPOSSCROLL (Travel_time(float)) (position(int))
-    (direction(int))</code>の実装が完了しました。</li>
-
-    <li>ノーツ描画時の高速化</li>
-
-    <li>譜面分岐のタイミングがズレる可能性がある不具合の修正</li>
-
-    <li>0コンボの譜面が再生出来ない可能性のあった不具合の修正</li>
-
-    <li>OLDシリーズで正常に動作しなかった不具合の修正</li>
-
-    </ul>
-
-    <h2 dir="auto">Changelog</h2>
-
-    <ul dir="auto">
-
-    <li>The implementation of <code class="notranslate">#JPOSSCROLL (Travel_time(float))
-    (position(int)) (direction(int))</code> is complete.</li>
-
-    <li>Speeding up when drawing notes</li>
-
-    <li>Fixing a bug that may misset the timing of the score branch</li>
-
-    <li>Fixed a bug that could prevent the playback of songs with 0 combos.</li>
-
-    <li>Fix for a bug that prevented the OLD series from functioning correctly.</li>
-
-    </ul>'
-  update_notes_md: '## チェンジログ
-
-    - `#JPOSSCROLL (Travel_time(float)) (position(int)) (direction(int))`の実装が完了しました。
-
-    - ノーツ描画時の高速化
-
-    - 譜面分岐のタイミングがズレる可能性がある不具合の修正
-
-    - 0コンボの譜面が再生出来ない可能性のあった不具合の修正
-
-    - OLDシリーズで正常に動作しなかった不具合の修正
-
-
-    ## Changelog
-
-    - The implementation of `#JPOSSCROLL (Travel_time(float)) (position(int)) (direction(int))`
-    is complete.
-
-    - Speeding up when drawing notes
-
-    - Fixing a bug that may misset the timing of the score branch
-
-    - Fixed a bug that could prevent the playback of songs with 0 combos.
-
-    - Fix for a bug that prevented the OLD series from functioning correctly.'
-  updated: '2026-03-30T07:04:57Z'
-  version: v2.2.1
-  version_title: TJAPlayer for 3DS v2.2.1
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
@@ -114,27 +40,17 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>風船音符の終了が正しく処理されない不具合の改善</li>
+  <li><code class="notranslate">#JPOSSCROLL (Travel_time(float)) (position(int)) (direction(int))</code>の実装が完了しました。</li>
 
-  <li><code class="notranslate">#GOGOSTART</code>や<code class="notranslate">#GOGOEND</code>でフリーズする可能性のある不具合を修正</li>
+  <li>ノーツ描画時の高速化</li>
 
-  <li>文字コード変換時に「～」が正しく変換されていなかったのを修正</li>
+  <li>譜面分岐のタイミングがズレる可能性がある不具合の修正</li>
 
-  <li>でんでん音符の出現文字を''D''から''P''に変更しました。</li>
+  <li>0コンボの譜面が再生出来ない可能性のあった不具合の修正</li>
 
-  <li>代わりに''D''は時限爆弾音符が登場します。<br>
+  <li>OLDシリーズで正常に動作しなかった不具合の修正</li>
 
-  時限爆弾音符は、連打の終点が来るまでに指定した打数ドンを叩かないと不可判定になります。</li>
-
-  <li><code class="notranslate">BGIMG:</code>タグが機能して無かったのを修正</li>
-
-  <li>譜面の最大行数が8192行から16384行に拡張しました。</li>
-
-  <li>一部演出の追加</li>
-
-  <li>本体をスリープモードに移行しない様にしました。(2026/03/30追記)<br>
-
-  これにより、イヤホン等を挿した状態でAUTOで聴く事が可能になります。</li>
+  <li>試験的にゲームモードを増やしてみました。大体実装出来たらお知らせします。</li>
 
   </ul>
 
@@ -142,38 +58,24 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Improvement of the problem that the end of the balloon note is not processed
-  correctly</li>
+  <li>The implementation of <code class="notranslate">#JPOSSCROLL (Travel_time(float))
+  (position(int)) (direction(int))</code> is complete.</li>
 
-  <li>Fixed a bug that could cause the game to freeze when using <code class="notranslate">#GOGOSTART</code>
-  or <code class="notranslate">#GOGOEND</code>.</li>
+  <li>Speeding up when drawing notes</li>
 
-  <li>Fixed "～" not being converted correctly when converting character codes.</li>
+  <li>Fixing a bug that may misset the timing of the score branch</li>
 
-  <li>The letter that appears for denden notes has been changed from ''D'' to ''P''.</li>
+  <li>Fixed a bug that could prevent the playback of songs with 0 combos.</li>
 
-  <li>Instead of ''D'', a Time Bomb note will appear.<br>
+  <li>Fix for a bug that prevented the OLD series from functioning correctly.</li>
 
-  The Time Bomb note will be considered impossible if the specified number of don
-  strokes are not hit before the end of the Roll.</li>
-
-  <li>Fixed an issue where the <code class="notranslate">BGIMG:</code> tag was not
-  working.</li>
-
-  <li>The maximum number of lines in a musical score has been increased from 8192
-  to 16384.</li>
-
-  <li>The device will no longer enter sleep mode. (Added 2026/03/30)<br>
-
-  This makes it possible to listen in AUTO mode even with earphones or other devices
-  plugged in.</li>
-
-  <li>Addition of some productions</li>
+  <li>I''ve experimentally added more game modes. I''ll let you know once they''re
+  mostly implemented.</li>
 
   </ul>'
-updated: '2026-03-02T03:04:53Z'
-version: v2.2.0
-version_title: TJAPlayer for 3DS v2.2.0
+updated: '2026-03-30T07:04:57Z'
+version: v2.2.1
+version_title: TJAPlayer for 3DS v2.2.1
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
