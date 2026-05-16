@@ -13,15 +13,15 @@ downloads:
   StreaMu-Server.zip:
     size: 22791422
     size_str: 21 MiB
-    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.4.0/StreaMu-Server.zip
+    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.4.1/StreaMu-Server.zip
   streamu.3dsx:
-    size: 1734760
+    size: 1736352
     size_str: 1 MiB
-    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.4.0/streamu.3dsx
+    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.4.1/streamu.3dsx
   streamu.cia:
-    size: 1354688
+    size: 1356224
     size_str: 1 MiB
-    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.4.0/streamu.cia
+    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.4.1/streamu.cia
 github: imissuuuu/StreaMu
 icon: https://raw.githubusercontent.com/imissuuuu/StreaMu/main/assets/icon_48.png
 image: https://raw.githubusercontent.com/imissuuuu/StreaMu/main/assets/banner_256.png
@@ -38,98 +38,37 @@ systems:
 title: StreaMu
 unique_ids:
 - '0xFF3D1'
-update_notes: '<h2 dir="auto">What''s New</h2>
-
-  <h3 dir="auto">Standalone Server EXE</h3>
+update_notes: '<h2 dir="auto">Summary</h2>
 
   <ul dir="auto">
 
-  <li><strong><code class="notranslate">StreaMu-Server.zip</code></strong> — extract
-  and run. No Python required.</li>
+  <li>Added cancelable startup server connection flow.</li>
 
-  <li>Automatically downloads FFmpeg and yt-dlp on first launch.</li>
+  <li>Added Mac/Linux Python server startup script.</li>
+
+  <li>Added GitHub Actions 3DS artifact build workflow.</li>
+
+  <li>Added GitHub Actions packaging tool installation for CIA builds.</li>
 
   </ul>
 
-  <h3 dir="auto">Improved Documentation</h3>
+  <h2 dir="auto">Verification</h2>
 
   <ul dir="auto">
 
-  <li>Added Quick Start guide for easy setup</li>
+  <li>Local clean 3DS build passed.</li>
 
-  <li>Added Troubleshooting section (connection timeout, firewall, FFmpeg)</li>
-
-  <li>Documented playlist workflow, custom wallpaper, and all settings</li>
-
-  <li>Bilingual (English / Japanese)</li>
+  <li>GitHub Actions required check passed on PR <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4460377293" data-permission-text="Title
+  is private" data-url="https://github.com/imissuuuu/StreaMu/issues/1" data-hovercard-type="pull_request"
+  data-hovercard-url="/imissuuuu/StreaMu/pull/1/hovercard" href="https://github.com/imissuuuu/StreaMu/pull/1">#1</a>.</li>
 
   </ul>
 
-  <h2 dir="auto">Download</h2>
-
-  <markdown-accessiblity-table><table role="table">
-
-  <thead>
-
-  <tr>
-
-  <th>File</th>
-
-  <th>Description</th>
-
-  </tr>
-
-  </thead>
-
-  <tbody>
-
-  <tr>
-
-  <td><code class="notranslate">streamu.cia</code></td>
-
-  <td>Install via FBI (HOME Menu)</td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">streamu.3dsx</code></td>
-
-  <td>Homebrew Launcher</td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">StreaMu-Server.zip</code></td>
-
-  <td>Proxy server (Windows, no dependencies)</td>
-
-  </tr>
-
-  </tbody>
-
-  </table></markdown-accessiblity-table>
-
-  <h2 dir="auto">Setup</h2>
-
-  <ol dir="auto">
-
-  <li>Install <code class="notranslate">streamu.cia</code> on your 3DS</li>
-
-  <li>Extract <code class="notranslate">StreaMu-Server.zip</code> and run the EXE
-  inside</li>
-
-  <li>Enter the IP shown on the server dashboard</li>
-
-  <li>Press Y to search and play music</li>
-
-  </ol>
-
-  <p dir="auto">For Mac/Linux or manual setup, see the <a href="../../blob/main/README.md">README</a>.</p>'
-updated: '2026-05-12T05:18:29Z'
-version: v1.4.0
-version_title: v1.4.0
+  <p dir="auto">Android APK prototype changes are not included in this release.</p>'
+updated: '2026-05-16T15:39:44Z'
+version: v1.4.1
+version_title: StreaMu v1.4.1
 ---
 StreaMu is a homebrew music player for Nintendo 3DS that lets you search and stream YouTube
   audio directly on your device.

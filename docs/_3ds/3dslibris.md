@@ -10,29 +10,29 @@ description: An ebook and manga reader for Nintendo 3DS
 download_page: https://github.com/RigleGit/3dslibris/releases
 downloads:
   3dslibris-debug.3dsx:
-    size: 39127244
-    size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.3/3dslibris-debug.3dsx
+    size: 14328112
+    size_str: 13 MiB
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.4/3dslibris-debug.3dsx
   3dslibris-debug.cia:
-    size: 39363520
-    size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.3/3dslibris-debug.cia
+    size: 14566336
+    size_str: 13 MiB
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.4/3dslibris-debug.cia
   3dslibris-sdmc.zip:
     size: 5020749
     size_str: 4 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.3/3dslibris-sdmc.zip
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.4/3dslibris-sdmc.zip
   3dslibris-source.tar.gz:
-    size: 66923506
+    size: 66949361
     size_str: 63 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.3/3dslibris-source.tar.gz
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.4/3dslibris-source.tar.gz
   3dslibris.3dsx:
-    size: 39241132
-    size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.3/3dslibris.3dsx
+    size: 14452496
+    size_str: 13 MiB
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.4/3dslibris.3dsx
   3dslibris.cia:
-    size: 39478208
-    size_str: 37 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.3/3dslibris.cia
+    size: 14689216
+    size_str: 14 MiB
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.6.4/3dslibris.cia
 github: RigleGit/3dslibris
 icon: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/icon-32x32.png
 image: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/banner.png
@@ -53,13 +53,23 @@ stars: 109
 systems:
 - 3DS
 title: 3dslibris
-update_notes: '<h2 dir="auto">3dslibris 2.6.3</h2>
+update_notes: '<h2 dir="auto">3dslibris 2.6.4</h2>
 
-  <p dir="auto">Improved PDF/CBZ speed and EPUB rendering fidelity: global CSS element
-  rules now apply correctly, list marker suppression is more reliable, centered paragraphs
-  behave more consistently, line wrapping is improved, inline figures/captions behave
-  better across both reading screens, and random empty space from page-break and margin
-  flush edge cases is fixed.</p>
+  <p dir="auto">Important bug fixes and improvements for EPUB rendering, PDF/CBZ performance
+  and zoom, in-book settings, and CIA size.</p>
+
+  <p dir="auto">Notable changes</p>
+
+  <ul dir="auto">
+
+  <li>You can now adjust font, size, spacing, orientation, and publisher font-size
+  settings in-book. Press Start to return to the library, otherwise you return to
+  the book with the new settings applied.</li>
+
+  <li>The PDF/CBZ reader is now faster and supports up to 4.0× zoom on both Old 3DS
+  and New 3DS.</li>
+
+  </ul>
 
   <p dir="auto">See the full changelog below for details.</p>
 
@@ -67,48 +77,27 @@ update_notes: '<h2 dir="auto">3dslibris 2.6.3</h2>
 
   <ul dir="auto">
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4366944710"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/83"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/83/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/83">#83</a>: apply global CSS
-  element rules (<code class="notranslate">p {}</code>, <code class="notranslate">body
-  {}</code>, <code class="notranslate">li {}</code>, <code class="notranslate">h1
-  {}</code>, <code class="notranslate">blockquote {}</code>, etc.) to block layout,
-  margins, font-size, and text-align</li>
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4377601431"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/91"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/91/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/91">#91</a>: in-book settings
+  (Select) now shows font, size, spacing, orientation, and publisher font-size controls;
+  exiting automatically reopens the book when any layout-affecting setting changed;
+  footer adds "back" (return to book) and "library" buttons; Start key goes to library</li>
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4347081948"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/76"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/76/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/76">#76</a>: suppress list markers
-  when <code class="notranslate">list-style-type: none</code> is declared on <code
-  class="notranslate">&lt;ol&gt;</code> or <code class="notranslate">&lt;ul&gt;</code>
-  via a bare element selector</li>
+  <li>unify PDF and CBZ maximum zoom to index 6 (4.0×) on both Old 3DS and New 3DS</li>
 
-  <li>make PDF and CBZ fixed-layout viewport panning smooth by blitting cached zoom/preview
-  bitmaps while expensive render/decode work is deferred</li>
+  <li><strong>reduce CIA binary size by ~32 MB by stripping MuPDF''s embedded CJK
+  fallback fonts</strong>; place a font (e.g. NotoSansCJK) in the font directory for
+  CJK PDF rendering</li>
 
-  <li>improve EPUB NCX/NAV/TOC handling and parser coverage</li>
+  <li>fix CIA gallery covers not loading by raising SystemMode to 96 MB and lowering
+  the cover extraction memory threshold</li>
 
-  <li>improve EPUB line wrapping</li>
+  <li>support user-supplied CJK fonts in the font directory for PDF glyph rendering</li>
 
-  <li>improve preformatted text wrapping so whitespace is preferred before splitting
-  long tokens</li>
-
-  <li>improve EPUB <code class="notranslate">&lt;dd&gt;</code> indentation by using
-  block margins instead of injecting literal leading spaces</li>
-
-  <li>improve inline image layout for <code class="notranslate">&lt;figure&gt;</code>
-  / <code class="notranslate">div.figure</code> content with captions</li>
-
-  <li>allow page-mode images and covers to fill the available page box when appropriate</li>
-
-  <li>add a START-button quit shortcut from the library/browser for Homebrew Launcher
-  users</li>
-
-  <li>improve parser dispatch boundaries and integration coverage for real EPUB opens
-  and metadata indexing</li>
-
-  <li>reduce App singleton usage across library, UI, menu, and settings layers</li>
+  <li>render ruby annotations as <code class="notranslate">(text)</code> at 75% size;
+  bold column and row headers in table output</li>
 
   </ul>
 
@@ -116,65 +105,103 @@ update_notes: '<h2 dir="auto">3dslibris 2.6.3</h2>
 
   <ul dir="auto">
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4347167582"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/77"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/77/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/77">#77</a>: fix random empty
-  space when rendering caused by pending block-spacing not flushing correctly at page
-  boundaries</li>
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4413479835"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/98"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/98/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/98">#98</a>: fix "Clear Cache"
+  button showing stale "cleared!" text when re-entering Settings after a cache clear</li>
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4366944710"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/83"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/83/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/83">#83</a>: fix text-align not
-  rendering when declared on a bare element selector (<code class="notranslate">p
-  { text-align: center }</code>)</li>
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4413432256"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/97"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/97/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/97">#97</a>: fix CSS keyword
+  font sizes (<code class="notranslate">font-size: small</code>, <code class="notranslate">x-small</code>,
+  <code class="notranslate">smaller</code>, etc.) rendering at the wrong size when
+  "Respect publisher font size" is off</li>
+
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4413498510"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/99"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/99/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/99">#99</a>: fix incomplete TOC
+  index in large books</li>
 
   <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4347081948"
   data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/76"
   data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/76/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/76">#76</a>: fix list markers
-  not suppressing when the CSS rule targets the parent <code class="notranslate">&lt;ol&gt;</code>/<code
-  class="notranslate">&lt;ul&gt;</code> element rather than the <code class="notranslate">&lt;li&gt;</code>
-  directly</li>
+  href="https://github.com/RigleGit/3dslibris/issues/76">#76</a>: fix only the first
+  linked CSS stylesheet being loaded; books with a non-CSS file (e.g. <code class="notranslate">.xpgt</code>)
+  before the <code class="notranslate">.css</code> now apply all CSS rules correctly</li>
 
-  <li>fix page break edge cases in EPUB reflow</li>
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4363217365"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/78"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/78/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/78">#78</a>: (hopefully™️) fix
+  HOME button crashes in debug builds caused by SD card I/O in the APT hook callback
+  on the system thread</li>
 
-  <li>fix EPUB screen transitions so parser state and rendered page buffers stay synchronized
-  between left/right reading screens</li>
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4413861981"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/100"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/100/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/100">#100</a>: fix DPad controls
+  in inline link focus mode: UP/DOWN now navigate across pages; LEFT/RIGHT corrected
+  for portrait orientation</li>
 
-  <li>fix block-boundary edge cases where pretty-printed whitespace between XHTML
-  block elements could consume pending breaks</li>
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4380629950"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/96"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/96/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/96">#96</a>: fix transparent
+  PNG inline images (e.g. decorative banners/ornaments) rendering with a white background
+  instead of compositing against the page</li>
 
-  <li>fix heading spacing when a heading follows existing content</li>
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4380629950"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/96"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/96/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/96">#96</a>: fix images inside
+  EPUB table cells producing a stray <code class="notranslate">[image]</code> text
+  artifact or white squares at the top of pages; table-cell images are now silently
+  suppressed</li>
 
-  <li>fix page-mode inline images on the second reading screen incorrectly advancing
-  to a blank next screen</li>
+  <li>fix superscript (<code class="notranslate">&lt;sup&gt;</code>) and subscript
+  (<code class="notranslate">&lt;sub&gt;</code>) text rendering: replaced box-filter
+  downscaling with native FreeType rendering at 70% pixel size for sharper glyphs</li>
 
-  <li>fix large EPUB inline JPGs failing to draw on constrained 3DS memory by using
-  bounded subsampled decode</li>
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4366944710"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/83"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/83/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/83">#83</a>: fix <code class="notranslate">text-align:
+  center</code> (and <code class="notranslate">right</code>) paragraphs appearing
+  left-aligned when the line text is wider than the screen; each word-wrapped visual
+  line is now centered independently</li>
 
-  <li>fix figure-with-caption images on the second reading screen being pushed too
-  aggressively to the next spread</li>
+  <li>fix centered text (<code class="notranslate">text-align: center</code>/<code
+  class="notranslate">right</code>) appearing right-shifted on the second screen</li>
 
-  <li>fix bottom reading-screen margin handling by using the compact margin resolver
-  consistently</li>
+  <li>fix continuation wrap lines on the second screen starting with incorrect left
+  margin after screen overflow</li>
 
-  <li>fix a MOBI page-cache compatibility regression by bumping the cache version
-  after line-break behavior changed</li>
+  <li>fix list items containing an inner <code class="notranslate">&lt;p&gt;</code>
+  element rendering the list marker on a separate line instead of inline with the
+  content</li>
 
-  <li>fix old-3DS gallery covers being skipped when the previous memory guard was
-  too conservative for real hardware</li>
+  <li>support CSS <code class="notranslate">text-indent</code> property for first-line
+  paragraph indentation (px, em, pt, in units)</li>
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4346280911"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/68"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/68/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/68">#68</a>: mitigate Old 3DS
-  <code class="notranslate">.3dsx</code> HOME/APT crashes by handling pending suspend
-  before more graphics/input work</li>
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4366971031"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/84"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/84/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/84">#84</a>: honor CSS <code
+  class="notranslate">margin-top</code> and <code class="notranslate">margin-bottom</code>
+  on block elements (<code class="notranslate">div</code>, <code class="notranslate">aside</code>,
+  <code class="notranslate">blockquote</code>, <code class="notranslate">figure</code>,
+  <code class="notranslate">caption</code>, <code class="notranslate">dd</code>);
+  default spacing preserved when no CSS value is specified</li>
 
-  <li>fix flowed text emission so local left margins cannot move text left of the
-  base reading margin</li>
+  <li>fix CSS class <code class="notranslate">font-weight: bold</code> and <code class="notranslate">font-style:
+  italic</code> being silently ignored; class-level bold/italic now applies to inline
+  text</li>
+
+  <li>fix returning from in-book settings leaving the top screen blank (book text
+  now redraws immediately on return)</li>
 
   </ul>
 
@@ -182,55 +209,28 @@ update_notes: '<h2 dir="auto">3dslibris 2.6.3</h2>
 
   <ul dir="auto">
 
-  <li>extract parser and renderer dispatch layers for EPUB, MOBI, FB2, TXT, RTF, ODT,
-  PDF, CBZ</li>
+  <li>extract ten handler modules from <code class="notranslate">book_xml_parser.cpp</code>:
+  heading, table capture, inline image, anchor, flow emission, screen advancement,
+  element style, inline element, block element, and FB2 element handlers</li>
 
-  <li>move <code class="notranslate">Book::Index</code> to <code class="notranslate">book_parser::Index</code></li>
+  <li>extract CSS element handler dispatch into dedicated per-concern compilation
+  units</li>
 
-  <li>remove <code class="notranslate">Book::Open</code>, move open/parse/index dispatch
-  into <code class="notranslate">book_parser</code>, and unify the fixed-layout book
-  path</li>
+  <li>split five large source files into focused translation units: <code class="notranslate">mupdf_view.cpp</code>,
+  <code class="notranslate">book_xml_css_style_utils.cpp</code>, <code class="notranslate">text_renderer.cpp</code>,
+  <code class="notranslate">book_xml_parser.cpp</code> (support helpers), <code class="notranslate">path_utils.h</code></li>
 
-  <li>move public rendering and fixed-layout dispatch into <code class="notranslate">book_renderer</code></li>
+  <li>extract <code class="notranslate">cover_cache</code>, <code class="notranslate">GoToPageDialog</code>,
+  fixed-layout and reflowable input handlers, and <code class="notranslate">epub_css_tokenizer</code>
+  into dedicated modules</li>
 
-  <li>remove <code class="notranslate">Text::app</code></li>
+  <li>expand FB2 integration test coverage</li>
 
-  <li>extract gradient drawing from <code class="notranslate">App</code></li>
+  <li>add page alignment utils test coverage (<code class="notranslate">MeasureFirstVisualLineWidth</code>,
+  centered/right-aligned overflow)</li>
 
-  <li>decouple <code class="notranslate">Text</code>, touch utilities, browser views,
-  library helpers, and menu layer from <code class="notranslate">App</code></li>
-
-  <li>move the NDS/3DS hardware reference docs out of this repository into <a href="https://github.com/RigleGit/gba-ds-3ds-specs">gba-ds-3ds-specs</a></li>
-
-  <li>expand host integration, CSS, NCX/NAV, FB2 metadata, TXT/FB2/RTF, and page-cache
-  test coverage</li>
-
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4346280911"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/68"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/68/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/68">#68</a>: add targeted debug
-  lifecycle logs for APT suspend/resume/exit and shutdown diagnostics</li>
-
-  <li>keep host parser integration tests linked with the shared binary/ZIP helpers
-  used by cache and EPUB image paths</li>
-
-  </ul>
-
-  <h3 dir="auto">Testing</h3>
-
-  <ul dir="auto">
-
-  <li>host test suite now covers 110 scripts</li>
-
-  <li>add real EPUB integration coverage for <code class="notranslate">epub_parser::Open</code>,
-  <code class="notranslate">epub_parser::Index</code>, <code class="notranslate">book_parser::Open
-  -&gt; EPUB</code>, and <code class="notranslate">book_parser::Index -&gt; EPUB</code></li>
-
-  <li>add regression coverage for preformatted wrapping, inline figure placement,
-  bounded inline-image JPEG decode sizing, and old-3DS cover warmup thresholds</li>
-
-  <li>add <code class="notranslate">coverage-host</code> reporting for host-testable
-  code paths</li>
+  <li>replace hardcoded screen dimensions and consolidate repeated screen-dimension
+  constants into shared headers</li>
 
   </ul>
 
@@ -245,19 +245,40 @@ update_notes: '<h2 dir="auto">3dslibris 2.6.3</h2>
 
   <li><strong>Issue reports and testing:</strong> Thanks to everyone who reported
   and followed up on <a class="issue-link js-issue-link" data-error-text="Failed to
-  load title" data-id="4346280911" data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/68"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/68/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/68">#68</a>, <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="4347081948" data-permission-text="Title
-  is private" data-url="https://github.com/RigleGit/3dslibris/issues/76" data-hovercard-type="issue"
-  data-hovercard-url="/RigleGit/3dslibris/issues/76/hovercard" href="https://github.com/RigleGit/3dslibris/issues/76">#76</a>,
-  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4347167582"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/77"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/77/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/77">#77</a> and <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="4366944710" data-permission-text="Title
-  is private" data-url="https://github.com/RigleGit/3dslibris/issues/83" data-hovercard-type="issue"
-  data-hovercard-url="/RigleGit/3dslibris/issues/83/hovercard" href="https://github.com/RigleGit/3dslibris/issues/83">#83</a>.</li>
+  load title" data-id="4347081948" data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/76"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/76/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/76">#76</a>, <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4363217365" data-permission-text="Title
+  is private" data-url="https://github.com/RigleGit/3dslibris/issues/78" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/78/hovercard" href="https://github.com/RigleGit/3dslibris/issues/78">#78</a>,
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4366944710"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/83"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/83/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/83">#83</a>, <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4366971031" data-permission-text="Title
+  is private" data-url="https://github.com/RigleGit/3dslibris/issues/84" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/84/hovercard" href="https://github.com/RigleGit/3dslibris/issues/84">#84</a>,
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4377601431"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/91"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/91/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/91">#91</a>, <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4380629950" data-permission-text="Title
+  is private" data-url="https://github.com/RigleGit/3dslibris/issues/96" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/96/hovercard" href="https://github.com/RigleGit/3dslibris/issues/96">#96</a>,
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4413432256"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/97"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/97/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/97">#97</a>, <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4413479835" data-permission-text="Title
+  is private" data-url="https://github.com/RigleGit/3dslibris/issues/98" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/98/hovercard" href="https://github.com/RigleGit/3dslibris/issues/98">#98</a>,
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4413498510"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/99"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/99/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/99">#99</a>, and <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4413861981" data-permission-text="Title
+  is private" data-url="https://github.com/RigleGit/3dslibris/issues/100" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/100/hovercard" href="https://github.com/RigleGit/3dslibris/issues/100">#100</a>.</li>
 
   <li><strong>Fueling the Code:</strong> A special thank you to my <strong>Ko-fi supporters</strong>.
   Your donations help keep the project going and keep me caffeinated!</li>
@@ -285,7 +306,7 @@ update_notes: '<h2 dir="auto">3dslibris 2.6.3</h2>
   <li><code class="notranslate">3dslibris-source.tar.gz</code></li>
 
   </ul>'
-updated: '2026-05-09T11:26:47Z'
-version: v2.6.3
-version_title: v2.6.3
+updated: '2026-05-16T14:29:05Z'
+version: v2.6.4
+version_title: v2.6.4
 ---
