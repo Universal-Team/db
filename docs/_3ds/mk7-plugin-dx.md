@@ -20,7 +20,7 @@ downloads:
     url: https://github.com/SFC-hacker/Mario-Kart-7-Plugin-Deluxe/releases/download/v3.0.6/plugin.pack.zip
 github: SFC-hacker/Mario-Kart-7-Plugin-Deluxe
 image: https://avatars.githubusercontent.com/u/67318218?v=4&size=128
-image_length: 4502
+image_length: 4505
 layout: app
 script_message: 'Warning: If you are caught cheating
 

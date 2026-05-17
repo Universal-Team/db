@@ -20,7 +20,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 source: https://github.com/volkanturkut/ndsForwarder
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: ndsForwarder
