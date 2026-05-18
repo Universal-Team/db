@@ -1,0 +1,12 @@
+{
+	"github": "Foxy-no/GESF3",
+	"description": "GBA EEPROM Save Fixer 3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon": "https://raw.githubusercontent.com/Foxy-no/GESF3/refs/heads/main/icon.png",
+	"long_description": "Nintendo 3DS homebrew utility for converting GBA EEPROM save files between emulator and `open_agb_firm` formats.\n\nGBA games save progress in 3 different types of .sav files.\nEEPROM type .sav files need to be converted/fixed if you want to migrate from emulator to `open_agb_firm` or vice versa. This tool will convert those files for you.\n\nI reccomend checking my GitHub repository for more information:\nhttps://github.com/Foxy-no/GESF3"
+}
