@@ -24,7 +24,7 @@ screenshots:
 - description: Breath of the wild
   url: https://db.universal-team.net/assets/images/screenshots/horihd-gallery/breath-of-the-wild.png
 source: https://github.com/RocketRobz/HoriHD-Gallery
-stars: 10
+stars: 11
 systems:
 - 3DS
 title: HoriHD-Gallery
