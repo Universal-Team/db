@@ -27,7 +27,7 @@ license_name: GNU General Public License v3.0
 qr:
   InPost3DS.cia: https://db.universal-team.net/assets/images/qr/inpost3ds-cia.png
 source: https://github.com/TehFridge/InPost3DS
-stars: 63
+stars: 64
 systems:
 - 3DS
 title: InPost3DS
