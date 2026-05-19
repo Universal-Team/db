@@ -3,8 +3,8 @@ author: Volkan Turkut
 avatar: https://avatars.githubusercontent.com/u/52756666?v=4
 categories:
 - utility
-color: '#736050'
-color_bg: '#736050'
+color: '#646a92'
+color_bg: '#575d80'
 created: '2026-05-13T23:41:34Z'
 description: Generate and Install NDS Forwarders
 download_page: https://github.com/volkanturkut/NDSForwarder/releases
@@ -14,8 +14,9 @@ downloads:
     size_str: 1 MiB
     url: https://github.com/volkanturkut/ndsForwarder/releases/download/1.4.7/ndsForwarder.3dsx
 github: volkanturkut/NDSForwarder
-image: https://avatars.githubusercontent.com/u/52756666?v=4&size=128
-image_length: 22768
+icon: https://raw.githubusercontent.com/volkanturkut/ndsForwarder/refs/heads/master/icon.png
+image: https://raw.githubusercontent.com/volkanturkut/ndsForwarder/refs/heads/master/icon.png
+image_length: 1089
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
@@ -89,6 +90,7 @@ update_notes: '<p dir="auto">Requires full CFW via Rosalina (b9s+luma3ds)</p>
 updated: '2026-05-13T23:54:18Z'
 version: 1.4.7
 version_title: 1.4.7
+wiki: https://wiki.ds-homebrew.com/ds-index/forwarders?tab=3ds-sd-card/
 ---
 ### Installing
 1. Download the [3DS SD card forwarder pack](https://github.com/RocketRobz/NTR_Forwarder/releases/latest/download/DS.Game.Forwarder.pack.nds-bootstrap.7z)
