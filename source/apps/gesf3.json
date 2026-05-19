@@ -1,0 +1,12 @@
+{
+	"github": "Foxy-no/GESF3",
+	"description": "GBA EEPROM Save Fixer 3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon": "https://raw.githubusercontent.com/Foxy-no/GESF3/refs/heads/main/icon.png",
+	"long_description": "Nintendo 3DS homebrew utility for converting GBA EEPROM save files between emulator and `open_agb_firm` formats.\n\nMore information:\nhttps://github.com/Foxy-no/GESF3"
+}
