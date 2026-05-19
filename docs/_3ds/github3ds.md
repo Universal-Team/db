@@ -14,11 +14,11 @@ downloads:
   github3ds.3dsx:
     size: 994804
     size_str: 971 KiB
-    url: https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/1.0/github3ds.3dsx
+    url: https://gitlab.com/gitbrew/GitHub3DS/-/raw/files/files/1.0/github3ds.3dsx
   github3ds.cia:
     size: 1019328
     size_str: 995 KiB
-    url: https://gitlab.com/MorrisTheGamer/GitHub3DS/-/raw/files/files/1.0/GitHub3DS.cia
+    url: https://gitlab.com/gitbrew/GitHub3DS/-/raw/files/files/1.0/GitHub3DS.cia
 gitlab: MorrisTheGamer/GitHub3DS
 icon: https://raw.githubusercontent.com/Thorsten-sys/anothercoolpresentation/main/icon.png
 image: https://raw.githubusercontent.com/Thorsten-sys/anothercoolpresentation/main/banner.png
@@ -26,7 +26,7 @@ image_length: 6634
 layout: app
 qr:
   github3ds.cia: https://db.universal-team.net/assets/images/qr/github3ds-cia.png
-source: https://gitlab.com/MorrisTheGamer/GitHub3DS
+source: https://gitlab.com/gitbrew/GitHub3DS
 stars: 0
 systems:
 - 3DS
@@ -34,7 +34,7 @@ title: GitHub3DS
 unique_ids:
 - '0xF133D'
 update_notes: <p data-sourcepos="1:1-1:13" dir="auto">some fixes...</p>
-updated: '2026-04-12T21:31:01.221Z'
+updated: '2026-04-12T21:31:01.000Z'
 version: v1.0.1
 version_title: fix for some things
 wiki: https://gitlab.com/MorrisTheGamer/github3ds/-/wikis/home

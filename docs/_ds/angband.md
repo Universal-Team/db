@@ -18,94 +18,94 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-126-g7b2c87010
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-132-g69ee95345
   downloads:
-    Angband-4.2.6-126-g7b2c87010-3ds.zip:
-      size: 24672405
+    Angband-4.2.6-132-g69ee95345-3ds.zip:
+      size: 24672772
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-126-g7b2c87010/Angband-4.2.6-126-g7b2c87010-3ds.zip
-    Angband-4.2.6-126-g7b2c87010-nds.zip:
-      size: 23329472
+      url: https://github.com/angband/angband/releases/download/4.2.6-132-g69ee95345/Angband-4.2.6-132-g69ee95345-3ds.zip
+    Angband-4.2.6-132-g69ee95345-nds.zip:
+      size: 23329640
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-126-g7b2c87010/Angband-4.2.6-126-g7b2c87010-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-132-g69ee95345/Angband-4.2.6-132-g69ee95345-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>Rework SIGTSTP handling by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/backwardsEric/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4352790006" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6616"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6616/hovercard"
-    href="https://github.com/angband/angband/pull/6616">#6616</a></li>
-
-    <li>Only set character_saved to true once new save file is in place by <a class="user-mention
+    <li>First pass at changing the handling of the fatal signals by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4366426551" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6621"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6621/hovercard"
-    href="https://github.com/angband/angband/pull/6621">#6621</a></li>
+    data-id="4354208595" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6617"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6617/hovercard"
+    href="https://github.com/angband/angband/pull/6617">#6617</a></li>
 
-    <li>cmake: clean up other contents of game subdirectory by <a class="user-mention
+    <li>Tighten error checking when writing the high scores file by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4367079271" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6622"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6622/hovercard"
-    href="https://github.com/angband/angband/pull/6622">#6622</a></li>
+    data-id="4355031003" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6618"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6618/hovercard"
+    href="https://github.com/angband/angband/pull/6618">#6618</a></li>
 
-    <li>docs: for better theme, run pip via python by <a class="user-mention notranslate"
+    <li>Correct the results from the ''S'' debugging command by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4406602195" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6627"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6627/hovercard"
+    href="https://github.com/angband/angband/pull/6627">#6627</a></li>
+
+    <li>Tweak stats.log from ''S'' debugging command by <a class="user-mention notranslate"
     data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4376491710" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6623"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6623/hovercard"
-    href="https://github.com/angband/angband/pull/6623">#6623</a></li>
+    data-id="4407321476" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6628"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6628/hovercard"
+    href="https://github.com/angband/angband/pull/6628">#6628</a></li>
 
-    <li>Avoid comparison warnings with gcc 14 on Linux for aarch64 by <a class="user-mention
+    <li>Use text_mbstowcs() return value in Term_addstr() by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4385308399" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6625"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6625/hovercard"
-    href="https://github.com/angband/angband/pull/6625">#6625</a></li>
+    data-id="4425619265" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6630"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6630/hovercard"
+    href="https://github.com/angband/angband/pull/6630">#6630</a></li>
 
-    <li>Include the Windows DLLs in source archives; exclude .readthedocs.yaml by
-    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    <li>Windows screenshot: rearrange to avoid warning from Microsoft''s compiler
+    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4387120756" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6626"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6626/hovercard"
-    href="https://github.com/angband/angband/pull/6626">#6626</a></li>
+    data-id="4438436972" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6631"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6631/hovercard"
+    href="https://github.com/angband/angband/pull/6631">#6631</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-120-gcebb5ffc9...4.2.6-126-g7b2c87010"><tt>4.2.6-120-gcebb5ffc9...4.2.6-126-g7b2c87010</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-126-g7b2c87010...4.2.6-132-g69ee95345"><tt>4.2.6-126-g7b2c87010...4.2.6-132-g69ee95345</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * Rework SIGTSTP handling by @backwardsEric in https://github.com/angband/angband/pull/6616
+    * First pass at changing the handling of the fatal signals by @backwardsEric in
+    https://github.com/angband/angband/pull/6617
 
-    * Only set character_saved to true once new save file is in place by @backwardsEric
-    in https://github.com/angband/angband/pull/6621
+    * Tighten error checking when writing the high scores file by @backwardsEric in
+    https://github.com/angband/angband/pull/6618
 
-    * cmake: clean up other contents of game subdirectory by @backwardsEric in https://github.com/angband/angband/pull/6622
+    * Correct the results from the ''S'' debugging command by @backwardsEric in https://github.com/angband/angband/pull/6627
 
-    * docs: for better theme, run pip via python by @backwardsEric in https://github.com/angband/angband/pull/6623
+    * Tweak stats.log from ''S'' debugging command by @backwardsEric in https://github.com/angband/angband/pull/6628
 
-    * Avoid comparison warnings with gcc 14 on Linux for aarch64 by @backwardsEric
-    in https://github.com/angband/angband/pull/6625
+    * Use text_mbstowcs() return value in Term_addstr() by @backwardsEric in https://github.com/angband/angband/pull/6630
 
-    * Include the Windows DLLs in source archives; exclude .readthedocs.yaml by @backwardsEric
-    in https://github.com/angband/angband/pull/6626
-
+    * Windows screenshot: rearrange to avoid warning from Microsoft''s compiler by
+    @backwardsEric in https://github.com/angband/angband/pull/6631
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-120-gcebb5ffc9...4.2.6-126-g7b2c87010'
-  updated: '2026-05-12T12:01:52Z'
-  version: 4.2.6-126-g7b2c87010
-  version_title: 4.2.6-126-g7b2c87010
+
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-126-g7b2c87010...4.2.6-132-g69ee95345'
+  updated: '2026-05-19T13:23:18Z'
+  version: 4.2.6-132-g69ee95345
+  version_title: 4.2.6-132-g69ee95345
 source: https://github.com/angband/angband
 stars: 1508
 systems:
