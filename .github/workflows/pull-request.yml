@@ -40,8 +40,8 @@ jobs:
 
         cat results.txt
 
-    - name: Comment results
-      if: ${{ hashFiles('results.txt') != '' }}
-      uses: thollander/actions-comment-pull-request@v3
-      with:
-        file-path: results.txt
+#    - name: Comment results
+#      if: ${{ hashFiles('results.txt') != '' }}
+#      uses: thollander/actions-comment-pull-request@v3
+#      with:
+#        file-path: results.txt
