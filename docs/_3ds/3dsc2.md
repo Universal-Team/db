@@ -12,11 +12,11 @@ downloads:
   3dsc2_calib.3dsx:
     size: 50376
     size_str: 49 KiB
-    url: https://github.com/cylin577/3DSC2/releases/download/v1.0.0/3dsc2_calib.3dsx
+    url: https://github.com/cylin577/3DSC2/releases/download/v1.1.0/3dsc2_calib.3dsx
   3dsc2_calib.cia:
     size: 291776
     size_str: 284 KiB
-    url: https://github.com/cylin577/3DSC2/releases/download/v1.0.0/3dsc2_calib.cia
+    url: https://github.com/cylin577/3DSC2/releases/download/v1.1.0/3dsc2_calib.cia
 github: cylin577/3DSC2
 icon: https://raw.githubusercontent.com/cylin577/3DSC2/main/resources/icon.png
 image: https://raw.githubusercontent.com/cylin577/3DSC2/main/resources/banner.png
@@ -33,11 +33,9 @@ systems:
 title: 3DSC2
 unique_ids:
 - '0x1BF52'
-update_notes: <p dir="auto">Our first release! This release brings (Or add) a new
-  ArUco based calibration method, which is 100x better than color based method as
-  a lilttle change on camera can screw the calibration up</p>
-updated: '2026-05-17T03:37:45Z'
-version: v1.0.0
-version_title: v1.0.0
+update_notes: <p dir="auto">The first version that comes with pre-build bins</p>
+updated: '2026-05-21T13:22:10Z'
+version: v1.1.0
+version_title: v1.1.0
 ---
 The calibration app for 3DSC2
