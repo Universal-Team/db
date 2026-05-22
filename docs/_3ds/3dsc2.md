@@ -33,8 +33,8 @@ systems:
 title: 3DSC2
 unique_ids:
 - '0x1BF52'
-update_notes: <p dir="auto">The first version that comes with pre-build bins</p>
-updated: '2026-05-21T13:22:10Z'
+update_notes: <p dir="auto">This release comes with pre-built binaries!</p>
+updated: '2026-05-22T11:08:17Z'
 version: v1.1.0
 version_title: v1.1.0
 ---
