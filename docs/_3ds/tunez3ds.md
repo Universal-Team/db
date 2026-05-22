@@ -25,7 +25,7 @@ layout: app
 qr:
   Tunez3DS.cia: https://db.universal-team.net/assets/images/qr/tunez3ds-cia.png
 source: https://github.com/veylo-3DS/Tunez-3DS
-stars: 4
+stars: 5
 systems:
 - 3DS
 title: Tunez3DS

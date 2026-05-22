@@ -11,17 +11,17 @@ description: ' A homebrew music player for Nintendo 3DS that streams YouTube aud
 download_page: https://github.com/imissuuuu/StreaMu/releases
 downloads:
   StreaMu-Server.zip:
-    size: 22791422
+    size: 22804302
     size_str: 21 MiB
-    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.4.1/StreaMu-Server.zip
+    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.5.0/StreaMu-Server.zip
   streamu.3dsx:
-    size: 1736352
+    size: 1963692
     size_str: 1 MiB
-    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.4.1/streamu.3dsx
+    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.5.0/streamu.3dsx
   streamu.cia:
-    size: 1356224
+    size: 1541056
     size_str: 1 MiB
-    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.4.1/streamu.cia
+    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.5.0/streamu.cia
 github: imissuuuu/StreaMu
 icon: https://raw.githubusercontent.com/imissuuuu/StreaMu/main/assets/icon_48.png
 image: https://raw.githubusercontent.com/imissuuuu/StreaMu/main/assets/banner_256.png
@@ -38,37 +38,75 @@ systems:
 title: StreaMu
 unique_ids:
 - '0xFF3D1'
-update_notes: '<h2 dir="auto">Summary</h2>
+update_notes: '<h1 dir="auto">StreaMu v1.5.0 Release Notes</h1>
+
+  <h2 dir="auto">Highlights</h2>
 
   <ul dir="auto">
 
-  <li>Added cancelable startup server connection flow.</li>
+  <li>Opus Direct is now the only release playback path.</li>
 
-  <li>Added Mac/Linux Python server startup script.</li>
+  <li>MP3 Proxy and server-side FFmpeg transcoding have been removed.</li>
 
-  <li>Added GitHub Actions 3DS artifact build workflow.</li>
+  <li>The proxy server no longer requires FFmpeg.</li>
 
-  <li>Added GitHub Actions packaging tool installation for CIA builds.</li>
+  <li>Existing <code class="notranslate">audio_path</code> settings, including old
+  <code class="notranslate">mp3</code> and <code class="notranslate">aac_direct</code>
+  values, are treated as Opus Direct.</li>
 
   </ul>
 
-  <h2 dir="auto">Verification</h2>
+  <h2 dir="auto">Upgrade Notes</h2>
 
   <ul dir="auto">
 
-  <li>Local clean 3DS build passed.</li>
+  <li>Update both the 3DS app and the proxy server together.</li>
 
-  <li>GitHub Actions required check passed on PR <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="4460377293" data-permission-text="Title
-  is private" data-url="https://github.com/imissuuuu/StreaMu/issues/1" data-hovercard-type="pull_request"
-  data-hovercard-url="/imissuuuu/StreaMu/pull/1/hovercard" href="https://github.com/imissuuuu/StreaMu/pull/1">#1</a>.</li>
+  <li>Use the latest <code class="notranslate">StreaMu-Server.zip</code>; older proxy
+  servers may not provide the required <code class="notranslate">/stream_opus_ogg</code>
+  endpoint.</li>
+
+  <li>If playback fails for a specific video, please include the video ID and the
+  server dashboard log when reporting it.</li>
 
   </ul>
 
-  <p dir="auto">Android APK prototype changes are not included in this release.</p>'
-updated: '2026-05-16T15:39:44Z'
-version: v1.4.1
-version_title: StreaMu v1.4.1
+  <h2 dir="auto">Release Assets</h2>
+
+  <ul dir="auto">
+
+  <li><code class="notranslate">streamu.cia</code></li>
+
+  <li><code class="notranslate">streamu.3dsx</code></li>
+
+  <li><code class="notranslate">StreaMu-Server.zip</code>
+
+  <ul dir="auto">
+
+  <li>Includes <code class="notranslate">StreaMu-Server.exe</code>, <code class="notranslate">LICENSE</code>,
+  and <code class="notranslate">THIRD_PARTY_LICENSES.md</code>.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <h2 dir="auto">Validation</h2>
+
+  <ul dir="auto">
+
+  <li>Clean 3DS build passed and produced <code class="notranslate">streamu.3dsx</code>
+  / <code class="notranslate">streamu.cia</code>.</li>
+
+  <li>Python syntax check passed for proxy server modules.</li>
+
+  <li>Manual 3DS smoke test passed.</li>
+
+  </ul>'
+updated: '2026-05-22T08:53:06Z'
+version: v1.5.0
+version_title: StreaMu v1.5.0
 ---
 StreaMu is a homebrew music player for Nintendo 3DS that lets you search and stream YouTube
   audio directly on your device.
