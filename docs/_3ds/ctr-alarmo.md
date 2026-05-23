@@ -1,0 +1,83 @@
+---
+author: Felix Homebrew
+avatar: https://avatars.githubusercontent.com/u/120497980?v=4
+categories:
+- app
+created: '2025-09-28T23:41:46Z'
+description: A silly alarm clock app for the Nintendo 3DS
+download_page: https://github.com/FelixHomebrew/CtrAlarmo/releases
+downloads:
+  CtrAlarmo.3dsx:
+    size: 1263176
+    size_str: 1 MiB
+    url: https://github.com/FelixHomebrew/CtrAlarmo/releases/download/1.1.0/CtrAlarmo.3dsx
+  CtrAlarmo.cia:
+    size: 1307584
+    size_str: 1 MiB
+    url: https://github.com/FelixHomebrew/CtrAlarmo/releases/download/1.1.0/CtrAlarmo.cia
+github: FelixHomebrew/CtrAlarmo
+icon: https://raw.githubusercontent.com/FelixHomebrew/CtrAlarmo/refs/heads/main/exefs/icon_48.png
+image: https://raw.githubusercontent.com/FelixHomebrew/CtrAlarmo/refs/heads/main/exefs/banner.png
+layout: app
+qr:
+  CtrAlarmo.cia: https://db.universal-team.net/assets/images/qr/ctralarmo-cia.png
+screenshots:
+- description: Main
+  url: https://db.universal-team.net/assets/images/screenshots/ctr-alarmo/main.png
+source: https://github.com/FelixHomebrew/CtrAlarmo
+stars: 2
+systems:
+- 3DS
+title: CTR Alarmo
+unique_ids:
+- '0xC4A1A'
+update_notes: '<h2 dir="auto">What''s new?</h2>
+
+  <ul dir="auto">
+
+  <li>Now disables forced JACK redirection in app, allowing beep alarm to be played
+  while sleep mode</li>
+
+  <li>Allow streetpass state in sleep mode</li>
+
+  </ul>
+
+  <h2 dir="auto">Changes</h2>
+
+  <ul dir="auto">
+
+  <li>Disabled HOME menu button, read comment at <a href="https://github.com/FelixHomebrew/CtrAlarmo/blob/1.1.0/source/main.c#L39">main.c:39</a>
+  to know more</li>
+
+  </ul>
+
+  <h2 dir="auto">Fixes</h2>
+
+  <ul dir="auto">
+
+  <li>Exception occured sometimes on alarm shut with Power/Wireless LEDs blink enabled</li>
+
+  <li>Exception occured often on shut beep melody, due to a misuse of waveBuf</li>
+
+  </ul>'
+updated: '2026-02-17T03:16:07Z'
+version: 1.1.0
+version_title: v 1.1.0
+website: https://db.universal-team.net/3ds/ctr-alarmo
+---
+
+A simple, configurable alarm clock app for the Nintendo 3DS.
+
+## Features
+* Regular audible beep
+* Power/Wireless/News LEDs blink support
+* 2 ring modes (Static \& Progressive)
+* Rings for 10 minutes, then sleeps 5 minutes before ringing again
+* Adjustable screens brightness
+* Sleep mode persistence (no sound/LEDs only)
+
+New features would may be added in the future.
+
+## Usage
+Alarm time can be set from Settings: Press `SELECT` (hotkeys are listed on bottom screen) then look for "Redefine alarm".
+Adjust other settings depending on your preferences.
