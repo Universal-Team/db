@@ -1,9 +1,15 @@
 {
-  "github": "selloa/3DS-Random-Game-Launcher",
-  "systems": ["3DS"],
-  "categories": ["utility"],
-  "unique_ids": [0],
-  "image": "https://raw.githubusercontent.com/selloa/3DS-Random-Game-Launcher/main/meta/banner.png",
-  "icon": "https://raw.githubusercontent.com/selloa/3DS-Random-Game-Launcher/main/icon.png",
-  "long_description": "Can't decide what to play? Let your 3DS pick for you! This utility scans your SD card, filters out system junk, and launches a random game from your library. Perfect for indecisive gamers who want to discover forgotten titles.\n\n**Features:**\n- Scans all installed games on your SD card\n- Filters out system applications and junk\n- Random game selection with reroll option\n- Homebrew mode toggle (X button)\n- Simple controls: A to launch, Y to reroll, START to exit\n- Database of 4,135+ 3DS game titles with proper names\n\n**Controls:**\n- `A` - Launch the selected title\n- `Y` - Reroll for something else  \n- `X` - Toggle homebrew mode\n- `START` - Exit\n\nBuilt with libctru and includes a comprehensive title database sourced from 3dsdb community data."
+	"github": "selloa/3DS-Random-Game-Launcher",
+	"author": "selloa",
+	"title": "3DS Random Game Launcher",
+	"description": "Pick a random game from your SD card or NAND and launch it. SMDH title names, filters, and persistent options.",
+	"systems": ["3DS"],
+	"categories": ["utility"],
+	"unique_ids": [337020],
+	"image": "https://raw.githubusercontent.com/selloa/3DS-Random-Game-Launcher/main/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/selloa/3DS-Random-Game-Launcher/main/icon.png",
+	"website": "https://github.com/selloa/3DS-Random-Game-Launcher",
+	"source": "https://github.com/selloa/3DS-Random-Game-Launcher",
+	"download_filter": "\\.3dsx|\\.cia",
+	"long_description": "Can't decide what to play? Let your 3DS pick for you.\n\nScans installed titles on SD card and/or NAND, shows a readable name, and launches a random pick from your library. Great for rediscovering games you forgot you had.\n\n**Features (v0.2.0):**\n- SMDH-first display names from installed title icons\n- Offline title database (8,700+ entries) as fallback\n- **SELECT** options menu: category filters, SD/NAND scan, unlisted/homebrew mode, long-name preference\n- Settings saved to SD card; restore defaults from the menu\n- Paginated title info screens while browsing picks\n- CIA (Home Menu) and 3DSX (Homebrew Launcher) installs\n\n**Controls:**\n- `A` — Launch the selected title\n- `Y` — Reroll\n- `X` — Toggle unlisted/homebrew mode (quick toggle)\n- `SELECT` — Options / filters\n- `START` — Exit\n\n**Source code & feedback:**\n- [GitHub repository](https://github.com/selloa/3DS-Random-Game-Launcher) — source, docs, and build instructions\n- [Open an issue](https://github.com/selloa/3DS-Random-Game-Launcher/issues) — bug reports and feature requests\n- [Pull requests welcome](https://github.com/selloa/3DS-Random-Game-Launcher/pulls) — contributions and fixes\n\nInstall or update from Universal Updater or [GitHub Releases](https://github.com/selloa/3DS-Random-Game-Launcher/releases). MIT licensed."
 }
