@@ -140,16 +140,16 @@
 				"file": "/AddOn-Multimedia.7z"
 			}
 		],
-		"[Add-on] Virtual Console": [
+		"[Add-on] Virtual Console (Minimal, Recommended)": [
 			{
 				"type": "downloadRelease",
 				"repo": "DS-Homebrew/TWiLightMenu",
-				"file": "AddOn-VirtualConsole.7z",
-				"output": "/AddOn-VirtualConsole.7z"
+				"file": "AddOn-VirtualConsoleMinimal-3DS.7z",
+				"output": "/AddOn-VirtualConsoleMinimal-3DS.7z"
 			},
 			{
 				"type": "extractFile",
-				"file": "/AddOn-VirtualConsole.7z",
+				"file": "/AddOn-VirtualConsoleMinimal-3DS.7z",
 				"input": "_nds/",
 				"output": "/_nds/"
 			},
@@ -161,13 +161,43 @@
 			},
 			{
 				"type": "extractFile",
-				"file": "/AddOn-VirtualConsole.7z",
+				"file": "/AddOn-VirtualConsoleMinimal-3DS.7z",
 				"input": "roms/",
 				"output": "/roms/"
 			},
 			{
 				"type": "deleteFile",
-				"file": "/AddOn-VirtualConsole.7z"
+				"file": "/AddOn-VirtualConsoleMinimal-3DS.7z"
+			}
+		],
+		"[Add-on] Virtual Console (Full)": [
+			{
+				"type": "downloadRelease",
+				"repo": "DS-Homebrew/TWiLightMenu",
+				"file": "AddOn-VirtualConsoleFull-3DS.7z",
+				"output": "/AddOn-VirtualConsoleFull-3DS.7z"
+			},
+			{
+				"type": "extractFile",
+				"file": "/AddOn-VirtualConsoleFull-3DS.7z",
+				"input": "_nds/",
+				"output": "/_nds/"
+			},
+			{
+				"type": "promptMessage",
+				"message": "Extract \"roms\" folder?\n\n(Recommended for new users)",
+				"name": "roms-vc",
+				"count": 1
+			},
+			{
+				"type": "extractFile",
+				"file": "/AddOn-VirtualConsoleFull-3DS.7z",
+				"input": "roms/",
+				"output": "/roms/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/AddOn-VirtualConsoleFull-3DS.7z"
 			}
 		]
 	}
