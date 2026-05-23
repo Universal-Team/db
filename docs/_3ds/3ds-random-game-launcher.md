@@ -10,18 +10,14 @@ description: A Nintendo 3DS homebrew application that randomly selects, displays
   then launches your installed games
 download_page: https://github.com/selloa/3DS-Random-Game-Launcher/releases
 downloads:
-  3DS-Random-Game-Launcher-v18.3dsx:
-    size: 322388
-    size_str: 314 KiB
-    url: https://github.com/selloa/3DS-Random-Game-Launcher/releases/download/v18/3DS-Random-Game-Launcher-v18.3dsx
-  3DS-Random-Game-Launcher-v18.cia:
-    size: 594368
-    size_str: 580 KiB
-    url: https://github.com/selloa/3DS-Random-Game-Launcher/releases/download/v18/3DS-Random-Game-Launcher-v18.cia
-  3DS-Random-Game-Launcher-v18.zip:
-    size: 923859
-    size_str: 902 KiB
-    url: https://github.com/selloa/3DS-Random-Game-Launcher/releases/download/v18/3DS-Random-Game-Launcher-v18.zip
+  3DS-Random-Game-Launcher-v0.2.0.3dsx:
+    size: 624456
+    size_str: 609 KiB
+    url: https://github.com/selloa/3DS-Random-Game-Launcher/releases/download/v0.2.0/3DS-Random-Game-Launcher-v0.2.0.3dsx
+  3DS-Random-Game-Launcher-v0.2.0.cia:
+    size: 669120
+    size_str: 653 KiB
+    url: https://github.com/selloa/3DS-Random-Game-Launcher/releases/download/v0.2.0/3DS-Random-Game-Launcher-v0.2.0.cia
 github: selloa/3DS-Random-Game-Launcher
 icon: https://raw.githubusercontent.com/selloa/3DS-Random-Game-Launcher/main/icon.png
 image: https://raw.githubusercontent.com/selloa/3DS-Random-Game-Launcher/main/meta/banner.png
@@ -30,7 +26,7 @@ layout: app
 license: mit
 license_name: MIT License
 qr:
-  3DS-Random-Game-Launcher-v18.cia: https://db.universal-team.net/assets/images/qr/3ds-random-game-launcher-v18-cia.png
+  3DS-Random-Game-Launcher-v0.2.0.cia: https://db.universal-team.net/assets/images/qr/3ds-random-game-launcher-v0-2-0-cia.png
 source: https://github.com/selloa/3DS-Random-Game-Launcher
 stars: 1
 systems:
@@ -38,24 +34,63 @@ systems:
 title: 3DS-Random-Game-Launcher
 unique_ids:
 - '0x0'
-update_notes: '<p dir="auto">v18 beta:</p>
+update_notes: '<h2 dir="auto">3DS Random Game Launcher v0.2.0</h2>
+
+  <p dir="auto">Major update over v0.1.8 / v18 with better title names, filtering,
+  and options.</p>
+
+  <h3 dir="auto">Highlights</h3>
 
   <ul dir="auto">
 
-  <li>ADDED CIA FILE SUPPORT !</li>
+  <li><strong>SMDH-first title names</strong> — reads display names from installed
+  title icons when available</li>
 
-  <li>added greyscale color scheme</li>
+  <li><strong>Expanded title database</strong> — merged eShop and community catalog
+  data for better fallback names</li>
 
-  <li>added homebrew mode, to disable database filtering</li>
+  <li><strong>Options menu (SELECT)</strong> — filter by category, toggle SD/NAND
+  scanning, homebrew/unlisted mode, and long-name preference</li>
 
-  <li>minor visual tweaks</li>
+  <li><strong>Persistent settings</strong> — options saved to SD card; restore defaults
+  from the options menu</li>
+
+  <li><strong>Paginated title info screens</strong> — browse metadata across multiple
+  pages (A/B to page, Y to reroll)</li>
+
+  <li><strong>CIA + 3DSX builds</strong> — install from Universal Updater or Homebrew
+  Launcher</li>
 
   </ul>
 
-  <p dir="auto">the .zip contains both the .3dsx and the .cia file</p>'
-updated: '2025-09-24T18:37:42Z'
-version: v18
-version_title: 3DS Random Game Launcher v18-beta
+  <h3 dir="auto">Controls</h3>
+
+  <ul dir="auto">
+
+  <li><strong>A</strong> — Launch selected title</li>
+
+  <li><strong>Y</strong> — Reroll</li>
+
+  <li><strong>SELECT</strong> — Options / filters</li>
+
+  <li><strong>START</strong> — Exit</li>
+
+  </ul>
+
+  <h3 dir="auto">Install</h3>
+
+  <ul dir="auto">
+
+  <li><strong>3DSX:</strong> / <strong>CIA:</strong> install with FBI or Universal
+  Updater (homescreen icon)</li>
+
+  </ul>
+
+  <p dir="auto">Universal Updater users on Universal-DB should see this update automatically
+  after the store refreshes.</p>'
+updated: '2026-05-23T14:46:33Z'
+version: v0.2.0
+version_title: v0.2.0
 ---
 Can't decide what to play? Let your 3DS pick for you! This utility scans your SD card, filters out system junk, and launches a random game from your library. Perfect for indecisive gamers who want to discover forgotten titles.
 
