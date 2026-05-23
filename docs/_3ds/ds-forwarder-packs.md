@@ -58,9 +58,9 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Ensure <code class="notranslate">srFrontendId.bin</code> does not exist in <code
-  class="notranslate">sd:/_nds/nds-bootstrap/</code> in order for the <code class="notranslate">Quit
-  Game</code> option in the in-game menu to quit to the DSi/3DS System Menu.</li>
+  <li><code class="notranslate">srFrontendId.bin</code> is now removed in <code class="notranslate">sd:/_nds/nds-bootstrap/</code>
+  (if detected) in order for the <code class="notranslate">Quit Game</code> option
+  in the in-game menu to quit to the DSi/3DS System Menu.</li>
 
   </ul>'
 updated: '2026-05-23T07:24:36Z'
