@@ -10,13 +10,13 @@ description: Boot an nds file
 download_page: https://github.com/DS-Homebrew/nds-bootstrap/releases
 downloads:
   nds-bootstrap.7z:
-    size: 834890
-    size_str: 815 KiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.15.0/nds-bootstrap.7z
+    size: 837105
+    size_str: 817 KiB
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.16.0/nds-bootstrap.7z
   nds-bootstrap.zip:
-    size: 1210089
+    size: 1204507
     size_str: 1 MiB
-    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.15.0/nds-bootstrap.zip
+    url: https://github.com/DS-Homebrew/nds-bootstrap/releases/download/v2.16.0/nds-bootstrap.zip
 github: DS-Homebrew/nds-bootstrap
 icon: https://db.universal-team.net/assets/images/icons/nds-bootstrap.png
 image: https://i.imgur.com/BFIu7xX.png
@@ -28,8 +28,8 @@ stars: 1369
 systems:
 - DS
 title: nds-bootstrap
-update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.23.0"><strong>TW</strong>i<strong>L</strong>ight
-  Menu++ v27.23.0</a></p>
+update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew/TWiLightMenu/releases/tag/v27.24.0"><strong>TW</strong>i<strong>L</strong>ight
+  Menu++ v27.24.0</a></p>
 
   <p dir="auto">Instructions:</p>
 
@@ -49,96 +49,32 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li><strong>B4DS:</strong> Removed the Memory Expansion Pak requirement for these
-  DSiWare titles:
+  <li><strong>3DS SD Card:</strong> When quitting the game from the in-game menu when
+  running a DS(i) game in DS mode, it''ll no longer return to TWLMenu++ by default.
+  A file called <code class="notranslate">srFrontendId.bin</code> is now read from
+  <code class="notranslate">sd:/_nds/nds-bootstrap/</code> to determine which frontend
+  to boot (ex. TWLMenu++ or akmenu-next) when quitting the game.
 
   <ul dir="auto">
 
-  <li>5 in 1 Solitaire (Music is now streamed instead of being pre-loaded)</li>
+  <li><code class="notranslate">srBackendId.bin</code> is used for resetting a few
+  games/apps such as <em>Nintendo DS Browser</em>.</li>
 
-  <li>Word Searcher (USA) (Music is now streamed instead of being pre-loaded)</li>
+  <li>If <code class="notranslate">srFrontendId.bin</code> is not found, it''ll return
+  to the 3DS HOME Menu.</li>
 
   </ul>
 
   </li>
 
-  <li><strong>B4DS:</strong> Added support for these DSiWare titles on DS &amp; DS
-  Lite, bringing the amount of supported titles to 501!
+  <li><strong>B4DS:</strong> The original <em>Bloons</em> now runs on DS &amp; DS
+  Lite consoles! (Saving does not work.) (DSiWare Total: 501 -&gt; 502)</li>
 
-  <ul dir="auto">
+  <li><strong>3DS:</strong> Added ROM pre-load settings for <em>Retro Game Challenge</em>
+  (USA).</li>
 
-  <li>Neko Reversi
-
-  <ul dir="auto">
-
-  <li>Previously only booted on debug DS consoles.</li>
-
-  <li>Audio is disabled due to memory limitations (but will still play on debug consoles).</li>
-
-  <li>Does not save.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Saikyou Ginsei Igo
-
-  <ul dir="auto">
-
-  <li>Audio is disabled due to memory limitations (but will play on debug consoles).</li>
-
-  <li>Requires the Memory Expansion Pak to run.</li>
-
-  <li>Does not save.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Shawn Johnson Gymnastics
-
-  <ul dir="auto">
-
-  <li>Previously only booted on debug DS consoles.</li>
-
-  <li>Music is disabled due to memory limitations (but will still play on debug consoles).</li>
-
-  </ul>
-
-  </li>
-
-  </ul>
-
-  </li>
-
-  <li><strong>B4DS:</strong> The full version of <em>Digidrive</em> now runs on DS
-  &amp; DS Lite!
-
-  <ul dir="auto">
-
-  <li>Previously only booted on debug DS consoles.</li>
-
-  <li>Due to memory limitations, audio will not play (but will still play on debug
-  consoles).</li>
-
-  <li>For sound effects to play, you''ll need to insert the Memory Expansion Pak.</li>
-
-  </ul>
-
-  </li>
-
-  <li><strong>B4DS:</strong> <em>Yummy Yummy Cooking Jam</em> now plays music if a
-  16MB+ RAM expansion cart is inserted. This means the regular Memory Expansion Pak
-  will not work.</li>
-
-  <li><strong>B4DS:</strong> Due to memory limitations (crashing when getting past
-  title screen), the DSiWare version of <em>Fizz</em> now only runs on debug DS consoles.</li>
-
-  <li><strong>DSi/3DS:</strong> Added <code class="notranslate">banner.sav</code>
-  redirection for the few DSiWare titles which support it (ex. <em>Brain Age Express</em>).
-  This means any nds-bootstrap frontend which support <code class="notranslate">banner.sav</code>
-  (such as TWLMenu++) will now report how far you progressed and/or how well you did
-  in those games!</li>
+  <li>DSi-Exclusive/DSiWare ROMs are no longer used as donor ROMs for DSi-Enhanced
+  games (outside of DSiWare exploits where they''re still used there).</li>
 
   <li>Various: Updated in-game menu translations.</li>
 
@@ -148,30 +84,33 @@ update_notes: '<p dir="auto">Included in <a href="https://github.com/DS-Homebrew
 
   <ul dir="auto">
 
-  <li><strong>DSi/3DS:</strong> Fixed <em>Dragon Quest IX</em> not playing cutscene
-  audio.</li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/taxicat1/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/taxicat1">@taxicat1</a>:
+  New "AP-fix" for <em>Houkago Shounen</em> which fixes soft-locking after saving.</li>
 
-  <li><strong>DSi/3DS:</strong> Added ROM pre-load settings for <em>Tak: The Great
-  Juju Challenge</em> in order to fix the game crashing after the tutorial.</li>
+  <li>Fixed a (somewhat) long-standing bug which caused DSi sound data to not be detected
+  in apps such as <em>Mario Clock</em> &amp; <em>Animal Crossing Clock</em>.</li>
 
-  <li><strong>DSi/3DS:</strong> Fixed an overlooked bug which caused nds-bootstrap
-  to not boot a game that''s on the console''s SD card when running from a flashcard.</li>
+  <li><strong>B4DS:</strong> Added alternate DSTWO DLDI driver to work around red
+  error screen. (Thanks to stl25 for letting me know about that driver!)</li>
 
-  <li><strong>3DS:</strong> Fixed in-game menu option descriptions (after <code class="notranslate">Main
-  Screen</code>) being incorrectly assigned.</li>
+  <li>Fixed <em>Disgaea DS</em> having these issues when using a screen color filter
+  and/or DS Phat colors:
 
-  <li><strong>B4DS:</strong> Fixed crashing in <em>Saikyou Ginsei Shougi</em>.</li>
+  <ul dir="auto">
 
-  <li><strong>B4DS:</strong> Fixed touch screen flashing black when touching a button
-  in <em>Sudoku Challenge!</em></li>
+  <li>Top screen not refreshing</li>
 
-  <li>Fixed sleep mode not working when using an Acekard 2(i)/R4(i) Ultra flashcard
-  (the latter where if it autoboots to TWLMenu++).</li>
+  <li>Bottom screen displaying nothing</li>
+
+  </ul>
+
+  </li>
 
   </ul>'
-updated: '2026-03-17T22:03:17Z'
-version: v2.15.0
-version_title: 'v2.15.0: St. Patrick''s Day ☘️ Release'
+updated: '2026-05-23T07:18:51Z'
+version: v2.16.0
+version_title: 'v2.16.0: Rocket Robz'' Birthday Release'
 website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---

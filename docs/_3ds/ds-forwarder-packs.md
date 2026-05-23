@@ -25,8 +25,8 @@ systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.15.0">nds-bootstrap
-  v2.15.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.16.0">nds-bootstrap
+  v2.16.0</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -58,14 +58,12 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Added support for reading DSiWare <code class="notranslate">banner.sav</code>
-  files (named as <code class="notranslate">romname.bnr</code>) from the current save
-  path. Though the <code class="notranslate">banner.sav</code> icon will not display
-  on forwarders, this feature was implemented for compatibility with the DSiWare titles
-  which support writing to <code class="notranslate">banner.sav</code>.</li>
+  <li>Ensure <code class="notranslate">srFrontendId.bin</code> does not exist in <code
+  class="notranslate">sd:/_nds/nds-bootstrap/</code> in order for the <code class="notranslate">Quit
+  Game</code> option in the in-game menu to quit to the DSi/3DS System Menu.</li>
 
   </ul>'
-updated: '2026-03-17T22:34:22Z'
-version: SD-28
-version_title: 'GitHub Release #28'
+updated: '2026-05-23T07:24:36Z'
+version: SD-29
+version_title: 'GitHub Release #29'
 ---
