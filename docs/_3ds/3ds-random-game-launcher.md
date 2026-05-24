@@ -28,7 +28,7 @@ license_name: MIT License
 qr:
   3DS-Random-Game-Launcher-v0.2.1.cia: https://db.universal-team.net/assets/images/qr/3ds-random-game-launcher-v0-2-1-cia.png
 source: https://github.com/selloa/3DS-Random-Game-Launcher
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: 3DS-Random-Game-Launcher
