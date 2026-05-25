@@ -21,7 +21,7 @@ layout: app
 license: mit
 license_name: MIT License
 source: https://github.com/RedShyGuy/Vapecord-ACHHD-Plugin
-stars: 16
+stars: 17
 systems:
 - 3DS
 title: Vapecord-ACHHD-Plugin
