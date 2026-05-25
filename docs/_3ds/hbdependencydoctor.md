@@ -6,10 +6,9 @@ categories:
 color: '#9198a1'
 color_bg: '#737880'
 created: '2026-05-13T16:07:15Z'
-description: HBDependencyDoctor – 3DS Homebrew Health Analyser   A diagnostic tool
-  for modded Nintendo 3DS consoles that scans the SD card and CFW setup for common
-  problems, misconfigurations, and leftover files, then presents a colour‑coded, scrollable,
-  filterable report with one‑button auto‑fixes where possible.
+description: HBDependencyDoctor – 3DS Homebrew Health Analyzer Scans modded Nintendo
+  3DS systems for issues, bad configs, and leftover files, then shows a color-coded
+  report with optional one-click fixes.
 download_page: https://github.com/IkokoOff/HBDependencyDoctor/releases
 downloads:
   HBDependencyDoctor.3dsx:
