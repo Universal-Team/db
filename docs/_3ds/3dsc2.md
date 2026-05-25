@@ -27,7 +27,7 @@ license_name: GNU General Public License v3.0
 qr:
   3dsc2_calib.cia: https://db.universal-team.net/assets/images/qr/3dsc2_calib-cia.png
 source: https://github.com/cylin577/3DSC2
-stars: 5
+stars: 6
 systems:
 - 3DS
 title: 3DSC2
