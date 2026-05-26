@@ -18,94 +18,93 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-132-g69ee95345
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-138-g965933744
   downloads:
-    Angband-4.2.6-132-g69ee95345-3ds.zip:
-      size: 24672772
+    Angband-4.2.6-138-g965933744-3ds.zip:
+      size: 24673148
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-132-g69ee95345/Angband-4.2.6-132-g69ee95345-3ds.zip
-    Angband-4.2.6-132-g69ee95345-nds.zip:
-      size: 23329640
+      url: https://github.com/angband/angband/releases/download/4.2.6-138-g965933744/Angband-4.2.6-138-g965933744-3ds.zip
+    Angband-4.2.6-138-g965933744-nds.zip:
+      size: 23329639
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-132-g69ee95345/Angband-4.2.6-132-g69ee95345-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-138-g965933744/Angband-4.2.6-138-g965933744-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>First pass at changing the handling of the fatal signals by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4354208595" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6617"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6617/hovercard"
-    href="https://github.com/angband/angband/pull/6617">#6617</a></li>
+    <li>Document 2 fancy note types by <a class="user-mention notranslate" data-hovercard-type="user"
+    data-hovercard-url="/users/fruviad/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/fruviad">@fruviad</a>
+    in <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/angband/angband/commit/4dbbcd2c7b6abe849d33dd378f7c5fcd59398324/hovercard"
+    href="https://github.com/angband/angband/commit/4dbbcd2c7b6abe849d33dd378f7c5fcd59398324"><tt>4dbbcd2</tt></a></li>
 
-    <li>Tighten error checking when writing the high scores file by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    <li>borg: a couple of issues with parsing formulas by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4355031003" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6618"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6618/hovercard"
-    href="https://github.com/angband/angband/pull/6618">#6618</a></li>
+    data-id="4489403466" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6638"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6638/hovercard"
+    href="https://github.com/angband/angband/pull/6638">#6638</a></li>
 
-    <li>Correct the results from the ''S'' debugging command by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4406602195" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6627"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6627/hovercard"
-    href="https://github.com/angband/angband/pull/6627">#6627</a></li>
-
-    <li>Tweak stats.log from ''S'' debugging command by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4407321476" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6628"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6628/hovercard"
-    href="https://github.com/angband/angband/pull/6628">#6628</a></li>
-
-    <li>Use text_mbstowcs() return value in Term_addstr() by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4425619265" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6630"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6630/hovercard"
-    href="https://github.com/angband/angband/pull/6630">#6630</a></li>
-
-    <li>Windows screenshot: rearrange to avoid warning from Microsoft''s compiler
+    <li>Avoid "different ''const'' qualifiers" warning with Microsoft''s compiler
     by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4438436972" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6631"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6631/hovercard"
-    href="https://github.com/angband/angband/pull/6631">#6631</a></li>
+    data-id="4442698000" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6632"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6632/hovercard"
+    href="https://github.com/angband/angband/pull/6632">#6632</a></li>
+
+    <li>workflows: have at least one of the SDL2 builds compile with tracing … by
+    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4461091405" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6635"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6635/hovercard"
+    href="https://github.com/angband/angband/pull/6635">#6635</a></li>
+
+    <li>SDL2: correct use of keypress_to_text() for describing menu shortcuts by <a
+    class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4461458316" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6636"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6636/hovercard"
+    href="https://github.com/angband/angband/pull/6636">#6636</a></li>
+
+    <li>SDL2: be more informative when tracing SDL_WINDOWEVENT_* events by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4470262550" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6637"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6637/hovercard"
+    href="https://github.com/angband/angband/pull/6637">#6637</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-126-g7b2c87010...4.2.6-132-g69ee95345"><tt>4.2.6-126-g7b2c87010...4.2.6-132-g69ee95345</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-132-g69ee95345...4.2.6-138-g965933744"><tt>4.2.6-132-g69ee95345...4.2.6-138-g965933744</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * First pass at changing the handling of the fatal signals by @backwardsEric in
-    https://github.com/angband/angband/pull/6617
+    * Document 2 fancy note types by @fruviad in https://github.com/angband/angband/commit/4dbbcd2c7b6abe849d33dd378f7c5fcd59398324
 
-    * Tighten error checking when writing the high scores file by @backwardsEric in
-    https://github.com/angband/angband/pull/6618
+    * borg: a couple of issues with parsing formulas by @agoodman00 in https://github.com/angband/angband/pull/6638
 
-    * Correct the results from the ''S'' debugging command by @backwardsEric in https://github.com/angband/angband/pull/6627
+    * Avoid "different ''const'' qualifiers" warning with Microsoft''s compiler by
+    @backwardsEric in https://github.com/angband/angband/pull/6632
 
-    * Tweak stats.log from ''S'' debugging command by @backwardsEric in https://github.com/angband/angband/pull/6628
+    * workflows: have at least one of the SDL2 builds compile with tracing … by @backwardsEric
+    in https://github.com/angband/angband/pull/6635
 
-    * Use text_mbstowcs() return value in Term_addstr() by @backwardsEric in https://github.com/angband/angband/pull/6630
+    * SDL2: correct use of keypress_to_text() for describing menu shortcuts by @backwardsEric
+    in https://github.com/angband/angband/pull/6636
 
-    * Windows screenshot: rearrange to avoid warning from Microsoft''s compiler by
-    @backwardsEric in https://github.com/angband/angband/pull/6631
+    * SDL2: be more informative when tracing SDL_WINDOWEVENT_* events by @backwardsEric
+    in https://github.com/angband/angband/pull/6637
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-126-g7b2c87010...4.2.6-132-g69ee95345'
-  updated: '2026-05-19T13:23:18Z'
-  version: 4.2.6-132-g69ee95345
-  version_title: 4.2.6-132-g69ee95345
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-132-g69ee95345...4.2.6-138-g965933744'
+  updated: '2026-05-26T12:55:59Z'
+  version: 4.2.6-138-g965933744
+  version_title: 4.2.6-138-g965933744
 source: https://github.com/angband/angband
 stars: 1510
 systems:
