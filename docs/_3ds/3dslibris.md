@@ -10,29 +10,29 @@ description: An ebook and manga reader for Nintendo 3DS
 download_page: https://github.com/RigleGit/3dslibris/releases
 downloads:
   3dslibris-debug.3dsx:
-    size: 14352772
+    size: 14357104
     size_str: 13 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.1/3dslibris-debug.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.2/3dslibris-debug.3dsx
   3dslibris-debug.cia:
-    size: 13116352
+    size: 13120448
     size_str: 12 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.1/3dslibris-debug.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.2/3dslibris-debug.cia
   3dslibris-sdmc.zip:
     size: 5020749
     size_str: 4 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.1/3dslibris-sdmc.zip
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.2/3dslibris-sdmc.zip
   3dslibris-source.tar.gz:
-    size: 66931847
+    size: 66939190
     size_str: 63 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.1/3dslibris-source.tar.gz
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.2/3dslibris-source.tar.gz
   3dslibris.3dsx:
-    size: 14463728
+    size: 14469372
     size_str: 13 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.1/3dslibris.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.2/3dslibris.3dsx
   3dslibris.cia:
-    size: 13239232
+    size: 13243328
     size_str: 12 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.1/3dslibris.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.2/3dslibris.cia
 github: RigleGit/3dslibris
 icon: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/icon-32x32.png
 image: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/banner.png
@@ -53,103 +53,50 @@ stars: 119
 systems:
 - 3DS
 title: 3dslibris
-update_notes: '<h2 dir="auto">3dslibris 2.7.1</h2>
+update_notes: '<h2 dir="auto">3dslibris 2.7.2</h2>
 
-  <p dir="auto">Small fixes for the library and the index menu. Also, you can select
-  reader settings globally or per book now.</p>
+  <p dir="auto">Library sorting improvements. You can now sort your library by six
+  different criteria.</p>
 
-  <p dir="auto"><strong>Note:</strong> I''ve been working on this project a lot these
+  <p dir="auto"><strong>Note</strong>: I''ve been working on this project a lot these
   past months, and I want to take it slow for a while. I''ll still be fixing bugs
   and making small improvements in order to make the reader good and stable, but I
   won''t be adding any new features for a while. Thanks for your understanding! 😄</p>
 
-  <h3 dir="auto">Fixes</h3>
+  <h3 dir="auto">New Features</h3>
 
   <ul dir="auto">
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4509045445"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/126"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/126/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/126">#126</a>: open the index
-  on the page for the current chapter.</li>
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4377621464"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/93"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/93/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/93">#93</a>, <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4529895744" data-permission-text="Title
+  is private" data-url="https://github.com/RigleGit/3dslibris/issues/132" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/132/hovercard" href="https://github.com/RigleGit/3dslibris/issues/132">#132</a>:
+  library sort now supports six modes: <strong>by title</strong>, <strong>by filename</strong>,
+  <strong>by author</strong>, <strong>by file type</strong>, <strong>by date modified</strong>,
+  and <strong>by recently opened</strong>. Cycle through them from the library settings
+  button. The last-opened timestamp is saved per book so the recently opened order
+  survives restarts.</li>
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4509106600"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/127"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/127/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/127">#127</a>: <code class="notranslate">START</code>
-  now closes folders, like <code class="notranslate">B</code>.</li>
+  </ul>
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4509106600"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/127"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/127/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/127">#127</a>: <code class="notranslate">START</code>
-  now also leaves settings opened from the library.</li>
+  <h3 dir="auto">Bug Fixes</h3>
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4460902041"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/106"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/106/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/106">#106</a>: publisher font
-  sizes no longer change image width.</li>
+  <ul dir="auto">
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4460902041"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/106"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/106/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/106">#106</a>: text following
-  a large-text section no longer overflows to the right screen.</li>
-
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4461204241"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/108"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/108/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/108">#108</a>: body font-size
-  no longer makes the whole book too small.</li>
-
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4461204241"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/108"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/108/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/108">#108</a>: EPUB style settings
-  now control publisher indents, margins, and paragraph spacing.</li>
-
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4461204241"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/108"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/108/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/108">#108</a>: EPUB style settings
-  can now be changed per book.</li>
-
-  <li>Line spacing can now be adjusted from reader settings, globally and per book.</li>
-
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4347167582"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/77"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/77/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/77">#77</a>: indented block text
-  no longer loses its indent at the top of a new page.</li>
-
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4366971031"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/84"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/84/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/84">#84</a>: child zero margins
-  no longer erase parent block spacing.</li>
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4528040226"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/130"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/130/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/130">#130</a>: EPUB cover images
+  no longer appear smaller than full screen.</li>
 
   <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4509263790"
   data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/128"
   data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/128/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/128">#128</a>: block images with
-  custom width now keep block layout.</li>
-
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4509263790"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/128"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/128/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/128">#128</a>: right-aligned
-  block images now align right.</li>
-
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4509263790"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/128"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/128/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/128">#128</a>: hidden elements
-  no longer create blank space before images.</li>
-
-  <li>CIA banner music is audible again.</li>
-
-  <li>Fix crash when pressing HOME while a CBZ with ComicInfo.xml chapters was loaded.</li>
+  href="https://github.com/RigleGit/3dslibris/issues/128">#128</a>: wide landscape
+  block images no longer force an unnecessary pre-advance.</li>
 
   </ul>
 
@@ -160,39 +107,23 @@ update_notes: '<h2 dir="auto">3dslibris 2.7.1</h2>
 
   <ul dir="auto">
 
-  <li><strong>HOME crash investigation:</strong> Thanks to everyone who investigated
-  and shared hardware details, crash dumps, and trace logs for <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="4346280911" data-permission-text="Title
-  is private" data-url="https://github.com/RigleGit/3dslibris/issues/68" data-hovercard-type="issue"
-  data-hovercard-url="/RigleGit/3dslibris/issues/68/hovercard" href="https://github.com/RigleGit/3dslibris/issues/68">#68</a>.
-  I fixed a CBZ crash on HOME in this release, let''s see if it''s enough.</li>
+  <li><strong>Library sorting:</strong> Thanks to everyone who reported and tested
+  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4377621464"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/93"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/93/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/93">#93</a> and <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4529895744" data-permission-text="Title
+  is private" data-url="https://github.com/RigleGit/3dslibris/issues/132" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/132/hovercard" href="https://github.com/RigleGit/3dslibris/issues/132">#132</a>.</li>
 
-  <li><strong>Font rendering and CSS fixes:</strong> Thanks to everyone who reported
-  and tested <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="4347167582" data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/77"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/77/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/77">#77</a>, <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="4366971031" data-permission-text="Title
-  is private" data-url="https://github.com/RigleGit/3dslibris/issues/84" data-hovercard-type="issue"
-  data-hovercard-url="/RigleGit/3dslibris/issues/84/hovercard" href="https://github.com/RigleGit/3dslibris/issues/84">#84</a>,
-  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4413498510"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/99"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/99/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/99">#99</a>, <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="4460902041" data-permission-text="Title
-  is private" data-url="https://github.com/RigleGit/3dslibris/issues/106" data-hovercard-type="issue"
-  data-hovercard-url="/RigleGit/3dslibris/issues/106/hovercard" href="https://github.com/RigleGit/3dslibris/issues/106">#106</a>,
-  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4461204241"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/108"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/108/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/108">#108</a>, <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="4509045445" data-permission-text="Title
-  is private" data-url="https://github.com/RigleGit/3dslibris/issues/126" data-hovercard-type="issue"
-  data-hovercard-url="/RigleGit/3dslibris/issues/126/hovercard" href="https://github.com/RigleGit/3dslibris/issues/126">#126</a>
-  and <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4509263790"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/128"
+  <li><strong>Image layout and EPUB rendering fixes:</strong> Thanks to everyone who
+  reported and tested <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="4509263790" data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/128"
   data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/128/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/128">#128</a>.</li>
+  href="https://github.com/RigleGit/3dslibris/issues/128">#128</a> and <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4528040226" data-permission-text="Title
+  is private" data-url="https://github.com/RigleGit/3dslibris/issues/130" data-hovercard-type="issue"
+  data-hovercard-url="/RigleGit/3dslibris/issues/130/hovercard" href="https://github.com/RigleGit/3dslibris/issues/130">#130</a>.</li>
 
   <li><strong>Fueling the Code:</strong> A special thank you to my <strong>Ko-fi supporters</strong>.
   Your donations help keep the project going and keep me caffeinated!</li>
@@ -220,7 +151,7 @@ update_notes: '<h2 dir="auto">3dslibris 2.7.1</h2>
   <li><code class="notranslate">3dslibris-source.tar.gz</code></li>
 
   </ul>'
-updated: '2026-05-26T22:38:35Z'
-version: v2.7.1
-version_title: v2.7.1
+updated: '2026-05-27T14:26:01Z'
+version: v2.7.2
+version_title: v2.7.2
 ---
