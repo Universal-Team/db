@@ -1,10 +1,13 @@
 {
 	"github": "dwalker109/cloudpoint",
+	"title": "Cloudpoint",
+	"author": "dwalker109",
 	"systems": [
 		"3DS"
 	],
 	"categories": [
-		"save"
+		"save-tool",
+		"utility"
 	],
 	"icon": "https://media.githubusercontent.com/media/dwalker109/cloudpoint/refs/heads/main/cloudpoint_app/cia/icon.png",
 	"image": "https://media.githubusercontent.com/media/dwalker109/cloudpoint/refs/heads/main/cloudpoint_app/cia/banner.png",
