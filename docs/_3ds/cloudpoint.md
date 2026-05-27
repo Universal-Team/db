@@ -28,7 +28,7 @@ license_name: MIT License
 qr:
   cloudpoint.cia: https://db.universal-team.net/assets/images/qr/cloudpoint-cia.png
 source: https://github.com/dwalker109/cloudpoint
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: Cloudpoint
