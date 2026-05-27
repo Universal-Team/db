@@ -1,12 +1,13 @@
 ---
-author: Dan Walker
+author: dwalker109
 avatar: https://avatars.githubusercontent.com/u/4749645?v=4
 categories:
-- save
+- save-tool
+- utility
 color: '#e6acfb'
 color_bg: '#755780'
 created: '2025-11-28T10:52:26Z'
-description: Bringing modern cloud save to 3DS!
+description: Bringing modern cloud save to 3DS.
 download_page: https://github.com/dwalker109/cloudpoint/releases
 downloads:
   cloudpoint.3dsx:
@@ -30,7 +31,7 @@ source: https://github.com/dwalker109/cloudpoint
 stars: 0
 systems:
 - 3DS
-title: cloudpoint
+title: Cloudpoint
 unique_ids:
 - '0xFF001'
 update_notes: '<h2 dir="auto">What''s Changed</h2>
