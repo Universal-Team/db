@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9843936
+    size: 9844160
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.1/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.2/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 10023872
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.1/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.2/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -40,17 +40,9 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li><code class="notranslate">#JPOSSCROLL (Travel_time(float)) (position(int)) (direction(int))</code>の実装が完了しました。</li>
+  <li>判定枠が動いてる際にポーズしても動き続ける不具合の修正</li>
 
-  <li>ノーツ描画時の高速化</li>
-
-  <li>譜面分岐のタイミングがズレる可能性がある不具合の修正</li>
-
-  <li>0コンボの譜面が再生出来ない可能性のあった不具合の修正</li>
-
-  <li>OLDシリーズで正常に動作しなかった不具合の修正</li>
-
-  <li>試験的にゲームモードを増やしてみました。大体実装出来たらお知らせします。</li>
+  <li>特定のタイミングでポーズするとノーツの描画がおかしくなるのを修正</li>
 
   </ul>
 
@@ -58,24 +50,15 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>The implementation of <code class="notranslate">#JPOSSCROLL (Travel_time(float))
-  (position(int)) (direction(int))</code> is complete.</li>
+  <li>Fixed a bug that keeps moving even if you pose when the judgment frame is moving.</li>
 
-  <li>Speeding up when drawing notes</li>
-
-  <li>Fixing a bug that may misset the timing of the score branch</li>
-
-  <li>Fixed a bug that could prevent the playback of songs with 0 combos.</li>
-
-  <li>Fix for a bug that prevented the OLD series from functioning correctly.</li>
-
-  <li>I''ve experimentally added more game modes. I''ll let you know once they''re
-  mostly implemented.</li>
+  <li>Fixed the problem that the drawing of notes went wrong when posing at a certain
+  time.</li>
 
   </ul>'
-updated: '2026-03-30T07:04:57Z'
-version: v2.2.1
-version_title: TJAPlayer for 3DS v2.2.1
+updated: '2026-05-27T04:51:06Z'
+version: v2.2.2
+version_title: TJAPlayer for 3DS v2.2.2
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
