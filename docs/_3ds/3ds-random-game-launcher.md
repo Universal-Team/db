@@ -43,22 +43,21 @@ update_notes: '<h2 dir="auto">3DS Random Game Launcher v0.2.1</h2>
 
   <ul dir="auto">
 
-  <li><strong>Redesigned info screens</strong> â€” Details and Technical tabs use
-  aligned label/value columns, section spacing, and wrapped long text with proper
-  indentation</li>
+  <li><strong>Redesigned info screens</strong> Details and Technical tabs use aligned
+  label/value columns, section spacing, and wrapped long text with proper indentation</li>
 
-  <li><strong>Technical filter summary</strong> â€” two-column ON/OFF grid for active
+  <li><strong>Technical filter summary</strong> two-column ON/OFF grid for active
   filters and sources at the bottom of the Technical page</li>
 
-  <li><strong>Cleaner chrome</strong> â€” inverted header/footer bar, L/R page tabs
-  (Game / Details / Technical), and simplified Options header</li>
+  <li><strong>Cleaner chrome</strong> inverted header/footer bar, L/R page tabs (Game
+  / Details / Technical), and simplified Options header</li>
 
-  <li><strong>Banner generator</strong> â€” config-driven <code class="notranslate">meta/banner-src/</code>
+  <li><strong>Banner generator</strong> config-driven <code class="notranslate">meta/banner-src/</code>
   pipeline plus <code class="notranslate">build.ps1</code> / <code class="notranslate">build.bat
   banners</code> for store and CIA artwork</li>
 
-  <li><strong>Docs and release workflow</strong> â€” updated VERSIONING, tools, and
-  meta README for v0.2.1 builds</li>
+  <li><strong>Docs and release workflow</strong> updated VERSIONING, tools, and meta
+  README for v0.2.1 builds</li>
 
   </ul>
 
@@ -66,17 +65,17 @@ update_notes: '<h2 dir="auto">3DS Random Game Launcher v0.2.1</h2>
 
   <ul dir="auto">
 
-  <li><strong>A</strong> â€” Launch selected title</li>
+  <li><strong>A</strong> Launch selected title</li>
 
-  <li><strong>Y</strong> â€” Reroll</li>
+  <li><strong>Y</strong> Reroll</li>
 
-  <li><strong>L/R</strong> â€” Switch Game / Details / Technical pages</li>
+  <li><strong>L/R</strong> Switch Game / Details / Technical pages</li>
 
-  <li><strong>SELECT</strong> â€” Options / filters</li>
+  <li><strong>SELECT</strong> Options / filters</li>
 
-  <li><strong>X</strong> â€” Toggle homebrew-only mode (Game page)</li>
+  <li><strong>X</strong> Toggle homebrew-only mode (Game page)</li>
 
-  <li><strong>START</strong> â€” Exit</li>
+  <li><strong>START</strong> Exit</li>
 
   </ul>
 
