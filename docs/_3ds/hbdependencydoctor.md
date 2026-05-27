@@ -29,7 +29,7 @@ license_name: GNU General Public License v3.0
 qr:
   HBDependencyDoctor.cia: https://db.universal-team.net/assets/images/qr/hbdependencydoctor-cia.png
 source: https://github.com/IkokoOff/HBDependencyDoctor
-stars: 3
+stars: 4
 systems:
 - 3DS
 title: HBDependencyDoctor
