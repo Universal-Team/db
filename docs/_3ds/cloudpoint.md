@@ -11,13 +11,13 @@ description: Bringing modern cloud save to 3DS.
 download_page: https://github.com/dwalker109/cloudpoint/releases
 downloads:
   cloudpoint.3dsx:
-    size: 2859616
+    size: 2862540
     size_str: 2 MiB
-    url: https://github.com/dwalker109/cloudpoint/releases/download/0.1.1/cloudpoint.3dsx
+    url: https://github.com/dwalker109/cloudpoint/releases/download/0.1.2/cloudpoint.3dsx
   cloudpoint.cia:
     size: 2302912
     size_str: 2 MiB
-    url: https://github.com/dwalker109/cloudpoint/releases/download/0.1.1/cloudpoint.cia
+    url: https://github.com/dwalker109/cloudpoint/releases/download/0.1.2/cloudpoint.cia
 github: dwalker109/cloudpoint
 icon: https://media.githubusercontent.com/media/dwalker109/cloudpoint/refs/heads/main/cloudpoint_app/cia/icon.png
 image: https://media.githubusercontent.com/media/dwalker109/cloudpoint/refs/heads/main/cloudpoint_app/cia/banner.png
@@ -38,28 +38,28 @@ update_notes: '<h2 dir="auto">What''s Changed</h2>
 
   <ul dir="auto">
 
-  <li>Implement server request body size limit in Caddy to make abuse a little harder
-  by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
+  <li>Add shutdown screen to display in app while we finish work and quit by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4536345264"
-  data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/79"
-  data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/79/hovercard"
-  href="https://github.com/dwalker109/cloudpoint/pull/79">#79</a></li>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4541845318"
+  data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/84"
+  data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/84/hovercard"
+  href="https://github.com/dwalker109/cloudpoint/pull/84">#84</a></li>
 
-  <li>Better shutdown behaviour by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/dwalker109/hovercard" data-octo-click="hovercard-link-click"
+  <li>Display app version and user key on sync screen by <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
-  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4536575554"
-  data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/81"
-  data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/81/hovercard"
-  href="https://github.com/dwalker109/cloudpoint/pull/81">#81</a></li>
+  in <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4541846391"
+  data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/85"
+  data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/85/hovercard"
+  href="https://github.com/dwalker109/cloudpoint/pull/85">#85</a></li>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/dwalker109/cloudpoint/compare/0.1.0...0.1.1"><tt>0.1.0...0.1.1</tt></a></p>'
-updated: '2026-05-28T00:09:58Z'
-version: 0.1.1
-version_title: 0.1.1
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/dwalker109/cloudpoint/compare/0.1.1...0.1.2"><tt>0.1.1...0.1.2</tt></a></p>'
+updated: '2026-05-28T16:01:58Z'
+version: 0.1.2
+version_title: 0.1.2
 ---
 Cloudpoint allows you to sync all of your saves (and extdata) between all of your 3DS & 2DS devices, 
 via a central server. Transfer progress between consoles effortlessly, the way you're probably used 
