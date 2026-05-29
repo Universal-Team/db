@@ -9,6 +9,10 @@ created: '2026-03-13T00:19:39Z'
 description: Drawing and text Chat Rooms.
 download_page: https://github.com/SprtnDio/NoteRoom/releases
 downloads:
+  NoteRoom.3dsx:
+    size: 567692
+    size_str: 554 KiB
+    url: https://github.com/SprtnDio/NoteRoom/releases/download/v2.4.0/NoteRoom.3dsx
   NoteRoom.cia:
     size: 1123776
     size_str: 1 MiB

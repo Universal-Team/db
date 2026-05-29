@@ -29,6 +29,7 @@ image_length: 748
 layout: app
 license: mit
 license_name: MIT License
+llm_usage: none
 qr:
   GameYob.cia: https://db.universal-team.net/assets/images/qr/gameyob-cia.png
 source: https://github.com/SombrAbsol/GameYob-3DS

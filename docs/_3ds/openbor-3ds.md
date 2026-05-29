@@ -25,6 +25,7 @@ image_length: 33143
 layout: app
 license: bsd-3-clause
 license_name: BSD 3-Clause "New" or "Revised" License
+llm_usage: none
 qr:
   OpenBOR.cia: https://db.universal-team.net/assets/images/qr/openbor-cia.png
 source: https://github.com/MrHuu/openbor-3ds

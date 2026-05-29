@@ -24,6 +24,7 @@ image_length: 32108
 layout: app
 license: mit
 license_name: MIT License
+llm_usage: undisclosed
 qr:
   pomegranate.cia: https://db.universal-team.net/assets/images/qr/pomegranate-cia.png
 screenshots:

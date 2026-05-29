@@ -22,6 +22,7 @@ icon: https://raw.githubusercontent.com/badda71/vice3ds/master/meta/icon_3ds_C64
 image: https://raw.githubusercontent.com/badda71/vice3ds/master/meta/icon_3ds_C64.png
 image_length: 2537
 layout: app
+llm_usage: undisclosed
 qr:
   vice3DS-C64.cia: https://db.universal-team.net/assets/images/qr/vice3ds-c64-cia.png
 source: https://github.com/badda71/vice3ds

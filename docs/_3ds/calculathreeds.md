@@ -20,6 +20,7 @@ image_length: 1211
 layout: app
 license: mit
 license_name: MIT License
+llm_usage: none
 source: https://github.com/LiquidFenrir/CalculaThreeDS
 stars: 20
 systems:

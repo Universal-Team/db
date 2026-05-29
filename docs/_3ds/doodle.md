@@ -19,6 +19,7 @@ github: ArmstrongThomas/Doodle
 image: https://avatars.githubusercontent.com/u/12937683?v=4&size=128
 image_length: 3415
 layout: app
+llm_usage: undisclosed
 screenshots:
 - description: Brush select
   url: https://db.universal-team.net/assets/images/screenshots/doodle/brush-select.png

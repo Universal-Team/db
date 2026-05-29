@@ -49,6 +49,7 @@ image_length: 35081
 layout: app
 license: other
 license_name: Other
+llm_usage: none
 qr:
   Sonic1.cia: https://db.universal-team.net/assets/images/qr/sonic1-cia.png
   Sonic1_rev01.cia: https://db.universal-team.net/assets/images/qr/sonic1_rev01-cia.png

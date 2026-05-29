@@ -20,6 +20,7 @@ image_length: 22607
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_usage: none
 source: https://github.com/ingolemo/drider
 stars: 26
 systems:

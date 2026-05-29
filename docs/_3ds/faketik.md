@@ -19,6 +19,7 @@ image_length: 25856
 layout: app
 license: mit
 license_name: MIT License
+llm_usage: none
 source: https://github.com/ihaveamac/faketik
 stars: 111
 systems:

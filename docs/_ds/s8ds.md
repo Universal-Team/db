@@ -18,6 +18,7 @@ icon: https://db.universal-team.net/assets/images/icons/s8ds.png
 image: https://db.universal-team.net/assets/images/icons/s8ds.png
 image_length: 630
 layout: app
+llm_usage: undisclosed
 source: https://github.com/FluBBaOfWard/S8DS
 stars: 34
 systems:

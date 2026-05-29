@@ -24,6 +24,7 @@ image_length: 3664
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_usage: undisclosed
 qr:
   TriCord.cia: https://db.universal-team.net/assets/images/qr/tricord-cia.png
 screenshots:
@@ -41,7 +42,7 @@ script_message: This project is developed for educational purposes only. This is
   no responsibility for any damages, data loss, or Discord ToS violations resulting
   from the use of this software.
 source: https://github.com/2b-zipper/TriCord
-stars: 80
+stars: 81
 systems:
 - 3DS
 title: TriCord

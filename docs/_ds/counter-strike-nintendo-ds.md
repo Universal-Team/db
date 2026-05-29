@@ -22,6 +22,7 @@ icon: https://db.universal-team.net/assets/images/icons/counter-strike-nintendo-
 image: https://db.universal-team.net/assets/images/icons/counter-strike-nintendo-ds.png
 image_length: 630
 layout: app
+llm_usage: none
 source: https://github.com/Fewnity/Counter-Strike-Nintendo-DS
 stars: 235
 systems:

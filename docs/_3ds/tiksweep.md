@@ -28,6 +28,7 @@ image_length: 11389
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_usage: none
 qr:
   tikSweep.cia: https://db.universal-team.net/assets/images/qr/tiksweep-cia.png
 source: https://github.com/DanTheMan827/tikSweep

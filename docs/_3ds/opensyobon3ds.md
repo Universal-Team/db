@@ -18,6 +18,7 @@ icon: https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/ico
 image: https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/banner.png
 image_length: 24314
 layout: app
+llm_usage: none
 source: https://github.com/nop90/OpenSyobon3DS
 stars: 11
 systems:

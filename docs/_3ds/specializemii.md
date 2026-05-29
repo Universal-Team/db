@@ -20,6 +20,7 @@ image_length: 3259
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_usage: none
 source: https://github.com/phijor/SpecializeMii
 stars: 33
 systems:

@@ -18,6 +18,7 @@ icon: https://db.universal-team.net/assets/images/icons/portalds.png
 image: https://db.universal-team.net/assets/images/images/portalds.png
 image_length: 473
 layout: app
+llm_usage: none
 source: https://github.com/smealum/portalDS
 stars: 237
 systems:

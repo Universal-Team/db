@@ -24,6 +24,7 @@ image_length: 2306
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_usage: none
 qr:
   3DElf.cia: https://db.universal-team.net/assets/images/qr/3delf-cia.png
 screenshots:

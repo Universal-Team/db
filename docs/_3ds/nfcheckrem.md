@@ -23,6 +23,7 @@ icon: https://raw.githubusercontent.com/Golem642/NFCheckRem/main/NFCheckRem.png
 image: https://raw.githubusercontent.com/Golem642/NFCheckRem/main/NFCheckRem.png
 image_length: 13600
 layout: app
+llm_usage: undisclosed
 script_message: 'You will need to have "Game Patching" and "Loading external FIRMs
   and modules"
 

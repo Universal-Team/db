@@ -21,6 +21,7 @@ image_length: 41664
 layout: app
 license: other
 license_name: Other
+llm_usage: none
 screenshots:
 - description: Gameplay
   url: https://db.universal-team.net/assets/images/screenshots/yet-another-mario-kart-clone-3ds/gameplay.png

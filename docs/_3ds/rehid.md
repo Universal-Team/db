@@ -19,6 +19,7 @@ github: hax0kartik/rehid
 image: https://avatars.githubusercontent.com/u/16360444?v=4&size=128
 image_length: 21350
 layout: app
+llm_usage: undisclosed
 qr:
   rehidhelper.cia: https://db.universal-team.net/assets/images/qr/rehidhelper-cia.png
 screenshots:

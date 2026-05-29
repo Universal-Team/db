@@ -24,6 +24,7 @@ icon: https://db.universal-team.net/assets/images/icons/nesds.png
 image: https://db.universal-team.net/assets/images/images/nesds.png
 image_length: 177
 layout: app
+llm_usage: none
 qr:
   nesDS.cia: https://db.universal-team.net/assets/images/qr/nesds-cia.png
   nesDS.dsi: https://db.universal-team.net/assets/images/qr/nesds-dsi.png

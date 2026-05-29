@@ -24,6 +24,7 @@ image_length: 2679
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_usage: undisclosed
 qr:
   Zappka3DS.cia: https://db.universal-team.net/assets/images/qr/zappka3ds-cia.png
 screenshots:

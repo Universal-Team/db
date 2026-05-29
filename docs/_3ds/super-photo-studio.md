@@ -29,6 +29,7 @@ image_length: 31440
 layout: app
 license: mit
 license_name: MIT License
+llm_usage: undisclosed
 qr:
   SuperPhotoStudio.cia: https://db.universal-team.net/assets/images/qr/superphotostudio-cia.png
   SuperPhotoStudio.nds: https://db.universal-team.net/assets/images/qr/superphotostudio-nds.png

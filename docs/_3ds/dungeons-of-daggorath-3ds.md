@@ -24,6 +24,7 @@ image_length: 18876
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_usage: none
 qr:
   3dsdod-1.1.cia: https://db.universal-team.net/assets/images/qr/3dsdod-1-1-cia.png
 screenshots:

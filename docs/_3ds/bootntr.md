@@ -31,6 +31,7 @@ image_length: 7456
 layout: app
 license: mit
 license_name: MIT License
+llm_usage: none
 qr:
   BootNTRSelector.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-cia.png
   BootNTRSelector_Mode3.cia: https://db.universal-team.net/assets/images/qr/bootntrselector_mode3-cia.png

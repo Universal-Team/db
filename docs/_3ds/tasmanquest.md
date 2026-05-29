@@ -11,6 +11,7 @@ downloads:
 icon: http://nawiasdev.eu/tasmanquest/icon.png
 image: http://nawiasdev.eu/tasmanquest/logo.png
 layout: app
+llm_usage: undisclosed
 screenshots:
 - description: Screenshot 1
   url: https://db.universal-team.net/assets/images/screenshots/tasmanquest/screenshot-1.png

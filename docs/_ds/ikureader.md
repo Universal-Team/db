@@ -28,6 +28,7 @@ image_length: 630
 layout: app
 license: mit
 license_name: MIT License
+llm_usage: undisclosed
 qr:
   IkuReader.dsi: https://db.universal-team.net/assets/images/qr/ikureader-dsi.png
   IkuReader.nds: https://db.universal-team.net/assets/images/qr/ikureader-nds.png

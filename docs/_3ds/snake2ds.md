@@ -29,6 +29,7 @@ image_length: 1209
 layout: app
 license: mit
 license_name: MIT License
+llm_usage: none
 qr:
   Snake2DS.cia: https://db.universal-team.net/assets/images/qr/snake2ds-cia.png
 source: https://github.com/Jacudibu/Snake2DS

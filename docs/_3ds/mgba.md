@@ -21,6 +21,7 @@ image_length: 43839
 layout: app
 license: mpl-2.0
 license_name: Mozilla Public License 2.0
+llm_usage: undisclosed
 nightly:
   download_page: https://mgba.io/downloads.html#development-downloads
   downloads:
@@ -38,7 +39,7 @@ screenshots:
 - description: Scale stretch
   url: https://db.universal-team.net/assets/images/screenshots/mgba/scale-stretch.png
 source: https://github.com/mgba-emu/mgba
-stars: 7066
+stars: 7067
 systems:
 - 3DS
 title: mGBA

@@ -41,6 +41,7 @@ image_length: 24903
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_usage: none
 script_message: 'You will need to put the original game files in
 
   "sd:/3ds/OpenTitus/moktar" for the game to work.'

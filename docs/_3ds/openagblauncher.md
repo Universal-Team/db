@@ -13,6 +13,7 @@ gbatemp: '36828'
 image: https://db.universal-team.net/assets/images/images/openagblauncher.png
 image_length: 8593
 layout: app
+llm_usage: none
 stars: 0
 systems:
 - 3DS

@@ -24,6 +24,7 @@ icon: https://raw.githubusercontent.com/Thorsten-sys/anothercoolpresentation/mai
 image: https://raw.githubusercontent.com/Thorsten-sys/anothercoolpresentation/main/banner.png
 image_length: 6634
 layout: app
+llm_usage: undisclosed
 qr:
   github3ds.cia: https://db.universal-team.net/assets/images/qr/github3ds-cia.png
 source: https://gitlab.com/gitbrew/GitHub3DS

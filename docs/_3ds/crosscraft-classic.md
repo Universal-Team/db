@@ -31,6 +31,7 @@ image_length: 11793
 layout: app
 license: mpl-2.0
 license_name: Mozilla Public License 2.0
+llm_usage: none
 screenshots:
 - description: Gameplay
   url: https://db.universal-team.net/assets/images/screenshots/crosscraft-classic/gameplay.png

@@ -17,6 +17,7 @@ image_length: 3366
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
+llm_usage: undisclosed
 prerelease:
   download_page: https://github.com/angband/angband/releases/tag/4.2.6-138-g965933744
   downloads:

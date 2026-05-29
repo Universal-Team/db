@@ -20,6 +20,7 @@ image_length: 67130
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_usage: undisclosed
 source: https://github.com/idkhan/Balatro3DS
 stars: 76
 systems:

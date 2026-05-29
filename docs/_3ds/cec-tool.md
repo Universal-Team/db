@@ -24,6 +24,7 @@ image_length: 4135
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0 or later
+llm_usage: undisclosed
 qr:
   cec-tool.cia: https://db.universal-team.net/assets/images/qr/cec-tool-cia.png
 source: https://gitlab.com/sorunome/cectool

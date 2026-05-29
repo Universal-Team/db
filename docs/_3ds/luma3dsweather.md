@@ -25,6 +25,7 @@ image_length: 4982
 layout: app
 license: mit
 license_name: MIT License
+llm_usage: undisclosed
 source: https://github.com/Dzhmelyk135/Luma3DSWeather
 stars: 2
 systems:

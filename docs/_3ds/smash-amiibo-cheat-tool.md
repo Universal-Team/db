@@ -28,6 +28,7 @@ image_length: 36320
 layout: app
 license: mit
 license_name: MIT License
+llm_usage: none
 qr:
   SmashAmiiboCheatTool.cia: https://db.universal-team.net/assets/images/qr/smashamiibocheattool-cia.png
 source: https://github.com/SUOlivia/Smash-Amiibo-Cheat-Tool

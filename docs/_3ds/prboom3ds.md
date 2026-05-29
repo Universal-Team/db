@@ -15,6 +15,7 @@ image_length: 61311
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
+llm_usage: none
 prerelease:
   download_page: https://github.com/elhobbs/prboom3ds/releases/tag/v0.7-alpha
   downloads:

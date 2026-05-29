@@ -24,6 +24,7 @@ image_length: 26023
 layout: app
 license: mit
 license_name: MIT License
+llm_usage: none
 qr:
   CaptureAssistant.cia: https://db.universal-team.net/assets/images/qr/captureassistant-cia.png
 source: https://github.com/StonedModder/CaptureAssistant

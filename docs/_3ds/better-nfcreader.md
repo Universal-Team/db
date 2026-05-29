@@ -23,6 +23,7 @@ icon: https://raw.githubusercontent.com/cylin577/Better-NFCReader/master/resourc
 image: https://raw.githubusercontent.com/cylin577/Better-NFCReader/master/resources/banner.png
 image_length: 7164
 layout: app
+llm_usage: undisclosed
 qr:
   Better-NFCReader.cia: https://db.universal-team.net/assets/images/qr/better-nfcreader-cia.png
 source: https://github.com/cylin577/Better-NFCReader

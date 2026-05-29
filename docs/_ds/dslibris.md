@@ -18,6 +18,7 @@ icon: https://db.universal-team.net/assets/images/icons/dslibris.png
 image: https://db.universal-team.net/assets/images/images/dslibris.png
 image_length: 213
 layout: app
+llm_usage: undisclosed
 prerelease:
   download_page: https://github.com/rhaleblian/dslibris/releases/tag/v1.6.0
   downloads:

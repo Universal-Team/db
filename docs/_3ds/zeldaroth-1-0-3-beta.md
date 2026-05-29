@@ -31,6 +31,7 @@ icon: https://raw.githubusercontent.com/vargaviktor/ZeldaROTH/master/resources/i
 image: https://raw.githubusercontent.com/vargaviktor/ZeldaROTH/master/resources/banner.png
 image_length: 7049
 layout: app
+llm_usage: none
 qr:
   ZeldaROTH.cia: https://db.universal-team.net/assets/images/qr/zeldaroth-cia.png
 source: https://github.com/vargaviktor/ZeldaROTH

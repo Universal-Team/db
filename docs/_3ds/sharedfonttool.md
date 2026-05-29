@@ -32,6 +32,7 @@ image_length: 46802
 layout: app
 license: mit
 license_name: MIT License
+llm_usage: none
 qr:
   SFontT.cia: https://db.universal-team.net/assets/images/qr/sfontt-cia.png
   SFontT80.cia: https://db.universal-team.net/assets/images/qr/sfontt80-cia.png

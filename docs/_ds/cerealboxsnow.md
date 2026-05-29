@@ -20,6 +20,7 @@ icon: https://raw.githubusercontent.com/tallHouse64/CerealBoxSnow/0754a741579cb8
 image: https://raw.githubusercontent.com/tallHouse64/CerealBoxSnow/0754a741579cb8ab276df2faa0316160519e3482/CerealBoxSnowLogo.png
 image_length: 3411
 layout: app
+llm_usage: undisclosed
 qr:
   CerealBoxSnowNds1.2.0.nds: https://db.universal-team.net/assets/images/qr/cerealboxsnownds1-2-0-nds.png
 screenshots:

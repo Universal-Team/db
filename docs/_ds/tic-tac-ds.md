@@ -20,6 +20,7 @@ image_length: 9717
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_usage: none
 qr:
   tic-tac-ds.nds: https://db.universal-team.net/assets/images/qr/tic-tac-ds-nds.png
 screenshots:

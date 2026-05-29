@@ -25,6 +25,7 @@ image_length: 28367
 layout: app
 license: agpl-3.0
 license_name: GNU Affero General Public License v3.0
+llm_usage: undisclosed
 qr:
   CPyMO.for.Nintendo.3DS.cia: https://db.universal-team.net/assets/images/qr/cpymo-for-nintendo-3ds-cia.png
 source: https://github.com/Strrationalism/CPyMO

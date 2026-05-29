@@ -24,6 +24,7 @@ image_length: 6146
 layout: app
 license: mit
 license_name: MIT License
+llm_usage: none
 qr:
   CTRXplorer.cia: https://db.universal-team.net/assets/images/qr/ctrxplorer-cia.png
 source: https://github.com/d0k3/CTRXplorer

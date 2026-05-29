@@ -22,6 +22,7 @@ icon: https://db.universal-team.net/assets/images/icons/d-elusion.png
 image: https://db.universal-team.net/assets/images/icons/d-elusion.png
 image_length: 630
 layout: app
+llm_usage: none
 qr:
   d-Elusion-no-sound.nds: https://db.universal-team.net/assets/images/qr/d-elusion-no-sound-nds.png
   d-Elusion.nds: https://db.universal-team.net/assets/images/qr/d-elusion-nds.png

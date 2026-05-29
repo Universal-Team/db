@@ -26,6 +26,7 @@ image_length: 17658
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_usage: undisclosed
 nightly:
   download_page: https://buildbot.scummvm.org/dailybuilds/master/
   downloads:
@@ -34,7 +35,7 @@ nightly:
     nds-master-latest.zip:
       url: https://buildbot.scummvm.org/dailybuilds/master/nds-master-latest.zip
 source: https://github.com/scummvm/scummvm
-stars: 2702
+stars: 2703
 systems:
 - 3DS
 - DS

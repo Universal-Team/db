@@ -18,6 +18,7 @@ icon: https://raw.githubusercontent.com/Creckeryop/3dsCookieClicker/master/logo.
 image: https://db.universal-team.net/assets/images/images/3dscookieclicker.png
 image_length: 1821
 layout: app
+llm_usage: none
 qr:
   CookieClicker.cia: https://db.universal-team.net/assets/images/qr/cookieclicker-cia.png
 source: https://github.com/Creckeryop/3dsCookieClicker

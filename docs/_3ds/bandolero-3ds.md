@@ -24,6 +24,7 @@ image_length: 2536
 layout: app
 license: mit
 license_name: MIT License
+llm_usage: undisclosed
 qr:
   Bandolero.3Ds.v1.5.RED.UPDATE.cia: https://db.universal-team.net/assets/images/qr/bandolero-3ds-v1-5-red-update-cia.png
 source: https://github.com/Tristanabs/bandolero3ds
