@@ -1,0 +1,12 @@
+{
+	"github": "Fishason/DSSH",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app",
+		"utility"
+	],
+	"download_filter": "(cia|3dsx)",
+	"icon": "https://raw.githubusercontent.com/Fishason/DSSH/refs/heads/main/icon.png"
+}
