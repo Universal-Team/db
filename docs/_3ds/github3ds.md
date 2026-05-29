@@ -9,7 +9,7 @@ color_bg: '#2f6880'
 created: '2026-03-12T16:35:49.396Z'
 description: Search for github repositorys, download files, star repositorys and watch
   a list of 3ds homebrew related apps
-download_page: https://gitlab.com/MorrisTheGamer/GitHub3DS/-/releases
+download_page: https://gitlab.com/gitbrew/GitHub3DS/-/releases
 downloads:
   github3ds.3dsx:
     size: 994804
@@ -19,7 +19,7 @@ downloads:
     size: 1019328
     size_str: 995 KiB
     url: https://gitlab.com/gitbrew/GitHub3DS/-/raw/files/files/1.0/GitHub3DS.cia
-gitlab: MorrisTheGamer/GitHub3DS
+gitlab: gitbrew/GitHub3DS
 icon: https://raw.githubusercontent.com/Thorsten-sys/anothercoolpresentation/main/icon.png
 image: https://raw.githubusercontent.com/Thorsten-sys/anothercoolpresentation/main/banner.png
 image_length: 6634
@@ -37,6 +37,6 @@ update_notes: <p data-sourcepos="1:1-1:13" dir="auto">some fixes...</p>
 updated: '2026-04-12T21:31:01.000Z'
 version: v1.0.1
 version_title: fix for some things
-wiki: https://gitlab.com/MorrisTheGamer/github3ds/-/wikis/home
+wiki: https://gitlab.com/gitbrew/github3ds/-/wikis/home
 ---
 Download files from github on your 3ds, and Search for repositorys, star repositorys, and watch a big list of 3ds homebrew related repositorys

@@ -15,8 +15,8 @@ downloads:
     url: https://github.com/SprtnDio/NoteRoom/releases/download/v2.4.0/NoteRoom.cia
 github: SprtnDio/NoteRoom
 icon: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/icon.png
-image: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/images/NoteRoom_05.04.26_04.21.54.546.png
-image_length: 12806
+image: https://raw.githubusercontent.com/SprtnDio/NoteRoom/refs/heads/main/banner.png
+image_length: 37065
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
