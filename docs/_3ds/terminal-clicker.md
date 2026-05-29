@@ -12,7 +12,7 @@ downloads:
   TerminalClicker.3dsx:
     size: 189488
     size_str: 185 KiB
-    url: https://github.com/PyJulian/termiclicker3ds/releases/download/v1.1-fsrelease/TerminalClicker.3dsx
+    url: https://github.com/necanna/termiclicker3ds/releases/download/v1.1-fsrelease/TerminalClicker.3dsx
 github: PyJulian/termiclicker3ds
 icon: https://raw.githubusercontent.com/PyJulian/termiclicker3ds/refs/heads/main/TerminalClicker/icon.png
 image: https://raw.githubusercontent.com/PyJulian/termiclicker3ds/refs/heads/main/TerminalClicker/icon.png
@@ -23,13 +23,13 @@ license_name: MIT License
 screenshots:
 - description: Gameplay
   url: https://db.universal-team.net/assets/images/screenshots/terminal-clicker/gameplay.png
-source: https://github.com/PyJulian/termiclicker3ds
+source: https://github.com/necanna/termiclicker3ds
 stars: 1
 systems:
 - 3DS
 title: Terminal Clicker
-update_notes: <p dir="auto">Removes the screen flicker every frame so it becomes pretty
-  much playable</p>
+update_notes: <p>Removes the screen flicker every frame so it becomes pretty much
+  playable</p>
 updated: '2026-04-17T19:10:35Z'
 version: v1.1-fsrelease
 version_title: PATCH 1 - Terminal Clicker 3ds
