@@ -499,7 +499,7 @@ def create_web_file(app: Dict[str, Any]):
 				file.write(f"---\n{yaml.dump(web, sort_keys=True, allow_unicode=True)}---\n")
 				if "long_description" in app:
 					file.write(app["long_description"])
-	
+
 	return web
 
 
@@ -621,6 +621,10 @@ def process_app_entry(app: Dict[str, Any], fp: str, icon_idx: int, github_api: G
 		app["update_notes"] = github_api.format_markdown(app["update_notes_md"],
 												   		 mode="gfm" if "github" in app else "markdown",
 												   		 context=app["github"] if "github" in app else None)
+
+	# Set LLM usage
+	if "llm_usage" not in app:
+		app["llm_usage"] = "none" if parser.parse(app["updated"]).year < 2023 else "undisclosed"
 
 	# Prematurely stop here, if no DOCS_DIR.
 	# CLI normally checks for DOCS_DIR, if this is the all command
