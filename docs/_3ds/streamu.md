@@ -29,6 +29,7 @@ image_length: 3392
 layout: app
 license: mit
 license_name: MIT License
+llm_usage: undisclosed
 qr:
   streamu.cia: https://db.universal-team.net/assets/images/qr/streamu-cia.png
 source: https://github.com/imissuuuu/StreaMu

@@ -24,6 +24,7 @@ image_length: 11016
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_usage: undisclosed
 qr:
   streampotato.cia: https://db.universal-team.net/assets/images/qr/streampotato-cia.png
 source: https://github.com/PainDe0Mie/PotatoStream

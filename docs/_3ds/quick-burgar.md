@@ -15,6 +15,7 @@ image_length: 6037
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_usage: undisclosed
 prerelease:
   download_page: https://github.com/Oliwier098PL/Quick-Burgar/releases/tag/v0.2.1-alpha
   downloads:

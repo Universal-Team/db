@@ -20,6 +20,7 @@ image_length: 441
 layout: app
 license: mit
 license_name: MIT License
+llm_usage: undisclosed
 source: https://github.com/SnowyStorm00/artemis-os-3ds
 stars: 6
 systems:

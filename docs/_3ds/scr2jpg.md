@@ -20,6 +20,7 @@ image_length: 1161
 layout: app
 license: other
 license_name: Other
+llm_usage: undisclosed
 script_message: Screenshots pop up as if they were regular photos taken on the 1st
   of January, 2001. If your screenshots don't appear in the camera app, check the
   README from the GitHub (github.com/Adrix12team/SCR2JPG).

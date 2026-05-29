@@ -30,6 +30,7 @@ image_length: 30159
 layout: app
 license: lgpl-3.0
 license_name: GNU Lesser General Public License v3.0
+llm_usage: undisclosed
 qr:
   scratch-3ds.cia: https://db.universal-team.net/assets/images/qr/scratch-3ds-cia.png
   scratch-ds.nds: https://db.universal-team.net/assets/images/qr/scratch-ds-nds.png

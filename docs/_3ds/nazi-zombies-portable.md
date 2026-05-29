@@ -20,6 +20,7 @@ icon: https://raw.githubusercontent.com/nzp-team/vril-engine/main/source/platfor
 image: https://raw.githubusercontent.com/nzp-team/vril-engine/main/source/platform/ctr/art/banner.png
 image_length: 66499
 layout: app
+llm_usage: undisclosed
 screenshots:
 - description: Gameplay 1
   url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/gameplay-1.png

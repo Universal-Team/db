@@ -22,6 +22,7 @@ icon: https://raw.githubusercontent.com/lartodor/Nintendo-3DS-SpeedMaze/V1.1/ico
 image: https://raw.githubusercontent.com/lartodor/Nintendo-3DS-SpeedMaze/V1.1/banner.png
 image_length: 71395
 layout: app
+llm_usage: undisclosed
 qr:
   speedmaze.cia: https://db.universal-team.net/assets/images/qr/speedmaze-cia.png
 source: https://github.com/lartodor/Nintendo-3DS-SpeedMaze

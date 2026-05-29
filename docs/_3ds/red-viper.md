@@ -22,6 +22,7 @@ icon: https://raw.githubusercontent.com/skyfloogle/red-viper/master/icon.png
 image: https://raw.githubusercontent.com/skyfloogle/red-viper/master/resources/banner.png
 image_length: 6527
 layout: app
+llm_usage: undisclosed
 qr:
   red-viper.cia: https://db.universal-team.net/assets/images/qr/red-viper-cia.png
 screenshots:

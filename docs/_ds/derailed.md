@@ -20,6 +20,7 @@ image_length: 7175
 layout: app
 license: other
 license_name: Other
+llm_usage: undisclosed
 qr:
   derailed.nds: https://db.universal-team.net/assets/images/qr/derailed-nds.png
 source: https://github.com/AzizBgBoss/derailed

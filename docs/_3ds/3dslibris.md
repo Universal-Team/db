@@ -10,29 +10,29 @@ description: An ebook and manga reader for Nintendo 3DS
 download_page: https://github.com/RigleGit/3dslibris/releases
 downloads:
   3dslibris-debug.3dsx:
-    size: 14370608
+    size: 14388388
     size_str: 13 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.3/3dslibris-debug.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.4/3dslibris-debug.3dsx
   3dslibris-debug.cia:
-    size: 13128640
+    size: 13136832
     size_str: 12 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.3/3dslibris-debug.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.4/3dslibris-debug.cia
   3dslibris-sdmc.zip:
     size: 5020749
     size_str: 4 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.3/3dslibris-sdmc.zip
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.4/3dslibris-sdmc.zip
   3dslibris-source.tar.gz:
-    size: 66950520
+    size: 66954044
     size_str: 63 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.3/3dslibris-source.tar.gz
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.4/3dslibris-source.tar.gz
   3dslibris.3dsx:
-    size: 14492672
+    size: 14512340
     size_str: 13 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.3/3dslibris.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.4/3dslibris.3dsx
   3dslibris.cia:
-    size: 13259712
+    size: 13272000
     size_str: 12 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.3/3dslibris.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.4/3dslibris.cia
 github: RigleGit/3dslibris
 icon: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/icon-32x32.png
 image: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/banner.png
@@ -40,6 +40,7 @@ image_length: 48063
 layout: app
 license: other
 license_name: Other
+llm_usage: undisclosed
 qr:
   3dslibris-debug.cia: https://db.universal-team.net/assets/images/qr/3dslibris-debug-cia.png
   3dslibris.cia: https://db.universal-team.net/assets/images/qr/3dslibris-cia.png
@@ -53,35 +54,26 @@ stars: 121
 systems:
 - 3DS
 title: 3dslibris
-update_notes: '<h2 dir="auto">3dslibris 2.7.3</h2>
+update_notes: '<h2 dir="auto">3dslibris 2.7.4</h2>
 
-  <p dir="auto">Quality-of-life update for in-reader visibility and settings flow.</p>
+  <p dir="auto">Hotfix update focused on saving the book progress.</p>
 
   <h3 dir="auto">New Features</h3>
 
   <ul dir="auto">
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4528225752"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/131"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/131/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/131">#131</a>: added <strong>Time
-  Remaining (ETA)</strong> in the reader HUD as an optional setting.</li>
-
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4478103249"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/115"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/115/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/115">#115</a>: added <strong>Book
-  Information</strong> in book settings with quick stats (title, author, format, current
-  page, total pages, chapters, last read...).</li>
-
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4377631381"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/94"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/94/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/94">#94</a>: added <strong>custom
-  adjacent cover overrides</strong>. If present next to the book, 3dslibris now prioritizes
-  <code class="notranslate">Book.jpg</code> or <code class="notranslate">Book.png</code>
-  (including <code class="notranslate">.txt</code>, <code class="notranslate">.md</code>,
-  <code class="notranslate">.rtf</code>, and <code class="notranslate">.odt</code>).</li>
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4541290172"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/133"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/133/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/133">#133</a>: improved <strong>Book
+  Information</strong> description rendering by sanitizing common inline HTML/CSS
+  markup (for example <code class="notranslate">&lt;br&gt;</code>, <code class="notranslate">&lt;p&gt;</code>,
+  <code class="notranslate">&lt;li&gt;</code>, <code class="notranslate">&amp;amp;</code>,
+  <code class="notranslate">&amp;lt;</code>) and adapting inline style parsing (including
+  <code class="notranslate">font-weight</code>, <code class="notranslate">font-style</code>,
+  <code class="notranslate">text-decoration</code>, <code class="notranslate">white-space</code>,
+  <code class="notranslate">text-transform</code>) so tags no longer appear as raw
+  code and long descriptions can be read across additional info pages.</li>
 
   </ul>
 
@@ -89,31 +81,23 @@ update_notes: '<h2 dir="auto">3dslibris 2.7.3</h2>
 
   <ul dir="auto">
 
-  <li>Keeping the Y:lnk hint visible to standardize the reader HUD.</li>
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4528040226"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/130"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/130/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/130">#130</a>: fixed a cover-layout
+  regression where page-like EPUB covers could be pre-advanced and pushed to the next
+  reading page/screen instead of staying in the current opening spread.</li>
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4347167582"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/77"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/77/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/77">#77</a>: improved CSS paragraph
-  spacing consistency near page bottoms (percent-based margins like <code class="notranslate">1.5%</code>
-  no longer collapse as if they were <code class="notranslate">1%</code>, and CSS-driven
-  breaks avoid compressed separation at screen edges).</li>
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4541962981"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/134"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/134/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/134">#134</a>: fixed a reading-progress
+  regression where the saved page could reopen at page 1 after restart or book switching
+  by persisting before switch-close and preserving restored pending position until
+  parse completes.</li>
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4347167582"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/77"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/77/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/77">#77</a>: added block-level
-  <code class="notranslate">padding-top</code> support for <code class="notranslate">%</code>/<code
-  class="notranslate">px</code>/<code class="notranslate">em</code> in inline styles,
-  and upgraded <code class="notranslate">page-break-before: always</code> handling
-  to a hard page break so entry separators start on a new logical page.</li>
-
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4509263790"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/128"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/128/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/128">#128</a>: fixed wide leading
-  EPUB images that could be forced into an isolated full-width block on their own
-  reading screen.</li>
+  <li>Improved EPUB reopen stability for very large page-cache files (RAM crashes
+  related)</li>
 
   </ul>
 
@@ -150,7 +134,7 @@ update_notes: '<h2 dir="auto">3dslibris 2.7.3</h2>
   <li><code class="notranslate">3dslibris-source.tar.gz</code></li>
 
   </ul>'
-updated: '2026-05-28T10:09:45Z'
-version: v2.7.3
-version_title: v2.7.3
+updated: '2026-05-29T15:29:10Z'
+version: v2.7.4
+version_title: v2.7.4
 ---
