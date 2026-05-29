@@ -1,0 +1,20 @@
+{
+	"github": "cmdada/3DS-CLI",
+	"author": "cmdada",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"icon": "https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png",
+	"long_description": "\nA Nintendo 3DS homebrew application that embeds a full RISC-V CPU emulator (`mini-rv32ima` by cnlohr) to boot a real Linux environment inside the 3DS Horizon OS.\n\nFeatures a custom bottom-screen touch keyboard and standard VT100 console output on the top screen.\nUsage\n- Bottom Screen: Custom touch keyboard, you can probably tell I'm not UX :3\n- START Button: Hard exit the emulator and return to the Homebrew Launcher.\n\nCredits\n- Built using [devkitARM / libctru](https://github.com/devkitPro/libctru).\n- Powered by the incredible [mini-rv32ima](https://github.com/cnlohr/mini-rv32ima) RISC-V emulator by cnlohr.\n",
+	"archive": {
+		"3ds_cli\\.zip": {
+			"3ds-cli.3dsx": [
+				"3ds-cli.3dsx",
+				"Image"
+			]
+		}
+	}
+}
