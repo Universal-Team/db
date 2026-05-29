@@ -9,14 +9,10 @@ created: '2026-03-13T00:19:39Z'
 description: Drawing and text Chat Rooms.
 download_page: https://github.com/SprtnDio/NoteRoom/releases
 downloads:
-  NoteRoom.3dsx:
-    size: 562760
-    size_str: 549 KiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v2.3.0/NoteRoom.3dsx
   NoteRoom.cia:
-    size: 1120704
+    size: 1123776
     size_str: 1 MiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v2.3.0/NoteRoom.cia
+    url: https://github.com/SprtnDio/NoteRoom/releases/download/v2.4.0/NoteRoom.cia
 github: SprtnDio/NoteRoom
 icon: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/icon.png
 image: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/images/NoteRoom_05.04.26_04.21.54.546.png
@@ -31,88 +27,86 @@ stars: 3
 systems:
 - 3DS
 title: NoteRoom
-update_notes: '<h1 dir="auto">📝 NoteRoom - v2.3</h1>
+update_notes: '<h1 dir="auto">NoteRoom v2.4 — Custom Colored Badges, UI Overhaul &amp;
+  Real-Time Sync</h1>
 
-  <p dir="auto">This update brings a complete overhaul of the Lobby System, introducing
-  more ways to interact with the community and significant improvements to visual
-  stability.</p>
+  <p dir="auto">We are pleased to introduce NoteRoom v2.4! This release brings custom
+  colored badges, a complete visual redesign of the main menu and rules screens, interactive
+  mid-chat rules, and major real-time synchronization improvements.</p>
 
-  <h3 dir="auto">🌟 New Features</h3>
+  <hr>
 
-  <ul dir="auto">
-
-  <li><strong>Locked Room Interaction Menu:</strong> When selecting a password-protected
-  room, you now have a choice:
+  <h3 dir="auto">🛡️ Custom Colored Badges &amp; Names</h3>
 
   <ul dir="auto">
 
-  <li><strong>Join with Password:</strong> Enter the room key as usual.</li>
+  <li><strong>Hex-Color Badge Support:</strong> The client now parses and displays
+  custom-colored user badges (and custom sender name colors) for special ranks, staff,
+  and verified users.</li>
 
-  <li><strong>Request Join (Knock):</strong> Don''t have the password? Use the new
-  <strong>"Knock"</strong> feature to ask the users inside for permission to enter.</li>
+  </ul>
+
+  <hr>
+
+  <h3 dir="auto">🎮 Client UI &amp; Layout Overhaul</h3>
+
+  <ul dir="auto">
+
+  <li><strong>Interactive Rules Access in Chat:</strong> You can now press <code class="notranslate">[SELECT]</code>
+  during any active chat session to open the Community Guidelines. Pressing <code
+  class="notranslate">[B]</code> takes you directly back to the chat room <strong>without
+  losing your connection</strong> to the server.</li>
+
+  <li><strong>Main Menu Restructuring:</strong> Your current username has been moved
+  to the bottom screen, positioned cleanly directly above the color wheel.</li>
+
+  <li><strong>Interactive Name Colors:</strong> Selecting a color on the wheel now
+  dynamically updates your username''s color in real-time.</li>
+
+  <li><strong>Cleaned Up Top Screen:</strong> Removed redundant key guides (such as
+  <code class="notranslate">[X] Name</code>) to offer a cleaner, less cluttered look
+  on the top screen.</li>
+
+  <li><strong>Rules &amp; Help Screen Improvements:</strong>
+
+  <ul dir="auto">
+
+  <li>Added visual "Accept" (Green) and "Decline" (Red) button highlights on the initial
+  Rules screen.</li>
+
+  <li>Pressing <code class="notranslate">[B]</code> (Decline) on the Rules screen
+  now exits the application safely.</li>
 
   </ul>
 
   </li>
 
-  <li><strong>The "Knock" System:</strong>
+  </ul>
+
+  <hr>
+
+  <h3 dir="auto">⚡ Real-Time Synchronization &amp; Bug Fixes</h3>
 
   <ul dir="auto">
 
-  <li>Users inside a room will receive a notification when someone is "knocking" at
-  the door.</li>
+  <li><strong>Faster Menu Polling:</strong> The automatic online status refresh rate
+  in the menus has been shortened to 2.5 seconds, making lobby browsing feel much
+  more responsive.</li>
 
-  <li>Room members can instantly grant entry to the waiting user by pressing <strong>[SELECT]</strong>.</li>
+  <li><strong>Instant Category Counts:</strong> Fixed a visual issue where online
+  user counts for unvisited categories would show as zero; they now aggregate across
+  all rooms instantly.</li>
 
-  </ul>
+  <li><strong>Accurate Disconnect Tracking:</strong> Improved the synchronization
+  of user leaves and disconnects, meaning player counts drop immediately when someone
+  closes the application or exits a lobby.</li>
 
-  </li>
+  <li><strong>Scroll Limit Corrections:</strong> Resolved a scrolling glitch on lobby
+  list screens.</li>
 
-  <li><strong>Live Lobby Previews:</strong> You can now see who’s online before joining!
-  Hovering over any room in the menu will now display a <strong>Live User List</strong>
-  on the bottom screen.</li>
-
-  </ul>
-
-  <h3 dir="auto">✨ Visuals &amp; Customization</h3>
-
-  <ul dir="auto">
-
-  <li><strong>Rainbow Text Fix:</strong> Resolved an issue where Rainbow Mode text
-  messages were incorrectly appearing in static Cyan. Text now correctly features
-  the dynamic letter-by-letter RGB gradient for users with the Rainbow Pen equipped.</li>
-
-  <li><strong>Contextual Overlays:</strong> Improved the design and legibility of
-  pop-up prompts and menus on the top screen.</li>
-
-  <li><strong>Polished Help Menu:</strong> The <em>Help &amp; Controls</em> section
-  has been updated to reflect the new navigation shortcuts and the "Knock" system.</li>
-
-  </ul>
-
-  <h3 dir="auto">⚙️ Bug Fixes &amp; Stability</h3>
-
-  <ul dir="auto">
-
-  <li><strong>Ghost Room Eradication:</strong> Fixed a bug where rooms would sometimes
-  remain visible in the menu (as "Ghosts") after they were already closed. The lobby
-  list now syncs accurately with the server.</li>
-
-  <li><strong>Connection Reliability:</strong> Improved session handling to prevent
-  "Ghost Users" (duplicates) from appearing after a brief connection drop or app restart.</li>
-
-  <li><strong>Navigation Safety:</strong> Fixed a potential crash that occurred when
-  a room you were currently hovering over was closed or expired. The cursor now automatically
-  adjusts its position safely.</li>
-
-  <li><strong>Optimized Text Handling:</strong> Increased the character limit per
-  line in chat bubbles for better readability and a cleaner look.</li>
-
-  </ul>
-
-  <hr>'
-updated: '2026-05-19T20:53:11Z'
-version: v2.3.0
-version_title: NoteRoom v2.3.0
+  </ul>'
+updated: '2026-05-29T02:08:46Z'
+version: v2.4.0
+version_title: NoteRoom v2.4
 ---
 NoteRoom is a real-time online drawing and text Chatroom messenger for the Nintendo 2/3DS, inspired by a well known chatroom. Connect globally across themed, dynamic lobbies, share hand-drawn doodles, and view live user counts.
