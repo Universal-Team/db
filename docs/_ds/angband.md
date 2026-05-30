@@ -107,7 +107,7 @@ prerelease:
   version: 4.2.6-138-g965933744
   version_title: 4.2.6-138-g965933744
 source: https://github.com/angband/angband
-stars: 1510
+stars: 1511
 systems:
 - 3DS
 - DS
