@@ -20,7 +20,7 @@ image_length: 473
 layout: app
 llm_usage: none
 source: https://github.com/smealum/portalDS
-stars: 238
+stars: 239
 systems:
 - DS
 title: portalDS
