@@ -624,7 +624,10 @@ def process_app_entry(app: Dict[str, Any], fp: str, icon_idx: int, github_api: G
 
 	# Set LLM usage
 	if "llm_usage" not in app:
-		app["llm_usage"] = "none" if parser.parse(app["updated"]).year < 2023 else "undisclosed"
+		app["llm_usage"] = "undisclosed"
+
+		if "updated" in app and parser.parse(app["updated"]).year < 2023:
+			app["llm_usage"] = "none"
 
 	# Prematurely stop here, if no DOCS_DIR.
 	# CLI normally checks for DOCS_DIR, if this is the all command
