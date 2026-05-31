@@ -22,7 +22,7 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_usage: undisclosed
 source: https://github.com/semaj14/Multi-PokemonFramework
-stars: 58
+stars: 59
 systems:
 - 3DS
 title: Multi-Pokémon Framework
