@@ -36,9 +36,7 @@ update_notes: '<p dir="auto"><em>August 11, 2023</em></p>
 
   </ul>
 
-  <p dir="auto">Special thanks to <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/MattiaTheBest115/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/MattiaTheBest115">@MattiaTheBest115</a></p>'
+  <p dir="auto">Special thanks to @MattiaTheBest115</p>'
 updated: '2023-08-12T02:09:39Z'
 version: v1.0.4
 version_title: v1.0.4

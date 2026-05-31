@@ -22,7 +22,7 @@ license: mit
 license_name: MIT License
 llm_usage: undisclosed
 source: https://github.com/asiekierka/uxnds
-stars: 172
+stars: 173
 systems:
 - 3DS
 - DS
