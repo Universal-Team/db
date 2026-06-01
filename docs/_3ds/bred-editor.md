@@ -11,13 +11,13 @@ description: A simple Pokémon Blue/Red save editor for the 3DS.
 download_page: https://github.com/AtexBg/bred-editor/releases
 downloads:
   bred-editor.3dsx:
-    size: 203264
-    size_str: 198 KiB
-    url: https://github.com/AtexBg/bred-editor/releases/download/b0.3.0/bred-editor.3dsx
+    size: 217244
+    size_str: 212 KiB
+    url: https://github.com/AtexBg/bred-editor/releases/download/b0.4.0/bred-editor.3dsx
   bred-editor.cia:
-    size: 258496
-    size_str: 252 KiB
-    url: https://github.com/AtexBg/bred-editor/releases/download/b0.3.0/bred-editor.cia
+    size: 262592
+    size_str: 256 KiB
+    url: https://github.com/AtexBg/bred-editor/releases/download/b0.4.0/bred-editor.cia
 github: AtexBg/bred-editor
 icon: https://raw.githubusercontent.com/AtexBg/bred-editor/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/AtexBg/bred-editor/refs/heads/main/cia/banner.png
@@ -36,16 +36,18 @@ systems:
 - 3DS
 title: BRED Editor
 update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link"
-  href="https://github.com/AtexBg/bred-editor/compare/b0.2.0...b0.3.0"><tt>b0.2.0...b0.3.0</tt></a></p>
+  href="https://github.com/AtexBg/bred-editor/compare/b0.3.0...b0.4.0"><tt>b0.3.0...b0.4.0</tt></a></p>
 
   <p dir="auto">This Pokémon Blue/Red Editor have the following features :</p>
 
   <ul dir="auto">
 
-  <li>Viewing Player data (name, rival name, money, playerID, badges, playtime and
-  save checksum)</li>
+  <li>Viewing Player data (player name, rival name, money, playerID, badges, playtime
+  and save checksum)</li>
 
   <li>Viewing all stats of the 6 Pokémons in your party/team with detailled info</li>
+
+  <li>Editing Bag/Inventory items quantities</li>
 
   <li><strong>Modifing</strong> Playtime, Player and Rival names, amount of Money,
   and choose which badges are obtained</li>
@@ -57,16 +59,16 @@ update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-l
   </ul>
 
   <p dir="auto">And many features are planned to be added later, this is still only
-  version beta 0.3.0.<br>
+  version beta 0.4.0.<br>
 
   (see <code class="notranslate">https://github.com/AtexBg/bred-editor</code> for
   more details)</p>
 
   <p dir="auto"><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/AtexBg/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/AtexBg">@AtexBg</a>,
-  May 2026.</p>'
-updated: '2026-05-17T14:21:47Z'
-version: b0.3.0
-version_title: Beta 0.3.0
+  June 2026.</p>'
+updated: '2026-06-01T16:22:31Z'
+version: b0.4.0
+version_title: Beta 0.4.0
 ---
 A simple but useful save editor for Pokémon Red/Blue (Yellow may work too but it's currently untested) for the 3DS, still a beta version but many features are planned to be added. An emulator is also embed inside the app to quickly test changes (ROM not included for obvious reasons)

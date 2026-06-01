@@ -11,17 +11,17 @@ description: ' A homebrew music player for Nintendo 3DS that streams YouTube aud
 download_page: https://github.com/imissuuuu/StreaMu/releases
 downloads:
   StreaMu-Server.zip:
-    size: 22804302
-    size_str: 21 MiB
-    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.5.0/StreaMu-Server.zip
+    size: 23798235
+    size_str: 22 MiB
+    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.5.1/StreaMu-Server.zip
   streamu.3dsx:
-    size: 1963692
+    size: 1875276
     size_str: 1 MiB
-    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.5.0/streamu.3dsx
+    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.5.1/streamu.3dsx
   streamu.cia:
-    size: 1541056
+    size: 1462720
     size_str: 1 MiB
-    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.5.0/streamu.cia
+    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.5.1/streamu.cia
 github: imissuuuu/StreaMu
 icon: https://raw.githubusercontent.com/imissuuuu/StreaMu/main/assets/icon_48.png
 image: https://raw.githubusercontent.com/imissuuuu/StreaMu/main/assets/banner_256.png
@@ -39,21 +39,20 @@ systems:
 title: StreaMu
 unique_ids:
 - '0xFF3D1'
-update_notes: '<h1 dir="auto">StreaMu v1.5.0 Release Notes</h1>
+update_notes: '<h1 dir="auto">StreaMu v1.5.1 Release Notes</h1>
 
   <h2 dir="auto">Highlights</h2>
 
   <ul dir="auto">
 
-  <li>Opus Direct is now the only release playback path.</li>
+  <li>Improved steady-state Opus playback behavior to reduce low-FPS feeling and refill
+  instability during playback.</li>
 
-  <li>MP3 Proxy and server-side FFmpeg transcoding have been removed.</li>
+  <li>Reduced noisy hot-path observation overhead while keeping the playback pipeline
+  changes that were validated on hardware.</li>
 
-  <li>The proxy server no longer requires FFmpeg.</li>
-
-  <li>Existing <code class="notranslate">audio_path</code> settings, including old
-  <code class="notranslate">mp3</code> and <code class="notranslate">aac_direct</code>
-  values, are treated as Opus Direct.</li>
+  <li>Tightened several playback and UI edge cases, including buffering state transitions,
+  startup connection checks, and QA Remove handling.</li>
 
   </ul>
 
@@ -63,12 +62,11 @@ update_notes: '<h1 dir="auto">StreaMu v1.5.0 Release Notes</h1>
 
   <li>Update both the 3DS app and the proxy server together.</li>
 
-  <li>Use the latest <code class="notranslate">StreaMu-Server.zip</code>; older proxy
-  servers may not provide the required <code class="notranslate">/stream_opus_ogg</code>
-  endpoint.</li>
+  <li>Replace your existing <code class="notranslate">StreaMu-Server.zip</code> with
+  the version from this release.</li>
 
-  <li>If playback fails for a specific video, please include the video ID and the
-  server dashboard log when reporting it.</li>
+  <li>Existing Opus Direct usage stays the same; this is a maintenance and smoothness
+  update rather than a feature reset.</li>
 
   </ul>
 
@@ -97,17 +95,19 @@ update_notes: '<h1 dir="auto">StreaMu v1.5.0 Release Notes</h1>
 
   <ul dir="auto">
 
-  <li>Clean 3DS build passed and produced <code class="notranslate">streamu.3dsx</code>
-  / <code class="notranslate">streamu.cia</code>.</li>
+  <li>The Opus playback tuning changes were reviewed in TAKT review runs before release
+  preparation.</li>
 
-  <li>Python syntax check passed for proxy server modules.</li>
+  <li>Device testing reported no regression and no meaningful playback artifacts after
+  the steady-state refill tuning adjustments.</li>
 
-  <li>Manual 3DS smoke test passed.</li>
+  <li>GitHub release automation rebuilds the 3DS and server artifacts from the merged
+  <code class="notranslate">main</code> commit before publishing this release.</li>
 
   </ul>'
-updated: '2026-05-22T08:53:06Z'
-version: v1.5.0
-version_title: StreaMu v1.5.0
+updated: '2026-06-01T15:08:42Z'
+version: v1.5.1
+version_title: StreaMu v1.5.1
 ---
 StreaMu is a homebrew music player for Nintendo 3DS that lets you search and stream YouTube
   audio directly on your device.
