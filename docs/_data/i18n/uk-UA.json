@@ -3,6 +3,7 @@
 	"title-3ds": "3DS | Universal-DB",
 	"title-ds": "DS | Universal-DB",
 	"title-app-request": "App Request | Universal-DB",
+	"title-llm-usage-policy": "LLM Usage Policy | Universal-DB",
 	"title-error-404": "Помилка 404 | Universal-DB",
 	"by": "Від: <a href=\"https://universal-team.net/\" class=\"link\">Universal-Team</a>",
 	"published-with": "Опубліковано за допомогою <a href=\"https://pages.github.com\">Сторінки GitHub</a>. Переглянути <a href=\"https://github.com/${repo}\">джерело</a> на GitHub.",
@@ -40,6 +41,7 @@
 	"catdesc-utility": "Утиліти для керування DS, від файлових менеджерів до редакторів файлів збережень",
 	"catdesc-translation": "Переклади існуючих додатків іншими мовами",
 	"submit-app-request": "Надіслати запит на додаток",
+	"llm-policy": "LLM Policy",
 	"sort": "Сортувати:",
 	"title": "Назва",
 	"author": "Автор",
@@ -54,6 +56,8 @@
 	"created": "Створено: ",
 	"last-updated": "Востаннє оновлено: ",
 	"license": "Ліцензія: ",
+	"llm-usage": "LLM Usage: ",
+	"stars": "Stars: ",
 	"system": "Система: ",
 	"unique-id": "Унікальний ID: ",
 	"unique-ids": "Унікальні ID: ",
@@ -83,5 +87,9 @@
 	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our <a href=\"https://universal-team.net/discord\">Discord server</a>'s #universal-db-updates and to our <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky</a>!",
 	"last-updated-apps": "Найновіше оновлені додатки: ",
 	"error-404": "Помилка! 404!",
-	"return-to-home": "Повернутися на <a href=\"/\">домашню сторінку</a> або <span class=\"a\" onclick=\"window.history.back()\">повернутися</span> на попередню сторінку."
+	"return-to-home": "Повернутися на <a href=\"/\">домашню сторінку</a> або <span class=\"a\" onclick=\"window.history.back()\">повернутися</span> на попередню сторінку.",
+	"llm-none": "None (or minimal)",
+	"llm-minor": "Minor",
+	"llm-major": "Major",
+	"llm-undisclosed": "Undisclosed"
 }

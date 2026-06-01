@@ -3,6 +3,7 @@
 	"title-3ds": "3DS | Universal-DB",
 	"title-ds": "DS | Universal-DB",
 	"title-app-request": "App Request | Universal-DB",
+	"title-llm-usage-policy": "LLM Usage Policy | Universal-DB",
 	"title-error-404": "오류 404 | Universal-DB",
 	"by": "제작자: <a href=\"https://universal-team.net/\" class=\"link\">Universal-Team</a>",
 	"published-with": "<a href=\"https://pages.github.com\">깃허브 페이지</a>를 통해 발행했으며, 깃허브에 <a href=\"https://github.com/${repo}\">소스</a>를 표시함.",
@@ -40,6 +41,7 @@
 	"catdesc-utility": "당신의 DS 관리를 도와줄 파일 매니저에서 세이브 에디터까지의 유틸리티",
 	"catdesc-translation": "기존 앱의 다른 언어로의 번역",
 	"submit-app-request": "앱 리퀘스트 제출",
+	"llm-policy": "LLM Policy",
 	"sort": "정렬:",
 	"title": "타이틀",
 	"author": "제작자",
@@ -54,6 +56,8 @@
 	"created": "생성일자: ",
 	"last-updated": "마지막 업데이트: ",
 	"license": "라이센스: ",
+	"llm-usage": "LLM Usage: ",
+	"stars": "Stars: ",
 	"system": "본체: ",
 	"unique-id": "고유 ID: ",
 	"unique-ids": "고유 IDs: ",
@@ -83,5 +87,9 @@
 	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our <a href=\"https://universal-team.net/discord\">Discord server</a>'s #universal-db-updates and to our <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky</a>!",
 	"last-updated-apps": "마지막 업데이트: ",
 	"error-404": "오류! 404!",
-	"return-to-home": "<a href=\"/\">홈페이지</a> 또는 <span class=\"a\" onclick=\"window.history.back()\">이전 페이지</span>로 돌아가세요."
+	"return-to-home": "<a href=\"/\">홈페이지</a> 또는 <span class=\"a\" onclick=\"window.history.back()\">이전 페이지</span>로 돌아가세요.",
+	"llm-none": "None (or minimal)",
+	"llm-minor": "Minor",
+	"llm-major": "Major",
+	"llm-undisclosed": "Undisclosed"
 }

@@ -3,6 +3,7 @@
 	"title-3ds": "3DS | Universal-DB",
 	"title-ds": "DS | Universal-DB",
 	"title-app-request": "Soumettre une appli | Universal-DB",
+	"title-llm-usage-policy": "LLM Usage Policy | Universal-DB",
 	"title-error-404": "Erreur 404 | Universal-DB",
 	"by": "Par : <a href=\"https://universal-team.net/\" class=\"link\">Universal-Team</a>",
 	"published-with": "Publié avec <a href=\"https://pages.github.com\">GitHub Pages</a>, voir <a href=\"https://github.com/${repo}\">la source</a> sur GitHub.",
@@ -40,6 +41,7 @@
 	"catdesc-utility": "Utilitaires pour vous aider à gérer votre DS, des gestionnaires de fichiers aux éditeurs de sauvegarde",
 	"catdesc-translation": "Traductions d'applications existantes dans d'autres langues",
 	"submit-app-request": "Soumettre une demande d'application",
+	"llm-policy": "LLM Policy",
 	"sort": "Trier :",
 	"title": "Titre",
 	"author": "Auteur",
@@ -54,6 +56,8 @@
 	"created": "Créé : ",
 	"last-updated": "Dernière mise à jour : ",
 	"license": "Licence : ",
+	"llm-usage": "LLM Usage: ",
+	"stars": "Stars: ",
 	"system": "Système : ",
 	"unique-id": "ID unique : ",
 	"unique-ids": "IDs uniques : ",
@@ -83,5 +87,9 @@
 	"home-5": "Vous souhaitez être informé des nouvelles mises à jour des homebrews ? Nous avons un flux RSS sur ce site, il vous suffit donc de copier l'URL de cette page dans votre lecteur RSS préféré. Ce flux RSS est également syndiqué dans le salon #universal-db-updates de notre <a href=\"https://universal-team.net/discord\">serveur Discord</a>, ainsi que sur notre <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky</a> !",
 	"last-updated-apps": "Dernières mises à jour : ",
 	"error-404": "Erreur ! 404 !",
-	"return-to-home": "Retourner à la <a href=\"/\">page d'accueil</a> ou <span class=\"a\" onclick=\"window.history.back()\">revenir</span> à la page précédente."
+	"return-to-home": "Retourner à la <a href=\"/\">page d'accueil</a> ou <span class=\"a\" onclick=\"window.history.back()\">revenir</span> à la page précédente.",
+	"llm-none": "None (or minimal)",
+	"llm-minor": "Minor",
+	"llm-major": "Major",
+	"llm-undisclosed": "Undisclosed"
 }

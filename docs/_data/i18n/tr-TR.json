@@ -3,6 +3,7 @@
 	"title-3ds": "3DS | Universal-DB",
 	"title-ds": "DS | Universal-DB",
 	"title-app-request": "Uygulama İsteği | Universal-DB",
+	"title-llm-usage-policy": "LLM Usage Policy | Universal-DB",
 	"title-error-404": "404 Hatası | Universal-DB",
 	"by": "<a href=\"https://universal-team.net/\" class=\"link\">Universal-Team</a> tarafından",
 	"published-with": "GitHub Sayfalar'da <a href=\"https://pages.github.com\">yayınlanmıştır</a>, <a href=\"https://github.com/${repo}\">kaynağı</a> GitHub'da görüntüle.",
@@ -40,6 +41,7 @@
 	"catdesc-utility": "Dosya yöneticilerinden kaydetme düzenleyicilerine kadar DS'nizi yönetmenize yardımcı olacak yardımcı uygulamalar",
 	"catdesc-translation": "Mevcut uygulamaların diğer dillere çevirisi",
 	"submit-app-request": "Uygulama isteği gönder",
+	"llm-policy": "LLM Policy",
 	"sort": "Sırala:",
 	"title": "Başlık",
 	"author": "Sahibi",
@@ -54,6 +56,8 @@
 	"created": "Oluşturan: ",
 	"last-updated": "Son güncelleme: ",
 	"license": "Lisans: ",
+	"llm-usage": "LLM Usage: ",
+	"stars": "Stars: ",
 	"system": "Sistem: ",
 	"unique-id": "Özgün kimlik: ",
 	"unique-ids": "Özgün kimlik: ",
@@ -83,5 +87,9 @@
 	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our <a href=\"https://universal-team.net/discord\">Discord server</a>'s #universal-db-updates and to our <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky</a>!",
 	"last-updated-apps": "Son güncelleme: ",
 	"error-404": "Hata! 404!",
-	"return-to-home": "<a href=\"/\">Ana Sayfaya</a> dön ya da önceki sayfaya <span class=\"a\" onclick=\"window.history.back()\">geri dön</span>."
+	"return-to-home": "<a href=\"/\">Ana Sayfaya</a> dön ya da önceki sayfaya <span class=\"a\" onclick=\"window.history.back()\">geri dön</span>.",
+	"llm-none": "None (or minimal)",
+	"llm-minor": "Minor",
+	"llm-major": "Major",
+	"llm-undisclosed": "Undisclosed"
 }

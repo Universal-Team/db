@@ -3,6 +3,7 @@
 	"title-3ds": "3DS | Universal-DB",
 	"title-ds": "DS | Universal-DB",
 	"title-app-request": "App Request | Universal-DB",
+	"title-llm-usage-policy": "LLM Usage Policy | Universal-DB",
 	"title-error-404": "Erro 404 | Universal-DB",
 	"by": "Por: <a href=\"https://universal-team.net/\" class=\"link\">Universal-Team</a>",
 	"published-with": "Publicado com <a href=\"https://pages.github.com\">GitHub Pages</a>, veja <a href=\"https://github.com/${repo}\">a fonte</a> no GitHub.",
@@ -40,6 +41,7 @@
 	"catdesc-utility": "Utilitários para ajudar a gerenciar seu DS, de gerenciadores de arquivos a editores de saves",
 	"catdesc-translation": "Traduções de aplicativos existentes para outros idiomas",
 	"submit-app-request": "Enviar solicitação do aplicativo",
+	"llm-policy": "LLM Policy",
 	"sort": "Classificar:",
 	"title": "Título",
 	"author": "Autor",
@@ -54,6 +56,8 @@
 	"created": "Criado: ",
 	"last-updated": "Última atualização: ",
 	"license": "Licença: ",
+	"llm-usage": "LLM Usage: ",
+	"stars": "Stars: ",
 	"system": "Sistema: ",
 	"unique-id": "ID único: ",
 	"unique-ids": "IDs únicos: ",
@@ -83,5 +87,9 @@
 	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our <a href=\"https://universal-team.net/discord\">Discord server</a>'s #universal-db-updates and to our <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky</a>!",
 	"last-updated-apps": "Última atualização: ",
 	"error-404": "Erro! 404!",
-	"return-to-home": "Retorne à <a href=\"/\">página inicial</a> ou <span class=\"a\" onclick=\"window.history.back()\">volte</span> para a página anterior."
+	"return-to-home": "Retorne à <a href=\"/\">página inicial</a> ou <span class=\"a\" onclick=\"window.history.back()\">volte</span> para a página anterior.",
+	"llm-none": "None (or minimal)",
+	"llm-minor": "Minor",
+	"llm-major": "Major",
+	"llm-undisclosed": "Undisclosed"
 }
