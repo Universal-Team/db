@@ -28,7 +28,7 @@ llm_usage: undisclosed
 qr:
   SaveSync.cia: https://db.universal-team.net/assets/images/qr/savesync-cia.png
 source: https://github.com/coolguy1842/SaveSync
-stars: 9
+stars: 10
 systems:
 - 3DS
 title: SaveSync
