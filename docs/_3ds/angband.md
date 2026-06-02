@@ -19,93 +19,52 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_usage: undisclosed
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-138-g965933744
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-140-g3363e27ce
   downloads:
-    Angband-4.2.6-138-g965933744-3ds.zip:
-      size: 24673148
+    Angband-4.2.6-140-g3363e27ce-3ds.zip:
+      size: 24672916
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-138-g965933744/Angband-4.2.6-138-g965933744-3ds.zip
-    Angband-4.2.6-138-g965933744-nds.zip:
-      size: 23329639
+      url: https://github.com/angband/angband/releases/download/4.2.6-140-g3363e27ce/Angband-4.2.6-140-g3363e27ce-3ds.zip
+    Angband-4.2.6-140-g3363e27ce-nds.zip:
+      size: 23329842
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-138-g965933744/Angband-4.2.6-138-g965933744-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-140-g3363e27ce/Angband-4.2.6-140-g3363e27ce-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>Document 2 fancy note types by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/fruviad/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/fruviad">@fruviad</a>
-    in <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/angband/angband/commit/4dbbcd2c7b6abe849d33dd378f7c5fcd59398324/hovercard"
-    href="https://github.com/angband/angband/commit/4dbbcd2c7b6abe849d33dd378f7c5fcd59398324"><tt>4dbbcd2</tt></a></li>
-
-    <li>borg: a couple of issues with parsing formulas by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4489403466" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6638"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6638/hovercard"
-    href="https://github.com/angband/angband/pull/6638">#6638</a></li>
-
-    <li>Avoid "different ''const'' qualifiers" warning with Microsoft''s compiler
-    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4442698000" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6632"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6632/hovercard"
-    href="https://github.com/angband/angband/pull/6632">#6632</a></li>
-
-    <li>workflows: have at least one of the SDL2 builds compile with tracing … by
-    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4461091405" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6635"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6635/hovercard"
-    href="https://github.com/angband/angband/pull/6635">#6635</a></li>
-
-    <li>SDL2: correct use of keypress_to_text() for describing menu shortcuts by <a
-    class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4461458316" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6636"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6636/hovercard"
-    href="https://github.com/angband/angband/pull/6636">#6636</a></li>
-
-    <li>SDL2: be more informative when tracing SDL_WINDOWEVENT_* events by <a class="user-mention
+    <li>macOS:  allow Makefile.osx to add the get-task-allow entitlement by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4470262550" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6637"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6637/hovercard"
-    href="https://github.com/angband/angband/pull/6637">#6637</a></li>
+    data-id="4499797356" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6639"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6639/hovercard"
+    href="https://github.com/angband/angband/pull/6639">#6639</a></li>
+
+    <li>debugging ''S'' command: track all book kinds by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4508404014" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6641"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6641/hovercard"
+    href="https://github.com/angband/angband/pull/6641">#6641</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-132-g69ee95345...4.2.6-138-g965933744"><tt>4.2.6-132-g69ee95345...4.2.6-138-g965933744</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-138-g965933744...4.2.6-140-g3363e27ce"><tt>4.2.6-138-g965933744...4.2.6-140-g3363e27ce</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * Document 2 fancy note types by @fruviad in https://github.com/angband/angband/commit/4dbbcd2c7b6abe849d33dd378f7c5fcd59398324
+    * macOS:  allow Makefile.osx to add the get-task-allow entitlement by @backwardsEric
+    in https://github.com/angband/angband/pull/6639
 
-    * borg: a couple of issues with parsing formulas by @agoodman00 in https://github.com/angband/angband/pull/6638
-
-    * Avoid "different ''const'' qualifiers" warning with Microsoft''s compiler by
-    @backwardsEric in https://github.com/angband/angband/pull/6632
-
-    * workflows: have at least one of the SDL2 builds compile with tracing … by @backwardsEric
-    in https://github.com/angband/angband/pull/6635
-
-    * SDL2: correct use of keypress_to_text() for describing menu shortcuts by @backwardsEric
-    in https://github.com/angband/angband/pull/6636
-
-    * SDL2: be more informative when tracing SDL_WINDOWEVENT_* events by @backwardsEric
-    in https://github.com/angband/angband/pull/6637
+    * debugging ''S'' command: track all book kinds by @backwardsEric in https://github.com/angband/angband/pull/6641
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-132-g69ee95345...4.2.6-138-g965933744'
-  updated: '2026-05-26T12:55:59Z'
-  version: 4.2.6-138-g965933744
-  version_title: 4.2.6-138-g965933744
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-138-g965933744...4.2.6-140-g3363e27ce'
+  updated: '2026-06-02T18:12:49Z'
+  version: 4.2.6-140-g3363e27ce
+  version_title: 4.2.6-140-g3363e27ce
 source: https://github.com/angband/angband
 stars: 1511
 systems:

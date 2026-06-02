@@ -32,7 +32,7 @@ llm_usage: undisclosed
 qr:
   ctrmus.cia: https://db.universal-team.net/assets/images/qr/ctrmus-cia.png
 source: https://github.com/deltabeard/ctrmus
-stars: 136
+stars: 137
 systems:
 - 3DS
 title: ctrmus
