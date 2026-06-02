@@ -28,7 +28,7 @@ llm_usage: undisclosed
 qr:
   snes9x_3ds.cia: https://db.universal-team.net/assets/images/qr/snes9x_3ds-cia.png
 source: https://github.com/matbo87/snes9x_3ds
-stars: 65
+stars: 66
 systems:
 - 3DS
 title: Snes9x (updated fork)
