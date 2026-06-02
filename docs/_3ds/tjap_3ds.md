@@ -23,6 +23,45 @@ image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resourc
 image_length: 17026
 layout: app
 llm_usage: undisclosed
+prerelease:
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.2.3
+  downloads:
+    TJAP_3DS.3dsx:
+      size: 9844556
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.3/TJAP_3DS.3dsx
+    TJAP_3DS.cia:
+      size: 10023872
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.3/TJAP_3DS.cia
+  qr:
+    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
+  update_notes: '<h2 dir="auto">チェンジログ</h2>
+
+    <ul dir="auto">
+
+    <li>複素数スクロールの仮対応</li>
+
+    </ul>
+
+    <h2 dir="auto">Changelog</h2>
+
+    <ul dir="auto">
+
+    <li>Temporary support for complex number scrolling.</li>
+
+    </ul>'
+  update_notes_md: '## チェンジログ
+
+    - 複素数スクロールの仮対応
+
+
+    ## Changelog
+
+    - Temporary support for complex number scrolling.'
+  updated: '2026-06-02T03:51:14Z'
+  version: v2.2.3
+  version_title: TJAPlayer for 3DS v2.2.3
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
