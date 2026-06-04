@@ -45,6 +45,13 @@ update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github
   style="max-width: 100%; height: auto; max-height: 600px;; aspect-ratio: 600 / 600;
   background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
 
+  <h3 dir="auto">Fast CIA Installation</h3>
+
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/f80ff884-77e7-4c28-8a4a-0da197382058"><img
+  width="250" height="250" alt="ReSharp3DS v1 4 3-QR_CODE" src="https://github.com/user-attachments/assets/f80ff884-77e7-4c28-8a4a-0da197382058"
+  style="max-width: 100%; height: auto; max-height: 250px;; aspect-ratio: 250 / 250;
+  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
+
   <h2 dir="auto">ReSharp3DS Runtime Update</h2>
 
   <ul dir="auto">
