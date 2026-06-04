@@ -1,0 +1,14 @@
+{
+	"github": "PlanetDogeCodes/Pocket-Compiler",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"app"
+	],
+	"icon": "https://i.postimg.cc/tCYkwT1j/pocketcompiler.png",
+	"image": "https://i.postimg.cc/xdVky6rD/pocketcompilerbanner.png",
+	"long_description": "An almost fully featured HTML/JS/CSS compiler application made for 3DS/n3DS consoles. Includes iframes, limited WebGL support, limited Canvas support, Audio Support, and a clean UI!",
+	"wiki": "https://github.com/PlanetDogeCodes/Pocket-Compiler/blob/main/README.md"
+}
