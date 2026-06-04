@@ -11,13 +11,13 @@ download_filter: \.3dsx$|\.cia$
 download_page: https://github.com/8-bitStudio/3d-jelly/releases
 downloads:
   3dJelly.3dsx:
-    size: 263656
-    size_str: 257 KiB
-    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.2.0/3dJelly.3dsx
+    size: 267060
+    size_str: 260 KiB
+    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.2.1/3dJelly.3dsx
   3dJelly.cia:
-    size: 211392
-    size_str: 206 KiB
-    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.2.0/3dJelly.cia
+    size: 213952
+    size_str: 208 KiB
+    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.2.1/3dJelly.cia
 github: 8-bitStudio/3d-jelly
 icon: https://raw.githubusercontent.com/8-bitStudio/3d-jelly/main/gfx/icon.png
 image: https://raw.githubusercontent.com/8-bitStudio/3d-jelly/main/gfx/icon.png
@@ -35,73 +35,55 @@ systems:
 title: 3dJelly
 unique_ids:
 - '0xD7E11'
-update_notes: '<h2 dir="auto">3dJelly v0.2.0</h2>
+update_notes: '<h2 dir="auto">3dJelly v0.2.1</h2>
 
-  <p dir="auto">This release focuses on making playback controls and Jellyfin transcoding
-  more reliable on Nintendo 3DS hardware and emulators.</p>
+  <p dir="auto">Incremental stability release focused on Old 3DS playback, audio behavior,
+  and large Jellyfin library browsing.</p>
 
-  <h3 dir="auto">Added</h3>
-
-  <ul dir="auto">
-
-  <li>Working in-playback quality switching with <code class="notranslate">L/R</code>.</li>
-
-  <li>Fresh Jellyfin playback sessions when changing quality, so the server actually
-  rebuilds the transcode.</li>
-
-  <li>Current-position resume when changing quality.</li>
-
-  <li>Higher-resolution quality popup showing requested and actual decoded stream
-  size.</li>
-
-  <li>Improved bottom-screen playback controls and UI.</li>
-
-  <li>Better volume and mute controls during playback.</li>
-
-  </ul>
-
-  <h3 dir="auto">Fixed</h3>
+  <h3 dir="auto">Changes</h3>
 
   <ul dir="auto">
 
-  <li><code class="notranslate">B</code> during video returns directly to the previous
-  screen instead of the playback setup screen.</li>
+  <li>Added Old 3DS specific quality options, including <code class="notranslate">240HQ</code>.</li>
 
-  <li>Library/item filtering now avoids showing media not actually in your server.</li>
+  <li>Improved <code class="notranslate">144p</code> and <code class="notranslate">240p</code>
+  bitrate targets for better image quality.</li>
 
-  <li>Bottom-screen playback UI no longer flashes as aggressively during updates.</li>
+  <li>Improved audio stability during MJPEG playback.</li>
 
-  <li>Improved text rendering for punctuation and accented characters.</li>
+  <li>Added boosted-volume limiting and NDSP soft clipping to reduce harsh clipping
+  on loud audio.</li>
 
-  <li>Fixed HOME-button close behavior that left app stuck closing in a loop.</li>
+  <li>Saved D-pad volume between videos and app restarts.</li>
+
+  <li>Optimized MJPEG/AVI playback parsing, audio queue handling, JPEG color conversion,
+  and fullscreen <code class="notranslate">400x240</code> frame drawing.</li>
+
+  <li>Fixed large libraries, seasons, and folders being cut off by adding paged Jellyfin
+  item loading.</li>
+
+  <li>Increased browse capacity for large folders.</li>
+
+  <li>Improved playback bottom-screen title wrapping for long titles.</li>
 
   </ul>
 
-  <h3 dir="auto">Notes</h3>
+  <h3 dir="auto">Assets</h3>
 
   <ul dir="auto">
 
-  <li><code class="notranslate">144p</code> and <code class="notranslate">240p</code>
-  are still the best targets for Old 3DS.</li>
+  <li><code class="notranslate">3dJelly.cia</code> for installable 3DS title builds.</li>
 
-  <li><code class="notranslate">360p</code> and <code class="notranslate">480p</code>
-  may be slow depending on hardware, emulator, server speed, and the media being transcoded.</li>
+  <li><code class="notranslate">3dJelly.3dsx</code> for Homebrew Launcher builds.</li>
 
-  <li>For Homebrew Launcher use, download both <code class="notranslate">3dJelly.3dsx</code>
-  and <code class="notranslate">3dJelly.smdh</code>.</li>
+  <li><code class="notranslate">3dJelly.smdh</code> metadata/icon file.</li>
 
-  <li>Source archives are attached automatically by GitHub.</li>
+  <li>Source archives are generated automatically by GitHub.</li>
 
-  </ul>
-
-  <p dir="auto">Full changes: <a class="commit-link" href="https://github.com/8-bitStudio/3d-jelly/compare/v0.1.2...v0.2.0"><tt>v0.1.2...v0.2.0</tt></a><br>
-
-  Key playback switching commit: <a class="commit-link" data-hovercard-type="commit"
-  data-hovercard-url="https://github.com/8-bitStudio/3d-jelly/commit/9a2d363/hovercard"
-  href="https://github.com/8-bitStudio/3d-jelly/commit/9a2d363"><tt>9a2d363</tt></a></p>'
-updated: '2026-06-04T16:08:44Z'
-version: v0.2.0
-version_title: 3dJelly v0.2.0
+  </ul>'
+updated: '2026-06-04T18:30:12Z'
+version: v0.2.1
+version_title: 3dJelly v0.2.1
 ---
 3dJelly is a Jellyfin client for Nintendo 3DS. It can connect to a Jellyfin server, browse libraries, and play video through server-side transcoding.
 
