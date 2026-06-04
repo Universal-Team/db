@@ -1,0 +1,18 @@
+{
+	"github": "8-bitStudio/3d-jelly",
+	"title": "3dJelly",
+	"author": "8 Bit Studio",
+	"description": "A Jellyfin client for Nintendo 3DS.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"unique_ids": [
+		884241
+	],
+	"icon": "https://raw.githubusercontent.com/8-bitStudio/3d-jelly/main/gfx/icon.png",
+	"download_filter": "\\.3dsx$|\\.cia$",
+	"long_description": "3dJelly is a Jellyfin client for Nintendo 3DS. It can connect to a Jellyfin server, browse libraries, and play video through server-side transcoding.\n\nFeatures:\n- Native 3DS interface inspired by Jellyfin.\n- CIA and 3DSX builds.\n- Server-side transcoding with 144p, 240p, 360p, and 480p targets.\n- In-playback quality switching.\n- Audio playback, mute, and volume controls.\n\nNotes:\n- 144p and 240p are recommended for Old 3DS.\n- 360p and 480p may be slow depending on hardware, emulator, server speed, and media."
+}
