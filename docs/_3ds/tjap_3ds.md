@@ -27,7 +27,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.2.3
   downloads:
     TJAP_3DS.3dsx:
-      size: 9844948
+      size: 9844988
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.3/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -44,21 +44,43 @@ prerelease:
 
     </ul>
 
+    <pre class="notranslate"><code class="notranslate">#SCROLL (Signed float)(Signed
+    float)i
+
+    </code></pre>
+
     <h2 dir="auto">Changelog</h2>
 
     <ul dir="auto">
 
     <li>Temporary support for complex number scrolling.</li>
 
-    </ul>'
+    </ul>
+
+    <pre class="notranslate"><code class="notranslate">#SCROLL (Signed float)(Signed
+    float)i
+
+    </code></pre>'
   update_notes_md: '## チェンジログ
 
     - 複素数スクロールの仮対応
 
+    ```
+
+    #SCROLL (Signed float)(Signed float)i
+
+    ```
+
 
     ## Changelog
 
-    - Temporary support for complex number scrolling.'
+    - Temporary support for complex number scrolling.
+
+    ```
+
+    #SCROLL (Signed float)(Signed float)i
+
+    ```'
   updated: '2026-06-02T03:51:14Z'
   version: v2.2.3
   version_title: TJAPlayer for 3DS v2.2.3
