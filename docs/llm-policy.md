@@ -35,7 +35,7 @@ human-managed.
 
 When submitting, select this if:
 - You have used an LLM to write some functions, READMEs, release notes, etc
-- You belive that you (or a human working on the code) has checked all LLM output to do as expected
+- You believe that you (or a human working on the code) has checked all LLM output to do as expected
 - You have **NOT** used an LLM to do large-scale "vibecoding" tasks
 
 ### Major
