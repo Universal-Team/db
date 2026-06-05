@@ -11,13 +11,13 @@ download_filter: \.3dsx$|\.cia$
 download_page: https://github.com/8-bitStudio/3d-jelly/releases
 downloads:
   3dJelly.3dsx:
-    size: 400044
-    size_str: 390 KiB
-    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.4.0/3dJelly.3dsx
+    size: 506408
+    size_str: 494 KiB
+    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.4.1/3dJelly.3dsx
   3dJelly.cia:
-    size: 300992
-    size_str: 293 KiB
-    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.4.0/3dJelly.cia
+    size: 352704
+    size_str: 344 KiB
+    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.4.1/3dJelly.cia
 github: 8-bitStudio/3d-jelly
 icon: https://raw.githubusercontent.com/8-bitStudio/3d-jelly/main/gfx/icon.png
 image: https://raw.githubusercontent.com/8-bitStudio/3d-jelly/main/gfx/icon.png
@@ -39,25 +39,18 @@ update_notes: '<h2 dir="auto">Added</h2>
 
   <ul dir="auto">
 
-  <li>Added a Settings screen opened with Y from browsing screens.</li>
+  <li>Added Afrikaans, French, German, Italian, Dutch, Portuguese, Russian, Korean,
+  Simplified Chinese, and Traditional Chinese language support.</li>
 
-  <li>Added settings for default quality, playback mode, stream buffer preference,
-  server URL, and username.</li>
+  <li>Added native Korean/Hangul text rendering.</li>
 
-  <li>Added actions to clear saved login data, reset server/user data, and reset playback
-  defaults.</li>
+  <li>Added Simplified and Traditional Chinese system-font support for normal UI text.</li>
 
-  <li>Added configurable audio sample rates for 240p and 240HQ playback.</li>
+  <li>Added compact playback-screen glyph support for Korean, Japanese, Simplified
+  Chinese, and Traditional Chinese.</li>
 
-  <li>Added automatic next-episode playback when an episode ends.</li>
-
-  <li>Added a top-screen next-episode countdown with A to play next immediately and
-  B to cancel.</li>
-
-  <li>Added English, Spanish, and Japanese language support.</li>
-
-  <li>Added a stacked language selector with native labels: English, Español, and
-  日本語.</li>
+  <li>Added configurable bottom-screen dimming during video playback, with timer options
+  and a Never setting.</li>
 
   </ul>
 
@@ -65,13 +58,14 @@ update_notes: '<h2 dir="auto">Added</h2>
 
   <ul dir="auto">
 
-  <li>Moved Setup access on the Libraries screen to B.</li>
+  <li>Reworked translations into separate JSON files with a generated C translation
+  table.</li>
 
-  <li>Changed the Language setting from inline cycling to a selector menu.</li>
+  <li>Improved the language selector with a larger modal, scroll window, current-language
+  marker, and clearer controls.</li>
 
-  <li>Removed the experimental 240M1 quality mode from user-selectable settings.</li>
-
-  <li>Kept 144p audio at 22050 Hz while allowing higher audio rates for 240p and 240HQ.</li>
+  <li>Improved Japanese playback UI text so bottom-screen controls and status labels
+  use native Japanese.</li>
 
   </ul>
 
@@ -79,18 +73,12 @@ update_notes: '<h2 dir="auto">Added</h2>
 
   <ul dir="auto">
 
-  <li>Fixed episodes replaying the last few seconds after reaching the end.</li>
+  <li>Fixed ampersands rendering as question marks in playback text.</li>
 
-  <li>Fixed near-end MJPEG/H.264 stream closes being treated as reconnects.</li>
+  <li>Fixed Japanese language label rendering after adding Chinese font support.</li>
 
-  <li>Fix login redirects for public Jellyfin servers <a href="https://github.com/8-bitStudio/3d-jelly/issues/7"
-  data-hovercard-type="issue" data-hovercard-url="/8-bitStudio/3d-jelly/issues/7/hovercard">Issue
-  #7</a>, by <a href="https://github.com/ClammyMantis488">@ClammyMantis488</a></li>
-
-  <li>Fixed the language selector drawing behind Settings text.</li>
-
-  <li>Fixed Japanese playback status badges not recognizing Japanese loading, error,
-  and stopped states.</li>
+  <li>Fixed Korean, Japanese, Simplified Chinese, and Traditional Chinese playback
+  status labels showing missing or fallback characters.</li>
 
   </ul>
 
@@ -98,16 +86,18 @@ update_notes: '<h2 dir="auto">Added</h2>
 
   <ul dir="auto">
 
-  <li>Japanese support is new and should be considered early. Please report any text
-  that does not fit or any translation issues.</li>
+  <li>3dJelly now supports 13 languages.</li>
+
+  <li>Some translations are new and may need community feedback, especially text that
+  is too long for the 3DS screen.</li>
 
   <li>Playback is still experimental, especially at higher quality settings on Old
-  3DS.</li>
+  3DS. 3dJelly has not been tested on a new 3ds.</li>
 
   </ul>'
-updated: '2026-06-05T15:02:04Z'
-version: v0.4.0
-version_title: 3dJelly v0.4.0
+updated: '2026-06-05T20:25:56Z'
+version: v0.4.1
+version_title: 3dJelly 0.4.1
 ---
 3dJelly is a Jellyfin client for Nintendo 3DS. It can connect to a Jellyfin server, browse libraries, and play video through server-side transcoding.
 
