@@ -11,13 +11,13 @@ download_filter: \.3dsx$|\.cia$
 download_page: https://github.com/8-bitStudio/3d-jelly/releases
 downloads:
   3dJelly.3dsx:
-    size: 267060
-    size_str: 260 KiB
-    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.2.1/3dJelly.3dsx
+    size: 392160
+    size_str: 382 KiB
+    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.3.0/3dJelly.3dsx
   3dJelly.cia:
-    size: 213952
-    size_str: 208 KiB
-    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.2.1/3dJelly.cia
+    size: 297920
+    size_str: 290 KiB
+    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.3.0/3dJelly.cia
 github: 8-bitStudio/3d-jelly
 icon: https://raw.githubusercontent.com/8-bitStudio/3d-jelly/main/gfx/icon.png
 image: https://raw.githubusercontent.com/8-bitStudio/3d-jelly/main/gfx/icon.png
@@ -35,55 +35,74 @@ systems:
 title: 3dJelly
 unique_ids:
 - '0xD7E11'
-update_notes: '<h2 dir="auto">3dJelly v0.2.1</h2>
+update_notes: '<h2 dir="auto">3dJelly v0.3.0</h2>
 
-  <p dir="auto">Incremental stability release focused on Old 3DS playback, audio behavior,
-  and large Jellyfin library browsing.</p>
+  <p dir="auto">This release focuses on Old 3DS playback stability, buffering, and
+  new playback controls.</p>
 
-  <h3 dir="auto">Changes</h3>
+  <h3 dir="auto">Added</h3>
 
   <ul dir="auto">
 
-  <li>Added Old 3DS specific quality options, including <code class="notranslate">240HQ</code>.</li>
+  <li>Added encrypted saved password and token storage.</li>
 
-  <li>Improved <code class="notranslate">144p</code> and <code class="notranslate">240p</code>
-  bitrate targets for better image quality.</li>
+  <li>Added L/R video scrubbing with accelerated hold-to-skip behavior.</li>
 
-  <li>Improved audio stability during MJPEG playback.</li>
+  <li>Added top-screen seek progress overlay.</li>
 
-  <li>Added boosted-volume limiting and NDSP soft clipping to reduce harsh clipping
-  on loud audio.</li>
+  <li>Added experimental <code class="notranslate">240M1</code> MPEG-1/MP2 playback
+  mode for Old 3DS testing. This mode may be kept, changed, or removed depending on
+  further testing.</li>
 
-  <li>Saved D-pad volume between videos and app restarts.</li>
-
-  <li>Optimized MJPEG/AVI playback parsing, audio queue handling, JPEG color conversion,
-  and fullscreen <code class="notranslate">400x240</code> frame drawing.</li>
-
-  <li>Fixed large libraries, seasons, and folders being cut off by adding paged Jellyfin
-  item loading.</li>
-
-  <li>Increased browse capacity for large folders.</li>
-
-  <li>Improved playback bottom-screen title wrapping for long titles.</li>
+  <li>Added deeper stream buffering with startup prebuffering.</li>
 
   </ul>
 
-  <h3 dir="auto">Assets</h3>
+  <h3 dir="auto">Changed</h3>
 
   <ul dir="auto">
 
-  <li><code class="notranslate">3dJelly.cia</code> for installable 3DS title builds.</li>
+  <li>Changed playback quality switching to D-pad left/right so L/R can be used for
+  scrubbing.</li>
 
-  <li><code class="notranslate">3dJelly.3dsx</code> for Homebrew Launcher builds.</li>
+  <li>Improved bottom-screen playback controls for seek, quality, and volume.</li>
 
-  <li><code class="notranslate">3dJelly.smdh</code> metadata/icon file.</li>
+  <li>Improved Old 3DS MJPEG playback performance and catch-up behavior.</li>
 
-  <li>Source archives are generated automatically by GitHub.</li>
+  <li>Lowered normal Old 3DS <code class="notranslate">240p</code> MJPEG bitrate from
+  <code class="notranslate">820 kbps</code> to <code class="notranslate">720 kbps</code>
+  for stability.</li>
+
+  <li>Added threaded stream reading so network reads are less likely to block playback.</li>
+
+  <li>Optimized MJPEG frame presentation by flushing only the top video framebuffer.</li>
+
+  </ul>
+
+  <h3 dir="auto">Fixed</h3>
+
+  <ul dir="auto">
+
+  <li>Added stream-open retries and reconnect-from-current-position behavior after
+  MJPEG stream interruptions.</li>
+
+  <li>Improved handling of saved credential decrypt failures.</li>
+
+  </ul>
+
+  <h3 dir="auto">Notes</h3>
+
+  <ul dir="auto">
+
+  <li><code class="notranslate">240M1</code> is experimental. It may work better than
+  MJPEG on some Old 3DS setups, but it is still being tested.</li>
+
+  <li>Playback is still experimental on Old 3DS hardware.</li>
 
   </ul>'
-updated: '2026-06-04T18:30:12Z'
-version: v0.2.1
-version_title: 3dJelly v0.2.1
+updated: '2026-06-04T23:43:25Z'
+version: v0.3.0
+version_title: v0.3.0
 ---
 3dJelly is a Jellyfin client for Nintendo 3DS. It can connect to a Jellyfin server, browse libraries, and play video through server-side transcoding.
 
