@@ -65,7 +65,7 @@ update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github
   </ul>'
 updated: '2026-06-04T15:01:15Z'
 version: v1.4.3
-version_title: ReSharp3DS Runtime & API - v1.4.3-beta.6
+version_title: ReSharp3DS Runtime & API - v1.4.3-beta.3
 website: https://saysaa.github.io/ReSharp3DS/
 wiki: https://saysaa.github.io/ReSharp3DS/
 ---
