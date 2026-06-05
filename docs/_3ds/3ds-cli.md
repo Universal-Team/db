@@ -3,21 +3,21 @@ author: cmdada
 avatar: https://avatars.githubusercontent.com/u/79297197?v=4
 categories:
 - emulator
-color: '#1c371b'
-color_bg: '#1c371b'
+color: '#433943'
+color_bg: '#433943'
 created: '2026-05-10T04:52:37Z'
 description: Nintendo 3DS homebrew application that embeds a full RISC-V emulator
   to boot a Linux environment inside the 3DS Horizon OS.
 download_page: https://github.com/cmdada/3DS-CLI/releases
 downloads:
   3ds_cli.zip:
-    size: 1636211
+    size: 1636713
     size_str: 1 MiB
-    url: https://github.com/cmdada/3DS-CLI/releases/download/1.5/3ds_cli.zip
+    url: https://github.com/cmdada/3DS-CLI/releases/download/1.6/3ds_cli.zip
 github: cmdada/3DS-CLI
 icon: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
 image: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
-image_length: 2587
+image_length: 3509
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
@@ -28,10 +28,10 @@ systems:
 - 3DS
 title: 3DS-CLI
 update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link"
-  href="https://github.com/cmdada/3DS-CLI/compare/1.4...1.5"><tt>1.4...1.5</tt></a></p>'
-updated: '2026-06-05T03:28:19Z'
-version: '1.5'
-version_title: V1.5
+  href="https://github.com/cmdada/3DS-CLI/compare/1.5...1.6"><tt>1.5...1.6</tt></a></p>'
+updated: '2026-06-05T04:24:43Z'
+version: '1.6'
+version_title: V1.6
 ---
 
 A Nintendo 3DS homebrew application that embeds a full RISC-V CPU emulator (`mini-rv32ima` by cnlohr) to boot a real Linux environment inside the 3DS Horizon OS.
