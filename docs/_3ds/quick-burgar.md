@@ -17,13 +17,13 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_usage: undisclosed
 prerelease:
-  download_page: https://github.com/Oliwier098PL/Quick-Burgar/releases/tag/v0.2.1-alpha
+  download_page: https://github.com/Oliwier098PL/Quick-Burgar/releases/tag/v0.3.0-alpha
   downloads:
-    Quick.Burgar.3dsx:
-      size: 5432881
+    QuickBurgar.3dsx:
+      size: 5435834
       size_str: 5 MiB
-      url: https://github.com/Oliwier098PL/Quick-Burgar/releases/download/v0.2.1-alpha/Quick.Burgar.3dsx
-  update_notes: '<h2 dir="auto">Fixed major bug!</h2>
+      url: https://github.com/Oliwier098PL/Quick-Burgar/releases/download/v0.3.0-alpha/QuickBurgar.3dsx
+  update_notes: '<h2 dir="auto">I''m really sorry about the controls...</h2>
 
     <p dir="auto"><strong>If you find any issues please report them <a href="https://github.com/Oliwier098PL/Quick-Burgar/issues">here</a><br>
 
@@ -33,12 +33,20 @@ prerelease:
 
     <ul dir="auto">
 
-    <li><strong>Fixed a bug where time didn''t go down with points</strong></li>
+    <li>
 
-    <li>Fixed <a class="issue-link js-issue-link" data-error-text="Failed to load
-    title" data-id="4443557787" data-permission-text="Title is private" data-url="https://github.com/Oliwier098PL/Quick-Burgar/issues/3"
-    data-hovercard-type="issue" data-hovercard-url="/Oliwier098PL/Quick-Burgar/issues/3/hovercard"
-    href="https://github.com/Oliwier098PL/Quick-Burgar/issues/3">#3</a></li>
+    <h3 dir="auto">Changed the controls (New controls listed in README)</h3>
+
+    </li>
+
+    <li>Added +2 Star points (If you manage to do an order within the time that the
+    star points at you get +2 points instead of 1)</li>
+
+    <li>Added packaging to burgars</li>
+
+    <li>Added points popups</li>
+
+    <li>Changed soda pouring</li>
 
     </ul>
 
@@ -50,7 +58,7 @@ prerelease:
     is in sleep mode</li>
 
     </ul>'
-  update_notes_md: '## Fixed major bug!
+  update_notes_md: '## I''m really sorry about the controls...
 
 
     **If you find any issues please report them [here](https://github.com/Oliwier098PL/Quick-Burgar/issues)
@@ -60,27 +68,31 @@ prerelease:
 
     ### Changelog:
 
-    - **Fixed a bug where time didn''t go down with points**
+    - ### Changed the controls (New controls listed in README)
 
-    - Fixed #3
+    - Added +2 Star points (If you manage to do an order within the time that the
+    star points at you get +2 points instead of 1)
+
+    - Added packaging to burgars
+
+    - Added points popups
+
+    - Changed soda pouring
 
 
     ### Known bugs:
 
     - Logo and buttons in title screen go crazy with its y position when the 3DS is
-    in sleep mode
-
-
-    '
-  updated: '2026-05-14T16:17:42Z'
-  version: v0.2.1-alpha
-  version_title: v0.2.1-alpha
+    in sleep mode'
+  updated: '2026-06-04T18:07:45Z'
+  version: v0.3.0-alpha
+  version_title: v0.3.0-alpha
 source: https://github.com/Oliwier098PL/Quick-Burgar
 stars: 1
 systems:
 - 3DS
 title: Quick Burgar
-update_notes: '<h2 dir="auto">Fixed major bug!</h2>
+update_notes: '<h2 dir="auto">I''m really sorry about the controls...</h2>
 
   <p dir="auto"><strong>If you find any issues please report them <a href="https://github.com/Oliwier098PL/Quick-Burgar/issues">here</a><br>
 
@@ -90,12 +102,20 @@ update_notes: '<h2 dir="auto">Fixed major bug!</h2>
 
   <ul dir="auto">
 
-  <li><strong>Fixed a bug where time didn''t go down with points</strong></li>
+  <li>
 
-  <li>Fixed <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-  data-id="4443557787" data-permission-text="Title is private" data-url="https://github.com/Oliwier098PL/Quick-Burgar/issues/3"
-  data-hovercard-type="issue" data-hovercard-url="/Oliwier098PL/Quick-Burgar/issues/3/hovercard"
-  href="https://github.com/Oliwier098PL/Quick-Burgar/issues/3">#3</a></li>
+  <h3 dir="auto">Changed the controls (New controls listed in README)</h3>
+
+  </li>
+
+  <li>Added +2 Star points (If you manage to do an order within the time that the
+  star points at you get +2 points instead of 1)</li>
+
+  <li>Added packaging to burgars</li>
+
+  <li>Added points popups</li>
+
+  <li>Changed soda pouring</li>
 
   </ul>
 
@@ -107,9 +127,9 @@ update_notes: '<h2 dir="auto">Fixed major bug!</h2>
   in sleep mode</li>
 
   </ul>'
-updated: '2026-05-14T16:17:42Z'
-version: v0.2.1-alpha
-version_title: v0.2.1-alpha
+updated: '2026-06-04T18:07:45Z'
+version: v0.3.0-alpha
+version_title: v0.3.0-alpha
 ---
 A Homebrew game for the 3DS about cooking in limited time.
 You work in a fast food restaurant, customers here are not patient.

@@ -9,7 +9,15 @@ color_bg: '#755780'
 created: '2025-11-28T10:52:26Z'
 description: Bringing modern cloud save to 3DS.
 download_page: https://github.com/dwalker109/cloudpoint/releases
-downloads: {}
+downloads:
+  cloudpoint.3dsx:
+    size: 2905936
+    size_str: 2 MiB
+    url: https://github.com/dwalker109/cloudpoint/releases/download/0.4.0/cloudpoint.3dsx
+  cloudpoint.cia:
+    size: 2327488
+    size_str: 2 MiB
+    url: https://github.com/dwalker109/cloudpoint/releases/download/0.4.0/cloudpoint.cia
 github: dwalker109/cloudpoint
 icon: https://media.githubusercontent.com/media/dwalker109/cloudpoint/refs/heads/main/cloudpoint_app/cia/icon.png
 image: https://media.githubusercontent.com/media/dwalker109/cloudpoint/refs/heads/main/cloudpoint_app/cia/banner.png
@@ -18,8 +26,10 @@ layout: app
 license: mit
 license_name: MIT License
 llm_usage: undisclosed
+qr:
+  cloudpoint.cia: https://db.universal-team.net/assets/images/qr/cloudpoint-cia.png
 source: https://github.com/dwalker109/cloudpoint
-stars: 18
+stars: 22
 systems:
 - 3DS
 title: Cloudpoint

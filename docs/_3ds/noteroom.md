@@ -10,13 +10,13 @@ description: Drawing and text Chat Rooms.
 download_page: https://github.com/SprtnDio/NoteRoom/releases
 downloads:
   NoteRoom.3dsx:
-    size: 567692
-    size_str: 554 KiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v2.4.0/NoteRoom.3dsx
+    size: 840436
+    size_str: 820 KiB
+    url: https://github.com/SprtnDio/NoteRoom/releases/download/v2.5.0/NoteRoom.3dsx
   NoteRoom.cia:
-    size: 1123776
+    size: 1318336
     size_str: 1 MiB
-    url: https://github.com/SprtnDio/NoteRoom/releases/download/v2.4.0/NoteRoom.cia
+    url: https://github.com/SprtnDio/NoteRoom/releases/download/v2.5.0/NoteRoom.cia
 github: SprtnDio/NoteRoom
 icon: https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/icon.png
 image: https://raw.githubusercontent.com/SprtnDio/NoteRoom/refs/heads/main/banner.png
@@ -32,55 +32,34 @@ stars: 3
 systems:
 - 3DS
 title: NoteRoom
-update_notes: '<h1 dir="auto">NoteRoom v2.4 — Custom Colored Badges, UI Overhaul &amp;
-  Real-Time Sync</h1>
+update_notes: '<h1 dir="auto">NoteRoom v2.5 - The Music Update 🎵🎨</h1>
 
-  <p dir="auto">We are pleased to introduce NoteRoom v2.4! This release brings custom
-  colored badges, a complete visual redesign of the main menu and rules screens, interactive
-  mid-chat rules, and major real-time synchronization improvements.</p>
+  <p dir="auto">Welcome to NoteRoom v2.5! This update brings a highly requested feature
+  to the table, alongside smart UI improvements and crucial stability fixes to make
+  your drawing and chatting experience smoother than ever.</p>
 
-  <hr>
-
-  <h3 dir="auto">🛡️ Custom Colored Badges &amp; Names</h3>
+  <h2 dir="auto">🎵 New Feature: Background Music Player</h2>
 
   <ul dir="auto">
 
-  <li><strong>Hex-Color Badge Support:</strong> The client now parses and displays
-  custom-colored user badges (and custom sender name colors) for special ranks, staff,
-  and verified users.</li>
+  <li><strong>MP3 Support:</strong> NoteRoom now supports background music! Simply
+  place your favorite <code class="notranslate">.mp3</code> files into <code class="notranslate">SD:/3ds/NoteRoom/</code>
+  and they will play automatically while you chat and draw.</li>
 
-  </ul>
+  <li><strong>Now Playing Notifications:</strong> Whenever a new track starts, a neat
+  little <code class="notranslate">🎵 [Song Name]</code> banner pops up on the top
+  screen.</li>
 
-  <hr>
-
-  <h3 dir="auto">🎮 Client UI &amp; Layout Overhaul</h3>
-
-  <ul dir="auto">
-
-  <li><strong>Interactive Rules Access in Chat:</strong> You can now press <code class="notranslate">[SELECT]</code>
-  during any active chat session to open the Community Guidelines. Pressing <code
-  class="notranslate">[B]</code> takes you directly back to the chat room <strong>without
-  losing your connection</strong> to the server.</li>
-
-  <li><strong>Main Menu Restructuring:</strong> Your current username has been moved
-  to the bottom screen, positioned cleanly directly above the color wheel.</li>
-
-  <li><strong>Interactive Name Colors:</strong> Selecting a color on the wheel now
-  dynamically updates your username''s color in real-time.</li>
-
-  <li><strong>Cleaned Up Top Screen:</strong> Removed redundant key guides (such as
-  <code class="notranslate">[X] Name</code>) to offer a cleaner, less cluttered look
-  on the top screen.</li>
-
-  <li><strong>Rules &amp; Help Screen Improvements:</strong>
+  <li><strong>Quick Skip Controls:</strong> You can now skip songs directly using
+  the <strong>Circle Pad (Thumbstick)</strong>!
 
   <ul dir="auto">
 
-  <li>Added visual "Accept" (Green) and "Decline" (Red) button highlights on the initial
-  Rules screen.</li>
+  <li>Flick <strong>Right</strong> to skip to the next track.</li>
 
-  <li>Pressing <code class="notranslate">[B]</code> (Decline) on the Rules screen
-  now exits the application safely.</li>
+  <li>Flick <strong>Left</strong> to play the previous track.</li>
+
+  <li><em>Includes a built-in deadzone to prevent accidental double-skips!</em></li>
 
   </ul>
 
@@ -88,30 +67,70 @@ update_notes: '<h1 dir="auto">NoteRoom v2.4 — Custom Colored Badges, UI Overha
 
   </ul>
 
-  <hr>
-
-  <h3 dir="auto">⚡ Real-Time Synchronization &amp; Bug Fixes</h3>
+  <h2 dir="auto">✨ UI &amp; Quality of Life Improvements</h2>
 
   <ul dir="auto">
 
-  <li><strong>Faster Menu Polling:</strong> The automatic online status refresh rate
-  in the menus has been shortened to 2.5 seconds, making lobby browsing feel much
-  more responsive.</li>
+  <li><strong>Combined PEN &amp; ERS Button:</strong> To save space on the bottom
+  screen, the Pen (<code class="notranslate">PEN</code>) and Eraser (<code class="notranslate">ERS</code>)
+  tools have been merged into a single toggle button. Simply tap it to switch between
+  drawing and erasing.</li>
 
-  <li><strong>Instant Category Counts:</strong> Fixed a visual issue where online
-  user counts for unvisited categories would show as zero; they now aggregate across
-  all rooms instantly.</li>
+  <li><strong>In-Chat Quick Help:</strong> A new <code class="notranslate">HELP</code>
+  button has been added to the bottom toolbar (replacing the old eraser slot). You
+  can now open the <em>Help &amp; Controls</em> screen directly while in a chat room,
+  without having to leave or lose your connection!</li>
 
-  <li><strong>Accurate Disconnect Tracking:</strong> Improved the synchronization
-  of user leaves and disconnects, meaning player counts drop immediately when someone
-  closes the application or exits a lobby.</li>
+  <li><strong>Start Screen Update:</strong> The lock screen/rules screen now reminds
+  users where to put their <code class="notranslate">.mp3</code> files and includes
+  a custom text line to welcome users.</li>
 
-  <li><strong>Scroll Limit Corrections:</strong> Resolved a scrolling glitch on lobby
-  list screens.</li>
+  <li><strong>Updated Help Section:</strong> The Help &amp; Controls overlay has been
+  updated to explain the new music player features and Circle Pad controls.</li>
 
-  </ul>'
-updated: '2026-05-29T02:08:46Z'
-version: v2.4.0
-version_title: NoteRoom v2.4
+  </ul>
+
+  <h2 dir="auto">🚀 Performance &amp; Under the Hood</h2>
+
+  <ul dir="auto">
+
+  <li><strong>Zero-Freeze Sending (Async):</strong> Sending text messages and drawings
+  is now lightning fast! The app immediately queues the message in the background
+  and showsa smooth 4-second "Encrypting message..." -&gt; "Sent!" animation without
+  freezing the UI.</li>
+
+  <li><strong>Faster Lobby Updates:</strong> The online user and room polling rate
+  in the menus has been cut in half (from 5000ms to 2500ms). You''ll now see people
+  joining and leaving lobbies almost instantly!</li>
+
+  <li><strong>CRITICAL FIX - Safe Shutdown:</strong> Fixed a nasty crash that could
+  occur when exiting the app with <code class="notranslate">[START]</code>. The audio
+  thread (DSP/mpg123) is now forcefully and safely terminated before the 3DS closes
+  the sound channels, eliminating memory corruption crashes on exit.</li>
+
+  <li><strong>Certificate Pinning &amp; Security:</strong> Further hardening of the
+  manual TLS Certificate Pinning to ensure maximum MITM-protection.</li>
+
+  </ul>
+
+  <hr>
+
+  <h3 dir="auto">📂 How to use the Music Player:</h3>
+
+  <ol dir="auto">
+
+  <li>Make sure your SD card has the folder <code class="notranslate">sdmc:/3ds/NoteRoom/</code>
+  (The app creates this automatically).</li>
+
+  <li>Drop up to 30 of your favorite <code class="notranslate">.mp3</code> songs into
+  this folder.</li>
+
+  <li>Launch NoteRoom and enjoy! Use the Circle Pad (Left/Right) to change tracks
+  at any time.</li>
+
+  </ol>'
+updated: '2026-06-04T12:32:06Z'
+version: v2.5.0
+version_title: NoteRoom v2.5 - The BGM Update
 ---
 NoteRoom is a real-time online drawing and text Chatroom messenger for the Nintendo 2/3DS, inspired by a well known chatroom. Connect globally across themed, dynamic lobbies, share hand-drawn doodles, and view live user counts.
