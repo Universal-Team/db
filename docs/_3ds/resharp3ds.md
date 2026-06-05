@@ -10,17 +10,13 @@ description: C# runtime and SDK for Nintendo 3DS
 download_page: https://github.com/saysaa/ReSharp3DS/releases
 downloads:
   ReSharp3DS.3dsx:
-    size: 309980
-    size_str: 302 KiB
-    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.4.3/ReSharp3DS.3dsx
+    size: 344804
+    size_str: 336 KiB
+    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.5.3/ReSharp3DS.3dsx
   ReSharp3DS.cia:
-    size: 1106368
+    size: 1103808
     size_str: 1 MiB
-    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.4.3/ReSharp3DS.cia
-  sample-app.zip:
-    size: 16148
-    size_str: 15 KiB
-    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.4.3/sample-app.zip
+    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.5.3/ReSharp3DS.cia
 github: saysaa/ReSharp3DS
 icon: https://raw.githubusercontent.com/saysaa/ReSharp3DS/refs/heads/docs/icon.png
 image: https://raw.githubusercontent.com/saysaa/ReSharp3DS/refs/heads/docs/banner.png
@@ -40,15 +36,15 @@ systems:
 title: ReSharp3DS
 unique_ids:
 - '0x23400'
-update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/4d5545f9-a557-49f3-8ab7-bf85448ba16d"><img
-  width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/4d5545f9-a557-49f3-8ab7-bf85448ba16d"
+update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/43ffdbc3-789c-451c-a992-18b4fd937105"><img
+  width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/43ffdbc3-789c-451c-a992-18b4fd937105"
   style="max-width: 100%; height: auto; max-height: 600px;; aspect-ratio: 600 / 600;
   background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
 
   <h3 dir="auto">Fast CIA Installation</h3>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/f80ff884-77e7-4c28-8a4a-0da197382058"><img
-  width="250" height="250" alt="ReSharp3DS v1 4 3-QR_CODE" src="https://github.com/user-attachments/assets/f80ff884-77e7-4c28-8a4a-0da197382058"
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/18f0b938-001c-49f3-a157-07cf714e56ba"><img
+  width="250" height="250" alt="ReSharp3DS-QR_CODE" src="https://github.com/user-attachments/assets/18f0b938-001c-49f3-a157-07cf714e56ba"
   style="max-width: 100%; height: auto; max-height: 250px;; aspect-ratio: 250 / 250;
   background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
 
@@ -56,16 +52,23 @@ update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github
 
   <ul dir="auto">
 
-  <li>Improve GUI</li>
+  <li>Change the banner, sound, and icon for the .cia file</li>
 
-  <li>Samples <code class="notranslate">app.pe</code> supports L and R buttons</li>
+  <li>Converting <code class="notranslate">gui.c</code> to <code class="notranslate">gui.cpp</code></li>
 
-  <li>Added comments to the input sections in <code class="notranslate">main.cpp</code></li>
+  <li>Added a graphical user interface to <code class="notranslate">gui.cpp</code>
+  (finally!)</li>
+
+  <li>Change in version number: Before: v1.3.2, After: v1.3.2-beta.X (This is an example)</li>
+
+  <li>Bugs Fixes</li>
+
+  <li>Available on Universal-Updater!</li>
 
   </ul>'
-updated: '2026-06-04T15:01:15Z'
-version: v1.4.3
-version_title: ReSharp3DS Runtime & API - v1.4.3-beta.3
+updated: '2026-06-05T10:02:43Z'
+version: v1.5.3
+version_title: ReSharp3DS Runtime & API - v1.5.3-beta.4
 website: https://saysaa.github.io/ReSharp3DS/
 wiki: https://saysaa.github.io/ReSharp3DS/
 ---
