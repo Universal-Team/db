@@ -29,7 +29,7 @@ llm_usage: undisclosed
 qr:
   cloudpoint.cia: https://db.universal-team.net/assets/images/qr/cloudpoint-cia.png
 source: https://github.com/dwalker109/cloudpoint
-stars: 22
+stars: 23
 systems:
 - 3DS
 title: Cloudpoint
