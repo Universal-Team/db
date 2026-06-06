@@ -1,0 +1,16 @@
+{
+	"github": "GRP-ttdu08/nintendo-anime-channel-revival",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"icon": "https://avatars.githubusercontent.com/u/180861193?s=48&v=4",
+	"script_message": "This is a beta version, so there may be bugs or issues. We try as much as possible to provide a variety of content in both English and French. (French content is predominant.) To contact us about adding more content, please visit https://www.ttdu08.online/contactus",
+	"archive": {
+		"ttdu08AnimeChannel.*\\.zip": {
+			"Patches": ["luma"]
+		}
+	}
+}
