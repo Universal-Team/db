@@ -145,7 +145,7 @@ update_notes: "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://g
   \ class=\"pl-kos\">}</span>\n<span class=\"pl-kos\">}</span></pre></div>"
 updated: '2026-06-06T07:32:37Z'
 version: v1.7.3
-version_title: ReSharp3DS Runtime & SDK - v1.7.3-beta.6
+version_title: v1.7.3-beta.6 - "Resilience"
 website: https://saysaa.github.io/ReSharp3DS/
 wiki: https://saysaa.github.io/ReSharp3DS/
 ---
