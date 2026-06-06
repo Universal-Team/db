@@ -50,39 +50,39 @@ update_notes: "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://g
   \ style=\"max-width: 100%; height: auto; max-height: 250px;; aspect-ratio: 250 /\
   \ 250; background-color: var(--bgColor-muted); border-radius: 6px\" class=\"js-gh-image-fallback\"\
   ></a>\n<h2 dir=\"auto\">ReSharp3DS Runtime Update</h2>\n<ul dir=\"auto\">\n<li>Add\
-  \ <strong>app</strong> file explorer</li>\n<li>New Makefile</li>\n</ul>\n<h2 dir=\"\
-  auto\">ReSharp3DS SDK Update</h2>\n<ul dir=\"auto\">\n<li>Add Audio Support</li>\n\
-  </ul>\n<h3 dir=\"auto\">Available methods:</h3>\n<p dir=\"auto\">Audio.Init();<br>\n\
-  Audio.Beep(int frequency, int durationMs);<br>\nAudio.PlayWav(string path);<br>\n\
-  Audio.SetVolume(int volume);<br>\nAudio.Loop(string path);<br>\nAudio.StopMusic();<br>\n\
-  Audio.Stop();<br>\nBeep / frequency audio<br>\nAudio.Beep(440, 200);<br>\nAudio.Beep(880,\
-  \ 150);<br>\nCustom WAV playback<br>\nAudio.PlayWav(\"audio.wav\");<br>\nAudio.PlayWav(\"\
-  sfx/jump.wav\");</p>\n<p dir=\"auto\"><strong>Paths can be relative to the launched\
-  \ .pe file or absolute:</strong></p>\n<p dir=\"auto\"><code class=\"notranslate\"\
-  >Audio.PlayWav(\"sdmc:/MyGame/sounds/select.wav\"); </code></p>\n<h3 dir=\"auto\"\
-  >Recommended WAV format:</h3>\n<p dir=\"auto\">PCM 16-bit<br>\nMono or stereo<br>\n\
-  44100 Hz or 22050 Hz<br>\nMusic looping<br>\nAudio.SetVolume(80);<br>\nAudio.Loop(\"\
-  music.wav\");<br>\nAudio.StopMusic();</p>\n<h2 dir=\"auto\">Exemple</h2>\n<div class=\"\
-  highlight highlight-source-cs\" dir=\"auto\"><pre class=\"notranslate\"><span class=\"\
-  pl-k\">namespace</span> <span class=\"pl-v\">ReSharp3DS</span>\n<span class=\"pl-kos\"\
-  >{</span>\n    <span class=\"pl-k\">public</span> <span class=\"pl-k\">class</span>\
-  \ <span class=\"pl-smi\">Program</span>\n    <span class=\"pl-kos\">{</span>\n \
-  \       <span class=\"pl-k\"><span class=\"pl-k\">static</span></span> <span class=\"\
-  pl-smi\">bool</span> <span class=\"pl-s1\">initialized</span> <span class=\"pl-c1\"\
-  >=</span> <span class=\"pl-c1\">false</span><span class=\"pl-kos\">;</span>\n  \
-  \      <span class=\"pl-k\"><span class=\"pl-k\">static</span></span> <span class=\"\
-  pl-smi\">bool</span> <span class=\"pl-s1\">oldA</span> <span class=\"pl-c1\">=</span>\
+  \ <strong>app</strong> file explorer</li>\n<li>New Makefile</li>\n<li>Dynamic Native\
+  \ Method Mapping</li>\n</ul>\n<h2 dir=\"auto\">ReSharp3DS SDK Update</h2>\n<ul dir=\"\
+  auto\">\n<li>Add Audio Support</li>\n</ul>\n<h3 dir=\"auto\">Available methods:</h3>\n\
+  <p dir=\"auto\">Audio.Init();<br>\nAudio.Beep(int frequency, int durationMs);<br>\n\
+  Audio.PlayWav(string path);<br>\nAudio.SetVolume(int volume);<br>\nAudio.Loop(string\
+  \ path);<br>\nAudio.StopMusic();<br>\nAudio.Stop();<br>\nBeep / frequency audio<br>\n\
+  Audio.Beep(440, 200);<br>\nAudio.Beep(880, 150);<br>\nCustom WAV playback<br>\n\
+  Audio.PlayWav(\"audio.wav\");<br>\nAudio.PlayWav(\"sfx/jump.wav\");</p>\n<p dir=\"\
+  auto\"><strong>Paths can be relative to the launched .pe file or absolute:</strong></p>\n\
+  <p dir=\"auto\"><code class=\"notranslate\">Audio.PlayWav(\"sdmc:/MyGame/sounds/select.wav\"\
+  ); </code></p>\n<h3 dir=\"auto\">Recommended WAV format:</h3>\n<p dir=\"auto\">PCM\
+  \ 16-bit<br>\nMono or stereo<br>\n44100 Hz or 22050 Hz<br>\nMusic looping<br>\n\
+  Audio.SetVolume(80);<br>\nAudio.Loop(\"music.wav\");<br>\nAudio.StopMusic();</p>\n\
+  <h2 dir=\"auto\">Exemple</h2>\n<div class=\"highlight highlight-source-cs\" dir=\"\
+  auto\"><pre class=\"notranslate\"><span class=\"pl-k\">namespace</span> <span class=\"\
+  pl-v\">ReSharp3DS</span>\n<span class=\"pl-kos\">{</span>\n    <span class=\"pl-k\"\
+  >public</span> <span class=\"pl-k\">class</span> <span class=\"pl-smi\">Program</span>\n\
+  \    <span class=\"pl-kos\">{</span>\n        <span class=\"pl-k\"><span class=\"\
+  pl-k\">static</span></span> <span class=\"pl-smi\">bool</span> <span class=\"pl-s1\"\
+  >initialized</span> <span class=\"pl-c1\">=</span> <span class=\"pl-c1\">false</span><span\
+  \ class=\"pl-kos\">;</span>\n        <span class=\"pl-k\"><span class=\"pl-k\">static</span></span>\
+  \ <span class=\"pl-smi\">bool</span> <span class=\"pl-s1\">oldA</span> <span class=\"\
+  pl-c1\">=</span> <span class=\"pl-c1\">false</span><span class=\"pl-kos\">;</span>\n\
+  \        <span class=\"pl-k\"><span class=\"pl-k\">static</span></span> <span class=\"\
+  pl-smi\">bool</span> <span class=\"pl-s1\">oldX</span> <span class=\"pl-c1\">=</span>\
   \ <span class=\"pl-c1\">false</span><span class=\"pl-kos\">;</span>\n        <span\
   \ class=\"pl-k\"><span class=\"pl-k\">static</span></span> <span class=\"pl-smi\"\
-  >bool</span> <span class=\"pl-s1\">oldX</span> <span class=\"pl-c1\">=</span> <span\
-  \ class=\"pl-c1\">false</span><span class=\"pl-kos\">;</span>\n        <span class=\"\
-  pl-k\"><span class=\"pl-k\">static</span></span> <span class=\"pl-smi\">bool</span>\
-  \ <span class=\"pl-s1\">oldY</span> <span class=\"pl-c1\">=</span> <span class=\"\
-  pl-c1\">false</span><span class=\"pl-kos\">;</span>\n\n        <span class=\"pl-k\"\
-  >public</span> <span class=\"pl-k\"><span class=\"pl-k\">static</span></span> <span\
-  \ class=\"pl-smi\">void</span> <span class=\"pl-en\">Main</span><span class=\"pl-kos\"\
-  >(</span><span class=\"pl-kos\">)</span>\n        <span class=\"pl-kos\">{</span>\n\
-  \            <span class=\"pl-k\">if</span> <span class=\"pl-kos\">(</span><span\
+  >bool</span> <span class=\"pl-s1\">oldY</span> <span class=\"pl-c1\">=</span> <span\
+  \ class=\"pl-c1\">false</span><span class=\"pl-kos\">;</span>\n\n        <span class=\"\
+  pl-k\">public</span> <span class=\"pl-k\"><span class=\"pl-k\">static</span></span>\
+  \ <span class=\"pl-smi\">void</span> <span class=\"pl-en\">Main</span><span class=\"\
+  pl-kos\">(</span><span class=\"pl-kos\">)</span>\n        <span class=\"pl-kos\"\
+  >{</span>\n            <span class=\"pl-k\">if</span> <span class=\"pl-kos\">(</span><span\
   \ class=\"pl-c1\">!</span><span class=\"pl-s1\">initialized</span><span class=\"\
   pl-kos\">)</span>\n            <span class=\"pl-kos\">{</span>\n               \
   \ <span class=\"pl-s1\">initialized</span> <span class=\"pl-c1\">=</span> <span\
