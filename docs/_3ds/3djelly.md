@@ -11,13 +11,13 @@ download_filter: \.3dsx$|\.cia$
 download_page: https://github.com/8-bitStudio/3d-jelly/releases
 downloads:
   3dJelly.3dsx:
-    size: 392160
-    size_str: 382 KiB
-    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.3.0/3dJelly.3dsx
+    size: 559880
+    size_str: 546 KiB
+    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.4.2/3dJelly.3dsx
   3dJelly.cia:
-    size: 297920
-    size_str: 290 KiB
-    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.3.0/3dJelly.cia
+    size: 381888
+    size_str: 372 KiB
+    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.4.2/3dJelly.cia
 github: 8-bitStudio/3d-jelly
 icon: https://raw.githubusercontent.com/8-bitStudio/3d-jelly/main/gfx/icon.png
 image: https://raw.githubusercontent.com/8-bitStudio/3d-jelly/main/gfx/icon.png
@@ -29,80 +29,62 @@ llm_usage: undisclosed
 qr:
   3dJelly.cia: https://db.universal-team.net/assets/images/qr/3djelly-cia.png
 source: https://github.com/8-bitStudio/3d-jelly
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: 3dJelly
 unique_ids:
 - '0xD7E11'
-update_notes: '<h2 dir="auto">3dJelly v0.3.0</h2>
-
-  <p dir="auto">This release focuses on Old 3DS playback stability, buffering, and
-  new playback controls.</p>
-
-  <h3 dir="auto">Added</h3>
+update_notes: '<h2 dir="auto">Added</h2>
 
   <ul dir="auto">
 
-  <li>Added encrypted saved password and token storage.</li>
+  <li>Added a search feature</li>
 
-  <li>Added L/R video scrubbing with accelerated hold-to-skip behavior.</li>
+  <li>Added Polish language support.</li>
 
-  <li>Added top-screen seek progress overlay.</li>
+  <li>Added Indonesian language support.</li>
 
-  <li>Added experimental <code class="notranslate">240M1</code> MPEG-1/MP2 playback
-  mode for Old 3DS testing. This mode may be kept, changed, or removed depending on
-  further testing.</li>
+  <li>Added Turkish language support.</li>
 
-  <li>Added deeper stream buffering with startup prebuffering.</li>
+  <li>Added Swedish language support.</li>
+
+  <li>Added localized search, settings, browsing, playback status, error, and bottom-screen
+  playback text for new languages.</li>
 
   </ul>
 
-  <h3 dir="auto">Changed</h3>
+  <h2 dir="auto">Changed</h2>
 
   <ul dir="auto">
 
-  <li>Changed playback quality switching to D-pad left/right so L/R can be used for
-  scrubbing.</li>
+  <li>Improved playback overlay handling for Latin diacritics so translated titles
+  and status text avoid question marks where possible.</li>
 
-  <li>Improved bottom-screen playback controls for seek, quality, and volume.</li>
-
-  <li>Improved Old 3DS MJPEG playback performance and catch-up behavior.</li>
-
-  <li>Lowered normal Old 3DS <code class="notranslate">240p</code> MJPEG bitrate from
-  <code class="notranslate">820 kbps</code> to <code class="notranslate">720 kbps</code>
-  for stability.</li>
-
-  <li>Added threaded stream reading so network reads are less likely to block playback.</li>
-
-  <li>Optimized MJPEG frame presentation by flushing only the top video framebuffer.</li>
+  <li>Updated app-reported version to 0.4.2.</li>
 
   </ul>
 
-  <h3 dir="auto">Fixed</h3>
+  <h2 dir="auto">Fixed</h2>
 
   <ul dir="auto">
 
-  <li>Added stream-open retries and reconnect-from-current-position behavior after
-  MJPEG stream interruptions.</li>
+  <li>Fixed browse artwork fitting so show and poster previews better cover their
+  frame without small top or bottom bars.</li>
 
-  <li>Improved handling of saved credential decrypt failures.</li>
+  <li>Fixed playback status badges for Polish, Indonesian, Turkish, and Swedish loading,
+  error, and stopped messages.</li>
 
   </ul>
 
-  <h3 dir="auto">Notes</h3>
+  <h2 dir="auto">Notes</h2>
 
-  <ul dir="auto">
+  <p dir="auto">The focus is now on plugins</p>
 
-  <li><code class="notranslate">240M1</code> is experimental. It may work better than
-  MJPEG on some Old 3DS setups, but it is still being tested.</li>
-
-  <li>Playback is still experimental on Old 3DS hardware.</li>
-
-  </ul>'
-updated: '2026-06-04T23:43:25Z'
-version: v0.3.0
-version_title: v0.3.0
+  <p dir="auto">3dJelly now supports a total of <strong>17 languages</strong></p>'
+updated: '2026-06-06T02:07:44Z'
+version: v0.4.2
+version_title: 3dJelly v0.4.2
 ---
 3dJelly is a Jellyfin client for Nintendo 3DS. It can connect to a Jellyfin server, browse libraries, and play video through server-side transcoding.
 
