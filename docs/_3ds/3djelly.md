@@ -11,13 +11,13 @@ download_filter: \.3dsx$|\.cia$
 download_page: https://github.com/8-bitStudio/3d-jelly/releases
 downloads:
   3dJelly.3dsx:
-    size: 506408
-    size_str: 494 KiB
-    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.4.1/3dJelly.3dsx
+    size: 559880
+    size_str: 546 KiB
+    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.4.2/3dJelly.3dsx
   3dJelly.cia:
-    size: 352704
-    size_str: 344 KiB
-    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.4.1/3dJelly.cia
+    size: 381888
+    size_str: 372 KiB
+    url: https://github.com/8-bitStudio/3d-jelly/releases/download/v0.4.2/3dJelly.cia
 github: 8-bitStudio/3d-jelly
 icon: https://raw.githubusercontent.com/8-bitStudio/3d-jelly/main/gfx/icon.png
 image: https://raw.githubusercontent.com/8-bitStudio/3d-jelly/main/gfx/icon.png
@@ -39,18 +39,18 @@ update_notes: '<h2 dir="auto">Added</h2>
 
   <ul dir="auto">
 
-  <li>Added Afrikaans, French, German, Italian, Dutch, Portuguese, Russian, Korean,
-  Simplified Chinese, and Traditional Chinese language support.</li>
+  <li>Added a search feature</li>
 
-  <li>Added native Korean/Hangul text rendering.</li>
+  <li>Added Polish language support.</li>
 
-  <li>Added Simplified and Traditional Chinese system-font support for normal UI text.</li>
+  <li>Added Indonesian language support.</li>
 
-  <li>Added compact playback-screen glyph support for Korean, Japanese, Simplified
-  Chinese, and Traditional Chinese.</li>
+  <li>Added Turkish language support.</li>
 
-  <li>Added configurable bottom-screen dimming during video playback, with timer options
-  and a Never setting.</li>
+  <li>Added Swedish language support.</li>
+
+  <li>Added localized search, settings, browsing, playback status, error, and bottom-screen
+  playback text for new languages.</li>
 
   </ul>
 
@@ -58,14 +58,10 @@ update_notes: '<h2 dir="auto">Added</h2>
 
   <ul dir="auto">
 
-  <li>Reworked translations into separate JSON files with a generated C translation
-  table.</li>
+  <li>Improved playback overlay handling for Latin diacritics so translated titles
+  and status text avoid question marks where possible.</li>
 
-  <li>Improved the language selector with a larger modal, scroll window, current-language
-  marker, and clearer controls.</li>
-
-  <li>Improved Japanese playback UI text so bottom-screen controls and status labels
-  use native Japanese.</li>
+  <li>Updated app-reported version to 0.4.2.</li>
 
   </ul>
 
@@ -73,31 +69,22 @@ update_notes: '<h2 dir="auto">Added</h2>
 
   <ul dir="auto">
 
-  <li>Fixed ampersands rendering as question marks in playback text.</li>
+  <li>Fixed browse artwork fitting so show and poster previews better cover their
+  frame without small top or bottom bars.</li>
 
-  <li>Fixed Japanese language label rendering after adding Chinese font support.</li>
-
-  <li>Fixed Korean, Japanese, Simplified Chinese, and Traditional Chinese playback
-  status labels showing missing or fallback characters.</li>
+  <li>Fixed playback status badges for Polish, Indonesian, Turkish, and Swedish loading,
+  error, and stopped messages.</li>
 
   </ul>
 
   <h2 dir="auto">Notes</h2>
 
-  <ul dir="auto">
+  <p dir="auto">The focus is now on plugins</p>
 
-  <li>3dJelly now supports 13 languages.</li>
-
-  <li>Some translations are new and may need community feedback, especially text that
-  is too long for the 3DS screen.</li>
-
-  <li>Playback is still experimental, especially at higher quality settings on Old
-  3DS. 3dJelly has not been tested on a new 3ds.</li>
-
-  </ul>'
-updated: '2026-06-05T20:25:56Z'
-version: v0.4.1
-version_title: 3dJelly 0.4.1
+  <p dir="auto">3dJelly now supports a total of <strong>17 languages</strong></p>'
+updated: '2026-06-06T02:07:44Z'
+version: v0.4.2
+version_title: 3dJelly v0.4.2
 ---
 3dJelly is a Jellyfin client for Nintendo 3DS. It can connect to a Jellyfin server, browse libraries, and play video through server-side transcoding.
 

@@ -21,7 +21,7 @@ image_length: 7346
 layout: app
 llm_usage: minor
 source: https://github.com/SuperDubious-SmallLabs/GridLauncher
-stars: 3
+stars: 4
 systems:
 - 3DS
 title: GridLauncher
