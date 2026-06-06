@@ -1,5 +1,6 @@
 ---
 author: mashers
+autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/247455022?v=4
 categories:
 - app
@@ -20,6 +21,13 @@ image: https://raw.githubusercontent.com/wiki/SuperDubious-SmallLabs/GridLaunche
 image_length: 7346
 layout: app
 llm_usage: minor
+screenshots:
+- description: Launcher (theme applied)
+  url: https://db.universal-team.net/assets/images/screenshots/gridlauncher/launcher-(theme-applied).png
+- description: Launcher
+  url: https://db.universal-team.net/assets/images/screenshots/gridlauncher/launcher.png
+- description: Title browser
+  url: https://db.universal-team.net/assets/images/screenshots/gridlauncher/title-browser.png
 source: https://github.com/SuperDubious-SmallLabs/GridLauncher
 stars: 4
 systems:
