@@ -10,17 +10,17 @@ description: C# runtime and SDK for Nintendo 3DS
 download_page: https://github.com/saysaa/ReSharp3DS/releases
 downloads:
   ReSharp3DS.3dsx:
-    size: 349776
-    size_str: 341 KiB
-    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.6.3/ReSharp3DS.3dsx
+    size: 301264
+    size_str: 294 KiB
+    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.7.3/ReSharp3DS.3dsx
   ReSharp3DS.cia:
-    size: 1106368
+    size: 1111488
     size_str: 1 MiB
-    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.6.3/ReSharp3DS.cia
+    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.7.3/ReSharp3DS.cia
   sample-app.zip:
-    size: 16580
-    size_str: 16 KiB
-    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.6.3/sample-app.zip
+    size: 247255
+    size_str: 241 KiB
+    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.7.3/sample-app.zip
 github: saysaa/ReSharp3DS
 icon: https://raw.githubusercontent.com/saysaa/ReSharp3DS/refs/heads/docs/icon.png
 image: https://raw.githubusercontent.com/saysaa/ReSharp3DS/refs/heads/docs/banner.png
@@ -40,74 +40,112 @@ systems:
 title: ReSharp3DS
 unique_ids:
 - '0x23400'
-update_notes: "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/user-attachments/assets/db1ea165-fe89-47e7-a7a6-ba6f95a6c2eb\"\
-  ><img width=\"600\" height=\"600\" alt=\"Capture d'écran 2026-06-05 163832\" src=\"\
-  https://github.com/user-attachments/assets/db1ea165-fe89-47e7-a7a6-ba6f95a6c2eb\"\
+update_notes: "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/user-attachments/assets/2576cb17-503a-45a3-bf79-e4c602d59722\"\
+  ><img width=\"600\" height=\"600\" alt=\"image\" src=\"https://github.com/user-attachments/assets/2576cb17-503a-45a3-bf79-e4c602d59722\"\
   \ style=\"max-width: 100%; height: auto; max-height: 600px;; aspect-ratio: 600 /\
   \ 600; background-color: var(--bgColor-muted); border-radius: 6px\" class=\"js-gh-image-fallback\"\
   ></a>\n<h3 dir=\"auto\">Fast CIA Installation</h3>\n<a target=\"_blank\" rel=\"\
-  noopener noreferrer\" href=\"https://github.com/user-attachments/assets/ae6bfc36-7a77-4eaa-848f-dd1afcbf5bfe\"\
-  ><img width=\"250\" height=\"250\" alt=\"ReSharp3DS-QR_CODE\" src=\"https://github.com/user-attachments/assets/ae6bfc36-7a77-4eaa-848f-dd1afcbf5bfe\"\
+  noopener noreferrer\" href=\"https://github.com/user-attachments/assets/cda0017e-5547-4b19-b9c9-ec969598434f\"\
+  ><img width=\"250\" height=\"250\" alt=\"ReSharp3DS-QR_CODE\" src=\"https://github.com/user-attachments/assets/cda0017e-5547-4b19-b9c9-ec969598434f\"\
   \ style=\"max-width: 100%; height: auto; max-height: 250px;; aspect-ratio: 250 /\
   \ 250; background-color: var(--bgColor-muted); border-radius: 6px\" class=\"js-gh-image-fallback\"\
-  ></a>\n<h2 dir=\"auto\">ReSharp3DS Runtime Update</h2>\n<ul dir=\"auto\">\n<li>Added\
-  \ basic bitmap text rendering for graphics mode.</li>\n<li>Added support for drawing\
-  \ on the lower screen from C#.</li>\n<li>Added an automatic console mode when the\
-  \ application does not use the Graphics API.</li>\n<li>Added <code class=\"notranslate\"\
-  >gui_can_launch()</code> and <code class=\"notranslate\">gui_shutdown()</code> to\
-  \ preserve the launcher's GUI while allowing the runtime to take over.</li>\n</ul>\n\
-  <h2 dir=\"auto\">ReSharp3DS API Update</h2>\n<ul dir=\"auto\">\n<li>Ability to create\
-  \ graphical applications!</li>\n<li>Added <code class=\"notranslate\">Graphics.Clear(int\
-  \ color)</code>.</li>\n<li>Added <code class=\"notranslate\">Graphics.DrawPixel(int\
-  \ x, int y, int color)</code>.</li>\n<li>Added <code class=\"notranslate\">Graphics.FillRect(int\
-  \ x, int y, int width, int height, int color)</code>.</li>\n<li>Added <code class=\"\
-  notranslate\">Graphics.DrawRect(int x, int y, int width, int height, int color)</code>.</li>\n\
-  <li>Added <code class=\"notranslate\">Graphics.DrawText(int x, int y, string text,\
-  \ int color)</code>.</li>\n<li>Added <code class=\"notranslate\">Graphics.Present()</code>.</li>\n\
-  <li>Added basic <code class=\"notranslate\">Color</code> constants to the SDK.</li>\n\
-  </ul>\n<h2 dir=\"auto\">Exemple</h2>\n<div class=\"highlight highlight-source-cs\"\
-  \ dir=\"auto\"><pre class=\"notranslate\"><span class=\"pl-k\">namespace</span>\
-  \ <span class=\"pl-v\">ReSharp3DS</span>\n<span class=\"pl-kos\">{</span>\n    <span\
-  \ class=\"pl-k\">public</span> <span class=\"pl-k\">class</span> <span class=\"\
-  pl-smi\">Program</span>\n    <span class=\"pl-kos\">{</span>\n        <span class=\"\
-  pl-k\"><span class=\"pl-k\">static</span></span> <span class=\"pl-smi\">int</span>\
-  \ <span class=\"pl-s1\">x</span> <span class=\"pl-c1\">=</span> <span class=\"pl-c1\"\
-  >0</span><span class=\"pl-kos\">;</span>\n\n        <span class=\"pl-k\">public</span>\
-  \ <span class=\"pl-k\"><span class=\"pl-k\">static</span></span> <span class=\"\
-  pl-smi\">void</span> <span class=\"pl-en\">Main</span><span class=\"pl-kos\">(</span><span\
-  \ class=\"pl-kos\">)</span>\n        <span class=\"pl-kos\">{</span>\n         \
-  \   <span class=\"pl-s1\">Graphics</span><span class=\"pl-kos\">.</span><span class=\"\
-  pl-en\">Clear</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">Color</span><span\
-  \ class=\"pl-kos\">.</span><span class=\"pl-s1\">Black</span><span class=\"pl-kos\"\
-  >)</span><span class=\"pl-kos\">;</span>\n\n            <span class=\"pl-s1\">Graphics</span><span\
-  \ class=\"pl-kos\">.</span><span class=\"pl-en\">DrawText</span><span class=\"pl-kos\"\
-  >(</span><span class=\"pl-c1\">20</span><span class=\"pl-kos\">,</span> <span class=\"\
-  pl-c1\">20</span><span class=\"pl-kos\">,</span> <span class=\"pl-s\">\"HELLO GRAPHICS\"\
-  </span><span class=\"pl-kos\">,</span> <span class=\"pl-s1\">Color</span><span class=\"\
-  pl-kos\">.</span><span class=\"pl-s1\">White</span><span class=\"pl-kos\">)</span><span\
-  \ class=\"pl-kos\">;</span>\n            <span class=\"pl-s1\">Graphics</span><span\
-  \ class=\"pl-kos\">.</span><span class=\"pl-en\">FillRect</span><span class=\"pl-kos\"\
-  >(</span><span class=\"pl-s1\">x</span><span class=\"pl-kos\">,</span> <span class=\"\
-  pl-c1\">80</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">40</span><span\
-  \ class=\"pl-kos\">,</span> <span class=\"pl-c1\">30</span><span class=\"pl-kos\"\
-  >,</span> <span class=\"pl-s1\">Color</span><span class=\"pl-kos\">.</span><span\
-  \ class=\"pl-s1\">Red</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\"\
-  >;</span>\n\n            <span class=\"pl-s1\">Graphics</span><span class=\"pl-kos\"\
-  >.</span><span class=\"pl-en\">Present</span><span class=\"pl-kos\">(</span><span\
-  \ class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n\n            <span\
-  \ class=\"pl-s1\">x</span><span class=\"pl-c1\">++</span><span class=\"pl-kos\"\
-  >;</span>\n\n            <span class=\"pl-k\">if</span> <span class=\"pl-kos\">(</span><span\
-  \ class=\"pl-s1\">x</span> <span class=\"pl-c1\">&gt;</span> <span class=\"pl-c1\"\
-  >280</span><span class=\"pl-kos\">)</span>\n            <span class=\"pl-kos\">{</span>\n\
-  \                <span class=\"pl-s1\">x</span> <span class=\"pl-c1\">=</span> <span\
-  \ class=\"pl-c1\">0</span><span class=\"pl-kos\">;</span>\n            <span class=\"\
-  pl-kos\">}</span>\n\n            <span class=\"pl-s1\">Runtime</span><span class=\"\
-  pl-kos\">.</span><span class=\"pl-en\">Yield</span><span class=\"pl-kos\">(</span><span\
-  \ class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n        <span class=\"\
-  pl-kos\">}</span>\n    <span class=\"pl-kos\">}</span>\n<span class=\"pl-kos\">}</span></pre></div>"
-updated: '2026-06-05T17:21:02Z'
-version: v1.6.3
-version_title: ReSharp3DS Runtime & SDK - v1.6.3-beta.5
+  ></a>\n<h2 dir=\"auto\">ReSharp3DS Runtime Update</h2>\n<ul dir=\"auto\">\n<li>Add\
+  \ <strong>app</strong> file explorer</li>\n<li>New Makefile</li>\n</ul>\n<h2 dir=\"\
+  auto\">ReSharp3DS SDK Update</h2>\n<ul dir=\"auto\">\n<li>Add Audio Support</li>\n\
+  </ul>\n<h3 dir=\"auto\">Available methods:</h3>\n<p dir=\"auto\">Audio.Init();<br>\n\
+  Audio.Beep(int frequency, int durationMs);<br>\nAudio.PlayWav(string path);<br>\n\
+  Audio.SetVolume(int volume);<br>\nAudio.Loop(string path);<br>\nAudio.StopMusic();<br>\n\
+  Audio.Stop();<br>\nBeep / frequency audio<br>\nAudio.Beep(440, 200);<br>\nAudio.Beep(880,\
+  \ 150);<br>\nCustom WAV playback<br>\nAudio.PlayWav(\"audio.wav\");<br>\nAudio.PlayWav(\"\
+  sfx/jump.wav\");</p>\n<p dir=\"auto\"><strong>Paths can be relative to the launched\
+  \ .pe file or absolute:</strong></p>\n<p dir=\"auto\"><code class=\"notranslate\"\
+  >Audio.PlayWav(\"sdmc:/MyGame/sounds/select.wav\"); </code></p>\n<h3 dir=\"auto\"\
+  >Recommended WAV format:</h3>\n<p dir=\"auto\">PCM 16-bit<br>\nMono or stereo<br>\n\
+  44100 Hz or 22050 Hz<br>\nMusic looping<br>\nAudio.SetVolume(80);<br>\nAudio.Loop(\"\
+  music.wav\");<br>\nAudio.StopMusic();</p>\n<h2 dir=\"auto\">Exemple</h2>\n<div class=\"\
+  highlight highlight-source-cs\" dir=\"auto\"><pre class=\"notranslate\"><span class=\"\
+  pl-k\">namespace</span> <span class=\"pl-v\">ReSharp3DS</span>\n<span class=\"pl-kos\"\
+  >{</span>\n    <span class=\"pl-k\">public</span> <span class=\"pl-k\">class</span>\
+  \ <span class=\"pl-smi\">Program</span>\n    <span class=\"pl-kos\">{</span>\n \
+  \       <span class=\"pl-k\"><span class=\"pl-k\">static</span></span> <span class=\"\
+  pl-smi\">bool</span> <span class=\"pl-s1\">initialized</span> <span class=\"pl-c1\"\
+  >=</span> <span class=\"pl-c1\">false</span><span class=\"pl-kos\">;</span>\n  \
+  \      <span class=\"pl-k\"><span class=\"pl-k\">static</span></span> <span class=\"\
+  pl-smi\">bool</span> <span class=\"pl-s1\">oldA</span> <span class=\"pl-c1\">=</span>\
+  \ <span class=\"pl-c1\">false</span><span class=\"pl-kos\">;</span>\n        <span\
+  \ class=\"pl-k\"><span class=\"pl-k\">static</span></span> <span class=\"pl-smi\"\
+  >bool</span> <span class=\"pl-s1\">oldX</span> <span class=\"pl-c1\">=</span> <span\
+  \ class=\"pl-c1\">false</span><span class=\"pl-kos\">;</span>\n        <span class=\"\
+  pl-k\"><span class=\"pl-k\">static</span></span> <span class=\"pl-smi\">bool</span>\
+  \ <span class=\"pl-s1\">oldY</span> <span class=\"pl-c1\">=</span> <span class=\"\
+  pl-c1\">false</span><span class=\"pl-kos\">;</span>\n\n        <span class=\"pl-k\"\
+  >public</span> <span class=\"pl-k\"><span class=\"pl-k\">static</span></span> <span\
+  \ class=\"pl-smi\">void</span> <span class=\"pl-en\">Main</span><span class=\"pl-kos\"\
+  >(</span><span class=\"pl-kos\">)</span>\n        <span class=\"pl-kos\">{</span>\n\
+  \            <span class=\"pl-k\">if</span> <span class=\"pl-kos\">(</span><span\
+  \ class=\"pl-c1\">!</span><span class=\"pl-s1\">initialized</span><span class=\"\
+  pl-kos\">)</span>\n            <span class=\"pl-kos\">{</span>\n               \
+  \ <span class=\"pl-s1\">initialized</span> <span class=\"pl-c1\">=</span> <span\
+  \ class=\"pl-c1\">true</span><span class=\"pl-kos\">;</span>\n\n               \
+  \ <span class=\"pl-s1\">Console</span><span class=\"pl-kos\">.</span><span class=\"\
+  pl-en\">Clear</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span><span\
+  \ class=\"pl-kos\">;</span>\n                <span class=\"pl-s1\">Console</span><span\
+  \ class=\"pl-kos\">.</span><span class=\"pl-en\">WriteLine</span><span class=\"\
+  pl-kos\">(</span><span class=\"pl-s\">\"Audio test\"</span><span class=\"pl-kos\"\
+  >)</span><span class=\"pl-kos\">;</span>\n\n                <span class=\"pl-s1\"\
+  >Audio</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">Init</span><span\
+  \ class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\"\
+  >;</span>\n                <span class=\"pl-s1\">Audio</span><span class=\"pl-kos\"\
+  >.</span><span class=\"pl-en\">SetVolume</span><span class=\"pl-kos\">(</span><span\
+  \ class=\"pl-c1\">80</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\"\
+  >;</span>\n                <span class=\"pl-s1\">Audio</span><span class=\"pl-kos\"\
+  >.</span><span class=\"pl-en\">Loop</span><span class=\"pl-kos\">(</span><span class=\"\
+  pl-s\">\"music.wav\"</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\"\
+  >;</span>\n            <span class=\"pl-kos\">}</span>\n\n            <span class=\"\
+  pl-smi\">bool</span> <span class=\"pl-s1\">a</span> <span class=\"pl-c1\">=</span>\
+  \ <span class=\"pl-s1\">Input</span><span class=\"pl-kos\">.</span><span class=\"\
+  pl-en\">IsAPressed</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span><span\
+  \ class=\"pl-kos\">;</span>\n            <span class=\"pl-smi\">bool</span> <span\
+  \ class=\"pl-s1\">x</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\"\
+  >Input</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">IsXPressed</span><span\
+  \ class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\"\
+  >;</span>\n            <span class=\"pl-smi\">bool</span> <span class=\"pl-s1\"\
+  >y</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">Input</span><span\
+  \ class=\"pl-kos\">.</span><span class=\"pl-en\">IsYPressed</span><span class=\"\
+  pl-kos\">(</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n\
+  \n            <span class=\"pl-k\">if</span> <span class=\"pl-kos\">(</span><span\
+  \ class=\"pl-s1\">a</span> <span class=\"pl-c1\">&amp;&amp;</span> <span class=\"\
+  pl-c1\">!</span><span class=\"pl-s1\">oldA</span><span class=\"pl-kos\">)</span>\n\
+  \            <span class=\"pl-kos\">{</span>\n                <span class=\"pl-s1\"\
+  >Audio</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">PlayWav</span><span\
+  \ class=\"pl-kos\">(</span><span class=\"pl-s\">\"audio.wav\"</span><span class=\"\
+  pl-kos\">)</span><span class=\"pl-kos\">;</span>\n            <span class=\"pl-kos\"\
+  >}</span>\n\n            <span class=\"pl-k\">if</span> <span class=\"pl-kos\">(</span><span\
+  \ class=\"pl-s1\">x</span> <span class=\"pl-c1\">&amp;&amp;</span> <span class=\"\
+  pl-c1\">!</span><span class=\"pl-s1\">oldX</span><span class=\"pl-kos\">)</span>\n\
+  \            <span class=\"pl-kos\">{</span>\n                <span class=\"pl-s1\"\
+  >Audio</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">SetVolume</span><span\
+  \ class=\"pl-kos\">(</span><span class=\"pl-c1\">40</span><span class=\"pl-kos\"\
+  >)</span><span class=\"pl-kos\">;</span>\n            <span class=\"pl-kos\">}</span>\n\
+  \n            <span class=\"pl-k\">if</span> <span class=\"pl-kos\">(</span><span\
+  \ class=\"pl-s1\">y</span> <span class=\"pl-c1\">&amp;&amp;</span> <span class=\"\
+  pl-c1\">!</span><span class=\"pl-s1\">oldY</span><span class=\"pl-kos\">)</span>\n\
+  \            <span class=\"pl-kos\">{</span>\n                <span class=\"pl-s1\"\
+  >Audio</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">StopMusic</span><span\
+  \ class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\"\
+  >;</span>\n            <span class=\"pl-kos\">}</span>\n\n            <span class=\"\
+  pl-s1\">oldA</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">a</span><span\
+  \ class=\"pl-kos\">;</span>\n            <span class=\"pl-s1\">oldX</span> <span\
+  \ class=\"pl-c1\">=</span> <span class=\"pl-s1\">x</span><span class=\"pl-kos\"\
+  >;</span>\n            <span class=\"pl-s1\">oldY</span> <span class=\"pl-c1\">=</span>\
+  \ <span class=\"pl-s1\">y</span><span class=\"pl-kos\">;</span>\n\n            <span\
+  \ class=\"pl-s1\">Runtime</span><span class=\"pl-kos\">.</span><span class=\"pl-en\"\
+  >Yield</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">)</span><span\
+  \ class=\"pl-kos\">;</span>\n        <span class=\"pl-kos\">}</span>\n    <span\
+  \ class=\"pl-kos\">}</span>\n<span class=\"pl-kos\">}</span></pre></div>"
+updated: '2026-06-06T07:32:37Z'
+version: v1.7.3
+version_title: ReSharp3DS Runtime & SDK - v1.7.3-beta.6
 website: https://saysaa.github.io/ReSharp3DS/
 wiki: https://saysaa.github.io/ReSharp3DS/
 ---
