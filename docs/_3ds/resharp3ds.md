@@ -107,7 +107,7 @@ update_notes: "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://g
   pl-kos\">}</span>\n    <span class=\"pl-kos\">}</span>\n<span class=\"pl-kos\">}</span></pre></div>"
 updated: '2026-06-05T17:21:02Z'
 version: v1.6.3
-version_title: ReSharp3DS Runtime & API - v1.6.3-beta.5
+version_title: ReSharp3DS Runtime & SDK - v1.6.3-beta.5
 website: https://saysaa.github.io/ReSharp3DS/
 wiki: https://saysaa.github.io/ReSharp3DS/
 ---
