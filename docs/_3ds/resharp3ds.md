@@ -9,10 +9,18 @@ created: '2026-06-01T16:33:12Z'
 description: C# runtime and SDK for Nintendo 3DS
 download_page: https://github.com/saysaa/ReSharp3DS/releases
 downloads:
-  latest.txt:
-    size: 213
-    size_str: 213 Bytes
-    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.9.3/latest.txt
+  ReSharp3DS.3dsx:
+    size: 311408
+    size_str: 304 KiB
+    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.9.3/ReSharp3DS.3dsx
+  ReSharp3DS.cia:
+    size: 1123776
+    size_str: 1 MiB
+    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.9.3/ReSharp3DS.cia
+  bin.zip:
+    size: 15454
+    size_str: 15 KiB
+    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.9.3/bin.zip
 github: saysaa/ReSharp3DS
 icon: https://raw.githubusercontent.com/saysaa/ReSharp3DS/refs/heads/docs/icon.png
 image: https://raw.githubusercontent.com/saysaa/ReSharp3DS/refs/heads/docs/banner.png
@@ -21,6 +29,8 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_usage: none
+qr:
+  ReSharp3DS.cia: https://db.universal-team.net/assets/images/qr/resharp3ds-cia.png
 script_message: Remember to create a folder named “ReSharp3DS” at the root of your
   SD card
 source: https://github.com/saysaa/ReSharp3DS
@@ -30,10 +40,15 @@ systems:
 title: ReSharp3DS
 unique_ids:
 - '0x23400'
-update_notes: '<h3 dir="auto">Fast CIA Installation</h3>
+update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/b2cb4130-4031-4ebe-82b8-81a6ff7dcc66"><img
+  width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b2cb4130-4031-4ebe-82b8-81a6ff7dcc66"
+  style="max-width: 100%; height: auto; max-height: 600px;; aspect-ratio: 600 / 600;
+  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/f2277e18-accf-4734-8971-cd7dae86aedd"><img
-  width="250" height="250" alt="ReSharp3DS-QR_CODE" src="https://github.com/user-attachments/assets/f2277e18-accf-4734-8971-cd7dae86aedd"
+  <h3 dir="auto">Fast CIA Installation</h3>
+
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/28c96a6c-4b90-4984-ad7b-cbd0b8d3b2d8"><img
+  width="250" height="250" alt="ReSharp3DS-QR_CODE" src="https://github.com/user-attachments/assets/28c96a6c-4b90-4984-ad7b-cbd0b8d3b2d8"
   style="max-width: 100%; height: auto; max-height: 250px;; aspect-ratio: 250 / 250;
   background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
 
@@ -41,13 +56,18 @@ update_notes: '<h3 dir="auto">Fast CIA Installation</h3>
 
   <ul dir="auto">
 
-  <li>Add updater system</li>
+  <li>Add updater system <strong>It''s ready but not yet deployed because I still
+  need to buy hosting servers :(</strong></li>
 
-  <li>Auto restore/download <code class="notranslate">mscorlib.pe</code>, <code class="notranslate">latest.txt</code></li>
+  <li>Auto restore/download <code class="notranslate">mscorlib.pe</code>, <code class="notranslate">latest.txt</code>
+  <strong>It''s ready but not yet deployed because I still need to buy hosting servers
+  :(</strong></li>
 
   <li>Move important files to a <code class="notranslate">bin</code> subfolder</li>
 
-  </ul>'
+  </ul>
+
+  <h3 dir="auto">Place bin folder here : :sdmc/ReSharp3DS/<strong>bin</strong></h3>'
 updated: '2026-06-07T20:01:54Z'
 version: v1.9.3
 version_title: v1.9.3-beta.8
