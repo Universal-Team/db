@@ -58,6 +58,8 @@ update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github
 
   <li>Update the directory to display subfolders</li>
 
+  <li>Improve UI</li>
+
   </ul>
 
   <h2 dir="auto">ReSharp3DS SDK Update</h2>
