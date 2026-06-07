@@ -9,18 +9,10 @@ created: '2026-06-01T16:33:12Z'
 description: C# runtime and SDK for Nintendo 3DS
 download_page: https://github.com/saysaa/ReSharp3DS/releases
 downloads:
-  ReSharp3DS.3dsx:
-    size: 306172
-    size_str: 298 KiB
-    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.8.3/ReSharp3DS.3dsx
-  ReSharp3DS.cia:
-    size: 597440
-    size_str: 583 KiB
-    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.8.3/ReSharp3DS.cia
-  sample-test.zip:
-    size: 16418
-    size_str: 16 KiB
-    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.8.3/sample-test.zip
+  latest.txt:
+    size: 213
+    size_str: 213 Bytes
+    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.9.3/latest.txt
 github: saysaa/ReSharp3DS
 icon: https://raw.githubusercontent.com/saysaa/ReSharp3DS/refs/heads/docs/icon.png
 image: https://raw.githubusercontent.com/saysaa/ReSharp3DS/refs/heads/docs/banner.png
@@ -29,8 +21,6 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_usage: none
-qr:
-  ReSharp3DS.cia: https://db.universal-team.net/assets/images/qr/resharp3ds-cia.png
 script_message: Remember to create a folder named “ReSharp3DS” at the root of your
   SD card
 source: https://github.com/saysaa/ReSharp3DS
@@ -40,15 +30,10 @@ systems:
 title: ReSharp3DS
 unique_ids:
 - '0x23400'
-update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/87a731d0-2c9b-4368-878b-5c7dc96833eb"><img
-  width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/87a731d0-2c9b-4368-878b-5c7dc96833eb"
-  style="max-width: 100%; height: auto; max-height: 600px;; aspect-ratio: 600 / 600;
-  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
+update_notes: '<h3 dir="auto">Fast CIA Installation</h3>
 
-  <h3 dir="auto">Fast CIA Installation</h3>
-
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/45062bb8-6b3f-439f-88e5-927faa300956"><img
-  width="250" height="250" alt="ReSharp3DS-QR_CODE" src="https://github.com/user-attachments/assets/45062bb8-6b3f-439f-88e5-927faa300956"
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/f2277e18-accf-4734-8971-cd7dae86aedd"><img
+  width="250" height="250" alt="ReSharp3DS-QR_CODE" src="https://github.com/user-attachments/assets/f2277e18-accf-4734-8971-cd7dae86aedd"
   style="max-width: 100%; height: auto; max-height: 250px;; aspect-ratio: 250 / 250;
   background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
 
@@ -56,24 +41,16 @@ update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github
 
   <ul dir="auto">
 
-  <li>Update the directory to display subfolders</li>
+  <li>Add updater system</li>
 
-  <li>Improve UI</li>
+  <li>Auto restore/download <code class="notranslate">mscorlib.pe</code>, <code class="notranslate">latest.txt</code></li>
 
-  <li>Added a 3D banner to the home menu</li>
-
-  </ul>
-
-  <h2 dir="auto">ReSharp3DS SDK Update</h2>
-
-  <ul dir="auto">
-
-  <li>Added file management (creating folders and files, writing, reading)</li>
+  <li>Move important files to a <code class="notranslate">bin</code> subfolder</li>
 
   </ul>'
-updated: '2026-06-07T11:25:29Z'
-version: v1.8.3
-version_title: v1.8.3-beta.7
+updated: '2026-06-07T20:01:54Z'
+version: v1.9.3
+version_title: v1.9.3-beta.8
 website: https://saysaa.github.io/ReSharp3DS/
 wiki: https://saysaa.github.io/ReSharp3DS/
 ---
