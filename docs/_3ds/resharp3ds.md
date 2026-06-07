@@ -14,8 +14,8 @@ downloads:
     size_str: 298 KiB
     url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.8.3/ReSharp3DS.3dsx
   ReSharp3DS.cia:
-    size: 1116096
-    size_str: 1 MiB
+    size: 597440
+    size_str: 583 KiB
     url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.8.3/ReSharp3DS.cia
   sample-test.zip:
     size: 16418
@@ -34,7 +34,7 @@ qr:
 script_message: Remember to create a folder named “ReSharp3DS” at the root of your
   SD card
 source: https://github.com/saysaa/ReSharp3DS
-stars: 5
+stars: 6
 systems:
 - 3DS
 title: ReSharp3DS
@@ -59,6 +59,8 @@ update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github
   <li>Update the directory to display subfolders</li>
 
   <li>Improve UI</li>
+
+  <li>Added a 3D banner to the home menu</li>
 
   </ul>
 

@@ -66,7 +66,7 @@ prerelease:
   version: 4.2.6-140-g3363e27ce
   version_title: 4.2.6-140-g3363e27ce
 source: https://github.com/angband/angband
-stars: 1511
+stars: 1512
 systems:
 - 3DS
 - DS

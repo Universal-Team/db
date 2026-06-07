@@ -23,7 +23,7 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_usage: undisclosed
 source: https://github.com/cmdada/3DS-CLI
-stars: 12
+stars: 13
 systems:
 - 3DS
 title: 3DS-CLI
