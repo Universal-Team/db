@@ -27,16 +27,16 @@ license: other
 license_name: Other
 llm_usage: undisclosed
 prerelease:
-  download_page: https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-ce3bd1
+  download_page: https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-4eabf8
   downloads:
     OoT3D_Randomizer.3dsx:
-      size: 6043220
+      size: 6053868
       size_str: 5 MiB
-      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-ce3bd1/OoT3D_Randomizer.3dsx
+      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-4eabf8/OoT3D_Randomizer.3dsx
     OoT3D_Randomizer.cia:
-      size: 4363200
+      size: 4432832
       size_str: 4 MiB
-      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-ce3bd1/OoT3D_Randomizer.cia
+      url: https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-4eabf8/OoT3D_Randomizer.cia
   qr:
     OoT3D_Randomizer.cia: https://db.universal-team.net/assets/images/qr/prerelease/oot3d_randomizer-cia.png
   update_notes: '<p dir="auto">Please note that these are DEVELOPMENT builds and may
@@ -50,40 +50,57 @@ prerelease:
 
     CIA QR Code:<br>
 
-    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-ce3bd1/cia.png"><img
-    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-ce3bd1/cia.png"
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-4eabf8/cia.png"><img
+    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-4eabf8/cia.png"
     alt="CIA Download" style="max-width: 100%;"></a><br>
 
     3DSX QR Code:<br>
 
-    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-ce3bd1/3dsx.png"><img
-    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-ce3bd1/3dsx.png"
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-4eabf8/3dsx.png"><img
+    src="https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-4eabf8/3dsx.png"
     alt="3DSX Download" style="max-width: 100%;"></a></p>
 
-    <p dir="auto">Changes Since <a href="https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-d5fa60">Nightly-d5fa60</a>
+    <p dir="auto">Changes Since <a href="https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-ce3bd1">Nightly-ce3bd1</a>
     🛠:</p>
 
     <ul dir="auto">
 
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/ce3bd1575e227833c6771d831537269890cf8f47">ce3bd157</a>
-    - Allow backtracking after Dampé''s race (<a class="issue-link js-issue-link"
-    data-error-text="Failed to load title" data-id="4415659379" data-permission-text="Title
-    is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/821"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/821/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/821">#821</a>)</li>
+    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/4eabf8ae2383f90bf6dfa5e07d184ad31b8f9e3c">4eabf8ae</a>
+    - Add alert message for seed mismatch (<a class="issue-link js-issue-link" data-error-text="Failed
+    to load title" data-id="4574875817" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/832"
+    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/832/hovercard"
+    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/832">#832</a>)</li>
 
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/98a3702ec15a2d8c231954463e22bdba85b836de">98a3702e</a>
-    - Skip overrides for vanilla items (<a class="issue-link js-issue-link" data-error-text="Failed
-    to load title" data-id="4401991015" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/820"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/820/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/820">#820</a>)</li>
+    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/cb73109ac0c111de209c062aad5b0f4c207346aa">cb73109a</a>
+    - Update Soulless Enemies Look (<a class="issue-link js-issue-link" data-error-text="Failed
+    to load title" data-id="4557781040" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/830"
+    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/830/hovercard"
+    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/830">#830</a>)</li>
 
-    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/c8f075b69cc7552704ba729963d76a35a92fb3b5">c8f075b6</a>
-    - Skipped the free standing rupees in the ingame spoiler log when rupeesanity
-    is disabled (<a class="issue-link js-issue-link" data-error-text="Failed to load
-    title" data-id="4360261527" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/818"
-    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/818/hovercard"
-    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/818">#818</a>)</li>
+    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/9d1cfc021088bcf33eeca4bb0babe3c8cb1c74f0">9d1cfc02</a>
+    - Use <code class="notranslate">next</code> tag for randotools (<a class="issue-link
+    js-issue-link" data-error-text="Failed to load title" data-id="4558360213" data-permission-text="Title
+    is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/831"
+    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/831/hovercard"
+    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/831">#831</a>)</li>
+
+    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/ea088b68ce6d83c304ffed14518cf7f356301bf1">ea088b68</a>
+    - Permissions fixes (<a class="issue-link js-issue-link" data-error-text="Failed
+    to load title" data-id="4555336522" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/829"
+    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/829/hovercard"
+    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/829">#829</a>)</li>
+
+    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/66d23d7acb6d001782c1901efb2a441bbacc878b">66d23d7a</a>
+    - Small improvements for enemy features (<a class="issue-link js-issue-link" data-error-text="Failed
+    to load title" data-id="4472174347" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/825"
+    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/825/hovercard"
+    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/825">#825</a>)</li>
+
+    <li><a href="https://github.com/gamestabled/OoT3D_Randomizer/commit/e6ccf468fa78e4f8e87fce709f3544f23e045c63">e6ccf468</a>
+    - Add setting to keep extra shields (<a class="issue-link js-issue-link" data-error-text="Failed
+    to load title" data-id="4472073638" data-permission-text="Title is private" data-url="https://github.com/gamestabled/OoT3D_Randomizer/issues/824"
+    data-hovercard-type="pull_request" data-hovercard-url="/gamestabled/OoT3D_Randomizer/pull/824/hovercard"
+    href="https://github.com/gamestabled/OoT3D_Randomizer/pull/824">#824</a>)</li>
 
     </ul>'
   update_notes_md: 'Please note that these are DEVELOPMENT builds and may not be entirely
@@ -97,28 +114,36 @@ prerelease:
 
     CIA QR Code:
 
-    ![CIA Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-ce3bd1/cia.png)
+    ![CIA Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-4eabf8/cia.png)
 
     3DSX QR Code:
 
-    ![3DSX Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-ce3bd1/3dsx.png)
+    ![3DSX Download](https://github.com/gamestabled/OoT3D_Randomizer/releases/download/Nightly-4eabf8/3dsx.png)
 
 
-    Changes Since [Nightly-d5fa60](https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-d5fa60)
+    Changes Since [Nightly-ce3bd1](https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-ce3bd1)
     🛠:
 
-    - [ce3bd157](http://github.com/gamestabled/OoT3D_Randomizer/commit/ce3bd1575e227833c6771d831537269890cf8f47)
-    - Allow backtracking after Dampé''s race (#821)
+    - [4eabf8ae](http://github.com/gamestabled/OoT3D_Randomizer/commit/4eabf8ae2383f90bf6dfa5e07d184ad31b8f9e3c)
+    - Add alert message for seed mismatch (#832)
 
-    - [98a3702e](http://github.com/gamestabled/OoT3D_Randomizer/commit/98a3702ec15a2d8c231954463e22bdba85b836de)
-    - Skip overrides for vanilla items (#820)
+    - [cb73109a](http://github.com/gamestabled/OoT3D_Randomizer/commit/cb73109ac0c111de209c062aad5b0f4c207346aa)
+    - Update Soulless Enemies Look (#830)
 
-    - [c8f075b6](http://github.com/gamestabled/OoT3D_Randomizer/commit/c8f075b69cc7552704ba729963d76a35a92fb3b5)
-    - Skipped the free standing rupees in the ingame spoiler log when rupeesanity
-    is disabled (#818)'
-  updated: '2026-05-12T20:30:49Z'
-  version: Nightly-ce3bd1
-  version_title: Nightly-ce3bd1
+    - [9d1cfc02](http://github.com/gamestabled/OoT3D_Randomizer/commit/9d1cfc021088bcf33eeca4bb0babe3c8cb1c74f0)
+    - Use `next` tag for randotools (#831)
+
+    - [ea088b68](http://github.com/gamestabled/OoT3D_Randomizer/commit/ea088b68ce6d83c304ffed14518cf7f356301bf1)
+    - Permissions fixes (#829)
+
+    - [66d23d7a](http://github.com/gamestabled/OoT3D_Randomizer/commit/66d23d7acb6d001782c1901efb2a441bbacc878b)
+    - Small improvements for enemy features (#825)
+
+    - [e6ccf468](http://github.com/gamestabled/OoT3D_Randomizer/commit/e6ccf468fa78e4f8e87fce709f3544f23e045c63)
+    - Add setting to keep extra shields (#824)'
+  updated: '2026-06-06T19:22:28Z'
+  version: Nightly-4eabf8
+  version_title: Nightly-4eabf8
 qr:
   OoT3D_Randomizer.cia: https://db.universal-team.net/assets/images/qr/oot3d_randomizer-cia.png
 source: https://github.com/gamestabled/OoT3D_Randomizer

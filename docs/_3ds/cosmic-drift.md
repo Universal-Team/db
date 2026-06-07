@@ -26,7 +26,7 @@ llm_usage: undisclosed
 qr:
   CosmicDrift.cia: https://db.universal-team.net/assets/images/qr/cosmicdrift-cia.png
 source: https://github.com/lartodor/CosmicDrift-for-the-Nintendo-3DS
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: Cosmic Drift

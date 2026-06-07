@@ -33,7 +33,7 @@ screenshots:
 - description: Storage
   url: https://db.universal-team.net/assets/images/screenshots/3dsident/storage.png
 source: https://github.com/joel16/3DSident
-stars: 365
+stars: 366
 systems:
 - 3DS
 title: 3DSident

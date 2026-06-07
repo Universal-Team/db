@@ -28,7 +28,7 @@ llm_usage: none
 qr:
   ctroller.cia: https://db.universal-team.net/assets/images/qr/ctroller-cia.png
 source: https://github.com/phijor/ctroller
-stars: 45
+stars: 46
 systems:
 - 3DS
 title: ctroller
