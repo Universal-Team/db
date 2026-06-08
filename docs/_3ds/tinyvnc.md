@@ -26,7 +26,7 @@ llm_usage: none
 qr:
   TinyVNC.cia: https://db.universal-team.net/assets/images/qr/tinyvnc-cia.png
 source: https://github.com/badda71/TinyVNC
-stars: 69
+stars: 70
 systems:
 - 3DS
 title: TinyVNC
