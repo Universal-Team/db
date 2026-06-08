@@ -10,6 +10,10 @@ created: '2026-06-04T20:26:16Z'
 description: A Tor browser that can be displayed on the Nintendo 3ds
 download_page: https://github.com/DisLoPik/Tor3ds/releases
 downloads:
+  3ds.zip:
+    size: 152942
+    size_str: 149 KiB
+    url: https://github.com/DisLoPik/Tor3ds/releases/download/cia/3ds.zip
   Tor3DS.cia:
     size: 410048
     size_str: 400 KiB
