@@ -29,8 +29,8 @@ nightly:
   download_page: https://github.com/Universal-Team/3DVier/releases/tag/git
   downloads:
     3DVier.3dsx:
-      size: 700672
-      size_str: 684 KiB
+      size: 703932
+      size_str: 687 KiB
       url: https://github.com/Universal-Team/3DVier/releases/download/git/3DVier.3dsx
     3DVier.cia:
       size: 672704
@@ -38,14 +38,14 @@ nightly:
       url: https://github.com/Universal-Team/3DVier/releases/download/git/3DVier.cia
   qr:
     3DVier.cia: https://db.universal-team.net/assets/images/qr/git/3dvier-cia.png
-  update_notes: <p dir="auto">Pk11 - Disable NDS builds</p>
-  update_notes_md: 'Pk11 - Disable NDS builds
+  update_notes: '<p dir="auto">Pk11 - 3DS: Add French translation</p>'
+  update_notes_md: 'Pk11 - 3DS: Add French translation
 
 
     '
-  updated: '2025-12-29T10:59:07Z'
+  updated: '2026-06-08T18:27:02Z'
   version: git
-  version_title: Continuous Build - 2aa1f32
+  version_title: Continuous Build - 49756b6
 qr:
   3DVier.cia: https://db.universal-team.net/assets/images/qr/3dvier-cia.png
 screenshots:
