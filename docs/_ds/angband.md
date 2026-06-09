@@ -19,52 +19,53 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_usage: undisclosed
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-140-g3363e27ce
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-142-g40438c80d
   downloads:
-    Angband-4.2.6-140-g3363e27ce-3ds.zip:
-      size: 24672916
+    Angband-4.2.6-142-g40438c80d-3ds.zip:
+      size: 24672915
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-140-g3363e27ce/Angband-4.2.6-140-g3363e27ce-3ds.zip
-    Angband-4.2.6-140-g3363e27ce-nds.zip:
+      url: https://github.com/angband/angband/releases/download/4.2.6-142-g40438c80d/Angband-4.2.6-142-g40438c80d-3ds.zip
+    Angband-4.2.6-142-g40438c80d-nds.zip:
       size: 23329842
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-140-g3363e27ce/Angband-4.2.6-140-g3363e27ce-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-142-g40438c80d/Angband-4.2.6-142-g40438c80d-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>macOS:  allow Makefile.osx to add the get-task-allow entitlement by <a class="user-mention
+    <li>Tweak utility rod category for ''S'' debugging command by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4499797356" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6639"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6639/hovercard"
-    href="https://github.com/angband/angband/pull/6639">#6639</a></li>
+    data-id="4574942352" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6642"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6642/hovercard"
+    href="https://github.com/angband/angband/pull/6642">#6642</a></li>
 
-    <li>debugging ''S'' command: track all book kinds by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    <li>debugging ''S'' command:  really exclude amulets of inertia from free action
+    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4508404014" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6641"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6641/hovercard"
-    href="https://github.com/angband/angband/pull/6641">#6641</a></li>
+    data-id="4575002810" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6643"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6643/hovercard"
+    href="https://github.com/angband/angband/pull/6643">#6643</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-138-g965933744...4.2.6-140-g3363e27ce"><tt>4.2.6-138-g965933744...4.2.6-140-g3363e27ce</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-140-g3363e27ce...4.2.6-142-g40438c80d"><tt>4.2.6-140-g3363e27ce...4.2.6-142-g40438c80d</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * macOS:  allow Makefile.osx to add the get-task-allow entitlement by @backwardsEric
-    in https://github.com/angband/angband/pull/6639
+    * Tweak utility rod category for ''S'' debugging command by @backwardsEric in
+    https://github.com/angband/angband/pull/6642
 
-    * debugging ''S'' command: track all book kinds by @backwardsEric in https://github.com/angband/angband/pull/6641
+    * debugging ''S'' command:  really exclude amulets of inertia from free action
+    by @backwardsEric in https://github.com/angband/angband/pull/6643
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-138-g965933744...4.2.6-140-g3363e27ce'
-  updated: '2026-06-02T18:12:49Z'
-  version: 4.2.6-140-g3363e27ce
-  version_title: 4.2.6-140-g3363e27ce
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-140-g3363e27ce...4.2.6-142-g40438c80d'
+  updated: '2026-06-09T12:12:19Z'
+  version: 4.2.6-142-g40438c80d
+  version_title: 4.2.6-142-g40438c80d
 source: https://github.com/angband/angband
 stars: 1512
 systems:
