@@ -44,7 +44,7 @@ script_message: 'You will need to have "Game Patching" and "Loading external FIR
 
   enabled in LumaCFW settings (hold select on boot)'
 source: https://github.com/Golem642/CtrRGBPAT2
-stars: 13
+stars: 14
 systems:
 - 3DS
 title: CtrRGBPAT2

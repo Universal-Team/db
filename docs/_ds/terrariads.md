@@ -24,7 +24,7 @@ llm_usage: undisclosed
 qr:
   TerrariaDS.nds: https://db.universal-team.net/assets/images/qr/terrariads-nds.png
 source: https://github.com/AzizBgBoss/TerrariaDS
-stars: 33
+stars: 34
 systems:
 - DS
 title: TerrariaDS

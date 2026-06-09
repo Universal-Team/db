@@ -10,29 +10,29 @@ description: An ebook and manga reader for Nintendo 3DS
 download_page: https://github.com/RigleGit/3dslibris/releases
 downloads:
   3dslibris-debug.3dsx:
-    size: 14389884
+    size: 14393392
     size_str: 13 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.5/3dslibris-debug.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.6/3dslibris-debug.3dsx
   3dslibris-debug.cia:
-    size: 13136832
+    size: 13140928
     size_str: 12 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.5/3dslibris-debug.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.6/3dslibris-debug.cia
   3dslibris-sdmc.zip:
     size: 5020749
     size_str: 4 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.5/3dslibris-sdmc.zip
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.6/3dslibris-sdmc.zip
   3dslibris-source.tar.gz:
-    size: 66963942
+    size: 66964205
     size_str: 63 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.5/3dslibris-source.tar.gz
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.6/3dslibris-source.tar.gz
   3dslibris.3dsx:
-    size: 14513356
+    size: 14520676
     size_str: 13 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.5/3dslibris.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.6/3dslibris.3dsx
   3dslibris.cia:
-    size: 13272000
+    size: 13276096
     size_str: 12 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.5/3dslibris.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.6/3dslibris.cia
 github: RigleGit/3dslibris
 icon: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/icon-32x32.png
 image: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/banner.png
@@ -54,57 +54,49 @@ stars: 125
 systems:
 - 3DS
 title: 3dslibris
-update_notes: '<h2 dir="auto">3dslibris 2.7.5</h2>
+update_notes: '<h2 dir="auto">3dslibris 2.7.6</h2>
 
-  <p dir="auto">Small fixes for EPUB image-heavy pages, bottom-of-screen spacing,
-  and reader progress writes.</p>
+  <p dir="auto">Small fixes and a new setting to reopen the last book on startup.</p>
+
+  <p dir="auto"><strong>As I told a couple of patches ago, I''m planning to slow down
+  the release cadence</strong>, so expect bugfixes or small features for a while :)</p>
+
+  <h3 dir="auto">New Features</h3>
+
+  <ul dir="auto">
+
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4604389468"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/140"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/140/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/140">#140</a>: added a global
+  <strong>reopen last book</strong> setting so startup can either open the last-read
+  book automatically or stay in the library.</li>
+
+  </ul>
 
   <h3 dir="auto">Bug Fixes</h3>
 
   <ul dir="auto">
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4347167582"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/77"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/77/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/77">#77</a>: paragraphs no longer
-  create blank space at the top of the right screen.</li>
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4604463415"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/141"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/141/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/141">#141</a>: fixed EPUB <code
+  class="notranslate">text-align: right</code> and <code class="notranslate">text-align:
+  center</code> rendering when publisher CSS block margins also move the line start.</li>
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4347167582"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/77"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/77/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/77">#77</a>: EPUB text now uses
-  the real last visible line before moving to the next screen.</li>
-
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4347167582"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/77"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/77/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/77">#77</a>: EPUB image-only
-  paragraphs and decorative separators no longer add invisible extra spacing.</li>
-
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4347167582"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/77"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/77/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/77">#77</a>: EPUB publisher margins
-  between paragraphs are preserved when there is room.</li>
-
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4509263790"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/128"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/128/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/128">#128</a>: block images are
-  less likely to be pushed or treated like full-page images.</li>
-
-  <li>Returning from reader/settings no longer writes duplicate progress or preference
-  updates.</li>
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4604526454"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/142"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/142/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/142">#142</a>: enabled EPUB inline
+  GIF decoding and fixed centered/right-aligned EPUB ornaments when publisher block
+  margins shift the line start or the ornament is the only paragraph content.</li>
 
   </ul>
 
   <h2 dir="auto">❤️ Community Shoutouts</h2>
 
-  <p dir="auto">Thanks to everyone who keeps testing early builds and reporting layout
-  edge cases quickly, especially <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/EmbersFlying/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/EmbersFlying">@EmbersFlying</a>
-  for detailed testing and feedback.</p>
+  <p dir="auto">Thanks to everyone who keeps testing early builds and reporting bugs!</p>
 
   <ul dir="auto">
 
@@ -134,7 +126,7 @@ update_notes: '<h2 dir="auto">3dslibris 2.7.5</h2>
   <li><code class="notranslate">3dslibris-source.tar.gz</code></li>
 
   </ul>'
-updated: '2026-06-02T20:10:27Z'
-version: v2.7.5
-version_title: v2.7.5
+updated: '2026-06-09T19:05:08Z'
+version: v2.7.6
+version_title: v2.7.6
 ---
