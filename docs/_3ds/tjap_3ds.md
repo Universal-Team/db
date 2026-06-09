@@ -27,11 +27,11 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.2.3
   downloads:
     TJAP_3DS.3dsx:
-      size: 10382196
+      size: 10384312
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.3/TJAP_3DS.3dsx
     TJAP_3DS.cia:
-      size: 10560448
+      size: 10564544
       size_str: 10 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.3/TJAP_3DS.cia
   qr:
@@ -50,6 +50,14 @@ prerelease:
     </code></pre>
 
     <ul dir="auto">
+
+    <li>前回のプレイを記録&amp;再生出来るようになりました。<br>
+
+    プレイを終わらせた後に「実験的設定」の「プレイヤー(双打用)」を<br>
+
+    PLAYに変更すると、前回のプレイを再生出来ます。<br>
+
+    記録を消したい場合はSELECTを押しながらXボタンを押して下さい。</li>
 
     <li>その他一部動作の高速化をしました。</li>
 
@@ -70,6 +78,14 @@ prerelease:
 
     <ul dir="auto">
 
+    <li>You can now record and replay your previous gameplay.<br>
+
+    After finishing a game, changing the "Player (for dual-wielding)" setting in<br>
+
+    "Experimental Settings" to PLAY will allow you to replay your previous play.<br>
+
+    To erase your record, press the SELECT button while holding down the X button.</li>
+
     <li>We have also sped up some other operations.</li>
 
     </ul>'
@@ -83,6 +99,14 @@ prerelease:
 
     ```
 
+    - 前回のプレイを記録&再生出来るようになりました。
+
+    プレイを終わらせた後に「実験的設定」の「プレイヤー(双打用)」を
+
+    PLAYに変更すると、前回のプレイを再生出来ます。
+
+    記録を消したい場合はSELECTを押しながらXボタンを押して下さい。
+
     - その他一部動作の高速化をしました。
 
 
@@ -95,6 +119,14 @@ prerelease:
     #SCROLL (Signed float)(Signed float)i
 
     ```
+
+    - You can now record and replay your previous gameplay.
+
+    After finishing a game, changing the "Player (for dual-wielding)" setting in
+
+    "Experimental Settings" to PLAY will allow you to replay your previous play.
+
+    To erase your record, press the SELECT button while holding down the X button.
 
     - We have also sped up some other operations.'
   updated: '2026-06-02T03:51:14Z'
