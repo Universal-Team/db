@@ -20,7 +20,7 @@ image_length: 4875
 layout: app
 llm_usage: minor
 source: https://github.com/DotNetttt/BareCTR
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: BareCTR

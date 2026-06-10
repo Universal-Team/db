@@ -29,20 +29,25 @@ nightly:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 2977140
+      size: 2988452
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
-      size: 2454464
+      size: 2462656
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: <p dir="auto">TWLBot - Automatic translation import</p>
-  update_notes_md: TWLBot - Automatic translation import
-  updated: '2026-06-01T03:36:41Z'
+  update_notes: '<p dir="auto">Pk11 - Fix new compiler warning</p>
+
+    <p dir="auto">Not sure when this showed up, I think it works fine</p>'
+  update_notes_md: 'Pk11 - Fix new compiler warning
+
+
+    Not sure when this showed up, I think it works fine'
+  updated: '2026-06-10T20:10:07Z'
   version: git
-  version_title: Continuous Build - c3d2354
+  version_title: Continuous Build - 0f244a3
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
@@ -83,7 +88,7 @@ screenshots:
 - description: Store selection
   url: https://db.universal-team.net/assets/images/screenshots/universal-updater/store-selection.png
 source: https://github.com/Universal-Team/Universal-Updater
-stars: 1231
+stars: 1232
 systems:
 - 3DS
 title: Universal-Updater

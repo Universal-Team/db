@@ -151,6 +151,8 @@ stars: 226
 systems:
 - 3DS
 title: OoT3D_Randomizer
+unique_ids:
+- '0x8AD5B'
 update_notes: '<p dir="auto">This is a patch release that backports various bug-fixes
   from the main branch to the stable 4.0 release.</p>
 
