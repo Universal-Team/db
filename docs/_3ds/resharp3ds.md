@@ -10,7 +10,7 @@ description: C# runtime and SDK for Nintendo 3DS
 download_page: https://github.com/saysaa/ReSharp3DS/releases
 downloads:
   ReSharp3DS.3dsx:
-    size: 360036
+    size: 360028
     size_str: 351 KiB
     url: https://github.com/saysaa/ReSharp3DS/releases/download/v2.0.3/ReSharp3DS.3dsx
   ReSharp3DS.cia:
@@ -58,7 +58,7 @@ update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github
 
   <li>Add french translation</li>
 
-  <li>Add real update system -&gt; <a href="https://host.saysaa.fr/3ds/ReSharp3DS/"
+  <li>Add real HTTP update system -&gt; <a href="https://host.saysaa.fr/3ds/ReSharp3DS/"
   rel="nofollow">host.saysaa.fr/</a></li>
 
   </ul>
