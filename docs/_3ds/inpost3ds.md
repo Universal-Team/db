@@ -28,7 +28,7 @@ llm_usage: undisclosed
 qr:
   InPost3DS.cia: https://db.universal-team.net/assets/images/qr/inpost3ds-cia.png
 source: https://github.com/TehFridge/InPost3DS
-stars: 66
+stars: 67
 systems:
 - 3DS
 title: InPost3DS
