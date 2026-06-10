@@ -27,7 +27,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.2.3
   downloads:
     TJAP_3DS.3dsx:
-      size: 10385940
+      size: 10388692
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.3/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -59,6 +59,8 @@ prerelease:
 
     記録を消したい場合はSELECTを押しながらXボタンを押して下さい。</li>
 
+    <li>オプション「曲のはやさ」を1倍以外にするとJPOSSCROLLの終了タイミングがズレる不具合の修正</li>
+
     <li>その他一部動作の高速化をしました。</li>
 
     </ul>
@@ -86,6 +88,9 @@ prerelease:
 
     To erase your record, press the SELECT button while holding down the X button.</li>
 
+    <li>Fixed a bug that caused the end timing of JPOSSCROLL to shift if the option
+    "song so fastness" was not 1x.</li>
+
     <li>We have also sped up some other operations.</li>
 
     </ul>'
@@ -107,6 +112,8 @@ prerelease:
 
     記録を消したい場合はSELECTを押しながらXボタンを押して下さい。
 
+    - オプション「曲のはやさ」を1倍以外にするとJPOSSCROLLの終了タイミングがズレる不具合の修正
+
     - その他一部動作の高速化をしました。
 
 
@@ -127,6 +134,9 @@ prerelease:
     "Experimental Settings" to PLAY will allow you to replay your previous play.
 
     To erase your record, press the SELECT button while holding down the X button.
+
+    - Fixed a bug that caused the end timing of JPOSSCROLL to shift if the option
+    "song so fastness" was not 1x.
 
     - We have also sped up some other operations.'
   updated: '2026-06-02T03:51:14Z'
