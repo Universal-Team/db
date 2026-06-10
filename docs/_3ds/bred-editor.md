@@ -3,7 +3,7 @@ author: AtexBg :3
 avatar: https://avatars.githubusercontent.com/u/151460611?v=4
 categories:
 - utility
-- save
+- save-tool
 color: '#ecc2be'
 color_bg: '#806967'
 created: '2026-05-08T13:59:26Z'
