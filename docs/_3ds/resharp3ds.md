@@ -10,17 +10,17 @@ description: C# runtime and SDK for Nintendo 3DS
 download_page: https://github.com/saysaa/ReSharp3DS/releases
 downloads:
   ReSharp3DS.3dsx:
-    size: 311408
-    size_str: 304 KiB
-    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.9.3/ReSharp3DS.3dsx
+    size: 360036
+    size_str: 351 KiB
+    url: https://github.com/saysaa/ReSharp3DS/releases/download/v2.0.3/ReSharp3DS.3dsx
   ReSharp3DS.cia:
-    size: 1123776
-    size_str: 1 MiB
-    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.9.3/ReSharp3DS.cia
-  bin.zip:
-    size: 15454
-    size_str: 15 KiB
-    url: https://github.com/saysaa/ReSharp3DS/releases/download/v1.9.3/bin.zip
+    size: 632256
+    size_str: 617 KiB
+    url: https://github.com/saysaa/ReSharp3DS/releases/download/v2.0.3/ReSharp3DS.cia
+  sample-app.zip:
+    size: 17665
+    size_str: 17 KiB
+    url: https://github.com/saysaa/ReSharp3DS/releases/download/v2.0.3/sample-app.zip
 github: saysaa/ReSharp3DS
 icon: https://raw.githubusercontent.com/saysaa/ReSharp3DS/refs/heads/docs/icon.png
 image: https://raw.githubusercontent.com/saysaa/ReSharp3DS/refs/heads/docs/banner.png
@@ -40,15 +40,15 @@ systems:
 title: ReSharp3DS
 unique_ids:
 - '0x23400'
-update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/b2cb4130-4031-4ebe-82b8-81a6ff7dcc66"><img
-  width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b2cb4130-4031-4ebe-82b8-81a6ff7dcc66"
+update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/b5e25751-371e-4f74-ac36-6c06b992f933"><img
+  width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/b5e25751-371e-4f74-ac36-6c06b992f933"
   style="max-width: 100%; height: auto; max-height: 600px;; aspect-ratio: 600 / 600;
   background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
 
   <h3 dir="auto">Fast CIA Installation</h3>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/28c96a6c-4b90-4984-ad7b-cbd0b8d3b2d8"><img
-  width="250" height="250" alt="ReSharp3DS-QR_CODE" src="https://github.com/user-attachments/assets/28c96a6c-4b90-4984-ad7b-cbd0b8d3b2d8"
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/b14618e9-4f83-4e85-b2db-e4b7967a2917"><img
+  width="250" height="250" alt="ReSharp3DS-QR_CODE" src="https://github.com/user-attachments/assets/b14618e9-4f83-4e85-b2db-e4b7967a2917"
   style="max-width: 100%; height: auto; max-height: 250px;; aspect-ratio: 250 / 250;
   background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
 
@@ -56,21 +56,47 @@ update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github
 
   <ul dir="auto">
 
-  <li>Add updater system <strong>It''s ready but not yet deployed because I still
-  need to buy hosting servers :(</strong></li>
+  <li>Add french translation</li>
 
-  <li>Auto restore/download <code class="notranslate">mscorlib.pe</code>, <code class="notranslate">latest.txt</code>
-  <strong>It''s ready but not yet deployed because I still need to buy hosting servers
-  :(</strong></li>
-
-  <li>Move important files to a <code class="notranslate">bin</code> subfolder</li>
+  <li>Add real update system -&gt; <a href="https://host.saysaa.fr/3ds/ReSharp3DS/"
+  rel="nofollow">host.saysaa.fr/</a></li>
 
   </ul>
 
-  <h3 dir="auto">Place bin folder here : :sdmc/ReSharp3DS/<strong>bin</strong></h3>'
-updated: '2026-06-07T20:01:54Z'
-version: v1.9.3
-version_title: v1.9.3-beta.8
+  <h2 dir="auto">ReSharp3DS SDK Update</h2>
+
+  <ul dir="auto">
+
+  <li>Time API</li>
+
+  <li>Random API</li>
+
+  <li>Touch API</li>
+
+  <li>CirclePad API</li>
+
+  <li>Screen constants</li>
+
+  <li>App API</li>
+
+  <li>SystemInfo API</li>
+
+  <li>Save API</li>
+
+  <li>Graphics.DrawBitmap BMP</li>
+
+  <li>Audio.SetSfxVolume</li>
+
+  <li>Audio.SetMusicVolume</li>
+
+  <li>Audio.IsPlaying</li>
+
+  <li>Audio.IsMusicPlaying</li>
+
+  </ul>'
+updated: '2026-06-10T01:00:13Z'
+version: v2.0.3
+version_title: v2.0.3-beta.9
 website: https://saysaa.github.io/ReSharp3DS/
 wiki: https://saysaa.github.io/ReSharp3DS/
 ---

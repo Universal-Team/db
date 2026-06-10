@@ -67,7 +67,7 @@ prerelease:
   version: 4.2.6-142-g40438c80d
   version_title: 4.2.6-142-g40438c80d
 source: https://github.com/angband/angband
-stars: 1513
+stars: 1514
 systems:
 - 3DS
 - DS
