@@ -8,30 +8,19 @@
 		"firm"
 	],
 	"installed_files": ["%FIRM%/open_agb_firm.firm"],
-	"scripts": {
-		"open_agb_firm.firm": [
-			{
-				"type": "downloadRelease",
-				"repo": "profi200/open_agb_firm",
-				"file": "open_agb_firm.*.7z",
-				"output": "/open_agb_firm.7z"
-			},
-			{
-				"type": "extractFile",
-				"file": "/open_agb_firm.7z",
-				"input": "^open_agb_firm.firm",
-				"output": "%FIRM%/open_agb_firm.firm"
-			},
-			{
-				"type": "extractFile",
-				"file": "/open_agb_firm.7z",
-				"input": "^3ds",
-				"output": "/3ds"
-			},
-			{
-				"type": "deleteFile",
-				"file": "/open_agb_firm.7z"
+	"nightly": {
+		"download_page": "https://github.com/profi200/open_agb_firm/actions",
+		"downloads": {
+			"open_agb_firm_nightly.zip": {
+				"url": "https://nightly.link/profi200/open_agb_firm/workflows/c-cpp/master/open_agb_firm_nightly.zip"
 			}
-		]
+		}
+	},
+	"archive": {
+		"open_agb_firm.*\\.(zip|7z)": {
+			"open_agb_firm.firm": [
+				"open_agb_firm.firm", "3ds"
+			]
+		}
 	}
 }
