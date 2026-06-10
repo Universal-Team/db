@@ -20,7 +20,7 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_usage: undisclosed
 source: https://github.com/mockmodular/topos_3ds-video-player
-stars: 10
+stars: 11
 systems:
 - 3DS
 title: topos_3ds-video-player
