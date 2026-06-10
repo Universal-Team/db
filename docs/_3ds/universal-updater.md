@@ -29,7 +29,7 @@ nightly:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 2988452
+      size: 2987540
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
@@ -38,16 +38,11 @@ nightly:
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: '<p dir="auto">Pk11 - Fix new compiler warning</p>
-
-    <p dir="auto">Not sure when this showed up, I think it works fine</p>'
-  update_notes_md: 'Pk11 - Fix new compiler warning
-
-
-    Not sure when this showed up, I think it works fine'
-  updated: '2026-06-10T20:10:07Z'
+  update_notes: <p dir="auto">Pk11 - lower_case -&gt; toLowerCase</p>
+  update_notes_md: Pk11 - lower_case -> toLowerCase
+  updated: '2026-06-10T20:41:13Z'
   version: git
-  version_title: Continuous Build - 0f244a3
+  version_title: Continuous Build - d578916
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:

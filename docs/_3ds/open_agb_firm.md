@@ -22,6 +22,11 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_usage: undisclosed
+nightly:
+  download_page: https://github.com/profi200/open_agb_firm/actions
+  downloads:
+    open_agb_firm_nightly.zip:
+      url: https://nightly.link/profi200/open_agb_firm/workflows/c-cpp/master/open_agb_firm_nightly.zip
 source: https://github.com/profi200/open_agb_firm
 stars: 1241
 systems:
