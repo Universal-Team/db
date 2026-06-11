@@ -32,6 +32,8 @@ stars: 3
 systems:
 - 3DS
 title: NoteRoom
+unique_ids:
+- '0xF9E3'
 update_notes: '<h1 dir="auto">NoteRoom v2.5 - The Music Update 🎵🎨</h1>
 
   <p dir="auto">Welcome to NoteRoom v2.5! This update brings a highly requested feature

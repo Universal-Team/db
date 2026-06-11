@@ -35,6 +35,8 @@ stars: 41
 systems:
 - 3DS
 title: DSSH
+unique_ids:
+- '0xFF55C'
 update_notes: '<p dir="auto">两个小但都很有用的改动：终端 Shift+Tab 在软键盘上能打出来了，语音识别从 Whisper 换到
   Qwen3-ASR-Flash 解决稳定性 + 中文标点更地道。</p>
 

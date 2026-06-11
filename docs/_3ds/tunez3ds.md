@@ -30,6 +30,8 @@ stars: 5
 systems:
 - 3DS
 title: Tunez3DS
+unique_ids:
+- '0xF1234'
 update_notes: '<h3>v3.1.8 - Audio &amp; Input Optimization</h3>
 
   <p><strong>Improvements:</strong></p>

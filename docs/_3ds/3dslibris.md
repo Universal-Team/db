@@ -54,6 +54,8 @@ stars: 125
 systems:
 - 3DS
 title: 3dslibris
+unique_ids:
+- '0x3D51B'
 update_notes: '<h2 dir="auto">3dslibris 2.7.6</h2>
 
   <p dir="auto">Small fixes and a new setting to reopen the last book on startup.</p>

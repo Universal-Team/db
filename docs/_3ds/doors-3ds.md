@@ -46,6 +46,8 @@ stars: 8
 systems:
 - 3DS
 title: Doors-3DS
+unique_ids:
+- '0xD0075'
 update_notes: '<p dir="auto">Just a quick fix release that adds L &amp; R camera control
   support to make old 3ds feel more comfortable to play with.<br>
 

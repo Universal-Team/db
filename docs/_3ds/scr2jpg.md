@@ -34,6 +34,8 @@ stars: 1
 systems:
 - 3DS
 title: SCR2JPG
+unique_ids:
+- '0xFF3FF'
 update_notes: '<ul dir="auto">
 
   <li>.cia now supported</li>

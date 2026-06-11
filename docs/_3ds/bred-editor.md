@@ -35,6 +35,8 @@ stars: 1
 systems:
 - 3DS
 title: BRED Editor
+unique_ids:
+- '0xBED17'
 update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link"
   href="https://github.com/AtexBg/bred-editor/compare/b0.3.0...b0.4.0"><tt>b0.3.0...b0.4.0</tt></a></p>
 
