@@ -5,6 +5,6 @@
 	},
 	"git": {
 		"version": "935ae05",
-		"notes": "Pk11 - Allow bypassing timeout error\r\n\r\nIf you need to set a proxy for example you may need to get to settings even though the downloads are currently timing out, freezing you at an error is unhelpful"
+		"notes": "Pk11 - Allow bypassing timeout error\n\nIf you need to set a proxy for example you may need to get to settings even though the downloads are currently timing out, freezing you at an error is unhelpful"
 	}
 }
