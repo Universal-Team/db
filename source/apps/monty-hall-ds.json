@@ -3,6 +3,7 @@
 	"title": "Monty Hall DS",
 	"systems": ["DS"],
 	"categories": ["game"],
+	"installed_files": ["%NDS%/MontyHallDS.nds"],
 	"archive": {
 		"MontyHallDS.zip": {
 			"MontyHallDS.nds": [

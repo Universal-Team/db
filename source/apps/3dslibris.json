@@ -7,6 +7,8 @@
 	"categories": [
 		"app"
 	],
+	"unique_ids": [251163],
+	"installed_files": ["%3DSX%/3dslibris.3dsx"],
 	"icon": "https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/icon-32x32.png",
 	"image": "https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/banner.png",
 	"scripts": {

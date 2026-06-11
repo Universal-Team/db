@@ -8,6 +8,7 @@
 	"categories": [
 		"utility"
 	],
+	"unique_ids": [63971],
 	"icon": "https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/icon.png",
 	"image": "https://raw.githubusercontent.com/SprtnDio/NoteRoom/refs/heads/main/banner.png",
 	"long_description": "NoteRoom is a real-time online drawing and text Chatroom messenger for the Nintendo 2/3DS, inspired by a well known chatroom. Connect globally across themed, dynamic lobbies, share hand-drawn doodles, and view live user counts."

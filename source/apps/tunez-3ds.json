@@ -3,6 +3,7 @@
 	"title": "Tunez3DS",
 	"systems": ["3DS"],
 	"categories": ["utility"],
+	"unique_ids": [987700],
 	"description": "Homebrew MP3 player for the 3DS with album art and ID3 tag support.",
 	"icon": "https://raw.githubusercontent.com/veylo-3DS/Tunez-3DS/main/icon.png",
 	"image": "https://raw.githubusercontent.com/veylo-3DS/Tunez-3DS/main/banner.png"

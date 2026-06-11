@@ -8,6 +8,7 @@
 	"categories": [
 		"utility"
 	],
+	"unique_ids": [34952],
 	"icon": "https://raw.githubusercontent.com/dimaguy/3ds-httpd/master/assets/icon.png",
 	"image": "https://raw.githubusercontent.com/dimaguy/3ds-httpd/master/assets/banner.png",
 	"long_description": "# A Web Server for the 3DS\nA flexible httpd server capable of handling sdcard file reads, crypto operations, system requests and raw memory operations.\n\n(Documentation is underway)",
