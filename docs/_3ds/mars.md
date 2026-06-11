@@ -32,8 +32,8 @@ stars: 2
 systems:
 - 3DS
 title: Mars
-unique-ids:
-- 8993
+unique_ids:
+- '0x2321'
 update_notes: '<p dir="auto">Mars3DS, a retro style shooter 3DS homebrew, written
   in C++.</p>
 

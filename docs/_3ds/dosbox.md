@@ -30,6 +30,8 @@ stars: 55
 systems:
 - 3DS
 title: DOSBox
+unique_ids:
+- '0xD0486'
 update_notes: '<h2 dir="auto">Changes</h2>
 
   <ul dir="auto">

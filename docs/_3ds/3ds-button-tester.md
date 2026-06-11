@@ -31,6 +31,8 @@ stars: 0
 systems:
 - 3DS
 title: 3DS Button Tester
+unique_ids:
+- '0xFF3FF'
 update_notes: <p dir="auto">this is the first release. (I know the 3dsx and cia have
   different names)</p>
 updated: '2024-09-13T22:43:20Z'

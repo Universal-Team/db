@@ -30,6 +30,8 @@ stars: 18
 systems:
 - 3DS
 title: 3DS-FileBrowser
+unique_ids:
+- '0x8889'
 update_notes: '<p dir="auto">First release, see readme.</p>
 
   <p dir="auto"><strong>Full Changelog</strong>: <a href="https://github.com/ZIXT233/3DS-FileBrowser/commits/v1.0.0">https://github.com/ZIXT233/3DS-FileBrowser/commits/v1.0.0</a></p>'

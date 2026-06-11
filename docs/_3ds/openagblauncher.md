@@ -18,6 +18,8 @@ stars: 0
 systems:
 - 3DS
 title: OpenAGBLauncher
+unique_ids:
+- '0xA9002'
 update_notes: '<p>First of all a HUGE thank you to <a href="https://gbatemp.net/members/nutez.439371/"
   rel="nofollow">Nutez</a>, without whom I probably wouldn''t even have been able
   to compile <a href="https://github.com/Ordim3n/That-Shortcut-Thingy">That-Shortcut-Thingy</a>.

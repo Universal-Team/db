@@ -39,6 +39,8 @@ stars: 2
 systems:
 - 3DS
 title: 3DiceRoller
+unique_ids:
+- '0x9372'
 update_notes: '<ul dir="auto">
 
   <li>Fixed minor sprite issue</li>

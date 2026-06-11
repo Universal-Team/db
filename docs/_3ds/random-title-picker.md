@@ -30,6 +30,8 @@ stars: 3
 systems:
 - 3DS
 title: Random Title Picker
+unique_ids:
+- '0xF0FF3'
 update_notes: '<p dir="auto">First published build,</p>
 
   <p dir="auto">Supports random title picking from all games/demos installed to the

@@ -53,6 +53,8 @@ stars: 16
 systems:
 - 3DS
 title: 3ds-httpd
+unique_ids:
+- '0x8888'
 update_notes: '<h2 dir="auto">Commits</h2>
 
   <ul dir="auto">

@@ -34,6 +34,8 @@ stars: 1
 systems:
 - 3DS
 title: 3DS-FBGE Installer
+unique_ids:
+- '0xFB6E0'
 update_notes: '<p dir="auto">The 3ds-fbge program (short for 3ds-FrameBufferGraphicalEnvironnement)
   is a custom desktop/GUI meant to be used with the 3DS running Linux. This app will
   install and setup everything needed for the program to work and will give details

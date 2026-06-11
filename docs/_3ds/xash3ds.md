@@ -49,6 +49,8 @@ stars: 172
 systems:
 - 3DS
 title: Xash3DS
+unique_ids:
+- '0xFF128'
 update_notes: '<h1 dir="auto">Installation (Full Game):</h1>
 
   <ol dir="auto">

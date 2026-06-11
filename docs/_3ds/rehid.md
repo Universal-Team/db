@@ -30,6 +30,8 @@ stars: 145
 systems:
 - 3DS
 title: rehid
+unique_ids:
+- '0xDF10'
 update_notes: '<p dir="auto">This is the sixth public release of rehid.</p>
 
   <p dir="auto"><strong>E: A hotfix has been made which fixes Zl/ZR behaviour on n3ds.

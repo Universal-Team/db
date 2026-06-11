@@ -29,7 +29,7 @@ nightly:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 2987540
+      size: 2989288
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
@@ -38,11 +38,19 @@ nightly:
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: <p dir="auto">Pk11 - lower_case -&gt; toLowerCase</p>
-  update_notes_md: Pk11 - lower_case -> toLowerCase
-  updated: '2026-06-10T20:41:13Z'
+  update_notes: '<p dir="auto">Pk11 - Allow bypassing timeout error</p>
+
+    <p dir="auto">If you need to set a proxy for example you may need to get to settings
+    even though the downloads are currently timing out, freezing you at an error is
+    unhelpful</p>'
+  update_notes_md: 'Pk11 - Allow bypassing timeout error
+
+
+    If you need to set a proxy for example you may need to get to settings even though
+    the downloads are currently timing out, freezing you at an error is unhelpful'
+  updated: '2026-06-11T02:49:31Z'
   version: git
-  version_title: Continuous Build - d578916
+  version_title: Continuous Build - 935ae05
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
