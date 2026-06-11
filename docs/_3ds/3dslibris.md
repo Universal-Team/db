@@ -10,29 +10,29 @@ description: An ebook and manga reader for Nintendo 3DS
 download_page: https://github.com/RigleGit/3dslibris/releases
 downloads:
   3dslibris-debug.3dsx:
-    size: 14393392
+    size: 14398476
     size_str: 13 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.6/3dslibris-debug.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.8.0/3dslibris-debug.3dsx
   3dslibris-debug.cia:
-    size: 13140928
+    size: 13145024
     size_str: 12 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.6/3dslibris-debug.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.8.0/3dslibris-debug.cia
   3dslibris-sdmc.zip:
     size: 5020749
     size_str: 4 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.6/3dslibris-sdmc.zip
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.8.0/3dslibris-sdmc.zip
   3dslibris-source.tar.gz:
-    size: 66964205
+    size: 66974464
     size_str: 63 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.6/3dslibris-source.tar.gz
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.8.0/3dslibris-source.tar.gz
   3dslibris.3dsx:
-    size: 14520676
+    size: 14527628
     size_str: 13 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.6/3dslibris.3dsx
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.8.0/3dslibris.3dsx
   3dslibris.cia:
-    size: 13276096
+    size: 13280192
     size_str: 12 MiB
-    url: https://github.com/RigleGit/3dslibris/releases/download/v2.7.6/3dslibris.cia
+    url: https://github.com/RigleGit/3dslibris/releases/download/v2.8.0/3dslibris.cia
 github: RigleGit/3dslibris
 icon: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/icon-32x32.png
 image: https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/banner.png
@@ -56,23 +56,44 @@ systems:
 title: 3dslibris
 unique_ids:
 - '0x3D51B'
-update_notes: '<h2 dir="auto">3dslibris 2.7.6</h2>
+update_notes: '<h2 dir="auto">3dslibris 2.8.0</h2>
 
-  <p dir="auto">Small fixes and a new setting to reopen the last book on startup.</p>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/b20a5a5c-1a6f-4581-aae0-cdbb015a9111"><img
+  width="600" alt="imagen" src="https://github.com/user-attachments/assets/b20a5a5c-1a6f-4581-aae0-cdbb015a9111"
+  style="max-width: 100%;"></a>
 
-  <p dir="auto"><strong>As I told a couple of patches ago, I''m planning to slow down
-  the release cadence</strong>, so expect bugfixes or small features for a while :)</p>
+  <p dir="auto">True landscape reading, safer GIF decoding, reorganized reading controls,
+  and fixed-layout viewport corrections.</p>
 
   <h3 dir="auto">New Features</h3>
 
   <ul dir="auto">
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4604389468"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/140"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/140/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/140">#140</a>: added a global
-  <strong>reopen last book</strong> setting so startup can either open the last-read
-  book automatically or stay in the library.</li>
+  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4377615718"
+  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/92"
+  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/92/hovercard"
+  href="https://github.com/RigleGit/3dslibris/issues/92">#92</a> Added true horizontal
+  reading mode for reflowable books, PDF, and CBZ, with orientation-specific rendering
+  across both screens.</li>
+
+  <li>Split <strong>reading orientation</strong> (Horizontal/Vertical) from <strong>handedness</strong>
+  (Left-handed/Right-handed), with both settings persisted independently.</li>
+
+  </ul>
+
+  <h3 dir="auto">Improvements</h3>
+
+  <ul dir="auto">
+
+  <li>Moved reading orientation and handedness to the second settings page in both
+  global and per-book settings. PDF/CBZ reading direction is available there as a
+  separate option.</li>
+
+  <li>Updated reflowable pagination, text wrapping, inline images, progress information,
+  rules, links, and touch zones to use the real geometry of each landscape screen.</li>
+
+  <li>Updated PDF/CBZ decoding, preview caches, workers, and rendering to follow the
+  active orientation dimensions.</li>
 
   </ul>
 
@@ -80,25 +101,19 @@ update_notes: '<h2 dir="auto">3dslibris 2.7.6</h2>
 
   <ul dir="auto">
 
-  <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4604463415"
-  data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/141"
-  data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/141/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/141">#141</a>: fixed EPUB <code
-  class="notranslate">text-align: right</code> and <code class="notranslate">text-align:
-  center</code> rendering when publisher CSS block margins also move the line start.</li>
-
   <li><a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4604526454"
   data-permission-text="Title is private" data-url="https://github.com/RigleGit/3dslibris/issues/142"
   data-hovercard-type="issue" data-hovercard-url="/RigleGit/3dslibris/issues/142/hovercard"
-  href="https://github.com/RigleGit/3dslibris/issues/142">#142</a>: enabled EPUB inline
-  GIF decoding and fixed centered/right-aligned EPUB ornaments when publisher block
-  margins shift the line start or the ornament is the only paragraph content.</li>
+  href="https://github.com/RigleGit/3dslibris/issues/142">#142</a>: fixed GIF pages
+  and EPUB images freezing or crashing on 3DS by moving GIF decoder state off the
+  thread stack and decoding the first frame safely.</li>
 
   </ul>
 
   <h2 dir="auto">❤️ Community Shoutouts</h2>
 
-  <p dir="auto">Thanks to everyone who keeps testing early builds and reporting bugs!</p>
+  <p dir="auto">Thanks to everyone who tested the landscape builds, shared screenshots
+  and logs, and reported the GIF crash on hardware!</p>
 
   <ul dir="auto">
 
@@ -128,7 +143,7 @@ update_notes: '<h2 dir="auto">3dslibris 2.7.6</h2>
   <li><code class="notranslate">3dslibris-source.tar.gz</code></li>
 
   </ul>'
-updated: '2026-06-09T19:05:08Z'
-version: v2.7.6
-version_title: v2.7.6
+updated: '2026-06-11T17:32:48Z'
+version: v2.8.0
+version_title: v2.8.0
 ---
