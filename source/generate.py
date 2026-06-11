@@ -1015,7 +1015,7 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 			if app["title"] == "Universal-Updater":
 				api = github.session.get("https://api.github.com/repos/Universal-Team/Universal-Updater/releases/tags/git").json()
 				commit = api["name"][-7:]
-				commitNotes = api["body"]
+				commitNotes = api["body"].replace("\r\n", "\n")
 
 				version = {
 					"release": {
