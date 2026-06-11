@@ -4,7 +4,7 @@
 		"notes": "> [!TIP]\n> Did you notice Universal-DB has background images now? These are submitted by users like you! Head over to the [GitHub Discussions][db] to learn more!\n\n[db]: https://github.com/Universal-Team/db/discussions\n\nNot a particularly interesting release this one, but it fixes the crashes some new users were getting when Universal-Updater tried to display its changelog on first load up if Universal-DB hadn't downloaded successfully.\n\nAlso, we recently added a new UniStore to the recommended list. Check out the mods in the Paper Mario Sticker Store! (Thanks @Hunter-Xuman!)\n\n![QR Code for the GitHub Release](https://github.com/user-attachments/assets/2397d2e0-7b82-4a91-8cde-264c94fbdc34)"
 	},
 	"git": {
-		"version": "c5940ab",
-		"notes": "Pk11 - Fix potential memory leak on broken spritesheet"
+		"version": "b5bbe6b",
+		"notes": "Pk11 - Fix crash on pressing A on queue after last item is a prompt message\n\nI randomly managed to crash it installing TWiLight Menu++ lol"
 	}
 }

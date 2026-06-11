@@ -29,7 +29,7 @@ llm_usage: undisclosed
 qr:
   FourthTube.cia: https://db.universal-team.net/assets/images/qr/fourthtube-cia.png
 source: https://github.com/erievs/FourthTube
-stars: 170
+stars: 171
 systems:
 - 3DS
 title: FourthTube
