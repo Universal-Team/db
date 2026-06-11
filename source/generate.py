@@ -1013,14 +1013,18 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 		else:
 			# Create Universal-Updater version.json
 			if app["title"] == "Universal-Updater":
+				api = github.session.get("https://api.github.com/repos/Universal-Team/Universal-Updater/releases/tags/git").json()
+				commit = api["name"][-7:]
+				commitNotes = api["body"]
+
 				version = {
 					"release": {
 						"version": app["version"],
 						"notes": app["update_notes_md"]
 					},
 					"git": {
-						"version": app["nightly"]["version_title"][-7:],
-						"notes": app["nightly"]["update_notes_md"]
+						"version": commit,
+						"notes": commitNotes
 					}
 				}
 
