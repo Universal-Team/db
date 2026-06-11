@@ -409,7 +409,7 @@ def handle_bitbucket_app(app: Dict[str, Any]):
 			if "updated" not in app:
 				commit = requests.get(fileAPI["commit"]["links"]["self"]["href"]).json()
 				app["updated"] = commit["date"]
-	
+
 	return app
 
 
@@ -796,7 +796,7 @@ def process_app_entry(app: Dict[str, Any], fp: str, icon_idx: int, github_api: G
 				if "qr" not in app["nightly"]:
 					app["nightly"]["qr"] = {}
 				app["nightly"]["qr"][item] = f"https://db.universal-team.net/assets/images/qr/git/{format_to_web_name(item)}.png"
-	
+
 	return app, iconIndex
 
 
@@ -820,7 +820,7 @@ class GitHubAPI:
 		r = resp.json()
 		# Sometimes a display name is not set so we fallback to login name
 		return r['name'] or r['login']
-	
+
 	def format_markdown(self, content: str, *, mode: str = "markdown", context: Optional[str]) -> str:
 		data = {"text": content, "mode": mode}
 		if context:
@@ -1010,6 +1010,22 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 					retroarchUniStore()
 
 			unistore.append(entry)
+		else:
+			# Create Universal-Updater version.json
+			if app["title"] == "Universal-Updater":
+				version = {
+					"release": {
+						"version": app["version"],
+						"notes": app["update_notes_md"]
+					},
+					"git": {
+						"version": app["nightly"]["version_title"][-7:],
+						"notes": app["nightly"]["update_notes_md"]
+					}
+				}
+
+				with open(DOCS_DIR.joinpath("unistore", "version.json"), "w") as f:
+					json.dump(version, f, indent="\t")
 
 		click.echo("=" * 80)
 
@@ -1053,7 +1069,7 @@ def check_for_docs_dir(path: str) -> pathlib.Path:
 	if not exists:
 		docs_path = click.prompt(text="Unable to find the docs directory, please type a directory in.\nControl-C to cancel this!",
 								 type=click.Path(exists=True, file_okay=False))
-	
+
 	return docs_path
 
 
