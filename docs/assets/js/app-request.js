@@ -30,14 +30,14 @@ let appSchema = {
 	// Required
 	systems: {label: "Native Systems", type: "multiselect", required: true, values: ["3DS", "DS"], labels: ["3DS", "DS"]},
 	categories: {label: "Categories", type: "multiselect", required: true, values: ["game", "emulator", "exploit", "app", "utility", "save-tool", "firm"], labels: ["Game", "Emulator", "Exploit", "App", "Utility", "Save Tool", "FIRM"]},
-	llm_usage: {label: "LLM Usage", help: "See the LLM Policy (link in the nav bar) for details and advice.", type: "radio", required: true, values: ["none", "minor", "major", "undisclosed"], labels: ["None", "Minor", "Major", "Undisclosed"], default: "undisclosed"},
+	llm_usage: {label: "LLM Usage", help: "See the LLM Policy (link in the nav bar) for details and advice.", type: "radio", required: true, values: ["none", "minor", "major", "undisclosed"], labels: ["None", "Minor", "Major", "Undisclosed"], default: "undisclosed", disableAutofill: true},
 	icon: {label: "Icon", help: "Preferably 48x48 or 32x32. The icon is not technically necessary, avatar will be used as a fallback, but I didn't want people to skip it. Copy the avatar URL if you don't have an icon.", type: "image", required: true},
 	image: {label: "Banner Image", help: "Preferably a 3DS banner (256x128). Displayed on the Universal-DB website.", type: "image"},
 	// Common
 	unique_ids: {
 		label: "CIA Unique ID(s)",
 		help: 'The "UniqueId" in an RSF file. If you do not have a 3DS CIA build then skip this. Comma separated for multiple.',
-		type: "array", 
+		type: "array",
 		validate: str => {
 			let items = str.split(",").map(r => r.trim());
 			let output = [];
@@ -182,7 +182,7 @@ async function fetchInfo() {
 
 		if(git.provider == "gitlab")
 			appSchema.avatar.default = GITLAB_BASE + appSchema.avatar.default;
-	
+
 		if(git.provider == "github") {
 			res = await fetchApi(apiMappings[git.provider].userApi + git.repo.split("/")[0], apiMappings[git.provider].user);
 			if(!res)
@@ -205,7 +205,7 @@ function createInput(item, key) {
 			input.maxLength = item.maxLength;
 		input.addEventListener("change", event => {
 			clearError();
-			
+
 			let id = event.target.id;
 			if(appSchema[id].validate) {
 				let res = item.validate(event.target.value);
@@ -284,7 +284,7 @@ function createInput(item, key) {
 			input.type = isRadio ? "radio" : "checkbox";
 			input.required = item.required;
 
-			if(item.default == option) {
+			if(item.default == option && !item.disableAutofill) {
 				input.checked = true;
 			}
 
@@ -326,7 +326,7 @@ function fillInfo() {
 	for(let key in appSchema) {
 		let item = appSchema[key];
 
-		appInfo[key] = item.default ? item.default : new types[item.type];
+		appInfo[key] = (item.default && !item.disableAutofill) ? item.default : new types[item.type];
 
 		if(item.hidden)
 			continue;
@@ -352,8 +352,8 @@ function fillInfo() {
 		}
 
 		createInput(item, key).forEach(r => inputGroup.appendChild(r));
-		
-		if (appSchema[key].default) {
+
+		if (appSchema[key].default && !appSchema[key].disableAutofill) {
 			let reset = document.createElement("input");
 			reset.classList.add("btn", "btn-outline-secondary");
 			reset.type = "button";
@@ -373,10 +373,10 @@ function fillInfo() {
 				appInfo[id] = appSchema[id].default;
 				event.target.disabled = true;
 			});
-			
+
 			inputGroup.appendChild(reset);
 		}
-		
+
 		// div.appendChild(document.createElement("br"));
 		div.append(inputGroup);
 	}
