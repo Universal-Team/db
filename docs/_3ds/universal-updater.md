@@ -29,7 +29,7 @@ nightly:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 2990256
+      size: 2989636
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
@@ -38,18 +38,13 @@ nightly:
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: '<p dir="auto">Pk11 - Fix crash on pressing A on queue after last
-    item is a prompt message</p>
-
-    <p dir="auto">I randomly managed to crash it installing TWiLight Menu++ lol</p>'
-  update_notes_md: 'Pk11 - Fix crash on pressing A on queue after last item is a prompt
-    message
-
-
-    I randomly managed to crash it installing TWiLight Menu++ lol'
-  updated: '2026-06-11T20:02:34Z'
+  update_notes: <p dir="auto">Pk11 - Remove "update available" icon when clearing
+    installed status on an app</p>
+  update_notes_md: Pk11 - Remove "update available" icon when clearing installed status
+    on an app
+  updated: '2026-06-12T00:59:41Z'
   version: git
-  version_title: Continuous Build - b5bbe6b
+  version_title: Continuous Build - bea455f
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
