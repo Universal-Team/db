@@ -29,7 +29,7 @@ llm_usage: undisclosed
 qr:
   CPyMO.for.Nintendo.3DS.cia: https://db.universal-team.net/assets/images/qr/cpymo-for-nintendo-3ds-cia.png
 source: https://github.com/Strrationalism/CPyMO
-stars: 145
+stars: 146
 systems:
 - 3DS
 title: CPyMO
