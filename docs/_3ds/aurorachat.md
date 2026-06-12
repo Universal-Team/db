@@ -28,7 +28,7 @@ llm_usage: undisclosed
 qr:
   aurorachat.cia: https://db.universal-team.net/assets/images/qr/aurorachat-cia.png
 source: https://github.com/Unitendo/aurorachat
-stars: 17
+stars: 18
 systems:
 - 3DS
 title: aurorachat
