@@ -5,6 +5,6 @@
 	},
 	"git": {
 		"version": "4254cc8",
-		"notes": "Pk11 - Load UniStore list in separate thread\n\nInspired by ddcc9ad, it makes the menu feel a lot more responsive since you can still back out or enter the download section while its loading the list"
+		"notes": "ATTENTION: The next release will be later this week! Please report any issues, thanks! :D\n\n--------\n\nPk11 - Load UniStore list in separate thread\n\nInspired by ddcc9ad, it makes the menu feel a lot more responsive since you can still back out or enter the download section while its loading the list"
 	}
 }

@@ -29,7 +29,7 @@ nightly:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 2989700
+      size: 2990372
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
@@ -38,20 +38,33 @@ nightly:
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: '<p dir="auto">Pk11 - Display as "Universal-Updater" on the HOME Menu</p>
+  update_notes: '<p dir="auto">ATTENTION: The next release will be later this week!
+    Please report any issues, thanks! :D</p>
 
-    <p dir="auto">HBL uses the ''long title'' as a description field, but the HOME
-    Menu treats it as the primary title. APP_DESCRIPTION is still automatically applied
-    to 3DSX builds, but now CIA builds simply double up the short title</p>'
-  update_notes_md: 'Pk11 - Display as "Universal-Updater" on the HOME Menu
+    <hr>
+
+    <p dir="auto">Pk11 - Load UniStore list in separate thread</p>
+
+    <p dir="auto">Inspired by <a class="commit-link" data-hovercard-type="commit"
+    data-hovercard-url="https://github.com/Universal-Team/Universal-Updater/commit/ddcc9ad04bb155c7be3c8b9c0830c40effc5f8e3/hovercard"
+    href="https://github.com/Universal-Team/Universal-Updater/commit/ddcc9ad04bb155c7be3c8b9c0830c40effc5f8e3"><tt>ddcc9ad</tt></a>,
+    it makes the menu feel a lot more responsive since you can still back out or enter
+    the download section while its loading the list</p>'
+  update_notes_md: 'ATTENTION: The next release will be later this week! Please report
+    any issues, thanks! :D
 
 
-    HBL uses the ''long title'' as a description field, but the HOME Menu treats it
-    as the primary title. APP_DESCRIPTION is still automatically applied to 3DSX builds,
-    but now CIA builds simply double up the short title'
-  updated: '2026-06-13T01:36:15Z'
+    --------
+
+
+    Pk11 - Load UniStore list in separate thread
+
+
+    Inspired by ddcc9ad, it makes the menu feel a lot more responsive since you can
+    still back out or enter the download section while its loading the list'
+  updated: '2026-06-13T03:48:16Z'
   version: git
-  version_title: Continuous Build - d4e671f
+  version_title: Continuous Build - 4254cc8
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:

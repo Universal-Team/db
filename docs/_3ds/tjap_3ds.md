@@ -61,6 +61,8 @@ prerelease:
 
     <li>オプション「曲のはやさ」を1倍以外にするとJPOSSCROLLの終了タイミングがズレる不具合の修正</li>
 
+    <li>編集可能な譜面の最大容量を64KBに増やしました。</li>
+
     <li>その他一部動作の高速化をしました。</li>
 
     </ul>
@@ -91,6 +93,8 @@ prerelease:
     <li>Fixed a bug that caused the end timing of JPOSSCROLL to shift if the option
     "song so fastness" was not 1x.</li>
 
+    <li>The maximum size of editable charts has been increased to 64KB.</li>
+
     <li>We have also sped up some other operations.</li>
 
     </ul>'
@@ -113,6 +117,8 @@ prerelease:
     記録を消したい場合はSELECTを押しながらXボタンを押して下さい。
 
     - オプション「曲のはやさ」を1倍以外にするとJPOSSCROLLの終了タイミングがズレる不具合の修正
+
+    - 編集可能な譜面の最大容量を64KBに増やしました。
 
     - その他一部動作の高速化をしました。
 
@@ -137,6 +143,8 @@ prerelease:
 
     - Fixed a bug that caused the end timing of JPOSSCROLL to shift if the option
     "song so fastness" was not 1x.
+
+    - The maximum size of editable charts has been increased to 64KB.
 
     - We have also sped up some other operations.'
   updated: '2026-06-02T03:51:14Z'
