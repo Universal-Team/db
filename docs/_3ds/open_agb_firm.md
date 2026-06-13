@@ -28,7 +28,7 @@ nightly:
     open_agb_firm_nightly.zip:
       url: https://nightly.link/profi200/open_agb_firm/workflows/c-cpp/master/open_agb_firm_nightly.zip
 source: https://github.com/profi200/open_agb_firm
-stars: 1241
+stars: 1242
 systems:
 - 3DS
 title: open_agb_firm

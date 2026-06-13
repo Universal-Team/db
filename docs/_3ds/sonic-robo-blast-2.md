@@ -24,7 +24,7 @@ image_length: 7028
 layout: app
 llm_usage: none
 source: https://github.com/derrekr/srb2_3ds
-stars: 55
+stars: 54
 systems:
 - 3DS
 title: Sonic Robo Blast 2

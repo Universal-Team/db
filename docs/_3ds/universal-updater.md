@@ -38,18 +38,20 @@ nightly:
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: '<p dir="auto">Pk11 - Revert to direct GitHub API checks for git builds</p>
+  update_notes: '<p dir="auto">Pk11 - Display as "Universal-Updater" on the HOME Menu</p>
 
-    <p dir="auto">Release builds still use our own site, but I realized Universal-DB''s
-    delay would get you stuck in a loop if you update freshly after a commit</p>'
-  update_notes_md: 'Pk11 - Revert to direct GitHub API checks for git builds
+    <p dir="auto">HBL uses the ''long title'' as a description field, but the HOME
+    Menu treats it as the primary title. APP_DESCRIPTION is still automatically applied
+    to 3DSX builds, but now CIA builds simply double up the short title</p>'
+  update_notes_md: 'Pk11 - Display as "Universal-Updater" on the HOME Menu
 
 
-    Release builds still use our own site, but I realized Universal-DB''s delay would
-    get you stuck in a loop if you update freshly after a commit'
-  updated: '2026-06-12T03:15:23Z'
+    HBL uses the ''long title'' as a description field, but the HOME Menu treats it
+    as the primary title. APP_DESCRIPTION is still automatically applied to 3DSX builds,
+    but now CIA builds simply double up the short title'
+  updated: '2026-06-13T01:36:15Z'
   version: git
-  version_title: Continuous Build - f418922
+  version_title: Continuous Build - d4e671f
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
