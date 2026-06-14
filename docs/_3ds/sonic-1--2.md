@@ -78,7 +78,7 @@ script_message: 'Note: You will need "Data.rsdk" from
 
   "/3ds/Sonic1" / "/3ds/Sonic2" to play the game.'
 source: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation
-stars: 52
+stars: 53
 systems:
 - 3DS
 title: Sonic 1 / 2
