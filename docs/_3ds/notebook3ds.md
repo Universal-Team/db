@@ -33,7 +33,7 @@ screenshots:
 - description: Guide
   url: https://db.universal-team.net/assets/images/screenshots/notebook3ds/guide.png
 source: https://github.com/Milk-Cool/Notebook3DS
-stars: 3
+stars: 4
 systems:
 - 3DS
 title: Notebook3DS
