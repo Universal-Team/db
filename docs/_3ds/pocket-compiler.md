@@ -11,10 +11,10 @@ description: An almost fully featured HTML/JS/CSS compiler application made for 
   consoles.
 download_page: https://github.com/PlanetDogeCodes/Pocket-Compiler/releases
 downloads:
-  PocketCompiler.v0-33-5.3dsx:
-    size: 662092
-    size_str: 646 KiB
-    url: https://github.com/PlanetDogeCodes/Pocket-Compiler/releases/download/v0.33.5/PocketCompiler.v0-33-5.3dsx
+  PocketCompiler.v0-35.3dsx:
+    size: 662700
+    size_str: 647 KiB
+    url: https://github.com/PlanetDogeCodes/Pocket-Compiler/releases/download/v0.35/PocketCompiler.v0-35.3dsx
 github: PlanetDogeCodes/Pocket-Compiler
 icon: https://db.universal-team.net/assets/images/icons/pocket-compiler.png
 image: https://db.universal-team.net/assets/images/images/pocket-compiler.png
@@ -35,13 +35,22 @@ update_notes: '<p dir="auto">The compiled, install-and-play .3dsx file of the fi
 
   <p dir="auto">What Was Changed This Update:</p>
 
-  <p dir="auto">Hopefully fixed crashing issues<br>
+  <ul dir="auto">
 
-  Note: Crashing is a recurring issue. If your 3DS crashes while using PocketCompiler,
-  please open an issue and describe what you were doing at the time of the crash.</p>'
-updated: '2026-06-14T22:25:45Z'
-version: v0.33.5
-version_title: Compiled 3DSX (Release v0.33.5)
+  <li>Slight UI changes</li>
+
+  <li>Bordered rendering for text &amp; iframe</li>
+
+  <li>Memory usage fixes</li>
+
+  </ul>
+
+  <p dir="auto">Note: Crashing is a recurring issue. If your 3DS crashes while using
+  PocketCompiler, please open an issue and describe what you were doing at the time
+  of the crash.</p>'
+updated: '2026-06-15T20:46:39Z'
+version: v0.35
+version_title: Compiled 3DSX (Release v0.35)
 wiki: https://github.com/PlanetDogeCodes/Pocket-Compiler/blob/main/README.md
 ---
 An almost fully featured HTML/JS/CSS compiler application made for 3DS/n3DS consoles. Includes iframes, limited WebGL support, limited Canvas support, Audio Support, and a clean UI!

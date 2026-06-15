@@ -10,13 +10,13 @@ description: An easy to use app for installing and updating 3DS homebrew
 download_page: https://github.com/Universal-Team/Universal-Updater/releases
 downloads:
   Universal-Updater.3dsx:
-    size: 3196984
-    size_str: 3 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.3.4/Universal-Updater.3dsx
-  Universal-Updater.cia:
-    size: 2667456
+    size: 3002740
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.3.4/Universal-Updater.cia
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.4.0/Universal-Updater.3dsx
+  Universal-Updater.cia:
+    size: 2479040
+    size_str: 2 MiB
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.4.0/Universal-Updater.cia
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/resources/2d-banner.png
@@ -25,41 +25,6 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_usage: none
-nightly:
-  download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
-  downloads:
-    Universal-Updater.3dsx:
-      size: 3002764
-      size_str: 2 MiB
-      url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
-    Universal-Updater.cia:
-      size: 2479040
-      size_str: 2 MiB
-      url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
-  qr:
-    Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: '<p dir="auto">Pk11 - Display a spinner icon when processing is happening
-    in the background</p>
-
-    <ul dir="auto">
-
-    <li>While loading the UniStore list - While refreshing app installed status after
-    changing a directory setting - While waiting for the user to fix their date and
-    time - While waiting for a Wi-Fi connection The spinner is used specifically when
-    the user has control, but there is something else going on in the background too</li>
-
-    </ul>'
-  update_notes_md: 'Pk11 - Display a spinner icon when processing is happening in
-    the background
-
-
-    - While loading the UniStore list - While refreshing app installed status after
-    changing a directory setting - While waiting for the user to fix their date and
-    time - While waiting for a Wi-Fi connection The spinner is used specifically when
-    the user has control, but there is something else going on in the background too'
-  updated: '2026-06-15T16:08:25Z'
-  version: git
-  version_title: Continuous Build - 2d3648a
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
@@ -107,37 +72,123 @@ title: Universal-Updater
 unique_ids:
 - '0x43917'
 unistore_exclude: true
-update_notes: '<div class="markdown-alert markdown-alert-tip" dir="auto"><p class="markdown-alert-title"
-  dir="auto"><svg data-component="Octicon" class="octicon octicon-light-bulb mr-2"
-  viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path
-  d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621
-  1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201
-  7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328
-  3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751
-  0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304
-  0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6
-  15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg>Tip</p><p
-  dir="auto">Did you notice Universal-DB has background images now? These are submitted
-  by users like you! Head over to the <a href="https://github.com/Universal-Team/db/discussions">GitHub
-  Discussions</a> to learn more!</p>
+update_notes: '<p dir="auto">Proxy users rejoice! One of the oldest issues on the
+  tracker that no one had had the motivation to test properly, proxies should now
+  be fully supported. Universal-Updater also now checks for what you have installed
+  on your system and shows it with a little icon by the app icon. This lets you filter
+  to easily find apps you already have installed or if you''ve got a lot on your system
+  you can now flip the filters and instead show only new apps!</p>
 
-  </div>
+  <h3 dir="auto">Features</h3>
 
-  <p dir="auto">Not a particularly interesting release this one, but it fixes the
-  crashes some new users were getting when Universal-Updater tried to display its
-  changelog on first load up if Universal-DB hadn''t downloaded successfully.</p>
+  <ul dir="auto">
 
-  <p dir="auto">Also, we recently added a new UniStore to the recommended list. Check
-  out the mods in the Paper Mario Sticker Store! (Thanks <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/Hunter-Xuman/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Hunter-Xuman">@Hunter-Xuman</a>!)</p>
+  <li>Universal-Updater now tracks installed apps (displayed by an SD card icon) and
+  this can be used for filtering! (Thanks <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/TrianguloY/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/TrianguloY">@TrianguloY</a>
+  for the icon!)
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/2397d2e0-7b82-4a91-8cde-264c94fbdc34"><img
-  src="https://github.com/user-attachments/assets/2397d2e0-7b82-4a91-8cde-264c94fbdc34"
-  alt="QR Code for the GitHub Release" style="max-width: 100%;"></a></p>'
-updated: '2026-02-03T12:56:46Z'
-version: v3.3.4
-version_title: Crashing be gone
+  <ul dir="auto">
+
+  <li>NOTE: The tracking is done by title ID and file path so conflicting apps will
+  be displayed even if not installed (ex. HBL forks)</li>
+
+  </ul>
+
+  </li>
+
+  <li>Added a "NOT" filtering option to invert the filter, most useful for filtering
+  to only apps not installed</li>
+
+  <li>The search menu now includes all app names in the word completion dictionary!</li>
+
+  <li>Proxies are now properly supported! (Thanks <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/lxfly2000/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/lxfly2000">@lxfly2000</a>)
+
+  <ul dir="auto">
+
+  <li>By default the system proxy will be used as HTTP, but other types of proxies
+  supported by curl can be set in settings</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
+
+  <h3 dir="auto">Changes</h3>
+
+  <ul dir="auto">
+
+  <li>The SSL CA certificate bundle will now be loaded from the SD card instead of
+  ROMFS
+
+  <ul dir="auto">
+
+  <li>Uses the location from Luma3DS (<code class="notranslate">sdmc:/config/ssl/cacert.pem</code>)</li>
+
+  <li>Other homebrew desiring SSL peer verification are encouraged to use that location
+  too, Universal-Updater will ensure it exists and is valid on load
+
+  <ul dir="auto">
+
+  <li>NOTE: Updating the CA certificate bundle on console in this way is technically
+  a security hole as you''re downloading your source of trust from an unverified host...
+  that said, its 3DS homebrew, its not that big a deal; but get the file manually
+  from Luma3DS or curl if worried</li>
+
+  </ul>
+
+  </li>
+
+  <li>Users are now presented with the option to disable peer verification if they
+  really don''t want to fix their system date or update their certificate bundle</li>
+
+  </ul>
+
+  </li>
+
+  <li>Universal-Updater now waits for a Wi-Fi connection on startup, previously it
+  was possible to have the initial UniStore download fail if your 3DS was still trying
+  to establish the connection</li>
+
+  <li>The "select UniStore" menu now loads the UniStore list in a separate thread
+  making for a more responsive menu</li>
+
+  <li>A spinner is now shown when Universal-Updater is doing something in the background
+  but user input is possible
+
+  <ul dir="auto">
+
+  <li>This is intended to draw attention to the fact that something can happen if
+  you wait (or perform an outside action like syncing the time) and that skipping
+  is not your only option</li>
+
+  </ul>
+
+  </li>
+
+  <li>Updated for latest libctru</li>
+
+  </ul>
+
+  <h3 dir="auto">Bug fixes</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed the list view cutting off one item when under 4 exist</li>
+
+  <li>Universal-Updater now has the correct app title on the HOME Menu</li>
+
+  <li>The update check (used for most internet sanity checks too) now pulls from Universal-DB
+  instead of the GitHub API, hopefully reducing confusing errors</li>
+
+  </ul>'
+updated: '2026-06-15T20:19:18Z'
+version: v3.4.0
+version_title: Install checking, proxies, and more
 website: https://universal-team.net/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
