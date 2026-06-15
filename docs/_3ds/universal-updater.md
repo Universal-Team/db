@@ -29,20 +29,37 @@ nightly:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 3002576
+      size: 3002764
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
-      size: 2474944
+      size: 2479040
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: <p dir="auto">TWLBot - Automatic translation import</p>
-  update_notes_md: TWLBot - Automatic translation import
-  updated: '2026-06-15T03:45:10Z'
+  update_notes: '<p dir="auto">Pk11 - Display a spinner icon when processing is happening
+    in the background</p>
+
+    <ul dir="auto">
+
+    <li>While loading the UniStore list - While refreshing app installed status after
+    changing a directory setting - While waiting for the user to fix their date and
+    time - While waiting for a Wi-Fi connection The spinner is used specifically when
+    the user has control, but there is something else going on in the background too</li>
+
+    </ul>'
+  update_notes_md: 'Pk11 - Display a spinner icon when processing is happening in
+    the background
+
+
+    - While loading the UniStore list - While refreshing app installed status after
+    changing a directory setting - While waiting for the user to fix their date and
+    time - While waiting for a Wi-Fi connection The spinner is used specifically when
+    the user has control, but there is something else going on in the background too'
+  updated: '2026-06-15T16:08:25Z'
   version: git
-  version_title: Continuous Build - fe88f7d
+  version_title: Continuous Build - 2d3648a
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
