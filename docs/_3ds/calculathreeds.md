@@ -22,7 +22,7 @@ license: mit
 license_name: MIT License
 llm_usage: none
 source: https://github.com/LiquidFenrir/CalculaThreeDS
-stars: 20
+stars: 21
 systems:
 - 3DS
 title: CalculaThreeDS

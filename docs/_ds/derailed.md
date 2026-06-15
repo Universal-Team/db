@@ -24,7 +24,7 @@ llm_usage: undisclosed
 qr:
   derailed.nds: https://db.universal-team.net/assets/images/qr/derailed-nds.png
 source: https://github.com/AzizBgBoss/derailed
-stars: 7
+stars: 8
 systems:
 - DS
 title: Derailed!
