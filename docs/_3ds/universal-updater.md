@@ -29,42 +29,20 @@ nightly:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 2990372
+      size: 3002576
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
-      size: 2462656
+      size: 2474944
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: '<p dir="auto">ATTENTION: The next release will be later this week!
-    Please report any issues, thanks! :D</p>
-
-    <hr>
-
-    <p dir="auto">Pk11 - Load UniStore list in separate thread</p>
-
-    <p dir="auto">Inspired by <a class="commit-link" data-hovercard-type="commit"
-    data-hovercard-url="https://github.com/Universal-Team/Universal-Updater/commit/ddcc9ad04bb155c7be3c8b9c0830c40effc5f8e3/hovercard"
-    href="https://github.com/Universal-Team/Universal-Updater/commit/ddcc9ad04bb155c7be3c8b9c0830c40effc5f8e3"><tt>ddcc9ad</tt></a>,
-    it makes the menu feel a lot more responsive since you can still back out or enter
-    the download section while its loading the list</p>'
-  update_notes_md: 'ATTENTION: The next release will be later this week! Please report
-    any issues, thanks! :D
-
-
-    --------
-
-
-    Pk11 - Load UniStore list in separate thread
-
-
-    Inspired by ddcc9ad, it makes the menu feel a lot more responsive since you can
-    still back out or enter the download section while its loading the list'
-  updated: '2026-06-13T03:48:16Z'
+  update_notes: <p dir="auto">TWLBot - Automatic translation import</p>
+  update_notes_md: TWLBot - Automatic translation import
+  updated: '2026-06-15T03:45:10Z'
   version: git
-  version_title: Continuous Build - 4254cc8
+  version_title: Continuous Build - fe88f7d
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
@@ -105,7 +83,7 @@ screenshots:
 - description: Store selection
   url: https://db.universal-team.net/assets/images/screenshots/universal-updater/store-selection.png
 source: https://github.com/Universal-Team/Universal-Updater
-stars: 1233
+stars: 1232
 systems:
 - 3DS
 title: Universal-Updater
