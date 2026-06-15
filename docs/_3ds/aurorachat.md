@@ -10,13 +10,13 @@ description: ' Real Time Chatting for the 3DS, Wii, Wii U, and Web'
 download_page: https://github.com/Unitendo/aurorachat/releases
 downloads:
   aurorachat.3dsx:
-    size: 4998912
+    size: 5000184
     size_str: 4 MiB
-    url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.0.6/aurorachat.3dsx
+    url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.0.7/aurorachat.3dsx
   aurorachat.cia:
     size: 5542848
     size_str: 5 MiB
-    url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.0.6/aurorachat.cia
+    url: https://github.com/Unitendo/aurorachat/releases/download/v0.6.0.7/aurorachat.cia
 github: Unitendo/aurorachat
 icon: https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/icon.png
 image: https://raw.githubusercontent.com/Unitendo/aurorachat-3ds/main/meta/banner.png
@@ -34,9 +34,9 @@ systems:
 title: aurorachat
 unique_ids:
 - '0xBAFD2'
-update_notes: <p dir="auto">I didn't fix anything, but I addressed everything.</p>
-updated: '2026-06-14T18:10:04Z'
-version: v0.6.0.6
-version_title: 'v0.6.0.6: The Cold Fix'
+update_notes: <p dir="auto">I FIXED EVERYTHING BUT I ADDRESSED NOTHING</p>
+updated: '2026-06-15T05:01:44Z'
+version: v0.6.0.7
+version_title: 'v0.6.0.7: THE BOILING HOT FIX'
 ---
 A safer chatting app for the Nintendo 3DS line of systems.

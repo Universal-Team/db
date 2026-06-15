@@ -4,7 +4,7 @@
 		"notes": "> [!TIP]\n> Did you notice Universal-DB has background images now? These are submitted by users like you! Head over to the [GitHub Discussions][db] to learn more!\n\n[db]: https://github.com/Universal-Team/db/discussions\n\nNot a particularly interesting release this one, but it fixes the crashes some new users were getting when Universal-Updater tried to display its changelog on first load up if Universal-DB hadn't downloaded successfully.\n\nAlso, we recently added a new UniStore to the recommended list. Check out the mods in the Paper Mario Sticker Store! (Thanks @Hunter-Xuman!)\n\n![QR Code for the GitHub Release](https://github.com/user-attachments/assets/2397d2e0-7b82-4a91-8cde-264c94fbdc34)"
 	},
 	"git": {
-		"version": "4254cc8",
-		"notes": "ATTENTION: The next release will be later this week! Please report any issues, thanks! :D\n\n--------\n\nPk11 - Load UniStore list in separate thread\n\nInspired by ddcc9ad, it makes the menu feel a lot more responsive since you can still back out or enter the download section while its loading the list"
+		"version": "fe88f7d",
+		"notes": "TWLBot - Automatic translation import"
 	}
 }
