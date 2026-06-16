@@ -11,10 +11,10 @@ description: An almost fully featured HTML/JS/CSS compiler application made for 
   consoles.
 download_page: https://github.com/PlanetDogeCodes/Pocket-Compiler/releases
 downloads:
-  PocketCompiler.v0-34.3dsx:
-    size: 662700
-    size_str: 647 KiB
-    url: https://github.com/PlanetDogeCodes/Pocket-Compiler/releases/download/v0.34/PocketCompiler.v0-34.3dsx
+  PocketCompiler.v0-36.3dsx:
+    size: 672132
+    size_str: 656 KiB
+    url: https://github.com/PlanetDogeCodes/Pocket-Compiler/releases/download/v0.36/PocketCompiler.v0-36.3dsx
 github: PlanetDogeCodes/Pocket-Compiler
 icon: https://db.universal-team.net/assets/images/icons/pocket-compiler.png
 image: https://db.universal-team.net/assets/images/images/pocket-compiler.png
@@ -29,110 +29,57 @@ systems:
 - 3DS
 title: Pocket-Compiler
 update_notes: '<p dir="auto">The compiled, install-and-play .3dsx file of the first
-  fully featured HTML compiler made for 3DS/n3DS consoles.</p>
+  fully featured HTML compiler made for 3DS/n3DS consoles.<br>
+
+  There was a v0.35, but it did not work as intended so that version has been skipped.</p>
 
   <p dir="auto">CIA files will be added for release 1.0</p>
 
-  <p dir="auto">What Was Changed This Update:</p>
+  <p dir="auto"><strong>Crash / correctness fixes:</strong></p>
 
   <ul dir="auto">
 
-  <li>Slight UI changes</li>
+  <li><code class="notranslate">editor_find</code> and <code class="notranslate">editor_find_prev</code>:
+  <code class="notranslate">start_line</code> was not clamped before use — with a
+  corrupted or uninitialized value it could make <code class="notranslate">editor_get_line</code>
+  walk off the end of the buffer. Now clamped to <code class="notranslate">[0, total-1]</code>.</li>
 
-  <li>Bordered rendering for text &amp; iframe</li>
+  <li><code class="notranslate">editor_replace_at</code>: added <code class="notranslate">col
+  &gt; llen</code> guard so an exact-end-of-line replacement can''t produce a negative
+  memcpy count.</li>
 
-  <li>Memory usage fixes</li>
+  <li><code class="notranslate">we_eval_js</code>: added <code class="notranslate">!g_web_engine.loaded</code>
+  check — without it, a stale non-NULL <code class="notranslate">js_ctx</code> pointer
+  left from a previous <code class="notranslate">we_unload()</code> call could be
+  dereferenced.</li>
 
-  <li>More accurate CSS parsing</li>
+  <li><code class="notranslate">draw_console</code>: <code class="notranslate">i &lt;
+  WJS_LOG_MAX_LINES</code> guard added — a corrupted <code class="notranslate">g_wjs_log_n</code>
+  could have caused a read past the log array bounds.</li>
 
   </ul>
 
-  <markdown-accessiblity-table><table role="table">
+  <p dir="auto"><strong>Compiler warning fixes:</strong></p>
 
-  <thead>
+  <ul dir="auto">
 
-  <tr>
+  <li><code class="notranslate">(down &amp; KEY_X) &amp;&amp; ...</code> — explicit
+  parentheses added (GCC -Wall warning eliminated).</li>
 
-  <th>File</th>
+  <li>Two <code class="notranslate">strcat()</code> calls replaced with <code class="notranslate">strncat()</code>.</li>
 
-  <th>Fixes/Changes</th>
+  <li><code class="notranslate">LAYOUT_ED_H</code> corrected to <code class="notranslate">178.0f</code>
+  (was <code class="notranslate">180.0f</code>) — the 2px mismatch caused the cursor-to-line
+  mapping to select the wrong line near the bottom of the editor panel.</li>
 
-  </tr>
-
-  </thead>
-
-  <tbody>
-
-  <tr>
-
-  <td><code class="notranslate">web_layout.c</code></td>
-
-  <td>Body <code class="notranslate">avail_w</code> bug fixed: was <code class="notranslate">2×margin_left</code>,
-  now <code class="notranslate">margin_left + margin_right</code>.</td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">web_layout.c</code></td>
-
-  <td>Text node <code class="notranslate">lay_w</code> uses full available container
-  width for alignment.</td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">web_render.c</code></td>
-
-  <td>Scale formula <code class="notranslate">size/11.0f</code> → <code class="notranslate">size/30.0f</code>
-  (correct for system font at scale 1.0 ≈ 30px).</td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">web_render.c</code></td>
-
-  <td>TEXT nodes use parent container width for proper text alignment.</td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">web_render.c</code></td>
-
-  <td>Bottom border drawn on document viewport to frame the output area.</td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">web_engine.c</code></td>
-
-  <td><code class="notranslate">css_apply_ua_defaults()</code> called after <code
-  class="notranslate">css_reset()</code>, before parse — so user styles always win.</td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">web_engine.c</code></td>
-
-  <td>RUNNING bar cleaned up; conflicting title bar overlay removed.</td>
-
-  </tr>
-
-  </tbody>
-
-  </table></markdown-accessiblity-table>
+  </ul>
 
   <p dir="auto">Note: Crashing is a recurring issue. If your 3DS crashes while using
   PocketCompiler, please open an issue and describe what you were doing at the time
   of the crash.</p>'
-updated: '2026-06-15T20:46:39Z'
-version: v0.34
-version_title: Compiled 3DSX (Release v0.34)
+updated: '2026-06-16T22:22:45Z'
+version: v0.36
+version_title: Compiled 3DSX (Release v0.36)
 wiki: https://github.com/PlanetDogeCodes/Pocket-Compiler/blob/main/README.md
 ---
 An almost fully featured HTML/JS/CSS compiler application made for 3DS/n3DS consoles. Includes iframes, limited WebGL support, limited Canvas support, Audio Support, and a clean UI!
