@@ -2,6 +2,7 @@
 	"github": "Universal-Team/3DVier",
 	"image": "https://raw.githubusercontent.com/Universal-Team/3DVier/master/3ds/app/banner.png",
 	"icon": "https://raw.githubusercontent.com/Universal-Team/3DVier/master/3ds/app/icon.png",
+	"llm_usage": "none",
 	"categories": [
 		"game"
 	],
