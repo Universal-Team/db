@@ -17,6 +17,10 @@ downloads:
     size: 634304
     size_str: 619 KiB
     url: https://github.com/saysaa/ReSharp3DS/releases/download/v2.1.3/ReSharp3DS.cia
+  mscorlib.pe:
+    size: 31028
+    size_str: 30 KiB
+    url: https://github.com/saysaa/ReSharp3DS/releases/download/v2.1.3/mscorlib.pe
 github: saysaa/ReSharp3DS
 icon: https://raw.githubusercontent.com/saysaa/ReSharp3DS/refs/heads/docs/icon.png
 image: https://raw.githubusercontent.com/saysaa/ReSharp3DS/refs/heads/docs/banner.png
