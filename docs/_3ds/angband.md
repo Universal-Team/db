@@ -19,53 +19,93 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_usage: undisclosed
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-142-g40438c80d
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-148-gcd52d6cf6
   downloads:
-    Angband-4.2.6-142-g40438c80d-3ds.zip:
-      size: 24672915
+    Angband-4.2.6-148-gcd52d6cf6-3ds.zip:
+      size: 24695450
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-142-g40438c80d/Angband-4.2.6-142-g40438c80d-3ds.zip
-    Angband-4.2.6-142-g40438c80d-nds.zip:
-      size: 23329842
+      url: https://github.com/angband/angband/releases/download/4.2.6-148-gcd52d6cf6/Angband-4.2.6-148-gcd52d6cf6-3ds.zip
+    Angband-4.2.6-148-gcd52d6cf6-nds.zip:
+      size: 23329710
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-142-g40438c80d/Angband-4.2.6-142-g40438c80d-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-148-gcd52d6cf6/Angband-4.2.6-148-gcd52d6cf6-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>Tweak utility rod category for ''S'' debugging command by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    <li>Fix typo in comment by <a class="user-mention notranslate" data-hovercard-type="user"
+    data-hovercard-url="/users/fruviad/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/fruviad">@fruviad</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4574942352" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6642"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6642/hovercard"
-    href="https://github.com/angband/angband/pull/6642">#6642</a></li>
+    data-id="4657661102" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6649"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6649/hovercard"
+    href="https://github.com/angband/angband/pull/6649">#6649</a></li>
 
-    <li>debugging ''S'' command:  really exclude amulets of inertia from free action
+    <li>debugging ''S'' command: for endgame weapons, allow for slay evil varieties
     by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4575002810" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6643"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6643/hovercard"
-    href="https://github.com/angband/angband/pull/6643">#6643</a></li>
+    data-id="4600437974" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6644"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6644/hovercard"
+    href="https://github.com/angband/angband/pull/6644">#6644</a></li>
+
+    <li>DOS workflow: avoid hardwiring the project name by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4606594995" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6645"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6645/hovercard"
+    href="https://github.com/angband/angband/pull/6645">#6645</a></li>
+
+    <li>On DOS, use shortened names for the the default option files by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4623069466" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6647"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6647/hovercard"
+    href="https://github.com/angband/angband/pull/6647">#6647</a></li>
+
+    <li>Correct some typos in comments by <a class="user-mention notranslate" data-hovercard-type="user"
+    data-hovercard-url="/users/backwardsEric/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4624543039" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6648"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6648/hovercard"
+    href="https://github.com/angband/angband/pull/6648">#6648</a></li>
+
+    <li>Nintendo: avoid set but unused warning by <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4660038588" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6650"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6650/hovercard"
+    href="https://github.com/angband/angband/pull/6650">#6650</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-140-g3363e27ce...4.2.6-142-g40438c80d"><tt>4.2.6-140-g3363e27ce...4.2.6-142-g40438c80d</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-142-g40438c80d...4.2.6-148-gcd52d6cf6"><tt>4.2.6-142-g40438c80d...4.2.6-148-gcd52d6cf6</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * Tweak utility rod category for ''S'' debugging command by @backwardsEric in
-    https://github.com/angband/angband/pull/6642
+    * Fix typo in comment by @fruviad in https://github.com/angband/angband/pull/6649
 
-    * debugging ''S'' command:  really exclude amulets of inertia from free action
-    by @backwardsEric in https://github.com/angband/angband/pull/6643
+    * debugging ''S'' command: for endgame weapons, allow for slay evil varieties
+    by @backwardsEric in https://github.com/angband/angband/pull/6644
+
+    * DOS workflow: avoid hardwiring the project name by @backwardsEric in https://github.com/angband/angband/pull/6645
+
+    * On DOS, use shortened names for the the default option files by @backwardsEric
+    in https://github.com/angband/angband/pull/6647
+
+    * Correct some typos in comments by @backwardsEric in https://github.com/angband/angband/pull/6648
+
+    * Nintendo: avoid set but unused warning by @backwardsEric in https://github.com/angband/angband/pull/6650
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-140-g3363e27ce...4.2.6-142-g40438c80d'
-  updated: '2026-06-09T12:12:19Z'
-  version: 4.2.6-142-g40438c80d
-  version_title: 4.2.6-142-g40438c80d
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-142-g40438c80d...4.2.6-148-gcd52d6cf6'
+  updated: '2026-06-16T11:22:49Z'
+  version: 4.2.6-148-gcd52d6cf6
+  version_title: 4.2.6-148-gcd52d6cf6
 source: https://github.com/angband/angband
 stars: 1517
 systems:

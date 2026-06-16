@@ -1,5 +1,5 @@
 ---
-author: PabloMK7
+author: Azahar Emulator
 avatar: https://avatars.githubusercontent.com/u/188636407?v=4
 categories:
 - emulator
