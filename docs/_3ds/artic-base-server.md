@@ -29,7 +29,7 @@ llm_usage: undisclosed
 qr:
   ArticBase.cia: https://db.universal-team.net/assets/images/qr/articbase-cia.png
 source: https://github.com/azahar-emu/ArticBaseServer
-stars: 609
+stars: 610
 systems:
 - 3DS
 title: Artic Base Server
