@@ -31,7 +31,7 @@ qr:
 script_message: 'INFO: I do not own the rights to Tor browser. This is only a CLIENT,
   it requires a PC side server to run. See: https://github.com/DisLoPik/Tor3ds'
 source: https://github.com/DisLoPik/Tor3ds
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: Tor3ds
