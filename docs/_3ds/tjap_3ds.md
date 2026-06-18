@@ -10,146 +10,19 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9844160
+    size: 10392196
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.2/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.3/TJAP_3DS.3dsx
   TJAP_3DS.cia:
-    size: 10023872
-    size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.2/TJAP_3DS.cia
+    size: 10568640
+    size_str: 10 MiB
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.3/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
 llm_usage: undisclosed
-prerelease:
-  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.2.3
-  downloads:
-    TJAP_3DS.3dsx:
-      size: 10391692
-      size_str: 9 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.3/TJAP_3DS.3dsx
-    TJAP_3DS.cia:
-      size: 10568640
-      size_str: 10 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.3/TJAP_3DS.cia
-  qr:
-    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
-  update_notes: '<h2 dir="auto">チェンジログ</h2>
-
-    <ul dir="auto">
-
-    <li>複素数スクロールの仮対応</li>
-
-    </ul>
-
-    <pre class="notranslate"><code class="notranslate">#SCROLL (Signed float)(Signed
-    float)i
-
-    </code></pre>
-
-    <ul dir="auto">
-
-    <li>前回のプレイを記録&amp;再生出来るようになりました。<br>
-
-    プレイを終わらせた後に「実験的設定」の「プレイヤー(双打用)」を<br>
-
-    PLAYに変更すると、前回のプレイを再生出来ます。<br>
-
-    記録を消したい場合はSELECTを押しながらXボタンを押して下さい。</li>
-
-    <li>オプション「曲のはやさ」を1倍以外にするとJPOSSCROLLの終了タイミングがズレる不具合の修正</li>
-
-    <li>編集可能な譜面の最大容量を64KBに増やしました。</li>
-
-    <li>その他一部動作の高速化をしました。</li>
-
-    </ul>
-
-    <h2 dir="auto">Changelog</h2>
-
-    <ul dir="auto">
-
-    <li>Temporary support for complex number scrolling.</li>
-
-    </ul>
-
-    <pre class="notranslate"><code class="notranslate">#SCROLL (Signed float)(Signed
-    float)i
-
-    </code></pre>
-
-    <ul dir="auto">
-
-    <li>You can now record and replay your previous gameplay.<br>
-
-    After finishing a game, changing the "Player (for dual-wielding)" setting in<br>
-
-    "Experimental Settings" to PLAY will allow you to replay your previous play.<br>
-
-    To erase your record, press the SELECT button while holding down the X button.</li>
-
-    <li>Fixed a bug that caused the end timing of JPOSSCROLL to shift if the option
-    "song so fastness" was not 1x.</li>
-
-    <li>The maximum size of editable charts has been increased to 64KB.</li>
-
-    <li>We have also sped up some other operations.</li>
-
-    </ul>'
-  update_notes_md: '## チェンジログ
-
-    - 複素数スクロールの仮対応
-
-    ```
-
-    #SCROLL (Signed float)(Signed float)i
-
-    ```
-
-    - 前回のプレイを記録&再生出来るようになりました。
-
-    プレイを終わらせた後に「実験的設定」の「プレイヤー(双打用)」を
-
-    PLAYに変更すると、前回のプレイを再生出来ます。
-
-    記録を消したい場合はSELECTを押しながらXボタンを押して下さい。
-
-    - オプション「曲のはやさ」を1倍以外にするとJPOSSCROLLの終了タイミングがズレる不具合の修正
-
-    - 編集可能な譜面の最大容量を64KBに増やしました。
-
-    - その他一部動作の高速化をしました。
-
-
-    ## Changelog
-
-    - Temporary support for complex number scrolling.
-
-    ```
-
-    #SCROLL (Signed float)(Signed float)i
-
-    ```
-
-    - You can now record and replay your previous gameplay.
-
-    After finishing a game, changing the "Player (for dual-wielding)" setting in
-
-    "Experimental Settings" to PLAY will allow you to replay your previous play.
-
-    To erase your record, press the SELECT button while holding down the X button.
-
-    - Fixed a bug that caused the end timing of JPOSSCROLL to shift if the option
-    "song so fastness" was not 1x.
-
-    - The maximum size of editable charts has been increased to 64KB.
-
-    - We have also sped up some other operations.'
-  updated: '2026-06-02T03:51:14Z'
-  version: v2.2.3
-  version_title: TJAPlayer for 3DS v2.2.3
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
@@ -168,9 +41,32 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>判定枠が動いてる際にポーズしても動き続ける不具合の修正</li>
+  <li>複素数スクロールの対応</li>
 
-  <li>特定のタイミングでポーズするとノーツの描画がおかしくなるのを修正</li>
+  </ul>
+
+  <pre class="notranslate"><code class="notranslate">#SCROLL (Signed float)(Signed
+  float)i
+
+  </code></pre>
+
+  <ul dir="auto">
+
+  <li>前回のプレイを記録&amp;再生出来るようになりました。<br>
+
+  プレイを終わらせた後に「実験的設定」の「プレイヤー(双打用)」を<br>
+
+  PLAYに変更すると、前回のプレイを再生出来ます。<br>
+
+  記録を消したい場合はSELECTを押しながらXボタンを押して下さい。</li>
+
+  <li>オプション「曲のはやさ」を1倍以外にするとJPOSSCROLLの終了タイミングがズレる不具合の修正</li>
+
+  <li>編集可能な譜面の最大容量を64KBに増やしました。</li>
+
+  <li>HBSCROLLの試験的対応</li>
+
+  <li>その他一部動作の高速化をしました。</li>
 
   </ul>
 
@@ -178,15 +74,38 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Fixed a bug that keeps moving even if you pose when the judgment frame is moving.</li>
+  <li>support for complex number scrolling.</li>
 
-  <li>Fixed the problem that the drawing of notes went wrong when posing at a certain
-  time.</li>
+  </ul>
+
+  <pre class="notranslate"><code class="notranslate">#SCROLL (Signed float)(Signed
+  float)i
+
+  </code></pre>
+
+  <ul dir="auto">
+
+  <li>You can now record and replay your previous gameplay.<br>
+
+  After finishing a game, changing the "Player (for dual-wielding)" setting in<br>
+
+  "Experimental Settings" to PLAY will allow you to replay your previous play.<br>
+
+  To erase your record, press the SELECT button while holding down the X button.</li>
+
+  <li>Fixed a bug that caused the end timing of JPOSSCROLL to shift if the option
+  "song so fastness" was not 1x.</li>
+
+  <li>The maximum size of editable charts has been increased to 64KB.</li>
+
+  <li>Experimental response to HBSCROLL.</li>
+
+  <li>We have also sped up some other operations.</li>
 
   </ul>'
-updated: '2026-05-27T04:51:06Z'
-version: v2.2.2
-version_title: TJAPlayer for 3DS v2.2.2
+updated: '2026-06-02T03:51:14Z'
+version: v2.2.3
+version_title: TJAPlayer for 3DS v2.2.3
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。

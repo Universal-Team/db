@@ -107,7 +107,7 @@ prerelease:
   version: 4.2.6-148-gcd52d6cf6
   version_title: 4.2.6-148-gcd52d6cf6
 source: https://github.com/angband/angband
-stars: 1517
+stars: 1518
 systems:
 - 3DS
 - DS
