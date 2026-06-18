@@ -23,7 +23,7 @@ llm_usage: undisclosed
 qr:
   SafeNANDManager.nds: https://db.universal-team.net/assets/images/qr/safenandmanager-nds.png
 source: https://github.com/DS-Homebrew/SafeNANDManager
-stars: 51
+stars: 52
 systems:
 - DS
 title: Safe NAND Manager
