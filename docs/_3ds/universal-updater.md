@@ -25,6 +25,24 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_usage: none
+nightly:
+  download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
+  downloads:
+    Universal-Updater.3dsx:
+      size: 3002784
+      size_str: 2 MiB
+      url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
+    Universal-Updater.cia:
+      size: 2479040
+      size_str: 2 MiB
+      url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
+  qr:
+    Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
+  update_notes: <p dir="auto">Pk11 - Only write metadata if changes have been made</p>
+  update_notes_md: Pk11 - Only write metadata if changes have been made
+  updated: '2026-06-18T21:45:35Z'
+  version: git
+  version_title: Continuous Build - 191bb1c
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
