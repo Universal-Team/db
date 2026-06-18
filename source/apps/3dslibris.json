@@ -28,7 +28,7 @@
 			{
 				"type": "extractFile",
 				"file": "/3dslibris-sdmc.zip",
-				"input": "3ds",
+				"input": "^3ds",
 				"output": "/3ds"
 			},
 			{
@@ -60,7 +60,7 @@
 			{
 				"type": "extractFile",
 				"file": "/3dslibris-sdmc.zip",
-				"input": "3ds",
+				"input": "^3ds",
 				"output": "/3ds"
 			},
 			{

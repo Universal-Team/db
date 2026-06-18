@@ -16,18 +16,18 @@
 		"Install game (3dsx)": [
 			{
 				"type": "mkdir",
-				"directory": "sdmc:/3ds/BreakupSimulator/"
+				"directory": "/3ds/BreakupSimulator/"
 			},
 			{
 				"type": "downloadFile",
 				"file": "https://github.com/Dangerbites/BreakupSimulator3DS/releases/download/Major/BreakupSimulator3DS.zip",
-				"output": "sdmc:/3ds/BreakupSimulator3DS.zip"
+				"output": "/3ds/BreakupSimulator3DS.zip"
 			},
 			{
 				"type": "extractFile",
-				"file": "sdmc:/3ds/BreakupSimulator3DS.zip",
+				"file": "/3ds/BreakupSimulator3DS.zip",
 				"input": "",
-				"output": "sdmc:/3ds/BreakupSimulator/"
+				"output": "/3ds/BreakupSimulator/"
 			},
 			{
 				"type": "move",
@@ -36,7 +36,7 @@
 			},
 			{
 				"type": "deleteFile",
-				"file": "sdmc:/3ds/BreakupSimulator3DS.zip"
+				"file": "/3ds/BreakupSimulator3DS.zip"
 			}
 		]
 	}

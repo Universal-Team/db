@@ -19,8 +19,8 @@
 			{
 				"type": "extractFile",
 				"file": "/Release.zip",
-				"input": "luma",
-				"output": "luma"
+				"input": "^luma",
+				"output": "/luma"
 			},
 			{
 				"type": "deleteFile",
@@ -37,8 +37,8 @@
 			{
 				"type": "extractFile",
 				"file": "/luma.zip",
-				"input": "luma",
-				"output": "luma"
+				"input": "^luma",
+				"output": "/luma"
 			},
 			{
 				"type": "deleteFile",

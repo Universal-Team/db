@@ -22,7 +22,7 @@
 			{
 				"type": "extractFile",
 				"file": "/CaptureAssistant.zip",
-				"input": "CaptureAssistant.cia",
+				"input": "^CaptureAssistant.cia",
 				"output": "/CaptureAssistant.cia"
 			},
 			{
@@ -34,13 +34,13 @@
 			{
 				"type": "extractFile",
 				"file": "/CaptureAssistant.zip",
-				"input": "calibrationalt.png",
+				"input": "^calibrationalt.png",
 				"output": "/calibration.png"
 			},
 			{
 				"type": "extractFile",
 				"file": "/CaptureAssistant.zip",
-				"input": "calibrationalt2.png",
+				"input": "^calibrationalt2.png",
 				"output": "/calibration2.png"
 			},
 			{
@@ -50,13 +50,13 @@
 			{
 				"type": "extractFile",
 				"file": "/CaptureAssistant.zip",
-				"input": "calibration.png",
+				"input": "^calibration.png",
 				"output": "/calibration.png"
 			},
 			{
 				"type": "extractFile",
 				"file": "/CaptureAssistant.zip",
-				"input": "calibration2.png",
+				"input": "^calibration2.png",
 				"output": "/calibration2.png"
 			},
 			{

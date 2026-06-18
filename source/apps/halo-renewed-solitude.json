@@ -24,7 +24,7 @@
 			{
 				"type": "extractFile",
 				"file": "/RenewedSolitude.zip",
-				"input": "RenewedSolitude",
+				"input": "^RenewedSolitude",
 				"output": "/3ds/RenewedSolitude"
 			},
 			{
@@ -50,7 +50,7 @@
 			{
 				"type": "extractFile",
 				"file": "/RenewedSolitude.zip",
-				"input": "RenewedSolitude",
+				"input": "^RenewedSolitude",
 				"output": "/3ds/RenewedSolitude"
 			},
 			{

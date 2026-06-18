@@ -21,7 +21,7 @@
 			{
 				"type": "extractFile",
 				"file": "/SuDokuL.zip",
-				"input": "SuDokuL-3ds-cia/cias/SuDokuL.cia",
+				"input": "^SuDokuL-3ds-cia/cias/SuDokuL.cia",
 				"output": "/SuDokuL.cia"
 			},
 			{
@@ -47,7 +47,7 @@
 			{
 				"type": "extractFile",
 				"file": "/SuDokuL.zip",
-				"input": "SuDokuL-3ds/3ds/SuDokuL/SuDokuL.3dsx",
+				"input": "^SuDokuL-3ds/3ds/SuDokuL/SuDokuL.3dsx",
 				"output": "%3DSX%/SuDokuL.3dsx"
 			},
 			{

@@ -24,13 +24,13 @@
 			{
 				"type": "extractFile",
 				"file": "/virtuanes_3ds.zip",
-				"input": "virtuanes_3ds.cia",
+				"input": "^virtuanes_3ds.cia",
 				"output": "/virtuanes_3ds.cia"
 			},
 			{
 				"type": "extractFile",
 				"file": "/virtuanes_3ds.zip",
-				"input": "virtuanes_3ds_top.png",
+				"input": "^virtuanes_3ds_top.png",
 				"output": "/3ds/virtuanes_3ds/virtuanes_3ds_top.png"
 			},
 			{
@@ -56,13 +56,13 @@
 			{
 				"type": "extractFile",
 				"file": "/virtuanes_3ds.zip",
-				"input": "virtuanes_3ds.3dsx",
+				"input": "^virtuanes_3ds.3dsx",
 				"output": "%3DSX%/virtuanes_3ds.3dsx"
 			},
 			{
 				"type": "extractFile",
 				"file": "/virtuanes_3ds.zip",
-				"input": "virtuanes_3ds_top.png",
+				"input": "^virtuanes_3ds_top.png",
 				"output": "/3ds/virtuanes_3ds/virtuanes_3ds_top.png"
 			},
 			{

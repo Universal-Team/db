@@ -19,7 +19,7 @@
 			},
 			{
 				"file": "/SafeB9SInstaller.zip",
-				"input": "SafeB9SInstaller.firm",
+				"input": "^SafeB9SInstaller.firm",
 				"output": "%FIRM%/SafeB9SInstaller.firm",
 				"type": "extractFile"
 			},

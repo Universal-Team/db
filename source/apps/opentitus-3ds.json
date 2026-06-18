@@ -55,8 +55,8 @@
 			{
 				"type": "extractFile",
 				"file": "/OpenTitus.7z",
-				"input": "OpenTitus/",
-				"output": "/3ds/OpenTitus/"
+				"input": "^OpenTitus",
+				"output": "/3ds/OpenTitus"
 			},
 			{
 				"type": "installCia",
@@ -96,8 +96,8 @@
 			{
 				"type": "extractFile",
 				"file": "/OpenTitus.7z",
-				"input": "OpenTitus/",
-				"output": "/3ds/OpenTitus/"
+				"input": "^OpenTitus",
+				"output": "/3ds/OpenTitus"
 			},
 			{
 				"type": "move",
@@ -134,8 +134,8 @@
 			{
 				"type": "extractFile",
 				"file": "/OpenTitus.7z",
-				"input": "OpenTitus/",
-				"output": "/3ds/OpenTitus/"
+				"input": "^OpenTitus",
+				"output": "/3ds/OpenTitus"
 			},
 			{
 				"type": "installCia",
@@ -175,8 +175,8 @@
 			{
 				"type": "extractFile",
 				"file": "/OpenTitus.7z",
-				"input": "OpenTitus/",
-				"output": "/3ds/OpenTitus/"
+				"input": "^OpenTitus",
+				"output": "/3ds/OpenTitus"
 			},
 			{
 				"type": "move",

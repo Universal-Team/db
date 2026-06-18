@@ -23,8 +23,8 @@
 			{
 				"type": "extractFile",
 				"file": "/Snake2DS.zip",
-				"input": "Snake2DS/",
-				"output": "%3DSX%/Snake2DS/"
+				"input": "^Snake2DS",
+				"output": "%3DSX%/Snake2DS"
 			},
 			{
 				"type": "deleteFile",

@@ -35,7 +35,7 @@
 			{
 				"type": "extractFile",
 				"file": "/assets-aod-3ds.zip",
-				"input": "thextech-adventure-of-demo-assets-full-3ds.romfs",
+				"input": "^thextech-adventure-of-demo-assets-full-3ds.romfs",
 				"output": "/3ds/thextech/assets-aod.romfs"
 			},
 			{

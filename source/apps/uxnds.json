@@ -28,14 +28,14 @@
 			{
 				"type": "extractFile",
 				"file": "/uxnds.zip",
-				"input": "uxnds.3dsx",
+				"input": "^uxnds.3dsx",
 				"output": "%3DSX%/uxnds.3dsx"
 			},
 			{
 				"type": "extractFile",
 				"file": "/uxnds.zip",
-				"input": "uxn/",
-				"output": "/uxn/"
+				"input": "^uxn",
+				"output": "/uxn"
 			},
 			{
 				"type": "deleteFile",
@@ -52,14 +52,14 @@
 			{
 				"type": "extractFile",
 				"file": "/uxnds.zip",
-				"input": "uxnds.nds",
+				"input": "^uxnds.nds",
 				"output": "%NDS%/uxnds.nds"
 			},
 			{
 				"type": "extractFile",
 				"file": "/uxnds.zip",
-				"input": "uxn/",
-				"output": "/uxn/"
+				"input": "^uxn",
+				"output": "/uxn"
 			},
 			{
 				"type": "deleteFile",
@@ -76,14 +76,14 @@
 			{
 				"type": "extractFile",
 				"file": "/uxnds.zip",
-				"input": "uxnds_debug.nds",
+				"input": "^uxnds_debug.nds",
 				"output": "%NDS%/uxnds_debug.nds"
 			},
 			{
 				"type": "extractFile",
 				"file": "/uxnds.zip",
-				"input": "uxn/",
-				"output": "/uxn/"
+				"input": "^uxn",
+				"output": "/uxn"
 			},
 			{
 				"type": "deleteFile",
@@ -100,14 +100,14 @@
 			{
 				"type": "extractFile",
 				"file": "/uxnds.zip",
-				"input": "uxnds_profile.nds",
+				"input": "^uxnds_profile.nds",
 				"output": "%NDS%/uxnds_profile.nds"
 			},
 			{
 				"type": "extractFile",
 				"file": "/uxnds.zip",
-				"input": "uxn/",
-				"output": "/uxn/"
+				"input": "^uxn",
+				"output": "/uxn"
 			},
 			{
 				"type": "deleteFile",

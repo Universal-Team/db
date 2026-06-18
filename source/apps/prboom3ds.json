@@ -54,7 +54,7 @@
 					"type": "downloadRelease",
 					"repo": "elhobbs/prboom3ds",
 					"file": "prboom.wad",
-					"output": "sdmc:/3ds/prboom3ds/prboom.wad",
+					"output": "/3ds/prboom3ds/prboom.wad",
 					"includePrereleases": true
 				},
 				{

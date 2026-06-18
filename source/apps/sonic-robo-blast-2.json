@@ -25,7 +25,7 @@
 			{
 				"type": "extractFile",
 				"file": "/srb2_3ds.zip",
-				"input": "srb2_3ds.cia",
+				"input": "^srb2_3ds.cia",
 				"output": "/srb2_3ds.cia"
 			},
 			{
@@ -52,7 +52,7 @@
 			{
 				"type": "extractFile",
 				"file": "/srb2_3ds.zip",
-				"input": "srb2_3ds.3dsx",
+				"input": "^srb2_3ds.3dsx",
 				"output": "%3DSX%/srb2_3ds.3dsx"
 			},
 			{
@@ -63,37 +63,37 @@
 		"[REQUIRED ONCE] assets": [
 			{
 				"type": "mkdir",
-				"directory": "sdmc:/3ds/srb2_3ds/"
+				"directory": "/3ds/srb2_3ds/"
 			},
 			{
 				"type": "downloadFile",
 				"file": "https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-assets.7z",
-				"output": "sdmc:/3ds/SRB2-v2122-assets.7z"
+				"output": "/3ds/SRB2-v2122-assets.7z"
 			},
 			{
 				"type": "extractFile",
-				"file": "sdmc:/3ds/SRB2-v2122-assets.7z",
+				"file": "/3ds/SRB2-v2122-assets.7z",
 				"input": "",
-				"output": "sdmc:/3ds/srb2_3ds/"
+				"output": "/3ds/srb2_3ds/"
 			},
 			{
 				"type": "deleteFile",
-				"file": "sdmc:/3ds/SRB2-v2122-assets.7z"
+				"file": "/3ds/SRB2-v2122-assets.7z"
 			},
 			{
 				"type": "downloadFile",
 				"file": "https://github.com/mazmazz/SRB2/releases/download/SRB2_assets/SRB2-v2122-optional-assets.7z",
-				"output": "sdmc:/3ds/SRB2-v2122-optional-assets.7z"
+				"output": "/3ds/SRB2-v2122-optional-assets.7z"
 			},
 			{
 				"type": "extractFile",
-				"file": "sdmc:/3ds/SRB2-v2122-optional-assets.7z",
+				"file": "/3ds/SRB2-v2122-optional-assets.7z",
 				"input": "",
-				"output": "sdmc:/3ds/srb2_3ds/"
+				"output": "/3ds/srb2_3ds/"
 			},
 			{
 				"type": "deleteFile",
-				"file": "sdmc:/3ds/SRB2-v2122-optional-assets.7z"
+				"file": "/3ds/SRB2-v2122-optional-assets.7z"
 			}
 		]
 	}

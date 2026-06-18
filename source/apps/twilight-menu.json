@@ -22,19 +22,19 @@
 			{
 				"type": "extractFile",
 				"file": "/TWiLightMenu-3DS.7z",
-				"input": "_nds/",
-				"output": "/_nds/"
+				"input": "^_nds",
+				"output": "/_nds"
 			},
 			{
 				"type": "extractFile",
 				"file": "/TWiLightMenu-3DS.7z",
-				"input": "BOOT.NDS",
+				"input": "^BOOT.NDS",
 				"output": "/BOOT.NDS"
 			},
 			{
 				"type": "extractFile",
 				"file": "/TWiLightMenu-3DS.7z",
-				"input": "TWiLight Menu.cia",
+				"input": "^TWiLight Menu.cia",
 				"output": "/TWiLight Menu.cia"
 			},
 			{
@@ -54,8 +54,8 @@
 			{
 				"type": "extractFile",
 				"file": "/TWiLightMenu-3DS.7z",
-				"input": "roms/",
-				"output": "/roms/"
+				"input": "^roms",
+				"output": "/roms"
 			},
 			{
 				"type": "deleteFile",
@@ -72,8 +72,8 @@
 			{
 				"type": "extractFile",
 				"file": "/AddOn-BetterDSiMenuMusic.7z",
-				"input": "_nds/",
-				"output": "/_nds/"
+				"input": "^_nds",
+				"output": "/_nds"
 			},
 			{
 				"type": "deleteFile",
@@ -90,8 +90,8 @@
 			{
 				"type": "extractFile",
 				"file": "/AddOn-ExtraUIMusic.7z",
-				"input": "_nds/",
-				"output": "/_nds/"
+				"input": "^_nds",
+				"output": "/_nds"
 			},
 			{
 				"type": "deleteFile",
@@ -108,8 +108,8 @@
 			{
 				"type": "extractFile",
 				"file": "/AddOn-Multimedia.7z",
-				"input": "_nds/",
-				"output": "/_nds/"
+				"input": "^_nds",
+				"output": "/_nds"
 			},
 			{
 				"type": "promptMessage",
@@ -120,8 +120,8 @@
 			{
 				"type": "extractFile",
 				"file": "/AddOn-Multimedia.7z",
-				"input": "photos/",
-				"output": "/photos/"
+				"input": "^photos",
+				"output": "/photos"
 			},
 			{
 				"type": "promptMessage",
@@ -132,8 +132,8 @@
 			{
 				"type": "extractFile",
 				"file": "/AddOn-Multimedia.7z",
-				"input": "videos/",
-				"output": "/videos/"
+				"input": "^videos",
+				"output": "/videos"
 			},
 			{
 				"type": "deleteFile",
@@ -150,8 +150,8 @@
 			{
 				"type": "extractFile",
 				"file": "/AddOn-VirtualConsoleMinimal-3DS.7z",
-				"input": "_nds/",
-				"output": "/_nds/"
+				"input": "^_nds",
+				"output": "/_nds"
 			},
 			{
 				"type": "promptMessage",
@@ -162,8 +162,8 @@
 			{
 				"type": "extractFile",
 				"file": "/AddOn-VirtualConsoleMinimal-3DS.7z",
-				"input": "roms/",
-				"output": "/roms/"
+				"input": "^roms",
+				"output": "/roms"
 			},
 			{
 				"type": "deleteFile",
@@ -180,8 +180,8 @@
 			{
 				"type": "extractFile",
 				"file": "/AddOn-VirtualConsoleFull-3DS.7z",
-				"input": "_nds/",
-				"output": "/_nds/"
+				"input": "^_nds",
+				"output": "/_nds"
 			},
 			{
 				"type": "promptMessage",
@@ -192,8 +192,8 @@
 			{
 				"type": "extractFile",
 				"file": "/AddOn-VirtualConsoleFull-3DS.7z",
-				"input": "roms/",
-				"output": "/roms/"
+				"input": "^roms",
+				"output": "/roms"
 			},
 			{
 				"type": "deleteFile",
