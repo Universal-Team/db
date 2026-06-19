@@ -29,7 +29,7 @@ nightly:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 3002784
+      size: 3002856
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
@@ -38,11 +38,23 @@ nightly:
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: <p dir="auto">Pk11 - Only write metadata if changes have been made</p>
-  update_notes_md: Pk11 - Only write metadata if changes have been made
-  updated: '2026-06-18T21:45:35Z'
+  update_notes: '<p dir="auto">Pk11 - Fix crash on exiting while helper thread is
+    running</p>
+
+    <p dir="auto">This also merges both threaded activities onto the same thread state
+    for simplicity, downside is that now you may be forced to wait out the other thread
+    if you quickly switch between directory settings and UniStore settings... but
+    that''s not too big a concern.</p>'
+  update_notes_md: 'Pk11 - Fix crash on exiting while helper thread is running
+
+
+    This also merges both threaded activities onto the same thread state for simplicity,
+    downside is that now you may be forced to wait out the other thread if you quickly
+    switch between directory settings and UniStore settings... but that''s not too
+    big a concern.'
+  updated: '2026-06-18T22:28:46Z'
   version: git
-  version_title: Continuous Build - 191bb1c
+  version_title: Continuous Build - 85d397e
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
