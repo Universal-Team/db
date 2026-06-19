@@ -22,7 +22,7 @@ llm_usage: none
 qr:
   CookieClicker.cia: https://db.universal-team.net/assets/images/qr/cookieclicker-cia.png
 source: https://github.com/Creckeryop/3dsCookieClicker
-stars: 27
+stars: 28
 systems:
 - 3DS
 title: 3dsCookieClicker
