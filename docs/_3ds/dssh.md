@@ -31,7 +31,7 @@ llm_usage: undisclosed
 qr:
   DSSH.cia: https://db.universal-team.net/assets/images/qr/dssh-cia.png
 source: https://github.com/Fishason/DSSH
-stars: 42
+stars: 43
 systems:
 - 3DS
 title: DSSH
