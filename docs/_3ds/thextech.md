@@ -235,9 +235,6 @@ update_notes: '<p dir="auto">Yesterday (The 19''th of June) I had the birthday. 
   is private" data-url="https://github.com/TheXTech/TheXTech/issues/738" data-hovercard-type="issue"
   data-hovercard-url="/TheXTech/TheXTech/issues/738/hovercard" href="https://github.com/TheXTech/TheXTech/issues/738">#738</a>)</li>
 
-  <li>On old 3DS the out-of-memory crash might happen with the stable version of the
-  game. The solution is not yet backported from the devel branch.</li>
-
   <li>On Windows 10 when running OpenGL with some ~2006 Intel iGPU on laptop, game
   would crash (possibly fixed).</li>
 
