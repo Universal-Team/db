@@ -12,10 +12,18 @@ description: The full port of the SMBX engine from VB6 into C++ and SDL2, FreeIm
 download_filter: 3ds
 download_page: https://github.com/TheXTech/TheXTech/releases
 downloads:
-  thextech-3ds-v1.3.7.2.zip:
-    size: 4271081
+  thextech-3ds-assets-aod-v1.3.7.3.zip:
+    size: 60025376
+    size_str: 57 MiB
+    url: https://github.com/TheXTech/TheXTech/releases/download/v1.3.7.3/thextech-3ds-assets-aod-v1.3.7.3.zip
+  thextech-3ds-assets-smbx13-v1.3.7.3.zip:
+    size: 48012828
+    size_str: 45 MiB
+    url: https://github.com/TheXTech/TheXTech/releases/download/v1.3.7.3/thextech-3ds-assets-smbx13-v1.3.7.3.zip
+  thextech-3ds-v1.3.7.3.zip:
+    size: 4224904
     size_str: 4 MiB
-    url: https://github.com/TheXTech/TheXTech/releases/download/v1.3.7.2-1/thextech-3ds-v1.3.7.2.zip
+    url: https://github.com/TheXTech/TheXTech/releases/download/v1.3.7.3/thextech-3ds-v1.3.7.3.zip
 github: TheXTech/TheXTech
 icon: https://raw.githubusercontent.com/TheXTech/TheXTech/main/resources/icon/thextech_48.png
 image: https://raw.githubusercontent.com/TheXTech/TheXTech/main/resources/wiiu/wuhb-splash.png
@@ -42,39 +50,233 @@ stars: 395
 systems:
 - 3DS
 title: TheXTech
-update_notes: "<p dir=\"auto\">This is a minor hotfix for the 1.3.7.2 release that\
-  \ resolves an unexpected problem that occurs exclusively on 3DS, and might occur\
-  \ on Wii, and PSVita:</p>\n<p dir=\"auto\">(Watch this video with a sound)</p>\n\
-  <details open=\"\" class=\"details-reset border rounded-2\">\n  <summary class=\"\
-  tmp-px-3 py-2\">\n    <svg aria-hidden=\"true\" data-component=\"Octicon\" height=\"\
-  16\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" data-view-component=\"true\"\
-  \ class=\"octicon octicon-device-camera-video\">\n    <path d=\"M16 3.75v8.5a.75.75\
-  \ 0 0 1-1.136.643L11 10.575v.675A1.75 1.75 0 0 1 9.25 13h-7.5A1.75 1.75 0 0 1 0\
-  \ 11.25v-6.5C0 3.784.784 3 1.75 3h7.5c.966 0 1.75.784 1.75 1.75v.675l3.864-2.318A.75.75\
-  \ 0 0 1 16 3.75Zm-6.5 1a.25.25 0 0 0-.25-.25h-7.5a.25.25 0 0 0-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25\
-  \ 0 0 0 .25-.25v-6.5ZM11 8.825l3.5 2.1v-5.85l-3.5 2.1Z\"></path>\n</svg>\n    <span\
-  \ class=\"m-1\">file_3433.mp4</span>\n    <span class=\"dropdown-caret\"></span>\n\
-  \  </summary>\n\n  <video src=\"https://github.com/user-attachments/assets/fc8dd73f-6d64-4c27-a6ca-d6ba11d57b86\"\
-  \ data-canonical-src=\"https://github.com/user-attachments/assets/fc8dd73f-6d64-4c27-a6ca-d6ba11d57b86\"\
-  \ controls=\"controls\" muted=\"muted\" class=\"d-block rounded-bottom-2 border-top\
-  \ width-fit\" style=\"max-height:640px; min-height: 200px\">\n\n  </video>\n</details>\n\
-  \n<p dir=\"auto\">The resampling from the lower sample rate to higher might cause\
-  \ distortion of the final result like it gets played with an accelerated tempo.\
-  \ This hotfix update resolves this problem.</p>\n<p dir=\"auto\">This post contains\
-  \ Nintendo 3DS, Nintendo Wii, and PSVita only builds, for other platforms, you can\
-  \ download packages <a href=\"https://github.com/TheXTech/TheXTech/releases/tag/v1.3.7.2\"\
-  >at the main post here</a>. Also, all the binaries had been updated at the main\
-  \ post to prevent users downloading faulty builds without knowlege of that.</p>\n\
-  <h1 dir=\"auto\">Changelog</h1>\n<ul dir=\"auto\">\n<li>Fixed an incorrect resampling\
-  \ logic at the MixerX audio library that caused accelerated tempo of music on 3DS,\
-  \ Wii, and PSVita (<a class=\"user-mention notranslate\" data-hovercard-type=\"\
-  user\" data-hovercard-url=\"/users/Wohlstand/hovercard\" data-octo-click=\"hovercard-link-click\"\
-  \ data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Wohlstand\"\
-  >@Wohlstand</a>)</li>\n</ul>"
-updated: '2025-12-28T10:08:55Z'
-version: v1.3.7.2-1
-version_title: 'TheXTech v1.3.7.2-hotfix1: Fixed distorted sound playback on 3DS,
-  Wii and PSVita'
+update_notes: '<p dir="auto">Yesterday (The 19''th of June) I had the birthday. Today
+  I releasing a new update of TheXTech for you all! In this release a set of bugs
+  found during the 1.3.7.2 release has been fixed including some vanilla, including
+  the cursed printing of the Chinese text. In addition, the file library has been
+  optimised.</p>
+
+  <h1 dir="auto">Full changelog for 1.3.7.3</h1>
+
+  <details><summary>Details</summary>
+
+  <h2 dir="auto">New features:</h2>
+
+  <h3 dir="auto">General</h3>
+
+  <ul dir="auto">
+
+  <li>Update LVLX/WLDX/SAVX loader to use new MDX file parser by ds-sloth (speeds
+  up level/world loads on slow devices) (<a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/ds-sloth/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/ds-sloth">@ds-sloth</a>,
+  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Wohlstand/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Wohlstand">@Wohlstand</a>)</li>
+
+  <li>Enabled running of Layers, Events, and LunaScript loops at the Outro screen
+  to allow more dynamics (<a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/Wohlstand/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Wohlstand">@Wohlstand</a>)</li>
+
+  </ul>
+
+  <h3 dir="auto">Internationalisation</h3>
+
+  <ul dir="auto">
+
+  <li>Added localisation support for custom stars requirement messages shown when
+  player attempts to enter a warp and they don''t have enough stars (<a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Wohlstand/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Wohlstand">@Wohlstand</a>)</li>
+
+  </ul>
+
+  <h3 dir="auto">Behaviour changes</h3>
+
+  <ul dir="auto">
+
+  <li>Logic change for TheXTech-exclusive feature: portal warps will not trigger until
+  the player has spent 10 frames without overlapping any portal warps (<a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ds-sloth/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ds-sloth">@ds-sloth</a>)</li>
+
+  </ul>
+
+  <h2 dir="auto">New vanilla bugfixes</h2>
+
+  <ul dir="auto">
+
+  <li>Fix SMBX 1.3 peculiarity where frozen NPCs would sometimes be rendered incorrectly,
+  guarded by compat flag "fix-visual-bugs" [Modern Mode] (<a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/ds-sloth/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/ds-sloth">@ds-sloth</a>)</li>
+
+  <li>Fix SMBX 1.3 bug where the swap power (ID 273) could result in unexpected deaths
+  or softlocks if the players were in different sections, guarded by compat flag "fix-multiplayer-targeting"
+  [Modern/Classic Mode] (<a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/ds-sloth/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/ds-sloth">@ds-sloth</a>,
+  thanks to <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Shadowblitz16/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Shadowblitz16">@Shadowblitz16</a>
+  for the report)</li>
+
+  <li>Fix SMBX 1.3 bug where character passthrough blocks treated char 2-4''s ice
+  balls as belonging to char 1, guarded by compat flag "fix-char-pass-balls" [Modern
+  Mode] (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ds-sloth/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ds-sloth">@ds-sloth</a>,
+  thanks to <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Wohlstand/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Wohlstand">@Wohlstand</a>
+  for the report)</li>
+
+  <li>Fix SMBX 1.3 bug where character passthrough blocks did not allow char 5''s
+  fire/ice balls to pass through, guarded by compat flag "fix-char-pass-balls" [Modern
+  Mode] (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ds-sloth/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ds-sloth">@ds-sloth</a>)</li>
+
+  <li>Fix SMBX 1.3 bug where jumping out of a shoe above the section could cause it
+  to despawn, guarded by compat flag "fix-npc-camera-logic" [Modern/Classic Mode]
+  (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ds-sloth/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ds-sloth">@ds-sloth</a>,
+  thanks to @Liebning for the report)</li>
+
+  <li>Fix SMBX 1.3 bug where player could get stuck in fairy state if they hit a fairy
+  power while stoned, guarded by compat flag "fix-fairy-stuck-in-pipe" [Modern/Classic
+  Mode] (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ds-sloth/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ds-sloth">@ds-sloth</a>,
+  thanks to <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Fire-Ball54322/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Fire-Ball54322">@Fire-Ball54322</a>
+  for the report)</li>
+
+  </ul>
+
+  <h2 dir="auto">TheXTech bugfixes</h2>
+
+  <ul dir="auto">
+
+  <li>Fixed an inability to save the state of the collected medals on triggering the
+  game beat (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Wohlstand/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Wohlstand">@Wohlstand</a>,
+  thanks to @Liebning for the report)</li>
+
+  <li>Fixed a TTF text print bug from the version 1.3.7.2 that caused missing vertical
+  offset on line breaking (<a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/Wohlstand/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Wohlstand">@Wohlstand</a>,
+  thanks to 呜哩哇啦 for the report)</li>
+
+  <li>Wii: fix v1.3.7.2 bug where deleting an in-use controls profile could lead to
+  a crash (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ds-sloth/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ds-sloth">@ds-sloth</a>)</li>
+
+  <li>Fix TheXTech v1.3.7 bug where popping an empty bubble (ID 283) could harm the
+  player (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ds-sloth/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ds-sloth">@ds-sloth</a>,
+  thanks to @Liebning for the report)</li>
+
+  <li>Fixed an inability to load a game pack from command line by path without slash
+  ending (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Wohlstand/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Wohlstand">@Wohlstand</a>)</li>
+
+  <li>3DS: fix v1.3.7 bug where the title screen could get stuck at the right of the
+  level (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ds-sloth/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ds-sloth">@ds-sloth</a>)</li>
+
+  <li>Fixed a crash caused by hit of invisible Block-88 with a coin inside while the
+  Coin Swtich is active (<a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/Wohlstand/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Wohlstand">@Wohlstand</a>)</li>
+
+  <li>Bugfix: don''t continually loop if a load failure occurs when the restart level
+  flag is set (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ds-sloth/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ds-sloth">@ds-sloth</a>)</li>
+
+  <li>Bugfix: quit the episode if the hub level can''t be reloaded (<a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ds-sloth/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ds-sloth">@ds-sloth</a>)</li>
+
+  <li>Fixed an unexpected going to the last sub-hub level instead of the world map
+  even explicit coordinates are been specified (<a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/Wohlstand/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Wohlstand">@Wohlstand</a>,
+  thanks to @Liebning for the report)</li>
+
+  <li>Fixed the case when checkpoints won''t reset when successfully quitting a level
+  via warp exits, guarded by compat flag "fix-warp-exit-checkpoints" [Modern Mode]
+  (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Wohlstand/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Wohlstand">@Wohlstand</a>)</li>
+
+  <li>Fixed the unwanted triggering of the IME candidates window during the gameplay
+  use of the keyboard when PinYin or any other IME method is enabled. (<a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Wohlstand/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Wohlstand">@Wohlstand</a>)</li>
+
+  </ul>
+
+  </details>
+
+  <h1 dir="auto">Known issues</h1>
+
+  <ul dir="auto">
+
+  <li>Audio may be choppy on Old 3DS.</li>
+
+  <li>Texture load stutter is present on Wii.</li>
+
+  <li>The screen may slightly judder during section resizes on 3DS and Wii.</li>
+
+  <li>On 3DS, background texture may start to flashing. (<a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="2501320790" data-permission-text="Title
+  is private" data-url="https://github.com/TheXTech/TheXTech/issues/816" data-hovercard-type="issue"
+  data-hovercard-url="/TheXTech/TheXTech/issues/816/hovercard" href="https://github.com/TheXTech/TheXTech/issues/816">#816</a>)
+  (Possibly solved, the primary reason of this is an out of memory).</li>
+
+  <li>On 3DS the crash happens on attempt to quit by the home menu. (<a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="2165417679" data-permission-text="Title
+  is private" data-url="https://github.com/TheXTech/TheXTech/issues/738" data-hovercard-type="issue"
+  data-hovercard-url="/TheXTech/TheXTech/issues/738/hovercard" href="https://github.com/TheXTech/TheXTech/issues/738">#738</a>)</li>
+
+  <li>On old 3DS the out-of-memory crash might happen with the stable version of the
+  game. The solution is not yet backported from the devel branch.</li>
+
+  <li>On Windows 10 when running OpenGL with some ~2006 Intel iGPU on laptop, game
+  would crash (possibly fixed).</li>
+
+  <li>On Windows XP SP0 that uses <strong>S3 Savage 4</strong> video card is impossible
+  to dynamically switch video modes: the game just crashes (blame video drivers by
+  theme selves as they were always very bad, according to <a href="https://www.kv.by/forum/forum1000000590.htm"
+  rel="nofollow">random talk of people from the 2000s</a> (in Russian) ).</li>
+
+  <li>On Linux/Wayland, Window icon can''t be changed while running game. (<a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="2973606814" data-permission-text="Title
+  is private" data-url="https://github.com/TheXTech/TheXTech/issues/939" data-hovercard-type="issue"
+  data-hovercard-url="/TheXTech/TheXTech/issues/939/hovercard" href="https://github.com/TheXTech/TheXTech/issues/939">#939</a>)</li>
+
+  <li>On Linux/Wayland, Mouse cursor doesn''t gets unlocked from window on toggling
+  windowed mode after fullscreen. (<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="2965199291" data-permission-text="Title is private" data-url="https://github.com/TheXTech/TheXTech/issues/937"
+  data-hovercard-type="issue" data-hovercard-url="/TheXTech/TheXTech/issues/937/hovercard"
+  href="https://github.com/TheXTech/TheXTech/issues/937">#937</a>)</li>
+
+  <li>Editor doesn''t supports large fonts (I.e. Chinese, Korean, etc). (<a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="2791602944" data-permission-text="Title
+  is private" data-url="https://github.com/TheXTech/TheXTech/issues/884" data-hovercard-type="issue"
+  data-hovercard-url="/TheXTech/TheXTech/issues/884/hovercard" href="https://github.com/TheXTech/TheXTech/issues/884">#884</a>)</li>
+
+  <li>At Web version (Emscripten-built) the framerate may go incorrectly. (<a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="2628102912" data-permission-text="Title
+  is private" data-url="https://github.com/TheXTech/TheXTech/issues/851" data-hovercard-type="issue"
+  data-hovercard-url="/TheXTech/TheXTech/issues/851/hovercard" href="https://github.com/TheXTech/TheXTech/issues/851">#851</a>)</li>
+
+  <li>On some hardware, randomly and rare, alpha-channel might me messed up when using
+  OpenGL render backend. (<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="2213103655" data-permission-text="Title is private" data-url="https://github.com/TheXTech/TheXTech/issues/743"
+  data-hovercard-type="issue" data-hovercard-url="/TheXTech/TheXTech/issues/743/hovercard"
+  href="https://github.com/TheXTech/TheXTech/issues/743">#743</a>)</li>
+
+  </ul>'
+updated: '2026-06-19T22:26:38Z'
+version: v1.3.7.3
+version_title: 'TheXTech v1.3.7.3: A release done in my birthday!'
 website: https://wohlsoft.ru/projects/TheXTech/
 wiki: https://github.com/TheXTech/TheXTech/wiki
 ---
