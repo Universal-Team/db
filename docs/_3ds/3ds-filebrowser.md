@@ -26,7 +26,7 @@ llm_usage: undisclosed
 qr:
   3ds-filebrowser.cia: https://db.universal-team.net/assets/images/qr/3ds-filebrowser-cia.png
 source: https://github.com/ZIXT233/3DS-FileBrowser
-stars: 18
+stars: 19
 systems:
 - 3DS
 title: 3DS-FileBrowser
