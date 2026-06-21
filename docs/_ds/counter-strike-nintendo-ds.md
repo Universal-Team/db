@@ -24,7 +24,7 @@ image_length: 630
 layout: app
 llm_usage: none
 source: https://github.com/Fewnity/Counter-Strike-Nintendo-DS
-stars: 236
+stars: 237
 systems:
 - DS
 title: Counter-Strike-Nintendo-DS
