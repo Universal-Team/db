@@ -12,13 +12,13 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   README.md:
-    size: 47717
+    size: 48071
     size_str: 46 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.2/README.md
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.3/README.md
   StellaDS.nds:
-    size: 1716736
+    size: 1717248
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.2/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.3/StellaDS.nds
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -34,17 +34,17 @@ stars: 51
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">8.2 : 12-Apr-2026 by wavemotion-dave</p>
+update_notes: '<p dir="auto">8.3 : 21-June-2026 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>New NTSC (60Hz) and PAL (50Hz) ''True-Sync'' to reduce tearing and other video
-  artifacts from screen rendering on the DS/DSi.</li>
+  <li>Improved CDFJ+ driver to eek out another frame or two.</li>
 
-  <li>Improved accuracy on SB (SuperBanking) carts.</li>
+  <li>Optimized for the new Zaxxon Arcade from Champ Games so it runs full speed on
+  DSi or above.</li>
 
   </ul>'
-updated: '2026-04-12T12:13:22Z'
-version: '8.2'
-version_title: Version 8.2
+updated: '2026-06-21T12:24:35Z'
+version: '8.3'
+version_title: Version 8.3
 ---
