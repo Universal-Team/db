@@ -24,7 +24,7 @@ image_length: 33969
 layout: app
 llm_usage: undisclosed
 source: https://github.com/TehFridge/ShutTheCamUp
-stars: 57
+stars: 58
 systems:
 - 3DS
 title: Shut The Cam Up
