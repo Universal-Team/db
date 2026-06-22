@@ -67,7 +67,7 @@ layout: compress
 											{% endif %}
 											{% if page.stars > 0 %}
 												<br>
-												<span class="i18n innerHTML-stars">Stars: </span>{{ page.stars }}
+												<span class="i18n innerHTML-stars">Stars: </span><span class="i18n-number" data-value="{{ page.stars }}">{{ page.stars }}</span>
 											{% endif %}
 											{% if page.llm_generation %}
 												<br>

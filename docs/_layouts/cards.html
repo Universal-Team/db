@@ -23,7 +23,7 @@ layout: compress
 								{{ page.description | escape }}
 							</div>
 						{% endif %}
-						
+
 						{% if page.system %}
 							<div class="d-none">
 								{% include script-show.html %}
@@ -42,7 +42,7 @@ layout: compress
 								</div>
 							</div>
 						{% endif %}
-						
+
 						{% if page.system == "3ds" %}
 							{% assign cards = site["3ds"] %}
 						{% elsif page.system == "ds" %}
@@ -83,7 +83,7 @@ layout: compress
 														<small class="d-block text-center mb-3">
 															{{ app.author }}
 															{% if app.stars > 0 %}
-																– {{ app.stars }} ☆
+																– <span class="i18n-number" data-value="{{ app.stars }}">{{ app.stars }}</span> ☆
 															{% endif %}
 														</small>
 														<p class="card-text">{{ app.description | escape }}</p>
@@ -144,6 +144,12 @@ layout: compress
 																<span class="i18n innerHTML-unique-ids">Unique IDs:</span>
 															{% endif %}
 															{{ app.unique_ids | join: ", " }}
+														{% endif %}
+														{% if app.llm_generation != "unknown" %}
+															<br>
+															<span class="i18n innerHTML-llm-generation">LLM generated content: </span>
+															{% assign llm = app.llm_generation | prepend: "llm-" %}
+															{{ site.data.i18n.en-US[llm] }}
 														{% endif %}
 													</small>
 												</div>
