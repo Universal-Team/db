@@ -28,7 +28,7 @@ llm_generation: minor
 qr:
   nightclock.cia: https://db.universal-team.net/assets/images/qr/nightclock-cia.png
 source: https://github.com/Michele-3ds/NightClock
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: NightClock
