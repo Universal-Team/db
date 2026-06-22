@@ -6,7 +6,7 @@
 	"categories": [
 		"app"
 	],
-	"llm_usage": "generation",
+	"llm_generation": true,
 	"icon": "https://raw.githubusercontent.com/Michele-3ds/NightClock/main/icon.png",
 	"image": "https://raw.githubusercontent.com/Michele-3ds/NightClock/main/banner.png",
 	"unique_ids": [

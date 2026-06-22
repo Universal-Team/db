@@ -8,7 +8,7 @@
 		"utility",
 		"app"
 	],
-	"llm_usage": "generation",
+	"llm_generation": true,
 	"icon": "https://raw.githubusercontent.com/DisLoPik/Tor3ds/refs/heads/main/icon.png",
 	"image": "https://raw.githubusercontent.com/DisLoPik/Tor3ds/refs/heads/main/banner.png",
 	"unique_ids": [

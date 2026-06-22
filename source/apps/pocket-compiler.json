@@ -7,7 +7,7 @@
 		"utility",
 		"app"
 	],
-	"llm_usage": "generation",
+	"llm_generation": true,
 	"long_description": "An almost fully featured HTML/JS/CSS compiler application made for 3DS/n3DS consoles. Includes iframes, limited WebGL support, limited Canvas support, Audio Support, and a clean UI!",
 	"wiki": "https://github.com/PlanetDogeCodes/Pocket-Compiler/blob/main/README.md"
 }

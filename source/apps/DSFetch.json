@@ -6,7 +6,7 @@
 	"categories": [
 		"utility"
 	],
-	"llm_usage": "generation",
+	"llm_generation": true,
 	"image": "https://raw.githubusercontent.com/xPsycho999/DSFetch/main/icons/banner.png",
 	"icon": "https://raw.githubusercontent.com/xPsycho999/DSFetch/main/icons/icon.png"
 }

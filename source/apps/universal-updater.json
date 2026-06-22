@@ -11,7 +11,7 @@
 	"unique_ids": [
 		276759
 	],
-	"llm_usage": "none",
+	"llm_generation": false,
 	"github": "Universal-Team/Universal-Updater",
 	"unistore_exclude": true
 }

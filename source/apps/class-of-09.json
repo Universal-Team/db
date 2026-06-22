@@ -3,7 +3,7 @@
 	"title": "Class of '09",
 	"description": "3DS port of the visual novel Class of '09",
 	"author": "the gabe",
-	"llm_usage": "none",
+	"llm_generation": false,
 	"systems": [
 		"3DS"
 	],

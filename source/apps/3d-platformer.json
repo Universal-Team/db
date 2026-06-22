@@ -6,6 +6,6 @@
 	"categories": [
 		"game"
 	],
-	"llm_usage": "none",
+	"llm_generation": false,
 	"icon": "https://raw.githubusercontent.com/Tikman420/3d-platformer/master/icon.png"
 }

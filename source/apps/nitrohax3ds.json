@@ -8,6 +8,6 @@
 	"categories": [
 		"utility"
 	],
-	"llm_usage": "none",
+	"llm_generation": false,
 	"icon": "https://raw.githubusercontent.com/Epicpkmn11/NitroHax3DS/master/icon.bmp"
 }

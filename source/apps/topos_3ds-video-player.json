@@ -7,7 +7,7 @@
 	"categories": [
 		"app"
 	],
-	"llm_usage": "generation",
+	"llm_generation": true,
 	"icon": "https://raw.githubusercontent.com/mockmodular/topos_3ds-video-player/main/resource/icon.png",
 	"download_filter": "(3dsx|cia)"
 }
