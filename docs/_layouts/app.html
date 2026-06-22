@@ -69,12 +69,11 @@ layout: compress
 												<br>
 												<span class="i18n innerHTML-stars">Stars: </span>{{ page.stars }}
 											{% endif %}
-											{% if page.llm_usage %}
+											{% if page.llm_generation %}
 												<br>
-												<span class="i18n innerHTML-llm-usage">LLM Usage: </span>
-												{% assign llm = page.llm_usage | prepend: "llm-" %}
+												<span class="i18n innerHTML-llm-generation">LLM generated content: </span>
+												{% assign llm = page.llm_generation | prepend: "llm-" %}
 												{{ site.data.i18n.en-US[llm] }}
-												<a href="/llm-policy#definitions">(what's this?)</a>
 											{% endif %}
 											{% if page.unique_ids.size >= 1 %}
 												<br>

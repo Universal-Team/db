@@ -3,7 +3,6 @@
 	"title-3ds": "3DS | Universal-DB",
 	"title-ds": "DS | Universal-DB",
 	"title-app-request": "App Request | Universal-DB",
-	"title-llm-usage-policy": "LLM Usage Policy | Universal-DB",
 	"title-error-404": "Error 404 | Universal-DB",
 	"by": "By: <a href=\"https://universal-team.net/\" class=\"link\">Universal-Team</a>",
 	"published-with": "Published with <a href=\"https://pages.github.com\">GitHub Pages</a>, view <a href=\"https://github.com/${repo}\">the source</a> on GitHub.",
@@ -41,7 +40,6 @@
 	"catdesc-utility": "Utilities to help manage your DS, from file managers to save editors",
 	"catdesc-translation": "Translations of existing apps into other languages",
 	"submit-app-request": "Submit app request",
-	"llm-policy": "LLM Policy",
 	"sort": "Sort:",
 	"title": "Title",
 	"author": "Author",
@@ -56,7 +54,7 @@
 	"created": "Created: ",
 	"last-updated": "Last updated: ",
 	"license": "License: ",
-	"llm-usage": "LLM Usage: ",
+	"llm-generation": "LLM generated content: ",
 	"stars": "Stars: ",
 	"system": "System: ",
 	"unique-id": "Unique ID: ",
@@ -88,8 +86,7 @@
 	"last-updated-apps": "Last updated: ",
 	"error-404": "Error! 404!",
 	"return-to-home": "Return to the <a href=\"/\">home page</a> or <span class=\"a\" onclick=\"window.history.back()\">go back</span> to the previous page.",
-	"llm-none": "None",
-	"llm-assistance": "LLM Assistance",
-	"llm-generation": "LLM Generation",
-	"llm-undisclosed": "Undisclosed"
+	"llm-yes": "Yes",
+	"llm-no": "No",
+	"llm-unknown": "Unknown"
 }

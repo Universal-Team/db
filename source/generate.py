@@ -467,12 +467,20 @@ def handle_gitlab_app(app: Dict[str, Any]):
 def create_web_file(app: Dict[str, Any]):
 	web = app.copy()
 	web["layout"] = "app"
+
 	# We want unique IDs as hex
 	if "unique_ids" in web:
 		web["unique_ids"] = [f"0x{uid:X}" for uid in web["unique_ids"]]
+
+	# Convert LLM generation to strings
+	if "llm_generation" in web:
+		llm_map = {True: "yes", False: "no", None: "unknown"}
+		web["llm_generation"] = llm_map[web["llm_generation"]]
+
 	# long description is put as the content
 	if "long_description" in web:
 		web.pop("long_description")
+
 	# Remove large things that aren't needed
 	if "update_notes_md" in web:
 		web.pop("update_notes_md")
@@ -488,6 +496,7 @@ def create_web_file(app: Dict[str, Any]):
 		web.pop("icon_index")
 	if "installed_files" in web:
 		web.pop("installed_files")
+
 	# Add defaults where absolutely needed
 	if "systems" not in web:
 		web["systems"] = ["3DS"]  # default to 3DS
@@ -623,11 +632,11 @@ def process_app_entry(app: Dict[str, Any], fp: str, icon_idx: int, github_api: G
 												   		 context=app["github"] if "github" in app else None)
 
 	# Set LLM usage
-	if "llm_usage" not in app:
-		app["llm_usage"] = "undisclosed"
+	if "llm_generation" not in app:
+		app["llm_generation"] = None  # null == undisclosed
 
 		if "updated" in app and parser.parse(app["updated"]).year < 2023:
-			app["llm_usage"] = "none"
+			app["llm_generation"] = False
 
 	# Prematurely stop here, if no DOCS_DIR.
 	# CLI normally checks for DOCS_DIR, if this is the all command

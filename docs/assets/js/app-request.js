@@ -8,14 +8,14 @@ let git = {
 	repo: null,
 };
 
-let types = {
-	string: String,
-	textarea: String,
-	image: String,
-	array: Array,
-	multiselect: Array,
-	radio: String,
-	bool: Boolean,
+let defaults = {
+	string: "",
+	textarea: "",
+	image: "",
+	array: [],
+	multiselect: [],
+	radio: "",
+	bool: false,
 };
 
 let appInfo = {};
@@ -30,7 +30,7 @@ let appSchema = {
 	// Required
 	systems: {label: "Native Systems", type: "multiselect", required: true, values: ["3DS", "DS"], labels: ["3DS", "DS"]},
 	categories: {label: "Categories", type: "multiselect", required: true, values: ["game", "emulator", "exploit", "app", "utility", "save-tool", "firm"], labels: ["Game", "Emulator", "Exploit", "App", "Utility", "Save Tool", "FIRM"]},
-	llm_usage: {label: "LLM Usage", help: "See the LLM Policy (link in the nav bar) for details and advice.", type: "radio", required: true, values: ["none", "minor", "major", "undisclosed"], labels: ["None", "Minor", "Major", "Undisclosed"], default: "undisclosed", disableAutofill: true},
+	llm_generation: {label: "LLM Generated Content", help: "See the LLM Policy (link in the nav bar) for details.", type: "radio", required: true, values: [true, false], labels: ["Yes", "No"]},
 	icon: {label: "Icon", help: "Preferably 48x48 or 32x32. The icon is not technically necessary, avatar will be used as a fallback, but I didn't want people to skip it. Copy the avatar URL if you don't have an icon.", type: "image", required: true},
 	image: {label: "Banner Image", help: "Preferably a 3DS banner (256x128). Displayed on the Universal-DB website.", type: "image"},
 	// Common
@@ -100,6 +100,16 @@ function error(errorMessage) {
 	errorDiv.classList.add("alert", "alert-danger");
 	errorDiv.innerText = errorMessage;
 	errorDiv.scrollIntoView();
+}
+
+function checkBoolean(value) {
+	const booleanMap = {
+		"true": true,
+		"false": false,
+		"null": null
+	};
+
+	return (value in booleanMap) ? booleanMap[value] : value;
 }
 
 function getSlug(str) {
@@ -209,7 +219,6 @@ function createInput(item, key) {
 			let id = event.target.id;
 			if(appSchema[id].validate) {
 				let res = item.validate(event.target.value);
-				console.log(res)
 				if(res.status) {
 					appInfo[id] = res.value;
 					event.target.value = item.type == "array" ? res.value.join(", ") : res.value;
@@ -245,7 +254,6 @@ function createInput(item, key) {
 			let id = event.target.id;
 			if(appSchema[id].validate) {
 				let res = appSchema[id].validate(event.target.checked);
-				console.log(res)
 				if(res.status) {
 					appInfo[id] = res.value;
 					event.target.checked = res.value;
@@ -292,7 +300,7 @@ function createInput(item, key) {
 				input.addEventListener("change", event => {
 					clearError();
 					let [id, value] = event.target.id.split("-");
-					appInfo[id] = value;
+					appInfo[id] = checkBoolean(value);
 
 					let reset = document.getElementById(id + "-reset");
 					if(reset) {
@@ -326,7 +334,7 @@ function fillInfo() {
 	for(let key in appSchema) {
 		let item = appSchema[key];
 
-		appInfo[key] = (item.default && !item.disableAutofill) ? item.default : new types[item.type];
+		appInfo[key] = (item.default && !item.disableAutofill) ? item.default : defaults[item.type];
 
 		if(item.hidden)
 			continue;
@@ -411,8 +419,8 @@ async function exportJson() {
 			case "textarea":
 			case "image":
 			case "radio":
-				blank = item == "";
-			break;
+				blank = item === "";
+				break;
 			case "array":
 			case "multiselect":
 				blank = item.length == 0;

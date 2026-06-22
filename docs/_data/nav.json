@@ -106,9 +106,5 @@
 	{
 		"title": "Submit app request",
 		"url": "/app-request"
-	},
-	{
-		"title": "LLM Policy",
-		"url": "/llm-policy"
 	}
 ]

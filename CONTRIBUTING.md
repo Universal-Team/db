@@ -14,6 +14,8 @@ Any app requests must conform to the following rules before they can be added to
     - Ideally, forks that only add "more functionality" or different translations should be Pull Requests into the original project's repository rather than being a separate app.
     - If the project that you're forking doesn't have translations, chances are it's not needed.
 1. App must be for the 3DS or DS (e.g. not a VC inject)
+1. LLM generated content must be properly declared
+   - Any app found to have deliberately misdeclared LLM usage will be removed, if LLM usage changes after submission please just notify the maintainers
 
 ### Recommendations
 These are not strict requirements, but are strongly recommended:
@@ -22,3 +24,9 @@ These are not strict requirements, but are strongly recommended:
    - Bitbucket is also supported but not as well. Other sites can be added if they have a good API for it
 1. Have a place for public discussion of your app (e.g GitHub Discussions, GBAtemp, Discord server, etc)
 1. If a online service component exists, try to make it open source and allow the URL which the apps connects with to be changed, in case the service goes down
+
+## LLM/AI Agent Policy
+- Usage of LLM tools in the process of making apps being submitted to Universal-DB is **okay** so long as it is indicated properly
+- Usage of LLM tools to generate code or other assets for Universal-DB **itself** is **prohibited**
+- Usage of LLM tools to write descriptions for pull requests or issues is **prohibited**
+   - Please just take a second to write it yourself, a sentence or two usually suffices
