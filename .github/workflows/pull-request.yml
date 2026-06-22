@@ -1,15 +1,22 @@
 name: Pull request check
 on:
-  pull_request:
+  pull_request_target:
 
 jobs:
   run:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v6
+    - name: Checkout upstream
+      uses: actions/checkout@v7
+
+    - name: Checkout HEAD
+      uses: actions/checkout@v7
       with:
         fetch-depth: 2
+        path: pull-request
+        ref: ${{ github.event.pull_request.head.sha }}
+        allow-unsafe-pr-checkout: true
 
     - name: Prepare environment
       run: |
@@ -19,18 +26,24 @@ jobs:
       env:
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        UPDATED_APPS=$(git diff --name-only HEAD~1 | grep source/apps || true)
+        UPDATED_APPS=($(git -C pull-request diff --name-only HEAD~1 | grep source/apps || true))
 
         echo $UPDATED_APPS
         if [ -n "$UPDATED_APPS" ]; then
           echo '<details><summary>Test Results</summary>' > results.txt
           echo '' >> results.txt
           echo '```json' >> results.txt
-          source/generate.py app-test $UPDATED_APPS >> results.txt
+          source/generate.py app-test ${UPDATED_APPS/#/pull-request/} >> results.txt
           if [ $? -eq 0 ]; then
             echo yes
             echo '```' >> results.txt
             cat results.txt | grep -o 'https://.*\.png' >> results.txt
+
+            cat results.txt | grep '"llm_generation": null'
+            if [ $? -eq 0 ]; then
+              echo Warning: LLM generated content status undeclared! >> results.txt
+            fi
+
             echo '</details>' >> results.txt
           else
             echo no
@@ -40,8 +53,8 @@ jobs:
 
         cat results.txt
 
-#    - name: Comment results
-#      if: ${{ hashFiles('results.txt') != '' }}
-#      uses: thollander/actions-comment-pull-request@v3
-#      with:
-#        file-path: results.txt
+    - name: Comment results
+      if: ${{ hashFiles('results.txt') != '' }}
+      uses: thollander/actions-comment-pull-request@v3
+      with:
+        file-path: results.txt
