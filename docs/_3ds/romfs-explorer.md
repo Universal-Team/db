@@ -20,7 +20,7 @@ image_length: 19162
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_generation: 'no'
+llm_generation: false
 source: https://github.com/Ryuzaki-MrL/RomFS-Explorer
 stars: 8
 systems:

@@ -20,7 +20,7 @@ image_length: 224
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: unknown
+llm_generation: null
 source: https://github.com/asiekierka/uxnds
 stars: 173
 systems:

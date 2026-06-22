@@ -18,7 +18,7 @@ icon: https://raw.githubusercontent.com/amedeo463/pie3ds/main/icon.png
 image: https://raw.githubusercontent.com/amedeo463/pie3ds/main/icon.png
 image_length: 390
 layout: app
-llm_generation: unknown
+llm_generation: null
 source: https://github.com/amedeo463/pie3ds
 stars: 1
 systems:

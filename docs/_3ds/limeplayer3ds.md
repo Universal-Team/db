@@ -20,7 +20,7 @@ image_length: 13104
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_generation: 'no'
+llm_generation: false
 screenshots:
 - description: File list
   url: https://db.universal-team.net/assets/images/screenshots/limeplayer3ds/file-list.png

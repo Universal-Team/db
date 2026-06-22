@@ -18,7 +18,7 @@ icon: https://raw.githubusercontent.com/SaturnSH2x2/PayloadSpinner3DS/master/ass
 image: https://raw.githubusercontent.com/SaturnSH2x2/PayloadSpinner3DS/master/assets/banner.png
 image_length: 5392
 layout: app
-llm_generation: 'no'
+llm_generation: false
 qr:
   PayloadSpinner3DS.cia: https://db.universal-team.net/assets/images/qr/payloadspinner3ds-cia.png
 source: https://github.com/SaturnSH2x2/PayloadSpinner3DS

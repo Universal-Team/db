@@ -13,7 +13,7 @@ icon: https://db.universal-team.net/assets/images/icons/picodrivetwl.png
 image: https://db.universal-team.net/assets/images/images/picodrivetwl.png
 image_length: 466
 layout: app
-llm_generation: 'no'
+llm_generation: false
 prerelease:
   download_page: https://github.com/DS-Homebrew/PicoDriveTWL/releases/tag/v2.0.2
   downloads:

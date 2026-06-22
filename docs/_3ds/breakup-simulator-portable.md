@@ -20,7 +20,7 @@ image_length: 58937
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: unknown
+llm_generation: null
 screenshots:
 - description: Screenshot
   url: https://db.universal-team.net/assets/images/screenshots/breakup-simulator-portable/screenshot.png

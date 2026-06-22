@@ -20,7 +20,7 @@ image_length: 18127
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: 'no'
+llm_generation: false
 source: https://github.com/reworks-org/3DS_eBook_Reader
 stars: 27
 systems:

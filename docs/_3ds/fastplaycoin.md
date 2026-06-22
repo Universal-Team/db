@@ -22,7 +22,7 @@ icon: https://raw.githubusercontent.com/CorySanin/FastPlayCoin/master/resource/i
 image: https://raw.githubusercontent.com/CorySanin/FastPlayCoin/master/resource/banner.png
 image_length: 19045
 layout: app
-llm_generation: 'no'
+llm_generation: false
 qr:
   FastPlayCoin.cia: https://db.universal-team.net/assets/images/qr/fastplaycoin-cia.png
 source: https://github.com/CorySanin/FastPlayCoin

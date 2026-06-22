@@ -22,7 +22,7 @@ icon: https://raw.githubusercontent.com/Sunrase/Pong-Pokemon-3ds/main/icon.png
 image: https://raw.githubusercontent.com/Sunrase/Pong-Pokemon-3ds/main/banner.png
 image_length: 57509
 layout: app
-llm_generation: unknown
+llm_generation: null
 qr:
   Pong_Pokemon.cia: https://db.universal-team.net/assets/images/qr/pong_pokemon-cia.png
 screenshots:

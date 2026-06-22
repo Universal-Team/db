@@ -20,7 +20,7 @@ image_length: 1028
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: unknown
+llm_generation: null
 source: https://github.com/Foxy-no/GESF3
 stars: 0
 systems:

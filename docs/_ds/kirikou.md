@@ -23,7 +23,7 @@ icon: https://db.universal-team.net/assets/images/icons/kirikou.png
 image: https://db.universal-team.net/assets/images/icons/kirikou.png
 image_length: 632
 layout: app
-llm_generation: 'no'
+llm_generation: false
 qr:
   kirikou.nds: https://db.universal-team.net/assets/images/qr/kirikou-nds.png
   kirikou2.nds: https://db.universal-team.net/assets/images/qr/kirikou2-nds.png

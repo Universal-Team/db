@@ -18,7 +18,7 @@ icon: https://raw.githubusercontent.com/ConstantinZpher/Space-Invaders-3DS/refs/
 image: https://raw.githubusercontent.com/ConstantinZpher/Space-Invaders-3DS/refs/heads/master/icon.png
 image_length: 9778
 layout: app
-llm_generation: unknown
+llm_generation: null
 source: https://github.com/ConstantinZpher/Space-Invaders-3DS
 stars: 0
 systems:

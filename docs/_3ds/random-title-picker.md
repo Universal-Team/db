@@ -22,7 +22,7 @@ icon: https://raw.githubusercontent.com/einso/3ds-randomtitlepicker/main/icon.pn
 image: https://raw.githubusercontent.com/einso/3ds-randomtitlepicker/main/icon.png
 image_length: 4716
 layout: app
-llm_generation: unknown
+llm_generation: null
 qr:
   RandomTitlePicker.cia: https://db.universal-team.net/assets/images/qr/randomtitlepicker-cia.png
 source: https://github.com/einso/3ds-randomtitlepicker

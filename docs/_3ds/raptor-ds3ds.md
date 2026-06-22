@@ -26,7 +26,7 @@ image_length: 48397
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
-llm_generation: unknown
+llm_generation: null
 script_message: 'Note: You will need "FILE0002.GLB", "FILE0003.GLB",
 
   and "FILE0004.GLB" from the v1.2 DOS version the in

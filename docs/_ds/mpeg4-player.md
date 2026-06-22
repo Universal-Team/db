@@ -15,7 +15,7 @@ github: Gericom/YouTubeDS
 image: https://avatars.githubusercontent.com/u/5251038?v=4&size=128
 image_length: 43557
 layout: app
-llm_generation: 'no'
+llm_generation: false
 source: https://github.com/Gericom/YoutubeDS/tree/mpeg4player
 stars: 71
 systems:

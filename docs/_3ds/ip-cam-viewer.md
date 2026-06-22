@@ -26,7 +26,7 @@ image_length: 3574
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: unknown
+llm_generation: null
 qr:
   ipwebcv.cia: https://db.universal-team.net/assets/images/qr/ipwebcv-cia.png
 source: https://github.com/MC-Gaming-59o/Homebrew-3DS-IP-Webcam-Viewer

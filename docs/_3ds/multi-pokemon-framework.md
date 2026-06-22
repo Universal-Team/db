@@ -20,7 +20,7 @@ image_length: 1566
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_generation: unknown
+llm_generation: null
 source: https://github.com/semaj14/Multi-PokemonFramework
 stars: 59
 systems:

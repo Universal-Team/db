@@ -24,7 +24,7 @@ image_length: 3609
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_generation: 'no'
+llm_generation: false
 nightly:
   download_page: https://github.com/Universal-Team/Universal-Edit/releases/tag/git
   downloads:

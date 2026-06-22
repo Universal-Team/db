@@ -13,7 +13,7 @@ icon: https://raw.githubusercontent.com/nop90/Neopop-SDL/master/resources/icon.p
 image: https://raw.githubusercontent.com/nop90/Neopop-SDL/master/resources/banner.png
 image_length: 37739
 layout: app
-llm_generation: 'no'
+llm_generation: false
 prerelease:
   download_page: https://github.com/nop90/Neopop-SDL/releases/tag/v0.4
   downloads:

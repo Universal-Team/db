@@ -24,7 +24,7 @@ icon: https://raw.githubusercontent.com/Sunrase/AudioSwitcher3ds/refs/heads/main
 image: https://raw.githubusercontent.com/Sunrase/AudioSwitcher3ds/refs/heads/main/banner.png
 image_length: 8562
 layout: app
-llm_generation: unknown
+llm_generation: null
 qr:
   AudioSwitcher.cia: https://db.universal-team.net/assets/images/qr/audioswitcher-cia.png
 source: https://github.com/Sunrase/AudioSwitcher3ds

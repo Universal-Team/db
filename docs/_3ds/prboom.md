@@ -28,7 +28,7 @@ image_length: 37543
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
-llm_generation: unknown
+llm_generation: null
 qr:
   PrBoom-Plus.cia: https://db.universal-team.net/assets/images/qr/prboom-plus-cia.png
 screenshots:

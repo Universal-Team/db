@@ -20,7 +20,7 @@ image_length: 12131
 layout: app
 license: other
 license_name: Other
-llm_generation: unknown
+llm_generation: null
 source: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin
 stars: 166
 systems:

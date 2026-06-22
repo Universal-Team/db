@@ -25,7 +25,7 @@ image_length: 6073
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: unknown
+llm_generation: null
 qr:
   WifiManager.cia: https://db.universal-team.net/assets/images/qr/wifimanager-cia.png
 source: https://github.com/Zakary2841/WifiManager

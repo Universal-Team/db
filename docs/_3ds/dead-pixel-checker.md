@@ -19,7 +19,7 @@ icon: https://raw.githubusercontent.com/classyham/3DS_DeadPixelChecker/refs/head
 image: https://raw.githubusercontent.com/classyham/3DS_DeadPixelChecker/refs/heads/main/icon.png
 image_length: 2970
 layout: app
-llm_generation: unknown
+llm_generation: null
 screenshots:
 - description: _11.03.25_19.21.21.247
   url: https://db.universal-team.net/assets/images/screenshots/dead-pixel-checker/_11.03.25_19.21.21.247.png

@@ -22,7 +22,7 @@ icon: https://raw.githubusercontent.com/ArcadeJumpers/RenewedSolitude3DS/master/
 image: https://raw.githubusercontent.com/ArcadeJumpers/RenewedSolitude3DS/master/icon.png
 image_length: 5116
 layout: app
-llm_generation: 'no'
+llm_generation: false
 qr:
   RenewedSolitude.cia: https://db.universal-team.net/assets/images/qr/renewedsolitude-cia.png
 source: https://github.com/ArcadeJumpers/RenewedSolitude3DS

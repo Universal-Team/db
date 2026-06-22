@@ -28,7 +28,7 @@ icon: https://db.universal-team.net/assets/images/icons/colecods.png
 image: https://raw.githubusercontent.com/wavemotion-dave/ColecoDS/main/arm9/gfx_data/pdev_tbg0.png
 image_length: 15870
 layout: app
-llm_generation: unknown
+llm_generation: null
 qr:
   ColecoDS.nds: https://db.universal-team.net/assets/images/qr/colecods-nds.png
 source: https://github.com/wavemotion-dave/ColecoDS

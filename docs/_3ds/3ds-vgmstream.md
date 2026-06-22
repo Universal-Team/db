@@ -24,7 +24,7 @@ image_length: 2549
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_generation: 'no'
+llm_generation: false
 qr:
   3ds-vgmstream.cia: https://db.universal-team.net/assets/images/qr/3ds-vgmstream-cia.png
 source: https://github.com/TricksterGuy/3ds-vgmstream

@@ -18,7 +18,7 @@ icon: https://db.universal-team.net/assets/images/icons/falling-blocks-watch-out
 image: https://db.universal-team.net/assets/images/images/falling-blocks-watch-out.png
 image_length: 1112
 layout: app
-llm_generation: 'no'
+llm_generation: false
 source: https://github.com/Spaqin/fbwo-3ds
 stars: 12
 systems:

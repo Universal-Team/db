@@ -21,7 +21,7 @@ image_length: 43839
 layout: app
 license: mpl-2.0
 license_name: Mozilla Public License 2.0
-llm_generation: unknown
+llm_generation: null
 nightly:
   download_page: https://mgba.io/downloads.html#development-downloads
   downloads:

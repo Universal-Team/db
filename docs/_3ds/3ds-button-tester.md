@@ -23,7 +23,7 @@ icon: https://raw.githubusercontent.com/TheCoolesttOne/3DS-Button-Test/refs/head
 image: https://raw.githubusercontent.com/TheCoolesttOne/3DS-Button-Test/refs/heads/main/icon.png
 image_length: 2070
 layout: app
-llm_generation: unknown
+llm_generation: null
 qr:
   Button.Tester.cia: https://db.universal-team.net/assets/images/qr/button-tester-cia.png
 source: https://github.com/TheCoolesttOne/3DS-Button-Test

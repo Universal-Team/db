@@ -22,7 +22,7 @@ github: SFC-hacker/Mario-Kart-7-Plugin-Deluxe
 image: https://avatars.githubusercontent.com/u/67318218?v=4&size=128
 image_length: 4505
 layout: app
-llm_generation: unknown
+llm_generation: null
 script_message: 'Warning: If you are caught cheating
 
   in a public room you will be banned from

@@ -22,7 +22,7 @@ icon: https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/icon.pn
 image: https://raw.githubusercontent.com/nop90/ZeldaROTH/master/resources/banner.png
 image_length: 7049
 layout: app
-llm_generation: 'no'
+llm_generation: false
 source: https://github.com/nop90/ZeldaROTH
 stars: 31
 systems:

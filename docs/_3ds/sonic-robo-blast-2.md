@@ -22,7 +22,7 @@ icon: https://github.com/derrekr/srb2_3ds/raw/master/meta/icon.png
 image: https://github.com/derrekr/srb2_3ds/raw/master/meta/icon.png
 image_length: 7028
 layout: app
-llm_generation: 'no'
+llm_generation: false
 source: https://github.com/derrekr/srb2_3ds
 stars: 55
 systems:

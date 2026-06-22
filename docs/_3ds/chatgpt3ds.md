@@ -21,7 +21,7 @@ image_length: 10907
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: unknown
+llm_generation: null
 screenshots:
 - description: Generated image
   url: https://db.universal-team.net/assets/images/screenshots/chatgpt3ds/generated-image.png

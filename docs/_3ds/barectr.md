@@ -18,7 +18,7 @@ icon: https://raw.githubusercontent.com/DotNetttt/BareCTR/refs/heads/main/data/i
 image: https://raw.githubusercontent.com/DotNetttt/BareCTR/refs/heads/main/data/icon.png
 image_length: 4875
 layout: app
-llm_generation: 'yes'
+llm_generation: minor
 source: https://github.com/DotNetttt/BareCTR
 stars: 2
 systems:

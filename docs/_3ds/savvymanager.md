@@ -26,7 +26,7 @@ image_length: 42810
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: unknown
+llm_generation: null
 qr:
   SavvyManager.cia: https://db.universal-team.net/assets/images/qr/savvymanager-cia.png
 screenshots:

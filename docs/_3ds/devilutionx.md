@@ -25,7 +25,7 @@ image_length: 37280
 layout: app
 license: other
 license_name: Other
-llm_generation: unknown
+llm_generation: null
 qr:
   devilutionx-3ds.cia: https://db.universal-team.net/assets/images/qr/devilutionx-3ds-cia.png
 script_message: 'You need the game files from your CD/GOG in

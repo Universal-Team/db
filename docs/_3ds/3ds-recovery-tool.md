@@ -24,7 +24,7 @@ image_length: 16291
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: 'no'
+llm_generation: false
 qr:
   3DS_Recovery_Tool.cia: https://db.universal-team.net/assets/images/qr/3ds_recovery_tool-cia.png
 source: https://github.com/joel16/3DS-Recovery-Tool

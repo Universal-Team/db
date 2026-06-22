@@ -20,7 +20,7 @@ image_length: 27384
 layout: app
 license: other
 license_name: Other
-llm_generation: 'no'
+llm_generation: false
 qr:
   EzB9SUpdater.cia: https://db.universal-team.net/assets/images/qr/ezb9supdater-cia.png
 screenshots:

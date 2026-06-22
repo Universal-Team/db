@@ -18,7 +18,7 @@ icon: https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/icon.pn
 image: https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/banner.png
 image_length: 21816
 layout: app
-llm_generation: 'no'
+llm_generation: false
 source: https://github.com/nop90/Xrick-3ds
 stars: 2
 systems:

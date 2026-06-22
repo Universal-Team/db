@@ -21,7 +21,7 @@ image_length: 29770
 layout: app
 license: other
 license_name: Other
-llm_generation: 'no'
+llm_generation: false
 source: https://github.com/nop90/Griffon-Legend-3DS
 stars: 10
 systems:

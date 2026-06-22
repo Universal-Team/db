@@ -25,7 +25,7 @@ image_length: 92320
 layout: app
 license: other
 license_name: Other
-llm_generation: unknown
+llm_generation: null
 prerelease:
   download_page: https://github.com/gamestabled/OoT3D_Randomizer/releases/tag/Nightly-4eabf8
   downloads:

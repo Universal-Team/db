@@ -22,7 +22,7 @@ icon: https://raw.githubusercontent.com/masterfeizz/ctrQuake/master/icon.png
 image: https://db.universal-team.net/assets/images/images/ctrquake.png
 image_length: 3405
 layout: app
-llm_generation: 'no'
+llm_generation: false
 qr:
   ctrQuake.cia: https://db.universal-team.net/assets/images/qr/ctrquake-cia.png
 source: https://github.com/masterfeizz/ctrQuake

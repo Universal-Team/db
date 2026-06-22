@@ -22,7 +22,7 @@ icon: https://db.universal-team.net/assets/images/icons/dscraft.png
 image: https://raw.githubusercontent.com/smealum/dscraft/master/site/dscraft-logo.png
 image_length: 2429
 layout: app
-llm_generation: 'no'
+llm_generation: false
 source: https://github.com/smealum/dscraft
 stars: 66
 systems:

@@ -28,7 +28,7 @@ image_length: 573
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: 'no'
+llm_generation: false
 qr:
   FBI.cia: https://db.universal-team.net/assets/images/qr/fbi-cia.png
 source: https://github.com/nh-server/FBI-NH

@@ -13,7 +13,7 @@ icon: https://raw.githubusercontent.com/ashbit06/RanGen-3DS/refs/heads/master/ic
 image: https://raw.githubusercontent.com/ashbit06/RanGen-3DS/refs/heads/master/icon.png
 image_length: 1480
 layout: app
-llm_generation: unknown
+llm_generation: null
 prerelease:
   download_page: https://github.com/ashbit06/RanGen-3DS/releases/tag/v0.1.1-alpha
   downloads:

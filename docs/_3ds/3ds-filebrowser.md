@@ -22,7 +22,7 @@ icon: https://raw.githubusercontent.com/ZIXT233/3DS-FileBrowser/master/meta/icon
 image: https://raw.githubusercontent.com/ZIXT233/3DS-FileBrowser/master/meta/banner.png
 image_length: 29741
 layout: app
-llm_generation: unknown
+llm_generation: null
 qr:
   3ds-filebrowser.cia: https://db.universal-team.net/assets/images/qr/3ds-filebrowser-cia.png
 source: https://github.com/ZIXT233/3DS-FileBrowser

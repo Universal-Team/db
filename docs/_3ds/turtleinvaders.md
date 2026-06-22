@@ -20,7 +20,7 @@ image_length: 1778
 layout: app
 license: other
 license_name: Other
-llm_generation: 'no'
+llm_generation: false
 source: https://github.com/TurtleP/TurtleInvaders
 stars: 9
 systems:

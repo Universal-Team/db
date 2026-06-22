@@ -22,7 +22,7 @@ icon: https://raw.githubusercontent.com/lartodor/CosmicDrift-for-the-Nintendo-3D
 image: https://raw.githubusercontent.com/lartodor/CosmicDrift-for-the-Nintendo-3DS/main/banner.png
 image_length: 4324
 layout: app
-llm_generation: unknown
+llm_generation: null
 qr:
   CosmicDrift.cia: https://db.universal-team.net/assets/images/qr/cosmicdrift-cia.png
 source: https://github.com/lartodor/CosmicDrift-for-the-Nintendo-3DS

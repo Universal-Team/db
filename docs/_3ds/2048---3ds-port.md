@@ -20,7 +20,7 @@ image_length: 2770
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: unknown
+llm_generation: null
 source: https://github.com/0rientd/2048-port-3ds
 stars: 2
 systems:

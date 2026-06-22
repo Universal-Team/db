@@ -18,7 +18,7 @@ icon: https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/icon.png
 image: https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/resources/banner.png
 image_length: 5927
 layout: app
-llm_generation: 'no'
+llm_generation: false
 source: https://github.com/mrdanielps/r3Ddragon
 stars: 131
 systems:

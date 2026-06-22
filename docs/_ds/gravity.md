@@ -20,7 +20,7 @@ image_length: 630
 layout: app
 license: bsd-2-clause
 license_name: BSD 2-Clause "Simplified" License
-llm_generation: 'no'
+llm_generation: false
 qr:
   gravity.nds: https://db.universal-team.net/assets/images/qr/gravity-nds.png
 source: https://github.com/Garhoogin/Gravity

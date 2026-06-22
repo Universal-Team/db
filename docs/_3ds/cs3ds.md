@@ -13,7 +13,7 @@ icon: https://raw.githubusercontent.com/machinamentum/CS3DS/master/jge/Projects/
 image: https://db.universal-team.net/assets/images/images/cs3ds.png
 image_length: 9552
 layout: app
-llm_generation: 'no'
+llm_generation: false
 prerelease:
   download_page: https://github.com/machinamentum/CS3DS/releases/tag/0.6-alpha
   downloads:

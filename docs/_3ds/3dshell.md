@@ -23,7 +23,7 @@ icon: https://raw.githubusercontent.com/joel16/3DShell/master/res/ic_launcher_fi
 image: https://raw.githubusercontent.com/joel16/3DShell/master/res/banner.png
 image_length: 10753
 layout: app
-llm_generation: 'no'
+llm_generation: false
 qr:
   3DShell.cia: https://db.universal-team.net/assets/images/qr/3dshell-cia.png
 screenshots:

@@ -18,7 +18,7 @@ github: PretendoNetwork/HokakuCTR
 image: https://avatars.githubusercontent.com/u/36684034?v=4&size=128
 image_length: 3197
 layout: app
-llm_generation: unknown
+llm_generation: null
 source: https://github.com/PretendoNetwork/HokakuCTR
 stars: 45
 systems:

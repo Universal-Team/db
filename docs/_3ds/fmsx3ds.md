@@ -24,7 +24,7 @@ image: https://private-user-images.githubusercontent.com/168841671/331778903-f7f
 layout: app
 license: other
 license_name: Other
-llm_generation: unknown
+llm_generation: null
 source: https://github.com/TomiokaH01/fMSX3DS
 stars: 15
 systems:

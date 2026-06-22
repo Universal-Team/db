@@ -24,7 +24,7 @@ image_length: 630
 layout: app
 license: unlicense
 license_name: The Unlicense
-llm_generation: 'no'
+llm_generation: false
 qr:
   dsi-camera.cia: https://db.universal-team.net/assets/images/qr/dsi-camera-cia.png
   dsi-camera.nds: https://db.universal-team.net/assets/images/qr/dsi-camera-nds.png

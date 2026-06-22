@@ -25,7 +25,7 @@ icon: https://raw.githubusercontent.com/dcuevasa/3DS_CodEdit/refs/heads/next/res
 image: https://raw.githubusercontent.com/dcuevasa/3DS_CodEdit/refs/heads/next/res/banner.png
 image_length: 37646
 layout: app
-llm_generation: unknown
+llm_generation: null
 qr:
   3DS_CodEdit.cia: https://db.universal-team.net/assets/images/qr/3ds_codedit-cia.png
 source: https://github.com/dcuevasa/3DS_CodEdit

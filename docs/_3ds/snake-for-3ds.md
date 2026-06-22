@@ -24,7 +24,7 @@ image_length: 2179
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: unknown
+llm_generation: null
 qr:
   snake.cia: https://db.universal-team.net/assets/images/qr/snake-cia.png
 source: https://github.com/Zachary-Rude/Snake-for-3DS

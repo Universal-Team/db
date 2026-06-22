@@ -13,7 +13,7 @@ icon: https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/icon.
 image: https://raw.githubusercontent.com/nop90/Biniax2-3DS/master/resources/banner.png
 image_length: 23461
 layout: app
-llm_generation: 'no'
+llm_generation: false
 prerelease:
   download_page: https://github.com/nop90/Biniax2-3DS/releases/tag/V0.4alpha
   downloads:

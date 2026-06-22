@@ -21,7 +21,7 @@ image_length: 10252
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_generation: 'no'
+llm_generation: false
 source: https://github.com/d0k3/SafeB9SInstaller
 stars: 646
 systems:

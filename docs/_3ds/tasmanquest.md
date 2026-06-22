@@ -16,7 +16,7 @@ icon: http://nawiasdev.eu/tasmanquest/icon.png
 image: http://nawiasdev.eu/tasmanquest/logo.png
 image_length: 13925
 layout: app
-llm_generation: unknown
+llm_generation: null
 screenshots:
 - description: Screenshot 1
   url: https://db.universal-team.net/assets/images/screenshots/tasmanquest/screenshot-1.png

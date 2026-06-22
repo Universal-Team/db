@@ -23,7 +23,7 @@ icon: https://raw.githubusercontent.com/Buggem/3ds-donut/refs/heads/main/meta/ic
 image: https://raw.githubusercontent.com/Buggem/3ds-donut/refs/heads/main/meta/banner.png
 image_length: 9095
 layout: app
-llm_generation: unknown
+llm_generation: null
 qr:
   3ds-donut.cia: https://db.universal-team.net/assets/images/qr/3ds-donut-cia.png
 screenshots:

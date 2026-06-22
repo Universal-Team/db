@@ -15,7 +15,7 @@ icon: https://raw.githubusercontent.com/carmander152/Doors-3DS/main/icon.png
 image: https://raw.githubusercontent.com/carmander152/Doors-3DS/main/banner.png
 image_length: 38377
 layout: app
-llm_generation: unknown
+llm_generation: null
 prerelease:
   download_page: https://github.com/carmander152/Doors-3DS/releases/tag/Beta-v0.8.1
   downloads:

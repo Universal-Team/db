@@ -19,7 +19,7 @@ image_length: 72385
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
-llm_generation: 'no'
+llm_generation: false
 source: https://github.com/nop90/Opentyrian-3ds
 stars: 4
 systems:

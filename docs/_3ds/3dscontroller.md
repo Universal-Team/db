@@ -17,7 +17,7 @@ icon: https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/icon4
 image: https://raw.githubusercontent.com/CTurt/3DSController/master/3DS/cxi/banner.png
 image_length: 4254
 layout: app
-llm_generation: 'no'
+llm_generation: false
 source: https://github.com/CTurt/3DSController
 stars: 233
 systems:

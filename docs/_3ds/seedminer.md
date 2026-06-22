@@ -16,7 +16,7 @@ image_length: 4023
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: 'no'
+llm_generation: false
 source: https://github.com/zoogie/seedminer
 stars: 103
 systems:

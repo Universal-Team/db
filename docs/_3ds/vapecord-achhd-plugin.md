@@ -20,7 +20,7 @@ image_length: 12131
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: 'no'
+llm_generation: false
 source: https://github.com/RedShyGuy/Vapecord-ACHHD-Plugin
 stars: 17
 systems:

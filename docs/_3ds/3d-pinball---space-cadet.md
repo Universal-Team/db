@@ -20,7 +20,7 @@ image_length: 17484
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: unknown
+llm_generation: null
 screenshots:
 - description: Awaiting deployment
   url: https://db.universal-team.net/assets/images/screenshots/3d-pinball---space-cadet/awaiting-deployment.png

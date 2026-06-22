@@ -27,7 +27,7 @@ icon: https://raw.githubusercontent.com/AleFunky/gd3ds/refs/heads/master/resourc
 image: https://raw.githubusercontent.com/AleFunky/gd3ds/refs/heads/master/resources/icon.png
 image_length: 5535
 layout: app
-llm_generation: 'yes'
+llm_generation: minor
 qr:
   GeometryDash3DS.cia: https://db.universal-team.net/assets/images/qr/geometrydash3ds-cia.png
 source: https://github.com/AleFunky/gd3ds

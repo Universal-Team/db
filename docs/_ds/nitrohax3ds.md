@@ -25,7 +25,7 @@ image_length: 241
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_generation: 'no'
+llm_generation: false
 qr:
   NitroHax-usrcheat.cia: https://db.universal-team.net/assets/images/qr/nitrohax-usrcheat-cia.png
   NitroHax.dsi: https://db.universal-team.net/assets/images/qr/nitrohax-dsi.png

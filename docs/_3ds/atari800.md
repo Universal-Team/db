@@ -20,7 +20,7 @@ image_length: 12011
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
-llm_generation: unknown
+llm_generation: null
 source: https://github.com/asiekierka/atari800-3ds
 stars: 11
 systems:
