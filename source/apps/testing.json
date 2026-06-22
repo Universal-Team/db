@@ -1,0 +1,12 @@
+{
+	"github": "Universal-Team/Universal-Updater",
+	"title": "TESTING",
+	"systems": [
+		"3DS",
+		"emulator"
+	],
+	"categories": [
+		"3DS",
+		"emulator"
+	]
+}
