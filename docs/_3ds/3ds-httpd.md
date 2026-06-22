@@ -15,7 +15,7 @@ image_length: 1857
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: false
+llm_generation: 'no'
 nightly:
   downloads:
     build.zip:

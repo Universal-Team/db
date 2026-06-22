@@ -18,7 +18,7 @@ icon: https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/pico
 image: https://db.universal-team.net/assets/images/images/picodrive.png
 image_length: 3153
 layout: app
-llm_generation: false
+llm_generation: 'no'
 source: https://github.com/bubble2k16/picodrive_3ds
 stars: 82
 systems:

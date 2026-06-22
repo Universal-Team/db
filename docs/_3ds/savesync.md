@@ -24,11 +24,11 @@ image_length: 8620
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0 or later
-llm_generation: null
+llm_generation: unknown
 qr:
   SaveSync.cia: https://db.universal-team.net/assets/images/qr/savesync-cia.png
 source: https://github.com/coolguy1842/SaveSync
-stars: 10
+stars: 11
 systems:
 - 3DS
 title: SaveSync

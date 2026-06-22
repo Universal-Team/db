@@ -24,7 +24,7 @@ image_length: 61351
 layout: app
 license: other
 license_name: Other
-llm_generation: null
+llm_generation: unknown
 qr:
   SonicMania.cia: https://db.universal-team.net/assets/images/qr/sonicmania-cia.png
 screenshots:

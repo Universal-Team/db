@@ -19,7 +19,7 @@ icon: https://db.universal-team.net/assets/images/icons/game-tipper.png
 image: https://db.universal-team.net/assets/images/icons/game-tipper.png
 image_length: 413
 layout: app
-llm_generation: null
+llm_generation: unknown
 source: https://github.com/TheHighTide/GameTipper3DS
 stars: 5
 systems:

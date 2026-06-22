@@ -29,7 +29,7 @@ llm_generation: unknown
 qr:
   3dJelly.cia: https://db.universal-team.net/assets/images/qr/3djelly-cia.png
 source: https://github.com/8-bitStudio/3d-jelly
-stars: 6
+stars: 7
 systems:
 - 3DS
 title: 3dJelly

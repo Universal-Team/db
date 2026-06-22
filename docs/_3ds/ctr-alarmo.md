@@ -19,7 +19,7 @@ github: FelixHomebrew/CtrAlarmo
 icon: https://raw.githubusercontent.com/FelixHomebrew/CtrAlarmo/refs/heads/main/exefs/icon_48.png
 image: https://raw.githubusercontent.com/FelixHomebrew/CtrAlarmo/refs/heads/main/exefs/banner.png
 layout: app
-llm_generation: null
+llm_generation: unknown
 qr:
   CtrAlarmo.cia: https://db.universal-team.net/assets/images/qr/ctralarmo-cia.png
 screenshots:

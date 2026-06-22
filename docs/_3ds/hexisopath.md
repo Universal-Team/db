@@ -25,7 +25,7 @@ image_length: 6762
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: false
+llm_generation: 'no'
 qr:
   HexIsoPath.cia: https://db.universal-team.net/assets/images/qr/hexisopath-cia.png
 source: https://github.com/LiquidFenrir/HexIsoPath

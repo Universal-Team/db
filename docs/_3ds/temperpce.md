@@ -19,7 +19,7 @@ icon: https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/temp
 image: https://db.universal-team.net/assets/images/images/temperpce.png
 image_length: 3236
 layout: app
-llm_generation: false
+llm_generation: 'no'
 source: https://github.com/bubble2k16/temperpce_3ds
 stars: 38
 systems:

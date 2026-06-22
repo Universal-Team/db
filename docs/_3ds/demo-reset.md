@@ -22,7 +22,7 @@ icon: https://raw.githubusercontent.com/NPXTobi/Demo-Reset/master/gfx/icon.png
 image: https://raw.githubusercontent.com/NPXTobi/Demo-Reset/master/cia/banner.png
 image_length: 4767
 layout: app
-llm_generation: false
+llm_generation: 'no'
 qr:
   Demo-Reset.cia: https://db.universal-team.net/assets/images/qr/demo-reset-cia.png
 source: https://github.com/NPXTobi/Demo-Reset

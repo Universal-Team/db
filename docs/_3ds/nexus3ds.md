@@ -16,7 +16,7 @@ image_length: 102768
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_generation: null
+llm_generation: unknown
 prerelease:
   download_page: https://github.com/2b-zipper/Nexus3DS/releases/tag/0.3.0
   downloads:

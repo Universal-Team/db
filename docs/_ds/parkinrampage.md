@@ -21,7 +21,7 @@ image_length: 23442
 layout: app
 license: bsd-3-clause
 license_name: BSD 3-Clause "New" or "Revised" License
-llm_generation: false
+llm_generation: 'no'
 qr:
   ParkingRampage.nds: https://db.universal-team.net/assets/images/qr/parkingrampage-nds.png
 source: https://github.com/DesperateProgrammer/ParkingRampage

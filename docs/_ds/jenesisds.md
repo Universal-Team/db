@@ -14,7 +14,7 @@ downloads:
 image: https://db.universal-team.net/assets/images/images/jenesisds.png
 image_length: 453
 layout: app
-llm_generation: false
+llm_generation: 'no'
 stars: 0
 systems:
 - DS

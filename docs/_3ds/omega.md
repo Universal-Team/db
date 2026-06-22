@@ -26,7 +26,7 @@ image_length: 9865
 layout: app
 license: other
 license_name: Other
-llm_generation: false
+llm_generation: 'no'
 qr:
   simulator.cia: https://db.universal-team.net/assets/images/qr/simulator-cia.png
 source: https://github.com/Omega-Numworks/Omega

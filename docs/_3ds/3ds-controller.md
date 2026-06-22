@@ -25,7 +25,7 @@ image_length: 318
 layout: app
 license: other
 license_name: Other
-llm_generation: null
+llm_generation: unknown
 qr:
   3ds_controller.cia: https://db.universal-team.net/assets/images/qr/3ds_controller-cia.png
 screenshots:

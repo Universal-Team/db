@@ -19,7 +19,7 @@ github: fthomys/3ds-playcoin-tool
 image: https://db.universal-team.net/assets/images/images/3dsx-play-coin-setter-mod.png
 image_length: 12032
 layout: app
-llm_generation: null
+llm_generation: unknown
 source: https://github.com/fthomys/3ds-playcoin-tool
 stars: 0
 systems:

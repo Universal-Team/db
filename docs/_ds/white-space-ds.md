@@ -18,7 +18,7 @@ icon: https://db.universal-team.net/assets/images/icons/white-space-ds.png
 image: https://db.universal-team.net/assets/images/icons/white-space-ds.png
 image_length: 2104
 layout: app
-llm_generation: null
+llm_generation: unknown
 qr:
   WHITE-SPACE-DS.nds: https://db.universal-team.net/assets/images/qr/white-space-ds-nds.png
 screenshots:

@@ -22,7 +22,7 @@ image_length: 1090
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: null
+llm_generation: unknown
 source: https://github.com/Dzhmelyk135/Ollama3DS
 stars: 3
 systems:

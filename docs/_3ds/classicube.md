@@ -25,7 +25,7 @@ image_length: 10600
 layout: app
 license: other
 license_name: Other
-llm_generation: null
+llm_generation: unknown
 qr:
   ClassiCube-3ds.cia: https://db.universal-team.net/assets/images/qr/classicube-3ds-cia.png
 source: https://github.com/ClassiCube/ClassiCube

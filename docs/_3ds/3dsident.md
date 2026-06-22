@@ -24,7 +24,7 @@ image_length: 21034
 layout: app
 license: zlib
 license_name: zlib License
-llm_generation: null
+llm_generation: unknown
 qr:
   3DSident.cia: https://db.universal-team.net/assets/images/qr/3dsident-cia.png
 screenshots:

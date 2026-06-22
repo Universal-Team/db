@@ -24,7 +24,7 @@ image_length: 4215
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: false
+llm_generation: 'no'
 qr:
   FriendMii.cia: https://db.universal-team.net/assets/images/qr/friendmii-cia.png
 source: https://github.com/joel16/FriendMii

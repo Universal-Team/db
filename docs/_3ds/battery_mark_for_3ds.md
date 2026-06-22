@@ -24,7 +24,7 @@ image_length: 65150
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_generation: false
+llm_generation: 'no'
 qr:
   Battery_mark_for_3DS.cia: https://db.universal-team.net/assets/images/qr/battery_mark_for_3ds-cia.png
 source: https://github.com/Core-2-Extreme/Battery_mark_for_3DS

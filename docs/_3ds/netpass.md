@@ -24,7 +24,7 @@ image_length: 2983
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0 or later
-llm_generation: null
+llm_generation: unknown
 qr:
   netpass.cia: https://db.universal-team.net/assets/images/qr/netpass-cia.png
 source: https://gitlab.com/3ds-netpass/netpass

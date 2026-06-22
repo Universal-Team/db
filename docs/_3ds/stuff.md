@@ -18,7 +18,7 @@ icon: https://raw.githubusercontent.com/zoogie/Stuff/master/nds-hb-menu/cia/icon
 image: https://raw.githubusercontent.com/zoogie/Stuff/master/nds-hb-menu/cia/banner.png
 image_length: 54321
 layout: app
-llm_generation: false
+llm_generation: 'no'
 qr:
   nds-hb-menu.cia: https://db.universal-team.net/assets/images/qr/nds-hb-menu-cia.png
 source: https://github.com/zoogie/Stuff

@@ -13,7 +13,7 @@ image_length: 342
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
-llm_generation: null
+llm_generation: unknown
 source: https://github.com/cotodevel/snemulds
 stars: 13
 systems:

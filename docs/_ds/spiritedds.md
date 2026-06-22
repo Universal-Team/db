@@ -18,7 +18,7 @@ icon: https://raw.githubusercontent.com/KahnerC/SpiritedDS/main/icon.png
 image: https://raw.githubusercontent.com/KahnerC/SpiritedDS/main/banner.png
 image_length: 117506
 layout: app
-llm_generation: null
+llm_generation: unknown
 qr:
   spirited_ds.nds: https://db.universal-team.net/assets/images/qr/spirited_ds-nds.png
 source: https://github.com/KahnerC/SpiritedDS

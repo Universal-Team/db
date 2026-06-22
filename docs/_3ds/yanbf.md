@@ -31,7 +31,7 @@ image_length: 1561
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
-llm_generation: false
+llm_generation: 'no'
 qr:
   bootstrap.cia: https://db.universal-team.net/assets/images/qr/bootstrap-cia.png
 script_message: 'You will need to generate the actual forwarders on your computer.

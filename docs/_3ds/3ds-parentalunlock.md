@@ -17,7 +17,7 @@ github: MechanicalDragon0687/3DS-ParentalUnlock
 image: https://avatars.githubusercontent.com/u/43786828?v=4&size=128
 image_length: 10211
 layout: app
-llm_generation: false
+llm_generation: 'no'
 source: https://github.com/MechanicalDragon0687/3DS-ParentalUnlock
 stars: 6
 systems:

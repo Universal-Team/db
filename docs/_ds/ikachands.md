@@ -22,7 +22,7 @@ icon: https://db.universal-team.net/assets/images/icons/ikachands.png
 image: https://db.universal-team.net/assets/images/icons/ikachands.png
 image_length: 630
 layout: app
-llm_generation: null
+llm_generation: unknown
 qr:
   IkachanDS.dsi: https://db.universal-team.net/assets/images/qr/ikachands-dsi.png
   IkachanDS.nds: https://db.universal-team.net/assets/images/qr/ikachands-nds.png

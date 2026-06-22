@@ -25,7 +25,7 @@ image_length: 14039
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_generation: null
+llm_generation: unknown
 qr:
   Citrahold-3DS.cia: https://db.universal-team.net/assets/images/qr/citrahold-3ds-cia.png
 script_message: Please visit https://www.citrahold.com/ to get set-up

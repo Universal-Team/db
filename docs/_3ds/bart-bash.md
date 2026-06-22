@@ -18,7 +18,7 @@ icon: https://db.universal-team.net/assets/images/icons/bart-bash.png
 image: https://db.universal-team.net/assets/images/icons/bart-bash.png
 image_length: 10305
 layout: app
-llm_generation: null
+llm_generation: unknown
 screenshots:
 - description: Gameplay
   url: https://db.universal-team.net/assets/images/screenshots/bart-bash/gameplay.png

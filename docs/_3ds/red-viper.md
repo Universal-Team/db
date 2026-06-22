@@ -22,7 +22,7 @@ icon: https://raw.githubusercontent.com/skyfloogle/red-viper/master/icon.png
 image: https://raw.githubusercontent.com/skyfloogle/red-viper/master/resources/banner.png
 image_length: 6527
 layout: app
-llm_generation: null
+llm_generation: unknown
 qr:
   red-viper.cia: https://db.universal-team.net/assets/images/qr/red-viper-cia.png
 screenshots:
@@ -35,7 +35,7 @@ screenshots:
 - description: Warioland
   url: https://db.universal-team.net/assets/images/screenshots/red-viper/warioland.png
 source: https://github.com/skyfloogle/red-viper
-stars: 1029
+stars: 1030
 systems:
 - 3DS
 title: red-viper

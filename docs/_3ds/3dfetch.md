@@ -18,7 +18,7 @@ icon: https://raw.githubusercontent.com/aliceinpalth/3dfetch/master/icon.png
 image: https://raw.githubusercontent.com/aliceinpalth/3dfetch/master/banner.png
 image_length: 41268
 layout: app
-llm_generation: false
+llm_generation: 'no'
 qr:
   3dfetch.cia: https://db.universal-team.net/assets/images/qr/3dfetch-cia.png
 screenshots:

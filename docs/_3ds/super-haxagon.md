@@ -25,7 +25,7 @@ image_length: 114192
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_generation: null
+llm_generation: unknown
 screenshots:
 - description: Gameplay 1
   url: https://db.universal-team.net/assets/images/screenshots/super-haxagon/gameplay-1.png

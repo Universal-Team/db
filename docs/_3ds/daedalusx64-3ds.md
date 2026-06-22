@@ -29,7 +29,7 @@ image_length: 15215
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
-llm_generation: false
+llm_generation: 'no'
 qr:
   DaedalusX64.cia: https://db.universal-team.net/assets/images/qr/daedalusx64-cia.png
 screenshots:

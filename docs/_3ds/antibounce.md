@@ -23,7 +23,7 @@ icon: https://raw.githubusercontent.com/TurtleP/Antibounce/master/graphics/icon.
 image: https://raw.githubusercontent.com/TurtleP/Antibounce/master/graphics/title.png
 image_length: 1031
 layout: app
-llm_generation: false
+llm_generation: 'no'
 qr:
   Antibounce.cia: https://db.universal-team.net/assets/images/qr/antibounce-cia.png
 screenshots:

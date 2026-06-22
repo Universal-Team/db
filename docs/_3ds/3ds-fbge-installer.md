@@ -25,7 +25,7 @@ image_length: 16838
 layout: app
 license: agpl-3.0
 license_name: GNU Affero General Public License v3.0
-llm_generation: null
+llm_generation: unknown
 qr:
   fbge-installer.cia: https://db.universal-team.net/assets/images/qr/fbge-installer-cia.png
 script_message: Don't forget to read the "Help" section upon launching the program

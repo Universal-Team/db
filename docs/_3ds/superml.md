@@ -33,7 +33,7 @@ image_length: 15042
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: null
+llm_generation: unknown
 qr:
   SuperML.cia: https://db.universal-team.net/assets/images/qr/superml-cia.png
 screenshots:

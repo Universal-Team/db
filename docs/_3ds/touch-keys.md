@@ -22,7 +22,7 @@ icon: https://raw.githubusercontent.com/LuMariGames/Touch-Keys/refs/heads/main/r
 image: https://raw.githubusercontent.com/LuMariGames/Touch-Keys/refs/heads/main/resource/banner.png
 image_length: 1290
 layout: app
-llm_generation: null
+llm_generation: unknown
 qr:
   Touch-Keys.cia: https://db.universal-team.net/assets/images/qr/touch-keys-cia.png
 screenshots:

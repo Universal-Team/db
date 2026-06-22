@@ -20,7 +20,7 @@ image_length: 4386
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_generation: null
+llm_generation: unknown
 qr:
   wumiibohelper.cia: https://db.universal-team.net/assets/images/qr/wumiibohelper-cia.png
 source: https://github.com/hax0kartik/wumiibo

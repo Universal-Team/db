@@ -23,7 +23,7 @@ icon: https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resourc
 image: https://raw.githubusercontent.com/MechanicalDragon0687/GYTB/master/resources/banner.png
 image_length: 2798
 layout: app
-llm_generation: false
+llm_generation: 'no'
 qr:
   GYTB.cia: https://db.universal-team.net/assets/images/qr/gytb-cia.png
 screenshots:

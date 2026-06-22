@@ -17,7 +17,7 @@ icon: https://db.universal-team.net/assets/images/icons/twpatch.png
 image: https://db.universal-team.net/assets/images/images/twpatch.png
 image_length: 24255
 layout: app
-llm_generation: null
+llm_generation: unknown
 qr:
   TWPatch.cia: https://db.universal-team.net/assets/images/qr/twpatch-cia.png
 stars: 0

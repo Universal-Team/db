@@ -38,7 +38,7 @@ image_length: 1569
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
-llm_generation: false
+llm_generation: 'no'
 qr:
   OpenArena.cia: https://db.universal-team.net/assets/images/qr/openarena-cia.png
   Quake3DS.cia: https://db.universal-team.net/assets/images/qr/quake3ds-cia.png

@@ -31,7 +31,7 @@ icon: https://db.universal-team.net/assets/images/icons/gbarunner2.png
 image: https://db.universal-team.net/assets/images/images/gbarunner2.png
 image_length: 324
 layout: app
-llm_generation: false
+llm_generation: 'no'
 qr:
   GBARunner2_arm7dldi_3ds.nds: https://db.universal-team.net/assets/images/qr/gbarunner2_arm7dldi_3ds-nds.png
   GBARunner2_arm7dldi_ds.nds: https://db.universal-team.net/assets/images/qr/gbarunner2_arm7dldi_ds-nds.png

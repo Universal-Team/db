@@ -19,7 +19,7 @@ image_length: 4456
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: null
+llm_generation: unknown
 qr:
   SafeNANDManager.nds: https://db.universal-team.net/assets/images/qr/safenandmanager-nds.png
 source: https://github.com/DS-Homebrew/SafeNANDManager

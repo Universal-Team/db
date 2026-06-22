@@ -18,7 +18,7 @@ image_length: 2552
 layout: app
 license: AGPL-3.0-only
 license_name: GNU Affero General Public License v3.0 only
-llm_generation: null
+llm_generation: unknown
 screenshots:
 - description: 01 block stacking gameplay
   url: https://db.universal-team.net/assets/images/screenshots/apotris/01-block-stacking-gameplay.png

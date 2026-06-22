@@ -33,7 +33,7 @@ image_length: 35186
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
-llm_generation: null
+llm_generation: unknown
 qr:
   A8DS.nds: https://db.universal-team.net/assets/images/qr/a8ds-nds.png
   A8DSi.nds: https://db.universal-team.net/assets/images/qr/a8dsi-nds.png

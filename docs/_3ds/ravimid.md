@@ -22,7 +22,7 @@ icon: https://db.universal-team.net/assets/images/icons/ravimid.png
 image: https://db.universal-team.net/assets/images/images/ravimid.png
 image_length: 905
 layout: app
-llm_generation: false
+llm_generation: 'no'
 qr:
   ravimid.cia: https://db.universal-team.net/assets/images/qr/ravimid-cia.png
   ravimid_deluxe.cia: https://db.universal-team.net/assets/images/qr/ravimid_deluxe-cia.png

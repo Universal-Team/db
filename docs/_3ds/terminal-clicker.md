@@ -20,7 +20,7 @@ image_length: 545
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: null
+llm_generation: unknown
 screenshots:
 - description: Gameplay
   url: https://db.universal-team.net/assets/images/screenshots/terminal-clicker/gameplay.png

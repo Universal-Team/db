@@ -20,7 +20,7 @@ image_length: 223
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: null
+llm_generation: unknown
 source: https://github.com/Rph-nsmb/MontyHallDS
 stars: 2
 systems:

@@ -19,7 +19,7 @@ icon: https://db.universal-team.net/assets/images/icons/nitroswan.png
 image: https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/logo.png
 image_length: 38554
 layout: app
-llm_generation: null
+llm_generation: unknown
 source: https://github.com/FluBBaOfWard/NitroSwan
 stars: 67
 systems:

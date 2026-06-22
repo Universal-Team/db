@@ -25,7 +25,7 @@ image_length: 39325
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: false
+llm_generation: 'no'
 qr:
   LumaLocaleSwitcher-0.04-NIGHTLY.cia: https://db.universal-team.net/assets/images/qr/lumalocaleswitcher-0-04-nightly-cia.png
 source: https://github.com/Possum/LumaLocaleSwitcher

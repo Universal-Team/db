@@ -26,7 +26,7 @@ image_length: 34569
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_generation: false
+llm_generation: 'no'
 nightly:
   download_page: https://github.com/Universal-Team/LeafEdit/releases/tag/git
   downloads:

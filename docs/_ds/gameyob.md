@@ -20,7 +20,7 @@ image_length: 246
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: false
+llm_generation: 'no'
 source: https://github.com/Stewmath/GameYob
 stars: 315
 systems:

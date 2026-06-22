@@ -23,7 +23,7 @@ icon: https://raw.githubusercontent.com/lxfly2000/VConV/master/vconv3ds/icon.png
 image: https://raw.githubusercontent.com/lxfly2000/VConV/master/vconv3ds/buildcia/banner.png
 image_length: 3409
 layout: app
-llm_generation: null
+llm_generation: unknown
 qr:
   vconv.cia: https://db.universal-team.net/assets/images/qr/vconv-cia.png
 screenshots:

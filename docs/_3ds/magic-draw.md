@@ -24,7 +24,7 @@ image_length: 20069
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: null
+llm_generation: unknown
 qr:
   magic-draw.cia: https://db.universal-team.net/assets/images/qr/magic-draw-cia.png
 screenshots:

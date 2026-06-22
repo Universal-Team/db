@@ -24,7 +24,7 @@ image_length: 5916
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_generation: null
+llm_generation: unknown
 qr:
   Flappy-Bird.cia: https://db.universal-team.net/assets/images/qr/flappy-bird-cia.png
 screenshots:

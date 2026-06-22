@@ -28,7 +28,7 @@ image_length: 89291
 layout: app
 license: mit
 license_name: MIT License
-llm_generation: false
+llm_generation: 'no'
 qr:
   DSP1.cia: https://db.universal-team.net/assets/images/qr/dsp1-cia.png
   DSP2.cia: https://db.universal-team.net/assets/images/qr/dsp2-cia.png

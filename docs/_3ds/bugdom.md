@@ -20,7 +20,7 @@ image_length: 148308
 layout: app
 license: other
 license_name: Other
-llm_generation: null
+llm_generation: unknown
 screenshots:
 - description: Game 1
   url: https://db.universal-team.net/assets/images/screenshots/bugdom/game-1.png
