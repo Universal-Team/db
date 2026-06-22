@@ -10,7 +10,7 @@
 		"app",
 		"utility"
 	],
-	"llm_usage": "minor",
+	"llm_usage": "generation",
 	"icon": "https://raw.githubusercontent.com/SuperDubious-SmallLabs/GridLauncher/refs/heads/main/icon.png",
 	"image": "https://raw.githubusercontent.com/wiki/SuperDubious-SmallLabs/GridLauncher/images/logodefault.png",
 	"long_description": "GridLauncher, originally created by mashers, is a fork of the original ninjhax Homebrew Launcher that adds a grid layout and extensive customization features for your homebrew experience. Now with Rosalina support!",

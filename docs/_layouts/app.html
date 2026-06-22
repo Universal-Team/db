@@ -74,7 +74,7 @@ layout: compress
 												<span class="i18n innerHTML-llm-usage">LLM Usage: </span>
 												{% assign llm = page.llm_usage | prepend: "llm-" %}
 												{{ site.data.i18n.en-US[llm] }}
-												<a href="/llm-policy">(what's this?)</a>
+												<a href="/llm-policy#definitions">(what's this?)</a>
 											{% endif %}
 											{% if page.unique_ids.size >= 1 %}
 												<br>
@@ -121,7 +121,7 @@ layout: compress
 												{% endif %}
 											</span>
 										{% endfor %}
-										
+
 										{% if page.version and page.downloads %}
 											<br>
 											<small>
@@ -165,7 +165,7 @@ layout: compress
 													{% endif %}
 												</span>
 											{% endfor %}
-			
+
 											{% if page.prerelease.version %}
 												<br>
 												<small>
@@ -203,7 +203,7 @@ layout: compress
 													{% endif %}
 												</span>
 											{% endfor %}
-			
+
 											{% if page.nightly.download_page %}
 												<br>
 												<small>
