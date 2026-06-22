@@ -25,8 +25,9 @@ jobs:
     - name: Run generate.py
       env:
         TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      continue-on-error: true
       run: |
-        UPDATED_APPS=($(git -C pull-request diff --name-only HEAD~1 | grep source/apps || true))
+        UPDATED_APPS=($(git -C pull-request diff --name-only HEAD~1 | grep source/apps))
 
         echo $UPDATED_APPS
         if [ -n "$UPDATED_APPS" ]; then
