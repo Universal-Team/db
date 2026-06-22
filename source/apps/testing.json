@@ -5,6 +5,7 @@
 		"3DS",
 		"emulator"
 	],
+	"llm_generation": false,
 	"categories": [
 		"3DS",
 		"emulator"
