@@ -7,6 +7,7 @@
 		"utility",
 		"firm"
 	],
+	"llm_usage": "none",
 	"autogen_scripts": true,
 	"archive": {
 		"Luma3DS.*.zip": {

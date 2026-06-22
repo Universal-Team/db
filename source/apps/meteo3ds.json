@@ -9,6 +9,7 @@
 	"unique_ids": [
 		994394
 	],
+	"llm_usage": "generation",
 	"image": "https://raw.githubusercontent.com/xPsycho999/Meteo3DS/main/cia/banner.png",
 	"icon": "https://raw.githubusercontent.com/xPsycho999/Meteo3DS/main/icon.png"
 }

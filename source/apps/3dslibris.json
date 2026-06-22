@@ -7,6 +7,7 @@
 	"categories": [
 		"app"
 	],
+	"llm_usage": "generation",
 	"unique_ids": [251163],
 	"installed_files": ["%3DSX%/3dslibris.3dsx"],
 	"icon": "https://raw.githubusercontent.com/RigleGit/3dslibris/refs/heads/main/assets/release/icon-32x32.png",
