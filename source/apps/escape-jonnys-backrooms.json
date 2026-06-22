@@ -7,7 +7,7 @@
 	"categories": [
 		"game"
 	],
-	"llm_generation": false,
+	"llm_generation": "no",
 	"icon": "https://raw.githubusercontent.com/Pixel6763/Escape-Jonny-s-Backrooms-3DS/main/icon.png",
 	"archive": {
 		"Escape_Jonnys_Backrooms.zip": {

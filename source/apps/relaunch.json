@@ -8,7 +8,7 @@
 	"systems": [
 		"DS"
 	],
-	"llm_generation": false,
+	"llm_generation": "no",
 	"installed_files": ["%NDS%/Relaunch.nds"],
 	"scripts": {
 		"Relaunch.cia": [

@@ -7,7 +7,7 @@
 	"categories": [
 		"game"
 	],
-	"llm_generation": true,
+	"llm_generation": "minor",
 	"icon": "https://raw.githubusercontent.com/AleFunky/gd3ds/refs/heads/master/resources/icon.png",
 	"unique_ids": [
 		767004

@@ -2,7 +2,7 @@
 	"github": "Universal-Team/Universal-Edit",
 	"image": "https://raw.githubusercontent.com/Universal-Team/Universal-Edit/master/3DS/app/banner.png",
 	"icon": "https://raw.githubusercontent.com/Universal-Team/Universal-Edit/master/3DS/app/icon.png",
-	"llm_generation": false,
+	"llm_generation": "no",
 	"categories": [
 		"utility"
 	],

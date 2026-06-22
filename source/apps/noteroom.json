@@ -8,7 +8,7 @@
 	"categories": [
 		"utility"
 	],
-	"llm_generation": true,
+	"llm_generation": "yes",
 	"unique_ids": [63971],
 	"icon": "https://raw.githubusercontent.com/SprtnDio/NoteRoom/main/icon.png",
 	"image": "https://raw.githubusercontent.com/SprtnDio/NoteRoom/refs/heads/main/banner.png",

@@ -40,7 +40,7 @@ jobs:
             echo '```' >> results.txt
             cat results.txt | grep -o 'https://.*\.png' >> results.txt
 
-            cat results.txt | grep '"llm_generation": null'
+            cat results.txt | grep '"llm_generation": "unknown"'
             if [ $? -eq 0 ]; then
               echo Warning: LLM generated content status undeclared! >> results.txt
             fi

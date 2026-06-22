@@ -472,11 +472,6 @@ def create_web_file(app: Dict[str, Any]):
 	if "unique_ids" in web:
 		web["unique_ids"] = [f"0x{uid:X}" for uid in web["unique_ids"]]
 
-	# Convert LLM generation to strings
-	if "llm_generation" in web:
-		llm_map = {True: "yes", False: "no", None: "unknown"}
-		web["llm_generation"] = llm_map[web["llm_generation"]]
-
 	# long description is put as the content
 	if "long_description" in web:
 		web.pop("long_description")
@@ -633,10 +628,10 @@ def process_app_entry(app: Dict[str, Any], fp: str, icon_idx: int, github_api: G
 
 	# Set LLM usage
 	if "llm_generation" not in app:
-		app["llm_generation"] = None  # null == undisclosed
+		app["llm_generation"] = "unknown"  # null == undisclosed
 
 		if "updated" in app and parser.parse(app["updated"]).year < 2023:
-			app["llm_generation"] = False
+			app["llm_generation"] = "no"
 
 	# Prematurely stop here, if no DOCS_DIR.
 	# CLI normally checks for DOCS_DIR, if this is the all command
