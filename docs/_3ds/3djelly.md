@@ -25,7 +25,7 @@ image_length: 4191
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
-llm_usage: undisclosed
+llm_generation: unknown
 qr:
   3dJelly.cia: https://db.universal-team.net/assets/images/qr/3djelly-cia.png
 source: https://github.com/8-bitStudio/3d-jelly

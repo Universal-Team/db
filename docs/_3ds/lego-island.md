@@ -25,7 +25,7 @@ image_length: 18083
 layout: app
 license: lgpl-3.0
 license_name: GNU Lesser General Public License v3.0
-llm_usage: undisclosed
+llm_generation: unknown
 qr:
   isle.cia: https://db.universal-team.net/assets/images/qr/isle-cia.png
 script_message: 'An existing copy of LEGO Island is required to use this project.

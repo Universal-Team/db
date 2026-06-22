@@ -22,7 +22,7 @@ image_length: 14156
 layout: app
 license: apache-2.0
 license_name: Apache License 2.0
-llm_usage: generation
+llm_generation: 'yes'
 source: https://github.com/PlanetDogeCodes/Pocket-Compiler
 stars: 4
 systems:

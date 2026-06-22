@@ -21,7 +21,7 @@ image_length: 2820
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_usage: generation
+llm_generation: 'yes'
 qr:
   DSFetch.nds: https://db.universal-team.net/assets/images/qr/dsfetch-nds.png
 source: https://github.com/xPsycho999/DSFetch

@@ -22,7 +22,7 @@ icon: https://raw.githubusercontent.com/veylo-3DS/Tunez-3DS/main/icon.png
 image: https://raw.githubusercontent.com/veylo-3DS/Tunez-3DS/main/banner.png
 image_length: 1433
 layout: app
-llm_usage: generation
+llm_generation: 'yes'
 qr:
   Tunez3DS.cia: https://db.universal-team.net/assets/images/qr/tunez3ds-cia.png
 source: https://github.com/uchumeow/Tunez-3DS

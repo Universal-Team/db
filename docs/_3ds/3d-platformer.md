@@ -20,7 +20,7 @@ image_length: 5139
 layout: app
 license: zlib
 license_name: zlib License
-llm_usage: none
+llm_generation: 'no'
 source: https://github.com/Tikman420/3d-platformer
 stars: 0
 systems:

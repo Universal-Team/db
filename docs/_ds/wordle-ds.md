@@ -29,7 +29,7 @@ image_length: 3957
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_usage: none
+llm_generation: 'no'
 qr:
   WordleDS.cia: https://db.universal-team.net/assets/images/qr/wordleds-cia.png
   WordleDS.dsi: https://db.universal-team.net/assets/images/qr/wordleds-dsi.png

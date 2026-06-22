@@ -22,7 +22,7 @@ icon: https://raw.githubusercontent.com/Pixel6763/Escape-Jonny-s-Backrooms-3DS/m
 image: https://raw.githubusercontent.com/Pixel6763/Escape-Jonny-s-Backrooms-3DS/main/icon.png
 image_length: 5237
 layout: app
-llm_usage: none
+llm_generation: 'no'
 source: https://github.com/Pixel6763/Escape-Jonny-s-Backrooms-3DS
 stars: 0
 systems:

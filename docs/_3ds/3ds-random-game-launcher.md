@@ -26,7 +26,7 @@ image_length: 6156
 layout: app
 license: mit
 license_name: MIT License
-llm_usage: undisclosed
+llm_generation: unknown
 qr:
   3DS-Random-Game-Launcher-v0.2.1.cia: https://db.universal-team.net/assets/images/qr/3ds-random-game-launcher-v0-2-1-cia.png
 source: https://github.com/selloa/3DS-Random-Game-Launcher

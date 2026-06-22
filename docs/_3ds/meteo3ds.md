@@ -26,7 +26,7 @@ image_length: 13386
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_usage: generation
+llm_generation: 'yes'
 qr:
   Meteo3DS.cia: https://db.universal-team.net/assets/images/qr/meteo3ds-cia.png
 source: https://github.com/xPsycho999/Meteo3DS

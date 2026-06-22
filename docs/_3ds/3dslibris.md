@@ -40,7 +40,7 @@ image_length: 48063
 layout: app
 license: other
 license_name: Other
-llm_usage: generation
+llm_generation: 'yes'
 qr:
   3dslibris-debug.cia: https://db.universal-team.net/assets/images/qr/3dslibris-debug-cia.png
   3dslibris.cia: https://db.universal-team.net/assets/images/qr/3dslibris-cia.png

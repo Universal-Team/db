@@ -57,7 +57,7 @@ image_length: 12520
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_usage: none
+llm_generation: 'no'
 source: https://github.com/DS-Homebrew/TWiLightMenu
 stars: 3981
 systems:

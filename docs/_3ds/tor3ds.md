@@ -25,7 +25,7 @@ image_length: 31175
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_usage: generation
+llm_generation: 'yes'
 qr:
   Tor3DS.cia: https://db.universal-team.net/assets/images/qr/tor3ds-cia.png
 script_message: 'INFO: I do not own the rights to Tor browser. This is only a CLIENT,

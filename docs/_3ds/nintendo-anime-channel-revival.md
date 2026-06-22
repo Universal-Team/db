@@ -18,7 +18,7 @@ icon: https://avatars.githubusercontent.com/u/180861193?s=48&v=4
 image: https://db.universal-team.net/assets/images/images/nintendo-anime-channel-revival.png
 image_length: 40536
 layout: app
-llm_usage: undisclosed
+llm_generation: unknown
 script_message: This is a beta version, so there may be bugs or issues. We try as
   much as possible to provide a variety of content in both English and French. (French
   content is predominant.) To contact us about adding more content, please visit https://www.ttdu08.online/contactus

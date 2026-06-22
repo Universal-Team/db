@@ -24,7 +24,7 @@ image_length: 37065
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_usage: generation
+llm_generation: 'yes'
 qr:
   NoteRoom.cia: https://db.universal-team.net/assets/images/qr/noteroom-cia.png
 source: https://github.com/SprtnDio/NoteRoom
