@@ -20,7 +20,7 @@ image_length: 174044
 layout: app
 license: other
 license_name: Other
-llm_usage: undisclosed
+llm_generation: unknown
 screenshots:
 - description: Race 1
   url: https://db.universal-team.net/assets/images/screenshots/cro-mag-rally/race-1.png

@@ -22,7 +22,7 @@ icon: https://raw.githubusercontent.com/badda71/uae3DS/master/meta/icon.png
 image: https://raw.githubusercontent.com/badda71/uae3DS/master/meta/banner.png
 image_length: 28872
 layout: app
-llm_usage: none
+llm_generation: 'no'
 qr:
   uae3DS.cia: https://db.universal-team.net/assets/images/qr/uae3ds-cia.png
 script_message: 'You will need a "kick.rom" file in sdmc:/3ds/uae3DS.

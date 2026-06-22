@@ -18,7 +18,7 @@ icon: https://raw.githubusercontent.com/stefanoborra20/Gemini3DS/main/icon.png
 image: https://raw.githubusercontent.com/stefanoborra20/Gemini3DS/main/icon.png
 image_length: 3675
 layout: app
-llm_usage: undisclosed
+llm_generation: unknown
 screenshots:
 - description: Main screen
   url: https://db.universal-team.net/assets/images/screenshots/gemini3ds/main-screen.png

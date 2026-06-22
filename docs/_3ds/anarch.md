@@ -20,7 +20,7 @@ image_length: 19403
 layout: app
 license: cc0-1.0
 license_name: Creative Commons Zero v1.0 Universal
-llm_usage: undisclosed
+llm_generation: unknown
 screenshots:
 - description: Gameplay
   url: https://db.universal-team.net/assets/images/screenshots/anarch/gameplay.png

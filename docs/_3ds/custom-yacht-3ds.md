@@ -20,7 +20,7 @@ image_length: 895
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_usage: undisclosed
+llm_generation: unknown
 screenshots:
 - description: Screenshot1
   url: https://db.universal-team.net/assets/images/screenshots/custom-yacht-3ds/screenshot1.png

@@ -24,7 +24,7 @@ icon: https://raw.githubusercontent.com/AllisterMKW/3DScreen/refs/heads/main/ico
 image: https://raw.githubusercontent.com/AllisterMKW/3DScreen/refs/heads/main/Resources/banner.png
 image_length: 18682
 layout: app
-llm_usage: undisclosed
+llm_generation: unknown
 qr:
   3DScreen.cia: https://db.universal-team.net/assets/images/qr/3dscreen-cia.png
 source: https://github.com/AllisterMKW/3DScreen

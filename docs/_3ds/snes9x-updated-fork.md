@@ -24,9 +24,16 @@ image_length: 3285
 layout: app
 license: other
 license_name: Other
-llm_usage: undisclosed
+llm_generation: 'yes'
 qr:
   snes9x_3ds.cia: https://db.universal-team.net/assets/images/qr/snes9x_3ds-cia.png
+screenshots:
+- description: Loading a game
+  url: https://db.universal-team.net/assets/images/screenshots/snes9x-updated-fork/loading-a-game.png
+- description: Menu
+  url: https://db.universal-team.net/assets/images/screenshots/snes9x-updated-fork/menu.png
+- description: Playing a game
+  url: https://db.universal-team.net/assets/images/screenshots/snes9x-updated-fork/playing-a-game.png
 source: https://github.com/matbo87/snes9x_3ds
 stars: 67
 systems:

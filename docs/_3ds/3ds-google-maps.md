@@ -22,7 +22,7 @@ image_length: 42667
 layout: app
 license: mit
 license_name: MIT License
-llm_usage: undisclosed
+llm_generation: unknown
 source: https://github.com/Oldhimaster1/3ds-Google-Maps
 stars: 4
 systems:

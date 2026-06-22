@@ -13,7 +13,7 @@ icon: https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/icon
 image: https://raw.githubusercontent.com/nop90/ZeldaPicross/master/resources/banner.png
 image_length: 6202
 layout: app
-llm_usage: none
+llm_generation: 'no'
 prerelease:
   download_page: https://github.com/nop90/ZeldaPicross/releases/tag/v1%2C0RC
   downloads:

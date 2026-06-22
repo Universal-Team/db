@@ -33,7 +33,7 @@ image_length: 11586
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_usage: none
+llm_generation: 'no'
 qr:
   Xash3DS.cia: https://db.universal-team.net/assets/images/qr/xash3ds-cia.png
 script_message: 'You will need to copy the "valve" directory from

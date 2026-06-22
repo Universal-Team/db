@@ -20,7 +20,7 @@ image_length: 394
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_usage: undisclosed
+llm_generation: unknown
 prerelease:
   download_page: https://github.com/korbosoft/ds-micpassthrough/releases/tag/v3.0.0
   downloads:

@@ -30,7 +30,7 @@ icon: https://raw.githubusercontent.com/Bilbard/classof3ds/refs/heads/master/3ds
 image: https://raw.githubusercontent.com/Bilbard/classof3ds/refs/heads/master/3ds/widebanner.png
 image_length: 46438
 layout: app
-llm_usage: none
+llm_generation: 'no'
 qr:
   classof3ds.cia: https://db.universal-team.net/assets/images/qr/classof3ds-cia.png
   classof3dsru.cia: https://db.universal-team.net/assets/images/qr/classof3dsru-cia.png

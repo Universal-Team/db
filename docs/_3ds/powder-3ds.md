@@ -20,7 +20,7 @@ image_length: 49046
 layout: app
 license: other
 license_name: Other
-llm_usage: none
+llm_generation: 'no'
 source: https://github.com/nop90/POWDER-3DS
 stars: 19
 systems:

@@ -32,7 +32,7 @@ image_length: 72113
 layout: app
 license: mit
 license_name: MIT License
-llm_usage: undisclosed
+llm_generation: unknown
 qr:
   BlockamokRemix-v1.2-3ds.cia: https://db.universal-team.net/assets/images/qr/blockamokremix-v1-2-3ds-cia.png
 source: https://github.com/Mode8fx/blockamok

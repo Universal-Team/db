@@ -17,7 +17,7 @@ github: DiscostewSM/blargSpc
 image: https://avatars.githubusercontent.com/u/10163038?v=4&size=128
 image_length: 29061
 layout: app
-llm_usage: none
+llm_generation: 'no'
 screenshots:
 - description: Menu
   url: https://db.universal-team.net/assets/images/screenshots/blargspc/menu.png

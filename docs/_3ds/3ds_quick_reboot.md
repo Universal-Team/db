@@ -20,7 +20,7 @@ image_length: 7777
 layout: app
 license: mit
 license_name: MIT License
-llm_usage: none
+llm_generation: 'no'
 source: https://github.com/Asellus/3DS_Quick_Reboot
 stars: 11
 systems:

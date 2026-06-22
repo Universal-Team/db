@@ -20,7 +20,7 @@ image_length: 2458
 layout: app
 license: mit
 license_name: MIT License
-llm_usage: undisclosed
+llm_generation: unknown
 screenshots:
 - description: Screenshot1
   url: https://db.universal-team.net/assets/images/screenshots/ballcopter/screenshot1.png

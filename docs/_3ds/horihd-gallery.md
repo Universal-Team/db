@@ -18,7 +18,7 @@ icon: https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/ico
 image: https://raw.githubusercontent.com/RocketRobz/HoriHD-Gallery/master/app/banner.png
 image_length: 10610
 layout: app
-llm_usage: none
+llm_generation: 'no'
 screenshots:
 - description: Breath of the wild horihd
   url: https://db.universal-team.net/assets/images/screenshots/horihd-gallery/breath-of-the-wild-horihd.png

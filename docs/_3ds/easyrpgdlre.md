@@ -20,7 +20,7 @@ image_length: 2573
 layout: app
 license: mit
 license_name: MIT License
-llm_usage: none
+llm_generation: 'no'
 qr:
   easyrpg-updater-re-v2.1.1.cia: https://db.universal-team.net/assets/images/qr/easyrpg-updater-re-v2-1-1-cia.png
 source: https://github.com/gnmmarechal/easyrpgdlre

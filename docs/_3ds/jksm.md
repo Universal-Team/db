@@ -25,7 +25,7 @@ image_length: 954
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_usage: none
+llm_generation: 'no'
 qr:
   JKSM.cia: https://db.universal-team.net/assets/images/qr/jksm-cia.png
 screenshots:
@@ -38,7 +38,7 @@ screenshots:
 - description: Title save file mode
   url: https://db.universal-team.net/assets/images/screenshots/jksm/title-save-file-mode.png
 source: https://github.com/J-D-K/JKSM
-stars: 395
+stars: 394
 systems:
 - 3DS
 title: JKSM

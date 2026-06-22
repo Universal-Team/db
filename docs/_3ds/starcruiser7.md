@@ -21,7 +21,7 @@ image_length: 9292
 layout: app
 license: mit
 license_name: MIT License
-llm_usage: undisclosed
+llm_generation: unknown
 screenshots:
 - description: Gameplay 1
   url: https://db.universal-team.net/assets/images/screenshots/starcruiser7/gameplay-1.gif

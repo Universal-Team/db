@@ -20,7 +20,7 @@ image_length: 510792
 layout: app
 license: mit
 license_name: MIT License
-llm_usage: none
+llm_generation: 'no'
 nightly:
   download_page: https://github.com/Universal-Team/Relaunch/releases/tag/git
   downloads:

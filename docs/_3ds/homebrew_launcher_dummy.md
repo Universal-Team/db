@@ -18,7 +18,7 @@ icon: https://raw.githubusercontent.com/mariohackandglitch/homebrew_launcher_dum
 image: https://db.universal-team.net/assets/images/images/homebrew_launcher_dummy.png
 image_length: 3633
 layout: app
-llm_usage: none
+llm_generation: 'no'
 qr:
   Homebrew_Launcher.cia: https://db.universal-team.net/assets/images/qr/homebrew_launcher-cia.png
 source: https://github.com/PabloMK7/homebrew_launcher_dummy

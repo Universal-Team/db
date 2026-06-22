@@ -22,7 +22,7 @@ icon: https://raw.githubusercontent.com/Sunrase/3DSoundboard/refs/heads/main/ico
 image: https://raw.githubusercontent.com/Sunrase/3DSoundboard/refs/heads/main/banner.png
 image_length: 5697
 layout: app
-llm_usage: undisclosed
+llm_generation: unknown
 qr:
   3DSoundboard.cia: https://db.universal-team.net/assets/images/qr/3dsoundboard-cia.png
 screenshots:

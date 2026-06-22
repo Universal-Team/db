@@ -28,7 +28,7 @@ image_length: 12768
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_usage: undisclosed
+llm_generation: unknown
 qr:
   Video_player_for_3DS.cia: https://db.universal-team.net/assets/images/qr/video_player_for_3ds-cia.png
   Video_player_for_3DS_high_ram.cia: https://db.universal-team.net/assets/images/qr/video_player_for_3ds_high_ram-cia.png

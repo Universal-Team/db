@@ -24,7 +24,7 @@ image_length: 7534
 layout: app
 license: mit
 license_name: MIT License
-llm_usage: undisclosed
+llm_generation: unknown
 qr:
   Mars3D.cia: https://db.universal-team.net/assets/images/qr/mars3d-cia.png
 source: https://github.com/BotRandomness/Mars3DS

@@ -13,7 +13,7 @@ image_length: 630
 layout: app
 license: other
 license_name: Other
-llm_usage: undisclosed
+llm_generation: unknown
 source: https://github.com/cotodevel/toolchaingenericds-multimediaplayer
 stars: 2
 systems:

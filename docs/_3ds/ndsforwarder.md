@@ -20,7 +20,7 @@ image_length: 1089
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_usage: undisclosed
+llm_generation: unknown
 source: https://github.com/volkanturkut/ndsForwarder
 stars: 3
 systems:

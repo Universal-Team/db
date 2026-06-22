@@ -40,7 +40,7 @@ image_length: 11596
 layout: app
 license: mit
 license_name: MIT License
-llm_usage: undisclosed
+llm_generation: unknown
 screenshots:
 - description: Gameplay bottom
   url: https://db.universal-team.net/assets/images/screenshots/sudokul/gameplay-bottom.png

@@ -24,7 +24,7 @@ image_length: 6061
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_usage: none
+llm_generation: 'no'
 qr:
   StackMill.cia: https://db.universal-team.net/assets/images/qr/stackmill-cia.png
 screenshots:

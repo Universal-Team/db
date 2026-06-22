@@ -32,12 +32,12 @@ image_length: 46802
 layout: app
 license: mit
 license_name: MIT License
-llm_usage: none
+llm_generation: 'no'
 qr:
   SFontT.cia: https://db.universal-team.net/assets/images/qr/sfontt-cia.png
   SFontT80.cia: https://db.universal-team.net/assets/images/qr/sfontt80-cia.png
 source: https://github.com/dnasdw/SharedFontTool
-stars: 232
+stars: 231
 systems:
 - 3DS
 title: SharedFontTool

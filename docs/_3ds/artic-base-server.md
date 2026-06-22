@@ -25,7 +25,7 @@ image_length: 34819
 layout: app
 license: mit
 license_name: MIT License
-llm_usage: undisclosed
+llm_generation: unknown
 qr:
   ArticBase.cia: https://db.universal-team.net/assets/images/qr/articbase-cia.png
 source: https://github.com/azahar-emu/ArticBaseServer

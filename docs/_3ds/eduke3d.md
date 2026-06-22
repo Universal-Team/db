@@ -15,7 +15,7 @@ image_length: 9124
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
-llm_usage: none
+llm_generation: 'no'
 prerelease:
   download_page: https://github.com/masterfeizz/EDuke3D/releases/tag/v1.0-beta
   downloads:

@@ -19,7 +19,7 @@ image_length: 37171
 layout: app
 license: apache-2.0
 license_name: Apache License 2.0
-llm_usage: undisclosed
+llm_generation: unknown
 source: https://github.com/TheHighTide/CubeAdventures
 stars: 2
 systems:

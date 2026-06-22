@@ -17,7 +17,7 @@ image_length: 3366
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
-llm_usage: undisclosed
+llm_generation: unknown
 prerelease:
   download_page: https://github.com/angband/angband/releases/tag/4.2.6-148-gcd52d6cf6
   downloads:
@@ -107,7 +107,7 @@ prerelease:
   version: 4.2.6-148-gcd52d6cf6
   version_title: 4.2.6-148-gcd52d6cf6
 source: https://github.com/angband/angband
-stars: 1518
+stars: 1519
 systems:
 - 3DS
 - DS

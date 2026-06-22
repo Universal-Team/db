@@ -26,7 +26,7 @@ image_length: 381
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_usage: none
+llm_generation: 'no'
 nightly:
   download_page: https://github.com/Universal-Team/pkmn-chest/releases/tag/git
   downloads:

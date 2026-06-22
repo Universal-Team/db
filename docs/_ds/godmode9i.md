@@ -34,7 +34,7 @@ image_length: 44248
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_usage: undisclosed
+llm_generation: unknown
 qr:
   GodMode9i.cia: https://db.universal-team.net/assets/images/qr/godmode9i-cia.png
   GodMode9i.dsi: https://db.universal-team.net/assets/images/qr/godmode9i-dsi.png

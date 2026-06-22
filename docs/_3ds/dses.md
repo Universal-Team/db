@@ -28,7 +28,7 @@ image_length: 51919
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_usage: undisclosed
+llm_generation: unknown
 qr:
   DSES.cia: https://db.universal-team.net/assets/images/qr/dses-cia.png
 source: https://github.com/noirscape/dses

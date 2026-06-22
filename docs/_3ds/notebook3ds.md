@@ -24,7 +24,7 @@ image_length: 16398
 layout: app
 license: mit
 license_name: MIT License
-llm_usage: undisclosed
+llm_generation: unknown
 qr:
   Notebook3DS.cia: https://db.universal-team.net/assets/images/qr/notebook3ds-cia.png
 screenshots:

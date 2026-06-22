@@ -18,9 +18,9 @@ icon: https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/virt
 image: https://db.universal-team.net/assets/images/images/virtuanes.png
 image_length: 2631
 layout: app
-llm_usage: none
+llm_generation: 'no'
 source: https://github.com/bubble2k16/emus3ds
-stars: 267
+stars: 266
 systems:
 - 3DS
 title: VirtuaNES

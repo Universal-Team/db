@@ -21,7 +21,7 @@ image_length: 26472
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
-llm_usage: undisclosed
+llm_generation: unknown
 screenshots:
 - description: Gameplay 1
   url: https://db.universal-team.net/assets/images/screenshots/omnispeak-3ds/gameplay-1.png

@@ -21,7 +21,7 @@ image_length: 614
 layout: app
 license: mit
 license_name: MIT License
-llm_usage: none
+llm_generation: 'no'
 source: https://github.com/MechanicalDragon0687/TWLFix-CFW
 stars: 70
 systems:

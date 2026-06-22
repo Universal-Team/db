@@ -22,11 +22,13 @@ icon: https://raw.githubusercontent.com/Michele-3ds/NightClock/main/icon.png
 image: https://raw.githubusercontent.com/Michele-3ds/NightClock/main/banner.png
 image_length: 44840
 layout: app
+license: mit
+license_name: MIT License
 llm_generation: 'yes'
 qr:
   nightclock.cia: https://db.universal-team.net/assets/images/qr/nightclock-cia.png
 source: https://github.com/Michele-3ds/NightClock
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: NightClock

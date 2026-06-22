@@ -21,7 +21,7 @@ image_length: 2744
 layout: app
 license: mit
 license_name: MIT License
-llm_usage: undisclosed
+llm_generation: unknown
 source: https://github.com/Aeplet/3DSDI
 stars: 2
 systems:

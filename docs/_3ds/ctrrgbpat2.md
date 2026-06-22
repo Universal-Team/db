@@ -25,7 +25,7 @@ image_length: 12658
 layout: app
 license: mit
 license_name: MIT License
-llm_usage: undisclosed
+llm_generation: unknown
 qr:
   CtrRGBPAT2.cia: https://db.universal-team.net/assets/images/qr/ctrrgbpat2-cia.png
 screenshots:

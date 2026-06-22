@@ -24,7 +24,7 @@ image_length: 61771
 layout: app
 license: other
 license_name: Other
-llm_usage: undisclosed
+llm_generation: unknown
 qr:
   SonicCD.cia: https://db.universal-team.net/assets/images/qr/soniccd-cia.png
 screenshots:

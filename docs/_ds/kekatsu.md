@@ -24,7 +24,7 @@ image_length: 265
 layout: app
 license: mit
 license_name: MIT License
-llm_usage: undisclosed
+llm_generation: unknown
 qr:
   Kekatsu.nds: https://db.universal-team.net/assets/images/qr/kekatsu-nds.png
 screenshots:

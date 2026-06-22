@@ -18,7 +18,7 @@ github: AzizBgBoss/MicroCityNDS
 image: https://avatars.githubusercontent.com/u/83554824?v=4&size=128
 image_length: 29184
 layout: app
-llm_usage: undisclosed
+llm_generation: unknown
 qr:
   MicroCityNDS.nds: https://db.universal-team.net/assets/images/qr/microcitynds-nds.png
 source: https://github.com/AzizBgBoss/MicroCityNDS

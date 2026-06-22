@@ -18,7 +18,7 @@ icon: https://raw.githubusercontent.com/CollinScripter/Revamped3DS/master/icon.p
 image: https://db.universal-team.net/assets/images/images/halo-revamped.png
 image_length: 30077
 layout: app
-llm_usage: none
+llm_generation: 'no'
 source: https://github.com/CollinScripter/Revamped3DS
 stars: 24
 systems:

@@ -23,7 +23,7 @@ icon: https://raw.githubusercontent.com/ellio86/kavita-3ds/main/icon.png
 image: https://raw.githubusercontent.com/ellio86/kavita-3ds/main/banner.png
 image_length: 8092
 layout: app
-llm_usage: undisclosed
+llm_generation: unknown
 qr:
   kavita-3ds.cia: https://db.universal-team.net/assets/images/qr/kavita-3ds-cia.png
 source: https://github.com/ellio86/kavita-3ds

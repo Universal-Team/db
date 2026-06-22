@@ -18,7 +18,7 @@ icon: https://raw.githubusercontent.com/TurtleP/Hax0r/master/graphics/icon.png
 image: https://db.universal-team.net/assets/images/images/hax0r.png
 image_length: 1812
 layout: app
-llm_usage: none
+llm_generation: 'no'
 source: https://github.com/TurtleP/Hax0r
 stars: 10
 systems:
