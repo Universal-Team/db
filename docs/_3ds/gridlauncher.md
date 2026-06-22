@@ -20,7 +20,7 @@ icon: https://raw.githubusercontent.com/SuperDubious-SmallLabs/GridLauncher/refs
 image: https://raw.githubusercontent.com/wiki/SuperDubious-SmallLabs/GridLauncher/images/logodefault.png
 image_length: 7346
 layout: app
-llm_usage: minor
+llm_usage: generation
 screenshots:
 - description: Launcher (theme applied)
   url: https://db.universal-team.net/assets/images/screenshots/gridlauncher/launcher-(theme-applied).png

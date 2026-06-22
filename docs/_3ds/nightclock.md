@@ -22,7 +22,7 @@ icon: https://raw.githubusercontent.com/Michele-3ds/NightClock/main/icon.png
 image: https://raw.githubusercontent.com/Michele-3ds/NightClock/main/banner.png
 image_length: 44840
 layout: app
-llm_usage: minor
+llm_usage: generation
 qr:
   nightclock.cia: https://db.universal-team.net/assets/images/qr/nightclock-cia.png
 source: https://github.com/Michele-3ds/NightClock

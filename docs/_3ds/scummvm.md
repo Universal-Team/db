@@ -26,7 +26,7 @@ image_length: 17658
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
-llm_usage: undisclosed
+llm_usage: assistance
 nightly:
   download_page: https://buildbot.scummvm.org/dailybuilds/master/
   downloads:

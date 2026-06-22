@@ -21,7 +21,7 @@ image_length: 7074
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
-llm_usage: undisclosed
+llm_usage: generation
 source: https://github.com/PandaAkiraNakai/PandaFlow
 stars: 2
 systems:
