@@ -56,6 +56,9 @@ update_notes: '<p dir="auto">Yesterday (The 19''th of June) I had the birthday. 
   the cursed printing of the Chinese text. In addition, the file library has been
   optimised.</p>
 
+  <p dir="auto"><a href="https://github.com/TheXTech/TheXTech/releases/tag/v1.3.7.3-1">A
+  HOTFIX RELEASE 1.3.7.3-1 IS OUT, USE IT INSTEAD OF THIS</a></p>
+
   <h1 dir="auto">Full changelog for 1.3.7.3</h1>
 
   <details><summary>Details</summary>
