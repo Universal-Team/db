@@ -30,7 +30,7 @@ llm_usage: undisclosed
 qr:
   Meteo3DS.cia: https://db.universal-team.net/assets/images/qr/meteo3ds-cia.png
 source: https://github.com/xPsycho999/Meteo3DS
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: Meteo3DS
