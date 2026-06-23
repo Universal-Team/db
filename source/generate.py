@@ -480,19 +480,20 @@ def create_web_file(app: Dict[str, Any]):
 
 	# Create installation instructions from scripts
 	if "scripts" in web:
-		if len(body) > 0:
-			body += "\n\n"
-		body += "### Installation instructions\n\n"
-		body += "<div class=\"alert alert-info\">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>\n"
+		if "no_instructions" not in app or not app["no_instructions"]:
+			if len(body) > 0:
+				body += "\n\n"
+			body += "### Installation instructions\n\n"
+			body += "<div class=\"alert alert-info\">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>\n"
 
-		for key in web["scripts"]:
-			script = web["scripts"][key]
-			if "script" in script:  # Sometimes its an object, ie for prerelease scripts
-				script = script["script"]
+			for key in web["scripts"]:
+				script = web["scripts"][key]
+				if "script" in script:  # Sometimes its an object, ie for prerelease scripts
+					script = script["script"]
 
-			body += f"<details class=\"alert alert-secondary\"><summary>{key}</summary>\n"
-			body += create_installation_instructions(script)
-			body += "\n</details>\n\n"
+				body += f"<details class=\"alert alert-secondary\"><summary>{key}</summary>\n"
+				body += create_installation_instructions(script)
+				body += "\n</details>\n\n"
 
 		web.pop("scripts")
 
