@@ -1,0 +1,61 @@
+{
+	"github": "biometrix76/AlolanCTRPluginFramework",
+	"author": "biometrix76",
+	"title": "Alolan CTRPluginFramework",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"save-tool"
+	],
+	"description": "3gx plugin for Pokemon Sun/Moon and Ultra Sun/Ultra Moon.",
+	"unique_ids": [
+		1460224,
+		1531392,
+		1789952,
+		1790208
+	],
+	"installed_files": [
+		"/luma/plugins/0004000000164800/AlolanCTRPluginFramework.3gx",
+		"/luma/plugins/0004000000175E00/AlolanCTRPluginFramework.3gx",
+		"/luma/plugins/00040000001B5000/AlolanCTRPluginFramework.3gx",
+		"/luma/plugins/00040000001B5100/AlolanCTRPluginFramework.3gx"
+	],
+	"scripts": {
+		"Plugin": [
+			{
+				"type": "downloadRelease",
+				"repo": "biometrix76/AlolanCTRPluginFramework",
+				"file": "luma.zip",
+				"output": "/AlolanCTRPluginFramework-luma.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/AlolanCTRPluginFramework-luma.zip",
+				"input": "^luma",
+				"output": "/luma"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/AlolanCTRPluginFramework-luma.zip"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "biometrix76/AlolanCTRPluginFramework",
+				"file": "Language.zip",
+				"output": "/AlolanCTRPluginFramework-Language.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/AlolanCTRPluginFramework-Language.zip",
+				"input": "^Language",
+				"output": "/AlolanCTRPluginFramework/Language"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/AlolanCTRPluginFramework-Language.zip"
+			}
+		]
+	}
+}
