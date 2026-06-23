@@ -1,7 +1,7 @@
 ---
 layout: cards
-title: 3DS - Apps
+title: DS - Apps
 description: Applications to do all sorts of things
-system: 3ds
+system: ds
 category: app
 ---

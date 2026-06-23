@@ -1,7 +1,7 @@
 ---
 layout: cards
-title: 3DS - Emulators & Hypervisors
-description: Emulators, hypervisors, and anything else that helps run other apps
+title: 3DS - Emulators
+description: Emulators, hypervisors, and anything else that runs apps from other devices
 system: 3ds
 category: emulator
 ---

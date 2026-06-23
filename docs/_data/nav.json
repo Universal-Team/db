@@ -20,9 +20,15 @@
 			},
 			{
 				"title": "Emulators",
-				"page_title": "3DS - Emulators & Hypervisors",
+				"page_title": "3DS - Emulators",
 				"url": "/3ds/category/emulator",
 				"i18n": "cat-emulator"
+			},
+			{
+				"title": "Exploits",
+				"page_title": "3DS - Exploits",
+				"url": "/3ds/category/exploit",
+				"i18n": "cat-exploit"
 			},
 			{
 				"title": "FIRMs",
@@ -66,8 +72,14 @@
 				"key": "d"
 			},
 			{
-				"title": "Emulators & Hypervisors",
-				"page_title": "DS - Emulators & Hypervisors",
+				"title": "Apps",
+				"page_title": "DS - Applications",
+				"url": "/ds/category/app",
+				"i18n": "cat-app"
+			},
+			{
+				"title": "Emulators",
+				"page_title": "DS - Emulators",
 				"url": "/ds/category/emulator",
 				"i18n": "cat-emulator"
 			},
