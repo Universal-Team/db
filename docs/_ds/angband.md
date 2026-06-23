@@ -19,93 +19,41 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-148-gcd52d6cf6
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-149-g32f3c35ea
   downloads:
-    Angband-4.2.6-148-gcd52d6cf6-3ds.zip:
-      size: 24695450
+    Angband-4.2.6-149-g32f3c35ea-3ds.zip:
+      size: 24695448
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-148-gcd52d6cf6/Angband-4.2.6-148-gcd52d6cf6-3ds.zip
-    Angband-4.2.6-148-gcd52d6cf6-nds.zip:
-      size: 23329710
+      url: https://github.com/angband/angband/releases/download/4.2.6-149-g32f3c35ea/Angband-4.2.6-149-g32f3c35ea-3ds.zip
+    Angband-4.2.6-149-g32f3c35ea-nds.zip:
+      size: 23329396
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-148-gcd52d6cf6/Angband-4.2.6-148-gcd52d6cf6-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-149-g32f3c35ea/Angband-4.2.6-149-g32f3c35ea-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>Fix typo in comment by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/fruviad/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/fruviad">@fruviad</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4657661102" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6649"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6649/hovercard"
-    href="https://github.com/angband/angband/pull/6649">#6649</a></li>
-
-    <li>debugging ''S'' command: for endgame weapons, allow for slay evil varieties
-    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4600437974" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6644"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6644/hovercard"
-    href="https://github.com/angband/angband/pull/6644">#6644</a></li>
-
-    <li>DOS workflow: avoid hardwiring the project name by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4606594995" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6645"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6645/hovercard"
-    href="https://github.com/angband/angband/pull/6645">#6645</a></li>
-
-    <li>On DOS, use shortened names for the the default option files by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4623069466" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6647"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6647/hovercard"
-    href="https://github.com/angband/angband/pull/6647">#6647</a></li>
-
-    <li>Correct some typos in comments by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/backwardsEric/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4624543039" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6648"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6648/hovercard"
-    href="https://github.com/angband/angband/pull/6648">#6648</a></li>
-
-    <li>Nintendo: avoid set but unused warning by <a class="user-mention notranslate"
+    <li>Workflows: improve diagnostics for DOS by <a class="user-mention notranslate"
     data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4660038588" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6650"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6650/hovercard"
-    href="https://github.com/angband/angband/pull/6650">#6650</a></li>
+    data-id="4673763169" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6651"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6651/hovercard"
+    href="https://github.com/angband/angband/pull/6651">#6651</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-142-g40438c80d...4.2.6-148-gcd52d6cf6"><tt>4.2.6-142-g40438c80d...4.2.6-148-gcd52d6cf6</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-148-gcd52d6cf6...4.2.6-149-g32f3c35ea"><tt>4.2.6-148-gcd52d6cf6...4.2.6-149-g32f3c35ea</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * Fix typo in comment by @fruviad in https://github.com/angband/angband/pull/6649
-
-    * debugging ''S'' command: for endgame weapons, allow for slay evil varieties
-    by @backwardsEric in https://github.com/angband/angband/pull/6644
-
-    * DOS workflow: avoid hardwiring the project name by @backwardsEric in https://github.com/angband/angband/pull/6645
-
-    * On DOS, use shortened names for the the default option files by @backwardsEric
-    in https://github.com/angband/angband/pull/6647
-
-    * Correct some typos in comments by @backwardsEric in https://github.com/angband/angband/pull/6648
-
-    * Nintendo: avoid set but unused warning by @backwardsEric in https://github.com/angband/angband/pull/6650
+    * Workflows: improve diagnostics for DOS by @backwardsEric in https://github.com/angband/angband/pull/6651
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-142-g40438c80d...4.2.6-148-gcd52d6cf6'
-  updated: '2026-06-16T11:22:49Z'
-  version: 4.2.6-148-gcd52d6cf6
-  version_title: 4.2.6-148-gcd52d6cf6
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-148-gcd52d6cf6...4.2.6-149-g32f3c35ea'
+  updated: '2026-06-23T11:22:54Z'
+  version: 4.2.6-149-g32f3c35ea
+  version_title: 4.2.6-149-g32f3c35ea
 source: https://github.com/angband/angband
 stars: 1519
 systems:
@@ -221,28 +169,28 @@ Angband is a graphical dungeon adventure game that uses textual characters to re
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-148-gcd52d6cf6.3dsx</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-149-g32f3c35ea.3dsx</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-148-gcd52d6cf6-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-148-gcd52d6cf6.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-148-gcd52d6cf6.3dsx</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-149-g32f3c35ea-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-149-g32f3c35ea.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-149-g32f3c35ea.3dsx</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-148-gcd52d6cf6.cia</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-149-g32f3c35ea.cia</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-148-gcd52d6cf6-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-148-gcd52d6cf6.cia</code> from the zip to <code>/cias/Angband-4.2.6-148-gcd52d6cf6.cia</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-149-g32f3c35ea-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-149-g32f3c35ea.cia</code> from the zip to <code>/cias/Angband-4.2.6-149-g32f3c35ea.cia</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/Angband-4.2.6-148-gcd52d6cf6.cia</code> using FBI or GodMode9</li>
+<li>Install and delete <code>/cias/Angband-4.2.6-149-g32f3c35ea.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-148-gcd52d6cf6.nds</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-149-g32f3c35ea.nds</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-148-gcd52d6cf6-nds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-148-gcd52d6cf6.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Download <code>Angband-4.2.6-149-g32f3c35ea-nds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-149-g32f3c35ea.nds</code> from the zip to where you keep NDS files on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
