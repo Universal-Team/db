@@ -83,3 +83,19 @@ website: https://www.gamebrew.org/wiki/FSPDS
 A DS ROM which allows playing DSi's Flipnote Studio (.ppm) files on a DS Phat/Lite. It features flipnote image and sound player with pause/resume option, and also a file metadata viewer.
 
 Place the flipnotes you want to play in a `/flipnotes/` folder at the root of your SD card. FSPDS will not detect/play files larger than 1MB. It is also possible the app won't play correctly files with more than 512KB of BGM soundtrack (although I have never met such a file during my tests).
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>FSPDS-V1.0.79212842R.nds</summary>
+<ol>
+<li>Download <code>FSPDS-V1.0.79212842R.nds</code> to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[prerelease] FSPDS-V1.0.90343508R.nds</summary>
+<ol>
+<li>Download <code>FSPDS-V1.0.90343508R.nds</code> to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+

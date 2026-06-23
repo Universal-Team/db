@@ -44,3 +44,22 @@ updated: '2016-06-30T04:51:24Z'
 version: v1.0.2
 version_title: 3DS Stable Release 1.0.2
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>TurtleInvaders.3dsx</summary>
+<ol>
+<li>Download <code>TurtleInvaders.zip</code></li>
+<li>Extract <code>/TurtleInvaders.3dsx</code> from the TurtleInvaders.zip to <code>/3ds/TurtleInvaders.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>TurtleInvaders.cia</summary>
+<ol>
+<li>Download <code>TurtleInvaders.zip</code></li>
+<li>Extract <code>/TurtleInvaders.cia</code> from the TurtleInvaders.zip to <code>/cias/TurtleInvaders.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/TurtleInvaders.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

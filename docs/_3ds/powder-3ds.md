@@ -39,3 +39,22 @@ updated: '2017-02-03T23:50:45Z'
 version: v1,1
 version_title: Some improvements
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Powder.3dsx</summary>
+<ol>
+<li>Download <code>Powder.v1.1.zip</code></li>
+<li>Extract <code>/Powder/Powder.3dsx</code> from the Powder.v1.1.zip to <code>/3ds/Powder.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Powder.cia</summary>
+<ol>
+<li>Download <code>Powder.v1.1.zip</code></li>
+<li>Extract <code>/Powder.cia</code> from the Powder.v1.1.zip to <code>/cias/Powder.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/Powder.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

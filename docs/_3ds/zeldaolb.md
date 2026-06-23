@@ -46,3 +46,21 @@ updated: '2017-06-07T19:23:53Z'
 version: v1,1
 version_title: Improved Italian translation and made some fixes
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>ZeldaOLB.3dsx</summary>
+<ol>
+<li>Download <code>ZeldaOLB_3DSX_v1.1.zip</code></li>
+<li>Extract <code>/ZeldaOLB/ZeldaOLB.3dsx</code> from the ZeldaOLB_3DSX_v1.1.zip to <code>/3ds/ZeldaOLB.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>ZeldaOLB_v1.1.cia</summary>
+<ol>
+<li>Download <code>ZeldaOLB_v1.1.cia</code> to <code>/cias/ZeldaOLB_v1.1.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/ZeldaOLB_v1.1.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

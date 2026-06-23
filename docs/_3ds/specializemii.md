@@ -43,3 +43,22 @@ updated: '2017-01-22T11:19:45Z'
 version: 0.1.4
 version_title: Fix un-specializing personal Mii
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>SpecializeMii.3dsx</summary>
+<ol>
+<li>Download <code>SpecializeMii.zip</code></li>
+<li>Extract <code>/3ds-arm/3ds/SpecializeMii/SpecializeMii.3dsx</code> from the SpecializeMii.zip to <code>/3ds/SpecializeMii.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>SpecializeMii.cia</summary>
+<ol>
+<li>Download <code>SpecializeMii.zip</code></li>
+<li>Extract <code>/3ds-arm/SpecializeMii.cia</code> from the SpecializeMii.zip to <code>/cias/SpecializeMii.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/SpecializeMii.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

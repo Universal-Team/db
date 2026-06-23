@@ -90,3 +90,23 @@ version: 3.9.1
 version_title: SuperHaxagon v3.9.1
 ---
 SuperHaxagon, like the original game Super Hexagon by Terry Cavanagh, has only one goal. Survive as long as possible by avoiding the falling walls in a trippy, spinny frenzy!
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>SuperHaxagon.3dsx</summary>
+<ol>
+<li>Download <code>SuperHaxagon-3DS-armhf.3dsx.zip</code></li>
+<li>Extract <code>/SuperHaxagon.3dsx</code> from the SuperHaxagon-3DS-armhf.3dsx.zip to <code>/3ds/SuperHaxagon.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>SuperHaxagon.cia</summary>
+<ol>
+<li>Download <code>SuperHaxagon-3DS-armhf.cia.zip</code></li>
+<li>Extract <code>/SuperHaxagon.cia</code> from the SuperHaxagon-3DS-armhf.cia.zip to <code>/cias/SuperHaxagon.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/SuperHaxagon.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

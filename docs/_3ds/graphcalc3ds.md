@@ -51,3 +51,21 @@ updated: '2016-12-03T21:05:23Z'
 version: v1.5.1
 version_title: Version 1.5.1
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>GraphCalc3DS.cia</summary>
+<ol>
+<li>Download <code>GraphCalc3DS.cia</code> to <code>/cias/GraphCalc3DS.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/GraphCalc3DS.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>GraphCalc3DS.3dsx</summary>
+<ol>
+<li>Download <code>GraphCalc3DS_3DSX.zip</code></li>
+<li>Extract <code>/GraphCalc3DS.3dsx</code> from the GraphCalc3DS_3DSX.zip to <code>/3ds/GraphCalc3DS.3dsx</code> on your SD card</li>
+</ol>
+</details>
+

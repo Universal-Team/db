@@ -1821,3 +1821,30 @@ website: https://www.scummvm.org
 ScummVM allows you to play classic graphic point-and-click adventure games, text adventure games, and RPGs, as long as you already have the game data files. ScummVM replaces the executable files shipped with the games, which means you can now play your favorite games on all your favorite devices.
 
 While ScummVM was originally designed to run LucasArts’ SCUMM games, over time support has been added for many other games: see the full list [on our wiki](https://wiki.scummvm.org/index.php?title=Category:Supported_Games). Noteworthy titles include Broken Sword, Myst and Blade Runner, although there are countless other hidden gems to explore.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[git] scummvm.3dsx</summary>
+<ol>
+<li>Download <code>3ds-master-latest.zip</code></li>
+<li>Extract <code>/3ds-master-[//]+/scummvm.3dsx</code> from the 3ds-master-latest.zip to <code>/3ds/scummvm.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[git] scummvm.cia</summary>
+<ol>
+<li>Download <code>3ds-master-latest.zip</code></li>
+<li>Extract <code>/3ds-master-[//]+/scummvm.cia</code> from the 3ds-master-latest.zip to <code>/cias/scummvm.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/scummvm.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[git] scummvm.nds</summary>
+<ol>
+<li>Download <code>nds-master-latest.zip</code></li>
+<li>Extract <code>/nds-master-[//]+/scummvm.ds</code> from the nds-master-latest.zip to <code>/nds-master-[^/]+/scummvm.ds</code> on your SD card</li>
+</ol>
+</details>
+

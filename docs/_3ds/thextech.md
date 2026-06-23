@@ -292,3 +292,17 @@ This is a direct continuation of the SMBX 1.3 engine. Originally it was written 
 </ol>
 </details>
 
+<details class="alert alert-secondary"><summary>thextech.3dsx</summary>
+<ol>
+<li>Download <code>thextech-3ds-v1.3.7.3.zip</code></li>
+<li>Extract <code>/thextech-3ds/thextech.3dsx</code> from the thextech-3ds-v1.3.7.3.zip to <code>/3ds/thextech.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[git] thextech.3dsx</summary>
+<ol>
+<li>Download <code>thextech-3ds-main.zip</code></li>
+<li>Extract <code>/thextech-3ds/thextech.3dsx</code> from the thextech-3ds-main.zip to <code>/3ds/thextech.3dsx</code> on your SD card</li>
+</ol>
+</details>
+

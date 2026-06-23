@@ -92,3 +92,23 @@ website: https://gbatemp.net/threads/release-fmsx3ds-msx-msx2-msx2-emulator-with
 fMSX(MSX emulator) port to 3DS. Add new feature such as MSXTurboR emulation and MSX0 emulation.
 Also, it add various improvements based on recently analize of MSX hardware
 include analize in Japan that is unknown in world wide.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>fMSX3DS.3dsx</summary>
+<ol>
+<li>Download <code>fMSX3DS-1.42Source.zip</code></li>
+<li>Extract <code>/fMSX3DS.3dsx</code> from the fMSX3DS-1.42Source.zip to <code>/3ds/fMSX3DS.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>fMSX3DS.cia</summary>
+<ol>
+<li>Download <code>fMSX3DS-1.42Source.zip</code></li>
+<li>Extract <code>/fMSX3DS.cia</code> from the fMSX3DS-1.42Source.zip to <code>/cias/fMSX3DS.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/fMSX3DS.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

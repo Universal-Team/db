@@ -74,3 +74,10 @@ Place game files in the 3ds/OmniSpeak directory.
 </ol>
 </details>
 
+<details class="alert alert-secondary"><summary>OmniSpeak-3ds-V1.0.2.3dsx</summary>
+<ol>
+<li>Download <code>OmniSpeak-3ds.V1.0.2.zip</code></li>
+<li>Extract <code>/OmniSpeak-3ds-V1.0.2.3dsx</code> from the OmniSpeak-3ds.V1.0.2.zip to <code>/3ds/OmniSpeak-3ds-V1.0.2.3dsx</code> on your SD card</li>
+</ol>
+</details>
+

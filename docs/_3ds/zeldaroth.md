@@ -41,3 +41,22 @@ updated: '2016-06-11T21:08:59Z'
 version: v1.0.2
 version_title: Minor changes
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>ZeldaROTH.3dsx</summary>
+<ol>
+<li>Download <code>ZeldaROTH_3DSX_v1.0.2.zip</code></li>
+<li>Extract <code>/ZeldaROTH/ZeldaROTH.3dsx</code> from the ZeldaROTH_3DSX_v1.0.2.zip to <code>/3ds/ZeldaROTH.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>ZeldaROTH.cia</summary>
+<ol>
+<li>Download <code>ZeldaROTH_CIA_v1.0.2.zip</code></li>
+<li>Extract <code>/ZeldaROTH.cia</code> from the ZeldaROTH_CIA_v1.0.2.zip to <code>/cias/ZeldaROTH.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/ZeldaROTH.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

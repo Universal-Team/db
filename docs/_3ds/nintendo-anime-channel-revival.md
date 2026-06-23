@@ -32,3 +32,13 @@ updated: '2026-05-27T16:34:11Z'
 version: 1.0.2
 version_title: Patch ttdu08 Anime Channel 1.0.2
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Patches</summary>
+<ol>
+<li>Download <code>ttdu08AnimeChannel1.0.2.zip</code></li>
+<li>Extract <code>/luma</code> from the ttdu08AnimeChannel1.0.2.zip to <code>/luma</code> on your SD card</li>
+</ol>
+</details>
+

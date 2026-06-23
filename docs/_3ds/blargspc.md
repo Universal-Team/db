@@ -44,3 +44,14 @@ SPC files you may find online were dumped by other emulators that don't have thi
 Q. Wait, I can play SPC files of games with enhancement chips in them. Does that mean...
 
 No, it does not. The SPC/DSP cores are completely independant from the rest of the system with the exception of a couple of lines to the main CPU used for SPC uploading/downloading.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>blargSpc.3dsx</summary>
+<ol>
+<li>Download <code>blargSpc.zip</code></li>
+<li>Extract <code>/blargSpc.3dsx</code> from the blargSpc.zip to <code>/3ds/blargSpc.3dsx</code> on your SD card</li>
+</ol>
+</details>
+

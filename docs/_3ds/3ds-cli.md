@@ -58,3 +58,25 @@ Features a custom ANSI/xterm terminal emulator on the top screen with full 16/25
 
 ## Credits
 - Built using libctru and minirv32-ima
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>3ds-cli.3dsx</summary>
+<ol>
+<li>Download <code>3ds_cli.zip</code></li>
+<li>Extract <code>/3ds-cli.3dsx</code> from the 3ds_cli.zip to <code>/3ds/3ds-cli.3dsx</code> on your SD card</li>
+<li>Extract <code>/Image</code> from the 3ds_cli.zip to <code>/Image</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>3ds-cli.cia</summary>
+<ol>
+<li>Download <code>3ds_cli.zip</code></li>
+<li>Extract <code>/3ds-cli.cia</code> from the 3ds_cli.zip to <code>/cias/3ds-cli.cia</code> on your SD card</li>
+<li>Extract <code>/Image</code> from the 3ds_cli.zip to <code>/Image</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/3ds-cli.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

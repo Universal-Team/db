@@ -147,3 +147,24 @@ After a successful build, you will get a file called `SpaceCadetPinball.3dsx`, w
 | X                    | Start a new game                                  |
 | Y                    | Exit the game                                     |
 | Start                | Pause                                             |
+
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>SpaceCadetPinball.3dsx</summary>
+<ol>
+<li>Download <code>SpaceCadetPinball-3DS-v0.6.7z</code></li>
+<li>Extract <code>/SpaceCadetPinball.3dsx</code> from the SpaceCadetPinball-3DS-v0.6.7z to <code>/3ds/SpaceCadetPinball.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>SpaceCadetPinball.cia</summary>
+<ol>
+<li>Download <code>SpaceCadetPinball-3DS-v0.6.7z</code></li>
+<li>Extract <code>/SpaceCadetPinball.cia</code> from the SpaceCadetPinball-3DS-v0.6.7z to <code>/cias/SpaceCadetPinball.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/SpaceCadetPinball.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

@@ -36,3 +36,13 @@ updated: '2026-01-18T19:35:40Z'
 version: v0.7.6
 version_title: V0.7.6
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>NitroSwan.nds</summary>
+<ol>
+<li>Download <code>NitroSwan.zip</code></li>
+<li>Extract <code>/NitroSwan.nds</code> from the NitroSwan.zip to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+

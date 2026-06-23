@@ -111,3 +111,15 @@ version: v1.3
 version_title: '[v1.3] End of the Line'
 ---
 CrossCraft-Classic is a project that implements Minecraft Java Edition: Classic without looking at any of the source code of the original application and without using the original copyrighted assets. All knowledge is figured out with an understanding of in-game mechanics and is approximated to be as close as possible to the original. This project is NOT a clone of Minecraft, it is a fully implemented client.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>CrossCraft-Classic.3dsx</summary>
+<ol>
+<li>Download <code>CrossCraft-3DS.zip</code></li>
+<li>Extract <code>/CrossCraft-Classic.3dsx</code> from the CrossCraft-3DS.zip to <code>/3ds/CrossCraft-Classic.3dsx</code> on your SD card</li>
+<li>Extract the contents of <code>/CrossCraft-Classic/</code> from the CrossCraft-3DS.zip to <code>/CrossCraft-Classic/</code> on your SD card</li>
+</ol>
+</details>
+

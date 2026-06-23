@@ -74,3 +74,26 @@ updated: '2018-10-19T22:09:05Z'
 version: v1.3c
 version_title: 'v2.1: TWL Christmas Release 🎄'
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>nesDS.cia</summary>
+<ol>
+<li>Download <code>nesDS.cia</code> to <code>/cias/nesDS.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/nesDS.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>nesDS.dsi</summary>
+<ol>
+<li>Download <code>nesDS.dsi</code> to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>nesDS.nds</summary>
+<ol>
+<li>Download <code>nesDS.nds</code> to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+

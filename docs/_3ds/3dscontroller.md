@@ -54,3 +54,24 @@ updated: '2015-09-08T22:08:00Z'
 version: '0.6'
 version_title: 3DS Controller 0.6
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>3DSController.3dsx</summary>
+<ol>
+<li>Download <code>3DSController0.6.zip</code></li>
+<li>Extract <code>/3DS/3DSController.3dsx</code> from the 3DSController0.6.zip to <code>/3ds/3DSController.3dsx</code> on your SD card</li>
+<li>Extract <code>/3DS/3DSController.ini</code> from the 3DSController0.6.zip to <code>/3DS/3DSController.ini</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>3DSController.cia</summary>
+<ol>
+<li>Download <code>3DSController0.6.zip</code></li>
+<li>Extract <code>/3DS/3DSController.cia</code> from the 3DSController0.6.zip to <code>/cias/3DSController.cia</code> on your SD card</li>
+<li>Extract <code>/3DS/3DSController.ini</code> from the 3DSController0.6.zip to <code>/3DS/3DSController.ini</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/3DSController.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

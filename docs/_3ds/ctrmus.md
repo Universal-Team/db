@@ -65,3 +65,20 @@ updated: '2025-10-18T09:13:25Z'
 version: v0.5.3
 version_title: 0.5.3
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>ctrmus.3dsx</summary>
+<ol>
+<li>Download <code>ctrmus.3dsx</code> to <code>/3ds/ctrmus.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>ctrmus.cia</summary>
+<ol>
+<li>Download <code>ctrmus.cia</code> to <code>/cias/ctrmus.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/ctrmus.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

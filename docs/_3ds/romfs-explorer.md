@@ -34,3 +34,22 @@ updated: '2016-09-23T00:16:29Z'
 version: v1.0.1
 version_title: Hotfix release
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>RomFSExplorer.3dsx</summary>
+<ol>
+<li>Download <code>RomFSExplorer.zip</code></li>
+<li>Extract <code>/3ds/RomFSExplorer/RomFSExplorer.3dsx</code> from the RomFSExplorer.zip to <code>/3ds/RomFSExplorer.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>RomFSExplorer.cia</summary>
+<ol>
+<li>Download <code>RomFSExplorer.zip</code></li>
+<li>Extract <code>/RomFSExplorer.cia</code> from the RomFSExplorer.zip to <code>/cias/RomFSExplorer.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/RomFSExplorer.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

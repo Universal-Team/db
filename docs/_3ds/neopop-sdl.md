@@ -41,3 +41,21 @@ updated: '2017-06-14T18:53:35Z'
 version: v0.4
 version_title: Menu completed
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[prerelease] neopop.3dsx</summary>
+<ol>
+<li>Download <code>neopop_3DSX_v0.4.zip</code></li>
+<li>Extract <code>/neopop/neopop.3dsx</code> from the neopop_3DSX_v0.4.zip to <code>/3ds/neopop.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[prerelease] neopop_v0.4.cia</summary>
+<ol>
+<li>Download <code>neopop_v0.4.cia</code> to <code>/cias/neopop_v0.4.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/neopop_v0.4.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

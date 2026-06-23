@@ -25,3 +25,13 @@ updated: '2020-04-09T16:23:00Z'
 version: c633295
 website: https://gbatemp.net/threads/mpeg4-player-for-ds-and-dsi.544095/
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>MPEG4Player.nds</summary>
+<ol>
+<li>Download <code></code></li>
+<li>Extract <code>/MPEG4Player.nds</code> from the MPEG4Player.nds.zip to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+

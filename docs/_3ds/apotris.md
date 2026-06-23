@@ -158,3 +158,27 @@ The game is still actively maintained and new features are added constantly. If 
 * **2P Battle**: Battle your friends through the Link Cable or Wireless Adapter (GBA Only!)
 * **CPU Battle**: Go against an AI opponent
 * **Training**: Try out new strategies or improve your playing using the included Finesse Trainer
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Apotris.3dsx + assets</summary>
+<ol>
+<li>Download <code>Apotris-v4.1.03DS.zip</code></li>
+<li>Extract the contents of <code>/3ds/Apotris/assets/</code> from the Apotris-v4.1.03DS.zip to <code>/3ds/Apotris/assets/</code> on your SD card</li>
+<li>Extract the contents of <code>/3ds/Apotris/license/</code> from the Apotris-v4.1.03DS.zip to <code>/3ds/Apotris/license/</code> on your SD card</li>
+<li>Extract <code>/3ds/Apotris/Apotris.3dsx</code> from the Apotris-v4.1.03DS.zip to <code>/3ds/Apotris.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Apotris.cia + assets</summary>
+<ol>
+<li>Download <code>Apotris-v4.1.03DS.zip</code></li>
+<li>Extract the contents of <code>/3ds/Apotris/assets/</code> from the Apotris-v4.1.03DS.zip to <code>/3ds/Apotris/assets/</code> on your SD card</li>
+<li>Extract the contents of <code>/3ds/Apotris/license/</code> from the Apotris-v4.1.03DS.zip to <code>/3ds/Apotris/license/</code> on your SD card</li>
+<li>Extract <code>/3ds/Apotris/Apotris.cia</code> from the Apotris-v4.1.03DS.zip to <code>/cias/Apotris.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/Apotris.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

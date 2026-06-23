@@ -62,3 +62,14 @@ version: v2.2.3
 version_title: GodMode9 v2.2.3 Tenth Anniversary Hotfix
 wiki: https://github.com/d0k3/GodMode9/wiki
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>GodMode9.firm</summary>
+<ol>
+<li>Download <code>GodMode9-v2.2.3-20260331144941.zip</code></li>
+<li>Extract <code>/GodMode9.firm</code> from the GodMode9-v2.2.3-20260331144941.zip to <code>/luma/payloads/GodMode9.firm</code> on your SD card</li>
+<li>Extract <code>/gm9</code> from the GodMode9-v2.2.3-20260331144941.zip to <code>/gm9</code> on your SD card</li>
+</ol>
+</details>
+

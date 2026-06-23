@@ -107,3 +107,30 @@ version: v2.13.7
 version_title: v2.13.7
 wiki: https://github.com/Nanquitas/BootNTR/wiki
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>BootNTRSelector.3dsx</summary>
+<ol>
+<li>Download <code>BootNTRSelector.3dsx</code> to <code>/3ds/BootNTRSelector.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>BootNTRSelector.cia</summary>
+<ol>
+<li>Download <code>Home.Menu.Alternate.Banner.zip</code></li>
+<li>Extract <code>/BootNTRSelector.cia</code> from the Home.Menu.Alternate.Banner.zip to <code>/cias/BootNTRSelector.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/BootNTRSelector.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>BootNTRSelector_Mode3.cia</summary>
+<ol>
+<li>Download <code>Home.Menu.Alternate.Banner.zip</code></li>
+<li>Extract <code>/BootNTRSelector_Mode3.cia</code> from the Home.Menu.Alternate.Banner.zip to <code>/cias/BootNTRSelector_Mode3.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/BootNTRSelector_Mode3.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

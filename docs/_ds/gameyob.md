@@ -33,3 +33,22 @@ version: v0.5.2
 version_title: Version 0.5.2
 website: https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>gameyob.cia</summary>
+<ol>
+<li>Download <code>gameyob.zip</code></li>
+<li>Extract <code>/gameyob.cia</code> from the gameyob.zip to <code>/cias/gameyob.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/gameyob.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>gameyob.nds</summary>
+<ol>
+<li>Download <code>gameyob.zip</code></li>
+<li>Extract <code>/gameyob.nds</code> from the gameyob.zip to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+

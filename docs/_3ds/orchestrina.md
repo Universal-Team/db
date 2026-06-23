@@ -92,3 +92,19 @@ version_title: Orchestrina - Beta Release 5
 </ol>
 </details>
 
+<details class="alert alert-secondary"><summary>Orchestrina.3dsx</summary>
+<ol>
+<li>Download <code>Orchestrina.zip</code></li>
+<li>Extract <code>/3ds-arm/3ds/Orchestrina/Orchestrina.3dsx</code> from the Orchestrina.zip to <code>/3ds/Orchestrina.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Orchestrina.cia</summary>
+<ol>
+<li>Download <code>Orchestrina.zip</code></li>
+<li>Extract <code>/3ds-arm/Orchestrina.cia</code> from the Orchestrina.zip to <code>/cias/Orchestrina.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/Orchestrina.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

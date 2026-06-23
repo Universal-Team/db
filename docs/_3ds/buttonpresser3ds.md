@@ -58,3 +58,21 @@ updated: '2017-06-22T02:42:08Z'
 version: '2.0'
 version_title: Button Presser 3DS 2.0
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>ButtonPresser3DS.3dsx</summary>
+<ol>
+<li>Download <code>3ds.zip</code></li>
+<li>Extract <code>/3ds/ButtonPresser3DS.3dsx</code> from the 3ds.zip to <code>/3ds/ButtonPresser3DS.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>ButtonPresser3DS.cia</summary>
+<ol>
+<li>Download <code>ButtonPresser3DS.cia</code> to <code>/cias/ButtonPresser3DS.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/ButtonPresser3DS.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

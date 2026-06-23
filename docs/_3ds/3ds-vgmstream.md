@@ -48,3 +48,21 @@ updated: '2016-07-11T07:32:44Z'
 version: v0.2.0
 version_title: Version 0.2.0
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>3ds-vgmstream.cia</summary>
+<ol>
+<li>Download <code>3ds-vgmstream.cia</code> to <code>/cias/3ds-vgmstream.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/3ds-vgmstream.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>3ds-vgmstream.3dsx</summary>
+<ol>
+<li>Download <code>3ds-vgmstream.zip</code></li>
+<li>Extract <code>/3ds/3ds-vgmstream/3ds-vgmstream.3dsx</code> from the 3ds-vgmstream.zip to <code>/3ds/3ds-vgmstream.3dsx</code> on your SD card</li>
+</ol>
+</details>
+

@@ -51,3 +51,13 @@ updated: '2023-11-07T18:10:41Z'
 version: v1.1.7
 version_title: V1.1.7
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>S8DS.nds</summary>
+<ol>
+<li>Download <code>S8DS.zip</code></li>
+<li>Extract <code>/S8DS.nds</code> from the S8DS.zip to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+
