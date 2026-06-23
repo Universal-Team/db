@@ -90,6 +90,14 @@ prerelease:
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gearmo3ds">@gearmo3ds</a>
     for identifying a great path forward)</li>
 
+    <li>Add l/r on input control to page through titles by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4718364371" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/112"
+    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/112/hovercard"
+    href="https://github.com/dwalker109/cloudpoint/pull/112">#112</a></li>
+
     <li>Custom server to replace beta version''s DUFS placeholder by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
@@ -110,8 +118,9 @@ prerelease:
     * Recover from dubious archive reads (leniency on likely uninitialised saves)\
     \ by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/113\n\n### Improvements\n\
     \n* Auto enable wifi & connect to server on load by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/106\
-    \ - (thanks to @gearmo3ds for identifying a great path forward)\n* Custom server\
-    \ to replace beta version's DUFS placeholder by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/105\
+    \ - (thanks to @gearmo3ds for identifying a great path forward)\n* Add l/r on\
+    \ input control to page through titles by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/112\n\
+    * Custom server to replace beta version's DUFS placeholder by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/105\
     \ (self hosters should upgrade by looking at the self hosting readme \n\n**Full\
     \ Changelog**: https://github.com/dwalker109/cloudpoint/compare/0.4.0...0.5.0"
   updated: '2026-06-22T23:24:21Z'
