@@ -27,16 +27,16 @@ license: mit
 license_name: MIT License
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/dwalker109/cloudpoint/releases/tag/1.0.0
+  download_page: https://github.com/dwalker109/cloudpoint/releases/tag/0.5.0
   downloads:
     cloudpoint.3dsx:
-      size: 2909440
+      size: 2906180
       size_str: 2 MiB
-      url: https://github.com/dwalker109/cloudpoint/releases/download/1.0.0/cloudpoint.3dsx
+      url: https://github.com/dwalker109/cloudpoint/releases/download/0.5.0/cloudpoint.3dsx
     cloudpoint.cia:
       size: 2335680
       size_str: 2 MiB
-      url: https://github.com/dwalker109/cloudpoint/releases/download/1.0.0/cloudpoint.cia
+      url: https://github.com/dwalker109/cloudpoint/releases/download/0.5.0/cloudpoint.cia
   qr:
     cloudpoint.cia: https://db.universal-team.net/assets/images/qr/prerelease/cloudpoint-cia.png
   update_notes: '<h2 dir="auto">What''s Changed</h2>
@@ -49,8 +49,8 @@ prerelease:
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
     data-id="4693156276" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/104"
     data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/104/hovercard"
-    href="https://github.com/dwalker109/cloudpoint/pull/104">#104</a> (thanks to <a
-    class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/sofauxboho/hovercard"
+    href="https://github.com/dwalker109/cloudpoint/pull/104">#104</a> - (thanks to
+    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/sofauxboho/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/sofauxboho">@sofauxboho</a>
     for all the support)</li>
 
@@ -68,8 +68,8 @@ prerelease:
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
     data-id="4701487954" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/106"
     data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/106/hovercard"
-    href="https://github.com/dwalker109/cloudpoint/pull/106">#106</a> (thanks to <a
-    class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gearmo3ds/hovercard"
+    href="https://github.com/dwalker109/cloudpoint/pull/106">#106</a> - (thanks to
+    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gearmo3ds/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gearmo3ds">@gearmo3ds</a>
     for identifying a great path forward)</li>
 
@@ -81,49 +81,39 @@ prerelease:
     data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/110/hovercard"
     href="https://github.com/dwalker109/cloudpoint/pull/110">#110</a></li>
 
-    <li>Robust archive checking on discover by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4717174644" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/111"
-    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/111/hovercard"
-    href="https://github.com/dwalker109/cloudpoint/pull/111">#111</a></li>
-
-    <li>Add l/r on input control to page through titles by <a class="user-mention
+    <li>Recovers archive reads (leniency on likely uninitialised saves) by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/dwalker109/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/dwalker109">@dwalker109</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4718364371" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/112"
-    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/112/hovercard"
-    href="https://github.com/dwalker109/cloudpoint/pull/112">#112</a></li>
+    data-id="4721270500" data-permission-text="Title is private" data-url="https://github.com/dwalker109/cloudpoint/issues/113"
+    data-hovercard-type="pull_request" data-hovercard-url="/dwalker109/cloudpoint/pull/113/hovercard"
+    href="https://github.com/dwalker109/cloudpoint/pull/113">#113</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/dwalker109/cloudpoint/compare/0.4.0...1.0.0"><tt>0.4.0...1.0.0</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/dwalker109/cloudpoint/compare/0.4.0...0.5.0"><tt>0.4.0...0.5.0</tt></a></p>'
   update_notes_md: '## What''s Changed
 
     * Refresh hangs with full bar on refreshing titles with region changed systems
-    by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/104 (thanks to
-    @sofauxboho for all the support)
+    by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/104 - (thanks
+    to @sofauxboho for all the support)
 
     * Custom server to replace beta version''s DUFS placeholder by @dwalker109 in
     https://github.com/dwalker109/cloudpoint/pull/105
 
     * Auto enable wifi by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/106
-    (thanks to @gearmo3ds for identifying a great path forward)
+    - (thanks to @gearmo3ds for identifying a great path forward)
 
     * Move Read + Seek impl from CtrFile to a CtrFileReader by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/110
 
-    * Robust archive checking on discover by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/111
-
-    * Add l/r on input control to page through titles by @dwalker109 in https://github.com/dwalker109/cloudpoint/pull/112
-
+    * Recovers archive reads (leniency on likely uninitialised saves) by @dwalker109
+    in https://github.com/dwalker109/cloudpoint/pull/113
 
 
-    **Full Changelog**: https://github.com/dwalker109/cloudpoint/compare/0.4.0...1.0.0'
-  updated: '2026-06-22T16:12:45Z'
-  version: 1.0.0
-  version_title: 1.0.0
+    **Full Changelog**: https://github.com/dwalker109/cloudpoint/compare/0.4.0...0.5.0'
+  updated: '2026-06-22T23:24:21Z'
+  version: 0.5.0
+  version_title: 0.5.0
 qr:
   cloudpoint.cia: https://db.universal-team.net/assets/images/qr/cloudpoint-cia.png
 source: https://github.com/dwalker109/cloudpoint
