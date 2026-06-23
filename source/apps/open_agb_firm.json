@@ -17,7 +17,7 @@
 		}
 	},
 	"archive": {
-		"open_agb_firm.*\\.(zip|7z)": {
+		"open_agb_firm.*\\.(zip)": {
 			"open_agb_firm.firm": [
 				"open_agb_firm.firm", "3ds"
 			]
