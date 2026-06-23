@@ -12,8 +12,8 @@ let defaults = {
 	string: "",
 	textarea: "",
 	image: "",
-	array: [],
-	multiselect: [],
+	array: Array,
+	multiselect: Array,
 	radio: "",
 	bool: false,
 };
@@ -320,11 +320,14 @@ function createInput(item, key) {
 function fillInfo() {
 	let div = document.getElementById("appData");
 	div.innerHTML = "";
+	appInfo = {};
 
 	for(let key in appSchema) {
 		let item = appSchema[key];
 
 		appInfo[key] = (item.default && !item.disableAutofill) ? item.default : defaults[item.type];
+		if(typeof appInfo[key] == "function")
+			appInfo[key] = appInfo[key]();
 
 		if(item.hidden)
 			continue;
