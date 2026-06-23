@@ -28,7 +28,7 @@ from requests.utils import requote_uri
 from img2tdx import img2tdx
 from unistore import StoreEntry, UniStore, ICONS_PER_SHEET
 from utils import (format_to_web_name, format_traceback, get_matching_app,
-                   to_friendly_bytes, was_recently_updated)
+                   to_friendly_bytes, was_recently_updated, create_installation_instructions)
 
 DOWNLOAD_BLACKLIST = r"(\.3ds$|\.apk|\.appimage|\.flatpak|\.dmg|\.dol|\.exe|\.ipa|\.love|\.nro|\.opk|\.pkg|\.smdh|\.vpk|\.xz|armhf|elf|linux|macos|osx|PS3|PSP|switch|ubuntu|vita|wii|win|x86_64|xbox)"
 DOCS_DIR: Optional[pathlib.Path] = None
@@ -473,14 +473,28 @@ def create_web_file(app: Dict[str, Any]):
 		web["unique_ids"] = [f"0x{uid:X}" for uid in web["unique_ids"]]
 
 	# long description is put as the content
+	body = ""
 	if "long_description" in web:
+		body = web["long_description"]
 		web.pop("long_description")
+
+	# Create installation instructions from scripts
+	if "scripts" in web:
+		if len(body) > 0:
+			body += "\n\n"
+		body += "### Installation instructions\n\n"
+		body += "<div class=\"alert alert-info\">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>\n"
+
+		for script in web["scripts"]:
+			body += f"<details class=\"alert alert-secondary\"><summary>{script}</summary>\n"
+			body += create_installation_instructions(web["scripts"][script])
+			body += "\n</details>\n\n"
+
+		web.pop("scripts")
 
 	# Remove large things that aren't needed
 	if "update_notes_md" in web:
 		web.pop("update_notes_md")
-	if "scripts" in web:
-		web.pop("scripts")
 	if "archive" in web:
 		web.pop("archive")
 	if "slug" in web:
@@ -501,8 +515,7 @@ def create_web_file(app: Dict[str, Any]):
 		if "title" in web:
 			with open(DOCS_DIR.joinpath(f"_{format_to_web_name(sys)}", f"{format_to_web_name(web['title'])}.md"), "w", encoding="utf8") as file:
 				file.write(f"---\n{yaml.dump(web, sort_keys=True, allow_unicode=True)}---\n")
-				if "long_description" in app:
-					file.write(app["long_description"])
+				file.write(body)
 
 	return web
 
