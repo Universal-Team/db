@@ -21,6 +21,11 @@ image: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/
 image_length: 431
 layout: app
 llm_generation: unknown
+screenshots:
+- description: Brush select
+  url: https://db.universal-team.net/assets/images/screenshots/collab-doodle/brush-select.png
+- description: Canvas
+  url: https://db.universal-team.net/assets/images/screenshots/collab-doodle/canvas.png
 source: https://github.com/ArmstrongThomas/Doodle
 stars: 6
 systems:
