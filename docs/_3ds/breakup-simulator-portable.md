@@ -55,3 +55,15 @@ CAT GRILL by DangerBites
 Drawing Cat Grill holds up is by Eran
 
 Art and Music by Dangerbites and Haynster
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Install game (3dsx)</summary>
+<ol>
+<li>Create the folder <code>/3ds/BreakupSimulator/</code></li>
+<li>Download <code>BreakupSimulator3DS.zip</code></li>
+<li>Extract everything from the 3dsBreakupSimulator3DS.zip to <code>/3ds/BreakupSimulator/</code> on your SD card</li>
+</ol>
+</details>
+

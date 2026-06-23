@@ -88,3 +88,13 @@ updated: '2022-10-16T21:47:42Z'
 version: v1.0
 version_title: v1.0
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>3ds.zip</summary>
+<ol>
+<li>Download <code>3ds.zip</code></li>
+<li>Extract everything from the 3ds.zip to the root of your SD card</li>
+</ol>
+</details>
+

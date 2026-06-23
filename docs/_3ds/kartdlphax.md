@@ -39,3 +39,24 @@ updated: '2023-07-24T23:07:13Z'
 version: v1.3.3
 version_title: Fifth Release
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[EUR] plugin.3gx</summary>
+<ol>
+<li>Download <code>plugin.3gx</code> to <code>/luma/plugins/0004000000030700/plugin.3gx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[JPN] plugin.3gx</summary>
+<ol>
+<li>Download <code>plugin.3gx</code> to <code>/luma/plugins/0004000000030600/plugin.3gx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[USA] plugin.3gx</summary>
+<ol>
+<li>Download <code>plugin.3gx</code> to <code>/luma/plugins/0004000000030800/plugin.3gx</code> on your SD card</li>
+</ol>
+</details>
+

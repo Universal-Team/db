@@ -77,3 +77,14 @@ updated: '2021-09-16T07:03:42Z'
 version: v1.1.9
 version_title: v1.2.3
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>DDLC-3DS.3dsx</summary>
+<ol>
+<li>Download <code>DDLC-3DS.zip</code></li>
+<li>Extract <code>/DDLC-3DS.3dsx</code> from the DDLC-3DS.zip to <code>/3ds/DDLC-3DS.3dsx</code> on your SD card</li>
+<li>Extract <code>/game</code> from the DDLC-3DS.zip to <code>/3ds/DDLC-3DS/game</code> on your SD card</li>
+</ol>
+</details>
+

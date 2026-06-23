@@ -58,3 +58,14 @@ version_title: v1.21
 Fly through a 3D world of never-ending blocks and survive for as long as you can! Includes customization options for gameplay and visuals, along with five music tracks.
 
 New 3DS is recommended; performance is poor on O3DS.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>BlockamokRemix.3dsx</summary>
+<ol>
+<li>Download <code>BlockamokRemix-v*-3ds.zip</code></li>
+<li>Extract <code>/3ds/BlockamokRemix/BlockamokRemix.3dsx</code> from the BlockamokRemix.zip to <code>/3ds/BlockamokRemix.3dsx</code> on your SD card</li>
+</ol>
+</details>
+

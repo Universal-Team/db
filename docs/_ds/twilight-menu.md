@@ -93,3 +93,63 @@ wiki: https://wiki.ds-homebrew.com/twilightmenu/
 TWiLight Menu++ is an open-source DSi Menu upgrade/replacement for the Nintendo DSi, the Nintendo 3DS, and Nintendo DS flashcards. It can launch games for the Nintendo DS, Nintendo DSi, and GameBoy Advance, as well as DSTWO plugins (if you use a DSTWO).
 
 Please check the [wiki](https://wiki.ds-homebrew.com/twilightmenu/) for help installing.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>TWiLight Menu++</summary>
+<ol>
+<li>Download <code>TWiLightMenu-3DS.7z</code></li>
+<li>Extract <code>/_nds</code> from the TWiLightMenu-3DS.7z to <code>/_nds</code> on your SD card</li>
+<li>Extract <code>/BOOT.NDS</code> from the TWiLightMenu-3DS.7z to <code>/BOOT.NDS</code> on your SD card</li>
+<li>Extract <code>/TWiLight Menu.cia</code> from the TWiLightMenu-3DS.7z to <code>/cias/TWiLight Menu.cia</code> on your SD card</li>
+<li>Extract "roms" folder?  (Recommended for new users) If not, skip to step 7</li>
+<li>Extract <code>/roms</code> from the TWiLightMenu-3DS.7z to <code>/roms</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/TWiLight Menu.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[Add-on] Better DSi Menu Music</summary>
+<ol>
+<li>Download <code>AddOn-BetterDSiMenuMusic.7z</code></li>
+<li>Extract <code>/_nds</code> from the AddOn-BetterDSiMenuMusic.7z to <code>/_nds</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[Add-on] Extra UI Music</summary>
+<ol>
+<li>Download <code>AddOn-ExtraUIMusic.7z</code></li>
+<li>Extract <code>/_nds</code> from the AddOn-ExtraUIMusic.7z to <code>/_nds</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[Add-on] Multimedia</summary>
+<ol>
+<li>Download <code>AddOn-Multimedia.7z</code></li>
+<li>Extract <code>/_nds</code> from the AddOn-Multimedia.7z to <code>/_nds</code> on your SD card</li>
+<li>Extract "photos" folder?  (Recommended for new users) If not, skip to step 5</li>
+<li>Extract <code>/photos</code> from the AddOn-Multimedia.7z to <code>/photos</code> on your SD card</li>
+<li>Extract "videos" folder?  (Recommended for new users) If not, you're done!</li>
+<li>Extract <code>/videos</code> from the AddOn-Multimedia.7z to <code>/videos</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[Add-on] Virtual Console (Minimal, Recommended)</summary>
+<ol>
+<li>Download <code>AddOn-VirtualConsoleMinimal-3DS.7z</code></li>
+<li>Extract <code>/_nds</code> from the AddOn-VirtualConsoleMinimal-3DS.7z to <code>/_nds</code> on your SD card</li>
+<li>Extract "roms" folder?  (Recommended for new users) If not, you're done!</li>
+<li>Extract <code>/roms</code> from the AddOn-VirtualConsoleMinimal-3DS.7z to <code>/roms</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[Add-on] Virtual Console (Full)</summary>
+<ol>
+<li>Download <code>AddOn-VirtualConsoleFull-3DS.7z</code></li>
+<li>Extract <code>/_nds</code> from the AddOn-VirtualConsoleFull-3DS.7z to <code>/_nds</code> on your SD card</li>
+<li>Extract "roms" folder?  (Recommended for new users) If not, you're done!</li>
+<li>Extract <code>/roms</code> from the AddOn-VirtualConsoleFull-3DS.7z to <code>/roms</code> on your SD card</li>
+</ol>
+</details>
+

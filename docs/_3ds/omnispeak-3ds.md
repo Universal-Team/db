@@ -63,3 +63,14 @@ Keen 5 v1.4 EGA
 Keen 6 v1.4 EGA
 
 Place game files in the 3ds/OmniSpeak directory.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[shareware] Commander Keen 4</summary>
+<ol>
+<li>Download <code>4keen14.zip</code></li>
+<li>Extract everything from the 4keen14.zip to <code>/3ds/OmniSpeak</code> on your SD card</li>
+</ol>
+</details>
+

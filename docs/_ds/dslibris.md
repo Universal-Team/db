@@ -51,3 +51,13 @@ updated: '2024-07-07T22:30:09Z'
 version: v1.5.2-2
 version_title: 1.5.2
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>dslibris.nds</summary>
+<ol>
+<li>Download <code>dslibris*.zip</code></li>
+<li>Extract everything from the dslibris.zip to the root of your SD card</li>
+</ol>
+</details>
+

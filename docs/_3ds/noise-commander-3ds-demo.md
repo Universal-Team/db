@@ -65,3 +65,16 @@ Beat-making audio sequencer and DJ-tool
 - Euclidean mode for generative sequencing
 - Crossfading between two independent sequencer decks
 - 12 tracks per deck and 4 global buses
+
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Song Files</summary>
+<ol>
+<li>Download <code>w1_achemar.nsm</code> to <code>/nc/tracks/w1_achemar.nsm</code> on your SD card</li>
+<li>Download <code>w3_Al_Dhanab.nsm</code> to <code>/nc/tracks/w3_Al_Dhanab.nsm</code> on your SD card</li>
+<li>Download <code>w3_Al_Gieba.nsm</code> to <code>/nc/tracks/w3_Al_Gieba.nsm</code> on your SD card</li>
+</ol>
+</details>
+

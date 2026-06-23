@@ -46,3 +46,12 @@ updated: '2020-08-12T11:17:41Z'
 version: v20200812-131430_6e4ce45
 wiki: https://wiki.ds-homebrew.com/gbarunner2/
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[twlmenu] GBARunner2_arm7dldi_3ds.nds</summary>
+<ol>
+<li>Download <code>GBARunner2_arm7dldi_3ds.nds</code> to <code>/_nds/GBARunner2_arm7dldi_3ds.nds</code> on your SD card</li>
+</ol>
+</details>
+

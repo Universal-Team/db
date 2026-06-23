@@ -45,3 +45,23 @@ updated: '2016-09-13T02:38:10Z'
 version: v0.8
 version_title: 8th Release - Online MP
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>ctrQuake.3dsx</summary>
+<ol>
+<li>Download <code>ctrQuake.zip</code></li>
+<li>Extract everything from the ctrQuake.zip to the root of your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>ctrQuake.cia</summary>
+<ol>
+<li>Download <code>ctrQuake.zip</code></li>
+<li>Extract everything from the ctrQuake.zip to the root of your SD card</li>
+<li>Download <code>ctrQuake.cia</code> to <code>/cias/ctrQuake.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/ctrQuake.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

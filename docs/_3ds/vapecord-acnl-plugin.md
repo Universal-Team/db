@@ -51,3 +51,14 @@ version: v3.3.1
 version_title: ACNL Vapecord Public Plugin [v.3.3.1]
 wiki: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/wiki
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Plugin (All Regions)</summary>
+<ol>
+<li>Download <code>Vapecord.Public.zip</code></li>
+<li>Extract <code>/luma/plugins</code> from the Vapecord.zip to <code>/luma/plugins</code> on your SD card</li>
+<li>Extract <code>/Vapecord</code> from the Vapecord.zip to <code>/Vapecord</code> on your SD card</li>
+</ol>
+</details>
+

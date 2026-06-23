@@ -66,3 +66,13 @@ website: https://pretendo.network/
 4. Launch the game to dump traffic from. The screen should flash blue and some text will display on the screen. If it says **Not Ready**, it means this game is not compatible. If it says **Ready**, you can go online to dump the traffic.
 
 The dumps will be placed inside the **HokakuCTR** folder in the SD card root.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>default.3gx</summary>
+<ol>
+<li>Download <code>HokakuCTR.3gx</code> to <code>/luma/plugins/default.3gx</code> on your SD card</li>
+</ol>
+</details>
+

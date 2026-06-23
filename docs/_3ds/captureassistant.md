@@ -51,3 +51,21 @@ update_notes: '<p>Extract to the root of your SD card and install CaptureAssista
 updated: '2016-08-26T23:13:12Z'
 version: '1.3'
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>CaptureAssistant.cia</summary>
+<ol>
+<li>Download <code>CaptureAssistant*.zip</code></li>
+<li>Extract <code>/CaptureAssistant.cia</code> from the CaptureAssistant.zip to <code>/cias/CaptureAssistant.cia</code> on your SD card</li>
+<li>Use alternate calibration images? If not, skip to step 7</li>
+<li>Extract <code>/calibrationalt.png</code> from the CaptureAssistant.zip to <code>/calibration.png</code> on your SD card</li>
+<li>Extract <code>/calibrationalt2.png</code> from the CaptureAssistant.zip to <code>/calibration2.png</code> on your SD card</li>
+<li>skip to step 9</li>
+<li>Extract <code>/calibration.png</code> from the CaptureAssistant.zip to <code>/calibration.png</code> on your SD card</li>
+<li>Extract <code>/calibration2.png</code> from the CaptureAssistant.zip to <code>/calibration2.png</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/CaptureAssistant.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

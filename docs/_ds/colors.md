@@ -29,3 +29,22 @@ updated: '2010-11-16T21:50:12Z'
 version: v1.1b beta2
 website: https://www.colorslive.com
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[v1.1] Colors.nds</summary>
+<ol>
+<li>Download <code>Colors110ds.zip</code></li>
+<li>Extract <code>/Colors.nds</code> from the Colors110ds.zip to where you keep NDS files on your SD card</li>
+<li>Extract ColorsMagazine_1.col? If not, you're done!</li>
+<li>Extract <code>/ColorsMagazine_1.col</code> from the Colors110ds.zip to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[v1.1b beta2] Colors.nds</summary>
+<ol>
+<li>Download <code>colors_1_10bbeta2.zip</code></li>
+<li>Extract <code>/Colors.nds</code> from the colors_1_10bbeta2.zip to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+

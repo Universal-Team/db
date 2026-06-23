@@ -37,3 +37,22 @@ updated: '2017-11-14T16:05:57Z'
 version: v0.6
 version_title: Really images this time.
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>drider.3dsx</summary>
+<ol>
+<li>Download <code>drider.zip</code></li>
+<li>Extract <code>/3ds</code> from the drider.zip to <code>/3ds</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>drider.cia</summary>
+<ol>
+<li>Download <code>drider.zip</code></li>
+<li>Extract everything from the drider.zip to the root of your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/drider.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

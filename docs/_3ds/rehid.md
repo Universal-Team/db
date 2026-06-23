@@ -161,3 +161,15 @@ Get devkitpro, ctrulib and makerom and then `make -j` to compile.
 Druivensap on my discord server for helping me test out.
 
 Luma3ds devs and contributors
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>rehidhelper.cia</summary>
+<ol>
+<li>Download <code>rehidhelper.cia</code> to <code>/cias/rehidhelper.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/rehidhelper.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

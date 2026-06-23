@@ -43,3 +43,13 @@ updated: '2019-02-02T20:53:45Z'
 version: '1.0'
 version_title: GYTB
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>GYTB.3dsx</summary>
+<ol>
+<li>Download <code>GYTB_hax.zip</code></li>
+<li>Extract everything from the GYTB_hax.zip to the root of your SD card</li>
+</ol>
+</details>
+

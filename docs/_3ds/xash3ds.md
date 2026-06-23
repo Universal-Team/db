@@ -88,3 +88,20 @@ version: v0.2
 version_title: Version 0.2
 ---
 Xash3D Engine is a custom Gold Source engine rewritten from scratch. Xash3D is compatible with many of the Gold Source games and mods and should be able to run almost any existing singleplayer Half-Life mod without a hitch. The multiplayer part is not yet completed, multiplayer mods should work just fine, but bear in mind that some features may not work at all or work not exactly the way they do in Gold Source Engine.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[demo] uplink_data.zip</summary>
+<ol>
+<li>Download <code>uplink_data.zip</code></li>
+<li>Extract everything from the uplink_data.zip to the root of your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[full game] extras.pak</summary>
+<ol>
+<li>Download <code>extras.pak</code> to <code>/xash3d/extras.pak</code> on your SD card</li>
+</ol>
+</details>
+

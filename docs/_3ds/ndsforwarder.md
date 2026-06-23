@@ -98,3 +98,15 @@ wiki: https://wiki.ds-homebrew.com/ds-index/forwarders?tab=3ds-sd-card/
 1. Extract the contents of the `for SD card root` folder to the root of your SD card
 
 When installing with Universal-Updater this is done automatically.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>ndsForwarder.3dsx</summary>
+<ol>
+<li>Download <code>ndsForwarder.3dsx</code> to <code>/3ds/ndsForwarder.3dsx</code> on your SD card</li>
+<li>Download <code>DS.Game.Forwarder.pack.nds-bootstrap.7z</code></li>
+<li>Extract the contents of <code>/for SD Card root/</code> from the DS.Game.Forwarder.pack.nds-bootstrap.7z to the root of your SD card</li>
+</ol>
+</details>
+

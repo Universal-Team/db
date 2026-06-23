@@ -64,3 +64,14 @@ version: v1.0
 version_title: Geometry Dash 3DS 1.0
 ---
 Jump and fly your way through danger in this rhythm-based action platformer - now on 3DS! This fan-made port is in no way affiliated with RobTop Games, the creator of Geometry Dash, and all in game assets belong to their respective owners. If you want to get the full experience, please buy the original game!
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[extra] Level Pack</summary>
+<ol>
+<li>Download <code>Geometry_Dash_3DS_Level_Pack.zip</code></li>
+<li>Extract everything from the Geometry_Dash_3DS_Level_Pack.zip to <code>/3ds/gd3ds/</code> on your SD card</li>
+</ol>
+</details>
+

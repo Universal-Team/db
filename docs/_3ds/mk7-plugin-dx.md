@@ -66,3 +66,42 @@ updated: '2024-11-02T16:20:47Z'
 version: v3.0.6
 version_title: Mario Kart 7 Plugin Deluxe v3.0.6
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>CHN</summary>
+<ol>
+<li>Download <code>plugin.3gx</code> to <code>/luma/plugins/000400000008B500/plugin.3gx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>EUR</summary>
+<ol>
+<li>Download <code>plugin.3gx</code> to <code>/luma/plugins/0004000000030700/plugin.3gx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>JPN</summary>
+<ol>
+<li>Download <code>plugin.3gx</code> to <code>/luma/plugins/0004000000030600/plugin.3gx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>KOR</summary>
+<ol>
+<li>Download <code>plugin.3gx</code> to <code>/luma/plugins/0004000000030A00/plugin.3gx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>TWN</summary>
+<ol>
+<li>Download <code>plugin.3gx</code> to <code>/luma/plugins/000400000008B400/plugin.3gx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>USA</summary>
+<ol>
+<li>Download <code>plugin.3gx</code> to <code>/luma/plugins/0004000000030800/plugin.3gx</code> on your SD card</li>
+</ol>
+</details>
+

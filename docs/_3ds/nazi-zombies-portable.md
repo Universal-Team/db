@@ -87,3 +87,14 @@ A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at Wa
 Feature-equivalent with Call of Duty: World at War on a generic level. Gameplay components are implemented, with minor parity differences. Most World at War maps and their gimmicks are not yet represented. Minor features from Call of Duty: Black Ops are also present.
 
 Features "Nacht der Untoten" and many maps created by the Community, bundled in.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>nzportable-3ds.zip</summary>
+<ol>
+<li>Download <code>nzportable-3ds.zip</code></li>
+<li>Extract everything from the nzportable-3ds.zip to <code>/3ds/</code> on your SD card</li>
+</ol>
+</details>
+

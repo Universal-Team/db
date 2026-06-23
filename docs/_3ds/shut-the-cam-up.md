@@ -50,3 +50,26 @@ The shutter sound was embedded in some system process, we just discovered it now
 
 # Does it work on both Old and New 3DS?
 Yup. there are two seperate patches individually for the new and old model of the console.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Install the patch (New 3DS/2DS)</summary>
+<ol>
+<li>Download <code>new3ds.ips</code> to <code>/luma/titles/0004013000001602/code.ips</code> on your SD card</li>
+<li>Download <code>new3ds.ips</code> to <code>/luma/sysmodules/0004013000001602.ips</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Install the patch (Old 3DS/2DS)</summary>
+<ol>
+<li>Download <code>old3ds.ips</code> to <code>/luma/titles/0004013000001602/code.ips</code> on your SD card</li>
+<li>Download <code>old3ds.ips</code> to <code>/luma/sysmodules/0004013000001602.ips</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Remove the patch (Any)</summary>
+<ol>
+</ol>
+</details>
+

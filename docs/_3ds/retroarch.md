@@ -47,3 +47,40 @@ version_title: v1.22.2
 website: http://www.libretro.com
 wiki: https://github.com/libretro/RetroArch/wiki
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Core info files</summary>
+<ol>
+<li>Download <code>info.zip</code></li>
+<li>Extract everything from the info.zip to <code>/retroarch/media/</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[optional] Assets</summary>
+<ol>
+<li>Download <code>assets.zip</code></li>
+<li>Extract everything from the assets.zip to <code>/retroarch/assets/</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[optional] Database files</summary>
+<ol>
+<li>Download <code>database-rdb.zip</code></li>
+<li>Extract everything from the database-rdb.zip to <code>/retroarch/database/rdb/</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[optional] Overlays</summary>
+<ol>
+<li>Download <code>overlays.zip</code></li>
+<li>Extract everything from the overlays.zip to <code>/retroarch/overlays/</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>bottom_menu.png</summary>
+<ol>
+<li>Download <code>bottom_menu.png</code> to <code>/retroarch/assets/ctr/bottom_menu.png</code> on your SD card</li>
+</ol>
+</details>
+

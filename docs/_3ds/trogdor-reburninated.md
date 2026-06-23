@@ -148,3 +148,24 @@ An enhanced recreation of the Homestar Runner Flash game, "Trogdor", expanded wi
 - Optional soundtrack from Stinkoman 20X6, another Homestar Runner game
 - Multiple screen scaling options
 - Bugs from the original game have been fixed
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Trogdor-Reburninated.3dsx</summary>
+<ol>
+<li>Download <code>Trogdor-Reburninated-v*-3ds.zip</code></li>
+<li>Extract <code>/Trogdor-Reburninated-3ds/3ds</code> from the Trogdor-Reburninated.zip to <code>/3ds</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Trogdor-Reburninated.cia</summary>
+<ol>
+<li>Download <code>Trogdor-Reburninated-v*-3ds-cia.zip</code></li>
+<li>Extract <code>/Trogdor-Reburninated-3ds-cia/3ds</code> from the Trogdor-Reburninated.zip to <code>/3ds</code> on your SD card</li>
+<li>Extract <code>/Trogdor-Reburninated-3ds-cia/cias/Trogdor-Reburninated.cia</code> from the Trogdor-Reburninated.zip to <code>/cias/Trogdor-Reburninated.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/Trogdor-Reburninated.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

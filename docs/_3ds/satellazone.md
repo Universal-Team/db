@@ -62,3 +62,76 @@ SatellaZone is a 3DS Nintendo Zone Revival patch that allows you to access archi
  You can access videos using the LocalSatellaZone version.
  You can also be able to access Nintendo Zone without having to launch FBI by downloading the UsaPatch (which is for USA consoles only).
  You can find more informations and tutorials at https://github.com/MegaPika/SatellaZone#readme
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>EUR</summary>
+<ol>
+<li>Download <code>SatellaZone.zip</code></li>
+<li>Extract everything from the SatellaZone.zip to <code>/luma/titles/0004001000022B00/</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>JPN</summary>
+<ol>
+<li>Download <code>SatellaZone.zip</code></li>
+<li>Extract everything from the SatellaZone.zip to <code>/luma/titles/0004001000020B00/</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>USA</summary>
+<ol>
+<li>Download <code>SatellaZone.zip</code></li>
+<li>Download <code>UsaPatch.zip</code></li>
+<li>Extract everything from the SatellaZone.zip to <code>/luma/titles/0004001000021B00/</code> on your SD card</li>
+<li>Extract everything from the UsaPatch.zip to the root of your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[local HQ] EUR</summary>
+<ol>
+<li>Download <code>LocalSatellaZoneHQ.zip</code></li>
+<li>Extract everything from the LocalSatellaZoneHQ.zip to <code>/luma/titles/0004001000022B00/</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[local HQ] JPN</summary>
+<ol>
+<li>Download <code>LocalSatellaZoneHQ.zip</code></li>
+<li>Extract everything from the LocalSatellaZoneHQ.zip to <code>/luma/titles/0004001000020B00/</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[local HQ] USA</summary>
+<ol>
+<li>Download <code>LocalSatellaZoneHQ.zip</code></li>
+<li>Download <code>UsaPatch.zip</code></li>
+<li>Extract everything from the LocalSatellaZoneHQ.zip to <code>/luma/titles/0004001000021B00/</code> on your SD card</li>
+<li>Extract everything from the UsaPatch.zip to the root of your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[local] EUR</summary>
+<ol>
+<li>Download <code>LocalSatellaZone.zip</code></li>
+<li>Extract everything from the LocalSatellaZone.zip to <code>/luma/titles/0004001000022B00/</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[local] JPN</summary>
+<ol>
+<li>Download <code>LocalSatellaZone.zip</code></li>
+<li>Extract everything from the LocalSatellaZone.zip to <code>/luma/titles/0004001000020B00/</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[local] USA</summary>
+<ol>
+<li>Download <code>LocalSatellaZone.zip</code></li>
+<li>Download <code>UsaPatch.zip</code></li>
+<li>Extract everything from the LocalSatellaZone.zip to <code>/luma/titles/0004001000021B00/</code> on your SD card</li>
+<li>Extract everything from the UsaPatch.zip to the root of your SD card</li>
+</ol>
+</details>
+

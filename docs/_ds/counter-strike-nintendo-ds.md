@@ -33,3 +33,15 @@ updated: '2022-07-09T17:04:41Z'
 version: 1.0.0
 version_title: 1.0.0
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>counter_strike.nds</summary>
+<ol>
+<li>Download <code>Counter.Strike.DS.[d.]+.zip</code></li>
+<li>Extract <code>/counter_strike.nds</code> from the Counter Strike DS.zip to where you keep NDS files on your SD card</li>
+<li>Extract <code>/counter_strike_music.raw</code> from the Counter Strike DS.zip to where you keep NDS files on your SD card</li>
+<li>Extract <code>/soundbank.bin</code> from the Counter Strike DS.zip to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+

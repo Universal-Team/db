@@ -69,3 +69,14 @@ version_title: GridLauncher 140
 wiki: https://github.com/SuperDubious-SmallLabs/GridLauncher/wiki
 ---
 GridLauncher, originally created by mashers, is a fork of the original ninjhax Homebrew Launcher that adds a grid layout and extensive customization features for your homebrew experience. Now with Rosalina support!
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>boot.3dsx</summary>
+<ol>
+<li>This will replace your existing Homebrew Launcher (boot.3dsx). Continue? If not, you're done!</li>
+<li>Download <code>gridlauncher.3dsx</code> to <code>/boot.3dsx</code> on your SD card</li>
+</ol>
+</details>
+

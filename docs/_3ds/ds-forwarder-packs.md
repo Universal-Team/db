@@ -68,3 +68,15 @@ updated: '2026-05-23T07:24:36Z'
 version: SD-29
 version_title: 'GitHub Release #29'
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>SD card forwarder pack</summary>
+<ol>
+<li>Download <code>DS.Game.Forwarder.pack.nds-bootstrap.7z</code></li>
+<li>Extract the contents of <code>/for SD Card root/</code> from the DS.Game.Forwarder.pack.nds-bootstrap.7z to the root of your SD card</li>
+<li>Download <code>apfix.pck</code> to <code>/_nds/ntr-forwarder/apfix.pck</code> on your SD card</li>
+<li>Download <code>widescreen.pck</code> to <code>/_nds/ntr-forwarder/widescreen.pck</code> on your SD card</li>
+</ol>
+</details>
+

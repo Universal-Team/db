@@ -116,3 +116,14 @@ website: https://wiki.ds-homebrew.com/nds-bootstrap/
 wiki: https://wiki.ds-homebrew.com/nds-bootstrap/
 ---
 nds-bootstrap is an open-source application that allows Nintendo DS/DSi ROMs and homebrew to be natively utilised rather than using an emulator. nds-bootstrap works on Nintendo DSi/3DS SD cards through CFW and on Nintendo DS through flashcarts.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>nds-bootstrap</summary>
+<ol>
+<li>Download <code>nds-bootstrap.7z</code></li>
+<li>Extract everything from the nds-bootstrap.7z to <code>/_nds/</code> on your SD card</li>
+</ol>
+</details>
+

@@ -67,3 +67,13 @@ updated: '2020-08-15T19:51:05Z'
 version: 2.0.0
 version_title: AntiBounce 2.0.0
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Antibounce.3dsx</summary>
+<ol>
+<li>Download <code>antibounce-3ds.zip</code></li>
+<li>Extract everything from the antibounce-3ds.zip to <code>/3ds/Antibounce/</code> on your SD card</li>
+</ol>
+</details>
+

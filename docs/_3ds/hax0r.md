@@ -39,3 +39,22 @@ updated: '2016-07-07T19:36:27Z'
 version: v1.2
 version_title: Bugfixes 'n Stuff
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Hax0r.3dsx</summary>
+<ol>
+<li>Download <code>Hax0r.zip</code></li>
+<li>Extract everything from the Hax0r.zip to <code>/3ds/Hax0r/</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Hax0r.cia</summary>
+<ol>
+<li>Download <code>Hax0r.zip</code></li>
+<li>Extract everything from the Hax0r.zip to <code>/3ds/Hax0r/</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/3ds/Hax0r/Hax0r.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

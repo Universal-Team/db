@@ -41,3 +41,13 @@ updated: '2023-08-12T02:09:39Z'
 version: v1.0.4
 version_title: v1.0.4
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Plugin</summary>
+<ol>
+<li>Download <code>Release.zip</code></li>
+<li>Extract <code>/luma</code> from the Release.zip to <code>/luma</code> on your SD card</li>
+</ol>
+</details>
+
