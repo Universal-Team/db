@@ -301,7 +301,7 @@ function createInput(item, key) {
 				input.addEventListener("change", event => {
 					clearError();
 
-					let [id, value] = event.target.id.split("-");
+					let [_, id, value] = event.target.id.match(/(\w+)-(.+)/);
 					if(appInfo[id].includes(value)) {
 						appInfo[id].splice(appInfo[id].indexOf(value), 1);
 					} else {
