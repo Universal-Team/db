@@ -134,10 +134,10 @@ def create_installation_instructions(script):
 			i -= 1
 
 		elif step["type"] == "mkdir":
-			instructions += f"<li>Create the folder <code>{step["directory"]}</code></li>\n"
+			instructions += f"<li>Create the folder <code>{step['directory']}</code></li>\n"
 
 		elif step["type"] == "mkdir":
-			instructions += f"<li>Move <code>{step["old"]}</code> to <code>{step["new"]}</code></li>\n"
+			instructions += f"<li>Move <code>{step['old']}</code> to <code>{step['new']}</code></li>\n"
 
 		elif step["type"] == "promptMessage":
 			message = step["message"].replace("\n", " ")
