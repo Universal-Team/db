@@ -67,17 +67,17 @@ Place game files in the 3ds/OmniSpeak directory.
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>[shareware] Commander Keen 4</summary>
-<ol>
-<li>Download <code>4keen14.zip</code></li>
-<li>Extract everything from the zip to <code>/3ds/OmniSpeak</code> on your SD card</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>OmniSpeak-3ds-V1.0.2.3dsx</summary>
 <ol>
 <li>Download <code>OmniSpeak-3ds.V1.0.2.zip</code></li>
 <li>Extract <code>/OmniSpeak-3ds-V1.0.2.3dsx</code> from the zip to <code>/3ds/OmniSpeak-3ds-V1.0.2.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[shareware] Commander Keen 4</summary>
+<ol>
+<li>Download <code>4keen14.zip</code></li>
+<li>Extract everything from the zip to <code>/3ds/OmniSpeak</code> on your SD card</li>
 </ol>
 </details>
 

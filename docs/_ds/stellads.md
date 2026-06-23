@@ -12,13 +12,13 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
   README.md:
-    size: 48071
-    size_str: 46 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.3/README.md
+    size: 48595
+    size_str: 47 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.3b/README.md
   StellaDS.nds:
-    size: 1717248
+    size: 1716736
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.3/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.3b/StellaDS.nds
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -34,17 +34,20 @@ stars: 51
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">8.3 : 21-June-2026 by wavemotion-dave</p>
+update_notes: '<p dir="auto">8.3b : 23-June-2026 by wavemotion-dave</p>
 
   <ul dir="auto">
 
-  <li>Improved CDFJ+ driver to eek out another frame or two.</li>
+  <li>Hotfix for PAL rendering which was causing the LCD to misbehave.</li>
 
-  <li>Optimized for the new Zaxxon Arcade from Champ Games so it runs full speed on
-  DSi or above.</li>
+  <li>After another round of ARM Thumbulator optimizations, I''ve decided to peel
+  back on some of the ''unsafe'' code that I''ve been using to gain speed. In the
+  end, the speed optimizations and the improved accuracy have balanced themselves
+  out - so 8.3a is roughly equivalent to 8.3 in terms of raw speed but has a improved
+  ARM Thumb emulation for a nice gain of accuracy. Just hoping there are no bugs :)</li>
 
   </ul>'
-updated: '2026-06-21T12:24:35Z'
-version: '8.3'
-version_title: Version 8.3
+updated: '2026-06-23T10:31:01Z'
+version: 8.3b
+version_title: Version 8.3b
 ---
