@@ -124,10 +124,12 @@ def create_installation_instructions(script):
 
 		elif step["type"] == "extractFile":
 			file = step["file"].replace("/", "")
+			file = f"the {file[file.rfind('.') + 1:]}"
+
 			source = format_source_path(step["input"])
 			dest = format_destination_path(step["output"])
 
-			instructions += f"<li>Extract {source} from the {file} to {dest}</li>\n"
+			instructions += f"<li>Extract {source} from {file} to {dest}</li>\n"
 
 		elif step["type"] == "installCia":
 			deferedSteps.append(step)
