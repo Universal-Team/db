@@ -367,52 +367,6 @@ def handle_github_app(github: GitHubAPI, app: Dict[str, Any]):
 	return app
 
 
-def handle_bitbucket_app(app: Dict[str, Any]):
-	api = requests.get(f"https://api.bitbucket.org/2.0/repositories/{app['bitbucket']['repo']}").json()
-
-	if "title" not in app:
-		app["title"] = api["name"]
-
-	if "author" not in app:
-		app["author"] = api["owner"]["display_name"]
-
-	if "description" not in app:
-		app["description"] = api["description"].replace("\r\n", "\n")
-
-	if "avatar" not in app:
-		app["avatar"] = api["links"]["avatar"]["href"]
-
-	if "source" not in app:
-		app["source"] = api["links"]["html"]["href"]
-
-	if "created" not in app:
-		app["created"] = api["created_on"]
-
-	if "files" in app["bitbucket"]:
-		if "downloads" not in app:
-			app["downloads"] = {}
-		for download in app["bitbucket"]["files"]:
-			fileAPI = requests.get(f"https://api.bitbucket.org/2.0/repositories/{app['bitbucket']['repo']}/src/{(app['bitbucket']['branch'] if 'branch' in app['bitbucket'] else 'master')}/{download.replace(' ', '%20')}?format=meta").json()
-			if download not in app["downloads"]:
-				app["downloads"][download[download.rfind("/") + 1:]] = {
-					"url": fileAPI["links"]["self"]["href"],
-					"size": fileAPI["size"],
-					"size_str": to_friendly_bytes(fileAPI["size"])
-				}
-
-			if "download_page" not in app:
-				app["download_page"] = f"https://bitbucket.org/{app['bitbucket']['repo']}/src/{(app['bitbucket']['branch'] if 'branch' in app['bitbucket'] else 'master')}/{download}"
-
-			if "version" not in app:
-				app["version"] = fileAPI["commit"]["hash"][:7]
-
-			if "updated" not in app:
-				commit = requests.get(fileAPI["commit"]["links"]["self"]["href"]).json()
-				app["updated"] = commit["date"]
-
-	return app
-
-
 def handle_gitlab_app(app: Dict[str, Any]):
 	gitlab_id = app["gitlab"].replace('/', '%2F')
 	endpoint = app.get("gitlab_endpoint", "https://gitlab.com")
@@ -567,10 +521,6 @@ def fetch_app_data(app: Dict[str, Any], github_session: GitHubAPI):
 	if "github" in app:
 		click.echo(f'GitHub -- {app["github"]}')
 		app = handle_github_app(github_session, app)
-
-	if "bitbucket" in app:
-		click.echo(f'Bitbucket -- {app["bitbucket"]["repo"]}')
-		app = handle_bitbucket_app(app)
 
 	if "gitlab" in app:
 		click.echo(f'GitLab -- {app["gitlab"]}')

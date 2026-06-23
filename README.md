@@ -13,7 +13,6 @@
 These sites are the preferred places to host your downloads as Universal-DB can automatically fetch most of the info about it. More sites can be added provided they have sufficient info about it and are easy enough to get that info from, prefereably having some kind of API for it.
 
 - [GitHub](https://github.com): Full support
-- [Bitbucket](https://bitbucket.org): Partial support
 - [Gitlab](https://gitlab.com): Partial support
 
 ## Using the data

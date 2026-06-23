@@ -29,7 +29,6 @@ def get_matching_app(app: Dict[str, Any], old_data: List[Dict[str, Any]]) -> Uni
 	keys = [
 		("github", lambda x: "github" in x and "github" in app and x["github"] == app["github"]),
 		("gbatemp", lambda x: "gbatemp" in x and "gbatemp" in app and x["gbatemp"] == app["gbatemp"]),
-		("bitbucket", lambda x: "bitbucket" in x and "bitbucket" in app and x["bitbucket"]["repo"] == app["bitbucket"]["repo"]),
 		("gitlab", lambda x: "gitlab" in x and "gitlab" in app and x["gitlab"] == app["gitlab"]),
 		("manual", lambda x: "title" in x and "author" in x and "title" in app and "author" in app and x["title"] == app["title"] and x["author"] == app["author"])
 	]
