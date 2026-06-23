@@ -27,6 +27,8 @@ stars: 23
 systems:
 - 3DS
 title: 3DS-CLI
+unique_ids:
+- '0x1111'
 update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link"
   href="https://github.com/cmdada/3DS-CLI/compare/1.7...1.8"><tt>1.7...1.8</tt></a></p>'
 updated: '2026-06-23T01:41:40Z'
