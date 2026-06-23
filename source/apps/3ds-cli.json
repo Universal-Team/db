@@ -7,6 +7,7 @@
 	"categories": [
 		"emulator"
 	],
+	"unique_ids": [4369],
 	"icon": "https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png",
 	"long_description": "\nA Nintendo 3DS homebrew application that embeds a full RISC-V CPU emulator (`mini-rv32ima` by cnlohr) to boot a real Linux environment inside the 3DS Horizon OS.\n\nFeatures a custom ANSI/xterm terminal emulator on the top screen with full 16/256/24-bit colour support, zoom, and viewport panning, plus a custom bottom-screen touch keyboard. Comes with a prebuilt image including BusyBox tools, a JavaScript runtime, and some other goodies.\n\n## Controls\n- **L / Y**: Zoom out\n- **R / X**: Zoom in\n- **ZL**: Toggle auto-follow cursor\n- **ZR**: Toggle font (8x8 ↔ 5x7 compact)\n- **Circle Pad**: Pan viewport\n- **D-Pad**: Send arrow keys to Linux\n- **START**: Quit and return to Homebrew Launcher\n\n## Keyboard\n- **SHF**: Shift (uppercase)\n- **?#1 / #+=**: Symbol layers\n- **ABC**: Return to alphabetic layer\n- **CTL**: Ctrl modifier\n- **TAB / ESC / ENT / DEL**: As labelled\n\n## Credits\n- Built using libctru and minirv32-ima",
 	"archive": {
