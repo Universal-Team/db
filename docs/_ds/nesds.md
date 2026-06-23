@@ -77,12 +77,6 @@ version_title: 'v2.1: TWL Christmas Release 🎄'
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>nesDS.nds</summary>
-<ol>
-<li>Download <code>nesDS.nds</code> to where you keep NDS files on your SD card</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>nesDS.cia</summary>
 <ol>
 <li>Download <code>nesDS.cia</code> to <code>/cias/nesDS.cia</code> on your SD card</li>
@@ -94,6 +88,12 @@ version_title: 'v2.1: TWL Christmas Release 🎄'
 <details class="alert alert-secondary"><summary>nesDS.dsi</summary>
 <ol>
 <li>Download <code>nesDS.dsi</code> to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>nesDS.nds</summary>
+<ol>
+<li>Download <code>nesDS.nds</code> to where you keep NDS files on your SD card</li>
 </ol>
 </details>
 

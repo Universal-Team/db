@@ -21,17 +21,11 @@ image: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/
 image_length: 431
 layout: app
 llm_generation: unknown
-name: Collab Doodle
-screenshots:
-- description: Brush select
-  url: https://db.universal-team.net/assets/images/screenshots/doodle/brush-select.png
-- description: Canvas
-  url: https://db.universal-team.net/assets/images/screenshots/doodle/canvas.png
 source: https://github.com/ArmstrongThomas/Doodle
 stars: 6
 systems:
 - 3DS
-title: Doodle
+title: Collab Doodle
 update_notes: '<h1 dir="auto">Collab Doodle 3DS Client</h1>
 
   <p dir="auto">Collab Doodle is a Nintendo 3DS homebrew client for drawing together
