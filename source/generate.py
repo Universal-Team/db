@@ -485,9 +485,13 @@ def create_web_file(app: Dict[str, Any]):
 		body += "### Installation instructions\n\n"
 		body += "<div class=\"alert alert-info\">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>\n"
 
-		for script in web["scripts"]:
-			body += f"<details class=\"alert alert-secondary\"><summary>{script}</summary>\n"
-			body += create_installation_instructions(web["scripts"][script])
+		for key in web["scripts"]:
+			script = web["scripts"][key]
+			if "script" in script:  # Sometimes its an object, ie for prerelease scripts
+				script = script["script"]
+
+			body += f"<details class=\"alert alert-secondary\"><summary>{key}</summary>\n"
+			body += create_installation_instructions(script)
 			body += "\n</details>\n\n"
 
 		web.pop("scripts")
