@@ -59,14 +59,14 @@ A demonstration of the 800px mode on 3DS consoles. Will not work on O2DS console
 <details class="alert alert-secondary"><summary>HoriHD-Gallery.3dsx</summary>
 <ol>
 <li>Download <code>HoriHD-Gallery.7z</code></li>
-<li>Extract <code>/HoriHD-Gallery.3dsx</code> from the HoriHD-Gallery.7z to <code>/3ds/HoriHD-Gallery.3dsx</code> on your SD card</li>
+<li>Extract <code>/HoriHD-Gallery.3dsx</code> from the 7z to <code>/3ds/HoriHD-Gallery.3dsx</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>HoriHD-Gallery.cia</summary>
 <ol>
 <li>Download <code>HoriHD-Gallery.7z</code></li>
-<li>Extract <code>/HoriHD-Gallery.cia</code> from the HoriHD-Gallery.7z to <code>/cias/HoriHD-Gallery.cia</code> on your SD card</li>
+<li>Extract <code>/HoriHD-Gallery.cia</code> from the 7z to <code>/cias/HoriHD-Gallery.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/HoriHD-Gallery.cia</code> using FBI or GodMode9</li>
 </ol>

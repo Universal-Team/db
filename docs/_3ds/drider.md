@@ -43,14 +43,14 @@ version_title: Really images this time.
 <details class="alert alert-secondary"><summary>drider.3dsx</summary>
 <ol>
 <li>Download <code>drider.zip</code></li>
-<li>Extract <code>/3ds</code> from the drider.zip to <code>/3ds</code> on your SD card</li>
+<li>Extract <code>/3ds</code> from the zip to <code>/3ds</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>drider.cia</summary>
 <ol>
 <li>Download <code>drider.zip</code></li>
-<li>Extract everything from the drider.zip to the root of your SD card</li>
+<li>Extract everything from the zip to the root of your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/drider.cia</code> using FBI or GodMode9</li>
 </ol>

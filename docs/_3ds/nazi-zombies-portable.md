@@ -94,7 +94,7 @@ Features "Nacht der Untoten" and many maps created by the Community, bundled in.
 <details class="alert alert-secondary"><summary>nzportable-3ds.zip</summary>
 <ol>
 <li>Download <code>nzportable-3ds.zip</code></li>
-<li>Extract everything from the nzportable-3ds.zip to <code>/3ds/</code> on your SD card</li>
+<li>Extract everything from the zip to <code>/3ds/</code> on your SD card</li>
 </ol>
 </details>
 

@@ -92,7 +92,7 @@ version_title: 3DS port v1.2.0
 <ol>
 <li>Download <code>OpenArena.3dsx</code> to <code>/3ds/OpenArena.3dsx</code> on your SD card</li>
 <li>Download <code>openarena_data.zip</code></li>
-<li>Extract everything from the openarena_data.zip to the root of your SD card</li>
+<li>Extract everything from the zip to the root of your SD card</li>
 </ol>
 </details>
 
@@ -100,7 +100,7 @@ version_title: 3DS port v1.2.0
 <ol>
 <li>Download <code>OpenArena.cia</code> to <code>/cias/OpenArena.cia</code> on your SD card</li>
 <li>Download <code>openarena_data.zip</code></li>
-<li>Extract everything from the openarena_data.zip to the root of your SD card</li>
+<li>Extract everything from the zip to the root of your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/OpenArena.cia</code> using FBI or GodMode9</li>
 </ol>
@@ -110,7 +110,7 @@ version_title: 3DS port v1.2.0
 <ol>
 <li>Download <code>Quake3DS.3dsx</code> to <code>/3ds/Quake3DS.3dsx</code> on your SD card</li>
 <li>Download <code>quake3_data.zip</code></li>
-<li>Extract everything from the quake3_data.zip to the root of your SD card</li>
+<li>Extract everything from the zip to the root of your SD card</li>
 </ol>
 </details>
 
@@ -118,7 +118,7 @@ version_title: 3DS port v1.2.0
 <ol>
 <li>Download <code>Quake3DS.cia</code> to <code>/cias/Quake3DS.cia</code> on your SD card</li>
 <li>Download <code>quake3_data.zip</code></li>
-<li>Extract everything from the quake3_data.zip to the root of your SD card</li>
+<li>Extract everything from the zip to the root of your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/Quake3DS.cia</code> using FBI or GodMode9</li>
 </ol>

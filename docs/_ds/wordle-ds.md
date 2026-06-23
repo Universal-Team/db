@@ -30,6 +30,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: 'no'
+no_instructions: true
 qr:
   WordleDS.cia: https://db.universal-team.net/assets/images/qr/wordleds-cia.png
   WordleDS.dsi: https://db.universal-team.net/assets/images/qr/wordleds-dsi.png
@@ -110,48 +111,3 @@ website: https://wordle.xn--rck9c.xn--tckwe
 wiki: https://github.com/Epicpkmn11/WordleDS/wiki
 ---
 A clone of [Wordle](https://www.nytimes.com/games/wordle/index.html) for the Nintendo DS(i). It features the same word each day as the official Wordle and has most of the same features including statistics tracking, high contrast and hard mode options, and even sharable emoji grid via QR code or txt file. Also featuring custom original background music by Rocket Robz.
-
-### Installation instructions
-
-<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>WordleDS.dsi</summary>
-<ol>
-<li>Download <code>WordleDS.dsi</code> to where you keep NDS files on your SD card</li>
-<li>Download <code>words.php?mode=mod.json</code> to <code>/_nds/WordleDS/Wordle DS/mod.json</code> on your SD card</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>WordleDS.nds</summary>
-<ol>
-<li>Download <code>WordleDS.nds</code> to where you keep NDS files on your SD card</li>
-<li>Download <code>words.php?mode=mod.json</code> to <code>/_nds/WordleDS/Wordle DS/mod.json</code> on your SD card</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>WordleDS.cia</summary>
-<ol>
-<li>Download <code>WordleDS.cia</code> to <code>/cias/WordleDS.cia</code> on your SD card</li>
-<li>Download <code>words.php?mode=mod.json</code> to <code>/_nds/WordleDS/Wordle DS/mod.json</code> on your SD card</li>
-<li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/WordleDS.cia</code> using FBI or GodMode9</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>[extra] Update word list</summary>
-<ol>
-<li>Download <code>words.php?mode=mod.json</code> to <code>/_nds/WordleDS/Wordle DS/mod.json</code> on your SD card</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>[twlmenu boxart] WordleDS.nds.png</summary>
-<ol>
-<li>Download <code>WordleDS.nds.png</code> to <code>/_nds/TWiLightMenu/boxart/WordleDS.nds.png</code> on your SD card</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>[twlmenu boxart] KWRA.png</summary>
-<ol>
-<li>Download <code>WordleDS.nds.png</code> to <code>/_nds/TWiLightMenu/boxart/KWRA.png</code> on your SD card</li>
-</ol>
-</details>
-

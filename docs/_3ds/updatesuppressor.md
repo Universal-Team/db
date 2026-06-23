@@ -47,7 +47,7 @@ version_title: Delete all mode + CIA version
 <details class="alert alert-secondary"><summary>UpdateSuppressor.3dsx</summary>
 <ol>
 <li>Download <code>UpdateSuppressor-3dsx.zip</code></li>
-<li>Extract <code>/UpdateSuppressor/UpdateSuppressor.3dsx</code> from the UpdateSuppressor-3dsx.zip to <code>/3ds/UpdateSuppressor.3dsx</code> on your SD card</li>
+<li>Extract <code>/UpdateSuppressor/UpdateSuppressor.3dsx</code> from the zip to <code>/3ds/UpdateSuppressor.3dsx</code> on your SD card</li>
 </ol>
 </details>
 

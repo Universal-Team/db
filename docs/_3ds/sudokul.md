@@ -103,14 +103,14 @@ A Sudoku game made with SDL2. Features 4 difficulty levels, 8 scrolling backgrou
 <details class="alert alert-secondary"><summary>SuDokuL.3dsx</summary>
 <ol>
 <li>Download <code>SuDokuL-v*-3ds.zip</code></li>
-<li>Extract <code>/SuDokuL-3ds/3ds/SuDokuL/SuDokuL.3dsx</code> from the SuDokuL.zip to <code>/3ds/SuDokuL.3dsx</code> on your SD card</li>
+<li>Extract <code>/SuDokuL-3ds/3ds/SuDokuL/SuDokuL.3dsx</code> from the zip to <code>/3ds/SuDokuL.3dsx</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>SuDokuL.cia</summary>
 <ol>
 <li>Download <code>SuDokuL-v*-3ds-cia.zip</code></li>
-<li>Extract <code>/SuDokuL-3ds-cia/cias/SuDokuL.cia</code> from the SuDokuL.zip to <code>/cias/SuDokuL.cia</code> on your SD card</li>
+<li>Extract <code>/SuDokuL-3ds-cia/cias/SuDokuL.cia</code> from the zip to <code>/cias/SuDokuL.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/SuDokuL.cia</code> using FBI or GodMode9</li>
 </ol>

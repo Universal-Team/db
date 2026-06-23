@@ -63,7 +63,7 @@ Art and Music by Dangerbites and Haynster
 <ol>
 <li>Create the folder <code>/3ds/BreakupSimulator/</code></li>
 <li>Download <code>BreakupSimulator3DS.zip</code></li>
-<li>Extract everything from the 3dsBreakupSimulator3DS.zip to <code>/3ds/BreakupSimulator/</code> on your SD card</li>
+<li>Extract everything from the zip to <code>/3ds/BreakupSimulator/</code> on your SD card</li>
 </ol>
 </details>
 

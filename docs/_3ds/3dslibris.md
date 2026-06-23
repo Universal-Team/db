@@ -154,7 +154,7 @@ version_title: v2.8.0
 <ol>
 <li>Download <code>3dslibris.3dsx</code> to <code>/3ds/3dslibris.3dsx</code> on your SD card</li>
 <li>Download <code>3dslibris-sdmc.zip</code></li>
-<li>Extract <code>/3ds</code> from the 3dslibris-sdmc.zip to <code>/3ds</code> on your SD card</li>
+<li>Extract <code>/3ds</code> from the zip to <code>/3ds</code> on your SD card</li>
 </ol>
 </details>
 
@@ -162,7 +162,7 @@ version_title: v2.8.0
 <ol>
 <li>Download <code>3dslibris.cia</code> to <code>/cias/3dslibris.cia</code> on your SD card</li>
 <li>Download <code>3dslibris-sdmc.zip</code></li>
-<li>Extract <code>/3ds</code> from the 3dslibris-sdmc.zip to <code>/3ds</code> on your SD card</li>
+<li>Extract <code>/3ds</code> from the zip to <code>/3ds</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/3dslibris.cia</code> using FBI or GodMode9</li>
 </ol>

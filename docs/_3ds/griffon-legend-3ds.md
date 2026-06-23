@@ -44,14 +44,14 @@ version_title: Final release
 <details class="alert alert-secondary"><summary>GriffonLegend.3dsx</summary>
 <ol>
 <li>Download <code>GriffonLegend.v1.0.zip</code></li>
-<li>Extract <code>/GriffonLegend.3dsx</code> from the GriffonLegend.v1.0.zip to <code>/3ds/GriffonLegend.3dsx</code> on your SD card</li>
+<li>Extract <code>/GriffonLegend.3dsx</code> from the zip to <code>/3ds/GriffonLegend.3dsx</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>GriffonLegend.cia</summary>
 <ol>
 <li>Download <code>GriffonLegend.v1.0.zip</code></li>
-<li>Extract <code>/GriffonLegend.cia</code> from the GriffonLegend.v1.0.zip to <code>/cias/GriffonLegend.cia</code> on your SD card</li>
+<li>Extract <code>/GriffonLegend.cia</code> from the zip to <code>/cias/GriffonLegend.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/GriffonLegend.cia</code> using FBI or GodMode9</li>
 </ol>

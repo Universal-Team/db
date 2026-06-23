@@ -123,7 +123,7 @@ nds-bootstrap is an open-source application that allows Nintendo DS/DSi ROMs and
 <details class="alert alert-secondary"><summary>nds-bootstrap</summary>
 <ol>
 <li>Download <code>nds-bootstrap.7z</code></li>
-<li>Extract everything from the nds-bootstrap.7z to <code>/_nds/</code> on your SD card</li>
+<li>Extract everything from the 7z to <code>/_nds/</code> on your SD card</li>
 </ol>
 </details>
 

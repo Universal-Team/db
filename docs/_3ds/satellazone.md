@@ -69,14 +69,14 @@ SatellaZone is a 3DS Nintendo Zone Revival patch that allows you to access archi
 <details class="alert alert-secondary"><summary>EUR</summary>
 <ol>
 <li>Download <code>SatellaZone.zip</code></li>
-<li>Extract everything from the SatellaZone.zip to <code>/luma/titles/0004001000022B00/</code> on your SD card</li>
+<li>Extract everything from the zip to <code>/luma/titles/0004001000022B00/</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>JPN</summary>
 <ol>
 <li>Download <code>SatellaZone.zip</code></li>
-<li>Extract everything from the SatellaZone.zip to <code>/luma/titles/0004001000020B00/</code> on your SD card</li>
+<li>Extract everything from the zip to <code>/luma/titles/0004001000020B00/</code> on your SD card</li>
 </ol>
 </details>
 
@@ -84,22 +84,22 @@ SatellaZone is a 3DS Nintendo Zone Revival patch that allows you to access archi
 <ol>
 <li>Download <code>SatellaZone.zip</code></li>
 <li>Download <code>UsaPatch.zip</code></li>
-<li>Extract everything from the SatellaZone.zip to <code>/luma/titles/0004001000021B00/</code> on your SD card</li>
-<li>Extract everything from the UsaPatch.zip to the root of your SD card</li>
+<li>Extract everything from the zip to <code>/luma/titles/0004001000021B00/</code> on your SD card</li>
+<li>Extract everything from the zip to the root of your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>[local HQ] EUR</summary>
 <ol>
 <li>Download <code>LocalSatellaZoneHQ.zip</code></li>
-<li>Extract everything from the LocalSatellaZoneHQ.zip to <code>/luma/titles/0004001000022B00/</code> on your SD card</li>
+<li>Extract everything from the zip to <code>/luma/titles/0004001000022B00/</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>[local HQ] JPN</summary>
 <ol>
 <li>Download <code>LocalSatellaZoneHQ.zip</code></li>
-<li>Extract everything from the LocalSatellaZoneHQ.zip to <code>/luma/titles/0004001000020B00/</code> on your SD card</li>
+<li>Extract everything from the zip to <code>/luma/titles/0004001000020B00/</code> on your SD card</li>
 </ol>
 </details>
 
@@ -107,22 +107,22 @@ SatellaZone is a 3DS Nintendo Zone Revival patch that allows you to access archi
 <ol>
 <li>Download <code>LocalSatellaZoneHQ.zip</code></li>
 <li>Download <code>UsaPatch.zip</code></li>
-<li>Extract everything from the LocalSatellaZoneHQ.zip to <code>/luma/titles/0004001000021B00/</code> on your SD card</li>
-<li>Extract everything from the UsaPatch.zip to the root of your SD card</li>
+<li>Extract everything from the zip to <code>/luma/titles/0004001000021B00/</code> on your SD card</li>
+<li>Extract everything from the zip to the root of your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>[local] EUR</summary>
 <ol>
 <li>Download <code>LocalSatellaZone.zip</code></li>
-<li>Extract everything from the LocalSatellaZone.zip to <code>/luma/titles/0004001000022B00/</code> on your SD card</li>
+<li>Extract everything from the zip to <code>/luma/titles/0004001000022B00/</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>[local] JPN</summary>
 <ol>
 <li>Download <code>LocalSatellaZone.zip</code></li>
-<li>Extract everything from the LocalSatellaZone.zip to <code>/luma/titles/0004001000020B00/</code> on your SD card</li>
+<li>Extract everything from the zip to <code>/luma/titles/0004001000020B00/</code> on your SD card</li>
 </ol>
 </details>
 
@@ -130,8 +130,8 @@ SatellaZone is a 3DS Nintendo Zone Revival patch that allows you to access archi
 <ol>
 <li>Download <code>LocalSatellaZone.zip</code></li>
 <li>Download <code>UsaPatch.zip</code></li>
-<li>Extract everything from the LocalSatellaZone.zip to <code>/luma/titles/0004001000021B00/</code> on your SD card</li>
-<li>Extract everything from the UsaPatch.zip to the root of your SD card</li>
+<li>Extract everything from the zip to <code>/luma/titles/0004001000021B00/</code> on your SD card</li>
+<li>Extract everything from the zip to the root of your SD card</li>
 </ol>
 </details>
 

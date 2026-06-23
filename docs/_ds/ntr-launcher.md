@@ -74,8 +74,8 @@ Credits go to Chishm for NitroHax which this source is based from and WinterMute
 <details class="alert alert-secondary"><summary>NTR_Launcher.cia</summary>
 <ol>
 <li>Download <code>NTR_Launcher.zip</code></li>
-<li>Extract <code>/NTR_Launcher.cia</code> from the NTR_Launcher.zip to <code>/cias/NTR_Launcher.cia</code> on your SD card</li>
-<li>Extract <code>/NTR_Launcher</code> from the NTR_Launcher.zip to <code>/NTR_Launcher</code> on your SD card</li>
+<li>Extract <code>/NTR_Launcher.cia</code> from the zip to <code>/cias/NTR_Launcher.cia</code> on your SD card</li>
+<li>Extract <code>/NTR_Launcher</code> from the zip to <code>/NTR_Launcher</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/NTR_Launcher.cia</code> using FBI or GodMode9</li>
 </ol>
@@ -84,8 +84,8 @@ Credits go to Chishm for NitroHax which this source is based from and WinterMute
 <details class="alert alert-secondary"><summary>NTR_Launcher.nds</summary>
 <ol>
 <li>Download <code>NTR_Launcher.zip</code></li>
-<li>Extract <code>/title/00030004/4b535450/content/00000000.app</code> from the NTR_Launcher.zip to where you keep NDS files on your SD card</li>
-<li>Extract <code>/NTR_Launcher</code> from the NTR_Launcher.zip to <code>/NTR_Launcher</code> on your SD card</li>
+<li>Extract <code>/title/00030004/4b535450/content/00000000.app</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Extract <code>/NTR_Launcher</code> from the zip to <code>/NTR_Launcher</code> on your SD card</li>
 </ol>
 </details>
 

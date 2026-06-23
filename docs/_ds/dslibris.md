@@ -57,7 +57,7 @@ version_title: 1.5.2
 <details class="alert alert-secondary"><summary>dslibris.nds</summary>
 <ol>
 <li>Download <code>dslibris*.zip</code></li>
-<li>Extract everything from the dslibris.zip to the root of your SD card</li>
+<li>Extract everything from the zip to the root of your SD card</li>
 </ol>
 </details>
 

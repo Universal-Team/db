@@ -42,14 +42,14 @@ version_title: Bugfix
 <details class="alert alert-secondary"><summary>Opentyrian.3dsx</summary>
 <ol>
 <li>Download <code>Opentyrian_v1.1.zip</code></li>
-<li>Extract <code>/Opentyrian/Opentyrian.3dsx</code> from the Opentyrian_v1.1.zip to <code>/3ds/Opentyrian.3dsx</code> on your SD card</li>
+<li>Extract <code>/Opentyrian/Opentyrian.3dsx</code> from the zip to <code>/3ds/Opentyrian.3dsx</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>Opentyrian.cia</summary>
 <ol>
 <li>Download <code>Opentyrian_v1.1.zip</code></li>
-<li>Extract <code>/Opentyrian.cia</code> from the Opentyrian_v1.1.zip to <code>/cias/Opentyrian.cia</code> on your SD card</li>
+<li>Extract <code>/Opentyrian.cia</code> from the zip to <code>/cias/Opentyrian.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/Opentyrian.cia</code> using FBI or GodMode9</li>
 </ol>

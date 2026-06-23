@@ -52,9 +52,9 @@ version_title: SafeB9SInstaller v0.0.7
 <details class="alert alert-secondary"><summary>SafeB9SInstaller.firm</summary>
 <ol>
 <li>Download <code>SafeB9SInstaller-*.zip</code></li>
-<li>Extract <code>/SafeB9SInstaller.firm</code> from the SafeB9SInstaller.zip to <code>/luma/payloads/SafeB9SInstaller.firm</code> on your SD card</li>
+<li>Extract <code>/SafeB9SInstaller.firm</code> from the zip to <code>/luma/payloads/SafeB9SInstaller.firm</code> on your SD card</li>
 <li>Download <code>boot9strap-[d.]*.zip</code></li>
-<li>Extract everything from the boot9strap.zip to <code>/boot9strap/</code> on your SD card</li>
+<li>Extract everything from the zip to <code>/boot9strap/</code> on your SD card</li>
 </ol>
 </details>
 

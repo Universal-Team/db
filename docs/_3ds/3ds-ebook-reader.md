@@ -49,7 +49,7 @@ version_title: eBook Reader v1.2
 <details class="alert alert-secondary"><summary>eBook_Reader.cia</summary>
 <ol>
 <li>Download <code>release*.zip</code></li>
-<li>Extract everything from the release.zip to the root of your SD card</li>
+<li>Extract everything from the zip to the root of your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/eBook_Reader.cia</code> using FBI or GodMode9</li>
 </ol>

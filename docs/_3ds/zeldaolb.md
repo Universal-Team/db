@@ -52,7 +52,7 @@ version_title: Improved Italian translation and made some fixes
 <details class="alert alert-secondary"><summary>ZeldaOLB.3dsx</summary>
 <ol>
 <li>Download <code>ZeldaOLB_3DSX_v1.1.zip</code></li>
-<li>Extract <code>/ZeldaOLB/ZeldaOLB.3dsx</code> from the ZeldaOLB_3DSX_v1.1.zip to <code>/3ds/ZeldaOLB.3dsx</code> on your SD card</li>
+<li>Extract <code>/ZeldaOLB/ZeldaOLB.3dsx</code> from the zip to <code>/3ds/ZeldaOLB.3dsx</code> on your SD card</li>
 </ol>
 </details>
 

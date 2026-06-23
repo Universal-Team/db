@@ -119,7 +119,7 @@ wiki: https://github.com/Nanquitas/BootNTR/wiki
 <details class="alert alert-secondary"><summary>BootNTRSelector.cia</summary>
 <ol>
 <li>Download <code>Home.Menu.Alternate.Banner.zip</code></li>
-<li>Extract <code>/BootNTRSelector.cia</code> from the Home.Menu.Alternate.Banner.zip to <code>/cias/BootNTRSelector.cia</code> on your SD card</li>
+<li>Extract <code>/BootNTRSelector.cia</code> from the zip to <code>/cias/BootNTRSelector.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/BootNTRSelector.cia</code> using FBI or GodMode9</li>
 </ol>
@@ -128,7 +128,7 @@ wiki: https://github.com/Nanquitas/BootNTR/wiki
 <details class="alert alert-secondary"><summary>BootNTRSelector_Mode3.cia</summary>
 <ol>
 <li>Download <code>Home.Menu.Alternate.Banner.zip</code></li>
-<li>Extract <code>/BootNTRSelector_Mode3.cia</code> from the Home.Menu.Alternate.Banner.zip to <code>/cias/BootNTRSelector_Mode3.cia</code> on your SD card</li>
+<li>Extract <code>/BootNTRSelector_Mode3.cia</code> from the zip to <code>/cias/BootNTRSelector_Mode3.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/BootNTRSelector_Mode3.cia</code> using FBI or GodMode9</li>
 </ol>

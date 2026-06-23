@@ -84,8 +84,8 @@ wiki: https://github.com/LumaTeam/Luma3DS/wiki
 <details class="alert alert-secondary"><summary>boot.firm</summary>
 <ol>
 <li>Download <code>Luma3DSv13.4.zip</code></li>
-<li>Extract <code>/boot.firm</code> from the Luma3DSv13.4.zip to <code>/boot.firm</code> on your SD card</li>
-<li>Extract <code>/config</code> from the Luma3DSv13.4.zip to <code>/config</code> on your SD card</li>
+<li>Extract <code>/boot.firm</code> from the zip to <code>/boot.firm</code> on your SD card</li>
+<li>Extract <code>/config</code> from the zip to <code>/config</code> on your SD card</li>
 </ol>
 </details>
 

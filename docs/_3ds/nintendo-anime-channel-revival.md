@@ -38,7 +38,7 @@ version_title: Patch ttdu08 Anime Channel 1.0.2
 <details class="alert alert-secondary"><summary>Patches</summary>
 <ol>
 <li>Download <code>ttdu08AnimeChannel1.0.2.zip</code></li>
-<li>Extract <code>/luma</code> from the ttdu08AnimeChannel1.0.2.zip to <code>/luma</code> on your SD card</li>
+<li>Extract <code>/luma</code> from the zip to <code>/luma</code> on your SD card</li>
 </ol>
 </details>
 

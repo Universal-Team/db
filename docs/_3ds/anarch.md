@@ -37,14 +37,14 @@ updated: '---'
 <details class="alert alert-secondary"><summary>ANARCH.3dsx</summary>
 <ol>
 <li>Download <code>3DS_1.0.zip</code></li>
-<li>Extract <code>/ANARCH.3dsx</code> from the 3DS_1.0.zip to <code>/3ds/ANARCH.3dsx</code> on your SD card</li>
+<li>Extract <code>/ANARCH.3dsx</code> from the zip to <code>/3ds/ANARCH.3dsx</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>ANARCH_QS.3dsx</summary>
 <ol>
 <li>Download <code>3DS_1.0.zip</code></li>
-<li>Extract <code>/ANARCH_QS.3dsx</code> from the 3DS_1.0.zip to <code>/3ds/ANARCH_QS.3dsx</code> on your SD card</li>
+<li>Extract <code>/ANARCH_QS.3dsx</code> from the zip to <code>/3ds/ANARCH_QS.3dsx</code> on your SD card</li>
 </ol>
 </details>
 

@@ -106,7 +106,7 @@ When installing with Universal-Updater this is done automatically.
 <ol>
 <li>Download <code>ndsForwarder.3dsx</code> to <code>/3ds/ndsForwarder.3dsx</code> on your SD card</li>
 <li>Download <code>DS.Game.Forwarder.pack.nds-bootstrap.7z</code></li>
-<li>Extract the contents of <code>/for SD Card root/</code> from the DS.Game.Forwarder.pack.nds-bootstrap.7z to the root of your SD card</li>
+<li>Extract the contents of <code>/for SD Card root/</code> from the 7z to the root of your SD card</li>
 </ol>
 </details>
 

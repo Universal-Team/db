@@ -74,7 +74,7 @@ version_title: 'GitHub Release #29'
 <details class="alert alert-secondary"><summary>SD card forwarder pack</summary>
 <ol>
 <li>Download <code>DS.Game.Forwarder.pack.nds-bootstrap.7z</code></li>
-<li>Extract the contents of <code>/for SD Card root/</code> from the DS.Game.Forwarder.pack.nds-bootstrap.7z to the root of your SD card</li>
+<li>Extract the contents of <code>/for SD Card root/</code> from the 7z to the root of your SD card</li>
 <li>Download <code>apfix.pck</code> to <code>/_nds/ntr-forwarder/apfix.pck</code> on your SD card</li>
 <li>Download <code>widescreen.pck</code> to <code>/_nds/ntr-forwarder/widescreen.pck</code> on your SD card</li>
 </ol>

@@ -84,16 +84,16 @@ If the app doesn't work, try the following steps:
 <details class="alert alert-secondary"><summary>nimbus.3dsx</summary>
 <ol>
 <li>Download <code>3dsx.2.1.1.zip</code></li>
-<li>Extract <code>/3ds/nimbus.3dsx</code> from the 3dsx.2.1.1.zip to <code>/3ds/nimbus.3dsx</code> on your SD card</li>
-<li>Extract <code>/3ds</code> from the 3dsx.2.1.1.zip to <code>/3ds</code> on your SD card</li>
+<li>Extract <code>/3ds/nimbus.3dsx</code> from the zip to <code>/3ds/nimbus.3dsx</code> on your SD card</li>
+<li>Extract <code>/3ds</code> from the zip to <code>/3ds</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>nimbus.cia</summary>
 <ol>
 <li>Download <code>cia.2.1.1.zip</code></li>
-<li>Extract <code>/cias/nimbus.cia</code> from the cia.2.1.1.zip to <code>/cias/nimbus.cia</code> on your SD card</li>
-<li>Extract <code>/3ds</code> from the cia.2.1.1.zip to <code>/3ds</code> on your SD card</li>
+<li>Extract <code>/cias/nimbus.cia</code> from the zip to <code>/cias/nimbus.cia</code> on your SD card</li>
+<li>Extract <code>/3ds</code> from the zip to <code>/3ds</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/nimbus.cia</code> using FBI or GodMode9</li>
 </ol>

@@ -38,7 +38,7 @@ version_title: v1.0.0
 <details class="alert alert-secondary"><summary>Escape_Jonnys_Backrooms.3dsx</summary>
 <ol>
 <li>Download <code>Escape_Jonnys_Backrooms.zip</code></li>
-<li>Extract <code>/Escape_Jonnys_Backrooms.3dsx</code> from the Escape_Jonnys_Backrooms.zip to <code>/3ds/Escape_Jonnys_Backrooms.3dsx</code> on your SD card</li>
+<li>Extract <code>/Escape_Jonnys_Backrooms.3dsx</code> from the zip to <code>/3ds/Escape_Jonnys_Backrooms.3dsx</code> on your SD card</li>
 </ol>
 </details>
 

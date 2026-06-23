@@ -38,16 +38,16 @@ website: https://web.archive.org/web/20160818124931/http://smealum.net/dscraft/
 <details class="alert alert-secondary"><summary>DScraft.nds</summary>
 <ol>
 <li>Download <code>DScraft_310811.7z</code></li>
-<li>Extract <code>/DScraft.nds</code> from the DScraft_310811.7z to where you keep NDS files on your SD card</li>
-<li>Extract <code>/dscraft</code> from the DScraft_310811.7z to where you keep NDS files on your SD card</li>
+<li>Extract <code>/DScraft.nds</code> from the 7z to where you keep NDS files on your SD card</li>
+<li>Extract <code>/dscraft</code> from the 7z to where you keep NDS files on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>DScraft_fat.nds</summary>
 <ol>
 <li>Download <code>DScraft_fat_310811.7z</code></li>
-<li>Extract <code>/DScraft_fat.nds</code> from the DScraft_fat_310811.7z to where you keep NDS files on your SD card</li>
-<li>Extract <code>/dscraft</code> from the DScraft_fat_310811.7z to <code>/dscraft</code> on your SD card</li>
+<li>Extract <code>/DScraft_fat.nds</code> from the 7z to where you keep NDS files on your SD card</li>
+<li>Extract <code>/dscraft</code> from the 7z to <code>/dscraft</code> on your SD card</li>
 </ol>
 </details>
 

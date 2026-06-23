@@ -51,7 +51,7 @@ No, it does not. The SPC/DSP cores are completely independant from the rest of t
 <details class="alert alert-secondary"><summary>blargSpc.3dsx</summary>
 <ol>
 <li>Download <code>blargSpc.zip</code></li>
-<li>Extract <code>/blargSpc.3dsx</code> from the blargSpc.zip to <code>/3ds/blargSpc.3dsx</code> on your SD card</li>
+<li>Extract <code>/blargSpc.3dsx</code> from the zip to <code>/3ds/blargSpc.3dsx</code> on your SD card</li>
 </ol>
 </details>
 

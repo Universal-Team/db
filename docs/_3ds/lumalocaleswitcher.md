@@ -79,7 +79,7 @@ version_title: '0.04'
 <details class="alert alert-secondary"><summary>LumaLocaleSwitcher-0.04.3dsx</summary>
 <ol>
 <li>Download <code>LumaLocaleSwitcher-0.04-NIGHTLY.zip</code></li>
-<li>Extract <code>/3ds/LumaLocaleSwitcher/LumaLocaleSwitcher-0.04.3dsx</code> from the LumaLocaleSwitcher-0.04-NIGHTLY.zip to <code>/3ds/LumaLocaleSwitcher-0.04.3dsx</code> on your SD card</li>
+<li>Extract <code>/3ds/LumaLocaleSwitcher/LumaLocaleSwitcher-0.04.3dsx</code> from the zip to <code>/3ds/LumaLocaleSwitcher-0.04.3dsx</code> on your SD card</li>
 </ol>
 </details>
 

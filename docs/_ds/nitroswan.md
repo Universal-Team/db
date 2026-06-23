@@ -42,7 +42,7 @@ version_title: V0.7.6
 <details class="alert alert-secondary"><summary>NitroSwan.nds</summary>
 <ol>
 <li>Download <code>NitroSwan.zip</code></li>
-<li>Extract <code>/NitroSwan.nds</code> from the NitroSwan.zip to where you keep NDS files on your SD card</li>
+<li>Extract <code>/NitroSwan.nds</code> from the zip to where you keep NDS files on your SD card</li>
 </ol>
 </details>
 

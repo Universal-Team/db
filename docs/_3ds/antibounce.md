@@ -73,7 +73,7 @@ version_title: AntiBounce 2.0.0
 <details class="alert alert-secondary"><summary>Antibounce.3dsx</summary>
 <ol>
 <li>Download <code>antibounce-3ds.zip</code></li>
-<li>Extract everything from the antibounce-3ds.zip to <code>/3ds/Antibounce/</code> on your SD card</li>
+<li>Extract everything from the zip to <code>/3ds/Antibounce/</code> on your SD card</li>
 </ol>
 </details>
 

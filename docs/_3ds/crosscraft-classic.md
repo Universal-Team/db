@@ -118,8 +118,8 @@ CrossCraft-Classic is a project that implements Minecraft Java Edition: Classic 
 <details class="alert alert-secondary"><summary>CrossCraft-Classic.3dsx</summary>
 <ol>
 <li>Download <code>CrossCraft-3DS.zip</code></li>
-<li>Extract <code>/CrossCraft-Classic.3dsx</code> from the CrossCraft-3DS.zip to <code>/3ds/CrossCraft-Classic.3dsx</code> on your SD card</li>
-<li>Extract the contents of <code>/CrossCraft-Classic/</code> from the CrossCraft-3DS.zip to <code>/CrossCraft-Classic/</code> on your SD card</li>
+<li>Extract <code>/CrossCraft-Classic.3dsx</code> from the zip to <code>/3ds/CrossCraft-Classic.3dsx</code> on your SD card</li>
+<li>Extract the contents of <code>/CrossCraft-Classic/</code> from the zip to <code>/CrossCraft-Classic/</code> on your SD card</li>
 </ol>
 </details>
 

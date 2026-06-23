@@ -95,7 +95,7 @@ Xash3D Engine is a custom Gold Source engine rewritten from scratch. Xash3D is c
 <details class="alert alert-secondary"><summary>[demo] uplink_data.zip</summary>
 <ol>
 <li>Download <code>uplink_data.zip</code></li>
-<li>Extract everything from the uplink_data.zip to the root of your SD card</li>
+<li>Extract everything from the zip to the root of your SD card</li>
 </ol>
 </details>
 

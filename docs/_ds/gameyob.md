@@ -39,7 +39,7 @@ website: https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/
 <details class="alert alert-secondary"><summary>gameyob.cia</summary>
 <ol>
 <li>Download <code>gameyob.zip</code></li>
-<li>Extract <code>/gameyob.cia</code> from the gameyob.zip to <code>/cias/gameyob.cia</code> on your SD card</li>
+<li>Extract <code>/gameyob.cia</code> from the zip to <code>/cias/gameyob.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/gameyob.cia</code> using FBI or GodMode9</li>
 </ol>
@@ -48,7 +48,7 @@ website: https://gbatemp.net/threads/gameyob-a-gameboy-emulator-for-ds.343407/
 <details class="alert alert-secondary"><summary>gameyob.nds</summary>
 <ol>
 <li>Download <code>gameyob.zip</code></li>
-<li>Extract <code>/gameyob.nds</code> from the gameyob.zip to where you keep NDS files on your SD card</li>
+<li>Extract <code>/gameyob.nds</code> from the zip to where you keep NDS files on your SD card</li>
 </ol>
 </details>
 

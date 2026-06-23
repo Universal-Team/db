@@ -39,9 +39,9 @@ version_title: 1.0.0
 <details class="alert alert-secondary"><summary>counter_strike.nds</summary>
 <ol>
 <li>Download <code>Counter.Strike.DS.[d.]+.zip</code></li>
-<li>Extract <code>/counter_strike.nds</code> from the Counter Strike DS.zip to where you keep NDS files on your SD card</li>
-<li>Extract <code>/counter_strike_music.raw</code> from the Counter Strike DS.zip to where you keep NDS files on your SD card</li>
-<li>Extract <code>/soundbank.bin</code> from the Counter Strike DS.zip to where you keep NDS files on your SD card</li>
+<li>Extract <code>/counter_strike.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Extract <code>/counter_strike_music.raw</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Extract <code>/soundbank.bin</code> from the zip to where you keep NDS files on your SD card</li>
 </ol>
 </details>
 

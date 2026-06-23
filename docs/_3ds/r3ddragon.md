@@ -65,7 +65,7 @@ wiki: https://github.com/mrdanielps/r3Ddragon/wiki
 <details class="alert alert-secondary"><summary>r3Ddragon.cia</summary>
 <ol>
 <li>Download <code>r3Ddragon-v0.87.zip</code></li>
-<li>Extract <code>/r3Ddragon.cia</code> from the r3Ddragon-v0.87.zip to <code>/cias/r3Ddragon.cia</code> on your SD card</li>
+<li>Extract <code>/r3Ddragon.cia</code> from the zip to <code>/cias/r3Ddragon.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/r3Ddragon.cia</code> using FBI or GodMode9</li>
 </ol>

@@ -48,7 +48,7 @@ version_title: Added support for touchpad
 <details class="alert alert-secondary"><summary>Zelda3T.3dsx</summary>
 <ol>
 <li>Download <code>Zelda3T_3DSX_v1.0.zip</code></li>
-<li>Extract <code>/Zelda3T/Zelda3T.3dsx</code> from the Zelda3T_3DSX_v1.0.zip to <code>/3ds/Zelda3T.3dsx</code> on your SD card</li>
+<li>Extract <code>/Zelda3T/Zelda3T.3dsx</code> from the zip to <code>/3ds/Zelda3T.3dsx</code> on your SD card</li>
 </ol>
 </details>
 

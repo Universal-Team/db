@@ -114,7 +114,7 @@ website: https://discord.gg/Q6jmQcV
 <details class="alert alert-secondary"><summary>SRAU.3dsx</summary>
 <ol>
 <li>Download <code>SRAU.7z</code></li>
-<li>Extract <code>/SRAU.3dsx</code> from the SRAU.7z to <code>/3ds/SRAU.3dsx</code> on your SD card</li>
+<li>Extract <code>/SRAU.3dsx</code> from the 7z to <code>/3ds/SRAU.3dsx</code> on your SD card</li>
 </ol>
 </details>
 

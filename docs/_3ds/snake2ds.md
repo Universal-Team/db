@@ -60,7 +60,7 @@ version_title: Release v1.0
 <details class="alert alert-secondary"><summary>Snake2DS.3dsx</summary>
 <ol>
 <li>Download <code>Snake2DS-3DSFiles*.zip</code></li>
-<li>Extract <code>/Snake2DS</code> from the Snake2DS.zip to <code>/3ds/Snake2DS</code> on your SD card</li>
+<li>Extract <code>/Snake2DS</code> from the zip to <code>/3ds/Snake2DS</code> on your SD card</li>
 </ol>
 </details>
 

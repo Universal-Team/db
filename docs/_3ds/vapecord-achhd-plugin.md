@@ -74,8 +74,8 @@ version_title: ACHHD Vapecord Public Plugin [v.1.1.0]
 <details class="alert alert-secondary"><summary>Plugin (All Regions)</summary>
 <ol>
 <li>Download <code>Vapecord-ACHHD.zip</code></li>
-<li>Extract <code>/luma/plugins</code> from the Vapecord.zip to <code>/luma/plugins</code> on your SD card</li>
-<li>Extract <code>/VapecordACHHD</code> from the Vapecord.zip to <code>/VapecordACHHD</code> on your SD card</li>
+<li>Extract <code>/luma/plugins</code> from the zip to <code>/luma/plugins</code> on your SD card</li>
+<li>Extract <code>/VapecordACHHD</code> from the zip to <code>/VapecordACHHD</code> on your SD card</li>
 </ol>
 </details>
 

@@ -83,8 +83,8 @@ version_title: v1.2.3
 <details class="alert alert-secondary"><summary>DDLC-3DS.3dsx</summary>
 <ol>
 <li>Download <code>DDLC-3DS.zip</code></li>
-<li>Extract <code>/DDLC-3DS.3dsx</code> from the DDLC-3DS.zip to <code>/3ds/DDLC-3DS.3dsx</code> on your SD card</li>
-<li>Extract <code>/game</code> from the DDLC-3DS.zip to <code>/3ds/DDLC-3DS/game</code> on your SD card</li>
+<li>Extract <code>/DDLC-3DS.3dsx</code> from the zip to <code>/3ds/DDLC-3DS.3dsx</code> on your SD card</li>
+<li>Extract <code>/game</code> from the zip to <code>/3ds/DDLC-3DS/game</code> on your SD card</li>
 </ol>
 </details>
 

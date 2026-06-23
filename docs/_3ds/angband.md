@@ -224,16 +224,16 @@ Angband is a graphical dungeon adventure game that uses textual characters to re
 <details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-148-gcd52d6cf6.3dsx</summary>
 <ol>
 <li>Download <code>Angband-4.2.6-148-gcd52d6cf6-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-148-gcd52d6cf6.3dsx</code> from the Angband-4.2.6-148-gcd52d6cf6-3ds.zip to <code>/3ds/Angband-4.2.6-148-gcd52d6cf6.3dsx</code> on your SD card</li>
-<li>Extract the contents of <code>/angband/</code> from the Angband-4.2.6-148-gcd52d6cf6-3ds.zip to <code>/angband/</code> on your SD card</li>
+<li>Extract <code>/Angband-4.2.6-148-gcd52d6cf6.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-148-gcd52d6cf6.3dsx</code> on your SD card</li>
+<li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-148-gcd52d6cf6.cia</summary>
 <ol>
 <li>Download <code>Angband-4.2.6-148-gcd52d6cf6-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-148-gcd52d6cf6.cia</code> from the Angband-4.2.6-148-gcd52d6cf6-3ds.zip to <code>/cias/Angband-4.2.6-148-gcd52d6cf6.cia</code> on your SD card</li>
-<li>Extract the contents of <code>/angband/</code> from the Angband-4.2.6-148-gcd52d6cf6-3ds.zip to <code>/angband/</code> on your SD card</li>
+<li>Extract <code>/Angband-4.2.6-148-gcd52d6cf6.cia</code> from the zip to <code>/cias/Angband-4.2.6-148-gcd52d6cf6.cia</code> on your SD card</li>
+<li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/Angband-4.2.6-148-gcd52d6cf6.cia</code> using FBI or GodMode9</li>
 </ol>
@@ -242,8 +242,8 @@ Angband is a graphical dungeon adventure game that uses textual characters to re
 <details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-148-gcd52d6cf6.nds</summary>
 <ol>
 <li>Download <code>Angband-4.2.6-148-gcd52d6cf6-nds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-148-gcd52d6cf6.nds</code> from the Angband-4.2.6-148-gcd52d6cf6-nds.zip to where you keep NDS files on your SD card</li>
-<li>Extract the contents of <code>/angband/</code> from the Angband-4.2.6-148-gcd52d6cf6-nds.zip to <code>/angband/</code> on your SD card</li>
+<li>Extract <code>/Angband-4.2.6-148-gcd52d6cf6.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
 

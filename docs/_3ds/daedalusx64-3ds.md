@@ -94,7 +94,7 @@ version_title: v1.0
 <details class="alert alert-secondary"><summary>3ds.zip</summary>
 <ol>
 <li>Download <code>3ds.zip</code></li>
-<li>Extract everything from the 3ds.zip to the root of your SD card</li>
+<li>Extract everything from the zip to the root of your SD card</li>
 </ol>
 </details>
 

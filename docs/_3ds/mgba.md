@@ -82,33 +82,33 @@ wiki: https://github.com/mgba-emu/mgba/wiki
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>mgba.3dsx</summary>
-<ol>
-<li>Download <code>mGBA-0.10.5-3ds.7z</code></li>
-<li>Extract <code>/mGBA-*-3ds*/3dsx/mgba.3dsx</code> from the mGBA-0.10.5-3ds.7z to <code>/3ds/mgba.3dsx</code> on your SD card</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>mgba.cia</summary>
-<ol>
-<li>Download <code>mGBA-0.10.5-3ds.7z</code></li>
-<li>Extract <code>/mGBA-*-3ds*/cia/mgba.cia</code> from the mGBA-0.10.5-3ds.7z to <code>/cias/mgba.cia</code> on your SD card</li>
-<li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/mgba.cia</code> using FBI or GodMode9</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>[git] mgba.3dsx</summary>
 <ol>
 <li>Download <code>mGBA-build-latest-3ds.7z</code></li>
-<li>Extract <code>/mGBA-*-3ds*/3dsx/mgba.3dsx</code> from the mGBA-build-latest-3ds.7z to <code>/3ds/mgba.3dsx</code> on your SD card</li>
+<li>Extract <code>/mGBA-*-3ds*/3dsx/mgba.3dsx</code> from the 7z to <code>/3ds/mgba.3dsx</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>[git] mgba.cia</summary>
 <ol>
 <li>Download <code>mGBA-build-latest-3ds.7z</code></li>
-<li>Extract <code>/mGBA-*-3ds*/cia/mgba.cia</code> from the mGBA-build-latest-3ds.7z to <code>/cias/mgba.cia</code> on your SD card</li>
+<li>Extract <code>/mGBA-*-3ds*/cia/mgba.cia</code> from the 7z to <code>/cias/mgba.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/mgba.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>mgba.3dsx</summary>
+<ol>
+<li>Download <code>mGBA-0.10.5-3ds.7z</code></li>
+<li>Extract <code>/mGBA-*-3ds*/3dsx/mgba.3dsx</code> from the 7z to <code>/3ds/mgba.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>mgba.cia</summary>
+<ol>
+<li>Download <code>mGBA-0.10.5-3ds.7z</code></li>
+<li>Extract <code>/mGBA-*-3ds*/cia/mgba.cia</code> from the 7z to <code>/cias/mgba.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/mgba.cia</code> using FBI or GodMode9</li>
 </ol>

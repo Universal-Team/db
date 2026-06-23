@@ -43,14 +43,14 @@ version_title: Stable release
 <details class="alert alert-secondary"><summary>Xrick.3dsx</summary>
 <ol>
 <li>Download <code>Xrick_v1.0.zip</code></li>
-<li>Extract <code>/Xrick/Xrick.3dsx</code> from the Xrick_v1.0.zip to <code>/3ds/Xrick.3dsx</code> on your SD card</li>
+<li>Extract <code>/Xrick/Xrick.3dsx</code> from the zip to <code>/3ds/Xrick.3dsx</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>Xrick.cia</summary>
 <ol>
 <li>Download <code>Xrick_v1.0.zip</code></li>
-<li>Extract <code>/Xrick.cia</code> from the Xrick_v1.0.zip to <code>/cias/Xrick.cia</code> on your SD card</li>
+<li>Extract <code>/Xrick.cia</code> from the zip to <code>/cias/Xrick.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/Xrick.cia</code> using FBI or GodMode9</li>
 </ol>

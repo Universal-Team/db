@@ -47,7 +47,7 @@ version_title: v1.0.4
 <details class="alert alert-secondary"><summary>Plugin</summary>
 <ol>
 <li>Download <code>Release.zip</code></li>
-<li>Extract <code>/luma</code> from the Release.zip to <code>/luma</code> on your SD card</li>
+<li>Extract <code>/luma</code> from the zip to <code>/luma</code> on your SD card</li>
 </ol>
 </details>
 

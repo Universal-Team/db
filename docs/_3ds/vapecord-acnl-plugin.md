@@ -57,8 +57,8 @@ wiki: https://github.com/RedShyGuy/Vapecord-ACNL-Plugin/wiki
 <details class="alert alert-secondary"><summary>Plugin (All Regions)</summary>
 <ol>
 <li>Download <code>Vapecord.Public.zip</code></li>
-<li>Extract <code>/luma/plugins</code> from the Vapecord.zip to <code>/luma/plugins</code> on your SD card</li>
-<li>Extract <code>/Vapecord</code> from the Vapecord.zip to <code>/Vapecord</code> on your SD card</li>
+<li>Extract <code>/luma/plugins</code> from the zip to <code>/luma/plugins</code> on your SD card</li>
+<li>Extract <code>/Vapecord</code> from the zip to <code>/Vapecord</code> on your SD card</li>
 </ol>
 </details>
 

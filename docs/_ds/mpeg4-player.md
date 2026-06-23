@@ -31,7 +31,7 @@ website: https://gbatemp.net/threads/mpeg4-player-for-ds-and-dsi.544095/
 <details class="alert alert-secondary"><summary>MPEG4Player.nds</summary>
 <ol>
 <li>Download <code></code></li>
-<li>Extract <code>/MPEG4Player.nds</code> from the MPEG4Player.nds.zip to where you keep NDS files on your SD card</li>
+<li>Extract <code>/MPEG4Player.nds</code> from the zip to where you keep NDS files on your SD card</li>
 </ol>
 </details>
 

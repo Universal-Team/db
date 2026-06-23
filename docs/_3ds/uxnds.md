@@ -79,32 +79,32 @@ There are three binaries provided:
 <details class="alert alert-secondary"><summary>uxnds.3dsx</summary>
 <ol>
 <li>Download <code>uxndsd+.zip</code></li>
-<li>Extract <code>/uxnds.3dsx</code> from the uxnds.zip to <code>/3ds/uxnds.3dsx</code> on your SD card</li>
-<li>Extract <code>/uxn</code> from the uxnds.zip to <code>/uxn</code> on your SD card</li>
+<li>Extract <code>/uxnds.3dsx</code> from the zip to <code>/3ds/uxnds.3dsx</code> on your SD card</li>
+<li>Extract <code>/uxn</code> from the zip to <code>/uxn</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>uxnds.nds</summary>
 <ol>
 <li>Download <code>uxndsd+.zip</code></li>
-<li>Extract <code>/uxnds.nds</code> from the uxnds.zip to where you keep NDS files on your SD card</li>
-<li>Extract <code>/uxn</code> from the uxnds.zip to <code>/uxn</code> on your SD card</li>
+<li>Extract <code>/uxnds.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Extract <code>/uxn</code> from the zip to <code>/uxn</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>uxnds_debug.nds</summary>
 <ol>
 <li>Download <code>uxndsd+.zip</code></li>
-<li>Extract <code>/uxnds_debug.nds</code> from the uxnds.zip to where you keep NDS files on your SD card</li>
-<li>Extract <code>/uxn</code> from the uxnds.zip to <code>/uxn</code> on your SD card</li>
+<li>Extract <code>/uxnds_debug.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Extract <code>/uxn</code> from the zip to <code>/uxn</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>uxnds_profile.nds</summary>
 <ol>
 <li>Download <code>uxndsd+.zip</code></li>
-<li>Extract <code>/uxnds_profile.nds</code> from the uxnds.zip to where you keep NDS files on your SD card</li>
-<li>Extract <code>/uxn</code> from the uxnds.zip to <code>/uxn</code> on your SD card</li>
+<li>Extract <code>/uxnds_profile.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Extract <code>/uxn</code> from the zip to <code>/uxn</code> on your SD card</li>
 </ol>
 </details>
 

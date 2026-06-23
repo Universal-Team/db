@@ -57,7 +57,7 @@ version_title: V1.1.7
 <details class="alert alert-secondary"><summary>S8DS.nds</summary>
 <ol>
 <li>Download <code>S8DS.zip</code></li>
-<li>Extract <code>/S8DS.nds</code> from the S8DS.zip to where you keep NDS files on your SD card</li>
+<li>Extract <code>/S8DS.nds</code> from the zip to where you keep NDS files on your SD card</li>
 </ol>
 </details>
 

@@ -71,7 +71,7 @@ Jump and fly your way through danger in this rhythm-based action platformer - no
 <details class="alert alert-secondary"><summary>[extra] Level Pack</summary>
 <ol>
 <li>Download <code>Geometry_Dash_3DS_Level_Pack.zip</code></li>
-<li>Extract everything from the Geometry_Dash_3DS_Level_Pack.zip to <code>/3ds/gd3ds/</code> on your SD card</li>
+<li>Extract everything from the zip to <code>/3ds/gd3ds/</code> on your SD card</li>
 </ol>
 </details>
 

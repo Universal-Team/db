@@ -40,15 +40,15 @@ version_title: V1.11
 <details class="alert alert-secondary"><summary>Revamped.3dsx</summary>
 <ol>
 <li>Download <code>Revamped.zip</code></li>
-<li>Extract <code>/3ds/Revamped</code> from the Revamped.zip to <code>/3ds/Revamped</code> on your SD card</li>
+<li>Extract <code>/3ds/Revamped</code> from the zip to <code>/3ds/Revamped</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>Revamped.cia</summary>
 <ol>
 <li>Download <code>Revamped.zip</code></li>
-<li>Extract <code>/Revamped.cia</code> from the Revamped.zip to <code>/cias/Revamped.cia</code> on your SD card</li>
-<li>Extract <code>/3ds/Revamped</code> from the Revamped.zip to <code>/3ds/Revamped</code> on your SD card</li>
+<li>Extract <code>/Revamped.cia</code> from the zip to <code>/cias/Revamped.cia</code> on your SD card</li>
+<li>Extract <code>/3ds/Revamped</code> from the zip to <code>/3ds/Revamped</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/Revamped.cia</code> using FBI or GodMode9</li>
 </ol>

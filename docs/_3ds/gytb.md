@@ -49,7 +49,7 @@ version_title: GYTB
 <details class="alert alert-secondary"><summary>GYTB.3dsx</summary>
 <ol>
 <li>Download <code>GYTB_hax.zip</code></li>
-<li>Extract everything from the GYTB_hax.zip to the root of your SD card</li>
+<li>Extract everything from the zip to the root of your SD card</li>
 </ol>
 </details>
 

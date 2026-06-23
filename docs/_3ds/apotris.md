@@ -165,18 +165,18 @@ The game is still actively maintained and new features are added constantly. If 
 <details class="alert alert-secondary"><summary>Apotris.3dsx + assets</summary>
 <ol>
 <li>Download <code>Apotris-v4.1.03DS.zip</code></li>
-<li>Extract the contents of <code>/3ds/Apotris/assets/</code> from the Apotris-v4.1.03DS.zip to <code>/3ds/Apotris/assets/</code> on your SD card</li>
-<li>Extract the contents of <code>/3ds/Apotris/license/</code> from the Apotris-v4.1.03DS.zip to <code>/3ds/Apotris/license/</code> on your SD card</li>
-<li>Extract <code>/3ds/Apotris/Apotris.3dsx</code> from the Apotris-v4.1.03DS.zip to <code>/3ds/Apotris.3dsx</code> on your SD card</li>
+<li>Extract the contents of <code>/3ds/Apotris/assets/</code> from the zip to <code>/3ds/Apotris/assets/</code> on your SD card</li>
+<li>Extract the contents of <code>/3ds/Apotris/license/</code> from the zip to <code>/3ds/Apotris/license/</code> on your SD card</li>
+<li>Extract <code>/3ds/Apotris/Apotris.3dsx</code> from the zip to <code>/3ds/Apotris.3dsx</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>Apotris.cia + assets</summary>
 <ol>
 <li>Download <code>Apotris-v4.1.03DS.zip</code></li>
-<li>Extract the contents of <code>/3ds/Apotris/assets/</code> from the Apotris-v4.1.03DS.zip to <code>/3ds/Apotris/assets/</code> on your SD card</li>
-<li>Extract the contents of <code>/3ds/Apotris/license/</code> from the Apotris-v4.1.03DS.zip to <code>/3ds/Apotris/license/</code> on your SD card</li>
-<li>Extract <code>/3ds/Apotris/Apotris.cia</code> from the Apotris-v4.1.03DS.zip to <code>/cias/Apotris.cia</code> on your SD card</li>
+<li>Extract the contents of <code>/3ds/Apotris/assets/</code> from the zip to <code>/3ds/Apotris/assets/</code> on your SD card</li>
+<li>Extract the contents of <code>/3ds/Apotris/license/</code> from the zip to <code>/3ds/Apotris/license/</code> on your SD card</li>
+<li>Extract <code>/3ds/Apotris/Apotris.cia</code> from the zip to <code>/cias/Apotris.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/Apotris.cia</code> using FBI or GodMode9</li>
 </ol>

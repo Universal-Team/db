@@ -47,7 +47,7 @@ version_title: Menu completed
 <details class="alert alert-secondary"><summary>[prerelease] neopop.3dsx</summary>
 <ol>
 <li>Download <code>neopop_3DSX_v0.4.zip</code></li>
-<li>Extract <code>/neopop/neopop.3dsx</code> from the neopop_3DSX_v0.4.zip to <code>/3ds/neopop.3dsx</code> on your SD card</li>
+<li>Extract <code>/neopop/neopop.3dsx</code> from the zip to <code>/3ds/neopop.3dsx</code> on your SD card</li>
 </ol>
 </details>
 

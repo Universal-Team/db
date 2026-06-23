@@ -89,7 +89,7 @@ YANBF is a 3DS-mode nds-bootstrap forwarder, allowing for more than 40 forwarder
 <ol>
 <li>Download <code>bootstrap.cia</code> to <code>/cias/bootstrap.cia</code> on your SD card</li>
 <li>Download <code>DS.Game.Forwarder.pack.nds-bootstrap.7z</code></li>
-<li>Extract the contents of <code>/for SD Card root/</code> from the DS.Game.Forwarder.pack.nds-bootstrap.7z to the root of your SD card</li>
+<li>Extract the contents of <code>/for SD Card root/</code> from the 7z to the root of your SD card</li>
 <li>Download <code>apfix.pck</code> to <code>/_nds/ntr-forwarder/apfix.pck</code> on your SD card</li>
 <li>Download <code>widescreen.pck</code> to <code>/_nds/ntr-forwarder/widescreen.pck</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>

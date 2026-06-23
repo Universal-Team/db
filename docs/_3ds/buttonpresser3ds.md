@@ -64,7 +64,7 @@ version_title: Button Presser 3DS 2.0
 <details class="alert alert-secondary"><summary>ButtonPresser3DS.3dsx</summary>
 <ol>
 <li>Download <code>3ds.zip</code></li>
-<li>Extract <code>/3ds/ButtonPresser3DS.3dsx</code> from the 3ds.zip to <code>/3ds/ButtonPresser3DS.3dsx</code> on your SD card</li>
+<li>Extract <code>/3ds/ButtonPresser3DS.3dsx</code> from the zip to <code>/3ds/ButtonPresser3DS.3dsx</code> on your SD card</li>
 </ol>
 </details>
 

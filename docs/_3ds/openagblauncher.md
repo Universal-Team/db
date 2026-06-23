@@ -83,14 +83,14 @@ First of all a HUGE thank you to <a class="link link--internal" href="https://gb
 <details class="alert alert-secondary"><summary>OpenAGBLauncher.3dsx</summary>
 <ol>
 <li>Download <code>download</code></li>
-<li>Extract <code>/OpenAGBLauncher.3dsx</code> from the Open AGB Launcher.zip to <code>/3ds/OpenAGBLauncher.3dsx</code> on your SD card</li>
+<li>Extract <code>/OpenAGBLauncher.3dsx</code> from the zip to <code>/3ds/OpenAGBLauncher.3dsx</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>OpenAGBLauncher.cia</summary>
 <ol>
 <li>Download <code>download</code></li>
-<li>Extract <code>/OpenAGBLauncher.cia</code> from the Open AGB Launcher.zip to <code>/cias/OpenAGBLauncher.cia</code> on your SD card</li>
+<li>Extract <code>/OpenAGBLauncher.cia</code> from the zip to <code>/cias/OpenAGBLauncher.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/OpenAGBLauncher.cia</code> using FBI or GodMode9</li>
 </ol>

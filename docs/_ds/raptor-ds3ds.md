@@ -54,14 +54,14 @@ Reversed-engineered source port from Raptor Call Of The Shadows ported to the Ni
 <details class="alert alert-secondary"><summary>RAPTOR-3DS-SDL2-V0.9.2.3dsx</summary>
 <ol>
 <li>Download <code>RAPTOR-3DS-SDL2-V0.9.2.zip</code></li>
-<li>Extract <code>/RAPTOR-3DS-SDL2-V0.9.2.3dsx</code> from the RAPTOR-3DS-SDL2-V0.9.2.zip to <code>/3ds/RAPTOR-3DS-SDL2-V0.9.2.3dsx</code> on your SD card</li>
+<li>Extract <code>/RAPTOR-3DS-SDL2-V0.9.2.3dsx</code> from the zip to <code>/3ds/RAPTOR-3DS-SDL2-V0.9.2.3dsx</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>RAPTOR-3DS-SDL2-V0.9.2.cia</summary>
 <ol>
 <li>Download <code>RAPTOR-3DS-SDL2-V0.9.2.zip</code></li>
-<li>Extract <code>/RAPTOR-3DS-SDL2-V0.9.2.cia</code> from the RAPTOR-3DS-SDL2-V0.9.2.zip to <code>/cias/RAPTOR-3DS-SDL2-V0.9.2.cia</code> on your SD card</li>
+<li>Extract <code>/RAPTOR-3DS-SDL2-V0.9.2.cia</code> from the zip to <code>/cias/RAPTOR-3DS-SDL2-V0.9.2.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/RAPTOR-3DS-SDL2-V0.9.2.cia</code> using FBI or GodMode9</li>
 </ol>
@@ -70,7 +70,7 @@ Reversed-engineered source port from Raptor Call Of The Shadows ported to the Ni
 <details class="alert alert-secondary"><summary>RAPTOR-NDS-V1.1.0.nds</summary>
 <ol>
 <li>Download <code>RAPTOR-NDS-V1.1.0.zip</code></li>
-<li>Extract <code>/RAPTOR-NDS-V1.1.0.nds</code> from the RAPTOR-NDS-V1.1.0.zip to where you keep NDS files on your SD card</li>
+<li>Extract <code>/RAPTOR-NDS-V1.1.0.nds</code> from the zip to where you keep NDS files on your SD card</li>
 </ol>
 </details>
 

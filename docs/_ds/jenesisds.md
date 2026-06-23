@@ -28,7 +28,7 @@ version: v0.7.4
 <details class="alert alert-secondary"><summary>jEnesisDS.nds</summary>
 <ol>
 <li>Download <code>JEnesisDS0174.zip</code></li>
-<li>Extract <code>/jEnesisDS.nds</code> from the JEnesisDS0174.zip to where you keep NDS files on your SD card</li>
+<li>Extract <code>/jEnesisDS.nds</code> from the zip to where you keep NDS files on your SD card</li>
 </ol>
 </details>
 

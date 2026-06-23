@@ -51,14 +51,14 @@ version_title: 8th Release - Online MP
 <details class="alert alert-secondary"><summary>ctrQuake.3dsx</summary>
 <ol>
 <li>Download <code>ctrQuake.zip</code></li>
-<li>Extract everything from the ctrQuake.zip to the root of your SD card</li>
+<li>Extract everything from the zip to the root of your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>ctrQuake.cia</summary>
 <ol>
 <li>Download <code>ctrQuake.zip</code></li>
-<li>Extract everything from the ctrQuake.zip to the root of your SD card</li>
+<li>Extract everything from the zip to the root of your SD card</li>
 <li>Download <code>ctrQuake.cia</code> to <code>/cias/ctrQuake.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/ctrQuake.cia</code> using FBI or GodMode9</li>

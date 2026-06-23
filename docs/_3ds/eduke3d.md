@@ -78,7 +78,7 @@ version_title: Beta release (fixed)
 <details class="alert alert-secondary"><summary>[prerelease] EDuke3D.cia</summary>
 <ol>
 <li>Download <code>EDuke3D*.zip</code></li>
-<li>Extract everything from the EDuke3D.zip to the root of your SD card</li>
+<li>Extract everything from the zip to the root of your SD card</li>
 <li>Download <code>EDuke3D.cia</code> to <code>/cias/EDuke3D.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/EDuke3D.cia</code> using FBI or GodMode9</li>
@@ -88,7 +88,7 @@ version_title: Beta release (fixed)
 <details class="alert alert-secondary"><summary>[prerelease] eduke3d.3dsx</summary>
 <ol>
 <li>Download <code>EDuke3D*.zip</code></li>
-<li>Extract everything from the EDuke3D.zip to the root of your SD card</li>
+<li>Extract everything from the zip to the root of your SD card</li>
 </ol>
 </details>
 

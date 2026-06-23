@@ -50,14 +50,14 @@ version_title: 3DS Stable Release 1.0.2
 <details class="alert alert-secondary"><summary>TurtleInvaders.3dsx</summary>
 <ol>
 <li>Download <code>TurtleInvaders.zip</code></li>
-<li>Extract <code>/TurtleInvaders.3dsx</code> from the TurtleInvaders.zip to <code>/3ds/TurtleInvaders.3dsx</code> on your SD card</li>
+<li>Extract <code>/TurtleInvaders.3dsx</code> from the zip to <code>/3ds/TurtleInvaders.3dsx</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>TurtleInvaders.cia</summary>
 <ol>
 <li>Download <code>TurtleInvaders.zip</code></li>
-<li>Extract <code>/TurtleInvaders.cia</code> from the TurtleInvaders.zip to <code>/cias/TurtleInvaders.cia</code> on your SD card</li>
+<li>Extract <code>/TurtleInvaders.cia</code> from the zip to <code>/cias/TurtleInvaders.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/TurtleInvaders.cia</code> using FBI or GodMode9</li>
 </ol>

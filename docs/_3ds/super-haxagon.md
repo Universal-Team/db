@@ -97,14 +97,14 @@ SuperHaxagon, like the original game Super Hexagon by Terry Cavanagh, has only o
 <details class="alert alert-secondary"><summary>SuperHaxagon.3dsx</summary>
 <ol>
 <li>Download <code>SuperHaxagon-3DS-armhf.3dsx.zip</code></li>
-<li>Extract <code>/SuperHaxagon.3dsx</code> from the SuperHaxagon-3DS-armhf.3dsx.zip to <code>/3ds/SuperHaxagon.3dsx</code> on your SD card</li>
+<li>Extract <code>/SuperHaxagon.3dsx</code> from the zip to <code>/3ds/SuperHaxagon.3dsx</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>SuperHaxagon.cia</summary>
 <ol>
 <li>Download <code>SuperHaxagon-3DS-armhf.cia.zip</code></li>
-<li>Extract <code>/SuperHaxagon.cia</code> from the SuperHaxagon-3DS-armhf.cia.zip to <code>/cias/SuperHaxagon.cia</code> on your SD card</li>
+<li>Extract <code>/SuperHaxagon.cia</code> from the zip to <code>/cias/SuperHaxagon.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/SuperHaxagon.cia</code> using FBI or GodMode9</li>
 </ol>

@@ -1828,14 +1828,14 @@ While ScummVM was originally designed to run LucasArts’ SCUMM games, over time
 <details class="alert alert-secondary"><summary>[git] scummvm.3dsx</summary>
 <ol>
 <li>Download <code>3ds-master-latest.zip</code></li>
-<li>Extract <code>/3ds-master-[//]+/scummvm.3dsx</code> from the 3ds-master-latest.zip to <code>/3ds/scummvm.3dsx</code> on your SD card</li>
+<li>Extract <code>/3ds-master-[//]+/scummvm.3dsx</code> from the zip to <code>/3ds/scummvm.3dsx</code> on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>[git] scummvm.cia</summary>
 <ol>
 <li>Download <code>3ds-master-latest.zip</code></li>
-<li>Extract <code>/3ds-master-[//]+/scummvm.cia</code> from the 3ds-master-latest.zip to <code>/cias/scummvm.cia</code> on your SD card</li>
+<li>Extract <code>/3ds-master-[//]+/scummvm.cia</code> from the zip to <code>/cias/scummvm.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/scummvm.cia</code> using FBI or GodMode9</li>
 </ol>
@@ -1844,7 +1844,7 @@ While ScummVM was originally designed to run LucasArts’ SCUMM games, over time
 <details class="alert alert-secondary"><summary>[git] scummvm.nds</summary>
 <ol>
 <li>Download <code>nds-master-latest.zip</code></li>
-<li>Extract <code>/nds-master-[//]+/scummvm.ds</code> from the nds-master-latest.zip to <code>/nds-master-[^/]+/scummvm.ds</code> on your SD card</li>
+<li>Extract <code>/nds-master-[//]+/scummvm.ds</code> from the zip to <code>/nds-master-[^/]+/scummvm.ds</code> on your SD card</li>
 </ol>
 </details>
 
