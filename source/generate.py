@@ -926,9 +926,6 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 		# Add to output json
 		output.append(app)
 
-		# Create the website file
-		create_web_file(app)
-
 		if "unistore_exclude" not in app or not app["unistore_exclude"]:
 			# Move links to end to be more readable in U-U
 			notes = app["update_notes_md"] if "update_notes_md" in app else ""
@@ -999,6 +996,11 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 								sizeStr = to_friendly_bytes(app["downloads"][file]["size"]) if "size" in app["downloads"][file] else None
 								entry.addDownloadScript(item, file, app["downloads"][file]["url"], items[item], sizeStr)
 
+								if "archive" in app:
+									if "scripts" not in app:
+										app["scripts"] = {}
+									app["scripts"][item] = entry._entry[item]
+
 				if "prerelease" in app:
 					for file in app["prerelease"]["downloads"]:
 						items, match = next(((app["archive"][x], re.findall(x, file)) for x in app["archive"] if re.findall(x, file)), (None, None)) if "archive" in app else (None, None)
@@ -1012,6 +1014,11 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 								sizeStr = to_friendly_bytes(app["prerelease"]["downloads"][file]["size"]) if "size" in app["prerelease"]["downloads"][file] else None
 								entry.addDownloadScript(item, file, app["prerelease"]["downloads"][file]["url"], items[item], sizeStr, "prerelease")
 
+								if "archive" in app:
+									if "scripts" not in app:
+										app["scripts"] = {}
+									app["scripts"][f"[prerelease] {item}"] = entry._entry[f"[prerelease] {item}"]
+
 				if "nightly" in app:
 					for file in app["nightly"]["downloads"]:
 						items, match = next(((app["archive"][x], re.findall(x, file)) for x in app["archive"] if re.findall(x, file)), (None, None)) if "archive" in app else (None, None)
@@ -1024,6 +1031,11 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 							for item in items:
 								sizeStr = to_friendly_bytes(app["nightly"]["downloads"][file]["size"]) if "size" in app["nightly"]["downloads"][file] else None
 								entry.addDownloadScript(item, file, app["nightly"]["downloads"][file]["url"], items[item], sizeStr, "git")
+
+								if "archive" in app:
+									if "scripts" not in app:
+										app["scripts"] = {}
+									app["scripts"][f"[git] {item}"] = entry._entry[f"[git] {item}"]
 
 			if app["title"] == "RetroArch":
 				entry._entry["info"]["description"] += "\n\nCores must be downloaded from their separate UniStore, which can be added in settings."
@@ -1043,6 +1055,9 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 
 				with open(DOCS_DIR.joinpath("unistore", "version.json"), "w") as f:
 					json.dump(version, f, indent="\t")
+
+		# Create the website file
+		create_web_file(app)
 
 		click.echo("=" * 80)
 
