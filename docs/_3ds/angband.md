@@ -55,7 +55,7 @@ prerelease:
   version: 4.2.6-149-g32f3c35ea
   version_title: 4.2.6-149-g32f3c35ea
 source: https://github.com/angband/angband
-stars: 1520
+stars: 1521
 systems:
 - 3DS
 - DS
