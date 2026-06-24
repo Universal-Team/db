@@ -27,7 +27,7 @@ image_length: 1188
 layout: app
 license: other
 license_name: Other
-llm_generation: unknown
+llm_generation: 'yes'
 qr:
   DSSH.cia: https://db.universal-team.net/assets/images/qr/dssh-cia.png
 source: https://github.com/Fishason/DSSH

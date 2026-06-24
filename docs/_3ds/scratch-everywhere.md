@@ -149,6 +149,5 @@ update_notes: '<h2 dir="auto">Runtime Changes</h2>
 updated: '2026-06-08T03:00:04Z'
 version: 1.0-rc3
 version_title: 1.0 Release Candidate 3
-website: https://scratcheverywhere.github.io
 ---
 A custom Scratch runtime that allows you to run Scratch 3 projects on your 3DS!

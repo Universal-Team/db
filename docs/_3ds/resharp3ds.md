@@ -66,7 +66,6 @@ update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github
 updated: '2026-06-21T21:12:20Z'
 version: v2.1.4
 version_title: v2.1.4-beta.11
-website: https://saysaa.github.io/ReSharp3DS/
 wiki: https://saysaa.github.io/ReSharp3DS/
 ---
 # Runtime & SDK for C#

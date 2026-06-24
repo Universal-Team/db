@@ -101,7 +101,6 @@ update_notes: '<p dir="auto">This release fixes an odd bug from v3.4.0 where the
 updated: '2026-06-20T17:08:42Z'
 version: v3.4.1
 version_title: Whoops
-website: https://universal-team.net/projects/universal-updater.html
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
 Universal-Updater is a homebrew application for the Nintendo 3DS with the intention to make downloading other homebrew simple and easy. No need to manually copy files or go through installation processes, as it does that all for you.

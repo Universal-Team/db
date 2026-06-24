@@ -87,7 +87,6 @@ update_notes: '<p dir="auto">Check here on how to update <strong>TW</strong>i<st
 updated: '2026-05-24T03:11:51Z'
 version: v27.24.1
 version_title: v27.24.1 (hotfix)
-website: https://wiki.ds-homebrew.com/twilightmenu/
 wiki: https://wiki.ds-homebrew.com/twilightmenu/
 ---
 TWiLight Menu++ is an open-source DSi Menu upgrade/replacement for the Nintendo DSi, the Nintendo 3DS, and Nintendo DS flashcards. It can launch games for the Nintendo DS, Nintendo DSi, and GameBoy Advance, as well as DSTWO plugins (if you use a DSTWO).

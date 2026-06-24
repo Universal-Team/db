@@ -1,10 +1,11 @@
 ---
 author: akouzoukos
+avatar: https://gitea.com/avatars/10b706f9ce7051b068a8ad17aa543135506f9893d499cf7435d4c43a604a7663
 categories:
 - game
 color: '#ffe74a'
 color_bg: '#7d2999'
-created: '2022-04-16T00:02:43Z'
+created: '2023-10-27T20:04:22Z'
 description: A free and multiplatform block stacking game
 download_page: https://akouzoukos.com/apotris/downloads
 downloads:
@@ -12,6 +13,8 @@ downloads:
     size: 4655795
     size_str: 4 MiB
     url: https://apotrisstorage.blob.core.windows.net/binaries/Apotris-v4.1.03DS.zip
+forgejo: akouzoukos/apotris
+forgejo_host: gitea.com
 icon: https://db.universal-team.net/assets/images/icons/apotris.png
 image: https://db.universal-team.net/assets/images/images/apotris.png
 image_length: 2552

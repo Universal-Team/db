@@ -1816,7 +1816,6 @@ update_notes: '<p dir="auto">ScummVM 2026.3.0 "Carousels &amp; Killer Whales" co
 updated: '2026-06-20T21:03:57Z'
 version: v2026.3.0
 version_title: 'ScummVM 2026.3.0: "Carousels & Killer Whales"'
-website: https://www.scummvm.org
 ---
 ScummVM allows you to play classic graphic point-and-click adventure games, text adventure games, and RPGs, as long as you already have the game data files. ScummVM replaces the executable files shipped with the games, which means you can now play your favorite games on all your favorite devices.
 
