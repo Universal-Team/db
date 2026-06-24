@@ -8,6 +8,7 @@
 	"systems": [
 		"DS"
 	],
+	"llm_generation": "no",
 	"image": "https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png",
 	"icon": "https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/icon.bmp",
 	"wiki": "https://wiki.ds-homebrew.com/other/godmode9i",

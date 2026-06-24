@@ -11,6 +11,7 @@
 		"emulator",
 		"utility"
 	],
+	"llm_generation": "no",
 	"icon": "https://raw.githubusercontent.com/azahar-emu/ArticSetupTool/refs/heads/main/app/resources/icon.png",
 	"image": "https://raw.githubusercontent.com/azahar-emu/ArticSetupTool/refs/heads/main/app/resources/banner.png",
 	"description": "A tool to perform the initial setup using the Artic Protocol.",

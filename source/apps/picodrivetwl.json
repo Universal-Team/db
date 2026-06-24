@@ -6,5 +6,6 @@
 	"systems": [
 		"DS"
 	],
+	"llm_generation": "no",
 	"icon": "https://raw.githubusercontent.com/DS-Homebrew/PicoDriveTWL/master/genesis-32x32.bmp"
 }

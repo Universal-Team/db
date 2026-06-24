@@ -9,6 +9,7 @@
 	"categories": [
 		"utility"
 	],
+	"llm_generation": "no",
 	"icon": "https://raw.githubusercontent.com/RocketRobz/NTR_Forwarder/forwarder/SD_Card/sd/icon.bmp",
 	"downloads": {
 		"DS.Game.Forwarder.pack.nds-bootstrap.7z": {
