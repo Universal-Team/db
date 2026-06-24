@@ -19,6 +19,7 @@ import qrcode
 import requests
 import yaml
 from bs4 import BeautifulSoup
+from datetime import timezone
 from dateutil import parser
 from markdownify import markdownify
 from PIL import Image, ImageDraw, ImageFile
@@ -234,12 +235,11 @@ def handle_github_app(github: GitHubAPI, app: Dict[str, Any]):
 			# check for usable assets
 			for asset in r["assets"]:
 				if (len(re.findall(app["download_filter"], asset["name"])) > 0 if "download_filter" in app else len(re.findall(DOWNLOAD_BLACKLIST, asset["name"])) == 0):
+					release = r
 					break
-					# didn't break (find a usable asset)? skip this release.
-				else:
-					continue
-			release = r
-			break
+
+			if release:
+				break
 
 	# If no actual release found on page 1, try /latest
 	if not release:
@@ -367,11 +367,11 @@ def handle_github_app(github: GitHubAPI, app: Dict[str, Any]):
 	return app
 
 
-def handle_gitlab_app(app: Dict[str, Any]):
+def handle_gitlab_app(github: GitHubAPI, app: Dict[str, Any]):
 	gitlab_id = app["gitlab"].replace('/', '%2F')
-	endpoint = app.get("gitlab_endpoint", "https://gitlab.com")
-	repo = requests.get(f"{endpoint}/api/v4/projects/{gitlab_id}").json()
-	releases = requests.get(f"{endpoint}/api/v4/projects/{gitlab_id}/releases?include_html_description=true").json()
+	host = "https://" + app.get("gitlab_host", "gitlab.com")
+	repo = requests.get(f"{host}/api/v4/projects/{gitlab_id}?license=true").json()
+	releases = requests.get(f"{host}/api/v4/projects/{gitlab_id}/releases?include_html_description=true").json()
 	release = releases[0]
 	if "title" not in app:
 		app["title"] = repo["name"]
@@ -385,11 +385,17 @@ def handle_gitlab_app(app: Dict[str, Any]):
 		app["source"] = repo["web_url"]
 	if "created" not in app:
 		app["created"] = repo["created_at"]
+	if repo["license"]:
+		if "license" not in app:
+			app["license"] = repo["license"]["key"]
+		if "license_name" not in app:
+			app["license_name"] = repo["license"]["name"]
 	app["stars"] += repo["star_count"]
+
 
 	if release:
 		if "download_page" not in app:
-			app["download_page"] = f"{endpoint}/{app['gitlab']}/-/releases"
+			app["download_page"] = f"{host}/{app['gitlab']}/-/releases"
 
 		if "version" not in app:
 			app["version"] = release["tag_name"]
@@ -402,7 +408,7 @@ def handle_gitlab_app(app: Dict[str, Any]):
 			if "description_html" in release:
 				app["update_notes"] = release["description_html"].replace("\r\n", "\n")
 			else:
-				app["update_notes"] = release["description"].replace("\r\n", "\n")
+				app["update_notes"] = github.format_markdown(release["description"], mode="markdown")
 
 		if "updated" not in app:
 			app["updated"] = release["released_at"]
@@ -414,6 +420,137 @@ def handle_gitlab_app(app: Dict[str, Any]):
 				app["downloads"][asset["name"]] = {
 					"url": asset["direct_asset_url"]
 				}
+
+	return app
+
+
+def handle_forgejo_app(github: GitHubAPI, app: Dict[str, Any]):
+	host = "https://" + app["forgejo_host"]
+	repo = requests.get(f"{host}/api/v1/repos/{app['forgejo']}").json()
+	releases = requests.get(f"{host}/api/v1/repos/{app['forgejo']}/releases").json()
+
+	release = None
+	prerelease = None
+	if len(releases) > 0 and releases[0]["prerelease"]:
+		prerelease = releases[0]
+	for r in releases:
+		if not (r["prerelease"] or r["draft"]):
+			# check for usable assets
+			for asset in r["assets"]:
+				if (len(re.findall(app["download_filter"], asset["name"])) > 0 if "download_filter" in app else len(re.findall(DOWNLOAD_BLACKLIST, asset["name"])) == 0):
+					release = r
+					break
+
+			if release:
+				break
+
+	# If no actual release found on page 1, try /latest
+	if not release:
+		release = requests.get(f"{host}/api/v1/repos/{app['forgejo']}/releases/latest").json()
+
+	if "title" not in app:
+		app["title"] = repo["name"]
+
+	if "author" not in app:
+		app["author"] = repo["owner"]["full_name"] or repo["owner"]["login"]
+
+	if "description" not in app and repo["description"] != "" and repo["description"] is not None:
+		app["description"] = repo["description"]
+
+	if "avatar" not in app:
+		app["avatar"] = repo["owner"]["avatar_url"]
+
+	if "source" not in app:
+		app["source"] = repo["html_url"]
+
+	if "created" not in app:
+		app["created"] = parser.parse(repo["created_at"]).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+	if "website" not in app and repo["website"] != "":
+		app["website"] = repo["website"]
+
+	if "wiki" not in app and repo["has_wiki"] and repo["has_wiki_contents"]:
+		app["wiki"] = f"{repo['html_url']}/wiki"
+
+	# accumulate incase other apis
+	app["stars"] += repo["stars_count"]
+
+	if release:
+		if "download_page" not in app:
+			app["download_page"] = f"{host}/{app['forgejo']}/releases"
+
+		if "version" not in app:
+			app["version"] = release["tag_name"]
+
+		if "version_title" not in app and release["name"]:
+			app["version_title"] = release["name"]
+
+		if "update_notes" not in app and release["body"] != "" and release["body"] is not None:
+			app["update_notes_md"] = release["body"].replace("\r\n", "\n")
+			app["update_notes"] = github.format_markdown(release["body"], mode="markdown")
+
+		if "updated" not in app:
+			app["updated"] = parser.parse(release["published_at"]).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+		if "downloads" not in app:
+			app["downloads"] = {}
+		for asset in release["assets"]:
+			if not asset["name"] in app["downloads"] and (len(re.findall(app["download_filter"], asset["name"])) > 0 if "download_filter" in app else len(re.findall(DOWNLOAD_BLACKLIST, asset["name"])) == 0):
+				app["downloads"][asset["name"]] = {
+					"url": asset["browser_download_url"],
+					"size": asset["size"],
+					"size_str": to_friendly_bytes(asset["size"])
+				}
+
+	if prerelease:
+		if "prerelease" not in app:
+			app["prerelease"] = {}
+
+		if "downloads" not in app["prerelease"]:
+			app["prerelease"]["downloads"] = {}
+		for asset in prerelease["assets"]:
+			if not asset["name"] in app["prerelease"]["downloads"] and (len(re.findall(app["download_filter"], asset["name"])) > 0 if "download_filter" in app else len(re.findall(DOWNLOAD_BLACKLIST, asset["name"])) == 0):
+				app["prerelease"]["downloads"][asset["name"]] = {
+					"url": asset["browser_download_url"],
+					"size": asset["size"],
+					"size_str": to_friendly_bytes(asset["size"])
+				}
+
+		if len(app["prerelease"]["downloads"]) > 0:
+			if "download_page" not in app:
+				app["download_page"] = f"{host}/{app['forgejo']}/releases"
+
+			if "download_page" not in app["prerelease"]:
+				app["prerelease"]["download_page"] = prerelease["html_url"]
+
+			if "version_title" not in app and "version" not in app and prerelease["name"]:
+				app["version_title"] = prerelease["name"]
+			if "version_title" not in app["prerelease"] and prerelease["name"]:
+				app["prerelease"]["version_title"] = prerelease["name"]
+
+			if "version" not in app:
+				app["version"] = prerelease["tag_name"]
+			if "version" not in app["prerelease"]:
+				app["prerelease"]["version"] = prerelease["tag_name"]
+
+			if "update_notes" not in app["prerelease"] and prerelease["body"]:
+				app["prerelease"]["update_notes_md"] = prerelease["body"].replace("\r\n", "\n")
+				app["prerelease"]["update_notes"] = github.format_markdown(prerelease["body"], mode="markdown")
+
+				if "update_notes" not in app:
+					app["update_notes_md"] = app["prerelease"]["update_notes_md"]
+					app["update_notes"] = app["prerelease"]["update_notes"]
+
+			if "updated" not in app:
+				app["updated"] = parser.parse(prerelease["published_at"]).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+			if "updated" not in app["prerelease"]:
+				app["prerelease"]["updated"] = parser.parse(prerelease["published_at"]).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+			if not "nightly" in app and re.match(r"^[a-zA-Z]+$", app["prerelease"]["version"]):
+				app["nightly"] = app["prerelease"]
+				app.pop("prerelease")
+		else:
+			app.pop("prerelease")
 
 	return app
 
@@ -524,7 +661,11 @@ def fetch_app_data(app: Dict[str, Any], github_session: GitHubAPI):
 
 	if "gitlab" in app:
 		click.echo(f'GitLab -- {app["gitlab"]}')
-		app = handle_gitlab_app(app)
+		app = handle_gitlab_app(github_session, app)
+
+	if "forgejo" in app:
+		click.echo(f'Forgejo -- {app["forgejo"]}')
+		app = handle_forgejo_app(github_session, app)
 
 	return app
 
@@ -793,7 +934,7 @@ class GitHubAPI:
 		# Sometimes a display name is not set so we fallback to login name
 		return r['name'] or r['login']
 
-	def format_markdown(self, content: str, *, mode: str = "markdown", context: Optional[str]) -> str:
+	def format_markdown(self, content: str, *, mode: str = "markdown", context: Optional[str] = None) -> str:
 		data = {"text": content, "mode": mode}
 		if context:
 			data['context'] = context
@@ -811,7 +952,7 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 	for item in sourceFolder.iterdir():
 		with item.open(encoding="utf8") as f:
 			source.append((str(item), json.load(f)))
-	source.sort(key=lambda x: [x[1][key] for key in ["github", "gitlab", "title"] if key in x[1]][0])
+	source.sort(key=lambda x: [x[1][key] for key in ["github", "gitlab", "forgejo", "title"] if key in x[1]][0])
 
 	# Old data json
 	oldData = None
@@ -1112,7 +1253,7 @@ def gen_retroarch(docs):
 
 @main_entry_group.command()
 @click.argument("apps", type=click.File(mode="r"), nargs=-1)
-@click.option("--github-token", help="A GitHub API token", envvar="TOKEN")
+@click.option("--github-token", "-t", help="A GitHub API token", envvar="TOKEN")
 @click.option("--docs", default=str(SCRIPT_DIR.parent / "docs"), type=click.Path(file_okay=False))
 def app_test(apps: TextIO, github_token: Optional[str], docs: str):
 	"""Tests individual apps if it is fetchable and workable with for UDB"""

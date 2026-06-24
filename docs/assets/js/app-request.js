@@ -1,11 +1,12 @@
 const ISSUE_URL = "https://github.com/Universal-Team/db/issues/new?template=app-request.yml&title=";
-const GITHUB_API = "https://api.github.com";
-const GITLAB_BASE = "https://gitlab.com";
-const GITLAB_API = `${GITLAB_BASE}/api/v4`;
+const GITHUB_API = "api.github.com";
+const GITLAB_BASE = "gitlab.com";
+const CODEBERG_BASE = "codeberg.org";
 
 let git = {
 	provider: null,
 	repo: null,
+	host: null,
 };
 
 let defaults = {
@@ -18,11 +19,20 @@ let defaults = {
 	bool: false,
 };
 
+let defaultHosts = {
+	"github": GITHUB_API,
+	"gitlab": GITLAB_BASE,
+	"forgejo": CODEBERG_BASE
+}
+
 let appInfo = {};
 let appSchema = {
 	// Autofill
 	github: {type: "string", hidden: true},
 	gitlab: {type: "string", hidden: true},
+	gitlab_host: {type: "string", hidden: true},
+	forgejo: {type: "string", hidden: true},
+	forgejo_host: {type: "string", hidden: true},
 	title: {label: "App Title", type: "string", required: true},
 	description: {label: "Description", type: "string", maxLength: 256, required: true},
 	author: {label: "Author's Name", type: "string", required: true},
@@ -55,6 +65,8 @@ let appSchema = {
 	long_description: {label: "Long Description (Markdown)", help: "This is displayed on the Unviersal-DB website.", type: "textarea"},
 	website: {label: "App's Website", type: "string"},
 	wiki: {label: "App's Wiki", help: "If left blank this will be autofilled with the GitHub Wiki, I just haven't implemented the check for that into this form.", type: "string"},
+	license: {label: "License", help: "If this autofilled please do not change it, this exists for Forgejo.\n\nThis is the short form of the license ideally matching the GitHub API.\n\nEx: 'gpl-3.0', 'mit', 'cc0-1.0'.", type: "string"},
+	license_name: {label: "License Name", help: "If this autofilled please do not change it, this exists for Forgejo.\n\nThe long form of the license name, ideally matching the GitHub API.\n\nEx: 'GNU General Public License v3.0', 'MIT License', 'Creative Commons Zero v1.0 Universal'.", type: "string"},
 	download_filter: {label: "Download Filter (regex)", help: "File whitelist in case your app has files not caught by the blacklist. Most common of cross-platform apps.", type: "string"},
 	// Rare
 	autogen_scripts: {label: "Auto-generate Scripts", type: "bool", default: true},
@@ -63,28 +75,43 @@ let appSchema = {
 
 let apiMappings = {
 	github: {
-		repoApi: `${GITHUB_API}/repos/`,
-		userApi: `${GITHUB_API}/users/`,
+		repoApi: "/repos/",
+		userApi: "/users/",
 		repo: {
 			github: "full_name",
 			avatar: "owner/avatar_url",
 			title: "name",
 			description: "description",
-			website: "html_url"
+			website: "html_url",
+			license: "license/key",
+			license_name: "license/name"
 		},
 		user: {
 			author: "name?login"
 		}
 	},
 	gitlab: {
-		repoApi: `${GITLAB_API}/projects/`,
+		repoApi: `/api/v4/projects/`,
 		repo: {
-			gitlab: "full_name",
+			gitlab: "path_with_namespace",
 			avatar: "namespace/avatar_url",
 			author: "namespace/name",
 			title: "name",
 			description: "description",
-			website: "web_url"
+			website: "web_url",
+			license: "license/key",
+			license_name: "license/name"
+		}
+	},
+	forgejo: {
+		repoApi: `/api/v1/repos/`,
+		repo: {
+			forgejo: "full_name",
+			avatar: "avatar_url",
+			author: "owner/full_name?owner/login",
+			title: "name",
+			description: "description",
+			website: "website"
 		}
 	}
 };
@@ -111,32 +138,77 @@ function getSlug(str) {
 }
 
 function setGit(provider) {
+	document.getElementById("git").value = provider;
 	git.provider = provider;
 
 	let gitDiv = document.getElementById("gitData");
 	gitDiv.innerHTML = "";
 
 	if(git.provider != "none") {
+		git.host = defaultHosts[git.provider];
+
+		let div = document.createElement("div");
+		div.classList.add("input-group");
+		gitDiv.appendChild(div);
+
 		let label = document.createElement("label");
 		label.classList.add("input-group-text");
 		label.htmlFor = "repo";
 		label.innerText = "Repository";
+		div.appendChild(label);
 
 		let input = document.createElement("input");
 		input.classList.add("form-control");
 		input.name = "repo";
 		input.id = "repo";
+		input.value = git.repo;
+		input.addEventListener("change", event => {
+			git.repo = event.target.value;
+			let value = git.repo.match(/(?:https:\/\/(github|gitlab|codeberg)\.(?:com|org)\/)?([\w._-]+\/[\w._-]+)/);
+			if(git.repo != value[2]) {
+				git.repo = value[2];
+				document.getElementById("repo").value = git.repo;
 
-		gitDiv.appendChild(label);
-		gitDiv.appendChild(input);
+				if(value[1]) {
+					setGit(value[1].replace("codeberg", "forgejo"));
+				}
+			}
+		});
+		div.appendChild(input);
+
+		if(git.provider != "github") {
+			let div = document.createElement("div");
+			div.classList.add("input-group");
+			gitDiv.appendChild(div);
+
+			let label = document.createElement("label");
+			label.classList.add("input-group-text");
+			label.htmlFor = "host";
+			label.innerText = "Host";
+			div.appendChild(label);
+
+			let input = document.createElement("input");
+			input.classList.add("form-control");
+			input.name = "host";
+			input.id = "host";
+			input.value = git.host;
+			input.addEventListener("change", event => git.host = event.target.value);
+			div.appendChild(input);
+		}
 	}
 }
 
 async function fetchApi(url, mappings) {
-	let res = await fetch(url);
-	if(res.status != 200) {
-		error(`Error ${res.status}: Git repository not found`);
-		return false;
+	let res;
+	try {
+		res = await fetch(url);
+		if(res.status != 200) {
+			error(`Error ${res.status}: Git repository not found`);
+			return false;
+		}
+	} catch(e) {
+		error(e);
+		return;
 	}
 
 	let json = await res.json();
@@ -145,7 +217,7 @@ async function fetchApi(url, mappings) {
 		let maps = mappings[key].split("?");
 		for(let map of maps) {
 			temp = json;
-			map.split("/").forEach(r => temp = temp[r]);
+			map.split("/").forEach(r => temp = temp ? temp[r] : null);
 			if(temp)
 				break;
 		}
@@ -159,32 +231,31 @@ async function fetchApi(url, mappings) {
 
 async function fetchInfo() {
 	clearError();
+
+	for(let item in appSchema)
+		appSchema[item].default = null;
+
 	if(git.provider != "none") {
-		git.repo = document.getElementById("repo").value;
-		let value = git.repo.match(/(?:https:\/\/(github|gitlab).com\/)?([\w._-]+\/[\w._-]+)/);
-		if(git.repo != value[2]) {
-			git.repo = value[2];
-			document.getElementById("repo").value = git.repo;
-
-			if(value[1]) {
-				git.provider = value[1];
-				document.getElementById("git").value = git.provider;
-			}
-		}
-
 		if(!git.repo)
 			return error("Repository not set!");
 
-		let apiRepo = git.provider == "gitlab" ? encodeURIComponent(git.repo) : git.repo;
-		let res = await fetchApi(apiMappings[git.provider].repoApi + apiRepo, apiMappings[git.provider].repo);
+		let apiRepo = git.provider == "gitlab" ? (encodeURIComponent(git.repo) + "?license=yes") : git.repo;
+		let res = await fetchApi("https://" + git.host + apiMappings[git.provider].repoApi + apiRepo, apiMappings[git.provider].repo);
 		if(!res)
 			return;
 
-		if(git.provider == "gitlab")
-			appSchema.avatar.default = GITLAB_BASE + appSchema.avatar.default;
+		if(git.provider == "gitlab") {
+			appSchema.avatar.default = "https://" + git.host + appSchema.avatar.default;
+
+			if(git.host != GITLAB_BASE)
+				appSchema.gitlab_host.default = git.host;
+		}
+
+		if(git.provider == "forgejo")
+			appSchema.forgejo_host.default = git.host;
 
 		if(git.provider == "github") {
-			res = await fetchApi(apiMappings[git.provider].userApi + git.repo.split("/")[0], apiMappings[git.provider].user);
+			res = await fetchApi("https://" + git.host + apiMappings[git.provider].userApi + git.repo.split("/")[0], apiMappings[git.provider].user);
 			if(!res)
 				return;
 		}
@@ -438,7 +509,9 @@ async function exportJson() {
 				if(contentType.split("/")[0] != "image")
 					return error(`Error: Image '${schema.label ? schema.label : key}' is not an image! (Content Type: ${contentType})`);
 			} catch(err) {
-				return error("Error: Failed to fetch image, make sure you're using raw.githubusercontent.com");
+				let safeUrl = git.host == "github.com" ? "raw.githubusercontent.com" : git.host
+				if(git.host == "github.com" || !item.startsWith("https://" + git.host))
+					return error("Error: Failed to fetch image, make sure you're using " + safeUrl);
 			}
 		}
 
