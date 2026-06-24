@@ -1,0 +1,12 @@
+{
+    "github": "p0mpurin/just-an-hshop-fork",
+    "systems": [
+        "3DS"
+    ],
+    "categories": [
+        "utility"
+    ],
+    "image": "https://raw.githubusercontent.com/p0mpurin/just-an-hshop-fork/main/cia_stuff/banner.png",
+    "icon": "https://raw.githubusercontent.com/p0mpurin/just-an-hshop-fork/main/universal-updater/icons/0.png",
+    "priority": true
+}
