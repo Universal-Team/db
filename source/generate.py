@@ -266,7 +266,7 @@ def handle_github_app(github: GitHubAPI, app: Dict[str, Any]):
 	if "created" not in app:
 		app["created"] = api["created_at"]
 
-	if "website" not in app and api["homepage"] != "" and api["homepage"] is not None:
+	if "website" not in app and api["homepage"] and api["homepage"].startswith("https://db.universal-team.net"):
 		app["website"] = api["homepage"]
 
 	if "wiki" not in app and api["has_wiki"]:
@@ -379,8 +379,10 @@ def handle_gitlab_app(github: GitHubAPI, app: Dict[str, Any]):
 		app["author"] = repo["namespace"]["name"]
 	if "description" not in app:
 		app["description"] = repo["description"]
-	if "avatar" not in app:
-		app["avatar"] = repo["avatar_url"]
+	if "icon" not in app and repo["avatar_url"]:
+		app["icon"] = repo["avatar_url"]
+	if "avatar" not in app and repo["namespace"]["avatar_url"]:
+		app["avatar"] = host + "/" + repo["namespace"]["avatar_url"]
 	if "source" not in app:
 		app["source"] = repo["web_url"]
 	if "created" not in app:
@@ -447,6 +449,8 @@ def handle_forgejo_app(github: GitHubAPI, app: Dict[str, Any]):
 	# If no actual release found on page 1, try /latest
 	if not release:
 		release = requests.get(f"{host}/api/v1/repos/{app['forgejo']}/releases/latest").json()
+		if "message" in release and release["message"] == "not found":
+			release = None
 
 	if "title" not in app:
 		app["title"] = repo["name"]
@@ -457,7 +461,10 @@ def handle_forgejo_app(github: GitHubAPI, app: Dict[str, Any]):
 	if "description" not in app and repo["description"] != "" and repo["description"] is not None:
 		app["description"] = repo["description"]
 
-	if "avatar" not in app:
+	if "icon" not in app and repo["avatar_url"]:
+		app["icon"] = repo["avatar_url"]
+
+	if "avatar" not in app and repo["owner"]["avatar_url"]:
 		app["avatar"] = repo["owner"]["avatar_url"]
 
 	if "source" not in app:
@@ -466,7 +473,7 @@ def handle_forgejo_app(github: GitHubAPI, app: Dict[str, Any]):
 	if "created" not in app:
 		app["created"] = parser.parse(repo["created_at"]).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-	if "website" not in app and repo["website"] != "":
+	if "website" not in app and repo["website"] and not repo["website"].startswith("https://db.universal-team.net"):
 		app["website"] = repo["website"]
 
 	if "wiki" not in app and repo["has_wiki"] and repo["has_wiki_contents"]:

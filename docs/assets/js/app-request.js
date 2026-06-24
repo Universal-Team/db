@@ -98,6 +98,7 @@ let apiMappings = {
 			author: "namespace/name",
 			title: "name",
 			description: "description",
+			icon: "avatar_url",
 			website: "web_url",
 			license: "license/key",
 			license_name: "license/name"
@@ -107,10 +108,11 @@ let apiMappings = {
 		repoApi: `/api/v1/repos/`,
 		repo: {
 			forgejo: "full_name",
-			avatar: "avatar_url",
+			avatar: "owner/avatar_url",
 			author: "owner/full_name?owner/login",
 			title: "name",
 			description: "description",
+			icon: "avatar_url",
 			website: "website"
 		}
 	}
@@ -137,7 +139,7 @@ function getSlug(str) {
 	return str.toLowerCase().replace(/[^\w-_]/g, "-");
 }
 
-function setGit(provider) {
+function setGit(provider, host) {
 	document.getElementById("git").value = provider;
 	git.provider = provider;
 
@@ -145,7 +147,7 @@ function setGit(provider) {
 	gitDiv.innerHTML = "";
 
 	if(git.provider != "none") {
-		git.host = defaultHosts[git.provider];
+		git.host = host ? host : defaultHosts[git.provider];
 
 		let div = document.createElement("div");
 		div.classList.add("input-group");
@@ -164,13 +166,13 @@ function setGit(provider) {
 		input.value = git.repo;
 		input.addEventListener("change", event => {
 			git.repo = event.target.value;
-			let value = git.repo.match(/(?:https:\/\/(github|gitlab|codeberg)\.(?:com|org)\/)?([\w._-]+\/[\w._-]+)/);
-			if(git.repo != value[2]) {
-				git.repo = value[2];
+			let value = git.repo.match(/(?:https:\/\/((github|gitlab|codeberg|gitea)\.(?:com|org))\/)?([\w._-]+\/[\w._-]+)/);
+			if(git.repo != value[3]) {
+				git.repo = value[3];
 				document.getElementById("repo").value = git.repo;
 
 				if(value[1]) {
-					setGit(value[1].replace("codeberg", "forgejo"));
+					setGit(value[2].replace(/codeberg|gitea/, "forgejo"), value[1]);
 				}
 			}
 		});
