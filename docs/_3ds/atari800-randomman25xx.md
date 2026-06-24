@@ -39,5 +39,4 @@ update_notes: <p>Well, it's certainly not same day delivery, but it's better tha
 updated: '2024-01-21T05:15:33Z'
 version: Version_3DS_0.3.10
 version_title: A day late, but better than last time
-website: https://atari800.github.io/
 ---

@@ -38,7 +38,7 @@ screenshots:
 - description: 07 title screen
   url: https://db.universal-team.net/assets/images/screenshots/apotris/07-title-screen.png
 source: https://gitea.com/akouzoukos/apotris
-stars: 0
+stars: 33
 systems:
 - 3DS
 title: Apotris

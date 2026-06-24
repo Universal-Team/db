@@ -78,7 +78,6 @@ update_notes: '<p dir="auto">We''ve made it to 1.0 !</p>
 updated: '2023-08-02T15:33:21Z'
 version: V1.0
 version_title: FSPDS V1.0
-website: https://www.gamebrew.org/wiki/FSPDS
 ---
 A DS ROM which allows playing DSi's Flipnote Studio (.ppm) files on a DS Phat/Lite. It features flipnote image and sound player with pause/resume option, and also a file metadata viewer.
 

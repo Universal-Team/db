@@ -62,7 +62,6 @@ update_notes: '<p>This update brings many improvements over the initial release,
 updated: '2024-07-02T00:21:13Z'
 version: 3ds-v1.1.0
 version_title: Version 1.1.0
-website: https://pangeasoft.net/cromag
 ---
 ## *The wildest racing game since man invented the wheel!*
 

@@ -25,6 +25,43 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: 'no'
+nightly:
+  download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
+  downloads:
+    Universal-Updater.3dsx:
+      size: 3003660
+      size_str: 2 MiB
+      url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
+    Universal-Updater.cia:
+      size: 2479040
+      size_str: 2 MiB
+      url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
+  qr:
+    Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
+  update_notes: '<p dir="auto">Pk11 - Allow manually setting a files installed and
+    clearing the update available flag</p>
+
+    <p dir="auto">The SD icon next to downloads is now always shown, using a darker
+    color if not installed When you set something as installed without installing
+    it, UU will tell you that there''s an update available since it doesn''t know
+    whether you have the latest or not This allows you to flag a bunch of apps you
+    want then add them all to the queue when you''re ready by filtering to installed
+    and hitting add all If you know you have the latest you can clear it manually
+    with the icon shown on the title bar</p>'
+  update_notes_md: 'Pk11 - Allow manually setting a files installed and clearing the
+    update available flag
+
+
+    The SD icon next to downloads is now always shown, using a darker color if not
+    installed When you set something as installed without installing it, UU will tell
+    you that there''s an update available since it doesn''t know whether you have
+    the latest or not This allows you to flag a bunch of apps you want then add them
+    all to the queue when you''re ready by filtering to installed and hitting add
+    all If you know you have the latest you can clear it manually with the icon shown
+    on the title bar'
+  updated: '2026-06-24T01:42:31Z'
+  version: git
+  version_title: Continuous Build - 22394b1
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
@@ -65,7 +102,7 @@ screenshots:
 - description: Store selection
   url: https://db.universal-team.net/assets/images/screenshots/universal-updater/store-selection.png
 source: https://github.com/Universal-Team/Universal-Updater
-stars: 1242
+stars: 1243
 systems:
 - 3DS
 title: Universal-Updater

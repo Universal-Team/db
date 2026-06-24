@@ -18,7 +18,7 @@ icon: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
 image: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
 image_length: 21865
 layout: app
-llm_generation: unknown
+llm_generation: 'no'
 source: https://github.com/devkitPro/3ds-hbmenu
 stars: 852
 systems:

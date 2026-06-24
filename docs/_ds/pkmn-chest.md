@@ -162,7 +162,6 @@ update_notes: '<blockquote>
 updated: '2020-07-07T04:00:43Z'
 version: v2.2
 version_title: Easy config access, favorite folders, and various bug fixes
-website: https://universal-team.net/projects/pkmn-chest
 wiki: https://github.com/Universal-Team/pkmn-chest/wiki
 ---
 Pokémon Chest is an app for the DS(i) that can store and edit Pokémon in the DS Pokémon games.

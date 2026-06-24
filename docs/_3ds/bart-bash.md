@@ -34,7 +34,6 @@ update_notes: <p dir="auto">the file you are supposed to open on the 3ds to play
 updated: '2025-11-14T17:01:12Z'
 version: '1.67'
 version_title: Bart Bash .3DSX Build
-website: Demake%20of%20the%20game%20Bart%20Bash%20for%20the%203ds.
 wiki: https://wiki.bartbash.com/wiki/index.php?title=Main_Page
 ---
 **Analyse, Aim and DROP!**

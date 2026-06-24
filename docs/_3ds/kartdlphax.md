@@ -24,7 +24,7 @@ image_length: 57059
 layout: app
 license: unlicense
 license_name: The Unlicense
-llm_generation: unknown
+llm_generation: 'no'
 source: https://github.com/PabloMK7/kartdlphax
 stars: 81
 systems:

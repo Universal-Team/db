@@ -23,7 +23,7 @@ updated: '---'
 ---
 TGDS Multimedia Player, supported formats are:
 - IMA-ADPCM (Intel)/WAV/MP3/ (Up to 192K)AAC - M4A - M4B/Ogg/FLAC/NSF/SPC/GBS/+ others working. Streaming mp3, ogg and acc is stripped since itｴs 2019 and the DS does not support HTTPS (TLS1.2+)
-- .TVS video + audio file support: See https://bitbucket.org/Coto88/toolchaingenericds-multimediaplayer/src/master/ToolchainGenericDS-lm-videoplayer/ for compatible multimedia files conversion
+- .TVS video + audio file support: See <https://github.com/cotodevel/newlib-nds/blob/TGDS1.65/installer/shared/6.2_2016q4/bin/TVS-SCRIPT-EXPORT-README.MD> for compatible multimedia files conversion
 
 Buttons:
 - (Start): File Browser -> (A) to play audio file

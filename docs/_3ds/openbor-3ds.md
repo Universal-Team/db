@@ -44,5 +44,4 @@ update_notes: '<p dir="auto">Changes:</p>
   </ul>'
 updated: '2022-08-24T21:57:13Z'
 version: v0.0.6
-website: http://www.chronocrash.com
 ---

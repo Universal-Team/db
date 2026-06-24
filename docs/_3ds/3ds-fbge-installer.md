@@ -52,6 +52,5 @@ update_notes: '<p dir="auto">The 3ds-fbge program (short for 3ds-FrameBufferGrap
 updated: '2026-05-01T16:06:09Z'
 version: 0.6.0
 version_title: 0.6.0
-website: https://github.com/AtexBg/3ds-fbge
 ---
 A simple tool which helps to install and use the 3DS-FBGE (3ds-FrameBufferGraphicalEnvironnement) binaries on the 3DS and inclues the needed files from the Linux3DS package. 

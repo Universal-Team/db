@@ -7,7 +7,7 @@ color: '#ae7d50'
 color_bg: '#805c3b'
 created: '2022-12-15T03:44:14Z'
 description: NesDS 2.0.1
-download_page: https://github.com/DS-Homebrew/NesDS/tree/master/release
+download_page: https://github.com/DS-Homebrew/NesDS/releases
 downloads:
   nesDS.cia:
     size: 472320
@@ -18,7 +18,9 @@ downloads:
     size_str: 447 KiB
     url: https://github.com/DS-Homebrew/NesDS/releases/download/v2.1/nesDS.dsi
   nesDS.nds:
-    url: https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/release/nesDS.nds
+    size: 457728
+    size_str: 447 KiB
+    url: https://github.com/DS-Homebrew/NesDS/releases/download/v2.1/nesDS.nds
 github: DS-Homebrew/NesDS
 icon: https://db.universal-team.net/assets/images/icons/nesds.png
 image: https://db.universal-team.net/assets/images/images/nesds.png
@@ -70,30 +72,7 @@ update_notes: '<p dir="auto">Installation for TWLMenu++ users:</p>
   <li>Fixed more with DMC flags/IRQ.</li>
 
   </ul>'
-updated: '2018-10-19T22:09:05Z'
-version: v1.3c
+updated: '2025-12-25T10:23:19Z'
+version: v2.1
 version_title: 'v2.1: TWL Christmas Release 🎄'
 ---
-### Installation instructions
-
-<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>nesDS.cia</summary>
-<ol>
-<li>Download <code>nesDS.cia</code> to <code>/cias/nesDS.cia</code> on your SD card</li>
-<li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/nesDS.cia</code> using FBI or GodMode9</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>nesDS.dsi</summary>
-<ol>
-<li>Download <code>nesDS.dsi</code> to where you keep NDS files on your SD card</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>nesDS.nds</summary>
-<ol>
-<li>Download <code>nesDS.nds</code> to where you keep NDS files on your SD card</li>
-</ol>
-</details>
-

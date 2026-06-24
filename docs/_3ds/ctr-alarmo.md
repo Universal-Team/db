@@ -23,6 +23,8 @@ icon: https://codeberg.org/FelixHomebrew/CtrAlarmo/raw/branch/main/exefs/icon_48
 image: https://codeberg.org/FelixHomebrew/CtrAlarmo/raw/branch/main/exefs/banner.png
 image_length: 6751
 layout: app
+license: mit
+license_name: MIT License
 llm_generation: unknown
 qr:
   CtrAlarmo.cia: https://db.universal-team.net/assets/images/qr/ctralarmo-cia.png
@@ -76,7 +78,6 @@ update_notes: '<div class="markdown-heading"><h2 class="heading-element">What''s
 updated: '2026-02-17T03:08:44Z'
 version: 1.1.0
 version_title: v 1.1.0
-website: https://db.universal-team.net/3ds/ctr-alarmo
 ---
 
 A simple, configurable alarm clock app for the Nintendo 3DS.

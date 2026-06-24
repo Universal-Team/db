@@ -19,7 +19,7 @@ icon: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
 image: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
 image_length: 630
 layout: app
-llm_generation: unknown
+llm_generation: 'no'
 source: https://github.com/RocketRobz/NTR_Forwarder
 stars: 112
 systems:

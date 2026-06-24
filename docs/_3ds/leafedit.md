@@ -186,7 +186,6 @@ update_notes: '<h1 dir="auto">After like 75% of this year, another release is th
 updated: '2020-09-05T17:30:43Z'
 version: v0.2.1
 version_title: Initial Wild World support.
-website: https://universal-team.net/projects/leafedit
 wiki: https://github.com/Universal-Team/LeafEdit/wiki
 ---
 LeafEdit is a work in progress Animal Crossing: New Leaf save manager and editor for the Nintendo 3DS!

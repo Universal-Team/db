@@ -30,7 +30,7 @@ llm_generation: 'yes'
 qr:
   Meteo3DS.cia: https://db.universal-team.net/assets/images/qr/meteo3ds-cia.png
 source: https://github.com/xPsycho999/Meteo3DS
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: Meteo3DS

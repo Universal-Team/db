@@ -63,7 +63,6 @@ update_notes: '<p>This is the inital release of Bugdom 3DS!</p>
 updated: '2025-01-25T19:10:05Z'
 version: v1.0.0
 version_title: Initial Release
-website: https://pangeasoft.net/bug
 ---
 This is a port of Pangea Software’s 3D adventure game **Bugdom** to the Nintendo 3DS, based off Jorio's amazing port.
 

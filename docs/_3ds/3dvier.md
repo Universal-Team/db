@@ -105,6 +105,5 @@ update_notes: '<h2 dir="auto">Now it''s time for <a href="https://github.com/Uni
 updated: '2020-05-17T17:30:53Z'
 version: v0.1.0
 version_title: 3DVier's initial Release!
-website: https://universal-team.net/projects/3dvier
 wiki: https://github.com/Universal-Team/3DVier/wiki
 ---

@@ -1,6 +1,6 @@
 ---
 author: NetPass
-avatar: https://gitlab.com/uploads/-/system/project/avatar/56839786/icon.png
+avatar: https://gitlab.com//uploads/-/system/group/avatar/87104415/icon.png
 categories:
 - utility
 color: '#87d6c8'
@@ -22,9 +22,9 @@ icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image_length: 2983
 layout: app
-license: gpl-3.0
+license: gpl-3.0+
 license_name: GNU General Public License v3.0 or later
-llm_generation: unknown
+llm_generation: 'no'
 qr:
   netpass.cia: https://db.universal-team.net/assets/images/qr/netpass-cia.png
 source: https://gitlab.com/3ds-netpass/netpass
@@ -34,9 +34,19 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: " - Fix error popup (Thanks @blaadeeee)\n - Add scam warning\n - Add\
-  \ important popup about backing up nid_pwd\n - Add time setter for if your system\
-  \ time is off"
+update_notes: '<ul>
+
+  <li>Fix error popup (Thanks @blaadeeee)</li>
+
+  <li>Add scam warning</li>
+
+  <li>Add important popup about backing up nid_pwd</li>
+
+  <li>Add time setter for if your system time is off</li>
+
+  </ul>
+
+  '
 updated: '2026-04-18T14:14:25.315Z'
 version: v2.0.2
 version_title: v2.0.2

@@ -70,5 +70,4 @@ update_notes: '<ul dir="auto">
 updated: '2018-02-02T21:52:20Z'
 version: '1.4'
 version_title: screenshot merge 1.4
-website: https://gbatemp.net/threads/405412/
 ---

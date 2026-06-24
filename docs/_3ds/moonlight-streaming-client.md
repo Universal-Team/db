@@ -56,6 +56,5 @@ update_notes: '<h2 dir="auto">Changelog</h2>
 updated: '2026-03-18T15:38:29Z'
 version: v3.0.1
 version_title: Moonlight 3DS v3.0.1
-website: https://github.com/moonlight-stream/moonlight-embedded/wiki
 ---
 Moonlight is an open source client for Sunshine and NVIDIA GameStream for the New Nintendo 3DS, forked from Moonlight Embedded. Moonlight allows you to stream your full collection of games and applications from your PC to other devices to play them remotely.

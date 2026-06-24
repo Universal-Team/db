@@ -91,11 +91,3 @@ version_title: open_agb_firm beta build 2024-12-24
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>open_agb_firm.firm</summary>
-<ol>
-<li>Download <code>open_agb_firm_beta_20241224.7z</code></li>
-<li>Extract <code>/open_agb_firm.firm</code> from the 7z to <code>/luma/payloads/open_agb_firm.firm</code> on your SD card</li>
-<li>Extract <code>/3ds</code> from the 7z to <code>/3ds</code> on your SD card</li>
-</ol>
-</details>
-

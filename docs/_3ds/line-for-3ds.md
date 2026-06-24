@@ -133,7 +133,6 @@ update_notes: '<p dir="auto"><strong>Just fixed deadlink in SETUP.md and no soft
 updated: '2024-01-30T13:44:30Z'
 version: v2.0.0.1
 version_title: Line for 3DS v2.0.0.1
-website: https://gbatemp.net/threads/release-guide-line-for-3d.539530/
 ---
 You can use line on your 3DS!
 * You need to set up your account

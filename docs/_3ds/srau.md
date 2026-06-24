@@ -106,7 +106,6 @@ update_notes: '<p dir="auto">This release mostly adds in a lot of missing error 
 updated: '2018-04-13T20:16:16Z'
 version: v1.1
 version_title: Release v1.1
-website: https://discord.gg/Q6jmQcV
 ---
 ### Installation instructions
 

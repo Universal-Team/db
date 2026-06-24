@@ -49,7 +49,6 @@ update_notes: <p dir="auto">This makes Universal-Updater download the latest sta
 updated: '2020-07-20T15:23:43Z'
 version: v4.0.1
 version_title: 'v4.0.1: replace Bruh edition'
-website: https://universal-team.net/projects/relaunch
 wiki: https://github.com/Universal-Team/Relaunch/wiki
 ---
 ### Installation instructions

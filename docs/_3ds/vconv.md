@@ -119,6 +119,5 @@ update_notes: '<p dir="auto">添加附加按钮<br>
   </ul>'
 updated: '2025-07-13T01:44:31Z'
 version: Build-10
-website: https://www.bilibili.com/video/BV18qoXYmER1
 ---
 3DS Virtual Controller for ViGEm

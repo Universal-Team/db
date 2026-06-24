@@ -77,6 +77,5 @@ update_notes: '<h1 align="center" dir="auto">Bandolero 3DS <g-emoji class="g-emo
 updated: '2025-05-18T15:34:19Z'
 version: 1.5RU
 version_title: Bandolero 3Ds v1.5 - RED UPDATE
-website: https://github.com/Tristanabs/bandolero3ds
 ---
 Bandolero 3DS is a text editor application for the Nintendo 3DS, developed by Tristanabs. Based on Notepad 3DS, it currently allows users to view text files and plans to introduce enhancements over the original Notepad 3DS in the future. Installation is straightforward: simply install the provided .cia file. For support, users can visit the Homebrew Central server. The project is open-source and licensed under the MIT License.
