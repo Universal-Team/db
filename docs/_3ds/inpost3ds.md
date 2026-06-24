@@ -10,13 +10,13 @@ description: Klient InPost na Nintendo 3DS
 download_page: https://github.com/TehFridge/InPost3DS/releases
 downloads:
   InPost3DS.3dsx:
-    size: 24398388
+    size: 24398960
     size_str: 23 MiB
-    url: https://github.com/TehFridge/InPost3DS/releases/download/v1.0.4/InPost3DS.3dsx
+    url: https://github.com/TehFridge/InPost3DS/releases/download/v1.0.5/InPost3DS.3dsx
   InPost3DS.cia:
     size: 24753088
     size_str: 23 MiB
-    url: https://github.com/TehFridge/InPost3DS/releases/download/v1.0.4/InPost3DS.cia
+    url: https://github.com/TehFridge/InPost3DS/releases/download/v1.0.5/InPost3DS.cia
 github: TehFridge/InPost3DS
 icon: https://raw.githubusercontent.com/TehFridge/InPost3DS/refs/heads/main/meta/icon.png
 image: https://raw.githubusercontent.com/TehFridge/InPost3DS/refs/heads/main/gfx/logo_inpost.png
@@ -36,17 +36,9 @@ unique_ids:
 - '0x39057'
 update_notes: '<h2 dir="auto">Zmiany:</h2>
 
-  <h3 dir="auto">fixy by <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/ameoverflow/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/ameoverflow">@ameoverflow</a>
-  - <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4229309874"
-  data-permission-text="Title is private" data-url="https://github.com/TehFridge/InPost3DS/issues/4"
-  data-hovercard-type="pull_request" data-hovercard-url="/TehFridge/InPost3DS/pull/4/hovercard"
-  href="https://github.com/TehFridge/InPost3DS/pull/4">#4</a>, <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="4229195616" data-permission-text="Title
-  is private" data-url="https://github.com/TehFridge/InPost3DS/issues/3" data-hovercard-type="pull_request"
-  data-hovercard-url="/TehFridge/InPost3DS/pull/3/hovercard" href="https://github.com/TehFridge/InPost3DS/pull/3">#3</a></h3>'
-updated: '2026-06-08T15:57:27Z'
-version: v1.0.4
-version_title: InPost3DS 1.0.4
+  <h3 dir="auto">Offline Mode (można odebrać paczke, po zassaniu odpowiednio danych
+  jak będzie już dostępna QR''ka)</h3>'
+updated: '2026-06-24T21:47:33Z'
+version: v1.0.5
+version_title: InPost3DS 1.0.5
 ---
