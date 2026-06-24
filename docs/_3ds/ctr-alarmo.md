@@ -1,23 +1,27 @@
 ---
-author: Felix Homebrew
-avatar: https://avatars.githubusercontent.com/u/120497980?v=4
+author: FelixHomebrew
+avatar: https://codeberg.org/avatars/5170b04eae5f1359e4ce236a7e59b002c0811db790bd51c8f44b2c5ed5c6f15d
 categories:
 - app
-created: '2025-09-28T23:41:46Z'
+color: '#401313'
+color_bg: '#401313'
+created: '2026-03-26T14:19:17Z'
 description: A silly alarm clock app for the Nintendo 3DS
-download_page: https://github.com/FelixHomebrew/CtrAlarmo/releases
+download_page: https://codeberg.org/FelixHomebrew/CtrAlarmo/releases
 downloads:
   CtrAlarmo.3dsx:
     size: 1263176
     size_str: 1 MiB
-    url: https://github.com/FelixHomebrew/CtrAlarmo/releases/download/1.1.0/CtrAlarmo.3dsx
+    url: https://codeberg.org/FelixHomebrew/CtrAlarmo/releases/download/1.1.0/CtrAlarmo.3dsx
   CtrAlarmo.cia:
     size: 1307584
     size_str: 1 MiB
-    url: https://github.com/FelixHomebrew/CtrAlarmo/releases/download/1.1.0/CtrAlarmo.cia
-github: FelixHomebrew/CtrAlarmo
-icon: https://raw.githubusercontent.com/FelixHomebrew/CtrAlarmo/refs/heads/main/exefs/icon_48.png
-image: https://raw.githubusercontent.com/FelixHomebrew/CtrAlarmo/refs/heads/main/exefs/banner.png
+    url: https://codeberg.org/FelixHomebrew/CtrAlarmo/releases/download/1.1.0/CtrAlarmo.cia
+forgejo: FelixHomebrew/CtrAlarmo
+forgejo_host: codeberg.org
+icon: https://codeberg.org/FelixHomebrew/CtrAlarmo/raw/branch/main/exefs/icon_48.png
+image: https://codeberg.org/FelixHomebrew/CtrAlarmo/raw/branch/main/exefs/banner.png
+image_length: 6751
 layout: app
 llm_generation: unknown
 qr:
@@ -25,16 +29,18 @@ qr:
 screenshots:
 - description: Main
   url: https://db.universal-team.net/assets/images/screenshots/ctr-alarmo/main.png
-source: https://github.com/FelixHomebrew/CtrAlarmo
+source: https://codeberg.org/FelixHomebrew/CtrAlarmo
 stars: 2
 systems:
 - 3DS
 title: CTR Alarmo
 unique_ids:
 - '0xC4A1A'
-update_notes: '<h2 dir="auto">What''s new?</h2>
+update_notes: '<div class="markdown-heading"><h2 class="heading-element">What''s new?</h2><a
+  id="user-content-whats-new" class="anchor" aria-label="Permalink: What''s new?"
+  href="#whats-new"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
 
-  <ul dir="auto">
+  <ul>
 
   <li>Now disables forced JACK redirection in app, allowing beep alarm to be played
   while sleep mode</li>
@@ -43,25 +49,31 @@ update_notes: '<h2 dir="auto">What''s new?</h2>
 
   </ul>
 
-  <h2 dir="auto">Changes</h2>
+  <div class="markdown-heading"><h2 class="heading-element">Changes</h2><a id="user-content-changes"
+  class="anchor" aria-label="Permalink: Changes" href="#changes"><span aria-hidden="true"
+  class="octicon octicon-link"></span></a></div>
 
-  <ul dir="auto">
+  <ul>
 
   <li>Disabled HOME menu button, read comment at <a href="https://github.com/FelixHomebrew/CtrAlarmo/blob/1.1.0/source/main.c#L39">main.c:39</a>
   to know more</li>
 
   </ul>
 
-  <h2 dir="auto">Fixes</h2>
+  <div class="markdown-heading"><h2 class="heading-element">Fixes</h2><a id="user-content-fixes"
+  class="anchor" aria-label="Permalink: Fixes" href="#fixes"><span aria-hidden="true"
+  class="octicon octicon-link"></span></a></div>
 
-  <ul dir="auto">
+  <ul>
 
   <li>Exception occured sometimes on alarm shut with Power/Wireless LEDs blink enabled</li>
 
   <li>Exception occured often on shut beep melody, due to a misuse of waveBuf</li>
 
-  </ul>'
-updated: '2026-02-17T03:16:07Z'
+  </ul>
+
+  '
+updated: '2026-02-17T03:08:44Z'
 version: 1.1.0
 version_title: v 1.1.0
 website: https://db.universal-team.net/3ds/ctr-alarmo
