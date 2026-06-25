@@ -27,7 +27,7 @@ screenshots:
 - description: Canvas
   url: https://db.universal-team.net/assets/images/screenshots/collab-doodle/canvas.png
 source: https://github.com/ArmstrongThomas/Doodle
-stars: 6
+stars: 7
 systems:
 - 3DS
 title: Collab Doodle

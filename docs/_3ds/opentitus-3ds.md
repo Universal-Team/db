@@ -69,16 +69,6 @@ You will need the original game files in `sdmc:/3ds/OpenTitus/moktar` for the mo
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>[moktar] OpenTitus.3dsx</summary>
-<ol>
-<li>Are you on a New 3DS/2DS? If not, skip to step 4</li>
-<li>Download <code>OpenTitus_MOKTAR_3DSX_23-12-2018.7z</code></li>
-<li>skip to step 5</li>
-<li>Download <code>OpenTitus_MOKTAR*.7z</code></li>
-<li>Extract <code>/OpenTitus</code> from the 7z to <code>/3ds/OpenTitus</code> on your SD card</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>[moktar] OpenTitus.cia</summary>
 <ol>
 <li>Are you on a New 3DS/2DS? If not, skip to step 4</li>
@@ -91,12 +81,12 @@ You will need the original game files in `sdmc:/3ds/OpenTitus/moktar` for the mo
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[titus] OpenTitus.3dsx</summary>
+<details class="alert alert-secondary"><summary>[moktar] OpenTitus.3dsx</summary>
 <ol>
 <li>Are you on a New 3DS/2DS? If not, skip to step 4</li>
-<li>Download <code>OpenTitus_TITUS_3DSX_23-12-2018.7z</code></li>
+<li>Download <code>OpenTitus_MOKTAR_3DSX_23-12-2018.7z</code></li>
 <li>skip to step 5</li>
-<li>Download <code>OpenTitus_TITUS*.7z</code></li>
+<li>Download <code>OpenTitus_MOKTAR*.7z</code></li>
 <li>Extract <code>/OpenTitus</code> from the 7z to <code>/3ds/OpenTitus</code> on your SD card</li>
 </ol>
 </details>
@@ -110,6 +100,16 @@ You will need the original game files in `sdmc:/3ds/OpenTitus/moktar` for the mo
 <li>Extract <code>/OpenTitus</code> from the 7z to <code>/3ds/OpenTitus</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/3ds/OpenTitus/OpenTitus.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[titus] OpenTitus.3dsx</summary>
+<ol>
+<li>Are you on a New 3DS/2DS? If not, skip to step 4</li>
+<li>Download <code>OpenTitus_TITUS_3DSX_23-12-2018.7z</code></li>
+<li>skip to step 5</li>
+<li>Download <code>OpenTitus_TITUS*.7z</code></li>
+<li>Extract <code>/OpenTitus</code> from the 7z to <code>/3ds/OpenTitus</code> on your SD card</li>
 </ol>
 </details>
 
