@@ -1,0 +1,55 @@
+{
+	"github": "biometrix76/Gen6CTRPluginFramework",
+	"author": "biometrix76",
+	"title": "Gen 6 CTRPluginFramework",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"save-tool"
+	],
+	"description": "3gx plugin for Pokemon X/Y and Omega Ruby/Alpha Sapphire.",
+	"installed_files": [
+		"/luma/plugins/0004000000055D00/Gen6CTRPluginFramework.3gx",
+		"/luma/plugins/0004000000055E00/Gen6CTRPluginFramework.3gx",
+		"/luma/plugins/000400000011C400/Gen6CTRPluginFramework.3gx",
+		"/luma/plugins/000400000011C500/Gen6CTRPluginFramework.3gx"
+	],
+	"scripts": {
+		"Plugin": [
+			{
+				"type": "downloadRelease",
+				"repo": "biometrix76/Gen6CTRPluginFramework",
+				"file": "luma.zip",
+				"output": "/Gen6CTRPluginFramework-luma.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Gen6CTRPluginFramework-luma.zip",
+				"input": "^luma",
+				"output": "/luma"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/Gen6CTRPluginFramework-luma.zip"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "biometrix76/Gen6CTRPluginFramework",
+				"file": "Language.zip",
+				"output": "/Gen6CTRPluginFramework-Language.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Gen6CTRPluginFramework-Language.zip",
+				"input": "^Language",
+				"output": "/Gen6CTRPluginFramework/Language"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/Gen6CTRPluginFramework-Language.zip"
+			}
+		]
+	}
+}
