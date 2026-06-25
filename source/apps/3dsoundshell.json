@@ -1,0 +1,6 @@
+{
+  "github": "Adritrain09/3DSoundShell",
+  "systems": ["3DS"],
+  "categories": ["Multimedia"],
+  "description": "Un lecteur de musique pour 3DS avec égaliseur visuel, gestion de playlist et modification de la vitesse."
+}
