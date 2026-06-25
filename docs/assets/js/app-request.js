@@ -71,7 +71,7 @@ let appSchema = {
 	license_name: {label: "License Name", help: "If this autofilled please do not change it, this exists for Forgejo.\n\nThe long form of the license name, ideally matching the GitHub API.\n\nEx: 'GNU General Public License v3.0', 'MIT License', 'Creative Commons Zero v1.0 Universal'.", type: "string"},
 	download_filter: {label: "Download Filter (regex)", help: "File whitelist in case your app has files not caught by the blacklist. Most common of cross-platform apps.", type: "string"},
 	// Rare
-	autogen_scripts: {label: "Auto-generate Scripts", type: "bool", default: true},
+	autogen_scripts: {label: "Auto-generate Scripts", type: "bool", savedDefault: true},
 	script_message: {label: "Pre-install message", help: "The confirmation message to display in Universal-Updater before installing. Leave blank for most apps.", type: "string"},
 };
 
@@ -238,7 +238,7 @@ async function fetchInfo() {
 
 	hasExported = false;
 	for(let item in appSchema)
-		appSchema[item].default = null;
+		appSchema[item].default = appSchema[item].savedDefault;
 
 	if(git.provider != "none") {
 		if(!git.repo)
@@ -358,7 +358,7 @@ function createInput(item, key) {
 			input.type = isRadio ? "radio" : "checkbox";
 			input.required = item.required;
 
-			if(item.default == option && !item.disableAutofill) {
+			if(item.default == option) {
 				input.checked = true;
 			}
 
@@ -401,7 +401,7 @@ function fillInfo() {
 	for(let key in appSchema) {
 		let item = appSchema[key];
 
-		appInfo[key] = (item.default && !item.disableAutofill) ? item.default : defaults[item.type];
+		appInfo[key] = item.default ? item.default : defaults[item.type];
 		if(typeof appInfo[key] == "function")
 			appInfo[key] = appInfo[key]();
 
@@ -430,7 +430,7 @@ function fillInfo() {
 
 		createInput(item, key).forEach(r => inputGroup.appendChild(r));
 
-		if (appSchema[key].default && !appSchema[key].disableAutofill) {
+		if (appSchema[key].default) {
 			let reset = document.createElement("input");
 			reset.classList.add("btn", "btn-outline-secondary");
 			reset.type = "button";
