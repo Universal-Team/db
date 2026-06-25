@@ -39,7 +39,7 @@ let appSchema = {
 	avatar: {label: "Author's Avatar", type: "image"},
 	// Required
 	systems: {label: "Native Systems", type: "multiselect", required: true, values: ["3DS", "DS"], labels: ["3DS", "DS"]},
-	categories: {label: "Categories", type: "multiselect", required: true, values: ["game", "emulator", "exploit", "app", "utility", "save-tool", "firm"], labels: ["Game", "Emulator", "Exploit", "App", "Utility", "Save Tool", "FIRM"]},
+	categories: {label: "Categories", type: "multiselect", required: true, values: ["game", "emulator", "app", "utility", "plugin", "firm", "exploit", "media", "save-tool"], labels: ["Game", "Emulator", "App", "Utility", "Plugin", "FIRM", "Exploit", "Multimedia", "Save Tool"]},
 	llm_generation: {label: "LLM Generated Content", type: "radio", required: true, values: ["yes", "minor", "no"], labels: ["Yes", "Minor (see guidelines!)", "No"], help: "If you have directly included the output of an LLM in any form in your work, then this should be 'yes'. This includes code, art, music, documentation, etc.\n\nIf you would like to self declare 'minor' LLM genertion, please make sure to check see the definition in the contribution guidelines linked above.\n\nLLM assistance (code analysis and review, debugging, etc) does not necessarily count as LLM generated content as long as the output is not directly incorporated into the work."},
 	icon: {label: "Icon", help: "Preferably 48x48 or 32x32. The icon is not technically necessary, avatar will be used as a fallback, but I didn't want people to skip it. Copy the avatar URL if you don't have an icon.", type: "image", required: true},
 	image: {label: "Banner Image", help: "Preferably a 3DS banner (256x128). Displayed on the Universal-DB website.", type: "image"},
