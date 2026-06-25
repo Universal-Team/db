@@ -10,12 +10,6 @@
 		"save-tool"
 	],
 	"description": "3gx plugin for Pokemon X/Y and Omega Ruby/Alpha Sapphire.",
-	"unique_ids": [
-		351488,
-		351744,
-		1164288,
-		1164544
-	],
 	"installed_files": [
 		"/luma/plugins/0004000000055D00/Gen6CTRPluginFramework.3gx",
 		"/luma/plugins/0004000000055E00/Gen6CTRPluginFramework.3gx",
