@@ -3,6 +3,7 @@ author: CTGP-7 Team
 avatar: https://avatars.githubusercontent.com/u/46403089?s=200&v=4
 categories:
 - game
+- plugin
 color: '#654547'
 color_bg: '#654547'
 created: '2015-01-01T00:00:00Z'

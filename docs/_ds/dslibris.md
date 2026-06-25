@@ -2,7 +2,8 @@
 author: Ray Haleblian
 avatar: https://avatars.githubusercontent.com/u/94912?v=4
 categories:
-- utility
+- app
+- media
 color: '#dedede'
 color_bg: '#808080'
 created: '2017-11-11T17:53:30Z'

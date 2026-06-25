@@ -3,6 +3,7 @@ author: NPI-D7
 avatar: https://avatars.githubusercontent.com/u/71648010?v=4
 categories:
 - app
+- media
 color: '#a1a0c9'
 color_bg: '#666580'
 created: '2021-02-04T09:53:45Z'

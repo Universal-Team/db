@@ -2,7 +2,7 @@
 author: Pretendo Network
 avatar: https://avatars.githubusercontent.com/u/36684034?v=4
 categories:
-- utility
+- plugin
 color: '#5e586c'
 color_bg: '#5e586c'
 created: '2022-02-16T15:25:17Z'

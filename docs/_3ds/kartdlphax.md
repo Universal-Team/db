@@ -2,7 +2,7 @@
 author: PabloMK7
 avatar: https://avatars.githubusercontent.com/u/10946643?v=4
 categories:
-- utility
+- plugin
 - exploit
 color: '#6a5452'
 color_bg: '#6a5452'

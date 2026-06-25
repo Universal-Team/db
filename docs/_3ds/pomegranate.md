@@ -3,6 +3,7 @@ author: sheepy
 avatar: https://avatars.githubusercontent.com/u/73724119?v=4
 categories:
 - app
+- media
 color: '#8a7585'
 color_bg: '#806c7b'
 created: '2025-07-30T12:35:13Z'

@@ -51,7 +51,7 @@ screenshots:
 - description: Reading
   url: https://db.universal-team.net/assets/images/screenshots/3dslibris/reading.png
 source: https://github.com/RigleGit/3dslibris
-stars: 134
+stars: 135
 systems:
 - 3DS
 title: 3dslibris

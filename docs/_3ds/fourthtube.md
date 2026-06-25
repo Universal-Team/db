@@ -3,6 +3,7 @@ author: Erie Valley Software
 avatar: https://avatars.githubusercontent.com/u/65189871?v=4
 categories:
 - app
+- media
 color: '#46664c'
 color_bg: '#46664c'
 created: '2024-09-09T04:18:00Z'

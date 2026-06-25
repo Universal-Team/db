@@ -2,8 +2,7 @@
 author: biometrix76
 avatar: https://avatars.githubusercontent.com/u/177698350?v=4
 categories:
-- utility
-- save-tool
+- plugin
 color: '#d6cde9'
 color_bg: '#757080'
 created: '2024-12-24T22:58:29Z'

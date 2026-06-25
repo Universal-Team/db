@@ -3,6 +3,7 @@ author: mockmodular
 avatar: https://avatars.githubusercontent.com/u/85780766?v=4
 categories:
 - app
+- media
 color: '#425254'
 color_bg: '#425254'
 created: '2026-04-08T13:03:39Z'

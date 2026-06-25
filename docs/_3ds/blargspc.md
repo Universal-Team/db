@@ -3,6 +3,7 @@ author: DiscostewSM
 avatar: https://avatars.githubusercontent.com/u/10163038?v=4
 categories:
 - app
+- media
 color: '#463c35'
 color_bg: '#463c35'
 created: '2016-02-25T20:40:34Z'

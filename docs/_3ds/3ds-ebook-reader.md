@@ -2,7 +2,8 @@
 author: reworks
 avatar: https://avatars.githubusercontent.com/u/8564184?v=4
 categories:
-- utility
+- app
+- media
 color: '#905933'
 color_bg: '#804f2d'
 created: '2016-05-02T12:42:03Z'

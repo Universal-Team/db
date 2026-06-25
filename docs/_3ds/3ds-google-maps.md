@@ -2,7 +2,7 @@
 author: Oldhimaster1
 avatar: https://avatars.githubusercontent.com/u/179153474?v=4
 categories:
-- utility
+- app
 color: '#5a635b'
 color_bg: '#5a635b'
 created: '2026-04-03T20:43:47Z'

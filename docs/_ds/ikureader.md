@@ -2,7 +2,8 @@
 author: Vladimir Kosickij
 avatar: https://avatars.githubusercontent.com/u/45891293?v=4
 categories:
-- utility
+- app
+- media
 color: '#a79a7f'
 color_bg: '#807661'
 created: '2023-08-18T10:01:13Z'
