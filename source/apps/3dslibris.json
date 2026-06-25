@@ -5,7 +5,8 @@
 		"3DS"
 	],
 	"categories": [
-		"app"
+		"app",
+		"media"
 	],
 	"llm_generation": "yes",
 	"unique_ids": [251163],

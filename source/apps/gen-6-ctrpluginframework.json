@@ -6,8 +6,7 @@
 		"3DS"
 	],
 	"categories": [
-		"utility",
-		"save-tool"
+		"plugin"
 	],
 	"description": "3gx plugin for Pokemon X/Y and Omega Ruby/Alpha Sapphire.",
 	"installed_files": [

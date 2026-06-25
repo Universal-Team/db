@@ -6,8 +6,8 @@
 	"github": "sheepy0125/pomegranate",
 	"website": "https://git.sr.ht/~sheepy/pomegranate",
 	"systems": ["3DS"],
-	"categories": ["app"],
+	"categories": ["app", "media"],
 	"unique_ids": [780970],
 	"image": "https://raw.githubusercontent.com/sheepy0125/pomegranate/main/app/banner.png",
 	"icon": "https://raw.githubusercontent.com/sheepy0125/pomegranate/main/app/icon.png"
-} 
+}

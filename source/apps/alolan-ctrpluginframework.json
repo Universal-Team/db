@@ -6,8 +6,7 @@
 		"3DS"
 	],
 	"categories": [
-		"utility",
-		"save-tool"
+		"plugin"
 	],
 	"description": "3gx plugin for Pokemon Sun/Moon and Ultra Sun/Ultra Moon.",
 	"installed_files": [
