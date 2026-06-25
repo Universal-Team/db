@@ -10,12 +10,6 @@
 		"save-tool"
 	],
 	"description": "3gx plugin for Pokemon Sun/Moon and Ultra Sun/Ultra Moon.",
-	"unique_ids": [
-		1460224,
-		1531392,
-		1789952,
-		1790208
-	],
 	"installed_files": [
 		"/luma/plugins/0004000000164800/AlolanCTRPluginFramework.3gx",
 		"/luma/plugins/0004000000175E00/AlolanCTRPluginFramework.3gx",
