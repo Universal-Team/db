@@ -3,6 +3,7 @@ author: Rigle
 avatar: https://avatars.githubusercontent.com/u/8595185?v=4
 categories:
 - app
+- media
 color: '#bfa387'
 color_bg: '#806d5a'
 created: '2026-03-12T11:06:40Z'

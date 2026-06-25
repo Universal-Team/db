@@ -3,6 +3,7 @@ author: 8 Bit Studio
 avatar: https://avatars.githubusercontent.com/u/256004323?v=4
 categories:
 - app
+- media
 color: '#2e3746'
 color_bg: '#2e3746'
 created: '2026-03-03T02:38:59Z'
