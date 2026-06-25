@@ -13,10 +13,10 @@
 				"key": "3"
 			},
 			{
-				"title": "Apps",
-				"page_title": "3DS - Applications",
-				"url": "/3ds/category/app",
-				"i18n": "cat-app"
+				"title": "Games",
+				"page_title":"3DS - Games",
+				"url": "/3ds/category/game",
+				"i18n": "cat-game"
 			},
 			{
 				"title": "Emulators",
@@ -25,10 +25,22 @@
 				"i18n": "cat-emulator"
 			},
 			{
-				"title": "Exploits",
-				"page_title": "3DS - Exploits",
-				"url": "/3ds/category/exploit",
-				"i18n": "cat-exploit"
+				"title": "Apps",
+				"page_title": "3DS - Applications",
+				"url": "/3ds/category/app",
+				"i18n": "cat-app"
+			},
+			{
+				"title": "Utilities",
+				"page_title":"3DS - Utilities",
+				"url": "/3ds/category/utility",
+				"i18n": "cat-utility"
+			},
+			{
+				"title": "Plugins",
+				"page_title": "3DS - Plugins",
+				"url": "/3ds/category/plugin",
+				"i18n": "cat-plugin"
 			},
 			{
 				"title": "FIRMs",
@@ -37,28 +49,22 @@
 				"i18n": "cat-firm"
 			},
 			{
-				"title": "Games",
-				"page_title":"3DS - Games",
-				"url": "/3ds/category/game",
-				"i18n": "cat-game"
+				"title": "Exploits",
+				"page_title": "3DS - Exploits",
+				"url": "/3ds/category/exploit",
+				"i18n": "cat-exploit"
+			},
+			{
+				"title": "Multimedia",
+				"page_title": "3DS - Multimedia",
+				"url": "/3ds/category/media",
+				"i18n": "cat-media"
 			},
 			{
 				"title": "Save Tools",
 				"page_title":"3DS - Save Tools",
 				"url": "/3ds/category/save-tool",
 				"i18n": "cat-save-tool"
-			},
-			{
-				"title": "Translations",
-				"page_title":"3DS - Translations",
-				"url": "/3ds/category/translation",
-				"i18n": "cat-translation"
-			},
-			{
-				"title": "Utilities",
-				"page_title":"3DS - Utilities",
-				"url": "/3ds/category/utility",
-				"i18n": "cat-utility"
 			}
 		]
 	},
@@ -67,15 +73,15 @@
 		"items": [
 			{
 				"title": "All",
-				"page_title": "DS",
-				"url": "/ds",
-				"key": "d"
+				"page_title": "3DS",
+				"url": "/3ds",
+				"key": "3"
 			},
 			{
-				"title": "Apps",
-				"page_title": "DS - Applications",
-				"url": "/ds/category/app",
-				"i18n": "cat-app"
+				"title": "Games",
+				"page_title":"DS - Games",
+				"url": "/ds/category/game",
+				"i18n": "cat-game"
 			},
 			{
 				"title": "Emulators",
@@ -84,34 +90,28 @@
 				"i18n": "cat-emulator"
 			},
 			{
-				"title": "Extras",
-				"page_title": "DS - Extras",
-				"url": "/ds/category/extra",
-				"i18n": "cat-extra"
-			},
-			{
-				"title": "Games",
-				"page_title": "DS - Games",
-				"url": "/ds/category/game",
-				"i18n": "cat-game"
-			},
-			{
-				"title": "Save Tools",
-				"page_title": "DS - Save Tools",
-				"url": "/ds/category/save-tool",
-				"i18n": "cat-save-tool"
-			},
-			{
-				"title": "Translations",
-				"page_title":"DS - Translations",
-				"url": "/ds/category/translation",
-				"i18n": "cat-translation"
+				"title": "Apps",
+				"page_title": "DS - Applications",
+				"url": "/ds/category/app",
+				"i18n": "cat-app"
 			},
 			{
 				"title": "Utilities",
-				"page_title": "DS - Utilities",
+				"page_title":"DS - Utilities",
 				"url": "/ds/category/utility",
 				"i18n": "cat-utility"
+			},
+			{
+				"title": "Multimedia",
+				"page_title": "DS - Multimedia",
+				"url": "/ds/category/media",
+				"i18n": "cat-media"
+			},
+			{
+				"title": "Save Tools",
+				"page_title":"DS - Save Tools",
+				"url": "/ds/category/save-tool",
+				"i18n": "cat-save-tool"
 			}
 		]
 	},
