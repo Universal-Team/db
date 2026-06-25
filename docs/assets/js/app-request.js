@@ -3,6 +3,8 @@ const GITHUB_API = "api.github.com";
 const GITLAB_BASE = "gitlab.com";
 const CODEBERG_BASE = "codeberg.org";
 
+let hasExported = false;
+
 let git = {
 	provider: null,
 	repo: null,
@@ -234,6 +236,7 @@ async function fetchApi(url, mappings) {
 async function fetchInfo() {
 	clearError();
 
+	hasExported = false;
 	for(let item in appSchema)
 		appSchema[item].default = null;
 
@@ -467,11 +470,20 @@ function fillInfo() {
 	submit.classList.add("btn", "btn-secondary", "ms-2");
 	submit.innerText = "Submit";
 	submit.href = ISSUE_URL + encodeURIComponent(appInfo.title);
+	submit.addEventListener("click", event => {
+		if(!hasExported) {
+			event.preventDefault();
+			error("You must export before submitting.");
+		}
+	});
+
 	div.appendChild(submit);
 }
 
 async function exportJson() {
 	clearError();
+
+	hasExported = true;
 
 	let clone = typeof structuredClone !== "undefined" ? structuredClone : obj => JSON.parse(JSON.stringify(obj));
 	let appExport = clone(appInfo);
