@@ -29,7 +29,7 @@ screenshots:
 - description: Quick menu
   url: https://db.universal-team.net/assets/images/screenshots/limeplayer3ds/quick-menu.png
 source: https://github.com/oreo639/LimePlayer3DS
-stars: 51
+stars: 52
 systems:
 - 3DS
 title: LimePlayer3DS

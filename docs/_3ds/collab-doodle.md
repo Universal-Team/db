@@ -12,9 +12,9 @@ description: Collab Doodle is a simple drawing application designed for the Nint
 download_page: https://github.com/ArmstrongThomas/Doodle/releases
 downloads:
   CollabDoodle-update.3dsx:
-    size: 283188
-    size_str: 276 KiB
-    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.1.1/CollabDoodle-update.3dsx
+    size: 300264
+    size_str: 293 KiB
+    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.2.0/CollabDoodle-update.3dsx
 github: ArmstrongThomas/Doodle
 icon: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
@@ -31,46 +31,29 @@ stars: 6
 systems:
 - 3DS
 title: Collab Doodle
-update_notes: '<p dir="auto">Implemented zoom functionality!</p>
+update_notes: '<h1 dir="auto">Collab Doodle v1.2.0</h1>
 
-  <p dir="auto">Zoom levels: 0.5x, 1x, 2x, and 4x.</p>
+  <p dir="auto">This release is a big usability and moderation pass for the 3DS client.</p>
 
-  <h2 dir="auto">Controls</h2>
+  <p dir="auto">Highlights:</p>
 
   <ul dir="auto">
 
-  <li>Touch bottom screen: Draw.</li>
+  <li>New bottom-screen tool palette with Color and Mod tabs.</li>
 
-  <li>Hold LEFT D-Pad or A + drag stylus: Pan viewport.</li>
+  <li>Color-square picker with hue strip.</li>
 
-  <li>Hold RIGHT D-Pad: Show zoom buttons on the right side of the bottom screen.</li>
+  <li>Circle, box, and dither brush modes.</li>
 
-  <li>Hold Y: Show zoom buttons on the left side of the bottom screen.</li>
+  <li>Cleaner mod/admin tools, including snapshot, clear canvas, and selection-style
+  fill rectangle.</li>
 
-  <li>Hold RIGHT D-Pad or Y + tap <code class="notranslate">+</code>: Zoom in.</li>
+  <li>Persistent 3DS identity with display names, backup codes, and account recovery.</li>
 
-  <li>Hold RIGHT D-Pad or Y + tap <code class="notranslate">-</code>: Zoom out.</li>
-
-  <li>START: Refresh canvas from server.</li>
-
-  <li>SELECT: Exit.</li>
-
-  <li>L: Open/close channel selector.</li>
-
-  <li>D-Pad UP/DOWN while channel selector is open: Move channel selection.</li>
-
-  <li>A while channel selector is open: Switch to selected channel.</li>
-
-  <li>R: Open/close controls help on top screen.</li>
-
-  <li>B or D-Pad DOWN: Toggle color picker.</li>
-
-  <li>Hold D-Pad UP + tap canvas: Sample color.</li>
-
-  <li>X: Enter hex color.</li>
+  <li>Connected-user list and improved top-screen status/menu flow.</li>
 
   </ul>'
-updated: '2026-06-24T02:10:01Z'
-version: v1.1.1
-version_title: Zoom! V1.1.1
+updated: '2026-06-25T01:13:57Z'
+version: v1.2.0
+version_title: v1.2.0
 ---
