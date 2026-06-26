@@ -27,7 +27,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.3.0-pre
   downloads:
     TJAP_3DS.3dsx:
-      size: 10392856
+      size: 10392876
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.0-pre/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -46,6 +46,8 @@ prerelease:
 
     <a href="https://github.com/LuMariGames/TJAP_3DS/fork">Fork</a>を使用して実装の協力をしてくれた人にはゲーム内クレジットに記載をします。</li>
 
+    <li>割れない風船音符の配点処理を追加</li>
+
     </ul>
 
     <h2 dir="auto">Changelog</h2>
@@ -60,6 +62,8 @@ prerelease:
     Those who helped implement the project using <a href="https://github.com/LuMariGames/TJAP_3DS/fork">Fork</a>
     will be credited in-game.</li>
 
+    <li>Added scoring processing for unbursting balloon notes.</li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
@@ -68,6 +72,8 @@ prerelease:
     太鼓さん次郎のHBSCROLLを真似て実装する予定なのでかなりの時間と協力が必要です。
 
     [Fork](https://github.com/LuMariGames/TJAP_3DS/fork)を使用して実装の協力をしてくれた人にはゲーム内クレジットに記載をします。
+
+    - 割れない風船音符の配点処理を追加
 
 
     ## Changelog
@@ -78,7 +84,9 @@ prerelease:
     a considerable amount of time and cooperation.
 
     Those who helped implement the project using [Fork](https://github.com/LuMariGames/TJAP_3DS/fork)
-    will be credited in-game.'
+    will be credited in-game.
+
+    - Added scoring processing for unbursting balloon notes.'
   updated: '2026-06-19T23:23:10Z'
   version: v2.3.0-pre
   version_title: TJAPlayer for 3DS v2.3.0-pre
