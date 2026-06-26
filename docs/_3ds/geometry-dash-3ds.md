@@ -11,7 +11,7 @@ description: Geometry Dash for the 3DS
 download_page: https://github.com/AleFunky/gd3ds/releases
 downloads:
   GeometryDash3DS.3dsx:
-    size: 28309640
+    size: 28309648
     size_str: 26 MiB
     url: https://github.com/AleFunky/gd3ds/releases/download/v1.0.1/GeometryDash3DS.3dsx
   GeometryDash3DS.cia:
