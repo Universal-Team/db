@@ -4,8 +4,8 @@ avatar: https://avatars.githubusercontent.com/u/234481129?v=4
 categories:
 - app
 - media
-color: '#261349'
-color_bg: '#261349'
+color: '#14497f'
+color_bg: '#14497f'
 created: '2026-05-06T14:44:43Z'
 description: Un lecteur de musique pour 2/3DS avec eqaliser visuel, playlist, paramètre
   de vitesse et bien plus..
