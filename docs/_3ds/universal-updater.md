@@ -29,39 +29,24 @@ nightly:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 3003660
+      size: 3012328
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
-      size: 2479040
+      size: 2483136
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: '<p dir="auto">Pk11 - Allow manually setting a files installed and
-    clearing the update available flag</p>
-
-    <p dir="auto">The SD icon next to downloads is now always shown, using a darker
-    color if not installed When you set something as installed without installing
-    it, UU will tell you that there''s an update available since it doesn''t know
-    whether you have the latest or not This allows you to flag a bunch of apps you
-    want then add them all to the queue when you''re ready by filtering to installed
-    and hitting add all If you know you have the latest you can clear it manually
-    with the icon shown on the title bar</p>'
-  update_notes_md: 'Pk11 - Allow manually setting a files installed and clearing the
-    update available flag
-
-
-    The SD icon next to downloads is now always shown, using a darker color if not
-    installed When you set something as installed without installing it, UU will tell
-    you that there''s an update available since it doesn''t know whether you have
-    the latest or not This allows you to flag a bunch of apps you want then add them
-    all to the queue when you''re ready by filtering to installed and hitting add
-    all If you know you have the latest you can clear it manually with the icon shown
-    on the title bar'
-  updated: '2026-06-24T01:42:31Z'
+  update_notes: <p dir="auto">This is from a new branch with an experimental guided
+    tutorial. I'm not dead set on the implementation yet, currently it shows when
+    you open the app (it will show on <em>first run only</em>... once implemented)</p>
+  update_notes_md: This is from a new branch with an experimental guided tutorial.
+    I'm not dead set on the implementation yet, currently it shows when you open the
+    app (it will show on *first run only*... once implemented)
+  updated: '2026-06-27T04:13:26Z'
   version: git
-  version_title: Continuous Build - 22394b1
+  version_title: Continuous Build - 2a75fdb
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
