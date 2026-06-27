@@ -26,7 +26,7 @@ llm_generation: unknown
 qr:
   github3ds_1.0.2.cia: https://db.universal-team.net/assets/images/qr/github3ds_1-0-2-cia.png
 source: https://gitlab.com/gitbrew/GitHub3DS
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: GitHub3DS

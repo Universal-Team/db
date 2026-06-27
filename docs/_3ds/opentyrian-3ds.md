@@ -15,6 +15,7 @@ downloads:
 github: nop90/Opentyrian-3ds
 icon: https://raw.githubusercontent.com/nop90/Opentyrian-3ds/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/Opentyrian-3ds/master/resources/banner.png
+image_length: 72385
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
@@ -38,19 +39,19 @@ version_title: Bugfix
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>Opentyrian.3dsx</summary>
-<ol>
-<li>Download <code>Opentyrian_v1.1.zip</code></li>
-<li>Extract <code>/Opentyrian/Opentyrian.3dsx</code> from the zip to <code>/3ds/Opentyrian.3dsx</code> on your SD card</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>Opentyrian.cia</summary>
 <ol>
 <li>Download <code>Opentyrian_v1.1.zip</code></li>
 <li>Extract <code>/Opentyrian.cia</code> from the zip to <code>/cias/Opentyrian.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/Opentyrian.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Opentyrian.3dsx</summary>
+<ol>
+<li>Download <code>Opentyrian_v1.1.zip</code></li>
+<li>Extract <code>/Opentyrian/Opentyrian.3dsx</code> from the zip to <code>/3ds/Opentyrian.3dsx</code> on your SD card</li>
 </ol>
 </details>
 
