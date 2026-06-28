@@ -12,15 +12,21 @@ description: Collab Doodle is a simple drawing application designed for the Nint
 download_page: https://github.com/ArmstrongThomas/Doodle/releases
 downloads:
   CollabDoodle-update.3dsx:
-    size: 300264
-    size_str: 293 KiB
-    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.2.0/CollabDoodle-update.3dsx
+    size: 305312
+    size_str: 298 KiB
+    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.2.2/CollabDoodle-update.3dsx
+  CollabDoodle-update.cia:
+    size: 263104
+    size_str: 256 KiB
+    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.2.2/CollabDoodle-update.cia
 github: ArmstrongThomas/Doodle
 icon: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
 image_length: 431
 layout: app
 llm_generation: unknown
+qr:
+  CollabDoodle-update.cia: https://db.universal-team.net/assets/images/qr/collabdoodle-update-cia.png
 screenshots:
 - description: Brush select
   url: https://db.universal-team.net/assets/images/screenshots/collab-doodle/brush-select.png
@@ -31,29 +37,39 @@ stars: 8
 systems:
 - 3DS
 title: Collab Doodle
-update_notes: '<h1 dir="auto">Collab Doodle v1.2.0</h1>
+update_notes: '<h2 dir="auto">Collab Doodle v1.2.2</h2>
 
-  <p dir="auto">This release is a big usability and moderation pass for the 3DS client.</p>
+  <p dir="auto">This is a small but important update that helps Collab Doodle move
+  to a newer, better server while keeping existing users connected.</p>
 
-  <p dir="auto">Highlights:</p>
+  <h3 dir="auto">What’s New</h3>
 
   <ul dir="auto">
 
-  <li>New bottom-screen tool palette with Color and Mod tabs.</li>
+  <li>Improved update checking so the app can find new versions more reliably.</li>
 
-  <li>Color-square picker with hue strip.</li>
+  <li>Added support for updating older versions of the app during the server move.</li>
 
-  <li>Circle, box, and dither brush modes.</li>
+  <li>Improved support for both <code class="notranslate">.3dsx</code> and <code class="notranslate">.cia</code>
+  versions.</li>
 
-  <li>Cleaner mod/admin tools, including snapshot, clear canvas, and selection-style
-  fill rectangle.</li>
+  <li>Added early account/identity support so moderation and safety features can work
+  better.</li>
 
-  <li>Persistent 3DS identity with display names, backup codes, and account recovery.</li>
+  <li>General connection and compatibility improvements.</li>
 
-  <li>Connected-user list and improved top-screen status/menu flow.</li>
+  </ul>
 
-  </ul>'
-updated: '2026-06-25T01:13:57Z'
-version: v1.2.0
-version_title: v1.2.0
+  <h3 dir="auto">About Identities</h3>
+
+  <p dir="auto">Collab Doodle now creates a simple identity for your 3DS. This helps
+  the server remember who you are between launches and allows moderation tools to
+  work properly if someone misuses the shared canvas.</p>
+
+  <p dir="auto">You may also see or create a backup code. Keep this somewhere safe
+  if you want to recover your identity later, such as after changing SD cards or using
+  a different 3DS.</p>'
+updated: '2026-06-28T10:33:21Z'
+version: v1.2.2
+version_title: v1.2.2
 ---

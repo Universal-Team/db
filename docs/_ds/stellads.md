@@ -24,8 +24,8 @@ icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
 image_length: 10279
 layout: app
-license: other
-license_name: Other
+license: gpl-2.0
+license_name: GNU General Public License v2.0
 llm_generation: unknown
 qr:
   StellaDS.nds: https://db.universal-team.net/assets/images/qr/stellads-nds.png
