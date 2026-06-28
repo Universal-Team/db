@@ -11,14 +11,22 @@ description: Atari 2600 emulator for DS (original code by AlekMaul). This is the
   on the DSi. New features such as instruction manuals and high score support included!
 download_page: https://github.com/wavemotion-dave/StellaDS/releases
 downloads:
+  Copyright.txt:
+    size: 3708
+    size_str: 3 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.4a/Copyright.txt
+  LICENSE:
+    size: 17997
+    size_str: 17 KiB
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.4a/LICENSE
   README.md:
-    size: 48850
+    size: 48883
     size_str: 47 KiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.4/README.md
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.4a/README.md
   StellaDS.nds:
     size: 1699328
     size_str: 1 MiB
-    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.4/StellaDS.nds
+    url: https://github.com/wavemotion-dave/StellaDS/releases/download/8.4a/StellaDS.nds
 github: wavemotion-dave/StellaDS
 icon: https://db.universal-team.net/assets/images/icons/stellads.png
 image: https://raw.githubusercontent.com/wavemotion-dave/StellaDS/master/arm9/gfx/bgTop.png
@@ -34,7 +42,16 @@ stars: 51
 systems:
 - DS
 title: StellaDS
-update_notes: '<p dir="auto">8.4 : 27-June-2026 by wavemotion-dave</p>
+update_notes: '<p dir="auto">8.4a : 28-June-2026 by wavemotion-dave</p>
+
+  <ul dir="auto">
+
+  <li>Fix for cart detection so SB carts don''t detect as CDFJ. Fixes Rescue from
+  Poseidon''s Gate.</li>
+
+  </ul>
+
+  <p dir="auto">8.4 : 27-June-2026 by wavemotion-dave</p>
 
   <ul dir="auto">
 
@@ -56,7 +73,7 @@ update_notes: '<p dir="auto">8.4 : 27-June-2026 by wavemotion-dave</p>
   accuracy and improved speed all-around.</li>
 
   </ul>'
-updated: '2026-06-27T16:31:15Z'
-version: '8.4'
-version_title: Version 8.4
+updated: '2026-06-28T12:00:23Z'
+version: 8.4a
+version_title: Version 8.4a
 ---
