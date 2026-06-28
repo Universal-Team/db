@@ -1,0 +1,19 @@
+{
+	"github": "coderman64/netsurf-3ds",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"app"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/coderman64/netsurf-3ds/9934ab977eb9edf51324ba498b979511925d7a4d/netsurf/Logo.png",
+	"image": "https://raw.githubusercontent.com/coderman64/netsurf-3ds/refs/heads/main/netsurf/banner_image.png",
+	"unique_ids": [
+		1037311
+	],
+	"long_description": "Netsurf 3DS\nWork in progress homebrew 3DS port of the lightweight NetSurf web browser.",
+	"license": "none",
+	"script_message": "this web browser will run slow for most websites but better than the normal 3ds browser."
+}
