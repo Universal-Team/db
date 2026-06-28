@@ -6,7 +6,7 @@ categories:
 color: '#8a8a8a'
 color_bg: '#808080'
 created: '2026-05-11T18:14:46Z'
-description: A Homestuck (and in the future, other MSPA's) reader for the 3DS
+description: A Homestuck (and other MSPA's) reader for the 3DS
 download_page: https://github.com/Animalino5/MSPA-3DS/releases
 downloads:
   MSPA-3DS.3dsx:
