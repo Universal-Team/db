@@ -12,13 +12,13 @@ description: Collab Doodle is a simple drawing application designed for the Nint
 download_page: https://github.com/ArmstrongThomas/Doodle/releases
 downloads:
   CollabDoodle-update.3dsx:
-    size: 305312
-    size_str: 298 KiB
-    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.2.2/CollabDoodle-update.3dsx
+    size: 328676
+    size_str: 320 KiB
+    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.3.0/CollabDoodle-update.3dsx
   CollabDoodle-update.cia:
-    size: 263104
-    size_str: 256 KiB
-    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.2.2/CollabDoodle-update.cia
+    size: 277952
+    size_str: 271 KiB
+    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.3.0/CollabDoodle-update.cia
 github: ArmstrongThomas/Doodle
 icon: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
@@ -37,39 +37,75 @@ stars: 8
 systems:
 - 3DS
 title: Collab Doodle
-update_notes: '<h2 dir="auto">Collab Doodle v1.2.2</h2>
+update_notes: '<h2 dir="auto">Collab Doodle 1.3.0</h2>
 
-  <p dir="auto">This is a small but important update that helps Collab Doodle move
-  to a newer, better server while keeping existing users connected.</p>
+  <p dir="auto">This update adds public chat and identity features to Collab Doodle.</p>
 
-  <h3 dir="auto">What’s New</h3>
+  <h3 dir="auto">New</h3>
 
   <ul dir="auto">
 
-  <li>Improved update checking so the app can find new versions more reliably.</li>
+  <li>Public chat is now available from the in-app menu.</li>
 
-  <li>Added support for updating older versions of the app during the server move.</li>
+  <li>New messages can play a soft notification sound.</li>
 
-  <li>Improved support for both <code class="notranslate">.3dsx</code> and <code class="notranslate">.cia</code>
-  versions.</li>
+  <li>Chat sound can be toggled on or off from the chat screen.</li>
 
-  <li>Added early account/identity support so moderation and safety features can work
-  better.</li>
+  <li>Recent chat messages load automatically when opening chat.</li>
 
-  <li>General connection and compatibility improvements.</li>
+  <li>Long chat messages wrap better.</li>
+
+  <li>Chat messages can be reported from the 3DS.</li>
+
+  <li>The connected user list is now visible in chat.</li>
+
+  <li>Your name and identity now persist between launches.</li>
 
   </ul>
 
-  <h3 dir="auto">About Identities</h3>
+  <h3 dir="auto">How to Use Chat</h3>
 
-  <p dir="auto">Collab Doodle now creates a simple identity for your 3DS. This helps
-  the server remember who you are between launches and allows moderation tools to
-  work properly if someone misuses the shared canvas.</p>
+  <ol dir="auto">
 
-  <p dir="auto">You may also see or create a backup code. Keep this somewhere safe
-  if you want to recover your identity later, such as after changing SD cards or using
-  a different 3DS.</p>'
-updated: '2026-06-28T10:33:21Z'
-version: v1.2.2
-version_title: v1.2.2
+  <li>Press <code class="notranslate">SELECT</code> to open the menu.</li>
+
+  <li>Choose <code class="notranslate">Chat</code>.</li>
+
+  <li>Tap <code class="notranslate">Send</code> or press <code class="notranslate">A</code>
+  to open the keyboard.</li>
+
+  <li>Type your message and confirm.</li>
+
+  <li>Use <code class="notranslate">Up/Down</code> to select older or newer messages.</li>
+
+  <li>Tap <code class="notranslate">Report</code> to report the selected message.</li>
+
+  <li>Use <code class="notranslate">Sound On/Off</code> to toggle chat notification
+  sounds.</li>
+
+  </ol>
+
+  <p dir="auto">Only the most recent public chat messages are shown.</p>
+
+  <h3 dir="auto">Setting Your Identity</h3>
+
+  <ol dir="auto">
+
+  <li>Press <code class="notranslate">SELECT</code> to open the menu.</li>
+
+  <li>Choose <code class="notranslate">Identity</code>.</li>
+
+  <li>Press <code class="notranslate">A</code> to change your display name.</li>
+
+  <li>Press <code class="notranslate">Y</code> to create or view your backup code.</li>
+
+  <li>Save your backup code somewhere safe.</li>
+
+  </ol>
+
+  <p dir="auto">Your backup code can be used later to recover your identity on another
+  device.</p>'
+updated: '2026-06-29T08:04:00Z'
+version: v1.3.0
+version_title: v1.3.0 Chat!
 ---

@@ -40,7 +40,7 @@ screenshots:
 - description: Main
   url: https://db.universal-team.net/assets/images/screenshots/relaunch/main.png
 source: https://github.com/Universal-Team/Relaunch
-stars: 41
+stars: 42
 systems:
 - DS
 title: Relaunch
