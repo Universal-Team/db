@@ -1,0 +1,18 @@
+{
+	"github": "narayanx/Canary3DS",
+	"description": "A 3DS music player with modern features",
+	"author": "Canary Team",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app",
+		"media"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/narayanx/Canary3DS/main/assets/icon.png",
+	"image": "https://raw.githubusercontent.com/narayanx/Canary3DS/main/assets/banner.png",
+	"unique_ids": [
+		828581
+	]
+}
