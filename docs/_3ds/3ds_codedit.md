@@ -29,7 +29,7 @@ llm_generation: unknown
 qr:
   3DS_CodEdit.cia: https://db.universal-team.net/assets/images/qr/3ds_codedit-cia.png
 source: https://github.com/dcuevasa/3DS_CodEdit
-stars: 6
+stars: 7
 systems:
 - 3DS
 title: 3DS_CodEdit
