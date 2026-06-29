@@ -149,7 +149,7 @@ function setGit(provider, host) {
 	gitDiv.innerHTML = "";
 
 	if(git.provider != "none") {
-		git.host = host ? host : defaultHosts[git.provider];
+		git.host = (host && host != "github.com") ? host : defaultHosts[git.provider];
 
 		let div = document.createElement("div");
 		div.classList.add("input-group");
