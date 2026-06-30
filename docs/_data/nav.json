@@ -73,9 +73,9 @@
 		"items": [
 			{
 				"title": "All",
-				"page_title": "3DS",
-				"url": "/3ds",
-				"key": "3"
+				"page_title": "DS",
+				"url": "/ds",
+				"key": "d"
 			},
 			{
 				"title": "Games",
@@ -117,6 +117,7 @@
 	},
 	{
 		"title": "Submit app request",
-		"url": "/app-request"
+		"url": "/app-request",
+		"key": "s"
 	}
 ]
