@@ -19,41 +19,63 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-149-g32f3c35ea
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-152-g3ea683599
   downloads:
-    Angband-4.2.6-149-g32f3c35ea-3ds.zip:
-      size: 24695448
+    Angband-4.2.6-152-g3ea683599-3ds.zip:
+      size: 24695454
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-149-g32f3c35ea/Angband-4.2.6-149-g32f3c35ea-3ds.zip
-    Angband-4.2.6-149-g32f3c35ea-nds.zip:
-      size: 23329396
+      url: https://github.com/angband/angband/releases/download/4.2.6-152-g3ea683599/Angband-4.2.6-152-g3ea683599-3ds.zip
+    Angband-4.2.6-152-g3ea683599-nds.zip:
+      size: 23329400
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-149-g32f3c35ea/Angband-4.2.6-149-g32f3c35ea-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-152-g3ea683599/Angband-4.2.6-152-g3ea683599-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>Workflows: improve diagnostics for DOS by <a class="user-mention notranslate"
+    <li>Change a handful of names and descriptions to better match with Tolkien by
+    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4700993357" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6653"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6653/hovercard"
+    href="https://github.com/angband/angband/pull/6653">#6653</a></li>
+
+    <li>Change handlers for SIGTERM and SIGQUIT by <a class="user-mention notranslate"
     data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4673763169" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6651"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6651/hovercard"
-    href="https://github.com/angband/angband/pull/6651">#6651</a></li>
+    data-id="4701258687" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6654"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6654/hovercard"
+    href="https://github.com/angband/angband/pull/6654">#6654</a></li>
+
+    <li>Correct additional missing casts for is*()''s argument by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4709179953" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6655"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6655/hovercard"
+    href="https://github.com/angband/angband/pull/6655">#6655</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-148-gcd52d6cf6...4.2.6-149-g32f3c35ea"><tt>4.2.6-148-gcd52d6cf6...4.2.6-149-g32f3c35ea</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-149-g32f3c35ea...4.2.6-152-g3ea683599"><tt>4.2.6-149-g32f3c35ea...4.2.6-152-g3ea683599</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * Workflows: improve diagnostics for DOS by @backwardsEric in https://github.com/angband/angband/pull/6651
+    * Change a handful of names and descriptions to better match with Tolkien by @backwardsEric
+    in https://github.com/angband/angband/pull/6653
+
+    * Change handlers for SIGTERM and SIGQUIT by @backwardsEric in https://github.com/angband/angband/pull/6654
+
+    * Correct additional missing casts for is*()''s argument by @backwardsEric in
+    https://github.com/angband/angband/pull/6655
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-148-gcd52d6cf6...4.2.6-149-g32f3c35ea'
-  updated: '2026-06-23T11:22:54Z'
-  version: 4.2.6-149-g32f3c35ea
-  version_title: 4.2.6-149-g32f3c35ea
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-149-g32f3c35ea...4.2.6-152-g3ea683599'
+  updated: '2026-06-30T12:43:12Z'
+  version: 4.2.6-152-g3ea683599
+  version_title: 4.2.6-152-g3ea683599
 source: https://github.com/angband/angband
 stars: 1523
 systems:
@@ -169,28 +191,28 @@ Angband is a graphical dungeon adventure game that uses textual characters to re
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-149-g32f3c35ea.3dsx</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-152-g3ea683599.3dsx</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-149-g32f3c35ea-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-149-g32f3c35ea.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-149-g32f3c35ea.3dsx</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-152-g3ea683599-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-152-g3ea683599.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-152-g3ea683599.3dsx</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-149-g32f3c35ea.cia</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-152-g3ea683599.cia</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-149-g32f3c35ea-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-149-g32f3c35ea.cia</code> from the zip to <code>/cias/Angband-4.2.6-149-g32f3c35ea.cia</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-152-g3ea683599-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-152-g3ea683599.cia</code> from the zip to <code>/cias/Angband-4.2.6-152-g3ea683599.cia</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/Angband-4.2.6-149-g32f3c35ea.cia</code> using FBI or GodMode9</li>
+<li>Install and delete <code>/cias/Angband-4.2.6-152-g3ea683599.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-149-g32f3c35ea.nds</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-152-g3ea683599.nds</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-149-g32f3c35ea-nds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-149-g32f3c35ea.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Download <code>Angband-4.2.6-152-g3ea683599-nds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-152-g3ea683599.nds</code> from the zip to where you keep NDS files on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
