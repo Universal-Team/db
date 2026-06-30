@@ -22,6 +22,7 @@ icon: https://raw.githubusercontent.com/DDews/Snakes/master/meta/icon.png
 image: https://raw.githubusercontent.com/DDews/Snakes/master/meta/banner.png
 image_length: 9681
 layout: app
+llm_generation: 'no'
 qr:
   snakes.cia: https://db.universal-team.net/assets/images/qr/snakes-cia.png
 source: https://github.com/DDews/Snakes

@@ -21,8 +21,9 @@ image_length: 10252
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 source: https://github.com/d0k3/SafeB9SInstaller
-stars: 641
+stars: 646
 systems:
 - 3DS
 title: SafeB9SInstaller
@@ -45,3 +46,15 @@ updated: '2017-06-05T12:32:58Z'
 version: v0.0.7
 version_title: SafeB9SInstaller v0.0.7
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>SafeB9SInstaller.firm</summary>
+<ol>
+<li>Download <code>SafeB9SInstaller-*.zip</code></li>
+<li>Extract <code>/SafeB9SInstaller.firm</code> from the zip to <code>/luma/payloads/SafeB9SInstaller.firm</code> on your SD card</li>
+<li>Download <code>boot9strap-[d.]*.zip</code></li>
+<li>Extract everything from the zip to <code>/boot9strap/</code> on your SD card</li>
+</ol>
+</details>
+

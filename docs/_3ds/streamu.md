@@ -10,18 +10,18 @@ description: ' A homebrew music player for Nintendo 3DS that streams YouTube aud
   via a companion PC proxy   server.'
 download_page: https://github.com/imissuuuu/StreaMu/releases
 downloads:
-  StreaMu-server.zip:
-    size: 8312
-    size_str: 8 KiB
-    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.3.0/StreaMu-server.zip
+  StreaMu-Server.zip:
+    size: 23798235
+    size_str: 22 MiB
+    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.5.1/StreaMu-Server.zip
   streamu.3dsx:
-    size: 1734760
+    size: 1875276
     size_str: 1 MiB
-    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.3.0/streamu.3dsx
+    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.5.1/streamu.3dsx
   streamu.cia:
-    size: 1354688
+    size: 1462720
     size_str: 1 MiB
-    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.3.0/streamu.cia
+    url: https://github.com/imissuuuu/StreaMu/releases/download/v1.5.1/streamu.cia
 github: imissuuuu/StreaMu
 icon: https://raw.githubusercontent.com/imissuuuu/StreaMu/main/assets/icon_48.png
 image: https://raw.githubusercontent.com/imissuuuu/StreaMu/main/assets/banner_256.png
@@ -29,94 +29,85 @@ image_length: 3392
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: unknown
 qr:
   streamu.cia: https://db.universal-team.net/assets/images/qr/streamu-cia.png
 source: https://github.com/imissuuuu/StreaMu
-stars: 4
+stars: 8
 systems:
 - 3DS
 title: StreaMu
 unique_ids:
 - '0xFF3D1'
-update_notes: '<h2 dir="auto">v1.3.0</h2>
+update_notes: '<h1 dir="auto">StreaMu v1.5.1 Release Notes</h1>
 
-  <h3 dir="auto">Features</h3>
+  <h2 dir="auto">Highlights</h2>
 
   <ul dir="auto">
 
-  <li>Split L/R button action into <strong>Skip Back</strong> and <strong>Skip Fwd</strong>
-  — each independently assignable in Settings</li>
+  <li>Improved steady-state Opus playback behavior to reduce low-FPS feeling and refill
+  instability during playback.</li>
 
-  <li>Search keyboard hint text updated to "Search music..."</li>
+  <li>Reduced noisy hot-path observation overhead while keeping the playback pipeline
+  changes that were validated on hardware.</li>
+
+  <li>Tightened several playback and UI edge cases, including buffering state transitions,
+  startup connection checks, and QA Remove handling.</li>
 
   </ul>
 
-  <h3 dir="auto">Bug Fixes</h3>
+  <h2 dir="auto">Upgrade Notes</h2>
 
   <ul dir="auto">
 
-  <li>Fix seek bar not pausing when using L/R Play/Pause action</li>
+  <li>Update both the 3DS app and the proxy server together.</li>
 
-  <li>Fix <code class="notranslate">mp3d</code> uninitialized in MP3Player constructor</li>
+  <li>Replace your existing <code class="notranslate">StreaMu-Server.zip</code> with
+  the version from this release.</li>
+
+  <li>Existing Opus Direct usage stays the same; this is a maintenance and smoothness
+  update rather than a feature reset.</li>
 
   </ul>
 
-  <h3 dir="auto">Performance</h3>
+  <h2 dir="auto">Release Assets</h2>
 
   <ul dir="auto">
 
-  <li>Faster startup: removed 1.1s of artificial sleep delays</li>
+  <li><code class="notranslate">streamu.cia</code></li>
 
-  <li>Startup loading screen now appears before wallpaper decode (no more black screen
-  on launch)</li>
+  <li><code class="notranslate">streamu.3dsx</code></li>
+
+  <li><code class="notranslate">StreaMu-Server.zip</code>
+
+  <ul dir="auto">
+
+  <li>Includes <code class="notranslate">StreaMu-Server.exe</code>, <code class="notranslate">LICENSE</code>,
+  and <code class="notranslate">THIRD_PARTY_LICENSES.md</code>.</li>
 
   </ul>
 
-  <h3 dir="auto">Improvements</h3>
-
-  <ul dir="auto">
-
-  <li>Track rename feature in Track Options popup (playlist context only)</li>
-
-  <li>Separated search results from playlist tracks — no more overwriting each other</li>
-
-  <li>SearchScreen redesigned to match PlayingScreen layout (PlayBar + seek + hamburger)</li>
-
-  <li>Network: reduced streaming latency, pipe-based stream generator, Keep-Alive
-  support</li>
-
-  <li>Fixed DASH fMP4 seek via manual segment fetch + init segment pre-send</li>
+  </li>
 
   </ul>
 
-  <hr>
-
-  <h2 dir="auto">v1.2.0</h2>
-
-  <h3 dir="auto">Features</h3>
+  <h2 dir="auto">Validation</h2>
 
   <ul dir="auto">
 
-  <li>Thumbnail display on PlayingScreen top screen (async download, center crop)</li>
+  <li>The Opus playback tuning changes were reviewed in TAKT review runs before release
+  preparation.</li>
 
-  <li>Thumbnail routed through proxy server (no direct ytimg.com access)</li>
+  <li>Device testing reported no regression and no meaningful playback artifacts after
+  the steady-state refill tuning adjustments.</li>
 
-  <li>Delayed thumbnail fetch by 3s to prioritize audio buffering</li>
-
-  <li>Hide view count when playing from playlist</li>
-
-  </ul>
-
-  <h3 dir="auto">Bug Fixes</h3>
-
-  <ul dir="auto">
-
-  <li>Fix crash on START exit when thumbnail is loaded</li>
+  <li>GitHub release automation rebuilds the 3DS and server artifacts from the merged
+  <code class="notranslate">main</code> commit before publishing this release.</li>
 
   </ul>'
-updated: '2026-04-06T17:01:19Z'
-version: v1.3.0
-version_title: v1.3.0
+updated: '2026-06-01T15:08:42Z'
+version: v1.5.1
+version_title: StreaMu v1.5.1
 ---
 StreaMu is a homebrew music player for Nintendo 3DS that lets you search and stream YouTube
   audio directly on your device.

@@ -24,6 +24,7 @@ image_length: 2679
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: unknown
 qr:
   Zappka3DS.cia: https://db.universal-team.net/assets/images/qr/zappka3ds-cia.png
 screenshots:
@@ -32,7 +33,7 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/zappka3ds/title-screen.png
 source: https://github.com/TehFridge/Zappka3DS
-stars: 141
+stars: 146
 systems:
 - 3DS
 title: Żappka3DS

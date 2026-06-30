@@ -2,7 +2,8 @@
 author: Vladimir Kosickij
 avatar: https://avatars.githubusercontent.com/u/45891293?v=4
 categories:
-- utility
+- app
+- media
 color: '#a79a7f'
 color_bg: '#807661'
 created: '2023-08-18T10:01:13Z'
@@ -28,11 +29,12 @@ image_length: 630
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: unknown
 qr:
   IkuReader.dsi: https://db.universal-team.net/assets/images/qr/ikureader-dsi.png
   IkuReader.nds: https://db.universal-team.net/assets/images/qr/ikureader-nds.png
 source: https://github.com/awkitsune/IkuReader
-stars: 9
+stars: 11
 systems:
 - DS
 title: IkuReader

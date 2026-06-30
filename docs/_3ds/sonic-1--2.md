@@ -49,6 +49,7 @@ image_length: 35081
 layout: app
 license: other
 license_name: Other
+llm_generation: 'no'
 qr:
   Sonic1.cia: https://db.universal-team.net/assets/images/qr/sonic1-cia.png
   Sonic1_rev01.cia: https://db.universal-team.net/assets/images/qr/sonic1_rev01-cia.png
@@ -77,7 +78,7 @@ script_message: 'Note: You will need "Data.rsdk" from
 
   "/3ds/Sonic1" / "/3ds/Sonic2" to play the game.'
 source: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation
-stars: 52
+stars: 53
 systems:
 - 3DS
 title: Sonic 1 / 2

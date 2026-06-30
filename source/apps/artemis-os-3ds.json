@@ -1,0 +1,11 @@
+{
+	"github": "SnowyStorm00/artemis-os-3ds",
+	"title": "Artemis OS 3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"icon": "https://raw.githubusercontent.com/SnowyStorm00/artemis-os-3ds/refs/heads/main/icon.png"
+}

@@ -15,6 +15,7 @@ image_length: 35283
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
+llm_generation: 'no'
 prerelease:
   download_page: https://github.com/nop90/Supertux-Milestone1-3ds/releases/tag/v0.1
   downloads:
@@ -36,3 +37,22 @@ updated: '2017-03-22T22:55:55Z'
 version: v0.1
 version_title: First release
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[prerelease] Supertux.cia</summary>
+<ol>
+<li>Download <code>Supertux_M1_v0.1a.zip</code></li>
+<li>Extract <code>/Supertux.cia</code> from the zip to <code>/cias/Supertux.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/Supertux.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[prerelease] Supertux.3dsx</summary>
+<ol>
+<li>Download <code>Supertux_M1_v0.1a.zip</code></li>
+<li>Extract <code>/Supertux/Supertux.3dsx</code> from the zip to <code>/3ds/Supertux.3dsx</code> on your SD card</li>
+</ol>
+</details>
+

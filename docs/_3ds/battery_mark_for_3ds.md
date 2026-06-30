@@ -24,6 +24,7 @@ image_length: 65150
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 qr:
   Battery_mark_for_3DS.cia: https://db.universal-team.net/assets/images/qr/battery_mark_for_3ds-cia.png
 source: https://github.com/Core-2-Extreme/Battery_mark_for_3DS
@@ -67,5 +68,4 @@ update_notes: '<ul dir="auto">
 updated: '2022-03-08T04:56:36Z'
 version: v2.1.0
 version_title: Battery mark for 3DS v2.1.0
-website: https://gbatemp.net/threads/release-battery-mark-v2.581951/
 ---

@@ -2,7 +2,7 @@
 author: Pretendo Network
 avatar: https://avatars.githubusercontent.com/u/36684034?v=4
 categories:
-- utility
+- plugin
 color: '#5e586c'
 color_bg: '#5e586c'
 created: '2022-02-16T15:25:17Z'
@@ -18,6 +18,7 @@ github: PretendoNetwork/HokakuCTR
 image: https://avatars.githubusercontent.com/u/36684034?v=4&size=128
 image_length: 3197
 layout: app
+llm_generation: unknown
 source: https://github.com/PretendoNetwork/HokakuCTR
 stars: 45
 systems:
@@ -65,3 +66,13 @@ website: https://pretendo.network/
 4. Launch the game to dump traffic from. The screen should flash blue and some text will display on the screen. If it says **Not Ready**, it means this game is not compatible. If it says **Ready**, you can go online to dump the traffic.
 
 The dumps will be placed inside the **HokakuCTR** folder in the SD card root.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>default.3gx</summary>
+<ol>
+<li>Download <code>HokakuCTR.3gx</code> to <code>/luma/plugins/default.3gx</code> on your SD card</li>
+</ol>
+</details>
+

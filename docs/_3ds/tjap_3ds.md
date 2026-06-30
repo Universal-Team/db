@@ -10,41 +10,45 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9791536
+    size: 10392592
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.0/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.3/TJAP_3DS.3dsx
   TJAP_3DS.cia:
-    size: 9970624
-    size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.0/TJAP_3DS.cia
+    size: 10568640
+    size_str: 10 MiB
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.3/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
+llm_generation: unknown
 prerelease:
-  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.2.1
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.3.0-pre
   downloads:
     TJAP_3DS.3dsx:
-      size: 9792204
+      size: 10395032
       size_str: 9 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.1/TJAP_3DS.3dsx
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.0-pre/TJAP_3DS.3dsx
     TJAP_3DS.cia:
-      size: 9970624
-      size_str: 9 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.2.1/TJAP_3DS.cia
+      size: 10568640
+      size_str: 10 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.0-pre/TJAP_3DS.cia
   qr:
     TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
   update_notes: '<h2 dir="auto">チェンジログ</h2>
 
     <ul dir="auto">
 
-    <li><code class="notranslate">#JPOSSCROLL (Travel_time(float)) (position(int))
-    (direction(int))</code>の実装が完了しました。</li>
+    <li>HBSCROLLの試験的実装<br>
 
-    <li>ノーツ描画時の高速化</li>
+    太鼓さん次郎のHBSCROLLを真似て実装する予定なのでかなりの時間と協力が必要です。<br>
 
-    <li>譜面分岐のタイミングがズレる可能性がある不具合の修正</li>
+    <a href="https://github.com/LuMariGames/TJAP_3DS/fork">Fork</a>を使用して実装の協力をしてくれた人にはゲーム内クレジットに記載をします。</li>
+
+    <li>割れない風船音符の配点処理を追加</li>
+
+    <li><code class="notranslate">TOTAL:(int)</code>タグの実装</li>
 
     </ul>
 
@@ -52,34 +56,48 @@ prerelease:
 
     <ul dir="auto">
 
-    <li>The implementation of <code class="notranslate">#JPOSSCROLL (Travel_time(float))
-    (position(int)) (direction(int))</code> is complete.</li>
+    <li>Experimental implementation of HBSCROLL.<br>
 
-    <li>Speeding up when drawing notes</li>
+    I plan to implement this by imitating Taiko-san Jiro''s HBSCROLL, so it will require
+    a considerable amount of time and cooperation.<br>
 
-    <li>Fixing a bug that may misset the timing of the score branch</li>
+    Those who helped implement the project using <a href="https://github.com/LuMariGames/TJAP_3DS/fork">Fork</a>
+    will be credited in-game.</li>
+
+    <li>Added scoring processing for unbursting balloon notes.</li>
+
+    <li>Implementation of the <code class="notranslate">TOTAL:(int)</code> tag</li>
 
     </ul>'
   update_notes_md: '## チェンジログ
 
-    - `#JPOSSCROLL (Travel_time(float)) (position(int)) (direction(int))`の実装が完了しました。
+    - HBSCROLLの試験的実装
 
-    - ノーツ描画時の高速化
+    太鼓さん次郎のHBSCROLLを真似て実装する予定なのでかなりの時間と協力が必要です。
 
-    - 譜面分岐のタイミングがズレる可能性がある不具合の修正
+    [Fork](https://github.com/LuMariGames/TJAP_3DS/fork)を使用して実装の協力をしてくれた人にはゲーム内クレジットに記載をします。
+
+    - 割れない風船音符の配点処理を追加
+
+    - `TOTAL:(int)`タグの実装
 
 
     ## Changelog
 
-    - The implementation of `#JPOSSCROLL (Travel_time(float)) (position(int)) (direction(int))`
-    is complete.
+    - Experimental implementation of HBSCROLL.
 
-    - Speeding up when drawing notes
+    I plan to implement this by imitating Taiko-san Jiro''s HBSCROLL, so it will require
+    a considerable amount of time and cooperation.
 
-    - Fixing a bug that may misset the timing of the score branch'
-  updated: '2026-03-30T07:04:57Z'
-  version: v2.2.1
-  version_title: TJAPlayer for 3DS v2.2.1
+    Those who helped implement the project using [Fork](https://github.com/LuMariGames/TJAP_3DS/fork)
+    will be credited in-game.
+
+    - Added scoring processing for unbursting balloon notes.
+
+    - Implementation of the `TOTAL:(int)` tag'
+  updated: '2026-06-19T23:23:10Z'
+  version: v2.3.0-pre
+  version_title: TJAPlayer for 3DS v2.3.0-pre
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
@@ -98,27 +116,32 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>風船音符の終了が正しく処理されない不具合の改善</li>
+  <li>複素数スクロールの対応</li>
 
-  <li><code class="notranslate">#GOGOSTART</code>や<code class="notranslate">#GOGOEND</code>でフリーズする可能性のある不具合を修正</li>
+  </ul>
 
-  <li>文字コード変換時に「～」が正しく変換されていなかったのを修正</li>
+  <pre class="notranslate"><code class="notranslate">#SCROLL (Signed float)(Signed
+  float)i
 
-  <li>でんでん音符の出現文字を''D''から''P''に変更しました。</li>
+  </code></pre>
 
-  <li>代わりに''D''は時限爆弾音符が登場します。<br>
+  <ul dir="auto">
 
-  時限爆弾音符は、連打の終点が来るまでに指定した打数ドンを叩かないと不可判定になります。</li>
+  <li>前回のプレイを記録&amp;再生出来るようになりました。<br>
 
-  <li><code class="notranslate">BGIMG:</code>タグが機能して無かったのを修正</li>
+  プレイを終わらせた後に「実験的設定」の「プレイヤー(双打用)」を<br>
 
-  <li>譜面の最大行数が8192行から16384行に拡張しました。</li>
+  PLAYに変更すると、前回のプレイを再生出来ます。<br>
 
-  <li>一部演出の追加</li>
+  記録を消したい場合はSELECTを押しながらXボタンを押して下さい。</li>
 
-  <li>本体をスリープモードに移行しない様にしました。(2026/03/30追記)<br>
+  <li>オプション「曲のはやさ」を1倍以外にするとJPOSSCROLLの終了タイミングがズレる不具合の修正</li>
 
-  これにより、イヤホン等を挿した状態でAUTOで聴く事が可能になります。</li>
+  <li>編集可能な譜面の最大容量を64KBに増やしました。</li>
+
+  <li>HBSCROLLの試験的対応</li>
+
+  <li>その他一部動作の高速化をしました。</li>
 
   </ul>
 
@@ -126,38 +149,38 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Improvement of the problem that the end of the balloon note is not processed
-  correctly</li>
+  <li>support for complex number scrolling.</li>
 
-  <li>Fixed a bug that could cause the game to freeze when using <code class="notranslate">#GOGOSTART</code>
-  or <code class="notranslate">#GOGOEND</code>.</li>
+  </ul>
 
-  <li>Fixed "～" not being converted correctly when converting character codes.</li>
+  <pre class="notranslate"><code class="notranslate">#SCROLL (Signed float)(Signed
+  float)i
 
-  <li>The letter that appears for denden notes has been changed from ''D'' to ''P''.</li>
+  </code></pre>
 
-  <li>Instead of ''D'', a Time Bomb note will appear.<br>
+  <ul dir="auto">
 
-  The Time Bomb note will be considered impossible if the specified number of don
-  strokes are not hit before the end of the Roll.</li>
+  <li>You can now record and replay your previous gameplay.<br>
 
-  <li>Fixed an issue where the <code class="notranslate">BGIMG:</code> tag was not
-  working.</li>
+  After finishing a game, changing the "Player (for dual-wielding)" setting in<br>
 
-  <li>The maximum number of lines in a musical score has been increased from 8192
-  to 16384.</li>
+  "Experimental Settings" to PLAY will allow you to replay your previous play.<br>
 
-  <li>The device will no longer enter sleep mode. (Added 2026/03/30)<br>
+  To erase your record, press the SELECT button while holding down the X button.</li>
 
-  This makes it possible to listen in AUTO mode even with earphones or other devices
-  plugged in.</li>
+  <li>Fixed a bug that caused the end timing of JPOSSCROLL to shift if the option
+  "song so fastness" was not 1x.</li>
 
-  <li>Addition of some productions</li>
+  <li>The maximum size of editable charts has been increased to 64KB.</li>
+
+  <li>Experimental response to HBSCROLL.</li>
+
+  <li>We have also sped up some other operations.</li>
 
   </ul>'
-updated: '2026-03-02T03:04:53Z'
-version: v2.2.0
-version_title: TJAPlayer for 3DS v2.2.0
+updated: '2026-06-02T03:51:14Z'
+version: v2.2.3
+version_title: TJAPlayer for 3DS v2.2.3
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。

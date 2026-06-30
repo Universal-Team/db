@@ -24,6 +24,7 @@ image_length: 24608
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 qr:
   NotifyMii.cia: https://db.universal-team.net/assets/images/qr/notifymii-cia.png
 source: https://github.com/Ryuzaki-MrL/NotifyMii
@@ -76,3 +77,21 @@ updated: '2016-05-24T15:23:21Z'
 version: '1.2'
 version_title: NotifyMii v1.2
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>NotifyMii.cia</summary>
+<ol>
+<li>Download <code>NotifyMii.cia</code> to <code>/cias/NotifyMii.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/NotifyMii.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>NotifyMii.3dsx</summary>
+<ol>
+<li>Download <code>NotifyMii.zip</code></li>
+<li>Extract <code>/3ds/NotifyMii/NotifyMii.3dsx</code> from the zip to <code>/3ds/NotifyMii.3dsx</code> on your SD card</li>
+</ol>
+</details>
+

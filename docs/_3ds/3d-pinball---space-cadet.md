@@ -20,6 +20,7 @@ image_length: 17484
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: unknown
 screenshots:
 - description: Awaiting deployment
   url: https://db.universal-team.net/assets/images/screenshots/3d-pinball---space-cadet/awaiting-deployment.png
@@ -27,7 +28,7 @@ script_message: 'Note: You will need the game data files from
 
   an actual copy of 3D pinball or "Full Tilt!".'
 source: https://github.com/MaikelChan/SpaceCadetPinball/tree/3ds
-stars: 114
+stars: 115
 systems:
 - 3DS
 title: 3D Pinball - Space Cadet
@@ -59,7 +60,6 @@ update_notes: '<h2 dir="auto">What''s Changed</h2>
 updated: '2024-02-08T04:33:50Z'
 version: v0.6-3ds
 version_title: v0.6 3DS
-website: https://pacochan.net/software/3d-pinball-space-cadet/
 ---
 # 3D Pinball - Space Cadet for 3DS
 
@@ -146,3 +146,24 @@ After a successful build, you will get a file called `SpaceCadetPinball.3dsx`, w
 | X                    | Start a new game                                  |
 | Y                    | Exit the game                                     |
 | Start                | Pause                                             |
+
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>SpaceCadetPinball.3dsx</summary>
+<ol>
+<li>Download <code>SpaceCadetPinball-3DS-v0.6.7z</code></li>
+<li>Extract <code>/SpaceCadetPinball.3dsx</code> from the 7z to <code>/3ds/SpaceCadetPinball.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>SpaceCadetPinball.cia</summary>
+<ol>
+<li>Download <code>SpaceCadetPinball-3DS-v0.6.7z</code></li>
+<li>Extract <code>/SpaceCadetPinball.cia</code> from the 7z to <code>/cias/SpaceCadetPinball.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/SpaceCadetPinball.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

@@ -24,6 +24,7 @@ image_length: 48710
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 qr:
   GraphCalc3DS.cia: https://db.universal-team.net/assets/images/qr/graphcalc3ds-cia.png
 source: https://github.com/flarn2006/GraphCalc3DS
@@ -50,3 +51,21 @@ updated: '2016-12-03T21:05:23Z'
 version: v1.5.1
 version_title: Version 1.5.1
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>GraphCalc3DS.cia</summary>
+<ol>
+<li>Download <code>GraphCalc3DS.cia</code> to <code>/cias/GraphCalc3DS.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/GraphCalc3DS.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>GraphCalc3DS.3dsx</summary>
+<ol>
+<li>Download <code>GraphCalc3DS_3DSX.zip</code></li>
+<li>Extract <code>/GraphCalc3DS.3dsx</code> from the zip to <code>/3ds/GraphCalc3DS.3dsx</code> on your SD card</li>
+</ol>
+</details>
+

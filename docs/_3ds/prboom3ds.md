@@ -15,6 +15,7 @@ image_length: 61311
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
+llm_generation: 'no'
 prerelease:
   download_page: https://github.com/elhobbs/prboom3ds/releases/tag/v0.7-alpha
   downloads:
@@ -52,7 +53,7 @@ script_message: 'You will need to put Doom WAD files in
 
   "sdmc:/3ds/prboom3ds/" to play them.'
 source: https://github.com/elhobbs/prboom3ds
-stars: 110
+stars: 111
 systems:
 - 3DS
 title: prboom3ds
@@ -68,3 +69,23 @@ updated: '2019-12-21T23:47:05Z'
 version: v0.7-alpha
 version_title: v0.7-alpha
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[prerelease] prboom3ds.3dsx</summary>
+<ol>
+<li>Download <code>prboom3ds.3dsx</code> to <code>/3ds/prboom3ds.3dsx</code> on your SD card</li>
+<li>Download <code>prboom3ds.smdh</code> to <code>/3ds/prboom3ds/prboom3ds.smdh</code> on your SD card</li>
+<li>Download <code>prboom.wad</code> to <code>/3ds/prboom3ds/prboom.wad</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[prerelease] prboom3ds.cia</summary>
+<ol>
+<li>Download <code>prboom3ds.cia</code> to <code>/cias/prboom3ds.cia</code> on your SD card</li>
+<li>Download <code>prboom.wad</code> to <code>/3ds/prboom3ds/prboom.wad</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/prboom3ds.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

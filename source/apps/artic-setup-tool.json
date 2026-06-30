@@ -1,0 +1,19 @@
+{
+	"github": "azahar-emu/ArticSetupTool",
+	"title": "Artic Setup Tool",
+	"systems": [
+		"3DS"
+	],
+	"unique_ids": [
+		714215
+	],
+	"categories": [
+		"emulator",
+		"utility"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/azahar-emu/ArticSetupTool/refs/heads/main/app/resources/icon.png",
+	"image": "https://raw.githubusercontent.com/azahar-emu/ArticSetupTool/refs/heads/main/app/resources/banner.png",
+	"description": "A tool to perform the initial setup using the Artic Protocol.",
+	"long_description": "Helps installing system files and console unique data to the Azahar Emulator using your console. It broadcasts the System Settings application as well as the NIM sysmodule to be able to perform a system update and copies your console unique data to enable online functionality."
+}

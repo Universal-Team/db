@@ -38,6 +38,7 @@ image_length: 1569
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
+llm_generation: 'no'
 qr:
   OpenArena.cia: https://db.universal-team.net/assets/images/qr/openarena-cia.png
   Quake3DS.cia: https://db.universal-team.net/assets/images/qr/quake3ds-cia.png
@@ -84,3 +85,42 @@ updated: '2022-10-30T23:15:15Z'
 version: v1.2.0
 version_title: 3DS port v1.2.0
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>OpenArena.3dsx</summary>
+<ol>
+<li>Download <code>OpenArena.3dsx</code> to <code>/3ds/OpenArena.3dsx</code> on your SD card</li>
+<li>Download <code>openarena_data.zip</code></li>
+<li>Extract everything from the zip to the root of your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>OpenArena.cia</summary>
+<ol>
+<li>Download <code>OpenArena.cia</code> to <code>/cias/OpenArena.cia</code> on your SD card</li>
+<li>Download <code>openarena_data.zip</code></li>
+<li>Extract everything from the zip to the root of your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/OpenArena.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Quake3DS.3dsx</summary>
+<ol>
+<li>Download <code>Quake3DS.3dsx</code> to <code>/3ds/Quake3DS.3dsx</code> on your SD card</li>
+<li>Download <code>quake3_data.zip</code></li>
+<li>Extract everything from the zip to the root of your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Quake3DS.cia</summary>
+<ol>
+<li>Download <code>Quake3DS.cia</code> to <code>/cias/Quake3DS.cia</code> on your SD card</li>
+<li>Download <code>quake3_data.zip</code></li>
+<li>Extract everything from the zip to the root of your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/Quake3DS.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

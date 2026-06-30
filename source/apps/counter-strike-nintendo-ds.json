@@ -18,19 +18,19 @@
 			},
 			{
 				"file": "/Counter Strike DS.zip",
-				"input": "counter_strike.nds",
+				"input": "^counter_strike.nds",
 				"output": "%NDS%/counter_strike.nds",
 				"type": "extractFile"
 			},
 			{
 				"file": "/Counter Strike DS.zip",
-				"input": "counter_strike_music.raw",
+				"input": "^counter_strike_music.raw",
 				"output": "%NDS%/counter_strike_music.raw",
 				"type": "extractFile"
 			},
 			{
 				"file": "/Counter Strike DS.zip",
-				"input": "soundbank.bin",
+				"input": "^soundbank.bin",
 				"output": "%NDS%/soundbank.bin",
 				"type": "extractFile"
 			},

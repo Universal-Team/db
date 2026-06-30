@@ -7,7 +7,7 @@ color: '#ae7d50'
 color_bg: '#805c3b'
 created: '2022-12-15T03:44:14Z'
 description: NesDS 2.0.1
-download_page: https://github.com/DS-Homebrew/NesDS/tree/master/release
+download_page: https://github.com/DS-Homebrew/NesDS/releases
 downloads:
   nesDS.cia:
     size: 472320
@@ -18,18 +18,21 @@ downloads:
     size_str: 447 KiB
     url: https://github.com/DS-Homebrew/NesDS/releases/download/v2.1/nesDS.dsi
   nesDS.nds:
-    url: https://raw.githubusercontent.com/DS-Homebrew/NesDS/master/release/nesDS.nds
+    size: 457728
+    size_str: 447 KiB
+    url: https://github.com/DS-Homebrew/NesDS/releases/download/v2.1/nesDS.nds
 github: DS-Homebrew/NesDS
 icon: https://db.universal-team.net/assets/images/icons/nesds.png
 image: https://db.universal-team.net/assets/images/images/nesds.png
 image_length: 177
 layout: app
+llm_generation: 'no'
 qr:
   nesDS.cia: https://db.universal-team.net/assets/images/qr/nesds-cia.png
   nesDS.dsi: https://db.universal-team.net/assets/images/qr/nesds-dsi.png
   nesDS.nds: https://db.universal-team.net/assets/images/qr/nesds-nds.png
 source: https://github.com/DS-Homebrew/NesDS
-stars: 66
+stars: 71
 systems:
 - DS
 title: nesDS
@@ -69,7 +72,7 @@ update_notes: '<p dir="auto">Installation for TWLMenu++ users:</p>
   <li>Fixed more with DMC flags/IRQ.</li>
 
   </ul>'
-updated: '2018-10-19T22:09:05Z'
-version: v1.3c
+updated: '2025-12-25T10:23:19Z'
+version: v2.1
 version_title: 'v2.1: TWL Christmas Release 🎄'
 ---

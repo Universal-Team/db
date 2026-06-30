@@ -22,6 +22,7 @@ icon: https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/icon
 image: https://raw.githubusercontent.com/GiantBlargg/UpdateSuppressor/master/banner.png
 image_length: 9099
 layout: app
+llm_generation: 'no'
 qr:
   UpdateSuppressor.cia: https://db.universal-team.net/assets/images/qr/updatesuppressor-cia.png
 source: https://github.com/GiantBlargg/UpdateSuppressor
@@ -40,3 +41,21 @@ updated: '2016-01-21T08:10:53Z'
 version: v0.2.0
 version_title: Delete all mode + CIA version
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>UpdateSuppressor.3dsx</summary>
+<ol>
+<li>Download <code>UpdateSuppressor-3dsx.zip</code></li>
+<li>Extract <code>/UpdateSuppressor/UpdateSuppressor.3dsx</code> from the zip to <code>/3ds/UpdateSuppressor.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>UpdateSuppressor.cia</summary>
+<ol>
+<li>Download <code>UpdateSuppressor.cia</code> to <code>/cias/UpdateSuppressor.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/UpdateSuppressor.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

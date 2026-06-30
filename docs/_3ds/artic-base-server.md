@@ -1,5 +1,5 @@
 ---
-author: PabloMK7
+author: Azahar Emulator
 avatar: https://avatars.githubusercontent.com/u/188636407?v=4
 categories:
 - emulator
@@ -25,10 +25,11 @@ image_length: 34819
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: 'no'
 qr:
   ArticBase.cia: https://db.universal-team.net/assets/images/qr/articbase-cia.png
 source: https://github.com/azahar-emu/ArticBaseServer
-stars: 595
+stars: 613
 systems:
 - 3DS
 title: Artic Base Server

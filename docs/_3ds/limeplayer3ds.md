@@ -20,6 +20,7 @@ image_length: 13104
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 screenshots:
 - description: File list
   url: https://db.universal-team.net/assets/images/screenshots/limeplayer3ds/file-list.png
@@ -28,7 +29,7 @@ screenshots:
 - description: Quick menu
   url: https://db.universal-team.net/assets/images/screenshots/limeplayer3ds/quick-menu.png
 source: https://github.com/oreo639/LimePlayer3DS
-stars: 49
+stars: 53
 systems:
 - 3DS
 title: LimePlayer3DS
@@ -64,6 +65,5 @@ update_notes: '<p dir="auto">LimePlayer3DS is a gui music player for the 3DS wit
 updated: '2021-05-15T07:58:46Z'
 version: v0.0.10
 version_title: Beta 3 - Late pandemic release
-website: https://github.com/oreo639/LimePlayer3DS/wiki/
 wiki: https://github.com/oreo639/LimePlayer3DS/wiki
 ---

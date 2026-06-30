@@ -17,130 +17,67 @@ image_length: 3366
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
+llm_generation: unknown
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-107-g64d78d7f6
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-152-g3ea683599
   downloads:
-    Angband-4.2.6-107-g64d78d7f6-3ds.zip:
-      size: 24671167
+    Angband-4.2.6-152-g3ea683599-3ds.zip:
+      size: 24695454
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-107-g64d78d7f6/Angband-4.2.6-107-g64d78d7f6-3ds.zip
-    Angband-4.2.6-107-g64d78d7f6-nds.zip:
-      size: 23329122
+      url: https://github.com/angband/angband/releases/download/4.2.6-152-g3ea683599/Angband-4.2.6-152-g3ea683599-3ds.zip
+    Angband-4.2.6-152-g3ea683599-nds.zip:
+      size: 23329400
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-107-g64d78d7f6/Angband-4.2.6-107-g64d78d7f6-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-152-g3ea683599/Angband-4.2.6-152-g3ea683599-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>In the classic level generation, reject the level if it has less than 2 rooms
-    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    <li>Change a handful of names and descriptions to better match with Tolkien by
+    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4229053435" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6581"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6581/hovercard"
-    href="https://github.com/angband/angband/pull/6581">#6581</a></li>
+    data-id="4700993357" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6653"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6653/hovercard"
+    href="https://github.com/angband/angband/pull/6653">#6653</a></li>
 
-    <li>workflows: replace softprops/action-gh-release with gh CLI by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4233228215" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6583"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6583/hovercard"
-    href="https://github.com/angband/angband/pull/6583">#6583</a></li>
-
-    <li>Use sigaction() when available by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/backwardsEric/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4264633977" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6588"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6588/hovercard"
-    href="https://github.com/angband/angband/pull/6588">#6588</a></li>
-
-    <li>Borg refuel lantern out of bounds by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/agoodman00/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4265067970" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6589"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6589/hovercard"
-    href="https://github.com/angband/angband/pull/6589">#6589</a></li>
-
-    <li>Windows: avoid warning about buffer length with snprintf() by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4269276751" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6590"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6590/hovercard"
-    href="https://github.com/angband/angband/pull/6590">#6590</a></li>
-
-    <li>Reduce msbuild''s warnings about mismatched const qualifiers by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4270896244" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6591"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6591/hovercard"
-    href="https://github.com/angband/angband/pull/6591">#6591</a></li>
-
-    <li>SDL2: use get_caption hook in more places by <a class="user-mention notranslate"
+    <li>Change handlers for SIGTERM and SIGQUIT by <a class="user-mention notranslate"
     data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4271505218" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6592"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6592/hovercard"
-    href="https://github.com/angband/angband/pull/6592">#6592</a></li>
+    data-id="4701258687" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6654"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6654/hovercard"
+    href="https://github.com/angband/angband/pull/6654">#6654</a></li>
 
-    <li>SDL2: add missing checks for memory allocation failures by <a class="user-mention
+    <li>Correct additional missing casts for is*()''s argument by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4271641829" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6593"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6593/hovercard"
-    href="https://github.com/angband/angband/pull/6593">#6593</a></li>
-
-    <li>configure: do not suggest --with-no-install when building Windows front end
-    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4272260645" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6594"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6594/hovercard"
-    href="https://github.com/angband/angband/pull/6594">#6594</a></li>
+    data-id="4709179953" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6655"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6655/hovercard"
+    href="https://github.com/angband/angband/pull/6655">#6655</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-98-g27e4ce3d7...4.2.6-107-g64d78d7f6"><tt>4.2.6-98-g27e4ce3d7...4.2.6-107-g64d78d7f6</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-149-g32f3c35ea...4.2.6-152-g3ea683599"><tt>4.2.6-149-g32f3c35ea...4.2.6-152-g3ea683599</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * In the classic level generation, reject the level if it has less than 2 rooms
-    by @backwardsEric in https://github.com/angband/angband/pull/6581
+    * Change a handful of names and descriptions to better match with Tolkien by @backwardsEric
+    in https://github.com/angband/angband/pull/6653
 
-    * workflows: replace softprops/action-gh-release with gh CLI by @backwardsEric
-    in https://github.com/angband/angband/pull/6583
+    * Change handlers for SIGTERM and SIGQUIT by @backwardsEric in https://github.com/angband/angband/pull/6654
 
-    * Use sigaction() when available by @backwardsEric in https://github.com/angband/angband/pull/6588
-
-    * Borg refuel lantern out of bounds by @agoodman00 in https://github.com/angband/angband/pull/6589
-
-    * Windows: avoid warning about buffer length with snprintf() by @backwardsEric
-    in https://github.com/angband/angband/pull/6590
-
-    * Reduce msbuild''s warnings about mismatched const qualifiers by @backwardsEric
-    in https://github.com/angband/angband/pull/6591
-
-    * SDL2: use get_caption hook in more places by @backwardsEric in https://github.com/angband/angband/pull/6592
-
-    * SDL2: add missing checks for memory allocation failures by @backwardsEric in
-    https://github.com/angband/angband/pull/6593
-
-    * configure: do not suggest --with-no-install when building Windows front end
-    by @backwardsEric in https://github.com/angband/angband/pull/6594
+    * Correct additional missing casts for is*()''s argument by @backwardsEric in
+    https://github.com/angband/angband/pull/6655
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-98-g27e4ce3d7...4.2.6-107-g64d78d7f6'
-  updated: '2026-04-21T11:25:38Z'
-  version: 4.2.6-107-g64d78d7f6
-  version_title: 4.2.6-107-g64d78d7f6
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-149-g32f3c35ea...4.2.6-152-g3ea683599'
+  updated: '2026-06-30T12:43:12Z'
+  version: 4.2.6-152-g3ea683599
+  version_title: 4.2.6-152-g3ea683599
 source: https://github.com/angband/angband
-stars: 1503
+stars: 1524
 systems:
 - 3DS
 - DS
@@ -250,3 +187,33 @@ version: 4.2.6
 version_title: Release 4.2.6
 ---
 Angband is a graphical dungeon adventure game that uses textual characters to represent the walls and floors of a dungeon and the inhabitants therein, in the vein of games like NetHack and Rogue. If you need help in-game, press ?.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-152-g3ea683599.3dsx</summary>
+<ol>
+<li>Download <code>Angband-4.2.6-152-g3ea683599-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-152-g3ea683599.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-152-g3ea683599.3dsx</code> on your SD card</li>
+<li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-152-g3ea683599.cia</summary>
+<ol>
+<li>Download <code>Angband-4.2.6-152-g3ea683599-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-152-g3ea683599.cia</code> from the zip to <code>/cias/Angband-4.2.6-152-g3ea683599.cia</code> on your SD card</li>
+<li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/Angband-4.2.6-152-g3ea683599.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-152-g3ea683599.nds</summary>
+<ol>
+<li>Download <code>Angband-4.2.6-152-g3ea683599-nds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-152-g3ea683599.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
+</ol>
+</details>
+

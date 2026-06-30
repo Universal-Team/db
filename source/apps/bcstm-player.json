@@ -1,7 +1,8 @@
 {
 	"github": "npid7/BCSTM-Player",
 	"categories": [
-		"app"
+		"app",
+		"media"
 	],
 	"systems": [
 		"3DS"

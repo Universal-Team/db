@@ -23,13 +23,14 @@ icon: https://raw.githubusercontent.com/joel16/3DShell/master/res/ic_launcher_fi
 image: https://raw.githubusercontent.com/joel16/3DShell/master/res/banner.png
 image_length: 10753
 layout: app
+llm_generation: 'no'
 qr:
   3DShell.cia: https://db.universal-team.net/assets/images/qr/3dshell-cia.png
 screenshots:
 - description: Settings
   url: https://db.universal-team.net/assets/images/screenshots/3dshell/settings.png
 source: https://github.com/joel16/3DShell
-stars: 345
+stars: 348
 systems:
 - 3DS
 title: 3DShell

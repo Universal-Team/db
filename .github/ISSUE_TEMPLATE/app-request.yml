@@ -16,6 +16,7 @@ body:
     attributes:
       label: Submission form
       description: Upload your JSON file here. You can also upload screenshots here.
+      placeholder: You can drag drop the file into the text area or click the text below it.
   - type: checkboxes
     attributes:
       label: Developer permission

@@ -1,0 +1,36 @@
+{
+	"github": "RedShyGuy/Vapecord-ACHHD-Plugin",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"installed_files": ["/VapecordACHHD"],
+	"scripts": {
+		"Plugin (All Regions)": [
+			{
+				"type": "downloadRelease",
+				"repo": "RedShyGuy/Vapecord-ACHHD-Plugin",
+				"file": "Vapecord-ACHHD.zip",
+				"output": "/Vapecord.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Vapecord.zip",
+				"input": "^luma/plugins",
+				"output": "/luma/plugins"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Vapecord.zip",
+				"input": "^VapecordACHHD",
+				"output": "/VapecordACHHD"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/Vapecord.zip"
+			}
+		]
+	}
+}

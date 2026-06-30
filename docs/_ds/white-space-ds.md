@@ -18,6 +18,7 @@ icon: https://db.universal-team.net/assets/images/icons/white-space-ds.png
 image: https://db.universal-team.net/assets/images/icons/white-space-ds.png
 image_length: 2104
 layout: app
+llm_generation: unknown
 qr:
   WHITE-SPACE-DS.nds: https://db.universal-team.net/assets/images/qr/white-space-ds-nds.png
 screenshots:
@@ -36,7 +37,6 @@ update_notes: <p dir="auto">First release!</p>
 updated: '2026-01-27T17:42:36Z'
 version: v1.0.0
 version_title: v1.0.0
-website: https://cavvdev.itch.io/whitespaceds
 ---
 WHITE SPACE DS is a fan game for Nintendo DS inspired by OMORI. It's a personal simulation of the WHITE SPACE: a calm, empty room where you can spend time with a few interactive objects while a gentle melody loops in the background.
 

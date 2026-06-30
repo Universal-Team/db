@@ -24,6 +24,7 @@ image_length: 20069
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: unknown
 qr:
   magic-draw.cia: https://db.universal-team.net/assets/images/qr/magic-draw-cia.png
 screenshots:
@@ -34,7 +35,7 @@ screenshots:
 - description: Title menu
   url: https://db.universal-team.net/assets/images/screenshots/magic-draw/title-menu.png
 source: https://github.com/natsuneco/magic-draw
-stars: 9
+stars: 11
 systems:
 - 3DS
 title: Magic Draw

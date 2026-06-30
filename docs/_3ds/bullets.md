@@ -17,6 +17,7 @@ icon: https://db.universal-team.net/assets/images/icons/bullets.png
 image: https://db.universal-team.net/assets/images/images/bullets.png
 image_length: 9666
 layout: app
+llm_generation: unknown
 screenshots:
 - description: Screenshot
   url: https://db.universal-team.net/assets/images/screenshots/bullets/screenshot.png

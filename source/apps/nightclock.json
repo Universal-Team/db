@@ -1,0 +1,16 @@
+{
+	"github": "Michele-3ds/NightClock",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/Michele-3ds/NightClock/main/icon.png",
+	"image": "https://raw.githubusercontent.com/Michele-3ds/NightClock/main/banner.png",
+	"unique_ids": [
+		1018896
+	],
+	"long_description": "A relaxing clock app for Nintendo 3ds called NightClock"
+}

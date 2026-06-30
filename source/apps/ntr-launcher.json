@@ -8,6 +8,7 @@
 	"categories": [
 		"utility"
 	],
+	"llm_generation": "no",
 	"icon": "https://raw.githubusercontent.com/ApacheThunder/NTR_Launcher/dsi/icon.bmp",
 	"long_description": "A DS Slot-1 Launcher. Original code from NitroHax but with cheat engine/menu stripped out. Useful for launching older DS flashcarts.\nCredits go to Chishm for NitroHax which this source is based from and WinterMute for dslink source/reset code.",
 	"installed_files": ["%NDS%/NTR_Launcher.nds"],
@@ -22,13 +23,13 @@
 			{
 				"type": "extractFile",
 				"file": "/NTR_Launcher.zip",
-				"input": "NTR_Launcher.cia",
+				"input": "^NTR_Launcher.cia",
 				"output": "/NTR_Launcher.cia"
 			},
 			{
 				"type": "extractFile",
 				"file": "/NTR_Launcher.zip",
-				"input": "NTR_Launcher",
+				"input": "^NTR_Launcher",
 				"output": "/NTR_Launcher"
 			},
 			{
@@ -54,13 +55,13 @@
 			{
 				"type": "extractFile",
 				"file": "/NTR_Launcher.zip",
-				"input": "title/00030004/4b535450/content/00000000.app",
+				"input": "^title/00030004/4b535450/content/00000000.app",
 				"output": "%NDS%/NTR_Launcher.nds"
 			},
 			{
 				"type": "extractFile",
 				"file": "/NTR_Launcher.zip",
-				"input": "NTR_Launcher",
+				"input": "^NTR_Launcher",
 				"output": "/NTR_Launcher"
 			},
 			{

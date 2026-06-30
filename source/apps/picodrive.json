@@ -24,13 +24,13 @@
 			{
 				"type": "extractFile",
 				"file": "/picodrive_3ds.zip",
-				"input": "picodrive_3ds.cia",
+				"input": "^picodrive_3ds.cia",
 				"output": "/picodrive_3ds.cia"
 			},
 			{
 				"type": "extractFile",
 				"file": "/picodrive_3ds.zip",
-				"input": "picodrive_3ds_top.png",
+				"input": "^picodrive_3ds_top.png",
 				"output": "/3ds/picodrive_3ds/picodrive_3ds_top.png"
 			},
 			{
@@ -56,13 +56,13 @@
 			{
 				"type": "extractFile",
 				"file": "/picodrive_3ds.zip",
-				"input": "picodrive_3ds.3dsx",
+				"input": "^picodrive_3ds.3dsx",
 				"output": "%3DSX%/picodrive_3ds.3dsx"
 			},
 			{
 				"type": "extractFile",
 				"file": "/picodrive_3ds.zip",
-				"input": "picodrive_3ds_top.png",
+				"input": "^picodrive_3ds_top.png",
 				"output": "/3ds/picodrive_3ds/picodrive_3ds_top.png"
 			},
 			{

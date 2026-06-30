@@ -29,11 +29,12 @@ image_length: 31440
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: unknown
 qr:
   SuperPhotoStudio.cia: https://db.universal-team.net/assets/images/qr/superphotostudio-cia.png
   SuperPhotoStudio.nds: https://db.universal-team.net/assets/images/qr/superphotostudio-nds.png
 source: https://github.com/RocketRobz/SuperAllStarPhotoStudio
-stars: 29
+stars: 30
 systems:
 - 3DS
 - DS

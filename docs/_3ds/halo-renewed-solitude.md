@@ -22,10 +22,11 @@ icon: https://raw.githubusercontent.com/ArcadeJumpers/RenewedSolitude3DS/master/
 image: https://raw.githubusercontent.com/ArcadeJumpers/RenewedSolitude3DS/master/icon.png
 image_length: 5116
 layout: app
+llm_generation: 'no'
 qr:
   RenewedSolitude.cia: https://db.universal-team.net/assets/images/qr/renewedsolitude-cia.png
 source: https://github.com/ArcadeJumpers/RenewedSolitude3DS
-stars: 18
+stars: 21
 systems:
 - 3DS
 title: Halo Renewed Solitude
@@ -88,3 +89,23 @@ updated: '2022-12-17T20:37:24Z'
 version: v1.2
 version_title: v1.21
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Revamped.cia</summary>
+<ol>
+<li>Download <code>RenewedSolitude.cia</code> to <code>/cias/RenewedSolitude.cia</code> on your SD card</li>
+<li>Download <code>RenewedSolitude.zip</code></li>
+<li>Extract <code>/RenewedSolitude</code> from the zip to <code>/3ds/RenewedSolitude</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/RenewedSolitude.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Revamped.3dsx</summary>
+<ol>
+<li>Download <code>RenewedSolitude.zip</code></li>
+<li>Extract <code>/RenewedSolitude</code> from the zip to <code>/3ds/RenewedSolitude</code> on your SD card</li>
+</ol>
+</details>
+

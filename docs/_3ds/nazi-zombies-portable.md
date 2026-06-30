@@ -12,7 +12,7 @@ download_filter: 3ds
 download_page: https://github.com/nzp-team/nzportable/releases
 downloads:
   nzportable-3ds.zip:
-    size: 72649465
+    size: 73064786
     size_str: 69 MiB
     url: https://github.com/nzp-team/nzportable/releases/download/nightly/nzportable-3ds.zip
 github: nzp-team/nzportable
@@ -20,6 +20,7 @@ icon: https://raw.githubusercontent.com/nzp-team/vril-engine/main/source/platfor
 image: https://raw.githubusercontent.com/nzp-team/vril-engine/main/source/platform/ctr/art/banner.png
 image_length: 66499
 layout: app
+llm_generation: unknown
 screenshots:
 - description: Gameplay 1
   url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/gameplay-1.png
@@ -34,7 +35,7 @@ screenshots:
 - description: Map selection
   url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/map-selection.png
 source: https://github.com/nzp-team/nzportable
-stars: 688
+stars: 757
 systems:
 - 3DS
 title: 'Nazi Zombies: Portable'
@@ -47,7 +48,7 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <ul dir="auto">
 
-  <li>Vril (PSP/3DS/NSPIRE Engine)</li>
+  <li>Game Assets</li>
 
   </ul>
 
@@ -76,9 +77,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <p dir="auto">You can also play the WebGL version at <a href="https://nzp.gay/"
   rel="nofollow">https://nzp.gay/</a></p>'
-updated: '2026-03-21T07:39:15Z'
+updated: '2026-06-15T13:23:12Z'
 version: nightly
-version_title: 2.0.0-indev+20260321073756
+version_title: 2.0.0-indev+20260615132148
 website: https://github.com/nzp-team/nzportable
 ---
 A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at War.
@@ -86,3 +87,14 @@ A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at Wa
 Feature-equivalent with Call of Duty: World at War on a generic level. Gameplay components are implemented, with minor parity differences. Most World at War maps and their gimmicks are not yet represented. Minor features from Call of Duty: Black Ops are also present.
 
 Features "Nacht der Untoten" and many maps created by the Community, bundled in.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>nzportable-3ds.zip</summary>
+<ol>
+<li>Download <code>nzportable-3ds.zip</code></li>
+<li>Extract everything from the zip to <code>/3ds/</code> on your SD card</li>
+</ol>
+</details>
+

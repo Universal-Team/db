@@ -21,8 +21,14 @@ image_length: 1560
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: unknown
+nightly:
+  download_page: https://github.com/profi200/open_agb_firm/actions
+  downloads:
+    open_agb_firm_nightly.zip:
+      url: https://nightly.link/profi200/open_agb_firm/workflows/c-cpp/master/open_agb_firm_nightly.zip
 source: https://github.com/profi200/open_agb_firm
-stars: 1222
+stars: 1248
 systems:
 - 3DS
 title: open_agb_firm
@@ -74,3 +80,14 @@ updated: '2024-12-24T13:26:59Z'
 version: beta_2024-12-24
 version_title: open_agb_firm beta build 2024-12-24
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[git] open_agb_firm.firm</summary>
+<ol>
+<li>Download <code>open_agb_firm_nightly.zip</code></li>
+<li>Extract <code>/open_agb_firm.firm</code> from the zip to <code>/luma/payloads/open_agb_firm.firm</code> on your SD card</li>
+<li>Extract <code>/3ds</code> from the zip to <code>/3ds</code> on your SD card</li>
+</ol>
+</details>
+

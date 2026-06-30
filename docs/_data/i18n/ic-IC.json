@@ -3,6 +3,7 @@
 	"title-3ds": "crwdns22850:0crwdne22850:0",
 	"title-ds": "crwdns22852:0crwdne22852:0",
 	"title-app-request": "crwdns46216:0crwdne46216:0",
+	"title-llm-usage-policy": "crwdns46695:0crwdne46695:0",
 	"title-error-404": "crwdns30054:0crwdne30054:0",
 	"by": "crwdns22854:0crwdne22854:0",
 	"published-with": "crwdns22856:0${repo}crwdne22856:0",
@@ -40,6 +41,7 @@
 	"catdesc-utility": "crwdns22990:0crwdne22990:0",
 	"catdesc-translation": "crwdns32142:0crwdne32142:0",
 	"submit-app-request": "crwdns22898:0crwdne22898:0",
+	"llm-policy": "crwdns46697:0crwdne46697:0",
 	"sort": "crwdns22900:0crwdne22900:0",
 	"title": "crwdns22902:0crwdne22902:0",
 	"author": "crwdns22904:0crwdne22904:0",
@@ -54,6 +56,8 @@
 	"created": "crwdns22920:0crwdne22920:0",
 	"last-updated": "crwdns22922:0crwdne22922:0",
 	"license": "crwdns22924:0crwdne22924:0",
+	"llm-usage": "crwdns46699:0crwdne46699:0",
+	"stars": "crwdns46701:0crwdne46701:0",
 	"system": "crwdns22926:0crwdne22926:0",
 	"unique-id": "crwdns32144:0crwdne32144:0",
 	"unique-ids": "crwdns32146:0crwdne32146:0",
@@ -83,5 +87,9 @@
 	"home-5": "crwdns46498:0crwdne46498:0",
 	"last-updated-apps": "crwdns22966:0crwdne22966:0",
 	"error-404": "crwdns30058:0crwdne30058:0",
-	"return-to-home": "crwdns30060:0crwdne30060:0"
+	"return-to-home": "crwdns30060:0crwdne30060:0",
+	"llm-none": "crwdns46703:0crwdne46703:0",
+	"llm-minor": "crwdns46705:0crwdne46705:0",
+	"llm-major": "crwdns46707:0crwdne46707:0",
+	"llm-undisclosed": "crwdns46709:0crwdne46709:0"
 }

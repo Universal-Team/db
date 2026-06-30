@@ -22,10 +22,11 @@ icon: https://raw.githubusercontent.com/badda71/TinyVNC/master/meta/icon.png
 image: https://raw.githubusercontent.com/badda71/TinyVNC/master/meta/banner.png
 image_length: 36242
 layout: app
+llm_generation: 'no'
 qr:
   TinyVNC.cia: https://db.universal-team.net/assets/images/qr/tinyvnc-cia.png
 source: https://github.com/badda71/TinyVNC
-stars: 69
+stars: 70
 systems:
 - 3DS
 title: TinyVNC

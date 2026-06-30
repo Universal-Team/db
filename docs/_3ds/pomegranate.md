@@ -3,6 +3,7 @@ author: sheepy
 avatar: https://avatars.githubusercontent.com/u/73724119?v=4
 categories:
 - app
+- media
 color: '#8a7585'
 color_bg: '#806c7b'
 created: '2025-07-30T12:35:13Z'
@@ -24,6 +25,7 @@ image_length: 32108
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: unknown
 qr:
   pomegranate.cia: https://db.universal-team.net/assets/images/qr/pomegranate-cia.png
 screenshots:
@@ -32,7 +34,7 @@ screenshots:
 - description: Playing
   url: https://db.universal-team.net/assets/images/screenshots/pomegranate/playing.png
 source: https://github.com/sheepy0125/pomegranate
-stars: 30
+stars: 37
 systems:
 - 3DS
 title: Pomegranate

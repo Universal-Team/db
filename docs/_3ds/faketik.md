@@ -19,8 +19,9 @@ image_length: 25856
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: 'no'
 source: https://github.com/ihaveamac/faketik
-stars: 111
+stars: 112
 systems:
 - 3DS
 title: faketik

@@ -15,6 +15,7 @@ downloads:
     size_str: 204 KiB
     url: https://db.universal-team.net/assets/files/Protista_manual.zip
 layout: app
+llm_generation: 'no'
 qr:
   Protista.nds: https://db.universal-team.net/assets/images/qr/protista-nds.png
 screenshots:

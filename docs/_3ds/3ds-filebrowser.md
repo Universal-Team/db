@@ -22,13 +22,16 @@ icon: https://raw.githubusercontent.com/ZIXT233/3DS-FileBrowser/master/meta/icon
 image: https://raw.githubusercontent.com/ZIXT233/3DS-FileBrowser/master/meta/banner.png
 image_length: 29741
 layout: app
+llm_generation: unknown
 qr:
   3ds-filebrowser.cia: https://db.universal-team.net/assets/images/qr/3ds-filebrowser-cia.png
 source: https://github.com/ZIXT233/3DS-FileBrowser
-stars: 18
+stars: 20
 systems:
 - 3DS
 title: 3DS-FileBrowser
+unique_ids:
+- '0x8889'
 update_notes: '<p dir="auto">First release, see readme.</p>
 
   <p dir="auto"><strong>Full Changelog</strong>: <a href="https://github.com/ZIXT233/3DS-FileBrowser/commits/v1.0.0">https://github.com/ZIXT233/3DS-FileBrowser/commits/v1.0.0</a></p>'

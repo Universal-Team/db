@@ -1,0 +1,35 @@
+{
+	"github": "SuperDubious-SmallLabs/GridLauncher",
+	"title": "GridLauncher",
+	"author": "mashers",
+	"description": "3DS Homebrew menu with fancy grids and cool customization features!",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app",
+		"utility"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/SuperDubious-SmallLabs/GridLauncher/refs/heads/main/icon.png",
+	"image": "https://raw.githubusercontent.com/wiki/SuperDubious-SmallLabs/GridLauncher/images/logodefault.png",
+	"long_description": "GridLauncher, originally created by mashers, is a fork of the original ninjhax Homebrew Launcher that adds a grid layout and extensive customization features for your homebrew experience. Now with Rosalina support!",
+	"wiki": "https://github.com/SuperDubious-SmallLabs/GridLauncher/wiki",
+	"installed_files": ["/boot.3dsx"],
+	"autogen_scripts": true,
+	"scripts": {
+		"boot.3dsx": [
+			{
+				"type": "promptMessage",
+				"message": "This will replace your existing\nHomebrew Launcher (boot.3dsx). Continue?",
+				"count": 1
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "SuperDubious-SmallLabs/GridLauncher",
+				"file": "gridlauncher.3dsx",
+				"output": "/boot.3dsx"
+			}
+		]
+	}
+}

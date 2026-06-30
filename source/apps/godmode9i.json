@@ -8,60 +8,9 @@
 	"systems": [
 		"DS"
 	],
+	"llm_generation": "no",
 	"image": "https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/resources/logo2.png",
 	"icon": "https://raw.githubusercontent.com/DS-Homebrew/GodMode9i/master/icon.bmp",
 	"wiki": "https://wiki.ds-homebrew.com/other/godmode9i",
-	"installed_files": ["%NDS%/GodMode9i.nds"],
-	"scripts": {
-		"GodMode9i.cia": [
-			{
-				"type": "downloadRelease",
-				"repo": "DS-Homebrew/GodMode9i",
-				"file": "GodMode9i.7z",
-				"output": "/GodMode9i.7z"
-			},
-			{
-				"type": "extractFile",
-				"file": "/GodMode9i.7z",
-				"input": "GodMode9i.nds",
-				"output": "/GodMode9i.nds"
-			},
-			{
-				"type": "extractFile",
-				"file": "/GodMode9i.7z",
-				"input": "GodMode9i.cia",
-				"output": "/GodMode9i.cia"
-			},
-			{
-				"type": "installCia",
-				"file": "/GodMode9i.cia"
-			},
-			{
-				"type": "deleteFile",
-				"file": "/GodMode9i.cia"
-			},
-			{
-				"type": "deleteFile",
-				"file": "/GodMode9i.7z"
-			}
-		],
-		"GodMode9i.nds": [
-			{
-				"type": "downloadRelease",
-				"repo": "DS-Homebrew/GodMode9i",
-				"file": "GodMode9i.7z",
-				"output": "/GodMode9i.7z"
-			},
-			{
-				"type": "extractFile",
-				"file": "/GodMode9i.7z",
-				"input": "GodMode9i.nds",
-				"output": "%NDS%/GodMode9i.nds"
-			},
-			{
-				"type": "deleteFile",
-				"file": "/GodMode9i.7z"
-			}
-		]
-	}
+	"installed_files": ["%NDS%/GodMode9i.nds", "%NDS%/GodMode9i.dsi"]
 }

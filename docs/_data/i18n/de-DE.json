@@ -3,6 +3,7 @@
 	"title-3ds": "3DS | Universal-DB",
 	"title-ds": "DS | Universal-DB",
 	"title-app-request": "App-Anfrage | Universal-DB",
+	"title-llm-usage-policy": "LLM-Nutzungsrichtlinie | Universal-DB",
 	"title-error-404": "Fehler 404 | Universal-DB",
 	"by": "Von: <a href=\"https://universal-team.net/\" class=\"link\">Universal-Team</a>",
 	"published-with": "Veröffentlicht mit <a href=\"https://pages.github.com\">GitHub Pages</a>. <a href=\"https://github.com/${repo}\">Der Quellcode</a> ist auf GitHub verfügbar.",
@@ -40,6 +41,7 @@
 	"catdesc-utility": "Hilfsprogramme, um den DS zu verwalten. Hier gibt es alles von Datei-Verwaltung bis zu Editoren für Speicherdaten",
 	"catdesc-translation": "Übersetzungen bestehender Apps in andere Sprachen",
 	"submit-app-request": "App-Anfrage senden",
+	"llm-policy": "LLM-Richtlinie",
 	"sort": "Sortieren nach:",
 	"title": "Titel",
 	"author": "Autor",
@@ -54,6 +56,8 @@
 	"created": "Erstellt: ",
 	"last-updated": "Zuletzt aktualisiert: ",
 	"license": "Lizenz: ",
+	"llm-usage": "LLM-Nutzung: ",
+	"stars": "Sterne: ",
 	"system": "System: ",
 	"unique-id": "Eindeutige ID: ",
 	"unique-ids": "Eindeutige IDs: ",
@@ -83,5 +87,9 @@
 	"home-5": "Möchtest du über neue Updates zu Homebrew informiert werden? Wir haben einen RSS-Feed auf dieser Seite. Kopiere einfach die URL dieser Seite in deinen bevorzugten RSS-Reader. Der RSS-Feed wird auch auf unserem <a href=\"https://universal-team.net/discord\">Discord-Server</a> in #universal-db-updates und auf unserem <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky-Konto</a> veröffentlicht!",
 	"last-updated-apps": "Zuletzt aktualisiert: ",
 	"error-404": "Fehler 404!",
-	"return-to-home": "Zurück zur <a href=\"/\">Startseite</a> oder zurück zur <span class=\"a\" onclick=\"window.history.back()\">vorherigen Seite</span>."
+	"return-to-home": "Zurück zur <a href=\"/\">Startseite</a> oder zurück zur <span class=\"a\" onclick=\"window.history.back()\">vorherigen Seite</span>.",
+	"llm-none": "Keine (oder minimal)",
+	"llm-minor": "Geringfügig",
+	"llm-major": "Großteils",
+	"llm-undisclosed": "Unbestimmt"
 }

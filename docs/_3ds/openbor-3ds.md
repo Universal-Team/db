@@ -25,6 +25,7 @@ image_length: 33143
 layout: app
 license: bsd-3-clause
 license_name: BSD 3-Clause "New" or "Revised" License
+llm_generation: 'no'
 qr:
   OpenBOR.cia: https://db.universal-team.net/assets/images/qr/openbor-cia.png
 source: https://github.com/MrHuu/openbor-3ds
@@ -43,5 +44,4 @@ update_notes: '<p dir="auto">Changes:</p>
   </ul>'
 updated: '2022-08-24T21:57:13Z'
 version: v0.0.6
-website: http://www.chronocrash.com
 ---

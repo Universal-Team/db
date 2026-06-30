@@ -1,0 +1,6 @@
+{
+	"release": {
+		"version": "v3.4.1",
+		"notes": "This release fixes an odd bug from v3.4.0 where the metadata file (containing marks and the update status of apps) stopped saving, thanks @syndenbock for the report! I also fixed a bug I'd noticed where Universal-Updater could crash if you exited while a thread was running. Italian and Russian translations have also been updated, thanks to everyone who's helped with translations!\n\nSee [v3.4.0's Release notes][v340] for full details on recent changes, the highlights were:\n\n- Universal-Updater now tracks installed apps (displayed by an SD card icon) and this can be used for filtering!\n- Added a \"NOT\" filtering option to invert the filter, most useful for filtering to only apps not installed\n- The search menu now includes all app names in the word completion dictionary!\n- Proxies are now properly supported!\n- The SSL CA certificate bundle is now be loaded from the SD card instead of RomFS\n\n[v340]: https://github.com/Universal-Team/Universal-Updater/releases/tag/v3.4.0"
+	}
+}

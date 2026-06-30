@@ -18,6 +18,7 @@ icon: https://db.universal-team.net/assets/images/icons/falling-blocks-watch-out
 image: https://db.universal-team.net/assets/images/images/falling-blocks-watch-out.png
 image_length: 1112
 layout: app
+llm_generation: 'no'
 source: https://github.com/Spaqin/fbwo-3ds
 stars: 12
 systems:
@@ -32,3 +33,24 @@ updated: '2016-03-06T09:43:45Z'
 version: v0.4.1
 version_title: FBWO v0.4.1
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>fbwo.3dsx</summary>
+<ol>
+<li>Download <code>fbwo.v0.4.1.zip</code></li>
+<li>Extract <code>/3ds/fbwo/fbwo.3dsx</code> from the zip to <code>/3ds/fbwo.3dsx</code> on your SD card</li>
+<li>Extract the contents of <code>/fbwodata/</code> from the zip to <code>/fbwodata/</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>fbwo.cia</summary>
+<ol>
+<li>Download <code>fbwo.v0.4.1.zip</code></li>
+<li>Extract <code>/fbwo.cia</code> from the zip to <code>/cias/fbwo.cia</code> on your SD card</li>
+<li>Extract the contents of <code>/fbwodata/</code> from the zip to <code>/fbwodata/</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/fbwo.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

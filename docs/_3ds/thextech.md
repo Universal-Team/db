@@ -12,10 +12,18 @@ description: The full port of the SMBX engine from VB6 into C++ and SDL2, FreeIm
 download_filter: 3ds
 download_page: https://github.com/TheXTech/TheXTech/releases
 downloads:
-  thextech-3ds-v1.3.7.2.zip:
-    size: 4271081
+  thextech-3ds-assets-aod-v1.3.7.3.zip:
+    size: 60025376
+    size_str: 57 MiB
+    url: https://github.com/TheXTech/TheXTech/releases/download/v1.3.7.3-1/thextech-3ds-assets-aod-v1.3.7.3.zip
+  thextech-3ds-assets-smbx13-v1.3.7.3.zip:
+    size: 48012828
+    size_str: 45 MiB
+    url: https://github.com/TheXTech/TheXTech/releases/download/v1.3.7.3-1/thextech-3ds-assets-smbx13-v1.3.7.3.zip
+  thextech-3ds-v1.3.7.3.zip:
+    size: 4225243
     size_str: 4 MiB
-    url: https://github.com/TheXTech/TheXTech/releases/download/v1.3.7.2-1/thextech-3ds-v1.3.7.2.zip
+    url: https://github.com/TheXTech/TheXTech/releases/download/v1.3.7.3-1/thextech-3ds-v1.3.7.3.zip
 github: TheXTech/TheXTech
 icon: https://raw.githubusercontent.com/TheXTech/TheXTech/main/resources/icon/thextech_48.png
 image: https://raw.githubusercontent.com/TheXTech/TheXTech/main/resources/wiiu/wuhb-splash.png
@@ -23,6 +31,7 @@ image_length: 121515
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 nightly:
   downloads:
     thextech-3ds-main.zip:
@@ -37,43 +46,77 @@ screenshots:
 - description: Smbx title
   url: https://db.universal-team.net/assets/images/screenshots/thextech/smbx-title.png
 source: https://github.com/TheXTech/TheXTech
-stars: 389
+stars: 400
 systems:
 - 3DS
 title: TheXTech
-update_notes: "<p dir=\"auto\">This is a minor hotfix for the 1.3.7.2 release that\
-  \ resolves an unexpected problem that occurs exclusively on 3DS, and might occur\
-  \ on Wii, and PSVita:</p>\n<p dir=\"auto\">(Watch this video with a sound)</p>\n\
-  <details open=\"\" class=\"details-reset border rounded-2\">\n  <summary class=\"\
-  tmp-px-3 py-2\">\n    <svg aria-hidden=\"true\" height=\"16\" viewBox=\"0 0 16 16\"\
-  \ version=\"1.1\" width=\"16\" data-view-component=\"true\" class=\"octicon octicon-device-camera-video\"\
-  >\n    <path d=\"M16 3.75v8.5a.75.75 0 0 1-1.136.643L11 10.575v.675A1.75 1.75 0\
-  \ 0 1 9.25 13h-7.5A1.75 1.75 0 0 1 0 11.25v-6.5C0 3.784.784 3 1.75 3h7.5c.966 0\
-  \ 1.75.784 1.75 1.75v.675l3.864-2.318A.75.75 0 0 1 16 3.75Zm-6.5 1a.25.25 0 0 0-.25-.25h-7.5a.25.25\
-  \ 0 0 0-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-6.5ZM11 8.825l3.5\
-  \ 2.1v-5.85l-3.5 2.1Z\"></path>\n</svg>\n    <span class=\"m-1\">file_3433.mp4</span>\n\
-  \    <span class=\"dropdown-caret\"></span>\n  </summary>\n\n  <video src=\"https://github.com/user-attachments/assets/fc8dd73f-6d64-4c27-a6ca-d6ba11d57b86\"\
-  \ data-canonical-src=\"https://github.com/user-attachments/assets/fc8dd73f-6d64-4c27-a6ca-d6ba11d57b86\"\
-  \ controls=\"controls\" muted=\"muted\" class=\"d-block rounded-bottom-2 border-top\
-  \ width-fit\" style=\"max-height:640px; min-height: 200px\">\n\n  </video>\n</details>\n\
-  \n<p dir=\"auto\">The resampling from the lower sample rate to higher might cause\
-  \ distortion of the final result like it gets played with an accelerated tempo.\
-  \ This hotfix update resolves this problem.</p>\n<p dir=\"auto\">This post contains\
-  \ Nintendo 3DS, Nintendo Wii, and PSVita only builds, for other platforms, you can\
-  \ download packages <a href=\"https://github.com/TheXTech/TheXTech/releases/tag/v1.3.7.2\"\
-  >at the main post here</a>. Also, all the binaries had been updated at the main\
-  \ post to prevent users downloading faulty builds without knowlege of that.</p>\n\
-  <h1 dir=\"auto\">Changelog</h1>\n<ul dir=\"auto\">\n<li>Fixed an incorrect resampling\
-  \ logic at the MixerX audio library that caused accelerated tempo of music on 3DS,\
-  \ Wii, and PSVita (<a class=\"user-mention notranslate\" data-hovercard-type=\"\
-  user\" data-hovercard-url=\"/users/Wohlstand/hovercard\" data-octo-click=\"hovercard-link-click\"\
-  \ data-octo-dimensions=\"link_type:self\" href=\"https://github.com/Wohlstand\"\
-  >@Wohlstand</a>)</li>\n</ul>"
-updated: '2025-12-28T10:08:55Z'
-version: v1.3.7.2-1
-version_title: 'TheXTech v1.3.7.2-hotfix1: Fixed distorted sound playback on 3DS,
-  Wii and PSVita'
-website: https://wohlsoft.ru/projects/TheXTech/
+update_notes: '<p dir="auto">This is a hotfix release for the 1.3.7.3 since there
+  are serious bugs were been found and were been fixed.</p>
+
+  <p dir="auto">You can read details for the original release here: <a href="https://github.com/TheXTech/TheXTech/releases/tag/v1.3.7.3">https://github.com/TheXTech/TheXTech/releases/tag/v1.3.7.3</a></p>
+
+  <h2 dir="auto">Hotfix changelog 1.3.7.3-hotfix1:</h2>
+
+  <ul dir="auto">
+
+  <li>Adjusted the IME start logic to enable it when direct text input is enabled
+  (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ds-sloth/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ds-sloth">@ds-sloth</a>)</li>
+
+  <li>Fixed build on FreeBSD (<a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/Wohlstand/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Wohlstand">@Wohlstand</a>
+  and also contributed by <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/Renkoto/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Renkoto">@Renkoto</a>)</li>
+
+  <li>Fixed behaviour of the MD5 algorithm on Big Endian hardware (<a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/ds-sloth/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ds-sloth">@ds-sloth</a>)</li>
+
+  <li><em>Fixed a critical bug of checkpoints being reset when re-entering normal
+  level from the hub</em> (<a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/Wohlstand/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Wohlstand">@Wohlstand</a>)</li>
+
+  <li>Fixed TheXTech bug where medals were incorrectly saved after death in hub worlds
+  (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/ds-sloth/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/ds-sloth">@ds-sloth</a>)</li>
+
+  </ul>
+
+  <hr>
+
+  <p dir="auto">All the downloads at the official site has been replaced with hotfix
+  builds.</p>'
+updated: '2026-06-22T20:49:35Z'
+version: v1.3.7.3-1
+version_title: 'TheXTech v1.3.7.3-1: A hotfix for 1.3.7.3 release'
 wiki: https://github.com/TheXTech/TheXTech/wiki
 ---
 This is a direct continuation of the SMBX 1.3 engine. Originally it was written in VB6 for Windows, and later, it got ported/rewritten into C++ and became a cross-platform engine. It completely reproduces the old SMBX 1.3 engine (aside from its Editor), includes many of its logical bugs (critical bugs that lead the game to crash or freeze got fixed), and also adds a lot of new updates and features. The original SMBX assets are not included, but a compatible preservation asset packs are available from wohlsoft.ru.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[assets] Adventures of Demo</summary>
+<ol>
+<li>Download <code>thextech-adventure-of-demo-assets-full-3ds.zip</code></li>
+<li>Extract <code>/thextech-adventure-of-demo-assets-full-3ds.romfs</code> from the zip to <code>/3ds/thextech/assets-aod.romfs</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>thextech.3dsx</summary>
+<ol>
+<li>Download <code>thextech-3ds-v1.3.7.3.zip</code></li>
+<li>Extract <code>/thextech-3ds/thextech.3dsx</code> from the zip to <code>/3ds/thextech.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[git] thextech.3dsx</summary>
+<ol>
+<li>Download <code>thextech-3ds-main.zip</code></li>
+<li>Extract <code>/thextech-3ds/thextech.3dsx</code> from the zip to <code>/3ds/thextech.3dsx</code> on your SD card</li>
+</ol>
+</details>
+

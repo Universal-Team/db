@@ -1,0 +1,9 @@
+{
+        "github": "cylin577/3DSC2",
+        "systems": ["3DS"],
+        "categories": ["app"],
+        "unique_ids": [114514],
+        "image": "https://raw.githubusercontent.com/cylin577/3DSC2/main/resources/banner.png",
+        "icon": "https://raw.githubusercontent.com/cylin577/3DSC2/main/resources/icon.png",
+        "long_description": "The calibration app for 3DSC2"
+}

@@ -24,6 +24,7 @@ image_length: 7534
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: unknown
 qr:
   Mars3D.cia: https://db.universal-team.net/assets/images/qr/mars3d-cia.png
 source: https://github.com/BotRandomness/Mars3DS
@@ -31,8 +32,8 @@ stars: 2
 systems:
 - 3DS
 title: Mars
-unique-ids:
-- 8993
+unique_ids:
+- '0x2321'
 update_notes: '<p dir="auto">Mars3DS, a retro style shooter 3DS homebrew, written
   in C++.</p>
 

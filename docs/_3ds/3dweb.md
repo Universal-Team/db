@@ -24,6 +24,7 @@ image_length: 12457
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: unknown
 prerelease:
   download_page: https://github.com/WLHQ/3DWEB/releases/tag/v1.0.2.1b
   downloads:

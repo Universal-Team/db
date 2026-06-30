@@ -1,87 +1,121 @@
 const ISSUE_URL = "https://github.com/Universal-Team/db/issues/new?template=app-request.yml&title=";
-const GITHUB_API = "https://api.github.com";
-const GITLAB_BASE = "https://gitlab.com";
-const GITLAB_API = `${GITLAB_BASE}/api/v4`;
+const GITHUB_API = "api.github.com";
+const GITLAB_BASE = "gitlab.com";
+const CODEBERG_BASE = "codeberg.org";
+
+let hasExported = false;
 
 let git = {
 	provider: null,
 	repo: null,
+	host: null,
 };
 
-let types = {
-	string: String,
-	textarea: String,
-	image: String,
+let defaults = {
+	string: "",
+	textarea: "",
+	image: "",
 	array: Array,
 	multiselect: Array,
-	bool: Boolean,
+	radio: "",
+	bool: false,
 };
+
+let defaultHosts = {
+	"github": GITHUB_API,
+	"gitlab": GITLAB_BASE,
+	"forgejo": CODEBERG_BASE
+}
 
 let appInfo = {};
 let appSchema = {
 	// Autofill
 	github: {type: "string", hidden: true},
 	gitlab: {type: "string", hidden: true},
+	gitlab_host: {type: "string", hidden: true},
+	forgejo: {type: "string", hidden: true},
+	forgejo_host: {type: "string", hidden: true},
 	title: {label: "App Title", type: "string", required: true},
 	description: {label: "Description", type: "string", maxLength: 256, required: true},
 	author: {label: "Author's Name", type: "string", required: true},
 	avatar: {label: "Author's Avatar", type: "image"},
 	// Required
 	systems: {label: "Native Systems", type: "multiselect", required: true, values: ["3DS", "DS"], labels: ["3DS", "DS"]},
-	categories: {label: "Categories", type: "multiselect", required: true, values: ["game", "emulator", "exploit", "app", "utility", "save-tool", "firm"], labels: ["Game", "Emulator", "Exploit", "App", "Utility", "Save Tool", "FIRM"]},
+	categories: {label: "Categories", type: "multiselect", required: true, values: ["game", "emulator", "app", "utility", "plugin", "firm", "exploit", "media", "save-tool"], labels: ["Game", "Emulator", "App", "Utility", "Plugin", "FIRM", "Exploit", "Multimedia", "Save Tool"]},
+	llm_generation: {label: "LLM Generated Content", type: "radio", required: true, values: ["yes", "minor", "no"], labels: ["Yes", "Minor (see guidelines!)", "No"], help: "If you have directly included the output of an LLM in any form in your work, then this should be 'yes'. This includes code, art, music, documentation, etc.\n\nIf you would like to self declare 'minor' LLM genertion, please make sure to check see the definition in the contribution guidelines linked above.\n\nLLM assistance (code analysis and review, debugging, etc) does not necessarily count as LLM generated content as long as the output is not directly incorporated into the work."},
 	icon: {label: "Icon", help: "Preferably 48x48 or 32x32. The icon is not technically necessary, avatar will be used as a fallback, but I didn't want people to skip it. Copy the avatar URL if you don't have an icon.", type: "image", required: true},
 	image: {label: "Banner Image", help: "Preferably a 3DS banner (256x128). Displayed on the Universal-DB website.", type: "image"},
 	// Common
 	unique_ids: {
 		label: "CIA Unique ID(s)",
 		help: 'The "UniqueId" in an RSF file. If you do not have a 3DS CIA build then skip this. Comma separated for multiple.',
-		type: "array", 
+		type: "array",
 		validate: str => {
-		let items = str.split(",").map(r => r.trim());
-		let output = [];
-		for(let item of items) {
-			if(/^(\d+|0x[\da-fA-F]+)$/.test(item)) {
-				let val = parseInt(item);
-				if(val <= 0xFFFFF && val >= 0)
-					output.push(val);
+			let items = str.split(",").map(r => r.trim());
+			let output = [];
+			for(let item of items) {
+				if(/^(\d+|0x[\da-fA-F]+)$/.test(item)) {
+					let val = parseInt(item);
+					if(val <= 0xFFFFF && val >= 0)
+						output.push(val);
+				}
 			}
-		}
 
-		return {status: !!output.length, value: output};
-	}},
+			return {status: !!output.length, value: output};
+		}
+	},
 	long_description: {label: "Long Description (Markdown)", help: "This is displayed on the Unviersal-DB website.", type: "textarea"},
 	website: {label: "App's Website", type: "string"},
 	wiki: {label: "App's Wiki", help: "If left blank this will be autofilled with the GitHub Wiki, I just haven't implemented the check for that into this form.", type: "string"},
+	license: {label: "License", help: "If this autofilled please do not change it, this exists for Forgejo.\n\nThis is the short form of the license ideally matching the GitHub API.\n\nEx: 'gpl-3.0', 'mit', 'cc0-1.0'.", type: "string"},
+	license_name: {label: "License Name", help: "If this autofilled please do not change it, this exists for Forgejo.\n\nThe long form of the license name, ideally matching the GitHub API.\n\nEx: 'GNU General Public License v3.0', 'MIT License', 'Creative Commons Zero v1.0 Universal'.", type: "string"},
 	download_filter: {label: "Download Filter (regex)", help: "File whitelist in case your app has files not caught by the blacklist. Most common of cross-platform apps.", type: "string"},
 	// Rare
-	autogen_scripts: {label: "Auto-generate Scripts", type: "bool", default: true},
+	autogen_scripts: {label: "Auto-generate Scripts", type: "bool", savedDefault: true},
 	script_message: {label: "Pre-install message", help: "The confirmation message to display in Universal-Updater before installing. Leave blank for most apps.", type: "string"},
 };
 
 let apiMappings = {
 	github: {
-		repoApi: `${GITHUB_API}/repos/`,
-		userApi: `${GITHUB_API}/users/`,
+		repoApi: "/repos/",
+		userApi: "/users/",
 		repo: {
 			github: "full_name",
 			avatar: "owner/avatar_url",
 			title: "name",
 			description: "description",
-			website: "html_url"
+			website: "html_url",
+			license: "license/key",
+			license_name: "license/name"
 		},
 		user: {
 			author: "name?login"
 		}
 	},
 	gitlab: {
-		repoApi: `${GITLAB_API}/projects/`,
+		repoApi: `/api/v4/projects/`,
 		repo: {
-			gitlab: "full_name",
+			gitlab: "path_with_namespace",
 			avatar: "namespace/avatar_url",
 			author: "namespace/name",
 			title: "name",
 			description: "description",
-			website: "web_url"
+			icon: "avatar_url",
+			website: "web_url",
+			license: "license/key",
+			license_name: "license/name"
+		}
+	},
+	forgejo: {
+		repoApi: `/api/v1/repos/`,
+		repo: {
+			forgejo: "full_name",
+			avatar: "owner/avatar_url",
+			author: "owner/full_name?owner/login",
+			title: "name",
+			description: "description",
+			icon: "avatar_url",
+			website: "website"
 		}
 	}
 };
@@ -107,33 +141,78 @@ function getSlug(str) {
 	return str.toLowerCase().replace(/[^\w-_]/g, "-");
 }
 
-function setGit(provider) {
+function setGit(provider, host) {
+	document.getElementById("git").value = provider;
 	git.provider = provider;
 
 	let gitDiv = document.getElementById("gitData");
 	gitDiv.innerHTML = "";
 
 	if(git.provider != "none") {
+		git.host = (host && host != "github.com") ? host : defaultHosts[git.provider];
+
+		let div = document.createElement("div");
+		div.classList.add("input-group");
+		gitDiv.appendChild(div);
+
 		let label = document.createElement("label");
 		label.classList.add("input-group-text");
 		label.htmlFor = "repo";
 		label.innerText = "Repository";
+		div.appendChild(label);
 
 		let input = document.createElement("input");
 		input.classList.add("form-control");
 		input.name = "repo";
 		input.id = "repo";
+		input.value = git.repo;
+		input.addEventListener("change", event => {
+			git.repo = event.target.value;
+			let value = git.repo.match(/(?:https:\/\/((github|gitlab|codeberg|gitea)\.(?:com|org))\/)?([\w._-]+\/[\w._-]+)/);
+			if(git.repo != value[3]) {
+				git.repo = value[3];
+				document.getElementById("repo").value = git.repo;
 
-		gitDiv.appendChild(label);
-		gitDiv.appendChild(input);
+				if(value[1]) {
+					setGit(value[2].replace(/codeberg|gitea/, "forgejo"), value[1]);
+				}
+			}
+		});
+		div.appendChild(input);
+
+		if(git.provider != "github") {
+			let div = document.createElement("div");
+			div.classList.add("input-group");
+			gitDiv.appendChild(div);
+
+			let label = document.createElement("label");
+			label.classList.add("input-group-text");
+			label.htmlFor = "host";
+			label.innerText = "Host";
+			div.appendChild(label);
+
+			let input = document.createElement("input");
+			input.classList.add("form-control");
+			input.name = "host";
+			input.id = "host";
+			input.value = git.host;
+			input.addEventListener("change", event => git.host = event.target.value);
+			div.appendChild(input);
+		}
 	}
 }
 
 async function fetchApi(url, mappings) {
-	let res = await fetch(url);
-	if(res.status != 200) {
-		error(`Error ${res.status}: Git repository not found`);
-		return false;
+	let res;
+	try {
+		res = await fetch(url);
+		if(res.status != 200) {
+			error(`Error ${res.status}: Git repository not found`);
+			return false;
+		}
+	} catch(e) {
+		error(e);
+		return;
 	}
 
 	let json = await res.json();
@@ -142,7 +221,7 @@ async function fetchApi(url, mappings) {
 		let maps = mappings[key].split("?");
 		for(let map of maps) {
 			temp = json;
-			map.split("/").forEach(r => temp = temp[r]);
+			map.split("/").forEach(r => temp = temp ? temp[r] : null);
 			if(temp)
 				break;
 		}
@@ -156,32 +235,32 @@ async function fetchApi(url, mappings) {
 
 async function fetchInfo() {
 	clearError();
+
+	hasExported = false;
+	for(let item in appSchema)
+		appSchema[item].default = appSchema[item].savedDefault;
+
 	if(git.provider != "none") {
-		git.repo = document.getElementById("repo").value;
-		let value = git.repo.match(/(?:https:\/\/(github|gitlab).com\/)?([\w._-]+\/[\w._-]+)/);
-		if(git.repo != value[2]) {
-			git.repo = value[2];
-			document.getElementById("repo").value = git.repo;
-
-			if(value[1]) {
-				git.provider = value[1];
-				document.getElementById("git").value = git.provider;
-			}
-		}
-
 		if(!git.repo)
 			return error("Repository not set!");
 
-		let apiRepo = git.provider == "gitlab" ? encodeURIComponent(git.repo) : git.repo;
-		let res = await fetchApi(apiMappings[git.provider].repoApi + apiRepo, apiMappings[git.provider].repo);
+		let apiRepo = git.provider == "gitlab" ? (encodeURIComponent(git.repo) + "?license=yes") : git.repo;
+		let res = await fetchApi("https://" + git.host + apiMappings[git.provider].repoApi + apiRepo, apiMappings[git.provider].repo);
 		if(!res)
 			return;
 
-		if(git.provider == "gitlab")
-			appSchema.avatar.default = GITLAB_BASE + appSchema.avatar.default;
-	
+		if(git.provider == "gitlab") {
+			appSchema.avatar.default = "https://" + git.host + appSchema.avatar.default;
+
+			if(git.host != GITLAB_BASE)
+				appSchema.gitlab_host.default = git.host;
+		}
+
+		if(git.provider == "forgejo")
+			appSchema.forgejo_host.default = git.host;
+
 		if(git.provider == "github") {
-			res = await fetchApi(apiMappings[git.provider].userApi + git.repo.split("/")[0], apiMappings[git.provider].user);
+			res = await fetchApi("https://" + git.host + apiMappings[git.provider].userApi + git.repo.split("/")[0], apiMappings[git.provider].user);
 			if(!res)
 				return;
 		}
@@ -202,11 +281,10 @@ function createInput(item, key) {
 			input.maxLength = item.maxLength;
 		input.addEventListener("change", event => {
 			clearError();
-			
+
 			let id = event.target.id;
 			if(appSchema[id].validate) {
 				let res = item.validate(event.target.value);
-				console.log(res)
 				if(res.status) {
 					appInfo[id] = res.value;
 					event.target.value = item.type == "array" ? res.value.join(", ") : res.value;
@@ -242,7 +320,6 @@ function createInput(item, key) {
 			let id = event.target.id;
 			if(appSchema[id].validate) {
 				let res = appSchema[id].validate(event.target.checked);
-				console.log(res)
 				if(res.status) {
 					appInfo[id] = res.value;
 					event.target.checked = res.value;
@@ -261,8 +338,9 @@ function createInput(item, key) {
 		div.classList.add("form-control");
 		div.appendChild(input);
 		return [div];
-	} else if(item.type == "multiselect") {
+	} else if(item.type == "multiselect" || item.type == "radio") {
 		let elements = [];
+		let isRadio = item.type != "multiselect";
 
 		for(let i in item.values) {
 			let option = item.values[i];
@@ -276,19 +354,38 @@ function createInput(item, key) {
 			let input = document.createElement("input");
 			input.classList.add("btn-check");
 			input.id = `${key}-${option}`;
-			input.type = "checkbox";
+			if(isRadio) input.name = key;
+			input.type = isRadio ? "radio" : "checkbox";
 			input.required = item.required;
-			input.addEventListener("change", event => {
-				clearError();
 
-				let [id, value] = event.target.id.split("-");
-				if(appInfo[id].includes(value)) {
-					appInfo[id].splice(appInfo[id].indexOf(value), 1);
-				} else {
-					appInfo[id].push(value);
-				}
-			});
-			
+			if(item.default == option) {
+				input.checked = true;
+			}
+
+			if(isRadio) {
+				input.addEventListener("change", event => {
+					clearError();
+					let [id, value] = event.target.id.split("-");
+					appInfo[id] = value;
+
+					let reset = document.getElementById(id + "-reset");
+					if(reset) {
+						reset.disabled = appInfo[id] == appSchema[id].default;
+					}
+				});
+			} else {
+				input.addEventListener("change", event => {
+					clearError();
+
+					let [_, id, value] = event.target.id.match(/(\w+)-(.+)/);
+					if(appInfo[id].includes(value)) {
+						appInfo[id].splice(appInfo[id].indexOf(value), 1);
+					} else {
+						appInfo[id].push(value);
+					}
+				});
+			}
+
 			elements.push(input);
 			elements.push(label);
 		}
@@ -299,11 +396,14 @@ function createInput(item, key) {
 function fillInfo() {
 	let div = document.getElementById("appData");
 	div.innerHTML = "";
+	appInfo = {};
 
 	for(let key in appSchema) {
 		let item = appSchema[key];
 
-		appInfo[key] = item.default ? item.default : new types[item.type];
+		appInfo[key] = item.default ? item.default : defaults[item.type];
+		if(typeof appInfo[key] == "function")
+			appInfo[key] = appInfo[key]();
 
 		if(item.hidden)
 			continue;
@@ -329,7 +429,7 @@ function fillInfo() {
 		}
 
 		createInput(item, key).forEach(r => inputGroup.appendChild(r));
-		
+
 		if (appSchema[key].default) {
 			let reset = document.createElement("input");
 			reset.classList.add("btn", "btn-outline-secondary");
@@ -342,15 +442,18 @@ function fillInfo() {
 				let id = event.target.htmlFor;
 				if(appSchema[id].type == "bool") {
 					document.getElementById(id).checked = appSchema[id].default;
+				} else if(appSchema[id].type == "radio") {
+					document.getElementById(`${id}-${appSchema[id].default}`).checked = true;
 				} else {
 					document.getElementById(id).value = appSchema[id].default;
 				}
+				appInfo[id] = appSchema[id].default;
 				event.target.disabled = true;
 			});
-			
+
 			inputGroup.appendChild(reset);
 		}
-		
+
 		// div.appendChild(document.createElement("br"));
 		div.append(inputGroup);
 	}
@@ -367,11 +470,20 @@ function fillInfo() {
 	submit.classList.add("btn", "btn-secondary", "ms-2");
 	submit.innerText = "Submit";
 	submit.href = ISSUE_URL + encodeURIComponent(appInfo.title);
+	submit.addEventListener("click", event => {
+		if(!hasExported) {
+			event.preventDefault();
+			error("You must export before submitting.");
+		}
+	});
+
 	div.appendChild(submit);
 }
 
 async function exportJson() {
 	clearError();
+
+	hasExported = true;
 
 	let clone = typeof structuredClone !== "undefined" ? structuredClone : obj => JSON.parse(JSON.stringify(obj));
 	let appExport = clone(appInfo);
@@ -384,8 +496,9 @@ async function exportJson() {
 			case "string":
 			case "textarea":
 			case "image":
-				blank = item == "";
-			break;
+			case "radio":
+				blank = item === "";
+				break;
 			case "array":
 			case "multiselect":
 				blank = item.length == 0;
@@ -410,7 +523,9 @@ async function exportJson() {
 				if(contentType.split("/")[0] != "image")
 					return error(`Error: Image '${schema.label ? schema.label : key}' is not an image! (Content Type: ${contentType})`);
 			} catch(err) {
-				return error("Error: Failed to fetch image, make sure you're using raw.githubusercontent.com");
+				let safeUrl = git.host == "github.com" ? "raw.githubusercontent.com" : git.host
+				if(git.host == "github.com" || !item.startsWith("https://" + git.host))
+					return error("Error: Failed to fetch image, make sure you're using " + safeUrl);
 			}
 		}
 

@@ -15,6 +15,7 @@ image_length: 9124
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
+llm_generation: 'no'
 prerelease:
   download_page: https://github.com/masterfeizz/EDuke3D/releases/tag/v1.0-beta
   downloads:
@@ -71,3 +72,23 @@ updated: '2016-05-08T04:36:44Z'
 version: v1.0-beta
 version_title: Beta release (fixed)
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[prerelease] EDuke3D.cia</summary>
+<ol>
+<li>Download <code>EDuke3D*.zip</code></li>
+<li>Extract everything from the zip to the root of your SD card</li>
+<li>Download <code>EDuke3D.cia</code> to <code>/cias/EDuke3D.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/EDuke3D.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[prerelease] eduke3d.3dsx</summary>
+<ol>
+<li>Download <code>EDuke3D*.zip</code></li>
+<li>Extract everything from the zip to the root of your SD card</li>
+</ol>
+</details>
+

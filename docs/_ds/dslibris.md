@@ -2,7 +2,8 @@
 author: Ray Haleblian
 avatar: https://avatars.githubusercontent.com/u/94912?v=4
 categories:
-- utility
+- app
+- media
 color: '#dedede'
 color_bg: '#808080'
 created: '2017-11-11T17:53:30Z'
@@ -18,6 +19,7 @@ icon: https://db.universal-team.net/assets/images/icons/dslibris.png
 image: https://db.universal-team.net/assets/images/images/dslibris.png
 image_length: 213
 layout: app
+llm_generation: unknown
 prerelease:
   download_page: https://github.com/rhaleblian/dslibris/releases/tag/v1.6.0
   downloads:
@@ -41,7 +43,7 @@ prerelease:
   version: v1.6.0
   version_title: 1.6.0
 source: https://github.com/rhaleblian/dslibris
-stars: 136
+stars: 143
 systems:
 - DS
 title: dslibris
@@ -50,3 +52,13 @@ updated: '2024-07-07T22:30:09Z'
 version: v1.5.2-2
 version_title: 1.5.2
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>dslibris.nds</summary>
+<ol>
+<li>Download <code>dslibris*.zip</code></li>
+<li>Extract everything from the zip to the root of your SD card</li>
+</ol>
+</details>
+

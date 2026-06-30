@@ -26,8 +26,8 @@
 			{
 				"type": "extractFile",
 				"file": "/Trogdor-Reburninated.zip",
-				"input": "Trogdor-Reburninated-3ds/3ds/",
-				"output": "/3ds/"
+				"input": "^Trogdor-Reburninated-3ds/3ds",
+				"output": "/3ds"
 			},
 			{
 				"type": "move",
@@ -49,13 +49,13 @@
 			{
 				"type": "extractFile",
 				"file": "/Trogdor-Reburninated.zip",
-				"input": "Trogdor-Reburninated-3ds-cia/3ds/",
-				"output": "/3ds/"
+				"input": "^Trogdor-Reburninated-3ds-cia/3ds",
+				"output": "/3ds"
 			},
 			{
 				"type": "extractFile",
 				"file": "/Trogdor-Reburninated.zip",
-				"input": "Trogdor-Reburninated-3ds-cia/cias/Trogdor-Reburninated.cia",
+				"input": "^Trogdor-Reburninated-3ds-cia/cias/Trogdor-Reburninated.cia",
 				"output": "/Trogdor-Reburninated.cia"
 			},
 			{

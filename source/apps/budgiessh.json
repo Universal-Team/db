@@ -2,5 +2,6 @@
 	"github": "Maxbrick/budgieSSH",
 	"systems": ["3DS"],
 	"categories": ["utility"],
+	"llm_generation": "no",
 	"long_description": "A working SSH client for the 3DS!    \nSSH = Secure Shell Connection; remotely access your computer via a virtual terminal from which you have full remote access to it.\n\nCurrently this client is very simple and does not yet support key authentication. I've tried and tried to make it work but so far it still doesn't. Key authentication is planned to work in a future update.\n\nPlease enjoy this app and give me feedback on my github page! https://github.com/Maxbrick/budgieSSH"
 }

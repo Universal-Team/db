@@ -25,6 +25,7 @@ image_length: 14039
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: unknown
 qr:
   Citrahold-3DS.cia: https://db.universal-team.net/assets/images/qr/citrahold-3ds-cia.png
 script_message: Please visit https://www.citrahold.com/ to get set-up
@@ -58,7 +59,6 @@ update_notes: '<h1 dir="auto">PLEASE READ -&gt; SET YOUR TIME ZONE CORRECTLY IN 
 updated: '2024-12-24T03:06:39Z'
 version: v1.1.2
 version_title: Citrahold 3DS v1.1.2
-website: https://www.citrahold.com/
 ---
 Citrahold provides you with everything you need to easily move game saves from a physical 3DS to a 3DS emulator on your computer (and vice versa).
 

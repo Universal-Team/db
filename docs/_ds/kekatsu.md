@@ -24,6 +24,7 @@ image_length: 265
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: unknown
 qr:
   Kekatsu.nds: https://db.universal-team.net/assets/images/qr/kekatsu-nds.png
 screenshots:
@@ -34,7 +35,7 @@ screenshots:
 - description: Kekatsu ds 3
   url: https://db.universal-team.net/assets/images/screenshots/kekatsu/kekatsu-ds-3.png
 source: https://github.com/cavv-dev/Kekatsu-DS
-stars: 48
+stars: 51
 systems:
 - DS
 title: Kekatsu

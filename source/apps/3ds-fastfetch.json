@@ -1,0 +1,11 @@
+{
+	"github": "xPsycho999/3ds-fastfetch",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"image": "https://raw.githubusercontent.com/xPsycho999/3ds-fastfetch/main/icons/iconA_device_big.png",
+	"icon": "https://raw.githubusercontent.com/xPsycho999/3ds-fastfetch/main/icons/iconA_device.png"
+}

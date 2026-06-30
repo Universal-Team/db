@@ -3,6 +3,7 @@ author: Core 2 Extreme, dixy52-beep (icon, banner, in app texture)
 avatar: https://avatars.githubusercontent.com/u/45873899?v=4
 categories:
 - app
+- media
 color: '#4ca5f1'
 color_bg: '#285780'
 created: '2021-04-02T02:28:20Z'
@@ -28,6 +29,7 @@ image_length: 12768
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: unknown
 qr:
   Video_player_for_3DS.cia: https://db.universal-team.net/assets/images/qr/video_player_for_3ds-cia.png
   Video_player_for_3DS_high_ram.cia: https://db.universal-team.net/assets/images/qr/video_player_for_3ds_high_ram-cia.png
@@ -35,7 +37,7 @@ screenshots:
 - description: Big buck bunny
   url: https://db.universal-team.net/assets/images/screenshots/video-player-for-3ds/big-buck-bunny.png
 source: https://github.com/Core-2-Extreme/Video_player_for_3DS
-stars: 246
+stars: 257
 systems:
 - 3DS
 title: Video player for 3DS
@@ -90,7 +92,6 @@ update_notes: '<p dir="auto"><strong>Changes</strong> <br>
 updated: '2026-04-17T14:00:21Z'
 version: v1.7.0
 version_title: Video player for 3DS v1.7.0
-website: https://gbatemp.net/threads/release-video-player-for-3ds.586094
 ---
 You can play .mp4 file on your 3DS!
 

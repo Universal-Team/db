@@ -67,7 +67,13 @@ layout: compress
 											{% endif %}
 											{% if page.stars > 0 %}
 												<br>
-												<span class="i18n innerHTML-stars">Stars: </span>{{ page.stars }}
+												<span class="i18n innerHTML-stars">Stars: </span><span class="i18n-number" data-value="{{ page.stars }}">{{ page.stars }}</span>
+											{% endif %}
+											{% if page.llm_generation %}
+												<br>
+												<span class="i18n innerHTML-llm-generation">LLM generated content: </span>
+												{% assign llm = page.llm_generation | prepend: "llm-" %}
+												{{ site.data.i18n.en-US[llm] }}
 											{% endif %}
 											{% if page.unique_ids.size >= 1 %}
 												<br>
@@ -114,7 +120,7 @@ layout: compress
 												{% endif %}
 											</span>
 										{% endfor %}
-										
+
 										{% if page.version and page.downloads %}
 											<br>
 											<small>
@@ -158,7 +164,7 @@ layout: compress
 													{% endif %}
 												</span>
 											{% endfor %}
-			
+
 											{% if page.prerelease.version %}
 												<br>
 												<small>
@@ -196,7 +202,7 @@ layout: compress
 													{% endif %}
 												</span>
 											{% endfor %}
-			
+
 											{% if page.nightly.download_page %}
 												<br>
 												<small>

@@ -17,10 +17,11 @@ github: Maxbrick/budgieSSH
 image: https://db.universal-team.net/assets/images/images/budgiessh.png
 image_length: 7359
 layout: app
-license: apache-2.0
-license_name: Apache License 2.0
+license: gpl-3.0
+license_name: GNU General Public License v3.0
+llm_generation: 'no'
 source: https://github.com/Maxbrick/budgieSSH
-stars: 11
+stars: 12
 systems:
 - 3DS
 title: budgieSSH

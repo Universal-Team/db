@@ -7,5 +7,6 @@
 	"categories": [
 		"utility"
 	],
+	"llm_generation": "yes",
 	"icon": "https://raw.githubusercontent.com/Dzhmelyk135/Luma3DSWeather/main/icon.png"
 }

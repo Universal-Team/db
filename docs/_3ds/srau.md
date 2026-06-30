@@ -25,6 +25,7 @@ image_length: 13110
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 qr:
   SRAU.cia: https://db.universal-team.net/assets/images/qr/srau-cia.png
 source: https://github.com/noirscape/SRAU
@@ -105,5 +106,22 @@ update_notes: '<p dir="auto">This release mostly adds in a lot of missing error 
 updated: '2018-04-13T20:16:16Z'
 version: v1.1
 version_title: Release v1.1
-website: https://discord.gg/Q6jmQcV
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>SRAU.3dsx</summary>
+<ol>
+<li>Download <code>SRAU.7z</code></li>
+<li>Extract <code>/SRAU.3dsx</code> from the 7z to <code>/3ds/SRAU.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>SRAU.cia</summary>
+<ol>
+<li>Download <code>SRAU.cia</code> to <code>/cias/SRAU.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/SRAU.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

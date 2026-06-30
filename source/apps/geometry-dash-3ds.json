@@ -1,0 +1,37 @@
+{
+	"github": "AleFunky/gd3ds",
+	"title": "Geometry Dash 3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/AleFunky/gd3ds/refs/heads/master/resources/icon.png",
+	"unique_ids": [
+		767004
+	],
+	"long_description": "Jump and fly your way through danger in this rhythm-based action platformer - now on 3DS! This fan-made port is in no way affiliated with RobTop Games, the creator of Geometry Dash, and all in game assets belong to their respective owners. If you want to get the full experience, please buy the original game!",
+	"autogen_scripts": true,
+	"scripts": {
+		"[extra] Level Pack": [
+			{
+				"type": "downloadRelease",
+				"repo": "AleFunky/gd3ds",
+				"file": "Geometry_Dash_3DS_Level_Pack.zip",
+				"output": "/Geometry_Dash_3DS_Level_Pack.zip"
+			},
+			{
+				"type": "extractFile",
+				"file": "/Geometry_Dash_3DS_Level_Pack.zip",
+				"input": "",
+				"output": "/3ds/gd3ds/"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/Geometry_Dash_3DS_Level_Pack.zip"
+			}
+		]
+	}
+}

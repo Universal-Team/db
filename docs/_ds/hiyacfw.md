@@ -20,8 +20,9 @@ image_length: 26522
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 source: https://github.com/DS-Homebrew/hiyaCFW
-stars: 175
+stars: 181
 systems:
 - DS
 title: hiyaCFW

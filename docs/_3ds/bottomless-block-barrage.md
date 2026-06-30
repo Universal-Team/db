@@ -24,6 +24,7 @@ image_length: 42720
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 qr:
   bottomless-block-barrage.cia: https://db.universal-team.net/assets/images/qr/bottomless-block-barrage-cia.png
 screenshots:
@@ -84,3 +85,21 @@ updated: '2017-09-11T08:23:56Z'
 version: v0.2.0
 version_title: Version 0.2.0
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>bottomless-block-barrage.cia</summary>
+<ol>
+<li>Download <code>bottomless-block-barrage.cia</code> to <code>/cias/bottomless-block-barrage.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/bottomless-block-barrage.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>bottomless-block-barrage.3dsx</summary>
+<ol>
+<li>Download <code>bottomless-block-barrage.zip</code></li>
+<li>Extract <code>/3ds/bottomless-block-barrage/bottomless-block-barrage.3dsx</code> from the zip to <code>/3ds/bottomless-block-barrage.3dsx</code> on your SD card</li>
+</ol>
+</details>
+

@@ -23,6 +23,7 @@ icon: https://raw.githubusercontent.com/TheCoolesttOne/3DS-Button-Test/refs/head
 image: https://raw.githubusercontent.com/TheCoolesttOne/3DS-Button-Test/refs/heads/main/icon.png
 image_length: 2070
 layout: app
+llm_generation: unknown
 qr:
   Button.Tester.cia: https://db.universal-team.net/assets/images/qr/button-tester-cia.png
 source: https://github.com/TheCoolesttOne/3DS-Button-Test
@@ -30,6 +31,8 @@ stars: 0
 systems:
 - 3DS
 title: 3DS Button Tester
+unique_ids:
+- '0xFF3FF'
 update_notes: <p dir="auto">this is the first release. (I know the 3dsx and cia have
   different names)</p>
 updated: '2024-09-13T22:43:20Z'

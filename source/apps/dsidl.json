@@ -6,5 +6,6 @@
 	"categories": [
 		"utility"
 	],
+	"llm_generation": "no",
 	"icon_static": "https://raw.githubusercontent.com/Epicpkmn11/dsidl/master/resources/icon/icon.0.png"
 }

@@ -24,6 +24,7 @@ image_length: 16398
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: unknown
 qr:
   Notebook3DS.cia: https://db.universal-team.net/assets/images/qr/notebook3ds-cia.png
 screenshots:
@@ -32,7 +33,7 @@ screenshots:
 - description: Guide
   url: https://db.universal-team.net/assets/images/screenshots/notebook3ds/guide.png
 source: https://github.com/Milk-Cool/Notebook3DS
-stars: 1
+stars: 4
 systems:
 - 3DS
 title: Notebook3DS

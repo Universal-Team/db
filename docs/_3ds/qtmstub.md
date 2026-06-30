@@ -20,8 +20,9 @@ image_length: 3202
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: unknown
 source: https://github.com/SNBeast/qtmStub
-stars: 1
+stars: 3
 systems:
 - 3DS
 title: qtmStub
@@ -56,3 +57,14 @@ If you believe your firmware may be too out of date, you can run System Update i
 1. Rename `0004013000004202.ips` to `code.ips`.
 1. Copy `code.ips` into `SD:/luma/titles/0004013000004202/`, creating folders as necessary.
 1. Enable *both* of the Luma settings `Enable loading external FIRMs and modules` and `Enable game patching`.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>0004013000004202.ips</summary>
+<ol>
+<li>This patch requires at least v13 of Luma3DS with "Enable loading external FIRMs and modules" enabled. Do you want to continue installation? If not, you're done!</li>
+<li>Download <code>0004013000004202.ips</code> to <code>/luma/sysmodules/0004013000004202.ips</code> on your SD card</li>
+</ol>
+</details>
+

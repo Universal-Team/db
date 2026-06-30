@@ -1,10 +1,11 @@
 ---
 author: akouzoukos
+avatar: https://gitea.com/avatars/10b706f9ce7051b068a8ad17aa543135506f9893d499cf7435d4c43a604a7663
 categories:
 - game
 color: '#ffe74a'
 color_bg: '#7d2999'
-created: '2022-04-16T00:02:43Z'
+created: '2023-10-27T20:04:22Z'
 description: A free and multiplatform block stacking game
 download_page: https://akouzoukos.com/apotris/downloads
 downloads:
@@ -12,12 +13,15 @@ downloads:
     size: 4655795
     size_str: 4 MiB
     url: https://apotrisstorage.blob.core.windows.net/binaries/Apotris-v4.1.03DS.zip
+forgejo: akouzoukos/apotris
+forgejo_host: gitea.com
 icon: https://db.universal-team.net/assets/images/icons/apotris.png
 image: https://db.universal-team.net/assets/images/images/apotris.png
 image_length: 2552
 layout: app
 license: AGPL-3.0-only
 license_name: GNU Affero General Public License v3.0 only
+llm_generation: unknown
 screenshots:
 - description: 01 block stacking gameplay
   url: https://db.universal-team.net/assets/images/screenshots/apotris/01-block-stacking-gameplay.png
@@ -34,7 +38,7 @@ screenshots:
 - description: 07 title screen
   url: https://db.universal-team.net/assets/images/screenshots/apotris/07-title-screen.png
 source: https://gitea.com/akouzoukos/apotris
-stars: 0
+stars: 33
 systems:
 - 3DS
 title: Apotris
@@ -157,3 +161,27 @@ The game is still actively maintained and new features are added constantly. If 
 * **2P Battle**: Battle your friends through the Link Cable or Wireless Adapter (GBA Only!)
 * **CPU Battle**: Go against an AI opponent
 * **Training**: Try out new strategies or improve your playing using the included Finesse Trainer
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Apotris.3dsx + assets</summary>
+<ol>
+<li>Download <code>Apotris-v4.1.03DS.zip</code></li>
+<li>Extract the contents of <code>/3ds/Apotris/assets/</code> from the zip to <code>/3ds/Apotris/assets/</code> on your SD card</li>
+<li>Extract the contents of <code>/3ds/Apotris/license/</code> from the zip to <code>/3ds/Apotris/license/</code> on your SD card</li>
+<li>Extract <code>/3ds/Apotris/Apotris.3dsx</code> from the zip to <code>/3ds/Apotris.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Apotris.cia + assets</summary>
+<ol>
+<li>Download <code>Apotris-v4.1.03DS.zip</code></li>
+<li>Extract the contents of <code>/3ds/Apotris/assets/</code> from the zip to <code>/3ds/Apotris/assets/</code> on your SD card</li>
+<li>Extract the contents of <code>/3ds/Apotris/license/</code> from the zip to <code>/3ds/Apotris/license/</code> on your SD card</li>
+<li>Extract <code>/3ds/Apotris/Apotris.cia</code> from the zip to <code>/cias/Apotris.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/Apotris.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

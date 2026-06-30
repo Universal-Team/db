@@ -21,6 +21,7 @@ icon: https://raw.githubusercontent.com/CrackedPixel/hackezi-3ds/refs/heads/main
 image: https://raw.githubusercontent.com/CrackedPixel/hackezi-3ds/refs/heads/main/hackezi_banner.png
 image_length: 12482
 layout: app
+llm_generation: unknown
 source: https://github.com/CrackedPixel/hackezi-3ds
 stars: 0
 systems:

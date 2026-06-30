@@ -18,8 +18,9 @@ icon: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
 image: https://raw.githubusercontent.com/fincs/new-hbmenu/master/icon.png
 image_length: 21865
 layout: app
+llm_generation: 'no'
 source: https://github.com/devkitPro/3ds-hbmenu
-stars: 840
+stars: 853
 systems:
 - 3DS
 title: 3ds-hbmenu
@@ -33,3 +34,13 @@ updated: '2024-05-03T19:18:09Z'
 version: v2.4.3
 version_title: 3DS Homebrew Menu v2.4.3
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>boot.3dsx</summary>
+<ol>
+<li>Download <code>3ds-hbmenu-*.zip</code></li>
+<li>Extract everything from the zip to the root of your SD card</li>
+</ol>
+</details>
+

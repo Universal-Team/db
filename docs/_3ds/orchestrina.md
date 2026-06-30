@@ -21,6 +21,7 @@ image_length: 14835
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 source: https://github.com/GlimmerDev/orchestrina
 stars: 18
 systems:
@@ -49,3 +50,61 @@ updated: '2017-03-30T01:49:01Z'
 version: v0.5.0-beta
 version_title: Orchestrina - Beta Release 5
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Song Files</summary>
+<ol>
+<li>Download <code>Song-of-Healing-(ST).pcm</code> to <code>/3ds/Orchestrina/data/Songs/Song of Healing (ST).pcm</code> on your SD card</li>
+<li>Download <code>Song-of-Double-Time.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Song of Double Time.pcm</code> on your SD card</li>
+<li>Download <code>Nocturne-of-Shadow.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Nocturne of Shadow.pcm</code> on your SD card</li>
+<li>Download <code>Song-of-Soaring.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Song of Soaring.pcm</code> on your SD card</li>
+<li>Download <code>Song-of-Passing.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Song of Passing.pcm</code> on your SD card</li>
+<li>Download <code>Song-of-Time.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Song of Time.pcm</code> on your SD card</li>
+<li>Download <code>Sonata-of-Awakening.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Sonata of Awakening.pcm</code> on your SD card</li>
+<li>Download <code>Minuet-of-Forest.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Minuet of Forest.pcm</code> on your SD card</li>
+<li>Download <code>Epona's-Song.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Epona's Song.pcm</code> on your SD card</li>
+<li>Download <code>Wind's-Requiem.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Wind's Requiem.pcm</code> on your SD card</li>
+<li>Download <code>Command-Melody.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Command Melody.pcm</code> on your SD card</li>
+<li>Download <code>Song-of-Storms.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Song of Storms.pcm</code> on your SD card</li>
+<li>Download <code>Sun's-Song.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Sun's Song.pcm</code> on your SD card</li>
+<li>Download <code>Inverted-Song-of-Time.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Inverted Song of Time.pcm</code> on your SD card</li>
+<li>Download <code>Song-of-Frogs.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Song of Frogs.pcm</code> on your SD card</li>
+<li>Download <code>Song-of-Healing-(MM).pcm</code> to <code>/3ds/Orchestrina/data/Songs/Song of Healing (MM).pcm</code> on your SD card</li>
+<li>Download <code>Bolero-of-Fire.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Bolero of Fire.pcm</code> on your SD card</li>
+<li>Download <code>Prelude-of-Light.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Prelude of Light.pcm</code> on your SD card</li>
+<li>Download <code>Song-of-Light.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Song of Light.pcm</code> on your SD card</li>
+<li>Download <code>Zelda's-Lullaby.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Zelda's Lullaby.pcm</code> on your SD card</li>
+<li>Download <code>Saria's-Song.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Saria's Song.pcm</code> on your SD card</li>
+<li>Download <code>Serenade-of-Water.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Serenade of Water.pcm</code> on your SD card</li>
+<li>Download <code>Earth-God's-Lyric.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Earth God's Lyric.pcm</code> on your SD card</li>
+<li>Download <code>Chai-Kingdom.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Chai Kingdom.pcm</code> on your SD card</li>
+<li>Download <code>Goron's-Lullaby.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Goron's Lullaby.pcm</code> on your SD card</li>
+<li>Download <code>Song-of-Birds.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Song of Birds.pcm</code> on your SD card</li>
+<li>Download <code>Oath-to-Order.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Oath to Order.pcm</code> on your SD card</li>
+<li>Download <code>Ballad-of-Gales.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Ballad of Gales.pcm</code> on your SD card</li>
+<li>Download <code>Song-of-Discovery.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Song of Discovery.pcm</code> on your SD card</li>
+<li>Download <code>Elegy-of-Emptiness.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Elegy of Emptiness.pcm</code> on your SD card</li>
+<li>Download <code>Wind-God's-Aria.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Wind God's Aria.pcm</code> on your SD card</li>
+<li>Download <code>Requiem-of-Spirit.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Requiem of Spirit.pcm</code> on your SD card</li>
+<li>Download <code>Song-of-Awakening.pcm</code> to <code>/3ds/Orchestrina/data/Songs/Song of Awakening.pcm</code> on your SD card</li>
+<li>Download <code>New-Wave-Bossa-Nova.pcm</code> to <code>/3ds/Orchestrina/data/Songs/New Wave Bossa Nova.pcm</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Orchestrina.3dsx</summary>
+<ol>
+<li>Download <code>Orchestrina.zip</code></li>
+<li>Extract <code>/3ds-arm/3ds/Orchestrina/Orchestrina.3dsx</code> from the zip to <code>/3ds/Orchestrina.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Orchestrina.cia</summary>
+<ol>
+<li>Download <code>Orchestrina.zip</code></li>
+<li>Extract <code>/3ds-arm/Orchestrina.cia</code> from the zip to <code>/cias/Orchestrina.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/Orchestrina.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

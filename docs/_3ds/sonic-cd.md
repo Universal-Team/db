@@ -10,11 +10,11 @@ description: An updated 3DS port of the Sonic CD (2011) Decompilation
 download_page: https://github.com/Voxel9/Sonic-CD-11-3DS-Redux/releases
 downloads:
   SonicCD.3dsx:
-    size: 1314036
+    size: 1313624
     size_str: 1 MiB
     url: https://github.com/Voxel9/Sonic-CD-11-3DS-Redux/releases/download/v1.2.0/SonicCD.3dsx
   SonicCD.cia:
-    size: 1257408
+    size: 1259456
     size_str: 1 MiB
     url: https://github.com/Voxel9/Sonic-CD-11-3DS-Redux/releases/download/v1.2.0/SonicCD.cia
 github: Voxel9/Sonic-CD-11-3DS-Redux
@@ -24,6 +24,7 @@ image_length: 61771
 layout: app
 license: other
 license_name: Other
+llm_generation: unknown
 qr:
   SonicCD.cia: https://db.universal-team.net/assets/images/qr/soniccd-cia.png
 screenshots:
@@ -43,7 +44,7 @@ script_message: 'Note: You will need "Data.rsdk" from
 
   "sdmc:/3ds/SonicCD" to play the game.'
 source: https://github.com/Voxel9/Sonic-CD-11-3DS-Redux
-stars: 31
+stars: 32
 systems:
 - 3DS
 title: Sonic CD
@@ -66,9 +67,7 @@ update_notes: '<p dir="auto">This is the third release of the updated Sonic CD 3
 
   <ul dir="auto">
 
-  <li>Also copy the decompiled scripts to the Scripts folder from here:</li>
-
-  <li><a href="https://github.com/RSDKModding/RSDKv3-Script-Decompilation">https://github.com/RSDKModding/RSDKv3-Script-Decompilation</a></li>
+  <li>Also copy the decompiled scripts to the Scripts folder from <a href="https://github.com/RSDKModding/RSDKv3-Script-Decompilation/tree/1aa415c280e4885f44a9417ae316254cd63d33a3">here</a></li>
 
   </ul>
 
@@ -104,7 +103,15 @@ update_notes: '<p dir="auto">This is the third release of the updated Sonic CD 3
 
   <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://user-images.githubusercontent.com/16278868/216816089-7fa60ff0-3ea5-4dd2-b27b-2c2d5ea3fc4e.png"><img
   src="https://user-images.githubusercontent.com/16278868/216816089-7fa60ff0-3ea5-4dd2-b27b-2c2d5ea3fc4e.png"
-  alt="qr-code" style="max-width: 100%;"></a></p>'
+  alt="qr-code" style="max-width: 100%;"></a></p>
+
+  <p dir="auto"><strong>Edit 2026/06:</strong> The release was recompiled to fix an
+  oversight where the compiler flag <code class="notranslate">RETRO_AUTOBUILD</code>
+  was required to be set when building for distribution. To build and enable the flag
+  without altering the source, this make command was used:<br>
+
+  <code class="notranslate">make ARCH="-DRSDK_AUTOBUILD=1 -march=armv6k -mtune=mpcore
+  -mfloat-abi=hard -mtp=soft"</code></p>'
 updated: '2025-02-02T03:57:25Z'
 version: v1.2.0
 version_title: v1.2.0

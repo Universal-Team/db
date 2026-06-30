@@ -3,6 +3,7 @@
 	"title-3ds": "3DS | Universal-DB",
 	"title-ds": "DS | Universal-DB",
 	"title-app-request": "App Request | Universal-DB",
+	"title-llm-usage-policy": "LLM Usage Policy | Universal-DB",
 	"title-error-404": "Feil 404 | Universal-DB",
 	"by": "Av: <a href=\"https://universal-team.net/\" class=\"link\">Universal-Team</a>",
 	"published-with": "Publisert med <a href=\"https://pages.github.com\">GitHub Pages</a>, vis <a href=\"https://github.com/${repo}\">kilden</a> på GitHub.",
@@ -40,6 +41,7 @@
 	"catdesc-utility": "Verktøy for å administrere DS-en din, fra filutforskere til lagrefilredigerere",
 	"catdesc-translation": "Oversettelser av eksisterende apper til andre språk",
 	"submit-app-request": "Send inn app-forespørsel",
+	"llm-policy": "LLM Policy",
 	"sort": "Sorter:",
 	"title": "Tittel",
 	"author": "Forfatter",
@@ -54,6 +56,8 @@
 	"created": "Opprettet: ",
 	"last-updated": "Sist oppdatert: ",
 	"license": "Lisens: ",
+	"llm-usage": "LLM Usage: ",
+	"stars": "Stars: ",
 	"system": "System: ",
 	"unique-id": "Unik ID: ",
 	"unique-ids": "Unike ID-er: ",
@@ -83,5 +87,9 @@
 	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our <a href=\"https://universal-team.net/discord\">Discord server</a>'s #universal-db-updates and to our <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky</a>!",
 	"last-updated-apps": "Nyligst oppdatert: ",
 	"error-404": "Feil! 404!",
-	"return-to-home": "Gå tilbake til <a href=\"/\">hjemmesiden</a> eller <span class=\"a\" onclick=\"window.history.back()\">gå tilbake</span> til forrige side."
+	"return-to-home": "Gå tilbake til <a href=\"/\">hjemmesiden</a> eller <span class=\"a\" onclick=\"window.history.back()\">gå tilbake</span> til forrige side.",
+	"llm-none": "None (or minimal)",
+	"llm-minor": "Minor",
+	"llm-major": "Major",
+	"llm-undisclosed": "Undisclosed"
 }

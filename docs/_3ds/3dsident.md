@@ -24,6 +24,7 @@ image_length: 21034
 layout: app
 license: zlib
 license_name: zlib License
+llm_generation: unknown
 qr:
   3DSident.cia: https://db.universal-team.net/assets/images/qr/3dsident-cia.png
 screenshots:
@@ -32,7 +33,7 @@ screenshots:
 - description: Storage
   url: https://db.universal-team.net/assets/images/screenshots/3dsident/storage.png
 source: https://github.com/joel16/3DSident
-stars: 360
+stars: 368
 systems:
 - 3DS
 title: 3DSident

@@ -16,6 +16,7 @@ image_length: 7315
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 prerelease:
   download_page: https://github.com/Epicpkmn11/dsidl/releases/tag/v0.1.1
   downloads:
@@ -49,7 +50,7 @@ screenshots:
 - description: Main menu
   url: https://db.universal-team.net/assets/images/screenshots/dsidl/main-menu.png
 source: https://github.com/Epicpkmn11/dsidl
-stars: 25
+stars: 27
 systems:
 - DS
 title: dsidl

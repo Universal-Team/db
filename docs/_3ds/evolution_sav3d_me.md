@@ -22,6 +22,7 @@ icon: https://raw.githubusercontent.com/Manurocker95/Evolution_Sav3D_Me/Evolutio
 image: https://db.universal-team.net/assets/images/images/evolution_sav3d_me.png
 image_length: 4888
 layout: app
+llm_generation: 'no'
 qr:
   Evolution_Sav3D_Me.cia: https://db.universal-team.net/assets/images/qr/evolution_sav3d_me-cia.png
 source: https://github.com/Manurocker95/Evolution_Sav3D_Me

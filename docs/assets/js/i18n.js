@@ -66,6 +66,13 @@ function loadHead(lang) {
 
 function loadLang(initing) {
 	const languageID = getLang();
+
+	const i18nNumbers = document.getElementsByClassName("i18n-number");
+	for(i = 0; i < i18nNumbers.length; i++) {
+		const element = i18nNumbers[i];
+		element.innerHTML = parseInt(element.dataset.value).toLocaleString(languageID);
+	}
+
 	if(!languageID || (initing && languageID == "en-US"))
 		return;
 

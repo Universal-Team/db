@@ -24,6 +24,7 @@ image_length: 14368
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: 'no'
 qr:
   screenshot-merge1.4.cia: https://db.universal-team.net/assets/images/qr/screenshot-merge1-4-cia.png
 screenshots:
@@ -69,5 +70,4 @@ update_notes: '<ul dir="auto">
 updated: '2018-02-02T21:52:20Z'
 version: '1.4'
 version_title: screenshot merge 1.4
-website: https://gbatemp.net/threads/405412/
 ---

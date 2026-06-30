@@ -18,6 +18,7 @@ icon: https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/icon.pn
 image: https://raw.githubusercontent.com/nop90/Xrick-3ds/master/resources/banner.png
 image_length: 21816
 layout: app
+llm_generation: 'no'
 source: https://github.com/nop90/Xrick-3ds
 stars: 2
 systems:
@@ -36,3 +37,22 @@ updated: '2017-03-10T20:41:13Z'
 version: v1.0
 version_title: Stable release
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Xrick.cia</summary>
+<ol>
+<li>Download <code>Xrick_v1.0.zip</code></li>
+<li>Extract <code>/Xrick.cia</code> from the zip to <code>/cias/Xrick.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/Xrick.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Xrick.3dsx</summary>
+<ol>
+<li>Download <code>Xrick_v1.0.zip</code></li>
+<li>Extract <code>/Xrick/Xrick.3dsx</code> from the zip to <code>/3ds/Xrick.3dsx</code> on your SD card</li>
+</ol>
+</details>
+

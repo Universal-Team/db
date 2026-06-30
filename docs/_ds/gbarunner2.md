@@ -31,13 +31,14 @@ icon: https://db.universal-team.net/assets/images/icons/gbarunner2.png
 image: https://db.universal-team.net/assets/images/images/gbarunner2.png
 image_length: 324
 layout: app
+llm_generation: 'no'
 qr:
   GBARunner2_arm7dldi_3ds.nds: https://db.universal-team.net/assets/images/qr/gbarunner2_arm7dldi_3ds-nds.png
   GBARunner2_arm7dldi_ds.nds: https://db.universal-team.net/assets/images/qr/gbarunner2_arm7dldi_ds-nds.png
   GBARunner2_arm7dldi_dsi.nds: https://db.universal-team.net/assets/images/qr/gbarunner2_arm7dldi_dsi-nds.png
   GBARunner2_arm9dldi_ds.nds: https://db.universal-team.net/assets/images/qr/gbarunner2_arm9dldi_ds-nds.png
 source: https://github.com/Gericom/GBARunner2
-stars: 910
+stars: 920
 systems:
 - DS
 title: GBARunner2
@@ -45,3 +46,12 @@ updated: '2020-08-12T11:17:41Z'
 version: v20200812-131430_6e4ce45
 wiki: https://wiki.ds-homebrew.com/gbarunner2/
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[twlmenu] GBARunner2_arm7dldi_3ds.nds</summary>
+<ol>
+<li>Download <code>GBARunner2_arm7dldi_3ds.nds</code> to <code>/_nds/GBARunner2_arm7dldi_3ds.nds</code> on your SD card</li>
+</ol>
+</details>
+

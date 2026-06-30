@@ -22,10 +22,11 @@ icon: https://raw.githubusercontent.com/masterfeizz/ctrQuake/master/icon.png
 image: https://db.universal-team.net/assets/images/images/ctrquake.png
 image_length: 3405
 layout: app
+llm_generation: 'no'
 qr:
   ctrQuake.cia: https://db.universal-team.net/assets/images/qr/ctrquake-cia.png
 source: https://github.com/masterfeizz/ctrQuake
-stars: 102
+stars: 104
 systems:
 - 3DS
 title: ctrQuake
@@ -44,3 +45,23 @@ updated: '2016-09-13T02:38:10Z'
 version: v0.8
 version_title: 8th Release - Online MP
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>ctrQuake.cia</summary>
+<ol>
+<li>Download <code>ctrQuake.zip</code></li>
+<li>Extract everything from the zip to the root of your SD card</li>
+<li>Download <code>ctrQuake.cia</code> to <code>/cias/ctrQuake.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/ctrQuake.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>ctrQuake.3dsx</summary>
+<ol>
+<li>Download <code>ctrQuake.zip</code></li>
+<li>Extract everything from the zip to the root of your SD card</li>
+</ol>
+</details>
+

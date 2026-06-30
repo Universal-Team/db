@@ -18,14 +18,14 @@
 			{
 				"type": "extractFile",
 				"file": "/Vapecord.zip",
-				"input": "luma/plugins/",
-				"output": "/luma/plugins/"
+				"input": "^luma/plugins",
+				"output": "/luma/plugins"
 			},
 			{
 				"type": "extractFile",
 				"file": "/Vapecord.zip",
-				"input": "Vapecord/",
-				"output": "/Vapecord/"
+				"input": "^Vapecord",
+				"output": "/Vapecord"
 			},
 			{
 				"type": "deleteFile",

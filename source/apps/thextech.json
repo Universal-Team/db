@@ -6,6 +6,7 @@
 	"categories": [
 		"game"
 	],
+	"llm_generation": "no",
 	"image": "https://raw.githubusercontent.com/TheXTech/TheXTech/main/resources/wiiu/wuhb-splash.png",
 	"icon": "https://raw.githubusercontent.com/TheXTech/TheXTech/main/resources/icon/thextech_48.png",
 	"long_description": "This is a direct continuation of the SMBX 1.3 engine. Originally it was written in VB6 for Windows, and later, it got ported/rewritten into C++ and became a cross-platform engine. It completely reproduces the old SMBX 1.3 engine (aside from its Editor), includes many of its logical bugs (critical bugs that lead the game to crash or freeze got fixed), and also adds a lot of new updates and features. The original SMBX assets are not included, but a compatible preservation asset packs are available from wohlsoft.ru.",
@@ -35,7 +36,7 @@
 			{
 				"type": "extractFile",
 				"file": "/assets-aod-3ds.zip",
-				"input": "thextech-adventure-of-demo-assets-full-3ds.romfs",
+				"input": "^thextech-adventure-of-demo-assets-full-3ds.romfs",
 				"output": "/3ds/thextech/assets-aod.romfs"
 			},
 			{

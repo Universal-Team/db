@@ -11,12 +11,12 @@ description: Custom Minecraft Classic / ClassiCube client written in C  from scr
 download_page: https://www.classicube.net/download/3ds
 downloads:
   ClassiCube-3ds.3dsx:
-    size: 780724
-    size_str: 762 KiB
+    size: 783268
+    size_str: 764 KiB
     url: https://cdn.classicube.net/client/latest/ClassiCube-3ds.3dsx
   ClassiCube-3ds.cia:
-    size: 631232
-    size_str: 616 KiB
+    size: 632768
+    size_str: 617 KiB
     url: https://cdn.classicube.net/client/latest/ClassiCube-3ds.cia
 github: ClassiCube/ClassiCube
 icon: https://raw.githubusercontent.com/ClassiCube/ClassiCube/master/misc/3ds/icon.png
@@ -25,10 +25,11 @@ image_length: 10600
 layout: app
 license: other
 license_name: Other
+llm_generation: unknown
 qr:
   ClassiCube-3ds.cia: https://db.universal-team.net/assets/images/qr/classicube-3ds-cia.png
 source: https://github.com/ClassiCube/ClassiCube
-stars: 1951
+stars: 1986
 systems:
 - 3DS
 title: ClassiCube

@@ -21,6 +21,7 @@ image_length: 43839
 layout: app
 license: mpl-2.0
 license_name: Mozilla Public License 2.0
+llm_generation: unknown
 nightly:
   download_page: https://mgba.io/downloads.html#development-downloads
   downloads:
@@ -38,7 +39,7 @@ screenshots:
 - description: Scale stretch
   url: https://db.universal-team.net/assets/images/screenshots/mgba/scale-stretch.png
 source: https://github.com/mgba-emu/mgba
-stars: 6985
+stars: 7133
 systems:
 - 3DS
 title: mGBA
@@ -75,6 +76,40 @@ update_notes: '<h3 dir="auto">Other fixes:</h3>
   </ul>'
 updated: '2025-03-09T03:59:39Z'
 version: 0.10.5
-website: https://mgba.io/
 wiki: https://github.com/mgba-emu/mgba/wiki
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>mgba.cia</summary>
+<ol>
+<li>Download <code>mGBA-0.10.5-3ds.7z</code></li>
+<li>Extract <code>/mGBA-*-3ds*/cia/mgba.cia</code> from the 7z to <code>/cias/mgba.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/mgba.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>mgba.3dsx</summary>
+<ol>
+<li>Download <code>mGBA-0.10.5-3ds.7z</code></li>
+<li>Extract <code>/mGBA-*-3ds*/3dsx/mgba.3dsx</code> from the 7z to <code>/3ds/mgba.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[git] mgba.cia</summary>
+<ol>
+<li>Download <code>mGBA-build-latest-3ds.7z</code></li>
+<li>Extract <code>/mGBA-*-3ds*/cia/mgba.cia</code> from the 7z to <code>/cias/mgba.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/mgba.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[git] mgba.3dsx</summary>
+<ol>
+<li>Download <code>mGBA-build-latest-3ds.7z</code></li>
+<li>Extract <code>/mGBA-*-3ds*/3dsx/mgba.3dsx</code> from the 7z to <code>/3ds/mgba.3dsx</code> on your SD card</li>
+</ol>
+</details>
+

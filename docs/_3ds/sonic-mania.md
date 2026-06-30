@@ -1,5 +1,5 @@
 ---
-author: SaturnSH2x2
+author: Alex
 avatar: https://avatars.githubusercontent.com/u/18273084?v=4
 categories:
 - game
@@ -24,6 +24,7 @@ image_length: 61351
 layout: app
 license: other
 license_name: Other
+llm_generation: unknown
 qr:
   SonicMania.cia: https://db.universal-team.net/assets/images/qr/sonicmania-cia.png
 screenshots:
@@ -41,7 +42,7 @@ script_message: 'Note: You will need "Data.rsdk" from
 
   "/3ds/SonicMania" to play the game.'
 source: https://github.com/SaturnSH2x2/RSDKv5-Decompilation
-stars: 103
+stars: 106
 systems:
 - 3DS
 title: Sonic Mania

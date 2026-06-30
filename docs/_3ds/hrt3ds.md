@@ -24,10 +24,11 @@ image_length: 57119
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: unknown
 qr:
   hrt3ds.cia: https://db.universal-team.net/assets/images/qr/hrt3ds-cia.png
 source: https://github.com/vinegar77/hrt-3ds
-stars: 4
+stars: 5
 systems:
 - 3DS
 title: hrt3DS

@@ -3,6 +3,7 @@ author: Cool Guy
 avatar: https://avatars.githubusercontent.com/u/46397838?v=4
 categories:
 - utility
+- save-tool
 color: '#46a2cb'
 color_bg: '#2c6680'
 created: '2025-11-16T04:15:26Z'
@@ -24,10 +25,11 @@ image_length: 8620
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0 or later
+llm_generation: unknown
 qr:
   SaveSync.cia: https://db.universal-team.net/assets/images/qr/savesync-cia.png
 source: https://github.com/coolguy1842/SaveSync
-stars: 8
+stars: 11
 systems:
 - 3DS
 title: SaveSync

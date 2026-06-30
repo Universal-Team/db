@@ -18,6 +18,7 @@ icon: https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/ico
 image: https://raw.githubusercontent.com/nop90/OpenSyobon3DS/master/resources/banner.png
 image_length: 24314
 layout: app
+llm_generation: 'no'
 source: https://github.com/nop90/OpenSyobon3DS
 stars: 11
 systems:
@@ -42,3 +43,22 @@ version: v1.2
 version_title: Open Syobon 3DS v1.2
 wiki: https://github.com/nop90/OpenSyobon3DS/wiki
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>OpenSyobon3DS.3dsx</summary>
+<ol>
+<li>Download <code>OpenSyobon3DS_v1.2.zip</code></li>
+<li>Extract <code>/3ds/OpenSyobon3DS/OpenSyobon3DS.3dsx</code> from the zip to <code>/3ds/OpenSyobon3DS.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>OpenSyobon3DS.cia</summary>
+<ol>
+<li>Download <code>OpenSyobon3DS_v1.2.zip</code></li>
+<li>Extract <code>/OpenSyobon3DS.cia</code> from the zip to <code>/cias/OpenSyobon3DS.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/OpenSyobon3DS.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

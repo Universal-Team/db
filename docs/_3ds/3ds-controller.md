@@ -25,13 +25,14 @@ image_length: 318
 layout: app
 license: other
 license_name: Other
+llm_generation: unknown
 qr:
   3ds_controller.cia: https://db.universal-team.net/assets/images/qr/3ds_controller-cia.png
 screenshots:
 - description: Main
   url: https://db.universal-team.net/assets/images/screenshots/3ds-controller/main.png
 source: https://github.com/icicle1133/3ds-Controller
-stars: 12
+stars: 16
 systems:
 - 3DS
 title: 3ds-Controller

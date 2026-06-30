@@ -25,6 +25,7 @@ image_length: 4470
 layout: app
 license: other
 license_name: Other
+llm_generation: 'no'
 qr:
   craftus_reloaded.cia: https://db.universal-team.net/assets/images/qr/craftus_reloaded-cia.png
 source: https://github.com/RSDuck/craftus_reloaded

@@ -36,6 +36,7 @@ image_length: 2124
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: unknown
 qr:
   ftpd-classic.cia: https://db.universal-team.net/assets/images/qr/ftpd-classic-cia.png
   ftpd.cia: https://db.universal-team.net/assets/images/qr/ftpd-cia.png
@@ -50,7 +51,7 @@ screenshots:
 - description: Transferring
   url: https://db.universal-team.net/assets/images/screenshots/ftpd/transferring.png
 source: https://github.com/mtheall/ftpd
-stars: 1652
+stars: 1675
 systems:
 - 3DS
 - DS

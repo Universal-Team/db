@@ -19,6 +19,7 @@ icon: https://raw.githubusercontent.com/bubble2k16/emus3ds/master/src/cores/temp
 image: https://db.universal-team.net/assets/images/images/temperpce.png
 image_length: 3236
 layout: app
+llm_generation: 'no'
 source: https://github.com/bubble2k16/temperpce_3ds
 stars: 38
 systems:
@@ -35,3 +36,22 @@ updated: '2018-03-19T15:38:20Z'
 version: v1.02
 version_title: v1.02
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>temperpce_3ds.cia</summary>
+<ol>
+<li>Download <code>temperpce_3ds*.zip</code></li>
+<li>Extract <code>/temperpce_3ds.cia</code> from the zip to <code>/cias/temperpce_3ds.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/temperpce_3ds.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>temperpce_3ds.3dsx</summary>
+<ol>
+<li>Download <code>temperpce_3ds*.zip</code></li>
+<li>Extract <code>/temperpce_3ds.3dsx</code> from the zip to <code>/3ds/temperpce_3ds.3dsx</code> on your SD card</li>
+</ol>
+</details>
+

@@ -25,11 +25,12 @@ image_length: 241
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 qr:
   NitroHax-usrcheat.cia: https://db.universal-team.net/assets/images/qr/nitrohax-usrcheat-cia.png
   NitroHax.dsi: https://db.universal-team.net/assets/images/qr/nitrohax-dsi.png
 source: https://github.com/Epicpkmn11/NitroHax3DS
-stars: 16
+stars: 17
 systems:
 - DS
 title: NitroHax3DS

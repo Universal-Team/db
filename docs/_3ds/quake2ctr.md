@@ -20,6 +20,7 @@ image_length: 6044
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
+llm_generation: 'no'
 qr:
   Quake2CTR.cia: https://db.universal-team.net/assets/images/qr/quake2ctr-cia.png
 screenshots:

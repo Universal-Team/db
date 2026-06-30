@@ -24,6 +24,7 @@ image_length: 4459
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 qr:
   DDLC-3DS.cia: https://db.universal-team.net/assets/images/qr/ddlc-3ds-cia.png
 screenshots:
@@ -32,47 +33,46 @@ screenshots:
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/ddlc-love/title-screen.png
 source: https://github.com/LukeZGD/DDLC-LOVE
-stars: 285
+stars: 291
 systems:
 - 3DS
 title: DDLC-LOVE
 unique_ids:
 - '0xDDFC'
-update_notes: '<p dir="auto"><strong>v1.2.3 Release:</strong></p>
+update_notes: '<p dir="auto"><strong>v1.1.9 Release:</strong></p>
 
   <ul dir="auto">
 
-  <li>This release is for the PS Vita, PSP, and LÖVE versions. For other systems,
-  <a href="https://github.com/LukeZGD/DDLC-LOVE/releases/tag/v1.1.9">go to v1.1.9</a></li>
+  <li>Downloads for other versions can be found here. Go to the <a href="https://github.com/LukeZGD/DDLC-LOVE/releases/latest">latest
+  version</a> for the PS Vita, PSP, and LÖVE versions</li>
+
+  <li>Limited support for PSP, Switch, 3DS, and PS3. Playing the DDLC-LOVE versions
+  for these systems is not recommended.</li>
 
   </ul>
 
-  <p dir="auto"><strong>v1.2.3 Changes:</strong></p>
+  <p dir="auto"><strong>Post-release update:</strong></p>
 
   <ul dir="auto">
 
-  <li>Update script-ch30.lua</li>
+  <li>Release has been updated to fix PSP and PS3 versions not launching</li>
 
-  <li>Add back PSP support</li>
-
-  </ul>
-
-  <p dir="auto"><strong>Notes:</strong></p>
-
-  <ul dir="auto">
-
-  <li>Final release. With better ways to play DDLC on Switch and Vita platforms, DDLC-LOVE
-  is no longer needed, and it will not be updated anymore.</li>
-
-  <li>For the PS Vita, I recommend using <a href="https://github.com/SonicMastr/Doki-Doki-Literature-Club-Vita">Doki-Doki-Literature-Club-Vita</a>
-  instead of DDLC-LOVE for the full desktop version (in Ren''Py) with support for
-  mods.</li>
-
-  <li>For the Switch, support Team Salvato and buy DDLC Plus! The original DDLC (in
-  Ren''Py) can also be run with Switchroot Ubuntu or Android with support for mods.</li>
+  <li>Removed the 3DS versions with broken save functionality and replaced them with
+  versions from <a href="https://github.com/LukeZGD/DDLC-LOVE/releases/v0.3.1">v0.3.1</a></li>
 
   </ul>'
-updated: '2021-09-16T07:03:42Z'
+updated: '2020-10-03T15:43:26Z'
 version: v1.1.9
-version_title: v1.2.3
+version_title: v1.1.9
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>DDLC-3DS.3dsx</summary>
+<ol>
+<li>Download <code>DDLC-3DS.zip</code></li>
+<li>Extract <code>/DDLC-3DS.3dsx</code> from the zip to <code>/3ds/DDLC-3DS.3dsx</code> on your SD card</li>
+<li>Extract <code>/game</code> from the zip to <code>/3ds/DDLC-3DS/game</code> on your SD card</li>
+</ol>
+</details>
+

@@ -19,14 +19,14 @@
 			{
 				"type": "extractFile",
 				"file": "/ASDS.zip",
-				"input": "portalDS.nds",
+				"input": "^portalDS.nds",
 				"output": "%NDS%/portalDS.nds"
 			},
 			{
 				"type": "extractFile",
 				"file": "/ASDS.zip",
-				"input": "asds/",
-				"output": "%NDS%/asds/"
+				"input": "^asds",
+				"output": "%NDS%/asds"
 			},
 			{
 				"type": "deleteFile",

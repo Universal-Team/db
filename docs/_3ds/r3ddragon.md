@@ -18,8 +18,9 @@ icon: https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/icon.png
 image: https://raw.githubusercontent.com/mrdanielps/r3Ddragon/master/resources/banner.png
 image_length: 5927
 layout: app
+llm_generation: 'no'
 source: https://github.com/mrdanielps/r3Ddragon
-stars: 130
+stars: 131
 systems:
 - 3DS
 title: r3Ddragon
@@ -58,3 +59,15 @@ version: v0.87
 version_title: v0.87
 wiki: https://github.com/mrdanielps/r3Ddragon/wiki
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>r3Ddragon.cia</summary>
+<ol>
+<li>Download <code>r3Ddragon-v0.87.zip</code></li>
+<li>Extract <code>/r3Ddragon.cia</code> from the zip to <code>/cias/r3Ddragon.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/r3Ddragon.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

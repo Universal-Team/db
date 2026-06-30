@@ -24,12 +24,13 @@ image_length: 18267
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 nightly:
   download_page: https://github.com/Universal-Team/3DVier/releases/tag/git
   downloads:
     3DVier.3dsx:
-      size: 700672
-      size_str: 684 KiB
+      size: 703964
+      size_str: 687 KiB
       url: https://github.com/Universal-Team/3DVier/releases/download/git/3DVier.3dsx
     3DVier.cia:
       size: 672704
@@ -37,14 +38,15 @@ nightly:
       url: https://github.com/Universal-Team/3DVier/releases/download/git/3DVier.cia
   qr:
     3DVier.cia: https://db.universal-team.net/assets/images/qr/git/3dvier-cia.png
-  update_notes: <p dir="auto">Pk11 - Disable NDS builds</p>
-  update_notes_md: 'Pk11 - Disable NDS builds
+  update_notes: '<p dir="auto">Pk11 - NDS: Switch to BlocksDS, update paths for DS
+    Pico</p>'
+  update_notes_md: 'Pk11 - NDS: Switch to BlocksDS, update paths for DS Pico
 
 
     '
-  updated: '2025-12-29T10:59:07Z'
+  updated: '2026-06-08T20:24:17Z'
   version: git
-  version_title: Continuous Build - 2aa1f32
+  version_title: Continuous Build - 812d6b2
 qr:
   3DVier.cia: https://db.universal-team.net/assets/images/qr/3dvier-cia.png
 screenshots:
@@ -103,6 +105,5 @@ update_notes: '<h2 dir="auto">Now it''s time for <a href="https://github.com/Uni
 updated: '2020-05-17T17:30:53Z'
 version: v0.1.0
 version_title: 3DVier's initial Release!
-website: https://universal-team.net/projects/3dvier
 wiki: https://github.com/Universal-Team/3DVier/wiki
 ---

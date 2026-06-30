@@ -23,6 +23,7 @@ icon: https://raw.githubusercontent.com/Golem642/NFCheckRem/main/NFCheckRem.png
 image: https://raw.githubusercontent.com/Golem642/NFCheckRem/main/NFCheckRem.png
 image_length: 13600
 layout: app
+llm_generation: unknown
 script_message: 'You will need to have "Game Patching" and "Loading external FIRMs
   and modules"
 
@@ -98,3 +99,19 @@ By disabling these checks, this means you can have write-enabled tags and they w
 And thus, you can reuse your tag forever without being constrained to have it as one specific Amiibo (you still have to rewrite it every time you want to change it)
 # Technical details
 See the [GitHub repository](https://github.com/Golem642/NFCheckRem)
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Old 3DS and Old 2DS</summary>
+<ol>
+<li>Download <code>0004013000004002.ips</code> to <code>/luma/sysmodules/0004013000004002.ips</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>New 3DS and New 2DS</summary>
+<ol>
+<li>Download <code>0004013000004002.ips</code> to <code>/luma/sysmodules/0004013000004002.ips</code> on your SD card</li>
+</ol>
+</details>
+

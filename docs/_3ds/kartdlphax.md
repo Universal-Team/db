@@ -2,7 +2,7 @@
 author: PabloMK7
 avatar: https://avatars.githubusercontent.com/u/10946643?v=4
 categories:
-- utility
+- plugin
 - exploit
 color: '#6a5452'
 color_bg: '#6a5452'
@@ -24,8 +24,9 @@ image_length: 57059
 layout: app
 license: unlicense
 license_name: The Unlicense
+llm_generation: 'no'
 source: https://github.com/PabloMK7/kartdlphax
-stars: 80
+stars: 81
 systems:
 - 3DS
 title: kartdlphax
@@ -38,3 +39,24 @@ updated: '2023-07-24T23:07:13Z'
 version: v1.3.3
 version_title: Fifth Release
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[EUR] plugin.3gx</summary>
+<ol>
+<li>Download <code>plugin.3gx</code> to <code>/luma/plugins/0004000000030700/plugin.3gx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[JPN] plugin.3gx</summary>
+<ol>
+<li>Download <code>plugin.3gx</code> to <code>/luma/plugins/0004000000030600/plugin.3gx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[USA] plugin.3gx</summary>
+<ol>
+<li>Download <code>plugin.3gx</code> to <code>/luma/plugins/0004000000030800/plugin.3gx</code> on your SD card</li>
+</ol>
+</details>
+

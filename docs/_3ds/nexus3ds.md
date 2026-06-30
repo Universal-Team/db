@@ -16,6 +16,7 @@ image_length: 102768
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: unknown
 prerelease:
   download_page: https://github.com/2b-zipper/Nexus3DS/releases/tag/0.3.0
   downloads:
@@ -71,7 +72,7 @@ script_message: 'This is a fork of Luma3DS. Using alternate forks of Luma3DS can
   If you experience any issues please reinstall the normal "Luma3DS" before anything
   else.'
 source: https://github.com/2b-zipper/Nexus3DS
-stars: 66
+stars: 74
 systems:
 - 3DS
 title: Nexus3DS

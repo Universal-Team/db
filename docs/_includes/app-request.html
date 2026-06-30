@@ -2,12 +2,12 @@
 
 <div class="input-group">
 	<label class="input-group-text" for="git">Git Provider</label>
-	<select class="form-control" name="git" id="git" onchange="setGit(event.target.value)">
+	<select class="form-control" name="git" id="git" onchange="setGit(event.target.value, null)">
 		<option value="none">None</option>
 		<option disabled>---</option>
 		<option value="github" selected>GitHub</option>
 		<option value="gitlab">GitLab</option>
-		<option value="bitbucket" disabled>BitBucket</option>
+		<option value="forgejo">Forgejo</option>
 	</select>
 </div>
 <div id="gitData" class="input-group"></div>

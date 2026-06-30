@@ -3,6 +3,7 @@ author: Erie Valley Software
 avatar: https://avatars.githubusercontent.com/u/65189871?v=4
 categories:
 - app
+- media
 color: '#46664c'
 color_bg: '#46664c'
 created: '2024-09-09T04:18:00Z'
@@ -25,10 +26,11 @@ image_length: 12327
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: unknown
 qr:
   FourthTube.cia: https://db.universal-team.net/assets/images/qr/fourthtube-cia.png
 source: https://github.com/erievs/FourthTube
-stars: 165
+stars: 173
 systems:
 - 3DS
 title: FourthTube

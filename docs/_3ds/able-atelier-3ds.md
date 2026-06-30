@@ -20,6 +20,7 @@ icon: https://raw.githubusercontent.com/Ghaztly97/Able-Atelier-3DS/main/assets/i
 image: https://raw.githubusercontent.com/Ghaztly97/Able-Atelier-3DS/main/assets/images/AABanner.png
 image_length: 3603
 layout: app
+llm_generation: unknown
 source: https://github.com/Ghaztly97/Able-Atelier-3DS
 stars: 1
 systems:

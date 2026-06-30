@@ -1,0 +1,11 @@
+{
+	"github": "Animalino5/MSPA-3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"long_description": "This is a Homestuck 3DS reader which works by fetching data from a Homestuck Mirror then displaying said data. (YOU NEED WIFI FOR THIS TO WORK)",
+	"script_message": "YOU NEED WIFI FOR THIS TO WORK"
+}

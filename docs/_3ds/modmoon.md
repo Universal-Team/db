@@ -24,6 +24,7 @@ image_length: 25780
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 qr:
   ModMoon.cia: https://db.universal-team.net/assets/images/qr/modmoon-cia.png
 screenshots:
@@ -34,7 +35,7 @@ screenshots:
 - description: Tools menu
   url: https://db.universal-team.net/assets/images/screenshots/modmoon/tools-menu.png
 source: https://github.com/Swiftloke/ModMoon
-stars: 74
+stars: 75
 systems:
 - 3DS
 title: ModMoon

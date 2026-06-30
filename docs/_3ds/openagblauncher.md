@@ -13,10 +13,13 @@ gbatemp: '36828'
 image: https://db.universal-team.net/assets/images/images/openagblauncher.png
 image_length: 8593
 layout: app
+llm_generation: 'no'
 stars: 0
 systems:
 - 3DS
 title: OpenAGBLauncher
+unique_ids:
+- '0xA9002'
 update_notes: '<p>First of all a HUGE thank you to <a href="https://gbatemp.net/members/nutez.439371/"
   rel="nofollow">Nutez</a>, without whom I probably wouldn''t even have been able
   to compile <a href="https://github.com/Ordim3n/That-Shortcut-Thingy">That-Shortcut-Thingy</a>.
@@ -73,3 +76,23 @@ First of all a HUGE thank you to <a class="link link--internal" href="https://gb
 <li data-xf-list-type="ul">If using FastBoot3DS, enable FCRAM boot.</li>
 <li data-xf-list-type="ul">Download <a class="link link--external" href="https://github.com/profi200/open_agb_firm/releases/latest" rel="nofollow ugc noopener" target="_blank">the latest open_agb_firm</a>, rename it to <i>"GBA.firm"</i>, and place it in the root of your SD card.</li>
 </ul>If there's no <i>"GBA.firm"</i>, it also looks for <i>"open_agb_firm.firm"</i> under <i>"/luma/payloads/".</i>
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>OpenAGBLauncher.3dsx</summary>
+<ol>
+<li>Download <code>download</code></li>
+<li>Extract <code>/OpenAGBLauncher.3dsx</code> from the zip to <code>/3ds/OpenAGBLauncher.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>OpenAGBLauncher.cia</summary>
+<ol>
+<li>Download <code>download</code></li>
+<li>Extract <code>/OpenAGBLauncher.cia</code> from the zip to <code>/cias/OpenAGBLauncher.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/OpenAGBLauncher.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

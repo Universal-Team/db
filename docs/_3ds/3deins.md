@@ -32,6 +32,7 @@ image_length: 8040
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 nightly:
   download_page: https://github.com/Universal-Team/3DEins/releases/tag/git
   downloads:
@@ -156,7 +157,6 @@ update_notes: '<h2 dir="auto">DSEins, the NDS version of 3DEins is now included 
 updated: '2020-06-20T15:33:33Z'
 version: v0.2.0
 version_title: 3DEins & DSEins v0.2.0!
-website: https://universal-team.net/projects/3deins
 wiki: https://github.com/Universal-Team/3DEins/wiki
 ---
 3DEins is a Cardgame for Nintendo 3DS. It's basically an UNO clone.

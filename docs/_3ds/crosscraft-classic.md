@@ -1,5 +1,5 @@
 ---
-author: Cross Craft Team
+author: CrossCraft
 avatar: https://avatars.githubusercontent.com/u/75173998?v=4
 categories:
 - game
@@ -31,13 +31,14 @@ image_length: 11793
 layout: app
 license: mpl-2.0
 license_name: Mozilla Public License 2.0
+llm_generation: 'no'
 screenshots:
 - description: Gameplay
   url: https://db.universal-team.net/assets/images/screenshots/crosscraft-classic/gameplay.png
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/crosscraft-classic/title-screen.png
 source: https://github.com/CrossCraft/CrossCraft-Classic
-stars: 121
+stars: 122
 systems:
 - 3DS
 title: CrossCraft Classic
@@ -110,3 +111,15 @@ version: v1.3
 version_title: '[v1.3] End of the Line'
 ---
 CrossCraft-Classic is a project that implements Minecraft Java Edition: Classic without looking at any of the source code of the original application and without using the original copyrighted assets. All knowledge is figured out with an understanding of in-game mechanics and is approximated to be as close as possible to the original. This project is NOT a clone of Minecraft, it is a fully implemented client.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>CrossCraft-Classic.3dsx</summary>
+<ol>
+<li>Download <code>CrossCraft-3DS.zip</code></li>
+<li>Extract <code>/CrossCraft-Classic.3dsx</code> from the zip to <code>/3ds/CrossCraft-Classic.3dsx</code> on your SD card</li>
+<li>Extract the contents of <code>/CrossCraft-Classic/</code> from the zip to <code>/CrossCraft-Classic/</code> on your SD card</li>
+</ol>
+</details>
+

@@ -23,11 +23,12 @@ image_length: 1529
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
+llm_generation: unknown
 qr:
   BootNTRSelector-Mode3-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-mode3-pablomk7-banner-cia.png
   BootNTRSelector-PabloMK7-Banner.cia: https://db.universal-team.net/assets/images/qr/bootntrselector-pablomk7-banner-cia.png
 source: https://github.com/xzn/ntr-hr
-stars: 189
+stars: 198
 systems:
 - 3DS
 title: NTR-HR

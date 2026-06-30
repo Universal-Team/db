@@ -28,6 +28,7 @@ image_length: 37543
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
+llm_generation: unknown
 qr:
   PrBoom-Plus.cia: https://db.universal-team.net/assets/images/qr/prboom-plus-cia.png
 screenshots:
@@ -44,7 +45,7 @@ screenshots:
 - description: Title
   url: https://db.universal-team.net/assets/images/screenshots/prboom/title.png
 source: https://github.com/Voxel9/PrBoom-Plus-3DS
-stars: 47
+stars: 48
 systems:
 - 3DS
 title: PrBoom+

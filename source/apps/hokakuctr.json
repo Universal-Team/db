@@ -5,7 +5,7 @@
 		"3DS"
 	],
 	"categories": [
-		"utility"
+		"plugin"
 	],
 	"description": "A 3DS game plugin (3GX) to dump the RMC communication between 3DS games and NEX. The traffic is dumped to the SD into pcap files.",
 	"website": "https://pretendo.network/",

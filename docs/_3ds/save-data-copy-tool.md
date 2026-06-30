@@ -20,6 +20,7 @@ image_length: 25856
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: 'no'
 source: https://github.com/ihaveamac/save-data-copy-tool
 stars: 8
 systems:

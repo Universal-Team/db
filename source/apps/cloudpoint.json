@@ -1,0 +1,18 @@
+{
+	"github": "dwalker109/cloudpoint",
+	"title": "Cloudpoint",
+	"author": "dwalker109",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"save-tool",
+		"utility"
+	],
+	"icon": "https://media.githubusercontent.com/media/dwalker109/cloudpoint/refs/heads/main/cloudpoint_app/cia/icon.png",
+	"image": "https://media.githubusercontent.com/media/dwalker109/cloudpoint/refs/heads/main/cloudpoint_app/cia/banner.png",
+	"unique_ids": [
+		1044481
+	],
+	"long_description": "Cloudpoint allows you to sync all of your saves (and extdata) between all of your 3DS & 2DS devices, \nvia a central server. Transfer progress between consoles effortlessly, the way you're probably used \nto from more modern systems. Or PS Vita."
+}

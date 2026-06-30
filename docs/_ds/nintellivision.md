@@ -24,13 +24,14 @@ icon: https://db.universal-team.net/assets/images/icons/nintellivision.png
 image: https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png
 image_length: 40671
 layout: app
+llm_generation: unknown
 qr:
   NINTV-DS.nds: https://db.universal-team.net/assets/images/qr/nintv-ds-nds.png
 script_message: 'You need "grom.bin", "exec.bin",
 
   and optionally "ivoice.bin" in the folder with your ROM files.'
 source: https://github.com/wavemotion-dave/NINTV-DS
-stars: 54
+stars: 57
 systems:
 - DS
 title: Nintellivision

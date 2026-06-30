@@ -29,6 +29,7 @@ image_length: 1209
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: 'no'
 qr:
   Snake2DS.cia: https://db.universal-team.net/assets/images/qr/snake2ds-cia.png
 source: https://github.com/Jacudibu/Snake2DS
@@ -53,3 +54,13 @@ updated: '2016-06-16T14:28:38Z'
 version: v1.0
 version_title: Release v1.0
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Snake2DS.3dsx</summary>
+<ol>
+<li>Download <code>Snake2DS-3DSFiles*.zip</code></li>
+<li>Extract <code>/Snake2DS</code> from the zip to <code>/3ds/Snake2DS</code> on your SD card</li>
+</ol>
+</details>
+

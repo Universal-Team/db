@@ -3,6 +3,7 @@ author: Mahyar Koshkouei
 avatar: https://avatars.githubusercontent.com/u/3747104?v=4
 categories:
 - app
+- media
 color: '#f7f6f7'
 color_bg: '#807f80'
 created: '2016-10-23T18:40:55Z'
@@ -28,10 +29,11 @@ image_length: 11483
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: unknown
 qr:
   ctrmus.cia: https://db.universal-team.net/assets/images/qr/ctrmus-cia.png
 source: https://github.com/deltabeard/ctrmus
-stars: 132
+stars: 138
 systems:
 - 3DS
 title: ctrmus
@@ -64,3 +66,20 @@ updated: '2025-10-18T09:13:25Z'
 version: v0.5.3
 version_title: 0.5.3
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>ctrmus.3dsx</summary>
+<ol>
+<li>Download <code>ctrmus.3dsx</code> to <code>/3ds/ctrmus.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>ctrmus.cia</summary>
+<ol>
+<li>Download <code>ctrmus.cia</code> to <code>/cias/ctrmus.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/ctrmus.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

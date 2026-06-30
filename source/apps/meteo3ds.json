@@ -1,0 +1,15 @@
+{
+	"github": "xPsycho999/Meteo3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"unique_ids": [
+		994394
+	],
+	"llm_generation": "yes",
+	"image": "https://raw.githubusercontent.com/xPsycho999/Meteo3DS/main/cia/banner.png",
+	"icon": "https://raw.githubusercontent.com/xPsycho999/Meteo3DS/main/icon.png"
+}

@@ -3,6 +3,7 @@
 	"title-3ds": "3DS | Universal-DB",
 	"title-ds": "DS | Universal-DB",
 	"title-app-request": "App Request | Universal-DB",
+	"title-llm-usage-policy": "LLM Usage Policy | Universal-DB",
 	"title-error-404": "Eroare 404 | Universal-DB",
 	"by": "De: <a href=\"https://universal-team.net/\" class=\"link\">Universal-Team</a>",
 	"published-with": "Publicat cu <a href=\"https://pages.github.com\">Pagini GitHub</a>, vizualizați <a href=\"https://github.com/${repo}\">sursa</a> pe GitHub.",
@@ -40,6 +41,7 @@
 	"catdesc-utility": "Utilități ce vă ajută să vă administrați consola DS, de la manageri de fișiere până la editori de fișiere de salvare",
 	"catdesc-translation": "Traduceri ale aplicațiilor existente în alte limbi",
 	"submit-app-request": "Trimiteți cereri pentru aplicații",
+	"llm-policy": "LLM Policy",
 	"sort": "Sortare:",
 	"title": "Titlu",
 	"author": "Autor",
@@ -54,6 +56,8 @@
 	"created": "Creat: ",
 	"last-updated": "Ultima actualizare: ",
 	"license": "Licență: ",
+	"llm-usage": "LLM Usage: ",
+	"stars": "Stars: ",
 	"system": "Sistem: ",
 	"unique-id": "ID Unic: ",
 	"unique-ids": "ID-uri Unice: ",
@@ -83,5 +87,9 @@
 	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our <a href=\"https://universal-team.net/discord\">Discord server</a>'s #universal-db-updates and to our <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky</a>!",
 	"last-updated-apps": "Ultima actualizare: ",
 	"error-404": "Eroare! 404!",
-	"return-to-home": "Întoarceți-vă la <a href=\"/\">pagina principală</a> sau <span class=\"a\" onclick=\"window.history.back()\">întoarceți-vă</span> la pagina anterioară."
+	"return-to-home": "Întoarceți-vă la <a href=\"/\">pagina principală</a> sau <span class=\"a\" onclick=\"window.history.back()\">întoarceți-vă</span> la pagina anterioară.",
+	"llm-none": "None (or minimal)",
+	"llm-minor": "Minor",
+	"llm-major": "Major",
+	"llm-undisclosed": "Undisclosed"
 }

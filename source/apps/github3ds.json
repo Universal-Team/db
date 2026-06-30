@@ -1,5 +1,5 @@
 {
-	"gitlab": "MorrisTheGamer/GitHub3DS",
+	"gitlab": "gitbrew/GitHub3DS",
 	"description": "Search for github repositorys, download files, star repositorys and watch a list of 3ds homebrew related apps",
 	"author": "Morris, Artendo",
 	"avatar": "https://avatars.githubusercontent.com/u/271882124?v=4",
@@ -16,5 +16,5 @@
 		987965
 	],
 	"long_description": "Download files from github on your 3ds, and Search for repositorys, star repositorys, and watch a big list of 3ds homebrew related repositorys",
-	"wiki": "https://gitlab.com/MorrisTheGamer/github3ds/-/wikis/home"
+	"wiki": "https://gitlab.com/gitbrew/github3ds/-/wikis/home"
 }

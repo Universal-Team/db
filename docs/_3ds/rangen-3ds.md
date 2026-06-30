@@ -13,6 +13,7 @@ icon: https://raw.githubusercontent.com/ashbit06/RanGen-3DS/refs/heads/master/ic
 image: https://raw.githubusercontent.com/ashbit06/RanGen-3DS/refs/heads/master/icon.png
 image_length: 1480
 layout: app
+llm_generation: unknown
 prerelease:
   download_page: https://github.com/ashbit06/RanGen-3DS/releases/tag/v0.1.1-alpha
   downloads:
@@ -37,7 +38,7 @@ prerelease:
   version: v0.1.1-alpha
   version_title: v0.1.1 alpha
 source: https://github.com/ashbit06/RanGen-3DS
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: RanGen-3DS

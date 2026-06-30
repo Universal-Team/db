@@ -21,13 +21,14 @@ image_length: 41664
 layout: app
 license: other
 license_name: Other
+llm_generation: 'no'
 screenshots:
 - description: Gameplay
   url: https://db.universal-team.net/assets/images/screenshots/yet-another-mario-kart-clone-3ds/gameplay.png
 - description: Reversed camera
   url: https://db.universal-team.net/assets/images/screenshots/yet-another-mario-kart-clone-3ds/reversed-camera.png
 source: https://github.com/PabloMK7/YAMKC_3DS
-stars: 21
+stars: 22
 systems:
 - 3DS
 title: Yet Another Mario Kart Clone 3DS

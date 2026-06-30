@@ -19,14 +19,15 @@ icon: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
 image: https://db.universal-team.net/assets/images/icons/ds-forwarder-packs.png
 image_length: 630
 layout: app
+llm_generation: 'no'
 source: https://github.com/RocketRobz/NTR_Forwarder
-stars: 110
+stars: 112
 systems:
 - 3DS
 - DS
 title: DS Forwarder Packs
-update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.15.0">nds-bootstrap
-  v2.15.0</a></p>
+update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nds-bootstrap/releases/tag/v2.16.0">nds-bootstrap
+  v2.16.0</a></p>
 
   <p dir="auto">To install or update:</p>
 
@@ -58,14 +59,24 @@ update_notes: '<p dir="auto">Includes <a href="https://github.com/DS-Homebrew/nd
 
   <ul dir="auto">
 
-  <li>Added support for reading DSiWare <code class="notranslate">banner.sav</code>
-  files (named as <code class="notranslate">romname.bnr</code>) from the current save
-  path. Though the <code class="notranslate">banner.sav</code> icon will not display
-  on forwarders, this feature was implemented for compatibility with the DSiWare titles
-  which support writing to <code class="notranslate">banner.sav</code>.</li>
+  <li><code class="notranslate">srFrontendId.bin</code> is now removed in <code class="notranslate">sd:/_nds/nds-bootstrap/</code>
+  (if detected) in order for the <code class="notranslate">Quit Game</code> option
+  in the in-game menu to quit to the DSi/3DS System Menu.</li>
 
   </ul>'
-updated: '2026-03-17T22:34:22Z'
-version: SD-28
-version_title: 'GitHub Release #28'
+updated: '2026-05-23T07:24:36Z'
+version: SD-29
+version_title: 'GitHub Release #29'
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>SD card forwarder pack</summary>
+<ol>
+<li>Download <code>DS.Game.Forwarder.pack.nds-bootstrap.7z</code></li>
+<li>Extract the contents of <code>/for SD Card root/</code> from the 7z to the root of your SD card</li>
+<li>Download <code>apfix.pck</code> to <code>/_nds/ntr-forwarder/apfix.pck</code> on your SD card</li>
+<li>Download <code>widescreen.pck</code> to <code>/_nds/ntr-forwarder/widescreen.pck</code> on your SD card</li>
+</ol>
+</details>
+

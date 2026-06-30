@@ -26,6 +26,7 @@ image_length: 42810
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: unknown
 qr:
   SavvyManager.cia: https://db.universal-team.net/assets/images/qr/savvymanager-cia.png
 screenshots:
@@ -36,7 +37,7 @@ screenshots:
 - description: Import character
   url: https://db.universal-team.net/assets/images/screenshots/savvymanager/import-character.png
 source: https://github.com/RocketRobz/SavvyManager
-stars: 33
+stars: 35
 systems:
 - 3DS
 title: SavvyManager

@@ -20,6 +20,7 @@ image_length: 630
 layout: app
 license: apache-2.0
 license_name: Apache License 2.0
+llm_generation: 'no'
 qr:
   bcsds.nds: https://db.universal-team.net/assets/images/qr/bcsds-nds.png
 screenshots:

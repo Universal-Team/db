@@ -94,8 +94,8 @@ class StoreEntry:
 	def addDownloadScript(self, scriptName: str, file: str, url: str, archive: tuple = None, size: str = None, releaseType: str = None, retroarch: bool = False) -> None:
 		"""Generates a script to download the given file"""
 
-		if releaseType not in (None, "nightly", "prerelease"):
-			raise Exception('Invalid releaseType, must be None, "nightly", or "prerelease".')
+		if releaseType not in (None, "git", "prerelease"):
+			raise Exception('Invalid releaseType, must be None, "git", or "prerelease".')
 
 		if archive:
 			script = [

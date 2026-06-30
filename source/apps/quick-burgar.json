@@ -1,0 +1,13 @@
+{
+	"github": "Oliwier098PL/Quick-Burgar",
+	"title": "Quick Burgar",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"icon": "https://raw.githubusercontent.com/Oliwier098PL/Quick-Burgar/main/assets/textures/Icon.png",
+	"image": "https://raw.githubusercontent.com/Oliwier098PL/Quick-Burgar/main/assets/textures/Banner.png",
+	"long_description": "A Homebrew game for the 3DS about cooking in limited time.\nYou work in a fast food restaurant, customers here are not patient.\nComplete orders in time otherwise you are gonna be FIRED!"
+}

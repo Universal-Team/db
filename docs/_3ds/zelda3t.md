@@ -22,6 +22,7 @@ icon: https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/icon.png
 image: https://raw.githubusercontent.com/nop90/Zelda3T/master/resources/banner.png
 image_length: 29329
 layout: app
+llm_generation: 'no'
 qr:
   Zelda3T_v1.0.cia: https://db.universal-team.net/assets/images/qr/zelda3t_v1-0-cia.png
 source: https://github.com/nop90/Zelda3T
@@ -41,3 +42,21 @@ updated: '2017-09-24T18:25:47Z'
 version: v1.0
 version_title: Added support for touchpad
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Zelda3T.3dsx</summary>
+<ol>
+<li>Download <code>Zelda3T_3DSX_v1.0.zip</code></li>
+<li>Extract <code>/Zelda3T/Zelda3T.3dsx</code> from the zip to <code>/3ds/Zelda3T.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Zelda3T_v1.0.cia</summary>
+<ol>
+<li>Download <code>Zelda3T_v1.0.cia</code> to <code>/cias/Zelda3T_v1.0.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/Zelda3T_v1.0.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

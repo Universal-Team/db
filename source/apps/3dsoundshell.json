@@ -1,0 +1,16 @@
+{
+	"github": "Adritrain09/3DSoundShell",
+	"description": "Un lecteur de musique pour 2/3DS avec eqaliser visuel, playlist, paramètre de vitesse et bien plus..",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app",
+		"media"
+	],
+	"icon": "https://raw.githubusercontent.com/Adritrain09/3DSoundShell/refs/heads/main/3DSoundShell.png",
+	"image": "https://raw.githubusercontent.com/Adritrain09/3DSoundShell/d49d0e9cb25d84140c5541559173018e271f8848/romfs/gfx/banner.png",
+	"unique_ids": [
+		1045461
+	]
+}

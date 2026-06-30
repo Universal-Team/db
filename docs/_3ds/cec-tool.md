@@ -1,6 +1,6 @@
 ---
 author: Sorunome
-avatar: null
+avatar: https://gitlab.com//uploads/-/system/user/avatar/2871656/avatar.png
 categories:
 - utility
 color: '#b2d3a5'
@@ -22,8 +22,9 @@ icon: https://gitlab.com/sorunome/cectool/-/raw/main/meta/icon.png
 image: https://gitlab.com/sorunome/cectool/-/raw/main/meta/banner.png
 image_length: 4135
 layout: app
-license: gpl-3.0
+license: gpl-3.0+
 license_name: GNU General Public License v3.0 or later
+llm_generation: 'no'
 qr:
   cec-tool.cia: https://db.universal-team.net/assets/images/qr/cec-tool-cia.png
 source: https://gitlab.com/sorunome/cectool

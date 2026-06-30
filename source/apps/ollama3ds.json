@@ -6,6 +6,7 @@
 	"categories": [
 		"app"
 	],
+	"llm_generation": "yes",
 	"download_filter": "3dsx",
 	"icon": "https://raw.githubusercontent.com/Dzhmelyk135/Ollama3DS/main/icon.png"
 }

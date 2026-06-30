@@ -22,13 +22,16 @@ icon: https://raw.githubusercontent.com/MrHuu/dosbox-3ds/refs/heads/3DS/ctr/icon
 image: https://raw.githubusercontent.com/MrHuu/dosbox-3ds/refs/heads/3DS/ctr/banner.png
 image_length: 6591
 layout: app
+llm_generation: unknown
 qr:
   dosbox-3ds.cia: https://db.universal-team.net/assets/images/qr/dosbox-3ds-cia.png
 source: https://github.com/MrHuu/dosbox-3ds
-stars: 51
+stars: 55
 systems:
 - 3DS
 title: DOSBox
+unique_ids:
+- '0xD0486'
 update_notes: '<h2 dir="auto">Changes</h2>
 
   <ul dir="auto">

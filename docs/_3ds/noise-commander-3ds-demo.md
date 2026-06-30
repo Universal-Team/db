@@ -10,52 +10,37 @@ created: '2025-01-06T19:04:39Z'
 description: Beat-making audio sequencer and DJ-tool for the Nintendo 3DS
 download_page: https://github.com/gearmo3ds/noisecommander3dsdemo/releases
 downloads:
-  noisecmdr-v0_1_10-demo.cia:
-    size: 3277760
-    size_str: 3 MiB
-    url: https://github.com/gearmo3ds/noisecommander3dsdemo/releases/download/0.1.10/noisecmdr-v0_1_10-demo.cia
+  noisecmdr-v0_1_11-demo.cia:
+    size: 1237952
+    size_str: 1 MiB
+    url: https://github.com/gearmo3ds/noisecommander3dsdemo/releases/download/0.1.11/noisecmdr-v0_1_11-demo.cia
 github: gearmo3ds/noisecommander3dsdemo
 icon: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/icon.png
 image: https://raw.githubusercontent.com/gearmo3ds/noisecommander3dsdemo/master/banner.png
 image_length: 40664
 layout: app
+llm_generation: unknown
 qr:
-  noisecmdr-v0_1_10-demo.cia: https://db.universal-team.net/assets/images/qr/noisecmdr-v0_1_10-demo-cia.png
+  noisecmdr-v0_1_11-demo.cia: https://db.universal-team.net/assets/images/qr/noisecmdr-v0_1_11-demo-cia.png
 source: https://github.com/gearmo3ds/noisecommander3dsdemo
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: Noise Commander 3DS (Demo)
 unique_ids:
 - '0xBEE96'
-update_notes: '<h3 dir="auto">Added</h3>
-
-  <ul dir="auto">
-
-  <li>Ability to export wav file from factotum looper (Press the "E" button)<br>
-
-  The files are saved in "/nc/samples/looprenders"</li>
-
-  <li>Normalize function in waveform-view, accessible by pressing Start</li>
-
-  <li>General "Mic Hold" setting: Records full length without needing to hold the
-  A button</li>
-
-  <li>General "Mic Pre Secs" setting: Waits n seconds before recording starts</li>
-
-  </ul>
+update_notes: '<p dir="auto">Bugfixes before new GUI rewrite</p>
 
   <h3 dir="auto">Fixed</h3>
 
   <ul dir="auto">
 
-  <li>Microphone recording cannot be trimmed in waveform-view</li>
+  <li>Saving a project after creating a new one overwrites the previously loaded project</li>
 
-  <li>Pressing B pastes the clipboard in narrow-tracker-view mode when it should only
-  paste a single cell</li>
+  <li>Channel volume gets stuck when a face-command was active during project loading
+  and does not reset</li>
 
-  <li>Clearing a cell in the narrow-view with B+A does not clear the clipboard and
-  thus behaves "sticky"</li>
+  <li>Normalize function labeled incorrectly</li>
 
   </ul>
 
@@ -63,12 +48,13 @@ update_notes: '<h3 dir="auto">Added</h3>
 
   <ul dir="auto">
 
-  <li>Microphone recording is now being normalized</li>
+  <li>16Bit stereo wav files are automatically converted to mono during load (8Bit
+  not supported)</li>
 
   </ul>'
-updated: '2026-01-11T14:13:56Z'
-version: 0.1.10
-version_title: Export loop as wav file
+updated: '2026-05-28T06:41:02Z'
+version: 0.1.11
+version_title: Last bugfixes before new GUI rewrite
 website: https://www.patreon.com/NoiseCommander3DS
 ---
 Beat-making audio sequencer and DJ-tool
@@ -79,3 +65,16 @@ Beat-making audio sequencer and DJ-tool
 - Euclidean mode for generative sequencing
 - Crossfading between two independent sequencer decks
 - 12 tracks per deck and 4 global buses
+
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Song Files</summary>
+<ol>
+<li>Download <code>w1_achemar.nsm</code> to <code>/nc/tracks/w1_achemar.nsm</code> on your SD card</li>
+<li>Download <code>w3_Al_Dhanab.nsm</code> to <code>/nc/tracks/w3_Al_Dhanab.nsm</code> on your SD card</li>
+<li>Download <code>w3_Al_Gieba.nsm</code> to <code>/nc/tracks/w3_Al_Gieba.nsm</code> on your SD card</li>
+</ol>
+</details>
+

@@ -24,6 +24,7 @@ image_length: 7078
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: unknown
 qr:
   flappy.cia: https://db.universal-team.net/assets/images/qr/flappy-cia.png
 screenshots:

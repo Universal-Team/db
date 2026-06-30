@@ -16,14 +16,15 @@ downloads:
     url: https://github.com/edo9300/ndsi-savedumper/releases/download/1.2/savedumper.nds
 github: edo9300/ndsi-savedumper
 image: https://avatars.githubusercontent.com/u/18705342?v=4&size=128
-image_length: 4321
+image_length: 4336
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 qr:
   savedumper.nds: https://db.universal-team.net/assets/images/qr/savedumper-nds.png
 source: https://github.com/edo9300/ndsi-savedumper
-stars: 42
+stars: 43
 systems:
 - DS
 title: ndsi-savedumper

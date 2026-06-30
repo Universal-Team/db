@@ -2,7 +2,8 @@
 author: reworks
 avatar: https://avatars.githubusercontent.com/u/8564184?v=4
 categories:
-- utility
+- app
+- media
 color: '#905933'
 color_bg: '#804f2d'
 created: '2016-05-02T12:42:03Z'
@@ -20,8 +21,9 @@ image_length: 18127
 layout: app
 license: mit
 license_name: MIT License
+llm_generation: 'no'
 source: https://github.com/reworks-org/3DS_eBook_Reader
-stars: 28
+stars: 27
 systems:
 - 3DS
 title: 3DS eBook Reader
@@ -42,3 +44,15 @@ updated: '2018-01-29T06:38:15Z'
 version: '1.2'
 version_title: eBook Reader v1.2
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>eBook_Reader.cia</summary>
+<ol>
+<li>Download <code>release*.zip</code></li>
+<li>Extract everything from the zip to the root of your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/eBook_Reader.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

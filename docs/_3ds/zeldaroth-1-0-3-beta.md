@@ -31,6 +31,7 @@ icon: https://raw.githubusercontent.com/vargaviktor/ZeldaROTH/master/resources/i
 image: https://raw.githubusercontent.com/vargaviktor/ZeldaROTH/master/resources/banner.png
 image_length: 7049
 layout: app
+llm_generation: 'no'
 qr:
   ZeldaROTH.cia: https://db.universal-team.net/assets/images/qr/zeldaroth-cia.png
 source: https://github.com/vargaviktor/ZeldaROTH
@@ -82,3 +83,21 @@ version_title: 1.0.3-beta - Hungarian translation
 ZeldaROTH 1.0.3 beta is including Hungarian translation for this classic fan game.
 Because of the used sf2dlib was also out of date, it was also modified to compile with new (1.4.0+) citro3d library.
 Beta, because, its playable, but until now, it was not found yet, why it gives glitches, when loading a level map.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>qrcode.png</summary>
+<ol>
+<li>Download <code>qrcode.png</code> to <code>/qrcode.png</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>ZeldaROTH.cia</summary>
+<ol>
+<li>Download <code>ZeldaROTH.cia</code> to <code>/cias/ZeldaROTH.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/ZeldaROTH.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+

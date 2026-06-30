@@ -19,8 +19,9 @@ icon: https://db.universal-team.net/assets/images/icons/nitroswan.png
 image: https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/logo.png
 image_length: 38554
 layout: app
+llm_generation: unknown
 source: https://github.com/FluBBaOfWard/NitroSwan
-stars: 66
+stars: 67
 systems:
 - DS
 title: NitroSwan
@@ -35,3 +36,13 @@ updated: '2026-01-18T19:35:40Z'
 version: v0.7.6
 version_title: V0.7.6
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>NitroSwan.nds</summary>
+<ol>
+<li>Download <code>NitroSwan.zip</code></li>
+<li>Extract <code>/NitroSwan.nds</code> from the zip to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+

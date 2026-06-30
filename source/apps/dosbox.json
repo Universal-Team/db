@@ -7,6 +7,7 @@
 	"categories": [
 		"emulator"
 	],
+	"unique_ids": [853126],
 	"image": "https://raw.githubusercontent.com/MrHuu/dosbox-3ds/refs/heads/3DS/ctr/banner.png",
 	"icon": "https://raw.githubusercontent.com/MrHuu/dosbox-3ds/refs/heads/3DS/ctr/icon.png"
 }

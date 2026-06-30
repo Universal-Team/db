@@ -18,10 +18,11 @@ icon: https://raw.githubusercontent.com/Creckeryop/3dsCookieClicker/master/logo.
 image: https://db.universal-team.net/assets/images/images/3dscookieclicker.png
 image_length: 1821
 layout: app
+llm_generation: 'no'
 qr:
   CookieClicker.cia: https://db.universal-team.net/assets/images/qr/cookieclicker-cia.png
 source: https://github.com/Creckeryop/3dsCookieClicker
-stars: 27
+stars: 28
 systems:
 - 3DS
 title: 3dsCookieClicker

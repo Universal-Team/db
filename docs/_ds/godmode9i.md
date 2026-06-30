@@ -34,12 +34,13 @@ image_length: 44248
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 qr:
   GodMode9i.cia: https://db.universal-team.net/assets/images/qr/godmode9i-cia.png
   GodMode9i.dsi: https://db.universal-team.net/assets/images/qr/godmode9i-dsi.png
   GodMode9i.nds: https://db.universal-team.net/assets/images/qr/godmode9i-nds.png
 source: https://github.com/DS-Homebrew/GodMode9i
-stars: 626
+stars: 646
 systems:
 - DS
 title: GodMode9i
@@ -102,7 +103,6 @@ update_notes: '<h3 dir="auto">🎁 What''s new? 🎁</h3>
 updated: '2025-12-25T10:39:19Z'
 version: v3.9.0
 version_title: 'v3.9.0: TWL Christmas Release 🎄'
-website: https://wiki.ds-homebrew.com/godmode9i/
 wiki: https://wiki.ds-homebrew.com/other/godmode9i
 ---
 ### Installation:

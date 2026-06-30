@@ -3,6 +3,7 @@
 	"title-3ds": "3DS | Universal-DB",
 	"title-ds": "DS | Universal-DB",
 	"title-app-request": "App kérés | Universal-DB",
+	"title-llm-usage-policy": "AI használat szabályzat | Universal-DB",
 	"title-error-404": "404 hiba | Universal-DB",
 	"by": "Az <a href=\"https://universal-team.net/\" class=\"link\">Universal-Team</a> által",
 	"published-with": "<a href=\"https://pages.github.com\">GitHub Pages</a>-szel publikálva, tekintsd meg<a href=\"https://github.com/${repo}\">a forrást </a> a GitHub-on.",
@@ -40,6 +41,7 @@
 	"catdesc-utility": "Segédprogramok a DS menedzseléséhez, fáj kezelőktől mentés szerkesztőkig",
 	"catdesc-translation": "Már létező alkalmazások fordításai más nyelvekre",
 	"submit-app-request": "App kérés beküldése",
+	"llm-policy": "AI politika",
 	"sort": "Rendezés:",
 	"title": "Cím",
 	"author": "Szerző",
@@ -54,6 +56,8 @@
 	"created": "Létrehozva: ",
 	"last-updated": "Utolsó frissítés: ",
 	"license": "Licensz: ",
+	"llm-usage": "AI használat: ",
+	"stars": "Csillagok: ",
 	"system": "Rendszer: ",
 	"unique-id": "Egyedi azonosító: ",
 	"unique-ids": "Egyedi azonosítók: ",
@@ -83,5 +87,9 @@
 	"home-5": "Szeretnél értesítést kapni a homebrew új frissítéseiről? Van egy RSS feedünk az oldalon, csak másold be az oldal URL-jét a kedvenc RSS olvasódba. Az RSS hírcsatornát a <a href=\"https://universal-team.net/discord\">Discord szerverünkre</a>]az #universal-db-updates és a <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky</a> fiókunkba szindikáljuk!",
 	"last-updated-apps": "Utolsó frissítés: ",
 	"error-404": "Hiba! 404!",
-	"return-to-home": "Visszatérés a <a href=\"/\">kezdőlapra</a> vagy <span class=\"a\" onclick=\"window.history.back()\">menj vissza</span> az előző oldalra."
+	"return-to-home": "Visszatérés a <a href=\"/\">kezdőlapra</a> vagy <span class=\"a\" onclick=\"window.history.back()\">menj vissza</span> az előző oldalra.",
+	"llm-none": "Semennyi (vagy minimális)",
+	"llm-minor": "Csekély",
+	"llm-major": "Jelentős",
+	"llm-undisclosed": "Nincs megadva"
 }

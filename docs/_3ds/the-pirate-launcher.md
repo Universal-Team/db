@@ -27,6 +27,7 @@ icon: https://raw.githubusercontent.com/Alexyo21/the-pirate-launcher/master/icon
 image: https://raw.githubusercontent.com/Alexyo21/the-pirate-launcher/master/icon.png
 image_length: 2130
 layout: app
+llm_generation: unknown
 script_message: 'This will replace the boot.3dsx in the root of
 
   your SD card, replacing the Homebrew
@@ -43,3 +44,12 @@ updated: '2025-06-11T01:32:57Z'
 version: v2.4.3-c
 version_title: Test new flags
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>boot.3dsx</summary>
+<ol>
+<li>Download <code>boot.3dsx</code> to <code>/boot.3dsx</code> on your SD card</li>
+</ol>
+</details>
+

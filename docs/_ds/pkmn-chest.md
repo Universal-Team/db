@@ -26,6 +26,7 @@ image_length: 381
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 nightly:
   download_page: https://github.com/Universal-Team/pkmn-chest/releases/tag/git
   downloads:
@@ -90,7 +91,7 @@ screenshots:
 - description: X menu
   url: https://db.universal-team.net/assets/images/screenshots/pkmn-chest/x-menu.png
 source: https://github.com/Universal-Team/pkmn-chest
-stars: 267
+stars: 272
 systems:
 - DS
 title: pkmn-chest
@@ -161,7 +162,6 @@ update_notes: '<blockquote>
 updated: '2020-07-07T04:00:43Z'
 version: v2.2
 version_title: Easy config access, favorite folders, and various bug fixes
-website: https://universal-team.net/projects/pkmn-chest
 wiki: https://github.com/Universal-Team/pkmn-chest/wiki
 ---
 Pokémon Chest is an app for the DS(i) that can store and edit Pokémon in the DS Pokémon games.

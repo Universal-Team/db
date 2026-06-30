@@ -10,13 +10,13 @@ description: An easy to use app for installing and updating 3DS homebrew
 download_page: https://github.com/Universal-Team/Universal-Updater/releases
 downloads:
   Universal-Updater.3dsx:
-    size: 3196984
-    size_str: 3 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.3.4/Universal-Updater.3dsx
-  Universal-Updater.cia:
-    size: 2667456
+    size: 3002452
     size_str: 2 MiB
-    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.3.4/Universal-Updater.cia
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.4.1/Universal-Updater.3dsx
+  Universal-Updater.cia:
+    size: 2479040
+    size_str: 2 MiB
+    url: https://github.com/Universal-Team/Universal-Updater/releases/download/v3.4.1/Universal-Updater.cia
 github: Universal-Team/Universal-Updater
 icon: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/app/icon.png
 image: https://raw.githubusercontent.com/Universal-Team/Universal-Updater/master/resources/2d-banner.png
@@ -24,24 +24,29 @@ image_length: 24475
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: 'no'
 nightly:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 2977028
+      size: 3012328
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
-      size: 2454464
+      size: 2483136
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: <p dir="auto">TWLBot - Automatic translation import</p>
-  update_notes_md: TWLBot - Automatic translation import
-  updated: '2026-04-15T02:06:04Z'
+  update_notes: <p dir="auto">This is from a new branch with an experimental guided
+    tutorial. I'm not dead set on the implementation yet, currently it shows when
+    you open the app (it will show on <em>first run only</em>... once implemented)</p>
+  update_notes_md: This is from a new branch with an experimental guided tutorial.
+    I'm not dead set on the implementation yet, currently it shows when you open the
+    app (it will show on *first run only*... once implemented)
+  updated: '2026-06-27T04:13:26Z'
   version: git
-  version_title: Continuous Build - d04c0ee
+  version_title: Continuous Build - 2a75fdb
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
@@ -82,45 +87,42 @@ screenshots:
 - description: Store selection
   url: https://db.universal-team.net/assets/images/screenshots/universal-updater/store-selection.png
 source: https://github.com/Universal-Team/Universal-Updater
-stars: 1199
+stars: 1249
 systems:
 - 3DS
 title: Universal-Updater
 unique_ids:
 - '0x43917'
 unistore_exclude: true
-update_notes: '<div class="markdown-alert markdown-alert-tip" dir="auto"><p class="markdown-alert-title"
-  dir="auto"><svg class="octicon octicon-light-bulb mr-2" viewBox="0 0 16 16" version="1.1"
-  width="16" height="16" aria-hidden="true"><path d="M8 1.5c-2.363 0-4 1.69-4 3.75
-  0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621
-  1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201
-  7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328
-  3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751
-  0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304
-  0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6
-  15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"></path></svg>Tip</p><p
-  dir="auto">Did you notice Universal-DB has background images now? These are submitted
-  by users like you! Head over to the <a href="https://github.com/Universal-Team/db/discussions">GitHub
-  Discussions</a> to learn more!</p>
+update_notes: '<p dir="auto">This release fixes an odd bug from v3.4.0 where the metadata
+  file (containing marks and the update status of apps) stopped saving, thanks <a
+  class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/syndenbock/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/syndenbock">@syndenbock</a>
+  for the report! I also fixed a bug I''d noticed where Universal-Updater could crash
+  if you exited while a thread was running. Italian and Russian translations have
+  also been updated, thanks to everyone who''s helped with translations!</p>
 
-  </div>
+  <p dir="auto">See <a href="https://github.com/Universal-Team/Universal-Updater/releases/tag/v3.4.0">v3.4.0''s
+  Release notes</a> for full details on recent changes, the highlights were:</p>
 
-  <p dir="auto">Not a particularly interesting release this one, but it fixes the
-  crashes some new users were getting when Universal-Updater tried to display its
-  changelog on first load up if Universal-DB hadn''t downloaded successfully.</p>
+  <ul dir="auto">
 
-  <p dir="auto">Also, we recently added a new UniStore to the recommended list. Check
-  out the mods in the Paper Mario Sticker Store! (Thanks <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/Hunter-Xuman/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Hunter-Xuman">@Hunter-Xuman</a>!)</p>
+  <li>Universal-Updater now tracks installed apps (displayed by an SD card icon) and
+  this can be used for filtering!</li>
 
-  <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/2397d2e0-7b82-4a91-8cde-264c94fbdc34"><img
-  src="https://github.com/user-attachments/assets/2397d2e0-7b82-4a91-8cde-264c94fbdc34"
-  alt="QR Code for the GitHub Release" style="max-width: 100%;"></a></p>'
-updated: '2026-02-03T12:56:46Z'
-version: v3.3.4
-version_title: Crashing be gone
-website: https://universal-team.net/projects/universal-updater.html
+  <li>Added a "NOT" filtering option to invert the filter, most useful for filtering
+  to only apps not installed</li>
+
+  <li>The search menu now includes all app names in the word completion dictionary!</li>
+
+  <li>Proxies are now properly supported!</li>
+
+  <li>The SSL CA certificate bundle is now be loaded from the SD card instead of RomFS</li>
+
+  </ul>'
+updated: '2026-06-20T17:08:42Z'
+version: v3.4.1
+version_title: Whoops
 wiki: https://github.com/Universal-Team/Universal-Updater/wiki
 ---
 Universal-Updater is a homebrew application for the Nintendo 3DS with the intention to make downloading other homebrew simple and easy. No need to manually copy files or go through installation processes, as it does that all for you.

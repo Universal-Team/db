@@ -23,6 +23,7 @@ icon: https://raw.githubusercontent.com/TurtleP/Antibounce/master/graphics/icon.
 image: https://raw.githubusercontent.com/TurtleP/Antibounce/master/graphics/title.png
 image_length: 1031
 layout: app
+llm_generation: 'no'
 qr:
   Antibounce.cia: https://db.universal-team.net/assets/images/qr/antibounce-cia.png
 screenshots:
@@ -39,30 +40,18 @@ systems:
 title: Antibounce
 unique_ids:
 - '0xA45E'
-update_notes: '<ul dir="auto">
-
-  <li>Complete rewrite. Code-base overhaul. The good stuff.</li>
-
-  <li>Higher resolution (for Switch release) sprites.</li>
-
-  <li>Uses a mostly Game Boy color palette (with very few exceptions).</li>
-
-  <li>Works with a controller and keyboard:
-
-  <ul dir="auto">
-
-  <li>Left Stick/WASD for movement</li>
-
-  <li>Left/Right bumper/Q/E while holding a direction to Dash</li>
-
-  </ul>
-
-  </li>
-
-  <li>Clear your high-score by holding Start on the main menu for 3-4 seconds.</li>
-
-  </ul>'
-updated: '2020-08-15T19:51:05Z'
-version: 2.0.0
-version_title: AntiBounce 2.0.0
+update_notes: <p dir="auto">CIA release</p>
+updated: '2016-10-22T02:00:39Z'
+version: 1.2.1
+version_title: CIA
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Antibounce.3dsx</summary>
+<ol>
+<li>Download <code>antibounce-3ds.zip</code></li>
+<li>Extract everything from the zip to <code>/3ds/Antibounce/</code> on your SD card</li>
+</ol>
+</details>
+

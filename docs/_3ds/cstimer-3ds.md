@@ -24,6 +24,7 @@ image_length: 8258
 layout: app
 license: apache-2.0
 license_name: Apache License 2.0
+llm_generation: unknown
 qr:
   cstimer.cia: https://db.universal-team.net/assets/images/qr/cstimer-cia.png
 screenshots:

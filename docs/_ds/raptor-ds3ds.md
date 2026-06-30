@@ -26,13 +26,14 @@ image_length: 48397
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
+llm_generation: unknown
 script_message: 'Note: You will need "FILE0002.GLB", "FILE0003.GLB",
 
   and "FILE0004.GLB" from the v1.2 DOS version the in
 
   the sdmc:/3ds/Raptor folder to play the game.'
 source: https://github.com/RetroGamer02/raptor-consoles
-stars: 29
+stars: 30
 systems:
 - DS
 - 3DS
@@ -46,3 +47,30 @@ version: MultiSys-V1.0.4
 version_title: Raptor MultiSys Bug Fix update
 ---
 Reversed-engineered source port from Raptor Call Of The Shadows ported to the Nintendo DS and 3DS.
+
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>RAPTOR-3DS-SDL2-V0.9.2.3dsx</summary>
+<ol>
+<li>Download <code>RAPTOR-3DS-SDL2-V0.9.2.zip</code></li>
+<li>Extract <code>/RAPTOR-3DS-SDL2-V0.9.2.3dsx</code> from the zip to <code>/3ds/RAPTOR-3DS-SDL2-V0.9.2.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>RAPTOR-3DS-SDL2-V0.9.2.cia</summary>
+<ol>
+<li>Download <code>RAPTOR-3DS-SDL2-V0.9.2.zip</code></li>
+<li>Extract <code>/RAPTOR-3DS-SDL2-V0.9.2.cia</code> from the zip to <code>/cias/RAPTOR-3DS-SDL2-V0.9.2.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/RAPTOR-3DS-SDL2-V0.9.2.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>RAPTOR-NDS-V1.1.0.nds</summary>
+<ol>
+<li>Download <code>RAPTOR-NDS-V1.1.0.zip</code></li>
+<li>Extract <code>/RAPTOR-NDS-V1.1.0.nds</code> from the zip to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+

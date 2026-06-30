@@ -25,6 +25,7 @@ image_length: 38415
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: unknown
 qr:
   CTGP7SaveTransfer.cia: https://db.universal-team.net/assets/images/qr/ctgp7savetransfer-cia.png
 screenshots:

@@ -18,8 +18,9 @@ icon: https://db.universal-team.net/assets/images/icons/portalds.png
 image: https://db.universal-team.net/assets/images/images/portalds.png
 image_length: 473
 layout: app
+llm_generation: 'no'
 source: https://github.com/smealum/portalDS
-stars: 234
+stars: 244
 systems:
 - DS
 title: portalDS
@@ -29,3 +30,14 @@ updated: '2019-11-23T23:14:24Z'
 version: r1
 version_title: Aperture Science DS r1
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>portalDS.nds</summary>
+<ol>
+<li>Download <code>ASDS*.zip</code></li>
+<li>Extract <code>/portalDS.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Extract <code>/asds</code> from the zip to where you keep NDS files on your SD card</li>
+</ol>
+</details>
+

@@ -29,6 +29,7 @@ image_length: 15215
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
+llm_generation: 'no'
 qr:
   DaedalusX64.cia: https://db.universal-team.net/assets/images/qr/daedalusx64-cia.png
 screenshots:
@@ -45,7 +46,7 @@ script_message: 'Note: You will need to put at least one ROM in:
 
   Not having any ROMs will make it load a glitched menu.'
 source: https://github.com/masterfeizz/DaedalusX64-3DS
-stars: 378
+stars: 380
 systems:
 - 3DS
 title: DaedalusX64-3DS
@@ -87,3 +88,13 @@ updated: '2022-10-16T21:47:42Z'
 version: v1.0
 version_title: v1.0
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>3ds.zip</summary>
+<ol>
+<li>Download <code>3ds.zip</code></li>
+<li>Extract everything from the zip to the root of your SD card</li>
+</ol>
+</details>
+

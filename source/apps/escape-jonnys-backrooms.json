@@ -1,0 +1,17 @@
+{
+	"github": "Pixel6763/Escape-Jonny-s-Backrooms-3DS",
+	"title": "Escape Jonnys Backrooms",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/Pixel6763/Escape-Jonny-s-Backrooms-3DS/main/icon.png",
+	"archive": {
+		"Escape_Jonnys_Backrooms.zip": {
+			"Escape_Jonnys_Backrooms.3dsx": ["Escape_Jonnys_Backrooms.3dsx"]
+		}
+	}
+}

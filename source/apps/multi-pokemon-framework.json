@@ -5,11 +5,11 @@
 		"3DS"
 	],
 	"categories": [
-		"app"
+		"plugin"
 	],
 	"installed_files": ["/luma/plugins/00040000001B5000/Multi-PokemonFramework.3gx"],
 	"scripts": {
-		"For Original Version": [
+		"Plugin": [
 			{
 				"type": "downloadRelease",
 				"repo": "semaj14/Multi-PokemonFramework",
@@ -19,30 +19,12 @@
 			{
 				"type": "extractFile",
 				"file": "/Release.zip",
-				"input": "luma",
-				"output": "luma"
+				"input": "^luma",
+				"output": "/luma"
 			},
 			{
 				"type": "deleteFile",
 				"file": "/Release.zip"
-			}
-		],
-		"For Updated Version": [
-			{
-				"type": "downloadRelease",
-				"repo": "MattiaTheBest115/Multi-PokemonFramework-ITA",
-				"file": "luma.zip",
-				"output": "/luma.zip"
-			},
-			{
-				"type": "extractFile",
-				"file": "/luma.zip",
-				"input": "luma",
-				"output": "luma"
-			},
-			{
-				"type": "deleteFile",
-				"file": "/luma.zip"
 			}
 		]
 	}

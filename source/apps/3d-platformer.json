@@ -1,0 +1,11 @@
+{
+	"github": "Tikman420/3d-platformer",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/Tikman420/3d-platformer/master/icon.png"
+}

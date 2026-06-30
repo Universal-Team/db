@@ -24,6 +24,7 @@ image_length: 1824
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: unknown
 qr:
   Line_for_3DS.cia: https://db.universal-team.net/assets/images/qr/line_for_3ds-cia.png
 script_message: 'Note: You will need to set up your account.
@@ -132,7 +133,6 @@ update_notes: '<p dir="auto"><strong>Just fixed deadlink in SETUP.md and no soft
 updated: '2024-01-30T13:44:30Z'
 version: v2.0.0.1
 version_title: Line for 3DS v2.0.0.1
-website: https://gbatemp.net/threads/release-guide-line-for-3d.539530/
 ---
 You can use line on your 3DS!
 * You need to set up your account

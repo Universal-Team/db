@@ -24,7 +24,7 @@
 			{
 				"type": "extractFile",
 				"file": "/temperpce_3ds.zip",
-				"input": "temperpce_3ds.cia",
+				"input": "^temperpce_3ds.cia",
 				"output": "/temperpce_3ds.cia"
 			},
 			{
@@ -50,7 +50,7 @@
 			{
 				"type": "extractFile",
 				"file": "/temperpce_3ds.zip",
-				"input": "temperpce_3ds.3dsx",
+				"input": "^temperpce_3ds.3dsx",
 				"output": "%3DSX%/temperpce_3ds.3dsx"
 			},
 			{

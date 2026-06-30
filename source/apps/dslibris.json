@@ -1,7 +1,8 @@
 {
 	"github": "rhaleblian/dslibris",
 	"categories": [
-		"utility"
+		"app",
+		"media"
 	],
 	"systems": [
 		"DS"

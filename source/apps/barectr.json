@@ -1,0 +1,14 @@
+{
+	"github": "DotNetttt/BareCTR",
+	"description": "Minimalist Minecraft server for Nintendo 3DS systems, based on Bareiron.",
+	"author": "net",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/DotNetttt/BareCTR/refs/heads/main/data/icon.png",
+	"long_description": "# BareCTR\n\nAdaptation of the minimalist Minecraft server **Bareiron** for Nintendo 3DS.\n\nBareCTR is a version adapted and optimized for the 3DS architecture, allowing you to host a lightweight Minecraft server directly on your console. This project preserves the original goal of Bareiron: prioritizing performance and resource efficiency.\n\n## Features\n* **Native 3DS Port:** Designed to run efficiently on Nintendo 3DS.\n* **Minimalist:** A clean approach to maximize server stability on the console.\n* **Bareiron Base:** Adaptation of the lightweight and high-performance server engine.\n\n## Compilation\nTo compile this project, you must have the **devkitPro** toolchain installed (configured for 3DS development with `libctru`).\n\n1. Open a terminal in the project's root folder:\n   ```bash\n   cd BareCTR\n   make\n   ```\n"
+}

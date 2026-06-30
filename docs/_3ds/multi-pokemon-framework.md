@@ -2,7 +2,7 @@
 author: semaj14
 avatar: https://avatars.githubusercontent.com/u/81500902?v=4
 categories:
-- app
+- plugin
 color: '#e3d5a2'
 color_bg: '#80785b'
 created: '2021-08-02T18:20:47Z'
@@ -20,8 +20,9 @@ image_length: 1566
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
+llm_generation: unknown
 source: https://github.com/semaj14/Multi-PokemonFramework
-stars: 55
+stars: 60
 systems:
 - 3DS
 title: Multi-Pokémon Framework
@@ -35,10 +36,18 @@ update_notes: '<p dir="auto"><em>August 11, 2023</em></p>
 
   </ul>
 
-  <p dir="auto">Special thanks to <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/MattiaTheBest115/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/MattiaTheBest115">@MattiaTheBest115</a></p>'
+  <p dir="auto">Special thanks to @MattiaTheBest115</p>'
 updated: '2023-08-12T02:09:39Z'
 version: v1.0.4
 version_title: v1.0.4
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>Plugin</summary>
+<ol>
+<li>Download <code>Release.zip</code></li>
+<li>Extract <code>/luma</code> from the zip to <code>/luma</code> on your SD card</li>
+</ol>
+</details>
+

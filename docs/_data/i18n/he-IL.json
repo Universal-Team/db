@@ -3,6 +3,7 @@
 	"title-3ds": "3DS | Universal-DB",
 	"title-ds": "DS | Universal-DB",
 	"title-app-request": "App Request | Universal-DB",
+	"title-llm-usage-policy": "LLM Usage Policy | Universal-DB",
 	"title-error-404": "שגיאה 404 | Universal-DB",
 	"by": "נוצר על ידי: <a href=\"https://universal-team.net/\" class=\"link\">Universal-Team</a>",
 	"published-with": "פורסם עם <a href=\"https://pages.github.com\">GitHub Pages</a>, צפו <a href=\"https://github.com/${repo}\">במקור </a> בGitHub.",
@@ -40,6 +41,7 @@
 	"catdesc-utility": "כלי עזר שיעזרו לכם לנהל את הDS שלכם, ממנהלי קבצים לעורכי שמירות",
 	"catdesc-translation": "תרגומים של אפליקציות קיימות לשפות אחרות",
 	"submit-app-request": "הגשת בקשה לאפליקציה",
+	"llm-policy": "LLM Policy",
 	"sort": "מיון:",
 	"title": "כותרת",
 	"author": "יוצר",
@@ -54,6 +56,8 @@
 	"created": "נוצר: ",
 	"last-updated": "עודכן לאחרונה: ",
 	"license": "רשיון: ",
+	"llm-usage": "LLM Usage: ",
+	"stars": "Stars: ",
 	"system": "מערכת: ",
 	"unique-id": "מזהה ייחודי: ",
 	"unique-ids": "מזהים ייחודיים: ",
@@ -83,5 +87,9 @@
 	"home-5": "Want to be notified of new updates to homebrew? We have an RSS feed on this site, just copy this page's URL into your favorite RSS reader. The RSS feed is also syndicated into our <a href=\"https://universal-team.net/discord\">Discord server</a>'s #universal-db-updates and to our <a href=\"https://bsky.app/profile/universal-team.net\">Bluesky</a>!",
 	"last-updated-apps": "עדכון אחרון: ",
 	"error-404": "שגיאה! 404!",
-	"return-to-home": "חזרה <a href=\"/\">לעמוד הבית</a> או <span class=\"a\" onclick=\"window.history.back()\">לעמוד הקודם</span>."
+	"return-to-home": "חזרה <a href=\"/\">לעמוד הבית</a> או <span class=\"a\" onclick=\"window.history.back()\">לעמוד הקודם</span>.",
+	"llm-none": "None (or minimal)",
+	"llm-minor": "Minor",
+	"llm-major": "Major",
+	"llm-undisclosed": "Undisclosed"
 }

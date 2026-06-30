@@ -20,6 +20,7 @@ image_length: 19403
 layout: app
 license: cc0-1.0
 license_name: Creative Commons Zero v1.0 Universal
+llm_generation: unknown
 screenshots:
 - description: Gameplay
   url: https://db.universal-team.net/assets/images/screenshots/anarch/gameplay.png
@@ -30,3 +31,20 @@ systems:
 title: Anarch
 updated: '---'
 ---
+### Installation instructions
+
+<div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>ANARCH.3dsx</summary>
+<ol>
+<li>Download <code>3DS_1.0.zip</code></li>
+<li>Extract <code>/ANARCH.3dsx</code> from the zip to <code>/3ds/ANARCH.3dsx</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>ANARCH_QS.3dsx</summary>
+<ol>
+<li>Download <code>3DS_1.0.zip</code></li>
+<li>Extract <code>/ANARCH_QS.3dsx</code> from the zip to <code>/3ds/ANARCH_QS.3dsx</code> on your SD card</li>
+</ol>
+</details>
+

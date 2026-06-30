@@ -7,5 +7,6 @@
 	"categories": [
 		"utility"
 	],
+	"llm_generation": "no",
 	"unistore_exclude": true
 }

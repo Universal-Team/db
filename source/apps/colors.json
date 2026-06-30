@@ -31,7 +31,7 @@
 			{
 				"type": "extractFile",
 				"file": "/Colors110ds.zip",
-				"input": "Colors.nds",
+				"input": "^Colors.nds",
 				"output": "%NDS%/Colors.nds"
 			},
 			{
@@ -43,7 +43,7 @@
 			{
 				"type": "extractFile",
 				"file": "/Colors110ds.zip",
-				"input": "ColorsMagazine_1.col",
+				"input": "^ColorsMagazine_1.col",
 				"output": "%NDS%/ColorsMagazine_1.col"
 			},
 			{
@@ -60,7 +60,7 @@
 			{
 				"type": "extractFile",
 				"file": "/colors_1_10bbeta2.zip",
-				"input": "Colors.nds",
+				"input": "^Colors.nds",
 				"output": "%NDS%/Colors.nds"
 			},
 			{

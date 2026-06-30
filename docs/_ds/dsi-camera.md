@@ -24,6 +24,7 @@ image_length: 630
 layout: app
 license: unlicense
 license_name: The Unlicense
+llm_generation: 'no'
 qr:
   dsi-camera.cia: https://db.universal-team.net/assets/images/qr/dsi-camera-cia.png
   dsi-camera.nds: https://db.universal-team.net/assets/images/qr/dsi-camera-nds.png
@@ -31,7 +32,7 @@ screenshots:
 - description: Taking a picture
   url: https://db.universal-team.net/assets/images/screenshots/dsi-camera/taking-a-picture.png
 source: https://github.com/Epicpkmn11/dsi-camera
-stars: 54
+stars: 58
 systems:
 - DS
 title: dsi-camera

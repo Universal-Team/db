@@ -1,0 +1,17 @@
+{
+	"github": "AtexBg/bred-editor",
+	"title": "BRED Editor",
+	"author": "AtexBg :3",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"save-tool"
+	],
+	"unique_ids": [781591],
+	"icon": "https://raw.githubusercontent.com/AtexBg/bred-editor/refs/heads/main/icon.png",
+	"image": "https://raw.githubusercontent.com/AtexBg/bred-editor/refs/heads/main/cia/banner.png",
+	"long_description": "A simple but useful save editor for Pokémon Red/Blue (Yellow may work too but it's currently untested) for the 3DS, still a beta version but many features are planned to be added. An emulator is also embed inside the app to quickly test changes (ROM not included for obvious reasons)",
+	"script_message": "Put your Pokémon Blue/Red save file at \"SD:/3ds/bedit/SAVE.sav\" (case-sensitive) before launching the app."
+}
