@@ -19,7 +19,7 @@ image_length: 4254
 layout: app
 llm_generation: 'no'
 source: https://github.com/CTurt/3DSController
-stars: 233
+stars: 234
 systems:
 - 3DS
 title: 3DSController
