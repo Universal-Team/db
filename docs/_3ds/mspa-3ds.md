@@ -21,7 +21,7 @@ layout: app
 llm_generation: unknown
 script_message: YOU NEED WIFI FOR THIS TO WORK
 source: https://github.com/Animalino5/MSPA-3DS
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: MSPA-3DS
