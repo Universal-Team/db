@@ -12,13 +12,13 @@ description: Collab Doodle is a simple drawing application designed for the Nint
 download_page: https://github.com/ArmstrongThomas/Doodle/releases
 downloads:
   CollabDoodle-update.3dsx:
-    size: 328676
-    size_str: 320 KiB
-    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.3.0/CollabDoodle-update.3dsx
+    size: 317064
+    size_str: 309 KiB
+    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.3.3/CollabDoodle-update.3dsx
   CollabDoodle-update.cia:
-    size: 277952
-    size_str: 271 KiB
-    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.3.0/CollabDoodle-update.cia
+    size: 269760
+    size_str: 263 KiB
+    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.3.3/CollabDoodle-update.cia
 github: ArmstrongThomas/Doodle
 icon: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
@@ -37,75 +37,34 @@ stars: 8
 systems:
 - 3DS
 title: Collab Doodle
-update_notes: '<h2 dir="auto">Collab Doodle 1.3.0</h2>
+update_notes: '<p dir="auto">Collab Doodle 1.3.3</p>
 
-  <p dir="auto">This update adds public chat and identity features to Collab Doodle.</p>
+  <p dir="auto">Text chat has been removed so Collab Doodle can stay focused on shared
+  drawing.</p>
 
-  <h3 dir="auto">New</h3>
+  <p dir="auto">What''s new:</p>
 
   <ul dir="auto">
 
-  <li>Public chat is now available from the in-app menu.</li>
+  <li>Added a dedicated eraser tool.</li>
 
-  <li>New messages can play a soft notification sound.</li>
+  <li>Hold L or R to temporarily switch to the eraser, then release to return to your
+  previous brush.</li>
 
-  <li>Chat sound can be toggled on or off from the chat screen.</li>
+  <li>Added Circle Pad panning support.</li>
 
-  <li>Recent chat messages load automatically when opening chat.</li>
+  <li>Improved the dither brush.</li>
 
-  <li>Long chat messages wrap better.</li>
+  <li>A random drawing color is chosen when the app starts.</li>
 
-  <li>Chat messages can be reported from the 3DS.</li>
+  <li>Color sampling with Up or X now updates the color picker correctly.</li>
 
-  <li>The connected user list is now visible in chat.</li>
+  <li>Added better disconnect handling, including a popup when the app loses connection.</li>
 
-  <li>Your name and identity now persist between launches.</li>
+  <li>Updated the rules/tutorial flow and controls text.</li>
 
-  </ul>
-
-  <h3 dir="auto">How to Use Chat</h3>
-
-  <ol dir="auto">
-
-  <li>Press <code class="notranslate">SELECT</code> to open the menu.</li>
-
-  <li>Choose <code class="notranslate">Chat</code>.</li>
-
-  <li>Tap <code class="notranslate">Send</code> or press <code class="notranslate">A</code>
-  to open the keyboard.</li>
-
-  <li>Type your message and confirm.</li>
-
-  <li>Use <code class="notranslate">Up/Down</code> to select older or newer messages.</li>
-
-  <li>Tap <code class="notranslate">Report</code> to report the selected message.</li>
-
-  <li>Use <code class="notranslate">Sound On/Off</code> to toggle chat notification
-  sounds.</li>
-
-  </ol>
-
-  <p dir="auto">Only the most recent public chat messages are shown.</p>
-
-  <h3 dir="auto">Setting Your Identity</h3>
-
-  <ol dir="auto">
-
-  <li>Press <code class="notranslate">SELECT</code> to open the menu.</li>
-
-  <li>Choose <code class="notranslate">Identity</code>.</li>
-
-  <li>Press <code class="notranslate">A</code> to change your display name.</li>
-
-  <li>Press <code class="notranslate">Y</code> to create or view your backup code.</li>
-
-  <li>Save your backup code somewhere safe.</li>
-
-  </ol>
-
-  <p dir="auto">Your backup code can be used later to recover your identity on another
-  device.</p>'
-updated: '2026-06-29T08:04:00Z'
-version: v1.3.0
-version_title: v1.3.0 Chat!
+  </ul>'
+updated: '2026-06-30T16:26:21Z'
+version: v1.3.3
+version_title: v1.3.3 Return to roots.
 ---
