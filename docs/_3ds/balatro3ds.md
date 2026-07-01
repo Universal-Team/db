@@ -22,7 +22,7 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: unknown
 source: https://github.com/idkhan/Balatro3DS
-stars: 88
+stars: 89
 systems:
 - 3DS
 title: Balatro3DS
