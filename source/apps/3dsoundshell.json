@@ -1,6 +1,7 @@
 {
 	"github": "Adritrain09/3DSoundShell",
 	"description": "Un lecteur de musique pour 2/3DS avec eqaliser visuel, playlist, paramètre de vitesse et bien plus..",
+	"long_description": "Un lecteur de music et d'audio avec des equaliseurs visuel, des equalisers audio, une interfaces acceptant la 3D, la possibilité de changer la vitesse de la music/audio, d'avoir des themes customs (lire le GitHub et aller sur le site indiquer sur la page de l'app ou sur le GitHub), une playlist pour écouter que les musiques favorie et et bien plus! (Cette application a était faite avec de l'IA, elle n'est donc pas parfaite et je n'ai pas les compétence pour coder moi même l'application, si vous rencontrez des bugs merci de bien vouloir les signaler sur le site officiel 3DSoundShell) / A music and audio player with visual equalizers, audio equalizers, a 3D-compatible interface, the ability to adjust the playback speed of music and audio, custom themes (check out the GitHub page and visit the website listed on the app’s page or on GitHub), a playlist to listen to only your favorite songs, and much more! (This app was created using AI, so it’s not perfect, and I don’t have the skills to code the app myself. If you encounter any bugs, please report them on the official 3DSoundShell website.)",
 	"systems": [
 		"3DS"
 	],
@@ -8,8 +9,12 @@
 		"app",
 		"media"
 	],
-	"icon": "https://raw.githubusercontent.com/Adritrain09/3DSoundShell/refs/heads/main/3DSoundShell.png",
-	"image": "https://raw.githubusercontent.com/Adritrain09/3DSoundShell/d49d0e9cb25d84140c5541559173018e271f8848/romfs/gfx/banner.png",
+	"site": "https://3DSoundShell.hosten.uk",
+	"icon": "https://raw.githubusercontent.com/Adritrain09/3DSoundShell/main/3DSoundShell.png",
+	"image": "https://raw.githubusercontent.com/Adritrain09/3DSoundShell/main/romfs/gfx/banner.png",
+	"screenshots": [
+		"https://raw.githubusercontent.com/Adritrain09/3DSoundShell/main/3DSoundShell%20presentation.png"
+	],
 	"unique_ids": [
 		1045461
 	]
