@@ -30,7 +30,7 @@ llm_generation: unknown
 qr:
   TWLSaveTool.cia: https://db.universal-team.net/assets/images/qr/twlsavetool-cia.png
 source: https://github.com/TuxSH/TWLSaveTool
-stars: 196
+stars: 197
 systems:
 - 3DS
 title: TWLSaveTool
