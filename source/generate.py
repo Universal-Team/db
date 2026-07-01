@@ -39,6 +39,18 @@ TEMP_DIR = SCRIPT_DIR / "temp"
 BG_IMAGE = None
 
 
+def tid_check(unique_id: int) -> str | None:
+	"""Checks whether a unique ID conflicts with a retail game"""
+	with open(SCRIPT_DIR / "title-ids.json") as fp:
+		title_ids = json.load(fp)
+
+		id_str = f"{unique_id:05X}"
+		if id_str in title_ids:
+			return title_ids[id_str]
+
+	return None
+
+
 def saveIcon(img: Image.Image, index: int, ds: bool,
 			 *, location: Optional[str] = None) -> Tuple[Image.Image, str]:
 	location = location or str(TEMP_DIR)
@@ -1283,6 +1295,12 @@ def app_test(apps: TextIO, github_token: Optional[str], docs: str):
 			return
 
 		click.echo(json.dumps(entry[0], indent=4))
+
+		if "unique_ids" in content:
+			for unique_id in content["unique_ids"]:
+				conflict = tid_check(unique_id)
+				if conflict:
+					click.secho(f"Warning: Unique ID 0x{unique_id:05X} conflicts with {conflict}!!", fg="red")
 
 if __name__ == "__main__":
 	main_entry_group()
