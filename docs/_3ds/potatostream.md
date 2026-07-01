@@ -33,7 +33,7 @@ systems:
 - 3DS
 title: PotatoStream
 unique_ids:
-- '0x700'
+- '0x3700'
 update_notes: '<h1 dir="auto">PotatoStream</h1>
 
   <p dir="auto"><strong>PotatoStream</strong> is a game streaming client for <strong>Old

@@ -23,6 +23,11 @@ image: https://raw.githubusercontent.com/CorySanin/FastPlayCoin/master/resource/
 image_length: 19045
 layout: app
 llm_generation: 'no'
+preinstall_message: 'Caution: This app conflicts with "Devils and Realist: Treasure
+  of the Substitute King", installing will overwrite the other.
+
+
+  注意: このアプリは ｢魔界王子 devils and realist 代理王の秘宝｣ と競合しています｡ インストールすると､ もう一方のアプリが上書きされます。'
 qr:
   FastPlayCoin.cia: https://db.universal-team.net/assets/images/qr/fastplaycoin-cia.png
 source: https://github.com/CorySanin/FastPlayCoin

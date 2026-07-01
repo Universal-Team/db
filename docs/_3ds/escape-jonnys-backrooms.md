@@ -24,7 +24,7 @@ image_length: 5237
 layout: app
 llm_generation: 'no'
 source: https://github.com/Pixel6763/Escape-Jonny-s-Backrooms-3DS
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: Escape Jonnys Backrooms
