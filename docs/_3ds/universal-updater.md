@@ -29,24 +29,20 @@ nightly:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 3012328
+      size: 3003700
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
-      size: 2483136
+      size: 2479040
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: <p dir="auto">This is from a new branch with an experimental guided
-    tutorial. I'm not dead set on the implementation yet, currently it shows when
-    you open the app (it will show on <em>first run only</em>... once implemented)</p>
-  update_notes_md: This is from a new branch with an experimental guided tutorial.
-    I'm not dead set on the implementation yet, currently it shows when you open the
-    app (it will show on *first run only*... once implemented)
-  updated: '2026-06-27T04:13:26Z'
+  update_notes: <p dir="auto">TWLBot - Automatic translation import</p>
+  update_notes_md: TWLBot - Automatic translation import
+  updated: '2026-07-01T03:00:43Z'
   version: git
-  version_title: Continuous Build - 2a75fdb
+  version_title: Continuous Build - 6998077
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
