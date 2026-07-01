@@ -12,12 +12,12 @@ download_filter: ^mivf_player_3ds\.(cia|3dsx)$
 download_page: https://github.com/Oldhimaster1/MIVF/releases
 downloads:
   mivf_player_3ds.3dsx:
-    size: 269776
-    size_str: 263 KiB
+    size: 271928
+    size_str: 265 KiB
     url: https://github.com/Oldhimaster1/MIVF/releases/download/v1.0.0/mivf_player_3ds.3dsx
   mivf_player_3ds.cia:
-    size: 362432
-    size_str: 353 KiB
+    size: 362944
+    size_str: 354 KiB
     url: https://github.com/Oldhimaster1/MIVF/releases/download/v1.0.0/mivf_player_3ds.cia
 github: Oldhimaster1/MIVF
 icon: https://raw.githubusercontent.com/Oldhimaster1/MIVF/refs/heads/main/meta/icon48.png
