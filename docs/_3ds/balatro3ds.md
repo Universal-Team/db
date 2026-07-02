@@ -73,7 +73,10 @@ update_notes: '<h3 dir="auto">Features Added:</h3>
 
   <li>Unlocks and Progress Saving</li>
 
-  </ul>'
+  </ul>
+
+  <p dir="auto">Also I''d like to thank 𝙻𝙴𝙵𝚃𝚈 for helping me with this update. Their
+  help was invaluable and made it so much easier to implement all the Decks and Stakes</p>'
 updated: '2026-07-01T23:54:03Z'
 version: v1.0.0-alpha
 version_title: Alpha 1.0.0
