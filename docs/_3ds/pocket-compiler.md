@@ -11,10 +11,10 @@ description: An almost fully featured HTML/JS/CSS compiler application made for 
   consoles.
 download_page: https://github.com/PlanetDogeCodes/Pocket-Compiler/releases
 downloads:
-  PocketCompiler.v0-36.3dsx:
-    size: 672132
-    size_str: 656 KiB
-    url: https://github.com/PlanetDogeCodes/Pocket-Compiler/releases/download/v0.36/PocketCompiler.v0-36.3dsx
+  PocketCompiler.v0-38.3dsx:
+    size: 673628
+    size_str: 657 KiB
+    url: https://github.com/PlanetDogeCodes/Pocket-Compiler/releases/download/v0.38/PocketCompiler.v0-38.3dsx
 github: PlanetDogeCodes/Pocket-Compiler
 icon: https://db.universal-team.net/assets/images/icons/pocket-compiler.png
 image: https://db.universal-team.net/assets/images/images/pocket-compiler.png
@@ -28,58 +28,41 @@ stars: 5
 systems:
 - 3DS
 title: Pocket-Compiler
-update_notes: '<p dir="auto">The compiled, install-and-play .3dsx file of the first
-  fully featured HTML compiler made for 3DS/n3DS consoles.<br>
+update_notes: '<p dir="auto"><strong>Crash / correctness bugs:</strong><br>
 
-  There was a v0.35, but it did not work as intended so that version has been skipped.</p>
+  Canvas 2D silently broken — wc_install_bindings() built its property-setup script
+  with snprintf into a 512-byte buffer, but the actual script is 854 bytes. It was
+  truncating mid-statement, so ctx.fillStyle = ''red'' and every other canvas property
+  setter did nothing, with zero error shown. Now passed as a literal directly to duk_eval_string
+  — no buffer, no truncation possible.<br>
 
-  <p dir="auto">CIA files will be added for release 1.0</p>
+  Event listeners could misfire — DOMEvent.js_ref was a uint8_t, silently wrapping
+  after the 255th addEventListener() call in a session and firing the wrong callback.
+  Widened to uint16_t.<br>
 
-  <p dir="auto"><strong>Crash / correctness fixes:</strong></p>
+  Listener ref counter never reset — it was a function-local static that persisted
+  across every recompile instead of resetting with the fresh Duktape context each
+  page load gets. Moved to file scope with an explicit reset tied to context creation.<br>
 
-  <ul dir="auto">
+  Unchecked array access in we_document_open() — switched to the existing bounds-checked
+  accessor so a corrupted sibling chain can''t read out-of-bounds memory.</p>
 
-  <li><code class="notranslate">editor_find</code> and <code class="notranslate">editor_find_prev</code>:
-  <code class="notranslate">start_line</code> was not clamped before use — with a
-  corrupted or uninitialized value it could make <code class="notranslate">editor_get_line</code>
-  walk off the end of the buffer. Now clamped to <code class="notranslate">[0, total-1]</code>.</li>
+  <p dir="auto"><strong>Stack-safety hardening (3DS has only 256KB of stack):</strong><br>
 
-  <li><code class="notranslate">editor_replace_at</code>: added <code class="notranslate">col
-  &gt; llen</code> guard so an exact-end-of-line replacement can''t produce a negative
-  memcpy count.</li>
+  5. ~3KB of stacked buffers in the CSS parser — css_parse_inline''s 2048-byte buffer
+  is called while css_parse_stylesheet''s 1024-byte buffer is still live. Both made
+  static (verified safe: parsing is never re-entrant).<br>
 
-  <li><code class="notranslate">we_eval_js</code>: added <code class="notranslate">!g_web_engine.loaded</code>
-  check — without it, a stale non-NULL <code class="notranslate">js_ctx</code> pointer
-  left from a previous <code class="notranslate">we_unload()</code> call could be
-  dereferenced.</li>
+  6. Unbounded layout recursion — nothing stopped a deeply-nested DOM tree (up to
+  the 1024-node cap) from recursing that many stack frames deep. Added a depth guard
+  capped well above any realistic page.</p>
 
-  <li><code class="notranslate">draw_console</code>: <code class="notranslate">i &lt;
-  WJS_LOG_MAX_LINES</code> guard added — a corrupted <code class="notranslate">g_wjs_log_n</code>
-  could have caused a read past the log array bounds.</li>
+  <p dir="auto">Version v0.37 was skipped due to issues with a beta build.<br>
 
-  </ul>
-
-  <p dir="auto"><strong>Compiler warning fixes:</strong></p>
-
-  <ul dir="auto">
-
-  <li><code class="notranslate">(down &amp; KEY_X) &amp;&amp; ...</code> — explicit
-  parentheses added (GCC -Wall warning eliminated).</li>
-
-  <li>Two <code class="notranslate">strcat()</code> calls replaced with <code class="notranslate">strncat()</code>.</li>
-
-  <li><code class="notranslate">LAYOUT_ED_H</code> corrected to <code class="notranslate">178.0f</code>
-  (was <code class="notranslate">180.0f</code>) — the 2px mismatch caused the cursor-to-line
-  mapping to select the wrong line near the bottom of the editor panel.</li>
-
-  </ul>
-
-  <p dir="auto">Note: Crashing is a recurring issue. If your 3DS crashes while using
-  PocketCompiler, please open an issue and describe what you were doing at the time
-  of the crash.</p>'
-updated: '2026-06-16T22:22:45Z'
-version: v0.36
-version_title: Compiled 3DSX (Release v0.36)
+  CIA files will be added in version 1.0</p>'
+updated: '2026-07-02T17:43:11Z'
+version: v0.38
+version_title: Compiled 3DSX (Version v0.38)
 wiki: https://github.com/PlanetDogeCodes/Pocket-Compiler/blob/main/README.md
 ---
 An almost fully featured HTML/JS/CSS compiler application made for 3DS/n3DS consoles. Includes iframes, limited WebGL support, limited Canvas support, Audio Support, and a clean UI!
