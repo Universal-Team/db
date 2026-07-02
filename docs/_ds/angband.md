@@ -77,7 +77,7 @@ prerelease:
   version: 4.2.6-152-g3ea683599
   version_title: 4.2.6-152-g3ea683599
 source: https://github.com/angband/angband
-stars: 1525
+stars: 1526
 systems:
 - 3DS
 - DS

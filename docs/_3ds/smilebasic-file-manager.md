@@ -28,7 +28,7 @@ llm_generation: 'no'
 qr:
   sbfm.cia: https://db.universal-team.net/assets/images/qr/sbfm-cia.png
 source: https://github.com/Trinitro21/lpp-3ds
-stars: 7
+stars: 8
 systems:
 - 3DS
 title: SmileBASIC File Manager
