@@ -10,9 +10,9 @@ description: A fanmade Balatro clone for the 3DS
 download_page: https://github.com/idkhan/Balatro3DS/releases
 downloads:
   Balatro3DS.3dsx:
-    size: 12529092
+    size: 12578442
     size_str: 11 MiB
-    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.0.0-alpha/Balatro3DS.3dsx
+    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.0.1-alpha/Balatro3DS.3dsx
 github: idkhan/Balatro3DS
 icon: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/resources/textures/1x/icon.png
 image: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/banner.png
@@ -26,60 +26,54 @@ stars: 92
 systems:
 - 3DS
 title: Balatro3DS
-update_notes: '<h3 dir="auto">Features Added:</h3>
+update_notes: '<p dir="auto">Now you can hold L to start Card Selection mode and use
+  the DPAD to navigate through your hand.<br>
+
+  While in Card Selection Mode, pressing Up allows you to toggle a card and holding
+  R and moving right or left lets you batch select cards</p>
+
+  <h3 dir="auto">Features:</h3>
 
   <ul dir="auto">
 
-  <li>Added a Deck View, now you can press Select to view your deck and owned vouchers</li>
+  <li>Added a Settings Menu (<a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/pixelkat5/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/pixelkat5">@pixelkat5</a>)</li>
 
-  <li>Added all the Decks</li>
+  <li>Improved Menu (<a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/Promaster2007/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/Promaster2007">@Promaster2007</a>)
+  and new How to Play screen</li>
 
-  <li>Added all Stakes</li>
+  <li>Added Gamepad support for card selection and navigation</li>
+
+  <li>New Icon (<a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Promaster2007/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Promaster2007">@Promaster2007</a>)</li>
 
   </ul>
 
-  <h3 dir="auto">Bug Fixes:</h3>
+  <h3 dir="auto">Bug Fixes (<a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/idkhan/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/idkhan">@idkhan</a>):</h3>
 
   <ul dir="auto">
 
-  <li>Fixed Legendary Jokers not showing up properly</li>
+  <li>Fixed issue with card rendering in deck view.</li>
 
-  <li>Fixed multiple jokers like the Mail-in Rebate on syncing up</li>
+  <li>Fixed cards disappearing after opening a Booster Pack</li>
 
-  <li>Fixed some Jokers not triggering properly</li>
+  <li>Fixed bad collisions in deck view</li>
 
-  <li>Grabber and Nacho Tong vouchers are in the game, apparently they were just missing
-  from the catalog, so now they are in the game and can be obtained</li>
+  <li>Fixed an infinite loop caused by Brainstorm and Blueprint pointing at each other</li>
 
-  <li>Some other stuff I cannot remember, but I know I fixed a lot of bugs and added
-  a lot of features, so enjoy!</li>
+  <li>Fixed Cavendish being spawnable without Gros Michel going extinct</li>
 
   </ul>
 
-  <h3 dir="auto">Features to be Added</h3>
-
-  <ul dir="auto">
-
-  <li>Complete Gamepad support, a lot of people have been asking for it and I have
-  no idea how I''m going to implement it but I will try</li>
-
-  <li>Animated Background, yeah okay I''ll add it</li>
-
-  <li>Skip Tag Tooltips, I completely forgot to add it</li>
-
-  <li>Set Seed</li>
-
-  <li>Win Screen</li>
-
-  <li>Unlocks and Progress Saving</li>
-
-  </ul>
-
-  <p dir="auto">Also I''d like to thank 𝙻𝙴𝙵𝚃𝚈 for helping me with this update. Their
-  help was invaluable and made it so much easier to implement all the Decks and Stakes</p>'
-updated: '2026-07-01T23:54:03Z'
-version: v1.0.0-alpha
-version_title: Alpha 1.0.0
+  <p dir="auto">If you find any bugs, feel free to report them on the issues tracker!</p>'
+updated: '2026-07-02T21:43:01Z'
+version: v1.0.1-alpha
+version_title: Alpha 1.0.1
 ---
 The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos, now on the 3DS.
 
