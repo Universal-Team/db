@@ -3,8 +3,8 @@ author: Gazpacho
 avatar: https://avatars.githubusercontent.com/u/29783694?v=4
 categories:
 - game
-color: '#774d52'
-color_bg: '#774d52'
+color: '#764a4e'
+color_bg: '#764a4e'
 created: '2026-03-15T00:40:50Z'
 description: A fanmade Balatro clone for the 3DS
 download_page: https://github.com/idkhan/Balatro3DS/releases
