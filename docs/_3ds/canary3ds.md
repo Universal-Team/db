@@ -11,13 +11,13 @@ description: A 3DS music player with modern features
 download_page: https://github.com/narayanx/Canary3DS/releases
 downloads:
   Canary.3dsx:
-    size: 3423252
+    size: 3424100
     size_str: 3 MiB
-    url: https://github.com/narayanx/Canary3DS/releases/download/v1.0.0/Canary.3dsx
+    url: https://github.com/narayanx/Canary3DS/releases/download/v1.1.0/Canary.3dsx
   Canary.cia:
     size: 2802624
     size_str: 2 MiB
-    url: https://github.com/narayanx/Canary3DS/releases/download/v1.0.0/Canary.cia
+    url: https://github.com/narayanx/Canary3DS/releases/download/v1.1.0/Canary.cia
 github: narayanx/Canary3DS
 icon: https://raw.githubusercontent.com/narayanx/Canary3DS/main/assets/icon.png
 image: https://raw.githubusercontent.com/narayanx/Canary3DS/main/assets/banner.png
@@ -35,39 +35,32 @@ systems:
 title: Canary3DS
 unique_ids:
 - '0xCA4A5'
-update_notes: '<p dir="auto">A 3DS music player with modern features.</p>
-
-  <h2 dir="auto">Features</h2>
+update_notes: '<h2 dir="auto">Added</h2>
 
   <ul dir="auto">
 
-  <li>Supports many audio file formats: <code class="notranslate">mp3</code>, <code
-  class="notranslate">flac</code>, <code class="notranslate">m4a</code>, <code class="notranslate">aac</code>,
-  <code class="notranslate">wav</code>, <code class="notranslate">opus</code>, <code
-  class="notranslate">vorbis</code></li>
+  <li>Ability for volume to go above 100%</li>
 
-  <li>Queue which songs can be added to and played from</li>
+  <li>Setting for enabling/disabling auto switching to the Player screen</li>
 
-  <li>Creating playlists, which are stored in the standard <code class="notranslate">m3u</code>
-  file format</li>
+  </ul>
 
-  <li>Playing songs through headphones with the lid closed</li>
+  <h2 dir="auto">Changed</h2>
 
-  <li>Powerful context menu allowing bulk operations to add to queue/playlist</li>
+  <ul dir="auto">
 
-  <li>Automatically plays next file</li>
+  <li>Volume to gain mapping to better match human perception of volume</li>
 
-  <li>Displaying embedded cover art and setting custom cover art for playlists</li>
+  </ul>
 
-  <li>Settings menu to customize configuration</li>
+  <h2 dir="auto">Fixed</h2>
 
-  <li>Seeking with a touch seek bar on the bottom touch screen, or using the left/right
-  dpad to seek in steps</li>
+  <ul dir="auto">
 
-  <li>Pause on headphones disconnect</li>
+  <li>Bug where volume reset upon song change</li>
 
   </ul>'
-updated: '2026-06-29T04:43:05Z'
-version: v1.0.0
-version_title: Canary v1.0.0
+updated: '2026-07-03T01:33:28Z'
+version: v1.1.0
+version_title: Canary v1.1.0
 ---
