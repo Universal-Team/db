@@ -1,0 +1,12 @@
+{
+	"github": "taxicat1/mpr-connect",
+	"title": "MPR Connect",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/taxicat1/mpr-connect/main/resource/icon48.png"
+}
