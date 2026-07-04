@@ -1,0 +1,13 @@
+{
+	"github": "Taifuoguru/CyberPlayer3DS",
+	"author": "Taifu",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"media"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/Taifuoguru/CyberPlayer3DS/main/icon.png",
+	"image": "https://raw.githubusercontent.com/Taifuoguru/CyberPlayer3DS/main/Banner.png"
+}
