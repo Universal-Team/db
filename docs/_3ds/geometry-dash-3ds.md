@@ -31,7 +31,7 @@ llm_generation: minor
 qr:
   GeometryDash3DS.cia: https://db.universal-team.net/assets/images/qr/geometrydash3ds-cia.png
 source: https://github.com/AleFunky/gd3ds
-stars: 78
+stars: 80
 systems:
 - 3DS
 title: Geometry Dash 3DS

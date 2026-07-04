@@ -10,9 +10,9 @@ description: A fanmade Balatro clone for the 3DS
 download_page: https://github.com/idkhan/Balatro3DS/releases
 downloads:
   Balatro3DS.3dsx:
-    size: 12578471
+    size: 12578794
     size_str: 11 MiB
-    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.0.2-alpha/Balatro3DS.3dsx
+    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.1.0-alpha/Balatro3DS.3dsx
 github: idkhan/Balatro3DS
 icon: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/resources/textures/1x/icon.png
 image: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/banner.png
@@ -22,33 +22,33 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: unknown
 source: https://github.com/idkhan/Balatro3DS
-stars: 94
+stars: 97
 systems:
 - 3DS
 title: Balatro3DS
-update_notes: '<h3 dir="auto">Bugfixes</h3>
+update_notes: '<h3 dir="auto">Features:</h3>
 
   <ul dir="auto">
 
-  <li>Skip tags were crashing the game because I used a lua keyword as the name for
-  a function parameter <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="4803804713" data-permission-text="Title is private" data-url="https://github.com/idkhan/Balatro3DS/issues/31"
-  data-hovercard-type="issue" data-hovercard-url="/idkhan/Balatro3DS/issues/31/hovercard"
-  href="https://github.com/idkhan/Balatro3DS/issues/31">#31</a></li>
+  <li>REVAMPED THE SHOP CONTROLS - drag and drop functionality similar to the Mobile
+  UI</li>
 
-  <li>All Special Decks were being scored as Plasma deck because I missed a bracket
-  <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4803804713"
-  data-permission-text="Title is private" data-url="https://github.com/idkhan/Balatro3DS/issues/31"
-  data-hovercard-type="issue" data-hovercard-url="/idkhan/Balatro3DS/issues/31/hovercard"
-  href="https://github.com/idkhan/Balatro3DS/issues/31">#31</a></li>
+  <li>Added a Win Screen for Ante 8 - Still no progression tracking</li>
 
   </ul>
 
-  <p dir="auto">I''m working on overhauling the Shop UI and how consumables are handled.
-  Will drop that update soon, so you can skip this one for now.</p>'
-updated: '2026-07-03T19:45:35Z'
-version: v1.0.2-alpha
-version_title: Alpha 1.0.2 (Hotfix)
+  <h3 dir="auto">Bugfixes:</h3>
+
+  <p dir="auto">-Negative, Foil, Holo, Polychrome Tags were not working. Fixed<br>
+
+  -The voucher tag didn''t do anything</p>
+
+  <p dir="auto">I''ve been working on this one for far too long, I need sleep <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/idkhan/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/idkhan">@idkhan</a>.</p>'
+updated: '2026-07-03T23:19:27Z'
+version: v1.1.0-alpha
+version_title: 'Alpha 1.1.0 - Shop Overhaul '
 ---
 The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos, now on the 3DS.
 
