@@ -28,6 +28,13 @@ license_name: MIT License
 llm_generation: 'yes'
 qr:
   PetPal.cia: https://db.universal-team.net/assets/images/qr/petpal-cia.png
+screenshots:
+- description: Friends
+  url: https://db.universal-team.net/assets/images/screenshots/petpal/friends.png
+- description: Pet journal
+  url: https://db.universal-team.net/assets/images/screenshots/petpal/pet-journal.png
+- description: Stats
+  url: https://db.universal-team.net/assets/images/screenshots/petpal/stats.png
 source: https://github.com/PetPal-Team/PetPal
 stars: 4
 systems:
