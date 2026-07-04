@@ -28,7 +28,7 @@ llm_generation: unknown
 qr:
   hrt3ds.cia: https://db.universal-team.net/assets/images/qr/hrt3ds-cia.png
 source: https://github.com/vinegar77/hrt-3ds
-stars: 5
+stars: 6
 systems:
 - 3DS
 title: hrt3DS

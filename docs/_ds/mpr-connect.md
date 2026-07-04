@@ -24,7 +24,7 @@ llm_generation: 'no'
 qr:
   mpr-connect.nds: https://db.universal-team.net/assets/images/qr/mpr-connect-nds.png
 source: https://github.com/taxicat1/mpr-connect
-stars: 0
+stars: 1
 systems:
 - DS
 title: MPR Connect
