@@ -1,0 +1,22 @@
+{
+	"github": "PetPal-Team/PetPal",
+	"author": "PetPal Team, DisLoPik",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game",
+		"app"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/PetPal-Team/PetPal/refs/heads/main/Pet%20Pal.png",
+	"image": "https://raw.githubusercontent.com/PetPal-Team/PetPal/refs/heads/main/banner.png",
+	"unique_ids": [
+		983253
+	],
+	"long_description": "# 🐾 PetPal — a StreetPass-style Virtual Pet for the Nintendo 3DS\n\nPetPal is a homebrew virtual-pet game in the spirit of the StreetPass era. You\nraise one pet — feed it, play with it, send it on adventures, dress it up — and\nevery other player you \"pass\" becomes a friend who brings your pet XP, gifts, and\nprogress toward evolution. Passing happens **over the internet** through PetPal's\nown relay, so it works from anywhere without needing another console nearby.\n\nBright, bouncy dual-screen UI, procedurally-drawn pets, a music track and sound\neffects, an auto-written journal, a coin shop, and a redeemable code system.\n\n> **Built with** C++17 · devkitPro · libctru · citro2d/citro3d · ndsp · 3ds-curl.\n> Runs on Old 3DS, New 3DS/2DS (any modded console).",
+	"website": "https://teampetpal.com",
+	"wiki": "https://teampetpal.com/wiki",
+	"license": "mit",
+	"license_name": "MIT License"
+}
