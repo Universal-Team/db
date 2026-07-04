@@ -12,5 +12,5 @@
 	"image": "https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/banner.png",
 	"icon": "https://raw.githubusercontent.com/diasurgical/devilutionX/master/Packaging/ctr/icon.png",
 	"download_filter": "3ds",
-	"script_message": "You need the game files from your CD/GOG in\n\"sdmc:/3ds/devilutionx/\" to play the game.\n\nDiablo: \"diabdat.mpq\"\n\nDiablo - Hellfire: \"hellfire.mpq\", \"hfmonk.mpq\",\n\"hfmusic.mpq\", and \"hfvoice.mpq\"\n\nDiablo Spawn (shareware): \"spawn.mpq\""
+	"preinstall_message": "You need the game files from your CD/GOG in\n\"sdmc:/3ds/devilutionx/\" to play the game.\n\nDiablo: \"diabdat.mpq\"\n\nDiablo - Hellfire: \"hellfire.mpq\", \"hfmonk.mpq\",\n\"hfmusic.mpq\", and \"hfvoice.mpq\"\n\nDiablo Spawn (shareware): \"spawn.mpq\""
 }

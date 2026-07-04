@@ -9,5 +9,5 @@
 	],
 	"icon": "https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/logo.bmp",
 	"image": "https://raw.githubusercontent.com/wavemotion-dave/NINTV-DS/main/arm9/gfx/bgTop.png",
-	"script_message": "You need \"grom.bin\", \"exec.bin\",\nand optionally \"ivoice.bin\" in the folder with your ROM files."
+	"preinstall_message": "You need \"grom.bin\", \"exec.bin\",\nand optionally \"ivoice.bin\" in the folder with your ROM files."
 }

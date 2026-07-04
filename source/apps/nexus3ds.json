@@ -14,5 +14,5 @@
 	],
 	"image": "https://github.com/2b-zipper/Nexus3DS/raw/master/img/logo_1.png",
 	"icon": "https://github.com/2b-zipper/Nexus3DS/raw/master/img/logo_icon.png",
-	"script_message": "This is a fork of Luma3DS. Using alternate forks of Luma3DS can cause system instability and other unexpected issues.\n\nIf you experience any issues please reinstall the normal \"Luma3DS\" before anything else."
+	"preinstall_message": "This is a fork of Luma3DS. Using alternate forks of Luma3DS can cause system instability and other unexpected issues.\n\nIf you experience any issues please reinstall the normal \"Luma3DS\" before anything else."
 }

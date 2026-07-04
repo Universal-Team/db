@@ -1077,7 +1077,7 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 				app["icon_index"] if "icon_index" in app else -1,
 				app["color_bg"] if "color_bg" in app else app["color"] if "color" in app else "",
 				app["stars"] if "stars" in app else 0,
-				app["script_message"] if "script_message" in app else "",
+				app["preinstall_message"] if "preinstall_message" in app else "",
 				app["unique_ids"] if "unique_ids" in app else [],
 				app["installed_files"] if "installed_files" in app else []
 			)

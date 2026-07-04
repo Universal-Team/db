@@ -14,5 +14,5 @@
 	"llm_generation": "no",
 	"long_description": "# Runtime & SDK for C#\n## The project uses a C++ 3DS homebrew application to load C# assemblies compiled as .pe files, then executes them through nanoCLR.\n\n### Links\n\n<p align=\"center\">\n  <a href=\"https://saysaa.github.io/ReSharp3DS/\">ReSharp3DS Documentation</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/saysaa/ReSharp3DS/tree/main\">Github repo</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://discord.gg/ENBwURmUj8\">Discord server</a>\n</p>",
 	"wiki": "https://saysaa.github.io/ReSharp3DS/",
-	"script_message": "Remember to create a folder named “ReSharp3DS” at the root of your SD card"
+	"preinstall_message": "Remember to create a folder named “ReSharp3DS” at the root of your SD card"
 }

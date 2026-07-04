@@ -16,5 +16,5 @@
 	],
 	"long_description": "# Tor3DS\nTor 3DS is a Tor Browser **client** for the New Nintendo 3DS Family. This app will have unexpeted results on Old 3DS systems.\n\n## INFO:\n*I do not own the rights to Tor browser*. This is only a **CLIENT**, it **requires** a PC side server to run. See: https://github.com/DisLoPik/Tor3ds",
 	"wiki": "https://github.com/DisLoPik/Tor3ds",
-	"script_message": "INFO: I do not own the rights to Tor browser. This is only a CLIENT, it requires a PC side server to run. See: https://github.com/DisLoPik/Tor3ds"
+	"preinstall_message": "INFO: I do not own the rights to Tor browser. This is only a CLIENT, it requires a PC side server to run. See: https://github.com/DisLoPik/Tor3ds"
 }

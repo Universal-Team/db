@@ -7,5 +7,5 @@
 	"image": "https://raw.githubusercontent.com/Voxel9/Sonic-CD-11-3DS-Redux/refs/heads/3ds-2025/RSDKv3.3DS/res/banner.png",
 	"icon": "https://raw.githubusercontent.com/Voxel9/Sonic-CD-11-3DS-Redux/refs/heads/3ds-2025/RSDKv3.3DS/res/icon.png",
 	"long_description": "Port of Sonic CD to the 3DS, based on Rubberduckycooly's Sonic CD decompilation.\n\nIn order to run the game, you need to copy the \"Data.rsdk\" file from the Steam, Android, or iOS version of Sonic CD to \"/3ds/SonicCD\" on your SD card.",
-	"script_message": "Note: You will need \"Data.rsdk\" from\nthe Steam, Android, or iOS version in\n\"sdmc:/3ds/SonicCD\" to play the game."
+	"preinstall_message": "Note: You will need \"Data.rsdk\" from\nthe Steam, Android, or iOS version in\n\"sdmc:/3ds/SonicCD\" to play the game."
 }

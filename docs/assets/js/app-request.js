@@ -72,7 +72,7 @@ let appSchema = {
 	download_filter: {label: "Download Filter (regex)", help: "File whitelist in case your app has files not caught by the blacklist. Most common of cross-platform apps.", type: "string"},
 	// Rare
 	autogen_scripts: {label: "Auto-generate Scripts", type: "bool", savedDefault: true},
-	script_message: {label: "Pre-install message", help: "The confirmation message to display in Universal-Updater before installing. Leave blank for most apps.", type: "string"},
+	preinstall_message: {label: "Pre-install message", help: "The confirmation message to display in Universal-Updater before installing. Leave blank for most apps.", type: "string"},
 };
 
 let apiMappings = {
