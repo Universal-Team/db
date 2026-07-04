@@ -10,9 +10,9 @@ description: A fanmade Balatro clone for the 3DS
 download_page: https://github.com/idkhan/Balatro3DS/releases
 downloads:
   Balatro3DS.3dsx:
-    size: 12578794
+    size: 12579594
     size_str: 11 MiB
-    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.1.0-alpha/Balatro3DS.3dsx
+    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.1.1-alpha/Balatro3DS.3dsx
 github: idkhan/Balatro3DS
 icon: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/resources/textures/1x/icon.png
 image: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/banner.png
@@ -26,29 +26,18 @@ stars: 97
 systems:
 - 3DS
 title: Balatro3DS
-update_notes: '<h3 dir="auto">Features:</h3>
+update_notes: '<h3 dir="auto">Bugfixes</h3>
 
   <ul dir="auto">
 
-  <li>REVAMPED THE SHOP CONTROLS - drag and drop functionality similar to the Mobile
-  UI</li>
+  <li>Fixed the volume slider not working and freezing the game</li>
 
-  <li>Added a Win Screen for Ante 8 - Still no progression tracking</li>
+  <li>Fixed skip tags not rerolling after defeating a boss blind</li>
 
-  </ul>
-
-  <h3 dir="auto">Bugfixes:</h3>
-
-  <p dir="auto">-Negative, Foil, Holo, Polychrome Tags were not working. Fixed<br>
-
-  -The voucher tag didn''t do anything</p>
-
-  <p dir="auto">I''ve been working on this one for far too long, I need sleep <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/idkhan/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/idkhan">@idkhan</a>.</p>'
-updated: '2026-07-03T23:19:27Z'
-version: v1.1.0-alpha
-version_title: 'Alpha 1.1.0 - Shop Overhaul '
+  </ul>'
+updated: '2026-07-04T14:05:49Z'
+version: v1.1.1-alpha
+version_title: Alpha 1.1.1 (Hotfix)
 ---
 The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos, now on the 3DS.
 
