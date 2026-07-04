@@ -1,0 +1,13 @@
+{
+	"github": "Taifuoguru/CyberCamera",
+	"author": "Taifu",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/Taifuoguru/CyberCamera/main/%C4%B0con.jpg",
+	"image": "https://raw.githubusercontent.com/Taifuoguru/CyberCamera/main/Banner.jpg"
+}
