@@ -19,7 +19,7 @@ image: https://db.universal-team.net/assets/images/icons/mspa-3ds.png
 image_length: 763
 layout: app
 llm_generation: unknown
-script_message: YOU NEED WIFI FOR THIS TO WORK
+preinstall_message: YOU NEED WIFI FOR THIS TO WORK
 source: https://github.com/Animalino5/MSPA-3DS
 stars: 3
 systems:

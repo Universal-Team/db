@@ -29,10 +29,10 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: 'no'
+preinstall_message: Remember to create a folder named “ReSharp3DS” at the root of
+  your SD card
 qr:
   ReSharp3DS.cia: https://db.universal-team.net/assets/images/qr/resharp3ds-cia.png
-script_message: Remember to create a folder named “ReSharp3DS” at the root of your
-  SD card
 source: https://github.com/saysaa/ReSharp3DS
 stars: 18
 systems:

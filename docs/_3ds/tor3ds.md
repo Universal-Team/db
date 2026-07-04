@@ -26,10 +26,10 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: minor
+preinstall_message: 'INFO: I do not own the rights to Tor browser. This is only a
+  CLIENT, it requires a PC side server to run. See: https://github.com/DisLoPik/Tor3ds'
 qr:
   Tor3DS.cia: https://db.universal-team.net/assets/images/qr/tor3ds-cia.png
-script_message: 'INFO: I do not own the rights to Tor browser. This is only a CLIENT,
-  it requires a PC side server to run. See: https://github.com/DisLoPik/Tor3ds'
 source: https://github.com/DisLoPik/Tor3ds
 stars: 2
 systems:
