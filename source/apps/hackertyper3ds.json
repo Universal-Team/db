@@ -1,0 +1,14 @@
+{
+	"github": "badluma/Hackertyper3DS",
+	"description": "A port of the legendary hackertyper.net website for the Nintendo 3DS.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/badluma/Hackertyper3DS/main/assets/icon.png",
+	"image": "https://raw.githubusercontent.com/badluma/Hackertyper3DS/main/assets/banner.png",
+	"long_description": "# Hackertyper3DS\n\nA port of the legendary [hackertyper.net](https://hackertyper.net) website for the Nintendo 3DS.\n\n## Install (FBI)\n\nTo install the app using the QR code, open FBI on your 3DS and go to \"Remote Install\" and \"Scan QR Code\".\n\n<img src=\"assets/qr.png\" width=\"200\" alt=\"QR code — latest CIA release\">\n\n## Features\n\n- Color switching by pressing the Select button\n- Speed customization by pressing L+D-Pad Up/Down (1-50 characters per click)\n- Custom text support by editing the text.txt file (sdmc:/3ds/Hackertyper3DS/text.txt)\n- Both CIA and 3DSX versions available\n\n## LLM usage\n\nWhile making this project, I used as little LLM generated code as possible, relying more on documentation. However, in the making of the publishing workflow, I did use Claude Code to troubleshoot, as I'm not really experienced with writing those workflows. I also used it to fix some bugs, but made sure that I didn't do that too often and understanding each and every line that it wrote.\n"
+}
