@@ -26,10 +26,10 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: unknown
+preinstall_message: Put your Pokémon Blue/Red save file at "SD:/3ds/bedit/SAVE.sav"
+  (case-sensitive) before launching the app.
 qr:
   bred-editor.cia: https://db.universal-team.net/assets/images/qr/bred-editor-cia.png
-script_message: Put your Pokémon Blue/Red save file at "SD:/3ds/bedit/SAVE.sav" (case-sensitive)
-  before launching the app.
 source: https://github.com/AtexBg/bred-editor
 stars: 1
 systems:

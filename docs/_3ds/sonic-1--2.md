@@ -50,6 +50,11 @@ layout: app
 license: other
 license_name: Other
 llm_generation: 'no'
+preinstall_message: 'Note: You will need "Data.rsdk" from
+
+  the Steam, Android, or iOS version in
+
+  "/3ds/Sonic1" / "/3ds/Sonic2" to play the game.'
 qr:
   Sonic1.cia: https://db.universal-team.net/assets/images/qr/sonic1-cia.png
   Sonic1_rev01.cia: https://db.universal-team.net/assets/images/qr/sonic1_rev01-cia.png
@@ -72,11 +77,6 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/sonic-1--2/sonic-2-special-stage.png
 - description: Sonic 2 title screen
   url: https://db.universal-team.net/assets/images/screenshots/sonic-1--2/sonic-2-title-screen.png
-script_message: 'Note: You will need "Data.rsdk" from
-
-  the Steam, Android, or iOS version in
-
-  "/3ds/Sonic1" / "/3ds/Sonic2" to play the game.'
 source: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation
 stars: 53
 systems:

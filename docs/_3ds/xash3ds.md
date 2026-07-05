@@ -34,9 +34,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: 'no'
-qr:
-  Xash3DS.cia: https://db.universal-team.net/assets/images/qr/xash3ds-cia.png
-script_message: 'You will need to copy the "valve" directory from
+preinstall_message: 'You will need to copy the "valve" directory from
 
   your Half-Life installation to "sdmc:/xash3d/".
 
@@ -44,8 +42,10 @@ script_message: 'You will need to copy the "valve" directory from
   If present, delete "config.cfg", "video.cfg",
 
   and "opengl.cfg" from the value directory.'
+qr:
+  Xash3DS.cia: https://db.universal-team.net/assets/images/qr/xash3ds-cia.png
 source: https://github.com/masterfeizz/Xash3DS
-stars: 172
+stars: 174
 systems:
 - 3DS
 title: Xash3DS
@@ -92,16 +92,16 @@ Xash3D Engine is a custom Gold Source engine rewritten from scratch. Xash3D is c
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
+<details class="alert alert-secondary"><summary>[full game] extras.pak</summary>
+<ol>
+<li>Download <code>extras.pak</code> to <code>/xash3d/extras.pak</code> on your SD card</li>
+</ol>
+</details>
+
 <details class="alert alert-secondary"><summary>[demo] uplink_data.zip</summary>
 <ol>
 <li>Download <code>uplink_data.zip</code></li>
 <li>Extract everything from the zip to the root of your SD card</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>[full game] extras.pak</summary>
-<ol>
-<li>Download <code>extras.pak</code> to <code>/xash3d/extras.pak</code> on your SD card</li>
 </ol>
 </details>
 

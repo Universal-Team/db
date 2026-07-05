@@ -33,7 +33,7 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: unknown
-script_message: 'Ensure "Enable game patching" is enabled
+preinstall_message: 'Ensure "Enable game patching" is enabled
 
   in Luma3DS settings for this to work.'
 source: https://github.com/Aftendo/SatellaZone
@@ -73,13 +73,6 @@ SatellaZone is a 3DS Nintendo Zone Revival patch that allows you to access archi
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>JPN</summary>
-<ol>
-<li>Download <code>SatellaZone.zip</code></li>
-<li>Extract everything from the zip to <code>/luma/titles/0004001000020B00/</code> on your SD card</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>USA</summary>
 <ol>
 <li>Download <code>SatellaZone.zip</code></li>
@@ -89,17 +82,40 @@ SatellaZone is a 3DS Nintendo Zone Revival patch that allows you to access archi
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[local HQ] EUR</summary>
+<details class="alert alert-secondary"><summary>JPN</summary>
 <ol>
-<li>Download <code>LocalSatellaZoneHQ.zip</code></li>
+<li>Download <code>SatellaZone.zip</code></li>
+<li>Extract everything from the zip to <code>/luma/titles/0004001000020B00/</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[local] EUR</summary>
+<ol>
+<li>Download <code>LocalSatellaZone.zip</code></li>
 <li>Extract everything from the zip to <code>/luma/titles/0004001000022B00/</code> on your SD card</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[local HQ] JPN</summary>
+<details class="alert alert-secondary"><summary>[local] USA</summary>
+<ol>
+<li>Download <code>LocalSatellaZone.zip</code></li>
+<li>Download <code>UsaPatch.zip</code></li>
+<li>Extract everything from the zip to <code>/luma/titles/0004001000021B00/</code> on your SD card</li>
+<li>Extract everything from the zip to the root of your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[local] JPN</summary>
+<ol>
+<li>Download <code>LocalSatellaZone.zip</code></li>
+<li>Extract everything from the zip to <code>/luma/titles/0004001000020B00/</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>[local HQ] EUR</summary>
 <ol>
 <li>Download <code>LocalSatellaZoneHQ.zip</code></li>
-<li>Extract everything from the zip to <code>/luma/titles/0004001000020B00/</code> on your SD card</li>
+<li>Extract everything from the zip to <code>/luma/titles/0004001000022B00/</code> on your SD card</li>
 </ol>
 </details>
 
@@ -112,26 +128,10 @@ SatellaZone is a 3DS Nintendo Zone Revival patch that allows you to access archi
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[local] EUR</summary>
+<details class="alert alert-secondary"><summary>[local HQ] JPN</summary>
 <ol>
-<li>Download <code>LocalSatellaZone.zip</code></li>
-<li>Extract everything from the zip to <code>/luma/titles/0004001000022B00/</code> on your SD card</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>[local] JPN</summary>
-<ol>
-<li>Download <code>LocalSatellaZone.zip</code></li>
+<li>Download <code>LocalSatellaZoneHQ.zip</code></li>
 <li>Extract everything from the zip to <code>/luma/titles/0004001000020B00/</code> on your SD card</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>[local] USA</summary>
-<ol>
-<li>Download <code>LocalSatellaZone.zip</code></li>
-<li>Download <code>UsaPatch.zip</code></li>
-<li>Extract everything from the zip to <code>/luma/titles/0004001000021B00/</code> on your SD card</li>
-<li>Extract everything from the zip to the root of your SD card</li>
 </ol>
 </details>
 

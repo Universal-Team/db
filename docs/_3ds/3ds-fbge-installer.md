@@ -26,9 +26,9 @@ layout: app
 license: agpl-3.0
 license_name: GNU Affero General Public License v3.0
 llm_generation: unknown
+preinstall_message: Don't forget to read the "Help" section upon launching the program
 qr:
   fbge-installer.cia: https://db.universal-team.net/assets/images/qr/fbge-installer-cia.png
-script_message: Don't forget to read the "Help" section upon launching the program
 source: https://github.com/AtexBg/fbge-installer
 stars: 1
 systems:

@@ -17,6 +17,12 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: unknown
+preinstall_message: 'This is a fork of Luma3DS. Using alternate forks of Luma3DS can
+  cause system instability and other unexpected issues.
+
+
+  If you experience any issues please reinstall the normal "Luma3DS" before anything
+  else.'
 prerelease:
   download_page: https://github.com/2b-zipper/Nexus3DS/releases/tag/0.3.0
   downloads:
@@ -65,12 +71,6 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/nexus3ds/config-menu.png
 - description: Rosalina menu
   url: https://db.universal-team.net/assets/images/screenshots/nexus3ds/rosalina-menu.png
-script_message: 'This is a fork of Luma3DS. Using alternate forks of Luma3DS can cause
-  system instability and other unexpected issues.
-
-
-  If you experience any issues please reinstall the normal "Luma3DS" before anything
-  else.'
 source: https://github.com/2b-zipper/Nexus3DS
 stars: 75
 systems:

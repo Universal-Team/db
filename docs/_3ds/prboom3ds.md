@@ -16,6 +16,9 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_generation: 'no'
+preinstall_message: 'You will need to put Doom WAD files in
+
+  "sdmc:/3ds/prboom3ds/" to play them.'
 prerelease:
   download_page: https://github.com/elhobbs/prboom3ds/releases/tag/v0.7-alpha
   downloads:
@@ -49,9 +52,6 @@ prerelease:
   updated: '2019-12-21T23:47:05Z'
   version: v0.7-alpha
   version_title: v0.7-alpha
-script_message: 'You will need to put Doom WAD files in
-
-  "sdmc:/3ds/prboom3ds/" to play them.'
 source: https://github.com/elhobbs/prboom3ds
 stars: 111
 systems:

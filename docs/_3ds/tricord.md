@@ -25,6 +25,11 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: unknown
+preinstall_message: This project is developed for educational purposes only. This
+  is an unofficial Discord client and is not affiliated with or endorsed by Discord
+  Inc. Software is provided "as is", and you use it at your own risk. The developers
+  assume no responsibility for any damages, data loss, or Discord ToS violations resulting
+  from the use of this software.
 qr:
   TriCord.cia: https://db.universal-team.net/assets/images/qr/tricord-cia.png
 screenshots:
@@ -36,11 +41,6 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/tricord/login.png
 - description: Serverlist
   url: https://db.universal-team.net/assets/images/screenshots/tricord/serverlist.png
-script_message: This project is developed for educational purposes only. This is an
-  unofficial Discord client and is not affiliated with or endorsed by Discord Inc.
-  Software is provided "as is", and you use it at your own risk. The developers assume
-  no responsibility for any damages, data loss, or Discord ToS violations resulting
-  from the use of this software.
 source: https://github.com/2b-zipper/TriCord
 stars: 92
 systems:

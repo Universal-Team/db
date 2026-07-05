@@ -25,6 +25,11 @@ layout: app
 license: other
 license_name: Other
 llm_generation: unknown
+preinstall_message: 'Note: You will need "Data.rsdk" from
+
+  the Steam, Android, or iOS version in
+
+  "sdmc:/3ds/SonicCD" to play the game.'
 qr:
   SonicCD.cia: https://db.universal-team.net/assets/images/qr/soniccd-cia.png
 screenshots:
@@ -38,11 +43,6 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/sonic-cd/gameplay-4.png
 - description: Title screen
   url: https://db.universal-team.net/assets/images/screenshots/sonic-cd/title-screen.png
-script_message: 'Note: You will need "Data.rsdk" from
-
-  the Steam, Android, or iOS version in
-
-  "sdmc:/3ds/SonicCD" to play the game.'
 source: https://github.com/Voxel9/Sonic-CD-11-3DS-Redux
 stars: 32
 systems:

@@ -25,6 +25,11 @@ layout: app
 license: other
 license_name: Other
 llm_generation: unknown
+preinstall_message: 'Note: You will need "Data.rsdk" from
+
+  an official version in
+
+  "/3ds/SonicMania" to play the game.'
 qr:
   SonicMania.cia: https://db.universal-team.net/assets/images/qr/sonicmania-cia.png
 screenshots:
@@ -36,11 +41,6 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/sonic-mania/special-stage.png
 - description: Studiopolis
   url: https://db.universal-team.net/assets/images/screenshots/sonic-mania/studiopolis.png
-script_message: 'Note: You will need "Data.rsdk" from
-
-  an official version in
-
-  "/3ds/SonicMania" to play the game.'
 source: https://github.com/SaturnSH2x2/RSDKv5-Decompilation
 stars: 106
 systems:

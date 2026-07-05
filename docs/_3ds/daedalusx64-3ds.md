@@ -30,6 +30,12 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_generation: 'no'
+preinstall_message: 'Note: You will need to put at least one ROM in:
+
+  sdmc:/3ds/DaedalusX64/Roms/
+
+
+  Not having any ROMs will make it load a glitched menu.'
 qr:
   DaedalusX64.cia: https://db.universal-team.net/assets/images/qr/daedalusx64-cia.png
 screenshots:
@@ -39,12 +45,6 @@ screenshots:
   url: https://db.universal-team.net/assets/images/screenshots/daedalusx64-3ds/super-mario-64.png
 - description: Touch screen menu
   url: https://db.universal-team.net/assets/images/screenshots/daedalusx64-3ds/touch-screen-menu.png
-script_message: 'Note: You will need to put at least one ROM in:
-
-  sdmc:/3ds/DaedalusX64/Roms/
-
-
-  Not having any ROMs will make it load a glitched menu.'
 source: https://github.com/masterfeizz/DaedalusX64-3DS
 stars: 380
 systems:

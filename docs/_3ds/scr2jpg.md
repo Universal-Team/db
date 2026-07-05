@@ -25,10 +25,10 @@ layout: app
 license: other
 license_name: Other
 llm_generation: unknown
+preinstall_message: If your screenshots don't appear in the camera app, check the
+  README from the GitHub (github.com/Adrix12team/SCR2JPG).
 qr:
   SCR2JPG.cia: https://db.universal-team.net/assets/images/qr/scr2jpg-cia.png
-script_message: If your screenshots don't appear in the camera app, check the README
-  from the GitHub (github.com/Adrix12team/SCR2JPG).
 source: https://github.com/Adrix12team/SCR2JPG
 stars: 2
 systems:

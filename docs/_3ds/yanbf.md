@@ -32,14 +32,14 @@ layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_generation: 'no'
-qr:
-  bootstrap.cia: https://db.universal-team.net/assets/images/qr/bootstrap-cia.png
-script_message: 'You will need to generate the actual forwarders on your computer.
+preinstall_message: 'You will need to generate the actual forwarders on your computer.
 
 
   See the README for more information:
 
   https://github.com/YANBForwarder/YANBF'
+qr:
+  bootstrap.cia: https://db.universal-team.net/assets/images/qr/bootstrap-cia.png
 source: https://github.com/YANBForwarder/YANBF
 stars: 241
 systems:
