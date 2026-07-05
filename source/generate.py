@@ -1073,6 +1073,7 @@ def process_from_folder(sourceFolder: pathlib.Path, ghToken: str, webhook_url: s
 				[x for x in app["screenshots"] if x["url"].endswith(".png") and "horihd" not in x["url"]] if "screenshots" in app else [],
 				notes,
 				app["license"] if "license" in app else "",
+				app["llm_generation"] if "llm_generation" in app else "",
 				app["wiki"] if "wiki" in app else "",
 				app["icon_index"] if "icon_index" in app else -1,
 				app["color_bg"] if "color_bg" in app else app["color"] if "color" in app else "",

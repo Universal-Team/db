@@ -35,6 +35,8 @@ class StoreEntry:
 		(optional) Release notes for the entry
 	license
 		(optional) The license of the entry
+	llm_generation
+		(optional) The LLM generated content status of the entry
 	wiki
 		(optional) URL to the entry's wiki
 	iconIndex
@@ -57,7 +59,7 @@ class StoreEntry:
 
 		return "".join([c for c in string if ord(c) < 0xFFFF]).strip()
 
-	def __init__(self, title: str, author: str, description: str, version: str, lastUpdated: str = "", categories: list = [], consoles: list = [], screenshots: list = [], releaseNotes: str = "", license: str = "", wiki: str = "", iconIndex: int = -1, color: str = "", stars: int = 0, preinstallMessage: str = "", titleIds: list = [], installedFiles: list = []):
+	def __init__(self, title: str, author: str, description: str, version: str, lastUpdated: str = "", categories: list = [], consoles: list = [], screenshots: list = [], releaseNotes: str = "", license: str = "", llm_generation: str = "", wiki: str = "", iconIndex: int = -1, color: str = "", stars: int = 0, preinstallMessage: str = "", titleIds: list = [], installedFiles: list = []):
 		self._entry = {
 			"info": {
 				"title": self._bmpOnly(title),
@@ -70,6 +72,7 @@ class StoreEntry:
 				"screenshots": screenshots,
 				"releasenotes": self._bmpOnly(releaseNotes),
 				"license": self._bmpOnly(license),
+				"llm_generation": self._bmpOnly(llm_generation),
 				"wiki": wiki,
 				"icon_index": iconIndex if iconIndex < 0 else iconIndex % ICONS_PER_SHEET,
 				"sheet_index": iconIndex // ICONS_PER_SHEET,
