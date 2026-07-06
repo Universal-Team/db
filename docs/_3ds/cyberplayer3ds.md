@@ -3,6 +3,8 @@ author: Taifu
 avatar: https://avatars.githubusercontent.com/u/297731797?v=4
 categories:
 - media
+color: '#3c4249'
+color_bg: '#3c4249'
 created: '2026-07-01T00:19:55Z'
 description: A retro-styled audio/visual experience for the Nintendo 3DS, heavily
   inspired by late 90s/early 2000s Kenwood car audio DSP systems
@@ -60,8 +62,12 @@ update_notes: '<p dir="auto">CyberPlayer3DS - Release Notes<br>
   <p dir="auto">Special Thanks<br>
 
   Huge thanks to Compaktdisk and Dr-Sun-Stiles for their feedback, bug reports, and
-  continued support for this release!</p>'
-updated: '2026-07-06T15:22:59Z'
+  continued support for this release!</p>
+
+  <p dir="auto">I have resolved the issues regarding the CIA installation. I apologize
+  for the inconvenience and the previous technical problems. The project is now stable,
+  and you can download the latest version.</p>'
+updated: '2026-07-06T18:02:51Z'
 version: 1.0.3
 version_title: CyberPlayer3DS
 ---
