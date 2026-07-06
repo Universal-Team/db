@@ -12,13 +12,13 @@ download_filter: ^mivf_player_3ds\.(cia|3dsx)$
 download_page: https://github.com/Oldhimaster1/MIVF/releases
 downloads:
   mivf_player_3ds.3dsx:
-    size: 271928
-    size_str: 265 KiB
-    url: https://github.com/Oldhimaster1/MIVF/releases/download/v1.0.0/mivf_player_3ds.3dsx
+    size: 340132
+    size_str: 332 KiB
+    url: https://github.com/Oldhimaster1/MIVF/releases/download/v2026.07.05/mivf_player_3ds.3dsx
   mivf_player_3ds.cia:
-    size: 362944
-    size_str: 354 KiB
-    url: https://github.com/Oldhimaster1/MIVF/releases/download/v1.0.0/mivf_player_3ds.cia
+    size: 407488
+    size_str: 397 KiB
+    url: https://github.com/Oldhimaster1/MIVF/releases/download/v2026.07.05/mivf_player_3ds.cia
 github: Oldhimaster1/MIVF
 icon: https://raw.githubusercontent.com/Oldhimaster1/MIVF/refs/heads/main/meta/icon48.png
 image: https://raw.githubusercontent.com/Oldhimaster1/MIVF/refs/heads/main/meta/banner.png
@@ -38,10 +38,60 @@ systems:
 title: MIVF Player
 unique_ids:
 - '0xF8001'
-update_notes: <p dir="auto">First official release! Includes PC encoders and 3DS binaries.</p>
-updated: '2026-06-30T14:45:02Z'
-version: v1.0.0
-version_title: MIVF Player & Encoder v1.0
+update_notes: '<h1 dir="auto">MIVF Player v2026.07.05</h1>
+
+  <h2 dir="auto">Highlights</h2>
+
+  <ul dir="auto">
+
+  <li>Updated README and full documentation set.</li>
+
+  <li>Added sidecar and embedded seek-index support.</li>
+
+  <li>Added encoder packet-size report.</li>
+
+  <li>Added --profile 3ds-fast for smaller, Old 3DS-friendly encodes.</li>
+
+  <li>Improved large-file startup behavior.</li>
+
+  <li>Improved browser preview responsiveness on Old 3DS.</li>
+
+  <li>Improved settings responsiveness by saving on close instead of every value change.</li>
+
+  <li>UI polish for browser, settings, alerts, timeline, and playback footer.</li>
+
+  </ul>
+
+  <h2 dir="auto">Assets</h2>
+
+  <ul dir="auto">
+
+  <li>mivf_player_3ds.3dsx - Homebrew Launcher build.</li>
+
+  <li>mivf_player_3ds.cia - installable HOME Menu build.</li>
+
+  <li>encode_mivf.exe - Windows encoder frontend.</li>
+
+  <li>miv2y_moflex_tier.exe - native encoder helper, also uploaded separately for
+  debugging/dev use.</li>
+
+  <li>SHA256SUMS.txt - checksums for release assets.</li>
+
+  </ul>
+
+  <h2 dir="auto">Recommended encoding</h2>
+
+  <p dir="auto">For best Old 3DS playback:</p>
+
+  <p dir="auto">encode_mivf.exe input.mp4 output.mivf --m2y2 --profile 3ds-fast --report-packet-sizes</p>
+
+  <p dir="auto">For smaller files:</p>
+
+  <p dir="auto">encode_mivf.exe input.mp4 output.mivf --m2y2 --profile 3ds-fast --qp
+  45 --lambda 45 --keep 4 --c-qp-offset 10 --report-packet-sizes</p>'
+updated: '2026-07-06T02:49:03Z'
+version: v2026.07.05
+version_title: MIVF Player v2026.07.05
 ---
 
 MIVF Player is a homebrew video player for Nintendo 3DS built around the custom MIVF container format.

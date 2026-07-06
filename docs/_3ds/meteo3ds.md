@@ -12,13 +12,13 @@ description: 'Meteo3DS - a polished bilingual (EN/DE) weather app for the Ninten
 download_page: https://github.com/xPsycho999/Meteo3DS/releases
 downloads:
   Meteo3DS.3dsx:
-    size: 217780
-    size_str: 212 KiB
-    url: https://github.com/xPsycho999/Meteo3DS/releases/download/v1.0.2/Meteo3DS.3dsx
+    size: 221008
+    size_str: 215 KiB
+    url: https://github.com/xPsycho999/Meteo3DS/releases/download/v1.1.0/Meteo3DS.3dsx
   Meteo3DS.cia:
     size: 467904
     size_str: 456 KiB
-    url: https://github.com/xPsycho999/Meteo3DS/releases/download/v1.0.2/Meteo3DS.cia
+    url: https://github.com/xPsycho999/Meteo3DS/releases/download/v1.1.0/Meteo3DS.cia
 github: xPsycho999/Meteo3DS
 icon: https://raw.githubusercontent.com/xPsycho999/Meteo3DS/main/icon.png
 image: https://raw.githubusercontent.com/xPsycho999/Meteo3DS/main/cia/banner.png
@@ -36,12 +36,62 @@ systems:
 title: Meteo3DS
 unique_ids:
 - '0xF2C5A'
-update_notes: '<ul dir="auto">
+update_notes: '<h2 dir="auto">Meteo3DS v1.1.0 — UI Overhaul &amp; Hourly Precipitation</h2>
 
-  <li>Replaced the circular loading spinner with a 3x3 block 3DS-style animation.</li>
+  <h3 dir="auto">What''s New</h3>
+
+  <p dir="auto"><strong>Hourly Graph</strong></p>
+
+  <ul dir="auto">
+
+  <li>Shows actual precipitation amount in <strong>mm</strong> alongside the probability
+  percentage</li>
+
+  <li>Full 24-hour temperature line-graph with precipitation bars</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Dynamic Sun &amp; Moon</strong></p>
+
+  <ul dir="auto">
+
+  <li>The sun travels along a realistic arc across the sky based on real sunrise/sunset
+  times</li>
+
+  <li>The moon tracks the complementary nighttime arc — both independent from other
+  weather elements</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Smoother Animations</strong></p>
+
+  <ul dir="auto">
+
+  <li>Cleaner tab transitions with a directional crossfade</li>
+
+  <li>Settings &amp; Credits overlays slide in smoothly</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Dawn &amp; Dusk Sky</strong></p>
+
+  <ul dir="auto">
+
+  <li>The sky gradient shifts to warm dawn/dusk colors around sunrise and sunset</li>
+
+  </ul>
+
+  <h3 dir="auto">Downloads</h3>
+
+  <ul dir="auto">
+
+  <li><code class="notranslate">Meteo3DS.3dsx</code> — for use with the Homebrew Launcher</li>
+
+  <li><code class="notranslate">Meteo3DS.cia</code> — installable via FBI (requires
+  Custom Firmware)</li>
 
   </ul>'
-updated: '2026-07-06T01:52:39Z'
-version: v1.0.2
-version_title: Meteo3DS v1.0.2
+updated: '2026-07-06T03:26:32Z'
+version: v1.1.0
+version_title: Meteo3DS v1.1.0 — UI Overhaul & Hourly Precipitation
 ---
