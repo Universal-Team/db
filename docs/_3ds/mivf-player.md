@@ -37,7 +37,7 @@ systems:
 - 3DS
 title: MIVF Player
 unique_ids:
-- '0xF8001'
+- '0xF8002'
 update_notes: '<h1 dir="auto">MIVF Player v2026.07.05</h1>
 
   <h2 dir="auto">Highlights</h2>
