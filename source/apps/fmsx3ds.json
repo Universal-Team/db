@@ -14,7 +14,7 @@
 	"long_description": "fMSX(MSX emulator) port to 3DS. Add new feature such as MSXTurboR emulation and MSX0 emulation.\nAlso, it add various improvements based on recently analize of MSX hardware\ninclude analize in Japan that is unknown in world wide.",
 	"icon": "https://raw.githubusercontent.com/TomiokaH01/fMSX3DS/main/icon.png",
 	"archive": {
-		"fMSX3DS-.*\\.zip": {
+		"fMSX3DS-\\d+\\.\\d+\\.zip": {
 			"fMSX3DS.3dsx": [
 				"fMSX3DS.3dsx"
 			],
