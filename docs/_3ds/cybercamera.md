@@ -14,7 +14,11 @@ downloads:
   CyberCamera.3dsx:
     size: 208436
     size_str: 203 KiB
-    url: https://github.com/Taifuoguru/CyberCamera/releases/download/1.0.0/CyberCamera.3dsx
+    url: https://github.com/Taifuoguru/CyberCamera/releases/download/1.0.1/CyberCamera.3dsx
+  CyberCamera.cia:
+    size: 174016
+    size_str: 169 KiB
+    url: https://github.com/Taifuoguru/CyberCamera/releases/download/1.0.1/CyberCamera.cia
 github: Taifuoguru/CyberCamera
 icon: https://raw.githubusercontent.com/Taifuoguru/CyberCamera/main/%C4%B0con.jpg
 image: https://raw.githubusercontent.com/Taifuoguru/CyberCamera/main/Banner.jpg
@@ -23,12 +27,14 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: minor
+qr:
+  CyberCamera.cia: https://db.universal-team.net/assets/images/qr/cybercamera-cia.png
 source: https://github.com/Taifuoguru/CyberCamera
 stars: 0
 systems:
 - 3DS
 title: CyberCamera
-updated: '2026-07-03T20:24:25Z'
-version: 1.0.0
+updated: '2026-07-06T16:13:02Z'
+version: 1.0.1
 version_title: CyberCamera
 ---
