@@ -13,7 +13,7 @@
 	"icon": "https://raw.githubusercontent.com/Oldhimaster1/MIVF/refs/heads/main/meta/icon48.png",
 	"image": "https://raw.githubusercontent.com/Oldhimaster1/MIVF/refs/heads/main/meta/banner.png",
 	"unique_ids": [
-		1015809
+		1015810
 	],
 	"long_description": "\nMIVF Player is a homebrew video player for Nintendo 3DS built around the custom MIVF container format.\n\nIt supports custom MIVF video streams plus IA4M audio. The player is designed for real Nintendo 3DS hardware and includes a file browser, playback controls, subtitles, chapters, resume bookmarks, favorites, playlists, aspect-ratio modes, and settings saved on the SD card.\n\nVideos can be converted on PC with the included `encode_mivf` encoder. Encoded `.mivf` files can be placed in `sdmc:/mivf/`, `sdmc:/3ds/mivf_player_3ds/`, or the SD root.\n\n(M2Y2 range coding can reduce file size while preserving the already-encoded video packets losslessly... or in simpler terms.... video is highh quality with very small file size)\n",
 	"download_filter": "^mivf_player_3ds\\.(cia|3dsx)$",
