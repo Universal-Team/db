@@ -12,8 +12,8 @@ description: CyberCamera is a Nintendo 3DS homebrew camera app with a cyber/Y2K 
 download_page: https://github.com/Taifuoguru/CyberCamera/releases
 downloads:
   CyberCamera.3dsx:
-    size: 207392
-    size_str: 202 KiB
+    size: 208436
+    size_str: 203 KiB
     url: https://github.com/Taifuoguru/CyberCamera/releases/download/1.0.0/CyberCamera.3dsx
 github: Taifuoguru/CyberCamera
 icon: https://raw.githubusercontent.com/Taifuoguru/CyberCamera/main/%C4%B0con.jpg

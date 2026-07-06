@@ -34,7 +34,7 @@ nightly:
     RetroArch_cia.7x:
       url: https://buildbot.libretro.com/nightly/nintendo/3ds/RetroArch_cia.7z
 source: https://github.com/libretro/RetroArch
-stars: 13314
+stars: 13317
 systems:
 - 3DS
 title: RetroArch
@@ -56,17 +56,16 @@ wiki: https://github.com/libretro/RetroArch/wiki
 </ol>
 </details>
 
+<details class="alert alert-secondary"><summary>bottom_menu.png</summary>
+<ol>
+<li>Download <code>bottom_menu.png</code> to <code>/retroarch/assets/ctr/bottom_menu.png</code> on your SD card</li>
+</ol>
+</details>
+
 <details class="alert alert-secondary"><summary>[optional] Assets</summary>
 <ol>
 <li>Download <code>assets.zip</code></li>
 <li>Extract everything from the zip to <code>/retroarch/assets/</code> on your SD card</li>
-</ol>
-</details>
-
-<details class="alert alert-secondary"><summary>[optional] Database files</summary>
-<ol>
-<li>Download <code>database-rdb.zip</code></li>
-<li>Extract everything from the zip to <code>/retroarch/database/rdb/</code> on your SD card</li>
 </ol>
 </details>
 
@@ -77,9 +76,10 @@ wiki: https://github.com/libretro/RetroArch/wiki
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>bottom_menu.png</summary>
+<details class="alert alert-secondary"><summary>[optional] Database files</summary>
 <ol>
-<li>Download <code>bottom_menu.png</code> to <code>/retroarch/assets/ctr/bottom_menu.png</code> on your SD card</li>
+<li>Download <code>database-rdb.zip</code></li>
+<li>Extract everything from the zip to <code>/retroarch/database/rdb/</code> on your SD card</li>
 </ol>
 </details>
 
