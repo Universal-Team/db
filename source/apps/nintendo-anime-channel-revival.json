@@ -8,7 +8,7 @@
 	],
 	"icon": "https://avatars.githubusercontent.com/u/180861193?s=48&v=4",
 	"preinstall_message": "This is a beta version, so there may be bugs or issues. We try as much as possible to provide a variety of content in both English and French. (French content is predominant.) To contact us about adding more content, please visit https://www.ttdu08.online/contactus",
-	"installed_files": ["/luma/sysmodules/0004013000002F02.ips"],
+	"installed_files": ["/luma/titles/0004000000141200/romfs/bootapp/resources/scripts/content/cataloghandler.lua"],
 	"archive": {
 		"ttdu08AnimeChannel.*\\.zip": {
 			"Patches": ["luma"]
