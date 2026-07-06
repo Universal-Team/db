@@ -29,27 +29,35 @@ nightly:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 3005272
+      size: 3019636
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
-      size: 2479040
+      size: 2487232
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: '<p dir="auto">Pk11 - Display LLM generated content status</p>
+  update_notes: '<p dir="auto">Pk11 - Major refactor: Don''t keep JSON around after
+    loading, switch to RapidJSON</p>
 
-    <p dir="auto">Stars moved to author line a la Universal-DB''s website to not increase
-    size of info block</p>'
-  update_notes_md: 'Pk11 - Display LLM generated content status
+    <p dir="auto">This is WIP! I have only changed some of the JSON over to RapidJSON,
+    there''s still more work to do. The most notable improvements are on inital load
+    and in the UniStore list. I hope this is free of regressions, but its a huge commit,
+    there might be some regressions -- be warned if using git builds. Please let me
+    know anything that''s broken.</p>'
+  update_notes_md: 'Pk11 - Major refactor: Don''t keep JSON around after loading,
+    switch to RapidJSON
 
 
-    Stars moved to author line a la Universal-DB''s website to not increase size of
-    info block'
-  updated: '2026-07-04T23:41:15Z'
+    This is WIP! I have only changed some of the JSON over to RapidJSON, there''s
+    still more work to do. The most notable improvements are on inital load and in
+    the UniStore list. I hope this is free of regressions, but its a huge commit,
+    there might be some regressions -- be warned if using git builds. Please let me
+    know anything that''s broken.'
+  updated: '2026-07-06T10:22:21Z'
   version: git
-  version_title: Continuous Build - 3f1e578
+  version_title: Continuous Build - 6c39964
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
