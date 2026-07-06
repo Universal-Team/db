@@ -28,7 +28,7 @@ llm_generation: unknown
 qr:
   moonlight.cia: https://db.universal-team.net/assets/images/qr/moonlight-cia.png
 source: https://github.com/zoeyjodon/moonlight-N3DS
-stars: 290
+stars: 291
 systems:
 - 3DS
 title: Moonlight Streaming Client
