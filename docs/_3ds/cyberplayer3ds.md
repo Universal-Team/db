@@ -66,7 +66,12 @@ update_notes: '<p dir="auto">CyberPlayer3DS - Release Notes<br>
 
   <p dir="auto">I have resolved the issues regarding the CIA installation. I apologize
   for the inconvenience and the previous technical problems. The project is now stable,
-  and you can download the latest version.</p>'
+  and you can download the latest version.</p>
+
+  <p dir="auto">"I apologize for the frequent updates. I encountered a technical issue
+  where the CIA was conflicting with the Title ID of my other camera project. I''ve
+  revised the CIA several times to fix this, and it should be working perfectly now.
+  Thank you for your patience.</p>'
 updated: '2026-07-06T18:02:51Z'
 version: 1.0.3
 version_title: CyberPlayer3DS
