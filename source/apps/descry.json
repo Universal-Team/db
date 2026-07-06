@@ -1,0 +1,18 @@
+{
+	"github": "patausx/descry",
+	"title": "descry",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app",
+		"media"
+	],
+	"unique_ids": [
+		910785
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/patausx/descry/main/assets/icon.png",
+	"image": "https://raw.githubusercontent.com/patausx/descry/main/branding/final/banner_256x128.png",
+	"long_description": "descry is a music tracker + synthesizer for the New Nintendo 3DS, in the tradition of LSDj, the Dirtywave M8 and Korg's discontinued DSN-12.\n\n- song → chain → phrase sequencer, 8 tracks, hex editing, 23 FX commands with a built-in reference\n- five synth engines, all fixed-point at 32 kHz: wavsynth (+ user wavetables), 4-op FM, sampler with chops/slices, drumkit, and a DSN-style 2-VCO analog voice\n- per-track filter / bitcrush / downsample, global ping-pong delay + reverb, sidechain duck\n- KAOSS-style XY performance pad on the touchscreen, mixer with touch faders\n- record straight from the built-in mic into a sample slot\n- groove/swing, scale snap, live mode, undo/redo, 6 color themes\n\nNew 3DS / New 2DS only — it needs the faster CPU and the extra core.\n\nThe release zip carries five demo projects and a starter pack of single-cycle wavetables — worth grabbing alongside the CIA."
+}
