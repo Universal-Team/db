@@ -30,7 +30,7 @@ llm_generation: minor
 qr:
   CyberCamera.cia: https://db.universal-team.net/assets/images/qr/cybercamera-cia.png
 source: https://github.com/Taifuoguru/CyberCamera
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: CyberCamera
