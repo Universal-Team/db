@@ -3,6 +3,8 @@ author: The Angband team
 avatar: https://avatars.githubusercontent.com/u/458884?v=4
 categories:
 - game
+color: '#858585'
+color_bg: '#808080'
 created: '2010-10-29T01:17:48Z'
 description: A free, single-player roguelike dungeon exploration game
 download_filter: -(3ds|nds)\.zip
