@@ -34,7 +34,7 @@ preinstall_message: Remember to create a folder named “ReSharp3DS” at the ro
 qr:
   ReSharp3DS.cia: https://db.universal-team.net/assets/images/qr/resharp3ds-cia.png
 source: https://github.com/saysaa/ReSharp3DS
-stars: 18
+stars: 19
 systems:
 - 3DS
 title: ReSharp3DS
