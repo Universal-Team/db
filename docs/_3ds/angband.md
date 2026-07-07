@@ -3,8 +3,6 @@ author: The Angband team
 avatar: https://avatars.githubusercontent.com/u/458884?v=4
 categories:
 - game
-color: '#858585'
-color_bg: '#808080'
 created: '2010-10-29T01:17:48Z'
 description: A free, single-player roguelike dungeon exploration game
 download_filter: -(3ds|nds)\.zip
@@ -19,63 +17,73 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-152-g3ea683599
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-156-g1cc6cce51
   downloads:
-    Angband-4.2.6-152-g3ea683599-3ds.zip:
-      size: 24695454
+    Angband-4.2.6-156-g1cc6cce51-3ds.zip:
+      size: 24695614
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-152-g3ea683599/Angband-4.2.6-152-g3ea683599-3ds.zip
-    Angband-4.2.6-152-g3ea683599-nds.zip:
+      url: https://github.com/angband/angband/releases/download/4.2.6-156-g1cc6cce51/Angband-4.2.6-156-g1cc6cce51-3ds.zip
+    Angband-4.2.6-156-g1cc6cce51-nds.zip:
       size: 23329400
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-152-g3ea683599/Angband-4.2.6-152-g3ea683599-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-156-g1cc6cce51/Angband-4.2.6-156-g1cc6cce51-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>Change a handful of names and descriptions to better match with Tolkien by
-    <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    <li>borg: rename manwe to varda to match base game change by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4700993357" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6653"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6653/hovercard"
-    href="https://github.com/angband/angband/pull/6653">#6653</a></li>
+    data-id="4780192819" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6661"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6661/hovercard"
+    href="https://github.com/angband/angband/pull/6661">#6661</a></li>
 
-    <li>Change handlers for SIGTERM and SIGQUIT by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4701258687" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6654"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6654/hovercard"
-    href="https://github.com/angband/angband/pull/6654">#6654</a></li>
-
-    <li>Correct additional missing casts for is*()''s argument by <a class="user-mention
+    <li>cmake: replace more capitalized command invocations by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4709179953" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6655"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6655/hovercard"
-    href="https://github.com/angband/angband/pull/6655">#6655</a></li>
+    data-id="4748506984" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6657"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6657/hovercard"
+    href="https://github.com/angband/angband/pull/6657">#6657</a></li>
+
+    <li>cmake: correct misspelled command used in test case error handling by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4748531816" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6658"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6658/hovercard"
+    href="https://github.com/angband/angband/pull/6658">#6658</a></li>
+
+    <li>Expand VERSION_NAME rather than use hardwired "Angband" in two error messages
+    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="4765402274" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6660"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6660/hovercard"
+    href="https://github.com/angband/angband/pull/6660">#6660</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-149-g32f3c35ea...4.2.6-152-g3ea683599"><tt>4.2.6-149-g32f3c35ea...4.2.6-152-g3ea683599</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-152-g3ea683599...4.2.6-156-g1cc6cce51"><tt>4.2.6-152-g3ea683599...4.2.6-156-g1cc6cce51</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * Change a handful of names and descriptions to better match with Tolkien by @backwardsEric
-    in https://github.com/angband/angband/pull/6653
+    * borg: rename manwe to varda to match base game change by @agoodman00 in https://github.com/angband/angband/pull/6661
 
-    * Change handlers for SIGTERM and SIGQUIT by @backwardsEric in https://github.com/angband/angband/pull/6654
+    * cmake: replace more capitalized command invocations by @backwardsEric in https://github.com/angband/angband/pull/6657
 
-    * Correct additional missing casts for is*()''s argument by @backwardsEric in
-    https://github.com/angband/angband/pull/6655
+    * cmake: correct misspelled command used in test case error handling by @backwardsEric
+    in https://github.com/angband/angband/pull/6658
+
+    * Expand VERSION_NAME rather than use hardwired "Angband" in two error messages
+    by @backwardsEric in https://github.com/angband/angband/pull/6660
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-149-g32f3c35ea...4.2.6-152-g3ea683599'
-  updated: '2026-06-30T12:43:12Z'
-  version: 4.2.6-152-g3ea683599
-  version_title: 4.2.6-152-g3ea683599
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-152-g3ea683599...4.2.6-156-g1cc6cce51'
+  updated: '2026-07-07T12:39:16Z'
+  version: 4.2.6-156-g1cc6cce51
+  version_title: 4.2.6-156-g1cc6cce51
 source: https://github.com/angband/angband
 stars: 1528
 systems:
@@ -191,28 +199,28 @@ Angband is a graphical dungeon adventure game that uses textual characters to re
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-152-g3ea683599.3dsx</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-156-g1cc6cce51.3dsx</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-152-g3ea683599-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-152-g3ea683599.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-152-g3ea683599.3dsx</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-156-g1cc6cce51-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-156-g1cc6cce51.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-156-g1cc6cce51.3dsx</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-152-g3ea683599.cia</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-156-g1cc6cce51.cia</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-152-g3ea683599-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-152-g3ea683599.cia</code> from the zip to <code>/cias/Angband-4.2.6-152-g3ea683599.cia</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-156-g1cc6cce51-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-156-g1cc6cce51.cia</code> from the zip to <code>/cias/Angband-4.2.6-156-g1cc6cce51.cia</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/Angband-4.2.6-152-g3ea683599.cia</code> using FBI or GodMode9</li>
+<li>Install and delete <code>/cias/Angband-4.2.6-156-g1cc6cce51.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-152-g3ea683599.nds</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-156-g1cc6cce51.nds</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-152-g3ea683599-nds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-152-g3ea683599.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Download <code>Angband-4.2.6-156-g1cc6cce51-nds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-156-g1cc6cce51.nds</code> from the zip to where you keep NDS files on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>

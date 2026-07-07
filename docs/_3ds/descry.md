@@ -11,18 +11,18 @@ description: music tracker + synthesizer for the New Nintendo 3DS — song/chain
   sequencer, 5 synth engines, 23 FX commands, KAOSS pad, mic sampling
 download_page: https://github.com/patausx/descry/releases
 downloads:
-  descry-v1.0.0.zip:
-    size: 245410
-    size_str: 239 KiB
-    url: https://github.com/patausx/descry/releases/download/v1.0.0/descry-v1.0.0.zip
+  descry-v1.0.1.zip:
+    size: 246517
+    size_str: 240 KiB
+    url: https://github.com/patausx/descry/releases/download/v1.0.1/descry-v1.0.1.zip
   descry.3dsx:
-    size: 426404
-    size_str: 416 KiB
-    url: https://github.com/patausx/descry/releases/download/v1.0.0/descry.3dsx
+    size: 428588
+    size_str: 418 KiB
+    url: https://github.com/patausx/descry/releases/download/v1.0.1/descry.3dsx
   descry.cia:
-    size: 488384
-    size_str: 476 KiB
-    url: https://github.com/patausx/descry/releases/download/v1.0.0/descry.cia
+    size: 490432
+    size_str: 478 KiB
+    url: https://github.com/patausx/descry/releases/download/v1.0.1/descry.cia
 github: patausx/descry
 icon: https://raw.githubusercontent.com/patausx/descry/main/assets/icon.png
 image: https://raw.githubusercontent.com/patausx/descry/main/branding/final/banner_256x128.png
@@ -53,42 +53,71 @@ systems:
 title: descry
 unique_ids:
 - '0xDE5C1'
-update_notes: '<p dir="auto">first public release.</p>
+update_notes: '<p dir="auto">bugfix + polish release, driven almost entirely by <a
+  href="https://github.com/patausx/descry/issues/1" data-hovercard-type="issue" data-hovercard-url="/patausx/descry/issues/1/hovercard">issue
+  #1</a> — thanks <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gearmo3ds/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gearmo3ds">@gearmo3ds</a>
+  and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DoubleSprattt/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DoubleSprattt">@DoubleSprattt</a>.</p>
 
-  <p dir="auto">a music tracker + synthesizer for the New Nintendo 3DS — song/chain/phrase<br>
-
-  sequencer, 23 FX commands, mod tables, five synth engines (wavsynth / 4-op FM /<br>
-
-  sampler / drumkit / DSN analog voice), per-track DSP, delay + reverb,<br>
-
-  KAOSS-style XY pad, mic sampling, user wavetables, 6 color themes.</p>
-
-  <p dir="auto"><strong>install</strong> (pick one):</p>
+  <p dir="auto"><strong>fixed</strong></p>
 
   <ul dir="auto">
 
-  <li><strong>CIA</strong> — install <code class="notranslate">descry.cia</code> with
-  FBI, launches from the home menu with its<br>
+  <li>tempo jitter: sequencer events were quantized to audio-buffer boundaries (up
+  to 32ms off-grid, audible as unstable tempo in GRAVEHILL). the scheduler is now
+  tick-accurate inside the buffer.</li>
 
-  own icon + banner. recommended on CFW.</li>
+  <li>kaoss pad CUT/RES (and everything else) was stomped by every note trigger —
+  gestures now own their parameters while held and hand them back after the release
+  ramp.</li>
 
-  <li><strong>3DSX</strong> — unzip <code class="notranslate">descry-v1.0.0.zip</code>,
-  copy the <code class="notranslate">3ds</code> folder to your SD card<br>
+  <li>mixer settings (faders, delay, reverb, duck) now apply on project load, not
+  on the first visit to the mixer screen.</li>
 
-  root, launch from the Homebrew Launcher.</li>
+  <li>the R-modifier help bar told the wrong story on the table screen; hint bars
+  are now context-aware per screen.</li>
 
-  <li><code class="notranslate">descry.3ds</code> — CCI for flashcarts.</li>
+  <li>tapping REC in the drumkit GEN panel flips back to the pads (there was nothing
+  to record in GEN).</li>
 
   </ul>
 
-  <p dir="auto">the zip includes five demo projects plus a starter pack of single-cycle<br>
+  <p dir="auto"><strong>improved</strong></p>
 
-  wavetables — grab it for the demo content even if you install the CIA.</p>
+  <ul dir="auto">
 
-  <p dir="auto">New 3DS / New 2DS only.</p>'
-updated: '2026-07-06T16:05:58Z'
-version: v1.0.0
-version_title: descry v1.0.0
+  <li>kaoss DEL/REV sends: perceptual curve — audible from mid-pad instead of only
+  at the top.</li>
+
+  <li>kaoss M&gt;C: auto-engages an LPF and gives the wobble headroom (base cutoff
+  to ~55% while held).</li>
+
+  <li>instrument view header: USED IN N PHRASES counter + slot hints — instruments
+  are a global bank, now the UI says so.</li>
+
+  <li>hold <strong>L + A</strong> in the instrument view: clone the instrument to
+  the first free slot.</li>
+
+  <li>hold <strong>R + Y</strong> in the phrase view: clear the whole phrase (undo-tracked).</li>
+
+  </ul>
+
+  <p dir="auto"><strong>docs</strong></p>
+
+  <ul dir="auto">
+
+  <li>full user guide: <a href="https://github.com/patausx/descry/blob/main/docs/GUIDE.md">docs/GUIDE.md</a></li>
+
+  </ul>
+
+  <p dir="auto"><strong>install:</strong> CIA via FBI (recommended on CFW) · 3DSX
+  in the zip (copy <code class="notranslate">3ds</code> to SD root) · <code class="notranslate">.3ds</code>
+  for flashcarts. the zip carries the five demo projects and the wavetable starter
+  pack. New 3DS / New 2DS only.</p>'
+updated: '2026-07-07T13:05:34Z'
+version: v1.0.1
+version_title: descry v1.0.1
 ---
 descry is a music tracker + synthesizer for the New Nintendo 3DS, in the tradition of LSDj, the Dirtywave M8 and Korg's discontinued DSN-12.
 
