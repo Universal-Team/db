@@ -3,6 +3,8 @@ author: Taifu
 avatar: https://avatars.githubusercontent.com/u/297731797?v=4
 categories:
 - media
+color: '#3c4249'
+color_bg: '#3c4249'
 created: '2026-07-01T00:19:55Z'
 description: A retro-styled audio/visual experience for the Nintendo 3DS, heavily
   inspired by late 90s/early 2000s Kenwood car audio DSP systems
