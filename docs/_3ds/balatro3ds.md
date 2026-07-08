@@ -10,9 +10,9 @@ description: A fanmade Balatro clone for the 3DS
 download_page: https://github.com/idkhan/Balatro3DS/releases
 downloads:
   Balatro3DS.3dsx:
-    size: 11473020
-    size_str: 10 MiB
-    url: https://github.com/idkhan/Balatro3DS/releases/download/1.1.2-alpha/Balatro3DS.3dsx
+    size: 14045380
+    size_str: 13 MiB
+    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.1.3-alpha/Balatro3DS.3dsx
 github: idkhan/Balatro3DS
 icon: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/resources/textures/1x/icon.png
 image: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/banner.png
@@ -26,38 +26,28 @@ stars: 104
 systems:
 - 3DS
 title: Balatro3DS
-update_notes: '<h3 dir="auto">Features</h3>
+update_notes: '<h3 dir="auto">Features:</h3>
 
   <ul dir="auto">
 
-  <li>Adds Deck and Stake Unlocks</li>
-
-  <li>Allows Discovering Jokers, Tarot, Spectral and Planet Cards</li>
-
-  <li>Deck View now shows Deck, Stake and Blind Information</li>
+  <li>Menu Animation finally added</li>
 
   </ul>
 
-  <h3 dir="auto">Bugfixes</h3>
+  <h3 dir="auto">Bugfixes:</h3>
 
   <ul dir="auto">
 
-  <li>Fixed the Invisible Joker bug (probably)</li>
+  <li>Fixed no price being shown on the Sell drop zone</li>
 
-  <li>Fixed Ankh not working</li>
+  <li>Fixed Tags and Spectral debuffs carrying over from previous runs</li>
 
-  <li>Fixed incorrect Blind colors in the TopUI</li>
-
-  <li>Vagabond not spawning tarot cards at $4</li>
-
-  <li>Gros Michel was still in the shop pool after going extinct</li>
-
-  <li>Changes made to the hand were not copied to the deck properly</li>
+  <li>Undiscovered cards now show their tooltips, just not their names</li>
 
   </ul>'
-updated: '2026-07-06T19:26:47Z'
-version: 1.1.2-alpha
-version_title: Alpha 1.1.2
+updated: '2026-07-08T19:20:03Z'
+version: v1.1.3-alpha
+version_title: Alpha 1.1.3 (Fixed)
 ---
 The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos, now on the 3DS.
 
