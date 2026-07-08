@@ -102,6 +102,7 @@ update_notes: '<h2 dir="auto">descry v1.0.2</h2>
 updated: '2026-07-08T15:04:50Z'
 version: v1.0.2
 version_title: descry v1.0.2
+wiki: https://github.com/patausx/descry/wiki
 ---
 descry is a music tracker + synthesizer for the New Nintendo 3DS, in the tradition of LSDj, the Dirtywave M8 and Korg's discontinued DSN-12.
 
