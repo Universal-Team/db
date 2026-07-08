@@ -31,5 +31,4 @@ update_notes: <p dir="auto">I previously forgot to add the app name, app author 
 updated: '2024-12-30T10:37:44Z'
 version: v1.0.1
 version_title: 1.0.1 - Minor changes
-wiki: https://github.com/DefeatOf13/RollTheDice-3DS/wiki
 ---
