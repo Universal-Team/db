@@ -11,18 +11,14 @@ description: music tracker + synthesizer for the New Nintendo 3DS — song/chain
   sequencer, 5 synth engines, 23 FX commands, KAOSS pad, mic sampling
 download_page: https://github.com/patausx/descry/releases
 downloads:
-  descry-v1.0.1.zip:
-    size: 246517
-    size_str: 240 KiB
-    url: https://github.com/patausx/descry/releases/download/v1.0.1/descry-v1.0.1.zip
   descry.3dsx:
-    size: 428588
-    size_str: 418 KiB
-    url: https://github.com/patausx/descry/releases/download/v1.0.1/descry.3dsx
+    size: 436836
+    size_str: 426 KiB
+    url: https://github.com/patausx/descry/releases/download/v1.0.2/descry.3dsx
   descry.cia:
-    size: 490432
-    size_str: 478 KiB
-    url: https://github.com/patausx/descry/releases/download/v1.0.1/descry.cia
+    size: 495552
+    size_str: 483 KiB
+    url: https://github.com/patausx/descry/releases/download/v1.0.2/descry.cia
 github: patausx/descry
 icon: https://raw.githubusercontent.com/patausx/descry/main/assets/icon.png
 image: https://raw.githubusercontent.com/patausx/descry/main/branding/final/banner_256x128.png
@@ -53,71 +49,59 @@ systems:
 title: descry
 unique_ids:
 - '0xDE5C1'
-update_notes: '<p dir="auto">bugfix + polish release, driven almost entirely by <a
-  href="https://github.com/patausx/descry/issues/1" data-hovercard-type="issue" data-hovercard-url="/patausx/descry/issues/1/hovercard">issue
-  #1</a> — thanks <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/gearmo3ds/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/gearmo3ds">@gearmo3ds</a>
-  and <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DoubleSprattt/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DoubleSprattt">@DoubleSprattt</a>.</p>
+update_notes: '<h2 dir="auto">descry v1.0.2</h2>
 
-  <p dir="auto"><strong>fixed</strong></p>
+  <h3 dir="auto">added</h3>
 
   <ul dir="auto">
 
-  <li>tempo jitter: sequencer events were quantized to audio-buffer boundaries (up
-  to 32ms off-grid, audible as unstable tempo in GRAVEHILL). the scheduler is now
-  tick-accurate inside the buffer.</li>
+  <li>live instrument voice refresh while editing synth parameters</li>
 
-  <li>kaoss pad CUT/RES (and everything else) was stomped by every note trigger —
-  gestures now own their parameters while held and hand them back after the release
-  ramp.</li>
+  <li>animated live envelope overlay for wavsynth, sampler, FM and DSN voices</li>
 
-  <li>mixer settings (faders, delay, reverb, duck) now apply on project load, not
-  on the first visit to the mixer screen.</li>
-
-  <li>the R-modifier help bar told the wrong story on the table screen; hint bars
-  are now context-aware per screen.</li>
-
-  <li>tapping REC in the drumkit GEN panel flips back to the pads (there was nothing
-  to record in GEN).</li>
+  <li>horizontal song timeline mode with rotated navigation</li>
 
   </ul>
 
-  <p dir="auto"><strong>improved</strong></p>
+  <h3 dir="auto">fixed</h3>
 
   <ul dir="auto">
 
-  <li>kaoss DEL/REV sends: perceptual curve — audible from mid-pad instead of only
-  at the top.</li>
+  <li>show an explanatory error screen when NDSP init fails / <code class="notranslate">dspfirm.cdc</code>
+  is missing</li>
 
-  <li>kaoss M&gt;C: auto-engages an LPF and gives the wobble headroom (base cutoff
-  to ~55% while held).</li>
+  <li>speed up exit/autosave by skipping unchanged sample writes</li>
 
-  <li>instrument view header: USED IN N PHRASES counter + slot hints — instruments
-  are a global bank, now the UI says so.</li>
-
-  <li>hold <strong>L + A</strong> in the instrument view: clone the instrument to
-  the first free slot.</li>
-
-  <li>hold <strong>R + Y</strong> in the phrase view: clear the whole phrase (undo-tracked).</li>
+  <li>tighten bottom panel hit zones so upper navigation touches are not swallowed</li>
 
   </ul>
 
-  <p dir="auto"><strong>docs</strong></p>
+  <h3 dir="auto">checksums</h3>
+
+  <pre lang="text" class="notranslate"><code class="notranslate">a6df3bef246aa92423fdd0c54a576e23480c75b7edd1b927f8c3087ee7c0c752  descry.3dsx
+
+  f0470426cf9b9066641d09e8d0a0f1f1b48fc3fff0339bd5e1fea548379aaa8b  descry.cia
+
+  68510353436408002ca3328281bc57e1339f3fce096592eaa7943cce777d704d  descry.3ds
+
+  </code></pre>
+
+  <h3 dir="auto">thanks</h3>
 
   <ul dir="auto">
 
-  <li>full user guide: <a href="https://github.com/patausx/descry/blob/main/docs/GUIDE.md">docs/GUIDE.md</a></li>
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DoubleSprattt/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DoubleSprattt">@DoubleSprattt</a>
+  — for the careful issue <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="4822698990" data-permission-text="Title is private" data-url="https://github.com/patausx/descry/issues/1"
+  data-hovercard-type="issue" data-hovercard-url="/patausx/descry/issues/1/hovercard"
+  href="https://github.com/patausx/descry/issues/1">#1</a> report, screenshots, and
+  testing notes.</li>
 
-  </ul>
-
-  <p dir="auto"><strong>install:</strong> CIA via FBI (recommended on CFW) · 3DSX
-  in the zip (copy <code class="notranslate">3ds</code> to SD root) · <code class="notranslate">.3ds</code>
-  for flashcarts. the zip carries the five demo projects and the wavetable starter
-  pack. New 3DS / New 2DS only.</p>'
-updated: '2026-07-07T13:05:34Z'
-version: v1.0.1
-version_title: descry v1.0.1
+  </ul>'
+updated: '2026-07-08T15:04:50Z'
+version: v1.0.2
+version_title: descry v1.0.2
 ---
 descry is a music tracker + synthesizer for the New Nintendo 3DS, in the tradition of LSDj, the Dirtywave M8 and Korg's discontinued DSN-12.
 
