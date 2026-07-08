@@ -11,10 +11,10 @@ description: An almost fully featured HTML/JS/CSS compiler application made for 
   consoles.
 download_page: https://github.com/PlanetDogeCodes/Pocket-Compiler/releases
 downloads:
-  PocketCompiler.v0-41.3dsx:
-    size: 698000
-    size_str: 681 KiB
-    url: https://github.com/PlanetDogeCodes/Pocket-Compiler/releases/download/v0.41/PocketCompiler.v0-41.3dsx
+  PocketCompiler.v0-42.3dsx:
+    size: 702888
+    size_str: 686 KiB
+    url: https://github.com/PlanetDogeCodes/Pocket-Compiler/releases/download/v0.42/PocketCompiler.v0-42.3dsx
 github: PlanetDogeCodes/Pocket-Compiler
 icon: https://db.universal-team.net/assets/images/icons/pocket-compiler.png
 image: https://db.universal-team.net/assets/images/images/pocket-compiler.png
@@ -28,114 +28,92 @@ stars: 5
 systems:
 - 3DS
 title: Pocket-Compiler
-update_notes: '<p dir="auto">This release fixes many bugs and continues to add full
-  CSS, HTML, and JS formatting functionality. Versions 0.39 and 0.40 were skipped
-  due to beta build issues.</p>
+update_notes: '<p dir="auto">This update changes the way that styling is handled and
+  fixes some control issues on 3DS consoles</p>
 
-  <h2 dir="auto">New Stuff</h2>
+  <h2 dir="auto">All Major Changes</h2>
 
-  <h3 dir="auto">1. <code class="notranslate">&lt;input&gt;</code>/<code class="notranslate">&lt;textarea&gt;</code>
-  text entry</h3>
+  <h3 dir="auto">CSS Transitions</h3>
 
-  <ul dir="auto">
+  <p dir="auto"><code class="notranslate">transition: 0.3s ease-in-out</code> now
+  actually animates. When a style property changes on an element with a transition
+  duration, the old and new values are interpolated over the duration using smoothstep
+  easing. Supports 25 numeric properties (opacity, width, height, margins, padding,
+  position, font-size, border, transforms) plus color properties (color, background)
+  which interpolate per-channel. The transition engine runs in the frame loop and
+  marks transitioning nodes dirty so layout re-runs each frame to reflect the changing
+  values.</p>
 
-  <li>New <code class="notranslate">we_input_prompt()</code> in <code class="notranslate">web_events.c</code>
-  opens the 3DS software keyboard when a click lands on an <code class="notranslate">&lt;input&gt;</code>/<code
-  class="notranslate">&lt;textarea&gt;</code> (or an ancestor of one). Reads the current
-  <code class="notranslate">value</code> attribute, shows it as initial text, writes
-  the result back, fires <code class="notranslate">input</code> + <code class="notranslate">change</code>
-  events, and marks the node dirty so the renderer shows the new text.</li>
+  <h3 dir="auto">Box-Shadow</h3>
 
-  <li>New <code class="notranslate">we_text_input()</code> helper wraps <code class="notranslate">swkbdInit</code>/<code
-  class="notranslate">swkbdInputText</code> for reuse.</li>
+  <p dir="auto"><code class="notranslate">box-shadow: 2px 2px 4px rgba(0,0,0,0.5)</code>
+  is parsed into offset/blur/color and drawn as a semi-transparent rect behind the
+  element before the background fill. No real gaussian blur (3DS hardware can''t do
+  that efficiently), but the spread approximation looks reasonable for most UI shadows.</p>
 
-  </ul>
+  <h3 dir="auto">Linear-Gradient Backgrounds</h3>
 
-  <h3 dir="auto">2. CSS <code class="notranslate">transform: translate()</code></h3>
+  <p dir="auto"><code class="notranslate">background: linear-gradient(to right, red,
+  blue)</code> is parsed into start/end colors and a direction, then rendered as 16
+  interpolated color bands. Supports <code class="notranslate">to right/bottom/left/top</code>
+  directions and <code class="notranslate">Ndeg</code> angles. Falls back to solid
+  <code class="notranslate">background</code> color when no gradient is active. Transparent
+  colors work correctly (uses explicit "set" flags instead of checking for zero).</p>
 
-  <ul dir="auto">
+  <h3 dir="auto">CSS Grid Layout</h3>
 
-  <li><code class="notranslate">wrender_node</code> now applies <code class="notranslate">translate_x</code>/<code
-  class="notranslate">translate_y</code> to the draw position, and folds the offset
-  into the children''s <code class="notranslate">ox</code>/<code class="notranslate">oy</code>
-  so children move with the translated parent. ~6 lines of real logic; the parser
-  already stored the values since v0.39.</li>
+  <p dir="auto"><code class="notranslate">display: grid</code> with <code class="notranslate">grid-template-columns</code>
+  now lays out children in a grid. Supports fixed pixel widths, <code class="notranslate">fr</code>/<code
+  class="notranslate">auto</code> (equal distribution), and <code class="notranslate">repeat(N,
+  ...)</code> syntax up to 8 columns. Rows auto-size to the tallest cell, gap is applied
+  between cells, and children are vertically centered within their row.</p>
 
-  </ul>
+  <h3 dir="auto">CSS <code class="notranslate">calc()</code></h3>
 
-  <h3 dir="auto">3. Word-wrap in the layout engine</h3>
+  <p dir="auto"><code class="notranslate">calc(100% - 20px)</code> is now evaluated
+  at layout time. Supports <code class="notranslate">+</code>, <code class="notranslate">-</code>,
+  <code class="notranslate">*</code>, <code class="notranslate">/</code> with correct
+  operator precedence, and all length units (px, em, rem, vw, vh, %) work inside calc
+  terms. Self-contained in the length parser — no new systems.</p>
 
-  <ul dir="auto">
+  <h3 dir="auto">Form Submission</h3>
 
-  <li>Replaced the naive <code class="notranslate">tw/avail_w + 1</code> character-count
-  wrapping with proper word-boundary wrapping. Walks the text word by word, tracks
-  line width, breaks when the next word would overflow. Hard-breaks words longer than
-  a full line. Respects <code class="notranslate">white-space: pre</code> and <code
-  class="notranslate">nowrap</code>.</li>
+  <p dir="auto">Clicking a <code class="notranslate">&lt;button type="submit"&gt;</code>
+  or <code class="notranslate">&lt;input type="submit"&gt;</code> inside a <code class="notranslate">&lt;form&gt;</code>
+  now fires the form''s <code class="notranslate">onsubmit</code> handler and dispatches
+  a <code class="notranslate">submit</code> event. This replaces the old START-key
+  approach which conflicted with START=exit-run-mode.</p>
 
-  </ul>
+  <h3 dir="auto">Keybind Conflict Fixes</h3>
 
-  <h3 dir="auto">4. CSS <code class="notranslate">:hover</code> / <code class="notranslate">:focus</code>
-  / <code class="notranslate">:nth-child</code> pseudo-classes</h3>
+  <p dir="auto">Resolved button assignment conflicts between the app shell and web
+  content event system. In run mode, only DPad (arrow keys) and Y (Space) generate
+  keyboard events for web content. A/B/X/L/R/START are exclusively mouse clicks, cursor
+  lock, and exit-run-mode — no more phantom keydown events alongside mouse clicks.</p>
 
-  <ul dir="auto">
-
-  <li>New <code class="notranslate">pseudo_matches()</code> function checks <code
-  class="notranslate">:hover</code>, <code class="notranslate">:focus</code>, <code
-  class="notranslate">:active</code>, <code class="notranslate">:checked</code>, <code
-  class="notranslate">:disabled</code>, <code class="notranslate">:first-child</code>,
-  <code class="notranslate">:last-child</code>, <code class="notranslate">:nth-child(n/odd/even)</code>.</li>
-
-  <li><code class="notranslate">selector_matches()</code> rewritten to split selectors
-  at <code class="notranslate">:</code> and check the pseudo-class after the base
-  selector matches. Supports chained pseudos (<code class="notranslate">a:focus:hover</code>).</li>
-
-  <li>Dynamic re-cascade: <code class="notranslate">we_events_update</code> marks
-  nodes dirty on hover/focus changes; <code class="notranslate">we_update</code> now
-  re-runs <code class="notranslate">css_cascade</code> (not just <code class="notranslate">layout_document</code>)
-  when nodes are dirty, so <code class="notranslate">:hover</code>/<code class="notranslate">:focus</code>
-  styles apply dynamically.</li>
-
-  </ul>
-
-  <h3 dir="auto">5. Keyboard input to web content</h3>
+  <h3 dir="auto">Bug Fixes</h3>
 
   <ul dir="auto">
 
-  <li><code class="notranslate">window.prompt(message, default)</code> now opens the
-  3DS software keyboard and returns the typed string (was a no-op stub returning <code
-  class="notranslate">undefined</code>).</li>
+  <li>IndexedDB path overflow: <code class="notranslate">store</code>/<code class="notranslate">key</code>
+  strings from JS are now length-validated to prevent path truncation</li>
 
-  <li>Clicking an <code class="notranslate">&lt;input&gt;</code>/<code class="notranslate">&lt;textarea&gt;</code>
-  opens the keyboard (Feature 1 above).</li>
+  <li>IndexedDB <code class="notranslate">get()</code> return logic: was returning
+  true for empty files</li>
 
-  </ul>
+  <li>IndexedDB <code class="notranslate">clear()</code> prefix buffer: enlarged from
+  80 to 128 bytes to handle longer store names</li>
 
-  <h3 dir="auto">6. localStorage persistence + IndexedDB completion</h3>
+  <li>Transition color precision: RGBA8 colors now stored as uint32 (not float) to
+  avoid precision loss past 2^24</li>
 
-  <ul dir="auto">
-
-  <li><strong>IndexedDB C API hardened</strong>: <code class="notranslate">ws_idb_open</code>
-  now checks for existing databases with the same name (no duplicates); <code class="notranslate">ws_idb_get</code>
-  validates <code class="notranslate">fread</code> return (was a potential underflow);
-  <code class="notranslate">ws_idb_clear</code> is no longer a no-op — it scans the
-  directory with <code class="notranslate">opendir</code>/<code class="notranslate">readdir</code>
-  and removes all files matching the store prefix; all functions now have proper NULL/bounds
-  checks.</li>
-
-  <li><strong>IndexedDB JS bindings</strong>: <code class="notranslate">ws_install_idb</code>
-  now installs a real <code class="notranslate">indexedDB</code> object to JS with
-  <code class="notranslate">open()</code>, <code class="notranslate">put()</code>,
-  <code class="notranslate">get()</code>, <code class="notranslate">delete()</code>,
-  <code class="notranslate">clear()</code>, <code class="notranslate">close()</code>
-  methods. <code class="notranslate">put()</code> JSON-encodes values; <code class="notranslate">get()</code>
-  safely JSON-parses them back (falls back to string if not valid JSON). The "IndexedDB"
-  feature pill is now actually true.</li>
+  <li>Gradient transparent-color: <code class="notranslate">0x00000000</code> (transparent)
+  no longer treated as "unset"</li>
 
   </ul>'
-updated: '2026-07-07T17:04:18Z'
-version: v0.41
-version_title: Compiled 3DSX (Version 0.41)
+updated: '2026-07-07T18:34:55Z'
+version: v0.42
+version_title: Compiled 3DSX (Version 0.42)
 wiki: https://github.com/PlanetDogeCodes/Pocket-Compiler/blob/main/README.md
 ---
 An almost fully featured HTML/JS/CSS compiler application made for 3DS/n3DS consoles. Includes iframes, limited WebGL support, limited Canvas support, Audio Support, and a clean UI!

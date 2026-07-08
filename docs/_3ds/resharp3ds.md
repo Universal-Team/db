@@ -1,5 +1,5 @@
 ---
-author: Saysaa
+author: Saiitanaa
 avatar: https://avatars.githubusercontent.com/u/112180175?v=4
 categories:
 - app
@@ -12,15 +12,15 @@ downloads:
   ReSharp3DS.3dsx:
     size: 320904
     size_str: 313 KiB
-    url: https://github.com/saysaa/ReSharp3DS/releases/download/v2.1.4/ReSharp3DS.3dsx
+    url: https://github.com/saiitanaa/ReSharp3DS/releases/download/v2.1.4/ReSharp3DS.3dsx
   ReSharp3DS.cia:
     size: 605632
     size_str: 591 KiB
-    url: https://github.com/saysaa/ReSharp3DS/releases/download/v2.1.4/ReSharp3DS.cia
+    url: https://github.com/saiitanaa/ReSharp3DS/releases/download/v2.1.4/ReSharp3DS.cia
   mscorlib.pe:
     size: 31028
     size_str: 30 KiB
-    url: https://github.com/saysaa/ReSharp3DS/releases/download/v2.1.4/mscorlib.pe
+    url: https://github.com/saiitanaa/ReSharp3DS/releases/download/v2.1.4/mscorlib.pe
 github: saysaa/ReSharp3DS
 icon: https://raw.githubusercontent.com/saysaa/ReSharp3DS/refs/heads/docs/icon.png
 image: https://raw.githubusercontent.com/saysaa/ReSharp3DS/refs/heads/docs/banner.png
@@ -33,28 +33,28 @@ preinstall_message: Remember to create a folder named “ReSharp3DS” at the ro
   your SD card
 qr:
   ReSharp3DS.cia: https://db.universal-team.net/assets/images/qr/resharp3ds-cia.png
-source: https://github.com/saysaa/ReSharp3DS
+source: https://github.com/saiitanaa/ReSharp3DS
 stars: 20
 systems:
 - 3DS
 title: ReSharp3DS
 unique_ids:
 - '0x23400'
-update_notes: '<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/6e9f6714-afb0-401b-8698-67e06dfa81bb"><img
+update_notes: '<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/6e9f6714-afb0-401b-8698-67e06dfa81bb"><img
   width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/6e9f6714-afb0-401b-8698-67e06dfa81bb"
   style="max-width: 100%; height: auto; max-height: 600px;; aspect-ratio: 600 / 600;
-  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
+  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
 
-  <h3 dir="auto">Fast CIA Installation</h3>
+  <h3>Fast CIA Installation</h3>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/47733927-7660-4f38-b35d-feed612e370c"><img
+  <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/47733927-7660-4f38-b35d-feed612e370c"><img
   width="250" height="250" alt="ReSharp3DS-QR_CODE" src="https://github.com/user-attachments/assets/47733927-7660-4f38-b35d-feed612e370c"
   style="max-width: 100%; height: auto; max-height: 250px;; aspect-ratio: 250 / 250;
-  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
+  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>
 
-  <h2 dir="auto">ReSharp3DS Runtime Update</h2>
+  <h2>ReSharp3DS Runtime Update</h2>
 
-  <ul dir="auto">
+  <ul>
 
   <li>Remove update system ( Only for 3DS )</li>
 

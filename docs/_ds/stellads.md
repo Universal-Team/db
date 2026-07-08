@@ -38,7 +38,7 @@ llm_generation: unknown
 qr:
   StellaDS.nds: https://db.universal-team.net/assets/images/qr/stellads-nds.png
 source: https://github.com/wavemotion-dave/StellaDS
-stars: 51
+stars: 52
 systems:
 - DS
 title: StellaDS
