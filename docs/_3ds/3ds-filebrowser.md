@@ -38,5 +38,6 @@ update_notes: '<p dir="auto">First release, see readme.</p>
 updated: '2026-02-14T20:37:33Z'
 version: v1.0.0
 version_title: v1.0.0
+wiki: https://github.com/ZIXT233/3DS-FileBrowser/wiki
 ---
 A HTTP file manager for Nintendo 3DS. Run the app on your 3DS, connect from a phone or PC on the same Wi‑Fi, and browse, upload, download, and manage files on the SD card via a web interface.

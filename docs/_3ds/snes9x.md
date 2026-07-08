@@ -20,7 +20,7 @@ image_length: 5476
 layout: app
 llm_generation: 'no'
 source: https://github.com/bubble2k16/snes9x_3ds
-stars: 485
+stars: 486
 systems:
 - 3DS
 title: Snes9x
@@ -47,14 +47,6 @@ version_title: v1.30
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>snes9x_3ds.3dsx</summary>
-<ol>
-<li>Download <code>snes9x_3ds*.zip</code></li>
-<li>Extract <code>snes9x_3ds.3dsx</code> from the zip to <code>/3ds/snes9x_3ds.3dsx</code> on your SD card</li>
-<li>Extract <code>snes9x_3ds_top.png</code> from the zip to <code>/3ds/snes9x_3ds/snes9x_3ds_top.png</code> on your SD card</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>snes9x_3ds.cia</summary>
 <ol>
 <li>Download <code>snes9x_3ds*.zip</code></li>
@@ -62,6 +54,14 @@ version_title: v1.30
 <li>Extract <code>snes9x_3ds_top.png</code> from the zip to <code>/3ds/snes9x_3ds/snes9x_3ds_top.png</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/snes9x_3ds.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>snes9x_3ds.3dsx</summary>
+<ol>
+<li>Download <code>snes9x_3ds*.zip</code></li>
+<li>Extract <code>snes9x_3ds.3dsx</code> from the zip to <code>/3ds/snes9x_3ds.3dsx</code> on your SD card</li>
+<li>Extract <code>snes9x_3ds_top.png</code> from the zip to <code>/3ds/snes9x_3ds/snes9x_3ds_top.png</code> on your SD card</li>
 </ol>
 </details>
 
