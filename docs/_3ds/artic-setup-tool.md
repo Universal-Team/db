@@ -29,7 +29,7 @@ llm_generation: 'no'
 qr:
   AzaharArticSetup.cia: https://db.universal-team.net/assets/images/qr/azahararticsetup-cia.png
 source: https://github.com/azahar-emu/ArticSetupTool
-stars: 167
+stars: 168
 systems:
 - 3DS
 title: Artic Setup Tool
