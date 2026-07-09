@@ -27,7 +27,7 @@ llm_generation: minor
 qr:
   CyberPlayer3DS.cia: https://db.universal-team.net/assets/images/qr/cyberplayer3ds-cia.png
 source: https://github.com/Taifuoguru/CyberPlayer3DS
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: CyberPlayer3DS
