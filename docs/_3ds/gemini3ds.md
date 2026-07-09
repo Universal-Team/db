@@ -1,5 +1,5 @@
 ---
-author: stefanoborra
+author: Stefano Borra
 avatar: https://avatars.githubusercontent.com/u/81436798?v=4
 categories:
 - app

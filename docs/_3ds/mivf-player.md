@@ -32,7 +32,7 @@ preinstall_message: Place encoded .mivf videos in sdmc:/mivf/ or sdmc:/3ds/mivf_
 qr:
   mivf_player_3ds.cia: https://db.universal-team.net/assets/images/qr/mivf_player_3ds-cia.png
 source: https://github.com/Oldhimaster1/MIVF
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: MIVF Player
