@@ -4,6 +4,8 @@ avatar: https://avatars.githubusercontent.com/u/271882124?v=4
 categories:
 - app
 - utility
+color: '#316d85'
+color_bg: '#2f6880'
 created: '2026-03-12T16:35:49.396Z'
 description: Search for github repositorys, download files, star repositorys and watch
   a list of 3ds homebrew related apps

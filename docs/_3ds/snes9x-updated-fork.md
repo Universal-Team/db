@@ -20,6 +20,7 @@ downloads:
 github: matbo87/snes9x_3ds
 icon: https://raw.githubusercontent.com/matbo87/snes9x_3ds/master/resources/icon.png
 image: https://raw.githubusercontent.com/matbo87/snes9x_3ds/master/resources/icon.png
+image_length: 3285
 layout: app
 license: other
 license_name: Other
