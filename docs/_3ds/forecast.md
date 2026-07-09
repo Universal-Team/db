@@ -45,19 +45,19 @@ version_title: v1.0.1
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>Forecast.3dsx</summary>
-<ol>
-<li>Download <code>Forecast-1.0.1.zip</code></li>
-<li>Extract <code>/Forecast.3dsx</code> from the zip to <code>/3ds/Forecast.3dsx</code> on your SD card</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>Forecast.cia</summary>
 <ol>
 <li>Download <code>Forecast-1.0.1.zip</code></li>
 <li>Extract <code>/Forecast.cia</code> from the zip to <code>/cias/Forecast.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/Forecast.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Forecast.3dsx</summary>
+<ol>
+<li>Download <code>Forecast-1.0.1.zip</code></li>
+<li>Extract <code>/Forecast.3dsx</code> from the zip to <code>/3ds/Forecast.3dsx</code> on your SD card</li>
 </ol>
 </details>
 

@@ -11,10 +11,10 @@ description: An almost fully featured HTML/JS/CSS compiler application made for 
   consoles.
 download_page: https://github.com/PlanetDogeCodes/Pocket-Compiler/releases
 downloads:
-  PocketCompiler.v0-42.3dsx:
-    size: 702888
-    size_str: 686 KiB
-    url: https://github.com/PlanetDogeCodes/Pocket-Compiler/releases/download/v0.42/PocketCompiler.v0-42.3dsx
+  PocketCompiler.v0-43.3dsx:
+    size: 707312
+    size_str: 690 KiB
+    url: https://github.com/PlanetDogeCodes/Pocket-Compiler/releases/download/v0.43/PocketCompiler.v0-43.3dsx
 github: PlanetDogeCodes/Pocket-Compiler
 icon: https://db.universal-team.net/assets/images/icons/pocket-compiler.png
 image: https://db.universal-team.net/assets/images/images/pocket-compiler.png
@@ -28,92 +28,82 @@ stars: 5
 systems:
 - 3DS
 title: Pocket-Compiler
-update_notes: '<p dir="auto">This update changes the way that styling is handled and
-  fixes some control issues on 3DS consoles</p>
+update_notes: '<p dir="auto">This update does a lot of new things, but most notably
+  fixes some annoying UI components that bothered me during testing (circle pad can
+  scroll, but only in some menus, line compression during scrolling, etc) and also
+  adds enough components so that it could (theoretically) run Cookie Clicker!</p>
 
-  <h2 dir="auto">All Major Changes</h2>
+  <h2 dir="auto">All the New Stuff</h2>
 
-  <h3 dir="auto">CSS Transitions</h3>
+  <h3 dir="auto">UI: DPad = Scroll, Circle Pad = Cursor (fixed)</h3>
 
-  <p dir="auto"><code class="notranslate">transition: 0.3s ease-in-out</code> now
-  actually animates. When a style property changes on an element with a transition
-  duration, the old and new values are interpolated over the duration using smoothstep
-  easing. Supports 25 numeric properties (opacity, width, height, margins, padding,
-  position, font-size, border, transforms) plus color properties (color, background)
-  which interpolate per-channel. The transition engine runs in the frame loop and
-  marks transitioning nodes dirty so layout re-runs each frame to reflect the changing
-  values.</p>
+  <p dir="auto">The biggest UX fix: DPad and Circle Pad no longer conflict. Previously,
+  DPad both scrolled the fallback text renderer AND sent arrow key events to web content
+  — pressing Up would scroll the page <em>and</em> fire a <code class="notranslate">keydown("ArrowUp")</code>
+  at the same time. Circle Pad could also trigger scroll in some paths.</p>
 
-  <h3 dir="auto">Box-Shadow</h3>
-
-  <p dir="auto"><code class="notranslate">box-shadow: 2px 2px 4px rgba(0,0,0,0.5)</code>
-  is parsed into offset/blur/color and drawn as a semi-transparent rect behind the
-  element before the background fill. No real gaussian blur (3DS hardware can''t do
-  that efficiently), but the spread approximation looks reasonable for most UI shadows.</p>
-
-  <h3 dir="auto">Linear-Gradient Backgrounds</h3>
-
-  <p dir="auto"><code class="notranslate">background: linear-gradient(to right, red,
-  blue)</code> is parsed into start/end colors and a direction, then rendered as 16
-  interpolated color bands. Supports <code class="notranslate">to right/bottom/left/top</code>
-  directions and <code class="notranslate">Ndeg</code> angles. Falls back to solid
-  <code class="notranslate">background</code> color when no gradient is active. Transparent
-  colors work correctly (uses explicit "set" flags instead of checking for zero).</p>
-
-  <h3 dir="auto">CSS Grid Layout</h3>
-
-  <p dir="auto"><code class="notranslate">display: grid</code> with <code class="notranslate">grid-template-columns</code>
-  now lays out children in a grid. Supports fixed pixel widths, <code class="notranslate">fr</code>/<code
-  class="notranslate">auto</code> (equal distribution), and <code class="notranslate">repeat(N,
-  ...)</code> syntax up to 8 columns. Rows auto-size to the tallest cell, gap is applied
-  between cells, and children are vertically centered within their row.</p>
-
-  <h3 dir="auto">CSS <code class="notranslate">calc()</code></h3>
-
-  <p dir="auto"><code class="notranslate">calc(100% - 20px)</code> is now evaluated
-  at layout time. Supports <code class="notranslate">+</code>, <code class="notranslate">-</code>,
-  <code class="notranslate">*</code>, <code class="notranslate">/</code> with correct
-  operator precedence, and all length units (px, em, rem, vw, vh, %) work inside calc
-  terms. Self-contained in the length parser — no new systems.</p>
-
-  <h3 dir="auto">Form Submission</h3>
-
-  <p dir="auto">Clicking a <code class="notranslate">&lt;button type="submit"&gt;</code>
-  or <code class="notranslate">&lt;input type="submit"&gt;</code> inside a <code class="notranslate">&lt;form&gt;</code>
-  now fires the form''s <code class="notranslate">onsubmit</code> handler and dispatches
-  a <code class="notranslate">submit</code> event. This replaces the old START-key
-  approach which conflicted with START=exit-run-mode.</p>
-
-  <h3 dir="auto">Keybind Conflict Fixes</h3>
-
-  <p dir="auto">Resolved button assignment conflicts between the app shell and web
-  content event system. In run mode, only DPad (arrow keys) and Y (Space) generate
-  keyboard events for web content. A/B/X/L/R/START are exclusively mouse clicks, cursor
-  lock, and exit-run-mode — no more phantom keydown events alongside mouse clicks.</p>
-
-  <h3 dir="auto">Bug Fixes</h3>
+  <p dir="auto"><strong>Now:</strong></p>
 
   <ul dir="auto">
 
-  <li>IndexedDB path overflow: <code class="notranslate">store</code>/<code class="notranslate">key</code>
-  strings from JS are now length-validated to prevent path truncation</li>
+  <li><strong>DPad</strong> scrolls the web page (30px per press, all four directions).
+  When the web engine isn''t loaded, it scrolls the fallback text output instead.</li>
 
-  <li>IndexedDB <code class="notranslate">get()</code> return logic: was returning
-  true for empty files</li>
+  <li><strong>Circle Pad</strong> always moves the cursor — it never scrolls, in any
+  mode.</li>
 
-  <li>IndexedDB <code class="notranslate">clear()</code> prefix buffer: enlarged from
-  80 to 128 bytes to handle longer store names</li>
+  <li>DPad was removed from the web content key map entirely, so no more phantom arrow
+  key events.</li>
 
-  <li>Transition color precision: RGBA8 colors now stored as uint32 (not float) to
-  avoid precision loss past 2^24</li>
+  <li>Only <strong>Y</strong> (Space) generates a keyboard event for web content.</li>
 
-  <li>Gradient transparent-color: <code class="notranslate">0x00000000</code> (transparent)
-  no longer treated as "unset"</li>
+  <li>Controls help screen updated to reflect the new assignments.</li>
 
-  </ul>'
-updated: '2026-07-07T18:34:55Z'
-version: v0.42
-version_title: Compiled 3DSX (Version 0.42)
+  </ul>
+
+  <h3 dir="auto">Cookie Clicker Compatibility: 3 Major JS APIs Added</h3>
+
+  <p dir="auto"><strong>1. <code class="notranslate">element.classList</code></strong>
+  — Cookie Clicker (and most modern JS) uses <code class="notranslate">classList.add()</code>,
+  <code class="notranslate">.remove()</code>, <code class="notranslate">.toggle()</code>,
+  <code class="notranslate">.contains()</code> extensively. Previously only <code
+  class="notranslate">className</code> existed. Now <code class="notranslate">classList</code>
+  returns a live object with all four methods that manipulate the node''s <code class="notranslate">class</code>
+  attribute and trigger <code class="notranslate">css_compute_node</code> so styles
+  re-cascade.</p>
+
+  <p dir="auto"><strong>2. Live <code class="notranslate">element.style</code> object</strong>
+  — Cookie Clicker does <code class="notranslate">element.style.display = ''none''</code>,
+  <code class="notranslate">element.style.left = ''100px''</code>, etc. Previously
+  <code class="notranslate">style</code> was a dead object — setting properties did
+  nothing. Now the style object is wrapped in a <strong>Duktape Proxy</strong> that
+  intercepts every property get/set:</p>
+
+  <ul dir="auto">
+
+  <li><strong>Get</strong> (<code class="notranslate">element.style.display</code>):
+  parses the inline <code class="notranslate">style</code> attribute and returns the
+  property value.</li>
+
+  <li><strong>Set</strong> (<code class="notranslate">element.style.display = ''none''</code>):
+  updates the inline style string via a C-backed <code class="notranslate">cssText</code>
+  setter, triggers <code class="notranslate">css_compute_node</code> + <code class="notranslate">dom_mark_dirty</code>
+  so the layout and renderer pick up the change immediately.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>3. <code class="notranslate">onclick</code>/<code class="notranslate">onload</code>/<code
+  class="notranslate">onerror</code> property handlers</strong> — Cookie Clicker assigns
+  <code class="notranslate">element.onclick = function(){...}</code> instead of using
+  <code class="notranslate">addEventListener</code> or inline <code class="notranslate">onclick="..."</code>
+  attributes. Previously only inline attribute handlers and <code class="notranslate">addEventListener</code>
+  worked. Now <code class="notranslate">we_dispatch</code> checks for JS function
+  properties on the node object (<code class="notranslate">onclick</code>, <code class="notranslate">onmousedown</code>,
+  <code class="notranslate">onload</code>, <code class="notranslate">onsubmit</code>,
+  etc.) and calls them with a proper event object. Supports all 13 event types.</p>'
+updated: '2026-07-09T18:16:56Z'
+version: v0.43
+version_title: Compiled 3DSX (Version 0.43)
 wiki: https://github.com/PlanetDogeCodes/Pocket-Compiler/blob/main/README.md
 ---
 An almost fully featured HTML/JS/CSS compiler application made for 3DS/n3DS consoles. Includes iframes, limited WebGL support, limited Canvas support, Audio Support, and a clean UI!
