@@ -30,7 +30,7 @@ preinstall_message: If your screenshots don't appear in the camera app, check th
 qr:
   SCR2JPG.cia: https://db.universal-team.net/assets/images/qr/scr2jpg-cia.png
 source: https://github.com/Adrix12team/SCR2JPG
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: SCR2JPG

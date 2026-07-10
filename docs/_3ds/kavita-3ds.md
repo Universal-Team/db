@@ -27,7 +27,7 @@ llm_generation: unknown
 qr:
   kavita-3ds.cia: https://db.universal-team.net/assets/images/qr/kavita-3ds-cia.png
 source: https://github.com/ellio86/kavita-3ds
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: kavita-3ds

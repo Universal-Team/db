@@ -22,7 +22,7 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: unknown
 source: https://github.com/xPsycho999/3ds-fastfetch
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: 3ds-fastfetch
