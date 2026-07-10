@@ -20,7 +20,7 @@ image_length: 5476
 layout: app
 llm_generation: 'no'
 source: https://github.com/bubble2k16/snes9x_3ds
-stars: 486
+stars: 487
 systems:
 - 3DS
 title: Snes9x
