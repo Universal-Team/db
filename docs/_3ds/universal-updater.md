@@ -29,7 +29,7 @@ nightly:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 3019636
+      size: 3020088
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
@@ -38,26 +38,31 @@ nightly:
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: '<p dir="auto">Pk11 - Major refactor: Don''t keep JSON around after
-    loading, switch to RapidJSON</p>
+  update_notes: '<p dir="auto">Pk11 - keyboard: Restore tolower</p>
 
-    <p dir="auto">This is WIP! I have only changed some of the JSON over to RapidJSON,
-    there''s still more work to do. The most notable improvements are on inital load
-    and in the UniStore list. I hope this is free of regressions, but its a huge commit,
-    there might be some regressions -- be warned if using git builds. Please let me
-    know anything that''s broken.</p>'
-  update_notes_md: 'Pk11 - Major refactor: Don''t keep JSON around after loading,
-    switch to RapidJSON
+    <h3 dir="auto">IMPORTANT</h3>
+
+    <p dir="auto">Universal-Updater will now automatically reload itself after CIA
+    updates. Please report any bugs, crashes, etc you see! I''ve tested myself and
+    don''t see any reason for it to be broken but I want to be sure.</p>
+
+    <p dir="auto">Note that the previous git build also implemented this but without
+    cleanly exiting, this latest one does exit cleanly.</p>'
+  update_notes_md: 'Pk11 - keyboard: Restore tolower
 
 
-    This is WIP! I have only changed some of the JSON over to RapidJSON, there''s
-    still more work to do. The most notable improvements are on inital load and in
-    the UniStore list. I hope this is free of regressions, but its a huge commit,
-    there might be some regressions -- be warned if using git builds. Please let me
-    know anything that''s broken.'
-  updated: '2026-07-06T10:22:21Z'
+    ### IMPORTANT ###
+
+    Universal-Updater will now automatically reload itself after CIA updates. Please
+    report any bugs, crashes, etc you see! I''ve tested myself and don''t see any
+    reason for it to be broken but I want to be sure.
+
+
+    Note that the previous git build also implemented this but without cleanly exiting,
+    this latest one does exit cleanly.'
+  updated: '2026-07-10T18:59:03Z'
   version: git
-  version_title: Continuous Build - 6c39964
+  version_title: Continuous Build - f947bba
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:

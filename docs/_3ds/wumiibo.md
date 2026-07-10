@@ -24,7 +24,7 @@ llm_generation: unknown
 qr:
   wumiibohelper.cia: https://db.universal-team.net/assets/images/qr/wumiibohelper-cia.png
 source: https://github.com/hax0kartik/wumiibo
-stars: 487
+stars: 488
 systems:
 - 3DS
 title: wumiibo
