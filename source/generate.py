@@ -861,7 +861,7 @@ def process_app_entry(app: Dict[str, Any], fp: str, icon_idx: int, github_api: G
 	if "downloads" in app:
 		for item in app["downloads"]:
 			if item.endswith(".cia") or item.endswith(".nds") or item.endswith(".dsi"):
-				qr = qrcode.make(app["downloads"][item]["url"], box_size=5, version=5).convert("RGBA")
+				qr = qrcode.make(app["downloads"][item]["url"], box_size=5, version=6).convert("RGBA")
 				if img:
 					draw = ImageDraw.Draw(qr)
 					draw.rectangle((((qr.width - img.width) // 2 - 5, (qr.height - img.height) // 2 - 10), ((qr.width + img.width) // 2 + 4, (qr.height + img.height) // 2 + 10 if "version" in app else 4)), fill=(255, 255, 255))
@@ -884,7 +884,7 @@ def process_app_entry(app: Dict[str, Any], fp: str, icon_idx: int, github_api: G
 	if "prerelease" in app:
 		for item in app["prerelease"]["downloads"]:
 			if item.endswith(".cia") or item.endswith(".nds") or item.endswith(".dsi"):
-				qr = qrcode.make(app["prerelease"]["downloads"][item]["url"], box_size=5, version=5).convert("RGBA")
+				qr = qrcode.make(app["prerelease"]["downloads"][item]["url"], box_size=5, version=6).convert("RGBA")
 				data = numpy.array(qr)
 				r, g, b, a = data.T
 				black = (r == 0) & (g == 0) & (b == 0)
@@ -909,7 +909,7 @@ def process_app_entry(app: Dict[str, Any], fp: str, icon_idx: int, github_api: G
 	if "nightly" in app:
 		for item in app["nightly"]["downloads"]:
 			if item.endswith(".cia") or item.endswith(".nds") or item.endswith(".dsi"):
-				qr = qrcode.make(app["nightly"]["downloads"][item]["url"], box_size=5, version=5).convert("RGBA")
+				qr = qrcode.make(app["nightly"]["downloads"][item]["url"], box_size=5, version=6).convert("RGBA")
 				data = numpy.array(qr)
 				r, g, b, a = data.T
 				black = (r == 0) & (g == 0) & (b == 0)
