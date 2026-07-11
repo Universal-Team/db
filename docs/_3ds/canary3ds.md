@@ -29,7 +29,7 @@ llm_generation: minor
 qr:
   Canary.cia: https://db.universal-team.net/assets/images/qr/canary-cia.png
 source: https://github.com/narayanx/Canary3DS
-stars: 9
+stars: 10
 systems:
 - 3DS
 title: Canary3DS

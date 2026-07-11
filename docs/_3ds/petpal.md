@@ -11,13 +11,13 @@ description: 'A virtual StreePass pet for Nintendo 3DS '
 download_page: https://github.com/PetPal-Team/PetPal/releases
 downloads:
   PetPal.3dsx:
-    size: 31211192
+    size: 31222164
     size_str: 29 MiB
-    url: https://github.com/PetPal-Team/PetPal/releases/download/v0.1.2/PetPal.3dsx
+    url: https://github.com/PetPal-Team/PetPal/releases/download/v0.1.3/PetPal.3dsx
   PetPal.cia:
-    size: 31392704
+    size: 31396800
     size_str: 29 MiB
-    url: https://github.com/PetPal-Team/PetPal/releases/download/v0.1.2/PetPal.cia
+    url: https://github.com/PetPal-Team/PetPal/releases/download/v0.1.3/PetPal.cia
 github: PetPal-Team/PetPal
 icon: https://raw.githubusercontent.com/PetPal-Team/PetPal/refs/heads/main/Pet%20Pal.png
 image: https://raw.githubusercontent.com/PetPal-Team/PetPal/refs/heads/main/banner.png
@@ -42,61 +42,51 @@ systems:
 title: PetPal
 unique_ids:
 - '0xF00D5'
-update_notes: '<h1 dir="auto">🐾 PetPal v0.1.2</h1>
+update_notes: '<h1 dir="auto">🐾 PetPal v0.1.3</h1>
 
-  <p dir="auto">A safety-and-maintenance release: automatic update notifications,
-  community name<br>
-
-  moderation, and a unique title ID so PetPal installs cleanly alongside other homebrew.</p>
+  <p dir="auto">An accounts-and-moderation release: every pet now has a unique ID,
+  rule-breakers can be banned, and you can link your 3DS to the PetPal phone app.</p>
 
   <h2 dir="auto">✨ What''s new</h2>
 
   <ul dir="auto">
 
-  <li><strong>🛡️ Name moderation</strong> — Offensive pet names are now automatically
-  filtered, both on<br>
+  <li><strong>🆔 Pet IDs</strong> — Every pet now gets a unique server ID (like <code
+  class="notranslate">PP-ABCD-2345</code>), shown on the <strong>Settings</strong>
+  screen. It''s assigned automatically the first time you play online and is what
+  identifies your pet for linking, reports, and support.</li>
 
-  the PetPal servers and on your console. Bad names from other players appear as <strong>"Pal"</strong><br>
+  <li><strong>⛔ Ban enforcement</strong> — Pets that break the rules (for example,
+  an offensive name) can now be banned. A banned console shows a red <strong>"401
+  Forbidden"</strong> screen at launch with its Pet ID for support, and can''t play
+  or pass until it''s cleared.</li>
 
-  instead, and an already-saved friend gets cleaned up the next time you pass them.
-  Your<br>
+  <li><strong>🔗 Link to your phone</strong> — New <strong>Settings → Link to phone</strong>:
+  enter the Link ID from the PetPal Android app to tie your 3DS and phone to the <strong>same</strong>
+  pet identity (it then shows as <em>3ds &amp; Android</em>). Completely optional
+  — your 3DS still works great on its own, and linking never touches your save data.
+  <em>(Android version not released yet, coming soon. Code is just there for prep)</em></li>
 
-  own pet name is filtered too. The matcher is fuzzy, so tricks like <code class="notranslate">B!tch</code>,
-  <code class="notranslate">n1gg@</code>,<br>
+  <li><strong>📣 Report a pet</strong> — Ran into an inappropriate pet? You can now
+  report it by its ID at <strong>teampetpal.com/report</strong>, and a moderator will
+  take a look.</li>
 
-  <code class="notranslate">f.u.c.k</code> and repeated letters don''t get through.</li>
+  <li><strong>🛡️ Expanded name filter</strong> — The moderation word list has grown
+  (now catches <em>Herpy</em> and related terms). The fuzzy matching from v0.1.2 still
+  applies, so leetspeak and repeated-letter tricks don''t get through.</li>
 
-  <li><strong>🔔 Update notifications</strong> — PetPal checks for the latest version
-  on launch and shows a<br>
-
-  <strong>"Please update your app."</strong> prompt when a newer release is out (press
-  START to close).<br>
-
-  If you''re offline, nothing changes.</li>
-
-  <li><strong>🆔 Unique title ID</strong> — PetPal''s title ID was changed off the
-  shared homebrew default,<br>
-
-  so it no longer collides with other apps (e.g. IP-Cam Viewer, SCR2JPG) and installs<br>
-
-  cleanly for Universal-DB.</li>
-
-  <li>The Settings screen now shows the full version (e.g. <strong>v0.1.2</strong>).</li>
+  <li>The Settings screen now shows your <strong>Pet ID</strong> alongside the version
+  (<strong>v0.1.3</strong>).</li>
 
   </ul>
 
-  <h2 dir="auto">⬆️ Upgrading from 0.1.0 / 0.1.1</h2>
+  <h2 dir="auto">⬆️ Upgrading from 0.1.2</h2>
 
-  <p dir="auto">Because the title ID changed, this CIA installs as a <strong>separate</strong>
-  title — it won''t replace<br>
-
-  an older PetPal automatically. <strong>Delete the old PetPal</strong> from your
-  HOME Menu after<br>
-
-  installing this one. Your <strong>save data is safe</strong>: it lives on the SD
-  card at<br>
-
-  <code class="notranslate">sdmc:/3ds/PetPal/</code>, independent of the title.</p>
+  <p dir="auto">This release keeps the <strong>same title ID</strong> as v0.1.2, so
+  it installs as a normal update over your existing PetPal — nothing to delete. Your
+  <strong>save data is safe</strong>; older saves upgrade to the new format automatically
+  the first time you launch. (Still on 0.1.0 / 0.1.1? Follow the v0.1.2 upgrade steps
+  first.)</p>
 
   <h2 dir="auto">📦 Downloads</h2>
 
@@ -134,12 +124,10 @@ update_notes: '<h1 dir="auto">🐾 PetPal v0.1.2</h1>
 
   </tbody>
 
-  </table></markdown-accessiblity-table>
-
-  <p dir="auto"><strong>Full changelog:</strong> <a class="commit-link" href="https://github.com/PetPal-Team/PetPal/compare/v0.1.1...v0.1.2"><tt>v0.1.1...v0.1.2</tt></a></p>'
-updated: '2026-07-05T19:18:38Z'
-version: v0.1.2
-version_title: PetPal v0.1.2 Public
+  </table></markdown-accessiblity-table>'
+updated: '2026-07-11T18:21:25Z'
+version: v0.1.3
+version_title: PetPal v0.1.3
 website: https://teampetpal.com
 wiki: https://teampetpal.com/wiki
 ---

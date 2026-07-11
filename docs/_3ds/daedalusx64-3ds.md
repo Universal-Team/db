@@ -46,7 +46,7 @@ screenshots:
 - description: Touch screen menu
   url: https://db.universal-team.net/assets/images/screenshots/daedalusx64-3ds/touch-screen-menu.png
 source: https://github.com/masterfeizz/DaedalusX64-3DS
-stars: 380
+stars: 379
 systems:
 - 3DS
 title: DaedalusX64-3DS
