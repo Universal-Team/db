@@ -11,10 +11,10 @@ description: An almost fully featured HTML/JS/CSS compiler application made for 
   consoles.
 download_page: https://github.com/PlanetDogeCodes/Pocket-Compiler/releases
 downloads:
-  PocketCompiler.v0-44.3dsx:
-    size: 707416
-    size_str: 690 KiB
-    url: https://github.com/PlanetDogeCodes/Pocket-Compiler/releases/download/v0.44/PocketCompiler.v0-44.3dsx
+  PocketCompiler.v0-45.3dsx:
+    size: 709160
+    size_str: 692 KiB
+    url: https://github.com/PlanetDogeCodes/Pocket-Compiler/releases/download/v0.45/PocketCompiler.v0-45.3dsx
 github: PlanetDogeCodes/Pocket-Compiler
 icon: https://db.universal-team.net/assets/images/icons/pocket-compiler.png
 image: https://db.universal-team.net/assets/images/images/pocket-compiler.png
@@ -28,207 +28,101 @@ stars: 5
 systems:
 - 3DS
 title: Pocket-Compiler
-update_notes: '<p dir="auto">This version is mostly just a CSS engine overhaul. Most
-  styles weren''t loading correctly (thanks to <a href="https://github.com/ValEthanYT-Dev">ValEthanYT-Dev</a>
-  for pointing that out), an issue that had slipped my grasp for a while but should
-  be mostly fixed for now. Beware that the CSS engine is far from complete, and is
-  still not fully-featured by any means, but small additions here and there are all
-  I can do for now.</p>
+update_notes: '<h2 dir="auto">All New Stuff</h2>
 
-  <h2 dir="auto">All The New Stuff</h2>
+  <h3 dir="auto">1. CSS selectors were completely failing on complex selectors</h3>
 
-  <h3 dir="auto">CSS Custom Properties (Variables) — <code class="notranslate">var()</code>
-  + <code class="notranslate">:root</code></h3>
+  <p dir="auto">The <code class="notranslate">selector_matches</code> function only
+  handled <strong>simple selectors</strong> (tag, <code class="notranslate">.class</code>,
+  <code class="notranslate">#id</code>, <code class="notranslate">tag.class</code>).
+  It could not match any selector containing:</p>
 
-  <p dir="auto">The biggest addition. <code class="notranslate">:root { --bg: #000;
-  }</code> stores custom properties in a global variable table. <code class="notranslate">var(--bg)</code>
-  is resolved at parse time before any property handler runs — works in colors, lengths,
-  and any value. Supports <code class="notranslate">var(--name, fallback)</code> syntax
-  and recursive resolution (variables referencing other variables). Up to 64 variables
-  stored. Reset on page recompile.</p>
+  <ul dir="auto">
 
-  <h3 dir="auto"><code class="notranslate">@media</code> Queries — Graceful Skip</h3>
+  <li><strong>Descendant combinators</strong> (spaces): <code class="notranslate">.tog
+  input</code>, <code class="notranslate">.field input[type=text]</code>, <code class="notranslate">details:not([open])
+  summary</code></li>
 
-  <p dir="auto"><code class="notranslate">@media(max-width: 680px) { ... }</code>
-  is now parsed and skipped gracefully (with proper brace-nesting tracking). Previously,
-  <code class="notranslate">@media</code> would confuse the stylesheet parser and
-  corrupt all subsequent rules. Also skips <code class="notranslate">@keyframes</code>,
-  <code class="notranslate">@import</code>, <code class="notranslate">@font-face</code>,
-  and <code class="notranslate">@charset</code>.</p>
+  <li><strong>Adjacent sibling combinators</strong> (<code class="notranslate">+</code>):
+  <code class="notranslate">.tog input:checked + .tog-sw</code></li>
 
-  <h3 dir="auto"><code class="notranslate">:root</code> Selector</h3>
+  <li><strong>Attribute selectors</strong> (<code class="notranslate">[type=checkbox]</code>):
+  <code class="notranslate">input[type=checkbox]</code></li>
 
-  <p dir="auto"><code class="notranslate">:root { ... }</code> declarations are applied
-  as a universal <code class="notranslate">*</code> rule with the lowest specificity,
-  so <code class="notranslate">:root</code> properties cascade to all elements via
-  inheritance. Custom properties (<code class="notranslate">--name: value</code>)
-  are stored in the variable table.</p>
+  <li><strong>Pseudo-elements</strong> (<code class="notranslate">::after</code>,
+  <code class="notranslate">::before</code>): <code class="notranslate">summary::after</code>,
+  <code class="notranslate">.tog-sw::after</code></li>
 
-  <h3 dir="auto"><code class="notranslate">:not()</code> Selector</h3>
+  </ul>
 
-  <p dir="auto"><code class="notranslate">:not(.hidden)</code> now works. The inner
-  selector is recursively matched and negated. Forward-declared to handle the mutual
-  recursion between <code class="notranslate">pseudo_matches</code> → <code class="notranslate">pseudo_not_matches</code>
-  → <code class="notranslate">selector_matches</code>.</p>
+  <p dir="auto">Since nearly every selector in the EaglerLite CSS uses at least one
+  of these, <strong>zero CSS rules were matching</strong> — the page rendered with
+  default styles only.</p>
 
-  <h3 dir="auto">Comma-Separated Selectors</h3>
+  <h3 dir="auto">2. DPad scroll was broken</h3>
 
-  <p dir="auto"><code class="notranslate">h1, h2, h3 { ... }</code> now creates a
-  separate rule for each sub-selector instead of creating one rule with a comma in
-  the selector (which never matched anything).</p>
+  <p dir="auto">The v0.43 DPad scroll fix (which used <code class="notranslate">we_page_scroll_by</code>
+  when the web engine was loaded) was accidentally reverted during the v0.44 bugfix
+  pass, going back to the old text-mode-only scroll. DPad Up/Down did nothing when
+  viewing a web page.</p>
 
-  <h3 dir="auto"><code class="notranslate">!important</code> Support</h3>
+  <h2 dir="auto">What I fixed</h2>
 
-  <p dir="auto"><code class="notranslate">color: red !important</code> is now accepted
-  — the <code class="notranslate">!important</code> suffix is stripped before parsing.
-  All declarations are treated as having the same specificity (later wins), so <code
-  class="notranslate">!important</code> doesn''t change cascade behavior but no longer
-  causes parse failures.</p>
+  <h3 dir="auto">New <code class="notranslate">simple_selector_matches</code> function</h3>
 
-  <h3 dir="auto">New CSS Properties (15 additions)</h3>
+  <p dir="auto">Handles a single simple selector component, now with:</p>
 
-  <markdown-accessiblity-table><table role="table">
+  <ul dir="auto">
 
-  <thead>
+  <li><strong>Attribute selectors</strong>: <code class="notranslate">[attr]</code>,
+  <code class="notranslate">[attr=val]</code>, <code class="notranslate">[attr="val"]</code>
+  — parses the bracket, splits on <code class="notranslate">=</code>, strips quotes,
+  checks the node''s attribute</li>
 
-  <tr>
+  <li><strong>Pseudo-elements</strong>: <code class="notranslate">::after</code>,
+  <code class="notranslate">::before</code>, <code class="notranslate">::marker</code>,
+  <code class="notranslate">::placeholder</code>, <code class="notranslate">::selection</code>
+  — always accepted (we don''t render them, but the selector matches the base element
+  so its other properties still apply)</li>
 
-  <th>Property</th>
+  <li><strong><code class="notranslate">*</code> with attribute selectors</strong>:
+  <code class="notranslate">*[attr=val]</code> works</li>
 
-  <th>Description</th>
+  <li>Uses <code class="notranslate">css_classlist_has</code> (local, no strtok) instead
+  of <code class="notranslate">classlist_has</code> (which lives in web_js.c)</li>
 
-  </tr>
+  </ul>
 
-  </thead>
+  <h3 dir="auto">Rewritten <code class="notranslate">selector_matches</code> function</h3>
 
-  <tbody>
+  <p dir="auto">Now handles <strong>compound selectors</strong> with combinators:</p>
 
-  <tr>
+  <ul dir="auto">
 
-  <td><code class="notranslate">box-sizing</code></td>
+  <li><strong>Descendant</strong> (space): <code class="notranslate">.tog input</code>
+  — walks up ancestors checking each part right-to-left</li>
 
-  <td><code class="notranslate">border-box</code> / <code class="notranslate">content-box</code>
-  (parsed, stored)</td>
+  <li><strong>Adjacent sibling</strong> (<code class="notranslate">+</code>): <code
+  class="notranslate">input + .tog-sw</code> — checks the immediately preceding sibling</li>
 
-  </tr>
+  <li>Splits the selector at spaces and <code class="notranslate">+</code> (respecting
+  <code class="notranslate">[bracket]</code> depth so <code class="notranslate">[type=checkbox]</code>
+  doesn''t get split)</li>
 
-  <tr>
+  <li>Each part is matched via <code class="notranslate">simple_selector_matches</code></li>
 
-  <td><code class="notranslate">flex</code> shorthand</td>
+  <li>Guard counter on all ancestor walks prevents infinite loops</li>
 
-  <td><code class="notranslate">flex: 1</code> → grow=1; <code class="notranslate">flex:
-  1 0 auto</code> → grow/shrink/basis</td>
+  </ul>
 
-  </tr>
+  <h3 dir="auto">DPad scroll restored</h3>
 
-  <tr>
-
-  <td><code class="notranslate">flex-shrink</code></td>
-
-  <td>Default 1</td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">flex-basis</code></td>
-
-  <td><code class="notranslate">auto</code> or length</td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">pointer-events</code></td>
-
-  <td><code class="notranslate">none</code> / <code class="notranslate">auto</code></td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">user-select</code></td>
-
-  <td><code class="notranslate">none</code> / <code class="notranslate">auto</code></td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">outline</code></td>
-
-  <td>Width + color (simplified, no layout impact)</td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">outline-width</code> / <code class="notranslate">outline-color</code>
-  / <code class="notranslate">outline-style</code></td>
-
-  <td>Individual properties</td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">text-transform</code></td>
-
-  <td><code class="notranslate">uppercase</code> / <code class="notranslate">lowercase</code>
-  / <code class="notranslate">capitalize</code> / <code class="notranslate">none</code></td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">letter-spacing</code></td>
-
-  <td>px or <code class="notranslate">normal</code></td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">line-height</code></td>
-
-  <td>px, unitless multiplier, or <code class="notranslate">normal</code></td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">list-style</code> / <code class="notranslate">list-style-type</code></td>
-
-  <td><code class="notranslate">none</code> / <code class="notranslate">disc</code>
-  / <code class="notranslate">circle</code> / <code class="notranslate">square</code>
-  / <code class="notranslate">decimal</code></td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">object-fit</code></td>
-
-  <td><code class="notranslate">fill</code> / <code class="notranslate">contain</code>
-  / <code class="notranslate">cover</code></td>
-
-  </tr>
-
-  <tr>
-
-  <td><code class="notranslate">min/max-width/height</code></td>
-
-  <td>Now handles <code class="notranslate">none</code> and <code class="notranslate">auto</code>
-  correctly</td>
-
-  </tr>
-
-  </tbody>
-
-  </table></markdown-accessiblity-table>'
-updated: '2026-07-10T18:50:33Z'
-version: v0.44
-version_title: Compiled 3DSX (Version 0.44)
+  <p dir="auto">DPad Up/Down/Left/Right now scrolls the web page via <code class="notranslate">we_page_scroll_by(0,
+  ±30)</code> when <code class="notranslate">g_web_engine.loaded</code> is true. Falls
+  back to text-mode scroll when the engine isn''t loaded. Circle Pad is always cursor-only.</p>'
+updated: '2026-07-11T21:46:44Z'
+version: v0.45
+version_title: Compiled 3DSX (Version 0.45)
 wiki: https://github.com/PlanetDogeCodes/Pocket-Compiler/blob/main/README.md
 ---
 An almost fully featured HTML/JS/CSS compiler application made for 3DS/n3DS consoles. Includes iframes, limited WebGL support, limited Canvas support, Audio Support, and a clean UI!
