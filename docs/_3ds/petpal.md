@@ -11,13 +11,13 @@ description: 'A virtual StreePass pet for Nintendo 3DS '
 download_page: https://github.com/PetPal-Team/PetPal/releases
 downloads:
   PetPal.3dsx:
-    size: 31222164
+    size: 31222324
     size_str: 29 MiB
-    url: https://github.com/PetPal-Team/PetPal/releases/download/v0.1.3/PetPal.3dsx
+    url: https://github.com/PetPal-Team/PetPal/releases/download/v0.1.3-1/PetPal.3dsx
   PetPal.cia:
     size: 31396800
     size_str: 29 MiB
-    url: https://github.com/PetPal-Team/PetPal/releases/download/v0.1.3/PetPal.cia
+    url: https://github.com/PetPal-Team/PetPal/releases/download/v0.1.3-1/PetPal.cia
 github: PetPal-Team/PetPal
 icon: https://raw.githubusercontent.com/PetPal-Team/PetPal/refs/heads/main/Pet%20Pal.png
 image: https://raw.githubusercontent.com/PetPal-Team/PetPal/refs/heads/main/banner.png
@@ -125,9 +125,9 @@ update_notes: '<h1 dir="auto">🐾 PetPal v0.1.3</h1>
   </tbody>
 
   </table></markdown-accessiblity-table>'
-updated: '2026-07-11T18:21:25Z'
-version: v0.1.3
-version_title: PetPal v0.1.3
+updated: '2026-07-11T18:56:20Z'
+version: v0.1.3-1
+version_title: PetPal v0.1.3-1 Fix Pet name check
 website: https://teampetpal.com
 wiki: https://teampetpal.com/wiki
 ---
