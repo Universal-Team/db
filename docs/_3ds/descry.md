@@ -12,13 +12,13 @@ description: music tracker + synthesizer for the New Nintendo 3DS — song/chain
 download_page: https://github.com/patausx/descry/releases
 downloads:
   descry.3dsx:
-    size: 436836
-    size_str: 426 KiB
-    url: https://github.com/patausx/descry/releases/download/v1.0.2/descry.3dsx
+    size: 448036
+    size_str: 437 KiB
+    url: https://github.com/patausx/descry/releases/download/v1.0.3/descry.3dsx
   descry.cia:
-    size: 495552
-    size_str: 483 KiB
-    url: https://github.com/patausx/descry/releases/download/v1.0.2/descry.cia
+    size: 502720
+    size_str: 490 KiB
+    url: https://github.com/patausx/descry/releases/download/v1.0.3/descry.cia
 github: patausx/descry
 icon: https://raw.githubusercontent.com/patausx/descry/main/assets/icon.png
 image: https://raw.githubusercontent.com/patausx/descry/main/branding/final/banner_256x128.png
@@ -49,17 +49,38 @@ systems:
 title: descry
 unique_ids:
 - '0xDE5C1'
-update_notes: '<h2 dir="auto">descry v1.0.2</h2>
+update_notes: '<h2 dir="auto">descry v1.0.3</h2>
 
   <h3 dir="auto">added</h3>
 
   <ul dir="auto">
 
-  <li>live instrument voice refresh while editing synth parameters</li>
+  <li><strong>in-app manual</strong> — tap the <code class="notranslate">?</code>
+  badge on the bottom screen: an 8-page guide right on the console (basics, global
+  keys, phrase editing, instruments, the full FX command list, performance, sampling).
+  the FX pages are generated from the engine''s own command table, so the help can
+  never drift from what the player executes. (issue <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4841918632" data-permission-text="Title
+  is private" data-url="https://github.com/patausx/descry/issues/3" data-hovercard-type="issue"
+  data-hovercard-url="/patausx/descry/issues/3/hovercard" href="https://github.com/patausx/descry/issues/3">#3</a>)</li>
 
-  <li>animated live envelope overlay for wavsynth, sampler, FM and DSN voices</li>
+  <li><strong>INIT preset</strong> — preset 1 in every synth engine (wavsynth / FM
+  / DSN) is now a true blank patch for building sounds from scratch: FM = DX7-style
+  init voice (single sine carrier), DSN = one saw, filter open, no modulation. old
+  saves are unaffected.</li>
 
-  <li>horizontal song timeline mode with rotated navigation</li>
+  <li><strong>DSN drum presets</strong> — KICK / SNARE / HAT / TOM analog drum starting
+  points on the DSN voice.</li>
+
+  <li><strong>reverb size + damping</strong> — RSIZ / RDMP in the mixer master strip:
+  room size up to near-self-oscillation feedback plus feedback damping, saved per
+  project (older project files load unchanged).</li>
+
+  <li><strong>key root tap</strong> — the KEY readout is split: tap the left half
+  to cycle the root note, the right half to cycle the scale.</li>
+
+  <li><strong>load confirmation</strong> — loading over unsaved changes now asks first
+  (amber <code class="notranslate">LOAD?</code>, press A again to confirm).</li>
 
   </ul>
 
@@ -67,22 +88,24 @@ update_notes: '<h2 dir="auto">descry v1.0.2</h2>
 
   <ul dir="auto">
 
-  <li>show an explanatory error screen when NDSP init fails / <code class="notranslate">dspfirm.cdc</code>
-  is missing</li>
+  <li><strong>sample loop modes</strong> — FWDLOOP / REVLOOP with no loop markers
+  set now loop the play window (M8 behaviour) instead of silently doing nothing.</li>
 
-  <li>speed up exit/autosave by skipping unchanged sample writes</li>
+  <li><strong>audio cutout recovery</strong> — a watchdog now recovers the NDSP channel
+  after a silent stall: ~200 ms of unexpected silence = unpause, ~600 ms = full channel
+  re-init.</li>
 
-  <li>tighten bottom panel hit zones so upper navigation touches are not swallowed</li>
+  <li>phrase R-hint bar no longer overflows the bottom screen.</li>
 
   </ul>
 
   <h3 dir="auto">checksums</h3>
 
-  <pre lang="text" class="notranslate"><code class="notranslate">a6df3bef246aa92423fdd0c54a576e23480c75b7edd1b927f8c3087ee7c0c752  descry.3dsx
+  <pre lang="text" class="notranslate"><code class="notranslate">09f92d8e5794878f7429e3e40ab0ed6b411cbe8b6a299de7f11e680419cf1d2c  descry.3dsx
 
-  f0470426cf9b9066641d09e8d0a0f1f1b48fc3fff0339bd5e1fea548379aaa8b  descry.cia
+  7ab4d42f36ffd723bae4b6a13557766bff877fe1963cc72243c2b4d062d3ecbf  descry.cia
 
-  68510353436408002ca3328281bc57e1339f3fce096592eaa7943cce777d704d  descry.3ds
+  79305cf50ee5be5c34ef4316a28200d6d9b093b1942c7c029e9ff6ff565d8291  descry.3ds
 
   </code></pre>
 
@@ -90,18 +113,30 @@ update_notes: '<h2 dir="auto">descry v1.0.2</h2>
 
   <ul dir="auto">
 
+  <li><strong>lavenderdragon</strong> (discord) — for the detailed feedback round
+  that shaped most of this release: loop behaviour, reverb depth, key handling, load
+  safety, drum presets, audio cutouts.</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Rhlp-Engineering/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Rhlp-Engineering">@Rhlp-Engineering</a>
+  — for asking for an in-app manual (issue <a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="4841918632" data-permission-text="Title is private" data-url="https://github.com/patausx/descry/issues/3"
+  data-hovercard-type="issue" data-hovercard-url="/patausx/descry/issues/3/hovercard"
+  href="https://github.com/patausx/descry/issues/3">#3</a>). it''s the <code class="notranslate">?</code>
+  badge now.</li>
+
   <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DoubleSprattt/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DoubleSprattt">@DoubleSprattt</a>
-  — for the careful issue <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="4822698990" data-permission-text="Title is private" data-url="https://github.com/patausx/descry/issues/1"
-  data-hovercard-type="issue" data-hovercard-url="/patausx/descry/issues/1/hovercard"
-  href="https://github.com/patausx/descry/issues/1">#1</a> report, screenshots, and
-  testing notes.</li>
+  — for continued testing and the hold-to-sustain preview idea.</li>
 
-  </ul>'
-updated: '2026-07-08T15:04:50Z'
-version: v1.0.2
-version_title: descry v1.0.2
+  </ul>
+
+  <p dir="auto"><strong>install:</strong> CIA via FBI (recommended on CFW) · 3DSX
+  from the homebrew launcher · <code class="notranslate">.3ds</code> for flashcarts.
+  New 3DS / New 2DS only.</p>'
+updated: '2026-07-11T10:00:11Z'
+version: v1.0.3
+version_title: descry v1.0.3
 ---
 descry is a music tracker + synthesizer for the New Nintendo 3DS, in the tradition of LSDj, the Dirtywave M8 and Korg's discontinued DSN-12.
 
