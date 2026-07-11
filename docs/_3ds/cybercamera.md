@@ -12,13 +12,13 @@ description: CyberCamera is a Nintendo 3DS homebrew camera app with a cyber/Y2K 
 download_page: https://github.com/Taifuoguru/CyberCamera/releases
 downloads:
   CyberCamera.3dsx:
-    size: 240288
-    size_str: 234 KiB
-    url: https://github.com/Taifuoguru/CyberCamera/releases/download/1.0.3/CyberCamera.3dsx
+    size: 262064
+    size_str: 255 KiB
+    url: https://github.com/Taifuoguru/CyberCamera/releases/download/1.1/CyberCamera.3dsx
   CyberCamera.cia:
-    size: 334272
-    size_str: 326 KiB
-    url: https://github.com/Taifuoguru/CyberCamera/releases/download/1.0.3/CyberCamera.cia
+    size: 348608
+    size_str: 340 KiB
+    url: https://github.com/Taifuoguru/CyberCamera/releases/download/1.1/CyberCamera.cia
 github: Taifuoguru/CyberCamera
 icon: https://raw.githubusercontent.com/Taifuoguru/CyberCamera/main/%C4%B0con.jpg
 image: https://raw.githubusercontent.com/Taifuoguru/CyberCamera/main/Banner.jpg
@@ -34,23 +34,16 @@ stars: 1
 systems:
 - 3DS
 title: CyberCamera
-update_notes: '<p dir="auto">Known Issue with FTP Mode:<br>
+update_notes: '<p dir="auto">New Feature: Added video recording capability.</p>
 
-  There is currently a minor bug with the FTP mode. When you click on it, the app
-  might appear to freeze. However, if your 3DS FTP address is already configured on
-  your PC, the file transfer screen will appear immediately upon clicking. My guess
-  is that the 3DS is waiting for a response/action from the PC before switching to
-  the FTP screen. I will be fixing this issue soon!</p>
+  <p dir="auto">Camera: Added an option to toggle the shutter sound on or off.</p>
 
-  <p dir="auto">Added FTP Mode: You can now transfer your photos directly from the
-  PC server while inside the app.</p>
+  <p dir="auto">Gallery: Added zoom support for photos and videos.</p>
 
-  <p dir="auto">Improved Color Accuracy: Thanks to the New 3DS processor, image processing
-  has been upgraded, resulting in better overall image quality.</p>
+  <p dir="auto">Audio: Enabled audio integration within the gallery.</p>
 
-  <p dir="auto">Optimized Visuals: The general image quality has been further optimized
-  for better performance and clarity.</p>'
-updated: '2026-07-11T01:25:10Z'
-version: 1.0.3
+  <p dir="auto">Bug Fixes: Fixed FTTP bugs and system stability issues.</p>'
+updated: '2026-07-11T23:07:28Z'
+version: '1.1'
 version_title: CyberCamera
 ---

@@ -10,9 +10,9 @@ description: A fanmade Balatro clone for the 3DS
 download_page: https://github.com/idkhan/Balatro3DS/releases
 downloads:
   Balatro3DS.3dsx:
-    size: 14142093
+    size: 14149863
     size_str: 13 MiB
-    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.1.5-alpha/Balatro3DS.3dsx
+    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.1.6-alpha/Balatro3DS.3dsx
 github: idkhan/Balatro3DS
 icon: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/resources/textures/1x/icon.png
 image: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/banner.png
@@ -26,21 +26,11 @@ stars: 107
 systems:
 - 3DS
 title: Balatro3DS
-update_notes: '<p dir="auto">We''re nearing the full release of the game!</p>
-
-  <h3 dir="auto">Features</h3>
+update_notes: '<h3 dir="auto">Features:</h3>
 
   <ul dir="auto">
 
-  <li>Added the Collection to view all Cards, Blinds, Enhancements, etc</li>
-
-  <li>Added More Gamepad Controls, check the How to Play menu to learn more</li>
-
-  <li>Boss Blinds no longer repeat</li>
-
-  <li>Added the Diet Cola Joker (it was missing before)</li>
-
-  <li>Added a sneaky little cheat to unlock everything (Konami Code)</li>
+  <li>Added Profiles and the ability to clear saves</li>
 
   </ul>
 
@@ -48,22 +38,22 @@ update_notes: '<p dir="auto">We''re nearing the full release of the game!</p>
 
   <ul dir="auto">
 
-  <li>Astronomer Joker now works</li>
+  <li>Fixed the R button selecting and unselecting cards when tapped in card select
+  mode</li>
 
-  <li>Shop prices are recalculated after buying the discount vouchers</li>
+  <li>Fixed the Riff Raff joker spawning duplicates</li>
 
-  <li>Main Menu is now aligned properly</li>
+  <li>Fixed the Hit the Road Joker not resetting</li>
 
-  <li>Hitting New Run in a game saves the last run</li>
-
-  <li>There''s a bunch more I cant remember</li>
+  <li>Fixed Hologram Joker triggering for every item bought from shop. Now it only
+  triggers when cards are added to the deck</li>
 
   </ul>
 
-  <p dir="auto">Have Fun!!!</p>'
-updated: '2026-07-10T00:05:18Z'
-version: v1.1.5-alpha
-version_title: Alpha 1.1.5
+  <p dir="auto">You can now support me on my <a href="www.patreon.com/thegazpacho">Patreon</a>.</p>'
+updated: '2026-07-11T22:46:32Z'
+version: v1.1.6-alpha
+version_title: Alpha 1.1.6
 ---
 The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos, now on the 3DS.
 
