@@ -12,13 +12,13 @@ description: CyberCamera is a Nintendo 3DS homebrew camera app with a cyber/Y2K 
 download_page: https://github.com/Taifuoguru/CyberCamera/releases
 downloads:
   CyberCamera.3dsx:
-    size: 212772
-    size_str: 207 KiB
-    url: https://github.com/Taifuoguru/CyberCamera/releases/download/1.0.2/CyberCamera.3dsx
+    size: 240288
+    size_str: 234 KiB
+    url: https://github.com/Taifuoguru/CyberCamera/releases/download/1.0.3/CyberCamera.3dsx
   CyberCamera.cia:
-    size: 317888
-    size_str: 310 KiB
-    url: https://github.com/Taifuoguru/CyberCamera/releases/download/1.0.2/CyberCamera.cia
+    size: 334272
+    size_str: 326 KiB
+    url: https://github.com/Taifuoguru/CyberCamera/releases/download/1.0.3/CyberCamera.cia
 github: Taifuoguru/CyberCamera
 icon: https://raw.githubusercontent.com/Taifuoguru/CyberCamera/main/%C4%B0con.jpg
 image: https://raw.githubusercontent.com/Taifuoguru/CyberCamera/main/Banner.jpg
@@ -34,104 +34,23 @@ stars: 1
 systems:
 - 3DS
 title: CyberCamera
-update_notes: '<p dir="auto">CyberCamera Update<br>
+update_notes: '<p dir="auto">Known Issue with FTP Mode:<br>
 
-  This update expands CyberCamera into a more complete camera app experience with
-  improved controls, visual modes, capture options, and gallery support.<br>
+  There is currently a minor bug with the FTP mode. When you click on it, the app
+  might appear to freeze. However, if your 3DS FTP address is already configured on
+  your PC, the file transfer screen will appear immediately upon clicking. My guess
+  is that the 3DS is waiting for a response/action from the PC before switching to
+  the FTP screen. I will be fixing this issue soon!</p>
 
-  New Features<br>
+  <p dir="auto">Added FTP Mode: You can now transfer your photos directly from the
+  PC server while inside the app.</p>
 
-  Added a full bottom-screen control interface for camera functions<br>
+  <p dir="auto">Improved Color Accuracy: Thanks to the New 3DS processor, image processing
+  has been upgraded, resulting in better overall image quality.</p>
 
-  Added touch controls for capture, gallery, camera switching, filter changes, timer,
-  zoom, HUD, DSi mode, 3D save, and quality mode<br>
-
-  Added gallery mode with photo browsing and delete support<br>
-
-  Added support for loading saved .ccp photos inside the gallery<br>
-
-  Added stereo photo preview support on the top screen when the 3D slider is enabled<br>
-
-  Camera &amp; Capture<br>
-
-  Added front and outer camera switching<br>
-
-  Added capture timer options: 3s, 5s, and 10s<br>
-
-  Added zoom control<br>
-
-  Added optional 2X quality save mode<br>
-
-  Added optional 3D SAVE mode for outer camera captures<br>
-
-  Added anaglyph BMP export for stereo captures<br>
-
-  Added date stamp support on saved images<br>
-
-  Added settings persistence for major camera options<br>
-
-  Filters &amp; Visual Modes<br>
-
-  Added and refined multiple filter modes:NORMAL<br>
-
-  MATRIX<br>
-
-  RED<br>
-
-  AMBER<br>
-
-  ICE<br>
-
-  THERMAL<br>
-
-  CRT<br>
-
-  NIGHT<br>
-
-  GAMEBOY<br>
-
-  MAC1<br>
-
-  EGA<br>
-
-  PS1<br>
-
-  SOLAR<br>
-
-  VECTOR<br>
-
-  OVER</p>
-
-  <p dir="auto">Restored DSi Camera mode<br>
-
-  Re-enabled Y button toggle for DSi mode<br>
-
-  Added a touchable DSI CAM button to the bottom screen<br>
-
-  Restored the DSi-style low-resolution and reduced-color image effect<br>
-
-  Updated camera noise filter behavior to react to DSi mode<br>
-
-  Interface Improvements<br>
-
-  Added a redesigned HUD with live camera, zoom, filter, 3D, and DSi status info<br>
-
-  Moved HUD control to its own bottom-screen button<br>
-
-  Improved bottom-screen layout to make controls easier to understand and use<br>
-
-  Added build/version label display in the interface<br>
-
-  Saving &amp; File Support<br>
-
-  Added .ccp save format support<br>
-
-  Added stereo .ccp save support<br>
-
-  Added scaled BMP export<br>
-
-  Added separate naming for normal and stereo/anaglyph captures</p>'
-updated: '2026-07-07T22:03:18Z'
-version: 1.0.2
+  <p dir="auto">Optimized Visuals: The general image quality has been further optimized
+  for better performance and clarity.</p>'
+updated: '2026-07-11T01:25:10Z'
+version: 1.0.3
 version_title: CyberCamera
 ---
