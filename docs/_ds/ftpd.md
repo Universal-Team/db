@@ -51,7 +51,7 @@ screenshots:
 - description: Transferring
   url: https://db.universal-team.net/assets/images/screenshots/ftpd/transferring.png
 source: https://github.com/mtheall/ftpd
-stars: 1679
+stars: 1680
 systems:
 - 3DS
 - DS

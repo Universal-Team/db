@@ -29,7 +29,7 @@ qr:
   mpr-connect.cia: https://db.universal-team.net/assets/images/qr/mpr-connect-cia.png
   mpr-connect.nds: https://db.universal-team.net/assets/images/qr/mpr-connect-nds.png
 source: https://github.com/taxicat1/mpr-connect
-stars: 3
+stars: 4
 systems:
 - DS
 title: MPR Connect
