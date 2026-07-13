@@ -32,7 +32,7 @@ llm_generation: 'no'
 qr:
   FBI.cia: https://db.universal-team.net/assets/images/qr/fbi-cia.png
 source: https://github.com/nh-server/FBI-NH
-stars: 244
+stars: 245
 systems:
 - 3DS
 title: FBI-NH
