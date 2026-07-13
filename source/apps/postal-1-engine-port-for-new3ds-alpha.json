@@ -1,0 +1,15 @@
+{
+	"github": "Taifuoguru/Postal-1-New-3DS-Port-Alpha-",
+	"title": "Postal 1 Engine Port for New3ds Alpha",
+	"author": "Taifu",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app",
+		"game"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/main/Icon.png",
+	"preinstall_message": "Note: You will need to copy the assets from your PC copy of the game to \"sdmc:/3ds/postal1\".\n\nYou should have \"PostalPlus\", \"res\", and \"title\" folders, \"POSTAL.INI\" and a copy of the ini renamed to \"postal_plus.ini\"."
+}
