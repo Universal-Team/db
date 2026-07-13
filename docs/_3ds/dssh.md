@@ -31,7 +31,7 @@ llm_generation: 'yes'
 qr:
   DSSH.cia: https://db.universal-team.net/assets/images/qr/dssh-cia.png
 source: https://github.com/Fishason/DSSH
-stars: 58
+stars: 61
 systems:
 - 3DS
 title: DSSH
