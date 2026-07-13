@@ -62,12 +62,16 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   <li>Attempted to fix a crash when powering off your system</li>
 
-  <li>The file can now be installed from <strong><a href="https://universal-team.net/projects/universal-updater"
-  rel="nofollow">Universal-Updater</a></strong><br>
+  </ul>
 
-  <em>Make sure to delete any _beta named files as they will conflict with the download</em></li>
+  <h3 dir="auto">The file can now be installed from <strong><a href="https://universal-team.net/projects/universal-updater"
+  rel="nofollow">Universal-Updater</a></strong></h3>
 
-  </ul>'
+  <p dir="auto"><em>Make sure to delete any _beta named files as they will conflict
+  with the download</em><br>
+
+  <em>The icon in the Universal-Updater will take a bit to update, just search "Time
+  Trials Revamped"</em></p>'
 updated: '2026-07-12T00:08:35Z'
 version: latest
 version_title: v1.0.0
