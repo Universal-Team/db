@@ -1,0 +1,13 @@
+{
+	"github": "My-name-is-TJ/blimp-chicken-ds",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/My-name-is-TJ/blimp-chicken-ds/main/icon.png",
+	"image": "https://raw.githubusercontent.com/My-name-is-TJ/blimp-chicken-ds/main/Blimp%20Chicken%20DS%20banner.png",
+	"long_description": "**Blimp Chicken** is a 3D arcade flight and combat game for the Nintendo DS.\n\nYou have taken the company blimp for a joyride with a cooler full of drinks, and the Air Force (and nature itself) are not amused. Fly a lumbering airship through a warzone of fighter jets, birds, and skyscrapers.\n\n## Features\n\n- **Survival mode:** last as long as you can as jets, birds, and the difficulty ramp close in.\n- **Destructible city:** ram skyscrapers to wreck them for points, or fly straight through enemy jets to down them.\n- **Drink and smoke:** hold a beer to your mouth to heal (at the cost of a woozy screen wobble), or light a cigarette for a temporary speed boost.\n- **Local wireless VS:** up to 8 players in a last-blimp-standing dogfight. Every console runs the ROM (needs real hardware).\n- **Emblem editor:** paint a custom 32x32 design with the stylus, wrapped onto both sides of your blimp.\n- **Original soundtrack and SFX**, an animated opening crawl, and hull-color customization.\n\n## Controls\n\n- **D-pad** (or Y/A/X/B): steer and float\n- **L / R:** throttle\n- **Touch screen:** drag from the center and flick to throw a drink or cigarette\n- **START:** pause\n\nDirect-boots on any DS, DSi, or 3DS via a flashcard or TWiLight Menu++. No BIOS needed.\n\nMade by TJ M. Free and open source (CC0)."
+}
