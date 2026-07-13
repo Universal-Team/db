@@ -11,13 +11,13 @@ description: A retro-styled audio/visual experience for the Nintendo 3DS, heavil
 download_page: https://github.com/Taifuoguru/CyberPlayer3DS/releases
 downloads:
   CyberPlayer3DS.3dsx:
-    size: 15213396
+    size: 15214644
     size_str: 14 MiB
-    url: https://github.com/Taifuoguru/CyberPlayer3DS/releases/download/1.0.6/CyberPlayer3DS.3dsx
+    url: https://github.com/Taifuoguru/CyberPlayer3DS/releases/download/1.0.7/CyberPlayer3DS.3dsx
   CyberPlayer3DS.cia:
-    size: 836544
-    size_str: 816 KiB
-    url: https://github.com/Taifuoguru/CyberPlayer3DS/releases/download/1.0.6/CyberPlayer3DS.cia
+    size: 837568
+    size_str: 817 KiB
+    url: https://github.com/Taifuoguru/CyberPlayer3DS/releases/download/1.0.7/CyberPlayer3DS.cia
 github: Taifuoguru/CyberPlayer3DS
 icon: https://raw.githubusercontent.com/Taifuoguru/CyberPlayer3DS/main/icon.png
 image: https://raw.githubusercontent.com/Taifuoguru/CyberPlayer3DS/main/Banner.png
@@ -31,36 +31,21 @@ stars: 2
 systems:
 - 3DS
 title: CyberPlayer3DS
-update_notes: '<h2 dir="auto">Old 3DS / 2DS Optimization Update</h2>
+update_notes: '<p dir="auto">Unfortunately, playing FLAC files with sampling rates
+  higher than 44.1 kHz or bit depths above 16-bit is too demanding for both Old 3DS
+  and New 3DS models. Currently, it is not possible to play these high-res files while
+  simultaneously rendering visual effects and graphics.</p>
 
-  <ul dir="auto">
+  <p dir="auto">To address this, I have added a new error-handling function: if you
+  attempt to load an unsupported audio format, the app will now display an error message
+  stating that the file is not supported, rather than crashing.</p>
 
-  <li>Added automatic Old 3DS hardware detection.</li>
-
-  <li>Audio Optimization Mode is automatically enabled on Old 3DS, Old 3DS XL, and
-  2DS systems.</li>
-
-  <li>Reduced visual rendering load to prioritize stable audio playback.</li>
-
-  <li>Disabled expensive post-processing effects during playback on lower-power hardware.</li>
-
-  <li>Added a lighter Custom Visualizer rendering path for Old 3DS systems.</li>
-
-  <li>Reduced Custom Pack visual effects in Audio Optimization Mode.</li>
-
-  <li>Optimized NDSP audio queue servicing to reduce audio stutter, slowdown, and
-  crackling.</li>
-
-  <li>Removed unused legacy PCM audio buffer allocations to reduce linear memory usage.</li>
-
-  <li>Custom Pack uses paged image caching instead of keeping all images in memory
-  at once.</li>
-
-  <li>Improved low-spec image rendering while preserving the normal Custom Visualizer
-  panel size.</li>
-
-  </ul>'
-updated: '2026-07-13T16:25:42Z'
-version: 1.0.6
+  <p dir="auto">I believe the FLAC playback issue on the 3DS is now mostly resolved.
+  If you use the correct FLAC specifications (16-bit / 44.1 kHz), it should theoretically
+  play without any lag or stuttering. However, I am still not 100% sure how it will
+  perform on all Old 3DS models under different loads, so I am highly looking forward
+  to your feedback and comments</p>'
+updated: '2026-07-13T19:20:59Z'
+version: 1.0.7
 version_title: CyberPlayer3DS
 ---
