@@ -1,5 +1,7 @@
 {
 	"github": "mainexploit/mk7-tt-revamp",
+	"author": "h4x0rspooky and damarioyt",
+	"title": "Time Trials Revamped",
 	"systems": [
 		"3DS"
 	],
@@ -7,7 +9,35 @@
 		"plugin"
 	],
 	"llm_generation": "no",
-	"icon": "https://raw.githubusercontent.com/mainexploit/mk7-tt-revamp/main/icon.png",
+	"icon": "https://raw.githubusercontent.com/mainexploit/mk7-tt-revamp/main/icon_small.png",
 	"image": "https://raw.githubusercontent.com/mainexploit/mk7-tt-revamp/main/banner_small.png",
 	"long_description": "This a CTRPluginFramework for the Mario Kart 7 Time Trials Community"
+	"installed_files": [
+		"/luma/plugins/0004000000030800/mk7-tt-revamp.3gx",
+		"/luma/plugins/0004000000030700/mk7-tt-revamp.3gx",
+		"/luma/plugins/0004000000030600/mk7-tt-revamp.3gx"
+	],
+	"scripts": {
+		"JPN": [
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/mainexploit/mk7-tt-revamp/releases/latest/download/mk7-tt-revamp.3gx",
+				"output": "/luma/plugins/0004000000030600/mk7-tt-revamp.3gx"
+			}
+		],
+		"EUR": [
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/mainexploit/mk7-tt-revamp/releases/latest/download/mk7-tt-revamp.3gx",
+				"output": "/luma/plugins/0004000000030700/mk7-tt-revamp.3gx"
+			}
+		],
+		"USA": [
+			{
+				"type": "downloadFile",
+				"file": "https://github.com/mainexploit/mk7-tt-revamp/releases/latest/download/mk7-tt-revamp.3gx",
+				"output": "/luma/plugins/0004000000030800/mk7-tt-revamp.3gx"
+			}
+		]
+	}
 }
