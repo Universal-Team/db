@@ -11,13 +11,13 @@ description: A 3DS music player with modern features
 download_page: https://github.com/narayanx/Canary3DS/releases
 downloads:
   Canary.3dsx:
-    size: 3424100
+    size: 3449960
     size_str: 3 MiB
-    url: https://github.com/narayanx/Canary3DS/releases/download/v1.1.0/Canary.3dsx
+    url: https://github.com/narayanx/Canary3DS/releases/download/v1.2.0/Canary.3dsx
   Canary.cia:
-    size: 2802624
+    size: 2819008
     size_str: 2 MiB
-    url: https://github.com/narayanx/Canary3DS/releases/download/v1.1.0/Canary.cia
+    url: https://github.com/narayanx/Canary3DS/releases/download/v1.2.0/Canary.cia
 github: narayanx/Canary3DS
 icon: https://raw.githubusercontent.com/narayanx/Canary3DS/main/assets/icon.png
 image: https://raw.githubusercontent.com/narayanx/Canary3DS/main/assets/banner.png
@@ -39,9 +39,19 @@ update_notes: '<h2 dir="auto">Added</h2>
 
   <ul dir="auto">
 
-  <li>Ability for volume to go above 100%</li>
+  <li>Speed and pitch controls. Thanks <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/EmbersFlying/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/EmbersFlying">@EmbersFlying</a>
+  for the suggestion! (<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="4789659598" data-permission-text="Title is private" data-url="https://github.com/narayanx/Canary3DS/issues/1"
+  data-hovercard-type="issue" data-hovercard-url="/narayanx/Canary3DS/issues/1/hovercard"
+  href="https://github.com/narayanx/Canary3DS/issues/1">#1</a>)</li>
 
-  <li>Setting for enabling/disabling auto switching to the Player screen</li>
+  <li>Offline scrobbler.log support (must be enabled in settings)</li>
+
+  <li>Fallback to cover image in same folder as song when no embedded art found</li>
+
+  <li>Setting to lock shoulder buttons</li>
 
   </ul>
 
@@ -49,7 +59,15 @@ update_notes: '<h2 dir="auto">Added</h2>
 
   <ul dir="auto">
 
-  <li>Volume to gain mapping to better match human perception of volume</li>
+  <li>Reworked shuffle button to have toggleable state. Thanks <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Delsune/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Delsune">@Delsune</a>
+  for the suggestion! (<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="4833261112" data-permission-text="Title is private" data-url="https://github.com/narayanx/Canary3DS/issues/5"
+  data-hovercard-type="issue" data-hovercard-url="/narayanx/Canary3DS/issues/5/hovercard"
+  href="https://github.com/narayanx/Canary3DS/issues/5">#5</a>)</li>
+
+  <li>Switched order of music folder context menu options in settings</li>
 
   </ul>
 
@@ -57,10 +75,11 @@ update_notes: '<h2 dir="auto">Added</h2>
 
   <ul dir="auto">
 
-  <li>Bug where volume reset upon song change</li>
+  <li>Better handling when pressing <code class="notranslate">A</code> button on unplayable
+  song</li>
 
   </ul>'
-updated: '2026-07-03T01:33:28Z'
-version: v1.1.0
-version_title: Canary v1.1.0
+updated: '2026-07-13T20:03:38Z'
+version: v1.2.0
+version_title: Canary v1.2.0
 ---

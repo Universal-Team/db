@@ -3,8 +3,6 @@ author: mainexploit
 avatar: https://avatars.githubusercontent.com/u/219022608?v=4
 categories:
 - plugin
-color: '#999076'
-color_bg: '#807862'
 created: '2026-07-11T23:39:07Z'
 description: This a CTRPluginFramework for the Mario Kart 7 Time Trials Community
 download_page: https://github.com/mainexploit/mk7-tt-revamp/releases
