@@ -1,0 +1,13 @@
+{
+	"github": "mainexploit/mk7-tt-revamp",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"plugin"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/mainexploit/mk7-tt-revamp/main/icon.png",
+	"image": "https://raw.githubusercontent.com/mainexploit/mk7-tt-revamp/main/banner_small.png",
+	"long_description": "This a CTRPluginFramework for the Mario Kart 7 Time Trials Community"
+}
