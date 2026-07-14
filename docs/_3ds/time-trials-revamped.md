@@ -16,7 +16,7 @@ downloads:
 github: mainexploit/mk7-tt-revamp
 icon: https://raw.githubusercontent.com/mainexploit/mk7-tt-revamp/main/icon_small.png
 image: https://raw.githubusercontent.com/mainexploit/mk7-tt-revamp/main/banner_small.png
-image_length: 4783
+image_length: 6953
 layout: app
 llm_generation: 'no'
 source: https://github.com/mainexploit/mk7-tt-revamp
