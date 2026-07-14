@@ -833,11 +833,6 @@ def process_app_entry(app: Dict[str, Any], fp: str, icon_idx: int, github_api: G
 				img, color = saveIcon(img, iconIndex, True)
 				if "color" not in app:
 					app["color"] = color
-				if "color_bg" not in app:
-					# Darken color to a maximum of 50% brightness
-					hsv = list(rgb_to_hsv(*[int(x, 16) / 255 for x in re.findall("#(..)(..)(..)", color)[0]]))
-					hsv[2] = min(0.5, hsv[2])
-					app["color_bg"] = "#%02x%02x%02x" % (*[round(x * 255) for x in hsv_to_rgb(*hsv)],)
 
 			if "icon" in app and app["icon"].endswith(".bmp"):
 				# This is also duplicated
@@ -856,6 +851,13 @@ def process_app_entry(app: Dict[str, Any], fp: str, icon_idx: int, github_api: G
 				app["image"] = app["icon"]
 
 			iconIndex += 1
+
+
+	# Darken color to a maximum of 50% brightness
+	if "color_bg" not in app and "color" in app:
+		hsv = list(rgb_to_hsv(*[int(x, 16) / 255 for x in re.findall("#(..)(..)(..)", app["color"])[0]]))
+		hsv[2] = min(0.5, hsv[2])
+		app["color_bg"] = "#%02x%02x%02x" % (*[round(x * 255) for x in hsv_to_rgb(*hsv)],)
 
 	# Make QR
 	if "downloads" in app:
