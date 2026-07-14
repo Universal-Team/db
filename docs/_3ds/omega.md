@@ -30,7 +30,7 @@ llm_generation: 'no'
 qr:
   simulator.cia: https://db.universal-team.net/assets/images/qr/simulator-cia.png
 source: https://github.com/Omega-Numworks/Omega
-stars: 353
+stars: 352
 systems:
 - 3DS
 title: Omega

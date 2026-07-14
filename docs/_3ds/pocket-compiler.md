@@ -24,7 +24,7 @@ license: apache-2.0
 license_name: Apache License 2.0
 llm_generation: 'yes'
 source: https://github.com/PlanetDogeCodes/Pocket-Compiler
-stars: 5
+stars: 6
 systems:
 - 3DS
 title: Pocket-Compiler
