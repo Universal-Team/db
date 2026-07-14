@@ -54,11 +54,19 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   </div>
 
-  <h2 dir="auto">Changelog (07/13/2026)</h2>
+  <h2 dir="auto">Changelog since release</h2>
+
+  <blockquote>
+
+  <p dir="auto">Latest change: 07/13/2026</p>
+
+  </blockquote>
 
   <ul dir="auto">
 
-  <li>Fixed coins not respawning when creating new snapshots</li>
+  <li>Added particle anti freeze which can occur in DK Pass and Mushroom, Gorge</li>
+
+  <li>Fixed an issue that made coins not respawn when creating new snapshots</li>
 
   <li>Attempted to fix a crash when powering off your system</li>
 
@@ -67,11 +75,11 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
   <h3 dir="auto">The file can now be installed from <strong><a href="https://universal-team.net/projects/universal-updater"
   rel="nofollow">Universal-Updater</a></strong></h3>
 
-  <p dir="auto"><em>Make sure to delete any _beta named files as they will conflict
-  with the download</em><br>
+  <p dir="auto"><em>Make sure to delete any <code class="notranslate">_beta</code>
+  named files as they will conflict with the download</em><br>
 
-  <em>The icon in the Universal-Updater will take a bit to update, just search "Time
-  Trials Revamped"</em></p>'
+  <em>The icon in the Universal-Updater will take a bit to update, just search <code
+  class="notranslate">Time Trials Revamped</code></em></p>'
 updated: '2026-07-12T00:08:35Z'
 version: latest
 version_title: v1.0.0

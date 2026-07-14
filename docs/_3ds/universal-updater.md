@@ -29,35 +29,20 @@ nightly:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 3020112
+      size: 3006052
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
-      size: 2487232
+      size: 2479040
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: '<p dir="auto">Pk11 - Fix messing up the global entries vector on
-    downloading/updating UniStores without selecting them</p>
-
-    <h3 dir="auto">IMPORTANT</h3>
-
-    <p dir="auto">Universal-Updater will now automatically reload itself after CIA
-    updates. Please report any bugs, crashes, etc you see! I''ve tested myself and
-    don''t see any reason for it to be broken but I want to be sure.</p>'
-  update_notes_md: 'Pk11 - Fix messing up the global entries vector on downloading/updating
-    UniStores without selecting them
-
-
-    ### IMPORTANT ###
-
-    Universal-Updater will now automatically reload itself after CIA updates. Please
-    report any bugs, crashes, etc you see! I''ve tested myself and don''t see any
-    reason for it to be broken but I want to be sure.'
-  updated: '2026-07-10T23:28:22Z'
+  update_notes: <p dir="auto">Pk11 - Store proxy URL as  if using system proxy</p>
+  update_notes_md: Pk11 - Store proxy URL as <DEFAULT> if using system proxy
+  updated: '2026-07-14T01:31:27Z'
   version: git
-  version_title: Continuous Build - 5b5764e
+  version_title: Continuous Build - 1012c62
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
