@@ -36,20 +36,14 @@ unique_ids:
 - '0xF6574'
 update_notes: '<ul>
 
-  <li>Fix error popup (Thanks @blaadeeee)</li>
-
-  <li>Add scam warning</li>
-
-  <li>Add important popup about backing up nid_pwd</li>
-
-  <li>Add time setter for if your system time is off</li>
+  <li>Re-register if the server says we aren''t registered</li>
 
   </ul>
 
   '
-updated: '2026-04-18T14:14:25.315Z'
-version: v2.0.2
-version_title: v2.0.2
+updated: '2026-07-14T11:25:59.153Z'
+version: v2.0.3
+version_title: v2.0.3
 website: https://netpass.cafe
 ---
 #NetPass: StreetPass in the modern world

@@ -34,7 +34,8 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
   1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Caution</p><p dir="auto"><strong>This is
   release version is considered experimental as its a <em>open beta</em></strong><br>
 
-  Expect issues or bugs and make sure to report them accordingly</p>
+  Expect issues or bugs and make sure to <strong><a href="https://github.com/mainexploit/mk7-tt-revamp/blob/main/README.md#any-questions-or-ran-into-issues">report
+  them</a></strong> accordingly</p>
 
   </div>
 
@@ -64,7 +65,7 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   <ul dir="auto">
 
-  <li>Added particle anti freeze which can occur in DK Pass and Mushroom, Gorge</li>
+  <li>Added particle anti freeze which can occur in DK Pass and Mushroom Gorge</li>
 
   <li>Fixed an issue that made coins not respawn when creating new snapshots</li>
 
@@ -72,14 +73,11 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   </ul>
 
-  <h3 dir="auto">The file can now be installed from <strong><a href="https://universal-team.net/projects/universal-updater"
+  <h3 dir="auto">The plugin can now be installed from <strong><a href="https://universal-team.net/projects/universal-updater"
   rel="nofollow">Universal-Updater</a></strong></h3>
 
   <p dir="auto"><em>Make sure to delete any <code class="notranslate">_beta</code>
-  named files as they will conflict with the download</em><br>
-
-  <em>The icon in the Universal-Updater will take a bit to update, just search <code
-  class="notranslate">Time Trials Revamped</code></em></p>'
+  named files as they will conflict with the download</em></p>'
 updated: '2026-07-12T00:08:35Z'
 version: latest
 version_title: v1.0.0
