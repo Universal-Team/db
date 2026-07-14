@@ -34,13 +34,8 @@ systems:
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: '<ul>
-
-  <li>Re-register if the server says we aren''t registered</li>
-
-  </ul>
-
-  '
+update_notes: <ul data-sourcepos="1:2-1:54" dir="auto">&#x000A;<li data-sourcepos="1:2-1:54">Re-register
+  if the server says we aren't registered</li>&#x000A;</ul>
 updated: '2026-07-14T11:25:59.153Z'
 version: v2.0.3
 version_title: v2.0.3
