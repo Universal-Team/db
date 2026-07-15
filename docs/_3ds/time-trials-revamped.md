@@ -10,7 +10,7 @@ description: This a CTRPluginFramework for the Mario Kart 7 Time Trials Communit
 download_page: https://github.com/mainexploit/mk7-tt-revamp/releases
 downloads:
   mk7-tt-revamp.3gx:
-    size: 2002232
+    size: 2000640
     size_str: 1 MiB
     url: https://github.com/mainexploit/mk7-tt-revamp/releases/download/latest/mk7-tt-revamp.3gx
 github: mainexploit/mk7-tt-revamp
@@ -83,12 +83,9 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   <li>Added hotkey filter checks when loading the configuration file</li>
 
-  </ul>
+  <li>Fixed frames desync on time splits during practice mode</li>
 
-  <h1 dir="auto"></h1>
-
-  <p dir="auto"><em>We are attempting to fix the frames being desynced on time splits
-  during practice mode</em></p>'
+  </ul>'
 updated: '2026-07-12T00:08:35Z'
 version: latest
 version_title: v1.0.0
