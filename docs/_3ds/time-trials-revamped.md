@@ -10,7 +10,7 @@ description: This a CTRPluginFramework for the Mario Kart 7 Time Trials Communit
 download_page: https://github.com/mainexploit/mk7-tt-revamp/releases
 downloads:
   mk7-tt-revamp.3gx:
-    size: 2002240
+    size: 2002232
     size_str: 1 MiB
     url: https://github.com/mainexploit/mk7-tt-revamp/releases/download/latest/mk7-tt-revamp.3gx
 github: mainexploit/mk7-tt-revamp
@@ -41,6 +41,14 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   <hr>
 
+  <h3 dir="auto">The plugin can now be installed from <strong><a href="https://universal-team.net/projects/universal-updater"
+  rel="nofollow">Universal-Updater</a></strong></h3>
+
+  <p dir="auto"><em>Make sure to delete any <code class="notranslate">_beta</code>
+  named files as they will conflict with the download</em></p>
+
+  <h1 dir="auto"></h1>
+
   <div class="markdown-alert markdown-alert-important" dir="auto"><p class="markdown-alert-title"
   dir="auto"><svg data-component="Octicon" class="octicon octicon-report mr-2" viewBox="0
   0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 1.75C0
@@ -59,7 +67,7 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   <blockquote>
 
-  <p dir="auto">Latest change: 07/14/2026</p>
+  <p dir="auto">Latest change: 07/15/2026</p>
 
   </blockquote>
 
@@ -77,11 +85,10 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   </ul>
 
-  <h3 dir="auto">The plugin can now be installed from <strong><a href="https://universal-team.net/projects/universal-updater"
-  rel="nofollow">Universal-Updater</a></strong></h3>
+  <h1 dir="auto"></h1>
 
-  <p dir="auto"><em>Make sure to delete any <code class="notranslate">_beta</code>
-  named files as they will conflict with the download</em></p>'
+  <p dir="auto"><em>We are attempting to fix the frames being desynced on time splits
+  during practice mode</em></p>'
 updated: '2026-07-12T00:08:35Z'
 version: latest
 version_title: v1.0.0
