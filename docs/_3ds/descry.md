@@ -12,13 +12,13 @@ description: music tracker + synthesizer for the New Nintendo 3DS — song/chain
 download_page: https://github.com/patausx/descry/releases
 downloads:
   descry.3dsx:
-    size: 448036
-    size_str: 437 KiB
-    url: https://github.com/patausx/descry/releases/download/v1.0.3/descry.3dsx
+    size: 450832
+    size_str: 440 KiB
+    url: https://github.com/patausx/descry/releases/download/v1.0.4/descry.3dsx
   descry.cia:
-    size: 502720
-    size_str: 490 KiB
-    url: https://github.com/patausx/descry/releases/download/v1.0.3/descry.cia
+    size: 504768
+    size_str: 492 KiB
+    url: https://github.com/patausx/descry/releases/download/v1.0.4/descry.cia
 github: patausx/descry
 icon: https://raw.githubusercontent.com/patausx/descry/main/assets/icon.png
 image: https://raw.githubusercontent.com/patausx/descry/main/branding/final/banner_256x128.png
@@ -49,94 +49,177 @@ systems:
 title: descry
 unique_ids:
 - '0xDE5C1'
-update_notes: '<h2 dir="auto">descry v1.0.3</h2>
+update_notes: '<h1 dir="auto">descry v1.0.4 — modes, scopes &amp; housekeeping</h1>
 
-  <h3 dir="auto">added</h3>
+  <h2 dir="auto">record modes done right (issue <a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4863598431" data-permission-text="Title
+  is private" data-url="https://github.com/patausx/descry/issues/5" data-hovercard-type="issue"
+  data-hovercard-url="/patausx/descry/issues/5/hovercard" href="https://github.com/patausx/descry/issues/5">#5</a>)</h2>
 
-  <ul dir="auto">
-
-  <li><strong>in-app manual</strong> — tap the <code class="notranslate">?</code>
-  badge on the bottom screen: an 8-page guide right on the console (basics, global
-  keys, phrase editing, instruments, the full FX command list, performance, sampling).
-  the FX pages are generated from the engine''s own command table, so the help can
-  never drift from what the player executes. (issue <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="4841918632" data-permission-text="Title
-  is private" data-url="https://github.com/patausx/descry/issues/3" data-hovercard-type="issue"
-  data-hovercard-url="/patausx/descry/issues/3/hovercard" href="https://github.com/patausx/descry/issues/3">#3</a>)</li>
-
-  <li><strong>INIT preset</strong> — preset 1 in every synth engine (wavsynth / FM
-  / DSN) is now a true blank patch for building sounds from scratch: FM = DX7-style
-  init voice (single sine carrier), DSN = one saw, filter open, no modulation. old
-  saves are unaffected.</li>
-
-  <li><strong>DSN drum presets</strong> — KICK / SNARE / HAT / TOM analog drum starting
-  points on the DSN voice.</li>
-
-  <li><strong>reverb size + damping</strong> — RSIZ / RDMP in the mixer master strip:
-  room size up to near-self-oscillation feedback plus feedback damping, saved per
-  project (older project files load unchanged).</li>
-
-  <li><strong>key root tap</strong> — the KEY readout is split: tap the left half
-  to cycle the root note, the right half to cycle the scale.</li>
-
-  <li><strong>load confirmation</strong> — loading over unsaved changes now asks first
-  (amber <code class="notranslate">LOAD?</code>, press A again to confirm).</li>
-
-  </ul>
-
-  <h3 dir="auto">fixed</h3>
-
-  <ul dir="auto">
-
-  <li><strong>sample loop modes</strong> — FWDLOOP / REVLOOP with no loop markers
-  set now loop the play window (M8 behaviour) instead of silently doing nothing.</li>
-
-  <li><strong>audio cutout recovery</strong> — a watchdog now recovers the NDSP channel
-  after a silent stall: ~200 ms of unexpected silence = unpause, ~600 ms = full channel
-  re-init.</li>
-
-  <li>phrase R-hint bar no longer overflows the bottom screen.</li>
-
-  </ul>
-
-  <h3 dir="auto">checksums</h3>
-
-  <pre lang="text" class="notranslate"><code class="notranslate">09f92d8e5794878f7429e3e40ab0ed6b411cbe8b6a299de7f11e680419cf1d2c  descry.3dsx
-
-  7ab4d42f36ffd723bae4b6a13557766bff877fe1963cc72243c2b4d062d3ecbf  descry.cia
-
-  79305cf50ee5be5c34ef4316a28200d6d9b093b1942c7c029e9ff6ff565d8291  descry.3ds
-
-  </code></pre>
-
-  <h3 dir="auto">thanks</h3>
-
-  <ul dir="auto">
-
-  <li><strong>lavenderdragon</strong> (discord) — for the detailed feedback round
-  that shaped most of this release: loop behaviour, reverb depth, key handling, load
-  safety, drum presets, audio cutouts.</li>
-
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/Rhlp-Engineering/hovercard"
+  <p dir="auto">the touch keyboard used to <strong>always</strong> write notes in
+  the phrase view — "REC off still records", as <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/Rhlp-Engineering/hovercard"
   data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Rhlp-Engineering">@Rhlp-Engineering</a>
-  — for asking for an in-app manual (issue <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="4841918632" data-permission-text="Title is private" data-url="https://github.com/patausx/descry/issues/3"
-  data-hovercard-type="issue" data-hovercard-url="/patausx/descry/issues/3/hovercard"
-  href="https://github.com/patausx/descry/issues/3">#3</a>). it''s the <code class="notranslate">?</code>
-  badge now.</li>
+  rightly complained. the REC button now cycles three explicit modes:</p>
 
-  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/DoubleSprattt/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/DoubleSprattt">@DoubleSprattt</a>
-  — for continued testing and the hold-to-sustain preview idea.</li>
+  <markdown-accessiblity-table><table role="table">
+
+  <thead>
+
+  <tr>
+
+  <th>mode</th>
+
+  <th>what happens</th>
+
+  </tr>
+
+  </thead>
+
+  <tbody>
+
+  <tr>
+
+  <td><strong>JAM</strong> <em>(default)</em></td>
+
+  <td>keys and pads only preview. nothing is ever written — noodle over a playing
+  song without leaving fingerprints</td>
+
+  </tr>
+
+  <tr>
+
+  <td><strong>WRT</strong></td>
+
+  <td>tracker write mode: notes land at the cursor, cursor advances</td>
+
+  </tr>
+
+  <tr>
+
+  <td><strong>LIVE</strong></td>
+
+  <td>with the transport running, notes are recorded onto the step playing <em>right
+  now</em></td>
+
+  </tr>
+
+  </tbody>
+
+  </table></markdown-accessiblity-table>
+
+  <p dir="auto">and the other half of the report — <em>"i couldn''t find the note
+  clear button"</em> — there''s a <strong>CLR</strong> button next to REC now: in
+  WRT it clears the step under the cursor and advances (tap-tap-tap wipes a run),
+  in LIVE it clears the currently playing step. everything is undoable (ZL+B), and
+  touch-entered notes finally participate in undo too.</p>
+
+  <h2 dir="auto">scope styles</h2>
+
+  <p dir="auto">tap the DESCRY wordmark — under the theme list there''s a new <strong>SCOPE</strong>
+  row:</p>
+
+  <ul dir="auto">
+
+  <li><strong>WAVE</strong> — the classic filled envelope (default)</li>
+
+  <li><strong>BARS</strong> — mirrored peak bars, chunky VU look</li>
+
+  <li><strong>X-Y</strong> — a proper <strong>goniometer</strong>: mid/side-rotated
+  lissajous with auto-gain, connected phosphor-decay trail and CRT-style beam blanking
+  on transients. mono sits as a vertical needle; reverb, detune and panning bloom
+  the figure sideways. gorgeous in fullscreen (L+SELECT)</li>
 
   </ul>
 
-  <p dir="auto"><strong>install:</strong> CIA via FBI (recommended on CFW) · 3DSX
-  from the homebrew launcher · <code class="notranslate">.3ds</code> for flashcarts.
-  New 3DS / New 2DS only.</p>'
-updated: '2026-07-11T10:00:11Z'
-version: v1.0.3
-version_title: descry v1.0.3
+  <p dir="auto">the picker stays open while you choose so the strip reacts live. your
+  pick is remembered.</p>
+
+  <h2 dir="auto">song export, wired up</h2>
+
+  <p dir="auto"><code class="notranslate">render.wav — song export</code> was promised
+  by the manual... but no button ever triggered it. now: <strong>SELECT in the project
+  view</strong> renders the song to <code class="notranslate">sdmc:/3ds/descry/render.wav</code>
+  (up to 60 s, 32 kHz stereo), with a status toast either way.</p>
+
+  <h2 dir="auto">settings that stick</h2>
+
+  <p dir="auto">new <code class="notranslate">settings.cfg</code> replaces <code class="notranslate">theme.cfg</code>
+  (your saved theme migrates automatically). descry now wakes up exactly how you left
+  it: theme, octave, KEYS/PADS/KAOS mode, kaoss X/Y assignments, stick sync, scope
+  style.</p>
+
+  <h2 dir="auto">fixes</h2>
+
+  <ul dir="auto">
+
+  <li><strong>bottom screen flickered / vanished in fullscreen X-Y scope</strong>
+  — the goniometer trail was draining the shared citro2d quad pool on hot transients,
+  silently starving everything drawn after it. hard quad budget + beam blanking +
+  a bigger pool</li>
+
+  <li>in-app manual updated: record modes, groove pattern column (mixer GRV), scope
+  styles</li>
+
+  </ul>
+
+  <h2 dir="auto">files</h2>
+
+  <markdown-accessiblity-table><table role="table">
+
+  <thead>
+
+  <tr>
+
+  <th>file</th>
+
+  <th>use</th>
+
+  </tr>
+
+  </thead>
+
+  <tbody>
+
+  <tr>
+
+  <td><code class="notranslate">descry.3dsx</code></td>
+
+  <td>homebrew launcher</td>
+
+  </tr>
+
+  <tr>
+
+  <td><code class="notranslate">descry.cia</code></td>
+
+  <td>install to home menu (FBI)</td>
+
+  </tr>
+
+  <tr>
+
+  <td><code class="notranslate">descry.3ds</code></td>
+
+  <td>flashcart / citra-azahar</td>
+
+  </tr>
+
+  </tbody>
+
+  </table></markdown-accessiblity-table>
+
+  <blockquote>
+
+  <p dir="auto"><strong>emulator users:</strong> descry needs a real DSP firmware
+  dump — see <a href="https://github.com/patausx/descry/issues/2" data-hovercard-type="issue"
+  data-hovercard-url="/patausx/descry/issues/2/hovercard">issue #2</a> for the dspfirm.cdc
+  setup.</p>
+
+  </blockquote>'
+updated: '2026-07-15T09:23:06Z'
+version: v1.0.4
+version_title: descry v1.0.4
 ---
 descry is a music tracker + synthesizer for the New Nintendo 3DS, in the tradition of LSDj, the Dirtywave M8 and Korg's discontinued DSN-12.
 
