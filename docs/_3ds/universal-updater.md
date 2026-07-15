@@ -29,20 +29,32 @@ nightly:
   download_page: https://github.com/Universal-Team/Universal-Updater/releases/tag/git
   downloads:
     Universal-Updater.3dsx:
-      size: 3008348
+      size: 3007460
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.3dsx
     Universal-Updater.cia:
-      size: 2479040
+      size: 2474944
       size_str: 2 MiB
       url: https://github.com/Universal-Team/Universal-Updater/releases/download/git/Universal-Updater.cia
   qr:
     Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/git/universal-updater-cia.png
-  update_notes: <p dir="auto">TWLBot - Automatic translation import</p>
-  update_notes_md: TWLBot - Automatic translation import
-  updated: '2026-07-15T02:00:57Z'
+  update_notes: '<p dir="auto">Pk11 - Remove nlohmann::json</p>
+
+    <p dir="auto">This is the conclusion(?) to <a class="issue-link js-issue-link"
+    data-error-text="Failed to load title" data-id="4818171403" data-permission-text="Title
+    is private" data-url="https://github.com/Universal-Team/Universal-Updater/issues/203"
+    data-hovercard-type="pull_request" data-hovercard-url="/Universal-Team/Universal-Updater/pull/203/hovercard"
+    href="https://github.com/Universal-Team/Universal-Updater/pull/203">#203</a>,
+    <em>please</em> report any bugs you may find! I''m hopefully there''s no regressions,
+    but I just did a major refactor to the codebase.</p>'
+  update_notes_md: 'Pk11 - Remove nlohmann::json
+
+
+    This is the conclusion(?) to #203, *please* report any bugs you may find! I''m
+    hopefully there''s no regressions, but I just did a major refactor to the codebase.'
+  updated: '2026-07-15T07:07:39Z'
   version: git
-  version_title: Continuous Build - 394b2c6
+  version_title: Continuous Build - 53e629e
 qr:
   Universal-Updater.cia: https://db.universal-team.net/assets/images/qr/universal-updater-cia.png
 screenshots:
