@@ -1,5 +1,5 @@
 ---
-author: Volkan Turkut
+author: MechanicalDragon / Volkan Turkut
 avatar: https://avatars.githubusercontent.com/u/52756666?v=4
 categories:
 - utility
