@@ -10,13 +10,13 @@ description: NetPass allows you to get StreetPasses over the internet
 download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 7811848
+    size: 7820776
     size_str: 7 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/bafaff436f2148d7e2a1a5e3542617317fc10de6/netpass.3dsx?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/6302343e3608386689d14bc46fbd5e5791a7d7da/netpass.3dsx?inline=false
   netpass.cia:
-    size: 7889856
+    size: 7898048
     size_str: 7 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/bafaff436f2148d7e2a1a5e3542617317fc10de6/netpass.cia?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/6302343e3608386689d14bc46fbd5e5791a7d7da/netpass.cia?inline=false
 gitlab: 3ds-netpass/netpass
 icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
@@ -41,7 +41,7 @@ update_notes: '<ul>
   </ul>
 
   '
-updated: '2026-07-14T11:25:59.153Z'
+updated: '2026-07-14T11:25:59.000Z'
 version: v2.0.3
 version_title: v2.0.3
 website: https://netpass.cafe
