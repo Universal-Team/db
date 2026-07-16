@@ -27,7 +27,7 @@ license: mit
 license_name: MIT License
 llm_generation: 'yes'
 source: https://github.com/Dzhmelyk135/Luma3DSWeather
-stars: 2
+stars: 3
 systems:
 - 3DS
 title: Luma3DSWeather

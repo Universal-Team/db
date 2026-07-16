@@ -29,7 +29,7 @@ screenshots:
 - description: Title browser
   url: https://db.universal-team.net/assets/images/screenshots/gridlauncher/title-browser.png
 source: https://github.com/SuperDubious-SmallLabs/GridLauncher
-stars: 5
+stars: 6
 systems:
 - 3DS
 title: GridLauncher

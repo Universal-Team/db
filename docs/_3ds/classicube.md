@@ -29,7 +29,7 @@ llm_generation: unknown
 qr:
   ClassiCube-3ds.cia: https://db.universal-team.net/assets/images/qr/classicube-3ds-cia.png
 source: https://github.com/ClassiCube/ClassiCube
-stars: 2005
+stars: 2006
 systems:
 - 3DS
 title: ClassiCube
