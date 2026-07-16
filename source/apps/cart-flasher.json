@@ -1,0 +1,15 @@
+{
+	"github": "tasken/Cart-Flasher",
+	"author": "Tasken/Nimbo",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"app",
+		"utility"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/tasken/Cart-Flasher/refs/heads/main/resources/icon.png",
+	"image": "https://raw.githubusercontent.com/tasken/Cart-Flasher/main/resources/logo.png",
+	"long_description": "A DS/DSi homebrew application to backup and restore raw flash images to/from Slot-1 flashcarts.\n\nSupports Ace3DS Plus, AK2i, DSTT, R4iSDHC family, and R4i Gold 3DS, in both DS and DSi mode."
+}
