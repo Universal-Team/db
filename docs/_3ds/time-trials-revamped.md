@@ -67,7 +67,7 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   <blockquote>
 
-  <p dir="auto">Latest change: 07/16/2026</p>
+  <p dir="auto">Latest change: 07/17/2026</p>
 
   </blockquote>
 
@@ -85,7 +85,14 @@ update_notes: '<div class="markdown-alert markdown-alert-caution" dir="auto"><p 
 
   <li>Fixed frames desync on time splits during practice mode</li>
 
-  </ul>'
+  </ul>
+
+  <hr>
+
+  <pre class="notranslate"><code class="notranslate">The plugin is getting rewritten
+  for a more stable core system, any updates will be halted till then.
+
+  </code></pre>'
 updated: '2026-07-12T00:08:35Z'
 version: latest
 version_title: v1.0.0
