@@ -13,6 +13,7 @@
 	"systems": [
 		"3DS"
 	],
+        "llm_generation": "no",
 	"scripts": {
 		"Song Files": [
 			{
