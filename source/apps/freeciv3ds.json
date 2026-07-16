@@ -1,0 +1,12 @@
+{
+	"github": "xPsycho999/freeciv3ds",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "yes",
+	"image": "https://raw.githubusercontent.com/xPsycho999/freeciv3ds/main/icons/icon-big.png",
+	"icon": "https://raw.githubusercontent.com/xPsycho999/freeciv3ds/main/icons/icon.png"
+}
