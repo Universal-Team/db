@@ -142,6 +142,7 @@ def retroarchUniStore() -> None:
 			info["authors"].replace("|", ", ") if "authors" in info else "libretro",
 			shorten(info["description"], 200, placeholder="...") if "description" in info else "",
 			info["display_version"] if "display_version" in info else "nightly",
+			"nightly",
 			categories=info["categories"].split("|") if "categories" in info else ["emulator"],
 			consoles=["3DS"],
 			releaseNotes=notes,
