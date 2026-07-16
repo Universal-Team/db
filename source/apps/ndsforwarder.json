@@ -1,6 +1,7 @@
 {
 	"github": "volkanturkut/NDSForwarder",
-		"systems": [
+	"author": "MechanicalDragon / Volkan Turkut",
+	"systems": [
 		"3DS"
 	],
 	"categories": [
