@@ -99,7 +99,7 @@ prerelease:
   version: 4.2.6-161-ge1e0b0530
   version_title: 4.2.6-161-ge1e0b0530
 source: https://github.com/angband/angband
-stars: 1534
+stars: 1535
 systems:
 - 3DS
 - DS
