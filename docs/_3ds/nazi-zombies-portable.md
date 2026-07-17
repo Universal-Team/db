@@ -35,7 +35,7 @@ screenshots:
 - description: Map selection
   url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/map-selection.png
 source: https://github.com/nzp-team/nzportable
-stars: 762
+stars: 763
 systems:
 - 3DS
 title: 'Nazi Zombies: Portable'
