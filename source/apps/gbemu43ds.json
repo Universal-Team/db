@@ -1,0 +1,17 @@
+{
+	"github": "TS-DEV-DEBUG-V2/GBEMU43DS",
+	"description": "Gameboy emulator for the 3DS with lots of features like gameshark codes, game genie codes, gameboy printer emulator, and more 2 come !!",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/TS-DEV-DEBUG-V2/GBEMU43DS/refs/heads/main/icon.png",
+	"image": "https://raw.githubusercontent.com/TS-DEV-DEBUG-V2/GBEMU43DS/refs/heads/main/banner.png",
+	"unique_ids": [
+		371003
+	],
+	"long_description": "# Good gameboy emulator (in dev but it's still good)\n# please star the repo if you liked it !! \n# i put lots of work into it"
+}
