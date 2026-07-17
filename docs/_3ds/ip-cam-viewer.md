@@ -30,7 +30,7 @@ llm_generation: unknown
 qr:
   ipwebcv.cia: https://db.universal-team.net/assets/images/qr/ipwebcv-cia.png
 source: https://github.com/MC-Gaming-59o/Homebrew-3DS-IP-Webcam-Viewer
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: IP-Cam Viewer
