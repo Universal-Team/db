@@ -23,6 +23,8 @@ icon: https://raw.githubusercontent.com/TS-DEV-DEBUG-V2/GBEMU43DS/refs/heads/mai
 image: https://raw.githubusercontent.com/TS-DEV-DEBUG-V2/GBEMU43DS/refs/heads/main/banner.png
 image_length: 11823
 layout: app
+license: gpl-3.0
+license_name: GNU General Public License v3.0
 llm_generation: minor
 qr:
   gbemu-3ds.cia: https://db.universal-team.net/assets/images/qr/gbemu-3ds-cia.png
