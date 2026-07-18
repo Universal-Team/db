@@ -11,13 +11,13 @@ description: A 3DS music player with modern features
 download_page: https://github.com/narayanx/Canary3DS/releases
 downloads:
   Canary.3dsx:
-    size: 3449960
+    size: 3475380
     size_str: 3 MiB
-    url: https://github.com/narayanx/Canary3DS/releases/download/v1.2.0/Canary.3dsx
+    url: https://github.com/narayanx/Canary3DS/releases/download/v1.2.1/Canary.3dsx
   Canary.cia:
-    size: 2819008
+    size: 2835392
     size_str: 2 MiB
-    url: https://github.com/narayanx/Canary3DS/releases/download/v1.2.0/Canary.cia
+    url: https://github.com/narayanx/Canary3DS/releases/download/v1.2.1/Canary.cia
 github: narayanx/Canary3DS
 icon: https://raw.githubusercontent.com/narayanx/Canary3DS/main/assets/icon.png
 image: https://raw.githubusercontent.com/narayanx/Canary3DS/main/assets/banner.png
@@ -39,19 +39,13 @@ update_notes: '<h2 dir="auto">Added</h2>
 
   <ul dir="auto">
 
-  <li>Speed and pitch controls. Thanks <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/EmbersFlying/hovercard" data-octo-click="hovercard-link-click"
+  <li>More filebrowser sorting options. Thanks <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/EmbersFlying/hovercard" data-octo-click="hovercard-link-click"
   data-octo-dimensions="link_type:self" href="https://github.com/EmbersFlying">@EmbersFlying</a>
   for the suggestion! (<a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="4789659598" data-permission-text="Title is private" data-url="https://github.com/narayanx/Canary3DS/issues/1"
-  data-hovercard-type="issue" data-hovercard-url="/narayanx/Canary3DS/issues/1/hovercard"
-  href="https://github.com/narayanx/Canary3DS/issues/1">#1</a>)</li>
-
-  <li>Offline scrobbler.log support (must be enabled in settings)</li>
-
-  <li>Fallback to cover image in same folder as song when no embedded art found</li>
-
-  <li>Setting to lock shoulder buttons</li>
+  to load title" data-id="4883313883" data-permission-text="Title is private" data-url="https://github.com/narayanx/Canary3DS/issues/8"
+  data-hovercard-type="issue" data-hovercard-url="/narayanx/Canary3DS/issues/8/hovercard"
+  href="https://github.com/narayanx/Canary3DS/issues/8">#8</a>)</li>
 
   </ul>
 
@@ -59,15 +53,7 @@ update_notes: '<h2 dir="auto">Added</h2>
 
   <ul dir="auto">
 
-  <li>Reworked shuffle button to have toggleable state. Thanks <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/Delsune/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Delsune">@Delsune</a>
-  for the suggestion! (<a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="4833261112" data-permission-text="Title is private" data-url="https://github.com/narayanx/Canary3DS/issues/5"
-  data-hovercard-type="issue" data-hovercard-url="/narayanx/Canary3DS/issues/5/hovercard"
-  href="https://github.com/narayanx/Canary3DS/issues/5">#5</a>)</li>
-
-  <li>Switched order of music folder context menu options in settings</li>
+  <li>Speed and pitch settings to use the soundtouch library</li>
 
   </ul>
 
@@ -75,11 +61,20 @@ update_notes: '<h2 dir="auto">Added</h2>
 
   <ul dir="auto">
 
-  <li>Better handling when pressing <code class="notranslate">A</code> button on unplayable
-  song</li>
+  <li>Song cover art on mp3 files not defaulting to first when multiple covers present.
+  Thanks <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/EmbersFlying/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/EmbersFlying">@EmbersFlying</a>
+  for reporting! (<a class="issue-link js-issue-link" data-error-text="Failed to load
+  title" data-id="4913201331" data-permission-text="Title is private" data-url="https://github.com/narayanx/Canary3DS/issues/9"
+  data-hovercard-type="issue" data-hovercard-url="/narayanx/Canary3DS/issues/9/hovercard"
+  href="https://github.com/narayanx/Canary3DS/issues/9">#9</a>)</li>
+
+  <li>UI stuttering when quickly changing speed/pitch</li>
+
+  <li>Mono mp3 files playing faster than they should</li>
 
   </ul>'
-updated: '2026-07-13T20:03:38Z'
-version: v1.2.0
-version_title: Canary v1.2.0
+updated: '2026-07-18T22:47:22Z'
+version: v1.2.1
+version_title: Canary v1.2.1
 ---
