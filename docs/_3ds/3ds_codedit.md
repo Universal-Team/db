@@ -4,6 +4,8 @@ avatar: https://avatars.githubusercontent.com/u/98664178?v=4
 categories:
 - utility
 - app
+color: '#a2c4e4'
+color_bg: '#5b6e80'
 created: '2026-03-29T04:57:04Z'
 description: 3DS CodEdit is a code-first editor and project workspace for Nintendo
   3DS. It combines a lightweight multi-tab text editor, project Git workflow, file

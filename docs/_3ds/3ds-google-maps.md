@@ -24,7 +24,7 @@ license: mit
 license_name: MIT License
 llm_generation: unknown
 source: https://github.com/Oldhimaster1/3ds-Google-Maps
-stars: 4
+stars: 6
 systems:
 - 3DS
 title: 3ds Google Maps
