@@ -34,6 +34,7 @@ update_notes: '<p dir="auto">Yea here are the patches.<br>
 updated: '2023-08-22T17:19:59Z'
 version: main
 version_title: Initial release lol.
+wiki: https://github.com/TehFridge/ShutTheCamUp/wiki
 ---
 # DISCLAIMER
 I do not condone any misuses of this patch for malicious purposes or whatever.
@@ -54,17 +55,17 @@ Yup. there are two seperate patches individually for the new and old model of th
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>Install the patch (New 3DS/2DS)</summary>
-<ol>
-<li>Download <code>new3ds.ips</code> to <code>/luma/titles/0004013000001602/code.ips</code> on your SD card</li>
-<li>Download <code>new3ds.ips</code> to <code>/luma/sysmodules/0004013000001602.ips</code> on your SD card</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>Install the patch (Old 3DS/2DS)</summary>
 <ol>
 <li>Download <code>old3ds.ips</code> to <code>/luma/titles/0004013000001602/code.ips</code> on your SD card</li>
 <li>Download <code>old3ds.ips</code> to <code>/luma/sysmodules/0004013000001602.ips</code> on your SD card</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>Install the patch (New 3DS/2DS)</summary>
+<ol>
+<li>Download <code>new3ds.ips</code> to <code>/luma/titles/0004013000001602/code.ips</code> on your SD card</li>
+<li>Download <code>new3ds.ips</code> to <code>/luma/sysmodules/0004013000001602.ips</code> on your SD card</li>
 </ol>
 </details>
 

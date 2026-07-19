@@ -29,7 +29,7 @@ llm_generation: minor
 qr:
   gbemu-3ds.cia: https://db.universal-team.net/assets/images/qr/gbemu-3ds-cia.png
 source: https://github.com/TS-DEV-DEBUG-V2/GBEMU43DS
-stars: 1
+stars: 0
 systems:
 - 3DS
 title: GBEMU43DS
