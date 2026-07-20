@@ -26,7 +26,7 @@ llm_generation: 'yes'
 qr:
   Tunez3DS.cia: https://db.universal-team.net/assets/images/qr/tunez3ds-cia.png
 source: https://github.com/uchumeow/Tunez-3DS
-stars: 6
+stars: 7
 systems:
 - 3DS
 title: Tunez3DS
