@@ -12,13 +12,13 @@ description: Collab Doodle is a simple drawing application designed for the Nint
 download_page: https://github.com/ArmstrongThomas/Doodle/releases
 downloads:
   CollabDoodle-update.3dsx:
-    size: 317064
-    size_str: 309 KiB
-    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.3.3/CollabDoodle-update.3dsx
+    size: 355152
+    size_str: 346 KiB
+    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.4.0/CollabDoodle-update.3dsx
   CollabDoodle-update.cia:
-    size: 269760
-    size_str: 263 KiB
-    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.3.3/CollabDoodle-update.cia
+    size: 322496
+    size_str: 314 KiB
+    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.4.0/CollabDoodle-update.cia
 github: ArmstrongThomas/Doodle
 icon: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
@@ -37,34 +37,62 @@ stars: 8
 systems:
 - 3DS
 title: Collab Doodle
-update_notes: '<p dir="auto">Collab Doodle 1.3.3</p>
+update_notes: '<h1 dir="auto">Collab Doodle 1.4.0</h1>
 
-  <p dir="auto">Text chat has been removed so Collab Doodle can stay focused on shared
-  drawing.</p>
+  <p dir="auto">Collab Doodle 1.4.0 makes it easier to get help, stay connected, and
+  keep an eye on your system while drawing.</p>
 
-  <p dir="auto">What''s new:</p>
+  <h2 dir="auto">What''s new</h2>
 
   <ul dir="auto">
 
-  <li>Added a dedicated eraser tool.</li>
+  <li><strong>Private support tickets on Nintendo 3DS:</strong> Submit unban requests,
+  bug reports, and feature requests, then follow the conversation and reply from the
+  client.</li>
 
-  <li>Hold L or R to temporarily switch to the eraser, then release to return to your
-  previous brush.</li>
+  <li><strong>Staff ticket tools:</strong> Moderators and administrators can review
+  queues, reply, update ticket status, and handle unban requests directly from a 3DS.
+  The server admin panel includes the same ticket-management workflow.</li>
 
-  <li>Added Circle Pad panning support.</li>
+  <li><strong>Clearer network moderation:</strong> IP and hardware-ID bans now appear
+  directly on affected identities in the admin panel, including their action and expiration.</li>
 
-  <li>Improved the dither brush.</li>
+  <li><strong>Private staff chat:</strong> Staff can share persistent, fully logged
+  text updates from the 3DS or admin panel. New ticket replies and staff-chat messages
+  have separate unread counters.</li>
 
-  <li>A random drawing color is chosen when the app starts.</li>
+  <li><strong>Reliable reconnecting:</strong> Reopen the system after sleep or recover
+  from a dropped connection without restarting Collab Doodle. Reconnecting performs
+  a fresh version check and reloads the current canvas state.</li>
 
-  <li>Color sampling with Up or X now updates the color picker correctly.</li>
+  <li><strong>Top-bar system status:</strong> The 3DS client now shows the console''s
+  local time, Wi-Fi signal strength, and live battery percentage.</li>
 
-  <li>Added better disconnect handling, including a popup when the app loses connection.</li>
+  <li><strong>Clear restriction information:</strong> Timed mutes and bans show how
+  long remains, and muted users receive a visible explanation instead of a silent
+  drawing failure.</li>
 
-  <li>Updated the rules/tutorial flow and controls text.</li>
+  <li><strong>Moderator rainbow pen:</strong> Moderators and administrators can use
+  the rainbow drawing mode from the 3DS tool palette.</li>
 
-  </ul>'
-updated: '2026-06-30T16:26:21Z'
-version: v1.3.3
-version_title: v1.3.3 Return to roots.
+  </ul>
+
+  <p dir="auto">Ticket conversations and staff chat remain private and never appear
+  in canvases, the public gallery, or public chat.</p>
+
+  <h2 dir="auto">Downloads</h2>
+
+  <ul dir="auto">
+
+  <li><code class="notranslate">CollabDoodle.3dsx</code> for the Homebrew Launcher</li>
+
+  <li><code class="notranslate">CollabDoodle.cia</code> for installed-title users</li>
+
+  </ul>
+
+  <p dir="auto">Existing supported clients can also install the update through Collab
+  Doodle''s built-in updater.</p>'
+updated: '2026-07-20T23:16:05Z'
+version: v1.4.0
+version_title: v1.4.0 - Tickets and more!
 ---
