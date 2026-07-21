@@ -9,7 +9,7 @@
 		"app",
 		"media"
 	],
-	"site": "https://3DSoundShell.hosten.uk",
+	"website": "https://3DSoundShell.hosten.uk",
 	"icon": "https://raw.githubusercontent.com/Adritrain09/3DSoundShell/main/3DSoundShell.png",
 	"image": "https://raw.githubusercontent.com/Adritrain09/3DSoundShell/main/romfs/gfx/banner.png",
 	"llm_generation": "yes",
