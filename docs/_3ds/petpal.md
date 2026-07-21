@@ -11,13 +11,13 @@ description: 'A virtual StreePass pet for Nintendo 3DS '
 download_page: https://github.com/PetPal-Team/PetPal/releases
 downloads:
   PetPal.3dsx:
-    size: 31234376
+    size: 31234380
     size_str: 29 MiB
-    url: https://github.com/PetPal-Team/PetPal/releases/download/v0.1.4/PetPal.3dsx
+    url: https://github.com/PetPal-Team/PetPal/releases/download/0.1.5/PetPal.3dsx
   PetPal.cia:
     size: 31404992
     size_str: 29 MiB
-    url: https://github.com/PetPal-Team/PetPal/releases/download/v0.1.4/PetPal.cia
+    url: https://github.com/PetPal-Team/PetPal/releases/download/0.1.5/PetPal.cia
 github: PetPal-Team/PetPal
 icon: https://raw.githubusercontent.com/PetPal-Team/PetPal/refs/heads/main/Pet%20Pal.png
 image: https://raw.githubusercontent.com/PetPal-Team/PetPal/refs/heads/main/banner.png
@@ -42,39 +42,29 @@ systems:
 title: PetPal
 unique_ids:
 - '0xF00D5'
-update_notes: '<h1 dir="auto">PetPal v0.1.4</h1>
+update_notes: '<h1 dir="auto">PetPal v0.1.5 — 3DS</h1>
 
-  <p dir="auto"><strong>The care, play &amp; profiles release.</strong> Your pet now
-  has real needs and moods, a daily care streak, a quick arcade minigame, badges by
-  its name — and a linked 3DS + phone finally share the <em>same pet</em>, not just
-  the same identity.</p>
+  <p dir="auto">A small but important fix for cross-device play.</p>
 
-  <h2 dir="auto">✨ New</h2>
+  <h2 dir="auto">🐛 Fixed</h2>
 
   <ul dir="auto">
 
-  <li><strong>Needs, moods &amp; Rest</strong> — happiness, energy, and a new <strong>hunger</strong>
-  need now drain in real time (even while the app is closed). Your pet shows a live
-  <strong>mood</strong> — Happy, Content, Hungry, Tired, or Sad — on the Pet screen.
-  Feeding fills the belly, and a new <strong>Rest</strong> action restores energy.</li>
+  <li><strong>Cross-device pet sync is now reliable.</strong> When your 3DS uploads
+  its pet to a<br>
 
-  <li><strong>Daily care streak</strong> — tend your pet at least once a day to build
-  a streak. Every 7 days pays out a <strong>coin bonus</strong>. Your current streak
-  shows right on the Pet screen.</li>
+  linked phone account, it now records the <strong>server''s</strong> timestamp as
+  its sync<br>
 
-  <li><strong>Star Tap minigame</strong> — press <strong>Y</strong> on the Pet screen
-  to play a quick reaction game. Tap the target before the timer runs out for <strong>coins
-  and a happiness boost</strong>.</li>
+  marker instead of the console''s own clock. Previously, if your 3DS''s date/time<br>
 
-  <li><strong>Cross-device pet continuity</strong> — a linked 3DS and PetPal Android
-  app now keep the <strong>same pet in sync</strong> (name, species, stage, level,
-  and stats), reconciled automatically each time you open the app. (v0.1.3 linked
-  only the identity; v0.1.4 syncs the actual pet.)</li>
+  was wrong — common on modded consoles — the "which device has the newer pet?"<br>
 
-  <li><strong>Profile badges</strong> — server-assigned tags shown next to your pet''s
-  name: <strong>Owner, Developer, Network Mod, Helper, Support Team, Testing Bot</strong>,
-  plus an automatic <strong>1-Year-Club</strong> badge once your account turns a year
-  old. Badges appear on both the 3DS and Android.</li>
+  check could get stuck, so changes from your phone might never reach the 3DS<br>
+
+  (or vice-versa). Linking and continuity now work correctly no matter what your<br>
+
+  console clock says.</li>
 
   </ul>
 
@@ -82,29 +72,40 @@ update_notes: '<h1 dir="auto">PetPal v0.1.4</h1>
 
   <ul dir="auto">
 
-  <li><strong>Pet screen top display</strong> now shows your pet''s mood, a hunger
-  bar, your care streak, and any profile badges alongside the existing stats.</li>
-
-  <li><strong>Phone linking</strong> is more robust — the console keeps its own credential
-  after linking, which is what enables two-way pet syncing.</li>
-
-  <li>Settings now reports <strong>version 0.1.4</strong>.</li>
+  <li>Version bumped to <strong>0.1.5</strong>.</li>
 
   </ul>
 
   <h2 dir="auto">⬆️ Upgrade</h2>
 
-  <p dir="auto">Same title ID as v0.1.3 — installs as a standard update. Your existing
-  save is safe and <strong>upgrades automatically</strong> (save format v3 → v4) on
-  first launch. No reset needed.</p>
+  <ul dir="auto">
 
-  <hr>
+  <li>Same title ID and same save format (<strong>v4</strong>) — installs as a standard
+  update.<br>
 
-  <p dir="auto"><em>Requires a modded 3DS. Online features (passes, linking, badges)
-  need an internet connection. Not affiliated with Nintendo.</em></p>'
-updated: '2026-07-17T22:45:33Z'
-version: v0.1.4
-version_title: PetPal v0.1.4 Public
+  Your existing pet and save are untouched; no reset needed.</li>
+
+  </ul>
+
+  <h2 dir="auto">ℹ️ Note</h2>
+
+  <ul dir="auto">
+
+  <li>The rest of this release — the level-up rebalance, real achievements,<br>
+
+  adventure-based meeting, friend requests, and the new Shop &amp; Customize<br>
+
+  screens — arrived in the <strong>PetPal Android</strong> companion app and the server.
+  Your<br>
+
+  3DS shares the same account and relay, so a linked pet syncs and passes right<br>
+
+  alongside them.</li>
+
+  </ul>'
+updated: '2026-07-21T22:05:08Z'
+version: 0.1.5
+version_title: PetPal 0.1.5 Public
 website: https://teampetpal.com
 wiki: https://teampetpal.com/wiki
 ---
