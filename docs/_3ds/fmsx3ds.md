@@ -27,7 +27,7 @@ license: other
 license_name: Other
 llm_generation: unknown
 source: https://github.com/TomiokaH01/fMSX3DS
-stars: 15
+stars: 16
 systems:
 - 3DS
 title: fMSX3DS
