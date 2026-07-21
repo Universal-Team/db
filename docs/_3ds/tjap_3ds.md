@@ -23,6 +23,54 @@ image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resourc
 image_length: 17026
 layout: app
 llm_generation: unknown
+prerelease:
+  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.3.1-pre
+  downloads:
+    TJAP_3DS.3dsx:
+      size: 10396080
+      size_str: 9 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.1-pre/TJAP_3DS.3dsx
+    TJAP_3DS.cia:
+      size: 10568640
+      size_str: 10 MiB
+      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.1-pre/TJAP_3DS.cia
+  qr:
+    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
+  update_notes: '<h2 dir="auto">チェンジログ</h2>
+
+    <ul dir="auto">
+
+    <li>双打時にリプレイ機能が動作しなくなる不具合の修正</li>
+
+    <li><code class="notranslate">#NEXTSONG</code>の仮対応</li>
+
+    </ul>
+
+    <h2 dir="auto">Change log</h2>
+
+    <ul dir="auto">
+
+    <li>Fixed a bug that prevented the replay function from working during double
+    hits</li>
+
+    <li>Temporary support for <code class="notranslate">#NEXTSONG</code></li>
+
+    </ul>'
+  update_notes_md: '## チェンジログ
+
+    - 双打時にリプレイ機能が動作しなくなる不具合の修正
+
+    - `#NEXTSONG`の仮対応
+
+
+    ## Change log
+
+    - Fixed a bug that prevented the replay function from working during double hits
+
+    - Temporary support for `#NEXTSONG`'
+  updated: '2026-07-20T23:03:24Z'
+  version: v2.3.1-pre
+  version_title: TJAPlayer for 3DS v2.3.1
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
