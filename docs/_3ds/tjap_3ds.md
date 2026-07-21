@@ -10,67 +10,19 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 10395512
+    size: 10396008
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.0/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.1/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 10568640
     size_str: 10 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.0/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.1/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
 image_length: 17026
 layout: app
 llm_generation: unknown
-prerelease:
-  download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.3.1-pre
-  downloads:
-    TJAP_3DS.3dsx:
-      size: 10396080
-      size_str: 9 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.1-pre/TJAP_3DS.3dsx
-    TJAP_3DS.cia:
-      size: 10568640
-      size_str: 10 MiB
-      url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.1-pre/TJAP_3DS.cia
-  qr:
-    TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
-  update_notes: '<h2 dir="auto">チェンジログ</h2>
-
-    <ul dir="auto">
-
-    <li>双打時にリプレイ機能が動作しなくなる不具合の修正</li>
-
-    <li><code class="notranslate">#NEXTSONG</code>の仮対応</li>
-
-    </ul>
-
-    <h2 dir="auto">Change log</h2>
-
-    <ul dir="auto">
-
-    <li>Fixed a bug that prevented the replay function from working during double
-    hits</li>
-
-    <li>Temporary support for <code class="notranslate">#NEXTSONG</code></li>
-
-    </ul>'
-  update_notes_md: '## チェンジログ
-
-    - 双打時にリプレイ機能が動作しなくなる不具合の修正
-
-    - `#NEXTSONG`の仮対応
-
-
-    ## Change log
-
-    - Fixed a bug that prevented the replay function from working during double hits
-
-    - Temporary support for `#NEXTSONG`'
-  updated: '2026-07-20T23:03:24Z'
-  version: v2.3.1-pre
-  version_title: TJAPlayer for 3DS v2.3.1
 qr:
   TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/tjap_3ds-cia.png
 screenshots:
@@ -89,42 +41,24 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>HBSCROLLの試験的実装<br>
+  <li>双打時にリプレイ機能が動作しなくなる不具合の修正</li>
 
-  太鼓さん次郎のHBSCROLLを真似て実装する予定なのでかなりの時間と協力が必要です。<br>
-
-  <a href="https://github.com/LuMariGames/TJAP_3DS/fork">Fork</a>を使用して実装の協力をしてくれた人にはゲーム内クレジットに記載をします。</li>
-
-  <li>割れない風船音符の配点処理を追加</li>
-
-  <li><code class="notranslate">TOTAL:(int)</code>タグの実装</li>
-
-  <li>譜面ロード時にShift-JISからUTF-8へ自動変換処理の追加</li>
+  <li><code class="notranslate">#NEXTSONG</code>の仮対応</li>
 
   </ul>
 
-  <h2 dir="auto">Changelog</h2>
+  <h2 dir="auto">Change log</h2>
 
   <ul dir="auto">
 
-  <li>Experimental implementation of HBSCROLL.<br>
+  <li>Fixed a bug that prevented the replay function from working during double hits</li>
 
-  I plan to implement this by imitating Taiko-san Jiro''s HBSCROLL, so it will require
-  a considerable amount of time and cooperation.<br>
-
-  Those who helped implement the project using <a href="https://github.com/LuMariGames/TJAP_3DS/fork">Fork</a>
-  will be credited in-game.</li>
-
-  <li>Added scoring processing for unbursting balloon notes.</li>
-
-  <li>Implementation of the <code class="notranslate">TOTAL:(int)</code> tag.</li>
-
-  <li>Added an automatic conversion process from Shift-JIS to UTF-8 when loading chart.</li>
+  <li>Temporary support for <code class="notranslate">#NEXTSONG</code></li>
 
   </ul>'
-updated: '2026-06-19T23:23:10Z'
-version: v2.3.0
-version_title: TJAPlayer for 3DS v2.3.0
+updated: '2026-07-20T23:03:24Z'
+version: v2.3.1
+version_title: TJAPlayer for 3DS v2.3.1
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
