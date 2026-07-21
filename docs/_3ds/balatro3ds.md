@@ -21,6 +21,50 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: unknown
+prerelease:
+  download_page: https://github.com/idkhan/Balatro3DS/releases/tag/v1.2.1-testing
+  downloads:
+    Balatro3DS.3dsx:
+      size: 14191701
+      size_str: 13 MiB
+      url: https://github.com/idkhan/Balatro3DS/releases/download/v1.2.1-testing/Balatro3DS.3dsx
+  update_notes: '<h3 dir="auto">Control Overhaul - Again</h3>
+
+    <p dir="auto">Please Read the How to Play Menu to learn the new controls<br>
+
+    The new controls feel a lot more intuitive, thanks to <a class="user-mention notranslate"
+    data-hovercard-type="user" data-hovercard-url="/users/Hal-V5/hovercard" data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self" href="https://github.com/Hal-V5">@Hal-V5</a></p>
+
+    <h3 dir="auto">Bugfixes</h3>
+
+    <ul dir="auto">
+
+    <li>The House Boss blind wasn''t working</li>
+
+    <li>Diet Cola used the wrong sprite</li>
+
+    <li>Removed the possibility of having negative Mult or negative Chips</li>
+
+    </ul>'
+  update_notes_md: '### Control Overhaul - Again
+
+
+    Please Read the How to Play Menu to learn the new controls
+
+    The new controls feel a lot more intuitive, thanks to @Hal-V5
+
+
+    ### Bugfixes
+
+    - The House Boss blind wasn''t working
+
+    - Diet Cola used the wrong sprite
+
+    - Removed the possibility of having negative Mult or negative Chips'
+  updated: '2026-07-21T11:47:23Z'
+  version: v1.2.1-testing
+  version_title: Version 1.2.1 Pre-Release
 source: https://github.com/idkhan/Balatro3DS
 stars: 116
 systems:
