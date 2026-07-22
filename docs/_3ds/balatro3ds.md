@@ -64,7 +64,7 @@ prerelease:
     - Removed the possibility of having negative Mult or negative Chips'
   updated: '2026-07-21T11:47:23Z'
   version: v1.2.1-testing
-  version_title: Version 1.2.1 Pre-Release
+  version_title: Alpha 1.2.1 Pre-Release
 source: https://github.com/idkhan/Balatro3DS
 stars: 116
 systems:
