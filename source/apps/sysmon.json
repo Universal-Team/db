@@ -1,0 +1,18 @@
+{
+	"github": "Just-a-Spider/SysMon",
+	"description": "Vide-coded app that allows to see RAM, GPU and CPU stats from a linux PC in a browser or a 3DS console.",
+	"author": "Just-a-Spider",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/Just-a-Spider/SysMon/refs/heads/main/sysmon-3ds/icon.png",
+	"image": "https://raw.githubusercontent.com/Just-a-Spider/SysMon/refs/heads/main/sysmon-3ds/banner.png",
+	"unique_ids": [
+		4919
+	],
+	"long_description": "**IMPORTANT: This app requires the companion server to be running on your PC!**\n\nSysMon is a hardware monitor and macro executor that turns your Nintendo 3DS into a secondary dashboard for your PC.\n\n### Features\n* **Live Telemetry:** View your PC's CPU/GPU temperatures, RAM usage, and Fan speeds in real-time on the top screen.\n* **Process Manager:** View the heaviest processes running on your PC and tap them to instantly kill frozen applications.\n* **Productivity:** Includes a built-in Pomodoro timer to help you focus.\n* **Media Controls:** Native MPRIS integration to play, pause, and skip music running on your host system.\n* **Custom Macros:** Map your physical 3DS buttons (A, B, X, Y) or on-screen touch buttons to execute bash scripts, terminal commands, or keyboard shortcuts directly on your PC.\n\n**Setup Instructions:**\nTo use this app, you must download and run the lightweight `sysmon-server` background service on your PC (currently supports Linux).\n\nVisit the official [GitHub Repository](https://github.com/Just-a-Spider/SysMon) to download the server and for complete configuration instructions"
+}
