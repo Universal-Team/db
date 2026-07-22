@@ -32,7 +32,6 @@ qr:
 screenshots:
 - description: Presentation
   url: https://db.universal-team.net/assets/images/screenshots/3dsoundshell/presentation.png
-site: https://3DSoundShell.hosten.uk
 source: https://github.com/Adritrain09/3DSoundShell
 stars: 2
 systems:
@@ -48,6 +47,7 @@ update_notes: '<p dir="auto">V0.95 - version en test (grosse opti de l''audio, a
 updated: '2026-06-02T16:07:45Z'
 version: Alpha
 version_title: 3DSoundShell - V0.95 - Alpha
+website: https://3DSoundShell.hosten.uk
 ---
 Un lecteur de music et d'audio avec des equaliseurs visuel, des equalisers audio, une interfaces acceptant la 3D, la possibilité de changer la vitesse de la music/audio, d'avoir des themes customs (lire le GitHub et aller sur le site indiquer sur la page de l'app ou sur le GitHub), une playlist pour écouter que les musiques favorie et et bien plus! (Cette application a était faite avec de l'IA, elle n'est donc pas parfaite et je n'ai pas les compétence pour coder moi même l'application, si vous rencontrez des bugs merci de bien vouloir les signaler sur le site officiel 3DSoundShell)
 
