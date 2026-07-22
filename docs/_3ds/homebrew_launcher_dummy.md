@@ -22,7 +22,7 @@ llm_generation: 'no'
 qr:
   Homebrew_Launcher.cia: https://db.universal-team.net/assets/images/qr/homebrew_launcher-cia.png
 source: https://github.com/PabloMK7/homebrew_launcher_dummy
-stars: 375
+stars: 376
 systems:
 - 3DS
 title: homebrew_launcher_dummy

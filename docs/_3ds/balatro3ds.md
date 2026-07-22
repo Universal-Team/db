@@ -10,9 +10,9 @@ description: A fanmade Balatro clone for the 3DS
 download_page: https://github.com/idkhan/Balatro3DS/releases
 downloads:
   Balatro3DS.3dsx:
-    size: 14174299
+    size: 14230066
     size_str: 13 MiB
-    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.2.0-alpha/Balatro3DS.3dsx
+    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.2.1-alpha/Balatro3DS.3dsx
 github: idkhan/Balatro3DS
 icon: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/resources/textures/1x/icon.png
 image: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/banner.png
@@ -21,50 +21,6 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: unknown
-prerelease:
-  download_page: https://github.com/idkhan/Balatro3DS/releases/tag/v1.2.1-testing
-  downloads:
-    Balatro3DS.3dsx:
-      size: 14191701
-      size_str: 13 MiB
-      url: https://github.com/idkhan/Balatro3DS/releases/download/v1.2.1-testing/Balatro3DS.3dsx
-  update_notes: '<h3 dir="auto">Control Overhaul - Again</h3>
-
-    <p dir="auto">Please Read the How to Play Menu to learn the new controls<br>
-
-    The new controls feel a lot more intuitive, thanks to <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/Hal-V5/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/Hal-V5">@Hal-V5</a></p>
-
-    <h3 dir="auto">Bugfixes</h3>
-
-    <ul dir="auto">
-
-    <li>The House Boss blind wasn''t working</li>
-
-    <li>Diet Cola used the wrong sprite</li>
-
-    <li>Removed the possibility of having negative Mult or negative Chips</li>
-
-    </ul>'
-  update_notes_md: '### Control Overhaul - Again
-
-
-    Please Read the How to Play Menu to learn the new controls
-
-    The new controls feel a lot more intuitive, thanks to @Hal-V5
-
-
-    ### Bugfixes
-
-    - The House Boss blind wasn''t working
-
-    - Diet Cola used the wrong sprite
-
-    - Removed the possibility of having negative Mult or negative Chips'
-  updated: '2026-07-21T11:47:23Z'
-  version: v1.2.1-testing
-  version_title: Alpha 1.2.1 Pre-Release
 source: https://github.com/idkhan/Balatro3DS
 stars: 116
 systems:
@@ -74,7 +30,14 @@ update_notes: '<h3 dir="auto">Features:</h3>
 
   <ul dir="auto">
 
-  <li>Revamped Gamepad Controls - Please read the How to Play section for more information</li>
+  <li>Adds controls menu and rebinds.</li>
+
+  <li>Enhancement dependent Jokers now only appear when the respective enhanced card
+  is in the deck.</li>
+
+  <li>Improved Negative Joker Sprites</li>
+
+  <li>Added Nope and Extinct Messages</li>
 
   </ul>
 
@@ -82,20 +45,30 @@ update_notes: '<h3 dir="auto">Features:</h3>
 
   <ul dir="auto">
 
-  <li>Fixed Booster packs having owned Jokers</li>
+  <li>Fixed the tooltips not disappearing</li>
 
-  <li>Fixed the very large drag zone for Buy and Use</li>
+  <li>Fixed Joker and Consumable panels losing focus</li>
 
-  <li>Pareidolia Joker was debuffing all cards in a boss blind</li>
+  <li>Fixed the Throwback Joker not working</li>
 
-  <li>Smeared Joker was not working correctly</li>
+  <li>Fixed the Steel Joker not updating its tooltip</li>
 
-  <li>New runs started with Vampire, fixed it.</li>
+  <li>Removed being able to shift focus from Jokers and Consumables panels when they''re
+  down</li>
+
+  <li>Joker Win Data is now properly stored</li>
+
+  <li>Diet Cola used the wrong sprite,</li>
+
+  <li>Fixed House Blind not working, some other boss blinds early returned causing
+  their ability to not trigger</li>
+
+  <li>Fixed Crimson Heart picking the same Joker twice and switching Jokers on Discard</li>
 
   </ul>'
-updated: '2026-07-15T21:14:35Z'
-version: v1.2.0-alpha
-version_title: Alpha 1.2.0
+updated: '2026-07-22T12:48:24Z'
+version: v1.2.1-alpha
+version_title: Alpha 1.2.1
 ---
 The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos, now on the 3DS.
 

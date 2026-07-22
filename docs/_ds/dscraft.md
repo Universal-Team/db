@@ -24,7 +24,7 @@ image_length: 2429
 layout: app
 llm_generation: 'no'
 source: https://github.com/smealum/dscraft
-stars: 66
+stars: 67
 systems:
 - DS
 title: DScraft
