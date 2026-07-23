@@ -12,13 +12,13 @@ description: Collab Doodle is a simple drawing application designed for the Nint
 download_page: https://github.com/ArmstrongThomas/Doodle/releases
 downloads:
   CollabDoodle-update.3dsx:
-    size: 761628
-    size_str: 743 KiB
-    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.5.0/CollabDoodle-update.3dsx
+    size: 828852
+    size_str: 809 KiB
+    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.6.0/CollabDoodle-update.3dsx
   CollabDoodle-update.cia:
-    size: 624064
-    size_str: 609 KiB
-    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.5.0/CollabDoodle-update.cia
+    size: 668608
+    size_str: 652 KiB
+    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.6.0/CollabDoodle-update.cia
 github: ArmstrongThomas/Doodle
 icon: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
@@ -28,38 +28,55 @@ llm_generation: unknown
 qr:
   CollabDoodle-update.cia: https://db.universal-team.net/assets/images/qr/collabdoodle-update-cia.png
 screenshots:
-- description: Brush select
-  url: https://db.universal-team.net/assets/images/screenshots/collab-doodle/brush-select.png
 - description: Canvas
   url: https://db.universal-team.net/assets/images/screenshots/collab-doodle/canvas.png
+- description: Color selection
+  url: https://db.universal-team.net/assets/images/screenshots/collab-doodle/color-selection.png
+- description: Menu
+  url: https://db.universal-team.net/assets/images/screenshots/collab-doodle/menu.png
+- description: Options
+  url: https://db.universal-team.net/assets/images/screenshots/collab-doodle/options.png
 source: https://github.com/ArmstrongThomas/Doodle
 stars: 8
 systems:
 - 3DS
 title: Collab Doodle
-update_notes: '<h2 dir="auto">Collab Doodle 1.5.0</h2>
+update_notes: '<h1 dir="auto">Collab Doodle 1.6.0 — UI &amp; Quality-of-Life Revamp</h1>
 
-  <p dir="auto">This release makes Collab Doodle’s networking more secure and reliable
-  while keeping drawing just as responsive.</p>
+  <p dir="auto">Version 1.6 gives the 3DS client a full interface refresh focused
+  on clearer menus, faster navigation, better touch controls, and fewer rough edges.</p>
 
-  <h3 dir="auto">What’s new</h3>
+  <h2 dir="auto">What’s new</h2>
 
   <ul dir="auto">
 
-  <li>Connections and updates now use secure, encrypted networking.</li>
+  <li>A cleaner, more consistent UI across Channels, People, Support, Staff Center,
+  Profile, Options, and Help &amp; Rules.</li>
 
-  <li>Improved automatic recovery after closing the system or temporarily losing Wi-Fi.</li>
+  <li>A redesigned drawing panel with separate brush shape and size controls, a true
+  square color picker, current/previous color previews, hex color entry, and eight
+  persistent favorite swatches.</li>
 
-  <li>Restored and improved the in-app updater.</li>
+  <li>Customizable control presets for balanced, right-handed, and left-handed play,
+  plus custom button bindings.</li>
 
-  <li>Added clearer connection messaging during startup.</li>
+  <li>Better channel switching, current-channel user details, grouped sessions, and
+  clearer staff moderation actions.</li>
 
-  </ul>
+  <li>Improved support tickets with saved drafts, previews before sending, clearer
+  paging and attention states, plus a dedicated Report a User flow.</li>
 
-  <p dir="auto">The initial connection may take a few seconds, especially on older
-  systems. Existing 1.4.x users can install this release through the in-app update
-  prompt.</p>'
-updated: '2026-07-22T11:15:47Z'
-version: v1.5.0
-version_title: v1.5.0 - Network Protocol bump!
+  <li>Streamlined onboarding, identity recovery, profile details, and safer recovery-code
+  handling.</li>
+
+  <li>Shorter, dismissible action messages and confirmation prompts for palette resets,
+  canvas clearing, exiting, and other destructive actions.</li>
+
+  <li>Numerous readability, touch-target, input, reconnect, and reliability fixes
+  throughout the client.</li>
+
+  </ul>'
+updated: '2026-07-23T07:13:53Z'
+version: v1.6.0
+version_title: v1.6.0 — UI & Quality-of-Life Revamp
 ---
