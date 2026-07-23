@@ -23,7 +23,7 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: 'no'
 source: https://github.com/d0k3/GodMode9
-stars: 2583
+stars: 2584
 systems:
 - 3DS
 title: GodMode9
