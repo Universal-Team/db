@@ -43,7 +43,7 @@ preinstall_message: 'You need the game files from your CD/GOG in
 qr:
   devilutionx-3ds.cia: https://db.universal-team.net/assets/images/qr/devilutionx-3ds-cia.png
 source: https://github.com/diasurgical/DevilutionX
-stars: 9627
+stars: 9628
 systems:
 - 3DS
 title: DevilutionX
