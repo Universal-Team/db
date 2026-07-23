@@ -28,7 +28,7 @@ llm_generation: 'no'
 qr:
   Battery_mark_for_3DS.cia: https://db.universal-team.net/assets/images/qr/battery_mark_for_3ds-cia.png
 source: https://github.com/Core-2-Extreme/Battery_mark_for_3DS
-stars: 75
+stars: 76
 systems:
 - 3DS
 title: Battery_mark_for_3DS

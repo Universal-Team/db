@@ -41,7 +41,7 @@ preinstall_message: 'You will need to generate the actual forwarders on your com
 qr:
   bootstrap.cia: https://db.universal-team.net/assets/images/qr/bootstrap-cia.png
 source: https://github.com/YANBForwarder/YANBF
-stars: 243
+stars: 244
 systems:
 - 3DS
 title: YANBF
