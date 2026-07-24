@@ -12,9 +12,9 @@ description: A DS/DSi homebrew application to backup and restore raw flash image
 download_page: https://github.com/tasken/Cart-Flasher/releases
 downloads:
   cart_flasher.nds:
-    size: 215552
-    size_str: 210 KiB
-    url: https://github.com/tasken/Cart-Flasher/releases/download/v0.5-comfey/cart_flasher.nds
+    size: 216576
+    size_str: 211 KiB
+    url: https://github.com/tasken/Cart-Flasher/releases/download/v0.5.1-comfey/cart_flasher.nds
 github: tasken/Cart-Flasher
 icon: https://raw.githubusercontent.com/tasken/Cart-Flasher/refs/heads/main/resources/icon.png
 image: https://raw.githubusercontent.com/tasken/Cart-Flasher/main/resources/logo.png
@@ -32,30 +32,21 @@ systems:
 title: Cart-Flasher
 update_notes: '<ul dir="auto">
 
-  <li>Added quick shutdown shortcuts from multiple screens</li>
+  <li>Cleaned up and aligned the layout of the result, confirmation, and wrong key-combo
+  failure screens</li>
 
-  <li>Fixed shutdown crashes on emulator setups and custom menus</li>
+  <li>Fixed centering on the dump and write confirmation text</li>
 
-  <li>Added a diagnostic screen for hardware crashes instead of freezing</li>
+  <li>Separated operation status messages from action button prompts on result screens</li>
 
-  <li>Prevented failed operations from freezing the screen or leaving broken menus</li>
-
-  <li>Standardized text alignment, margins, and paths across all screens</li>
-
-  <li>Added active status messages during card scanning</li>
-
-  <li>Cleaned up navigation flows and unified menu buttons</li>
-
-  <li>Added build type and branch information to the boot screen</li>
-
-  <li>Updated project credits in the documentation</li>
+  <li>Fixed a compiler warning from a duplicate macro definition</li>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/tasken/Cart-Flasher/compare/v0.4-whimsicott...v0.5-comfey"><tt>v0.4-whimsicott...v0.5-comfey</tt></a></p>'
-updated: '2026-07-24T02:42:11Z'
-version: v0.5-comfey
-version_title: v0.5-comfey
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/tasken/Cart-Flasher/compare/v0.5-comfey...v0.5.1-comfey"><tt>v0.5-comfey...v0.5.1-comfey</tt></a></p>'
+updated: '2026-07-24T22:40:14Z'
+version: v0.5.1-comfey
+version_title: v0.5.1-comfey
 ---
 A DS/DSi homebrew application to backup and restore raw flash images to/from Slot-1 flashcarts.
 
