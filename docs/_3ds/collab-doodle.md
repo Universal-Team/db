@@ -12,13 +12,13 @@ description: Collab Doodle is a simple drawing application designed for the Nint
 download_page: https://github.com/ArmstrongThomas/Doodle/releases
 downloads:
   CollabDoodle-update.3dsx:
-    size: 828852
-    size_str: 809 KiB
-    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.6.0/CollabDoodle-update.3dsx
+    size: 823604
+    size_str: 804 KiB
+    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.6.1/CollabDoodle-update.3dsx
   CollabDoodle-update.cia:
-    size: 668608
-    size_str: 652 KiB
-    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.6.0/CollabDoodle-update.cia
+    size: 665024
+    size_str: 649 KiB
+    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.6.1/CollabDoodle-update.cia
 github: ArmstrongThomas/Doodle
 icon: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
@@ -41,42 +41,53 @@ stars: 8
 systems:
 - 3DS
 title: Collab Doodle
-update_notes: '<h1 dir="auto">Collab Doodle 1.6.0 — UI &amp; Quality-of-Life Revamp</h1>
+update_notes: '<h1 dir="auto">Collab Doodle 1.6.1 — Touch Palette &amp; Fractional
+  Brushes</h1>
 
-  <p dir="auto">Version 1.6 gives the 3DS client a full interface refresh focused
-  on clearer menus, faster navigation, better touch controls, and fewer rough edges.</p>
+  <p dir="auto">Version 1.6.1 makes the 3DS drawing palette faster and more natural
+  to use with a stylus.</p>
 
-  <h2 dir="auto">What’s new</h2>
+  <h2 dir="auto">What''s new</h2>
 
   <ul dir="auto">
 
-  <li>A cleaner, more consistent UI across Channels, People, Support, Staff Center,
-  Profile, Options, and Help &amp; Rules.</li>
+  <li>The tool palette is now completely touch controlled. D-Pad and face-button presses
+  no longer move or activate palette items.</li>
 
-  <li>A redesigned drawing panel with separate brush shape and size controls, a true
-  square color picker, current/previous color previews, hex color entry, and eight
-  persistent favorite swatches.</li>
+  <li>Pressing your configured Tools button again closes the palette, including the
+  default D-Pad Down and B bindings.</li>
 
-  <li>Customizable control presets for balanced, right-handed, and left-handed play,
-  plus custom button bindings.</li>
+  <li>Brush size is now a shared <code class="notranslate">1.0</code>–<code class="notranslate">12.0</code>
+  slider for Circle, Square, Dither, and Eraser.</li>
 
-  <li>Better channel switching, current-channel user details, grouped sessions, and
-  clearer staff moderation actions.</li>
+  <li>One-decimal sizes such as <code class="notranslate">1.2</code>, <code class="notranslate">4.5</code>,
+  and <code class="notranslate">8.7</code> create new in-between brush patterns and
+  stay consistent across the shared canvas.</li>
 
-  <li>Improved support tickets with saved drafts, previews before sending, clearer
-  paging and attention states, plus a dedicated Report a User flow.</li>
+  <li>The color square and hue strip are easier to use at every edge. Dragging slightly
+  outside remains captured, and pure white, pure black, and fully saturated colors
+  are easier to select exactly.</li>
 
-  <li>Streamlined onboarding, identity recovery, profile details, and safer recovery-code
-  handling.</li>
+  <li>Existing whole-size clients remain compatible, and the minimum supported client
+  version is unchanged.</li>
 
-  <li>Shorter, dismissible action messages and confirmation prompts for palette resets,
-  canvas clearing, exiting, and other destructive actions.</li>
+  </ul>
 
-  <li>Numerous readability, touch-target, input, reconnect, and reliability fixes
-  throughout the client.</li>
+  <h2 dir="auto">Upgrade notes</h2>
 
-  </ul>'
-updated: '2026-07-23T07:13:53Z'
-version: v1.6.0
-version_title: v1.6.0 — UI & Quality-of-Life Revamp
+  <ul dir="auto">
+
+  <li>Existing identity, controls, saved colors, and other device settings are preserved.</li>
+
+  <li>Choose the <code class="notranslate">.3dsx</code> file for the Homebrew Launcher
+  or the <code class="notranslate">.cia</code> file for an installed-title update.</li>
+
+  </ul>
+
+  <p dir="auto">07eec482e815d024e39672d964aca335ca31c4c0c5250c49c2d2f5ab5fc8e292  CollabDoodle-update.3dsx<br>
+
+  e0e31076fa802d2cfd3e44456a6661a0756fb32ef4c2f36860581c817e703d06  CollabDoodle-update.cia</p>'
+updated: '2026-07-24T05:39:01Z'
+version: v1.6.1
+version_title: Touch Palette & Fractional Brushes
 ---
