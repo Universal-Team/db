@@ -114,5 +114,5 @@ update_notes: '<h1 dir="auto">Collab Doodle 1.6.2 — Feather, New Brushes &amp;
   a69751321e3da0ecd642341d536ce8b67ec4deb370ca7c66d3d7c241705a78d9  CollabDoodle-update.cia</p>'
 updated: '2026-07-24T10:10:01Z'
 version: v1.6.2
-version_title: Feather, New Brushes & Canvas Sizes
+version_title: v1.6.2 Feather, New Brushes & Canvas Sizes
 ---
