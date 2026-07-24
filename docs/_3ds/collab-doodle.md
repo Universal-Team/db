@@ -12,13 +12,13 @@ description: Collab Doodle is a simple drawing application designed for the Nint
 download_page: https://github.com/ArmstrongThomas/Doodle/releases
 downloads:
   CollabDoodle-update.3dsx:
-    size: 823604
-    size_str: 804 KiB
-    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.6.1/CollabDoodle-update.3dsx
+    size: 830376
+    size_str: 810 KiB
+    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.6.2/CollabDoodle-update.3dsx
   CollabDoodle-update.cia:
-    size: 665024
-    size_str: 649 KiB
-    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.6.1/CollabDoodle-update.cia
+    size: 670144
+    size_str: 654 KiB
+    url: https://github.com/ArmstrongThomas/Doodle/releases/download/v1.6.2/CollabDoodle-update.cia
 github: ArmstrongThomas/Doodle
 icon: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
@@ -41,35 +41,53 @@ stars: 8
 systems:
 - 3DS
 title: Collab Doodle
-update_notes: '<h1 dir="auto">Collab Doodle 1.6.1 — Touch Palette &amp; Fractional
-  Brushes</h1>
+update_notes: '<h1 dir="auto">Collab Doodle 1.6.2 — Feather, New Brushes &amp; Canvas
+  Changes</h1>
 
-  <p dir="auto">Version 1.6.1 makes the 3DS drawing palette faster and more natural
-  to use with a stylus.</p>
+  <p dir="auto">Version 1.6.2 makes drawing feel smoother, expands the tool palette,
+  and<br>
+
+  polishes touch navigation throughout the 3DS client.</p>
 
   <h2 dir="auto">What''s new</h2>
 
   <ul dir="auto">
 
-  <li>The tool palette is now completely touch controlled. D-Pad and face-button presses
-  no longer move or activate palette items.</li>
+  <li>Added a persistent Feather toggle for soft brush edges, including Dither and<br>
 
-  <li>Pressing your configured Tools button again closes the palette, including the
-  default D-Pad Down and B bindings.</li>
+  Spray.</li>
 
-  <li>Brush size is now a shared <code class="notranslate">1.0</code>–<code class="notranslate">12.0</code>
-  slider for Circle, Square, Dither, and Eraser.</li>
+  <li>Added Diamond, Cross, and Spray tools alongside Circle, Square, Dither, and<br>
 
-  <li>One-decimal sizes such as <code class="notranslate">1.2</code>, <code class="notranslate">4.5</code>,
-  and <code class="notranslate">8.7</code> create new in-between brush patterns and
-  stay consistent across the shared canvas.</li>
+  Eraser.</li>
 
-  <li>The color square and hue strip are easier to use at every edge. Dragging slightly
-  outside remains captured, and pure white, pure black, and fully saturated colors
-  are easier to select exactly.</li>
+  <li>Tuned low fractional brush sizes for more continuous strokes and opened up<br>
 
-  <li>Existing whole-size clients remain compatible, and the minimum supported client
-  version is unchanged.</li>
+  Dither and Spray spacing.</li>
+
+  <li>Added a shared <code class="notranslate">1.0</code>–<code class="notranslate">12.0</code>
+  size slider with <code class="notranslate">0.1</code> precision for every tool.</li>
+
+  <li>Improved color-picker edge accuracy so pure white, black, and saturated<br>
+
+  colors are easier to select.</li>
+
+  <li>Added support for per-channel canvas sizes up to <code class="notranslate">1920x1080</code>,
+  with dimensions<br>
+
+  shown before switching.</li>
+
+  <li>Added touch Back controls across menus. Refreshing a canvas now preserves its<br>
+
+  pan and zoom.</li>
+
+  <li>Improved Support and staff workflows with dated timestamps, responsive<br>
+
+  loading notices, and Send/Edit/Cancel actions when reporting a user.</li>
+
+  <li>Kept the drawing palette fully touch controlled; your configured Tools button<br>
+
+  opens and closes it.</li>
 
   </ul>
 
@@ -77,17 +95,24 @@ update_notes: '<h1 dir="auto">Collab Doodle 1.6.1 — Touch Palette &amp; Fracti
 
   <ul dir="auto">
 
-  <li>Existing identity, controls, saved colors, and other device settings are preserved.</li>
+  <li>Existing identity, controls, favorite colors, brush settings, and other<br>
 
-  <li>Choose the <code class="notranslate">.3dsx</code> file for the Homebrew Launcher
-  or the <code class="notranslate">.cia</code> file for an installed-title update.</li>
+  device settings are preserved.</li>
+
+  <li>Older released clients enter the updater before normal canvas use.</li>
+
+  <li>Choose <code class="notranslate">CollabDoodle-update.3dsx</code> for the Homebrew
+  Launcher or<br>
+
+  <code class="notranslate">CollabDoodle-update.cia</code> for an installed-title
+  update.</li>
 
   </ul>
 
-  <p dir="auto">07eec482e815d024e39672d964aca335ca31c4c0c5250c49c2d2f5ab5fc8e292  CollabDoodle-update.3dsx<br>
+  <p dir="auto">7b1e729c098b4bf38d363b678273ac7156e259f3186022f7fe139e08c4479f0b  CollabDoodle-update.3dsx<br>
 
-  e0e31076fa802d2cfd3e44456a6661a0756fb32ef4c2f36860581c817e703d06  CollabDoodle-update.cia</p>'
-updated: '2026-07-24T05:39:01Z'
-version: v1.6.1
-version_title: Touch Palette & Fractional Brushes
+  a69751321e3da0ecd642341d536ce8b67ec4deb370ca7c66d3d7c241705a78d9  CollabDoodle-update.cia</p>'
+updated: '2026-07-24T10:10:01Z'
+version: v1.6.2
+version_title: Feather, New Brushes & Canvas Sizes
 ---
