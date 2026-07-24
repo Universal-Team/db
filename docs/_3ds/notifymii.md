@@ -28,7 +28,7 @@ llm_generation: 'no'
 qr:
   NotifyMii.cia: https://db.universal-team.net/assets/images/qr/notifymii-cia.png
 source: https://github.com/Ryuzaki-MrL/NotifyMii
-stars: 20
+stars: 21
 systems:
 - 3DS
 title: NotifyMii
