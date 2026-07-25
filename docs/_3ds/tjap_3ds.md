@@ -27,7 +27,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.3.1A
   downloads:
     TJAP_3DS.3dsx:
-      size: 10395856
+      size: 10396004
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.1A/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -42,6 +42,8 @@ prerelease:
 
     <li>音符の描画順に関する仕様変更</li>
 
+    <li><code class="notranslate">#NEXTSONG </code>の対応</li>
+
     </ul>
 
     <h2 dir="auto">Changelog</h2>
@@ -50,15 +52,21 @@ prerelease:
 
     <li>Specification changes regarding the drawing order of notes.</li>
 
+    <li>Response to the <code class="notranslate">#NEXTSONG </code> command</li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
     - 音符の描画順に関する仕様変更
 
+    - `#NEXTSONG `の対応
+
 
     ## Changelog
 
-    - Specification changes regarding the drawing order of notes.'
+    - Specification changes regarding the drawing order of notes.
+
+    - Response to the `#NEXTSONG ` command'
   updated: '2026-07-23T05:32:32Z'
   version: v2.3.1A
   version_title: TJAPlayer for 3DS v2.3.1(A)
