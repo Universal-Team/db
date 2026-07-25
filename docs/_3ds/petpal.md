@@ -49,24 +49,6 @@ update_notes: '<h1 dir="auto">🐾 PetPal v0.1.6 — Nintendo 3DS</h1>
 
   pet is correctly on file.</p>
 
-  <h2 dir="auto">🔄 Version-aware passing</h2>
-
-  <ul dir="auto">
-
-  <li>PetPal now includes its version in every pass it sends, so the relay can keep<br>
-
-  everyone trading pets on the latest release.</li>
-
-  <li><strong>Out-of-date copies now get <code class="notranslate">Pass FAIL</code></strong>
-  when checking for new passes —<br>
-
-  updating to 0.1.6 clears it.</li>
-
-  <li>On boot, older copies are reminded with a <strong>“Please update your app.”</strong>
-  prompt.</li>
-
-  </ul>
-
   <h2 dir="auto">🐛 Fixes</h2>
 
   <ul dir="auto">
@@ -82,26 +64,6 @@ update_notes: '<h1 dir="auto">🐾 PetPal v0.1.6 — Nintendo 3DS</h1>
   account (this is the name used for cross-device linking and support). New pets<br>
 
   are now on file right away.</li>
-
-  </ul>
-
-  <h2 dir="auto">🛠️ Under the hood</h2>
-
-  <ul dir="auto">
-
-  <li>Bumped app version to <strong>0.1.6</strong> (<code class="notranslate">kAppVersion</code>).</li>
-
-  <li>Pass packets carry an app-version stamp in a previously-reserved field. It’s<br>
-
-  covered by the packet checksum and ignored by other consoles, so the pass<br>
-
-  format stays fully compatible and your <strong>save is untouched</strong> (still
-  save <strong>v4</strong>).</li>
-
-  <li>No changes to the pass wire protocol — just the version tag the server reads.</li>
-
-  <li>Companion <strong>Android app</strong> and the <strong>server</strong> also
-  moved to 0.1.6 for parity.</li>
 
   </ul>
 
