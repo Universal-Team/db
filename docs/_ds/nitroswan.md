@@ -21,7 +21,7 @@ image_length: 38554
 layout: app
 llm_generation: unknown
 source: https://github.com/FluBBaOfWard/NitroSwan
-stars: 69
+stars: 71
 systems:
 - DS
 title: NitroSwan
