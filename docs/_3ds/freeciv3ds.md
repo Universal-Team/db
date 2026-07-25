@@ -3,8 +3,6 @@ author: xPsycho999
 avatar: https://avatars.githubusercontent.com/u/47577362?v=4
 categories:
 - game
-color: '#8c6c15'
-color_bg: '#806213'
 created: '2026-07-14T00:58:02Z'
 download_page: https://github.com/xPsycho999/freeciv3ds/releases
 downloads:
