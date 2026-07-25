@@ -24,7 +24,7 @@ llm_generation: 'no'
 qr:
   NTM.dsi: https://db.universal-team.net/assets/images/qr/ntm-dsi.png
 source: https://github.com/Epicpkmn11/NTM
-stars: 87
+stars: 88
 systems:
 - DS
 title: NTM
