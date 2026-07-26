@@ -10,9 +10,9 @@ description: A fanmade Balatro clone for the 3DS
 download_page: https://github.com/idkhan/Balatro3DS/releases
 downloads:
   Balatro3DS.3dsx:
-    size: 14230254
+    size: 14230066
     size_str: 13 MiB
-    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.2.2-alpha/Balatro3DS.3dsx
+    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.2.1-alpha/Balatro3DS.3dsx
 github: idkhan/Balatro3DS
 icon: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/resources/textures/1x/icon.png
 image: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/banner.png
@@ -21,27 +21,80 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: unknown
+prerelease:
+  download_page: https://github.com/idkhan/Balatro3DS/releases/tag/v1.2.2-alpha
+  downloads:
+    Balatro3DS.3dsx:
+      size: 14230254
+      size_str: 13 MiB
+      url: https://github.com/idkhan/Balatro3DS/releases/download/v1.2.2-alpha/Balatro3DS.3dsx
+  update_notes: '<h3 dir="auto">Features</h3>
+
+    <ul dir="auto">
+
+    <li>Added support for ZR and ZL buttons on the New 3DS <a class="issue-link js-issue-link"
+    data-error-text="Failed to load title" data-id="4965075609" data-permission-text="Title
+    is private" data-url="https://github.com/idkhan/Balatro3DS/issues/50" data-hovercard-type="issue"
+    data-hovercard-url="/idkhan/Balatro3DS/issues/50/hovercard" href="https://github.com/idkhan/Balatro3DS/issues/50">#50</a></li>
+
+    </ul>
+
+    <p dir="auto">I have no way of checking whether it actually work so I''d appreciate
+    some feedback</p>'
+  update_notes_md: "### Features\n- Added support for ZR and ZL buttons on the New\
+    \ 3DS #50 \n\nI have no way of checking whether it actually work so I'd appreciate\
+    \ some feedback"
+  updated: '2026-07-26T12:22:42Z'
+  version: v1.2.2-alpha
+  version_title: Alpha 1.2.2
 source: https://github.com/idkhan/Balatro3DS
-stars: 121
+stars: 122
 systems:
 - 3DS
 title: Balatro3DS
-update_notes: '<h3 dir="auto">Features</h3>
+update_notes: '<h3 dir="auto">Features:</h3>
 
   <ul dir="auto">
 
-  <li>Added support for ZR and ZL buttons on the New 3DS <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="4965075609" data-permission-text="Title
-  is private" data-url="https://github.com/idkhan/Balatro3DS/issues/50" data-hovercard-type="issue"
-  data-hovercard-url="/idkhan/Balatro3DS/issues/50/hovercard" href="https://github.com/idkhan/Balatro3DS/issues/50">#50</a></li>
+  <li>Adds controls menu and rebinds.</li>
+
+  <li>Enhancement dependent Jokers now only appear when the respective enhanced card
+  is in the deck.</li>
+
+  <li>Improved Negative Joker Sprites</li>
+
+  <li>Added Nope and Extinct Messages</li>
 
   </ul>
 
-  <p dir="auto">I have no way of checking whether it actually work so I''d appreciate
-  some feedback</p>'
-updated: '2026-07-26T12:22:42Z'
-version: v1.2.2-alpha
-version_title: Alpha 1.2.2
+  <h3 dir="auto">Bugfixes:</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed the tooltips not disappearing</li>
+
+  <li>Fixed Joker and Consumable panels losing focus</li>
+
+  <li>Fixed the Throwback Joker not working</li>
+
+  <li>Fixed the Steel Joker not updating its tooltip</li>
+
+  <li>Removed being able to shift focus from Jokers and Consumables panels when they''re
+  down</li>
+
+  <li>Joker Win Data is now properly stored</li>
+
+  <li>Diet Cola used the wrong sprite,</li>
+
+  <li>Fixed House Blind not working, some other boss blinds early returned causing
+  their ability to not trigger</li>
+
+  <li>Fixed Crimson Heart picking the same Joker twice and switching Jokers on Discard</li>
+
+  </ul>'
+updated: '2026-07-22T12:48:24Z'
+version: v1.2.1-alpha
+version_title: Alpha 1.2.1
 ---
 The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos, now on the 3DS.
 
