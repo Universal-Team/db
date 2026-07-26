@@ -6,17 +6,17 @@ categories:
 color: '#40576f'
 color_bg: '#40576f'
 created: '2017-09-06T17:20:55Z'
-description: Fast and simple homebrew save manager for 3DS and Switch.
+description: Fast and simple homebrew save management framework for 3DS and Switch.
 download_page: https://github.com/BernardoGiordano/Checkpoint/releases
 downloads:
   Checkpoint.3dsx:
-    size: 1559596
-    size_str: 1 MiB
-    url: https://github.com/BernardoGiordano/Checkpoint/releases/download/v4.0.0/Checkpoint.3dsx
+    size: 3312036
+    size_str: 3 MiB
+    url: https://github.com/BernardoGiordano/Checkpoint/releases/download/v5.0.0/Checkpoint.3dsx
   Checkpoint.cia:
-    size: 1020864
-    size_str: 996 KiB
-    url: https://github.com/BernardoGiordano/Checkpoint/releases/download/v4.0.0/Checkpoint.cia
+    size: 2368448
+    size_str: 2 MiB
+    url: https://github.com/BernardoGiordano/Checkpoint/releases/download/v5.0.0/Checkpoint.cia
 github: BernardoGiordano/Checkpoint
 icon: https://raw.githubusercontent.com/BernardoGiordano/Checkpoint/master/3ds/assets/icon.png
 image: https://raw.githubusercontent.com/BernardoGiordano/Checkpoint/master/3ds/assets/banner.png
@@ -34,105 +34,192 @@ systems:
 title: Checkpoint
 unique_ids:
 - '0xBCFFF'
-update_notes: '<p dir="auto">This is genuinely the largest Checkpoint update since
-  its original release 9 years ago.</p>
+update_notes: '<p dir="auto">Checkpoint 4.0.0 was the largest update the app ever
+  had. Version 5.0.0 redefines what the app <em><strong>is</strong></em>.</p>
 
-  <p dir="auto">Working on it was fun and rewarding. Enjoy!</p>
+  <p dir="auto">Checkpoint is now a save management <strong>framework</strong>: everything
+  it can do to a save is also reachable from scripts you write yourself and drop on
+  the SD card, so your console can do things no release of Checkpoint ever shipped
+  with. The cheat manager is back as one of those scripts, and so is cloud save sync,
+  to Google Drive, or to any WebDAV server you already run.</p>
+
+  <p dir="auto">Enjoy!</p>
+
+  <h3 dir="auto">Scripting: What''s new</h3>
+
+  <ul dir="auto">
+
+  <li>Added: <strong>a scripting engine</strong>. Checkpoint runs C scripts, interpreted
+  on the console. A script is a single <code class="notranslate">.c</code> file on
+  the SD card: no compiler, no rebuild, no reflash.
+
+  <ul dir="auto">
+
+  <li>Scripts live in <code class="notranslate">sdmc:/&lt;3ds|switch&gt;/Checkpoint/scripts/universal</code>
+  to be offered for every title, or in <code class="notranslate">scripts/&lt;title
+  id&gt;</code> to be offered for that title only.</li>
+
+  <li>Added: a new <strong>Scripts menu</strong>, reachable with <strong>SELECT</strong>
+  on 3DS and <strong>Minus</strong> on Switch.</li>
+
+  <li>Scripts get a native API through <code class="notranslate">#include &lt;checkpoint.h&gt;</code>,
+  reaching the same functions the app itself uses: the title catalog, save archives
+  (3DS extdata and shared extdata included) to read, write, delete, list and commit
+  files into, SD card I/O, zip pack and unpack, HTTP requests and streamed file uploads,
+  JSON parsing, and UI dialogs rendered by Checkpoint itself.</li>
+
+  <li>Added: <strong>a console UI for scripts</strong>. A running script owns the
+  screen: its output streams into a scrollable log pane, while its messages, confirmations,
+  pickers, keyboards and nested progress bars take the other screen on 3DS, or a card
+  over the transcript on Switch.</li>
+
+  <li>Added: <strong>script cancellation</strong>. Holding <strong>B</strong> aborts
+  any script, even one stuck in an infinite loop, without rebooting the console.</li>
+
+  <li>Added: <strong>a sealing API</strong>, to let scripts store secrets like tokens
+  and passwords on the SD card encrypted with a console-bound key, and optionally
+  with a passphrase of your choice.</li>
+
+  <li>Scripts also get picoc''s C standard library: <code class="notranslate">stdio</code>,
+  <code class="notranslate">stdlib</code>, <code class="notranslate">string</code>,
+  <code class="notranslate">unistd</code>, <code class="notranslate">ctype</code>,
+  <code class="notranslate">math</code> and <code class="notranslate">time</code>.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Added: <strong>full scripting documentation</strong>, in <a href="https://github.com/FlagBrew/Checkpoint/blob/master/scripts/README.md"><code
+  class="notranslate">scripts/README.md</code></a>: the API reference, the interpreter''s
+  limits, recipes, and a checklist for both human and AI script authors.
+
+  <ul dir="auto">
+
+  <li><a href="https://github.com/FlagBrew/Checkpoint/blob/master/scripts/examples/example.c"><code
+  class="notranslate">scripts/examples/example.c</code></a> is a runnable guided tour
+  of the API, one menu entry per area.</li>
+
+  <li><code class="notranslate">tools/scriptlint.sh</code> parse-checks your scripts
+  on your PC, before you copy them onto the SD card.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Fixed: exceptions thrown while a script runs are caught and reported to you,
+  instead of terminating the app non-deterministically.</li>
+
+  </ul>
+
+  <h3 dir="auto">Bundled scripts</h3>
+
+  <ul dir="auto">
+
+  <li>Added: <strong>sharkive</strong>, and with it the <strong>cheat manager is back</strong>.
+
+  <ul dir="auto">
+
+  <li>It downloads the latest <a href="https://github.com/FlagBrew/Sharkive">Sharkive</a>
+  database, lets you pick cheats per title, and writes the cheat files Luma3DS (3DS)
+  and Atmosphere (Switch) expect.</li>
+
+  <li>Because it is a script now, the cheat database follows Sharkive instead of waiting
+  for a Checkpoint release. This solves one of the maintenance problems that made
+  the feature go away in 4.0.0.</li>
+
+  <li>Note: if you''re not satisfied with the cheats distributed in Sharkive, you
+  can submit issues and patches to the repo itself, or contribute by writing a script
+  that downloads cheats from another provider. Checkpoint is really open to contributions.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Added: <strong>googledrive</strong>, to sync your save backups to your own Google
+  Drive.
+
+  <ul dir="auto">
+
+  <li>Sign-in happens through Google''s device flow: the console shows a code, you
+  type it on your phone or PC.</li>
+
+  <li>Sync everything, a single title, or a single backup. Each backup is uploaded
+  as a zip, and already uploaded backups are skipped.</li>
+
+  <li>Your credentials are sealed with the new encryption API, so they never sit on
+  the SD card in the clear. Setup instructions are in <a href="https://github.com/FlagBrew/Checkpoint/blob/master/scripts/googledrive.md"><code
+  class="notranslate">scripts/googledrive.md</code></a>.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Added: <strong>webdav</strong>, to sync those same backups to any WebDAV server
+  you already run: Nextcloud, ownCloud, Synology, Apache <code class="notranslate">mod_dav</code>,
+  <code class="notranslate">rclone serve webdav</code>, most NAS "personal cloud"
+  apps.
+
+  <ul dir="auto">
+
+  <li>Upload every title, one title, or a single backup, skipping what is already
+  on the server. It can also pull a backup back down onto the console, where Checkpoint''s
+  usual Restore takes over.</li>
+
+  <li>Credentials are sealed with the encryption API, like Drive''s. Setup, with the
+  right base URL for each common server, is in <a href="https://github.com/FlagBrew/Checkpoint/blob/master/scripts/webdav.md"><code
+  class="notranslate">scripts/webdav.md</code></a>; <code class="notranslate">tools/webdav-testserver.py</code>
+  gives you a throwaway server on your PC to try the whole round trip against first.</li>
+
+  </ul>
+
+  </li>
+
+  <li>Added: <strong>playcoins</strong>, to set the console''s Play Coins (3DS).
+
+  <ul dir="auto">
+
+  <li>Note: the play coins management feature is now available via scripts only.</li>
+
+  </ul>
+
+  </li>
+
+  </ul>
 
   <h3 dir="auto">3DS: What''s new</h3>
 
   <ul dir="auto">
 
-  <li>Added: <strong>GBA Virtual Console save backup and restore</strong> (thanks
-  <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/LiquidFenrir/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/LiquidFenrir">@LiquidFenrir</a>)</li>
+  <li>Added: a menu overlay to reach Settings and Scripts.</li>
 
-  <li>Added: <strong>DSiWare save backup and restore</strong> (thanks <a class="user-mention
-  notranslate" data-hovercard-type="user" data-hovercard-url="/users/SNBeast/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/SNBeast">@SNBeast</a>
-  for the feature PoC)</li>
-
-  <li>Added: <strong>complete UI/UX redesign</strong></li>
-
-  <li>Added: <strong>background FTP server</strong>. Access your save backups from
-  the PC directly through Checkpoint</li>
-
-  <li>Added: a brand new <strong>Settings section</strong>: it is now possible to
-  edit Checkpoint''s config.json file directly from the console with a nice settings
-  interface.
+  <li>Fixed: <strong>GBA Virtual Console saves now move between consoles</strong>
+  (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4877717415"
+  data-permission-text="Title is private" data-url="https://github.com/BernardoGiordano/Checkpoint/issues/557"
+  data-hovercard-type="issue" data-hovercard-url="/BernardoGiordano/Checkpoint/issues/557/hovercard"
+  href="https://github.com/BernardoGiordano/Checkpoint/issues/557">#557</a>). A backup
+  used to be the whole console-side container, signed for the console that made it,
+  so restoring it anywhere else failed, or reported success and left the game''s own
+  save untouched.
 
   <ul dir="auto">
 
-  <li>Added: <strong>light and dark mode</strong> theming</li>
+  <li>A backup is now the bare save file, the same 512 B to 128 KB <code class="notranslate">.sav</code>
+  an emulator or GodMode9 reads, and restoring writes it back into the container and
+  re-signs it for the console doing the restoring.</li>
 
-  <li>Added: a folder browser to navigate the SD card and choose additional save folders
-  on device</li>
-
-  <li>Added: quick backup toggle to use the default backup name without any prompt</li>
-
-  <li>Added: confirm restore toggle to avoid being asked for confirmation for save
-  restore operations</li>
+  <li>Backups taken by older versions of Checkpoint still restore.</li>
 
   </ul>
 
   </li>
 
-  <li>Added: it is now possible to configure additional save folders for DS titles.</li>
+  <li>Fixed: Checkpoint now runs on emulators. The Rosalina <code class="notranslate">hb:ldr</code>
+  check is skipped when an emulator is detected, instead of refusing to boot.</li>
 
-  <li>Added: internazionalization support.
+  <li>Fixed: modal dialogs now measure and lay out their text properly, so larger
+  text and translated strings are not clipped anymore.</li>
 
-  <ul dir="auto">
-
-  <li>Translations have been done through the use of LLMs. If you''re a native speaker
-  and think that text wording and appearance in the UI can be improved, please submit
-  a pull request or open an issue on this repository.</li>
-
-  <li>Current language support includes English, Italian, French, German, Portuguese,
-  Spanish, Dutch, Japanese and Chinese</li>
-
-  </ul>
-
-  </li>
-
-  <li>Added: backup cancellation by holding B during backup</li>
-
-  <li>Fixed: backup list navigation is now massively more intuitive</li>
-
-  <li>Fixed: async IO makes file operations faster and more efficient by running them
-  in a worker thread, separated from the main UI thread</li>
-
-  <li>Fixed: greatly improved cached and uncached title loading times</li>
-
-  <li>Fixed: cached text storage now allows faster rendering for all the text in the
-  interface</li>
-
-  <li>Fixed: the project''s code architecture has been greatly improved.
-
-  <ul dir="auto">
-
-  <li>The codebase is now 9 years old and has never seen an architecture overhaul
-  like this before.</li>
-
-  <li>Dozens of performance, security and safety bugfixes have been pushed to the
-  project, making the app more secure and efficient.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Fixed: an issue where swapping DS carts would crash Checkpoint because of a
-  stack-smashing bug</li>
-
-  <li>Removed: <strong>cheats feature</strong>.
-
-  <ul dir="auto">
-
-  <li>The cheat database required constant updates to stay in sync with game updates,
-  and its maintenance wasn''t sustainable.</li>
-
-  </ul>
-
-  </li>
+  <li>Fixed: a memory corruption in the choice overlay''s callback.</li>
 
   <li>General system stability improvements to enhance the user''s experience.</li>
 
@@ -142,139 +229,65 @@ update_notes: '<p dir="auto">This is genuinely the largest Checkpoint update sin
 
   <ul dir="auto">
 
-  <li>Added: <strong>complete UI/UX redesign</strong></li>
+  <li>Added: a Scripts entry in the sidebar, and a menu overlay to reach Settings
+  and Scripts.</li>
 
-  <li>Added: internazionalization support.
+  <li>Fixed: the app doesn''t hang anymore when the account selector is opened while
+  backup sizes are still being computed. The size worker now pauses while the applet
+  is up.</li>
 
-  <ul dir="auto">
+  <li>Fixed: truncated backup names in the backup list.</li>
 
-  <li>Translations have been done through the use of LLMs. If you''re a native speaker
-  and think that text wording and appearance in the UI can be improved, please submit
-  a pull request or open an issue on this repository.</li>
+  <li>Fixed: modal dialogs now measure and lay out their text properly, so larger
+  text and translated strings are not clipped anymore.</li>
 
-  <li>Current language support includes English, Italian, French, German, Portuguese,
-  Spanish, Dutch, Japanese and Chinese</li>
+  <li>Fixed: threads are torn down properly when the app is forced to exit.</li>
 
-  </ul>
-
-  </li>
-
-  <li>Added: a brand new <strong>Settings section</strong>: it is now possible to
-  edit Checkpoint''s config.json file directly from the console with a nice settings
-  interface.
-
-  <ul dir="auto">
-
-  <li>Added: <strong>light and dark mode</strong> theming</li>
-
-  <li>Added: a folder browser to navigate the SD card and choose additional save folders
-  on device</li>
-
-  <li>Added: quick backup toggle to use the default backup name without any prompt</li>
-
-  <li>Added: confirm restore toggle to avoid being asked for confirmation for save
-  restore operations</li>
-
-  <li>Added: file-by-file verification after restore</li>
-
-  </ul>
-
-  </li>
-
-  <li>Added: <strong>complete graphics backend migration from SDL2 to deko3d</strong>
-
-  <ul dir="auto">
-
-  <li>Among all the benefits that the rewrite brought to the software, the application
-  size is now <strong>~70% smaller</strong></li>
-
-  </ul>
-
-  </li>
-
-  <li>Added: <strong>HTTP log server on port 8000</strong> — view logs in real-time
-  from any browser on your network.
-
-  <ul dir="auto">
-
-  <li>Logs can now be accessed from the application directly via Settings &gt; Connectivity
-  &gt; Logs.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Added: 1080p docked mode support (alongside 720p handheld).</li>
-
-  <li>Fixed: async IO makes file operations faster and more efficient by running them
-  in a worker thread, separated from the main UI thread</li>
-
-  <li>Fixed: backup list navigation is now massively more intuitive</li>
-
-  <li>Added: large save restore with journal pre-extend and mid-file commits,<br>
-
-  preventing out-of-space failures (fixes <a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="4780027894" data-permission-text="Title is private" data-url="https://github.com/BernardoGiordano/Checkpoint/issues/541"
-  data-hovercard-type="issue" data-hovercard-url="/BernardoGiordano/Checkpoint/issues/541/hovercard"
-  href="https://github.com/BernardoGiordano/Checkpoint/issues/541">#541</a>).</li>
-
-  <li>Fixed: avoid restoring files after a corruption error occurred during copy.</li>
-
-  <li>Fixed: the project''s code architecture has been greatly improved.
-
-  <ul dir="auto">
-
-  <li>The codebase is now 9 years old and has never seen an architecture overhaul
-  like this before.</li>
-
-  <li>Dozens of performance, security and safety bugfixes have been pushed to the
-  project, making the app more secure and efficient.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Removed: <strong>pksmbridge save transfer feature</strong></li>
-
-  <li>Removed: <strong>cheats feature</strong>.
-
-  <ul dir="auto">
-
-  <li>The cheat database required constant updates to stay in sync with game updates,
-  and its maintenance wasn''t sustainable.</li>
-
-  </ul>
-
-  </li>
-
-  <li>Removed: the HTML settings page accessible through local network, and all its
-  dependencies</li>
-
-  <li>Removed: unneeded dependencies like the SDL2 suite and libpng.</li>
+  <li>Fixed: unhandled exceptions are logged with far more detail, so crashes can
+  actually be diagnosed from the log.</li>
 
   <li>General system stability improvements to enhance the user''s experience.</li>
 
   </ul>
 
-  <h3 dir="auto">chlink: a new companion app</h3>
+  <h3 dir="auto">chlink: What''s new</h3>
 
   <ul dir="auto">
 
-  <li>Added: <strong>chlink</strong>, a companion command line app for your PC that
-  works together with Checkpoint''s wireless save transfer feature.
+  <li>Fixed: a backup that travels as a single file instead of a zip -- a DS cart
+  save, a GBA VC save -- arrived with the dot stripped out of its name (<code class="notranslate">00000001
+  sav</code>), and nothing could restore it afterwards. The receiving side keeps the
+  extension now, on both consoles and in chlink.
 
   <ul dir="auto">
 
-  <li>Send save backups from your PC to the console, or receive them from the console
-  to your PC, over your local network.</li>
+  <li>Backups already received with a mangled name are not lost: a raw backup folder
+  holding a single file is restored whatever that file is called.</li>
 
-  <li>Transfers are protected by a 4-digit PIN displayed on the console.</li>
+  </ul>
 
-  <li>chlink automatically recognizes backups stored in a Checkpoint SD card layout,
-  so title and backup information are inferred for you.</li>
+  </li>
 
-  <li>It ships as a single, dependency-free executable for Windows, macOS and Linux,
-  attached to this release.</li>
+  <li>Added: the receiver logs each stored file with its size and destination, and
+  says how far it got when a transfer fails.</li>
+
+  </ul>
+
+  <h3 dir="auto">Translations</h3>
+
+  <ul dir="auto">
+
+  <li>Added: <strong>Simplified Chinese</strong> translation (thanks <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/JeanPhoenixWong/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/JeanPhoenixWong">@JeanPhoenixWong</a>)
+
+  <ul dir="auto">
+
+  <li>Current language support includes English, Italian, French, German, Portuguese,
+  Spanish, Dutch, Japanese and Simplified Chinese.</li>
+
+  <li>If you''re a native speaker and think that text wording and appearance in the
+  UI can be improved, please submit a pull request or open an issue on this repository.</li>
 
   </ul>
 
@@ -284,9 +297,9 @@ update_notes: '<p dir="auto">This is genuinely the largest Checkpoint update sin
 
   <hr>
 
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/b261080b-ef0d-4a2f-a711-207a4554d311"><img
-  width="181" height="183" alt="qr" src="https://github.com/user-attachments/assets/b261080b-ef0d-4a2f-a711-207a4554d311"
-  style="max-width: 100%; height: auto; max-height: 183px;; aspect-ratio: 181 / 183;
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/b41a4bcd-a995-4f50-8a15-e8d0b73fdcb4"><img
+  width="194" height="190" alt="qr" src="https://github.com/user-attachments/assets/b41a4bcd-a995-4f50-8a15-e8d0b73fdcb4"
+  style="max-width: 100%; height: auto; max-height: 190px;; aspect-ratio: 194 / 190;
   background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
 
   <hr>
@@ -298,7 +311,7 @@ update_notes: '<p dir="auto">This is genuinely the largest Checkpoint update sin
   <p dir="auto"><a href="https://discord.gg/bGKEyfY" rel="nofollow"><img src="https://camo.githubusercontent.com/4072fe46d2eb0f8f41a49c5795b2b971f9402f61fe2438cf9f2cded9d2af6915/68747470733a2f2f646973636f72646170702e636f6d2f6170692f6775696c64732f3237383232323833343633333830313732382f7769646765742e706e673f7374796c653d62616e6e6572332674696d652d"
   alt="Discord" data-canonical-src="https://discordapp.com/api/guilds/278222834633801728/widget.png?style=banner3&amp;time-"
   style="max-width: 100%;"></a></p>'
-updated: '2026-07-11T14:15:55Z'
-version: v4.0.0
-version_title: Checkpoint 4.0.0
+updated: '2026-07-26T09:35:31Z'
+version: v5.0.0
+version_title: Checkpoint 5.0.0
 ---
