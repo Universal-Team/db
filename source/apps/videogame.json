@@ -1,0 +1,13 @@
+{
+	"github": "babro1/Videogame",
+	"description": "As the name implies.",
+	"author": "BarBroth1",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/babro1/Videogame/refs/heads/main/logo.png"
+}
