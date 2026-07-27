@@ -1,7 +1,7 @@
 {
 	"github": "KirovAir/TwilightBoxart",
 	"download_filter": "\\.nds$",
-	"description": "Download box art/covers for TWiLightMenu++ and Pico Launcher, straight onto your SD card.",
+	"description": "Automatically download box art/covers for TWiLightMenu++ and Pico Launcher, straight onto your SD card.",
 	"systems": [
 		"DS"
 	],
