@@ -10,9 +10,9 @@ description: A fanmade Balatro clone for the 3DS
 download_page: https://github.com/idkhan/Balatro3DS/releases
 downloads:
   Balatro3DS.3dsx:
-    size: 14234130
+    size: 14239061
     size_str: 13 MiB
-    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.2.2-alpha/Balatro3DS.3dsx
+    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.2.3-alpha/Balatro3DS.3dsx
 github: idkhan/Balatro3DS
 icon: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/resources/textures/1x/icon.png
 image: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/banner.png
@@ -21,45 +21,24 @@ layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: unknown
-prerelease:
-  download_page: https://github.com/idkhan/Balatro3DS/releases/tag/v1.2.2-testing
-  downloads:
-    Balatro3DS.3dsx:
-      size: 14230254
-      size_str: 13 MiB
-      url: https://github.com/idkhan/Balatro3DS/releases/download/v1.2.2-testing/Balatro3DS.3dsx
-  update_notes: '<h3 dir="auto">Features</h3>
-
-    <ul dir="auto">
-
-    <li>Added support for ZR and ZL buttons on the New 3DS <a class="issue-link js-issue-link"
-    data-error-text="Failed to load title" data-id="4965075609" data-permission-text="Title
-    is private" data-url="https://github.com/idkhan/Balatro3DS/issues/50" data-hovercard-type="issue"
-    data-hovercard-url="/idkhan/Balatro3DS/issues/50/hovercard" href="https://github.com/idkhan/Balatro3DS/issues/50">#50</a></li>
-
-    </ul>
-
-    <p dir="auto">This version does not work, don''t use this</p>'
-  update_notes_md: "### Features\n- Added support for ZR and ZL buttons on the New\
-    \ 3DS #50 \n\nThis version does not work, don't use this"
-  updated: '2026-07-26T12:22:42Z'
-  version: v1.2.2-testing
-  version_title: Alpha 1.2.2 Pre-Release
 source: https://github.com/idkhan/Balatro3DS
 stars: 123
 systems:
 - 3DS
 title: Balatro3DS
-update_notes: '<h3 dir="auto">Bugfixes</h3>
+update_notes: '<h3 dir="auto">Features</h3>
 
   <ul dir="auto">
 
-  <li>Fixed the game crashing on the O3DS due to not finding the ZL and ZR buttons</li>
+  <li>Added the ability to bind multiple buttons to the same action <a class="issue-link
+  js-issue-link" data-error-text="Failed to load title" data-id="4965075609" data-permission-text="Title
+  is private" data-url="https://github.com/idkhan/Balatro3DS/issues/50" data-hovercard-type="issue"
+  data-hovercard-url="/idkhan/Balatro3DS/issues/50/hovercard" href="https://github.com/idkhan/Balatro3DS/issues/50">#50</a></li>
 
   </ul>'
-updated: '2026-07-27T09:13:30Z'
-version: v1.2.2-alpha
-version_title: Alpha 1.2.2
+updated: '2026-07-27T16:51:29Z'
+version: v1.2.3-alpha
+version_title: Alpha 1.2.3
 ---
 The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos, now on the 3DS.
 
