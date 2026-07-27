@@ -46,7 +46,7 @@ prerelease:
   version: v1.2.2-testing
   version_title: Alpha 1.2.2 Pre-Release
 source: https://github.com/idkhan/Balatro3DS
-stars: 122
+stars: 123
 systems:
 - 3DS
 title: Balatro3DS
