@@ -32,7 +32,7 @@ screenshots:
 - description: Main
   url: https://db.universal-team.net/assets/images/screenshots/ctr-alarmo/main.png
 source: https://codeberg.org/FelixHomebrew/CtrAlarmo
-stars: 3
+stars: 4
 systems:
 - 3DS
 title: CTR Alarmo

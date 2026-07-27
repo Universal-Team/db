@@ -45,7 +45,7 @@ prerelease:
   version: Alpha_1.0.0
   version_title: Postal 1 Engine Port for New 3DS (Alpha - Playable Demo)
 source: https://github.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: Postal 1 Engine Port for New3ds Alpha
