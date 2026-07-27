@@ -10,9 +10,9 @@ description: A fanmade Balatro clone for the 3DS
 download_page: https://github.com/idkhan/Balatro3DS/releases
 downloads:
   Balatro3DS.3dsx:
-    size: 14239061
+    size: 14236872
     size_str: 13 MiB
-    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.2.3-alpha/Balatro3DS.3dsx
+    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.2.4-alpha/Balatro3DS.3dsx
 github: idkhan/Balatro3DS
 icon: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/resources/textures/1x/icon.png
 image: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/banner.png
@@ -26,19 +26,26 @@ stars: 123
 systems:
 - 3DS
 title: Balatro3DS
-update_notes: '<h3 dir="auto">Features</h3>
+update_notes: '<h3 dir="auto">Features:</h3>
 
   <ul dir="auto">
 
-  <li>Added the ability to bind multiple buttons to the same action <a class="issue-link
-  js-issue-link" data-error-text="Failed to load title" data-id="4965075609" data-permission-text="Title
-  is private" data-url="https://github.com/idkhan/Balatro3DS/issues/50" data-hovercard-type="issue"
-  data-hovercard-url="/idkhan/Balatro3DS/issues/50/hovercard" href="https://github.com/idkhan/Balatro3DS/issues/50">#50</a></li>
+  <li>Added 3D support for Top screen elements</li>
+
+  <li>Game speed can now be increased to 4x</li>
+
+  </ul>
+
+  <h3 dir="auto">Bugfixes:</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed animations being jittery or breaking entirely at high game speeds</li>
 
   </ul>'
-updated: '2026-07-27T16:51:29Z'
-version: v1.2.3-alpha
-version_title: Alpha 1.2.3
+updated: '2026-07-27T21:59:41Z'
+version: v1.2.4-alpha
+version_title: Alpha 1.2.4
 ---
 The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos, now on the 3DS.
 
