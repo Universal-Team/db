@@ -1,0 +1,16 @@
+{
+	"github": "KirovAir/TwilightBoxart",
+	"download_filter": "\\.nds$",
+	"description": "Download box art/covers for TWiLightMenu++ and Pico Launcher, straight onto your SD card.",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"utility",
+		"app"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/KirovAir/TwilightBoxart/master/docs/unistore-icon.png",
+	"image": "https://raw.githubusercontent.com/KirovAir/TwilightBoxart/master/docs/unistore-banner.png",
+	"long_description": "TwilightBoxart fills your launcher's box art folder from the console itself. TwilightMenu++ and DSPico are currently supported.\nConnect to WiFi and it scans your card and downloads the right cover at the size your launcher\nneeds. Anything already on the card is left alone.\n\nIt works on a DSi over WPA2, and on an original DS or DS Lite with a flashcart over open or WEP WiFi.\n\n## Box art for 27 systems\nSupports DS, DSi and GBA, plus everything else a Nintendo DS can play that is supported: Gameboy, SNES, NES, Mega Drive, PC Engine, WonderSwan, Neo Geo Pocket, the Atari consoles and more."
+}
