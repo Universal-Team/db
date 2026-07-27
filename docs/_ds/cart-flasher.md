@@ -14,7 +14,7 @@ downloads:
   cart_flasher.nds:
     size: 216576
     size_str: 211 KiB
-    url: https://github.com/tasken/Cart-Flasher/releases/download/v0.5.1-comfey/cart_flasher.nds
+    url: https://github.com/tasken/Cart-Flasher/releases/download/v0.5.2-comfey/cart_flasher.nds
 github: tasken/Cart-Flasher
 icon: https://raw.githubusercontent.com/tasken/Cart-Flasher/refs/heads/main/resources/icon.png
 image: https://raw.githubusercontent.com/tasken/Cart-Flasher/main/resources/logo.png
@@ -32,21 +32,29 @@ systems:
 title: Cart-Flasher
 update_notes: '<ul dir="auto">
 
-  <li>Cleaned up and aligned the layout of the result, confirmation, and wrong key-combo
-  failure screens</li>
+  <li>Made screen drawing noticeably lighter across every menu</li>
 
-  <li>Fixed centering on the dump and write confirmation text</li>
+  <li>Screen titles now centre themselves instead of being positioned by hand on each
+  screen</li>
 
-  <li>Separated operation status messages from action button prompts on result screens</li>
+  <li>Added support for centring multi-line text as a block</li>
 
-  <li>Fixed a compiler warning from a duplicate macro definition</li>
+  <li>Guarded against unusually long cart names drawing past the edge of the screen</li>
+
+  <li>Fixed a build warning caused by a macro defined in three places across the flashcart
+  drivers</li>
+
+  <li>Tidied up the source includes so each file declares what it actually uses</li>
+
+  <li>Documented the changes made to the bundled flashcart_core and libncgc code,
+  with dates</li>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/tasken/Cart-Flasher/compare/v0.5-comfey...v0.5.1-comfey"><tt>v0.5-comfey...v0.5.1-comfey</tt></a></p>'
-updated: '2026-07-24T22:40:14Z'
-version: v0.5.1-comfey
-version_title: v0.5.1-comfey
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/tasken/Cart-Flasher/compare/v0.5.1-comfey...v0.5.2-comfey"><tt>v0.5.1-comfey...v0.5.2-comfey</tt></a></p>'
+updated: '2026-07-27T03:43:20Z'
+version: v0.5.2-comfey
+version_title: v0.5.2-comfey
 ---
 A DS/DSi homebrew application to backup and restore raw flash images to/from Slot-1 flashcarts.
 
