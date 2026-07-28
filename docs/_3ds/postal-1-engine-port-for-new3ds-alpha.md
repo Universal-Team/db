@@ -16,8 +16,8 @@ icon: https://raw.githubusercontent.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/
 image: https://raw.githubusercontent.com/Taifuoguru/Postal-1-New-3DS-Port-Alpha-/main/Icon.png
 image_length: 2391
 layout: app
-license: gpl-3.0
-license_name: GNU General Public License v3.0
+license: gpl-2.0
+license_name: GNU General Public License v2.0
 llm_generation: minor
 preinstall_message: 'Note: You will need to copy the assets from your PC copy of the
   game to "sdmc:/3ds/postal1".
