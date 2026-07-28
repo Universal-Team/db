@@ -27,7 +27,7 @@ llm_generation: minor
 qr:
   TwilightBoxart-DS-DSi.nds: https://db.universal-team.net/assets/images/qr/twilightboxart-ds-dsi-nds.png
 source: https://github.com/KirovAir/TwilightBoxart
-stars: 190
+stars: 191
 systems:
 - DS
 title: TwilightBoxart
