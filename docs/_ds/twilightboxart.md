@@ -13,9 +13,9 @@ download_filter: \.nds$
 download_page: https://github.com/KirovAir/TwilightBoxart/releases
 downloads:
   TwilightBoxart-DS-DSi.nds:
-    size: 2644480
+    size: 2652160
     size_str: 2 MiB
-    url: https://github.com/KirovAir/TwilightBoxart/releases/download/2.2.0/TwilightBoxart-DS-DSi.nds
+    url: https://github.com/KirovAir/TwilightBoxart/releases/download/2.3.0/TwilightBoxart-DS-DSi.nds
 github: KirovAir/TwilightBoxart
 icon: https://raw.githubusercontent.com/KirovAir/TwilightBoxart/master/docs/unistore-icon.png
 image: https://raw.githubusercontent.com/KirovAir/TwilightBoxart/master/docs/unistore-banner.png
@@ -35,21 +35,17 @@ update_notes: '<h3 dir="auto">What''s new</h3>
 
   <ul dir="auto">
 
-  <li><strong>DS Pico support.</strong> Every client can now write covers for <a href="https://github.com/LNH-team/pico-launcher">Pico
-  Launcher</a> as well as TWiLightMenu++. Pick your launcher up front and the rest
-  follows: Pico gets the fixed 128 × 96 8-bit BMP it wants, in <code class="notranslate">_pico/covers/user</code>,
-  for every system TwilightBoxart knows about. The size and border settings disappear,
-  because Pico''s cover format is fixed.</li>
+  <li><strong>Web/Desktop/DSi:</strong> Improved boxart scanning by a mile which should
+  add ~6,600 games that used to come back blank. This will be a huge improvement for
+  foreign titles.</li>
 
-  <li><strong>Original DS support.</strong> The homebrew client now runs on a DS and
-  DS Lite from a flashcart, not just a DSi. That radio is the 2005 one, so it joins
-  open or WEP networks only, on 2.4 GHz; an open hotspot is the easiest way in. On
-  a DSi nothing changes, WPA2 and all.</li>
+  <li><strong>DS(i)</strong> Way faster downloading. (I''d say around 4x in testing,
+  even more on regular DS)</li>
+
+  <li>If you downloaded the DS(i) version quickly after release please redownload
+  it. The automated build broke the downloader.. this is now fixed.</li>
 
   </ul>
-
-  <p dir="auto">The homebrew asset is now named <code class="notranslate">TwilightBoxart-DS-DSi.nds</code>,
-  since it is no longer DSi-only.</p>
 
   <h3 dir="auto">How to run it</h3>
 
@@ -108,9 +104,9 @@ update_notes: '<h3 dir="auto">What''s new</h3>
   </tbody>
 
   </table></markdown-accessiblity-table>'
-updated: '2026-07-25T12:12:33Z'
-version: 2.2.0
-version_title: TwilightBoxart 2.2
+updated: '2026-07-29T19:54:20Z'
+version: 2.3.0
+version_title: TwilightBoxart 2.3
 ---
 TwilightBoxart fills your launcher's box art folder from the console itself. TwilightMenu++ and DSPico are currently supported.
 Connect to WiFi and it scans your card and downloads the right cover at the size your launcher
