@@ -27,7 +27,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.3.1A
   downloads:
     TJAP_3DS.3dsx:
-      size: 10398740
+      size: 10398756
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.1A/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -44,6 +44,8 @@ prerelease:
 
     <li><code class="notranslate">#NEXTSONG </code>の対応、タイミングのズレを修正</li>
 
+    <li>魂ゲージの描画に関する仕様変更</li>
+
     </ul>
 
     <h2 dir="auto">Changelog</h2>
@@ -55,6 +57,8 @@ prerelease:
     <li>Fixed the timing discrepancy in the <code class="notranslate">#NEXTSONG</code>
     function.</li>
 
+    <li>Changes to the Soul Gauge rendering specifications.</li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
@@ -62,12 +66,16 @@ prerelease:
 
     - `#NEXTSONG `の対応、タイミングのズレを修正
 
+    - 魂ゲージの描画に関する仕様変更
+
 
     ## Changelog
 
     - Specification changes regarding the drawing order of notes.
 
-    - Fixed the timing discrepancy in the `#NEXTSONG` function.'
+    - Fixed the timing discrepancy in the `#NEXTSONG` function.
+
+    - Changes to the Soul Gauge rendering specifications.'
   updated: '2026-07-23T05:32:32Z'
   version: v2.3.1A
   version_title: TJAPlayer for 3DS v2.3.1(A)
