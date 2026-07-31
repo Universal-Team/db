@@ -20,7 +20,7 @@ image_length: 630
 layout: app
 llm_generation: unknown
 source: https://github.com/FluBBaOfWard/S8DS
-stars: 37
+stars: 38
 systems:
 - DS
 title: S8DS
