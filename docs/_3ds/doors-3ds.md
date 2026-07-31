@@ -1,6 +1,6 @@
 ---
 author: Carmander152
-avatar: https://avatars.githubusercontent.com/u/226231353?v=4
+avatar: https://avatars.githubusercontent.com/u/311189961?v=4
 categories:
 - game
 color: '#6b594c'
@@ -17,22 +17,25 @@ image_length: 38377
 layout: app
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/carmander152/Doors-3DS/releases/tag/Beta-v0.8.1
+  download_page: https://github.com/Doors-3ds-Development-Team/Doors-3DS/releases/tag/Beta-v0.8.1
   downloads:
     Doors_3DS.3dsx:
       size: 11375880
       size_str: 10 MiB
-      url: https://github.com/carmander152/Doors-3DS/releases/download/Beta-v0.8.1/Doors_3DS.3dsx
+      url: https://github.com/Doors-3ds-Development-Team/Doors-3DS/releases/download/Beta-v0.8.1/Doors_3DS.3dsx
     Doors_3DS.cia:
       size: 11953088
       size_str: 11 MiB
-      url: https://github.com/carmander152/Doors-3DS/releases/download/Beta-v0.8.1/Doors_3DS.cia
+      url: https://github.com/Doors-3ds-Development-Team/Doors-3DS/releases/download/Beta-v0.8.1/Doors_3DS.cia
   qr:
     Doors_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/doors_3ds-cia.png
-  update_notes: '<p dir="auto">Just a quick fix release that adds L &amp; R camera
-    control support to make old 3ds feel more comfortable to play with.<br>
+  update_notes: '<p>Just a quick fix release that adds L &amp; R camera control support
+    to make old 3ds feel more comfortable to play with.<br>
 
-    </p>'
+    <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/5d9a04b1-c273-4a6f-b802-8225b3629413"><img
+    width="270" height="270" alt="image" src="https://github.com/user-attachments/assets/5d9a04b1-c273-4a6f-b802-8225b3629413"
+    style="max-width: 100%; height: auto; max-height: 270px;; aspect-ratio: 270 /
+    270; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>'
   update_notes_md: 'Just a quick fix release that adds L & R camera control support
     to make old 3ds feel more comfortable to play with.
 
@@ -41,17 +44,20 @@ prerelease:
   updated: '2026-05-11T23:42:44Z'
   version: Beta-v0.8.1
   version_title: Doors 3DS Beta v0.8.1
-source: https://github.com/carmander152/Doors-3DS
+source: https://github.com/Doors-3ds-Development-Team/Doors-3DS
 stars: 11
 systems:
 - 3DS
 title: Doors-3DS
 unique_ids:
 - '0xD0075'
-update_notes: '<p dir="auto">Just a quick fix release that adds L &amp; R camera control
-  support to make old 3ds feel more comfortable to play with.<br>
+update_notes: '<p>Just a quick fix release that adds L &amp; R camera control support
+  to make old 3ds feel more comfortable to play with.<br>
 
-  </p>'
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/5d9a04b1-c273-4a6f-b802-8225b3629413"><img
+  width="270" height="270" alt="image" src="https://github.com/user-attachments/assets/5d9a04b1-c273-4a6f-b802-8225b3629413"
+  style="max-width: 100%; height: auto; max-height: 270px;; aspect-ratio: 270 / 270;
+  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a></p>'
 updated: '2026-05-11T23:42:44Z'
 version: Beta-v0.8.1
 version_title: Doors 3DS Beta v0.8.1
