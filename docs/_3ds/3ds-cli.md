@@ -11,9 +11,9 @@ description: Nintendo 3DS homebrew application that embeds a full RISC-V emulato
 download_page: https://github.com/cmdada/3DS-CLI/releases
 downloads:
   3ds_cli.zip:
-    size: 15382270
-    size_str: 14 MiB
-    url: https://github.com/cmdada/3DS-CLI/releases/download/build-9e47f7815bef60290930d0b892fe6143f58c4593/3ds_cli.zip
+    size: 56212893
+    size_str: 53 MiB
+    url: https://github.com/cmdada/3DS-CLI/releases/download/build-fdea6aae8ef4d6f6ad28c822e544d48319759dbd/3ds_cli.zip
 github: cmdada/3DS-CLI
 icon: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
 image: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
@@ -50,12 +50,10 @@ update_notes: '<h2 dir="auto">SD Card Setup</h2>
 
   Includes: bash, htop, neofetch, nano, vim, tree, wget, dropbear,<br>
 
-  procps, util-linux.</p>
-
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/cmdada/3DS-CLI/compare/1.8...build-9e47f7815bef60290930d0b892fe6143f58c4593"><tt>1.8...build-9e47f7815bef60290930d0b892fe6143f58c4593</tt></a></p>'
-updated: '2026-07-29T05:04:33Z'
-version: build-9e47f7815bef60290930d0b892fe6143f58c4593
-version_title: V2.0 - biiiig overhaul and so many features
+  procps, util-linux.</p>'
+updated: '2026-07-31T19:31:59Z'
+version: build-fdea6aae8ef4d6f6ad28c822e544d48319759dbd
+version_title: Build fdea6aa
 ---
 
 A Nintendo 3DS homebrew application that embeds a full RISC-V CPU emulator (`mini-rv32ima` by cnlohr) to boot a real Linux environment inside the 3DS Horizon OS.
