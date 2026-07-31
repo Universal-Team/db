@@ -1,0 +1,16 @@
+{
+  "github": "maximalmax90/3dstp",
+  "title": "3DS Tracker Player",
+  "author": "maximalmax90",
+  "description": "Tracker module and MIDI player. MIDI playback requires an external GUS PAT bank.",
+  "systems": [
+    "3DS"
+  ],
+  "categories": [
+    "app",
+    "media"
+  ],
+  "llm_generation": "yes",
+  "icon": "https://raw.githubusercontent.com/maximalmax90/3dstp/main/icon.png",
+  "download_filter": "^3dstp\\.3dsx$"
+}
