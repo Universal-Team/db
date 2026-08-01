@@ -25,7 +25,7 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: 'no'
 source: https://github.com/DS-Homebrew/nds-bootstrap
-stars: 1381
+stars: 1382
 systems:
 - DS
 title: nds-bootstrap
