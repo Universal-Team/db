@@ -11,9 +11,9 @@ description: Nintendo 3DS homebrew application that embeds a full RISC-V emulato
 download_page: https://github.com/cmdada/3DS-CLI/releases
 downloads:
   3ds_cli.zip:
-    size: 56212893
+    size: 56201593
     size_str: 53 MiB
-    url: https://github.com/cmdada/3DS-CLI/releases/download/build-fdea6aae8ef4d6f6ad28c822e544d48319759dbd/3ds_cli.zip
+    url: https://github.com/cmdada/3DS-CLI/releases/download/build-1fb1793011ae27878f53b3431897ebc16aacec8c/3ds_cli.zip
 github: cmdada/3DS-CLI
 icon: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
 image: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
@@ -51,9 +51,9 @@ update_notes: '<h2 dir="auto">SD Card Setup</h2>
   Includes: bash, htop, neofetch, nano, vim, tree, wget, dropbear,<br>
 
   procps, util-linux.</p>'
-updated: '2026-07-31T19:31:59Z'
-version: build-fdea6aae8ef4d6f6ad28c822e544d48319759dbd
-version_title: V2.0.1
+updated: '2026-08-01T03:44:01Z'
+version: build-1fb1793011ae27878f53b3431897ebc16aacec8c
+version_title: V2.1 - better compatibility
 ---
 
 A Nintendo 3DS homebrew application that embeds a full RISC-V CPU emulator (`mini-rv32ima` by cnlohr) to boot a real Linux environment inside the 3DS Horizon OS.
