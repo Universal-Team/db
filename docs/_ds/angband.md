@@ -97,7 +97,7 @@ prerelease:
   version: 4.2.6-166-gf0f6bd223
   version_title: 4.2.6-166-gf0f6bd223
 source: https://github.com/angband/angband
-stars: 1543
+stars: 1544
 systems:
 - 3DS
 - DS

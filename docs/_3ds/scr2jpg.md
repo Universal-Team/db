@@ -35,7 +35,7 @@ systems:
 - 3DS
 title: SCR2JPG
 unique_ids:
-- '0xFF3FF'
+- '0xC0D3C'
 update_notes: '<ul dir="auto">
 
   <li>.cia now supported</li>

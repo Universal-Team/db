@@ -23,7 +23,7 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: unknown
 source: https://github.com/cmdada/3DS-CLI
-stars: 34
+stars: 35
 systems:
 - 3DS
 title: 3DS-CLI
@@ -53,7 +53,7 @@ update_notes: '<h2 dir="auto">SD Card Setup</h2>
   procps, util-linux.</p>'
 updated: '2026-07-31T19:31:59Z'
 version: build-fdea6aae8ef4d6f6ad28c822e544d48319759dbd
-version_title: Build fdea6aa
+version_title: V2.0.1
 ---
 
 A Nintendo 3DS homebrew application that embeds a full RISC-V CPU emulator (`mini-rv32ima` by cnlohr) to boot a real Linux environment inside the 3DS Horizon OS.
