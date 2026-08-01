@@ -78,7 +78,7 @@ screenshots:
 - description: Sonic 2 title screen
   url: https://db.universal-team.net/assets/images/screenshots/sonic-1--2/sonic-2-title-screen.png
 source: https://github.com/JeffRuLz/Sonic-1-2-2013-Decompilation
-stars: 53
+stars: 54
 systems:
 - 3DS
 title: Sonic 1 / 2

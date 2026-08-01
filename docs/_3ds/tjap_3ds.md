@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 10398748
+    size: 10399172
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.1A/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.1B/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 10572736
     size_str: 10 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.1A/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.1B/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -41,11 +41,9 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>音符の描画順に関する仕様変更</li>
+  <li>HBSCROLLに関する一部動作の仕様変更</li>
 
-  <li><code class="notranslate">#NEXTSONG </code>の対応、タイミングのズレを修正</li>
-
-  <li>魂ゲージの描画に関する仕様変更</li>
+  <li>特定の条件下でノーツの判定処理が遅くなる不具合の修正</li>
 
   </ul>
 
@@ -53,17 +51,14 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Specification changes regarding the drawing order of notes.</li>
+  <li>Changes to some of the operation specifications related to HBSCROLL</li>
 
-  <li>Fixed the timing discrepancy in the <code class="notranslate">#NEXTSONG</code>
-  function.</li>
-
-  <li>Changes to the Soul Gauge rendering specifications.</li>
+  <li>Fixed a bug where note judgment processing was slow under certain conditions</li>
 
   </ul>'
-updated: '2026-07-23T05:32:32Z'
-version: v2.3.1A
-version_title: TJAPlayer for 3DS v2.3.1(A)
+updated: '2026-08-01T07:31:01Z'
+version: v2.3.1B
+version_title: TJAPlayer for 3DS v2.3.1(B)
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
