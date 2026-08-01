@@ -1,0 +1,48 @@
+{
+	"github": "cmdada/dn3ds",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/cmdada/dn3ds/refs/heads/master/icon.png",
+	"image": "https://raw.githubusercontent.com/cmdada/dn3ds/refs/heads/master/banner.png",
+	"unique_ids": [
+		54229
+	],
+	"scripts": {
+		"dn3ds.cia": [
+			{
+				"type": "downloadRelease",
+				"repo": "cmdada/dn3ds",
+				"file": "DUKE3D.GRP",
+				"output": "/3ds/duke3d/DUKE3D.GRP"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "cmdada/dn3ds",
+				"file": "DUKE.RTS",
+				"output": "/3ds/duke3d/DUKE.RTS"
+			},
+			{
+				"type": "downloadRelease",
+				"repo": "cmdada/dn3ds",
+				"file": "dn3ds.cia",
+				"output": "/dn3ds.cia"
+			},
+			{
+				"type": "installCia",
+				"file": "/dn3ds.cia"
+			},
+			{
+				"type": "deleteFile",
+				"file": "/dn3ds.cia"
+			}
+		]
+	},
+	"long_description": "Duke Nukem 3D on the New Nintendo 3DS, ported from\n[the 2003 GPL source release](https://github.com/videogamepreservation/dukenukem3d), with stereoscopic 3D and a few other improvements for the 3ds.\n## Controls\n\n| Button | In game | In menus |\n|---|---|---|\n| **Circle pad** | move / strafe (analog) | navigate |\n| **D-pad** | turn, look up/down | navigate |\n| **C-stick** | next / previous weapon, aim up/down | — |\n| **A** / **B** | open, use · jump | select · back |\n| **X** / **Y** | crouch · use inventory | — |\n| **ZR** / **R** | fire | — |\n| **ZL** | run | — |\n| **L** | previous weapon | — |\n| **START** / **SELECT** | menu · overhead map | back |\n| **Touch** | tap a box to select that weapon | — |\n",
+	"license": "gpl-2.0",
+	"license_name": "GNU General Public License v2.0"
+}
