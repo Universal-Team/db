@@ -10,9 +10,9 @@ description: Atari 8-bit computer and 5200 console emulator - 3DS port
 download_page: https://github.com/asiekierka/atari800-3ds/releases
 downloads:
   atari800.3dsx:
-    size: 843900
-    size_str: 824 KiB
-    url: https://github.com/asiekierka/atari800-3ds/releases/download/port-3ds/v0.3.10/atari800.3dsx
+    size: 939180
+    size_str: 917 KiB
+    url: https://github.com/asiekierka/atari800-3ds/releases/download/port-3ds/v0.4.0/atari800.3dsx
 github: asiekierka/atari800-3ds
 icon: https://db.universal-team.net/assets/images/icons/atari800.png
 image: https://db.universal-team.net/assets/images/images/atari800.png
@@ -28,22 +28,16 @@ systems:
 title: Atari800
 update_notes: '<ul dir="auto">
 
-  <li>Updated to atari800 5.2.0.
+  <li>Updated to atari800 7.1.2.</li>
 
-  <ul dir="auto">
+  <li>Updated AltirraOS from 3.41 to 3.49.</li>
 
-  <li>Updated AltirraOS: 3.34 -&gt; 3.41.</li>
-
-  <li>Added menu option to set ''H'' device letter.</li>
-
-  </ul>
-
-  </li>
+  <li>Updated Altirra BASIC from 1.58 to 1.59.</li>
 
   <li>Updated dependencies.</li>
 
   </ul>'
-updated: '2024-01-20T07:15:34Z'
-version: port-3ds/v0.3.10
-version_title: atari800-3ds 0.3.10
+updated: '2026-08-01T21:07:18Z'
+version: port-3ds/v0.4.0
+version_title: atari800-3ds 0.4.0
 ---
