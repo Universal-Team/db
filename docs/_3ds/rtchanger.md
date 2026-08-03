@@ -33,7 +33,7 @@ llm_generation: 'no'
 qr:
   RTChanger-Version1.0.cia: https://db.universal-team.net/assets/images/qr/rtchanger-version1-0-cia.png
 source: https://github.com/Storm-Eagle20/RTChanger
-stars: 27
+stars: 28
 systems:
 - 3DS
 title: RTChanger
