@@ -33,7 +33,7 @@ llm_generation: unknown
 qr:
   streamu.cia: https://db.universal-team.net/assets/images/qr/streamu-cia.png
 source: https://github.com/imissuuuu/StreaMu
-stars: 10
+stars: 11
 systems:
 - 3DS
 title: StreaMu

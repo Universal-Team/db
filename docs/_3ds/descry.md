@@ -12,13 +12,13 @@ description: music tracker + synthesizer for the New Nintendo 3DS — song/chain
 download_page: https://github.com/patausx/descry/releases
 downloads:
   descry.3dsx:
-    size: 450832
-    size_str: 440 KiB
-    url: https://github.com/patausx/descry/releases/download/v1.0.4/descry.3dsx
+    size: 478264
+    size_str: 467 KiB
+    url: https://github.com/patausx/descry/releases/download/v1.0.5/descry.3dsx
   descry.cia:
-    size: 504768
-    size_str: 492 KiB
-    url: https://github.com/patausx/descry/releases/download/v1.0.4/descry.cia
+    size: 524736
+    size_str: 512 KiB
+    url: https://github.com/patausx/descry/releases/download/v1.0.5/descry.cia
 github: patausx/descry
 icon: https://raw.githubusercontent.com/patausx/descry/main/assets/icon.png
 image: https://raw.githubusercontent.com/patausx/descry/main/branding/final/banner_256x128.png
@@ -49,177 +49,209 @@ systems:
 title: descry
 unique_ids:
 - '0xDE5C1'
-update_notes: '<h1 dir="auto">descry v1.0.4 — modes, scopes &amp; housekeeping</h1>
+update_notes: '<p dir="auto">three weeks of work, and most of it is the unglamorous
+  kind: races, silent<br>
 
-  <h2 dir="auto">record modes done right (issue <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="4863598431" data-permission-text="Title
-  is private" data-url="https://github.com/patausx/descry/issues/5" data-hovercard-type="issue"
-  data-hovercard-url="/patausx/descry/issues/5/hovercard" href="https://github.com/patausx/descry/issues/5">#5</a>)</h2>
+  corruption and knobs that did nothing. a sampler workflow overhaul on top.</p>
 
-  <p dir="auto">the touch keyboard used to <strong>always</strong> write notes in
-  the phrase view — "REC off still records", as <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/Rhlp-Engineering/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Rhlp-Engineering">@Rhlp-Engineering</a>
-  rightly complained. the REC button now cycles three explicit modes:</p>
-
-  <markdown-accessiblity-table><table role="table">
-
-  <thead>
-
-  <tr>
-
-  <th>mode</th>
-
-  <th>what happens</th>
-
-  </tr>
-
-  </thead>
-
-  <tbody>
-
-  <tr>
-
-  <td><strong>JAM</strong> <em>(default)</em></td>
-
-  <td>keys and pads only preview. nothing is ever written — noodle over a playing
-  song without leaving fingerprints</td>
-
-  </tr>
-
-  <tr>
-
-  <td><strong>WRT</strong></td>
-
-  <td>tracker write mode: notes land at the cursor, cursor advances</td>
-
-  </tr>
-
-  <tr>
-
-  <td><strong>LIVE</strong></td>
-
-  <td>with the transport running, notes are recorded onto the step playing <em>right
-  now</em></td>
-
-  </tr>
-
-  </tbody>
-
-  </table></markdown-accessiblity-table>
-
-  <p dir="auto">and the other half of the report — <em>"i couldn''t find the note
-  clear button"</em> — there''s a <strong>CLR</strong> button next to REC now: in
-  WRT it clears the step under the cursor and advances (tap-tap-tap wipes a run),
-  in LIVE it clears the currently playing step. everything is undoable (ZL+B), and
-  touch-entered notes finally participate in undo too.</p>
-
-  <h2 dir="auto">scope styles</h2>
-
-  <p dir="auto">tap the DESCRY wordmark — under the theme list there''s a new <strong>SCOPE</strong>
-  row:</p>
+  <h2 dir="auto">sampling &amp; wavetables</h2>
 
   <ul dir="auto">
 
-  <li><strong>WAVE</strong> — the classic filled envelope (default)</li>
+  <li><strong>complete sampler capture / slicing workflow</strong> — recording, trimming,<br>
 
-  <li><strong>BARS</strong> — mirrored peak bars, chunky VU look</li>
+  transient and equal chopping, per-slice reverse, slice-to-phrase and<br>
 
-  <li><strong>X-Y</strong> — a proper <strong>goniometer</strong>: mid/side-rotated
-  lissajous with auto-gain, connected phosphor-decay trail and CRT-style beam blanking
-  on transients. mono sits as a vertical needle; reverb, detune and panning bloom
-  the figure sideways. gorgeous in fullscreen (L+SELECT)</li>
+  slice-to-kit, beat-sync repitch, and a wav browser that handles 8/16/24/32-bit<br>
+
+  and float files. all of it realtime-safe: SD and decode work happens off the<br>
+
+  audio lock, then swaps under it</li>
+
+  <li><strong>capture any sampler window as a permanent oscillator</strong> — the
+  visible window<br>
+
+  becomes a single-cycle USER wavetable plus a matching wavsynth instrument, DC<br>
+
+  removed and normalised, persisted across reboots. record a vowel through the<br>
+
+  mic, play it as an oscillator</li>
+
+  <li>host-side tools for building sample/wav libraries and pushing them to the<br>
+
+  console over FTP</li>
 
   </ul>
-
-  <p dir="auto">the picker stays open while you choose so the strip reacts live. your
-  pick is remembered.</p>
-
-  <h2 dir="auto">song export, wired up</h2>
-
-  <p dir="auto"><code class="notranslate">render.wav — song export</code> was promised
-  by the manual... but no button ever triggered it. now: <strong>SELECT in the project
-  view</strong> renders the song to <code class="notranslate">sdmc:/3ds/descry/render.wav</code>
-  (up to 60 s, 32 kHz stereo), with a status toast either way.</p>
-
-  <h2 dir="auto">settings that stick</h2>
-
-  <p dir="auto">new <code class="notranslate">settings.cfg</code> replaces <code class="notranslate">theme.cfg</code>
-  (your saved theme migrates automatically). descry now wakes up exactly how you left
-  it: theme, octave, KEYS/PADS/KAOS mode, kaoss X/Y assignments, stick sync, scope
-  style.</p>
 
   <h2 dir="auto">fixes</h2>
 
   <ul dir="auto">
 
-  <li><strong>bottom screen flickered / vanished in fullscreen X-Y scope</strong>
-  — the goniometer trail was draining the shared citro2d quad pool on hot transients,
-  silently starving everything drawn after it. hard quad budget + beam blanking +
-  a bigger pool</li>
+  <li><strong>two use-after-free races between the UI and the audio worker</strong>
+  — preview<br>
 
-  <li>in-app manual updated: record modes, groove pattern column (mixer GRV), scope
-  styles</li>
+  voices were published to the mixer <em>before</em> <code class="notranslate">note_on()</code>,
+  so if a buffer fill<br>
+
+  landed in that window the worker deleted the voice as inactive and the UI then<br>
+
+  called <code class="notranslate">note_on()</code> on freed memory. separately, every
+  destructive sample edit<br>
+
+  (normalize, reverse, fade, crop, wav load, resample, drum regen, mic record)<br>
+
+  mutated a vector a live sampler voice was reading — a realloc there is heap<br>
+
+  corruption. new <code class="notranslate">start_voice()</code> and <code class="notranslate">cut_slot_voices()</code>
+  close both. <em>found in<br>
+
+  an external audit of v1.0.4</em></li>
+
+  <li><strong>a full SD card could destroy the project you were saving</strong> —
+  saves went<br>
+
+  straight over the target file, so a failed write left a torn file while the UI<br>
+
+  reported success. saves are now atomic (temp file, verified, renamed) and<br>
+
+  loads are transactional, so a short read can no longer leave the live project<br>
+
+  half-old and half-new. loading also validates and clamps anything the player<br>
+
+  indexes into or divides by, instead of trusting the file</li>
+
+  <li><strong>sampler LENGTH disagreed with the engine</strong> — the UI drew the
+  window as<br>
+
+  <code class="notranslate">[start, start+length)</code>, the engine read LENGTH as
+  an absolute end frame.<br>
+
+  invisible at the default 100%, but any moved START played something other than<br>
+
+  what was on screen: START 50 + LENGTH 50 played an empty window instead of the<br>
+
+  visible second half</li>
+
+  <li><strong>mic recordings were 39 cents flat</strong> — the 3DS mic delivers 32728
+  Hz, the<br>
+
+  engine plays 32000, and nothing resampled. every recording ever made was 2.3%<br>
+
+  slow. now resampled on stop</li>
+
+  <li><strong>long wavetable filenames never loaded</strong> — the scan buffer counted
+  <code class="notranslate">.wav</code><br>
+
+  against a 20-byte limit, leaving 15 characters of real name, so<br>
+
+  <code class="notranslate">AKWF_hvoice_0001.wav</code> and friends were skipped.
+  that is the dominant naming<br>
+
+  convention for single-cycle packs, so the usual symptom was an empty list with<br>
+
+  no explanation</li>
+
+  <li><strong>wavetable slot order was not alphabetical</strong>, despite the header
+  saying so —<br>
+
+  it sorted a 32-entry window and took the first 16, so with more than 16 files<br>
+
+  the surviving set depended on raw FAT order. since projects store the slot as<br>
+
+  an index, a saved project could come back playing a different waveform</li>
+
+  <li><strong>CHA FF skipped its guaranteed trigger once every 256 rolls</strong>
+  (off-by-one on a<br>
+
+  0..255 range)</li>
+
+  <li><strong>a deep down-transpose under DLY jumped ten octaves up</strong> — the
+  note wrapped<br>
+
+  through unsigned before being clamped, so −1 became 255 became 127</li>
+
+  <li><strong>full-scale peaks read as silence on the meters</strong> — negating <code
+  class="notranslate">INT16_MIN</code><br>
+
+  wrapped back to itself</li>
+
+  <li><strong>cross-core flags were <code class="notranslate">volatile</code>, not
+  atomic</strong> — no happens-before between<br>
+
+  the UI on core 0 and the audio worker on core 1. also, a failed audio init<br>
+
+  leaked everything it had already acquired</li>
+
+  <li><strong>the in-app help page documenting the SD layout and export was invisible</strong>
+  —<br>
+
+  a page fits 18 lines before it hits the footer and that one had grown to 24, so<br>
+
+  everything from "SD layout" down was drawn off-screen</li>
 
   </ul>
 
-  <h2 dir="auto">files</h2>
+  <h2 dir="auto">song exports (<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="5045693870" data-permission-text="Title is private" data-url="https://github.com/patausx/descry/issues/6"
+  data-hovercard-type="issue" data-hovercard-url="/patausx/descry/issues/6/hovercard"
+  href="https://github.com/patausx/descry/issues/6">#6</a>)</h2>
 
-  <markdown-accessiblity-table><table role="table">
+  <p dir="auto">exports were hardcoded to a single <code class="notranslate">render.wav</code>,
+  so rendering a second project<br>
 
-  <thead>
+  silently destroyed the first, and there was no way to name the file — reported by<br>
 
-  <tr>
+  <strong><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/francorv99/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/francorv99">@francorv99</a></strong>.</p>
 
-  <th>file</th>
+  <p dir="auto">exports now go to <code class="notranslate">renders/</code> named
+  after the current project, and an existing<br>
 
-  <th>use</th>
+  take is never overwritten: repeat renders become <code class="notranslate">NAME_01.wav</code>,
+  <code class="notranslate">NAME_02.wav</code>, …<br>
 
-  </tr>
+  so you can bounce a whole session before pulling the SD card. hold <strong>R</strong>
+  in the<br>
 
-  </thead>
+  PROJECT view to rename, and the view shows the exact target<br>
 
-  <tbody>
+  (<code class="notranslate">SEL -&gt; renders/NAME.wav</code>) <em>before</em> you
+  press SELECT. rename mode existed<br>
 
-  <tr>
+  already but nothing on screen advertised it, which is half of why this was<br>
 
-  <td><code class="notranslate">descry.3dsx</code></td>
+  filed — there is a <code class="notranslate">R=RENAME</code> hint now.</p>
 
-  <td>homebrew launcher</td>
+  <h2 dir="auto">tests</h2>
 
-  </tr>
+  <p dir="auto"><code class="notranslate">make tests</code> builds and runs the host-side
+  suite. six tests had no build rule at<br>
 
-  <tr>
+  all and were dead weight nobody ran. <code class="notranslate">test_slice</code>
+  was worse than useless: it only<br>
 
-  <td><code class="notranslate">descry.cia</code></td>
+  printed results and always claimed success, and it probed chop sensitivity on a<br>
 
-  <td>install to home menu (FBI)</td>
+  break with a silent floor where the setting cannot matter — 80, 150 and 220 all<br>
 
-  </tr>
+  produced byte-identical output, so that knob could have been completely broken<br>
 
-  <tr>
+  without anyone noticing. it asserts now, on material where sensitivity actually<br>
 
-  <td><code class="notranslate">descry.3ds</code></td>
+  does something.</p>
 
-  <td>flashcart / citra-azahar</td>
+  <h2 dir="auto">note</h2>
 
-  </tr>
+  <p dir="auto">the SD layout no longer has <code class="notranslate">render.wav</code>
+  — it is <code class="notranslate">renders/</code> now. no project or<br>
 
-  </tbody>
+  sample data is affected; a leftover <code class="notranslate">render.wav</code>
+  is simply unused and can be<br>
 
-  </table></markdown-accessiblity-table>
-
-  <blockquote>
-
-  <p dir="auto"><strong>emulator users:</strong> descry needs a real DSP firmware
-  dump — see <a href="https://github.com/patausx/descry/issues/2" data-hovercard-type="issue"
-  data-hovercard-url="/patausx/descry/issues/2/hovercard">issue #2</a> for the dspfirm.cdc
-  setup.</p>
-
-  </blockquote>'
-updated: '2026-07-15T09:23:06Z'
-version: v1.0.4
-version_title: descry v1.0.4
+  deleted by hand.</p>'
+updated: '2026-08-03T19:13:13Z'
+version: v1.0.5
+version_title: descry v1.0.5
 ---
 descry is a music tracker + synthesizer for the New Nintendo 3DS, in the tradition of LSDj, the Dirtywave M8 and Korg's discontinued DSN-12.
 
