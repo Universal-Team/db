@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 10399172
+    size: 10402672
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.1B/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.1C/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 10572736
     size_str: 10 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.1B/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.1C/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -41,9 +41,9 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>HBSCROLLに関する一部動作の仕様変更</li>
+  <li>リプレイ時に下画面を叩いた場所が表示される様になりました。</li>
 
-  <li>特定の条件下でノーツの判定処理が遅くなる不具合の修正</li>
+  <li>リプレイ時にAUTOの切り替えが出来てしまったのを修正</li>
 
   </ul>
 
@@ -51,14 +51,14 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Changes to some of the operation specifications related to HBSCROLL</li>
+  <li>The location where you tapped the bottom screen is now displayed during replays.</li>
 
-  <li>Fixed a bug where note judgment processing was slow under certain conditions</li>
+  <li>Fixed an issue where it was possible to switch to AUTO mode during replays.</li>
 
   </ul>'
-updated: '2026-08-01T07:31:01Z'
-version: v2.3.1B
-version_title: TJAPlayer for 3DS v2.3.1(B)
+updated: '2026-08-03T07:15:48Z'
+version: v2.3.1C
+version_title: TJAPlayer for 3DS v2.3.1(C)
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
