@@ -10,13 +10,13 @@ description: Atari 8-bit computer and 5200 console emulator - Unofficial CIA rel
 download_page: https://github.com/RandomMan25XX/atari800/releases
 downloads:
   atari800-3ds.3dsx:
-    size: 843900
-    size_str: 824 KiB
-    url: https://github.com/RandomMan25XX/atari800-3ds/releases/download/Version_3DS_0.3.10/atari800-3ds.3dsx
+    size: 956852
+    size_str: 934 KiB
+    url: https://github.com/RandomMan25XX/atari800-3ds/releases/download/Version_3DS_0.4.1/atari800-3ds.3dsx
   atari800-3ds.cia:
-    size: 1008576
-    size_str: 984 KiB
-    url: https://github.com/RandomMan25XX/atari800-3ds/releases/download/Version_3DS_0.3.10/atari800-3ds.cia
+    size: 1065920
+    size_str: 1 MiB
+    url: https://github.com/RandomMan25XX/atari800-3ds/releases/download/Version_3DS_0.4.1/atari800-3ds.cia
 github: RandomMan25XX/atari800
 icon: https://db.universal-team.net/assets/images/icons/atari800-randomman25xx.png
 image: https://db.universal-team.net/assets/images/images/atari800-randomman25xx.png
@@ -34,9 +34,8 @@ systems:
 title: Atari800 (RandomMan25XX)
 unique_ids:
 - '0xA8000'
-update_notes: <p>Well, it's certainly not same day delivery, but it's better than
-  the last few times</p>
-updated: '2024-01-21T05:15:33Z'
-version: Version_3DS_0.3.10
-version_title: A day late, but better than last time
+update_notes: '<p><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/RandomMan25XX/atari800-3ds/compare/Version_3DS_0.3.10...Version_3DS_0.4.1">RandomMan25XX/atari800-3ds@<tt>Version_3DS_0.3.10...Version_3DS_0.4.1</tt></a></p>'
+updated: '2026-08-04T19:13:53Z'
+version: Version_3DS_0.4.1
+version_title: An unexpected update, yet again (because of course there is)
 ---
