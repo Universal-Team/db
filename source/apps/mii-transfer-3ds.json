@@ -1,0 +1,20 @@
+{
+	"github": "jamesrhg/mii-transfer-ctr",
+	"title": "Mii Transfer (3DS)",
+	"description": "Transfer Mii data from your Nintendo 3DS to other devices for use in tools such as Mii Creator!",
+	"author": "jamesrhg/Arian Kordi",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/jamesrhg/mii-transfer-ctr/refs/heads/master/meta/icon-48x48.png",
+	"image": "https://raw.githubusercontent.com/jamesrhg/mii-transfer-ctr/refs/heads/master/meta/banner.png",
+	"unique_ids": [
+		1002803
+	],
+	"long_description": "Transfer Mii data from your Nintendo 3DS with a local hosted server to other devices for use in tools such as Mii Creator!\n\nTake in mind this app will share details of what action you are doing inside this app to your Friend List! If you like the 3DS version of this app, check out the Wii U version! (Coming soon, check Homebrew App Store on Wii U, maybe it already came out!)",
+	"preinstall_message": "Thank you for checking Mii Transfer (3DS) ! A Wii U version of this app will be available at some point in the Homebrew App Store."
+}
