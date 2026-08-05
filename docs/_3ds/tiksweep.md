@@ -32,7 +32,7 @@ llm_generation: 'no'
 qr:
   tikSweep.cia: https://db.universal-team.net/assets/images/qr/tiksweep-cia.png
 source: https://github.com/DanTheMan827/tikSweep
-stars: 52
+stars: 53
 systems:
 - 3DS
 title: tikSweep
@@ -54,18 +54,18 @@ version_title: v1.1.2
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>tikSweep.3dsx</summary>
-<ol>
-<li>Download <code>tikSweep.zip</code></li>
-<li>Extract <code>/3ds-arm/3ds/tikSweep/tikSweep.3dsx</code> from the zip to <code>/3ds/tikSweep.3dsx</code> on your SD card</li>
-</ol>
-</details>
-
 <details class="alert alert-secondary"><summary>tikSweep.cia</summary>
 <ol>
 <li>Download <code>tikSweep.cia</code> to <code>/cias/tikSweep.cia</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
 <li>Install and delete <code>/cias/tikSweep.cia</code> using FBI or GodMode9</li>
+</ol>
+</details>
+
+<details class="alert alert-secondary"><summary>tikSweep.3dsx</summary>
+<ol>
+<li>Download <code>tikSweep.zip</code></li>
+<li>Extract <code>/3ds-arm/3ds/tikSweep/tikSweep.3dsx</code> from the zip to <code>/3ds/tikSweep.3dsx</code> on your SD card</li>
 </ol>
 </details>
 
