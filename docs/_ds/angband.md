@@ -19,83 +19,23 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-166-gf0f6bd223
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-171-g0b1135b2d
   downloads:
-    Angband-4.2.6-166-gf0f6bd223-3ds.zip:
-      size: 24696299
+    Angband-4.2.6-171-g0b1135b2d-3ds.zip:
+      size: 24696204
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-166-gf0f6bd223/Angband-4.2.6-166-gf0f6bd223-3ds.zip
-    Angband-4.2.6-166-gf0f6bd223-nds.zip:
+      url: https://github.com/angband/angband/releases/download/4.2.6-171-g0b1135b2d/Angband-4.2.6-171-g0b1135b2d-3ds.zip
+    Angband-4.2.6-171-g0b1135b2d-nds.zip:
       size: 23330366
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-166-gf0f6bd223/Angband-4.2.6-166-gf0f6bd223-nds.zip
-  update_notes: '<h2 dir="auto">What''s Changed</h2>
-
-    <ul dir="auto">
-
-    <li>borg: fixed some spell use around detecting invisible by <a class="user-mention
+      url: https://github.com/angband/angband/releases/download/4.2.6-171-g0b1135b2d/Angband-4.2.6-171-g0b1135b2d-nds.zip
+  update_notes: <p dir="auto">Incorporate borg.txt into binary releases by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4931167244" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6673"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6673/hovercard"
-    href="https://github.com/angband/angband/pull/6673">#6673</a></li>
-
-    <li>On shape change, learn the shape''s obvious flags by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4918232230" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6669"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6669/hovercard"
-    href="https://github.com/angband/angband/pull/6669">#6669</a></li>
-
-    <li>Avoid two discarded const warnings seen with WSL on Windows 11 by <a class="user-mention
-    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4918257138" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6670"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6670/hovercard"
-    href="https://github.com/angband/angband/pull/6670">#6670</a></li>
-
-    <li>Projections: coerce blast radius to fit what dam_at_dist can handle by <a
-    class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4925270560" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6672"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6672/hovercard"
-    href="https://github.com/angband/angband/pull/6672">#6672</a></li>
-
-    <li>Correct spelling of Ossë by <a class="user-mention notranslate" data-hovercard-type="user"
-    data-hovercard-url="/users/fosskers/hovercard" data-octo-click="hovercard-link-click"
-    data-octo-dimensions="link_type:self" href="https://github.com/fosskers">@fosskers</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4978641982" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6675"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6675/hovercard"
-    href="https://github.com/angband/angband/pull/6675">#6675</a></li>
-
-    </ul>
-
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-161-ge1e0b0530...4.2.6-166-gf0f6bd223"><tt>4.2.6-161-ge1e0b0530...4.2.6-166-gf0f6bd223</tt></a></p>'
-  update_notes_md: '## What''s Changed
-
-    * borg: fixed some spell use around detecting invisible by @agoodman00 in https://github.com/angband/angband/pull/6673
-
-    * On shape change, learn the shape''s obvious flags by @backwardsEric in https://github.com/angband/angband/pull/6669
-
-    * Avoid two discarded const warnings seen with WSL on Windows 11 by @backwardsEric
-    in https://github.com/angband/angband/pull/6670
-
-    * Projections: coerce blast radius to fit what dam_at_dist can handle by @backwardsEric
-    in https://github.com/angband/angband/pull/6672
-
-    * Correct spelling of Ossë by @fosskers in https://github.com/angband/angband/pull/6675
-
-
-
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-161-ge1e0b0530...4.2.6-166-gf0f6bd223'
-  updated: '2026-07-28T12:16:26Z'
-  version: 4.2.6-166-gf0f6bd223
-  version_title: 4.2.6-166-gf0f6bd223
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a></p>
+  update_notes_md: 'Incorporate borg.txt into binary releases by @agoodman00 '
+  updated: '2026-08-04T19:32:28Z'
+  version: 4.2.6-171-g0b1135b2d
+  version_title: 4.2.6-171-g0b1135b2d
 source: https://github.com/angband/angband
 stars: 1545
 systems:
@@ -211,28 +151,28 @@ Angband is a graphical dungeon adventure game that uses textual characters to re
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-166-gf0f6bd223.3dsx</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-171-g0b1135b2d.3dsx</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-166-gf0f6bd223-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-166-gf0f6bd223.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-166-gf0f6bd223.3dsx</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-171-g0b1135b2d-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-171-g0b1135b2d.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-171-g0b1135b2d.3dsx</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-166-gf0f6bd223.cia</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-171-g0b1135b2d.cia</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-166-gf0f6bd223-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-166-gf0f6bd223.cia</code> from the zip to <code>/cias/Angband-4.2.6-166-gf0f6bd223.cia</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-171-g0b1135b2d-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-171-g0b1135b2d.cia</code> from the zip to <code>/cias/Angband-4.2.6-171-g0b1135b2d.cia</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/Angband-4.2.6-166-gf0f6bd223.cia</code> using FBI or GodMode9</li>
+<li>Install and delete <code>/cias/Angband-4.2.6-171-g0b1135b2d.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-166-gf0f6bd223.nds</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-171-g0b1135b2d.nds</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-166-gf0f6bd223-nds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-166-gf0f6bd223.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Download <code>Angband-4.2.6-171-g0b1135b2d-nds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-171-g0b1135b2d.nds</code> from the zip to where you keep NDS files on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>

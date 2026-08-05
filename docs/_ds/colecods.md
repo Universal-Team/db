@@ -32,7 +32,7 @@ llm_generation: unknown
 qr:
   ColecoDS.nds: https://db.universal-team.net/assets/images/qr/colecods-nds.png
 source: https://github.com/wavemotion-dave/ColecoDS
-stars: 61
+stars: 62
 systems:
 - DS
 title: ColecoDS
