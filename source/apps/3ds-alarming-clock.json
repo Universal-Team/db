@@ -1,0 +1,18 @@
+{
+	"github": "Jocc3D/3DS-Alarming-Clock",
+	"title": "3DS Alarming Clock",
+	"author": "Jocc3D",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility"
+	],
+	"unique_ids": [704780],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/Jocc3D/3DS-Alarming-Clock/main/menu/icon.png",
+	"image": "https://raw.githubusercontent.com/Jocc3D/3DS-Alarming-Clock/main/menu/banner.png",
+	"long_description": "A lightweight and simple O3DS and N3DS alarm app that works with the console closed!",
+	"license": "gpl-3.0",
+	"license_name": "GNU General Public License v3.0"
+}
