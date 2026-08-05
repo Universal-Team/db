@@ -17,7 +17,7 @@ image_length: 43557
 layout: app
 llm_generation: 'no'
 source: https://github.com/Gericom/YoutubeDS/tree/mpeg4player
-stars: 72
+stars: 73
 systems:
 - DS
 title: MPEG4 Player

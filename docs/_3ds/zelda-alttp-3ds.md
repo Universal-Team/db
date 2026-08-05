@@ -27,37 +27,10 @@ llm_generation: 'yes'
 preinstall_message: Place a legally obtained USA, unheadered ROM in sdmc:/3ds/Zelda
   3DS/. The preferred filename is zelda3.sfc, but the setup also accepts other .sfc
   or .smc filenames.
-prerelease:
-  download_page: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/tag/v2.9.2
-  downloads:
-    zelda3-3ds-v2.9.2.3dsx:
-      size: 5683560
-      size_str: 5 MiB
-      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v2.9.2/zelda3-3ds-v2.9.2.3dsx
-    zelda3-3ds-v2.9.2.cia:
-      size: 5206976
-      size_str: 4 MiB
-      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v2.9.2/zelda3-3ds-v2.9.2.cia
-  qr:
-    zelda3-3ds-v2.9.2.cia: https://db.universal-team.net/assets/images/qr/prerelease/zelda3-3ds-v2-9-2-cia.png
-  update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v2.9.2/QR-v2.9.2-github.png"><img
-    src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v2.9.2/QR-v2.9.2-github.png"
-    alt="QR-v2.9.2-github.png" style="max-width: 100%;"></a></p>
-
-    <p dir="auto">Banner test</p>'
-  update_notes_md: '![QR-v2.9.2-github.png](https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v2.9.2/QR-v2.9.2-github.png)
-
-
-    Banner test
-
-    '
-  updated: '2026-08-05T10:22:04Z'
-  version: v2.9.2
-  version_title: v2.9.2
 qr:
   zelda3-3ds-v2.9.cia: https://db.universal-team.net/assets/images/qr/zelda3-3ds-v2-9-cia.png
 source: https://github.com/EstebanPdN/zelda-alttp-3ds
-stars: 342
+stars: 347
 systems:
 - 3DS
 title: zelda-alttp-3ds

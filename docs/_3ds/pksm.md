@@ -28,7 +28,7 @@ llm_generation: unknown
 qr:
   PKSM.cia: https://db.universal-team.net/assets/images/qr/pksm-cia.png
 source: https://github.com/FlagBrew/PKSM
-stars: 2181
+stars: 2182
 systems:
 - 3DS
 title: PKSM
