@@ -3,8 +3,6 @@ author: cmdada
 avatar: https://avatars.githubusercontent.com/u/79297197?v=4
 categories:
 - emulator
-color: '#433943'
-color_bg: '#433943'
 created: '2026-05-10T04:52:37Z'
 description: Nintendo 3DS homebrew application that embeds a full RISC-V emulator
   to boot a Linux environment inside the 3DS Horizon OS.
@@ -17,7 +15,6 @@ downloads:
 github: cmdada/3DS-CLI
 icon: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
 image: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
-image_length: 3509
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
