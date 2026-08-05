@@ -1,0 +1,13 @@
+{
+	"github": "tasken/DSi-WiFi-Manager",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"app",
+		"utility"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/tasken/DSi-WiFi-Manager/HEAD/resources/icon.png",
+	"image": "https://raw.githubusercontent.com/tasken/DSi-WiFi-Manager/HEAD/resources/logo.png"
+}
