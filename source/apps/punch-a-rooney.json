@@ -1,0 +1,15 @@
+{
+	"github": "seaners42/Punch-A-Rooney",
+	"title": "PUNCH-A-ROONEY!",
+	"description": "The homebrew boxing game made for the Nintendo DS!  Play as Rooney \"Punchstache\" Bafutto, a 22-year-old Italian boxer who quits his job as a plumber. Fight against five fighters, become champion, then defend your title!",
+	"systems": [
+		"DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "no",
+	"icon": "https://raw.githubusercontent.com/seaners42/Punch-A-Rooney/main/icon.png",
+	"image": "https://raw.githubusercontent.com/seaners42/Punch-A-Rooney/main/banner.png",
+	"long_description": "### Quick Guide\n## Career\nFive fighters stand in your way before you can claim the belt, once you become champ you can defend your title against the same fighters!\n\n###Multiplayer\nPunch-A-Rooney! supports Local Multiplayer via two Nintendo DS consoles where both fighters can choose a boxer of their choice to personally duke it out!\n\n*Enter Local on both consoles\n*Host on one console, then join on the other\n*As a host, press A to begin editing your match information\n*Press start on the last screen if you're the host to start\n*If you are not the host, choose your character quick before the host starts!\n\nHost will always fight out of the left corner, while their opponent will fight from the right."
+}
