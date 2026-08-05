@@ -1,13 +1,13 @@
 {
 	"github": "Pixel6763/Escape-Jonny-s-Backrooms-3DS",
 	"title": "Escape Jonnys Backrooms",
+	"description": "Escape Jonny's Backrooms for the Nintendo 3DS is a 2D Backrooms game where you find you're way out of the Backrooms. While someone named Jonny chases you, and you have to survive and escape the maze.",
 	"systems": [
 		"3DS"
 	],
 	"categories": [
 		"game"
 	],
-	"llm_generation": "no",
 	"icon": "https://raw.githubusercontent.com/Pixel6763/Escape-Jonny-s-Backrooms-3DS/main/icon.png",
 	"archive": {
 		"Escape_Jonnys_Backrooms.zip": {
