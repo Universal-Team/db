@@ -6,11 +6,9 @@ categories:
 color: '#4a4527'
 color_bg: '#4a4527'
 created: '2026-05-30T21:04:45Z'
-description: 'Escape Jonny''s Backrooms for the Nintendo 3DS is a 2D Backrooms game
-  where you find you''re way out of the Backrooms. While someone named Jonny chases
-  you, and you have to survive and escape the maze. 4 difficulties: Easy, Medium,
-  Hard, and Impossible! (This is based on a Roblox game I made a while ago named Escape
-  Jonny''s Backrooms)'
+description: Escape Jonny's Backrooms for the Nintendo 3DS is a 2D Backrooms game
+  where you find you're way out of the Backrooms. While someone named Jonny chases
+  you, and you have to survive and escape the maze.
 download_page: https://github.com/Pixel6763/Escape-Jonny-s-Backrooms-3DS/releases
 downloads:
   Escape_Jonnys_Backrooms.3dsx:
@@ -22,7 +20,7 @@ icon: https://raw.githubusercontent.com/Pixel6763/Escape-Jonny-s-Backrooms-3DS/m
 image: https://raw.githubusercontent.com/Pixel6763/Escape-Jonny-s-Backrooms-3DS/main/icon.png
 image_length: 5237
 layout: app
-llm_generation: 'no'
+llm_generation: unknown
 source: https://github.com/Pixel6763/Escape-Jonny-s-Backrooms-3DS
 stars: 2
 systems:
