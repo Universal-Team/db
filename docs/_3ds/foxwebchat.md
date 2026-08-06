@@ -8,15 +8,15 @@ color: '#f6995e'
 color_bg: '#804f31'
 created: '2026-02-21T16:28:39Z'
 description: An Public chat for everyone! You can talk to persons! Make it popular!
-  Already 10 Downloads wow
+  Already 79 Downloads wow
 download_page: https://github.com/SlabyLol/foxwebchat-/releases
 downloads:
   FoxWebChat.3dsx:
-    size: 1090124
+    size: 1093004
     size_str: 1 MiB
     url: https://github.com/SlabyLol/foxwebchat-/releases/download/nightly/FoxWebChat.3dsx
   FoxWebChat.cia:
-    size: 1384896
+    size: 1386944
     size_str: 1 MiB
     url: https://github.com/SlabyLol/foxwebchat-/releases/download/nightly/FoxWebChat.cia
 github: SlabyLol/foxwebchat-
@@ -41,7 +41,7 @@ systems:
 title: FoxWebChat
 unique_ids:
 - '0xF0011'
-update_notes: <p dir="auto">Automatic Build Release</p>
+update_notes: <p dir="auto">Public Chat</p>
 updated: '2026-07-25T15:04:07Z'
 version: nightly
 version_title: Nightly Build
