@@ -8,7 +8,7 @@ color: '#f6995e'
 color_bg: '#804f31'
 created: '2026-02-21T16:28:39Z'
 description: An Public chat for everyone! You can talk to persons! Make it popular!
-  Already 79 Downloads wow
+  On 100 downloads free theme
 download_page: https://github.com/SlabyLol/foxwebchat-/releases
 downloads:
   FoxWebChat.3dsx:
