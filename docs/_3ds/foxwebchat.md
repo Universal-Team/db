@@ -35,7 +35,7 @@ screenshots:
 - description: Foxwebchat
   url: https://db.universal-team.net/assets/images/screenshots/foxwebchat/foxwebchat.png
 source: https://github.com/SlabyLol/foxwebchat-
-stars: 0
+stars: 1
 systems:
 - 3DS
 title: FoxWebChat
