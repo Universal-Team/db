@@ -1,0 +1,18 @@
+{
+	"github": "PeterWarrington/lynx3ds",
+	"description": "A beautiful text-mode web browser for the 3DS, ported from Lynx.",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/PeterWarrington/lynx3ds/refs/heads/main/icon.png",
+	"image": "https://raw.githubusercontent.com/PeterWarrington/lynx3ds/refs/heads/main/banner/banner.png",
+	"unique_ids": [
+		199708
+	],
+	"website": "https://lilpete.me/lynx3ds",
+	"license": "MIT"
+}
