@@ -11,13 +11,13 @@ description: 'A virtual StreePass pet for Nintendo 3DS '
 download_page: https://github.com/PetPal-Team/PetPal/releases
 downloads:
   PetPal.3dsx:
-    size: 31236436
+    size: 31272004
     size_str: 29 MiB
-    url: https://github.com/PetPal-Team/PetPal/releases/download/v0.1.6-1/PetPal.3dsx
+    url: https://github.com/PetPal-Team/PetPal/releases/download/0.1.7/PetPal.3dsx
   PetPal.cia:
-    size: 31409088
+    size: 31433664
     size_str: 29 MiB
-    url: https://github.com/PetPal-Team/PetPal/releases/download/v0.1.6-1/PetPal.cia
+    url: https://github.com/PetPal-Team/PetPal/releases/download/0.1.7/PetPal.cia
 github: PetPal-Team/PetPal
 icon: https://raw.githubusercontent.com/PetPal-Team/PetPal/refs/heads/main/Pet%20Pal.png
 image: https://raw.githubusercontent.com/PetPal-Team/PetPal/refs/heads/main/banner.png
@@ -42,52 +42,78 @@ systems:
 title: PetPal
 unique_ids:
 - '0xF00D5'
-update_notes: '<h1 dir="auto">🐾 PetPal v0.1.6 — Nintendo 3DS</h1>
+update_notes: '<h1 dir="auto">PetPal 3DS — v0.1.7</h1>
 
-  <p dir="auto">A maintenance release that keeps the pass network healthy and makes
-  sure every<br>
-
-  pet is correctly on file.</p>
-
-  <h2 dir="auto">🐛 Fixes</h2>
+  <h2 dir="auto">✨ Highlights</h2>
 
   <ul dir="auto">
 
-  <li><strong>Your pet’s name now registers with your PetPal account the moment you
-  name<br>
+  <li><strong>Real StreetPass!</strong> The app now creates its own CEC message box
+  on hardware —<br>
 
-  it.</strong> Previously a pet’s name was only sent on a <em>later</em> online boot,
-  so a<br>
+  it shows up in System Settings and cectool. Pets exchange locally over<br>
 
-  console that was only online once could end up with no name attached to its<br>
+  StreetPass (and over the internet via NetPass), on top of the existing<br>
 
-  account (this is the name used for cross-device linking and support). New pets<br>
+  teampetpal.com relay. <em>Install the <code class="notranslate">.cia</code> for
+  this — the <code class="notranslate">.3dsx</code> under HBL<br>
 
-  are now on file right away.</li>
+  can''t be granted the system CEC permission, but still passes via the relay.</em></li>
+
+  <li><strong>📢 News page.</strong> A new Announcements screen (press <strong>Y</strong>
+  on the main menu)<br>
+
+  shows Markdown-formatted messages from the PetPal team, fetched from<br>
+
+  teampetpal.com.</li>
+
+  <li><strong>🎨 UI polish.</strong> Pixel star ratings (friendship tiers + awards),
+  pixel stat<br>
+
+  bars (happiness / energy / hunger / XP), and evolution-stage emblems on the<br>
+
+  Pet screen.</li>
 
   </ul>
 
-  <h2 dir="auto">📥 Installing / updating</h2>
+  <h2 dir="auto">🧹 Changes &amp; fixes</h2>
 
   <ul dir="auto">
 
-  <li><strong>CIA:</strong> reinstall <code class="notranslate">PetPal.cia</code>
-  over your existing copy with FBI.</li>
+  <li>Removed the leftover developer CEC self-test / diagnostic text from the<br>
 
-  <li><strong>3DSX:</strong> copy <code class="notranslate">PetPal.3dsx</code> to
-  <code class="notranslate">sdmc:/3ds/</code>.</li>
+  Friends screen.</li>
 
-  <li>Your pet and save carry over automatically — no reset needed.</li>
+  <li>Onboarding now reports the pet''s name to the account (fixes blank names in
+  the<br>
+
+  admin panel).</li>
+
+  <li>Added translation-ready string catalogs (English + French) under <code class="notranslate">Strings/</code>.</li>
 
   </ul>
 
-  <hr>
+  <h2 dir="auto">🔧 Under the hood</h2>
 
-  <p dir="auto"><em>Requires a modded 3DS (Luma3DS / CFW). Homebrew, non-commercial
-  — not affiliated with Nintendo.</em></p>'
-updated: '2026-07-25T14:27:00Z'
-version: v0.1.6-1
-version_title: Minor Update to fix Server Name Error
+  <ul dir="auto">
+
+  <li><code class="notranslate">kAppVersion</code> → <strong>0.1.7</strong>; save
+  format unchanged (<strong>v4</strong>, backward-compatible).</li>
+
+  <li>New: <code class="notranslate">AnnouncementsClient</code>, a dependency-free
+  Markdown renderer (<code class="notranslate">ui/Markdown</code>),<br>
+
+  and the <code class="notranslate">AnnouncementsScreen</code>.</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Install:</strong> grab <code class="notranslate">PetPal.cia</code>
+  (recommended — enables real StreetPass) or<br>
+
+  <code class="notranslate">PetPal.3dsx</code>.</p>'
+updated: '2026-08-06T11:38:32Z'
+version: 0.1.7
+version_title: PetPal 0.1.7
 website: https://teampetpal.com
 wiki: https://teampetpal.com/wiki
 ---
