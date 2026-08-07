@@ -45,7 +45,8 @@ update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="
   <li>Fixed the map problem when using WIDE mode with FIXED camera.</li>
 
   <li>Changed the 3D HOME Menu banner to the custom logo model, with logo help from
-  <a href="https://github.com/Phibonacci">Phibonacci</a>.</li>
+  <a href="https://github.com/Phibonacci">Phibonacci</a>, based on the original 3D
+  model by <a href="https://sketchfab.com/TiraArt" rel="nofollow">TiraArt</a>.</li>
 
   <li>Fixed Old 3DS bottom-screen responsiveness and more optimizations.</li>
 
