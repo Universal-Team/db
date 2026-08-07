@@ -14,7 +14,7 @@ downloads:
   Punch-A-Rooney.nds:
     size: 13714432
     size_str: 13 MiB
-    url: https://github.com/seaners42/Punch-A-Rooney/releases/download/1.0/Punch-A-Rooney.nds
+    url: https://github.com/seaners42/Punch-A-Rooney/releases/download/1.0.1/Punch-A-Rooney.nds
 github: seaners42/Punch-A-Rooney
 icon: https://raw.githubusercontent.com/seaners42/Punch-A-Rooney/main/icon.png
 image: https://raw.githubusercontent.com/seaners42/Punch-A-Rooney/main/banner.png
@@ -45,14 +45,20 @@ stars: 1
 systems:
 - DS
 title: PUNCH-A-ROONEY!
-update_notes: '<ul dir="auto">
+update_notes: '<h2 dir="auto">Change Notes</h2>
 
-  <li>Initial Release</li>
+  <ul dir="auto">
+
+  <li>Fixed referee behavior</li>
+
+  <li>Fixed "Gallery" when using touchscreen to navigate</li>
+
+  <li>Guide button is made more obvious to new players</li>
 
   </ul>'
-updated: '2026-07-30T05:24:41Z'
-version: '1.0'
-version_title: Punch-A-Rooney v1.0
+updated: '2026-08-07T03:11:38Z'
+version: 1.0.1
+version_title: Punch-A-Rooney v1.0.1
 ---
 ### Quick Guide
 ## Career
