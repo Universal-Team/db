@@ -3,6 +3,8 @@ author: FelixHomebrew
 avatar: https://codeberg.org/avatars/5170b04eae5f1359e4ce236a7e59b002c0811db790bd51c8f44b2c5ed5c6f15d
 categories:
 - app
+color: '#401313'
+color_bg: '#401313'
 created: '2026-03-26T14:19:17Z'
 description: A silly alarm clock app for the Nintendo 3DS
 download_page: https://codeberg.org/FelixHomebrew/CtrAlarmo/releases
