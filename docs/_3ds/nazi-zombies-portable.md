@@ -12,8 +12,8 @@ download_filter: 3ds
 download_page: https://github.com/nzp-team/nzportable/releases
 downloads:
   nzportable-3ds.zip:
-    size: 73062404
-    size_str: 69 MiB
+    size: 100249589
+    size_str: 95 MiB
     url: https://github.com/nzp-team/nzportable/releases/download/nightly/nzportable-3ds.zip
 github: nzp-team/nzportable
 icon: https://raw.githubusercontent.com/nzp-team/vril-engine/main/source/platform/ctr/art/icon.png
@@ -48,7 +48,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <ul dir="auto">
 
-  <li>Vril (PSP/3DS/NSPIRE Engine)</li>
+  <li>Game Assets</li>
+
+  <li>Vril (Engine)</li>
 
   </ul>
 
@@ -77,9 +79,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <p dir="auto">You can also play the WebGL version at <a href="https://nzp.gay/"
   rel="nofollow">https://nzp.gay/</a></p>'
-updated: '2026-08-08T07:54:36Z'
+updated: '2026-08-08T21:25:38Z'
 version: nightly
-version_title: 2.0.0-indev+20260808075316
+version_title: 2.0.0-indev+20260808212353
 website: https://github.com/nzp-team/nzportable
 ---
 A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at War.
