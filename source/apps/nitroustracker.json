@@ -1,0 +1,32 @@
+{
+	"forgejo": "NitrousTracker/NitrousTracker",
+	"forgejo_host": "codeberg.org",
+	"title": "NitrousTracker",
+	"author": "NitrousTracker contributors - original by Tobias Weyand",
+	"systems": [
+		"DS",
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"website": "http://docs.asie.pl/nitroustracker/",
+	"icon": "https://codeberg.org/NitrousTracker/nitroustracker/raw/branch/develop/assets/icon48.png",
+	"long_description": "NitrousTracker is a fork of NitroTracker, a FastTracker II style tracker for the Nintendo DS originally created by 0xtob.\n\nA tracker is a type of music sequencer built around patterns which contain arrangements of notes and effects. NitrousTracker is built around the popular XM file format that is supported by many PC trackers.\n\nWith NitrousTracker, you can carry your XMs around in your DS and compose whenever and wherever you feel like it. You might be thinking something along the lines of “Tracking on a handheld console? Sounds like a pain”. However, thanks to the stylus-operated touch display of the DS, it’s quite easy. You can compose your melodies using an on-screen keyboard, directly edit your patterns by making selections, copying and pasting - all using the stylus. And that’s not where it ends: If you don’t have any samples on hand, make your own with the DS’s microphone. You can even replace the samples in existing songs with your own recorded ones! There are many possibilities already and there will be even more.",
+	"download_filter": "-(n3ds|nds)\\.zip",
+	"archive": {
+		"NitrousTracker-(.*)-n3ds\\.zip": {
+			"nitroustracker.3dsx": [
+				"nitroustracker.3dsx"
+			]
+		},
+		"NitrousTracker-(.*)-nds\\.zip": {
+			"nitroustracker.nds": [
+				"nitroustracker.nds"
+			],
+			"nitroustracker.midi.nds": [
+				"nitroustracker.midi.nds"
+			]
+		}
+	}
+}
