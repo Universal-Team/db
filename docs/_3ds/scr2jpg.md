@@ -26,7 +26,8 @@ license: other
 license_name: Other
 llm_generation: unknown
 preinstall_message: If your screenshots don't appear in the camera app, check the
-  README from the GitHub (github.com/Adrix12team/SCR2JPG).
+  README from the GitHub (github.com/Adrix12team/SCR2JPG). If you already had installed
+  SCR2JPG, delete SCR2JPG.txt from sd:/DCIM/ !
 qr:
   SCR2JPG.cia: https://db.universal-team.net/assets/images/qr/scr2jpg-cia.png
 source: https://github.com/Adrix12team/SCR2JPG
