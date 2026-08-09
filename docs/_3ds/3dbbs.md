@@ -31,7 +31,7 @@ llm_generation: 'yes'
 qr:
   3dBBS.cia: https://db.universal-team.net/assets/images/qr/3dbbs-cia.png
 source: https://github.com/hmderdoc/3dBBS
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: 3dBBS
