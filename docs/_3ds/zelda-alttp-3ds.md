@@ -35,8 +35,8 @@ prerelease:
       size_str: 2 MiB
       url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-experimental/zelda3-3ds-v3.0-experimental.3dsx
     zelda3-3ds-v3.0-experimental.cia:
-      size: 2216896
-      size_str: 2 MiB
+      size: 1975232
+      size_str: 1 MiB
       url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-experimental/zelda3-3ds-v3.0-experimental.cia
   qr:
     zelda3-3ds-v3.0-experimental.cia: https://db.universal-team.net/assets/images/qr/prerelease/zelda3-3ds-v3-0-experimental-cia.png
