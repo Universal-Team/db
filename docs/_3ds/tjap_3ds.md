@@ -27,7 +27,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.3.2
   downloads:
     TJAP_3DS.3dsx:
-      size: 10400012
+      size: 10400308
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.2/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -44,6 +44,9 @@ prerelease:
 
     <li><code class="notranslate">#NEXTSONG</code>命令によって譜面がプレイ中一時的に破損する不具合の修正</li>
 
+    <li><code class="notranslate">TITLEJA:</code> <code class="notranslate">SUBTITLEJA:</code>
+    <code class="notranslate">TITLEES:</code> <code class="notranslate">SUBTITLEES:</code>タグの対応</li>
+
     </ul>
 
     <h2 dir="auto">Changelog</h2>
@@ -55,6 +58,10 @@ prerelease:
     <li>Fixed a bug where the <code class="notranslate">#NEXTSONG</code> command would
     temporarily corrupt the score during gameplay.</li>
 
+    <li>Support for <code class="notranslate">TITLEJA:</code> <code class="notranslate">SUBTITLEJA:</code>
+    <code class="notranslate">TITLEES:</code> <code class="notranslate">SUBTITLEES:</code>
+    tags.</li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
@@ -62,13 +69,17 @@ prerelease:
 
     - `#NEXTSONG`命令によって譜面がプレイ中一時的に破損する不具合の修正
 
+    - `TITLEJA:` `SUBTITLEJA:` `TITLEES:` `SUBTITLEES:`タグの対応
+
 
     ## Changelog
 
     - Implemented `#SUDDEN (spawntime) (movetime)`
 
     - Fixed a bug where the `#NEXTSONG` command would temporarily corrupt the score
-    during gameplay.'
+    during gameplay.
+
+    - Support for `TITLEJA:` `SUBTITLEJA:` `TITLEES:` `SUBTITLEES:` tags.'
   updated: '2026-08-05T04:14:53Z'
   version: v2.3.2
   version_title: TJAPlayer for 3DS v2.3.2
