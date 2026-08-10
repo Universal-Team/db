@@ -10,9 +10,9 @@ description: A fanmade Balatro clone for the 3DS
 download_page: https://github.com/idkhan/Balatro3DS/releases
 downloads:
   Balatro3DS.3dsx:
-    size: 14247011
+    size: 14247040
     size_str: 13 MiB
-    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.3.0-alpha/Balatro3DS.3dsx
+    url: https://github.com/idkhan/Balatro3DS/releases/download/v1.3.1-alpha/Balatro3DS.3dsx
 github: idkhan/Balatro3DS
 icon: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/resources/textures/1x/icon.png
 image: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/banner.png
@@ -26,26 +26,20 @@ stars: 128
 systems:
 - 3DS
 title: Balatro3DS
-update_notes: '<h3 dir="auto">Features</h3>
+update_notes: '<h3 dir="auto">Bugfixes</h3>
 
   <ul dir="auto">
 
-  <li>Added Poker Hands view</li>
-
-  </ul>
-
-  <h3 dir="auto">Bugfixes</h3>
-
-  <ul dir="auto">
-
-  <li>Fixed tooltips still displaying when scoring hands</li>
-
-  <li>Fixed the how to play menu cutting off</li>
+  <li>Fixed issue <a class="issue-link js-issue-link" data-error-text="Failed to load
+  title" data-id="5047383185" data-permission-text="Title is private" data-url="https://github.com/idkhan/Balatro3DS/issues/57"
+  data-hovercard-type="issue" data-hovercard-url="/idkhan/Balatro3DS/issues/57/hovercard"
+  href="https://github.com/idkhan/Balatro3DS/issues/57">#57</a>, used Ectoplasm count
+  would not reset between games</li>
 
   </ul>'
-updated: '2026-07-31T20:40:15Z'
-version: v1.3.0-alpha
-version_title: Alpha 1.3.0
+updated: '2026-08-10T20:09:25Z'
+version: v1.3.1-alpha
+version_title: Alpha 1.3.1
 ---
 The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos, now on the 3DS.
 
