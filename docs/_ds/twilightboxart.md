@@ -13,9 +13,9 @@ download_filter: \.nds$
 download_page: https://github.com/KirovAir/TwilightBoxart/releases
 downloads:
   TwilightBoxart-DS-DSi.nds:
-    size: 2652160
+    size: 2654720
     size_str: 2 MiB
-    url: https://github.com/KirovAir/TwilightBoxart/releases/download/2.3.0/TwilightBoxart-DS-DSi.nds
+    url: https://github.com/KirovAir/TwilightBoxart/releases/download/2.3.1/TwilightBoxart-DS-DSi.nds
 github: KirovAir/TwilightBoxart
 icon: https://raw.githubusercontent.com/KirovAir/TwilightBoxart/master/docs/unistore-icon.png
 image: https://raw.githubusercontent.com/KirovAir/TwilightBoxart/master/docs/unistore-banner.png
@@ -35,15 +35,21 @@ update_notes: '<h3 dir="auto">What''s new</h3>
 
   <ul dir="auto">
 
-  <li><strong>Web/Desktop/DSi:</strong> Improved boxart scanning by a mile which should
-  add ~6,600 games that used to come back blank. This will be a huge improvement for
-  foreign titles.</li>
+  <li><strong>Web: bring your own covers.</strong> Drop any image on a game that came
+  back blank (a scan, a photo of<br>
 
-  <li><strong>DS(i)</strong> Way faster downloading. (I''d say around 4x in testing,
-  even more on regular DS)</li>
+  the box, a screenshot) and it goes onto your card like any downloaded cover.</li>
 
-  <li>If you downloaded the DS(i) version quickly after release please redownload
-  it. The automated build broke the downloader.. this is now fixed.</li>
+  <li><strong>Much cleaner scans.</strong> hiyaCFW and Unlaunch cards no longer drag
+  their whole NAND mirror through<br>
+
+  a scan, documentation is no longer scanned as a game, and files too small to be
+  a ROM are skipped.</li>
+
+  <li><strong>Old SNES scene dumps match now.</strong> A loose <code class="notranslate">.smc</code>
+  with the 512-byte copier header gets its cover.</li>
+
+  <li><strong>DS/DSi:</strong> new BlocksDS SDK. (And also cleaner scans)</li>
 
   </ul>
 
@@ -104,9 +110,9 @@ update_notes: '<h3 dir="auto">What''s new</h3>
   </tbody>
 
   </table></markdown-accessiblity-table>'
-updated: '2026-07-29T19:54:20Z'
-version: 2.3.0
-version_title: TwilightBoxart 2.3
+updated: '2026-08-10T18:47:48Z'
+version: 2.3.1
+version_title: TwilightBoxart 2.3.1
 ---
 TwilightBoxart fills your launcher's box art folder from the console itself. TwilightMenu++ and DSPico are currently supported.
 Connect to WiFi and it scans your card and downloads the right cover at the size your launcher
