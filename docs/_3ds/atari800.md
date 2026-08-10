@@ -23,7 +23,7 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_generation: unknown
 source: https://codeberg.org/asie/atari800-3ds
-stars: 11
+stars: 0
 systems:
 - 3DS
 title: Atari800
