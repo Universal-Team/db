@@ -11,10 +11,10 @@ description: Unofficial fork of 0xtob's NitroTracker, a Fasttracker II-style tra
 download_filter: -(n3ds|nds)\.zip
 download_page: https://codeberg.org/NitrousTracker/NitrousTracker/releases
 downloads:
-  NitrousTracker-0.6.5-nds.zip:
-    size: 2499709
+  NitrousTracker-0.6.6-nds.zip:
+    size: 2497359
     size_str: 2 MiB
-    url: https://codeberg.org/NitrousTracker/nitroustracker/releases/download/release%2F0.6.5/NitrousTracker-0.6.5-nds.zip
+    url: https://codeberg.org/NitrousTracker/nitroustracker/releases/download/release%2F0.6.6/NitrousTracker-0.6.6-nds.zip
 forgejo: NitrousTracker/NitrousTracker
 forgejo_host: codeberg.org
 icon: https://codeberg.org/NitrousTracker/nitroustracker/raw/branch/develop/assets/icon48.png
@@ -176,16 +176,16 @@ update_notes: '<p>Fixes:</p>
 
   <ul>
 
-  <li>fix off by one sample read error in ping pong loops</li>
+  <li>fix rare .xm corruption edge case when free memory is very low</li>
 
-  <li>fix potential song timing issues</li>
+  <li>fix rare potential record box crash on really short recordings</li>
 
   </ul>
 
   '
-updated: '2026-07-15T19:53:17Z'
-version: release/0.6.5
-version_title: NitrousTracker v0.6.5
+updated: '2026-08-08T12:50:08Z'
+version: release/0.6.6
+version_title: NitrousTracker v0.6.6
 website: http://docs.asie.pl/nitroustracker/
 ---
 NitrousTracker is a fork of NitroTracker, a FastTracker II style tracker for the Nintendo DS originally created by 0xtob.
@@ -199,14 +199,14 @@ With NitrousTracker, you can carry your XMs around in your DS and compose whenev
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
 <details class="alert alert-secondary"><summary>nitroustracker.nds</summary>
 <ol>
-<li>Download <code>NitrousTracker-0.6.5-nds.zip</code></li>
+<li>Download <code>NitrousTracker-0.6.6-nds.zip</code></li>
 <li>Extract <code>/nitroustracker.nds</code> from the zip to where you keep NDS files on your SD card</li>
 </ol>
 </details>
 
 <details class="alert alert-secondary"><summary>nitroustracker.midi.nds</summary>
 <ol>
-<li>Download <code>NitrousTracker-0.6.5-nds.zip</code></li>
+<li>Download <code>NitrousTracker-0.6.6-nds.zip</code></li>
 <li>Extract <code>/nitroustracker.midi.nds</code> from the zip to where you keep NDS files on your SD card</li>
 </ol>
 </details>
