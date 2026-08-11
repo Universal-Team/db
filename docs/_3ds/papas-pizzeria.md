@@ -11,13 +11,13 @@ description: Making a port of Flipline studio's Papa's pizzeria for the 3DS to u
 download_page: https://github.com/zylonity/PapasPizzeria-n3DS/releases
 downloads:
   PapasPizzeria-n3DS.3dsx:
-    size: 13407304
-    size_str: 12 MiB
-    url: https://github.com/zylonity/PapasPizzeria-n3DS/releases/download/v0.5-alpha/PapasPizzeria-n3DS.3dsx
+    size: 13673708
+    size_str: 13 MiB
+    url: https://github.com/zylonity/PapasPizzeria-n3DS/releases/download/v0.6-alpha/PapasPizzeria-n3DS.3dsx
   PapasPizzeria-n3DS.cia:
-    size: 13316032
+    size: 13578176
     size_str: 12 MiB
-    url: https://github.com/zylonity/PapasPizzeria-n3DS/releases/download/v0.5-alpha/PapasPizzeria-n3DS.cia
+    url: https://github.com/zylonity/PapasPizzeria-n3DS/releases/download/v0.6-alpha/PapasPizzeria-n3DS.cia
 github: zylonity/PapasPizzeria-n3DS
 icon: https://raw.githubusercontent.com/zylonity/PapasPizzeria-n3DS/refs/heads/develop/icon.png
 image: https://raw.githubusercontent.com/zylonity/PapasPizzeria-n3DS/refs/heads/develop/icon.png
@@ -33,58 +33,100 @@ stars: 13
 systems:
 - 3DS
 title: Papa's Pizzeria
-update_notes: '<p dir="auto">Okay so for this update I made a LOOT of small visual
-  improvements</p>
+update_notes: '<h2 dir="auto">v0.6.0</h2>
+
+  <p dir="auto">This one is all about closing the gap with the original Flash game.
+  I went<br>
+
+  through the extracted ActionScript and ported the bits the game loop was<br>
+
+  still missing.</p>
+
+  <p dir="auto">NOW ON UNIVERSAL UPDATER!!</p>
+
+  <h3 dir="auto">New screens</h3>
 
   <ul dir="auto">
 
-  <li>Made the new day intro 3D and removed the white bars</li>
+  <li><strong>Pause menu.</strong> START now pauses for real. Every gameplay timer
+  freezes,<br>
 
-  <li>Fixed a small animation issue with roy when he was taking orders</li>
+  so ovens, walking customers and your waiting score can''t tick on while<br>
 
-  <li>Added the new customer pop up screen, but you still can''t see a full list of
-  who you''ve unlocked</li>
+  you''re away. Uses the original''s wood and napkin art.</li>
 
-  <li>Moved the pizza in the toppings page a few pixels to the right</li>
+  <li><strong>End of day board.</strong> The day''s averages, tips today and total,
+  the rank<br>
 
-  <li>I did not fix the little stupid arrows in the baking page, yes I know the ones
-  on the right are off, yes I''ll fix them someday its just tedious as hell</li>
+  ladder with its titles, your promotion, and how far off the next rank is.</li>
 
-  <li>Put the receipt wall OVER the counter when you''re taking an order</li>
+  <li><strong>Customer file.</strong> Rig portraits of everyone you''ve served, their<br>
 
-  <li>You can now infinitely scroll through the sections, whereas before you were
-  limited to having to go back 4 pages between the cutting and the orders page, you
-  can just go forward/back one to change out the receipt</li>
+  favourite toppings, the day you first met them, orders taken, stars and<br>
 
-  <li>I added a cool little 3D banner for the .cia file</li>
+  seals.</li>
 
-  <li>I added logo and version to the .cia file as well</li>
+  <li><strong>Help book.</strong> Paged, and shared by the main menu and the pause
+  overlay.</li>
 
-  <li>Probably more, too</li>
+  <li><strong>Credits.</strong> Those two dead menu buttons finally do something.</li>
 
   </ul>
 
-  <p dir="auto">I want to thank <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/Cachipro-X/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/Cachipro-X">@Cachipro-X</a>
-  for bringing to my attention a bug where the game wouldn''t run on ''new'' 3DS series
-  consoles using the .cia build, and <a class="user-mention notranslate" data-hovercard-type="user"
-  data-hovercard-url="/users/wherearethecookies/hovercard" data-octo-click="hovercard-link-click"
-  data-octo-dimensions="link_type:self" href="https://github.com/wherearethecookies">@wherearethecookies</a>
-  + <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/kadenbigred/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/kadenbigred">@kadenbigred</a>
-  for helping me test and get some more information on it.</p>
+  <h3 dir="auto">Gameplay</h3>
 
-  <p dir="auto">When making a the .cia I needed to give it a unique app ID. I turned
-  the word papa into ascii and it turns out the old 3ds ignores the app title, but
-  the new 3DS uses it to determine if it''s an exclusive game or not. Mine wasn''t
-  a valid app ID in hex</p>
+  <ul dir="auto">
 
-  <h3 dir="auto">BECAUSE OF THIS ANYONE RUNNING THE OLD .CIA FILE WILL NEED TO UNINSTALL
-  IT FIRST BEFORE INSTALLING THIS NEW ONE</h3>
+  <li>Save For Later parks a topped pizza off the counter, Make Pizza drags it<br>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/zylonity/PapasPizzeria-n3DS/compare/v0.4-alpha...v0.5-alpha"><tt>v0.4-alpha...v0.5-alpha</tt></a></p>'
-updated: '2026-07-25T01:39:22Z'
-version: v0.5-alpha
-version_title: Small but impactful changes
+  back out.</li>
+
+  <li>Waiting accuracy uses the original''s proper formula now (the 45s prep<br>
+
+  allowance, slack for pickups already queued, and a penalty per second<br>
+
+  past the 25s ideal wait).</li>
+
+  <li>Leaving the order line empty for 9 seconds shoves the next customer in.</li>
+
+  <li>The day''s last customer gets a shorter bake so the day can actually end.</li>
+
+  <li>Fixed Cecilia''s mushroom quantity and gave Tohru back his missing pepper<br>
+
+  line.</li>
+
+  </ul>
+
+  <h3 dir="auto">Audio</h3>
+
+  <p dir="auto">Take-order music, the end of day guitar track, button clicks, ticket
+  grab<br>
+
+  and drop, and the end of day cash register. All new to the port.</p>
+
+  <h3 dir="auto">Fixes</h3>
+
+  <ul dir="auto">
+
+  <li>Fixed a crash on real hardware between the intro and day one.</li>
+
+  <li>The oven needles were pivoting below their hubs, and the two right-hand<br>
+
+  dials sit 3px higher than the left pair because the oven is drawn in<br>
+
+  slight perspective.</li>
+
+  </ul>
+
+  <h3 dir="auto">Notes</h3>
+
+  <p dir="auto">Save format is now v4 for the two new tallies. Older saves carry over.</p>
+
+  <p dir="auto">Also, there''s a bug where if you quit to the menu from the pause
+  menu it crashes the 3ds. woops.</p>
+
+  <p dir="auto">Now GPLv3.</p>'
+updated: '2026-08-11T20:53:48Z'
+version: v0.6-alpha
+version_title: closing the gap
 ---
