@@ -19,23 +19,46 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-171-g0b1135b2d
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-173-gdc40ec9e0
   downloads:
-    Angband-4.2.6-171-g0b1135b2d-3ds.zip:
-      size: 24696204
+    Angband-4.2.6-173-gdc40ec9e0-3ds.zip:
+      size: 24695530
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-171-g0b1135b2d/Angband-4.2.6-171-g0b1135b2d-3ds.zip
-    Angband-4.2.6-171-g0b1135b2d-nds.zip:
-      size: 23330366
+      url: https://github.com/angband/angband/releases/download/4.2.6-173-gdc40ec9e0/Angband-4.2.6-173-gdc40ec9e0-3ds.zip
+    Angband-4.2.6-173-gdc40ec9e0-nds.zip:
+      size: 23330538
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-171-g0b1135b2d/Angband-4.2.6-171-g0b1135b2d-nds.zip
-  update_notes: <p dir="auto">Incorporate borg.txt into binary releases by <a class="user-mention
+      url: https://github.com/angband/angband/releases/download/4.2.6-173-gdc40ec9e0/Angband-4.2.6-173-gdc40ec9e0-nds.zip
+  update_notes: '<h2 dir="auto">What''s Changed</h2>
+
+    <ul dir="auto">
+
+    <li>borg: get rid of the option to disallow graphics by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/agoodman00/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a></p>
-  update_notes_md: 'Incorporate borg.txt into binary releases by @agoodman00 '
-  updated: '2026-08-04T19:32:28Z'
-  version: 4.2.6-171-g0b1135b2d
-  version_title: 4.2.6-171-g0b1135b2d
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/agoodman00">@agoodman00</a>
+    in <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/angband/angband/commit/f48a3bb6856638905a0b05ec48deec44324ba6c8/hovercard"
+    href="https://github.com/angband/angband/commit/f48a3bb6856638905a0b05ec48deec44324ba6c8"><tt>f48a3bb</tt></a></li>
+
+    <li>Mac workflow: avoid Homebrew''s warning about untrusted tap by <a class="user-mention
+    notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
+    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
+    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
+    data-id="5064270897" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6678"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6678/hovercard"
+    href="https://github.com/angband/angband/pull/6678">#6678</a></li>
+
+    </ul>'
+  update_notes_md: '## What''s Changed
+
+    * borg: get rid of the option to disallow graphics by @agoodman00 in https://github.com/angband/angband/commit/f48a3bb6856638905a0b05ec48deec44324ba6c8
+
+    * Mac workflow: avoid Homebrew''s warning about untrusted tap by @backwardsEric
+    in https://github.com/angband/angband/pull/6678
+
+    '
+  updated: '2026-08-11T13:00:56Z'
+  version: 4.2.6-173-gdc40ec9e0
+  version_title: 4.2.6-173-gdc40ec9e0
 source: https://github.com/angband/angband
 stars: 1548
 systems:
@@ -151,28 +174,28 @@ Angband is a graphical dungeon adventure game that uses textual characters to re
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-171-g0b1135b2d.3dsx</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-173-gdc40ec9e0.3dsx</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-171-g0b1135b2d-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-171-g0b1135b2d.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-171-g0b1135b2d.3dsx</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-173-gdc40ec9e0-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-173-gdc40ec9e0.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-173-gdc40ec9e0.3dsx</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-171-g0b1135b2d.cia</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-173-gdc40ec9e0.cia</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-171-g0b1135b2d-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-171-g0b1135b2d.cia</code> from the zip to <code>/cias/Angband-4.2.6-171-g0b1135b2d.cia</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-173-gdc40ec9e0-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-173-gdc40ec9e0.cia</code> from the zip to <code>/cias/Angband-4.2.6-173-gdc40ec9e0.cia</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/Angband-4.2.6-171-g0b1135b2d.cia</code> using FBI or GodMode9</li>
+<li>Install and delete <code>/cias/Angband-4.2.6-173-gdc40ec9e0.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-171-g0b1135b2d.nds</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-173-gdc40ec9e0.nds</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-171-g0b1135b2d-nds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-171-g0b1135b2d.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Download <code>Angband-4.2.6-173-gdc40ec9e0-nds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-173-gdc40ec9e0.nds</code> from the zip to where you keep NDS files on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>

@@ -28,102 +28,65 @@ preinstall_message: Place a legally obtained USA, unheadered ROM in sdmc:/3ds/Ze
   3DS/. The preferred filename is zelda3.sfc, but the setup also accepts other .sfc
   or .smc filenames.
 prerelease:
-  download_page: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/tag/v3.0-experimental
+  download_page: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/tag/v3.0-E3
   downloads:
-    zelda3-3ds-v3.0-experimental.3dsx:
-      size: 2596420
-      size_str: 2 MiB
-      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-experimental/zelda3-3ds-v3.0-experimental.3dsx
-    zelda3-3ds-v3.0-experimental.cia:
-      size: 1975232
-      size_str: 1 MiB
-      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-experimental/zelda3-3ds-v3.0-experimental.cia
+    QR-v3.0-E3-cia.png:
+      size: 1374
+      size_str: 1 KiB
+      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E3/QR-v3.0-E3-cia.png
+    zelda3-3ds-v3.0-E3.3dsx:
+      size: 5684612
+      size_str: 5 MiB
+      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E3/zelda3-3ds-v3.0-E3.3dsx
+    zelda3-3ds-v3.0-E3.cia:
+      size: 5231552
+      size_str: 4 MiB
+      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E3/zelda3-3ds-v3.0-E3.cia
   qr:
-    zelda3-3ds-v3.0-experimental.cia: https://db.universal-team.net/assets/images/qr/prerelease/zelda3-3ds-v3-0-experimental-cia.png
-  update_notes: '<h2 dir="auto">Zelda 3DS v3.0 Experimental</h2>
+    zelda3-3ds-v3.0-E3.cia: https://db.universal-team.net/assets/images/qr/prerelease/zelda3-3ds-v3-0-e3-cia.png
+  update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E3/QR-v3.0-E3-cia.png"><img
+    width="500" height="500" alt="v3.0-E3 CIA QR" src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E3/QR-v3.0-E3-cia.png"
+    style="max-width: 100%; height: auto; max-height: 500px;"></a></p>
 
-    <p dir="auto">This is an experimental bug-fix build for the currently reported
-    3DS issues.</p>
-
-    <h3 dir="auto">QR</h3>
-
-    <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-experimental/QR-v3.0-experimental-github.png"><img
-    src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-experimental/QR-v3.0-experimental-github.png"
-    alt="QR-v3.0-experimental-github.png" style="max-width: 100%;"></a></p>
-
-    <h3 dir="auto">Fixes</h3>
+    <h2 dir="auto">Changelog</h2>
 
     <ul dir="auto">
 
-    <li>Bottom Triforce/cinema/end screen can now open Settings with any tap. Use
-    Back to return to the black Triforce screen.</li>
+    <li>Adds bottom screen settings by tapping the Triforce in the main menu</li>
 
-    <li>Autosave/save-state loads now recover if the top-screen map/menu module was
-    saved open, so restarting should no longer trap the game on the map.</li>
+    <li>Improves the bottom-screen HUD layout so hearts, magic, and equipped item
+    spacing stay clean.</li>
 
-    <li>Screen settings now persist <code class="notranslate">DisplayMode = Wide</code>
-    correctly, while keeping <code class="notranslate">WideMode = Standard</code>
-    or <code class="notranslate">Fixed</code> separate.</li>
-
-    <li>Bottom HUD layout is more compact: rupees use three digits in the resource
-    chip, hearts scale/wrap by capacity, the 1/2 magic marker is tighter, and the
-    equipped item ring shrinks when space is limited.</li>
-
-    <li>Old 3DS uses a lighter bottom-screen renderer and narrower wide rendering
-    to reduce memory and presentation pressure.</li>
+    <li>Saves screen settings</li>
 
     </ul>
 
-    <h3 dir="auto">Testing Request</h3>
-
-    <p dir="auto">If you still see the issue, please send a dump from this build.
-    Hold L + R + A, then send the dump folder that appears under the Zelda 3DS folder.</p>'
-  update_notes_md: '## Zelda 3DS v3.0 Experimental
-
-
-    This is an experimental bug-fix build for the currently reported 3DS issues.
+    <p dir="auto">If you run into any issues, press L + R + A, save a dump to your
+    Zelda 3DS folder, and send it to me. That way, I can help you more easily.</p>'
+  update_notes_md: '<img width="500" height="500" alt="v3.0-E3 CIA QR" src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E3/QR-v3.0-E3-cia.png"
+    />
 
 
-    ### QR
+    ## Changelog
 
 
-    ![QR-v3.0-experimental-github.png](https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-experimental/QR-v3.0-experimental-github.png)
+    - Adds bottom screen settings by tapping the Triforce in the main menu
+
+    - Improves the bottom-screen HUD layout so hearts, magic, and equipped item spacing
+    stay clean.
+
+    - Saves screen settings
 
 
-    ### Fixes
-
-
-    - Bottom Triforce/cinema/end screen can now open Settings with any tap. Use Back
-    to return to the black Triforce screen.
-
-    - Autosave/save-state loads now recover if the top-screen map/menu module was
-    saved open, so restarting should no longer trap the game on the map.
-
-    - Screen settings now persist `DisplayMode = Wide` correctly, while keeping `WideMode
-    = Standard` or `Fixed` separate.
-
-    - Bottom HUD layout is more compact: rupees use three digits in the resource chip,
-    hearts scale/wrap by capacity, the 1/2 magic marker is tighter, and the equipped
-    item ring shrinks when space is limited.
-
-    - Old 3DS uses a lighter bottom-screen renderer and narrower wide rendering to
-    reduce memory and presentation pressure.
-
-
-    ### Testing Request
-
-
-    If you still see the issue, please send a dump from this build. Hold L + R + A,
-    then send the dump folder that appears under the Zelda 3DS folder.
-
-    '
-  updated: '2026-08-10T20:24:37Z'
-  version: v3.0-experimental
-  version_title: v3.0
+    If you run into any issues, press L + R + A, save a dump to your Zelda 3DS folder,
+    and send it to me. That way, I can help you more easily.'
+  updated: '2026-08-11T18:39:29Z'
+  version: v3.0-E3
+  version_title: v3.0-E3
 qr:
   zelda3-3ds-v2.9.cia: https://db.universal-team.net/assets/images/qr/zelda3-3ds-v2-9-cia.png
 source: https://github.com/EstebanPdN/zelda-alttp-3ds
-stars: 378
+stars: 381
 systems:
 - 3DS
 title: zelda-alttp-3ds
