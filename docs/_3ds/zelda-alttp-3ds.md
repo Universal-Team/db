@@ -30,10 +30,6 @@ preinstall_message: Place a legally obtained USA, unheadered ROM in sdmc:/3ds/Ze
 prerelease:
   download_page: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/tag/v3.0-E3
   downloads:
-    QR-v3.0-E3-cia.png:
-      size: 1374
-      size_str: 1 KiB
-      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E3/QR-v3.0-E3-cia.png
     zelda3-3ds-v3.0-E3.3dsx:
       size: 5684612
       size_str: 5 MiB
@@ -44,9 +40,7 @@ prerelease:
       url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E3/zelda3-3ds-v3.0-E3.cia
   qr:
     zelda3-3ds-v3.0-E3.cia: https://db.universal-team.net/assets/images/qr/prerelease/zelda3-3ds-v3-0-e3-cia.png
-  update_notes: '<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E3/QR-v3.0-E3-cia.png"><img
-    width="500" height="500" alt="v3.0-E3 CIA QR" src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E3/QR-v3.0-E3-cia.png"
-    style="max-width: 100%; height: auto; max-height: 500px;"></a></p>
+  update_notes: '
 
     <h2 dir="auto">Changelog</h2>
 
@@ -63,7 +57,7 @@ prerelease:
 
     <p dir="auto">If you run into any issues, press L + R + A, save a dump to your
     Zelda 3DS folder, and send it to me. That way, I can help you more easily.</p>'
-  update_notes_md: '<img width="500" height="500" alt="v3.0-E3 CIA QR" src="https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E3/QR-v3.0-E3-cia.png"
+  update_notes_md: '<img width="500" height="500" alt="qr" src="https://github.com/user-attachments/assets/16559ce0-c7e3-46b6-b6b8-d21ffead42ed"
     />
 
 
