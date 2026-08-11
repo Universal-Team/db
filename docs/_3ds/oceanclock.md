@@ -10,13 +10,13 @@ description: a relaxing clock app for Nintendo 3ds from the creator of NightCloc
 download_page: https://github.com/Michele-3ds/OceanClock/releases
 downloads:
   OceanClock.3dsx:
-    size: 249872
-    size_str: 244 KiB
-    url: https://github.com/Michele-3ds/OceanClock/releases/download/OceanClock1.00/OceanClock.3dsx
+    size: 253060
+    size_str: 247 KiB
+    url: https://github.com/Michele-3ds/OceanClock/releases/download/OceanClock1.01/OceanClock.3dsx
   OceanClock.cia:
-    size: 242624
-    size_str: 236 KiB
-    url: https://github.com/Michele-3ds/OceanClock/releases/download/OceanClock1.00/OceanClock.cia
+    size: 244672
+    size_str: 238 KiB
+    url: https://github.com/Michele-3ds/OceanClock/releases/download/OceanClock1.01/OceanClock.cia
 github: Michele-3ds/OceanClock
 icon: https://raw.githubusercontent.com/Michele-3ds/OceanClock/main/icon.png
 image: https://raw.githubusercontent.com/Michele-3ds/OceanClock/main/icon.png
@@ -34,12 +34,18 @@ systems:
 title: OceanClock
 unique_ids:
 - '0xF8C10'
-update_notes: '<p dir="auto">This is the first version of OceanClock.<br>
+update_notes: '<p dir="auto">New: added tappable "Alarm set" / "Timer" indicators
+  on the main screen, shown stacked below the title whenever active — tap either one
+  to jump straight to its settings screen</p>
 
-  It is fully operational and stable, released in 3dsx and cia formats, tested on
-  Citra and Nintendo New 3ds XL</p>'
-updated: '2026-07-25T13:47:21Z'
-version: OceanClock1.00
-version_title: OceanClock version 1.00
+  <p dir="auto">New: added stepper (+/−) buttons to all time-editing fields in the
+  Alarm and Timer screens, alongside the existing tap-to-increment behavior — supports
+  both single taps and press-and-hold for fast scrolling</p>
+
+  <p dir="auto">Fixed: stopping the timer''s ringing alarm would incorrectly also
+  disable a separately configured wake-up alarm — the two are now tracked independently</p>'
+updated: '2026-08-11T08:56:07Z'
+version: OceanClock1.01
+version_title: OceanClock 1.01
 ---
 a relaxing clock app for Nintendo 3ds from the creator of NightClock
