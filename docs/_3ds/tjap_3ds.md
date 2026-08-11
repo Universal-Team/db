@@ -27,7 +27,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.3.2
   downloads:
     TJAP_3DS.3dsx:
-      size: 10398476
+      size: 10398700
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.2/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -47,6 +47,8 @@ prerelease:
     <li><code class="notranslate">TITLEJA:</code> <code class="notranslate">SUBTITLEJA:</code>
     <code class="notranslate">TITLEES:</code> <code class="notranslate">SUBTITLEES:</code>タグの対応</li>
 
+    <li>特定の条件下でフリーズする不具合の修正</li>
+
     </ul>
 
     <h2 dir="auto">Changelog</h2>
@@ -62,6 +64,8 @@ prerelease:
     <code class="notranslate">TITLEES:</code> <code class="notranslate">SUBTITLEES:</code>
     tags.</li>
 
+    <li>Fix for a bug that caused the game to freeze under certain conditions.</li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
@@ -71,6 +75,8 @@ prerelease:
 
     - `TITLEJA:` `SUBTITLEJA:` `TITLEES:` `SUBTITLEES:`タグの対応
 
+    - 特定の条件下でフリーズする不具合の修正
+
 
     ## Changelog
 
@@ -79,7 +85,9 @@ prerelease:
     - Fixed a bug where the `#NEXTSONG` command would temporarily corrupt the score
     during gameplay.
 
-    - Support for `TITLEJA:` `SUBTITLEJA:` `TITLEES:` `SUBTITLEES:` tags.'
+    - Support for `TITLEJA:` `SUBTITLEJA:` `TITLEES:` `SUBTITLEES:` tags.
+
+    - Fix for a bug that caused the game to freeze under certain conditions.'
   updated: '2026-08-05T04:14:53Z'
   version: v2.3.2
   version_title: TJAPlayer for 3DS v2.3.2
