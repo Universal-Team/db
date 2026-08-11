@@ -29,7 +29,7 @@ llm_generation: 'yes'
 qr:
   PapasPizzeria-n3DS.cia: https://db.universal-team.net/assets/images/qr/papaspizzeria-n3ds-cia.png
 source: https://github.com/zylonity/PapasPizzeria-n3DS
-stars: 12
+stars: 13
 systems:
 - 3DS
 title: Papa's Pizzeria
