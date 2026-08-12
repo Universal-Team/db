@@ -13,7 +13,7 @@ downloads:
   3ds_cli.zip:
     size: 56200000
     size_str: 53 MiB
-    url: https://github.com/cmdada/3DS-CLI/releases/download/build-6316b1ca85749d918fa8c74ebce72221533fd36e/3ds_cli.zip
+    url: https://github.com/cmdada/3DS-CLI/releases/download/2.3/3ds_cli.zip
 github: cmdada/3DS-CLI
 icon: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
 image: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
@@ -52,8 +52,8 @@ update_notes: '<h2 dir="auto">SD Card Setup</h2>
 
   procps, util-linux.</p>'
 updated: '2026-08-12T17:19:44Z'
-version: build-6316b1ca85749d918fa8c74ebce72221533fd36e
-version_title: Build 6316b1c
+version: '2.3'
+version_title: V2.3
 ---
 
 A Nintendo 3DS homebrew application that embeds a full RISC-V CPU emulator (`mini-rv32ima` by cnlohr) to boot a real Linux environment inside the 3DS Horizon OS.
