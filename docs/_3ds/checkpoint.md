@@ -28,7 +28,7 @@ llm_generation: 'yes'
 qr:
   Checkpoint.cia: https://db.universal-team.net/assets/images/qr/checkpoint-cia.png
 source: https://github.com/BernardoGiordano/Checkpoint
-stars: 3037
+stars: 3039
 systems:
 - 3DS
 title: Checkpoint

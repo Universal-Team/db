@@ -38,7 +38,7 @@ screenshots:
 - description: Serverlist
   url: https://db.universal-team.net/assets/images/screenshots/tricord/serverlist.png
 source: https://github.com/2b-zipper/TriCord
-stars: 107
+stars: 109
 systems:
 - 3DS
 title: TriCord
