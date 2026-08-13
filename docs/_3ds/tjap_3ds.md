@@ -27,12 +27,12 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.3.3
   downloads:
     TJAP_3DS.3dsx:
-      size: 10398860
-      size_str: 9 MiB
+      size: 9346024
+      size_str: 8 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.3/TJAP_3DS.3dsx
     TJAP_3DS.cia:
-      size: 10568640
-      size_str: 10 MiB
+      size: 9507776
+      size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.3/TJAP_3DS.cia
   qr:
     TJAP_3DS.cia: https://db.universal-team.net/assets/images/qr/prerelease/tjap_3ds-cia.png
