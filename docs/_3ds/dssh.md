@@ -13,13 +13,13 @@ download_filter: (cia|3dsx)
 download_page: https://github.com/Fishason/DSSH/releases
 downloads:
   3dssh.3dsx:
-    size: 14920776
+    size: 15297552
     size_str: 14 MiB
-    url: https://github.com/Fishason/DSSH/releases/download/v1.2.0/3dssh.3dsx
+    url: https://github.com/Fishason/DSSH/releases/download/v1.3.0/3dssh.3dsx
   DSSH.cia:
-    size: 14468032
-    size_str: 13 MiB
-    url: https://github.com/Fishason/DSSH/releases/download/v1.2.0/DSSH.cia
+    size: 14701504
+    size_str: 14 MiB
+    url: https://github.com/Fishason/DSSH/releases/download/v1.3.0/DSSH.cia
 github: Fishason/DSSH
 icon: https://raw.githubusercontent.com/Fishason/DSSH/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/Fishason/DSSH/refs/heads/main/icon.png
@@ -37,146 +37,119 @@ systems:
 title: DSSH
 unique_ids:
 - '0xFF55C'
-update_notes: '<p dir="auto">两个小但都很有用的改动：终端 Shift+Tab 在软键盘上能打出来了，语音识别从 Whisper 换到
-  Qwen3-ASR-Flash 解决稳定性 + 中文标点更地道。</p>
+update_notes: '<p dir="auto">DSSH 的第一个社区贡献版本 🎉 本次合并了 <a class="user-mention notranslate"
+  data-hovercard-type="user" data-hovercard-url="/users/hedykan/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/hedykan">@hedykan</a>
+  和 <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/cadl/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cadl">@cadl</a>
+  两位贡献者的全部功能 PR（<a class="issue-link js-issue-link" data-error-text="Failed to load
+  title" data-id="4802917222" data-permission-text="Title is private" data-url="https://github.com/Fishason/DSSH/issues/5"
+  data-hovercard-type="pull_request" data-hovercard-url="/Fishason/DSSH/pull/5/hovercard"
+  href="https://github.com/Fishason/DSSH/pull/5">#5</a>、<a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4861310221" data-permission-text="Title
+  is private" data-url="https://github.com/Fishason/DSSH/issues/6" data-hovercard-type="pull_request"
+  data-hovercard-url="/Fishason/DSSH/pull/6/hovercard" href="https://github.com/Fishason/DSSH/pull/6">#6</a>、<a
+  class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="4863407029"
+  data-permission-text="Title is private" data-url="https://github.com/Fishason/DSSH/issues/7"
+  data-hovercard-type="pull_request" data-hovercard-url="/Fishason/DSSH/pull/7/hovercard"
+  href="https://github.com/Fishason/DSSH/pull/7">#7</a>），感谢你们！</p>
 
-  <hr>
+  <h2 dir="auto">新功能</h2>
 
-  <h2 dir="auto">⇥ Shift+Tab on the soft keyboard</h2>
+  <h3 dir="auto">SELECT 键断线重连（<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="4802917222" data-permission-text="Title is private" data-url="https://github.com/Fishason/DSSH/issues/5"
+  data-hovercard-type="pull_request" data-hovercard-url="/Fishason/DSSH/pull/5/hovercard"
+  href="https://github.com/Fishason/DSSH/pull/5">#5</a>，by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/hedykan/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/hedykan">@hedykan</a>）</h3>
 
-  <p dir="auto">按住物理 <strong>L</strong>（Shift）同时点软键盘 <strong>tab</strong> → 输出 <code
-  class="notranslate">\x1b[Z</code>（CSI Z，terminal 标准的"光标后退一个 tab"）。普通点 tab 仍然是 <code
-  class="notranslate">\t</code> 不变。</p>
+  <p dir="auto">合盖休眠会冻结 TCP 导致 SSH 硬断开，以前只能退出重进。现在按 <strong>SELECT</strong> 即可原地重连、秒回原来的
+  tmux 会话。</p>
 
-  <p dir="auto">实用场景：</p>
+  <h3 dir="auto">蟹蟹吉祥物 6 个新状态（<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="4802917222" data-permission-text="Title is private" data-url="https://github.com/Fishason/DSSH/issues/5"
+  data-hovercard-type="pull_request" data-hovercard-url="/Fishason/DSSH/pull/5/hovercard"
+  href="https://github.com/Fishason/DSSH/pull/5">#5</a>，by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/hedykan/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/hedykan">@hedykan</a>）</h3>
 
-  <ul dir="auto">
+  <p dir="auto">重连中张望、成功欢呼、失败沮丧、录音、思考、打字——蟹蟹现在会跟着应用状态卖萌了。</p>
 
-  <li><strong>vim/zsh 补全候选反向走</strong>：补全菜单里前一项</li>
+  <h3 dir="auto">语音打字机流式输出（<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="4802917222" data-permission-text="Title is private" data-url="https://github.com/Fishason/DSSH/issues/5"
+  data-hovercard-type="pull_request" data-hovercard-url="/Fishason/DSSH/pull/5/hovercard"
+  href="https://github.com/Fishason/DSSH/pull/5">#5</a>，by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/hedykan/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/hedykan">@hedykan</a>）</h3>
 
-  <li><strong>tmux Ctrl-B q 后窗口编号反向切</strong></li>
+  <p dir="auto">语音转写文本改为逐字流式回传（延迟自适应），不再一次性整段 dump。</p>
 
-  <li><strong>lazyvim 的部分 plugin</strong> 用 Shift+Tab 退出嵌套菜单</li>
+  <h3 dir="auto">macOS Keychain 自动解锁（<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="4861310221" data-permission-text="Title is private" data-url="https://github.com/Fishason/DSSH/issues/6"
+  data-hovercard-type="pull_request" data-hovercard-url="/Fishason/DSSH/pull/6/hovercard"
+  href="https://github.com/Fishason/DSSH/pull/6">#6</a>，by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/cadl/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cadl">@cadl</a>）</h3>
 
-  </ul>
+  <p dir="auto">连接 macOS 时自动解锁登录 Keychain，Claude Code 可以直接复用已有登录凭据，不用每次重新 login。在
+  <code class="notranslate">config.ini</code> 中配置：</p>
 
-  <p dir="auto">修改面：<code class="notranslate">source/softkb.c</code> 的 KIND_SEQ dispatch
-  加 4 行——只对 <code class="notranslate">\t</code> 特判，其他 KIND_SEQ binding 不受影响。</p>
+  <div class="highlight highlight-source-ini" dir="auto"><pre class="notranslate"><span
+  class="pl-k">macos_keychain_password</span> = <span class="pl-s"><span class="pl-pds">"</span>你的
+  macOS 登录密码<span class="pl-pds">"</span></span></pre></div>
 
-  <h2 dir="auto">🎙️ ASR 从 Whisper → Qwen3-ASR-Flash</h2>
+  <p dir="auto"><g-emoji class="g-emoji" alias="warning">⚠️</g-emoji> 密码以明文保存在 SD
+  卡上，默认关闭，请自行评估风险。</p>
 
-  <p dir="auto"><code class="notranslate">OPENROUTER_AUDIO_MODEL</code> 常量从 <code
-  class="notranslate">openai/whisper-large-v3-turbo</code> 切到 <strong><code class="notranslate">qwen/qwen3-asr-flash-2026-02-10</code></strong>。</p>
+  <h3 dir="auto">fish / Kitty 键盘协议渲染修复（<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="4861310221" data-permission-text="Title is private" data-url="https://github.com/Fishason/DSSH/issues/6"
+  data-hovercard-type="pull_request" data-hovercard-url="/Fishason/DSSH/pull/6/hovercard"
+  href="https://github.com/Fishason/DSSH/pull/6">#6</a>，by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/cadl/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cadl">@cadl</a>）</h3>
 
-  <h3 dir="auto">为什么换：</h3>
+  <p dir="auto">修复了 fish 等 shell 下输入一直卡在屏幕第一行、内容错乱的问题；补充了终端查询响应和正确的初始 PTY 尺寸。</p>
 
-  <ul dir="auto">
+  <h3 dir="auto">原生 Tailscale 支持（<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="4863407029" data-permission-text="Title is private" data-url="https://github.com/Fishason/DSSH/issues/7"
+  data-hovercard-type="pull_request" data-hovercard-url="/Fishason/DSSH/pull/7/hovercard"
+  href="https://github.com/Fishason/DSSH/pull/7">#7</a>，by <a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/cadl/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cadl">@cadl</a>）</h3>
 
-  <li><strong>稳定性</strong>：OpenRouter 的 Whisper Turbo provider 偶尔对某些 IP 段限速 / 阻断，同一段音频走
-  Qwen 始终成功</li>
+  <p dir="auto">3DS 可以直接加入你的 tailnet，通过 Tailscale IPv4 或 MagicDNS 名称连接 SSH。传输层由 <a
+  href="https://github.com/cadl/libts3ds">libts3ds</a> 提供（实验性）。在 <code class="notranslate">config.ini</code>
+  中配置 <code class="notranslate">tailscale_auth_key</code> 即可启用。</p>
 
-  <li><strong>中文标点更地道</strong>：
-
-  <ul dir="auto">
-
-  <li>Whisper：<code class="notranslate">你好世界,今天天气不错</code></li>
-
-  <li>Qwen3：<code class="notranslate">你好，世界。今天天气不错。</code></li>
-
-  </ul>
-
-  </li>
-
-  <li><strong>没有协议改动</strong>：OpenRouter 的 <code class="notranslate">/v1/audio/transcriptions</code>
-  endpoint 对 Whisper 和 Qwen3 用<strong>完全相同</strong>的 JSON 请求 / 响应格式——服务器端 shim 改一个常量就完事，3DS
-  端代码 0 修改</li>
-
-  </ul>
-
-  <h3 dir="auto">代价：</h3>
-
-  <ul dir="auto">
-
-  <li>单价从 ~$0.067/音频小时 → ~$0.13/音频小时（约 2 倍）。个人用一个月仍是几美分级别，可忽略</li>
-
-  </ul>
-
-  <h3 dir="auto">升级方式：</h3>
-
-  <p dir="auto">OpenRouter API key 不变（同一把 key 同时能调 Whisper 和 Qwen）。重跑 install 脚本或者手动
-  `git pull` 即可：</p>
-
-  <div class="highlight highlight-source-shell" dir="auto"><pre class="notranslate"><span
-  class="pl-c1">cd</span> <span class="pl-k">~</span>/dssh-repo <span class="pl-k">&amp;&amp;</span>
-  git pull
-
-  bash tools/install_whisper_api.sh   <span class="pl-c"><span class="pl-c">#</span>
-  已有 key 不会再问，只刷新 shim</span></pre></div>
-
-  <hr>
-
-  <h2 dir="auto">📦 安装 / 升级</h2>
-
-  <markdown-accessiblity-table><table role="table">
-
-  <thead>
-
-  <tr>
-
-  <th>想要的</th>
-
-  <th>下载</th>
-
-  </tr>
-
-  </thead>
-
-  <tbody>
-
-  <tr>
-
-  <td>Homebrew Launcher 启动</td>
-
-  <td><a href="https://github.com/Fishason/DSSH/releases/latest/download/3dssh.3dsx">`3dssh.3dsx`</a></td>
-
-  </tr>
-
-  <tr>
-
-  <td>HOME 菜单图标启动（推荐）</td>
-
-  <td><a href="https://github.com/Fishason/DSSH/releases/latest/download/DSSH.cia">`DSSH.cia`</a></td>
-
-  </tr>
-
-  <tr>
-
-  <td>完整 1m42s 演示视频（v1.0 拼音 IME 录的，v1.2 兼容）</td>
-
-  <td><a href="https://github.com/Fishason/DSSH/releases/latest/download/demo.mp4">`demo.mp4`</a></td>
-
-  </tr>
-
-  </tbody>
-
-  </table></markdown-accessiblity-table>
-
-  <h3 dir="auto">从 v1.1 升级</h3>
+  <h2 dir="auto">安装</h2>
 
   <ul dir="auto">
 
-  <li><strong>3DS</strong>：装新 `.cia` 即可（覆盖安装）。Shift+Tab 立刻生效</li>
+  <li><code class="notranslate">.3dsx</code>：放到 SD 卡 <code class="notranslate">/3ds/</code>
+  目录，用 Homebrew Launcher 启动</li>
 
-  <li><strong>服务器</strong>：`cd ~/dssh-repo &amp;&amp; git pull &amp;&amp; bash tools/install_whisper_api.sh`——shim
-  会刷新成 Qwen3 版本。下次按 START 自动用新模型</li>
+  <li><code class="notranslate">DSSH.cia</code>：用 FBI 安装</li>
+
+  <li>私钥仍需 <code class="notranslate">ssh-keygen -m PEM</code> 格式（mbedtls 2.28 限制）</li>
 
   </ul>
 
-  <h3 dir="auto">新用户从零安装</h3>
+  <h2 dir="auto">致谢</h2>
 
-  <p dir="auto">按 README 的<a href="https://github.com/Fishason/DSSH/blob/main/README.zh.md#%E8%AF%AD%E9%9F%B3%E8%BE%93%E5%85%A5">语音输入章节</a>走
-  OpenRouter + DeepSeek 两把 key 的一键安装，全套服务器端 ~30 KB、~1 分钟搞定。</p>'
-updated: '2026-05-31T03:11:50Z'
-version: v1.2.0
-version_title: DSSH v1.2 — Shift+Tab + Qwen3 ASR Flash
+  <ul dir="auto">
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/hedykan/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/hedykan">@hedykan</a>
+  — SELECT 重连、吉祥物状态、语音打字机</li>
+
+  <li><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/cadl/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/cadl">@cadl</a>
+  — Keychain 解锁、fish 渲染修复、Tailscale 支持及 libts3ds</li>
+
+  </ul>
+
+  <p dir="auto">两位的功能均经过各自真机验证；合并后的组合构建通过了全部主机端回归测试（config / terminal / IME）。</p>'
+updated: '2026-08-13T10:38:08Z'
+version: v1.3.0
+version_title: DSSH v1.3 — 社区贡献版：重连 / Keychain / Tailscale
 ---
