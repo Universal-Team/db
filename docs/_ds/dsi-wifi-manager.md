@@ -26,7 +26,7 @@ llm_generation: 'yes'
 qr:
   dsi_wifi_manager.dsi: https://db.universal-team.net/assets/images/qr/dsi_wifi_manager-dsi.png
 source: https://github.com/tasken/DSi-WiFi-Manager
-stars: 3
+stars: 4
 systems:
 - DS
 title: DSi-WiFi-Manager
