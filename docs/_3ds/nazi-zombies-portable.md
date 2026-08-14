@@ -46,14 +46,6 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   Changes in the following areas have been made since the last nightly:</p>
 
-  <ul dir="auto">
-
-  <li>Game Assets</li>
-
-  <li>Vril (Engine)</li>
-
-  </ul>
-
   <p dir="auto">Installation Instructions:</p>
 
   <ul dir="auto">
@@ -68,7 +60,8 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
   and launch with Homebrew Launcher. Requires extra memory, so make sure to open HBLauncher
   by holding ''R'' over an installed title!</li>
 
-  <li>PS VITA: Extract the nzp directory into ux0:data/ and install <code class="notranslate">nzportable.vpk</code>.</li>
+  <li>PS VITA: Extract <code class="notranslate">nzp.zip</code> into ux0:data/ and
+  install <code class="notranslate">nzportable.vpk</code>.</li>
 
   <li>Nintendo 3DS: Extract the .ZIP archive into <code class="notranslate">/3ds/</code>.</li>
 
@@ -79,9 +72,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <p dir="auto">You can also play the WebGL version at <a href="https://nzp.gay/"
   rel="nofollow">https://nzp.gay/</a></p>'
-updated: '2026-08-13T01:10:14Z'
+updated: '2026-08-14T04:23:16Z'
 version: nightly
-version_title: 2.0.0-indev+20260813010829
+version_title: 2.0.0-indev+20260814042130
 website: https://github.com/nzp-team/nzportable
 ---
 A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at War.
