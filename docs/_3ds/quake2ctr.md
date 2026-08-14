@@ -34,7 +34,7 @@ screenshots:
 - description: Gameplay 2
   url: https://db.universal-team.net/assets/images/screenshots/quake2ctr/gameplay-2.png
 source: https://github.com/masterfeizz/Quake2CTR
-stars: 56
+stars: 57
 systems:
 - 3DS
 title: Quake2CTR

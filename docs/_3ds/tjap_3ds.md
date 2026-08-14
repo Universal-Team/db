@@ -27,7 +27,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.3.3
   downloads:
     TJAP_3DS.3dsx:
-      size: 9873784
+      size: 9873796
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.3/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -44,6 +44,8 @@ prerelease:
 
     <li>特定の条件下で読み込み開始時にクラッシュする不具合の修正</li>
 
+    <li>譜面分岐時に違うコースの挙動が起きる可能性のあった不具合の修正</li>
+
     </ul>
 
     <h2 dir="auto">Changelog</h2>
@@ -54,6 +56,9 @@ prerelease:
 
     <li>Fixed a bug that caused a crash at the start of loading under certain conditions.</li>
 
+    <li>Fixed a bug that could cause the game to behave differently depending on the
+    song''s branching point.</li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
@@ -61,12 +66,17 @@ prerelease:
 
     - 特定の条件下で読み込み開始時にクラッシュする不具合の修正
 
+    - 譜面分岐時に違うコースの挙動が起きる可能性のあった不具合の修正
+
 
     ## Changelog
 
     - Reduced loading time when loading multiple scores at once.
 
-    - Fixed a bug that caused a crash at the start of loading under certain conditions.'
+    - Fixed a bug that caused a crash at the start of loading under certain conditions.
+
+    - Fixed a bug that could cause the game to behave differently depending on the
+    song''s branching point.'
   updated: '2026-08-12T06:43:30Z'
   version: v2.3.3
   version_title: TJAPlayer for 3DS v2.3.3
