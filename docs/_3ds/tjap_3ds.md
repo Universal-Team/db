@@ -27,7 +27,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.3.3
   downloads:
     TJAP_3DS.3dsx:
-      size: 9873796
+      size: 9873792
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.3/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -46,6 +46,8 @@ prerelease:
 
     <li>譜面分岐時に違うコースの挙動が起きる可能性のあった不具合の修正</li>
 
+    <li><code class="notranslate">#SUDDEN</code>命令が正しく機能していなかったのを修正</li>
+
     </ul>
 
     <h2 dir="auto">Changelog</h2>
@@ -59,6 +61,9 @@ prerelease:
     <li>Fixed a bug that could cause the game to behave differently depending on the
     song''s branching point.</li>
 
+    <li>Fixed an issue where the <code class="notranslate">#SUDDEN</code> command
+    was not working correctly.</li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
@@ -68,6 +73,8 @@ prerelease:
 
     - 譜面分岐時に違うコースの挙動が起きる可能性のあった不具合の修正
 
+    - `#SUDDEN`命令が正しく機能していなかったのを修正
+
 
     ## Changelog
 
@@ -76,7 +83,9 @@ prerelease:
     - Fixed a bug that caused a crash at the start of loading under certain conditions.
 
     - Fixed a bug that could cause the game to behave differently depending on the
-    song''s branching point.'
+    song''s branching point.
+
+    - Fixed an issue where the `#SUDDEN` command was not working correctly.'
   updated: '2026-08-12T06:43:30Z'
   version: v2.3.3
   version_title: TJAPlayer for 3DS v2.3.3
