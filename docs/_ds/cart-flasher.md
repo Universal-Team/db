@@ -14,7 +14,7 @@ downloads:
   cart_flasher.nds:
     size: 216576
     size_str: 211 KiB
-    url: https://github.com/tasken/Cart-Flasher/releases/download/v0.5.3-comfey/cart_flasher.nds
+    url: https://github.com/tasken/cart-flasher/releases/download/v0.5.3-comfey/cart_flasher.nds
 github: tasken/Cart-Flasher
 icon: https://raw.githubusercontent.com/tasken/Cart-Flasher/refs/heads/main/resources/icon.png
 image: https://raw.githubusercontent.com/tasken/Cart-Flasher/main/resources/logo.png
@@ -25,11 +25,11 @@ license_name: GNU General Public License v3.0
 llm_generation: 'yes'
 qr:
   cart_flasher.nds: https://db.universal-team.net/assets/images/qr/cart_flasher-nds.png
-source: https://github.com/tasken/Cart-Flasher
+source: https://github.com/tasken/cart-flasher
 stars: 0
 systems:
 - DS
-title: Cart-Flasher
+title: cart-flasher
 update_notes: '<ul dir="auto">
 
   <li>Fixed firmware writes to use safe 64 KiB chunks, preventing partial-page corruption
@@ -40,7 +40,7 @@ update_notes: '<ul dir="auto">
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/tasken/Cart-Flasher/compare/v0.5.2-comfey...v0.5.3-comfey"><tt>v0.5.2-comfey...v0.5.3-comfey</tt></a></p>'
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/tasken/cart-flasher/compare/v0.5.2-comfey...v0.5.3-comfey"><tt>v0.5.2-comfey...v0.5.3-comfey</tt></a></p>'
 updated: '2026-08-01T20:04:29Z'
 version: v0.5.3-comfey
 version_title: v0.5.3-comfey

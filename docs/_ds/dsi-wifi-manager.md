@@ -14,7 +14,7 @@ downloads:
   dsi_wifi_manager.dsi:
     size: 176640
     size_str: 172 KiB
-    url: https://github.com/tasken/DSi-WiFi-Manager/releases/download/v0.2-brazo-rico/dsi_wifi_manager.dsi
+    url: https://github.com/tasken/dsi-wifi-manager/releases/download/v0.2-brazo-rico/dsi_wifi_manager.dsi
 github: tasken/DSi-WiFi-Manager
 icon: https://raw.githubusercontent.com/tasken/DSi-WiFi-Manager/HEAD/resources/icon.png
 image: https://raw.githubusercontent.com/tasken/DSi-WiFi-Manager/HEAD/resources/logo.png
@@ -25,11 +25,11 @@ license_name: GNU General Public License v3.0
 llm_generation: 'yes'
 qr:
   dsi_wifi_manager.dsi: https://db.universal-team.net/assets/images/qr/dsi_wifi_manager-dsi.png
-source: https://github.com/tasken/DSi-WiFi-Manager
-stars: 4
+source: https://github.com/tasken/dsi-wifi-manager
+stars: 5
 systems:
 - DS
-title: DSi-WiFi-Manager
+title: dsi-wifi-manager
 update_notes: '<h2 dir="auto">[v0.2-brazo-rico] - 2026-08-01</h2>
 
   <h3 dir="auto">Added</h3>
@@ -71,7 +71,7 @@ update_notes: '<h2 dir="auto">[v0.2-brazo-rico] - 2026-08-01</h2>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/tasken/DSi-WiFi-Manager/compare/v0.1-garibaldi...v0.2-brazo-rico"><tt>v0.1-garibaldi...v0.2-brazo-rico</tt></a></p>'
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/tasken/dsi-wifi-manager/compare/v0.1-garibaldi...v0.2-brazo-rico"><tt>v0.1-garibaldi...v0.2-brazo-rico</tt></a></p>'
 updated: '2026-08-01T17:48:25Z'
 version: v0.2-brazo-rico
 version_title: v0.2-brazo-rico
