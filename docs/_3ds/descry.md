@@ -51,7 +51,7 @@ screenshots:
 - description: Song view
   url: https://db.universal-team.net/assets/images/screenshots/descry/song-view.png
 source: https://github.com/patausx/descry
-stars: 14
+stars: 16
 systems:
 - 3DS
 title: descry

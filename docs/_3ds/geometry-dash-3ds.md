@@ -11,17 +11,17 @@ description: Geometry Dash for the 3DS
 download_page: https://github.com/AleFunky/gd3ds/releases
 downloads:
   GeometryDash3DS.3dsx:
-    size: 28309648
-    size_str: 26 MiB
-    url: https://github.com/AleFunky/gd3ds/releases/download/v1.0.1/GeometryDash3DS.3dsx
-  GeometryDash3DS.cia:
-    size: 26657728
+    size: 26425868
     size_str: 25 MiB
-    url: https://github.com/AleFunky/gd3ds/releases/download/v1.0.1/GeometryDash3DS.cia
+    url: https://github.com/AleFunky/gd3ds/releases/download/v1.1/GeometryDash3DS.3dsx
+  GeometryDash3DS.cia:
+    size: 26616768
+    size_str: 25 MiB
+    url: https://github.com/AleFunky/gd3ds/releases/download/v1.1/GeometryDash3DS.cia
   Geometry_Dash_3DS_Level_Pack.zip:
     size: 128667328
     size_str: 122 MiB
-    url: https://github.com/AleFunky/gd3ds/releases/download/v1.0.1/Geometry_Dash_3DS_Level_Pack.zip
+    url: https://github.com/AleFunky/gd3ds/releases/download/v1.1/Geometry_Dash_3DS_Level_Pack.zip
 github: AleFunky/gd3ds
 icon: https://raw.githubusercontent.com/AleFunky/gd3ds/refs/heads/master/resources/icon.png
 image: https://raw.githubusercontent.com/AleFunky/gd3ds/refs/heads/master/resources/icon.png
@@ -37,16 +37,34 @@ systems:
 title: Geometry Dash 3DS
 unique_ids:
 - '0xBB41C'
-update_notes: '<p dir="auto">This small release contains the following bugfixes and
-  tweaks:</p>
+update_notes: '<p dir="auto">This release contains the following:</p>
 
   <h3 dir="auto">Additions</h3>
 
   <ul dir="auto">
 
-  <li>Added UI opening animations.</li>
+  <li>Added 240hz Input (Click on Steps).</li>
 
-  <li>Added audio sliders.</li>
+  <li>Added Auto Checkpoints.</li>
+
+  <li>Added Practice Music Sync.</li>
+
+  <li>Added Settings Hub.</li>
+
+  <li>Added stereoscopic 3D support.</li>
+
+  </ul>
+
+  <h3 dir="auto">Changes</h3>
+
+  <ul dir="auto">
+
+  <li>Settings UI has been remade to improve navigation between categories.</li>
+
+  <li>Bottom Screen during gameplay now displays Level Background and Ground.</li>
+
+  <li>The Icon Kit color select menu has been improved to be more usable on the 3DS''s
+  small touch screen.</li>
 
   </ul>
 
@@ -54,34 +72,28 @@ update_notes: '<p dir="auto">This small release contains the following bugfixes 
 
   <ul dir="auto">
 
-  <li>Slope jumping velocity has been fixed (it jumped higher than it should).</li>
+  <li>Patched memory leaks.</li>
 
-  <li>Saw textures has been centered</li>
+  <li>Fixed some saws not being centered.</li>
 
-  <li>Death animation would slow down when not at 60 fps.</li>
-
-  <li>Speed portal particles would persist between levels.</li>
+  <li>Levels with a song start offset now load significantly faster.</li>
 
   </ul>
 
-  <h3 dir="auto">Tweaks</h3>
+  <h3 dir="auto">Technical</h3>
 
   <ul dir="auto">
 
-  <li>Blending now looks more like in vanilla.</li>
-
-  <li>Made camera movement more accurate.</li>
-
-  <li>You can now use the dpad or circle pad to scroll lists.</li>
+  <li>The UI system has been revamped, drastically decreasing RAM usage.</li>
 
   </ul>
 
   <p dir="auto">As the previous release, this release comes with a level pack featuring
   popular 1.9 levels. To install it, decompress the zip file in "/3ds/gd3ds/" of the
   SDCard.</p>'
-updated: '2026-06-26T09:19:58Z'
-version: v1.0.1
-version_title: Geometry Dash 3DS 1.0.1
+updated: '2026-08-15T16:57:44Z'
+version: v1.1
+version_title: Geometry Dash 3DS 1.1
 ---
 Jump and fly your way through danger in this rhythm-based action platformer - now on 3DS! This fan-made port is in no way affiliated with RobTop Games, the creator of Geometry Dash, and all in game assets belong to their respective owners. If you want to get the full experience, please buy the original game!
 
