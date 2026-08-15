@@ -11,14 +11,22 @@ description: music tracker + synthesizer for the New Nintendo 3DS — song/chain
   sequencer, 5 synth engines, 23 FX commands, KAOSS pad, mic sampling
 download_page: https://github.com/patausx/descry/releases
 downloads:
+  SHA256SUMS:
+    size: 325
+    size_str: 325 Bytes
+    url: https://github.com/patausx/descry/releases/download/v1.0.6/SHA256SUMS
+  descry-v1.0.6-IRONLUNG.zip:
+    size: 113925
+    size_str: 111 KiB
+    url: https://github.com/patausx/descry/releases/download/v1.0.6/descry-v1.0.6-IRONLUNG.zip
   descry.3dsx:
-    size: 478264
-    size_str: 467 KiB
-    url: https://github.com/patausx/descry/releases/download/v1.0.5/descry.3dsx
+    size: 529624
+    size_str: 517 KiB
+    url: https://github.com/patausx/descry/releases/download/v1.0.6/descry.3dsx
   descry.cia:
-    size: 524736
-    size_str: 512 KiB
-    url: https://github.com/patausx/descry/releases/download/v1.0.5/descry.cia
+    size: 562112
+    size_str: 548 KiB
+    url: https://github.com/patausx/descry/releases/download/v1.0.6/descry.cia
 github: patausx/descry
 icon: https://raw.githubusercontent.com/patausx/descry/main/assets/icon.png
 image: https://raw.githubusercontent.com/patausx/descry/main/branding/final/banner_256x128.png
@@ -49,209 +57,244 @@ systems:
 title: descry
 unique_ids:
 - '0xDE5C1'
-update_notes: '<p dir="auto">three weeks of work, and most of it is the unglamorous
-  kind: races, silent<br>
+update_notes: '<h1 dir="auto">descry v1.0.6 — one clock, honest renders, sharper tools</h1>
 
-  corruption and knobs that did nothing. a sampler workflow overhaul on top.</p>
+  <p dir="auto">this release attacks the parts of a tracker that absolutely cannot
+  lie: time, playback position, undo and export. it also ships the first proper flagship
+  demo — a copyright-clean jungle track built to show what the sampler and sequencer
+  actually do.</p>
 
-  <h2 dir="auto">sampling &amp; wavetables</h2>
+  <h2 dir="auto">one Song clock</h2>
 
-  <ul dir="auto">
+  <p dir="auto">Song rows used to advance independently on every track. put a one-phrase
+  drum chain next to a four-phrase bass chain and the drums reached the next arrangement
+  row three phrases early; an <code class="notranslate">EMPTY</code> cell raced ahead
+  even faster. the arrangement could look aligned and still dissolve during playback.</p>
 
-  <li><strong>complete sampler capture / slicing workflow</strong> — recording, trimming,<br>
+  <p dir="auto">v1.0.6 gives every Song row one shared boundary, derived from the
+  longest chain in that row. shorter chains loop inside it, <code class="notranslate">EMPTY</code>
+  cells wait silently, and all eight tracks enter the next row together. the same
+  boundary now drives end-of-song detection and offline export, so an unused track
+  can no longer truncate a render.</p>
 
-  transient and equal chopping, per-slice reverse, slice-to-phrase and<br>
+  <h2 dir="auto">exports you can trust</h2>
 
-  slice-to-kit, beat-sync repitch, and a wav browser that handles 8/16/24/32-bit<br>
-
-  and float files. all of it realtime-safe: SD and decode work happens off the<br>
-
-  audio lock, then swaps under it</li>
-
-  <li><strong>capture any sampler window as a permanent oscillator</strong> — the
-  visible window<br>
-
-  becomes a single-cycle USER wavetable plus a matching wavsynth instrument, DC<br>
-
-  removed and normalised, persisted across reboots. record a vowel through the<br>
-
-  mic, play it as an oscillator</li>
-
-  <li>host-side tools for building sample/wav libraries and pushing them to the<br>
-
-  console over FTP</li>
-
-  </ul>
-
-  <h2 dir="auto">fixes</h2>
+  <p dir="auto">WAV export now uses the same mixer state as live playback:</p>
 
   <ul dir="auto">
 
-  <li><strong>two use-after-free races between the UI and the audio worker</strong>
-  — preview<br>
+  <li>channel faders, master volume and persisted mutes</li>
 
-  voices were published to the mixer <em>before</em> <code class="notranslate">note_on()</code>,
-  so if a buffer fill<br>
+  <li>delay time / feedback / wet, reverb wet / size / damping</li>
 
-  landed in that window the worker deleted the voice as inactive and the UI then<br>
+  <li>sends and sidechain ducking</li>
 
-  called <code class="notranslate">note_on()</code> on freed memory. separately, every
-  destructive sample edit<br>
+  <li>long rests and sparse sections without false early-stop</li>
 
-  (normalize, reverse, fade, crop, wav load, resample, drum regen, mic record)<br>
-
-  mutated a vector a live sampler voice was reading — a realloc there is heap<br>
-
-  corruption. new <code class="notranslate">start_voice()</code> and <code class="notranslate">cut_slot_voices()</code>
-  close both. <em>found in<br>
-
-  an external audit of v1.0.4</em></li>
-
-  <li><strong>a full SD card could destroy the project you were saving</strong> —
-  saves went<br>
-
-  straight over the target file, so a failed write left a torn file while the UI<br>
-
-  reported success. saves are now atomic (temp file, verified, renamed) and<br>
-
-  loads are transactional, so a short read can no longer leave the live project<br>
-
-  half-old and half-new. loading also validates and clamps anything the player<br>
-
-  indexes into or divides by, instead of trusting the file</li>
-
-  <li><strong>sampler LENGTH disagreed with the engine</strong> — the UI drew the
-  window as<br>
-
-  <code class="notranslate">[start, start+length)</code>, the engine read LENGTH as
-  an absolute end frame.<br>
-
-  invisible at the default 100%, but any moved START played something other than<br>
-
-  what was on screen: START 50 + LENGTH 50 played an empty window instead of the<br>
-
-  visible second half</li>
-
-  <li><strong>mic recordings were 39 cents flat</strong> — the 3DS mic delivers 32728
-  Hz, the<br>
-
-  engine plays 32000, and nothing resampled. every recording ever made was 2.3%<br>
-
-  slow. now resampled on stop</li>
-
-  <li><strong>long wavetable filenames never loaded</strong> — the scan buffer counted
-  <code class="notranslate">.wav</code><br>
-
-  against a 20-byte limit, leaving 15 characters of real name, so<br>
-
-  <code class="notranslate">AKWF_hvoice_0001.wav</code> and friends were skipped.
-  that is the dominant naming<br>
-
-  convention for single-cycle packs, so the usual symptom was an empty list with<br>
-
-  no explanation</li>
-
-  <li><strong>wavetable slot order was not alphabetical</strong>, despite the header
-  saying so —<br>
-
-  it sorted a 32-entry window and took the first 16, so with more than 16 files<br>
-
-  the surviving set depended on raw FAT order. since projects store the slot as<br>
-
-  an index, a saved project could come back playing a different waveform</li>
-
-  <li><strong>CHA FF skipped its guaranteed trigger once every 256 rolls</strong>
-  (off-by-one on a<br>
-
-  0..255 range)</li>
-
-  <li><strong>a deep down-transpose under DLY jumped ten octaves up</strong> — the
-  note wrapped<br>
-
-  through unsigned before being clamped, so −1 became 255 became 127</li>
-
-  <li><strong>full-scale peaks read as silence on the meters</strong> — negating <code
-  class="notranslate">INT16_MIN</code><br>
-
-  wrapped back to itself</li>
-
-  <li><strong>cross-core flags were <code class="notranslate">volatile</code>, not
-  atomic</strong> — no happens-before between<br>
-
-  the UI on core 0 and the audio worker on core 1. also, a failed audio init<br>
-
-  leaked everything it had already acquired</li>
-
-  <li><strong>the in-app help page documenting the SD layout and export was invisible</strong>
-  —<br>
-
-  a page fits 18 lines before it hits the footer and that one had grown to 24, so<br>
-
-  everything from "SD layout" down was drawn off-screen</li>
+  <li>the complete Song pass plus roughly three seconds of FX tail</li>
 
   </ul>
 
-  <h2 dir="auto">song exports (<a class="issue-link js-issue-link" data-error-text="Failed
-  to load title" data-id="5045693870" data-permission-text="Title is private" data-url="https://github.com/patausx/descry/issues/6"
-  data-hovercard-type="issue" data-hovercard-url="/patausx/descry/issues/6/hovercard"
-  href="https://github.com/patausx/descry/issues/6">#6</a>)</h2>
+  <p dir="auto">renders stream straight to the SD card instead of accumulating the
+  whole WAV in RAM, with a ten-minute safety cap. at the shared wrap boundary the
+  sequencer releases the current voices without triggering row 0 again, so the tail
+  belongs to the song you rendered — not the next loop.</p>
 
-  <p dir="auto">exports were hardcoded to a single <code class="notranslate">render.wav</code>,
-  so rendering a second project<br>
+  <h2 dir="auto">IRONLUNG</h2>
 
-  silently destroyed the first, and there was no way to name the file — reported by<br>
+  <p dir="auto">IRONLUNG is a 174 BPM jungle demo built entirely from descry''s own
+  engines and procedural drum generator:</p>
 
-  <strong><a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/francorv99/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/francorv99">@francorv99</a></strong>.</p>
+  <ul dir="auto">
 
-  <p dir="auto">exports now go to <code class="notranslate">renders/</code> named
-  after the current project, and an existing<br>
+  <li>copyright-clean two-bar break, sliced into 32 chromatic sixteenth-note chops</li>
 
-  take is never overwritten: repeat renders become <code class="notranslate">NAME_01.wav</code>,
-  <code class="notranslate">NAME_02.wav</code>, …<br>
+  <li>step-programmed rearrangements, retrigger rolls and reverse fills</li>
 
-  so you can bounce a whole session before pulling the SD card. hold <strong>R</strong>
-  in the<br>
+  <li>reese bass, sine sub, pads, stabs and sidechain ducking</li>
 
-  PROJECT view to rename, and the view shows the exact target<br>
+  </ul>
 
-  (<code class="notranslate">SEL -&gt; renders/NAME.wav</code>) <em>before</em> you
-  press SELECT. rename mode existed<br>
+  <p dir="auto">install all three demo files together in <code class="notranslate">/3ds/descry/</code>:</p>
 
-  already but nothing on screen advertised it, which is half of why this was<br>
+  <pre lang="text" class="notranslate"><code class="notranslate">project_00.tr3d
 
-  filed — there is a <code class="notranslate">R=RENAME</code> hint now.</p>
+  sample_63.s16
 
-  <h2 dir="auto">tests</h2>
+  sample_63.name
 
-  <p dir="auto"><code class="notranslate">make tests</code> builds and runs the host-side
-  suite. six tests had no build rule at<br>
+  </code></pre>
 
-  all and were dead weight nobody ran. <code class="notranslate">test_slice</code>
-  was worse than useless: it only<br>
+  <p dir="auto"><code class="notranslate">.tr3d</code> files do not embed sample audio.
+  slot 63 is reserved for IRONLUNG; the optional BMT add-on now occupies slots 32–62
+  only.</p>
 
-  printed results and always claimed success, and it probed chop sensitivity on a<br>
+  <h2 dir="auto">Phrase Tools, inspector and editing</h2>
 
-  break with a silent floor where the setting cannot matter — 80, 150 and 220 all<br>
+  <p dir="auto">Phrase view now keeps a permanent inspector beside the grid. it resolves
+  the<br>
 
-  produced byte-identical output, so that knob could have been completely broken<br>
+  sticky/inherited instrument, shows its source and live envelope, exposes ALWAYS<br>
 
-  without anyone noticing. it asserts now, on material where sensitivity actually<br>
+  defaults and the mod table that can otherwise make a patch sound mysteriously<br>
 
-  does something.</p>
+  processed, and decodes all three FX slots. press <strong>SELECT</strong> on the
+  instrument<br>
 
-  <h2 dir="auto">note</h2>
+  column to jump straight into that instrument''s editor.</p>
 
-  <p dir="auto">the SD layout no longer has <code class="notranslate">render.wav</code>
-  — it is <code class="notranslate">renders/</code> now. no project or<br>
+  <p dir="auto">Phrase Tools adds deterministic generators alongside rotate, reverse,
+  transpose,<br>
 
-  sample data is affected; a leftover <code class="notranslate">render.wav</code>
-  is simply unused and can be<br>
+  octave and velocity transforms:</p>
 
-  deleted by hand.</p>'
-updated: '2026-08-03T19:13:13Z'
-version: v1.0.5
-version_title: descry v1.0.5
+  <ul dir="auto">
+
+  <li>Euclidean rhythms and density gating</li>
+
+  <li>humanize and ratchets</li>
+
+  <li>random notes and scale-aware mutation</li>
+
+  <li>trigger-chance spread and <code class="notranslate">EVN</code> cycle conditions</li>
+
+  </ul>
+
+  <p dir="auto">random operations use an explicit seed, stay inside the selected rows,
+  respect the active key/scale and leave unrelated FX alone. every operation is one
+  undo step.</p>
+
+  <p dir="auto">analog controls are editing tools now: the circle pad accelerates
+  Song navigation<br>
+
+  and scrubs/zooms the sampler window; the C-stick is a relative fine/coarse value<br>
+
+  encoder. this replaces the old left-stick-as-KAOSS and right-stick sends/crush<br>
+
+  mappings, and the KAOSS <code class="notranslate">STK</code> toggle is gone. START
+  in Song view plays from the<br>
+
+  cursor row; hold <strong>L+START</strong> to start from the top.</p>
+
+  <h2 dir="auto">undo, playheads and visible state</h2>
+
+  <ul dir="auto">
+
+  <li>preset loads, instrument type changes and instrument clones are undoable as
+  whole snapshots</li>
+
+  <li>replacing or loading a project clears old history, preventing undo from splicing
+  data from the previous project</li>
+
+  <li>phrase and chain playheads report the position that actually sounded, including
+  phrase boundaries and tracks other than track 0</li>
+
+  <li>Song and Chain edits finally mark the project dirty</li>
+
+  <li>mute/solo state, Song end, active playhead owner and the unsaved marker are
+  visible in the views where they matter</li>
+
+  <li>track mutes persist across save/load; PLAY and leaving solo no longer wipe them</li>
+
+  </ul>
+
+  <h2 dir="auto">UI fixes and maintenance</h2>
+
+  <ul dir="auto">
+
+  <li>theme switching now reaches touch keys, pads, filter tints and confirmation
+  states instead of leaving cretaceous-coloured strays</li>
+
+  <li>overlays animate closed while remaining input-opaque, so the dismiss button
+  cannot hit the screen underneath</li>
+
+  <li>leaving KAOSS mode during a held gesture performs the normal release ramp instead
+  of freezing performance parameters</li>
+
+  <li>grid lines no longer shout louder than dim data in every theme</li>
+
+  <li><code class="notranslate">DTIM</code> is shown in milliseconds</li>
+
+  <li>removed the nonexistent <code class="notranslate">GRAN</code> instrument label
+  and cleaned the full-build warnings</li>
+
+  <li>split the UI monolith into per-screen translation units</li>
+
+  <li>CI now runs all 15 host regressions, builds IRONLUNG and performs a clean devkitARM
+  build on every push and pull request</li>
+
+  </ul>
+
+  <h2 dir="auto">files</h2>
+
+  <markdown-accessiblity-table><table role="table">
+
+  <thead>
+
+  <tr>
+
+  <th>file</th>
+
+  <th>use</th>
+
+  </tr>
+
+  </thead>
+
+  <tbody>
+
+  <tr>
+
+  <td><code class="notranslate">descry.cia</code></td>
+
+  <td>install to the Home Menu with FBI</td>
+
+  </tr>
+
+  <tr>
+
+  <td><code class="notranslate">descry.3dsx</code></td>
+
+  <td>Homebrew Launcher — copy to <code class="notranslate">/3ds/descry/descry.3dsx</code></td>
+
+  </tr>
+
+  <tr>
+
+  <td><code class="notranslate">descry.3ds</code></td>
+
+  <td>flashcart / Citra / Azahar</td>
+
+  </tr>
+
+  <tr>
+
+  <td><code class="notranslate">descry-v1.0.6-IRONLUNG.zip</code></td>
+
+  <td>complete demo bundle for project slot 00 and sample slot 63</td>
+
+  </tr>
+
+  </tbody>
+
+  </table></markdown-accessiblity-table>
+
+  <p dir="auto">New 3DS / New 2DS only.</p>
+
+  <h2 dir="auto">checksums</h2>
+
+  <pre lang="text" class="notranslate"><code class="notranslate">fe5eac672dac3b5c66ccc62de2617d8a251d047473d088ba9175f013f974a3db  descry.3dsx
+
+  ab20c8e0d0d0c0e5a9f20907d8d4cd5b710609db4bdba341cb67557d3ba65086  descry.cia
+
+  2063e92e63e91250f1123556a32bcd1cd082ffc402d055a6db822c834187fec1  descry.3ds
+
+  23f73f5278336ef87aaa2a7dc85672c6a541f6f275912e5ff1360ef9345de5d1  descry-v1.0.6-IRONLUNG.zip
+
+  </code></pre>'
+updated: '2026-08-15T08:30:07Z'
+version: v1.0.6
+version_title: descry v1.0.6
 ---
 descry is a music tracker + synthesizer for the New Nintendo 3DS, in the tradition of LSDj, the Dirtywave M8 and Korg's discontinued DSN-12.
 
