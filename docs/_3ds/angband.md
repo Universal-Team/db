@@ -60,7 +60,7 @@ prerelease:
   version: 4.2.6-173-gdc40ec9e0
   version_title: 4.2.6-173-gdc40ec9e0
 source: https://github.com/angband/angband
-stars: 1550
+stars: 1551
 systems:
 - 3DS
 - DS
