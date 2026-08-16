@@ -31,7 +31,7 @@ preinstall_message: Put your Pokémon Blue/Red save file at "SD:/3ds/bedit/SAVE.
 qr:
   bred-editor.cia: https://db.universal-team.net/assets/images/qr/bred-editor-cia.png
 source: https://github.com/AtexBg/bred-editor
-stars: 1
+stars: 0
 systems:
 - 3DS
 title: BRED Editor
