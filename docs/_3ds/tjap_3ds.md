@@ -27,7 +27,7 @@ prerelease:
   download_page: https://github.com/LuMariGames/TJAP_3DS/releases/tag/v2.3.3
   downloads:
     TJAP_3DS.3dsx:
-      size: 9886080
+      size: 9886056
       size_str: 9 MiB
       url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.3/TJAP_3DS.3dsx
     TJAP_3DS.cia:
@@ -48,6 +48,8 @@ prerelease:
 
     <li><code class="notranslate">#SUDDEN</code>命令が正しく機能していなかったのを修正</li>
 
+    <li><code class="notranslate">#NEXTSONG </code>の一部が未入力だと音楽が再生されない不具合の修正</li>
+
     </ul>
 
     <h2 dir="auto">Changelog</h2>
@@ -64,6 +66,9 @@ prerelease:
     <li>Fixed an issue where the <code class="notranslate">#SUDDEN</code> command
     was not working correctly.</li>
 
+    <li>Fixed a bug where music would not play if part of <code class="notranslate">#NEXTSONG</code>
+    was left blank.</li>
+
     </ul>'
   update_notes_md: '## チェンジログ
 
@@ -75,6 +80,8 @@ prerelease:
 
     - `#SUDDEN`命令が正しく機能していなかったのを修正
 
+    - `#NEXTSONG `の一部が未入力だと音楽が再生されない不具合の修正
+
 
     ## Changelog
 
@@ -85,7 +92,9 @@ prerelease:
     - Fixed a bug that could cause the game to behave differently depending on the
     song''s branching point.
 
-    - Fixed an issue where the `#SUDDEN` command was not working correctly.'
+    - Fixed an issue where the `#SUDDEN` command was not working correctly.
+
+    - Fixed a bug where music would not play if part of `#NEXTSONG` was left blank.'
   updated: '2026-08-12T06:43:30Z'
   version: v2.3.3
   version_title: TJAPlayer for 3DS v2.3.3
