@@ -16,6 +16,7 @@ downloads:
 github: stefanoborra20/Gemini3DS
 icon: https://raw.githubusercontent.com/stefanoborra20/Gemini3DS/main/icon.png
 image: https://raw.githubusercontent.com/stefanoborra20/Gemini3DS/main/icon.png
+image_length: 3675
 layout: app
 license: mit
 license_name: MIT License
