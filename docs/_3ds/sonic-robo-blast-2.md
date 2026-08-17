@@ -24,7 +24,7 @@ image_length: 7028
 layout: app
 llm_generation: 'no'
 source: https://github.com/derrekr/srb2_3ds
-stars: 55
+stars: 56
 systems:
 - 3DS
 title: Sonic Robo Blast 2
@@ -70,13 +70,12 @@ Changelog:
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>[REQUIRED ONCE] assets</summary>
+<details class="alert alert-secondary"><summary>srb2_3ds.cia</summary>
 <ol>
-<li>Create the folder <code>/3ds/srb2_3ds/</code></li>
-<li>Download <code>SRB2-v2122-assets.7z</code></li>
-<li>Extract everything from the 7z to <code>/3ds/srb2_3ds/</code> on your SD card</li>
-<li>Download <code>SRB2-v2122-optional-assets.7z</code></li>
-<li>Extract everything from the 7z to <code>/3ds/srb2_3ds/</code> on your SD card</li>
+<li>Download <code>srb2_3ds*.zip</code></li>
+<li>Extract <code>/srb2_3ds.cia</code> from the zip to <code>/cias/srb2_3ds.cia</code> on your SD card</li>
+<li>Insert your SD card back into your 3DS and turn it on</li>
+<li>Install and delete <code>/cias/srb2_3ds.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
@@ -87,12 +86,13 @@ Changelog:
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>srb2_3ds.cia</summary>
+<details class="alert alert-secondary"><summary>[REQUIRED ONCE] assets</summary>
 <ol>
-<li>Download <code>srb2_3ds*.zip</code></li>
-<li>Extract <code>/srb2_3ds.cia</code> from the zip to <code>/cias/srb2_3ds.cia</code> on your SD card</li>
-<li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/srb2_3ds.cia</code> using FBI or GodMode9</li>
+<li>Create the folder <code>/3ds/srb2_3ds/</code></li>
+<li>Download <code>SRB2-v2122-assets.7z</code></li>
+<li>Extract everything from the 7z to <code>/3ds/srb2_3ds/</code> on your SD card</li>
+<li>Download <code>SRB2-v2122-optional-assets.7z</code></li>
+<li>Extract everything from the 7z to <code>/3ds/srb2_3ds/</code> on your SD card</li>
 </ol>
 </details>
 
