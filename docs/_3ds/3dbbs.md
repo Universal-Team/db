@@ -23,7 +23,6 @@ downloads:
 github: hmderdoc/3dBBS
 icon: https://raw.githubusercontent.com/hmderdoc/3dBBS/master/assets/icon.png
 image: https://raw.githubusercontent.com/hmderdoc/3dBBS/master/assets/banner.png
-image_length: 4327
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0

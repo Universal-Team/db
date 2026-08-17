@@ -16,7 +16,6 @@ downloads:
 github: 2b-zipper/TriCord
 icon: https://raw.githubusercontent.com/2b-zipper/TriCord/refs/heads/main/resources/icon.png
 image: https://raw.githubusercontent.com/2b-zipper/TriCord/refs/heads/main/resources/banner.png
-image_length: 3664
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

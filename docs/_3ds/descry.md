@@ -30,7 +30,6 @@ downloads:
 github: patausx/descry
 icon: https://raw.githubusercontent.com/patausx/descry/main/assets/icon.png
 image: https://raw.githubusercontent.com/patausx/descry/main/branding/final/banner_256x128.png
-image_length: 987
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

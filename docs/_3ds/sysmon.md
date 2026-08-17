@@ -21,7 +21,6 @@ downloads:
 github: Just-a-Spider/SysMon
 icon: https://raw.githubusercontent.com/Just-a-Spider/SysMon/refs/heads/main/sysmon-3ds/icon.png
 image: https://raw.githubusercontent.com/Just-a-Spider/SysMon/refs/heads/main/sysmon-3ds/banner.png
-image_length: 12390
 layout: app
 llm_generation: 'yes'
 qr:
