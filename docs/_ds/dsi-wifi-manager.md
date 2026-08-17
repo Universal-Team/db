@@ -4,8 +4,6 @@ avatar: https://avatars.githubusercontent.com/u/12686734?v=4
 categories:
 - app
 - utility
-color: '#5e1d7e'
-color_bg: '#5e1d7e'
 created: '2026-07-31T03:42:19Z'
 description: DSi homebrew to back up and restore the console's Wi-Fi connections to
   the SD card
@@ -18,7 +16,6 @@ downloads:
 github: tasken/DSi-WiFi-Manager
 icon: https://raw.githubusercontent.com/tasken/DSi-WiFi-Manager/HEAD/resources/icon.png
 image: https://raw.githubusercontent.com/tasken/DSi-WiFi-Manager/HEAD/resources/logo.png
-image_length: 2888
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

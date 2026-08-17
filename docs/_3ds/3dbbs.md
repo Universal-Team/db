@@ -3,8 +3,6 @@ author: hmderdoc
 avatar: https://avatars.githubusercontent.com/u/242463512?v=4
 categories:
 - app
-color: '#2b2d40'
-color_bg: '#2b2d40'
 created: '2026-07-28T19:55:28Z'
 description: 'A BBS terminal for the Nintendo 3DS: stereoscopic 3D scenes, sixel graphics
   and streamed audio driven by the BBS, while staying a faithful SyncTERM/CTerm-compatible
@@ -23,7 +21,6 @@ downloads:
 github: hmderdoc/3dBBS
 icon: https://raw.githubusercontent.com/hmderdoc/3dBBS/master/assets/icon.png
 image: https://raw.githubusercontent.com/hmderdoc/3dBBS/master/assets/banner.png
-image_length: 4327
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0

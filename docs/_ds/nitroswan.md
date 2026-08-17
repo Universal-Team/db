@@ -3,8 +3,6 @@ author: Fredrik Ahlström
 avatar: https://avatars.githubusercontent.com/u/2324920?v=4
 categories:
 - emulator
-color: '#e38f98'
-color_bg: '#805055'
 created: '2021-10-17T19:00:08Z'
 description: Bandai WonderSwan (Color/Crystal) & Benesse PocketChallenge V2 emulator
   for the Nintendo DS(i)/3DS.
@@ -15,9 +13,8 @@ downloads:
     size_str: 150 KiB
     url: https://github.com/FluBBaOfWard/NitroSwan/releases/download/v0.7.7/NitroSwan.zip
 github: FluBBaOfWard/NitroSwan
-icon: https://db.universal-team.net/assets/images/icons/nitroswan.png
+icon: https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/WSLogo.bmp
 image: https://raw.githubusercontent.com/FluBBaOfWard/NitroSwan/main/logo.png
-image_length: 38554
 layout: app
 llm_generation: unknown
 source: https://github.com/FluBBaOfWard/NitroSwan
@@ -38,6 +35,7 @@ update_notes: '<p dir="auto">Not much new in this release, changed from devkitAR
 updated: '2026-08-12T15:02:55Z'
 version: v0.7.7
 version_title: V0.7.7
+wiki: https://github.com/FluBBaOfWard/NitroSwan/wiki
 ---
 ### Installation instructions
 

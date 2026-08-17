@@ -20,7 +20,6 @@ downloads:
 github: skyfloogle/red-viper
 icon: https://raw.githubusercontent.com/skyfloogle/red-viper/master/icon.png
 image: https://raw.githubusercontent.com/skyfloogle/red-viper/master/resources/banner.png
-image_length: 6527
 layout: app
 llm_generation: unknown
 qr:

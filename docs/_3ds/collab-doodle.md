@@ -3,8 +3,6 @@ author: Thomas Armstrong
 avatar: https://avatars.githubusercontent.com/u/12937683?v=4
 categories:
 - game
-color: '#689290'
-color_bg: '#5b807e'
 created: '2024-12-13T18:24:03Z'
 description: Collab Doodle is a simple drawing application designed for the Nintendo
   3DS platform. It allows users to create and manipulate graphical content using various
@@ -22,7 +20,6 @@ downloads:
 github: ArmstrongThomas/Doodle
 icon: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/ArmstrongThomas/Doodle/refs/heads/main/icon.png
-image_length: 431
 layout: app
 llm_generation: unknown
 qr:

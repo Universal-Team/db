@@ -3,8 +3,6 @@ author: Peter Warrington
 avatar: https://avatars.githubusercontent.com/u/28735593?v=4
 categories:
 - app
-color: '#212732'
-color_bg: '#212732'
 created: '2026-07-20T18:26:42Z'
 description: A beautiful text-mode web browser for the 3DS, ported from Lynx.
 download_page: https://github.com/PeterWarrington/lynx3ds/releases
@@ -20,7 +18,6 @@ downloads:
 github: PeterWarrington/lynx3ds
 icon: https://raw.githubusercontent.com/PeterWarrington/lynx3ds/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/PeterWarrington/lynx3ds/refs/heads/main/banner/banner.png
-image_length: 14722
 layout: app
 license: MIT
 license_name: MIT License
@@ -39,4 +36,5 @@ updated: '2026-08-06T19:56:35Z'
 version: 2.0.1
 version_title: 2.0.1
 website: https://lilpete.me/lynx3ds
+wiki: https://github.com/PeterWarrington/lynx3ds/wiki
 ---

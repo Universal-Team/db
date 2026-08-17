@@ -4,8 +4,6 @@ avatar: https://avatars.githubusercontent.com/u/179153474?v=4
 categories:
 - app
 - media
-color: '#294c7a'
-color_bg: '#294c7a'
 created: '2026-06-27T23:27:59Z'
 description: A custom MIVF video player for Nintendo 3DS with lots of features.
 download_filter: ^mivf_player_3ds\.(cia|3dsx)$
@@ -18,7 +16,6 @@ downloads:
 github: Oldhimaster1/MIVF
 icon: https://raw.githubusercontent.com/Oldhimaster1/MIVF/refs/heads/main/meta/icon48.png
 image: https://raw.githubusercontent.com/Oldhimaster1/MIVF/refs/heads/main/meta/banner.png
-image_length: 4907
 layout: app
 license: mit
 license_name: MIT License

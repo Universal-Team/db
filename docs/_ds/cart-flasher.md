@@ -18,7 +18,6 @@ downloads:
 github: tasken/Cart-Flasher
 icon: https://raw.githubusercontent.com/tasken/Cart-Flasher/refs/heads/main/resources/icon.png
 image: https://raw.githubusercontent.com/tasken/Cart-Flasher/main/resources/logo.png
-image_length: 317497
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

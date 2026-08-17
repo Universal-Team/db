@@ -3,8 +3,6 @@ author: Just-a-Spider
 avatar: https://avatars.githubusercontent.com/u/120763283?v=4
 categories:
 - utility
-color: '#0a0f0d'
-color_bg: '#0a0f0d'
 created: '2025-02-10T01:38:42Z'
 description: Vide-coded app that allows to see RAM, GPU and CPU stats from a linux
   PC in a browser or a 3DS console.
@@ -21,7 +19,6 @@ downloads:
 github: Just-a-Spider/SysMon
 icon: https://raw.githubusercontent.com/Just-a-Spider/SysMon/refs/heads/main/sysmon-3ds/icon.png
 image: https://raw.githubusercontent.com/Just-a-Spider/SysMon/refs/heads/main/sysmon-3ds/banner.png
-image_length: 12390
 layout: app
 llm_generation: 'yes'
 qr:

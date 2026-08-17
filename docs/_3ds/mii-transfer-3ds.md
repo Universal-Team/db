@@ -3,8 +3,6 @@ author: jamesrhg/Arian Kordi
 avatar: https://avatars.githubusercontent.com/u/306910809?v=4
 categories:
 - utility
-color: '#adcbd8'
-color_bg: '#667880'
 created: '2026-07-28T03:08:09Z'
 description: Transfer Mii data from your Nintendo 3DS to other devices for use in
   tools such as Mii Creator!

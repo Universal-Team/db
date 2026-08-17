@@ -4,8 +4,6 @@ autogen_scripts: true
 avatar: https://avatars.githubusercontent.com/u/55950650?v=4
 categories:
 - game
-color: '#7a834d'
-color_bg: '#77804b'
 created: '2026-02-07T10:07:09Z'
 description: Geometry Dash for the 3DS
 download_page: https://github.com/AleFunky/gd3ds/releases
@@ -25,7 +23,6 @@ downloads:
 github: AleFunky/gd3ds
 icon: https://raw.githubusercontent.com/AleFunky/gd3ds/refs/heads/master/resources/icon.png
 image: https://raw.githubusercontent.com/AleFunky/gd3ds/refs/heads/master/resources/icon.png
-image_length: 5535
 layout: app
 llm_generation: minor
 qr:

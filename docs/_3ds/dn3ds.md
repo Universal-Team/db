@@ -24,7 +24,6 @@ downloads:
 github: cmdada/dn3ds
 icon: https://raw.githubusercontent.com/cmdada/dn3ds/refs/heads/master/icon.png
 image: https://raw.githubusercontent.com/cmdada/dn3ds/refs/heads/master/banner.png
-image_length: 27045
 layout: app
 license: gpl-2.0
 license_name: GNU General Public License v2.0

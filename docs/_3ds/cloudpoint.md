@@ -93,6 +93,7 @@ update_notes: '<p dir="auto">Some nice UI polish and various bugfixes collected 
 updated: '2026-08-09T12:50:34Z'
 version: 0.7.0
 version_title: 0.7.0
+wiki: https://github.com/dwalker109/cloudpoint/wiki
 ---
 Cloudpoint allows you to sync all of your saves (and extdata) between all of your 3DS & 2DS devices, 
 via a central server. Transfer progress between consoles effortlessly, the way you're probably used 

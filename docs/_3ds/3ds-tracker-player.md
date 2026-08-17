@@ -77,4 +77,5 @@ update_notes: '<h2 dir="auto">3DSTP 1.0.3</h2>
 updated: '2026-08-05T07:02:25Z'
 version: v1.0.3
 version_title: 3DSTP 1.0.3
+wiki: https://github.com/maximalmax90/3dstp/wiki
 ---

@@ -44,6 +44,7 @@ update_notes: '<ul dir="auto">
 updated: '2026-07-30T11:09:21Z'
 version: v1.1.8
 version_title: V1.1.8
+wiki: https://github.com/FluBBaOfWard/S8DS/wiki
 ---
 ### Installation instructions
 

@@ -3,8 +3,6 @@ author: 2ipper
 avatar: https://avatars.githubusercontent.com/u/119087427?v=4
 categories:
 - app
-color: '#45496a'
-color_bg: '#45496a'
 created: '2026-02-15T15:59:55Z'
 description: Discord client for Nintendo 3DS
 download_page: https://github.com/2b-zipper/TriCord/releases
