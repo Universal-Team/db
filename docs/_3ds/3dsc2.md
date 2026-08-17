@@ -12,11 +12,11 @@ downloads:
   3dsc2_calib.3dsx:
     size: 50368
     size_str: 49 KiB
-    url: https://github.com/cylin577/3DSC2/releases/download/v1.1.1/3dsc2_calib.3dsx
+    url: https://github.com/cylin577/3DSC2/releases/download/v1.1.2/3dsc2_calib.3dsx
   3dsc2_calib.cia:
     size: 291776
     size_str: 284 KiB
-    url: https://github.com/cylin577/3DSC2/releases/download/v1.1.1/3dsc2_calib.cia
+    url: https://github.com/cylin577/3DSC2/releases/download/v1.1.2/3dsc2_calib.cia
 github: cylin577/3DSC2
 icon: https://raw.githubusercontent.com/cylin577/3DSC2/main/resources/icon.png
 image: https://raw.githubusercontent.com/cylin577/3DSC2/main/resources/banner.png
@@ -34,12 +34,9 @@ systems:
 title: 3DSC2
 unique_ids:
 - '0x1BF52'
-update_notes: <p dir="auto">A quick release to fix <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="4804891634" data-permission-text="Title
-  is private" data-url="https://github.com/cylin577/3DSC2/issues/1" data-hovercard-type="issue"
-  data-hovercard-url="/cylin577/3DSC2/issues/1/hovercard" href="https://github.com/cylin577/3DSC2/issues/1">#1</a></p>
-updated: '2026-08-02T13:54:20Z'
-version: v1.1.1
-version_title: v1.1.1
+update_notes: <p dir="auto">hotfix to DLL loding problem</p>
+updated: '2026-08-17T04:40:45Z'
+version: v1.1.2
+version_title: v1.1.2
 ---
 The calibration app for 3DSC2
