@@ -152,5 +152,4 @@ update_notes: '<p dir="auto">DSSH 的第一个社区贡献版本 🎉 本次合�
 updated: '2026-08-13T10:38:08Z'
 version: v1.3.0
 version_title: DSSH v1.3 — 社区贡献版：重连 / Keychain / Tailscale
-wiki: https://github.com/Fishason/DSSH/wiki
 ---

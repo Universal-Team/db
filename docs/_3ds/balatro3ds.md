@@ -46,7 +46,6 @@ update_notes: '<h3 dir="auto">Features</h3>
 updated: '2026-08-10T21:04:48Z'
 version: v1.3.2-alpha
 version_title: Alpha 1.3.2
-wiki: https://github.com/idkhan/Balatro3DS/wiki
 ---
 The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos, now on the 3DS.
 

@@ -20,6 +20,7 @@ downloads:
 github: BernardoGiordano/Checkpoint
 icon: https://raw.githubusercontent.com/BernardoGiordano/Checkpoint/master/3ds/assets/icon.png
 image: https://raw.githubusercontent.com/BernardoGiordano/Checkpoint/master/3ds/assets/banner.png
+image_length: 5618
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0
@@ -326,5 +327,4 @@ update_notes: '<h3 dir="auto">FTP: What''s new</h3>
 updated: '2026-08-12T09:57:55Z'
 version: v5.1.0
 version_title: Checkpoint 5.1.0
-wiki: https://github.com/BernardoGiordano/Checkpoint/wiki
 ---

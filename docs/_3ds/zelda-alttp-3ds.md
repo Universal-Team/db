@@ -21,11 +21,62 @@ downloads:
 github: EstebanPdN/zelda-alttp-3ds
 icon: https://raw.githubusercontent.com/EstebanPdN/zelda-alttp-3ds/main/udicon.png
 image: https://raw.githubusercontent.com/EstebanPdN/zelda-alttp-3ds/main/udbanner.png
+image_length: 34742
 layout: app
 llm_generation: 'yes'
 preinstall_message: Place a legally obtained USA, unheadered ROM in sdmc:/3ds/Zelda
   3DS/. The preferred filename is zelda3.sfc, but the setup also accepts other .sfc
   or .smc filenames.
+prerelease:
+  download_page: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/tag/v3.0-E3
+  downloads:
+    zelda3-3ds-v3.0-E3.3dsx:
+      size: 5684612
+      size_str: 5 MiB
+      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E3/zelda3-3ds-v3.0-E3.3dsx
+    zelda3-3ds-v3.0-E3.cia:
+      size: 5231552
+      size_str: 4 MiB
+      url: https://github.com/EstebanPdN/zelda-alttp-3ds/releases/download/v3.0-E3/zelda3-3ds-v3.0-E3.cia
+  qr:
+    zelda3-3ds-v3.0-E3.cia: https://db.universal-team.net/assets/images/qr/prerelease/zelda3-3ds-v3-0-e3-cia.png
+  update_notes: '
+
+    <h2 dir="auto">Changelog</h2>
+
+    <ul dir="auto">
+
+    <li>Adds bottom screen settings by tapping the Triforce in the main menu</li>
+
+    <li>Improves the bottom-screen HUD layout so hearts, magic, and equipped item
+    spacing stay clean.</li>
+
+    <li>Saves screen settings</li>
+
+    </ul>
+
+    <p dir="auto">If you run into any issues, press L + R + A, save a dump to your
+    Zelda 3DS folder, and send it to me. That way, I can help you more easily.</p>'
+  update_notes_md: '<img width="500" height="500" alt="qr" src="https://github.com/user-attachments/assets/16559ce0-c7e3-46b6-b6b8-d21ffead42ed"
+    />
+
+
+    ## Changelog
+
+
+    - Adds bottom screen settings by tapping the Triforce in the main menu
+
+    - Improves the bottom-screen HUD layout so hearts, magic, and equipped item spacing
+    stay clean.
+
+    - Saves screen settings
+
+
+    If you run into any issues, press L + R + A, save a dump to your Zelda 3DS folder,
+    and send it to me. That way, I can help you more easily.'
+  updated: '2026-08-11T18:39:29Z'
+  version: v3.0-E3
+  version_title: v3.0-E3
 qr:
   zelda3-3ds-v2.9.cia: https://db.universal-team.net/assets/images/qr/zelda3-3ds-v2-9-cia.png
 source: https://github.com/EstebanPdN/zelda-alttp-3ds

@@ -20,6 +20,7 @@ downloads:
 github: natsuneco/magic-draw
 icon: https://raw.githubusercontent.com/natsuneco/magic-draw/refs/heads/main/meta/icon.png
 image: https://raw.githubusercontent.com/natsuneco/magic-draw/refs/heads/main/meta/banner.png
+image_length: 20069
 layout: app
 license: mit
 license_name: MIT License

@@ -38,5 +38,4 @@ update_notes: '<p><strong>Full Changelog</strong>: <a class="commit-link" href="
 updated: '2026-08-04T19:13:53Z'
 version: Version_3DS_0.4.1
 version_title: An unexpected update, yet again (because of course there is)
-wiki: https://github.com/RandomMan25XX/atari800-3ds/wiki
 ---

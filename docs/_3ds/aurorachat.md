@@ -3,6 +3,8 @@ author: Unitendo
 avatar: https://avatars.githubusercontent.com/u/241876109?v=4
 categories:
 - app
+color: '#2d8d97'
+color_bg: '#267780'
 created: '2026-03-14T01:11:35Z'
 description: ' Real Time Chatting for the 3DS, Wii, Wii U, and Web'
 download_page: https://github.com/Unitendo/aurorachat/releases

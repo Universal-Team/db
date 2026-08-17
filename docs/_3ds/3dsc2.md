@@ -38,6 +38,5 @@ update_notes: <p dir="auto">hotfix to DLL loding problem</p>
 updated: '2026-08-17T04:40:45Z'
 version: v1.1.2
 version_title: v1.1.2
-wiki: https://github.com/cylin577/3DSC2/wiki
 ---
 The calibration app for 3DSC2

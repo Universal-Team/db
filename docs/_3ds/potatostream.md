@@ -119,6 +119,5 @@ update_notes: '<h2 dir="auto">What''s New in v1.2.0</h2>
 updated: '2026-08-04T05:59:20Z'
 version: v1.2.0
 version_title: PotatoStream v1.2.0
-wiki: https://github.com/PainDe0Mie/PotatoStream/wiki
 ---
 PotatoStream is a Moonlight game streaming client for all 3DS and 2DS models, with a focus on Old 3DS/2DS compatibility. Auto-detects hardware at startup and activates "Potato" mode on older models with smart frame skipping, Y2RU hardware pipeline and an optimized stream profile (400x240@24fps). (New 3DS keeps the standard MVD hardware decoder) Compatible with Sunshine and NVIDIA GameStream.
