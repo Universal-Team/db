@@ -19,6 +19,7 @@ downloads:
 github: maximalmax90/3dstp
 icon: https://raw.githubusercontent.com/maximalmax90/3dstp/main/icon.png
 image: https://raw.githubusercontent.com/maximalmax90/3dstp/main/icon.png
+image_length: 617
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

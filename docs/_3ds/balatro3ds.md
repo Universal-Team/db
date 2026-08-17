@@ -16,6 +16,7 @@ downloads:
 github: idkhan/Balatro3DS
 icon: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/resources/textures/1x/icon.png
 image: https://raw.githubusercontent.com/idkhan/Balatro3DS/refs/heads/main/banner.png
+image_length: 67130
 layout: app
 license: gpl-3.0
 license_name: GNU General Public License v3.0

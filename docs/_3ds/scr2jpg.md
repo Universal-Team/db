@@ -20,6 +20,7 @@ downloads:
 github: Adrix12team/SCR2JPG
 icon: https://raw.githubusercontent.com/Adrix12team/SCR2JPG/refs/heads/main/icon.png
 image: https://raw.githubusercontent.com/Adrix12team/SCR2JPG/refs/heads/main/bannerhq.png
+image_length: 325098
 layout: app
 license: other
 license_name: Other

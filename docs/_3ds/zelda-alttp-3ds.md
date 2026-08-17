@@ -21,6 +21,7 @@ downloads:
 github: EstebanPdN/zelda-alttp-3ds
 icon: https://raw.githubusercontent.com/EstebanPdN/zelda-alttp-3ds/main/udicon.png
 image: https://raw.githubusercontent.com/EstebanPdN/zelda-alttp-3ds/main/udbanner.png
+image_length: 34742
 layout: app
 llm_generation: 'yes'
 preinstall_message: Place a legally obtained USA, unheadered ROM in sdmc:/3ds/Zelda

@@ -21,6 +21,7 @@ downloads:
 github: PetPal-Team/PetPal
 icon: https://raw.githubusercontent.com/PetPal-Team/PetPal/refs/heads/main/Pet%20Pal.png
 image: https://raw.githubusercontent.com/PetPal-Team/PetPal/refs/heads/main/banner.png
+image_length: 25573
 layout: app
 license: mit
 license_name: MIT License

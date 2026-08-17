@@ -50,7 +50,6 @@ update_notes: '<p dir="auto">Mii Transfer (3DS) v1.0.0</p>
 updated: '2026-07-28T03:12:31Z'
 version: v1.0.0
 version_title: v1.0.0
-wiki: https://github.com/jamesrhg/mii-transfer-ctr/wiki
 ---
 Transfer Mii data from your Nintendo 3DS with a local hosted server to other devices for use in tools such as Mii Creator!
 
