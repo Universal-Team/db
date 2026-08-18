@@ -1,0 +1,12 @@
+{
+	"github": "bOOt3r/emus3ds-download-play",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"emulator"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/bOOt3r/emus3ds-download-play/main/virtuanes_3ds_top.png",
+	"long_description": "VirtuaNES for 3DS with Download Play support for local multiplayer."
+}
