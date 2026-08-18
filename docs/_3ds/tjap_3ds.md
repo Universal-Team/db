@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 9885988
+    size: 9886000
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.3/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.3A/TJAP_3DS.3dsx
   TJAP_3DS.cia:
     size: 10048448
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.3/TJAP_3DS.cia
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.3A/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -41,17 +41,7 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>譜面をまとめて読み込む際のロード時間を短縮</li>
-
-  <li>特定の条件下で読み込み開始時にクラッシュする不具合の修正</li>
-
-  <li>譜面分岐時に違うコースの挙動が起きる可能性のあった不具合の修正</li>
-
-  <li><code class="notranslate">#SUDDEN</code>命令が正しく機能していなかったのを修正</li>
-
-  <li><code class="notranslate">#NEXTSONG </code>の一部が未入力だと音楽が再生されない不具合の修正</li>
-
-  <li>キャラクターの動きが正しく合うように変更</li>
+  <li>リプレイ時にタッチしてないのにタッチエフェクトが表示される不具合の修正</li>
 
   </ul>
 
@@ -59,25 +49,13 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>Reduced loading time when loading multiple scores at once.</li>
-
-  <li>Fixed a bug that caused a crash at the start of loading under certain conditions.</li>
-
-  <li>Fixed a bug that could cause the game to behave differently depending on the
-  song''s branching point.</li>
-
-  <li>Fixed an issue where the <code class="notranslate">#SUDDEN</code> command was
-  not working correctly.</li>
-
-  <li>Fixed a bug where music would not play if part of <code class="notranslate">#NEXTSONG</code>
-  was left blank.</li>
-
-  <li>Changed the character''s movements to match correctly.</li>
+  <li>Fixed a bug where touch effects were displayed during replays even when the
+  player was not touching the screen.</li>
 
   </ul>'
-updated: '2026-08-12T06:43:30Z'
-version: v2.3.3
-version_title: TJAPlayer for 3DS v2.3.3
+updated: '2026-08-18T01:02:41Z'
+version: v2.3.3A
+version_title: TJAPlayer for 3DS v2.3.3(A)
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。
