@@ -19,7 +19,6 @@ forgejo: NitrousTracker/NitrousTracker
 forgejo_host: codeberg.org
 icon: https://codeberg.org/NitrousTracker/nitroustracker/raw/branch/develop/assets/icon48.png
 image: https://codeberg.org/NitrousTracker/nitroustracker/raw/branch/develop/assets/icon48.png
-image_length: 1291
 layout: app
 llm_generation: unknown
 prerelease:
