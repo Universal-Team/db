@@ -1,12 +1,14 @@
 {
-	"github": "bOOt3r/emus3ds-download-play",
-	"systems": [
-		"3DS"
-	],
-	"categories": [
-		"emulator"
-	],
-	"llm_generation": "yes",
-	"icon": "https://raw.githubusercontent.com/bOOt3r/emus3ds-download-play/main/virtuanes_3ds_top.png",
-	"long_description": "VirtuaNES for 3DS with Download Play support for local multiplayer."
+    "github": "bOOt3r/emus3ds-download-play",
+    "title": "VirtuaNES Download Play",
+    "systems": [
+        "3DS"
+    ],
+    "categories": [
+        "emulator"
+    ],
+    "llm_generation": "yes",
+    "icon": "https://raw.githubusercontent.com/bOOt3r/emus3ds-download-play/main/src/cores/virtuanes/assets/icon.png",
+    "image": "https://raw.githubusercontent.com/bOOt3r/emus3ds-download-play/main/virtuanes_3ds_top.png",
+    "long_description": "VirtuaNES for the whole 2DS and 3DS family with local wireless multiplayer support. System A Hosts and system B Joins, it's as easy as pie!"
 }
