@@ -14,7 +14,7 @@ downloads:
   cart_flasher.nds:
     size: 216576
     size_str: 211 KiB
-    url: https://github.com/tasken/cart-flasher/releases/download/v0.5.3-comfey/cart_flasher.nds
+    url: https://github.com/tasken/cart-flasher/releases/download/v0.5.4-impidimp/cart_flasher.nds
 github: tasken/Cart-Flasher
 icon: https://raw.githubusercontent.com/tasken/Cart-Flasher/refs/heads/main/resources/icon.png
 image: https://raw.githubusercontent.com/tasken/Cart-Flasher/main/resources/logo.png
@@ -30,20 +30,27 @@ stars: 1
 systems:
 - DS
 title: cart-flasher
-update_notes: '<ul dir="auto">
+update_notes: '<p dir="auto"><strong>Fixed</strong><br>
 
-  <li>Fixed firmware writes to use safe 64 KiB chunks, preventing partial-page corruption
-  on Acekard 2i, DSTT, R4i Gold 3DS, and R4 SDHC Dual-Core carts.</li>
+  Acekard 2i HW-81 carts were treated as 16MB when the flash chip is really 2MB. That
+  made backups eight times bigger than they should be, and restoring one often had
+  to be repeated before it stuck, sometimes leaving the cart in a bad state. Backups
+  are now the right size and restore in one go. Old 16MB backups should still work
+  fine.</p>
 
-  <li>Removed two vendor build warnings: an incompatible libncgc reset-callback cast
-  and an unused R4 SDHC Dual-Core local.</li>
+  <p dir="auto">Thanks to <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/ApacheThunder/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/ApacheThunder">@ApacheThunder</a>
+  for spotting it and testing the fix on real hardware.</p>
 
-  </ul>
+  <p dir="auto"><strong>Changed</strong><br>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/tasken/cart-flasher/compare/v0.5.2-comfey...v0.5.3-comfey"><tt>v0.5.2-comfey...v0.5.3-comfey</tt></a></p>'
-updated: '2026-08-01T20:04:29Z'
-version: v0.5.3-comfey
-version_title: v0.5.3-comfey
+  Updated DS banner and dev/nightly builds formatting.</p>
+
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/tasken/cart-flasher/compare/v0.5.3-comfey...v0.5.4-impidimp"><tt>v0.5.3-comfey...v0.5.4-impidimp</tt></a></p>'
+updated: '2026-08-19T04:07:51Z'
+version: v0.5.4-impidimp
+version_title: v0.5.4-impidimp
 ---
 A DS/DSi homebrew application to backup and restore raw flash images to/from Slot-1 flashcarts.
 
