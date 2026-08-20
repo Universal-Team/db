@@ -1,0 +1,8 @@
+{
+  "github": "zdextiny/Bazado-DS",
+  "systems": ["DS"],
+  "categories": ["game"],
+  "llm_generation": "yes",
+  "image": "https://raw.githubusercontent.com/zdextiny/Bazado-DS/main/gfx/banner.png",
+  "icon": "https://raw.githubusercontent.com/zdextiny/Bazado-DS/main/gfx/icon.bmp"
+}
