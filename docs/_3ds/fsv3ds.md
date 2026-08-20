@@ -10,8 +10,8 @@ description: A homebrew 3DS port of fsv, the 3D File System Visualizer
 download_page: https://github.com/Bruce303lee/fsv3ds/releases
 downloads:
   fsv3ds-launcher.cia:
-    size: 82880
-    size_str: 80 KiB
+    size: 83392
+    size_str: 81 KiB
     url: https://github.com/Bruce303lee/fsv3ds/releases/download/v1.0.0/fsv3ds-launcher.cia
   fsv3ds.3dsx:
     size: 691948
