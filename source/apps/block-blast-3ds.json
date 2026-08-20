@@ -1,0 +1,16 @@
+{
+	"github": "TheFilipcom4607/BlockBlast-3DS",
+	"title": "Block Blast 3DS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "yes",
+	"unique_ids": [
+		1047322
+	],
+	"image": "https://raw.githubusercontent.com/TheFilipcom4607/BlockBlast-3DS/main/meta/banner.png",
+	"icon": "https://raw.githubusercontent.com/TheFilipcom4607/BlockBlast-3DS/main/icon.png"
+}
