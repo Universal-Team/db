@@ -1,0 +1,21 @@
+{
+	"github": "NitroShellMKDS/CTGP-7-Mod-Manager",
+	"title": "CTGP-7 Mod Manager",
+	"description": "Homebrew application for managing mods from GameBanana for CTGP-7.",
+	"author": "NitroShell and Contributors",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"utility",
+		"app"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/NitroShellMKDS/CTGP-7-Mod-Manager/refs/heads/main/app/icon.png",
+	"image": "https://raw.githubusercontent.com/NitroShellMKDS/CTGP-7-Mod-Manager/refs/heads/main/assets/logo.png",
+	"unique_ids": [
+		982398
+	],
+	"long_description": "Nintendo 3DS homebrew application for easily installing, updating, and uninstalling mods from GameBanana for CTGP-7.",
+	"wiki": "https://gbatemp.net/threads/ctgp-7-mod-manager-a-mod-manager-for-ctgp-7-on-3ds.683712/"
+}
