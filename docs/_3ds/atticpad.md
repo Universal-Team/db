@@ -465,8 +465,12 @@ update_notes: '<p dir="auto"><strong>First public release.</strong> AtticPad was
 
   </ul>
 
-  <p dir="auto">Then pair once, with the 6-digit PIN or by scanning the server''s
-  QR code.</p>
+  <p dir="auto">Then pair once. On the 3DS that means scanning the QR code the server
+  shows —<br>
+
+  the console has no PIN keypad, so the QR is the only way in. On Android you can<br>
+
+  scan it or type the 6-digit PIN.</p>
 
   <p dir="auto"><strong>Before you use it on a network you do not control, read the
   security section<br>
