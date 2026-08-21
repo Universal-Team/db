@@ -26,72 +26,51 @@ license: mit
 license_name: MIT License
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/Unitendo/aurorachat/releases/tag/pre1-v7.0.0
+  download_page: https://github.com/Unitendo/aurorachat/releases/tag/pre2-v7.0
   downloads:
     aurorachat.3dsx:
-      size: 176372
-      size_str: 172 KiB
-      url: https://github.com/Unitendo/aurorachat/releases/download/pre1-v7.0.0/aurorachat.3dsx
+      size: 180756
+      size_str: 176 KiB
+      url: https://github.com/Unitendo/aurorachat/releases/download/pre2-v7.0/aurorachat.3dsx
     aurorachat.cia:
-      size: 505280
-      size_str: 493 KiB
-      url: https://github.com/Unitendo/aurorachat/releases/download/pre1-v7.0.0/aurorachat.cia
+      size: 522688
+      size_str: 510 KiB
+      url: https://github.com/Unitendo/aurorachat/releases/download/pre2-v7.0/aurorachat.cia
   qr:
     aurorachat.cia: https://db.universal-team.net/assets/images/qr/prerelease/aurorachat-cia.png
-  update_notes: '<p dir="auto">NOTE: The source code for this release is <a href="https://github.com/Unitendo/aurorachat-3ds/tree/v7">located
-    here.</a></p>
-
-    <h2 dir="auto">Changelog</h2>
+  update_notes: '<h1 dir="auto">Changelog</h1>
 
     <ul dir="auto">
 
-    <li>Codebase rewritten once more, this time with more care and fewer bugs.</li>
+    <li><em><strong>Changed GUI</strong></em></li>
 
-    <li>GUI changed (The GUI in this release is NOT final!)</li>
+    <li>Resentfully added a form of socket buffering</li>
 
-    <li>Switches from the previous buggy and sluggish HTTP to pure sockets.</li>
+    <li>Changed the way data is received</li>
 
-    <li>New and improved error handling, fixes issues where people couldn''t create
-    accounts at all.</li>
+    <li><em><strong>Added message history</strong></em></li>
 
-    <li>Probably more</li>
+    <li><em><strong>Added themes</strong></em></li>
 
-    </ul>
+    <li>and more! (probably)</li>
 
-    <h2 dir="auto">Contributors</h2>
+    </ul>'
+  update_notes_md: '# Changelog
 
-    <p dir="auto">This update features commits from:<br>
+    - _**Changed GUI**_
 
-    <a href="https://github.com/VirtuallyExisting">Virtualle</a><br>
+    - Resentfully added a form of socket buffering
 
-    <a href="https://github.com/3pm-on-github">3pm</a></p>'
-  update_notes_md: 'NOTE: The source code for this release is [located here.](https://github.com/Unitendo/aurorachat-3ds/tree/v7)
+    - Changed the way data is received
 
+    - _**Added message history**_
 
-    ## Changelog
+    - _**Added themes**_
 
-    - Codebase rewritten once more, this time with more care and fewer bugs.
-
-    - GUI changed (The GUI in this release is NOT final!)
-
-    - Switches from the previous buggy and sluggish HTTP to pure sockets.
-
-    - New and improved error handling, fixes issues where people couldn''t create
-    accounts at all.
-
-    - Probably more
-
-
-    ## Contributors
-
-    This update features commits from:
-
-    [Virtualle](https://github.com/VirtuallyExisting)
-
-    [3pm](https://github.com/3pm-on-github)'
-  updated: '2026-08-18T21:30:58Z'
-  version: pre1-v7.0.0
-  version_title: 'v7 Pre-release 1: Talk about low-budget graphics!'
+    - and more! (probably)'
+  updated: '2026-08-21T21:13:56Z'
+  version: pre2-v7.0
+  version_title: 'v7 Pre-release 2: Glow-up'
 qr:
   aurorachat.cia: https://db.universal-team.net/assets/images/qr/aurorachat-cia.png
 source: https://github.com/Unitendo/aurorachat
