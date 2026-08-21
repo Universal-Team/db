@@ -26,7 +26,7 @@ llm_generation: unknown
 qr:
   dosbox-3ds.cia: https://db.universal-team.net/assets/images/qr/dosbox-3ds-cia.png
 source: https://github.com/MrHuu/dosbox-3ds
-stars: 55
+stars: 56
 systems:
 - 3DS
 title: DOSBox

@@ -1,0 +1,18 @@
+{
+	"github": "EstebanPdN/zelda-alttp-3ds",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"game"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/EstebanPdN/zelda-alttp-3ds/main/udicon.png",
+	"image": "https://raw.githubusercontent.com/EstebanPdN/zelda-alttp-3ds/main/udbanner.png",
+	"unique_ids": [
+		369165
+	],
+	"download_filter": "3dsx|cia",
+	"preinstall_message": "Place a legally obtained USA, unheadered ROM in sdmc:/3ds/Zelda 3DS/. The preferred filename is zelda3.sfc, but the setup also accepts other .sfc or .smc filenames.",
+	"long_description": "A native Nintendo 3DS dual-screen port of **The Legend of Zelda: A Link to the Past**, based on the open-source Zelda3 engine.\n\nThe top screen displays the main game, while the bottom screen provides a live map, dungeon information, equipment, items, and settings.\n\n## Features\n\n- Native Nintendo 3DS port\n- Dual-screen interface\n- Original, Stretch, and Wide display modes\n- Fixed and Standard camera options for Wide Mode\n- Support for New Nintendo 3DS and Old Nintendo 3DS systems\n- 60 FPS gameplay on New Nintendo 3DS\n- Multiple ROM profiles with separate saves and settings\n- Support for certain translated ROMs\n- CIA and Homebrew Launcher versions\n- Diagnostic dumps for easier bug reporting\n\n## Requirements\n\nThis download does **not** include the original game ROM or copyrighted game assets.\n\nUsers must provide their own legally obtained, unheadered **USA version 1.0 ROM** and place it inside:\n\n`sdmc:/3ds/Zelda 3DS/`\n\nOn the first launch, the port validates the ROM and extracts the required assets locally on the console."
+}

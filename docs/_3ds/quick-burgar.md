@@ -88,7 +88,7 @@ prerelease:
   version: v0.3.0-alpha
   version_title: v0.3.0-alpha
 source: https://github.com/Oliwier098PL/Quick-Burgar
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: Quick Burgar

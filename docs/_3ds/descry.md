@@ -12,13 +12,13 @@ description: music tracker + synthesizer for the New Nintendo 3DS — song/chain
 download_page: https://github.com/patausx/descry/releases
 downloads:
   descry.3dsx:
-    size: 450832
-    size_str: 440 KiB
-    url: https://github.com/patausx/descry/releases/download/v1.0.4/descry.3dsx
+    size: 535528
+    size_str: 522 KiB
+    url: https://github.com/patausx/descry/releases/download/v1.0.7/descry.3dsx
   descry.cia:
-    size: 504768
-    size_str: 492 KiB
-    url: https://github.com/patausx/descry/releases/download/v1.0.4/descry.cia
+    size: 566208
+    size_str: 552 KiB
+    url: https://github.com/patausx/descry/releases/download/v1.0.7/descry.cia
 github: patausx/descry
 icon: https://raw.githubusercontent.com/patausx/descry/main/assets/icon.png
 image: https://raw.githubusercontent.com/patausx/descry/main/branding/final/banner_256x128.png
@@ -43,127 +43,109 @@ screenshots:
 - description: Song view
   url: https://db.universal-team.net/assets/images/screenshots/descry/song-view.png
 source: https://github.com/patausx/descry
-stars: 11
+stars: 21
 systems:
 - 3DS
 title: descry
 unique_ids:
 - '0xDE5C1'
-update_notes: '<h1 dir="auto">descry v1.0.4 — modes, scopes &amp; housekeeping</h1>
+update_notes: '<h1 dir="auto">descry v1.0.7 — precise cuts, dry stems</h1>
 
-  <h2 dir="auto">record modes done right (issue <a class="issue-link js-issue-link"
-  data-error-text="Failed to load title" data-id="4863598431" data-permission-text="Title
-  is private" data-url="https://github.com/patausx/descry/issues/5" data-hovercard-type="issue"
-  data-hovercard-url="/patausx/descry/issues/5/hovercard" href="https://github.com/patausx/descry/issues/5">#5</a>)</h2>
+  <p dir="auto">this one came from actually using the sampler instead of inventing
+  another synth engine for the feature list. long breaks can now be cropped and sliced
+  precisely, and finished arrangements can leave the 3DS as clean, synchronized tracks
+  for a DAW.</p>
 
-  <p dir="auto">the touch keyboard used to <strong>always</strong> write notes in
-  the phrase view — "REC off still records", as <a class="user-mention notranslate"
-  data-hovercard-type="user" data-hovercard-url="/users/Rhlp-Engineering/hovercard"
-  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/Rhlp-Engineering">@Rhlp-Engineering</a>
-  rightly complained. the REC button now cycles three explicit modes:</p>
+  <h2 dir="auto">dry stem export</h2>
 
-  <markdown-accessiblity-table><table role="table">
+  <p dir="auto">hold <strong>ZL+SELECT</strong> in the PROJECT view to export one
+  synchronized set:</p>
 
-  <thead>
+  <pre lang="text" class="notranslate"><code class="notranslate">NAME_mix.wav
 
-  <tr>
+  NAME_t1.wav
 
-  <th>mode</th>
+  NAME_t2.wav
 
-  <th>what happens</th>
+  ...
 
-  </tr>
+  NAME_t8.wav
 
-  </thead>
+  </code></pre>
 
-  <tbody>
+  <p dir="auto">only tracks used by the arrangement are written. the files are captured
+  in one playback pass, so note timing, chance events, noise and sidechain movement
+  stay aligned.</p>
 
-  <tr>
+  <p dir="auto">track stems keep the instrument, note FX, filter, bitcrush/downsample,
+  channel fader, pan and sidechain duck. global delay, reverb and master processing
+  are deliberately left out — the point is to get clean material into a DAW and choose
+  those effects there. the reference mix still includes the full descry mix and roughly
+  three seconds of global FX tail.</p>
 
-  <td><strong>JAM</strong> <em>(default)</em></td>
+  <p dir="auto">all files begin together and have the same length. a stem set reserves
+  one shared take suffix, writes through temporary files and removes partial output
+  if the SD write fails. normal <strong>SELECT</strong> mix export remains available.</p>
 
-  <td>keys and pads only preview. nothing is ever written — noodle over a playing
-  song without leaving fingerprints</td>
-
-  </tr>
-
-  <tr>
-
-  <td><strong>WRT</strong></td>
-
-  <td>tracker write mode: notes land at the cursor, cursor advances</td>
-
-  </tr>
-
-  <tr>
-
-  <td><strong>LIVE</strong></td>
-
-  <td>with the transport running, notes are recorded onto the step playing <em>right
-  now</em></td>
-
-  </tr>
-
-  </tbody>
-
-  </table></markdown-accessiblity-table>
-
-  <p dir="auto">and the other half of the report — <em>"i couldn''t find the note
-  clear button"</em> — there''s a <strong>CLR</strong> button next to REC now: in
-  WRT it clears the step under the cursor and advances (tap-tap-tap wipes a run),
-  in LIVE it clears the currently playing step. everything is undoable (ZL+B), and
-  touch-entered notes finally participate in undo too.</p>
-
-  <h2 dir="auto">scope styles</h2>
-
-  <p dir="auto">tap the DESCRY wordmark — under the theme list there''s a new <strong>SCOPE</strong>
-  row:</p>
+  <h2 dir="auto">sampler precision</h2>
 
   <ul dir="auto">
 
-  <li><strong>WAVE</strong> — the classic filled envelope (default)</li>
+  <li>fixed <code class="notranslate">CROP</code> on long samples: its 32-bit position
+  multiply overflowed after a few seconds and could keep one unrelated hit instead
+  of the selected region</li>
 
-  <li><strong>BARS</strong> — mirrored peak bars, chunky VU look</li>
+  <li>crop now works in frame coordinates with correct mono/stereo boundaries</li>
 
-  <li><strong>X-Y</strong> — a proper <strong>goniometer</strong>: mid/side-rotated
-  lissajous with auto-gain, connected phosphor-decay trail and CRT-style beam blanking
-  on transients. mono sits as a vertical needle; reverb, detune and panning bloom
-  the figure sideways. gorgeous in fullscreen (L+SELECT)</li>
+  <li>both <strong>WAVE</strong> and <strong>SLICE</strong> have a real editor viewport:
+  Circle Pad up/down zooms up to 256×, left/right pans</li>
+
+  <li>touch marker selection and dragging use the zoomed frame range; zooming never
+  changes playback <code class="notranslate">START/LENGTH</code></li>
+
+  <li>changing the instrument <code class="notranslate">TYPE</code> still works with
+  WAVE/SLICE/LOAD open instead of firing the panel action under the same button</li>
+
+  <li>WAV browser preview now decodes two seconds instead of five, cutting the wait
+  and temporary memory for long files while full import keeps its 15-second capacity</li>
 
   </ul>
 
-  <p dir="auto">the picker stays open while you choose so the strip reacts live. your
-  pick is remembered.</p>
+  <p dir="auto">crop overflow and precision zoom were reported by <strong><a class="user-mention
+  notranslate" data-hovercard-type="user" data-hovercard-url="/users/HexManic/hovercard"
+  data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/HexManic">@HexManic</a></strong>
+  in <a href="https://github.com/patausx/descry/issues/7" data-hovercard-type="issue"
+  data-hovercard-url="/patausx/descry/issues/7/hovercard">issue #7</a>. thanks for
+  the clear report — it pointed straight at a real long-sample bug and made the sampler
+  editor better in the same pass.</p>
 
-  <h2 dir="auto">song export, wired up</h2>
-
-  <p dir="auto"><code class="notranslate">render.wav — song export</code> was promised
-  by the manual... but no button ever triggered it. now: <strong>SELECT in the project
-  view</strong> renders the song to <code class="notranslate">sdmc:/3ds/descry/render.wav</code>
-  (up to 60 s, 32 kHz stereo), with a status toast either way.</p>
-
-  <h2 dir="auto">settings that stick</h2>
-
-  <p dir="auto">new <code class="notranslate">settings.cfg</code> replaces <code class="notranslate">theme.cfg</code>
-  (your saved theme migrates automatically). descry now wakes up exactly how you left
-  it: theme, octave, KEYS/PADS/KAOS mode, kaoss X/Y assignments, stick sync, scope
-  style.</p>
-
-  <h2 dir="auto">fixes</h2>
+  <h2 dir="auto">export and UI cleanup</h2>
 
   <ul dir="auto">
 
-  <li><strong>bottom screen flickered / vanished in fullscreen X-Y scope</strong>
-  — the goniometer trail was draining the shared citro2d quad pool on hot transients,
-  silently starving everything drawn after it. hard quad budget + beam blanking +
-  a bigger pool</li>
+  <li>offline export now advances at tick boundaries instead of quantizing events
+  to 1024-frame blocks</li>
 
-  <li>in-app manual updated: record modes, groove pattern column (mixer GRV), scope
-  styles</li>
+  <li>export renders from a private project snapshot, so tempo commands cannot mutate
+  the live project</li>
+
+  <li>the in-app guide opens only from the visible <code class="notranslate">?</code>
+  button — the whole hint strip is no longer an invisible hit target</li>
+
+  <li>mixer faders have restrained theme-derived depth and highlights instead of flat
+  single-colour fills</li>
+
+  <li>help and the full guide document sampler zoom, fast preview and dry stems</li>
 
   </ul>
 
-  <h2 dir="auto">files</h2>
+  <h2 dir="auto">verification</h2>
+
+  <p dir="auto">the full host regression suite passes, including long mono/stereo
+  crop and dry stem tap coverage. the release build was compiled with devkitARM and
+  tested on a New 3DS.</p>
+
+  <h2 dir="auto">file</h2>
 
   <markdown-accessiblity-table><table role="table">
 
@@ -183,17 +165,17 @@ update_notes: '<h1 dir="auto">descry v1.0.4 — modes, scopes &amp; housekeeping
 
   <tr>
 
-  <td><code class="notranslate">descry.3dsx</code></td>
+  <td><code class="notranslate">descry.cia</code></td>
 
-  <td>homebrew launcher</td>
+  <td>Home Menu install with FBI</td>
 
   </tr>
 
   <tr>
 
-  <td><code class="notranslate">descry.cia</code></td>
+  <td><code class="notranslate">descry.3dsx</code></td>
 
-  <td>install to home menu (FBI)</td>
+  <td>Homebrew Launcher — copy to <code class="notranslate">/3ds/descry/descry.3dsx</code></td>
 
   </tr>
 
@@ -201,7 +183,7 @@ update_notes: '<h1 dir="auto">descry v1.0.4 — modes, scopes &amp; housekeeping
 
   <td><code class="notranslate">descry.3ds</code></td>
 
-  <td>flashcart / citra-azahar</td>
+  <td>compatible flashcart / emulator</td>
 
   </tr>
 
@@ -209,17 +191,10 @@ update_notes: '<h1 dir="auto">descry v1.0.4 — modes, scopes &amp; housekeeping
 
   </table></markdown-accessiblity-table>
 
-  <blockquote>
-
-  <p dir="auto"><strong>emulator users:</strong> descry needs a real DSP firmware
-  dump — see <a href="https://github.com/patausx/descry/issues/2" data-hovercard-type="issue"
-  data-hovercard-url="/patausx/descry/issues/2/hovercard">issue #2</a> for the dspfirm.cdc
-  setup.</p>
-
-  </blockquote>'
-updated: '2026-07-15T09:23:06Z'
-version: v1.0.4
-version_title: descry v1.0.4
+  <p dir="auto">New 3DS / New 2DS only.</p>'
+updated: '2026-08-19T23:10:13Z'
+version: v1.0.7
+version_title: descry v1.0.7
 ---
 descry is a music tracker + synthesizer for the New Nintendo 3DS, in the tradition of LSDj, the Dirtywave M8 and Korg's discontinued DSN-12.
 

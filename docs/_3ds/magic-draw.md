@@ -10,13 +10,13 @@ description: Super powerful drawing app for 3DS
 download_page: https://github.com/natsuneco/magic-draw/releases
 downloads:
   magic-draw.3dsx:
-    size: 549196
-    size_str: 536 KiB
-    url: https://github.com/natsuneco/magic-draw/releases/download/v2.0.1/magic-draw.3dsx
+    size: 553752
+    size_str: 540 KiB
+    url: https://github.com/natsuneco/magic-draw/releases/download/v2.1.0/magic-draw.3dsx
   magic-draw.cia:
-    size: 627648
-    size_str: 612 KiB
-    url: https://github.com/natsuneco/magic-draw/releases/download/v2.0.1/magic-draw.cia
+    size: 631744
+    size_str: 616 KiB
+    url: https://github.com/natsuneco/magic-draw/releases/download/v2.1.0/magic-draw.cia
 github: natsuneco/magic-draw
 icon: https://raw.githubusercontent.com/natsuneco/magic-draw/refs/heads/main/meta/icon.png
 image: https://raw.githubusercontent.com/natsuneco/magic-draw/refs/heads/main/meta/banner.png
@@ -35,7 +35,7 @@ screenshots:
 - description: Title menu
   url: https://db.universal-team.net/assets/images/screenshots/magic-draw/title-menu.png
 source: https://github.com/natsuneco/magic-draw
-stars: 12
+stars: 16
 systems:
 - 3DS
 title: Magic Draw
@@ -43,10 +43,32 @@ unique_ids:
 - '0xCF024'
 update_notes: '<h2 dir="auto">What''s Changed</h2>
 
-  <p dir="auto">Fixed an issue that could cause file corruption.</p>
+  <ul dir="auto">
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/natsuneco/magic-draw/compare/v2.0.0...v2.0.1"><tt>v2.0.0...v2.0.1</tt></a></p>'
-updated: '2026-03-06T17:37:17Z'
-version: v2.0.1
-version_title: v2.0.1
+  <li>Added Eyedropper tool (<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="4920168165" data-permission-text="Title is private" data-url="https://github.com/natsuneco/magic-draw/issues/27"
+  data-hovercard-type="issue" data-hovercard-url="/natsuneco/magic-draw/issues/27/hovercard"
+  href="https://github.com/natsuneco/magic-draw/issues/27">#27</a>)</li>
+
+  <li>Added smooth zoom toggle feature</li>
+
+  <li>R Button Support for Overlay Menu (<a class="issue-link js-issue-link" data-error-text="Failed
+  to load title" data-id="4556055885" data-permission-text="Title is private" data-url="https://github.com/natsuneco/magic-draw/issues/22"
+  data-hovercard-type="issue" data-hovercard-url="/natsuneco/magic-draw/issues/22/hovercard"
+  href="https://github.com/natsuneco/magic-draw/issues/22">#22</a>)</li>
+
+  <li>Fixed memory leaks related to open preview texture management in the project
+  loader</li>
+
+  <li>Fixed an issue where it freezes on a small canvas (<a class="issue-link js-issue-link"
+  data-error-text="Failed to load title" data-id="4078735687" data-permission-text="Title
+  is private" data-url="https://github.com/natsuneco/magic-draw/issues/19" data-hovercard-type="issue"
+  data-hovercard-url="/natsuneco/magic-draw/issues/19/hovercard" href="https://github.com/natsuneco/magic-draw/issues/19">#19</a>)</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/natsuneco/magic-draw/compare/v2.0.1...v2.1.0"><tt>v2.0.1...v2.1.0</tt></a></p>'
+updated: '2026-07-31T16:46:17Z'
+version: v2.1.0
+version_title: v2.1.0
 ---

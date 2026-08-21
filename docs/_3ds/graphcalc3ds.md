@@ -28,7 +28,7 @@ llm_generation: 'no'
 qr:
   GraphCalc3DS.cia: https://db.universal-team.net/assets/images/qr/graphcalc3ds-cia.png
 source: https://github.com/flarn2006/GraphCalc3DS
-stars: 32
+stars: 33
 systems:
 - 3DS
 title: GraphCalc3DS

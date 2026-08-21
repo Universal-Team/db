@@ -9,14 +9,10 @@ created: '2026-02-15T15:59:55Z'
 description: Discord client for Nintendo 3DS
 download_page: https://github.com/2b-zipper/TriCord/releases
 downloads:
-  TriCord.3dsx:
-    size: 7777024
-    size_str: 7 MiB
-    url: https://github.com/2b-zipper/TriCord/releases/download/v0.4.1/TriCord.3dsx
   TriCord.cia:
-    size: 7291840
-    size_str: 6 MiB
-    url: https://github.com/2b-zipper/TriCord/releases/download/v0.4.1/TriCord.cia
+    size: 8901568
+    size_str: 8 MiB
+    url: https://github.com/2b-zipper/TriCord/releases/download/v0.5.1/TriCord.cia
 github: 2b-zipper/TriCord
 icon: https://raw.githubusercontent.com/2b-zipper/TriCord/refs/heads/main/resources/icon.png
 image: https://raw.githubusercontent.com/2b-zipper/TriCord/refs/heads/main/resources/banner.png
@@ -42,7 +38,7 @@ screenshots:
 - description: Serverlist
   url: https://db.universal-team.net/assets/images/screenshots/tricord/serverlist.png
 source: https://github.com/2b-zipper/TriCord
-stars: 97
+stars: 114
 systems:
 - 3DS
 title: TriCord
@@ -50,25 +46,21 @@ unique_ids:
 - '0xD5C0D'
 update_notes: '<ul dir="auto">
 
-  <li>Fixed some emojis not appearing in the emoji picker</li>
+  <li>Added support for saving and restoring canceled keyboard input as drafts per
+  channel</li>
 
-  <li>Fixed reactions not showing on system messages</li>
+  <li>Fixed blank text rendering for pending messages during sending</li>
 
-  <li>Fixed system messages being included in message grouping</li>
+  <li>Fixed application crashes and race conditions when sending, editing, and rendering
+  messages</li>
 
-  <li>Fixed gateway disconnecting every time a DM was opened</li>
-
-  <li>Fixed embed thumbnails not being rendered due to missing rendering code</li>
-
-  <li>Improved error handling during login</li>
-
-  <li>Other UI improvements</li>
+  <li>Fixed race conditions when rendering the emoji picker and loading message history</li>
 
   </ul>
 
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/2b-zipper/TriCord/compare/v0.4.0...v0.4.1"><tt>v0.4.0...v0.4.1</tt></a></p>'
-updated: '2026-03-22T07:03:14Z'
-version: v0.4.1
-version_title: v0.4.1
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/2b-zipper/TriCord/compare/v0.5.0...v0.5.1"><tt>v0.5.0...v0.5.1</tt></a></p>'
+updated: '2026-07-27T04:08:33Z'
+version: v0.5.1
+version_title: v0.5.1
 ---
 Please see below for details: https://github.com/2b-zipper/TriCord/blob/main/README.md

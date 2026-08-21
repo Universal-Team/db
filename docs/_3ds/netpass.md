@@ -10,13 +10,13 @@ description: NetPass allows you to get StreetPasses over the internet
 download_page: https://gitlab.com/3ds-netpass/netpass/-/releases
 downloads:
   netpass.3dsx:
-    size: 7820776
+    size: 8036960
     size_str: 7 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/6302343e3608386689d14bc46fbd5e5791a7d7da/netpass.3dsx?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/b24f1236ee814f33a21f0839087d4ca324b11166/netpass.3dsx?inline=false
   netpass.cia:
-    size: 7898048
+    size: 8102848
     size_str: 7 MiB
-    url: https://gitlab.com/3ds-netpass/netpass/-/raw/6302343e3608386689d14bc46fbd5e5791a7d7da/netpass.cia?inline=false
+    url: https://gitlab.com/3ds-netpass/netpass/-/raw/b24f1236ee814f33a21f0839087d4ca324b11166/netpass.cia?inline=false
 gitlab: 3ds-netpass/netpass
 icon: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
 image: https://gitlab.com/3ds-netpass/netpass/-/raw/main/meta/icon.png
@@ -28,17 +28,36 @@ llm_generation: 'no'
 qr:
   netpass.cia: https://db.universal-team.net/assets/images/qr/netpass-cia.png
 source: https://gitlab.com/3ds-netpass/netpass
-stars: 73
+stars: 74
 systems:
 - 3DS
 title: NetPass
 unique_ids:
 - '0xF6574'
-update_notes: <ul data-sourcepos="1:2-1:54" dir="auto">&#x000A;<li data-sourcepos="1:2-1:54">Re-register
-  if the server says we aren't registered</li>&#x000A;</ul>
-updated: '2026-07-14T11:25:59.000Z'
-version: v2.0.3
-version_title: v2.0.3
+update_notes: '<ul>
+
+  <li>Prepare for something....moving 😉</li>
+
+  <li>Fix crash with bottom screen logs being on when joining a location</li>
+
+  <li>Implement news feed for community news via SpotPass</li>
+
+  <li>Update a few sound tracks</li>
+
+  <li>Fix NetPass patches conflicting with Pokemon Bank</li>
+
+  <li>Add reminder to enable luma patches, if they are disabled</li>
+
+  <li>More natural line wrapping for Chinese and Japanese</li>
+
+  <li>Download updates in the background with SpotPass</li>
+
+  </ul>
+
+  '
+updated: '2026-08-09T19:43:24.420Z'
+version: v2.1.0
+version_title: v2.1.0
 website: https://netpass.cafe
 ---
 #NetPass: StreetPass in the modern world

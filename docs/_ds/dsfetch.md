@@ -25,7 +25,7 @@ llm_generation: 'yes'
 qr:
   DSFetch.nds: https://db.universal-team.net/assets/images/qr/dsfetch-nds.png
 source: https://github.com/xPsycho999/DSFetch
-stars: 0
+stars: 2
 systems:
 - DS
 title: DSFetch

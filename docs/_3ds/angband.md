@@ -19,87 +19,44 @@ license: gpl-2.0
 license_name: GNU General Public License v2.0
 llm_generation: unknown
 prerelease:
-  download_page: https://github.com/angband/angband/releases/tag/4.2.6-161-ge1e0b0530
+  download_page: https://github.com/angband/angband/releases/tag/4.2.6-174-g5c45eb958
   downloads:
-    Angband-4.2.6-161-ge1e0b0530-3ds.zip:
-      size: 24695461
+    Angband-4.2.6-174-g5c45eb958-3ds.zip:
+      size: 24696606
       size_str: 23 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-161-ge1e0b0530/Angband-4.2.6-161-ge1e0b0530-3ds.zip
-    Angband-4.2.6-161-ge1e0b0530-nds.zip:
-      size: 23329406
+      url: https://github.com/angband/angband/releases/download/4.2.6-174-g5c45eb958/Angband-4.2.6-174-g5c45eb958-3ds.zip
+    Angband-4.2.6-174-g5c45eb958-nds.zip:
+      size: 23330321
       size_str: 22 MiB
-      url: https://github.com/angband/angband/releases/download/4.2.6-161-ge1e0b0530/Angband-4.2.6-161-ge1e0b0530-nds.zip
+      url: https://github.com/angband/angband/releases/download/4.2.6-174-g5c45eb958/Angband-4.2.6-174-g5c45eb958-nds.zip
   update_notes: '<h2 dir="auto">What''s Changed</h2>
 
     <ul dir="auto">
 
-    <li>SDL2: restrict window events that clear moving/resizing of subwindows by <a
-    class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4798120956" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6662"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6662/hovercard"
-    href="https://github.com/angband/angband/pull/6662">#6662</a></li>
-
-    <li>SDL2: for details dialog and logging, account for overlap of fullscreen flags
-    by <a class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4805370649" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6663"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6663/hovercard"
-    href="https://github.com/angband/angband/pull/6663">#6663</a></li>
-
-    <li>cmake: allow detection of ncurses in Xcode''s SDK for macOS by <a class="user-mention
+    <li>Remember source location for last noise calculation in save file by <a class="user-mention
     notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
     data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
     in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4807842360" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6664"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6664/hovercard"
-    href="https://github.com/angband/angband/pull/6664">#6664</a></li>
-
-    <li>Delay expanding user-supplied history notes by <a class="user-mention notranslate"
-    data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4823599996" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6665"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6665/hovercard"
-    href="https://github.com/angband/angband/pull/6665">#6665</a></li>
-
-    <li>cmake: already require 3.7 or later so can use VERSION_GREATER_EQUAL by <a
-    class="user-mention notranslate" data-hovercard-type="user" data-hovercard-url="/users/backwardsEric/hovercard"
-    data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="https://github.com/backwardsEric">@backwardsEric</a>
-    in <a class="issue-link js-issue-link" data-error-text="Failed to load title"
-    data-id="4825098507" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6667"
-    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6667/hovercard"
-    href="https://github.com/angband/angband/pull/6667">#6667</a></li>
+    data-id="5093295073" data-permission-text="Title is private" data-url="https://github.com/angband/angband/issues/6681"
+    data-hovercard-type="pull_request" data-hovercard-url="/angband/angband/pull/6681/hovercard"
+    href="https://github.com/angband/angband/pull/6681">#6681</a></li>
 
     </ul>
 
-    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-156-g1cc6cce51...4.2.6-161-ge1e0b0530"><tt>4.2.6-156-g1cc6cce51...4.2.6-161-ge1e0b0530</tt></a></p>'
+    <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/angband/angband/compare/4.2.6-173-gdc40ec9e0...4.2.6-174-g5c45eb958"><tt>4.2.6-173-gdc40ec9e0...4.2.6-174-g5c45eb958</tt></a></p>'
   update_notes_md: '## What''s Changed
 
-    * SDL2: restrict window events that clear moving/resizing of subwindows by @backwardsEric
-    in https://github.com/angband/angband/pull/6662
-
-    * SDL2: for details dialog and logging, account for overlap of fullscreen flags
-    by @backwardsEric in https://github.com/angband/angband/pull/6663
-
-    * cmake: allow detection of ncurses in Xcode''s SDK for macOS by @backwardsEric
-    in https://github.com/angband/angband/pull/6664
-
-    * Delay expanding user-supplied history notes by @backwardsEric in https://github.com/angband/angband/pull/6665
-
-    * cmake: already require 3.7 or later so can use VERSION_GREATER_EQUAL by @backwardsEric
-    in https://github.com/angband/angband/pull/6667
+    * Remember source location for last noise calculation in save file by @backwardsEric
+    in https://github.com/angband/angband/pull/6681
 
 
 
-    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-156-g1cc6cce51...4.2.6-161-ge1e0b0530'
-  updated: '2026-07-14T11:48:50Z'
-  version: 4.2.6-161-ge1e0b0530
-  version_title: 4.2.6-161-ge1e0b0530
+    **Full Changelog**: https://github.com/angband/angband/compare/4.2.6-173-gdc40ec9e0...4.2.6-174-g5c45eb958'
+  updated: '2026-08-18T13:26:37Z'
+  version: 4.2.6-174-g5c45eb958
+  version_title: 4.2.6-174-g5c45eb958
 source: https://github.com/angband/angband
-stars: 1541
+stars: 1554
 systems:
 - 3DS
 - DS
@@ -213,28 +170,28 @@ Angband is a graphical dungeon adventure game that uses textual characters to re
 ### Installation instructions
 
 <div class="alert alert-info">These installation instructions have been automatically generated based on Universal-Updater's installation scripts</div>
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-161-ge1e0b0530.3dsx</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-174-g5c45eb958.3dsx</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-161-ge1e0b0530-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-161-ge1e0b0530.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-161-ge1e0b0530.3dsx</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-174-g5c45eb958-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-174-g5c45eb958.3dsx</code> from the zip to <code>/3ds/Angband-4.2.6-174-g5c45eb958.3dsx</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-161-ge1e0b0530.cia</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-174-g5c45eb958.cia</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-161-ge1e0b0530-3ds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-161-ge1e0b0530.cia</code> from the zip to <code>/cias/Angband-4.2.6-161-ge1e0b0530.cia</code> on your SD card</li>
+<li>Download <code>Angband-4.2.6-174-g5c45eb958-3ds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-174-g5c45eb958.cia</code> from the zip to <code>/cias/Angband-4.2.6-174-g5c45eb958.cia</code> on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 <li>Insert your SD card back into your 3DS and turn it on</li>
-<li>Install and delete <code>/cias/Angband-4.2.6-161-ge1e0b0530.cia</code> using FBI or GodMode9</li>
+<li>Install and delete <code>/cias/Angband-4.2.6-174-g5c45eb958.cia</code> using FBI or GodMode9</li>
 </ol>
 </details>
 
-<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-161-ge1e0b0530.nds</summary>
+<details class="alert alert-secondary"><summary>[prerelease] Angband-4.2.6-174-g5c45eb958.nds</summary>
 <ol>
-<li>Download <code>Angband-4.2.6-161-ge1e0b0530-nds.zip</code></li>
-<li>Extract <code>/Angband-4.2.6-161-ge1e0b0530.nds</code> from the zip to where you keep NDS files on your SD card</li>
+<li>Download <code>Angband-4.2.6-174-g5c45eb958-nds.zip</code></li>
+<li>Extract <code>/Angband-4.2.6-174-g5c45eb958.nds</code> from the zip to where you keep NDS files on your SD card</li>
 <li>Extract the contents of <code>/angband/</code> from the zip to <code>/angband/</code> on your SD card</li>
 </ol>
 </details>

@@ -26,7 +26,7 @@ license: unlicense
 license_name: The Unlicense
 llm_generation: 'no'
 source: https://github.com/PabloMK7/kartdlphax
-stars: 81
+stars: 82
 systems:
 - 3DS
 title: kartdlphax

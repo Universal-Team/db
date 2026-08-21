@@ -32,7 +32,7 @@ llm_generation: 'no'
 qr:
   tikSweep.cia: https://db.universal-team.net/assets/images/qr/tiksweep-cia.png
 source: https://github.com/DanTheMan827/tikSweep
-stars: 52
+stars: 53
 systems:
 - 3DS
 title: tikSweep

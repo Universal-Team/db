@@ -1,0 +1,15 @@
+{
+	"github": "Michele-3ds/OceanClock",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"llm_generation": "minor",
+	"icon": "https://raw.githubusercontent.com/Michele-3ds/OceanClock/main/icon.png",
+	"unique_ids": [
+		1018896
+	],
+	"long_description": "a relaxing clock app for Nintendo 3ds from the creator of NightClock"
+}

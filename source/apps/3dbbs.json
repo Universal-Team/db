@@ -1,0 +1,14 @@
+{
+	"github": "hmderdoc/3dBBS",
+	"systems": [
+		"3DS"
+	],
+	"categories": [
+		"app"
+	],
+	"llm_generation": "yes",
+	"icon": "https://raw.githubusercontent.com/hmderdoc/3dBBS/master/assets/icon.png",
+	"image": "https://raw.githubusercontent.com/hmderdoc/3dBBS/master/assets/banner.png",
+	"long_description": "A BBS terminal for the Nintendo 3DS that renders stereoscopic 3D scenes,\nstreamed audio and sixel graphics driven by the BBS itself, while remaining\na faithful ANSI-BBS terminal.\n\nIdentifies as CTerm 1.332, so Synchronet terminal autodetect and existing\nSyncTERM-aware door code work unmodified. Telnet, rlogin and SSH with\nper-board stored credentials and autologin. Truecolor, iCE colors, CP437,\nscroll regions, mouse reporting, and selectable terminal geometry from\n80x25 up to 132x60. Touch keyboard on the bottom screen, or mirror the\nterminal across both.\n",
+	"download_filter": "3dsx|cia"
+}

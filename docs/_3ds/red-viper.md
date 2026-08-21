@@ -10,13 +10,13 @@ description: A Virtual Boy emulator for the 3DS
 download_page: https://github.com/skyfloogle/red-viper/releases
 downloads:
   red-viper.3dsx:
-    size: 684596
-    size_str: 668 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v1.3.0/red-viper.3dsx
+    size: 681208
+    size_str: 665 KiB
+    url: https://github.com/skyfloogle/red-viper/releases/download/v1.3.2/red-viper.3dsx
   red-viper.cia:
-    size: 705472
-    size_str: 688 KiB
-    url: https://github.com/skyfloogle/red-viper/releases/download/v1.3.0/red-viper.cia
+    size: 701376
+    size_str: 684 KiB
+    url: https://github.com/skyfloogle/red-viper/releases/download/v1.3.2/red-viper.cia
 github: skyfloogle/red-viper
 icon: https://raw.githubusercontent.com/skyfloogle/red-viper/master/icon.png
 image: https://raw.githubusercontent.com/skyfloogle/red-viper/master/resources/banner.png
@@ -35,38 +35,27 @@ screenshots:
 - description: Warioland
   url: https://db.universal-team.net/assets/images/screenshots/red-viper/warioland.png
 source: https://github.com/skyfloogle/red-viper
-stars: 1031
+stars: 1041
 systems:
 - 3DS
 title: red-viper
 unique_ids:
 - '0xFE7CB'
-update_notes: '<ul dir="auto">
+update_notes: '<p dir="auto">This release brings Zero Racers to playable status on
+  old 3DS. Dragon Hopper remains stuttery on old 3DS for now, but should be better
+  on new 3DS, especially with 3D disabled.</p>
 
-  <li>New rendering mode that downloads GPU-rendered image to CPU for post-processing
-  (<a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="3323924534"
-  data-permission-text="Title is private" data-url="https://github.com/skyfloogle/red-viper/issues/88"
-  data-hovercard-type="issue" data-hovercard-url="/skyfloogle/red-viper/issues/88/hovercard"
-  href="https://github.com/skyfloogle/red-viper/issues/88">#88</a>)</li>
+  <ul dir="auto">
 
-  <li>Enabled in Test Chamber, meaning black walls are no longer transparent on old
-  3DS and performance is improved on new 3DS</li>
+  <li>Improved performance significantly in Zero Racers and to a lesser extent in
+  Dragon Hopper</li>
 
-  <li>Test Chamber should now be fully compatible with good performance</li>
-
-  <li>Fixed half of the court being black in Virtual Bowling</li>
-
-  <li>Improved floor transitions in Jack Bros.</li>
-
-  <li>Fixed some transitions flashing the wrong thing for 1 frame when antiflicker
-  is enabled in Jack Bros.</li>
-
-  <li>General minor performance improvements</li>
+  <li>Run Zero Racers title animation at correct speed</li>
 
   </ul>'
-updated: '2026-05-03T15:39:14Z'
-version: v1.3.0
-version_title: v1.3.0
+updated: '2026-08-11T21:11:56Z'
+version: v1.3.2
+version_title: v1.3.2
 wiki: https://github.com/skyfloogle/red-viper/wiki
 ---
 A Virtual Boy emulator for the 3DS. All official games are playable at full speed.

@@ -12,9 +12,9 @@ description: A DS/DSi homebrew application to backup and restore raw flash image
 download_page: https://github.com/tasken/Cart-Flasher/releases
 downloads:
   cart_flasher.nds:
-    size: 214528
-    size_str: 209 KiB
-    url: https://github.com/tasken/Cart-Flasher/releases/download/v0.4-whimsicott/cart_flasher.nds
+    size: 216576
+    size_str: 211 KiB
+    url: https://github.com/tasken/cart-flasher/releases/download/v0.5.4-impidimp/cart_flasher.nds
 github: tasken/Cart-Flasher
 icon: https://raw.githubusercontent.com/tasken/Cart-Flasher/refs/heads/main/resources/icon.png
 image: https://raw.githubusercontent.com/tasken/Cart-Flasher/main/resources/logo.png
@@ -25,38 +25,32 @@ license_name: GNU General Public License v3.0
 llm_generation: 'yes'
 qr:
   cart_flasher.nds: https://db.universal-team.net/assets/images/qr/cart_flasher-nds.png
-source: https://github.com/tasken/Cart-Flasher
-stars: 0
+source: https://github.com/tasken/cart-flasher
+stars: 1
 systems:
 - DS
-title: Cart-Flasher
-update_notes: '<ul dir="auto">
+title: cart-flasher
+update_notes: '<p dir="auto"><strong>Fixed</strong><br>
 
-  <li>Backing up no longer asks for the key combo, just a button press, since reading
-  a cart can''t damage it</li>
+  Acekard 2i HW-81 carts were treated as 16MB when the flash chip is really 2MB. That
+  made backups eight times bigger than they should be, and restoring one often had
+  to be repeated before it stuck, sometimes leaving the cart in a bad state. Backups
+  are now the right size and restore in one go. Old 16MB backups should still work
+  fine.</p>
 
-  <li>Mistyping the key combo now offers a retry instead of silently starting over</li>
+  <p dir="auto">Thanks to <a class="user-mention notranslate" data-hovercard-type="user"
+  data-hovercard-url="/users/ApacheThunder/hovercard" data-octo-click="hovercard-link-click"
+  data-octo-dimensions="link_type:self" href="https://github.com/ApacheThunder">@ApacheThunder</a>
+  for spotting it and testing the fix on real hardware.</p>
 
-  <li>The startup and confirmation screens now warn about the risks before you back
-  up or write</li>
+  <p dir="auto"><strong>Changed</strong><br>
 
-  <li>Confirmation screens are centred and spaced out, so they''re easier to read</li>
+  Updated DS banner and dev/nightly builds formatting.</p>
 
-  <li>Every key combo prompt now gets a different sequence (two prompts in the same
-  second used to get an identical one)</li>
-
-  <li>When a cart can''t be detected, the log now records why, making bug reports
-  more useful</li>
-
-  <li>The README now documents the real steps, the supported carts, and how to report
-  a problem</li>
-
-  </ul>
-
-  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/tasken/Cart-Flasher/compare/v0.3-xerneas...v0.4-whimsicott"><tt>v0.3-xerneas...v0.4-whimsicott</tt></a></p>'
-updated: '2026-07-16T00:48:25Z'
-version: v0.4-whimsicott
-version_title: v0.4-whimsicott
+  <p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link" href="https://github.com/tasken/cart-flasher/compare/v0.5.3-comfey...v0.5.4-impidimp"><tt>v0.5.3-comfey...v0.5.4-impidimp</tt></a></p>'
+updated: '2026-08-19T04:07:51Z'
+version: v0.5.4-impidimp
+version_title: v0.5.4-impidimp
 ---
 A DS/DSi homebrew application to backup and restore raw flash images to/from Slot-1 flashcarts.
 

@@ -24,7 +24,7 @@ preinstall_message: This is a beta version, so there may be bugs or issues. We t
   (French content is predominant.) To contact us about adding more content, please
   visit https://www.ttdu08.online/contactus
 source: https://github.com/GRP-ttdu08/nintendo-anime-channel-revival
-stars: 1
+stars: 2
 systems:
 - 3DS
 title: nintendo-anime-channel-revival

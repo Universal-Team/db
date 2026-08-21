@@ -12,9 +12,9 @@ download_filter: ^mivf_player_3ds\.(cia|3dsx)$
 download_page: https://github.com/Oldhimaster1/MIVF/releases
 downloads:
   mivf_player_3ds.cia:
-    size: 820672
-    size_str: 801 KiB
-    url: https://github.com/Oldhimaster1/MIVF/releases/download/testing-preview-for-3d/mivf_player_3ds.cia
+    size: 822208
+    size_str: 802 KiB
+    url: https://github.com/Oldhimaster1/MIVF/releases/download/0.1.1_preview/mivf_player_3ds.cia
 github: Oldhimaster1/MIVF
 icon: https://raw.githubusercontent.com/Oldhimaster1/MIVF/refs/heads/main/meta/icon48.png
 image: https://raw.githubusercontent.com/Oldhimaster1/MIVF/refs/heads/main/meta/banner.png
@@ -34,8 +34,10 @@ systems:
 title: MIVF Player
 unique_ids:
 - '0xF8002'
-updated: '2026-07-22T19:52:09Z'
-version: testing-preview-for-3d
+update_notes: <p dir="auto">faster player while video playign for beta testing.</p>
+updated: '2026-07-24T18:11:35Z'
+version: 0.1.1_preview
+version_title: mivf version 0.1.1 preview
 ---
 
 MIVF Player is a homebrew video player for Nintendo 3DS built around the custom MIVF container format.

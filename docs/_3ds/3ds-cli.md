@@ -11,9 +11,9 @@ description: Nintendo 3DS homebrew application that embeds a full RISC-V emulato
 download_page: https://github.com/cmdada/3DS-CLI/releases
 downloads:
   3ds_cli.zip:
-    size: 1733095
-    size_str: 1 MiB
-    url: https://github.com/cmdada/3DS-CLI/releases/download/1.8/3ds_cli.zip
+    size: 56246632
+    size_str: 53 MiB
+    url: https://github.com/cmdada/3DS-CLI/releases/download/3.0/3ds_cli.zip
 github: cmdada/3DS-CLI
 icon: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
 image: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
@@ -23,17 +23,37 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: unknown
 source: https://github.com/cmdada/3DS-CLI
-stars: 27
+stars: 39
 systems:
 - 3DS
 title: 3DS-CLI
 unique_ids:
 - '0x1111'
-update_notes: '<p dir="auto"><strong>Full Changelog</strong>: <a class="commit-link"
-  href="https://github.com/cmdada/3DS-CLI/compare/1.7...1.8"><tt>1.7...1.8</tt></a></p>'
-updated: '2026-06-23T01:41:40Z'
-version: '1.8'
-version_title: V1.8 Persistent changes, cia release, ux/ui changes
+update_notes: '<h2 dir="auto">SD Card Setup</h2>
+
+  <p dir="auto">Extract the zip and copy to your SD card:</p>
+
+  <ul dir="auto">
+
+  <li><code class="notranslate">Image</code> → <code class="notranslate">sdmc:/Image</code></li>
+
+  <li><code class="notranslate">3ds-cli.3dsx</code> → <code class="notranslate">sdmc:/3ds/3ds-cli/3ds-cli.3dsx</code></li>
+
+  </ul>
+
+  <p dir="auto">The Image has the root filesystem bundled in: on first boot the app<br>
+
+  unpacks it to <code class="notranslate">sdmc:/rootfs.ext2</code>, which stays as
+  the writable disk<br>
+
+  from then on - changes persist across sessions.<br>
+
+  Includes: bash, htop, neofetch, nano, vim, tree, wget, dropbear,<br>
+
+  procps, util-linux.</p>'
+updated: '2026-08-12T23:05:51Z'
+version: '3.0'
+version_title: V3.0 - Settings page!
 ---
 
 A Nintendo 3DS homebrew application that embeds a full RISC-V CPU emulator (`mini-rv32ima` by cnlohr) to boot a real Linux environment inside the 3DS Horizon OS.

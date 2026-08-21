@@ -25,7 +25,7 @@ license: gpl-3.0
 license_name: GNU General Public License v3.0
 llm_generation: unknown
 source: https://github.com/biometrix76/Gen6CTRPluginFramework
-stars: 14
+stars: 15
 systems:
 - 3DS
 title: Gen 6 CTRPluginFramework

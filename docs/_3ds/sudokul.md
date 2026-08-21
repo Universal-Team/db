@@ -47,7 +47,7 @@ screenshots:
 - description: Gameplay top
   url: https://db.universal-team.net/assets/images/screenshots/sudokul/gameplay-top.png
 source: https://github.com/Mode8fx/SuDokuL
-stars: 25
+stars: 26
 systems:
 - 3DS
 title: SuDokuL

@@ -10,13 +10,13 @@ description: A universal 3DS screen capture and control software
 download_page: https://github.com/cylin577/3DSC2/releases
 downloads:
   3dsc2_calib.3dsx:
-    size: 50376
+    size: 50368
     size_str: 49 KiB
-    url: https://github.com/cylin577/3DSC2/releases/download/v1.1.0/3dsc2_calib.3dsx
+    url: https://github.com/cylin577/3DSC2/releases/download/v1.1.2/3dsc2_calib.3dsx
   3dsc2_calib.cia:
     size: 291776
     size_str: 284 KiB
-    url: https://github.com/cylin577/3DSC2/releases/download/v1.1.0/3dsc2_calib.cia
+    url: https://github.com/cylin577/3DSC2/releases/download/v1.1.2/3dsc2_calib.cia
 github: cylin577/3DSC2
 icon: https://raw.githubusercontent.com/cylin577/3DSC2/main/resources/icon.png
 image: https://raw.githubusercontent.com/cylin577/3DSC2/main/resources/banner.png
@@ -28,16 +28,15 @@ llm_generation: unknown
 qr:
   3dsc2_calib.cia: https://db.universal-team.net/assets/images/qr/3dsc2_calib-cia.png
 source: https://github.com/cylin577/3DSC2
-stars: 6
+stars: 7
 systems:
 - 3DS
 title: 3DSC2
 unique_ids:
 - '0x1BF52'
-update_notes: <p dir="auto">This release is the first release that come with pre-built
-  bins!!!</p>
-updated: '2026-05-22T13:31:46Z'
-version: v1.1.0
-version_title: v1.1.0
+update_notes: <p dir="auto">hotfix to DLL loding problem</p>
+updated: '2026-08-17T04:40:45Z'
+version: v1.1.2
+version_title: v1.1.2
 ---
 The calibration app for 3DSC2

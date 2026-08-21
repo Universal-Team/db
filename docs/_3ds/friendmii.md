@@ -28,7 +28,7 @@ llm_generation: 'no'
 qr:
   FriendMii.cia: https://db.universal-team.net/assets/images/qr/friendmii-cia.png
 source: https://github.com/joel16/FriendMii
-stars: 28
+stars: 29
 systems:
 - 3DS
 title: FriendMii

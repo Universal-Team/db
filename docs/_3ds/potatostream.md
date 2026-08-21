@@ -10,13 +10,13 @@ description: Gamestream client for old 2ds/3DS
 download_page: https://github.com/PainDe0Mie/PotatoStream/releases
 downloads:
   streampotato.3dsx:
-    size: 7624708
+    size: 7625640
     size_str: 7 MiB
-    url: https://github.com/PainDe0Mie/PotatoStream/releases/download/v1.1.0/streampotato.3dsx
+    url: https://github.com/PainDe0Mie/PotatoStream/releases/download/v1.2.0/streampotato.3dsx
   streampotato.cia:
-    size: 4373440
+    size: 4374464
     size_str: 4 MiB
-    url: https://github.com/PainDe0Mie/PotatoStream/releases/download/v1.1.0/streampotato.cia
+    url: https://github.com/PainDe0Mie/PotatoStream/releases/download/v1.2.0/streampotato.cia
 github: PainDe0Mie/PotatoStream
 icon: https://raw.githubusercontent.com/PainDe0Mie/PotatoStream/n3ds-main/3ds/res/ic_streampotato.png
 image: https://raw.githubusercontent.com/PainDe0Mie/PotatoStream/n3ds-main/3ds/res/banner.png
@@ -28,57 +28,96 @@ llm_generation: unknown
 qr:
   streampotato.cia: https://db.universal-team.net/assets/images/qr/streampotato-cia.png
 source: https://github.com/PainDe0Mie/PotatoStream
-stars: 9
+stars: 14
 systems:
 - 3DS
 title: PotatoStream
 unique_ids:
 - '0x3700'
-update_notes: '<h1 dir="auto">PotatoStream</h1>
+update_notes: '<h2 dir="auto">What''s New in v1.2.0</h2>
 
-  <p dir="auto"><strong>PotatoStream</strong> is a game streaming client for <strong>Old
-  3DS, Old 3DS XL and 2DS</strong>, forked from <a href="https://github.com/zoeyjodon/moonlight-N3DS">moonlight-N3DS</a>
-  by zoeyjodon.</p>
-
-  <p dir="auto">Compatible with <a href="https://github.com/LizardByte/Sunshine">Sunshine</a>
-  (open-source, recommended) and NVIDIA GameStream.</p>
-
-  <blockquote>
-
-  <p dir="auto">The original project targets the <em>New</em> 3DS and its hardware
-  MVD decoder. PotatoStream shifts the focus to older models: ARM11 compiler optimizations,
-  smart frame skipping, auto-configured stream profile, and native Y2RU video pipeline.</p>
-
-  </blockquote>
-
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/a810c0b0-3cf6-4a24-bcb4-12221882a18e"><img
-  width="512" height="256" alt="banner" src="https://github.com/user-attachments/assets/a810c0b0-3cf6-4a24-bcb4-12221882a18e"
-  style="max-width: 100%; height: auto; max-height: 256px;; aspect-ratio: 512 / 256;
-  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
-
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/145308d6-a33a-4d8a-93e4-1c8276015f4f"><img
-  width="272" height="270" alt="qrcode" src="https://github.com/user-attachments/assets/145308d6-a33a-4d8a-93e4-1c8276015f4f"
-  style="max-width: 100%; height: auto; max-height: 270px;; aspect-ratio: 272 / 270;
-  background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
-
-  <h2 dir="auto">What''s new in v1.1.0?</h2>
+  <p dir="auto"><strong>Pairing &amp; Connectivity</strong></p>
 
   <ul dir="auto">
 
-  <li>Improved Sunshine pairing and HTTP stability.</li>
+  <li>Fixed port 47984 being blocked during Sunshine pairing</li>
 
-  <li>Persisted confirmed pairs to avoid repairing the same host every time.</li>
+  <li>Fixed certificate validity by backdating the <code class="notranslate">notBefore</code>
+  field (antidating), avoiding clock mismatch issues</li>
 
-  <li>Added v1.1 stream profiles and experimental stereoscopic 3D.</li>
+  <li>Fixed pairing keys being lost after update/migration</li>
 
-  <li>Reduced framebuffer glitches and gated 3D rendering behind the experimental
-  option.</li>
+  <li>Added local pairing memory to avoid unnecessary re-pairing</li>
 
-  <li>Improved host flow, stream options, and menu UX.</li>
+  <li>Added detailed error messages when pairing fails</li>
+
+  <li>Added <code class="notranslate">gs_cert_was_regenerated()</code> to properly
+  detect and handle certificate regeneration</li>
+
+  <li>Added a pairing cache purge to prevent stale pairing data from causing issues</li>
+
+  <li>Improved Sunshine pairing and HTTP connection stability even further</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Stability</strong></p>
+
+  <ul dir="auto">
+
+  <li>Fixed crashes when changing stream settings (resolution, bitrate, FPS, etc.)</li>
+
+  <li>Fixed settings crashes in the Digital D-pad editor</li>
+
+  <li>Fixed a thread-safety issue that could cause random crashes on startup</li>
+
+  <li>Added proper cleanup routines on app exit</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Video</strong></p>
+
+  <ul dir="auto">
+
+  <li>Fixed the H.264 decoder init loop not stopping after a successful open, and
+  always disable the loop filter for better performance</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Interface</strong></p>
+
+  <ul dir="auto">
+
+  <li>Reworked the user interface for a smoother experience</li>
+
+  <li>Added a Digital D-pad editor</li>
+
+  <li>Added a number editor</li>
+
+  <li>Added an Exit option while editing inputs</li>
+
+  </ul>
+
+  <p dir="auto"><strong>Security</strong></p>
+
+  <ul dir="auto">
+
+  <li>Secured all <code class="notranslate">C2D_TextParse</code> calls to prevent
+  crashes/vulnerabilities</li>
+
+  <li>Various other security improvements</li>
+
+  </ul>
+
+  <p dir="auto"><strong>New Features</strong></p>
+
+  <ul dir="auto">
+
+  <li>Added an update checker: the app now asks GitHub for the latest release and
+  lets you know when an update is available</li>
 
   </ul>'
-updated: '2026-05-09T04:09:14Z'
-version: v1.1.0
-version_title: PotatoStream v1.1.0
+updated: '2026-08-04T05:59:20Z'
+version: v1.2.0
+version_title: PotatoStream v1.2.0
 ---
 PotatoStream is a Moonlight game streaming client for all 3DS and 2DS models, with a focus on Old 3DS/2DS compatibility. Auto-detects hardware at startup and activates "Potato" mode on older models with smart frame skipping, Y2RU hardware pipeline and an optimized stream profile (400x240@24fps). (New 3DS keeps the standard MVD hardware decoder) Compatible with Sunshine and NVIDIA GameStream.

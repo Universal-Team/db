@@ -24,13 +24,64 @@ image: https://raw.githubusercontent.com/joel16/3DShell/master/res/banner.png
 image_length: 10753
 layout: app
 llm_generation: 'no'
+prerelease:
+  download_page: https://github.com/joel16/3DShell/releases/tag/next-v1.00
+  downloads:
+    3DShell.3dsx:
+      size: 42890832
+      size_str: 40 MiB
+      url: https://github.com/joel16/3DShell/releases/download/next-v1.00/3DShell.3dsx
+  update_notes: '<p dir="auto">A lot of the changes here are more under the hood changes,
+    mainly being a lot of components being re-written. It''s still not as polished
+    as I would''ve liked it to be and somethings may not be tested completely. The
+    cia release is currently broken and will be provided at a later date if time permits.</p>
+
+    <ul dir="auto">
+
+    <li>Audio player has been reimplemented. (Supports FLAC, IT, MOD, MP3, OGG, OPUS,
+    S3M, WAV, XM)</li>
+
+    <li>Config no longer saves last visited directory (which led to a lot of crashes
+    in previous releases)</li>
+
+    <li>FS Dir reading has been overhauled - There will no longer be multiple layers
+    of UTF8&lt;-&gt;UTF16 conversion, most FS code will handle UTF16 by default.</li>
+
+    <li>You can now view PDFs/EBooks (This is still in BETA)</li>
+
+    <li>Other minor changes for performance, consistency and upgrades to various libraries
+    used. Also built with the latest version of devkitARM, libctru, and citro2d/3d.</li>
+
+    </ul>'
+  update_notes_md: 'A lot of the changes here are more under the hood changes, mainly
+    being a lot of components being re-written. It''s still not as polished as I would''ve
+    liked it to be and somethings may not be tested completely. The cia release is
+    currently broken and will be provided at a later date if time permits.
+
+
+    - Audio player has been reimplemented. (Supports FLAC, IT, MOD, MP3, OGG, OPUS,
+    S3M, WAV, XM)
+
+    - Config no longer saves last visited directory (which led to a lot of crashes
+    in previous releases)
+
+    - FS Dir reading has been overhauled - There will no longer be multiple layers
+    of UTF8<->UTF16 conversion, most FS code will handle UTF16 by default.
+
+    - You can now view PDFs/EBooks (This is still in BETA)
+
+    - Other minor changes for performance, consistency and upgrades to various libraries
+    used. Also built with the latest version of devkitARM, libctru, and citro2d/3d.'
+  updated: '2026-07-31T13:25:42Z'
+  version: next-v1.00
+  version_title: 3DShell-next v1.00
 qr:
   3DShell.cia: https://db.universal-team.net/assets/images/qr/3dshell-cia.png
 screenshots:
 - description: Settings
   url: https://db.universal-team.net/assets/images/screenshots/3dshell/settings.png
 source: https://github.com/joel16/3DShell
-stars: 353
+stars: 358
 systems:
 - 3DS
 title: 3DShell

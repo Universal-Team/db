@@ -28,7 +28,7 @@ llm_generation: 'no'
 qr:
   3ds-vgmstream.cia: https://db.universal-team.net/assets/images/qr/3ds-vgmstream-cia.png
 source: https://github.com/TricksterGuy/3ds-vgmstream
-stars: 18
+stars: 19
 systems:
 - 3DS
 title: 3ds-vgmstream

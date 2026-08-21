@@ -21,7 +21,7 @@ image_length: 630
 layout: app
 llm_generation: 'no'
 source: https://github.com/RocketRobz/NTR_Forwarder
-stars: 112
+stars: 115
 systems:
 - 3DS
 - DS

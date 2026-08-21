@@ -1,10 +1,15 @@
 {
-	"github": "asiekierka/atari800-3ds",
+	"forgejo": "asie/atari800-3ds",
+	"forgejo_host": "codeberg.org",
 	"title": "Atari800",
 	"systems": [
 		"3DS"
 	],
 	"categories": [
 		"emulator"
-	]
+	],
+	"author": "Atari800 development team, asie",
+	"icon": "https://codeberg.org/asie/atari800-3ds/raw/branch/port-3ds/src/3ds/banner/atari800-icon.png",
+	"license": "gpl-2.0",
+	"license_name": "GNU General Public License v2.0"
 }

@@ -10,13 +10,13 @@ description: TJAPlayer for 3DS - Music game of the TJA file.
 download_page: https://github.com/LuMariGames/TJAP_3DS/releases
 downloads:
   TJAP_3DS.3dsx:
-    size: 10395788
+    size: 9886088
     size_str: 9 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.1/TJAP_3DS.3dsx
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.3A/TJAP_3DS.3dsx
   TJAP_3DS.cia:
-    size: 10568640
-    size_str: 10 MiB
-    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.1/TJAP_3DS.cia
+    size: 10048448
+    size_str: 9 MiB
+    url: https://github.com/LuMariGames/TJAP_3DS/releases/download/v2.3.3A/TJAP_3DS.cia
 github: LuMariGames/TJAP_3DS
 icon: https://raw.githubusercontent.com/LuMariGames/TJAP_3DS/main/resource/icon.png
 image: https://raw.githubusercontent.com/togetg/TJAPlayer_for_3DS/master/resource/banner.png
@@ -31,7 +31,7 @@ screenshots:
 - description: Gameplay 2
   url: https://db.universal-team.net/assets/images/screenshots/tjap_3ds/gameplay-2.png
 source: https://github.com/LuMariGames/TJAP_3DS
-stars: 12
+stars: 13
 systems:
 - 3DS
 title: TJAP_3DS
@@ -41,24 +41,21 @@ update_notes: '<h2 dir="auto">チェンジログ</h2>
 
   <ul dir="auto">
 
-  <li>双打時にリプレイ機能が動作しなくなる不具合の修正</li>
-
-  <li><code class="notranslate">#NEXTSONG</code>の仮対応</li>
+  <li>リプレイ時にタッチしてないのにタッチエフェクトが表示される不具合の修正</li>
 
   </ul>
 
-  <h2 dir="auto">Change log</h2>
+  <h2 dir="auto">Changelog</h2>
 
   <ul dir="auto">
 
-  <li>Fixed a bug that prevented the replay function from working during double hits</li>
-
-  <li>Temporary support for <code class="notranslate">#NEXTSONG</code></li>
+  <li>Fixed a bug where touch effects were displayed during replays even when the
+  player was not touching the screen.</li>
 
   </ul>'
-updated: '2026-07-20T23:03:24Z'
-version: v2.3.1
-version_title: TJAPlayer for 3DS v2.3.1
+updated: '2026-08-18T01:02:41Z'
+version: v2.3.3A
+version_title: TJAPlayer for 3DS v2.3.3(A)
 wiki: https://github.com/LuMariGames/TJAP_3DS/wiki
 ---
 TJAPlayer for 3DSを約2年ぶりにTogeToge公認の上、更新しました。

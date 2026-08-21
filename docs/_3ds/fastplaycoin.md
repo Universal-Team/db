@@ -31,7 +31,7 @@ preinstall_message: 'Caution: This app conflicts with "Devils and Realist: Treas
 qr:
   FastPlayCoin.cia: https://db.universal-team.net/assets/images/qr/fastplaycoin-cia.png
 source: https://github.com/CorySanin/FastPlayCoin
-stars: 40
+stars: 42
 systems:
 - 3DS
 title: FastPlayCoin

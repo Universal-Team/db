@@ -12,8 +12,8 @@ download_filter: 3ds
 download_page: https://github.com/nzp-team/nzportable/releases
 downloads:
   nzportable-3ds.zip:
-    size: 73064821
-    size_str: 69 MiB
+    size: 100263130
+    size_str: 95 MiB
     url: https://github.com/nzp-team/nzportable/releases/download/nightly/nzportable-3ds.zip
 github: nzp-team/nzportable
 icon: https://raw.githubusercontent.com/nzp-team/vril-engine/main/source/platform/ctr/art/icon.png
@@ -35,7 +35,7 @@ screenshots:
 - description: Map selection
   url: https://db.universal-team.net/assets/images/screenshots/nazi-zombies-portable/map-selection.png
 source: https://github.com/nzp-team/nzportable
-stars: 770
+stars: 789
 systems:
 - 3DS
 title: 'Nazi Zombies: Portable'
@@ -48,7 +48,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <ul dir="auto">
 
-  <li>Game Assets</li>
+  <li>QuakeC (Game Code)</li>
+
+  <li>Vril (Engine)</li>
 
   </ul>
 
@@ -66,7 +68,8 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
   and launch with Homebrew Launcher. Requires extra memory, so make sure to open HBLauncher
   by holding ''R'' over an installed title!</li>
 
-  <li>PS VITA: Extract the .ZIP archive into ux0: and install <code class="notranslate">nzp.vpk</code>.</li>
+  <li>PS VITA: Extract <code class="notranslate">nzp.zip</code> into ux0:data/ and
+  install <code class="notranslate">nzportable.vpk</code>.</li>
 
   <li>Nintendo 3DS: Extract the .ZIP archive into <code class="notranslate">/3ds/</code>.</li>
 
@@ -77,9 +80,9 @@ update_notes: '<p dir="auto">This is a nightly generated automagically. Nightlie
 
   <p dir="auto">You can also play the WebGL version at <a href="https://nzp.gay/"
   rel="nofollow">https://nzp.gay/</a></p>'
-updated: '2026-07-01T10:46:27Z'
+updated: '2026-08-16T07:38:40Z'
 version: nightly
-version_title: 2.0.0-indev+20260701104511
+version_title: 2.0.0-indev+20260816073712
 website: https://github.com/nzp-team/nzportable
 ---
 A Quake-based "demake" of the 'Nazi Zombies' mode from Call of Duty: World at War.

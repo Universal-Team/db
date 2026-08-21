@@ -26,7 +26,7 @@ llm_generation: 'no'
 qr:
   ctrQuake.cia: https://db.universal-team.net/assets/images/qr/ctrquake-cia.png
 source: https://github.com/masterfeizz/ctrQuake
-stars: 104
+stars: 105
 systems:
 - 3DS
 title: ctrQuake
