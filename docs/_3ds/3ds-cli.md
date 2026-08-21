@@ -10,9 +10,9 @@ description: Run full RISCV Linux on (almost) every single Nintendo console
 download_page: https://github.com/cmdada/3DS-CLI/releases
 downloads:
   3ds_cli.zip:
-    size: 56246632
-    size_str: 53 MiB
-    url: https://github.com/cmdada/3DS-CLI/releases/download/3.0/3ds_cli.zip
+    size: 57500649
+    size_str: 54 MiB
+    url: https://github.com/cmdada/3DS-CLI/releases/download/4.0/3ds_cli.zip
 github: cmdada/3DS-CLI
 icon: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
 image: https://raw.githubusercontent.com/cmdada/3DS-CLI/main/icon.png
@@ -28,31 +28,101 @@ systems:
 title: 3DS-CLI
 unique_ids:
 - '0x1111'
-update_notes: '<h2 dir="auto">SD Card Setup</h2>
+update_notes: '<h2 dir="auto">Setup</h2>
 
-  <p dir="auto">Extract the zip and copy to your SD card:</p>
+  <p dir="auto">One <code class="notranslate">Image</code> serves every console -
+  the guest is identical, only the<br>
 
-  <ul dir="auto">
+  host binary differs. Copy <code class="notranslate">Image</code> to the root of
+  your SD card, then<br>
 
-  <li><code class="notranslate">Image</code> → <code class="notranslate">sdmc:/Image</code></li>
+  the binary for your console:</p>
 
-  <li><code class="notranslate">3ds-cli.3dsx</code> → <code class="notranslate">sdmc:/3ds/3ds-cli/3ds-cli.3dsx</code></li>
+  <markdown-accessiblity-table><table role="table">
 
-  </ul>
+  <thead>
+
+  <tr>
+
+  <th>Console</th>
+
+  <th>Binary</th>
+
+  <th>Goes to</th>
+
+  </tr>
+
+  </thead>
+
+  <tbody>
+
+  <tr>
+
+  <td>3DS</td>
+
+  <td><code class="notranslate">3ds/3ds-cli.3dsx</code></td>
+
+  <td><code class="notranslate">sdmc:/3ds/3ds-cli/</code></td>
+
+  </tr>
+
+  <tr>
+
+  <td>Wii U</td>
+
+  <td><code class="notranslate">wiiu/3ds-cli.wuhb</code></td>
+
+  <td><code class="notranslate">sd:/wiiu/apps/</code></td>
+
+  </tr>
+
+  <tr>
+
+  <td>Switch</td>
+
+  <td><code class="notranslate">switch/3ds-cli.nro</code></td>
+
+  <td><code class="notranslate">sdmc:/switch/</code></td>
+
+  </tr>
+
+  <tr>
+
+  <td>Wii</td>
+
+  <td><code class="notranslate">wii/3ds-cli.dol</code></td>
+
+  <td><code class="notranslate">sd:/apps/3ds-cli/boot.dol</code></td>
+
+  </tr>
+
+  <tr>
+
+  <td>GameCube</td>
+
+  <td><code class="notranslate">gamecube/3ds-cli.dol</code></td>
+
+  <td>SD Gecko / SD2SP2</td>
+
+  </tr>
+
+  </tbody>
+
+  </table></markdown-accessiblity-table>
 
   <p dir="auto">The Image has the root filesystem bundled in: on first boot the app<br>
 
-  unpacks it to <code class="notranslate">sdmc:/rootfs.ext2</code>, which stays as
-  the writable disk<br>
+  unpacks it to <code class="notranslate">rootfs.ext2</code> on the card, which stays
+  as the writable<br>
 
-  from then on - changes persist across sessions.<br>
+  disk from then on - changes persist across sessions.<br>
 
   Includes: bash, htop, neofetch, nano, vim, tree, wget, dropbear,<br>
 
   procps, util-linux.</p>'
-updated: '2026-08-12T23:05:51Z'
-version: '3.0'
-version_title: V3.0 - Settings page!
+updated: '2026-08-21T19:15:34Z'
+version: '4.0'
+version_title: V4.0 - Wii U, Switch, Wii and GameCube
 ---
 
 A Nintendo 3DS homebrew application that embeds a full RISC-V CPU emulator (`mini-rv32ima` by cnlohr) to boot a real Linux environment inside the 3DS Horizon OS.
