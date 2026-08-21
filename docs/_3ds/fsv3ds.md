@@ -10,8 +10,8 @@ description: A homebrew 3DS port of fsv, the 3D File System Visualizer
 download_page: https://github.com/Bruce303lee/fsv3ds/releases
 downloads:
   fsv3ds-launcher.cia:
-    size: 83392
-    size_str: 81 KiB
+    size: 90048
+    size_str: 87 KiB
     url: https://github.com/Bruce303lee/fsv3ds/releases/download/v1.0.0/fsv3ds-launcher.cia
   fsv3ds.3dsx:
     size: 691948
@@ -80,10 +80,8 @@ update_notes: '<p dir="auto">fsv3ds is a homebrew 3DS port of <a href="https://g
   <li><code class="notranslate">fsv3ds-launcher.cia</code> — optional forwarder CIA
   that gives fsv3ds its own Home Menu icon and chainloads the <code class="notranslate">.3dsx</code>
   above (requires the <code class="notranslate">.3dsx</code> to be present at <code
-  class="notranslate">sdmc:/3ds/fsv3ds/fsv3ds.3dsx</code>)</li>
-
-  <li><code class="notranslate">fsv3ds.smdh</code> — icon/metadata sidecar, not required
-  to run</li>
+  class="notranslate">sdmc:/3ds/fsv3ds.3dsx</code>, i.e. directly in <code class="notranslate">/3ds/</code>,
+  same as any other Homebrew Launcher app)</li>
 
   </ul>
 
