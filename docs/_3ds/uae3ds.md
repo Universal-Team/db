@@ -32,7 +32,7 @@ preinstall_message: 'You will need a "kick.rom" file in sdmc:/3ds/uae3DS.
 qr:
   uae3DS.cia: https://db.universal-team.net/assets/images/qr/uae3ds-cia.png
 source: https://github.com/badda71/uae3DS
-stars: 48
+stars: 49
 systems:
 - 3DS
 title: uae3DS

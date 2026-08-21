@@ -6,8 +6,7 @@ categories:
 color: '#433943'
 color_bg: '#433943'
 created: '2026-05-10T04:52:37Z'
-description: Nintendo 3DS homebrew application that embeds a full RISC-V emulator
-  to boot a Linux environment inside the 3DS Horizon OS.
+description: Run full RISCV Linux on (almost) every single Nintendo console
 download_page: https://github.com/cmdada/3DS-CLI/releases
 downloads:
   3ds_cli.zip:
